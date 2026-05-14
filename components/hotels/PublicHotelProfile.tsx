@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { ArrowLeft, Mail, Phone } from "lucide-react";
+import { ArrowLeft, Mail, MapPin, Phone } from "lucide-react";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { structureTypeLabels, type StructureType } from "@/types/app";
 
@@ -23,6 +23,7 @@ type HotelProfile = {
   services: Record<string, boolean> | null;
   public_email: string | null;
   public_phone: string | null;
+  google_maps_url: string | null;
   cin_code: string;
 };
 
@@ -56,7 +57,7 @@ export function PublicHotelProfile() {
         const supabase = createBrowserSupabaseClient();
         const { data, error: hotelError } = await supabase
           .from("hotel_accounts")
-          .select("id, property_name, structure_type, main_photo_url, gallery_photo_urls, description, full_address, country_name, city_name, specific_area, points_of_interest, rooms_quantity, services, public_email, public_phone, cin_code")
+          .select("id, property_name, structure_type, main_photo_url, gallery_photo_urls, description, full_address, country_name, city_name, specific_area, points_of_interest, rooms_quantity, services, public_email, public_phone, google_maps_url, cin_code")
           .eq("id", hotelId)
           .eq("account_status", "active")
           .eq("subscription_active", true)
@@ -111,12 +112,25 @@ export function PublicHotelProfile() {
 
             {hotel.description ? <p className="mt-6 leading-7 text-zinc-700 dark:text-zinc-300">{hotel.description}</p> : null}
 
+            {hotel.gallery_photo_urls?.length ? (
+              <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                {hotel.gallery_photo_urls.map((photo) => (
+                  <img key={photo} src={photo} alt={hotel.property_name} className="h-36 w-full rounded-2xl object-cover" />
+                ))}
+              </div>
+            ) : null}
+
             <div className="mt-6 grid gap-4 md:grid-cols-2">
               <div className="rounded-2xl border border-zinc-200 p-5 dark:border-zinc-800">
                 <h2 className="font-semibold">Informazioni</h2>
                 <p className="mt-2 text-sm text-zinc-500">Indirizzo: {hotel.full_address}</p>
                 <p className="mt-1 text-sm text-zinc-500">Camere/unità: {hotel.rooms_quantity}</p>
                 {hotel.points_of_interest?.length ? <p className="mt-1 text-sm text-zinc-500">Punti di interesse: {hotel.points_of_interest.join(", ")}</p> : null}
+                {hotel.google_maps_url ? (
+                  <a href={hotel.google_maps_url} target="_blank" rel="noreferrer" className="mt-4 inline-flex items-center gap-2 rounded-full bg-zinc-950 px-4 py-2 text-sm font-semibold text-white dark:bg-white dark:text-zinc-950">
+                    <MapPin className="h-4 w-4" /> Apri su Google Maps
+                  </a>
+                ) : null}
               </div>
 
               <div className="rounded-2xl border border-zinc-200 p-5 dark:border-zinc-800">
