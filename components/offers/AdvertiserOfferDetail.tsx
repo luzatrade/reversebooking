@@ -7,6 +7,27 @@ import { ArrowLeft, CheckCircle2, XCircle } from "lucide-react";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { mealPlanLabels, structureTypeLabels, type MealPlan, type StructureType } from "@/types/app";
 
+type OfferHotel = {
+  id: string;
+  property_name: string;
+  structure_type: StructureType;
+  city_name: string;
+  specific_area: string | null;
+  cin_code: string;
+  description: string | null;
+  public_email: string | null;
+  public_phone: string | null;
+};
+
+type OfferRequest = {
+  id: string;
+  city_name: string;
+  preferred_area: string;
+  check_in: string;
+  check_out: string;
+  status: string;
+};
+
 type OfferDetail = {
   id: string;
   travel_request_id: string;
@@ -17,26 +38,22 @@ type OfferDetail = {
   expires_at: string;
   status: string;
   created_at: string;
-  hotel_accounts: {
-    id: string;
-    property_name: string;
-    structure_type: StructureType;
-    city_name: string;
-    specific_area: string | null;
-    cin_code: string;
-    description: string | null;
-    public_email: string | null;
-    public_phone: string | null;
-  } | null;
-  travel_requests: {
-    id: string;
-    city_name: string;
-    preferred_area: string;
-    check_in: string;
-    check_out: string;
-    status: string;
-  } | null;
+  hotel_accounts: OfferHotel | null;
+  travel_requests: OfferRequest | null;
 };
+
+type RawOfferDetail = Omit<OfferDetail, "hotel_accounts" | "travel_requests"> & {
+  hotel_accounts: OfferHotel | OfferHotel[] | null;
+  travel_requests: OfferRequest | OfferRequest[] | null;
+};
+
+function normalizeOfferDetail(raw: RawOfferDetail): OfferDetail {
+  return {
+    ...raw,
+    hotel_accounts: Array.isArray(raw.hotel_accounts) ? raw.hotel_accounts[0] ?? null : raw.hotel_accounts,
+    travel_requests: Array.isArray(raw.travel_requests) ? raw.travel_requests[0] ?? null : raw.travel_requests,
+  };
+}
 
 function formatDate(value: string) {
   return new Intl.DateTimeFormat("it-IT", { day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(value));
@@ -93,7 +110,7 @@ export function AdvertiserOfferDetail() {
         return;
       }
 
-      setOffer(data as OfferDetail);
+      setOffer(normalizeOfferDetail(data as unknown as RawOfferDetail));
     } catch (err) {
       setError(err instanceof Error ? err.message : "Errore durante il caricamento dell’offerta.");
     } finally {
