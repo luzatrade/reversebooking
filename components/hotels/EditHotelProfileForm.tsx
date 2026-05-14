@@ -3,7 +3,10 @@
 import { FormEvent, useEffect, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { CountryCitySelect } from "@/components/location/CountryCitySelect";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
+import { findCityById } from "@/lib/constants/world-city-helpers";
+import { type WorldCity } from "@/lib/constants/world-cities";
 import { structureTypeLabels, type StructureType } from "@/types/app";
 
 type HotelForm = {
@@ -13,6 +16,8 @@ type HotelForm = {
   cin_code: string;
   description: string;
   full_address: string;
+  country_code: string;
+  country_name: string;
   city_name: string;
   city_id: string;
   specific_area: string;
@@ -23,6 +28,8 @@ type HotelForm = {
   public_phone: string;
 };
 
+const defaultCity = findCityById(null);
+
 const emptyForm: HotelForm = {
   id: "",
   property_name: "",
@@ -30,8 +37,10 @@ const emptyForm: HotelForm = {
   cin_code: "",
   description: "",
   full_address: "",
-  city_name: "Verona",
-  city_id: "3164527",
+  country_code: defaultCity.country_code,
+  country_name: defaultCity.country_name,
+  city_name: defaultCity.city_name,
+  city_id: defaultCity.city_id,
   specific_area: "",
   rooms_quantity: 1,
   main_photo_url: "",
@@ -42,6 +51,7 @@ const emptyForm: HotelForm = {
 
 export function EditHotelProfileForm() {
   const [form, setForm] = useState<HotelForm>(emptyForm);
+  const [selectedCity, setSelectedCity] = useState<WorldCity>(defaultCity);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -63,7 +73,7 @@ export function EditHotelProfileForm() {
 
         const { data, error: hotelError } = await supabase
           .from("hotel_accounts")
-          .select("id, property_name, structure_type, cin_code, description, full_address, city_name, city_id, specific_area, rooms_quantity, main_photo_url, google_maps_url, public_email, public_phone")
+          .select("id, property_name, structure_type, cin_code, description, full_address, country_code, country_name, city_name, city_id, specific_area, rooms_quantity, main_photo_url, google_maps_url, public_email, public_phone")
           .eq("user_id", authData.user.id)
           .single();
 
@@ -72,6 +82,8 @@ export function EditHotelProfileForm() {
           return;
         }
 
+        const city = findCityById(data.city_id);
+        setSelectedCity(city);
         setForm({
           id: data.id,
           property_name: data.property_name ?? "",
@@ -79,8 +91,10 @@ export function EditHotelProfileForm() {
           cin_code: data.cin_code ?? "",
           description: data.description ?? "",
           full_address: data.full_address ?? "",
-          city_name: data.city_name ?? "Verona",
-          city_id: data.city_id ?? "3164527",
+          country_code: city.country_code,
+          country_name: city.country_name,
+          city_name: city.city_name,
+          city_id: city.city_id,
           specific_area: data.specific_area ?? "",
           rooms_quantity: data.rooms_quantity ?? 1,
           main_photo_url: data.main_photo_url ?? "",
@@ -102,6 +116,17 @@ export function EditHotelProfileForm() {
     setForm((current) => ({ ...current, [key]: value }));
   }
 
+  function updateCity(city: WorldCity) {
+    setSelectedCity(city);
+    setForm((current) => ({
+      ...current,
+      country_code: city.country_code,
+      country_name: city.country_name,
+      city_name: city.city_name,
+      city_id: city.city_id,
+    }));
+  }
+
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setSaving(true);
@@ -118,6 +143,8 @@ export function EditHotelProfileForm() {
           cin_code: form.cin_code,
           description: form.description || null,
           full_address: form.full_address,
+          country_code: form.country_code,
+          country_name: form.country_name,
           city_name: form.city_name,
           city_id: form.city_id,
           specific_area: form.specific_area || null,
@@ -163,6 +190,14 @@ export function EditHotelProfileForm() {
           <p className="mt-2 text-sm text-zinc-500">Questi dati saranno visibili agli inserzionisti.</p>
         </div>
 
+        <CountryCitySelect
+          value={selectedCity}
+          onChange={updateCity}
+          countryLabel="Nazione struttura"
+          cityLabel="Città principale struttura"
+          helpText="La struttura riceverà annunci compatibili solo per questa città principale."
+        />
+
         <div className="grid gap-5 md:grid-cols-2">
           <label className="block text-sm font-medium">Nome hotel / struttura
             <input value={form.property_name} onChange={(e) => update("property_name", e.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
@@ -174,7 +209,7 @@ export function EditHotelProfileForm() {
             </select>
           </label>
 
-          <label className="block text-sm font-medium">CIN
+          <label className="block text-sm font-medium">CIN / codice registrazione
             <input value={form.cin_code} onChange={(e) => update("cin_code", e.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
           </label>
 
@@ -194,16 +229,8 @@ export function EditHotelProfileForm() {
             <input value={form.full_address} onChange={(e) => update("full_address", e.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
           </label>
 
-          <label className="block text-sm font-medium">Città
-            <input value={form.city_name} onChange={(e) => update("city_name", e.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
-          </label>
-
-          <label className="block text-sm font-medium">City ID
-            <input value={form.city_id} onChange={(e) => update("city_id", e.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
-          </label>
-
           <label className="block text-sm font-medium">Zona
-            <input value={form.specific_area} onChange={(e) => update("specific_area", e.target.value)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
+            <input value={form.specific_area} onChange={(e) => update("specific_area", e.target.value)} placeholder="Centro, mare, aeroporto..." className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
           </label>
 
           <label className="block text-sm font-medium">Google Maps URL
