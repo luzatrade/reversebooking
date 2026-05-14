@@ -1,8 +1,9 @@
 "use client";
 
-import { FormEvent, useEffect, useState } from "react";
+import { ChangeEvent, FormEvent, useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ImagePlus, X } from "lucide-react";
 import { CountryCitySelect } from "@/components/location/CountryCitySelect";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { findCityById } from "@/lib/constants/world-city-helpers";
@@ -23,12 +24,14 @@ type HotelForm = {
   specific_area: string;
   rooms_quantity: number;
   main_photo_url: string;
+  gallery_photo_urls: string[];
   google_maps_url: string;
   public_email: string;
   public_phone: string;
 };
 
 const defaultCity = findCityById(null);
+const MAX_GALLERY_PHOTOS = 4;
 
 const emptyForm: HotelForm = {
   id: "",
@@ -44,16 +47,25 @@ const emptyForm: HotelForm = {
   specific_area: "",
   rooms_quantity: 1,
   main_photo_url: "",
+  gallery_photo_urls: [],
   google_maps_url: "",
   public_email: "",
   public_phone: "",
 };
 
+function fileExtension(file: File) {
+  if (file.type === "image/png") return "png";
+  if (file.type === "image/webp") return "webp";
+  return "jpg";
+}
+
 export function EditHotelProfileForm() {
   const [form, setForm] = useState<HotelForm>(emptyForm);
   const [selectedCity, setSelectedCity] = useState<WorldCity>(defaultCity);
+  const [userId, setUserId] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
+  const [uploading, setUploading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
 
@@ -71,9 +83,11 @@ export function EditHotelProfileForm() {
           return;
         }
 
+        setUserId(authData.user.id);
+
         const { data, error: hotelError } = await supabase
           .from("hotel_accounts")
-          .select("id, property_name, structure_type, cin_code, description, full_address, country_code, country_name, city_name, city_id, specific_area, rooms_quantity, main_photo_url, google_maps_url, public_email, public_phone")
+          .select("id, property_name, structure_type, cin_code, description, full_address, country_code, country_name, city_name, city_id, specific_area, rooms_quantity, main_photo_url, gallery_photo_urls, google_maps_url, public_email, public_phone")
           .eq("user_id", authData.user.id)
           .single();
 
@@ -98,6 +112,7 @@ export function EditHotelProfileForm() {
           specific_area: data.specific_area ?? "",
           rooms_quantity: data.rooms_quantity ?? 1,
           main_photo_url: data.main_photo_url ?? "",
+          gallery_photo_urls: data.gallery_photo_urls ?? [],
           google_maps_url: data.google_maps_url ?? "",
           public_email: data.public_email ?? "",
           public_phone: data.public_phone ?? "",
@@ -127,6 +142,71 @@ export function EditHotelProfileForm() {
     }));
   }
 
+  async function uploadPhoto(file: File, kind: "main" | "gallery") {
+    if (!userId) throw new Error("Utente non trovato.");
+    if (!file.type.startsWith("image/")) throw new Error("Carica solo immagini JPG, PNG o WEBP.");
+    if (file.size > 5 * 1024 * 1024) throw new Error("La foto deve pesare massimo 5MB.");
+
+    const supabase = createBrowserSupabaseClient();
+    const path = `${userId}/${kind}-${Date.now()}.${fileExtension(file)}`;
+    const { error: uploadError } = await supabase.storage.from("hotel-photos").upload(path, file, {
+      cacheControl: "3600",
+      upsert: true,
+    });
+
+    if (uploadError) throw uploadError;
+
+    const { data } = supabase.storage.from("hotel-photos").getPublicUrl(path);
+    return data.publicUrl;
+  }
+
+  async function onMainPhotoChange(event: ChangeEvent<HTMLInputElement>) {
+    const file = event.target.files?.[0];
+    if (!file) return;
+    setUploading(true);
+    setError(null);
+    setSuccess(null);
+
+    try {
+      const url = await uploadPhoto(file, "main");
+      update("main_photo_url", url);
+      setSuccess("Foto principale caricata. Ricorda di salvare il profilo.");
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Errore durante il caricamento della foto.");
+    } finally {
+      setUploading(false);
+      event.target.value = "";
+    }
+  }
+
+  async function onGalleryPhotoChange(event: ChangeEvent<HTMLInputElement>) {
+    const file = event.target.files?.[0];
+    if (!file) return;
+    setUploading(true);
+    setError(null);
+    setSuccess(null);
+
+    try {
+      if (form.gallery_photo_urls.length >= MAX_GALLERY_PHOTOS) {
+        setError("Puoi caricare massimo 4 foto aggiuntive.");
+        return;
+      }
+
+      const url = await uploadPhoto(file, "gallery");
+      update("gallery_photo_urls", [...form.gallery_photo_urls, url].slice(0, MAX_GALLERY_PHOTOS));
+      setSuccess("Foto galleria caricata. Ricorda di salvare il profilo.");
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Errore durante il caricamento della foto.");
+    } finally {
+      setUploading(false);
+      event.target.value = "";
+    }
+  }
+
+  function removeGalleryPhoto(index: number) {
+    update("gallery_photo_urls", form.gallery_photo_urls.filter((_, photoIndex) => photoIndex !== index));
+  }
+
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setSaving(true);
@@ -150,6 +230,7 @@ export function EditHotelProfileForm() {
           specific_area: form.specific_area || null,
           rooms_quantity: form.rooms_quantity,
           main_photo_url: form.main_photo_url || null,
+          gallery_photo_urls: form.gallery_photo_urls.slice(0, MAX_GALLERY_PHOTOS),
           google_maps_url: form.google_maps_url || null,
           public_email: form.public_email || null,
           public_phone: form.public_phone || null,
@@ -221,9 +302,50 @@ export function EditHotelProfileForm() {
             <textarea value={form.description} onChange={(e) => update("description", e.target.value)} rows={5} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
           </label>
 
-          <label className="block text-sm font-medium md:col-span-2">Foto principale URL
-            <input value={form.main_photo_url} onChange={(e) => update("main_photo_url", e.target.value)} placeholder="https://..." className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
-          </label>
+          <section className="space-y-4 rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 md:col-span-2">
+            <div>
+              <h2 className="font-semibold">Foto hotel</h2>
+              <p className="mt-1 text-sm text-zinc-500">Carica massimo 5 foto: 1 principale + 4 aggiuntive. Formati accettati: JPG, PNG, WEBP. Max 5MB per foto.</p>
+            </div>
+
+            <div className="grid gap-4 md:grid-cols-[240px_1fr]">
+              <div className="rounded-2xl border border-zinc-200 p-3 dark:border-zinc-800">
+                <p className="text-sm font-medium">Foto principale</p>
+                <div className="mt-3 aspect-video overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-950">
+                  {form.main_photo_url ? (
+                    <Image src={form.main_photo_url} alt="Foto principale hotel" width={600} height={360} className="h-full w-full object-cover" />
+                  ) : (
+                    <div className="flex h-full items-center justify-center text-sm text-zinc-500">Nessuna foto</div>
+                  )}
+                </div>
+                <label className="mt-3 inline-flex cursor-pointer items-center gap-2 rounded-full bg-zinc-950 px-4 py-2 text-sm font-semibold text-white dark:bg-white dark:text-zinc-950">
+                  <ImagePlus className="h-4 w-4" /> {uploading ? "Caricamento..." : "Carica principale"}
+                  <input type="file" accept="image/jpeg,image/png,image/webp" onChange={onMainPhotoChange} disabled={uploading} className="sr-only" />
+                </label>
+              </div>
+
+              <div className="rounded-2xl border border-zinc-200 p-3 dark:border-zinc-800">
+                <div className="flex items-center justify-between gap-3">
+                  <p className="text-sm font-medium">Foto aggiuntive ({form.gallery_photo_urls.length}/4)</p>
+                  <label className={`inline-flex cursor-pointer items-center gap-2 rounded-full border px-4 py-2 text-sm font-semibold ${form.gallery_photo_urls.length >= MAX_GALLERY_PHOTOS ? "pointer-events-none opacity-50" : ""}`}>
+                    <ImagePlus className="h-4 w-4" /> Aggiungi foto
+                    <input type="file" accept="image/jpeg,image/png,image/webp" onChange={onGalleryPhotoChange} disabled={uploading || form.gallery_photo_urls.length >= MAX_GALLERY_PHOTOS} className="sr-only" />
+                  </label>
+                </div>
+                <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                  {form.gallery_photo_urls.map((url, index) => (
+                    <div key={url} className="relative aspect-video overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-950">
+                      <Image src={url} alt={`Foto hotel ${index + 1}`} width={300} height={180} className="h-full w-full object-cover" />
+                      <button type="button" onClick={() => removeGalleryPhoto(index)} className="absolute right-2 top-2 rounded-full bg-white/90 p-1 text-zinc-900 shadow-sm">
+                        <X className="h-4 w-4" />
+                      </button>
+                    </div>
+                  ))}
+                  {!form.gallery_photo_urls.length ? <p className="text-sm text-zinc-500">Nessuna foto aggiuntiva caricata.</p> : null}
+                </div>
+              </div>
+            </div>
+          </section>
 
           <label className="block text-sm font-medium md:col-span-2">Indirizzo completo
             <input value={form.full_address} onChange={(e) => update("full_address", e.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
@@ -259,8 +381,8 @@ export function EditHotelProfileForm() {
           </label>
         </div>
 
-        <button disabled={saving} type="submit" className="rounded-full bg-zinc-950 px-6 py-3 text-sm font-semibold text-white disabled:opacity-60 dark:bg-white dark:text-zinc-950">
-          {saving ? "Salvataggio..." : "Salva profilo struttura"}
+        <button disabled={saving || uploading} type="submit" className="rounded-full bg-zinc-950 px-6 py-3 text-sm font-semibold text-white disabled:opacity-60 dark:bg-white dark:text-zinc-950">
+          {saving ? "Salvataggio..." : uploading ? "Caricamento foto..." : "Salva profilo struttura"}
         </button>
       </form>
     </div>
