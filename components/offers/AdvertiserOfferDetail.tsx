@@ -7,52 +7,13 @@ import { ArrowLeft, CheckCircle2, XCircle } from "lucide-react";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { mealPlanLabels, structureTypeLabels, type MealPlan, type StructureType } from "@/types/app";
 
-type OfferHotel = {
-  id: string;
-  property_name: string;
-  structure_type: StructureType;
-  city_name: string;
-  specific_area: string | null;
-  cin_code: string;
-  description: string | null;
-  public_email: string | null;
-  public_phone: string | null;
-};
-
-type OfferRequest = {
-  id: string;
-  city_name: string;
-  preferred_area: string;
-  check_in: string;
-  check_out: string;
-  status: string;
-};
-
-type OfferDetail = {
-  id: string;
-  travel_request_id: string;
-  total_price: number;
-  description: string;
-  conditions: string | null;
-  meal_plan_included: MealPlan;
-  expires_at: string;
-  status: string;
-  created_at: string;
-  hotel_accounts: OfferHotel | null;
-  travel_requests: OfferRequest | null;
-};
-
-type RawOfferDetail = Omit<OfferDetail, "hotel_accounts" | "travel_requests"> & {
-  hotel_accounts: OfferHotel | OfferHotel[] | null;
-  travel_requests: OfferRequest | OfferRequest[] | null;
-};
+type OfferHotel = { id: string; property_name: string; structure_type: StructureType; city_name: string; specific_area: string | null; cin_code: string; description: string | null; public_email: string | null; public_phone: string | null };
+type OfferRequest = { id: string; city_name: string; preferred_area: string; check_in: string; check_out: string; status: string };
+type OfferDetail = { id: string; travel_request_id: string; total_price: number; description: string; conditions: string | null; meal_plan_included: MealPlan; expires_at: string; status: string; created_at: string; hotel_accounts: OfferHotel | null; travel_requests: OfferRequest | null };
+type RawOfferDetail = Omit<OfferDetail, "hotel_accounts" | "travel_requests"> & { hotel_accounts: OfferHotel | OfferHotel[] | null; travel_requests: OfferRequest | OfferRequest[] | null };
 
 function normalizeOfferDetail(raw: RawOfferDetail): OfferDetail {
-  return {
-    ...raw,
-    hotel_accounts: Array.isArray(raw.hotel_accounts) ? raw.hotel_accounts[0] ?? null : raw.hotel_accounts,
-    travel_requests: Array.isArray(raw.travel_requests) ? raw.travel_requests[0] ?? null : raw.travel_requests,
-  };
+  return { ...raw, hotel_accounts: Array.isArray(raw.hotel_accounts) ? raw.hotel_accounts[0] ?? null : raw.hotel_accounts, travel_requests: Array.isArray(raw.travel_requests) ? raw.travel_requests[0] ?? null : raw.travel_requests };
 }
 
 function formatDate(value: string) {
@@ -67,7 +28,6 @@ export function AdvertiserOfferDetail() {
   const params = useParams<{ id: string }>();
   const router = useRouter();
   const offerId = params.id;
-
   const [offer, setOffer] = useState<OfferDetail | null>(null);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
@@ -77,38 +37,16 @@ export function AdvertiserOfferDetail() {
   async function loadOffer() {
     setLoading(true);
     setError(null);
-
     try {
       const supabase = createBrowserSupabaseClient();
       const { data: authData, error: authError } = await supabase.auth.getUser();
-      if (authError || !authData.user) {
-        setError("Devi effettuare il login come inserzionista.");
-        return;
-      }
-
+      if (authError || !authData.user) { setError("Devi effettuare il login come inserzionista."); return; }
       const { data, error: offerError } = await supabase
         .from("offers")
-        .select(`
-          id,
-          travel_request_id,
-          total_price,
-          description,
-          conditions,
-          meal_plan_included,
-          expires_at,
-          status,
-          created_at,
-          hotel_accounts(id, property_name, structure_type, city_name, specific_area, cin_code, description, public_email, public_phone),
-          travel_requests(id, city_name, preferred_area, check_in, check_out, status)
-        `)
+        .select("id, travel_request_id, total_price, description, conditions, meal_plan_included, expires_at, status, created_at, hotel_accounts(id, property_name, structure_type, city_name, specific_area, cin_code, description, public_email, public_phone), travel_requests(id, city_name, preferred_area, check_in, check_out, status)")
         .eq("id", offerId)
         .single();
-
-      if (offerError || !data) {
-        setError("Offerta non trovata o non disponibile.");
-        return;
-      }
-
+      if (offerError || !data) { setError("Offerta non trovata o non disponibile."); return; }
       setOffer(normalizeOfferDetail(data as unknown as RawOfferDetail));
     } catch (err) {
       setError(err instanceof Error ? err.message : "Errore durante il caricamento dell’offerta.");
@@ -117,36 +55,20 @@ export function AdvertiserOfferDetail() {
     }
   }
 
-  useEffect(() => {
-    void loadOffer();
-  }, [offerId]);
+  useEffect(() => { void loadOffer(); }, [offerId]);
 
   async function updateOfferStatus(status: "accepted" | "rejected") {
     if (!offer) return;
     setSaving(true);
     setError(null);
     setMessage(null);
-
     try {
       const supabase = createBrowserSupabaseClient();
       const { error: offerError } = await supabase.from("offers").update({ status }).eq("id", offer.id);
-
-      if (offerError) {
-        setError(offerError.message);
-        return;
-      }
-
-      if (status === "accepted") {
-        await supabase.from("travel_requests").update({ status: "completed" }).eq("id", offer.travel_request_id);
-      }
-
-      await fetch("/api/notifications/offer-status", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ offerId: offer.id, status }),
-      });
-
-      setMessage(status === "accepted" ? "Offerta accettata. Ora puoi comunicare con la struttura." : "Offerta rifiutata.");
+      if (offerError) { setError(offerError.message); return; }
+      if (status === "accepted") await supabase.from("travel_requests").update({ status: "completed" }).eq("id", offer.travel_request_id);
+      await fetch("/api/notifications/offer-status", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ offerId: offer.id, status }) });
+      setMessage(status === "accepted" ? "Offerta accettata. Ora puoi comunicare dalla chat flottante in basso a destra." : "Offerta rifiutata.");
       setTimeout(() => router.push("/inserzionista/dashboard"), 900);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Errore durante l’aggiornamento dell’offerta.");
@@ -172,7 +94,7 @@ export function AdvertiserOfferDetail() {
             <div className="rounded-2xl border border-zinc-200 p-5 dark:border-zinc-800"><h2 className="text-lg font-semibold">Dettagli proposta</h2><p className="mt-2 text-sm"><strong>Trattamento incluso:</strong> {mealPlanLabels[offer.meal_plan_included]}</p><p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400">{offer.description}</p>{offer.conditions ? <p className="mt-3 text-sm text-zinc-500"><strong>Condizioni:</strong> {offer.conditions}</p> : null}</div>
           </div>
           <div className="mt-6 rounded-2xl border border-zinc-200 p-5 text-sm dark:border-zinc-800"><h2 className="text-lg font-semibold">Richiesta collegata</h2><p className="mt-2 text-zinc-600 dark:text-zinc-400">{offer.travel_requests?.city_name} · {offer.travel_requests?.preferred_area} · {offer.travel_requests ? formatDate(offer.travel_requests.check_in) : ""} → {offer.travel_requests ? formatDate(offer.travel_requests.check_out) : ""}</p></div>
-          {offer.status === "accepted" ? <Link href={`/chat/${offer.id}`} className="mt-6 inline-flex rounded-full bg-emerald-700 px-6 py-3 text-sm font-semibold text-white">Apri chat con la struttura</Link> : null}
+          {offer.status === "accepted" ? <div className="mt-6 inline-flex rounded-full border border-emerald-200 px-6 py-3 text-sm font-semibold text-emerald-700 dark:border-emerald-900 dark:text-emerald-300">Chat disponibile in basso a destra</div> : null}
           {offer.status === "pending" ? <div className="mt-6 flex flex-wrap gap-3"><button disabled={saving} onClick={() => updateOfferStatus("accepted")} className="inline-flex items-center gap-2 rounded-full bg-emerald-700 px-6 py-3 text-sm font-semibold text-white disabled:opacity-60"><CheckCircle2 className="h-4 w-4" /> Accetta offerta</button><button disabled={saving} onClick={() => updateOfferStatus("rejected")} className="inline-flex items-center gap-2 rounded-full border border-red-200 px-6 py-3 text-sm font-semibold text-red-700 disabled:opacity-60"><XCircle className="h-4 w-4" /> Rifiuta</button></div> : null}
         </section>
       ) : null}
