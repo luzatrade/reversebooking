@@ -22,6 +22,7 @@ type PreferenceFilters = {
   bathtub?: boolean;
   garage?: boolean;
   beach?: boolean;
+  pets_allowed?: boolean;
 };
 
 type TravelRequest = {
@@ -58,6 +59,7 @@ const filterLabels: Array<{ key: keyof PreferenceFilters; label: string }> = [
   { key: "bathtub", label: "Vasca" },
   { key: "garage", label: "Garage" },
   { key: "beach", label: "Spiaggia / vicino alla spiaggia" },
+  { key: "pets_allowed", label: "Animali ammessi" },
 ];
 
 function formatDate(value: string) {
