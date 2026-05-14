@@ -15,7 +15,6 @@ function expiresAtForCheckIn(checkIn: string) {
 export function CreateTravelRequestForm() {
   const router = useRouter();
   const [selectedCity, setSelectedCity] = useState<WorldCity>(majorWorldCities[0]);
-  const [nickname, setNickname] = useState("Viaggiatore");
   const [preferredArea, setPreferredArea] = useState("");
   const [preferredStructureType, setPreferredStructureType] = useState<PreferredStructureType>("all");
   const [checkIn, setCheckIn] = useState("2026-06-20");
@@ -62,7 +61,6 @@ export function CreateTravelRequestForm() {
 
       const { error: insertError } = await supabase.from("travel_requests").insert({
         advertiser_id: advertiser.id,
-        nickname: nickname.trim() || "Viaggiatore",
         country_code: selectedCity.country_code,
         country_name: selectedCity.country_name,
         city_name: selectedCity.city_name,
@@ -108,11 +106,6 @@ export function CreateTravelRequestForm() {
       />
 
       <div className="grid gap-5 md:grid-cols-2">
-        <label className="block text-sm font-medium">
-          Nickname
-          <input value={nickname} onChange={(event) => setNickname(event.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
-        </label>
-
         <label className="block text-sm font-medium">
           Zona preferita
           <input value={preferredArea} onChange={(event) => setPreferredArea(event.target.value)} required placeholder="Centro, mare, stazione, aeroporto..." className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
