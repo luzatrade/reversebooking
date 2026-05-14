@@ -15,12 +15,14 @@ set
 alter table hotel_accounts
 add column if not exists gallery_photo_urls text[] not null default '{}';
 
-create policy if not exists "hotel-photos-public-read"
+drop policy if exists "hotel-photos-public-read" on storage.objects;
+create policy "hotel-photos-public-read"
 on storage.objects
 for select
 using (bucket_id = 'hotel-photos');
 
-create policy if not exists "hotel-photos-user-upload"
+drop policy if exists "hotel-photos-user-upload" on storage.objects;
+create policy "hotel-photos-user-upload"
 on storage.objects
 for insert
 to authenticated
@@ -29,7 +31,8 @@ with check (
   and (storage.foldername(name))[1] = auth.uid()::text
 );
 
-create policy if not exists "hotel-photos-user-update"
+drop policy if exists "hotel-photos-user-update" on storage.objects;
+create policy "hotel-photos-user-update"
 on storage.objects
 for update
 to authenticated
@@ -42,7 +45,8 @@ with check (
   and (storage.foldername(name))[1] = auth.uid()::text
 );
 
-create policy if not exists "hotel-photos-user-delete"
+drop policy if exists "hotel-photos-user-delete" on storage.objects;
+create policy "hotel-photos-user-delete"
 on storage.objects
 for delete
 to authenticated
