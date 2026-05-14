@@ -55,13 +55,7 @@ export function RegisterForm() {
         return;
       }
 
-      if (data.consentStored === false) {
-        setMessage(
-          "Registrazione completata. Controlla l’email. Se non ricevi conferma entro breve, contatta il supporto.",
-        );
-      } else {
-        setMessage("Registrazione completata. Controlla la casella email per eventuali passaggi di verifica.");
-      }
+      setMessage("Registrazione completata. Ora puoi accedere dalla pagina Login con email e password.");
     } catch {
       setError("Errore di rete. Riprova.");
     } finally {
@@ -172,7 +166,14 @@ export function RegisterForm() {
       </div>
 
       {error ? <p className="text-sm text-red-600 dark:text-red-400">{error}</p> : null}
-      {message ? <p className="text-sm text-emerald-700 dark:text-emerald-400">{message}</p> : null}
+      {message ? (
+        <div className="space-y-3 rounded-lg border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-800 dark:border-emerald-900 dark:bg-emerald-950/40 dark:text-emerald-300">
+          <p>{message}</p>
+          <Link href="/login" className="inline-flex font-semibold underline">
+            Vai al login
+          </Link>
+        </div>
+      ) : null}
 
       <button
         type="submit"
