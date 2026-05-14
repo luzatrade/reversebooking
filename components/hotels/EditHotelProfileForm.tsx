@@ -233,9 +233,22 @@ export function EditHotelProfileForm() {
             <input value={form.specific_area} onChange={(e) => update("specific_area", e.target.value)} placeholder="Centro, mare, aeroporto..." className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
           </label>
 
-          <label className="block text-sm font-medium">Google Maps URL
-            <input value={form.google_maps_url} onChange={(e) => update("google_maps_url", e.target.value)} placeholder="https://maps.google.com/..." className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
-          </label>
+          <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 md:col-span-2">
+            <label className="block text-sm font-medium">Google Maps URL
+              <input value={form.google_maps_url} onChange={(e) => update("google_maps_url", e.target.value)} placeholder="https://maps.app.goo.gl/..." className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
+            </label>
+            <div className="mt-3 rounded-2xl bg-zinc-50 p-4 text-sm text-zinc-600 dark:bg-zinc-950/60 dark:text-zinc-300">
+              <p className="font-semibold text-zinc-800 dark:text-zinc-100">Come trovare il link corretto:</p>
+              <ol className="mt-2 list-decimal space-y-1 pl-5">
+                <li>Apri l’app Google Maps.</li>
+                <li>Cerca l’hotel.</li>
+                <li>Apri la scheda dell’hotel.</li>
+                <li>Tocca Condividi.</li>
+                <li>Tocca Copia link.</li>
+                <li>Incollalo in questo campo.</li>
+              </ol>
+            </div>
+          </div>
 
           <label className="block text-sm font-medium">Email pubblica
             <input value={form.public_email} onChange={(e) => update("public_email", e.target.value)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
