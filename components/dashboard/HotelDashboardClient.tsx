@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { Bell, Filter, ReceiptText, RefreshCw } from "lucide-react";
+import { Bell, Filter, ReceiptText, RefreshCw, UserCog } from "lucide-react";
 import { StatCard } from "@/components/dashboard/StatCard";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { advertiserTypeLabels, mealPlanLabels, type AdvertiserType, type MealPlan } from "@/types/app";
@@ -163,6 +163,9 @@ export function HotelDashboardClient() {
           <button onClick={loadDashboard} className="inline-flex items-center gap-2 rounded-full border px-5 py-3 text-sm font-semibold">
             <RefreshCw className="h-4 w-4" /> Aggiorna
           </button>
+          <Link href="/struttura/profilo" className="inline-flex items-center gap-2 rounded-full border px-5 py-3 text-sm font-semibold">
+            <UserCog className="h-4 w-4" /> Modifica profilo
+          </Link>
           <Link href="/struttura/fatturazione" className="inline-flex items-center gap-2 rounded-full border px-5 py-3 text-sm font-semibold">
             <ReceiptText className="h-4 w-4" /> Fatturazione
           </Link>
