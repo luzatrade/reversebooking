@@ -3,15 +3,10 @@
 import { FormEvent, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { CountryCitySelect } from "@/components/location/CountryCitySelect";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
+import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
 import { mealPlanLabels, structureTypeLabels, type MealPlan, type PreferredStructureType } from "@/types/app";
-
-const cityPresets = [
-  { label: "Verona, Italia", country_code: "IT", country_name: "Italia", city_name: "Verona", city_id: "3164527" },
-  { label: "Venezia, Italia", country_code: "IT", country_name: "Italia", city_name: "Venezia", city_id: "3164603" },
-  { label: "Roma, Italia", country_code: "IT", country_name: "Italia", city_name: "Roma", city_id: "3169070" },
-  { label: "Milano, Italia", country_code: "IT", country_name: "Italia", city_name: "Milano", city_id: "3173435" },
-];
 
 function expiresAtForCheckIn(checkIn: string) {
   return `${checkIn}T23:59:00+02:00`;
@@ -19,8 +14,9 @@ function expiresAtForCheckIn(checkIn: string) {
 
 export function CreateTravelRequestForm() {
   const router = useRouter();
-  const [cityIndex, setCityIndex] = useState(0);
-  const [preferredArea, setPreferredArea] = useState("vicino alla stazione");
+  const [selectedCity, setSelectedCity] = useState<WorldCity>(majorWorldCities[0]);
+  const [nickname, setNickname] = useState("Viaggiatore");
+  const [preferredArea, setPreferredArea] = useState("");
   const [preferredStructureType, setPreferredStructureType] = useState<PreferredStructureType>("all");
   const [checkIn, setCheckIn] = useState("2026-06-20");
   const [checkOut, setCheckOut] = useState("2026-06-23");
@@ -29,10 +25,6 @@ export function CreateTravelRequestForm() {
   const [budget, setBudget] = useState(450);
   const [mealPlan, setMealPlan] = useState<MealPlan>("breakfast");
   const [notes, setNotes] = useState("Preferenza per struttura comoda e con garage.");
-  const [visibleEmail, setVisibleEmail] = useState("");
-  const [visiblePhone, setVisiblePhone] = useState("");
-  const [visibleWhatsapp, setVisibleWhatsapp] = useState("");
-  const [visibleWebsite, setVisibleWebsite] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
@@ -68,13 +60,13 @@ export function CreateTravelRequestForm() {
         return;
       }
 
-      const city = cityPresets[cityIndex];
       const { error: insertError } = await supabase.from("travel_requests").insert({
         advertiser_id: advertiser.id,
-        country_code: city.country_code,
-        country_name: city.country_name,
-        city_name: city.city_name,
-        city_id: city.city_id,
+        nickname: nickname.trim() || "Viaggiatore",
+        country_code: selectedCity.country_code,
+        country_name: selectedCity.country_name,
+        city_name: selectedCity.city_name,
+        city_id: selectedCity.city_id,
         preferred_area: preferredArea,
         preferred_structure_type: preferredStructureType,
         check_in: checkIn,
@@ -84,10 +76,9 @@ export function CreateTravelRequestForm() {
         budget,
         meal_plan: mealPlan,
         notes: notes.trim() || null,
-        visible_contact_email: visibleEmail.trim() || null,
-        visible_contact_phone: visiblePhone.trim() || null,
-        visible_contact_whatsapp: visibleWhatsapp.trim() || null,
-        visible_contact_website: visibleWebsite.trim() || null,
+        visible_contact_email: null,
+        visible_contact_phone: null,
+        visible_contact_whatsapp: null,
         status: "active",
         expires_at: expiresAtForCheckIn(checkIn),
       });
@@ -108,19 +99,23 @@ export function CreateTravelRequestForm() {
 
   return (
     <form onSubmit={onSubmit} className="space-y-6 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
+      <CountryCitySelect
+        value={selectedCity}
+        onChange={setSelectedCity}
+        countryLabel="Nazione"
+        cityLabel="Città principale"
+        helpText="Scegli prima la nazione e poi la città principale dove vuoi ricevere offerte."
+      />
+
       <div className="grid gap-5 md:grid-cols-2">
         <label className="block text-sm font-medium">
-          Città
-          <select value={cityIndex} onChange={(event) => setCityIndex(Number(event.target.value))} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950">
-            {cityPresets.map((city, index) => (
-              <option key={city.city_id} value={index}>{city.label}</option>
-            ))}
-          </select>
+          Nickname
+          <input value={nickname} onChange={(event) => setNickname(event.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
         </label>
 
         <label className="block text-sm font-medium">
           Zona preferita
-          <input value={preferredArea} onChange={(event) => setPreferredArea(event.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
+          <input value={preferredArea} onChange={(event) => setPreferredArea(event.target.value)} required placeholder="Centro, mare, stazione, aeroporto..." className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
         </label>
 
         <label className="block text-sm font-medium">
@@ -134,7 +129,7 @@ export function CreateTravelRequestForm() {
         </label>
 
         <label className="block text-sm font-medium">
-          Ospiti
+          Ospiti totali
           <input type="number" min={1} value={guestsCount} onChange={(event) => setGuestsCount(Number(event.target.value))} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
         </label>
 
@@ -173,15 +168,8 @@ export function CreateTravelRequestForm() {
         <textarea value={notes} onChange={(event) => setNotes(event.target.value)} rows={4} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
       </label>
 
-      <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800">
-        <h2 className="font-semibold">Contatti visibili nell’annuncio</h2>
-        <p className="mt-1 text-sm text-zinc-500">Facoltativi. Email e telefono di registrazione restano privati.</p>
-        <div className="mt-4 grid gap-4 md:grid-cols-2">
-          <input placeholder="Email visibile" value={visibleEmail} onChange={(event) => setVisibleEmail(event.target.value)} className="rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
-          <input placeholder="Telefono visibile" value={visiblePhone} onChange={(event) => setVisiblePhone(event.target.value)} className="rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
-          <input placeholder="WhatsApp visibile" value={visibleWhatsapp} onChange={(event) => setVisibleWhatsapp(event.target.value)} className="rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
-          <input placeholder="Sito web visibile" value={visibleWebsite} onChange={(event) => setVisibleWebsite(event.target.value)} className="rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
-        </div>
+      <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800 dark:border-amber-900 dark:bg-amber-950/40 dark:text-amber-200">
+        I contatti personali restano nascosti. Potranno essere scambiati solo dopo che accetti un’offerta.
       </div>
 
       {error ? <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}
