@@ -15,14 +15,7 @@ type ChatMessage = {
   created_at: string;
 };
 
-type ProfileData = {
-  role: UserRole;
-};
-
-type OfferInfo = {
-  id: string;
-  status: string;
-};
+type OfferInfo = { id: string; status: string };
 
 function formatDateTime(value: string) {
   return new Intl.DateTimeFormat("it-IT", {
@@ -37,15 +30,38 @@ function formatDateTime(value: string) {
 export function OfferChat() {
   const params = useParams<{ offerId: string }>();
   const offerId = params.offerId;
-
   const [userId, setUserId] = useState<string | null>(null);
-  const [role, setRole] = useState<UserRole>("advertiser");
+  const [role, setRole] = useState<UserRole>("hotel");
   const [offer, setOffer] = useState<OfferInfo | null>(null);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [body, setBody] = useState("");
   const [loading, setLoading] = useState(true);
   const [sending, setSending] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  async function detectRole(currentUserId: string) {
+    const supabase = createBrowserSupabaseClient();
+    const { data: profile } = await supabase
+      .from("profiles")
+      .select("role")
+      .eq("user_id", currentUserId)
+      .maybeSingle();
+
+    if (profile?.role === "hotel" || profile?.role === "advertiser") {
+      setRole(profile.role);
+      return profile.role;
+    }
+
+    const { data: hotel } = await supabase
+      .from("hotel_accounts")
+      .select("id")
+      .eq("user_id", currentUserId)
+      .maybeSingle();
+
+    const fallbackRole: UserRole = hotel ? "hotel" : "advertiser";
+    setRole(fallbackRole);
+    return fallbackRole;
+  }
 
   async function loadChat() {
     setLoading(true);
@@ -61,14 +77,7 @@ export function OfferChat() {
       }
 
       setUserId(authData.user.id);
-
-      const { data: profileData } = await supabase
-        .from("profiles")
-        .select("role")
-        .eq("id", authData.user.id)
-        .single();
-
-      setRole(((profileData as ProfileData | null)?.role ?? "advertiser") as UserRole);
+      await detectRole(authData.user.id);
 
       const { data: offerData, error: offerError } = await supabase
         .from("offers")
@@ -77,17 +86,16 @@ export function OfferChat() {
         .single();
 
       if (offerError || !offerData) {
-        setError("Chat non disponibile o offerta non trovata.");
+        setError("Offerta non trovata.");
         return;
       }
 
-      const typedOffer = offerData as OfferInfo;
-      if (typedOffer.status !== "accepted") {
+      if (offerData.status !== "accepted") {
         setError("La chat si apre solo dopo l’accettazione dell’offerta.");
         return;
       }
 
-      setOffer(typedOffer);
+      setOffer(offerData as OfferInfo);
 
       const { data: messageData, error: messageError } = await supabase
         .from("offer_messages")
@@ -121,10 +129,11 @@ export function OfferChat() {
 
     try {
       const supabase = createBrowserSupabaseClient();
+      const currentRole = await detectRole(userId);
       const { error: insertError } = await supabase.from("offer_messages").insert({
         offer_id: offerId,
         sender_id: userId,
-        sender_role: role,
+        sender_role: currentRole,
         body: body.trim(),
       });
 
@@ -151,7 +160,6 @@ export function OfferChat() {
       <section className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
         <p className="text-sm font-medium uppercase tracking-wide text-emerald-700">Chat offerta accettata</p>
         <h1 className="mt-2 text-3xl font-semibold tracking-tight">Conversazione</h1>
-        <p className="mt-2 text-sm text-zinc-500">La chat è disponibile solo dopo l’accettazione dell’offerta.</p>
       </section>
 
       {error ? <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}
@@ -159,7 +167,7 @@ export function OfferChat() {
       <section className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
         <div className="max-h-[520px] space-y-3 overflow-y-auto pr-2">
           {loading ? <p className="text-sm text-zinc-500">Caricamento chat...</p> : null}
-          {!loading && !error && messages.length === 0 ? <p className="text-sm text-zinc-500">Nessun messaggio ancora. Scrivi il primo messaggio.</p> : null}
+          {!loading && !error && messages.length === 0 ? <p className="text-sm text-zinc-500">Nessun messaggio ancora.</p> : null}
           {messages.map((message) => {
             const mine = message.sender_id === userId;
             return (
