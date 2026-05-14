@@ -208,21 +208,21 @@ export function FloatingChatWidget() {
   const request = firstRelation(activeOffer?.travel_requests);
 
   return (
-    <div className="fixed bottom-5 right-5 z-50">
+    <div className="fixed inset-x-3 bottom-3 z-50 flex flex-col items-end sm:inset-x-auto sm:bottom-5 sm:right-5">
       {open ? (
-        <div className="mb-4 w-[360px] overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-2xl dark:border-zinc-800 dark:bg-zinc-900 sm:w-[420px]">
+        <div className="mb-3 w-full max-w-[calc(100vw-1.5rem)] overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-2xl dark:border-zinc-800 dark:bg-zinc-900 sm:mb-4 sm:w-[420px] sm:max-w-none md:w-[520px]">
           <div className="flex items-center justify-between border-b border-zinc-200 p-4 dark:border-zinc-800">
             <div>
               <p className="text-sm font-semibold">Chat</p>
               <p className="text-xs text-zinc-500">Offerte accettate</p>
             </div>
-            <button onClick={() => setOpen(false)} className="rounded-full p-2 hover:bg-zinc-100 dark:hover:bg-zinc-800">
+            <button onClick={() => setOpen(false)} className="rounded-full p-2 hover:bg-zinc-100 dark:hover:bg-zinc-800" aria-label="Chiudi chat">
               <X className="h-4 w-4" />
             </button>
           </div>
 
-          <div className="grid grid-cols-[130px_1fr]">
-            <div className="max-h-[460px] overflow-y-auto border-r border-zinc-200 p-2 dark:border-zinc-800">
+          <div className="flex max-h-[75vh] flex-col sm:max-h-[540px] sm:grid sm:grid-cols-[140px_1fr]">
+            <div className="flex gap-2 overflow-x-auto border-b border-zinc-200 p-2 dark:border-zinc-800 sm:block sm:max-h-[460px] sm:overflow-y-auto sm:border-b-0 sm:border-r">
               {offers.length === 0 ? <p className="p-3 text-xs text-zinc-500">Nessuna chat.</p> : null}
               {offers.map((offer) => {
                 const offerHotel = firstRelation(offer.hotel_accounts);
@@ -232,19 +232,19 @@ export function FloatingChatWidget() {
                     key={offer.id}
                     type="button"
                     onClick={() => setActiveOfferId(offer.id)}
-                    className={`w-full rounded-2xl p-3 text-left text-xs ${offer.id === activeOfferId ? "bg-emerald-50 text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-200" : "hover:bg-zinc-100 dark:hover:bg-zinc-800"}`}
+                    className={`min-w-[135px] rounded-2xl p-3 text-left text-xs sm:mb-1 sm:w-full sm:min-w-0 ${offer.id === activeOfferId ? "bg-emerald-50 text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-200" : "hover:bg-zinc-100 dark:hover:bg-zinc-800"}`}
                   >
-                    <span className="block font-semibold">{offerHotel?.property_name ?? "Struttura"}</span>
-                    <span className="block text-zinc-500">{offerRequest?.city_name ?? "Chat"}</span>
+                    <span className="block truncate font-semibold">{offerHotel?.property_name ?? "Struttura"}</span>
+                    <span className="block truncate text-zinc-500">{offerRequest?.city_name ?? "Chat"}</span>
                   </button>
                 );
               })}
             </div>
 
-            <div className="flex h-[460px] flex-col">
+            <div className="flex h-[62vh] min-h-[360px] flex-col sm:h-[460px] sm:min-h-0">
               <div className="border-b border-zinc-200 p-3 dark:border-zinc-800">
-                <p className="text-sm font-semibold">{hotel?.property_name ?? "Conversazione"}</p>
-                <p className="text-xs text-zinc-500">{request?.city_name ?? ""} {request?.preferred_area ? `· ${request.preferred_area}` : ""}</p>
+                <p className="truncate text-sm font-semibold">{hotel?.property_name ?? "Conversazione"}</p>
+                <p className="truncate text-xs text-zinc-500">{request?.city_name ?? ""} {request?.preferred_area ? `· ${request.preferred_area}` : ""}</p>
                 {activeOffer ? <Link href={`/chat/${activeOffer.id}`} className="mt-1 inline-flex text-xs font-semibold text-emerald-700">Apri pagina completa</Link> : null}
               </div>
 
@@ -256,8 +256,8 @@ export function FloatingChatWidget() {
                   const mine = message.sender_id === userId;
                   return (
                     <div key={message.id} className={`flex ${mine ? "justify-end" : "justify-start"}`}>
-                      <div className={`max-w-[82%] rounded-2xl p-3 text-xs ${mine ? "bg-zinc-950 text-white dark:bg-white dark:text-zinc-950" : "bg-zinc-100 dark:bg-zinc-800"}`}>
-                        <p>{message.body}</p>
+                      <div className={`max-w-[86%] rounded-2xl p-3 text-xs sm:max-w-[82%] ${mine ? "bg-zinc-950 text-white dark:bg-white dark:text-zinc-950" : "bg-zinc-100 dark:bg-zinc-800"}`}>
+                        <p className="break-words">{message.body}</p>
                         <p className="mt-1 opacity-60">{formatTime(message.created_at)}</p>
                       </div>
                     </div>
@@ -266,8 +266,8 @@ export function FloatingChatWidget() {
               </div>
 
               <form onSubmit={sendMessage} className="flex gap-2 border-t border-zinc-200 p-3 dark:border-zinc-800">
-                <input value={body} onChange={(event) => setBody(event.target.value)} placeholder="Scrivi..." className="w-full rounded-full border border-zinc-300 bg-white px-4 py-2 text-xs dark:border-zinc-700 dark:bg-zinc-950" />
-                <button disabled={sending || !body.trim() || !activeOffer} type="submit" className="rounded-full bg-zinc-950 p-2 text-white disabled:opacity-50 dark:bg-white dark:text-zinc-950">
+                <input value={body} onChange={(event) => setBody(event.target.value)} placeholder="Scrivi..." className="w-full rounded-full border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950 sm:py-2 sm:text-xs" />
+                <button disabled={sending || !body.trim() || !activeOffer} type="submit" className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-zinc-950 text-white disabled:opacity-50 dark:bg-white dark:text-zinc-950 sm:h-9 sm:w-9" aria-label="Invia messaggio">
                   <Send className="h-4 w-4" />
                 </button>
               </form>
@@ -276,7 +276,7 @@ export function FloatingChatWidget() {
         </div>
       ) : null}
 
-      <button onClick={() => setOpen((value) => !value)} className="relative flex h-14 w-14 items-center justify-center rounded-full bg-emerald-700 text-white shadow-2xl">
+      <button onClick={() => setOpen((value) => !value)} className="relative flex h-14 w-14 items-center justify-center rounded-full bg-emerald-700 text-white shadow-2xl" aria-label="Apri chat">
         <MessageCircle className="h-6 w-6" />
         {totalMessages > 0 ? (
           <span className="absolute -right-1 -top-1 flex h-6 min-w-6 items-center justify-center rounded-full bg-red-600 px-2 text-xs font-bold text-white">
