@@ -139,9 +139,20 @@ export function AdvertiserOfferDetail() {
 
       if (status === "accepted") {
         await supabase.from("travel_requests").update({ status: "completed" }).eq("id", offer.travel_request_id);
+
+        if (offer.hotel_accounts?.id) {
+          await supabase.from("notifications").insert({
+            recipient_type: "hotel",
+            recipient_id: offer.hotel_accounts.id,
+            travel_request_id: offer.travel_request_id,
+            title: "Offerta accettata",
+            message: `La tua offerta per ${offer.travel_requests?.city_name ?? "la richiesta"} è stata accettata. Ora puoi aprire la chat.`,
+            is_read: false,
+          });
+        }
       }
 
-      setMessage(status === "accepted" ? "Offerta accettata. L’annuncio è stato chiuso." : "Offerta rifiutata.");
+      setMessage(status === "accepted" ? "Offerta accettata. Ora puoi comunicare con la struttura." : "Offerta rifiutata.");
       setTimeout(() => router.push("/inserzionista/dashboard"), 900);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Errore durante l’aggiornamento dell’offerta.");
@@ -200,6 +211,12 @@ export function AdvertiserOfferDetail() {
               {offer.travel_requests?.city_name} · {offer.travel_requests?.preferred_area} · {offer.travel_requests ? formatDate(offer.travel_requests.check_in) : ""} → {offer.travel_requests ? formatDate(offer.travel_requests.check_out) : ""}
             </p>
           </div>
+
+          {offer.status === "accepted" ? (
+            <Link href={`/chat/${offer.id}`} className="mt-6 inline-flex rounded-full bg-emerald-700 px-6 py-3 text-sm font-semibold text-white">
+              Apri chat con la struttura
+            </Link>
+          ) : null}
 
           {offer.status === "pending" ? (
             <div className="mt-6 flex flex-wrap gap-3">
