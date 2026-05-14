@@ -105,7 +105,7 @@ export function HotelDashboardClient() {
           {hotel ? <p className="mt-2 text-sm text-zinc-500">{hotel.property_name} · {hotel.city_name}</p> : null}
         </div>
         <div className="flex flex-wrap gap-3">
-          <Link href="/vetrina" className="inline-flex items-center gap-2 rounded-full border px-5 py-3 text-sm font-semibold"><Home className="h-4 w-4" /> Vetrina</Link>
+          <Link href="/" className="inline-flex items-center gap-2 rounded-full border px-5 py-3 text-sm font-semibold"><Home className="h-4 w-4" /> Home</Link>
           <button onClick={loadDashboard} className="inline-flex items-center gap-2 rounded-full border px-5 py-3 text-sm font-semibold"><RefreshCw className="h-4 w-4" /> Aggiorna</button>
           <Link href="/struttura/profilo" className="inline-flex items-center gap-2 rounded-full border px-5 py-3 text-sm font-semibold"><UserCog className="h-4 w-4" /> Modifica profilo</Link>
           <Link href="/struttura/fatturazione" className="inline-flex items-center gap-2 rounded-full border px-5 py-3 text-sm font-semibold"><ReceiptText className="h-4 w-4" /> Fatturazione</Link>
