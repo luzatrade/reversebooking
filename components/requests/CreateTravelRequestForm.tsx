@@ -23,6 +23,7 @@ type PreferenceFilters = {
   bathtub: boolean;
   garage: boolean;
   beach: boolean;
+  pets_allowed: boolean;
 };
 
 const emptyFilters: PreferenceFilters = {
@@ -33,6 +34,7 @@ const emptyFilters: PreferenceFilters = {
   bathtub: false,
   garage: false,
   beach: false,
+  pets_allowed: false,
 };
 
 const filterLabels: Array<{ key: keyof PreferenceFilters; label: string }> = [
@@ -43,6 +45,7 @@ const filterLabels: Array<{ key: keyof PreferenceFilters; label: string }> = [
   { key: "bathtub", label: "Vasca" },
   { key: "garage", label: "Garage" },
   { key: "beach", label: "Spiaggia / vicino alla spiaggia" },
+  { key: "pets_allowed", label: "Animali ammessi" },
 ];
 
 function expiresAtForCheckIn(checkIn: string) {
