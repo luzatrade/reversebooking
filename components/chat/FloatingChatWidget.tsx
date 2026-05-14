@@ -1,7 +1,6 @@
 "use client";
 
 import { FormEvent, useEffect, useMemo, useState } from "react";
-import Link from "next/link";
 import { MessageCircle, Send, X } from "lucide-react";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import type { UserRole } from "@/types/app";
@@ -236,7 +235,7 @@ export function FloatingChatWidget() {
               })}
             </div>
             <div className="flex h-[62vh] min-h-[360px] min-w-0 flex-col sm:h-[500px] sm:min-h-0">
-              <div className="border-b border-zinc-200 p-3 dark:border-zinc-800"><p className="break-words text-sm font-semibold leading-tight">{hotel?.property_name ?? "Conversazione"}</p><p className="mt-1 break-words text-xs leading-tight text-zinc-500">{request?.city_name ?? ""} {request?.preferred_area ? `· ${request.preferred_area}` : ""}</p>{activeOffer ? <Link href={`/chat/${activeOffer.id}`} className="mt-2 inline-flex text-xs font-semibold text-emerald-700">Apri pagina completa</Link> : null}</div>
+              <div className="border-b border-zinc-200 p-3 dark:border-zinc-800"><p className="break-words text-sm font-semibold leading-tight">{hotel?.property_name ?? "Conversazione"}</p><p className="mt-1 break-words text-xs leading-tight text-zinc-500">{request?.city_name ?? ""} {request?.preferred_area ? `· ${request.preferred_area}` : ""}</p></div>
               <div className="flex-1 space-y-2 overflow-y-auto p-3">
                 {loading ? <p className="text-xs text-zinc-500">Caricamento...</p> : null}{error ? <p className="rounded-2xl bg-red-50 p-3 text-xs text-red-700">{error}</p> : null}{!loading && !error && messages.length === 0 ? <p className="text-xs text-zinc-500">Nessun messaggio.</p> : null}
                 {messages.map((message) => {
