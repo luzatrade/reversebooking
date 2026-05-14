@@ -228,7 +228,7 @@ export function AdvertiserDashboardClient() {
                       {hotel.points_of_interest?.length ? <p className="mt-2 text-xs text-zinc-500">Vicino a: {hotel.points_of_interest.join(", ")}</p> : null}
                       {labels.length ? <p className="mt-2 text-xs text-zinc-500">Servizi: {labels.join(", ")}</p> : null}
                     </div>
-                    <button className="rounded-full border px-3 py-1 text-xs">Profilo</button>
+                    <Link href={`/hotel/${hotel.id}`} className="rounded-full border px-3 py-1 text-xs">Profilo</Link>
                   </div>
                 </article>
               );
@@ -254,7 +254,9 @@ export function AdvertiserDashboardClient() {
                   {offer.hotel_accounts?.structure_type ? structureTypeLabels[offer.hotel_accounts.structure_type] : "Struttura"} · {formatCurrency(Number(offer.total_price))}
                 </p>
                 <p className="mt-1 text-xs text-zinc-500">{mealPlanLabels[offer.meal_plan_included]} · {offer.status} · {formatDate(offer.created_at)}</p>
-                <button className="mt-3 rounded-full bg-zinc-950 px-4 py-2 text-xs font-semibold text-white dark:bg-white dark:text-zinc-950">Vedi offerta</button>
+                <Link href={`/inserzionista/offerte/${offer.id}`} className="mt-3 inline-flex rounded-full bg-zinc-950 px-4 py-2 text-xs font-semibold text-white dark:bg-white dark:text-zinc-950">
+                  Vedi offerta
+                </Link>
               </article>
             ))}
           </div>
