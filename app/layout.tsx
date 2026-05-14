@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { CookieBanner } from "@/components/legal/CookieBanner";
+import { LanguageProvider } from "@/components/i18n/LanguageProvider";
+import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 import { company } from "@/lib/legal/company";
 import "./globals.css";
 
@@ -35,8 +37,13 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50">
-        {children}
-        <CookieBanner />
+        <LanguageProvider>
+          <div className="fixed right-4 top-4 z-50">
+            <LanguageSwitcher />
+          </div>
+          {children}
+          <CookieBanner />
+        </LanguageProvider>
       </body>
     </html>
   );
