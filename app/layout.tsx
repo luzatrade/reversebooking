@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { FloatingChatWidget } from "@/components/chat/FloatingChatWidget";
 import { CookieBanner } from "@/components/legal/CookieBanner";
 import { LanguageProvider } from "@/components/i18n/LanguageProvider";
 import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
@@ -42,6 +43,7 @@ export default function RootLayout({
             <LanguageSwitcher />
           </div>
           {children}
+          <FloatingChatWidget />
           <CookieBanner />
         </LanguageProvider>
       </body>
