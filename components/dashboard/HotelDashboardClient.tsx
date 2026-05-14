@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { Bell, Filter, ReceiptText, RefreshCw, UserCog } from "lucide-react";
+import { Bell, CheckCircle2, Filter, MessageCircle, ReceiptText, RefreshCw, UserCog } from "lucide-react";
 import { StatCard } from "@/components/dashboard/StatCard";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { advertiserTypeLabels, mealPlanLabels, type AdvertiserType, type MealPlan } from "@/types/app";
@@ -43,6 +43,27 @@ type RawTravelRequest = Omit<TravelRequest, "advertiser_profiles"> & {
 };
 
 type Offer = { id: string; travel_request_id: string };
+
+type AcceptedOffer = {
+  id: string;
+  total_price: number;
+  meal_plan_included: MealPlan;
+  created_at: string;
+  travel_requests?: {
+    id: string;
+    city_name: string;
+    preferred_area: string;
+    check_in: string;
+    check_out: string;
+    guests_count: number;
+    rooms_count: number;
+  } | null;
+};
+
+type RawAcceptedOffer = Omit<AcceptedOffer, "travel_requests"> & {
+  travel_requests?: AcceptedOffer["travel_requests"] | NonNullable<AcceptedOffer["travel_requests"]>[] | null;
+};
+
 type Notification = { id: string; is_read: boolean };
 
 function normalizeRequests(rawRequests: RawTravelRequest[]): TravelRequest[] {
@@ -51,6 +72,13 @@ function normalizeRequests(rawRequests: RawTravelRequest[]): TravelRequest[] {
     advertiser_profiles: Array.isArray(request.advertiser_profiles)
       ? request.advertiser_profiles[0] ?? null
       : request.advertiser_profiles ?? null,
+  }));
+}
+
+function normalizeAcceptedOffers(rawOffers: RawAcceptedOffer[]): AcceptedOffer[] {
+  return rawOffers.map((offer) => ({
+    ...offer,
+    travel_requests: Array.isArray(offer.travel_requests) ? offer.travel_requests[0] ?? null : offer.travel_requests ?? null,
   }));
 }
 
@@ -75,6 +103,7 @@ export function HotelDashboardClient() {
   const [hotel, setHotel] = useState<HotelAccount | null>(null);
   const [requests, setRequests] = useState<TravelRequest[]>([]);
   const [offers, setOffers] = useState<Offer[]>([]);
+  const [acceptedOffers, setAcceptedOffers] = useState<AcceptedOffer[]>([]);
   const [notifications, setNotifications] = useState<Notification[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -140,6 +169,13 @@ export function HotelDashboardClient() {
         .select("id, travel_request_id")
         .eq("hotel_account_id", hotelData.id);
 
+      const { data: acceptedOfferData } = await supabase
+        .from("offers")
+        .select("id, total_price, meal_plan_included, created_at, travel_requests(id, city_name, preferred_area, check_in, check_out, guests_count, rooms_count)")
+        .eq("hotel_account_id", hotelData.id)
+        .eq("status", "accepted")
+        .order("created_at", { ascending: false });
+
       const { data: notificationData } = await supabase
         .from("notifications")
         .select("id, is_read")
@@ -148,6 +184,7 @@ export function HotelDashboardClient() {
 
       setRequests(normalizeRequests((requestData ?? []) as unknown as RawTravelRequest[]));
       setOffers((offerData ?? []) as Offer[]);
+      setAcceptedOffers(normalizeAcceptedOffers((acceptedOfferData ?? []) as unknown as RawAcceptedOffer[]));
       setNotifications((notificationData ?? []) as Notification[]);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Errore durante il caricamento della dashboard.");
@@ -192,11 +229,44 @@ export function HotelDashboardClient() {
 
       {error ? <div className="mt-6 rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}
 
-      <div className="mt-8 grid gap-4 md:grid-cols-3">
+      <div className="mt-8 grid gap-4 md:grid-cols-4">
         <StatCard label="Annunci compatibili" value={loading ? "..." : String(requests.length)} description="Stessa città, attivi e non scaduti" />
         <StatCard label="Offerte inviate" value={loading ? "..." : String(offers.length)} description="Proposte già inviate dalla struttura" />
+        <StatCard label="Offerte accettate" value={loading ? "..." : String(acceptedOffers.length)} description="Richieste confermate da gestire" />
         <StatCard label="Notifiche" value={loading ? "..." : String(unreadNotifications)} description="Nuove richieste non lette" />
       </div>
+
+      <section className="mt-8 rounded-3xl border border-emerald-200 bg-emerald-50 p-6 shadow-sm dark:border-emerald-900 dark:bg-emerald-950/30">
+        <div className="flex items-center gap-3">
+          <CheckCircle2 className="h-5 w-5 text-emerald-700" />
+          <div>
+            <h2 className="text-xl font-semibold">Offerte accettate</h2>
+            <p className="text-sm text-emerald-800 dark:text-emerald-200">Qui restano visibili le richieste confermate anche se l’annuncio non è più attivo.</p>
+          </div>
+        </div>
+        <div className="mt-5 space-y-3">
+          {loading ? <p className="text-sm text-zinc-500">Caricamento offerte accettate...</p> : null}
+          {!loading && acceptedOffers.length === 0 ? <div className="rounded-2xl border border-dashed border-emerald-300 p-5 text-sm text-emerald-800 dark:text-emerald-200">Nessuna offerta accettata al momento.</div> : null}
+          {acceptedOffers.map((offer) => (
+            <article key={offer.id} className="rounded-2xl bg-white p-5 shadow-sm dark:bg-zinc-900">
+              <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
+                <div>
+                  <p className="font-semibold">{offer.travel_requests?.city_name ?? "Destinazione"} · {offer.travel_requests?.preferred_area ?? "Zona"}</p>
+                  {offer.travel_requests ? (
+                    <p className="mt-1 text-sm text-zinc-500">
+                      {formatDate(offer.travel_requests.check_in)} → {formatDate(offer.travel_requests.check_out)} · {offer.travel_requests.guests_count} ospiti · {offer.travel_requests.rooms_count} camere
+                    </p>
+                  ) : null}
+                  <p className="mt-1 text-sm font-medium">{formatCurrency(Number(offer.total_price))} · {mealPlanLabels[offer.meal_plan_included]}</p>
+                </div>
+                <Link href={`/chat/${offer.id}`} className="inline-flex items-center gap-2 rounded-full bg-emerald-700 px-5 py-3 text-center text-sm font-semibold text-white">
+                  <MessageCircle className="h-4 w-4" /> Apri chat
+                </Link>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
 
       <section className="mt-8 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
         <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
@@ -216,7 +286,7 @@ export function HotelDashboardClient() {
           {loading ? <p className="text-sm text-zinc-500">Caricamento annunci...</p> : null}
           {!loading && requests.length === 0 ? (
             <div className="rounded-2xl border border-dashed p-6 text-sm text-zinc-500">
-              Nessun annuncio compatibile al momento. Per testare, crea una richiesta inserzionista nella stessa città della struttura.
+              Nessun annuncio compatibile al momento. Le offerte accettate restano nella sezione sopra.
             </div>
           ) : null}
           {requests.map((request) => (
