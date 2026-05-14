@@ -13,6 +13,11 @@ type HotelAccount = {
   city_name: string;
 };
 
+type AdvertiserRelation = {
+  advertiser_type: AdvertiserType;
+  short_description: string | null;
+};
+
 type TravelRequest = {
   id: string;
   city_name: string;
@@ -30,14 +35,24 @@ type TravelRequest = {
   visible_contact_website: string | null;
   expires_at: string;
   created_at: string;
-  advertiser_profiles?: {
-    advertiser_type: AdvertiserType;
-    short_description: string | null;
-  } | null;
+  advertiser_profiles?: AdvertiserRelation | null;
+};
+
+type RawTravelRequest = Omit<TravelRequest, "advertiser_profiles"> & {
+  advertiser_profiles?: AdvertiserRelation | AdvertiserRelation[] | null;
 };
 
 type Offer = { id: string; travel_request_id: string };
 type Notification = { id: string; is_read: boolean };
+
+function normalizeRequests(rawRequests: RawTravelRequest[]): TravelRequest[] {
+  return rawRequests.map((request) => ({
+    ...request,
+    advertiser_profiles: Array.isArray(request.advertiser_profiles)
+      ? request.advertiser_profiles[0] ?? null
+      : request.advertiser_profiles ?? null,
+  }));
+}
 
 function formatDate(value: string) {
   return new Intl.DateTimeFormat("it-IT", { day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(value));
@@ -131,7 +146,7 @@ export function HotelDashboardClient() {
         .eq("recipient_type", "hotel")
         .eq("recipient_id", hotelData.id);
 
-      setRequests((requestData ?? []) as TravelRequest[]);
+      setRequests(normalizeRequests((requestData ?? []) as unknown as RawTravelRequest[]));
       setOffers((offerData ?? []) as Offer[]);
       setNotifications((notificationData ?? []) as Notification[]);
     } catch (err) {
@@ -226,11 +241,8 @@ export function HotelDashboardClient() {
                   {request.advertiser_profiles?.short_description ? (
                     <p className="mt-2 text-sm text-zinc-500">Profilo cliente: {request.advertiser_profiles.short_description}</p>
                   ) : null}
-                  <div className="mt-3 flex flex-wrap gap-2 text-xs text-zinc-500">
-                    {request.visible_contact_email ? <span>Email visibile: {request.visible_contact_email}</span> : null}
-                    {request.visible_contact_phone ? <span>Telefono: {request.visible_contact_phone}</span> : null}
-                    {request.visible_contact_whatsapp ? <span>WhatsApp: {request.visible_contact_whatsapp}</span> : null}
-                    {request.visible_contact_website ? <span>Sito: {request.visible_contact_website}</span> : null}
+                  <div className="mt-3 rounded-2xl border border-amber-200 bg-amber-50 p-3 text-xs text-amber-800 dark:border-amber-900 dark:bg-amber-950/40 dark:text-amber-200">
+                    Contatti nascosti: saranno disponibili solo dopo accettazione dell’offerta.
                   </div>
                 </div>
                 <Link href={`/struttura/annunci/${request.id}`} className="rounded-full bg-zinc-950 px-5 py-3 text-center text-sm font-semibold text-white dark:bg-white dark:text-zinc-950">
