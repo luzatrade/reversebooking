@@ -7,6 +7,23 @@ import { ArrowLeft } from "lucide-react";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { mealPlanLabels, type MealPlan } from "@/types/app";
 
+type RoomDetail = {
+  room: number;
+  adults: number;
+  children: number;
+  children_ages: number[];
+};
+
+type PreferenceFilters = {
+  connecting_rooms?: boolean;
+  disabled_access?: boolean;
+  pool?: boolean;
+  spa?: boolean;
+  bathtub?: boolean;
+  garage?: boolean;
+  beach?: boolean;
+};
+
 type TravelRequest = {
   id: string;
   city_name: string;
@@ -15,6 +32,8 @@ type TravelRequest = {
   check_out: string;
   guests_count: number;
   rooms_count: number;
+  room_details: RoomDetail[] | null;
+  preference_filters: PreferenceFilters | null;
   budget: number;
   meal_plan: MealPlan;
   notes: string | null;
@@ -31,6 +50,16 @@ type HotelAccount = {
   account_status: string;
 };
 
+const filterLabels: Array<{ key: keyof PreferenceFilters; label: string }> = [
+  { key: "connecting_rooms", label: "Camere comunicanti" },
+  { key: "disabled_access", label: "Camera accessibile disabili" },
+  { key: "pool", label: "Piscina" },
+  { key: "spa", label: "Spa" },
+  { key: "bathtub", label: "Vasca" },
+  { key: "garage", label: "Garage" },
+  { key: "beach", label: "Spiaggia / vicino alla spiaggia" },
+];
+
 function formatDate(value: string) {
   return new Intl.DateTimeFormat("it-IT", { day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(value));
 }
@@ -43,6 +72,11 @@ function defaultOfferExpiry() {
   const date = new Date();
   date.setDate(date.getDate() + 2);
   return date.toISOString().slice(0, 10);
+}
+
+function getActiveFilters(filters: PreferenceFilters | null) {
+  if (!filters) return [];
+  return filterLabels.filter((filter) => Boolean(filters[filter.key]));
 }
 
 export function CreateOfferForm() {
@@ -96,7 +130,7 @@ export function CreateOfferForm() {
 
         const { data: requestData, error: requestError } = await supabase
           .from("travel_requests")
-          .select("id, city_name, preferred_area, check_in, check_out, guests_count, rooms_count, budget, meal_plan, notes, visible_contact_email, visible_contact_phone, status, expires_at")
+          .select("id, city_name, preferred_area, check_in, check_out, guests_count, rooms_count, room_details, preference_filters, budget, meal_plan, notes, visible_contact_email, visible_contact_phone, status, expires_at")
           .eq("id", requestId)
           .single();
 
@@ -172,6 +206,8 @@ export function CreateOfferForm() {
     return <div className="rounded-3xl border p-6 text-sm text-zinc-500">Caricamento annuncio...</div>;
   }
 
+  const activeFilters = getActiveFilters(request?.preference_filters ?? null);
+
   return (
     <div className="space-y-6">
       <Link href="/struttura/dashboard" className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white">
@@ -181,18 +217,57 @@ export function CreateOfferForm() {
       {error ? <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}
 
       {request ? (
-        <section className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
-          <p className="text-sm font-medium uppercase tracking-wide text-emerald-700">Annuncio cliente</p>
-          <h1 className="mt-2 text-3xl font-semibold tracking-tight">Richiesta a {request.city_name}</h1>
-          <div className="mt-4 grid gap-3 text-sm text-zinc-600 md:grid-cols-2 dark:text-zinc-400">
+        <section className="space-y-5 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
+          <div>
+            <p className="text-sm font-medium uppercase tracking-wide text-emerald-700">Annuncio cliente</p>
+            <h1 className="mt-2 text-3xl font-semibold tracking-tight">Richiesta a {request.city_name}</h1>
+          </div>
+
+          <div className="grid gap-3 text-sm text-zinc-600 md:grid-cols-2 dark:text-zinc-400">
             <p><strong>Zona:</strong> {request.preferred_area}</p>
             <p><strong>Date:</strong> {formatDate(request.check_in)} → {formatDate(request.check_out)}</p>
-            <p><strong>Ospiti:</strong> {request.guests_count}</p>
-            <p><strong>Camere:</strong> {request.rooms_count}</p>
+            <p><strong>Ospiti totali:</strong> {request.guests_count}</p>
+            <p><strong>Camere totali:</strong> {request.rooms_count}</p>
             <p><strong>Budget:</strong> {formatCurrency(Number(request.budget))}</p>
             <p><strong>Trattamento:</strong> {mealPlanLabels[request.meal_plan]}</p>
           </div>
-          {request.notes ? <p className="mt-4 text-sm text-zinc-600 dark:text-zinc-400"><strong>Note:</strong> {request.notes}</p> : null}
+
+          <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800">
+            <h2 className="font-semibold">Dettaglio camere e ospiti</h2>
+            <div className="mt-3 grid gap-3 md:grid-cols-2">
+              {(request.room_details?.length ? request.room_details : [{ room: 1, adults: request.guests_count, children: 0, children_ages: [] }]).map((room, index) => (
+                <div key={index} className="rounded-2xl bg-zinc-50 p-4 text-sm dark:bg-zinc-950/60">
+                  <p className="font-semibold">Camera {index + 1}</p>
+                  <p className="mt-1 text-zinc-600 dark:text-zinc-400">Adulti: {room.adults}</p>
+                  <p className="text-zinc-600 dark:text-zinc-400">Bambini: {room.children}</p>
+                  {room.children > 0 ? (
+                    <p className="text-zinc-600 dark:text-zinc-400">Età bambini: {room.children_ages.join(", ")}</p>
+                  ) : null}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800">
+            <h2 className="font-semibold">Filtri e richieste extra</h2>
+            {activeFilters.length ? (
+              <div className="mt-3 flex flex-wrap gap-2">
+                {activeFilters.map((filter) => (
+                  <span key={filter.key} className="rounded-full bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-300">
+                    {filter.label}
+                  </span>
+                ))}
+              </div>
+            ) : (
+              <p className="mt-2 text-sm text-zinc-500">Nessun filtro extra selezionato.</p>
+            )}
+          </div>
+
+          <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800 dark:border-amber-900 dark:bg-amber-950/40 dark:text-amber-200">
+            Contatti inserzionista nascosti. Saranno disponibili solo dopo accettazione dell’offerta.
+          </div>
+
+          {request.notes ? <p className="text-sm text-zinc-600 dark:text-zinc-400"><strong>Note:</strong> {request.notes}</p> : null}
         </section>
       ) : null}
 
