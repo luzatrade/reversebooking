@@ -40,41 +40,49 @@ export function FloatingChatWidget() {
   const [body, setBody] = useState("");
   const [loading, setLoading] = useState(false);
   const [sending, setSending] = useState(false);
+  const [hasNewMessages, setHasNewMessages] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const activeOffer = useMemo(
-    () => offers.find((offer) => offer.id === activeOfferId) ?? offers[0] ?? null,
-    [offers, activeOfferId],
-  );
-
+  const activeOffer = useMemo(() => offers.find((offer) => offer.id === activeOfferId) ?? offers[0] ?? null, [offers, activeOfferId]);
   const totalMessages = messages.length;
 
   async function detectRole(currentUserId: string) {
     const supabase = createBrowserSupabaseClient();
-    const { data: profile } = await supabase
-      .from("profiles")
-      .select("role")
-      .eq("user_id", currentUserId)
-      .maybeSingle();
-
+    const { data: profile } = await supabase.from("profiles").select("role").eq("user_id", currentUserId).maybeSingle();
     if (profile?.role === "hotel" || profile?.role === "advertiser") {
       setRole(profile.role);
       return profile.role as UserRole;
     }
-
-    const { data: hotel } = await supabase
-      .from("hotel_accounts")
-      .select("id")
-      .eq("user_id", currentUserId)
-      .maybeSingle();
-
+    const { data: hotel } = await supabase.from("hotel_accounts").select("id").eq("user_id", currentUserId).maybeSingle();
     const fallbackRole: UserRole = hotel ? "hotel" : "advertiser";
     setRole(fallbackRole);
     return fallbackRole;
   }
 
-  async function loadWidget() {
-    setLoading(true);
+  async function loadMessages(offerId: string, silent = false) {
+    const supabase = createBrowserSupabaseClient();
+    const previousLastId = messages.at(-1)?.id ?? null;
+    const { data, error: messageError } = await supabase
+      .from("offer_messages")
+      .select("id, offer_id, sender_id, sender_role, body, created_at")
+      .eq("offer_id", offerId)
+      .order("created_at", { ascending: true });
+
+    if (messageError) {
+      if (!silent) setError(messageError.message);
+      return;
+    }
+
+    const nextMessages = (data ?? []) as ChatMessage[];
+    const nextLast = nextMessages.at(-1);
+    if (silent && nextLast && previousLastId && nextLast.id !== previousLastId && nextLast.sender_id !== userId && !open) {
+      setHasNewMessages(true);
+    }
+    setMessages(nextMessages);
+  }
+
+  async function loadWidget(silent = false) {
+    if (!silent) setLoading(true);
     setError(null);
 
     try {
@@ -89,7 +97,6 @@ export function FloatingChatWidget() {
 
       setUserId(authData.user.id);
       const currentRole = await detectRole(authData.user.id);
-
       let offerQuery = supabase
         .from("offers")
         .select("id, status, hotel_accounts(property_name), travel_requests(city_name, preferred_area)")
@@ -97,23 +104,12 @@ export function FloatingChatWidget() {
         .order("created_at", { ascending: false });
 
       if (currentRole === "hotel") {
-        const { data: hotel } = await supabase
-          .from("hotel_accounts")
-          .select("id")
-          .eq("user_id", authData.user.id)
-          .maybeSingle();
+        const { data: hotel } = await supabase.from("hotel_accounts").select("id").eq("user_id", authData.user.id).maybeSingle();
         if (hotel?.id) offerQuery = offerQuery.eq("hotel_account_id", hotel.id);
       } else {
-        const { data: advertiser } = await supabase
-          .from("advertiser_profiles")
-          .select("id")
-          .eq("user_id", authData.user.id)
-          .maybeSingle();
+        const { data: advertiser } = await supabase.from("advertiser_profiles").select("id").eq("user_id", authData.user.id).maybeSingle();
         if (advertiser?.id) {
-          const { data: requests } = await supabase
-            .from("travel_requests")
-            .select("id")
-            .eq("advertiser_id", advertiser.id);
+          const { data: requests } = await supabase.from("travel_requests").select("id").eq("advertiser_id", advertiser.id);
           const requestIds = (requests ?? []).map((request) => request.id);
           if (requestIds.length) offerQuery = offerQuery.in("travel_request_id", requestIds);
           else {
@@ -134,26 +130,12 @@ export function FloatingChatWidget() {
       setOffers(nextOffers);
       const nextActiveOfferId = activeOfferId ?? nextOffers[0]?.id ?? null;
       setActiveOfferId(nextActiveOfferId);
-
-      if (nextActiveOfferId) {
-        const { data: messageData, error: messageError } = await supabase
-          .from("offer_messages")
-          .select("id, offer_id, sender_id, sender_role, body, created_at")
-          .eq("offer_id", nextActiveOfferId)
-          .order("created_at", { ascending: true });
-
-        if (messageError) {
-          setError(messageError.message);
-          return;
-        }
-        setMessages((messageData ?? []) as ChatMessage[]);
-      } else {
-        setMessages([]);
-      }
+      if (nextActiveOfferId) await loadMessages(nextActiveOfferId, silent);
+      else setMessages([]);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Errore durante il caricamento della chat.");
+      if (!silent) setError(err instanceof Error ? err.message : "Errore durante il caricamento della chat.");
     } finally {
-      setLoading(false);
+      if (!silent) setLoading(false);
     }
   }
 
@@ -163,38 +145,47 @@ export function FloatingChatWidget() {
 
   useEffect(() => {
     if (!activeOfferId) return;
-    void loadWidget();
+    void loadMessages(activeOfferId);
   }, [activeOfferId]);
+
+  useEffect(() => {
+    const interval = window.setInterval(() => {
+      if (activeOfferId) void loadMessages(activeOfferId, true);
+      else void loadWidget(true);
+    }, 5000);
+    return () => window.clearInterval(interval);
+  }, [activeOfferId, messages, userId, open]);
+
+  useEffect(() => {
+    if (open) setHasNewMessages(false);
+  }, [open]);
 
   async function sendMessage(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!body.trim() || !userId || !activeOffer) return;
-
     setSending(true);
     setError(null);
 
     try {
       const supabase = createBrowserSupabaseClient();
+      const text = body.trim();
       const { error: insertError } = await supabase.from("offer_messages").insert({
         offer_id: activeOffer.id,
         sender_id: userId,
         sender_role: role,
-        body: body.trim(),
+        body: text,
       });
-
       if (insertError) {
         setError(insertError.message);
         return;
       }
-
       await fetch("/api/chat/email-notification", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ offerId: activeOffer.id, message: body.trim() }),
+        body: JSON.stringify({ offerId: activeOffer.id, message: text }),
       });
-
       setBody("");
-      await loadWidget();
+      await loadMessages(activeOffer.id);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Errore durante l’invio del messaggio.");
     } finally {
@@ -206,6 +197,7 @@ export function FloatingChatWidget() {
 
   const hotel = firstRelation(activeOffer?.hotel_accounts);
   const request = firstRelation(activeOffer?.travel_requests);
+  const badgeValue = hasNewMessages ? "!" : totalMessages > 99 ? "99+" : String(totalMessages);
 
   return (
     <div className="fixed inset-x-3 bottom-3 z-50 flex flex-col items-end sm:inset-x-auto sm:bottom-5 sm:right-5">
@@ -214,11 +206,9 @@ export function FloatingChatWidget() {
           <div className="flex items-center justify-between border-b border-zinc-200 p-4 dark:border-zinc-800">
             <div>
               <p className="text-sm font-semibold">Chat</p>
-              <p className="text-xs text-zinc-500">Offerte accettate</p>
+              <p className="text-xs text-zinc-500">Offerte accettate · aggiornata automaticamente</p>
             </div>
-            <button onClick={() => setOpen(false)} className="rounded-full p-2 hover:bg-zinc-100 dark:hover:bg-zinc-800" aria-label="Chiudi chat">
-              <X className="h-4 w-4" />
-            </button>
+            <button onClick={() => setOpen(false)} className="rounded-full p-2 hover:bg-zinc-100 dark:hover:bg-zinc-800" aria-label="Chiudi chat"><X className="h-4 w-4" /></button>
           </div>
 
           <div className="flex max-h-[75vh] flex-col sm:max-h-[540px] sm:grid sm:grid-cols-[140px_1fr]">
@@ -228,12 +218,7 @@ export function FloatingChatWidget() {
                 const offerHotel = firstRelation(offer.hotel_accounts);
                 const offerRequest = firstRelation(offer.travel_requests);
                 return (
-                  <button
-                    key={offer.id}
-                    type="button"
-                    onClick={() => setActiveOfferId(offer.id)}
-                    className={`min-w-[135px] rounded-2xl p-3 text-left text-xs sm:mb-1 sm:w-full sm:min-w-0 ${offer.id === activeOfferId ? "bg-emerald-50 text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-200" : "hover:bg-zinc-100 dark:hover:bg-zinc-800"}`}
-                  >
+                  <button key={offer.id} type="button" onClick={() => setActiveOfferId(offer.id)} className={`min-w-[135px] rounded-2xl p-3 text-left text-xs sm:mb-1 sm:w-full sm:min-w-0 ${offer.id === activeOfferId ? "bg-emerald-50 text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-200" : "hover:bg-zinc-100 dark:hover:bg-zinc-800"}`}>
                     <span className="block truncate font-semibold">{offerHotel?.property_name ?? "Struttura"}</span>
                     <span className="block truncate text-zinc-500">{offerRequest?.city_name ?? "Chat"}</span>
                   </button>
@@ -267,9 +252,7 @@ export function FloatingChatWidget() {
 
               <form onSubmit={sendMessage} className="flex gap-2 border-t border-zinc-200 p-3 dark:border-zinc-800">
                 <input value={body} onChange={(event) => setBody(event.target.value)} placeholder="Scrivi..." className="w-full rounded-full border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950 sm:py-2 sm:text-xs" />
-                <button disabled={sending || !body.trim() || !activeOffer} type="submit" className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-zinc-950 text-white disabled:opacity-50 dark:bg-white dark:text-zinc-950 sm:h-9 sm:w-9" aria-label="Invia messaggio">
-                  <Send className="h-4 w-4" />
-                </button>
+                <button disabled={sending || !body.trim() || !activeOffer} type="submit" className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-zinc-950 text-white disabled:opacity-50 dark:bg-white dark:text-zinc-950 sm:h-9 sm:w-9" aria-label="Invia messaggio"><Send className="h-4 w-4" /></button>
               </form>
             </div>
           </div>
@@ -278,11 +261,7 @@ export function FloatingChatWidget() {
 
       <button onClick={() => setOpen((value) => !value)} className="relative flex h-14 w-14 items-center justify-center rounded-full bg-emerald-700 text-white shadow-2xl" aria-label="Apri chat">
         <MessageCircle className="h-6 w-6" />
-        {totalMessages > 0 ? (
-          <span className="absolute -right-1 -top-1 flex h-6 min-w-6 items-center justify-center rounded-full bg-red-600 px-2 text-xs font-bold text-white">
-            {totalMessages > 99 ? "99+" : totalMessages}
-          </span>
-        ) : null}
+        {totalMessages > 0 || hasNewMessages ? <span className="absolute -right-1 -top-1 flex h-6 min-w-6 items-center justify-center rounded-full bg-red-600 px-2 text-xs font-bold text-white">{badgeValue}</span> : null}
       </button>
     </div>
   );
