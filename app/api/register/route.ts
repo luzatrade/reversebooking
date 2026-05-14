@@ -13,6 +13,10 @@ type Body = {
   privacyVersion?: string;
 };
 
+function makePhoneFromUserId(userId: string) {
+  return `+39${userId.replaceAll("-", "").slice(0, 10)}`;
+}
+
 export async function POST(request: Request) {
   let body: Body;
   try {
@@ -27,6 +31,7 @@ export async function POST(request: Request) {
   const privacyAccepted = Boolean(body.privacyAccepted);
   const marketingAccepted = Boolean(body.marketingAccepted);
   const accountKind = body.accountKind === "struttura" ? "struttura" : "inserzionista";
+  const role = accountKind === "struttura" ? "hotel" : "advertiser";
 
   if (!email || !password) {
     return NextResponse.json({ error: "Email e password sono obbligatori" }, { status: 400 });
@@ -38,7 +43,6 @@ export async function POST(request: Request) {
 
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-  const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
   if (!url || !anonKey) {
     return NextResponse.json(
@@ -73,42 +77,97 @@ export async function POST(request: Request) {
   }
 
   const user = data.user;
-  if (!user) {
-    return NextResponse.json({ error: "Utente non creato" }, { status: 400 });
+  const session = data.session;
+
+  if (!user || !session) {
+    return NextResponse.json({ error: "Utente creato ma sessione non disponibile. Disattiva la conferma email in Supabase durante i test." }, { status: 400 });
+  }
+
+  const userClient = createClient(url, anonKey, {
+    global: {
+      headers: {
+        Authorization: `Bearer ${session.access_token}`,
+      },
+    },
+    auth: { persistSession: false, autoRefreshToken: false },
+  });
+
+  const phoneNumber = makePhoneFromUserId(user.id);
+
+  const { error: profileError } = await userClient.from("profiles").upsert(
+    {
+      user_id: user.id,
+      role,
+      email,
+      phone_number: phoneNumber,
+      email_verified: true,
+      phone_verified: true,
+      account_status: "active",
+    },
+    { onConflict: "user_id" },
+  );
+
+  if (profileError) {
+    return NextResponse.json({ error: profileError.message, detail: "Profilo applicativo non creato." }, { status: 500 });
+  }
+
+  if (role === "hotel") {
+    const { error: hotelError } = await userClient.from("hotel_accounts").upsert(
+      {
+        user_id: user.id,
+        structure_type: "hotel",
+        property_name: "Struttura test",
+        cin_code: `TEST-${user.id.slice(0, 8)}`,
+        description: "Profilo struttura creato automaticamente. Da completare nel pannello struttura.",
+        full_address: "Indirizzo da completare",
+        country_code: "IT",
+        country_name: "Italia",
+        city_name: "Verona",
+        city_id: "3164527",
+        specific_area: "Centro",
+        rooms_quantity: 1,
+        private_notification_email: email,
+        subscription_status: "active",
+        subscription_active: true,
+        account_status: "active",
+      },
+      { onConflict: "user_id" },
+    );
+
+    if (hotelError) {
+      return NextResponse.json({ error: hotelError.message, detail: "Profilo struttura non creato." }, { status: 500 });
+    }
+  } else {
+    const { error: advertiserError } = await userClient.from("advertiser_profiles").upsert(
+      {
+        user_id: user.id,
+        advertiser_type: "private_individual",
+        first_name: "Nome",
+        last_name: "Cognome",
+        short_description: "Profilo inserzionista creato automaticamente. Da completare nel pannello inserzionista.",
+        contact_email: email,
+      },
+      { onConflict: "user_id" },
+    );
+
+    if (advertiserError) {
+      return NextResponse.json({ error: advertiserError.message, detail: "Profilo inserzionista non creato." }, { status: 500 });
+    }
   }
 
   const termsVersion = body.termsVersion ?? TERMS_VERSION;
   const privacyVersion = body.privacyVersion ?? PRIVACY_VERSION;
 
-  let consentStored = false;
+  await userClient.from("user_consents").insert({
+    user_id: user.id,
+    terms_accepted: true,
+    privacy_accepted: true,
+    marketing_accepted: marketingAccepted,
+    terms_version: termsVersion,
+    privacy_version: privacyVersion,
+    ip_address: ip,
+    user_agent: userAgent,
+  });
 
-  if (serviceKey) {
-    const admin = createClient(url, serviceKey, {
-      auth: { persistSession: false, autoRefreshToken: false },
-    });
-
-    const { error: insertError } = await admin.from("user_consents").insert({
-      user_id: user.id,
-      terms_accepted: true,
-      privacy_accepted: true,
-      marketing_accepted: marketingAccepted,
-      terms_version: termsVersion,
-      privacy_version: privacyVersion,
-      ip_address: ip,
-      user_agent: userAgent,
-    });
-
-    if (insertError) {
-      return NextResponse.json(
-        {
-          error: insertError.message,
-          detail: "Utente creato in auth ma consensi non salvati: verificare migration e policy.",
-        },
-        { status: 500 },
-      );
-    }
-    consentStored = true;
-  }
-
-  return NextResponse.json({ ok: true, consentStored, userId: user.id });
+  return NextResponse.json({ ok: true, role, userId: user.id });
 }
