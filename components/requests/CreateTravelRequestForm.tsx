@@ -17,6 +17,7 @@ const filterLabels: Array<{ key: keyof PreferenceFilters; label: string }> = [
 ];
 function expiresAtForCheckIn(checkIn: string) { return `${checkIn}T23:59:00+02:00`; }
 function normalizeRooms(rooms: RoomDetail[]) { return rooms.map((room, index) => ({ ...room, room: index + 1, adults: Math.max(1, room.adults), children: Math.max(0, room.children), children_ages: room.children_ages.slice(0, room.children).map((age) => Math.max(0, age)) })); }
+function makeRequestCode() { return `RB-${Math.floor(100000 + Math.random() * 900000)}`; }
 
 export function CreateTravelRequestForm() {
   const router = useRouter();
@@ -54,7 +55,7 @@ export function CreateTravelRequestForm() {
       if (authError || !authData.user) { setError("Devi effettuare il login come inserzionista."); return; }
       const { data: advertiser, error: advertiserError } = await supabase.from("advertiser_profiles").select("id").eq("user_id", authData.user.id).single();
       if (advertiserError || !advertiser) { setError("Profilo inserzionista non trovato. Registrati come inserzionista."); return; }
-      const payload = { advertiser_id: advertiser.id, country_code: selectedCity.country_code, country_name: selectedCity.country_name, city_name: selectedCity.city_name, city_id: selectedCity.city_id, preferred_area: preferredArea, preferred_structure_type: preferredStructureType, check_in: checkIn, check_out: checkOut, guests_count: guestsCount, rooms_count: roomsCount, room_details: normalizedRooms, preference_filters: filters, budget, meal_plan: mealPlan, notes: notes.trim() || null, visible_contact_email: null, visible_contact_phone: null, visible_contact_whatsapp: null, status: "active", expires_at: expiresAtForCheckIn(checkIn) };
+      const payload = { request_code: makeRequestCode(), advertiser_id: advertiser.id, country_code: selectedCity.country_code, country_name: selectedCity.country_name, city_name: selectedCity.city_name, city_id: selectedCity.city_id, preferred_area: preferredArea, preferred_structure_type: preferredStructureType, check_in: checkIn, check_out: checkOut, guests_count: guestsCount, rooms_count: roomsCount, room_details: normalizedRooms, preference_filters: filters, budget, meal_plan: mealPlan, notes: notes.trim() || null, visible_contact_email: null, visible_contact_phone: null, visible_contact_whatsapp: null, status: "active", expires_at: expiresAtForCheckIn(checkIn) };
       const { data: newRequest, error: insertError } = await supabase.from("travel_requests").insert(payload).select("id").single();
       if (insertError) { setError(insertError.message); return; }
       await fetch("/api/notifications/new-request", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ requestId: newRequest.id }) });
