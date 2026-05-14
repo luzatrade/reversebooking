@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { PRIVACY_VERSION, TERMS_VERSION } from "@/lib/legal/company";
+import { majorWorldCities } from "@/lib/constants/world-cities";
 
 type AccountKind = "inserzionista" | "struttura";
 
@@ -10,6 +11,7 @@ export function RegisterForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [accountKind, setAccountKind] = useState<AccountKind>("inserzionista");
+  const [cityIndex, setCityIndex] = useState(0);
   const [terms, setTerms] = useState(false);
   const [privacy, setPrivacy] = useState(false);
   const [marketing, setMarketing] = useState(false);
@@ -27,6 +29,8 @@ export function RegisterForm() {
       return;
     }
 
+    const selectedCity = majorWorldCities[cityIndex];
+
     setLoading(true);
     try {
       const res = await fetch("/api/register", {
@@ -36,6 +40,7 @@ export function RegisterForm() {
           email,
           password,
           accountKind,
+          hotelCity: accountKind === "struttura" ? selectedCity : undefined,
           termsAccepted: terms,
           privacyAccepted: privacy,
           marketingAccepted: marketing,
@@ -125,6 +130,22 @@ export function RegisterForm() {
           </label>
         </div>
       </fieldset>
+
+      {accountKind === "struttura" ? (
+        <label className="block text-sm font-medium text-zinc-800 dark:text-zinc-200">
+          Città principale della struttura
+          <select
+            value={cityIndex}
+            onChange={(e) => setCityIndex(Number(e.target.value))}
+            className="mt-1 w-full rounded-lg border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 shadow-sm outline-none ring-zinc-400 focus:ring-2 dark:border-zinc-600 dark:bg-zinc-950 dark:text-zinc-50"
+          >
+            {majorWorldCities.map((city, index) => (
+              <option key={city.city_id} value={index}>{city.label}</option>
+            ))}
+          </select>
+          <span className="mt-1 block text-xs text-zinc-500">La struttura riceverà annunci compatibili solo per questa città.</span>
+        </label>
+      ) : null}
 
       <div className="space-y-3 rounded-lg border border-zinc-100 bg-zinc-50 p-4 text-sm dark:border-zinc-800 dark:bg-zinc-950/60">
         <label className="flex gap-2">
