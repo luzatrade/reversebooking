@@ -3,10 +3,12 @@
 import { createContext, ReactNode, useContext, useEffect, useMemo, useState } from "react";
 import { Locale, supportedLocales, translations } from "@/lib/i18n/translations";
 
+type TranslationValue = (typeof translations)[Locale];
+
 type LanguageContextValue = {
   locale: Locale;
   setLocale: (locale: Locale) => void;
-  t: typeof translations.it;
+  t: TranslationValue;
 };
 
 const LanguageContext = createContext<LanguageContextValue | null>(null);
@@ -36,11 +38,11 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     document.documentElement.lang = locale;
   }, [locale]);
 
-  const value = useMemo(
+  const value = useMemo<LanguageContextValue>(
     () => ({
       locale,
       setLocale,
-      t: translations[locale],
+      t: translations[locale] as TranslationValue,
     }),
     [locale],
   );
