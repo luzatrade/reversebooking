@@ -1,0 +1,43 @@
+import { createClient } from "@supabase/supabase-js";
+import { NextResponse } from "next/server";
+import { escapeHtml, sendEmailNotification } from "@/lib/notifications/email";
+
+type Body = { offerId?: string };
+function getClient() { const url = process.env.NEXT_PUBLIC_SUPABASE_URL; const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY; if (!url || !key) throw new Error("Supabase non configurato"); return createClient(url, key); }
+function code(value: string | null | undefined) { return value || "RB------"; }
+
+export async function POST(request: Request) {
+  let body: Body;
+  try { body = (await request.json()) as Body; } catch { return NextResponse.json({ error: "JSON non valido" }, { status: 400 }); }
+  if (!body.offerId) return NextResponse.json({ error: "offerId obbligatorio" }, { status: 400 });
+
+  try {
+    const supabase = getClient();
+    const { data: offer, error } = await supabase
+      .from("offers")
+      .select("id, total_price, hotel_accounts(property_name), travel_requests(id, request_code, city_name, preferred_area, advertiser_profiles(contact_email))")
+      .eq("id", body.offerId)
+      .single();
+
+    if (error || !offer) return NextResponse.json({ error: "Offerta non trovata" }, { status: 404 });
+
+    const hotel = Array.isArray(offer.hotel_accounts) ? offer.hotel_accounts[0] : offer.hotel_accounts;
+    const travelRequest = Array.isArray(offer.travel_requests) ? offer.travel_requests[0] : offer.travel_requests;
+    const advertiser = Array.isArray(travelRequest?.advertiser_profiles) ? travelRequest?.advertiser_profiles[0] : travelRequest?.advertiser_profiles;
+    const requestCode = code(travelRequest?.request_code);
+    const city = travelRequest?.city_name ?? "una richiesta";
+    const hotelName = hotel?.property_name ?? "Una struttura";
+
+    const html = `<p>Hai ricevuto una nuova offerta su Reverse Booking.</p><p><strong>Codice richiesta:</strong> ${escapeHtml(requestCode)}</p><p><strong>Struttura:</strong> ${escapeHtml(hotelName)}</p><p><strong>Richiesta:</strong> ${escapeHtml(city)} ${travelRequest?.preferred_area ? `· ${escapeHtml(travelRequest.preferred_area)}` : ""}</p><p><strong>Importo proposta:</strong> ${escapeHtml(String(offer.total_price))} €</p>`;
+
+    const result = await sendEmailNotification({
+      to: advertiser?.contact_email,
+      subject: `Nuova offerta ricevuta · ${requestCode}`,
+      html,
+    });
+
+    return NextResponse.json({ ok: true, result });
+  } catch (err) {
+    return NextResponse.json({ error: err instanceof Error ? err.message : "Errore notifica nuova offerta" }, { status: 500 });
+  }
+}
