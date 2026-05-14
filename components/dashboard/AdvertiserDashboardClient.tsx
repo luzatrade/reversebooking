@@ -38,17 +38,32 @@ type HotelAccount = {
   services: Record<string, boolean> | null;
 };
 
+type OfferHotel = {
+  property_name: string;
+  structure_type: StructureType;
+};
+
 type Offer = {
   id: string;
   total_price: number;
   meal_plan_included: MealPlan;
   status: string;
   created_at: string;
-  hotel_accounts?: {
-    property_name: string;
-    structure_type: StructureType;
-  } | null;
+  hotel_accounts?: OfferHotel | null;
 };
+
+type RawOffer = Omit<Offer, "hotel_accounts"> & {
+  hotel_accounts?: OfferHotel | OfferHotel[] | null;
+};
+
+function normalizeOffers(rawOffers: RawOffer[]): Offer[] {
+  return rawOffers.map((offer) => ({
+    ...offer,
+    hotel_accounts: Array.isArray(offer.hotel_accounts)
+      ? offer.hotel_accounts[0] ?? null
+      : offer.hotel_accounts ?? null,
+  }));
+}
 
 function formatDate(value: string) {
   return new Intl.DateTimeFormat("it-IT", { day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(value));
@@ -155,7 +170,7 @@ export function AdvertiserDashboardClient() {
           setError(offerError.message);
           return;
         }
-        setOffers((offerData ?? []) as Offer[]);
+        setOffers(normalizeOffers((offerData ?? []) as unknown as RawOffer[]));
       } else {
         setHotels([]);
         setOffers([]);
