@@ -1,0 +1,267 @@
+"use client";
+
+import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
+import { Bell, Building2, FilePlus2, RefreshCw } from "lucide-react";
+import { StatCard } from "@/components/dashboard/StatCard";
+import { createBrowserSupabaseClient } from "@/lib/supabase/client";
+import { mealPlanLabels, structureTypeLabels, type MealPlan, type StructureType } from "@/types/app";
+
+type AdvertiserProfile = { id: string };
+
+type TravelRequest = {
+  id: string;
+  city_name: string;
+  city_id: string;
+  country_code: string;
+  preferred_area: string;
+  preferred_structure_type: "all" | StructureType;
+  check_in: string;
+  check_out: string;
+  guests_count: number;
+  rooms_count: number;
+  budget: number;
+  meal_plan: MealPlan;
+  status: string;
+  created_at: string;
+};
+
+type HotelAccount = {
+  id: string;
+  property_name: string;
+  structure_type: StructureType;
+  city_name: string;
+  specific_area: string | null;
+  cin_code: string;
+  main_photo_url: string | null;
+  points_of_interest: string[] | null;
+  services: Record<string, boolean> | null;
+};
+
+type Offer = {
+  id: string;
+  total_price: number;
+  meal_plan_included: MealPlan;
+  status: string;
+  created_at: string;
+  hotel_accounts?: {
+    property_name: string;
+    structure_type: StructureType;
+  } | null;
+};
+
+function formatDate(value: string) {
+  return new Intl.DateTimeFormat("it-IT", { day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(value));
+}
+
+function formatCurrency(value: number) {
+  return new Intl.NumberFormat("it-IT", { style: "currency", currency: "EUR" }).format(value);
+}
+
+function serviceLabels(services: Record<string, boolean> | null) {
+  if (!services) return [];
+  const labels: Record<string, string> = {
+    pool: "Piscina",
+    spa: "Spa",
+    garage: "Garage",
+    pets_allowed: "Animali ammessi",
+    disabled_access: "Accesso disabili",
+  };
+  return Object.entries(services)
+    .filter(([, value]) => value)
+    .map(([key]) => labels[key] ?? key);
+}
+
+export function AdvertiserDashboardClient() {
+  const [profile, setProfile] = useState<AdvertiserProfile | null>(null);
+  const [requests, setRequests] = useState<TravelRequest[]>([]);
+  const [hotels, setHotels] = useState<HotelAccount[]>([]);
+  const [offers, setOffers] = useState<Offer[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  const activeRequest = requests.find((request) => request.status === "active") ?? requests[0] ?? null;
+
+  const loadDashboard = async () => {
+    setLoading(true);
+    setError(null);
+
+    try {
+      const supabase = createBrowserSupabaseClient();
+      const { data: authData, error: authError } = await supabase.auth.getUser();
+
+      if (authError || !authData.user) {
+        setError("Devi effettuare il login come inserzionista.");
+        return;
+      }
+
+      const { data: advertiserData, error: advertiserError } = await supabase
+        .from("advertiser_profiles")
+        .select("id")
+        .eq("user_id", authData.user.id)
+        .single();
+
+      if (advertiserError || !advertiserData) {
+        setError("Profilo inserzionista non trovato. Completa la registrazione come inserzionista.");
+        return;
+      }
+
+      setProfile(advertiserData as AdvertiserProfile);
+
+      const { data: requestData, error: requestError } = await supabase
+        .from("travel_requests")
+        .select("id, city_name, city_id, country_code, preferred_area, preferred_structure_type, check_in, check_out, guests_count, rooms_count, budget, meal_plan, status, created_at")
+        .eq("advertiser_id", advertiserData.id)
+        .order("created_at", { ascending: false });
+
+      if (requestError) {
+        setError(requestError.message);
+        return;
+      }
+
+      const typedRequests = (requestData ?? []) as TravelRequest[];
+      setRequests(typedRequests);
+
+      const selectedRequest = typedRequests.find((request) => request.status === "active") ?? typedRequests[0];
+
+      if (selectedRequest) {
+        let hotelQuery = supabase
+          .from("hotel_accounts")
+          .select("id, property_name, structure_type, city_name, specific_area, cin_code, main_photo_url, points_of_interest, services")
+          .eq("country_code", selectedRequest.country_code)
+          .eq("city_id", selectedRequest.city_id)
+          .eq("account_status", "active")
+          .eq("subscription_active", true)
+          .order("property_name", { ascending: true });
+
+        if (selectedRequest.preferred_structure_type !== "all") {
+          hotelQuery = hotelQuery.eq("structure_type", selectedRequest.preferred_structure_type);
+        }
+
+        const { data: hotelData, error: hotelError } = await hotelQuery;
+        if (hotelError) {
+          setError(hotelError.message);
+          return;
+        }
+        setHotels((hotelData ?? []) as HotelAccount[]);
+
+        const { data: offerData, error: offerError } = await supabase
+          .from("offers")
+          .select("id, total_price, meal_plan_included, status, created_at, hotel_accounts(property_name, structure_type)")
+          .eq("travel_request_id", selectedRequest.id)
+          .order("created_at", { ascending: false });
+
+        if (offerError) {
+          setError(offerError.message);
+          return;
+        }
+        setOffers((offerData ?? []) as Offer[]);
+      } else {
+        setHotels([]);
+        setOffers([]);
+      }
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Errore durante il caricamento della dashboard.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    void loadDashboard();
+  }, []);
+
+  const activeCount = useMemo(() => requests.filter((request) => request.status === "active").length, [requests]);
+
+  return (
+    <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <p className="text-sm font-medium uppercase tracking-wide text-emerald-700">Area inserzionista</p>
+          <h1 className="mt-2 text-3xl font-semibold tracking-tight">Dashboard inserzionista</h1>
+          <p className="mt-2 max-w-2xl text-zinc-600 dark:text-zinc-400">
+            Pubblica richieste gratuite, visualizza le strutture della zona e ricevi proposte nella campanella laterale.
+          </p>
+          {activeRequest ? <p className="mt-2 text-sm text-zinc-500">Richiesta selezionata: {activeRequest.city_name} · {activeRequest.preferred_area}</p> : null}
+        </div>
+        <div className="flex flex-wrap gap-3">
+          <button onClick={loadDashboard} className="inline-flex items-center gap-2 rounded-full border px-5 py-3 text-sm font-semibold">
+            <RefreshCw className="h-4 w-4" /> Aggiorna
+          </button>
+          <Link href="/inserzionista/crea-annuncio" className="inline-flex items-center gap-2 rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white dark:bg-white dark:text-zinc-950">
+            <FilePlus2 className="h-4 w-4" /> Crea annuncio
+          </Link>
+        </div>
+      </div>
+
+      {error ? <div className="mt-6 rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}
+
+      <div className="mt-8 grid gap-4 md:grid-cols-3">
+        <StatCard label="Annunci attivi" value={loading ? "..." : String(activeCount)} description="Richieste pubblicate e ancora aperte" />
+        <StatCard label="Offerte ricevute" value={loading ? "..." : String(offers.length)} description="Proposte ricevute sulla richiesta selezionata" />
+        <StatCard label="Strutture in zona" value={loading ? "..." : String(hotels.length)} description="Filtrate per città e tipologia scelta" />
+      </div>
+
+      <div className="mt-8 grid gap-6 lg:grid-cols-[1fr_380px]">
+        <section className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
+          <div className="flex items-center gap-3">
+            <Building2 className="h-5 w-5" />
+            <h2 className="text-xl font-semibold">Strutture ricettive della zona</h2>
+          </div>
+          <p className="mt-2 text-sm text-zinc-500">Elenco informativo filtrato da country_code + city_id + tipologia struttura.</p>
+          <div className="mt-5 space-y-3">
+            {loading ? <p className="text-sm text-zinc-500">Caricamento strutture...</p> : null}
+            {!loading && hotels.length === 0 ? (
+              <div className="rounded-2xl border border-dashed p-6 text-sm text-zinc-500">
+                Nessuna struttura compatibile trovata. Crea una struttura test attiva nella stessa città della richiesta.
+              </div>
+            ) : null}
+            {hotels.map((hotel) => {
+              const labels = serviceLabels(hotel.services);
+              return (
+                <article key={hotel.id} className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800">
+                  <div className="flex items-start justify-between gap-4">
+                    <div>
+                      <p className="font-semibold">{hotel.property_name}</p>
+                      <p className="text-sm text-zinc-500">{structureTypeLabels[hotel.structure_type]} · {hotel.specific_area ?? hotel.city_name}</p>
+                      <p className="mt-1 text-xs text-zinc-400">CIN: {hotel.cin_code}</p>
+                      {hotel.points_of_interest?.length ? <p className="mt-2 text-xs text-zinc-500">Vicino a: {hotel.points_of_interest.join(", ")}</p> : null}
+                      {labels.length ? <p className="mt-2 text-xs text-zinc-500">Servizi: {labels.join(", ")}</p> : null}
+                    </div>
+                    <button className="rounded-full border px-3 py-1 text-xs">Profilo</button>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+        </section>
+
+        <aside className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
+          <div className="flex items-center gap-3">
+            <Bell className="h-5 w-5" />
+            <h2 className="text-xl font-semibold">Campanella offerte</h2>
+          </div>
+          <p className="mt-2 text-sm text-zinc-500">Lista delle strutture che hanno fatto una proposta.</p>
+          <div className="mt-5 space-y-3">
+            {loading ? <p className="text-sm text-zinc-500">Caricamento offerte...</p> : null}
+            {!loading && offers.length === 0 ? (
+              <div className="rounded-2xl border border-dashed p-5 text-sm text-zinc-500">Nessuna offerta ricevuta al momento.</div>
+            ) : null}
+            {offers.map((offer) => (
+              <article key={offer.id} className="rounded-2xl bg-zinc-50 p-4 dark:bg-zinc-950">
+                <p className="font-semibold">{offer.hotel_accounts?.property_name ?? "Struttura"}</p>
+                <p className="text-sm text-zinc-500">
+                  {offer.hotel_accounts?.structure_type ? structureTypeLabels[offer.hotel_accounts.structure_type] : "Struttura"} · {formatCurrency(Number(offer.total_price))}
+                </p>
+                <p className="mt-1 text-xs text-zinc-500">{mealPlanLabels[offer.meal_plan_included]} · {offer.status} · {formatDate(offer.created_at)}</p>
+                <button className="mt-3 rounded-full bg-zinc-950 px-4 py-2 text-xs font-semibold text-white dark:bg-white dark:text-zinc-950">Vedi offerta</button>
+              </article>
+            ))}
+          </div>
+        </aside>
+      </div>
+
+      {profile ? null : <p className="mt-4 text-xs text-zinc-400">Profilo inserzionista in caricamento...</p>}
+    </main>
+  );
+}
