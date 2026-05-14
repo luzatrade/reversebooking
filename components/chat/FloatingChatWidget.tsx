@@ -79,13 +79,29 @@ export function FloatingChatWidget() {
     }
 
     const next = (data ?? []) as ChatMessage[];
-    if (silent && !open && userId) {
-      const lastReadIndex = lastReadMessageId ? next.findIndex((message) => message.id === lastReadMessageId) : next.length - 1;
-      const unread = next.slice(lastReadIndex + 1).filter((message) => message.sender_id !== userId).length;
-      if (unread > 0) setUnreadCount((current) => Math.max(current, unread));
+    const latestMessageId = next.at(-1)?.id ?? null;
+
+    if (open) {
+      setMessages(next);
+      markAsRead(next);
+      return;
     }
+
+    if (!silent) {
+      setMessages(next);
+      setUnreadCount(0);
+      setLastReadMessageId(latestMessageId);
+      return;
+    }
+
+    if (userId && lastReadMessageId) {
+      const lastReadIndex = next.findIndex((message) => message.id === lastReadMessageId);
+      const unreadStart = lastReadIndex >= 0 ? lastReadIndex + 1 : 0;
+      const unread = next.slice(unreadStart).filter((message) => message.sender_id !== userId).length;
+      setUnreadCount(unread);
+    }
+
     setMessages(next);
-    if (open) markAsRead(next);
   }
 
   async function loadWidget(silent = false) {
@@ -153,8 +169,6 @@ export function FloatingChatWidget() {
 
   useEffect(() => {
     if (activeOfferId) void loadMessages(activeOfferId);
-    setUnreadCount(0);
-    setLastReadMessageId(null);
   }, [activeOfferId]);
 
   useEffect(() => {
@@ -163,7 +177,7 @@ export function FloatingChatWidget() {
       else void loadWidget(true);
     }, 5000);
     return () => window.clearInterval(interval);
-  }, [activeOfferId, messages, userId, open, lastReadMessageId]);
+  }, [activeOfferId, userId, open, lastReadMessageId]);
 
   useEffect(() => {
     if (open) markAsRead();
@@ -195,7 +209,6 @@ export function FloatingChatWidget() {
       });
       setBody("");
       await loadMessages(activeOffer.id);
-      markAsRead();
     } catch (err) {
       setError(err instanceof Error ? err.message : "Errore durante l’invio del messaggio.");
     } finally {
