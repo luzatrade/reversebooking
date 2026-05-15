@@ -70,6 +70,19 @@ body {
   color: #111111 !important;
 }
 
+.rb-soft-white-home header input[type="date"] {
+  height: 3.5rem !important;
+  border-radius: 1rem !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  font-size: 0.875rem !important;
+}
+
+.rb-soft-white-home header input[type="date"]::-webkit-calendar-picker-indicator {
+  transform: scale(1.18);
+  cursor: pointer;
+}
+
 .rb-soft-white-home h2,
 .rb-soft-white-home h3,
 .rb-soft-white-home strong,
