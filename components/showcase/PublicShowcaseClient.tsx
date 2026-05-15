@@ -45,7 +45,6 @@ export function PublicShowcaseClient() {
   const [offers, setOffers] = useState<Offer[]>([]);
   const [viewer, setViewer] = useState<Viewer>({ userId: null, role: null, hotelAccountId: null });
   const [advertiserOfferCount, setAdvertiserOfferCount] = useState(0);
-  const [countryCode, setCountryCode] = useState("");
   const [citySearch, setCitySearch] = useState("");
   const [areaSearch, setAreaSearch] = useState("");
   const [checkInSearch, setCheckInSearch] = useState("");
@@ -60,14 +59,13 @@ export function PublicShowcaseClient() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const countries = useMemo(() => Array.from(new Map(majorWorldCities.map((city) => [city.country_code, city.country_name])).entries()).sort((a, b) => a[1].localeCompare(b[1])), []);
-  const citySuggestions = useMemo(() => majorWorldCities.filter((city) => !countryCode || city.country_code === countryCode).slice(0, 500), [countryCode]);
+  const citySuggestions = useMemo(() => majorWorldCities.slice(0, 500), []);
   const selectedCity = useMemo<WorldCity | null>(() => { const value = citySearch.trim().toLowerCase(); if (!value) return null; return majorWorldCities.find((city) => city.label.toLowerCase() === value || city.city_name.toLowerCase() === value) ?? null; }, [citySearch]);
   const selectedFilterCount = Object.values(selectedFilters).filter(Boolean).length;
 
   const requestDraftHref = useMemo(() => {
     const params = new URLSearchParams();
-    if (countryCode) params.set("country_code", countryCode);
+    if (selectedCity?.country_code) params.set("country_code", selectedCity.country_code);
     if (selectedCity?.city_id) params.set("city_id", selectedCity.city_id);
     if (citySearch.trim()) params.set("city", citySearch.trim());
     if (areaSearch.trim()) params.set("area", areaSearch.trim());
@@ -82,7 +80,7 @@ export function PublicShowcaseClient() {
     const target = `/inserzionista/crea-annuncio${params.toString() ? `?${params.toString()}` : ""}`;
     if (viewer.userId) return target;
     return `/login?redirect=${encodeURIComponent(target)}`;
-  }, [viewer.userId, countryCode, selectedCity, citySearch, areaSearch, checkInSearch, checkOutSearch, adultsSearch, childrenSearch, roomsSearch, budgetSearch, selectedFilters]);
+  }, [viewer.userId, selectedCity, citySearch, areaSearch, checkInSearch, checkOutSearch, adultsSearch, childrenSearch, roomsSearch, budgetSearch, selectedFilters]);
 
   function toggleFilter(key: keyof PreferenceFilters) { setSelectedFilters((current) => ({ ...current, [key]: !current[key] })); }
 
@@ -144,22 +142,21 @@ export function PublicShowcaseClient() {
         </div>
         <div className="rounded-[2rem] border border-zinc-200 bg-zinc-50 p-5 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
           <div className="mb-4"><p className="text-sm font-semibold text-white">Crea la tua richiesta di soggiorno</p><p className="mt-1 text-xs text-white/80">Questi campi preparano la richiesta, non filtrano hotel o annunci.</p></div>
-          <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-[.85fr_1.25fr_1fr_1fr_.6fr_.6fr_.6fr_.9fr_auto]">
-            <label className="text-xs font-semibold text-zinc-500">Nazione<select value={countryCode} onChange={(event) => { setCountryCode(event.target.value); setCitySearch(""); }} className="mt-2 h-14 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 dark:border-zinc-700 dark:bg-zinc-950 dark:text-white"><option value="">Tutte</option>{countries.map(([code, name]) => <option key={code} value={code}>{name}</option>)}</select></label>
+          <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_.7fr_.7fr_.7fr]">
             <label className="text-xs font-semibold text-zinc-500">Città<input value={citySearch} onChange={(event) => setCitySearch(event.target.value)} list="home-city-suggestions" placeholder="Dove vuoi andare?" className="mt-2 h-14 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /><datalist id="home-city-suggestions">{citySuggestions.map((city) => <option key={city.city_id} value={city.label} />)}</datalist></label>
             <label className="text-xs font-semibold text-zinc-500">Check-in<input type="date" value={checkInSearch} onChange={(event) => setCheckInSearch(event.target.value)} className="mt-2 h-14 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm font-semibold text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
             <label className="text-xs font-semibold text-zinc-500">Check-out<input type="date" value={checkOutSearch} onChange={(event) => setCheckOutSearch(event.target.value)} className="mt-2 h-14 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm font-semibold text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
             <label className="text-xs font-semibold text-zinc-500">Adulti<input type="number" min={0} value={adultsSearch} onChange={(event) => setAdultsSearch(event.target.value)} placeholder="2" className="mt-2 h-14 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
             <label className="text-xs font-semibold text-zinc-500">Bambini<input type="number" min={0} value={childrenSearch} onChange={(event) => setChildrenSearch(event.target.value)} placeholder="0" className="mt-2 h-14 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
             <label className="text-xs font-semibold text-zinc-500">Camere<input type="number" min={1} value={roomsSearch} onChange={(event) => setRoomsSearch(event.target.value)} placeholder="1" className="mt-2 h-14 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
-            <label className="text-xs font-semibold text-zinc-500">Budget per camera<input type="number" min={1} value={budgetSearch} onChange={(event) => setBudgetSearch(event.target.value)} placeholder="€" className="mt-2 h-14 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
-            <div className="flex items-end"><button type="button" onClick={() => setFiltersOpen((value) => !value)} className="inline-flex h-14 w-full items-center justify-center gap-2 rounded-2xl border border-white/70 bg-white px-5 text-sm font-semibold text-[#0f4c81] shadow-sm"><Filter className="h-4 w-4" /> Filtri{selectedFilterCount ? ` (${selectedFilterCount})` : ""}</button></div>
           </div>
-          <div className="mt-3 grid gap-3 md:grid-cols-[minmax(180px,360px)_auto]">
+          <div className="mt-3 grid gap-3 md:grid-cols-[minmax(180px,360px)_minmax(150px,220px)_auto_auto]">
             <label className="text-xs font-semibold text-zinc-500">Zona<input value={areaSearch} onChange={(event) => setAreaSearch(event.target.value)} placeholder="Centro, fiera, mare..." className="mt-2 h-12 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
+            <label className="text-xs font-semibold text-zinc-500">Budget per camera<input type="number" min={1} value={budgetSearch} onChange={(event) => setBudgetSearch(event.target.value)} placeholder="€" className="mt-2 h-12 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
+            <div className="flex items-end"><button type="button" onClick={() => setFiltersOpen((value) => !value)} className="inline-flex h-12 w-full items-center justify-center gap-2 rounded-2xl border border-white/70 bg-white px-5 text-sm font-semibold text-[#0f4c81] shadow-sm"><Filter className="h-4 w-4" /> Filtri{selectedFilterCount ? ` (${selectedFilterCount})` : ""}</button></div>
             <div className="flex items-end"><Link href={requestDraftHref} className="inline-flex h-12 items-center whitespace-nowrap rounded-2xl bg-white px-5 text-sm font-semibold text-[#0f4c81] shadow-sm">Crea richiesta</Link></div>
           </div>
-          {filtersOpen ? <div className="mt-4 rounded-3xl border border-white/60 bg-white/95 p-4 shadow-sm"><p className="text-sm font-semibold text-[#0f4c81]">Filtri e preferenze richiesta</p><div className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-4">{filterOptions.map((filter) => <label key={filter.key} className="flex cursor-pointer items-center gap-2 rounded-2xl border border-zinc-200 px-3 py-2 text-sm font-semibold text-zinc-700"><input type="checkbox" checked={Boolean(selectedFilters[filter.key])} onChange={() => toggleFilter(filter.key)} />{filter.label}</label>)}</div><p className="mt-3 text-xs text-zinc-500">Nel prossimo step questi dati verranno letti dalla pagina di creazione annuncio per precompilare il form.</p></div> : null}
+          {filtersOpen ? <div className="mt-4 rounded-3xl border border-white/60 bg-white/95 p-4 shadow-sm"><p className="text-sm font-semibold text-[#0f4c81]">Filtri e preferenze richiesta</p><div className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-4">{filterOptions.map((filter) => <label key={filter.key} className="flex cursor-pointer items-center gap-2 rounded-2xl border border-zinc-200 px-3 py-2 text-sm font-semibold text-zinc-700"><input type="checkbox" checked={Boolean(selectedFilters[filter.key])} onChange={() => toggleFilter(filter.key)} />{filter.label}</label>)}</div><p className="mt-3 text-xs text-zinc-500">Questi dati verranno riportati nella pagina di creazione annuncio per precompilare il form.</p></div> : null}
         </div>
       </div>
     </header>
