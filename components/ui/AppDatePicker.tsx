@@ -82,18 +82,18 @@ export function AppDatePicker({ label, value, onChange, minDate, className }: Ap
   }
 
   return (
-    <div ref={wrapperRef} className={`relative ${className ?? ""}`}>
-      <label className="text-xs font-semibold text-zinc-500">{label}</label>
+    <div ref={wrapperRef} className={`relative flex flex-col ${className ?? ""}`}>
+      <label className="text-xs font-semibold leading-none text-zinc-500">{label}</label>
       <button
         type="button"
         onClick={() => setOpen((current) => !current)}
-        className="mt-2 flex h-14 w-full items-center justify-between rounded-2xl border border-zinc-300 bg-white px-4 text-left text-sm font-semibold text-zinc-950 outline-none transition hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-950 dark:text-white"
+        className="mt-2 flex h-14 w-full items-center justify-between rounded-2xl border border-zinc-300 bg-white px-4 text-left text-sm font-semibold leading-none text-zinc-950 outline-none transition hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-950 dark:text-white"
       >
-        <span>{displayValue}</span>
-        <CalendarDays className="h-4 w-4 text-zinc-500" />
+        <span className="truncate">{displayValue}</span>
+        <CalendarDays className="h-4 w-4 shrink-0 text-zinc-500" />
       </button>
       {open ? (
-        <div className="absolute left-0 z-50 mt-3 w-[340px] rounded-3xl border border-zinc-200 bg-white p-4 text-zinc-950 shadow-2xl dark:border-zinc-800 dark:bg-zinc-950 dark:text-white sm:w-[390px]">
+        <div className="absolute left-0 top-full z-50 mt-3 w-[340px] rounded-3xl border border-zinc-200 bg-white p-4 text-zinc-950 shadow-2xl dark:border-zinc-800 dark:bg-zinc-950 dark:text-white sm:w-[390px]">
           <div className="flex items-center justify-between gap-3">
             <button type="button" onClick={() => changeMonth(-1)} className="flex h-10 w-10 items-center justify-center rounded-full border border-zinc-200 hover:bg-zinc-50 dark:border-zinc-800 dark:hover:bg-zinc-900" aria-label="Mese precedente">
               <ChevronLeft className="h-5 w-5" />
