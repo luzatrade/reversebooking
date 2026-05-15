@@ -3,10 +3,11 @@
 import { FormEvent, useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { CountryCitySelect } from "@/components/location/CountryCitySelect";
+import { CityAutocomplete } from "@/components/location/CityAutocomplete";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { validateNoContactsInFields } from "@/lib/content/contact-guard";
 import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
+import { cityFromInput } from "@/lib/constants/world-city-helpers";
 import { mealPlanLabels, structureTypeLabels, type MealPlan, type PreferredStructureType } from "@/types/app";
 
 type RoomType = "double" | "twin" | "triple" | "quadruple";
@@ -24,7 +25,7 @@ function makeRequestCode() { return `RB-${Math.floor(100000 + Math.random() * 90
 function formatCurrency(value: number) { return new Intl.NumberFormat("it-IT", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(value || 0); }
 function todayOffset(days: number) { const date = new Date(); date.setDate(date.getDate() + days); return date.toISOString().slice(0, 10); }
 function positiveNumber(value: string | null, fallback: number) { const parsed = Number(value); return Number.isFinite(parsed) && parsed > 0 ? parsed : fallback; }
-function cityFromParams(cityId: string | null, cityName: string | null) { const byId = cityId ? majorWorldCities.find((city) => city.city_id === cityId) : null; if (byId) return byId; const value = cityName?.trim().toLowerCase(); if (value) { const byName = majorWorldCities.find((city) => city.label.toLowerCase() === value || city.city_name.toLowerCase() === value); if (byName) return byName; } return majorWorldCities[0]; }
+function cityFromParams(cityId: string | null, cityName: string | null) { const byId = cityId ? majorWorldCities.find((city) => city.city_id === cityId) : null; if (byId) return byId; const value = cityName?.trim(); if (value) { const byName = majorWorldCities.find((city) => city.label.toLowerCase() === value.toLowerCase() || city.city_name.toLowerCase() === value.toLowerCase()); if (byName) return byName; return cityFromInput("IT", value); } return majorWorldCities[0]; }
 function filtersFromParam(value: string | null): PreferenceFilters { if (!value) return emptyFilters; const keys = new Set(value.split(",").map((item) => item.trim()).filter(Boolean)); return { ...emptyFilters, connecting_rooms: keys.has("connecting_rooms"), disabled_access: keys.has("disabled_access"), pool: keys.has("pool"), spa: keys.has("spa"), bathtub: keys.has("bathtub"), garage: keys.has("garage"), beach: keys.has("beach"), pets_allowed: keys.has("pets_allowed") }; }
 function roomsFromParams(roomCountValue: string | null, adultsValue: string | null, childrenValue: string | null): RoomDetail[] {
   const roomCount = Math.max(1, Math.min(10, positiveNumber(roomCountValue, 1)));
@@ -69,6 +70,7 @@ export function CreateTravelRequestForm() {
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault(); setLoading(true); setError(null); setSuccess(null);
     try {
+      if (!selectedCity.city_name.trim()) { setError("Inserisci una destinazione valida."); return; }
       if (!checkIn || !checkOut || new Date(checkOut) <= new Date(checkIn)) { setError("La data di check-out deve essere successiva al check-in."); return; }
       if (normalizedRooms.some((room) => room.adults < 1)) { setError("Ogni camera deve avere almeno un adulto."); return; }
       const contactError = validateNoContactsInFields([{ label: "zona preferita", value: preferredArea }, { label: "note", value: notes }]);
@@ -89,8 +91,8 @@ export function CreateTravelRequestForm() {
 
   return (
     <form onSubmit={onSubmit} className="space-y-6 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
-      <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-800 dark:border-emerald-900 dark:bg-emerald-950/40 dark:text-emerald-200">I dati inseriti nella Home sono stati riportati qui. Completa trattamento e dettagli, poi pubblica l’annuncio.</div>
-      <CountryCitySelect value={selectedCity} onChange={setSelectedCity} countryLabel="Nazione" cityLabel="Città principale" helpText="Scegli prima la nazione e poi la città principale dove vuoi ricevere offerte." />
+      <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-800 dark:border-emerald-900 dark:bg-emerald-950/40 dark:text-emerald-200">Cerca la destinazione come su Booking o Airbnb: scrivi la città, scegli il suggerimento e completa i dettagli del soggiorno.</div>
+      <CityAutocomplete value={selectedCity} onChange={setSelectedCity} label="Dove vuoi soggiornare?" helpText="Scrivi il nome della città: il sistema suggerisce le destinazioni più adatte, ma puoi anche inserire una città manualmente." />
       <div className="grid gap-5 md:grid-cols-2">
         <label className="block text-sm font-medium">Zona preferita<input value={preferredArea} onChange={(event) => setPreferredArea(event.target.value)} required placeholder="Centro, mare, stazione, aeroporto..." className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
         <label className="block text-sm font-medium">Check-in<input type="date" value={checkIn} onChange={(event) => setCheckIn(event.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
