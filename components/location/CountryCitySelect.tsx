@@ -19,10 +19,15 @@ export function CountryCitySelect({
   cityLabel = "Città principale",
   helpText,
 }: CountryCitySelectProps) {
+  const [mounted, setMounted] = useState(false);
   const selectedCity = value ? cityFromStored(value) : findFirstCityByCountry("IT");
   const countries = useMemo(() => getCountriesFromMajorCities(), []);
   const cities = useMemo(() => getCitiesByCountry(selectedCity.country_code), [selectedCity.country_code]);
   const [cityName, setCityName] = useState(selectedCity.city_name);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     setCityName(selectedCity.city_name);
@@ -37,6 +42,22 @@ export function CountryCitySelect({
   function changeCity(cityNameValue: string) {
     setCityName(cityNameValue);
     onChange(cityFromInput(selectedCity.country_code, cityNameValue));
+  }
+
+  if (!mounted) {
+    return (
+      <div className="grid gap-4 md:grid-cols-2">
+        <label className="block text-sm font-medium text-zinc-800 dark:text-zinc-200">
+          {countryLabel}
+          <div className="mt-2 h-[46px] rounded-2xl border border-zinc-300 bg-white dark:border-zinc-700 dark:bg-zinc-950" />
+        </label>
+        <label className="block text-sm font-medium text-zinc-800 dark:text-zinc-200">
+          {cityLabel}
+          <div className="mt-2 h-[46px] rounded-2xl border border-zinc-300 bg-white dark:border-zinc-700 dark:bg-zinc-950" />
+        </label>
+        {helpText ? <p className="text-xs text-zinc-500 md:col-span-2">{helpText}</p> : null}
+      </div>
+    );
   }
 
   return (
