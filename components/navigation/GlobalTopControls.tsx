@@ -28,7 +28,7 @@ export function GlobalTopControls() {
   }, []);
 
   return (
-    <div className="fixed right-4 top-3 z-[10000] flex max-w-[calc(100vw-2rem)] flex-wrap items-center justify-end gap-1.5 rounded-full border border-zinc-200 bg-white/95 p-1 shadow-sm backdrop-blur">
+    <div className="fixed right-4 top-12 z-[10000] flex max-w-[calc(100vw-2rem)] flex-wrap items-center justify-end gap-1.5 rounded-full border border-zinc-200 bg-white/95 p-1 shadow-sm backdrop-blur">
       <LanguageSwitcher />
       <CurrencySwitcher />
       {!loading && !userId ? (
