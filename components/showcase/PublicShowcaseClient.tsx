@@ -103,7 +103,7 @@ export function PublicShowcaseClient() {
 
   return <main className="min-h-screen bg-zinc-50 text-zinc-950">
     <header className="relative z-50 overflow-visible border-b border-zinc-200 bg-white/90 backdrop-blur">
-      <div className="relative z-50 mx-auto flex max-w-7xl flex-col gap-4 overflow-visible px-4 py-5 sm:px-6 lg:px-8">
+      <div className="relative z-50 mx-auto flex max-w-7xl flex-col gap-4 overflow-visible px-4 pb-5 pt-12 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div><p className="text-sm font-semibold uppercase tracking-wide text-emerald-700">Reverse Booking</p><h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Home richieste e strutture</h1></div>
           <div className="flex flex-wrap items-center justify-end gap-2">
