@@ -36,6 +36,10 @@ body {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04) !important;
 }
 
+.rb-soft-white-home header h1 {
+  display: none !important;
+}
+
 .rb-soft-white-home header div[class*="bg-zinc-50"] {
   background: linear-gradient(135deg, #0f4c81 0%, #1d6fa5 55%, #7ec8e3 100%) !important;
   border-color: rgba(255, 255, 255, 0.35) !important;
