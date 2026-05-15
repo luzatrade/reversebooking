@@ -58,6 +58,20 @@ body {
   color: #111111 !important;
 }
 
+.rb-soft-white-home h2,
+.rb-soft-white-home h3,
+.rb-soft-white-home strong,
+.rb-soft-white-home .font-semibold {
+  color: #0f4c81 !important;
+}
+
+.rb-soft-white-home header div[class*="bg-zinc-50"] .font-semibold,
+.rb-soft-white-home header div[class*="bg-zinc-50"] label,
+.rb-soft-white-home a .font-semibold,
+.rb-soft-white-home button .font-semibold {
+  color: inherit !important;
+}
+
 .rb-soft-white-home section,
 .rb-soft-white-home aside > div,
 .rb-soft-white-home article {
