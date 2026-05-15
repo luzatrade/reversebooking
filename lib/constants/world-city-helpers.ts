@@ -20,6 +20,10 @@ function citySlug(value: string) {
   return normalizeText(value).replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "city";
 }
 
+function titleFromSlug(value: string) {
+  return value.split("-").filter(Boolean).map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(" ");
+}
+
 export function getAllCountries(): WorldCountry[] {
   const countries = new Map<string, WorldCountry>();
   for (const code of countryCodes) countries.set(code, { country_code: code, country_name: countryNameFor(code) });
@@ -51,7 +55,11 @@ export function createWorldCity(countryCode: string, cityName: string, countryNa
 }
 
 export function findCityById(cityId?: string | null): WorldCity {
-  return majorWorldCities.find((city) => city.city_id === cityId) ?? majorWorldCities[0];
+  const knownCity = majorWorldCities.find((city) => city.city_id === cityId);
+  if (knownCity) return knownCity;
+  const match = cityId?.match(/^([A-Z]{2})-(.+)$/);
+  if (match) return createWorldCity(match[1], titleFromSlug(match[2]));
+  return majorWorldCities[0];
 }
 
 export function findFirstCityByCountry(countryCode?: string | null): WorldCity {
