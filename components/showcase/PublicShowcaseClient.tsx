@@ -2,7 +2,9 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { Building2, CalendarDays, Euro, LayoutDashboard, MapPin, Users } from "lucide-react";
+import { Building2, CalendarDays, Euro, MapPin, Users } from "lucide-react";
+import { CurrencySwitcher } from "@/components/currency/CurrencySwitcher";
+import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 import { CityAutocomplete } from "@/components/location/CityAutocomplete";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { createWorldCity } from "@/lib/constants/world-city-helpers";
@@ -104,7 +106,20 @@ export function PublicShowcaseClient() {
       <div className="relative z-50 mx-auto flex max-w-7xl flex-col gap-4 overflow-visible px-4 py-5 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div><p className="text-sm font-semibold uppercase tracking-wide text-emerald-700">Reverse Booking</p><h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Home richieste e strutture</h1></div>
-          <div className="flex flex-wrap gap-3">{viewer.userId ? <Link href={dashboardHref(viewer)} className="inline-flex items-center gap-2 rounded-full border border-zinc-300 px-5 py-3 text-sm font-semibold"><LayoutDashboard className="h-4 w-4" /> Vai alla dashboard{viewer.role === "advertiser" && advertiserOfferCount > 0 ? <span className="ml-1 rounded-full bg-red-600 px-2 py-0.5 text-xs text-white">{advertiserOfferCount}</span> : null}</Link> : <Link href="/login" className="rounded-full border border-zinc-300 px-5 py-3 text-sm font-semibold">Login</Link>}</div>
+          <div className="flex flex-wrap items-center justify-end gap-2">
+            <LanguageSwitcher />
+            <CurrencySwitcher />
+            {viewer.userId ? (
+              <Link href={dashboardHref(viewer)} className="inline-flex h-8 items-center rounded-full border border-zinc-200 bg-white px-3 text-xs font-semibold text-zinc-700 shadow-sm">
+                Vai alla dashboard{viewer.role === "advertiser" && advertiserOfferCount > 0 ? <span className="ml-1 rounded-full bg-red-600 px-2 py-0.5 text-xs text-white">{advertiserOfferCount}</span> : null}
+              </Link>
+            ) : (
+              <>
+                <Link href="/login" className="inline-flex h-8 items-center rounded-full border border-zinc-200 bg-white px-3 text-xs font-semibold text-zinc-700 shadow-sm">Login</Link>
+                <Link href="/register" className="inline-flex h-8 items-center rounded-full bg-[#0f4c81] px-3 text-xs font-semibold text-white shadow-sm">Registrati</Link>
+              </>
+            )}
+          </div>
         </div>
         <div className="rounded-[1.5rem] border border-white/30 bg-[#7CFF6B] p-4 shadow-[0_10px_30px_rgba(124,255,107,0.24)]">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
