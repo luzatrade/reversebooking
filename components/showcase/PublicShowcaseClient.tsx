@@ -121,12 +121,6 @@ export function PublicShowcaseClient() {
             )}
           </div>
         </div>
-        <div className="rounded-[1.5rem] border border-white/30 bg-[#7CFF6B] p-4 shadow-[0_10px_30px_rgba(124,255,107,0.24)]">
-          <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-            <p className="max-w-3xl text-lg font-semibold leading-snug text-white drop-shadow-sm">Scegli la destinazione, pubblica la tua richiesta e lascia che gli hotel facciano a gara per averti.</p>
-            <Link href={createRequestHref} className="inline-flex h-12 shrink-0 items-center justify-center rounded-2xl bg-white px-6 text-sm font-semibold text-[#0A3D62] shadow-sm">Crea richiesta</Link>
-          </div>
-        </div>
         <div className="relative z-[60] overflow-visible rounded-[1.5rem] border border-zinc-200 bg-white p-4 shadow-sm">
           <CityAutocomplete value={selectedCity} onChange={setSelectedCity} label="Seleziona città" helpText="La stessa ricerca città usata nella compilazione della richiesta: scrivi la destinazione e seleziona il suggerimento." />
           {hasSelectedCity ? <button type="button" onClick={() => setSelectedCity(createWorldCity("IT", ""))} className="mt-2 text-xs font-semibold text-[#0f4c81]">Cancella città selezionata</button> : null}
