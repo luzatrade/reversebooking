@@ -50,16 +50,16 @@ function cityFromPlace(place: NominatimPlace): Suggestion | null {
   return { ...createWorldCity(address.country_code.toUpperCase(), cityName, address.country), source: "remote" };
 }
 
+function initialQuery(value: WorldCity) {
+  return value.city_name.trim() ? value.label : "";
+}
+
 export function CityAutocomplete({ value, onChange, label = "Destinazione", helpText }: CityAutocompleteProps) {
-  const [query, setQuery] = useState(value.city_name ? value.label : "");
+  const [query, setQuery] = useState(() => initialQuery(value));
   const [remoteSuggestions, setRemoteSuggestions] = useState<Suggestion[]>([]);
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const wrapperRef = useRef<HTMLDivElement | null>(null);
-
-  useEffect(() => {
-    setQuery(value.city_name ? value.label : "");
-  }, [value.city_id, value.label, value.city_name]);
 
   const localSuggestions = useMemo(() => {
     const text = normalizeText(query);
@@ -117,12 +117,32 @@ export function CityAutocomplete({ value, onChange, label = "Destinazione", help
     onChange(city);
   }
 
+  function confirmManualCity() {
+    const text = query.trim();
+    if (!text) {
+      onChange(createWorldCity("IT", ""));
+      return;
+    }
+
+    const exactCity = suggestions.find((city) => normalizeText(city.city_name) === normalizeText(text) || normalizeText(city.label) === normalizeText(text));
+    if (exactCity) {
+      setQuery(exactCity.label);
+      onChange(exactCity);
+      return;
+    }
+
+    const manualCity = cityFromInput(value.country_code || "IT", text);
+    setQuery(manualCity.label);
+    onChange(manualCity);
+  }
+
   function onInputChange(text: string) {
     setQuery(text);
     setOpen(true);
-    const exactLocal = majorWorldCities.find((city) => normalizeText(city.label) === normalizeText(text) || normalizeText(city.city_name) === normalizeText(text));
-    if (exactLocal) onChange(exactLocal);
-    else if (text.trim().length >= 2) onChange(cityFromInput(value.country_code || "IT", text));
+    if (!text.trim()) {
+      setRemoteSuggestions([]);
+      onChange(createWorldCity("IT", ""));
+    }
   }
 
   return (
@@ -135,6 +155,7 @@ export function CityAutocomplete({ value, onChange, label = "Destinazione", help
             value={query}
             onChange={(event) => onInputChange(event.target.value)}
             onFocus={() => setOpen(true)}
+            onBlur={confirmManualCity}
             placeholder="Scrivi una città, es. Roma, Parigi, Bangkok..."
             className="w-full bg-transparent outline-none"
             autoComplete="off"
@@ -151,6 +172,7 @@ export function CityAutocomplete({ value, onChange, label = "Destinazione", help
             <button
               key={`${city.source}-${city.city_id}`}
               type="button"
+              onMouseDown={(event) => event.preventDefault()}
               onClick={() => selectCity(city)}
               className="flex w-full items-start gap-3 px-4 py-3 text-left text-sm hover:bg-zinc-50 dark:hover:bg-zinc-900"
             >
