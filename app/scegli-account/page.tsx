@@ -24,12 +24,12 @@ export default function ChooseAccountPage() {
       const { error: profileError } = await supabase.from("profiles").upsert({ user_id: user.id, role, email: user.email, email_verified: true, phone_verified: false, account_status: "active" }, { onConflict: "user_id" });
       if (profileError) { setError(profileError.message); return; }
       if (role === "hotel") {
-        const { error: hotelError } = await supabase.from("hotel_accounts").upsert({ user_id: user.id, structure_type: "hotel", property_name: "Struttura da completare", cin_code: null, description: "Profilo struttura creato da accesso social. Da completare nel pannello struttura.", full_address: "Indirizzo da completare", country_code: "IT", country_name: "Italia", city_name: "Verona", city_id: "3164527", specific_area: "Centro", rooms_quantity: 1, private_notification_email: user.email, subscription_status: "active", subscription_active: true, account_status: "active" }, { onConflict: "user_id" });
+        const { error: hotelError } = await supabase.from("hotel_accounts").upsert({ user_id: user.id, structure_type: "hotel", property_name: "Struttura da completare", cin_code: null, description: null, full_address: "Indirizzo da completare", country_code: "IT", country_name: "Italia", city_name: "Verona", city_id: "3164527", specific_area: "Centro", rooms_quantity: 1, private_notification_email: user.email, subscription_status: "active", subscription_active: true, account_status: "active" }, { onConflict: "user_id" });
         if (hotelError) { setError(hotelError.message); return; }
         router.push("/struttura/dashboard");
         return;
       }
-      const { error: advertiserError } = await supabase.from("advertiser_profiles").upsert({ user_id: user.id, advertiser_type: "private_individual", first_name: user.user_metadata?.full_name?.split(" ")?.[0] ?? "Nome", last_name: user.user_metadata?.full_name?.split(" ").slice(1).join(" ") || "Cognome", short_description: "Profilo inserzionista creato da accesso social. Da completare nel pannello inserzionista.", contact_email: user.email }, { onConflict: "user_id" });
+      const { error: advertiserError } = await supabase.from("advertiser_profiles").upsert({ user_id: user.id, advertiser_type: "private_individual", first_name: user.user_metadata?.full_name?.split(" ")?.[0] ?? "Nome", last_name: user.user_metadata?.full_name?.split(" ").slice(1).join(" ") || "Cognome", short_description: null, contact_email: user.email }, { onConflict: "user_id" });
       if (advertiserError) { setError(advertiserError.message); return; }
       router.push("/inserzionista/dashboard");
     } catch (err) {
