@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { FloatingChatWidget } from "@/components/chat/FloatingChatWidget";
 import { CookieBanner } from "@/components/legal/CookieBanner";
 import { LanguageProvider } from "@/components/i18n/LanguageProvider";
-import { GlobalTopControls } from "@/components/navigation/GlobalTopControls";
 import { company } from "@/lib/legal/company";
 import "./globals.css";
 
@@ -39,7 +38,6 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50">
         <LanguageProvider>
-          <GlobalTopControls />
           {children}
           <FloatingChatWidget />
           <CookieBanner />
