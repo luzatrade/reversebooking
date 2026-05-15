@@ -90,10 +90,10 @@ export function PublicShowcaseClient() {
           <div><p className="text-sm font-semibold uppercase tracking-wide text-emerald-700">Reverse Booking</p><h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Home richieste e strutture</h1></div>
           <div className="flex flex-wrap gap-3">{viewer.userId ? <Link href={dashboardHref(viewer)} className="inline-flex items-center gap-2 rounded-full border border-zinc-300 px-5 py-3 text-sm font-semibold dark:border-zinc-700"><LayoutDashboard className="h-4 w-4" /> Vai alla dashboard{viewer.role === "advertiser" && advertiserOfferCount > 0 ? <span className="ml-1 rounded-full bg-red-600 px-2 py-0.5 text-xs text-white">{advertiserOfferCount}</span> : null}</Link> : <Link href="/login" className="rounded-full border border-zinc-300 px-5 py-3 text-sm font-semibold dark:border-zinc-700">Login</Link>}</div>
         </div>
-        <div className="rounded-[1.5rem] border border-zinc-200 bg-zinc-50 p-4 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
+        <div className="rounded-[1.5rem] border border-white/20 bg-gradient-to-r from-[#0A3D62] via-[#38B6C9] to-[#E9A03B] p-4 shadow-[0_10px_30px_rgba(10,61,98,0.18)]">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-            <p className="max-w-3xl text-lg font-semibold leading-snug text-white">Scegli la destinazione, pubblica la tua richiesta e lascia che gli hotel facciano a gara per averti.</p>
-            <Link href={createRequestHref} className="inline-flex h-12 shrink-0 items-center justify-center rounded-2xl bg-white px-6 text-sm font-semibold text-[#0f4c81] shadow-sm">Crea richiesta</Link>
+            <p className="max-w-3xl text-lg font-semibold leading-snug text-white drop-shadow-sm">Scegli la destinazione, pubblica la tua richiesta e lascia che gli hotel facciano a gara per averti.</p>
+            <Link href={createRequestHref} className="inline-flex h-12 shrink-0 items-center justify-center rounded-2xl bg-white px-6 text-sm font-semibold text-[#0A3D62] shadow-sm">Crea richiesta</Link>
           </div>
         </div>
       </div>
