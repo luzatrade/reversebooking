@@ -50,7 +50,7 @@ export function CreateTravelRequestForm() {
   const [checkOut, setCheckOut] = useState(() => searchParams.get("check_out") ?? todayOffset(17));
   const [rooms, setRooms] = useState<RoomDetail[]>(() => roomsFromParams(searchParams.get("rooms"), searchParams.get("adults"), searchParams.get("children")));
   const [filters, setFilters] = useState<PreferenceFilters>(() => filtersFromParam(searchParams.get("filters")));
-  const [budget, setBudget] = useState(450);
+  const [budget, setBudget] = useState(() => positiveNumber(searchParams.get("budget"), 450));
   const [mealPlan, setMealPlan] = useState<MealPlan>("breakfast");
   const [notes, setNotes] = useState("");
   const [loading, setLoading] = useState(false);
@@ -89,7 +89,7 @@ export function CreateTravelRequestForm() {
 
   return (
     <form onSubmit={onSubmit} className="space-y-6 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
-      <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-800 dark:border-emerald-900 dark:bg-emerald-950/40 dark:text-emerald-200">I dati inseriti nella Home sono stati riportati qui. Completa budget, trattamento e dettagli, poi pubblica l’annuncio.</div>
+      <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-800 dark:border-emerald-900 dark:bg-emerald-950/40 dark:text-emerald-200">I dati inseriti nella Home sono stati riportati qui. Completa trattamento e dettagli, poi pubblica l’annuncio.</div>
       <CountryCitySelect value={selectedCity} onChange={setSelectedCity} countryLabel="Nazione" cityLabel="Città principale" helpText="Scegli prima la nazione e poi la città principale dove vuoi ricevere offerte." />
       <div className="grid gap-5 md:grid-cols-2">
         <label className="block text-sm font-medium">Zona preferita<input value={preferredArea} onChange={(event) => setPreferredArea(event.target.value)} required placeholder="Centro, mare, stazione, aeroporto..." className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
