@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Suspense } from "react";
 import { ArrowLeft } from "lucide-react";
 import { CreateTravelRequestForm } from "@/components/requests/CreateTravelRequestForm";
 
@@ -16,7 +17,9 @@ export default function Page() {
         </p>
       </div>
       <div className="mt-8">
-        <CreateTravelRequestForm />
+        <Suspense fallback={<div className="rounded-3xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500 dark:border-zinc-800 dark:bg-zinc-900">Caricamento modulo...</div>}>
+          <CreateTravelRequestForm />
+        </Suspense>
       </div>
     </main>
   );
