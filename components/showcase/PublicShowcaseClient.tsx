@@ -14,7 +14,6 @@ type HotelAccount = { id: string; property_name: string; structure_type: Structu
 type Offer = { id: string; travel_request_id: string };
 type Viewer = { userId: string | null; role: UserRole | null; hotelAccountId: string | null };
 
-const guestCreateRequestHref = "/login?redirect=/inserzionista/crea-annuncio";
 const serviceLabels: Record<string, string> = { pool: "Piscina", spa: "Spa", garage: "Garage", pets_allowed: "Animali ammessi", disabled_access: "Accesso disabili", beach: "Vicino alla spiaggia", bathtub: "Vasca", connecting_rooms: "Camere comunicanti" };
 const filterOptions: { key: keyof PreferenceFilters; label: string }[] = [
   { key: "pool", label: "Piscina" },
@@ -27,60 +26,18 @@ const filterOptions: { key: keyof PreferenceFilters; label: string }[] = [
   { key: "connecting_rooms", label: "Camere comunicanti" },
 ];
 
-function advertiserName(request: TravelRequest) {
-  const advertiser = Array.isArray(request.advertiser_profiles) ? request.advertiser_profiles[0] : request.advertiser_profiles;
-  const name = [advertiser?.first_name, advertiser?.last_name].filter(Boolean).join(" ").trim();
-  return name || "Inserzionista verificato";
-}
+function advertiserName(request: TravelRequest) { const advertiser = Array.isArray(request.advertiser_profiles) ? request.advertiser_profiles[0] : request.advertiser_profiles; const name = [advertiser?.first_name, advertiser?.last_name].filter(Boolean).join(" ").trim(); return name || "Inserzionista verificato"; }
 function formatDate(value: string) { return new Intl.DateTimeFormat("it-IT", { day: "2-digit", month: "short" }).format(new Date(value)); }
 function formatCurrency(value: number) { return new Intl.NumberFormat("it-IT", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(value); }
 function totalBudget(request: TravelRequest) { return Number(request.budget) * Number(request.rooms_count || 1); }
-function publicHotelDescription(description: string | null) {
-  const value = description?.trim() ?? "";
-  if (!value) return null;
-  const lower = value.toLowerCase();
-  if (lower.includes("profilo struttura creato") || lower.includes("da completare nel pannello struttura") || lower.includes("accesso social")) return null;
-  return value;
-}
-function activeFilterLabels(filters: PreferenceFilters | null) {
-  if (!filters) return [];
-  return Object.entries(filters).filter(([, value]) => Boolean(value)).map(([key]) => serviceLabels[key] ?? key);
-}
-function activeServiceLabels(services: Record<string, boolean> | null) {
-  if (!services) return [];
-  return Object.entries(services).filter(([, value]) => Boolean(value)).map(([key]) => serviceLabels[key] ?? key);
-}
-function badgeFor(request: TravelRequest) {
-  const created = new Date(request.created_at).getTime();
-  const expires = new Date(request.expires_at).getTime();
-  const now = Date.now();
-  if (now - created < 1000 * 60 * 60 * 24) return "Nuovo";
-  if (expires - now < 1000 * 60 * 60 * 48) return "In scadenza";
-  return "Attivo";
-}
-function mapsHref(hotel: HotelAccount) {
-  const query = [hotel.property_name, hotel.specific_area, hotel.city_name].filter(Boolean).join(" ");
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
-}
-function contactMailHref(hotel: HotelAccount) {
-  if (!hotel.public_email) return null;
-  const subject = encodeURIComponent("Richiesta informazioni da Reverse Booking");
-  const body = encodeURIComponent("Ho visto il tuo annuncio su Reverse Booking e vorrei ricevere maggiori informazioni.");
-  return `mailto:${hotel.public_email}?subject=${subject}&body=${body}`;
-}
-function contactWhatsAppHref(hotel: HotelAccount) {
-  if (!hotel.public_phone) return null;
-  const phone = hotel.public_phone.replace(/\D/g, "");
-  if (!phone) return null;
-  const text = encodeURIComponent("Ho visto il tuo annuncio su Reverse Booking e vorrei ricevere maggiori informazioni.");
-  return `https://wa.me/${phone}?text=${text}`;
-}
-function dashboardHref(viewer: Viewer) {
-  if (viewer.role === "hotel") return "/struttura/dashboard";
-  if (viewer.role === "advertiser") return "/inserzionista/dashboard";
-  if (viewer.role === "admin") return "/admin";
-  return "/login";
-}
+function publicHotelDescription(description: string | null) { const value = description?.trim() ?? ""; if (!value) return null; const lower = value.toLowerCase(); if (lower.includes("profilo struttura creato") || lower.includes("da completare nel pannello struttura") || lower.includes("accesso social")) return null; return value; }
+function activeFilterLabels(filters: PreferenceFilters | null) { if (!filters) return []; return Object.entries(filters).filter(([, value]) => Boolean(value)).map(([key]) => serviceLabels[key] ?? key); }
+function activeServiceLabels(services: Record<string, boolean> | null) { if (!services) return []; return Object.entries(services).filter(([, value]) => Boolean(value)).map(([key]) => serviceLabels[key] ?? key); }
+function badgeFor(request: TravelRequest) { const created = new Date(request.created_at).getTime(); const expires = new Date(request.expires_at).getTime(); const now = Date.now(); if (now - created < 1000 * 60 * 60 * 24) return "Nuovo"; if (expires - now < 1000 * 60 * 60 * 48) return "In scadenza"; return "Attivo"; }
+function mapsHref(hotel: HotelAccount) { const query = [hotel.property_name, hotel.specific_area, hotel.city_name].filter(Boolean).join(" "); return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`; }
+function contactMailHref(hotel: HotelAccount) { if (!hotel.public_email) return null; const subject = encodeURIComponent("Richiesta informazioni da Reverse Booking"); const body = encodeURIComponent("Ho visto il tuo annuncio su Reverse Booking e vorrei ricevere maggiori informazioni."); return `mailto:${hotel.public_email}?subject=${subject}&body=${body}`; }
+function contactWhatsAppHref(hotel: HotelAccount) { if (!hotel.public_phone) return null; const phone = hotel.public_phone.replace(/\D/g, ""); if (!phone) return null; const text = encodeURIComponent("Ho visto il tuo annuncio su Reverse Booking e vorrei ricevere maggiori informazioni."); return `https://wa.me/${phone}?text=${text}`; }
+function dashboardHref(viewer: Viewer) { if (viewer.role === "hotel") return "/struttura/dashboard"; if (viewer.role === "advertiser") return "/inserzionista/dashboard"; if (viewer.role === "admin") return "/admin"; return "/login"; }
 
 export function PublicShowcaseClient() {
   const [requests, setRequests] = useState<TravelRequest[]>([]);
@@ -96,6 +53,7 @@ export function PublicShowcaseClient() {
   const [adultsSearch, setAdultsSearch] = useState("");
   const [childrenSearch, setChildrenSearch] = useState("");
   const [roomsSearch, setRoomsSearch] = useState("");
+  const [budgetSearch, setBudgetSearch] = useState("");
   const [hotelSearch, setHotelSearch] = useState("");
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [selectedFilters, setSelectedFilters] = useState<PreferenceFilters>({});
@@ -104,11 +62,7 @@ export function PublicShowcaseClient() {
 
   const countries = useMemo(() => Array.from(new Map(majorWorldCities.map((city) => [city.country_code, city.country_name])).entries()).sort((a, b) => a[1].localeCompare(b[1])), []);
   const citySuggestions = useMemo(() => majorWorldCities.filter((city) => !countryCode || city.country_code === countryCode).slice(0, 500), [countryCode]);
-  const selectedCity = useMemo<WorldCity | null>(() => {
-    const value = citySearch.trim().toLowerCase();
-    if (!value) return null;
-    return majorWorldCities.find((city) => city.label.toLowerCase() === value || city.city_name.toLowerCase() === value) ?? null;
-  }, [citySearch]);
+  const selectedCity = useMemo<WorldCity | null>(() => { const value = citySearch.trim().toLowerCase(); if (!value) return null; return majorWorldCities.find((city) => city.label.toLowerCase() === value || city.city_name.toLowerCase() === value) ?? null; }, [citySearch]);
   const selectedFilterCount = Object.values(selectedFilters).filter(Boolean).length;
 
   const requestDraftHref = useMemo(() => {
@@ -122,15 +76,15 @@ export function PublicShowcaseClient() {
     if (adultsSearch) params.set("adults", adultsSearch);
     if (childrenSearch) params.set("children", childrenSearch);
     if (roomsSearch) params.set("rooms", roomsSearch);
+    if (budgetSearch) params.set("budget", budgetSearch);
     const filters = Object.entries(selectedFilters).filter(([, value]) => Boolean(value)).map(([key]) => key).join(",");
     if (filters) params.set("filters", filters);
     const target = `/inserzionista/crea-annuncio${params.toString() ? `?${params.toString()}` : ""}`;
     if (viewer.userId) return target;
     return `/login?redirect=${encodeURIComponent(target)}`;
-  }, [viewer.userId, countryCode, selectedCity, citySearch, areaSearch, checkInSearch, checkOutSearch, adultsSearch, childrenSearch, roomsSearch, selectedFilters]);
+  }, [viewer.userId, countryCode, selectedCity, citySearch, areaSearch, checkInSearch, checkOutSearch, adultsSearch, childrenSearch, roomsSearch, budgetSearch, selectedFilters]);
 
   function toggleFilter(key: keyof PreferenceFilters) { setSelectedFilters((current) => ({ ...current, [key]: !current[key] })); }
-  function clearRequestDraft() { setCountryCode(""); setCitySearch(""); setAreaSearch(""); setCheckInSearch(""); setCheckOutSearch(""); setAdultsSearch(""); setChildrenSearch(""); setRoomsSearch(""); setSelectedFilters({}); }
 
   async function detectViewer() {
     const supabase = createBrowserSupabaseClient();
@@ -143,10 +97,7 @@ export function PublicShowcaseClient() {
     const hotelAccountId = hotelAccount?.id ?? null;
     if (hotelAccountId && !role) role = "hotel";
     setViewer({ userId: authData.user.id, role, hotelAccountId });
-    if (hotelAccountId) {
-      const { data: offerData } = await supabase.from("offers").select("id, travel_request_id").eq("hotel_account_id", hotelAccountId);
-      setOffers((offerData ?? []) as Offer[]);
-    } else setOffers([]);
+    if (hotelAccountId) { const { data: offerData } = await supabase.from("offers").select("id, travel_request_id").eq("hotel_account_id", hotelAccountId); setOffers((offerData ?? []) as Offer[]); } else setOffers([]);
     if (role === "advertiser") {
       const { data: advertiser } = await supabase.from("advertiser_profiles").select("id").eq("user_id", authData.user.id).maybeSingle();
       if (!advertiser?.id) { setAdvertiserOfferCount(0); return; }
@@ -167,10 +118,8 @@ export function PublicShowcaseClient() {
       if (requestError) { setError(requestError.message); return; }
       const { data: hotelData, error: hotelError } = await supabase.from("hotel_accounts").select("id, property_name, structure_type, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, points_of_interest, services").eq("account_status", "active").eq("subscription_active", true).order("property_name", { ascending: true }).limit(60);
       if (hotelError) { setError(hotelError.message); return; }
-      setRequests((requestData ?? []) as unknown as TravelRequest[]);
-      setHotels((hotelData ?? []) as HotelAccount[]);
-    } catch (err) { setError(err instanceof Error ? err.message : "Errore durante il caricamento della home."); }
-    finally { setLoading(false); }
+      setRequests((requestData ?? []) as unknown as TravelRequest[]); setHotels((hotelData ?? []) as HotelAccount[]);
+    } catch (err) { setError(err instanceof Error ? err.message : "Errore durante il caricamento della home."); } finally { setLoading(false); }
   }
 
   useEffect(() => { void loadShowcase(); }, []);
@@ -195,7 +144,7 @@ export function PublicShowcaseClient() {
         </div>
         <div className="rounded-[2rem] border border-zinc-200 bg-zinc-50 p-5 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
           <div className="mb-4"><p className="text-sm font-semibold text-white">Crea la tua richiesta di soggiorno</p><p className="mt-1 text-xs text-white/80">Questi campi preparano la richiesta, non filtrano hotel o annunci.</p></div>
-          <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-[.9fr_1.3fr_1fr_1fr_.65fr_.65fr_.65fr_auto]">
+          <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-[.85fr_1.25fr_1fr_1fr_.6fr_.6fr_.6fr_.9fr_auto]">
             <label className="text-xs font-semibold text-zinc-500">Nazione<select value={countryCode} onChange={(event) => { setCountryCode(event.target.value); setCitySearch(""); }} className="mt-2 h-14 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 dark:border-zinc-700 dark:bg-zinc-950 dark:text-white"><option value="">Tutte</option>{countries.map(([code, name]) => <option key={code} value={code}>{name}</option>)}</select></label>
             <label className="text-xs font-semibold text-zinc-500">Città<input value={citySearch} onChange={(event) => setCitySearch(event.target.value)} list="home-city-suggestions" placeholder="Dove vuoi andare?" className="mt-2 h-14 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /><datalist id="home-city-suggestions">{citySuggestions.map((city) => <option key={city.city_id} value={city.label} />)}</datalist></label>
             <label className="text-xs font-semibold text-zinc-500">Check-in<input type="date" value={checkInSearch} onChange={(event) => setCheckInSearch(event.target.value)} className="mt-2 h-14 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm font-semibold text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
@@ -203,11 +152,12 @@ export function PublicShowcaseClient() {
             <label className="text-xs font-semibold text-zinc-500">Adulti<input type="number" min={0} value={adultsSearch} onChange={(event) => setAdultsSearch(event.target.value)} placeholder="2" className="mt-2 h-14 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
             <label className="text-xs font-semibold text-zinc-500">Bambini<input type="number" min={0} value={childrenSearch} onChange={(event) => setChildrenSearch(event.target.value)} placeholder="0" className="mt-2 h-14 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
             <label className="text-xs font-semibold text-zinc-500">Camere<input type="number" min={1} value={roomsSearch} onChange={(event) => setRoomsSearch(event.target.value)} placeholder="1" className="mt-2 h-14 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
+            <label className="text-xs font-semibold text-zinc-500">Budget per camera<input type="number" min={1} value={budgetSearch} onChange={(event) => setBudgetSearch(event.target.value)} placeholder="€" className="mt-2 h-14 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
             <div className="flex items-end"><button type="button" onClick={() => setFiltersOpen((value) => !value)} className="inline-flex h-14 w-full items-center justify-center gap-2 rounded-2xl border border-white/70 bg-white px-5 text-sm font-semibold text-[#0f4c81] shadow-sm"><Filter className="h-4 w-4" /> Filtri{selectedFilterCount ? ` (${selectedFilterCount})` : ""}</button></div>
           </div>
-          <div className="mt-3 grid gap-3 md:grid-cols-[1fr_auto]">
-            <label className="text-xs font-semibold text-zinc-500">Zona<input value={areaSearch} onChange={(event) => setAreaSearch(event.target.value)} placeholder="Scrivi liberamente la zona: centro, fiera, mare..." className="mt-2 h-12 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
-            <div className="flex items-end gap-2"><button type="button" onClick={clearRequestDraft} className="h-12 rounded-2xl border border-white/70 bg-white px-4 text-sm font-semibold text-[#0f4c81]">Pulisci</button><Link href={requestDraftHref} className="inline-flex h-12 items-center whitespace-nowrap rounded-2xl bg-white px-5 text-sm font-semibold text-[#0f4c81] shadow-sm">Crea richiesta</Link></div>
+          <div className="mt-3 grid gap-3 md:grid-cols-[minmax(180px,360px)_auto]">
+            <label className="text-xs font-semibold text-zinc-500">Zona<input value={areaSearch} onChange={(event) => setAreaSearch(event.target.value)} placeholder="Centro, fiera, mare..." className="mt-2 h-12 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
+            <div className="flex items-end"><Link href={requestDraftHref} className="inline-flex h-12 items-center whitespace-nowrap rounded-2xl bg-white px-5 text-sm font-semibold text-[#0f4c81] shadow-sm">Crea richiesta</Link></div>
           </div>
           {filtersOpen ? <div className="mt-4 rounded-3xl border border-white/60 bg-white/95 p-4 shadow-sm"><p className="text-sm font-semibold text-[#0f4c81]">Filtri e preferenze richiesta</p><div className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-4">{filterOptions.map((filter) => <label key={filter.key} className="flex cursor-pointer items-center gap-2 rounded-2xl border border-zinc-200 px-3 py-2 text-sm font-semibold text-zinc-700"><input type="checkbox" checked={Boolean(selectedFilters[filter.key])} onChange={() => toggleFilter(filter.key)} />{filter.label}</label>)}</div><p className="mt-3 text-xs text-zinc-500">Nel prossimo step questi dati verranno letti dalla pagina di creazione annuncio per precompilare il form.</p></div> : null}
         </div>
