@@ -24,3 +24,56 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.rb-soft-white-home main {
+  background: #f7f7f7 !important;
+  color: #222222 !important;
+}
+
+.rb-soft-white-home header {
+  background: #ffffff !important;
+  border-color: #eeeeee !important;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04) !important;
+}
+
+.rb-soft-white-home section,
+.rb-soft-white-home aside > div,
+.rb-soft-white-home article {
+  background-color: #ffffff !important;
+  border-color: #e5e7eb !important;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04) !important;
+}
+
+.rb-soft-white-home article article,
+.rb-soft-white-home aside article,
+.rb-soft-white-home div[class*="bg-zinc-50"] {
+  background-color: #f7f7f7 !important;
+}
+
+.rb-soft-white-home a[class*="bg-zinc-950"],
+.rb-soft-white-home button[class*="bg-zinc-950"],
+.rb-soft-white-home a[class*="bg-emerald"],
+.rb-soft-white-home button[class*="bg-emerald"] {
+  background: #111111 !important;
+  color: #ffffff !important;
+}
+
+.rb-soft-white-home span[class*="bg-emerald-50"] {
+  background: #f2fdf7 !important;
+  color: #067647 !important;
+}
+
+.rb-soft-white-home input,
+.rb-soft-white-home select,
+.rb-soft-white-home textarea {
+  background-color: #ffffff !important;
+  border-color: #e5e7eb !important;
+  color: #222222 !important;
+}
+
+.rb-soft-white-home input:focus,
+.rb-soft-white-home select:focus,
+.rb-soft-white-home textarea:focus {
+  border-color: #111111 !important;
+  box-shadow: 0 0 0 3px rgba(17, 17, 17, 0.08) !important;
+}
