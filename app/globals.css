@@ -72,8 +72,18 @@ body {
 .rb-soft-white-home button[class*="bg-zinc-950"],
 .rb-soft-white-home a[class*="bg-emerald"],
 .rb-soft-white-home button[class*="bg-emerald"] {
-  background: #111111 !important;
-  color: #ffffff !important;
+  background: #ffffff !important;
+  color: #0f4c81 !important;
+  border: 1px solid rgba(255, 255, 255, 0.75) !important;
+  box-shadow: 0 8px 20px rgba(15, 76, 129, 0.14) !important;
+}
+
+.rb-soft-white-home a[class*="bg-zinc-950"]:hover,
+.rb-soft-white-home button[class*="bg-zinc-950"]:hover,
+.rb-soft-white-home a[class*="bg-emerald"]:hover,
+.rb-soft-white-home button[class*="bg-emerald"]:hover {
+  background: #f7fbff !important;
+  color: #0b3a63 !important;
 }
 
 .rb-soft-white-home span[class*="bg-emerald-50"] {
