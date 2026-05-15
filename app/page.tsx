@@ -4,10 +4,10 @@ import { PublicShowcaseClient } from "@/components/showcase/PublicShowcaseClient
 
 export default function HomePage() {
   return (
-    <>
+    <div className="rb-soft-white-home">
       <HomeAdvertiserAlerts />
       <HomeHotelAlerts />
       <PublicShowcaseClient />
-    </>
+    </div>
   );
 }
