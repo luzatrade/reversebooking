@@ -1,6 +1,5 @@
 "use client";
 
-import { Coins } from "lucide-react";
 import { useEffect, useState } from "react";
 
 type Currency = "EUR" | "USD" | "GBP" | "CHF" | "AED" | "THB" | "JPY" | "CAD" | "AUD";
@@ -38,13 +37,12 @@ export function CurrencySwitcher() {
   }
 
   return (
-    <label className="inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-white px-3 py-2 text-sm font-medium text-zinc-700 shadow-sm dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200">
-      <Coins className="h-4 w-4" />
+    <label className="inline-flex h-8 items-center rounded-full border border-zinc-200 bg-white px-2 text-xs font-semibold text-zinc-700 shadow-sm">
       <span className="sr-only">Valuta</span>
       <select
         value={currency}
         onChange={(event) => changeCurrency(event.target.value as Currency)}
-        className="bg-transparent text-sm outline-none"
+        className="bg-transparent text-xs outline-none"
       >
         {currencies.map((item) => (
           <option key={item.code} value={item.code}>
