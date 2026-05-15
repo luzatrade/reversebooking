@@ -91,6 +91,14 @@ body {
   color: #067647 !important;
 }
 
+.rb-soft-white-home span[class*="bg-zinc-100"],
+.rb-soft-white-home span[class*="bg-white"] {
+  background: #ffffff !important;
+  color: #334155 !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: none !important;
+}
+
 .rb-soft-white-home input,
 .rb-soft-white-home select,
 .rb-soft-white-home textarea {
