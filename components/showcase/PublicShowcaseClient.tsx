@@ -110,8 +110,8 @@ export function PublicShowcaseClient() {
             <LanguageSwitcher />
             <CurrencySwitcher />
             {viewer.userId ? (
-              <Link href={dashboardHref(viewer)} className="inline-flex h-8 items-center rounded-full border border-zinc-200 bg-white px-3 text-xs font-semibold text-zinc-700 shadow-sm">
-                Vai alla dashboard{viewer.role === "advertiser" && advertiserOfferCount > 0 ? <span className="ml-1 rounded-full bg-red-600 px-2 py-0.5 text-xs text-white">{advertiserOfferCount}</span> : null}
+              <Link href={dashboardHref(viewer)} className="inline-flex h-8 items-center rounded-full border border-zinc-200 bg-white px-3 text-xs font-bold text-zinc-700 shadow-sm">
+                Dashboard{viewer.role === "advertiser" && advertiserOfferCount > 0 ? <span className="ml-1 rounded-full bg-red-600 px-2 py-0.5 text-xs text-white">{advertiserOfferCount}</span> : null}
               </Link>
             ) : (
               <>
