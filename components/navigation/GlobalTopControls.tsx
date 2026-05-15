@@ -49,7 +49,7 @@ export function GlobalTopControls() {
   }, []);
 
   return (
-    <div className="fixed right-4 top-4 z-[10000] flex max-w-[calc(100vw-2rem)] flex-wrap items-center justify-end gap-2">
+    <div className="fixed right-4 top-20 z-[10000] flex max-w-[calc(100vw-2rem)] flex-wrap items-center justify-end gap-2 rounded-full border border-zinc-200 bg-white/95 p-1.5 shadow-lg backdrop-blur">
       <LanguageSwitcher />
       <CurrencySwitcher />
       {!loading && userId ? (
