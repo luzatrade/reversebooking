@@ -2,7 +2,7 @@
 
 import { FormEvent, useMemo, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { CountryCitySelect } from "@/components/location/CountryCitySelect";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { validateNoContactsInFields } from "@/lib/content/contact-guard";
@@ -22,19 +22,37 @@ function expiresAtForCheckIn(checkIn: string) { return `${checkIn}T23:59:00+02:0
 function normalizeRooms(rooms: RoomDetail[]) { return rooms.map((room, index) => ({ ...room, room: index + 1, room_type: room.room_type ?? "double", adults: Math.max(1, room.adults), children: Math.max(0, room.children), children_ages: room.children_ages.slice(0, room.children).map((age) => Math.max(0, age)) })); }
 function makeRequestCode() { return `RB-${Math.floor(100000 + Math.random() * 900000)}`; }
 function formatCurrency(value: number) { return new Intl.NumberFormat("it-IT", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(value || 0); }
+function todayOffset(days: number) { const date = new Date(); date.setDate(date.getDate() + days); return date.toISOString().slice(0, 10); }
+function positiveNumber(value: string | null, fallback: number) { const parsed = Number(value); return Number.isFinite(parsed) && parsed > 0 ? parsed : fallback; }
+function cityFromParams(cityId: string | null, cityName: string | null) { const byId = cityId ? majorWorldCities.find((city) => city.city_id === cityId) : null; if (byId) return byId; const value = cityName?.trim().toLowerCase(); if (value) { const byName = majorWorldCities.find((city) => city.label.toLowerCase() === value || city.city_name.toLowerCase() === value); if (byName) return byName; } return majorWorldCities[0]; }
+function filtersFromParam(value: string | null): PreferenceFilters { if (!value) return emptyFilters; const keys = new Set(value.split(",").map((item) => item.trim()).filter(Boolean)); return { ...emptyFilters, connecting_rooms: keys.has("connecting_rooms"), disabled_access: keys.has("disabled_access"), pool: keys.has("pool"), spa: keys.has("spa"), bathtub: keys.has("bathtub"), garage: keys.has("garage"), beach: keys.has("beach"), pets_allowed: keys.has("pets_allowed") }; }
+function roomsFromParams(roomCountValue: string | null, adultsValue: string | null, childrenValue: string | null): RoomDetail[] {
+  const roomCount = Math.max(1, Math.min(10, positiveNumber(roomCountValue, 1)));
+  let adults = Math.max(roomCount, positiveNumber(adultsValue, 2));
+  let children = Math.max(0, Number(childrenValue || 0));
+  return Array.from({ length: roomCount }).map((_, index) => {
+    const roomsLeft = roomCount - index;
+    const adultsForRoom = Math.max(1, Math.floor(adults / roomsLeft));
+    adults -= adultsForRoom;
+    const childrenForRoom = index === 0 ? children : 0;
+    children = 0;
+    return { room: index + 1, room_type: "double", adults: adultsForRoom, children: childrenForRoom, children_ages: Array.from({ length: childrenForRoom }).map(() => 0) };
+  });
+}
 
 export function CreateTravelRequestForm() {
   const router = useRouter();
-  const [selectedCity, setSelectedCity] = useState<WorldCity>(majorWorldCities[0]);
-  const [preferredArea, setPreferredArea] = useState("");
+  const searchParams = useSearchParams();
+  const [selectedCity, setSelectedCity] = useState<WorldCity>(() => cityFromParams(searchParams.get("city_id"), searchParams.get("city")));
+  const [preferredArea, setPreferredArea] = useState(() => searchParams.get("area") ?? "");
   const [preferredStructureType, setPreferredStructureType] = useState<PreferredStructureType>("all");
-  const [checkIn, setCheckIn] = useState("2026-06-20");
-  const [checkOut, setCheckOut] = useState("2026-06-23");
-  const [rooms, setRooms] = useState<RoomDetail[]>([{ room: 1, room_type: "double", adults: 2, children: 0, children_ages: [] }]);
-  const [filters, setFilters] = useState<PreferenceFilters>(emptyFilters);
+  const [checkIn, setCheckIn] = useState(() => searchParams.get("check_in") ?? todayOffset(14));
+  const [checkOut, setCheckOut] = useState(() => searchParams.get("check_out") ?? todayOffset(17));
+  const [rooms, setRooms] = useState<RoomDetail[]>(() => roomsFromParams(searchParams.get("rooms"), searchParams.get("adults"), searchParams.get("children")));
+  const [filters, setFilters] = useState<PreferenceFilters>(() => filtersFromParam(searchParams.get("filters")));
   const [budget, setBudget] = useState(450);
   const [mealPlan, setMealPlan] = useState<MealPlan>("breakfast");
-  const [notes, setNotes] = useState("Preferenza per struttura comoda e con garage.");
+  const [notes, setNotes] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
@@ -71,6 +89,7 @@ export function CreateTravelRequestForm() {
 
   return (
     <form onSubmit={onSubmit} className="space-y-6 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
+      <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-800 dark:border-emerald-900 dark:bg-emerald-950/40 dark:text-emerald-200">I dati inseriti nella Home sono stati riportati qui. Completa budget, trattamento e dettagli, poi pubblica l’annuncio.</div>
       <CountryCitySelect value={selectedCity} onChange={setSelectedCity} countryLabel="Nazione" cityLabel="Città principale" helpText="Scegli prima la nazione e poi la città principale dove vuoi ricevere offerte." />
       <div className="grid gap-5 md:grid-cols-2">
         <label className="block text-sm font-medium">Zona preferita<input value={preferredArea} onChange={(event) => setPreferredArea(event.target.value)} required placeholder="Centro, mare, stazione, aeroporto..." className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
@@ -84,7 +103,7 @@ export function CreateTravelRequestForm() {
       </section>
       <section className="rounded-3xl border border-zinc-200 p-5 dark:border-zinc-800"><h2 className="text-lg font-semibold">Filtri extra</h2><p className="mt-1 text-sm text-zinc-500">Seleziona le preferenze importanti per il soggiorno.</p><div className="mt-4 grid gap-3 md:grid-cols-2">{filterLabels.map((filter) => <label key={filter.key} className="flex items-center gap-3 rounded-2xl border border-zinc-200 bg-zinc-50 p-4 text-sm font-medium dark:border-zinc-800 dark:bg-zinc-950/60"><input type="checkbox" checked={filters[filter.key]} onChange={(event) => setFilters((current) => ({ ...current, [filter.key]: event.target.checked }))} />{filter.label}</label>)}</div></section>
       <div className="grid gap-5 md:grid-cols-2"><label className="block text-sm font-medium">Trattamento richiesto<select value={mealPlan} onChange={(event) => setMealPlan(event.target.value as MealPlan)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950">{Object.entries(mealPlanLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label><label className="block text-sm font-medium">Tipologia struttura preferita<select value={preferredStructureType} onChange={(event) => setPreferredStructureType(event.target.value as PreferredStructureType)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950"><option value="all">Tutte</option>{Object.entries(structureTypeLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label></div>
-      <label className="block text-sm font-medium">Note<textarea value={notes} onChange={(event) => setNotes(event.target.value)} rows={4} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
+      <label className="block text-sm font-medium">Note<textarea value={notes} onChange={(event) => setNotes(event.target.value)} rows={4} placeholder="Aggiungi eventuali preferenze, orari, esigenze particolari..." className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
       <section className="rounded-3xl border border-zinc-200 bg-zinc-50 p-5 text-sm dark:border-zinc-800 dark:bg-zinc-950/60"><h2 className="font-semibold">Riepilogo budget</h2><div className="mt-3 grid gap-2 md:grid-cols-3"><p><strong>Camere:</strong> {roomsCount}</p><p><strong>Budget per camera:</strong> {formatCurrency(budget)}</p><p><strong>Totale indicativo:</strong> {formatCurrency(totalIndicativeBudget)}</p></div><p className="mt-2 text-xs text-zinc-500">Il totale indicativo è calcolato moltiplicando il budget per camera per il numero di camere.</p></section>
       <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800 dark:border-amber-900 dark:bg-amber-950/40 dark:text-amber-200">Non inserire email, telefoni, WhatsApp, siti o profili social nei campi liberi. I contatti personali restano nascosti e potranno essere scambiati solo tramite i pulsanti autorizzati o dopo l’accettazione dell’offerta.</div>
       {error ? <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}{success ? <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-700">{success}</div> : null}
