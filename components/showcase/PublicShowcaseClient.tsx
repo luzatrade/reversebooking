@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Building2, CalendarDays, Euro, Filter, LayoutDashboard, MapPin, Search, Users } from "lucide-react";
+import { AppDatePicker } from "@/components/ui/AppDatePicker";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
 import { mealPlanLabels, structureTypeLabels, type MealPlan, type StructureType, type UserRole } from "@/types/app";
@@ -26,6 +27,7 @@ const filterOptions: { key: keyof PreferenceFilters; label: string }[] = [
   { key: "connecting_rooms", label: "Camere comunicanti" },
 ];
 
+function todayValue() { return new Date().toISOString().slice(0, 10); }
 function advertiserName(request: TravelRequest) { const advertiser = Array.isArray(request.advertiser_profiles) ? request.advertiser_profiles[0] : request.advertiser_profiles; const name = [advertiser?.first_name, advertiser?.last_name].filter(Boolean).join(" ").trim(); return name || "Inserzionista verificato"; }
 function formatDate(value: string) { return new Intl.DateTimeFormat("it-IT", { day: "2-digit", month: "short" }).format(new Date(value)); }
 function formatCurrency(value: number) { return new Intl.NumberFormat("it-IT", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(value); }
@@ -132,6 +134,7 @@ export function PublicShowcaseClient() {
   }, [hotels, hotelSearch]);
   const offeredRequestIds = useMemo(() => new Set(offers.map((offer) => offer.travel_request_id)), [offers]);
   const isHotel = viewer.role === "hotel" && Boolean(viewer.hotelAccountId);
+  const today = todayValue();
 
   return <main className="min-h-screen bg-zinc-50 text-zinc-950 dark:bg-zinc-950 dark:text-white">
     <header className="border-b border-zinc-200 bg-white/90 backdrop-blur dark:border-zinc-800 dark:bg-zinc-950/80">
@@ -143,8 +146,8 @@ export function PublicShowcaseClient() {
         <div className="rounded-[1.5rem] border border-zinc-200 bg-zinc-50 p-3 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
           <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_.7fr_.7fr_.7fr]">
             <label className="text-xs font-semibold text-zinc-500">Città<input value={citySearch} onChange={(event) => setCitySearch(event.target.value)} list="home-city-suggestions" placeholder="Dove vuoi andare?" className="mt-2 h-13 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /><datalist id="home-city-suggestions">{citySuggestions.map((city) => <option key={city.city_id} value={city.label} />)}</datalist></label>
-            <label className="text-xs font-semibold text-zinc-500">Check-in<input type="date" value={checkInSearch} onChange={(event) => setCheckInSearch(event.target.value)} className="mt-2 h-13 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm font-semibold text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
-            <label className="text-xs font-semibold text-zinc-500">Check-out<input type="date" value={checkOutSearch} onChange={(event) => setCheckOutSearch(event.target.value)} className="mt-2 h-13 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm font-semibold text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
+            <AppDatePicker label="Check-in" value={checkInSearch} onChange={setCheckInSearch} minDate={today} />
+            <AppDatePicker label="Check-out" value={checkOutSearch} onChange={setCheckOutSearch} minDate={checkInSearch || today} />
             <label className="text-xs font-semibold text-zinc-500">Adulti<input type="number" min={0} value={adultsSearch} onChange={(event) => setAdultsSearch(event.target.value)} placeholder="2" className="mt-2 h-13 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
             <label className="text-xs font-semibold text-zinc-500">Bambini<input type="number" min={0} value={childrenSearch} onChange={(event) => setChildrenSearch(event.target.value)} placeholder="0" className="mt-2 h-13 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
             <label className="text-xs font-semibold text-zinc-500">Camere<input type="number" min={1} value={roomsSearch} onChange={(event) => setRoomsSearch(event.target.value)} placeholder="1" className="mt-2 h-13 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-sm text-zinc-950 outline-none dark:border-zinc-700 dark:bg-zinc-950 dark:text-white" /></label>
