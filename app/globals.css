@@ -27,7 +27,19 @@ body {
 
 .rb-soft-white-home main {
   background: #f7f7f7 !important;
-  color: #222222 !important;
+  color: #111827 !important;
+}
+
+.rb-soft-white-home main p,
+.rb-soft-white-home main div,
+.rb-soft-white-home main label {
+  color: #111827;
+}
+
+.rb-soft-white-home main .text-zinc-500,
+.rb-soft-white-home main .text-zinc-600,
+.rb-soft-white-home main .text-zinc-400 {
+  color: #374151 !important;
 }
 
 .rb-soft-white-home header {
@@ -112,7 +124,7 @@ body {
 .rb-soft-white-home span[class*="bg-zinc-100"],
 .rb-soft-white-home span[class*="bg-white"] {
   background: #ffffff !important;
-  color: #334155 !important;
+  color: #1f2937 !important;
   border: 1px solid #e5e7eb !important;
   box-shadow: none !important;
 }
@@ -122,7 +134,7 @@ body {
 .rb-soft-white-home textarea {
   background-color: #ffffff !important;
   border-color: #e5e7eb !important;
-  color: #222222 !important;
+  color: #111827 !important;
 }
 
 .rb-soft-white-home input:focus,
