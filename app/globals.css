@@ -26,7 +26,7 @@ body {
 }
 
 .rb-soft-white-home main {
-  background: #f7f7f7 !important;
+  background: linear-gradient(180deg, #eaf7ff 0%, #f5fbff 260px, #f7f7f7 520px) !important;
   color: #222222 !important;
 }
 
