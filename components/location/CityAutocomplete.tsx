@@ -146,10 +146,10 @@ export function CityAutocomplete({ value, onChange, label = "Destinazione", help
   }
 
   return (
-    <div ref={wrapperRef} className="relative">
-      <label className="block text-sm font-medium text-zinc-800 dark:text-zinc-200">
+    <div ref={wrapperRef} className="relative z-40">
+      <label className="block text-sm font-medium text-zinc-800">
         {label}
-        <div className="mt-2 flex items-center gap-2 rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm text-zinc-900 ring-zinc-400 focus-within:ring-2 dark:border-zinc-700 dark:bg-zinc-950 dark:text-zinc-50">
+        <div className="mt-2 flex items-center gap-2 rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm text-zinc-900 shadow-sm ring-zinc-300 focus-within:ring-2">
           <Search className="h-4 w-4 text-zinc-400" />
           <input
             value={query}
@@ -157,7 +157,7 @@ export function CityAutocomplete({ value, onChange, label = "Destinazione", help
             onFocus={() => setOpen(true)}
             onBlur={confirmManualCity}
             placeholder="Scrivi una città, es. Roma, Parigi, Bangkok..."
-            className="w-full bg-transparent outline-none"
+            className="w-full bg-transparent text-zinc-950 outline-none placeholder:text-zinc-400"
             autoComplete="off"
             required
           />
@@ -165,7 +165,7 @@ export function CityAutocomplete({ value, onChange, label = "Destinazione", help
       </label>
 
       {open && (query.trim().length >= 2 || loading) ? (
-        <div className="absolute z-30 mt-2 w-full overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-xl dark:border-zinc-800 dark:bg-zinc-950">
+        <div className="absolute left-0 right-0 z-[9999] mt-2 max-h-72 overflow-y-auto rounded-2xl border border-zinc-200 bg-white text-zinc-950 shadow-2xl">
           {loading ? <p className="px-4 py-3 text-sm text-zinc-500">Ricerca città...</p> : null}
           {!loading && suggestions.length === 0 ? <p className="px-4 py-3 text-sm text-zinc-500">Continua a scrivere o inserisci la città manualmente.</p> : null}
           {suggestions.map((city) => (
@@ -174,11 +174,11 @@ export function CityAutocomplete({ value, onChange, label = "Destinazione", help
               type="button"
               onMouseDown={(event) => event.preventDefault()}
               onClick={() => selectCity(city)}
-              className="flex w-full items-start gap-3 px-4 py-3 text-left text-sm hover:bg-zinc-50 dark:hover:bg-zinc-900"
+              className="flex w-full items-start gap-3 border-b border-zinc-100 px-4 py-3 text-left text-sm last:border-b-0 hover:bg-zinc-50"
             >
               <MapPin className="mt-0.5 h-4 w-4 text-emerald-600" />
               <span>
-                <span className="block font-semibold text-zinc-900 dark:text-zinc-50">{city.city_name}</span>
+                <span className="block font-semibold text-zinc-950">{city.city_name}</span>
                 <span className="block text-xs text-zinc-500">{city.country_name}</span>
               </span>
             </button>
