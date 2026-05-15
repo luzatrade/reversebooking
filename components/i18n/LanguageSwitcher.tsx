@@ -4,6 +4,11 @@ import { Globe2 } from "lucide-react";
 import { localeLabels, supportedLocales, type Locale } from "@/lib/i18n/translations";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 
+const localeFlags: Record<Locale, string> = {
+  it: "🇮🇹",
+  en: "🇬🇧",
+};
+
 export function LanguageSwitcher() {
   const { locale, setLocale, t } = useLanguage();
 
@@ -18,7 +23,7 @@ export function LanguageSwitcher() {
       >
         {supportedLocales.map((item) => (
           <option key={item} value={item}>
-            {localeLabels[item]}
+            {localeFlags[item]} {localeLabels[item]}
           </option>
         ))}
       </select>
