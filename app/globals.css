@@ -83,6 +83,13 @@ body {
   cursor: pointer;
 }
 
+@media (min-width: 1024px) {
+  .rb-soft-white-home header a[href*="crea-annuncio"] {
+    align-self: flex-start !important;
+    margin-top: 1.75rem !important;
+  }
+}
+
 .rb-soft-white-home h2,
 .rb-soft-white-home h3,
 .rb-soft-white-home strong,
