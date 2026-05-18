@@ -1,4 +1,4 @@
-import { OfferChat } from "@/components/chat/OfferChat";
+import { OfferChat} from "@/components/chat/OfferChat";
 
 export default function OfferChatPage() {
   return (

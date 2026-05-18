@@ -1,5 +1,6 @@
 import { createClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
+import { company } from "@/lib/legal/company";
 import { escapeHtml, sendEmailNotification } from "@/lib/notifications/email";
 
 type Body = { offerId?: string };
@@ -15,7 +16,7 @@ export async function POST(request: Request) {
     const supabase = getClient();
     const { data: offer, error } = await supabase
       .from("offers")
-      .select("id, total_price, hotel_accounts(property_name), travel_requests(id, request_code, city_name, preferred_area, advertiser_profiles(contact_email))")
+      .select("id, offer_code, total_price, hotel_accounts(property_name), travel_requests(id, request_code, city_name, preferred_area, advertiser_profiles(contact_email))")
       .eq("id", body.offerId)
       .single();
 
@@ -25,14 +26,15 @@ export async function POST(request: Request) {
     const travelRequest = Array.isArray(offer.travel_requests) ? offer.travel_requests[0] : offer.travel_requests;
     const advertiser = Array.isArray(travelRequest?.advertiser_profiles) ? travelRequest?.advertiser_profiles[0] : travelRequest?.advertiser_profiles;
     const requestCode = code(travelRequest?.request_code);
+    const offerCodeValue = code(offer.offer_code as string | null);
     const city = travelRequest?.city_name ?? "una richiesta";
     const hotelName = hotel?.property_name ?? "Una struttura";
 
-    const html = `<p>Hai ricevuto una nuova offerta su Reverse Booking.</p><p><strong>Codice richiesta:</strong> ${escapeHtml(requestCode)}</p><p><strong>Struttura:</strong> ${escapeHtml(hotelName)}</p><p><strong>Richiesta:</strong> ${escapeHtml(city)} ${travelRequest?.preferred_area ? `· ${escapeHtml(travelRequest.preferred_area)}` : ""}</p><p><strong>Importo proposta:</strong> ${escapeHtml(String(offer.total_price))} €</p>`;
+    const html = `<p>Hai ricevuto una nuova offerta su ${company.companyName}.</p><p><strong>Codice offerta:</strong> ${escapeHtml(offerCodeValue)}</p><p><strong>Codice richiesta:</strong> ${escapeHtml(requestCode)}</p><p><strong>Struttura:</strong> ${escapeHtml(hotelName)}</p><p><strong>Richiesta:</strong> ${escapeHtml(city)} ${travelRequest?.preferred_area ? `· ${escapeHtml(travelRequest.preferred_area)}` : ""}</p><p><strong>Importo proposta:</strong> ${escapeHtml(String(offer.total_price))} €</p>`;
 
     const result = await sendEmailNotification({
       to: advertiser?.contact_email,
-      subject: `Nuova offerta ricevuta · ${requestCode}`,
+      subject: `Nuova offerta ${offerCodeValue} · richiesta ${requestCode}`,
       html,
     });
 

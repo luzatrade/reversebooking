@@ -1,9 +1,9 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
-import { MapPin, Search } from "lucide-react";
-import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
-import { cityFromInput, createWorldCity } from "@/lib/constants/world-city-helpers";
+import { useEffect, useMemo, useRef, useState} from "react";
+import { MapPin, Search} from "lucide-react";
+import { majorWorldCities, type WorldCity} from "@/lib/constants/world-cities";
+import { cityFromInput, createWorldCity} from "@/lib/constants/world-city-helpers";
 
 type CityAutocompleteProps = {
   value: WorldCity;
@@ -12,7 +12,7 @@ type CityAutocompleteProps = {
   helpText?: string;
 };
 
-type Suggestion = WorldCity & { source: "local" | "remote" };
+type Suggestion = WorldCity & { source: "local" | "remote"};
 
 type NominatimPlace = {
   display_name?: string;
@@ -25,7 +25,7 @@ type NominatimPlace = {
     state?: string;
     country?: string;
     country_code?: string;
-  };
+ };
 };
 
 function normalizeText(value: string) {
@@ -39,7 +39,7 @@ function uniqueSuggestions(items: Suggestion[]) {
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
-  });
+ });
 }
 
 function cityFromPlace(place: NominatimPlace): Suggestion | null {
@@ -47,14 +47,14 @@ function cityFromPlace(place: NominatimPlace): Suggestion | null {
   if (!address?.country_code || !address.country) return null;
   const cityName = address.city ?? address.town ?? address.village ?? address.municipality ?? address.county ?? "";
   if (!cityName.trim()) return null;
-  return { ...createWorldCity(address.country_code.toUpperCase(), cityName, address.country), source: "remote" };
+  return { ...createWorldCity(address.country_code.toUpperCase(), cityName, address.country), source: "remote"};
 }
 
 function initialQuery(value: WorldCity) {
   return value.city_name.trim() ? value.label : "";
 }
 
-export function CityAutocomplete({ value, onChange, label = "Destinazione", helpText }: CityAutocompleteProps) {
+export function CityAutocomplete({ value, onChange, label = "Destinazione", helpText}: CityAutocompleteProps) {
   const [query, setQuery] = useState(() => initialQuery(value));
   const [remoteSuggestions, setRemoteSuggestions] = useState<Suggestion[]>([]);
   const [open, setOpen] = useState(false);
@@ -67,8 +67,8 @@ export function CityAutocomplete({ value, onChange, label = "Destinazione", help
     return majorWorldCities
       .filter((city) => normalizeText(city.label).includes(text) || normalizeText(city.city_name).includes(text))
       .slice(0, 6)
-      .map((city) => ({ ...city, source: "local" as const }));
-  }, [query]);
+      .map((city) => ({ ...city, source: "local" as const}));
+ }, [query]);
 
   useEffect(() => {
     const text = query.trim();
@@ -76,38 +76,38 @@ export function CityAutocomplete({ value, onChange, label = "Destinazione", help
       setRemoteSuggestions([]);
       setLoading(false);
       return;
-    }
+   }
 
     const controller = new AbortController();
     const timer = window.setTimeout(async () => {
       setLoading(true);
       try {
-        const params = new URLSearchParams({ format: "jsonv2", addressdetails: "1", limit: "8", q: text });
-        const response = await fetch(`https://nominatim.openstreetmap.org/search?${params.toString()}`, { signal: controller.signal });
+        const params = new URLSearchParams({ format: "jsonv2", addressdetails: "1", limit: "8", q: text});
+        const response = await fetch(`https://nominatim.openstreetmap.org/search?${params.toString()}`, { signal: controller.signal});
         if (!response.ok) return;
         const places = (await response.json()) as NominatimPlace[];
         setRemoteSuggestions(places.map(cityFromPlace).filter(Boolean) as Suggestion[]);
-      } catch (err) {
+     } catch (err) {
         if (err instanceof DOMException && err.name === "AbortError") return;
         setRemoteSuggestions([]);
-      } finally {
+     } finally {
         setLoading(false);
-      }
-    }, 350);
+     }
+   }, 350);
 
     return () => {
       controller.abort();
       window.clearTimeout(timer);
-    };
-  }, [query]);
+   };
+ }, [query]);
 
   useEffect(() => {
     function onDocumentClick(event: MouseEvent) {
       if (!wrapperRef.current?.contains(event.target as Node)) setOpen(false);
-    }
+   }
     document.addEventListener("mousedown", onDocumentClick);
     return () => document.removeEventListener("mousedown", onDocumentClick);
-  }, []);
+ }, []);
 
   const suggestions = uniqueSuggestions([...localSuggestions, ...remoteSuggestions]).slice(0, 8);
 
@@ -115,26 +115,26 @@ export function CityAutocomplete({ value, onChange, label = "Destinazione", help
     setQuery(city.label);
     setOpen(false);
     onChange(city);
-  }
+ }
 
   function confirmManualCity() {
     const text = query.trim();
     if (!text) {
       onChange(createWorldCity("IT", ""));
       return;
-    }
+   }
 
     const exactCity = suggestions.find((city) => normalizeText(city.city_name) === normalizeText(text) || normalizeText(city.label) === normalizeText(text));
     if (exactCity) {
       setQuery(exactCity.label);
       onChange(exactCity);
       return;
-    }
+   }
 
     const manualCity = cityFromInput(value.country_code || "IT", text);
     setQuery(manualCity.label);
     onChange(manualCity);
-  }
+ }
 
   function onInputChange(text: string) {
     setQuery(text);
@@ -142,8 +142,8 @@ export function CityAutocomplete({ value, onChange, label = "Destinazione", help
     if (!text.trim()) {
       setRemoteSuggestions([]);
       onChange(createWorldCity("IT", ""));
-    }
-  }
+   }
+ }
 
   return (
     <div ref={wrapperRef} className="relative z-40">

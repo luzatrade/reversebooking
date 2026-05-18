@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { createBrowserSupabaseClient } from "@/lib/supabase/client";
+import { useState} from "react";
+import { createBrowserSupabaseClient} from "@/lib/supabase/client";
 
 type Provider = "google" | "apple" | "azure";
 
@@ -21,17 +21,17 @@ export function SocialLoginButtons() {
     try {
       const supabase = createBrowserSupabaseClient();
       const origin = window.location.origin;
-      const { error: signInError } = await supabase.auth.signInWithOAuth({
+      const { error: signInError} = await supabase.auth.signInWithOAuth({
         provider,
-        options: { redirectTo: `${origin}/auth/callback` },
-      });
+        options: { redirectTo: `${origin}/auth/callback`},
+     });
       if (signInError) setError(signInError.message);
-    } catch (err) {
+   } catch (err) {
       setError(err instanceof Error ? err.message : "Accesso social non disponibile.");
-    } finally {
+   } finally {
       setLoading(null);
-    }
-  }
+   }
+ }
 
   return (
     <div className="mt-8 space-y-3">
@@ -41,7 +41,7 @@ export function SocialLoginButtons() {
           type="button"
           onClick={() => login(provider)}
           disabled={Boolean(loading)}
-          className="w-full rounded-full border border-zinc-300 px-5 py-3 text-sm font-semibold transition hover:bg-zinc-50 disabled:opacity-60 dark:border-zinc-700 dark:hover:bg-zinc-800"
+          className="w-full rounded-full border border-zinc-300 px-5 py-3 text-sm font-semibold transition hover:bg-zinc-50 disabled:opacity-60"
         >
           {loading === provider ? "Apertura..." : labels[provider]}
         </button>

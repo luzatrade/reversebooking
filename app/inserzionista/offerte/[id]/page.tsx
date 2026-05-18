@@ -1,4 +1,4 @@
-import { AdvertiserOfferDetail } from "@/components/offers/AdvertiserOfferDetail";
+import { AdvertiserOfferDetail} from "@/components/offers/AdvertiserOfferDetail";
 
 export default function Page() {
   return (

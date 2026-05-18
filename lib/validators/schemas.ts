@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z} from "zod";
 
 const e164Phone = /^\+[1-9]\d{7,14}$/;
 

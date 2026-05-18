@@ -1,12 +1,12 @@
-import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
+import { majorWorldCities, type WorldCity} from "@/lib/constants/world-cities";
 
-export type WorldCountry = { country_code: string; country_name: string };
+export type WorldCountry = { country_code: string; country_name: string};
 
 const countryCodes = [
   "AF", "AL", "DZ", "AS", "AD", "AO", "AI", "AQ", "AG", "AR", "AM", "AW", "AU", "AT", "AZ", "BS", "BH", "BD", "BB", "BY", "BE", "BZ", "BJ", "BM", "BT", "BO", "BQ", "BA", "BW", "BV", "BR", "IO", "BN", "BG", "BF", "BI", "KH", "CM", "CA", "CV", "KY", "CF", "TD", "CL", "CN", "CX", "CC", "CO", "KM", "CG", "CD", "CK", "CR", "HR", "CU", "CW", "CY", "CZ", "CI", "DK", "DJ", "DM", "DO", "EC", "EG", "SV", "GQ", "ER", "EE", "SZ", "ET", "FK", "FO", "FJ", "FI", "FR", "GF", "PF", "TF", "GA", "GM", "GE", "DE", "GH", "GI", "GR", "GL", "GD", "GP", "GU", "GT", "GG", "GN", "GW", "GY", "HT", "HM", "VA", "HN", "HK", "HU", "IS", "IN", "ID", "IR", "IQ", "IE", "IM", "IL", "IT", "JM", "JP", "JE", "JO", "KZ", "KE", "KI", "KP", "KR", "KW", "KG", "LA", "LV", "LB", "LS", "LR", "LY", "LI", "LT", "LU", "MO", "MG", "MW", "MY", "MV", "ML", "MT", "MH", "MQ", "MR", "MU", "YT", "MX", "FM", "MD", "MC", "MN", "ME", "MS", "MA", "MZ", "MM", "NA", "NR", "NP", "NL", "NC", "NZ", "NI", "NE", "NG", "NU", "NF", "MK", "MP", "NO", "OM", "PK", "PW", "PS", "PA", "PG", "PY", "PE", "PH", "PN", "PL", "PT", "PR", "QA", "RO", "RU", "RW", "RE", "BL", "SH", "KN", "LC", "MF", "PM", "VC", "WS", "SM", "ST", "SA", "SN", "RS", "SC", "SL", "SG", "SX", "SK", "SI", "SB", "SO", "ZA", "GS", "SS", "ES", "LK", "SD", "SR", "SJ", "SE", "CH", "SY", "TW", "TJ", "TZ", "TH", "TL", "TG", "TK", "TO", "TT", "TN", "TR", "TM", "TC", "TV", "UG", "UA", "AE", "GB", "US", "UM", "UY", "UZ", "VU", "VE", "VN", "VG", "VI", "WF", "EH", "YE", "ZM", "ZW", "AX"
 ];
 
-const displayNames = typeof Intl !== "undefined" && "DisplayNames" in Intl ? new Intl.DisplayNames(["en"], { type: "region" }) : null;
+const displayNames = typeof Intl !== "undefined" && "DisplayNames" in Intl ? new Intl.DisplayNames(["en"], { type: "region"}) : null;
 
 function countryNameFor(code: string) {
   return displayNames?.of(code) ?? code;
@@ -26,8 +26,8 @@ function titleFromSlug(value: string) {
 
 export function getAllCountries(): WorldCountry[] {
   const countries = new Map<string, WorldCountry>();
-  for (const code of countryCodes) countries.set(code, { country_code: code, country_name: countryNameFor(code) });
-  for (const city of majorWorldCities) countries.set(city.country_code, { country_code: city.country_code, country_name: city.country_name });
+  for (const code of countryCodes) countries.set(code, { country_code: code, country_name: countryNameFor(code)});
+  for (const city of majorWorldCities) countries.set(city.country_code, { country_code: city.country_code, country_name: city.country_name});
   return Array.from(countries.values()).sort((a, b) => a.country_name.localeCompare(b.country_name));
 }
 
@@ -41,6 +41,10 @@ export function getCitiesByCountry(countryCode: string) {
     .sort((a, b) => a.city_name.localeCompare(b.city_name));
 }
 
+export function emptyWorldCity(): WorldCity {
+  return { label: "", country_code: "", country_name: "", city_name: "", city_id: ""};
+}
+
 export function createWorldCity(countryCode: string, cityName: string, countryName?: string): WorldCity {
   const country = getAllCountries().find((item) => item.country_code === countryCode) ?? getAllCountries()[0];
   const cleanCityName = cityName.trim();
@@ -51,7 +55,7 @@ export function createWorldCity(countryCode: string, cityName: string, countryNa
     country_name: finalCountryName,
     city_name: cleanCityName,
     city_id: `${country.country_code}-${citySlug(cleanCityName)}`,
-  };
+ };
 }
 
 export function findCityById(cityId?: string | null): WorldCity {
@@ -69,7 +73,7 @@ export function findFirstCityByCountry(countryCode?: string | null): WorldCity {
   return createWorldCity(country.country_code, "", country.country_name);
 }
 
-export function cityFromStored(data: { country_code?: string | null; country_name?: string | null; city_name?: string | null; city_id?: string | null }): WorldCity {
+export function cityFromStored(data: { country_code?: string | null; country_name?: string | null; city_name?: string | null; city_id?: string | null}): WorldCity {
   const byId = data.city_id ? majorWorldCities.find((city) => city.city_id === data.city_id) : null;
   if (byId) return byId;
   return createWorldCity(data.country_code || "US", data.city_name || "", data.country_name || undefined);

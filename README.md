@@ -1,4 +1,4 @@
-# Reverse Booking
+# HotelsDrop
 
 Next.js (App Router) per un portale di annunci e offerte tra inserzionisti e strutture ricettive. Il repository include **bozze legali** e **placeholder fiscali** da sostituire e far validare da commercialista/avvocato prima della produzione.
 

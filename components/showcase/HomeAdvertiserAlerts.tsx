@@ -1,12 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
-import { BellRing } from "lucide-react";
-import { createBrowserSupabaseClient } from "@/lib/supabase/client";
+import { useEffect, useState} from "react";
+import { useRouter} from "next/navigation";
+import { BellRing} from "lucide-react";
+import { createBrowserSupabaseClient} from "@/lib/supabase/client";
 
-type AdvertiserProfile = { id: string };
-type NotificationRow = { id: string; title: string; message: string | null };
+type AdvertiserProfile = { id: string};
+type NotificationRow = { id: string; title: string; message: string | null};
 
 type AlertState = {
   isAdvertiser: boolean;
@@ -20,12 +20,12 @@ function countByText(notifications: NotificationRow[], words: string[]) {
   return notifications.filter((notification) => {
     const text = `${notification.title} ${notification.message ?? ""}`.toLowerCase();
     return words.some((word) => text.includes(word));
-  }).length;
+ }).length;
 }
 
 export function HomeAdvertiserAlerts() {
   const router = useRouter();
-  const [state, setState] = useState<AlertState>({ isAdvertiser: false, advertiserId: null, newOffers: 0, chatMessages: 0, acceptedOrRejected: 0 });
+  const [state, setState] = useState<AlertState>({ isAdvertiser: false, advertiserId: null, newOffers: 0, chatMessages: 0, acceptedOrRejected: 0});
   const [loading, setLoading] = useState(true);
   const [marking, setMarking] = useState(false);
 
@@ -33,24 +33,24 @@ export function HomeAdvertiserAlerts() {
     setLoading(true);
     try {
       const supabase = createBrowserSupabaseClient();
-      const { data: authData } = await supabase.auth.getUser();
+      const { data: authData} = await supabase.auth.getUser();
       if (!authData.user) return;
 
-      const { data: profile } = await supabase.from("profiles").select("role").eq("user_id", authData.user.id).maybeSingle();
+      const { data: profile} = await supabase.from("profiles").select("role").eq("user_id", authData.user.id).maybeSingle();
       if (profile?.role !== "advertiser") return;
 
-      const { data: advertiser } = await supabase.from("advertiser_profiles").select("id").eq("user_id", authData.user.id).maybeSingle();
+      const { data: advertiser} = await supabase.from("advertiser_profiles").select("id").eq("user_id", authData.user.id).maybeSingle();
       if (!advertiser?.id) return;
       const typedAdvertiser = advertiser as AdvertiserProfile;
 
-      const { data: ownRequests } = await supabase.from("travel_requests").select("id").eq("advertiser_id", typedAdvertiser.id);
+      const { data: ownRequests} = await supabase.from("travel_requests").select("id").eq("advertiser_id", typedAdvertiser.id);
       const requestIds = (ownRequests ?? []).map((request) => request.id);
       if (!requestIds.length) {
-        setState({ isAdvertiser: true, advertiserId: typedAdvertiser.id, newOffers: 0, chatMessages: 0, acceptedOrRejected: 0 });
+        setState({ isAdvertiser: true, advertiserId: typedAdvertiser.id, newOffers: 0, chatMessages: 0, acceptedOrRejected: 0});
         return;
-      }
+     }
 
-      const { data: notifications } = await supabase
+      const { data: notifications} = await supabase
         .from("notifications")
         .select("id, title, message")
         .eq("recipient_type", "advertiser")
@@ -64,37 +64,37 @@ export function HomeAdvertiserAlerts() {
         newOffers: countByText(rows, ["nuova offerta"]),
         chatMessages: countByText(rows, ["nuovo messaggio"]),
         acceptedOrRejected: countByText(rows, ["accettato", "rifiutato"]),
-      });
-    } finally {
+     });
+   } finally {
       setLoading(false);
-    }
-  }
+   }
+ }
 
-  useEffect(() => { void loadAlerts(); }, []);
+  useEffect(() => { void loadAlerts();}, []);
 
   async function openDashboardAndMarkRead() {
-    if (!state.advertiserId) { router.push("/inserzionista/dashboard"); return; }
+    if (!state.advertiserId) { router.push("/inserzionista/dashboard"); return;}
     setMarking(true);
     try {
       const supabase = createBrowserSupabaseClient();
-      const { data: ownRequests } = await supabase.from("travel_requests").select("id").eq("advertiser_id", state.advertiserId);
+      const { data: ownRequests} = await supabase.from("travel_requests").select("id").eq("advertiser_id", state.advertiserId);
       const requestIds = (ownRequests ?? []).map((request) => request.id);
       if (requestIds.length) {
-        await supabase.from("notifications").update({ is_read: true }).eq("recipient_type", "advertiser").eq("is_read", false).in("travel_request_id", requestIds);
-      }
-      setState((current) => ({ ...current, newOffers: 0, chatMessages: 0, acceptedOrRejected: 0 }));
+        await supabase.from("notifications").update({ is_read: true}).eq("recipient_type", "advertiser").eq("is_read", false).in("travel_request_id", requestIds);
+     }
+      setState((current) => ({ ...current, newOffers: 0, chatMessages: 0, acceptedOrRejected: 0}));
       router.push("/inserzionista/dashboard");
-    } finally {
+   } finally {
       setMarking(false);
-    }
-  }
+   }
+ }
 
   if (loading || !state.isAdvertiser) return null;
   const totalAlerts = state.newOffers + state.chatMessages + state.acceptedOrRejected;
   if (totalAlerts === 0) return null;
 
   return (
-    <section className="border-b border-red-200 bg-red-50 text-red-900 dark:border-red-900 dark:bg-red-950/40 dark:text-red-100">
+    <section className="border-b border-red-200 bg-red-50 text-red-900">
       <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-4 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
         <button type="button" onClick={openDashboardAndMarkRead} className="flex items-start gap-3 text-left">
           <div className="relative rounded-full bg-red-600 p-2 text-white shadow-sm">
@@ -104,9 +104,9 @@ export function HomeAdvertiserAlerts() {
           <div>
             <p className="text-sm font-semibold">Campanello inserzionista</p>
             <div className="mt-2 flex flex-wrap gap-2 text-sm">
-              {state.newOffers > 0 ? <span className="rounded-full bg-white px-3 py-1 font-medium shadow-sm dark:bg-zinc-900">{state.newOffers} nuove offerte ricevute</span> : null}
-              {state.chatMessages > 0 ? <span className="rounded-full bg-white px-3 py-1 font-medium shadow-sm dark:bg-zinc-900">{state.chatMessages} nuovi messaggi chat</span> : null}
-              {state.acceptedOrRejected > 0 ? <span className="rounded-full bg-white px-3 py-1 font-medium shadow-sm dark:bg-zinc-900">{state.acceptedOrRejected} aggiornamenti offerta</span> : null}
+              {state.newOffers > 0 ? <span className="rounded-full bg-white px-3 py-1 font-medium shadow-sm">{state.newOffers} nuove offerte ricevute</span> : null}
+              {state.chatMessages > 0 ? <span className="rounded-full bg-white px-3 py-1 font-medium shadow-sm">{state.chatMessages} nuovi messaggi chat</span> : null}
+              {state.acceptedOrRejected > 0 ? <span className="rounded-full bg-white px-3 py-1 font-medium shadow-sm">{state.acceptedOrRejected} aggiornamenti offerta</span> : null}
             </div>
           </div>
         </button>

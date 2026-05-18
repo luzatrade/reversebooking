@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+import type { Metadata} from "next";
 import Link from "next/link";
-import { LegalPageShell } from "@/components/legal/LegalPageShell";
-import { company } from "@/lib/legal/company";
+import { LegalPageShell} from "@/components/legal/LegalPageShell";
+import { company} from "@/lib/legal/company";
 
 export const metadata: Metadata = {
   title: "Termini e Condizioni",
-  description: "Termini e condizioni generali di utilizzo della piattaforma Reverse Booking.",
+  description: "Termini e condizioni generali di utilizzo della piattaforma HotelsDrop.",
 };
 
 export default function TerminiPage() {
@@ -80,7 +80,7 @@ export default function TerminiPage() {
         <h2>8. Dati di registrazione</h2>
         <p>
           <strong>Email e telefono di registrazione restano privati</strong> e trattati secondo la{" "}
-          <Link href="/privacy-policy" className="font-medium text-zinc-900 underline dark:text-zinc-100">
+          <Link href="/privacy-policy" className="font-medium text-zinc-900 underline">
             Privacy Policy
           </Link>
           , salvo obblighi di legge o ordini dell’Autorità.

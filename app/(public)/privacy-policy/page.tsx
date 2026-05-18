@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
-import { LegalPageShell } from "@/components/legal/LegalPageShell";
-import { company } from "@/lib/legal/company";
+import type { Metadata} from "next";
+import { LegalPageShell} from "@/components/legal/LegalPageShell";
+import { company} from "@/lib/legal/company";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",

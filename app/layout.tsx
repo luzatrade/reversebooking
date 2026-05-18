@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { FloatingChatWidget } from "@/components/chat/FloatingChatWidget";
 import { CookieBanner } from "@/components/legal/CookieBanner";
 import { LanguageProvider } from "@/components/i18n/LanguageProvider";
-import { company } from "@/lib/legal/company";
+import { company, getAppUrl } from "@/lib/legal/company";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(company.websiteUrl),
+  metadataBase: new URL(getAppUrl()),
   title: {
     default: `${company.companyName} — Richieste di soggiorno e offerte`,
     template: `%s · ${company.companyName}`,
@@ -36,7 +36,7 @@ export default function RootLayout({
       lang="it"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50">
+      <body className="min-h-full flex flex-col bg-zinc-50 text-zinc-900">
         <LanguageProvider>
           {children}
           <FloatingChatWidget />

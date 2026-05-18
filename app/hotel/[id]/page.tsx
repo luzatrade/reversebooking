@@ -1,4 +1,4 @@
-import { PublicHotelProfile } from "@/components/hotels/PublicHotelProfile";
+import { PublicHotelProfile} from "@/components/hotels/PublicHotelProfile";
 
 export default function Page() {
   return (

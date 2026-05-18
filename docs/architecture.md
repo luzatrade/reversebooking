@@ -1,8 +1,8 @@
-# Architettura Reverse Booking
+# Architettura HotelsDrop
 
 ## Obiettivo
 
-Reverse Booking è un marketplace SaaS per richieste di soggiorno: gli inserzionisti pubblicano annunci gratuitamente, mentre Hotel, B&B e Appartamenti pagano un abbonamento per ricevere richieste compatibili e inviare offerte.
+HotelsDrop è un marketplace SaaS per richieste di soggiorno: gli inserzionisti pubblicano annunci gratuitamente, mentre Hotel, B&B e Appartamenti pagano un abbonamento per ricevere richieste compatibili e inviare offerte.
 
 ## Regola centrale di matching
 
