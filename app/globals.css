@@ -17,6 +17,13 @@
   font-family: var(--font-brand);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -153,38 +160,4 @@ body {
 .rb-soft-white-home textarea:focus {
   border-color: #111111 !important;
   box-shadow: 0 0 0 3px rgba(17, 17, 17, 0.08) !important;
-}
-
-@media print {
-  @page {
-    margin: 1.4cm;
-  }
-
-  body {
-    background: #fff !important;
-    color: #111 !important;
-  }
-
-  body * {
-    visibility: hidden;
-  }
-
-  #accepted-booking-summary,
-  #accepted-booking-summary * {
-    visibility: visible;
-  }
-
-  #accepted-booking-summary {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    border: none !important;
-    box-shadow: none !important;
-    padding: 0 !important;
-  }
-
-  .print-hide {
-    display: none !important;
-  }
 }

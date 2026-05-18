@@ -1,4 +1,4 @@
-import type { MealPlan, PreferredStructureType} from "@/types/app";
+import type { MealPlan, PreferredStructureType } from "@/types/app";
 
 export type PublicRequest = {
   id: string;
@@ -33,7 +33,7 @@ export const publicRequests: PublicRequest[] = [
     mealPlan: "breakfast",
     notes: "Preferenza per struttura comoda alla stazione e con garage.",
     createdAt: "2026-05-14",
- },
+  },
   {
     id: "verona-fiera-luglio-2026",
     advertiserType: "Famiglia",
@@ -49,7 +49,7 @@ export const publicRequests: PublicRequest[] = [
     mealPlan: "half_board",
     notes: "Richiesta per famiglia, preferenza zona fiera o zona ben collegata.",
     createdAt: "2026-05-14",
- },
+  },
   {
     id: "venezia-laguna-business-2026",
     advertiserType: "Azienda",
@@ -65,7 +65,7 @@ export const publicRequests: PublicRequest[] = [
     mealPlan: "breakfast",
     notes: "Trasferta di lavoro, richieste camere singole e fattura aziendale.",
     createdAt: "2026-05-14",
- },
+  },
 ];
 
 export const mealPlanLabels: Record<MealPlan, string> = {

@@ -14,7 +14,7 @@ function hasPhoneLikeNumber(value: string) {
   if (normalized.length >= 9 && normalized.length <= 14 && /\d/.test(normalized)) {
     const spacedPhone = /(?:\+?\d[\s().-]*){9,14}/.test(value);
     return spacedPhone;
- }
+  }
   return false;
 }
 
@@ -35,10 +35,10 @@ export function validateNoContact(value: string | null | undefined, fieldLabel =
   return `Nel campo ${fieldLabel} non puoi inserire ${forbidden}. I contatti potranno essere condivisi solo tramite i pulsanti autorizzati o dopo l’accettazione dell’offerta.`;
 }
 
-export function validateNoContactsInFields(fields: Array<{ label: string; value: string | null | undefined}>) {
+export function validateNoContactsInFields(fields: Array<{ label: string; value: string | null | undefined }>) {
   for (const field of fields) {
     const error = validateNoContact(field.value, field.label);
     if (error) return error;
- }
+  }
   return null;
 }

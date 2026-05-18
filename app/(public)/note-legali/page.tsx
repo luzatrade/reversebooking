@@ -1,11 +1,11 @@
-import type { Metadata} from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
-import { LegalPageShell} from "@/components/legal/LegalPageShell";
-import { company} from "@/lib/legal/company";
+import { LegalPageShell } from "@/components/legal/LegalPageShell";
+import { company } from "@/lib/legal/company";
 
 export const metadata: Metadata = {
   title: "Note legali",
-  description: "Informazioni societarie e note legali di HotelsDrop.",
+  description: "Informazioni societarie e note legali di Reverse Booking.",
 };
 
 export default function NoteLegaliPage() {
@@ -60,7 +60,7 @@ export default function NoteLegaliPage() {
           {company.companyName} è una piattaforma digitale per la pubblicazione di annunci di richiesta di
           soggiorno da parte degli inserzionisti e per la presentazione di offerte commerciali da parte di
           strutture ricettive, secondo quanto disciplinato nei{" "}
-          <Link href="/termini-e-condizioni" className="font-medium text-zinc-900 underline">
+          <Link href="/termini-e-condizioni" className="font-medium text-zinc-900 underline dark:text-zinc-100">
             Termini e Condizioni
           </Link>
           .
@@ -80,19 +80,19 @@ export default function NoteLegaliPage() {
         <h2>Documenti collegati</h2>
         <ul>
           <li>
-            <Link href="/privacy-policy" className="font-medium text-zinc-900 underline">
+            <Link href="/privacy-policy" className="font-medium text-zinc-900 underline dark:text-zinc-100">
               Privacy Policy
             </Link>
           </li>
           <li>
-            <Link href="/cookie-policy" className="font-medium text-zinc-900 underline">
+            <Link href="/cookie-policy" className="font-medium text-zinc-900 underline dark:text-zinc-100">
               Cookie Policy
             </Link>
           </li>
           <li>
             <Link
               href="/termini-e-condizioni"
-              className="font-medium text-zinc-900 underline"
+              className="font-medium text-zinc-900 underline dark:text-zinc-100"
             >
               Termini e Condizioni
             </Link>

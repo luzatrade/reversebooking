@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAppUrl } from "@/lib/legal/company";
+import { company } from "@/lib/legal/company";
 
 const paths = [
   "/",
@@ -13,7 +13,7 @@ const paths = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = getAppUrl().replace(/\/$/, "");
+  const base = company.websiteUrl.replace(/\/$/, "");
   return paths.map((path) => ({
     url: `${base}${path}`,
     lastModified: new Date(),

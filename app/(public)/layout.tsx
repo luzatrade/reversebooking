@@ -1,7 +1,7 @@
-import { SiteFooter} from "@/components/legal/SiteFooter";
-import { SiteHeader} from "@/components/legal/SiteHeader";
+import { SiteFooter } from "@/components/legal/SiteFooter";
+import { SiteHeader } from "@/components/legal/SiteHeader";
 
-export default function PublicLayout({ children}: { children: React.ReactNode}) {
+export default function PublicLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex min-h-full flex-1 flex-col">
       <SiteHeader />

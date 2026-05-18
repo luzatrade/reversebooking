@@ -1,4 +1,4 @@
-import { EditHotelProfileForm} from "@/components/hotels/EditHotelProfileForm";
+import { EditHotelProfileForm } from "@/components/hotels/EditHotelProfileForm";
 
 export default function Page() {
   return (

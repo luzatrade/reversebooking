@@ -1,20 +1,13 @@
 "use client";
 
-import { FormEvent, Suspense, useState } from "react";
+import { FormEvent, useState } from "react";
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { SocialLoginButtons } from "@/components/auth/SocialLoginButtons";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 
-function safeRedirectPath(value: string | null) {
-  if (!value || !value.startsWith("/") || value.startsWith("//")) return null;
-  return value;
-}
-
-function LoginPageContent() {
+export default function LoginPage() {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const redirectTo = safeRedirectPath(searchParams.get("redirect"));
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -31,7 +24,6 @@ function LoginPageContent() {
       const userId = data.user?.id;
       if (!userId) { setErrorMessage("Accesso non completato. Riprova."); return; }
       const { data: profile } = await supabase.from("profiles").select("role").eq("user_id", userId).maybeSingle();
-      if (redirectTo) { router.push(redirectTo); return; }
       if (!profile?.role) { router.push("/scegli-account"); return; }
       if (profile.role === "hotel") { router.push("/struttura/dashboard"); return; }
       if (profile.role === "admin") { router.push("/admin/dashboard"); return; }
@@ -47,7 +39,7 @@ function LoginPageContent() {
     <main className="mx-auto flex min-h-[75vh] max-w-md flex-col justify-center px-4 py-16">
       <div className="rounded-3xl border border-zinc-200 bg-white p-8 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
         <p className="text-sm font-medium uppercase tracking-wide text-emerald-700 dark:text-emerald-400">Accesso</p>
-        <h1 className="mt-3 text-3xl font-semibold tracking-tight text-zinc-900">Accedi a HotelsDrop</h1>
+        <h1 className="mt-3 text-3xl font-semibold tracking-tight text-zinc-900 dark:text-white">Accedi a Reverse Booking</h1>
         <p className="mt-3 text-sm text-zinc-600 dark:text-zinc-400">Accedi con email oppure con Google, Apple o Microsoft.</p>
         <SocialLoginButtons />
         <div className="my-7 flex items-center gap-3 text-xs text-zinc-400"><span className="h-px flex-1 bg-zinc-200 dark:bg-zinc-800" />oppure<span className="h-px flex-1 bg-zinc-200 dark:bg-zinc-800" /></div>
@@ -60,13 +52,5 @@ function LoginPageContent() {
         <p className="mt-6 text-center text-sm text-zinc-600 dark:text-zinc-400">Non hai un account? <Link href="/registrazione" className="font-semibold text-zinc-950 underline dark:text-white">Registrati</Link></p>
       </div>
     </main>
-  );
-}
-
-export default function LoginPage() {
-  return (
-    <Suspense fallback={<main className="mx-auto flex min-h-[75vh] max-w-md items-center justify-center px-4 py-16 text-sm text-zinc-500">Caricamento...</main>}>
-      <LoginPageContent />
-    </Suspense>
   );
 }

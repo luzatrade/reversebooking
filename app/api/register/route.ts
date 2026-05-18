@@ -1,6 +1,6 @@
-import { createClient} from "@supabase/supabase-js";
-import { NextResponse} from "next/server";
-import { PRIVACY_VERSION, TERMS_VERSION} from "@/lib/legal/company";
+import { createClient } from "@supabase/supabase-js";
+import { NextResponse } from "next/server";
+import { PRIVACY_VERSION, TERMS_VERSION } from "@/lib/legal/company";
 
 type Body = {
   email?: string;
@@ -21,9 +21,9 @@ export async function POST(request: Request) {
   let body: Body;
   try {
     body = (await request.json()) as Body;
- } catch {
-    return NextResponse.json({ error: "JSON non valido"}, { status: 400});
- }
+  } catch {
+    return NextResponse.json({ error: "JSON non valido" }, { status: 400 });
+  }
 
   const email = body.email?.trim().toLowerCase();
   const password = body.password;
@@ -34,12 +34,12 @@ export async function POST(request: Request) {
   const role = accountKind === "struttura" ? "hotel" : "advertiser";
 
   if (!email || !password) {
-    return NextResponse.json({ error: "Email e password sono obbligatori"}, { status: 400});
- }
+    return NextResponse.json({ error: "Email e password sono obbligatori" }, { status: 400 });
+  }
 
   if (!termsAccepted || !privacyAccepted) {
-    return NextResponse.json({ error: "Consenso a Termini e Privacy obbligatorio"}, { status: 400});
- }
+    return NextResponse.json({ error: "Consenso a Termini e Privacy obbligatorio" }, { status: 400 });
+  }
 
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
@@ -49,52 +49,52 @@ export async function POST(request: Request) {
       {
         error:
           "Supabase non configurato: impostare NEXT_PUBLIC_SUPABASE_URL e NEXT_PUBLIC_SUPABASE_ANON_KEY nel file env.",
-     },
-      { status: 503},
+      },
+      { status: 503 },
     );
- }
+  }
 
   const forwarded = request.headers.get("x-forwarded-for");
   const ip = forwarded?.split(",")[0]?.trim() ?? null;
   const userAgent = request.headers.get("user-agent") ?? null;
 
   const supabase = createClient(url, anonKey, {
-    auth: { persistSession: false, autoRefreshToken: false},
- });
+    auth: { persistSession: false, autoRefreshToken: false },
+  });
 
-  const { data, error} = await supabase.auth.signUp({
+  const { data, error } = await supabase.auth.signUp({
     email,
     password,
     options: {
       data: {
         account_kind: accountKind,
-     },
-   },
- });
+      },
+    },
+  });
 
   if (error) {
-    return NextResponse.json({ error: error.message}, { status: 400});
- }
+    return NextResponse.json({ error: error.message }, { status: 400 });
+  }
 
   const user = data.user;
   const session = data.session;
 
   if (!user || !session) {
-    return NextResponse.json({ error: "Utente creato ma sessione non disponibile. Disattiva la conferma email in Supabase durante i test."}, { status: 400});
- }
+    return NextResponse.json({ error: "Utente creato ma sessione non disponibile. Disattiva la conferma email in Supabase durante i test." }, { status: 400 });
+  }
 
   const userClient = createClient(url, anonKey, {
     global: {
       headers: {
         Authorization: `Bearer ${session.access_token}`,
-     },
-   },
-    auth: { persistSession: false, autoRefreshToken: false},
- });
+      },
+    },
+    auth: { persistSession: false, autoRefreshToken: false },
+  });
 
   const phoneNumber = makePhoneFromUserId(user.id);
 
-  const { error: profileError} = await userClient.from("profiles").upsert(
+  const { error: profileError } = await userClient.from("profiles").upsert(
     {
       user_id: user.id,
       role,
@@ -103,16 +103,16 @@ export async function POST(request: Request) {
       email_verified: true,
       phone_verified: true,
       account_status: "active",
-   },
-    { onConflict: "user_id"},
+    },
+    { onConflict: "user_id" },
   );
 
   if (profileError) {
-    return NextResponse.json({ error: profileError.message, detail: "Profilo applicativo non creato."}, { status: 500});
- }
+    return NextResponse.json({ error: profileError.message, detail: "Profilo applicativo non creato." }, { status: 500 });
+  }
 
   if (role === "hotel") {
-    const { error: hotelError} = await userClient.from("hotel_accounts").upsert(
+    const { error: hotelError } = await userClient.from("hotel_accounts").upsert(
       {
         user_id: user.id,
         structure_type: "hotel",
@@ -130,15 +130,15 @@ export async function POST(request: Request) {
         subscription_status: "active",
         subscription_active: true,
         account_status: "active",
-     },
-      { onConflict: "user_id"},
+      },
+      { onConflict: "user_id" },
     );
 
     if (hotelError) {
-      return NextResponse.json({ error: hotelError.message, detail: "Profilo struttura non creato."}, { status: 500});
-   }
- } else {
-    const { error: advertiserError} = await userClient.from("advertiser_profiles").upsert(
+      return NextResponse.json({ error: hotelError.message, detail: "Profilo struttura non creato." }, { status: 500 });
+    }
+  } else {
+    const { error: advertiserError } = await userClient.from("advertiser_profiles").upsert(
       {
         user_id: user.id,
         advertiser_type: "private_individual",
@@ -146,14 +146,14 @@ export async function POST(request: Request) {
         last_name: "Cognome",
         short_description: "Profilo inserzionista creato automaticamente. Da completare nel pannello inserzionista.",
         contact_email: email,
-     },
-      { onConflict: "user_id"},
+      },
+      { onConflict: "user_id" },
     );
 
     if (advertiserError) {
-      return NextResponse.json({ error: advertiserError.message, detail: "Profilo inserzionista non creato."}, { status: 500});
-   }
- }
+      return NextResponse.json({ error: advertiserError.message, detail: "Profilo inserzionista non creato." }, { status: 500 });
+    }
+  }
 
   const termsVersion = body.termsVersion ?? TERMS_VERSION;
   const privacyVersion = body.privacyVersion ?? PRIVACY_VERSION;
@@ -167,7 +167,7 @@ export async function POST(request: Request) {
     privacy_version: privacyVersion,
     ip_address: ip,
     user_agent: userAgent,
- });
+  });
 
-  return NextResponse.json({ ok: true, role, userId: user.id});
+  return NextResponse.json({ ok: true, role, userId: user.id });
 }

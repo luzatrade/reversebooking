@@ -1,26 +1,26 @@
-import type { Metadata} from "next";
-import { company} from "@/lib/legal/company";
+import type { Metadata } from "next";
+import { company } from "@/lib/legal/company";
 
 export const metadata: Metadata = {
   title: "Contatti",
-  description: "Recapiti, supporto e PEC di HotelsDrop.",
+  description: "Recapiti, supporto e PEC di Reverse Booking.",
 };
 
 export default function ContattiPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
       <header>
-        <h1 className="text-3xl font-semibold tracking-tight text-zinc-900">Contatti</h1>
-        <p className="mt-4 text-base leading-relaxed text-zinc-600">
+        <h1 className="text-3xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">Contatti</h1>
+        <p className="mt-4 text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
           Siamo a disposizione per assistenza, informazioni commerciali e richieste legate alla privacy.
         </p>
       </header>
 
-      <dl className="mt-10 space-y-6 text-base text-zinc-700">
+      <dl className="mt-10 space-y-6 text-base text-zinc-700 dark:text-zinc-300">
         <div>
           <dt className="text-sm font-semibold uppercase tracking-wide text-zinc-500">Supporto</dt>
           <dd className="mt-1">
-            <a className="font-medium text-zinc-900 underline" href={`mailto:${company.supportEmail}`}>
+            <a className="font-medium text-zinc-900 underline dark:text-zinc-50" href={`mailto:${company.supportEmail}`}>
               {company.supportEmail}
             </a>
           </dd>
@@ -28,7 +28,7 @@ export default function ContattiPage() {
         <div>
           <dt className="text-sm font-semibold uppercase tracking-wide text-zinc-500">PEC</dt>
           <dd className="mt-1">
-            <a className="font-medium text-zinc-900 underline" href={`mailto:${company.pecEmail}`}>
+            <a className="font-medium text-zinc-900 underline dark:text-zinc-50" href={`mailto:${company.pecEmail}`}>
               {company.pecEmail}
             </a>
           </dd>
@@ -47,7 +47,7 @@ export default function ContattiPage() {
           <dt className="text-sm font-semibold uppercase tracking-wide text-zinc-500">Sito web</dt>
           <dd className="mt-1">
             <a
-              className="font-medium text-zinc-900 underline"
+              className="font-medium text-zinc-900 underline dark:text-zinc-50"
               href={company.websiteUrl}
               target="_blank"
               rel="noopener noreferrer"

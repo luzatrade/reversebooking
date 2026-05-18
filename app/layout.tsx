@@ -3,7 +3,7 @@ import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import { FloatingChatWidget } from "@/components/chat/FloatingChatWidget";
 import { CookieBanner } from "@/components/legal/CookieBanner";
 import { LanguageProvider } from "@/components/i18n/LanguageProvider";
-import { company, getAppUrl } from "@/lib/legal/company";
+import { company } from "@/lib/legal/company";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -23,7 +23,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(getAppUrl()),
+  metadataBase: new URL(company.websiteUrl),
   title: {
     default: `${company.companyName} — Richieste di soggiorno e offerte`,
     template: `%s · ${company.companyName}`,
@@ -42,7 +42,7 @@ export default function RootLayout({
       lang="it"
       className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-zinc-50 text-zinc-900">
+      <body className="min-h-full flex flex-col bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50">
         <LanguageProvider>
           {children}
           <FloatingChatWidget />

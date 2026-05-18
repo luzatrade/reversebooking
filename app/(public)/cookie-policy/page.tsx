@@ -1,7 +1,7 @@
-import type { Metadata} from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
-import { LegalPageShell} from "@/components/legal/LegalPageShell";
-import { COOKIE_POLICY_VERSION, company} from "@/lib/legal/company";
+import { LegalPageShell } from "@/components/legal/LegalPageShell";
+import { COOKIE_POLICY_VERSION, company } from "@/lib/legal/company";
 
 export const metadata: Metadata = {
   title: "Cookie Policy",
@@ -72,7 +72,7 @@ export default function CookiePolicyPage() {
         <h2>7. Rapporto con la Privacy Policy</h2>
         <p>
           Per il trattamento dei dati personali si rimanda alla{" "}
-          <Link href="/privacy-policy" className="font-medium text-zinc-900 underline">
+          <Link href="/privacy-policy" className="font-medium text-zinc-900 underline dark:text-zinc-100">
             Privacy Policy
           </Link>
           .

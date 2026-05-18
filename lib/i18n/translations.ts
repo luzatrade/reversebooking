@@ -10,7 +10,7 @@ export const localeLabels: Record<Locale, string> = {
 export const translations = {
   it: {
     common: {
-      platformName: "HotelsDrop",
+      platformName: "Reverse Booking",
       login: "Accedi",
       register: "Registrati",
       logout: "Esci",
@@ -22,7 +22,7 @@ export const translations = {
       language: "Lingua",
       italian: "Italiano",
       english: "English",
-   },
+    },
     navigation: {
       publicShowcase: "Vetrina",
       advertiserDashboard: "Dashboard inserzionista",
@@ -31,7 +31,7 @@ export const translations = {
       editHotelProfile: "Modifica profilo",
       billing: "Fatturazione",
       subscription: "Abbonamento",
-   },
+    },
     publicShowcase: {
       title: "Vetrina annunci",
       subtitle: "Cerca richieste di soggiorno nelle principali città del mondo.",
@@ -40,7 +40,7 @@ export const translations = {
       viewRequest: "Vedi annuncio",
       loginToInteract: "Accedi per interagire con l’annuncio",
       contactsHidden: "Contatti protetti fino all’accettazione dell’offerta.",
-   },
+    },
     request: {
       createTitle: "Crea richiesta di soggiorno",
       nickname: "Nickname",
@@ -68,7 +68,7 @@ export const translations = {
       bathtub: "Vasca",
       garage: "Garage",
       beach: "Spiaggia",
-   },
+    },
     offer: {
       makeOffer: "Fai un’offerta",
       offerSent: "Offerta inviata",
@@ -82,7 +82,7 @@ export const translations = {
       conditions: "Condizioni",
       expiresAt: "Scadenza offerta",
       contactsUnlocked: "Contatti sbloccati dopo accettazione offerta.",
-   },
+    },
     hotel: {
       profile: "Profilo struttura",
       editProfile: "Modifica profilo struttura",
@@ -99,7 +99,7 @@ export const translations = {
       roomsQuantity: "Camere / unità",
       openGoogleMaps: "Apri su Google Maps",
       publicContacts: "Servizi e contatti",
-   },
+    },
     values: {
       roomOnly: "Solo pernottamento",
       breakfast: "Colazione",
@@ -109,11 +109,11 @@ export const translations = {
       bedAndBreakfast: "B&B",
       apartment: "Appartamento",
       all: "Tutte",
-   },
- },
+    },
+  },
   en: {
     common: {
-      platformName: "HotelsDrop",
+      platformName: "Reverse Booking",
       login: "Log in",
       register: "Sign up",
       logout: "Log out",
@@ -125,7 +125,7 @@ export const translations = {
       language: "Language",
       italian: "Italian",
       english: "English",
-   },
+    },
     navigation: {
       publicShowcase: "Showcase",
       advertiserDashboard: "Advertiser dashboard",
@@ -134,7 +134,7 @@ export const translations = {
       editHotelProfile: "Edit profile",
       billing: "Billing",
       subscription: "Subscription",
-   },
+    },
     publicShowcase: {
       title: "Request showcase",
       subtitle: "Search stay requests in major cities around the world.",
@@ -143,7 +143,7 @@ export const translations = {
       viewRequest: "View request",
       loginToInteract: "Log in to interact with this request",
       contactsHidden: "Contacts are protected until an offer is accepted.",
-   },
+    },
     request: {
       createTitle: "Create stay request",
       nickname: "Nickname",
@@ -171,7 +171,7 @@ export const translations = {
       bathtub: "Bathtub",
       garage: "Garage",
       beach: "Beach",
-   },
+    },
     offer: {
       makeOffer: "Make an offer",
       offerSent: "Offer sent",
@@ -185,7 +185,7 @@ export const translations = {
       conditions: "Conditions",
       expiresAt: "Offer expiry",
       contactsUnlocked: "Contacts are unlocked after the offer is accepted.",
-   },
+    },
     hotel: {
       profile: "Property profile",
       editProfile: "Edit property profile",
@@ -202,7 +202,7 @@ export const translations = {
       roomsQuantity: "Rooms / units",
       openGoogleMaps: "Open in Google Maps",
       publicContacts: "Services and contacts",
-   },
+    },
     values: {
       roomOnly: "Room only",
       breakfast: "Breakfast",
@@ -212,8 +212,8 @@ export const translations = {
       bedAndBreakfast: "B&B",
       apartment: "Apartment",
       all: "All",
-   },
- },
+    },
+  },
 } as const;
 
 export type TranslationKey = keyof typeof translations.it;
