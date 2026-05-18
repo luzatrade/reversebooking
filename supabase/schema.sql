@@ -132,6 +132,7 @@ create trigger travel_requests_updated_at before update on travel_requests for e
 
 create table if not exists offers (
   id uuid primary key default gen_random_uuid(),
+  offer_code text unique,
   travel_request_id uuid not null references travel_requests(id) on delete cascade,
   hotel_account_id uuid not null references hotel_accounts(id) on delete cascade,
   total_price numeric(12,2) not null check (total_price > 0),
@@ -141,9 +142,12 @@ create table if not exists offers (
   expires_at timestamptz not null,
   status offer_status not null default 'pending',
   created_at timestamptz not null default now(),
-  updated_at timestamptz not null default now(),
-  unique (travel_request_id, hotel_account_id)
+  updated_at timestamptz not null default now()
 );
+
+create unique index if not exists offers_one_pending_per_hotel_request
+  on offers(travel_request_id, hotel_account_id)
+  where status = 'pending';
 
 create index if not exists idx_offers_request on offers(travel_request_id);
 create index if not exists idx_offers_hotel on offers(hotel_account_id);
@@ -207,6 +211,9 @@ create table if not exists user_consents (
   marketing_accepted boolean not null default false,
   terms_version text,
   privacy_version text,
+  subscription_terms_accepted boolean not null default false,
+  subscription_terms_version text,
+  subscription_terms_at timestamptz,
   accepted_at timestamptz not null default now(),
   ip_address text,
   user_agent text

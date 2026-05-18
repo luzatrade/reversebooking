@@ -1,16 +1,29 @@
 /**
- * Dati aziendali e versioni documenti. Aggiornare con i dati effettivi dell’esercente prima o subito dopo il go-live.
+ * Titolare legale e brand HotelsDrop.com.
+ * Sede legale: completare quando disponibile.
  */
 
-export const LEGAL_LAST_UPDATED = "13 maggio 2026";
+export const BRAND_NAME = "HotelsDrop";
+export const BRAND_DISPLAY = "HotelsDrop.com";
+export const BRAND_DOMAIN = "hotelsdrop.com";
+export const LEGAL_ENTITY_NAME = "FINEHOST";
 
-/** Versioni documenti per consensi e tracciabilità */
-export const TERMS_VERSION = "2026-05-13";
-export const PRIVACY_VERSION = "2026-05-13";
-export const COOKIE_POLICY_VERSION = "2026-05-13";
+export function getAppUrl(): string {
+  const fromEnv = process.env.NEXT_PUBLIC_APP_URL?.trim().replace(/\/$/, "");
+  if (fromEnv) return fromEnv;
+  return `https://www.${BRAND_DOMAIN}`;
+}
+
+export const LEGAL_LAST_UPDATED = "17 maggio 2026";
+
+export const TERMS_VERSION = "2026-05-17";
+export const PRIVACY_VERSION = "2026-05-17";
+export const COOKIE_POLICY_VERSION = "2026-05-17";
+export const SUBSCRIPTION_TERMS_VERSION = "2026-05-17";
 
 export type CompanyInfo = {
   companyName: string;
+  legalEntityName: string;
   businessName: string;
   vatNumber: string;
   taxCode: string;
@@ -24,21 +37,30 @@ export type CompanyInfo = {
   websiteUrl: string;
   atecoCode: string;
   reaNumber?: string;
+  legalAddressPending?: boolean;
 };
 
 export const company: CompanyInfo = {
-  companyName: "Reverse Booking",
-  businessName: "Piattaforma per richieste di soggiorno e offerte da strutture ricettive",
-  vatNumber: "IT00000000000",
-  taxCode: "00000000000",
-  legalAddress: "Via Esempio 1",
-  city: "Milano",
-  postalCode: "00000",
+  companyName: BRAND_DISPLAY,
+  legalEntityName: LEGAL_ENTITY_NAME,
+  businessName: "Marketplace digitale che mette in contatto viaggiatori e strutture ricettive",
+  vatNumber: "03324910805",
+  taxCode: "03324910805",
+  legalAddress: "Sede legale — indirizzo in aggiornamento",
+  city: "",
+  postalCode: "",
   country: "Italia",
-  pecEmail: "pec.esempio@legalmail.it",
-  supportEmail: "supporto@esempio.it",
-  phone: "+39 000 000 0000",
-  websiteUrl: "https://www.esempio-reversebooking.it",
-  atecoCode: "63.12.00 - Portali web",
-  reaNumber: "MI-0000000",
+  legalAddressPending: true,
+  pecEmail: "lucianozavaglia@pec.it",
+  supportEmail: "info@hotelsdrop.com",
+  phone: "+39 334 334 3827",
+  websiteUrl: getAppUrl(),
+  atecoCode: "63.12.00 — Portali web",
 };
+
+export function formatLegalAddress(): string {
+  if (company.legalAddressPending || !company.city) {
+    return company.legalAddress;
+  }
+  return `${company.legalAddress}, ${company.postalCode} ${company.city} — ${company.country}`;
+}

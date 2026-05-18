@@ -17,17 +17,21 @@
   font-family: var(--font-brand);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+@supports (padding: max(0px)) {
+  .safe-top {
+    padding-top: max(1rem, env(safe-area-inset-top));
+  }
+
+  .safe-bottom {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
 }
 
 .rb-soft-white-home main {
@@ -55,6 +59,12 @@ body {
 
 .rb-soft-white-home header h1 {
   display: none !important;
+}
+
+.rb-soft-white-home header a.rb-auth-primary,
+.rb-soft-white-home header a[class*="bg-[#0f4c81]"] {
+  color: #ffffff !important;
+  background-color: #0f4c81 !important;
 }
 
 .rb-soft-white-home header div[class*="bg-zinc-50"] {
@@ -97,6 +107,9 @@ body {
 
 .rb-soft-white-home header div[class*="bg-zinc-50"] .font-semibold,
 .rb-soft-white-home header div[class*="bg-zinc-50"] label,
+.rb-soft-white-home header a.font-semibold,
+.rb-soft-white-home header a .font-semibold,
+.rb-soft-white-home header button.font-semibold,
 .rb-soft-white-home a .font-semibold,
 .rb-soft-white-home button .font-semibold {
   color: inherit !important;
@@ -160,4 +173,38 @@ body {
 .rb-soft-white-home textarea:focus {
   border-color: #111111 !important;
   box-shadow: 0 0 0 3px rgba(17, 17, 17, 0.08) !important;
+}
+
+@media print {
+  @page {
+    margin: 1.4cm;
+  }
+
+  body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+
+  body * {
+    visibility: hidden;
+  }
+
+  #accepted-booking-summary,
+  #accepted-booking-summary * {
+    visibility: visible;
+  }
+
+  #accepted-booking-summary {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+
+  .print-hide {
+    display: none !important;
+  }
 }

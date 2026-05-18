@@ -3,7 +3,7 @@ import { RegisterForm } from "@/components/auth/RegisterForm";
 
 export const metadata: Metadata = {
   title: "Registrazione",
-  description: "Crea un account inserzionista o struttura ricettiva su Reverse Booking.",
+  description: "Crea un account inserzionista o struttura ricettiva su HotelsDrop.com.",
 };
 
 export default function RegistrazionePage() {

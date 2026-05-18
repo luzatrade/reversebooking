@@ -5,7 +5,7 @@ import { company } from "@/lib/legal/company";
 
 export const metadata: Metadata = {
   title: "Termini e Condizioni",
-  description: "Termini e condizioni generali di utilizzo della piattaforma Reverse Booking.",
+  description: `Termini e condizioni generali di utilizzo di ${company.companyName}.`,
 };
 
 export default function TerminiPage() {
@@ -17,9 +17,14 @@ export default function TerminiPage() {
       <section>
         <h2>1. Oggetto</h2>
         <p>
-          {company.companyName} è una <strong>piattaforma digitale</strong> che mette in contatto{" "}
-          <strong>inserzionisti</strong> e <strong>strutture ricettive</strong> per la pubblicazione di
-          richieste di soggiorno e la presentazione di offerte commerciali correlate.
+          {company.companyName}, gestito da {company.legalEntityName} (P.IVA {company.vatNumber}), è un{" "}
+          <strong>marketplace digitale</strong> che mette in contatto <strong>inserzionisti</strong> e{" "}
+          <strong>strutture ricettive</strong> per richieste di soggiorno e offerte commerciali correlate.
+        </p>
+        <p>
+          <strong>Non siamo un’OTA né un’agenzia viaggi.</strong> Non vendiamo soggiorni, non incassiamo prenotazioni dei
+          clienti finali e non garantiamo disponibilità o qualità del soggiorno. Il contratto di soggiorno si conclude
+          direttamente tra struttura e cliente.
         </p>
       </section>
 
@@ -36,8 +41,11 @@ export default function TerminiPage() {
         <h2>3. Offerte delle strutture ricettive e abbonamento</h2>
         <p>
           Le strutture ricettive possono rispondere con <strong>offerte solo in presenza di abbonamento
-          attivo</strong>. Le condizioni economiche dell’abbonamento sono quelle mostrate al momento
-          dell’acquisto tramite il fornitore di pagamenti (Stripe).
+          attivo</strong>. Le condizioni economiche sono nelle{" "}
+          <Link href="/condizioni-abbonamento" className="font-medium underline">
+            Condizioni abbonamento
+          </Link>{" "}
+          e al momento dell’acquisto tramite Stripe.
         </p>
       </section>
 

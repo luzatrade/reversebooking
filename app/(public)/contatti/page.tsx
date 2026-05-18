@@ -3,7 +3,7 @@ import { company } from "@/lib/legal/company";
 
 export const metadata: Metadata = {
   title: "Contatti",
-  description: "Recapiti, supporto e PEC di Reverse Booking.",
+  description: "Recapiti, supporto e PEC di HotelsDrop.com.",
 };
 
 export default function ContattiPage() {

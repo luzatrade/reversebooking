@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { LegalMicroLine } from "@/components/legal/LegalMicroLine";
 
 export const metadata: Metadata = {
   title: "Area struttura — Abbonamento e fatture",
@@ -28,7 +29,8 @@ export default function StrutturaPanelPage() {
             Aggiorna il metodo di pagamento, consulta il piano attivo o gestisci il rinnovo dal portale sicuro
             Stripe.
           </p>
-          <div className="mt-6 flex flex-wrap gap-3">
+          <LegalMicroLine variant="subscriptionCheckout" className="mt-4" />
+          <div className="mt-4 flex flex-wrap gap-3">
             {stripePortalUrl ? (
               <a
                 className="inline-flex items-center justify-center rounded-lg bg-zinc-900 px-4 py-2.5 text-sm font-semibold text-white hover:bg-zinc-800 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
@@ -80,9 +82,13 @@ export default function StrutturaPanelPage() {
         </section>
 
         <p className="text-sm text-zinc-500">
-          Dettagli contrattuali e fiscali:{" "}
+          Dettagli:{" "}
+          <Link href="/condizioni-abbonamento" className="font-medium text-zinc-800 underline dark:text-zinc-200">
+            Condizioni abbonamento
+          </Link>
+          ,{" "}
           <Link href="/termini-e-condizioni" className="font-medium text-zinc-800 underline dark:text-zinc-200">
-            Termini e Condizioni
+            Termini
           </Link>
           .
         </p>

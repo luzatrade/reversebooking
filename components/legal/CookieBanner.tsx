@@ -62,7 +62,7 @@ export function CookieBanner() {
   return (
     <>
       <div
-        className="fixed inset-x-0 bottom-0 z-50 border-t border-zinc-200 bg-white p-4 shadow-[0_-8px_30px_rgba(0,0,0,0.08)] dark:border-zinc-800 dark:bg-zinc-950 dark:shadow-black/40 sm:p-5"
+        className="safe-bottom fixed inset-x-0 bottom-0 z-50 border-t border-zinc-200 bg-white p-4 shadow-[0_-8px_30px_rgba(0,0,0,0.08)] dark:border-zinc-800 dark:bg-zinc-950 dark:shadow-black/40 sm:p-5"
         role="dialog"
         aria-labelledby="cookie-banner-title"
         aria-describedby="cookie-banner-desc"

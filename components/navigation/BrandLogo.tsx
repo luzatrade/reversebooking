@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const logoClassName =
-  "font-brand inline-block text-2xl font-extrabold tracking-tight text-orange-500 transition-opacity hover:opacity-90 sm:text-3xl";
+  "font-brand inline-flex items-center leading-none text-2xl font-extrabold tracking-tight text-orange-500 transition-opacity hover:opacity-90 sm:text-3xl";
 
 type BrandLogoProps = {
   className?: string;

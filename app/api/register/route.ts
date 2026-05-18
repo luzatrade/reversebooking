@@ -6,6 +6,7 @@ type Body = {
   email?: string;
   password?: string;
   accountKind?: "inserzionista" | "struttura";
+  legalAccepted?: boolean;
   termsAccepted?: boolean;
   privacyAccepted?: boolean;
   marketingAccepted?: boolean;
@@ -27,8 +28,10 @@ export async function POST(request: Request) {
 
   const email = body.email?.trim().toLowerCase();
   const password = body.password;
-  const termsAccepted = Boolean(body.termsAccepted);
-  const privacyAccepted = Boolean(body.privacyAccepted);
+  const legalOk =
+    body.legalAccepted === true || (Boolean(body.termsAccepted) && Boolean(body.privacyAccepted));
+  const termsAccepted = legalOk;
+  const privacyAccepted = legalOk;
   const marketingAccepted = Boolean(body.marketingAccepted);
   const accountKind = body.accountKind === "struttura" ? "struttura" : "inserzionista";
   const role = accountKind === "struttura" ? "hotel" : "advertiser";
@@ -37,7 +40,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Email e password sono obbligatori" }, { status: 400 });
   }
 
-  if (!termsAccepted || !privacyAccepted) {
+  if (!legalOk) {
     return NextResponse.json({ error: "Consenso a Termini e Privacy obbligatorio" }, { status: 400 });
   }
 

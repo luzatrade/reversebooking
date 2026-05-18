@@ -149,7 +149,7 @@ export function CityAutocomplete({ value, onChange, label = "Destinazione", help
     <div ref={wrapperRef} className="relative z-40">
       <label className="block text-sm font-medium text-zinc-800">
         {label}
-        <div className="mt-2 flex items-center gap-2 rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm text-zinc-900 shadow-sm ring-zinc-300 focus-within:ring-2">
+        <div className="mt-2 flex min-h-12 items-center gap-2 rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-base text-zinc-900 shadow-sm ring-zinc-300 focus-within:ring-2 sm:text-sm">
           <Search className="h-4 w-4 text-zinc-400" />
           <input
             value={query}
@@ -174,7 +174,7 @@ export function CityAutocomplete({ value, onChange, label = "Destinazione", help
               type="button"
               onMouseDown={(event) => event.preventDefault()}
               onClick={() => selectCity(city)}
-              className="flex w-full items-start gap-3 border-b border-zinc-100 px-4 py-3 text-left text-sm last:border-b-0 hover:bg-zinc-50"
+              className="flex min-h-12 w-full items-start gap-3 border-b border-zinc-100 px-4 py-3 text-left text-sm last:border-b-0 hover:bg-zinc-50"
             >
               <MapPin className="mt-0.5 h-4 w-4 text-emerald-600" />
               <span>

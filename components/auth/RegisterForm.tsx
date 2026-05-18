@@ -12,8 +12,7 @@ export function RegisterForm() {
   const [password, setPassword] = useState("");
   const [accountKind, setAccountKind] = useState<AccountKind>("inserzionista");
   const [structureType, setStructureType] = useState<StructureType>("hotel");
-  const [terms, setTerms] = useState(false);
-  const [privacy, setPrivacy] = useState(false);
+  const [legalAccepted, setLegalAccepted] = useState(false);
   const [marketing, setMarketing] = useState(false);
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
@@ -24,8 +23,8 @@ export function RegisterForm() {
     setError(null);
     setMessage(null);
 
-    if (!terms || !privacy) {
-      setError("È necessario accettare Termini e Privacy per registrarsi.");
+    if (!legalAccepted) {
+      setError("È necessario accettare Termini e Privacy Policy per registrarsi.");
       return;
     }
 
@@ -39,8 +38,9 @@ export function RegisterForm() {
           password,
           accountKind,
           structureType: accountKind === "struttura" ? structureType : undefined,
-          termsAccepted: terms,
-          privacyAccepted: privacy,
+          legalAccepted: true,
+          termsAccepted: true,
+          privacyAccepted: true,
           marketingAccepted: marketing,
           termsVersion: TERMS_VERSION,
           privacyVersion: PRIVACY_VERSION,
@@ -61,7 +61,7 @@ export function RegisterForm() {
     }
   }
 
-  const canSubmit = terms && privacy && email.length > 3 && password.length >= 8;
+  const canSubmit = legalAccepted && email.length > 3 && password.length >= 8;
 
   return (
     <form onSubmit={onSubmit} className="mx-auto max-w-lg space-y-6 rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
@@ -94,9 +94,13 @@ export function RegisterForm() {
       ) : null}
 
       <div className="space-y-3 rounded-lg border border-zinc-100 bg-zinc-50 p-4 text-sm dark:border-zinc-800 dark:bg-zinc-950/60">
-        <label className="flex gap-2"><input type="checkbox" checked={terms} onChange={(e) => setTerms(e.target.checked)} required aria-required="true" /><span>Accetto i <Link href="/termini-e-condizioni" className="font-medium text-zinc-900 underline dark:text-zinc-100">Termini e Condizioni</Link> <span className="text-zinc-500">(versione {TERMS_VERSION})</span></span></label>
-        <label className="flex gap-2"><input type="checkbox" checked={privacy} onChange={(e) => setPrivacy(e.target.checked)} required aria-required="true" /><span>Ho letto la <Link href="/privacy-policy" className="font-medium text-zinc-900 underline dark:text-zinc-100">Privacy Policy</Link> <span className="text-zinc-500">(versione {PRIVACY_VERSION})</span></span></label>
-        <label className="flex gap-2"><input type="checkbox" checked={marketing} onChange={(e) => setMarketing(e.target.checked)} /><span>Acconsento a ricevere comunicazioni promozionali (facoltativo)</span></label>
+        <label className="flex gap-2">
+          <input type="checkbox" checked={legalAccepted} onChange={(e) => setLegalAccepted(e.target.checked)} required aria-required="true" />
+          <span>
+            Accetto i <Link href="/termini-e-condizioni" className="font-medium text-zinc-900 underline dark:text-zinc-100">Termini e Condizioni</Link> e l&apos;<Link href="/privacy-policy" className="font-medium text-zinc-900 underline dark:text-zinc-100">Informativa Privacy</Link> <span className="text-zinc-500">(v. {TERMS_VERSION} / {PRIVACY_VERSION})</span>
+          </span>
+        </label>
+        <label className="flex gap-2"><input type="checkbox" checked={marketing} onChange={(e) => setMarketing(e.target.checked)} /><span>Comunicazioni promozionali (facoltativo)</span></label>
       </div>
 
       {error ? <p className="text-sm text-red-600 dark:text-red-400">{error}</p> : null}

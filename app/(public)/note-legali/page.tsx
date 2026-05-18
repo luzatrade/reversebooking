@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { LegalPageShell } from "@/components/legal/LegalPageShell";
-import { company } from "@/lib/legal/company";
+import { company, formatLegalAddress } from "@/lib/legal/company";
 
 export const metadata: Metadata = {
   title: "Note legali",
-  description: "Informazioni societarie e note legali di Reverse Booking.",
+  description: `Informazioni societarie e note legali di ${company.companyName}.`,
 };
 
 export default function NoteLegaliPage() {
@@ -17,10 +17,13 @@ export default function NoteLegaliPage() {
       <section>
         <h2>Identificazione del titolare</h2>
         <p>
-          <strong>Ragione sociale / nome attività:</strong> {company.companyName}
+          <strong>Brand:</strong> {company.companyName}
         </p>
         <p>
-          <strong>Denominazione commerciale:</strong> {company.businessName}
+          <strong>Titolare legale:</strong> {company.legalEntityName}
+        </p>
+        <p>
+          <strong>Attività:</strong> {company.businessName}
         </p>
         <p>
           <strong>Partita IVA:</strong> {company.vatNumber}
@@ -29,8 +32,7 @@ export default function NoteLegaliPage() {
           <strong>Codice fiscale:</strong> {company.taxCode}
         </p>
         <p>
-          <strong>Sede legale:</strong> {company.legalAddress}, {company.postalCode} {company.city},{" "}
-          {company.country}
+          <strong>Sede legale:</strong> {formatLegalAddress()}
         </p>
         <p>
           <strong>PEC:</strong> {company.pecEmail}
@@ -57,9 +59,8 @@ export default function NoteLegaliPage() {
       <section>
         <h2>Natura del servizio</h2>
         <p>
-          {company.companyName} è una piattaforma digitale per la pubblicazione di annunci di richiesta di
-          soggiorno da parte degli inserzionisti e per la presentazione di offerte commerciali da parte di
-          strutture ricettive, secondo quanto disciplinato nei{" "}
+          {company.companyName}, gestito da {company.legalEntityName}, è un marketplace digitale (non OTA né agenzia
+          viaggi) per richieste di soggiorno e offerte da strutture ricettive, secondo quanto disciplinato nei{" "}
           <Link href="/termini-e-condizioni" className="font-medium text-zinc-900 underline dark:text-zinc-100">
             Termini e Condizioni
           </Link>
@@ -95,6 +96,14 @@ export default function NoteLegaliPage() {
               className="font-medium text-zinc-900 underline dark:text-zinc-100"
             >
               Termini e Condizioni
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/condizioni-abbonamento"
+              className="font-medium text-zinc-900 underline dark:text-zinc-100"
+            >
+              Condizioni abbonamento
             </Link>
           </li>
         </ul>
