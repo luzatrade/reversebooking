@@ -10,6 +10,11 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-brand: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+}
+
+.font-brand {
+  font-family: var(--font-brand);
 }
 
 body {
@@ -74,13 +79,6 @@ body {
 .rb-soft-white-home header input[type="date"]::-webkit-calendar-picker-indicator {
   transform: scale(1.18);
   cursor: pointer;
-}
-
-@media (min-width: 1024px) {
-  .rb-soft-white-home header a[href*="crea-annuncio"] {
-    align-self: flex-start !important;
-    margin-top: 1.75rem !important;
-  }
 }
 
 .rb-soft-white-home h2,

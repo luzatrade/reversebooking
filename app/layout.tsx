@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import { FloatingChatWidget } from "@/components/chat/FloatingChatWidget";
 import { CookieBanner } from "@/components/legal/CookieBanner";
 import { LanguageProvider } from "@/components/i18n/LanguageProvider";
@@ -14,6 +14,12 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const poppins = Poppins({
+  variable: "--font-poppins",
+  subsets: ["latin"],
+  weight: ["600", "700", "800"],
 });
 
 export const metadata: Metadata = {
@@ -34,7 +40,7 @@ export default function RootLayout({
   return (
     <html
       lang="it"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-zinc-50 text-zinc-900">
         <LanguageProvider>

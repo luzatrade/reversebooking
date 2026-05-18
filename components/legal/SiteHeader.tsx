@@ -1,25 +1,17 @@
 import Link from "next/link";
-import { company} from "@/lib/legal/company";
-
-const navLink =
-  "rounded-md px-3 py-2 text-sm font-medium text-zinc-700 transition hover:bg-zinc-100 hover:text-zinc-900";
+import { Navbar, navLink } from "@/components/navigation/Navbar";
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 border-b border-zinc-200/80 bg-white/90 backdrop-blur">
-      <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
-        <Link href="/" className="text-base font-semibold tracking-tight text-zinc-900">
-          {company.companyName}
+    <Navbar>
+      <nav className="flex items-center gap-1 sm:gap-2" aria-label="Principale">
+        <Link className={navLink} href="/registrazione">
+          Registrazione
         </Link>
-        <nav className="flex items-center gap-1 sm:gap-2" aria-label="Principale">
-          <Link className={navLink} href="/registrazione">
-            Registrazione
-          </Link>
-          <Link className={navLink} href="/contatti">
-            Contatti
-          </Link>
-        </nav>
-      </div>
-    </header>
+        <Link className={navLink} href="/contatti">
+          Contatti
+        </Link>
+      </nav>
+    </Navbar>
   );
 }

@@ -6,6 +6,7 @@ import { Building2, CalendarDays, Euro, MapPin, Users } from "lucide-react";
 import { CurrencySwitcher } from "@/components/currency/CurrencySwitcher";
 import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 import { CityAutocomplete } from "@/components/location/CityAutocomplete";
+import { BrandLogo } from "@/components/navigation/BrandLogo";
 import { BRAND_NAME } from "@/lib/legal/company";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { createWorldCity } from "@/lib/constants/world-city-helpers";
@@ -169,8 +170,11 @@ export function PublicShowcaseClient() {
     <header className="relative z-50 overflow-visible border-b border-zinc-200 bg-white/90 backdrop-blur">
       <div className="relative z-50 mx-auto flex max-w-7xl flex-col gap-4 overflow-visible px-4 pb-5 pt-12 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <div><p className="text-sm font-semibold uppercase tracking-wide text-emerald-700">{BRAND_NAME}</p><h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Home richieste e strutture</h1></div>
-          <div className="flex flex-wrap items-center justify-end gap-2">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-6">
+            <BrandLogo className="shrink-0 self-start" />
+            <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">Home richieste e strutture</h1>
+          </div>
+          <div className="flex flex-wrap items-center justify-end gap-2 sm:gap-3">
             <LanguageSwitcher />
             <CurrencySwitcher />
             {viewer.userId ? (
