@@ -89,9 +89,15 @@ export const TRAVEL_PHOTOS: Record<string, string> = {
   nycCentral: "1534270324853-3e28f12b24b1",
   // Bangkok
   bangkokTemple: "1508009603885-50cf7c579365",
-  bangkokWat: "1563492065599-3520f775eeed",
+  bangkokWatArun: "1768392810963-017c92313d79",
+  bangkokWatSunset: "1762950297550-1d8d7cce12ae",
+  bangkokWatNight: "1563492065599-3520f775eeed",
+  bangkokSkyline: "1553803095-58e9e8a3e5c3",
   // Phuket
   phuketBeach: "1552465011-b4e21bf6e79a",
+  phuketViewpoint: "1601225612316-b4733315a717",
+  phuketIsland: "1754295560175-86037557a4fd",
+  phuketSunset: "1537996194471-e657a9a42cfe",
   // Generic
   beach: "1552465011-b4e21bf6e79a",
   europeStreet: "1515542622106-78bda8ba0e5b",
@@ -141,7 +147,7 @@ const REGION_POOL: Record<string, string[]> = {
   GR: [TRAVEL_PHOTOS.santorini, TRAVEL_PHOTOS.santoriniSunset, TRAVEL_PHOTOS.beach, TRAVEL_PHOTOS.culture],
   US: [TRAVEL_PHOTOS.nyc, TRAVEL_PHOTOS.nycBrooklyn, TRAVEL_PHOTOS.nycCentral, TRAVEL_PHOTOS.night],
   JP: [TRAVEL_PHOTOS.tokyo, TRAVEL_PHOTOS.tokyoShibuya, TRAVEL_PHOTOS.tokyoTemple, TRAVEL_PHOTOS.culture],
-  TH: [TRAVEL_PHOTOS.bangkokTemple, TRAVEL_PHOTOS.bangkokWat, TRAVEL_PHOTOS.phuketBeach, TRAVEL_PHOTOS.beach],
+  TH: [TRAVEL_PHOTOS.bangkokWatArun, TRAVEL_PHOTOS.bangkokWatSunset, TRAVEL_PHOTOS.phuketViewpoint, TRAVEL_PHOTOS.phuketIsland, TRAVEL_PHOTOS.bangkokTemple],
   AE: [TRAVEL_PHOTOS.dubai, TRAVEL_PHOTOS.dubaiMarina, TRAVEL_PHOTOS.night, TRAVEL_PHOTOS.culture],
   DEFAULT: [TRAVEL_PHOTOS.culture, TRAVEL_PHOTOS.europeStreet, TRAVEL_PHOTOS.canal, TRAVEL_PHOTOS.night, TRAVEL_PHOTOS.beach],
 };
@@ -188,8 +194,8 @@ const CITY_HERO_OVERRIDES: Record<string, string> = {
   "US-LAX": TRAVEL_PHOTOS.beach,
   "US-MIA": TRAVEL_PHOTOS.beach,
   "JP-TYO": TRAVEL_PHOTOS.tokyo,
-  "TH-HKT": TRAVEL_PHOTOS.phuketBeach,
-  "TH-BKK": TRAVEL_PHOTOS.bangkokTemple,
+  "TH-HKT": TRAVEL_PHOTOS.phuketViewpoint,
+  "TH-BKK": TRAVEL_PHOTOS.bangkokWatArun,
   "AE-DXB": TRAVEL_PHOTOS.dubai,
   "SG-SIN": TRAVEL_PHOTOS.night,
   "AU-SYD": TRAVEL_PHOTOS.beach,

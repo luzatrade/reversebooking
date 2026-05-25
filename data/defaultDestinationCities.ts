@@ -270,7 +270,7 @@ export const defaultDestinationCities: DefaultDestinationCity[] = [
     cityNameEn: "Bangkok",
     countryNameIt: "Thailandia",
     countryNameEn: "Thailand",
-    imageUrl: unsplashPhoto(TRAVEL_PHOTOS.bangkokTemple),
+    imageUrl: unsplashPhoto(TRAVEL_PHOTOS.bangkokWatArun),
   },
   {
     id: "phuket",
@@ -280,7 +280,7 @@ export const defaultDestinationCities: DefaultDestinationCity[] = [
     cityNameEn: "Phuket",
     countryNameIt: "Thailandia",
     countryNameEn: "Thailand",
-    imageUrl: unsplashPhoto(TRAVEL_PHOTOS.phuketBeach),
+    imageUrl: unsplashPhoto(TRAVEL_PHOTOS.phuketViewpoint),
   },
 ];
 
