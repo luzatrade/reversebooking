@@ -1,5 +1,6 @@
 import { ConsolePageHeader } from "@/components/console/ConsolePageHeader";
 import { DataTable } from "@/components/console/DataTable";
+import { DeleteButton } from "@/components/console/DeleteButton";
 import { StatusBadge } from "@/components/console/StatusBadge";
 import { hotelNamesByIds, listOffers } from "@/lib/admin/data";
 import { formatDate, formatMoney } from "@/lib/console/format";
@@ -26,6 +27,7 @@ export default async function ConsoleOffertePage() {
           { key: "status", label: "Stato" },
           { key: "expires", label: "Scadenza" },
           { key: "created", label: "Creata" },
+          { key: "actions", label: "Azioni" },
         ]}
         rows={offers.map((o) => ({
           id: o.id,
@@ -36,6 +38,7 @@ export default async function ConsoleOffertePage() {
             status: <StatusBadge value={o.status} />,
             expires: formatDate(o.expires_at),
             created: formatDate(o.created_at),
+            actions: <DeleteButton entity="offer" id={o.id} />,
           },
         }))}
       />

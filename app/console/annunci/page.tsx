@@ -1,5 +1,6 @@
 import { ConsolePageHeader } from "@/components/console/ConsolePageHeader";
 import { DataTable } from "@/components/console/DataTable";
+import { DeleteButton } from "@/components/console/DeleteButton";
 import { RequestStatusSelect } from "@/components/console/RequestStatusSelect";
 import { StatusBadge } from "@/components/console/StatusBadge";
 import { listTravelRequests } from "@/lib/admin/data";
@@ -44,7 +45,12 @@ export default async function ConsoleAnnunciPage() {
             budget: formatMoney(Number(r.budget)),
             status: <StatusBadge value={r.status} />,
             expires: formatDate(r.expires_at),
-            actions: <RequestStatusSelect requestId={r.id} current={r.status} />,
+            actions: (
+              <div className="flex items-center gap-2">
+                <RequestStatusSelect requestId={r.id} current={r.status} />
+                <DeleteButton entity="request" id={r.id} />
+              </div>
+            ),
           },
         }))}
       />

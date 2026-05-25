@@ -1,5 +1,6 @@
 import { ConsolePageHeader } from "@/components/console/ConsolePageHeader";
 import { DataTable } from "@/components/console/DataTable";
+import { DeleteButton } from "@/components/console/DeleteButton";
 import { StatusBadge } from "@/components/console/StatusBadge";
 import { isServiceRoleConfigured } from "@/lib/utils/env";
 import { createClient } from "@supabase/supabase-js";
@@ -43,6 +44,7 @@ export default async function ConsoleOnboardingPage() {
           { key: "email", label: "Email" },
           { key: "phone", label: "Telefono" },
           { key: "status", label: "Stato" },
+          { key: "actions", label: "Azioni" },
         ]}
         rows={hotels.map((h) => ({
           id: h.id,
@@ -74,6 +76,7 @@ export default async function ConsoleOnboardingPage() {
               <span className="text-xs text-zinc-400">—</span>
             ),
             status: <StatusBadge value={h.status === "claimed" ? "active" : "pending"} />,
+            actions: <DeleteButton entity="onboarding" id={h.id} />,
           },
         }))}
       />

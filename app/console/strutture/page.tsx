@@ -1,6 +1,8 @@
 import { AccountStatusSelect } from "@/components/console/AccountStatusSelect";
 import { ConsolePageHeader } from "@/components/console/ConsolePageHeader";
 import { DataTable } from "@/components/console/DataTable";
+import { DeleteButton } from "@/components/console/DeleteButton";
+import { ImpersonateButton } from "@/components/console/ImpersonateButton";
 import { StatusBadge } from "@/components/console/StatusBadge";
 import { listHotels } from "@/lib/admin/data";
 import { formatDate } from "@/lib/console/format";
@@ -46,7 +48,11 @@ export default async function ConsoleStrutturePage() {
             status: <StatusBadge value={h.account_status} />,
             created: formatDate(h.created_at),
             actions: (
-              <AccountStatusSelect profileId={h.id} current={h.account_status} kind="hotel" />
+              <div className="flex items-center gap-2">
+                <AccountStatusSelect profileId={h.id} current={h.account_status} kind="hotel" />
+                <ImpersonateButton userId={h.user_id} />
+                <DeleteButton entity="hotel" id={h.id} />
+              </div>
             ),
           },
         }))}

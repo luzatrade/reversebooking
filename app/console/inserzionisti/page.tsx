@@ -1,5 +1,7 @@
 import { ConsolePageHeader } from "@/components/console/ConsolePageHeader";
 import { DataTable } from "@/components/console/DataTable";
+import { DeleteButton } from "@/components/console/DeleteButton";
+import { ImpersonateButton } from "@/components/console/ImpersonateButton";
 import { StatusBadge } from "@/components/console/StatusBadge";
 import { listAdvertisers, profileEmailsByUserIds } from "@/lib/admin/data";
 import { formatDate } from "@/lib/console/format";
@@ -26,6 +28,7 @@ export default async function ConsoleInserzionistiPage() {
           { key: "email", label: "Email account" },
           { key: "contact", label: "Contatto" },
           { key: "created", label: "Registrato" },
+          { key: "actions", label: "Azioni" },
         ]}
         rows={advertisers.map((a) => ({
           id: a.id,
@@ -43,6 +46,12 @@ export default async function ConsoleInserzionistiPage() {
             email: emails.get(a.user_id) ?? "—",
             contact: a.contact_email ?? "—",
             created: formatDate(a.created_at),
+            actions: (
+              <div className="flex items-center gap-2">
+                <ImpersonateButton userId={a.user_id} />
+                <DeleteButton entity="advertiser" id={a.id} />
+              </div>
+            ),
           },
         }))}
       />
