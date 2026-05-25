@@ -142,24 +142,34 @@ export function PublicHotelProfile() {
                 <h2 className="font-semibold">Servizi e contatti</h2>
                 {services.length ? <p className="mt-2 text-sm text-zinc-500">Servizi: {services.join(", ")}</p> : <p className="mt-2 text-sm text-zinc-500">Servizi non indicati.</p>}
                 <div className="mt-4 flex flex-wrap gap-3">
-                  {hotel.public_email ? (
-                    <a
-                      href={`mailto:${hotel.public_email}?subject=${encodeURIComponent(`Richiesta disponibilità — ${hotel.property_name}`)}&body=${encodeURIComponent(`Ciao,\n\nho trovato il vostro annuncio su ${BRAND_NAME} e vorrei chiedervi informazioni sulla disponibilità di ${hotel.property_name}.\n\nPotreste indicarmi tariffe e disponibilità per le date di mio interesse?\n\nGrazie mille!\n`)}`}
-                      className="inline-flex items-center gap-2 rounded-full bg-emerald-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-600"
-                    >
-                      <Mail className="h-4 w-4" /> Email
-                    </a>
-                  ) : null}
-                  {hotel.public_phone ? (
-                    <a
-                      href={`https://wa.me/${hotel.public_phone.replace(/\D/g, "")}?text=${encodeURIComponent(`Ciao! Ho trovato ${hotel.property_name} su ${BRAND_NAME} e vorrei chiedervi la disponibilità. Potreste darmi maggiori info? Grazie!`)}`}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="inline-flex items-center gap-2 rounded-full bg-green-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-green-700"
-                    >
-                      <Phone className="h-4 w-4" /> WhatsApp
-                    </a>
-                  ) : null}
+                  {hotel.public_email ? (() => {
+                    const emailLines = [
+                      "Ciao! Ho trovato " + hotel.property_name + " su " + BRAND_NAME + " \u{1F60A} e vorrei chiedere gentilmente informazioni e disponibilit\u00E0 per le seguenti date:",
+                      "",
+                      "Check-in: ___",
+                      "Check-out: ___",
+                      "Ospiti: ___",
+                      "",
+                      "Resto in attesa di un vostro cortese riscontro.",
+                      "Grazie mille!",
+                    ];
+                    const emailHref = "mailto:" + hotel.public_email + "?subject=" + encodeURIComponent("Richiesta disponibilit\u00E0 \u2014 " + hotel.property_name) + "&body=" + encodeURIComponent(emailLines.join("\n"));
+                    return (
+                      <a href={emailHref} className="inline-flex items-center gap-2 rounded-full bg-emerald-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-600">
+                        <Mail className="h-4 w-4" /> Email
+                      </a>
+                    );
+                  })() : null}
+                  {hotel.public_phone ? (() => {
+                    const waPhone = hotel.public_phone!.replace(/\D/g, "");
+                    const waMsg = "Ciao! Ho trovato " + hotel.property_name + " su " + BRAND_NAME + " \u{1F60A} e vorrei chiedere gentilmente informazioni e disponibilit\u00E0 per le seguenti date: ... Grazie mille!";
+                    const waHref = "https://wa.me/" + waPhone + "?text=" + encodeURIComponent(waMsg);
+                    return (
+                      <a href={waHref} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-green-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-green-700">
+                        <Phone className="h-4 w-4" /> WhatsApp
+                      </a>
+                    );
+                  })() : null}
                 </div>
               </div>
             </div>

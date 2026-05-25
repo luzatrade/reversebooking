@@ -49,12 +49,13 @@ function contactMailHref(hotel: HotelAccount) {
   const name = hotel.property_name || "la vostra struttura";
   const subject = encodeURIComponent("Richiesta disponibilità — " + name);
   const lines = [
-    "Ciao,",
+    "Ciao! Ho trovato " + name + " su " + BRAND_NAME + " \u{1F60A} e vorrei chiedere gentilmente informazioni e disponibilit\u00E0 per le seguenti date:",
     "",
-    "ho trovato il vostro annuncio su " + BRAND_NAME + " e vorrei chiedervi informazioni sulla disponibilità di " + name + ".",
+    "Check-in: ___",
+    "Check-out: ___",
+    "Ospiti: ___",
     "",
-    "Potreste indicarmi tariffe e disponibilità per le date di mio interesse?",
-    "",
+    "Resto in attesa di un vostro cortese riscontro.",
     "Grazie mille!",
   ];
   const body = encodeURIComponent(lines.join("\n"));
@@ -65,7 +66,7 @@ function contactWhatsAppHref(hotel: HotelAccount) {
   const phone = hotel.public_phone.replace(/\D/g, "");
   if (!phone) return null;
   const name = hotel.property_name || "la vostra struttura";
-  const msg = "Ciao! Ho trovato " + name + " su " + BRAND_NAME + " e vorrei chiedervi la disponibilità. Potreste darmi maggiori info? Grazie!";
+  const msg = "Ciao! Ho trovato " + name + " su " + BRAND_NAME + " \u{1F60A} e vorrei chiedere gentilmente informazioni e disponibilit\u00E0 per le seguenti date: ... Grazie mille!";
   return "https://wa.me/" + phone + "?text=" + encodeURIComponent(msg);
 }
 function dashboardHref(viewer: Viewer) { if (viewer.role === "hotel") return "/struttura/dashboard"; if (viewer.role === "advertiser") return "/inserzionista/dashboard"; if (viewer.role === "admin") return "/admin"; return "/login"; }
