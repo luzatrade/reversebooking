@@ -70,7 +70,7 @@ export const defaultDestinationCities: DefaultDestinationCity[] = [
     cityNameEn: "Amalfi Coast",
     countryNameIt: "Italia",
     countryNameEn: "Italy",
-    imageUrl: unsplashPhoto(TRAVEL_PHOTOS.amalfiCoast),
+    imageUrl: unsplashPhoto(TRAVEL_PHOTOS.amalfiPositanoHill),
   },
   {
     id: "cinque-terre",

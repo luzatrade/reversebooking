@@ -29,8 +29,10 @@ export const TRAVEL_PHOTOS: Record<string, string> = {
   // Bologna
   bolognaPiazza: "1564594736846-b28a3de9e6d1",
   // Costiera Amalfitana
-  amalfiCoast: "1534308983496-4fabb1a015ee",
-  amalfiPositano: "1516483638261-f4dbaf036963",
+  amalfiPositanoHill: "1601581875309-fafbf2d3ed3a",
+  amalfiPositanoSea: "1633321702518-7fecdaa69e06",
+  amalfiCoastCliffs: "1599832124677-1ef45f9e4d54",
+  amalfiPositanoColors: "1560703650-ef6b300adfef",
   // Cinque Terre
   cinqueTerre: "1502986549429-7925519d1a23",
   // Sicilia / Taormina
@@ -117,7 +119,7 @@ export function picsumPhoto(seed: string, width = 800, height = 500) {
 
 export const GLOBAL_TRAVEL_FALLBACK = unsplashPhoto(TRAVEL_PHOTOS.culture);
 
-const IT_SOUTH_POOL = [TRAVEL_PHOTOS.amalfiCoast, TRAVEL_PHOTOS.naplesCoast, TRAVEL_PHOTOS.taormina, TRAVEL_PHOTOS.pugliaTrulli, TRAVEL_PHOTOS.sardinia];
+const IT_SOUTH_POOL = [TRAVEL_PHOTOS.amalfiPositanoHill, TRAVEL_PHOTOS.naplesCoast, TRAVEL_PHOTOS.taormina, TRAVEL_PHOTOS.pugliaTrulli, TRAVEL_PHOTOS.sardinia];
 const IT_NORTH_POOL = [TRAVEL_PHOTOS.veniceGrandCanal, TRAVEL_PHOTOS.milanDuomo, TRAVEL_PHOTOS.lakeComo, TRAVEL_PHOTOS.veronaArena, TRAVEL_PHOTOS.bolognaPiazza];
 const IT_CENTER_POOL = [TRAVEL_PHOTOS.florence, TRAVEL_PHOTOS.colosseum, TRAVEL_PHOTOS.cinqueTerre, TRAVEL_PHOTOS.florencePonteVecchio, TRAVEL_PHOTOS.romeTrasteverse];
 
@@ -164,8 +166,8 @@ const CITY_HERO_OVERRIDES: Record<string, string> = {
   "IT-PMO": TRAVEL_PHOTOS.taormina,
   "IT-CTA": TRAVEL_PHOTOS.taormina,
   "IT-TAO": TRAVEL_PHOTOS.taormina,
-  "IT-SOR": TRAVEL_PHOTOS.amalfiCoast,
-  "IT-CAP": TRAVEL_PHOTOS.amalfiPositano,
+  "IT-SOR": TRAVEL_PHOTOS.amalfiPositanoHill,
+  "IT-CAP": TRAVEL_PHOTOS.amalfiPositanoSea,
   "IT-REG": TRAVEL_PHOTOS.beach,
   "IT-BRI": TRAVEL_PHOTOS.pugliaTrulli,
   "IT-LCC": TRAVEL_PHOTOS.pugliaTrulli,
