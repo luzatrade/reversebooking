@@ -154,7 +154,7 @@ export function PublicShowcaseClient() {
         merged.set(request.id, request);
       }
       const { data: registeredHotels } = await supabase.from("hotel_accounts").select("id, property_name, structure_type, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, points_of_interest, services").eq("account_status", "active").eq("subscription_active", true).order("property_name", { ascending: true }).limit(60);
-      const { data: onboardingHotels } = await supabase.from("onboarding_hotels").select("id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url").order("city_name").limit(200);
+      const { data: onboardingHotels } = await supabase.from("onboarding_hotels").select("id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url").order("city_name").limit(1000);
       const mapped = (onboardingHotels || []).map(function mapOnb(h) { return { id: h.id, property_name: h.nome, structure_type: "hotel", country_code: "IT", city_name: h.city_name, city_id: String(h.city_name || "").toLowerCase().replace(/ +/g, "-") + "-it", specific_area: h.indirizzo || null, description: null, public_email: h.email || null, public_phone: h.phone || null, main_photo_url: h.main_photo_url || null, points_of_interest: null, services: null }; });
       const allHotels = [...(registeredHotels || []), ...mapped];
       setAcceptedRequestIds(acceptedIds);
@@ -169,7 +169,7 @@ export function PublicShowcaseClient() {
 
   useEffect(() => { void loadShowcase(); }, []);
 
-  const visibleHotels = useMemo(() => hotels.filter(matchesSelectedCity).slice(0, 8), [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
+  const visibleHotels = useMemo(() => hotels.filter(matchesSelectedCity), [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
   const filteredRequests = useMemo(() => requests.filter(matchesSelectedCity), [requests, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
   const offeredRequestIds = useMemo(() => new Set(offers.map((offer) => offer.travel_request_id)), [offers]);
   const isHotel = viewer.role === "hotel" && Boolean(viewer.hotelAccountId);
