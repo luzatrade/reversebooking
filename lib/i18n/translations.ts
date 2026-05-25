@@ -165,6 +165,8 @@ export const translations = {
       registerStructureType: "Tipologia struttura",
       registerStructureTypeHint:
         "La città e gli altri dati della struttura si completano dopo nel profilo struttura.",
+      registerEmailMissingAt: "L'indirizzo email deve contenere una @",
+      registerEmailInvalidFormat: "Inserisci un indirizzo email valido",
       registerLegalRequired:
         "È necessario accettare Termini e Privacy Policy per registrarsi.",
       registerFailed: "Registrazione non riuscita.",
@@ -1021,6 +1023,8 @@ export const translations = {
       registerStructureType: "Property type",
       registerStructureTypeHint:
         "City and other property details are completed later in the property profile.",
+      registerEmailMissingAt: "The email address must contain an @",
+      registerEmailInvalidFormat: "Please enter a valid email address",
       registerLegalRequired: "You must accept the Terms and Privacy Policy to sign up.",
       registerFailed: "Sign-up failed.",
       registerSuccess:

@@ -37,6 +37,7 @@ export function RegisterForm() {
   const { locale, t } = useLanguage();
   const structureTypeLabels = getStructureTypeLabels(locale);
   const [email, setEmail] = useState("");
+  const [emailTouched, setEmailTouched] = useState(false);
   const [password, setPassword] = useState("");
   const [accountKind, setAccountKind] = useState<AccountKind>("inserzionista");
   const [structureType, setStructureType] = useState<StructureType>("hotel");
@@ -106,7 +107,12 @@ export function RegisterForm() {
     }
   }
 
-  const canSubmit = legalAccepted && email.length > 3 && password.length >= 8;
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+  const emailError = emailTouched && email.length > 0 && !emailRegex.test(email)
+    ? (email.includes("@") ? t.auth.registerEmailInvalidFormat : t.auth.registerEmailMissingAt)
+    : null;
+
+  const canSubmit = legalAccepted && emailRegex.test(email) && password.length >= 8;
 
   return (
     <form onSubmit={onSubmit} className="mx-auto max-w-lg space-y-6 rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
@@ -121,9 +127,11 @@ export function RegisterForm() {
           autoComplete="email"
           required
           value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          className="mt-1 w-full rounded-lg border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 shadow-sm outline-none ring-zinc-400 focus:ring-2 dark:border-zinc-600 dark:bg-zinc-950 dark:text-zinc-50"
+          onChange={(e) => { setEmail(e.target.value); if (!emailTouched) setEmailTouched(true); }}
+          onBlur={() => setEmailTouched(true)}
+          className={`mt-1 w-full rounded-lg border bg-white px-3 py-2 text-sm text-zinc-900 shadow-sm outline-none focus:ring-2 dark:bg-zinc-950 dark:text-zinc-50 ${emailError ? "border-red-400 ring-red-300 dark:border-red-500" : "border-zinc-300 ring-zinc-400 dark:border-zinc-600"}`}
         />
+        {emailError ? <p className="mt-1 text-xs text-red-600 dark:text-red-400">{emailError}</p> : null}
       </div>
 
       <div>
