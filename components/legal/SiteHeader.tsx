@@ -1,23 +1,32 @@
+"use client";
+
 import Link from "next/link";
 import { CurrencySwitcher } from "@/components/currency/CurrencySwitcher";
 import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
+import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { Navbar, navLink } from "@/components/navigation/Navbar";
+import { topbarControlsRowClass } from "@/components/navigation/topbarStyles";
 
 export function SiteHeader() {
+  const { t } = useLanguage();
+
   return (
     <Navbar>
-      <div className="flex flex-wrap items-center justify-end gap-2">
-        <LanguageSwitcher />
-        <CurrencySwitcher />
+      <div className={topbarControlsRowClass}>
+        <LanguageSwitcher compact />
+        <CurrencySwitcher compact />
+        <nav className="flex flex-wrap items-center gap-1 sm:gap-1.5" aria-label="Principale">
+          <Link className={navLink} href="/directory">
+            Strutture
+          </Link>
+          <Link className={navLink} href="/registrazione">
+            {t.site.registration}
+          </Link>
+          <Link className={navLink} href="/contatti">
+            {t.site.contacts}
+          </Link>
+        </nav>
       </div>
-      <nav className="flex w-full flex-wrap items-center justify-end gap-1 sm:w-auto sm:gap-2" aria-label="Principale">
-        <Link className={navLink} href="/registrazione">
-          Registrazione
-        </Link>
-        <Link className={navLink} href="/contatti">
-          Contatti
-        </Link>
-      </nav>
     </Navbar>
   );
 }

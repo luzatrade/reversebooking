@@ -1,19 +1,23 @@
 import type { Metadata } from "next";
 import { RegisterForm } from "@/components/auth/RegisterForm";
+import { getServerTranslations } from "@/lib/i18n/get-translations";
 
-export const metadata: Metadata = {
-  title: "Registrazione",
-  description: "Crea un account inserzionista o struttura ricettiva su HotelsDrop.com.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getServerTranslations();
+  return {
+    title: t.metadata.registrationTitle,
+    description: t.metadata.registrationDescription,
+  };
+}
 
-export default function RegistrazionePage() {
+export default async function RegistrazionePage() {
+  const t = await getServerTranslations();
+
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
       <header>
-        <h1 className="text-3xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">Registrazione</h1>
-        <p className="mt-4 text-base text-zinc-600 dark:text-zinc-400">
-          Compila i campi e accetta i documenti contrattuali per attivare il profilo.
-        </p>
+        <h1 className="text-3xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">{t.metadata.registrationTitle}</h1>
+        <p className="mt-4 text-base text-zinc-600 dark:text-zinc-400">{t.auth.registerPageIntro}</p>
       </header>
       <div className="mt-10">
         <RegisterForm />

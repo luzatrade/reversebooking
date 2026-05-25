@@ -3,26 +3,147 @@ import { NextResponse } from "next/server";
 import { escapeHtml, sendEmailNotification } from "@/lib/notifications/email";
 
 type Body = { requestId?: string };
-function getClient() { const url = process.env.NEXT_PUBLIC_SUPABASE_URL; const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY; if (!url || !key) throw new Error("Supabase non configurato"); return createClient(url, key); }
-function code(value: string | null | undefined) { return value || "RB------"; }
+type HotelRow = {
+  id: string;
+  property_name: string;
+  private_notification_email: string | null;
+  public_email: string | null;
+};
+
+function getClient() {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (!url || !key) throw new Error("Supabase non configurato");
+  return createClient(url, key);
+}
+
+function code(value: string | null | undefined) {
+  return value || "RB------";
+}
+
+function buildCityRequestHtml(travelRequest: {
+  request_code: string | null;
+  city_name: string;
+  preferred_area: string | null;
+  check_in: string;
+  check_out: string;
+  guests_count: number;
+  rooms_count: number;
+}) {
+  const requestCode = code(travelRequest.request_code);
+  return `<p>È stata pubblicata una nuova richiesta nella tua zona.</p><p><strong>Codice richiesta:</strong> ${escapeHtml(requestCode)}</p><p><strong>Città:</strong> ${escapeHtml(travelRequest.city_name)}</p><p><strong>Zona:</strong> ${escapeHtml(travelRequest.preferred_area ?? "Non specificata")}</p><p><strong>Date:</strong> ${escapeHtml(travelRequest.check_in)} → ${escapeHtml(travelRequest.check_out)}</p><p><strong>Ospiti:</strong> ${travelRequest.guests_count} · <strong>Camere:</strong> ${travelRequest.rooms_count}</p>`;
+}
+
+function buildDirectRequestHtml(
+  travelRequest: {
+    request_code: string | null;
+    city_name: string;
+    preferred_area: string | null;
+    check_in: string;
+    check_out: string;
+    guests_count: number;
+    rooms_count: number;
+  },
+  hotelName: string,
+) {
+  const requestCode = code(travelRequest.request_code);
+  return `<p>Un viaggiatore ha inviato una <strong>richiesta diretta</strong> alla tua struttura <strong>${escapeHtml(hotelName)}</strong>.</p><p><strong>Codice richiesta:</strong> ${escapeHtml(requestCode)}</p><p><strong>Città:</strong> ${escapeHtml(travelRequest.city_name)}</p><p><strong>Zona:</strong> ${escapeHtml(travelRequest.preferred_area ?? "Non specificata")}</p><p><strong>Date:</strong> ${escapeHtml(travelRequest.check_in)} → ${escapeHtml(travelRequest.check_out)}</p><p><strong>Ospiti:</strong> ${travelRequest.guests_count} · <strong>Camere:</strong> ${travelRequest.rooms_count}</p>`;
+}
 
 export async function POST(request: Request) {
   let body: Body;
-  try { body = (await request.json()) as Body; } catch { return NextResponse.json({ error: "JSON non valido" }, { status: 400 }); }
+  try {
+    body = (await request.json()) as Body;
+  } catch {
+    return NextResponse.json({ error: "JSON non valido" }, { status: 400 });
+  }
   if (!body.requestId) return NextResponse.json({ error: "requestId obbligatorio" }, { status: 400 });
+
   try {
     const supabase = getClient();
-    const { data: travelRequest, error: requestError } = await supabase.from("travel_requests").select("id, request_code, city_id, city_name, preferred_area, check_in, check_out, guests_count, rooms_count, budget").eq("id", body.requestId).single();
+    const { data: travelRequest, error: requestError } = await supabase
+      .from("travel_requests")
+      .select("id, request_code, city_id, city_name, preferred_area, check_in, check_out, guests_count, rooms_count, budget, target_hotel_account_id")
+      .eq("id", body.requestId)
+      .single();
     if (requestError || !travelRequest) return NextResponse.json({ error: "Richiesta non trovata" }, { status: 404 });
+
     const requestCode = code(travelRequest.request_code);
-    const { data: hotels, error: hotelsError } = await supabase.from("hotel_accounts").select("id, property_name, private_notification_email, public_email").eq("city_id", travelRequest.city_id).eq("account_status", "active").eq("subscription_active", true);
+    const { data: hotels, error: hotelsError } = await supabase
+      .from("hotel_accounts")
+      .select("id, property_name, private_notification_email, public_email")
+      .eq("city_id", travelRequest.city_id)
+      .eq("account_status", "active")
+      .eq("subscription_active", true);
     if (hotelsError) return NextResponse.json({ error: hotelsError.message }, { status: 500 });
-    const hotelRows = hotels ?? [];
-    if (hotelRows.length) {
-      await supabase.from("notifications").insert(hotelRows.map((hotel) => ({ recipient_type: "hotel", recipient_id: hotel.id, travel_request_id: travelRequest.id, title: "Nuova richiesta nella tua zona", message: `Codice ${requestCode} · Nuova richiesta a ${travelRequest.city_name}${travelRequest.preferred_area ? ` · ${travelRequest.preferred_area}` : ""}.`, is_read: false })));
+
+    const hotelRows = (hotels ?? []) as HotelRow[];
+    const targetHotelId = travelRequest.target_hotel_account_id as string | null;
+    let targetHotel: HotelRow | null = null;
+
+    if (targetHotelId) {
+      const { data: directHotel } = await supabase
+        .from("hotel_accounts")
+        .select("id, property_name, private_notification_email, public_email")
+        .eq("id", targetHotelId)
+        .eq("account_status", "active")
+        .eq("subscription_active", true)
+        .maybeSingle();
+      targetHotel = (directHotel as HotelRow | null) ?? null;
     }
-    const html = `<p>È stata pubblicata una nuova richiesta nella tua zona.</p><p><strong>Codice richiesta:</strong> ${escapeHtml(requestCode)}</p><p><strong>Città:</strong> ${escapeHtml(travelRequest.city_name)}</p><p><strong>Zona:</strong> ${escapeHtml(travelRequest.preferred_area ?? "Non specificata")}</p><p><strong>Date:</strong> ${escapeHtml(travelRequest.check_in)} → ${escapeHtml(travelRequest.check_out)}</p><p><strong>Ospiti:</strong> ${travelRequest.guests_count} · <strong>Camere:</strong> ${travelRequest.rooms_count}</p>`;
-    const results = await Promise.all(hotelRows.map((hotel) => sendEmailNotification({ to: hotel.private_notification_email ?? hotel.public_email, subject: `Nuova richiesta ${requestCode} a ${travelRequest.city_name}`, html })));
-    return NextResponse.json({ ok: true, notified: hotelRows.length, results });
-  } catch (err) { return NextResponse.json({ error: err instanceof Error ? err.message : "Errore notifica nuova richiesta" }, { status: 500 }); }
+
+    const notificationRows: Array<Record<string, unknown>> = [];
+    const emailJobs: Array<Promise<unknown>> = [];
+
+    for (const hotel of hotelRows) {
+      if (targetHotel && hotel.id === targetHotel.id) continue;
+      notificationRows.push({
+        recipient_type: "hotel",
+        recipient_id: hotel.id,
+        travel_request_id: travelRequest.id,
+        title: "Nuova richiesta nella tua zona",
+        message: `Codice ${requestCode} · Nuova richiesta a ${travelRequest.city_name}${travelRequest.preferred_area ? ` · ${travelRequest.preferred_area}` : ""}.`,
+        is_read: false,
+      });
+      emailJobs.push(
+        sendEmailNotification({
+          to: hotel.private_notification_email ?? hotel.public_email,
+          subject: `Nuova richiesta ${requestCode} a ${travelRequest.city_name}`,
+          html: buildCityRequestHtml(travelRequest),
+        }),
+      );
+    }
+
+    if (targetHotel) {
+      notificationRows.push({
+        recipient_type: "hotel",
+        recipient_id: targetHotel.id,
+        travel_request_id: travelRequest.id,
+        title: "Richiesta diretta alla tua struttura",
+        message: `Codice ${requestCode} · Un viaggiatore ha inviato una richiesta direttamente a ${targetHotel.property_name}.`,
+        is_read: false,
+      });
+      emailJobs.push(
+        sendEmailNotification({
+          to: targetHotel.private_notification_email ?? targetHotel.public_email,
+          subject: `Richiesta diretta ${requestCode} · ${targetHotel.property_name}`,
+          html: buildDirectRequestHtml(travelRequest, targetHotel.property_name),
+        }),
+      );
+    }
+
+    if (notificationRows.length) {
+      await supabase.from("notifications").insert(notificationRows);
+    }
+
+    const results = await Promise.all(emailJobs);
+    return NextResponse.json({
+      ok: true,
+      notified: notificationRows.length,
+      directHotel: targetHotel?.id ?? null,
+      results,
+    });
+  } catch (err) {
+    return NextResponse.json({ error: err instanceof Error ? err.message : "Errore notifica nuova richiesta" }, { status: 500 });
+  }
 }

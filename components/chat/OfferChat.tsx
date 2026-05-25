@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { ArrowLeft, Send } from "lucide-react";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
+import { useLanguage } from "@/components/i18n/LanguageProvider";
 import type { UserRole } from "@/types/app";
 
 type ChatMessage = {
@@ -17,8 +18,8 @@ type ChatMessage = {
 
 type OfferInfo = { id: string; status: string };
 
-function formatDateTime(value: string) {
-  return new Intl.DateTimeFormat("it-IT", {
+function formatDateTime(value: string, locale: string) {
+  return new Intl.DateTimeFormat(locale === "en" ? "en-GB" : "it-IT", {
     day: "2-digit",
     month: "2-digit",
     year: "numeric",
@@ -28,6 +29,8 @@ function formatDateTime(value: string) {
 }
 
 export function OfferChat() {
+  const { t, locale } = useLanguage();
+  const c = t.chat;
   const params = useParams<{ offerId: string }>();
   const offerId = params.offerId;
   const [userId, setUserId] = useState<string | null>(null);
@@ -72,7 +75,7 @@ export function OfferChat() {
       const { data: authData, error: authError } = await supabase.auth.getUser();
 
       if (authError || !authData.user) {
-        setError("Devi effettuare il login per aprire la chat.");
+        setError(c.loginRequired);
         return;
       }
 
@@ -86,12 +89,12 @@ export function OfferChat() {
         .single();
 
       if (offerError || !offerData) {
-        setError("Offerta non trovata.");
+        setError(c.offerNotFound);
         return;
       }
 
       if (offerData.status !== "accepted") {
-        setError("La chat si apre solo dopo l’accettazione dell’offerta.");
+        setError(c.chatAfterAccept);
         return;
       }
 
@@ -110,7 +113,7 @@ export function OfferChat() {
 
       setMessages((messageData ?? []) as ChatMessage[]);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Errore durante il caricamento della chat.");
+      setError(err instanceof Error ? err.message : c.errorLoad);
     } finally {
       setLoading(false);
     }
@@ -145,7 +148,7 @@ export function OfferChat() {
       setBody("");
       await loadChat();
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Errore durante l’invio del messaggio.");
+      setError(err instanceof Error ? err.message : c.errorSend);
     } finally {
       setSending(false);
     }
@@ -153,28 +156,28 @@ export function OfferChat() {
 
   return (
     <div className="space-y-6">
-      <Link href={role === "hotel" ? "/struttura/dashboard" : "/inserzionista/dashboard"} className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white">
-        <ArrowLeft className="h-4 w-4" /> Torna alla dashboard
+      <Link href={role === "hotel" ? "/struttura/dashboard" : "/inserzionista/dashboard"} className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950">
+        <ArrowLeft className="h-4 w-4" /> {c.backToDashboard}
       </Link>
 
-      <section className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
-        <p className="text-sm font-medium uppercase tracking-wide text-emerald-700">Chat offerta accettata</p>
-        <h1 className="mt-2 text-3xl font-semibold tracking-tight">Conversazione</h1>
+      <section className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
+        <p className="text-sm font-medium uppercase tracking-wide text-emerald-700">{c.offerAcceptedLabel}</p>
+        <h1 className="mt-2 text-3xl font-semibold tracking-tight">{c.conversation}</h1>
       </section>
 
       {error ? <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}
 
-      <section className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
+      <section className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
         <div className="max-h-[520px] space-y-3 overflow-y-auto pr-2">
-          {loading ? <p className="text-sm text-zinc-500">Caricamento chat...</p> : null}
-          {!loading && !error && messages.length === 0 ? <p className="text-sm text-zinc-500">Nessun messaggio ancora.</p> : null}
+          {loading ? <p className="text-sm text-zinc-500">{c.loading}</p> : null}
+          {!loading && !error && messages.length === 0 ? <p className="text-sm text-zinc-500">{c.noMessagesYet}</p> : null}
           {messages.map((message) => {
             const mine = message.sender_id === userId;
             return (
               <div key={message.id} className={`flex ${mine ? "justify-end" : "justify-start"}`}>
-                <div className={`max-w-[78%] rounded-2xl p-4 text-sm ${mine ? "bg-zinc-950 text-white dark:bg-white dark:text-zinc-950" : "bg-zinc-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-100"}`}>
+                <div className={`max-w-[78%] rounded-2xl p-4 text-sm ${mine ? "bg-zinc-950 text-white" : "bg-zinc-100 text-zinc-800"}`}>
                   <p>{message.body}</p>
-                  <p className="mt-2 text-xs opacity-70">{message.sender_role === "hotel" ? "Struttura" : "Inserzionista"} · {formatDateTime(message.created_at)}</p>
+                  <p className="mt-2 text-xs opacity-70">{message.sender_role === "hotel" ? c.roleHotel : c.roleAdvertiser} · {formatDateTime(message.created_at, locale)}</p>
                 </div>
               </div>
             );
@@ -182,9 +185,9 @@ export function OfferChat() {
         </div>
 
         <form onSubmit={sendMessage} className="mt-5 flex gap-3">
-          <input value={body} onChange={(event) => setBody(event.target.value)} placeholder="Scrivi un messaggio..." className="w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" />
-          <button disabled={sending || !body.trim() || Boolean(error)} type="submit" className="inline-flex items-center gap-2 rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white disabled:opacity-60 dark:bg-white dark:text-zinc-950">
-            <Send className="h-4 w-4" /> Invia
+          <input value={body} onChange={(event) => setBody(event.target.value)} placeholder={c.writeMessage} className="w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm" />
+          <button disabled={sending || !body.trim() || Boolean(error)} type="submit" className="inline-flex items-center gap-2 rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white disabled:opacity-60">
+            <Send className="h-4 w-4" /> {c.send}
           </button>
         </form>
       </section>

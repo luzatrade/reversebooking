@@ -1,6 +1,7 @@
 "use client";
 
 import { createContext, ReactNode, useContext, useEffect, useMemo, useState } from "react";
+import { LOCALE_COOKIE } from "@/lib/i18n/cookie";
 import { Locale, supportedLocales, translations } from "@/lib/i18n/translations";
 
 type TranslationValue = (typeof translations)[Locale];
@@ -15,22 +16,20 @@ const LanguageContext = createContext<LanguageContextValue | null>(null);
 
 function getInitialLocale(): Locale {
   if (typeof window === "undefined") return "it";
-  const saved = window.localStorage.getItem("reversebooking-locale");
+  const saved = window.localStorage.getItem(LOCALE_COOKIE);
   if (saved && supportedLocales.includes(saved as Locale)) return saved as Locale;
-  const browserLanguage = window.navigator.language.toLowerCase();
-  return browserLanguage.startsWith("en") ? "en" : "it";
+  return "it";
 }
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>("it");
-
-  useEffect(() => {
-    setLocaleState(getInitialLocale());
-  }, []);
+  const [locale, setLocaleState] = useState<Locale>(() =>
+    typeof window === "undefined" ? "it" : getInitialLocale(),
+  );
 
   const setLocale = (nextLocale: Locale) => {
     setLocaleState(nextLocale);
-    window.localStorage.setItem("reversebooking-locale", nextLocale);
+    window.localStorage.setItem(LOCALE_COOKIE, nextLocale);
+    document.cookie = `${LOCALE_COOKIE}=${nextLocale}; path=/; max-age=31536000; SameSite=Lax`;
     document.documentElement.lang = nextLocale;
   };
 

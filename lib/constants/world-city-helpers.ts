@@ -41,6 +41,10 @@ export function getCitiesByCountry(countryCode: string) {
     .sort((a, b) => a.city_name.localeCompare(b.city_name));
 }
 
+export function emptyWorldCity(): WorldCity {
+  return { label: "", country_code: "", country_name: "", city_name: "", city_id: "" };
+}
+
 export function createWorldCity(countryCode: string, cityName: string, countryName?: string): WorldCity {
   const country = getAllCountries().find((item) => item.country_code === countryCode) ?? getAllCountries()[0];
   const cleanCityName = cityName.trim();
