@@ -3,6 +3,7 @@ import { buildCuratedSlides, shouldPreferCuratedPack } from "@/lib/destination-s
 import { geocodeCity, formatLatLng, formatNearQuery } from "@/lib/foursquare/geocode";
 import { isFoursquareConfigured, placeToPhotoSlide, searchPlaces, type FoursquarePlace } from "@/lib/foursquare/client";
 import { fetchWikipediaCitySlides } from "@/lib/destination-slider/wikipediaPhotos";
+import { isPexelsConfigured, searchCityPhotos } from "@/lib/pexels/client";
 import type { DestinationSliderSlide } from "@/types/destination-slider";
 
 const LANDMARK_CATEGORY_IDS = "16000,10027,16032,16046,16026";
@@ -145,6 +146,19 @@ export async function buildFocusSlides(input: FocusInput, locale: "it" | "en" = 
 
   const merged = dedupeSlides([...unique, ...(await curated())]).slice(0, MAX_SLIDES);
   if (merged.length > 0) return merged;
+
+  if (isPexelsConfigured()) {
+    const pexelsUrls = await searchCityPhotos(input.cityName, MAX_SLIDES);
+    if (pexelsUrls.length > 0) {
+      return pexelsUrls.map((url, i) => ({
+        id: `pexels-${i}-${input.cityName.slice(0, 20).replace(/\W+/g, "-")}`,
+        title: input.cityName,
+        photoUrl: url,
+        kind: "generic" as const,
+        hint: "Photo from Pexels",
+      }));
+    }
+  }
 
   return curated();
 }
