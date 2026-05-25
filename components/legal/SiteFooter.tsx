@@ -1,14 +1,10 @@
-"use client";
-
 import Link from "next/link";
-import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { company, formatLegalAddress } from "@/lib/legal/company";
 
 const linkClass =
   "text-zinc-600 underline-offset-4 hover:text-zinc-900 hover:underline dark:text-zinc-400 dark:hover:text-zinc-100";
 
 export function SiteFooter() {
-  const { t } = useLanguage();
   const fullAddress = formatLegalAddress();
 
   return (
@@ -18,35 +14,33 @@ export function SiteFooter() {
           <div>
             <p className="text-sm font-semibold text-zinc-900 dark:text-zinc-50">{company.companyName}</p>
             <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">{company.businessName}</p>
-            <p className="mt-1 text-xs text-zinc-500">
-              {t.site.operatedBy} {company.legalEntityName}
-            </p>
+            <p className="mt-1 text-xs text-zinc-500">Operato da {company.legalEntityName}</p>
           </div>
           <div className="text-sm text-zinc-600 dark:text-zinc-400">
             <p>
-              <span className="font-medium text-zinc-800 dark:text-zinc-200">{t.site.vat} </span>
+              <span className="font-medium text-zinc-800 dark:text-zinc-200">P. IVA / C.F.: </span>
               {company.vatNumber}
             </p>
             <p className="mt-2">
-              <span className="font-medium text-zinc-800 dark:text-zinc-200">{t.site.headquarters} </span>
+              <span className="font-medium text-zinc-800 dark:text-zinc-200">Sede legale: </span>
               {fullAddress}
             </p>
           </div>
           <div className="text-sm text-zinc-600 dark:text-zinc-400">
             <p>
-              <span className="font-medium text-zinc-800 dark:text-zinc-200">{t.site.support} </span>
+              <span className="font-medium text-zinc-800 dark:text-zinc-200">Supporto: </span>
               <a className={linkClass} href={`mailto:${company.supportEmail}`}>
                 {company.supportEmail}
               </a>
             </p>
             <p className="mt-1">
-              <span className="font-medium text-zinc-800 dark:text-zinc-200">{t.common.pec} </span>
+              <span className="font-medium text-zinc-800 dark:text-zinc-200">PEC: </span>
               <a className={linkClass} href={`mailto:${company.pecEmail}`}>
                 {company.pecEmail}
               </a>
             </p>
             <p className="mt-1">
-              <span className="font-medium text-zinc-800 dark:text-zinc-200">{t.site.phone} </span>
+              <span className="font-medium text-zinc-800 dark:text-zinc-200">Tel.: </span>
               <a className={linkClass} href={`tel:${company.phone.replace(/\s/g, "")}`}>
                 {company.phone}
               </a>
@@ -55,29 +49,29 @@ export function SiteFooter() {
         </div>
 
         <nav
-          aria-label={t.site.legalLinksAria}
+          aria-label="Link legali"
           className="flex flex-wrap gap-x-4 gap-y-2 border-t border-zinc-200 pt-6 text-sm dark:border-zinc-800"
         >
           <Link className={linkClass} href="/note-legali">
-            {t.site.legalNav.legalNotice}
+            Note legali
           </Link>
           <Link className={linkClass} href="/privacy-policy">
-            {t.site.legalNav.privacy}
+            Privacy
           </Link>
           <Link className={linkClass} href="/cookie-policy">
-            {t.site.legalNav.cookies}
+            Cookie
           </Link>
           <Link className={linkClass} href="/termini-e-condizioni">
-            {t.site.legalNav.terms}
+            Termini
           </Link>
           <Link className={linkClass} href="/condizioni-abbonamento">
-            {t.site.legalNav.subscription}
+            Abbonamento
           </Link>
           <Link className={linkClass} href="/contatti">
-            {t.site.contacts}
+            Contatti
           </Link>
           <Link className={linkClass} href="/struttura">
-            {t.site.structureArea}
+            Area struttura
           </Link>
         </nav>
 

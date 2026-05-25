@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter, Poppins } from "next/font/google";
+import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import { FloatingChatWidget } from "@/components/chat/FloatingChatWidget";
 import { CookieBanner } from "@/components/legal/CookieBanner";
 import { LanguageProvider } from "@/components/i18n/LanguageProvider";
-import { getServerTranslations } from "@/lib/i18n/get-translations";
-import { getAppUrl } from "@/lib/legal/company";
+import { company, getAppUrl } from "@/lib/legal/company";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,12 +14,6 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
-});
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  weight: ["500", "600"],
 });
 
 const poppins = Poppins({
@@ -35,17 +28,15 @@ export const viewport = {
   viewportFit: "cover",
 };
 
-export async function generateMetadata(): Promise<Metadata> {
-  const t = await getServerTranslations();
-  return {
-    metadataBase: new URL(getAppUrl()),
-    title: {
-      default: t.metadata.siteTitleDefault,
-      template: t.metadata.siteTitleTemplate,
-    },
-    description: t.metadata.siteDescription,
-  };
-}
+export const metadata: Metadata = {
+  metadataBase: new URL(getAppUrl()),
+  title: {
+    default: `${company.companyName} — Richieste di soggiorno e offerte`,
+    template: `%s · ${company.companyName}`,
+  },
+  description:
+    "Metti in contatto inserzionisti e strutture ricettive: annunci di richiesta di soggiorno e risposte con offerte dedicate.",
+};
 
 export default function RootLayout({
   children,
@@ -55,8 +46,7 @@ export default function RootLayout({
   return (
     <html
       lang="it"
-      className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${poppins.variable} h-full antialiased`}
-      style={{ colorScheme: "light" }}
+      className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col overflow-x-hidden bg-zinc-50 text-zinc-900">
         <LanguageProvider>

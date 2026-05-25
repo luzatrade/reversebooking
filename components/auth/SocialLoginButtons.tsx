@@ -1,18 +1,17 @@
 "use client";
 
 import { useState } from "react";
-import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 
 type Provider = "google" | "apple" | "azure";
 
+const labels: Record<Provider, string> = {
+  google: "Continua con Google",
+  apple: "Continua con Apple",
+  azure: "Continua con Microsoft",
+};
+
 export function SocialLoginButtons() {
-  const { t } = useLanguage();
-  const labels: Record<Provider, string> = {
-    google: t.auth.socialGoogle,
-    apple: t.auth.socialApple,
-    azure: t.auth.socialMicrosoft,
-  };
   const [loading, setLoading] = useState<Provider | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -28,7 +27,7 @@ export function SocialLoginButtons() {
       });
       if (signInError) setError(signInError.message);
     } catch (err) {
-      setError(err instanceof Error ? err.message : t.auth.socialUnavailable);
+      setError(err instanceof Error ? err.message : "Accesso social non disponibile.");
     } finally {
       setLoading(null);
     }
@@ -42,9 +41,9 @@ export function SocialLoginButtons() {
           type="button"
           onClick={() => login(provider)}
           disabled={Boolean(loading)}
-          className="w-full rounded-full border border-zinc-300 px-5 py-3 text-sm font-semibold transition hover:bg-zinc-50 disabled:opacity-60"
+          className="w-full rounded-full border border-zinc-300 px-5 py-3 text-sm font-semibold transition hover:bg-zinc-50 disabled:opacity-60 dark:border-zinc-700 dark:hover:bg-zinc-800"
         >
-          {loading === provider ? t.auth.socialOpening : labels[provider]}
+          {loading === provider ? "Apertura..." : labels[provider]}
         </button>
       ))}
       {error ? <div className="rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">{error}</div> : null}

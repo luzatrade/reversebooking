@@ -120,7 +120,6 @@ create table if not exists travel_requests (
   visible_contact_website text,
   status request_status not null default 'active',
   expires_at timestamptz not null,
-  target_hotel_account_id uuid references hotel_accounts(id) on delete set null,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
   constraint check_dates check (check_out > check_in)

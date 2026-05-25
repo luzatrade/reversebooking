@@ -3,8 +3,6 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { BellRing } from "lucide-react";
-import { useLanguage } from "@/components/i18n/LanguageProvider";
-import { formatMessage } from "@/lib/i18n/format";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 
 type AdvertiserProfile = { id: string };
@@ -26,15 +24,8 @@ function countByText(notifications: NotificationRow[], words: string[]) {
 }
 
 export function HomeAdvertiserAlerts() {
-  const { t } = useLanguage();
   const router = useRouter();
-  const [state, setState] = useState<AlertState>({
-    isAdvertiser: false,
-    advertiserId: null,
-    newOffers: 0,
-    chatMessages: 0,
-    acceptedOrRejected: 0,
-  });
+  const [state, setState] = useState<AlertState>({ isAdvertiser: false, advertiserId: null, newOffers: 0, chatMessages: 0, acceptedOrRejected: 0 });
   const [loading, setLoading] = useState(true);
   const [marking, setMarking] = useState(false);
 
@@ -48,16 +39,12 @@ export function HomeAdvertiserAlerts() {
       const { data: profile } = await supabase.from("profiles").select("role").eq("user_id", authData.user.id).maybeSingle();
       if (profile?.role !== "advertiser") return;
 
-      const { data: advertiser } = await supabase
-        .from("advertiser_profiles")
-        .select("id")
-        .eq("user_id", authData.user.id)
-        .maybeSingle();
+      const { data: advertiser } = await supabase.from("advertiser_profiles").select("id").eq("user_id", authData.user.id).maybeSingle();
       if (!advertiser?.id) return;
       const typedAdvertiser = advertiser as AdvertiserProfile;
 
       const { data: ownRequests } = await supabase.from("travel_requests").select("id").eq("advertiser_id", typedAdvertiser.id);
-      const requestIds = (ownRequests ?? []).map((request: { id: string }) => request.id);
+      const requestIds = (ownRequests ?? []).map((request) => request.id);
       if (!requestIds.length) {
         setState({ isAdvertiser: true, advertiserId: typedAdvertiser.id, newOffers: 0, chatMessages: 0, acceptedOrRejected: 0 });
         return;
@@ -74,36 +61,26 @@ export function HomeAdvertiserAlerts() {
       setState({
         isAdvertiser: true,
         advertiserId: typedAdvertiser.id,
-        newOffers: countByText(rows, ["nuova offerta", "new offer"]),
-        chatMessages: countByText(rows, ["nuovo messaggio", "new message"]),
-        acceptedOrRejected: countByText(rows, ["accettato", "rifiutato", "accepted", "rejected"]),
+        newOffers: countByText(rows, ["nuova offerta"]),
+        chatMessages: countByText(rows, ["nuovo messaggio"]),
+        acceptedOrRejected: countByText(rows, ["accettato", "rifiutato"]),
       });
     } finally {
       setLoading(false);
     }
   }
 
-  useEffect(() => {
-    void loadAlerts();
-  }, []);
+  useEffect(() => { void loadAlerts(); }, []);
 
   async function openDashboardAndMarkRead() {
-    if (!state.advertiserId) {
-      router.push("/inserzionista/dashboard");
-      return;
-    }
+    if (!state.advertiserId) { router.push("/inserzionista/dashboard"); return; }
     setMarking(true);
     try {
       const supabase = createBrowserSupabaseClient();
       const { data: ownRequests } = await supabase.from("travel_requests").select("id").eq("advertiser_id", state.advertiserId);
-      const requestIds = (ownRequests ?? []).map((request: { id: string }) => request.id);
+      const requestIds = (ownRequests ?? []).map((request) => request.id);
       if (requestIds.length) {
-        await supabase
-          .from("notifications")
-          .update({ is_read: true })
-          .eq("recipient_type", "advertiser")
-          .eq("is_read", false)
-          .in("travel_request_id", requestIds);
+        await supabase.from("notifications").update({ is_read: true }).eq("recipient_type", "advertiser").eq("is_read", false).in("travel_request_id", requestIds);
       }
       setState((current) => ({ ...current, newOffers: 0, chatMessages: 0, acceptedOrRejected: 0 }));
       router.push("/inserzionista/dashboard");
@@ -122,38 +99,19 @@ export function HomeAdvertiserAlerts() {
         <button type="button" onClick={openDashboardAndMarkRead} className="flex items-start gap-3 text-left">
           <div className="relative rounded-full bg-red-600 p-2 text-white shadow-sm">
             <BellRing className="h-5 w-5" />
-            <span className="absolute -right-1 -top-1 rounded-full bg-zinc-950 px-1.5 py-0.5 text-[10px] font-bold text-white">
-              {totalAlerts}
-            </span>
+            <span className="absolute -right-1 -top-1 rounded-full bg-zinc-950 px-1.5 py-0.5 text-[10px] font-bold text-white">{totalAlerts}</span>
           </div>
           <div>
-            <p className="text-sm font-semibold">{t.alerts.advertiserBell}</p>
+            <p className="text-sm font-semibold">Campanello inserzionista</p>
             <div className="mt-2 flex flex-wrap gap-2 text-sm">
-              {state.newOffers > 0 ? (
-                <span className="rounded-full bg-white px-3 py-1 font-medium shadow-sm dark:bg-zinc-900">
-                  {formatMessage(t.alerts.advertiserNewOffers, { count: state.newOffers })}
-                </span>
-              ) : null}
-              {state.chatMessages > 0 ? (
-                <span className="rounded-full bg-white px-3 py-1 font-medium shadow-sm dark:bg-zinc-900">
-                  {formatMessage(t.alerts.advertiserNewChat, { count: state.chatMessages })}
-                </span>
-              ) : null}
-              {state.acceptedOrRejected > 0 ? (
-                <span className="rounded-full bg-white px-3 py-1 font-medium shadow-sm dark:bg-zinc-900">
-                  {formatMessage(t.alerts.advertiserOfferUpdates, { count: state.acceptedOrRejected })}
-                </span>
-              ) : null}
+              {state.newOffers > 0 ? <span className="rounded-full bg-white px-3 py-1 font-medium shadow-sm dark:bg-zinc-900">{state.newOffers} nuove offerte ricevute</span> : null}
+              {state.chatMessages > 0 ? <span className="rounded-full bg-white px-3 py-1 font-medium shadow-sm dark:bg-zinc-900">{state.chatMessages} nuovi messaggi chat</span> : null}
+              {state.acceptedOrRejected > 0 ? <span className="rounded-full bg-white px-3 py-1 font-medium shadow-sm dark:bg-zinc-900">{state.acceptedOrRejected} aggiornamenti offerta</span> : null}
             </div>
           </div>
         </button>
-        <button
-          type="button"
-          onClick={openDashboardAndMarkRead}
-          disabled={marking}
-          className="rounded-full bg-red-600 px-5 py-3 text-center text-sm font-semibold text-white hover:bg-red-700 disabled:opacity-60"
-        >
-          {marking ? t.common.updating : t.alerts.advertiserGoToOffers}
+        <button type="button" onClick={openDashboardAndMarkRead} disabled={marking} className="rounded-full bg-red-600 px-5 py-3 text-center text-sm font-semibold text-white hover:bg-red-700 disabled:opacity-60">
+          {marking ? "Aggiornamento..." : "Vai alle offerte"}
         </button>
       </div>
     </section>
