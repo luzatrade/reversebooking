@@ -6,6 +6,7 @@ type Body = {
   email?: string;
   password?: string;
   accountKind?: "inserzionista" | "struttura";
+  structureType?: string;
   legalAccepted?: boolean;
   termsAccepted?: boolean;
   privacyAccepted?: boolean;
@@ -115,30 +116,78 @@ export async function POST(request: Request) {
   }
 
   if (role === "hotel") {
-    const { error: hotelError } = await userClient.from("hotel_accounts").upsert(
-      {
-        user_id: user.id,
-        structure_type: "hotel",
-        property_name: "Struttura test",
-        cin_code: `TEST-${user.id.slice(0, 8)}`,
-        description: "Profilo struttura creato automaticamente. Da completare nel pannello struttura.",
-        full_address: "Indirizzo da completare",
-        country_code: "IT",
-        country_name: "Italia",
-        city_name: "Verona",
-        city_id: "3164527",
-        specific_area: "Centro",
-        rooms_quantity: 1,
-        private_notification_email: email,
-        subscription_status: "active",
-        subscription_active: true,
-        account_status: "active",
-      },
-      { onConflict: "user_id" },
-    );
+    const serviceUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+    let onboardingMatch: Record<string, unknown> | null = null;
+
+    if (serviceUrl && serviceKey) {
+      const adminClient = createClient(serviceUrl, serviceKey, { auth: { persistSession: false } });
+      const { data: matchData } = await adminClient
+        .from("onboarding_hotels")
+        .select("id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url")
+        .eq("email", email)
+        .maybeSingle();
+      onboardingMatch = matchData;
+    }
+
+    const hotelData = onboardingMatch
+      ? {
+          user_id: user.id,
+          structure_type: body.structureType ?? "hotel",
+          property_name: onboardingMatch.nome as string,
+          cin_code: `ONB-${user.id.slice(0, 8)}`,
+          description: null,
+          full_address: (onboardingMatch.indirizzo as string) || (onboardingMatch.city_name as string),
+          country_code: "IT",
+          country_name: "Italia",
+          city_name: onboardingMatch.city_name as string,
+          city_id: String(onboardingMatch.city_name as string).toLowerCase().replace(/ +/g, "-") + "-it",
+          specific_area: onboardingMatch.indirizzo as string | null,
+          rooms_quantity: 1,
+          private_notification_email: email,
+          public_email: onboardingMatch.email as string | null,
+          public_phone: onboardingMatch.phone as string | null,
+          main_photo_url: onboardingMatch.main_photo_url as string | null,
+          google_maps_url: onboardingMatch.google_maps_url as string | null,
+          subscription_status: "active",
+          subscription_active: true,
+          account_status: "active",
+        }
+      : {
+          user_id: user.id,
+          structure_type: body.structureType ?? "hotel",
+          property_name: "Nuova struttura",
+          cin_code: `NEW-${user.id.slice(0, 8)}`,
+          description: null as string | null,
+          full_address: "Indirizzo da completare",
+          country_code: "IT",
+          country_name: "Italia",
+          city_name: "Da completare",
+          city_id: "",
+          specific_area: null as string | null,
+          rooms_quantity: 1,
+          private_notification_email: email,
+          public_email: null as string | null,
+          public_phone: null as string | null,
+          main_photo_url: null as string | null,
+          google_maps_url: null as string | null,
+          subscription_status: "active",
+          subscription_active: true,
+          account_status: "active",
+        };
+
+    const { error: hotelError } = await userClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
 
     if (hotelError) {
       return NextResponse.json({ error: hotelError.message, detail: "Profilo struttura non creato." }, { status: 500 });
+    }
+
+    if (onboardingMatch && serviceUrl && serviceKey) {
+      const adminClient = createClient(serviceUrl, serviceKey, { auth: { persistSession: false } });
+      await adminClient
+        .from("onboarding_hotels")
+        .update({ status: "claimed" })
+        .eq("id", onboardingMatch.id as string);
     }
   } else {
     const { error: advertiserError } = await userClient.from("advertiser_profiles").upsert(
