@@ -172,13 +172,5 @@ export async function POST(request: Request) {
     user_agent: userAgent,
   });
 
-  return NextResponse.json({
-    ok: true,
-    role,
-    userId: user.id,
-    session: {
-      access_token: session.access_token,
-      refresh_token: session.refresh_token,
-    },
-  });
+  return NextResponse.json({ ok: true, role, userId: user.id });
 }

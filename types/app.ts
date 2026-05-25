@@ -22,7 +22,7 @@ export type SubscriptionStatus =
   | "unpaid"
   | "canceled";
 
-export type AccountStatus = "pending_verification" | "active" | "paused" | "suspended" | "banned";
+export type AccountStatus = "pending_verification" | "active" | "suspended" | "banned";
 
 export type PreferredStructureType = "all" | StructureType;
 
