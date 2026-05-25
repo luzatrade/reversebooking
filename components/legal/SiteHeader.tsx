@@ -11,6 +11,9 @@ export function SiteHeader() {
         <CurrencySwitcher />
       </div>
       <nav className="flex w-full flex-wrap items-center justify-end gap-1 sm:w-auto sm:gap-2" aria-label="Principale">
+        <Link className={navLink} href="/directory">
+          Strutture
+        </Link>
         <Link className={navLink} href="/registrazione">
           Registrazione
         </Link>
