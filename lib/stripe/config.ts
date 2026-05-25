@@ -7,10 +7,7 @@ export function getStripe() {
     throw new Error("Missing STRIPE_SECRET_KEY");
   }
 
-  return new Stripe(secretKey, {
-    apiVersion: "2025-02-24.acacia",
-    typescript: true,
-  });
+  return new Stripe(secretKey, { typescript: true });
 }
 
 export const stripePriceIds = {

@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
+import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { COOKIE_POLICY_VERSION } from "@/lib/legal/company";
 
 export const COOKIE_STORAGE_KEY = "reverse_booking_cookie_consent_v1";
@@ -30,6 +31,7 @@ function readStored(): StoredCookieConsent | null {
 }
 
 export function CookieBanner() {
+  const { t } = useLanguage();
   const [mounted, setMounted] = useState(false);
   const [visible, setVisible] = useState(false);
   const [customOpen, setCustomOpen] = useState(false);
@@ -94,21 +96,21 @@ export function CookieBanner() {
                 setCustomOpen(true);
               }}
             >
-              Personalizza
+              {t.cookie.customize}
             </button>
             <button
               type="button"
               className="rounded-lg border border-zinc-300 bg-white px-4 py-2.5 text-sm font-medium text-zinc-900 shadow-sm transition hover:bg-zinc-50 dark:border-zinc-600 dark:bg-zinc-900 dark:text-zinc-50 dark:hover:bg-zinc-800"
               onClick={() => persist(false, false)}
             >
-              Rifiuta non necessari
+              {t.cookie.rejectNonEssential}
             </button>
             <button
               type="button"
               className="rounded-lg bg-zinc-900 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-zinc-800 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
               onClick={() => persist(true, true)}
             >
-              Accetta tutti
+              {t.cookie.acceptAll}
             </button>
           </div>
         </div>
@@ -119,6 +121,8 @@ export function CookieBanner() {
           setPrefs={setPrefs}
           onClose={() => setCustomOpen(false)}
           onSave={() => persist(prefs.preferences, prefs.analytics)}
+          cancelLabel={t.cookie.cancel}
+          saveLabel={t.cookie.savePreferences}
         />
       ) : null}
     </>
@@ -130,11 +134,15 @@ function CookieCustomizeModal({
   setPrefs,
   onClose,
   onSave,
+  cancelLabel,
+  saveLabel,
 }: {
   prefs: { preferences: boolean; analytics: boolean };
   setPrefs: (p: { preferences: boolean; analytics: boolean }) => void;
   onClose: () => void;
   onSave: () => void;
+  cancelLabel: string;
+  saveLabel: string;
 }) {
   return (
     <div className="fixed inset-0 z-[60] flex items-end justify-center bg-black/40 p-4 sm:items-center">
@@ -192,14 +200,14 @@ function CookieCustomizeModal({
             className="rounded-lg border border-zinc-300 px-4 py-2 text-sm font-medium text-zinc-800 hover:bg-zinc-50 dark:border-zinc-600 dark:text-zinc-100 dark:hover:bg-zinc-900"
             onClick={onClose}
           >
-            Annulla
+            {cancelLabel}
           </button>
           <button
             type="button"
             className="rounded-lg bg-zinc-900 px-4 py-2 text-sm font-semibold text-white hover:bg-zinc-800 dark:bg-white dark:text-zinc-900"
             onClick={onSave}
           >
-            Salva preferenze
+            {saveLabel}
           </button>
         </div>
       </div>

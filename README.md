@@ -1,49 +1,69 @@
 # Reverse Booking
 
-Next.js (App Router) per un portale di annunci e offerte tra inserzionisti e strutture ricettive. Il repository include **bozze legali** e **placeholder fiscali** da sostituire e far validare da commercialista/avvocato prima della produzione.
+SaaS **reverse booking** globale per l’hospitality: gli inserzionisti pubblicano richieste di soggiorno gratuite; le strutture ricettive (Hotel, B&B, Appartamento) nella stessa città ricevono notifiche e inviano offerte con **abbonamento Stripe**.
 
-## Avvio
+Repository: **`~/Desktop/reverseboking`** (tutto nella root: `package.json`, `app/`, `components/`, `lib/`, `supabase/`, ecc.).
+
+Stack: **Next.js (App Router)**, **TypeScript**, **Tailwind**, **shadcn/ui**, **Supabase** (Auth + Postgres + RLS), **Stripe** (Billing + Invoices + Webhook), **Resend**, **Zod**, **React Hook Form**.
+
+## Avvio rapido
 
 ```bash
+cd ~/Desktop/reverseboking
+cp .env.example .env.local   # compila i valori (solo placeholder in repo)
 npm install
 npm run dev
 ```
 
 Apri [http://localhost:3000](http://localhost:3000).
 
+- Documentazione: `docs/setup.md`, `docs/architecture.md`, `docs/billing.md`, `docs/database.md`, `docs/legal.md`.
+- Schema DB: `supabase/migrations/` + `supabase/schema.sql`, seed `supabase/seed.sql`.
+
 ## Script
 
 - `npm run dev` — sviluppo
 - `npm run build` — build produzione
 - `npm run lint` — ESLint
-- `npm run typecheck` — TypeScript senza emit
+- `npm run typecheck` — TypeScript
+- `npm run supabase:link` / `supabase:push` — migration su progetto cloud
+- `npm run supabase:start` — stack locale (richiede Docker)
+
+## Ruoli e URL applicativi
+
+| Ruolo | Prefisso URL |
+|-------|----------------|
+| Inserzionista | `/inserzionista/*` |
+| Struttura | `/struttura/*` |
+| Admin | `/console/*` |
 
 ## Configurazione legale e fiscale
 
-I **dati aziendali** (ragione sociale, P. IVA, PEC, sede, ATECO, ecc.) e le **versioni dei documenti** usate per i consensi sono centralizzati in:
+Modificare i dati aziendali in `lib/legal/company.ts`.
 
-`lib/legal/company.ts`
+**Le pagine legali generate sono bozze tecniche e devono essere validate da un professionista.**
 
-Modifica quel file prima del go-live. **Non sono presenti dati fiscali reali**: usa segnaposto e sostituiscili con quelli effettivi dopo la revisione professionale.
+## Supabase
 
-Le pagine in `app/(public)/` (note legali, privacy, cookie, termini, contatti) sono **bozze tecniche** pensate per un portale italiano con P. IVA, PEC e riferimenti GDPR/Stripe/Supabase/Resend/Vercel. Devono essere **validate da un professionista** (commercialista e/o avvocato) e allineate al trattamento reale dei dati e al modello di business definitivo.
+1. Crea progetto su [supabase.com](https://supabase.com).
+2. Applica `supabase/migrations/20260201120000_init_reverse_booking.sql` e `supabase/seed.sql`.
+3. Imposta `NEXT_PUBLIC_SUPABASE_*` e `SUPABASE_SERVICE_ROLE_KEY` in `.env.local`.
 
-## Supabase e consensi
+Registrazione: `POST /api/auth/register` (service role lato server).
 
-È inclusa una migration SQL in:
+## Stripe e Resend
 
-`supabase/migrations/20250513190000_user_consents.sql`
+Vedi `docs/billing.md` e `docs/setup.md`. Webhook: `POST /api/stripe/webhook`.
 
-È stato eseguito `supabase init` (file `supabase/config.toml`). Per applicare le migration:
+## Deploy (Vercel)
 
-1. **Progetto cloud:** `npm run supabase:link` (ref progetto) poi `npm run supabase:push`, **oppure** incolla lo SQL della migration nell’editor SQL della dashboard Supabase.
-2. **Locale (Docker):** avvia Docker Desktop, poi `npm run supabase:start` — le migration vengono applicate allo stack locale.
+Imposta le variabili d’ambiente (come in `.env.example`) e `NEXT_PUBLIC_APP_URL` con il dominio di produzione.
 
-Variabili d’ambiente: copia `.env.example` in `.env.local` (nel repo è già stato creato un `.env.local` con **placeholder**; sostituisci con chiavi reali). Per registrare l’utente e salvare subito i consensi serve `SUPABASE_SERVICE_ROLE_KEY` **solo lato server** (non esporre al client).
+## CIN e privacy inserzionisti
 
-> In ambiente senza Docker attivo, `supabase start` non può essere completato dall’agente; usa uno dei metodi sopra sul tuo Mac.
+- **CIN** obbligatorio per ogni struttura (`cin_code` univoco).
+- Email/telefono di registrazione inserzionista **privati**; contatti visibili solo se inseriti nell’annuncio.
 
-## Note
+## GitHub
 
-- Cookie banner: preferenze in `localStorage` (vedi `components/legal/CookieBanner.tsx`).
-- Fatturazione Stripe: concettualmente riservata alle **strutture ricettive** (Hotel, B&B, Appartamento); area dimostrativa in `/struttura`.
+Remote predefinito (se configurato): `origin` → repository `reversebooking` su GitHub. Push: `git push origin main`.

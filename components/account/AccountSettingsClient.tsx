@@ -1,5 +1,7 @@
 "use client";
 
+import { useLanguage } from "@/components/i18n/LanguageProvider";
+
 import { FormEvent, useEffect, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, KeyRound, Mail, UserCog } from "lucide-react";
@@ -11,6 +13,7 @@ type Profile = { role: UserRole | null; email: string; phone_number: string };
 function dashboardHref(role: UserRole | null) { if (role === "hotel") return "/struttura/dashboard"; if (role === "advertiser") return "/inserzionista/dashboard"; return "/"; }
 
 export function AccountSettingsClient() {
+  const { t } = useLanguage();
   const [profile, setProfile] = useState<Profile>({ role: null, email: "", phone_number: "" });
   const [newEmail, setNewEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -30,7 +33,7 @@ export function AccountSettingsClient() {
     try {
       const supabase = createBrowserSupabaseClient();
       const { data: authData, error: authError } = await supabase.auth.getUser();
-      if (authError || !authData.user) { setError("Devi effettuare il login per modificare l’account."); return; }
+      if (authError || !authData.user) { setError(t.account.loginRequired); return; }
       const email = authData.user.email ?? "";
       const { data: profileData } = await supabase.from("profiles").select("role, email, phone_number").eq("user_id", authData.user.id).maybeSingle();
       const nextProfile: Profile = { role: (profileData?.role as UserRole | null) ?? null, email: profileData?.email ?? email, phone_number: profileData?.phone_number ?? "" };
@@ -40,7 +43,7 @@ export function AccountSettingsClient() {
         setAdvertiserFirstName(advertiserData?.first_name ?? "");
         setAdvertiserLastName(advertiserData?.last_name ?? "");
       }
-    } catch (err) { setError(err instanceof Error ? err.message : "Errore durante il caricamento dell’account."); } finally { setLoading(false); }
+    } catch (err) { setError(err instanceof Error ? err.message : t.account.errorLoad); } finally { setLoading(false); }
   }
   useEffect(() => { void loadAccount(); }, []);
 
@@ -49,44 +52,44 @@ export function AccountSettingsClient() {
     try {
       const supabase = createBrowserSupabaseClient();
       const { data: authData, error: authError } = await supabase.auth.getUser();
-      if (authError || !authData.user) { setError("Sessione non valida. Effettua di nuovo il login."); return; }
+      if (authError || !authData.user) { setError(t.account.sessionInvalid); return; }
       if (profile.role === "advertiser") {
         const contactError = validateNoContactsInFields([{ label: "nome pubblico", value: advertiserFirstName }, { label: "cognome pubblico", value: advertiserLastName }]);
         if (contactError) { setError(contactError); return; }
-        if (!advertiserFirstName.trim()) { setError("Inserisci almeno il nome pubblico inserzionista."); return; }
+        if (!advertiserFirstName.trim()) { setError(t.account.errorPublicName); return; }
         const { error: advertiserError } = await supabase.from("advertiser_profiles").update({ first_name: advertiserFirstName.trim(), last_name: advertiserLastName.trim() || null }).eq("user_id", authData.user.id);
         if (advertiserError) { setError(advertiserError.message); return; }
       }
       const { error: updateError } = await supabase.from("profiles").update({ phone_number: phone.trim() || null }).eq("user_id", authData.user.id);
       if (updateError) { setError(updateError.message); return; }
       setProfile((current) => ({ ...current, phone_number: phone.trim() }));
-      setSuccess("Dati account aggiornati correttamente.");
-    } catch (err) { setError(err instanceof Error ? err.message : "Errore durante il salvataggio."); } finally { setSavingProfile(false); }
+      setSuccess(t.account.accountUpdated);
+    } catch (err) { setError(err instanceof Error ? err.message : t.account.errorSave); } finally { setSavingProfile(false); }
   }
 
   async function saveEmail(event: FormEvent<HTMLFormElement>) {
     event.preventDefault(); setSavingEmail(true); setError(null); setSuccess(null);
     try {
-      const email = newEmail.trim().toLowerCase(); if (!email) { setError("Inserisci una email valida."); return; }
+      const email = newEmail.trim().toLowerCase(); if (!email) { setError(t.account.errorInvalidEmail); return; }
       const supabase = createBrowserSupabaseClient(); const { data: authData, error: authError } = await supabase.auth.getUser();
-      if (authError || !authData.user) { setError("Sessione non valida. Effettua di nuovo il login."); return; }
+      if (authError || !authData.user) { setError(t.account.sessionInvalid); return; }
       const { error: emailError } = await supabase.auth.updateUser({ email }); if (emailError) { setError(emailError.message); return; }
-      await supabase.from("profiles").update({ email }).eq("user_id", authData.user.id); setProfile((current) => ({ ...current, email })); setSuccess("Email aggiornata. Se Supabase richiede conferma, controlla la nuova casella email.");
-    } catch (err) { setError(err instanceof Error ? err.message : "Errore durante l’aggiornamento email."); } finally { setSavingEmail(false); }
+      await supabase.from("profiles").update({ email }).eq("user_id", authData.user.id); setProfile((current) => ({ ...current, email })); setSuccess(t.account.emailUpdated);
+    } catch (err) { setError(err instanceof Error ? err.message : t.account.errorEmail); } finally { setSavingEmail(false); }
   }
 
   async function savePassword(event: FormEvent<HTMLFormElement>) {
     event.preventDefault(); setSavingPassword(true); setError(null); setSuccess(null);
     try {
-      if (password.length < 6) { setError("La nuova password deve contenere almeno 6 caratteri."); return; }
-      if (password !== confirmPassword) { setError("Le password non coincidono."); return; }
+      if (password.length < 6) { setError(t.account.errorPasswordMin); return; }
+      if (password !== confirmPassword) { setError(t.account.errorPasswordMismatch); return; }
       const supabase = createBrowserSupabaseClient(); const { error: passwordError } = await supabase.auth.updateUser({ password });
       if (passwordError) { setError(passwordError.message); return; }
-      setPassword(""); setConfirmPassword(""); setSuccess("Password aggiornata correttamente.");
-    } catch (err) { setError(err instanceof Error ? err.message : "Errore durante l’aggiornamento password."); } finally { setSavingPassword(false); }
+      setPassword(""); setConfirmPassword(""); setSuccess(t.account.passwordUpdated);
+    } catch (err) { setError(err instanceof Error ? err.message : t.account.errorPassword); } finally { setSavingPassword(false); }
   }
 
-  if (loading) return <div className="rounded-3xl border p-6 text-sm text-zinc-500">Caricamento account...</div>;
+  if (loading) return <div className="rounded-3xl border p-6 text-sm text-zinc-500">{t.account.loading}</div>;
 
-  return <div className="space-y-6"><Link href={dashboardHref(profile.role)} className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white"><ArrowLeft className="h-4 w-4" /> Torna alla dashboard</Link>{error ? <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}{success ? <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-700">{success}</div> : null}<section className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900"><p className="text-sm font-medium uppercase tracking-wide text-emerald-700">Account</p><h1 className="mt-2 text-3xl font-semibold tracking-tight">Modifica account</h1><p className="mt-2 text-sm text-zinc-500">Qui modifichi email, password e dati dell’utente. Gli annunci e i dati hotel restano separati.</p></section><form onSubmit={saveProfile} className="space-y-4 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900"><div className="flex items-center gap-3"><UserCog className="h-5 w-5" /><h2 className="text-xl font-semibold">Dati account</h2></div>{profile.role === "advertiser" ? <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 dark:border-emerald-900 dark:bg-emerald-950/30"><h3 className="font-semibold">Nome pubblico inserzionista</h3><p className="mt-1 text-sm text-emerald-800 dark:text-emerald-200">Questo nome può comparire nella Home/vetrina sugli annunci. Non inserire email, telefoni, WhatsApp, link o social.</p><div className="mt-4 grid gap-4 sm:grid-cols-2"><label className="block text-sm font-medium">Nome pubblico<input value={advertiserFirstName} onChange={(event) => setAdvertiserFirstName(event.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium">Cognome / nome attività <span className="text-zinc-400">(facoltativo)</span><input value={advertiserLastName} onChange={(event) => setAdvertiserLastName(event.target.value)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label></div></div> : null}<label className="block text-sm font-medium">Telefono privato / account<input value={phone} onChange={(event) => setPhone(event.target.value)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><button disabled={savingProfile} className="rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white disabled:opacity-60 dark:bg-white dark:text-zinc-950">{savingProfile ? "Salvataggio..." : "Salva dati account"}</button></form><form onSubmit={saveEmail} className="space-y-4 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900"><div className="flex items-center gap-3"><Mail className="h-5 w-5" /><h2 className="text-xl font-semibold">Email accesso</h2></div><p className="text-sm text-zinc-500">Email attuale: {profile.email}</p><label className="block text-sm font-medium">Nuova email<input type="email" value={newEmail} onChange={(event) => setNewEmail(event.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><button disabled={savingEmail} className="rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white disabled:opacity-60 dark:bg-white dark:text-zinc-950">{savingEmail ? "Aggiornamento..." : "Aggiorna email"}</button></form><form onSubmit={savePassword} className="space-y-4 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900"><div className="flex items-center gap-3"><KeyRound className="h-5 w-5" /><h2 className="text-xl font-semibold">Password</h2></div><label className="block text-sm font-medium">Nuova password<input type="password" value={password} onChange={(event) => setPassword(event.target.value)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium">Conferma nuova password<input type="password" value={confirmPassword} onChange={(event) => setConfirmPassword(event.target.value)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><button disabled={savingPassword} className="rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white disabled:opacity-60 dark:bg-white dark:text-zinc-950">{savingPassword ? "Aggiornamento..." : "Aggiorna password"}</button></form></div>;
+  return <div className="space-y-6"><Link href={dashboardHref(profile.role)} className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950"><ArrowLeft className="h-4 w-4" /> {t.account.backToDashboard}</Link>{error ? <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}{success ? <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-700">{success}</div> : null}<section className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm"><p className="text-sm font-medium uppercase tracking-wide text-emerald-700">{t.account.sectionLabel}</p><h1 className="mt-2 text-3xl font-semibold tracking-tight">{t.account.title}</h1><p className="mt-2 text-sm text-zinc-500">{t.account.intro} e dati dell’utente. Gli annunci e i dati hotel restano separati.</p></section><form onSubmit={saveProfile} className="space-y-4 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm"><div className="flex items-center gap-3"><UserCog className="h-5 w-5" /><h2 className="text-xl font-semibold">{t.account.accountData}</h2></div>{profile.role === "advertiser" ? <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4"><h3 className="font-semibold">{t.account.publicAdvertiserName}</h3><p className="mt-1 text-sm text-emerald-800">{t.account.publicAdvertiserHint} nella Home/vetrina sugli annunci. Non inserire email, telefoni, WhatsApp, link o social.</p><div className="mt-4 grid gap-4 sm:grid-cols-2"><label className="block text-sm font-medium">{t.account.publicFirstName}<input value={advertiserFirstName} onChange={(event) => setAdvertiserFirstName(event.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm" /></label><label className="block text-sm font-medium">{t.account.publicLastName} <span className="text-zinc-400">({t.common.optional})</span><input value={advertiserLastName} onChange={(event) => setAdvertiserLastName(event.target.value)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm" /></label></div></div> : null}<label className="block text-sm font-medium">{t.account.privatePhone}<input value={phone} onChange={(event) => setPhone(event.target.value)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm" /></label><button disabled={savingProfile} className="rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white disabled:opacity-60">{savingProfile ? t.account.saving : t.account.saveAccountData}</button></form><form onSubmit={saveEmail} className="space-y-4 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm"><div className="flex items-center gap-3"><Mail className="h-5 w-5" /><h2 className="text-xl font-semibold">{t.account.emailAccess}</h2></div><p className="text-sm text-zinc-500">{t.account.currentEmail}: {profile.email}</p><label className="block text-sm font-medium">{t.account.newEmail}<input type="email" value={newEmail} onChange={(event) => setNewEmail(event.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm" /></label><button disabled={savingEmail} className="rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white disabled:opacity-60">{savingEmail ? t.account.updatingEmail : t.account.updateEmail}</button></form><form onSubmit={savePassword} className="space-y-4 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm"><div className="flex items-center gap-3"><KeyRound className="h-5 w-5" /><h2 className="text-xl font-semibold">{t.common.password}</h2></div><label className="block text-sm font-medium">{t.account.newPassword}<input type="password" value={password} onChange={(event) => setPassword(event.target.value)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm" /></label><label className="block text-sm font-medium">{t.account.confirmPassword}<input type="password" value={confirmPassword} onChange={(event) => setConfirmPassword(event.target.value)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm" /></label><button disabled={savingPassword} className="rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white disabled:opacity-60">{savingPassword ? t.account.updatingPassword : t.account.updatePassword}</button></form></div>;
 }

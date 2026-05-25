@@ -1,7 +1,13 @@
 "use client";
 
-import { FormEvent, useEffect, useMemo, useState } from "react";
+import { FormEvent, useCallback, useEffect, useMemo, useState } from "react";
 import { MessageCircle, Send, X } from "lucide-react";
+import {
+  countUnreadChatMessages,
+  loadChatReadState,
+  markOfferChatRead,
+  type ChatReadState,
+} from "@/lib/chat/readState";
 import { isChatOpen } from "@/lib/chat/lifecycle";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import type { UserRole } from "@/types/app";
@@ -44,6 +50,10 @@ function offerChatOpen(offer: ChatOffer) {
   const checkIn = one(offer.travel_requests)?.check_in;
   return checkIn ? isChatOpen(checkIn) : false;
 }
+function unreadForOffer(messages: ChatMessage[], offerId: string, userId: string, readState: ChatReadState) {
+  const offerMessages = messages.filter((message) => message.offer_id === offerId);
+  return countUnreadChatMessages(offerMessages, userId, readState);
+}
 
 export function FloatingChatWidget() {
   const [open, setOpen] = useState(false);
@@ -52,7 +62,8 @@ export function FloatingChatWidget() {
   const [offers, setOffers] = useState<ChatOffer[]>([]);
   const [activeOfferId, setActiveOfferId] = useState<string | null>(null);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
-  const [lastReadMessageId, setLastReadMessageId] = useState<string | null>(null);
+  const [allMessages, setAllMessages] = useState<ChatMessage[]>([]);
+  const [readState, setReadState] = useState<ChatReadState>({});
   const [unreadCount, setUnreadCount] = useState(0);
   const [body, setBody] = useState("");
   const [loading, setLoading] = useState(false);
@@ -66,10 +77,26 @@ export function FloatingChatWidget() {
   const activeRequest = one(activeOffer?.travel_requests);
   const chatStillOpen = activeRequest?.check_in ? isChatOpen(activeRequest.check_in) : false;
 
-  function markAsRead(nextMessages = messages) {
-    setUnreadCount(0);
-    setLastReadMessageId(nextMessages.at(-1)?.id ?? null);
-  }
+  const syncUnreadTotal = useCallback(
+    (nextMessages: ChatMessage[], currentUserId: string, nextReadState: ChatReadState) => {
+      setUnreadCount(countUnreadChatMessages(nextMessages, currentUserId, nextReadState));
+    },
+    [],
+  );
+
+  const markAsRead = useCallback(
+    (offerId: string | null, nextMessages = messages) => {
+      if (!userId || !offerId) return;
+      const latestMessageId = nextMessages.at(-1)?.id ?? null;
+      if (!latestMessageId) return;
+      markOfferChatRead(userId, offerId, latestMessageId);
+      const nextReadState = { ...loadChatReadState(userId) };
+      setReadState(nextReadState);
+      syncUnreadTotal(allMessages.length ? allMessages : nextMessages, userId, nextReadState);
+      window.dispatchEvent(new CustomEvent("hd-chat-read"));
+    },
+    [allMessages, messages, syncUnreadTotal, userId],
+  );
 
   async function runChatCleanup(supabase: ReturnType<typeof createBrowserSupabaseClient>) {
     await supabase.rpc("close_expired_accepted_chats");
@@ -88,6 +115,23 @@ export function FloatingChatWidget() {
     return nextRole;
   }
 
+  async function loadAllMessages(offerIds: string[], currentUserId: string, nextReadState: ChatReadState) {
+    if (!offerIds.length) {
+      setAllMessages([]);
+      setUnreadCount(0);
+      return;
+    }
+    const supabase = createBrowserSupabaseClient();
+    const { data } = await supabase
+      .from("offer_messages")
+      .select("id, offer_id, sender_id, sender_role, body, created_at")
+      .in("offer_id", offerIds)
+      .order("created_at", { ascending: true });
+    const next = (data ?? []) as ChatMessage[];
+    setAllMessages(next);
+    syncUnreadTotal(next, currentUserId, nextReadState);
+  }
+
   async function loadMessages(offerId: string, silent = false) {
     const supabase = createBrowserSupabaseClient();
     const { data, error: messageError } = await supabase
@@ -100,25 +144,8 @@ export function FloatingChatWidget() {
       return;
     }
     const next = (data ?? []) as ChatMessage[];
-    const latestMessageId = next.at(-1)?.id ?? null;
-    if (open) {
-      setMessages(next);
-      markAsRead(next);
-      return;
-    }
-    if (!silent) {
-      setMessages(next);
-      setUnreadCount(0);
-      setLastReadMessageId(latestMessageId);
-      return;
-    }
-    if (userId && lastReadMessageId) {
-      const lastReadIndex = next.findIndex((message) => message.id === lastReadMessageId);
-      const unreadStart = lastReadIndex >= 0 ? lastReadIndex + 1 : 0;
-      const unread = next.slice(unreadStart).filter((message) => message.sender_id !== userId).length;
-      setUnreadCount(unread);
-    }
     setMessages(next);
+    if (open && userId) markAsRead(offerId, next);
   }
 
   async function loadWidget(silent = false) {
@@ -132,33 +159,41 @@ export function FloatingChatWidget() {
         setUserId(null);
         setOffers([]);
         setMessages([]);
+        setAllMessages([]);
         setUnreadCount(0);
         return;
       }
-      setUserId(authData.user.id);
-      const currentRole = await detectRole(authData.user.id);
+      const currentUserId = authData.user.id;
+      setUserId(currentUserId);
+      const nextReadState = loadChatReadState(currentUserId);
+      setReadState(nextReadState);
+      const currentRole = await detectRole(currentUserId);
       let query = supabase
         .from("offers")
         .select("id, hotel_accounts(property_name), travel_requests(city_name, preferred_area, request_code, check_in, advertiser_profiles(first_name, last_name))")
         .eq("status", "accepted")
         .order("created_at", { ascending: false });
       if (currentRole === "hotel") {
-        const { data: hotelAccount } = await supabase.from("hotel_accounts").select("id, subscription_active, account_status").eq("user_id", authData.user.id).maybeSingle();
+        const { data: hotelAccount } = await supabase.from("hotel_accounts").select("id, subscription_active, account_status").eq("user_id", currentUserId).maybeSingle();
         if (!hotelAccount?.subscription_active || hotelAccount.account_status !== "active") {
           setOffers([]);
           setMessages([]);
+          setAllMessages([]);
+          setUnreadCount(0);
           return;
         }
         if (hotelAccount.id) query = query.eq("hotel_account_id", hotelAccount.id);
       } else {
-        const { data: advertiser } = await supabase.from("advertiser_profiles").select("id").eq("user_id", authData.user.id).maybeSingle();
+        const { data: advertiser } = await supabase.from("advertiser_profiles").select("id").eq("user_id", currentUserId).maybeSingle();
         if (advertiser?.id) {
           const { data: requests } = await supabase.from("travel_requests").select("id").eq("advertiser_id", advertiser.id);
-          const requestIds = (requests ?? []).map((item) => item.id);
+          const requestIds = (requests ?? []).map((item: { id: string }) => item.id);
           if (requestIds.length) query = query.in("travel_request_id", requestIds);
           else {
             setOffers([]);
             setMessages([]);
+            setAllMessages([]);
+            setUnreadCount(0);
             return;
           }
         }
@@ -172,6 +207,11 @@ export function FloatingChatWidget() {
       setOffers(nextOffers);
       const nextActiveId = activeOfferId && nextOffers.some((o) => o.id === activeOfferId) ? activeOfferId : nextOffers[0]?.id ?? null;
       setActiveOfferId(nextActiveId);
+      await loadAllMessages(
+        nextOffers.map((offer) => offer.id),
+        currentUserId,
+        nextReadState,
+      );
       if (nextActiveId) await loadMessages(nextActiveId, silent);
       else setMessages([]);
     } catch (err) {
@@ -189,14 +229,18 @@ export function FloatingChatWidget() {
   }, [activeOfferId]);
   useEffect(() => {
     const interval = window.setInterval(() => {
-      if (activeOfferId) void loadMessages(activeOfferId, true);
-      else void loadWidget(true);
+      void loadWidget(true);
     }, 5000);
-    return () => window.clearInterval(interval);
-  }, [activeOfferId, userId, open, lastReadMessageId]);
+    const openChat = () => setOpen(true);
+    window.addEventListener("hd-open-chat", openChat);
+    return () => {
+      window.clearInterval(interval);
+      window.removeEventListener("hd-open-chat", openChat);
+    };
+  }, [activeOfferId]);
   useEffect(() => {
-    if (open) markAsRead();
-  }, [open]);
+    if (open && activeOfferId) markAsRead(activeOfferId, messages);
+  }, [open, activeOfferId, messages, markAsRead]);
 
   async function sendMessage(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -222,7 +266,7 @@ export function FloatingChatWidget() {
         body: JSON.stringify({ offerId: activeOffer.id, message: text }),
       });
       setBody("");
-      await loadMessages(activeOffer.id);
+      await loadWidget(true);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Errore durante l’invio del messaggio.");
     } finally {
@@ -252,12 +296,13 @@ export function FloatingChatWidget() {
               {offers.length === 0 ? <p className="p-3 text-xs text-zinc-500">Nessuna chat attiva.</p> : null}
               {offers.map((offer) => {
                 const offerRequest = one(offer.travel_requests);
+                const offerUnread = userId ? unreadForOffer(allMessages, offer.id, userId, readState) : 0;
                 return (
                   <button
                     key={offer.id}
                     type="button"
                     onClick={() => setActiveOfferId(offer.id)}
-                    className={`mb-1 w-full min-w-[200px] rounded-2xl p-3 text-left text-xs lg:min-w-0 ${
+                    className={`relative mb-1 w-full min-w-[200px] rounded-2xl p-3 text-left text-xs lg:min-w-0 ${
                       offer.id === activeOfferId
                         ? "bg-emerald-50 text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-200"
                         : "hover:bg-zinc-100 dark:hover:bg-zinc-800"
@@ -271,6 +316,11 @@ export function FloatingChatWidget() {
                       {offerRequest?.city_name ?? "Chat"}
                       {offerRequest?.preferred_area ? ` · ${offerRequest.preferred_area}` : ""}
                     </span>
+                    {offerUnread > 0 ? (
+                      <span className="absolute right-2 top-2 flex h-5 min-w-5 items-center justify-center rounded-full bg-red-600 px-1 text-[10px] font-bold text-white">
+                        {offerUnread > 99 ? "99+" : offerUnread}
+                      </span>
+                    ) : null}
                   </button>
                 );
               })}
