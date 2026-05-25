@@ -46,6 +46,8 @@ function formatDate(value: string) { return new Intl.DateTimeFormat("it-IT", { d
 function formatCurrency(value: number) { return new Intl.NumberFormat("it-IT", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(value); }
 function totalBudget(request: TravelRequest) { return Number(request.budget) * Number(request.rooms_count || 1); }
 function normalize(value: string | null | undefined) { return (value ?? "").trim().toLowerCase(); }
+const cityAliases: Record<string, string[]> = { rome: ["roma"], roma: ["rome"], florence: ["firenze"], firenze: ["florence"], milan: ["milano"], milano: ["milan"], naples: ["napoli"], napoli: ["naples"], venice: ["venezia"], venezia: ["venice"], turin: ["torino"], torino: ["turin"], genoa: ["genova"], genova: ["genoa"], padua: ["padova"], padova: ["padua"], syracuse: ["siracusa"], siracusa: ["syracuse"], capri: ["capri"], sardinia: ["sardegna"], sardegna: ["sardinia"] };
+function cityMatch(a: string | null | undefined, b: string | null | undefined) { const na = normalize(a); const nb = normalize(b); if (na === nb) return true; if (cityAliases[na]?.includes(nb)) return true; if (cityAliases[nb]?.includes(na)) return true; return false; }
 function publicHotelDescription(description: string | null) { const value = description?.trim() ?? ""; if (!value) return null; const lower = value.toLowerCase(); if (lower.includes("profilo struttura creato") || lower.includes("da completare nel pannello struttura") || lower.includes("accesso social")) return null; return value; }
 function activeFilterLabels(filters: PreferenceFilters | null) { if (!filters) return []; return Object.entries(filters).filter(([, value]) => Boolean(value)).map(([key]) => serviceLabels[key] ?? key); }
 function activeServiceLabels(services: Record<string, boolean> | null) { if (!services) return []; return Object.entries(services).filter(([, value]) => Boolean(value)).map(([key]) => serviceLabels[key] ?? key); }
@@ -94,7 +96,7 @@ export function PublicShowcaseClient() {
   function matchesSelectedCity(item: { city_id?: string | null; city_name?: string | null; country_code?: string | null }) {
     if (!hasSelectedCity) return true;
     if (item.city_id && item.city_id === selectedCity.city_id) return true;
-    return normalize(item.city_name) === normalize(selectedCity.city_name) && (!item.country_code || item.country_code === selectedCity.country_code);
+    return cityMatch(item.city_name, selectedCity.city_name) && (!item.country_code || item.country_code === selectedCity.country_code);
   }
 
   async function detectViewer() {
