@@ -1,0 +1,27 @@
+export const dashboardSurfaces = {
+  page: "mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8",
+  shell: "",
+  headerPanel: "rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm",
+  areaLabel: "text-sm font-medium uppercase tracking-wide text-emerald-700",
+  btnPrimary:
+    "inline-flex items-center gap-2 rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white hover:bg-zinc-800",
+  btnSecondary:
+    "inline-flex items-center gap-2 rounded-full border border-zinc-300 px-5 py-3 text-sm font-semibold hover:bg-zinc-50",
+  btnPrimarySm: "inline-flex rounded-full bg-zinc-950 px-4 py-2 text-sm font-semibold text-white",
+  acceptedPanel: "rounded-3xl border border-emerald-200 bg-emerald-50/40 p-6",
+  acceptedEmpty: "rounded-2xl border border-dashed border-emerald-200 px-4 py-8 text-center text-sm text-emerald-800",
+  acceptedCard: "rounded-2xl border border-emerald-200 bg-white p-5",
+  acceptedCardAlt: "rounded-2xl border border-emerald-100 bg-emerald-50/50 p-5",
+  panelCream: "rounded-3xl border border-zinc-200 bg-[#FFF9F0] p-6 shadow-sm",
+  panelBlue: "rounded-3xl border border-[#B8D4EB]/60 bg-[#E8F4FC] p-6 shadow-sm",
+  sectionIcon: "h-5 w-5 text-emerald-700",
+  sectionTitle: "text-xl font-semibold",
+  sectionSubtitle: "mt-1 text-sm text-zinc-600",
+  cardBlue: "rounded-2xl border border-[#B8D4EB]/60 bg-[#E8F4FC] p-5 shadow-sm",
+  cardCream: "rounded-2xl border border-amber-100 bg-amber-50/60 p-5 shadow-sm",
+  cardCreamLg: "rounded-2xl border border-amber-100 bg-amber-50/80 p-6 shadow-sm",
+  badgeBlue: "rounded-full bg-[#E8F4FC] px-3 py-1 text-xs font-semibold text-[#0f4c81]",
+  cardWhite: "rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm",
+  emptyDashed: "rounded-2xl border border-dashed border-zinc-300 px-4 py-8 text-center text-sm text-zinc-500",
+  acceptedBadge: "rounded-full bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-800",
+};
