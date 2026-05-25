@@ -57,12 +57,41 @@ export function PublicHotelProfile() {
           .eq("subscription_active", true)
           .single();
 
-        if (hotelError || !data) {
+        if (!hotelError && data) {
+          setHotel(data as HotelProfile);
+          return;
+        }
+
+        const { data: onb, error: onbError } = await supabase
+          .from("onboarding_hotels")
+          .select("id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url")
+          .eq("id", hotelId)
+          .single();
+
+        if (onbError || !onb) {
           setError(h.publicProfileNotFound);
           return;
         }
 
-        setHotel(data as HotelProfile);
+        setHotel({
+          id: onb.id,
+          property_name: onb.nome,
+          structure_type: "hotel" as StructureType,
+          main_photo_url: onb.main_photo_url,
+          gallery_photo_urls: null,
+          description: null,
+          full_address: onb.indirizzo || onb.city_name,
+          country_name: "Italia",
+          city_name: onb.city_name,
+          specific_area: onb.indirizzo,
+          points_of_interest: null,
+          rooms_quantity: 0,
+          services: null,
+          public_email: onb.email,
+          public_phone: onb.phone,
+          google_maps_url: onb.google_maps_url,
+          cin_code: "",
+        } as HotelProfile);
       } catch (err) {
         setError(err instanceof Error ? err.message : h.publicProfileLoadError);
       } finally {
@@ -105,7 +134,7 @@ export function PublicHotelProfile() {
             <div className="mt-4">
               <FavoriteHotelButton hotelId={hotel.id} hotelName={hotel.property_name} />
             </div>
-            <p className="mt-1 text-xs text-zinc-400">CIN: {hotel.cin_code}</p>
+            {hotel.cin_code ? <p className="mt-1 text-xs text-zinc-400">CIN: {hotel.cin_code}</p> : null}
 
             {hotel.description ? <p className="mt-6 leading-7 text-zinc-700 dark:text-zinc-300">{hotel.description}</p> : null}
 
@@ -121,7 +150,7 @@ export function PublicHotelProfile() {
               <div className="rounded-2xl border border-zinc-200 p-5 dark:border-zinc-800">
                 <h2 className="font-semibold">{h.infoSection}</h2>
                 <p className="mt-2 text-sm text-zinc-500">{h.address}: {hotel.full_address}</p>
-                <p className="mt-1 text-sm text-zinc-500">{h.roomsQuantity}: {hotel.rooms_quantity}</p>
+                {hotel.rooms_quantity > 0 ? <p className="mt-1 text-sm text-zinc-500">{h.roomsQuantity}: {hotel.rooms_quantity}</p> : null}
                 {hotel.points_of_interest?.length ? <p className="mt-1 text-sm text-zinc-500">{h.pointsOfInterest}: {hotel.points_of_interest.join(", ")}</p> : null}
                 {hotel.google_maps_url ? (
                   <a href={hotel.google_maps_url} target="_blank" rel="noreferrer" className="mt-4 inline-flex items-center gap-2 rounded-full bg-zinc-950 px-4 py-2 text-sm font-semibold text-white dark:bg-white dark:text-zinc-950">
