@@ -38,6 +38,16 @@ function AuthCallbackContent() {
           router.replace("/login");
           return;
         }
+
+        const { data: sessionData } = await supabase.auth.getSession();
+        const token = sessionData?.session?.access_token;
+        if (token) {
+          await fetch("/api/auth/complete-profile", {
+            method: "POST",
+            headers: { Authorization: `Bearer ${token}` },
+          });
+        }
+
         const { data: profile } = await supabase.from("profiles").select("role").eq("user_id", authData.user.id).maybeSingle();
         const destination = next || dashboardPathForRole(profile?.role as UserRole | undefined);
         redirectAfterLogin(destination);

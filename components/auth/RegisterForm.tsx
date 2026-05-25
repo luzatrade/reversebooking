@@ -74,7 +74,7 @@ export function RegisterForm() {
           privacyVersion: PRIVACY_VERSION,
         }),
       });
-      const data = (await res.json()) as RegisterResponse & { detail?: string };
+      const data = (await res.json()) as RegisterResponse & { detail?: string; emailConfirmationRequired?: boolean };
 
       if (!res.ok) {
         setError(data.error ?? t.auth.registerFailed);
@@ -84,6 +84,11 @@ export function RegisterForm() {
       const role = data.role;
       if (!role) {
         setError(t.auth.registerFailed);
+        return;
+      }
+
+      if (data.emailConfirmationRequired) {
+        setMessage("Registrazione completata! Controlla la tua casella email e clicca il link di conferma per attivare il tuo account.");
         return;
       }
 
