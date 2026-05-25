@@ -47,7 +47,7 @@ export default async function ConsoleInserzionistiPage() {
             contact: a.contact_email ?? "—",
             created: formatDate(a.created_at),
             actions: (
-              <div className="flex items-center gap-2">
+              <div className="flex flex-col gap-1.5 sm:flex-row sm:items-center sm:gap-2">
                 <ImpersonateButton userId={a.user_id} />
                 <DeleteButton entity="advertiser" id={a.id} />
               </div>

@@ -28,7 +28,7 @@ type MobileShowcaseView = "requests" | "structures";
 
 const serviceLabels: Record<string, string> = { pool: "Piscina", spa: "Spa", garage: "Garage", pets_allowed: "Animali ammessi", disabled_access: "Accesso disabili", beach: "Vicino alla spiaggia", bathtub: "Vasca", connecting_rooms: "Camere comunicanti" };
 const structureCardActionClass =
-  "inline-flex items-center justify-center gap-1 rounded-full border-2 border-[#0f4c81] bg-white px-3 py-1.5 text-xs font-semibold text-[#0f4c81] shadow-sm transition hover:bg-[#0f4c81] hover:text-white";
+  "inline-flex items-center justify-center gap-1 rounded-full border-2 border-[#0f4c81] bg-white px-3.5 py-2.5 text-xs font-semibold text-[#0f4c81] shadow-sm transition hover:bg-[#0f4c81] hover:text-white sm:py-1.5 sm:px-3";
 
 function advertiserName(request: TravelRequest) {
   const advertiser = Array.isArray(request.advertiser_profiles) ? request.advertiser_profiles[0] : request.advertiser_profiles;
@@ -279,11 +279,11 @@ export function PublicShowcaseClient() {
 
   return <main className="min-h-screen bg-zinc-50 text-zinc-950">
     <header className="relative z-50 overflow-visible border-b border-zinc-200 bg-white/90 backdrop-blur">
-      <div className="relative z-50 mx-auto flex max-w-7xl flex-col gap-4 overflow-visible px-4 pb-5 pt-12 sm:px-6 lg:px-8">
+      <div className="relative z-50 mx-auto flex max-w-7xl flex-col gap-3 overflow-visible px-4 pb-4 pt-6 sm:gap-4 sm:pb-5 sm:pt-12 lg:px-8">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-6">
             <BrandLogo className="shrink-0 self-start" />
-            <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">Home richieste e strutture</h1>
+            <h1 className="text-xl font-semibold tracking-tight sm:text-3xl lg:text-4xl">Home richieste e strutture</h1>
           </div>
           <div className="flex flex-wrap items-center justify-end gap-2 sm:gap-3">
             <LanguageSwitcher />
@@ -300,7 +300,7 @@ export function PublicShowcaseClient() {
             )}
           </div>
         </div>
-        <div className="relative z-[60] overflow-visible rounded-[1.5rem] border border-zinc-200 bg-white p-4 shadow-sm">
+        <div className="relative z-[60] overflow-visible rounded-2xl border border-zinc-200 bg-white p-3 shadow-sm sm:rounded-[1.5rem] sm:p-4">
           <div className="flex items-end gap-2 sm:gap-3">
             <div className="min-w-0 flex-1">
               <CityAutocomplete value={selectedCity} onChange={setSelectedCity} label="Seleziona città" />
@@ -329,7 +329,7 @@ export function PublicShowcaseClient() {
       </div>
     </header>
 
-    <div className="relative z-0 mx-auto max-w-7xl space-y-6 px-4 py-8 sm:px-6 lg:px-8">
+    <div className="relative z-0 mx-auto max-w-7xl space-y-4 px-3 py-4 sm:space-y-6 sm:px-6 sm:py-8 lg:px-8">
       <div className="rounded-3xl border border-zinc-200 bg-white p-4 shadow-sm lg:hidden">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-sm font-semibold text-zinc-700">Cosa vuoi vedere?</p>

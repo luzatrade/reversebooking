@@ -98,14 +98,14 @@ export function PublicHotelProfile() {
       {hotel ? (
         <article className="overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
           {hotel.main_photo_url ? (
-            <img src={hotel.main_photo_url} alt={hotel.property_name} className="h-72 w-full object-cover" />
+            <img src={hotel.main_photo_url} alt={hotel.property_name} className="h-48 w-full object-cover sm:h-64 md:h-72" />
           ) : (
-            <div className="flex h-72 items-center justify-center bg-zinc-100 text-sm text-zinc-500 dark:bg-zinc-950">Foto struttura non disponibile</div>
+            <div className="flex h-48 items-center justify-center bg-zinc-100 text-sm text-zinc-500 dark:bg-zinc-950 sm:h-64 md:h-72">Foto struttura non disponibile</div>
           )}
 
-          <div className="p-6">
-            <p className="text-sm font-medium uppercase tracking-wide text-emerald-700">Profilo struttura</p>
-            <h1 className="mt-2 text-3xl font-semibold tracking-tight">{hotel.property_name}</h1>
+          <div className="p-4 sm:p-6">
+            <p className="text-xs font-medium uppercase tracking-wide text-emerald-700 sm:text-sm">Profilo struttura</p>
+            <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">{hotel.property_name}</h1>
             <p className="mt-2 text-zinc-600 dark:text-zinc-400">
               {structureTypeLabels[hotel.structure_type]} · {hotel.city_name}, {hotel.country_name}
             </p>
@@ -118,30 +118,30 @@ export function PublicHotelProfile() {
             {hotel.description ? <p className="mt-6 leading-7 text-zinc-700 dark:text-zinc-300">{hotel.description}</p> : null}
 
             {hotel.gallery_photo_urls?.length ? (
-              <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="mt-4 grid grid-cols-2 gap-2 sm:mt-6 sm:grid-cols-2 sm:gap-3 lg:grid-cols-3">
                 {hotel.gallery_photo_urls.map((photo) => (
-                  <img key={photo} src={photo} alt={hotel.property_name} className="h-36 w-full rounded-2xl object-cover" />
+                  <img key={photo} src={photo} alt={hotel.property_name} className="h-28 w-full rounded-xl object-cover sm:h-36 sm:rounded-2xl" />
                 ))}
               </div>
             ) : null}
 
-            <div className="mt-6 grid gap-4 md:grid-cols-2">
-              <div className="rounded-2xl border border-zinc-200 p-5 dark:border-zinc-800">
+            <div className="mt-4 grid gap-3 sm:mt-6 sm:gap-4 md:grid-cols-2">
+              <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 sm:p-5">
                 <h2 className="font-semibold">Informazioni</h2>
                 <p className="mt-2 text-sm text-zinc-500">Indirizzo: {hotel.full_address}</p>
                 <p className="mt-1 text-sm text-zinc-500">Camere/unità: {hotel.rooms_quantity}</p>
                 {hotel.points_of_interest?.length ? <p className="mt-1 text-sm text-zinc-500">Punti di interesse: {hotel.points_of_interest.join(", ")}</p> : null}
                 {hotel.google_maps_url ? (
-                  <a href={hotel.google_maps_url} target="_blank" rel="noreferrer" className="mt-4 inline-flex items-center gap-2 rounded-full bg-zinc-950 px-4 py-2 text-sm font-semibold text-white dark:bg-white dark:text-zinc-950">
+                  <a href={hotel.google_maps_url} target="_blank" rel="noreferrer" className="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-zinc-950 px-4 py-3 text-sm font-semibold text-white dark:bg-white dark:text-zinc-950 sm:py-2">
                     <MapPin className="h-4 w-4" /> Apri su Google Maps
                   </a>
                 ) : null}
               </div>
 
-              <div className="rounded-2xl border border-zinc-200 p-5 dark:border-zinc-800">
+              <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 sm:p-5">
                 <h2 className="font-semibold">Servizi e contatti</h2>
                 {services.length ? <p className="mt-2 text-sm text-zinc-500">Servizi: {services.join(", ")}</p> : <p className="mt-2 text-sm text-zinc-500">Servizi non indicati.</p>}
-                <div className="mt-4 flex flex-wrap gap-3">
+                <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-3">
                   {hotel.public_email ? (() => {
                     const emailLines = [
                       "Ciao! Ho trovato " + hotel.property_name + " su " + BRAND_NAME + " \u{1F60A} e vorrei chiedere gentilmente informazioni e disponibilit\u00E0 per le seguenti date:",
@@ -155,7 +155,7 @@ export function PublicHotelProfile() {
                     ];
                     const emailHref = "mailto:" + hotel.public_email + "?subject=" + encodeURIComponent("Richiesta disponibilit\u00E0 \u2014 " + hotel.property_name) + "&body=" + encodeURIComponent(emailLines.join("\n"));
                     return (
-                      <a href={emailHref} className="inline-flex items-center gap-2 rounded-full bg-emerald-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-600">
+                      <a href={emailHref} className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-4 py-3 text-sm font-semibold text-white transition hover:bg-emerald-600 sm:py-2">
                         <Mail className="h-4 w-4" /> Email
                       </a>
                     );
@@ -165,7 +165,7 @@ export function PublicHotelProfile() {
                     const waMsg = "Ciao! Ho trovato " + hotel.property_name + " su " + BRAND_NAME + " \u{1F60A} e vorrei chiedere gentilmente informazioni e disponibilit\u00E0 per le seguenti date: ... Grazie mille!";
                     const waHref = "https://wa.me/" + waPhone + "?text=" + encodeURIComponent(waMsg);
                     return (
-                      <a href={waHref} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full bg-green-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-green-700">
+                      <a href={waHref} target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 rounded-full bg-green-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-green-700 sm:py-2">
                         <Phone className="h-4 w-4" /> WhatsApp
                       </a>
                     );

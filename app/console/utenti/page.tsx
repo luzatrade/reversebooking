@@ -38,7 +38,7 @@ export default async function ConsoleUtentiPage() {
             status: <StatusBadge value={p.account_status} />,
             created: formatDate(p.created_at),
             actions: (
-              <div className="flex items-center gap-2">
+              <div className="flex flex-col gap-1.5 sm:flex-row sm:items-center sm:gap-2">
                 <AccountStatusSelect profileId={p.id} current={p.account_status} kind="profile" />
                 <ImpersonateButton userId={p.user_id} />
                 {p.role !== "admin" && <DeleteButton entity="user" id={p.user_id} />}

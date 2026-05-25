@@ -48,7 +48,7 @@ export default async function ConsoleStrutturePage() {
             status: <StatusBadge value={h.account_status} />,
             created: formatDate(h.created_at),
             actions: (
-              <div className="flex items-center gap-2">
+              <div className="flex flex-col gap-1.5 sm:flex-row sm:items-center sm:gap-2">
                 <AccountStatusSelect profileId={h.id} current={h.account_status} kind="hotel" />
                 <ImpersonateButton userId={h.user_id} />
                 <DeleteButton entity="hotel" id={h.id} />

@@ -46,7 +46,7 @@ export default async function ConsoleAnnunciPage() {
             status: <StatusBadge value={r.status} />,
             expires: formatDate(r.expires_at),
             actions: (
-              <div className="flex items-center gap-2">
+              <div className="flex flex-col gap-1.5 sm:flex-row sm:items-center sm:gap-2">
                 <RequestStatusSelect requestId={r.id} current={r.status} />
                 <DeleteButton entity="request" id={r.id} />
               </div>
