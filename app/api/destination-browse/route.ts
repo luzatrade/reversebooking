@@ -31,7 +31,7 @@ async function buildBrowseSlides(locale: "it" | "en"): Promise<DestinationSlider
 
 const getCachedBrowseSlides = unstable_cache(
   (locale: "it" | "en") => buildBrowseSlides(locale),
-  ["destination-browse-slides-v2"],
+  ["destination-browse-slides-v3"],
   { revalidate: 86400 },
 );
 

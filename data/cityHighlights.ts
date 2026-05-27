@@ -4,6 +4,7 @@ import {
   unsplashPhoto,
   TRAVEL_PHOTOS,
 } from "@/lib/destination-slider/cityPhotos";
+import { getCatalogLandmarkHighlights } from "@/data/catalogLandmarks";
 import { formatPoiLabel } from "@/lib/destination-slider/slideLabels";
 import type { DestinationSliderSlide } from "@/types/destination-slider";
 
@@ -314,15 +315,17 @@ function buildGenericHighlights(cityName: string, input: { cityId?: string | nul
   }));
 }
 
-/** Pacchetti curati Unsplash per le mete del catalogo (+ Reggio Wikimedia). */
+/** Pacchetti curati per mete fuori dal catalogo principale (+ Reggio Wikimedia). */
 export function getManualHighlightsForCity(input: {
   cityName: string;
   cityId?: string | null;
   countryCode?: string | null;
 }): CityHighlight[] {
   const canonicalId = resolveCanonicalCityId(input);
-  if (canonicalId && highlightsByCityId[canonicalId]) {
-    return highlightsByCityId[canonicalId];
+  if (canonicalId) {
+    const catalog = getCatalogLandmarkHighlights(canonicalId);
+    if (catalog) return catalog;
+    if (highlightsByCityId[canonicalId]) return highlightsByCityId[canonicalId];
   }
   return [];
 }

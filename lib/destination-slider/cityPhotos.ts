@@ -57,6 +57,8 @@ export const TRAVEL_PHOTOS: Record<string, string> = {
   // Madrid
   madridPlaza: "1543785734-4b6e564642f8",
   madridPalace: "1558642452-9d2a7deb7f62",
+  madridRetiro: "1741353171152-5a9cfc05e094",
+  madridTapas: "1565599837634-134bc3aadce8",
   // Berlino
   berlinGate: "1775045309134-7525be4e2f2d",
   berlinGateDusk: "1762983326643-1892404695e2",
@@ -220,7 +222,7 @@ const CITY_PHOTO_POOLS: Record<string, string[]> = {
   "FR-PAR": [TRAVEL_PHOTOS.paris, TRAVEL_PHOTOS.parisSeine, TRAVEL_PHOTOS.parisStreet, TRAVEL_PHOTOS.night],
   "GB-LON": [TRAVEL_PHOTOS.london, TRAVEL_PHOTOS.londonBridge, TRAVEL_PHOTOS.londonBigBen, TRAVEL_PHOTOS.night],
   "ES-BCN": [TRAVEL_PHOTOS.barcelonaSagrada, TRAVEL_PHOTOS.barcelonaAerial, TRAVEL_PHOTOS.europeStreet, TRAVEL_PHOTOS.beach],
-  "ES-MAD": [TRAVEL_PHOTOS.madridPlaza, TRAVEL_PHOTOS.madridPalace, TRAVEL_PHOTOS.europeStreet, TRAVEL_PHOTOS.culture],
+  "ES-MAD": [TRAVEL_PHOTOS.madridPlaza, TRAVEL_PHOTOS.madridPalace, TRAVEL_PHOTOS.madridRetiro, TRAVEL_PHOTOS.madridTapas],
   "DE-BER": [TRAVEL_PHOTOS.berlinGate, TRAVEL_PHOTOS.berlinGateDusk, TRAVEL_PHOTOS.europeStreet, TRAVEL_PHOTOS.night],
   "NL-AMS": [TRAVEL_PHOTOS.amsterdamCanal, TRAVEL_PHOTOS.amsterdamHouses, TRAVEL_PHOTOS.canal, TRAVEL_PHOTOS.europeStreet],
   "PT-LIS": [TRAVEL_PHOTOS.lisbonTram, TRAVEL_PHOTOS.lisbonPanorama, TRAVEL_PHOTOS.europeStreet, TRAVEL_PHOTOS.beach],
