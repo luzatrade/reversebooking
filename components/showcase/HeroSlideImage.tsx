@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { GLOBAL_TRAVEL_FALLBACK, picsumPhoto } from "@/lib/destination-slider/cityPhotos";
 
 type HeroSlideImageProps = {
@@ -21,6 +21,10 @@ export function HeroSlideImage({
   className = "h-full w-full object-cover",
 }: HeroSlideImageProps) {
   const [currentSrc, setCurrentSrc] = useState(src);
+
+  useEffect(() => {
+    setCurrentSrc(src);
+  }, [src]);
 
   return (
     <img

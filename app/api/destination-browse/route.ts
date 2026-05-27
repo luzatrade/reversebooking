@@ -31,7 +31,7 @@ async function buildBrowseSlides(locale: "it" | "en"): Promise<DestinationSlider
 
 const getCachedBrowseSlides = unstable_cache(
   (locale: "it" | "en") => buildBrowseSlides(locale),
-  ["destination-browse-slides-v3"],
+  ["destination-browse-slides-v4"],
   { revalidate: 86400 },
 );
 
@@ -45,7 +45,7 @@ export async function GET(request: NextRequest) {
       { mode: "browse" as const, slides, source: "curated" as const },
       {
         headers: {
-          "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=172800",
+          "Cache-Control": "public, max-age=0, must-revalidate, s-maxage=3600, stale-while-revalidate=86400",
         },
       },
     );

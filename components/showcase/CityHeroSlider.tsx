@@ -7,8 +7,11 @@ import { formatMessage } from "@/lib/i18n/format";
 import { findCityById } from "@/lib/constants/world-city-helpers";
 import type { WorldCity } from "@/lib/constants/world-cities";
 import type { DestinationSliderResponse, DestinationSliderSlide } from "@/types/destination-slider";
+import { DESTINATION_SLIDER_MEDIA_VERSION } from "@/lib/destination-slider/mediaVersion";
 import { slideDisplayTitle } from "@/lib/destination-slider/slideLabels";
 import { HeroSlideImage } from "@/components/showcase/HeroSlideImage";
+
+const SLIDER_FETCH_INIT: RequestInit = { cache: "no-store" };
 
 type CityHeroSliderProps = {
   selectedCity: WorldCity;
@@ -82,7 +85,10 @@ export function CityHeroSlider({ selectedCity, onSelectCity }: CityHeroSliderPro
     const controller = new AbortController();
     setBrowseLoading(true);
 
-    void fetch(`/api/destination-browse?locale=${locale}`, { signal: controller.signal })
+    void fetch(
+      `/api/destination-browse?locale=${locale}&media=${DESTINATION_SLIDER_MEDIA_VERSION}`,
+      { ...SLIDER_FETCH_INIT, signal: controller.signal },
+    )
       .then(async (response) => {
         if (!response.ok) throw new Error("Failed to load browse slider");
         return response.json() as Promise<{ slides?: DestinationSliderSlide[] }>;
@@ -111,6 +117,8 @@ export function CityHeroSlider({ selectedCity, onSelectCity }: CityHeroSliderPro
     }
 
     const controller = new AbortController();
+    setFocusSlides([]);
+    setFocusSource(null);
     setFocusLoading(true);
 
     const params = new URLSearchParams({
@@ -119,9 +127,13 @@ export function CityHeroSlider({ selectedCity, onSelectCity }: CityHeroSliderPro
       countryName: selectedCity.country_name || "",
       cityId: selectedCity.city_id || "",
       locale,
+      media: DESTINATION_SLIDER_MEDIA_VERSION,
     });
 
-    void fetch(`/api/destination-slider?${params.toString()}`, { signal: controller.signal })
+    void fetch(`/api/destination-slider?${params.toString()}`, {
+      ...SLIDER_FETCH_INIT,
+      signal: controller.signal,
+    })
       .then(async (response) => {
         if (!response.ok) throw new Error("Failed to load destination slider");
         return response.json() as Promise<DestinationSliderResponse>;
