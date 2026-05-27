@@ -202,9 +202,9 @@ export const translations = {
       homeTitle: "Home richieste e strutture",
       searchEyebrow: "Dove vuoi andare?",
       heroLine:
-        "Pubblica la richiesta, ricevi offerte dagli hotel senza commissioni.",
+        "Invia la tua richiesta e ricevi offerte senza commissioni dagli hotel nella zona selezionata.",
       homeTagline:
-        "Pubblica la richiesta, ricevi offerte dagli hotel senza commissioni.",
+        "Invia la tua richiesta e ricevi offerte senza commissioni dagli hotel nella zona selezionata.",
       heroTitle: "Non cerchi hotel: pubblichi dove e quando vuoi andare.",
       heroSubtitle:
         "Le strutture ti fanno offerte. Gratis per chi cerca, abbonamento per le strutture.",
@@ -1058,8 +1058,10 @@ export const translations = {
     showcase: {
       homeTitle: "Requests and properties home",
       searchEyebrow: "Where do you want to go?",
-      heroLine: "Publish your request, receive offers from hotels with no commission.",
-      homeTagline: "Publish your request, receive offers from hotels with no commission.",
+      heroLine:
+        "Send your request and receive commission-free offers from hotels in your selected area.",
+      homeTagline:
+        "Send your request and receive commission-free offers from hotels in your selected area.",
       heroTitle: "Don't search for hotels: publish where and when you want to travel.",
       heroSubtitle: "Properties send you offers. Free for travelers, subscription for properties.",
       selectCity: "Select city",
