@@ -101,21 +101,24 @@ export default function PrivacyPolicyPage() {
       </section>
 
       <section>
-        <h2>10. Base giuridica (indicativa)</h2>
+        <h2>10. Base giuridica</h2>
         <ul>
           <li>Esecuzione del contratto (fornitura della piattaforma).</li>
           <li>Consenso ove richiesto (es. cookie non necessari, comunicazioni promozionali).</li>
           <li>Obblighi di legge (es. conservazione documenti fiscali).</li>
-          <li>Legittimo interesse, sotto condizione di bilanciamento (es. sicurezza, prevenzione abusi), da verificare in sede di revisione legale.</li>
+          <li>
+            Legittimo interesse del Titolare, nel rispetto dei diritti e delle libertà dell’interessato (es.
+            sicurezza della piattaforma e prevenzione di abusi).
+          </li>
         </ul>
       </section>
 
       <section>
         <h2>11. Conservazione</h2>
         <p>
-          I criteri di conservazione dipendono dalla finalità: per la durata del rapporto contrattuale, poi
-          per i termini previsti da legge per documentazione fiscale e transazioni, salvo proroghe per
-          controversie. Periodi specifici vanno definiti in sede di data retention policy.
+          I dati sono conservati per il tempo necessario alle finalità indicate: per tutta la durata del
+          rapporto con la piattaforma e, successivamente, per i periodi previsti dalla legge (ad esempio
+          obblighi contabili e fiscali) o per la gestione di eventuali controversie.
         </p>
       </section>
 
@@ -131,31 +134,22 @@ export default function PrivacyPolicyPage() {
       <section>
         <h2>13. Contatti privacy</h2>
         <p>
-          Per richieste privacy: {company.supportEmail}. È possibile nominare un DPO: inserire qui i recapiti
-          dopo la nomina formale.
+          Per esercitare i diritti di cui alla sezione 12 o per qualsiasi richiesta relativa al trattamento dei
+          dati personali, scrivi a{" "}
+          <a className="font-medium underline" href={`mailto:${company.supportEmail}`}>
+            {company.supportEmail}
+          </a>
+          .
         </p>
       </section>
 
       <section>
-        <h2>14. Servizi terzi (infrastruttura e strumenti)</h2>
-        <ul>
-          <li>
-            <strong>Supabase</strong> — database, autenticazione ed eventuale storage.
-          </li>
-          <li>
-            <strong>Stripe</strong> — pagamenti, abbonamenti, fatturazione elettronica tramite i flussi Stripe
-            (verificare configurazione italiana con commercialista).
-          </li>
-          <li>
-            <strong>Resend</strong> — invio email transazionali (es. conferme, notifiche).
-          </li>
-          <li>
-            <strong>Vercel</strong> — hosting e distribuzione dell’applicazione web.
-          </li>
-        </ul>
+        <h2>14. Servizi terzi (pagamenti)</h2>
         <p>
-          I rapporti con tali fornitori devono essere regolati da accordi di trattamento (DPA) e da valutazioni
-          di adeguatezza ove applicabile.
+          I pagamenti e gli abbonamenti delle strutture ricettive sono gestiti da{" "}
+          <strong>Stripe Technology Europe Ltd.</strong>, che tratta i dati di pagamento come responsabile
+          autonomo secondo la propria informativa privacy. Il Titolare riceve da Stripe gli identificativi
+          necessari alla gestione dell’abbonamento e agli adempimenti contabili e fiscali connessi.
         </p>
       </section>
     </LegalPageShell>

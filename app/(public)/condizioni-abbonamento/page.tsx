@@ -42,8 +42,9 @@ export default function CondizioniAbbonamentoPage() {
         </p>
       </section>
       <section>
-        <p className="rounded-lg border border-zinc-200 bg-zinc-50 px-4 py-3 text-xs text-zinc-600 dark:border-zinc-800 dark:bg-zinc-950/60 dark:text-zinc-400">
-          Bozza tecnica da completare con il professionista. Per il quadro generale vedi anche{" "}
+        <h2>Riferimenti</h2>
+        <p>
+          Per il quadro generale del servizio consulta i{" "}
           <Link href="/termini-e-condizioni" className="font-medium underline">
             Termini e condizioni
           </Link>
