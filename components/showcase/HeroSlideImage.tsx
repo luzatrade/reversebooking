@@ -37,9 +37,13 @@ export function HeroSlideImage({
       draggable={false}
       onError={() => {
         setCurrentSrc((previous) => {
+          if (previous === GLOBAL_TRAVEL_FALLBACK) return previous;
+          // Slide curate: niente fallback random (picsum) che mostra foto incoerenti.
+          if (slideId.startsWith("curated-") || slideId.startsWith("browse-")) {
+            return GLOBAL_TRAVEL_FALLBACK;
+          }
           const picsum = picsumPhoto(`slide-${slideId}`);
           if (previous === picsum) return GLOBAL_TRAVEL_FALLBACK;
-          if (previous === GLOBAL_TRAVEL_FALLBACK) return picsum;
           return picsum;
         });
       }}

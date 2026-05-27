@@ -34,7 +34,7 @@ const getCachedFocusSlides = unstable_cache(
       },
       locale,
     ),
-  ["destination-slider-focus-v7"],
+  ["destination-slider-focus-v8"],
   { revalidate: 43200 },
 );
 
