@@ -107,9 +107,9 @@ export const translations = {
     },
     metadata: {
       siteDescription:
-        "Metti in contatto inserzionisti e strutture ricettive: annunci di richiesta di soggiorno e risposte con offerte dedicate.",
+        "Non cerchi hotel: pubblichi dove e quando vuoi andare e le strutture ti fanno offerte. Gratis per chi cerca, abbonamento per le strutture.",
       siteTitleTemplate: "%s · HotelsDrop",
-      siteTitleDefault: "HotelsDrop — Richieste di soggiorno e offerte",
+      siteTitleDefault: "HotelsDrop — Offerte hotel senza commissioni",
       contactsTitle: "Contatti",
       contactsDescription: "Recapiti, supporto e PEC di HotelsDrop.com.",
       registrationTitle: "Registrazione",
@@ -202,11 +202,12 @@ export const translations = {
       homeTitle: "Home richieste e strutture",
       searchEyebrow: "Dove vuoi andare?",
       heroLine:
-        "Non cercare un hotel, lascia che siano loro a trovare te. Scegli solo la meta e ricevi offerte vantaggiose.",
+        "Pubblica la richiesta, ricevi offerte dagli hotel senza commissioni.",
       homeTagline:
-        "Crea una richiesta, ricevi offerte personalizzate dagli hotel e negozia il prezzo migliore.",
-      heroTitle: "Non cercare un hotel, lascia che siano loro a trovare te.",
-      heroSubtitle: "Scegli solo la meta e ricevi offerte vantaggiose.",
+        "Pubblica la richiesta, ricevi offerte dagli hotel senza commissioni.",
+      heroTitle: "Non cerchi hotel: pubblichi dove e quando vuoi andare.",
+      heroSubtitle:
+        "Le strutture ti fanno offerte. Gratis per chi cerca, abbonamento per le strutture.",
       selectCity: "Seleziona città",
       citySearchPlaceholder: "Dove vuoi andare?",
       createRequest: "Crea richiesta",
@@ -965,9 +966,9 @@ export const translations = {
     },
     metadata: {
       siteDescription:
-        "Connect advertisers and hospitality properties: stay request listings and tailored offer responses.",
+        "Don't search for hotels: publish where and when you want to travel and properties send you offers. Free for travelers, subscription for properties.",
       siteTitleTemplate: "%s · HotelsDrop",
-      siteTitleDefault: "HotelsDrop — Stay requests and offers",
+      siteTitleDefault: "HotelsDrop — Hotel offers, no commission",
       contactsTitle: "Contact",
       contactsDescription: "HotelsDrop.com support contacts and certified email (PEC).",
       registrationTitle: "Sign up",
@@ -1057,10 +1058,10 @@ export const translations = {
     showcase: {
       homeTitle: "Requests and properties home",
       searchEyebrow: "Where do you want to go?",
-      heroLine: "Don't search for a hotel—let properties come to you. Pick your destination and receive competitive offers.",
-      homeTagline: "Create a request, receive personalized offers from hotels, and negotiate the best price.",
-      heroTitle: "Don't search for a hotel—let properties come to you.",
-      heroSubtitle: "Pick your destination and receive competitive offers.",
+      heroLine: "Publish your request, receive offers from hotels with no commission.",
+      homeTagline: "Publish your request, receive offers from hotels with no commission.",
+      heroTitle: "Don't search for hotels: publish where and when you want to travel.",
+      heroSubtitle: "Properties send you offers. Free for travelers, subscription for properties.",
       selectCity: "Select city",
       citySearchPlaceholder: "Where do you want to go?",
       createRequest: "Create request",
