@@ -95,10 +95,11 @@ body {
   padding-right: 1rem;
   text-align: center;
   font-family: var(--font-inter), Inter, ui-sans-serif, system-ui, sans-serif;
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 1.35;
-  color: #4285F4 !important;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: -0.012em;
+  color: #3f3f3f !important;
   white-space: normal;
   text-wrap: balance;
   hyphens: none;
@@ -109,8 +110,10 @@ body {
     max-width: min(100%, 42rem);
     margin-top: 96px;
     margin-bottom: 80px;
-    font-size: 20px;
-    line-height: 1.4;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.42;
+    color: #383838 !important;
   }
 }
 
