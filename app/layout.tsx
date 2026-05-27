@@ -38,13 +38,30 @@ export const viewport = {
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getServerTranslations();
+  const title = t.metadata.siteTitleDefault;
+  const description = t.metadata.siteDescription;
+  const siteUrl = getAppUrl();
+
   return {
-    metadataBase: new URL(getAppUrl()),
+    metadataBase: new URL(siteUrl),
     title: {
-      default: t.metadata.siteTitleDefault,
+      default: title,
       template: t.metadata.siteTitleTemplate,
     },
-    description: t.metadata.siteDescription,
+    description,
+    openGraph: {
+      type: "website",
+      url: siteUrl,
+      siteName: "HotelsDrop",
+      title,
+      description,
+      locale: "it_IT",
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
   };
 }
 
