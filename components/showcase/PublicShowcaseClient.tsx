@@ -236,7 +236,7 @@ export function PublicShowcaseClient() {
         </div>
       </header>
 
-      <p className="hd-home-tagline">{t.showcase.homeTagline}</p>
+      <p className="hd-home-tagline font-brand">{t.showcase.homeTagline}</p>
 
       <div className="hd-home-bento relative z-10 mx-auto flex max-w-7xl flex-col gap-3 px-4 pb-2 sm:gap-4 sm:px-6 lg:px-8">
         <section className="hd-bento-card hd-bento-search p-3 sm:p-4">
