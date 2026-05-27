@@ -83,37 +83,63 @@ body {
   width: 100%;
   justify-content: space-between;
 }
-.rb-soft-white-home .hd-home-tagline {
+/* Tagline premium sopra foto/video hero */
+.rb-soft-white-home .hd-home-tagline-over-media {
+  position: absolute;
+  top: 0.65rem;
+  left: 50%;
+  z-index: 25;
+  display: flex;
+  justify-content: center;
+  width: calc(100% - 1.25rem);
+  max-width: 44rem;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.rb-soft-white-home .hd-home-tagline-over-media .hd-home-tagline {
   box-sizing: border-box;
   width: 100%;
-  max-width: 21rem;
-  margin-top: 56px;
-  margin-bottom: 44px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  margin: 0;
+  padding: 0.7rem 1rem;
   text-align: center;
   font-family: var(--font-brand), ui-sans-serif, system-ui, sans-serif;
-  font-size: 1.125rem;
+  font-size: 0.9375rem;
   font-weight: 800;
-  line-height: 1.3;
-  letter-spacing: -0.02em;
-  color: #3a3a3a !important;
+  line-height: 1.35;
+  letter-spacing: -0.018em;
+  color: #ffffff !important;
+  background: linear-gradient(160deg, rgba(8, 12, 22, 0.9) 0%, rgba(15, 23, 42, 0.78) 100%);
+  border: 2px solid var(--hd-orange);
+  border-radius: 0.875rem;
+  box-shadow:
+    0 10px 36px rgba(0, 0, 0, 0.42),
+    0 0 0 1px rgba(255, 255, 255, 0.14) inset,
+    0 0 24px rgba(249, 115, 22, 0.22);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.55), 0 2px 12px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(16px) saturate(1.25);
+  -webkit-backdrop-filter: blur(16px) saturate(1.25);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   white-space: normal;
   text-wrap: balance;
   hyphens: none;
+  pointer-events: auto;
 }
 
 @media (min-width: 640px) {
-  .rb-soft-white-home .hd-home-tagline {
-    max-width: min(100%, 44rem);
-    margin-top: 80px;
-    margin-bottom: 72px;
-    font-size: 1.375rem;
+  .rb-soft-white-home .hd-home-tagline-over-media {
+    top: 0.85rem;
+    width: calc(100% - 2rem);
+  }
+
+  .rb-soft-white-home .hd-home-tagline-over-media .hd-home-tagline {
+    padding: 0.85rem 1.35rem;
+    font-size: 1.1875rem;
     line-height: 1.32;
     letter-spacing: -0.022em;
-    color: #353535 !important;
+    border-width: 2.5px;
+    border-radius: 1rem;
   }
 }
 
