@@ -10,10 +10,7 @@ export function LegalFooterCompact() {
         <p className="text-center text-xs text-zinc-500">
           © {new Date().getFullYear()} {company.legalEntityName} — {company.companyName}
         </p>
-        <LegalFooterLinks
-          includeStructureArea={false}
-          className="mt-3 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs"
-        />
+        <LegalFooterLinks className="mt-3 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-xs" />
       </div>
     </footer>
   );

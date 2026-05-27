@@ -6,13 +6,7 @@ import { useLanguage } from "@/components/i18n/LanguageProvider";
 const linkClass =
   "text-zinc-600 underline-offset-4 hover:text-zinc-900 hover:underline dark:text-zinc-400 dark:hover:text-zinc-100";
 
-export function LegalFooterLinks({
-  className = "",
-  includeStructureArea = true,
-}: {
-  className?: string;
-  includeStructureArea?: boolean;
-}) {
+export function LegalFooterLinks({ className = "" }: { className?: string }) {
   const { t } = useLanguage();
 
   return (
@@ -35,11 +29,6 @@ export function LegalFooterLinks({
       <Link className={linkClass} href="/contatti">
         {t.site.contacts}
       </Link>
-      {includeStructureArea ? (
-        <Link className={linkClass} href="/struttura">
-          {t.site.structureArea}
-        </Link>
-      ) : null}
     </nav>
   );
 }
