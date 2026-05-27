@@ -106,13 +106,11 @@ body {
 
 @media (min-width: 640px) {
   .rb-soft-white-home .hd-home-tagline {
-    max-width: min(100%, 72rem);
+    max-width: min(100%, 42rem);
     margin-top: 96px;
     margin-bottom: 80px;
     font-size: 20px;
     line-height: 1.4;
-    white-space: nowrap;
-    text-wrap: initial;
   }
 }
 
