@@ -457,10 +457,25 @@ body {
 }
 
 .rb-soft-white-home .hd-feed-card h2,
-.rb-soft-white-home .hd-feed-card h3,
-.rb-soft-white-home .hd-request-card h3 {
+.rb-soft-white-home .hd-feed-card h3 {
   color: var(--hd-text) !important;
   font-weight: 800 !important;
+}
+
+.rb-soft-white-home .hd-request-card h3 {
+  color: inherit !important;
+  font-weight: inherit !important;
+}
+
+.rb-soft-white-home .hd-request-card .hd-request-title-prefix {
+  color: #64748b !important;
+  font-weight: 400 !important;
+}
+
+.rb-soft-white-home .hd-request-card .hd-request-title-city {
+  color: #0f4c81 !important;
+  font-weight: 600 !important;
+  font-size: 1.125rem !important;
 }
 
 .rb-soft-white-home .hd-request-card {
