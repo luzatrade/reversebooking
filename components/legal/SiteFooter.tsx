@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
+import { LegalFooterLinks } from "@/components/legal/LegalFooterLinks";
 import { company, formatLegalAddress } from "@/lib/legal/company";
 
 const linkClass =
@@ -54,32 +54,7 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <nav
-          aria-label={t.site.legalLinksAria}
-          className="flex flex-wrap gap-x-4 gap-y-2 border-t border-zinc-200 pt-6 text-sm dark:border-zinc-800"
-        >
-          <Link className={linkClass} href="/note-legali">
-            {t.site.legalNav.legalNotice}
-          </Link>
-          <Link className={linkClass} href="/privacy-policy">
-            {t.site.legalNav.privacy}
-          </Link>
-          <Link className={linkClass} href="/cookie-policy">
-            {t.site.legalNav.cookies}
-          </Link>
-          <Link className={linkClass} href="/termini-e-condizioni">
-            {t.site.legalNav.terms}
-          </Link>
-          <Link className={linkClass} href="/condizioni-abbonamento">
-            {t.site.legalNav.subscription}
-          </Link>
-          <Link className={linkClass} href="/contatti">
-            {t.site.contacts}
-          </Link>
-          <Link className={linkClass} href="/struttura">
-            {t.site.structureArea}
-          </Link>
-        </nav>
+        <LegalFooterLinks className="flex flex-wrap gap-x-4 gap-y-2 border-t border-zinc-200 pt-6 text-sm dark:border-zinc-800" />
 
         <p className="text-xs text-zinc-500">
           © {new Date().getFullYear()} {company.legalEntityName} — {company.companyName}

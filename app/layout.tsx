@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter, Poppins } from "next/font/google";
 import { FloatingChatWidget } from "@/components/chat/FloatingChatWidget";
+import { AppFooter } from "@/components/legal/AppFooter";
 import { CookieBanner } from "@/components/legal/CookieBanner";
 import { LanguageProvider } from "@/components/i18n/LanguageProvider";
 import { getServerTranslations } from "@/lib/i18n/get-translations";
@@ -60,7 +61,8 @@ export default function RootLayout({
     >
       <body className="flex min-h-full flex-col overflow-x-hidden bg-zinc-50 text-zinc-900">
         <LanguageProvider>
-          {children}
+          <div className="flex min-h-full flex-1 flex-col">{children}</div>
+          <AppFooter />
           <FloatingChatWidget />
           <CookieBanner />
         </LanguageProvider>
