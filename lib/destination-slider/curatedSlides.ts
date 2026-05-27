@@ -1,8 +1,10 @@
 import {
   getManualHighlightsForCity,
   highlightsToSlides,
+  type CityHighlight,
 } from "@/data/cityHighlights";
-import { resolveCanonicalCityId } from "@/lib/destination-slider/cityPhotos";
+import { isCatalogCity } from "@/lib/destination-slider/catalogCities";
+import { getCityPhotoVariants, resolveCanonicalCityId } from "@/lib/destination-slider/cityPhotos";
 import { fetchCommonsPhotoUrl } from "@/lib/destination-slider/commonsPhotos";
 import { getDynamicEditorialHighlights } from "@/lib/destination-slider/dynamicEditorial";
 import type { DestinationSliderSlide } from "@/types/destination-slider";
@@ -26,7 +28,25 @@ async function resolveHighlightPhotoUrl(highlight: {
   return highlight.photoUrl;
 }
 
-async function resolveHighlights(input: CuratedInput) {
+function buildPoolHighlights(input: CuratedInput): CityHighlight[] {
+  const photos = getCityPhotoVariants({
+    cityName: input.cityName,
+    countryCode: input.countryCode,
+    cityId: input.cityId,
+    count: 4,
+  });
+
+  return photos.map((photoUrl, index) => ({
+    id: `pool-${index}`,
+    nameIt: index === 0 ? input.cityName : `${input.cityName} · luogo ${index + 1}`,
+    nameEn: index === 0 ? input.cityName : `${input.cityName} · place ${index + 1}`,
+    photoUrl,
+    hintIt: "Foto curata",
+    hintEn: "Curated photo",
+  }));
+}
+
+async function resolveHighlights(input: CuratedInput, locale: "it" | "en") {
   const canonicalId =
     resolveCanonicalCityId({
       cityName: input.cityName,
@@ -42,6 +62,11 @@ async function resolveHighlights(input: CuratedInput) {
 
   if (manual.length > 0) return manual;
 
+  // Mete del catalogo: mai etichette generiche + foto Commons a caso (es. "Musei" → cera di Nadal).
+  if (isCatalogCity(canonicalId)) {
+    return buildPoolHighlights({ ...input, cityId: canonicalId });
+  }
+
   return getDynamicEditorialHighlights({
     cityId: canonicalId,
     cityName: input.cityName,
@@ -56,7 +81,7 @@ export async function buildCuratedSlides(
   locale: "it" | "en",
   maxSlides = 6,
 ): Promise<DestinationSliderSlide[]> {
-  const highlights = await resolveHighlights(input);
+  const highlights = await resolveHighlights(input, locale);
 
   const enriched = await Promise.all(
     highlights.map(async (item) => ({

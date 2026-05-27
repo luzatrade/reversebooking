@@ -177,10 +177,9 @@ export function CityHeroSlider({ selectedCity, onSelectCity }: CityHeroSliderPro
     : t.destinationShowcase.subtitleBrowse;
 
   const usesWikipediaPhotos =
-    hasSelectedCity
-      ? !focusLoading &&
-        focusSlides.some((slide) => slide.id.startsWith("wiki-") || slide.id.startsWith("curated-"))
-      : !browseLoading && browseSlides.length > 0;
+    hasSelectedCity &&
+    !focusLoading &&
+    focusSlides.some((slide) => slide.id.startsWith("wiki-"));
 
   const showWikipediaAttribution = usesWikipediaPhotos && !isLoading;
 

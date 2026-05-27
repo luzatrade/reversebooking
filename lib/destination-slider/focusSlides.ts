@@ -1,4 +1,5 @@
 import { resolveCanonicalCityId } from "@/lib/destination-slider/cityPhotos";
+import { isCatalogCity } from "@/lib/destination-slider/catalogCities";
 import { buildCuratedSlides, shouldPreferCuratedPack } from "@/lib/destination-slider/curatedSlides";
 import { geocodeCity, formatLatLng, formatNearQuery } from "@/lib/foursquare/geocode";
 import { isFoursquareConfigured, placeToPhotoSlide, searchPlaces, type FoursquarePlace } from "@/lib/foursquare/client";
@@ -68,7 +69,9 @@ export async function buildFocusSlides(input: FocusInput, locale: "it" | "en" = 
     cityId: input.cityId,
   });
 
-  if (shouldPreferCuratedPack(input.cityName)) {
+  const catalogCity = isCatalogCity(canonicalId);
+
+  if (shouldPreferCuratedPack(input.cityName) || catalogCity) {
     const editorialSlides = await buildCuratedSlides(
       {
         cityName: input.cityName,
@@ -80,9 +83,13 @@ export async function buildFocusSlides(input: FocusInput, locale: "it" | "en" = 
       locale,
       MAX_SLIDES,
     );
-    if (editorialSlides.length >= 2) {
+    if (editorialSlides.length >= (catalogCity ? 1 : 2)) {
       return dedupeSlides(editorialSlides);
     }
+  }
+
+  if (catalogCity) {
+    return [];
   }
 
   const wikiSlides = await wikipediaSlidesLocalized(input, locale);
