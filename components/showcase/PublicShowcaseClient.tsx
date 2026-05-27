@@ -236,15 +236,9 @@ export function PublicShowcaseClient() {
         </div>
       </header>
 
-      <div className="hd-home-bento relative z-10 mx-auto flex max-w-7xl flex-col gap-3 px-4 pb-2 pt-2 sm:gap-4 sm:px-6 sm:pt-3 lg:px-8">
-        <section className="hd-bento-card overflow-hidden p-0">
-          <CityHeroSlider
-            selectedCity={selectedCity}
-            onSelectCity={setSelectedCity}
-            tagline={t.showcase.homeTagline}
-          />
-        </section>
+      <p className="hd-home-tagline font-brand">{t.showcase.homeTagline}</p>
 
+      <div className="hd-home-bento relative z-10 mx-auto flex max-w-7xl flex-col gap-3 px-4 pb-2 sm:gap-4 sm:px-6 lg:px-8">
         <section className="hd-bento-card hd-bento-search p-3 sm:p-4">
           <div className="flex flex-col gap-2.5 sm:gap-3">
             <CityAutocomplete
@@ -263,6 +257,10 @@ export function PublicShowcaseClient() {
               {t.showcase.clearSelectedCity}
             </button>
           ) : null}
+        </section>
+
+        <section className="hd-bento-card overflow-hidden p-0">
+          <CityHeroSlider selectedCity={selectedCity} onSelectCity={setSelectedCity} />
         </section>
       </div>
 <div className="relative z-0 mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8 lg:px-8">

@@ -16,7 +16,6 @@ const SLIDER_FETCH_INIT: RequestInit = { cache: "no-store" };
 type CityHeroSliderProps = {
   selectedCity: WorldCity;
   onSelectCity?: (city: WorldCity) => void;
-  tagline?: string;
 };
 
 function shuffleSlides<T>(items: T[]) {
@@ -28,7 +27,7 @@ function shuffleSlides<T>(items: T[]) {
   return copy;
 }
 
-export function CityHeroSlider({ selectedCity, onSelectCity, tagline }: CityHeroSliderProps) {
+export function CityHeroSlider({ selectedCity, onSelectCity }: CityHeroSliderProps) {
   const { t, locale } = useLanguage();
   const scrollRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -246,11 +245,6 @@ export function CityHeroSlider({ selectedCity, onSelectCity, tagline }: CityHero
       </div>
 
       <div className="relative -mx-1 sm:mx-0">
-        {tagline ? (
-          <div className="hd-home-tagline-over-media">
-            <p className="hd-home-tagline font-brand">{tagline}</p>
-          </div>
-        ) : null}
         {isLoading ? (
           <div aria-hidden className="hd-hero-media animate-pulse bg-slate-200" />
         ) : slideCount === 0 ? (
