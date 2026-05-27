@@ -204,6 +204,42 @@ const CITY_HERO_OVERRIDES: Record<string, string> = {
   "BR-RIO": TRAVEL_PHOTOS.beach,
 };
 
+/** 3–5 foto iconiche per ogni meta del catalogo browse. */
+const CITY_PHOTO_POOLS: Record<string, string[]> = {
+  "IT-ROM": [TRAVEL_PHOTOS.colosseum, TRAVEL_PHOTOS.colosseumSunrise, TRAVEL_PHOTOS.romeTrasteverse, TRAVEL_PHOTOS.romePantheon],
+  "IT-MIL": [TRAVEL_PHOTOS.milanDuomo, TRAVEL_PHOTOS.milanGalleria, TRAVEL_PHOTOS.europeStreet, TRAVEL_PHOTOS.night],
+  "IT-VCE": [TRAVEL_PHOTOS.veniceGrandCanal, TRAVEL_PHOTOS.veniceSunset, TRAVEL_PHOTOS.canal, TRAVEL_PHOTOS.europeStreet],
+  "IT-NAP": [TRAVEL_PHOTOS.naplesVesuvius, TRAVEL_PHOTOS.naplesCoast, TRAVEL_PHOTOS.taormina, TRAVEL_PHOTOS.beach],
+  "IT-FLR": [TRAVEL_PHOTOS.florence, TRAVEL_PHOTOS.florencePonteVecchio, TRAVEL_PHOTOS.culture, TRAVEL_PHOTOS.europeStreet],
+  "IT-SOR": [TRAVEL_PHOTOS.amalfiPositanoHill, TRAVEL_PHOTOS.amalfiPositanoSea, TRAVEL_PHOTOS.amalfiCoastCliffs, TRAVEL_PHOTOS.amalfiPositanoColors],
+  "IT-CQT": [TRAVEL_PHOTOS.cinqueTerre, TRAVEL_PHOTOS.beach, TRAVEL_PHOTOS.europeStreet, TRAVEL_PHOTOS.culture],
+  "IT-CMO": [TRAVEL_PHOTOS.lakeComo, TRAVEL_PHOTOS.europeStreet, TRAVEL_PHOTOS.culture, TRAVEL_PHOTOS.canal],
+  "IT-BRI": [TRAVEL_PHOTOS.pugliaTrulli, TRAVEL_PHOTOS.beach, TRAVEL_PHOTOS.europeStreet, TRAVEL_PHOTOS.culture],
+  "IT-TAO": [TRAVEL_PHOTOS.taormina, TRAVEL_PHOTOS.naplesCoast, TRAVEL_PHOTOS.beach, TRAVEL_PHOTOS.culture],
+  "IT-CAG": [TRAVEL_PHOTOS.sardinia, TRAVEL_PHOTOS.beach, TRAVEL_PHOTOS.culture, TRAVEL_PHOTOS.europeStreet],
+  "FR-PAR": [TRAVEL_PHOTOS.paris, TRAVEL_PHOTOS.parisSeine, TRAVEL_PHOTOS.parisStreet, TRAVEL_PHOTOS.night],
+  "GB-LON": [TRAVEL_PHOTOS.london, TRAVEL_PHOTOS.londonBridge, TRAVEL_PHOTOS.londonBigBen, TRAVEL_PHOTOS.night],
+  "ES-BCN": [TRAVEL_PHOTOS.barcelonaSagrada, TRAVEL_PHOTOS.barcelonaAerial, TRAVEL_PHOTOS.europeStreet, TRAVEL_PHOTOS.beach],
+  "ES-MAD": [TRAVEL_PHOTOS.madridPlaza, TRAVEL_PHOTOS.madridPalace, TRAVEL_PHOTOS.europeStreet, TRAVEL_PHOTOS.culture],
+  "DE-BER": [TRAVEL_PHOTOS.berlinGate, TRAVEL_PHOTOS.berlinGateDusk, TRAVEL_PHOTOS.europeStreet, TRAVEL_PHOTOS.night],
+  "NL-AMS": [TRAVEL_PHOTOS.amsterdamCanal, TRAVEL_PHOTOS.amsterdamHouses, TRAVEL_PHOTOS.canal, TRAVEL_PHOTOS.europeStreet],
+  "PT-LIS": [TRAVEL_PHOTOS.lisbonTram, TRAVEL_PHOTOS.lisbonPanorama, TRAVEL_PHOTOS.europeStreet, TRAVEL_PHOTOS.beach],
+  "CZ-PRG": [TRAVEL_PHOTOS.pragueBridge, TRAVEL_PHOTOS.pragueOld, TRAVEL_PHOTOS.europeStreet, TRAVEL_PHOTOS.night],
+  "AT-VIE": [TRAVEL_PHOTOS.viennaSchonbrunn, TRAVEL_PHOTOS.viennaPalace, TRAVEL_PHOTOS.culture, TRAVEL_PHOTOS.europeStreet],
+  "TR-IST": [TRAVEL_PHOTOS.istanbulMosque, TRAVEL_PHOTOS.istanbulSkyline, TRAVEL_PHOTOS.culture, TRAVEL_PHOTOS.night],
+  "GR-JTR": [TRAVEL_PHOTOS.santorini, TRAVEL_PHOTOS.santoriniSunset, TRAVEL_PHOTOS.beach, TRAVEL_PHOTOS.culture],
+  "AE-DXB": [TRAVEL_PHOTOS.dubai, TRAVEL_PHOTOS.dubaiMarina, TRAVEL_PHOTOS.night, TRAVEL_PHOTOS.culture],
+  "JP-TYO": [TRAVEL_PHOTOS.tokyo, TRAVEL_PHOTOS.tokyoShibuya, TRAVEL_PHOTOS.tokyoTemple, TRAVEL_PHOTOS.night],
+  "US-NYC": [TRAVEL_PHOTOS.nyc, TRAVEL_PHOTOS.nycBrooklyn, TRAVEL_PHOTOS.nycCentral, TRAVEL_PHOTOS.night],
+  "TH-BKK": [TRAVEL_PHOTOS.bangkokWatArun, TRAVEL_PHOTOS.bangkokWatSunset, TRAVEL_PHOTOS.bangkokWatNight, TRAVEL_PHOTOS.bangkokSkyline],
+  "TH-HKT": [TRAVEL_PHOTOS.phuketViewpoint, TRAVEL_PHOTOS.phuketIsland, TRAVEL_PHOTOS.phuketSunset, TRAVEL_PHOTOS.phuketBeach],
+};
+
+function poolForCity(canonicalId: string | null, countryCode?: string | null) {
+  if (canonicalId && CITY_PHOTO_POOLS[canonicalId]) return CITY_PHOTO_POOLS[canonicalId];
+  return poolForCountry(countryCode, canonicalId);
+}
+
 const CITY_NAME_ALIASES: Record<string, string> = {
   roma: "IT-ROM", rome: "IT-ROM",
   milano: "IT-MIL", milan: "IT-MIL",
@@ -338,7 +374,7 @@ export function getCityPhotoVariants(input: {
   const count = input.count ?? 5;
   const hero = getCityHeroImage(input);
   const canonicalId = resolveCanonicalCityId(input) ?? `${input.countryCode}-${normalizeText(input.cityName)}`;
-  const pool = poolForCountry(input.countryCode, canonicalId).map((id) => unsplashPhoto(id));
+  const pool = poolForCity(canonicalId, input.countryCode).map((id) => unsplashPhoto(id));
   const urls = [hero];
 
   for (const url of pool) {

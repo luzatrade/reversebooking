@@ -18,9 +18,6 @@ export type CityHighlight = {
   hintEn?: string;
 };
 
-/** Pacchetti manuali con URL Wikimedia fissi (qualità massima). */
-const MANUAL_WIKIMEDIA_CITY_IDS = new Set(["IT-REG"]);
-
 function w(
   id: string,
   nameIt: string,
@@ -49,28 +46,27 @@ function h(
 const highlightsByCityId: Record<string, CityHighlight[]> = {
   "IT-ROM": [
     h("rome-colosseum", "Colosseo", "Colosseum", P.colosseum, "Icona imperiale", "Imperial landmark"),
-    h("rome-street", "Centro storico", "Historic center", P.europeStreet, "Tridente e piazze", "Squares & alleys"),
-    h("rome-culture", "Musei Capitolini", "Capitoline Museums", P.culture, "Arte e storia", "Art & history"),
-    h("rome-canal", "Trastevere", "Trastevere", P.canal, "Vita locale", "Local life"),
-    h("rome-night", "Vista notturna", "Night views", P.night, "Roma by night", "Rome at night"),
+    h("rome-pantheon", "Pantheon", "Pantheon", P.romePantheon, "Cupola e colonne", "Dome & columns"),
+    h("rome-trastevere", "Trastevere", "Trastevere", P.romeTrasteverse, "Vicoli e trattorie", "Alleys & trattorias"),
+    h("rome-sunrise", "Colosseo all'alba", "Colosseum at dawn", P.colosseumSunrise, "Luce dorata", "Golden light"),
   ],
   "IT-MIL": [
-    h("mil-duomo", "Duomo di Milano", "Milan Cathedral", P.night, "Piazza del Duomo", "Duomo square"),
-    h("mil-galleria", "Galleria Vittorio Emanuele II", "Galleria Vittorio Emanuele II", P.europeStreet, "Shopping", "Shopping"),
+    h("mil-duomo", "Duomo di Milano", "Milan Cathedral", P.milanDuomo, "Piazza del Duomo", "Duomo square"),
+    h("mil-galleria", "Galleria Vittorio Emanuele II", "Galleria Vittorio Emanuele II", P.milanGalleria, "Portici iconici", "Iconic arcades"),
     h("mil-navigli", "Navigli", "Navigli canals", P.canal, "Vita notturna", "Nightlife"),
-    h("mil-brera", "Brera", "Brera", P.culture, "Quartiere artistico", "Arts district"),
+    h("mil-night", "Milano by night", "Milan at night", P.night, "Luci in centro", "City lights"),
   ],
   "IT-FLR": [
     h("flr-duomo", "Duomo di Firenze", "Florence Cathedral", P.florence, "Centro UNESCO", "UNESCO center"),
-    h("flr-arno", "Lungarni", "Arno riverfront", P.canal, "Sull'Arno", "On the Arno"),
-    h("flr-uffizi", "Galleria degli Uffizi", "Uffizi Gallery", P.culture, "Arte rinascimentale", "Renaissance art"),
+    h("flr-ponte", "Ponte Vecchio", "Ponte Vecchio", P.florencePonteVecchio, "Sull'Arno", "On the Arno"),
+    h("flr-arno", "Lungarni", "Arno riverfront", P.canal, "Tramonto sull'Arno", "Arno sunset"),
     h("flr-street", "Oltrarno", "Oltrarno", P.europeStreet, "Artigianato", "Craftsmen quarter"),
   ],
   "IT-VCE": [
-    h("vce-canal", "Canal Grande", "Grand Canal", P.canal, "In gondola", "By gondola"),
-    h("vce-san-marco", "Piazza San Marco", "St. Mark's Square", P.europeStreet, "Cuore di Venezia", "Heart of Venice"),
-    h("vce-bridge", "Ponte di Rialto", "Rialto Bridge", P.florence, "Sul Canal Grande", "On the Grand Canal"),
-    h("vce-islands", "Isola di Burano", "Burano island", P.beach, "Case colorate", "Colorful houses"),
+    h("vce-canal", "Canal Grande", "Grand Canal", P.veniceGrandCanal, "In gondola", "By gondola"),
+    h("vce-sunset", "Venezia al tramonto", "Venice at sunset", P.veniceSunset, "Luci sull'acqua", "Lights on water"),
+    h("vce-bridge", "Ponte di Rialto", "Rialto Bridge", P.canal, "Cuore di Venezia", "Heart of Venice"),
+    h("vce-street", "Calli e campielli", "Alleys & squares", P.europeStreet, "Centro storico", "Historic center"),
   ],
   "IT-REG": [
     w(
@@ -131,9 +127,9 @@ const highlightsByCityId: Record<string, CityHighlight[]> = {
     ),
   ],
   "IT-NAP": [
-    h("nap-center", "Centro storico", "Historic center", P.beach, "Spaccanapoli", "Spaccanapoli"),
-    h("nap-sea", "Lungomare", "Seafront", P.beach, "Vista sul golfo", "Gulf views"),
-    h("nap-culture", "Museo Archeologico", "Archaeological Museum", P.culture, "Pompei e Ercolano", "Pompeii & Herculaneum"),
+    h("nap-vesuvio", "Vesuvio e golfo", "Vesuvius & bay", P.naplesVesuvius, "Panorama iconico", "Iconic view"),
+    h("nap-coast", "Costa napoletana", "Naples coast", P.naplesCoast, "Mare e scogliere", "Sea & cliffs"),
+    h("nap-center", "Centro storico", "Historic center", P.europeStreet, "Spaccanapoli", "Spaccanapoli"),
     h("nap-food", "Quartieri vivaci", "Lively districts", P.night, "Pizza e mercati", "Pizza & markets"),
   ],
   "IT-BLQ": [
@@ -161,94 +157,135 @@ const highlightsByCityId: Record<string, CityHighlight[]> = {
     h("mat-street", "Vicoli", "Alleyways", P.night, "Atmosfera unica", "Unique atmosphere"),
   ],
   "IT-SOR": [
-    h("sor-center", "Centro storico", "Historic center", P.beach, "Costiera", "Amalfi Coast"),
-    h("sor-marina", "Marina Grande", "Marina Grande", P.canal, "Vista sul mare", "Sea views"),
-    h("sor-path", "Sentiero dei Limoni", "Path of Lemons", P.culture, "Trekking leggero", "Easy hiking"),
-    h("sor-capri", "Vista su Capri", "Capri views", P.florence, "Isola vicina", "Nearby island"),
+    h("sor-positano", "Positano", "Positano", P.amalfiPositanoHill, "Case colorate", "Colorful houses"),
+    h("sor-sea", "Vista dal mare", "Sea view", P.amalfiPositanoSea, "Costiera", "Amalfi Coast"),
+    h("sor-cliffs", "Scogliere", "Coastal cliffs", P.amalfiCoastCliffs, "Panorama", "Panorama"),
+    h("sor-colors", "Villaggi costieri", "Coastal villages", P.amalfiPositanoColors, "Vista iconica", "Iconic view"),
+  ],
+  "IT-CQT": [
+    h("cqt-village", "Manarola", "Manarola", P.cinqueTerre, "Borgo sul mare", "Seaside village"),
+    h("cqt-trail", "Sentiero Azzurro", "Blue Trail", P.beach, "Trekking panoramico", "Scenic hike"),
+    h("cqt-coast", "Scogliere liguri", "Ligurian cliffs", P.europeStreet, "Costa UNESCO", "UNESCO coast"),
+    h("cqt-sea", "Mare Ligure", "Ligurian Sea", P.culture, "Acque cristalline", "Crystal waters"),
+  ],
+  "IT-CMO": [
+    h("cmo-lake", "Lago di Como", "Lake Como", P.lakeComo, "Ville e monti", "Villas & mountains"),
+    h("cmo-bellagio", "Bellagio", "Bellagio", P.europeStreet, "Perla del lago", "Pearl of the lake"),
+    h("cmo-villa", "Ville storiche", "Historic villas", P.culture, "Giardini sul lago", "Lake gardens"),
+    h("cmo-boat", "Tour in barca", "Boat tour", P.canal, "Vista dal lago", "Lake view"),
+  ],
+  "IT-BRI": [
+    h("bri-trulli", "Alberobello", "Alberobello", P.pugliaTrulli, "Trulli UNESCO", "UNESCO trulli"),
+    h("bri-sea", "Costa adriatica", "Adriatic coast", P.beach, "Mare e spiagge", "Sea & beaches"),
+    h("bri-old", "Centro storico", "Historic center", P.europeStreet, "Bari vecchia", "Old Bari"),
+    h("bri-food", "Cucina pugliese", "Puglia cuisine", P.night, "Orecchiette e mare", "Pasta & sea"),
+  ],
+  "IT-CAG": [
+    h("cag-beach", "Costa smeralda", "Emerald Coast", P.sardinia, "Mare turchese", "Turquoise sea"),
+    h("cag-coast", "Spiagge della Sardegna", "Sardinian beaches", P.beach, "Paradiso mediterraneo", "Mediterranean paradise"),
+    h("cag-old", "Centro storico", "Historic center", P.europeStreet, "Cagliari", "Cagliari"),
+    h("cag-nature", "Natura selvaggia", "Wild nature", P.culture, "Scogliere e macchia", "Cliffs & scrubland"),
   ],
   "IT-TAO": [
-    h("tao-greek", "Teatro Greco", "Greek Theatre", P.beach, "Vista sull'Etna", "Etna views"),
+    h("tao-greek", "Teatro Greco", "Greek Theatre", P.taormina, "Vista sull'Etna", "Etna views"),
     h("tao-corso", "Corso Umberto", "Corso Umberto", P.europeStreet, "Passeggiata", "Evening stroll"),
-    h("tao-beach", "Isola Bella", "Isola Bella", P.canal, "Baia turchese", "Turquoise bay"),
-    h("tao-food", "Cucina siciliana", "Sicilian cuisine", P.night, "Granita e cannoli", "Granita & cannoli"),
+    h("tao-beach", "Isola Bella", "Isola Bella", P.beach, "Baia turchese", "Turquoise bay"),
+    h("tao-coast", "Costa siciliana", "Sicilian coast", P.naplesCoast, "Mare cristallino", "Crystal sea"),
   ],
   "FR-PAR": [
     h("par-eiffel", "Torre Eiffel", "Eiffel Tower", P.paris, "Champ de Mars", "Champ de Mars"),
-    h("par-louvre", "Museo del Louvre", "Louvre Museum", P.parisStreet, "Parigi centro", "Central Paris"),
-    h("par-street", "Montmartre", "Montmartre", P.europeStreet, "Sacré-Cœur", "Sacré-Cœur"),
-    h("par-seine", "Rive gauche", "Left Bank", P.canal, "Sulla Senna", "On the Seine"),
+    h("par-seine", "Rive gauche", "Left Bank", P.parisSeine, "Sulla Senna", "On the Seine"),
+    h("par-street", "Montmartre", "Montmartre", P.parisStreet, "Sacré-Cœur", "Sacré-Cœur"),
     h("par-night", "Luci della città", "City lights", P.night, "Sera parigina", "Parisian evening"),
   ],
   "GB-LON": [
     h("lon-bridge", "Tower Bridge", "Tower Bridge", P.london, "Thames", "River Thames"),
-    h("lon-eye", "London Eye", "London Eye", P.night, "South Bank", "South Bank"),
-    h("lon-street", "Westminster", "Westminster", P.europeStreet, "Parlamento", "Parliament"),
-    h("lon-culture", "British Museum", "British Museum", P.culture, "Musei gratuiti", "Free museums"),
+    h("lon-bigben", "Big Ben", "Big Ben", P.londonBigBen, "Westminster", "Westminster"),
+    h("lon-eye", "London Eye", "London Eye", P.londonBridge, "South Bank", "South Bank"),
+    h("lon-night", "Luci notturne", "Night lights", P.night, "Skyline", "Skyline"),
   ],
   "ES-BCN": [
-    h("bcn-sagrada", "Sagrada Família", "Sagrada Família", P.europeStreet, "Gaudí", "Gaudí"),
-    h("bcn-gothic", "Barrio Gótico", "Gothic Quarter", P.florence, "Storia medievale", "Medieval history"),
-    h("bcn-rambla", "La Rambla", "La Rambla", P.night, "Centro", "City center"),
+    h("bcn-sagrada", "Sagrada Família", "Sagrada Família", P.barcelonaSagrada, "Gaudí", "Gaudí"),
+    h("bcn-aerial", "Skyline", "Skyline", P.barcelonaAerial, "Vista aerea", "Aerial view"),
+    h("bcn-gothic", "Barrio Gótico", "Gothic Quarter", P.europeStreet, "Storia medievale", "Medieval history"),
     h("bcn-beach", "Barceloneta", "Barceloneta", P.beach, "Mare urbano", "Urban beach"),
   ],
   "ES-MAD": [
-    h("mad-plaza", "Plaza Mayor", "Plaza Mayor", P.europeStreet, "Centro", "City center"),
+    h("mad-plaza", "Plaza Mayor", "Plaza Mayor", P.madridPlaza, "Centro", "City center"),
+    h("mad-palace", "Palacio Real", "Royal Palace", P.madridPalace, "Madrid classico", "Classic Madrid"),
     h("mad-park", "Parco del Retiro", "Retiro Park", P.culture, "Verde in città", "Green oasis"),
-    h("mad-palace", "Palacio Real", "Royal Palace", P.florence, "Madrid classico", "Classic Madrid"),
     h("mad-food", "Tapas", "Tapas bars", P.night, "Mercato di San Miguel", "San Miguel market"),
   ],
   "DE-BER": [
-    h("ber-gate", "Porta di Brandeburgo", "Brandenburg Gate", P.europeStreet, "Mitte", "Mitte district"),
-    h("ber-wall", "East Side Gallery", "East Side Gallery", P.culture, "Storia recente", "Recent history"),
-    h("ber-museum", "Museum Island", "Museum Island", P.florence, "UNESCO", "UNESCO"),
+    h("ber-gate", "Porta di Brandeburgo", "Brandenburg Gate", P.berlinGate, "Mitte", "Mitte district"),
+    h("ber-dusk", "Brandeburgo al tramonto", "Gate at dusk", P.berlinGateDusk, "Luci serali", "Evening lights"),
+    h("ber-museum", "Museum Island", "Museum Island", P.culture, "UNESCO", "UNESCO"),
     h("ber-night", "Vita notturna", "Nightlife", P.night, "Kreuzberg", "Kreuzberg"),
   ],
   "NL-AMS": [
-    h("ams-canal", "Canali del centro", "Central canals", P.canal, "In bici", "By bike"),
-    h("ams-museum", "Museo Van Gogh", "Van Gogh Museum", P.culture, "Museumplein", "Museumplein"),
+    h("ams-canal", "Canali del centro", "Central canals", P.amsterdamCanal, "In bici", "By bike"),
+    h("ams-houses", "Case di Amsterdam", "Canal houses", P.amsterdamHouses, "Facciate storiche", "Historic facades"),
     h("ams-street", "Jordaan", "Jordaan", P.europeStreet, "Quartiere trendy", "Trendy quarter"),
-    h("ams-market", "Mercato dei fiori", "Flower market", P.florence, "Bloemenmarkt", "Bloemenmarkt"),
+    h("ams-market", "Mercato dei fiori", "Flower market", P.culture, "Bloemenmarkt", "Bloemenmarkt"),
   ],
   "PT-LIS": [
-    h("lis-tram", "Tram 28", "Tram 28", P.europeStreet, "Alfama", "Alfama"),
+    h("lis-tram", "Tram 28", "Tram 28", P.lisbonTram, "Alfama", "Alfama"),
+    h("lis-panorama", "Miradouros", "Viewpoints", P.lisbonPanorama, "Tramonto", "Sunset"),
     h("lis-tower", "Torre di Belém", "Belém Tower", P.beach, "Fiume Tago", "Tagus river"),
-    h("lis-view", "Miradouros", "Viewpoints", P.florence, "Tramonto", "Sunset"),
     h("lis-food", "Pastéis de nata", "Pastéis de nata", P.night, "Bairro Alto", "Bairro Alto"),
   ],
+  "CZ-PRG": [
+    h("prg-bridge", "Ponte Carlo", "Charles Bridge", P.pragueBridge, "Moldava", "Vltava river"),
+    h("prg-old", "Città Vecchia", "Old Town", P.pragueOld, "Centro storico", "Historic center"),
+    h("prg-square", "Piazza della Città Vecchia", "Old Town Square", P.europeStreet, "Orologio astronomico", "Astronomical clock"),
+    h("prg-night", "Praga by night", "Prague at night", P.night, "Luci sul fiume", "River lights"),
+  ],
+  "AT-VIE": [
+    h("vie-schonbrunn", "Schönbrunn", "Schönbrunn Palace", P.viennaSchonbrunn, "Giardini imperiali", "Imperial gardens"),
+    h("vie-palace", "Palazzo di Hofburg", "Hofburg Palace", P.viennaPalace, "Centro storico", "Historic center"),
+    h("vie-cafe", "Caffè viennesi", "Viennese cafés", P.culture, "Tradizione", "Tradition"),
+    h("vie-street", "Ringstrasse", "Ringstrasse", P.europeStreet, "Architettura", "Architecture"),
+  ],
+  "GR-JTR": [
+    h("jtr-caldera", "Caldera di Santorini", "Santorini caldera", P.santorini, "Case bianche", "White houses"),
+    h("jtr-sunset", "Tramonto a Oia", "Oia sunset", P.santoriniSunset, "Vista iconica", "Iconic view"),
+    h("jtr-beach", "Spiagge vulcaniche", "Volcanic beaches", P.beach, "Mare Egeo", "Aegean Sea"),
+    h("jtr-street", "Vicoli di Fira", "Fira alleys", P.europeStreet, "Cicladi", "Cyclades"),
+  ],
   "JP-TYO": [
-    h("tyo-shibuya", "Shibuya Crossing", "Shibuya Crossing", P.tokyo, "Cuore di Tokyo", "Heart of Tokyo"),
-    h("tyo-senso", "Senso-ji", "Senso-ji Temple", P.temple, "Asakusa", "Asakusa"),
-    h("tyo-meiji", "Santuario Meiji", "Meiji Shrine", P.japan, "Parco Yoyogi", "Yoyogi Park"),
+    h("tyo-shibuya", "Shibuya Crossing", "Shibuya Crossing", P.tokyoShibuya, "Cuore di Tokyo", "Heart of Tokyo"),
+    h("tyo-senso", "Senso-ji", "Senso-ji Temple", P.tokyoTemple, "Asakusa", "Asakusa"),
+    h("tyo-skyline", "Skyline di Tokyo", "Tokyo skyline", P.tokyo, "Torri moderne", "Modern towers"),
     h("tyo-night", "Shinjuku", "Shinjuku", P.night, "Luci al neon", "Neon lights"),
   ],
   "US-NYC": [
     h("nyc-skyline", "Skyline di Manhattan", "Manhattan skyline", P.nyc, "Downtown", "Downtown"),
-    h("nyc-bridge", "Brooklyn Bridge", "Brooklyn Bridge", P.europeStreet, "East River", "East River"),
-    h("nyc-park", "Central Park", "Central Park", P.culture, "Oasi verde", "Green oasis"),
+    h("nyc-bridge", "Brooklyn Bridge", "Brooklyn Bridge", P.nycBrooklyn, "East River", "East River"),
+    h("nyc-park", "Central Park", "Central Park", P.nycCentral, "Oasi verde", "Green oasis"),
     h("nyc-night", "Times Square", "Times Square", P.night, "Luci e teatri", "Lights & theaters"),
   ],
   "TH-HKT": [
-    h("pkt-beach", "Patong Beach", "Patong Beach", P.beach, "Mare Andamano", "Andaman Sea"),
-    h("pkt-island", "Isole Phi Phi", "Phi Phi Islands", P.canal, "Giornata in barca", "Boat day trip"),
-    h("pkt-temple", "Templi", "Temples", P.temple, "Cultura thai", "Thai culture"),
-    h("pkt-old", "Phuket Old Town", "Phuket Old Town", P.europeStreet, "Sino-portoghese", "Sino-Portuguese"),
+    h("pkt-view", "Panorama Phuket", "Phuket viewpoint", P.phuketViewpoint, "Vista dalla collina", "Hill view"),
+    h("pkt-island", "Isola tropicale", "Tropical island", P.phuketIsland, "Mare Andamano", "Andaman Sea"),
+    h("pkt-sunset", "Tramonto a Patong", "Patong sunset", P.phuketSunset, "Spiaggia dorata", "Golden beach"),
+    h("pkt-beach", "Patong Beach", "Patong Beach", P.phuketBeach, "Mare cristallino", "Crystal sea"),
   ],
   "TH-BKK": [
-    h("bkk-palace", "Grand Palace", "Grand Palace", P.temple, "Rattanakosin", "Rattanakosin"),
-    h("bkk-market", "Mercati galleggianti", "Floating markets", P.canal, "Canali", "Canals"),
-    h("bkk-street", "Street food", "Street food", P.night, "Chinatown", "Chinatown"),
-    h("bkk-mall", "Skyline moderno", "Modern skyline", P.tokyo, "Sukhumvit", "Sukhumvit"),
+    h("bkk-arun", "Wat Arun", "Wat Arun", P.bangkokWatArun, "Chao Phraya", "Chao Phraya"),
+    h("bkk-sunset", "Wat Arun al tramonto", "Wat Arun at sunset", P.bangkokWatSunset, "Cielo colorato", "Colorful sky"),
+    h("bkk-night", "Wat Arun di notte", "Wat Arun at night", P.bangkokWatNight, "Luci sul fiume", "River lights"),
+    h("bkk-skyline", "Skyline moderno", "Modern skyline", P.bangkokSkyline, "Sukhumvit", "Sukhumvit"),
   ],
   "AE-DXB": [
     h("dxb-burj", "Burj Khalifa", "Burj Khalifa", P.dubai, "Downtown", "Downtown"),
-    h("dxb-marina", "Dubai Marina", "Dubai Marina", P.marina, "Skyline moderno", "Modern skyline"),
+    h("dxb-marina", "Dubai Marina", "Dubai Marina", P.dubaiMarina, "Skyline moderno", "Modern skyline"),
+    h("dxb-night", "Luci della città", "City lights", P.night, "Futurismo", "Futuristic"),
     h("dxb-desert", "Deserto", "Desert safari", P.beach, "Dune bashing", "Dune bashing"),
-    h("dxb-old", "Al Fahidi", "Al Fahidi", P.culture, "Dubai storica", "Historic Dubai"),
   ],
   "TR-IST": [
-    h("ist-hagia", "Santa Sofia", "Hagia Sophia", P.temple, "Sultanahmet", "Sultanahmet"),
+    h("ist-hagia", "Santa Sofia", "Hagia Sophia", P.istanbulMosque, "Sultanahmet", "Sultanahmet"),
+    h("ist-skyline", "Skyline sul Bosforo", "Bosphorus skyline", P.istanbulSkyline, "Due continenti", "Two continents"),
     h("ist-bazaar", "Gran Bazar", "Grand Bazaar", P.europeStreet, "Shopping", "Shopping"),
-    h("ist-bosphorus", "Crociera sul Bosforo", "Bosphorus cruise", P.canal, "Due continenti", "Two continents"),
     h("ist-food", "Cucina turca", "Turkish cuisine", P.night, "Mercati", "Markets"),
   ],
   "AU-SYD": [
@@ -277,14 +314,14 @@ function buildGenericHighlights(cityName: string, input: { cityId?: string | nul
   }));
 }
 
-/** Solo pacchetti curati a mano (es. Reggio). Le altre città usano generazione dinamica Commons. */
+/** Pacchetti curati Unsplash per le mete del catalogo (+ Reggio Wikimedia). */
 export function getManualHighlightsForCity(input: {
   cityName: string;
   cityId?: string | null;
   countryCode?: string | null;
 }): CityHighlight[] {
   const canonicalId = resolveCanonicalCityId(input);
-  if (canonicalId && MANUAL_WIKIMEDIA_CITY_IDS.has(canonicalId) && highlightsByCityId[canonicalId]) {
+  if (canonicalId && highlightsByCityId[canonicalId]) {
     return highlightsByCityId[canonicalId];
   }
   return [];
