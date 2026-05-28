@@ -1,5 +1,6 @@
 import { createClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
+import { requireApiUser } from "@/lib/auth/api";
 import { company } from "@/lib/legal/company";
 import { escapeHtml, sendEmailNotification } from "@/lib/notifications/email";
 
@@ -8,6 +9,9 @@ function getClient() { const url = process.env.NEXT_PUBLIC_SUPABASE_URL; const k
 function code(value: string | null | undefined) { return value || "RB------"; }
 
 export async function POST(request: Request) {
+  const gate = await requireApiUser(request);
+  if ("error" in gate) return gate.error;
+
   let body: Body;
   try { body = (await request.json()) as Body; } catch { return NextResponse.json({ error: "JSON non valido" }, { status: 400 }); }
   if (!body.offerId) return NextResponse.json({ error: "offerId obbligatorio" }, { status: 400 });

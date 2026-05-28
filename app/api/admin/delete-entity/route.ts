@@ -7,7 +7,7 @@ type Body = {
 };
 
 export async function POST(request: Request) {
-  const gate = await requireAdminApi();
+  const gate = await requireAdminApi(request);
   if ("error" in gate) return gate.error;
 
   const body = (await request.json()) as Body;

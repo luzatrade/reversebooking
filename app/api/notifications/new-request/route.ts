@@ -1,5 +1,6 @@
 import { createClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
+import { requireApiUser } from "@/lib/auth/api";
 import { escapeHtml, sendEmailNotification } from "@/lib/notifications/email";
 
 type Body = { requestId?: string };
@@ -51,6 +52,9 @@ function buildDirectRequestHtml(
 }
 
 export async function POST(request: Request) {
+  const gate = await requireApiUser(request);
+  if ("error" in gate) return gate.error;
+
   let body: Body;
   try {
     body = (await request.json()) as Body;

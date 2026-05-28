@@ -4,7 +4,7 @@ import { requireAdminApi } from "@/lib/admin/verify";
 const ALLOWED = new Set(["pending_verification", "active", "suspended", "banned"]);
 
 export async function POST(request: Request) {
-  const gate = await requireAdminApi();
+  const gate = await requireAdminApi(request);
   if ("error" in gate) return gate.error;
 
   const body = (await request.json()) as { profileId?: string; accountStatus?: string };
@@ -17,6 +17,6 @@ export async function POST(request: Request) {
     .update({ account_status: body.accountStatus })
     .eq("id", body.profileId);
 
-  if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+  if (error) return NextResponse.json({ error: "Aggiornamento non riuscito" }, { status: 500 });
   return NextResponse.json({ ok: true });
 }

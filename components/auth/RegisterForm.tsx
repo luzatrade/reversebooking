@@ -112,7 +112,12 @@ export function RegisterForm() {
     ? (email.includes("@") ? t.auth.registerEmailInvalidFormat : t.auth.registerEmailMissingAt)
     : null;
 
-  const canSubmit = legalAccepted && emailRegex.test(email) && password.length >= 8;
+  const canSubmit =
+    legalAccepted &&
+    emailRegex.test(email) &&
+    password.length >= 10 &&
+    /[A-Za-z]/.test(password) &&
+    /[0-9]/.test(password);
 
   return (
     <form onSubmit={onSubmit} className="mx-auto max-w-lg space-y-6 rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">

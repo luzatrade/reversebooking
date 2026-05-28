@@ -156,7 +156,7 @@ export const translations = {
       chooseCreating: "Creazione...",
       chooseGenericError: "Errore durante la scelta account.",
       sessionNotFound: "Sessione non trovata. Accedi di nuovo.",
-      registerPasswordHint: "Password (min. 8 caratteri)",
+      registerPasswordHint: "Password (min. 10 caratteri, con lettere e numeri)",
       registerAccountType: "Tipo account",
       registerAdvertiserOption:
         "Inserzionista (annunci gratuiti — nessuna fatturazione obbligatoria da piattaforma)",
@@ -1015,7 +1015,7 @@ export const translations = {
       chooseCreating: "Creating...",
       chooseGenericError: "Error while choosing account type.",
       sessionNotFound: "Session not found. Please sign in again.",
-      registerPasswordHint: "Password (min. 8 characters)",
+      registerPasswordHint: "Password (min. 10 characters, with letters and numbers)",
       registerAccountType: "Account type",
       registerAdvertiserOption:
         "Advertiser (free listings — no mandatory platform subscription billing)",

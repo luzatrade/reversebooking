@@ -8,7 +8,11 @@ export const phoneSchema = z.string().regex(e164Phone, "Usa formato internaziona
 export const accountBaseSchema = z.object({
   email: emailSchema,
   phoneNumber: phoneSchema,
-  password: z.string().min(8, "La password deve avere almeno 8 caratteri"),
+  password: z
+    .string()
+    .min(10, "La password deve avere almeno 10 caratteri")
+    .regex(/[A-Za-z]/, "La password deve contenere almeno una lettera")
+    .regex(/[0-9]/, "La password deve contenere almeno un numero"),
   termsAccepted: z.literal(true),
   privacyAccepted: z.literal(true),
   marketingAccepted: z.boolean().optional().default(false),
