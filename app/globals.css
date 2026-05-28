@@ -87,8 +87,8 @@ body {
   box-sizing: border-box;
   width: 100%;
   max-width: 21rem;
-  margin-top: 78px;
-  margin-bottom: 82px;
+  margin-top: 90px;
+  margin-bottom: 96px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -108,8 +108,8 @@ body {
 @media (min-width: 640px) {
   .rb-soft-white-home .hd-home-tagline {
     max-width: min(100%, 44rem);
-    margin-top: 116px;
-    margin-bottom: 124px;
+    margin-top: 132px;
+    margin-bottom: 142px;
     font-size: 1.375rem;
     line-height: 1.32;
     letter-spacing: -0.022em;
