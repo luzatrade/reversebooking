@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Bell, Building2, CheckCircle2, FilePlus2, Home, RefreshCw, UserCog } from "lucide-react";
 import { AdvertiserRequestsPanel } from "@/components/dashboard/AdvertiserRequestsPanel";
+import { OfferBudgetComparison } from "@/components/offers/OfferBudgetComparison";
 import { dashboardSurfaces } from "@/components/dashboard/dashboardSurfaces";
 import { AdvertiserFavoritesPanel } from "@/components/favorites/AdvertiserFavoritesPanel";
 import { StatCard } from "@/components/dashboard/StatCard";
@@ -340,6 +341,15 @@ export function AdvertiserDashboardClient() {
                 <p className="mt-1 text-xs text-zinc-500">
                   {mealPlanLabels[offer.meal_plan_included]} · {offer.status} · {formatDate(offer.created_at, locale)}
                 </p>
+                {activeRequest ? (
+                  <OfferBudgetComparison
+                    totalPrice={Number(offer.total_price)}
+                    budgetPerRoom={Number(activeRequest.budget)}
+                    roomsCount={activeRequest.rooms_count}
+                    locale={locale}
+                    className="mt-2"
+                  />
+                ) : null}
                 {offer.status === "accepted" ? (
                   <div className={`mt-3 ${dashboardSurfaces.acceptedBadge}`}>
                     🤝 {t.dashboard.shared.chatEmojiHint}

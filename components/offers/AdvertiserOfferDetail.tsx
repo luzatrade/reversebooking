@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import { ArrowLeft, CheckCircle2, XCircle } from "lucide-react";
 import { AcceptedBookingSummary, type AcceptedBookingSummaryData } from "@/components/offers/AcceptedBookingSummary";
+import { OfferBudgetComparison } from "@/components/offers/OfferBudgetComparison";
 import { acceptedOfferTheme } from "@/components/offers/acceptedOfferTheme";
 import { LegalMicroLine } from "@/components/legal/LegalMicroLine";
 import { PrintSummaryButton } from "@/components/offers/PrintSummaryButton";
@@ -173,6 +174,14 @@ export function AdvertiserOfferDetail() {
         <section className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
           <p className="text-sm font-medium uppercase tracking-wide text-emerald-700">Offerta {offerCode(offer)} · richiesta {requestCode(offer)}</p>
           <h1 className="mt-2 text-3xl font-semibold tracking-tight">{formatCurrency(Number(offer.total_price))}</h1>
+          {offer.travel_requests ? (
+            <OfferBudgetComparison
+              totalPrice={Number(offer.total_price)}
+              budgetPerRoom={Number(offer.travel_requests.budget)}
+              roomsCount={offer.travel_requests.rooms_count}
+              className="mt-3"
+            />
+          ) : null}
           <p className="mt-2 text-sm text-zinc-500">Stato offerta: {offer.status} · Scadenza: {formatDate(offer.expires_at)}</p>
           {offer.status !== "pending" ? <p className="mt-2 text-sm text-zinc-500">Questa offerta non è modificabile.</p> : null}
           <div className="mt-6 grid gap-6 lg:grid-cols-2">
