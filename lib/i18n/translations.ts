@@ -130,6 +130,11 @@ export const translations = {
       goToRegistration: "Vai alla registrazione",
       loginIncomplete: "Accesso non completato. Riprova.",
       loginGenericError: "Errore durante il login.",
+      mfaPrompt: "Inserisci il codice a 6 cifre generato dalla tua app di autenticazione.",
+      mfaCodeLabel: "Codice di verifica",
+      mfaVerify: "Verifica e accedi",
+      mfaInvalidCode: "Codice non valido o scaduto. Riprova.",
+      mfaError: "Impossibile avviare la verifica a due fattori. Riprova.",
       socialGoogle: "Continua con Google",
       socialApple: "Continua con Apple",
       socialMicrosoft: "Continua con Microsoft",
@@ -639,6 +644,7 @@ export const translations = {
       navInvoices: "Fatture",
       navConsents: "Consensi",
       navAudit: "Audit log",
+      navSecurity: "Sicurezza",
       tableEmpty: "Nessun record.",
       serviceRoleMissing:
         "Service role mancante: le statistiche e le liste non possono essere caricate.",
@@ -704,6 +710,11 @@ export const translations = {
           title: "Audit log",
           description:
             "Registro delle azioni amministrative sensibili: impersonazioni, cambi di stato ed eliminazioni.",
+        },
+        security: {
+          title: "Sicurezza account",
+          description:
+            "Attiva l'autenticazione a due fattori (2FA) per proteggere l'accesso al pannello amministrativo.",
         },
       },
     },
@@ -995,6 +1006,11 @@ export const translations = {
       goToRegistration: "Go to sign up",
       loginIncomplete: "Sign-in was not completed. Please try again.",
       loginGenericError: "Error while signing in.",
+      mfaPrompt: "Enter the 6-digit code from your authenticator app.",
+      mfaCodeLabel: "Verification code",
+      mfaVerify: "Verify and sign in",
+      mfaInvalidCode: "Invalid or expired code. Please try again.",
+      mfaError: "Could not start two-factor verification. Please try again.",
       socialGoogle: "Continue with Google",
       socialApple: "Continue with Apple",
       socialMicrosoft: "Continue with Microsoft",
@@ -1492,6 +1508,7 @@ export const translations = {
       navInvoices: "Invoices",
       navConsents: "Consents",
       navAudit: "Audit log",
+      navSecurity: "Security",
       tableEmpty: "No records.",
       serviceRoleMissing: "Service role missing: statistics and lists cannot be loaded.",
       noServiceRole: "Service role not configured.",
@@ -1554,6 +1571,11 @@ export const translations = {
           title: "Audit log",
           description:
             "Log of sensitive admin actions: impersonations, status changes, and deletions.",
+        },
+        security: {
+          title: "Account security",
+          description:
+            "Enable two-factor authentication (2FA) to protect access to the admin console.",
         },
       },
     },

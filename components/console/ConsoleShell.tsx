@@ -28,6 +28,7 @@ export function ConsoleShell({
     { href: "/console/fatture", label: t.console.navInvoices },
     { href: "/console/consensi", label: t.console.navConsents },
     { href: "/console/audit", label: t.console.navAudit },
+    { href: "/console/sicurezza", label: t.console.navSecurity },
     { href: "/console/onboarding", label: "Onboarding" },
   ] as const;
 
