@@ -1,6 +1,6 @@
-import { createClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
 import { requireApiUser } from "@/lib/auth/api";
+import { createServiceRoleClient } from "@/lib/supabase/admin";
 import { escapeHtml, sendEmailNotification } from "@/lib/notifications/email";
 
 type Body = { requestId?: string };
@@ -10,13 +10,6 @@ type HotelRow = {
   private_notification_email: string | null;
   public_email: string | null;
 };
-
-function getClient() {
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-  if (!url || !key) throw new Error("Supabase non configurato");
-  return createClient(url, key);
-}
 
 function code(value: string | null | undefined) {
   return value || "RB------";
@@ -64,7 +57,8 @@ export async function POST(request: Request) {
   if (!body.requestId) return NextResponse.json({ error: "requestId obbligatorio" }, { status: 400 });
 
   try {
-    const supabase = getClient();
+    const supabase = createServiceRoleClient();
+    if (!supabase) return NextResponse.json({ error: "Server non configurato" }, { status: 503 });
     const { data: travelRequest, error: requestError } = await supabase
       .from("travel_requests")
       .select("id, request_code, city_id, city_name, preferred_area, check_in, check_out, guests_count, rooms_count, budget, target_hotel_account_id")

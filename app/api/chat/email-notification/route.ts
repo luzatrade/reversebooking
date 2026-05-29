@@ -1,11 +1,10 @@
-import { createClient} from "@supabase/supabase-js";
 import { NextResponse} from "next/server";
 import { requireApiUser } from "@/lib/auth/api";
+import { createServiceRoleClient } from "@/lib/supabase/admin";
 import { company } from "@/lib/legal/company";
 import { escapeHtml, sendEmailNotification} from "@/lib/notifications/email";
 
 type Body = { offerId?: string; message?: string};
-function getClient(request: Request) { const url = process.env.NEXT_PUBLIC_SUPABASE_URL; const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY; if (!url || !key) throw new Error("Supabase non configurato"); const authorization = request.headers.get("authorization"); return createClient(url, key, authorization ? { global: { headers: { Authorization: authorization}}} : undefined);}
 function code(value: string | null | undefined) { return value || "RB------";}
 
 export async function POST(request: Request) {
@@ -17,7 +16,8 @@ export async function POST(request: Request) {
   if (!body.offerId || !body.message) return NextResponse.json({ error: "offerId e message sono obbligatori"}, { status: 400});
 
   try {
-    const client = getClient(request);
+    const client = createServiceRoleClient();
+    if (!client) return NextResponse.json({ error: "Server non configurato"}, { status: 503});
     const { data: offer, error} = await client
       .from("offers")
       .select("id, hotel_account_id, travel_request_id, hotel_accounts(property_name, private_notification_email, public_email), travel_requests(request_code, city_name, preferred_area, advertiser_profiles(contact_email))")

@@ -96,7 +96,7 @@ export async function POST(request: Request) {
     auth: { persistSession: false, autoRefreshToken: false },
   });
 
-  await completeProfile(userClient, user.id, email, role, body, ip, userAgent);
+  await completeProfile(userClient, user.id, email, role, body, ip, userAgent, Boolean(user.email_confirmed_at));
 
   return NextResponse.json({
     ok: true,
@@ -118,6 +118,7 @@ async function completeProfile(
   body: Body,
   ip: string | null,
   userAgent: string | null,
+  emailVerified: boolean,
 ) {
   const phoneNumber = `+39${userId.replaceAll("-", "").slice(0, 10)}`;
 
@@ -127,8 +128,8 @@ async function completeProfile(
       role,
       email,
       phone_number: phoneNumber,
-      email_verified: true,
-      phone_verified: true,
+      email_verified: emailVerified,
+      phone_verified: false,
       account_status: "active",
     },
     { onConflict: "user_id" },

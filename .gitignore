@@ -46,3 +46,6 @@ next-env.d.ts
 .env*.local
 .next
 node_modules
+
+# Backup locali del database (contengono dati personali: non versionare)
+/backups/
