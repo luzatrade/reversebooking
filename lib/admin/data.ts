@@ -139,6 +139,17 @@ export async function listConsents() {
   return data ?? [];
 }
 
+export async function listAuditLog() {
+  const supabase = db();
+  const { data, error } = await supabase
+    .from("admin_audit_log")
+    .select("id, actor_email, action, target_type, target_id, details, ip_address, created_at")
+    .order("created_at", { ascending: false })
+    .limit(200);
+  if (error) throw error;
+  return data ?? [];
+}
+
 export async function profileEmailsByUserIds(userIds: string[]) {
   if (userIds.length === 0) return new Map<string, string>();
   const supabase = db();

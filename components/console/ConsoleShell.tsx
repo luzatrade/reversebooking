@@ -27,6 +27,7 @@ export function ConsoleShell({
     { href: "/console/abbonamenti", label: t.console.navSubscriptions },
     { href: "/console/fatture", label: t.console.navInvoices },
     { href: "/console/consensi", label: t.console.navConsents },
+    { href: "/console/audit", label: t.console.navAudit },
     { href: "/console/onboarding", label: "Onboarding" },
   ] as const;
 

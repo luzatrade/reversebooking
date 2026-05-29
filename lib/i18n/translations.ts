@@ -638,6 +638,7 @@ export const translations = {
       navSubscriptions: "Abbonamenti",
       navInvoices: "Fatture",
       navConsents: "Consensi",
+      navAudit: "Audit log",
       tableEmpty: "Nessun record.",
       serviceRoleMissing:
         "Service role mancante: le statistiche e le liste non possono essere caricate.",
@@ -698,6 +699,11 @@ export const translations = {
           title: "Consensi legali",
           description:
             "Registro termini, privacy, marketing e condizioni abbonamento accettati dagli utenti.",
+        },
+        audit: {
+          title: "Audit log",
+          description:
+            "Registro delle azioni amministrative sensibili: impersonazioni, cambi di stato ed eliminazioni.",
         },
       },
     },
@@ -1485,6 +1491,7 @@ export const translations = {
       navSubscriptions: "Subscriptions",
       navInvoices: "Invoices",
       navConsents: "Consents",
+      navAudit: "Audit log",
       tableEmpty: "No records.",
       serviceRoleMissing: "Service role missing: statistics and lists cannot be loaded.",
       noServiceRole: "Service role not configured.",
@@ -1542,6 +1549,11 @@ export const translations = {
           title: "Legal consents",
           description:
             "Registry of terms, privacy, marketing, and subscription conditions accepted by users.",
+        },
+        audit: {
+          title: "Audit log",
+          description:
+            "Log of sensitive admin actions: impersonations, status changes, and deletions.",
         },
       },
     },
