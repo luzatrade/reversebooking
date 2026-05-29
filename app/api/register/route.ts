@@ -1,6 +1,7 @@
 import { createClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
 import { PRIVACY_VERSION, TERMS_VERSION } from "@/lib/legal/company";
+import { getClientIp, rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
 
 type Body = {
   email?: string;
@@ -16,6 +17,10 @@ type Body = {
 };
 
 export async function POST(request: Request) {
+  const ip = getClientIp(request);
+  const limit = await rateLimit({ key: "register", identifier: ip, max: 8, windowSeconds: 600 });
+  if (!limit.allowed) return tooManyRequestsResponse();
+
   let body: Body;
   try {
     body = (await request.json()) as Body;
@@ -46,8 +51,6 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Supabase non configurato." }, { status: 503 });
   }
 
-  const forwarded = request.headers.get("x-forwarded-for");
-  const ip = forwarded?.split(",")[0]?.trim() ?? null;
   const userAgent = request.headers.get("user-agent") ?? null;
 
   const supabase = createClient(url, anonKey, {

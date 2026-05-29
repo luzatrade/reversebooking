@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { requireApiUser } from "@/lib/auth/api";
 import { createServiceRoleClient } from "@/lib/supabase/admin";
 import { escapeHtml, sendEmailNotification } from "@/lib/notifications/email";
+import { rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
 
 type Body = { requestId?: string };
 type HotelRow = {
@@ -47,6 +48,9 @@ function buildDirectRequestHtml(
 export async function POST(request: Request) {
   const gate = await requireApiUser(request);
   if ("error" in gate) return gate.error;
+
+  const limit = await rateLimit({ key: "notify-new-request", identifier: gate.user.id, max: 20, windowSeconds: 600 });
+  if (!limit.allowed) return tooManyRequestsResponse();
 
   let body: Body;
   try {

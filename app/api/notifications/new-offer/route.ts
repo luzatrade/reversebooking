@@ -3,6 +3,7 @@ import { requireApiUser } from "@/lib/auth/api";
 import { createServiceRoleClient } from "@/lib/supabase/admin";
 import { company } from "@/lib/legal/company";
 import { escapeHtml, sendEmailNotification } from "@/lib/notifications/email";
+import { rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
 
 type Body = { offerId?: string };
 function code(value: string | null | undefined) { return value || "RB------"; }
@@ -10,6 +11,9 @@ function code(value: string | null | undefined) { return value || "RB------"; }
 export async function POST(request: Request) {
   const gate = await requireApiUser(request);
   if ("error" in gate) return gate.error;
+
+  const limit = await rateLimit({ key: "notify-new-offer", identifier: gate.user.id, max: 30, windowSeconds: 600 });
+  if (!limit.allowed) return tooManyRequestsResponse();
 
   let body: Body;
   try { body = (await request.json()) as Body; } catch { return NextResponse.json({ error: "JSON non valido" }, { status: 400 }); }

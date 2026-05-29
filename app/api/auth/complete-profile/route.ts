@@ -1,8 +1,13 @@
 import { createClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
 import { PRIVACY_VERSION, TERMS_VERSION } from "@/lib/legal/company";
+import { getClientIp, rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
 
 export async function POST(request: Request) {
+  const clientIp = getClientIp(request);
+  const limit = await rateLimit({ key: "complete-profile", identifier: clientIp, max: 30, windowSeconds: 600 });
+  if (!limit.allowed) return tooManyRequestsResponse();
+
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
