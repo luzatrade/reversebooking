@@ -123,7 +123,10 @@ export function CreateOfferForm() {
         const offers = (offerRows ?? []) as ExistingOffer[];
         setExistingOffers(offers);
         if (!offers.some((offer) => offer.status === "pending")) {
-          setTotalPrice(Number(requestData.budget) || 1);
+          // Il budget della richiesta è PER CAMERA: il prezzo dell'offerta è il
+          // totale per tutte le camere, quindi pre-compiliamo budget × camere.
+          const indicativeTotal = (Number(requestData.budget) || 0) * (Number(requestData.rooms_count) || 1);
+          setTotalPrice(indicativeTotal > 0 ? indicativeTotal : 1);
           setMealPlanIncluded(requestData.meal_plan as MealPlan);
           const prefillSource = relaunchFromId
             ? offers.find((offer) => offer.id === relaunchFromId)
@@ -308,7 +311,7 @@ export function CreateOfferForm() {
             <p><strong>Date:</strong> {formatDate(request.check_in)} → {formatDate(request.check_out)}</p>
             <p><strong>Ospiti totali:</strong> {request.guests_count}</p>
             <p><strong>Camere totali:</strong> {request.rooms_count}</p>
-            <p><strong>Budget:</strong> {formatCurrency(Number(request.budget))}</p>
+            <p><strong>Budget:</strong> {formatCurrency(Number(request.budget))} a camera · {request.rooms_count} camere · totale indicativo {formatCurrency(Number(request.budget) * request.rooms_count)}</p>
             <p><strong>Trattamento:</strong> {mealPlanLabels[request.meal_plan]}</p>
           </div>
           <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800 dark:border-amber-900 dark:bg-amber-950/40 dark:text-amber-200">Contatti inserzionista nascosti. Saranno disponibili solo dopo accettazione dell’offerta.</div>
@@ -381,7 +384,7 @@ export function CreateOfferForm() {
             <h2 className="mt-2 text-2xl font-semibold">Invia proposta come {hotel.property_name}</h2>
           </div>
           <div className="grid gap-5 md:grid-cols-2">
-            <label className="block text-sm font-medium">Prezzo totale €<input type="number" min={1} step="0.01" value={totalPrice} onChange={(event) => setTotalPrice(Number(event.target.value))} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
+            <label className="block text-sm font-medium">Prezzo totale €<input type="number" min={1} step="0.01" value={totalPrice} onChange={(event) => setTotalPrice(Number(event.target.value))} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /><span className="mt-1 block text-xs font-normal text-zinc-500">Totale per tutte le {request.rooms_count} camere (budget cliente: {formatCurrency(Number(request.budget))} a camera).</span></label>
             <label className="block text-sm font-medium">Trattamento incluso<select value={mealPlanIncluded} onChange={(event) => setMealPlanIncluded(event.target.value as MealPlan)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950">{Object.entries(mealPlanLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label>
             <label className="block text-sm font-medium md:col-span-2">Descrizione offerta<textarea value={description} onChange={(event) => setDescription(event.target.value)} rows={4} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
             <label className="block text-sm font-medium md:col-span-2">Condizioni<textarea value={conditions} onChange={(event) => setConditions(event.target.value)} rows={3} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
