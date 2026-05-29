@@ -2,11 +2,11 @@ import type { NextConfig } from "next";
 
 const isDev = process.env.NODE_ENV === "development";
 
-// Content Security Policy applicata in modalità Report-Only:
-// NON blocca nulla, segnala soltanto eventuali violazioni nella console del browser.
-// Quando le violazioni saranno verificate/risolte, si potrà passare a
-// "Content-Security-Policy" (bloccante) restringendo script-src con nonce.
-const cspReportOnly = [
+// Content Security Policy in modalità BLOCCANTE.
+// Verificata in produzione (Report-Only) senza violazioni reali sulle pagine
+// chiave. 'unsafe-inline' resta necessario per gli script/stili inline di
+// Next.js; un futuro hardening potrà introdurre i nonce per rimuoverlo.
+const contentSecurityPolicy = [
   "default-src 'self'",
   `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""} https://js.stripe.com`,
   "style-src 'self' 'unsafe-inline'",
@@ -34,7 +34,7 @@ const securityHeaders = [
     key: "Permissions-Policy",
     value: "camera=(), microphone=(), geolocation=(self), browsing-topics=()",
   },
-  { key: "Content-Security-Policy-Report-Only", value: cspReportOnly },
+  { key: "Content-Security-Policy", value: contentSecurityPolicy },
 ];
 
 const nextConfig: NextConfig = {
