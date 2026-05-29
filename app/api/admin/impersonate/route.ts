@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { requireAdminApi } from "@/lib/admin/verify";
+import { logAdminAction } from "@/lib/admin/audit";
 
 export async function POST(request: Request) {
   const gate = await requireAdminApi(request);
@@ -35,6 +36,14 @@ export async function POST(request: Request) {
       { status: 500 },
     );
   }
+
+  await logAdminAction(admin, request, {
+    actor: gate.profile,
+    action: "impersonate",
+    targetType: "user",
+    targetId: userId,
+    details: { email: profile.email, role: profile.role },
+  });
 
   return NextResponse.json({
     email: profile.email,

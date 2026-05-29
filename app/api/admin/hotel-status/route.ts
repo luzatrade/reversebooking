@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { requireAdminApi } from "@/lib/admin/verify";
+import { logAdminAction } from "@/lib/admin/audit";
 
 const ALLOWED = new Set(["pending_verification", "active", "suspended", "banned"]);
 
@@ -18,5 +19,14 @@ export async function POST(request: Request) {
     .eq("id", body.hotelAccountId);
 
   if (error) return NextResponse.json({ error: "Aggiornamento non riuscito" }, { status: 500 });
+
+  await logAdminAction(gate.admin, request, {
+    actor: gate.profile,
+    action: "hotel_status_change",
+    targetType: "hotel_account",
+    targetId: body.hotelAccountId,
+    details: { accountStatus: body.accountStatus },
+  });
+
   return NextResponse.json({ ok: true });
 }

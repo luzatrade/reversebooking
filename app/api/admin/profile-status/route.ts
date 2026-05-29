@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { requireAdminApi } from "@/lib/admin/verify";
+import { logAdminAction } from "@/lib/admin/audit";
 
 const ALLOWED = new Set(["pending_verification", "active", "suspended", "banned"]);
 
@@ -18,5 +19,14 @@ export async function POST(request: Request) {
     .eq("id", body.profileId);
 
   if (error) return NextResponse.json({ error: "Aggiornamento non riuscito" }, { status: 500 });
+
+  await logAdminAction(gate.admin, request, {
+    actor: gate.profile,
+    action: "profile_status_change",
+    targetType: "profile",
+    targetId: body.profileId,
+    details: { accountStatus: body.accountStatus },
+  });
+
   return NextResponse.json({ ok: true });
 }

@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { requireAdminApi } from "@/lib/admin/verify";
+import { logAdminAction } from "@/lib/admin/audit";
 
 type Body = {
   entity: "user" | "hotel" | "advertiser" | "request" | "offer" | "onboarding";
@@ -56,6 +57,13 @@ export async function POST(request: Request) {
     default:
       return NextResponse.json({ error: "Entità non valida" }, { status: 400 });
   }
+
+  await logAdminAction(admin, request, {
+    actor: gate.profile,
+    action: "delete_entity",
+    targetType: body.entity,
+    targetId: body.id,
+  });
 
   return NextResponse.json({ ok: true });
 }
