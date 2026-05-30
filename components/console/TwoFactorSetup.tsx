@@ -5,6 +5,37 @@ import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 
 type Status = "loading" | "off" | "enrolling" | "on";
 
+// Supabase restituisce qr_code come data URI ("data:image/svg+xml;utf-8,<svg…>").
+// Estraiamo l'SVG puro per renderizzarlo inline alla sua dimensione naturale
+// (renderizzarlo come <img> non è affidabile: il "#" nei colori tronca il data URI).
+function extractSvg(qr: string | null): string | null {
+  if (!qr) return null;
+  let s = qr;
+  if (s.startsWith("data:")) {
+    const comma = s.indexOf(",");
+    if (comma >= 0) s = s.slice(comma + 1);
+    if (/%3c/i.test(s)) {
+      try {
+        s = decodeURIComponent(s);
+      } catch {
+        /* lascia s invariato */
+      }
+    }
+  }
+  const i = s.indexOf("<svg");
+  if (i >= 0) s = s.slice(i);
+  // L'SVG di Supabase non ha viewBox: senza di esso, vincolare la dimensione in
+  // CSS ritaglia il QR (rendendolo illeggibile). Lo iniettiamo da width/height.
+  if (!/viewBox/i.test(s)) {
+    const w = s.match(/width="(\d+(?:\.\d+)?)"/i)?.[1];
+    const h = s.match(/height="(\d+(?:\.\d+)?)"/i)?.[1];
+    if (w && h) {
+      s = s.replace(/<svg/i, `<svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet"`);
+    }
+  }
+  return s;
+}
+
 export function TwoFactorSetup() {
   const [status, setStatus] = useState<Status>("loading");
   const [error, setError] = useState<string | null>(null);
@@ -143,9 +174,9 @@ export function TwoFactorSetup() {
           </p>
           {qrCode ? (
             <div
-              className="inline-block rounded-xl border border-zinc-200 bg-white p-3 [&_svg]:h-44 [&_svg]:w-44"
-              // qr_code è un markup SVG generato da Supabase
-              dangerouslySetInnerHTML={{ __html: qrCode }}
+              className="inline-block rounded-xl border border-zinc-200 bg-white p-3 [&_svg]:h-52 [&_svg]:w-52"
+              // SVG estratto dal data URI di Supabase, renderizzato inline
+              dangerouslySetInnerHTML={{ __html: extractSvg(qrCode) ?? "" }}
             />
           ) : null}
           {secret ? (
