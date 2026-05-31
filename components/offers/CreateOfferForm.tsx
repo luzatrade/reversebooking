@@ -7,6 +7,7 @@ import { ArrowLeft } from "lucide-react";
 import { AcceptedBookingSummary, type AcceptedBookingSummaryData } from "@/components/offers/AcceptedBookingSummary";
 import { acceptedOfferTheme } from "@/components/offers/acceptedOfferTheme";
 import { PrintSummaryButton } from "@/components/offers/PrintSummaryButton";
+import { DownloadVoucherButton } from "@/components/offers/DownloadVoucherButton";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { validateNoContactsInFields } from "@/lib/content/contact-guard";
 import {
@@ -343,6 +344,7 @@ export function CreateOfferForm() {
         <div className={`space-y-5 ${acceptedOfferTheme.panel}`}>
           <div className="print-hide flex flex-wrap items-center gap-3">
             <PrintSummaryButton />
+            <DownloadVoucherButton data={acceptedSummary} />
             <span className={acceptedOfferTheme.badgeLg}>
               🤝 Offerta {offerCode(acceptedOffer)} accettata · chat in basso a destra
             </span>

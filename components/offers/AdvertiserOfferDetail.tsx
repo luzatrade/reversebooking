@@ -9,6 +9,7 @@ import { OfferBudgetComparison } from "@/components/offers/OfferBudgetComparison
 import { acceptedOfferTheme } from "@/components/offers/acceptedOfferTheme";
 import { LegalMicroLine } from "@/components/legal/LegalMicroLine";
 import { PrintSummaryButton } from "@/components/offers/PrintSummaryButton";
+import { DownloadVoucherButton } from "@/components/offers/DownloadVoucherButton";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { mealPlanLabels, structureTypeLabels, type MealPlan, type StructureType } from "@/types/app";
 
@@ -165,6 +166,7 @@ export function AdvertiserOfferDetail() {
         <div className="space-y-5">
           <div className="print-hide flex flex-wrap items-center gap-3">
             <PrintSummaryButton />
+            <DownloadVoucherButton data={summaryData} />
             <span className={acceptedOfferTheme.badgeLg}>🤝 Offerta accettata · chat in basso a destra</span>
           </div>
           <AcceptedBookingSummary data={summaryData} />
