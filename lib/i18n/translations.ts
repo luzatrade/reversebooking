@@ -174,7 +174,17 @@ export const translations = {
       registerTravelerCta: "Registrati ora e invia la tua richiesta gratuitamente!",
       registerTravelerBenefit:
         "I migliori hotel e agenzie della zona ti invieranno le loro offerte direttamente, garantendoti il prezzo più vantaggioso e zero commissioni.",
-      registerPartnerLead: "Account a pagamento per chi offre: ricevi le richieste della tua zona e invii offerte.",
+      registerPartnerHeading: "Sei una Struttura Ricettiva o un'Agenzia Viaggi?",
+      registerPartnerLead: "Trova nuovi clienti e riempi le tue camere nei periodi di bassa affluenza.",
+      registerPartnerBenefit1Title: "Ricevi avvisi in tempo reale:",
+      registerPartnerBenefit1Desc:
+        "Ottieni una notifica immediata ogni volta che un gruppo o un cliente individuale pubblica una richiesta nella tua zona.",
+      registerPartnerBenefit2Title: "Ottimizza il tuo calendario:",
+      registerPartnerBenefit2Desc:
+        "Controlla la tua disponibilità e proponi un'offerta per le date che hai ancora vacanti.",
+      registerPartnerBenefit3Title: "Trattative dirette:",
+      registerPartnerBenefit3Desc:
+        "Parla direttamente con il cliente, gestisci la prenotazione senza intermediari e senza commissioni.",
       registerPartnerKindLegend: "Sei una struttura o un'agenzia?",
       registerAdvertiserOption:
         "Inserzionista (annunci gratuiti — nessuna fatturazione obbligatoria da piattaforma)",
@@ -1074,7 +1084,17 @@ export const translations = {
       registerTravelerCta: "Sign up now and send your request for free!",
       registerTravelerBenefit:
         "The best hotels and agencies in the area will send you their offers directly, guaranteeing you the best price and zero commissions.",
-      registerPartnerLead: "Paid account for providers: get requests in your area and send offers.",
+      registerPartnerHeading: "Are you a Hospitality Property or a Travel Agency?",
+      registerPartnerLead: "Find new clients and fill your rooms during low-occupancy periods.",
+      registerPartnerBenefit1Title: "Get real-time alerts:",
+      registerPartnerBenefit1Desc:
+        "Receive an instant notification whenever a group or an individual customer posts a request in your area.",
+      registerPartnerBenefit2Title: "Optimize your calendar:",
+      registerPartnerBenefit2Desc:
+        "Check your availability and send an offer for the dates you still have open.",
+      registerPartnerBenefit3Title: "Direct negotiations:",
+      registerPartnerBenefit3Desc:
+        "Talk directly with the customer, manage the booking with no middlemen and no commissions.",
       registerPartnerKindLegend: "Are you a property or an agency?",
       registerAdvertiserOption:
         "Advertiser (free listings — no mandatory platform subscription billing)",

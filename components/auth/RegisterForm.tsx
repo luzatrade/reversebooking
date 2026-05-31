@@ -130,7 +130,30 @@ export function RegisterForm() {
             <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
               {t.site.becomePartner}
             </p>
+            <p className="mt-2 text-base font-semibold text-zinc-900 dark:text-zinc-50">
+              {t.auth.registerPartnerHeading}
+            </p>
             <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">{t.auth.registerPartnerLead}</p>
+            <ul className="mt-3 space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+              <li>
+                <span className="font-semibold text-zinc-800 dark:text-zinc-200">
+                  {t.auth.registerPartnerBenefit1Title}
+                </span>{" "}
+                {t.auth.registerPartnerBenefit1Desc}
+              </li>
+              <li>
+                <span className="font-semibold text-zinc-800 dark:text-zinc-200">
+                  {t.auth.registerPartnerBenefit2Title}
+                </span>{" "}
+                {t.auth.registerPartnerBenefit2Desc}
+              </li>
+              <li>
+                <span className="font-semibold text-zinc-800 dark:text-zinc-200">
+                  {t.auth.registerPartnerBenefit3Title}
+                </span>{" "}
+                {t.auth.registerPartnerBenefit3Desc}
+              </li>
+            </ul>
           </>
         ) : (
           <>
