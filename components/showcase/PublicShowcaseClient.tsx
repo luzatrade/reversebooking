@@ -127,9 +127,11 @@ export function PublicShowcaseClient() {
     const { data: authData } = await supabase.auth.getUser();
     if (!authData.user) { setViewer({ userId: null, role: null, hotelAccountId: null }); setOffers([]); setAdvertiserOfferCount(0); return; }
     let role: UserRole | null = null;
-    const { data: profile } = await supabase.from("profiles").select("role").eq("user_id", authData.user.id).maybeSingle();
+    const [{ data: profile }, { data: hotelAccount }] = await Promise.all([
+      supabase.from("profiles").select("role").eq("user_id", authData.user.id).maybeSingle(),
+      supabase.from("hotel_accounts").select("id").eq("user_id", authData.user.id).maybeSingle(),
+    ]);
     if (profile?.role === "hotel" || profile?.role === "advertiser" || profile?.role === "admin") role = profile.role;
-    const { data: hotelAccount } = await supabase.from("hotel_accounts").select("id").eq("user_id", authData.user.id).maybeSingle();
     const hotelAccountId = hotelAccount?.id ?? null;
     if (hotelAccountId && !role) role = "hotel";
     setViewer({ userId: authData.user.id, role, hotelAccountId });
@@ -149,23 +151,46 @@ export function PublicShowcaseClient() {
     setLoading(true); setError(null);
     try {
       const supabase = createBrowserSupabaseClient();
-      await detectViewer();
       const requestSelect =
         "id, country_code, city_name, city_id, preferred_area, check_in, check_out, guests_count, rooms_count, budget, meal_plan, preference_filters, notes, expires_at, created_at, status, advertiser_profiles(first_name, last_name, advertiser_type)";
-      const { data: requestData, error: requestError } = await supabase
-        .from("travel_requests")
-        .select(requestSelect)
-        .eq("status", "active")
-        .gt("expires_at", new Date().toISOString())
-        .order("created_at", { ascending: false })
-        .limit(60);
-      if (requestError) { setError(requestError.message); return; }
       const acceptedCutoff = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
-      const { data: acceptedOfferRows } = await supabase
-        .from("offers")
-        .select("travel_request_id, updated_at")
-        .eq("status", "accepted")
-        .gt("updated_at", acceptedCutoff);
+      // Viewer detection and the independent showcase queries run in parallel
+      // so total latency is the slowest single query, not their sum.
+      const viewerPromise = detectViewer().catch(() => {});
+      const [
+        { data: requestData, error: requestError },
+        { data: acceptedOfferRows },
+        { data: registeredHotels },
+        { data: onboardingHotels },
+      ] = await Promise.all([
+        supabase
+          .from("travel_requests")
+          .select(requestSelect)
+          .eq("status", "active")
+          .gt("expires_at", new Date().toISOString())
+          .order("created_at", { ascending: false })
+          .limit(60),
+        supabase
+          .from("offers")
+          .select("travel_request_id, updated_at")
+          .eq("status", "accepted")
+          .gt("updated_at", acceptedCutoff),
+        supabase
+          .from("hotel_accounts")
+          .select(
+            "id, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, points_of_interest, services",
+          )
+          .eq("account_status", "active")
+          .eq("subscription_active", true)
+          .order("property_name", { ascending: true })
+          .limit(60),
+        supabase
+          .from("onboarding_hotels")
+          .select("id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url")
+          .order("city_name")
+          .limit(1000),
+      ]);
+      if (requestError) { setError(requestError.message); return; }
       const acceptedIds = new Set<string>();
       for (const row of acceptedOfferRows ?? []) {
         if (isShowcaseVisibleAfterAcceptance(row.updated_at)) acceptedIds.add(row.travel_request_id);
@@ -182,8 +207,6 @@ export function PublicShowcaseClient() {
       for (const request of [...((requestData ?? []) as TravelRequest[]), ...concludedRequests]) {
         merged.set(request.id, request);
       }
-      const { data: registeredHotels } = await supabase.from("hotel_accounts").select("id, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, points_of_interest, services").eq("account_status", "active").eq("subscription_active", true).order("property_name", { ascending: true }).limit(60);
-      const { data: onboardingHotels } = await supabase.from("onboarding_hotels").select("id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url").order("city_name").limit(1000);
       const mapped = (onboardingHotels || []).map(function mapOnb(h) { return { id: h.id, property_name: h.nome, structure_type: "hotel", provider_kind: "structure", country_code: "IT", city_name: h.city_name, city_id: String(h.city_name || "").toLowerCase().replace(/ +/g, "-") + "-it", specific_area: h.indirizzo || null, description: null, public_email: h.email || null, public_phone: h.phone || null, main_photo_url: h.main_photo_url || null, points_of_interest: null, services: null }; });
       const allHotels = [...(registeredHotels || []), ...mapped];
       setAcceptedRequestIds(acceptedIds);
@@ -193,6 +216,7 @@ export function PublicShowcaseClient() {
         ),
       );
       setHotels(allHotels as HotelAccount[]);
+      await viewerPromise;
     } catch (err) { setError(err instanceof Error ? err.message : "Errore durante il caricamento della home."); } finally { setLoading(false); }
   }
 
