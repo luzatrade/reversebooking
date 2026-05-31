@@ -344,8 +344,7 @@ export function AdvertiserDashboardClient() {
                 {activeRequest ? (
                   <OfferBudgetComparison
                     totalPrice={Number(offer.total_price)}
-                    budgetPerRoom={Number(activeRequest.budget)}
-                    roomsCount={activeRequest.rooms_count}
+                    budgetTotal={Number(activeRequest.budget)}
                     locale={locale}
                     className="mt-2"
                   />

@@ -36,6 +36,7 @@ export const translations = {
       perRoom: "Per camera",
       indicativeTotal: "Totale indicativo",
       budgetPerRoom: "Budget per camera",
+      budgetTotal: "Budget totale",
       preferredArea: "Zona preferita",
       checkIn: "Check-in",
       checkOut: "Check-out",
@@ -495,6 +496,7 @@ export const translations = {
         roomNumber: "Camera {n}",
         removeRoom: "Rimuovi",
         roomType: "Tipologia camera",
+        roomBudget: "Budget camera (intero soggiorno)",
         childAge: "Età bambino {n}",
         extraFilters: "Filtri extra",
         extraFiltersHint: "Seleziona le preferenze importanti per il soggiorno.",
@@ -503,7 +505,7 @@ export const translations = {
         notesPlaceholder: "Aggiungi eventuali preferenze, orari, esigenze particolari...",
         budgetSummary: "Riepilogo budget",
         budgetSummaryHelp:
-          "Il totale indicativo è calcolato moltiplicando il budget per camera per il numero di camere.",
+          "Il totale è la somma dei budget di ogni camera. Sulla card pubblica viene mostrato solo il totale; alla struttura arriva il dettaglio camera per camera.",
         noContactsWarning:
           "Non inserire email, telefoni, WhatsApp, siti o profili social nei campi liberi. I contatti personali restano nascosti e potranno essere scambiati solo tramite i pulsanti autorizzati o dopo l'accettazione dell'offerta.",
         publishListing: "Pubblica annuncio",
@@ -514,7 +516,7 @@ export const translations = {
         errorDatesRequired: "Inserisci le date di check-in e check-out.",
         errorCheckoutAfterCheckin:
           "La data di check-out deve essere successiva al check-in.",
-        errorInvalidBudget: "Inserisci un budget valido per camera.",
+        errorInvalidBudget: "Inserisci un budget valido per ogni camera.",
         errorAdultRequired: "Ogni camera deve avere almeno un adulto.",
         errorLoginAdvertiser: "Devi effettuare il login come inserzionista.",
         errorProfileAdvertiser: "Profilo inserzionista non trovato. Registrati come inserzionista.",
@@ -939,6 +941,7 @@ export const translations = {
       perRoom: "Per room",
       indicativeTotal: "Indicative total",
       budgetPerRoom: "Budget per room",
+      budgetTotal: "Total budget",
       preferredArea: "Preferred area",
       checkIn: "Check-in",
       checkOut: "Check-out",
@@ -1391,6 +1394,7 @@ export const translations = {
         roomNumber: "Room {n}",
         removeRoom: "Remove",
         roomType: "Room type",
+        roomBudget: "Room budget (whole stay)",
         childAge: "Child {n} age",
         extraFilters: "Extra filters",
         extraFiltersHint: "Select preferences that matter for the stay.",
@@ -1398,7 +1402,8 @@ export const translations = {
         preferredStructureType: "Preferred property type",
         notesPlaceholder: "Add preferences, times, special requirements...",
         budgetSummary: "Budget summary",
-        budgetSummaryHelp: "Indicative total multiplies per-room budget by room count.",
+        budgetSummaryHelp:
+          "The total is the sum of each room's budget. The public card shows only the total; the property receives the room-by-room breakdown.",
         noContactsWarning:
           "Do not enter email, phone, WhatsApp, websites, or social profiles in free-text fields. Personal contacts stay hidden and can be exchanged only via authorized actions or after an offer is accepted.",
         publishListing: "Publish listing",
@@ -1408,7 +1413,7 @@ export const translations = {
         errorInvalidDestination: "Enter a valid destination.",
         errorDatesRequired: "Enter check-in and check-out dates.",
         errorCheckoutAfterCheckin: "Check-out must be after check-in.",
-        errorInvalidBudget: "Enter a valid per-room budget.",
+        errorInvalidBudget: "Enter a valid budget for each room.",
         errorAdultRequired: "Each room must have at least one adult.",
         errorLoginAdvertiser: "You must sign in as an advertiser.",
         errorProfileAdvertiser: "Advertiser profile not found. Please sign up as an advertiser.",

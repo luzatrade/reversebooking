@@ -179,8 +179,7 @@ export function AdvertiserOfferDetail() {
           {offer.travel_requests ? (
             <OfferBudgetComparison
               totalPrice={Number(offer.total_price)}
-              budgetPerRoom={Number(offer.travel_requests.budget)}
-              roomsCount={offer.travel_requests.rooms_count}
+              budgetTotal={Number(offer.travel_requests.budget)}
               className="mt-3"
             />
           ) : null}

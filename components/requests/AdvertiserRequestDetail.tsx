@@ -168,7 +168,7 @@ export function AdvertiserRequestDetail() {
             <strong>{t.common.rooms}:</strong> {request.rooms_count}
           </p>
           <p>
-            <strong>{t.common.budgetPerRoom}:</strong> {formatCurrency(Number(request.budget), locale)}
+            <strong>{t.common.budgetTotal}:</strong> {formatCurrency(Number(request.budget), locale)}
           </p>
           <p>
             <strong>{t.forms.travelRequest.requestedMealPlan}:</strong> {mealPlanLabels[request.meal_plan]}

@@ -2,8 +2,7 @@ type Locale = "it" | "en";
 
 type Props = {
   totalPrice: number;
-  budgetPerRoom: number;
-  roomsCount: number;
+  budgetTotal: number;
   locale?: Locale;
   className?: string;
 };
@@ -19,12 +18,11 @@ function formatCurrency(value: number, locale: Locale) {
 
 /**
  * Confronta il prezzo dell'offerta (totale per tutte le camere) con il budget
- * richiesto dal viaggiatore, che è espresso PER CAMERA. Il totale indicativo è
- * quindi budget × numero di camere. Mostra un badge: sopra budget (arancione),
- * sotto/in linea (verde).
+ * totale richiesto dal viaggiatore (somma dei budget di ogni camera). Mostra un
+ * badge: sopra budget (arancione), sotto/in linea (verde).
  */
-export function OfferBudgetComparison({ totalPrice, budgetPerRoom, roomsCount, locale = "it", className }: Props) {
-  const indicativeTotal = (Number(budgetPerRoom) || 0) * (Number(roomsCount) || 0);
+export function OfferBudgetComparison({ totalPrice, budgetTotal, locale = "it", className }: Props) {
+  const indicativeTotal = Number(budgetTotal) || 0;
   if (!(indicativeTotal > 0)) return null;
 
   const diff = Number(totalPrice) - indicativeTotal;

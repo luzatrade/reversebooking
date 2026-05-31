@@ -43,7 +43,7 @@ const countryDisplayNames = typeof Intl !== "undefined" && "DisplayNames" in Int
 function countryLabel(code: string | null | undefined) { const c = (code ?? "").trim().toUpperCase(); if (!c) return null; try { return countryDisplayNames?.of(c) ?? c; } catch { return c; } }
 function formatDate(value: string) { return new Intl.DateTimeFormat("it-IT", { day: "2-digit", month: "short" }).format(new Date(value)); }
 function formatCurrency(value: number) { return new Intl.NumberFormat("it-IT", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(value); }
-function totalBudget(request: TravelRequest) { return Number(request.budget) * Number(request.rooms_count || 1); }
+function totalBudget(request: TravelRequest) { return Number(request.budget); }
 function normalize(value: string | null | undefined) { return (value ?? "").trim().toLowerCase(); }
 const cityAliases: Record<string, string[]> = { rome: ["roma"], roma: ["rome"], florence: ["firenze"], firenze: ["florence"], milan: ["milano"], milano: ["milan"], naples: ["napoli"], napoli: ["naples"], venice: ["venezia"], venezia: ["venice"], turin: ["torino"], torino: ["turin"], genoa: ["genova"], genova: ["genoa"], padua: ["padova"], padova: ["padua"], syracuse: ["siracusa"], siracusa: ["syracuse"], capri: ["capri"], sardinia: ["sardegna"], sardegna: ["sardinia"] };
 function cityMatch(a: string | null | undefined, b: string | null | undefined) { const na = normalize(a); const nb = normalize(b); if (na === nb) return true; if (cityAliases[na]?.includes(nb)) return true; if (cityAliases[nb]?.includes(na)) return true; return false; }
@@ -250,7 +250,7 @@ export function PublicShowcaseClient() {
           <div className="mt-3 space-y-1.5 text-sm text-zinc-600">
             <p className="inline-flex items-center gap-2"><CalendarDays className="h-4 w-4 shrink-0" /> {formatDate(request.check_in)} → {formatDate(request.check_out)}</p>
             <p className="inline-flex items-center gap-2"><Users className="h-4 w-4 shrink-0" /> {request.guests_count} ospiti · {request.rooms_count} camere</p>
-            <p className="inline-flex items-center gap-2"><Euro className="h-4 w-4 shrink-0" /> {formatCurrency(Number(request.budget))} a camera</p>
+            <p className="inline-flex items-center gap-2"><Euro className="h-4 w-4 shrink-0" /> {formatCurrency(Number(request.budget))} · {t.common.budgetTotal}</p>
           </div>
           <div className="mt-4 flex-1" />
           {isHotel ? (

@@ -23,7 +23,7 @@ import { getMealPlanLabels } from "@/lib/i18n/labels";
 import type { MealPlan, StructureType } from "@/types/app";
 
 type RoomType = "double" | "twin" | "triple" | "quadruple";
-type RoomDetail = { room: number; room_type?: RoomType; adults: number; children: number; children_ages: number[] };
+type RoomDetail = { room: number; room_type?: RoomType; adults: number; children: number; children_ages: number[]; budget?: number };
 type PreferenceFilters = { connecting_rooms?: boolean; disabled_access?: boolean; pool?: boolean; spa?: boolean; bathtub?: boolean; garage?: boolean; beach?: boolean; pets_allowed?: boolean };
 type TravelRequest = { id: string; request_code: string | null; city_name: string; preferred_area: string; check_in: string; check_out: string; guests_count: number; rooms_count: number; room_details: RoomDetail[] | null; preference_filters: PreferenceFilters | null; budget: number; meal_plan: MealPlan; notes: string | null; visible_contact_email: string | null; visible_contact_phone: string | null; status: string; expires_at: string };
 type HotelAccount = { id: string; property_name: string; structure_type: StructureType; city_name: string; specific_area: string | null; cin_code: string | null; subscription_active: boolean; account_status: string };
@@ -124,9 +124,8 @@ export function CreateOfferForm() {
         const offers = (offerRows ?? []) as ExistingOffer[];
         setExistingOffers(offers);
         if (!offers.some((offer) => offer.status === "pending")) {
-          // Il budget della richiesta è PER CAMERA: il prezzo dell'offerta è il
-          // totale per tutte le camere, quindi pre-compiliamo budget × camere.
-          const indicativeTotal = (Number(requestData.budget) || 0) * (Number(requestData.rooms_count) || 1);
+          // Il budget della richiesta è già il TOTALE per tutte le camere.
+          const indicativeTotal = Number(requestData.budget) || 0;
           setTotalPrice(indicativeTotal > 0 ? indicativeTotal : 1);
           setMealPlanIncluded(requestData.meal_plan as MealPlan);
           const prefillSource = relaunchFromId
@@ -312,9 +311,26 @@ export function CreateOfferForm() {
             <p><strong>Date:</strong> {formatDate(request.check_in)} → {formatDate(request.check_out)}</p>
             <p><strong>Ospiti totali:</strong> {request.guests_count}</p>
             <p><strong>Camere totali:</strong> {request.rooms_count}</p>
-            <p><strong>Budget:</strong> {formatCurrency(Number(request.budget))} a camera · {request.rooms_count} camere · totale indicativo {formatCurrency(Number(request.budget) * request.rooms_count)}</p>
+            <p><strong>Budget totale cliente:</strong> {formatCurrency(Number(request.budget))}</p>
             <p><strong>Trattamento:</strong> {mealPlanLabels[request.meal_plan]}</p>
           </div>
+          {Array.isArray(request.room_details) && request.room_details.some((room) => Number(room.budget) > 0) ? (
+            <div className="rounded-2xl border border-zinc-200 p-4 text-sm dark:border-zinc-800">
+              <p className="font-semibold">Budget per camera</p>
+              <ul className="mt-2 space-y-1.5">
+                {request.room_details.map((room, index) => (
+                  <li key={index} className="flex items-center justify-between gap-3">
+                    <span className="text-zinc-600 dark:text-zinc-400">Camera {room.room ?? index + 1} · {roomTypeLabel(room)} · {room.adults} ad.{room.children ? ` · ${room.children} bamb.` : ""}</span>
+                    <span className="font-semibold">{Number(room.budget) > 0 ? formatCurrency(Number(room.budget)) : "—"}</span>
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-2 flex items-center justify-between gap-3 border-t border-zinc-200 pt-2 dark:border-zinc-800">
+                <span className="font-semibold">Totale</span>
+                <span className="font-bold">{formatCurrency(Number(request.budget))}</span>
+              </div>
+            </div>
+          ) : null}
           <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800 dark:border-amber-900 dark:bg-amber-950/40 dark:text-amber-200">Contatti inserzionista nascosti. Saranno disponibili solo dopo accettazione dell’offerta.</div>
         </section>
       ) : null}
@@ -386,7 +402,7 @@ export function CreateOfferForm() {
             <h2 className="mt-2 text-2xl font-semibold">Invia proposta come {hotel.property_name}</h2>
           </div>
           <div className="grid gap-5 md:grid-cols-2">
-            <label className="block text-sm font-medium">Prezzo totale €<input type="number" min={1} step="0.01" value={totalPrice} onChange={(event) => setTotalPrice(Number(event.target.value))} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /><span className="mt-1 block text-xs font-normal text-zinc-500">Totale per tutte le {request.rooms_count} camere (budget cliente: {formatCurrency(Number(request.budget))} a camera).</span></label>
+            <label className="block text-sm font-medium">Prezzo totale €<input type="number" min={1} step="0.01" value={totalPrice} onChange={(event) => setTotalPrice(Number(event.target.value))} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /><span className="mt-1 block text-xs font-normal text-zinc-500">Totale per tutte le {request.rooms_count} camere (budget totale cliente: {formatCurrency(Number(request.budget))}).</span></label>
             <label className="block text-sm font-medium">Trattamento incluso<select value={mealPlanIncluded} onChange={(event) => setMealPlanIncluded(event.target.value as MealPlan)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950">{Object.entries(mealPlanLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label>
             <label className="block text-sm font-medium md:col-span-2">Descrizione offerta<textarea value={description} onChange={(event) => setDescription(event.target.value)} rows={4} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
             <label className="block text-sm font-medium md:col-span-2">Condizioni<textarea value={conditions} onChange={(event) => setConditions(event.target.value)} rows={3} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
