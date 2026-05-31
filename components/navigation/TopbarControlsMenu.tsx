@@ -5,13 +5,40 @@ import { type ReactNode, useEffect, useRef, useState } from "react";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { topbarMenuTriggerClass } from "@/components/navigation/topbarStyles";
 
+type CollapseBreakpoint = "sm" | "md" | "lg" | "xl";
+
 type TopbarControlsMenuProps = {
   children: ReactNode;
   /** Classi extra sul contenitore desktop (es. pill flottante). */
   desktopClassName?: string;
+  /**
+   * Sotto questo breakpoint i controlli collassano nel menu a tendina.
+   * Utile quando il brand è grande (es. hero home) e i pulsanti inline
+   * coprirebbero il logo su schermi medi.
+   */
+  collapseBelow?: CollapseBreakpoint;
 };
 
-export function TopbarControlsMenu({ children, desktopClassName = "" }: TopbarControlsMenuProps) {
+// Stringhe complete così la JIT di Tailwind le rileva.
+const desktopVisibility: Record<CollapseBreakpoint, string> = {
+  sm: "hidden sm:flex sm:gap-1.5",
+  md: "hidden md:flex md:gap-1.5",
+  lg: "hidden lg:flex lg:gap-1.5",
+  xl: "hidden xl:flex xl:gap-1.5",
+};
+
+const mobileVisibility: Record<CollapseBreakpoint, string> = {
+  sm: "relative sm:hidden",
+  md: "relative md:hidden",
+  lg: "relative lg:hidden",
+  xl: "relative xl:hidden",
+};
+
+export function TopbarControlsMenu({
+  children,
+  desktopClassName = "",
+  collapseBelow = "sm",
+}: TopbarControlsMenuProps) {
   const { t } = useLanguage();
   const [open, setOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement>(null);
@@ -37,11 +64,11 @@ export function TopbarControlsMenu({ children, desktopClassName = "" }: TopbarCo
 
   return (
     <div ref={rootRef} className="relative">
-      <div className={`hidden items-center justify-end gap-1 sm:flex sm:gap-1.5 ${desktopClassName}`.trim()}>
+      <div className={`items-center justify-end gap-1 ${desktopVisibility[collapseBelow]} ${desktopClassName}`.trim()}>
         {children}
       </div>
 
-      <div className="relative sm:hidden">
+      <div className={mobileVisibility[collapseBelow]}>
         <button
           type="button"
           className={topbarMenuTriggerClass}

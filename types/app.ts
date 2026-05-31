@@ -1,4 +1,7 @@
-export type UserRole = "advertiser" | "hotel" | "admin";
+export type UserRole = "advertiser" | "hotel" | "agency" | "admin";
+
+/** Discrimina i fornitori in `hotel_accounts`: strutture ricettive vs agenzie viaggi. */
+export type ProviderKind = "structure" | "agency";
 
 export type AdvertiserType =
   | "private_individual"

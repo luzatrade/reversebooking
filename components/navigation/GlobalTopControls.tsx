@@ -77,6 +77,9 @@ export function GlobalTopControls() {
             <Link href="/login" className={topbarAuthLinkClass}>
               Login
             </Link>
+            <Link href="/registrazione?mode=partner" className={topbarAuthLinkClass}>
+              Diventa partner
+            </Link>
             <Link href="/registrazione" className={topbarAuthPrimaryClass}>
               Registrati
             </Link>

@@ -46,7 +46,14 @@ export async function POST(request: Request) {
   }
 
   const meta = user.user_metadata ?? {};
-  const role = meta.role === "hotel" ? "hotel" : meta.role === "advertiser" ? "advertiser" : "advertiser";
+  const role =
+    meta.role === "hotel"
+      ? "hotel"
+      : meta.role === "agency"
+        ? "agency"
+        : meta.role === "advertiser"
+          ? "advertiser"
+          : "advertiser";
   const email = user.email ?? "";
   const phoneNumber = `+39${user.id.replaceAll("-", "").slice(0, 10)}`;
 
@@ -133,6 +140,45 @@ export async function POST(request: Request) {
         .update({ status: "claimed" })
         .eq("id", onboardingMatch.id as string);
     }
+  } else if (role === "agency") {
+    await adminClient.from("hotel_accounts").upsert(
+      {
+        user_id: user.id,
+        provider_kind: "agency",
+        structure_type: "hotel",
+        property_name: "Nuova agenzia",
+        cin_code: null as string | null,
+        cun_code: null as string | null,
+        description: null as string | null,
+        full_address: "Indirizzo da completare",
+        country_code: "IT",
+        country_name: "Italia",
+        city_name: "Da completare",
+        city_id: "",
+        specific_area: null as string | null,
+        rooms_quantity: 1,
+        private_notification_email: email,
+        public_email: null as string | null,
+        public_phone: null as string | null,
+        main_photo_url: null as string | null,
+        subscription_status: "active",
+        subscription_active: true,
+        account_status: "active",
+      },
+      { onConflict: "user_id" },
+    );
+    await adminClient.from("advertiser_profiles").upsert(
+      {
+        user_id: user.id,
+        advertiser_type: "travel_agency",
+        first_name: "Agenzia",
+        last_name: "Viaggi",
+        agency_name: "Nuova agenzia",
+        short_description: "Profilo agenzia creato automaticamente.",
+        contact_email: email,
+      },
+      { onConflict: "user_id" },
+    );
   } else {
     await adminClient.from("advertiser_profiles").upsert(
       {

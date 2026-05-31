@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { RegisterForm } from "@/components/auth/RegisterForm";
 import { getServerTranslations } from "@/lib/i18n/get-translations";
 
@@ -20,7 +21,9 @@ export default async function RegistrazionePage() {
         <p className="mt-4 text-base text-zinc-600 dark:text-zinc-400">{t.auth.registerPageIntro}</p>
       </header>
       <div className="mt-10">
-        <RegisterForm />
+        <Suspense fallback={<div className="mx-auto max-w-lg rounded-xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">…</div>}>
+          <RegisterForm />
+        </Suspense>
       </div>
     </div>
   );

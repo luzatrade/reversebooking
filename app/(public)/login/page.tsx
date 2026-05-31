@@ -3,7 +3,6 @@
 import { FormEvent, Suspense, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { SocialLoginButtons } from "@/components/auth/SocialLoginButtons";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { getLoginMessages, mapAuthLoginError } from "@/lib/auth/login-errors";
 import { dashboardPathForRole, redirectAfterLogin } from "@/lib/auth/redirectAfterLogin";
@@ -190,13 +189,7 @@ function LoginPageContent() {
           </form>
         ) : (
           <>
-            <SocialLoginButtons />
-            <Box className="my-7 flex items-center gap-3 text-xs text-zinc-400">
-              <span className="h-px flex-1 bg-zinc-200" />
-              {t.common.or}
-              <span className="h-px flex-1 bg-zinc-200" />
-            </Box>
-            <form onSubmit={handleSubmit} className="space-y-5">
+            <form onSubmit={handleSubmit} className="mt-6 space-y-5">
               <Box>
                 <label htmlFor="email" className="text-sm font-medium text-zinc-800">
                   {t.common.email}

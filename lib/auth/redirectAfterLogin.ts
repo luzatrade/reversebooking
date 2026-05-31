@@ -2,6 +2,7 @@ import type { UserRole } from "@/types/app";
 
 export function dashboardPathForRole(role: UserRole | null | undefined): string {
   if (role === "hotel") return "/struttura/dashboard";
+  if (role === "agency") return "/agenzia/dashboard";
   if (role === "admin") return "/console/dashboard";
   if (role === "advertiser") return "/inserzionista/dashboard";
   return "/scegli-account";

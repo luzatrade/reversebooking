@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { dashboardPathForRole, redirectAfterLogin } from "@/lib/auth/redirectAfterLogin";
 import { PRIVACY_VERSION, TERMS_VERSION } from "@/lib/legal/company";
@@ -9,7 +10,7 @@ import { getStructureTypeLabels } from "@/lib/i18n/labels";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { type StructureType, type UserRole } from "@/types/app";
 
-type AccountKind = "inserzionista" | "struttura";
+type AccountKind = "inserzionista" | "struttura" | "agenzia";
 
 type RegisterResponse = {
   ok?: boolean;
@@ -36,10 +37,12 @@ async function establishBrowserSession(email: string, password: string, session?
 export function RegisterForm() {
   const { locale, t } = useLanguage();
   const structureTypeLabels = getStructureTypeLabels(locale);
+  const searchParams = useSearchParams();
+  const isPartner = searchParams.get("mode") === "partner";
   const [email, setEmail] = useState("");
   const [emailTouched, setEmailTouched] = useState(false);
   const [password, setPassword] = useState("");
-  const [accountKind, setAccountKind] = useState<AccountKind>("inserzionista");
+  const [accountKind, setAccountKind] = useState<AccountKind>(isPartner ? "struttura" : "inserzionista");
   const [structureType, setStructureType] = useState<StructureType>("hotel");
   const [legalAccepted, setLegalAccepted] = useState(false);
   const [marketing, setMarketing] = useState(false);
@@ -121,6 +124,27 @@ export function RegisterForm() {
 
   return (
     <form onSubmit={onSubmit} className="mx-auto max-w-lg space-y-6 rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
+      <div className="rounded-2xl border border-zinc-100 bg-zinc-50 p-4 dark:border-zinc-800 dark:bg-zinc-950/60">
+        {isPartner ? (
+          <>
+            <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
+              {t.site.becomePartner}
+            </p>
+            <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">{t.auth.registerPartnerLead}</p>
+          </>
+        ) : (
+          <>
+            <p className="text-base font-semibold text-zinc-900 dark:text-zinc-50">
+              {t.auth.registerTravelerQuestion}
+            </p>
+            <p className="mt-1 text-sm font-semibold text-emerald-700">{t.auth.registerTravelerTypes}</p>
+            <p className="mt-3 text-sm font-semibold text-zinc-800 dark:text-zinc-200">
+              {t.auth.registerTravelerCta}
+            </p>
+            <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">{t.auth.registerTravelerBenefit}</p>
+          </>
+        )}
+      </div>
       <div>
         <label htmlFor="email" className="block text-sm font-medium text-zinc-800 dark:text-zinc-200">
           {t.common.email}
@@ -156,33 +180,34 @@ export function RegisterForm() {
         />
       </div>
 
-      <fieldset>
-        <legend className="text-sm font-medium text-zinc-800 dark:text-zinc-200">{t.auth.registerAccountType}</legend>
-        <div className="mt-2 flex flex-col gap-2 text-sm text-zinc-700 dark:text-zinc-300">
-          <label className="flex items-center gap-2">
-            <input
-              type="radio"
-              name="accountKind"
-              value="inserzionista"
-              checked={accountKind === "inserzionista"}
-              onChange={() => setAccountKind("inserzionista")}
-            />
-            {t.auth.registerAdvertiserOption}
-          </label>
-          <label className="flex items-center gap-2">
-            <input
-              type="radio"
-              name="accountKind"
-              value="struttura"
-              checked={accountKind === "struttura"}
-              onChange={() => setAccountKind("struttura")}
-            />
-            {t.auth.registerHotelOption}
-          </label>
-        </div>
-      </fieldset>
+      {isPartner ? (
+        <fieldset>
+          <div className="flex flex-col gap-2 text-sm text-zinc-700 dark:text-zinc-300">
+            <label className="flex items-center gap-2">
+              <input
+                type="radio"
+                name="accountKind"
+                value="struttura"
+                checked={accountKind === "struttura"}
+                onChange={() => setAccountKind("struttura")}
+              />
+              {t.auth.registerHotelOption}
+            </label>
+            <label className="flex items-center gap-2">
+              <input
+                type="radio"
+                name="accountKind"
+                value="agenzia"
+                checked={accountKind === "agenzia"}
+                onChange={() => setAccountKind("agenzia")}
+              />
+              {t.auth.registerAgencyOption}
+            </label>
+          </div>
+        </fieldset>
+      ) : null}
 
-      {accountKind === "struttura" ? (
+      {isPartner && accountKind === "struttura" ? (
         <label className="block text-sm font-medium text-zinc-800 dark:text-zinc-200">
           {t.auth.registerStructureType}
           <select
@@ -192,7 +217,9 @@ export function RegisterForm() {
           >
             {Object.entries(structureTypeLabels).map(([value, label]) => (
               <option key={value} value={value}>
-                {label}
+                {value === "bed_and_breakfast"
+                  ? `${label} (${locale === "en" ? "Room rental" : "Affitta camere"})`
+                  : label}
               </option>
             ))}
           </select>

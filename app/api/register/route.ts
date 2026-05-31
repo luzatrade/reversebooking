@@ -6,7 +6,7 @@ import { getClientIp, rateLimit, tooManyRequestsResponse } from "@/lib/security/
 type Body = {
   email?: string;
   password?: string;
-  accountKind?: "inserzionista" | "struttura";
+  accountKind?: "inserzionista" | "struttura" | "agenzia";
   structureType?: string;
   legalAccepted?: boolean;
   termsAccepted?: boolean;
@@ -33,8 +33,9 @@ export async function POST(request: Request) {
   const legalOk =
     body.legalAccepted === true || (Boolean(body.termsAccepted) && Boolean(body.privacyAccepted));
   const marketingAccepted = Boolean(body.marketingAccepted);
-  const accountKind = body.accountKind === "struttura" ? "struttura" : "inserzionista";
-  const role = accountKind === "struttura" ? "hotel" : "advertiser";
+  const accountKind =
+    body.accountKind === "struttura" ? "struttura" : body.accountKind === "agenzia" ? "agenzia" : "inserzionista";
+  const role = accountKind === "struttura" ? "hotel" : accountKind === "agenzia" ? "agency" : "advertiser";
 
   if (!email || !password) {
     return NextResponse.json({ error: "Email e password sono obbligatori" }, { status: 400 });
@@ -140,6 +141,8 @@ async function completeProfile(
 
   if (role === "hotel") {
     await createHotelAccount(userClient, userId, email, body);
+  } else if (role === "agency") {
+    await createAgencyAccount(userClient, userId, email);
   } else {
     await userClient.from("advertiser_profiles").upsert(
       {
@@ -241,4 +244,53 @@ async function createHotelAccount(
       .update({ status: "claimed" })
       .eq("id", onboardingMatch.id as string);
   }
+}
+
+// Un'agenzia viaggi è ibrida: FORNITORE (riga in hotel_accounts con
+// provider_kind='agency', invia offerte e paga abbonamento) e ACQUIRENTE
+// (riga in advertiser_profiles, può pubblicare richieste alle strutture).
+async function createAgencyAccount(
+  userClient: any,
+  userId: string,
+  email: string,
+) {
+  await userClient.from("hotel_accounts").upsert(
+    {
+      user_id: userId,
+      provider_kind: "agency",
+      structure_type: "hotel", // placeholder non mostrato nelle UI agenzia
+      property_name: "Nuova agenzia",
+      cin_code: null as string | null,
+      cun_code: null as string | null,
+      description: null as string | null,
+      full_address: "Indirizzo da completare",
+      country_code: "IT",
+      country_name: "Italia",
+      city_name: "Da completare",
+      city_id: "",
+      specific_area: null as string | null,
+      rooms_quantity: 1, // placeholder non usato dalle agenzie
+      private_notification_email: email,
+      public_email: null as string | null,
+      public_phone: null as string | null,
+      main_photo_url: null as string | null,
+      subscription_status: "active",
+      subscription_active: true,
+      account_status: "active",
+    },
+    { onConflict: "user_id" },
+  );
+
+  await userClient.from("advertiser_profiles").upsert(
+    {
+      user_id: userId,
+      advertiser_type: "travel_agency",
+      first_name: "Agenzia",
+      last_name: "Viaggi",
+      agency_name: "Nuova agenzia",
+      short_description: "Profilo agenzia creato automaticamente. Da completare nel pannello agenzia.",
+      contact_email: email,
+    },
+    { onConflict: "user_id" },
+  );
 }

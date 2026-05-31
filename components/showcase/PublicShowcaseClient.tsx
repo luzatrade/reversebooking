@@ -2,13 +2,14 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { Building2, CalendarDays, CheckCircle, Euro, MapPin, Users } from "lucide-react";
+import { Briefcase, Building2, CalendarDays, CheckCircle, Euro, MapPin, Users } from "lucide-react";
 import { getCityHeroImage } from "@/lib/destination-slider/cityPhotos";
 import { CurrencySwitcher } from "@/components/currency/CurrencySwitcher";
 import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { CityAutocomplete } from "@/components/location/CityAutocomplete";
 import { CityHeroSlider } from "@/components/showcase/CityHeroSlider";
+import { HorizontalSlider } from "@/components/showcase/HorizontalSlider";
 import { company } from "@/lib/legal/company";
 import { LogoutButton } from "@/components/auth/LogoutButton";
 import { BrandLogo } from "@/components/navigation/BrandLogo";
@@ -27,7 +28,7 @@ function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date(
 type PreferenceFilters = { connecting_rooms?: boolean; disabled_access?: boolean; pool?: boolean; spa?: boolean; bathtub?: boolean; garage?: boolean; beach?: boolean; pets_allowed?: boolean };
 type AdvertiserPublic = { first_name: string | null; last_name: string | null; advertiser_type?: string | null };
 type TravelRequest = { id: string; country_code: string | null; city_name: string; city_id: string | null; preferred_area: string; check_in: string; check_out: string; guests_count: number; rooms_count: number; budget: number; meal_plan: MealPlan; preference_filters: PreferenceFilters | null; notes: string | null; expires_at: string; created_at: string; status: string; advertiser_profiles?: AdvertiserPublic | AdvertiserPublic[] | null };
-type HotelAccount = { id: string; property_name: string; structure_type: StructureType; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; public_email: string | null; public_phone: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null };
+type HotelAccount = { id: string; property_name: string; structure_type: StructureType; provider_kind: "structure" | "agency"; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; public_email: string | null; public_phone: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null };
 type Offer = { id: string; travel_request_id: string };
 type Viewer = { userId: string | null; role: UserRole | null; hotelAccountId: string | null };
 
@@ -38,6 +39,8 @@ const ctaWhatsApp = "inline-flex items-center justify-center gap-1.5 rounded-ful
 const ctaProfile = "inline-flex items-center justify-center gap-1.5 rounded-full bg-[#e8f0f8] px-3.5 py-2 text-xs font-bold text-[#0f4c81] shadow-sm transition hover:bg-[#d4e4f2]";
 const ctaRequest = "inline-flex items-center justify-center gap-1.5 rounded-full bg-[#fff7ed] px-3.5 py-2 text-xs font-bold text-[#c2410c] shadow-sm transition hover:bg-[#ffedd5]";
 
+const countryDisplayNames = typeof Intl !== "undefined" && "DisplayNames" in Intl ? new Intl.DisplayNames(["en"], { type: "region" }) : null;
+function countryLabel(code: string | null | undefined) { const c = (code ?? "").trim().toUpperCase(); if (!c) return null; try { return countryDisplayNames?.of(c) ?? c; } catch { return c; } }
 function formatDate(value: string) { return new Intl.DateTimeFormat("it-IT", { day: "2-digit", month: "short" }).format(new Date(value)); }
 function formatCurrency(value: number) { return new Intl.NumberFormat("it-IT", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(value); }
 function totalBudget(request: TravelRequest) { return Number(request.budget) * Number(request.rooms_count || 1); }
@@ -108,7 +111,6 @@ export function PublicShowcaseClient() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [acceptedRequestIds, setAcceptedRequestIds] = useState<Set<string>>(() => new Set());
-  const [feedView, setFeedView] = useState<"structures" | "requests">("requests");
 
   const hasSelectedCity = Boolean(selectedCity.city_name.trim());
   const createRequestBase = hasSelectedCity ? `/inserzionista/crea-annuncio?city_id=${encodeURIComponent(selectedCity.city_id)}&city=${encodeURIComponent(selectedCity.city_name)}` : "/inserzionista/crea-annuncio";
@@ -180,9 +182,9 @@ export function PublicShowcaseClient() {
       for (const request of [...((requestData ?? []) as TravelRequest[]), ...concludedRequests]) {
         merged.set(request.id, request);
       }
-      const { data: registeredHotels } = await supabase.from("hotel_accounts").select("id, property_name, structure_type, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, points_of_interest, services").eq("account_status", "active").eq("subscription_active", true).order("property_name", { ascending: true }).limit(60);
+      const { data: registeredHotels } = await supabase.from("hotel_accounts").select("id, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, points_of_interest, services").eq("account_status", "active").eq("subscription_active", true).order("property_name", { ascending: true }).limit(60);
       const { data: onboardingHotels } = await supabase.from("onboarding_hotels").select("id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url").order("city_name").limit(1000);
-      const mapped = (onboardingHotels || []).map(function mapOnb(h) { return { id: h.id, property_name: h.nome, structure_type: "hotel", country_code: "IT", city_name: h.city_name, city_id: String(h.city_name || "").toLowerCase().replace(/ +/g, "-") + "-it", specific_area: h.indirizzo || null, description: null, public_email: h.email || null, public_phone: h.phone || null, main_photo_url: h.main_photo_url || null, points_of_interest: null, services: null }; });
+      const mapped = (onboardingHotels || []).map(function mapOnb(h) { return { id: h.id, property_name: h.nome, structure_type: "hotel", provider_kind: "structure", country_code: "IT", city_name: h.city_name, city_id: String(h.city_name || "").toLowerCase().replace(/ +/g, "-") + "-it", specific_area: h.indirizzo || null, description: null, public_email: h.email || null, public_phone: h.phone || null, main_photo_url: h.main_photo_url || null, points_of_interest: null, services: null }; });
       const allHotels = [...(registeredHotels || []), ...mapped];
       setAcceptedRequestIds(acceptedIds);
       setRequests(
@@ -196,18 +198,112 @@ export function PublicShowcaseClient() {
 
   useEffect(() => { void loadShowcase(); }, []);
 
-  const visibleHotels = useMemo(() => hotels.filter(matchesSelectedCity), [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
+  const visibleHotels = useMemo(() => hotels.filter((h) => h.provider_kind !== "agency").filter(matchesSelectedCity), [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
+  const visibleAgencies = useMemo(() => hotels.filter((h) => h.provider_kind === "agency").filter(matchesSelectedCity), [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
   const filteredRequests = useMemo(() => requests.filter(matchesSelectedCity), [requests, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
   const offeredRequestIds = useMemo(() => new Set(offers.map((offer) => offer.travel_request_id)), [offers]);
   const isHotel = viewer.role === "hotel" && Boolean(viewer.hotelAccountId);
 
+  function renderRequestCard(request: TravelRequest) {
+    const hasOffer = offeredRequestIds.has(request.id);
+    const kind = requestBadgeKind(request);
+    return (
+      <article key={request.id} className="hd-request-card flex w-[18.5rem] shrink-0 snap-start flex-col overflow-hidden p-0 sm:w-[20rem]">
+        <div className="relative h-36 w-full overflow-hidden">
+          <img
+            src={getCityHeroImage({ cityName: request.city_name, countryCode: request.country_code, cityId: request.city_id })}
+            alt={request.city_name}
+            className="h-full w-full object-cover"
+          />
+          <span className={`absolute left-3 top-3 ${requestBadgeClass(kind)}`}>
+            {kind === "new" ? t.showcase.badgeNew : kind === "expiring" ? t.showcase.badgeExpiring : t.showcase.badgeActive}
+          </span>
+        </div>
+        <div className="flex flex-1 flex-col p-4">
+          <span className="hd-verified-user-badge self-start"><CheckCircle className="h-3.5 w-3.5" />Utente verificato</span>
+          <h3 className="mt-2 text-lg font-semibold text-[#0f4c81]">{request.city_name}</h3>
+          <p className="mt-0.5 line-clamp-1 text-xs text-zinc-500">Zona: {request.preferred_area}</p>
+          <div className="mt-3 space-y-1.5 text-sm text-zinc-600">
+            <p className="inline-flex items-center gap-2"><CalendarDays className="h-4 w-4 shrink-0" /> {formatDate(request.check_in)} → {formatDate(request.check_out)}</p>
+            <p className="inline-flex items-center gap-2"><Users className="h-4 w-4 shrink-0" /> {request.guests_count} ospiti · {request.rooms_count} camere</p>
+            <p className="inline-flex items-center gap-2"><Euro className="h-4 w-4 shrink-0" /> {formatCurrency(Number(request.budget))} a camera</p>
+          </div>
+          <div className="mt-4 flex-1" />
+          {isHotel ? (
+            hasOffer ? (
+              <div className="rounded-full border border-emerald-200 px-3 py-2.5 text-center text-xs font-semibold text-emerald-700">Offerta inviata</div>
+            ) : (
+              <Link href={`/struttura/annunci/${request.id}`} className="rounded-full bg-[#0f4c81] px-4 py-2.5 text-center text-sm font-bold text-white transition hover:bg-[#0d4373]">Fai un’offerta</Link>
+            )
+          ) : (
+            <Link href={createRequestHref} className="rounded-full bg-orange-500 px-4 py-2.5 text-center text-sm font-bold text-white transition hover:bg-orange-600">Crea richiesta</Link>
+          )}
+        </div>
+      </article>
+    );
+  }
+
+  function renderHotelCard(hotel: HotelAccount) {
+    const country = countryLabel(hotel.country_code);
+    const locationLine = `${structureTypeLabels[hotel.structure_type]} · ${hotel.city_name}${country ? `, ${country}` : ""}`;
+    const description = publicHotelDescription(hotel.description);
+    return (
+      <article key={hotel.id} className="flex w-[18.5rem] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 sm:w-[20rem]">
+        {hotel.main_photo_url ? (
+          <img src={hotel.main_photo_url} alt={hotel.property_name} className="h-36 w-full object-cover" />
+        ) : (
+          <div className="flex h-36 w-full items-center justify-center bg-zinc-100 text-zinc-400"><Building2 className="h-8 w-8" /></div>
+        )}
+        <div className="flex flex-1 flex-col p-4">
+          <p className="font-semibold">{hotel.property_name}</p>
+          <p className="mt-1 line-clamp-1 text-xs text-zinc-500">{locationLine}</p>
+          {description ? <p className="mt-2 line-clamp-2 text-sm text-zinc-600">{description}</p> : null}
+          <div className="mt-4 flex-1" />
+          <div className="flex flex-wrap items-center gap-2">
+            <a href={mapsHref(hotel)} target="_blank" rel="noreferrer" className={ctaMaps}><MapPin className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardMap}</a>
+            <Link href={`/hotel/${hotel.id}`} className={ctaProfile}>{t.showcase.cardProfile}</Link>
+            {viewer.role !== "hotel" ? (
+              <Link href={createRequestHrefForHotel(hotel)} className={ctaRequest}><Euro className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardRequest}</Link>
+            ) : null}
+          </div>
+        </div>
+      </article>
+    );
+  }
+
+  function renderAgencyCard(agency: HotelAccount) {
+    const country = countryLabel(agency.country_code);
+    const locationLine = `${t.showcase.agencyKindLabel} · ${agency.city_name}${country ? `, ${country}` : ""}`;
+    const description = publicHotelDescription(agency.description);
+    return (
+      <article key={agency.id} className="flex w-[18.5rem] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 sm:w-[20rem]">
+        {agency.main_photo_url ? (
+          <img src={agency.main_photo_url} alt={agency.property_name} className="h-36 w-full object-cover" />
+        ) : (
+          <div className="flex h-36 w-full items-center justify-center bg-zinc-100 text-zinc-400"><Briefcase className="h-8 w-8" /></div>
+        )}
+        <div className="flex flex-1 flex-col p-4">
+          <p className="font-semibold">{agency.property_name}</p>
+          <p className="mt-1 line-clamp-1 text-xs text-zinc-500">{locationLine}</p>
+          {description ? <p className="mt-2 line-clamp-2 text-sm text-zinc-600">{description}</p> : null}
+          <div className="mt-4 flex-1" />
+          <div className="flex flex-wrap items-center gap-2">
+            <a href={mapsHref(agency)} target="_blank" rel="noreferrer" className={ctaMaps}><MapPin className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardMap}</a>
+            <Link href={`/hotel/${agency.id}`} className={ctaProfile}>{t.showcase.cardProfile}</Link>
+          </div>
+        </div>
+      </article>
+    );
+  }
+
   return (
     <main className="hd-home-main min-h-screen overflow-x-hidden">
       {viewer.userId ? <RoleAlertBells role={viewer.role === "hotel" ? "hotel" : viewer.role === "advertiser" ? "advertiser" : undefined} /> : null}
+      <div className="hd-home-hero">
       <header className="hd-home-topbar relative z-50 overflow-visible">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-2 px-4 pb-0 pt-3 safe-top sm:px-6 sm:pt-4 lg:px-8">
-          <BrandLogo className="shrink-0" />
-          <TopbarControlsMenu>
+          <BrandLogo size="homeTopbar" className="shrink-0" accent="white" />
+          <TopbarControlsMenu collapseBelow="sm">
             <LanguageSwitcher compact />
             <CurrencySwitcher compact />
             {viewer.userId ? (
@@ -227,8 +323,11 @@ export function PublicShowcaseClient() {
                 <Link href="/login" className={topbarAuthLinkClass}>
                   Login
                 </Link>
+                <Link href="/registrazione?mode=partner" className={topbarAuthLinkClass}>
+                  {t.site.becomePartner}
+                </Link>
                 <Link href="/registrazione" className={topbarAuthPrimaryClass}>
-                  Registrati
+                  {t.site.registration}
                 </Link>
               </>
             )}
@@ -236,7 +335,11 @@ export function PublicShowcaseClient() {
         </div>
       </header>
 
-      <p className="hd-home-tagline font-brand">{t.showcase.homeTagline}</p>
+      <div className="hd-home-tagline font-brand">
+        <h1 className="hd-home-headline">{t.showcase.homeHeadline}</h1>
+        <p className="hd-home-subtitle">{t.showcase.homeSubtitle}</p>
+      </div>
+      </div>
 
       <div className="hd-home-bento relative z-10 mx-auto flex max-w-7xl flex-col gap-3 px-4 pb-2 sm:gap-4 sm:px-6 lg:px-8">
         <section className="hd-bento-card hd-bento-search p-3 sm:p-4">
@@ -263,16 +366,48 @@ export function PublicShowcaseClient() {
           <CityHeroSlider selectedCity={selectedCity} onSelectCity={setSelectedCity} />
         </section>
       </div>
-<div className="relative z-0 mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
-        <div className="mb-6 flex items-center justify-center gap-1 rounded-full border border-zinc-200 bg-white p-1 shadow-sm lg:hidden">
-          <button type="button" onClick={() => setFeedView("structures")} className={`rounded-full px-4 py-2 text-sm font-bold transition ${feedView === "structures" ? "bg-[#0f4c81] text-white shadow" : "text-zinc-600 hover:bg-zinc-100"}`}>Strutture</button>
-          <button type="button" onClick={() => setFeedView("requests")} className={`rounded-full px-4 py-2 text-sm font-bold transition ${feedView === "requests" ? "bg-[#0f4c81] text-white shadow" : "text-zinc-600 hover:bg-zinc-100"}`}>Richieste</button>
-        </div>
-      <div className={"grid gap-6 lg:grid-cols-2"}>
-      <aside className={`min-w-0 ${feedView !== "structures" ? "hidden lg:block" : ""}`}><div className="hd-feed-card p-5"><div className="mt-4 flex items-center gap-3"><Building2 className="h-5 w-5" /><div><h2 className="font-semibold">Strutture nella zona</h2><p className="text-xs text-zinc-500">{hasSelectedCity ? `Strutture compatibili con ${selectedCity.city_name}` : "Le strutture pubbliche attive."}</p></div></div><div className="mt-5 space-y-3">{loading ? <p className="text-sm text-zinc-500">Caricamento strutture...</p> : null}{!loading && visibleHotels.length === 0 ? <p className="rounded-2xl border border-dashed p-4 text-sm text-zinc-500">Nessuna struttura trovata.</p> : null}{visibleHotels.map((hotel) => { const services = activeServiceLabels(hotel.services).slice(0, 4); const description = publicHotelDescription(hotel.description); const mailHref = contactMailHref(hotel); const whatsAppHref = contactWhatsAppHref(hotel); return <article key={hotel.id} className="overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50">{hotel.main_photo_url ? <img src={hotel.main_photo_url} alt={hotel.property_name} className="h-56 w-full object-cover" /> : null}<div className="p-4"><p className="font-semibold">{hotel.property_name}</p><p className="mt-1 text-xs text-zinc-500">{structureTypeLabels[hotel.structure_type]} · {hotel.specific_area ?? hotel.city_name}</p>{description ? <p className="mt-2 line-clamp-2 text-sm text-zinc-600">{description}</p> : null}{services.length ? <div className="mt-3 flex flex-wrap gap-1.5">{services.map((service) => <span key={service} className="rounded-full bg-white px-2 py-1 text-[11px] font-semibold text-zinc-600">{service}</span>)}</div> : null}<div className="mt-3 flex flex-wrap gap-2"><a href={mapsHref(hotel)} target="_blank" rel="noreferrer" className={ctaMaps}><MapPin className="h-3.5 w-3.5 shrink-0" /> Mappa</a>{mailHref ? <a href={mailHref} className={ctaEmail}>Email</a> : null}{whatsAppHref ? <a href={whatsAppHref} target="_blank" rel="noreferrer" className={ctaWhatsApp}>WhatsApp</a> : null}<Link href={`/hotel/${hotel.id}`} className={ctaProfile}>Profilo</Link>{viewer.role !== "hotel" ? <Link href={createRequestHrefForHotel(hotel)} className={ctaRequest}>Richiesta</Link> : null}</div></div></article>; })}</div></div></aside>
+<div className="relative z-0 mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
+      <HorizontalSlider
+        title={`${filteredRequests.length} richieste attive${hasSelectedCity ? ` a ${selectedCity.city_name}` : ""}`}
+        subtitle="Scorri per scoprire le richieste degli inserzionisti."
+        itemCount={!loading && !error ? filteredRequests.length : 0}
+      >
+        {error ? <div className="w-full rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}
+        {loading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento home...</div> : null}
+        {!loading && !error && filteredRequests.length === 0 ? (
+          <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center">
+            <p className="font-semibold">Nessuna richiesta attiva</p>
+            <p className="mt-2 text-sm text-zinc-500">Al momento non ci sono richieste pubbliche disponibili.</p>
+            {viewer.role !== "hotel" ? <Link href={createRequestHref} className="hd-cta-orange mt-4">Crea la tua richiesta</Link> : null}
+          </div>
+        ) : null}
+        {!loading && !error ? filteredRequests.map((request) => renderRequestCard(request)) : null}
+      </HorizontalSlider>
 
-      <section className={`min-w-0 space-y-5 ${feedView !== "requests" ? "hidden lg:block" : ""}`}><div className="hd-feed-card p-4"><div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"><p className="text-sm font-semibold text-zinc-700">{filteredRequests.length} richieste attive{hasSelectedCity ? ` a ${selectedCity.city_name}` : ""}</p></div></div>{error ? <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}{loading ? <div className="rounded-3xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento home...</div> : null}{!loading && filteredRequests.length === 0 ? <div className="rounded-3xl border border-dashed border-zinc-300 bg-white p-8 text-center"><p className="font-semibold">Nessuna richiesta attiva</p><p className="mt-2 text-sm text-zinc-500">Al momento non ci sono richieste pubbliche disponibili.</p>{viewer.role !== "hotel" ? <Link href={createRequestHref} className="hd-cta-orange mt-4">Crea la tua richiesta</Link> : null}</div> : null}<div className="space-y-4">{filteredRequests.map((request) => { const filters = activeFilterLabels(request.preference_filters).slice(0, 5); const hasOffer = offeredRequestIds.has(request.id); const isAccepted = acceptedRequestIds.has(request.id); return <article key={request.id} className="hd-request-card p-4 transition"><div className="flex flex-col gap-5 md:flex-row md:items-start md:justify-between"><div className="hidden shrink-0 overflow-hidden rounded-xl sm:block"><img src={getCityHeroImage({ cityName: request.city_name, countryCode: request.country_code, cityId: request.city_id })} alt={request.city_name} className="h-32 w-32 object-cover" /></div><div className="min-w-0"><div className="flex flex-wrap items-center gap-2"><span className={requestBadgeClass(requestBadgeKind(request))}>{requestBadgeKind(request) === "new" ? t.showcase.badgeNew : requestBadgeKind(request) === "expiring" ? t.showcase.badgeExpiring : t.showcase.badgeActive}</span><span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold">{request.city_name}</span><span className="rounded-full bg-zinc-100 px-3 py-1 text-xs">{mealPlanLabels[request.meal_plan]}</span></div><span className="hd-verified-user-badge"><CheckCircle className="h-3.5 w-3.5" />Utente verificato</span><h3 className="mt-2 text-base leading-snug"><span className="hd-request-title-prefix font-normal text-zinc-500">{t.showcase.stayRequestIn.replace("{city}", "").trimEnd()}{" "}</span><span className="hd-request-title-city text-lg font-semibold text-[#0f4c81]">{request.city_name}</span></h3><p className="mt-1 text-sm text-zinc-500">Zona preferita: {request.preferred_area}</p><div className="mt-4 grid grid-cols-1 gap-3 text-sm text-zinc-600 md:grid-cols-3"><p className="inline-flex items-center gap-2"><CalendarDays className="h-4 w-4" /> {formatDate(request.check_in)} → {formatDate(request.check_out)}</p><p className="inline-flex items-center gap-2"><Users className="h-4 w-4" /> {request.guests_count} ospiti · {request.rooms_count} camere</p><p className="inline-flex items-center gap-2"><Euro className="h-4 w-4" /> Per camera {formatCurrency(Number(request.budget))}</p></div>{null}{filters.length ? <div className="mt-4 flex flex-wrap gap-2">{filters.map((filter) => <span key={filter} className="rounded-full border border-zinc-200 px-3 py-1 text-xs font-semibold text-zinc-600">{filter}</span>)}</div> : null}{request.notes ? <p className="mt-4 line-clamp-2 text-sm text-zinc-600">{request.notes}</p> : null}</div><div className="flex shrink-0 flex-col items-end gap-2 md:w-40">{isHotel ? hasOffer ? <div className="rounded-full border border-emerald-200 px-3 py-2 text-center text-xs font-semibold text-emerald-700">Offerta inviata</div> : <Link href={`/struttura/annunci/${request.id}`} className="rounded-full bg-[#0f4c81] px-4 py-3 text-center text-sm font-bold text-white">Fai un’offerta</Link> : <Link href={createRequestHref} className="inline-flex items-center justify-center rounded-full bg-orange-500 px-4 py-2.5 text-sm font-bold text-white shadow-sm transition hover:bg-orange-600">Crea richiesta</Link>}{<p className="text-center text-[11px] text-zinc-400">Contatti protetti fino all’accettazione dell’offerta.</p>}</div></div></article>; })}</div></section>
-    </div>
+      <HorizontalSlider
+        title="Strutture nella zona"
+        subtitle={hasSelectedCity ? `Strutture compatibili con ${selectedCity.city_name}` : "Le strutture pubbliche attive."}
+        itemCount={!loading ? visibleHotels.length : 0}
+      >
+        {loading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento strutture...</div> : null}
+        {!loading && visibleHotels.length === 0 ? (
+          <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">Nessuna struttura trovata.</div>
+        ) : null}
+        {!loading ? visibleHotels.map((hotel) => renderHotelCard(hotel)) : null}
+      </HorizontalSlider>
+
+      <HorizontalSlider
+        title={t.showcase.agenciesSliderTitle}
+        subtitle={hasSelectedCity ? `${t.showcase.agenciesSliderSubtitleCity} ${selectedCity.city_name}` : t.showcase.agenciesSliderSubtitle}
+        itemCount={!loading ? visibleAgencies.length : 0}
+      >
+        {loading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">…</div> : null}
+        {!loading && visibleAgencies.length === 0 ? (
+          <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">{t.showcase.agenciesEmpty}</div>
+        ) : null}
+        {!loading ? visibleAgencies.map((agency) => renderAgencyCard(agency)) : null}
+      </HorizontalSlider>
+
     </div>
   </main>
   );

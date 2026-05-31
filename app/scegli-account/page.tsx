@@ -2,11 +2,11 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Building2, UserRound } from "lucide-react";
+import { Briefcase, Building2, UserRound } from "lucide-react";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 
-type AccountKind = "inserzionista" | "struttura";
+type AccountKind = "inserzionista" | "struttura" | "agenzia";
 
 export default function ChooseAccountPage() {
   const { t } = useLanguage();
@@ -25,7 +25,7 @@ export default function ChooseAccountPage() {
         setError(t.auth.sessionNotFound);
         return;
       }
-      const role = kind === "struttura" ? "hotel" : "advertiser";
+      const role = kind === "struttura" ? "hotel" : kind === "agenzia" ? "agency" : "advertiser";
       const { error: profileError } = await supabase.from("profiles").upsert(
         {
           user_id: user.id,
@@ -71,6 +71,53 @@ export default function ChooseAccountPage() {
         router.push("/struttura/dashboard");
         return;
       }
+      if (role === "agency") {
+        const { error: agencyHotelError } = await supabase.from("hotel_accounts").upsert(
+          {
+            user_id: user.id,
+            provider_kind: "agency",
+            structure_type: "hotel",
+            property_name: "Nuova agenzia",
+            cin_code: null,
+            cun_code: null,
+            description: null,
+            full_address: "Indirizzo da completare",
+            country_code: "IT",
+            country_name: "Italia",
+            city_name: "Da completare",
+            city_id: "",
+            specific_area: null,
+            rooms_quantity: 1,
+            private_notification_email: user.email,
+            subscription_status: "active",
+            subscription_active: true,
+            account_status: "active",
+          },
+          { onConflict: "user_id" },
+        );
+        if (agencyHotelError) {
+          setError(agencyHotelError.message);
+          return;
+        }
+        const { error: agencyAdvError } = await supabase.from("advertiser_profiles").upsert(
+          {
+            user_id: user.id,
+            advertiser_type: "travel_agency",
+            first_name: "Agenzia",
+            last_name: "Viaggi",
+            agency_name: "Nuova agenzia",
+            short_description: null,
+            contact_email: user.email,
+          },
+          { onConflict: "user_id" },
+        );
+        if (agencyAdvError) {
+          setError(agencyAdvError.message);
+          return;
+        }
+        router.push("/agenzia/dashboard");
+        return;
+      }
       const { error: advertiserError } = await supabase.from("advertiser_profiles").upsert(
         {
           user_id: user.id,
@@ -101,7 +148,7 @@ export default function ChooseAccountPage() {
         <h1 className="mt-3 text-3xl font-semibold tracking-tight">{t.auth.chooseAccountTitle}</h1>
         <p className="mt-3 text-sm text-zinc-600">{t.auth.chooseAccountSubtitle}</p>
         {error ? <div className="mt-6 rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}
-        <div className="mt-8 grid gap-4 md:grid-cols-2">
+        <div className="mt-8 grid gap-4 md:grid-cols-3">
           <button
             type="button"
             onClick={() => choose("inserzionista")}
@@ -126,6 +173,19 @@ export default function ChooseAccountPage() {
             <p className="mt-2 text-sm text-zinc-500">{t.auth.chooseHotelDescription}</p>
             <span className="mt-5 inline-flex rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white">
               {loadingKind === "struttura" ? t.auth.chooseCreating : t.auth.chooseHotelCta}
+            </span>
+          </button>
+          <button
+            type="button"
+            onClick={() => choose("agenzia")}
+            disabled={Boolean(loadingKind)}
+            className="rounded-3xl border border-zinc-200 p-6 text-left transition hover:border-emerald-400 hover:bg-emerald-50 disabled:opacity-60"
+          >
+            <Briefcase className="h-7 w-7 text-emerald-700" />
+            <h2 className="mt-4 text-xl font-semibold">{t.auth.chooseAgencyTitle}</h2>
+            <p className="mt-2 text-sm text-zinc-500">{t.auth.chooseAgencyDescription}</p>
+            <span className="mt-5 inline-flex rounded-full bg-zinc-950 px-5 py-3 text-sm font-semibold text-white">
+              {loadingKind === "agenzia" ? t.auth.chooseCreating : t.auth.chooseAgencyCta}
             </span>
           </button>
         </div>

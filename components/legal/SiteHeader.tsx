@@ -19,6 +19,9 @@ export function SiteHeader() {
           <Link className={navLink} href="/directory">
             Strutture
           </Link>
+          <Link className={navLink} href="/registrazione?mode=partner">
+            {t.site.becomePartner}
+          </Link>
           <Link className={navLink} href="/registrazione">
             {t.site.registration}
           </Link>

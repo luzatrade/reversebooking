@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { ArrowLeft, Mail, MapPin, Phone } from "lucide-react";
+import { ArrowLeft, Mail, MapPin, Phone, PhoneCall } from "lucide-react";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { FavoriteHotelButton } from "@/components/favorites/FavoriteHotelButton";
 import { BRAND_NAME } from "@/lib/legal/company";
@@ -13,6 +13,8 @@ type HotelProfile = {
   id: string;
   property_name: string;
   structure_type: StructureType;
+  provider_kind: "structure" | "agency";
+  cun_code: string | null;
   main_photo_url: string | null;
   gallery_photo_urls: string[] | null;
   description: string | null;
@@ -59,7 +61,7 @@ export function PublicHotelProfile() {
         const supabase = createBrowserSupabaseClient();
         const { data, error: hotelError } = await supabase
           .from("hotel_accounts")
-          .select("id, property_name, structure_type, main_photo_url, gallery_photo_urls, description, full_address, country_name, city_name, specific_area, points_of_interest, rooms_quantity, services, public_email, public_phone, google_maps_url, cin_code")
+          .select("id, property_name, structure_type, provider_kind, cun_code, main_photo_url, gallery_photo_urls, description, full_address, country_name, city_name, specific_area, points_of_interest, rooms_quantity, services, public_email, public_phone, google_maps_url, cin_code")
           .eq("id", hotelId)
           .eq("account_status", "active")
           .eq("subscription_active", true)
@@ -86,6 +88,7 @@ export function PublicHotelProfile() {
   }
 
   const services = serviceLabels(hotel?.services ?? null);
+  const isAgency = hotel?.provider_kind === "agency";
 
   return (
     <div className="space-y-6">
@@ -100,20 +103,22 @@ export function PublicHotelProfile() {
           {hotel.main_photo_url ? (
             <img src={hotel.main_photo_url} alt={hotel.property_name} className="h-48 w-full object-cover sm:h-64 md:h-72" />
           ) : (
-            <div className="flex h-48 items-center justify-center bg-zinc-100 text-sm text-zinc-500 dark:bg-zinc-950 sm:h-64 md:h-72">Foto struttura non disponibile</div>
+            <div className="flex h-48 items-center justify-center bg-zinc-100 text-sm text-zinc-500 dark:bg-zinc-950 sm:h-64 md:h-72">{isAgency ? "Foto agenzia non disponibile" : "Foto struttura non disponibile"}</div>
           )}
 
           <div className="p-4 sm:p-6">
-            <p className="text-xs font-medium uppercase tracking-wide text-emerald-700 sm:text-sm">Profilo struttura</p>
+            <p className="text-xs font-medium uppercase tracking-wide text-emerald-700 sm:text-sm">{isAgency ? "Profilo agenzia" : "Profilo struttura"}</p>
             <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">{hotel.property_name}</h1>
             <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-              {structureTypeLabels[hotel.structure_type]} · {hotel.city_name}, {hotel.country_name}
+              {isAgency ? "Agenzia viaggi" : structureTypeLabels[hotel.structure_type]} · {hotel.city_name}, {hotel.country_name}
             </p>
-            {hotel.specific_area ? <p className="mt-1 text-sm text-zinc-500">Zona: {hotel.specific_area}</p> : null}
+            {hotel.specific_area ? <p className="mt-1 text-sm text-zinc-500">{isAgency ? "Zona di operatività" : "Zona"}: {hotel.specific_area}</p> : null}
             <div className="mt-4">
               <FavoriteHotelButton hotelId={hotel.id} hotelName={hotel.property_name} />
             </div>
-            <p className="mt-1 text-xs text-zinc-400">CIN: {hotel.cin_code}</p>
+            {isAgency
+              ? (hotel.cun_code ? <p className="mt-1 text-xs text-zinc-400">CUN: {hotel.cun_code}</p> : null)
+              : <p className="mt-1 text-xs text-zinc-400">CIN: {hotel.cin_code}</p>}
 
             {hotel.description ? <p className="mt-6 leading-7 text-zinc-700 dark:text-zinc-300">{hotel.description}</p> : null}
 
@@ -129,7 +134,7 @@ export function PublicHotelProfile() {
               <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 sm:p-5">
                 <h2 className="font-semibold">Informazioni</h2>
                 <p className="mt-2 text-sm text-zinc-500">Indirizzo: {hotel.full_address}</p>
-                <p className="mt-1 text-sm text-zinc-500">Camere/unità: {hotel.rooms_quantity}</p>
+                {!isAgency ? <p className="mt-1 text-sm text-zinc-500">Camere/unità: {hotel.rooms_quantity}</p> : null}
                 {hotel.points_of_interest?.length ? <p className="mt-1 text-sm text-zinc-500">Punti di interesse: {hotel.points_of_interest.join(", ")}</p> : null}
                 {hotel.google_maps_url ? (
                   <a href={hotel.google_maps_url} target="_blank" rel="noreferrer" className="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-zinc-950 px-4 py-3 text-sm font-semibold text-white dark:bg-white dark:text-zinc-950 sm:py-2">
@@ -139,8 +144,8 @@ export function PublicHotelProfile() {
               </div>
 
               <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 sm:p-5">
-                <h2 className="font-semibold">Servizi e contatti</h2>
-                {services.length ? <p className="mt-2 text-sm text-zinc-500">Servizi: {services.join(", ")}</p> : <p className="mt-2 text-sm text-zinc-500">Servizi non indicati.</p>}
+                <h2 className="font-semibold">{isAgency ? "Contatti" : "Servizi e contatti"}</h2>
+                {!isAgency && services.length ? <p className="mt-2 text-sm text-zinc-500">Servizi: {services.join(", ")}</p> : null}
                 <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-3">
                   {hotel.public_email ? (() => {
                     const emailLines = [
@@ -170,6 +175,11 @@ export function PublicHotelProfile() {
                       </a>
                     );
                   })() : null}
+                  {hotel.public_phone ? (
+                    <a href={"tel:" + hotel.public_phone.replace(/\s+/g, "")} className="inline-flex items-center justify-center gap-2 rounded-full bg-[#0f4c81] px-4 py-3 text-sm font-semibold text-white transition hover:bg-[#0d4373] sm:py-2">
+                      <PhoneCall className="h-4 w-4" /> Chiama
+                    </a>
+                  ) : null}
                 </div>
               </div>
             </div>

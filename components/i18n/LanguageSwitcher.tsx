@@ -16,29 +16,43 @@ type LanguageSwitcherProps = {
 export function LanguageSwitcher({ compact = false }: LanguageSwitcherProps) {
   const { locale, setLocale, t } = useLanguage();
 
-  const shellClass = compact
-    ? "inline-flex h-7 items-center gap-1 rounded-full border border-slate-200 bg-white px-2 py-0 shadow-sm sm:h-8 sm:gap-1.5 sm:px-2.5"
-    : "inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-white px-3 py-2 text-sm font-medium text-zinc-700 shadow-sm dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200";
+  const options = supportedLocales.map((item) => (
+    <option key={item} value={item}>
+      {localeFlags[item]} {localeLabels[item]}
+    </option>
+  ));
 
-  const iconClass = compact ? "h-3.5 w-3.5 text-slate-500" : "h-4 w-4";
-  const selectClass = compact
-    ? "max-w-[4.5rem] bg-transparent text-[11px] font-semibold text-slate-700 outline-none sm:max-w-none sm:text-xs"
-    : "bg-transparent text-sm outline-none";
+  // Variante compatta: solo la bandiera, niente icona globo né freccetta.
+  // La <select> nativa resta sopra (trasparente) per aprire il menu.
+  if (compact) {
+    return (
+      <label className="relative inline-flex h-7 cursor-pointer select-none items-center justify-center rounded-full border border-slate-200 bg-white px-2.5 shadow-sm transition focus-within:ring-2 focus-within:ring-slate-300 hover:bg-slate-50 sm:h-8">
+        <span className="sr-only">{t.common.language}</span>
+        <span aria-hidden className="text-base leading-none">
+          {localeFlags[locale]}
+        </span>
+        <select
+          value={locale}
+          onChange={(event) => setLocale(event.target.value as Locale)}
+          aria-label={t.common.language}
+          className="absolute inset-0 h-full w-full cursor-pointer appearance-none opacity-0"
+        >
+          {options}
+        </select>
+      </label>
+    );
+  }
 
   return (
-    <label className={shellClass}>
-      <Globe2 className={iconClass} />
+    <label className="inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-white px-3 py-2 text-sm font-medium text-zinc-700 shadow-sm dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-200">
+      <Globe2 className="h-4 w-4" />
       <span className="sr-only">{t.common.language}</span>
       <select
         value={locale}
         onChange={(event) => setLocale(event.target.value as Locale)}
-        className={selectClass}
+        className="bg-transparent text-sm outline-none"
       >
-        {supportedLocales.map((item) => (
-          <option key={item} value={item}>
-            {localeFlags[item]} {localeLabels[item]}
-          </option>
-        ))}
+        {options}
       </select>
     </label>
   );

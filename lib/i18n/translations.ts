@@ -86,7 +86,8 @@ export const translations = {
     },
     site: {
       contacts: "Contatti",
-      registration: "Registrazione",
+      registration: "Registrati",
+      becomePartner: "Diventa partner",
       structureArea: "Area struttura",
       legalNav: {
         legalNotice: "Note legali",
@@ -121,7 +122,7 @@ export const translations = {
     auth: {
       accessLabel: "Accesso",
       loginTitle: "Accedi a HotelsDrop",
-      loginSubtitle: "Accedi con email oppure con Google, Apple o Microsoft.",
+      loginSubtitle: "Accedi con la tua email e password.",
       emailPlaceholder: "nome@esempio.it",
       passwordPlaceholder: "••••••••",
       signingIn: "Accesso in corso...",
@@ -151,22 +152,34 @@ export const translations = {
       chooseAccountLabel: "Primo accesso social",
       chooseAccountTitle: "Scegli il tipo di account",
       chooseAccountSubtitle:
-        "Google, Apple e Microsoft confermano la tua identità, ma HotelsDrop deve sapere se sei inserzionista o struttura ricettiva.",
+        "Indica come vuoi usare HotelsDrop: viaggiatore, struttura ricettiva o agenzia.",
       chooseAdvertiserTitle: "Sono inserzionista",
       chooseAdvertiserDescription: "Creo richieste di soggiorno e ricevo offerte dalle strutture.",
       chooseAdvertiserCta: "Continua come inserzionista",
       chooseHotelTitle: "Sono una struttura ricettiva",
       chooseHotelDescription: "Vedo richieste nella mia zona e invio offerte ai clienti.",
       chooseHotelCta: "Continua come struttura",
+      chooseAgencyTitle: "Sono un'agenzia viaggi",
+      chooseAgencyDescription: "Pubblico richieste alle strutture e invio offerte ai viaggiatori.",
+      chooseAgencyCta: "Continua come agenzia",
       chooseCreating: "Creazione...",
       chooseGenericError: "Errore durante la scelta account.",
       sessionNotFound: "Sessione non trovata. Accedi di nuovo.",
       registerPasswordHint: "Password (min. 10 caratteri, con lettere e numeri)",
       registerAccountType: "Tipo account",
+      registerTravelerEyebrow: "Registrazione viaggiatore",
+      registerTravelerLead: "Account gratuito: pubblichi richieste e ricevi offerte dalle strutture della zona.",
+      registerTravelerQuestion: "Che tipo di viaggiatore sei?",
+      registerTravelerTypes: "Svago | Business | Scuole | Gruppi",
+      registerTravelerCta: "Registrati ora e invia la tua richiesta gratuitamente!",
+      registerTravelerBenefit:
+        "I migliori hotel e agenzie della zona ti invieranno le loro offerte direttamente, garantendoti il prezzo più vantaggioso e zero commissioni.",
+      registerPartnerLead: "Account a pagamento per chi offre: ricevi le richieste della tua zona e invii offerte.",
+      registerPartnerKindLegend: "Sei una struttura o un'agenzia?",
       registerAdvertiserOption:
         "Inserzionista (annunci gratuiti — nessuna fatturazione obbligatoria da piattaforma)",
-      registerHotelOption:
-        "Struttura ricettiva (Hotel / B&B / Appartamento — abbonamento e fatturazione Stripe)",
+      registerHotelOption: "Struttura ricettiva",
+      registerAgencyOption: "Agenzia viaggi",
       registerStructureType: "Tipologia struttura",
       registerStructureTypeHint:
         "La città e gli altri dati della struttura si completano dopo nel profilo struttura.",
@@ -210,6 +223,17 @@ export const translations = {
         "Invia la tua richiesta e ricevi offerte senza commissioni dagli hotel della zona selezionata.",
       homeTagline:
         "Invia la tua richiesta e ricevi offerte senza commissioni dagli hotel della zona selezionata.",
+      homeHeadline: "Offerte dirette dagli hotel, senza commissioni.",
+      homeSubtitle:
+        "Pubblica gratuitamente la tua richiesta e ricevi offerte dagli hotel della zona selezionata.",
+      agencyKindLabel: "Agenzia viaggi",
+      agenciesSliderTitle: "Agenzie viaggi nella zona",
+      agenciesSliderSubtitle: "Le agenzie viaggi attive.",
+      agenciesSliderSubtitleCity: "Agenzie viaggi a",
+      agenciesEmpty: "Nessuna agenzia trovata.",
+      cardMap: "Mappa",
+      cardProfile: "Profilo",
+      cardRequest: "Richiesta",
       heroTitle: "Non cerchi hotel: pubblichi dove e quando vuoi andare.",
       heroSubtitle:
         "Le strutture ti fanno offerte. Gratis per chi cerca, abbonamento per le strutture.",
@@ -963,6 +987,7 @@ export const translations = {
     site: {
       contacts: "Contact",
       registration: "Sign up",
+      becomePartner: "Become a partner",
       structureArea: "Property area",
       legalNav: {
         legalNotice: "Legal notice",
@@ -997,7 +1022,7 @@ export const translations = {
     auth: {
       accessLabel: "Sign in",
       loginTitle: "Sign in to HotelsDrop",
-      loginSubtitle: "Sign in with email or with Google, Apple, or Microsoft.",
+      loginSubtitle: "Sign in with your email and password.",
       emailPlaceholder: "name@example.com",
       passwordPlaceholder: "••••••••",
       signingIn: "Signing in...",
@@ -1027,22 +1052,34 @@ export const translations = {
       chooseAccountLabel: "First social sign-in",
       chooseAccountTitle: "Choose account type",
       chooseAccountSubtitle:
-        "Google, Apple, and Microsoft verify your identity, but HotelsDrop needs to know whether you are an advertiser or a property.",
+        "Tell us how you want to use HotelsDrop: traveler, property, or agency.",
       chooseAdvertiserTitle: "I am an advertiser",
       chooseAdvertiserDescription: "I post stay requests and receive offers from properties.",
       chooseAdvertiserCta: "Continue as advertiser",
       chooseHotelTitle: "I am a hospitality property",
       chooseHotelDescription: "I view requests in my area and send offers to guests.",
       chooseHotelCta: "Continue as property",
+      chooseAgencyTitle: "I am a travel agency",
+      chooseAgencyDescription: "I post requests to properties and send offers to travelers.",
+      chooseAgencyCta: "Continue as agency",
       chooseCreating: "Creating...",
       chooseGenericError: "Error while choosing account type.",
       sessionNotFound: "Session not found. Please sign in again.",
       registerPasswordHint: "Password (min. 10 characters, with letters and numbers)",
       registerAccountType: "Account type",
+      registerTravelerEyebrow: "Traveler sign-up",
+      registerTravelerLead: "Free account: post requests and receive offers from properties in the area.",
+      registerTravelerQuestion: "What kind of traveler are you?",
+      registerTravelerTypes: "Leisure | Business | Schools | Groups",
+      registerTravelerCta: "Sign up now and send your request for free!",
+      registerTravelerBenefit:
+        "The best hotels and agencies in the area will send you their offers directly, guaranteeing you the best price and zero commissions.",
+      registerPartnerLead: "Paid account for providers: get requests in your area and send offers.",
+      registerPartnerKindLegend: "Are you a property or an agency?",
       registerAdvertiserOption:
         "Advertiser (free listings — no mandatory platform subscription billing)",
-      registerHotelOption:
-        "Hospitality property (Hotel / B&B / Apartment — Stripe subscription and billing)",
+      registerHotelOption: "Hospitality property",
+      registerAgencyOption: "Travel agency",
       registerStructureType: "Property type",
       registerStructureTypeHint:
         "City and other property details are completed later in the property profile.",
@@ -1084,6 +1121,17 @@ export const translations = {
         "Send your request and receive commission-free offers from hotels in the selected area.",
       homeTagline:
         "Send your request and receive commission-free offers from hotels in the selected area.",
+      homeHeadline: "Direct offers from hotels, no commissions.",
+      homeSubtitle:
+        "Post your request for free and receive offers from hotels in the selected area.",
+      agencyKindLabel: "Travel agency",
+      agenciesSliderTitle: "Travel agencies in the area",
+      agenciesSliderSubtitle: "Active travel agencies.",
+      agenciesSliderSubtitleCity: "Travel agencies in",
+      agenciesEmpty: "No agencies found.",
+      cardMap: "Map",
+      cardProfile: "Profile",
+      cardRequest: "Request",
       heroTitle: "Don't search for hotels: publish where and when you want to travel.",
       heroSubtitle: "Properties send you offers. Free for travelers, subscription for properties.",
       selectCity: "Select city",
