@@ -14,17 +14,16 @@ type LanguageContextValue = {
 
 const LanguageContext = createContext<LanguageContextValue | null>(null);
 
-function getInitialLocale(): Locale {
-  if (typeof window === "undefined") return "it";
-  const saved = window.localStorage.getItem(LOCALE_COOKIE);
-  if (saved && supportedLocales.includes(saved as Locale)) return saved as Locale;
-  return "it";
-}
-
-export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>(() =>
-    typeof window === "undefined" ? "it" : getInitialLocale(),
-  );
+export function LanguageProvider({
+  children,
+  initialLocale = "it",
+}: {
+  children: ReactNode;
+  initialLocale?: Locale;
+}) {
+  // Parte dal valore deciso lato server (cookie): server e client renderizzano
+  // lo stesso locale al primo paint, quindi nessun mismatch di hydration.
+  const [locale, setLocaleState] = useState<Locale>(initialLocale);
 
   const setLocale = (nextLocale: Locale) => {
     setLocaleState(nextLocale);
@@ -32,6 +31,17 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     document.cookie = `${LOCALE_COOKIE}=${nextLocale}; path=/; max-age=31536000; SameSite=Lax`;
     document.documentElement.lang = nextLocale;
   };
+
+  // Riconciliazione post-mount con eventuale preferenza salvata solo in
+  // localStorage (utenti precedenti senza cookie): avviene dopo l'hydration,
+  // quindi non genera mismatch, e riallinea anche il cookie.
+  useEffect(() => {
+    const saved = window.localStorage.getItem(LOCALE_COOKIE);
+    if (saved && supportedLocales.includes(saved as Locale) && saved !== initialLocale) {
+      setLocale(saved as Locale);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   useEffect(() => {
     document.documentElement.lang = locale;

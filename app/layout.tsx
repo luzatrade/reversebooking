@@ -4,7 +4,7 @@ import { FloatingChatWidget } from "@/components/chat/FloatingChatWidget";
 import { AppFooter } from "@/components/legal/AppFooter";
 import { CookieBanner } from "@/components/legal/CookieBanner";
 import { LanguageProvider } from "@/components/i18n/LanguageProvider";
-import { getServerTranslations } from "@/lib/i18n/get-translations";
+import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
 import { getAppUrl } from "@/lib/legal/company";
 import "./globals.css";
 
@@ -65,19 +65,20 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const initialLocale = await getServerLocale();
   return (
     <html
-      lang="it"
+      lang={initialLocale}
       className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${poppins.variable} h-full antialiased`}
       style={{ colorScheme: "light" }}
     >
       <body className="flex min-h-full flex-col overflow-x-hidden bg-zinc-50 text-zinc-900">
-        <LanguageProvider>
+        <LanguageProvider initialLocale={initialLocale}>
           <div className="flex min-h-full flex-1 flex-col">{children}</div>
           <AppFooter />
           <FloatingChatWidget />
