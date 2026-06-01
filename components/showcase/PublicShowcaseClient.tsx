@@ -198,7 +198,7 @@ export function PublicShowcaseClient() {
           .from("onboarding_hotels")
           .select("id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url")
           .order("city_name")
-          .limit(1000),
+          .limit(120),
       ]);
       if (requestError) { setError(requestError.message); return; }
       const acceptedIds = new Set<string>();
@@ -226,7 +226,7 @@ export function PublicShowcaseClient() {
         ),
       );
       setHotels(allHotels as HotelAccount[]);
-      await viewerPromise;
+      void viewerPromise;
     } catch (err) { setError(err instanceof Error ? err.message : "Errore durante il caricamento della home."); } finally { setLoading(false); }
   }
 
@@ -474,7 +474,17 @@ export function PublicShowcaseClient() {
             <CatalogOfferCard key={offer.id} offer={offer} />
           ))}
         </HorizontalSlider>
-      ) : null}
+      ) : (
+        <HorizontalSlider
+          title={t.catalogOffers.structureOffersTitle}
+          subtitle={t.catalogOffers.structureOffersSubtitle}
+          itemCount={1}
+        >
+          <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">
+            {t.catalogOffers.selectCityHint}
+          </div>
+        </HorizontalSlider>
+      )}
 
       <HorizontalSlider
         title={t.showcase.agenciesSliderTitle}
@@ -503,7 +513,17 @@ export function PublicShowcaseClient() {
             <CatalogOfferCard key={offer.id} offer={offer} />
           ))}
         </HorizontalSlider>
-      ) : null}
+      ) : (
+        <HorizontalSlider
+          title={t.catalogOffers.agencyOffersTitle}
+          subtitle={t.catalogOffers.agencyOffersSubtitle}
+          itemCount={1}
+        >
+          <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">
+            {t.catalogOffers.selectCityHint}
+          </div>
+        </HorizontalSlider>
+      )}
 
     </div>
   </main>
