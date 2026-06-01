@@ -226,6 +226,9 @@ export function HotelDashboardClient() {
           <Link href="/struttura/profilo" className={dashboardSurfaces.btnSecondary}>
             {t.dashboard.hotel.structureProfile}
           </Link>
+          <Link href="/struttura/offerte/crea" className={dashboardSurfaces.btnSecondary}>
+            {t.catalogOffers.createOfferCta}
+          </Link>
           <Link href="/struttura" className={dashboardSurfaces.btnSecondary}>
             <ReceiptText className="h-4 w-4" /> {t.dashboard.hotel.billing}
           </Link>

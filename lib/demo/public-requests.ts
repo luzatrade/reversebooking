@@ -73,6 +73,7 @@ export const mealPlanLabels: Record<MealPlan, string> = {
   breakfast: "Colazione",
   half_board: "Mezza pensione",
   full_board: "Pensione completa",
+  all_inclusive: "All inclusive",
 };
 
 export const preferredStructureLabels: Record<PreferredStructureType, string> = {

@@ -15,6 +15,18 @@ export function makeRequestCode() {
   return `RB${randomSuffix(6)}`;
 }
 
+export function makeCatalogOfferCode() {
+  return `CO${randomSuffix(6)}`;
+}
+
+export function makeCatalogAcceptanceCode() {
+  return `AC${randomSuffix(6)}`;
+}
+
+export function catalogOfferHref(code: string) {
+  return `/offerta/${code}`;
+}
+
 export function relaunchOfferHref(requestId: string, offerId: string) {
   return `/struttura/annunci/${requestId}?relaunch_from=${encodeURIComponent(offerId)}`;
 }

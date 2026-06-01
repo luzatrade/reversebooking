@@ -58,6 +58,7 @@ const COPY = {
     account: "Account",
     profile: "Profilo agenzia",
     createRequest: "Crea richiesta",
+    createCatalogOffer: "Pubblica pacchetto",
     statZoneRequests: "Richieste in zona",
     statZoneRequestsDesc: "Richieste dei viaggiatori a cui puoi offrire",
     statSentOffers: "Offerte inviate",
@@ -94,6 +95,7 @@ const COPY = {
     account: "Account",
     profile: "Agency profile",
     createRequest: "Create request",
+    createCatalogOffer: "Publish package",
     statZoneRequests: "Requests in area",
     statZoneRequestsDesc: "Traveler requests you can offer to",
     statSentOffers: "Sent offers",
@@ -255,6 +257,9 @@ export function AgencyDashboardClient() {
           </Link>
           <Link href="/agenzia/profilo" className={dashboardSurfaces.btnSecondary}>
             <Briefcase className="h-4 w-4" /> {c.profile}
+          </Link>
+          <Link href="/agenzia/offerte/crea" className={dashboardSurfaces.btnSecondary}>
+            {c.createCatalogOffer}
           </Link>
           <Link href="/inserzionista/crea-annuncio" className={dashboardSurfaces.btnPrimary}>
             <FilePlus2 className="h-4 w-4" /> {c.createRequest}

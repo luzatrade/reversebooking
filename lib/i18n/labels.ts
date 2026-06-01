@@ -12,6 +12,7 @@ export function getMealPlanLabels(locale: Locale): Record<MealPlan, string> {
     breakfast: t.values.breakfast,
     half_board: t.values.halfBoard,
     full_board: t.values.fullBoard,
+    all_inclusive: t.values.allInclusive,
   };
 }
 

@@ -11,7 +11,7 @@ export type AdvertiserType =
 
 export type StructureType = "hotel" | "bed_and_breakfast" | "apartment";
 
-export type MealPlan = "room_only" | "breakfast" | "half_board" | "full_board";
+export type MealPlan = "room_only" | "breakfast" | "half_board" | "full_board" | "all_inclusive";
 
 export type RequestStatus = "active" | "expired" | "deleted" | "completed";
 
@@ -36,6 +36,7 @@ export const mealPlanLabels: Record<MealPlan, string> = {
   breakfast: "Colazione",
   half_board: "Mezza pensione",
   full_board: "Pensione completa",
+  all_inclusive: "All inclusive",
 };
 
 export const structureTypeLabels: Record<StructureType, string> = {

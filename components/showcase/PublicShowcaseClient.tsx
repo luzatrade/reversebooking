@@ -10,6 +10,7 @@ import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { CityAutocomplete } from "@/components/location/CityAutocomplete";
 import { CityHeroSlider } from "@/components/showcase/CityHeroSlider";
 import { HorizontalSlider } from "@/components/showcase/HorizontalSlider";
+import { CatalogOfferCard } from "@/components/catalog-offers/CatalogOfferCard";
 import { company } from "@/lib/legal/company";
 import { LogoutButton } from "@/components/auth/LogoutButton";
 import { BrandLogo } from "@/components/navigation/BrandLogo";
@@ -19,6 +20,7 @@ import { topbarAuthLinkClass, topbarAuthPrimaryClass } from "@/components/naviga
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { createWorldCity } from "@/lib/constants/world-city-helpers";
 import { mealPlanLabels, structureTypeLabels, type MealPlan, type StructureType, type UserRole } from "@/types/app";
+import type { CatalogOfferListItem } from "@/types/catalog-offers";
 
 function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date()) {
   const until = new Date(acceptedAtIso).getTime() + 24 * 60 * 60 * 1000;
@@ -90,7 +92,13 @@ function contactWhatsAppHref(hotel: HotelAccount) {
   const msg = "Ciao! Ho trovato " + name + " su " + company.companyName + " 😊 e vorrei chiedere gentilmente informazioni e disponibilità per le seguenti date: ... Grazie mille!";
   return "https://wa.me/" + phone + "?text=" + encodeURIComponent(msg);
 }
-function dashboardHref(viewer: Viewer) { if (viewer.role === "hotel") return "/struttura/dashboard"; if (viewer.role === "advertiser") return "/inserzionista/dashboard"; if (viewer.role === "admin") return "/admin"; return "/login"; }
+function dashboardHref(viewer: Viewer) {
+  if (viewer.role === "hotel") return "/struttura/dashboard";
+  if (viewer.role === "agency") return "/agenzia/dashboard";
+  if (viewer.role === "advertiser") return "/inserzionista/dashboard";
+  if (viewer.role === "admin") return "/admin";
+  return "/login";
+}
 function createOfferHref(requestId: string, viewer: Viewer) {
   const path = `/struttura/annunci/${requestId}`;
   if (viewer.role === "hotel" && viewer.userId) return path;
@@ -111,6 +119,8 @@ export function PublicShowcaseClient() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [acceptedRequestIds, setAcceptedRequestIds] = useState<Set<string>>(() => new Set());
+  const [structureOffers, setStructureOffers] = useState<CatalogOfferListItem[]>([]);
+  const [agencyOffers, setAgencyOffers] = useState<CatalogOfferListItem[]>([]);
 
   const hasSelectedCity = Boolean(selectedCity.city_name.trim());
   const createRequestBase = hasSelectedCity ? `/inserzionista/crea-annuncio?city_id=${encodeURIComponent(selectedCity.city_id)}&city=${encodeURIComponent(selectedCity.city_name)}` : "/inserzionista/crea-annuncio";
@@ -131,7 +141,7 @@ export function PublicShowcaseClient() {
       supabase.from("profiles").select("role").eq("user_id", authData.user.id).maybeSingle(),
       supabase.from("hotel_accounts").select("id").eq("user_id", authData.user.id).maybeSingle(),
     ]);
-    if (profile?.role === "hotel" || profile?.role === "advertiser" || profile?.role === "admin") role = profile.role;
+    if (profile?.role === "hotel" || profile?.role === "advertiser" || profile?.role === "admin" || profile?.role === "agency") role = profile.role;
     const hotelAccountId = hotelAccount?.id ?? null;
     if (hotelAccountId && !role) role = "hotel";
     setViewer({ userId: authData.user.id, role, hotelAccountId });
@@ -221,6 +231,35 @@ export function PublicShowcaseClient() {
   }
 
   useEffect(() => { void loadShowcase(); }, []);
+
+  useEffect(() => {
+    if (!hasSelectedCity || !selectedCity.city_id) {
+      setStructureOffers([]);
+      setAgencyOffers([]);
+      return;
+    }
+    let cancelled = false;
+    async function loadOffers() {
+      try {
+        const [hotelRes, agencyRes] = await Promise.all([
+          fetch(`/api/catalog-offers?cityId=${encodeURIComponent(selectedCity.city_id)}&kind=hotel_vacancy`),
+          fetch(`/api/catalog-offers?cityId=${encodeURIComponent(selectedCity.city_id)}&kind=agency_package`),
+        ]);
+        const hotelJson = await hotelRes.json();
+        const agencyJson = await agencyRes.json();
+        if (cancelled) return;
+        setStructureOffers(Array.isArray(hotelJson.offers) ? hotelJson.offers : []);
+        setAgencyOffers(Array.isArray(agencyJson.offers) ? agencyJson.offers : []);
+      } catch {
+        if (!cancelled) {
+          setStructureOffers([]);
+          setAgencyOffers([]);
+        }
+      }
+    }
+    void loadOffers();
+    return () => { cancelled = true; };
+  }, [hasSelectedCity, selectedCity.city_id]);
 
   const visibleHotels = useMemo(() => hotels.filter((h) => h.provider_kind !== "agency").filter(matchesSelectedCity), [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
   const visibleAgencies = useMemo(() => hotels.filter((h) => h.provider_kind === "agency").filter(matchesSelectedCity), [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
@@ -420,6 +459,23 @@ export function PublicShowcaseClient() {
         {!loading ? visibleHotels.map((hotel) => renderHotelCard(hotel)) : null}
       </HorizontalSlider>
 
+      {hasSelectedCity ? (
+        <HorizontalSlider
+          title={t.catalogOffers.structureOffersTitle}
+          subtitle={`${t.catalogOffers.structureOffersSubtitleCity} ${selectedCity.city_name}`}
+          itemCount={structureOffers.length}
+        >
+          {structureOffers.length === 0 ? (
+            <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">
+              {t.catalogOffers.structureOffersEmpty}
+            </div>
+          ) : null}
+          {structureOffers.map((offer) => (
+            <CatalogOfferCard key={offer.id} offer={offer} />
+          ))}
+        </HorizontalSlider>
+      ) : null}
+
       <HorizontalSlider
         title={t.showcase.agenciesSliderTitle}
         subtitle={hasSelectedCity ? `${t.showcase.agenciesSliderSubtitleCity} ${selectedCity.city_name}` : t.showcase.agenciesSliderSubtitle}
@@ -431,6 +487,23 @@ export function PublicShowcaseClient() {
         ) : null}
         {!loading ? visibleAgencies.map((agency) => renderAgencyCard(agency)) : null}
       </HorizontalSlider>
+
+      {hasSelectedCity ? (
+        <HorizontalSlider
+          title={t.catalogOffers.agencyOffersTitle}
+          subtitle={`${t.catalogOffers.agencyOffersSubtitleCity} ${selectedCity.city_name}`}
+          itemCount={agencyOffers.length}
+        >
+          {agencyOffers.length === 0 ? (
+            <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">
+              {t.catalogOffers.agencyOffersEmpty}
+            </div>
+          ) : null}
+          {agencyOffers.map((offer) => (
+            <CatalogOfferCard key={offer.id} offer={offer} />
+          ))}
+        </HorizontalSlider>
+      ) : null}
 
     </div>
   </main>

@@ -9,12 +9,14 @@ const mealPlanLabelsByLocale: Record<Locale, Record<MealPlan, string>> = {
     breakfast: "Colazione",
     half_board: "Mezza pensione",
     full_board: "Pensione completa",
+    all_inclusive: "All inclusive",
   },
   en: {
     room_only: "Room only",
     breakfast: "Breakfast",
     half_board: "Half board",
     full_board: "Full board",
+    all_inclusive: "All inclusive",
   },
 };
 
