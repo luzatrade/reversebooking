@@ -1,0 +1,32 @@
+// File generato automaticamente da scripts/export-city-heroes.mjs — non modificare a mano.
+// Mappa cityId -> foto principale (hero) servita dal nostro storage Supabase.
+
+export const cityHeroImages: Record<string, string> = {
+  "AE-DXB": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/AE-DXB/burj-khalifa.webp",
+  "AT-VIE": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/AT-VIE/schonbrunn.webp",
+  "CZ-PRG": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/CZ-PRG/charles-bridge.webp",
+  "DE-BER": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/DE-BER/brandenburg.webp",
+  "ES-BCN": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/ES-BCN/sagrada-familia.webp",
+  "ES-MAD": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/ES-MAD/plaza-mayor.webp",
+  "FR-PAR": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/FR-PAR/eiffel.webp",
+  "GB-LON": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/GB-LON/big-ben.webp",
+  "GR-JTR": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/GR-JTR/oia.webp",
+  "IT-BRI": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/IT-BRI/alberobello.webp",
+  "IT-CAG": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/IT-CAG/cagliari.webp",
+  "IT-CMO": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/IT-CMO/bellagio.webp",
+  "IT-CQT": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/IT-CQT/vernazza.webp",
+  "IT-FLR": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/IT-FLR/duomo.webp",
+  "IT-MIL": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/IT-MIL/duomo.webp",
+  "IT-NAP": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/IT-NAP/gulf-vesuvius.webp",
+  "IT-ROM": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/IT-ROM/colosseum.webp",
+  "IT-SOR": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/IT-SOR/positano.webp",
+  "IT-TAO": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/IT-TAO/taormina-theatre.webp",
+  "IT-VCE": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/IT-VCE/grand-canal.webp",
+  "JP-TYO": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/JP-TYO/shibuya.webp",
+  "NL-AMS": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/NL-AMS/canals.webp",
+  "PT-LIS": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/PT-LIS/belem-tower.webp",
+  "TH-BKK": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/TH-BKK/wat-arun.webp",
+  "TH-HKT": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/TH-HKT/big-buddha.webp",
+  "TR-IST": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/TR-IST/hagia-sophia.webp",
+  "US-NYC": "https://tavbgqcsizqdceobauli.supabase.co/storage/v1/object/public/city-media/US-NYC/statue-liberty.webp",
+};

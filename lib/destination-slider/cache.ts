@@ -1,5 +1,7 @@
 import { unstable_cache } from "next/cache";
 import { buildFocusSlides } from "@/lib/destination-slider/focusSlides";
+import { resolveCanonicalCityId } from "@/lib/destination-slider/cityPhotos";
+import { getCityMediaSlides, getCityDescription } from "@/lib/destination-slider/cityMedia";
 import type { DestinationSliderResponse } from "@/types/destination-slider";
 
 type FocusParams = {
@@ -40,6 +42,29 @@ const getCachedFocusSlides = unstable_cache(
 
 export async function getFocusSliderResponse(params: FocusParams): Promise<DestinationSliderResponse> {
   const locale = params.locale === "en" ? "en" : "it";
+
+  // Priorità assoluta alla galleria curata servita dal nostro storage (city_media):
+  // foto verificate e didascalie coerenti, nessuna chiamata esterna a runtime.
+  const canonicalId = resolveCanonicalCityId({
+    cityName: params.cityName,
+    countryCode: params.countryCode,
+    cityId: params.cityId,
+  });
+  if (canonicalId) {
+    const [mediaSlides, description] = await Promise.all([
+      getCityMediaSlides(canonicalId, locale),
+      getCityDescription(canonicalId, locale),
+    ]);
+    if (mediaSlides.length > 0) {
+      return {
+        mode: "focus",
+        slides: mediaSlides,
+        source: "commons",
+        description: description ?? undefined,
+      };
+    }
+  }
+
   const slides = await getCachedFocusSlides(
     params.cityId ?? "",
     params.countryCode ?? "",

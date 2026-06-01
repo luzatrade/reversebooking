@@ -1,37 +1,35 @@
 import { NextRequest, NextResponse } from "next/server";
 import { unstable_cache } from "next/cache";
 import { defaultDestinationCities } from "@/data/defaultDestinationCities";
-import { getCityPhotoVariants } from "@/lib/destination-slider/cityPhotos";
+import { getCityHeroImage } from "@/lib/destination-slider/cityMedia";
 import { formatBrowseCityLabel } from "@/lib/destination-slider/slideLabels";
 import type { DestinationSliderSlide } from "@/types/destination-slider";
 
-const PHOTOS_PER_CITY = 3;
-
 async function buildBrowseSlides(locale: "it" | "en"): Promise<DestinationSliderSlide[]> {
-  return defaultDestinationCities.flatMap((city) => {
-    const cityName = locale === "it" ? city.cityNameIt : city.cityNameEn;
-    const countryName = locale === "it" ? city.countryNameIt : city.countryNameEn;
-    const photos = getCityPhotoVariants({
-      cityName: city.cityNameEn,
-      countryCode: city.countryCode,
-      cityId: city.cityId,
-      count: PHOTOS_PER_CITY,
-    });
+  const slides = await Promise.all(
+    defaultDestinationCities.map(async (city) => {
+      const cityName = locale === "it" ? city.cityNameIt : city.cityNameEn;
+      const countryName = locale === "it" ? city.countryNameIt : city.countryNameEn;
+      // Hero curata dal nostro storage; fallback alla foto del catalogo statico.
+      const hero = await getCityHeroImage(city.cityId);
 
-    return photos.map((photoUrl, index) => ({
-      id: `browse-${city.id}-${index}`,
-      cityId: city.cityId,
-      title: formatBrowseCityLabel(cityName),
-      photoUrl,
-      kind: "city" as const,
-      subtitle: countryName,
-    }));
-  });
+      return {
+        id: `browse-${city.id}-0`,
+        cityId: city.cityId,
+        title: formatBrowseCityLabel(cityName),
+        photoUrl: hero ?? city.imageUrl,
+        kind: "city" as const,
+        subtitle: countryName,
+      } satisfies DestinationSliderSlide;
+    }),
+  );
+
+  return slides;
 }
 
 const getCachedBrowseSlides = unstable_cache(
   (locale: "it" | "en") => buildBrowseSlides(locale),
-  ["destination-browse-slides-v7"],
+  ["destination-browse-slides-v8"],
   { revalidate: 86400 },
 );
 

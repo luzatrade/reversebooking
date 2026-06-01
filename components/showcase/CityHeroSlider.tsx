@@ -35,6 +35,7 @@ export function CityHeroSlider({ selectedCity, onSelectCity }: CityHeroSliderPro
   const [browseLoading, setBrowseLoading] = useState(true);
   const [focusSlides, setFocusSlides] = useState<DestinationSliderSlide[]>([]);
   const [focusSource, setFocusSource] = useState<DestinationSliderResponse["source"] | null>(null);
+  const [focusDescription, setFocusDescription] = useState<string | null>(null);
   const [focusLoading, setFocusLoading] = useState(false);
 
   const hasSelectedCity = Boolean(selectedCity.city_name.trim());
@@ -119,6 +120,7 @@ export function CityHeroSlider({ selectedCity, onSelectCity }: CityHeroSliderPro
     const controller = new AbortController();
     setFocusSlides([]);
     setFocusSource(null);
+    setFocusDescription(null);
     setFocusLoading(true);
 
     const params = new URLSearchParams({
@@ -141,12 +143,14 @@ export function CityHeroSlider({ selectedCity, onSelectCity }: CityHeroSliderPro
       .then((payload) => {
         setFocusSlides(payload.slides ?? []);
         setFocusSource(payload.source ?? "fallback");
+        setFocusDescription(payload.description ?? null);
         setActiveIndex(0);
       })
       .catch((error) => {
         if (error instanceof DOMException && error.name === "AbortError") return;
         setFocusSlides([]);
         setFocusSource(null);
+        setFocusDescription(null);
       })
       .finally(() => {
         if (!controller.signal.aborted) setFocusLoading(false);
@@ -166,7 +170,9 @@ export function CityHeroSlider({ selectedCity, onSelectCity }: CityHeroSliderPro
       slides.map((slide) => ({
         ...slide,
         displayTitle:
-          slide.id.startsWith("curated-") || slide.id.startsWith("browse-")
+          slide.id.startsWith("curated-") ||
+          slide.id.startsWith("browse-") ||
+          slide.id.startsWith("media-")
             ? slide.title
             : slideDisplayTitle(slide, selectedCity.city_name, !hasSelectedCity),
       })),
@@ -183,15 +189,19 @@ export function CityHeroSlider({ selectedCity, onSelectCity }: CityHeroSliderPro
     : t.destinationShowcase.titleBrowse;
 
   const headerSubtitle = hasSelectedCity
-    ? slideCount > 1
-      ? t.destinationShowcase.swipeHint
-      : formatMessage(t.destinationShowcase.subtitleFocus, { city: selectedCity.city_name })
+    ? focusDescription
+      ? focusDescription
+      : slideCount > 1
+        ? t.destinationShowcase.swipeHint
+        : formatMessage(t.destinationShowcase.subtitleFocus, { city: selectedCity.city_name })
     : t.destinationShowcase.subtitleBrowse;
+
+  const usesCommonsPhotos = hasSelectedCity && !focusLoading && focusSource === "commons";
 
   const usesWikipediaPhotos =
     hasSelectedCity &&
     !focusLoading &&
-    focusSlides.some((slide) => slide.id.startsWith("wiki-"));
+    (focusSource === "commons" || focusSlides.some((slide) => slide.id.startsWith("wiki-")));
 
   const showWikipediaAttribution = usesWikipediaPhotos && !isLoading;
 
@@ -316,7 +326,7 @@ export function CityHeroSlider({ selectedCity, onSelectCity }: CityHeroSliderPro
       {hasSelectedCity && !focusLoading && focusSlides.length > 1 ? (
         <div className="hd-hero-places mt-3 sm:mt-4">
           <p className="hd-hero-places-label">
-            {focusSlides.some((s) => s.id.startsWith("curated-"))
+            {usesCommonsPhotos || focusSlides.some((s) => s.id.startsWith("curated-"))
               ? t.destinationShowcase.placesEditorial
               : usesWikipediaPhotos
                 ? t.destinationShowcase.placesFromWikipedia

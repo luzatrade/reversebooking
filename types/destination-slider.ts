@@ -13,5 +13,6 @@ export type DestinationSliderMode = "browse" | "focus";
 export type DestinationSliderResponse = {
   mode: DestinationSliderMode;
   slides: DestinationSliderSlide[];
-  source: "client" | "foursquare" | "curated" | "wikipedia" | "mixed" | "fallback";
+  source: "client" | "foursquare" | "curated" | "wikipedia" | "mixed" | "fallback" | "commons";
+  description?: string;
 };

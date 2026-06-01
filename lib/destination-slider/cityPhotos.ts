@@ -1,4 +1,5 @@
 import { majorWorldCities } from "@/lib/constants/world-cities";
+import { cityHeroImages } from "@/data/cityHeroImages";
 
 /**
  * Verified Unsplash photo IDs — each resolved to a real, free-to-use image.
@@ -424,6 +425,13 @@ export function getCityHeroImage(input: {
   cityId?: string | null;
 }): string {
   const canonicalId = resolveCanonicalCityId(input);
+  // Priorità alla hero curata sul nostro storage (galleria city_media).
+  if (canonicalId && cityHeroImages[canonicalId]) {
+    return cityHeroImages[canonicalId];
+  }
+  if (input.cityId && cityHeroImages[input.cityId]) {
+    return cityHeroImages[input.cityId];
+  }
   if (canonicalId && CITY_HERO_OVERRIDES[canonicalId]) {
     return unsplashPhoto(CITY_HERO_OVERRIDES[canonicalId]);
   }
