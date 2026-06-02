@@ -10,6 +10,7 @@ import { LogoutButton } from "@/components/auth/LogoutButton";
 import { MarkNotificationsReadOnDashboard } from "@/components/notifications/MarkNotificationsReadOnDashboard";
 import { focusAlertBells, scrollToSection } from "@/lib/dashboard/scrollToSection";
 import { relaunchOfferHref } from "@/lib/identifiers";
+import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { getAdvertiserTypeLabels, getMealPlanLabels } from "@/lib/i18n/labels";
@@ -106,60 +107,64 @@ export function HotelDashboardClient() {
     setError(null);
     try {
       const supabase = createBrowserSupabaseClient();
-      const { data: authData, error: authError } = await supabase.auth.getUser();
-      if (authError || !authData.user) {
+      const { user, error: authError } = await getAuthUserFast(supabase);
+      if (authError || !user) {
         setError(t.dashboard.shared.loginRequiredHotel);
         return;
       }
       const { data: hotelData, error: hotelError } = await supabase
         .from("hotel_accounts")
         .select("id, property_name, city_name, city_id")
-        .eq("user_id", authData.user.id)
+        .eq("user_id", user.id)
         .maybeSingle();
       if (hotelError || !hotelData) {
         setError(t.dashboard.shared.profileNotFoundHotel);
         return;
       }
       setHotel(hotelData as HotelAccount);
-      const { data: requestData, error: requestError } = await supabase
-        .from("travel_requests")
-        .select("id, request_code, city_name, city_id, preferred_area, check_in, check_out, guests_count, rooms_count, budget, meal_plan, notes, visible_contact_email, visible_contact_phone, visible_contact_whatsapp, visible_contact_website, expires_at, created_at, advertiser_profiles(advertiser_type, short_description)")
-        .eq("status", "active")
-        .eq("city_id", hotelData.city_id)
-        .gt("expires_at", new Date().toISOString())
-        .order("created_at", { ascending: false });
-      if (requestError) {
-        setError(requestError.message);
+
+      const nowIso = new Date().toISOString();
+      const [requestResult, offerResult, sentOfferResult, acceptedOfferResult, notificationResult] = await Promise.all([
+        supabase
+          .from("travel_requests")
+          .select("id, request_code, city_name, city_id, preferred_area, check_in, check_out, guests_count, rooms_count, budget, meal_plan, notes, visible_contact_email, visible_contact_phone, visible_contact_whatsapp, visible_contact_website, expires_at, created_at, advertiser_profiles(advertiser_type, short_description)")
+          .eq("status", "active")
+          .eq("city_id", hotelData.city_id)
+          .gt("expires_at", nowIso)
+          .order("created_at", { ascending: false }),
+        supabase
+          .from("offers")
+          .select("id, travel_request_id, status, offer_code, created_at")
+          .eq("hotel_account_id", hotelData.id)
+          .order("created_at", { ascending: false }),
+        supabase
+          .from("offers")
+          .select("id, offer_code, travel_request_id, status, total_price, meal_plan_included, created_at, travel_requests(id, request_code, city_name, preferred_area)")
+          .eq("hotel_account_id", hotelData.id)
+          .neq("status", "accepted")
+          .order("created_at", { ascending: false }),
+        supabase
+          .from("offers")
+          .select("id, total_price, meal_plan_included, created_at, travel_requests(id, city_name, preferred_area, check_in, check_out, guests_count, rooms_count)")
+          .eq("hotel_account_id", hotelData.id)
+          .eq("status", "accepted")
+          .order("created_at", { ascending: false }),
+        supabase
+          .from("notifications")
+          .select("id, is_read")
+          .eq("recipient_type", "hotel")
+          .eq("recipient_id", hotelData.id)
+          .eq("is_read", false),
+      ]);
+      if (requestResult.error) {
+        setError(requestResult.error.message);
         return;
       }
-      const { data: offerData } = await supabase
-        .from("offers")
-        .select("id, travel_request_id, status, offer_code, created_at")
-        .eq("hotel_account_id", hotelData.id)
-        .order("created_at", { ascending: false });
-      const { data: sentOfferData } = await supabase
-        .from("offers")
-        .select("id, offer_code, travel_request_id, status, total_price, meal_plan_included, created_at, travel_requests(id, request_code, city_name, preferred_area)")
-        .eq("hotel_account_id", hotelData.id)
-        .neq("status", "accepted")
-        .order("created_at", { ascending: false });
-      const { data: acceptedOfferData } = await supabase
-        .from("offers")
-        .select("id, total_price, meal_plan_included, created_at, travel_requests(id, city_name, preferred_area, check_in, check_out, guests_count, rooms_count)")
-        .eq("hotel_account_id", hotelData.id)
-        .eq("status", "accepted")
-        .order("created_at", { ascending: false });
-      const { data: notificationData } = await supabase
-        .from("notifications")
-        .select("id, is_read")
-        .eq("recipient_type", "hotel")
-        .eq("recipient_id", hotelData.id)
-        .eq("is_read", false);
-      setRequests(normalizeRequests((requestData ?? []) as unknown as RawTravelRequest[]));
-      setOffers((offerData ?? []) as Offer[]);
-      setSentOffers(normalizeSentOffers((sentOfferData ?? []) as unknown as RawSentOffer[]));
-      setAcceptedOffers(normalizeAcceptedOffers((acceptedOfferData ?? []) as unknown as RawAcceptedOffer[]));
-      setNotifications((notificationData ?? []) as Notification[]);
+      setRequests(normalizeRequests((requestResult.data ?? []) as unknown as RawTravelRequest[]));
+      setOffers((offerResult.data ?? []) as Offer[]);
+      setSentOffers(normalizeSentOffers((sentOfferResult.data ?? []) as unknown as RawSentOffer[]));
+      setAcceptedOffers(normalizeAcceptedOffers((acceptedOfferResult.data ?? []) as unknown as RawAcceptedOffer[]));
+      setNotifications((notificationResult.data ?? []) as Notification[]);
     } catch (err) {
       setError(err instanceof Error ? err.message : t.dashboard.shared.loadError);
     } finally {

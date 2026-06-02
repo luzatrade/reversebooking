@@ -5,9 +5,10 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { getLoginMessages, mapAuthLoginError } from "@/lib/auth/login-errors";
+import { resolveLoginRole } from "@/lib/auth/resolveLoginRole";
 import { dashboardPathForRole, redirectAfterLogin } from "@/lib/auth/redirectAfterLogin";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
-import type { UserRole } from "@/types/app";
+import type { User } from "@supabase/supabase-js";
 
 function safeRedirectPath(value: string | null) {
   if (!value || !value.startsWith("/") || value.startsWith("//")) return null;
@@ -52,22 +53,15 @@ function LoginPageContent() {
   const showRegisterLink =
     errorMessage === loginMessages.notRegistered || errorMessage === loginMessages.invalidCredentials;
 
-  const finishLogin = async (supabase: ReturnType<typeof createBrowserSupabaseClient>, userId: string) => {
-    const { data: profile, error: profileError } = await supabase
-      .from("profiles")
-      .select("role")
-      .eq("user_id", userId)
-      .maybeSingle();
-
-    if (profileError || !profile?.role) {
+  const finishLogin = async (supabase: ReturnType<typeof createBrowserSupabaseClient>, user: User) => {
+    const role = await resolveLoginRole(supabase, user);
+    if (!role) {
       await supabase.auth.signOut();
       setErrorMessage(loginMessages.notRegistered);
       return;
     }
 
-    const role = profile.role as UserRole;
-    const destination = redirectTo ?? dashboardPathForRole(role);
-    redirectAfterLogin(destination);
+    redirectAfterLogin(redirectTo ?? dashboardPathForRole(role));
   };
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
@@ -81,23 +75,21 @@ function LoginPageContent() {
         setErrorMessage(mapAuthLoginError(error.message, locale));
         return;
       }
-      const userId = data.user?.id;
-      if (!userId) {
+      const user = data.user;
+      if (!user) {
         setErrorMessage(t.auth.loginIncomplete);
         return;
       }
 
-      // Se l'utente ha un secondo fattore (TOTP) verificato, richiedi il codice
-      // prima di completare l'accesso. Fail-open: se questo controllo fallisce
-      // si prosegue col login normale, per non bloccare gli utenti.
+      // MFA solo se l'utente ha TOTP attivo — evita 2 chiamate Auth su ogni login normale.
       try {
-        const { data: aal } = await supabase.auth.mfa.getAuthenticatorAssuranceLevel();
-        if (aal?.currentLevel === "aal1" && aal?.nextLevel === "aal2") {
-          const { data: factors } = await supabase.auth.mfa.listFactors();
-          const totp = factors?.totp?.find((f) => f.status === "verified") ?? factors?.totp?.[0];
-          if (totp) {
+        const { data: factors } = await supabase.auth.mfa.listFactors();
+        const totp = factors?.totp?.find((f) => f.status === "verified") ?? factors?.totp?.[0];
+        if (totp) {
+          const { data: aal } = await supabase.auth.mfa.getAuthenticatorAssuranceLevel();
+          if (aal?.currentLevel === "aal1" && aal?.nextLevel === "aal2") {
             setMfaFactorId(totp.id);
-            setMfaUserId(userId);
+            setMfaUserId(user.id);
             setMfaRequired(true);
             return;
           }
@@ -106,7 +98,7 @@ function LoginPageContent() {
         // prosegui col login normale
       }
 
-      await finishLogin(supabase, userId);
+      await finishLogin(supabase, user);
     } catch (error) {
       setErrorMessage(error instanceof Error ? error.message : t.auth.loginGenericError);
     } finally {
@@ -137,7 +129,12 @@ function LoginPageContent() {
         setErrorMessage(t.auth.mfaInvalidCode);
         return;
       }
-      await finishLogin(supabase, mfaUserId);
+      const { data: authData } = await supabase.auth.getUser();
+      if (!authData.user) {
+        setErrorMessage(t.auth.loginIncomplete);
+        return;
+      }
+      await finishLogin(supabase, authData.user);
     } catch (error) {
       setErrorMessage(error instanceof Error ? error.message : t.auth.loginGenericError);
     } finally {

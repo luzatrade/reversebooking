@@ -5,9 +5,9 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { mapAuthLoginError } from "@/lib/auth/login-errors";
+import { resolveLoginRole, roleFromUserMetadata } from "@/lib/auth/resolveLoginRole";
 import { dashboardPathForRole, redirectAfterLogin } from "@/lib/auth/redirectAfterLogin";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
-import type { UserRole } from "@/types/app";
 
 function AuthCallbackContent() {
   const { locale, t } = useLanguage();
@@ -27,30 +27,46 @@ function AuthCallbackContent() {
       try {
         const supabase = createBrowserSupabaseClient();
         if (code) {
-          const { error: exchangeError } = await supabase.auth.exchangeCodeForSession(code);
+          const { data: exchangeData, error: exchangeError } = await supabase.auth.exchangeCodeForSession(code);
           if (exchangeError) {
             setErrorMessage(mapAuthLoginError(exchangeError.message, locale));
             return;
           }
-        }
-        const { data: authData } = await supabase.auth.getUser();
-        if (!authData.user) {
-          router.replace("/login");
+
+          const user = exchangeData.session?.user ?? exchangeData.user;
+          const token = exchangeData.session?.access_token;
+          if (token) {
+            void fetch("/api/auth/complete-profile", {
+              method: "POST",
+              headers: { Authorization: `Bearer ${token}` },
+            });
+          }
+
+          if (!user) {
+            router.replace("/login");
+            return;
+          }
+
+          const metaRole = roleFromUserMetadata(user);
+          if (metaRole) {
+            redirectAfterLogin(next || dashboardPathForRole(metaRole));
+            return;
+          }
+
+          const role = await resolveLoginRole(supabase, user);
+          redirectAfterLogin(next || dashboardPathForRole(role ?? undefined));
           return;
         }
 
         const { data: sessionData } = await supabase.auth.getSession();
-        const token = sessionData?.session?.access_token;
-        if (token) {
-          await fetch("/api/auth/complete-profile", {
-            method: "POST",
-            headers: { Authorization: `Bearer ${token}` },
-          });
+        const user = sessionData.session?.user;
+        if (!user) {
+          router.replace("/login");
+          return;
         }
 
-        const { data: profile } = await supabase.from("profiles").select("role").eq("user_id", authData.user.id).maybeSingle();
-        const destination = next || dashboardPathForRole(profile?.role as UserRole | undefined);
-        redirectAfterLogin(destination);
+        const role = await resolveLoginRole(supabase, user);
+        redirectAfterLogin(next || dashboardPathForRole(role ?? undefined));
       } catch (error) {
         setErrorMessage(error instanceof Error ? error.message : t.auth.callbackGenericError);
       }

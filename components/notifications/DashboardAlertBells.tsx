@@ -14,6 +14,7 @@ import {
 } from "@/lib/notifications/classify";
 import { countUnreadChatMessages, loadChatReadState, type ChatMessageLike } from "@/lib/chat/readState";
 import { isChatOpen } from "@/lib/chat/lifecycle";
+import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import type { UserRole } from "@/types/app";
 
@@ -47,13 +48,13 @@ export function DashboardAlertBells({ role }: Props) {
   const loadCounts = useCallback(async () => {
     try {
       const supabase = createBrowserSupabaseClient();
-      const { data: authData } = await supabase.auth.getUser();
-      if (!authData.user) {
+      const { user } = await getAuthUserFast(supabase);
+      if (!user) {
         setCounts({ requestAlerts: 0, offerAlerts: 0, chatAlerts: 0, chatUnread: 0 });
         return;
       }
 
-      const userId = authData.user.id;
+      const userId = user.id;
       let requestAlerts = 0;
       let offerAlerts = 0;
       let chatAlerts = 0;
@@ -165,11 +166,11 @@ export function DashboardAlertBells({ role }: Props) {
     setMarking(true);
     try {
       const supabase = createBrowserSupabaseClient();
-      const { data: authData } = await supabase.auth.getUser();
-      if (!authData.user) return;
+      const { user } = await getAuthUserFast(supabase);
+      if (!user) return;
 
       if (role === "hotel") {
-        const { data: hotel } = await supabase.from("hotel_accounts").select("id").eq("user_id", authData.user.id).maybeSingle();
+        const { data: hotel } = await supabase.from("hotel_accounts").select("id").eq("user_id", user.id).maybeSingle();
         if (!hotel?.id) return;
         const { data: notifications } = await supabase
           .from("notifications")
@@ -182,7 +183,7 @@ export function DashboardAlertBells({ role }: Props) {
         return;
       }
 
-      const { data: advertiser } = await supabase.from("advertiser_profiles").select("id").eq("user_id", authData.user.id).maybeSingle();
+      const { data: advertiser } = await supabase.from("advertiser_profiles").select("id").eq("user_id", user.id).maybeSingle();
       if (!advertiser?.id) return;
       const { data: ownRequests } = await supabase.from("travel_requests").select("id").eq("advertiser_id", advertiser.id);
       const requestIds = (ownRequests ?? []).map((request: { id: string }) => request.id);

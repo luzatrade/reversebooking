@@ -27,5 +27,16 @@ export async function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)"],
+  // Session refresh only where auth matters — avoids a Supabase round-trip on every public page/API hit.
+  matcher: [
+    "/struttura/:path*",
+    "/agenzia/:path*",
+    "/inserzionista/:path*",
+    "/console/:path*",
+    "/admin/:path*",
+    "/account/:path*",
+    "/chat/:path*",
+    "/scegli-account",
+    "/auth/callback",
+  ],
 };

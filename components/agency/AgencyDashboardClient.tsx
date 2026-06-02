@@ -8,6 +8,7 @@ import { dashboardSurfaces } from "@/components/dashboard/dashboardSurfaces";
 import { LogoutButton } from "@/components/auth/LogoutButton";
 import { scrollToSection } from "@/lib/dashboard/scrollToSection";
 import { getHotelOfferBlockMessage } from "@/lib/hotel/offer-eligibility";
+import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { getMealPlanLabels } from "@/lib/i18n/labels";
@@ -151,12 +152,12 @@ export function AgencyDashboardClient() {
     setError(null);
     try {
       const supabase = createBrowserSupabaseClient();
-      const { data: authData, error: authError } = await supabase.auth.getUser();
-      if (authError || !authData.user) {
+      const { user, error: authError } = await getAuthUserFast(supabase);
+      if (authError || !user) {
         setError(c.loginRequired);
         return;
       }
-      const userId = authData.user.id;
+      const userId = user.id;
 
       const { data: agencyData, error: agencyError } = await supabase
         .from("hotel_accounts")
@@ -169,34 +170,30 @@ export function AgencyDashboardClient() {
       }
       setAgency(agencyData as AgencyAccount);
 
-      // Lato fornitore: richieste attive nella città dell'agenzia.
-      if (agencyData.city_id) {
-        const { data: zoneData } = await supabase
-          .from("travel_requests")
-          .select(
-            "id, request_code, city_name, preferred_area, check_in, check_out, guests_count, rooms_count, budget, meal_plan, created_at",
-          )
-          .eq("status", "active")
-          .eq("city_id", agencyData.city_id)
-          .gt("expires_at", new Date().toISOString())
-          .order("created_at", { ascending: false });
-        setZoneRequests((zoneData ?? []) as ZoneRequest[]);
-      } else {
-        setZoneRequests([]);
-      }
+      const nowIso = new Date().toISOString();
+      const zoneQuery =
+        agencyData.city_id
+          ? supabase
+              .from("travel_requests")
+              .select(
+                "id, request_code, city_name, preferred_area, check_in, check_out, guests_count, rooms_count, budget, meal_plan, created_at",
+              )
+              .eq("status", "active")
+              .eq("city_id", agencyData.city_id)
+              .gt("expires_at", nowIso)
+              .order("created_at", { ascending: false })
+          : Promise.resolve({ data: [] as ZoneRequest[], error: null });
 
-      const { data: sentData } = await supabase
-        .from("offers")
-        .select("id")
-        .eq("hotel_account_id", agencyData.id);
-      setSentOffersCount((sentData ?? []).length);
+      const [zoneResult, sentResult, advResult] = await Promise.all([
+        zoneQuery,
+        supabase.from("offers").select("id").eq("hotel_account_id", agencyData.id),
+        supabase.from("advertiser_profiles").select("id").eq("user_id", userId).maybeSingle(),
+      ]);
 
-      // Lato acquirente: richieste pubblicate dall'agenzia.
-      const { data: advData } = await supabase
-        .from("advertiser_profiles")
-        .select("id")
-        .eq("user_id", userId)
-        .maybeSingle();
+      setZoneRequests((zoneResult.data ?? []) as ZoneRequest[]);
+      setSentOffersCount((sentResult.data ?? []).length);
+
+      const advData = advResult.data;
       if (advData?.id) {
         const { data: myData } = await supabase
           .from("travel_requests")
