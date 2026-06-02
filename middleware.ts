@@ -22,8 +22,7 @@ export async function middleware(request: NextRequest) {
     },
   });
 
-  // Refresh cookie session locally; avoid Auth server round-trip on every dashboard navigation.
-  await supabase.auth.getSession();
+  await supabase.auth.getUser();
   return response;
 }
 

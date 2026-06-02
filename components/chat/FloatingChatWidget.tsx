@@ -231,7 +231,7 @@ export function FloatingChatWidget() {
     } catch (err) {
       if (!silent) setError(err instanceof Error ? err.message : "Errore durante il caricamento della chat.");
     } finally {
-      if (!silent) setLoading(false);
+      setLoading(false);
     }
   }
 
@@ -296,7 +296,7 @@ export function FloatingChatWidget() {
     }
   }
 
-  if (!userId && !loading) return null;
+  if (!userId) return null;
 
   return (
     <div className="safe-bottom fixed bottom-4 right-4 z-40 flex max-w-[calc(100vw-1.5rem)] flex-col items-end max-sm:bottom-20">

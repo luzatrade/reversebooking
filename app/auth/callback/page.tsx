@@ -6,23 +6,14 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { mapAuthLoginError } from "@/lib/auth/login-errors";
 import { resolveLoginRole, roleFromUserMetadata } from "@/lib/auth/resolveLoginRole";
-import { dashboardPathForRole } from "@/lib/auth/redirectAfterLogin";
+import { dashboardPathForRole, redirectAfterLogin } from "@/lib/auth/redirectAfterLogin";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
-import type { UserRole } from "@/types/app";
 
 function AuthCallbackContent() {
   const { locale, t } = useLanguage();
   const router = useRouter();
   const searchParams = useSearchParams();
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
-
-  function goAfterAuth(path: string, role: UserRole | null | undefined) {
-    if (role === "admin") {
-      window.location.assign(path);
-      return;
-    }
-    router.replace(path);
-  }
 
   useEffect(() => {
     const completeAuth = async () => {
@@ -58,12 +49,12 @@ function AuthCallbackContent() {
 
           const metaRole = roleFromUserMetadata(user);
           if (metaRole) {
-            goAfterAuth(next || dashboardPathForRole(metaRole), metaRole);
+            redirectAfterLogin(next || dashboardPathForRole(metaRole));
             return;
           }
 
           const role = await resolveLoginRole(supabase, user);
-          goAfterAuth(next || dashboardPathForRole(role ?? undefined), role);
+          redirectAfterLogin(next || dashboardPathForRole(role ?? undefined));
           return;
         }
 
@@ -75,7 +66,7 @@ function AuthCallbackContent() {
         }
 
         const role = roleFromUserMetadata(user) ?? (await resolveLoginRole(supabase, user));
-        goAfterAuth(next || dashboardPathForRole(role ?? undefined), role);
+        redirectAfterLogin(next || dashboardPathForRole(role ?? undefined));
       } catch (error) {
         setErrorMessage(error instanceof Error ? error.message : t.auth.callbackGenericError);
       }

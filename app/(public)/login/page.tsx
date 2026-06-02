@@ -2,11 +2,11 @@
 
 import { FormEvent, Suspense, useState } from "react";
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { getLoginMessages, mapAuthLoginError } from "@/lib/auth/login-errors";
 import { resolveLoginRole, roleFromUserMetadata } from "@/lib/auth/resolveLoginRole";
-import { dashboardPathForRole } from "@/lib/auth/redirectAfterLogin";
+import { dashboardPathForRole, redirectAfterLogin } from "@/lib/auth/redirectAfterLogin";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import type { User } from "@supabase/supabase-js";
 
@@ -37,7 +37,6 @@ function LoginErrorBanner({
 }
 
 function LoginPageContent() {
-  const router = useRouter();
   const { locale, t } = useLanguage();
   const loginMessages = getLoginMessages(locale);
   const searchParams = useSearchParams();
@@ -63,13 +62,7 @@ function LoginPageContent() {
       return;
     }
 
-    const destination = redirectTo ?? dashboardPathForRole(role);
-    // Admin/console: full reload for SSR cookie sync. Hotel/agency: client navigation (much faster).
-    if (role === "admin") {
-      window.location.assign(destination);
-      return;
-    }
-    router.replace(destination);
+    redirectAfterLogin(redirectTo ?? dashboardPathForRole(role));
   };
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {

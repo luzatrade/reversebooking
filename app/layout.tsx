@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
-import dynamic from "next/dynamic";
 import { Geist, Geist_Mono, Inter, Poppins } from "next/font/google";
-
-const FloatingChatWidget = dynamic(
-  () => import("@/components/chat/FloatingChatWidget").then((m) => m.FloatingChatWidget),
-  { ssr: false },
-);
+import { FloatingChatWidget } from "@/components/chat/FloatingChatWidgetLoader";
 import { AppFooter } from "@/components/legal/AppFooter";
 import { CookieBanner } from "@/components/legal/CookieBanner";
 import { LanguageProvider } from "@/components/i18n/LanguageProvider";
