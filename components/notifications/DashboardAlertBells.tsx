@@ -141,7 +141,11 @@ export function DashboardAlertBells({ role }: Props) {
   }, [role]);
 
   useEffect(() => {
-    void loadCounts();
+    const start = () => void loadCounts();
+    const idleId =
+      typeof requestIdleCallback !== "undefined"
+        ? requestIdleCallback(start, { timeout: 2000 })
+        : window.setTimeout(start, 400);
     const interval = window.setInterval(() => {
       void loadCounts();
     }, 8000);
@@ -156,6 +160,11 @@ export function DashboardAlertBells({ role }: Props) {
     window.addEventListener("hd-chat-read", onChatRead);
     window.addEventListener("hd-focus-alert-bells", onFocusAlerts);
     return () => {
+      if (typeof cancelIdleCallback !== "undefined" && typeof idleId === "number") {
+        cancelIdleCallback(idleId);
+      } else {
+        window.clearTimeout(idleId as number);
+      }
       window.clearInterval(interval);
       window.removeEventListener("hd-chat-read", onChatRead);
       window.removeEventListener("hd-focus-alert-bells", onFocusAlerts);

@@ -9,6 +9,8 @@ import {
   type ChatReadState,
 } from "@/lib/chat/readState";
 import { isChatOpen } from "@/lib/chat/lifecycle";
+import { getAuthUserFast } from "@/lib/auth/clientSession";
+import { roleFromUserMetadata } from "@/lib/auth/resolveLoginRole";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import type { UserRole } from "@/types/app";
 
@@ -102,8 +104,15 @@ export function FloatingChatWidget() {
     await supabase.rpc("close_expired_accepted_chats");
   }
 
-  async function detectRole(currentUserId: string) {
-    const supabase = createBrowserSupabaseClient();
+  async function detectRole(
+    supabase: ReturnType<typeof createBrowserSupabaseClient>,
+    currentUserId: string,
+    metaRole: UserRole | null,
+  ) {
+    if (metaRole === "hotel" || metaRole === "advertiser") {
+      setRole(metaRole);
+      return metaRole;
+    }
     const { data: profile } = await supabase.from("profiles").select("role").eq("user_id", currentUserId).maybeSingle();
     if (profile?.role === "hotel" || profile?.role === "advertiser") {
       setRole(profile.role);
@@ -148,14 +157,13 @@ export function FloatingChatWidget() {
     if (open && userId) markAsRead(offerId, next);
   }
 
-  async function loadWidget(silent = false) {
+  async function loadWidget(silent = false, forceFullLoad = false) {
     if (!silent) setLoading(true);
     setError(null);
     try {
       const supabase = createBrowserSupabaseClient();
-      await runChatCleanup(supabase);
-      const { data: authData } = await supabase.auth.getUser();
-      if (!authData.user) {
+      const { user } = await getAuthUserFast(supabase, { validateWhenNoSession: false });
+      if (!user) {
         setUserId(null);
         setOffers([]);
         setMessages([]);
@@ -163,11 +171,17 @@ export function FloatingChatWidget() {
         setUnreadCount(0);
         return;
       }
-      const currentUserId = authData.user.id;
+      const currentUserId = user.id;
       setUserId(currentUserId);
+
+      if (!open && !forceFullLoad) {
+        return;
+      }
+
+      await runChatCleanup(supabase);
       const nextReadState = loadChatReadState(currentUserId);
       setReadState(nextReadState);
-      const currentRole = await detectRole(currentUserId);
+      const currentRole = await detectRole(supabase, currentUserId, roleFromUserMetadata(user));
       let query = supabase
         .from("offers")
         .select("id, hotel_accounts(property_name), travel_requests(city_name, preferred_area, request_code, check_in, advertiser_profiles(first_name, last_name))")
@@ -222,22 +236,30 @@ export function FloatingChatWidget() {
   }
 
   useEffect(() => {
-    void loadWidget();
+    void loadWidget(false, false);
   }, []);
+
+  useEffect(() => {
+    if (!open || !userId) return;
+    void loadWidget(true, true);
+  }, [open, userId]);
+
   useEffect(() => {
     if (activeOfferId) void loadMessages(activeOfferId);
   }, [activeOfferId]);
+
   useEffect(() => {
+    if (!userId || !open) return;
     const interval = window.setInterval(() => {
-      void loadWidget(true);
-    }, 5000);
+      void loadWidget(true, true);
+    }, 30000);
     const openChat = () => setOpen(true);
     window.addEventListener("hd-open-chat", openChat);
     return () => {
       window.clearInterval(interval);
       window.removeEventListener("hd-open-chat", openChat);
     };
-  }, [activeOfferId]);
+  }, [activeOfferId, open, userId]);
   useEffect(() => {
     if (open && activeOfferId) markAsRead(activeOfferId, messages);
   }, [open, activeOfferId, messages, markAsRead]);

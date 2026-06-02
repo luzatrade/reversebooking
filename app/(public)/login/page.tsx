@@ -2,11 +2,11 @@
 
 import { FormEvent, Suspense, useState } from "react";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { getLoginMessages, mapAuthLoginError } from "@/lib/auth/login-errors";
-import { resolveLoginRole } from "@/lib/auth/resolveLoginRole";
-import { dashboardPathForRole, redirectAfterLogin } from "@/lib/auth/redirectAfterLogin";
+import { resolveLoginRole, roleFromUserMetadata } from "@/lib/auth/resolveLoginRole";
+import { dashboardPathForRole } from "@/lib/auth/redirectAfterLogin";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import type { User } from "@supabase/supabase-js";
 
@@ -37,9 +37,11 @@ function LoginErrorBanner({
 }
 
 function LoginPageContent() {
+  const router = useRouter();
   const { locale, t } = useLanguage();
   const loginMessages = getLoginMessages(locale);
   const searchParams = useSearchParams();
+  const mfaParam = searchParams.get("mfa") === "1";
   const redirectTo = safeRedirectPath(searchParams.get("redirect"));
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -54,14 +56,20 @@ function LoginPageContent() {
     errorMessage === loginMessages.notRegistered || errorMessage === loginMessages.invalidCredentials;
 
   const finishLogin = async (supabase: ReturnType<typeof createBrowserSupabaseClient>, user: User) => {
-    const role = await resolveLoginRole(supabase, user);
+    const role = roleFromUserMetadata(user) ?? (await resolveLoginRole(supabase, user));
     if (!role) {
       await supabase.auth.signOut();
       setErrorMessage(loginMessages.notRegistered);
       return;
     }
 
-    redirectAfterLogin(redirectTo ?? dashboardPathForRole(role));
+    const destination = redirectTo ?? dashboardPathForRole(role);
+    // Admin/console: full reload for SSR cookie sync. Hotel/agency: client navigation (much faster).
+    if (role === "admin") {
+      window.location.assign(destination);
+      return;
+    }
+    router.replace(destination);
   };
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
@@ -81,21 +89,23 @@ function LoginPageContent() {
         return;
       }
 
-      // MFA solo se l'utente ha TOTP attivo — evita 2 chiamate Auth su ogni login normale.
-      try {
-        const { data: factors } = await supabase.auth.mfa.listFactors();
-        const totp = factors?.totp?.find((f) => f.status === "verified") ?? factors?.totp?.[0];
-        if (totp) {
-          const { data: aal } = await supabase.auth.mfa.getAuthenticatorAssuranceLevel();
-          if (aal?.currentLevel === "aal1" && aal?.nextLevel === "aal2") {
-            setMfaFactorId(totp.id);
-            setMfaUserId(user.id);
-            setMfaRequired(true);
-            return;
+      // MFA check only when redirected from server guard (?mfa=1), not on every password login.
+      if (mfaParam) {
+        try {
+          const { data: factors } = await supabase.auth.mfa.listFactors();
+          const totp = factors?.totp?.find((f) => f.status === "verified") ?? factors?.totp?.[0];
+          if (totp) {
+            const { data: aal } = await supabase.auth.mfa.getAuthenticatorAssuranceLevel();
+            if (aal?.currentLevel === "aal1" && aal?.nextLevel === "aal2") {
+              setMfaFactorId(totp.id);
+              setMfaUserId(user.id);
+              setMfaRequired(true);
+              return;
+            }
           }
+        } catch {
+          // prosegui col login normale
         }
-      } catch {
-        // prosegui col login normale
       }
 
       await finishLogin(supabase, user);

@@ -110,6 +110,7 @@ export function HotelDashboardClient() {
       const { user, error: authError } = await getAuthUserFast(supabase);
       if (authError || !user) {
         setError(t.dashboard.shared.loginRequiredHotel);
+        setLoading(false);
         return;
       }
       const { data: hotelData, error: hotelError } = await supabase
@@ -119,9 +120,11 @@ export function HotelDashboardClient() {
         .maybeSingle();
       if (hotelError || !hotelData) {
         setError(t.dashboard.shared.profileNotFoundHotel);
+        setLoading(false);
         return;
       }
       setHotel(hotelData as HotelAccount);
+      setLoading(false);
 
       const nowIso = new Date().toISOString();
       const [requestResult, offerResult, sentOfferResult, acceptedOfferResult, notificationResult] = await Promise.all([
@@ -167,7 +170,6 @@ export function HotelDashboardClient() {
       setNotifications((notificationResult.data ?? []) as Notification[]);
     } catch (err) {
       setError(err instanceof Error ? err.message : t.dashboard.shared.loadError);
-    } finally {
       setLoading(false);
     }
   };

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { DashboardAlertBells } from "@/components/notifications/DashboardAlertBells";
+import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import type { UserRole } from "@/types/app";
 
@@ -22,19 +23,19 @@ export function RoleAlertBells({ role: fixedRole }: Props) {
 
     async function detectRole() {
       const supabase = createBrowserSupabaseClient();
-      const { data: authData } = await supabase.auth.getUser();
-      if (!active || !authData.user) {
+      const { user } = await getAuthUserFast(supabase);
+      if (!active || !user) {
         if (active) setRole(null);
         return;
       }
 
-      const { data: profile } = await supabase.from("profiles").select("role").eq("user_id", authData.user.id).maybeSingle();
+      const { data: profile } = await supabase.from("profiles").select("role").eq("user_id", user.id).maybeSingle();
       if (profile?.role === "hotel" || profile?.role === "advertiser") {
         if (active) setRole(profile.role);
         return;
       }
 
-      const { data: hotelAccount } = await supabase.from("hotel_accounts").select("id").eq("user_id", authData.user.id).maybeSingle();
+      const { data: hotelAccount } = await supabase.from("hotel_accounts").select("id").eq("user_id", user.id).maybeSingle();
       if (active) setRole(hotelAccount ? "hotel" : "advertiser");
     }
 

@@ -11,6 +11,7 @@ import { StatCard } from "@/components/dashboard/StatCard";
 import { LogoutButton } from "@/components/auth/LogoutButton";
 import { MarkNotificationsReadOnDashboard } from "@/components/notifications/MarkNotificationsReadOnDashboard";
 import { focusAlertBells, scrollToSection } from "@/lib/dashboard/scrollToSection";
+import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { formatMessage } from "@/lib/i18n/format";
@@ -71,15 +72,15 @@ export function AdvertiserDashboardClient() {
     setProfile(null);
     try {
       const supabase = createBrowserSupabaseClient();
-      const { data: authData, error: authError } = await supabase.auth.getUser();
-      if (authError || !authData.user) {
+      const { user, error: authError } = await getAuthUserFast(supabase);
+      if (authError || !user) {
         setError(t.dashboard.shared.loginRequiredAdvertiser);
         return;
       }
       const { data: advertiserData, error: advertiserError } = await supabase
         .from("advertiser_profiles")
         .select("id")
-        .eq("user_id", authData.user.id)
+        .eq("user_id", user.id)
         .maybeSingle();
       if (advertiserError || !advertiserData) {
         setError(t.dashboard.shared.profileNotFoundAdvertiser);
