@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ArrowLeft, ImagePlus, X } from "lucide-react";
 import { CountryCitySelect } from "@/components/location/CountryCitySelect";
+import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { isHotelOperational } from "@/lib/hotel/access";
 import { findCityById } from "@/lib/constants/world-city-helpers";
@@ -36,7 +37,64 @@ export function EditHotelProfileForm() {
   const [success, setSuccess] = useState<string | null>(null);
   const [hotelOperational, setHotelOperational] = useState(true);
 
-  useEffect(() => { async function loadProfile() { setLoading(true); setError(null); try { const supabase = createBrowserSupabaseClient(); const { data: authData, error: authError } = await supabase.auth.getUser(); if (authError || !authData.user) { setError(hp.loginRequired); return; } setUserId(authData.user.id); const { data, error: hotelError } = await supabase.from("hotel_accounts").select("id, property_name, structure_type, cin_code, description, full_address, country_code, country_name, city_name, city_id, specific_area, rooms_quantity, main_photo_url, gallery_photo_urls, google_maps_url, public_email, public_phone, subscription_active, account_status").eq("user_id", authData.user.id).single(); if (hotelError || !data) { setError(hp.profileNotFound); return; } setHotelOperational(isHotelOperational(data)); const city = findCityById(data.city_id); setSelectedCity(city); setForm({ id: data.id, property_name: data.property_name ?? "", structure_type: data.structure_type ?? "hotel", cin_code: data.cin_code ?? "", description: data.description ?? "", full_address: data.full_address ?? "", country_code: city.country_code, country_name: city.country_name, city_name: city.city_name, city_id: city.city_id, specific_area: data.specific_area ?? "", rooms_quantity: data.rooms_quantity ?? 1, main_photo_url: data.main_photo_url ?? "", gallery_photo_urls: data.gallery_photo_urls ?? [], google_maps_url: data.google_maps_url ?? "", public_email: data.public_email ?? "", public_phone: data.public_phone ?? "" }); } catch (err) { setError(err instanceof Error ? err.message : hp.errorLoad); } finally { setLoading(false); } } void loadProfile(); }, []);
+  useEffect(() => {
+    let active = true;
+    async function loadProfile() {
+      setLoading(true);
+      setError(null);
+      try {
+        const supabase = createBrowserSupabaseClient();
+        const { user, error: authError } = await getAuthUserFast(supabase);
+        if (!active) return;
+        if (authError || !user) {
+          setError(hp.loginRequired);
+          return;
+        }
+        setUserId(user.id);
+        const { data, error: hotelError } = await supabase
+          .from("hotel_accounts")
+          .select("id, property_name, structure_type, cin_code, description, full_address, country_code, country_name, city_name, city_id, specific_area, rooms_quantity, main_photo_url, gallery_photo_urls, google_maps_url, public_email, public_phone, subscription_active, account_status")
+          .eq("user_id", user.id)
+          .maybeSingle();
+        if (!active) return;
+        if (hotelError || !data) {
+          setError(hotelError?.message ?? hp.profileNotFound);
+          return;
+        }
+        setHotelOperational(isHotelOperational(data));
+        const city = findCityById(data.city_id);
+        setSelectedCity(city);
+        setForm({
+          id: data.id,
+          property_name: data.property_name ?? "",
+          structure_type: data.structure_type ?? "hotel",
+          cin_code: data.cin_code ?? "",
+          description: data.description ?? "",
+          full_address: data.full_address ?? "",
+          country_code: city.country_code,
+          country_name: city.country_name,
+          city_name: city.city_name,
+          city_id: city.city_id,
+          specific_area: data.specific_area ?? "",
+          rooms_quantity: data.rooms_quantity ?? 1,
+          main_photo_url: data.main_photo_url ?? "",
+          gallery_photo_urls: data.gallery_photo_urls ?? [],
+          google_maps_url: data.google_maps_url ?? "",
+          public_email: data.public_email ?? "",
+          public_phone: data.public_phone ?? "",
+        });
+      } catch (err) {
+        if (active) setError(err instanceof Error ? err.message : hp.errorLoad);
+      } finally {
+        if (active) setLoading(false);
+      }
+    }
+    void loadProfile();
+    return () => {
+      active = false;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   function update<K extends keyof HotelForm>(key: K, value: HotelForm[K]) { setForm((current) => ({ ...current, [key]: value })); }
   function updateCity(city: WorldCity) { setSelectedCity(city); setForm((current) => ({ ...current, country_code: city.country_code, country_name: city.country_name, city_name: city.city_name, city_id: city.city_id })); }
   async function uploadPhoto(file: File, kind: "main" | "gallery") { if (!userId) throw new Error(hp.userNotFound); if (!file.type.startsWith("image/")) throw new Error(hp.imagesOnly); if (file.size > 5 * 1024 * 1024) throw new Error(hp.maxFileSize); const supabase = createBrowserSupabaseClient(); const path = `${userId}/${kind}-${Date.now()}.${fileExtension(file)}`; const { error: uploadError } = await supabase.storage.from("hotel-photos").upload(path, file, { cacheControl: "3600", upsert: true }); if (uploadError) throw uploadError; const { data } = supabase.storage.from("hotel-photos").getPublicUrl(path); return data.publicUrl; }

@@ -5,7 +5,7 @@ import { MapPin, Search } from "lucide-react";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
 import { cityFromInput, createWorldCity, findCityById } from "@/lib/constants/world-city-helpers";
-import { resolveCanonicalCityId } from "@/lib/destination-slider/cityPhotos";
+import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
 
 type CityAutocompleteProps = {
   value: WorldCity;

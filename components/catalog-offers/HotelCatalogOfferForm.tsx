@@ -8,6 +8,7 @@ import { getMealPlanLabels, getStructureTypeLabels } from "@/lib/i18n/labels";
 import { HOTEL_PERK_OPTIONS } from "@/lib/catalog-offers/labels";
 import { makeCatalogOfferCode } from "@/lib/identifiers";
 import { getHotelOfferBlockMessage } from "@/lib/hotel/offer-eligibility";
+import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import type { CatalogCityTax, CatalogPricingModel, CatalogRoomType } from "@/types/catalog-offers";
 import type { MealPlan, StructureType } from "@/types/app";
@@ -57,34 +58,51 @@ export function HotelCatalogOfferForm() {
   const [publish, setPublish] = useState(true);
 
   useEffect(() => {
+    let active = true;
     async function load() {
       setLoading(true);
-      const supabase = createBrowserSupabaseClient();
-      const { data: auth } = await supabase.auth.getUser();
-      if (!auth.user) {
-        setError(t.catalogOffers.loginRequired);
-        setLoading(false);
-        return;
+      setError(null);
+      try {
+        const supabase = createBrowserSupabaseClient();
+        const { user } = await getAuthUserFast(supabase);
+        if (!active) return;
+        if (!user) {
+          setError(t.catalogOffers.loginRequired);
+          return;
+        }
+        const { data, error: hotelError } = await supabase
+          .from("hotel_accounts")
+          .select("id, property_name, city_id, city_name, country_code, structure_type, subscription_active, account_status, provider_kind")
+          .eq("user_id", user.id)
+          .maybeSingle();
+        if (!active) return;
+        if (hotelError) {
+          setError(hotelError.message);
+          return;
+        }
+        const block = getHotelOfferBlockMessage(data);
+        if (block || !data || data.provider_kind === "agency") {
+          setError(block ?? t.catalogOffers.hotelOnly);
+          return;
+        }
+        if (!data.city_id?.trim()) {
+          setError("Completa la città nel profilo struttura prima di pubblicare un'offerta.");
+          return;
+        }
+        setHotel(data as HotelAccount);
+        setAccommodationType(data.structure_type as StructureType);
+        setTitleIt(`Offerta ${data.property_name}`);
+        setTitleEn(`${data.property_name} special offer`);
+      } finally {
+        if (active) setLoading(false);
       }
-      const { data, error: hotelError } = await supabase
-        .from("hotel_accounts")
-        .select("id, property_name, city_id, city_name, country_code, structure_type, subscription_active, account_status, provider_kind")
-        .eq("user_id", auth.user.id)
-        .maybeSingle();
-      const block = getHotelOfferBlockMessage(hotelError ? null : data);
-      if (block || !data || data.provider_kind === "agency") {
-        setError(block ?? t.catalogOffers.hotelOnly);
-        setLoading(false);
-        return;
-      }
-      setHotel(data as HotelAccount);
-      setAccommodationType(data.structure_type as StructureType);
-      setTitleIt(`Offerta ${data.property_name}`);
-      setTitleEn(`${data.property_name} special offer`);
-      setLoading(false);
     }
     void load();
-  }, [t.catalogOffers.hotelOnly, t.catalogOffers.loginRequired]);
+    return () => {
+      active = false;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   async function uploadCover(e: ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
@@ -184,7 +202,19 @@ export function HotelCatalogOfferForm() {
   }
 
   if (loading) return <p className="p-6 text-sm text-zinc-500">{t.common.loading}</p>;
-  if (error && !hotel) return <p className="p-6 text-sm text-red-600">{error}</p>;
+  if (error && !hotel) {
+    return (
+      <div className="mx-auto max-w-lg space-y-4 px-4 py-8">
+        <p className="text-sm text-red-600">{error}</p>
+        <Link href="/struttura/profilo" className="inline-block text-sm font-semibold text-[#0f4c81] underline">
+          → {t.dashboard.hotel.structureProfile}
+        </Link>
+        <Link href="/struttura/dashboard" className="block text-sm text-zinc-600">
+          ← {t.common.backToDashboard}
+        </Link>
+      </div>
+    );
+  }
 
   return (
     <form onSubmit={onSubmit} className="mx-auto max-w-3xl space-y-6 px-4 py-8">

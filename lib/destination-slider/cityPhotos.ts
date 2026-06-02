@@ -1,4 +1,5 @@
 import { majorWorldCities } from "@/lib/constants/world-cities";
+import { resolveCanonicalCityId as resolveCanonicalCityIdBase } from "@/lib/constants/world-city-helpers";
 import { cityHeroImages } from "@/data/cityHeroImages";
 
 /**
@@ -310,54 +311,6 @@ function poolForCity(canonicalId: string | null, countryCode?: string | null) {
   return poolForCountry(countryCode, canonicalId);
 }
 
-const CITY_NAME_ALIASES: Record<string, string> = {
-  roma: "IT-ROM", rome: "IT-ROM",
-  milano: "IT-MIL", milan: "IT-MIL",
-  firenze: "IT-FLR", florence: "IT-FLR",
-  venezia: "IT-VCE", venice: "IT-VCE",
-  napoli: "IT-NAP", naples: "IT-NAP",
-  torino: "IT-TRN", turin: "IT-TRN",
-  bologna: "IT-BLQ",
-  verona: "IT-VRN",
-  palermo: "IT-PMO",
-  catania: "IT-CTA",
-  matera: "IT-MAT",
-  sorrento: "IT-SOR",
-  capri: "IT-CAP",
-  taormina: "IT-TAO",
-  "reggio calabria": "IT-REG",
-  bari: "IT-BRI",
-  lecce: "IT-LCC",
-  "cinque terre": "IT-CQT",
-  "costiera amalfitana": "IT-SOR",
-  "amalfi coast": "IT-SOR",
-  "lago di como": "IT-CMO",
-  "lake como": "IT-CMO",
-  como: "IT-CMO",
-  alberobello: "IT-BRI",
-  cagliari: "IT-CAG",
-  olbia: "IT-OLB",
-  alghero: "IT-AHO",
-  parigi: "FR-PAR", paris: "FR-PAR",
-  londra: "GB-LON", london: "GB-LON",
-  barcellona: "ES-BCN", barcelona: "ES-BCN",
-  madrid: "ES-MAD",
-  berlino: "DE-BER", berlin: "DE-BER",
-  amsterdam: "NL-AMS",
-  lisbona: "PT-LIS", lisbon: "PT-LIS",
-  praga: "CZ-PRG", prague: "CZ-PRG",
-  vienna: "AT-VIE", wien: "AT-VIE",
-  istanbul: "TR-IST",
-  santorini: "GR-JTR",
-  mykonos: "GR-JMK",
-  atene: "GR-ATH", athens: "GR-ATH",
-  dubai: "AE-DXB",
-  tokyo: "JP-TYO",
-  phuket: "TH-HKT",
-  bangkok: "TH-BKK",
-  "new york": "US-NYC",
-};
-
 function normalizeText(value: string) {
   return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
 }
@@ -392,31 +345,8 @@ export function resolveCanonicalCityId(input: {
   cityId?: string | null;
 }): string | null {
   const cityId = input.cityId?.trim();
-  if (cityId && majorWorldCities.some((city) => city.city_id === cityId)) return cityId;
   if (cityId && CITY_HERO_OVERRIDES[cityId]) return cityId;
-
-  const normalizedName = normalizeText(input.cityName);
-  if (CITY_NAME_ALIASES[normalizedName]) return CITY_NAME_ALIASES[normalizedName];
-
-  const countryCode = input.countryCode?.toUpperCase();
-  const byName = majorWorldCities.find(
-    (city) => normalizeText(city.city_name) === normalizedName && (!countryCode || city.country_code === countryCode),
-  );
-  if (byName) return byName.city_id;
-
-  if (cityId?.includes("-")) {
-    const slug = cityId.split("-").slice(1).join("-");
-    const slugNorm = normalizeText(slug.replace(/-/g, " "));
-    if (CITY_NAME_ALIASES[slugNorm]) return CITY_NAME_ALIASES[slugNorm];
-    const fromSlug = majorWorldCities.find(
-      (city) =>
-        normalizeText(city.city_name) === slugNorm &&
-        (!countryCode || city.country_code === countryCode),
-    );
-    if (fromSlug) return fromSlug.city_id;
-  }
-
-  return cityId || null;
+  return resolveCanonicalCityIdBase(input);
 }
 
 export function getCityHeroImage(input: {
