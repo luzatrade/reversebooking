@@ -22,7 +22,16 @@ export async function middleware(request: NextRequest) {
     },
   });
 
-  await supabase.auth.getUser();
+  try {
+    await Promise.race([
+      supabase.auth.getSession(),
+      new Promise<void>((resolve) => {
+        setTimeout(resolve, 2000);
+      }),
+    ]);
+  } catch {
+    // Never block page navigation if Auth is slow or unavailable.
+  }
   return response;
 }
 

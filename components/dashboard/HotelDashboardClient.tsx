@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { HardNavLink } from "@/components/navigation/HardNavLink";
 import { Bell, CheckCircle2, Filter, Home, ReceiptText, RefreshCw, UserCog } from "lucide-react";
 import { HotelSentOffersPanel, type HotelSentOffer } from "@/components/dashboard/HotelSentOffersPanel";
 import { StatCard } from "@/components/dashboard/StatCard";
@@ -230,18 +231,18 @@ export function HotelDashboardClient() {
           <Link href="/account" className={dashboardSurfaces.btnSecondary}>
             <UserCog className="h-4 w-4" /> {t.dashboard.shared.account}
           </Link>
-          <Link href="/struttura/profilo" className={dashboardSurfaces.btnSecondary}>
+          <HardNavLink href="/struttura/profilo" className={dashboardSurfaces.btnSecondary}>
             {t.dashboard.hotel.structureProfile}
-          </Link>
-          <Link href="/struttura/offerte/crea" className={dashboardSurfaces.btnSecondary}>
+          </HardNavLink>
+          <HardNavLink href="/struttura/offerte/crea" className={dashboardSurfaces.btnSecondary}>
             {t.catalogOffers.createOfferCta}
-          </Link>
-          <Link href="/struttura" className={dashboardSurfaces.btnSecondary}>
+          </HardNavLink>
+          <HardNavLink href="/struttura" className={dashboardSurfaces.btnSecondary}>
             <ReceiptText className="h-4 w-4" /> {t.dashboard.hotel.billing}
-          </Link>
-          <Link href="/struttura" className={dashboardSurfaces.btnPrimary}>
+          </HardNavLink>
+          <HardNavLink href="/struttura" className={dashboardSurfaces.btnPrimary}>
             {t.dashboard.hotel.manageSubscription}
-          </Link>
+          </HardNavLink>
           <LogoutButton />
         </div>
       </div>

@@ -2,6 +2,7 @@
 
 import { FormEvent, useEffect, useState, type ChangeEvent } from "react";
 import Link from "next/link";
+import { HardNavLink } from "@/components/navigation/HardNavLink";
 import { useRouter } from "next/navigation";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { getMealPlanLabels, getStructureTypeLabels } from "@/lib/i18n/labels";
@@ -206,19 +207,19 @@ export function HotelCatalogOfferForm() {
     return (
       <div className="mx-auto max-w-lg space-y-4 px-4 py-8">
         <p className="text-sm text-red-600">{error}</p>
-        <Link href="/struttura/profilo" className="inline-block text-sm font-semibold text-[#0f4c81] underline">
+        <HardNavLink href="/struttura/profilo" className="inline-block text-sm font-semibold text-[#0f4c81] underline">
           → {t.dashboard.hotel.structureProfile}
-        </Link>
-        <Link href="/struttura/dashboard" className="block text-sm text-zinc-600">
+        </HardNavLink>
+        <HardNavLink href="/struttura/dashboard" className="block text-sm text-zinc-600">
           ← {t.common.backToDashboard}
-        </Link>
+        </HardNavLink>
       </div>
     );
   }
 
   return (
     <form onSubmit={onSubmit} className="mx-auto max-w-3xl space-y-6 px-4 py-8">
-      <Link href="/struttura/dashboard" className="text-sm text-[#0f4c81]">← {t.common.backToDashboard}</Link>
+      <HardNavLink href="/struttura/dashboard" className="text-sm text-[#0f4c81]">← {t.common.backToDashboard}</HardNavLink>
       <h1 className="text-2xl font-semibold">{t.catalogOffers.createHotelOffer}</h1>
 
       <section className="space-y-3 rounded-2xl border border-zinc-200 p-4">

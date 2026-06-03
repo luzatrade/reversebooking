@@ -17,6 +17,12 @@ export async function getAuthUserFast(
 
   if (!validateWhenNoSession) return { user: null, error: null };
 
-  const { data: authData, error } = await supabase.auth.getUser();
-  return { user: authData.user ?? null, error: error ?? null };
+  const timeoutMs = 5000;
+  const result = await Promise.race([
+    supabase.auth.getUser(),
+    new Promise<{ data: { user: null }; error: Error }>((resolve) =>
+      setTimeout(() => resolve({ data: { user: null }, error: new Error("AUTH_TIMEOUT") }), timeoutMs),
+    ),
+  ]);
+  return { user: result.data.user ?? null, error: result.error ?? null };
 }
