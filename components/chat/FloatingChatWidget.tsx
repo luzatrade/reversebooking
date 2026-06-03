@@ -249,17 +249,23 @@ export function FloatingChatWidget() {
   }, [activeOfferId]);
 
   useEffect(() => {
+    const onOpenChat = (event: Event) => {
+      const offerId = (event as CustomEvent<{ offerId?: string }>).detail?.offerId;
+      if (offerId) setActiveOfferId(offerId);
+      setOpen(true);
+      if (userId) void loadWidget(true, true);
+    };
+    window.addEventListener("hd-open-chat", onOpenChat);
+    return () => window.removeEventListener("hd-open-chat", onOpenChat);
+  }, [userId]);
+
+  useEffect(() => {
     if (!userId || !open) return;
     const interval = window.setInterval(() => {
       void loadWidget(true, true);
     }, 30000);
-    const openChat = () => setOpen(true);
-    window.addEventListener("hd-open-chat", openChat);
-    return () => {
-      window.clearInterval(interval);
-      window.removeEventListener("hd-open-chat", openChat);
-    };
-  }, [activeOfferId, open, userId]);
+    return () => window.clearInterval(interval);
+  }, [open, userId]);
   useEffect(() => {
     if (open && activeOfferId) markAsRead(activeOfferId, messages);
   }, [open, activeOfferId, messages, markAsRead]);

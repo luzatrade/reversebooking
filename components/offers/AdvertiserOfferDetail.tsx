@@ -3,7 +3,9 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
-import { ArrowLeft, CheckCircle2, XCircle } from "lucide-react";
+import { ArrowLeft, CheckCircle2, MessageCircle, XCircle } from "lucide-react";
+import { useLanguage } from "@/components/i18n/LanguageProvider";
+import { openOfferChat } from "@/lib/chat/openOfferChat";
 import { AcceptedBookingSummary, type AcceptedBookingSummaryData } from "@/components/offers/AcceptedBookingSummary";
 import { OfferBudgetComparison } from "@/components/offers/OfferBudgetComparison";
 import { acceptedOfferTheme } from "@/components/offers/acceptedOfferTheme";
@@ -88,6 +90,7 @@ function buildSummaryData(offer: OfferDetail): AcceptedBookingSummaryData | null
 }
 
 export function AdvertiserOfferDetail() {
+  const { t } = useLanguage();
   const params = useParams<{ id: string }>();
   const router = useRouter();
   const offerId = params.id;
@@ -148,7 +151,16 @@ export function AdvertiserOfferDetail() {
     } catch (err) {
       await createFallbackHotelNotification(status);
       setError(err instanceof Error ? err.message : "Errore durante l’aggiornamento dell’offerta.");
-    } finally { setSaving(false); }
+    }     finally { setSaving(false); }
+  }
+
+  function handleChatWithStructure() {
+    if (!offer) return;
+    if (offer.status !== "accepted") {
+      setMessage(t.chat.chatAfterAccept);
+      return;
+    }
+    openOfferChat(offer.id);
   }
 
   if (loading) return <div className="rounded-3xl border p-6 text-sm text-zinc-500">Caricamento offerta...</div>;
@@ -167,7 +179,14 @@ export function AdvertiserOfferDetail() {
           <div className="print-hide flex flex-wrap items-center gap-3">
             <PrintSummaryButton />
             <DownloadVoucherButton data={summaryData} />
-            <span className={acceptedOfferTheme.badgeLg}>🤝 Offerta accettata · chat in basso a destra</span>
+            <button
+              type="button"
+              onClick={handleChatWithStructure}
+              className="inline-flex items-center gap-2 rounded-full bg-emerald-700 px-5 py-2.5 text-sm font-semibold text-white hover:bg-emerald-800"
+            >
+              <MessageCircle className="h-4 w-4" />
+              {t.chat.chatWithStructure}
+            </button>
           </div>
           <AcceptedBookingSummary data={summaryData} />
         </div>
@@ -194,20 +213,31 @@ export function AdvertiserOfferDetail() {
             <div className="mt-6 space-y-3">
               <LegalMicroLine variant="acceptOffer" />
               <div className="flex flex-wrap gap-3">
-              <button
-                disabled={saving}
-                onClick={() => updateOfferStatus("accepted")}
-                className="inline-flex items-center gap-2 rounded-full bg-orange-500 px-6 py-3 text-sm font-semibold text-white hover:bg-orange-400 disabled:opacity-60"
-              >
-                <CheckCircle2 className="h-4 w-4" /> Accetta offerta
-              </button>
-              <button
-                disabled={saving}
-                onClick={() => updateOfferStatus("rejected")}
-                className="inline-flex items-center gap-2 rounded-full border border-red-200 px-6 py-3 text-sm font-semibold text-red-700 disabled:opacity-60"
-              >
-                <XCircle className="h-4 w-4" /> Rifiuta
-              </button>
+                <button
+                  type="button"
+                  disabled={saving}
+                  onClick={() => void updateOfferStatus("accepted")}
+                  className="inline-flex items-center gap-2 rounded-full bg-orange-500 px-6 py-3 text-sm font-semibold text-white hover:bg-orange-400 disabled:opacity-60"
+                >
+                  <CheckCircle2 className="h-4 w-4" /> Accetta offerta
+                </button>
+                <button
+                  type="button"
+                  disabled={saving}
+                  onClick={() => void updateOfferStatus("rejected")}
+                  className="inline-flex items-center gap-2 rounded-full border border-red-200 px-6 py-3 text-sm font-semibold text-red-700 disabled:opacity-60"
+                >
+                  <XCircle className="h-4 w-4" /> Rifiuta
+                </button>
+                <button
+                  type="button"
+                  disabled={saving}
+                  onClick={handleChatWithStructure}
+                  className="inline-flex items-center gap-2 rounded-full border border-emerald-700 bg-emerald-50 px-6 py-3 text-sm font-semibold text-emerald-800 hover:bg-emerald-100 disabled:opacity-60"
+                >
+                  <MessageCircle className="h-4 w-4" />
+                  {t.chat.chatWithStructure}
+                </button>
               </div>
             </div>
           ) : null}
