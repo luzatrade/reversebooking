@@ -185,7 +185,7 @@ export function FloatingChatWidget() {
       let query = supabase
         .from("offers")
         .select("id, hotel_accounts(property_name), travel_requests(city_name, preferred_area, request_code, check_in, advertiser_profiles(first_name, last_name))")
-        .eq("status", "accepted")
+        .in("status", ["pending", "accepted"])
         .order("created_at", { ascending: false });
       if (currentRole === "hotel") {
         const { data: hotelAccount } = await supabase.from("hotel_accounts").select("id, subscription_active, account_status").eq("user_id", currentUserId).maybeSingle();

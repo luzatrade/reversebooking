@@ -156,8 +156,8 @@ export function AdvertiserOfferDetail() {
 
   function handleChatWithStructure() {
     if (!offer) return;
-    if (offer.status !== "accepted") {
-      setMessage(t.chat.chatAfterAccept);
+    if (offer.status !== "pending" && offer.status !== "accepted") {
+      setMessage(t.chat.chatClosed);
       return;
     }
     openOfferChat(offer.id);

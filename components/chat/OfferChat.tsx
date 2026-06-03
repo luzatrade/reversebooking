@@ -93,8 +93,8 @@ export function OfferChat() {
         return;
       }
 
-      if (offerData.status !== "accepted") {
-        setError(c.chatAfterAccept);
+      if (offerData.status !== "pending" && offerData.status !== "accepted") {
+        setError(c.chatClosed);
         return;
       }
 
