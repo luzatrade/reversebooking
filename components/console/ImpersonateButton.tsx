@@ -25,11 +25,12 @@ export function ImpersonateButton({ userId, label }: Props) {
       return;
     }
 
-    if (data.actionLink) {
-      window.open(data.actionLink, "_blank");
-    } else {
-      alert("Link non generato");
+    if (data.redirectUrl) {
+      window.location.assign(data.redirectUrl);
+      return;
     }
+
+    alert("Link non generato");
     setLoading(false);
   }
 

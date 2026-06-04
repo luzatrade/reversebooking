@@ -15,11 +15,22 @@ export function DownloadVoucherButton({ data }: { data: AcceptedBookingSummaryDa
     if (busy) return;
     setBusy(true);
     try {
-      const [{ pdf }, { BookingVoucherPdf }] = await Promise.all([
-        import("@react-pdf/renderer"),
-        import("@/components/offers/BookingVoucherPdf"),
-      ]);
-      const blob = await pdf(<BookingVoucherPdf data={data} locale={locale} />).toBlob();
+      const res = await fetch("/api/booking-voucher/pdf", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ data, locale }),
+      });
+
+      if (!res.ok) {
+        const payload = (await res.json().catch(() => null)) as { error?: string } | null;
+        throw new Error(payload?.error ?? "Impossibile generare il PDF");
+      }
+
+      const blob = await res.blob();
+      if (blob.size < 512) {
+        throw new Error("Il file PDF risulta vuoto");
+      }
+
       const url = URL.createObjectURL(blob);
       const anchor = document.createElement("a");
       anchor.href = url;
@@ -28,8 +39,14 @@ export function DownloadVoucherButton({ data }: { data: AcceptedBookingSummaryDa
       anchor.click();
       document.body.removeChild(anchor);
       URL.revokeObjectURL(url);
-    } catch {
-      window.print();
+    } catch (error) {
+      const message =
+        error instanceof Error
+          ? error.message
+          : locale === "en"
+            ? "PDF download failed"
+            : "Download PDF non riuscito";
+      alert(message);
     } finally {
       setBusy(false);
     }

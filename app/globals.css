@@ -630,6 +630,19 @@ body {
     border: none !important;
     box-shadow: none !important;
     padding: 0 !important;
+    background: #fff !important;
+    color: #18181b !important;
+  }
+
+  #accepted-booking-summary * {
+    color: #18181b !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  #accepted-booking-summary .text-emerald-700,
+  #accepted-booking-summary .dark\:text-emerald-400 {
+    color: #047857 !important;
   }
 
   .print-hide {

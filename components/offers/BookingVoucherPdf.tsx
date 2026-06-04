@@ -67,11 +67,13 @@ const copy: Record<Locale, Record<string, string>> = {
 };
 
 function fmtDate(value: string, locale: Locale) {
+  const parsed = new Date(value);
+  if (Number.isNaN(parsed.getTime())) return value;
   return new Intl.DateTimeFormat(locale === "en" ? "en-GB" : "it-IT", {
     day: "2-digit",
     month: "long",
     year: "numeric",
-  }).format(new Date(value));
+  }).format(parsed);
 }
 
 function fmtCurrency(value: number, locale: Locale) {
@@ -136,9 +138,7 @@ export function BookingVoucherPdf({
     >
       <Page size="A4" style={styles.page}>
         <View style={styles.header}>
-          <Text style={styles.brand}>
-            Hotels<Text style={styles.brandDrop}>Drop</Text>
-          </Text>
+          <Text style={styles.brand}>{c.brand}</Text>
           <Text style={styles.badge}>{c.accepted.toUpperCase()}</Text>
         </View>
 

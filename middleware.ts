@@ -47,5 +47,6 @@ export const config = {
     "/chat/:path*",
     "/scegli-account",
     "/auth/callback",
+    "/auth/impersonate",
   ],
 };

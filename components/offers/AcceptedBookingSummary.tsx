@@ -37,7 +37,10 @@ function formatCurrency(value: number) {
 
 export function AcceptedBookingSummary({ data }: { data: AcceptedBookingSummaryData }) {
   return (
-    <article className="rounded-3xl border border-emerald-200 bg-white p-6 shadow-sm dark:border-emerald-900/50 dark:bg-zinc-900">
+    <article
+      id="accepted-booking-summary"
+      className="rounded-3xl border border-emerald-200 bg-white p-6 text-zinc-900 shadow-sm dark:border-emerald-900/50 dark:bg-zinc-900 dark:text-zinc-100"
+    >
       <p className="text-sm font-medium text-emerald-700 dark:text-emerald-400">
         Riepilogo accettazione · {data.requestCode} / {data.offerCode}
       </p>

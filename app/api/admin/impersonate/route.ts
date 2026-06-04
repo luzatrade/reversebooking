@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { requireAdminApi } from "@/lib/admin/verify";
 import { logAdminAction } from "@/lib/admin/audit";
+import { dashboardPathForRole } from "@/lib/auth/redirectAfterLogin";
+import type { UserRole } from "@/types/app";
 
 export async function POST(request: Request) {
   const gate = await requireAdminApi(request);
@@ -25,17 +27,21 @@ export async function POST(request: Request) {
   const { data: linkData, error: linkError } = await admin.auth.admin.generateLink({
     type: "magiclink",
     email: profile.email,
-    options: {
-      redirectTo: `${process.env.NEXT_PUBLIC_APP_URL ?? process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"}/auth/callback`,
-    },
   });
 
-  if (linkError || !linkData) {
+  const tokenHash = linkData?.properties?.hashed_token;
+  if (linkError || !tokenHash) {
     return NextResponse.json(
-      { error: linkError?.message ?? "Impossibile generare link" },
+      { error: linkError?.message ?? "Impossibile generare token di accesso" },
       { status: 500 },
     );
   }
+
+  const nextPath = dashboardPathForRole(profile.role as UserRole);
+  const redirectUrl = `/auth/impersonate?${new URLSearchParams({
+    token_hash: tokenHash,
+    next: nextPath,
+  }).toString()}`;
 
   await logAdminAction(admin, request, {
     actor: gate.profile,
@@ -48,6 +54,6 @@ export async function POST(request: Request) {
   return NextResponse.json({
     email: profile.email,
     role: profile.role,
-    actionLink: linkData.properties?.action_link,
+    redirectUrl,
   });
 }
