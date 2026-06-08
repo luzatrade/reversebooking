@@ -46,9 +46,6 @@ export function TopbarControlsMenu({
   useEffect(() => {
     if (!open) return;
 
-    const previousOverflow = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
-
     function onPointerDown(event: MouseEvent) {
       if (!rootRef.current?.contains(event.target as Node)) setOpen(false);
     }
@@ -60,7 +57,6 @@ export function TopbarControlsMenu({
     document.addEventListener("mousedown", onPointerDown);
     document.addEventListener("keydown", onKeyDown);
     return () => {
-      document.body.style.overflow = previousOverflow;
       document.removeEventListener("mousedown", onPointerDown);
       document.removeEventListener("keydown", onKeyDown);
     };
@@ -96,22 +92,13 @@ export function TopbarControlsMenu({
         </button>
 
         {open ? (
-          <>
-            <button
-              type="button"
-              tabIndex={-1}
-              aria-hidden="true"
-              className="hd-topbar-menu-backdrop fixed inset-0 z-[60] bg-slate-900/30 sm:hidden"
-              onClick={() => setOpen(false)}
-            />
-            <div
-              role="menu"
-              className="hd-topbar-menu-panel absolute right-0 top-[calc(100%+0.5rem)] z-[70] min-w-[12.5rem] rounded-2xl border border-slate-200 bg-white p-3 shadow-xl sm:max-w-none"
-              onClick={handleMenuPanelClick}
-            >
-              {children}
-            </div>
-          </>
+          <div
+            role="menu"
+            className="hd-topbar-menu-panel absolute right-0 top-[calc(100%+0.5rem)] min-w-[12.5rem] rounded-2xl border border-slate-200 bg-white p-3 shadow-xl"
+            onClick={handleMenuPanelClick}
+          >
+            {children}
+          </div>
         ) : null}
       </div>
     </div>
