@@ -11,6 +11,7 @@ import { LogoutButton } from "@/components/auth/LogoutButton";
 import { MarkNotificationsReadOnDashboard } from "@/components/notifications/MarkNotificationsReadOnDashboard";
 import { focusAlertBells, scrollToSection } from "@/lib/dashboard/scrollToSection";
 import { relaunchOfferHref } from "@/lib/identifiers";
+import { formatAdvertiserPublicName } from "@/lib/advertiser/publicName";
 import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
@@ -18,7 +19,12 @@ import { getAdvertiserTypeLabels, getMealPlanLabels } from "@/lib/i18n/labels";
 import type { AdvertiserType, MealPlan } from "@/types/app";
 
 type HotelAccount = { id: string; property_name: string; city_name: string; city_id: string };
-type AdvertiserRelation = { advertiser_type: AdvertiserType; short_description: string | null };
+type AdvertiserRelation = {
+  advertiser_type: AdvertiserType;
+  short_description: string | null;
+  first_name: string | null;
+  last_name: string | null;
+};
 type RawSentOffer = Omit<HotelSentOffer, "travel_requests"> & {
   travel_requests?: HotelSentOffer["travel_requests"] | NonNullable<HotelSentOffer["travel_requests"]>[] | null;
 };
@@ -131,7 +137,7 @@ export function HotelDashboardClient() {
       const [requestResult, offerResult, sentOfferResult, acceptedOfferResult, notificationResult] = await Promise.all([
         supabase
           .from("travel_requests")
-          .select("id, request_code, city_name, city_id, preferred_area, check_in, check_out, guests_count, rooms_count, budget, meal_plan, notes, visible_contact_email, visible_contact_phone, visible_contact_whatsapp, visible_contact_website, expires_at, created_at, advertiser_profiles(advertiser_type, short_description)")
+          .select("id, request_code, city_name, city_id, preferred_area, check_in, check_out, guests_count, rooms_count, budget, meal_plan, notes, visible_contact_email, visible_contact_phone, visible_contact_whatsapp, visible_contact_website, expires_at, created_at, advertiser_profiles(advertiser_type, short_description, first_name, last_name)")
           .eq("status", "active")
           .eq("city_id", hotelData.city_id)
           .gt("expires_at", nowIso)
@@ -319,6 +325,11 @@ export function HotelDashboardClient() {
                         </span>
                       ) : null}
                     </div>
+                    {formatAdvertiserPublicName(request.advertiser_profiles) ? (
+                      <p className="mt-3 text-sm font-semibold text-[#0f4c81]">
+                        {t.account.publicAdvertiserName}: {formatAdvertiserPublicName(request.advertiser_profiles)}
+                      </p>
+                    ) : null}
                     <h3 className="mt-3 text-lg font-semibold text-zinc-950">
                       {t.common.preferredArea}: {request.preferred_area}
                     </h3>

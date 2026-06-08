@@ -1,7 +1,7 @@
 "use client";
 
 import { Menu, X } from "lucide-react";
-import { type ReactNode, useEffect, useRef, useState } from "react";
+import { type MouseEvent as ReactMouseEvent, type ReactNode, useEffect, useRef, useState } from "react";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { topbarMenuTriggerClass } from "@/components/navigation/topbarStyles";
 
@@ -46,6 +46,9 @@ export function TopbarControlsMenu({
   useEffect(() => {
     if (!open) return;
 
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
     function onPointerDown(event: MouseEvent) {
       if (!rootRef.current?.contains(event.target as Node)) setOpen(false);
     }
@@ -57,10 +60,22 @@ export function TopbarControlsMenu({
     document.addEventListener("mousedown", onPointerDown);
     document.addEventListener("keydown", onKeyDown);
     return () => {
+      document.body.style.overflow = previousOverflow;
       document.removeEventListener("mousedown", onPointerDown);
       document.removeEventListener("keydown", onKeyDown);
     };
   }, [open]);
+
+  function handleMenuPanelClick(event: ReactMouseEvent<HTMLDivElement>) {
+    const target = event.target as HTMLElement;
+    if (target.closest("a, select, option, label")) {
+      if (target.closest("a")) setOpen(false);
+      return;
+    }
+    if (target.closest('button:not([aria-haspopup="menu"])')) {
+      setOpen(false);
+    }
+  }
 
   return (
     <div ref={rootRef} className="relative">
@@ -81,13 +96,22 @@ export function TopbarControlsMenu({
         </button>
 
         {open ? (
-          <div
-            role="menu"
-            className="hd-topbar-menu-panel absolute right-0 top-[calc(100%+0.5rem)] z-[70] flex min-w-[12.5rem] flex-col items-stretch gap-2 rounded-2xl border border-slate-200 bg-white p-3 shadow-xl"
-            onClick={() => setOpen(false)}
-          >
-            {children}
-          </div>
+          <>
+            <button
+              type="button"
+              tabIndex={-1}
+              aria-hidden="true"
+              className="hd-topbar-menu-backdrop fixed inset-0 z-[60] bg-slate-900/30 sm:hidden"
+              onClick={() => setOpen(false)}
+            />
+            <div
+              role="menu"
+              className="hd-topbar-menu-panel absolute right-0 top-[calc(100%+0.5rem)] z-[70] min-w-[12.5rem] rounded-2xl border border-slate-200 bg-white p-3 shadow-xl sm:max-w-none"
+              onClick={handleMenuPanelClick}
+            >
+              {children}
+            </div>
+          </>
         ) : null}
       </div>
     </div>

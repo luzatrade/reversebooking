@@ -120,11 +120,6 @@ body {
   background-color: #ffffff !important;
   color: var(--hd-blue) !important;
 }
-.rb-soft-white-home .hd-topbar-menu-panel label,
-.hd-topbar-menu-panel label {
-  width: 100%;
-  justify-content: space-between;
-}
 .rb-soft-white-home .hd-home-tagline {
   box-sizing: border-box;
   width: 100%;
@@ -188,9 +183,40 @@ body {
 
 
 
-.hd-topbar-menu-panel a {
-  width: 100%;
-  justify-content: center;
+/* Menu mobile topbar: griglia 2 colonne per lingua/valuta, pulsanti full-width sotto */
+.hd-topbar-menu-panel {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+  box-sizing: border-box;
+  max-height: min(70dvh, calc(100dvh - env(safe-area-inset-top, 0px) - 5rem));
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.hd-topbar-menu-panel > *:nth-child(n + 3) {
+  grid-column: 1 / -1;
+}
+
+.hd-topbar-menu-panel > a,
+.hd-topbar-menu-panel > button,
+.hd-topbar-menu-panel > label {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box;
+  width: 100% !important;
+  min-height: 2.75rem !important;
+  height: auto !important;
+  padding: 0.625rem 1rem !important;
+  line-height: 1.35 !important;
+  overflow: visible !important;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.hd-topbar-menu-panel > label span[aria-hidden] {
+  line-height: 1 !important;
 }
 
 .hd-topbar-menu-panel nav {
@@ -198,11 +224,23 @@ body {
   flex-direction: column;
   gap: 0.5rem;
   width: 100%;
+  grid-column: 1 / -1;
 }
 
 .hd-topbar-menu-panel nav a {
   width: 100%;
   justify-content: center;
+}
+
+@media (max-width: 639px) {
+  .hd-topbar-menu-panel {
+    position: fixed;
+    top: max(3.75rem, calc(env(safe-area-inset-top, 0px) + 3.25rem));
+    right: 1rem;
+    left: auto;
+    width: min(18rem, calc(100vw - 2rem));
+    min-width: 0;
+  }
 }
 
 

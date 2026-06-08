@@ -8,6 +8,7 @@ import { AcceptedBookingSummary, type AcceptedBookingSummaryData } from "@/compo
 import { acceptedOfferTheme } from "@/components/offers/acceptedOfferTheme";
 import { PrintSummaryButton } from "@/components/offers/PrintSummaryButton";
 import { DownloadVoucherButton } from "@/components/offers/DownloadVoucherButton";
+import { formatAdvertiserPublicName, oneAdvertiserProfile } from "@/lib/advertiser/publicName";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { validateNoContactsInFields } from "@/lib/content/contact-guard";
 import {
@@ -25,7 +26,27 @@ import type { MealPlan, StructureType } from "@/types/app";
 type RoomType = "double" | "twin" | "triple" | "quadruple";
 type RoomDetail = { room: number; room_type?: RoomType; adults: number; children: number; children_ages: number[]; budget?: number };
 type PreferenceFilters = { connecting_rooms?: boolean; disabled_access?: boolean; pool?: boolean; spa?: boolean; bathtub?: boolean; garage?: boolean; beach?: boolean; pets_allowed?: boolean };
-type TravelRequest = { id: string; request_code: string | null; city_name: string; preferred_area: string; check_in: string; check_out: string; guests_count: number; rooms_count: number; room_details: RoomDetail[] | null; preference_filters: PreferenceFilters | null; budget: number; meal_plan: MealPlan; notes: string | null; visible_contact_email: string | null; visible_contact_phone: string | null; status: string; expires_at: string };
+type AdvertiserPublic = { first_name: string | null; last_name: string | null };
+type TravelRequest = {
+  id: string;
+  request_code: string | null;
+  city_name: string;
+  preferred_area: string;
+  check_in: string;
+  check_out: string;
+  guests_count: number;
+  rooms_count: number;
+  room_details: RoomDetail[] | null;
+  preference_filters: PreferenceFilters | null;
+  budget: number;
+  meal_plan: MealPlan;
+  notes: string | null;
+  visible_contact_email: string | null;
+  visible_contact_phone: string | null;
+  status: string;
+  expires_at: string;
+  advertiser_profiles?: AdvertiserPublic | AdvertiserPublic[] | null;
+};
 type HotelAccount = { id: string; property_name: string; structure_type: StructureType; city_name: string; specific_area: string | null; cin_code: string | null; subscription_active: boolean; account_status: string };
 type ExistingOffer = { id: string; offer_code: string | null; total_price: number; description: string; conditions: string | null; meal_plan_included: MealPlan; expires_at: string; status: string; created_at: string; updated_at: string };
 
@@ -108,9 +129,17 @@ export function CreateOfferForm() {
           return;
         }
         setHotel(hotelData as HotelAccount);
-        const { data: requestData, error: requestError } = await supabase.from("travel_requests").select("id, request_code, city_name, preferred_area, check_in, check_out, guests_count, rooms_count, room_details, preference_filters, budget, meal_plan, notes, visible_contact_email, visible_contact_phone, status, expires_at").eq("id", requestId).single();
+        const { data: requestData, error: requestError } = await supabase
+          .from("travel_requests")
+          .select("id, request_code, city_name, preferred_area, check_in, check_out, guests_count, rooms_count, room_details, preference_filters, budget, meal_plan, notes, visible_contact_email, visible_contact_phone, status, expires_at, advertiser_profiles(first_name, last_name)")
+          .eq("id", requestId)
+          .single();
         if (requestError || !requestData) { setError("Annuncio non trovato o non più disponibile."); return; }
-        setRequest(requestData as TravelRequest);
+        const rawRequest = requestData as TravelRequest;
+        setRequest({
+          ...rawRequest,
+          advertiser_profiles: oneAdvertiserProfile(rawRequest.advertiser_profiles),
+        });
         const { data: offerRows, error: offersError } = await supabase
           .from("offers")
           .select("id, offer_code, total_price, description, conditions, meal_plan_included, expires_at, status, created_at, updated_at")
@@ -305,6 +334,12 @@ export function CreateOfferForm() {
             <p className="text-sm font-medium uppercase tracking-wide text-emerald-700">Annuncio cliente · {requestCode(request)}</p>
             <h1 className="mt-2 text-3xl font-semibold tracking-tight">Richiesta a {request.city_name}</h1>
           </div>
+          {formatAdvertiserPublicName(oneAdvertiserProfile(request.advertiser_profiles)) ? (
+            <p className="text-sm font-semibold text-[#0f4c81]">
+              {t.account.publicAdvertiserName}:{" "}
+              {formatAdvertiserPublicName(oneAdvertiserProfile(request.advertiser_profiles))}
+            </p>
+          ) : null}
           <div className="grid gap-3 text-sm text-zinc-600 md:grid-cols-2 dark:text-zinc-400">
             <p><strong>Codice richiesta:</strong> {requestCode(request)}</p>
             <p><strong>Zona:</strong> {request.preferred_area}</p>

@@ -17,6 +17,7 @@ import { BrandLogo } from "@/components/navigation/BrandLogo";
 import { TopbarControlsMenu } from "@/components/navigation/TopbarControlsMenu";
 import { RoleAlertBells } from "@/components/notifications/RoleAlertBells";
 import { topbarAuthLinkClass, topbarAuthPrimaryClass } from "@/components/navigation/topbarStyles";
+import { formatAdvertiserPublicName, oneAdvertiserProfile } from "@/lib/advertiser/publicName";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { createWorldCity } from "@/lib/constants/world-city-helpers";
 import { mealPlanLabels, structureTypeLabels, type MealPlan, type StructureType, type UserRole } from "@/types/app";
@@ -270,6 +271,9 @@ export function PublicShowcaseClient() {
   function renderRequestCard(request: TravelRequest) {
     const hasOffer = offeredRequestIds.has(request.id);
     const kind = requestBadgeKind(request);
+    const publicAdvertiserName = formatAdvertiserPublicName(
+      oneAdvertiserProfile(request.advertiser_profiles),
+    );
     return (
       <article key={request.id} className="hd-request-card flex w-[18.5rem] shrink-0 snap-start flex-col overflow-hidden p-0 sm:w-[20rem]">
         <div className="relative h-36 w-full overflow-hidden">
@@ -283,7 +287,13 @@ export function PublicShowcaseClient() {
           </span>
         </div>
         <div className="flex flex-1 flex-col p-4">
-          <span className="hd-verified-user-badge self-start"><CheckCircle className="h-3.5 w-3.5" />Utente verificato</span>
+          <span className="hd-verified-user-badge self-start">
+            <CheckCircle className="h-3.5 w-3.5" />
+            {publicAdvertiserName ?? "Utente verificato"}
+          </span>
+          {publicAdvertiserName ? (
+            <p className="mt-1 text-xs font-medium text-zinc-500">Utente verificato</p>
+          ) : null}
           <h3 className="mt-2 text-lg font-semibold text-[#0f4c81]">{request.city_name}</h3>
           <p className="mt-0.5 line-clamp-1 text-xs text-zinc-500">Zona: {request.preferred_area}</p>
           <div className="mt-3 space-y-1.5 text-sm text-zinc-600">
