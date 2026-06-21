@@ -8,7 +8,7 @@ import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { getMealPlanLabels, getStructureTypeLabels } from "@/lib/i18n/labels";
 import { HOTEL_PERK_OPTIONS } from "@/lib/catalog-offers/labels";
 import { makeCatalogOfferCode } from "@/lib/identifiers";
-import { getHotelOfferBlockMessage } from "@/lib/hotel/offer-eligibility";
+import { getHotelOfferBlockMessage, HOTEL_OFFER_ELIGIBILITY_SELECT } from "@/lib/hotel/offer-eligibility";
 import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import type { CatalogCityTax, CatalogPricingModel, CatalogRoomType } from "@/types/catalog-offers";
@@ -73,7 +73,7 @@ export function HotelCatalogOfferForm() {
         }
         const { data, error: hotelError } = await supabase
           .from("hotel_accounts")
-          .select("id, property_name, city_id, city_name, country_code, structure_type, subscription_active, account_status, provider_kind")
+          .select(HOTEL_OFFER_ELIGIBILITY_SELECT)
           .eq("user_id", user.id)
           .maybeSingle();
         if (!active) return;

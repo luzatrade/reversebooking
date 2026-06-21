@@ -9,7 +9,7 @@ import { getMealPlanLabels } from "@/lib/i18n/labels";
 import { createWorldCity } from "@/lib/constants/world-city-helpers";
 import type { WorldCity } from "@/lib/constants/world-cities";
 import { makeCatalogOfferCode } from "@/lib/identifiers";
-import { getHotelOfferBlockMessage } from "@/lib/hotel/offer-eligibility";
+import { getHotelOfferBlockMessage, HOTEL_OFFER_ELIGIBILITY_SELECT } from "@/lib/hotel/offer-eligibility";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import type {
   AgencyInclusion,
@@ -88,7 +88,7 @@ export function AgencyCatalogOfferForm() {
       }
       const { data, error: agErr } = await supabase
         .from("hotel_accounts")
-        .select("id, property_name, subscription_active, account_status, provider_kind")
+        .select(HOTEL_OFFER_ELIGIBILITY_SELECT)
         .eq("user_id", auth.user.id)
         .maybeSingle();
       const block = getHotelOfferBlockMessage(agErr ? null : data);
