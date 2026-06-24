@@ -32,7 +32,7 @@ type PreferenceFilters = { connecting_rooms?: boolean; disabled_access?: boolean
 type AdvertiserPublic = { first_name: string | null; last_name: string | null; advertiser_type?: string | null };
 type TravelRequest = { id: string; country_code: string | null; city_name: string; city_id: string | null; preferred_area: string; check_in: string; check_out: string; guests_count: number; rooms_count: number; budget: number; meal_plan: MealPlan; preference_filters: PreferenceFilters | null; notes: string | null; expires_at: string; created_at: string; status: string; advertiser_profiles?: AdvertiserPublic | AdvertiserPublic[] | null };
 type OnboardingHotelRow = { id: string; nome: string; city_name: string; indirizzo: string | null; email: string | null; phone: string | null; main_photo_url: string | null; website: string | null; google_maps_url: string | null };
-type HotelAccount = { id: string; property_name: string; structure_type: StructureType; provider_kind: "structure" | "agency"; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; public_email: string | null; public_phone: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null; isOnboarding?: boolean; google_maps_url?: string | null };
+type HotelAccount = { id: string; property_name: string; structure_type: StructureType; provider_kind: "structure" | "agency"; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; public_email: string | null; public_phone: string | null; website: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null; isOnboarding?: boolean; google_maps_url?: string | null };
 type Offer = { id: string; travel_request_id: string };
 type Viewer = { userId: string | null; role: UserRole | null; hotelAccountId: string | null };
 
@@ -97,6 +97,7 @@ function mapOnboardingRow(row: OnboardingHotelRow): HotelAccount {
     description: null,
     public_email: row.email,
     public_phone: row.phone,
+    website: row.website,
     main_photo_url: row.main_photo_url,
     points_of_interest: null,
     services: null,
@@ -444,11 +445,7 @@ export function PublicShowcaseClient() {
           <div className="flex flex-wrap items-center gap-2">
             <a href={mapsHref(hotel)} target="_blank" rel="noreferrer" className={ctaMaps}><MapPin className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardMap}</a>
             {hotel.isOnboarding ? (
-              hotel.google_maps_url ? (
-                <a href={hotel.google_maps_url} target="_blank" rel="noreferrer" className={ctaProfile}>{t.showcase.cardProfile}</a>
-              ) : (
-                <a href={mapsHref(hotel)} target="_blank" rel="noreferrer" className={ctaProfile}>{t.showcase.cardProfile}</a>
-              )
+              <Link href={`/hotel/onboarding/${hotel.id}`} className={ctaProfile}>{t.showcase.cardProfile}</Link>
             ) : (
               <Link href={`/hotel/${hotel.id}`} className={ctaProfile}>{t.showcase.cardProfile}</Link>
             )}
