@@ -43,6 +43,9 @@ const ctaWhatsApp = "inline-flex items-center justify-center gap-1.5 rounded-ful
 const ctaProfile = "inline-flex items-center justify-center gap-1.5 rounded-full bg-[#e8f0f8] px-3.5 py-2 text-xs font-bold text-[#0f4c81] shadow-sm transition hover:bg-[#d4e4f2]";
 const ctaRequest = "inline-flex items-center justify-center gap-1.5 rounded-full bg-[#fff7ed] px-3.5 py-2 text-xs font-bold text-[#c2410c] shadow-sm transition hover:bg-[#ffedd5]";
 
+/** Vetrina homepage: elenco agenzie per città (riattivare in un secondo momento). */
+const SHOW_HOME_AGENCY_DIRECTORY = false;
+
 const countryDisplayNames = typeof Intl !== "undefined" && "DisplayNames" in Intl ? new Intl.DisplayNames(["en"], { type: "region" }) : null;
 function countryLabel(code: string | null | undefined) { const c = (code ?? "").trim().toUpperCase(); if (!c) return null; try { return countryDisplayNames?.of(c) ?? c; } catch { return c; } }
 function formatDate(value: string) { return new Intl.DateTimeFormat("it-IT", { day: "2-digit", month: "short" }).format(new Date(value)); }
@@ -592,17 +595,19 @@ export function PublicShowcaseClient() {
         </HorizontalSlider>
       )}
 
-      <HorizontalSlider
-        title={t.showcase.agenciesSliderTitle}
-        subtitle={hasSelectedCity ? `${t.showcase.agenciesSliderSubtitleCity} ${selectedCity.city_name}` : t.showcase.agenciesSliderSubtitle}
-        itemCount={!hotelsLoading ? visibleAgencies.length : 0}
-      >
-        {hotelsLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">…</div> : null}
-        {!hotelsLoading && visibleAgencies.length === 0 ? (
-          <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">{t.showcase.agenciesEmpty}</div>
-        ) : null}
-        {!hotelsLoading ? visibleAgencies.map((agency) => renderAgencyCard(agency)) : null}
-      </HorizontalSlider>
+      {SHOW_HOME_AGENCY_DIRECTORY ? (
+        <HorizontalSlider
+          title={t.showcase.agenciesSliderTitle}
+          subtitle={hasSelectedCity ? `${t.showcase.agenciesSliderSubtitleCity} ${selectedCity.city_name}` : t.showcase.agenciesSliderSubtitle}
+          itemCount={!hotelsLoading ? visibleAgencies.length : 0}
+        >
+          {hotelsLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">…</div> : null}
+          {!hotelsLoading && visibleAgencies.length === 0 ? (
+            <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">{t.showcase.agenciesEmpty}</div>
+          ) : null}
+          {!hotelsLoading ? visibleAgencies.map((agency) => renderAgencyCard(agency)) : null}
+        </HorizontalSlider>
+      ) : null}
 
       {hasSelectedCity ? (
         <HorizontalSlider
