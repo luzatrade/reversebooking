@@ -12,7 +12,9 @@
     "supabase:stop": "supabase stop",
     "supabase:status": "supabase status",
     "supabase:push": "supabase db push",
-    "supabase:link": "supabase link"
+    "supabase:link": "supabase link",
+    "seed:demo-drops": "node scripts/seed-demo-drops.mjs",
+    "harvest:onboarding-hotels": "node scripts/harvest-onboarding-hotels.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.4.1",

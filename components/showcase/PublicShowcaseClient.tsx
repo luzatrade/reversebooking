@@ -31,7 +31,8 @@ function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date(
 type PreferenceFilters = { connecting_rooms?: boolean; disabled_access?: boolean; pool?: boolean; spa?: boolean; bathtub?: boolean; garage?: boolean; beach?: boolean; pets_allowed?: boolean };
 type AdvertiserPublic = { first_name: string | null; last_name: string | null; advertiser_type?: string | null };
 type TravelRequest = { id: string; country_code: string | null; city_name: string; city_id: string | null; preferred_area: string; check_in: string; check_out: string; guests_count: number; rooms_count: number; budget: number; meal_plan: MealPlan; preference_filters: PreferenceFilters | null; notes: string | null; expires_at: string; created_at: string; status: string; advertiser_profiles?: AdvertiserPublic | AdvertiserPublic[] | null };
-type HotelAccount = { id: string; property_name: string; structure_type: StructureType; provider_kind: "structure" | "agency"; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; public_email: string | null; public_phone: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null };
+type OnboardingHotelRow = { id: string; nome: string; city_name: string; indirizzo: string | null; email: string | null; phone: string | null; main_photo_url: string | null; website: string | null; google_maps_url: string | null };
+type HotelAccount = { id: string; property_name: string; structure_type: StructureType; provider_kind: "structure" | "agency"; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; public_email: string | null; public_phone: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null; isOnboarding?: boolean; google_maps_url?: string | null };
 type Offer = { id: string; travel_request_id: string };
 type Viewer = { userId: string | null; role: UserRole | null; hotelAccountId: string | null };
 
@@ -50,6 +51,44 @@ function totalBudget(request: TravelRequest) { return Number(request.budget); }
 function normalize(value: string | null | undefined) { return (value ?? "").trim().toLowerCase(); }
 const cityAliases: Record<string, string[]> = { rome: ["roma"], roma: ["rome"], florence: ["firenze"], firenze: ["florence"], milan: ["milano"], milano: ["milan"], naples: ["napoli"], napoli: ["naples"], venice: ["venezia"], venezia: ["venice"], turin: ["torino"], torino: ["turin"], genoa: ["genova"], genova: ["genoa"], padua: ["padova"], padova: ["padua"], syracuse: ["siracusa"], siracusa: ["syracuse"], capri: ["capri"], sardinia: ["sardegna"], sardegna: ["sardinia"] };
 function cityMatch(a: string | null | undefined, b: string | null | undefined) { const na = normalize(a); const nb = normalize(b); if (na === nb) return true; if (cityAliases[na]?.includes(nb)) return true; if (cityAliases[nb]?.includes(na)) return true; return false; }
+function titleCaseWord(value: string) { return value.charAt(0).toUpperCase() + value.slice(1).toLowerCase(); }
+function cityLookupNames(cityName: string) {
+  const base = cityName.trim();
+  if (!base) return [];
+  const n = normalize(base);
+  const names = new Set<string>([base, titleCaseWord(base)]);
+  for (const alias of cityAliases[n] ?? []) {
+    names.add(alias);
+    names.add(titleCaseWord(alias));
+  }
+  for (const [key, vals] of Object.entries(cityAliases)) {
+    if (vals.includes(n)) {
+      names.add(key);
+      names.add(titleCaseWord(key));
+    }
+  }
+  return [...names];
+}
+function mapOnboardingRow(row: OnboardingHotelRow): HotelAccount {
+  return {
+    id: row.id,
+    property_name: row.nome,
+    structure_type: "hotel",
+    provider_kind: "structure",
+    country_code: "IT",
+    city_name: row.city_name,
+    city_id: `${String(row.city_name || "").toLowerCase().replace(/ +/g, "-")}-it`,
+    specific_area: row.indirizzo,
+    description: null,
+    public_email: row.email,
+    public_phone: row.phone,
+    main_photo_url: row.main_photo_url,
+    points_of_interest: null,
+    services: null,
+    isOnboarding: true,
+    google_maps_url: row.google_maps_url,
+  };
+}
 function publicHotelDescription(description: string | null) { const value = description?.trim() ?? ""; if (!value) return null; const lower = value.toLowerCase(); if (lower.includes("profilo struttura creato") || lower.includes("da completare nel pannello struttura") || lower.includes("accesso social")) return null; return value; }
 function activeFilterLabels(filters: PreferenceFilters | null) { if (!filters) return []; return Object.entries(filters).filter(([, value]) => Boolean(value)).map(([key]) => serviceLabels[key] ?? key); }
 function activeServiceLabels(services: Record<string, boolean> | null) { if (!services) return []; return Object.entries(services).filter(([, value]) => Boolean(value)).map(([key]) => serviceLabels[key] ?? key); }
@@ -118,6 +157,7 @@ export function PublicShowcaseClient() {
   const [advertiserOfferCount, setAdvertiserOfferCount] = useState(0);
   const [selectedCity, setSelectedCity] = useState(() => createWorldCity("IT", ""));
   const [loading, setLoading] = useState(true);
+  const [hotelsLoading, setHotelsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [acceptedRequestIds, setAcceptedRequestIds] = useState<Set<string>>(() => new Set());
   const [structureOffers, setStructureOffers] = useState<CatalogOfferListItem[]>([]);
@@ -171,8 +211,6 @@ export function PublicShowcaseClient() {
       const [
         { data: requestData, error: requestError },
         { data: acceptedOfferRows },
-        { data: registeredHotels },
-        { data: onboardingHotels },
       ] = await Promise.all([
         supabase
           .from("travel_requests")
@@ -186,20 +224,6 @@ export function PublicShowcaseClient() {
           .select("travel_request_id, updated_at")
           .eq("status", "accepted")
           .gt("updated_at", acceptedCutoff),
-        supabase
-          .from("hotel_accounts")
-          .select(
-            "id, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, points_of_interest, services",
-          )
-          .eq("account_status", "active")
-          .eq("subscription_active", true)
-          .order("property_name", { ascending: true })
-          .limit(60),
-        supabase
-          .from("onboarding_hotels")
-          .select("id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url")
-          .order("city_name")
-          .limit(120),
       ]);
       if (requestError) { setError(requestError.message); return; }
       const acceptedIds = new Set<string>();
@@ -218,20 +242,78 @@ export function PublicShowcaseClient() {
       for (const request of [...((requestData ?? []) as TravelRequest[]), ...concludedRequests]) {
         merged.set(request.id, request);
       }
-      const mapped = (onboardingHotels || []).map(function mapOnb(h) { return { id: h.id, property_name: h.nome, structure_type: "hotel", provider_kind: "structure", country_code: "IT", city_name: h.city_name, city_id: String(h.city_name || "").toLowerCase().replace(/ +/g, "-") + "-it", specific_area: h.indirizzo || null, description: null, public_email: h.email || null, public_phone: h.phone || null, main_photo_url: h.main_photo_url || null, points_of_interest: null, services: null }; });
-      const allHotels = [...(registeredHotels || []), ...mapped];
       setAcceptedRequestIds(acceptedIds);
       setRequests(
         Array.from(merged.values()).sort(
           (a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime(),
         ),
       );
-      setHotels(allHotels as HotelAccount[]);
       void viewerPromise;
     } catch (err) { setError(err instanceof Error ? err.message : "Errore durante il caricamento della home."); } finally { setLoading(false); }
   }
 
   useEffect(() => { void loadShowcase(); }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    async function loadHotels() {
+      setHotelsLoading(true);
+      try {
+        const supabase = createBrowserSupabaseClient();
+        const hotelSelect =
+          "id, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, points_of_interest, services";
+        const onboardingSelect = "id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url";
+
+        let registeredQuery = supabase
+          .from("hotel_accounts")
+          .select(hotelSelect)
+          .eq("account_status", "active")
+          .eq("subscription_active", true)
+          .order("property_name", { ascending: true });
+
+        if (hasSelectedCity) {
+          registeredQuery = registeredQuery.eq("city_id", selectedCity.city_id);
+        } else {
+          registeredQuery = registeredQuery.limit(60);
+        }
+
+        const registeredPromise = registeredQuery;
+        let onboardingPromise: Promise<{ data: OnboardingHotelRow[] | null }> = Promise.resolve({ data: [] });
+
+        if (hasSelectedCity) {
+          const names = cityLookupNames(selectedCity.city_name);
+          let onboardingQuery = supabase
+            .from("onboarding_hotels")
+            .select(onboardingSelect)
+            .order("nome", { ascending: true })
+            .limit(200);
+          if (names.length === 1) {
+            onboardingQuery = onboardingQuery.ilike("city_name", names[0]!);
+          } else if (names.length > 1) {
+            onboardingQuery = onboardingQuery.or(names.map((name) => `city_name.ilike."${name.replace(/"/g, '""')}"`).join(","));
+          }
+          onboardingPromise = onboardingQuery.then(({ data }) => ({ data: (data ?? []) as OnboardingHotelRow[] }));
+        }
+
+        const [{ data: registeredHotels }, { data: onboardingHotels }] = await Promise.all([
+          registeredPromise,
+          onboardingPromise,
+        ]);
+        if (cancelled) return;
+
+        const mapped = (onboardingHotels ?? []).map(mapOnboardingRow);
+        setHotels([...(registeredHotels ?? []), ...mapped] as HotelAccount[]);
+      } catch {
+        if (!cancelled) setHotels([]);
+      } finally {
+        if (!cancelled) setHotelsLoading(false);
+      }
+    }
+    void loadHotels();
+    return () => {
+      cancelled = true;
+    };
+  }, [hasSelectedCity, selectedCity.city_id, selectedCity.city_name]);
 
   useEffect(() => {
     if (!hasSelectedCity || !selectedCity.city_id) {
@@ -334,7 +416,15 @@ export function PublicShowcaseClient() {
           <div className="mt-4 flex-1" />
           <div className="flex flex-wrap items-center gap-2">
             <a href={mapsHref(hotel)} target="_blank" rel="noreferrer" className={ctaMaps}><MapPin className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardMap}</a>
-            <Link href={`/hotel/${hotel.id}`} className={ctaProfile}>{t.showcase.cardProfile}</Link>
+            {hotel.isOnboarding ? (
+              hotel.google_maps_url ? (
+                <a href={hotel.google_maps_url} target="_blank" rel="noreferrer" className={ctaProfile}>{t.showcase.cardProfile}</a>
+              ) : (
+                <a href={mapsHref(hotel)} target="_blank" rel="noreferrer" className={ctaProfile}>{t.showcase.cardProfile}</a>
+              )
+            ) : (
+              <Link href={`/hotel/${hotel.id}`} className={ctaProfile}>{t.showcase.cardProfile}</Link>
+            )}
             {viewer.role !== "hotel" ? (
               <Link href={createRequestHrefForHotel(hotel)} className={ctaRequest}><Euro className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardRequest}</Link>
             ) : null}
@@ -459,14 +549,19 @@ export function PublicShowcaseClient() {
 
       <HorizontalSlider
         title="Strutture nella zona"
-        subtitle={hasSelectedCity ? `Strutture compatibili con ${selectedCity.city_name}` : "Le strutture pubbliche attive."}
-        itemCount={!loading ? visibleHotels.length : 0}
+        subtitle={hasSelectedCity ? `Strutture compatibili con ${selectedCity.city_name}` : "Seleziona una città per vedere il catalogo strutture."}
+        itemCount={!hotelsLoading ? visibleHotels.length : 0}
       >
-        {loading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento strutture...</div> : null}
-        {!loading && visibleHotels.length === 0 ? (
+        {hotelsLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento strutture...</div> : null}
+        {!hotelsLoading && !hasSelectedCity ? (
+          <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">
+            Scegli una città dal filtro sopra per esplorare le strutture raccolte.
+          </div>
+        ) : null}
+        {!hotelsLoading && hasSelectedCity && visibleHotels.length === 0 ? (
           <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">Nessuna struttura trovata.</div>
         ) : null}
-        {!loading ? visibleHotels.map((hotel) => renderHotelCard(hotel)) : null}
+        {!hotelsLoading ? visibleHotels.map((hotel) => renderHotelCard(hotel)) : null}
       </HorizontalSlider>
 
       {hasSelectedCity ? (
@@ -499,13 +594,13 @@ export function PublicShowcaseClient() {
       <HorizontalSlider
         title={t.showcase.agenciesSliderTitle}
         subtitle={hasSelectedCity ? `${t.showcase.agenciesSliderSubtitleCity} ${selectedCity.city_name}` : t.showcase.agenciesSliderSubtitle}
-        itemCount={!loading ? visibleAgencies.length : 0}
+        itemCount={!hotelsLoading ? visibleAgencies.length : 0}
       >
-        {loading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">…</div> : null}
-        {!loading && visibleAgencies.length === 0 ? (
+        {hotelsLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">…</div> : null}
+        {!hotelsLoading && visibleAgencies.length === 0 ? (
           <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">{t.showcase.agenciesEmpty}</div>
         ) : null}
-        {!loading ? visibleAgencies.map((agency) => renderAgencyCard(agency)) : null}
+        {!hotelsLoading ? visibleAgencies.map((agency) => renderAgencyCard(agency)) : null}
       </HorizontalSlider>
 
       {hasSelectedCity ? (

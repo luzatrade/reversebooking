@@ -49,3 +49,6 @@ node_modules
 
 # Backup locali del database (contengono dati personali: non versionare)
 /backups/
+
+# Log script operativi (harvest, seed batch)
+/logs/
