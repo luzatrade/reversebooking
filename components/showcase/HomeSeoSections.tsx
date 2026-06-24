@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getServerTranslations } from "@/lib/i18n/get-translations";
 import { formatMessage } from "@/lib/i18n/format";
-import { buildCreateRequestPrefillUrl, homeSeoDestinations } from "@/lib/seo/home-destinations";
+import { homeSeoDestinations } from "@/lib/seo/home-destinations";
 
 export async function HomeSeoSections() {
   const t = await getServerTranslations();
@@ -40,10 +40,10 @@ export async function HomeSeoSections() {
         <h2 className="text-xl font-semibold tracking-tight text-[#0f4c81] sm:text-2xl">{s.citiesTitle}</h2>
         <p className="mt-3 text-sm leading-7 text-zinc-600 sm:text-base">{s.citiesIntro}</p>
         <ul className="mt-5 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-4">
-          {homeSeoDestinations.map(({ city }) => (
+          {homeSeoDestinations.map(({ slug, city }) => (
             <li key={city.city_id}>
               <Link
-                href={buildCreateRequestPrefillUrl(city)}
+                href={`/destinazioni/${slug}`}
                 className="block rounded-xl border border-zinc-200 px-3 py-2.5 text-sm font-semibold text-[#0f4c81] transition hover:border-[#0f4c81]/30 hover:bg-blue-50"
               >
                 {formatMessage(s.cityLinkLabel, { city: city.city_name })}

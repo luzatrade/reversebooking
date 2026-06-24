@@ -22,6 +22,14 @@ export const homeSeoDestinations: HomeSeoDestination[] = [
   { slug: "amalfi", city: createWorldCity("IT", "Amalfi") },
 ];
 
+export function getDestinationBySlug(slug: string) {
+  return homeSeoDestinations.find((destination) => destination.slug === slug);
+}
+
+export function allDestinationSlugs() {
+  return homeSeoDestinations.map((destination) => destination.slug);
+}
+
 export function buildCreateRequestPrefillUrl(
   city: WorldCity,
   extra?: { check_in?: string; check_out?: string; adults?: number; rooms?: number },
