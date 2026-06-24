@@ -129,7 +129,14 @@ export async function POST(request: Request) {
     auth: { persistSession: false, autoRefreshToken: false },
   });
 
-  await completeProfile(userClient, user.id, email, role, body, ip, userAgent, Boolean(user.email_confirmed_at));
+  try {
+    await completeProfile(userClient, user.id, email, role, body, ip, userAgent, Boolean(user.email_confirmed_at));
+  } catch (err) {
+    return NextResponse.json(
+      { error: err instanceof Error ? err.message : "Errore durante la creazione del profilo." },
+      { status: 500 },
+    );
+  }
 
   return NextResponse.json({
     ok: true,
@@ -251,7 +258,8 @@ async function createHotelAccount(
     if (claimError) throw new Error(claimError);
 
     const hotelData = buildHotelFromOnboarding(userId, email, onboarding!, body.structureType ?? "hotel");
-    await userClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
+    const { error: hotelError } = await adminClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
+    if (hotelError) throw new Error(hotelError.message);
     await reserveOnboardingClaim(adminClient, onboarding!.id, userId);
     return;
   }
@@ -265,12 +273,13 @@ async function createHotelAccount(
 
   if (matchData) {
     const hotelData = buildHotelFromOnboarding(userId, email, matchData, body.structureType ?? "hotel");
-    await userClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
+    const { error: hotelError } = await adminClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
+    if (hotelError) throw new Error(hotelError.message);
     await reserveOnboardingClaim(adminClient, matchData.id, userId);
     return;
   }
 
-  await userClient.from("hotel_accounts").upsert(
+  const { error: fallbackHotelError } = await adminClient.from("hotel_accounts").upsert(
     {
       user_id: userId,
       structure_type: body.structureType ?? "hotel",
@@ -295,6 +304,7 @@ async function createHotelAccount(
     },
     { onConflict: "user_id" },
   );
+  if (fallbackHotelError) throw new Error(fallbackHotelError.message);
 }
 
 async function createAgencyAccount(

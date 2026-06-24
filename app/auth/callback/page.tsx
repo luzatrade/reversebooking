@@ -36,7 +36,7 @@ function AuthCallbackContent() {
           const user = exchangeData.session?.user ?? exchangeData.user;
           const token = exchangeData.session?.access_token;
           if (token) {
-            void fetch("/api/auth/complete-profile", {
+            await fetch("/api/auth/complete-profile", {
               method: "POST",
               headers: { Authorization: `Bearer ${token}` },
             });
@@ -48,8 +48,17 @@ function AuthCallbackContent() {
           }
 
           const metaRole = roleFromUserMetadata(user);
+          const onboardingHotelId =
+            typeof user.user_metadata?.onboarding_hotel_id === "string"
+              ? user.user_metadata.onboarding_hotel_id
+              : null;
           if (metaRole) {
-            redirectAfterLogin(next || dashboardPathForRole(metaRole));
+            redirectAfterLogin(
+              next ||
+                (metaRole === "hotel" && onboardingHotelId
+                  ? "/struttura/profilo?claim=1"
+                  : dashboardPathForRole(metaRole)),
+            );
             return;
           }
 

@@ -101,6 +101,7 @@ const CITY_NAME_ALIASES: Record<string, string> = {
   capri: "IT-CAP",
   taormina: "IT-TAO",
   "reggio calabria": "IT-REG",
+  "reggio di calabria": "IT-REG",
   bari: "IT-BRI",
   lecce: "IT-LCC",
   "cinque terre": "IT-CQT",

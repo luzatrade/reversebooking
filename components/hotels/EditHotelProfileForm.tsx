@@ -56,7 +56,7 @@ export function EditHotelProfileForm() {
           return;
         }
         setUserId(user.id);
-        const [{ data, error: hotelError }, { data: profileData }] = await Promise.all([
+        const [{ data: hotelRow, error: hotelError }, { data: profileData }] = await Promise.all([
           supabase
             .from("hotel_accounts")
             .select(
@@ -66,9 +66,37 @@ export function EditHotelProfileForm() {
             .maybeSingle(),
           supabase.from("profiles").select("phone_verified").eq("user_id", user.id).maybeSingle(),
         ]);
+        let data = hotelRow;
         if (!active) return;
         if (hotelError || !data) {
-          setError(hotelError?.message ?? hp.profileNotFound);
+          const session = await supabase.auth.getSession();
+          const token = session.data.session?.access_token;
+          if (token) {
+            await fetch("/api/auth/complete-profile", {
+              method: "POST",
+              headers: { Authorization: `Bearer ${token}` },
+            });
+            const retry = await supabase
+              .from("hotel_accounts")
+              .select(
+                "id, property_name, structure_type, cin_code, description, full_address, country_code, country_name, city_name, city_id, specific_area, rooms_quantity, main_photo_url, gallery_photo_urls, google_maps_url, public_email, public_phone, subscription_active, account_status, onboarding_hotel_id",
+              )
+              .eq("user_id", user.id)
+              .maybeSingle();
+            if (retry.error) {
+              setError(retry.error.message);
+              return;
+            }
+            data = retry.data;
+          }
+        }
+        if (!active) return;
+        if (hotelError && !data) {
+          setError(hotelError.message);
+          return;
+        }
+        if (!data) {
+          setError(hp.profileNotFound);
           return;
         }
         setHotelOperational(

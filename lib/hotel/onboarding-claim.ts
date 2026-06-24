@@ -1,4 +1,5 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
+import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
 
 type AppSupabase = SupabaseClient;
@@ -50,6 +51,10 @@ export function buildHotelFromOnboarding(
   onboarding: OnboardingHotelRow,
   structureType: string,
 ) {
+  const cityId =
+    resolveCanonicalCityId({ cityName: onboarding.city_name, countryCode: "IT" }) ??
+    `${String(onboarding.city_name).toLowerCase().replace(/ +/g, "-")}-it`;
+
   return {
     user_id: userId,
     onboarding_hotel_id: onboarding.id,
@@ -61,7 +66,7 @@ export function buildHotelFromOnboarding(
     country_code: "IT",
     country_name: "Italia",
     city_name: onboarding.city_name,
-    city_id: `${String(onboarding.city_name).toLowerCase().replace(/ +/g, "-")}-it`,
+    city_id: cityId,
     specific_area: onboarding.indirizzo,
     rooms_quantity: 1,
     private_notification_email: email,

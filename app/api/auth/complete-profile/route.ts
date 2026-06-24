@@ -44,11 +44,17 @@ export async function POST(request: Request) {
 
   const { data: existingProfile } = await adminClient
     .from("profiles")
+    .select("user_id, role")
+    .eq("user_id", user.id)
+    .maybeSingle();
+
+  const { data: existingHotel } = await adminClient
+    .from("hotel_accounts")
     .select("user_id")
     .eq("user_id", user.id)
     .maybeSingle();
 
-  if (existingProfile) {
+  if (existingProfile && (existingProfile.role !== "hotel" || existingHotel)) {
     return NextResponse.json({ ok: true, alreadyComplete: true });
   }
 
