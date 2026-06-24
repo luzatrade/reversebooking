@@ -10,6 +10,7 @@ import { HotelPhoneVerification } from "@/components/hotels/HotelPhoneVerificati
 import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { isHotelOperational } from "@/lib/hotel/access";
+import { needsOnboardingHotelPrefill } from "@/lib/hotel/onboarding-claim";
 import { findCityById } from "@/lib/constants/world-city-helpers";
 import { type WorldCity } from "@/lib/constants/world-cities";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
@@ -67,8 +68,12 @@ export function EditHotelProfileForm() {
           supabase.from("profiles").select("phone_verified").eq("user_id", user.id).maybeSingle(),
         ]);
         let data = hotelRow;
+        const onboardingMetaId =
+          typeof user.user_metadata?.onboarding_hotel_id === "string"
+            ? user.user_metadata.onboarding_hotel_id
+            : null;
         if (!active) return;
-        if (hotelError || !data) {
+        if (hotelError || !data || (onboardingMetaId && needsOnboardingHotelPrefill(data, onboardingMetaId))) {
           const session = await supabase.auth.getSession();
           const token = session.data.session?.access_token;
           if (token) {

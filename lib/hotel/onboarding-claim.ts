@@ -21,6 +21,24 @@ export type OnboardingHotelRow = {
 const ONBOARDING_SELECT =
   "id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url, status, claimed_by";
 
+const PLACEHOLDER_PROPERTY_NAMES = new Set([
+  "",
+  "Nuova struttura",
+  "Struttura da completare",
+  "Struttura test",
+]);
+
+export function needsOnboardingHotelPrefill(
+  hotel: { onboarding_hotel_id?: string | null; property_name?: string | null } | null | undefined,
+  onboardingHotelId: string | null,
+): boolean {
+  if (!onboardingHotelId) return false;
+  if (!hotel) return true;
+  if (hotel.onboarding_hotel_id === onboardingHotelId) return false;
+  if (!hotel.onboarding_hotel_id) return true;
+  return PLACEHOLDER_PROPERTY_NAMES.has(hotel.property_name?.trim() ?? "");
+}
+
 export async function loadOnboardingHotel(
   admin: AppSupabase,
   onboardingId: string,

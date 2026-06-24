@@ -4,6 +4,7 @@ import {
   assertOnboardingClaimable,
   buildHotelFromOnboarding,
   loadOnboardingHotel,
+  needsOnboardingHotelPrefill,
   reserveOnboardingClaim,
 } from "@/lib/hotel/onboarding-claim";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
@@ -42,22 +43,6 @@ export async function POST(request: Request) {
 
   const adminClient = createClient(url, serviceKey, { auth: { persistSession: false } });
 
-  const { data: existingProfile } = await adminClient
-    .from("profiles")
-    .select("user_id, role")
-    .eq("user_id", user.id)
-    .maybeSingle();
-
-  const { data: existingHotel } = await adminClient
-    .from("hotel_accounts")
-    .select("user_id")
-    .eq("user_id", user.id)
-    .maybeSingle();
-
-  if (existingProfile && (existingProfile.role !== "hotel" || existingHotel)) {
-    return NextResponse.json({ ok: true, alreadyComplete: true });
-  }
-
   const meta = user.user_metadata ?? {};
   const role =
     meta.role === "hotel"
@@ -67,9 +52,26 @@ export async function POST(request: Request) {
         : meta.role === "advertiser"
           ? "advertiser"
           : "advertiser";
-  const email = user.email ?? "";
   const onboardingHotelId =
     typeof meta.onboarding_hotel_id === "string" ? meta.onboarding_hotel_id : null;
+
+  const [{ data: existingProfile }, { data: existingHotel }] = await Promise.all([
+    adminClient.from("profiles").select("user_id, role").eq("user_id", user.id).maybeSingle(),
+    adminClient
+      .from("hotel_accounts")
+      .select("user_id, onboarding_hotel_id, property_name")
+      .eq("user_id", user.id)
+      .maybeSingle(),
+  ]);
+
+  const pendingOnboardingPrefill =
+    role === "hotel" && needsOnboardingHotelPrefill(existingHotel, onboardingHotelId);
+
+  if (existingProfile && !pendingOnboardingPrefill && (existingProfile.role !== "hotel" || existingHotel)) {
+    return NextResponse.json({ ok: true, alreadyComplete: true });
+  }
+
+  const email = user.email ?? "";
   let profilePhone = `+39${user.id.replaceAll("-", "").slice(0, 10)}`;
 
   if (role === "hotel" && onboardingHotelId) {
@@ -106,7 +108,10 @@ export async function POST(request: Request) {
       }
 
       const hotelData = buildHotelFromOnboarding(user.id, email, onboarding!, structureType);
-      await adminClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
+      const { error: hotelError } = await adminClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
+      if (hotelError) {
+        return NextResponse.json({ error: hotelError.message }, { status: 400 });
+      }
       await reserveOnboardingClaim(adminClient, onboarding!.id, user.id);
     } else {
       const { data: matchData } = await adminClient
@@ -201,16 +206,24 @@ export async function POST(request: Request) {
     );
   }
 
-  await adminClient.from("user_consents").insert({
-    user_id: user.id,
-    terms_accepted: true,
-    privacy_accepted: true,
-    marketing_accepted: Boolean(meta.marketing_accepted),
-    terms_version: meta.terms_version ?? TERMS_VERSION,
-    privacy_version: meta.privacy_version ?? PRIVACY_VERSION,
-    ip_address: ip,
-    user_agent: userAgent,
-  });
+  const { data: existingConsent } = await adminClient
+    .from("user_consents")
+    .select("user_id")
+    .eq("user_id", user.id)
+    .maybeSingle();
 
-  return NextResponse.json({ ok: true, role });
+  if (!existingConsent) {
+    await adminClient.from("user_consents").insert({
+      user_id: user.id,
+      terms_accepted: true,
+      privacy_accepted: true,
+      marketing_accepted: Boolean(meta.marketing_accepted),
+      terms_version: meta.terms_version ?? TERMS_VERSION,
+      privacy_version: meta.privacy_version ?? PRIVACY_VERSION,
+      ip_address: ip,
+      user_agent: userAgent,
+    });
+  }
+
+  return NextResponse.json({ ok: true, role, onboardingApplied: pendingOnboardingPrefill });
 }
