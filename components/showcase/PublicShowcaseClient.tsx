@@ -278,9 +278,9 @@ export function PublicShowcaseClient() {
         }
 
         const registeredPromise = registeredQuery;
-        let onboardingPromise: Promise<{ data: OnboardingHotelRow[] | null }> = Promise.resolve({ data: [] });
 
-        if (hasSelectedCity) {
+        async function fetchOnboardingHotels(): Promise<OnboardingHotelRow[]> {
+          if (!hasSelectedCity) return [];
           const names = cityLookupNames(selectedCity.city_name);
           let onboardingQuery = supabase
             .from("onboarding_hotels")
@@ -292,12 +292,13 @@ export function PublicShowcaseClient() {
           } else if (names.length > 1) {
             onboardingQuery = onboardingQuery.or(names.map((name) => `city_name.ilike."${name.replace(/"/g, '""')}"`).join(","));
           }
-          onboardingPromise = onboardingQuery.then(({ data }) => ({ data: (data ?? []) as OnboardingHotelRow[] }));
+          const { data } = await onboardingQuery;
+          return (data ?? []) as OnboardingHotelRow[];
         }
 
-        const [{ data: registeredHotels }, { data: onboardingHotels }] = await Promise.all([
+        const [{ data: registeredHotels }, onboardingHotels] = await Promise.all([
           registeredPromise,
-          onboardingPromise,
+          fetchOnboardingHotels(),
         ]);
         if (cancelled) return;
 
