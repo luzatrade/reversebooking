@@ -199,6 +199,9 @@ export const translations = {
       registerMarketing: "Comunicazioni promozionali (facoltativo)",
       registerSubmitting: "Invio in corso…",
       registerSubmit: "Crea account",
+      registerClaimBanner: "Stai rivendicando: {name}",
+      registerClaimPhoneNote:
+        "Dopo la registrazione dovrai verificare il telefono della struttura con una chiamata vocale automatica.",
       registerPageIntro:
         "Compila i campi e accetta i documenti contrattuali per attivare il profilo.",
       msgNotRegistered:
@@ -210,6 +213,24 @@ export const translations = {
       msgRateLimited: "Troppi tentativi di accesso. Attendi qualche minuto e riprova.",
       msgLoginFailed:
         "Accesso non riuscito. Verifica email e password oppure registrati.",
+    },
+    claimVerification: {
+      title: "Verifica telefono struttura",
+      intro:
+        "Per completare la rivendica del profilo catalogo, conferma di avere accesso al telefono pubblico registrato su Google.",
+      phoneLabel: "Telefono da verificare",
+      callHint:
+        "Riceverai una chiamata automatica con un codice a 6 cifre. Se il numero non è corretto, contatta assistenza.",
+      requestCall: "Ricevi chiamata di verifica",
+      calling: "Avvio chiamata...",
+      callStarted: "Chiamata avviata su {phone}. Inserisci il codice quando lo senti.",
+      codeLabel: "Codice di verifica",
+      confirmCode: "Conferma codice",
+      confirming: "Verifica in corso...",
+      verifiedSuccess: "Telefono verificato. Il profilo struttura è ora attivo.",
+      requestFailed: "Impossibile avviare la verifica telefonica.",
+      confirmFailed: "Codice non valido o scaduto.",
+      supportHint: "Problemi con il numero o la chiamata?",
     },
     publicShowcase: {
       title: "Vetrina annunci",
@@ -689,6 +710,8 @@ export const translations = {
         mapsStep6: "Incollalo in questo campo.",
         publicEmail: "Email pubblica",
         publicPhone: "Telefono pubblico",
+        publicPhoneReadonly:
+          "Telefono importato dal profilo catalogo Google. Per modificarlo contatta assistenza.",
         saveProfile: "Salva profilo struttura",
         saving: "Salvataggio...",
         savingPhotos: "Caricamento foto...",
@@ -1177,6 +1200,9 @@ export const translations = {
       registerMarketing: "Promotional communications (optional)",
       registerSubmitting: "Submitting...",
       registerSubmit: "Create account",
+      registerClaimBanner: "You are claiming: {name}",
+      registerClaimPhoneNote:
+        "After sign-up you must verify the property phone with an automated voice call.",
       registerPageIntro:
         "Fill in the fields and accept the contractual documents to activate your profile.",
       msgNotRegistered:
@@ -1187,6 +1213,24 @@ export const translations = {
         "You must confirm your email before signing in. Check your inbox.",
       msgRateLimited: "Too many sign-in attempts. Please wait a few minutes and try again.",
       msgLoginFailed: "Sign-in failed. Check your email and password or sign up.",
+    },
+    claimVerification: {
+      title: "Verify property phone",
+      intro:
+        "To complete your catalog profile claim, confirm you can receive calls on the public phone listed on Google.",
+      phoneLabel: "Phone to verify",
+      callHint:
+        "You will receive an automated call with a 6-digit code. If the number is wrong, contact support.",
+      requestCall: "Receive verification call",
+      calling: "Starting call...",
+      callStarted: "Call started to {phone}. Enter the code when you hear it.",
+      codeLabel: "Verification code",
+      confirmCode: "Confirm code",
+      confirming: "Verifying...",
+      verifiedSuccess: "Phone verified. Your property profile is now active.",
+      requestFailed: "Could not start phone verification.",
+      confirmFailed: "Invalid or expired code.",
+      supportHint: "Issues with the number or call?",
     },
     publicShowcase: {
       title: "Request showcase",
@@ -1658,6 +1702,8 @@ export const translations = {
         mapsStep6: "Paste it in this field.",
         publicEmail: "Public email",
         publicPhone: "Public phone",
+        publicPhoneReadonly:
+          "Phone imported from the Google catalog profile. Contact support to change it.",
         saveProfile: "Save property profile",
         saving: "Saving...",
         savingPhotos: "Uploading photos...",

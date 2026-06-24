@@ -3,6 +3,9 @@ export const OFFER_MSG_PROFILE_INCOMPLETE =
 
 export const OFFER_MSG_SUBSCRIPTION_INACTIVE = "Abbonamento non attivo";
 
+export const OFFER_MSG_PHONE_NOT_VERIFIED =
+  "Verifica il telefono della struttura per andare online e inviare offerte.";
+
 const PLACEHOLDER_PROPERTY_NAMES = new Set([
   "",
   "Struttura da completare",
@@ -16,11 +19,17 @@ export type HotelOfferEligibilityRow = {
   full_address?: string | null;
   main_photo_url?: string | null;
   subscription_active?: boolean | null;
+  account_status?: string | null;
+  onboarding_hotel_id?: string | null;
+};
+
+export type HotelOfferEligibilityProfile = {
+  phone_verified?: boolean | null;
 };
 
 /** Campi minimi da selezionare prima di chiamare getHotelOfferBlockMessage. */
 export const HOTEL_OFFER_ELIGIBILITY_SELECT =
-  "id, property_name, full_address, main_photo_url, subscription_active, account_status, provider_kind, city_id, city_name, country_code, structure_type";
+  "id, property_name, full_address, main_photo_url, subscription_active, account_status, onboarding_hotel_id, provider_kind, city_id, city_name, country_code, structure_type";
 
 /** Allineato alla logica DB `prevent_hotel_city_change` (profilo placeholder). */
 export function isHotelProfileIncomplete(hotel: HotelOfferEligibilityRow | null | undefined): boolean {
@@ -44,12 +53,21 @@ export function getHotelProfileIncompleteHint(hotel: HotelOfferEligibilityRow | 
 }
 
 /** Messaggio blocco invio offerta, oppure null se la struttura può procedere. */
-export function getHotelOfferBlockMessage(hotel: HotelOfferEligibilityRow | null | undefined): string | null {
+export function getHotelOfferBlockMessage(
+  hotel: HotelOfferEligibilityRow | null | undefined,
+  profile?: HotelOfferEligibilityProfile | null,
+): string | null {
   const profileHint = getHotelProfileIncompleteHint(hotel);
   if (profileHint) {
     return profileHint === "Profilo struttura non trovato."
       ? OFFER_MSG_PROFILE_INCOMPLETE
       : `${OFFER_MSG_PROFILE_INCOMPLETE} ${profileHint}`;
+  }
+  if (hotel?.onboarding_hotel_id && !profile?.phone_verified) {
+    return OFFER_MSG_PHONE_NOT_VERIFIED;
+  }
+  if (hotel?.account_status === "pending_verification") {
+    return OFFER_MSG_PHONE_NOT_VERIFIED;
   }
   if (!hotel?.subscription_active) return OFFER_MSG_SUBSCRIPTION_INACTIVE;
   return null;

@@ -1,5 +1,12 @@
-import { createClient } from "@supabase/supabase-js";
+import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
+import {
+  assertOnboardingClaimable,
+  buildHotelFromOnboarding,
+  loadOnboardingHotel,
+  reserveOnboardingClaim,
+} from "@/lib/hotel/onboarding-claim";
+import { normalizePhoneE164 } from "@/lib/phone/normalize";
 import { PRIVACY_VERSION, TERMS_VERSION } from "@/lib/legal/company";
 import { getClientIp, rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
 
@@ -8,6 +15,7 @@ type Body = {
   password?: string;
   accountKind?: "inserzionista" | "struttura" | "agenzia";
   structureType?: string;
+  onboardingId?: string;
   legalAccepted?: boolean;
   termsAccepted?: boolean;
   privacyAccepted?: boolean;
@@ -30,6 +38,7 @@ export async function POST(request: Request) {
 
   const email = body.email?.trim().toLowerCase();
   const password = body.password;
+  const onboardingId = body.onboardingId?.trim() || null;
   const legalOk =
     body.legalAccepted === true || (Boolean(body.termsAccepted) && Boolean(body.privacyAccepted));
   const marketingAccepted = Boolean(body.marketingAccepted);
@@ -47,9 +56,27 @@ export async function POST(request: Request) {
 
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
   if (!url || !anonKey) {
     return NextResponse.json({ error: "Supabase non configurato." }, { status: 503 });
+  }
+
+  if (onboardingId && accountKind === "struttura" && serviceKey) {
+    const adminClient = createClient(url, serviceKey, { auth: { persistSession: false } });
+    const onboarding = await loadOnboardingHotel(adminClient, onboardingId);
+    if (!onboarding || onboarding.status !== "unclaimed") {
+      return NextResponse.json(
+        { error: onboarding?.status === "claimed" ? "Questa struttura è già stata rivendicata." : "Struttura non disponibile per la rivendica." },
+        { status: 409 },
+      );
+    }
+    if (!normalizePhoneE164(onboarding.phone)) {
+      return NextResponse.json(
+        { error: "Questa struttura non ha un telefono verificabile. Contatta assistenza." },
+        { status: 400 },
+      );
+    }
   }
 
   const userAgent = request.headers.get("user-agent") ?? null;
@@ -71,6 +98,7 @@ export async function POST(request: Request) {
         privacy_version: body.privacyVersion ?? PRIVACY_VERSION,
         ip_address: ip,
         user_agent: userAgent,
+        onboarding_hotel_id: onboardingId,
       },
     },
   });
@@ -92,6 +120,7 @@ export async function POST(request: Request) {
       role,
       userId: user.id,
       emailConfirmationRequired: true,
+      claimPending: Boolean(onboardingId && accountKind === "struttura"),
     });
   }
 
@@ -107,6 +136,7 @@ export async function POST(request: Request) {
     role,
     userId: user.id,
     emailConfirmationRequired: false,
+    claimPending: Boolean(onboardingId && accountKind === "struttura"),
     session: {
       access_token: session.access_token,
       refresh_token: session.refresh_token,
@@ -114,8 +144,10 @@ export async function POST(request: Request) {
   });
 }
 
+type AppSupabase = SupabaseClient;
+
 async function completeProfile(
-  userClient: any,
+  userClient: AppSupabase,
   userId: string,
   email: string,
   role: string,
@@ -124,14 +156,25 @@ async function completeProfile(
   userAgent: string | null,
   emailVerified: boolean,
 ) {
-  const phoneNumber = `+39${userId.replaceAll("-", "").slice(0, 10)}`;
+  let profilePhone = `+39${userId.replaceAll("-", "").slice(0, 10)}`;
+
+  if (role === "hotel" && body.onboardingId) {
+    const serviceUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+    if (serviceUrl && serviceKey) {
+      const adminClient = createClient(serviceUrl, serviceKey, { auth: { persistSession: false } });
+      const onboarding = await loadOnboardingHotel(adminClient, body.onboardingId!);
+      const normalized = normalizePhoneE164(onboarding?.phone);
+      if (normalized) profilePhone = normalized;
+    }
+  }
 
   await userClient.from("profiles").upsert(
     {
       user_id: userId,
       role,
       email,
-      phone_number: phoneNumber,
+      phone_number: profilePhone,
       email_verified: emailVerified,
       phone_verified: false,
       account_status: "active",
@@ -170,87 +213,92 @@ async function completeProfile(
 }
 
 async function createHotelAccount(
-  userClient: any,
+  userClient: AppSupabase,
   userId: string,
   email: string,
   body: Body,
 ) {
   const serviceUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
-  let onboardingMatch: Record<string, unknown> | null = null;
-
-  if (serviceUrl && serviceKey) {
-    const adminClient = createClient(serviceUrl, serviceKey, { auth: { persistSession: false } });
-    const { data: matchData } = await adminClient
-      .from("onboarding_hotels")
-      .select("id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url")
-      .eq("email", email)
-      .maybeSingle();
-    onboardingMatch = matchData;
-  }
-
-  const hotelData = onboardingMatch
-    ? {
-        user_id: userId,
-        structure_type: body.structureType ?? "hotel",
-        property_name: onboardingMatch.nome as string,
-        cin_code: `ONB-${userId.slice(0, 8)}`,
-        description: null as string | null,
-        full_address: (onboardingMatch.indirizzo as string) || (onboardingMatch.city_name as string),
-        country_code: "IT",
-        country_name: "Italia",
-        city_name: onboardingMatch.city_name as string,
-        city_id: String(onboardingMatch.city_name as string).toLowerCase().replace(/ +/g, "-") + "-it",
-        specific_area: onboardingMatch.indirizzo as string | null,
-        rooms_quantity: 1,
-        private_notification_email: email,
-        public_email: onboardingMatch.email as string | null,
-        public_phone: onboardingMatch.phone as string | null,
-        main_photo_url: onboardingMatch.main_photo_url as string | null,
-        google_maps_url: onboardingMatch.google_maps_url as string | null,
-        subscription_status: "active",
-        subscription_active: true,
-        account_status: "active",
-      }
-    : {
+  if (!serviceUrl || !serviceKey) {
+    await userClient.from("hotel_accounts").upsert(
+      {
         user_id: userId,
         structure_type: body.structureType ?? "hotel",
         property_name: "Nuova struttura",
         cin_code: `NEW-${userId.slice(0, 8)}`,
-        description: null as string | null,
         full_address: "Indirizzo da completare",
         country_code: "IT",
         country_name: "Italia",
         city_name: "Da completare",
         city_id: "",
-        specific_area: null as string | null,
         rooms_quantity: 1,
         private_notification_email: email,
-        public_email: null as string | null,
-        public_phone: null as string | null,
-        main_photo_url: null as string | null,
-        google_maps_url: null as string | null,
         subscription_status: "active",
         subscription_active: true,
         account_status: "active",
-      };
-
-  await userClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
-
-  if (onboardingMatch && serviceUrl && serviceKey) {
-    const adminClient = createClient(serviceUrl, serviceKey, { auth: { persistSession: false } });
-    await adminClient
-      .from("onboarding_hotels")
-      .update({ status: "claimed" })
-      .eq("id", onboardingMatch.id as string);
+      },
+      { onConflict: "user_id" },
+    );
+    return;
   }
+
+  const adminClient = createClient(serviceUrl, serviceKey, { auth: { persistSession: false } });
+
+  if (body.onboardingId) {
+    const onboarding = await loadOnboardingHotel(adminClient, body.onboardingId);
+    const claimError = assertOnboardingClaimable(onboarding, userId);
+    if (claimError) throw new Error(claimError);
+
+    const hotelData = buildHotelFromOnboarding(userId, email, onboarding!, body.structureType ?? "hotel");
+    await userClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
+    await reserveOnboardingClaim(adminClient, onboarding!.id, userId);
+    return;
+  }
+
+  const { data: matchData } = await adminClient
+    .from("onboarding_hotels")
+    .select("id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url, status, claimed_by")
+    .eq("email", email)
+    .eq("status", "unclaimed")
+    .maybeSingle();
+
+  if (matchData) {
+    const hotelData = buildHotelFromOnboarding(userId, email, matchData, body.structureType ?? "hotel");
+    await userClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
+    await reserveOnboardingClaim(adminClient, matchData.id, userId);
+    return;
+  }
+
+  await userClient.from("hotel_accounts").upsert(
+    {
+      user_id: userId,
+      structure_type: body.structureType ?? "hotel",
+      property_name: "Nuova struttura",
+      cin_code: `NEW-${userId.slice(0, 8)}`,
+      description: null as string | null,
+      full_address: "Indirizzo da completare",
+      country_code: "IT",
+      country_name: "Italia",
+      city_name: "Da completare",
+      city_id: "",
+      specific_area: null as string | null,
+      rooms_quantity: 1,
+      private_notification_email: email,
+      public_email: null as string | null,
+      public_phone: null as string | null,
+      main_photo_url: null as string | null,
+      google_maps_url: null as string | null,
+      subscription_status: "active",
+      subscription_active: true,
+      account_status: "active",
+    },
+    { onConflict: "user_id" },
+  );
 }
 
-// Un'agenzia viaggi è ibrida: FORNITORE (riga in hotel_accounts con
-// provider_kind='agency', invia offerte e paga abbonamento) e ACQUIRENTE
-// (riga in advertiser_profiles, può pubblicare richieste alle strutture).
 async function createAgencyAccount(
-  userClient: any,
+  userClient: AppSupabase,
   userId: string,
   email: string,
 ) {
@@ -258,7 +306,7 @@ async function createAgencyAccount(
     {
       user_id: userId,
       provider_kind: "agency",
-      structure_type: "hotel", // placeholder non mostrato nelle UI agenzia
+      structure_type: "hotel",
       property_name: "Nuova agenzia",
       cin_code: null as string | null,
       cun_code: null as string | null,
@@ -269,7 +317,7 @@ async function createAgencyAccount(
       city_name: "Da completare",
       city_id: "",
       specific_area: null as string | null,
-      rooms_quantity: 1, // placeholder non usato dalle agenzie
+      rooms_quantity: 1,
       private_notification_email: email,
       public_email: null as string | null,
       public_phone: null as string | null,

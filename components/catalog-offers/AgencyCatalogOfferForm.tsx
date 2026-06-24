@@ -86,12 +86,11 @@ export function AgencyCatalogOfferForm() {
         setLoading(false);
         return;
       }
-      const { data, error: agErr } = await supabase
-        .from("hotel_accounts")
-        .select(HOTEL_OFFER_ELIGIBILITY_SELECT)
-        .eq("user_id", auth.user.id)
-        .maybeSingle();
-      const block = getHotelOfferBlockMessage(agErr ? null : data);
+      const [{ data, error: agErr }, { data: profileData }] = await Promise.all([
+        supabase.from("hotel_accounts").select(HOTEL_OFFER_ELIGIBILITY_SELECT).eq("user_id", auth.user.id).maybeSingle(),
+        supabase.from("profiles").select("phone_verified").eq("user_id", auth.user.id).maybeSingle(),
+      ]);
+      const block = getHotelOfferBlockMessage(agErr ? null : data, profileData);
       if (block || !data || data.provider_kind !== "agency") {
         setError(block ?? t.catalogOffers.agencyOnly);
         setLoading(false);

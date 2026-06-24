@@ -1,5 +1,12 @@
 import { createClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
+import {
+  assertOnboardingClaimable,
+  buildHotelFromOnboarding,
+  loadOnboardingHotel,
+  reserveOnboardingClaim,
+} from "@/lib/hotel/onboarding-claim";
+import { normalizePhoneE164 } from "@/lib/phone/normalize";
 import { PRIVACY_VERSION, TERMS_VERSION } from "@/lib/legal/company";
 import { getClientIp, rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
 
@@ -55,7 +62,15 @@ export async function POST(request: Request) {
           ? "advertiser"
           : "advertiser";
   const email = user.email ?? "";
-  const phoneNumber = `+39${user.id.replaceAll("-", "").slice(0, 10)}`;
+  const onboardingHotelId =
+    typeof meta.onboarding_hotel_id === "string" ? meta.onboarding_hotel_id : null;
+  let profilePhone = `+39${user.id.replaceAll("-", "").slice(0, 10)}`;
+
+  if (role === "hotel" && onboardingHotelId) {
+    const onboarding = await loadOnboardingHotel(adminClient, onboardingHotelId);
+    const normalized = normalizePhoneE164(onboarding?.phone);
+    if (normalized) profilePhone = normalized;
+  }
 
   const forwarded = request.headers.get("x-forwarded-for");
   const ip = forwarded?.split(",")[0]?.trim() ?? meta.ip_address ?? null;
@@ -66,7 +81,7 @@ export async function POST(request: Request) {
       user_id: user.id,
       role,
       email,
-      phone_number: phoneNumber,
+      phone_number: profilePhone,
       email_verified: Boolean(user.email_confirmed_at),
       phone_verified: false,
       account_status: "active",
@@ -75,70 +90,57 @@ export async function POST(request: Request) {
   );
 
   if (role === "hotel") {
-    let onboardingMatch: Record<string, unknown> | null = null;
-
-    const { data: matchData } = await adminClient
-      .from("onboarding_hotels")
-      .select("id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url")
-      .eq("email", email)
-      .maybeSingle();
-    onboardingMatch = matchData;
-
     const structureType = meta.structure_type ?? "hotel";
 
-    const hotelData = onboardingMatch
-      ? {
-          user_id: user.id,
-          structure_type: structureType,
-          property_name: onboardingMatch.nome as string,
-          cin_code: `ONB-${user.id.slice(0, 8)}`,
-          description: null as string | null,
-          full_address: (onboardingMatch.indirizzo as string) || (onboardingMatch.city_name as string),
-          country_code: "IT",
-          country_name: "Italia",
-          city_name: onboardingMatch.city_name as string,
-          city_id: String(onboardingMatch.city_name as string).toLowerCase().replace(/ +/g, "-") + "-it",
-          specific_area: onboardingMatch.indirizzo as string | null,
-          rooms_quantity: 1,
-          private_notification_email: email,
-          public_email: onboardingMatch.email as string | null,
-          public_phone: onboardingMatch.phone as string | null,
-          main_photo_url: onboardingMatch.main_photo_url as string | null,
-          google_maps_url: onboardingMatch.google_maps_url as string | null,
-          subscription_status: "active",
-          subscription_active: true,
-          account_status: "active",
-        }
-      : {
-          user_id: user.id,
-          structure_type: structureType,
-          property_name: "Nuova struttura",
-          cin_code: `NEW-${user.id.slice(0, 8)}`,
-          description: null as string | null,
-          full_address: "Indirizzo da completare",
-          country_code: "IT",
-          country_name: "Italia",
-          city_name: "Da completare",
-          city_id: "",
-          specific_area: null as string | null,
-          rooms_quantity: 1,
-          private_notification_email: email,
-          public_email: null as string | null,
-          public_phone: null as string | null,
-          main_photo_url: null as string | null,
-          google_maps_url: null as string | null,
-          subscription_status: "active",
-          subscription_active: true,
-          account_status: "active",
-        };
+    if (onboardingHotelId) {
+      const onboarding = await loadOnboardingHotel(adminClient, onboardingHotelId);
+      const claimError = assertOnboardingClaimable(onboarding, user.id);
+      if (claimError) {
+        return NextResponse.json({ error: claimError }, { status: 400 });
+      }
 
-    await adminClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
-
-    if (onboardingMatch) {
-      await adminClient
+      const hotelData = buildHotelFromOnboarding(user.id, email, onboarding!, structureType);
+      await adminClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
+      await reserveOnboardingClaim(adminClient, onboarding!.id, user.id);
+    } else {
+      const { data: matchData } = await adminClient
         .from("onboarding_hotels")
-        .update({ status: "claimed" })
-        .eq("id", onboardingMatch.id as string);
+        .select("id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url, status, claimed_by")
+        .eq("email", email)
+        .eq("status", "unclaimed")
+        .maybeSingle();
+
+      if (matchData) {
+        const hotelData = buildHotelFromOnboarding(user.id, email, matchData, structureType);
+        await adminClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
+        await reserveOnboardingClaim(adminClient, matchData.id, user.id);
+      } else {
+        await adminClient.from("hotel_accounts").upsert(
+          {
+            user_id: user.id,
+            structure_type: structureType,
+            property_name: "Nuova struttura",
+            cin_code: `NEW-${user.id.slice(0, 8)}`,
+            description: null as string | null,
+            full_address: "Indirizzo da completare",
+            country_code: "IT",
+            country_name: "Italia",
+            city_name: "Da completare",
+            city_id: "",
+            specific_area: null as string | null,
+            rooms_quantity: 1,
+            private_notification_email: email,
+            public_email: null as string | null,
+            public_phone: null as string | null,
+            main_photo_url: null as string | null,
+            google_maps_url: null as string | null,
+            subscription_status: "active",
+            subscription_active: true,
+            account_status: "active",
+          },
+          { onConflict: "user_id" },
+        );
+      }
     }
   } else if (role === "agency") {
     await adminClient.from("hotel_accounts").upsert(

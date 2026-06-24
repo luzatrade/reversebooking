@@ -71,17 +71,16 @@ export function HotelCatalogOfferForm() {
           setError(t.catalogOffers.loginRequired);
           return;
         }
-        const { data, error: hotelError } = await supabase
-          .from("hotel_accounts")
-          .select(HOTEL_OFFER_ELIGIBILITY_SELECT)
-          .eq("user_id", user.id)
-          .maybeSingle();
+        const [{ data, error: hotelError }, { data: profileData }] = await Promise.all([
+          supabase.from("hotel_accounts").select(HOTEL_OFFER_ELIGIBILITY_SELECT).eq("user_id", user.id).maybeSingle(),
+          supabase.from("profiles").select("phone_verified").eq("user_id", user.id).maybeSingle(),
+        ]);
         if (!active) return;
         if (hotelError) {
           setError(hotelError.message);
           return;
         }
-        const block = getHotelOfferBlockMessage(data);
+        const block = getHotelOfferBlockMessage(data, profileData);
         if (block || !data || data.provider_kind === "agency") {
           setError(block ?? t.catalogOffers.hotelOnly);
           return;

@@ -112,14 +112,17 @@ export function CreateOfferForm() {
         const supabase = createBrowserSupabaseClient();
         const { data: authData, error: authError } = await supabase.auth.getUser();
         if (authError || !authData.user) { setError("Devi effettuare il login come struttura ricettiva."); return; }
-        const { data: hotelData, error: hotelError } = await supabase
-          .from("hotel_accounts")
-          .select(
-            "id, property_name, full_address, main_photo_url, structure_type, city_name, specific_area, cin_code, subscription_active, account_status",
-          )
-          .eq("user_id", authData.user.id)
-          .maybeSingle();
-        const offerBlock = getHotelOfferBlockMessage(hotelError ? null : hotelData);
+        const [{ data: hotelData, error: hotelError }, { data: profileData }] = await Promise.all([
+          supabase
+            .from("hotel_accounts")
+            .select(
+              "id, property_name, full_address, main_photo_url, structure_type, city_name, specific_area, cin_code, subscription_active, account_status, onboarding_hotel_id",
+            )
+            .eq("user_id", authData.user.id)
+            .maybeSingle(),
+          supabase.from("profiles").select("phone_verified").eq("user_id", authData.user.id).maybeSingle(),
+        ]);
+        const offerBlock = getHotelOfferBlockMessage(hotelError ? null : hotelData, profileData);
         if (offerBlock) {
           setError(offerBlock);
           return;
@@ -228,12 +231,21 @@ export function CreateOfferForm() {
         return;
       }
       const supabase = createBrowserSupabaseClient();
-      const { data: freshHotel } = await supabase
-        .from("hotel_accounts")
-        .select("id, property_name, full_address, main_photo_url, structure_type, city_name, specific_area, cin_code, subscription_active, account_status")
-        .eq("id", hotel.id)
-        .maybeSingle();
-      const offerBlock = getHotelOfferBlockMessage(freshHotel);
+      const { data: authData } = await supabase.auth.getUser();
+      const userId = authData.user?.id;
+      const [{ data: freshHotel }, { data: freshProfile }] = await Promise.all([
+        supabase
+          .from("hotel_accounts")
+          .select(
+            "id, property_name, full_address, main_photo_url, structure_type, city_name, specific_area, cin_code, subscription_active, account_status, onboarding_hotel_id",
+          )
+          .eq("id", hotel.id)
+          .maybeSingle(),
+        userId
+          ? supabase.from("profiles").select("phone_verified").eq("user_id", userId).maybeSingle()
+          : Promise.resolve({ data: null }),
+      ]);
+      const offerBlock = getHotelOfferBlockMessage(freshHotel, freshProfile);
       if (offerBlock) {
         setError(offerBlock);
         return;

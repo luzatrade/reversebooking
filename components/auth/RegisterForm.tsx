@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { dashboardPathForRole, redirectAfterLogin } from "@/lib/auth/redirectAfterLogin";
+import { formatMessage } from "@/lib/i18n/format";
 import { PRIVACY_VERSION, TERMS_VERSION } from "@/lib/legal/company";
 import { getStructureTypeLabels } from "@/lib/i18n/labels";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
@@ -39,6 +40,8 @@ export function RegisterForm() {
   const structureTypeLabels = getStructureTypeLabels(locale);
   const searchParams = useSearchParams();
   const isPartner = searchParams.get("mode") === "partner";
+  const onboardingId = searchParams.get("onboarding")?.trim() || "";
+  const [claimingName, setClaimingName] = useState<string | null>(null);
   const [email, setEmail] = useState("");
   const [emailTouched, setEmailTouched] = useState(false);
   const [password, setPassword] = useState("");
@@ -49,6 +52,36 @@ export function RegisterForm() {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!onboardingId) {
+      setClaimingName(null);
+      return;
+    }
+    let active = true;
+    async function loadClaimTarget() {
+      try {
+        const supabase = createBrowserSupabaseClient();
+        const { data } = await supabase
+          .from("onboarding_hotels")
+          .select("nome, status")
+          .eq("id", onboardingId)
+          .maybeSingle();
+        if (!active) return;
+        if (data?.nome && data.status !== "claimed") {
+          setClaimingName(data.nome);
+        } else {
+          setClaimingName(null);
+        }
+      } catch {
+        if (active) setClaimingName(null);
+      }
+    }
+    void loadClaimTarget();
+    return () => {
+      active = false;
+    };
+  }, [onboardingId]);
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -76,6 +109,7 @@ export function RegisterForm() {
           marketingAccepted: marketing,
           termsVersion: TERMS_VERSION,
           privacyVersion: PRIVACY_VERSION,
+          onboardingId: onboardingId || undefined,
         }),
       });
       const data = (await res.json()) as RegisterResponse & { detail?: string; emailConfirmationRequired?: boolean };
@@ -102,7 +136,11 @@ export function RegisterForm() {
         return;
       }
 
-      redirectAfterLogin(dashboardPathForRole(role));
+      redirectAfterLogin(
+        onboardingId && role === "hotel"
+          ? "/struttura/profilo?claim=1"
+          : dashboardPathForRole(role),
+      );
     } catch {
       setError(t.auth.registerNetworkError);
     } finally {
@@ -135,6 +173,14 @@ export function RegisterForm() {
             </p>
             <p className="mt-1 text-sm font-semibold text-emerald-700">{t.auth.registerPartnerSubheading}</p>
             <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">{t.auth.registerPartnerLead}</p>
+            {claimingName ? (
+              <div className="mt-4 rounded-xl border border-amber-200 bg-amber-50 px-3 py-3 text-sm text-amber-950 dark:border-amber-900/40 dark:bg-amber-950/30 dark:text-amber-100">
+                <p className="font-semibold">{formatMessage(t.auth.registerClaimBanner, { name: claimingName })}</p>
+                <p className="mt-1 text-xs leading-5 text-amber-900/90 dark:text-amber-100/90">
+                  {t.auth.registerClaimPhoneNote}
+                </p>
+              </div>
+            ) : null}
           </>
         ) : (
           <>

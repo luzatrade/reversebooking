@@ -72,6 +72,7 @@ export function PublicOnboardingHotelProfile() {
   const whatsAppHref = hotel?.phone ? buildWhatsAppHref(hotel.nome, hotel.phone) : null;
   const addressLine = hotel?.indirizzo?.trim() || hotel?.city_name || "Indirizzo non disponibile";
   const isClaimed = hotel?.status === "claimed";
+  const isPendingVerification = hotel?.status === "pending_verification";
 
   return (
     <div className="space-y-6">
@@ -102,7 +103,7 @@ export function PublicOnboardingHotelProfile() {
             </p>
             <p className="mt-1 text-sm text-zinc-500">{addressLine}</p>
 
-            {!isClaimed ? (
+            {!isClaimed && !isPendingVerification ? (
               <div className="mt-5 rounded-2xl border border-amber-200 bg-amber-50 p-4 dark:border-amber-900/40 dark:bg-amber-950/30">
                 <p className="text-sm text-amber-950 dark:text-amber-100">
                   Questo profilo non è ancora gestito dal titolare su HotelsDrop. Se rappresenti questa struttura, puoi
@@ -115,6 +116,10 @@ export function PublicOnboardingHotelProfile() {
                   Rivendica questo profilo
                 </Link>
               </div>
+            ) : isPendingVerification ? (
+              <p className="mt-4 rounded-2xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900 dark:border-amber-900/40 dark:bg-amber-950/30 dark:text-amber-100">
+                Rivendica in corso: un partner sta verificando il telefono della struttura.
+              </p>
             ) : (
               <p className="mt-4 rounded-2xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-800">
                 Profilo rivendicato da un partner verificato.
