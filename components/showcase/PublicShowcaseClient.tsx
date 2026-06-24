@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 import Link from "next/link";
 import { Briefcase, Building2, CalendarDays, CheckCircle, Euro, MapPin, Users } from "lucide-react";
 import { getCityHeroImage } from "@/lib/destination-slider/cityPhotos";
@@ -11,6 +11,7 @@ import { CityAutocomplete } from "@/components/location/CityAutocomplete";
 import { CityHeroSlider } from "@/components/showcase/CityHeroSlider";
 import { HorizontalSlider } from "@/components/showcase/HorizontalSlider";
 import { CatalogOfferCard } from "@/components/catalog-offers/CatalogOfferCard";
+import { AppDatePicker } from "@/components/ui/AppDatePicker";
 import { company } from "@/lib/legal/company";
 import { LogoutButton } from "@/components/auth/LogoutButton";
 import { BrandLogo } from "@/components/navigation/BrandLogo";
@@ -20,6 +21,7 @@ import { topbarAuthLinkClass, topbarAuthPrimaryClass } from "@/components/naviga
 import { formatAdvertiserPublicName, oneAdvertiserProfile } from "@/lib/advertiser/publicName";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { createWorldCity } from "@/lib/constants/world-city-helpers";
+import { buildCreateRequestPrefillUrl } from "@/lib/seo/home-destinations";
 import { mealPlanLabels, structureTypeLabels, type MealPlan, type StructureType, type UserRole } from "@/types/app";
 import type { CatalogOfferListItem } from "@/types/catalog-offers";
 
@@ -160,11 +162,27 @@ function createOfferHref(requestId: string, viewer: Viewer) {
   if (viewer.role === "hotel" && viewer.userId) return path;
   return `/login?redirect=${encodeURIComponent(path)}`;
 }
+function toInputValue(date: Date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+function todayInputValue() {
+  return toInputValue(new Date());
+}
+function dayAfterInputValue(value: string) {
+  const [year, month, day] = value.split("-").map(Number);
+  if (!year || !month || !day) return value;
+  const date = new Date(year, month - 1, day);
+  date.setDate(date.getDate() + 1);
+  return toInputValue(date);
+}
 function createRequestHrefForHotel(hotel: Pick<HotelAccount, "id" | "city_id" | "city_name">) {
   if (!hotel.city_name.trim()) return "/inserzionista/crea-annuncio";
   return `/inserzionista/crea-annuncio?city_id=${encodeURIComponent(hotel.city_id ?? "")}&city=${encodeURIComponent(hotel.city_name)}&hotel_id=${encodeURIComponent(hotel.id)}`;
 }
-export function PublicShowcaseClient() {
+export function PublicShowcaseClient({ seoContent }: { seoContent?: ReactNode }) {
   const { t } = useLanguage();
   const [requests, setRequests] = useState<TravelRequest[]>([]);
   const [hotels, setHotels] = useState<HotelAccount[]>([]);
@@ -179,9 +197,22 @@ export function PublicShowcaseClient() {
   const [structureOffers, setStructureOffers] = useState<CatalogOfferListItem[]>([]);
   const [agencyOffers, setAgencyOffers] = useState<CatalogOfferListItem[]>([]);
   const [offersLoading, setOffersLoading] = useState(true);
+  const [checkIn, setCheckIn] = useState("");
+  const [checkOut, setCheckOut] = useState("");
+  const [guestCount, setGuestCount] = useState(2);
+  const [roomCount, setRoomCount] = useState(1);
 
   const hasSelectedCity = Boolean(selectedCity.city_name.trim());
-  const createRequestBase = hasSelectedCity ? `/inserzionista/crea-annuncio?city_id=${encodeURIComponent(selectedCity.city_id)}&city=${encodeURIComponent(selectedCity.city_name)}` : "/inserzionista/crea-annuncio";
+  const createRequestBase = useMemo(
+    () =>
+      buildCreateRequestPrefillUrl(selectedCity, {
+        check_in: checkIn || undefined,
+        check_out: checkOut || undefined,
+        adults: guestCount,
+        rooms: roomCount,
+      }),
+    [selectedCity, checkIn, checkOut, guestCount, roomCount],
+  );
   const createRequestHref = viewer.userId ? createRequestBase : `/login?redirect=${encodeURIComponent(createRequestBase)}`;
 
   function matchesSelectedCity(item: { city_id?: string | null; city_name?: string | null; country_code?: string | null }) {
@@ -524,23 +555,72 @@ export function PublicShowcaseClient() {
 
       <div className="hd-home-tagline font-brand">
         <h1 className="hd-home-headline">{t.showcase.homeHeadline}</h1>
-        <p className="hd-home-subtitle">{t.showcase.homeSubtitle}</p>
+        <p className="hd-home-lead">{t.showcase.homeLead}</p>
+        <p className="hd-home-trust">{t.showcase.homeTrustLine}</p>
       </div>
       </div>
 
       <div className="hd-home-bento relative z-10 mx-auto flex max-w-7xl flex-col gap-3 px-4 pb-2 sm:gap-4 sm:px-6 lg:px-8">
-        <section className="hd-bento-card hd-bento-search p-3 sm:p-4">
+        <section className="hd-bento-card hd-bento-search p-3 sm:p-4" aria-label={t.showcase.selectCity}>
           <div className="flex flex-col gap-2.5 sm:gap-3">
             <CityAutocomplete
               value={selectedCity}
               onChange={setSelectedCity}
               label={t.showcase.selectCity}
-              hideLabel
+              hideLabel={false}
               placeholder={t.showcase.citySearchPlaceholder}
             />
+            <div className="grid gap-2.5 sm:grid-cols-2 lg:grid-cols-4">
+              <AppDatePicker
+                label={t.showcase.searchCheckIn}
+                value={checkIn}
+                onChange={(value) => {
+                  setCheckIn(value);
+                  if (checkOut && value >= checkOut) setCheckOut(dayAfterInputValue(value));
+                }}
+                minDate={todayInputValue()}
+                size="sm"
+              />
+              <AppDatePicker
+                label={t.showcase.searchCheckOut}
+                value={checkOut}
+                onChange={setCheckOut}
+                minDate={checkIn ? dayAfterInputValue(checkIn) : dayAfterInputValue(todayInputValue())}
+                size="sm"
+              />
+              <label className="block">
+                <span className="text-xs font-semibold leading-none text-zinc-500">{t.showcase.searchGuests}</span>
+                <select
+                  value={guestCount}
+                  onChange={(event) => setGuestCount(Number(event.target.value))}
+                  className="mt-2 h-11 w-full rounded-2xl border border-zinc-300 bg-white px-3 text-sm font-semibold text-zinc-950 outline-none focus:border-[#0f4c81] focus:ring-2 focus:ring-[#0f4c81]/20"
+                >
+                  {Array.from({ length: 10 }, (_, index) => index + 1).map((value) => (
+                    <option key={value} value={value}>
+                      {value}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label className="block">
+                <span className="text-xs font-semibold leading-none text-zinc-500">{t.showcase.searchRooms}</span>
+                <select
+                  value={roomCount}
+                  onChange={(event) => setRoomCount(Number(event.target.value))}
+                  className="mt-2 h-11 w-full rounded-2xl border border-zinc-300 bg-white px-3 text-sm font-semibold text-zinc-950 outline-none focus:border-[#0f4c81] focus:ring-2 focus:ring-[#0f4c81]/20"
+                >
+                  {Array.from({ length: 5 }, (_, index) => index + 1).map((value) => (
+                    <option key={value} value={value}>
+                      {value}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            </div>
             <Link href={createRequestHref} className="hd-cta-orange hd-cta-drop-main w-full text-center">
-              {t.showcase.dropYourRequest}
+              {t.showcase.searchSubmit}
             </Link>
+            <p className="text-center text-xs leading-5 text-zinc-500">{t.showcase.homeSearchDisclaimer}</p>
           </div>
           {hasSelectedCity ? (
             <button type="button" onClick={() => setSelectedCity(createWorldCity("IT", ""))} className="hd-clear-city mt-3 text-xs">
@@ -553,6 +633,9 @@ export function PublicShowcaseClient() {
           <CityHeroSlider selectedCity={selectedCity} onSelectCity={setSelectedCity} />
         </section>
       </div>
+
+      {seoContent}
+
 <div className="relative z-0 mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
       <HorizontalSlider
         title={`${filteredRequests.length} richieste attive${hasSelectedCity ? ` a ${selectedCity.city_name}` : ""}`}
