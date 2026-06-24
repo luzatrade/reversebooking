@@ -13,7 +13,7 @@ async function listOnboardingHotels() {
   const { data, error } = await sb
     .from("onboarding_hotels")
     .select("id, nome, city_name, indirizzo, email, phone, main_photo_url, status, created_at")
-    .order("city_name")
+    .order("created_at", { ascending: false })
     .limit(1000);
 
   if (error) throw new Error(error.message);
