@@ -45,6 +45,18 @@ const ctaRequest = "inline-flex items-center justify-center gap-1.5 rounded-full
 
 /** Vetrina homepage: elenco agenzie per città (riattivare in un secondo momento). */
 const SHOW_HOME_AGENCY_DIRECTORY = false;
+const RANDOM_ONBOARDING_POOL = 320;
+const RANDOM_ONBOARDING_SHOW = 40;
+const RANDOM_REGISTERED_SHOW = 20;
+
+function shuffleItems<T>(items: T[]): T[] {
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j]!, copy[i]!];
+  }
+  return copy;
+}
 
 const countryDisplayNames = typeof Intl !== "undefined" && "DisplayNames" in Intl ? new Intl.DisplayNames(["en"], { type: "region" }) : null;
 function countryLabel(code: string | null | undefined) { const c = (code ?? "").trim().toUpperCase(); if (!c) return null; try { return countryDisplayNames?.of(c) ?? c; } catch { return c; } }
@@ -165,6 +177,7 @@ export function PublicShowcaseClient() {
   const [acceptedRequestIds, setAcceptedRequestIds] = useState<Set<string>>(() => new Set());
   const [structureOffers, setStructureOffers] = useState<CatalogOfferListItem[]>([]);
   const [agencyOffers, setAgencyOffers] = useState<CatalogOfferListItem[]>([]);
+  const [offersLoading, setOffersLoading] = useState(true);
 
   const hasSelectedCity = Boolean(selectedCity.city_name.trim());
   const createRequestBase = hasSelectedCity ? `/inserzionista/crea-annuncio?city_id=${encodeURIComponent(selectedCity.city_id)}&city=${encodeURIComponent(selectedCity.city_name)}` : "/inserzionista/crea-annuncio";
@@ -277,26 +290,33 @@ export function PublicShowcaseClient() {
         if (hasSelectedCity) {
           registeredQuery = registeredQuery.eq("city_id", selectedCity.city_id);
         } else {
-          registeredQuery = registeredQuery.limit(60);
+          registeredQuery = registeredQuery.limit(RANDOM_REGISTERED_SHOW);
         }
 
         const registeredPromise = registeredQuery;
 
         async function fetchOnboardingHotels(): Promise<OnboardingHotelRow[]> {
-          if (!hasSelectedCity) return [];
-          const names = cityLookupNames(selectedCity.city_name);
-          let onboardingQuery = supabase
+          if (hasSelectedCity) {
+            const names = cityLookupNames(selectedCity.city_name);
+            let onboardingQuery = supabase
+              .from("onboarding_hotels")
+              .select(onboardingSelect)
+              .order("nome", { ascending: true })
+              .limit(200);
+            if (names.length === 1) {
+              onboardingQuery = onboardingQuery.ilike("city_name", names[0]!);
+            } else if (names.length > 1) {
+              onboardingQuery = onboardingQuery.or(names.map((name) => `city_name.ilike."${name.replace(/"/g, '""')}"`).join(","));
+            }
+            const { data } = await onboardingQuery;
+            return (data ?? []) as OnboardingHotelRow[];
+          }
+
+          const { data } = await supabase
             .from("onboarding_hotels")
             .select(onboardingSelect)
-            .order("nome", { ascending: true })
-            .limit(200);
-          if (names.length === 1) {
-            onboardingQuery = onboardingQuery.ilike("city_name", names[0]!);
-          } else if (names.length > 1) {
-            onboardingQuery = onboardingQuery.or(names.map((name) => `city_name.ilike."${name.replace(/"/g, '""')}"`).join(","));
-          }
-          const { data } = await onboardingQuery;
-          return (data ?? []) as OnboardingHotelRow[];
+            .limit(RANDOM_ONBOARDING_POOL);
+          return shuffleItems((data ?? []) as OnboardingHotelRow[]).slice(0, RANDOM_ONBOARDING_SHOW);
         }
 
         const [{ data: registeredHotels }, onboardingHotels] = await Promise.all([
@@ -306,7 +326,8 @@ export function PublicShowcaseClient() {
         if (cancelled) return;
 
         const mapped = (onboardingHotels ?? []).map(mapOnboardingRow);
-        setHotels([...(registeredHotels ?? []), ...mapped] as HotelAccount[]);
+        const merged = [...(registeredHotels ?? []), ...mapped] as HotelAccount[];
+        setHotels(hasSelectedCity ? merged : shuffleItems(merged));
       } catch {
         if (!cancelled) setHotels([]);
       } finally {
@@ -320,17 +341,17 @@ export function PublicShowcaseClient() {
   }, [hasSelectedCity, selectedCity.city_id, selectedCity.city_name]);
 
   useEffect(() => {
-    if (!hasSelectedCity || !selectedCity.city_id) {
-      setStructureOffers([]);
-      setAgencyOffers([]);
-      return;
-    }
     let cancelled = false;
     async function loadOffers() {
+      setOffersLoading(true);
       try {
         const [hotelRes, agencyRes] = await Promise.all([
-          fetch(`/api/catalog-offers?cityId=${encodeURIComponent(selectedCity.city_id)}&kind=hotel_vacancy`),
-          fetch(`/api/catalog-offers?cityId=${encodeURIComponent(selectedCity.city_id)}&kind=agency_package`),
+          hasSelectedCity && selectedCity.city_id
+            ? fetch(`/api/catalog-offers?cityId=${encodeURIComponent(selectedCity.city_id)}&kind=hotel_vacancy`)
+            : fetch("/api/catalog-offers?random=1&kind=hotel_vacancy"),
+          hasSelectedCity && selectedCity.city_id
+            ? fetch(`/api/catalog-offers?cityId=${encodeURIComponent(selectedCity.city_id)}&kind=agency_package`)
+            : fetch("/api/catalog-offers?random=1&kind=agency_package"),
         ]);
         const hotelJson = await hotelRes.json();
         const agencyJson = await agencyRes.json();
@@ -342,6 +363,8 @@ export function PublicShowcaseClient() {
           setStructureOffers([]);
           setAgencyOffers([]);
         }
+      } finally {
+        if (!cancelled) setOffersLoading(false);
       }
     }
     void loadOffers();
@@ -553,47 +576,31 @@ export function PublicShowcaseClient() {
 
       <HorizontalSlider
         title="Strutture nella zona"
-        subtitle={hasSelectedCity ? `Strutture compatibili con ${selectedCity.city_name}` : "Seleziona una città per vedere il catalogo strutture."}
+        subtitle={hasSelectedCity ? `Strutture compatibili con ${selectedCity.city_name}` : "Selezione casuale di strutture in evidenza."}
         itemCount={!hotelsLoading ? visibleHotels.length : 0}
       >
         {hotelsLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento strutture...</div> : null}
-        {!hotelsLoading && !hasSelectedCity ? (
-          <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">
-            Scegli una città dal filtro sopra per esplorare le strutture raccolte.
-          </div>
-        ) : null}
-        {!hotelsLoading && hasSelectedCity && visibleHotels.length === 0 ? (
+        {!hotelsLoading && visibleHotels.length === 0 ? (
           <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">Nessuna struttura trovata.</div>
         ) : null}
         {!hotelsLoading ? visibleHotels.map((hotel) => renderHotelCard(hotel)) : null}
       </HorizontalSlider>
 
-      {hasSelectedCity ? (
-        <HorizontalSlider
-          title={t.catalogOffers.structureOffersTitle}
-          subtitle={`${t.catalogOffers.structureOffersSubtitleCity} ${selectedCity.city_name}`}
-          itemCount={structureOffers.length}
-        >
-          {structureOffers.length === 0 ? (
-            <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">
-              {t.catalogOffers.structureOffersEmpty}
-            </div>
-          ) : null}
-          {structureOffers.map((offer) => (
-            <CatalogOfferCard key={offer.id} offer={offer} />
-          ))}
-        </HorizontalSlider>
-      ) : (
-        <HorizontalSlider
-          title={t.catalogOffers.structureOffersTitle}
-          subtitle={t.catalogOffers.structureOffersSubtitle}
-          itemCount={1}
-        >
+      <HorizontalSlider
+        title={t.catalogOffers.structureOffersTitle}
+        subtitle={hasSelectedCity ? `${t.catalogOffers.structureOffersSubtitleCity} ${selectedCity.city_name}` : t.catalogOffers.structureOffersSubtitle}
+        itemCount={!offersLoading ? structureOffers.length : 0}
+      >
+        {offersLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento offerte...</div> : null}
+        {!offersLoading && structureOffers.length === 0 ? (
           <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">
-            {t.catalogOffers.selectCityHint}
+            {t.catalogOffers.structureOffersEmpty}
           </div>
-        </HorizontalSlider>
-      )}
+        ) : null}
+        {!offersLoading ? structureOffers.map((offer) => (
+          <CatalogOfferCard key={offer.id} offer={offer} />
+        )) : null}
+      </HorizontalSlider>
 
       {SHOW_HOME_AGENCY_DIRECTORY ? (
         <HorizontalSlider
@@ -609,32 +616,21 @@ export function PublicShowcaseClient() {
         </HorizontalSlider>
       ) : null}
 
-      {hasSelectedCity ? (
-        <HorizontalSlider
-          title={t.catalogOffers.agencyOffersTitle}
-          subtitle={`${t.catalogOffers.agencyOffersSubtitleCity} ${selectedCity.city_name}`}
-          itemCount={agencyOffers.length}
-        >
-          {agencyOffers.length === 0 ? (
-            <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">
-              {t.catalogOffers.agencyOffersEmpty}
-            </div>
-          ) : null}
-          {agencyOffers.map((offer) => (
-            <CatalogOfferCard key={offer.id} offer={offer} />
-          ))}
-        </HorizontalSlider>
-      ) : (
-        <HorizontalSlider
-          title={t.catalogOffers.agencyOffersTitle}
-          subtitle={t.catalogOffers.agencyOffersSubtitle}
-          itemCount={1}
-        >
+      <HorizontalSlider
+        title={t.catalogOffers.agencyOffersTitle}
+        subtitle={hasSelectedCity ? `${t.catalogOffers.agencyOffersSubtitleCity} ${selectedCity.city_name}` : t.catalogOffers.agencyOffersSubtitle}
+        itemCount={!offersLoading ? agencyOffers.length : 0}
+      >
+        {offersLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento offerte...</div> : null}
+        {!offersLoading && agencyOffers.length === 0 ? (
           <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">
-            {t.catalogOffers.selectCityHint}
+            {t.catalogOffers.agencyOffersEmpty}
           </div>
-        </HorizontalSlider>
-      )}
+        ) : null}
+        {!offersLoading ? agencyOffers.map((offer) => (
+          <CatalogOfferCard key={offer.id} offer={offer} />
+        )) : null}
+      </HorizontalSlider>
 
     </div>
   </main>

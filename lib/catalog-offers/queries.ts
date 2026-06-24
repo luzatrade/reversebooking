@@ -95,6 +95,37 @@ export async function fetchCatalogOffersForCity(cityId: string, offerKind?: "hot
   return (data ?? []).map((row) => normalizeListRow(row as Record<string, unknown>));
 }
 
+function shuffleRows<T>(rows: T[]): T[] {
+  const copy = [...rows];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j]!, copy[i]!];
+  }
+  return copy;
+}
+
+export async function fetchRandomCatalogOffers(
+  offerKind?: "hotel_vacancy" | "agency_package",
+  limit = 12,
+) {
+  const admin = getAdmin();
+  let query = admin
+    .from("catalog_offers")
+    .select(LIST_SELECT)
+    .eq("status", "published")
+    .order("published_at", { ascending: false })
+    .limit(Math.max(limit * 6, 48));
+
+  if (offerKind) query = query.eq("offer_kind", offerKind);
+
+  const { data, error } = await query;
+  if (error) throw error;
+
+  return shuffleRows(data ?? [])
+    .slice(0, limit)
+    .map((row) => normalizeListRow(row as Record<string, unknown>));
+}
+
 export async function fetchCatalogOfferByCode(code: string): Promise<CatalogOfferDetail | null> {
   const admin = getAdmin();
   const { data, error } = await admin
