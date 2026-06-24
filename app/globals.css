@@ -163,23 +163,6 @@ body {
   opacity: 0.82;
 }
 
-.rb-soft-white-home .hd-home-lead {
-  margin-top: 0.75rem;
-  font-size: 0.95rem;
-  font-weight: 500;
-  line-height: 1.45;
-  color: var(--hd-blue) !important;
-  opacity: 0.88;
-}
-
-.rb-soft-white-home .hd-home-trust {
-  margin-top: 0.65rem;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  color: #c2410c !important;
-}
-
 @media (min-width: 640px) {
   .rb-soft-white-home .hd-home-tagline {
     max-width: min(100%, 44rem);
@@ -198,16 +181,6 @@ body {
   .rb-soft-white-home .hd-home-subtitle {
     margin-top: 1rem;
     font-size: 1.15rem;
-  }
-
-  .rb-soft-white-home .hd-home-lead {
-    margin-top: 0.9rem;
-    font-size: 1.05rem;
-  }
-
-  .rb-soft-white-home .hd-home-trust {
-    margin-top: 0.75rem;
-    font-size: 0.875rem;
   }
 }
 

@@ -112,9 +112,6 @@ export const translations = {
         "Non cerchi hotel: pubblichi dove e quando vuoi andare e le strutture ti fanno offerte. Gratis per chi cerca, abbonamento per le strutture.",
       siteTitleTemplate: "%s · HotelsDrop",
       siteTitleDefault: "HotelsDrop — Offerte hotel senza commissioni",
-      homeTitle: "Prenotazione Hotel Online | Offerte Dirette | HotelsDrop",
-      homeDescription:
-        "Non cerchi su Booking: scegli destinazione e date, invia la richiesta gratis e ricevi offerte personalizzate dalle strutture, senza commissioni d'agenzia.",
       contactsTitle: "Contatti",
       contactsDescription: "Recapiti, supporto e PEC di HotelsDrop.com.",
       registrationTitle: "Registrazione",
@@ -230,19 +227,9 @@ export const translations = {
         "Invia la tua richiesta e ricevi offerte senza commissioni dagli hotel della zona selezionata.",
       homeTagline:
         "Invia la tua richiesta e ricevi offerte senza commissioni dagli hotel della zona selezionata.",
-      homeHeadline: "Prenotazione hotel online: offerte dirette, senza intermediari",
-      homeLead:
-        "L'alternativa alle solite piattaforme: invii la tua richiesta e le strutture ti rispondono con proposte personalizzate, senza commissioni OTA.",
+      homeHeadline: "Offerte dirette dagli hotel, senza commissioni.",
       homeSubtitle:
         "Pubblica gratuitamente la tua richiesta e ricevi offerte dagli hotel della zona selezionata.",
-      homeTrustLine: "Gratis per chi cerca · Migliaia di strutture ricettive in catalogo",
-      homeSearchDisclaimer:
-        "Non è una prenotazione istantanea come sulle OTA: pubblichi la richiesta e scegli tra le offerte che ricevi.",
-      searchCheckIn: "Check-in",
-      searchCheckOut: "Check-out",
-      searchGuests: "Ospiti",
-      searchRooms: "Camere",
-      searchSubmit: "Invia la tua richiesta",
       agencyKindLabel: "Agenzia viaggi",
       agenciesSliderTitle: "Agenzie viaggi nella zona",
       agenciesSliderSubtitle: "Le agenzie viaggi attive.",
@@ -284,85 +271,6 @@ export const translations = {
       mailBody: "Ho visto il tuo annuncio su HotelsDrop e vorrei ricevere maggiori informazioni.",
       whatsAppBody: "Ho visto il tuo annuncio su HotelsDrop e vorrei ricevere maggiori informazioni.",
       nearBeach: "Vicino alla spiaggia",
-    },
-    homeSeo: {
-      otaTitle: "Come ottenere offerte hotel migliori delle solite piattaforme",
-      otaIntro:
-        "Le OTA trattengono commissioni e spesso mostrano le stesse camere a prezzi diversi. Su HotelsDrop inverti il flusso: descrivi il soggiorno che cerchi e le strutture della zona ti inviano proposte dirette, senza intermediari.",
-      otaBullets: [
-        "Zero commissioni sulle offerte accettate",
-        "Contatto diretto con hotel, B&B e appartamenti",
-        "Proposte personalizzate sul tuo budget e date",
-      ],
-      howTitle: "Zero commissioni, contatto diretto con la struttura: ecco come funziona",
-      howSteps: [
-        {
-          title: "Invia la richiesta",
-          body: "Indica destinazione, date, ospiti e budget. La pubblicazione per chi cerca è gratuita.",
-        },
-        {
-          title: "Ricevi le offerte",
-          body: "Le strutture interessate rispondono con proposte su misura, senza costi d'agenzia.",
-        },
-        {
-          title: "Scegli e contatta",
-          body: "Confronta le offerte e contatta direttamente la struttura scelta per confermare.",
-        },
-      ],
-      citiesTitle: "Prenota il tuo prossimo soggiorno nelle mete preferite in Italia",
-      citiesIntro:
-        "Seleziona una destinazione e invia subito la tua richiesta alle strutture della zona. Offerte hotel, B&B e appartamenti in tutta Italia.",
-      cityLinkLabel: "Offerte hotel a {city}",
-      partnerTitle: "Sei un albergatore? Riscatta la tua struttura e ricevi richieste dirette",
-      partnerBody:
-        "Migliaia di strutture sono già nel nostro catalogo. Rivendica il profilo della tua attività, attiva il pannello partner e rispondi alle richieste degli viaggiatori senza pagare commissioni OTA.",
-      partnerCta: "Rivendica il profilo struttura",
-      faqTitle: "Domande frequenti",
-      faqItems: [
-        {
-          question: "HotelsDrop è come Booking o Expedia?",
-          answer:
-            "No. Non compri una camera con pagamento istantaneo: pubblichi una richiesta di soggiorno e le strutture ti inviano offerte personalizzate. È un modello di prenotazione disintermediata.",
-        },
-        {
-          question: "Quanto costa per chi cerca un hotel?",
-          answer: "Per i viaggiatori la pubblicazione della richiesta è gratuita. Paghi solo la struttura scelta secondo le condizioni concordate.",
-        },
-        {
-          question: "Come funziona la prenotazione hotel su HotelsDrop?",
-          answer:
-            "Scegli destinazione e date, invia la richiesta, ricevi offerte dalle strutture e seleziona quella più adatta. Il contatto finale avviene direttamente con l'hotel o il B&B.",
-        },
-      ],
-    },
-    destinationHub: {
-      metaTitle: "Prenotazione Hotel {city} | Offerte Dirette | HotelsDrop",
-      metaDescription:
-        "Prenota il tuo soggiorno a {city}: invia una richiesta gratuita e ricevi offerte personalizzate da hotel, B&B e appartamenti, senza commissioni OTA.",
-      h1: "Prenotazione hotel a {city}: offerte dirette senza commissioni",
-      lead:
-        "Su HotelsDrop le strutture di {city} rispondono alla tua richiesta con proposte su misura. Nessun intermediario, nessuna commissione d'agenzia.",
-      cta: "Invia la tua richiesta per {city}",
-      structuresTitle: "Strutture ricettive a {city}",
-      structuresEmpty: "Stiamo ampliando il catalogo strutture in questa zona.",
-      viewProfile: "Vedi profilo",
-      backHome: "Torna alla homepage",
-      breadcrumbHome: "Home",
-      breadcrumbDestinations: "Destinazioni",
-      cityIntros: {
-        roma: "Tra monumenti, quartieri storici e hotel di charme, Roma è una delle mete più richieste d'Italia.",
-        milano: "Capitale del design e del business, Milano concentra hotel urbani, boutique e B&B per ogni esigenza.",
-        firenze: "Nel cuore della Toscana, Firenze unisce arte rinascimentale e strutture ricettive nel centro storico.",
-        napoli: "Vista golfo e centro vivace: Napoli offre hotel, B&B e guest house tra centro e lungomare.",
-        venezia: "Canali, calli e sestieri: a Venezia trovi hotel storici, locande e appartamenti sulle isole.",
-        torino: "Eleganza sabauda e architettura: Torino propone hotel in centro e quartieri creativi.",
-        bologna: "Città universitaria e gastronomia d'eccellenza, con B&B e hotel sotto i portici.",
-        verona: "Arena, centro UNESCO e Lago di Garda nelle vicinanze: Verona accoglie ogni tipo di viaggiatore.",
-        palermo: "Arte arabo-normanna e mare: Palermo offre strutture tra centro storico e costa.",
-        como: "Lago e prealpi: Como è ideale per soggiorni romantici, leisure e hotel fronte acqua.",
-        rimini: "Riviera e nightlife: Rimini concentra hotel, residence e B&B per vacanze estive.",
-        amalfi: "Costiera iconica tra scorci marini e limoneti: hotel e B&B con vista sul Tirreno.",
-      },
     },
     catalogOffers: {
       structureOffersTitle: "Offerte delle strutture",
@@ -1183,9 +1091,6 @@ export const translations = {
         "Don't search for hotels: publish where and when you want to travel and properties send you offers. Free for travelers, subscription for properties.",
       siteTitleTemplate: "%s · HotelsDrop",
       siteTitleDefault: "HotelsDrop — Hotel offers, no commission",
-      homeTitle: "Book Hotels Online | Direct Offers | HotelsDrop",
-      homeDescription:
-        "Skip the OTAs: pick destination and dates, post your request for free, and receive personalized offers from properties with no agency commission.",
       contactsTitle: "Contact",
       contactsDescription: "HotelsDrop.com support contacts and certified email (PEC).",
       registrationTitle: "Sign up",
@@ -1299,19 +1204,9 @@ export const translations = {
         "Send your request and receive commission-free offers from hotels in the selected area.",
       homeTagline:
         "Send your request and receive commission-free offers from hotels in the selected area.",
-      homeHeadline: "Book hotels online: direct offers, no middlemen",
-      homeLead:
-        "An alternative to usual booking sites: post your request and properties reply with personalized offers, with no OTA commission.",
+      homeHeadline: "Direct offers from hotels, no commissions.",
       homeSubtitle:
         "Post your request for free and receive offers from hotels in the selected area.",
-      homeTrustLine: "Free for travelers · Thousands of properties in our catalog",
-      homeSearchDisclaimer:
-        "This is not instant booking like OTAs: you post a request and choose among the offers you receive.",
-      searchCheckIn: "Check-in",
-      searchCheckOut: "Check-out",
-      searchGuests: "Guests",
-      searchRooms: "Rooms",
-      searchSubmit: "Send your request",
       agencyKindLabel: "Travel agency",
       agenciesSliderTitle: "Travel agencies in the area",
       agenciesSliderSubtitle: "Active travel agencies.",
@@ -1352,85 +1247,6 @@ export const translations = {
       mailBody: "I saw your listing on HotelsDrop and would like more information.",
       whatsAppBody: "I saw your listing on HotelsDrop and would like more information.",
       nearBeach: "Near the beach",
-    },
-    homeSeo: {
-      otaTitle: "How to get better hotel offers than usual booking platforms",
-      otaIntro:
-        "OTAs keep commissions and often show the same rooms at different prices. On HotelsDrop you flip the flow: describe the stay you want and local properties send direct offers with no middlemen.",
-      otaBullets: [
-        "Zero commission on accepted offers",
-        "Direct contact with hotels, B&Bs and apartments",
-        "Personalized proposals for your dates and budget",
-      ],
-      howTitle: "Zero commission, direct contact with the property: how it works",
-      howSteps: [
-        {
-          title: "Send your request",
-          body: "Enter destination, dates, guests and budget. Posting is free for travelers.",
-        },
-        {
-          title: "Receive offers",
-          body: "Interested properties reply with tailored proposals, with no agency fees.",
-        },
-        {
-          title: "Choose and contact",
-          body: "Compare offers and contact the property you prefer to confirm.",
-        },
-      ],
-      citiesTitle: "Plan your next stay in Italy's top destinations",
-      citiesIntro:
-        "Pick a destination and send your request to properties in the area. Hotel, B&B and apartment offers across Italy.",
-      cityLinkLabel: "Hotel offers in {city}",
-      partnerTitle: "Are you a property owner? Claim your listing and get direct requests",
-      partnerBody:
-        "Thousands of properties are already in our catalog. Claim your business profile, activate the partner dashboard and reply to traveler requests without OTA commissions.",
-      partnerCta: "Claim property profile",
-      faqTitle: "Frequently asked questions",
-      faqItems: [
-        {
-          question: "Is HotelsDrop like Booking or Expedia?",
-          answer:
-            "No. You don't buy a room with instant checkout: you post a stay request and properties send personalized offers. It's a disintermediated booking model.",
-        },
-        {
-          question: "How much does it cost for travelers?",
-          answer: "Posting a request is free. You only pay the property you choose under the agreed terms.",
-        },
-        {
-          question: "How does hotel booking work on HotelsDrop?",
-          answer:
-            "Choose destination and dates, send your request, receive offers from properties and pick the best fit. Final contact is directly with the hotel or B&B.",
-        },
-      ],
-    },
-    destinationHub: {
-      metaTitle: "Book Hotels in {city} | Direct Offers | HotelsDrop",
-      metaDescription:
-        "Plan your stay in {city}: post a free request and receive personalized offers from hotels, B&Bs and apartments with no OTA commission.",
-      h1: "Book hotels in {city}: direct offers, no commission",
-      lead:
-        "On HotelsDrop, properties in {city} reply to your request with tailored proposals. No middlemen, no agency commission.",
-      cta: "Send your request for {city}",
-      structuresTitle: "Properties in {city}",
-      structuresEmpty: "We are expanding our property catalog in this area.",
-      viewProfile: "View profile",
-      backHome: "Back to homepage",
-      breadcrumbHome: "Home",
-      breadcrumbDestinations: "Destinations",
-      cityIntros: {
-        roma: "Monuments, historic districts and boutique hotels make Rome one of Italy's most sought-after destinations.",
-        milano: "Italy's design and business capital offers urban hotels, boutiques and B&Bs for every need.",
-        firenze: "In the heart of Tuscany, Florence blends Renaissance art with stays in the historic center.",
-        napoli: "Gulf views and a vibrant center: Naples offers hotels, B&Bs and guest houses downtown and by the sea.",
-        venezia: "Canals, alleys and sestieri: Venice has historic hotels, inns and apartments across the lagoon.",
-        torino: "Royal elegance and architecture: Turin offers central hotels and creative neighborhoods.",
-        bologna: "A university city and food capital with B&Bs and hotels under the famous porticoes.",
-        verona: "Arena, UNESCO old town and Lake Garda nearby: Verona welcomes every kind of traveler.",
-        palermo: "Arab-Norman art and the sea: Palermo offers stays in the old center and on the coast.",
-        como: "Lake and pre-Alps: Como is ideal for romantic breaks and waterfront hotels.",
-        rimini: "Riviera and nightlife: Rimini has hotels, residences and B&Bs for summer holidays.",
-        amalfi: "An iconic coast of sea views and lemon groves: hotels and B&Bs overlooking the Tyrrhenian.",
-      },
     },
     catalogOffers: {
       structureOffersTitle: "Property offers",
