@@ -44,6 +44,25 @@ function normalizeText(value: string) {
   return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
 }
 
+function cityMatchesLocalQuery(city: WorldCity, text: string) {
+  if (normalizeText(city.label).includes(text)) return true;
+  if (normalizeText(city.city_name).includes(text)) return true;
+  const cityNorm = normalizeText(city.city_name);
+  const cityAliases: Record<string, string[]> = {
+    london: ["londra"],
+    londra: ["london"],
+    rome: ["roma"],
+    roma: ["rome"],
+    milan: ["milano"],
+    milano: ["milan"],
+  };
+  for (const [key, vals] of Object.entries(cityAliases)) {
+    if (text === key && vals.includes(cityNorm)) return true;
+    if (cityNorm === key && vals.some((alias) => alias.includes(text) || text.includes(alias))) return true;
+  }
+  return false;
+}
+
 function uniqueSuggestions(items: Suggestion[]) {
   const seen = new Set<string>();
   return items.filter((item) => {
@@ -107,7 +126,7 @@ export function CityAutocomplete({
     return majorWorldCities
       .filter((city) => {
         if (restrictCountryCode && city.country_code !== restrictCountryCode) return false;
-        return normalizeText(city.label).includes(text) || normalizeText(city.city_name).includes(text);
+        return cityMatchesLocalQuery(city, text);
       })
       .slice(0, 6)
       .map((city) => ({ ...city, source: "local" as const }));

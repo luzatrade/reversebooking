@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { Briefcase, Building2, CalendarDays, CheckCircle, Euro, MapPin, Users } from "lucide-react";
 import { getCityHeroImage } from "@/lib/destination-slider/cityPhotos";
 import { CurrencySwitcher } from "@/components/currency/CurrencySwitcher";
@@ -19,7 +20,8 @@ import { RoleAlertBells } from "@/components/notifications/RoleAlertBells";
 import { topbarAuthLinkClass, topbarAuthPrimaryClass } from "@/components/navigation/topbarStyles";
 import { formatAdvertiserPublicName, oneAdvertiserProfile } from "@/lib/advertiser/publicName";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
-import { createWorldCity } from "@/lib/constants/world-city-helpers";
+import { createWorldCity, findCityById, resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
+import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
 import { mealPlanLabels, structureTypeLabels, type MealPlan, type StructureType, type UserRole } from "@/types/app";
 import type { CatalogOfferListItem } from "@/types/catalog-offers";
 
@@ -64,7 +66,7 @@ function formatDate(value: string) { return new Intl.DateTimeFormat("it-IT", { d
 function formatCurrency(value: number) { return new Intl.NumberFormat("it-IT", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(value); }
 function totalBudget(request: TravelRequest) { return Number(request.budget); }
 function normalize(value: string | null | undefined) { return (value ?? "").trim().toLowerCase(); }
-const cityAliases: Record<string, string[]> = { rome: ["roma"], roma: ["rome"], florence: ["firenze"], firenze: ["florence"], milan: ["milano"], milano: ["milan"], naples: ["napoli"], napoli: ["naples"], venice: ["venezia"], venezia: ["venice"], turin: ["torino"], torino: ["turin"], genoa: ["genova"], genova: ["genoa"], padua: ["padova"], padova: ["padua"], syracuse: ["siracusa"], siracusa: ["syracuse"], capri: ["capri"], sardinia: ["sardegna"], sardegna: ["sardinia"], "reggio calabria": ["reggio di calabria"], "reggio di calabria": ["reggio calabria"] };
+const cityAliases: Record<string, string[]> = { rome: ["roma"], roma: ["rome"], florence: ["firenze"], firenze: ["florence"], milan: ["milano"], milano: ["milan"], naples: ["napoli"], napoli: ["naples"], venice: ["venezia"], venezia: ["venice"], turin: ["torino"], torino: ["turin"], genoa: ["genova"], genova: ["genoa"], padua: ["padova"], padova: ["padua"], syracuse: ["siracusa"], siracusa: ["syracuse"], capri: ["capri"], sardinia: ["sardegna"], sardegna: ["sardinia"], "reggio calabria": ["reggio di calabria"], "reggio di calabria": ["reggio calabria"], london: ["londra"], londra: ["london"] };
 function cityMatch(a: string | null | undefined, b: string | null | undefined) { const na = normalize(a); const nb = normalize(b); if (na === nb) return true; if (cityAliases[na]?.includes(nb)) return true; if (cityAliases[nb]?.includes(na)) return true; return false; }
 function titleCaseWord(value: string) { return value.charAt(0).toUpperCase() + value.slice(1).toLowerCase(); }
 function cityLookupNames(cityName: string) {
@@ -84,15 +86,34 @@ function cityLookupNames(cityName: string) {
   }
   return [...names];
 }
+function onboardingSearchNames(selected: Pick<WorldCity, "city_name" | "city_id" | "country_code">) {
+  const canonicalId = resolveCanonicalCityId({
+    cityName: selected.city_name,
+    countryCode: selected.country_code,
+    cityId: selected.city_id,
+  });
+  const catalogCity = canonicalId ? majorWorldCities.find((city) => city.city_id === canonicalId) : undefined;
+  return cityLookupNames(catalogCity?.city_name ?? selected.city_name);
+}
+function onboardingCityMeta(cityName: string): { country_code: string; city_id: string } {
+  const cityId = resolveCanonicalCityId({ cityName });
+  const catalogCity = cityId ? majorWorldCities.find((city) => city.city_id === cityId) : undefined;
+  const countryCode = catalogCity?.country_code ?? (cityId?.includes("-") ? cityId.split("-")[0]! : "IT");
+  return {
+    country_code: countryCode,
+    city_id: cityId ?? `${String(cityName || "").toLowerCase().replace(/ +/g, "-")}-it`,
+  };
+}
 function mapOnboardingRow(row: OnboardingHotelRow): HotelAccount {
+  const { country_code, city_id } = onboardingCityMeta(row.city_name);
   return {
     id: row.id,
     property_name: row.nome,
     structure_type: "hotel",
     provider_kind: "structure",
-    country_code: "IT",
+    country_code,
     city_name: row.city_name,
-    city_id: `${String(row.city_name || "").toLowerCase().replace(/ +/g, "-")}-it`,
+    city_id,
     specific_area: row.indirizzo,
     description: null,
     public_email: row.email,
@@ -166,6 +187,7 @@ function createRequestHrefForHotel(hotel: Pick<HotelAccount, "id" | "city_id" | 
 }
 export function PublicShowcaseClient() {
   const { t } = useLanguage();
+  const searchParams = useSearchParams();
   const [requests, setRequests] = useState<TravelRequest[]>([]);
   const [hotels, setHotels] = useState<HotelAccount[]>([]);
   const [offers, setOffers] = useState<Offer[]>([]);
@@ -187,8 +209,33 @@ export function PublicShowcaseClient() {
   function matchesSelectedCity(item: { city_id?: string | null; city_name?: string | null; country_code?: string | null }) {
     if (!hasSelectedCity) return true;
     if (item.city_id && item.city_id === selectedCity.city_id) return true;
-    return cityMatch(item.city_name, selectedCity.city_name) && (!item.country_code || item.country_code === selectedCity.country_code);
+    const itemCountry = item.country_code?.trim().toUpperCase();
+    const selectedCountry = selectedCity.country_code?.trim().toUpperCase();
+    return cityMatch(item.city_name, selectedCity.city_name) && (!itemCountry || !selectedCountry || itemCountry === selectedCountry);
   }
+
+  useEffect(() => {
+    const cityId = searchParams.get("city_id")?.trim();
+    const cityName = searchParams.get("city")?.trim();
+    if (!cityId && !cityName) return;
+
+    if (cityId) {
+      const known = findCityById(cityId);
+      if (known.city_id === cityId) {
+        setSelectedCity(known);
+        return;
+      }
+    }
+
+    if (cityName) {
+      const canonicalId = resolveCanonicalCityId({ cityName, cityId });
+      if (canonicalId) {
+        setSelectedCity(findCityById(canonicalId));
+        return;
+      }
+      setSelectedCity(createWorldCity(cityId?.match(/^([A-Z]{2})-/)?.[1] ?? "IT", cityName));
+    }
+  }, [searchParams]);
 
   async function detectViewer() {
     const supabase = createBrowserSupabaseClient();
@@ -298,7 +345,7 @@ export function PublicShowcaseClient() {
 
         async function fetchOnboardingHotels(): Promise<OnboardingHotelRow[]> {
           if (hasSelectedCity) {
-            const names = cityLookupNames(selectedCity.city_name);
+            const names = onboardingSearchNames(selectedCity);
             let onboardingQuery = supabase
               .from("onboarding_hotels")
               .select(onboardingSelect)
@@ -339,7 +386,7 @@ export function PublicShowcaseClient() {
     return () => {
       cancelled = true;
     };
-  }, [hasSelectedCity, selectedCity.city_id, selectedCity.city_name]);
+  }, [hasSelectedCity, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
 
   useEffect(() => {
     let cancelled = false;
@@ -554,6 +601,24 @@ export function PublicShowcaseClient() {
         </section>
       </div>
 <div className="relative z-0 mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
+      {hasSelectedCity ? (
+        <HorizontalSlider
+          title={
+            hotelsLoading
+              ? `Strutture a ${selectedCity.city_name}`
+              : `${visibleHotels.length} strutture a ${selectedCity.city_name}`
+          }
+          subtitle="Hotel e strutture ricettive nel catalogo onboarding."
+          itemCount={!hotelsLoading ? visibleHotels.length : 0}
+        >
+          {hotelsLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento strutture...</div> : null}
+          {!hotelsLoading && visibleHotels.length === 0 ? (
+            <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">Nessuna struttura trovata per questa città.</div>
+          ) : null}
+          {!hotelsLoading ? visibleHotels.map((hotel) => renderHotelCard(hotel)) : null}
+        </HorizontalSlider>
+      ) : null}
+
       <HorizontalSlider
         title={`${filteredRequests.length} richieste attive${hasSelectedCity ? ` a ${selectedCity.city_name}` : ""}`}
         subtitle="Scorri per scoprire le richieste degli inserzionisti."
@@ -571,17 +636,19 @@ export function PublicShowcaseClient() {
         {!loading && !error ? filteredRequests.map((request) => renderRequestCard(request)) : null}
       </HorizontalSlider>
 
-      <HorizontalSlider
-        title="Strutture nella zona"
-        subtitle={hasSelectedCity ? `Strutture compatibili con ${selectedCity.city_name}` : "Selezione casuale di strutture in evidenza."}
-        itemCount={!hotelsLoading ? visibleHotels.length : 0}
-      >
-        {hotelsLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento strutture...</div> : null}
-        {!hotelsLoading && visibleHotels.length === 0 ? (
-          <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">Nessuna struttura trovata.</div>
-        ) : null}
-        {!hotelsLoading ? visibleHotels.map((hotel) => renderHotelCard(hotel)) : null}
-      </HorizontalSlider>
+      {!hasSelectedCity ? (
+        <HorizontalSlider
+          title="Strutture nella zona"
+          subtitle="Selezione casuale di strutture in evidenza."
+          itemCount={!hotelsLoading ? visibleHotels.length : 0}
+        >
+          {hotelsLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento strutture...</div> : null}
+          {!hotelsLoading && visibleHotels.length === 0 ? (
+            <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">Nessuna struttura trovata.</div>
+          ) : null}
+          {!hotelsLoading ? visibleHotels.map((hotel) => renderHotelCard(hotel)) : null}
+        </HorizontalSlider>
+      ) : null}
 
       <HorizontalSlider
         title={t.catalogOffers.structureOffersTitle}

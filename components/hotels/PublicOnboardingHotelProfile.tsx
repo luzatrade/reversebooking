@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { ArrowLeft, ExternalLink, Globe, Mail, MapPin, Phone, PhoneCall } from "lucide-react";
+import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
+import { majorWorldCities } from "@/lib/constants/world-cities";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import {
   buildContactEmailHref,
@@ -71,6 +73,10 @@ export function PublicOnboardingHotelProfile() {
   const websiteUrl = hotel ? normalizeWebsiteUrl(hotel.website) : null;
   const whatsAppHref = hotel?.phone ? buildWhatsAppHref(hotel.nome, hotel.phone) : null;
   const addressLine = hotel?.indirizzo?.trim() || hotel?.city_name || "Indirizzo non disponibile";
+  const cityId = hotel ? resolveCanonicalCityId({ cityName: hotel.city_name }) : null;
+  const countryName =
+    (cityId ? majorWorldCities.find((city) => city.city_id === cityId)?.country_name : null) ??
+    (cityId?.startsWith("GB-") ? "United Kingdom" : "Italia");
   const isClaimed = hotel?.status === "claimed";
   const isPendingVerification = hotel?.status === "pending_verification";
 
@@ -99,7 +105,7 @@ export function PublicOnboardingHotelProfile() {
             <p className="text-xs font-medium uppercase tracking-wide text-amber-700 sm:text-sm">Profilo catalogo</p>
             <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">{hotel.nome}</h1>
             <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-              Struttura ricettiva · {hotel.city_name}, Italia
+              Struttura ricettiva · {hotel.city_name}, {countryName}
             </p>
             <p className="mt-1 text-sm text-zinc-500">{addressLine}</p>
 
