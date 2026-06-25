@@ -50,6 +50,7 @@ const SHOW_HOME_AGENCY_DIRECTORY = false;
 const RANDOM_ONBOARDING_POOL = 320;
 const RANDOM_ONBOARDING_SHOW = 40;
 const RANDOM_REGISTERED_SHOW = 20;
+const RANDOM_REQUESTS_SHOW = 24;
 
 function shuffleItems<T>(items: T[]): T[] {
   const copy = [...items];
@@ -421,7 +422,11 @@ export function PublicShowcaseClient() {
 
   const visibleHotels = useMemo(() => hotels.filter((h) => h.provider_kind !== "agency").filter(matchesSelectedCity), [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
   const visibleAgencies = useMemo(() => hotels.filter((h) => h.provider_kind === "agency").filter(matchesSelectedCity), [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
-  const filteredRequests = useMemo(() => requests.filter(matchesSelectedCity), [requests, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
+  const displayRequests = useMemo(() => {
+    const matched = requests.filter(matchesSelectedCity);
+    if (hasSelectedCity) return matched;
+    return shuffleItems(matched).slice(0, RANDOM_REQUESTS_SHOW);
+  }, [requests, hasSelectedCity, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
   const offeredRequestIds = useMemo(() => new Set(offers.map((offer) => offer.travel_request_id)), [offers]);
   const isHotel = viewer.role === "hotel" && Boolean(viewer.hotelAccountId);
 
@@ -601,54 +606,50 @@ export function PublicShowcaseClient() {
         </section>
       </div>
 <div className="relative z-0 mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
-      {hasSelectedCity ? (
-        <HorizontalSlider
-          title={
-            hotelsLoading
-              ? `Strutture a ${selectedCity.city_name}`
-              : `${visibleHotels.length} strutture a ${selectedCity.city_name}`
-          }
-          subtitle="Hotel e strutture ricettive nel catalogo onboarding."
-          itemCount={!hotelsLoading ? visibleHotels.length : 0}
-        >
-          {hotelsLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento strutture...</div> : null}
-          {!hotelsLoading && visibleHotels.length === 0 ? (
-            <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">Nessuna struttura trovata per questa città.</div>
-          ) : null}
-          {!hotelsLoading ? visibleHotels.map((hotel) => renderHotelCard(hotel)) : null}
-        </HorizontalSlider>
-      ) : null}
-
       <HorizontalSlider
-        title={`${filteredRequests.length} richieste attive${hasSelectedCity ? ` a ${selectedCity.city_name}` : ""}`}
-        subtitle="Scorri per scoprire le richieste degli inserzionisti."
-        itemCount={!loading && !error ? filteredRequests.length : 0}
+        title={
+          hasSelectedCity
+            ? `${displayRequests.length} richieste attive a ${selectedCity.city_name}`
+            : `${displayRequests.length} richieste in evidenza`
+        }
+        subtitle={hasSelectedCity ? "Richieste di soggiorno per la destinazione selezionata." : "Selezione casuale di richieste attive da tutto il catalogo."}
+        itemCount={!loading && !error ? displayRequests.length : 0}
       >
         {error ? <div className="w-full rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}
         {loading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento home...</div> : null}
-        {!loading && !error && filteredRequests.length === 0 ? (
+        {!loading && !error && displayRequests.length === 0 ? (
           <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center">
             <p className="font-semibold">Nessuna richiesta attiva</p>
-            <p className="mt-2 text-sm text-zinc-500">Al momento non ci sono richieste pubbliche disponibili.</p>
+            <p className="mt-2 text-sm text-zinc-500">
+              {hasSelectedCity
+                ? `Al momento non ci sono richieste attive per ${selectedCity.city_name}.`
+                : "Al momento non ci sono richieste pubbliche disponibili."}
+            </p>
             {viewer.role !== "hotel" ? <Link href={createRequestHref} className="hd-cta-orange mt-4">Crea la tua richiesta</Link> : null}
           </div>
         ) : null}
-        {!loading && !error ? filteredRequests.map((request) => renderRequestCard(request)) : null}
+        {!loading && !error ? displayRequests.map((request) => renderRequestCard(request)) : null}
       </HorizontalSlider>
 
-      {!hasSelectedCity ? (
-        <HorizontalSlider
-          title="Strutture nella zona"
-          subtitle="Selezione casuale di strutture in evidenza."
-          itemCount={!hotelsLoading ? visibleHotels.length : 0}
-        >
-          {hotelsLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento strutture...</div> : null}
-          {!hotelsLoading && visibleHotels.length === 0 ? (
-            <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">Nessuna struttura trovata.</div>
-          ) : null}
-          {!hotelsLoading ? visibleHotels.map((hotel) => renderHotelCard(hotel)) : null}
-        </HorizontalSlider>
-      ) : null}
+      <HorizontalSlider
+        title={
+          hasSelectedCity
+            ? hotelsLoading
+              ? `Strutture a ${selectedCity.city_name}`
+              : `${visibleHotels.length} strutture a ${selectedCity.city_name}`
+            : `${visibleHotels.length} strutture in evidenza`
+        }
+        subtitle={hasSelectedCity ? "Hotel e strutture ricettive per la destinazione selezionata." : "Selezione casuale di strutture da tutto il catalogo."}
+        itemCount={!hotelsLoading ? visibleHotels.length : 0}
+      >
+        {hotelsLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento strutture...</div> : null}
+        {!hotelsLoading && visibleHotels.length === 0 ? (
+          <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">
+            {hasSelectedCity ? `Nessuna struttura trovata per ${selectedCity.city_name}.` : "Nessuna struttura trovata."}
+          </div>
+        ) : null}
+        {!hotelsLoading ? visibleHotels.map((hotel) => renderHotelCard(hotel)) : null}
+      </HorizontalSlider>
 
       <HorizontalSlider
         title={t.catalogOffers.structureOffersTitle}
