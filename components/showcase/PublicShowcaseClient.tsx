@@ -528,6 +528,13 @@ export function PublicShowcaseClient() {
             ) : (
               <Link href={`/struttura/annunci/${request.id}`} className="rounded-full bg-[#0f4c81] px-4 py-2.5 text-center text-sm font-bold text-white transition hover:bg-[#0d4373]">Fai un’offerta</Link>
             )
+          ) : !viewer.userId ? (
+            <Link
+              href={`/login?redirect=${encodeURIComponent(`/struttura/annunci/${request.id}`)}`}
+              className="rounded-full bg-[#0f4c81] px-4 py-2.5 text-center text-sm font-bold text-white transition hover:bg-[#0d4373]"
+            >
+              Invia offerta
+            </Link>
           ) : (
             <Link href={createRequestHref} className="rounded-full bg-orange-500 px-4 py-2.5 text-center text-sm font-bold text-white transition hover:bg-orange-600">Crea richiesta</Link>
           )}
