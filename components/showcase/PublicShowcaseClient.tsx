@@ -51,6 +51,7 @@ const RANDOM_ONBOARDING_POOL = 320;
 const RANDOM_ONBOARDING_SHOW = 40;
 const RANDOM_REGISTERED_SHOW = 20;
 const RANDOM_REQUESTS_SHOW = 24;
+const SHOWCASE_REQUESTS_POOL = 200;
 
 function shuffleItems<T>(items: T[]): T[] {
   const copy = [...items];
@@ -267,51 +268,47 @@ export function PublicShowcaseClient() {
     setLoading(true); setError(null);
     try {
       const supabase = createBrowserSupabaseClient();
-      const requestSelect =
-        "id, country_code, city_name, city_id, preferred_area, check_in, check_out, guests_count, rooms_count, budget, meal_plan, preference_filters, notes, expires_at, created_at, status, advertiser_profiles(first_name, last_name, advertiser_type)";
       const acceptedCutoff = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
-      // Viewer detection and the independent showcase queries run in parallel
-      // so total latency is the slowest single query, not their sum.
       const viewerPromise = detectViewer().catch(() => {});
-      const [
-        { data: requestData, error: requestError },
-        { data: acceptedOfferRows },
-      ] = await Promise.all([
-        supabase
-          .from("travel_requests")
-          .select(requestSelect)
-          .eq("status", "active")
-          .gt("expires_at", new Date().toISOString())
-          .order("created_at", { ascending: false })
-          .limit(60),
+      const [requestsRes, { data: acceptedOfferRows }] = await Promise.all([
+        fetch("/api/showcase/requests", { cache: "no-store" }),
         supabase
           .from("offers")
           .select("travel_request_id, updated_at")
           .eq("status", "accepted")
           .gt("updated_at", acceptedCutoff),
       ]);
-      if (requestError) { setError(requestError.message); return; }
+
+      const requestsJson = (await requestsRes.json()) as { requests?: TravelRequest[]; error?: string };
+      if (!requestsRes.ok) {
+        setError(requestsJson.error ?? "Errore durante il caricamento delle richieste.");
+        return;
+      }
+
       const acceptedIds = new Set<string>();
       for (const row of acceptedOfferRows ?? []) {
         if (isShowcaseVisibleAfterAcceptance(row.updated_at)) acceptedIds.add(row.travel_request_id);
       }
       let concludedRequests: TravelRequest[] = [];
       if (acceptedIds.size > 0) {
-        const { data: concludedData } = await supabase
-          .from("travel_requests")
-          .select(requestSelect)
-          .in("id", Array.from(acceptedIds));
-        concludedRequests = (concludedData ?? []) as unknown as TravelRequest[];
+        const concludedRes = await fetch(
+          `/api/showcase/requests?ids=${encodeURIComponent(Array.from(acceptedIds).join(","))}`,
+          { cache: "no-store" },
+        );
+        const concludedJson = (await concludedRes.json()) as { requests?: TravelRequest[] };
+        if (concludedRes.ok) {
+          concludedRequests = (concludedJson.requests ?? []) as TravelRequest[];
+        }
       }
       const merged = new Map<string, TravelRequest>();
-      for (const request of [...((requestData ?? []) as TravelRequest[]), ...concludedRequests]) {
+      for (const request of [...((requestsJson.requests ?? []) as TravelRequest[]), ...concludedRequests]) {
         merged.set(request.id, request);
       }
       setAcceptedRequestIds(acceptedIds);
       setRequests(
-        Array.from(merged.values()).sort(
-          (a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime(),
-        ),
+        Array.from(merged.values())
+          .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
+          .slice(0, SHOWCASE_REQUESTS_POOL),
       );
       void viewerPromise;
     } catch (err) { setError(err instanceof Error ? err.message : "Errore durante il caricamento della home."); } finally { setLoading(false); }

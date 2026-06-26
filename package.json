@@ -14,6 +14,8 @@
     "supabase:push": "supabase db push",
     "supabase:link": "supabase link",
     "seed:demo-drops": "node scripts/seed-demo-drops.mjs",
+    "seed:city-requests": "node scripts/seed-demo-drops.mjs --fill-all --min-per-city 7",
+    "seed:italy-add": "node scripts/seed-demo-drops.mjs --add-italy 3",
     "harvest:onboarding-hotels": "node scripts/harvest-onboarding-hotels.mjs"
   },
   "dependencies": {

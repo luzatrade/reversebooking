@@ -2,7 +2,11 @@
  * Reset dati test legacy e popola ~38 Drop demo realistici (solo richieste + inserzionisti).
  * Non crea hotel demo. Usa city_id canonici (world-cities.ts).
  *
- * Usage: node scripts/seed-demo-drops.mjs
+ * Usage:
+ *   node scripts/seed-demo-drops.mjs
+ *   node scripts/seed-demo-drops.mjs --fill-all --min-per-city 7
+ *   node scripts/seed-demo-drops.mjs --add-italy 3
+ *   node scripts/seed-demo-drops.mjs --add-city "Reggio di Calabria" --count 10
  * Requires: NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY in .env.local
  */
 
@@ -25,6 +29,20 @@ if (!url || !serviceKey) {
 const sb = createClient(url, serviceKey, {
   auth: { persistSession: false, autoRefreshToken: false },
 });
+
+const args = process.argv.slice(2);
+const fillAll = args.includes("--fill-all");
+const addItalyArg = args.find((a, i) => args[i - 1] === "--add-italy");
+const ADD_ITALY_COUNT =
+  addItalyArg && Number.isFinite(Number(addItalyArg)) && Number(addItalyArg) > 0 ? Number(addItalyArg) : null;
+const addCityArg = args.find((a, i) => args[i - 1] === "--add-city");
+const addCityCountArg = args.find((a, i) => args[i - 1] === "--count");
+const ADD_CITY_COUNT =
+  addCityCountArg && Number.isFinite(Number(addCityCountArg)) && Number(addCityCountArg) > 0
+    ? Number(addCityCountArg)
+    : null;
+const minPerCityArg = args.find((a, i) => args[i - 1] === "--min-per-city");
+const MIN_PER_CITY = minPerCityArg && Number.isFinite(Number(minPerCityArg)) ? Number(minPerCityArg) : 7;
 
 const ALPHABET = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
 function randomSuffix(len = 6) {
@@ -105,6 +123,108 @@ const ADVERTISERS = [
   { slug: "famiglia-santoro", type: "private_individual", first: "Chiara", last: "Santoro" },
   { slug: "torino-congress", type: "company", first: "Sara", last: "Eventi Torino", company: "Politecnico — Uff. congressi" },
   { slug: "weekend-coppia-venezia", type: "private_individual", first: "Matteo", last: "e Francesca" },
+  { slug: "gruppo-londra", type: "company", first: "James", last: "Corporate Travel", company: "Northbridge Ltd" },
+  { slug: "famiglia-amsterdam", type: "private_individual", first: "Sophie", last: "Van Dijk" },
+  { slug: "scuola-barcellona", type: "company", first: "Colegio", last: "Montserrat", company: "Institut Montserrat" },
+  { slug: "addio-praga", type: "private_individual", first: "Tereza", last: "Gruppo amiche" },
+  { slug: "congresso-dubai", type: "company", first: "Omar", last: "Events MENA", company: "Gulf Summit Org" },
+  { slug: "trek-santorini", type: "tour_operator", first: "Eleni", last: "Aegean Trails", operator: "Aegean Trails" },
+  { slug: "coppia-istanbul", type: "private_individual", first: "Aylin", last: "Demir" },
+  { slug: "gruppo-tokyo", type: "company", first: "Kenji", last: "Team offsite", company: "Sakura Tech" },
+  { slug: "famiglia-lisbona", type: "private_individual", first: "Rita", last: "Costa" },
+  { slug: "gruppo-ravello", type: "private_individual", first: "Claudia", last: "Matrimonio Ravello" },
+  { slug: "scuola-messina", type: "company", first: "Dirigente", last: "Liceo Vittorio Emanuele", company: "Liceo V.E. Messina" },
+  { slug: "weekend-portofino", type: "private_individual", first: "Federico", last: "Gruppo vela" },
+  { slug: "gruppo-cinque-terre", type: "travel_agency", first: "Marina", last: "Liguria Walks", agency: "Liguria Walks" },
+  { slug: "famiglia-merano", type: "private_individual", first: "Helmut", last: "Weber" },
+  { slug: "corporate-munich", type: "company", first: "Anna", last: "Schmidt HR", company: "Bayern Logistics GmbH" },
+  { slug: "gruppo-osaka", type: "tour_operator", first: "Yuki", last: "Kansai Tours", operator: "Kansai Tours" },
+  { slug: "coppia-newyork", type: "private_individual", first: "Emily", last: "Brooks" },
+  { slug: "gruppo-bolzano", type: "company", first: "Thomas", last: "Alpine Meeting", company: "Dolomiti Events" },
+  { slug: "famiglia-agrigento", type: "private_individual", first: "Salvo", last: "Rizzo" },
+  { slug: "gruppo-perugia", type: "private_individual", first: "Giorgio", last: "Umbria Jazz friends" },
+  { slug: "scuola-catanzaro", type: "company", first: "Prof.", last: "De Luca", company: "ITIS Catanzaro" },
+  { slug: "weekend-positano", type: "private_individual", first: "Valentina", last: "Addio al nubilato" },
+  { slug: "gruppo-matera", type: "travel_agency", first: "Lucia", last: "Sud Experience", agency: "Sud Experience" },
+  { slug: "famiglia-ravenna", type: "private_individual", first: "Marco", last: "Ferretti" },
+  { slug: "business-vienna", type: "company", first: "Karl", last: "Huber", company: "Wien Consulting" },
+  { slug: "gruppo-phuket", type: "tour_operator", first: "Somchai", last: "Island Holidays", operator: "Island Holidays" },
+  { slug: "famiglia-cebu", type: "private_individual", first: "Maria", last: "Santos" },
+  { slug: "gruppo-manila", type: "company", first: "Jose", last: "Trade fair team", company: "Pacific Expo" },
+];
+
+function cityTarget(city_name, city_id, country_code, country_name, areas) {
+  return { city_name, city_id, country_code, country_name, areas };
+}
+
+/** Destinazioni vetrina + internazionali: almeno MIN_PER_CITY richieste attive ciascuna. */
+const FILL_TARGET_CITIES = [
+  cityTarget("Rome", "IT-ROM", "IT", "Italy", ["Centro Storico", "Trastevere", "Termini", "Prati"]),
+  cityTarget("Milan", "IT-MIL", "IT", "Italy", ["Centro", "Navigli", "Brera", "Porta Garibaldi"]),
+  cityTarget("Florence", "IT-FLR", "IT", "Italy", ["Duomo", "Oltrarno", "SMN", "San Lorenzo"]),
+  cityTarget("Venice", "IT-VCE", "IT", "Italy", ["San Marco", "Cannaregio", "Dorsoduro", "Mestre"]),
+  cityTarget("Naples", "IT-NAP", "IT", "Italy", ["Centro", "Chiaia", "Vomero", "Porto"]),
+  cityTarget("Turin", "IT-TRN", "IT", "Italy", ["Centro", "Lingotto", "Porta Susa", "San Salvario"]),
+  cityTarget("Palermo", "IT-PMO", "IT", "Italy", ["Centro", "Mondello", "Kalsa", "Politeama"]),
+  cityTarget("Genoa", "IT-GOA", "IT", "Italy", ["Centro", "Porto Antico", "Carignano", "Stazione Brignole"]),
+  cityTarget("Bologna", "IT-BLQ", "IT", "Italy", ["Centro", "Università", "Fiera", "Stazione"]),
+  cityTarget("Bari", "IT-BRI", "IT", "Italy", ["Murattiano", "Lungomare", "Stazione", "Poggiofranco"]),
+  cityTarget("Catania", "IT-CTA", "IT", "Italy", ["Centro", "Etnea", "Ognina", "Porto"]),
+  cityTarget("Verona", "IT-VRN", "IT", "Italy", ["Centro", "Arena", "Porta Nuova", "Veronetta"]),
+  cityTarget("Rimini", "IT-RMI", "IT", "Italy", ["Marina Centro", "Cesareo", "Fiera", "Rivabella"]),
+  cityTarget("Siena", "IT-SIE", "IT", "Italy", ["Centro", "Campo", "Stazione", "San Domenico"]),
+  cityTarget("Pisa", "IT-PSA", "IT", "Italy", ["Centro", "Piazza dei Miracoli", "Stazione", "Lungarno"]),
+  cityTarget("Siracusa", "IT-SIR", "IT", "Italy", ["Ortigia", "Centro", "Lungomare", "Neapolis"]),
+  cityTarget("Reggio di Calabria", "IT-REG", "IT", "Italy", ["Lungomare", "Centro", "Stazione", "Aragonese"]),
+  cityTarget("Sorrento", "IT-SOR", "IT", "Italy", ["Centro", "Marina Grande", "Corso Italia", "Meta"]),
+  cityTarget("Amalfi", "IT-AMF", "IT", "Italy", ["Centro", "Lungomare", "Atrani", "Ravello transfer"]),
+  cityTarget("Padua", "IT-PAD", "IT", "Italy", ["Centro", "Basilica", "Stazione", "Prato della Valle"]),
+  cityTarget("Trieste", "IT-TRS", "IT", "Italy", ["Centro", "Città Vecchia", "Barcola", "Stazione"]),
+  cityTarget("Perugia", "IT-PEG", "IT", "Italy", ["Centro storico", "MiniMetro", "Stazione", "Elce"]),
+  cityTarget("Lecce", "IT-LCC", "IT", "Italy", ["Centro barocco", "Stazione", "Porto", "San Cataldo"]),
+  cityTarget("Cagliari", "IT-CAG", "IT", "Italy", ["Marina", "Castello", "Poetto", "Stazione"]),
+  cityTarget("Taormina", "IT-TAO", "IT", "Italy", ["Centro", "Mazzarò", "Giardini Naxos", "Teatro Antico"]),
+  cityTarget("Como", "IT-CMO", "IT", "Italy", ["Lungolago", "Brunate", "Stazione", "Lago"]),
+  cityTarget("Salerno", "IT-SAL", "IT", "Italy", ["Centro", "Lungomare", "Stazione", "Luci del artista"]),
+  cityTarget("Ravello", "IT-RVL", "IT", "Italy", ["Centro", "Villa Rufolo", "Scala", "Minori"]),
+  cityTarget("Portofino", "IT-POF", "IT", "Italy", ["Porto", "Piazzetta", "Parco", "San Fruttuoso"]),
+  cityTarget("Merano", "IT-MER", "IT", "Italy", ["Centro", "Terme", "Tappeiner", "Quadrilatero"]),
+  cityTarget("Bolzano", "IT-BZO", "IT", "Italy", ["Centro", "Stazione", "Gries", "Oltradige"]),
+  cityTarget("Urbino", "IT-URB", "IT", "Italy", ["Centro storico", "Università", "Mercatale", "Borgo Mercatale"]),
+  cityTarget("Messina", "IT-MSN", "IT", "Italy", ["Centro", "Lungomare", "Stazione", "Ganzirri"]),
+  cityTarget("Catanzaro", "IT-CZZ", "IT", "Italy", ["Centro", "Lungomare", "Stazione", "Corso Mazzini"]),
+  cityTarget("Ravenna", "IT-RAV", "IT", "Italy", ["Centro", "Mosaic district", "Stazione", "Marina"]),
+  cityTarget("Cinque Terre", "IT-CQT", "IT", "Italy", ["Monterosso", "Vernazza", "Manarola", "Riomaggiore"]),
+  cityTarget("Positano", "IT-POS", "IT", "Italy", ["Centro", "Spiaggia Grande", "Viale Pasitea", "Nocelle"]),
+  cityTarget("Matera", "IT-MAT", "IT", "Italy", ["Sassi", "Centro", "Sasso Barisano", "Civita"]),
+  cityTarget("Alberobello", "IT-ABB", "IT", "Italy", ["Trulli", "Centro", "Aia Piccola", "Monti"]),
+  cityTarget("Capri", "IT-CAP", "IT", "Italy", ["Piazzetta", "Marina Grande", "Anacapri", "Faraglioni area"]),
+  cityTarget("Bergamo", "IT-BGY", "IT", "Italy", ["Città Alta", "Città Bassa", "Stazione", "Orio area"]),
+  cityTarget("Parma", "IT-PMF", "IT", "Italy", ["Centro", "Duomo", "Stazione", "Oltretorrente"]),
+  cityTarget("Olbia", "IT-OLB", "IT", "Italy", ["Centro", "Porto", "Pittulongu", "Aeroporto"]),
+  cityTarget("Agrigento", "IT-AGR", "IT", "Italy", ["Valle dei Templi", "Centro", "San Leone", "Stazione"]),
+  cityTarget("Jesolo", "IT-JES", "IT", "Italy", ["Piazza Mazzini", "Pineta", "Lido est", "Stazione"]),
+  cityTarget("London", "GB-LON", "GB", "United Kingdom", ["Westminster", "Covent Garden", "South Bank", "Kensington"]),
+  cityTarget("Paris", "FR-PAR", "FR", "France", ["Marais", "Saint-Germain", "Opéra", "Montmartre"]),
+  cityTarget("Lyon", "FR-LYN", "FR", "France", ["Presqu'île", "Vieux Lyon", "Part-Dieu", "Confluence"]),
+  cityTarget("Madrid", "ES-MAD", "ES", "Spain", ["Sol", "Malasaña", "Salamanca", "Atocha"]),
+  cityTarget("Barcelona", "ES-BCN", "ES", "Spain", ["Gothic Quarter", "Eixample", "Barceloneta", "Gràcia"]),
+  cityTarget("Amsterdam", "NL-AMS", "NL", "Netherlands", ["Centrum", "Jordaan", "Museum Quarter", "De Pijp"]),
+  cityTarget("Berlin", "DE-BER", "DE", "Germany", ["Mitte", "Prenzlauer Berg", "Charlottenburg", "Kreuzberg"]),
+  cityTarget("Munich", "DE-MUC", "DE", "Germany", ["Altstadt", "Schwabing", "Maxvorstadt", "Hauptbahnhof"]),
+  cityTarget("Lisbon", "PT-LIS", "PT", "Portugal", ["Baixa", "Alfama", "Chiado", "Belém"]),
+  cityTarget("Prague", "CZ-PRG", "CZ", "Czech Republic", ["Old Town", "Mala Strana", "Wenceslas Square", "Vinohrady"]),
+  cityTarget("Vienna", "AT-VIE", "AT", "Austria", ["Innere Stadt", "Leopoldstadt", "Mariahilf", "Landstraße"]),
+  cityTarget("Istanbul", "TR-IST", "TR", "Turkey", ["Sultanahmet", "Beyoğlu", "Kadıköy", "Taksim"]),
+  cityTarget("Santorini", "GR-JTR", "GR", "Greece", ["Fira", "Oia", "Imerovigli", "Kamari"]),
+  cityTarget("Dubai", "AE-DXB", "AE", "United Arab Emirates", ["Downtown", "Marina", "Deira", "JBR"]),
+  cityTarget("New York", "US-NYC", "US", "United States", ["Midtown", "SoHo", "Upper West Side", "Financial District"]),
+  cityTarget("Tokyo", "JP-TYO", "JP", "Japan", ["Shinjuku", "Shibuya", "Ginza", "Asakusa"]),
+  cityTarget("Osaka", "JP-OSA", "JP", "Japan", ["Namba", "Umeda", "Shinsaibashi", "Tennoji"]),
+  cityTarget("Bangkok", "TH-BKK", "TH", "Thailand", ["Sukhumvit", "Old City", "Silom", "Riverside"]),
+  cityTarget("Phuket", "TH-HKT", "TH", "Thailand", ["Patong", "Old Town", "Kata", "Kamala"]),
+  cityTarget("Manila", "PH-MNL", "PH", "Philippines", ["Makati", "BGC", "Intramuros", "Malate"]),
+  cityTarget("Cebu", "PH-CEB", "PH", "Philippines", ["IT Park", "Lahug", "Mactan", "Downtown"]),
 ];
 
 function buildSchoolTrip({ students, teachers, nights, perStudentNight, teachersPerNight }) {
@@ -476,6 +596,171 @@ async function boostHotelCities(slots) {
   return merged.slice(0, 38);
 }
 
+async function createDrop(city, tpl, adv) {
+  const nights = tpl.nights();
+  const checkIn = fmtDate(tpl.daysAhead(), 10);
+  const checkOut = addDays(checkIn, nights);
+  const trip = tpl.build(nights);
+  trip.rooms = trip.rooms.map((room, idx) => ({ ...room, room: idx + 1 }));
+
+  const payload = {
+    request_code: makeRequestCode(),
+    advertiser_id: adv.id,
+    country_code: city.country_code,
+    country_name: city.country_name,
+    city_name: city.city_name,
+    city_id: city.city_id,
+    preferred_area: pick(city.areas),
+    preferred_structure_type: tpl.structure(),
+    check_in: checkIn,
+    check_out: checkOut,
+    guests_count: trip.guests_count,
+    rooms_count: trip.rooms_count,
+    room_details: trip.rooms,
+    preference_filters: tpl.filters(),
+    budget: trip.budget,
+    meal_plan: tpl.meal(),
+    notes: tpl.notes(city.city_name),
+    visible_contact_email: null,
+    visible_contact_phone: null,
+    visible_contact_whatsapp: null,
+    status: "active",
+    expires_at: expiresAtForCheckIn(checkIn),
+    target_hotel_account_id: null,
+  };
+
+  const { error } = await sb.from("travel_requests").insert(payload);
+  if (error) throw error;
+  return { kind: tpl.kind, guests: trip.guests_count, budget: trip.budget };
+}
+
+async function countActiveRequestsForCity(cityId) {
+  const { count, error } = await sb
+    .from("travel_requests")
+    .select("*", { count: "exact", head: true })
+    .eq("status", "active")
+    .gt("expires_at", new Date().toISOString())
+    .eq("city_id", cityId);
+  if (error) throw error;
+  return count ?? 0;
+}
+
+function pickTemplateForKind(templates, kind) {
+  const pool =
+    kind === "group"
+      ? templates.filter((tpl) => tpl.kind === "group" || tpl.kind === "school")
+      : templates.filter((tpl) => tpl.kind === "individual");
+  return pick(pool.length ? pool : templates);
+}
+
+function buildKindMix(needed) {
+  const mix = [];
+  const groups = Math.ceil(needed / 2);
+  const individuals = needed - groups;
+  for (let i = 0; i < groups; i += 1) mix.push("group");
+  for (let i = 0; i < individuals; i += 1) mix.push("individual");
+  return shuffle(mix);
+}
+
+async function fillAllCities(advertiserPool) {
+  console.log(`\n— Fill richieste demo (min ${MIN_PER_CITY} per città, ${FILL_TARGET_CITIES.length} destinazioni) —`);
+  const templates = buildDropTemplates();
+  let created = 0;
+  let citiesOk = 0;
+
+  for (const city of FILL_TARGET_CITIES) {
+    const existing = await countActiveRequestsForCity(city.city_id);
+    const needed = Math.max(0, MIN_PER_CITY - existing);
+    if (!needed) {
+      citiesOk += 1;
+      console.log(`  = ${city.city_name}: ${existing}/${MIN_PER_CITY}`);
+      continue;
+    }
+
+    console.log(`  → ${city.city_name}: ${existing}/${MIN_PER_CITY}, +${needed}`);
+    const kinds = buildKindMix(needed);
+    for (let i = 0; i < needed; i += 1) {
+      const tpl = pickTemplateForKind(templates, kinds[i]);
+      const adv = pick(advertiserPool);
+      if (!adv) continue;
+      try {
+        const row = await createDrop(city, tpl, adv);
+        created += 1;
+        console.log(`     + ${row.kind} · ${row.guests} ospiti · ${row.budget}€`);
+      } catch (err) {
+        console.warn(`     ! ${city.city_name}:`, err.message ?? err);
+      }
+    }
+  }
+
+  console.log(`\n  Città già a target: ${citiesOk}/${FILL_TARGET_CITIES.length}`);
+  return created;
+}
+
+async function addItalyRequests(advertiserPool, count) {
+  const italianCities = FILL_TARGET_CITIES.filter((city) => city.country_code === "IT");
+  console.log(`\n— Aggiunta ${count} richieste per città italiana (${italianCities.length} città, solo insert) —`);
+  const templates = buildDropTemplates();
+  let created = 0;
+
+  for (const city of italianCities) {
+    const existing = await countActiveRequestsForCity(city.city_id);
+    console.log(`  → ${city.city_name}: ${existing} attive, +${count}`);
+    const kinds = buildKindMix(count);
+    for (let i = 0; i < count; i += 1) {
+      const tpl = pickTemplateForKind(templates, kinds[i]);
+      const adv = pick(advertiserPool);
+      if (!adv) continue;
+      try {
+        const row = await createDrop(city, tpl, adv);
+        created += 1;
+        console.log(`     + ${row.kind} · ${row.guests} ospiti · ${row.budget}€`);
+      } catch (err) {
+        console.warn(`     ! ${city.city_name}:`, err.message ?? err);
+      }
+    }
+  }
+
+  return created;
+}
+
+function resolveTargetCity(name) {
+  const normalized = name.trim().toLowerCase();
+  const direct = FILL_TARGET_CITIES.find((city) => city.city_name.toLowerCase() === normalized);
+  if (direct) return direct;
+  const aliases = {
+    "reggio calabria": "Reggio di Calabria",
+    reggio: "Reggio di Calabria",
+  };
+  const mapped = aliases[normalized];
+  if (mapped) return FILL_TARGET_CITIES.find((city) => city.city_name === mapped) ?? null;
+  return null;
+}
+
+async function addCityRequests(advertiserPool, cityName, count) {
+  const city = resolveTargetCity(cityName);
+  if (!city) throw new Error(`Città non configurata nel seed: ${cityName}`);
+  console.log(`\n— Aggiunta ${count} richieste a ${city.city_name} (solo insert) —`);
+  const templates = buildDropTemplates();
+  const existing = await countActiveRequestsForCity(city.city_id);
+  console.log(`  Attive ora: ${existing}`);
+  let created = 0;
+  const kinds = buildKindMix(count);
+  for (let i = 0; i < count; i += 1) {
+    const tpl = pickTemplateForKind(templates, kinds[i]);
+    const adv = pick(advertiserPool);
+    if (!adv) continue;
+    try {
+      const row = await createDrop(city, tpl, adv);
+      created += 1;
+      console.log(`  + ${row.kind} · ${row.guests} ospiti · ${row.budget}€`);
+    } catch (err) {
+      console.warn(`  ! ${city.city_name}:`, err.message ?? err);
+    }
+  }
+  return created;
+}
+
 async function seedDrops(advertiserPool) {
   console.log("\n— Creazione Drop —");
   let templates = buildDropTemplates();
@@ -495,44 +780,12 @@ async function seedDrops(advertiserPool) {
     const adv = advertiserPool[i % advertiserPool.length];
     if (!adv) continue;
 
-    const nights = tpl.nights();
-    const checkIn = fmtDate(tpl.daysAhead(), 10);
-    const checkOut = addDays(checkIn, nights);
-    const trip = tpl.build(nights);
-    trip.rooms = trip.rooms.map((room, idx) => ({ ...room, room: idx + 1 }));
-
-    const payload = {
-      request_code: makeRequestCode(),
-      advertiser_id: adv.id,
-      country_code: city.country_code,
-      country_name: city.country_name,
-      city_name: city.city_name,
-      city_id: city.city_id,
-      preferred_area: pick(city.areas),
-      preferred_structure_type: tpl.structure(),
-      check_in: checkIn,
-      check_out: checkOut,
-      guests_count: trip.guests_count,
-      rooms_count: trip.rooms_count,
-      room_details: trip.rooms,
-      preference_filters: tpl.filters(),
-      budget: trip.budget,
-      meal_plan: tpl.meal(),
-      notes: tpl.notes(city.city_name),
-      visible_contact_email: null,
-      visible_contact_phone: null,
-      visible_contact_whatsapp: null,
-      status: "active",
-      expires_at: expiresAtForCheckIn(checkIn),
-      target_hotel_account_id: null,
-    };
-
-    const { error } = await sb.from("travel_requests").insert(payload);
-    if (error) {
-      console.warn(`  ! Drop ${city.city_name}:`, error.message);
-    } else {
+    try {
+      const row = await createDrop(city, tpl, adv);
       created += 1;
-      console.log(`  + ${city.city_name} · ${tpl.kind} · ${trip.guests_count} ospiti · RB…`);
+      console.log(`  + ${city.city_name} · ${row.kind} · ${row.guests} ospiti · RB…`);
+    } catch (err) {
+      console.warn(`  ! Drop ${city.city_name}:`, err.message ?? err);
     }
   }
   return created;
@@ -556,12 +809,34 @@ async function summary() {
 
 async function main() {
   console.log("HotelsDrop — seed Drop demo realistici");
-  await cleanupLegacyAndDemo();
   const pool = await ensureAdvertisers();
   if (!pool.length) {
     console.error("Nessun inserzionista demo creato. Interrompo.");
     process.exit(1);
   }
+
+  if (fillAll) {
+    const n = await fillAllCities(pool);
+    console.log(`\nRichieste create in questo fill: ${n}`);
+    await summary();
+    return;
+  }
+
+  if (ADD_ITALY_COUNT) {
+    const n = await addItalyRequests(pool, ADD_ITALY_COUNT);
+    console.log(`\nRichieste aggiunte (Italia): ${n}`);
+    await summary();
+    return;
+  }
+
+  if (addCityArg && ADD_CITY_COUNT) {
+    const n = await addCityRequests(pool, addCityArg, ADD_CITY_COUNT);
+    console.log(`\nRichieste aggiunte (${addCityArg}): ${n}`);
+    await summary();
+    return;
+  }
+
+  await cleanupLegacyAndDemo();
   const n = await seedDrops(pool);
   console.log(`\nDrop creati: ${n}`);
   await summary();
