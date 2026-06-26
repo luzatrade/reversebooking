@@ -45,9 +45,13 @@ function LoginPageContent() {
   const mfaParam = searchParams.get("mfa") === "1";
   const redirectTo = safeRedirectPath(searchParams.get("redirect"));
   const isOfferLogin = Boolean(redirectTo?.startsWith("/struttura/annunci/"));
+  const isTravelRequestLogin = Boolean(redirectTo?.startsWith("/inserzionista/crea-annuncio"));
   const partnerRegisterHref = redirectTo
     ? `/registrazione?mode=partner&redirect=${encodeURIComponent(redirectTo)}`
     : "/registrazione?mode=partner";
+  const travelerRegisterHref = redirectTo
+    ? `/registrazione?redirect=${encodeURIComponent(redirectTo)}`
+    : "/registrazione";
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -160,8 +164,10 @@ function LoginPageContent() {
         <h1 className="mt-3 text-3xl font-semibold tracking-tight text-zinc-900">{t.auth.loginTitle}</h1>
         <p className="mt-3 text-sm text-zinc-600">
           {isOfferLogin
-            ? "Accedi con il tuo account struttura per inviare l'offerta su questa richiesta."
-            : t.auth.loginSubtitle}
+            ? t.auth.loginOfferSubtitle
+            : isTravelRequestLogin
+              ? t.auth.loginTravelRequestSubtitle
+              : t.auth.loginSubtitle}
         </p>
         {mfaRequired ? (
           <form onSubmit={handleMfaSubmit} className="mt-6 space-y-5">
@@ -234,8 +240,12 @@ function LoginPageContent() {
                 <LoginErrorBanner
                   message={errorMessage}
                   showRegisterLink={showRegisterLink}
-                  registerLinkLabel={isOfferLogin ? t.site.becomePartner : t.auth.goToRegistration}
-                  registerHref={isOfferLogin ? partnerRegisterHref : "/registrazione"}
+                  registerLinkLabel={
+                    isOfferLogin ? t.site.becomePartner : isTravelRequestLogin ? t.common.register : t.auth.goToRegistration
+                  }
+                  registerHref={
+                    isOfferLogin ? partnerRegisterHref : isTravelRequestLogin ? travelerRegisterHref : "/registrazione"
+                  }
                 />
               ) : null}
               <button
@@ -249,9 +259,16 @@ function LoginPageContent() {
             <p className="mt-6 text-center text-sm text-zinc-600">
               {isOfferLogin ? (
                 <>
-                  Non hai ancora un account struttura?{" "}
+                  {t.auth.noPartnerAccountYet}{" "}
                   <Link href={partnerRegisterHref} className="font-semibold text-zinc-950 underline">
                     {t.site.becomePartner}
+                  </Link>
+                </>
+              ) : isTravelRequestLogin ? (
+                <>
+                  {t.auth.noAccountYet}{" "}
+                  <Link href={travelerRegisterHref} className="font-semibold text-zinc-950 underline">
+                    {t.common.register}
                   </Link>
                 </>
               ) : (

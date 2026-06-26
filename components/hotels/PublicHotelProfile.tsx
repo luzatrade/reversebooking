@@ -1,13 +1,16 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { ArrowLeft, Mail, MapPin, Phone, PhoneCall } from "lucide-react";
-import { createBrowserSupabaseClient } from "@/lib/supabase/client";
+import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { FavoriteHotelButton } from "@/components/favorites/FavoriteHotelButton";
+import { formatMessage } from "@/lib/i18n/format";
+import { getServiceLabels, getStructureTypeLabels } from "@/lib/i18n/labels";
 import { BRAND_NAME } from "@/lib/legal/company";
-import { structureTypeLabels, type StructureType } from "@/types/app";
+import { createBrowserSupabaseClient } from "@/lib/supabase/client";
+import type { StructureType } from "@/types/app";
 
 type HotelProfile = {
   id: string;
@@ -31,21 +34,17 @@ type HotelProfile = {
   cin_code: string;
 };
 
-function serviceLabels(services: Record<string, boolean> | null) {
+function activeServiceLabels(services: Record<string, boolean> | null, labels: Record<string, string>) {
   if (!services) return [];
-  const labels: Record<string, string> = {
-    pool: "Piscina",
-    spa: "Spa",
-    garage: "Garage",
-    pets_allowed: "Animali ammessi",
-    disabled_access: "Accesso disabili",
-  };
   return Object.entries(services)
     .filter(([, value]) => value)
     .map(([key]) => labels[key] ?? key);
 }
 
 export function PublicHotelProfile() {
+  const { locale, t } = useLanguage();
+  const structureTypeLabels = getStructureTypeLabels(locale);
+  const serviceLabelMap = getServiceLabels(locale);
   const params = useParams<{ id: string }>();
   const hotelId = params.id;
   const [hotel, setHotel] = useState<HotelProfile | null>(null);
@@ -68,32 +67,50 @@ export function PublicHotelProfile() {
           .single();
 
         if (hotelError || !data) {
-          setError("Profilo hotel non trovato o non disponibile.");
+          setError(t.hotel.publicProfileNotFound);
           return;
         }
 
         setHotel(data as HotelProfile);
       } catch (err) {
-        setError(err instanceof Error ? err.message : "Errore durante il caricamento del profilo hotel.");
+        setError(err instanceof Error ? err.message : t.hotel.publicProfileLoadError);
       } finally {
         setLoading(false);
       }
     }
 
     void loadHotel();
-  }, [hotelId]);
+  }, [hotelId, t.hotel.publicProfileLoadError, t.hotel.publicProfileNotFound]);
+
+  const mailTemplate = useMemo(() => {
+    if (!hotel) return null;
+    const lines = [
+      formatMessage(t.showcase.availabilityMailIntro, { name: hotel.property_name, brand: BRAND_NAME }),
+      "",
+      t.showcase.availabilityMailCheckIn,
+      t.showcase.availabilityMailCheckOut,
+      t.showcase.availabilityMailGuests,
+      "",
+      t.showcase.availabilityMailOutro,
+    ];
+    return {
+      subject: formatMessage(t.showcase.availabilityMailSubject, { name: hotel.property_name }),
+      body: lines.join("\n"),
+      whatsApp: formatMessage(t.showcase.availabilityWhatsApp, { name: hotel.property_name, brand: BRAND_NAME }),
+    };
+  }, [hotel, t.showcase]);
 
   if (loading) {
-    return <div className="rounded-3xl border p-6 text-sm text-zinc-500">Caricamento profilo hotel...</div>;
+    return <div className="rounded-3xl border p-6 text-sm text-zinc-500">{t.hotel.loadingPublicProfile}</div>;
   }
 
-  const services = serviceLabels(hotel?.services ?? null);
+  const services = activeServiceLabels(hotel?.services ?? null, serviceLabelMap);
   const isAgency = hotel?.provider_kind === "agency";
 
   return (
     <div className="space-y-6">
-      <Link href="/inserzionista/dashboard" className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white">
-        <ArrowLeft className="h-4 w-4" /> Torna alla dashboard
+      <Link href="/" className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white">
+        <ArrowLeft className="h-4 w-4" /> {t.hotel.backToHome}
       </Link>
 
       {error ? <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}
@@ -103,16 +120,24 @@ export function PublicHotelProfile() {
           {hotel.main_photo_url ? (
             <img src={hotel.main_photo_url} alt={hotel.property_name} className="h-48 w-full object-cover sm:h-64 md:h-72" />
           ) : (
-            <div className="flex h-48 items-center justify-center bg-zinc-100 text-sm text-zinc-500 dark:bg-zinc-950 sm:h-64 md:h-72">{isAgency ? "Foto agenzia non disponibile" : "Foto struttura non disponibile"}</div>
+            <div className="flex h-48 items-center justify-center bg-zinc-100 text-sm text-zinc-500 dark:bg-zinc-950 sm:h-64 md:h-72">
+              {isAgency ? t.hotel.agencyPhotoUnavailable : t.hotel.photoUnavailable}
+            </div>
           )}
 
           <div className="p-4 sm:p-6">
-            <p className="text-xs font-medium uppercase tracking-wide text-emerald-700 sm:text-sm">{isAgency ? "Profilo agenzia" : "Profilo struttura"}</p>
+            <p className="text-xs font-medium uppercase tracking-wide text-emerald-700 sm:text-sm">
+              {isAgency ? t.hotel.agencyProfileLabel : t.hotel.structureProfileLabel}
+            </p>
             <h1 className="mt-2 text-2xl font-semibold tracking-tight sm:text-3xl">{hotel.property_name}</h1>
             <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-              {isAgency ? "Agenzia viaggi" : structureTypeLabels[hotel.structure_type]} · {hotel.city_name}, {hotel.country_name}
+              {isAgency ? t.hotel.agencyKind : structureTypeLabels[hotel.structure_type]} · {hotel.city_name}, {hotel.country_name}
             </p>
-            {hotel.specific_area ? <p className="mt-1 text-sm text-zinc-500">{isAgency ? "Zona di operatività" : "Zona"}: {hotel.specific_area}</p> : null}
+            {hotel.specific_area ? (
+              <p className="mt-1 text-sm text-zinc-500">
+                {isAgency ? t.hotel.operatingArea : t.hotel.zoneShort}: {hotel.specific_area}
+              </p>
+            ) : null}
             <div className="mt-4">
               <FavoriteHotelButton hotelId={hotel.id} hotelName={hotel.property_name} />
             </div>
@@ -132,52 +157,50 @@ export function PublicHotelProfile() {
 
             <div className="mt-4 grid gap-3 sm:mt-6 sm:gap-4 md:grid-cols-2">
               <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 sm:p-5">
-                <h2 className="font-semibold">Informazioni</h2>
-                <p className="mt-2 text-sm text-zinc-500">Indirizzo: {hotel.full_address}</p>
-                {!isAgency ? <p className="mt-1 text-sm text-zinc-500">Camere/unità: {hotel.rooms_quantity}</p> : null}
-                {hotel.points_of_interest?.length ? <p className="mt-1 text-sm text-zinc-500">Punti di interesse: {hotel.points_of_interest.join(", ")}</p> : null}
+                <h2 className="font-semibold">{t.hotel.infoSection}</h2>
+                <p className="mt-2 text-sm text-zinc-500">{formatMessage(t.hotel.addressLine, { address: hotel.full_address })}</p>
+                {!isAgency ? (
+                  <p className="mt-1 text-sm text-zinc-500">{formatMessage(t.hotel.roomsUnitsLine, { count: hotel.rooms_quantity })}</p>
+                ) : null}
+                {hotel.points_of_interest?.length ? (
+                  <p className="mt-1 text-sm text-zinc-500">
+                    {formatMessage(t.hotel.poiLine, { points: hotel.points_of_interest.join(", ") })}
+                  </p>
+                ) : null}
                 {hotel.google_maps_url ? (
                   <a href={hotel.google_maps_url} target="_blank" rel="noreferrer" className="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-zinc-950 px-4 py-3 text-sm font-semibold text-white dark:bg-white dark:text-zinc-950 sm:py-2">
-                    <MapPin className="h-4 w-4" /> Apri su Google Maps
+                    <MapPin className="h-4 w-4" /> {t.hotel.openGoogleMaps}
                   </a>
                 ) : null}
               </div>
 
               <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 sm:p-5">
-                <h2 className="font-semibold">{isAgency ? "Contatti" : "Servizi e contatti"}</h2>
-                {!isAgency && services.length ? <p className="mt-2 text-sm text-zinc-500">Servizi: {services.join(", ")}</p> : null}
+                <h2 className="font-semibold">{isAgency ? t.hotel.contactsOnly : t.hotel.publicContacts}</h2>
+                {!isAgency && services.length ? (
+                  <p className="mt-2 text-sm text-zinc-500">{formatMessage(t.hotel.servicesLine, { services: services.join(", ") })}</p>
+                ) : null}
                 <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-3">
-                  {hotel.public_email ? (() => {
-                    const emailLines = [
-                      "Ciao! Ho trovato " + hotel.property_name + " su " + BRAND_NAME + " \u{1F60A} e vorrei chiedere gentilmente informazioni e disponibilit\u00E0 per le seguenti date:",
-                      "",
-                      "Check-in: ___",
-                      "Check-out: ___",
-                      "Ospiti: ___",
-                      "",
-                      "Resto in attesa di un vostro cortese riscontro.",
-                      "Grazie mille!",
-                    ];
-                    const emailHref = "mailto:" + hotel.public_email + "?subject=" + encodeURIComponent("Richiesta disponibilit\u00E0 \u2014 " + hotel.property_name) + "&body=" + encodeURIComponent(emailLines.join("\n"));
-                    return (
-                      <a href={emailHref} className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-4 py-3 text-sm font-semibold text-white transition hover:bg-emerald-600 sm:py-2">
-                        <Mail className="h-4 w-4" /> Email
-                      </a>
-                    );
-                  })() : null}
-                  {hotel.public_phone ? (() => {
-                    const waPhone = hotel.public_phone!.replace(/\D/g, "");
-                    const waMsg = "Ciao! Ho trovato " + hotel.property_name + " su " + BRAND_NAME + " \u{1F60A} e vorrei chiedere gentilmente informazioni e disponibilit\u00E0 per le seguenti date: ... Grazie mille!";
-                    const waHref = "https://wa.me/" + waPhone + "?text=" + encodeURIComponent(waMsg);
-                    return (
-                      <a href={waHref} target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 rounded-full bg-green-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-green-700 sm:py-2">
-                        <Phone className="h-4 w-4" /> WhatsApp
-                      </a>
-                    );
-                  })() : null}
+                  {hotel.public_email && mailTemplate ? (
+                    <a
+                      href={`mailto:${hotel.public_email}?subject=${encodeURIComponent(mailTemplate.subject)}&body=${encodeURIComponent(mailTemplate.body)}`}
+                      className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-4 py-3 text-sm font-semibold text-white transition hover:bg-emerald-600 sm:py-2"
+                    >
+                      <Mail className="h-4 w-4" /> {t.common.email}
+                    </a>
+                  ) : null}
+                  {hotel.public_phone && mailTemplate ? (
+                    <a
+                      href={`https://wa.me/${hotel.public_phone.replace(/\D/g, "")}?text=${encodeURIComponent(mailTemplate.whatsApp)}`}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center justify-center gap-2 rounded-full bg-green-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-green-700 sm:py-2"
+                    >
+                      <Phone className="h-4 w-4" /> {t.common.whatsApp}
+                    </a>
+                  ) : null}
                   {hotel.public_phone ? (
-                    <a href={"tel:" + hotel.public_phone.replace(/\s+/g, "")} className="inline-flex items-center justify-center gap-2 rounded-full bg-[#0f4c81] px-4 py-3 text-sm font-semibold text-white transition hover:bg-[#0d4373] sm:py-2">
-                      <PhoneCall className="h-4 w-4" /> Chiama
+                    <a href={`tel:${hotel.public_phone.replace(/\s+/g, "")}`} className="inline-flex items-center justify-center gap-2 rounded-full bg-[#0f4c81] px-4 py-3 text-sm font-semibold text-white transition hover:bg-[#0d4373] sm:py-2">
+                      <PhoneCall className="h-4 w-4" /> {t.hotel.callButton}
                     </a>
                   ) : null}
                 </div>

@@ -2,10 +2,14 @@
 
 import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 type HorizontalSliderProps = {
   title: string;
   subtitle?: string;
+  titleClassName?: string;
+  sectionId?: string;
+  sectionClassName?: string;
   /** Numero di elementi reali (serve a mostrare/nascondere le frecce). */
   itemCount: number;
   children: ReactNode;
@@ -21,6 +25,9 @@ type HorizontalSliderProps = {
 export function HorizontalSlider({
   title,
   subtitle,
+  titleClassName,
+  sectionId,
+  sectionClassName,
   itemCount,
   children,
   prevLabel = "Precedente",
@@ -60,10 +67,10 @@ export function HorizontalSlider({
   }, [itemCount]);
 
   return (
-    <section className="hd-feed-card p-4 sm:p-5">
+    <section id={sectionId} className={cn("hd-feed-card scroll-mt-24 p-4 sm:p-5", sectionClassName)}>
       <div className="mb-3 flex items-end justify-between gap-3 sm:mb-4">
         <div className="min-w-0">
-          <h2 className="hd-bento-title truncate">{title}</h2>
+          <h2 className={cn("hd-bento-title truncate", titleClassName)}>{title}</h2>
           {subtitle ? <p className="hd-bento-subtitle">{subtitle}</p> : null}
         </div>
         {itemCount > 1 ? (

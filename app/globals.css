@@ -249,6 +249,11 @@ body {
   color: var(--hd-text) !important;
 }
 
+.rb-soft-white-home .hd-bento-title-orange,
+.rb-soft-white-home .hd-feed-card h2.hd-bento-title-orange {
+  color: var(--hd-orange) !important;
+}
+
 .rb-soft-white-home .hd-bento-subtitle {
   margin-top: 0.25rem;
   font-size: 0.875rem;
@@ -324,6 +329,181 @@ body {
     min-width: 15rem;
     min-height: 3.5rem !important;
     font-size: 1rem !important;
+  }
+}
+
+@keyframes hd-last-minute-enter {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hd-last-minute-pulse {
+  0%,
+  100% {
+    box-shadow: 0 8px 24px rgba(249, 115, 22, 0.28);
+  }
+  50% {
+    box-shadow: 0 10px 30px rgba(249, 115, 22, 0.42);
+  }
+}
+
+.rb-soft-white-home .hd-last-minute-cta-mobile {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(234, 88, 12, 0.35);
+  background: var(--hd-orange) !important;
+  color: #ffffff !important;
+  padding: 0.75rem 1rem;
+  font-size: 0.9375rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  box-shadow: 0 8px 24px rgba(249, 115, 22, 0.28);
+  animation:
+    hd-last-minute-enter 0.45s ease-out,
+    hd-last-minute-pulse 2.4s ease-in-out 0.45s 2;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.rb-soft-white-home .hd-last-minute-cta-mobile:hover {
+  background: var(--hd-orange-hover) !important;
+  transform: translateY(-1px);
+}
+
+.rb-soft-white-home .hd-last-minute-cta-mobile:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.rb-soft-white-home .hd-last-minute-fab {
+  position: fixed;
+  bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px));
+  right: calc(1.25rem + env(safe-area-inset-right, 0px));
+  z-index: 45;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(234, 88, 12, 0.35);
+  background: var(--hd-orange) !important;
+  color: #ffffff !important;
+  min-height: 3rem;
+  padding: 0.875rem 1.25rem;
+  font-size: 0.9375rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  box-shadow: 0 12px 32px rgba(249, 115, 22, 0.35);
+  animation: hd-last-minute-enter 0.35s ease-out;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.rb-soft-white-home .hd-last-minute-fab:hover {
+  background: var(--hd-orange-hover) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 16px 36px rgba(249, 115, 22, 0.42);
+}
+
+.rb-soft-white-home .hd-last-minute-fab:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+@media (max-width: 767px) {
+  .rb-soft-white-home .hd-last-minute-fab {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .rb-soft-white-home .hd-last-minute-cta-mobile {
+    display: none !important;
+  }
+}
+
+#last-minute-offers {
+  scroll-margin-top: 6rem;
+}
+
+@media (min-width: 768px) {
+  #last-minute-offers {
+    scroll-margin-top: 5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rb-soft-white-home .hd-last-minute-cta-mobile,
+  .rb-soft-white-home .hd-last-minute-fab {
+    animation: none;
+  }
+}
+
+.hd-explore-map-modal .hd-explore-map-canvas {
+  touch-action: pan-x pan-y;
+}
+
+.hd-explore-map-modal .leaflet-container {
+  height: 100%;
+  width: 100%;
+  font-family: inherit;
+}
+
+.hd-map-marker-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+@media (max-width: 767px) {
+  .hd-explore-map-modal {
+    padding: 0 !important;
+  }
+
+  .hd-explore-map-modal > div[role="dialog"] {
+    min-height: 100dvh;
+    max-height: 100dvh;
+    border-radius: 0 !important;
+  }
+
+  .hd-explore-map-modal header {
+    padding-top: calc(0.75rem + env(safe-area-inset-top, 0px));
+  }
+
+  .hd-explore-map-shell {
+    min-height: 42dvh;
+  }
+}
+
+/* Nasconde hero e pannello ricerca sotto al modal mappa (evita testo sovrapposto) */
+body.hd-map-explore-open .hd-home-tagline,
+body.hd-map-explore-open .hd-home-bento,
+body.hd-map-explore-open .hd-last-minute-fab {
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+.rb-soft-white-home .hd-cta-drop-main {
+  min-height: 3rem;
+}
+
+@media (max-width: 767px) {
+  .rb-soft-white-home .hd-bento-search .hd-cta-drop-main {
+    font-size: 0.9375rem !important;
+    padding-top: 0.875rem !important;
+    padding-bottom: 0.875rem !important;
   }
 }
 

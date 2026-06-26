@@ -12,6 +12,8 @@ import { isChatOpen } from "@/lib/chat/lifecycle";
 import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { roleFromUserMetadata } from "@/lib/auth/resolveLoginRole";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
+import { useLanguage } from "@/components/i18n/LanguageProvider";
+import { formatMessage } from "@/lib/i18n/format";
 import type { UserRole } from "@/types/app";
 
 type AdvertiserPublic = { first_name: string | null; last_name: string | null };
@@ -32,21 +34,21 @@ type ChatMessage = { id: string; offer_id: string; sender_id: string; sender_rol
 function one<T>(value: T | T[] | null | undefined): T | null {
   return Array.isArray(value) ? value[0] ?? null : value ?? null;
 }
-function time(value: string) {
-  return new Intl.DateTimeFormat("it-IT", { hour: "2-digit", minute: "2-digit" }).format(new Date(value));
+function time(value: string, locale: string) {
+  return new Intl.DateTimeFormat(locale === "en" ? "en-GB" : "it-IT", { hour: "2-digit", minute: "2-digit" }).format(new Date(value));
 }
 function requestCode(offer: ChatOffer | null) {
   return one(offer?.travel_requests)?.request_code ?? "RB------";
 }
-function advertiserName(offer: ChatOffer | null) {
+function advertiserName(offer: ChatOffer | null, fallback: string) {
   const request = one(offer?.travel_requests);
   const advertiser = one(request?.advertiser_profiles);
   const name = [advertiser?.first_name, advertiser?.last_name].filter(Boolean).join(" ").trim();
-  return name || "Inserzionista";
+  return name || fallback;
 }
-function counterpartName(offer: ChatOffer | null, role: UserRole) {
-  if (role === "hotel") return advertiserName(offer);
-  return one(offer?.hotel_accounts)?.property_name ?? "Struttura";
+function counterpartName(offer: ChatOffer | null, role: UserRole, labels: { advertiser: string; hotel: string }) {
+  if (role === "hotel") return advertiserName(offer, labels.advertiser);
+  return one(offer?.hotel_accounts)?.property_name ?? labels.hotel;
 }
 function offerChatOpen(offer: ChatOffer) {
   const checkIn = one(offer.travel_requests)?.check_in;
@@ -58,6 +60,11 @@ function unreadForOffer(messages: ChatMessage[], offerId: string, userId: string
 }
 
 export function FloatingChatWidget() {
+  const { locale, t } = useLanguage();
+  const chatLabels = useMemo(
+    () => ({ advertiser: t.chat.roleAdvertiser, hotel: t.chat.roleHotel }),
+    [t.chat.roleAdvertiser, t.chat.roleHotel],
+  );
   const [open, setOpen] = useState(false);
   const [userId, setUserId] = useState<string | null>(null);
   const [role, setRole] = useState<UserRole>("advertiser");
@@ -229,7 +236,7 @@ export function FloatingChatWidget() {
       if (nextActiveId) await loadMessages(nextActiveId, silent);
       else setMessages([]);
     } catch (err) {
-      if (!silent) setError(err instanceof Error ? err.message : "Errore durante il caricamento della chat.");
+      if (!silent) setError(err instanceof Error ? err.message : t.chat.errorWidgetLoad);
     } finally {
       setLoading(false);
     }
@@ -296,7 +303,7 @@ export function FloatingChatWidget() {
       setBody("");
       await loadWidget(true);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Errore durante l’invio del messaggio.");
+      setError(err instanceof Error ? err.message : t.chat.errorSend);
     } finally {
       setSending(false);
     }
@@ -310,18 +317,18 @@ export function FloatingChatWidget() {
         <div className="mb-3 w-[min(100vw-1.5rem,920px)] overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-2xl dark:border-zinc-800 dark:bg-zinc-900">
           <div className="flex items-center justify-between border-b border-zinc-200 p-4 dark:border-zinc-800">
             <div className="min-w-0 pr-3">
-              <p className="text-sm font-semibold">Chat</p>
+              <p className="text-sm font-semibold">{t.chat.widgetTitle}</p>
               <p className="text-xs text-zinc-500">
-                {offers.length} conversazioni attive · chiuse 24h dopo il check-in
+                {formatMessage(t.chat.activeConversations, { count: offers.length })}
               </p>
             </div>
-            <button onClick={() => setOpen(false)} className="rounded-full p-2 hover:bg-zinc-100 dark:hover:bg-zinc-800" aria-label="Chiudi chat">
+            <button onClick={() => setOpen(false)} className="rounded-full p-2 hover:bg-zinc-100 dark:hover:bg-zinc-800" aria-label={t.chat.closeChat}>
               <X className="h-4 w-4" />
             </button>
           </div>
           <div className="flex max-h-[min(82vh,720px)] flex-col lg:grid lg:grid-cols-[minmax(220px,280px)_minmax(0,1fr)]">
             <div className="max-h-[220px] overflow-x-auto border-b border-zinc-200 p-2 dark:border-zinc-800 lg:max-h-none lg:overflow-y-auto lg:border-b-0 lg:border-r">
-              {offers.length === 0 ? <p className="p-3 text-xs text-zinc-500">Nessuna chat attiva.</p> : null}
+              {offers.length === 0 ? <p className="p-3 text-xs text-zinc-500">{t.chat.noActiveChats}</p> : null}
               {offers.map((offer) => {
                 const offerRequest = one(offer.travel_requests);
                 const offerUnread = userId ? unreadForOffer(allMessages, offer.id, userId, readState) : 0;
@@ -336,12 +343,12 @@ export function FloatingChatWidget() {
                         : "hover:bg-zinc-100 dark:hover:bg-zinc-800"
                     }`}
                   >
-                    <span className="block break-words font-semibold leading-tight">{counterpartName(offer, role)}</span>
+                    <span className="block break-words font-semibold leading-tight">{counterpartName(offer, role, chatLabels)}</span>
                     <span className="mt-1 inline-flex rounded-full bg-white px-2 py-0.5 text-[11px] font-bold text-zinc-700 dark:bg-zinc-900 dark:text-zinc-200">
                       {requestCode(offer)}
                     </span>
                     <span className="mt-1 block break-words leading-tight text-zinc-500">
-                      {offerRequest?.city_name ?? "Chat"}
+                      {offerRequest?.city_name ?? t.chat.widgetTitle}
                       {offerRequest?.preferred_area ? ` · ${offerRequest.preferred_area}` : ""}
                     </span>
                     {offerUnread > 0 ? (
@@ -355,20 +362,20 @@ export function FloatingChatWidget() {
             </div>
             <div className="flex min-h-[420px] min-w-0 flex-col lg:min-h-[560px]">
               <div className="border-b border-zinc-200 p-3 dark:border-zinc-800">
-                <p className="break-words text-sm font-semibold leading-tight">{counterpartName(activeOffer, role)}</p>
+                <p className="break-words text-sm font-semibold leading-tight">{counterpartName(activeOffer, role, chatLabels)}</p>
                 <p className="mt-1 break-words text-xs leading-tight text-zinc-500">
                   <span className="font-bold text-zinc-700 dark:text-zinc-200">{requestCode(activeOffer)}</span>
                   {activeRequest?.city_name ? ` · ${activeRequest.city_name}` : ""}
                   {activeRequest?.preferred_area ? ` · ${activeRequest.preferred_area}` : ""}
                 </p>
                 {!chatStillOpen && activeRequest ? (
-                  <p className="mt-2 text-xs text-amber-700 dark:text-amber-300">Chat chiusa: sono passate più di 24 ore dal check-in previsto.</p>
+                  <p className="mt-2 text-xs text-amber-700 dark:text-amber-300">{t.chat.chatClosed}</p>
                 ) : null}
               </div>
               <div className="flex-1 space-y-2 overflow-y-auto p-3">
-                {loading ? <p className="text-xs text-zinc-500">Caricamento...</p> : null}
+                {loading ? <p className="text-xs text-zinc-500">{t.common.loading}</p> : null}
                 {error ? <p className="rounded-2xl bg-red-50 p-3 text-xs text-red-700">{error}</p> : null}
-                {!loading && !error && messages.length === 0 ? <p className="text-xs text-zinc-500">Nessun messaggio.</p> : null}
+                {!loading && !error && messages.length === 0 ? <p className="text-xs text-zinc-500">{t.chat.noMessage}</p> : null}
                 {messages.map((message) => {
                   const mine = message.sender_id === userId;
                   return (
@@ -379,7 +386,7 @@ export function FloatingChatWidget() {
                         }`}
                       >
                         <p className="break-words whitespace-pre-wrap">{message.body}</p>
-                        <p className="mt-1 text-[11px] opacity-60">{time(message.created_at)}</p>
+                        <p className="mt-1 text-[11px] opacity-60">{time(message.created_at, locale)}</p>
                       </div>
                     </div>
                   );
@@ -389,7 +396,7 @@ export function FloatingChatWidget() {
                 <input
                   value={body}
                   onChange={(event) => setBody(event.target.value)}
-                  placeholder={chatStillOpen ? "Scrivi un messaggio..." : "Chat chiusa"}
+                  placeholder={chatStillOpen ? t.chat.writeMessage : t.chat.chatClosedPlaceholder}
                   disabled={!chatStillOpen}
                   className="min-w-0 w-full rounded-full border border-zinc-300 bg-white px-4 py-3 text-sm disabled:opacity-50 dark:border-zinc-700 dark:bg-zinc-950"
                 />
@@ -397,7 +404,7 @@ export function FloatingChatWidget() {
                   disabled={sending || !body.trim() || !activeOffer || !chatStillOpen}
                   type="submit"
                   className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-zinc-950 text-white disabled:opacity-50 dark:bg-white dark:text-zinc-950"
-                  aria-label="Invia messaggio"
+                  aria-label={t.chat.sendMessage}
                 >
                   <Send className="h-4 w-4" />
                 </button>
@@ -409,7 +416,7 @@ export function FloatingChatWidget() {
       <button
         onClick={() => setOpen((value) => !value)}
         className="relative flex h-14 w-14 items-center justify-center rounded-full bg-emerald-700 text-white shadow-2xl"
-        aria-label="Apri chat"
+        aria-label={t.chat.openChat}
       >
         <MessageCircle className="h-6 w-6" />
         {unreadCount > 0 ? (

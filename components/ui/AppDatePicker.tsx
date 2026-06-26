@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { CalendarDays, ChevronLeft, ChevronRight } from "lucide-react";
+import { useLanguage } from "@/components/i18n/LanguageProvider";
 
 type AppDatePickerProps = {
   label: string;
@@ -51,9 +52,19 @@ const sizeStyles = {
   },
 } as const;
 
-const monthFormatter = new Intl.DateTimeFormat("it-IT", { month: "long", year: "numeric" });
-const dayFormatter = new Intl.DateTimeFormat("it-IT", { day: "2-digit", month: "short", year: "numeric" });
-const weekDays = ["Lun", "Mar", "Mer", "Gio", "Ven", "Sab", "Dom"];
+function dateLocale(locale: string) {
+  return locale === "en" ? "en-GB" : "it-IT";
+}
+
+function getWeekDays(locale: string) {
+  const formatter = new Intl.DateTimeFormat(dateLocale(locale), { weekday: "short" });
+  const monday = new Date(2024, 0, 1);
+  return Array.from({ length: 7 }).map((_, index) => {
+    const date = new Date(monday);
+    date.setDate(monday.getDate() + index);
+    return formatter.format(date);
+  });
+}
 
 function toDateOnly(value: string) {
   if (!value) return null;
@@ -90,12 +101,17 @@ function buildMonthDays(monthDate: Date) {
 }
 
 export function AppDatePicker({ label, value, onChange, minDate, className, size = "md" }: AppDatePickerProps) {
+  const { locale, t } = useLanguage();
   const wrapperRef = useRef<HTMLDivElement | null>(null);
   const selectedDate = useMemo(() => toDateOnly(value), [value]);
   const minimumDate = useMemo(() => toDateOnly(minDate ?? ""), [minDate]);
   const [open, setOpen] = useState(false);
   const [visibleMonth, setVisibleMonth] = useState(() => startOfMonth(selectedDate ?? minimumDate ?? new Date()));
   const styles = sizeStyles[size];
+  const intlLocale = dateLocale(locale);
+  const monthFormatter = useMemo(() => new Intl.DateTimeFormat(intlLocale, { month: "long", year: "numeric" }), [intlLocale]);
+  const dayFormatter = useMemo(() => new Intl.DateTimeFormat(intlLocale, { day: "2-digit", month: "short", year: "numeric" }), [intlLocale]);
+  const weekDays = useMemo(() => getWeekDays(locale), [locale]);
 
   useEffect(() => {
     function onDocumentClick(event: MouseEvent) {
@@ -110,7 +126,7 @@ export function AppDatePicker({ label, value, onChange, minDate, className, size
   }, [selectedDate]);
 
   const days = useMemo(() => buildMonthDays(visibleMonth), [visibleMonth]);
-  const displayValue = selectedDate ? dayFormatter.format(selectedDate) : "Seleziona data";
+  const displayValue = selectedDate ? dayFormatter.format(selectedDate) : t.common.selectDate;
 
   function changeMonth(delta: number) {
     setVisibleMonth((current) => new Date(current.getFullYear(), current.getMonth() + delta, 1));
@@ -136,11 +152,11 @@ export function AppDatePicker({ label, value, onChange, minDate, className, size
       {open ? (
         <div className={`absolute left-0 top-full z-50 mt-3 ${styles.panel} rounded-3xl border border-zinc-200 bg-white text-zinc-950 shadow-2xl dark:border-zinc-800 dark:bg-zinc-950 dark:text-white`}>
           <div className="flex items-center justify-between gap-3">
-            <button type="button" onClick={() => changeMonth(-1)} className={`flex ${styles.nav} items-center justify-center rounded-full border border-zinc-200 hover:bg-zinc-50 dark:border-zinc-800 dark:hover:bg-zinc-900`} aria-label="Mese precedente">
+            <button type="button" onClick={() => changeMonth(-1)} className={`flex ${styles.nav} items-center justify-center rounded-full border border-zinc-200 hover:bg-zinc-50 dark:border-zinc-800 dark:hover:bg-zinc-900`} aria-label={t.common.prevMonth}>
               <ChevronLeft className={styles.navIcon} />
             </button>
             <p className={`${styles.month} font-semibold capitalize`}>{monthFormatter.format(visibleMonth)}</p>
-            <button type="button" onClick={() => changeMonth(1)} className={`flex ${styles.nav} items-center justify-center rounded-full border border-zinc-200 hover:bg-zinc-50 dark:border-zinc-800 dark:hover:bg-zinc-900`} aria-label="Mese successivo">
+            <button type="button" onClick={() => changeMonth(1)} className={`flex ${styles.nav} items-center justify-center rounded-full border border-zinc-200 hover:bg-zinc-50 dark:border-zinc-800 dark:hover:bg-zinc-900`} aria-label={t.common.nextMonth}>
               <ChevronRight className={styles.navIcon} />
             </button>
           </div>
@@ -166,7 +182,7 @@ export function AppDatePicker({ label, value, onChange, minDate, className, size
             })}
           </div>
           <div className="mt-5 flex justify-end">
-            <button type="button" onClick={() => setOpen(false)} className="rounded-full border border-zinc-200 px-5 py-2.5 text-sm font-semibold hover:bg-zinc-50 dark:border-zinc-800 dark:hover:bg-zinc-900">Chiudi</button>
+            <button type="button" onClick={() => setOpen(false)} className="rounded-full border border-zinc-200 px-5 py-2.5 text-sm font-semibold hover:bg-zinc-50 dark:border-zinc-800 dark:hover:bg-zinc-900">{t.common.close}</button>
           </div>
         </div>
       ) : null}
