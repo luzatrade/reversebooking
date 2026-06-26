@@ -111,7 +111,11 @@ export function CreateOfferForm() {
       try {
         const supabase = createBrowserSupabaseClient();
         const { data: authData, error: authError } = await supabase.auth.getUser();
-        if (authError || !authData.user) { setError("Devi effettuare il login come struttura ricettiva."); return; }
+        if (authError || !authData.user) {
+          const redirectPath = `/struttura/annunci/${requestId}${relaunchFromId ? `?relaunch_from=${encodeURIComponent(relaunchFromId)}` : ""}`;
+          router.replace(`/login?redirect=${encodeURIComponent(redirectPath)}`);
+          return;
+        }
         const [{ data: hotelData, error: hotelError }, { data: profileData }] = await Promise.all([
           supabase
             .from("hotel_accounts")
@@ -175,7 +179,7 @@ export function CreateOfferForm() {
       }
     }
     void load();
-  }, [requestId, relaunchFromId]);
+  }, [requestId, relaunchFromId, router]);
 
   async function reloadOffers() {
     if (!hotel) return;

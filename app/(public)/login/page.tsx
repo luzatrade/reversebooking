@@ -19,16 +19,18 @@ function LoginErrorBanner({
   message,
   showRegisterLink,
   registerLinkLabel,
+  registerHref = "/registrazione",
 }: {
   message: string;
   showRegisterLink?: boolean;
   registerLinkLabel: string;
+  registerHref?: string;
 }) {
   return (
     <div className="rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
       <p>{message}</p>
       {showRegisterLink ? (
-        <Link href="/registrazione" className="mt-2 inline-block font-semibold text-red-900 underline">
+        <Link href={registerHref} className="mt-2 inline-block font-semibold text-red-900 underline">
           {registerLinkLabel}
         </Link>
       ) : null}
@@ -42,6 +44,10 @@ function LoginPageContent() {
   const searchParams = useSearchParams();
   const mfaParam = searchParams.get("mfa") === "1";
   const redirectTo = safeRedirectPath(searchParams.get("redirect"));
+  const isOfferLogin = Boolean(redirectTo?.startsWith("/struttura/annunci/"));
+  const partnerRegisterHref = redirectTo
+    ? `/registrazione?mode=partner&redirect=${encodeURIComponent(redirectTo)}`
+    : "/registrazione?mode=partner";
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -152,7 +158,11 @@ function LoginPageContent() {
       <Box className="rounded-3xl border border-zinc-200 bg-white p-8 shadow-sm">
         <p className="text-sm font-medium uppercase tracking-wide text-emerald-700">{t.auth.accessLabel}</p>
         <h1 className="mt-3 text-3xl font-semibold tracking-tight text-zinc-900">{t.auth.loginTitle}</h1>
-        <p className="mt-3 text-sm text-zinc-600">{t.auth.loginSubtitle}</p>
+        <p className="mt-3 text-sm text-zinc-600">
+          {isOfferLogin
+            ? "Accedi con il tuo account struttura per inviare l'offerta su questa richiesta."
+            : t.auth.loginSubtitle}
+        </p>
         {mfaRequired ? (
           <form onSubmit={handleMfaSubmit} className="mt-6 space-y-5">
             <p className="text-sm text-zinc-600">{t.auth.mfaPrompt}</p>
@@ -224,7 +234,8 @@ function LoginPageContent() {
                 <LoginErrorBanner
                   message={errorMessage}
                   showRegisterLink={showRegisterLink}
-                  registerLinkLabel={t.auth.goToRegistration}
+                  registerLinkLabel={isOfferLogin ? t.site.becomePartner : t.auth.goToRegistration}
+                  registerHref={isOfferLogin ? partnerRegisterHref : "/registrazione"}
                 />
               ) : null}
               <button
@@ -236,10 +247,21 @@ function LoginPageContent() {
               </button>
             </form>
             <p className="mt-6 text-center text-sm text-zinc-600">
-              {t.auth.noAccount}{" "}
-              <Link href="/registrazione" className="font-semibold text-zinc-950 underline">
-                {t.common.register}
-              </Link>
+              {isOfferLogin ? (
+                <>
+                  Non hai ancora un account struttura?{" "}
+                  <Link href={partnerRegisterHref} className="font-semibold text-zinc-950 underline">
+                    {t.site.becomePartner}
+                  </Link>
+                </>
+              ) : (
+                <>
+                  {t.auth.noAccount}{" "}
+                  <Link href="/registrazione" className="font-semibold text-zinc-950 underline">
+                    {t.common.register}
+                  </Link>
+                </>
+              )}
             </p>
           </>
         )}

@@ -522,22 +522,18 @@ export function PublicShowcaseClient() {
             <p className="inline-flex items-center gap-2"><Euro className="h-4 w-4 shrink-0" /> {formatCurrency(Number(request.budget))} · {t.common.budgetTotal}</p>
           </div>
           <div className="mt-4 flex-1" />
-          {isHotel ? (
-            hasOffer ? (
+          {isHotel && hasOffer ? (
               <div className="rounded-full border border-emerald-200 px-3 py-2.5 text-center text-xs font-semibold text-emerald-700">Offerta inviata</div>
+            ) : !isHotel && viewer.userId ? (
+              <Link href={createRequestHref} className="rounded-full bg-orange-500 px-4 py-2.5 text-center text-sm font-bold text-white transition hover:bg-orange-600">Crea richiesta</Link>
             ) : (
-              <Link href={`/struttura/annunci/${request.id}`} className="rounded-full bg-[#0f4c81] px-4 py-2.5 text-center text-sm font-bold text-white transition hover:bg-[#0d4373]">Fai un’offerta</Link>
-            )
-          ) : !viewer.userId ? (
-            <Link
-              href={`/login?redirect=${encodeURIComponent(`/struttura/annunci/${request.id}`)}`}
-              className="rounded-full bg-[#0f4c81] px-4 py-2.5 text-center text-sm font-bold text-white transition hover:bg-[#0d4373]"
-            >
-              Invia offerta
-            </Link>
-          ) : (
-            <Link href={createRequestHref} className="rounded-full bg-orange-500 px-4 py-2.5 text-center text-sm font-bold text-white transition hover:bg-orange-600">Crea richiesta</Link>
-          )}
+              <Link
+                href={createOfferHref(request.id, viewer)}
+                className="rounded-full bg-[#0f4c81] px-4 py-2.5 text-center text-sm font-bold text-white transition hover:bg-[#0d4373]"
+              >
+                {isHotel ? t.common.makeOffer : "Invia offerta"}
+              </Link>
+            )}
         </div>
       </article>
     );
@@ -672,6 +668,22 @@ export function PublicShowcaseClient() {
       </div>
 <div className="relative z-0 mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
       <HorizontalSlider
+        title={t.catalogOffers.structureOffersTitle}
+        subtitle={hasSelectedCity ? `${t.catalogOffers.structureOffersSubtitleCity} ${selectedCity.city_name}` : t.catalogOffers.structureOffersSubtitle}
+        itemCount={!offersLoading ? structureOffers.length : 0}
+      >
+        {offersLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento offerte...</div> : null}
+        {!offersLoading && structureOffers.length === 0 ? (
+          <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">
+            {t.catalogOffers.structureOffersEmpty}
+          </div>
+        ) : null}
+        {!offersLoading ? structureOffers.map((offer) => (
+          <CatalogOfferCard key={offer.id} offer={offer} />
+        )) : null}
+      </HorizontalSlider>
+
+      <HorizontalSlider
         title={
           isHotel && viewer.hotelCityName
             ? `${displayRequests.length} richieste attive a ${viewer.hotelCityName}`
@@ -724,22 +736,6 @@ export function PublicShowcaseClient() {
           </div>
         ) : null}
         {!hotelsLoading ? visibleHotels.map((hotel) => renderHotelCard(hotel)) : null}
-      </HorizontalSlider>
-
-      <HorizontalSlider
-        title={t.catalogOffers.structureOffersTitle}
-        subtitle={hasSelectedCity ? `${t.catalogOffers.structureOffersSubtitleCity} ${selectedCity.city_name}` : t.catalogOffers.structureOffersSubtitle}
-        itemCount={!offersLoading ? structureOffers.length : 0}
-      >
-        {offersLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">Caricamento offerte...</div> : null}
-        {!offersLoading && structureOffers.length === 0 ? (
-          <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">
-            {t.catalogOffers.structureOffersEmpty}
-          </div>
-        ) : null}
-        {!offersLoading ? structureOffers.map((offer) => (
-          <CatalogOfferCard key={offer.id} offer={offer} />
-        )) : null}
       </HorizontalSlider>
 
       {SHOW_HOME_AGENCY_DIRECTORY ? (

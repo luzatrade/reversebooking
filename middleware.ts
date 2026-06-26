@@ -1,3 +1,4 @@
+import type { Session } from "@supabase/supabase-js";
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
@@ -22,16 +23,31 @@ export async function middleware(request: NextRequest) {
     },
   });
 
+  let session: Session | null = null;
+
   try {
-    await Promise.race([
+    const sessionResult = await Promise.race([
       supabase.auth.getSession(),
-      new Promise<void>((resolve) => {
-        setTimeout(resolve, 2000);
+      new Promise<null>((resolve) => {
+        setTimeout(() => resolve(null), 2000);
       }),
     ]);
+    if (sessionResult && "data" in sessionResult) {
+      session = sessionResult.data.session;
+    }
   } catch {
     // Never block page navigation if Auth is slow or unavailable.
   }
+
+  const pathname = request.nextUrl.pathname;
+  if (pathname.startsWith("/struttura/annunci/") && !session?.user) {
+    const loginUrl = request.nextUrl.clone();
+    loginUrl.pathname = "/login";
+    loginUrl.searchParams.set("redirect", `${pathname}${request.nextUrl.search}`);
+    loginUrl.searchParams.delete("code");
+    return NextResponse.redirect(loginUrl);
+  }
+
   return response;
 }
 

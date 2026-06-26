@@ -13,6 +13,11 @@ import { type StructureType, type UserRole } from "@/types/app";
 
 type AccountKind = "inserzionista" | "struttura" | "agenzia";
 
+function safeRedirectPath(value: string) {
+  if (!value || !value.startsWith("/") || value.startsWith("//")) return null;
+  return value;
+}
+
 type RegisterResponse = {
   ok?: boolean;
   error?: string;
@@ -41,6 +46,7 @@ export function RegisterForm() {
   const searchParams = useSearchParams();
   const isPartner = searchParams.get("mode") === "partner";
   const onboardingId = searchParams.get("onboarding")?.trim() || "";
+  const redirectTo = searchParams.get("redirect")?.trim() || "";
   const [claimingName, setClaimingName] = useState<string | null>(null);
   const [email, setEmail] = useState("");
   const [emailTouched, setEmailTouched] = useState(false);
@@ -136,10 +142,12 @@ export function RegisterForm() {
         return;
       }
 
+      const postRegisterPath = safeRedirectPath(redirectTo);
       redirectAfterLogin(
-        onboardingId && role === "hotel"
-          ? "/struttura/profilo?claim=1"
-          : dashboardPathForRole(role),
+        postRegisterPath ??
+          (onboardingId && role === "hotel"
+            ? "/struttura/profilo?claim=1"
+            : dashboardPathForRole(role)),
       );
     } catch {
       setError(t.auth.registerNetworkError);
