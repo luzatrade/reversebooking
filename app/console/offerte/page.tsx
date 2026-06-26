@@ -1,4 +1,5 @@
 import { ConsolePageHeader } from "@/components/console/ConsolePageHeader";
+import { ConsoleSearchBanner } from "@/components/console/ConsoleSearchBanner";
 import { DataTable } from "@/components/console/DataTable";
 import { DeleteButton } from "@/components/console/DeleteButton";
 import { StatusBadge } from "@/components/console/StatusBadge";
@@ -7,18 +8,24 @@ import { formatDate, formatMoney } from "@/lib/console/format";
 import { getServerTranslations } from "@/lib/i18n/get-translations";
 import { isServiceRoleConfigured } from "@/lib/utils/env";
 
-export default async function ConsoleOffertePage() {
+export default async function ConsoleOffertePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string }>;
+}) {
   const t = await getServerTranslations();
   if (!isServiceRoleConfigured()) {
     return <ConsolePageHeader title={t.console.pages.offers.title} description={t.console.noServiceRole} />;
   }
 
-  const offers = await listOffers();
+  const { q } = await searchParams;
+  const offers = await listOffers(q);
   const hotelNames = await hotelNamesByIds(offers.map((o) => o.hotel_account_id));
 
   return (
     <>
       <ConsolePageHeader title={t.console.pages.offers.title} description={t.console.pages.offers.description} />
+      <ConsoleSearchBanner query={q} clearHref="/console/offerte" />
       <DataTable
         columns={[
           { key: "code", label: "Codice" },

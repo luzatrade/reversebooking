@@ -36,7 +36,15 @@ type TravelRequest = { id: string; country_code: string | null; city_name: strin
 type OnboardingHotelRow = { id: string; nome: string; city_name: string; indirizzo: string | null; email: string | null; phone: string | null; main_photo_url: string | null; website: string | null; google_maps_url: string | null };
 type HotelAccount = { id: string; property_name: string; structure_type: StructureType; provider_kind: "structure" | "agency"; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; public_email: string | null; public_phone: string | null; website: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null; isOnboarding?: boolean; google_maps_url?: string | null };
 type Offer = { id: string; travel_request_id: string };
-type Viewer = { userId: string | null; role: UserRole | null; hotelAccountId: string | null };
+type Viewer = {
+  userId: string | null;
+  role: UserRole | null;
+  hotelAccountId: string | null;
+  hotelCityId: string | null;
+  hotelCityName: string | null;
+  hotelCountryCode: string | null;
+  hotelStructureType: StructureType | null;
+};
 
 const serviceLabels: Record<string, string> = { pool: "Piscina", spa: "Spa", garage: "Garage", pets_allowed: "Animali ammessi", disabled_access: "Accesso disabili", beach: "Vicino alla spiaggia", bathtub: "Vasca", connecting_rooms: "Camere comunicanti" };
 const ctaMaps = "inline-flex items-center justify-center gap-1.5 rounded-full bg-blue-50 px-3.5 py-2 text-xs font-bold text-blue-700 shadow-sm transition hover:bg-blue-100";
@@ -193,7 +201,15 @@ export function PublicShowcaseClient() {
   const [requests, setRequests] = useState<TravelRequest[]>([]);
   const [hotels, setHotels] = useState<HotelAccount[]>([]);
   const [offers, setOffers] = useState<Offer[]>([]);
-  const [viewer, setViewer] = useState<Viewer>({ userId: null, role: null, hotelAccountId: null });
+  const [viewer, setViewer] = useState<Viewer>({
+    userId: null,
+    role: null,
+    hotelAccountId: null,
+    hotelCityId: null,
+    hotelCityName: null,
+    hotelCountryCode: null,
+    hotelStructureType: null,
+  });
   const [advertiserOfferCount, setAdvertiserOfferCount] = useState(0);
   const [selectedCity, setSelectedCity] = useState(() => createWorldCity("IT", ""));
   const [loading, setLoading] = useState(true);
@@ -239,19 +255,53 @@ export function PublicShowcaseClient() {
     }
   }, [searchParams]);
 
+  function matchesHotelCity(item: { city_id?: string | null; city_name?: string | null; country_code?: string | null }) {
+    if (!viewer.hotelCityId) return false;
+    if (item.city_id && item.city_id === viewer.hotelCityId) return true;
+    const itemCountry = item.country_code?.trim().toUpperCase();
+    const hotelCountry = viewer.hotelCountryCode?.trim().toUpperCase();
+    if (hotelCountry && itemCountry && itemCountry !== hotelCountry) return false;
+    return cityMatch(item.city_name, viewer.hotelCityName);
+  }
+
   async function detectViewer() {
     const supabase = createBrowserSupabaseClient();
     const { data: authData } = await supabase.auth.getUser();
-    if (!authData.user) { setViewer({ userId: null, role: null, hotelAccountId: null }); setOffers([]); setAdvertiserOfferCount(0); return; }
+    if (!authData.user) {
+      setViewer({
+        userId: null,
+        role: null,
+        hotelAccountId: null,
+        hotelCityId: null,
+        hotelCityName: null,
+        hotelCountryCode: null,
+        hotelStructureType: null,
+      });
+      setOffers([]);
+      setAdvertiserOfferCount(0);
+      return;
+    }
     let role: UserRole | null = null;
     const [{ data: profile }, { data: hotelAccount }] = await Promise.all([
       supabase.from("profiles").select("role").eq("user_id", authData.user.id).maybeSingle(),
-      supabase.from("hotel_accounts").select("id").eq("user_id", authData.user.id).maybeSingle(),
+      supabase
+        .from("hotel_accounts")
+        .select("id, city_id, city_name, country_code, structure_type")
+        .eq("user_id", authData.user.id)
+        .maybeSingle(),
     ]);
     if (profile?.role === "hotel" || profile?.role === "advertiser" || profile?.role === "admin" || profile?.role === "agency") role = profile.role;
     const hotelAccountId = hotelAccount?.id ?? null;
     if (hotelAccountId && !role) role = "hotel";
-    setViewer({ userId: authData.user.id, role, hotelAccountId });
+    setViewer({
+      userId: authData.user.id,
+      role,
+      hotelAccountId,
+      hotelCityId: hotelAccount?.city_id ?? null,
+      hotelCityName: hotelAccount?.city_name ?? null,
+      hotelCountryCode: hotelAccount?.country_code ?? null,
+      hotelStructureType: (hotelAccount?.structure_type as StructureType | undefined) ?? null,
+    });
     if (hotelAccountId) { const { data: offerData } = await supabase.from("offers").select("id, travel_request_id").eq("hotel_account_id", hotelAccountId); setOffers((offerData ?? []) as Offer[]); } else setOffers([]);
     if (role === "advertiser") {
       const { data: advertiser } = await supabase.from("advertiser_profiles").select("id").eq("user_id", authData.user.id).maybeSingle();
@@ -271,7 +321,7 @@ export function PublicShowcaseClient() {
       const acceptedCutoff = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
       const viewerPromise = detectViewer().catch(() => {});
       const [requestsRes, { data: acceptedOfferRows }] = await Promise.all([
-        fetch("/api/showcase/requests", { cache: "no-store" }),
+        fetch("/api/showcase/requests", { cache: "no-store", credentials: "include" }),
         supabase
           .from("offers")
           .select("travel_request_id, updated_at")
@@ -293,7 +343,7 @@ export function PublicShowcaseClient() {
       if (acceptedIds.size > 0) {
         const concludedRes = await fetch(
           `/api/showcase/requests?ids=${encodeURIComponent(Array.from(acceptedIds).join(","))}`,
-          { cache: "no-store" },
+          { cache: "no-store", credentials: "include" },
         );
         const concludedJson = (await concludedRes.json()) as { requests?: TravelRequest[] };
         if (concludedRes.ok) {
@@ -419,13 +469,24 @@ export function PublicShowcaseClient() {
 
   const visibleHotels = useMemo(() => hotels.filter((h) => h.provider_kind !== "agency").filter(matchesSelectedCity), [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
   const visibleAgencies = useMemo(() => hotels.filter((h) => h.provider_kind === "agency").filter(matchesSelectedCity), [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
+  const isHotel = viewer.role === "hotel" && Boolean(viewer.hotelAccountId);
   const displayRequests = useMemo(() => {
+    if (isHotel) return requests.filter(matchesHotelCity);
     const matched = requests.filter(matchesSelectedCity);
     if (hasSelectedCity) return matched;
     return shuffleItems(matched).slice(0, RANDOM_REQUESTS_SHOW);
-  }, [requests, hasSelectedCity, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
+  }, [
+    requests,
+    hasSelectedCity,
+    selectedCity.city_id,
+    selectedCity.city_name,
+    selectedCity.country_code,
+    isHotel,
+    viewer.hotelCityId,
+    viewer.hotelCityName,
+    viewer.hotelCountryCode,
+  ]);
   const offeredRequestIds = useMemo(() => new Set(offers.map((offer) => offer.travel_request_id)), [offers]);
-  const isHotel = viewer.role === "hotel" && Boolean(viewer.hotelAccountId);
 
   function renderRequestCard(request: TravelRequest) {
     const hasOffer = offeredRequestIds.has(request.id);
@@ -605,11 +666,19 @@ export function PublicShowcaseClient() {
 <div className="relative z-0 mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
       <HorizontalSlider
         title={
-          hasSelectedCity
-            ? `${displayRequests.length} richieste attive a ${selectedCity.city_name}`
-            : `${displayRequests.length} richieste in evidenza`
+          isHotel && viewer.hotelCityName
+            ? `${displayRequests.length} richieste attive a ${viewer.hotelCityName}`
+            : hasSelectedCity
+              ? `${displayRequests.length} richieste attive a ${selectedCity.city_name}`
+              : `${displayRequests.length} richieste in evidenza`
         }
-        subtitle={hasSelectedCity ? "Richieste di soggiorno per la destinazione selezionata." : "Selezione casuale di richieste attive da tutto il catalogo."}
+        subtitle={
+          isHotel
+            ? "Richieste di soggiorno pubblicate nella tua città."
+            : hasSelectedCity
+              ? "Richieste di soggiorno per la destinazione selezionata."
+              : "Selezione casuale di richieste attive da tutto il catalogo."
+        }
         itemCount={!loading && !error ? displayRequests.length : 0}
       >
         {error ? <div className="w-full rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}
@@ -618,9 +687,11 @@ export function PublicShowcaseClient() {
           <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center">
             <p className="font-semibold">Nessuna richiesta attiva</p>
             <p className="mt-2 text-sm text-zinc-500">
-              {hasSelectedCity
-                ? `Al momento non ci sono richieste attive per ${selectedCity.city_name}.`
-                : "Al momento non ci sono richieste pubbliche disponibili."}
+              {isHotel && viewer.hotelCityName
+                ? `Al momento non ci sono richieste attive per ${viewer.hotelCityName}.`
+                : hasSelectedCity
+                  ? `Al momento non ci sono richieste attive per ${selectedCity.city_name}.`
+                  : "Al momento non ci sono richieste pubbliche disponibili."}
             </p>
             {viewer.role !== "hotel" ? <Link href={createRequestHref} className="hd-cta-orange mt-4">Crea la tua richiesta</Link> : null}
           </div>

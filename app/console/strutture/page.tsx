@@ -1,5 +1,6 @@
 import { AccountStatusSelect } from "@/components/console/AccountStatusSelect";
 import { ConsolePageHeader } from "@/components/console/ConsolePageHeader";
+import { ConsoleSearchBanner } from "@/components/console/ConsoleSearchBanner";
 import { DataTable } from "@/components/console/DataTable";
 import { DeleteButton } from "@/components/console/DeleteButton";
 import { ImpersonateButton } from "@/components/console/ImpersonateButton";
@@ -10,17 +11,23 @@ import { structureTypeLabels } from "@/types/app";
 import { getServerTranslations } from "@/lib/i18n/get-translations";
 import { isServiceRoleConfigured } from "@/lib/utils/env";
 
-export default async function ConsoleStrutturePage() {
+export default async function ConsoleStrutturePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string }>;
+}) {
   const t = await getServerTranslations();
   if (!isServiceRoleConfigured()) {
     return <ConsolePageHeader title={t.console.pages.structures.title} description={t.console.noServiceRole} />;
   }
 
-  const hotels = await listHotels();
+  const { q } = await searchParams;
+  const hotels = await listHotels(q);
 
   return (
     <>
       <ConsolePageHeader title={t.console.pages.structures.title} description={t.console.pages.structures.description} />
+      <ConsoleSearchBanner query={q} clearHref="/console/strutture" />
       <DataTable
         columns={[
           { key: "name", label: "Struttura" },

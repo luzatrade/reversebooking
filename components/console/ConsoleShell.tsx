@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { LogoutButton } from "@/components/auth/LogoutButton";
+import { AdminSearchPalette } from "@/components/console/AdminSearchPalette";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { BRAND_DISPLAY } from "@/lib/legal/company";
 import { cn } from "@/lib/utils";
@@ -45,6 +46,7 @@ export function ConsoleShell({
             </span>
           </div>
           <div className="flex items-center gap-3 text-sm">
+            <AdminSearchPalette />
             <span className="hidden text-zinc-500 md:inline">{email}</span>
             <Link href="/" className="font-medium text-[#0f4c81] hover:underline">
               {t.console.goToSite}

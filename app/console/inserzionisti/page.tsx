@@ -1,4 +1,5 @@
 import { ConsolePageHeader } from "@/components/console/ConsolePageHeader";
+import { ConsoleSearchBanner } from "@/components/console/ConsoleSearchBanner";
 import { DataTable } from "@/components/console/DataTable";
 import { DeleteButton } from "@/components/console/DeleteButton";
 import { ImpersonateButton } from "@/components/console/ImpersonateButton";
@@ -9,18 +10,24 @@ import { advertiserTypeLabels } from "@/types/app";
 import { getServerTranslations } from "@/lib/i18n/get-translations";
 import { isServiceRoleConfigured } from "@/lib/utils/env";
 
-export default async function ConsoleInserzionistiPage() {
+export default async function ConsoleInserzionistiPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string }>;
+}) {
   const t = await getServerTranslations();
   if (!isServiceRoleConfigured()) {
     return <ConsolePageHeader title={t.console.pages.advertisers.title} description={t.console.noServiceRole} />;
   }
 
-  const advertisers = await listAdvertisers();
+  const { q } = await searchParams;
+  const advertisers = await listAdvertisers(q);
   const emails = await profileEmailsByUserIds(advertisers.map((a) => a.user_id));
 
   return (
     <>
       <ConsolePageHeader title={t.console.pages.advertisers.title} description={t.console.pages.advertisers.description} />
+      <ConsoleSearchBanner query={q} clearHref="/console/inserzionisti" />
       <DataTable
         columns={[
           { key: "name", label: "Nome / Azienda" },

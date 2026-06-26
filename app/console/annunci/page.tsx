@@ -1,4 +1,5 @@
 import { ConsolePageHeader } from "@/components/console/ConsolePageHeader";
+import { ConsoleSearchBanner } from "@/components/console/ConsoleSearchBanner";
 import { DataTable } from "@/components/console/DataTable";
 import { DeleteButton } from "@/components/console/DeleteButton";
 import { RequestStatusSelect } from "@/components/console/RequestStatusSelect";
@@ -8,17 +9,23 @@ import { formatDate, formatMoney } from "@/lib/console/format";
 import { getServerTranslations } from "@/lib/i18n/get-translations";
 import { isServiceRoleConfigured } from "@/lib/utils/env";
 
-export default async function ConsoleAnnunciPage() {
+export default async function ConsoleAnnunciPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string }>;
+}) {
   const t = await getServerTranslations();
   if (!isServiceRoleConfigured()) {
     return <ConsolePageHeader title={t.console.pages.listings.title} description={t.console.noServiceRole} />;
   }
 
-  const requests = await listTravelRequests();
+  const { q } = await searchParams;
+  const requests = await listTravelRequests(q);
 
   return (
     <>
       <ConsolePageHeader title={t.console.pages.listings.title} description={t.console.pages.listings.description} />
+      <ConsoleSearchBanner query={q} clearHref="/console/annunci" />
       <DataTable
         columns={[
           { key: "destination", label: "Destinazione" },
