@@ -4,7 +4,8 @@ import Link from "next/link";
 import { Building2, Euro } from "lucide-react";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { getStructureTypeLabels } from "@/lib/i18n/labels";
-import { structureProfileHref, structureRequestHref } from "@/lib/showcase/structureExploreLinks";
+import { structureProfileHrefFromExploreMap } from "@/lib/showcase/exploreMapReturn";
+import { structureRequestHref } from "@/lib/showcase/structureExploreLinks";
 import type { StructureExploreHotel } from "@/components/showcase/StructureExploreCard";
 
 type StructureExploreActionSheetProps = {
@@ -61,7 +62,7 @@ export function StructureExploreActionSheet({
 
       <div className={`mt-2 grid gap-1.5 md:mt-3 md:gap-2 ${hideRequestButton ? "grid-cols-1" : "grid-cols-2"}`}>
         <Link
-          href={structureProfileHref(hotel)}
+          href={structureProfileHrefFromExploreMap(hotel)}
           className="inline-flex min-h-9 items-center justify-center rounded-full bg-[#e8f0f8] px-2.5 text-[11px] font-semibold text-[#0f4c81] transition hover:bg-[#d4e4f2] md:min-h-12 md:px-4 md:text-sm md:font-bold"
         >
           {t.showcase.cardProfile}

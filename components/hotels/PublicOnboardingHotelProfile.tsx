@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { useParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 import { ArrowLeft, ExternalLink, Globe, Mail, MapPin, Phone, PhoneCall } from "lucide-react";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { formatMessage } from "@/lib/i18n/format";
@@ -15,6 +15,7 @@ import {
   normalizeWebsiteUrl,
 } from "@/lib/hotels/publicContactLinks";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
+import { exploreMapBackHref } from "@/lib/showcase/exploreMapReturn";
 
 type OnboardingProfile = {
   id: string;
@@ -34,6 +35,7 @@ const ONBOARDING_SELECT =
 
 export function PublicOnboardingHotelProfile() {
   const { t } = useLanguage();
+  const searchParams = useSearchParams();
   const params = useParams<{ id: string }>();
   const hotelId = params.id;
   const [hotel, setHotel] = useState<OnboardingProfile | null>(null);
@@ -82,14 +84,21 @@ export function PublicOnboardingHotelProfile() {
     (cityId?.startsWith("GB-") ? "United Kingdom" : "Italia");
   const isClaimed = hotel?.status === "claimed";
   const isPendingVerification = hotel?.status === "pending_verification";
+  const mapBackHref = hotel
+    ? exploreMapBackHref(
+        searchParams,
+        { city_id: cityId, city_name: hotel.city_name, country_code: cityId?.split("-")[0] ?? "IT" },
+        hotelId,
+      )
+    : null;
 
   return (
     <div className="space-y-6">
       <Link
-        href="/"
+        href={mapBackHref ?? "/"}
         className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white"
       >
-        <ArrowLeft className="h-4 w-4" /> {t.hotel.backToShowcase}
+        <ArrowLeft className="h-4 w-4" /> {mapBackHref ? t.hotel.backToExploreMap : t.hotel.backToShowcase}
       </Link>
 
       {error ? <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}

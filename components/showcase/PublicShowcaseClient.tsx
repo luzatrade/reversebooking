@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Briefcase, Building2, CalendarDays, CheckCircle, Euro, MapPin, Users } from "lucide-react";
 import { getCityHeroImage } from "@/lib/destination-slider/cityPhotos";
 import { CurrencySwitcher } from "@/components/currency/CurrencySwitcher";
@@ -209,6 +209,7 @@ function createRequestHrefForHotel(hotel: Pick<HotelAccount, "id" | "city_id" | 
 export function PublicShowcaseClient() {
   const { locale, t } = useLanguage();
   const structureTypeLabels = getStructureTypeLabels(locale);
+  const router = useRouter();
   const searchParams = useSearchParams();
   const [requests, setRequests] = useState<TravelRequest[]>([]);
   const [hotels, setHotels] = useState<HotelAccount[]>([]);
@@ -232,6 +233,7 @@ export function PublicShowcaseClient() {
   const [agencyOffers, setAgencyOffers] = useState<CatalogOfferListItem[]>([]);
   const [offersLoading, setOffersLoading] = useState(true);
   const [mapExploreOpen, setMapExploreOpen] = useState(false);
+  const mapHotelId = searchParams.get("map_hotel")?.trim() || null;
 
   const hasSelectedCity = Boolean(selectedCity.city_name.trim());
   const createRequestBase = hasSelectedCity ? `/inserzionista/crea-annuncio?city_id=${encodeURIComponent(selectedCity.city_id)}&city=${encodeURIComponent(selectedCity.city_name)}` : "/inserzionista/crea-annuncio";
@@ -248,12 +250,14 @@ export function PublicShowcaseClient() {
   useEffect(() => {
     const cityId = searchParams.get("city_id")?.trim();
     const cityName = searchParams.get("city")?.trim();
+    const openMap = searchParams.get("map") === "1";
     if (!cityId && !cityName) return;
 
     if (cityId) {
       const known = findCityById(cityId);
       if (known.city_id === cityId) {
         setSelectedCity(known);
+        if (openMap) setMapExploreOpen(true);
         return;
       }
     }
@@ -262,11 +266,23 @@ export function PublicShowcaseClient() {
       const canonicalId = resolveCanonicalCityId({ cityName, cityId });
       if (canonicalId) {
         setSelectedCity(findCityById(canonicalId));
+        if (openMap) setMapExploreOpen(true);
         return;
       }
-      setSelectedCity(createWorldCity(cityId?.match(/^([A-Z]{2})-/)?.[1] ?? "IT", cityName));
+      setSelectedCity(createWorldCity(cityId?.match(/^([A-Z]{2})-/)?.[1] ?? searchParams.get("country")?.trim().toUpperCase() ?? "IT", cityName));
+      if (openMap) setMapExploreOpen(true);
     }
   }, [searchParams]);
+
+  function closeExploreMap() {
+    setMapExploreOpen(false);
+    if (searchParams.get("map") !== "1") return;
+    const params = new URLSearchParams(searchParams.toString());
+    params.delete("map");
+    params.delete("map_hotel");
+    const query = params.toString();
+    router.replace(query ? `/?${query}` : "/", { scroll: false });
+  }
 
   function matchesHotelCity(item: { city_id?: string | null; city_name?: string | null; country_code?: string | null }) {
     if (!viewer.hotelCityId) return false;
@@ -828,13 +844,14 @@ export function PublicShowcaseClient() {
 
       <HotelsExploreMapModal
         open={mapExploreOpen && hasSelectedCity}
-        onClose={() => setMapExploreOpen(false)}
+        onClose={closeExploreMap}
         cityName={selectedCity.city_name}
         cityId={selectedCity.city_id}
         countryCode={selectedCity.country_code}
         hotels={visibleHotels}
         hotelIdsWithOffer={hotelIdsWithLastMinuteOffer}
         hideRequestButton={isHotel}
+        initialActiveHotelId={mapHotelId}
       />
     </div>
     </main>

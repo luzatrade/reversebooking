@@ -25,6 +25,7 @@ type HotelsExploreMapModalProps = {
   hotels: StructureExploreHotel[];
   hotelIdsWithOffer: Set<string>;
   hideRequestButton?: boolean;
+  initialActiveHotelId?: string | null;
 };
 
 export function HotelsExploreMapModal({
@@ -36,6 +37,7 @@ export function HotelsExploreMapModal({
   hotels,
   hotelIdsWithOffer,
   hideRequestButton = false,
+  initialActiveHotelId = null,
 }: HotelsExploreMapModalProps) {
   const { t } = useLanguage();
   const [mounted, setMounted] = useState(false);
@@ -98,6 +100,7 @@ export function HotelsExploreMapModal({
             centerCountryCode={countryCode}
             hotelIdsWithOffer={hotelIdsWithOffer}
             hideRequestButton={hideRequestButton}
+            initialActiveHotelId={initialActiveHotelId}
           />
         </div>
       </div>

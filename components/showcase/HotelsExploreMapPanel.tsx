@@ -16,6 +16,7 @@ type HotelsExploreMapPanelProps = {
   centerCountryCode?: string | null;
   hotelIdsWithOffer: Set<string>;
   hideRequestButton?: boolean;
+  initialActiveHotelId?: string | null;
 };
 
 function escapeHtml(value: string) {
@@ -49,12 +50,13 @@ export function HotelsExploreMapPanel({
   centerCountryCode,
   hotelIdsWithOffer,
   hideRequestButton = false,
+  initialActiveHotelId = null,
 }: HotelsExploreMapPanelProps) {
   const { t } = useLanguage();
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
   const markersRef = useRef<Map<string, L.Marker>>(new Map());
-  const [activeHotelId, setActiveHotelId] = useState<string | null>(hotels[0]?.id ?? null);
+  const [activeHotelId, setActiveHotelId] = useState<string | null>(initialActiveHotelId ?? hotels[0]?.id ?? null);
 
   const positionedHotels = useMemo(
     () =>
@@ -127,6 +129,13 @@ export function HotelsExploreMapPanel({
       map.fitBounds(bounds.pad(0.18), { animate: false });
     }
 
+    const focusId =
+      initialActiveHotelId && markersRef.current.has(initialActiveHotelId) ? initialActiveHotelId : null;
+    if (focusId) {
+      setActiveHotelId(focusId);
+      map.panTo(markersRef.current.get(focusId)!.getLatLng(), { animate: false });
+    }
+
     mapRef.current = map;
 
     return () => {
@@ -134,12 +143,16 @@ export function HotelsExploreMapPanel({
       mapRef.current = null;
       markersRef.current.clear();
     };
-  }, [centerCityName, centerCityId, centerCountryCode, positionedHotels, hotelIdsWithOffer, selectHotel]);
+  }, [centerCityName, centerCityId, centerCountryCode, positionedHotels, hotelIdsWithOffer, selectHotel, initialActiveHotelId]);
 
   useEffect(() => {
+    if (initialActiveHotelId && hotels.some((hotel) => hotel.id === initialActiveHotelId)) {
+      setActiveHotelId(initialActiveHotelId);
+      return;
+    }
     if (activeHotelId && hotels.some((hotel) => hotel.id === activeHotelId)) return;
     if (hotels[0]?.id) setActiveHotelId(hotels[0].id);
-  }, [activeHotelId, hotels]);
+  }, [activeHotelId, hotels, initialActiveHotelId]);
 
   return (
     <div className="flex h-full min-h-0 flex-col">

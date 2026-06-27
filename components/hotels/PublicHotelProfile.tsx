@@ -2,14 +2,16 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { useParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 import { ArrowLeft, Mail, MapPin, Phone, PhoneCall } from "lucide-react";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { FavoriteHotelButton } from "@/components/favorites/FavoriteHotelButton";
 import { formatMessage } from "@/lib/i18n/format";
 import { getServiceLabels, getStructureTypeLabels } from "@/lib/i18n/labels";
 import { BRAND_NAME } from "@/lib/legal/company";
+import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
+import { exploreMapBackHref } from "@/lib/showcase/exploreMapReturn";
 import type { StructureType } from "@/types/app";
 
 type HotelProfile = {
@@ -43,6 +45,7 @@ function activeServiceLabels(services: Record<string, boolean> | null, labels: R
 
 export function PublicHotelProfile() {
   const { locale, t } = useLanguage();
+  const searchParams = useSearchParams();
   const structureTypeLabels = getStructureTypeLabels(locale);
   const serviceLabelMap = getServiceLabels(locale);
   const params = useParams<{ id: string }>();
@@ -106,11 +109,22 @@ export function PublicHotelProfile() {
 
   const services = activeServiceLabels(hotel?.services ?? null, serviceLabelMap);
   const isAgency = hotel?.provider_kind === "agency";
+  const mapBackHref = hotel
+    ? exploreMapBackHref(
+        searchParams,
+        {
+          city_id: resolveCanonicalCityId({ cityName: hotel.city_name }),
+          city_name: hotel.city_name,
+          country_code: null,
+        },
+        hotelId,
+      )
+    : null;
 
   return (
     <div className="space-y-6">
-      <Link href="/" className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white">
-        <ArrowLeft className="h-4 w-4" /> {t.hotel.backToHome}
+      <Link href={mapBackHref ?? "/"} className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white">
+        <ArrowLeft className="h-4 w-4" /> {mapBackHref ? t.hotel.backToExploreMap : t.hotel.backToHome}
       </Link>
 
       {error ? <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}
