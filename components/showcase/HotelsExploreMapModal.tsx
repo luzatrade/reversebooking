@@ -20,6 +20,8 @@ type HotelsExploreMapModalProps = {
   open: boolean;
   onClose: () => void;
   cityName: string;
+  cityId?: string | null;
+  countryCode?: string | null;
   hotels: StructureExploreHotel[];
   hotelIdsWithOffer: Set<string>;
   hideRequestButton?: boolean;
@@ -29,6 +31,8 @@ export function HotelsExploreMapModal({
   open,
   onClose,
   cityName,
+  cityId,
+  countryCode,
   hotels,
   hotelIdsWithOffer,
   hideRequestButton = false,
@@ -89,6 +93,8 @@ export function HotelsExploreMapModal({
           <HotelsExploreMapPanel
             hotels={hotels}
             centerCityName={cityName}
+            centerCityId={cityId}
+            centerCountryCode={countryCode}
             hotelIdsWithOffer={hotelIdsWithOffer}
             hideRequestButton={hideRequestButton}
           />

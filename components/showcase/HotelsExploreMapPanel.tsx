@@ -10,6 +10,8 @@ import { StructureExploreCard, type StructureExploreHotel } from "@/components/s
 type HotelsExploreMapPanelProps = {
   hotels: StructureExploreHotel[];
   centerCityName: string;
+  centerCityId?: string | null;
+  centerCountryCode?: string | null;
   hotelIdsWithOffer: Set<string>;
   hideRequestButton?: boolean;
 };
@@ -41,6 +43,8 @@ function markerHtml(hotel: StructureExploreHotel, hasOffer: boolean) {
 export function HotelsExploreMapPanel({
   hotels,
   centerCityName,
+  centerCityId,
+  centerCountryCode,
   hotelIdsWithOffer,
   hideRequestButton = false,
 }: HotelsExploreMapPanelProps) {
@@ -57,11 +61,15 @@ export function HotelsExploreMapPanel({
     () =>
       hotels
         .map((hotel) => {
-          const position = resolveHotelPosition(hotel, centerCityName);
+          const position = resolveHotelPosition(hotel, {
+            cityName: centerCityName,
+            cityId: centerCityId,
+            countryCode: centerCountryCode,
+          });
           return position ? { hotel, position } : null;
         })
         .filter(Boolean) as Array<{ hotel: StructureExploreHotel; position: [number, number] }>,
-    [hotels, centerCityName],
+    [hotels, centerCityName, centerCityId, centerCountryCode],
   );
 
   const focusMarker = useCallback((hotelId: string, pan = true) => {
@@ -96,7 +104,7 @@ export function HotelsExploreMapPanel({
       markersRef.current.clear();
     }
 
-    const { center, zoom } = mapCenterForCity(centerCityName);
+    const { center, zoom } = mapCenterForCity(centerCityName, centerCityId, centerCountryCode);
     const map = L.map(container, {
       center,
       zoom,
@@ -139,7 +147,7 @@ export function HotelsExploreMapPanel({
       mapRef.current = null;
       markersRef.current.clear();
     };
-  }, [centerCityName, positionedHotels, hotelIdsWithOffer, focusCard, focusMarker]);
+  }, [centerCityName, centerCityId, centerCountryCode, positionedHotels, hotelIdsWithOffer, focusCard, focusMarker]);
 
   useEffect(() => {
     const slider = sliderRef.current;

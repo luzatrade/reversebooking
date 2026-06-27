@@ -830,6 +830,8 @@ export function PublicShowcaseClient() {
         open={mapExploreOpen && hasSelectedCity}
         onClose={() => setMapExploreOpen(false)}
         cityName={selectedCity.city_name}
+        cityId={selectedCity.city_id}
+        countryCode={selectedCity.country_code}
         hotels={visibleHotels}
         hotelIdsWithOffer={hotelIdsWithLastMinuteOffer}
         hideRequestButton={isHotel}
