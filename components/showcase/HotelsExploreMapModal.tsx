@@ -74,19 +74,19 @@ export function HotelsExploreMapModal({
         aria-label={t.showcase.exploreMapCta}
         className="relative flex h-full w-full min-h-0 flex-col overflow-hidden bg-white md:h-[min(90vh,820px)] md:max-w-6xl md:rounded-3xl md:shadow-2xl"
       >
-        <header className="flex shrink-0 items-center justify-between gap-3 border-b border-zinc-200 px-4 py-3 md:px-5">
+        <header className="flex shrink-0 items-center justify-between gap-3 border-b border-zinc-200 px-3 py-2 md:px-5 md:py-3">
           <div className="min-w-0">
             <p className="truncate text-sm font-semibold text-zinc-900">{t.showcase.exploreMapTitle}</p>
             <p className="truncate text-xs text-zinc-500">{cityName}</p>
-            <p className="mt-0.5 truncate text-[11px] text-zinc-400">{t.showcase.exploreMapSliderHint}</p>
+            <p className="mt-0.5 hidden truncate text-[11px] text-zinc-400 md:block">{t.showcase.exploreMapSliderHint}</p>
           </div>
           <button
             type="button"
             onClick={onClose}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-zinc-200 bg-white text-zinc-700 transition hover:bg-zinc-50"
+            className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-zinc-200 bg-white text-zinc-700 transition hover:bg-zinc-50 md:h-10 md:w-10"
             aria-label={t.common.close}
           >
-            <X className="h-5 w-5" />
+            <X className="h-4 w-4 md:h-5 md:w-5" />
           </button>
         </header>
 

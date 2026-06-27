@@ -22,7 +22,7 @@ export function StructureExploreBrowseStrip({
   if (hotels.length <= 1) return null;
 
   return (
-    <div className="shrink-0 border-t border-zinc-200 bg-zinc-50 px-4 py-2.5 sm:px-5">
+    <div className="hidden shrink-0 border-t border-zinc-200 bg-zinc-50 px-4 py-2.5 md:block sm:px-5">
       <p className="mb-2 text-[11px] font-semibold uppercase tracking-wide text-zinc-500">{t.showcase.exploreMapBrowseTitle}</p>
       <div className="flex gap-2 overflow-x-auto overscroll-x-contain pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {hotels.map((hotel) => {
