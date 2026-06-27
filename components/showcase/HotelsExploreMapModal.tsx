@@ -78,6 +78,7 @@ export function HotelsExploreMapModal({
           <div className="min-w-0">
             <p className="truncate text-sm font-semibold text-zinc-900">{t.showcase.exploreMapTitle}</p>
             <p className="truncate text-xs text-zinc-500">{cityName}</p>
+            <p className="mt-0.5 truncate text-[11px] text-zinc-400">{t.showcase.exploreMapSliderHint}</p>
           </div>
           <button
             type="button"

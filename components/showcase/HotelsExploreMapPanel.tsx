@@ -4,8 +4,10 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
+import { StructureExploreActionSheet } from "@/components/showcase/StructureExploreActionSheet";
+import { StructureExploreBrowseStrip } from "@/components/showcase/StructureExploreBrowseStrip";
+import type { StructureExploreHotel } from "@/components/showcase/StructureExploreCard";
 import { mapCenterForCity, resolveHotelPosition } from "@/lib/showcase/hotelMapCoords";
-import { StructureExploreCard, type StructureExploreHotel } from "@/components/showcase/StructureExploreCard";
 
 type HotelsExploreMapPanelProps = {
   hotels: StructureExploreHotel[];
@@ -50,11 +52,8 @@ export function HotelsExploreMapPanel({
 }: HotelsExploreMapPanelProps) {
   const { t } = useLanguage();
   const mapContainerRef = useRef<HTMLDivElement>(null);
-  const sliderRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
   const markersRef = useRef<Map<string, L.Marker>>(new Map());
-  const syncingFromMapRef = useRef(false);
-  const syncingFromSliderRef = useRef(false);
   const [activeHotelId, setActiveHotelId] = useState<string | null>(hotels[0]?.id ?? null);
 
   const positionedHotels = useMemo(
@@ -72,26 +71,18 @@ export function HotelsExploreMapPanel({
     [hotels, centerCityName, centerCityId, centerCountryCode],
   );
 
-  const focusMarker = useCallback((hotelId: string, pan = true) => {
+  const activeHotel = useMemo(
+    () => hotels.find((hotel) => hotel.id === activeHotelId) ?? hotels[0] ?? null,
+    [activeHotelId, hotels],
+  );
+
+  const selectHotel = useCallback((hotelId: string, pan = true) => {
+    setActiveHotelId(hotelId);
     const marker = markersRef.current.get(hotelId);
     const map = mapRef.current;
-    if (!marker || !map) return;
-    setActiveHotelId(hotelId);
-    if (pan) {
+    if (pan && marker && map) {
       map.panTo(marker.getLatLng(), { animate: true, duration: 0.45 });
     }
-  }, []);
-
-  const focusCard = useCallback((hotelId: string) => {
-    const slider = sliderRef.current;
-    if (!slider) return;
-    const card = slider.querySelector(`[data-hotel-id="${hotelId}"]`);
-    if (!(card instanceof HTMLElement)) return;
-    syncingFromMapRef.current = true;
-    card.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
-    window.setTimeout(() => {
-      syncingFromMapRef.current = false;
-    }, 450);
   }, []);
 
   useEffect(() => {
@@ -127,11 +118,7 @@ export function HotelsExploreMapPanel({
         iconAnchor: [0, 0],
       });
       const marker = L.marker(position, { icon, riseOnHover: true }).addTo(map);
-      marker.on("click", () => {
-        if (syncingFromSliderRef.current) return;
-        focusMarker(hotel.id);
-        focusCard(hotel.id);
-      });
+      marker.on("click", () => selectHotel(hotel.id));
       markersRef.current.set(hotel.id, marker);
     }
 
@@ -147,76 +134,38 @@ export function HotelsExploreMapPanel({
       mapRef.current = null;
       markersRef.current.clear();
     };
-  }, [centerCityName, centerCityId, centerCountryCode, positionedHotels, hotelIdsWithOffer, focusCard, focusMarker]);
+  }, [centerCityName, centerCityId, centerCountryCode, positionedHotels, hotelIdsWithOffer, selectHotel]);
 
   useEffect(() => {
-    const slider = sliderRef.current;
-    if (!slider || positionedHotels.length === 0) return;
-
-    const cards = Array.from(slider.querySelectorAll("[data-hotel-id]")) as HTMLElement[];
-    if (!cards.length) return;
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (syncingFromMapRef.current) return;
-        const visible = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-        if (!visible?.target) return;
-        const hotelId = visible.target.getAttribute("data-hotel-id");
-        if (!hotelId) return;
-        syncingFromSliderRef.current = true;
-        focusMarker(hotelId);
-        window.setTimeout(() => {
-          syncingFromSliderRef.current = false;
-        }, 450);
-      },
-      {
-        root: slider,
-        threshold: [0.55, 0.7, 0.85],
-      },
-    );
-
-    cards.forEach((card) => observer.observe(card));
-    return () => observer.disconnect();
-  }, [positionedHotels, focusMarker]);
-
-  useEffect(() => {
-    if (activeHotelId) return;
+    if (activeHotelId && hotels.some((hotel) => hotel.id === activeHotelId)) return;
     if (hotels[0]?.id) setActiveHotelId(hotels[0].id);
   }, [activeHotelId, hotels]);
 
   return (
     <div className="flex h-full min-h-0 flex-col">
-      <div className="hd-explore-map-shell min-h-0 flex-[1_1_50%] border-b border-zinc-200">
-        <div ref={mapContainerRef} className="hd-explore-map-canvas h-full w-full" />
+      <div className="hd-explore-map-shell relative min-h-0 flex-1">
+        <div ref={mapContainerRef} className="hd-explore-map-canvas absolute inset-0" />
       </div>
 
-      <div className="flex min-h-0 flex-[1_1_50%] flex-col bg-zinc-50">
-        <div className="border-b border-zinc-200 px-4 py-3">
-          <p className="text-sm font-semibold text-zinc-900">{t.showcase.exploreMapSliderTitle}</p>
-          <p className="text-xs text-zinc-500">{t.showcase.exploreMapSliderHint}</p>
+      {hotels.length === 0 ? (
+        <div className="shrink-0 border-t border-zinc-200 bg-zinc-50 px-4 py-6 text-center text-sm text-zinc-500">
+          {t.showcase.exploreMapEmpty}
         </div>
-        <div
-          ref={sliderRef}
-          className="flex flex-1 snap-x snap-mandatory gap-4 overflow-x-auto overscroll-x-contain px-4 py-4 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-        >
-          {hotels.length === 0 ? (
-            <div className="flex w-full items-center justify-center rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-sm text-zinc-500">
-              {t.showcase.exploreMapEmpty}
-            </div>
-          ) : (
-            hotels.map((hotel) => (
-              <StructureExploreCard
-                key={hotel.id}
-                hotel={hotel}
-                hideRequestButton={hideRequestButton}
-                className={activeHotelId === hotel.id ? "ring-2 ring-[#f97316]/70 ring-offset-2" : ""}
-              />
-            ))
-          )}
-        </div>
-      </div>
+      ) : activeHotel ? (
+        <>
+          <StructureExploreActionSheet
+            hotel={activeHotel}
+            hideRequestButton={hideRequestButton}
+            hasLastMinuteOffer={hotelIdsWithOffer.has(activeHotel.id)}
+          />
+          <StructureExploreBrowseStrip
+            hotels={hotels}
+            activeHotelId={activeHotel.id}
+            hotelIdsWithOffer={hotelIdsWithOffer}
+            onSelect={(hotelId) => selectHotel(hotelId)}
+          />
+        </>
+      ) : null}
     </div>
   );
 }

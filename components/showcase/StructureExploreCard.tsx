@@ -4,6 +4,11 @@ import Link from "next/link";
 import { Building2, Euro, MapPin } from "lucide-react";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { getStructureTypeLabels } from "@/lib/i18n/labels";
+import {
+  structureMapsHref,
+  structureProfileHref,
+  structureRequestHref,
+} from "@/lib/showcase/structureExploreLinks";
 import type { StructureType } from "@/types/app";
 
 export type StructureExploreHotel = {
@@ -28,24 +33,14 @@ const ctaProfile =
 const ctaRequest =
   "inline-flex items-center justify-center gap-1.5 rounded-full bg-[#fff7ed] px-3.5 py-2 text-xs font-bold text-[#c2410c] shadow-sm transition hover:bg-[#ffedd5]";
 
-function countryLabel(code: string | null | undefined) {
+function countryLabel(code: string | null | undefined, locale: string) {
   const c = (code ?? "").trim().toUpperCase();
   if (!c) return null;
   try {
-    return new Intl.DisplayNames(["it"], { type: "region" }).of(c) ?? c;
+    return new Intl.DisplayNames([locale === "en" ? "en" : "it"], { type: "region" }).of(c) ?? c;
   } catch {
     return c;
   }
-}
-
-function mapsHref(hotel: StructureExploreHotel) {
-  const query = [hotel.property_name, hotel.specific_area, hotel.city_name].filter(Boolean).join(" ");
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
-}
-
-function createRequestHrefForHotel(hotel: Pick<StructureExploreHotel, "id" | "city_id" | "city_name">) {
-  if (!hotel.city_name.trim()) return "/inserzionista/crea-annuncio";
-  return `/inserzionista/crea-annuncio?city_id=${encodeURIComponent(hotel.city_id ?? "")}&city=${encodeURIComponent(hotel.city_name)}&hotel_id=${encodeURIComponent(hotel.id)}`;
 }
 
 function publicHotelDescription(description: string | null) {
@@ -71,7 +66,7 @@ type StructureExploreCardProps = {
 export function StructureExploreCard({ hotel, hideRequestButton = false, className = "" }: StructureExploreCardProps) {
   const { locale, t } = useLanguage();
   const structureTypeLabels = getStructureTypeLabels(locale);
-  const country = countryLabel(hotel.country_code);
+  const country = countryLabel(hotel.country_code, locale);
   const locationLine = `${structureTypeLabels[hotel.structure_type]} · ${hotel.city_name}${country ? `, ${country}` : ""}`;
   const description = publicHotelDescription(hotel.description);
 
@@ -93,20 +88,14 @@ export function StructureExploreCard({ hotel, hideRequestButton = false, classNa
         {description ? <p className="mt-2 line-clamp-2 text-sm text-zinc-600">{description}</p> : null}
         <div className="mt-4 flex-1" />
         <div className="flex flex-wrap items-center gap-2">
-          <a href={mapsHref(hotel)} target="_blank" rel="noreferrer" className={ctaMaps}>
+          <a href={structureMapsHref(hotel)} target="_blank" rel="noreferrer" className={ctaMaps}>
             <MapPin className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardMap}
           </a>
-          {hotel.isOnboarding ? (
-            <Link href={`/hotel/onboarding/${hotel.id}`} className={ctaProfile}>
-              {t.showcase.cardProfile}
-            </Link>
-          ) : (
-            <Link href={`/hotel/${hotel.id}`} className={ctaProfile}>
-              {t.showcase.cardProfile}
-            </Link>
-          )}
+          <Link href={structureProfileHref(hotel)} className={ctaProfile}>
+            {t.showcase.cardProfile}
+          </Link>
           {!hideRequestButton ? (
-            <Link href={createRequestHrefForHotel(hotel)} className={ctaRequest}>
+            <Link href={structureRequestHref(hotel)} className={ctaRequest}>
               <Euro className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardRequest}
             </Link>
           ) : null}

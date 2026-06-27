@@ -483,7 +483,11 @@ body {
   }
 
   .hd-explore-map-shell {
-    min-height: 42dvh;
+    min-height: 0;
+  }
+
+  .hd-explore-map-sheet {
+    padding-bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
   }
 }
 
