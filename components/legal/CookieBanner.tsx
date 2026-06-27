@@ -44,6 +44,15 @@ export function CookieBanner() {
     });
   }, []);
 
+  useEffect(() => {
+    if (!mounted) return;
+    document.body.classList.toggle("hd-cookie-banner-open", visible);
+    document.body.classList.toggle("hd-cookie-banner-custom", visible && customOpen);
+    return () => {
+      document.body.classList.remove("hd-cookie-banner-open", "hd-cookie-banner-custom");
+    };
+  }, [mounted, visible, customOpen]);
+
   const persist = useCallback((preferences: boolean, analytics: boolean) => {
     const payload: StoredCookieConsent = {
       policyVersion: COOKIE_POLICY_VERSION,

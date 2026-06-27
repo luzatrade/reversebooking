@@ -16,12 +16,54 @@ import { type WorldCity } from "@/lib/constants/world-cities";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { formatMessage } from "@/lib/i18n/format";
 import { getStructureTypeLabels } from "@/lib/i18n/labels";
+import { HotelLocationPicker } from "@/components/hotels/HotelLocationPicker";
+
 import type { StructureType } from "@/types/app";
 
-type HotelForm = { id: string; property_name: string; structure_type: StructureType; cin_code: string; description: string; full_address: string; country_code: string; country_name: string; city_name: string; city_id: string; specific_area: string; rooms_quantity: number; main_photo_url: string; gallery_photo_urls: string[]; google_maps_url: string; public_email: string; public_phone: string };
+type HotelForm = {
+  id: string;
+  property_name: string;
+  structure_type: StructureType;
+  cin_code: string;
+  description: string;
+  full_address: string;
+  country_code: string;
+  country_name: string;
+  city_name: string;
+  city_id: string;
+  specific_area: string;
+  rooms_quantity: number;
+  main_photo_url: string;
+  gallery_photo_urls: string[];
+  google_maps_url: string;
+  latitude: number | null;
+  longitude: number | null;
+  public_email: string;
+  public_phone: string;
+};
 const defaultCity = findCityById(null);
 const MAX_GALLERY_PHOTOS = 4;
-const emptyForm: HotelForm = { id: "", property_name: "", structure_type: "hotel", cin_code: "", description: "", full_address: "", country_code: defaultCity.country_code, country_name: defaultCity.country_name, city_name: defaultCity.city_name, city_id: defaultCity.city_id, specific_area: "", rooms_quantity: 1, main_photo_url: "", gallery_photo_urls: [], google_maps_url: "", public_email: "", public_phone: "" };
+const emptyForm: HotelForm = {
+  id: "",
+  property_name: "",
+  structure_type: "hotel",
+  cin_code: "",
+  description: "",
+  full_address: "",
+  country_code: defaultCity.country_code,
+  country_name: defaultCity.country_name,
+  city_name: defaultCity.city_name,
+  city_id: defaultCity.city_id,
+  specific_area: "",
+  rooms_quantity: 1,
+  main_photo_url: "",
+  gallery_photo_urls: [],
+  google_maps_url: "",
+  latitude: null,
+  longitude: null,
+  public_email: "",
+  public_phone: "",
+};
 function fileExtension(file: File) { if (file.type === "image/png") return "png"; if (file.type === "image/webp") return "webp"; return "jpg"; }
 
 export function EditHotelProfileForm() {
@@ -41,6 +83,8 @@ export function EditHotelProfileForm() {
   const [uploading, setUploading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
+  const [extractingCoords, setExtractingCoords] = useState(false);
+  const [mapsExtractMessage, setMapsExtractMessage] = useState<string | null>(null);
   const [hotelOperational, setHotelOperational] = useState(true);
 
   useEffect(() => {
@@ -61,7 +105,7 @@ export function EditHotelProfileForm() {
           supabase
             .from("hotel_accounts")
             .select(
-              "id, property_name, structure_type, cin_code, description, full_address, country_code, country_name, city_name, city_id, specific_area, rooms_quantity, main_photo_url, gallery_photo_urls, google_maps_url, public_email, public_phone, subscription_active, account_status, onboarding_hotel_id",
+              "id, property_name, structure_type, cin_code, description, full_address, country_code, country_name, city_name, city_id, specific_area, rooms_quantity, main_photo_url, gallery_photo_urls, google_maps_url, latitude, longitude, public_email, public_phone, subscription_active, account_status, onboarding_hotel_id",
             )
             .eq("user_id", user.id)
             .maybeSingle(),
@@ -84,7 +128,7 @@ export function EditHotelProfileForm() {
             const retry = await supabase
               .from("hotel_accounts")
               .select(
-                "id, property_name, structure_type, cin_code, description, full_address, country_code, country_name, city_name, city_id, specific_area, rooms_quantity, main_photo_url, gallery_photo_urls, google_maps_url, public_email, public_phone, subscription_active, account_status, onboarding_hotel_id",
+                "id, property_name, structure_type, cin_code, description, full_address, country_code, country_name, city_name, city_id, specific_area, rooms_quantity, main_photo_url, gallery_photo_urls, google_maps_url, latitude, longitude, public_email, public_phone, subscription_active, account_status, onboarding_hotel_id",
               )
               .eq("user_id", user.id)
               .maybeSingle();
@@ -127,6 +171,8 @@ export function EditHotelProfileForm() {
           main_photo_url: data.main_photo_url ?? "",
           gallery_photo_urls: data.gallery_photo_urls ?? [],
           google_maps_url: data.google_maps_url ?? "",
+          latitude: data.latitude != null ? Number(data.latitude) : null,
+          longitude: data.longitude != null ? Number(data.longitude) : null,
           public_email: data.public_email ?? "",
           public_phone: data.public_phone ?? "",
         });
@@ -148,7 +194,65 @@ export function EditHotelProfileForm() {
   async function onMainPhotoChange(event: ChangeEvent<HTMLInputElement>) { const file = event.target.files?.[0]; if (!file) return; setUploading(true); setError(null); setSuccess(null); try { const url = await uploadPhoto(file, "main"); update("main_photo_url", url); setSuccess(hp.mainPhotoUploaded); } catch (err) { setError(err instanceof Error ? err.message : hp.errorUpload); } finally { setUploading(false); event.target.value = ""; } }
   async function onGalleryPhotoChange(event: ChangeEvent<HTMLInputElement>) { const file = event.target.files?.[0]; if (!file) return; setUploading(true); setError(null); setSuccess(null); try { if (form.gallery_photo_urls.length >= MAX_GALLERY_PHOTOS) { setError(hp.maxGalleryPhotos); return; } const url = await uploadPhoto(file, "gallery"); update("gallery_photo_urls", [...form.gallery_photo_urls, url].slice(0, MAX_GALLERY_PHOTOS)); setSuccess(hp.galleryPhotoUploaded); } catch (err) { setError(err instanceof Error ? err.message : hp.errorUpload); } finally { setUploading(false); event.target.value = ""; } }
   function removeGalleryPhoto(index: number) { update("gallery_photo_urls", form.gallery_photo_urls.filter((_, photoIndex) => photoIndex !== index)); }
-  async function onSubmit(event: FormEvent<HTMLFormElement>) { event.preventDefault(); setSaving(true); setError(null); setSuccess(null); try { const supabase = createBrowserSupabaseClient(); const updatePayload: Record<string, unknown> = { property_name: form.property_name, structure_type: form.structure_type, cin_code: form.cin_code.trim() || null, description: form.description || null, full_address: form.full_address, country_code: form.country_code, country_name: form.country_name, city_name: form.city_name, city_id: form.city_id, specific_area: form.specific_area || null, rooms_quantity: form.rooms_quantity, main_photo_url: form.main_photo_url || null, gallery_photo_urls: form.gallery_photo_urls.slice(0, MAX_GALLERY_PHOTOS), google_maps_url: form.google_maps_url || null, public_email: form.public_email || null }; if (!onboardingHotelId) { updatePayload.public_phone = form.public_phone || null; } const { error: updateError } = await supabase.from("hotel_accounts").update(updatePayload).eq("id", form.id); if (updateError) { setError(updateError.message); return; } router.push(hotelOperational ? "/struttura/dashboard" : "/struttura/profilo"); return; } catch (err) { setError(err instanceof Error ? err.message : hp.errorSave); } finally { setSaving(false); } }
+
+  async function extractCoordsFromLink() {
+    const url = form.google_maps_url.trim();
+    if (!url) {
+      setMapsExtractMessage(hp.mapsExtractNeedUrl);
+      return;
+    }
+
+    setExtractingCoords(true);
+    setMapsExtractMessage(null);
+    setError(null);
+    try {
+      const supabase = createBrowserSupabaseClient();
+      const session = await supabase.auth.getSession();
+      const token = session.data.session?.access_token;
+      if (!token) {
+        setError(hp.loginRequired);
+        return;
+      }
+
+      const res = await fetch("/api/hotel/extract-coords", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify({ url }),
+      });
+      const data = (await res.json()) as {
+        latitude?: number;
+        longitude?: number;
+        error?: string;
+        hint?: string;
+      };
+
+      if (!res.ok) {
+        setMapsExtractMessage(data.hint ?? data.error ?? hp.mapsExtractFail);
+        return;
+      }
+
+      if (data.latitude == null || data.longitude == null) {
+        setMapsExtractMessage(hp.mapsExtractFail);
+        return;
+      }
+
+      setForm((current) => ({
+        ...current,
+        latitude: data.latitude ?? null,
+        longitude: data.longitude ?? null,
+      }));
+      setMapsExtractMessage(hp.mapsExtractOk);
+    } catch {
+      setMapsExtractMessage(hp.mapsExtractFail);
+    } finally {
+      setExtractingCoords(false);
+    }
+  }
+
+  async function onSubmit(event: FormEvent<HTMLFormElement>) { event.preventDefault(); setSaving(true); setError(null); setSuccess(null); try { const supabase = createBrowserSupabaseClient(); const updatePayload: Record<string, unknown> = { property_name: form.property_name, structure_type: form.structure_type, cin_code: form.cin_code.trim() || null, description: form.description || null, full_address: form.full_address, country_code: form.country_code, country_name: form.country_name, city_name: form.city_name, city_id: form.city_id, specific_area: form.specific_area || null, rooms_quantity: form.rooms_quantity, main_photo_url: form.main_photo_url || null, gallery_photo_urls: form.gallery_photo_urls.slice(0, MAX_GALLERY_PHOTOS), google_maps_url: form.google_maps_url || null, latitude: form.latitude, longitude: form.longitude, public_email: form.public_email || null }; if (!onboardingHotelId) { updatePayload.public_phone = form.public_phone || null; } const { error: updateError } = await supabase.from("hotel_accounts").update(updatePayload).eq("id", form.id); if (updateError) { setError(updateError.message); return; } router.push(hotelOperational ? "/struttura/dashboard" : "/struttura/profilo"); return; } catch (err) { setError(err instanceof Error ? err.message : hp.errorSave); } finally { setSaving(false); } }
   const phoneLocked = Boolean(onboardingHotelId);
   const needsPhoneVerification = phoneLocked && !phoneVerified;
   if (loading) return <div className="rounded-3xl border p-6 text-sm text-zinc-500">Caricamento profilo struttura...</div>;
@@ -173,5 +277,50 @@ export function EditHotelProfileForm() {
   <div className="grid gap-5 md:grid-cols-2"><label className="block text-sm font-medium">{hp.propertyName}<input value={form.property_name} onChange={(e) => update("property_name", e.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium">{hp.structureType}<select value={form.structure_type} onChange={(e) => update("structure_type", e.target.value as StructureType)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950">{Object.entries(structureTypeLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label><label className="block text-sm font-medium">{hp.cinOptional} <span className="text-zinc-400">({t.common.optional})</span><input value={form.cin_code} onChange={(e) => update("cin_code", e.target.value)} placeholder={hp.cinPlaceholder} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium">{hp.roomsUnits}<input type="number" min={1} value={form.rooms_quantity} onChange={(e) => update("rooms_quantity", Number(e.target.value))} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium md:col-span-2">{hp.description}<textarea value={form.description} onChange={(e) => update("description", e.target.value)} rows={5} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
   <section className="space-y-4 rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 md:col-span-2"><div><h2 className="font-semibold">{hp.photosTitle}</h2><p className="mt-1 text-sm text-zinc-500">{hp.photosHint}</p></div><div className="grid gap-4 md:grid-cols-[240px_1fr]"><div className="rounded-2xl border border-zinc-200 p-3 dark:border-zinc-800"><p className="text-sm font-medium">{hp.mainPhoto}</p><div className="mt-3 aspect-video overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-950">{form.main_photo_url ? <Image src={form.main_photo_url} alt={hp.mainPhoto} width={600} height={360} className="h-full w-full object-cover" /> : <div className="flex h-full items-center justify-center text-sm text-zinc-500">{hp.noPhoto}</div>}</div><label className="mt-3 inline-flex cursor-pointer items-center gap-2 rounded-full bg-zinc-950 px-4 py-2 text-sm font-semibold text-white dark:bg-white dark:text-zinc-950"><ImagePlus className="h-4 w-4" /> {uploading ? hp.uploading : hp.uploadMain}<input type="file" accept="image/jpeg,image/png,image/webp" onChange={onMainPhotoChange} disabled={uploading} className="sr-only" /></label></div><div className="rounded-2xl border border-zinc-200 p-3 dark:border-zinc-800"><div className="flex items-center justify-between gap-3"><p className="text-sm font-medium">{formatMessage(hp.additionalPhotos, { count: String(form.gallery_photo_urls.length) })}</p><label className={`inline-flex cursor-pointer items-center gap-2 rounded-full border px-4 py-2 text-sm font-semibold ${form.gallery_photo_urls.length >= MAX_GALLERY_PHOTOS ? "pointer-events-none opacity-50" : ""}`}><ImagePlus className="h-4 w-4" /> {hp.addPhoto}<input type="file" accept="image/jpeg,image/png,image/webp" onChange={onGalleryPhotoChange} disabled={uploading || form.gallery_photo_urls.length >= MAX_GALLERY_PHOTOS} className="sr-only" /></label></div><div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">{form.gallery_photo_urls.map((url, index) => <div key={url} className="relative aspect-video overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-950"><Image src={url} alt={`Foto hotel ${index + 1}`} width={300} height={180} className="h-full w-full object-cover" /><button type="button" onClick={() => removeGalleryPhoto(index)} className="absolute right-2 top-2 rounded-full bg-white/90 p-1 text-zinc-900 shadow-sm"><X className="h-4 w-4" /></button></div>)}{!form.gallery_photo_urls.length ? <p className="text-sm text-zinc-500">{hp.noAdditionalPhotos}</p> : null}</div></div></div></section>
   <label className="block text-sm font-medium md:col-span-2">{hp.fullAddress}<input value={form.full_address} onChange={(e) => update("full_address", e.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium">{hp.area}<input value={form.specific_area} onChange={(e) => update("specific_area", e.target.value)} placeholder={hp.areaPlaceholder} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
-  <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 md:col-span-2"><label className="block text-sm font-medium">{hp.mapsUrl}<input value={form.google_maps_url} onChange={(e) => update("google_maps_url", e.target.value)} placeholder={hp.mapsPlaceholder} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><div className="mt-3 rounded-2xl bg-zinc-50 p-4 text-sm text-zinc-600 dark:bg-zinc-950/60 dark:text-zinc-300"><p className="font-semibold text-zinc-800 dark:text-zinc-100">{hp.mapsHowTo}</p><ol className="mt-2 list-decimal space-y-1 pl-5"><li>{hp.mapsStep1}</li><li>{hp.mapsStep2}</li><li>{hp.mapsStep3}</li><li>{hp.mapsStep4}</li><li>{hp.mapsStep5}</li><li>{hp.mapsStep6}</li></ol></div></div><label className="block text-sm font-medium">{hp.publicEmail}<input value={form.public_email} onChange={(e) => update("public_email", e.target.value)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium">{hp.publicPhone}<input value={form.public_phone} onChange={(e) => update("public_phone", e.target.value)} readOnly={phoneLocked} className={`mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950 ${phoneLocked ? "cursor-not-allowed bg-zinc-100 text-zinc-600 dark:bg-zinc-900 dark:text-zinc-300" : ""}`} />{phoneLocked ? <span className="mt-1 block text-xs text-zinc-500">{hp.publicPhoneReadonly}</span> : null}</label></div><button disabled={saving || uploading || needsPhoneVerification} type="submit" className="rounded-full bg-zinc-950 px-6 py-3 text-sm font-semibold text-white disabled:opacity-60 dark:bg-white dark:text-zinc-950">{saving ? hp.saving : uploading ? hp.savingPhotos : hp.saveProfile}</button></form></div>;
+  <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 md:col-span-2 space-y-4">
+    <label className="block text-sm font-medium">{hp.mapsUrl}<input value={form.google_maps_url} onChange={(e) => { update("google_maps_url", e.target.value); setMapsExtractMessage(null); }} placeholder={hp.mapsPlaceholder} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
+    <div className="rounded-2xl bg-zinc-50 p-4 text-sm text-zinc-600 dark:bg-zinc-950/60 dark:text-zinc-300">
+      <p className="font-semibold text-zinc-800 dark:text-zinc-100">{hp.mapsHowTo}</p>
+      <ol className="mt-2 list-decimal space-y-1 pl-5">
+        <li>{hp.mapsStep1}</li>
+        <li>{hp.mapsStep2}</li>
+        <li>{hp.mapsStep3}</li>
+        <li>{hp.mapsStep4}</li>
+        <li>{hp.mapsStep5}</li>
+        <li>{hp.mapsStep6}</li>
+        <li>{hp.mapsStep7}</li>
+      </ol>
+    </div>
+    <div className="flex flex-wrap items-center gap-3">
+      <button type="button" onClick={() => void extractCoordsFromLink()} disabled={extractingCoords || !form.google_maps_url.trim()} className="rounded-full border border-zinc-300 bg-white px-4 py-2 text-sm font-semibold text-zinc-900 transition hover:bg-zinc-50 disabled:cursor-not-allowed disabled:opacity-50 dark:border-zinc-600 dark:bg-zinc-950 dark:text-zinc-50 dark:hover:bg-zinc-900">
+        {extractingCoords ? hp.mapsExtracting : hp.mapsExtractFromLink}
+      </button>
+      {mapsExtractMessage ? <p className="text-sm text-amber-800 dark:text-amber-200">{mapsExtractMessage}</p> : null}
+    </div>
+    <div className="space-y-2 border-t border-zinc-200 pt-4 dark:border-zinc-800">
+      <div>
+        <p className="text-sm font-semibold text-zinc-900 dark:text-zinc-50">{hp.mapsPositionTitle}</p>
+        <p className="mt-1 text-sm text-zinc-500">{hp.mapsPositionHint}</p>
+      </div>
+      <HotelLocationPicker
+        latitude={form.latitude}
+        longitude={form.longitude}
+        cityName={form.city_name}
+        cityId={form.city_id}
+        countryCode={form.country_code}
+        onChange={(coords) => {
+          setForm((current) => ({ ...current, latitude: coords.latitude, longitude: coords.longitude }));
+          setMapsExtractMessage(null);
+        }}
+      />
+      <p className="text-xs text-zinc-500">
+        {form.latitude != null && form.longitude != null
+          ? formatMessage(hp.mapsPositionCoords, {
+              lat: form.latitude.toFixed(6),
+              lng: form.longitude.toFixed(6),
+            })
+          : hp.mapsPositionMissing}
+      </p>
+    </div>
+  </div><label className="block text-sm font-medium">{hp.publicEmail}<input value={form.public_email} onChange={(e) => update("public_email", e.target.value)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium">{hp.publicPhone}<input value={form.public_phone} onChange={(e) => update("public_phone", e.target.value)} readOnly={phoneLocked} className={`mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950 ${phoneLocked ? "cursor-not-allowed bg-zinc-100 text-zinc-600 dark:bg-zinc-900 dark:text-zinc-300" : ""}`} />{phoneLocked ? <span className="mt-1 block text-xs text-zinc-500">{hp.publicPhoneReadonly}</span> : null}</label></div><button disabled={saving || uploading || needsPhoneVerification} type="submit" className="rounded-full bg-zinc-950 px-6 py-3 text-sm font-semibold text-white disabled:opacity-60 dark:bg-white dark:text-zinc-950">{saving ? hp.saving : uploading ? hp.savingPhotos : hp.saveProfile}</button></form></div>;
 }

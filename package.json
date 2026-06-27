@@ -16,7 +16,8 @@
     "seed:demo-drops": "node scripts/seed-demo-drops.mjs",
     "seed:city-requests": "node scripts/seed-demo-drops.mjs --fill-all --min-per-city 7",
     "seed:italy-add": "node scripts/seed-demo-drops.mjs --add-italy 3",
-    "harvest:onboarding-hotels": "node scripts/harvest-onboarding-hotels.mjs"
+    "harvest:onboarding-hotels": "node scripts/harvest-onboarding-hotels.mjs",
+    "backfill:hotel-coords": "npx tsx scripts/backfill-hotel-coords-from-maps.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.4.1",

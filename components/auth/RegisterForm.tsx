@@ -161,15 +161,25 @@ export function RegisterForm() {
     ? (email.includes("@") ? t.auth.registerEmailInvalidFormat : t.auth.registerEmailMissingAt)
     : null;
 
-  const canSubmit =
-    legalAccepted &&
-    emailRegex.test(email) &&
+  const passwordValid =
     password.length >= 10 &&
     /[A-Za-z]/.test(password) &&
     /[0-9]/.test(password);
 
+  const canSubmit =
+    legalAccepted &&
+    emailRegex.test(email) &&
+    passwordValid;
+
+  const submitBlockedHint =
+    !loading && emailRegex.test(email) && passwordValid && !legalAccepted
+      ? t.auth.registerSubmitBlockedLegal
+      : !loading && legalAccepted && emailRegex.test(email) && password.length > 0 && !passwordValid
+        ? t.auth.registerSubmitBlockedPassword
+        : null;
+
   return (
-    <form onSubmit={onSubmit} className="mx-auto max-w-lg space-y-6 rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
+    <form onSubmit={onSubmit} className="mx-auto mb-8 max-w-lg space-y-6 rounded-xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/40">
       <div className="rounded-2xl border border-zinc-100 bg-zinc-50 p-4 dark:border-zinc-800 dark:bg-zinc-950/60">
         {isPartner ? (
           <>
@@ -231,11 +241,14 @@ export function RegisterForm() {
           type="password"
           autoComplete="new-password"
           required
-          minLength={8}
+          minLength={10}
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           className="mt-1 w-full rounded-lg border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 shadow-sm outline-none ring-zinc-400 focus:ring-2 dark:border-zinc-600 dark:bg-zinc-950 dark:text-zinc-50"
         />
+        {password.length > 0 && !passwordValid ? (
+          <p className="mt-1 text-xs text-amber-700 dark:text-amber-300">{t.auth.registerSubmitBlockedPassword}</p>
+        ) : null}
       </div>
 
       {isPartner ? (
@@ -324,9 +337,16 @@ export function RegisterForm() {
         </div>
       ) : null}
 
+      {submitBlockedHint ? (
+        <p className="rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-900 dark:border-amber-900/40 dark:bg-amber-950/30 dark:text-amber-100">
+          {submitBlockedHint}
+        </p>
+      ) : null}
+
       <button
         type="submit"
         disabled={!canSubmit || loading}
+        aria-disabled={!canSubmit || loading}
         className="w-full rounded-lg bg-zinc-900 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-white dark:text-zinc-900 dark:hover:bg-zinc-200"
       >
         {loading ? t.auth.registerSubmitting : t.auth.registerSubmit}

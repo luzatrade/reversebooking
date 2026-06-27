@@ -491,6 +491,21 @@ body {
   }
 }
 
+/* Spazio sotto al contenuto quando il banner cookie è visibile (evita CTA coperti) */
+body.hd-cookie-banner-open {
+  padding-bottom: calc(10.5rem + env(safe-area-inset-bottom, 0px));
+}
+
+@media (min-width: 640px) {
+  body.hd-cookie-banner-open {
+    padding-bottom: calc(7.5rem + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+body.hd-cookie-banner-custom {
+  padding-bottom: 0;
+}
+
 /* Nasconde hero e pannello ricerca sotto al modal mappa (evita testo sovrapposto) */
 body.hd-map-explore-open .hd-home-tagline,
 body.hd-map-explore-open .hd-home-bento,
