@@ -65,6 +65,11 @@ try {
     check("ADV vede richieste (proprie + attive)", !error && (data?.length ?? 0) >= 1, error ? error.message : `${data?.length ?? 0} righe`);
   }
   {
+    const { data: me } = await adv.auth.getUser();
+    const { data, error } = await adv.from("advertiser_profiles").select("id").eq("user_id", me.user.id).maybeSingle();
+    check("ADV legge il proprio advertiser_profiles", !error && Boolean(data?.id), error ? error.message : data ? "ok" : "vuoto");
+  }
+  {
     const { data, error } = await adv.from("offers").select("id, status").limit(50);
     check("ADV vede offerte sulle proprie richieste", !error, error ? error.message : `${data?.length ?? 0} righe`);
   }
