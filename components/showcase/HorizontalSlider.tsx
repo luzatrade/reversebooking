@@ -8,6 +8,7 @@ type HorizontalSliderProps = {
   title: string;
   subtitle?: string;
   titleClassName?: string;
+  subtitleClassName?: string;
   sectionId?: string;
   sectionClassName?: string;
   /** Numero di elementi reali (serve a mostrare/nascondere le frecce). */
@@ -26,6 +27,7 @@ export function HorizontalSlider({
   title,
   subtitle,
   titleClassName,
+  subtitleClassName,
   sectionId,
   sectionClassName,
   itemCount,
@@ -71,7 +73,7 @@ export function HorizontalSlider({
       <div className="mb-3 flex items-end justify-between gap-3 sm:mb-4">
         <div className="min-w-0">
           <h2 className={cn("hd-bento-title truncate", titleClassName)}>{title}</h2>
-          {subtitle ? <p className="hd-bento-subtitle">{subtitle}</p> : null}
+          {subtitle ? <p className={cn("hd-bento-subtitle", subtitleClassName)}>{subtitle}</p> : null}
         </div>
         {itemCount > 1 ? (
           <div className="flex shrink-0 items-center gap-2">

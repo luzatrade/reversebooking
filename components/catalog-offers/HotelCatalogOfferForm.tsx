@@ -6,7 +6,7 @@ import { HardNavLink } from "@/components/navigation/HardNavLink";
 import { useRouter } from "next/navigation";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { getMealPlanLabels, getStructureTypeLabels } from "@/lib/i18n/labels";
-import { HOTEL_PERK_OPTIONS } from "@/lib/catalog-offers/labels";
+import { HOTEL_PERK_OPTIONS, catalogRoomTypeLabels } from "@/lib/catalog-offers/labels";
 import { makeCatalogOfferCode } from "@/lib/identifiers";
 import { getHotelOfferBlockMessage, HOTEL_OFFER_ELIGIBILITY_SELECT } from "@/lib/hotel/offer-eligibility";
 import { getAuthUserFast } from "@/lib/auth/clientSession";
@@ -29,10 +29,26 @@ type RoomRow = { room_type: CatalogRoomType; rooms_available: number; max_occupa
 
 const ROOM_TYPES: CatalogRoomType[] = ["single", "double", "twin", "triple", "family", "suite"];
 
+function nightsBetween(checkIn: string, checkOut: string): number {
+  const [y1, m1, d1] = checkIn.split("-").map(Number);
+  const [y2, m2, d2] = checkOut.split("-").map(Number);
+  if (!y1 || !m1 || !d1 || !y2 || !m2 || !d2) return 1;
+  const start = new Date(y1, m1 - 1, d1);
+  const end = new Date(y2, m2 - 1, d2);
+  const diff = Math.round((end.getTime() - start.getTime()) / 86_400_000);
+  return Math.max(1, diff);
+}
+
+function maxRoomOccupancy(rows: RoomRow[]): number {
+  if (!rows.length) return 1;
+  return Math.max(1, ...rows.map((row) => row.max_occupancy));
+}
+
 export function HotelCatalogOfferForm() {
   const { locale, t } = useLanguage();
   const mealLabels = getMealPlanLabels(locale);
   const structureLabels = getStructureTypeLabels(locale);
+  const roomTypeLabels = catalogRoomTypeLabels[locale];
   const router = useRouter();
   const [hotel, setHotel] = useState<HotelAccount | null>(null);
   const [loading, setLoading] = useState(true);
@@ -48,8 +64,6 @@ export function HotelCatalogOfferForm() {
   const [boardBasis, setBoardBasis] = useState<MealPlan>("breakfast");
   const [pricingModel, setPricingModel] = useState<CatalogPricingModel>("total_package");
   const [priceAmount, setPriceAmount] = useState(199);
-  const [minStay, setMinStay] = useState(1);
-  const [maxOccupancy, setMaxOccupancy] = useState(2);
   const [cancellationIt, setCancellationIt] = useState("Cancellazione gratuita fino a 48 ore prima dell'arrivo.");
   const [cancellationEn, setCancellationEn] = useState("Free cancellation up to 48 hours before arrival.");
   const [cityTax, setCityTax] = useState<CatalogCityTax>("excluded");
@@ -172,8 +186,8 @@ export function HotelCatalogOfferForm() {
         pricing_model: pricingModel,
         price_amount: priceAmount,
         currency: "EUR",
-        min_stay_nights: minStay,
-        max_occupancy_per_room: maxOccupancy,
+        min_stay_nights: nightsBetween(checkIn, checkOut),
+        max_occupancy_per_room: maxRoomOccupancy(rooms),
         cancellation_policy_it: cancellationIt,
         cancellation_policy_en: cancellationEn,
         city_tax: cityTax,
@@ -249,14 +263,26 @@ export function HotelCatalogOfferForm() {
       </section>
 
       <section className="space-y-3 rounded-2xl border border-zinc-200 p-4">
-        <h2 className="font-semibold">{t.catalogOffers.roomsSection}</h2>
+        <div>
+          <h2 className="font-semibold">{t.catalogOffers.roomsSection}</h2>
+          <p className="mt-1 text-sm text-zinc-500">{t.catalogOffers.roomsSectionHint}</p>
+        </div>
         {rooms.map((room, idx) => (
           <div key={idx} className="grid gap-2 rounded-xl bg-zinc-50 p-3 sm:grid-cols-3">
-            <select value={room.room_type} onChange={(e) => setRooms((prev) => prev.map((r, i) => i === idx ? { ...r, room_type: e.target.value as CatalogRoomType } : r))} className="rounded-xl border px-3 py-2 text-sm">
-              {ROOM_TYPES.map((rt) => <option key={rt} value={rt}>{rt}</option>)}
-            </select>
-            <input type="number" min={0} value={room.rooms_available} onChange={(e) => setRooms((prev) => prev.map((r, i) => i === idx ? { ...r, rooms_available: Number(e.target.value) } : r))} className="rounded-xl border px-3 py-2 text-sm" />
-            <input type="number" min={1} value={room.max_occupancy} onChange={(e) => setRooms((prev) => prev.map((r, i) => i === idx ? { ...r, max_occupancy: Number(e.target.value) } : r))} className="rounded-xl border px-3 py-2 text-sm" />
+            <label className="block text-sm font-medium">
+              {t.catalogOffers.roomTypeLabel}
+              <select value={room.room_type} onChange={(e) => setRooms((prev) => prev.map((r, i) => i === idx ? { ...r, room_type: e.target.value as CatalogRoomType } : r))} className="mt-1 w-full rounded-xl border px-3 py-2 text-sm">
+                {ROOM_TYPES.map((rt) => <option key={rt} value={rt}>{roomTypeLabels[rt]}</option>)}
+              </select>
+            </label>
+            <label className="block text-sm font-medium">
+              {t.catalogOffers.roomQuantityLabel}
+              <input type="number" min={0} value={room.rooms_available} onChange={(e) => setRooms((prev) => prev.map((r, i) => i === idx ? { ...r, rooms_available: Number(e.target.value) } : r))} className="mt-1 w-full rounded-xl border px-3 py-2 text-sm" />
+            </label>
+            <label className="block text-sm font-medium">
+              {t.catalogOffers.roomMaxOccupancyLabel}
+              <input type="number" min={1} value={room.max_occupancy} onChange={(e) => setRooms((prev) => prev.map((r, i) => i === idx ? { ...r, max_occupancy: Number(e.target.value) } : r))} className="mt-1 w-full rounded-xl border px-3 py-2 text-sm" />
+            </label>
           </div>
         ))}
         <button type="button" onClick={() => setRooms((p) => [...p, { room_type: "double", rooms_available: 1, max_occupancy: 2 }])} className="text-sm text-[#0f4c81]">{t.catalogOffers.addRoom}</button>
@@ -264,25 +290,39 @@ export function HotelCatalogOfferForm() {
 
       <section className="space-y-3 rounded-2xl border border-zinc-200 p-4">
         <h2 className="font-semibold">{t.catalogOffers.pricingSection}</h2>
-        <select value={boardBasis} onChange={(e) => setBoardBasis(e.target.value as MealPlan)} className="w-full rounded-2xl border px-4 py-3 text-sm">
-          {(Object.keys(mealLabels) as MealPlan[]).map((k) => <option key={k} value={k}>{mealLabels[k]}</option>)}
-        </select>
-        <select value={pricingModel} onChange={(e) => setPricingModel(e.target.value as CatalogPricingModel)} className="w-full rounded-2xl border px-4 py-3 text-sm">
-          <option value="total_package">{t.catalogOffers.totalPackage}</option>
-          <option value="per_night_per_room">{t.catalogOffers.perNightRoom}</option>
-        </select>
-        <input required type="number" min={1} value={priceAmount} onChange={(e) => setPriceAmount(Number(e.target.value))} className="w-full rounded-2xl border px-4 py-3 text-sm" />
-        <div className="grid gap-3 sm:grid-cols-2">
-          <input type="number" min={1} value={minStay} onChange={(e) => setMinStay(Number(e.target.value))} className="rounded-2xl border px-4 py-3 text-sm" />
-          <input type="number" min={1} value={maxOccupancy} onChange={(e) => setMaxOccupancy(Number(e.target.value))} className="rounded-2xl border px-4 py-3 text-sm" />
-        </div>
-        <select value={cityTax} onChange={(e) => setCityTax(e.target.value as CatalogCityTax)} className="w-full rounded-2xl border px-4 py-3 text-sm">
-          <option value="included">{t.catalogOffers.cityTaxIncluded}</option>
-          <option value="excluded">{t.catalogOffers.cityTaxExcluded}</option>
-          <option value="not_applicable">{t.catalogOffers.cityTaxNa}</option>
-        </select>
-        <textarea value={cancellationIt} onChange={(e) => setCancellationIt(e.target.value)} rows={2} className="w-full rounded-2xl border px-4 py-3 text-sm" />
-        <textarea value={cancellationEn} onChange={(e) => setCancellationEn(e.target.value)} rows={2} className="w-full rounded-2xl border px-4 py-3 text-sm" />
+        <label className="block text-sm font-medium">
+          {t.forms.travelRequest.requestedMealPlan}
+          <select value={boardBasis} onChange={(e) => setBoardBasis(e.target.value as MealPlan)} className="mt-1 w-full rounded-2xl border px-4 py-3 text-sm">
+            {(Object.keys(mealLabels) as MealPlan[]).map((k) => <option key={k} value={k}>{mealLabels[k]}</option>)}
+          </select>
+        </label>
+        <label className="block text-sm font-medium">
+          {t.catalogOffers.pricingModelLabel}
+          <select value={pricingModel} onChange={(e) => setPricingModel(e.target.value as CatalogPricingModel)} className="mt-1 w-full rounded-2xl border px-4 py-3 text-sm">
+            <option value="total_package">{t.catalogOffers.totalPackage}</option>
+            <option value="per_night_per_room">{t.catalogOffers.perNightRoom}</option>
+          </select>
+        </label>
+        <label className="block text-sm font-medium">
+          {t.catalogOffers.priceAmountLabel}
+          <input required type="number" min={1} value={priceAmount} onChange={(e) => setPriceAmount(Number(e.target.value))} className="mt-1 w-full rounded-2xl border px-4 py-3 text-sm" />
+        </label>
+        <label className="block text-sm font-medium">
+          {t.catalogOffers.cityTaxLabel}
+          <select value={cityTax} onChange={(e) => setCityTax(e.target.value as CatalogCityTax)} className="mt-1 w-full rounded-2xl border px-4 py-3 text-sm">
+            <option value="included">{t.catalogOffers.cityTaxIncluded}</option>
+            <option value="excluded">{t.catalogOffers.cityTaxExcluded}</option>
+            <option value="not_applicable">{t.catalogOffers.cityTaxNa}</option>
+          </select>
+        </label>
+        <label className="block text-sm font-medium">
+          {t.catalogOffers.cancellation} (IT)
+          <textarea value={cancellationIt} onChange={(e) => setCancellationIt(e.target.value)} rows={2} className="mt-1 w-full rounded-2xl border px-4 py-3 text-sm" />
+        </label>
+        <label className="block text-sm font-medium">
+          {t.catalogOffers.cancellation} (EN)
+          <textarea value={cancellationEn} onChange={(e) => setCancellationEn(e.target.value)} rows={2} className="mt-1 w-full rounded-2xl border px-4 py-3 text-sm" />
+        </label>
       </section>
 
       <section className="space-y-2 rounded-2xl border border-zinc-200 p-4">

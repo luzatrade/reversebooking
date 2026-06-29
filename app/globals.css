@@ -260,6 +260,12 @@ body {
   color: var(--hd-muted) !important;
 }
 
+.rb-soft-white-home .hd-bento-subtitle.hd-bento-subtitle-orange,
+.rb-soft-white-home .hd-feed-card p.hd-bento-subtitle.hd-bento-subtitle-orange {
+  color: var(--hd-orange) !important;
+  font-weight: 700;
+}
+
 .rb-soft-white-home .hd-bento-search label {
   font-weight: 700 !important;
   color: var(--hd-text) !important;

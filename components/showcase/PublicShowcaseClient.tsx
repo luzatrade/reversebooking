@@ -762,6 +762,7 @@ export function PublicShowcaseClient() {
               ? t.showcase.requestsSubtitleCity
               : t.showcase.requestsSubtitleFeatured
         }
+        subtitleClassName={!isHotel && !hasSelectedCity ? "hd-bento-subtitle-orange" : undefined}
         prevLabel={t.showcase.sliderPrevious}
         nextLabel={t.showcase.sliderNext}
         itemCount={!loading && !error ? displayRequests.length : 0}
