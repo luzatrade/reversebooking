@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { LegalFooterLinks } from "@/components/legal/LegalFooterLinks";
 import { company, formatLegalAddress } from "@/lib/legal/company";
@@ -40,10 +41,10 @@ export function SiteFooter() {
           </div>
           <div className="text-sm text-zinc-600 dark:text-zinc-400">
             <p>
-              <span className="font-medium text-zinc-800 dark:text-zinc-200">{t.site.support} </span>
-              <a className={linkClass} href={`mailto:${company.supportEmail}`}>
-                {company.supportEmail}
-              </a>
+              <span className="font-medium text-zinc-800 dark:text-zinc-200">{t.site.contacts} </span>
+              <Link className={linkClass} href="/contatti">
+                {t.contact.title}
+              </Link>
             </p>
             <p className="mt-1">
               <span className="font-medium text-zinc-800 dark:text-zinc-200">{t.common.pec} </span>

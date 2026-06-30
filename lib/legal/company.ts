@@ -64,3 +64,18 @@ export function formatLegalAddress(): string {
   }
   return `${company.legalAddress}, ${company.postalCode} ${company.city} — ${company.country}`;
 }
+
+export type CompanyContactEmailId = "partnerSupport" | "billing" | "sales" | "general";
+
+export type CompanyContactEmail = {
+  id: CompanyContactEmailId;
+  email: string;
+};
+
+/** Indirizzi email pubblici, in ordine di priorità per la pagina Contatti. */
+export const companyContactEmails: CompanyContactEmail[] = [
+  { id: "partnerSupport", email: "partner-support@hotelsdrop.com" },
+  { id: "billing", email: "billing@hotelsdrop.com" },
+  { id: "sales", email: "sales@hotelsdrop.com" },
+  { id: "general", email: "info@hotelsdrop.com" },
+];

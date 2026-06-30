@@ -122,7 +122,8 @@ export const translations = {
       siteTitleTemplate: "%s · HotelsDrop",
       siteTitleDefault: "HotelsDrop — Offerte hotel senza commissioni",
       contactsTitle: "Contatti",
-      contactsDescription: "Recapiti, supporto e PEC di HotelsDrop.com.",
+      contactsDescription:
+        "Dati societari FINEHOST, recapiti email e PEC di HotelsDrop.com.",
       registrationTitle: "Registrazione",
       registrationDescription: "Crea un account inserzionista o struttura ricettiva su HotelsDrop.com.",
       structureAreaTitle: "Area struttura — Abbonamento e fatture",
@@ -460,12 +461,39 @@ export const translations = {
     contact: {
       title: "Contatti",
       intro:
-        "Siamo a disposizione per assistenza, informazioni commerciali e richieste legate alla privacy.",
+        "Dati societari e recapiti email di HotelsDrop.com. Scegli l'indirizzo più adatto alla tua richiesta.",
+      companySectionTitle: "Dati societari",
+      emailSectionTitle: "Recapiti email",
+      emailSectionHint: "Ogni indirizzo è dedicato a un tipo di richiesta.",
+      legalEntity: "Ragione sociale",
+      tradeName: "Denominazione commerciale",
+      businessActivity: "Attività",
+      vatNumber: "Partita IVA",
+      taxCode: "Codice fiscale",
       support: "Supporto",
       pec: "PEC",
       phone: "Telefono",
       headquarters: "Sede legale",
       website: "Sito web",
+      ateco: "Codice ATECO",
+      emailChannels: {
+        partnerSupport: {
+          label: "Supporto partner",
+          description: "Assistenza per strutture, agenzie e account partner.",
+        },
+        billing: {
+          label: "Fatturazione",
+          description: "Abbonamenti, fatture, pagamenti e questioni amministrative.",
+        },
+        sales: {
+          label: "Commerciale",
+          description: "Informazioni su piani, partnership e opportunità commerciali.",
+        },
+        general: {
+          label: "Informazioni generali",
+          description: "Richieste generiche, feedback e altre comunicazioni.",
+        },
+      },
     },
     publicLanding: {
       showcaseEyebrow: "Vetrina pubblica per richieste di soggiorno",
@@ -1229,7 +1257,8 @@ export const translations = {
       siteTitleTemplate: "%s · HotelsDrop",
       siteTitleDefault: "HotelsDrop — Hotel offers, no commission",
       contactsTitle: "Contact",
-      contactsDescription: "HotelsDrop.com support contacts and certified email (PEC).",
+      contactsDescription:
+        "FINEHOST company details, email contacts, and certified email (PEC) for HotelsDrop.com.",
       registrationTitle: "Sign up",
       registrationDescription: "Create an advertiser or property account on HotelsDrop.com.",
       structureAreaTitle: "Property area — Subscription and invoices",
@@ -1564,12 +1593,39 @@ export const translations = {
     contact: {
       title: "Contact",
       intro:
-        "We are available for support, commercial information, and privacy-related requests.",
+        "Company details and email contacts for HotelsDrop.com. Choose the address that best fits your request.",
+      companySectionTitle: "Company details",
+      emailSectionTitle: "Email contacts",
+      emailSectionHint: "Each address is dedicated to a specific type of request.",
+      legalEntity: "Legal entity",
+      tradeName: "Trade name",
+      businessActivity: "Business activity",
+      vatNumber: "VAT number",
+      taxCode: "Tax code",
       support: "Support",
       pec: "Certified email (PEC)",
       phone: "Phone",
       headquarters: "Registered office",
       website: "Website",
+      ateco: "ATECO code",
+      emailChannels: {
+        partnerSupport: {
+          label: "Partner support",
+          description: "Assistance for properties, agencies, and partner accounts.",
+        },
+        billing: {
+          label: "Billing",
+          description: "Subscriptions, invoices, payments, and administrative matters.",
+        },
+        sales: {
+          label: "Sales",
+          description: "Plans, partnerships, and commercial opportunities.",
+        },
+        general: {
+          label: "General inquiries",
+          description: "General requests, feedback, and other communications.",
+        },
+      },
     },
     publicLanding: {
       showcaseEyebrow: "Public showcase for stay requests",
