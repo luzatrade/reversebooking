@@ -52,6 +52,7 @@ export function OnboardingHotelEditor({
   });
   const [saving, setSaving] = useState(false);
   const [resettingClaim, setResettingClaim] = useState(false);
+  const [calling, setCalling] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
 
@@ -88,6 +89,45 @@ export function OnboardingHotelEditor({
     }
   }
 
+  async function triggerVerifyCall() {
+    if (!form.phone.trim()) {
+      setError("Inserisci un telefono valido prima di inviare la chiamata.");
+      return;
+    }
+
+    if (form.phone.trim() !== (hotel.phone ?? "").trim()) {
+      setError("Salva prima le modifiche al telefono, poi invia la chiamata Twilio.");
+      return;
+    }
+
+    const confirmed = window.confirm(
+      `Inviare ora la chiamata Twilio al numero indicato (${form.phone})? Chi risponde riceverà il codice vocale.`,
+    );
+    if (!confirmed) return;
+
+    setCalling(true);
+    setError(null);
+    setSuccess(null);
+
+    try {
+      const res = await fetch("/api/admin/onboarding-hotel/verify-call", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id: hotel.id }),
+      });
+      const data = (await res.json()) as { error?: string; ok?: boolean; phone?: string; message?: string };
+      if (!res.ok) throw new Error(data.error ?? "Chiamata non avviata");
+      setSuccess(
+        data.message ??
+          `Chiamata Twilio avviata verso ${data.phone ?? form.phone}. Il codice va inserito dal partner nella dashboard struttura.`,
+      );
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Chiamata non avviata");
+    } finally {
+      setCalling(false);
+    }
+  }
+
   async function resetClaim() {
     const confirmed = window.confirm(
       "Ripristinare la rivendica? La struttura tornerà disponibile e il partner dovrà registrarsi/verificare di nuovo.",
@@ -121,8 +161,8 @@ export function OnboardingHotelEditor({
       <div className="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-4 text-sm text-amber-950 sm:px-5">
         <p className="font-semibold">Profilo catalogo (onboarding)</p>
         <p className="mt-2 leading-relaxed">
-          Qui correggi telefono, email e indirizzo quando la rivendica fallisce. Il numero aggiornato viene usato per la
-          chiamata di verifica Twilio e, se esiste già un account collegato, viene sincronizzato anche lì.
+          Qui correggi telefono, email e indirizzo quando la rivendica fallisce. Puoi anche inviare manualmente la
+          chiamata Twilio al numero indicato; il codice ricevuto va poi inserito dal partner nella dashboard struttura.
         </p>
       </div>
 
@@ -210,6 +250,14 @@ export function OnboardingHotelEditor({
             className="inline-flex items-center justify-center rounded-xl bg-[#0f4c81] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#0d3f68] disabled:opacity-50"
           >
             {saving ? "Salvataggio..." : "Salva modifiche"}
+          </button>
+          <button
+            type="button"
+            disabled={calling || !form.phone.trim()}
+            onClick={() => void triggerVerifyCall()}
+            className="inline-flex items-center justify-center rounded-xl border border-[#0f4c81] bg-[#e8f0f8] px-5 py-3 text-sm font-semibold text-[#0f4c81] transition hover:bg-[#d8e6f2] disabled:opacity-50"
+          >
+            {calling ? "Chiamata..." : "Invia chiamata Twilio"}
           </button>
           <button
             type="button"
