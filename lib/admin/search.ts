@@ -1,5 +1,5 @@
 import { createServiceRoleClient } from "@/lib/supabase/admin";
-import { buildOrFilter, isUuid, matchesAllTokens, primarySearchToken, tokenizeSearchTerm } from "@/lib/admin/query";
+import { buildOrFilter, isUuid, matchesAllTokens, searchPatternTerm, tokenizeSearchTerm } from "@/lib/admin/query";
 
 const REGISTERED_HOTEL_FIELDS = [
   "property_name",
@@ -93,7 +93,7 @@ async function searchProfiles(term: string, limit: number): Promise<AdminSearchH
 async function searchHotels(term: string, limit: number): Promise<AdminSearchHit[]> {
   const supabase = db();
   const tokens = tokenizeSearchTerm(term);
-  const dbTerm = primarySearchToken(term);
+  const dbTerm = searchPatternTerm(term);
   if (!dbTerm || (dbTerm.length < 2 && !isUuid(dbTerm))) return [];
 
   const registeredFilter = buildOrFilter(dbTerm, [...REGISTERED_HOTEL_FIELDS], ["id", "user_id"]);

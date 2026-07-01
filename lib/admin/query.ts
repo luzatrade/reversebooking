@@ -30,6 +30,52 @@ export function primarySearchToken(input: string) {
   return tokens.sort((a, b) => b.length - a.length)[0] ?? sanitizeSearchTerm(raw);
 }
 
+/** Termine usato per il pattern `ilike`: frase intera se multi-parola, altrimenti token principale. */
+export function searchPatternTerm(input: string) {
+  const raw = input.trim();
+  if (!raw) return "";
+  if (isUuid(raw)) return raw;
+
+  const sanitizedFull = sanitizeSearchTerm(raw);
+  const tokens = tokenizeSearchTerm(raw);
+  if (tokens.length >= 2 && sanitizedFull.length >= 4) {
+    return sanitizedFull;
+  }
+
+  return primarySearchToken(raw) || sanitizedFull;
+}
+
+export function rankSearchMatch(query: string, values: Array<string | null | undefined>) {
+  const normalizedQuery = sanitizeSearchTerm(query).toLowerCase();
+  if (!normalizedQuery) return 0;
+
+  const joined = values
+    .map((value) => (value ?? "").trim().toLowerCase())
+    .filter(Boolean)
+    .join(" ");
+  if (!joined) return 0;
+
+  const primary = values.find((value) => (value ?? "").trim())?.trim().toLowerCase() ?? joined;
+  if (primary === normalizedQuery) return 100;
+  if (primary.startsWith(normalizedQuery)) return 90;
+  if (joined.includes(normalizedQuery)) return 80;
+
+  const tokens = tokenizeSearchTerm(query);
+  if (tokens.length > 0 && tokens.every((token) => joined.includes(token.toLowerCase()))) {
+    return 60 + Math.min(tokens.length * 5, 20);
+  }
+
+  return 0;
+}
+
+export function sortBySearchRelevance<T>(
+  items: T[],
+  query: string,
+  valuesFor: (item: T) => Array<string | null | undefined>,
+) {
+  return [...items].sort((left, right) => rankSearchMatch(query, valuesFor(right)) - rankSearchMatch(query, valuesFor(left)));
+}
+
 export function matchesAllTokens(values: Array<string | null | undefined>, tokens: string[]) {
   if (tokens.length === 0) return true;
   const haystack = values
@@ -53,8 +99,7 @@ export function buildOrFilter(
     return fields.map((field) => `${field}.eq.${raw}`).join(",");
   }
 
-  const dbTerm = primarySearchToken(raw);
-  const sanitized = sanitizeSearchTerm(dbTerm);
+  const sanitized = searchPatternTerm(raw);
   if (!sanitized) return null;
 
   const pattern = `%${sanitized}%`.replace(/"/g, '""');

@@ -1,5 +1,11 @@
 import { createServiceRoleClient } from "@/lib/supabase/admin";
-import { buildOrFilter } from "@/lib/admin/query";
+import {
+  buildOrFilter,
+  matchesAllTokens,
+  searchPatternTerm,
+  sortBySearchRelevance,
+  tokenizeSearchTerm,
+} from "@/lib/admin/query";
 
 function db() {
   const client = createServiceRoleClient();
@@ -77,24 +83,53 @@ export async function listAdvertisers(query?: string) {
   return data ?? [];
 }
 
+const REGISTERED_HOTEL_SEARCH_FIELDS = [
+  "property_name",
+  "city_name",
+  "cin_code",
+  "public_email",
+  "specific_area",
+  "full_address",
+] as const;
+
+const ONBOARDING_HOTEL_SEARCH_FIELDS = ["nome", "city_name", "email", "phone", "indirizzo"] as const;
+
+function filterRankedRows<T>(
+  query: string | undefined,
+  rows: T[],
+  valuesFor: (row: T) => Array<string | null | undefined>,
+) {
+  const trimmed = query?.trim() ?? "";
+  if (!trimmed) return rows;
+
+  const tokens = tokenizeSearchTerm(trimmed);
+  const fallbackTokens = tokens.length > 0 ? tokens : [searchPatternTerm(trimmed)].filter(Boolean);
+  const filtered = rows.filter((row) => matchesAllTokens(valuesFor(row), fallbackTokens));
+  return sortBySearchRelevance(filtered, trimmed, valuesFor);
+}
+
 export async function listHotels(query?: string) {
   const supabase = db();
   let request = supabase
     .from("hotel_accounts")
     .select(
-      "id, user_id, property_name, structure_type, city_name, country_name, cin_code, subscription_active, subscription_status, account_status, stripe_customer_id, created_at",
+      "id, user_id, property_name, structure_type, city_name, country_name, cin_code, subscription_active, subscription_status, account_status, stripe_customer_id, created_at, public_email, specific_area, full_address",
     )
     .order("created_at", { ascending: false })
-    .limit(200);
-  request = applySearch(
-    request,
-    query,
-    ["property_name", "city_name", "cin_code", "public_email", "specific_area", "full_address"],
-    ["id", "user_id"],
-  );
+    .limit(query?.trim() ? 500 : 200);
+  request = applySearch(request, query, [...REGISTERED_HOTEL_SEARCH_FIELDS], ["id", "user_id"]);
   const { data, error } = await request;
   if (error) throw error;
-  return data ?? [];
+  return filterRankedRows(query, data ?? [], (row) => [
+    row.property_name,
+    row.city_name,
+    row.country_name,
+    row.cin_code,
+    row.public_email,
+    row.specific_area,
+    row.full_address,
+    row.id,
+  ]).slice(0, 200);
 }
 
 export async function listTravelRequests(query?: string) {
@@ -155,17 +190,35 @@ export async function listInvoices(query?: string) {
   return data ?? [];
 }
 
+export async function countOnboardingHotels() {
+  const supabase = db();
+  const { count, error } = await supabase.from("onboarding_hotels").select("id", { count: "exact", head: true });
+  if (error) throw error;
+  return count ?? 0;
+}
+
 export async function listOnboardingHotels(query?: string) {
+  const trimmed = query?.trim() ?? "";
+  if (!trimmed) return [];
+
   const supabase = db();
   let request = supabase
     .from("onboarding_hotels")
     .select("id, nome, city_name, indirizzo, email, phone, main_photo_url, status, created_at")
     .order("created_at", { ascending: false })
-    .limit(1000);
-  request = applySearch(request, query, ["nome", "city_name", "email", "phone", "indirizzo"], ["id"]);
+    .limit(500);
+  request = applySearch(request, trimmed, [...ONBOARDING_HOTEL_SEARCH_FIELDS], ["id"]);
   const { data, error } = await request;
   if (error) throw error;
-  return data ?? [];
+
+  return filterRankedRows(trimmed, data ?? [], (row) => [
+    row.nome,
+    row.city_name,
+    row.indirizzo,
+    row.email,
+    row.phone,
+    row.id,
+  ]).slice(0, 200);
 }
 
 export async function listConsents() {

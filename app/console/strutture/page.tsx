@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { AccountStatusSelect } from "@/components/console/AccountStatusSelect";
 import { ConsolePageHeader } from "@/components/console/ConsolePageHeader";
-import { ConsoleSearchBanner } from "@/components/console/ConsoleSearchBanner";
+import { ConsoleSearchForm } from "@/components/console/ConsoleSearchForm";
 import { DataTable } from "@/components/console/DataTable";
 import { DeleteButton } from "@/components/console/DeleteButton";
 import { ImpersonateButton } from "@/components/console/ImpersonateButton";
@@ -39,7 +39,13 @@ export default async function ConsoleStrutturePage({
             : `${t.console.pages.structures.description} Per strutture visibili in mappa ma non registrate, usa la ricerca (es. nome o indirizzo) o apri Onboarding.`
         }
       />
-      <ConsoleSearchBanner query={q} clearHref="/console/strutture" />
+      <ConsoleSearchForm
+        action="/console/strutture"
+        query={q}
+        clearHref="/console/strutture"
+        placeholder="Es. de lux stazione, Carriera Grande, Napoli..."
+        hint="Mostra strutture registrate e, con ricerca attiva, anche quelle del catalogo onboarding (vetrina/mappa)."
+      />
 
       {query && hotels.length === 0 && onboardingHotels.length > 0 ? (
         <div className="mb-6 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950">
