@@ -867,6 +867,7 @@ export const translations = {
       navStructures: "Strutture",
       navListings: "Annunci",
       navOffers: "Offerte",
+      navLastMinute: "Last Minute",
       navSubscriptions: "Abbonamenti",
       navInvoices: "Fatture",
       navConsents: "Consensi",
@@ -916,8 +917,12 @@ export const translations = {
             "Richieste di soggiorno pubblicate dagli inserzionisti. Puoi chiuderle o marcarle come completate.",
         },
         offers: {
-          title: "Offerte",
-          description: "Proposte inviate dalle strutture in risposta agli annunci.",
+          title: "Offerte risposta",
+          description: "Proposte inviate dalle strutture in risposta agli annunci (non Last Minute vetrina).",
+        },
+        lastMinute: {
+          title: "Last Minute",
+          description: "Offerte catalogo pubblicate in vetrina da hotel e agenzie (catalog_offers).",
         },
         subscriptions: {
           title: "Abbonamenti",
@@ -1991,6 +1996,7 @@ export const translations = {
       navStructures: "Properties",
       navListings: "Listings",
       navOffers: "Offers",
+      navLastMinute: "Last Minute",
       navSubscriptions: "Subscriptions",
       navInvoices: "Invoices",
       navConsents: "Consents",
@@ -2038,8 +2044,12 @@ export const translations = {
             "Stay requests published by advertisers. You can close them or mark them as completed.",
         },
         offers: {
-          title: "Offers",
-          description: "Proposals sent by properties in response to listings.",
+          title: "Response offers",
+          description: "Proposals sent by properties in response to listings (not showcase Last Minute).",
+        },
+        lastMinute: {
+          title: "Last Minute",
+          description: "Showcase catalog offers published by hotels and agencies (catalog_offers).",
         },
         subscriptions: {
           title: "Subscriptions",

@@ -3,7 +3,7 @@ import { requireAdminApi } from "@/lib/admin/verify";
 import { logAdminAction } from "@/lib/admin/audit";
 
 type Body = {
-  entity: "user" | "hotel" | "advertiser" | "request" | "offer" | "onboarding";
+  entity: "user" | "hotel" | "advertiser" | "request" | "offer" | "onboarding" | "catalog_offer";
   id: string;
 };
 
@@ -52,6 +52,10 @@ export async function POST(request: Request) {
     }
     case "onboarding": {
       await admin.from("onboarding_hotels").delete().eq("id", body.id);
+      break;
+    }
+    case "catalog_offer": {
+      await admin.from("catalog_offers").delete().eq("id", body.id);
       break;
     }
     default:

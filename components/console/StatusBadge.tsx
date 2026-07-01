@@ -17,6 +17,10 @@ const tone: Record<string, string> = {
   trialing: "bg-violet-100 text-violet-800",
   inactive: "bg-zinc-200 text-zinc-700",
   paid: "bg-emerald-100 text-emerald-800",
+  published: "bg-emerald-100 text-emerald-800",
+  draft: "bg-zinc-200 text-zinc-700",
+  sold_out: "bg-orange-100 text-orange-900",
+  archived: "bg-zinc-200 text-zinc-700",
   open: "bg-amber-100 text-amber-900",
 };
 

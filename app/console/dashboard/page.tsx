@@ -30,6 +30,7 @@ export default async function ConsoleDashboardPage() {
     { href: "/console/inserzionisti", label: t.console.navAdvertisers, count: stats.advertisers },
     { href: "/console/annunci", label: t.console.navListings, count: stats.requests },
     { href: "/console/offerte", label: t.console.navOffers, count: stats.offers },
+    { href: "/console/last-minute", label: t.console.navLastMinute, count: stats.catalogOffers },
     { href: "/console/abbonamenti", label: t.console.pages.dashboard.linkActiveSubscriptions, count: stats.activeSubscriptions },
     { href: "/console/fatture", label: t.console.navInvoices, count: stats.invoices },
     { href: "/console/consensi", label: t.console.pages.dashboard.linkLegalConsents, count: null },

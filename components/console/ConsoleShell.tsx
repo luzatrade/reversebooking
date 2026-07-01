@@ -25,6 +25,7 @@ export function ConsoleShell({
     { href: "/console/strutture", label: t.console.navStructures },
     { href: "/console/annunci", label: t.console.navListings },
     { href: "/console/offerte", label: t.console.navOffers },
+    { href: "/console/last-minute", label: t.console.navLastMinute },
     { href: "/console/abbonamenti", label: t.console.navSubscriptions },
     { href: "/console/fatture", label: t.console.navInvoices },
     { href: "/console/consensi", label: t.console.navConsents },

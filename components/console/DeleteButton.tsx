@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 type Props = {
-  entity: "user" | "hotel" | "advertiser" | "request" | "offer" | "onboarding";
+  entity: "user" | "hotel" | "advertiser" | "request" | "offer" | "onboarding" | "catalog_offer";
   id: string;
   label?: string;
 };

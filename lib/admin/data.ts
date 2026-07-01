@@ -27,6 +27,7 @@ export async function getAdminStats() {
     advertisers,
     requests,
     offers,
+    catalogOffers,
     activeSubs,
     invoices,
   ] = await Promise.all([
@@ -35,6 +36,7 @@ export async function getAdminStats() {
     supabase.from("profiles").select("id", { count: "exact", head: true }).eq("role", "advertiser"),
     supabase.from("travel_requests").select("id", { count: "exact", head: true }),
     supabase.from("offers").select("id", { count: "exact", head: true }),
+    supabase.from("catalog_offers").select("id", { count: "exact", head: true }),
     supabase.from("hotel_accounts").select("id", { count: "exact", head: true }).eq("subscription_active", true),
     supabase.from("billing_invoices").select("id", { count: "exact", head: true }),
   ]);
@@ -45,6 +47,7 @@ export async function getAdminStats() {
     advertisers: advertisers.count ?? 0,
     requests: requests.count ?? 0,
     offers: offers.count ?? 0,
+    catalogOffers: catalogOffers.count ?? 0,
     activeSubscriptions: activeSubs.count ?? 0,
     invoices: invoices.count ?? 0,
   };
@@ -160,6 +163,85 @@ export async function listOffers(query?: string) {
   const { data, error } = await request;
   if (error) throw error;
   return data ?? [];
+}
+
+const CATALOG_OFFER_SEARCH_FIELDS = ["offer_code", "title_it", "title_en"] as const;
+
+export type AdminCatalogOfferRow = {
+  id: string;
+  offer_code: string;
+  offer_kind: string;
+  title_it: string;
+  title_en: string;
+  status: string;
+  check_in: string | null;
+  check_out: string | null;
+  published_at: string | null;
+  expires_at: string | null;
+  created_at: string;
+  provider_id: string;
+  provider: { property_name: string; city_name: string } | null;
+  destinations: { city_name: string; role: string; sort_order: number }[];
+};
+
+function normalizeAdminCatalogOffer(row: Record<string, unknown>): AdminCatalogOfferRow {
+  const providerRaw = row.provider;
+  const provider = Array.isArray(providerRaw) ? providerRaw[0] : providerRaw;
+  const destinations = (Array.isArray(row.destinations) ? row.destinations : []) as AdminCatalogOfferRow["destinations"];
+
+  return {
+    id: String(row.id),
+    offer_code: String(row.offer_code),
+    offer_kind: String(row.offer_kind),
+    title_it: String(row.title_it),
+    title_en: String(row.title_en),
+    status: String(row.status),
+    check_in: (row.check_in as string | null) ?? null,
+    check_out: (row.check_out as string | null) ?? null,
+    published_at: (row.published_at as string | null) ?? null,
+    expires_at: (row.expires_at as string | null) ?? null,
+    created_at: String(row.created_at),
+    provider_id: String(row.provider_id),
+    provider: (provider as AdminCatalogOfferRow["provider"]) ?? null,
+    destinations,
+  };
+}
+
+export function primaryCatalogOfferCity(offer: AdminCatalogOfferRow) {
+  const primary = offer.destinations
+    .filter((destination) => destination.role === "primary")
+    .sort((a, b) => a.sort_order - b.sort_order)[0];
+  return primary?.city_name ?? offer.destinations[0]?.city_name ?? offer.provider?.city_name ?? "—";
+}
+
+export async function listCatalogOffers(query?: string) {
+  const supabase = db();
+  let request = supabase
+    .from("catalog_offers")
+    .select(
+      `
+      id, offer_code, offer_kind, title_it, title_en, status,
+      check_in, check_out, published_at, expires_at, created_at, provider_id,
+      provider:hotel_accounts(property_name, city_name),
+      destinations:catalog_offer_destinations(city_name, role, sort_order)
+    `,
+    )
+    .order("created_at", { ascending: false })
+    .limit(query?.trim() ? 500 : 200);
+  request = applySearch(request, query, [...CATALOG_OFFER_SEARCH_FIELDS], ["id", "provider_id"]);
+  const { data, error } = await request;
+  if (error) throw error;
+
+  const rows = (data ?? []).map((row) => normalizeAdminCatalogOffer(row as Record<string, unknown>));
+  return filterRankedRows(query, rows, (row) => [
+    row.offer_code,
+    row.title_it,
+    row.title_en,
+    row.provider?.property_name,
+    row.provider?.city_name,
+    primaryCatalogOfferCity(row),
+    row.status,
+  ]).slice(0, 200);
 }
 
 export async function listSubscriptions() {
