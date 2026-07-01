@@ -197,6 +197,30 @@ export async function countOnboardingHotels() {
   return count ?? 0;
 }
 
+export async function getOnboardingHotelById(id: string) {
+  const supabase = db();
+  const { data, error } = await supabase
+    .from("onboarding_hotels")
+    .select(
+      "id, place_id, nome, indirizzo, city_name, email, phone, website, google_maps_url, main_photo_url, status, claimed_by, created_at, updated_at",
+    )
+    .eq("id", id)
+    .maybeSingle();
+  if (error) throw error;
+  return data;
+}
+
+export async function getLinkedHotelAccountForOnboarding(onboardingId: string) {
+  const supabase = db();
+  const { data, error } = await supabase
+    .from("hotel_accounts")
+    .select("id, user_id, property_name, public_phone, public_email, account_status, subscription_active")
+    .eq("onboarding_hotel_id", onboardingId)
+    .maybeSingle();
+  if (error) throw error;
+  return data;
+}
+
 export async function listOnboardingHotels(query?: string) {
   const trimmed = query?.trim() ?? "";
   if (!trimmed) return [];

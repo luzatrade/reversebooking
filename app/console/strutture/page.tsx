@@ -128,7 +128,14 @@ export default async function ConsoleStrutturePage({
                 address: <span className="text-xs text-zinc-600">{h.indirizzo ?? "—"}</span>,
                 status: <StatusBadge value={h.status ?? "pending"} />,
                 id: <span className="font-mono text-xs text-zinc-500">{h.id}</span>,
-                actions: <DeleteButton entity="onboarding" id={h.id} />,
+                actions: (
+                  <div className="flex flex-col gap-1.5">
+                    <Link href={`/console/onboarding/${h.id}`} className="text-xs font-semibold text-[#0f4c81] hover:underline">
+                      Modifica
+                    </Link>
+                    <DeleteButton entity="onboarding" id={h.id} />
+                  </div>
+                ),
               },
             }))}
           />
