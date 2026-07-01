@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { LegalFooterLinks } from "@/components/legal/LegalFooterLinks";
 import { company, formatLegalAddress } from "@/lib/legal/company";
@@ -29,7 +28,7 @@ export function SiteFooter() {
         </div>
 
         <div className="grid gap-8 sm:grid-cols-2">
-          <div className="text-sm text-zinc-600 dark:text-zinc-400">
+          <div className="min-w-0 text-sm text-zinc-600 dark:text-zinc-400">
             <p>
               <span className="font-medium text-zinc-800 dark:text-zinc-200">{t.site.vat} </span>
               {company.vatNumber}
@@ -39,25 +38,28 @@ export function SiteFooter() {
               {fullAddress}
             </p>
           </div>
-          <div className="text-sm text-zinc-600 dark:text-zinc-400">
-            <p>
-              <span className="font-medium text-zinc-800 dark:text-zinc-200">{t.site.contacts} </span>
-              <Link className={linkClass} href="/contatti">
-                {t.contact.title}
-              </Link>
-            </p>
-            <p className="mt-1">
-              <span className="font-medium text-zinc-800 dark:text-zinc-200">{t.common.pec} </span>
-              <a className={linkClass} href={`mailto:${company.pecEmail}`}>
-                {company.pecEmail}
-              </a>
-            </p>
-            <p className="mt-1">
-              <span className="font-medium text-zinc-800 dark:text-zinc-200">{t.site.phone} </span>
-              <a className={linkClass} href={`tel:${company.phone.replace(/\s/g, "")}`}>
-                {company.phone}
-              </a>
-            </p>
+          <div className="min-w-0 border-t border-zinc-200 pt-6 text-sm text-zinc-600 sm:border-t-0 sm:pt-0 sm:text-right dark:border-zinc-800 dark:text-zinc-400">
+            <p className="font-semibold text-zinc-900 dark:text-zinc-50">{t.site.contacts}</p>
+            <ul className="mt-3 space-y-2 sm:ml-auto sm:w-fit">
+              <li className="leading-relaxed">
+                <span className="font-medium text-zinc-800 dark:text-zinc-200">{t.common.email} </span>
+                <a className={`${linkClass} break-all`} href={`mailto:${company.supportEmail}`}>
+                  {company.supportEmail}
+                </a>
+              </li>
+              <li className="leading-relaxed">
+                <span className="font-medium text-zinc-800 dark:text-zinc-200">PEC </span>
+                <a className={`${linkClass} break-all`} href={`mailto:${company.pecEmail}`}>
+                  {company.pecEmail}
+                </a>
+              </li>
+              <li className="leading-relaxed">
+                <span className="font-medium text-zinc-800 dark:text-zinc-200">{t.site.phone} </span>
+                <a className={linkClass} href={`tel:${company.phone.replace(/\s/g, "")}`}>
+                  {company.phone}
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
 

@@ -1245,7 +1245,7 @@ export const translations = {
       vat: "VAT / Tax ID",
       headquarters: "Registered office",
       support: "Support",
-      phone: "Phone",
+      phone: "Tel.",
       copyright: "All rights reserved.",
       legalLinksAria: "Legal links",
       mainNavAria: "Main",
