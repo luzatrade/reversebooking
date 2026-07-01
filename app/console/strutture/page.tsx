@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { AccountStatusSelect } from "@/components/console/AccountStatusSelect";
 import { ConsolePageHeader } from "@/components/console/ConsolePageHeader";
 import { ConsoleSearchBanner } from "@/components/console/ConsoleSearchBanner";
@@ -5,7 +6,7 @@ import { DataTable } from "@/components/console/DataTable";
 import { DeleteButton } from "@/components/console/DeleteButton";
 import { ImpersonateButton } from "@/components/console/ImpersonateButton";
 import { StatusBadge } from "@/components/console/StatusBadge";
-import { listHotels } from "@/lib/admin/data";
+import { listHotels, listOnboardingHotels } from "@/lib/admin/data";
 import { formatDate } from "@/lib/console/format";
 import { structureTypeLabels } from "@/types/app";
 import { getServerTranslations } from "@/lib/i18n/get-translations";
@@ -22,12 +23,31 @@ export default async function ConsoleStrutturePage({
   }
 
   const { q } = await searchParams;
-  const hotels = await listHotels(q);
+  const query = q?.trim() ?? "";
+  const [hotels, onboardingHotels] = await Promise.all([
+    listHotels(q),
+    query ? listOnboardingHotels(q) : Promise.resolve([]),
+  ]);
 
   return (
     <>
-      <ConsolePageHeader title={t.console.pages.structures.title} description={t.console.pages.structures.description} />
+      <ConsolePageHeader
+        title={t.console.pages.structures.title}
+        description={
+          query
+            ? `${t.console.pages.structures.description} Cerca anche nel catalogo onboarding (strutture in vetrina non ancora registrate).`
+            : `${t.console.pages.structures.description} Per strutture visibili in mappa ma non registrate, usa la ricerca (es. nome o indirizzo) o apri Onboarding.`
+        }
+      />
       <ConsoleSearchBanner query={q} clearHref="/console/strutture" />
+
+      {query && hotels.length === 0 && onboardingHotels.length > 0 ? (
+        <div className="mb-6 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950">
+          Nessuna struttura registrata per &quot;{query}&quot;. Trovate {onboardingHotels.length} nel{" "}
+          <strong>catalogo onboarding</strong> (profilo pubblico in vetrina, non account partner).
+        </div>
+      ) : null}
+
       <DataTable
         columns={[
           { key: "name", label: "Struttura" },
@@ -64,6 +84,50 @@ export default async function ConsoleStrutturePage({
           },
         }))}
       />
+
+      {query && onboardingHotels.length > 0 ? (
+        <section className="mt-10">
+          <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
+            <div>
+              <h2 className="text-lg font-semibold text-zinc-900">Catalogo onboarding</h2>
+              <p className="mt-1 text-sm text-zinc-600">
+                Strutture raccolte per la vetrina/mappa. Non sono account registrati finché non rivendicano il profilo.
+              </p>
+            </div>
+            <Link href={`/console/onboarding?q=${encodeURIComponent(query)}`} className="text-sm font-semibold text-[#0f4c81] hover:underline">
+              Apri sezione Onboarding
+            </Link>
+          </div>
+          <DataTable
+            columns={[
+              { key: "name", label: "Struttura" },
+              { key: "city", label: "Città" },
+              { key: "address", label: "Indirizzo" },
+              { key: "status", label: "Stato" },
+              { key: "id", label: "ID" },
+              { key: "actions", label: "Azioni" },
+            ]}
+            rows={onboardingHotels.map((h) => ({
+              id: h.id,
+              cells: {
+                name: (
+                  <div className="space-y-1">
+                    <span className="font-medium">{h.nome}</span>
+                    <Link href={`/hotel/onboarding/${h.id}`} className="block text-xs font-semibold text-[#0f4c81] hover:underline">
+                      Vedi profilo pubblico
+                    </Link>
+                  </div>
+                ),
+                city: h.city_name,
+                address: <span className="text-xs text-zinc-600">{h.indirizzo ?? "—"}</span>,
+                status: <StatusBadge value={h.status ?? "pending"} />,
+                id: <span className="font-mono text-xs text-zinc-500">{h.id}</span>,
+                actions: <DeleteButton entity="onboarding" id={h.id} />,
+              },
+            }))}
+          />
+        </section>
+      ) : null}
     </>
   );
 }
