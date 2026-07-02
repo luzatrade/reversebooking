@@ -58,6 +58,11 @@ export const company: CompanyInfo = {
   atecoCode: "63.12.00 — Portali web",
 };
 
+/** Mittente predefinito per email transazionali (Resend) e conferma profilo via SMTP. */
+export function getTransactionalEmailFrom(): string {
+  return `${BRAND_DISPLAY} <${company.supportEmail}>`;
+}
+
 export function formatLegalAddress(): string {
   if (company.legalAddressPending || !company.city) {
     return company.legalAddress;

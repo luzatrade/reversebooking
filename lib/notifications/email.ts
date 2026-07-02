@@ -1,3 +1,5 @@
+import { resolveNotificationEmailFrom } from "@/lib/email/from";
+
 type EmailPayload = {
   to: string | null | undefined;
   subject: string;
@@ -9,7 +11,7 @@ export async function sendEmailNotification(payload: EmailPayload) {
   if (!to) return { ok: false, skipped: true, reason: "missing_recipient"};
 
   const resendApiKey = process.env.RESEND_API_KEY;
-  const from = process.env.NOTIFICATION_EMAIL_FROM ?? "HotelsDrop <notifications@hotelsdrop.com>";
+  const from = resolveNotificationEmailFrom();
 
   if (!resendApiKey) {
     console.info("Email notification ready", { to, subject: payload.subject});
