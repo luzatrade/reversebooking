@@ -107,6 +107,7 @@ export const translations = {
       footerDescription:
         "HotelsDrop.com è il marketplace digitale che mette in contatto diretto viaggiatori e strutture ricettive per eliminare le commissioni delle OTA. La piattaforma ottimizza il punto d'incontro tra richiesta e offerta, consentendo agli hotel di pubblicare offerte mirate per riempire le date vacanti a calendario, rendendo il prezzo vantaggioso per il viaggiatore e massimizzando il guadagno per la struttura.",
       footerOperatedService: "HotelsDrop.com è un servizio operato da {entity}.",
+      footerVatLine: "P. IVA / C.F. {vat}",
       vat: "P. IVA / C.F.",
       headquarters: "Sede legale",
       support: "Supporto",
@@ -1247,6 +1248,7 @@ export const translations = {
       footerDescription:
         "HotelsDrop.com is the digital marketplace that connects travelers and accommodations directly to eliminate OTA commissions. The platform optimizes the meeting point between demand and supply, allowing hotels to publish targeted offers to fill vacant calendar dates, making prices advantageous for travelers and maximizing revenue for properties.",
       footerOperatedService: "HotelsDrop.com is a service operated by {entity}.",
+      footerVatLine: "VAT / Tax ID {vat}",
       vat: "VAT / Tax ID",
       headquarters: "Registered office",
       support: "Support",
