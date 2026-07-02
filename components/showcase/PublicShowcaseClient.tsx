@@ -728,23 +728,27 @@ export function PublicShowcaseClient() {
       </div>
 <div className="relative z-0 mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
       <HorizontalSlider
-        sectionId={LAST_MINUTE_SECTION_ID}
-        title={t.catalogOffers.structureOffersTitle}
-        titleClassName="hd-bento-title-orange"
-        subtitle={t.catalogOffers.structureOffersSubtitle}
+        title={
+          hasSelectedCity
+            ? hotelsLoading
+              ? formatMessage(t.showcase.structuresAtCityLoading, { city: selectedCity.city_name })
+              : formatMessage(t.showcase.structuresAtCityCount, { count: visibleHotels.length, city: selectedCity.city_name })
+            : formatMessage(t.showcase.featuredStructuresCount, { count: visibleHotels.length })
+        }
+        subtitle={t.showcase.featuredHotelsSubtitle}
         prevLabel={t.showcase.sliderPrevious}
         nextLabel={t.showcase.sliderNext}
-        itemCount={!offersLoading ? structureOffers.length : 0}
+        itemCount={!hotelsLoading ? visibleHotels.length : 0}
       >
-        {offersLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">{t.catalogOffers.loadingOffers}</div> : null}
-        {!offersLoading && structureOffers.length === 0 ? (
+        {hotelsLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">{t.showcase.loadingStructures}</div> : null}
+        {!hotelsLoading && visibleHotels.length === 0 ? (
           <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">
-            {t.catalogOffers.structureOffersEmpty}
+            {hasSelectedCity
+              ? formatMessage(t.showcase.noStructuresFoundInCity, { city: selectedCity.city_name })
+              : t.showcase.noStructuresFound}
           </div>
         ) : null}
-        {!offersLoading ? structureOffers.map((offer) => (
-          <CatalogOfferCard key={offer.id} offer={offer} />
-        )) : null}
+        {!hotelsLoading ? visibleHotels.map((hotel) => renderHotelCard(hotel)) : null}
       </HorizontalSlider>
 
       <HorizontalSlider
@@ -786,27 +790,23 @@ export function PublicShowcaseClient() {
       </HorizontalSlider>
 
       <HorizontalSlider
-        title={
-          hasSelectedCity
-            ? hotelsLoading
-              ? formatMessage(t.showcase.structuresAtCityLoading, { city: selectedCity.city_name })
-              : formatMessage(t.showcase.structuresAtCityCount, { count: visibleHotels.length, city: selectedCity.city_name })
-            : formatMessage(t.showcase.featuredStructuresCount, { count: visibleHotels.length })
-        }
-        subtitle={t.showcase.featuredHotelsSubtitle}
+        sectionId={LAST_MINUTE_SECTION_ID}
+        title={t.catalogOffers.structureOffersTitle}
+        titleClassName="hd-bento-title-orange"
+        subtitle={t.catalogOffers.structureOffersSubtitle}
         prevLabel={t.showcase.sliderPrevious}
         nextLabel={t.showcase.sliderNext}
-        itemCount={!hotelsLoading ? visibleHotels.length : 0}
+        itemCount={!offersLoading ? structureOffers.length : 0}
       >
-        {hotelsLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">{t.showcase.loadingStructures}</div> : null}
-        {!hotelsLoading && visibleHotels.length === 0 ? (
+        {offersLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">{t.catalogOffers.loadingOffers}</div> : null}
+        {!offersLoading && structureOffers.length === 0 ? (
           <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">
-            {hasSelectedCity
-              ? formatMessage(t.showcase.noStructuresFoundInCity, { city: selectedCity.city_name })
-              : t.showcase.noStructuresFound}
+            {t.catalogOffers.structureOffersEmpty}
           </div>
         ) : null}
-        {!hotelsLoading ? visibleHotels.map((hotel) => renderHotelCard(hotel)) : null}
+        {!offersLoading ? structureOffers.map((offer) => (
+          <CatalogOfferCard key={offer.id} offer={offer} />
+        )) : null}
       </HorizontalSlider>
 
       {SHOW_HOME_AGENCY_DIRECTORY ? (
