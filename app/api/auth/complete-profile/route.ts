@@ -7,6 +7,11 @@ import {
   needsOnboardingHotelPrefill,
   reserveOnboardingClaim,
 } from "@/lib/hotel/onboarding-claim";
+import {
+  isEmailConfirmed,
+  profileStatusForEmailConfirmation,
+} from "@/lib/auth/account-activation";
+import { syncAccountActivation } from "@/lib/auth/sync-account-activation";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
 import { PRIVACY_VERSION, TERMS_VERSION } from "@/lib/legal/company";
 import { getClientIp, rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
@@ -41,6 +46,13 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Utente non trovato." }, { status: 401 });
   }
 
+  if (!isEmailConfirmed(user)) {
+    return NextResponse.json(
+      { error: "Conferma l'email prima di attivare il profilo." },
+      { status: 403 },
+    );
+  }
+
   const adminClient = createClient(url, serviceKey, { auth: { persistSession: false } });
 
   const meta = user.user_metadata ?? {};
@@ -68,7 +80,8 @@ export async function POST(request: Request) {
     role === "hotel" && needsOnboardingHotelPrefill(existingHotel, onboardingHotelId);
 
   if (existingProfile && !pendingOnboardingPrefill && (existingProfile.role !== "hotel" || existingHotel)) {
-    return NextResponse.json({ ok: true, alreadyComplete: true });
+    const activation = await syncAccountActivation(adminClient, user.id);
+    return NextResponse.json({ ok: true, alreadyComplete: true, ...activation });
   }
 
   const email = user.email ?? "";
@@ -90,9 +103,9 @@ export async function POST(request: Request) {
       role,
       email,
       phone_number: profilePhone,
-      email_verified: Boolean(user.email_confirmed_at),
+      email_verified: true,
       phone_verified: false,
-      account_status: "active",
+      account_status: profileStatusForEmailConfirmation(true),
     },
     { onConflict: "user_id" },
   );

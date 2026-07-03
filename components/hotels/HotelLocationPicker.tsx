@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import { createHotelPinIcon } from "@/lib/maps/hotelPinIcon";
 import { mapCenterForCity } from "@/lib/showcase/hotelMapCoords";
 
 type HotelLocationPickerProps = {
@@ -77,6 +78,7 @@ export function HotelLocationPicker({
     }).addTo(map);
 
     const marker = L.marker(initialPosition, {
+      icon: createHotelPinIcon(),
       draggable: true,
       autoPan: true,
     }).addTo(map);

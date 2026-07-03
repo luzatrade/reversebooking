@@ -1,6 +1,11 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
 import {
+  hotelStatusForEmailConfirmation,
+  profileStatusForEmailConfirmation,
+} from "@/lib/auth/account-activation";
+import { registerWithResend, shouldRegisterWithResend } from "@/lib/auth/register-with-resend";
+import {
   assertOnboardingClaimable,
   buildHotelFromOnboarding,
   loadOnboardingHotel,
@@ -81,6 +86,47 @@ export async function POST(request: Request) {
 
   const userAgent = request.headers.get("user-agent") ?? null;
 
+  const userMetadata = {
+    account_kind: accountKind,
+    structure_type: body.structureType ?? "hotel",
+    role,
+    marketing_accepted: marketingAccepted,
+    terms_version: body.termsVersion ?? TERMS_VERSION,
+    privacy_version: body.privacyVersion ?? PRIVACY_VERSION,
+    ip_address: ip,
+    user_agent: userAgent,
+    onboarding_hotel_id: onboardingId,
+  };
+
+  let user;
+  let session;
+
+  if (shouldRegisterWithResend()) {
+    const resendRegistration = await registerWithResend({
+      email,
+      password,
+      userMetadata,
+    });
+
+    if (!resendRegistration.ok) {
+      return NextResponse.json(
+        { error: resendRegistration.error },
+        { status: resendRegistration.status ?? 400 },
+      );
+    }
+
+    user = resendRegistration.user;
+    session = resendRegistration.session;
+
+    return NextResponse.json({
+      ok: true,
+      role,
+      userId: user.id,
+      emailConfirmationRequired: true,
+      claimPending: Boolean(onboardingId && accountKind === "struttura"),
+    });
+  }
+
   const supabase = createClient(url, anonKey, {
     auth: { persistSession: false, autoRefreshToken: false },
   });
@@ -88,27 +134,15 @@ export async function POST(request: Request) {
   const { data, error } = await supabase.auth.signUp({
     email,
     password,
-    options: {
-      data: {
-        account_kind: accountKind,
-        structure_type: body.structureType ?? "hotel",
-        role,
-        marketing_accepted: marketingAccepted,
-        terms_version: body.termsVersion ?? TERMS_VERSION,
-        privacy_version: body.privacyVersion ?? PRIVACY_VERSION,
-        ip_address: ip,
-        user_agent: userAgent,
-        onboarding_hotel_id: onboardingId,
-      },
-    },
+    options: { data: userMetadata },
   });
 
   if (error) {
     return NextResponse.json({ error: error.message }, { status: 400 });
   }
 
-  const user = data.user;
-  const session = data.session;
+  user = data.user;
+  session = data.session;
 
   if (!user) {
     return NextResponse.json({ error: "Registrazione fallita." }, { status: 500 });
@@ -176,6 +210,8 @@ async function completeProfile(
     }
   }
 
+  const accountStatus = profileStatusForEmailConfirmation(emailVerified);
+
   await userClient.from("profiles").upsert(
     {
       user_id: userId,
@@ -184,15 +220,15 @@ async function completeProfile(
       phone_number: profilePhone,
       email_verified: emailVerified,
       phone_verified: false,
-      account_status: "active",
+      account_status: accountStatus,
     },
     { onConflict: "user_id" },
   );
 
   if (role === "hotel") {
-    await createHotelAccount(userClient, userId, email, body);
+    await createHotelAccount(userClient, userId, email, body, emailVerified);
   } else if (role === "agency") {
-    await createAgencyAccount(userClient, userId, email);
+    await createAgencyAccount(userClient, userId, email, emailVerified);
   } else {
     await userClient.from("advertiser_profiles").upsert(
       {
@@ -224,7 +260,9 @@ async function createHotelAccount(
   userId: string,
   email: string,
   body: Body,
+  emailVerified: boolean,
 ) {
+  const hotelStatus = hotelStatusForEmailConfirmation(emailVerified);
   const serviceUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
   if (!serviceUrl || !serviceKey) {
@@ -243,7 +281,7 @@ async function createHotelAccount(
         private_notification_email: email,
         subscription_status: "active",
         subscription_active: true,
-        account_status: "active",
+        account_status: hotelStatus,
       },
       { onConflict: "user_id" },
     );
@@ -300,7 +338,7 @@ async function createHotelAccount(
       google_maps_url: null as string | null,
       subscription_status: "active",
       subscription_active: true,
-      account_status: "active",
+      account_status: hotelStatus,
     },
     { onConflict: "user_id" },
   );
@@ -311,7 +349,9 @@ async function createAgencyAccount(
   userClient: AppSupabase,
   userId: string,
   email: string,
+  emailVerified: boolean,
 ) {
+  const hotelStatus = hotelStatusForEmailConfirmation(emailVerified);
   await userClient.from("hotel_accounts").upsert(
     {
       user_id: userId,
@@ -334,7 +374,7 @@ async function createAgencyAccount(
       main_photo_url: null as string | null,
       subscription_status: "active",
       subscription_active: true,
-      account_status: "active",
+      account_status: hotelStatus,
     },
     { onConflict: "user_id" },
   );

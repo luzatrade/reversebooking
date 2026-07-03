@@ -805,12 +805,19 @@ export const translations = {
         mapsPositionHint:
           "Trascina il segnaposto oppure clicca sulla mappa per posizionare la struttura con precisione. Questa posizione viene mostrata ai viaggiatori.",
         mapsPositionCoords: "Coordinate: {lat}, {lng}",
-        mapsPositionMissing: "Posizione non ancora impostata — trascina il segnaposto o usa il link Google Maps.",
+        mapsPositionMissing:
+          "Posizione non ancora impostata — usa il link Google Maps, l'indirizzo completo o trascina il segnaposto.",
         mapsExtractFromLink: "Estrai posizione dal link",
+        mapsExtractFromAddress: "Posiziona da testo inserito",
         mapsExtracting: "Estrazione in corso…",
         mapsExtractOk: "Posizione estratta dal link. Verifica il segnaposto e salva il profilo.",
+        mapsExtractAddressOk:
+          "Posizione stimata dall'indirizzo. Verifica il segnaposto sulla mappa e salva il profilo.",
         mapsExtractFail: "Impossibile estrarre la posizione da questo link. Controlla il link o posiziona manualmente il segnaposto.",
+        mapsExtractAddressFail:
+          "Impossibile trovare l'indirizzo sulla mappa. Controlla i dati inseriti, usa il link Google Maps o posiziona manualmente il segnaposto.",
         mapsExtractNeedUrl: "Inserisci prima il link Google Maps.",
+        mapsExtractNeedAddress: "Inserisci prima l'indirizzo completo.",
         publicEmail: "Email pubblica",
         publicPhone: "Telefono pubblico",
         publicPhoneReadonly:
@@ -1128,8 +1135,13 @@ export const translations = {
     },
     location: {
       cityPlaceholder: "Scrivi una città, es. Roma, Parigi, Bangkok...",
+      addressPlaceholder: "Via e numero civico, es. Via Roma 15",
       searching: "Ricerca città...",
+      addressSearching: "Ricerca indirizzo...",
       manualEntryHint: "Continua a scrivere o inserisci la città manualmente.",
+      addressManualHint: "Continua a scrivere oppure usa il testo libero e poi «Posiziona da testo inserito».",
+      addressHelp:
+        "Cerca via e numero civico: al click su un suggerimento la mappa si posiziona automaticamente. Funziona in Italia e all'estero.",
     },
     values: {
       roomOnly: "Solo pernottamento",
@@ -1936,12 +1948,19 @@ export const translations = {
         mapsPositionHint:
           "Drag the pin or click on the map to place your property accurately. Travelers will see this location.",
         mapsPositionCoords: "Coordinates: {lat}, {lng}",
-        mapsPositionMissing: "Position not set yet — drag the pin or use the Google Maps link.",
+        mapsPositionMissing:
+          "Position not set yet — use the Google Maps link, full address, or drag the pin.",
         mapsExtractFromLink: "Extract position from link",
+        mapsExtractFromAddress: "Position from typed text",
         mapsExtracting: "Extracting…",
         mapsExtractOk: "Position extracted from the link. Verify the pin and save your profile.",
+        mapsExtractAddressOk:
+          "Approximate position from the address. Verify the pin on the map and save your profile.",
         mapsExtractFail: "Could not extract a position from this link. Check the link or place the pin manually.",
+        mapsExtractAddressFail:
+          "Could not locate the address on the map. Check your details, use the Google Maps link, or place the pin manually.",
         mapsExtractNeedUrl: "Enter the Google Maps link first.",
+        mapsExtractNeedAddress: "Enter the full address first.",
         publicEmail: "Public email",
         publicPhone: "Public phone",
         publicPhoneReadonly:
@@ -2255,8 +2274,13 @@ export const translations = {
     },
     location: {
       cityPlaceholder: "Type a city, e.g. Rome, Paris, Bangkok...",
+      addressPlaceholder: "Street and number, e.g. 66 Alie Street",
       searching: "Searching cities...",
+      addressSearching: "Searching address...",
       manualEntryHint: "Keep typing or enter the city manually.",
+      addressManualHint: "Keep typing or use free text, then choose “Position from typed text”.",
+      addressHelp:
+        "Search for street and number: selecting a suggestion positions the map automatically. Works in Italy and abroad.",
     },
     values: {
       roomOnly: "Room only",

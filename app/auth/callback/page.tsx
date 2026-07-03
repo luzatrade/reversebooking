@@ -67,6 +67,42 @@ function AuthCallbackContent() {
           return;
         }
 
+        const tokenHash = searchParams.get("token_hash");
+        const tokenType = searchParams.get("type");
+        if (tokenHash) {
+          const otpType =
+            tokenType === "signup" || tokenType === "email" || tokenType === "magiclink"
+              ? tokenType
+              : "email";
+          const { error: verifyError } = await supabase.auth.verifyOtp({
+            token_hash: tokenHash,
+            type: otpType,
+          });
+          if (verifyError) {
+            setErrorMessage(mapAuthLoginError(verifyError.message, locale));
+            return;
+          }
+
+          const { data: sessionData } = await supabase.auth.getSession();
+          const user = sessionData.session?.user;
+          const accessToken = sessionData.session?.access_token;
+          if (accessToken) {
+            await fetch("/api/auth/complete-profile", {
+              method: "POST",
+              headers: { Authorization: `Bearer ${accessToken}` },
+            });
+          }
+
+          if (!user) {
+            router.replace("/login");
+            return;
+          }
+
+          const metaRole = roleFromUserMetadata(user);
+          redirectAfterLogin(next || dashboardPathForRole(metaRole ?? undefined));
+          return;
+        }
+
         const { data: sessionData } = await supabase.auth.getSession();
         const user = sessionData.session?.user;
         if (!user) {

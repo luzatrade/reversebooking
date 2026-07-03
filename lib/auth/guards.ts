@@ -1,4 +1,5 @@
 import { redirect } from "next/navigation";
+import { isEmailConfirmed } from "@/lib/auth/account-activation";
 import { getSessionAndProfile, type ProfileRow } from "@/lib/auth/session";
 import type { User } from "@supabase/supabase-js";
 import type { UserRole } from "@/types/app";
@@ -31,6 +32,7 @@ export async function requireRole(role: UserRole): Promise<{ user: User; profile
   const { user, profile } = await getSessionAndProfile();
   if (!user) redirect("/login?redirect=/console/dashboard");
   if (!profile || profile.role !== role) redirect("/");
+  if (!isEmailConfirmed(user)) redirect("/login?confirm=1");
   if (isBlockedAccount(profile.account_status)) redirect("/account?blocked=1");
   if (await mfaUpgradeRequired()) redirect("/login?redirect=/console/dashboard&mfa=1");
   return { user, profile };

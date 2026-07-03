@@ -32,6 +32,7 @@ export default async function ConsoleUtentiPage({
           { key: "email", label: "Email" },
           { key: "role", label: "Ruolo" },
           { key: "phone", label: "Telefono" },
+          { key: "emailVerified", label: "Email verificata" },
           { key: "status", label: "Stato" },
           { key: "created", label: "Registrato" },
           { key: "actions", label: "Azioni" },
@@ -42,6 +43,11 @@ export default async function ConsoleUtentiPage({
             email: <span className="font-medium">{p.email}</span>,
             role: <StatusBadge value={p.role} />,
             phone: p.phone_number,
+            emailVerified: p.email_verified ? (
+              <span className="text-xs font-semibold text-emerald-700">Sì</span>
+            ) : (
+              <span className="text-xs font-semibold text-amber-700">No</span>
+            ),
             status: <StatusBadge value={p.account_status} />,
             created: formatDate(p.created_at),
             actions: (

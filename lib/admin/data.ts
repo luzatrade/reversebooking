@@ -57,7 +57,7 @@ export async function listProfiles(query?: string) {
   const supabase = db();
   let request = supabase
     .from("profiles")
-    .select("id, user_id, role, email, phone_number, account_status, created_at")
+    .select("id, user_id, role, email, phone_number, account_status, email_verified, created_at")
     .order("created_at", { ascending: false })
     .limit(200);
   request = applySearch(request, query, ["email", "phone_number"], ["id", "user_id"]);

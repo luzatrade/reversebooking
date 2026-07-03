@@ -25,6 +25,10 @@ export default function ChooseAccountPage() {
         setError(t.auth.sessionNotFound);
         return;
       }
+      if (!user.email_confirmed_at) {
+        setError(t.auth.msgEmailNotConfirmed);
+        return;
+      }
       const role = kind === "struttura" ? "hotel" : kind === "agenzia" ? "agency" : "advertiser";
       const { error: profileError } = await supabase.from("profiles").upsert(
         {

@@ -17,6 +17,7 @@ import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { formatMessage } from "@/lib/i18n/format";
 import { getStructureTypeLabels } from "@/lib/i18n/labels";
 import { HotelLocationPicker } from "@/components/hotels/HotelLocationPicker";
+import { AddressAutocomplete } from "@/components/location/AddressAutocomplete";
 
 import type { StructureType } from "@/types/app";
 
@@ -83,7 +84,7 @@ export function EditHotelProfileForm() {
   const [uploading, setUploading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
-  const [extractingCoords, setExtractingCoords] = useState(false);
+  const [extractingCoords, setExtractingCoords] = useState<"link" | "address" | null>(null);
   const [mapsExtractMessage, setMapsExtractMessage] = useState<string | null>(null);
   const [hotelOperational, setHotelOperational] = useState(true);
 
@@ -195,14 +196,17 @@ export function EditHotelProfileForm() {
   async function onGalleryPhotoChange(event: ChangeEvent<HTMLInputElement>) { const file = event.target.files?.[0]; if (!file) return; setUploading(true); setError(null); setSuccess(null); try { if (form.gallery_photo_urls.length >= MAX_GALLERY_PHOTOS) { setError(hp.maxGalleryPhotos); return; } const url = await uploadPhoto(file, "gallery"); update("gallery_photo_urls", [...form.gallery_photo_urls, url].slice(0, MAX_GALLERY_PHOTOS)); setSuccess(hp.galleryPhotoUploaded); } catch (err) { setError(err instanceof Error ? err.message : hp.errorUpload); } finally { setUploading(false); event.target.value = ""; } }
   function removeGalleryPhoto(index: number) { update("gallery_photo_urls", form.gallery_photo_urls.filter((_, photoIndex) => photoIndex !== index)); }
 
-  async function extractCoordsFromLink() {
-    const url = form.google_maps_url.trim();
-    if (!url) {
+  async function extractCoords(mode: "link" | "address") {
+    if (mode === "link" && !form.google_maps_url.trim()) {
       setMapsExtractMessage(hp.mapsExtractNeedUrl);
       return;
     }
+    if (mode === "address" && !form.full_address.trim()) {
+      setMapsExtractMessage(hp.mapsExtractNeedAddress);
+      return;
+    }
 
-    setExtractingCoords(true);
+    setExtractingCoords(mode);
     setMapsExtractMessage(null);
     setError(null);
     try {
@@ -214,28 +218,44 @@ export function EditHotelProfileForm() {
         return;
       }
 
+      const body =
+        mode === "link"
+          ? { url: form.google_maps_url.trim() }
+          : {
+              address: form.full_address.trim(),
+              propertyName: form.property_name.trim() || undefined,
+              cityName: form.city_name.trim() || undefined,
+              countryName: form.country_name.trim() || undefined,
+              countryCode: form.country_code.trim() || undefined,
+            };
+
       const res = await fetch("/api/hotel/extract-coords", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
           Authorization: `Bearer ${token}`,
         },
-        body: JSON.stringify({ url }),
+        body: JSON.stringify(body),
       });
       const data = (await res.json()) as {
         latitude?: number;
         longitude?: number;
         error?: string;
         hint?: string;
+        method?: "link" | "address";
       };
 
       if (!res.ok) {
-        setMapsExtractMessage(data.hint ?? data.error ?? hp.mapsExtractFail);
+        setMapsExtractMessage(
+          data.hint ??
+            data.error ??
+            (mode === "link" ? hp.mapsExtractFail : hp.mapsExtractAddressFail),
+        );
         return;
       }
 
       if (data.latitude == null || data.longitude == null) {
-        setMapsExtractMessage(hp.mapsExtractFail);
+        setMapsExtractMessage(mode === "link" ? hp.mapsExtractFail : hp.mapsExtractAddressFail);
         return;
       }
 
@@ -244,11 +264,11 @@ export function EditHotelProfileForm() {
         latitude: data.latitude ?? null,
         longitude: data.longitude ?? null,
       }));
-      setMapsExtractMessage(hp.mapsExtractOk);
+      setMapsExtractMessage(data.method === "address" ? hp.mapsExtractAddressOk : hp.mapsExtractOk);
     } catch {
-      setMapsExtractMessage(hp.mapsExtractFail);
+      setMapsExtractMessage(mode === "link" ? hp.mapsExtractFail : hp.mapsExtractAddressFail);
     } finally {
-      setExtractingCoords(false);
+      setExtractingCoords(null);
     }
   }
 
@@ -276,7 +296,39 @@ export function EditHotelProfileForm() {
   return <div className="space-y-6"><HardNavLink href="/struttura/dashboard" className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white"><ArrowLeft className="h-4 w-4" /> {hp.backToDashboard}</HardNavLink>{needsPhoneVerification || claimFlow ? <HotelPhoneVerification phone={form.public_phone} verified={phoneVerified} onVerified={() => { setPhoneVerified(true); setHotelOperational(true); }} /> : null}{success ? <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-700">{success}</div> : null}<form onSubmit={onSubmit} className="space-y-6 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900"><div><p className="text-sm font-medium uppercase tracking-wide text-emerald-700">{hp.sectionLabel}</p><h1 className="mt-2 text-3xl font-semibold tracking-tight">{hp.title}</h1><p className="mt-2 text-sm text-zinc-500">{hp.intro}</p></div><CountryCitySelect value={selectedCity} onChange={updateCity} countryLabel={hp.countryLabel} cityLabel={hp.cityLabel} helpText={hp.cityHelp} />
   <div className="grid gap-5 md:grid-cols-2"><label className="block text-sm font-medium">{hp.propertyName}<input value={form.property_name} onChange={(e) => update("property_name", e.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium">{hp.structureType}<select value={form.structure_type} onChange={(e) => update("structure_type", e.target.value as StructureType)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950">{Object.entries(structureTypeLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label><label className="block text-sm font-medium">{hp.cinOptional} <span className="text-zinc-400">({t.common.optional})</span><input value={form.cin_code} onChange={(e) => update("cin_code", e.target.value)} placeholder={hp.cinPlaceholder} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium">{hp.roomsUnits}<input type="number" min={1} value={form.rooms_quantity} onChange={(e) => update("rooms_quantity", Number(e.target.value))} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium md:col-span-2">{hp.description}<textarea value={form.description} onChange={(e) => update("description", e.target.value)} rows={5} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
   <section className="space-y-4 rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 md:col-span-2"><div><h2 className="font-semibold">{hp.photosTitle}</h2><p className="mt-1 text-sm text-zinc-500">{hp.photosHint}</p></div><div className="grid gap-4 md:grid-cols-[240px_1fr]"><div className="rounded-2xl border border-zinc-200 p-3 dark:border-zinc-800"><p className="text-sm font-medium">{hp.mainPhoto}</p><div className="mt-3 aspect-video overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-950">{form.main_photo_url ? <Image src={form.main_photo_url} alt={hp.mainPhoto} width={600} height={360} className="h-full w-full object-cover" /> : <div className="flex h-full items-center justify-center text-sm text-zinc-500">{hp.noPhoto}</div>}</div><label className="mt-3 inline-flex cursor-pointer items-center gap-2 rounded-full bg-zinc-950 px-4 py-2 text-sm font-semibold text-white dark:bg-white dark:text-zinc-950"><ImagePlus className="h-4 w-4" /> {uploading ? hp.uploading : hp.uploadMain}<input type="file" accept="image/jpeg,image/png,image/webp" onChange={onMainPhotoChange} disabled={uploading} className="sr-only" /></label></div><div className="rounded-2xl border border-zinc-200 p-3 dark:border-zinc-800"><div className="flex items-center justify-between gap-3"><p className="text-sm font-medium">{formatMessage(hp.additionalPhotos, { count: String(form.gallery_photo_urls.length) })}</p><label className={`inline-flex cursor-pointer items-center gap-2 rounded-full border px-4 py-2 text-sm font-semibold ${form.gallery_photo_urls.length >= MAX_GALLERY_PHOTOS ? "pointer-events-none opacity-50" : ""}`}><ImagePlus className="h-4 w-4" /> {hp.addPhoto}<input type="file" accept="image/jpeg,image/png,image/webp" onChange={onGalleryPhotoChange} disabled={uploading || form.gallery_photo_urls.length >= MAX_GALLERY_PHOTOS} className="sr-only" /></label></div><div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">{form.gallery_photo_urls.map((url, index) => <div key={url} className="relative aspect-video overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-950"><Image src={url} alt={`Foto hotel ${index + 1}`} width={300} height={180} className="h-full w-full object-cover" /><button type="button" onClick={() => removeGalleryPhoto(index)} className="absolute right-2 top-2 rounded-full bg-white/90 p-1 text-zinc-900 shadow-sm"><X className="h-4 w-4" /></button></div>)}{!form.gallery_photo_urls.length ? <p className="text-sm text-zinc-500">{hp.noAdditionalPhotos}</p> : null}</div></div></div></section>
-  <label className="block text-sm font-medium md:col-span-2">{hp.fullAddress}<input value={form.full_address} onChange={(e) => update("full_address", e.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium">{hp.area}<input value={form.specific_area} onChange={(e) => update("specific_area", e.target.value)} placeholder={hp.areaPlaceholder} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
+  <AddressAutocomplete
+    value={form.full_address}
+    latitude={form.latitude}
+    longitude={form.longitude}
+    cityName={form.city_name}
+    cityId={form.city_id}
+    countryName={form.country_name}
+    countryCode={form.country_code}
+    propertyName={form.property_name}
+    onChange={(selection) => {
+      setForm((current) => ({
+        ...current,
+        full_address: selection.fullAddress,
+        latitude: selection.latitude,
+        longitude: selection.longitude,
+        google_maps_url: selection.googleMapsUrl ?? current.google_maps_url,
+      }));
+      setMapsExtractMessage(null);
+    }}
+    onPositioned={() => setMapsExtractMessage(hp.mapsExtractAddressOk)}
+    onError={(message) => setMapsExtractMessage(message)}
+  />
+  <div className="md:col-span-2">
+    <button
+      type="button"
+      onClick={() => void extractCoords("address")}
+      disabled={extractingCoords !== null || !form.full_address.trim()}
+      className="rounded-full border border-zinc-300 bg-white px-4 py-2 text-sm font-semibold text-zinc-900 transition hover:bg-zinc-50 disabled:cursor-not-allowed disabled:opacity-50 dark:border-zinc-600 dark:bg-zinc-950 dark:text-zinc-50 dark:hover:bg-zinc-900"
+    >
+      {extractingCoords === "address" ? hp.mapsExtracting : hp.mapsExtractFromAddress}
+    </button>
+  </div>
+  <label className="block text-sm font-medium">{hp.area}<input value={form.specific_area} onChange={(e) => update("specific_area", e.target.value)} placeholder={hp.areaPlaceholder} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
   <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 md:col-span-2 space-y-4">
     <label className="block text-sm font-medium">{hp.mapsUrl}<input value={form.google_maps_url} onChange={(e) => { update("google_maps_url", e.target.value); setMapsExtractMessage(null); }} placeholder={hp.mapsPlaceholder} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
     <div className="rounded-2xl bg-zinc-50 p-4 text-sm text-zinc-600 dark:bg-zinc-950/60 dark:text-zinc-300">
@@ -292,8 +344,8 @@ export function EditHotelProfileForm() {
       </ol>
     </div>
     <div className="flex flex-wrap items-center gap-3">
-      <button type="button" onClick={() => void extractCoordsFromLink()} disabled={extractingCoords || !form.google_maps_url.trim()} className="rounded-full border border-zinc-300 bg-white px-4 py-2 text-sm font-semibold text-zinc-900 transition hover:bg-zinc-50 disabled:cursor-not-allowed disabled:opacity-50 dark:border-zinc-600 dark:bg-zinc-950 dark:text-zinc-50 dark:hover:bg-zinc-900">
-        {extractingCoords ? hp.mapsExtracting : hp.mapsExtractFromLink}
+      <button type="button" onClick={() => void extractCoords("link")} disabled={extractingCoords !== null || !form.google_maps_url.trim()} className="rounded-full border border-zinc-300 bg-white px-4 py-2 text-sm font-semibold text-zinc-900 transition hover:bg-zinc-50 disabled:cursor-not-allowed disabled:opacity-50 dark:border-zinc-600 dark:bg-zinc-950 dark:text-zinc-50 dark:hover:bg-zinc-900">
+        {extractingCoords === "link" ? hp.mapsExtracting : hp.mapsExtractFromLink}
       </button>
       {mapsExtractMessage ? <p className="text-sm text-amber-800 dark:text-amber-200">{mapsExtractMessage}</p> : null}
     </div>

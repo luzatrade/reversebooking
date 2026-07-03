@@ -65,6 +65,15 @@ function LoginPageContent() {
     errorMessage === loginMessages.notRegistered || errorMessage === loginMessages.invalidCredentials;
 
   const finishLogin = async (supabase: ReturnType<typeof createBrowserSupabaseClient>, user: User) => {
+    const session = await supabase.auth.getSession();
+    const token = session.data.session?.access_token;
+    if (token) {
+      await fetch("/api/auth/complete-profile", {
+        method: "POST",
+        headers: { Authorization: `Bearer ${token}` },
+      });
+    }
+
     const role = roleFromUserMetadata(user) ?? (await resolveLoginRole(supabase, user));
     if (!role) {
       await supabase.auth.signOut();

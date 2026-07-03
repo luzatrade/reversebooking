@@ -473,6 +473,34 @@ body {
   border: none !important;
 }
 
+.hd-hotel-pin-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+.hd-hotel-pin {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transform: translate(-50%, -100%);
+  pointer-events: none;
+  transition: transform 0.15s ease;
+}
+
+.hd-hotel-pin svg {
+  display: block;
+  filter: drop-shadow(0 6px 14px rgba(249, 115, 22, 0.42));
+}
+
+.leaflet-marker-draggable .hd-hotel-pin {
+  cursor: grab;
+}
+
+.leaflet-marker-draggable .hd-hotel-pin:active {
+  cursor: grabbing;
+  transform: translate(-50%, -100%) scale(1.06);
+}
+
 @media (max-width: 767px) {
   .hd-explore-map-modal {
     padding: 0 !important;

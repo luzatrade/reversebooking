@@ -1,3 +1,6 @@
+import http from "node:http";
+import https from "node:https";
+
 export type GeoCoords = {
   latitude: number;
   longitude: number;
@@ -16,11 +19,10 @@ export type ExtractGoogleMapsCoordsResult =
       finalUrl?: string;
     };
 
-const FETCH_HEADERS: HeadersInit = {
-  "User-Agent":
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-  "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
+const REQUEST_HEADERS: http.OutgoingHttpHeaders = {
+  // UA minimale: con Chrome completo Google risponde 200+SPA invece del 302 verso maps.
+  "User-Agent": "Mozilla/5.0 (compatible; HotelsDropMapsResolver/1.0)",
+  Accept: "*/*",
 };
 
 const PLACE_PIN_RE = /!3d(-?\d+(?:\.\d+)?)!4d(-?\d+(?:\.\d+)?)/;
@@ -106,8 +108,72 @@ export function extractCoordsFromGoogleMapsUrl(url: string): ExtractGoogleMapsCo
   return { ok: false, error: "Coordinate non trovate nell'URL Google Maps", finalUrl: url };
 }
 
+function resolveRedirectTarget(location: string, currentUrl: string): string {
+  const next = new URL(location, currentUrl).href;
+  if (!next.includes("consent.google.com")) return next;
+
+  try {
+    const consentUrl = new URL(next);
+    const continueUrl = consentUrl.searchParams.get("continue");
+    if (continueUrl) return continueUrl;
+  } catch {
+    // ignore malformed consent URL
+  }
+
+  return next;
+}
+
+function requestRedirectStep(
+  url: string,
+  signal?: AbortSignal,
+): Promise<{ statusCode: number; location: string | null }> {
+  return new Promise((resolve, reject) => {
+    const parsed = new URL(url);
+    const client = parsed.protocol === "http:" ? http : https;
+
+    const req = client.request(
+      {
+        hostname: parsed.hostname,
+        port: parsed.port || undefined,
+        path: `${parsed.pathname}${parsed.search}`,
+        method: "GET",
+        headers: REQUEST_HEADERS,
+      },
+      (res) => {
+        res.resume();
+        resolve({
+          statusCode: res.statusCode ?? 0,
+          location: typeof res.headers.location === "string" ? res.headers.location : null,
+        });
+      },
+    );
+
+    req.on("error", reject);
+    req.setTimeout(FETCH_TIMEOUT_MS, () => {
+      req.destroy(new Error("Timeout durante il resolve del link Google Maps"));
+    });
+
+    if (signal) {
+      if (signal.aborted) {
+        req.destroy(new Error("Operazione annullata"));
+        return;
+      }
+      signal.addEventListener(
+        "abort",
+        () => {
+          req.destroy(new Error("Operazione annullata"));
+        },
+        { once: true },
+      );
+    }
+
+    req.end();
+  });
+}
+
 /**
  * Segue i redirect HTTP (header Location) fino all'URL finale Google Maps.
+ * Usa http/https nativi: fetch() non riceve il 302 da maps.app.goo.gl.
  */
 export async function resolveGoogleMapsUrl(
   rawUrl: string,
@@ -122,34 +188,31 @@ export async function resolveGoogleMapsUrl(
   let current = startUrl;
 
   for (let hop = 0; hop < MAX_REDIRECTS; hop += 1) {
-    let response: Response;
+    const coordsInCurrent = extractCoordsFromGoogleMapsUrl(current);
+    if (coordsInCurrent.ok) {
+      return { finalUrl: current, chain };
+    }
+
+    let step: { statusCode: number; location: string | null };
     try {
-      response = await fetch(current, {
-        method: "GET",
-        redirect: "manual",
-        headers: FETCH_HEADERS,
-        signal: options?.signal ?? AbortSignal.timeout(FETCH_TIMEOUT_MS),
-      });
+      step = await requestRedirectStep(current, options?.signal);
     } catch (err) {
       const message = err instanceof Error ? err.message : "Errore di rete";
       return { error: message };
     }
 
-    if (response.status >= 300 && response.status < 400) {
-      const location = response.headers.get("location");
-      if (!location) {
-        return { error: `Redirect ${response.status} senza header Location` };
-      }
-      current = new URL(location, current).href;
-      chain.push(current);
-      continue;
-    }
-
-    if (response.url && response.url !== current) {
-      current = response.url;
+    if (step.statusCode >= 300 && step.statusCode < 400 && step.location) {
+      current = resolveRedirectTarget(step.location, current);
       if (chain[chain.length - 1] !== current) {
         chain.push(current);
       }
+
+      const coordsInRedirect = extractCoordsFromGoogleMapsUrl(current);
+      if (coordsInRedirect.ok) {
+        return { finalUrl: current, chain };
+      }
+
+      continue;
     }
 
     return { finalUrl: current, chain };
