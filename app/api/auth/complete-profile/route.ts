@@ -14,6 +14,7 @@ import {
 import { syncAccountActivation } from "@/lib/auth/sync-account-activation";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
 import { PRIVACY_VERSION, TERMS_VERSION } from "@/lib/legal/company";
+import { PENDING_CITY_ID } from "@/lib/constants/world-city-helpers";
 import { getClientIp, rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
 
 export async function POST(request: Request) {
@@ -65,7 +66,9 @@ export async function POST(request: Request) {
           ? "advertiser"
           : "advertiser";
   const onboardingHotelId =
-    typeof meta.onboarding_hotel_id === "string" ? meta.onboarding_hotel_id : null;
+    typeof meta.onboarding_hotel_id === "string" && meta.onboarding_hotel_id.trim()
+      ? meta.onboarding_hotel_id.trim()
+      : null;
 
   const [{ data: existingProfile }, { data: existingHotel }] = await Promise.all([
     adminClient.from("profiles").select("user_id, role").eq("user_id", user.id).maybeSingle(),
@@ -79,7 +82,13 @@ export async function POST(request: Request) {
   const pendingOnboardingPrefill =
     role === "hotel" && needsOnboardingHotelPrefill(existingHotel, onboardingHotelId);
 
-  if (existingProfile && !pendingOnboardingPrefill && (existingProfile.role !== "hotel" || existingHotel)) {
+  const profileSetupComplete =
+    existingProfile &&
+    !pendingOnboardingPrefill &&
+    (existingProfile.role === "advertiser" ||
+      ((existingProfile.role === "hotel" || existingProfile.role === "agency") && existingHotel));
+
+  if (profileSetupComplete) {
     const activation = await syncAccountActivation(adminClient, user.id);
     return NextResponse.json({ ok: true, alreadyComplete: true, ...activation });
   }
@@ -150,7 +159,7 @@ export async function POST(request: Request) {
             country_code: "IT",
             country_name: "Italia",
             city_name: "Da completare",
-            city_id: "",
+            city_id: PENDING_CITY_ID,
             specific_area: null as string | null,
             rooms_quantity: 1,
             private_notification_email: email,
@@ -167,7 +176,7 @@ export async function POST(request: Request) {
       }
     }
   } else if (role === "agency") {
-    await adminClient.from("hotel_accounts").upsert(
+    const { error: agencyHotelError } = await adminClient.from("hotel_accounts").upsert(
       {
         user_id: user.id,
         provider_kind: "agency",
@@ -180,7 +189,7 @@ export async function POST(request: Request) {
         country_code: "IT",
         country_name: "Italia",
         city_name: "Da completare",
-        city_id: "",
+        city_id: PENDING_CITY_ID,
         specific_area: null as string | null,
         rooms_quantity: 1,
         private_notification_email: email,
@@ -193,7 +202,10 @@ export async function POST(request: Request) {
       },
       { onConflict: "user_id" },
     );
-    await adminClient.from("advertiser_profiles").upsert(
+    if (agencyHotelError) {
+      return NextResponse.json({ error: agencyHotelError.message }, { status: 400 });
+    }
+    const { error: agencyAdvertiserError } = await adminClient.from("advertiser_profiles").upsert(
       {
         user_id: user.id,
         advertiser_type: "travel_agency",
@@ -205,6 +217,9 @@ export async function POST(request: Request) {
       },
       { onConflict: "user_id" },
     );
+    if (agencyAdvertiserError) {
+      return NextResponse.json({ error: agencyAdvertiserError.message }, { status: 400 });
+    }
   } else {
     await adminClient.from("advertiser_profiles").upsert(
       {

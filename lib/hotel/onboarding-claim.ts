@@ -41,12 +41,15 @@ export function needsOnboardingHotelPrefill(
 
 export async function loadOnboardingHotel(
   admin: AppSupabase,
-  onboardingId: string,
+  onboardingId: string | null | undefined,
 ): Promise<OnboardingHotelRow | null> {
+  const id = typeof onboardingId === "string" ? onboardingId.trim() : "";
+  if (!id) return null;
+
   const { data } = await admin
     .from("onboarding_hotels")
     .select(ONBOARDING_SELECT)
-    .eq("id", onboardingId)
+    .eq("id", id)
     .maybeSingle();
   return data as OnboardingHotelRow | null;
 }

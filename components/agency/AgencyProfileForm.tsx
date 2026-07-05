@@ -175,17 +175,44 @@ export function AgencyProfileForm() {
           return;
         }
         setUserId(authData.user.id);
-        const { data, error: agencyError } = await supabase
+
+        let { data, error: agencyError } = await supabase
           .from("hotel_accounts")
           .select(
             "id, property_name, cun_code, description, full_address, country_code, country_name, city_name, city_id, specific_area, main_photo_url, gallery_photo_urls, google_maps_url, public_email, public_phone, subscription_active, account_status",
           )
           .eq("user_id", authData.user.id)
-          .single();
+          .maybeSingle();
+
         if (agencyError || !data) {
+          const session = await supabase.auth.getSession();
+          const token = session.data.session?.access_token;
+          if (token) {
+            await fetch("/api/auth/complete-profile", {
+              method: "POST",
+              headers: { Authorization: `Bearer ${token}` },
+            });
+            const retry = await supabase
+              .from("hotel_accounts")
+              .select(
+                "id, property_name, cun_code, description, full_address, country_code, country_name, city_name, city_id, specific_area, main_photo_url, gallery_photo_urls, google_maps_url, public_email, public_phone, subscription_active, account_status",
+              )
+              .eq("user_id", authData.user.id)
+              .maybeSingle();
+            agencyError = retry.error;
+            data = retry.data;
+          }
+        }
+
+        if (agencyError) {
+          setError(agencyError.message);
+          return;
+        }
+        if (!data?.id) {
           setError(c.notFound);
           return;
         }
+
         setOperational(isHotelOperational(data));
         const city = findCityById(data.city_id);
         setSelectedCity(city);
@@ -288,6 +315,10 @@ export function AgencyProfileForm() {
   }
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    if (!form.id) {
+      setError(c.notFound);
+      return;
+    }
     setSaving(true);
     setError(null);
     setSuccess(null);
@@ -325,6 +356,22 @@ export function AgencyProfileForm() {
   }
 
   if (loading) return <div className="rounded-3xl border p-6 text-sm text-zinc-500">{c.loading}</div>;
+
+  if (!form.id) {
+    return (
+      <div className="space-y-6">
+        <Link
+          href="/agenzia/dashboard"
+          className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white"
+        >
+          <ArrowLeft className="h-4 w-4" /> {c.back}
+        </Link>
+        <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">
+          {error ?? c.notFound}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6">

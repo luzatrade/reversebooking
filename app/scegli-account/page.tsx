@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Briefcase, Building2, UserRound } from "lucide-react";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
+import { PENDING_CITY_ID } from "@/lib/constants/world-city-helpers";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 
 type AccountKind = "inserzionista" | "struttura" | "agenzia";
@@ -89,7 +90,7 @@ export default function ChooseAccountPage() {
             country_code: "IT",
             country_name: "Italia",
             city_name: "Da completare",
-            city_id: "",
+            city_id: PENDING_CITY_ID,
             specific_area: null,
             rooms_quantity: 1,
             private_notification_email: user.email,

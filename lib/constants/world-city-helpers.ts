@@ -41,6 +41,24 @@ export function getCitiesByCountry(countryCode: string) {
     .sort((a, b) => a.city_name.localeCompare(b.city_name));
 }
 
+export const PENDING_CITY_ID = "IT-PENDING";
+
+export function pendingWorldCity(): WorldCity {
+  return {
+    label: "Da completare, Italia",
+    country_code: "IT",
+    country_name: "Italia",
+    city_name: "Da completare",
+    city_id: PENDING_CITY_ID,
+  };
+}
+
+export function isPendingCityId(cityId?: string | null): boolean {
+  if (!cityId) return true;
+  const trimmed = cityId.trim();
+  return trimmed === "" || trimmed === PENDING_CITY_ID;
+}
+
 export function emptyWorldCity(): WorldCity {
   return { label: "", country_code: "", country_name: "", city_name: "", city_id: "" };
 }
@@ -59,6 +77,7 @@ export function createWorldCity(countryCode: string, cityName: string, countryNa
 }
 
 export function findCityById(cityId?: string | null): WorldCity {
+  if (isPendingCityId(cityId)) return pendingWorldCity();
   const knownCity = majorWorldCities.find((city) => city.city_id === cityId);
   if (knownCity) return knownCity;
   const match = cityId?.match(/^([A-Z]{2})-(.+)$/);

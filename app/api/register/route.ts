@@ -13,6 +13,7 @@ import {
 } from "@/lib/hotel/onboarding-claim";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
 import { PRIVACY_VERSION, TERMS_VERSION } from "@/lib/legal/company";
+import { PENDING_CITY_ID } from "@/lib/constants/world-city-helpers";
 import { getClientIp, rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
 
 type Body = {
@@ -276,7 +277,7 @@ async function createHotelAccount(
         country_code: "IT",
         country_name: "Italia",
         city_name: "Da completare",
-        city_id: "",
+        city_id: PENDING_CITY_ID,
         rooms_quantity: 1,
         private_notification_email: email,
         subscription_status: "active",
@@ -328,7 +329,7 @@ async function createHotelAccount(
       country_code: "IT",
       country_name: "Italia",
       city_name: "Da completare",
-      city_id: "",
+      city_id: PENDING_CITY_ID,
       specific_area: null as string | null,
       rooms_quantity: 1,
       private_notification_email: email,
@@ -365,7 +366,7 @@ async function createAgencyAccount(
       country_code: "IT",
       country_name: "Italia",
       city_name: "Da completare",
-      city_id: "",
+      city_id: PENDING_CITY_ID,
       specific_area: null as string | null,
       rooms_quantity: 1,
       private_notification_email: email,
