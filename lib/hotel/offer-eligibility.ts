@@ -21,6 +21,7 @@ export type HotelOfferEligibilityRow = {
   subscription_active?: boolean | null;
   account_status?: string | null;
   onboarding_hotel_id?: string | null;
+  provider_kind?: string | null;
 };
 
 export type HotelOfferEligibilityProfile = {
@@ -69,7 +70,8 @@ export function getHotelOfferBlockMessage(
   if (hotel?.account_status === "pending_verification") {
     return OFFER_MSG_PHONE_NOT_VERIFIED;
   }
-  if (!hotel?.subscription_active) return OFFER_MSG_SUBSCRIPTION_INACTIVE;
+  const isAgency = hotel?.provider_kind === "agency";
+  if (!isAgency && !hotel?.subscription_active) return OFFER_MSG_SUBSCRIPTION_INACTIVE;
   return null;
 }
 

@@ -95,6 +95,46 @@ export const boardBasisShort: Record<Locale, Record<MealPlan, string>> = {
   en: { room_only: "RO", breakfast: "BB", half_board: "HB", full_board: "FB", all_inclusive: "AI" },
 };
 
+export const mealPlanWizardDescriptions: Record<
+  Locale,
+  Record<MealPlan, { title: string; hint: string }>
+> = {
+  it: {
+    room_only: { title: "Solo pernottamento", hint: "Camera senza pasti inclusi." },
+    breakfast: { title: "Bed & Breakfast", hint: "Pernottamento e colazione." },
+    half_board: { title: "Mezza pensione", hint: "Colazione e cena (bevande salvo diversa indicazione)." },
+    full_board: { title: "Pensione completa", hint: "Colazione, pranzo e cena." },
+    all_inclusive: { title: "All inclusive", hint: "Pasti e bevande secondo regolamento della struttura." },
+  },
+  en: {
+    room_only: { title: "Room only", hint: "Accommodation without meals." },
+    breakfast: { title: "Bed & Breakfast", hint: "Stay and breakfast." },
+    half_board: { title: "Half board", hint: "Breakfast and dinner (drinks unless stated)." },
+    full_board: { title: "Full board", hint: "Breakfast, lunch and dinner." },
+    all_inclusive: { title: "All inclusive", hint: "Meals and drinks per property rules." },
+  },
+};
+
+export const targetTypeLabels: Record<Locale, Record<"individual" | "group", string>> = {
+  it: { individual: "Individuale / coppia", group: "Gruppo organizzato" },
+  en: { individual: "Individual / couple", group: "Organized group" },
+};
+
+export const MONTH_OPTIONS: Record<Locale, Array<{ value: number; label: string }>> = {
+  it: [
+    { value: 1, label: "Gennaio" }, { value: 2, label: "Febbraio" }, { value: 3, label: "Marzo" },
+    { value: 4, label: "Aprile" }, { value: 5, label: "Maggio" }, { value: 6, label: "Giugno" },
+    { value: 7, label: "Luglio" }, { value: 8, label: "Agosto" }, { value: 9, label: "Settembre" },
+    { value: 10, label: "Ottobre" }, { value: 11, label: "Novembre" }, { value: 12, label: "Dicembre" },
+  ],
+  en: [
+    { value: 1, label: "January" }, { value: 2, label: "February" }, { value: 3, label: "March" },
+    { value: 4, label: "April" }, { value: 5, label: "May" }, { value: 6, label: "June" },
+    { value: 7, label: "July" }, { value: 8, label: "August" }, { value: 9, label: "September" },
+    { value: 10, label: "October" }, { value: 11, label: "November" }, { value: 12, label: "December" },
+  ],
+};
+
 export const offerKindLabels: Record<Locale, Record<CatalogOfferKind, string>> = {
   it: { hotel_vacancy: "Offerta struttura", agency_package: "Pacchetto agenzia" },
   en: { hotel_vacancy: "Property offer", agency_package: "Agency package" },

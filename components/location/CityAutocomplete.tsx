@@ -10,6 +10,8 @@ import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
 type CityAutocompleteProps = {
   value: WorldCity;
   onChange: (city: WorldCity) => void;
+  /** Chiamato quando l'utente sceglie un suggerimento dal menu (non su ogni keystroke). */
+  onPick?: (city: WorldCity) => void;
   label?: string;
   helpText?: string;
   placeholder?: string;
@@ -100,6 +102,7 @@ function initialQuery(value: WorldCity) {
 export function CityAutocomplete({
   value,
   onChange,
+  onPick,
   label,
   helpText,
   placeholder,
@@ -188,6 +191,7 @@ export function CityAutocomplete({
     setQuery(resolved.label);
     setOpen(false);
     onChange(resolved);
+    onPick?.(resolved);
   }
 
   function confirmManualCity() {

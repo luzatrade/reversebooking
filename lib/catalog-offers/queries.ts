@@ -17,7 +17,7 @@ const LIST_SELECT = `
     board_basis, pricing_model, price_amount, currency, is_weekend_offer
   ),
   agency_details:agency_offer_details (
-    trip_type, duration_days, duration_nights, base_price_per_person, target_type
+    trip_type, duration_days, duration_nights, base_price_per_person, target_type, board_basis
   )
 `;
 
@@ -141,7 +141,7 @@ export async function fetchCatalogOfferByCode(code: string): Promise<CatalogOffe
       ),
       agency_details_full:agency_offer_details (
         trip_type, duration_days, duration_nights, target_type, min_participants, date_type,
-        primary_hotel_name, hotel_category, transport_modes, base_price_per_person, single_supplement,
+        board_basis, primary_hotel_name, hotel_category, transport_modes, base_price_per_person, single_supplement,
         pricing_notes_it, pricing_notes_en, payment_terms_it, payment_terms_en,
         cancellation_terms_it, cancellation_terms_en
       ),

@@ -1,5 +1,5 @@
-import { AgencyCatalogOfferForm } from "@/components/catalog-offers/AgencyCatalogOfferForm";
+import { AgencyCatalogOfferWizard } from "@/components/catalog-offers/AgencyCatalogOfferWizard";
 
 export default function CreateAgencyCatalogOfferPage() {
-  return <AgencyCatalogOfferForm />;
+  return <AgencyCatalogOfferWizard />;
 }

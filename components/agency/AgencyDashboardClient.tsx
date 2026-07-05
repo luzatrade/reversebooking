@@ -2,7 +2,12 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Bell, Briefcase, FilePlus2, Home, RefreshCw, Send, UserCog } from "lucide-react";
+import { Bell, Briefcase, FilePlus2, Home, RefreshCw, Send, UserCog, ReceiptText } from "lucide-react";
+import {
+  canAgencyPublishCatalogPackage,
+  getAgencyPackagePromoEndLabel,
+  isAgencyPackagePromoActive,
+} from "@/lib/agency/package-subscription";
 import { StatCard } from "@/components/dashboard/StatCard";
 import { dashboardSurfaces } from "@/components/dashboard/dashboardSurfaces";
 import { LogoutButton } from "@/components/auth/LogoutButton";
@@ -61,6 +66,10 @@ const COPY = {
     profile: "Profilo agenzia",
     createRequest: "Crea richiesta",
     createCatalogOffer: "Pubblica pacchetto",
+    manageSubscription: "Abbonamento pacchetti",
+    packagePromoBanner: "Pubblicazione pacchetti gratuita fino al {date}.",
+    packageSubscriptionRequired: "Per pubblicare pacchetti in vetrina attiva l'abbonamento agenzia.",
+    packageSubscriptionCta: "Attiva abbonamento",
     statZoneRequests: "Richieste in zona",
     statZoneRequestsDesc: "Richieste dei viaggiatori a cui puoi offrire",
     statSentOffers: "Offerte inviate",
@@ -99,6 +108,10 @@ const COPY = {
     profile: "Agency profile",
     createRequest: "Create request",
     createCatalogOffer: "Publish package",
+    manageSubscription: "Package subscription",
+    packagePromoBanner: "Package publishing is free until {date}.",
+    packageSubscriptionRequired: "Activate an agency subscription to publish packages in the showcase.",
+    packageSubscriptionCta: "Activate subscription",
     statZoneRequests: "Requests in area",
     statZoneRequestsDesc: "Traveler requests you can offer to",
     statSentOffers: "Sent offers",
@@ -226,6 +239,9 @@ export function AgencyDashboardClient() {
   }, []);
 
   const profileIncomplete = Boolean(agency) && Boolean(getHotelOfferBlockMessage(agency));
+  const promoActive = isAgencyPackagePromoActive();
+  const promoEndLabel = getAgencyPackagePromoEndLabel(locale === "en" ? "en" : "it");
+  const canPublishCatalog = agency ? canAgencyPublishCatalogPackage(agency) : false;
 
   return (
     <main className={`${dashboardSurfaces.page} ${dashboardSurfaces.shell}`}>
@@ -258,6 +274,9 @@ export function AgencyDashboardClient() {
           <Link href="/agenzia/offerte/crea" className={dashboardSurfaces.btnSecondary}>
             {c.createCatalogOffer}
           </Link>
+          <Link href="/agenzia/abbonamento" className={dashboardSurfaces.btnSecondary}>
+            <ReceiptText className="h-4 w-4" /> {c.manageSubscription}
+          </Link>
           <Link href="/inserzionista/crea-annuncio" className={dashboardSurfaces.btnPrimary}>
             <FilePlus2 className="h-4 w-4" /> {c.createRequest}
           </Link>
@@ -279,6 +298,21 @@ export function AgencyDashboardClient() {
           <span>{c.completeProfile}</span>
           <Link href="/agenzia/profilo" className={`${dashboardSurfaces.btnPrimarySm} shrink-0`}>
             {c.completeCta}
+          </Link>
+        </div>
+      ) : null}
+
+      {agency && promoActive ? (
+        <p className="mt-6 rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-900">
+          {c.packagePromoBanner.replace("{date}", promoEndLabel)}
+        </p>
+      ) : null}
+
+      {agency && !canPublishCatalog ? (
+        <div className="mt-6 flex flex-col gap-3 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900 sm:flex-row sm:items-center sm:justify-between">
+          <span>{c.packageSubscriptionRequired}</span>
+          <Link href="/agenzia/abbonamento" className={`${dashboardSurfaces.btnPrimarySm} shrink-0 text-center`}>
+            {c.packageSubscriptionCta}
           </Link>
         </div>
       ) : null}

@@ -109,6 +109,7 @@ export type CatalogOfferListItem = {
     duration_nights: number;
     base_price_per_person: number;
     target_type: CatalogTargetType;
+    board_basis?: MealPlan;
   } | null;
   min_price?: number | null;
 };
@@ -137,6 +138,7 @@ export type CatalogOfferDetail = CatalogOfferListItem & {
     target_type: CatalogTargetType;
     min_participants: number | null;
     date_type: CatalogDateMode;
+    board_basis: MealPlan;
     primary_hotel_name: string | null;
     hotel_category: string | null;
     transport_modes: string[];

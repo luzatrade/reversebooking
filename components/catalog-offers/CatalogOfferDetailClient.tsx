@@ -50,7 +50,7 @@ function buildSnapshot(offer: CatalogOfferDetail): CatalogAcceptanceSnapshot {
     flexible_nights: offer.flexible_nights,
     total_price: computeAcceptanceTotal(offer),
     currency: offer.hotel_details_full?.currency ?? "EUR",
-    board_basis: offer.hotel_details_full?.board_basis,
+    board_basis: offer.hotel_details_full?.board_basis ?? offer.agency_details_full?.board_basis,
     cancellation_policy_it: offer.hotel_details_full?.cancellation_policy_it,
     cancellation_policy_en: offer.hotel_details_full?.cancellation_policy_en,
     payment_terms_it: offer.agency_details_full?.payment_terms_it ?? undefined,
@@ -220,6 +220,9 @@ export function CatalogOfferDetailClient({ offerCode }: { offerCode: string }) {
               <h2 className="text-lg font-semibold">{t.catalogOffers.agencySection}</h2>
               <p className="text-sm text-zinc-600">
                 {catalogTripTypeLabels[locale][offer.agency_details_full.trip_type]} · {offer.agency_details_full.duration_days} {t.catalogOffers.days} / {offer.agency_details_full.duration_nights} {t.catalogOffers.nights}
+              </p>
+              <p className="text-sm text-zinc-600">
+                {mealPlanLabels[offer.agency_details_full.board_basis]} ({boardBasisShort[locale][offer.agency_details_full.board_basis]})
               </p>
               {offer.agency_details_full.transport_modes.length ? (
                 <p className="text-sm text-zinc-600">
