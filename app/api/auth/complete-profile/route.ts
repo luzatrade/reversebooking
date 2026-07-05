@@ -12,6 +12,7 @@ import {
   profileStatusForEmailConfirmation,
 } from "@/lib/auth/account-activation";
 import { syncAccountActivation } from "@/lib/auth/sync-account-activation";
+import { resolveRegistrationRole } from "@/lib/auth/resolve-registration-role";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
 import { PRIVACY_VERSION, TERMS_VERSION } from "@/lib/legal/company";
 import { PENDING_CITY_ID } from "@/lib/constants/world-city-helpers";
@@ -56,22 +57,18 @@ export async function POST(request: Request) {
 
   const adminClient = createClient(url, serviceKey, { auth: { persistSession: false } });
 
+  let requestedRole: string | null = null;
+  try {
+    const body = (await request.json()) as { role?: string | null };
+    requestedRole = typeof body?.role === "string" ? body.role : null;
+  } catch {
+    // body opzionale
+  }
+
   const meta = user.user_metadata ?? {};
-  const role =
-    meta.role === "hotel"
-      ? "hotel"
-      : meta.role === "agency"
-        ? "agency"
-        : meta.role === "advertiser"
-          ? "advertiser"
-          : "advertiser";
-  const onboardingHotelId =
-    typeof meta.onboarding_hotel_id === "string" && meta.onboarding_hotel_id.trim()
-      ? meta.onboarding_hotel_id.trim()
-      : null;
 
   const [{ data: existingProfile }, { data: existingHotel }] = await Promise.all([
-    adminClient.from("profiles").select("user_id, role").eq("user_id", user.id).maybeSingle(),
+    adminClient.from("profiles").select("user_id, role, phone_number").eq("user_id", user.id).maybeSingle(),
     adminClient
       .from("hotel_accounts")
       .select("user_id, onboarding_hotel_id, property_name")
@@ -79,14 +76,24 @@ export async function POST(request: Request) {
       .maybeSingle(),
   ]);
 
+  const role = resolveRegistrationRole({
+    meta,
+    existingProfileRole: existingProfile?.role,
+    requestedRole,
+  });
+  const onboardingHotelId =
+    typeof meta.onboarding_hotel_id === "string" && meta.onboarding_hotel_id.trim()
+      ? meta.onboarding_hotel_id.trim()
+      : null;
+
   const pendingOnboardingPrefill =
     role === "hotel" && needsOnboardingHotelPrefill(existingHotel, onboardingHotelId);
 
   const profileSetupComplete =
     existingProfile &&
     !pendingOnboardingPrefill &&
-    (existingProfile.role === "advertiser" ||
-      ((existingProfile.role === "hotel" || existingProfile.role === "agency") && existingHotel));
+    (role === "advertiser" ||
+      ((role === "hotel" || role === "agency") && existingHotel));
 
   if (profileSetupComplete) {
     const activation = await syncAccountActivation(adminClient, user.id);

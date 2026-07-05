@@ -8,6 +8,7 @@ import { dashboardSurfaces } from "@/components/dashboard/dashboardSurfaces";
 import { LogoutButton } from "@/components/auth/LogoutButton";
 import { scrollToSection } from "@/lib/dashboard/scrollToSection";
 import { getHotelOfferBlockMessage } from "@/lib/hotel/offer-eligibility";
+import { ensureAgencyProfile } from "@/lib/agency/ensureAgencyProfile";
 import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
@@ -82,6 +83,7 @@ const COPY = {
     completeCta: "Completa profilo",
     loginRequired: "Accedi come agenzia per vedere la dashboard.",
     notFound: "Profilo agenzia non trovato.",
+    retrySetup: "Riprova creazione profilo",
     loadError: "Errore nel caricamento dei dati.",
     loading: "Caricamento…",
   },
@@ -119,6 +121,7 @@ const COPY = {
     completeCta: "Complete profile",
     loginRequired: "Sign in as an agency to view the dashboard.",
     notFound: "Agency profile not found.",
+    retrySetup: "Retry profile setup",
     loadError: "Error while loading data.",
     loading: "Loading…",
   },
@@ -159,15 +162,12 @@ export function AgencyDashboardClient() {
       }
       const userId = user.id;
 
-      const { data: agencyData, error: agencyError } = await supabase
-        .from("hotel_accounts")
-        .select("id, property_name, city_name, city_id, full_address, main_photo_url, subscription_active")
-        .eq("user_id", userId)
-        .maybeSingle();
-      if (agencyError || !agencyData) {
-        setError(c.notFound);
+      const ensured = await ensureAgencyProfile(supabase, userId);
+      if (ensured.error || !ensured.data) {
+        setError(ensured.error ?? c.notFound);
         return;
       }
+      const agencyData = ensured.data;
       setAgency(agencyData as AgencyAccount);
 
       const nowIso = new Date().toISOString();
@@ -265,7 +265,14 @@ export function AgencyDashboardClient() {
         </div>
       </div>
 
-      {error ? <div className="mt-6 rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}
+      {error ? (
+        <div className="mt-6 flex flex-col gap-3 rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700 sm:flex-row sm:items-center sm:justify-between">
+          <span>{error}</span>
+          <button type="button" onClick={loadDashboard} className={`${dashboardSurfaces.btnPrimarySm} shrink-0`}>
+            {c.retrySetup}
+          </button>
+        </div>
+      ) : null}
 
       {profileIncomplete ? (
         <div className="mt-6 flex flex-col gap-3 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900 sm:flex-row sm:items-center sm:justify-between">

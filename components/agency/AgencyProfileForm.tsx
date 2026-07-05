@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ArrowLeft, ImagePlus, X } from "lucide-react";
 import { CountryCitySelect } from "@/components/location/CountryCitySelect";
+import { ensureAgencyProfile } from "@/lib/agency/ensureAgencyProfile";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { isHotelOperational } from "@/lib/hotel/access";
 import { findCityById } from "@/lib/constants/world-city-helpers";
@@ -92,6 +93,9 @@ const COPY = {
     save: "Salva profilo",
     loginRequired: "Accedi per modificare il profilo agenzia.",
     notFound: "Profilo agenzia non trovato.",
+    setupFailed: "Non siamo riusciti a creare il profilo agenzia.",
+    retrySetup: "Riprova creazione profilo",
+    emailConfirmRequired: "Conferma l'email prima di completare il profilo agenzia.",
     loading: "Caricamento profilo agenzia…",
     errorLoad: "Errore nel caricamento.",
     errorSave: "Errore nel salvataggio.",
@@ -137,6 +141,9 @@ const COPY = {
     save: "Save profile",
     loginRequired: "Sign in to edit the agency profile.",
     notFound: "Agency profile not found.",
+    setupFailed: "We could not create your agency profile.",
+    retrySetup: "Retry profile setup",
+    emailConfirmRequired: "Confirm your email before completing the agency profile.",
     loading: "Loading agency profile…",
     errorLoad: "Error while loading.",
     errorSave: "Error while saving.",
@@ -164,84 +171,63 @@ export function AgencyProfileForm() {
   const [operational, setOperational] = useState(true);
 
   useEffect(() => {
-    async function loadProfile() {
-      setLoading(true);
-      setError(null);
-      try {
-        const supabase = createBrowserSupabaseClient();
-        const { data: authData, error: authError } = await supabase.auth.getUser();
-        if (authError || !authData.user) {
-          setError(c.loginRequired);
-          return;
-        }
-        setUserId(authData.user.id);
-
-        let { data, error: agencyError } = await supabase
-          .from("hotel_accounts")
-          .select(
-            "id, property_name, cun_code, description, full_address, country_code, country_name, city_name, city_id, specific_area, main_photo_url, gallery_photo_urls, google_maps_url, public_email, public_phone, subscription_active, account_status",
-          )
-          .eq("user_id", authData.user.id)
-          .maybeSingle();
-
-        if (agencyError || !data) {
-          const session = await supabase.auth.getSession();
-          const token = session.data.session?.access_token;
-          if (token) {
-            await fetch("/api/auth/complete-profile", {
-              method: "POST",
-              headers: { Authorization: `Bearer ${token}` },
-            });
-            const retry = await supabase
-              .from("hotel_accounts")
-              .select(
-                "id, property_name, cun_code, description, full_address, country_code, country_name, city_name, city_id, specific_area, main_photo_url, gallery_photo_urls, google_maps_url, public_email, public_phone, subscription_active, account_status",
-              )
-              .eq("user_id", authData.user.id)
-              .maybeSingle();
-            agencyError = retry.error;
-            data = retry.data;
-          }
-        }
-
-        if (agencyError) {
-          setError(agencyError.message);
-          return;
-        }
-        if (!data?.id) {
-          setError(c.notFound);
-          return;
-        }
-
-        setOperational(isHotelOperational(data));
-        const city = findCityById(data.city_id);
-        setSelectedCity(city);
-        setForm({
-          id: data.id,
-          property_name: data.property_name ?? "",
-          cun_code: data.cun_code ?? "",
-          description: data.description ?? "",
-          full_address: data.full_address ?? "",
-          country_code: city.country_code,
-          country_name: city.country_name,
-          city_name: city.city_name,
-          city_id: city.city_id,
-          specific_area: data.specific_area ?? "",
-          main_photo_url: data.main_photo_url ?? "",
-          gallery_photo_urls: data.gallery_photo_urls ?? [],
-          google_maps_url: data.google_maps_url ?? "",
-          public_email: data.public_email ?? "",
-          public_phone: data.public_phone ?? "",
-        });
-      } catch (err) {
-        setError(err instanceof Error ? err.message : c.errorLoad);
-      } finally {
-        setLoading(false);
-      }
-    }
     void loadProfile();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  async function loadProfile() {
+    setLoading(true);
+    setError(null);
+    try {
+      const supabase = createBrowserSupabaseClient();
+      const { data: authData, error: authError } = await supabase.auth.getUser();
+      if (authError || !authData.user) {
+        setError(c.loginRequired);
+        return;
+      }
+      setUserId(authData.user.id);
+
+      const ensured = await ensureAgencyProfile(supabase, authData.user.id);
+      if (ensured.error) {
+        setError(
+          ensured.error.includes("Conferma l'email") || ensured.error.toLowerCase().includes("confirm")
+            ? c.emailConfirmRequired
+            : ensured.error,
+        );
+        return;
+      }
+      const data = ensured.data;
+      if (!data?.id) {
+        setError(c.notFound);
+        return;
+      }
+
+      setOperational(isHotelOperational(data));
+      const city = findCityById(data.city_id);
+      setSelectedCity(city);
+      setForm({
+        id: data.id,
+        property_name: data.property_name ?? "",
+        cun_code: data.cun_code ?? "",
+        description: data.description ?? "",
+        full_address: data.full_address ?? "",
+        country_code: city.country_code,
+        country_name: city.country_name,
+        city_name: city.city_name,
+        city_id: city.city_id,
+        specific_area: data.specific_area ?? "",
+        main_photo_url: data.main_photo_url ?? "",
+        gallery_photo_urls: data.gallery_photo_urls ?? [],
+        google_maps_url: data.google_maps_url ?? "",
+        public_email: data.public_email ?? "",
+        public_phone: data.public_phone ?? "",
+      });
+    } catch (err) {
+      setError(err instanceof Error ? err.message : c.errorLoad);
+    } finally {
+      setLoading(false);
+    }
+  }
 
   function update<K extends keyof AgencyForm>(key: K, value: AgencyForm[K]) {
     setForm((current) => ({ ...current, [key]: value }));
@@ -367,8 +353,16 @@ export function AgencyProfileForm() {
           <ArrowLeft className="h-4 w-4" /> {c.back}
         </Link>
         <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">
-          {error ?? c.notFound}
+          {error ?? c.setupFailed}
         </div>
+        <button
+          type="button"
+          onClick={() => void loadProfile()}
+          disabled={loading}
+          className="rounded-full bg-zinc-950 px-6 py-3 text-sm font-semibold text-white disabled:opacity-60 dark:bg-white dark:text-zinc-950"
+        >
+          {loading ? c.loading : c.retrySetup}
+        </button>
       </div>
     );
   }
