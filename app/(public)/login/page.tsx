@@ -64,17 +64,27 @@ function LoginPageContent() {
   const showRegisterLink =
     errorMessage === loginMessages.notRegistered || errorMessage === loginMessages.invalidCredentials;
 
-  const finishLogin = async (supabase: ReturnType<typeof createBrowserSupabaseClient>, user: User) => {
-    const session = await supabase.auth.getSession();
-    const token = session.data.session?.access_token;
-    if (token) {
+  const finishLogin = async (
+    supabase: ReturnType<typeof createBrowserSupabaseClient>,
+    user: User,
+    accessToken?: string | null,
+  ) => {
+    const token = accessToken ?? (await supabase.auth.getSession()).data.session?.access_token;
+    let role = roleFromUserMetadata(user);
+
+    if (!role && token) {
       await fetch("/api/auth/complete-profile", {
+        method: "POST",
+        headers: { Authorization: `Bearer ${token}` },
+      });
+      role = roleFromUserMetadata(user) ?? (await resolveLoginRole(supabase, user));
+    } else if (token) {
+      void fetch("/api/auth/complete-profile", {
         method: "POST",
         headers: { Authorization: `Bearer ${token}` },
       });
     }
 
-    const role = roleFromUserMetadata(user) ?? (await resolveLoginRole(supabase, user));
     if (!role) {
       await supabase.auth.signOut();
       setErrorMessage(loginMessages.notRegistered);
@@ -120,7 +130,7 @@ function LoginPageContent() {
         }
       }
 
-      await finishLogin(supabase, user);
+      await finishLogin(supabase, user, data.session?.access_token);
     } catch (error) {
       setErrorMessage(error instanceof Error ? error.message : t.auth.loginGenericError);
     } finally {
@@ -156,7 +166,8 @@ function LoginPageContent() {
         setErrorMessage(t.auth.loginIncomplete);
         return;
       }
-      await finishLogin(supabase, authData.user);
+      const { data: sessionData } = await supabase.auth.getSession();
+      await finishLogin(supabase, authData.user, sessionData.session?.access_token);
     } catch (error) {
       setErrorMessage(error instanceof Error ? error.message : t.auth.loginGenericError);
     } finally {

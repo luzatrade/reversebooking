@@ -68,10 +68,10 @@ export async function POST(request: Request) {
   const meta = user.user_metadata ?? {};
 
   const [{ data: existingProfile }, { data: existingHotel }] = await Promise.all([
-    adminClient.from("profiles").select("user_id, role, phone_number").eq("user_id", user.id).maybeSingle(),
+    adminClient.from("profiles").select("user_id, role, phone_number, account_status, email_verified").eq("user_id", user.id).maybeSingle(),
     adminClient
       .from("hotel_accounts")
-      .select("user_id, onboarding_hotel_id, property_name")
+      .select("user_id, onboarding_hotel_id, property_name, account_status")
       .eq("user_id", user.id)
       .maybeSingle(),
   ]);
@@ -96,6 +96,13 @@ export async function POST(request: Request) {
       ((role === "hotel" || role === "agency") && existingHotel));
 
   if (profileSetupComplete) {
+    const profileAlreadyActive =
+      existingProfile.email_verified && existingProfile.account_status === "active";
+    const hotelAlreadyActive =
+      role === "advertiser" || !existingHotel || existingHotel.account_status === "active";
+    if (profileAlreadyActive && hotelAlreadyActive) {
+      return NextResponse.json({ ok: true, alreadyComplete: true, activated: true, profileStatus: "active" });
+    }
     const activation = await syncAccountActivation(adminClient, user.id);
     return NextResponse.json({ ok: true, alreadyComplete: true, ...activation });
   }
