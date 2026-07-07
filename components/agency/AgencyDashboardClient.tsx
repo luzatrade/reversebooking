@@ -2,7 +2,10 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Bell, Briefcase, FilePlus2, Home, RefreshCw, Send, UserCog, ReceiptText } from "lucide-react";
+import { Bell, Briefcase, FilePlus2, Home, Package, RefreshCw, Send, Trash2, UserCog, ReceiptText } from "lucide-react";
+import { StatusBadge } from "@/components/console/StatusBadge";
+import { formatOfferDateRange, localizedOfferTitle } from "@/lib/catalog-offers/labels";
+import type { CatalogOfferStatus, CatalogDateMode } from "@/types/catalog-offers";
 import {
   canAgencyPublishCatalogPackage,
   getAgencyPackagePromoEndLabel,
@@ -52,6 +55,23 @@ type MyRequest = {
   status: string;
   created_at: string;
 };
+type AgencyCatalogPackage = {
+  id: string;
+  offer_code: string;
+  title_it: string;
+  title_en: string;
+  status: CatalogOfferStatus;
+  date_mode: CatalogDateMode;
+  check_in: string | null;
+  check_out: string | null;
+  valid_from: string | null;
+  valid_until: string | null;
+  flexible_month: number | null;
+  flexible_year: number | null;
+  flexible_nights: number | null;
+  published_at: string | null;
+  created_at: string;
+};
 
 const COPY = {
   it: {
@@ -78,6 +98,22 @@ const COPY = {
     statMyRequestsDesc: "Richieste che hai inviato alle strutture",
     statReceivedOffers: "Offerte ricevute",
     statReceivedOffersDesc: "Proposte dalle strutture",
+    statPackages: "Pacchetti in vetrina",
+    statPackagesDesc: "Pacchetti catalogo che hai pubblicato",
+    packagesTitle: "I miei pacchetti in vetrina",
+    packagesSubtitle: "Visualizza o rimuovi i pacchetti che hai pubblicato come agenzia.",
+    noPackages: "Non hai ancora pubblicato pacchetti.",
+    viewPackage: "Vedi pacchetto",
+    deletePackage: "Elimina",
+    deletingPackage: "Eliminazione…",
+    deletePackageConfirm: "Eliminare «{title}» dalla vetrina? L'azione non si può annullare.",
+    deletePackageError: "Impossibile eliminare il pacchetto. Riprova più tardi.",
+    deletePackageArchived: "Il pacchetto ha accettazioni collegate ed è stato archiviato invece di essere eliminato.",
+    statusDraft: "Bozza",
+    statusPublished: "Pubblicato",
+    statusExpired: "Scaduto",
+    statusSoldOut: "Esaurito",
+    statusArchived: "Archiviato",
     supplierTitle: "Richieste dei viaggiatori nella tua zona",
     supplierSubtitle: "Apri una richiesta per inviare la tua offerta.",
     noZoneRequests: "Nessuna richiesta attiva nella tua zona al momento.",
@@ -120,6 +156,22 @@ const COPY = {
     statMyRequestsDesc: "Requests you sent to properties",
     statReceivedOffers: "Received offers",
     statReceivedOffersDesc: "Proposals from properties",
+    statPackages: "Showcase packages",
+    statPackagesDesc: "Catalog packages you published",
+    packagesTitle: "My showcase packages",
+    packagesSubtitle: "View or remove packages you published as an agency.",
+    noPackages: "You haven't published any packages yet.",
+    viewPackage: "View package",
+    deletePackage: "Delete",
+    deletingPackage: "Deleting…",
+    deletePackageConfirm: "Remove «{title}» from the showcase? This cannot be undone.",
+    deletePackageError: "Could not delete the package. Please try again later.",
+    deletePackageArchived: "The package has linked acceptances and was archived instead of deleted.",
+    statusDraft: "Draft",
+    statusPublished: "Published",
+    statusExpired: "Expired",
+    statusSoldOut: "Sold out",
+    statusArchived: "Archived",
     supplierTitle: "Traveler requests in your area",
     supplierSubtitle: "Open a request to send your offer.",
     noZoneRequests: "No active requests in your area right now.",
@@ -150,6 +202,16 @@ function formatDate(value: string, locale: string) {
 function formatCurrency(value: number, locale: string) {
   return new Intl.NumberFormat(locale === "en" ? "en-GB" : "it-IT", { style: "currency", currency: "EUR" }).format(value);
 }
+function catalogStatusLabel(status: CatalogOfferStatus, c: (typeof COPY)["it"]) {
+  const map: Record<CatalogOfferStatus, string> = {
+    draft: c.statusDraft,
+    published: c.statusPublished,
+    expired: c.statusExpired,
+    sold_out: c.statusSoldOut,
+    archived: c.statusArchived,
+  };
+  return map[status] ?? status;
+}
 
 export function AgencyDashboardClient() {
   const { locale } = useLanguage();
@@ -160,6 +222,9 @@ export function AgencyDashboardClient() {
   const [myRequests, setMyRequests] = useState<MyRequest[]>([]);
   const [sentOffersCount, setSentOffersCount] = useState(0);
   const [receivedOffersCount, setReceivedOffersCount] = useState(0);
+  const [catalogPackages, setCatalogPackages] = useState<AgencyCatalogPackage[]>([]);
+  const [deletingPackageId, setDeletingPackageId] = useState<string | null>(null);
+  const [packageActionMessage, setPackageActionMessage] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -197,14 +262,23 @@ export function AgencyDashboardClient() {
               .order("created_at", { ascending: false })
           : Promise.resolve({ data: [] as ZoneRequest[], error: null });
 
-      const [zoneResult, sentResult, advResult] = await Promise.all([
+      const [zoneResult, sentResult, advResult, packagesResult] = await Promise.all([
         zoneQuery,
         supabase.from("offers").select("id").eq("hotel_account_id", agencyData.id),
         supabase.from("advertiser_profiles").select("id").eq("user_id", userId).maybeSingle(),
+        supabase
+          .from("catalog_offers")
+          .select(
+            "id, offer_code, title_it, title_en, status, date_mode, check_in, check_out, valid_from, valid_until, flexible_month, flexible_year, flexible_nights, published_at, created_at",
+          )
+          .eq("provider_id", agencyData.id)
+          .eq("offer_kind", "agency_package")
+          .order("created_at", { ascending: false }),
       ]);
 
       setZoneRequests((zoneResult.data ?? []) as ZoneRequest[]);
       setSentOffersCount((sentResult.data ?? []).length);
+      setCatalogPackages((packagesResult.data ?? []) as AgencyCatalogPackage[]);
 
       const advData = advResult.data;
       if (advData?.id) {
@@ -237,6 +311,38 @@ export function AgencyDashboardClient() {
     void loadDashboard();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  const handleDeletePackage = async (pkg: AgencyCatalogPackage) => {
+    const title = localizedOfferTitle(pkg, locale === "en" ? "en" : "it");
+    if (!window.confirm(c.deletePackageConfirm.replace("{title}", title))) return;
+
+    setDeletingPackageId(pkg.id);
+    setPackageActionMessage(null);
+    try {
+      const supabase = createBrowserSupabaseClient();
+      const { error: deleteError } = await supabase.from("catalog_offers").delete().eq("id", pkg.id);
+      if (deleteError) {
+        const { error: archiveError } = await supabase
+          .from("catalog_offers")
+          .update({ status: "archived" })
+          .eq("id", pkg.id);
+        if (archiveError) {
+          setPackageActionMessage(c.deletePackageError);
+          return;
+        }
+        setCatalogPackages((prev) =>
+          prev.map((item) => (item.id === pkg.id ? { ...item, status: "archived" } : item)),
+        );
+        setPackageActionMessage(c.deletePackageArchived);
+        return;
+      }
+      setCatalogPackages((prev) => prev.filter((item) => item.id !== pkg.id));
+    } catch {
+      setPackageActionMessage(c.deletePackageError);
+    } finally {
+      setDeletingPackageId(null);
+    }
+  };
 
   const profileIncomplete = Boolean(agency) && Boolean(getHotelOfferBlockMessage(agency));
   const promoActive = isAgencyPackagePromoActive();
@@ -317,7 +423,7 @@ export function AgencyDashboardClient() {
         </div>
       ) : null}
 
-      <div className="mt-8 grid gap-4 grid-cols-2 md:grid-cols-4">
+      <div className="mt-8 grid gap-4 grid-cols-2 md:grid-cols-3 xl:grid-cols-5">
         <StatCard
           tone="blue"
           label={c.statZoneRequests}
@@ -344,7 +450,70 @@ export function AgencyDashboardClient() {
           value={loading ? "..." : String(receivedOffersCount)}
           description={c.statReceivedOffersDesc}
         />
+        <StatCard
+          tone="cream"
+          label={c.statPackages}
+          value={loading ? "..." : String(catalogPackages.length)}
+          description={c.statPackagesDesc}
+          onClick={() => scrollToSection("agenzia-pacchetti")}
+        />
       </div>
+
+      <section id="agenzia-pacchetti" className={`${dashboardSurfaces.headerPanel} mt-8 scroll-mt-24`}>
+        <div className="flex items-center gap-3">
+          <Package className={dashboardSurfaces.sectionIcon} />
+          <div>
+            <h2 className={dashboardSurfaces.sectionTitle}>{c.packagesTitle}</h2>
+            <p className={dashboardSurfaces.sectionSubtitle}>{c.packagesSubtitle}</p>
+          </div>
+        </div>
+        {packageActionMessage ? (
+          <p className="mt-4 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
+            {packageActionMessage}
+          </p>
+        ) : null}
+        <div className="mt-6 space-y-3">
+          {loading ? <p className="text-sm text-zinc-500">{c.loading}</p> : null}
+          {!loading && catalogPackages.length === 0 ? (
+            <div className={dashboardSurfaces.emptyDashed}>{c.noPackages}</div>
+          ) : null}
+          {catalogPackages.map((pkg, index) => (
+            <article key={pkg.id} className={index % 2 === 0 ? dashboardSurfaces.cardCream : dashboardSurfaces.cardWhite}>
+              <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                <div>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <StatusBadge value={catalogStatusLabel(pkg.status, c)} />
+                    {pkg.offer_code ? (
+                      <span className="rounded-full bg-[#FAF7F2] px-3 py-1 text-xs font-medium text-zinc-700 ring-1 ring-[#E5DDD0]">
+                        {pkg.offer_code}
+                      </span>
+                    ) : null}
+                  </div>
+                  <p className="mt-2 font-semibold text-zinc-950">{localizedOfferTitle(pkg, locale === "en" ? "en" : "it")}</p>
+                  <p className="mt-1 text-sm text-zinc-600">
+                    {formatOfferDateRange(pkg, locale === "en" ? "en" : "it")}
+                    {pkg.published_at ? ` · ${formatDate(pkg.published_at, locale)}` : ""}
+                  </p>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <Link href={`/offerta/${pkg.offer_code}`} className={dashboardSurfaces.btnPrimarySm}>
+                    {c.viewPackage}
+                  </Link>
+                  <button
+                    type="button"
+                    onClick={() => void handleDeletePackage(pkg)}
+                    disabled={deletingPackageId === pkg.id}
+                    className="inline-flex items-center gap-1.5 rounded-full bg-red-50 px-4 py-2 text-sm font-semibold text-red-600 transition hover:bg-red-100 disabled:opacity-50"
+                  >
+                    <Trash2 className="h-4 w-4" />
+                    {deletingPackageId === pkg.id ? c.deletingPackage : c.deletePackage}
+                  </button>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
 
       <section id="agenzia-richieste-zona" className={`${dashboardSurfaces.panelBlue} mt-8 scroll-mt-24`}>
         <div className="flex items-center gap-3">

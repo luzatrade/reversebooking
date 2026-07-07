@@ -28,6 +28,7 @@ export async function getAdminStats() {
     requests,
     offers,
     catalogOffers,
+    agencyCatalogOffers,
     activeSubs,
     invoices,
   ] = await Promise.all([
@@ -37,6 +38,7 @@ export async function getAdminStats() {
     supabase.from("travel_requests").select("id", { count: "exact", head: true }),
     supabase.from("offers").select("id", { count: "exact", head: true }),
     supabase.from("catalog_offers").select("id", { count: "exact", head: true }),
+    supabase.from("catalog_offers").select("id", { count: "exact", head: true }).eq("offer_kind", "agency_package"),
     supabase.from("hotel_accounts").select("id", { count: "exact", head: true }).eq("subscription_active", true),
     supabase.from("billing_invoices").select("id", { count: "exact", head: true }),
   ]);
@@ -48,6 +50,7 @@ export async function getAdminStats() {
     requests: requests.count ?? 0,
     offers: offers.count ?? 0,
     catalogOffers: catalogOffers.count ?? 0,
+    agencyCatalogOffers: agencyCatalogOffers.count ?? 0,
     activeSubscriptions: activeSubs.count ?? 0,
     invoices: invoices.count ?? 0,
   };
@@ -214,7 +217,10 @@ export function primaryCatalogOfferCity(offer: AdminCatalogOfferRow) {
   return primary?.city_name ?? offer.destinations[0]?.city_name ?? offer.provider?.city_name ?? "—";
 }
 
-export async function listCatalogOffers(query?: string) {
+export async function listCatalogOffers(
+  query?: string,
+  options?: { offerKind?: "agency_package" | "hotel_vacancy" },
+) {
   const supabase = db();
   let request = supabase
     .from("catalog_offers")
@@ -228,6 +234,9 @@ export async function listCatalogOffers(query?: string) {
     )
     .order("created_at", { ascending: false })
     .limit(query?.trim() ? 500 : 200);
+  if (options?.offerKind) {
+    request = request.eq("offer_kind", options.offerKind);
+  }
   request = applySearch(request, query, [...CATALOG_OFFER_SEARCH_FIELDS], ["id", "provider_id"]);
   const { data, error } = await request;
   if (error) throw error;
