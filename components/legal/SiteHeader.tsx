@@ -16,9 +16,6 @@ export function SiteHeader() {
         <LanguageSwitcher compact />
         <CurrencySwitcher compact />
         <nav className="flex flex-wrap items-center gap-1 sm:gap-1.5" aria-label="Principale">
-          <Link className={navLink} href="/directory">
-            Strutture
-          </Link>
           <Link className={navLink} href="/registrazione?mode=partner">
             {t.site.becomePartner}
           </Link>
