@@ -375,6 +375,18 @@ export function CreateTravelRequestForm() {
   function updateChildAge(roomIndex: number, childIndex: number, age: number) { setRooms((current) => current.map((room, index) => index === roomIndex ? { ...room, children_ages: Object.assign([...room.children_ages], { [childIndex]: age }) } : room)); }
   function addRoom() { setRooms((current) => [...current, { room: current.length + 1, room_type: "double", adults: 1, children: 0, children_ages: [], budget: 0 }]); }
   function removeRoom(index: number) { setRooms((current) => normalizeRooms(current.filter((_, roomIndex) => roomIndex !== index))); }
+  function duplicateRoom(index: number) {
+    setRooms((current) => {
+      if (current.length >= 10) return current;
+      const source = current[index];
+      if (!source) return current;
+      const copy: RoomDetail = {
+        ...source,
+        children_ages: [...source.children_ages],
+      };
+      return normalizeRooms([...current.slice(0, index + 1), copy, ...current.slice(index + 1)]);
+    });
+  }
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -422,7 +434,107 @@ export function CreateTravelRequestForm() {
       </div>
       <section className="space-y-4 rounded-3xl border border-zinc-200 p-5 dark:border-zinc-800">
         <div><h2 className="text-lg font-semibold">{t.forms.travelRequest.roomsAndGuests}</h2><p className="text-sm text-zinc-500">{formatMessage(t.forms.travelRequest.roomsGuestsTotal, { rooms: roomsCount, guests: guestsCount })}</p></div>
-        {rooms.map((room, roomIndex) => <div key={roomIndex} className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4 dark:border-zinc-800 dark:bg-zinc-950/60"><div className="flex items-center justify-between gap-3"><h3 className="font-semibold">{formatMessage(t.forms.travelRequest.roomNumber, { n: roomIndex + 1 })}</h3>{rooms.length > 1 ? <button type="button" onClick={() => removeRoom(roomIndex)} className="text-sm font-semibold text-red-600">{t.forms.travelRequest.removeRoom}</button> : null}</div><div className="mt-4 grid gap-4 md:grid-cols-3"><label className="block text-sm font-medium">{t.forms.travelRequest.roomType}<select value={room.room_type} onChange={(event) => updateRoom(roomIndex, { room_type: event.target.value as RoomType })} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950">{Object.entries(roomTypeLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label><label className="block text-sm font-medium">{t.request.adults}<input type="number" min={1} value={room.adults} onChange={(event) => updateRoom(roomIndex, { adults: Number(event.target.value) })} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium">{t.request.children}<input type="number" min={0} value={room.children} onChange={(event) => updateRoom(roomIndex, { children: Number(event.target.value) })} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label></div><label className="mt-4 block text-sm font-medium">{t.forms.travelRequest.roomBudget}<div className="relative mt-2"><span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-sm font-semibold text-zinc-400">€</span><input type="number" min={1} step="0.01" value={room.budget || ""} onChange={(event) => updateRoom(roomIndex, { budget: Number(event.target.value) })} required placeholder={t.forms.travelRequest.budgetPlaceholder} className="w-full rounded-2xl border border-zinc-300 bg-white py-3 pl-9 pr-4 text-sm font-semibold dark:border-zinc-700 dark:bg-zinc-950" /></div></label>{room.children > 0 ? <div className="mt-4 grid gap-4 md:grid-cols-3">{Array.from({ length: room.children }).map((_, childIndex) => <label key={childIndex} className="block text-sm font-medium">{formatMessage(t.forms.travelRequest.childAge, { n: childIndex + 1 })}<input type="number" min={0} max={17} value={room.children_ages[childIndex] ?? 0} onChange={(event) => updateChildAge(roomIndex, childIndex, Number(event.target.value))} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>)}</div> : null}{roomIndex === rooms.length - 1 ? <button type="button" onClick={addRoom} className="mt-4 w-full rounded-full border border-zinc-300 px-4 py-2.5 text-sm font-semibold transition hover:bg-zinc-50 dark:border-zinc-700 dark:hover:bg-zinc-900">{t.forms.travelRequest.addRoom}</button> : null}</div>)}
+        {rooms.map((room, roomIndex) => (
+          <div key={roomIndex} className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4 dark:border-zinc-800 dark:bg-zinc-950/60">
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <h3 className="font-semibold">{formatMessage(t.forms.travelRequest.roomNumber, { n: roomIndex + 1 })}</h3>
+              <div className="flex flex-wrap items-center gap-3">
+                <button
+                  type="button"
+                  onClick={() => duplicateRoom(roomIndex)}
+                  disabled={rooms.length >= 10}
+                  className="text-sm font-semibold text-[#0f4c81] disabled:cursor-not-allowed disabled:opacity-50"
+                >
+                  {t.forms.travelRequest.duplicateRoom}
+                </button>
+                {rooms.length > 1 ? (
+                  <button type="button" onClick={() => removeRoom(roomIndex)} className="text-sm font-semibold text-red-600">
+                    {t.forms.travelRequest.removeRoom}
+                  </button>
+                ) : null}
+              </div>
+            </div>
+            <div className="mt-4 grid gap-4 md:grid-cols-3">
+              <label className="block text-sm font-medium">
+                {t.forms.travelRequest.roomType}
+                <select
+                  value={room.room_type}
+                  onChange={(event) => updateRoom(roomIndex, { room_type: event.target.value as RoomType })}
+                  className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950"
+                >
+                  {Object.entries(roomTypeLabels).map(([value, label]) => (
+                    <option key={value} value={value}>
+                      {label}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <label className="block text-sm font-medium">
+                {t.request.adults}
+                <input
+                  type="number"
+                  min={1}
+                  value={room.adults}
+                  onChange={(event) => updateRoom(roomIndex, { adults: Number(event.target.value) })}
+                  className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950"
+                />
+              </label>
+              <label className="block text-sm font-medium">
+                {t.request.children}
+                <input
+                  type="number"
+                  min={0}
+                  value={room.children}
+                  onChange={(event) => updateRoom(roomIndex, { children: Number(event.target.value) })}
+                  className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950"
+                />
+              </label>
+            </div>
+            <label className="mt-4 block text-sm font-medium">
+              {t.forms.travelRequest.roomBudget}
+              <div className="relative mt-2">
+                <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-sm font-semibold text-zinc-400">€</span>
+                <input
+                  type="number"
+                  min={1}
+                  step="0.01"
+                  value={room.budget || ""}
+                  onChange={(event) => updateRoom(roomIndex, { budget: Number(event.target.value) })}
+                  required
+                  placeholder={t.forms.travelRequest.budgetPlaceholder}
+                  className="w-full rounded-2xl border border-zinc-300 bg-white py-3 pl-9 pr-4 text-sm font-semibold dark:border-zinc-700 dark:bg-zinc-950"
+                />
+              </div>
+            </label>
+            {room.children > 0 ? (
+              <div className="mt-4 grid gap-4 md:grid-cols-3">
+                {Array.from({ length: room.children }).map((_, childIndex) => (
+                  <label key={childIndex} className="block text-sm font-medium">
+                    {formatMessage(t.forms.travelRequest.childAge, { n: childIndex + 1 })}
+                    <input
+                      type="number"
+                      min={0}
+                      max={17}
+                      value={room.children_ages[childIndex] ?? 0}
+                      onChange={(event) => updateChildAge(roomIndex, childIndex, Number(event.target.value))}
+                      className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950"
+                    />
+                  </label>
+                ))}
+              </div>
+            ) : null}
+            {roomIndex === rooms.length - 1 ? (
+              <button
+                type="button"
+                onClick={addRoom}
+                disabled={rooms.length >= 10}
+                className="mt-4 w-full rounded-full border border-zinc-300 px-4 py-2.5 text-sm font-semibold transition hover:bg-zinc-50 disabled:cursor-not-allowed disabled:opacity-50 dark:border-zinc-700 dark:hover:bg-zinc-900"
+              >
+                {t.forms.travelRequest.addRoom}
+              </button>
+            ) : null}
+          </div>
+        ))}
       </section>
       <section className="rounded-3xl border border-zinc-200 p-5 dark:border-zinc-800"><h2 className="text-lg font-semibold">{t.forms.travelRequest.extraFilters}</h2><p className="mt-1 text-sm text-zinc-500">{t.forms.travelRequest.extraFiltersHint}</p><div className="mt-4 grid gap-3 md:grid-cols-2">{filterLabels.map((filter) => <label key={filter.key} className="flex items-center gap-3 rounded-2xl border border-zinc-200 bg-zinc-50 p-4 text-sm font-medium dark:border-zinc-800 dark:bg-zinc-950/60"><input type="checkbox" checked={filters[filter.key]} onChange={(event) => setFilters((current) => ({ ...current, [filter.key]: event.target.checked }))} />{filter.label}</label>)}</div></section>
       <div className="grid gap-5 md:grid-cols-2"><label className="block text-sm font-medium">{t.forms.travelRequest.requestedMealPlan}<select value={mealPlan} onChange={(event) => setMealPlan(event.target.value as MealPlan)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950">{Object.entries(mealPlanLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label><label className="block text-sm font-medium">{t.forms.travelRequest.preferredStructureType}<select value={preferredStructureType} onChange={(event) => setPreferredStructureType(event.target.value as PreferredStructureType)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950"><option value="all">{t.values.preferredStructureAll}</option>{Object.entries(structureTypeLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label></div>
