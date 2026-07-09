@@ -101,6 +101,7 @@ export const translations = {
         cookies: "Cookie",
         terms: "Termini",
         subscription: "Abbonamento",
+        about: "Cos'è HotelsDrop",
       },
       operatedBy: "Operato da",
       footerTagline: "Marketplace digitale che mette in contatto viaggiatori e strutture ricettive",
@@ -130,6 +131,9 @@ export const translations = {
       structureAreaTitle: "Area struttura — Abbonamento e fatture",
       structureAreaDescription:
         "Gestione abbonamento e fatture per strutture ricettive: Hotel, B&B e Appartamenti.",
+      aboutPageTitle: "Cos'è HotelsDrop",
+      aboutPageDescription:
+        "Scopri il Reverse Booking di HotelsDrop: una richiesta, offerte personalizzate dagli hotel e B&B, gratis per chi viaggia e senza commissioni.",
     },
     auth: {
       accessLabel: "Accesso",
@@ -1402,6 +1406,7 @@ export const translations = {
         cookies: "Cookies",
         terms: "Terms",
         subscription: "Subscription",
+        about: "About HotelsDrop",
       },
       operatedBy: "Operated by",
       footerTagline: "Digital marketplace connecting travelers and accommodations",
@@ -1431,6 +1436,9 @@ export const translations = {
       structureAreaTitle: "Property area — Subscription and invoices",
       structureAreaDescription:
         "Subscription and invoice management for hotels, B&Bs, and apartments.",
+      aboutPageTitle: "What is HotelsDrop",
+      aboutPageDescription:
+        "Discover HotelsDrop Reverse Booking: one request, personalized offers from hotels and B&Bs, free for travelers with no commissions.",
     },
     auth: {
       accessLabel: "Sign in",

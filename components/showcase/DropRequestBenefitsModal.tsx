@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { createPortal } from "react-dom";
 import { X } from "lucide-react";
+import { HotelsDropAboutMarkup } from "@/components/legal/HotelsDropAboutMarkup";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 
 type DropRequestBenefitsModalProps = {
@@ -73,27 +74,7 @@ export function DropRequestBenefitsModal({
         </header>
 
         <div className="hd-drop-benefits-content min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 py-4 sm:px-5 sm:py-5">
-          <div className="space-y-3.5 text-[0.9375rem] leading-[1.6] text-zinc-600 sm:space-y-4 sm:text-[0.9375rem] sm:leading-relaxed">
-            <p>
-              {modal.p1Before}
-              <span className="font-bold text-zinc-900">{modal.p1Bold}</span>
-              {modal.p1After}
-            </p>
-            <p>{modal.p2}</p>
-            <p>{modal.p3}</p>
-            <p>{modal.p4}</p>
-            <p>{modal.p5}</p>
-            <p>
-              <span className="font-bold text-zinc-900">{modal.p6Bold}</span> {modal.p6Rest}
-            </p>
-            <p>{modal.p7}</p>
-            <p>{modal.p8}</p>
-            <div className="space-y-2 border-t border-zinc-200 pt-4">
-              <h3 className="text-sm font-bold text-zinc-900 sm:text-base">{modal.goalTitle}</h3>
-              <p>{modal.goalBody}</p>
-            </div>
-            <p className="font-bold text-zinc-900">{modal.closingBold}</p>
-          </div>
+          <HotelsDropAboutMarkup content={modal} />
         </div>
 
         <footer className="hd-drop-benefits-footer shrink-0 space-y-2.5 border-t border-zinc-200 bg-zinc-50 px-4 py-3.5 safe-bottom sm:space-y-2 sm:px-5 sm:py-4">
@@ -114,6 +95,11 @@ export function DropRequestBenefitsModal({
               {modal.partnerCta}
             </Link>
           </div>
+          <p className="text-center text-xs text-zinc-500">
+            <Link href="/cos-e-hotelsdrop" onClick={onClose} className="underline underline-offset-2 hover:text-zinc-700">
+              {t.site.legalNav.about}
+            </Link>
+          </p>
         </footer>
       </div>
     </div>,

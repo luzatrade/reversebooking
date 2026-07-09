@@ -9,6 +9,7 @@ const paths = [
   "/termini-e-condizioni",
   "/condizioni-abbonamento",
   "/contatti",
+  "/cos-e-hotelsdrop",
   "/registrazione",
   "/struttura",
 ];

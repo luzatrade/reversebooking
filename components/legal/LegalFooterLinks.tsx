@@ -29,6 +29,9 @@ export function LegalFooterLinks({ className = "" }: { className?: string }) {
       <Link className={linkClass} href="/contatti">
         {t.site.contacts}
       </Link>
+      <Link className={linkClass} href="/cos-e-hotelsdrop">
+        {t.site.legalNav.about}
+      </Link>
     </nav>
   );
 }

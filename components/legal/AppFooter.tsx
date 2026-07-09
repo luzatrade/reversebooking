@@ -14,6 +14,7 @@ const PUBLIC_LAYOUT_FOOTER_PATHS = new Set([
   "/termini-e-condizioni",
   "/condizioni-abbonamento",
   "/contatti",
+  "/cos-e-hotelsdrop",
   "/annunci",
   "/struttura",
 ]);
