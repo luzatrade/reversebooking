@@ -83,14 +83,14 @@ export function DropRequestBenefitsModal({
             <Link
               href={createRequestHref}
               onClick={onClose}
-              className="hd-drop-benefits-cta-primary hd-cta-orange inline-flex min-h-12 items-center justify-center rounded-2xl px-4 text-center text-sm font-bold sm:min-h-11"
+              className="hd-drop-benefits-cta-primary hd-cta-orange w-full text-center"
             >
               {modal.createRequestCta}
             </Link>
             <Link
               href="/registrazione?mode=partner"
               onClick={onClose}
-              className="hd-drop-benefits-cta-secondary inline-flex min-h-12 items-center justify-center rounded-2xl border border-[#0f4c81] bg-white px-4 text-center text-sm font-bold text-[#0f4c81] transition hover:bg-[#e8f0f8] sm:min-h-11"
+              className="hd-drop-benefits-cta-secondary hd-cta-partner w-full text-center"
             >
               {modal.partnerCta}
             </Link>

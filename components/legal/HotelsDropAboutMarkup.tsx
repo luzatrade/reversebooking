@@ -62,16 +62,10 @@ export function HotelsDropAboutMarkup({
         <footer className="mt-8 space-y-3 border-t border-zinc-200 pt-6">
           <p className="text-center text-sm font-bold text-zinc-900">{content.footerLead}</p>
           <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
-            <Link
-              href={createRequestHref}
-              className="hd-cta-orange inline-flex min-h-12 items-center justify-center rounded-2xl px-4 text-center text-sm font-bold"
-            >
+            <Link href={createRequestHref} className="hd-cta-orange w-full text-center">
               {content.createRequestCta}
             </Link>
-            <Link
-              href="/registrazione?mode=partner"
-              className="inline-flex min-h-12 items-center justify-center rounded-2xl border border-[#0f4c81] bg-white px-4 text-center text-sm font-bold text-[#0f4c81] transition hover:bg-[#e8f0f8]"
-            >
+            <Link href="/registrazione?mode=partner" className="hd-cta-partner w-full text-center">
               {content.partnerCta}
             </Link>
           </div>
