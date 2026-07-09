@@ -10,6 +10,7 @@ import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { CityAutocomplete } from "@/components/location/CityAutocomplete";
 import { CityHeroSlider } from "@/components/showcase/CityHeroSlider";
+import { DropRequestBenefitsModal } from "@/components/showcase/DropRequestBenefitsModal";
 import { HorizontalSlider } from "@/components/showcase/HorizontalSlider";
 import { LastMinuteOffersButton, LAST_MINUTE_SECTION_ID, scrollToLastMinuteOffers } from "@/components/showcase/LastMinuteOffersButton";
 import { HotelsExploreMapModal } from "@/components/showcase/HotelsExploreMapModal";
@@ -233,6 +234,7 @@ export function PublicShowcaseClient() {
   const [agencyOffers, setAgencyOffers] = useState<CatalogOfferListItem[]>([]);
   const [offersLoading, setOffersLoading] = useState(true);
   const [mapExploreOpen, setMapExploreOpen] = useState(false);
+  const [dropBenefitsOpen, setDropBenefitsOpen] = useState(false);
   const mapHotelId = searchParams.get("map_hotel")?.trim() || null;
 
   const hasSelectedCity = Boolean(selectedCity.city_name.trim());
@@ -722,6 +724,15 @@ export function PublicShowcaseClient() {
           ) : null}
         </section>
 
+        <button
+          type="button"
+          className="hd-drop-request-hint"
+          onClick={() => setDropBenefitsOpen(true)}
+          aria-haspopup="dialog"
+        >
+          {t.showcase.dropYourRequestHintCta}
+        </button>
+
         <section className="hd-bento-card overflow-hidden p-0">
           <CityHeroSlider selectedCity={selectedCity} onSelectCity={setSelectedCity} />
         </section>
@@ -853,6 +864,12 @@ export function PublicShowcaseClient() {
         hotelIdsWithOffer={hotelIdsWithLastMinuteOffer}
         hideRequestButton={isHotel}
         initialActiveHotelId={mapHotelId}
+      />
+
+      <DropRequestBenefitsModal
+        open={dropBenefitsOpen}
+        onClose={() => setDropBenefitsOpen(false)}
+        createRequestHref={createRequestHref}
       />
     </div>
     </main>

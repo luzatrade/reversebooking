@@ -297,6 +297,87 @@ body {
   font-weight: 600;
 }
 
+.rb-soft-white-home .hd-drop-request-hint {
+  display: block;
+  width: 100%;
+  margin: 0;
+  border-radius: 16px;
+  border: 1.5px solid #ffb366;
+  background: linear-gradient(180deg, #fff8f1 0%, #fff3e8 100%);
+  padding: 0.9rem 1rem;
+  text-align: center;
+  font-family: var(--font-brand), ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #c2410c;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  box-shadow: 0 8px 24px rgba(255, 122, 0, 0.12);
+}
+
+.rb-soft-white-home .hd-drop-request-hint:active {
+  transform: scale(0.99);
+}
+
+.rb-soft-white-home .hd-drop-request-hint:hover {
+  transform: translateY(-1px);
+  border-color: #ff7a00;
+  box-shadow: 0 12px 28px rgba(255, 122, 0, 0.18);
+}
+
+.rb-soft-white-home .hd-drop-request-hint:focus-visible {
+  outline: 2px solid #ff7a00;
+  outline-offset: 2px;
+}
+
+@media (min-width: 640px) {
+  .rb-soft-white-home .hd-drop-request-hint {
+    padding: 0.95rem 1.25rem;
+    font-size: 0.9375rem;
+  }
+
+  .rb-soft-white-home .hd-drop-request-hint:active {
+    transform: translateY(-1px);
+  }
+}
+
+.hd-drop-benefits-modal {
+  -webkit-overflow-scrolling: touch;
+}
+
+.hd-drop-benefits-modal .hd-drop-benefits-panel {
+  box-shadow: 0 -10px 40px rgba(15, 23, 42, 0.18);
+}
+
+@media (min-width: 640px) {
+  .hd-drop-benefits-modal .hd-drop-benefits-panel {
+    box-shadow: 0 24px 60px rgba(15, 23, 42, 0.2);
+  }
+}
+
+.hd-drop-benefits-content {
+  -webkit-overflow-scrolling: touch;
+}
+
+.hd-drop-benefits-footer .hd-drop-benefits-cta-primary.hd-cta-orange {
+  min-height: 3rem !important;
+  font-size: 0.875rem !important;
+  border-radius: 16px !important;
+}
+
+@media (max-width: 639px) {
+  .hd-drop-benefits-footer .hd-drop-benefits-cta-primary.hd-cta-orange,
+  .hd-drop-benefits-footer .hd-drop-benefits-cta-secondary {
+    min-height: 3rem;
+    font-size: 0.875rem;
+    line-height: 1.25;
+    padding-inline: 0.875rem;
+  }
+}
+
 .rb-soft-white-home .hd-cta-orange,
 .rb-soft-white-home a.hd-cta-orange,
 .rb-soft-white-home button.hd-cta-orange {
