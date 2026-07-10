@@ -57,7 +57,17 @@ const nextConfig: NextConfig = {
     ],
   },
   async redirects() {
-    return [{ source: "/register", destination: "/registrazione", permanent: true }];
+    return [
+      { source: "/register", destination: "/registrazione", permanent: true },
+      { source: "/vetrina", destination: "/", permanent: true },
+      { source: "/vetrina/:path*", destination: "/", permanent: true },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "hotelsdrop.com" }],
+        destination: "https://www.hotelsdrop.com/:path*",
+        permanent: true,
+      },
+    ];
   },
   async headers() {
     return [

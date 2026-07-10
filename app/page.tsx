@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import { Suspense } from "react";
 import { HomeAdvertiserAlerts } from "@/components/showcase/HomeAdvertiserAlerts";
 import { HomeHotelAlerts } from "@/components/showcase/HomeHotelAlerts";
 import { PublicShowcaseClient } from "@/components/showcase/PublicShowcaseClient";
+import { canonicalUrl } from "@/lib/seo/canonical";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: canonicalUrl("/"),
+  },
+};
 
 export default function HomePage() {
   return (

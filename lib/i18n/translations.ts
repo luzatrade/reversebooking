@@ -134,6 +134,15 @@ export const translations = {
       aboutPageTitle: "Cos'è HotelsDrop",
       aboutPageDescription:
         "Scopri il Reverse Booking di HotelsDrop: una richiesta, offerte personalizzate dagli hotel e B&B, gratis per chi viaggia e senza commissioni.",
+      publicHotelProfileTitle: "Profilo struttura",
+      publicHotelProfileDescription:
+        "Scheda pubblica di una struttura ricettiva su HotelsDrop: servizi, zona, contatti e richiesta di soggiorno.",
+      onboardingHotelProfileTitle: "Struttura in catalogo",
+      onboardingHotelProfileDescription:
+        "Anteprima pubblica di una struttura ricettiva nel catalogo HotelsDrop.",
+      createListingTitle: "Crea richiesta di soggiorno",
+      createListingDescription:
+        "Pubblica gratuitamente la tua richiesta di soggiorno e ricevi offerte personalizzate dalle strutture della destinazione selezionata.",
     },
     auth: {
       accessLabel: "Accesso",
@@ -1439,6 +1448,15 @@ export const translations = {
       aboutPageTitle: "What is HotelsDrop",
       aboutPageDescription:
         "Discover HotelsDrop Reverse Booking: one request, personalized offers from hotels and B&Bs, free for travelers with no commissions.",
+      publicHotelProfileTitle: "Property profile",
+      publicHotelProfileDescription:
+        "Public property profile on HotelsDrop: services, area, contacts, and stay request.",
+      onboardingHotelProfileTitle: "Catalog property",
+      onboardingHotelProfileDescription:
+        "Public preview of a hospitality property in the HotelsDrop catalog.",
+      createListingTitle: "Create a stay request",
+      createListingDescription:
+        "Publish your stay request for free and receive personalized offers from properties in your selected destination.",
     },
     auth: {
       accessLabel: "Sign in",

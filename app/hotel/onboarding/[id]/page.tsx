@@ -1,10 +1,28 @@
 import type { Metadata } from "next";
 import { PublicOnboardingHotelProfile } from "@/components/hotels/PublicOnboardingHotelProfile";
+import { getServerTranslations } from "@/lib/i18n/get-translations";
+import { canonicalUrl } from "@/lib/seo/canonical";
 
-export const metadata: Metadata = {
-  title: "Profilo struttura — HotelsDrop",
-  description: "Scheda pubblica di una struttura ricettiva nel catalogo HotelsDrop.",
+type PageProps = {
+  params: Promise<{ id: string }>;
 };
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { id } = await params;
+  const t = await getServerTranslations();
+
+  return {
+    title: t.metadata.onboardingHotelProfileTitle,
+    description: t.metadata.onboardingHotelProfileDescription,
+    alternates: {
+      canonical: canonicalUrl(`/hotel/onboarding/${id}`),
+    },
+    robots: {
+      index: false,
+      follow: true,
+    },
+  };
+}
 
 export default function OnboardingHotelProfilePage() {
   return (

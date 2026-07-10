@@ -1,8 +1,37 @@
-import Link from "next/link";
+import type { Metadata } from "next";
 import { Suspense } from "react";
 import { CreateListingBackLink } from "@/components/requests/CreateListingBackLink";
 import { CreateTravelRequestForm } from "@/components/requests/CreateTravelRequestForm";
 import { getServerTranslations } from "@/lib/i18n/get-translations";
+import { canonicalUrl, hasUrlSearchParams } from "@/lib/seo/canonical";
+
+const CREATE_LISTING_PATH = "/inserzionista/crea-annuncio";
+
+type PageProps = {
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+};
+
+export async function generateMetadata({ searchParams }: PageProps): Promise<Metadata> {
+  const t = await getServerTranslations();
+  const params = await searchParams;
+  const hasParams = hasUrlSearchParams(params);
+
+  return {
+    title: t.metadata.createListingTitle,
+    description: t.metadata.createListingDescription,
+    alternates: {
+      canonical: canonicalUrl(CREATE_LISTING_PATH),
+    },
+    ...(hasParams
+      ? {
+          robots: {
+            index: false,
+            follow: true,
+          },
+        }
+      : {}),
+  };
+}
 
 export default async function Page() {
   const t = await getServerTranslations();

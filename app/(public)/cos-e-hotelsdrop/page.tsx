@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
 import { HotelsDropAboutMarkup } from "@/components/legal/HotelsDropAboutMarkup";
 import { getServerTranslations } from "@/lib/i18n/get-translations";
+import { canonicalUrl } from "@/lib/seo/canonical";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getServerTranslations();
   return {
     title: t.metadata.aboutPageTitle,
     description: t.metadata.aboutPageDescription,
+    alternates: {
+      canonical: canonicalUrl("/cos-e-hotelsdrop"),
+    },
   };
 }
 
