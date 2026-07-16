@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Domus Nova",
+    "type": "Luxury B&B",
+    "address": "Via dei Correttori, 15, 89127 Reggio Calabria (RC)",
+    "city": "Reggio Calabria",
+    "phone": "+39 0965 617455",
+    "website": "https://www.domusnovarc.it",
+    "latitude": 38.10645,
+    "longitude": 15.64322
+  },
+  {
+    "name": "Town House Cavour",
+    "type": "Boutique Hotel / Affittacamere",
+    "address": "Via Cavour, 19, 89127 Reggio Calabria (RC)",
+    "city": "Reggio Calabria",
+    "phone": "+39 338 358 0591",
+    "latitude": 38.10756,
+    "longitude": 15.64412
+  },
+  {
+    "name": "Town House Morgana",
+    "type": "Suite / Affittacamere",
+    "address": "Via Fata Morgana, 2c, 89125 Reggio Calabria (RC)",
+    "city": "Reggio Calabria",
+    "phone": "+39 338 358 0591",
+    "website": "https://www.townhouserc.it",
+    "latitude": 38.11314,
+    "longitude": 15.64955
+  }
+]
