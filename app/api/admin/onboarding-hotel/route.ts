@@ -4,6 +4,7 @@ import { requireAdminApi } from "@/lib/admin/verify";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
 
 const ALLOWED_STATUSES = new Set(["unclaimed", "pending_verification", "claimed"]);
+const MAX_GALLERY_PHOTOS = 4;
 
 type Body = {
   id?: string;
@@ -15,6 +16,7 @@ type Body = {
   website?: string | null;
   google_maps_url?: string | null;
   main_photo_url?: string | null;
+  gallery_photo_urls?: string[];
   status?: string;
   resetClaim?: boolean;
 };
@@ -23,6 +25,14 @@ function cleanOptionalText(value: string | null | undefined) {
   if (value === null) return null;
   const trimmed = value?.trim();
   return trimmed ? trimmed : null;
+}
+
+function normalizeGalleryUrls(value: string[] | undefined) {
+  if (value === undefined) return undefined;
+  return value
+    .map((item) => item.trim())
+    .filter(Boolean)
+    .slice(0, MAX_GALLERY_PHOTOS);
 }
 
 export async function POST(request: Request) {
@@ -73,6 +83,13 @@ export async function POST(request: Request) {
   if (body.website !== undefined) updates.website = cleanOptionalText(body.website);
   if (body.google_maps_url !== undefined) updates.google_maps_url = cleanOptionalText(body.google_maps_url);
   if (body.main_photo_url !== undefined) updates.main_photo_url = cleanOptionalText(body.main_photo_url);
+  if (body.gallery_photo_urls !== undefined) {
+    const gallery = normalizeGalleryUrls(body.gallery_photo_urls);
+    if (!gallery) {
+      return NextResponse.json({ error: "Galleria foto non valida" }, { status: 400 });
+    }
+    updates.gallery_photo_urls = gallery;
+  }
 
   if (body.phone !== undefined) {
     const rawPhone = cleanOptionalText(body.phone);
@@ -114,6 +131,7 @@ export async function POST(request: Request) {
   if (updates.email !== undefined) hotelSync.public_email = updates.email;
   if (updates.phone !== undefined) hotelSync.public_phone = updates.phone;
   if (updates.main_photo_url !== undefined) hotelSync.main_photo_url = updates.main_photo_url;
+  if (updates.gallery_photo_urls !== undefined) hotelSync.gallery_photo_urls = updates.gallery_photo_urls;
 
   if (Object.keys(hotelSync).length > 0) {
     await admin.from("hotel_accounts").update(hotelSync).eq("onboarding_hotel_id", id);

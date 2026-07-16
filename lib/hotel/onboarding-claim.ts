@@ -12,6 +12,7 @@ export type OnboardingHotelRow = {
   email: string | null;
   phone: string | null;
   main_photo_url: string | null;
+  gallery_photo_urls?: string[] | null;
   website: string | null;
   google_maps_url: string | null;
   status: string;
@@ -19,7 +20,7 @@ export type OnboardingHotelRow = {
 };
 
 const ONBOARDING_SELECT =
-  "id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url, status, claimed_by";
+  "id, nome, city_name, indirizzo, email, phone, main_photo_url, gallery_photo_urls, website, google_maps_url, status, claimed_by";
 
 const PLACEHOLDER_PROPERTY_NAMES = new Set([
   "",
@@ -94,6 +95,7 @@ export function buildHotelFromOnboarding(
     public_email: onboarding.email,
     public_phone: onboarding.phone,
     main_photo_url: onboarding.main_photo_url,
+    gallery_photo_urls: onboarding.gallery_photo_urls ?? [],
     google_maps_url: onboarding.google_maps_url,
     subscription_status: "active",
     subscription_active: true,

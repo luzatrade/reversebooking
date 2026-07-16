@@ -17,6 +17,7 @@ type OnboardingHotel = {
   website: string | null;
   google_maps_url: string | null;
   main_photo_url: string | null;
+  gallery_photo_urls: string[] | null;
   status: string;
   claimed_by: string | null;
 };
@@ -33,6 +34,7 @@ type LinkedHotelAccount = {
 
 const inputClass =
   "mt-2 w-full rounded-xl border border-zinc-300 bg-white px-4 py-3 text-sm text-zinc-900 outline-none ring-[#0f4c81]/20 focus:border-[#0f4c81] focus:ring-2";
+const MAX_GALLERY_PHOTOS = 4;
 
 export function OnboardingHotelEditor({
   hotel,
@@ -55,15 +57,21 @@ export function OnboardingHotelEditor({
   const [saving, setSaving] = useState(false);
   const [uploadingPhoto, setUploadingPhoto] = useState(false);
   const [mainPhotoUrl, setMainPhotoUrl] = useState(hotel.main_photo_url ?? "");
+  const [galleryPhotoUrls, setGalleryPhotoUrls] = useState<string[]>(hotel.gallery_photo_urls ?? []);
   const [resettingClaim, setResettingClaim] = useState(false);
   const [calling, setCalling] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
 
-  async function uploadMainPhoto(event: ChangeEvent<HTMLInputElement>) {
+  async function uploadPhoto(event: ChangeEvent<HTMLInputElement>, kind: "main" | "gallery") {
     const file = event.target.files?.[0];
     event.target.value = "";
     if (!file) return;
+
+    if (kind === "gallery" && galleryPhotoUrls.length >= MAX_GALLERY_PHOTOS) {
+      setError(`Puoi caricare al massimo ${MAX_GALLERY_PHOTOS} foto aggiuntive.`);
+      return;
+    }
 
     setUploadingPhoto(true);
     setError(null);
@@ -72,17 +80,27 @@ export function OnboardingHotelEditor({
     try {
       const payload = new FormData();
       payload.append("id", hotel.id);
+      payload.append("kind", kind);
       payload.append("file", file);
 
       const res = await fetch("/api/admin/onboarding-hotel/photo", {
         method: "POST",
         body: payload,
       });
-      const data = (await res.json()) as { error?: string; main_photo_url?: string };
+      const data = (await res.json()) as {
+        error?: string;
+        main_photo_url?: string;
+        gallery_photo_urls?: string[];
+      };
       if (!res.ok) throw new Error(data.error ?? "Caricamento foto non riuscito");
 
-      setMainPhotoUrl(data.main_photo_url ?? "");
-      setSuccess("Foto principale aggiornata.");
+      if (kind === "gallery") {
+        setGalleryPhotoUrls(data.gallery_photo_urls ?? []);
+        setSuccess("Foto aggiuntiva caricata.");
+      } else {
+        setMainPhotoUrl(data.main_photo_url ?? "");
+        setSuccess("Foto principale aggiornata.");
+      }
       router.refresh();
     } catch (err) {
       setError(err instanceof Error ? err.message : "Caricamento foto non riuscito");
@@ -107,6 +125,31 @@ export function OnboardingHotelEditor({
 
       setMainPhotoUrl("");
       setSuccess("Foto principale rimossa.");
+      router.refresh();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Rimozione foto non riuscita");
+    } finally {
+      setUploadingPhoto(false);
+    }
+  }
+
+  async function removeGalleryPhoto(index: number) {
+    const nextGallery = galleryPhotoUrls.filter((_, photoIndex) => photoIndex !== index);
+    setUploadingPhoto(true);
+    setError(null);
+    setSuccess(null);
+
+    try {
+      const res = await fetch("/api/admin/onboarding-hotel", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id: hotel.id, gallery_photo_urls: nextGallery }),
+      });
+      const data = (await res.json()) as { error?: string };
+      if (!res.ok) throw new Error(data.error ?? "Rimozione foto non riuscita");
+
+      setGalleryPhotoUrls(nextGallery);
+      setSuccess("Foto aggiuntiva rimossa.");
       router.refresh();
     } catch (err) {
       setError(err instanceof Error ? err.message : "Rimozione foto non riuscita");
@@ -256,7 +299,7 @@ export function OnboardingHotelEditor({
             <label className="inline-flex w-fit cursor-pointer items-center gap-2 rounded-xl bg-[#0f4c81] px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-[#0d3f68]">
               <ImagePlus className="h-4 w-4" />
               {uploadingPhoto ? "Caricamento..." : "Carica foto"}
-              <input type="file" accept="image/*" className="hidden" onChange={(e) => void uploadMainPhoto(e)} disabled={uploadingPhoto} />
+              <input type="file" accept="image/*" className="hidden" onChange={(e) => void uploadPhoto(e, "main")} disabled={uploadingPhoto} />
             </label>
             {mainPhotoUrl ? (
               <button
@@ -273,6 +316,55 @@ export function OnboardingHotelEditor({
           </div>
         </div>
       </section>
+
+      <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6">
+        <h2 className="text-sm font-semibold text-zinc-900">Foto aggiuntive</h2>
+        <p className="mt-1 text-sm text-zinc-600">
+          Fino a {MAX_GALLERY_PHOTOS} immagini extra nel profilo pubblico ({galleryPhotoUrls.length}/{MAX_GALLERY_PHOTOS}).
+        </p>
+        <div className="mt-4 space-y-4">
+          <label
+            className={`inline-flex w-fit cursor-pointer items-center gap-2 rounded-xl border border-[#0f4c81] bg-[#e8f0f8] px-4 py-2.5 text-sm font-semibold text-[#0f4c81] transition hover:bg-[#d8e6f2] ${
+              galleryPhotoUrls.length >= MAX_GALLERY_PHOTOS || uploadingPhoto ? "pointer-events-none opacity-50" : ""
+            }`}
+          >
+            <ImagePlus className="h-4 w-4" />
+            {uploadingPhoto ? "Caricamento..." : "Aggiungi foto"}
+            <input
+              type="file"
+              accept="image/*"
+              className="hidden"
+              onChange={(e) => void uploadPhoto(e, "gallery")}
+              disabled={uploadingPhoto || galleryPhotoUrls.length >= MAX_GALLERY_PHOTOS}
+            />
+          </label>
+
+          {galleryPhotoUrls.length ? (
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+              {galleryPhotoUrls.map((url, index) => (
+                <div key={url} className="relative overflow-hidden rounded-xl bg-zinc-100">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={url} alt={`${hotel.nome} ${index + 1}`} className="aspect-video w-full object-cover" />
+                  <button
+                    type="button"
+                    onClick={() => void removeGalleryPhoto(index)}
+                    disabled={uploadingPhoto}
+                    className="absolute right-2 top-2 inline-flex rounded-full bg-black/60 p-1.5 text-white transition hover:bg-black/80 disabled:opacity-50"
+                    aria-label="Rimuovi foto"
+                  >
+                    <X className="h-3.5 w-3.5" />
+                  </button>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p className="text-sm text-zinc-500">Nessuna foto aggiuntiva.</p>
+          )}
+        </div>
+      </section>
+
+      {error ? <p className="rounded-xl bg-red-50 px-4 py-3 text-sm text-red-700">{error}</p> : null}
+      {success ? <p className="rounded-xl bg-emerald-50 px-4 py-3 text-sm text-emerald-800">{success}</p> : null}
 
       <form onSubmit={save} className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6">
         <div className="grid gap-5 md:grid-cols-2">
@@ -333,9 +425,6 @@ export function OnboardingHotelEditor({
           <p className="mt-1 break-all">ID catalogo: {hotel.id}</p>
           {hotel.claimed_by ? <p className="mt-1 break-all">Claimed by: {hotel.claimed_by}</p> : null}
         </div>
-
-        {error ? <p className="mt-4 rounded-xl bg-red-50 px-4 py-3 text-sm text-red-700">{error}</p> : null}
-        {success ? <p className="mt-4 rounded-xl bg-emerald-50 px-4 py-3 text-sm text-emerald-800">{success}</p> : null}
 
         <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
           <button

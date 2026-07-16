@@ -26,12 +26,13 @@ type OnboardingProfile = {
   phone: string | null;
   website: string | null;
   main_photo_url: string | null;
+  gallery_photo_urls: string[] | null;
   google_maps_url: string | null;
   status: string;
 };
 
 const ONBOARDING_SELECT =
-  "id, nome, indirizzo, city_name, email, phone, website, main_photo_url, google_maps_url, status";
+  "id, nome, indirizzo, city_name, email, phone, website, main_photo_url, gallery_photo_urls, google_maps_url, status";
 
 export function PublicOnboardingHotelProfile() {
   const { t } = useLanguage();
@@ -140,6 +141,19 @@ export function PublicOnboardingHotelProfile() {
                 {t.hotel.claimVerifiedPartner}
               </p>
             )}
+
+            {hotel.gallery_photo_urls?.length ? (
+              <div className="mt-4 grid grid-cols-2 gap-2 sm:mt-6 sm:grid-cols-2 sm:gap-3 lg:grid-cols-3">
+                {hotel.gallery_photo_urls.map((photo) => (
+                  <img
+                    key={photo}
+                    src={photo}
+                    alt={hotel.nome}
+                    className="h-28 w-full rounded-xl object-cover sm:h-36 sm:rounded-2xl"
+                  />
+                ))}
+              </div>
+            ) : null}
 
             <div className="mt-6 grid gap-3 sm:gap-4 md:grid-cols-2">
               <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 sm:p-5">

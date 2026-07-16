@@ -3,6 +3,7 @@ import { logAdminAction } from "@/lib/admin/audit";
 import { requireAdminApi } from "@/lib/admin/verify";
 
 const MAX_BYTES = 5 * 1024 * 1024;
+const MAX_GALLERY_PHOTOS = 4;
 
 function fileExtension(file: File) {
   if (file.type === "image/png") return "png";
@@ -22,6 +23,7 @@ export async function POST(request: Request) {
   }
 
   const id = formData.get("id")?.toString().trim();
+  const kind = formData.get("kind")?.toString().trim() === "gallery" ? "gallery" : "main";
   const file = formData.get("file");
 
   if (!id) {
@@ -40,7 +42,7 @@ export async function POST(request: Request) {
   const admin = gate.admin;
   const { data: existing, error: existingError } = await admin
     .from("onboarding_hotels")
-    .select("id, nome, main_photo_url")
+    .select("id, nome, main_photo_url, gallery_photo_urls")
     .eq("id", id)
     .maybeSingle();
 
@@ -51,7 +53,15 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Struttura onboarding non trovata" }, { status: 404 });
   }
 
-  const path = `onboarding/${id}/main-${Date.now()}.${fileExtension(file)}`;
+  const currentGallery = Array.isArray(existing.gallery_photo_urls) ? existing.gallery_photo_urls : [];
+  if (kind === "gallery" && currentGallery.length >= MAX_GALLERY_PHOTOS) {
+    return NextResponse.json(
+      { error: `Puoi caricare al massimo ${MAX_GALLERY_PHOTOS} foto aggiuntive.` },
+      { status: 400 },
+    );
+  }
+
+  const path = `onboarding/${id}/${kind}-${Date.now()}.${fileExtension(file)}`;
   const buffer = Buffer.from(await file.arrayBuffer());
   const { error: uploadError } = await admin.storage.from("hotel-photos").upload(path, buffer, {
     contentType: file.type,
@@ -64,18 +74,46 @@ export async function POST(request: Request) {
   }
 
   const { data: publicUrlData } = admin.storage.from("hotel-photos").getPublicUrl(path);
-  const mainPhotoUrl = publicUrlData.publicUrl;
+  const photoUrl = publicUrlData.publicUrl;
+
+  if (kind === "gallery") {
+    const galleryPhotoUrls = [...currentGallery, photoUrl].slice(0, MAX_GALLERY_PHOTOS);
+    const { error: updateError } = await admin
+      .from("onboarding_hotels")
+      .update({ gallery_photo_urls: galleryPhotoUrls })
+      .eq("id", id);
+
+    if (updateError) {
+      return NextResponse.json({ error: updateError.message }, { status: 500 });
+    }
+
+    await admin.from("hotel_accounts").update({ gallery_photo_urls: galleryPhotoUrls }).eq("onboarding_hotel_id", id);
+
+    await logAdminAction(admin, request, {
+      actor: gate.profile,
+      action: "update_onboarding_hotel_gallery_photo",
+      targetType: "onboarding",
+      targetId: id,
+      details: {
+        beforeCount: currentGallery.length,
+        afterCount: galleryPhotoUrls.length,
+        storagePath: path,
+      },
+    });
+
+    return NextResponse.json({ ok: true, gallery_photo_urls: galleryPhotoUrls });
+  }
 
   const { error: updateError } = await admin
     .from("onboarding_hotels")
-    .update({ main_photo_url: mainPhotoUrl })
+    .update({ main_photo_url: photoUrl })
     .eq("id", id);
 
   if (updateError) {
     return NextResponse.json({ error: updateError.message }, { status: 500 });
   }
 
-  await admin.from("hotel_accounts").update({ main_photo_url: mainPhotoUrl }).eq("onboarding_hotel_id", id);
+  await admin.from("hotel_accounts").update({ main_photo_url: photoUrl }).eq("onboarding_hotel_id", id);
 
   await logAdminAction(admin, request, {
     actor: gate.profile,
@@ -84,10 +122,10 @@ export async function POST(request: Request) {
     targetId: id,
     details: {
       before: existing.main_photo_url,
-      after: mainPhotoUrl,
+      after: photoUrl,
       storagePath: path,
     },
   });
 
-  return NextResponse.json({ ok: true, main_photo_url: mainPhotoUrl });
+  return NextResponse.json({ ok: true, main_photo_url: photoUrl });
 }
