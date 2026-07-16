@@ -3,8 +3,14 @@ import { ConsolePageHeader } from "@/components/console/ConsolePageHeader";
 import { ConsoleSearchForm } from "@/components/console/ConsoleSearchForm";
 import { DataTable } from "@/components/console/DataTable";
 import { DeleteButton } from "@/components/console/DeleteButton";
+import { OnboardingEnterButton } from "@/components/console/OnboardingEnterButton";
 import { StatusBadge } from "@/components/console/StatusBadge";
-import { countOnboardingHotels, listOnboardingHotels } from "@/lib/admin/data";
+import {
+  countOnboardingHotels,
+  listOnboardingHotels,
+  mapLinkedHotelUsersForOnboarding,
+  resolveOnboardingEnterUserId,
+} from "@/lib/admin/data";
 import { isServiceRoleConfigured } from "@/lib/utils/env";
 
 export default async function ConsoleOnboardingPage({
@@ -25,6 +31,7 @@ export default async function ConsoleOnboardingPage({
   const withEmail = hotels.filter((h) => h.email).length;
   const withPhone = hotels.filter((h) => h.phone).length;
   const claimed = hotels.filter((h) => h.status === "claimed").length;
+  const linkedUsers = await mapLinkedHotelUsersForOnboarding(hotels.map((h) => h.id));
 
   return (
     <>
@@ -99,7 +106,11 @@ export default async function ConsoleOnboardingPage({
               status: <StatusBadge value={h.status ?? "pending"} />,
               id: <span className="font-mono text-xs text-zinc-500">{h.id}</span>,
               actions: (
-                <div className="flex flex-col gap-1.5">
+                <div className="flex flex-col gap-1.5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-2">
+                  <OnboardingEnterButton
+                    userId={resolveOnboardingEnterUserId(h, linkedUsers)}
+                    onboardingId={h.id}
+                  />
                   <Link href={`/console/onboarding/${h.id}`} className="text-xs font-semibold text-[#0f4c81] hover:underline">
                     Modifica
                   </Link>

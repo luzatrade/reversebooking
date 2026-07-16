@@ -312,6 +312,33 @@ export async function getLinkedHotelAccountForOnboarding(onboardingId: string) {
   return data;
 }
 
+export async function mapLinkedHotelUsersForOnboarding(onboardingIds: string[]) {
+  const uniqueIds = [...new Set(onboardingIds.filter(Boolean))];
+  if (!uniqueIds.length) return new Map<string, string>();
+
+  const supabase = db();
+  const { data, error } = await supabase
+    .from("hotel_accounts")
+    .select("onboarding_hotel_id, user_id")
+    .in("onboarding_hotel_id", uniqueIds);
+  if (error) throw error;
+
+  const map = new Map<string, string>();
+  for (const row of data ?? []) {
+    if (row.onboarding_hotel_id && row.user_id) {
+      map.set(row.onboarding_hotel_id, row.user_id);
+    }
+  }
+  return map;
+}
+
+export function resolveOnboardingEnterUserId(
+  hotel: { id: string; claimed_by?: string | null },
+  linkedUsers: Map<string, string>,
+) {
+  return linkedUsers.get(hotel.id) ?? hotel.claimed_by ?? null;
+}
+
 export async function listOnboardingHotels(query?: string) {
   const trimmed = query?.trim() ?? "";
   if (!trimmed) return [];
@@ -319,7 +346,7 @@ export async function listOnboardingHotels(query?: string) {
   const supabase = db();
   let request = supabase
     .from("onboarding_hotels")
-    .select("id, nome, city_name, indirizzo, email, phone, main_photo_url, status, created_at")
+    .select("id, nome, city_name, indirizzo, email, phone, main_photo_url, status, claimed_by, created_at")
     .order("created_at", { ascending: false })
     .limit(500);
   request = applySearch(request, trimmed, [...ONBOARDING_HOTEL_SEARCH_FIELDS], ["id"]);

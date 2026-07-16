@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { MapPin, Search } from "lucide-react";
+import { Building2, MapPin, Search } from "lucide-react";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
+import type { CatalogStructureHit } from "@/lib/catalog/searchStructures";
 import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
 import { cityFromInput, createWorldCity, findCityById } from "@/lib/constants/world-city-helpers";
 import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
@@ -18,6 +19,9 @@ type CityAutocompleteProps = {
   hideLabel?: boolean;
   /** Limita i suggerimenti locali e remoti al paese selezionato. */
   restrictCountryCode?: string;
+  /** Mostra strutture onboarding/registrate dal catalogo HotelsDrop. */
+  includeCatalogStructures?: boolean;
+  onPickStructure?: (structure: CatalogStructureHit) => void;
 };
 
 type Suggestion = WorldCity & { source: "local" | "remote" };
@@ -108,6 +112,8 @@ export function CityAutocomplete({
   placeholder,
   hideLabel = false,
   restrictCountryCode,
+  includeCatalogStructures = false,
+  onPickStructure,
 }: CityAutocompleteProps) {
   const { t } = useLanguage();
   const resolvedLabel = label ?? t.common.destination;
@@ -115,8 +121,10 @@ export function CityAutocomplete({
   const defaultCountryCode = restrictCountryCode || value.country_code || "IT";
   const [query, setQuery] = useState(() => initialQuery(value));
   const [remoteSuggestions, setRemoteSuggestions] = useState<Suggestion[]>([]);
+  const [catalogStructures, setCatalogStructures] = useState<CatalogStructureHit[]>([]);
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [structuresLoading, setStructuresLoading] = useState(false);
   const wrapperRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -177,6 +185,48 @@ export function CityAutocomplete({
   }, [query, restrictCountryCode]);
 
   useEffect(() => {
+    if (!includeCatalogStructures) {
+      setCatalogStructures([]);
+      setStructuresLoading(false);
+      return;
+    }
+
+    const text = query.trim();
+    if (text.length < 2) {
+      setCatalogStructures([]);
+      setStructuresLoading(false);
+      return;
+    }
+
+    const controller = new AbortController();
+    const timer = window.setTimeout(async () => {
+      setStructuresLoading(true);
+      try {
+        const params = new URLSearchParams({ q: text, limit: "6" });
+        const response = await fetch(`/api/search/catalog-structures?${params.toString()}`, {
+          signal: controller.signal,
+        });
+        if (!response.ok) {
+          setCatalogStructures([]);
+          return;
+        }
+        const data = (await response.json()) as { structures?: CatalogStructureHit[] };
+        setCatalogStructures(data.structures ?? []);
+      } catch (err) {
+        if (err instanceof DOMException && err.name === "AbortError") return;
+        setCatalogStructures([]);
+      } finally {
+        setStructuresLoading(false);
+      }
+    }, 300);
+
+    return () => {
+      controller.abort();
+      window.clearTimeout(timer);
+    };
+  }, [includeCatalogStructures, query]);
+
+  useEffect(() => {
     function onDocumentClick(event: MouseEvent) {
       if (!wrapperRef.current?.contains(event.target as Node)) setOpen(false);
     }
@@ -193,6 +243,17 @@ export function CityAutocomplete({
     onChange(resolved);
     onPick?.(resolved);
   }
+
+  function selectStructure(structure: CatalogStructureHit) {
+    setQuery(structure.name);
+    setOpen(false);
+    onPickStructure?.(structure);
+  }
+
+  const panelBusy = loading || structuresLoading;
+  const hasStructureResults = includeCatalogStructures && catalogStructures.length > 0;
+  const hasCityResults = suggestions.length > 0;
+  const showEmptyHint = !panelBusy && !hasStructureResults && !hasCityResults;
 
   function confirmManualCity() {
     const text = query.trim();
@@ -220,6 +281,7 @@ export function CityAutocomplete({
     setOpen(true);
     if (!text.trim()) {
       setRemoteSuggestions([]);
+      setCatalogStructures([]);
       onChange(createWorldCity(defaultCountryCode, ""));
     }
   }
@@ -245,28 +307,60 @@ export function CityAutocomplete({
         </div>
       </label>
 
-      {open && (query.trim().length >= 2 || loading) ? (
+      {open && (query.trim().length >= 2 || panelBusy) ? (
         <div className={suggestionsPanelClass} role="listbox">
-          {loading ? <p className="px-4 py-3 text-sm font-medium text-zinc-700">{t.location.searching}</p> : null}
-          {!loading && suggestions.length === 0 ? (
+          {panelBusy ? <p className="px-4 py-3 text-sm font-medium text-zinc-700">{t.location.searching}</p> : null}
+          {showEmptyHint ? (
             <p className="px-4 py-3 text-sm font-medium text-zinc-700">{t.location.manualEntryHint}</p>
           ) : null}
-          {suggestions.map((city) => (
-            <button
-              key={`${city.source}-${city.city_id}`}
-              type="button"
-              role="option"
-              onMouseDown={(event) => event.preventDefault()}
-              onClick={() => selectCity(city)}
-              className={suggestionButtonClass}
-            >
-              <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#4285F4]" />
-              <span>
-                <span className="block text-sm font-semibold text-zinc-950">{city.city_name}</span>
-                <span className="block text-xs font-medium text-zinc-600">{city.country_name}</span>
-              </span>
-            </button>
-          ))}
+          {hasCityResults ? (
+            <>
+              <p className="px-4 pb-1 pt-2 text-[11px] font-semibold uppercase tracking-wide text-zinc-500">
+                {t.location.catalogCities}
+              </p>
+              {suggestions.map((city) => (
+                <button
+                  key={`${city.source}-${city.city_id}`}
+                  type="button"
+                  role="option"
+                  onMouseDown={(event) => event.preventDefault()}
+                  onClick={() => selectCity(city)}
+                  className={suggestionButtonClass}
+                >
+                  <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#4285F4]" />
+                  <span>
+                    <span className="block text-sm font-semibold text-zinc-950">{city.city_name}</span>
+                    <span className="block text-xs font-medium text-zinc-600">{city.country_name}</span>
+                  </span>
+                </button>
+              ))}
+            </>
+          ) : null}
+          {hasStructureResults ? (
+            <>
+              <p className="px-4 pb-1 pt-2 text-[11px] font-semibold uppercase tracking-wide text-zinc-500">
+                {t.location.catalogStructures}
+              </p>
+              {catalogStructures.map((structure) => (
+                <button
+                  key={`${structure.kind}-${structure.id}`}
+                  type="button"
+                  role="option"
+                  onMouseDown={(event) => event.preventDefault()}
+                  onClick={() => selectStructure(structure)}
+                  className={suggestionButtonClass}
+                >
+                  <Building2 className="mt-0.5 h-4 w-4 shrink-0 text-[#c2410c]" />
+                  <span>
+                    <span className="block text-sm font-semibold text-zinc-950">{structure.name}</span>
+                    <span className="block text-xs font-medium text-zinc-600">
+                      {[structure.address, structure.cityName].filter(Boolean).join(" · ")}
+                    </span>
+                  </span>
+                </button>
+              ))}
+            </>
+          ) : null}
         </div>
       ) : null}
 

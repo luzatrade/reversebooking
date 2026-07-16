@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Correttori House",
+    "type": "Guest House / B&B",
+    "address": "Via dei Correttori 8, 89127 Reggio di Calabria",
+    "city": "Reggio Calabria",
+    "postal_code": "89127",
+    "country": "Italy",
+    "phone": "+39 0965 028235",
+    "latitude": 38.10682,
+    "longitude": 15.64335,
+    "suggested_email": "info@correttorihouse.it"
+  },
+  {
+    "name": "Nome Struttura 2",
+    "type": "B&B",
+    "address": "Via Example 12",
+    "city": "Firenze",
+    "phone": "+39 055 0000000",
+    "latitude": 43.7696,
+    "longitude": 11.2558,
+    "suggested_email": "info@example.it"
+  }
+]

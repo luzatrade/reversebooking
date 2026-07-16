@@ -25,7 +25,9 @@ import { formatAdvertiserPublicName, oneAdvertiserProfile } from "@/lib/advertis
 import { formatMessage } from "@/lib/i18n/format";
 import { getStructureTypeLabels } from "@/lib/i18n/labels";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
-import { createWorldCity, findCityById, resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
+import type { CatalogStructureHit } from "@/lib/catalog/searchStructures";
+import { createWorldCity, findCityById, cityFromInput, resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
+import { cn } from "@/lib/utils";
 import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
 import { mealPlanLabels, type MealPlan, type StructureType, type UserRole } from "@/types/app";
 import type { CatalogOfferListItem } from "@/types/catalog-offers";
@@ -235,11 +237,25 @@ export function PublicShowcaseClient() {
   const [offersLoading, setOffersLoading] = useState(true);
   const [mapExploreOpen, setMapExploreOpen] = useState(false);
   const [dropBenefitsOpen, setDropBenefitsOpen] = useState(false);
+  const [focusedHotelId, setFocusedHotelId] = useState<string | null>(null);
   const mapHotelId = searchParams.get("map_hotel")?.trim() || null;
 
   const hasSelectedCity = Boolean(selectedCity.city_name.trim());
   const createRequestBase = hasSelectedCity ? `/inserzionista/crea-annuncio?city_id=${encodeURIComponent(selectedCity.city_id)}&city=${encodeURIComponent(selectedCity.city_name)}` : "/inserzionista/crea-annuncio";
   const createRequestHref = createRequestBase;
+
+  function handleCityChange(city: WorldCity) {
+    setFocusedHotelId(null);
+    setSelectedCity(city);
+  }
+
+  function handlePickStructure(structure: CatalogStructureHit) {
+    const city = structure.cityId
+      ? findCityById(structure.cityId)
+      : cityFromInput(structure.countryCode, structure.cityName);
+    setSelectedCity(city);
+    setFocusedHotelId(structure.id);
+  }
 
   function matchesSelectedCity(item: { city_id?: string | null; city_name?: string | null; country_code?: string | null }) {
     if (!hasSelectedCity) return true;
@@ -499,6 +515,12 @@ export function PublicShowcaseClient() {
   }, [hasSelectedCity, selectedCity.city_id]);
 
   const visibleHotels = useMemo(() => hotels.filter((h) => h.provider_kind !== "agency").filter(matchesSelectedCity), [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
+  const displayHotels = useMemo(() => {
+    if (!focusedHotelId) return visibleHotels;
+    const match = visibleHotels.find((hotel) => hotel.id === focusedHotelId);
+    if (!match) return visibleHotels;
+    return [match, ...visibleHotels.filter((hotel) => hotel.id !== focusedHotelId)];
+  }, [visibleHotels, focusedHotelId]);
   const visibleAgencies = useMemo(() => hotels.filter((h) => h.provider_kind === "agency").filter(matchesSelectedCity), [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
   const isHotel = viewer.role === "hotel" && Boolean(viewer.hotelAccountId);
   const displayRequests = useMemo(() => {
@@ -522,6 +544,17 @@ export function PublicShowcaseClient() {
     () => new Set(structureOffers.map((offer) => offer.provider.id)),
     [structureOffers],
   );
+
+  useEffect(() => {
+    if (!focusedHotelId || hotelsLoading) return;
+    const timer = window.setTimeout(() => {
+      document.getElementById("showcase-structures")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      document
+        .querySelector(`[data-showcase-hotel-id="${focusedHotelId}"]`)
+        ?.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+    }, 150);
+    return () => window.clearTimeout(timer);
+  }, [focusedHotelId, hotelsLoading, displayHotels.length]);
 
   function renderRequestCard(request: TravelRequest) {
     const hasOffer = offeredRequestIds.has(request.id);
@@ -588,7 +621,14 @@ export function PublicShowcaseClient() {
     const locationLine = `${structureTypeLabels[hotel.structure_type]} · ${hotel.city_name}${country ? `, ${country}` : ""}`;
     const description = publicHotelDescription(hotel.description);
     return (
-      <article key={hotel.id} className="flex w-[18.5rem] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 sm:w-[20rem]">
+      <article
+        key={hotel.id}
+        data-showcase-hotel-id={hotel.id}
+        className={cn(
+          "flex w-[18.5rem] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border bg-zinc-50 sm:w-[20rem]",
+          hotel.id === focusedHotelId ? "border-[#c2410c] ring-2 ring-[#c2410c]/40" : "border-zinc-200",
+        )}
+      >
         {hotel.main_photo_url ? (
           <img src={hotel.main_photo_url} alt={hotel.property_name} className="h-36 w-full object-cover" />
         ) : (
@@ -690,10 +730,12 @@ export function PublicShowcaseClient() {
           <div className="flex flex-col gap-2.5 sm:gap-3">
             <CityAutocomplete
               value={selectedCity}
-              onChange={setSelectedCity}
+              onChange={handleCityChange}
               label={t.showcase.selectCity}
               hideLabel
               placeholder={t.showcase.citySearchPlaceholder}
+              includeCatalogStructures
+              onPickStructure={handlePickStructure}
             />
             <Link href={createRequestHref} className="hd-cta-orange hd-cta-drop-main w-full text-center">
               {t.showcase.dropYourRequest}
@@ -718,7 +760,7 @@ export function PublicShowcaseClient() {
             ) : null}
           </div>
           {hasSelectedCity ? (
-            <button type="button" onClick={() => setSelectedCity(createWorldCity("IT", ""))} className="hd-clear-city mt-3 text-xs">
+            <button type="button" onClick={() => { setFocusedHotelId(null); setSelectedCity(createWorldCity("IT", "")); }} className="hd-clear-city mt-3 text-xs">
               {t.showcase.clearSelectedCity}
             </button>
           ) : null}
@@ -739,27 +781,28 @@ export function PublicShowcaseClient() {
       </div>
 <div className="relative z-0 mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
       <HorizontalSlider
+        sectionId="showcase-structures"
         title={
           hasSelectedCity
             ? hotelsLoading
               ? formatMessage(t.showcase.structuresAtCityLoading, { city: selectedCity.city_name })
-              : formatMessage(t.showcase.structuresAtCityCount, { count: visibleHotels.length, city: selectedCity.city_name })
-            : formatMessage(t.showcase.featuredStructuresCount, { count: visibleHotels.length })
+              : formatMessage(t.showcase.structuresAtCityCount, { count: displayHotels.length, city: selectedCity.city_name })
+            : formatMessage(t.showcase.featuredStructuresCount, { count: displayHotels.length })
         }
         subtitle={t.showcase.featuredHotelsSubtitle}
         prevLabel={t.showcase.sliderPrevious}
         nextLabel={t.showcase.sliderNext}
-        itemCount={!hotelsLoading ? visibleHotels.length : 0}
+        itemCount={!hotelsLoading ? displayHotels.length : 0}
       >
         {hotelsLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">{t.showcase.loadingStructures}</div> : null}
-        {!hotelsLoading && visibleHotels.length === 0 ? (
+        {!hotelsLoading && displayHotels.length === 0 ? (
           <div className="w-full rounded-2xl border border-dashed border-zinc-300 bg-white p-8 text-center text-sm text-zinc-500">
             {hasSelectedCity
               ? formatMessage(t.showcase.noStructuresFoundInCity, { city: selectedCity.city_name })
               : t.showcase.noStructuresFound}
           </div>
         ) : null}
-        {!hotelsLoading ? visibleHotels.map((hotel) => renderHotelCard(hotel)) : null}
+        {!hotelsLoading ? displayHotels.map((hotel) => renderHotelCard(hotel)) : null}
       </HorizontalSlider>
 
       <HorizontalSlider

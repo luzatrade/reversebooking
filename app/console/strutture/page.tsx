@@ -5,8 +5,14 @@ import { ConsoleSearchForm } from "@/components/console/ConsoleSearchForm";
 import { DataTable } from "@/components/console/DataTable";
 import { DeleteButton } from "@/components/console/DeleteButton";
 import { ImpersonateButton } from "@/components/console/ImpersonateButton";
+import { OnboardingEnterButton } from "@/components/console/OnboardingEnterButton";
 import { StatusBadge } from "@/components/console/StatusBadge";
-import { listHotels, listOnboardingHotels } from "@/lib/admin/data";
+import {
+  listHotels,
+  listOnboardingHotels,
+  mapLinkedHotelUsersForOnboarding,
+  resolveOnboardingEnterUserId,
+} from "@/lib/admin/data";
 import { formatDate } from "@/lib/console/format";
 import { structureTypeLabels } from "@/types/app";
 import { getServerTranslations } from "@/lib/i18n/get-translations";
@@ -28,6 +34,7 @@ export default async function ConsoleStrutturePage({
     listHotels(q),
     query ? listOnboardingHotels(q) : Promise.resolve([]),
   ]);
+  const linkedUsers = await mapLinkedHotelUsersForOnboarding(onboardingHotels.map((h) => h.id));
 
   return (
     <>
@@ -129,7 +136,11 @@ export default async function ConsoleStrutturePage({
                 status: <StatusBadge value={h.status ?? "pending"} />,
                 id: <span className="font-mono text-xs text-zinc-500">{h.id}</span>,
                 actions: (
-                  <div className="flex flex-col gap-1.5">
+                  <div className="flex flex-col gap-1.5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-2">
+                    <OnboardingEnterButton
+                      userId={resolveOnboardingEnterUserId(h, linkedUsers)}
+                      onboardingId={h.id}
+                    />
                     <Link href={`/console/onboarding/${h.id}`} className="text-xs font-semibold text-[#0f4c81] hover:underline">
                       Modifica
                     </Link>

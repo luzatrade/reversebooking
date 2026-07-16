@@ -293,7 +293,7 @@ export const translations = {
       heroSubtitle:
         "Le strutture ti fanno offerte. Gratis per chi cerca, abbonamento per le strutture.",
       selectCity: "Seleziona città",
-      citySearchPlaceholder: "Dove vuoi andare?",
+      citySearchPlaceholder: "Città o struttura nel catalogo",
       createRequest: "Crea richiesta",
       dropYourRequest: "Droppa la tua richiesta",
       dropYourRequestHintCta: "Scopri come funziona HotelsDrop",
@@ -1297,9 +1297,11 @@ export const translations = {
     location: {
       cityPlaceholder: "Scrivi una città, es. Roma, Parigi, Bangkok...",
       addressPlaceholder: "Via e numero civico, es. Via Roma 15",
-      searching: "Ricerca città...",
+      searching: "Ricerca...",
       addressSearching: "Ricerca indirizzo...",
       manualEntryHint: "Continua a scrivere o inserisci la città manualmente.",
+      catalogStructures: "Strutture",
+      catalogCities: "Destinazioni",
       addressManualHint: "Continua a scrivere oppure usa il testo libero e poi «Posiziona da testo inserito».",
       addressHelp:
         "Cerca via e numero civico: al click su un suggerimento la mappa si posiziona automaticamente. Funziona in Italia e all'estero.",
@@ -1604,7 +1606,7 @@ export const translations = {
       heroTitle: "Don't search for hotels: publish where and when you want to travel.",
       heroSubtitle: "Properties send you offers. Free for travelers, subscription for properties.",
       selectCity: "Select city",
-      citySearchPlaceholder: "Where do you want to go?",
+      citySearchPlaceholder: "City or property in catalog",
       createRequest: "Create request",
       dropYourRequest: "Drop your request",
       dropYourRequestHintCta: "See how HotelsDrop works",
@@ -2596,9 +2598,11 @@ export const translations = {
     location: {
       cityPlaceholder: "Type a city, e.g. Rome, Paris, Bangkok...",
       addressPlaceholder: "Street and number, e.g. 66 Alie Street",
-      searching: "Searching cities...",
+      searching: "Searching...",
       addressSearching: "Searching address...",
       manualEntryHint: "Keep typing or enter the city manually.",
+      catalogStructures: "Properties",
+      catalogCities: "Destinations",
       addressManualHint: "Keep typing or use free text, then choose “Position from typed text”.",
       addressHelp:
         "Search for street and number: selecting a suggestion positions the map automatically. Works in Italy and abroad.",

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { ConsolePageHeader } from "@/components/console/ConsolePageHeader";
 import { OnboardingHotelEditor } from "@/components/console/OnboardingHotelEditor";
+import { OnboardingEnterButton } from "@/components/console/OnboardingEnterButton";
 import { getLinkedHotelAccountForOnboarding, getOnboardingHotelById } from "@/lib/admin/data";
 import { isServiceRoleConfigured } from "@/lib/utils/env";
 
@@ -36,6 +37,9 @@ export default async function ConsoleOnboardingEditPage({
         title={hotel.nome}
         description="Modifica dati catalogo, correggi telefono/email e gestisci lo stato di rivendica."
       />
+      <div className="mb-6">
+        <OnboardingEnterButton userId={linkedAccount?.user_id ?? hotel.claimed_by} onboardingId={hotel.id} />
+      </div>
       <OnboardingHotelEditor hotel={hotel} linkedAccount={linkedAccount} />
     </>
   );
