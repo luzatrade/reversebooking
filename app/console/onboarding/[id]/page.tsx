@@ -37,9 +37,11 @@ export default async function ConsoleOnboardingEditPage({
         title={hotel.nome}
         description="Modifica dati catalogo, correggi telefono/email e gestisci lo stato di rivendica."
       />
-      <div className="mb-6">
-        <OnboardingEnterButton userId={linkedAccount?.user_id ?? hotel.claimed_by} onboardingId={hotel.id} />
-      </div>
+      {linkedAccount?.user_id ?? hotel.claimed_by ? (
+        <div className="mb-6">
+          <OnboardingEnterButton userId={linkedAccount?.user_id ?? hotel.claimed_by} onboardingId={hotel.id} />
+        </div>
+      ) : null}
       <OnboardingHotelEditor hotel={hotel} linkedAccount={linkedAccount} />
     </>
   );

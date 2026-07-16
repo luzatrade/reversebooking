@@ -14,6 +14,7 @@ type Body = {
   phone?: string | null;
   website?: string | null;
   google_maps_url?: string | null;
+  main_photo_url?: string | null;
   status?: string;
   resetClaim?: boolean;
 };
@@ -71,6 +72,7 @@ export async function POST(request: Request) {
   if (body.email !== undefined) updates.email = cleanOptionalText(body.email);
   if (body.website !== undefined) updates.website = cleanOptionalText(body.website);
   if (body.google_maps_url !== undefined) updates.google_maps_url = cleanOptionalText(body.google_maps_url);
+  if (body.main_photo_url !== undefined) updates.main_photo_url = cleanOptionalText(body.main_photo_url);
 
   if (body.phone !== undefined) {
     const rawPhone = cleanOptionalText(body.phone);
@@ -111,6 +113,7 @@ export async function POST(request: Request) {
   }
   if (updates.email !== undefined) hotelSync.public_email = updates.email;
   if (updates.phone !== undefined) hotelSync.public_phone = updates.phone;
+  if (updates.main_photo_url !== undefined) hotelSync.main_photo_url = updates.main_photo_url;
 
   if (Object.keys(hotelSync).length > 0) {
     await admin.from("hotel_accounts").update(hotelSync).eq("onboarding_hotel_id", id);

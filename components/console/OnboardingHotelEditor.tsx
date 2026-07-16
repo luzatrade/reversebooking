@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { ChangeEvent, useState } from "react";
+import { ImagePlus, X } from "lucide-react";
 import { DeleteButton } from "@/components/console/DeleteButton";
 
 type OnboardingHotel = {
@@ -15,6 +16,7 @@ type OnboardingHotel = {
   phone: string | null;
   website: string | null;
   google_maps_url: string | null;
+  main_photo_url: string | null;
   status: string;
   claimed_by: string | null;
 };
@@ -51,10 +53,67 @@ export function OnboardingHotelEditor({
     status: hotel.status,
   });
   const [saving, setSaving] = useState(false);
+  const [uploadingPhoto, setUploadingPhoto] = useState(false);
+  const [mainPhotoUrl, setMainPhotoUrl] = useState(hotel.main_photo_url ?? "");
   const [resettingClaim, setResettingClaim] = useState(false);
   const [calling, setCalling] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
+
+  async function uploadMainPhoto(event: ChangeEvent<HTMLInputElement>) {
+    const file = event.target.files?.[0];
+    event.target.value = "";
+    if (!file) return;
+
+    setUploadingPhoto(true);
+    setError(null);
+    setSuccess(null);
+
+    try {
+      const payload = new FormData();
+      payload.append("id", hotel.id);
+      payload.append("file", file);
+
+      const res = await fetch("/api/admin/onboarding-hotel/photo", {
+        method: "POST",
+        body: payload,
+      });
+      const data = (await res.json()) as { error?: string; main_photo_url?: string };
+      if (!res.ok) throw new Error(data.error ?? "Caricamento foto non riuscito");
+
+      setMainPhotoUrl(data.main_photo_url ?? "");
+      setSuccess("Foto principale aggiornata.");
+      router.refresh();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Caricamento foto non riuscito");
+    } finally {
+      setUploadingPhoto(false);
+    }
+  }
+
+  async function removeMainPhoto() {
+    setUploadingPhoto(true);
+    setError(null);
+    setSuccess(null);
+
+    try {
+      const res = await fetch("/api/admin/onboarding-hotel", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id: hotel.id, main_photo_url: null }),
+      });
+      const data = (await res.json()) as { error?: string };
+      if (!res.ok) throw new Error(data.error ?? "Rimozione foto non riuscita");
+
+      setMainPhotoUrl("");
+      setSuccess("Foto principale rimossa.");
+      router.refresh();
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Rimozione foto non riuscita");
+    } finally {
+      setUploadingPhoto(false);
+    }
+  }
 
   async function save(event: React.FormEvent) {
     event.preventDefault();
@@ -161,8 +220,9 @@ export function OnboardingHotelEditor({
       <div className="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-4 text-sm text-amber-950 sm:px-5">
         <p className="font-semibold">Profilo catalogo (onboarding)</p>
         <p className="mt-2 leading-relaxed">
-          Qui correggi telefono, email e indirizzo quando la rivendica fallisce. Puoi anche inviare manualmente la
-          chiamata Twilio al numero indicato; il codice ricevuto va poi inserito dal partner nella dashboard struttura.
+          Qui correggi telefono, email, indirizzo e foto principale quando la rivendica fallisce o la struttura non è
+          ancora registrata. Puoi anche inviare manualmente la chiamata Twilio al numero indicato; il codice ricevuto va
+          poi inserito dal partner nella dashboard struttura.
         </p>
       </div>
 
@@ -179,6 +239,40 @@ export function OnboardingHotelEditor({
           </Link>
         </div>
       ) : null}
+
+      <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6">
+        <h2 className="text-sm font-semibold text-zinc-900">Foto principale</h2>
+        <p className="mt-1 text-sm text-zinc-600">Visibile in vetrina e nel profilo pubblico del catalogo.</p>
+        <div className="mt-4 grid gap-4 md:grid-cols-[240px_1fr]">
+          <div className="aspect-video overflow-hidden rounded-2xl bg-zinc-100">
+            {mainPhotoUrl ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={mainPhotoUrl} alt={hotel.nome} className="h-full w-full object-cover" />
+            ) : (
+              <div className="flex h-full items-center justify-center text-sm text-zinc-500">Nessuna foto</div>
+            )}
+          </div>
+          <div className="flex flex-col gap-3">
+            <label className="inline-flex w-fit cursor-pointer items-center gap-2 rounded-xl bg-[#0f4c81] px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-[#0d3f68]">
+              <ImagePlus className="h-4 w-4" />
+              {uploadingPhoto ? "Caricamento..." : "Carica foto"}
+              <input type="file" accept="image/*" className="hidden" onChange={(e) => void uploadMainPhoto(e)} disabled={uploadingPhoto} />
+            </label>
+            {mainPhotoUrl ? (
+              <button
+                type="button"
+                onClick={() => void removeMainPhoto()}
+                disabled={uploadingPhoto}
+                className="inline-flex w-fit items-center gap-2 rounded-xl border border-zinc-300 px-4 py-2.5 text-sm font-semibold text-zinc-700 transition hover:bg-zinc-50 disabled:opacity-50"
+              >
+                <X className="h-4 w-4" />
+                Rimuovi foto
+              </button>
+            ) : null}
+            <p className="text-xs text-zinc-500">JPG, PNG o WebP · max 5 MB</p>
+          </div>
+        </div>
+      </section>
 
       <form onSubmit={save} className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6">
         <div className="grid gap-5 md:grid-cols-2">
