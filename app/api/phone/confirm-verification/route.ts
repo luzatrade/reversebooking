@@ -5,6 +5,7 @@ import { completeOnboardingClaim } from "@/lib/hotel/onboarding-claim";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
 import { checkVoiceVerification } from "@/lib/twilio/verify";
 import { getClientIp, rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
+import { notifyAdminAlertSafe } from "@/lib/notifications/admin-alert";
 
 type Body = { code?: string };
 
@@ -66,6 +67,24 @@ export async function POST(request: Request) {
       .eq("user_id", auth.user.id);
 
     await completeOnboardingClaim(admin, hotel.onboarding_hotel_id, auth.user.id);
+
+    const [{ data: onboardingHotel }, { data: profileRow }] = await Promise.all([
+      admin.from("onboarding_hotels").select("nome, city_name").eq("id", hotel.onboarding_hotel_id).maybeSingle(),
+      admin.from("profiles").select("email").eq("user_id", auth.user.id).maybeSingle(),
+    ]);
+
+    notifyAdminAlertSafe({
+      subject: `[HotelsDrop] Rivendica completata · ${onboardingHotel?.nome ?? "Struttura"}`,
+      title: "Rivendica profilo catalogo completata",
+      lines: [
+        { label: "Struttura", value: onboardingHotel?.nome },
+        { label: "Città", value: onboardingHotel?.city_name },
+        { label: "Email partner", value: profileRow?.email },
+        { label: "Telefono verificato", value: phone },
+        { label: "Onboarding ID", value: hotel.onboarding_hotel_id },
+      ],
+      consolePath: `/console/onboarding/${hotel.onboarding_hotel_id}`,
+    });
 
     return NextResponse.json({ ok: true, verified: true });
   } catch (err) {

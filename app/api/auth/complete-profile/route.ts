@@ -17,6 +17,7 @@ import { normalizePhoneE164 } from "@/lib/phone/normalize";
 import { PRIVACY_VERSION, TERMS_VERSION } from "@/lib/legal/company";
 import { PENDING_CITY_ID } from "@/lib/constants/world-city-helpers";
 import { getClientIp, rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
+import { accountKindLabel, notifyAdminAlertSafe } from "@/lib/notifications/admin-alert";
 
 export async function POST(request: Request) {
   const clientIp = getClientIp(request);
@@ -266,6 +267,22 @@ export async function POST(request: Request) {
       user_agent: userAgent,
     });
   }
+
+  notifyAdminAlertSafe({
+    subject: `[HotelsDrop] Profilo attivato · ${accountKindLabel(role)}`,
+    title: "Profilo attivato dopo conferma email",
+    lines: [
+      { label: "Email", value: email },
+      { label: "Tipo account", value: accountKindLabel(role) },
+      { label: "User ID", value: user.id },
+      {
+        label: "Rivendica catalogo",
+        value: pendingOnboardingPrefill ? "Avviata (verifica telefono)" : onboardingHotelId ? "Sì" : "No",
+      },
+      { label: "Onboarding ID", value: onboardingHotelId },
+    ],
+    consolePath: onboardingHotelId ? `/console/onboarding/${onboardingHotelId}` : "/console/utenti",
+  });
 
   return NextResponse.json({ ok: true, role, onboardingApplied: pendingOnboardingPrefill });
 }

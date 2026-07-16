@@ -15,6 +15,7 @@ import { normalizePhoneE164 } from "@/lib/phone/normalize";
 import { PRIVACY_VERSION, TERMS_VERSION } from "@/lib/legal/company";
 import { PENDING_CITY_ID } from "@/lib/constants/world-city-helpers";
 import { getClientIp, rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
+import { accountKindLabel, notifyAdminAlertSafe } from "@/lib/notifications/admin-alert";
 
 type Body = {
   email?: string;
@@ -119,6 +120,19 @@ export async function POST(request: Request) {
     user = resendRegistration.user;
     session = resendRegistration.session;
 
+    notifyAdminAlertSafe({
+      subject: `[HotelsDrop] Nuova registrazione · ${accountKindLabel(role)}`,
+      title: "Nuova registrazione avviata",
+      lines: [
+        { label: "Email", value: email },
+        { label: "Tipo account", value: accountKindLabel(role) },
+        { label: "Conferma email", value: "In attesa" },
+        { label: "Rivendica catalogo", value: onboardingId ? "Sì" : "No" },
+        { label: "Onboarding ID", value: onboardingId },
+      ],
+      consolePath: "/console/utenti",
+    });
+
     return NextResponse.json({
       ok: true,
       role,
@@ -150,6 +164,19 @@ export async function POST(request: Request) {
   }
 
   if (!session) {
+    notifyAdminAlertSafe({
+      subject: `[HotelsDrop] Nuova registrazione · ${accountKindLabel(role)}`,
+      title: "Nuova registrazione avviata",
+      lines: [
+        { label: "Email", value: email },
+        { label: "Tipo account", value: accountKindLabel(role) },
+        { label: "Conferma email", value: "In attesa" },
+        { label: "Rivendica catalogo", value: onboardingId ? "Sì" : "No" },
+        { label: "Onboarding ID", value: onboardingId },
+      ],
+      consolePath: "/console/utenti",
+    });
+
     return NextResponse.json({
       ok: true,
       role,
@@ -172,6 +199,19 @@ export async function POST(request: Request) {
       { status: 500 },
     );
   }
+
+  notifyAdminAlertSafe({
+    subject: `[HotelsDrop] Account attivato · ${accountKindLabel(role)}`,
+    title: "Nuovo account attivato",
+    lines: [
+      { label: "Email", value: email },
+      { label: "Tipo account", value: accountKindLabel(role) },
+      { label: "User ID", value: user.id },
+      { label: "Rivendica catalogo", value: onboardingId ? "Avviata (verifica telefono)" : "No" },
+      { label: "Onboarding ID", value: onboardingId },
+    ],
+    consolePath: onboardingId ? `/console/onboarding/${onboardingId}` : "/console/utenti",
+  });
 
   return NextResponse.json({
     ok: true,

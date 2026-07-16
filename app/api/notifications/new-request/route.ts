@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { requireApiUser } from "@/lib/auth/api";
 import { createServiceRoleClient } from "@/lib/supabase/admin";
 import { escapeHtml, sendEmailNotification } from "@/lib/notifications/email";
+import { notifyAdminAlertSafe } from "@/lib/notifications/admin-alert";
 import { rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
 
 type Body = { requestId?: string };
@@ -139,6 +140,25 @@ export async function POST(request: Request) {
     }
 
     const results = await Promise.all(emailJobs);
+
+    notifyAdminAlertSafe({
+      subject: `[HotelsDrop] Nuovo annuncio · ${travelRequest.city_name}`,
+      title: "Nuovo annuncio viaggio pubblicato",
+      lines: [
+        { label: "Codice", value: requestCode },
+        { label: "Città", value: travelRequest.city_name },
+        { label: "Zona", value: travelRequest.preferred_area },
+        { label: "Check-in", value: travelRequest.check_in },
+        { label: "Check-out", value: travelRequest.check_out },
+        { label: "Ospiti", value: String(travelRequest.guests_count) },
+        { label: "Camere", value: String(travelRequest.rooms_count) },
+        { label: "Budget", value: travelRequest.budget != null ? `${travelRequest.budget} €` : null },
+        { label: "Richiesta diretta", value: targetHotel?.property_name ?? "No (broadcast città)" },
+        { label: "Strutture notificate", value: String(notificationRows.length) },
+      ],
+      consolePath: `/console/annunci?q=${encodeURIComponent(requestCode)}`,
+    });
+
     return NextResponse.json({
       ok: true,
       notified: notificationRows.length,

@@ -3,6 +3,7 @@ import { requireApiUser } from "@/lib/auth/api";
 import { createServiceRoleClient } from "@/lib/supabase/admin";
 import { company } from "@/lib/legal/company";
 import { escapeHtml, sendEmailNotification } from "@/lib/notifications/email";
+import { notifyAdminAlertSafe } from "@/lib/notifications/admin-alert";
 import { rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
 
 type Body = { offerId?: string };
@@ -44,6 +45,21 @@ export async function POST(request: Request) {
       to: advertiser?.contact_email,
       subject: `Nuova offerta ${offerCodeValue} · richiesta ${requestCode}`,
       html,
+    });
+
+    notifyAdminAlertSafe({
+      subject: `[HotelsDrop] Nuova offerta · ${offerCodeValue}`,
+      title: "Nuova offerta inviata",
+      lines: [
+        { label: "Codice offerta", value: offerCodeValue },
+        { label: "Codice richiesta", value: requestCode },
+        { label: "Struttura", value: hotelName },
+        { label: "Destinazione", value: city },
+        { label: "Zona", value: travelRequest?.preferred_area },
+        { label: "Importo", value: `${offer.total_price} €` },
+        { label: "Inserzionista", value: advertiser?.contact_email },
+      ],
+      consolePath: `/console/offerte?q=${encodeURIComponent(offerCodeValue)}`,
     });
 
     return NextResponse.json({ ok: true, result });

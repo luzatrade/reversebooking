@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { requireApiUser } from "@/lib/auth/api";
 import { createServiceRoleClient } from "@/lib/supabase/admin";
 import { escapeHtml, sendEmailNotification } from "@/lib/notifications/email";
+import { notifyAdminAlertSafe } from "@/lib/notifications/admin-alert";
 import { rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
 
 type Body = { offerId?: string; status?: "accepted" | "rejected" };
@@ -47,6 +48,21 @@ export async function POST(request: Request) {
       sendEmailNotification({ to: hotel?.private_notification_email ?? hotel?.public_email, subject: `${title} · ${requestCode}`, html: htmlHotel }),
       sendEmailNotification({ to: advertiser?.contact_email, subject: `Hai ${isAccepted ? "accettato" : "rifiutato"} un’offerta · ${requestCode}`, html: htmlAdvertiser }),
     ]);
+
+    notifyAdminAlertSafe({
+      subject: `[HotelsDrop] ${title} · ${requestCode}`,
+      title,
+      lines: [
+        { label: "Codice richiesta", value: requestCode },
+        { label: "Struttura", value: hotelName },
+        { label: "Destinazione", value: city },
+        { label: "Zona", value: travelRequest?.preferred_area },
+        { label: "Importo", value: `${offer.total_price} €` },
+        { label: "Inserzionista", value: advertiser?.contact_email },
+      ],
+      consolePath: `/console/offerte?q=${encodeURIComponent(requestCode)}`,
+    });
+
     return NextResponse.json({ ok: true, results });
   } catch (err) { return NextResponse.json({ error: err instanceof Error ? err.message : "Errore notifica stato offerta" }, { status: 500 }); }
 }
