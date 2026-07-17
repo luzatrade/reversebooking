@@ -13,6 +13,11 @@ import { fileURLToPath } from "url";
 import dotenv from "dotenv";
 import sharp from "sharp";
 import { fetchEmailFromWebsite } from "./lib/onboarding-email.mjs";
+import {
+  buildStructureSlugBase,
+  isOnboardingSeoIndexable,
+  resolveUniqueSlug,
+} from "./lib/seo-slug.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: resolve(__dirname, "../.env.local"), override: true });
@@ -328,6 +333,27 @@ async function importManual(input) {
   };
 }
 
+async function assignOnboardingSeoFields(record) {
+  const { data: slugRows } = await sb.from("onboarding_hotels").select("slug").not("slug", "is", null);
+  const { data: hotelSlugRows } = await sb.from("hotel_accounts").select("slug").not("slug", "is", null);
+  const used = new Set([
+    ...(slugRows ?? []).map((row) => row.slug).filter(Boolean),
+    ...(hotelSlugRows ?? []).map((row) => row.slug).filter(Boolean),
+  ]);
+
+  const base = buildStructureSlugBase(record.nome, record.city_name);
+  const slug = resolveUniqueSlug(base, used, record.slug ?? null);
+  const seo_indexable = isOnboardingSeoIndexable(record);
+
+  const { error } = await sb
+    .from("onboarding_hotels")
+    .update({ slug, seo_indexable })
+    .eq("id", record.id);
+  if (error) throw error;
+
+  return { ...record, slug, seo_indexable };
+}
+
 async function main() {
   const input = parseArgs();
   if (!input.name || !input.city) {
@@ -351,7 +377,7 @@ async function main() {
   const { data: upserted, error } = await sb
     .from("onboarding_hotels")
     .upsert(row, { onConflict: "place_id" })
-    .select("id, nome, city_name, email, phone, website, main_photo_url, google_maps_url")
+    .select("id, nome, city_name, indirizzo, email, phone, website, main_photo_url, google_maps_url, status")
     .single();
 
   if (error) throw error;
@@ -360,7 +386,7 @@ async function main() {
   if (input.placeholderPhoto) {
     const { data: fullRow } = await sb
       .from("onboarding_hotels")
-      .select("id, nome, city_name, city_istat, main_photo_url")
+      .select("id, nome, city_name, city_istat, indirizzo, main_photo_url, status")
       .eq("id", upserted.id)
       .single();
     if (fullRow) {
@@ -368,7 +394,7 @@ async function main() {
       if (photo.updated) {
         const { data: withPhoto } = await sb
           .from("onboarding_hotels")
-          .select("id, nome, city_name, email, phone, website, main_photo_url, google_maps_url")
+          .select("id, nome, city_name, indirizzo, email, phone, website, main_photo_url, google_maps_url, status")
           .eq("id", upserted.id)
           .single();
         if (withPhoto) finalRow = withPhoto;
@@ -377,9 +403,14 @@ async function main() {
     }
   }
 
+  finalRow = await assignOnboardingSeoFields(finalRow);
+
   console.log("\nInserito/aggiornato in onboarding_hotels:");
   console.log(JSON.stringify(finalRow, null, 2));
   console.log(`\nProfilo: https://www.hotelsdrop.com/hotel/onboarding/${finalRow.id}`);
+  if (finalRow.slug) {
+    console.log(`SEO slug (Step 2): https://www.hotelsdrop.com/hotel/${finalRow.slug}`);
+  }
 }
 
 main().catch((err) => {

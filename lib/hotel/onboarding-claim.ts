@@ -17,10 +17,12 @@ export type OnboardingHotelRow = {
   google_maps_url: string | null;
   status: string;
   claimed_by: string | null;
+  slug?: string | null;
+  seo_indexable?: boolean | null;
 };
 
 const ONBOARDING_SELECT =
-  "id, nome, city_name, indirizzo, email, phone, main_photo_url, gallery_photo_urls, website, google_maps_url, status, claimed_by";
+  "id, nome, city_name, indirizzo, email, phone, main_photo_url, gallery_photo_urls, website, google_maps_url, status, claimed_by, slug, seo_indexable";
 
 const PLACEHOLDER_PROPERTY_NAMES = new Set([
   "",
@@ -97,6 +99,8 @@ export function buildHotelFromOnboarding(
     main_photo_url: onboarding.main_photo_url,
     gallery_photo_urls: onboarding.gallery_photo_urls ?? [],
     google_maps_url: onboarding.google_maps_url,
+    slug: onboarding.slug ?? null,
+    seo_indexable: onboarding.seo_indexable ?? false,
     subscription_status: "active",
     subscription_active: true,
     account_status: "pending_verification",

@@ -1,0 +1,104 @@
+import Link from "next/link";
+import { ArrowLeft, Building2, MapPin } from "lucide-react";
+import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
+import { buildDestinationIntro } from "@/lib/seo/destination-metadata";
+import type { DestinationHub, DestinationStructureItem } from "@/lib/seo/destination-queries";
+import { structurePublicPath } from "@/lib/seo/slug";
+
+type Props = {
+  hub: DestinationHub;
+  items: DestinationStructureItem[];
+  page: number;
+  totalPages: number;
+};
+
+export async function DestinationHubPage({ hub, items, page, totalPages }: Props) {
+  const t = await getServerTranslations();
+  const locale = await getServerLocale();
+  const intro = buildDestinationIntro(hub, locale);
+  const pageTitle =
+    locale === "en"
+      ? `Hotels and properties in ${hub.displayName}`
+      : `Hotel e strutture a ${hub.displayName}`;
+
+  return (
+    <div className="space-y-6">
+      <Link
+        href="/"
+        className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white"
+      >
+        <ArrowLeft className="h-4 w-4" /> {t.hotel.backToShowcase}
+      </Link>
+
+      <header className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900 sm:p-8">
+        <p className="text-xs font-medium uppercase tracking-wide text-[#0f4c81] sm:text-sm">
+          {locale === "en" ? "Destination" : "Destinazione"}
+        </p>
+        <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">{pageTitle}</h1>
+        <p className="mt-4 max-w-3xl text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{intro}</p>
+        <p className="mt-3 text-sm text-zinc-500">
+          {locale === "en"
+            ? `${hub.structureCount} indexed properties`
+            : `${hub.structureCount} strutture nel catalogo`}
+        </p>
+      </header>
+
+      <section aria-label={pageTitle}>
+        <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {items.map((item) => (
+            <li key={item.slug}>
+              <Link
+                href={structurePublicPath(item.slug)}
+                className="flex h-full flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white transition hover:border-[#0f4c81]/30 hover:shadow-sm dark:border-zinc-800 dark:bg-zinc-900"
+              >
+                {item.mainPhotoUrl ? (
+                  <img src={item.mainPhotoUrl} alt={item.name} className="h-36 w-full object-cover" />
+                ) : (
+                  <div className="flex h-36 items-center justify-center bg-zinc-100 text-zinc-400 dark:bg-zinc-950">
+                    <Building2 className="h-8 w-8" />
+                  </div>
+                )}
+                <div className="flex flex-1 flex-col p-4">
+                  <p className="font-semibold text-zinc-950 dark:text-white">{item.name}</p>
+                  {item.address ? (
+                    <p className="mt-1 line-clamp-2 text-sm text-zinc-500">
+                      <MapPin className="mr-1 inline h-3.5 w-3.5" />
+                      {item.address}
+                    </p>
+                  ) : null}
+                  <span className="mt-4 text-sm font-semibold text-[#0f4c81]">
+                    {locale === "en" ? "View property" : "Vedi struttura"}
+                  </span>
+                </div>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {totalPages > 1 ? (
+        <nav className="flex flex-wrap items-center justify-center gap-2" aria-label="Pagination">
+          {Array.from({ length: totalPages }, (_, index) => {
+            const pageNumber = index + 1;
+            const href = pageNumber === 1 ? `/destinazioni/${hub.slug}` : `/destinazioni/${hub.slug}?page=${pageNumber}`;
+            const isCurrent = pageNumber === page;
+            return (
+              <Link
+                key={pageNumber}
+                href={href}
+                aria-current={isCurrent ? "page" : undefined}
+                className={
+                  isCurrent
+                    ? "inline-flex min-w-10 items-center justify-center rounded-full bg-[#0f4c81] px-3 py-2 text-sm font-semibold text-white"
+                    : "inline-flex min-w-10 items-center justify-center rounded-full border border-zinc-200 px-3 py-2 text-sm font-semibold text-zinc-700 hover:bg-zinc-50 dark:border-zinc-700 dark:text-zinc-200"
+                }
+              >
+                {pageNumber}
+              </Link>
+            );
+          })}
+        </nav>
+      ) : null}
+    </div>
+  );
+}

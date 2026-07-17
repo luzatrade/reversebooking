@@ -16,7 +16,7 @@ export function buildExploreMapHomeHref(
 }
 
 export function structureProfileHrefFromExploreMap(
-  hotel: Pick<StructureExploreHotel, "id" | "isOnboarding" | "city_id" | "city_name" | "country_code">,
+  hotel: Pick<StructureExploreHotel, "id" | "isOnboarding" | "slug" | "city_id" | "city_name" | "country_code">,
 ) {
   const params = new URLSearchParams({ from: EXPLORE_MAP_FROM });
   if (hotel.city_id) params.set("city_id", hotel.city_id);

@@ -24,6 +24,7 @@ export type StructureExploreHotel = {
   latitude?: number | null;
   longitude?: number | null;
   isOnboarding?: boolean;
+  slug?: string | null;
 };
 
 const ctaMaps =

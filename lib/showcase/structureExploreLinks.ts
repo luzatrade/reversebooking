@@ -1,6 +1,8 @@
 import type { StructureExploreHotel } from "@/components/showcase/StructureExploreCard";
+import { structurePublicPath } from "@/lib/seo/slug";
 
-export function structureProfileHref(hotel: Pick<StructureExploreHotel, "id" | "isOnboarding">) {
+export function structureProfileHref(hotel: Pick<StructureExploreHotel, "id" | "isOnboarding" | "slug">) {
+  if (hotel.slug) return structurePublicPath(hotel.slug);
   return hotel.isOnboarding ? `/hotel/onboarding/${hotel.id}` : `/hotel/${hotel.id}`;
 }
 

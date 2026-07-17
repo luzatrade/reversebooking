@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { HomeAdvertiserAlerts } from "@/components/showcase/HomeAdvertiserAlerts";
 import { HomeHotelAlerts } from "@/components/showcase/HomeHotelAlerts";
 import { PublicShowcaseClient } from "@/components/showcase/PublicShowcaseClient";
+import { PopularDestinationsBlock } from "@/components/seo/PopularDestinationsBlock";
 import { canonicalUrl } from "@/lib/seo/canonical";
 
 export const metadata: Metadata = {
@@ -19,6 +20,7 @@ export default function HomePage() {
       <Suspense fallback={null}>
         <PublicShowcaseClient />
       </Suspense>
+      <PopularDestinationsBlock />
     </div>
   );
 }

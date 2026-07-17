@@ -31,6 +31,7 @@ import { cn } from "@/lib/utils";
 import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
 import { mealPlanLabels, type MealPlan, type StructureType, type UserRole } from "@/types/app";
 import type { CatalogOfferListItem } from "@/types/catalog-offers";
+import { structureProfileHref } from "@/lib/showcase/structureExploreLinks";
 
 function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date()) {
   const until = new Date(acceptedAtIso).getTime() + 24 * 60 * 60 * 1000;
@@ -40,8 +41,8 @@ function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date(
 type PreferenceFilters = { connecting_rooms?: boolean; disabled_access?: boolean; pool?: boolean; spa?: boolean; bathtub?: boolean; garage?: boolean; beach?: boolean; pets_allowed?: boolean };
 type AdvertiserPublic = { first_name: string | null; last_name: string | null; advertiser_type?: string | null };
 type TravelRequest = { id: string; country_code: string | null; city_name: string; city_id: string | null; preferred_area: string; check_in: string; check_out: string; guests_count: number; rooms_count: number; budget: number; meal_plan: MealPlan; preference_filters: PreferenceFilters | null; notes: string | null; expires_at: string; created_at: string; status: string; advertiser_profiles?: AdvertiserPublic | AdvertiserPublic[] | null };
-type OnboardingHotelRow = { id: string; nome: string; city_name: string; indirizzo: string | null; email: string | null; phone: string | null; main_photo_url: string | null; website: string | null; google_maps_url: string | null };
-type HotelAccount = { id: string; property_name: string; structure_type: StructureType; provider_kind: "structure" | "agency"; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; public_email: string | null; public_phone: string | null; website: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null; latitude?: number | null; longitude?: number | null; isOnboarding?: boolean; google_maps_url?: string | null };
+type OnboardingHotelRow = { id: string; slug: string | null; nome: string; city_name: string; indirizzo: string | null; email: string | null; phone: string | null; main_photo_url: string | null; website: string | null; google_maps_url: string | null };
+type HotelAccount = { id: string; slug?: string | null; property_name: string; structure_type: StructureType; provider_kind: "structure" | "agency"; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; public_email: string | null; public_phone: string | null; website: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null; latitude?: number | null; longitude?: number | null; isOnboarding?: boolean; google_maps_url?: string | null };
 type Offer = { id: string; travel_request_id: string };
 type Viewer = {
   userId: string | null;
@@ -132,6 +133,7 @@ function mapOnboardingRow(row: OnboardingHotelRow): HotelAccount {
   const { country_code, city_id } = onboardingCityMeta(row.city_name);
   return {
     id: row.id,
+    slug: row.slug,
     property_name: row.nome,
     structure_type: "hotel",
     provider_kind: "structure",
@@ -420,8 +422,8 @@ export function PublicShowcaseClient() {
       try {
         const supabase = createBrowserSupabaseClient();
         const hotelSelect =
-          "id, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, points_of_interest, services, latitude, longitude";
-        const onboardingSelect = "id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url";
+          "id, slug, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, points_of_interest, services, latitude, longitude";
+        const onboardingSelect = "id, slug, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url";
 
         let registeredQuery = supabase
           .from("hotel_accounts")
@@ -642,9 +644,9 @@ export function PublicShowcaseClient() {
           <div className="flex flex-wrap items-center gap-2">
             <a href={mapsHref(hotel)} target="_blank" rel="noreferrer" className={ctaMaps}><MapPin className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardMap}</a>
             {hotel.isOnboarding ? (
-              <Link href={`/hotel/onboarding/${hotel.id}`} className={ctaProfile}>{t.showcase.cardProfile}</Link>
+              <Link href={structureProfileHref({ id: hotel.id, isOnboarding: true, slug: hotel.slug ?? null })} className={ctaProfile}>{t.showcase.cardProfile}</Link>
             ) : (
-              <Link href={`/hotel/${hotel.id}`} className={ctaProfile}>{t.showcase.cardProfile}</Link>
+              <Link href={structureProfileHref({ id: hotel.id, isOnboarding: false, slug: hotel.slug ?? null })} className={ctaProfile}>{t.showcase.cardProfile}</Link>
             )}
             {viewer.role !== "hotel" ? (
               <Link href={createRequestHrefForHotel(hotel)} className={ctaRequest}><Euro className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardRequest}</Link>
@@ -673,7 +675,7 @@ export function PublicShowcaseClient() {
           <div className="mt-4 flex-1" />
           <div className="flex flex-wrap items-center gap-2">
             <a href={mapsHref(agency)} target="_blank" rel="noreferrer" className={ctaMaps}><MapPin className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardMap}</a>
-            <Link href={`/hotel/${agency.id}`} className={ctaProfile}>{t.showcase.cardProfile}</Link>
+            <Link href={structureProfileHref({ id: agency.id, isOnboarding: false, slug: agency.slug ?? null })} className={ctaProfile}>{t.showcase.cardProfile}</Link>
           </div>
         </div>
       </article>
