@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { ArrowLeft, Building2, MapPin } from "lucide-react";
+import { CityHeroPlaceholder } from "@/components/seo/CityHeroPlaceholder";
 import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
 import { buildDestinationIntro } from "@/lib/seo/destination-metadata";
+import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import type { DestinationHub, DestinationStructureItem } from "@/lib/seo/destination-queries";
 import { structurePublicPath } from "@/lib/seo/slug";
 
@@ -16,6 +18,7 @@ export async function DestinationHubPage({ hub, items, page, totalPages }: Props
   const t = await getServerTranslations();
   const locale = await getServerLocale();
   const intro = buildDestinationIntro(hub, locale);
+  const heroUrl = getDestinationCityPhoto(hub);
   const pageTitle =
     locale === "en"
       ? `Hotels and properties in ${hub.displayName}`
@@ -30,17 +33,28 @@ export async function DestinationHubPage({ hub, items, page, totalPages }: Props
         <ArrowLeft className="h-4 w-4" /> {t.hotel.backToShowcase}
       </Link>
 
-      <header className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900 sm:p-8">
-        <p className="text-xs font-medium uppercase tracking-wide text-[#0f4c81] sm:text-sm">
-          {locale === "en" ? "Destination" : "Destinazione"}
-        </p>
-        <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">{pageTitle}</h1>
-        <p className="mt-4 max-w-3xl text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{intro}</p>
-        <p className="mt-3 text-sm text-zinc-500">
-          {locale === "en"
-            ? `${hub.structureCount} indexed properties`
-            : `${hub.structureCount} strutture nel catalogo`}
-        </p>
+      <header className="overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
+        {heroUrl ? (
+          <img
+            src={heroUrl}
+            alt={hub.displayName}
+            className="h-44 w-full object-cover sm:h-52 md:h-60"
+          />
+        ) : (
+          <CityHeroPlaceholder cityName={hub.displayName} className="h-44 sm:h-52 md:h-60" />
+        )}
+        <div className="p-6 sm:p-8">
+          <p className="text-xs font-medium uppercase tracking-wide text-[#0f4c81] sm:text-sm">
+            {locale === "en" ? "Destination" : "Destinazione"}
+          </p>
+          <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">{pageTitle}</h1>
+          <p className="mt-4 max-w-3xl text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{intro}</p>
+          <p className="mt-3 text-sm text-zinc-500">
+            {locale === "en"
+              ? `${hub.structureCount} indexed properties`
+              : `${hub.structureCount} strutture nel catalogo`}
+          </p>
+        </div>
       </header>
 
       <section aria-label={pageTitle}>
