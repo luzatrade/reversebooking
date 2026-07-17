@@ -81,10 +81,10 @@ export const cityGalleries = [
     descriptionEn:
       "Volcanic and authentic: the bay, Vesuvius, historic quarters and pizza born right here, between sea and tradition.",
     pois: [
-      { id: "gulf-vesuvius", titleIt: "Golfo e Vesuvio", titleEn: "Bay & Vesuvius", query: "Naples Vesuvius gulf panorama", queryAlt: "Naples bay view harbour", captionIt: "Panorama iconico", captionEn: "Iconic view" },
-      { id: "lungomare", titleIt: "Lungomare", titleEn: "Seafront", query: "Castel dell'Ovo Naples", captionIt: "Castel dell'Ovo", captionEn: "Castel dell'Ovo" },
       { id: "spaccanapoli", titleIt: "Spaccanapoli", titleEn: "Spaccanapoli", query: "Spaccanapoli Naples street", captionIt: "Il centro storico", captionEn: "The old town" },
+      { id: "lungomare", titleIt: "Lungomare", titleEn: "Seafront", query: "Castel dell'Ovo Naples", captionIt: "Castel dell'Ovo", captionEn: "Castel dell'Ovo" },
       { id: "plebiscito", titleIt: "Piazza del Plebiscito", titleEn: "Piazza del Plebiscito", query: "Piazza del Plebiscito Naples", captionIt: "La grande piazza", captionEn: "The grand square" },
+      { id: "gulf-vesuvius", titleIt: "Golfo e Vesuvio", titleEn: "Bay & Vesuvius", query: "Naples Vesuvius gulf panorama", queryAlt: "Naples bay view harbour", captionIt: "Panorama iconico", captionEn: "Iconic view" },
       { id: "maschio-angioino", titleIt: "Maschio Angioino", titleEn: "Castel Nuovo", query: "Castel Nuovo Naples", captionIt: "Il castello angioino", captionEn: "The Angevin castle" },
       { id: "galleria-umberto", titleIt: "Galleria Umberto I", titleEn: "Galleria Umberto I", query: "Galleria Umberto I Naples interior", captionIt: "Galleria monumentale", captionEn: "Monumental gallery" },
       { id: "pizza", titleIt: "Pizza napoletana", titleEn: "Neapolitan pizza", query: "Neapolitan pizza margherita", captionIt: "Forno a legna", captionEn: "Wood-fired oven" },
@@ -613,6 +613,176 @@ export const cityGalleries = [
       { id: "longtail", titleIt: "Barche longtail", titleEn: "Longtail boats", query: "Phuket longtail boat", queryAlt: "Thailand longtail boat beach", captionIt: "Le barche tradizionali", captionEn: "Traditional boats" },
       { id: "viewpoint", titleIt: "Punto panoramico", titleEn: "Viewpoint", query: "Karon viewpoint Phuket three beaches", captionIt: "Le tre spiagge", captionEn: "The three beaches" },
       { id: "island-hopping", titleIt: "Isole tropicali", titleEn: "Tropical islands", query: "Phuket tropical island turquoise sea", captionIt: "Mare cristallino", captionEn: "Crystal-clear sea" },
+    ],
+  },
+  {
+    cityId: "IT-TRN",
+    cityNameEn: "Turin",
+    countryCode: "IT",
+    descriptionIt:
+      "Eleganza sabauda tra piazze barocche, portici e la Mole Antonelliana, con le Alpi sullo sfondo.",
+    descriptionEn:
+      "Savoy elegance among baroque squares, arcades and the Mole Antonelliana, with the Alps in the background.",
+    pois: [
+      { id: "mole-antonelliana", titleIt: "Mole Antonelliana", titleEn: "Mole Antonelliana", query: "Mole Antonelliana Turin", captionIt: "Simbolo della città", captionEn: "City symbol" },
+      { id: "piazza-castello", titleIt: "Piazza Castello", titleEn: "Piazza Castello", query: "Piazza Castello Turin", captionIt: "Cuore reale", captionEn: "Royal heart" },
+      { id: "palazzo-reale", titleIt: "Palazzo Reale", titleEn: "Royal Palace", query: "Royal Palace Turin Piazza Castello", captionIt: "Residenza sabauda", captionEn: "Savoy residence" },
+      { id: "porta-palatina", titleIt: "Porta Palatina", titleEn: "Porta Palatina", query: "Porta Palatina Turin", captionIt: "Resti romani", captionEn: "Roman remains" },
+      { id: "via-roma", titleIt: "Via Roma", titleEn: "Via Roma", query: "Via Roma Turin arcades", captionIt: "Portici eleganti", captionEn: "Elegant arcades" },
+      { id: "superga", titleIt: "Basilica di Superga", titleEn: "Basilica of Superga", query: "Basilica Superga Turin view", captionIt: "Vista sulle colline", captionEn: "Hilltop view" },
+      { id: "po-river", titleIt: "Fiume Po", titleEn: "River Po", query: "Po river Turin Valentino", captionIt: "Lungofiume", captionEn: "Riverfront" },
+      { id: "skyline", titleIt: "Torino dall'alto", titleEn: "Turin skyline", query: "Turin skyline Alps", captionIt: "Panorama con le Alpi", captionEn: "Panorama with Alps" },
+    ],
+  },
+  {
+    cityId: "IT-BLQ",
+    cityNameEn: "Bologna",
+    countryCode: "IT",
+    descriptionIt:
+      "La dotta, la grassa e la rossa: portici infiniti, Due Torri e una tradizione gastronomica leggendaria.",
+    descriptionEn:
+      "The learned, the fat and the red: endless porticoes, Two Towers and a legendary food tradition.",
+    pois: [
+      { id: "due-torri", titleIt: "Due Torri", titleEn: "Two Towers", query: "Two Towers Bologna Asinelli", captionIt: "Le torri medievali", captionEn: "Medieval towers" },
+      { id: "piazza-maggiore", titleIt: "Piazza Maggiore", titleEn: "Piazza Maggiore", query: "Piazza Maggiore Bologna", captionIt: "Il salotto della città", captionEn: "The city living room" },
+      { id: "san-petronio", titleIt: "Basilica di San Petronio", titleEn: "San Petronio Basilica", query: "San Petronio Bologna facade", captionIt: "Facciata monumentale", captionEn: "Monumental facade" },
+      { id: "porticoes", titleIt: "Portici", titleEn: "Porticoes", query: "Bologna porticoes street", captionIt: "Patrimonio UNESCO", captionEn: "UNESCO heritage" },
+      { id: "netto-ipogeo", titleIt: "Canale di Reno", titleEn: "Canal", query: "Finestrella Bologna canal", captionIt: "La Venezia segreta", captionEn: "Little Venice" },
+      { id: "arcades-food", titleIt: "Quadrilatero", titleEn: "Food quarter", query: "Quadrilatero Bologna market", captionIt: "Mercato gastronomico", captionEn: "Food market" },
+      { id: "skyline", titleIt: "Bologna dall'alto", titleEn: "Bologna skyline", query: "Bologna cityscape towers", captionIt: "Panorama rosso", captionEn: "Red city panorama" },
+    ],
+  },
+  {
+    cityId: "IT-VRN",
+    cityNameEn: "Verona",
+    countryCode: "IT",
+    descriptionIt:
+      "Città dell'amore e dell'Arena: un anfiteatro romano, un fiume Adige e un centro storico patrimonio UNESCO.",
+    descriptionEn:
+      "City of love and the Arena: a Roman amphitheatre, the Adige river and a UNESCO old town.",
+    pois: [
+      { id: "arena", titleIt: "Arena di Verona", titleEn: "Verona Arena", query: "Verona Arena amphitheatre", captionIt: "Anfiteatro romano", captionEn: "Roman amphitheatre" },
+      { id: "juliet-balcony", titleIt: "Casa di Giulietta", titleEn: "Juliet's House", query: "Juliet balcony Verona", captionIt: "Balcone di Giulietta", captionEn: "Juliet's balcony" },
+      { id: "piazza-erbe", titleIt: "Piazza delle Erbe", titleEn: "Piazza delle Erbe", query: "Piazza delle Erbe Verona", captionIt: "Piazza storica", captionEn: "Historic square" },
+      { id: "castelvecchio", titleIt: "Castelvecchio", titleEn: "Castelvecchio", query: "Castelvecchio Verona bridge", captionIt: "Castello sul fiume", captionEn: "Castle on the river" },
+      { id: "ponte-pietra", titleIt: "Ponte Pietra", titleEn: "Ponte Pietra", query: "Ponte Pietra Verona", captionIt: "Ponte romano", captionEn: "Roman bridge" },
+      { id: "adige", titleIt: "Fiume Adige", titleEn: "Adige river", query: "Adige river Verona", captionIt: "Lungoadige", captionEn: "Riverfront" },
+      { id: "skyline", titleIt: "Verona dall'alto", titleEn: "Verona skyline", query: "Verona cityscape", captionIt: "Panorama della città", captionEn: "City panorama" },
+    ],
+  },
+  {
+    cityId: "IT-BGY",
+    cityNameEn: "Bergamo",
+    countryCode: "IT",
+    descriptionIt:
+      "Due città in una: Città Alta medievale sulle mura venete e Città Bassa vivace ai piedi delle colline.",
+    descriptionEn:
+      "Two cities in one: the medieval Upper Town on Venetian walls and the lively Lower Town at the foot of the hills.",
+    pois: [
+      { id: "citta-alta", titleIt: "Città Alta", titleEn: "Upper Town", query: "Bergamo Alta Piazza Vecchia", captionIt: "Piazza Vecchia", captionEn: "Piazza Vecchia" },
+      { id: "venetian-walls", titleIt: "Mura venete", titleEn: "Venetian walls", query: "Bergamo Venetian walls", captionIt: "Patrimonio UNESCO", captionEn: "UNESCO heritage" },
+      { id: "colleoni", titleIt: "Cappella Colleoni", titleEn: "Colleoni Chapel", query: "Colleoni Chapel Bergamo", captionIt: "Capolavoro rinascimentale", captionEn: "Renaissance masterpiece" },
+      { id: "funicular", titleIt: "Funicolare", titleEn: "Funicular", query: "Bergamo funicular Citta Alta", captionIt: "Salita alla Città Alta", captionEn: "Up to the Upper Town" },
+      { id: "skyline", titleIt: "Bergamo dall'alto", titleEn: "Bergamo skyline", query: "Bergamo cityscape hills", captionIt: "Panorama collinare", captionEn: "Hill panorama" },
+    ],
+  },
+  {
+    cityId: "IT-RMI",
+    cityNameEn: "Rimini",
+    countryCode: "IT",
+    descriptionIt:
+      "La Riviera romagnola: mare Adriatico, spiaggia, Tiberio e un lungomare vivace tutto l'anno.",
+    descriptionEn:
+      "The Romagna Riviera: Adriatic sea, beach, Tiberius and a lively seafront all year round.",
+    pois: [
+      { id: "ponte-tiberio", titleIt: "Ponte di Tiberio", titleEn: "Bridge of Tiberius", query: "Bridge of Tiberius Rimini", captionIt: "Monumento romano", captionEn: "Roman monument" },
+      { id: "arc-augustus", titleIt: "Arco d'Augusto", titleEn: "Arch of Augustus", query: "Arch of Augustus Rimini", captionIt: "Porta romana", captionEn: "Roman gate" },
+      { id: "lungomare", titleIt: "Lungomare", titleEn: "Seafront", query: "Rimini beach Adriatic seafront", captionIt: "Spiaggia adriatica", captionEn: "Adriatic beach" },
+      { id: "marina", titleIt: "Porto di Rimini", titleEn: "Rimini marina", query: "Rimini marina harbour", captionIt: "Porto turistico", captionEn: "Marina" },
+      { id: "skyline", titleIt: "Rimini dall'alto", titleEn: "Rimini skyline", query: "Rimini coastline aerial", captionIt: "Costa romagnola", captionEn: "Romagna coast" },
+    ],
+  },
+  {
+    cityId: "IT-CTA",
+    cityNameEn: "Catania",
+    countryCode: "IT",
+    descriptionIt:
+      "Ai piedi dell'Etna: barocco lavico, mercati profumati e un centro storico patrimonio UNESCO.",
+    descriptionEn:
+      "At the foot of Etna: lava baroque, fragrant markets and a UNESCO historic centre.",
+    pois: [
+      { id: "duomo", titleIt: "Piazza Duomo", titleEn: "Piazza Duomo", query: "Piazza Duomo Catania elephant fountain", captionIt: "Fontana dell'Elefante", captionEn: "Elephant fountain" },
+      { id: "etna", titleIt: "Etna", titleEn: "Mount Etna", query: "Mount Etna Catania view", captionIt: "Vulcano sullo sfondo", captionEn: "Volcano backdrop" },
+      { id: "fish-market", titleIt: "Pescheria", titleEn: "Fish market", query: "Catania fish market", captionIt: "Mercato storico", captionEn: "Historic market" },
+      { id: "via-etnea", titleIt: "Via Etnea", titleEn: "Via Etnea", query: "Via Etnea Catania street", captionIt: "Asse barocco", captionEn: "Baroque axis" },
+      { id: "teatro-romano", titleIt: "Teatro Romano", titleEn: "Roman Theatre", query: "Roman Theatre Catania", captionIt: "Resti romani", captionEn: "Roman ruins" },
+      { id: "skyline", titleIt: "Catania dall'alto", titleEn: "Catania skyline", query: "Catania cityscape Etna", captionIt: "Panorama con l'Etna", captionEn: "Etna panorama" },
+    ],
+  },
+  {
+    cityId: "IT-PMO",
+    cityNameEn: "Palermo",
+    countryCode: "IT",
+    descriptionIt:
+      "Capitale arabo-normanna: mercati, cattedrali, palazzi e street food tra mare e colline.",
+    descriptionEn:
+      "Arab-Norman capital: markets, cathedrals, palaces and street food between sea and hills.",
+    pois: [
+      { id: "cathedral", titleIt: "Cattedrale di Palermo", titleEn: "Palermo Cathedral", query: "Palermo Cathedral facade", captionIt: "Capolavoro arabo-normanno", captionEn: "Arab-Norman masterpiece" },
+      { id: "quattro-canti", titleIt: "Quattro Canti", titleEn: "Quattro Canti", query: "Quattro Canti Palermo", captionIt: "Incrocio barocco", captionEn: "Baroque crossroads" },
+      { id: "teatro-massimo", titleIt: "Teatro Massimo", titleEn: "Teatro Massimo", query: "Teatro Massimo Palermo", captionIt: "Il grande teatro", captionEn: "The grand theatre" },
+      { id: "ballaro", titleIt: "Mercato del Ballarò", titleEn: "Ballarò market", query: "Ballaro market Palermo", captionIt: "Mercato storico", captionEn: "Historic market" },
+      { id: "martorana", titleIt: "Chiesa della Martorana", titleEn: "Martorana church", query: "Martorana Palermo mosaics", captionIt: "Mosaici bizantini", captionEn: "Byzantine mosaics" },
+      { id: "skyline", titleIt: "Palermo dall'alto", titleEn: "Palermo skyline", query: "Palermo cityscape coast", captionIt: "Panorama sul mare", captionEn: "Sea panorama" },
+    ],
+  },
+  {
+    cityId: "IT-GOA",
+    cityNameEn: "Genoa",
+    countryCode: "IT",
+    descriptionIt:
+      "La Superba: un porto antico, caruggi verticali, palazzi dei Rolli e il mare della Liguria.",
+    descriptionEn:
+      "The Proud One: an ancient port, vertical alleys, Rolli palaces and the Ligurian sea.",
+    pois: [
+      { id: "porto-antico", titleIt: "Porto Antico", titleEn: "Old Port", query: "Porto Antico Genoa aquarium", captionIt: "Il porto storico", captionEn: "Historic port" },
+      { id: "palazzi-rolli", titleIt: "Palazzi dei Rolli", titleEn: "Palazzi dei Rolli", query: "Palazzi dei Rolli Genoa", captionIt: "Patrimonio UNESCO", captionEn: "UNESCO heritage" },
+      { id: "duomo", titleIt: "Cattedrale di San Lorenzo", titleEn: "San Lorenzo Cathedral", query: "Genoa Cathedral San Lorenzo", captionIt: "Duomo striped", captionEn: "Striped cathedral" },
+      { id: "caruggi", titleIt: "Caruggi", titleEn: "Alleys", query: "Genoa caruggi alley", captionIt: "Vicoli medievali", captionEn: "Medieval alleys" },
+      { id: "boccadasse", titleIt: "Boccadasse", titleEn: "Boccadasse", query: "Boccadasse Genoa fishing village", captionIt: "Borgo sul mare", captionEn: "Seaside village" },
+      { id: "skyline", titleIt: "Genova dall'alto", titleEn: "Genoa skyline", query: "Genoa harbour aerial", captionIt: "Panorama sul porto", captionEn: "Harbour panorama" },
+    ],
+  },
+  {
+    cityId: "IT-BZO",
+    cityNameEn: "Bolzano",
+    countryCode: "IT",
+    descriptionIt:
+      "Porta delle Dolomiti: architettura tirolese, mercatini e montagne a due passi dal centro.",
+    descriptionEn:
+      "Gateway to the Dolomites: Tyrolean architecture, markets and mountains steps from the centre.",
+    pois: [
+      { id: "piazza-walther", titleIt: "Piazza Walther", titleEn: "Walther Square", query: "Piazza Walther Bolzano", captionIt: "Cuore del centro", captionEn: "Town centre" },
+      { id: "duomo", titleIt: "Duomo di Bolzano", titleEn: "Bolzano Cathedral", query: "Bolzano Cathedral facade", captionIt: "Gotico alpino", captionEn: "Alpine Gothic" },
+      { id: "otzi", titleIt: "Museo Archeologico", titleEn: "Archaeology Museum", query: "Bolzano South Tyrol museum", captionIt: "Cultura alpina", captionEn: "Alpine culture" },
+      { id: "dolomites", titleIt: "Dolomiti", titleEn: "Dolomites", query: "Dolomites Bolzano mountains view", captionIt: "Montagne sullo sfondo", captionEn: "Mountain backdrop" },
+      { id: "skyline", titleIt: "Bolzano dall'alto", titleEn: "Bolzano skyline", query: "Bolzano cityscape Alps", captionIt: "Panorama alpino", captionEn: "Alpine panorama" },
+    ],
+  },
+  {
+    cityId: "IT-PEG",
+    cityNameEn: "Perugia",
+    countryCode: "IT",
+    descriptionIt:
+      "Capolavoro etrusco sull'Umbria: piazze medievali, mura, chocolate e collegi storici.",
+    descriptionEn:
+      "Etruscan masterpiece in Umbria: medieval squares, walls, chocolate and historic colleges.",
+    pois: [
+      { id: "piazza-iv-novembre", titleIt: "Piazza IV Novembre", titleEn: "Piazza IV Novembre", query: "Piazza IV Novembre Perugia fountain", captionIt: "Fontana Maggiore", captionEn: "Major fountain" },
+      { id: "palazzo-priori", titleIt: "Palazzo dei Priori", titleEn: "Palazzo dei Priori", query: "Palazzo dei Priori Perugia", captionIt: "Governo medievale", captionEn: "Medieval government" },
+      { id: "etruscan-arch", titleIt: "Arco Etrusco", titleEn: "Etruscan Arch", query: "Etruscan Arch Perugia", captionIt: "Porta antica", captionEn: "Ancient gate" },
+      { id: "rocca-paolina", titleIt: "Rocca Paolina", titleEn: "Rocca Paolina", query: "Rocca Paolina Perugia", captionIt: "Fortezze e vicoli", captionEn: "Fortress and alleys" },
+      { id: "skyline", titleIt: "Perugia dall'alto", titleEn: "Perugia skyline", query: "Perugia Umbria hills panorama", captionIt: "Panorama umbro", captionEn: "Umbrian panorama" },
     ],
   },
 ];

@@ -1,5 +1,8 @@
 import { createServiceRoleClient } from "@/lib/supabase/admin";
+import { cityHeroImages } from "@/data/cityHeroImages";
+import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
 import { buildDestinationSlug, canonicalCityKey, cityLookupNames } from "@/lib/seo/city-canonical";
+import { POPULAR_DESTINATION_CITIES } from "@/lib/seo/popular-destinations";
 
 export const DESTINATION_MIN_STRUCTURES = 3;
 export const DESTINATION_PAGE_SIZE = 48;
@@ -10,6 +13,8 @@ export type DestinationHub = {
   displayName: string;
   structureCount: number;
   tier: "premium" | "standard";
+  cityId: string | null;
+  countryCode: string | null;
 };
 
 export type DestinationStructureItem = {
@@ -132,11 +137,18 @@ async function loadDestinationIndex(): Promise<DestinationIndex> {
     const items = [...bucket.items.values()].sort((a, b) => a.name.localeCompare(b.name, "it"));
     if (items.length < DESTINATION_MIN_STRUCTURES) continue;
 
+    const cityId =
+      resolveCanonicalCityId({ cityName: bucket.displayName }) ??
+      resolveCanonicalCityId({ cityName: bucket.displayName, countryCode: "IT" });
+    const countryCode = cityId?.split("-")[0] ?? null;
+
     const hub: DestinationHub = {
       slug: bucket.slug,
       displayName: bucket.displayName,
       structureCount: items.length,
       tier: items.length >= 10 ? "premium" : "standard",
+      cityId,
+      countryCode,
     };
     hubs.set(bucket.slug, hub);
     structuresBySlug.set(bucket.slug, items);
@@ -157,9 +169,38 @@ export async function listDestinationHubSlugs(): Promise<string[]> {
   return [...index.hubs.keys()].sort();
 }
 
-export async function listPopularDestinations(limit = POPULAR_DESTINATIONS_LIMIT): Promise<DestinationHub[]> {
+export async function listPopularDestinations(): Promise<DestinationHub[]> {
   const index = await loadDestinationIndex();
-  return [...index.hubs.values()].sort((a, b) => b.structureCount - a.structureCount).slice(0, limit);
+  const results: DestinationHub[] = [];
+
+  for (const entry of POPULAR_DESTINATION_CITIES) {
+    if (!cityHeroImages[entry.cityId]) continue;
+
+    const slug = buildDestinationSlug(entry.displayName);
+    const hub = index.hubs.get(slug);
+    const countryCode = entry.cityId.split("-")[0] ?? null;
+
+    if (hub) {
+      results.push({
+        ...hub,
+        displayName: entry.displayName,
+        cityId: entry.cityId,
+        countryCode,
+      });
+      continue;
+    }
+
+    results.push({
+      slug,
+      displayName: entry.displayName,
+      structureCount: 0,
+      tier: "standard",
+      cityId: entry.cityId,
+      countryCode,
+    });
+  }
+
+  return results;
 }
 
 export async function fetchDestinationStructures(
