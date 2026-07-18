@@ -28,7 +28,7 @@ const ONBOARDING_SELECT =
   "id, slug, seo_indexable, nome, indirizzo, city_name, email, phone, website, google_maps_url, main_photo_url, gallery_photo_urls, lat, lng, status";
 
 const HOTEL_SELECT =
-  "id, slug, seo_indexable, onboarding_hotel_id, property_name, description, structure_type, full_address, country_name, city_name, public_email, public_phone, website, google_maps_url, main_photo_url, gallery_photo_urls, latitude, longitude, account_status, subscription_active, provider_kind";
+  "id, slug, seo_indexable, onboarding_hotel_id, property_name, description, structure_type, full_address, country_name, city_name, public_email, public_phone, google_maps_url, main_photo_url, gallery_photo_urls, latitude, longitude, account_status, subscription_active, provider_kind";
 
 function mapOnboarding(row: Record<string, unknown>): StructureSeoRecord {
   return {
@@ -69,7 +69,7 @@ function mapHotel(row: Record<string, unknown>): StructureSeoRecord {
     countryName: (row.country_name as string | null) ?? "Italia",
     email: (row.public_email as string | null) ?? null,
     phone: (row.public_phone as string | null) ?? null,
-    website: (row.website as string | null) ?? null,
+    website: null,
     googleMapsUrl: (row.google_maps_url as string | null) ?? null,
     mainPhotoUrl: (row.main_photo_url as string | null) ?? null,
     galleryPhotoUrls: Array.isArray(row.gallery_photo_urls) ? (row.gallery_photo_urls as string[]) : [],
