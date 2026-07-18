@@ -8,11 +8,5 @@ type Props = {
 };
 
 export function OnboardingEnterButton({ userId, onboardingId }: Props) {
-  return (
-    <ImpersonateButton
-      userId={userId ?? undefined}
-      onboardingId={onboardingId}
-      missingAccountMessage="Struttura onboarding senza account partner. Usa «Modifica» per il catalogo."
-    />
-  );
+  return <ImpersonateButton userId={userId ?? undefined} onboardingId={onboardingId} />;
 }

@@ -17,18 +17,26 @@ export async function POST(request: Request) {
     userId = (await resolveOnboardingEnterUserIdAsync(onboardingId)) ?? "";
   }
 
-  if (!userId) {
-    return NextResponse.json(
-      {
-        error: onboardingId
-          ? "Struttura onboarding senza account partner. Usa «Modifica» per il catalogo."
-          : "userId mancante",
-      },
-      { status: onboardingId ? 404 : 400 },
-    );
-  }
-
   const admin = gate.admin;
+
+  if (!userId) {
+    if (onboardingId) {
+      await logAdminAction(admin, request, {
+        actor: gate.profile,
+        action: "onboarding_catalog_enter",
+        targetType: "onboarding_hotel",
+        targetId: onboardingId,
+        details: { mode: "admin_editor" },
+      });
+
+      return NextResponse.json({
+        redirectUrl: `/console/onboarding/${onboardingId}`,
+        mode: "catalog_editor",
+      });
+    }
+
+    return NextResponse.json({ error: "userId mancante" }, { status: 400 });
+  }
 
   const { data: profile } = await admin
     .from("profiles")

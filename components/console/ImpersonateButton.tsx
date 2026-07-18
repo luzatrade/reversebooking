@@ -6,15 +6,9 @@ type Props = {
   userId?: string;
   onboardingId?: string;
   label?: string;
-  missingAccountMessage?: string;
 };
 
-export function ImpersonateButton({
-  userId,
-  onboardingId,
-  label,
-  missingAccountMessage,
-}: Props) {
+export function ImpersonateButton({ userId, onboardingId, label }: Props) {
   const [loading, setLoading] = useState(false);
 
   async function handleImpersonate() {
