@@ -317,26 +317,79 @@ export async function mapLinkedHotelUsersForOnboarding(onboardingIds: string[]) 
   if (!uniqueIds.length) return new Map<string, string>();
 
   const supabase = db();
+  const map = new Map<string, string>();
+
   const { data, error } = await supabase
     .from("hotel_accounts")
     .select("onboarding_hotel_id, user_id")
     .in("onboarding_hotel_id", uniqueIds);
   if (error) throw error;
 
-  const map = new Map<string, string>();
   for (const row of data ?? []) {
     if (row.onboarding_hotel_id && row.user_id) {
       map.set(row.onboarding_hotel_id, row.user_id);
     }
   }
+
+  const missing = uniqueIds.filter((id) => !map.has(id));
+  if (!missing.length) return map;
+
+  const { data: onboardingRows, error: onboardingError } = await supabase
+    .from("onboarding_hotels")
+    .select("id, claimed_by, status")
+    .in("id", missing)
+    .in("status", ["pending_verification", "claimed"]);
+  if (onboardingError) throw onboardingError;
+
+  const claimedUserIds = [
+    ...new Set((onboardingRows ?? []).map((row) => row.claimed_by).filter(Boolean)),
+  ] as string[];
+  if (!claimedUserIds.length) return map;
+
+  const { data: accounts, error: accountsError } = await supabase
+    .from("hotel_accounts")
+    .select("user_id")
+    .in("user_id", claimedUserIds);
+  if (accountsError) throw accountsError;
+
+  const activeClaimUsers = new Set((accounts ?? []).map((row) => row.user_id));
+
+  for (const row of onboardingRows ?? []) {
+    if (row.claimed_by && activeClaimUsers.has(row.claimed_by)) {
+      map.set(row.id, row.claimed_by);
+    }
+  }
+
   return map;
+}
+
+export async function resolveOnboardingEnterUserIdAsync(onboardingId: string): Promise<string | null> {
+  const linked = await getLinkedHotelAccountForOnboarding(onboardingId);
+  if (linked?.user_id) return linked.user_id;
+
+  const supabase = db();
+  const { data: onboarding, error } = await supabase
+    .from("onboarding_hotels")
+    .select("claimed_by, status")
+    .eq("id", onboardingId)
+    .maybeSingle();
+  if (error) throw error;
+  if (!onboarding?.claimed_by || onboarding.status === "unclaimed") return null;
+
+  const { data: account } = await supabase
+    .from("hotel_accounts")
+    .select("user_id")
+    .eq("user_id", onboarding.claimed_by)
+    .maybeSingle();
+
+  return account?.user_id ?? null;
 }
 
 export function resolveOnboardingEnterUserId(
   hotel: { id: string; claimed_by?: string | null },
   linkedUsers: Map<string, string>,
 ) {
-  return linkedUsers.get(hotel.id) ?? hotel.claimed_by ?? null;
+  return linkedUsers.get(hotel.id) ?? null;
 }
 
 export async function listOnboardingHotels(query?: string) {

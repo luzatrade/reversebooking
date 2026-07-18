@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { resolveOnboardingEnterUserIdAsync } from "@/lib/admin/data";
 import { requireAdminApi } from "@/lib/admin/verify";
 import { logAdminAction } from "@/lib/admin/audit";
 import { dashboardPathForRole } from "@/lib/auth/redirectAfterLogin";
@@ -8,9 +9,23 @@ export async function POST(request: Request) {
   const gate = await requireAdminApi(request);
   if ("error" in gate) return gate.error;
 
-  const { userId } = (await request.json()) as { userId?: string };
+  const body = (await request.json()) as { userId?: string; onboardingId?: string };
+  let userId = body.userId?.trim() ?? "";
+  const onboardingId = body.onboardingId?.trim() ?? "";
+
+  if (!userId && onboardingId) {
+    userId = (await resolveOnboardingEnterUserIdAsync(onboardingId)) ?? "";
+  }
+
   if (!userId) {
-    return NextResponse.json({ error: "userId mancante" }, { status: 400 });
+    return NextResponse.json(
+      {
+        error: onboardingId
+          ? "Struttura onboarding senza account partner. Usa «Modifica» per il catalogo."
+          : "userId mancante",
+      },
+      { status: onboardingId ? 404 : 400 },
+    );
   }
 
   const admin = gate.admin;
@@ -46,9 +61,9 @@ export async function POST(request: Request) {
   await logAdminAction(admin, request, {
     actor: gate.profile,
     action: "impersonate",
-    targetType: "user",
-    targetId: userId,
-    details: { email: profile.email, role: profile.role },
+    targetType: onboardingId ? "onboarding_hotel" : "user",
+    targetId: onboardingId || userId,
+    details: { email: profile.email, role: profile.role, userId, onboardingId: onboardingId || null },
   });
 
   return NextResponse.json({

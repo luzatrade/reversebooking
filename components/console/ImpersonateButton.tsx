@@ -3,24 +3,32 @@
 import { useState } from "react";
 
 type Props = {
-  userId: string;
+  userId?: string;
+  onboardingId?: string;
   label?: string;
+  missingAccountMessage?: string;
 };
 
-export function ImpersonateButton({ userId, label }: Props) {
+export function ImpersonateButton({
+  userId,
+  onboardingId,
+  label,
+  missingAccountMessage,
+}: Props) {
   const [loading, setLoading] = useState(false);
 
   async function handleImpersonate() {
     setLoading(true);
+    const payload = userId ? { userId } : onboardingId ? { onboardingId } : {};
     const res = await fetch("/api/admin/impersonate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ userId }),
+      body: JSON.stringify(payload),
     });
 
     const data = await res.json();
     if (!res.ok) {
-      alert(data.error ?? "Errore");
+      alert(data.error ?? missingAccountMessage ?? "Errore");
       setLoading(false);
       return;
     }
