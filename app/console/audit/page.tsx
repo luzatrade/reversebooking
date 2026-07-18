@@ -7,6 +7,7 @@ import { isServiceRoleConfigured } from "@/lib/utils/env";
 
 const ACTION_LABELS: Record<string, string> = {
   impersonate: "Impersonazione",
+  onboarding_catalog_enter: "Accesso catalogo onboarding",
   profile_status_change: "Cambio stato profilo",
   hotel_status_change: "Cambio stato struttura",
   request_status_change: "Cambio stato richiesta",
