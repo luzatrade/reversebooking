@@ -5,7 +5,7 @@ import { ConsoleSearchForm } from "@/components/console/ConsoleSearchForm";
 import { DataTable } from "@/components/console/DataTable";
 import { DeleteButton } from "@/components/console/DeleteButton";
 import { ImpersonateButton } from "@/components/console/ImpersonateButton";
-import { OnboardingEnterButton } from "@/components/console/OnboardingEnterButton";
+import { OnboardingPartnerPanel } from "@/components/console/OnboardingPartnerPanel";
 import { StatusBadge } from "@/components/console/StatusBadge";
 import {
   listHotels,
@@ -137,9 +137,11 @@ export default async function ConsoleStrutturePage({
                 id: <span className="font-mono text-xs text-zinc-500">{h.id}</span>,
                 actions: (
                   <div className="flex flex-col gap-1.5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-2">
-                    <OnboardingEnterButton
-                      userId={resolveOnboardingEnterUserId(h, linkedUsers)}
+                    <OnboardingPartnerPanel
+                      compact
                       onboardingId={h.id}
+                      hotelName={h.nome}
+                      partnerUserId={resolveOnboardingEnterUserId(h, linkedUsers)}
                     />
                     <Link href={`/console/onboarding/${h.id}`} className="text-xs font-semibold text-[#0f4c81] hover:underline">
                       Modifica

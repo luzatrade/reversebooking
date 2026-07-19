@@ -3,12 +3,8 @@ import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { ConsolePageHeader } from "@/components/console/ConsolePageHeader";
 import { OnboardingHotelEditor } from "@/components/console/OnboardingHotelEditor";
-import { OnboardingEnterButton } from "@/components/console/OnboardingEnterButton";
-import {
-  getLinkedHotelAccountForOnboarding,
-  getOnboardingHotelById,
-  resolveOnboardingEnterUserIdAsync,
-} from "@/lib/admin/data";
+import { OnboardingPartnerPanel } from "@/components/console/OnboardingPartnerPanel";
+import { getOnboardingHotelById, getOnboardingPartnerContext } from "@/lib/admin/data";
 import { isServiceRoleConfigured } from "@/lib/utils/env";
 
 export default async function ConsoleOnboardingEditPage({
@@ -21,15 +17,9 @@ export default async function ConsoleOnboardingEditPage({
   }
 
   const { id } = await params;
-  const [hotel, linkedAccount] = await Promise.all([
-    getOnboardingHotelById(id),
-    getLinkedHotelAccountForOnboarding(id),
-  ]);
+  const [hotel, partner] = await Promise.all([getOnboardingHotelById(id), getOnboardingPartnerContext(id)]);
 
   if (!hotel) notFound();
-
-  const enterUserId =
-    linkedAccount?.user_id ?? (await resolveOnboardingEnterUserIdAsync(hotel.id));
 
   return (
     <>
@@ -42,12 +32,17 @@ export default async function ConsoleOnboardingEditPage({
       </Link>
       <ConsolePageHeader
         title={hotel.nome}
-        description="Modifica dati catalogo, correggi telefono/email e gestisci lo stato di rivendica."
+        description="Modifica catalogo, crea account partner o entra nella dashboard struttura."
       />
-      <div className="mb-6">
-        <OnboardingEnterButton userId={enterUserId} onboardingId={hotel.id} />
-      </div>
-      <OnboardingHotelEditor hotel={hotel} linkedAccount={linkedAccount} />
+      <OnboardingPartnerPanel
+        onboardingId={hotel.id}
+        hotelName={hotel.nome}
+        defaultEmail={hotel.email}
+        partnerUserId={partner.enterUserId}
+        profileEmail={partner.profileEmail}
+        linkedAccount={partner.linkedAccount}
+      />
+      <OnboardingHotelEditor hotel={hotel} linkedAccount={partner.linkedAccount} />
     </>
   );
 }

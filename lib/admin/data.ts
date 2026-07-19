@@ -305,11 +305,32 @@ export async function getLinkedHotelAccountForOnboarding(onboardingId: string) {
   const supabase = db();
   const { data, error } = await supabase
     .from("hotel_accounts")
-    .select("id, user_id, property_name, public_phone, public_email, account_status, subscription_active")
+    .select(
+      "id, user_id, property_name, public_phone, public_email, account_status, subscription_active, subscription_status",
+    )
     .eq("onboarding_hotel_id", onboardingId)
     .maybeSingle();
   if (error) throw error;
   return data;
+}
+
+export async function getOnboardingPartnerContext(onboardingId: string) {
+  const linkedAccount = await getLinkedHotelAccountForOnboarding(onboardingId);
+  const enterUserId =
+    linkedAccount?.user_id ?? (await resolveOnboardingEnterUserIdAsync(onboardingId));
+  let profileEmail: string | null = null;
+
+  if (enterUserId) {
+    const supabase = db();
+    const { data: profile } = await supabase
+      .from("profiles")
+      .select("email, account_status")
+      .eq("user_id", enterUserId)
+      .maybeSingle();
+    profileEmail = profile?.email ?? null;
+  }
+
+  return { linkedAccount, enterUserId, profileEmail };
 }
 
 export async function mapLinkedHotelUsersForOnboarding(onboardingIds: string[]) {
