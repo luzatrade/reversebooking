@@ -22,7 +22,7 @@ export function ImpersonateButton({ userId, onboardingId, label }: Props) {
 
     const data = await res.json();
     if (!res.ok) {
-      alert(data.error ?? missingAccountMessage ?? "Errore");
+      alert(data.error ?? "Errore");
       setLoading(false);
       return;
     }
