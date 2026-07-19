@@ -169,7 +169,7 @@ async function createPartnerRecords(
       email,
       phone_number: onboarding.phone,
       email_verified: true,
-      phone_verified: false,
+      phone_verified: true,
       account_status: "active",
     },
     { onConflict: "user_id" },

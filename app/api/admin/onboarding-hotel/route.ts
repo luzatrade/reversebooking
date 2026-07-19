@@ -1,10 +1,10 @@
 import { NextResponse } from "next/server";
 import { logAdminAction } from "@/lib/admin/audit";
 import { requireAdminApi } from "@/lib/admin/verify";
+import { MAX_GALLERY_PHOTOS } from "@/lib/hotel/gallery-photos";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
 
 const ALLOWED_STATUSES = new Set(["unclaimed", "pending_verification", "claimed"]);
-const MAX_GALLERY_PHOTOS = 4;
 
 type Body = {
   id?: string;
@@ -134,7 +134,10 @@ export async function POST(request: Request) {
   if (updates.gallery_photo_urls !== undefined) hotelSync.gallery_photo_urls = updates.gallery_photo_urls;
 
   if (Object.keys(hotelSync).length > 0) {
-    await admin.from("hotel_accounts").update(hotelSync).eq("onboarding_hotel_id", id);
+    const { error: syncError } = await admin.from("hotel_accounts").update(hotelSync).eq("onboarding_hotel_id", id);
+    if (syncError) {
+      return NextResponse.json({ error: syncError.message }, { status: 500 });
+    }
   }
 
   await logAdminAction(admin, request, {
