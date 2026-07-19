@@ -85,12 +85,22 @@ export function OnboardingPartnerPanel({
   }
 
   if (compact) {
-    if (!hasPartner || !partnerUserId) return null;
-    return <ImpersonateButton userId={partnerUserId} label="Dashboard struttura" />;
+    if (partnerUserId) {
+      return <ImpersonateButton userId={partnerUserId} label="Dashboard struttura" />;
+    }
+
+    return (
+      <Link
+        href={`/console/onboarding/${onboardingId}#account-partner`}
+        className="inline-flex rounded-full bg-[#0f4c81] px-3 py-1.5 text-xs font-semibold text-white transition hover:bg-[#0d3f68]"
+      >
+        Crea account partner
+      </Link>
+    );
   }
 
   return (
-    <section className="mb-6 rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6">
+    <section id="account-partner" className="mb-6 scroll-mt-24 rounded-2xl border-2 border-[#0f4c81]/20 bg-white p-4 sm:p-6">
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <p className="text-sm font-medium uppercase tracking-wide text-emerald-700">Account partner</p>
@@ -132,8 +142,8 @@ export function OnboardingPartnerPanel({
             </Link>
           </p>
         </div>
-      ) : (
-        <form onSubmit={handleRegister} className="mt-4 space-y-4 rounded-xl border border-dashed border-zinc-300 p-4">
+      ) : !hasPartner ? (
+        <form onSubmit={handleRegister} className="mt-4 space-y-4 rounded-xl border border-dashed border-[#0f4c81]/40 bg-[#f8fbff] p-4">
           <p className="text-sm text-zinc-600">
             Nessun account partner collegato. Crea login e dashboard per agire al posto della struttura.
           </p>
@@ -184,6 +194,11 @@ export function OnboardingPartnerPanel({
             {creating ? "Creazione..." : "Crea account partner e apri dashboard"}
           </button>
         </form>
+      ) : (
+        <div className="mt-4 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950">
+          Account partner rilevato ma non collegato al catalogo. Usa <strong>Dashboard struttura</strong> sopra
+          oppure <strong>Ripristina rivendica</strong> sotto e ricrea l&apos;account.
+        </div>
       )}
     </section>
   );

@@ -69,6 +69,13 @@ export default async function ConsoleOnboardingPage({
         </div>
       ) : null}
 
+      {query && hotels.length > 0 ? (
+        <div className="mb-4 rounded-xl border border-[#0f4c81]/20 bg-[#f8fbff] px-4 py-3 text-sm text-zinc-700">
+          Per aprire la <strong>dashboard struttura</strong> o <strong>creare un account partner</strong>, usa i pulsanti
+          in colonna Azioni oppure apri <strong>Modifica</strong>.
+        </div>
+      ) : null}
+
       {hotels.length > 0 ? (
         <DataTable
           columns={[
@@ -113,8 +120,11 @@ export default async function ConsoleOnboardingPage({
                     hotelName={h.nome}
                     partnerUserId={resolveOnboardingEnterUserId(h, linkedUsers)}
                   />
-                  <Link href={`/console/onboarding/${h.id}`} className="text-xs font-semibold text-[#0f4c81] hover:underline">
-                    Modifica
+                  <Link
+                    href={`/console/onboarding/${h.id}#account-partner`}
+                    className="inline-flex rounded-full border border-zinc-300 bg-white px-3 py-1.5 text-xs font-semibold text-zinc-700 transition hover:bg-zinc-50"
+                  >
+                    Modifica catalogo
                   </Link>
                   <DeleteButton entity="onboarding" id={h.id} />
                 </div>

@@ -99,6 +99,12 @@ export default async function ConsoleStrutturePage({
       />
 
       {query && onboardingHotels.length > 0 ? (
+        <div className="mb-4 rounded-xl border border-[#0f4c81]/20 bg-[#f8fbff] px-4 py-3 text-sm text-zinc-700">
+          Per dashboard partner o nuovo account: usa <strong>Crea account partner</strong> o <strong>Modifica catalogo</strong>.
+        </div>
+      ) : null}
+
+      {query && onboardingHotels.length > 0 ? (
         <section className="mt-10">
           <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
             <div>
@@ -143,8 +149,11 @@ export default async function ConsoleStrutturePage({
                       hotelName={h.nome}
                       partnerUserId={resolveOnboardingEnterUserId(h, linkedUsers)}
                     />
-                    <Link href={`/console/onboarding/${h.id}`} className="text-xs font-semibold text-[#0f4c81] hover:underline">
-                      Modifica
+                    <Link
+                      href={`/console/onboarding/${h.id}#account-partner`}
+                      className="inline-flex rounded-full border border-zinc-300 bg-white px-3 py-1.5 text-xs font-semibold text-zinc-700 transition hover:bg-zinc-50"
+                    >
+                      Modifica catalogo
                     </Link>
                     <DeleteButton entity="onboarding" id={h.id} />
                   </div>
