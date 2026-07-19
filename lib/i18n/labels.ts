@@ -38,6 +38,9 @@ export function getAdvertiserTypeLabels(locale: Locale): Record<AdvertiserType, 
 export function getServiceLabels(locale: Locale): Record<string, string> {
   const t = getTranslations(locale);
   return {
+    wifi: t.hotelServices.wifi,
+    breakfast: t.hotelServices.breakfast,
+    restaurant: t.hotelServices.restaurant,
     pool: t.request.pool,
     spa: t.request.spa,
     garage: t.request.garage,

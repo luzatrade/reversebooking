@@ -1,4 +1,7 @@
 import type { AdvertiserType, MealPlan, PreferredStructureType, StructureType } from "@/types/app";
+import { hotelServices } from "@/lib/constants/hotel-services";
+
+export { hotelServices };
 
 export const advertiserTypes: { value: AdvertiserType; label: string; description: string }[] = [
   { value: "private_individual", label: "Privato", description: "Richieste personali o familiari" },
@@ -26,11 +29,3 @@ export const mealPlans: { value: MealPlan; label: string }[] = [
   { value: "half_board", label: "Mezza Pensione" },
   { value: "full_board", label: "Pensione Completa" },
 ];
-
-export const hotelServices = [
-  { key: "pool", label: "Piscina" },
-  { key: "spa", label: "Spa" },
-  { key: "garage", label: "Garage" },
-  { key: "pets_allowed", label: "Animali ammessi" },
-  { key: "disabled_access", label: "Accesso disabili" },
-] as const;

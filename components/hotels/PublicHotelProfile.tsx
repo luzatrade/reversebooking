@@ -10,6 +10,8 @@ import { formatMessage } from "@/lib/i18n/format";
 import { getServiceLabels, getStructureTypeLabels } from "@/lib/i18n/labels";
 import { BRAND_NAME } from "@/lib/legal/company";
 import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
+import type { HouseRules } from "@/lib/constants/house-rules";
+import { buildHouseRulesLines } from "@/lib/hotel/public-profile-extras";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { exploreMapBackHref } from "@/lib/showcase/exploreMapReturn";
 import type { StructureType } from "@/types/app";
@@ -30,6 +32,7 @@ type HotelProfile = {
   points_of_interest: string[] | null;
   rooms_quantity: number;
   services: Record<string, boolean> | null;
+  house_rules: HouseRules | null;
   public_email: string | null;
   public_phone: string | null;
   google_maps_url: string | null;
@@ -63,7 +66,7 @@ export function PublicHotelProfile() {
         const supabase = createBrowserSupabaseClient();
         const { data, error: hotelError } = await supabase
           .from("hotel_accounts")
-          .select("id, property_name, structure_type, provider_kind, cun_code, main_photo_url, gallery_photo_urls, description, full_address, country_name, city_name, specific_area, points_of_interest, rooms_quantity, services, public_email, public_phone, google_maps_url, cin_code")
+          .select("id, property_name, structure_type, provider_kind, cun_code, main_photo_url, gallery_photo_urls, description, full_address, country_name, city_name, specific_area, points_of_interest, rooms_quantity, services, house_rules, public_email, public_phone, google_maps_url, cin_code")
           .eq("id", hotelId)
           .eq("account_status", "active")
           .eq("subscription_active", true)
@@ -108,6 +111,7 @@ export function PublicHotelProfile() {
   }
 
   const services = activeServiceLabels(hotel?.services ?? null, serviceLabelMap);
+  const houseRulesLines = hotel?.house_rules ? buildHouseRulesLines(hotel.house_rules, t.hotel) : [];
   const isAgency = hotel?.provider_kind === "agency";
   const mapBackHref = hotel
     ? exploreMapBackHref(
@@ -190,8 +194,24 @@ export function PublicHotelProfile() {
 
               <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 sm:p-5">
                 <h2 className="font-semibold">{isAgency ? t.hotel.contactsOnly : t.hotel.publicContacts}</h2>
-                {!isAgency && services.length ? (
-                  <p className="mt-2 text-sm text-zinc-500">{formatMessage(t.hotel.servicesLine, { services: services.join(", ") })}</p>
+                {!isAgency ? (
+                  <div className="mt-3">
+                    <p className="text-sm font-medium text-zinc-800">{t.hotel.servicesLabel}</p>
+                    {services.length ? (
+                      <ul className="mt-2 flex flex-wrap gap-2">
+                        {services.map((service) => (
+                          <li
+                            key={service}
+                            className="rounded-full bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-900 ring-1 ring-emerald-100"
+                          >
+                            {service}
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="mt-2 text-sm text-zinc-500">{t.hotel.noServicesListed}</p>
+                    )}
+                  </div>
                 ) : null}
                 <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-3">
                   {hotel.public_email && mailTemplate ? (
@@ -220,6 +240,17 @@ export function PublicHotelProfile() {
                 </div>
               </div>
             </div>
+
+            {!isAgency && houseRulesLines.length ? (
+              <div className="mt-4 rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 sm:mt-6 sm:p-5">
+                <h2 className="font-semibold">{t.hotel.rulesLabel}</h2>
+                <ul className="mt-3 space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
+                  {houseRulesLines.map((line) => (
+                    <li key={line}>{line}</li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
           </div>
         </article>
       ) : null}

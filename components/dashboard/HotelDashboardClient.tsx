@@ -5,6 +5,7 @@ import Link from "next/link";
 import { HardNavLink } from "@/components/navigation/HardNavLink";
 import { Bell, CheckCircle2, Filter, Home, ReceiptText, RefreshCw, UserCog } from "lucide-react";
 import { HotelSentOffersPanel, type HotelSentOffer } from "@/components/dashboard/HotelSentOffersPanel";
+import { HotelServicesRulesEditor } from "@/components/dashboard/HotelServicesRulesEditor";
 import { StatCard } from "@/components/dashboard/StatCard";
 import { dashboardSurfaces } from "@/components/dashboard/dashboardSurfaces";
 import { LogoutButton } from "@/components/auth/LogoutButton";
@@ -16,9 +17,18 @@ import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { getAdvertiserTypeLabels, getMealPlanLabels } from "@/lib/i18n/labels";
+import type { HouseRules } from "@/lib/constants/house-rules";
+
 import type { AdvertiserType, MealPlan } from "@/types/app";
 
-type HotelAccount = { id: string; property_name: string; city_name: string; city_id: string };
+type HotelAccount = {
+  id: string;
+  property_name: string;
+  city_name: string;
+  city_id: string;
+  services: Record<string, boolean> | null;
+  house_rules: HouseRules | null;
+};
 type AdvertiserRelation = {
   advertiser_type: AdvertiserType;
   short_description: string | null;
@@ -122,7 +132,7 @@ export function HotelDashboardClient() {
       }
       const { data: hotelData, error: hotelError } = await supabase
         .from("hotel_accounts")
-        .select("id, property_name, city_name, city_id")
+        .select("id, property_name, city_name, city_id, services, house_rules")
         .eq("user_id", user.id)
         .maybeSingle();
       if (hotelError || !hotelData) {
@@ -240,6 +250,13 @@ export function HotelDashboardClient() {
           <HardNavLink href="/struttura/profilo" className={dashboardSurfaces.btnSecondary}>
             {t.dashboard.hotel.structureProfile}
           </HardNavLink>
+          <button
+            type="button"
+            onClick={() => scrollToSection("servizi-regole")}
+            className={dashboardSurfaces.btnSecondary}
+          >
+            {t.dashboard.hotel.servicesRules.editLink}
+          </button>
           <HardNavLink href="/struttura/offerte/crea" className={dashboardSurfaces.btnSecondary}>
             {t.catalogOffers.createOfferCta}
           </HardNavLink>
@@ -285,6 +302,14 @@ export function HotelDashboardClient() {
           onClick={focusAlertBells}
         />
       </div>
+
+      {hotel ? (
+        <HotelServicesRulesEditor
+          hotelAccountId={hotel.id}
+          initialServices={hotel.services}
+          initialRules={hotel.house_rules}
+        />
+      ) : null}
 
       <section id="annunci-disponibili" className={`${dashboardSurfaces.panelBlue} mt-8 scroll-mt-24`}>
         <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
