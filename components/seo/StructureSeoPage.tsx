@@ -1,5 +1,8 @@
 import Link from "next/link";
-import { ArrowLeft, ExternalLink, Globe, Mail, MapPin, Phone, PhoneCall } from "lucide-react";
+import { ExternalLink, Globe, Mail, MapPin, Phone, PhoneCall } from "lucide-react";
+import { FaqAccordion } from "@/components/seo/FaqAccordion";
+import { OtherHotelsStrip } from "@/components/seo/OtherHotelsStrip";
+import { SeoBreadcrumb } from "@/components/seo/SeoBreadcrumb";
 import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
 import { formatMessage } from "@/lib/i18n/format";
 import {
@@ -9,7 +12,8 @@ import {
   normalizeWebsiteUrl,
 } from "@/lib/hotels/publicContactLinks";
 import { buildDestinationSlug, destinationPublicPath } from "@/lib/seo/city-canonical";
-import { fetchDestinationHubBySlug } from "@/lib/seo/destination-queries";
+import { fetchDestinationHubBySlug, fetchDestinationStructures } from "@/lib/seo/destination-queries";
+import { getHotelFaq, getMarketingLabels } from "@/lib/i18n/seo-marketing";
 import type { StructureSeoRecord } from "@/lib/seo/structure-queries";
 
 type Props = {
@@ -19,7 +23,11 @@ type Props = {
 export async function StructureSeoPage({ record }: Props) {
   const t = await getServerTranslations();
   const locale = await getServerLocale();
+  const labels = getMarketingLabels(locale);
   const destinationHub = await fetchDestinationHubBySlug(buildDestinationSlug(record.cityName));
+  const destinationStructures = destinationHub
+    ? (await fetchDestinationStructures(destinationHub.slug, 1))?.items ?? []
+    : [];
   const websiteUrl = normalizeWebsiteUrl(record.website);
   const whatsAppHref = record.phone ? buildWhatsAppHref(record.name, record.phone) : null;
   const addressLine = record.address?.trim() || record.cityName || t.hotel.addressUnavailable;
@@ -31,12 +39,20 @@ export async function StructureSeoPage({ record }: Props) {
 
   return (
     <div className="space-y-6">
-      <Link
-        href="/"
-        className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white"
-      >
-        <ArrowLeft className="h-4 w-4" /> {t.hotel.backToShowcase}
-      </Link>
+      <SeoBreadcrumb
+        items={[
+          { label: locale === "en" ? "Home" : "Home", href: "/" },
+          ...(destinationHub
+            ? [
+                {
+                  label: locale === "en" ? `Hotels in ${destinationHub.displayName}` : `Hotel a ${destinationHub.displayName}`,
+                  href: destinationPublicPath(destinationHub.slug),
+                },
+              ]
+            : []),
+          { label: record.name },
+        ]}
+      />
 
       <article className="overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
         {record.mainPhotoUrl ? (
@@ -180,6 +196,21 @@ export async function StructureSeoPage({ record }: Props) {
           </div>
         </div>
       </article>
+
+      {destinationHub ? (
+        <OtherHotelsStrip
+          title={
+            locale === "en"
+              ? `More hotels in ${destinationHub.displayName}`
+              : `Altri hotel a ${destinationHub.displayName}`
+          }
+          items={destinationStructures}
+          excludeSlug={record.slug}
+          locale={locale}
+        />
+      ) : null}
+
+      <FaqAccordion items={getHotelFaq(locale)} title={labels.faqTitle} compact />
     </div>
   );
 }

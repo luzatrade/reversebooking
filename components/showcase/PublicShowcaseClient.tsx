@@ -31,6 +31,7 @@ import { cn } from "@/lib/utils";
 import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
 import { mealPlanLabels, type MealPlan, type StructureType, type UserRole } from "@/types/app";
 import type { CatalogOfferListItem } from "@/types/catalog-offers";
+import type { ShowcaseHomeInitialData, ShowcaseHomeHotel } from "@/lib/showcase/homeData";
 import { structureProfileHref } from "@/lib/showcase/structureExploreLinks";
 
 function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date()) {
@@ -211,13 +212,40 @@ function createRequestHrefForHotel(hotel: Pick<HotelAccount, "id" | "city_id" | 
   if (!hotel.city_name.trim()) return "/inserzionista/crea-annuncio";
   return `/inserzionista/crea-annuncio?city_id=${encodeURIComponent(hotel.city_id ?? "")}&city=${encodeURIComponent(hotel.city_name)}&hotel_id=${encodeURIComponent(hotel.id)}`;
 }
-export function PublicShowcaseClient() {
+function mapInitialHotel(row: ShowcaseHomeHotel): HotelAccount {
+  return {
+    id: row.id,
+    slug: row.slug,
+    property_name: row.property_name,
+    structure_type: row.structure_type as StructureType,
+    provider_kind: row.provider_kind,
+    country_code: row.country_code,
+    city_name: row.city_name,
+    city_id: row.city_id,
+    specific_area: row.specific_area,
+    description: row.description,
+    public_email: row.public_email,
+    public_phone: row.public_phone,
+    website: null,
+    main_photo_url: row.main_photo_url,
+    points_of_interest: null,
+    services: null,
+    isOnboarding: row.isOnboarding,
+    google_maps_url: null,
+  };
+}
+
+type PublicShowcaseClientProps = {
+  initialData?: ShowcaseHomeInitialData | null;
+};
+
+export function PublicShowcaseClient({ initialData = null }: PublicShowcaseClientProps) {
   const { locale, t } = useLanguage();
   const structureTypeLabels = getStructureTypeLabels(locale);
   const router = useRouter();
   const searchParams = useSearchParams();
-  const [requests, setRequests] = useState<TravelRequest[]>([]);
-  const [hotels, setHotels] = useState<HotelAccount[]>([]);
+  const [requests, setRequests] = useState<TravelRequest[]>(() => (initialData?.requests as TravelRequest[]) ?? []);
+  const [hotels, setHotels] = useState<HotelAccount[]>(() => initialData?.hotels.map(mapInitialHotel) ?? []);
   const [offers, setOffers] = useState<Offer[]>([]);
   const [viewer, setViewer] = useState<Viewer>({
     userId: null,
@@ -230,13 +258,13 @@ export function PublicShowcaseClient() {
   });
   const [advertiserOfferCount, setAdvertiserOfferCount] = useState(0);
   const [selectedCity, setSelectedCity] = useState(() => createWorldCity("IT", ""));
-  const [loading, setLoading] = useState(true);
-  const [hotelsLoading, setHotelsLoading] = useState(true);
+  const [loading, setLoading] = useState(() => !initialData);
+  const [hotelsLoading, setHotelsLoading] = useState(() => !initialData?.hotels.length);
   const [error, setError] = useState<string | null>(null);
   const [acceptedRequestIds, setAcceptedRequestIds] = useState<Set<string>>(() => new Set());
-  const [structureOffers, setStructureOffers] = useState<CatalogOfferListItem[]>([]);
-  const [agencyOffers, setAgencyOffers] = useState<CatalogOfferListItem[]>([]);
-  const [offersLoading, setOffersLoading] = useState(true);
+  const [structureOffers, setStructureOffers] = useState<CatalogOfferListItem[]>(() => initialData?.structureOffers ?? []);
+  const [agencyOffers, setAgencyOffers] = useState<CatalogOfferListItem[]>(() => initialData?.agencyOffers ?? []);
+  const [offersLoading, setOffersLoading] = useState(() => !initialData);
   const [mapExploreOpen, setMapExploreOpen] = useState(false);
   const [dropBenefitsOpen, setDropBenefitsOpen] = useState(false);
   const [focusedHotelId, setFocusedHotelId] = useState<string | null>(null);
@@ -364,7 +392,8 @@ export function PublicShowcaseClient() {
   }
 
   async function loadShowcase() {
-    setLoading(true); setError(null);
+    if (!initialData) setLoading(true);
+    setError(null);
     try {
       const supabase = createBrowserSupabaseClient();
       const acceptedCutoff = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
@@ -418,7 +447,7 @@ export function PublicShowcaseClient() {
   useEffect(() => {
     let cancelled = false;
     async function loadHotels() {
-      setHotelsLoading(true);
+      if (!initialData?.hotels.length) setHotelsLoading(true);
       try {
         const supabase = createBrowserSupabaseClient();
         const hotelSelect =
@@ -488,7 +517,7 @@ export function PublicShowcaseClient() {
   useEffect(() => {
     let cancelled = false;
     async function loadOffers() {
-      setOffersLoading(true);
+      if (!initialData) setOffersLoading(true);
       try {
         const [hotelRes, agencyRes] = await Promise.all([
           hasSelectedCity && selectedCity.city_id

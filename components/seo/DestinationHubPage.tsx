@@ -1,7 +1,15 @@
 import Link from "next/link";
-import { ArrowLeft, Building2, MapPin } from "lucide-react";
+import { Building2, MapPin } from "lucide-react";
 import { CityHeroPlaceholder } from "@/components/seo/CityHeroPlaceholder";
-import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
+import { DestinationHowItWorksBlock } from "@/components/seo/DestinationHowItWorksBlock";
+import { RelatedDestinationsStrip } from "@/components/seo/RelatedDestinationsStrip";
+import { SeoBreadcrumb } from "@/components/seo/SeoBreadcrumb";
+import { getServerLocale } from "@/lib/i18n/get-translations";
+import {
+  getDestinationEditorial,
+  getDestinationHowItWorks,
+  getMarketingLabels,
+} from "@/lib/i18n/seo-marketing";
 import { buildDestinationIntro } from "@/lib/seo/destination-metadata";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import type { DestinationHub, DestinationStructureItem } from "@/lib/seo/destination-queries";
@@ -12,12 +20,14 @@ type Props = {
   items: DestinationStructureItem[];
   page: number;
   totalPages: number;
+  relatedDestinations?: DestinationHub[];
 };
 
-export async function DestinationHubPage({ hub, items, page, totalPages }: Props) {
-  const t = await getServerTranslations();
+export async function DestinationHubPage({ hub, items, page, totalPages, relatedDestinations = [] }: Props) {
   const locale = await getServerLocale();
+  const labels = getMarketingLabels(locale);
   const intro = buildDestinationIntro(hub, locale);
+  const editorial = getDestinationEditorial(hub.slug, hub.displayName, hub.structureCount, locale);
   const heroUrl = getDestinationCityPhoto(hub);
   const pageTitle =
     locale === "en"
@@ -26,12 +36,13 @@ export async function DestinationHubPage({ hub, items, page, totalPages }: Props
 
   return (
     <div className="space-y-6">
-      <Link
-        href="/"
-        className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white"
-      >
-        <ArrowLeft className="h-4 w-4" /> {t.hotel.backToShowcase}
-      </Link>
+      <SeoBreadcrumb
+        items={[
+          { label: locale === "en" ? "Home" : "Home", href: "/" },
+          { label: labels.destinationsNav, href: "/#destinazioni-popolari" },
+          { label: hub.displayName },
+        ]}
+      />
 
       <header className="overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
         {heroUrl ? (
@@ -49,6 +60,7 @@ export async function DestinationHubPage({ hub, items, page, totalPages }: Props
           </p>
           <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">{pageTitle}</h1>
           <p className="mt-4 max-w-3xl text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{intro}</p>
+          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{editorial}</p>
           <p className="mt-3 text-sm text-zinc-500">
             {locale === "en"
               ? `${hub.structureCount} indexed properties`
@@ -89,6 +101,20 @@ export async function DestinationHubPage({ hub, items, page, totalPages }: Props
           ))}
         </ul>
       </section>
+
+      {page === 1 ? (
+        <>
+          <DestinationHowItWorksBlock
+            title={labels.destinationHowItWorks}
+            bullets={getDestinationHowItWorks(locale, hub.displayName)}
+          />
+          <RelatedDestinationsStrip
+            title={labels.relatedDestinations}
+            destinations={relatedDestinations}
+            locale={locale}
+          />
+        </>
+      ) : null}
 
       {totalPages > 1 ? (
         <nav className="flex flex-wrap items-center justify-center gap-2" aria-label="Pagination">

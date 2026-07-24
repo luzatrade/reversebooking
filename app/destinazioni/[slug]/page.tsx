@@ -6,6 +6,7 @@ import { getServerLocale } from "@/lib/i18n/get-translations";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { buildDestinationMetadata } from "@/lib/seo/destination-metadata";
 import { fetchDestinationHubBySlug, fetchDestinationStructures } from "@/lib/seo/destination-queries";
+import { listRelatedDestinations } from "@/lib/seo/related-destinations";
 
 export const revalidate = 3600;
 
@@ -35,6 +36,9 @@ export default async function DestinationPage({ params, searchParams }: PageProp
 
   if (!result) notFound();
 
+  const relatedDestinations =
+    page === 1 ? await listRelatedDestinations(result.hub.slug, result.hub.countryCode) : [];
+
   const pageUrl =
     page === 1 ? canonicalUrl(`/destinazioni/${slug}`) : canonicalUrl(`/destinazioni/${slug}?page=${page}`);
 
@@ -42,7 +46,13 @@ export default async function DestinationPage({ params, searchParams }: PageProp
     <>
       <DestinationJsonLd hub={result.hub} items={result.items} pageUrl={pageUrl} />
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        <DestinationHubPage hub={result.hub} items={result.items} page={page} totalPages={result.totalPages} />
+        <DestinationHubPage
+          hub={result.hub}
+          items={result.items}
+          page={page}
+          totalPages={result.totalPages}
+          relatedDestinations={relatedDestinations}
+        />
       </main>
     </>
   );

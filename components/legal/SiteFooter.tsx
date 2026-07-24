@@ -4,6 +4,7 @@ import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { LegalFooterLinks } from "@/components/legal/LegalFooterLinks";
 import { company } from "@/lib/legal/company";
 import { formatMessage } from "@/lib/i18n/format";
+import { getMarketingLabels } from "@/lib/i18n/seo-marketing";
 
 const linkClass =
   "text-zinc-600 underline-offset-4 hover:text-zinc-900 hover:underline dark:text-zinc-400 dark:hover:text-zinc-100";
@@ -11,11 +12,15 @@ const linkClass =
 const metaLineClass = "text-xs leading-relaxed text-zinc-500";
 
 export function SiteFooter() {
-  const { t } = useLanguage();
+  const { t, locale } = useLanguage();
+  const labels = getMarketingLabels(locale);
 
   return (
     <footer className="mt-auto border-t border-zinc-200 bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-950">
       <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-8 sm:gap-8 sm:px-6 sm:py-10 lg:px-8">
+        <p className="max-w-3xl text-left text-sm font-medium leading-relaxed text-[#0f4c81]">
+          {labels.footerTagline}
+        </p>
         <div className="max-w-3xl text-left text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
           <p>{t.site.footerDescription}</p>
 

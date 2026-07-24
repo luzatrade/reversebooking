@@ -2,12 +2,14 @@
 
 import Link from "next/link";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
+import { getMarketingLabels } from "@/lib/i18n/seo-marketing";
 
 const linkClass =
   "text-zinc-600 underline-offset-4 hover:text-zinc-900 hover:underline dark:text-zinc-400 dark:hover:text-zinc-100";
 
 export function LegalFooterLinks({ className = "" }: { className?: string }) {
-  const { t } = useLanguage();
+  const { t, locale } = useLanguage();
+  const labels = getMarketingLabels(locale);
 
   return (
     <nav aria-label={t.site.legalLinksAria} className={className}>
@@ -31,6 +33,12 @@ export function LegalFooterLinks({ className = "" }: { className?: string }) {
       </Link>
       <Link className={linkClass} href="/cos-e-hotelsdrop">
         {t.site.legalNav.about}
+      </Link>
+      <Link className={linkClass} href="/#home-faq">
+        {labels.faqNav}
+      </Link>
+      <Link className={linkClass} href="/#destinazioni-popolari">
+        {labels.destinationsNav}
       </Link>
     </nav>
   );

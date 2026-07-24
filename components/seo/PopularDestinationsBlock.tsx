@@ -18,6 +18,7 @@ export async function PopularDestinationsBlock() {
 
   return (
     <section
+      id="destinazioni-popolari"
       aria-labelledby="popular-destinations-title"
       className="border-t border-zinc-200 bg-white px-4 py-10 dark:border-zinc-800 dark:bg-zinc-950 sm:px-6 lg:px-8"
     >
