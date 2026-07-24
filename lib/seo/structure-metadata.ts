@@ -35,7 +35,6 @@ function countryIsoCode(countryName: string) {
 export function buildStructureMetadata(record: StructureSeoRecord): Metadata {
   const title = buildStructureSeoTitle(record);
   const description = buildStructureSeoDescription(record);
-  const url = canonicalUrl(`/hotel/${record.slug}`);
   const images = [record.mainPhotoUrl, ...record.galleryPhotoUrls].filter(Boolean) as string[];
 
   return {

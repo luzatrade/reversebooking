@@ -45,7 +45,6 @@ export function buildDestinationMetadata(hub: DestinationHub, locale: Locale, pa
   const baseTitle = buildDestinationTitle(hub);
   const title = page > 1 ? `${baseTitle} · pag. ${page}` : baseTitle;
   const description = buildDestinationDescription(hub, locale);
-  const path = page > 1 ? `/destinazioni/${hub.slug}?page=${page}` : `/destinazioni/${hub.slug}`;
   const heroUrl = getDestinationCityPhoto(hub);
   const ogImages = heroUrl ? [{ url: heroUrl, alt: hub.displayName }] : undefined;
 
