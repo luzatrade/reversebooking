@@ -1,4 +1,5 @@
-import { getAppUrl } from "@/lib/legal/company";
+import { buildLlmsFullTxt, buildLlmsTxt } from "@/lib/seo/llms-content";
+import { publicSiteOrigin } from "@/lib/seo/site-url";
 import { listDestinationHubSlugs } from "@/lib/seo/destination-queries";
 import { listIndexableStructureSlugs } from "@/lib/seo/structure-queries";
 
@@ -14,7 +15,7 @@ const staticPaths = [
   "/condizioni-abbonamento",
   "/contatti",
   "/cos-e-hotelsdrop",
-  "/registazione",
+  "/registrazione",
   "/struttura",
 ];
 
@@ -26,9 +27,7 @@ export type SitemapEntry = {
 };
 
 function sitemapBaseUrl(): string {
-  const base = getAppUrl().replace(/\/$/, "");
-  if (base === "https://hotelsdrop.com") return "https://www.hotelsdrop.com";
-  return base;
+  return publicSiteOrigin();
 }
 
 function escapeXml(value: string): string {

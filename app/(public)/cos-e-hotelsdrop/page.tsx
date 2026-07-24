@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { HotelsDropAboutMarkup } from "@/components/legal/HotelsDropAboutMarkup";
-import { FaqAccordion } from "@/components/seo/FaqAccordion";
+import { FaqSection } from "@/components/seo/FaqSection";
 import { HowItWorksSteps } from "@/components/seo/HowItWorksSteps";
+import { JsonLdScript } from "@/components/seo/JsonLdScript";
 import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
 import {
   getAboutAudienceBlocks,
@@ -10,15 +11,22 @@ import {
   getMarketingLabels,
 } from "@/lib/i18n/seo-marketing";
 import { canonicalUrl } from "@/lib/seo/canonical";
+import { buildFaqPageJsonLd } from "@/lib/seo/faq-jsonld";
+import { BRAND_NAME } from "@/lib/legal/company";
+import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getServerTranslations();
+  const locale = await getServerLocale();
+  const title = `${t.metadata.aboutPageTitle} · ${BRAND_NAME}`;
+  const description = t.metadata.aboutPageDescription;
+
   return {
-    title: t.metadata.aboutPageTitle,
-    description: t.metadata.aboutPageDescription,
-    alternates: {
-      canonical: canonicalUrl("/cos-e-hotelsdrop"),
-    },
+    title: { absolute: title },
+    description,
+    alternates: buildLanguageAlternates("/cos-e-hotelsdrop"),
+    openGraph: buildOpenGraph({ title, description, path: "/cos-e-hotelsdrop", locale }),
+    twitter: buildTwitterCard({ title, description }),
   };
 }
 
@@ -27,9 +35,12 @@ export default async function CosEHotelsDropPage() {
   const locale = await getServerLocale();
   const labels = getMarketingLabels(locale);
   const audience = getAboutAudienceBlocks(locale);
+  const faqItems = getHomeFaq(locale);
+  const pageUrl = canonicalUrl("/cos-e-hotelsdrop");
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6 sm:py-12 lg:px-8">
+      <JsonLdScript data={buildFaqPageJsonLd(faqItems, pageUrl)} />
       <header className="max-w-2xl">
         <h1 className="text-2xl font-bold tracking-tight text-zinc-900 sm:text-3xl">
           {t.showcase.dropYourRequestModal.title}
@@ -61,7 +72,7 @@ export default async function CosEHotelsDropPage() {
       </div>
 
       <div className="mt-8 sm:mt-10">
-        <FaqAccordion items={getHomeFaq(locale)} title={labels.faqTitle} id="about-faq" compact />
+        <FaqSection items={faqItems} title={labels.faqTitle} id="about-faq" compact />
       </div>
     </div>
   );

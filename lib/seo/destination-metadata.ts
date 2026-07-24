@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { BRAND_NAME } from "@/lib/legal/company";
+import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import type { DestinationHub } from "@/lib/seo/destination-queries";
@@ -12,7 +13,7 @@ function trimDescription(value: string, max = 160) {
 }
 
 export function buildDestinationTitle(hub: DestinationHub) {
-  return `Hotel a ${hub.displayName} | ${BRAND_NAME}`;
+  return `Hotel a ${hub.displayName}`;
 }
 
 export function buildDestinationDescription(hub: DestinationHub, locale: Locale) {
@@ -45,25 +46,26 @@ export function buildDestinationMetadata(hub: DestinationHub, locale: Locale, pa
   const title = page > 1 ? `${baseTitle} · pag. ${page}` : baseTitle;
   const description = buildDestinationDescription(hub, locale);
   const path = page > 1 ? `/destinazioni/${hub.slug}?page=${page}` : `/destinazioni/${hub.slug}`;
-  const url = canonicalUrl(path);
   const heroUrl = getDestinationCityPhoto(hub);
   const ogImages = heroUrl ? [{ url: heroUrl, alt: hub.displayName }] : undefined;
 
   return {
-    title,
+    title: { absolute: title.endsWith(BRAND_NAME) ? title : `${title} · ${BRAND_NAME}` },
     description,
-    alternates: { canonical: canonicalUrl(`/destinazioni/${hub.slug}`) },
+    alternates: buildLanguageAlternates(`/destinazioni/${hub.slug}`),
     robots: { index: page === 1, follow: true },
-    openGraph: {
+    openGraph: buildOpenGraph({
       title,
       description,
-      url,
-      siteName: BRAND_NAME,
-      locale: locale === "en" ? "en_GB" : "it_IT",
-      type: "website",
-      ...(ogImages ? { images: ogImages } : {}),
-    },
-    ...(ogImages ? { twitter: { card: "summary_large_image", images: ogImages.map((image) => image.url) } } : {}),
+      path: `/destinazioni/${hub.slug}`,
+      locale,
+      images: ogImages,
+    }),
+    twitter: buildTwitterCard({
+      title,
+      description,
+      images: ogImages?.map((image) => image.url),
+    }),
   };
 }
 

@@ -1,7 +1,8 @@
 import { getAppUrl } from "@/lib/legal/company";
+import { publicSiteOrigin } from "@/lib/seo/site-url";
 
 export function canonicalUrl(path = "/"): string {
-  const base = getAppUrl().replace(/\/$/, "");
+  const base = publicSiteOrigin();
   if (!path || path === "/") return `${base}/`;
   const normalized = path.startsWith("/") ? path : `/${path}`;
   return `${base}${normalized}`;

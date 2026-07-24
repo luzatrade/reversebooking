@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { BRAND_NAME } from "@/lib/legal/company";
+import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
 import { buildDestinationSlug, destinationPublicPath } from "@/lib/seo/city-canonical";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import type { StructureSeoRecord } from "@/lib/seo/structure-queries";
@@ -21,7 +22,14 @@ export function buildStructureSeoDescription(record: StructureSeoRecord) {
 }
 
 export function buildStructureSeoTitle(record: StructureSeoRecord) {
-  return `${record.name} · ${record.cityName} | ${BRAND_NAME}`;
+  return `${record.name} · ${record.cityName}`;
+}
+
+function countryIsoCode(countryName: string) {
+  const normalized = countryName.trim().toLowerCase();
+  if (normalized === "italia" || normalized === "italy") return "IT";
+  if (normalized.length === 2) return normalized.toUpperCase();
+  return countryName;
 }
 
 export function buildStructureMetadata(record: StructureSeoRecord): Metadata {
@@ -31,25 +39,21 @@ export function buildStructureMetadata(record: StructureSeoRecord): Metadata {
   const images = [record.mainPhotoUrl, ...record.galleryPhotoUrls].filter(Boolean) as string[];
 
   return {
-    title,
+    title: { absolute: `${title} · ${BRAND_NAME}` },
     description,
-    alternates: { canonical: url },
+    alternates: buildLanguageAlternates(`/hotel/${record.slug}`),
     robots: { index: true, follow: true },
-    openGraph: {
-      title,
+    openGraph: buildOpenGraph({
+      title: `${title} · ${BRAND_NAME}`,
       description,
-      url,
-      siteName: BRAND_NAME,
-      locale: "it_IT",
-      type: "website",
-      ...(images[0] ? { images: [{ url: images[0], alt: record.name }] } : {}),
-    },
-    twitter: {
-      card: images[0] ? "summary_large_image" : "summary",
-      title,
+      path: `/hotel/${record.slug}`,
+      images: images[0] ? [{ url: images[0], alt: record.name }] : undefined,
+    }),
+    twitter: buildTwitterCard({
+      title: `${title} · ${BRAND_NAME}`,
       description,
-      ...(images[0] ? { images: [images[0]] } : {}),
-    },
+      images: images[0] ? [images[0]] : undefined,
+    }),
   };
 }
 
@@ -68,7 +72,7 @@ export function buildStructureJsonLd(record: StructureSeoRecord, pageUrl: string
       "@type": "PostalAddress",
       streetAddress: address,
       addressLocality: record.cityName,
-      addressCountry: record.countryName === "Italia" ? "IT" : record.countryName,
+      addressCountry: countryIsoCode(record.countryName),
     },
     ...(record.phone ? { telephone: record.phone } : {}),
     ...(record.email ? { email: record.email } : {}),

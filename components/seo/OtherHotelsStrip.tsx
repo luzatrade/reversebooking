@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Building2, MapPin } from "lucide-react";
+import { SeoImage } from "@/components/seo/SeoImage";
 import { structurePublicPath } from "@/lib/seo/slug";
 import type { DestinationStructureItem } from "@/lib/seo/destination-queries";
 
@@ -25,7 +26,7 @@ export function OtherHotelsStrip({ title, items, excludeSlug, locale }: Props) {
               className="flex h-full flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 transition hover:border-[#0f4c81]/30 hover:shadow-sm dark:border-zinc-800 dark:bg-zinc-950"
             >
               {item.mainPhotoUrl ? (
-                <img src={item.mainPhotoUrl} alt={item.name} className="h-32 w-full object-cover sm:h-36" />
+                <SeoImage src={item.mainPhotoUrl} alt={item.name} className="h-32 w-full object-cover sm:h-36" />
               ) : (
                 <div className="flex h-32 items-center justify-center bg-zinc-100 text-zinc-400 dark:bg-zinc-900 sm:h-36">
                   <Building2 className="h-8 w-8" aria-hidden="true" />

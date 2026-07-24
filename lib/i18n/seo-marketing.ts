@@ -20,9 +20,61 @@ const PREMIUM_DESTINATION_INTROS: Record<string, { it: string; en: string }> = {
     it: "Firenze attira viaggiatori per arte, enogastronomia e base per la Toscana. Su HotelsDrop le strutture fiorentine rispondono alla tua richiesta con offerte su misura per date, budget e servizi desiderati.",
     en: "Florence draws travellers for art, food and Tuscany trips. On HotelsDrop Florentine properties reply to your request with tailored offers for your dates, budget and preferred services.",
   },
-  venezia: {
-    it: "Venezia richiede pianificazione tra sestieri, isole e Mestre. Con HotelsDrop invii una richiesta chiara e le strutture veneziane ti propongono soluzioni dirette, senza commissioni sul viaggiatore.",
-    en: "Venice calls for planning across districts, islands and Mestre. With HotelsDrop you send a clear request and Venetian properties propose direct solutions, with no traveller commission.",
+  torino: {
+    it: "Torino unisce hotel business, boutique e B&B tra centro e Lingotto. Su HotelsDrop invii una richiesta e ricevi offerte dirette per eventi, ski trip verso le Alpi e city break.",
+    en: "Turin blends business hotels, boutiques and B&Bs across the centre and Lingotto. Send one HotelsDrop request and receive direct offers for events, alpine trips and city breaks.",
+  },
+  bologna: {
+    it: "Bologna è perfetta per food tour, università e fiere. Le strutture bolognesi su HotelsDrop rispondono con proposte su misura per budget, zona e servizi richiesti.",
+    en: "Bologna suits food tours, university visits and trade fairs. Bologna properties on HotelsDrop reply with offers tailored to your budget, area and required services.",
+  },
+  catania: {
+    it: "Catania è base ideale per Etna, mare e barocco siciliano. Pubblica la tua richiesta su HotelsDrop e confronta offerte dirette da hotel e B&B dell'area.",
+    en: "Catania is a strong base for Etna, the coast and Sicilian baroque. Publish your request on HotelsDrop and compare direct offers from local hotels and B&Bs.",
+  },
+  palermo: {
+    it: "Palermo concentra strutture tra centro storico, waterfront e aeroporto. Con HotelsDrop una richiesta raggiunge hotel e guest house compatibili con le tue date.",
+    en: "Palermo offers stays across the historic centre, waterfront and airport area. One HotelsDrop request reaches compatible hotels and guest houses for your dates.",
+  },
+  bari: {
+    it: "Bari e la Puglia attirano mare, borghi e itinerari slow. Su HotelsDrop le strutture pugliesi inviano proposte dirette senza commissioni per chi viaggia.",
+    en: "Bari and Puglia attract seaside stays, villages and slow travel. On HotelsDrop Apulian properties send direct offers with no traveller commission.",
+  },
+  verona: {
+    it: "Verona unisce Arena, romanticismo e prossimità al Lago di Garda. Invia una richiesta personalizzata e ricevi offerte da hotel e B&B veronesi.",
+    en: "Verona combines the Arena, romantic breaks and Lake Garda access. Send a personalised request and receive offers from Verona hotels and B&Bs.",
+  },
+  rimini: {
+    it: "Rimini e la Riviera romagnola sono ideali per mare, famiglie ed eventi. HotelsDrop mette in contatto la tua richiesta con hotel e residence della zona.",
+    en: "Rimini and the Romagna riviera suit beach holidays, families and events. HotelsDrop connects your request with local hotels and residences.",
+  },
+  parigi: {
+    it: "Parigi richiede scelta di quartiere: Marais, Saint-Germain, Montmartre. Su HotelsDrop invii una richiesta e ricevi proposte dirette da strutture parigine.",
+    en: "Paris calls for neighbourhood choice: Marais, Saint-Germain, Montmartre. On HotelsDrop you send one request and receive direct proposals from Paris properties.",
+  },
+  londra: {
+    it: "Londra offre hotel in City, Westminster e zone ben servite da metro. HotelsDrop semplifica il confronto con offerte dirette dalle strutture londinesi.",
+    en: "London offers hotels in the City, Westminster and well-connected districts. HotelsDrop simplifies comparison with direct offers from London properties.",
+  },
+  barcelona: {
+    it: "Barcellona combina Eixample, Barceloneta e Gràcia per ogni stile di viaggio. Pubblica la tua richiesta e ricevi offerte personalizzate dalle strutture catalane.",
+    en: "Barcelona spans Eixample, Barceloneta and Gràcia for every travel style. Publish your request and receive tailored offers from Catalan properties.",
+  },
+  amsterdam: {
+    it: "Amsterdam richiede pianificazione tra canali, musei e quartieri vivaci. Con HotelsDrop le strutture olandesi rispondono con offerte dirette alla tua richiesta.",
+    en: "Amsterdam rewards planning across canals, museums and lively districts. With HotelsDrop Dutch properties reply to your request with direct offers.",
+  },
+  berlino: {
+    it: "Berlino offre hotel creativi, business e boutique tra Mitte, Kreuzberg e Prenzlauer Berg. Su HotelsDrop confronti proposte dirette per il tuo soggiorno.",
+    en: "Berlin offers creative, business and boutique stays in Mitte, Kreuzberg and Prenzlauer Berg. On HotelsDrop you compare direct proposals for your stay.",
+  },
+  madrid: {
+    it: "Madrid concentra strutture vicino a Prado, Retiro e Gran Vía. Invia una richiesta su HotelsDrop e ricevi offerte dirette da hotel e appartamenti.",
+    en: "Madrid clusters properties near the Prado, Retiro and Gran Vía. Send a HotelsDrop request and receive direct offers from hotels and apartments.",
+  },
+  tokyo: {
+    it: "Tokyo richiede scelta di zona tra Shibuya, Shinjuku e Asakusa. HotelsDrop collega la tua richiesta con strutture giaponesi che rispondono con proposte su misura.",
+    en: "Tokyo requires choosing areas like Shibuya, Shinjuku and Asakusa. HotelsDrop connects your request with Japanese properties that reply with tailored offers.",
   },
 };
 

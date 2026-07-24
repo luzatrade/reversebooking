@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Building2, MapPin } from "lucide-react";
 import { CityHeroPlaceholder } from "@/components/seo/CityHeroPlaceholder";
+import { SeoImage } from "@/components/seo/SeoImage";
 import { DestinationHowItWorksBlock } from "@/components/seo/DestinationHowItWorksBlock";
 import { RelatedDestinationsStrip } from "@/components/seo/RelatedDestinationsStrip";
 import { SeoBreadcrumb } from "@/components/seo/SeoBreadcrumb";
@@ -46,10 +47,12 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
 
       <header className="overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
         {heroUrl ? (
-          <img
+          <SeoImage
             src={heroUrl}
             alt={hub.displayName}
             className="h-44 w-full object-cover sm:h-52 md:h-60"
+            priority
+            sizes="(max-width: 768px) 100vw, 1280px"
           />
         ) : (
           <CityHeroPlaceholder cityName={hub.displayName} className="h-44 sm:h-52 md:h-60" />
@@ -78,7 +81,7 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
                 className="flex h-full flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white transition hover:border-[#0f4c81]/30 hover:shadow-sm dark:border-zinc-800 dark:bg-zinc-900"
               >
                 {item.mainPhotoUrl ? (
-                  <img src={item.mainPhotoUrl} alt={item.name} className="h-36 w-full object-cover" />
+                  <SeoImage src={item.mainPhotoUrl} alt={item.name} className="h-36 w-full object-cover" />
                 ) : (
                   <div className="flex h-36 items-center justify-center bg-zinc-100 text-zinc-400 dark:bg-zinc-950">
                     <Building2 className="h-8 w-8" />

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CityHeroPlaceholder } from "@/components/seo/CityHeroPlaceholder";
+import { SeoImage } from "@/components/seo/SeoImage";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import { getServerLocale } from "@/lib/i18n/get-translations";
 import { listPopularDestinations } from "@/lib/seo/destination-queries";
@@ -43,7 +44,7 @@ export async function PopularDestinationsBlock() {
                   className="group block overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 transition hover:border-[#0f4c81]/30 hover:shadow-sm dark:border-zinc-800 dark:bg-zinc-900"
                 >
                   {image ? (
-                    <img
+                    <SeoImage
                       src={image}
                       alt={label}
                       className="h-28 w-full object-cover transition group-hover:scale-[1.02]"

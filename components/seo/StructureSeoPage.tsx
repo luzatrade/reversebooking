@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { ExternalLink, Globe, Mail, MapPin, Phone, PhoneCall } from "lucide-react";
-import { FaqAccordion } from "@/components/seo/FaqAccordion";
+import { FaqSection } from "@/components/seo/FaqSection";
+import { JsonLdScript } from "@/components/seo/JsonLdScript";
+import { SeoImage } from "@/components/seo/SeoImage";
 import { OtherHotelsStrip } from "@/components/seo/OtherHotelsStrip";
 import { SeoBreadcrumb } from "@/components/seo/SeoBreadcrumb";
 import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
@@ -14,6 +16,8 @@ import {
 import { buildDestinationSlug, destinationPublicPath } from "@/lib/seo/city-canonical";
 import { fetchDestinationHubBySlug, fetchDestinationStructures } from "@/lib/seo/destination-queries";
 import { getHotelFaq, getMarketingLabels } from "@/lib/i18n/seo-marketing";
+import { buildFaqPageJsonLd } from "@/lib/seo/faq-jsonld";
+import { canonicalUrl } from "@/lib/seo/canonical";
 import type { StructureSeoRecord } from "@/lib/seo/structure-queries";
 
 type Props = {
@@ -37,8 +41,11 @@ export async function StructureSeoPage({ record }: Props) {
   const profileLabel = isOnboarding ? t.hotel.catalogProfileLabel : t.hotel.structureProfileLabel;
   const kindLabel = isOnboarding ? t.hotel.lodgingKind : record.structureType ?? t.hotel.lodgingKind;
 
+  const pageUrl = canonicalUrl(`/hotel/${record.slug}`);
+
   return (
     <div className="space-y-6">
+      <JsonLdScript data={buildFaqPageJsonLd(getHotelFaq(locale), pageUrl)} />
       <SeoBreadcrumb
         items={[
           { label: locale === "en" ? "Home" : "Home", href: "/" },
@@ -56,10 +63,12 @@ export async function StructureSeoPage({ record }: Props) {
 
       <article className="overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
         {record.mainPhotoUrl ? (
-          <img
+          <SeoImage
             src={record.mainPhotoUrl}
             alt={record.name}
             className="h-48 w-full object-cover sm:h-64 md:h-72"
+            priority
+            sizes="(max-width: 768px) 100vw, 896px"
           />
         ) : (
           <div className="flex h-48 items-center justify-center bg-zinc-100 text-sm text-zinc-500 dark:bg-zinc-950 sm:h-64 md:h-72">
@@ -117,11 +126,12 @@ export async function StructureSeoPage({ record }: Props) {
           {record.galleryPhotoUrls.length ? (
             <div className="mt-4 grid grid-cols-2 gap-2 sm:mt-6 sm:grid-cols-2 sm:gap-3 lg:grid-cols-3">
               {record.galleryPhotoUrls.map((photo) => (
-                <img
+                <SeoImage
                   key={photo}
                   src={photo}
                   alt={record.name}
                   className="h-28 w-full rounded-xl object-cover sm:h-36 sm:rounded-2xl"
+                  sizes="(max-width: 640px) 50vw, 33vw"
                 />
               ))}
             </div>
@@ -210,7 +220,7 @@ export async function StructureSeoPage({ record }: Props) {
         />
       ) : null}
 
-      <FaqAccordion items={getHotelFaq(locale)} title={labels.faqTitle} compact />
+      <FaqSection items={getHotelFaq(locale)} title={labels.faqTitle} compact />
     </div>
   );
 }

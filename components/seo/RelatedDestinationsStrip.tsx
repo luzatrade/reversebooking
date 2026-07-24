@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CityHeroPlaceholder } from "@/components/seo/CityHeroPlaceholder";
+import { SeoImage } from "@/components/seo/SeoImage";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import type { DestinationHub } from "@/lib/seo/destination-queries";
 
@@ -59,7 +60,7 @@ export function RelatedDestinationsStrip({ title, destinations, locale }: Props)
                 className="group block overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 transition hover:border-[#0f4c81]/30 hover:shadow-sm dark:border-zinc-800 dark:bg-zinc-950"
               >
                 {image ? (
-                  <img src={image} alt={label} className="h-20 w-full object-cover transition group-hover:scale-[1.02] sm:h-24" />
+                  <SeoImage src={image} alt={label} className="h-20 w-full object-cover transition group-hover:scale-[1.02] sm:h-24" />
                 ) : (
                   <CityHeroPlaceholder cityName={label} className="h-20 sm:h-24" />
                 )}
