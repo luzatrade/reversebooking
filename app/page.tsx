@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { HomeAdvertiserAlerts } from "@/components/showcase/HomeAdvertiserAlerts";
 import { HomeHotelAlerts } from "@/components/showcase/HomeHotelAlerts";
-import { HomeSeoInventoryStrip } from "@/components/showcase/HomeSeoInventoryStrip";
 import { PublicShowcaseClient } from "@/components/showcase/PublicShowcaseClient";
+import { HomeBottomSections } from "@/components/seo/HomeBottomSections";
 import { HomeMarketingSections } from "@/components/seo/HomeMarketingSections";
 import { JsonLdScript } from "@/components/seo/JsonLdScript";
 import { PopularDestinationsBlock } from "@/components/seo/PopularDestinationsBlock";
@@ -48,9 +48,9 @@ export default async function HomePage() {
       <Suspense fallback={null}>
         <PublicShowcaseClient initialData={initialData} />
       </Suspense>
-      <HomeSeoInventoryStrip initialData={initialData} />
       <HomeMarketingSections />
       <PopularDestinationsBlock />
+      <HomeBottomSections initialData={initialData} />
     </div>
   );
 }
