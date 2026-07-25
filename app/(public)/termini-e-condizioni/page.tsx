@@ -2,11 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { LegalPageShell } from "@/components/legal/LegalPageShell";
 import { company } from "@/lib/legal/company";
+import { buildPublicPageMetadata } from "@/lib/seo/public-page-metadata";
 
-export const metadata: Metadata = {
-  title: "Termini e Condizioni",
-  description: `Termini e condizioni generali di utilizzo di ${company.companyName}.`,
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildPublicPageMetadata(
+    "/termini-e-condizioni",
+    "Termini e Condizioni",
+    `Termini e condizioni generali di utilizzo di ${company.companyName}.`,
+  );
+}
 
 export default function TerminiPage() {
   return (

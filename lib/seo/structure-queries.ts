@@ -142,6 +142,24 @@ export async function fetchOnboardingSlugById(id: string): Promise<string | null
   return null;
 }
 
+export async function resolveSlugFromPrevious(slug: string): Promise<string | null> {
+  const admin = createServiceRoleClient();
+  if (!admin) return null;
+
+  for (const table of ["hotel_accounts", "onboarding_hotels"] as const) {
+    const { data } = await admin
+      .from(table)
+      .select("slug")
+      .contains("slug_previous", [slug])
+      .eq("seo_indexable", true)
+      .maybeSingle();
+
+    if (data?.slug) return String(data.slug);
+  }
+
+  return null;
+}
+
 export async function listIndexableStructureSlugs(limit = 50000): Promise<string[]> {
   const admin = createServiceRoleClient();
   if (!admin) return [];

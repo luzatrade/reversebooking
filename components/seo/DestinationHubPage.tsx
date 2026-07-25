@@ -16,7 +16,7 @@ import {
 import { buildDestinationIntro } from "@/lib/seo/destination-metadata";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import type { DestinationHub, DestinationStructureItem } from "@/lib/seo/destination-queries";
-import { structurePublicPath } from "@/lib/seo/slug";
+import { destinationPublicPath, homePath, localizedPath, structurePublicPath } from "@/lib/i18n/routing";
 
 type Props = {
   hub: DestinationHub;
@@ -41,8 +41,8 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
     <div className="space-y-6">
       <SeoBreadcrumb
         items={[
-          { label: locale === "en" ? "Home" : "Home", href: "/" },
-          { label: labels.destinationsNav, href: "/#destinazioni-popolari" },
+          { label: locale === "en" ? "Home" : "Home", href: homePath(locale) },
+          { label: labels.destinationsNav, href: localizedPath(locale, "/destinazioni") },
           { label: hub.displayName },
         ]}
       />
@@ -79,7 +79,7 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
           {items.map((item) => (
             <li key={item.slug}>
               <Link
-                href={structurePublicPath(item.slug)}
+                href={structurePublicPath(item.slug, locale)}
                 className="flex h-full flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-white transition hover:border-[#0f4c81]/30 hover:shadow-sm dark:border-zinc-800 dark:bg-zinc-900"
               >
                 {item.mainPhotoUrl ? (
@@ -130,7 +130,10 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
         <nav className="flex flex-wrap items-center justify-center gap-2" aria-label="Pagination">
           {Array.from({ length: totalPages }, (_, index) => {
             const pageNumber = index + 1;
-            const href = pageNumber === 1 ? `/destinazioni/${hub.slug}` : `/destinazioni/${hub.slug}?page=${pageNumber}`;
+            const href =
+              pageNumber === 1
+                ? destinationPublicPath(hub.slug, locale)
+                : `${destinationPublicPath(hub.slug, locale)}?page=${pageNumber}`;
             const isCurrent = pageNumber === page;
             return (
               <Link

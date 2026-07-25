@@ -169,6 +169,11 @@ export async function listDestinationHubSlugs(): Promise<string[]> {
   return [...index.hubs.keys()].sort();
 }
 
+export async function listAllDestinationHubs(): Promise<DestinationHub[]> {
+  const index = await loadDestinationIndex();
+  return [...index.hubs.values()].sort((a, b) => a.displayName.localeCompare(b.displayName, "it"));
+}
+
 export async function listPopularDestinations(): Promise<DestinationHub[]> {
   const index = await loadDestinationIndex();
   const results: DestinationHub[] = [];

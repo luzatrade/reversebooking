@@ -13,7 +13,9 @@ import {
   buildWhatsAppHref,
   normalizeWebsiteUrl,
 } from "@/lib/hotels/publicContactLinks";
-import { buildDestinationSlug, destinationPublicPath } from "@/lib/seo/city-canonical";
+import { buildDestinationSlug } from "@/lib/seo/city-canonical";
+import { destinationPublicPath, localizedPath, structurePublicPath } from "@/lib/i18n/routing";
+import { buildStructureSeoDescription as generateStructureDescription } from "@/lib/seo/structure-description";
 import { fetchDestinationHubBySlug, fetchDestinationStructures } from "@/lib/seo/destination-queries";
 import { getHotelFaq, getMarketingLabels } from "@/lib/i18n/seo-marketing";
 import { buildFaqPageJsonLd } from "@/lib/seo/faq-jsonld";
@@ -41,19 +43,20 @@ export async function StructureSeoPage({ record }: Props) {
   const profileLabel = isOnboarding ? t.hotel.catalogProfileLabel : t.hotel.structureProfileLabel;
   const kindLabel = isOnboarding ? t.hotel.lodgingKind : record.structureType ?? t.hotel.lodgingKind;
 
-  const pageUrl = canonicalUrl(`/hotel/${record.slug}`);
+  const seoDescription = generateStructureDescription(record, locale);
+  const pageUrl = canonicalUrl(localizedPath(locale, `/hotel/${record.slug}`));
 
   return (
     <div className="space-y-6">
       <JsonLdScript data={buildFaqPageJsonLd(getHotelFaq(locale), pageUrl)} />
       <SeoBreadcrumb
         items={[
-          { label: locale === "en" ? "Home" : "Home", href: "/" },
+          { label: locale === "en" ? "Home" : "Home", href: localizedPath(locale, "/") },
           ...(destinationHub
             ? [
                 {
                   label: locale === "en" ? `Hotels in ${destinationHub.displayName}` : `Hotel a ${destinationHub.displayName}`,
-                  href: destinationPublicPath(destinationHub.slug),
+                  href: destinationPublicPath(destinationHub.slug, locale),
                 },
               ]
             : []),
@@ -84,9 +87,7 @@ export async function StructureSeoPage({ record }: Props) {
           </p>
           <p className="mt-1 text-sm text-zinc-500">{addressLine}</p>
 
-          {record.description ? (
-            <p className="mt-4 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{record.description}</p>
-          ) : null}
+          <p className="mt-4 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{seoDescription}</p>
 
           {isOnboarding && !isClaimed && !isPendingVerification ? (
             <div className="mt-5 rounded-2xl border border-amber-200 bg-amber-50 p-4 dark:border-amber-900/40 dark:bg-amber-950/30">
@@ -113,7 +114,7 @@ export async function StructureSeoPage({ record }: Props) {
           {destinationHub ? (
             <p className="mt-4">
               <Link
-                href={destinationPublicPath(destinationHub.slug)}
+                href={destinationPublicPath(destinationHub.slug, locale)}
                 className="text-sm font-semibold text-[#0f4c81] hover:underline"
               >
                 {locale === "en"

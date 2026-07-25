@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { CityHeroPlaceholder } from "@/components/seo/CityHeroPlaceholder";
 import { SeoImage } from "@/components/seo/SeoImage";
+import { destinationPublicPath, localizedPath } from "@/lib/i18n/routing";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import { getServerLocale } from "@/lib/i18n/get-translations";
 import { listPopularDestinations } from "@/lib/seo/destination-queries";
@@ -29,6 +30,12 @@ export async function PopularDestinationsBlock() {
             {title}
           </h2>
           <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">{subtitle}</p>
+          <Link
+            href={localizedPath(locale, "/destinazioni")}
+            className="mt-3 inline-flex text-sm font-semibold text-[#0f4c81] hover:underline"
+          >
+            {locale === "en" ? "View all destinations →" : "Vedi tutte le destinazioni →"}
+          </Link>
         </div>
 
         <ul className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
@@ -40,7 +47,7 @@ export async function PopularDestinationsBlock() {
             return (
               <li key={destination.slug}>
                 <Link
-                  href={`/destinazioni/${destination.slug}`}
+                  href={destinationPublicPath(destination.slug, locale)}
                   className="group block overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 transition hover:border-[#0f4c81]/30 hover:shadow-sm dark:border-zinc-800 dark:bg-zinc-900"
                 >
                   {image ? (

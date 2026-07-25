@@ -51,7 +51,7 @@ export function buildDestinationMetadata(hub: DestinationHub, locale: Locale, pa
   return {
     title: { absolute: title.endsWith(BRAND_NAME) ? title : `${title} · ${BRAND_NAME}` },
     description,
-    alternates: buildLanguageAlternates(`/destinazioni/${hub.slug}`),
+    alternates: buildLanguageAlternates(`/destinazioni/${hub.slug}`, locale),
     robots: { index: page === 1, follow: true },
     openGraph: buildOpenGraph({
       title,

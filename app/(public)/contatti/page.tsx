@@ -5,14 +5,14 @@ import {
   formatLegalAddress,
   type CompanyContactEmailId,
 } from "@/lib/legal/company";
-import { getServerTranslations } from "@/lib/i18n/get-translations";
+import { JsonLdScript } from "@/components/seo/JsonLdScript";
+import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
+import { buildContactPageJsonLd } from "@/lib/seo/contact-jsonld";
+import { buildPublicPageMetadata } from "@/lib/seo/public-page-metadata";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getServerTranslations();
-  return {
-    title: t.metadata.contactsTitle,
-    description: t.metadata.contactsDescription,
-  };
+  return buildPublicPageMetadata("/contatti", t.metadata.contactsTitle, t.metadata.contactsDescription);
 }
 
 function CompanyField({
@@ -34,10 +34,12 @@ function CompanyField({
 
 export default async function ContattiPage() {
   const t = await getServerTranslations();
+  const locale = await getServerLocale();
   const phoneHref = `tel:${company.phone.replace(/\s/g, "")}`;
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-10 sm:px-6 sm:py-12 lg:px-8">
+      <JsonLdScript data={buildContactPageJsonLd(locale)} />
       <header className="max-w-2xl">
         <h1 className="text-2xl font-semibold tracking-tight text-zinc-900 sm:text-3xl dark:text-zinc-50">
           {t.contact.title}

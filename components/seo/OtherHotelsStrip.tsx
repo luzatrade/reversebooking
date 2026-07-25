@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Building2, MapPin } from "lucide-react";
 import { SeoImage } from "@/components/seo/SeoImage";
-import { structurePublicPath } from "@/lib/seo/slug";
+import { structurePublicPath } from "@/lib/i18n/routing";
 import type { DestinationStructureItem } from "@/lib/seo/destination-queries";
 
 type Props = {
@@ -22,7 +22,7 @@ export function OtherHotelsStrip({ title, items, excludeSlug, locale }: Props) {
         {visible.map((item) => (
           <li key={item.slug}>
             <Link
-              href={structurePublicPath(item.slug)}
+              href={structurePublicPath(item.slug, locale)}
               className="flex h-full flex-col overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 transition hover:border-[#0f4c81]/30 hover:shadow-sm dark:border-zinc-800 dark:bg-zinc-950"
             >
               {item.mainPhotoUrl ? (

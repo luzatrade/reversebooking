@@ -673,9 +673,9 @@ export function PublicShowcaseClient({ initialData = null }: PublicShowcaseClien
           <div className="flex flex-wrap items-center gap-2">
             <a href={mapsHref(hotel)} target="_blank" rel="noreferrer" className={ctaMaps}><MapPin className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardMap}</a>
             {hotel.isOnboarding ? (
-              <Link href={structureProfileHref({ id: hotel.id, isOnboarding: true, slug: hotel.slug ?? null })} className={ctaProfile}>{t.showcase.cardProfile}</Link>
+              <Link href={structureProfileHref({ id: hotel.id, isOnboarding: true, slug: hotel.slug ?? null }, locale)} className={ctaProfile}>{t.showcase.cardProfile}</Link>
             ) : (
-              <Link href={structureProfileHref({ id: hotel.id, isOnboarding: false, slug: hotel.slug ?? null })} className={ctaProfile}>{t.showcase.cardProfile}</Link>
+              <Link href={structureProfileHref({ id: hotel.id, isOnboarding: false, slug: hotel.slug ?? null }, locale)} className={ctaProfile}>{t.showcase.cardProfile}</Link>
             )}
             {viewer.role !== "hotel" ? (
               <Link href={createRequestHrefForHotel(hotel)} className={ctaRequest}><Euro className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardRequest}</Link>
@@ -704,7 +704,7 @@ export function PublicShowcaseClient({ initialData = null }: PublicShowcaseClien
           <div className="mt-4 flex-1" />
           <div className="flex flex-wrap items-center gap-2">
             <a href={mapsHref(agency)} target="_blank" rel="noreferrer" className={ctaMaps}><MapPin className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardMap}</a>
-            <Link href={structureProfileHref({ id: agency.id, isOnboarding: false, slug: agency.slug ?? null })} className={ctaProfile}>{t.showcase.cardProfile}</Link>
+            <Link href={structureProfileHref({ id: agency.id, isOnboarding: false, slug: agency.slug ?? null }, locale)} className={ctaProfile}>{t.showcase.cardProfile}</Link>
           </div>
         </div>
       </article>

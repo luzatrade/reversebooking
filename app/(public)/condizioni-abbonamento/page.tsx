@@ -2,11 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { LegalPageShell } from "@/components/legal/LegalPageShell";
 import { company } from "@/lib/legal/company";
+import { buildPublicPageMetadata } from "@/lib/seo/public-page-metadata";
 
-export const metadata: Metadata = {
-  title: "Condizioni abbonamento",
-  description: `Condizioni economiche dell’abbonamento per strutture ricettive su ${company.companyName}.`,
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildPublicPageMetadata(
+    "/condizioni-abbonamento",
+    "Condizioni abbonamento",
+    `Condizioni economiche dell'abbonamento per strutture ricettive su ${company.companyName}.`,
+  );
+}
 
 export default function CondizioniAbbonamentoPage() {
   return (

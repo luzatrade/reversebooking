@@ -3,10 +3,15 @@ import { notFound, permanentRedirect } from "next/navigation";
 import { PublicHotelProfile } from "@/components/hotels/PublicHotelProfile";
 import { StructureJsonLd } from "@/components/seo/StructureJsonLd";
 import { StructureSeoPage } from "@/components/seo/StructureSeoPage";
-import { getServerTranslations } from "@/lib/i18n/get-translations";
+import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
+import { localizedPath, structurePublicPath } from "@/lib/i18n/routing";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { buildStructureMetadata } from "@/lib/seo/structure-metadata";
-import { fetchStructureBySlug, resolveSlugByUuid } from "@/lib/seo/structure-queries";
+import {
+  fetchStructureBySlug,
+  resolveSlugByUuid,
+  resolveSlugFromPrevious,
+} from "@/lib/seo/structure-queries";
 import { isUuid } from "@/lib/seo/uuid";
 
 export const revalidate = 3600;
@@ -18,15 +23,16 @@ type PageProps = {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { id } = await params;
   const t = await getServerTranslations();
+  const locale = await getServerLocale();
 
   if (!isUuid(id)) {
     const record = await fetchStructureBySlug(id);
-    if (record) return buildStructureMetadata(record);
+    if (record) return buildStructureMetadata(record, locale);
   } else {
     const slug = await resolveSlugByUuid(id);
     if (slug) {
       const record = await fetchStructureBySlug(slug);
-      if (record) return buildStructureMetadata(record);
+      if (record) return buildStructureMetadata(record, locale);
     }
   }
 
@@ -34,17 +40,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: t.metadata.publicHotelProfileTitle,
     description: t.metadata.publicHotelProfileDescription,
     alternates: {
-      canonical: canonicalUrl(`/hotel/${id}`),
+      canonical: canonicalUrl(localizedPath(locale, `/hotel/${id}`)),
     },
   };
 }
 
 export default async function Page({ params }: PageProps) {
   const { id } = await params;
+  const locale = await getServerLocale();
 
   if (isUuid(id)) {
     const slug = await resolveSlugByUuid(id);
-    if (slug) permanentRedirect(`/hotel/${slug}`);
+    if (slug) permanentRedirect(structurePublicPath(slug, locale));
 
     return (
       <main className="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
@@ -53,8 +60,12 @@ export default async function Page({ params }: PageProps) {
     );
   }
 
-  const record = await fetchStructureBySlug(id);
-  if (!record) notFound();
+  let record = await fetchStructureBySlug(id);
+  if (!record) {
+    const currentSlug = await resolveSlugFromPrevious(id);
+    if (currentSlug) permanentRedirect(structurePublicPath(currentSlug, locale));
+    notFound();
+  }
 
   return (
     <>

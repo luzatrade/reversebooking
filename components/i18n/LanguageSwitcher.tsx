@@ -1,7 +1,9 @@
 "use client";
 
 import { Globe2 } from "lucide-react";
+import { usePathname, useRouter } from "next/navigation";
 import { localeLabels, supportedLocales, type Locale } from "@/lib/i18n/translations";
+import { switchLocalePath } from "@/lib/i18n/routing";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 
 const localeFlags: Record<Locale, string> = {
@@ -15,6 +17,14 @@ type LanguageSwitcherProps = {
 
 export function LanguageSwitcher({ compact = false }: LanguageSwitcherProps) {
   const { locale, setLocale, t } = useLanguage();
+  const pathname = usePathname();
+  const router = useRouter();
+
+  const onChange = (nextLocale: Locale) => {
+    setLocale(nextLocale);
+    const target = switchLocalePath(pathname, nextLocale);
+    if (target !== pathname) router.push(target);
+  };
 
   const options = supportedLocales.map((item) => (
     <option key={item} value={item}>
@@ -22,8 +32,6 @@ export function LanguageSwitcher({ compact = false }: LanguageSwitcherProps) {
     </option>
   ));
 
-  // Variante compatta: solo la bandiera, niente icona globo né freccetta.
-  // La <select> nativa resta sopra (trasparente) per aprire il menu.
   if (compact) {
     return (
       <label className="relative inline-flex h-7 cursor-pointer select-none items-center justify-center rounded-full border border-slate-200 bg-white px-2.5 shadow-sm transition focus-within:ring-2 focus-within:ring-slate-300 hover:bg-slate-50 sm:h-8">
@@ -33,7 +41,7 @@ export function LanguageSwitcher({ compact = false }: LanguageSwitcherProps) {
         </span>
         <select
           value={locale}
-          onChange={(event) => setLocale(event.target.value as Locale)}
+          onChange={(event) => onChange(event.target.value as Locale)}
           aria-label={t.common.language}
           className="absolute inset-0 h-full w-full cursor-pointer appearance-none opacity-0"
         >
@@ -49,7 +57,7 @@ export function LanguageSwitcher({ compact = false }: LanguageSwitcherProps) {
       <span className="sr-only">{t.common.language}</span>
       <select
         value={locale}
-        onChange={(event) => setLocale(event.target.value as Locale)}
+        onChange={(event) => onChange(event.target.value as Locale)}
         className="bg-transparent text-sm outline-none"
       >
         {options}

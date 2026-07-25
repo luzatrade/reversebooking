@@ -65,6 +65,7 @@ export function buildDestinationSlug(cityName: string) {
   return slugifySeo(canonicalCityKey(cityName), 64);
 }
 
+/** Internal unprefixed path — middleware 301s to /it/… for SEO. Prefer `@/lib/i18n/routing`. */
 export function destinationPublicPath(cityNameOrSlug: string) {
   const slug = cityNameOrSlug.includes("-") && !cityNameOrSlug.includes(" ")
     ? slugifySeo(cityNameOrSlug, 64)
