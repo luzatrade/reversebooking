@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { CityHeroPlaceholder } from "@/components/seo/CityHeroPlaceholder";
 import { SeoImage } from "@/components/seo/SeoImage";
+import { destinationPublicPath } from "@/lib/i18n/routing";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import type { DestinationHub } from "@/lib/seo/destination-queries";
 
@@ -56,7 +57,7 @@ export function RelatedDestinationsStrip({ title, destinations, locale }: Props)
           return (
             <li key={destination.slug}>
               <Link
-                href={`/destinazioni/${destination.slug}`}
+                href={destinationPublicPath(destination.slug, locale)}
                 className="group block overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 transition hover:border-[#0f4c81]/30 hover:shadow-sm dark:border-zinc-800 dark:bg-zinc-950"
               >
                 {image ? (

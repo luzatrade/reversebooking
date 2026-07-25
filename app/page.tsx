@@ -7,9 +7,12 @@ import { HomeMarketingSections } from "@/components/seo/HomeMarketingSections";
 import { JsonLdScript } from "@/components/seo/JsonLdScript";
 import { PopularDestinationsBlock } from "@/components/seo/PopularDestinationsBlock";
 import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
-import { getHomeFaq } from "@/lib/i18n/seo-marketing";
+import { localizedPath } from "@/lib/i18n/routing";
+import { getHomeFaq, getHomeHowItWorks } from "@/lib/i18n/seo-marketing";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { buildFaqPageJsonLd } from "@/lib/seo/faq-jsonld";
+import { buildHowToJsonLd } from "@/lib/seo/howto-jsonld";
+import { buildMarketplaceServiceJsonLd } from "@/lib/seo/service-jsonld";
 import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
 import { fetchShowcaseHomeInitialData } from "@/lib/showcase/homeData";
 
@@ -22,7 +25,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const description = t.metadata.siteDescription;
 
   return {
-    alternates: buildLanguageAlternates("/"),
+    alternates: buildLanguageAlternates("/", locale),
     openGraph: buildOpenGraph({ title, description, path: "/", locale }),
     twitter: buildTwitterCard({ title, description }),
   };
@@ -32,11 +35,13 @@ export default async function HomePage() {
   const locale = await getServerLocale();
   const initialData = await fetchShowcaseHomeInitialData();
   const faqItems = getHomeFaq(locale);
-  const pageUrl = canonicalUrl("/");
+  const pageUrl = canonicalUrl(localizedPath(locale, "/"));
 
   return (
     <div className="rb-soft-white-home">
       <JsonLdScript data={buildFaqPageJsonLd(faqItems, pageUrl)} />
+      <JsonLdScript data={buildHowToJsonLd(getHomeHowItWorks(locale), locale, "/")} />
+      <JsonLdScript data={buildMarketplaceServiceJsonLd(locale, "/")} />
       <HomeAdvertiserAlerts />
       <HomeHotelAlerts />
       <Suspense fallback={null}>

@@ -1,18 +1,20 @@
 import type { Metadata } from "next";
 import { BRAND_NAME } from "@/lib/legal/company";
+import { allLocalizedPaths, localizedPath } from "@/lib/i18n/routing";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { DEFAULT_OG_IMAGE } from "@/lib/seo/site-url";
 import type { Locale } from "@/lib/i18n/translations";
 
-export function buildLanguageAlternates(path = "/") {
-  const canonical = canonicalUrl(path);
+/** Internal app path (without /it or /en) → canonical + hreflang alternates. */
+export function buildLanguageAlternates(internalPath = "/", locale: Locale = "it") {
+  const canonical = canonicalUrl(localizedPath(locale, internalPath));
+  const languages = Object.fromEntries(
+    Object.entries(allLocalizedPaths(internalPath)).map(([code, path]) => [code, canonicalUrl(path)]),
+  );
+
   return {
     canonical,
-    languages: {
-      "it-IT": canonical,
-      "en-GB": canonical,
-      "x-default": canonical,
-    },
+    languages,
   };
 }
 
@@ -23,8 +25,8 @@ export function buildOpenGraph(params: {
   locale?: Locale;
   images?: { url: string; alt?: string }[];
 }): Metadata["openGraph"] {
-  const url = canonicalUrl(params.path ?? "/");
   const locale = params.locale ?? "it";
+  const url = canonicalUrl(localizedPath(locale, params.path ?? "/"));
   const images = params.images?.length
     ? params.images
     : [{ url: DEFAULT_OG_IMAGE, alt: BRAND_NAME }];

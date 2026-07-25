@@ -73,8 +73,64 @@ const PREMIUM_DESTINATION_INTROS: Record<string, { it: string; en: string }> = {
     en: "Madrid clusters properties near the Prado, Retiro and Gran Vía. Send a HotelsDrop request and receive direct offers from hotels and apartments.",
   },
   tokyo: {
-    it: "Tokyo richiede scelta di zona tra Shibuya, Shinjuku e Asakusa. HotelsDrop collega la tua richiesta con strutture giaponesi che rispondono con proposte su misura.",
+    it: "Tokyo richiede scelta di zona tra Shibuya, Shinjuku e Asakusa. HotelsDrop collega la tua richiesta con strutture giapponesi che rispondono con proposte su misura.",
     en: "Tokyo requires choosing areas like Shibuya, Shinjuku and Asakusa. HotelsDrop connects your request with Japanese properties that reply with tailored offers.",
+  },
+  venezia: {
+    it: "Venezia offre hotel e B&B tra San Marco, Cannaregio e Mestre. Su HotelsDrop invii una richiesta e ricevi offerte dirette dalle strutture venete.",
+    en: "Venice offers hotels and B&Bs across San Marco, Cannaregio and Mestre. Send one HotelsDrop request and receive direct offers from Venetian properties.",
+  },
+  genova: {
+    it: "Genova unisce porto, centro storico e Riviera di Levante. HotelsDrop mette in contatto la tua richiesta con hotel e B&B della Superba.",
+    en: "Genoa blends its port, historic centre and the Levante riviera. HotelsDrop connects your request with local hotels and B&Bs.",
+  },
+  padova: {
+    it: "Padova è ideale per università, cultura e prossimità a Venezia. Le strutture padovane su HotelsDrop rispondono con offerte su misura.",
+    en: "Padua suits university visits, culture and Venice day trips. Padua properties on HotelsDrop reply with tailored offers.",
+  },
+  trieste: {
+    it: "Trieste unisce Europa centrale e Adriatico. Su HotelsDrop confronti proposte dirette da hotel e B&B della città.",
+    en: "Trieste blends Central European charm and the Adriatic. Compare direct proposals from Trieste hotels and B&Bs on HotelsDrop.",
+  },
+  salerno: {
+    it: "Salerno è porta d'accesso alla Costiera Amalfitana. Invia una richiesta su HotelsDrop e ricevi offerte da strutture campane.",
+    en: "Salerno is the gateway to the Amalfi Coast. Send a HotelsDrop request and receive offers from Campania properties.",
+  },
+  perugia: {
+    it: "Perugia e l'Umbria attirano enogastronomia e borghi medievali. HotelsDrop collega la tua richiesta con strutture umbre.",
+    en: "Perugia and Umbria attract food lovers and medieval villages. HotelsDrop connects your request with Umbrian properties.",
+  },
+  siracusa: {
+    it: "Siracusa unisce barocco, mare e archeologia. Su HotelsDrop le strutture siracusane rispondono con proposte personalizzate.",
+    en: "Syracuse blends baroque architecture, sea and archaeology. Syracuse properties reply with personalised offers on HotelsDrop.",
+  },
+  lecce: {
+    it: "Lecce è la capitale del barocco pugliese. HotelsDrop inoltra la tua richiesta a B&B e hotel del Salento.",
+    en: "Lecce is the capital of Apulian baroque. HotelsDrop forwards your request to Salento B&Bs and hotels.",
+  },
+  bergamo: {
+    it: "Bergamo offre Città Alta, aeroporto Orio al Serio e prossimità ai laghi. Richiedi offerte dirette su HotelsDrop.",
+    en: "Bergamo offers the Upper Town, Orio al Serio airport and lake access. Request direct offers on HotelsDrop.",
+  },
+  bolzano: {
+    it: "Bolzano è ideale per Dolomiti, enogastronomia e city break alpini. Su HotelsDrop ricevi proposte dirette dalle strutture altoatesine.",
+    en: "Bolzano suits Dolomites trips, food and alpine city breaks. Receive direct proposals from South Tyrol properties on HotelsDrop.",
+  },
+  lisbona: {
+    it: "Lisbona combina Alfama, Baixa e quartieri creativi. Su HotelsDrop invii una richiesta e ricevi offerte da strutture lusitane.",
+    en: "Lisbon spans Alfama, Baixa and creative districts. Send one HotelsDrop request and receive offers from Portuguese properties.",
+  },
+  vienna: {
+    it: "Vienna unisce musei, opera e quartieri imperiali. HotelsDrop semplifica il confronto con offerte dirette dagli hotel viennesi.",
+    en: "Vienna blends museums, opera and imperial districts. HotelsDrop simplifies comparing direct offers from Viennese hotels.",
+  },
+  zurigo: {
+    it: "Zurigo è hub business e base per i laghi svizzeri. Su HotelsDrop ricevi proposte dirette da strutture zurighesi.",
+    en: "Zurich is a business hub and base for Swiss lakes. Receive direct offers from Zurich properties on HotelsDrop.",
+  },
+  praga: {
+    it: "Praga attira per il centro storico, la cultura e i prezzi competitivi. Invia una richiesta HotelsDrop e confronta offerte dirette.",
+    en: "Prague attracts visitors for its historic centre, culture and value. Send a HotelsDrop request and compare direct offers.",
   },
 };
 

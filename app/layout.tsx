@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter, Poppins } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import { FloatingChatWidget } from "@/components/chat/FloatingChatWidgetLoader";
 import { AppFooter } from "@/components/legal/AppFooter";
 import { CookieBanner } from "@/components/legal/CookieBanner";
@@ -18,18 +18,6 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
-});
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  weight: ["500", "600"],
-});
-
-const poppins = Poppins({
-  variable: "--font-poppins",
-  subsets: ["latin"],
-  weight: ["600", "700", "800"],
 });
 
 export const viewport = {
@@ -52,7 +40,7 @@ export async function generateMetadata(): Promise<Metadata> {
       template: t.metadata.siteTitleTemplate,
     },
     description,
-    alternates: buildLanguageAlternates("/"),
+    alternates: buildLanguageAlternates("/", locale),
     openGraph: buildOpenGraph({ title, description, path: "/", locale }),
     twitter: buildTwitterCard({ title, description }),
   };
@@ -67,7 +55,7 @@ export default async function RootLayout({
   return (
     <html
       lang={initialLocale}
-      className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${poppins.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       style={{ colorScheme: "light" }}
     >
       <body className="flex min-h-full flex-col overflow-x-hidden bg-zinc-50 text-zinc-900">

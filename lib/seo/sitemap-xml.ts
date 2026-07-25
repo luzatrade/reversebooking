@@ -1,13 +1,20 @@
 import { buildLlmsFullTxt, buildLlmsTxt } from "@/lib/seo/llms-content";
+import { localizedPath } from "@/lib/i18n/routing";
 import { publicSiteOrigin } from "@/lib/seo/site-url";
 import { listDestinationHubSlugs } from "@/lib/seo/destination-queries";
 import { listIndexableStructureSlugs } from "@/lib/seo/structure-queries";
+import type { Locale } from "@/lib/i18n/translations";
 
 export const SITEMAP_REVALIDATE_SECONDS = 86400;
 export const STRUCTURES_PER_SITEMAP = 5000;
 
-const staticPaths = [
+const staticInternalPaths = [
   "/",
+  "/destinazioni",
+  "/guide",
+  "/guide/reverse-booking",
+  "/guide/viaggi-di-gruppo",
+  "/guide/agenzie-viaggio",
   "/note-legali",
   "/privacy-policy",
   "/cookie-policy",
@@ -15,7 +22,6 @@ const staticPaths = [
   "/condizioni-abbonamento",
   "/contatti",
   "/cos-e-hotelsdrop",
-  "/registrazione",
   "/struttura",
 ];
 
@@ -49,11 +55,15 @@ export function parseSitemapId(raw: string): number | null {
 export async function listSitemapIds(): Promise<number[]> {
   const structureSlugs = await listIndexableStructureSlugs();
   const structureChunks = Math.max(1, Math.ceil(structureSlugs.length / STRUCTURES_PER_SITEMAP));
-  const ids = [0, 1];
+  const ids = [0, 1, 2];
   for (let index = 0; index < structureChunks; index += 1) {
-    ids.push(index + 2);
+    ids.push(index + 3);
   }
   return ids;
+}
+
+function localePaths(internalPath: string): string[] {
+  return (["it", "en"] as Locale[]).map((locale) => localizedPath(locale, internalPath));
 }
 
 export async function buildSitemapEntries(id: number): Promise<SitemapEntry[]> {
@@ -61,25 +71,43 @@ export async function buildSitemapEntries(id: number): Promise<SitemapEntry[]> {
   const now = new Date();
 
   if (id === 0) {
-    return staticPaths.map((path) => ({
-      loc: `${base}${path}`,
-      lastModified: now,
-      changeFrequency: path === "/" ? "weekly" : "monthly",
-      priority: path === "/" ? 1 : 0.7,
-    }));
+    return staticInternalPaths.flatMap((path) =>
+      localePaths(path).map((locPath) => ({
+        loc: `${base}${locPath}`,
+        lastModified: now,
+        changeFrequency: path === "/" ? "weekly" as const : "monthly" as const,
+        priority: path === "/" ? 1 : path === "/destinazioni" || path === "/guide" ? 0.9 : 0.7,
+      })),
+    );
   }
 
   if (id === 1) {
     const destinationSlugs = await listDestinationHubSlugs();
-    return destinationSlugs.map((slug) => ({
-      loc: `${base}/destinazioni/${slug}`,
+    return destinationSlugs.flatMap((slug) =>
+      localePaths(`/destinazioni/${slug}`).map((locPath) => ({
+        loc: `${base}${locPath}`,
+        lastModified: now,
+        changeFrequency: "weekly" as const,
+        priority: 0.85,
+      })),
+    );
+  }
+
+  if (id === 2) {
+    const enGuidePaths = ["/guide/reverse-booking", "/guide/group-travel", "/guide/travel-agencies"];
+    const itGuidePaths = ["/guide/reverse-booking", "/guide/viaggi-di-gruppo", "/guide/agenzie-viaggio"];
+    return [
+      ...itGuidePaths.map((path) => localizedPath("it", path)),
+      ...enGuidePaths.map((path) => localizedPath("en", path)),
+    ].map((locPath) => ({
+      loc: `${base}${locPath}`,
       lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.85,
+      changeFrequency: "monthly" as const,
+      priority: 0.75,
     }));
   }
 
-  const structureIndex = id - 2;
+  const structureIndex = id - 3;
   if (structureIndex < 0) return [];
 
   const slugs = await listIndexableStructureSlugs();
@@ -88,12 +116,14 @@ export async function buildSitemapEntries(id: number): Promise<SitemapEntry[]> {
     (structureIndex + 1) * STRUCTURES_PER_SITEMAP,
   );
 
-  return chunk.map((slug) => ({
-    loc: `${base}/hotel/${slug}`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.8,
-  }));
+  return chunk.flatMap((slug) =>
+    localePaths(`/hotel/${slug}`).map((locPath) => ({
+      loc: `${base}${locPath}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    })),
+  );
 }
 
 export function renderSitemapIndex(ids: number[], lastModified = new Date()): string {
