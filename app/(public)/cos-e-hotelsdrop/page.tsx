@@ -7,6 +7,7 @@ import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translati
 import {
   getAboutAudienceBlocks,
   getHomeFaq,
+  getHomeFaqSections,
   getHomeHowItWorks,
   getMarketingLabels,
 } from "@/lib/i18n/seo-marketing";
@@ -72,7 +73,7 @@ export default async function CosEHotelsDropPage() {
       </div>
 
       <div className="mt-8 sm:mt-10">
-        <FaqSection items={faqItems} title={labels.faqTitle} id="about-faq" compact />
+        <FaqSection sections={getHomeFaqSections(locale)} title={labels.faqTitle} id="about-faq" compact />
       </div>
     </div>
   );

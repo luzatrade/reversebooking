@@ -83,73 +83,201 @@ export function getHomeHowItWorks(locale: Locale): HowItWorksStep[] {
     return [
       {
         title: "Drop your request",
-        description: "Choose destination, dates, budget and preferences. One request reaches every matching property.",
+        description: "Pick a destination, dates, budget and preferences. One request reaches every matching hotel, B&B and apartment in the area.",
       },
       {
         title: "Receive offers",
-        description: "Hotels, B&Bs and apartments reply with personalised proposals. Compare and chat directly.",
+        description: "Properties reply with personalised proposals. Compare prices, services and conditions, then chat directly.",
       },
       {
-        title: "Choose and book",
-        description: "Pick the best offer with no booking commission for travellers. Transparent and direct.",
+        title: "Choose the best deal",
+        description: "Select the offer that suits you — no booking commission for travellers. Direct, transparent contact.",
       },
     ];
   }
   return [
     {
       title: "Droppa la richiesta",
-      description: "Scegli destinazione, date, budget e preferenze. Una sola richiesta raggiunge tutte le strutture compatibili.",
+      description: "Scegli destinazione, date, budget e preferenze. Una sola richiesta raggiunge tutti gli hotel e le strutture compatibili della zona.",
     },
     {
       title: "Ricevi offerte",
-      description: "Hotel, B&B e appartamenti rispondono con proposte personalizzate. Confronta e chatta in diretta.",
+      description: "Le strutture rispondono con proposte personalizzate. Confronta prezzi, servizi e condizioni, poi parla direttamente con loro.",
     },
     {
-      title: "Scegli e prenota",
-      description: "Seleziona l'offerta migliore senza commissioni per chi viaggia. Trasparente e diretto.",
+      title: "Scegli la migliore",
+      description: "Seleziona l'offerta più adatta a te — senza commissioni per chi viaggia. Contatto diretto e trasparente.",
     },
   ];
 }
 
-export function getHomeFaq(locale: Locale): FaqItem[] {
+export type FaqSectionGroup = { title: string; items: FaqItem[] };
+
+function getTravellerFaq(locale: Locale): FaqItem[] {
   if (locale === "en") {
     return [
       {
+        question: "What is HotelsDrop and how does it help me find a property?",
+        answer:
+          "HotelsDrop is a reverse booking platform. Instead of searching hotel by hotel, you publish one stay request with destination, dates, budget and preferences. Every compatible property in the selected area receives it and can reply with a direct, personalised offer. You compare proposals and choose the best one for you — free of charge.",
+      },
+      {
+        question: "Can I find a property and contact it directly?",
+        answer:
+          "Yes. You can browse the catalogue, open a property profile and contact it directly by email, phone or WhatsApp. You can also start a tailored negotiation by sending a stay request linked to that property or to the whole destination.",
+      },
+      {
+        question: "How does a stay request reach hotels in my chosen area?",
+        answer:
+          "When you publish a request, HotelsDrop automatically forwards it to all active properties in the selected destination that match your dates, budget, room count and preferences. You do not need to write to each hotel separately: one request, many replies.",
+      },
+      {
         question: "Is HotelsDrop free for travellers?",
-        answer: "Yes. Publishing a stay request and comparing offers is free for travellers. Properties join via subscription.",
+        answer:
+          "Yes. Publishing requests, comparing offers and contacting properties is completely free for travellers. There are no booking commissions on the traveller side. Properties participate through a simple monthly subscription.",
       },
       {
         question: "What is reverse booking?",
-        answer: "You publish where and when you want to stay. Matching hotels send you offers instead of you searching listing by listing.",
-      },
-      {
-        question: "How does it work for hotels?",
-        answer: "Properties subscribe to HotelsDrop, receive relevant requests and reply with direct offers without OTA commissions on bookings.",
-      },
-      {
-        question: "Can I request group stays?",
-        answer: "Yes. HotelsDrop works for individuals, schools, companies, events, sports groups and travel agencies.",
+        answer:
+          "Reverse booking reverses the traditional flow: you do not hunt for the best rate across dozens of sites. You state what you need, and hotels compete to offer you the best direct proposal. Less time searching, more tailored deals.",
       },
     ];
   }
   return [
     {
+      question: "Cos'è HotelsDrop e come mi aiuta a trovare una struttura?",
+      answer:
+        "HotelsDrop è una piattaforma di reverse booking. Invece di cercare hotel uno per uno, pubblichi una sola richiesta di soggiorno con destinazione, date, budget e preferenze. Tutte le strutture compatibili della zona selezionata la ricevono e possono risponderti con un'offerta diretta e personalizzata. Confronti le proposte e scegli quella migliore per te — gratuitamente.",
+    },
+    {
+      question: "Posso trovare una struttura e contattarla direttamente?",
+      answer:
+        "Sì. Puoi esplorare il catalogo, aprire la scheda di un hotel, B&B o appartamento e contattarlo subito via email, telefono o WhatsApp. Oppure avviare una trattativa personalizzata inviando una richiesta di soggiorno collegata a quella struttura o all'intera destinazione.",
+    },
+    {
+      question: "Come funziona l'invio di una richiesta agli hotel della zona?",
+      answer:
+        "Quando pubblichi una richiesta, HotelsDrop la inoltra automaticamente a tutte le strutture attive nella destinazione scelta che corrispondono a date, budget, numero camere e preferenze indicate. Non devi scrivere a ogni hotel singolarmente: una richiesta, molte risposte.",
+    },
+    {
       question: "HotelsDrop è gratis per chi viaggia?",
-      answer: "Sì. Pubblicare una richiesta di soggiorno e confrontare le offerte è gratuito per i viaggiatori. Le strutture partecipano con abbonamento.",
+      answer:
+        "Sì. Pubblicare richieste, confrontare offerte e contattare le strutture è completamente gratuito per i viaggiatori. Non ci sono commissioni di prenotazione a carico di chi viaggia. Le strutture partecipano con un abbonamento mensile.",
     },
     {
       question: "Cos'è il reverse booking?",
-      answer: "Pubblichi dove e quando vuoi soggiornare. Sono le strutture compatibili a inviarti offerte, invece di cercare hotel uno per uno.",
-    },
-    {
-      question: "Come funziona per gli hotel?",
-      answer: "Le strutture si abbonano a HotelsDrop, ricevono richieste pertinenti e rispondono con offerte dirette senza commissioni OTA sulla prenotazione.",
-    },
-    {
-      question: "Posso usare HotelsDrop per gruppi?",
-      answer: "Sì. La piattaforma è adatta a viaggi individuali, scuole, aziende, eventi, gruppi sportivi e agenzie.",
+      answer:
+        "Il reverse booking inverte il flusso tradizionale: non sei tu a cacciare la tariffa migliore su decine di siti. Sei tu a dire cosa ti serve, e sono gli hotel a proporti la miglior offerta diretta. Meno tempo perso a cercare, più proposte su misura.",
     },
   ];
+}
+
+function getAgencyGroupFaq(locale: Locale): FaqItem[] {
+  if (locale === "en") {
+    return [
+      {
+        question: "Can I use HotelsDrop for schools, groups, events or organised trips?",
+        answer:
+          "Yes. HotelsDrop is built for individual travellers and group requests alike: schools, companies, sports teams, associations, weddings, conferences and organised tours. You publish one detailed request and receive comparable offers from multiple properties.",
+      },
+      {
+        question: "How does HotelsDrop help travel agencies?",
+        answer:
+          "Agencies often waste hours emailing hotels one by one. With HotelsDrop, a single click sends your request to every compatible property in the destination. You receive structured offers, compare them side by side and pick the best deal for your client — without a flood of manual emails.",
+      },
+      {
+        question: "Do I still need to contact each hotel separately?",
+        answer:
+          "No. That is the core advantage. One request reaches all matching hotels in the selected area. Each property replies with its own proposal. You save time, reduce errors and keep every negotiation in one place.",
+      },
+    ];
+  }
+  return [
+    {
+      question: "Posso usare HotelsDrop per scuole, gruppi, eventi o viaggi organizzati?",
+      answer:
+        "Sì. HotelsDrop è pensato sia per viaggi individuali sia per richieste di gruppo: scuole, aziende, gruppi sportivi, associazioni, matrimoni, convention e tour organizzati. Pubblichi una richiesta dettagliata e ricevi offerte comparabili da più strutture.",
+    },
+    {
+      question: "Come aiuta HotelsDrop le agenzie di viaggio?",
+      answer:
+        "Le agenzie spesso perdono ore a mandare email hotel per hotel. Con HotelsDrop, un solo click invia la richiesta a tutte le strutture compatibili della destinazione. Ricevi offerte strutturate, le confronti e scegli la migliore per il cliente — senza mille email manuali.",
+    },
+    {
+      question: "Devo ancora contattare ogni hotel singolarmente?",
+      answer:
+        "No, è il vantaggio principale. Una sola richiesta raggiunge tutti gli hotel della zona selezionata che corrispondono ai criteri. Ogni struttura risponde con la propria proposta. Risparmi tempo, riduci errori e tieni tutto il processo in un unico posto.",
+    },
+  ];
+}
+
+function getPropertyFaq(locale: Locale): FaqItem[] {
+  if (locale === "en") {
+    return [
+      {
+        question: "What are the benefits for hotels and B&Bs?",
+        answer:
+          "You receive qualified stay requests instead of paying high OTA commissions on every booking. You reply with direct offers, fill empty dates, and keep the full value of the reservation. No commission on the booking itself — just a flat monthly subscription.",
+      },
+      {
+        question: "Why are OTA visitors 'ghosts' for properties?",
+        answer:
+          "On traditional OTAs, travellers often browse anonymously and disappear after comparing prices. The property never builds a real relationship. On HotelsDrop every request comes with genuine intent: the traveller or agency wants a proposal, opens a dialogue and lets you showcase your offer and working style.",
+      },
+      {
+        question: "Can I gain new agency contacts even if I do not close immediately?",
+        answer:
+          "Exactly. Every request — from a traveller or an agency — is a real contact, not anonymous traffic. Even if the deal is not closed today, you have met a new partner, shown your proposal and started a relationship that can become a future collaboration.",
+      },
+      {
+        question: "How does the subscription work for properties?",
+        answer:
+          "Properties join HotelsDrop with a simple monthly subscription. They receive relevant requests for their destination, reply with direct offers and negotiate without OTA commissions on bookings. Ideal for filling last-minute dates and building a direct client base.",
+      },
+    ];
+  }
+  return [
+    {
+      question: "Quali vantaggi ha un hotel o un B&B?",
+      answer:
+        "Ricevi richieste di soggiorno qualificate invece di pagare alte commissioni OTA su ogni prenotazione. Rispondi con offerte dirette, riempi le date vacanti e mantieni il valore pieno della prenotazione. Nessuna commissione sulla prenotazione — solo un abbonamento mensile fisso.",
+    },
+    {
+      question: "Perché sui portali OTA il viaggiatore è un 'fantasma' per le strutture?",
+      answer:
+        "Sui portali tradizionali spesso il viaggiatore naviga in anonimo e sparisce dopo aver comparato i prezzi. La struttura non costruisce un rapporto vero. Su HotelsDrop ogni richiesta ha intenzione reale: il viaggiatore o l'agenzia vuole una proposta, apre un dialogo e ti permette di mostrare la tua offerta e il tuo modo di lavorare.",
+    },
+    {
+      question: "Posso conoscere nuove agenzie anche se non chiudo subito l'offerta?",
+      answer:
+        "Proprio così. Ogni richiesta — da un viaggiatore o da un'agenzia — è un contatto reale, non traffico anonimo. Anche se oggi non si conclude, hai conosciuto un nuovo partner, presentato la tua proposta e avviato un rapporto che può diventare una collaborazione futura.",
+    },
+    {
+      question: "Come funziona l'abbonamento per le strutture?",
+      answer:
+        "Le strutture aderiscono a HotelsDrop con un abbonamento mensile semplice. Ricevono richieste pertinenti per la propria destinazione, rispondono con offerte dirette e trattano senza commissioni OTA sulle prenotazioni. Ideale per riempire date last minute e costruire una base clienti diretta.",
+    },
+  ];
+}
+
+export function getHomeFaqSections(locale: Locale): FaqSectionGroup[] {
+  if (locale === "en") {
+    return [
+      { title: "For travellers", items: getTravellerFaq(locale) },
+      { title: "For groups and travel agencies", items: getAgencyGroupFaq(locale) },
+      { title: "For properties", items: getPropertyFaq(locale) },
+    ];
+  }
+  return [
+    { title: "Per chi viaggia", items: getTravellerFaq(locale) },
+    { title: "Per gruppi e agenzie di viaggio", items: getAgencyGroupFaq(locale) },
+    { title: "Per le strutture ricettive", items: getPropertyFaq(locale) },
+  ];
+}
+
+/** Flat list for JSON-LD FAQPage schema. */
+export function getHomeFaq(locale: Locale): FaqItem[] {
+  return getHomeFaqSections(locale).flatMap((section) => section.items);
 }
 
 export function getDestinationHowItWorks(locale: Locale, cityName: string): string[] {
@@ -182,27 +310,88 @@ export function getDestinationEditorial(
   return `Scopri ${structureCount} strutture indicizzate a ${displayName}. Invia una richiesta personalizzata su HotelsDrop e ricevi proposte dirette dalle strutture locali, senza cercare su decine di portali.`;
 }
 
-export function getHotelFaq(locale: Locale): FaqItem[] {
+export function getDestinationFaq(locale: Locale, cityName: string): FaqItem[] {
   if (locale === "en") {
     return [
       {
-        question: "How do I request an offer?",
-        answer: "Create a stay request with your dates and budget, or contact the property directly from this page.",
+        question: `How do I get hotel offers in ${cityName}?`,
+        answer: `Publish one free stay request for ${cityName} with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.`,
       },
       {
-        question: "Is there a fee for me?",
-        answer: "No. HotelsDrop is free for travellers. You compare direct offers without booking commission.",
+        question: "Can I contact a property directly?",
+        answer:
+          "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+      },
+      {
+        question: "Is it useful for groups and travel agencies?",
+        answer:
+          "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
       },
     ];
   }
   return [
     {
-      question: "Come chiedo un'offerta?",
-      answer: "Crea una richiesta di soggiorno con date e budget, oppure contatta la struttura direttamente da questa pagina.",
+      question: `Come ricevo offerte hotel a ${cityName}?`,
+      answer: `Pubblica una richiesta gratuita per ${cityName} con date, budget e preferenze. Tutte le strutture compatibili della zona la ricevono e possono risponderti con un'offerta diretta. Confronti le proposte e scegli la migliore.`,
     },
     {
-      question: "Ci sono costi per me?",
-      answer: "No. HotelsDrop è gratuito per chi viaggia. Confronti offerte dirette senza commissioni di prenotazione.",
+      question: "Posso contattare una struttura direttamente?",
+      answer:
+        "Sì. Dal catalogo puoi aprire la scheda di qualsiasi struttura e contattarla subito. Oppure inviare una richiesta che raggiunge in un colpo solo tutti gli hotel compatibili della destinazione.",
+    },
+    {
+      question: "È utile anche per gruppi e agenzie di viaggio?",
+      answer:
+        "Sì. Scuole, aziende, eventi e agenzie possono pubblicare una sola richiesta di gruppo invece di mandare decine di email. Tutte le strutture compatibili della zona selezionata ricevono la richiesta e rispondono con la propria offerta.",
+    },
+  ];
+}
+
+export function getHotelFaq(locale: Locale): FaqItem[] {
+  if (locale === "en") {
+    return [
+      {
+        question: "How do I request an offer from this property?",
+        answer:
+          "Create a stay request with your dates, budget and preferences — it will reach this property and other compatible ones in the area. Or contact the property directly from this page via email, phone or WhatsApp.",
+      },
+      {
+        question: "Does one request reach all hotels in the area?",
+        answer:
+          "Yes. When you publish a request for a destination, HotelsDrop forwards it to every active property that matches your criteria. You receive multiple offers and choose the best one for you.",
+      },
+      {
+        question: "Is HotelsDrop free for me?",
+        answer:
+          "Yes. Publishing requests and comparing offers is free for travellers and agencies. There are no booking commissions on your side.",
+      },
+      {
+        question: "Why is this different from booking on an OTA?",
+        answer:
+          "On OTAs you search anonymously and often never speak to the hotel. On HotelsDrop you start a real dialogue: the property sends a tailored offer, you know who you are dealing with, and even if you do not book today, you have opened a direct relationship.",
+      },
+    ];
+  }
+  return [
+    {
+      question: "Come chiedo un'offerta a questa struttura?",
+      answer:
+        "Crea una richiesta di soggiorno con date, budget e preferenze — arriverà a questa struttura e alle altre compatibili della zona. Oppure contattala direttamente da questa pagina via email, telefono o WhatsApp.",
+    },
+    {
+      question: "Una richiesta raggiunge tutti gli hotel della zona?",
+      answer:
+        "Sì. Quando pubblichi una richiesta per una destinazione, HotelsDrop la inoltra a tutte le strutture attive che corrispondono ai tuoi criteri. Ricevi più offerte e scegli quella migliore per te.",
+    },
+    {
+      question: "HotelsDrop è gratis per me?",
+      answer:
+        "Sì. Pubblicare richieste e confrontare offerte è gratuito per viaggiatori e agenzie. Non ci sono commissioni di prenotazione a tuo carico.",
+    },
+    {
+      question: "Perché è diverso dalla prenotazione su un portale OTA?",
+      answer:
+        "Sui portali OTA cerchi in anonimo e spesso non parli mai con l'hotel. Su HotelsDrop avvii un dialogo reale: la struttura ti manda un'offerta su misura, sai con chi stai trattando e, anche se non prenoti oggi, hai aperto un rapporto diretto.",
     },
   ];
 }
@@ -211,16 +400,20 @@ export function getAboutAudienceBlocks(locale: Locale) {
   if (locale === "en") {
     return {
       travellersTitle: "For travellers",
-      travellersBody: "Publish one request, receive tailored offers, compare and book with no commission.",
+      travellersBody:
+        "Find a property, contact it directly or send one request to every hotel in your destination. Compare offers and pick the best deal — free, with no booking commission.",
       partnersTitle: "For properties",
-      partnersBody: "Subscribe, receive relevant requests and fill your calendar with direct bookings.",
+      partnersBody:
+        "Receive real requests from travellers and agencies — not anonymous OTA traffic. Build direct relationships, fill your calendar and discover new partners for future collaborations.",
     };
   }
   return {
     travellersTitle: "Per chi viaggia",
-    travellersBody: "Pubblica una richiesta, ricevi offerte su misura, confronta e prenota senza commissioni.",
+    travellersBody:
+      "Trova una struttura, contattala direttamente o invia una richiesta a tutti gli hotel della destinazione. Confronta le offerte e scegli la migliore — gratis, senza commissioni.",
     partnersTitle: "Per le strutture",
-    partnersBody: "Abbonati, ricevi richieste pertinenti e riempi il calendario con prenotazioni dirette.",
+    partnersBody:
+      "Ricevi richieste vere da viaggiatori e agenzie — non traffico anonimo da OTA. Costruisci relazioni dirette, riempi il calendario e scopri nuovi partner per collaborazioni future.",
   };
 }
 

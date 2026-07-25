@@ -3,11 +3,13 @@ import { Building2, MapPin } from "lucide-react";
 import { CityHeroPlaceholder } from "@/components/seo/CityHeroPlaceholder";
 import { SeoImage } from "@/components/seo/SeoImage";
 import { DestinationHowItWorksBlock } from "@/components/seo/DestinationHowItWorksBlock";
+import { FaqSection } from "@/components/seo/FaqSection";
 import { RelatedDestinationsStrip } from "@/components/seo/RelatedDestinationsStrip";
 import { SeoBreadcrumb } from "@/components/seo/SeoBreadcrumb";
 import { getServerLocale } from "@/lib/i18n/get-translations";
 import {
   getDestinationEditorial,
+  getDestinationFaq,
   getDestinationHowItWorks,
   getMarketingLabels,
 } from "@/lib/i18n/seo-marketing";
@@ -115,6 +117,11 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
             title={labels.relatedDestinations}
             destinations={relatedDestinations}
             locale={locale}
+          />
+          <FaqSection
+            items={getDestinationFaq(locale, hub.displayName)}
+            title={labels.faqTitle}
+            id={`destination-faq-${hub.slug}`}
           />
         </>
       ) : null}

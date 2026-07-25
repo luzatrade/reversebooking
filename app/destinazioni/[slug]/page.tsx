@@ -4,7 +4,7 @@ import { DestinationHubPage } from "@/components/seo/DestinationHubPage";
 import { DestinationJsonLd } from "@/components/seo/DestinationJsonLd";
 import { JsonLdScript } from "@/components/seo/JsonLdScript";
 import { getServerLocale } from "@/lib/i18n/get-translations";
-import { getHomeFaq } from "@/lib/i18n/seo-marketing";
+import { getDestinationFaq } from "@/lib/i18n/seo-marketing";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { buildDestinationMetadata } from "@/lib/seo/destination-metadata";
 import { buildFaqPageJsonLd } from "@/lib/seo/faq-jsonld";
@@ -49,7 +49,9 @@ export default async function DestinationPage({ params, searchParams }: PageProp
   return (
     <>
       <DestinationJsonLd hub={result.hub} items={result.items} pageUrl={pageUrl} />
-      {page === 1 ? <JsonLdScript data={buildFaqPageJsonLd(getHomeFaq(locale), pageUrl)} /> : null}
+      {page === 1 ? (
+        <JsonLdScript data={buildFaqPageJsonLd(getDestinationFaq(locale, result.hub.displayName), pageUrl)} />
+      ) : null}
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <DestinationHubPage
           hub={result.hub}
