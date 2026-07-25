@@ -2,11 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { LegalPageShell } from "@/components/legal/LegalPageShell";
 import { company, formatLegalAddress } from "@/lib/legal/company";
+import { buildPublicPageMetadata } from "@/lib/seo/public-page-metadata";
 
-export const metadata: Metadata = {
-  title: "Note legali",
-  description: `Informazioni societarie e note legali di ${company.companyName}.`,
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildPublicPageMetadata(
+    "/note-legali",
+    "Note legali",
+    `Informazioni societarie e note legali di ${company.companyName}.`,
+  );
+}
 
 export default function NoteLegaliPage() {
   return (

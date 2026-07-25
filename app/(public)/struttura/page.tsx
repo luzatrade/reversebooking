@@ -3,13 +3,15 @@ import Link from "next/link";
 import { LegalMicroLine } from "@/components/legal/LegalMicroLine";
 import { RoleAlertBells } from "@/components/notifications/RoleAlertBells";
 import { getServerTranslations } from "@/lib/i18n/get-translations";
+import { buildPublicPageMetadata } from "@/lib/seo/public-page-metadata";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getServerTranslations();
-  return {
-    title: t.metadata.structureAreaTitle,
-    description: t.metadata.structureAreaDescription,
-  };
+  return buildPublicPageMetadata(
+    "/struttura",
+    t.metadata.structureAreaTitle,
+    t.metadata.structureAreaDescription,
+  );
 }
 
 export default async function StrutturaPanelPage() {

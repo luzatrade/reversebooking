@@ -1,8 +1,12 @@
-import { buildLlmsFullTxt, buildLlmsTxt } from "@/lib/seo/llms-content";
 import { localizedPath } from "@/lib/i18n/routing";
 import { publicSiteOrigin } from "@/lib/seo/site-url";
 import { listDestinationHubSlugs } from "@/lib/seo/destination-queries";
 import { listIndexableStructureSlugs } from "@/lib/seo/structure-queries";
+import {
+  fetchDestinationSlugLastmods,
+  fetchStructureSlugLastmods,
+  staticPageLastmod,
+} from "@/lib/seo/sitemap-lastmod";
 import type { Locale } from "@/lib/i18n/translations";
 
 export const SITEMAP_REVALIDATE_SECONDS = 86400;
@@ -68,14 +72,14 @@ function localePaths(internalPath: string): string[] {
 
 export async function buildSitemapEntries(id: number): Promise<SitemapEntry[]> {
   const base = sitemapBaseUrl();
-  const now = new Date();
+  const fallback = new Date();
 
   if (id === 0) {
     return staticInternalPaths.flatMap((path) =>
       localePaths(path).map((locPath) => ({
         loc: `${base}${locPath}`,
-        lastModified: now,
-        changeFrequency: path === "/" ? "weekly" as const : "monthly" as const,
+        lastModified: staticPageLastmod(path),
+        changeFrequency: path === "/" ? ("weekly" as const) : ("monthly" as const),
         priority: path === "/" ? 1 : path === "/destinazioni" || path === "/guide" ? 0.9 : 0.7,
       })),
     );
@@ -83,10 +87,11 @@ export async function buildSitemapEntries(id: number): Promise<SitemapEntry[]> {
 
   if (id === 1) {
     const destinationSlugs = await listDestinationHubSlugs();
+    const lastmods = await fetchDestinationSlugLastmods();
     return destinationSlugs.flatMap((slug) =>
       localePaths(`/destinazioni/${slug}`).map((locPath) => ({
         loc: `${base}${locPath}`,
-        lastModified: now,
+        lastModified: lastmods.get(slug) ?? fallback,
         changeFrequency: "weekly" as const,
         priority: 0.85,
       })),
@@ -94,6 +99,7 @@ export async function buildSitemapEntries(id: number): Promise<SitemapEntry[]> {
   }
 
   if (id === 2) {
+    const guideDate = staticPageLastmod("/guide");
     const enGuidePaths = ["/guide/reverse-booking", "/guide/group-travel", "/guide/travel-agencies"];
     const itGuidePaths = ["/guide/reverse-booking", "/guide/viaggi-di-gruppo", "/guide/agenzie-viaggio"];
     return [
@@ -101,7 +107,7 @@ export async function buildSitemapEntries(id: number): Promise<SitemapEntry[]> {
       ...enGuidePaths.map((path) => localizedPath("en", path)),
     ].map((locPath) => ({
       loc: `${base}${locPath}`,
-      lastModified: now,
+      lastModified: guideDate,
       changeFrequency: "monthly" as const,
       priority: 0.75,
     }));
@@ -111,6 +117,7 @@ export async function buildSitemapEntries(id: number): Promise<SitemapEntry[]> {
   if (structureIndex < 0) return [];
 
   const slugs = await listIndexableStructureSlugs();
+  const lastmods = await fetchStructureSlugLastmods();
   const chunk = slugs.slice(
     structureIndex * STRUCTURES_PER_SITEMAP,
     (structureIndex + 1) * STRUCTURES_PER_SITEMAP,
@@ -119,7 +126,7 @@ export async function buildSitemapEntries(id: number): Promise<SitemapEntry[]> {
   return chunk.flatMap((slug) =>
     localePaths(`/hotel/${slug}`).map((locPath) => ({
       loc: `${base}${locPath}`,
-      lastModified: now,
+      lastModified: lastmods.get(slug) ?? fallback,
       changeFrequency: "weekly" as const,
       priority: 0.8,
     })),

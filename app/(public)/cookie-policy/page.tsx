@@ -2,11 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { LegalPageShell } from "@/components/legal/LegalPageShell";
 import { COOKIE_POLICY_VERSION, company } from "@/lib/legal/company";
+import { buildPublicPageMetadata } from "@/lib/seo/public-page-metadata";
 
-export const metadata: Metadata = {
-  title: "Cookie Policy",
-  description: "Informativa sull’uso dei cookie e sulle preferenze di navigazione.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildPublicPageMetadata(
+    "/cookie-policy",
+    "Cookie Policy",
+    "Informativa sull'uso dei cookie e sulle preferenze di navigazione.",
+  );
+}
 
 export default function CookiePolicyPage() {
   return (

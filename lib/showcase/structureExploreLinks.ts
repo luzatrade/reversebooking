@@ -1,9 +1,14 @@
 import type { StructureExploreHotel } from "@/components/showcase/StructureExploreCard";
-import { structurePublicPath } from "@/lib/seo/slug";
+import type { Locale } from "@/lib/i18n/translations";
+import { localizedPath, structurePublicPath } from "@/lib/i18n/routing";
 
-export function structureProfileHref(hotel: Pick<StructureExploreHotel, "id" | "isOnboarding" | "slug">) {
-  if (hotel.slug) return structurePublicPath(hotel.slug);
-  return hotel.isOnboarding ? `/hotel/onboarding/${hotel.id}` : `/hotel/${hotel.id}`;
+export function structureProfileHref(
+  hotel: Pick<StructureExploreHotel, "id" | "isOnboarding" | "slug">,
+  locale: Locale = "it",
+) {
+  if (hotel.slug) return structurePublicPath(hotel.slug, locale);
+  if (hotel.isOnboarding) return localizedPath(locale, `/hotel/onboarding/${hotel.id}`);
+  return localizedPath(locale, `/hotel/${hotel.id}`);
 }
 
 export function structureRequestHref(hotel: Pick<StructureExploreHotel, "id" | "city_id" | "city_name">) {

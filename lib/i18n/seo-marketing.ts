@@ -132,6 +132,66 @@ const PREMIUM_DESTINATION_INTROS: Record<string, { it: string; en: string }> = {
     it: "Praga attira per il centro storico, la cultura e i prezzi competitivi. Invia una richiesta HotelsDrop e confronta offerte dirette.",
     en: "Prague attracts visitors for its historic centre, culture and value. Send a HotelsDrop request and compare direct offers.",
   },
+  lisbon: {
+    it: "Lisbona combina Alfama, Baixa e quartieri creativi. Su HotelsDrop invii una richiesta e ricevi offerte da strutture lusitane.",
+    en: "Lisbon spans Alfama, Baixa and creative districts. Send one HotelsDrop request and receive offers from Portuguese properties.",
+  },
+  dublin: {
+    it: "Dublino è ideale per city break, pub culture e base verso l'Irlanda. HotelsDrop collega la tua richiesta con hotel e B&B irlandesi.",
+    en: "Dublin suits city breaks, pub culture and Ireland trips. HotelsDrop connects your request with Irish hotels and B&Bs.",
+  },
+  bruxelles: {
+    it: "Bruxelles concentra istituzioni europee, gastronomia e quartieri Art Nouveau. Richiedi offerte dirette su HotelsDrop.",
+    en: "Brussels clusters EU institutions, food and Art Nouveau districts. Request direct offers on HotelsDrop.",
+  },
+  monaco: {
+    it: "Monaco e la Costa Azzurra attirano leisure e eventi premium. Su HotelsDrop ricevi proposte dirette da strutture della zona.",
+    en: "Monaco and the French Riviera attract premium leisure and events. Receive direct proposals from local properties on HotelsDrop.",
+  },
+  santorini: {
+    it: "Santorini è iconica per tramonti, boutique e mare. Invia una richiesta personalizzata e confronta offerte dirette.",
+    en: "Santorini is iconic for sunsets, boutiques and the caldera. Send a personalised request and compare direct offers.",
+  },
+  mykonos: {
+    it: "Mykonos unisce nightlife, spiagge e hotel di charme. Su HotelsDrop le strutture greche rispondono con proposte su misura.",
+    en: "Mykonos blends nightlife, beaches and boutique hotels. Greek properties reply with tailored offers on HotelsDrop.",
+  },
+  crete: {
+    it: "Creta offre mare, borghi e itinerari slow. HotelsDrop inoltra la tua richiesta a hotel e residence dell'isola.",
+    en: "Crete offers beaches, villages and slow travel. HotelsDrop forwards your request to island hotels and residences.",
+  },
+  ibiza: {
+    it: "Ibiza combina movida, spiagge e hotel boutique. Pubblica una richiesta su HotelsDrop e ricevi offerte dirette.",
+    en: "Ibiza combines nightlife, beaches and boutique stays. Publish a request on HotelsDrop and receive direct offers.",
+  },
+  malta: {
+    it: "Malta è compatta e ricca di storia, ideale per city break mediterranei. Su HotelsDrop confronti proposte dirette.",
+    en: "Malta is compact and historic, ideal for Mediterranean city breaks. Compare direct proposals on HotelsDrop.",
+  },
+  copenhagen: {
+    it: "Copenhagen unisce design, canali e ristorazione nordica. HotelsDrop semplifica il contatto con strutture danesi.",
+    en: "Copenhagen blends design, canals and Nordic dining. HotelsDrop simplifies contact with Danish properties.",
+  },
+  stockholm: {
+    it: "Stoccolma offre archipelago, musei e quartieri creativi. Invia una richiesta e ricevi offerte dirette.",
+    en: "Stockholm offers archipelago trips, museums and creative districts. Send a request and receive direct offers.",
+  },
+  oslo: {
+    it: "Oslo è base per fiordi, cultura nordica e soggiorni business. Su HotelsDrop ricevi proposte da strutture norvegesi.",
+    en: "Oslo is a base for fjords, Nordic culture and business stays. Receive proposals from Norwegian properties on HotelsDrop.",
+  },
+  helsinki: {
+    it: "Helsinki unisce design finlandese, mare Baltico e sauna culture. HotelsDrop collega la tua richiesta con strutture locali.",
+    en: "Helsinki blends Finnish design, the Baltic and sauna culture. HotelsDrop connects your request with local properties.",
+  },
+  athens: {
+    it: "Atene concentra Acropoli, Plaka e base per isole greche. Su HotelsDrop invii una richiesta e ricevi offerte dirette.",
+    en: "Athens clusters the Acropolis, Plaka and island-hopping access. Send a HotelsDrop request and receive direct offers.",
+  },
+  dubai: {
+    it: "Dubai offre hotel luxury, business e mare. HotelsDrop mette in contatto la tua richiesta con strutture degli Emirati.",
+    en: "Dubai offers luxury hotels, business stays and seaside resorts. HotelsDrop connects your request with UAE properties.",
+  },
 };
 
 export function getHomeHowItWorks(locale: Locale): HowItWorksStep[] {

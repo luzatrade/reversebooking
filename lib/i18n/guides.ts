@@ -188,10 +188,22 @@ export function resolveGuideSlug(slug: string, locale: Locale): string | null {
   return guide?.slug ?? null;
 }
 
-export function guideSlugAlternates(internalSlugIt: string): Record<Locale, string> {
+export function getGuideCanonicalKey(slug: string): string {
+  const mapped = slugMap[slug];
+  if (mapped) return mapped.it;
+  return slug;
+}
+
+export function guideSlugForLocale(slug: string, locale: Locale): string {
+  const key = getGuideCanonicalKey(slug);
+  return slugMap[key]?.[locale] ?? slug;
+}
+
+export function guideSlugAlternates(slug: string): Record<Locale, string> {
+  const key = getGuideCanonicalKey(slug);
   return {
-    it: slugMap[internalSlugIt]?.it ?? internalSlugIt,
-    en: slugMap[internalSlugIt]?.en ?? internalSlugIt,
+    it: slugMap[key]?.it ?? key,
+    en: slugMap[key]?.en ?? key,
   };
 }
 

@@ -1,7 +1,16 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
 import { getMealPlanLabels, getStructureTypeLabels } from "@/lib/i18n/labels";
 import { publicRequests } from "@/lib/demo/public-requests";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "Annunci demo · HotelsDrop",
+    description: "Anteprima demo di richieste di soggiorno — pagina non indicizzata.",
+    robots: { index: false, follow: true },
+  };
+}
 
 function formatDate(value: string, locale: string) {
   return new Intl.DateTimeFormat(locale === "en" ? "en-GB" : "it-IT", {

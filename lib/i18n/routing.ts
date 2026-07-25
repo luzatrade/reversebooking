@@ -1,4 +1,5 @@
 import { LOCALE_COOKIE } from "@/lib/i18n/cookie";
+import { guideSlugForLocale } from "@/lib/i18n/guides";
 import type { Locale } from "@/lib/i18n/translations";
 import { buildDestinationSlug, canonicalCityKey } from "@/lib/seo/city-canonical";
 import { slugifySeo } from "@/lib/seo/slug";
@@ -100,6 +101,7 @@ function externalPathFromInternal(internalPath: string, locale: Locale): string 
     if (parts[1]) parts[1] = resolveDestinationPublicSlug(parts[1]);
   } else if (parts[0] === "guide") {
     parts[0] = GUIDE_SEGMENT[locale];
+    if (parts[1]) parts[1] = guideSlugForLocale(parts[1], locale);
   }
   return `/${parts.join("/")}`;
 }

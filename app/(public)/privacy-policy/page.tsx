@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import { LegalPageShell } from "@/components/legal/LegalPageShell";
 import { company } from "@/lib/legal/company";
+import { buildPublicPageMetadata } from "@/lib/seo/public-page-metadata";
 
-export const metadata: Metadata = {
-  title: "Privacy Policy",
-  description: "Informativa sulla privacy e sul trattamento dei dati personali (Reg. UE 2016/679).",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return buildPublicPageMetadata(
+    "/privacy-policy",
+    "Privacy Policy",
+    "Informativa sulla privacy e sul trattamento dei dati personali (Reg. UE 2016/679).",
+  );
+}
 
 export default function PrivacyPolicyPage() {
   return (

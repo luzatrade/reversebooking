@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { GuideArticlePage, guideArticleMetadata } from "@/components/seo/GuideArticlePage";
 import { getServerLocale } from "@/lib/i18n/get-translations";
 import { getGuideBySlug } from "@/lib/i18n/guides";
-import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
+import { buildGuideLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
 
 export const revalidate = 86400;
 
@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: { absolute: meta.title },
     description: meta.description,
-    alternates: buildLanguageAlternates(meta.internalPath, locale),
+    alternates: buildGuideLanguageAlternates(slug, locale),
     openGraph: buildOpenGraph({ title: meta.title, description: meta.description, path: meta.internalPath, locale }),
     twitter: buildTwitterCard({ title: meta.title, description: meta.description }),
   };

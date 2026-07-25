@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { BRAND_NAME } from "@/lib/legal/company";
+import { guideSlugForLocale } from "@/lib/i18n/guides";
 import { allLocalizedPaths, localizedPath } from "@/lib/i18n/routing";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { DEFAULT_OG_IMAGE } from "@/lib/seo/site-url";
@@ -15,6 +16,22 @@ export function buildLanguageAlternates(internalPath = "/", locale: Locale = "it
   return {
     canonical,
     languages,
+  };
+}
+
+/** Guide articles use different slugs per locale — paired hreflang. */
+export function buildGuideLanguageAlternates(guideSlug: string, locale: Locale) {
+  const itSlug = guideSlugForLocale(guideSlug, "it");
+  const enSlug = guideSlugForLocale(guideSlug, "en");
+  const canonical = canonicalUrl(localizedPath(locale, `/guide/${guideSlugForLocale(guideSlug, locale)}`));
+
+  return {
+    canonical,
+    languages: {
+      "it-IT": canonicalUrl(localizedPath("it", `/guide/${itSlug}`)),
+      "en-GB": canonicalUrl(localizedPath("en", `/guide/${enSlug}`)),
+      "x-default": canonicalUrl(localizedPath("it", `/guide/${itSlug}`)),
+    },
   };
 }
 

@@ -9,6 +9,7 @@ import {
   parseLocalePath,
   shouldSkipLocaleMiddleware,
 } from "@/lib/i18n/routing";
+import { preferredLocaleFromRequest } from "@/lib/i18n/locale-detect";
 
 const PROTECTED_PREFIXES = [
   "/struttura",
@@ -49,7 +50,7 @@ function handleLocale(request: NextRequest): NextResponse | null {
 
   if (isPublicSeoPath(pathname)) {
     const url = request.nextUrl.clone();
-    url.pathname = localizedPath("it", pathname);
+    url.pathname = localizedPath(preferredLocaleFromRequest(request), pathname);
     return NextResponse.redirect(url, 301);
   }
 
