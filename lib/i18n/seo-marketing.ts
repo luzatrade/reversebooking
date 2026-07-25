@@ -141,6 +141,31 @@ function getTravellerFaq(locale: Locale): FaqItem[] {
         answer:
           "Reverse booking reverses the traditional flow: you do not hunt for the best rate across dozens of sites. You state what you need, and hotels compete to offer you the best direct proposal. Less time searching, more tailored deals.",
       },
+      {
+        question: "How do I create a stay request?",
+        answer:
+          "Click “Drop your request”, choose destination, check-in and check-out dates, budget, number of rooms and guests, then add any preferences (meal plan, area, special needs). One click sends the request to every compatible property in the selected area.",
+      },
+      {
+        question: "How long does it take to receive offers?",
+        answer:
+          "Properties reply based on their availability; you often receive the first offers within 24 hours.",
+      },
+      {
+        question: "Can I chat with a hotel before choosing?",
+        answer:
+          "Yes. When a property sends you an offer, you can compare proposals and communicate directly to clarify details, services and conditions before deciding.",
+      },
+      {
+        question: "What if no hotel replies?",
+        answer:
+          "You can adjust your budget or dates and republish the request, or browse the catalogue and contact properties directly from their profile page.",
+      },
+      {
+        question: "How is HotelsDrop different from Booking or Expedia?",
+        answer:
+          "On OTAs you search and book anonymously. On HotelsDrop you publish one request and hotels send you direct, personalised offers — with no booking commission for travellers and real contact with the property.",
+      },
     ];
   }
   return [
@@ -169,6 +194,31 @@ function getTravellerFaq(locale: Locale): FaqItem[] {
       answer:
         "Il reverse booking inverte il flusso tradizionale: non sei tu a cacciare la tariffa migliore su decine di siti. Sei tu a dire cosa ti serve, e sono gli hotel a proporti la miglior offerta diretta. Meno tempo perso a cercare, più proposte su misura.",
     },
+    {
+      question: "Come creo una richiesta di soggiorno?",
+      answer:
+        "Clicca su “Droppa la tua richiesta”, scegli destinazione, date di check-in e check-out, budget, numero camere e ospiti, poi aggiungi eventuali preferenze (trattamento, zona, esigenze particolari). Un click e la richiesta parte verso tutte le strutture compatibili della zona.",
+    },
+    {
+      question: "Quanto tempo ci vuole per ricevere le offerte?",
+      answer:
+        "Le strutture rispondono in base alla disponibilità; spesso entro 24 ore ricevi le prime proposte.",
+    },
+    {
+      question: "Posso parlare con l'hotel prima di scegliere?",
+      answer:
+        "Sì. Quando una struttura ti invia un'offerta, puoi confrontare le proposte e comunicare direttamente con loro per chiarire dettagli, servizi e condizioni prima di decidere.",
+    },
+    {
+      question: "Cosa succede se nessun hotel risponde?",
+      answer:
+        "Puoi modificare budget o date e ripubblicare la richiesta, oppure esplorare il catalogo e contattare le strutture direttamente dalla loro scheda.",
+    },
+    {
+      question: "In cosa HotelsDrop è diverso da Booking o Expedia?",
+      answer:
+        "Sui portali OTA cerchi e prenoti in anonimo. Su HotelsDrop pubblichi una richiesta e gli hotel ti inviano offerte dirette e personalizzate — senza commissioni di prenotazione per chi viaggia e con un contatto reale con la struttura.",
+    },
   ];
 }
 
@@ -190,6 +240,21 @@ function getAgencyGroupFaq(locale: Locale): FaqItem[] {
         answer:
           "No. That is the core advantage. One request reaches all matching hotels in the selected area. Each property replies with its own proposal. You save time, reduce errors and keep every negotiation in one place.",
       },
+      {
+        question: "How does a group request work (school, company, event)?",
+        answer:
+          "You publish one request with the number of rooms, guests and specific requirements (meals, accessibility, parking, etc.). Every compatible property in the destination receives it and replies with a tailored group offer.",
+      },
+      {
+        question: "Can a travel agency manage multiple client requests?",
+        answer:
+          "Yes. From your dashboard you can publish and track several stay requests for different clients, compare incoming offers and choose the best proposal for each trip.",
+      },
+      {
+        question: "Can I specify special requirements in the request?",
+        answer:
+          "Yes. You can indicate meal plan, preferred area, accessibility, pool, parking and other filters so only suitable properties receive your request and reply with compatible offers.",
+      },
     ];
   }
   return [
@@ -207,6 +272,21 @@ function getAgencyGroupFaq(locale: Locale): FaqItem[] {
       question: "Devo ancora contattare ogni hotel singolarmente?",
       answer:
         "No, è il vantaggio principale. Una sola richiesta raggiunge tutti gli hotel della zona selezionata che corrispondono ai criteri. Ogni struttura risponde con la propria proposta. Risparmi tempo, riduci errori e tieni tutto il processo in un unico posto.",
+    },
+    {
+      question: "Come funziona una richiesta di gruppo (scuola, azienda, evento)?",
+      answer:
+        "Pubblichi una richiesta con numero camere, ospiti e requisiti specifici (vitto, accessibilità, parcheggio, ecc.). Tutte le strutture compatibili della destinazione la ricevono e rispondono con un'offerta su misura per il gruppo.",
+    },
+    {
+      question: "Un'agenzia può gestire più richieste di clienti diversi?",
+      answer:
+        "Sì. Dalla dashboard puoi pubblicare e seguire più richieste di soggiorno per clienti diversi, confrontare le offerte ricevute e scegliere la proposta migliore per ogni viaggio.",
+    },
+    {
+      question: "Posso indicare requisiti speciali nella richiesta?",
+      answer:
+        "Sì. Puoi indicare trattamento, zona preferita, accessibilità, piscina, parcheggio e altri filtri, così solo le strutture adatte ricevono la richiesta e rispondono con offerte compatibili.",
     },
   ];
 }
@@ -234,6 +314,31 @@ function getPropertyFaq(locale: Locale): FaqItem[] {
         answer:
           "Properties join HotelsDrop with a simple monthly subscription. They receive relevant requests for their destination, reply with direct offers and negotiate without OTA commissions on bookings. Ideal for filling last-minute dates and building a direct client base.",
       },
+      {
+        question: "Do I have to reply to every request?",
+        answer:
+          "No. You only reply to requests that match your property, availability and commercial strategy. Requests outside your target can simply be ignored.",
+      },
+      {
+        question: "Can I publish last-minute offers?",
+        answer:
+          "Yes. Active properties can publish last-minute promotions on HotelsDrop to fill empty dates and reach travellers looking for immediate deals.",
+      },
+      {
+        question: "Do I only receive requests for my city?",
+        answer:
+          "Yes. Requests are forwarded based on the destination and criteria set by the traveller or agency, so you receive only relevant opportunities for your area.",
+      },
+      {
+        question: "Can I see who sent the request before replying?",
+        answer:
+          "Yes. Each request shows whether it comes from a traveller or an agency, so you know who you are dealing with and can start a direct, transparent dialogue.",
+      },
+      {
+        question: "Does contact remain even if the booking is not closed today?",
+        answer:
+          "Yes. Unlike anonymous OTA traffic, every HotelsDrop request creates a real relationship. Even without an immediate booking, you have met a traveller or agency you can work with in the future.",
+      },
     ];
   }
   return [
@@ -256,6 +361,31 @@ function getPropertyFaq(locale: Locale): FaqItem[] {
       question: "Come funziona l'abbonamento per le strutture?",
       answer:
         "Le strutture aderiscono a HotelsDrop con un abbonamento mensile semplice. Ricevono richieste pertinenti per la propria destinazione, rispondono con offerte dirette e trattano senza commissioni OTA sulle prenotazioni. Ideale per riempire date last minute e costruire una base clienti diretta.",
+    },
+    {
+      question: "Devo rispondere a ogni richiesta?",
+      answer:
+        "No. Rispondi solo alle richieste compatibili con la tua struttura, disponibilità e strategia commerciale. Quelle fuori target puoi semplicemente ignorarle.",
+    },
+    {
+      question: "Posso pubblicare offerte last minute?",
+      answer:
+        "Sì. Le strutture attive possono pubblicare promozioni last minute su HotelsDrop per riempire date vacanti e raggiungere viaggiatori in cerca di offerte immediate.",
+    },
+    {
+      question: "Ricevo richieste solo della mia città?",
+      answer:
+        "Sì. Le richieste vengono inoltrate in base alla destinazione e ai criteri indicati dal viaggiatore o dall'agenzia, quindi ricevi solo opportunità pertinenti per la tua zona.",
+    },
+    {
+      question: "Posso sapere chi ha inviato la richiesta prima di rispondere?",
+      answer:
+        "Sì. Ogni richiesta indica se proviene da un viaggiatore o da un'agenzia, così sai con chi stai trattando e puoi aprire un dialogo diretto e trasparente.",
+    },
+    {
+      question: "Il contatto resta anche se oggi non si conclude la prenotazione?",
+      answer:
+        "Sì. A differenza del traffico anonimo delle OTA, ogni richiesta su HotelsDrop crea un rapporto reale. Anche senza prenotazione immediata, hai conosciuto un viaggiatore o un'agenzia con cui potrai collaborare in futuro.",
     },
   ];
 }
