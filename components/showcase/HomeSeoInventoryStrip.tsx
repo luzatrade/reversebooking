@@ -7,7 +7,7 @@ type Props = {
   initialData: ShowcaseHomeInitialData | null;
 };
 
-/** Server-rendered inventory links for crawlers and no-JS users. */
+/** Server-rendered inventory links — collapsible, closed by default. */
 export async function HomeSeoInventoryStrip({ initialData }: Props) {
   if (!initialData) return null;
   const locale = await getServerLocale();
@@ -18,19 +18,28 @@ export async function HomeSeoInventoryStrip({ initialData }: Props) {
 
   const title =
     locale === "en" ? "Active properties and stay requests" : "Strutture e richieste di soggiorno attive";
+  const summaryHint =
+    locale === "en"
+      ? `${hotels.length} properties · ${requests.length} live requests`
+      : `${hotels.length} strutture · ${requests.length} richieste live`;
 
   return (
-    <section
-      aria-labelledby="home-seo-inventory-title"
-      className="border-b border-zinc-200/80 bg-zinc-50/90 px-4 py-4 dark:border-zinc-800 dark:bg-zinc-950/90 sm:px-6 lg:px-8"
-    >
-      <div className="mx-auto max-w-7xl">
-        <h2 id="home-seo-inventory-title" className="text-sm font-semibold text-zinc-800 dark:text-zinc-200">
-          {title}
-        </h2>
+    <details className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
+      <summary className="cursor-pointer list-none px-4 py-3.5 marker:content-none sm:px-5 sm:py-4 [&::-webkit-details-marker]:hidden">
+        <span className="flex items-center justify-between gap-3">
+          <span>
+            <span className="block text-sm font-semibold text-zinc-900 dark:text-zinc-100">{title}</span>
+            <span className="mt-0.5 block text-xs text-zinc-500">{summaryHint}</span>
+          </span>
+          <span className="shrink-0 text-zinc-400 transition group-open:rotate-180" aria-hidden="true">
+            ▾
+          </span>
+        </span>
+      </summary>
 
+      <div className="border-t border-zinc-100 px-4 pb-4 pt-3 dark:border-zinc-800 sm:px-5 sm:pb-5">
         {hotels.length ? (
-          <div className="mt-3">
+          <div>
             <p className="text-xs font-medium uppercase tracking-wide text-zinc-500">
               {locale === "en" ? "Properties" : "Strutture"}
             </p>
@@ -51,7 +60,7 @@ export async function HomeSeoInventoryStrip({ initialData }: Props) {
         ) : null}
 
         {requests.length ? (
-          <div className="mt-4">
+          <div className={hotels.length ? "mt-4" : ""}>
             <p className="text-xs font-medium uppercase tracking-wide text-zinc-500">
               {locale === "en" ? "Live requests" : "Richieste live"}
             </p>
@@ -74,6 +83,6 @@ export async function HomeSeoInventoryStrip({ initialData }: Props) {
           </div>
         ) : null}
       </div>
-    </section>
+    </details>
   );
 }
