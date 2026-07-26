@@ -8,6 +8,8 @@ type Props = {
   compact?: boolean;
   /** When true, all FAQ items start collapsed (homepage bottom). */
   collapseAll?: boolean;
+  /** Hide the section heading (e.g. when title is in a parent collapsible summary). */
+  hideTitle?: boolean;
 };
 
 function FaqList({
@@ -25,7 +27,7 @@ function FaqList({
         <details
           key={item.question}
           className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white open:shadow-sm dark:border-zinc-800 dark:bg-zinc-900"
-          open={collapseAll ? false : index === 0}
+          {...(!collapseAll && index === 0 ? { defaultOpen: true } : {})}
         >
           <summary className="cursor-pointer list-none px-4 py-3.5 text-sm font-semibold text-zinc-950 marker:content-none sm:px-5 sm:py-4 sm:text-base dark:text-white [&::-webkit-details-marker]:hidden">
             <span className="flex items-start justify-between gap-3">
@@ -47,16 +49,26 @@ function FaqList({
 }
 
 /** SSR-friendly FAQ: crawlable HTML via native details/summary (no JS required). */
-export function FaqSection({ items, sections, title, id = "faq", compact = false, collapseAll = false }: Props) {
+export function FaqSection({
+  items,
+  sections,
+  title,
+  id = "faq",
+  compact = false,
+  collapseAll = false,
+  hideTitle = false,
+}: Props) {
   const hasSections = Boolean(sections?.length);
 
   return (
-    <section aria-labelledby={id} className="scroll-mt-24">
-      <div className={compact ? "max-w-2xl" : "max-w-3xl"}>
-        <h2 id={id} className="text-xl font-semibold tracking-tight text-zinc-950 dark:text-white sm:text-2xl">
-          {title}
-        </h2>
-      </div>
+    <section aria-labelledby={hideTitle ? undefined : id} className="scroll-mt-24">
+      {hideTitle ? null : (
+        <div className={compact ? "max-w-2xl" : "max-w-3xl"}>
+          <h2 id={id} className="text-xl font-semibold tracking-tight text-zinc-950 dark:text-white sm:text-2xl">
+            {title}
+          </h2>
+        </div>
+      )}
 
       {hasSections ? (
         <div className={`mt-4 space-y-8 sm:mt-6 ${compact ? "max-w-2xl" : "max-w-3xl"}`}>
