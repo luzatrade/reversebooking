@@ -3,6 +3,7 @@
 import { usePathname } from "next/navigation";
 import { LegalFooterCompact } from "@/components/legal/LegalFooterCompact";
 import { SiteFooter } from "@/components/legal/SiteFooter";
+import { stripLocalePrefix } from "@/lib/i18n/routing";
 
 /** Pagine che usano già SiteFooter nel layout (public). */
 const PUBLIC_LAYOUT_FOOTER_PATHS = new Set([
@@ -32,9 +33,10 @@ function needsCompactFooter(pathname: string) {
 
 export function AppFooter() {
   const pathname = usePathname();
+  const internalPath = stripLocalePrefix(pathname).pathname;
 
-  if (PUBLIC_LAYOUT_FOOTER_PATHS.has(pathname)) return null;
-  if (needsFullFooter(pathname)) return <SiteFooter />;
-  if (needsCompactFooter(pathname)) return <LegalFooterCompact />;
+  if (PUBLIC_LAYOUT_FOOTER_PATHS.has(internalPath)) return null;
+  if (needsFullFooter(internalPath)) return <SiteFooter />;
+  if (needsCompactFooter(internalPath)) return <LegalFooterCompact />;
   return null;
 }
