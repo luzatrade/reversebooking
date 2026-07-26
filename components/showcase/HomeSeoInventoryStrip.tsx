@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { getServerLocale } from "@/lib/i18n/get-translations";
 import { destinationPublicPath, structurePublicPath } from "@/lib/i18n/routing";
+import { fetchDestinationHubBySlug } from "@/lib/seo/destination-queries";
+import { resolveDestinationHubSlug } from "@/lib/seo/city-canonical";
 import type { ShowcaseHomeInitialData } from "@/lib/showcase/homeData";
 
 type Props = {
@@ -13,6 +15,14 @@ export async function HomeSeoInventoryStrip({ initialData }: Props) {
   const locale = await getServerLocale();
   const hotels = initialData.hotels.filter((h) => h.slug).slice(0, 16);
   const requests = initialData.requests.slice(0, 10);
+
+  const requestLinks = await Promise.all(
+    requests.map(async (request) => {
+      const slug = resolveDestinationHubSlug(request.city_name);
+      const hub = await fetchDestinationHubBySlug(slug);
+      return { request, href: hub ? destinationPublicPath(slug, locale) : null };
+    }),
+  );
 
   if (!hotels.length && !requests.length) return null;
 
@@ -65,18 +75,25 @@ export async function HomeSeoInventoryStrip({ initialData }: Props) {
               {locale === "en" ? "Live requests" : "Richieste live"}
             </p>
             <ul className="mt-2 flex flex-wrap gap-x-3 gap-y-1.5 text-sm text-zinc-700 dark:text-zinc-300">
-              {requests.map((request) => (
+              {requestLinks.map(({ request, href }) => (
                 <li key={request.id}>
-                  <Link
-                    href={destinationPublicPath(request.city_name, locale)}
-                    className="hover:text-[#0f4c81] hover:underline"
-                  >
-                    {request.city_name}
-                    <span className="text-zinc-500">
-                      {" "}
-                      · {request.check_in} → {request.check_out}
+                  {href ? (
+                    <Link href={href} className="hover:text-[#0f4c81] hover:underline">
+                      {request.city_name}
+                      <span className="text-zinc-500">
+                        {" "}
+                        · {request.check_in} → {request.check_out}
+                      </span>
+                    </Link>
+                  ) : (
+                    <span>
+                      {request.city_name}
+                      <span className="text-zinc-500">
+                        {" "}
+                        · {request.check_in} → {request.check_out}
+                      </span>
                     </span>
-                  </Link>
+                  )}
                 </li>
               ))}
             </ul>

@@ -183,23 +183,13 @@ export async function listPopularDestinations(): Promise<DestinationHub[]> {
 
     const slug = buildDestinationSlug(entry.displayName);
     const hub = index.hubs.get(slug);
+    if (!hub) continue;
+
     const countryCode = entry.cityId.split("-")[0] ?? null;
 
-    if (hub) {
-      results.push({
-        ...hub,
-        displayName: entry.displayName,
-        cityId: entry.cityId,
-        countryCode,
-      });
-      continue;
-    }
-
     results.push({
-      slug,
+      ...hub,
       displayName: entry.displayName,
-      structureCount: 0,
-      tier: "standard",
       cityId: entry.cityId,
       countryCode,
     });

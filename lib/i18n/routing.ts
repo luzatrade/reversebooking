@@ -1,7 +1,7 @@
 import { LOCALE_COOKIE } from "@/lib/i18n/cookie";
 import { guideSlugForLocale } from "@/lib/i18n/guides";
 import type { Locale } from "@/lib/i18n/translations";
-import { buildDestinationSlug, canonicalCityKey } from "@/lib/seo/city-canonical";
+import { buildDestinationSlug, canonicalCityKey, resolveDestinationHubSlug } from "@/lib/seo/city-canonical";
 import { slugifySeo } from "@/lib/seo/slug";
 
 export const LOCALE_HEADER = "x-next-locale";
@@ -72,8 +72,7 @@ function normalizeInternalPath(path: string): string {
 }
 
 export function resolveDestinationPublicSlug(publicSlug: string): string {
-  const asName = publicSlug.replace(/-/g, " ");
-  return buildDestinationSlug(asName);
+  return resolveDestinationHubSlug(publicSlug);
 }
 
 function translateExternalSegment(segment: string, locale: Locale, toInternal: boolean): string {

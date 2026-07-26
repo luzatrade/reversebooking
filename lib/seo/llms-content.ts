@@ -23,7 +23,7 @@ export function buildLlmsTxt() {
 - About: ${canonicalUrl(localizedPath("it", "/cos-e-hotelsdrop"))}
 - All destinations: ${canonicalUrl(localizedPath("it", "/destinazioni"))}
 - Guides: ${canonicalUrl(localizedPath("it", "/guide"))}
-- Destination example: ${canonicalUrl(localizedPath("it", "/destinazioni/rome"))}
+- Destination example: ${canonicalUrl(localizedPath("it", "/destinazioni/roma"))}
 - Contacts: ${canonicalUrl(localizedPath("it", "/contatti"))}
 
 ## Canonical URLs (English)

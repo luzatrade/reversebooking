@@ -25,6 +25,38 @@ const cityAliases: Record<string, string[]> = {
   "reggio di calabria": ["reggio calabria"],
   london: ["londra"],
   londra: ["london"],
+  paris: ["parigi"],
+  parigi: ["paris"],
+  berlin: ["berlino"],
+  berlino: ["berlin"],
+};
+
+/** Slug canonico preferito per hub destinazione (allinea IT/EN e alias). */
+const preferredDestinationSlugKey: Record<string, string> = {
+  rome: "roma",
+  roma: "roma",
+  london: "london",
+  londra: "london",
+  paris: "paris",
+  parigi: "paris",
+  berlin: "berlin",
+  berlino: "berlin",
+  florence: "firenze",
+  firenze: "firenze",
+  milan: "milano",
+  milano: "milano",
+  naples: "napoli",
+  napoli: "napoli",
+  venice: "venezia",
+  venezia: "venezia",
+  turin: "torino",
+  torino: "torino",
+  genoa: "genova",
+  genova: "genova",
+  padua: "padova",
+  padova: "padova",
+  syracuse: "siracusa",
+  siracusa: "siracusa",
 };
 
 function normalize(value: string) {
@@ -62,7 +94,14 @@ export function cityLookupNames(cityName: string) {
 }
 
 export function buildDestinationSlug(cityName: string) {
-  return slugifySeo(canonicalCityKey(cityName), 64);
+  const key = canonicalCityKey(cityName);
+  const preferred = preferredDestinationSlugKey[key] ?? key;
+  return slugifySeo(preferred, 64);
+}
+
+/** Normalizza uno slug URL verso lo slug canonico dell'hub destinazione. */
+export function resolveDestinationHubSlug(inputSlug: string) {
+  return buildDestinationSlug(inputSlug.replace(/-/g, " "));
 }
 
 /** Internal unprefixed path — middleware 301s to /it/… for SEO. Prefer `@/lib/i18n/routing`. */
