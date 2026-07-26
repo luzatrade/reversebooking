@@ -3,6 +3,7 @@ import { logAdminAction } from "@/lib/admin/audit";
 import { registerPartnerFromOnboarding } from "@/lib/admin/register-structure-from-onboarding";
 import { requireAdminApi } from "@/lib/admin/verify";
 import { dashboardPathForRole } from "@/lib/auth/redirectAfterLogin";
+import { notifyHotelAccountIndexNow } from "@/lib/seo/indexnow-sync";
 
 type Body = {
   onboardingId?: string;
@@ -45,6 +46,8 @@ export async function POST(request: Request) {
       email: result.email,
     },
   });
+
+  void notifyHotelAccountIndexNow(gate.admin, result.hotelAccountId);
 
   let redirectUrl: string | null = null;
 

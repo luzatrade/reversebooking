@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { logAdminAction } from "@/lib/admin/audit";
 import { requireAdminApi } from "@/lib/admin/verify";
+import { notifyOnboardingHotelIndexNow } from "@/lib/seo/indexnow-sync";
 
 const MAX_BYTES = 5 * 1024 * 1024;
 const MAX_GALLERY_PHOTOS = 4;
@@ -101,6 +102,8 @@ export async function POST(request: Request) {
       },
     });
 
+    void notifyOnboardingHotelIndexNow(admin, id);
+
     return NextResponse.json({ ok: true, gallery_photo_urls: galleryPhotoUrls });
   }
 
@@ -126,6 +129,8 @@ export async function POST(request: Request) {
       storagePath: path,
     },
   });
+
+  void notifyOnboardingHotelIndexNow(admin, id);
 
   return NextResponse.json({ ok: true, main_photo_url: photoUrl });
 }

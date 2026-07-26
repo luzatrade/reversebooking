@@ -3,6 +3,7 @@ import { logAdminAction } from "@/lib/admin/audit";
 import { requireAdminApi } from "@/lib/admin/verify";
 import { MAX_GALLERY_PHOTOS } from "@/lib/hotel/gallery-photos";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
+import { notifyOnboardingHotelIndexNow } from "@/lib/seo/indexnow-sync";
 
 const ALLOWED_STATUSES = new Set(["unclaimed", "pending_verification", "claimed"]);
 
@@ -151,6 +152,8 @@ export async function POST(request: Request) {
       syncedHotelAccount: Object.keys(hotelSync),
     },
   });
+
+  void notifyOnboardingHotelIndexNow(admin, id);
 
   return NextResponse.json({ ok: true });
 }

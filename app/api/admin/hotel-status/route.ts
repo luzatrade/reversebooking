@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
-import { requireAdminApi } from "@/lib/admin/verify";
 import { logAdminAction } from "@/lib/admin/audit";
+import { requireAdminApi } from "@/lib/admin/verify";
+import { notifyHotelAccountIndexNow } from "@/lib/seo/indexnow-sync";
 
 const ALLOWED = new Set(["pending_verification", "active", "suspended", "banned"]);
 
@@ -27,6 +28,8 @@ export async function POST(request: Request) {
     targetId: body.hotelAccountId,
     details: { accountStatus: body.accountStatus },
   });
+
+  void notifyHotelAccountIndexNow(gate.admin, body.hotelAccountId);
 
   return NextResponse.json({ ok: true });
 }
