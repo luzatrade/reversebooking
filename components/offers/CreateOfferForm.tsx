@@ -18,6 +18,7 @@ import {
   OFFER_MSG_SUBSCRIPTION_INACTIVE,
 } from "@/lib/hotel/offer-eligibility";
 import { makeOfferCode, relaunchOfferHref } from "@/lib/identifiers";
+import { checkoutExpiresAtIso } from "@/lib/lifecycle/checkout-expiry";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { formatMessage } from "@/lib/i18n/format";
 import { getMealPlanLabels } from "@/lib/i18n/labels";
@@ -31,6 +32,8 @@ type TravelRequest = {
   id: string;
   request_code: string | null;
   city_name: string;
+  country_code: string;
+  city_id: string;
   preferred_area: string;
   check_in: string;
   check_out: string;
@@ -57,6 +60,10 @@ const filterLabels: Array<{ key: keyof PreferenceFilters; label: string }> = [
 function formatDate(value: string) { return new Intl.DateTimeFormat("it-IT", { day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(value)); }
 function formatCurrency(value: number) { return new Intl.NumberFormat("it-IT", { style: "currency", currency: "EUR" }).format(value); }
 function defaultOfferExpiry() { const date = new Date(); date.setDate(date.getDate() + 2); return date.toISOString().slice(0, 10); }
+function offerExpiryForRequest(request: TravelRequest | null) {
+  if (!request) return defaultOfferExpiry();
+  return checkoutExpiresAtIso(request.check_out, request.country_code, request.city_id).slice(0, 10);
+}
 function getActiveFilters(filters: PreferenceFilters | null) { if (!filters) return []; return filterLabels.filter((filter) => Boolean(filters[filter.key])); }
 function requestCode(request: TravelRequest | null) { return request?.request_code ?? "RB------"; }
 function offerCode(offer: ExistingOffer | null) { return offer?.offer_code ?? "OF------"; }
@@ -94,6 +101,11 @@ export function CreateOfferForm() {
   const [description, setDescription] = useState("Offerta personalizzata per il soggiorno richiesto.");
   const [conditions, setConditions] = useState("Tariffa soggetta a disponibilità al momento della conferma.");
   const [expiresAt, setExpiresAt] = useState(defaultOfferExpiry());
+  useEffect(() => {
+    if (request) {
+      setExpiresAt(offerExpiryForRequest(request));
+    }
+  }, [request]);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [deletingId, setDeletingId] = useState<string | null>(null);
@@ -138,7 +150,7 @@ export function CreateOfferForm() {
         setHotel(hotelData as HotelAccount);
         const { data: requestData, error: requestError } = await supabase
           .from("travel_requests")
-          .select("id, request_code, city_name, preferred_area, check_in, check_out, guests_count, rooms_count, room_details, preference_filters, budget, meal_plan, notes, visible_contact_email, visible_contact_phone, status, expires_at, advertiser_profiles(first_name, last_name)")
+          .select("id, request_code, city_name, country_code, city_id, preferred_area, check_in, check_out, guests_count, rooms_count, room_details, preference_filters, budget, meal_plan, notes, visible_contact_email, visible_contact_phone, status, expires_at, advertiser_profiles(first_name, last_name)")
           .eq("id", requestId)
           .single();
         if (requestError || !requestData) { setError("Annuncio non trovato o non più disponibile."); return; }
@@ -280,7 +292,7 @@ export function CreateOfferForm() {
           description,
           conditions: conditions.trim() || null,
           meal_plan_included: mealPlanIncluded,
-          expires_at: `${expiresAt}T23:59:00+02:00`,
+          expires_at: checkoutExpiresAtIso(request.check_out, request.country_code, request.city_id),
           status: "pending",
         })
         .select("id, offer_code")
@@ -457,7 +469,18 @@ export function CreateOfferForm() {
             <label className="block text-sm font-medium">Trattamento incluso<select value={mealPlanIncluded} onChange={(event) => setMealPlanIncluded(event.target.value as MealPlan)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950">{Object.entries(mealPlanLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label>
             <label className="block text-sm font-medium md:col-span-2">Descrizione offerta<textarea value={description} onChange={(event) => setDescription(event.target.value)} rows={4} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
             <label className="block text-sm font-medium md:col-span-2">Condizioni<textarea value={conditions} onChange={(event) => setConditions(event.target.value)} rows={3} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
-            <label className="block text-sm font-medium">Scadenza offerta<input type="date" value={expiresAt} onChange={(event) => setExpiresAt(event.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
+            <label className="block text-sm font-medium md:col-span-2">
+              Scadenza offerta
+              <input
+                type="text"
+                readOnly
+                value={request ? formatDate(checkoutExpiresAtIso(request.check_out, request.country_code, request.city_id)) : expiresAt}
+                className="mt-2 w-full rounded-2xl border border-zinc-200 bg-zinc-50 px-4 py-3 text-sm text-zinc-600 dark:border-zinc-700 dark:bg-zinc-900"
+              />
+              <span className="mt-1 block text-xs font-normal text-zinc-500">
+                Allineata al check-out della richiesta (24:00, fuso del paese di destinazione).
+              </span>
+            </label>
           </div>
           {success ? <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-700">{success}</div> : null}
           <button disabled={saving} type="submit" className="rounded-full bg-zinc-950 px-6 py-3 text-sm font-semibold text-white disabled:opacity-60 dark:bg-white dark:text-zinc-950">

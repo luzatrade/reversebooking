@@ -20,6 +20,7 @@ import {
 import { createWorldCity, resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
 import type { WorldCity } from "@/lib/constants/world-cities";
 import { getMealPlanLabels } from "@/lib/i18n/labels";
+import { catalogOfferExpiresAtIso } from "@/lib/lifecycle/checkout-expiry";
 import { makeCatalogOfferCode } from "@/lib/identifiers";
 import { getHotelOfferBlockMessage, HOTEL_OFFER_ELIGIBILITY_SELECT } from "@/lib/hotel/offer-eligibility";
 import {
@@ -415,6 +416,18 @@ export function AgencyCatalogOfferWizard() {
     try {
       const supabase = createBrowserSupabaseClient();
       const code = makeCatalogOfferCode();
+      const primaryDestination =
+        finalDestinations.find((destination) => destination.role === "primary") ??
+        [...finalDestinations].sort((a, b) => a.sort_order - b.sort_order)[0]!;
+      const expiresAt = catalogOfferExpiresAtIso({
+        dateMode,
+        checkOut: dateMode === "fixed" ? checkOut : null,
+        validUntil: dateMode === "date_range" ? validUntil : null,
+        flexibleMonth: dateMode === "month_flexible" ? flexMonth : null,
+        flexibleYear: dateMode === "month_flexible" ? flexYear : null,
+        countryCode: primaryDestination.country_code,
+        cityId: primaryDestination.city_id,
+      });
       const { data: offerRow, error: offerErr } = await supabase
         .from("catalog_offers")
         .insert({
@@ -433,6 +446,7 @@ export function AgencyCatalogOfferWizard() {
           flexible_month: dateMode === "month_flexible" ? flexMonth : null,
           flexible_year: dateMode === "month_flexible" ? flexYear : null,
           flexible_nights: dateMode === "month_flexible" ? flexNights : null,
+          expires_at: expiresAt,
           cover_public_url: coverUrl || null,
           published_at: publish ? new Date().toISOString() : null,
         })
