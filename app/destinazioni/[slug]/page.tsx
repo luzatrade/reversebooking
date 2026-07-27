@@ -1,15 +1,18 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { DestinationHubPage } from "@/components/seo/DestinationHubPage";
 import { DestinationJsonLd } from "@/components/seo/DestinationJsonLd";
 import { JsonLdScript } from "@/components/seo/JsonLdScript";
 import { getServerLocale } from "@/lib/i18n/get-translations";
+import { localizedPath } from "@/lib/i18n/routing";
 import { getDestinationFaq } from "@/lib/i18n/seo-marketing";
+import { resolveDestinationHubSlug } from "@/lib/seo/city-canonical";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { buildDestinationMetadata } from "@/lib/seo/destination-metadata";
 import { buildFaqPageJsonLd } from "@/lib/seo/faq-jsonld";
 import { fetchDestinationHubBySlug, fetchDestinationStructures } from "@/lib/seo/destination-queries";
 import { listRelatedDestinations } from "@/lib/seo/related-destinations";
+import { slugifySeo } from "@/lib/seo/slug";
 
 export const revalidate = 3600;
 
@@ -19,7 +22,8 @@ type PageProps = {
 };
 
 export async function generateMetadata({ params, searchParams }: PageProps): Promise<Metadata> {
-  const { slug } = await params;
+  const { slug: rawSlug } = await params;
+  const slug = resolveDestinationHubSlug(rawSlug);
   const { page: pageParam } = await searchParams;
   const locale = await getServerLocale();
   const hub = await fetchDestinationHubBySlug(slug);
@@ -32,7 +36,14 @@ export async function generateMetadata({ params, searchParams }: PageProps): Pro
 }
 
 export default async function DestinationPage({ params, searchParams }: PageProps) {
-  const { slug } = await params;
+  const { slug: rawSlug } = await params;
+  const slug = resolveDestinationHubSlug(rawSlug);
+  const locale = await getServerLocale();
+
+  if (slugifySeo(rawSlug, 64) !== slug) {
+    permanentRedirect(localizedPath(locale, `/destinazioni/${slug}`));
+  }
+
   const { page: pageParam } = await searchParams;
   const page = Math.max(1, Number.parseInt(pageParam ?? "1", 10) || 1);
   const result = await fetchDestinationStructures(slug, page);
@@ -43,8 +54,7 @@ export default async function DestinationPage({ params, searchParams }: PageProp
     page === 1 ? await listRelatedDestinations(result.hub.slug, result.hub.countryCode) : [];
 
   const pageUrl =
-    page === 1 ? canonicalUrl(`/destinazioni/${slug}`) : canonicalUrl(`/destinazioni/${slug}?page=${page}`);
-  const locale = await getServerLocale();
+    page === 1 ? canonicalUrl(localizedPath(locale, `/destinazioni/${slug}`)) : canonicalUrl(localizedPath(locale, `/destinazioni/${slug}?page=${page}`));
 
   return (
     <>
