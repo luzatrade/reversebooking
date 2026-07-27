@@ -67,8 +67,54 @@ function shuffle(arr) {
   }
   return copy;
 }
-function expiresAtForCheckIn(checkIn) {
-  return `${checkIn}T23:59:00+02:00`;
+const COUNTRY_TIMEZONE = {
+  IT: "Europe/Rome",
+  FR: "Europe/Paris",
+  GB: "Europe/London",
+  DE: "Europe/Berlin",
+  ES: "Europe/Madrid",
+  NL: "Europe/Amsterdam",
+  PT: "Europe/Lisbon",
+  AE: "Asia/Dubai",
+  TR: "Europe/Istanbul",
+  US: "America/New_York",
+};
+
+function timezoneForLocation(countryCode, cityId) {
+  if (cityId?.startsWith("US-LAX")) return "America/Los_Angeles";
+  return COUNTRY_TIMEZONE[countryCode?.toUpperCase()] ?? "UTC";
+}
+
+function zonedLocalToUtcIso(localDateTime, timeZone) {
+  const [datePart, timePart = "00:00:00"] = localDateTime.split("T");
+  const [year, month, day] = datePart.split("-").map(Number);
+  const [hour, minute, second] = timePart.split(":").map((value) => Number(value) || 0);
+  let utcMs = Date.UTC(year, month - 1, day, hour, minute, second);
+  for (let attempt = 0; attempt < 4; attempt += 1) {
+    const formatter = new Intl.DateTimeFormat("en-GB", {
+      timeZone,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hourCycle: "h23",
+    });
+    const parts = formatter.formatToParts(new Date(utcMs));
+    const read = (type) => Number(parts.find((part) => part.type === type)?.value ?? 0);
+    const desired = Date.UTC(year, month - 1, day, hour, minute, second);
+    const actual = Date.UTC(read("year"), read("month") - 1, read("day"), read("hour"), read("minute"), read("second"));
+    utcMs += desired - actual;
+  }
+  return new Date(utcMs).toISOString();
+}
+
+/** Mezzanotte (24:00) al termine del giorno checkout nel fuso del paese. */
+function expiresAtForCheckOut(checkOut, countryCode, cityId) {
+  const timezone = timezoneForLocation(countryCode, cityId);
+  const nextDay = addDays(checkOut, 1);
+  return zonedLocalToUtcIso(`${nextDay}T00:00:00`, timezone);
 }
 function addDays(isoDate, days) {
   const d = new Date(`${isoDate}T12:00:00Z`);
@@ -625,7 +671,7 @@ async function createDrop(city, tpl, adv) {
     visible_contact_phone: null,
     visible_contact_whatsapp: null,
     status: "active",
-    expires_at: expiresAtForCheckIn(checkIn),
+    expires_at: expiresAtForCheckOut(checkOut, city.country_code, city.city_id),
     target_hotel_account_id: null,
   };
 

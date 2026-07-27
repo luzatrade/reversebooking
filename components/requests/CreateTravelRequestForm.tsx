@@ -33,7 +33,7 @@ const emptyFilters: PreferenceFilters = { connecting_rooms: false, disabled_acce
 const formFieldLgLabel = "text-sm font-medium text-zinc-800 dark:text-zinc-200";
 const formFieldLgInput =
   "mt-2 h-16 w-full rounded-2xl border border-zinc-300 bg-white px-4 text-base font-semibold leading-none text-zinc-950 outline-none transition placeholder:font-normal placeholder:text-zinc-400 focus:border-[#0f4c81] focus:ring-2 focus:ring-[#0f4c81]/20 dark:border-zinc-700 dark:bg-zinc-950 dark:text-white dark:placeholder:text-zinc-500";
-function expiresAtForCheckIn(checkIn: string) { return `${checkIn}T23:59:00+02:00`; }
+import { checkoutExpiresAtIso } from "@/lib/lifecycle/checkout-expiry";
 function normalizeRooms(rooms: RoomDetail[]) { return rooms.map((room, index) => ({ ...room, room: index + 1, room_type: room.room_type ?? "double", adults: Math.max(1, room.adults), children: Math.max(0, room.children), children_ages: room.children_ages.slice(0, room.children).map((age) => Math.max(0, age)), budget: Math.max(0, Number(room.budget) || 0) })); }
 function formatCurrency(value: number, locale: string) {
   return new Intl.NumberFormat(locale === "en" ? "en-GB" : "it-IT", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(value || 0);
@@ -261,7 +261,7 @@ export function CreateTravelRequestForm() {
         visible_contact_phone: null,
         visible_contact_whatsapp: null,
         status: "active",
-        expires_at: expiresAtForCheckIn(draft.checkIn),
+        expires_at: checkoutExpiresAtIso(draft.checkOut, draft.selectedCity.country_code, draft.selectedCity.city_id),
         target_hotel_account_id: draft.targetHotelId || null,
       };
       const { data: newRequest, error: insertError } = await supabase

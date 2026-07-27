@@ -7,6 +7,7 @@ import { useRouter } from "next/navigation";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { getMealPlanLabels, getStructureTypeLabels } from "@/lib/i18n/labels";
 import { HOTEL_PERK_OPTIONS, catalogRoomTypeLabels } from "@/lib/catalog-offers/labels";
+import { checkoutExpiresAtIso } from "@/lib/lifecycle/checkout-expiry";
 import { makeCatalogOfferCode } from "@/lib/identifiers";
 import { getHotelOfferBlockMessage, HOTEL_OFFER_ELIGIBILITY_SELECT } from "@/lib/hotel/offer-eligibility";
 import { getAuthUserFast } from "@/lib/auth/clientSession";
@@ -160,6 +161,7 @@ export function HotelCatalogOfferForm() {
           date_mode: "fixed",
           check_in: checkIn,
           check_out: checkOut,
+          expires_at: checkoutExpiresAtIso(checkOut, hotel.country_code, hotel.city_id),
           cover_public_url: coverUrl || null,
           published_at: publish ? new Date().toISOString() : null,
         })
