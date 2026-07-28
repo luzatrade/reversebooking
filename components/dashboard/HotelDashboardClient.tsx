@@ -13,6 +13,8 @@ import { MarkNotificationsReadOnDashboard } from "@/components/notifications/Mar
 import { focusAlertBells, scrollToSection } from "@/lib/dashboard/scrollToSection";
 import { relaunchOfferHref } from "@/lib/identifiers";
 import { formatAdvertiserPublicName } from "@/lib/advertiser/publicName";
+import { resolveAdvertiserContacts } from "@/lib/advertiser/contacts";
+import { AdvertiserContactPanel } from "@/components/advertiser/AdvertiserContactPanel";
 import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
@@ -34,6 +36,10 @@ type AdvertiserRelation = {
   short_description: string | null;
   first_name: string | null;
   last_name: string | null;
+  contact_email?: string | null;
+  contact_phone?: string | null;
+  contact_whatsapp?: string | null;
+  website_url?: string | null;
 };
 type RawSentOffer = Omit<HotelSentOffer, "travel_requests"> & {
   travel_requests?: HotelSentOffer["travel_requests"] | NonNullable<HotelSentOffer["travel_requests"]>[] | null;
@@ -147,7 +153,7 @@ export function HotelDashboardClient() {
       const [requestResult, offerResult, sentOfferResult, acceptedOfferResult, notificationResult] = await Promise.all([
         supabase
           .from("travel_requests")
-          .select("id, request_code, city_name, city_id, preferred_area, check_in, check_out, guests_count, rooms_count, budget, meal_plan, notes, visible_contact_email, visible_contact_phone, visible_contact_whatsapp, visible_contact_website, expires_at, created_at, advertiser_profiles(advertiser_type, short_description, first_name, last_name)")
+          .select("id, request_code, city_name, city_id, preferred_area, check_in, check_out, guests_count, rooms_count, budget, meal_plan, notes, visible_contact_email, visible_contact_phone, visible_contact_whatsapp, visible_contact_website, expires_at, created_at, advertiser_profiles(advertiser_type, short_description, first_name, last_name, contact_email, contact_phone, contact_whatsapp, website_url)")
           .eq("status", "active")
           .eq("city_id", hotelData.city_id)
           .gt("expires_at", nowIso)
@@ -370,9 +376,11 @@ export function HotelDashboardClient() {
                         {t.dashboard.hotel.clientProfile}: {request.advertiser_profiles.short_description}
                       </p>
                     ) : null}
-                    <div className="mt-3 rounded-2xl border border-amber-200/80 bg-white px-3 py-3 text-xs text-amber-900">
-                      {t.dashboard.hotel.contactsHiddenUntilAccept}
-                    </div>
+                    <AdvertiserContactPanel
+                      contacts={resolveAdvertiserContacts(request)}
+                      title={t.dashboard.hotel.advertiserContactsTitle}
+                      emptyMessage={t.dashboard.hotel.advertiserContactsMissing}
+                    />
                   </div>
                   <Link href={action.href} className={dashboardSurfaces.btnPrimary}>
                     {latestOfferByRequest.has(request.id) ? action.label : t.dashboard.hotel.openRequest}

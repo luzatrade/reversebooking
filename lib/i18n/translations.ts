@@ -781,6 +781,8 @@ export const translations = {
         clientProfile: "Profilo cliente",
         contactsHiddenUntilAccept:
           "Contatti nascosti: disponibili solo dopo accettazione dell'offerta.",
+        advertiserContactsTitle: "Contatti inserzionista",
+        advertiserContactsMissing: "Nessun contatto indicato dall'inserzionista nel profilo.",
         createOffer: "CREA OFFERTA",
         offerSent: "Offerta inviata",
         relaunchOffer: "Rilancia offerta",
@@ -900,6 +902,8 @@ export const translations = {
         mealPlan: "Trattamento",
         contactsHidden:
           "Contatti inserzionista nascosti. Saranno disponibili solo dopo accettazione dell'offerta.",
+        advertiserContactsTitle: "Contatti inserzionista",
+        advertiserContactsMissing: "Nessun contatto indicato dall'inserzionista nel profilo.",
         offerSent: "Offerta inviata",
         offerPendingTitle: "Offerta in attesa di risposta",
         offerPendingHint:
@@ -2133,6 +2137,8 @@ export const translations = {
         requestedMealPlan: "Requested meal plan",
         clientProfile: "Guest profile",
         contactsHiddenUntilAccept: "Contacts hidden: available only after the offer is accepted.",
+        advertiserContactsTitle: "Advertiser contacts",
+        advertiserContactsMissing: "No contact details provided in the advertiser profile.",
         createOffer: "CREATE OFFER",
         offerSent: "Offer sent",
         relaunchOffer: "Relaunch offer",
@@ -2251,6 +2257,8 @@ export const translations = {
         mealPlan: "Meal plan",
         contactsHidden:
           "Advertiser contacts are hidden. They become available only after the offer is accepted.",
+        advertiserContactsTitle: "Advertiser contacts",
+        advertiserContactsMissing: "No contact details provided in the advertiser profile.",
         offerSent: "Offer sent",
         offerPendingTitle: "Offer awaiting response",
         offerPendingHint:

@@ -9,6 +9,8 @@ import { acceptedOfferTheme } from "@/components/offers/acceptedOfferTheme";
 import { PrintSummaryButton } from "@/components/offers/PrintSummaryButton";
 import { DownloadVoucherButton } from "@/components/offers/DownloadVoucherButton";
 import { formatAdvertiserPublicName, oneAdvertiserProfile } from "@/lib/advertiser/publicName";
+import { resolveAdvertiserContacts } from "@/lib/advertiser/contacts";
+import { AdvertiserContactPanel } from "@/components/advertiser/AdvertiserContactPanel";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { validateNoContactsInFields } from "@/lib/content/contact-guard";
 import {
@@ -27,7 +29,14 @@ import type { MealPlan, StructureType } from "@/types/app";
 type RoomType = "double" | "twin" | "triple" | "quadruple";
 type RoomDetail = { room: number; room_type?: RoomType; adults: number; children: number; children_ages: number[]; budget?: number };
 type PreferenceFilters = { connecting_rooms?: boolean; disabled_access?: boolean; pool?: boolean; spa?: boolean; bathtub?: boolean; garage?: boolean; beach?: boolean; pets_allowed?: boolean };
-type AdvertiserPublic = { first_name: string | null; last_name: string | null };
+type AdvertiserPublic = {
+  first_name: string | null;
+  last_name: string | null;
+  contact_email?: string | null;
+  contact_phone?: string | null;
+  contact_whatsapp?: string | null;
+  website_url?: string | null;
+};
 type TravelRequest = {
   id: string;
   request_code: string | null;
@@ -46,6 +55,8 @@ type TravelRequest = {
   notes: string | null;
   visible_contact_email: string | null;
   visible_contact_phone: string | null;
+  visible_contact_whatsapp: string | null;
+  visible_contact_website: string | null;
   status: string;
   expires_at: string;
   advertiser_profiles?: AdvertiserPublic | AdvertiserPublic[] | null;
@@ -150,7 +161,7 @@ export function CreateOfferForm() {
         setHotel(hotelData as HotelAccount);
         const { data: requestData, error: requestError } = await supabase
           .from("travel_requests")
-          .select("id, request_code, city_name, country_code, city_id, preferred_area, check_in, check_out, guests_count, rooms_count, room_details, preference_filters, budget, meal_plan, notes, visible_contact_email, visible_contact_phone, status, expires_at, advertiser_profiles(first_name, last_name)")
+          .select("id, request_code, city_name, country_code, city_id, preferred_area, check_in, check_out, guests_count, rooms_count, room_details, preference_filters, budget, meal_plan, notes, visible_contact_email, visible_contact_phone, visible_contact_whatsapp, visible_contact_website, status, expires_at, advertiser_profiles(first_name, last_name, contact_email, contact_phone, contact_whatsapp, website_url)")
           .eq("id", requestId)
           .single();
         if (requestError || !requestData) { setError("Annuncio non trovato o non più disponibile."); return; }
@@ -394,7 +405,12 @@ export function CreateOfferForm() {
               </div>
             </div>
           ) : null}
-          <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800 dark:border-amber-900 dark:bg-amber-950/40 dark:text-amber-200">Contatti inserzionista nascosti. Saranno disponibili solo dopo accettazione dell’offerta.</div>
+          <AdvertiserContactPanel
+            contacts={resolveAdvertiserContacts(request)}
+            title={t.dashboard.hotel.advertiserContactsTitle}
+            emptyMessage={t.dashboard.hotel.advertiserContactsMissing}
+            className="mt-3"
+          />
         </section>
       ) : null}
 
@@ -428,6 +444,13 @@ export function CreateOfferForm() {
               🤝 Offerta {offerCode(acceptedOffer)} accettata · chat in basso a destra
             </span>
           </div>
+          {request ? (
+            <AdvertiserContactPanel
+              contacts={resolveAdvertiserContacts(request)}
+              title={t.dashboard.hotel.advertiserContactsTitle}
+              emptyMessage={t.dashboard.hotel.advertiserContactsMissing}
+            />
+          ) : null}
           <AcceptedBookingSummary data={acceptedSummary} />
         </div>
       ) : null}
