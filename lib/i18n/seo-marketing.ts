@@ -689,3 +689,76 @@ export function getMarketingLabels(locale: Locale) {
     destinationsNav: "Destinazioni",
   };
 }
+
+export type HomeComparisonRow = {
+  topic: string;
+  traditional: string;
+  hotelsdrop: string;
+};
+
+export type HomeComparisonTable = {
+  title: string;
+  subtitle: string;
+  headers: [string, string, string];
+  rows: HomeComparisonRow[];
+};
+
+export function getHomeComparisonTable(locale: Locale): HomeComparisonTable {
+  if (locale === "en") {
+    return {
+      title: "HotelsDrop vs traditional OTAs",
+      subtitle: "Why reverse booking saves time for travellers, groups and agencies.",
+      headers: ["Topic", "Booking / Expedia", "HotelsDrop"],
+      rows: [
+        {
+          topic: "Who searches",
+          traditional: "You browse hundreds of listings",
+          hotelsdrop: "You publish one stay request",
+        },
+        {
+          topic: "Pricing",
+          traditional: "Traveller fees and markups are common",
+          hotelsdrop: "Zero booking commission for travellers",
+        },
+        {
+          topic: "Groups & agencies",
+          traditional: "Manual emails to many properties",
+          hotelsdrop: "One request reaches all compatible hotels",
+        },
+        {
+          topic: "Property alerts",
+          traditional: "Properties wait for anonymous traffic",
+          hotelsdrop: "Local hotels get an email when a request matches",
+        },
+      ],
+    };
+  }
+
+  return {
+    title: "HotelsDrop vs OTA tradizionali",
+    subtitle: "Perché il reverse booking fa risparmiare tempo a viaggiatori, gruppi e agenzie.",
+    headers: ["Aspetto", "Booking / Expedia", "HotelsDrop"],
+    rows: [
+      {
+        topic: "Chi cerca",
+        traditional: "Scorri centinaia di annunci",
+        hotelsdrop: "Pubblichi una richiesta di soggiorno",
+      },
+      {
+        topic: "Prezzo",
+        traditional: "Spesso commissioni e markup per il viaggiatore",
+        hotelsdrop: "Zero commissioni di prenotazione per chi viaggia",
+      },
+      {
+        topic: "Gruppi e agenzie",
+        traditional: "Email manuali a molte strutture",
+        hotelsdrop: "Una richiesta raggiunge tutti gli hotel compatibili",
+      },
+      {
+        topic: "Allerta strutture",
+        traditional: "Le strutture aspettano traffico anonimo",
+        hotelsdrop: "Gli hotel della zona ricevono email quando c'è una richiesta",
+      },
+    ],
+  };
+}

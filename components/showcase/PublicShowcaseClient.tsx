@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Briefcase, Building2, CalendarDays, CheckCircle, Euro, MapPin, Users } from "lucide-react";
@@ -256,9 +256,10 @@ function mapInitialHotel(row: ShowcaseHomeHotel): HotelAccount {
 
 type PublicShowcaseClientProps = {
   initialData?: ShowcaseHomeInitialData | null;
+  heroHeadings?: ReactNode;
 };
 
-export function PublicShowcaseClient({ initialData = null }: PublicShowcaseClientProps) {
+export function PublicShowcaseClient({ initialData = null, heroHeadings }: PublicShowcaseClientProps) {
   const { locale, t } = useLanguage();
   const structureTypeLabels = getStructureTypeLabels(locale);
   const router = useRouter();
@@ -770,8 +771,12 @@ export function PublicShowcaseClient({ initialData = null }: PublicShowcaseClien
       </header>
 
       <div className="hd-home-tagline font-brand">
-        <h1 className="hd-home-headline">{t.showcase.homeHeadline}</h1>
-        <p className="hd-home-subtitle">{t.showcase.homeSubtitle}</p>
+        {heroHeadings ?? (
+          <>
+            <h1 className="hd-home-headline">{t.showcase.homeHeadline}</h1>
+            <p className="hd-home-subtitle">{t.showcase.homeSubtitle}</p>
+          </>
+        )}
       </div>
       </div>
 
