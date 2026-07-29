@@ -243,6 +243,23 @@ function jitterForHotelId(hotelId: string, baseLat: number, baseLng: number, ran
   return [baseLat + offsetLat, baseLng + offsetLng];
 }
 
+export function parseStoredCoords(
+  lat: number | string | null | undefined,
+  lng: number | string | null | undefined,
+): { latitude: number | null; longitude: number | null } {
+  const latitude = lat != null ? Number(lat) : null;
+  const longitude = lng != null ? Number(lng) : null;
+  if (
+    latitude != null &&
+    longitude != null &&
+    Number.isFinite(latitude) &&
+    Number.isFinite(longitude)
+  ) {
+    return { latitude, longitude };
+  }
+  return { latitude: null, longitude: null };
+}
+
 export function resolveHotelPosition(
   hotel: {
     id: string;

@@ -6,6 +6,7 @@ import {
   fetchShowcaseTravelRequests,
   type ShowcaseTravelRequest,
 } from "@/lib/showcase/publicRequests";
+import { parseStoredCoords } from "@/lib/showcase/hotelMapCoords";
 
 export const RANDOM_ONBOARDING_POOL = 320;
 export const RANDOM_ONBOARDING_SHOW = 40;
@@ -26,6 +27,8 @@ export type ShowcaseHomeHotel = {
   public_email: string | null;
   public_phone: string | null;
   main_photo_url: string | null;
+  latitude: number | null;
+  longitude: number | null;
   isOnboarding: boolean;
 };
 
@@ -80,7 +83,7 @@ async function fetchShowcaseFeaturedHotels(): Promise<ShowcaseHomeHotel[]> {
     admin
       .from("hotel_accounts")
       .select(
-        "id, slug, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url",
+        "id, slug, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, latitude, longitude",
       )
       .eq("account_status", "active")
       .eq("subscription_active", true)
@@ -88,45 +91,55 @@ async function fetchShowcaseFeaturedHotels(): Promise<ShowcaseHomeHotel[]> {
       .limit(RANDOM_REGISTERED_SHOW),
     admin
       .from("onboarding_hotels")
-      .select("id, slug, nome, city_name, indirizzo, email, phone, main_photo_url")
+      .select("id, slug, nome, city_name, indirizzo, email, phone, main_photo_url, lat, lng")
       .limit(RANDOM_ONBOARDING_POOL),
   ]);
 
   const onboardingMapped = shuffleItems(onboardingHotels ?? [])
     .slice(0, RANDOM_ONBOARDING_SHOW)
-    .map((row) => ({
+    .map((row) => {
+      const coords = parseStoredCoords(row.lat, row.lng);
+      return {
+        id: String(row.id),
+        slug: row.slug ?? null,
+        property_name: String(row.nome ?? ""),
+        structure_type: "hotel",
+        provider_kind: "structure" as const,
+        country_code: null,
+        city_name: String(row.city_name ?? ""),
+        city_id: null,
+        specific_area: row.indirizzo ?? null,
+        description: null,
+        public_email: row.email ?? null,
+        public_phone: row.phone ?? null,
+        main_photo_url: row.main_photo_url ?? null,
+        latitude: coords.latitude,
+        longitude: coords.longitude,
+        isOnboarding: true,
+      };
+    });
+
+  const registeredMapped = (registeredHotels ?? []).map((row) => {
+    const coords = parseStoredCoords(row.latitude, row.longitude);
+    return {
       id: String(row.id),
       slug: row.slug ?? null,
-      property_name: String(row.nome ?? ""),
-      structure_type: "hotel",
-      provider_kind: "structure" as const,
-      country_code: null,
+      property_name: String(row.property_name ?? ""),
+      structure_type: String(row.structure_type ?? "hotel"),
+      provider_kind: (row.provider_kind ?? "structure") as "structure" | "agency",
+      country_code: row.country_code ?? null,
       city_name: String(row.city_name ?? ""),
-      city_id: null,
-      specific_area: row.indirizzo ?? null,
-      description: null,
-      public_email: row.email ?? null,
-      public_phone: row.phone ?? null,
+      city_id: row.city_id ?? null,
+      specific_area: row.specific_area ?? null,
+      description: row.description ?? null,
+      public_email: row.public_email ?? null,
+      public_phone: row.public_phone ?? null,
       main_photo_url: row.main_photo_url ?? null,
-      isOnboarding: true,
-    }));
-
-  const registeredMapped = (registeredHotels ?? []).map((row) => ({
-    id: String(row.id),
-    slug: row.slug ?? null,
-    property_name: String(row.property_name ?? ""),
-    structure_type: String(row.structure_type ?? "hotel"),
-    provider_kind: (row.provider_kind ?? "structure") as "structure" | "agency",
-    country_code: row.country_code ?? null,
-    city_name: String(row.city_name ?? ""),
-    city_id: row.city_id ?? null,
-    specific_area: row.specific_area ?? null,
-    description: row.description ?? null,
-    public_email: row.public_email ?? null,
-    public_phone: row.public_phone ?? null,
-    main_photo_url: row.main_photo_url ?? null,
-    isOnboarding: false,
-  }));
+      latitude: coords.latitude,
+      longitude: coords.longitude,
+      isOnboarding: false,
+    };
+  });
 
   return shuffleItems([...registeredMapped, ...onboardingMapped]);
 }

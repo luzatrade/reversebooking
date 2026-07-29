@@ -32,6 +32,7 @@ import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
 import { mealPlanLabels, type MealPlan, type StructureType, type UserRole } from "@/types/app";
 import type { CatalogOfferListItem } from "@/types/catalog-offers";
 import type { ShowcaseHomeInitialData, ShowcaseHomeHotel } from "@/lib/showcase/homeData";
+import { parseStoredCoords } from "@/lib/showcase/hotelMapCoords";
 import { structureProfileHref } from "@/lib/showcase/structureExploreLinks";
 
 function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date()) {
@@ -42,7 +43,20 @@ function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date(
 type PreferenceFilters = { connecting_rooms?: boolean; disabled_access?: boolean; pool?: boolean; spa?: boolean; bathtub?: boolean; garage?: boolean; beach?: boolean; pets_allowed?: boolean };
 type AdvertiserPublic = { first_name: string | null; last_name: string | null; advertiser_type?: string | null };
 type TravelRequest = { id: string; country_code: string | null; city_name: string; city_id: string | null; preferred_area: string; check_in: string; check_out: string; guests_count: number; rooms_count: number; budget: number; meal_plan: MealPlan; preference_filters: PreferenceFilters | null; notes: string | null; expires_at: string; created_at: string; status: string; advertiser_profiles?: AdvertiserPublic | AdvertiserPublic[] | null };
-type OnboardingHotelRow = { id: string; slug: string | null; nome: string; city_name: string; indirizzo: string | null; email: string | null; phone: string | null; main_photo_url: string | null; website: string | null; google_maps_url: string | null };
+type OnboardingHotelRow = {
+  id: string;
+  slug: string | null;
+  nome: string;
+  city_name: string;
+  indirizzo: string | null;
+  email: string | null;
+  phone: string | null;
+  main_photo_url: string | null;
+  website: string | null;
+  google_maps_url: string | null;
+  lat?: number | string | null;
+  lng?: number | string | null;
+};
 type HotelAccount = { id: string; slug?: string | null; property_name: string; structure_type: StructureType; provider_kind: "structure" | "agency"; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; public_email: string | null; public_phone: string | null; website: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null; latitude?: number | null; longitude?: number | null; isOnboarding?: boolean; google_maps_url?: string | null };
 type Offer = { id: string; travel_request_id: string };
 type Viewer = {
@@ -132,6 +146,7 @@ function onboardingCityMeta(cityName: string): { country_code: string; city_id: 
 }
 function mapOnboardingRow(row: OnboardingHotelRow): HotelAccount {
   const { country_code, city_id } = onboardingCityMeta(row.city_name);
+  const coords = parseStoredCoords(row.lat, row.lng);
   return {
     id: row.id,
     slug: row.slug,
@@ -149,6 +164,8 @@ function mapOnboardingRow(row: OnboardingHotelRow): HotelAccount {
     main_photo_url: row.main_photo_url,
     points_of_interest: null,
     services: null,
+    latitude: coords.latitude,
+    longitude: coords.longitude,
     isOnboarding: true,
     google_maps_url: row.google_maps_url,
   };
@@ -230,6 +247,8 @@ function mapInitialHotel(row: ShowcaseHomeHotel): HotelAccount {
     main_photo_url: row.main_photo_url,
     points_of_interest: null,
     services: null,
+    latitude: row.latitude,
+    longitude: row.longitude,
     isOnboarding: row.isOnboarding,
     google_maps_url: null,
   };
@@ -452,7 +471,7 @@ export function PublicShowcaseClient({ initialData = null }: PublicShowcaseClien
         const supabase = createBrowserSupabaseClient();
         const hotelSelect =
           "id, slug, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, points_of_interest, services, latitude, longitude";
-        const onboardingSelect = "id, slug, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url";
+        const onboardingSelect = "id, slug, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url, lat, lng";
 
         let registeredQuery = supabase
           .from("hotel_accounts")
