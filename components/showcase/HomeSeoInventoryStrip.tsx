@@ -38,7 +38,7 @@ export async function HomeSeoInventoryStrip({ initialData }: Props) {
       <summary className="cursor-pointer list-none px-4 py-3.5 marker:content-none sm:px-5 sm:py-4 [&::-webkit-details-marker]:hidden">
         <span className="flex items-center justify-between gap-3">
           <span>
-            <span className="block text-sm font-semibold text-zinc-900 dark:text-zinc-100">{title}</span>
+            <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">{title}</h2>
             <span className="mt-0.5 block text-xs text-zinc-500">{summaryHint}</span>
           </span>
           <span className="shrink-0 text-zinc-400 transition group-open:rotate-180" aria-hidden="true">
