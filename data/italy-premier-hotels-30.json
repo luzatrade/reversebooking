@@ -1,32 +1,212 @@
 [
-  { "name": "Hotel de Russie", "city": "Roma", "address": "Piazza del Popolo 9, Roma" },
-  { "name": "Hotel Hassler Roma", "city": "Roma", "address": "Piazza Trinità dei Monti 6, Roma" },
-  { "name": "Rome Cavalieri, A Waldorf Astoria Hotel", "city": "Roma", "address": "Via Alberto Cadlolo 101, Roma" },
-  { "name": "Hotel Eden", "city": "Roma", "address": "Via Ludovisi 49, Roma" },
-  { "name": "The St. Regis Rome", "city": "Roma", "address": "Via Vittorio Emanuele Orlando 3, Roma" },
-  { "name": "Park Hyatt Milano", "city": "Milano", "address": "Via Tommaso Grossi 1, Milano" },
-  { "name": "Bulgari Hotel Milano", "city": "Milano", "address": "Via Privata Fratelli Gabba 7b, Milano" },
-  { "name": "Mandarin Oriental, Milan", "city": "Milano", "address": "Via Andegari 9, Milano" },
-  { "name": "Armani Hotel Milano", "city": "Milano", "address": "Via Manzoni 31, Milano" },
-  { "name": "Four Seasons Hotel Firenze", "city": "Firenze", "address": "Borgo Pinti 99, Firenze" },
-  { "name": "The St. Regis Florence", "city": "Firenze", "address": "Piazza Ognissanti 1, Firenze" },
-  { "name": "Hotel Brunelleschi", "city": "Firenze", "address": "Piazza Sant'Elisabetta 3, Firenze" },
-  { "name": "Hotel Danieli", "city": "Venezia", "address": "Riva degli Schiavoni 4196, Venezia" },
-  { "name": "The Gritti Palace", "city": "Venezia", "address": "Campo Santa Maria del Giglio 2467, Venezia" },
-  { "name": "Bauer Palazzo", "city": "Venezia", "address": "San Marco 1459, Venezia" },
-  { "name": "Grand Hotel Vesuvio", "city": "Napoli", "address": "Via Partenope 45, Napoli" },
-  { "name": "Romeo Hotel Napoli", "city": "Napoli", "address": "Via Cristoforo Colombo 45, Napoli" },
-  { "name": "Principi di Piemonte", "city": "Torino", "address": "Via Piero Gobetti 15, Torino" },
-  { "name": "Golden Palace Hotel", "city": "Torino", "address": "Via dell'Arcivescovado 18, Torino" },
-  { "name": "Due Torri Hotel", "city": "Verona", "address": "Piazza Sant'anastasia 4, Verona" },
-  { "name": "Grand Hotel Majestic già Baglioni", "city": "Bologna", "address": "Via dell'Indipendenza 8, Bologna" },
-  { "name": "Grand Hotel et des Palmes", "city": "Palermo", "address": "Via Roma 398, Palermo" },
-  { "name": "Belmond Grand Hotel Timeo", "city": "Taormina", "address": "Piazza Vittorio Emanuele 28, Taormina" },
-  { "name": "Le Sirenuse", "city": "Positano", "address": "Via Cristoforo Colombo 30, Positano" },
-  { "name": "Hotel Santa Caterina", "city": "Amalfi", "address": "Via Mauro Comite 9, Amalfi" },
-  { "name": "Belmond Hotel Splendido", "city": "Portofino", "address": "Via Roma 2, Portofino" },
-  { "name": "Mandarin Oriental, Lago di Como", "city": "Como", "address": "Via Giovio 97, Como" },
-  { "name": "Grand Hotel Continental Siena", "city": "Siena", "address": "Banchi di Sopra 85, Siena" },
-  { "name": "Capri Palace Jumeirah", "city": "Capri", "address": "Via Capodimonte 2, Anacapri" },
-  { "name": "Palazzo Gattini Luxury Hotel", "city": "Matera", "address": "Piazza Duomo 13, Matera" }
+  {
+    "name": "Hotel de Russie",
+    "city": "Roma",
+    "address": "Piazza del Popolo 9, Roma",
+    "lat": 41.9107477,
+    "lng": 12.4763594
+  },
+  {
+    "name": "Hotel Hassler Roma",
+    "city": "Roma",
+    "address": "Piazza Trinità dei Monti 6, Roma",
+    "lat": 41.9059856,
+    "lng": 12.4836915
+  },
+  {
+    "name": "Rome Cavalieri, A Waldorf Astoria Hotel",
+    "city": "Roma",
+    "address": "Via Alberto Cadlolo 101, Roma",
+    "lat": 41.9188764,
+    "lng": 12.446681
+  },
+  {
+    "name": "Hotel Eden",
+    "city": "Roma",
+    "address": "Via Ludovisi 49, Roma",
+    "lat": 41.906625,
+    "lng": 12.4863071
+  },
+  {
+    "name": "The St. Regis Rome",
+    "city": "Roma",
+    "address": "Via Vittorio Emanuele Orlando 3, Roma",
+    "lat": 41.9041563,
+    "lng": 12.495092
+  },
+  {
+    "name": "Park Hyatt Milano",
+    "city": "Milano",
+    "address": "Via Tommaso Grossi 1, Milano",
+    "lat": 45.4285184,
+    "lng": 9.0655184
+  },
+  {
+    "name": "Bulgari Hotel Milano",
+    "city": "Milano",
+    "address": "Via Privata Fratelli Gabba 7b, Milano",
+    "lat": 45.4702763,
+    "lng": 9.1895182
+  },
+  {
+    "name": "Mandarin Oriental, Milan",
+    "city": "Milano",
+    "address": "Via Andegari 9, Milano",
+    "lat": 45.4693747,
+    "lng": 9.1911291
+  },
+  {
+    "name": "Armani Hotel Milano",
+    "city": "Milano",
+    "address": "Via Manzoni 31, Milano",
+    "lat": 45.4705667,
+    "lng": 9.1930102
+  },
+  {
+    "name": "Four Seasons Hotel Firenze",
+    "city": "Firenze",
+    "address": "Borgo Pinti 99, Firenze",
+    "lat": 43.7769843,
+    "lng": 11.2663673
+  },
+  {
+    "name": "The St. Regis Florence",
+    "city": "Firenze",
+    "address": "Piazza Ognissanti 1, Firenze",
+    "lat": 43.7722245,
+    "lng": 11.2451203
+  },
+  {
+    "name": "Hotel Brunelleschi",
+    "city": "Firenze",
+    "address": "Piazza Sant'Elisabetta 3, Firenze",
+    "lat": 43.7717261,
+    "lng": 11.2558767
+  },
+  {
+    "name": "Hotel Danieli",
+    "city": "Venezia",
+    "address": "Riva degli Schiavoni 4196, Venezia",
+    "lat": 45.4339006,
+    "lng": 12.3420604
+  },
+  {
+    "name": "The Gritti Palace",
+    "city": "Venezia",
+    "address": "Campo Santa Maria del Giglio 2467, Venezia",
+    "lat": 45.4316384,
+    "lng": 12.3331068
+  },
+  {
+    "name": "Bauer Palazzo",
+    "city": "Venezia",
+    "address": "San Marco 1459, Venezia",
+    "lat": 45.4328621,
+    "lng": 12.3358442
+  },
+  {
+    "name": "Grand Hotel Vesuvio",
+    "city": "Napoli",
+    "address": "Via Partenope 45, Napoli",
+    "lat": 40.8304417,
+    "lng": 14.2446836
+  },
+  {
+    "name": "Romeo Hotel Napoli",
+    "city": "Napoli",
+    "address": "Via Cristoforo Colombo 45, Napoli",
+    "lat": 40.8407161,
+    "lng": 14.2562531
+  },
+  {
+    "name": "Principi di Piemonte",
+    "city": "Torino",
+    "address": "Via Piero Gobetti 15, Torino",
+    "lat": 45.0650677,
+    "lng": 7.6815935
+  },
+  {
+    "name": "Golden Palace Hotel",
+    "city": "Torino",
+    "address": "Via dell'Arcivescovado 18, Torino",
+    "lat": 45.0676767,
+    "lng": 7.6775898
+  },
+  {
+    "name": "Due Torri Hotel",
+    "city": "Verona",
+    "address": "Piazza Sant'anastasia 4, Verona",
+    "lat": 45.4448767,
+    "lng": 10.9995592
+  },
+  {
+    "name": "Grand Hotel Majestic già Baglioni",
+    "city": "Bologna",
+    "address": "Via dell'Indipendenza 8, Bologna",
+    "lat": 44.4960303,
+    "lng": 11.342716
+  },
+  {
+    "name": "Grand Hotel et des Palmes",
+    "city": "Palermo",
+    "address": "Via Roma 398, Palermo",
+    "lat": 38.1178334,
+    "lng": 13.3629551
+  },
+  {
+    "name": "Belmond Grand Hotel Timeo",
+    "city": "Taormina",
+    "address": "Piazza Vittorio Emanuele 28, Taormina",
+    "lat": 37.8537702,
+    "lng": 15.2888056
+  },
+  {
+    "name": "Le Sirenuse",
+    "city": "Positano",
+    "address": "Via Cristoforo Colombo 30, Positano",
+    "lat": 40.6287732,
+    "lng": 14.4876265
+  },
+  {
+    "name": "Hotel Santa Caterina",
+    "city": "Amalfi",
+    "address": "Via Mauro Comite 9, Amalfi",
+    "lat": 40.634722,
+    "lng": 14.602778
+  },
+  {
+    "name": "Belmond Hotel Splendido",
+    "city": "Portofino",
+    "address": "Via Roma 2, Portofino",
+    "lat": 44.3032326,
+    "lng": 9.2091283
+  },
+  {
+    "name": "Mandarin Oriental, Lago di Como",
+    "city": "Como",
+    "address": "Via Giovio 97, Como",
+    "lat": 45.8077523,
+    "lng": 9.0848369
+  },
+  {
+    "name": "Grand Hotel Continental Siena",
+    "city": "Siena",
+    "address": "Banchi di Sopra 85, Siena",
+    "lat": 43.32089,
+    "lng": 11.3305257
+  },
+  {
+    "name": "Capri Palace Jumeirah",
+    "city": "Capri",
+    "address": "Via Capodimonte 2, Anacapri",
+    "lat": 40.5559779,
+    "lng": 14.2219701
+  },
+  {
+    "name": "Palazzo Gattini Luxury Hotel",
+    "city": "Matera",
+    "address": "Piazza Duomo 13, Matera",
+    "lat": 40.6664504,
+    "lng": 16.611777
+  }
 ]
