@@ -40,6 +40,9 @@ if (!url || !serviceKey || !googleSearchKey) {
 
 const sb = createClient(url, serviceKey, { auth: { persistSession: false } });
 const BUCKET = "hotel-photos";
+const MAX_GALLERY_PHOTOS = 4;
+const PHOTO_DELAY_MS = 120;
+const HOTEL_TYPES = new Set(["hotel", "resort_hotel", "extended_stay_hotel", "motel"]);
 
 const FIELD_MASK = [
   "places.id",
@@ -52,7 +55,22 @@ const FIELD_MASK = [
   "places.googleMapsUri",
   "places.photos",
   "places.types",
+  "places.editorialSummary",
 ].join(",");
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function isHotelPlace(place) {
+  const types = place.types ?? [];
+  return types.some((type) => HOTEL_TYPES.has(type));
+}
+
+function editorialDescription(place) {
+  const text = place.editorialSummary?.text?.trim();
+  return text || null;
+}
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -129,6 +147,9 @@ function scorePlace(place, input) {
   const name = (place.displayName?.text ?? "").toLowerCase();
   const target = (input.name ?? "").toLowerCase();
   let score = 0;
+  if (isHotelPlace(place)) score += 35;
+  else score -= 40;
+
   if (name.includes(target) || target.includes(name)) score += 50;
   else if (target.split(/\s+/).some((w) => w.length > 3 && name.includes(w))) score += 25;
 
@@ -176,17 +197,20 @@ async function searchPlaces(textQuery) {
   return res.json();
 }
 
-async function fetchPlacePhotoName(placeId) {
-  if (!googlePhotosKey) return null;
+async function fetchPlaceDetails(placeId) {
+  if (!googlePhotosKey) return { photos: [], editorialSummary: null };
   const res = await fetch(`https://places.googleapis.com/v1/places/${encodeURIComponent(placeId)}`, {
     headers: {
       "X-Goog-Api-Key": googlePhotosKey,
-      "X-Goog-FieldMask": "photos",
+      "X-Goog-FieldMask": "photos,editorialSummary",
     },
   });
-  if (!res.ok) return null;
+  if (!res.ok) return { photos: [], editorialSummary: null };
   const data = await res.json();
-  return data.photos?.[0]?.name ?? null;
+  return {
+    photos: data.photos ?? [],
+    editorialSummary: data.editorialSummary?.text?.trim() ?? null,
+  };
 }
 
 async function downloadPhoto(photoName) {
@@ -207,6 +231,25 @@ async function uploadPhoto(cityName, placeName, buffer) {
   if (error) throw error;
   const { data } = sb.storage.from(BUCKET).getPublicUrl(path);
   return data.publicUrl;
+}
+
+async function uploadGalleryPhotos(cityName, placeName, photoNames, existingGallery = []) {
+  if (!googlePhotosKey || !photoNames.length) return existingGallery;
+
+  const gallery = [...existingGallery];
+  const namesToTry = photoNames.slice(1, 1 + MAX_GALLERY_PHOTOS - gallery.length);
+
+  for (const photoName of namesToTry) {
+    if (gallery.length >= MAX_GALLERY_PHOTOS) break;
+    const buf = await downloadPhoto(photoName);
+    if (!buf) continue;
+    const url = await uploadPhoto(cityName, placeName, buf);
+    gallery.push(url);
+    console.log(`  Galleria foto ${gallery.length}/${MAX_GALLERY_PHOTOS}`);
+    await sleep(PHOTO_DELAY_MS);
+  }
+
+  return gallery;
 }
 
 async function resolveCityIstat(cityName) {
@@ -245,37 +288,68 @@ async function importFromGoogle(input) {
     .map((place) => ({ place, score: scorePlace(place, input) }))
     .sort((a, b) => b.score - a.score);
 
+  const hotelCandidates = ranked.filter(({ place }) => isHotelPlace(place));
+  const shortlist = hotelCandidates.length ? hotelCandidates : ranked;
+
   console.log("\nCandidati:");
-  for (const { place, score } of ranked.slice(0, 5)) {
+  for (const { place, score } of shortlist.slice(0, 5)) {
+    const hotelTag = isHotelPlace(place) ? "hotel" : "non-hotel";
     console.log(
-      `  [${score}] ${place.displayName?.text} — ${place.formattedAddress} (${place.id})`,
+      `  [${score}] ${place.displayName?.text} (${hotelTag}) — ${place.formattedAddress} (${place.id})`,
     );
   }
 
-  const best = ranked[0];
+  const best = shortlist[0];
   if (!best || best.score < 25) {
     throw new Error("Match Google troppo debole, import annullato");
   }
 
   const place = best.place;
+  if (!isHotelPlace(place)) {
+    throw new Error("Il risultato Google non è classificato come hotel");
+  }
+
   console.log(`\nSelezionato: ${place.displayName?.text} (score ${best.score})`);
 
   const { data: existing } = await sb
     .from("onboarding_hotels")
-    .select("id, main_photo_url, email")
+    .select("id, main_photo_url, gallery_photo_urls, email, description")
     .eq("place_id", place.id)
     .maybeSingle();
 
+  const placeDetails = await fetchPlaceDetails(place.id);
+  const photoNames = [
+    ...(place.photos ?? []).map((photo) => photo.name),
+    ...placeDetails.photos.map((photo) => photo.name),
+  ].filter(Boolean);
+  const uniquePhotoNames = [...new Set(photoNames)];
+
   let photoUrl = existing?.main_photo_url ?? null;
-  if (!photoUrl && googlePhotosKey) {
-    const photoName = place.photos?.[0]?.name ?? (await fetchPlacePhotoName(place.id));
-    if (photoName) {
-      const buf = await downloadPhoto(photoName);
-      if (buf) {
-        photoUrl = await uploadPhoto(input.city, place.displayName?.text ?? input.name, buf);
-        console.log("Foto caricata su Supabase");
-      }
+  if (!photoUrl && googlePhotosKey && uniquePhotoNames.length) {
+    const buf = await downloadPhoto(uniquePhotoNames[0]);
+    if (buf) {
+      photoUrl = await uploadPhoto(input.city, place.displayName?.text ?? input.name, buf);
+      console.log("Foto principale caricata su Supabase");
     }
+  }
+
+  const existingGallery = Array.isArray(existing?.gallery_photo_urls) ? existing.gallery_photo_urls : [];
+  let galleryPhotoUrls = existingGallery;
+  if (googlePhotosKey && uniquePhotoNames.length > 1 && galleryPhotoUrls.length < MAX_GALLERY_PHOTOS) {
+    galleryPhotoUrls = await uploadGalleryPhotos(
+      input.city,
+      place.displayName?.text ?? input.name,
+      uniquePhotoNames,
+      galleryPhotoUrls,
+    );
+    if (galleryPhotoUrls.length > existingGallery.length) {
+      console.log(`Galleria: ${galleryPhotoUrls.length} foto`);
+    }
+  }
+
+  const description = existing?.description ?? editorialDescription(place) ?? placeDetails.editorialSummary ?? null;
+  if (description && !existing?.description) {
+    console.log(`Descrizione: ${description.slice(0, 80)}${description.length > 80 ? "…" : ""}`);
   }
 
   let email = existing?.email ?? input.email ?? null;
@@ -299,7 +373,9 @@ async function importFromGoogle(input) {
     website: place.websiteUri ?? input.website,
     phone: place.nationalPhoneNumber ?? place.internationalPhoneNumber ?? input.phone,
     email,
+    description,
     main_photo_url: photoUrl,
+    gallery_photo_urls: galleryPhotoUrls.length ? galleryPhotoUrls : null,
     status: "unclaimed",
   };
 }
@@ -377,7 +453,7 @@ async function main() {
   const { data: upserted, error } = await sb
     .from("onboarding_hotels")
     .upsert(row, { onConflict: "place_id" })
-    .select("id, nome, city_name, indirizzo, email, phone, website, main_photo_url, google_maps_url, status")
+    .select("id, nome, city_name, indirizzo, email, phone, website, description, main_photo_url, gallery_photo_urls, google_maps_url, status")
     .single();
 
   if (error) throw error;
@@ -394,7 +470,7 @@ async function main() {
       if (photo.updated) {
         const { data: withPhoto } = await sb
           .from("onboarding_hotels")
-          .select("id, nome, city_name, indirizzo, email, phone, website, main_photo_url, google_maps_url, status")
+          .select("id, nome, city_name, indirizzo, email, phone, website, description, main_photo_url, gallery_photo_urls, google_maps_url, status")
           .eq("id", upserted.id)
           .single();
         if (withPhoto) finalRow = withPhoto;

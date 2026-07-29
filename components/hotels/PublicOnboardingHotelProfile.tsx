@@ -22,17 +22,20 @@ type OnboardingProfile = {
   nome: string;
   indirizzo: string | null;
   city_name: string;
+  description: string | null;
   email: string | null;
   phone: string | null;
   website: string | null;
   main_photo_url: string | null;
   gallery_photo_urls: string[] | null;
   google_maps_url: string | null;
+  lat: number | null;
+  lng: number | null;
   status: string;
 };
 
 const ONBOARDING_SELECT =
-  "id, nome, indirizzo, city_name, email, phone, website, main_photo_url, gallery_photo_urls, google_maps_url, status";
+  "id, nome, indirizzo, city_name, description, email, phone, website, main_photo_url, gallery_photo_urls, google_maps_url, lat, lng, status";
 
 export function PublicOnboardingHotelProfile() {
   const { t } = useLanguage();
@@ -121,6 +124,10 @@ export function PublicOnboardingHotelProfile() {
               {t.hotel.lodgingKind} · {hotel.city_name}, {countryName}
             </p>
             <p className="mt-1 text-sm text-zinc-500">{addressLine}</p>
+
+            {hotel.description?.trim() ? (
+              <p className="mt-4 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{hotel.description.trim()}</p>
+            ) : null}
 
             {!isClaimed && !isPendingVerification ? (
               <div className="mt-5 rounded-2xl border border-amber-200 bg-amber-50 p-4 dark:border-amber-900/40 dark:bg-amber-950/30">
