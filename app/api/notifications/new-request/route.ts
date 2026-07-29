@@ -3,6 +3,10 @@ import { requireApiUser } from "@/lib/auth/api";
 import { createServiceRoleClient } from "@/lib/supabase/admin";
 import { escapeHtml, sendEmailNotification } from "@/lib/notifications/email";
 import { notifyAdminAlertSafe } from "@/lib/notifications/admin-alert";
+import {
+  fetchOnboardingHotelById,
+  notifyOnboardingHotelsByEmail,
+} from "@/lib/notifications/onboarding-new-request";
 import { rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
 
 type Body = { requestId?: string };
@@ -66,7 +70,9 @@ export async function POST(request: Request) {
     if (!supabase) return NextResponse.json({ error: "Server non configurato" }, { status: 503 });
     const { data: travelRequest, error: requestError } = await supabase
       .from("travel_requests")
-      .select("id, request_code, city_id, city_name, preferred_area, check_in, check_out, guests_count, rooms_count, budget, target_hotel_account_id")
+      .select(
+        "id, request_code, city_id, city_name, country_code, preferred_area, check_in, check_out, guests_count, rooms_count, budget, target_hotel_account_id",
+      )
       .eq("id", body.requestId)
       .single();
     if (requestError || !travelRequest) return NextResponse.json({ error: "Richiesta non trovata" }, { status: 404 });
@@ -83,6 +89,7 @@ export async function POST(request: Request) {
     const hotelRows = (hotels ?? []) as HotelRow[];
     const targetHotelId = travelRequest.target_hotel_account_id as string | null;
     let targetHotel: HotelRow | null = null;
+    let directOnboardingId: string | null = null;
 
     if (targetHotelId) {
       const { data: directHotel } = await supabase
@@ -93,6 +100,11 @@ export async function POST(request: Request) {
         .eq("subscription_active", true)
         .maybeSingle();
       targetHotel = (directHotel as HotelRow | null) ?? null;
+
+      if (!targetHotel) {
+        const directOnboarding = await fetchOnboardingHotelById(supabase, targetHotelId);
+        if (directOnboarding) directOnboardingId = directOnboarding.id;
+      }
     }
 
     const notificationRows: Array<Record<string, unknown>> = [];
@@ -141,6 +153,10 @@ export async function POST(request: Request) {
 
     const results = await Promise.all(emailJobs);
 
+    const onboardingResult = await notifyOnboardingHotelsByEmail(supabase, travelRequest, {
+      directOnboardingId,
+    });
+
     notifyAdminAlertSafe({
       subject: `[HotelsDrop] Nuovo annuncio · ${travelRequest.city_name}`,
       title: "Nuovo annuncio viaggio pubblicato",
@@ -153,8 +169,12 @@ export async function POST(request: Request) {
         { label: "Ospiti", value: String(travelRequest.guests_count) },
         { label: "Camere", value: String(travelRequest.rooms_count) },
         { label: "Budget", value: travelRequest.budget != null ? `${travelRequest.budget} €` : null },
-        { label: "Richiesta diretta", value: targetHotel?.property_name ?? "No (broadcast città)" },
-        { label: "Strutture notificate", value: String(notificationRows.length) },
+        {
+          label: "Richiesta diretta",
+          value: targetHotel?.property_name ?? (directOnboardingId ? "Onboarding (email)" : "No (broadcast città)"),
+        },
+        { label: "Strutture partner notificate", value: String(notificationRows.length) },
+        { label: "Onboarding email", value: String(onboardingResult.emailed) },
       ],
       consolePath: `/console/annunci?q=${encodeURIComponent(requestCode)}`,
     });
@@ -162,7 +182,9 @@ export async function POST(request: Request) {
     return NextResponse.json({
       ok: true,
       notified: notificationRows.length,
+      onboardingEmailed: onboardingResult.emailed,
       directHotel: targetHotel?.id ?? null,
+      directOnboarding: onboardingResult.directOnboardingId,
       results,
     });
   } catch (err) {
