@@ -28,6 +28,9 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title,
     description,
+    keywords: locale === "en"
+      ? ["reverse booking", "reversebooking", "HotelsDrop", "hotel offers", "no commission"]
+      : ["reverse booking", "reversebooking", "HotelsDrop", "offerte hotel", "senza commissioni"],
     alternates: buildLanguageAlternates("/", locale),
     openGraph: buildOpenGraph({ title, description, path: "/", locale }),
     twitter: buildTwitterCard({ title, description }),

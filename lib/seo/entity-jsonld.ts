@@ -14,7 +14,7 @@ export function buildOrganizationWebSiteJsonLd(locale: Locale = "it") {
         "@type": "Organization",
         "@id": `${siteUrl}#organization`,
         name: BRAND_NAME,
-        alternateName: BRAND_DISPLAY,
+        alternateName: [BRAND_DISPLAY, "reversebooking", "reverse booking"],
         url: siteUrl,
         logo: DEFAULT_OG_IMAGE,
         description:

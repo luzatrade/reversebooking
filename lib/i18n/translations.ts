@@ -122,7 +122,7 @@ export const translations = {
       siteDescription:
         "Reverse booking hotel: pubblichi una richiesta di soggiorno e le strutture ti fanno offerte dirette. Gratis per viaggiatori, agenzie e gruppi. Abbonamento per le strutture.",
       siteTitleTemplate: "%s · HotelsDrop",
-      siteTitleDefault: "HotelsDrop — Reverse Booking Hotel senza Commissioni",
+      siteTitleDefault: "HotelsDrop — Reverse Booking e Reversebooking Hotel senza Commissioni",
       contactsTitle: "Contatti",
       contactsDescription:
         "Dati societari FINEHOST, recapiti email e PEC di HotelsDrop.com.",
@@ -278,11 +278,11 @@ export const translations = {
         "Invia la tua richiesta e ricevi offerte senza commissioni dagli hotel della zona selezionata.",
       homeTagline:
         "Invia la tua richiesta e ricevi offerte senza commissioni dagli hotel della zona selezionata.",
-      homeHeadline: "Reverse Booking Hotel: Offerte Dirette senza Commissioni",
+      homeHeadline: "Reverse Booking e Reversebooking: Offerte Dirette senza Commissioni",
       homeSubtitle:
         "Pubblica gratuitamente la tua richiesta e ricevi offerte dagli hotel della zona selezionata.",
       homeEntityIntro:
-        "HotelsDrop è la piattaforma di reverse booking: invii una richiesta, gli hotel compatibili rispondono con proposte personalizzate. Zero commissioni per chi viaggia.",
+        "HotelsDrop è la piattaforma di reverse booking (reversebooking): invii una richiesta, gli hotel compatibili rispondono con proposte personalizzate. Zero commissioni per chi viaggia.",
       agencyKindLabel: "Agenzia viaggi",
       agenciesSliderTitle: "Agenzie viaggi nella zona",
       agenciesSliderSubtitle: "Le agenzie viaggi attive.",
@@ -1488,7 +1488,7 @@ export const translations = {
       siteDescription:
         "Hotel reverse booking: publish one stay request and properties send direct offers. Free for travellers, groups and agencies. Subscription for properties.",
       siteTitleTemplate: "%s · HotelsDrop",
-      siteTitleDefault: "HotelsDrop — Hotel Reverse Booking, No Commission",
+      siteTitleDefault: "HotelsDrop — Reverse Booking & Reversebooking, No Commission",
       contactsTitle: "Contact",
       contactsDescription:
         "FINEHOST company details, email contacts, and certified email (PEC) for HotelsDrop.com.",
@@ -1642,11 +1642,11 @@ export const translations = {
         "Send your request and receive commission-free offers from hotels in the selected area.",
       homeTagline:
         "Send your request and receive commission-free offers from hotels in the selected area.",
-      homeHeadline: "Hotel Reverse Booking: Direct Offers, No Commission",
+      homeHeadline: "Reverse Booking & Reversebooking: Direct Offers, No Commission",
       homeSubtitle:
         "Post your request for free and receive offers from hotels in the selected area.",
       homeEntityIntro:
-        "HotelsDrop is a reverse booking platform: you send one request, matching hotels reply with tailored offers. Zero commission for travellers.",
+        "HotelsDrop is a reverse booking (reversebooking) platform: you send one request, matching hotels reply with tailored offers. Zero commission for travellers.",
       agencyKindLabel: "Travel agency",
       agenciesSliderTitle: "Travel agencies in the area",
       agenciesSliderSubtitle: "Active travel agencies.",

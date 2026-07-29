@@ -40,6 +40,9 @@ When a traveller publishes a request, **onboarding properties with a verified em
 - Travel agencies and tour operators (publish requests on behalf of clients)
 - Hotels, B&Bs, apartments and resorts (subscription to respond)
 
+## Keywords
+- reverse booking, reversebooking, hotel without commission, direct hotel offers
+
 ## Entity
 - Brand: ${BRAND_NAME} (${BRAND_DISPLAY})
 - Operator: ${company.legalEntityName}
@@ -93,6 +96,9 @@ Quando un viaggiatore pubblica una richiesta, le **strutture onboarding con emai
 - Gruppi, scuole, aziende ed eventi
 - Agenzie di viaggio e tour operator (pubblicano richieste per i clienti)
 - Hotel, B&B, appartamenti e resort (abbonamento per rispondere)
+
+## Keywords
+- reverse booking, reversebooking, prenotazione inversa, hotel senza commissioni, offerte hotel dirette
 
 ## Entity
 - Brand: ${BRAND_NAME} (${BRAND_DISPLAY})

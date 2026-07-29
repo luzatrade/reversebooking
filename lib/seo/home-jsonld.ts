@@ -152,7 +152,7 @@ export function buildHomePageJsonLd({
       "@type": "Service",
       "@id": `${pageUrl}#service`,
       name: locale === "en" ? `${BRAND_NAME} reverse booking marketplace` : `Marketplace reverse booking ${BRAND_NAME}`,
-      alternateName: BRAND_DISPLAY,
+      alternateName: [BRAND_DISPLAY, "reversebooking", "reverse booking"],
       provider: { "@id": organizationId },
       serviceType: locale === "en" ? "Reverse booking platform for hotels and travellers" : "Piattaforma di reverse booking per hotel e viaggiatori",
       areaServed: { "@type": "Place", name: locale === "en" ? "Worldwide" : "Mondo" },
