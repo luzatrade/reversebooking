@@ -49,6 +49,7 @@ type OnboardingHotelRow = {
   nome: string;
   city_name: string;
   indirizzo: string | null;
+  description: string | null;
   email: string | null;
   phone: string | null;
   main_photo_url: string | null;
@@ -157,7 +158,7 @@ function mapOnboardingRow(row: OnboardingHotelRow): HotelAccount {
     city_name: row.city_name,
     city_id,
     specific_area: row.indirizzo,
-    description: null,
+    description: row.description ?? null,
     public_email: row.email,
     public_phone: row.phone,
     website: row.website,
@@ -472,7 +473,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
         const supabase = createBrowserSupabaseClient();
         const hotelSelect =
           "id, slug, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, points_of_interest, services, latitude, longitude";
-        const onboardingSelect = "id, slug, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url, lat, lng";
+        const onboardingSelect = "id, slug, nome, city_name, indirizzo, description, email, phone, main_photo_url, website, google_maps_url, lat, lng";
 
         let registeredQuery = supabase
           .from("hotel_accounts")

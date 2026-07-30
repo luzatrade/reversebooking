@@ -25,7 +25,7 @@ export type StructureSeoRecord = {
 };
 
 const ONBOARDING_SELECT =
-  "id, slug, seo_indexable, nome, indirizzo, city_name, email, phone, website, google_maps_url, main_photo_url, gallery_photo_urls, lat, lng, status";
+  "id, slug, seo_indexable, nome, description, indirizzo, city_name, email, phone, website, google_maps_url, main_photo_url, gallery_photo_urls, lat, lng, status";
 
 const HOTEL_SELECT =
   "id, slug, seo_indexable, onboarding_hotel_id, property_name, description, structure_type, full_address, country_name, city_name, public_email, public_phone, google_maps_url, main_photo_url, gallery_photo_urls, latitude, longitude, account_status, subscription_active, provider_kind";
@@ -36,7 +36,7 @@ function mapOnboarding(row: Record<string, unknown>): StructureSeoRecord {
     id: String(row.id),
     slug: String(row.slug),
     name: String(row.nome),
-    description: null,
+    description: (row.description as string | null) ?? null,
     structureType: null,
     address: (row.indirizzo as string | null) ?? null,
     cityName: String(row.city_name),

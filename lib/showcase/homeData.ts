@@ -91,7 +91,7 @@ async function fetchShowcaseFeaturedHotels(): Promise<ShowcaseHomeHotel[]> {
       .limit(RANDOM_REGISTERED_SHOW),
     admin
       .from("onboarding_hotels")
-      .select("id, slug, nome, city_name, indirizzo, email, phone, main_photo_url, lat, lng")
+      .select("id, slug, nome, city_name, indirizzo, description, email, phone, main_photo_url, lat, lng")
       .limit(RANDOM_ONBOARDING_POOL),
   ]);
 
@@ -109,7 +109,7 @@ async function fetchShowcaseFeaturedHotels(): Promise<ShowcaseHomeHotel[]> {
         city_name: String(row.city_name ?? ""),
         city_id: null,
         specific_area: row.indirizzo ?? null,
-        description: null,
+        description: row.description ?? null,
         public_email: row.email ?? null,
         public_phone: row.phone ?? null,
         main_photo_url: row.main_photo_url ?? null,

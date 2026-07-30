@@ -22,13 +22,6 @@ const { setPlaceholderPhotoForHotel } = await import("./lib/onboarding-placehold
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
-if (!url || !serviceKey) {
-  console.error("Mancano NEXT_PUBLIC_SUPABASE_URL e SUPABASE_SERVICE_ROLE_KEY");
-  process.exit(1);
-}
-
-const sb = createClient(url, serviceKey, { auth: { persistSession: false } });
-
 function parseArgs() {
   const args = process.argv.slice(2);
   const get = (flag) => args.find((a, i) => args[i - 1] === flag) ?? null;
@@ -40,6 +33,18 @@ function parseArgs() {
     delayMs: Number(get("--delay-ms") ?? 400),
   };
 }
+
+const opts = parseArgs();
+
+if ((!url || !serviceKey) && !opts.dryRun) {
+  console.error("Mancano NEXT_PUBLIC_SUPABASE_URL e SUPABASE_SERVICE_ROLE_KEY");
+  process.exit(1);
+}
+
+const sb =
+  url && serviceKey
+    ? createClient(url, serviceKey, { auth: { persistSession: false } })
+    : null;
 
 function loadHotels(filePath) {
   const abs = resolve(process.cwd(), filePath);
@@ -128,7 +133,7 @@ async function main() {
       const { id } = await runSingleImport(hotel, { manual: opts.manual });
       results.ok += 1;
 
-      if (opts.placeholderPhoto && id) {
+      if (opts.placeholderPhoto && id && sb) {
         const { data: row } = await sb
           .from("onboarding_hotels")
           .select("id, nome, city_name, city_istat, main_photo_url")
