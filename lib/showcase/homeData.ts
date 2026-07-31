@@ -19,13 +19,18 @@ export const RANDOM_ONBOARDING_SHOW = 40;
 export const RANDOM_REGISTERED_SHOW = 20;
 export const SHOWCASE_REQUESTS_POOL = 200;
 
-const PUBLIC_ONBOARDING_STATUSES = ["unclaimed", "claimed", "pending_verification"] as const;
+const PUBLIC_ONBOARDING_STATUS_SET = new Set<string>([
+  "unclaimed",
+  "claimed",
+  "pending_verification",
+]);
 
 const REGISTERED_SELECT =
-  "id, slug, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, latitude, longitude";
+  "id, slug, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, latitude, longitude, onboarding_hotel_id";
 
+/** Senza `description`: compatibile anche se la migration non è ancora applicata su Supabase. */
 const ONBOARDING_SELECT =
-  "id, slug, nome, city_name, indirizzo, description, email, phone, main_photo_url, lat, lng";
+  "id, slug, nome, city_name, indirizzo, email, phone, main_photo_url, lat, lng, status";
 
 export type ShowcaseHomeHotel = {
   id: string;
@@ -84,7 +89,7 @@ function mapOnboardingRow(row: {
   nome: string;
   city_name: string;
   indirizzo: string | null;
-  description: string | null;
+  description?: string | null;
   email: string | null;
   phone: string | null;
   main_photo_url: string | null;
@@ -161,49 +166,116 @@ export async function fetchShowcaseStructures(
   const cityName = options.cityName?.trim() ?? "";
   const hasCity = Boolean(cityName);
 
-  let registeredQuery = admin
-    .from("hotel_accounts")
-    .select(REGISTERED_SELECT)
-    .eq("account_status", "active")
-    .eq("subscription_active", true)
-    .order("property_name", { ascending: true });
+  const [{ data: registeredHotels, error: registeredError }, linkedOnboardingIds] = await Promise.all([
+    (async () => {
+      let registeredQuery = admin
+        .from("hotel_accounts")
+        .select(REGISTERED_SELECT)
+        .eq("account_status", "active")
+        .eq("subscription_active", true)
+        .order("property_name", { ascending: true });
 
-  if (hasCity && options.cityId) {
-    registeredQuery = registeredQuery.eq("city_id", options.cityId);
-  } else if (!hasCity) {
-    registeredQuery = registeredQuery.limit(RANDOM_REGISTERED_SHOW);
-  }
+      if (hasCity && options.cityId) {
+        registeredQuery = registeredQuery.eq("city_id", options.cityId);
+      } else if (!hasCity) {
+        registeredQuery = registeredQuery.limit(RANDOM_REGISTERED_SHOW);
+      }
 
-  let onboardingQuery = admin
-    .from("onboarding_hotels")
-    .select(ONBOARDING_SELECT)
-    .in("status", [...PUBLIC_ONBOARDING_STATUSES])
-    .order("nome", { ascending: true });
-
-  if (hasCity) {
-    const names = onboardingCitySearchNames({
-      cityId: options.cityId,
-      cityName,
-      countryCode: options.countryCode,
-    });
-    onboardingQuery = onboardingQuery.or(supabaseCityNameOrFilter(names)).limit(200);
-  } else {
-    onboardingQuery = onboardingQuery.limit(RANDOM_ONBOARDING_POOL);
-  }
-
-  const [{ data: registeredHotels }, { data: onboardingHotels }] = await Promise.all([
-    registeredQuery,
-    onboardingQuery,
+      return registeredQuery;
+    })(),
+    (async () => {
+      const { data } = await admin
+        .from("hotel_accounts")
+        .select("onboarding_hotel_id")
+        .eq("account_status", "active")
+        .eq("subscription_active", true)
+        .not("onboarding_hotel_id", "is", null);
+      return new Set((data ?? []).map((row) => String(row.onboarding_hotel_id)));
+    })(),
   ]);
 
-  const onboardingMapped = shuffleItems(onboardingHotels ?? [])
+  if (registeredError) {
+    console.error("[showcase] hotel_accounts query failed:", registeredError.message);
+  }
+
+  const onboardingPool: Array<{
+    id: string;
+    slug: string | null;
+    nome: string;
+    city_name: string;
+    indirizzo: string | null;
+    email: string | null;
+    phone: string | null;
+    main_photo_url: string | null;
+    lat: number | null;
+    lng: number | null;
+    status: string | null;
+  }> = [];
+
+  const maxPool = hasCity ? 200 : RANDOM_ONBOARDING_POOL;
+  let from = 0;
+
+  while (onboardingPool.length < maxPool) {
+    let query = admin
+      .from("onboarding_hotels")
+      .select(ONBOARDING_SELECT)
+      .order("updated_at", { ascending: false })
+      .range(from, from + 999);
+
+    if (hasCity) {
+      const names = onboardingCitySearchNames({
+        cityId: options.cityId,
+        cityName,
+        countryCode: options.countryCode,
+      });
+      query = query.or(supabaseCityNameOrFilter(names));
+    }
+
+    const { data, error } = await query;
+    if (error) {
+      console.error("[showcase] onboarding_hotels query failed:", error.message);
+      break;
+    }
+    if (!data?.length) break;
+
+    for (const row of data) {
+      const status = String(row.status ?? "unclaimed").toLowerCase();
+      if (!PUBLIC_ONBOARDING_STATUS_SET.has(status)) continue;
+      if (linkedOnboardingIds.has(String(row.id))) continue;
+      if (!row.nome?.trim() || !row.city_name?.trim()) continue;
+      onboardingPool.push(row);
+      if (onboardingPool.length >= maxPool) break;
+    }
+
+    if (data.length < 1000) break;
+    from += 1000;
+  }
+
+  if (onboardingPool.length === 0) {
+    const { data, error } = await admin
+      .from("onboarding_hotels")
+      .select(ONBOARDING_SELECT)
+      .order("nome", { ascending: true })
+      .limit(maxPool);
+    if (error) {
+      console.error("[showcase] onboarding_hotels fallback query failed:", error.message);
+    } else {
+      for (const row of data ?? []) {
+        if (linkedOnboardingIds.has(String(row.id))) continue;
+        if (!row.nome?.trim() || !row.city_name?.trim()) continue;
+        onboardingPool.push(row);
+      }
+    }
+  }
+
+  const onboardingMapped = shuffleItems(
+    onboardingPool.sort((a, b) => Number(Boolean(b.main_photo_url)) - Number(Boolean(a.main_photo_url))),
+  )
     .slice(0, hasCity ? 200 : RANDOM_ONBOARDING_SHOW)
     .map(mapOnboardingRow);
 
   const registeredPool = registeredHotels ?? [];
-  const registeredMapped = (hasCity ? shuffleItems(registeredPool) : shuffleItems(registeredPool)).map(
-    mapRegisteredRow,
-  );
+  const registeredMapped = shuffleItems(registeredPool).map(mapRegisteredRow);
 
   return shuffleItems([...onboardingMapped, ...registeredMapped]);
 }
