@@ -32,7 +32,6 @@ import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
 import { mealPlanLabels, type MealPlan, type StructureType, type UserRole } from "@/types/app";
 import type { CatalogOfferListItem } from "@/types/catalog-offers";
 import type { ShowcaseHomeInitialData, ShowcaseHomeHotel } from "@/lib/showcase/homeData";
-import { parseStoredCoords } from "@/lib/showcase/hotelMapCoords";
 import { structureProfileHref } from "@/lib/showcase/structureExploreLinks";
 
 function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date()) {
@@ -43,21 +42,6 @@ function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date(
 type PreferenceFilters = { connecting_rooms?: boolean; disabled_access?: boolean; pool?: boolean; spa?: boolean; bathtub?: boolean; garage?: boolean; beach?: boolean; pets_allowed?: boolean };
 type AdvertiserPublic = { first_name: string | null; last_name: string | null; advertiser_type?: string | null };
 type TravelRequest = { id: string; country_code: string | null; city_name: string; city_id: string | null; preferred_area: string; check_in: string; check_out: string; guests_count: number; rooms_count: number; budget: number; meal_plan: MealPlan; preference_filters: PreferenceFilters | null; notes: string | null; expires_at: string; created_at: string; status: string; advertiser_profiles?: AdvertiserPublic | AdvertiserPublic[] | null };
-type OnboardingHotelRow = {
-  id: string;
-  slug: string | null;
-  nome: string;
-  city_name: string;
-  indirizzo: string | null;
-  description: string | null;
-  email: string | null;
-  phone: string | null;
-  main_photo_url: string | null;
-  website: string | null;
-  google_maps_url: string | null;
-  lat?: number | string | null;
-  lng?: number | string | null;
-};
 type HotelAccount = { id: string; slug?: string | null; property_name: string; structure_type: StructureType; provider_kind: "structure" | "agency"; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; public_email: string | null; public_phone: string | null; website: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null; latitude?: number | null; longitude?: number | null; isOnboarding?: boolean; google_maps_url?: string | null };
 type Offer = { id: string; travel_request_id: string };
 type Viewer = {
@@ -78,9 +62,6 @@ const ctaRequest = "inline-flex items-center justify-center gap-1.5 rounded-full
 
 /** Vetrina homepage: elenco agenzie per città (riattivare in un secondo momento). */
 const SHOW_HOME_AGENCY_DIRECTORY = false;
-const RANDOM_ONBOARDING_POOL = 320;
-const RANDOM_ONBOARDING_SHOW = 40;
-const RANDOM_REGISTERED_SHOW = 20;
 const RANDOM_REQUESTS_SHOW = 24;
 const SHOWCASE_REQUESTS_POOL = 200;
 
@@ -109,66 +90,31 @@ function totalBudget(request: TravelRequest) { return Number(request.budget); }
 function normalize(value: string | null | undefined) { return (value ?? "").trim().toLowerCase(); }
 const cityAliases: Record<string, string[]> = { rome: ["roma"], roma: ["rome"], florence: ["firenze"], firenze: ["florence"], milan: ["milano"], milano: ["milan"], naples: ["napoli"], napoli: ["naples"], venice: ["venezia"], venezia: ["venice"], turin: ["torino"], torino: ["turin"], genoa: ["genova"], genova: ["genoa"], padua: ["padova"], padova: ["padua"], syracuse: ["siracusa"], siracusa: ["syracuse"], capri: ["capri"], sardinia: ["sardegna"], sardegna: ["sardinia"], "reggio calabria": ["reggio di calabria"], "reggio di calabria": ["reggio calabria"], london: ["londra"], londra: ["london"] };
 function cityMatch(a: string | null | undefined, b: string | null | undefined) { const na = normalize(a); const nb = normalize(b); if (na === nb) return true; if (cityAliases[na]?.includes(nb)) return true; if (cityAliases[nb]?.includes(na)) return true; return false; }
-function titleCaseWord(value: string) { return value.charAt(0).toUpperCase() + value.slice(1).toLowerCase(); }
-function cityLookupNames(cityName: string) {
-  const base = cityName.trim();
-  if (!base) return [];
-  const n = normalize(base);
-  const names = new Set<string>([base, titleCaseWord(base)]);
-  for (const alias of cityAliases[n] ?? []) {
-    names.add(alias);
-    names.add(titleCaseWord(alias));
-  }
-  for (const [key, vals] of Object.entries(cityAliases)) {
-    if (vals.includes(n)) {
-      names.add(key);
-      names.add(titleCaseWord(key));
-    }
-  }
-  return [...names];
-}
-function onboardingSearchNames(selected: Pick<WorldCity, "city_name" | "city_id" | "country_code">) {
-  const canonicalId = resolveCanonicalCityId({
-    cityName: selected.city_name,
-    countryCode: selected.country_code,
-    cityId: selected.city_id,
-  });
-  const catalogCity = canonicalId ? majorWorldCities.find((city) => city.city_id === canonicalId) : undefined;
-  return cityLookupNames(catalogCity?.city_name ?? selected.city_name);
-}
-function onboardingCityMeta(cityName: string): { country_code: string; city_id: string } {
-  const cityId = resolveCanonicalCityId({ cityName });
-  const catalogCity = cityId ? majorWorldCities.find((city) => city.city_id === cityId) : undefined;
-  const countryCode = catalogCity?.country_code ?? (cityId?.includes("-") ? cityId.split("-")[0]! : "IT");
+function catalogHitToHotelAccount(structure: CatalogStructureHit): HotelAccount {
+  const cityId =
+    structure.cityId ??
+    resolveCanonicalCityId({ cityName: structure.cityName, countryCode: structure.countryCode });
   return {
-    country_code: countryCode,
-    city_id: cityId ?? `${String(cityName || "").toLowerCase().replace(/ +/g, "-")}-it`,
-  };
-}
-function mapOnboardingRow(row: OnboardingHotelRow): HotelAccount {
-  const { country_code, city_id } = onboardingCityMeta(row.city_name);
-  const coords = parseStoredCoords(row.lat, row.lng);
-  return {
-    id: row.id,
-    slug: row.slug,
-    property_name: row.nome,
+    id: structure.id,
+    slug: null,
+    property_name: structure.name,
     structure_type: "hotel",
     provider_kind: "structure",
-    country_code,
-    city_name: row.city_name,
-    city_id,
-    specific_area: row.indirizzo,
-    description: row.description ?? null,
-    public_email: row.email,
-    public_phone: row.phone,
-    website: row.website,
-    main_photo_url: row.main_photo_url,
+    country_code: structure.countryCode,
+    city_name: structure.cityName,
+    city_id: cityId ?? `${structure.cityName.toLowerCase().replace(/ +/g, "-")}-it`,
+    specific_area: structure.address,
+    description: null,
+    public_email: null,
+    public_phone: null,
+    website: null,
+    main_photo_url: null,
     points_of_interest: null,
     services: null,
-    latitude: coords.latitude,
-    longitude: coords.longitude,
-    isOnboarding: true,
-    google_maps_url: row.google_maps_url,
+    latitude: null,
+    longitude: null,
+    isOnboarding: structure.kind === "onboarding",
+    google_maps_url: null,
   };
 }
 function publicHotelDescription(description: string | null) { const value = description?.trim() ?? ""; if (!value) return null; const lower = value.toLowerCase(); if (lower.includes("profilo struttura creato") || lower.includes("da completare nel pannello struttura") || lower.includes("accesso social")) return null; return value; }
@@ -305,6 +251,10 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
       ? findCityById(structure.cityId)
       : cityFromInput(structure.countryCode, structure.cityName);
     setSelectedCity(city);
+    setHotels((current) => {
+      if (current.some((hotel) => hotel.id === structure.id)) return current;
+      return [catalogHitToHotelAccount(structure), ...current];
+    });
     setFocusedHotelId(structure.id);
   }
 
@@ -470,59 +420,18 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
     async function loadHotels() {
       if (!initialData?.hotels.length) setHotelsLoading(true);
       try {
-        const supabase = createBrowserSupabaseClient();
-        const hotelSelect =
-          "id, slug, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, points_of_interest, services, latitude, longitude";
-        const onboardingSelect = "id, slug, nome, city_name, indirizzo, description, email, phone, main_photo_url, website, google_maps_url, lat, lng";
-
-        let registeredQuery = supabase
-          .from("hotel_accounts")
-          .select(hotelSelect)
-          .eq("account_status", "active")
-          .eq("subscription_active", true)
-          .order("property_name", { ascending: true });
-
+        const params = new URLSearchParams();
         if (hasSelectedCity) {
-          registeredQuery = registeredQuery.eq("city_id", selectedCity.city_id);
-        } else {
-          registeredQuery = registeredQuery.limit(RANDOM_REGISTERED_SHOW);
+          if (selectedCity.city_id) params.set("city_id", selectedCity.city_id);
+          if (selectedCity.city_name) params.set("city", selectedCity.city_name);
+          if (selectedCity.country_code) params.set("country_code", selectedCity.country_code);
         }
-
-        const registeredPromise = registeredQuery;
-
-        async function fetchOnboardingHotels(): Promise<OnboardingHotelRow[]> {
-          if (hasSelectedCity) {
-            const names = onboardingSearchNames(selectedCity);
-            let onboardingQuery = supabase
-              .from("onboarding_hotels")
-              .select(onboardingSelect)
-              .order("nome", { ascending: true })
-              .limit(200);
-            if (names.length === 1) {
-              onboardingQuery = onboardingQuery.ilike("city_name", names[0]!);
-            } else if (names.length > 1) {
-              onboardingQuery = onboardingQuery.or(names.map((name) => `city_name.ilike."${name.replace(/"/g, '""')}"`).join(","));
-            }
-            const { data } = await onboardingQuery;
-            return (data ?? []) as OnboardingHotelRow[];
-          }
-
-          const { data } = await supabase
-            .from("onboarding_hotels")
-            .select(onboardingSelect)
-            .limit(RANDOM_ONBOARDING_POOL);
-          return shuffleItems((data ?? []) as OnboardingHotelRow[]).slice(0, RANDOM_ONBOARDING_SHOW);
-        }
-
-        const [{ data: registeredHotels }, onboardingHotels] = await Promise.all([
-          registeredPromise,
-          fetchOnboardingHotels(),
-        ]);
+        const query = params.toString();
+        const res = await fetch(query ? `/api/showcase/structures?${query}` : "/api/showcase/structures");
+        const json = (await res.json()) as { hotels?: ShowcaseHomeHotel[] };
         if (cancelled) return;
-
-        const mapped = (onboardingHotels ?? []).map(mapOnboardingRow);
-        const merged = [...(registeredHotels ?? []), ...mapped] as HotelAccount[];
-        setHotels(hasSelectedCity ? merged : shuffleItems(merged));
+        const rows = Array.isArray(json.hotels) ? json.hotels : [];
+        setHotels(rows.map(mapInitialHotel));
       } catch {
         if (!cancelled) setHotels([]);
       } finally {
@@ -533,7 +442,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
     return () => {
       cancelled = true;
     };
-  }, [hasSelectedCity, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
+  }, [hasSelectedCity, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code, initialData?.hotels.length]);
 
   useEffect(() => {
     let cancelled = false;

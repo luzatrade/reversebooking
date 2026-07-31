@@ -1,19 +1,25 @@
 import Link from "next/link";
 import { getServerLocale } from "@/lib/i18n/get-translations";
-import { destinationPublicPath, structurePublicPath } from "@/lib/i18n/routing";
+import { destinationPublicPath, localizedPath, structurePublicPath } from "@/lib/i18n/routing";
 import { fetchDestinationHubBySlug } from "@/lib/seo/destination-queries";
 import { resolveDestinationHubSlug } from "@/lib/seo/city-canonical";
-import type { ShowcaseHomeInitialData } from "@/lib/showcase/homeData";
+import type { ShowcaseHomeHotel, ShowcaseHomeInitialData } from "@/lib/showcase/homeData";
 
 type Props = {
   initialData: ShowcaseHomeInitialData | null;
 };
 
+function inventoryStructureHref(hotel: ShowcaseHomeHotel, locale: "it" | "en") {
+  if (hotel.slug) return structurePublicPath(hotel.slug, locale);
+  if (hotel.isOnboarding) return localizedPath(locale, `/hotel/onboarding/${hotel.id}`);
+  return localizedPath(locale, `/hotel/${hotel.id}`);
+}
+
 /** Server-rendered inventory links — collapsible, closed by default. */
 export async function HomeSeoInventoryStrip({ initialData }: Props) {
   if (!initialData) return null;
   const locale = await getServerLocale();
-  const hotels = initialData.hotels.filter((h) => h.slug).slice(0, 16);
+  const hotels = initialData.hotels.filter((h) => h.provider_kind !== "agency").slice(0, 16);
   const requests = initialData.requests.slice(0, 10);
 
   const requestLinks = await Promise.all(
@@ -57,7 +63,7 @@ export async function HomeSeoInventoryStrip({ initialData }: Props) {
               {hotels.map((hotel) => (
                 <li key={hotel.id}>
                   <Link
-                    href={structurePublicPath(hotel.slug!, locale)}
+                    href={inventoryStructureHref(hotel, locale)}
                     className="font-medium text-[#0f4c81] hover:underline"
                   >
                     {hotel.property_name}
