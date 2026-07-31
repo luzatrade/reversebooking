@@ -278,11 +278,11 @@ export const translations = {
         "Invia la tua richiesta e ricevi offerte senza commissioni dagli hotel della zona selezionata.",
       homeTagline:
         "Invia la tua richiesta e ricevi offerte senza commissioni dagli hotel della zona selezionata.",
-      homeHeadline: "Reverse Booking e Reversebooking: Offerte Dirette senza Commissioni",
+      homeHeadline: "Reverse Booking: Offerte Dirette dagli Hotel, senza Commissioni",
       homeSubtitle:
         "Pubblica gratuitamente la tua richiesta e ricevi offerte dagli hotel della zona selezionata.",
       homeEntityIntro:
-        "HotelsDrop è la piattaforma di reverse booking (reversebooking): invii una richiesta, gli hotel compatibili rispondono con proposte personalizzate. Zero commissioni per chi viaggia.",
+        "Su HotelsDrop gli hotel competono per te: una richiesta, proposte personalizzate, zero commissioni per chi viaggia.",
       agencyKindLabel: "Agenzia viaggi",
       agenciesSliderTitle: "Agenzie viaggi nella zona",
       agenciesSliderSubtitle: "Le agenzie viaggi attive.",
@@ -1642,11 +1642,11 @@ export const translations = {
         "Send your request and receive commission-free offers from hotels in the selected area.",
       homeTagline:
         "Send your request and receive commission-free offers from hotels in the selected area.",
-      homeHeadline: "Reverse Booking & Reversebooking: Direct Offers, No Commission",
+      homeHeadline: "Reverse Booking: Direct Hotel Offers, No Commission",
       homeSubtitle:
         "Post your request for free and receive offers from hotels in the selected area.",
       homeEntityIntro:
-        "HotelsDrop is a reverse booking (reversebooking) platform: you send one request, matching hotels reply with tailored offers. Zero commission for travellers.",
+        "On HotelsDrop, hotels compete for you: one request, tailored offers, zero commission for travellers.",
       agencyKindLabel: "Travel agency",
       agenciesSliderTitle: "Travel agencies in the area",
       agenciesSliderSubtitle: "Active travel agencies.",
