@@ -6,6 +6,19 @@ import {
   sortBySearchRelevance,
   tokenizeSearchTerm,
 } from "@/lib/admin/query";
+import { isMissingColumnError } from "@/lib/supabase/schema-compat";
+
+const ONBOARDING_HOTEL_DETAIL_SELECT =
+  "id, place_id, nome, indirizzo, city_name, description, description_en, email, phone, website, google_maps_url, main_photo_url, gallery_photo_urls, status, claimed_by, created_at, updated_at";
+
+const ONBOARDING_HOTEL_DETAIL_SELECT_LEGACY =
+  "id, place_id, nome, indirizzo, city_name, description, email, phone, website, google_maps_url, main_photo_url, gallery_photo_urls, status, claimed_by, created_at, updated_at";
+
+const ONBOARDING_HOTEL_LIST_SELECT =
+  "id, nome, city_name, indirizzo, description, description_en, email, phone, main_photo_url, status, claimed_by, created_at";
+
+const ONBOARDING_HOTEL_LIST_SELECT_LEGACY =
+  "id, nome, city_name, indirizzo, description, email, phone, main_photo_url, status, claimed_by, created_at";
 
 function db() {
   const client = createServiceRoleClient();
@@ -290,13 +303,21 @@ export async function countOnboardingHotels() {
 
 export async function getOnboardingHotelById(id: string) {
   const supabase = db();
-  const { data, error } = await supabase
+  let { data, error } = await supabase
     .from("onboarding_hotels")
-    .select(
-      "id, place_id, nome, indirizzo, city_name, description, description_en, email, phone, website, google_maps_url, main_photo_url, gallery_photo_urls, status, claimed_by, created_at, updated_at",
-    )
+    .select(ONBOARDING_HOTEL_DETAIL_SELECT)
     .eq("id", id)
     .maybeSingle();
+
+  if (error && isMissingColumnError(error, "description_en")) {
+    ({ data, error } = await supabase
+      .from("onboarding_hotels")
+      .select(ONBOARDING_HOTEL_DETAIL_SELECT_LEGACY)
+      .eq("id", id)
+      .maybeSingle());
+    if (data) data = { ...data, description_en: null } as typeof data;
+  }
+
   if (error) throw error;
   return data;
 }
@@ -420,11 +441,28 @@ export async function listOnboardingHotels(query?: string) {
   const supabase = db();
   let request = supabase
     .from("onboarding_hotels")
-    .select("id, nome, city_name, indirizzo, description, description_en, email, phone, main_photo_url, status, claimed_by, created_at")
+    .select(ONBOARDING_HOTEL_LIST_SELECT)
     .order("created_at", { ascending: false })
     .limit(500);
   request = applySearch(request, trimmed, [...ONBOARDING_HOTEL_SEARCH_FIELDS], ["id"]);
-  const { data, error } = await request;
+  let { data, error } = await request;
+
+  if (error && isMissingColumnError(error, "description_en")) {
+    let legacyRequest = supabase
+      .from("onboarding_hotels")
+      .select(ONBOARDING_HOTEL_LIST_SELECT_LEGACY)
+      .order("created_at", { ascending: false })
+      .limit(500);
+    legacyRequest = applySearch(legacyRequest, trimmed, [...ONBOARDING_HOTEL_SEARCH_FIELDS], ["id"]);
+    const legacyResult = await legacyRequest;
+    error = legacyResult.error;
+    data =
+      legacyResult.data?.map((row) => ({
+        ...row,
+        description_en: null,
+      })) ?? null;
+  }
+
   if (error) throw error;
 
   return filterRankedRows(trimmed, data ?? [], (row) => [

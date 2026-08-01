@@ -4,6 +4,7 @@ import { requireAdminApi } from "@/lib/admin/verify";
 import { MAX_GALLERY_PHOTOS } from "@/lib/hotel/gallery-photos";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
 import { notifyOnboardingHotelIndexNow } from "@/lib/seo/indexnow-sync";
+import { isMissingColumnError, stripKeys } from "@/lib/supabase/schema-compat";
 
 const ALLOWED_STATUSES = new Set(["unclaimed", "pending_verification", "claimed"]);
 
@@ -122,7 +123,18 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Nessun campo da aggiornare" }, { status: 400 });
   }
 
-  const { error: updateError } = await admin.from("onboarding_hotels").update(updates).eq("id", id);
+  let migrationWarning: string | null = null;
+  let { error: updateError } = await admin.from("onboarding_hotels").update(updates).eq("id", id);
+
+  if (updateError && isMissingColumnError(updateError, "description_en") && "description_en" in updates) {
+    migrationWarning =
+      "La colonna description_en non è ancora su Supabase: salvata solo la descrizione italiana. Esegui npm run supabase:push.";
+    ({ error: updateError } = await admin
+      .from("onboarding_hotels")
+      .update(stripKeys(updates, ["description_en"]))
+      .eq("id", id));
+  }
+
   if (updateError) {
     return NextResponse.json({ error: updateError.message }, { status: 500 });
   }
@@ -141,7 +153,15 @@ export async function POST(request: Request) {
   if (updates.gallery_photo_urls !== undefined) hotelSync.gallery_photo_urls = updates.gallery_photo_urls;
 
   if (Object.keys(hotelSync).length > 0) {
-    const { error: syncError } = await admin.from("hotel_accounts").update(hotelSync).eq("onboarding_hotel_id", id);
+    let { error: syncError } = await admin.from("hotel_accounts").update(hotelSync).eq("onboarding_hotel_id", id);
+
+    if (syncError && isMissingColumnError(syncError, "description_en") && "description_en" in hotelSync) {
+      ({ error: syncError } = await admin
+        .from("hotel_accounts")
+        .update(stripKeys(hotelSync, ["description_en"]))
+        .eq("onboarding_hotel_id", id));
+    }
+
     if (syncError) {
       return NextResponse.json({ error: syncError.message }, { status: 500 });
     }
@@ -161,5 +181,5 @@ export async function POST(request: Request) {
 
   void notifyOnboardingHotelIndexNow(admin, id);
 
-  return NextResponse.json({ ok: true });
+  return NextResponse.json({ ok: true, warning: migrationWarning });
 }
