@@ -18,6 +18,8 @@
     "seed:italy-add": "node scripts/seed-demo-drops.mjs --add-italy 3",
     "harvest:onboarding-hotels": "node scripts/harvest-onboarding-hotels.mjs",
     "import:italy-premier-hotels": "node scripts/import-onboarding-hotels-batch.mjs --file data/italy-premier-hotels-30.json --delay-ms 600",
+    "translate:onboarding:list": "node scripts/translate-onboarding-descriptions.mjs list",
+    "translate:onboarding:apply": "node scripts/translate-onboarding-descriptions.mjs apply",
     "backfill:hotel-coords": "npx tsx scripts/backfill-hotel-coords-from-maps.ts",
     "storage:prune-safe": "node scripts/prune-storage-safe.mjs"
   },

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useParams, useSearchParams } from "next/navigation";
 import { ArrowLeft, Mail, MapPin, Phone, PhoneCall } from "lucide-react";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
+import { pickLocalizedDescription } from "@/lib/i18n/localized-description";
 import { FavoriteHotelButton } from "@/components/favorites/FavoriteHotelButton";
 import { formatMessage } from "@/lib/i18n/format";
 import { getServiceLabels, getStructureTypeLabels } from "@/lib/i18n/labels";
@@ -25,6 +26,7 @@ type HotelProfile = {
   main_photo_url: string | null;
   gallery_photo_urls: string[] | null;
   description: string | null;
+  description_en: string | null;
   full_address: string;
   country_name: string;
   city_name: string;
@@ -66,7 +68,7 @@ export function PublicHotelProfile() {
         const supabase = createBrowserSupabaseClient();
         const { data, error: hotelError } = await supabase
           .from("hotel_accounts")
-          .select("id, property_name, structure_type, provider_kind, cun_code, main_photo_url, gallery_photo_urls, description, full_address, country_name, city_name, specific_area, points_of_interest, rooms_quantity, services, house_rules, public_email, public_phone, google_maps_url, cin_code")
+          .select("id, property_name, structure_type, provider_kind, cun_code, main_photo_url, gallery_photo_urls, description, description_en, full_address, country_name, city_name, specific_area, points_of_interest, rooms_quantity, services, house_rules, public_email, public_phone, google_maps_url, cin_code")
           .eq("id", hotelId)
           .eq("account_status", "active")
           .eq("subscription_active", true)
@@ -163,7 +165,12 @@ export function PublicHotelProfile() {
               ? (hotel.cun_code ? <p className="mt-1 text-xs text-zinc-400">CUN: {hotel.cun_code}</p> : null)
               : <p className="mt-1 text-xs text-zinc-400">CIN: {hotel.cin_code}</p>}
 
-            {hotel.description ? <p className="mt-6 leading-7 text-zinc-700 dark:text-zinc-300">{hotel.description}</p> : null}
+            {(() => {
+              const publicDescription = pickLocalizedDescription(hotel.description, hotel.description_en, locale);
+              return publicDescription ? (
+                <p className="mt-6 leading-7 text-zinc-700 dark:text-zinc-300">{publicDescription}</p>
+              ) : null;
+            })()}
 
             {hotel.gallery_photo_urls?.length ? (
               <div className="mt-4 grid grid-cols-2 gap-2 sm:mt-6 sm:grid-cols-2 sm:gap-3 lg:grid-cols-3">

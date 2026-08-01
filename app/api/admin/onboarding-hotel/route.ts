@@ -19,6 +19,7 @@ type Body = {
   main_photo_url?: string | null;
   gallery_photo_urls?: string[];
   description?: string | null;
+  description_en?: string | null;
   status?: string;
   resetClaim?: boolean;
 };
@@ -86,6 +87,7 @@ export async function POST(request: Request) {
   if (body.google_maps_url !== undefined) updates.google_maps_url = cleanOptionalText(body.google_maps_url);
   if (body.main_photo_url !== undefined) updates.main_photo_url = cleanOptionalText(body.main_photo_url);
   if (body.description !== undefined) updates.description = cleanOptionalText(body.description);
+  if (body.description_en !== undefined) updates.description_en = cleanOptionalText(body.description_en);
   if (body.gallery_photo_urls !== undefined) {
     const gallery = normalizeGalleryUrls(body.gallery_photo_urls);
     if (!gallery) {
@@ -135,6 +137,7 @@ export async function POST(request: Request) {
   if (updates.phone !== undefined) hotelSync.public_phone = updates.phone;
   if (updates.main_photo_url !== undefined) hotelSync.main_photo_url = updates.main_photo_url;
   if (updates.description !== undefined) hotelSync.description = updates.description;
+  if (updates.description_en !== undefined) hotelSync.description_en = updates.description_en;
   if (updates.gallery_photo_urls !== undefined) hotelSync.gallery_photo_urls = updates.gallery_photo_urls;
 
   if (Object.keys(hotelSync).length > 0) {

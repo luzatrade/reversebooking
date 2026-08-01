@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Building2, Euro, MapPin } from "lucide-react";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
+import { pickLocalizedDescription } from "@/lib/i18n/localized-description";
 import { getStructureTypeLabels } from "@/lib/i18n/labels";
 import {
   structureMapsHref,
@@ -20,6 +21,7 @@ export type StructureExploreHotel = {
   city_id: string | null;
   specific_area: string | null;
   description: string | null;
+  description_en?: string | null;
   main_photo_url: string | null;
   latitude?: number | null;
   longitude?: number | null;
@@ -69,7 +71,9 @@ export function StructureExploreCard({ hotel, hideRequestButton = false, classNa
   const structureTypeLabels = getStructureTypeLabels(locale);
   const country = countryLabel(hotel.country_code, locale);
   const locationLine = `${structureTypeLabels[hotel.structure_type]} · ${hotel.city_name}${country ? `, ${country}` : ""}`;
-  const description = publicHotelDescription(hotel.description);
+  const description = publicHotelDescription(
+    pickLocalizedDescription(hotel.description, hotel.description_en, locale),
+  );
 
   return (
     <article

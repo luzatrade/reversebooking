@@ -9,6 +9,8 @@ export type OnboardingHotelRow = {
   nome: string;
   city_name: string;
   indirizzo: string | null;
+  description?: string | null;
+  description_en?: string | null;
   email: string | null;
   phone: string | null;
   main_photo_url: string | null;
@@ -22,7 +24,7 @@ export type OnboardingHotelRow = {
 };
 
 const ONBOARDING_SELECT =
-  "id, nome, city_name, indirizzo, email, phone, main_photo_url, gallery_photo_urls, website, google_maps_url, status, claimed_by, slug, seo_indexable";
+  "id, nome, city_name, indirizzo, description, description_en, email, phone, main_photo_url, gallery_photo_urls, website, google_maps_url, status, claimed_by, slug, seo_indexable";
 
 const PLACEHOLDER_PROPERTY_NAMES = new Set([
   "",
@@ -85,7 +87,8 @@ export function buildHotelFromOnboarding(
     structure_type: structureType,
     property_name: onboarding.nome,
     cin_code: `ONB-${userId.slice(0, 8)}`,
-    description: null as string | null,
+    description: onboarding.description ?? null,
+    description_en: onboarding.description_en ?? null,
     full_address: onboarding.indirizzo || onboarding.city_name,
     country_code: "IT",
     country_name: "Italia",

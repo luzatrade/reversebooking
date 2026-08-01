@@ -82,7 +82,8 @@ export default async function ConsoleOnboardingPage({
             { key: "photo", label: "" },
             { key: "name", label: "Struttura" },
             { key: "city", label: "Città" },
-            { key: "description", label: "Descrizione" },
+            { key: "description", label: "Descrizione IT" },
+            { key: "description_en", label: "EN" },
             { key: "email", label: "Email" },
             { key: "phone", label: "Telefono" },
             { key: "status", label: "Stato" },
@@ -114,6 +115,13 @@ export default async function ConsoleOnboardingPage({
                 </span>
               ) : (
                 <span className="text-xs text-amber-700">Mancante</span>
+              ),
+              description_en: h.description_en?.trim() ? (
+                <span className="text-xs font-semibold text-emerald-700">OK</span>
+              ) : h.description?.trim() ? (
+                <span className="text-xs text-amber-700">Da tradurre</span>
+              ) : (
+                <span className="text-xs text-zinc-400">—</span>
               ),
               email: h.email ?? "—",
               phone: h.phone ?? "—",

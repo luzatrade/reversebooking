@@ -26,10 +26,10 @@ const PUBLIC_ONBOARDING_STATUS_SET = new Set<string>([
 ]);
 
 const REGISTERED_SELECT =
-  "id, slug, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, latitude, longitude, onboarding_hotel_id";
+  "id, slug, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, description_en, public_email, public_phone, main_photo_url, latitude, longitude, onboarding_hotel_id";
 
 const ONBOARDING_SELECT =
-  "id, slug, nome, city_name, indirizzo, description, email, phone, main_photo_url, lat, lng, status";
+  "id, slug, nome, city_name, indirizzo, description, description_en, email, phone, main_photo_url, lat, lng, status";
 
 export type ShowcaseHomeHotel = {
   id: string;
@@ -42,6 +42,7 @@ export type ShowcaseHomeHotel = {
   city_id: string | null;
   specific_area: string | null;
   description: string | null;
+  description_en: string | null;
   public_email: string | null;
   public_phone: string | null;
   main_photo_url: string | null;
@@ -89,6 +90,7 @@ function mapOnboardingRow(row: {
   city_name: string;
   indirizzo: string | null;
   description?: string | null;
+  description_en?: string | null;
   email: string | null;
   phone: string | null;
   main_photo_url: string | null;
@@ -108,6 +110,7 @@ function mapOnboardingRow(row: {
     city_id,
     specific_area: row.indirizzo ?? null,
     description: row.description ?? null,
+    description_en: row.description_en ?? null,
     public_email: row.email ?? null,
     public_phone: row.phone ?? null,
     main_photo_url: row.main_photo_url ?? null,
@@ -128,6 +131,7 @@ function mapRegisteredRow(row: {
   city_id: string | null;
   specific_area: string | null;
   description: string | null;
+  description_en: string | null;
   public_email: string | null;
   public_phone: string | null;
   main_photo_url: string | null;
@@ -146,6 +150,7 @@ function mapRegisteredRow(row: {
     city_id: row.city_id ?? null,
     specific_area: row.specific_area ?? null,
     description: row.description ?? null,
+    description_en: row.description_en ?? null,
     public_email: row.public_email ?? null,
     public_phone: row.public_phone ?? null,
     main_photo_url: row.main_photo_url ?? null,
