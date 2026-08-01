@@ -1,7 +1,10 @@
 import type { Locale } from "@/lib/i18n/translations";
 import type { StructureSeoRecord } from "@/lib/seo/structure-queries";
 
-function structureKindLabel(record: StructureSeoRecord, locale: Locale): string {
+function structureKindLabel(
+  record: Pick<StructureSeoRecord, "source" | "structureType">,
+  locale: Locale,
+): string {
   if (record.source === "onboarding") {
     return locale === "en" ? "lodging property" : "struttura ricettiva";
   }
@@ -25,8 +28,15 @@ function structureKindLabel(record: StructureSeoRecord, locale: Locale): string 
 }
 
 /** Unique crawlable copy when the property has no manual description. */
-export function buildStructureSeoDescription(record: StructureSeoRecord, locale: Locale): string {
-  if (record.description?.trim()) return record.description.trim();
+export function buildStructureSeoDescription(
+  record: Pick<StructureSeoRecord, "name" | "cityName" | "countryName" | "structureType" | "source" | "descriptionIt" | "descriptionEn">,
+  locale: Locale,
+): string {
+  const manual =
+    locale === "en"
+      ? record.descriptionEn?.trim() || record.descriptionIt?.trim()
+      : record.descriptionIt?.trim() || record.descriptionEn?.trim();
+  if (manual) return manual;
 
   const kind = structureKindLabel(record, locale);
   const city = record.cityName;

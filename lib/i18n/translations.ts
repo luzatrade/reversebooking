@@ -957,6 +957,9 @@ export const translations = {
         cinPlaceholder: "Solo se previsto dalla normativa locale",
         roomsUnits: "Camere / unità",
         description: "Descrizione",
+        descriptionEn: "Description (English)",
+        descriptionItPlaceholder: "Descrizione in italiano visibile nel profilo pubblico",
+        descriptionEnPlaceholder: "English description for international visitors and /en pages",
         photosTitle: "Foto hotel",
         photosHint:
           "Carica massimo 16 foto: 1 principale + 15 aggiuntive. Formati accettati: JPG, PNG, WEBP. Max 5MB per foto.",
@@ -2312,6 +2315,9 @@ export const translations = {
         cinPlaceholder: "Only if required by local regulations",
         roomsUnits: "Rooms / units",
         description: "Description",
+        descriptionEn: "Description (English)",
+        descriptionItPlaceholder: "Italian description shown on your public profile",
+        descriptionEnPlaceholder: "English description for international visitors and /en pages",
         photosTitle: "Property photos",
         photosHint:
           "Upload up to 16 photos: 1 main + 15 additional. Accepted formats: JPG, PNG, WEBP. Max 5MB per photo.",

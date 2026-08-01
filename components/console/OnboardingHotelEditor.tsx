@@ -13,6 +13,7 @@ type OnboardingHotel = {
   indirizzo: string | null;
   city_name: string;
   description: string | null;
+  description_en: string | null;
   email: string | null;
   phone: string | null;
   website: string | null;
@@ -50,6 +51,7 @@ export function OnboardingHotelEditor({
     indirizzo: hotel.indirizzo ?? "",
     city_name: hotel.city_name,
     description: hotel.description ?? "",
+    description_en: hotel.description_en ?? "",
     email: hotel.email ?? "",
     phone: hotel.phone ?? "",
     website: hotel.website ?? "",
@@ -176,6 +178,7 @@ export function OnboardingHotelEditor({
           indirizzo: form.indirizzo || null,
           city_name: form.city_name,
           description: form.description.trim() || null,
+          description_en: form.description_en.trim() || null,
           email: form.email || null,
           phone: form.phone || null,
           website: form.website || null,
@@ -293,24 +296,46 @@ export function OnboardingHotelEditor({
           id="descrizione"
           className="scroll-mt-24 rounded-2xl border-2 border-[#0f4c81]/25 bg-[#f8fbff] p-4 sm:p-6"
         >
-          <h2 className="text-sm font-semibold text-zinc-900">Descrizione pubblica</h2>
+          <h2 className="text-sm font-semibold text-zinc-900">Descrizioni pubbliche</h2>
           <p className="mt-1 text-sm text-zinc-600">
-            Testo visibile nel profilo catalogo, nella vetrina homepage e nelle pagine SEO /hotel/…
+            Italiano e inglese per profilo catalogo, vetrina homepage e pagine SEO /hotel/… e /en/hotel/…
           </p>
-          <label className="mt-4 block text-sm font-medium">
-            <textarea
-              value={form.description}
-              onChange={(e) => setForm({ ...form, description: e.target.value })}
-              rows={8}
-              placeholder="Descrivi la struttura: posizione, camere, servizi, punti di forza…"
-              className={`${inputClass} resize-y`}
-            />
-            <span className="mt-1 block text-xs font-normal text-zinc-500">
-              {form.description.trim()
-                ? `${form.description.trim().length} caratteri · salva per pubblicare`
-                : "Nessuna descrizione impostata: sul sito comparirà un testo generico automatico."}
-            </span>
-          </label>
+          <div className="mt-4 grid gap-5 lg:grid-cols-2">
+            <label className="block text-sm font-medium">
+              Descrizione (italiano)
+              <textarea
+                value={form.description}
+                onChange={(e) => setForm({ ...form, description: e.target.value })}
+                rows={8}
+                placeholder="Descrivi la struttura in italiano…"
+                className={`${inputClass} resize-y`}
+              />
+              <span className="mt-1 block text-xs font-normal text-zinc-500">
+                {form.description.trim()
+                  ? `${form.description.trim().length} caratteri`
+                  : "Vuota: in italiano comparirà un testo generico automatico."}
+              </span>
+            </label>
+            <label className="block text-sm font-medium">
+              Description (English)
+              <textarea
+                value={form.description_en}
+                onChange={(e) => setForm({ ...form, description_en: e.target.value })}
+                rows={8}
+                placeholder="Describe the property in English…"
+                className={`${inputClass} resize-y`}
+              />
+              <span className="mt-1 block text-xs font-normal text-zinc-500">
+                {form.description_en.trim()
+                  ? `${form.description_en.trim().length} characters`
+                  : "Empty: English pages fall back to Italian or auto-generated copy."}
+              </span>
+            </label>
+          </div>
+          <p className="mt-4 rounded-xl bg-white/80 px-3 py-2 text-xs text-zinc-600">
+            Puoi compilare entrambe a mano. Per tradurre in batch le strutture con solo italiano, chiedi all&apos;agente:
+            «traduci le descrizioni onboarding».
+          </p>
         </section>
 
         <div className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6">

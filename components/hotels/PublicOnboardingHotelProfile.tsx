@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams, useSearchParams } from "next/navigation";
 import { ArrowLeft, ExternalLink, Globe, Mail, MapPin, Phone, PhoneCall } from "lucide-react";
+import { pickLocalizedDescription } from "@/lib/i18n/localized-description";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { formatMessage } from "@/lib/i18n/format";
 import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
@@ -23,6 +24,7 @@ type OnboardingProfile = {
   indirizzo: string | null;
   city_name: string;
   description: string | null;
+  description_en: string | null;
   email: string | null;
   phone: string | null;
   website: string | null;
@@ -35,10 +37,10 @@ type OnboardingProfile = {
 };
 
 const ONBOARDING_SELECT =
-  "id, nome, indirizzo, city_name, description, email, phone, website, main_photo_url, gallery_photo_urls, google_maps_url, lat, lng, status";
+  "id, nome, indirizzo, city_name, description, description_en, email, phone, website, main_photo_url, gallery_photo_urls, google_maps_url, lat, lng, status";
 
 export function PublicOnboardingHotelProfile() {
-  const { t } = useLanguage();
+  const { t, locale } = useLanguage();
   const searchParams = useSearchParams();
   const params = useParams<{ id: string }>();
   const hotelId = params.id;
@@ -96,6 +98,10 @@ export function PublicOnboardingHotelProfile() {
       )
     : null;
 
+  const publicDescription = hotel
+    ? pickLocalizedDescription(hotel.description, hotel.description_en, locale)
+    : null;
+
   return (
     <div className="space-y-6">
       <Link
@@ -125,8 +131,8 @@ export function PublicOnboardingHotelProfile() {
             </p>
             <p className="mt-1 text-sm text-zinc-500">{addressLine}</p>
 
-            {hotel.description?.trim() ? (
-              <p className="mt-4 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{hotel.description.trim()}</p>
+            {publicDescription ? (
+              <p className="mt-4 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{publicDescription}</p>
             ) : null}
 
             {!isClaimed && !isPendingVerification ? (

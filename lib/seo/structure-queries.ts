@@ -5,7 +5,8 @@ export type StructureSeoRecord = {
   id: string;
   slug: string;
   name: string;
-  description: string | null;
+  descriptionIt: string | null;
+  descriptionEn: string | null;
   structureType: string | null;
   address: string | null;
   cityName: string;
@@ -25,10 +26,10 @@ export type StructureSeoRecord = {
 };
 
 const ONBOARDING_SELECT =
-  "id, slug, seo_indexable, nome, description, indirizzo, city_name, email, phone, website, google_maps_url, main_photo_url, gallery_photo_urls, lat, lng, status";
+  "id, slug, seo_indexable, nome, description, description_en, indirizzo, city_name, email, phone, website, google_maps_url, main_photo_url, gallery_photo_urls, lat, lng, status";
 
 const HOTEL_SELECT =
-  "id, slug, seo_indexable, onboarding_hotel_id, property_name, description, structure_type, full_address, country_name, city_name, public_email, public_phone, google_maps_url, main_photo_url, gallery_photo_urls, latitude, longitude, account_status, subscription_active, provider_kind";
+  "id, slug, seo_indexable, onboarding_hotel_id, property_name, description, description_en, structure_type, full_address, country_name, city_name, public_email, public_phone, google_maps_url, main_photo_url, gallery_photo_urls, latitude, longitude, account_status, subscription_active, provider_kind";
 
 function mapOnboarding(row: Record<string, unknown>): StructureSeoRecord {
   return {
@@ -36,7 +37,8 @@ function mapOnboarding(row: Record<string, unknown>): StructureSeoRecord {
     id: String(row.id),
     slug: String(row.slug),
     name: String(row.nome),
-    description: (row.description as string | null) ?? null,
+    descriptionIt: (row.description as string | null) ?? null,
+    descriptionEn: (row.description_en as string | null) ?? null,
     structureType: null,
     address: (row.indirizzo as string | null) ?? null,
     cityName: String(row.city_name),
@@ -62,7 +64,8 @@ function mapHotel(row: Record<string, unknown>): StructureSeoRecord {
     id: String(row.id),
     slug: String(row.slug),
     name: String(row.property_name),
-    description: (row.description as string | null) ?? null,
+    descriptionIt: (row.description as string | null) ?? null,
+    descriptionEn: (row.description_en as string | null) ?? null,
     structureType: (row.structure_type as string | null) ?? null,
     address: (row.full_address as string | null) ?? null,
     cityName: String(row.city_name),

@@ -8,6 +8,7 @@ import { getCityHeroImage } from "@/lib/destination-slider/cityPhotos";
 import { CurrencySwitcher } from "@/components/currency/CurrencySwitcher";
 import { LanguageSwitcher } from "@/components/i18n/LanguageSwitcher";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
+import { pickLocalizedDescription } from "@/lib/i18n/localized-description";
 import { CityAutocomplete } from "@/components/location/CityAutocomplete";
 import { CityHeroSlider } from "@/components/showcase/CityHeroSlider";
 import { DropRequestBenefitsModal } from "@/components/showcase/DropRequestBenefitsModal";
@@ -42,7 +43,7 @@ function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date(
 type PreferenceFilters = { connecting_rooms?: boolean; disabled_access?: boolean; pool?: boolean; spa?: boolean; bathtub?: boolean; garage?: boolean; beach?: boolean; pets_allowed?: boolean };
 type AdvertiserPublic = { first_name: string | null; last_name: string | null; advertiser_type?: string | null };
 type TravelRequest = { id: string; country_code: string | null; city_name: string; city_id: string | null; preferred_area: string; check_in: string; check_out: string; guests_count: number; rooms_count: number; budget: number; meal_plan: MealPlan; preference_filters: PreferenceFilters | null; notes: string | null; expires_at: string; created_at: string; status: string; advertiser_profiles?: AdvertiserPublic | AdvertiserPublic[] | null };
-type HotelAccount = { id: string; slug?: string | null; property_name: string; structure_type: StructureType; provider_kind: "structure" | "agency"; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; public_email: string | null; public_phone: string | null; website: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null; latitude?: number | null; longitude?: number | null; isOnboarding?: boolean; google_maps_url?: string | null };
+type HotelAccount = { id: string; slug?: string | null; property_name: string; structure_type: StructureType; provider_kind: "structure" | "agency"; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; description_en: string | null; public_email: string | null; public_phone: string | null; website: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null; latitude?: number | null; longitude?: number | null; isOnboarding?: boolean; google_maps_url?: string | null };
 type Offer = { id: string; travel_request_id: string };
 type Viewer = {
   userId: string | null;
@@ -105,6 +106,7 @@ function catalogHitToHotelAccount(structure: CatalogStructureHit): HotelAccount 
     city_id: cityId ?? `${structure.cityName.toLowerCase().replace(/ +/g, "-")}-it`,
     specific_area: structure.address,
     description: null,
+    description_en: null,
     public_email: null,
     public_phone: null,
     website: null,
@@ -188,6 +190,7 @@ function mapInitialHotel(row: ShowcaseHomeHotel): HotelAccount {
     city_id: row.city_id,
     specific_area: row.specific_area,
     description: row.description,
+    description_en: row.description_en ?? null,
     public_email: row.public_email,
     public_phone: row.public_phone,
     website: null,
@@ -580,7 +583,9 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
   function renderHotelCard(hotel: HotelAccount) {
     const country = countryLabel(hotel.country_code);
     const locationLine = `${structureTypeLabels[hotel.structure_type]} · ${hotel.city_name}${country ? `, ${country}` : ""}`;
-    const description = publicHotelDescription(hotel.description);
+    const description = publicHotelDescription(
+      pickLocalizedDescription(hotel.description, hotel.description_en, locale),
+    );
     return (
       <article
         key={hotel.id}
