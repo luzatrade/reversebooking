@@ -98,6 +98,7 @@ export const majorWorldCities: WorldCity[] = [
   { label: "Melbourne, Australia", country_code: "AU", country_name: "Australia", city_name: "Melbourne", city_id: "AU-MEL" },
   { label: "Toronto, Canada", country_code: "CA", country_name: "Canada", city_name: "Toronto", city_id: "CA-TOR" },
   { label: "Vancouver, Canada", country_code: "CA", country_name: "Canada", city_name: "Vancouver", city_id: "CA-YVR" },
+  { label: "Regina, Canada", country_code: "CA", country_name: "Canada", city_name: "Regina", city_id: "CA-REG" },
   { label: "Mexico City, Mexico", country_code: "MX", country_name: "Mexico", city_name: "Mexico City", city_id: "MX-MEX" },
   { label: "Rio de Janeiro, Brazil", country_code: "BR", country_name: "Brazil", city_name: "Rio de Janeiro", city_id: "BR-RIO" },
   { label: "São Paulo, Brazil", country_code: "BR", country_name: "Brazil", city_name: "São Paulo", city_id: "BR-SAO" },

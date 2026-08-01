@@ -72,6 +72,9 @@ function runSingleImport(hotel, { manual }) {
     if (hotel.longitude ?? hotel.lng) args.push("--lng", String(hotel.longitude ?? hotel.lng));
     if (hotel.website) args.push("--website", hotel.website);
     if (hotel.place_id) args.push("--place-id", hotel.place_id);
+    if (hotel.country) args.push("--country", hotel.country);
+    if (hotel.description) args.push("--description", hotel.description);
+    if (hotel.description_en) args.push("--description-en", hotel.description_en);
     if (manual) args.push("--manual");
 
     const child = spawn(process.execPath, args, {
