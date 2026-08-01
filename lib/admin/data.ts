@@ -293,7 +293,7 @@ export async function getOnboardingHotelById(id: string) {
   const { data, error } = await supabase
     .from("onboarding_hotels")
     .select(
-      "id, place_id, nome, indirizzo, city_name, email, phone, website, google_maps_url, main_photo_url, gallery_photo_urls, status, claimed_by, created_at, updated_at",
+      "id, place_id, nome, indirizzo, city_name, description, email, phone, website, google_maps_url, main_photo_url, gallery_photo_urls, status, claimed_by, created_at, updated_at",
     )
     .eq("id", id)
     .maybeSingle();
