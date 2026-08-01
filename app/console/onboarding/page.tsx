@@ -72,7 +72,7 @@ export default async function ConsoleOnboardingPage({
       {query && hotels.length > 0 ? (
         <div className="mb-4 rounded-xl border border-[#0f4c81]/20 bg-[#f8fbff] px-4 py-3 text-sm text-zinc-700">
           Per aprire la <strong>dashboard struttura</strong> o <strong>creare un account partner</strong>, usa i pulsanti
-          in colonna Azioni oppure apri <strong>Modifica</strong>.
+          in colonna Azioni. Per la <strong>descrizione pubblica</strong> usa <strong>Modifica catalogo</strong>.
         </div>
       ) : null}
 
@@ -82,7 +82,7 @@ export default async function ConsoleOnboardingPage({
             { key: "photo", label: "" },
             { key: "name", label: "Struttura" },
             { key: "city", label: "Città" },
-            { key: "address", label: "Indirizzo" },
+            { key: "description", label: "Descrizione" },
             { key: "email", label: "Email" },
             { key: "phone", label: "Telefono" },
             { key: "status", label: "Stato" },
@@ -108,6 +108,13 @@ export default async function ConsoleOnboardingPage({
               ),
               city: h.city_name,
               address: <span className="text-xs text-zinc-600">{h.indirizzo ?? "—"}</span>,
+              description: h.description?.trim() ? (
+                <span className="line-clamp-2 text-xs text-zinc-600" title={h.description.trim()}>
+                  {h.description.trim()}
+                </span>
+              ) : (
+                <span className="text-xs text-amber-700">Mancante</span>
+              ),
               email: h.email ?? "—",
               phone: h.phone ?? "—",
               status: <StatusBadge value={h.status ?? "pending"} />,
@@ -121,7 +128,7 @@ export default async function ConsoleOnboardingPage({
                     partnerUserId={resolveOnboardingEnterUserId(h, linkedUsers)}
                   />
                   <Link
-                    href={`/console/onboarding/${h.id}#account-partner`}
+                    href={`/console/onboarding/${h.id}#descrizione`}
                     className="inline-flex rounded-full border border-zinc-300 bg-white px-3 py-1.5 text-xs font-semibold text-zinc-700 transition hover:bg-zinc-50"
                   >
                     Modifica catalogo

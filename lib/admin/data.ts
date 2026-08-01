@@ -420,7 +420,7 @@ export async function listOnboardingHotels(query?: string) {
   const supabase = db();
   let request = supabase
     .from("onboarding_hotels")
-    .select("id, nome, city_name, indirizzo, email, phone, main_photo_url, status, claimed_by, created_at")
+    .select("id, nome, city_name, indirizzo, description, email, phone, main_photo_url, status, claimed_by, created_at")
     .order("created_at", { ascending: false })
     .limit(500);
   request = applySearch(request, trimmed, [...ONBOARDING_HOTEL_SEARCH_FIELDS], ["id"]);
