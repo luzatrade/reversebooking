@@ -186,9 +186,12 @@ export function OnboardingHotelEditor({
           status: form.status,
         }),
       });
-      const data = (await res.json()) as { error?: string; ok?: boolean };
+      const data = (await res.json()) as { error?: string; ok?: boolean; warning?: string | null };
       if (!res.ok) throw new Error(data.error ?? "Salvataggio non riuscito");
-      setSuccess("Modifiche salvate. Se hai cambiato il telefono, la struttura può riprovare la rivendica con verifica vocale.");
+      setSuccess(
+        data.warning ??
+          "Modifiche salvate. Se hai cambiato il telefono, la struttura può riprovare la rivendica con verifica vocale.",
+      );
       router.refresh();
     } catch (err) {
       setError(err instanceof Error ? err.message : "Salvataggio non riuscito");
