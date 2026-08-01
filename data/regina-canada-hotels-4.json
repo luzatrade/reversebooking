@@ -1,0 +1,55 @@
+[
+  {
+    "name": "The Hotel Saskatchewan, Autograph Collection",
+    "city": "Regina",
+    "country": "Canada",
+    "address": "2125 Victoria Avenue, Regina, SK S4P 0S3, Canada",
+    "phone": "+1 306-522-7691",
+    "email": "info@hotelsask.com",
+    "website": "https://www.marriott.com/en-us/hotels/yqrak-the-hotel-saskatchewan-autograph-collection/overview/",
+    "latitude": 50.4422,
+    "longitude": -104.6107,
+    "place_id": "manual:ca-reg:hotel-saskatchewan-autograph",
+    "description": "Hotel storico di lusso su Victoria Avenue, nel centro di Regina, Saskatchewan. Camere eleganti, ristorazione e spazi eventi nel cuore delle praterie canadesi.",
+    "description_en": "The Hotel Saskatchewan, Autograph Collection is a historic luxury hotel on Victoria Avenue in downtown Regina, Saskatchewan. Elegant rooms, dining and event spaces in the heart of the Canadian Prairies."
+  },
+  {
+    "name": "Delta Hotels by Marriott Regina",
+    "city": "Regina",
+    "country": "Canada",
+    "address": "1919 Saskatchewan Drive, Regina, SK S4P 4H2, Canada",
+    "phone": "+1 306-525-5255",
+    "website": "https://www.marriott.com/en-us/hotels/yqrak-delta-hotels-regina/overview/",
+    "latitude": 50.4076,
+    "longitude": -104.5869,
+    "place_id": "manual:ca-reg:delta-hotels-marriott-regina",
+    "description": "Delta Hotels by Marriott Regina: hotel moderno vicino al Wascana Centre, ideale per viaggi di lavoro e soggiorni leisure a Regina, Saskatchewan.",
+    "description_en": "Delta Hotels by Marriott Regina offers modern rooms and amenities near Wascana Centre — a convenient base for business and leisure stays in Regina, Saskatchewan."
+  },
+  {
+    "name": "Best Western Plus Eastgate Inn & Suites",
+    "city": "Regina",
+    "country": "Canada",
+    "address": "3840 Eastgate Drive, Regina, SK S4Z 1A5, Canada",
+    "phone": "+1 306-352-7587",
+    "website": "https://www.bestwestern.com/en_US/book/hotels-in-regina/best-western-plus-eastgate-inn-suites/propertyCode.68028.html",
+    "latitude": 50.4739,
+    "longitude": -104.5694,
+    "place_id": "manual:ca-reg:best-western-plus-eastgate",
+    "description": "Best Western Plus Eastgate Inn & Suites: hotel confortevole nella zona est di Regina, con suite, colazione e accesso rapido alle principali arterie della città.",
+    "description_en": "Best Western Plus Eastgate Inn & Suites is a comfortable hotel on Regina's east side, with suites, breakfast and quick access to major city routes."
+  },
+  {
+    "name": "Courtyard by Marriott Regina Downtown",
+    "city": "Regina",
+    "country": "Canada",
+    "address": "1717 Victoria Avenue, Regina, SK S4P 0P9, Canada",
+    "phone": "+1 306-559-5682",
+    "website": "https://www.marriott.com/en-us/hotels/yqrcy-courtyard-regina-downtown/overview/",
+    "latitude": 50.4438,
+    "longitude": -104.6195,
+    "place_id": "manual:ca-reg:courtyard-marriott-downtown",
+    "description": "Courtyard by Marriott Regina Downtown: hotel contemporaneo nel centro di Regina, a due passi da Victoria Avenue, ristorazione e uffici del downtown.",
+    "description_en": "Courtyard by Marriott Regina Downtown is a contemporary hotel in central Regina, steps from Victoria Avenue, dining and downtown offices."
+  }
+]

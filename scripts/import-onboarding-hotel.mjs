@@ -91,6 +91,9 @@ function parseArgs() {
       lng: raw.longitude ?? raw.lng ?? null,
       website: raw.website ?? null,
       placeId: raw.place_id ?? null,
+      country: raw.country ?? "Italy",
+      description: raw.description ?? null,
+      descriptionEn: raw.description_en ?? null,
     };
   }
   const get = (flag) => args.find((a, i) => args[i - 1] === flag) ?? null;
@@ -106,6 +109,9 @@ function parseArgs() {
     lng: get("--lng") ? Number(get("--lng")) : null,
     website: get("--website"),
     placeId: get("--place-id"),
+    country: get("--country") ?? "Italy",
+    description: get("--description"),
+    descriptionEn: get("--description-en"),
   };
 }
 
@@ -275,7 +281,8 @@ async function resolveCanonicalCityName(cityName) {
 }
 
 async function importFromGoogle(input) {
-  const query = [input.name, input.address, input.city, "Italy"].filter(Boolean).join(" ");
+  const country = input.country ?? "Italy";
+  const query = [input.name, input.address, input.city, country].filter(Boolean).join(" ");
   console.log(`Cerco su Google Places: "${query}"`);
 
   const data = await searchPlaces(query);
@@ -373,7 +380,8 @@ async function importFromGoogle(input) {
     website: place.websiteUri ?? input.website,
     phone: place.nationalPhoneNumber ?? place.internationalPhoneNumber ?? input.phone,
     email,
-    description,
+    description: existing?.description ?? input.description ?? editorialDescription(place) ?? placeDetails.editorialSummary ?? null,
+    description_en: existing?.description_en ?? input.descriptionEn ?? null,
     main_photo_url: photoUrl,
     gallery_photo_urls: galleryPhotoUrls.length ? galleryPhotoUrls : null,
     status: "unclaimed",
@@ -404,6 +412,8 @@ async function importManual(input) {
     website: input.website,
     phone: input.phone,
     email,
+    description: input.description ?? null,
+    description_en: input.descriptionEn ?? null,
     main_photo_url: null,
     status: "unclaimed",
   };
