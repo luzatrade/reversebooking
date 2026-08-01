@@ -266,9 +266,8 @@ export function OnboardingHotelEditor({
       <div className="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-4 text-sm text-amber-950 sm:px-5">
         <p className="font-semibold">Profilo catalogo (onboarding)</p>
         <p className="mt-2 leading-relaxed">
-          Qui correggi telefono, email, indirizzo e foto principale quando la rivendica fallisce o la struttura non è
-          ancora registrata. Puoi anche inviare manualmente la chiamata Twilio al numero indicato; il codice ricevuto va
-          poi inserito dal partner nella dashboard struttura.
+          Qui imposti la <strong>descrizione pubblica</strong>, telefono, email, indirizzo e foto quando la struttura non
+          ha ancora un account partner. La descrizione compare nel profilo catalogo, in vetrina e nelle pagine SEO.
         </p>
       </div>
 
@@ -285,6 +284,129 @@ export function OnboardingHotelEditor({
           </Link>
         </div>
       ) : null}
+
+      {error ? <p className="rounded-xl bg-red-50 px-4 py-3 text-sm text-red-700">{error}</p> : null}
+      {success ? <p className="rounded-xl bg-emerald-50 px-4 py-3 text-sm text-emerald-800">{success}</p> : null}
+
+      <form onSubmit={save} className="space-y-6">
+        <section
+          id="descrizione"
+          className="scroll-mt-24 rounded-2xl border-2 border-[#0f4c81]/25 bg-[#f8fbff] p-4 sm:p-6"
+        >
+          <h2 className="text-sm font-semibold text-zinc-900">Descrizione pubblica</h2>
+          <p className="mt-1 text-sm text-zinc-600">
+            Testo visibile nel profilo catalogo, nella vetrina homepage e nelle pagine SEO /hotel/…
+          </p>
+          <label className="mt-4 block text-sm font-medium">
+            <textarea
+              value={form.description}
+              onChange={(e) => setForm({ ...form, description: e.target.value })}
+              rows={8}
+              placeholder="Descrivi la struttura: posizione, camere, servizi, punti di forza…"
+              className={`${inputClass} resize-y`}
+            />
+            <span className="mt-1 block text-xs font-normal text-zinc-500">
+              {form.description.trim()
+                ? `${form.description.trim().length} caratteri · salva per pubblicare`
+                : "Nessuna descrizione impostata: sul sito comparirà un testo generico automatico."}
+            </span>
+          </label>
+        </section>
+
+        <div className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6">
+          <div className="grid gap-5 md:grid-cols-2">
+            <label className="block text-sm font-medium md:col-span-2">
+              Nome struttura
+              <input value={form.nome} onChange={(e) => setForm({ ...form, nome: e.target.value })} required className={inputClass} />
+            </label>
+            <label className="block text-sm font-medium md:col-span-2">
+              Indirizzo
+              <input value={form.indirizzo} onChange={(e) => setForm({ ...form, indirizzo: e.target.value })} className={inputClass} />
+            </label>
+            <label className="block text-sm font-medium">
+              Città
+              <input value={form.city_name} onChange={(e) => setForm({ ...form, city_name: e.target.value })} required className={inputClass} />
+            </label>
+            <label className="block text-sm font-medium">
+              Stato catalogo
+              <select value={form.status} onChange={(e) => setForm({ ...form, status: e.target.value })} className={inputClass}>
+                <option value="unclaimed">unclaimed</option>
+                <option value="pending_verification">pending_verification</option>
+                <option value="claimed">claimed</option>
+              </select>
+            </label>
+            <label className="block text-sm font-medium">
+              Telefono (verifica rivendica)
+              <input
+                value={form.phone}
+                onChange={(e) => setForm({ ...form, phone: e.target.value })}
+                placeholder="+39 334 1234567"
+                className={inputClass}
+              />
+            </label>
+            <label className="block text-sm font-medium">
+              Email pubblica
+              <input
+                type="email"
+                value={form.email}
+                onChange={(e) => setForm({ ...form, email: e.target.value })}
+                className={inputClass}
+              />
+            </label>
+            <label className="block text-sm font-medium">
+              Sito web
+              <input value={form.website} onChange={(e) => setForm({ ...form, website: e.target.value })} className={inputClass} />
+            </label>
+            <label className="block text-sm font-medium">
+              Google Maps URL
+              <input
+                value={form.google_maps_url}
+                onChange={(e) => setForm({ ...form, google_maps_url: e.target.value })}
+                className={inputClass}
+              />
+            </label>
+          </div>
+
+          <div className="mt-4 rounded-xl bg-zinc-50 px-4 py-3 text-xs text-zinc-600">
+            <p>Place ID Google: {hotel.place_id}</p>
+            <p className="mt-1 break-all">ID catalogo: {hotel.id}</p>
+            {hotel.claimed_by ? <p className="mt-1 break-all">Claimed by: {hotel.claimed_by}</p> : null}
+          </div>
+
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <button
+              type="submit"
+              disabled={saving}
+              className="inline-flex items-center justify-center rounded-xl bg-[#0f4c81] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#0d3f68] disabled:opacity-50"
+            >
+              {saving ? "Salvataggio..." : "Salva modifiche"}
+            </button>
+            <button
+              type="button"
+              disabled={calling || !form.phone.trim()}
+              onClick={() => void triggerVerifyCall()}
+              className="inline-flex items-center justify-center rounded-xl border border-[#0f4c81] bg-[#e8f0f8] px-5 py-3 text-sm font-semibold text-[#0f4c81] transition hover:bg-[#d8e6f2] disabled:opacity-50"
+            >
+              {calling ? "Chiamata..." : "Invia chiamata Twilio"}
+            </button>
+            <button
+              type="button"
+              disabled={resettingClaim}
+              onClick={() => void resetClaim()}
+              className="inline-flex items-center justify-center rounded-xl border border-amber-300 bg-amber-50 px-5 py-3 text-sm font-semibold text-amber-900 transition hover:bg-amber-100 disabled:opacity-50"
+            >
+              {resettingClaim ? "Reset..." : "Ripristina rivendica"}
+            </button>
+            <Link
+              href={`/hotel/onboarding/${hotel.id}`}
+              className="inline-flex items-center justify-center rounded-xl border border-zinc-300 px-5 py-3 text-sm font-semibold text-zinc-700 transition hover:bg-zinc-50"
+            >
+              Vedi profilo pubblico
+            </Link>
+            <DeleteButton entity="onboarding" id={hotel.id} label="Elimina dal catalogo" />
+          </div>
+        </div>
+      </form>
 
       <section className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6">
         <h2 className="text-sm font-semibold text-zinc-900">Foto principale</h2>
@@ -365,116 +487,6 @@ export function OnboardingHotelEditor({
           )}
         </div>
       </section>
-
-      {error ? <p className="rounded-xl bg-red-50 px-4 py-3 text-sm text-red-700">{error}</p> : null}
-      {success ? <p className="rounded-xl bg-emerald-50 px-4 py-3 text-sm text-emerald-800">{success}</p> : null}
-
-      <form onSubmit={save} className="rounded-2xl border border-zinc-200 bg-white p-4 sm:p-6">
-        <div className="grid gap-5 md:grid-cols-2">
-          <label className="block text-sm font-medium md:col-span-2">
-            Nome struttura
-            <input value={form.nome} onChange={(e) => setForm({ ...form, nome: e.target.value })} required className={inputClass} />
-          </label>
-          <label className="block text-sm font-medium md:col-span-2">
-            Indirizzo
-            <input value={form.indirizzo} onChange={(e) => setForm({ ...form, indirizzo: e.target.value })} className={inputClass} />
-          </label>
-          <label className="block text-sm font-medium md:col-span-2">
-            Descrizione pubblica
-            <textarea
-              value={form.description}
-              onChange={(e) => setForm({ ...form, description: e.target.value })}
-              rows={6}
-              placeholder="Testo visibile nel profilo catalogo, nella vetrina homepage e nelle pagine SEO /hotel/…"
-              className={`${inputClass} resize-y`}
-            />
-            <span className="mt-1 block text-xs font-normal text-zinc-500">
-              Per le strutture senza account partner: compare nel profilo pubblico finché non rivendicano il profilo.
-            </span>
-          </label>
-          <label className="block text-sm font-medium">
-            Città
-            <input value={form.city_name} onChange={(e) => setForm({ ...form, city_name: e.target.value })} required className={inputClass} />
-          </label>
-          <label className="block text-sm font-medium">
-            Stato catalogo
-            <select value={form.status} onChange={(e) => setForm({ ...form, status: e.target.value })} className={inputClass}>
-              <option value="unclaimed">unclaimed</option>
-              <option value="pending_verification">pending_verification</option>
-              <option value="claimed">claimed</option>
-            </select>
-          </label>
-          <label className="block text-sm font-medium">
-            Telefono (verifica rivendica)
-            <input
-              value={form.phone}
-              onChange={(e) => setForm({ ...form, phone: e.target.value })}
-              placeholder="+39 334 1234567"
-              className={inputClass}
-            />
-          </label>
-          <label className="block text-sm font-medium">
-            Email pubblica
-            <input
-              type="email"
-              value={form.email}
-              onChange={(e) => setForm({ ...form, email: e.target.value })}
-              className={inputClass}
-            />
-          </label>
-          <label className="block text-sm font-medium">
-            Sito web
-            <input value={form.website} onChange={(e) => setForm({ ...form, website: e.target.value })} className={inputClass} />
-          </label>
-          <label className="block text-sm font-medium">
-            Google Maps URL
-            <input
-              value={form.google_maps_url}
-              onChange={(e) => setForm({ ...form, google_maps_url: e.target.value })}
-              className={inputClass}
-            />
-          </label>
-        </div>
-
-        <div className="mt-4 rounded-xl bg-zinc-50 px-4 py-3 text-xs text-zinc-600">
-          <p>Place ID Google: {hotel.place_id}</p>
-          <p className="mt-1 break-all">ID catalogo: {hotel.id}</p>
-          {hotel.claimed_by ? <p className="mt-1 break-all">Claimed by: {hotel.claimed_by}</p> : null}
-        </div>
-
-        <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-          <button
-            type="submit"
-            disabled={saving}
-            className="inline-flex items-center justify-center rounded-xl bg-[#0f4c81] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#0d3f68] disabled:opacity-50"
-          >
-            {saving ? "Salvataggio..." : "Salva modifiche"}
-          </button>
-          <button
-            type="button"
-            disabled={calling || !form.phone.trim()}
-            onClick={() => void triggerVerifyCall()}
-            className="inline-flex items-center justify-center rounded-xl border border-[#0f4c81] bg-[#e8f0f8] px-5 py-3 text-sm font-semibold text-[#0f4c81] transition hover:bg-[#d8e6f2] disabled:opacity-50"
-          >
-            {calling ? "Chiamata..." : "Invia chiamata Twilio"}
-          </button>
-          <button
-            type="button"
-            disabled={resettingClaim}
-            onClick={() => void resetClaim()}
-            className="inline-flex items-center justify-center rounded-xl border border-amber-300 bg-amber-50 px-5 py-3 text-sm font-semibold text-amber-900 transition hover:bg-amber-100 disabled:opacity-50"
-          >
-            {resettingClaim ? "Reset..." : "Ripristina rivendica"}
-          </button>
-          <Link
-            href={`/hotel/onboarding/${hotel.id}`}
-            className="inline-flex items-center justify-center rounded-xl border border-zinc-300 px-5 py-3 text-sm font-semibold text-zinc-700 transition hover:bg-zinc-50"
-          >
-            Vedi profilo pubblico
-          </Link>
-          <DeleteButton entity="onboarding" id={hotel.id} label="Elimina dal catalogo" />
-        </div>
-      </form>
     </div>
   );
 }

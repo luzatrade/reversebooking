@@ -32,8 +32,9 @@ export default async function ConsoleOnboardingEditPage({
       </Link>
       <ConsolePageHeader
         title={hotel.nome}
-        description="Modifica catalogo, crea account partner o entra nella dashboard struttura."
+        description="Modifica catalogo, descrizione pubblica, foto e contatti. Più sotto puoi creare l'account partner."
       />
+      <OnboardingHotelEditor hotel={hotel} linkedAccount={partner.linkedAccount} />
       <OnboardingPartnerPanel
         onboardingId={hotel.id}
         hotelName={hotel.nome}
@@ -42,7 +43,6 @@ export default async function ConsoleOnboardingEditPage({
         profileEmail={partner.profileEmail}
         linkedAccount={partner.linkedAccount}
       />
-      <OnboardingHotelEditor hotel={hotel} linkedAccount={partner.linkedAccount} />
     </>
   );
 }
