@@ -1,10 +1,7 @@
-import Link from "next/link";
-import { CityHeroPlaceholder } from "@/components/seo/CityHeroPlaceholder";
+import { DestinationCard } from "@/components/seo/DestinationCard";
 import { SeoBreadcrumb } from "@/components/seo/SeoBreadcrumb";
-import { SeoImage } from "@/components/seo/SeoImage";
 import { getServerLocale } from "@/lib/i18n/get-translations";
-import { destinationPublicPath, homePath, localizedPath } from "@/lib/i18n/routing";
-import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
+import { homePath, localizedPath } from "@/lib/i18n/routing";
 import type { DestinationHub } from "@/lib/seo/destination-queries";
 
 type Props = {
@@ -41,37 +38,11 @@ export async function DestinationsIndexPage({ destinations }: Props) {
             {country}
           </h2>
           <ul className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-            {items.map((destination) => {
-              const image = getDestinationCityPhoto(destination);
-              const label =
-                locale === "en" ? englishDisplayName(destination.displayName, destination.cityId) : destination.displayName;
-              return (
-                <li key={destination.slug}>
-                  <Link
-                    href={destinationPublicPath(destination.slug, locale)}
-                    className="group block overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50 transition hover:border-[#0f4c81]/30 hover:shadow-sm"
-                  >
-                    {image ? (
-                      <SeoImage
-                        src={image}
-                        alt={label}
-                        className="h-28 w-full object-cover transition group-hover:scale-[1.02]"
-                      />
-                    ) : (
-                      <CityHeroPlaceholder cityName={label} />
-                    )}
-                    <div className="p-3">
-                      <p className="font-semibold text-zinc-950">{label}</p>
-                      <p className="mt-1 text-xs text-zinc-500">
-                        {locale === "en"
-                          ? `${destination.structureCount} properties`
-                          : `${destination.structureCount} strutture`}
-                      </p>
-                    </div>
-                  </Link>
-                </li>
-              );
-            })}
+            {items.map((destination) => (
+              <li key={destination.slug}>
+                <DestinationCard destination={destination} locale={locale} />
+              </li>
+            ))}
           </ul>
         </section>
       ))}
@@ -96,23 +67,8 @@ function countryLabel(code: string | null, locale: "it" | "en") {
   if (code === "GB") return locale === "en" ? "United Kingdom" : "Regno Unito";
   if (code === "DE") return locale === "en" ? "Germany" : "Germania";
   if (code === "ES") return locale === "en" ? "Spain" : "Spagna";
+  if (code === "CA") return locale === "en" ? "Canada" : "Canada";
   return locale === "en" ? "Worldwide" : "Mondo";
-}
-
-function englishDisplayName(displayName: string, cityId: string | null) {
-  const map: Record<string, string> = {
-    "IT-ROM": "Rome",
-    "IT-MIL": "Milan",
-    "IT-NAP": "Naples",
-    "IT-FLR": "Florence",
-    "IT-VCE": "Venice",
-    "FR-PAR": "Paris",
-    "GB-LON": "London",
-    "DE-BER": "Berlin",
-    "ES-MAD": "Madrid",
-  };
-  if (cityId && map[cityId]) return map[cityId];
-  return displayName;
 }
 
 export function destinationsIndexMetadata(locale: "it" | "en") {
