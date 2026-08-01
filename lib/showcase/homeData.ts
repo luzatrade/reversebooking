@@ -28,9 +28,8 @@ const PUBLIC_ONBOARDING_STATUS_SET = new Set<string>([
 const REGISTERED_SELECT =
   "id, slug, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, latitude, longitude, onboarding_hotel_id";
 
-/** Senza `description`: compatibile anche se la migration non è ancora applicata su Supabase. */
 const ONBOARDING_SELECT =
-  "id, slug, nome, city_name, indirizzo, email, phone, main_photo_url, lat, lng, status";
+  "id, slug, nome, city_name, indirizzo, description, email, phone, main_photo_url, lat, lng, status";
 
 export type ShowcaseHomeHotel = {
   id: string;

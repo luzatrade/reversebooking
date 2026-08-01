@@ -12,6 +12,7 @@ type OnboardingHotel = {
   nome: string;
   indirizzo: string | null;
   city_name: string;
+  description: string | null;
   email: string | null;
   phone: string | null;
   website: string | null;
@@ -48,6 +49,7 @@ export function OnboardingHotelEditor({
     nome: hotel.nome,
     indirizzo: hotel.indirizzo ?? "",
     city_name: hotel.city_name,
+    description: hotel.description ?? "",
     email: hotel.email ?? "",
     phone: hotel.phone ?? "",
     website: hotel.website ?? "",
@@ -173,6 +175,7 @@ export function OnboardingHotelEditor({
           nome: form.nome,
           indirizzo: form.indirizzo || null,
           city_name: form.city_name,
+          description: form.description.trim() || null,
           email: form.email || null,
           phone: form.phone || null,
           website: form.website || null,
@@ -375,6 +378,19 @@ export function OnboardingHotelEditor({
           <label className="block text-sm font-medium md:col-span-2">
             Indirizzo
             <input value={form.indirizzo} onChange={(e) => setForm({ ...form, indirizzo: e.target.value })} className={inputClass} />
+          </label>
+          <label className="block text-sm font-medium md:col-span-2">
+            Descrizione pubblica
+            <textarea
+              value={form.description}
+              onChange={(e) => setForm({ ...form, description: e.target.value })}
+              rows={6}
+              placeholder="Testo visibile nel profilo catalogo, nella vetrina homepage e nelle pagine SEO /hotel/…"
+              className={`${inputClass} resize-y`}
+            />
+            <span className="mt-1 block text-xs font-normal text-zinc-500">
+              Per le strutture senza account partner: compare nel profilo pubblico finché non rivendicano il profilo.
+            </span>
           </label>
           <label className="block text-sm font-medium">
             Città
