@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Le Sirenuse",
+    "city": "Positano",
+    "country": "Italy",
+    "address": "Via Cristoforo Colombo 30, 84017 Positano (SA), Italia",
+    "phone": "+39 089 875066",
+    "email": "info@sirenuse.it",
+    "website": "https://www.sirenuse.it",
+    "latitude": 40.6288,
+    "longitude": 14.4851,
+    "slug": "le-sirenuse-positano",
+    "description": "Arroccato sulle ripide scogliere di Positano, Le Sirenuse è un boutique hotel 5 stelle a conduzione familiare che incarna la quintessenza dell'ospitalità e del fascino della Costiera Amalfitana. Nato nel 1951 dalla trasformazione della dimora estiva della famiglia Sersale, la struttura conserva un'atmosfera intima, aristocratica ed edonistica. Gli interni si distinguono per i pavimenti in maiolica dipinti a mano, le collezioni d'arte antica e contemporanea e le terrazze fiorite di bouganville sospese sul blu del Tirreno. L'hotel offre un'esperienza gastronomica di livello internazionale, la rinomata SPA progettata da Gae Aulenti e una piscina panoramica da cui ammirare il suggestivo borgo verticale di Positano.",
+    "description_en": "Perched high on the dramatic cliffs of Positano, Le Sirenuse is a family-owned 5-star luxury boutique hotel that embodies the true soul of the Amalfi Coast. Opened in 1951 when the Sersale family transformed their summer home into a hotel, it offers an intimate, aristocratic atmosphere filled with hand-painted majolica tiles, curated fine art, and bougainvillea-covered balconies overlooking the Mediterranean Sea. The property features Michelin-level cuisine, an iconic champagne bar, a panoramic pool terrace, and a signature wellness SPA designed by Gae Aulenti, making it a premier haven for discerning international travelers."
+  },
+  {
+    "name": "Four Seasons Hotel Firenze",
+    "city": "Firenze",
+    "country": "Italy",
+    "address": "Borgo Pinti 99, 50121 Firenze (FI), Italia",
+    "phone": "+39 055 26261",
+    "email": "florence@fourseasons.com",
+    "website": "https://www.fourseasons.com/florence",
+    "latitude": 43.7766,
+    "longitude": 11.2647,
+    "slug": "four-seasons-hotel-firenze",
+    "description": "Il Four Seasons Hotel Firenze è uno straordinario resort urbano situato all'interno del trecentesco Palazzo della Gherardesca e di un ex convento del XVI secolo. Immerso nel Giardino della Gherardesca — un parco botanico privato di 4,5 ettari nel cuore di Firenze —, l'hotel rappresenta un perfetto connubio tra storia rinascimentale e lusso moderno. Le camere e suite sono vere e proprie opere d'arte impreziosite da affreschi d'epoca, bassorilievi e soffitti a cassettoni. Tra i servizi esclusivi figurano il ristorante stellato Il Palagio, una SPA su due livelli con piscina riscaldata all'aperto e ambienti monumentali unici per eventi privati indimenticabili.",
+    "description_en": "Four Seasons Hotel Florence is an exceptional urban luxury sanctuary set within the historic Palazzo della Gherardesca and a restored 16th-century convent. Enclosed by the 4.5-hectare private Gherardesca Botanical Garden, the property seamlessly blends Renaissance grandeur with contemporary world-class hospitality. Accommodations feature museum-quality original frescoes, relief sculptures, and vaulted ceilings paired with modern luxury standards. Guests enjoy the Michelin-starred Il Palagio restaurant, a lavish multi-level spa sanctuary, an outdoor heated pool, and majestic historic venues in central Florence."
+  },
+  {
+    "name": "Hotel Hassler Roma",
+    "city": "Roma",
+    "country": "Italy",
+    "address": "Piazza Trinità dei Monti 6, 00187 Roma (RM), Italia",
+    "phone": "+39 06 699341",
+    "email": "info@hotelhassler.it",
+    "website": "https://www.hotelhassler.com",
+    "latitude": 41.9057,
+    "longitude": 12.4831,
+    "slug": "hotel-hassler-roma",
+    "description": "Situato in una posizione dominante in cima alla Scalinata di Trinità dei Monti, l'Hotel Hassler è la leggendaria dimora del lusso indipendente a Roma. Da oltre un secolo di proprietà della famiglia Wirth, questo iconico 5 stelle lusso è stato scelto da regnanti, capi di stato e star del cinema mondiale. Le sue camere e suite combinano arredi in stile classico, marmi pregiati e dettagli tecnologici all'avanguardia. Il fiore all'occhiello della struttura è il ristorante panoramico Imàgo, premiato con la stella Michelin, che regala una vista mozzafiato a 360 gradi sui tetti e sulle cupole della Città Eterna, affiancato da un'esclusiva SPA e dal tranquillo giardino interno.",
+    "description_en": "Perched proudly atop the legendary Spanish Steps, Hotel Hassler is an undisputed landmark of independent luxury hospitality in Rome. Owned and managed by the Wirth family for generations, this iconic 5-star luxury hotel has welcomed world royalty, diplomats, and international celebrities for over a century. Rooms and suites boast timeless classic elegance, rich fabrics, marble bathrooms, and modern comforts. Highlights include the Michelin-starred Imàgo restaurant on the top floor, offering 360-degree panoramic views over Rome's rooftops and monuments, alongside an intimate wellness retreat and a lush courtyard garden."
+  },
+  {
+    "name": "San Domenico Palace, Taormina",
+    "city": "Taormina",
+    "country": "Italy",
+    "address": "Via San Domenico 5, 98039 Taormina (ME), Italia",
+    "phone": "+39 0942 613111",
+    "email": "taormina@fourseasons.com",
+    "website": "https://www.fourseasons.com/taormina",
+    "latitude": 37.8502,
+    "longitude": 15.2831,
+    "slug": "san-domenico-palace-taormina",
+    "description": "Il San Domenico Palace di Taormina, gestito dal gruppo Four Seasons, è un leggendario ex convento domenicano del XIV secolo arroccato su una scogliera a picco sul Mar Jonio. La struttura regala scenari mozzafiato con vista diretta sul vulcano Etna e sulla baia sottostante, combinando la maestosità dei suoi chiostri storici e giardini all'italiana con un design d'interni contemporaneo di eccezionale raffinatezza. Tra i servizi di punta spiccano una spettacolare piscina a sfioro a picco sulla scogliera, la cucina d'autore del ristorante Principe Cerami e un servizio personalizzato di livello mondiale, per un soggiorno indimenticabile nel cuore della Sicilia.",
+    "description_en": "San Domenico Palace in Taormina, A Four Seasons Hotel, is a legendary 14th-century Dominican convent dramatically perched on a rocky promontory overlooking the Ionian Sea. The property offers peerless vistas of Mount Etna and the Sicilian coastline, harmoniously blending historic cloistered architecture and Italian gardens with sleek, modern luxury aesthetics. Key signature amenities include a spectacular cliffside infinity pool, high gastronomy at the Michelin-starred Principe Cerami restaurant, and Four Seasons' signature world-class service, making it one of the most iconic luxury retreats in the Mediterranean."
+  }
+]
