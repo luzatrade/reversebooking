@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Villa d'Este",
+    "city": "Cernobbio",
+    "country": "Italy",
+    "address": "Via Regina 40, 22012 Cernobbio (CO), Italia",
+    "phone": "+39 031 3481",
+    "email": "info@villadeste.com",
+    "website": "https://www.villadeste.com",
+    "latitude": 45.8426,
+    "longitude": 9.0734,
+    "slug": "villa-d-este-cernobbio",
+    "description": "Villa d'Este è un'icona senza tempo del lusso sul Lago di Como, ospitata in una residenza rinascimentale del XVI secolo circondata da un parco storico di 10 ettari. Affacciata sulle rive di Cernobbio, la struttura unisce eleganza aristocratica, giardini all'italiana e il celebre Floating Pool, unica piscina galleggiante sulle acque del lago. Le camere e le suite, arredate con mobili d'epoca e tessuti pregiati, regalano viste spettacolari sul bacino lariano e sulle Prealpi. Ristoranti raffinati, un centro benessere di alto livello e un servizio sartoriale consolidato da oltre un secolo rendono Villa d'Este una destinazione irrinunciabile per chi cerca esclusività, charme e autentica tradizione italiana.",
+    "description_en": "Villa d'Este is a timeless icon of Lake Como luxury, set within a 16th-century Renaissance villa surrounded by 25 acres of historic parkland in Cernobbio. Overlooking the lake's western shore, the property blends aristocratic elegance, Italian gardens, and the legendary Floating Pool — the only pool floating directly on the lake's waters. Rooms and suites feature antique furnishings and fine fabrics with spectacular views across the lake and Alpine foothills. Refined dining, a world-class wellness centre, and bespoke service honed over more than a century make Villa d'Este an essential destination for exclusivity, charm, and authentic Italian grandeur."
+  },
+  {
+    "name": "Belmond Hotel Caruso",
+    "city": "Ravello",
+    "country": "Italy",
+    "address": "Piazza San Giovanni del Toro 2, 84010 Ravello (SA), Italia",
+    "phone": "+39 089 858801",
+    "email": "caruso@belmond.com",
+    "website": "https://www.belmond.com/hotels/europe/italy/amalfi-coast/belmond-hotel-caruso",
+    "latitude": 40.6492,
+    "longitude": 14.6126,
+    "slug": "belmond-hotel-caruso-ravello",
+    "description": "Belmond Hotel Caruso sorge su una scogliera a picco sopra Ravello, nel cuore della Costiera Amalfitana, all'interno di un palazzo nobiliare dell'XI secolo restaurato con maestria. La sua infinity pool sospesa a 350 metri sul livello del mare è tra le più fotografate al mondo, affacciandosi su un panorama che abbraccia il Golfo di Salerno e le terrese colline campane. Camere e suite, decorate con affreschi originali, maioliche antiche e arredi d'epoca, si aprono su terrazze fiorite di bouganville e limoni. Cucina mediterranea d'autore, giardini secolari e un'atmosfera di raffinata quiete fanno di questo hotel una delle esperienze più esclusive della costa amalfitana.",
+    "description_en": "Belmond Hotel Caruso crowns a cliffside perch above Ravello on the Amalfi Coast, housed in a magnificently restored 11th-century palazzo. Its legendary infinity pool, floating 350 metres above the Tyrrhenian Sea, is among the world's most celebrated, framing sweeping views of the Gulf of Salerno and Campania's terraced hills. Rooms and suites adorned with original frescoes, antique ceramics, and period furnishings open onto bougainvillea-draped terraces scented with lemon groves. Fine Mediterranean cuisine, centuries-old gardens, and an atmosphere of refined tranquillity make this one of the Amalfi Coast's most exclusive luxury retreats."
+  },
+  {
+    "name": "Grand Hotel Quisisana",
+    "city": "Capri",
+    "country": "Italy",
+    "address": "Via Tommaso de Tommaso 1, 80073 Capri (NA), Italia",
+    "phone": "+39 081 8370761",
+    "email": "info@quisisana.com",
+    "website": "https://www.quisisana.com",
+    "latitude": 40.5502,
+    "longitude": 14.2425,
+    "slug": "grand-hotel-quisisana-capri",
+    "description": "Il Grand Hotel Quisisana è il grande albergo storico di Capri, fondato nel 1845 e da sempre meta prediletta di regnanti, artisti e viaggiatori cosmopoliti. Immerso in un parco secolare nel cuore dell'isola, offre un'atmosfera di eleganza classica con camere luminose, suite raffinate e il celebre ristorante La Colombaia. La piscina all'aperto, il centro benessere Quisisana Beauty Farm e la posizione a pochi passi dalla Piazzetta ne fanno un rifugio di lusso dove il glamour caprese incontra un'ospitalità impeccabile e senza tempo.",
+    "description_en": "Grand Hotel Quisisana is Capri's legendary grande dame, founded in 1845 and long favoured by royalty, artists, and cosmopolitan travellers. Set within a historic park in the heart of the island, it offers timeless classical elegance with bright rooms, refined suites, and the celebrated La Colombaia restaurant. An outdoor pool, the Quisisana Beauty Farm wellness centre, and a location steps from the Piazzetta make it a luxury sanctuary where Caprese glamour meets impeccable, enduring hospitality."
+  },
+  {
+    "name": "Hotel Danieli",
+    "city": "Venezia",
+    "country": "Italy",
+    "address": "Riva degli Schiavoni 4196, 30122 Venezia (VE), Italia",
+    "phone": "+39 041 5226480",
+    "email": "info.venice@luxurycollection.com",
+    "website": "https://www.marriott.com/en-us/hotels/vcexn-hotel-danieli-venice/overview",
+    "latitude": 45.4338,
+    "longitude": 12.3422,
+    "slug": "hotel-danieli-venezia",
+    "description": "Hotel Danieli è un palazzo gotico veneziano del XV secolo trasformato in uno degli hotel più iconici al mondo, affacciato su Riva degli Schiavoni con vista sulla Laguna e sull'isola di San Giorgio. Tre edifici storici collegati ospitano camere e suite sontuose con affreschi, marmi pregiati, damasco e lampadari di Murano, tra cui la leggendaria Doge Dandolo Royal Suite. Il ristorante Terrazza Danieli, premiato con stella Michelin, regala una delle panoramiche più spettacolari di Venezia. Un simbolo di romanticismo, storia e lusso nel cuore della Serenissima.",
+    "description_en": "Hotel Danieli is a 15th-century Venetian Gothic palazzo transformed into one of the world's most iconic hotels, set on Riva degli Schiavoni with views across the Lagoon to San Giorgio Maggiore. Three interconnected historic buildings house sumptuous rooms and suites with frescoes, precious marbles, damask fabrics, and Murano chandeliers — including the legendary Doge Dandolo Royal Suite. The Michelin-starred Terrazza Danieli restaurant offers one of Venice's most spectacular dining panoramas. A symbol of romance, history, and luxury in the heart of La Serenissima."
+  },
+  {
+    "name": "Borgo Egnazia",
+    "city": "Savelletri di Fasano",
+    "country": "Italy",
+    "address": "Strada Comunale Egnazia, 72015 Savelletri di Fasano (BR), Italia",
+    "phone": "+39 080 2255000",
+    "email": "info@borgoegnazia.com",
+    "website": "https://www.borgoegnazia.com",
+    "latitude": 40.8747,
+    "longitude": 17.396,
+    "slug": "borgo-egnazia-fasano",
+    "description": "Borgo Egnazia è un resort di lusso in Puglia che reinterpreta l'architettura di un autentico borgo mediterraneo, con cortili in pietra locale, piazzette, giardini di ulivi e ville private immerse nel paesaggio delle Murge. Le camere, le suite e le residenze Ville sono arredate con materiali naturali della tradizione salentina, tra pietra leccese, legno e ceramiche artigianali. Il campo da golf San Domenico, la spiaggia privata sul mare Adriatico, la Vair Spa e i ristoranti guidati da chef stellati — tra cui Due Camini — offrono un'esperienza di ospitalità contemporanea radicata nella cultura e nei sapori del Sud Italia.",
+    "description_en": "Borgo Egnazia is a luxury resort in Puglia that reimagines the architecture of an authentic Mediterranean village, with local stone courtyards, village squares, olive groves, and private villas set within the Murge landscape. Rooms, suites, and Ville residences are appointed with natural Salento materials — Lecce stone, wood, and handcrafted ceramics. The San Domenico golf course, a private Adriatic beach, the Vair Spa, and restaurants led by starred chefs — including Due Camini — deliver contemporary hospitality deeply rooted in Southern Italy's culture and flavours."
+  }
+]
