@@ -1,0 +1,72 @@
+[
+  {
+    "name": "QC Termeroma Spa and Resort",
+    "city": "Fiumicino",
+    "country": "Italy",
+    "address": "Via Portuense 2178, 00054 Fiumicino (RM), Italia",
+    "phone": "+39 06 6529444",
+    "email": "info@qctermeroma.it",
+    "website": "https://www.qctermeroma.it",
+    "latitude": 41.7820,
+    "longitude": 12.2612,
+    "slug": "qc-termeroma-fiumicino",
+    "description": "QC Termeroma Spa and Resort è un'oasi di pace e benessere situata nel cuore della riserva naturale di Oasi di Porto, a pochi minuti da Roma e dall'aeroporto di Fiumicino. Nata dalla sapiente ristrutturazione di antichi casali romani del XIX secolo, la struttura vanta una maestosa SPA termale all'aperto con vasche idromassaggio, cascate, saune e percorsi sensoriali ispirati alla grande tradizione termale dell'antica Roma. Il resort offre camere ed eleganti suite immerse nel verde di un parco secolare, un ristorante dedicato alla valorizzazione della gastronomia del territorio e ampi giardini curati dove ritrovare il perfetto equilibrio tra corpo e mente. È la scelta ideale per una fuga di puro relax a breve distanza dalla Capitale.",
+    "description_en": "QC Termeroma Spa and Resort is a sanctuary of tranquility set within the pristine Oasi di Porto nature reserve, located just minutes from Rome and Fiumicino Airport. Painstakingly restored from 19th-century Roman country estates, the property features a magnificent outdoor thermal SPA with hydro-massage pools, waterfalls, saunas, and sensory wellness circuits inspired by ancient Roman bath traditions. The resort offers elegant rooms and suites surrounded by lush private gardens, a refined restaurant showcasing regional flavors, and expansive grounds designed for total relaxation. It serves as the ultimate high-end wellness retreat within easy reach of the Capital."
+  },
+  {
+    "name": "Lefay Resort & SPA Dolomiti",
+    "city": "Pinzolo",
+    "country": "Italy",
+    "address": "Via S. Antonio 2, 38086 Pinzolo (TN), Italia",
+    "phone": "+39 0465 941150",
+    "email": "reserva.dolomiti@lefayresorts.com",
+    "website": "https://www.lefayresorts.com/en/resorts-spa/lefay-resort-spa-dolomiti",
+    "latitude": 46.1585,
+    "longitude": 10.7675,
+    "slug": "lefay-resort-spa-dolomiti-pinzolo",
+    "description": "Incastonato tra le imponenti vette delle Dolomiti di Brenta a Pinzolo, il Lefay Resort & SPA Dolomiti è un capolavoro di architettura eco-sostenibile e lusso alpino moderno. La struttura vanta uno dei centri benessere più estesi dell'intero arco alpino (oltre 5.000 metri quadrati), integrando percorsi di salute e trattamenti benessere basati sul metodo scientifico Lefay SPA Method, piscine interne ed esterne riscaldate e varie saune tematiche. Le suite, realizzate con materiali naturali e legni locali come abete e larice, offrono ampie vetrate panoramiche affacciate sulle montagne. Completa l'esperienza un'eccezionale proposta gastronomica biologica e a chilometro zero nei ristoranti interni della struttura.",
+    "description_en": "Nestled amid the majestic peaks of the Brenta Dolomites in Pinzolo, Lefay Resort & SPA Dolomiti stands as a benchmark for eco-sustainable architecture and contemporary alpine luxury. The resort features one of the largest wellness sanctuaries in the Alps (spanning over 5,000 sqm), combining health circuits based on the proprietary Lefay SPA Method with indoor and outdoor heated pools and thematic saunas. Suites are crafted with local natural woods like fir and larch alongside organic fabrics, framing panoramic mountain vistas through floor-to-ceiling windows. Fine dining celebrating local organic ingredients rounds out a world-class mountain wellness experience."
+  },
+  {
+    "name": "Rosewood Castiglion del Bosco",
+    "city": "Montalcino",
+    "country": "Italy",
+    "address": "Località Castiglion del Bosco, 53024 Montalcino (SI), Italia",
+    "phone": "+39 0577 1913001",
+    "email": "cdelbosco@rosewoodhotels.com",
+    "website": "https://www.rosewoodhotels.com/en/castiglion-del-bosco",
+    "latitude": 43.0847,
+    "longitude": 11.3853,
+    "slug": "rosewood-castiglion-del-bosco-montalcino",
+    "description": "Situato nel cuore del parco della Val d'Orcia, patrimonio mondiale UNESCO, Rosewood Castiglion del Bosco è un'esclusiva tenuta secolare di 2.000 ettari che racchiude la storia e il fascino della campagna toscana. Il borgo medievale finemente restaurato ospita suite raffinate e maestose ville private ricavate da antichi casali, dotate di piscine riscaldate riservate e ampi giardini. Tra le esperienze offerte spiccano l'unico campo da golf privato a 18 buche d'Italia, una rinomata cantina produttrice di Brunello di Montalcino, una SPA olistica e due ristoranti d'alta cucina che valorizzano gli ingredienti freschi dell'orto biologico della tenuta.",
+    "description_en": "Located in the heart of the UNESCO-protected Val d'Orcia, Rosewood Castiglion del Bosco is a magnificent 800-year-old estate spanning 2,000 hectares, celebrating Tuscan culture and heritage. The meticulously restored historic village features exquisitely crafted suites and private luxury villas converted from rustic farmhouses, complete with heated private pools and landscaped gardens. Unique guest offerings include Italy's only private 18-hole golf club, an active winery producing premier Brunello di Montalcino, a holistic SPA sanctuary, and two exceptional restaurants driven by produce from the estate's organic garden."
+  },
+  {
+    "name": "Belmond Hotel Cipriani",
+    "city": "Venezia",
+    "country": "Italy",
+    "address": "Giudecca 10, 30133 Venezia (VE), Italia",
+    "phone": "+39 041 240801",
+    "email": "info.cip@belmond.com",
+    "website": "https://www.belmond.com/hotels/europe/italy/venice/cipriani",
+    "latitude": 45.4262,
+    "longitude": 12.3392,
+    "slug": "belmond-hotel-cipriani-venezia",
+    "description": "Situato sulla punta dell'isola della Giudecca, a soli cinque minuti di barca privata da Piazza San Marco, il Belmond Hotel Cipriani è l'emblema del lusso glamour veneziano. Immerso in giardini rigogliosi con vigne e fiori secolari, l'hotel offre camere e suite eleganti arredate con pregiati tessuti veneziani, lampadari in vetro di Murano e terrazze panoramiche affacciate sulla Laguna. La struttura vanta l'unica piscina olimpionica d'acqua di mare riscaldata del centro di Venezia, il ristorante stellato Oro, una SPA esclusiva e un molo privato che garantisce riservatezza assoluta a un'élite di ospiti internazionali.",
+    "description_en": "Set on the tip of Giudecca Island, just five minutes by private launch from St. Mark's Square, Belmond Hotel Cipriani is the ultimate symbol of Venetian glamour and hospitality. Surrounded by historic lush gardens and private vineyards, the hotel features rooms and suites adorned with Venetian silks, Murano glass, and balconies overlooking the lagoon. Key features include Venice's only heated Olympic-sized saltwater pool, the Michelin-starred Oro restaurant, a luxury wellness sanctuary, and a private pier ensuring top-tier privacy for discerning global travelers."
+  },
+  {
+    "name": "Hotel Cala di Volpe",
+    "city": "Arzachena",
+    "country": "Italy",
+    "address": "Costa Smeralda, 07021 Arzachena (SS), Italia",
+    "phone": "+39 0789 976111",
+    "email": "caladivolpe@luxurycollection.com",
+    "website": "https://www.marriott.com/en-us/hotels/olbcl-hotel-cala-di-volpe-a-luxury-collection-hotel-costa-smeralda/overview/",
+    "latitude": 41.0935,
+    "longitude": 9.5393,
+    "slug": "hotel-cala-di-volpe-arzachena",
+    "description": "Progettato dall'architetto Jacques Couëlle come un borgo di pescatori scultoreo, l'Hotel Cala di Volpe è un'icona leggendaria del lusso nella Costa Smeralda in Sardegna. Affacciato sulle acque turchesi di una baia riparata, il resort unisce finiture artigianali in stucco e terracotta a suite di straordinaria magnificenza, tra cui la celebre Harrods Suite dotata di piscina privata sul tetto. Tra i servizi esclusivi vi sono un'imponente piscina di acqua di mare riscaldata, una spiaggia privata di sabbia bianca raggiungibile con navetta nautica, impianti sportivi all'avanguardia e una proposta gastronomica firmata da brand rinomati a livello internazionale.",
+    "description_en": "Designed by architect Jacques Couëlle to resemble a sculpted fishing village, Hotel Cala di Volpe is a legendary luxury landmark on Sardinia's Costa Smeralda. Overlooking a sparkling turquoise bay, the resort pairs handcrafted plasterwork and terracotta details with extraordinary luxury suites, including the famous Harrods Suite featuring a private rooftop pool. Signature highlights include a massive saltwater pool, a private white-sand beach accessed by private boat launch, state-of-the-art sports facilities, and high-end dining options ranging from authentic Sardinian cuisine to world-renowned culinary brands."
+  }
+]
