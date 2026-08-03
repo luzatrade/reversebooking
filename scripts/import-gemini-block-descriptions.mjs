@@ -24,7 +24,10 @@ function parseArgs() {
     console.error("Servono --file path/to/updates.json");
     process.exit(1);
   }
-  return resolve(process.cwd(), process.argv[i + 1]);
+  return {
+    file: resolve(process.cwd(), process.argv[i + 1]),
+    withContacts: process.argv.includes("--with-contacts"),
+  };
 }
 
 async function resolveCityIstat(cityName) {
@@ -39,7 +42,7 @@ async function resolveCanonicalCityName(cityName) {
   return data?.nome ?? cityName;
 }
 
-async function updateHotel(hotel) {
+async function updateHotel(hotel, { withContacts }) {
   const { data: row, error: fetchErr } = await sb
     .from("onboarding_hotels")
     .select("id, nome, city_name, indirizzo, slug, status, main_photo_url, description, description_en")
@@ -59,9 +62,11 @@ async function updateHotel(hotel) {
     description: hotel.description,
     description_en: hotel.description_en,
     indirizzo: hotel.indirizzo ?? row.indirizzo,
-    phone: hotel.phone ?? undefined,
-    email: hotel.email ?? undefined,
   };
+  if (withContacts) {
+    if (hotel.phone) patch.phone = hotel.phone;
+    if (hotel.email) patch.email = hotel.email;
+  }
   if (cityName) patch.city_name = cityName;
   if (cityIstat) patch.city_istat = cityIstat;
 
@@ -80,16 +85,20 @@ async function updateHotel(hotel) {
 }
 
 async function main() {
-  const file = parseArgs();
+  const { file, withContacts } = parseArgs();
   const hotels = JSON.parse(readFileSync(file, "utf8"));
-  console.log(`Import Gemini descriptions: ${hotels.length} hotel da ${file}\n`);
+  console.log(
+    `Import Gemini descriptions: ${hotels.length} hotel da ${file}` +
+      (withContacts ? " (con contatti)" : " (solo descrizioni + indirizzo)") +
+      "\n"
+  );
 
   let ok = 0;
   let skip = 0;
   for (const [i, hotel] of hotels.entries()) {
     console.log(`[${i + 1}/${hotels.length}] ${hotel.slug}`);
     try {
-      const row = await updateHotel(hotel);
+      const row = await updateHotel(hotel, { withContacts });
       if (!row) {
         skip++;
         continue;
