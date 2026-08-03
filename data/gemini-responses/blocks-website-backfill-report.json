@@ -6,83 +6,112 @@
     3
   ],
   "total": 150,
-  "emailUpdated": 63,
+  "emailUpdated": 66,
   "phoneFilled": 0,
   "skippedNoWebsite": 38,
-  "premierImported": 15,
-  "errors": [
-    {
-      "slug": "due-torri-hotel-verona",
-      "error": "Download foto fallito (404)"
-    }
-  ],
+  "premierImported": 0,
+  "errors": [],
   "details": [
     {
       "slug": "rome-cavalieri-a-waldorf-astoria-hotel-roma",
-      "action": "premier_import",
+      "action": "no_new_data",
+      "website": "https://www.hilton.com/en/hotels/romhiwa-rome-cavalieri/",
       "email": null,
-      "phone": null
+      "phone": null,
+      "patch": {}
     },
     {
       "slug": "bulgari-hotel-milano-milano",
-      "action": "premier_import",
+      "action": "no_new_data",
+      "website": "https://www.bulgarihotels.com/en_US/milan",
       "email": null,
-      "phone": "+39 028058051"
+      "phone": "+39 028 058051",
+      "patch": {}
     },
     {
       "slug": "hotel-brunelleschi-firenze",
-      "action": "premier_import",
+      "action": "updated",
+      "website": "https://www.hotelbrunelleschi.it/",
       "email": "info@hotelbrunelleschi.it",
-      "phone": "+39 05527370"
+      "phone": "+39 05527370",
+      "patch": {
+        "email": "info@hotelbrunelleschi.it",
+        "seo_indexable": true
+      }
     },
     {
       "slug": "the-gritti-palace-venezia",
-      "action": "premier_import",
+      "action": "no_new_data",
+      "website": "https://www.marriott.com/en-us/hotels/vcegk-the-gritti-palace-a-luxury-collection-hotel-venice/",
       "email": null,
-      "phone": null
+      "phone": null,
+      "patch": {}
     },
     {
       "slug": "bauer-palazzo-venezia",
-      "action": "premier_import",
+      "action": "no_new_data",
+      "website": "https://www.bauerpalazzo.it/en/",
       "email": null,
-      "phone": null
+      "phone": null,
+      "patch": {}
     },
     {
       "slug": "grand-hotel-vesuvio-napoli",
-      "action": "premier_import",
+      "action": "updated",
+      "website": "https://www.vesuvio.it/",
       "email": "info@vesuvio.it",
-      "phone": "+39 08 +39 17 640044"
+      "phone": "+39 08 1764 0044",
+      "patch": {
+        "email": "info@vesuvio.it",
+        "seo_indexable": true
+      }
     },
     {
       "slug": "romeo-hotel-napoli-napoli",
-      "action": "premier_import",
+      "action": "no_new_data",
+      "website": "https://www.romeohotels.com/",
       "email": null,
-      "phone": null
+      "phone": null,
+      "patch": {}
     },
     {
       "slug": "principi-di-piemonte-torino",
-      "action": "premier_import",
+      "action": "no_new_data",
+      "website": "https://www.principidipiemonte.com/",
       "email": null,
-      "phone": null
+      "phone": null,
+      "patch": {}
     },
     {
       "slug": "golden-palace-hotel-torino",
-      "action": "premier_import",
+      "action": "no_new_data",
+      "website": "https://www.goldenpalaceweb.com/",
       "email": null,
-      "phone": null
+      "phone": null,
+      "patch": {}
+    },
+    {
+      "slug": "due-torri-hotel-verona",
+      "action": "no_new_data",
+      "website": "https://www.duetorrihotel.com/",
+      "email": null,
+      "phone": null,
+      "patch": {}
     },
     {
       "slug": "grand-hotel-majestic-gia-baglioni-bologna",
-      "action": "premier_import",
+      "action": "no_new_data",
+      "website": "https://www.grandhotelmajestic.duetorrihotels.com/",
       "email": null,
-      "phone": null
+      "phone": null,
+      "patch": {}
     },
     {
       "slug": "grand-hotel-et-des-palmes-palermo",
       "action": "updated",
-      "website": "https://despalmes.mangias.com/it?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=gbp",
+      "website": "https://www.grandhotel-et-des-palmes.com/",
       "email": "despalmes@mangias.com",
-      "phone": "+39 09 +39 12 779600",
+      "phone": "+39 09 1277 9600",
       "patch": {
         "email": "despalmes@mangias.com",
         "seo_indexable": true
@@ -90,33 +119,49 @@
     },
     {
       "slug": "belmond-grand-hotel-timeo-taormina",
-      "action": "premier_import",
-      "email": "unsubscribe@belmond.com",
-      "phone": "+39 09426270200"
+      "action": "updated",
+      "website": "https://www.belmond.com/hotels/europe/italy/taormina/belmond-grand-hotel-timeo/",
+      "email": "myaccount@belmond.com",
+      "phone": "+39 09426270200",
+      "patch": {
+        "email": "myaccount@belmond.com",
+        "seo_indexable": true
+      }
     },
     {
       "slug": "belmond-hotel-splendido-portofino",
-      "action": "premier_import",
+      "action": "updated",
+      "website": "https://www.belmond.com/hotels/europe/italy/portofino/belmond-hotel-splendido/",
       "email": "reservations.spl@belmond.com",
-      "phone": "+39 01 +39 85 267801"
+      "phone": "+39 01 8526 7801",
+      "patch": {
+        "email": "reservations.spl@belmond.com",
+        "seo_indexable": true
+      }
     },
     {
       "slug": "grand-hotel-continental-siena-siena",
-      "action": "premier_import",
+      "action": "no_new_data",
+      "website": "https://www.grandhotelcontinentalsiena.com/",
       "email": null,
-      "phone": null
+      "phone": null,
+      "patch": {}
     },
     {
       "slug": "capri-palace-jumeirah-capri",
-      "action": "premier_import",
+      "action": "no_new_data",
+      "website": "https://www.capripalace.com/",
       "email": null,
-      "phone": null
+      "phone": null,
+      "patch": {}
     },
     {
       "slug": "palazzo-gattini-luxury-hotel-matera",
-      "action": "premier_import",
+      "action": "no_new_data",
+      "website": "https://www.palazzogattini.com/",
       "email": null,
-      "phone": null
+      "phone": null,
+      "patch": {}
     },
     {
       "slug": "europa-university-rooms-hotel-abbadia-cerreto",
@@ -128,14 +173,11 @@
     },
     {
       "slug": "qvattro-stagioni-panoramic-suites-agropoli",
-      "action": "updated",
+      "action": "no_new_data",
       "website": "http://www.qvattrostagioni.it/",
-      "email": "info@qvattrostagioni.it",
-      "phone": "+39 3500859220",
-      "patch": {
-        "email": "info@qvattrostagioni.it",
-        "seo_indexable": true
-      }
+      "email": null,
+      "phone": null,
+      "patch": {}
     },
     {
       "slug": "la-terrazza-del-regista-ex-crocifisso-alessandria-del-carretto",
@@ -158,7 +200,7 @@
       "action": "updated",
       "website": "http://www.baitavalleazzurra.it/",
       "email": "info@baitavalleazzurra.it",
-      "phone": "+39 034628193",
+      "phone": "+39 034 628193",
       "patch": {
         "email": "info@baitavalleazzurra.it",
         "seo_indexable": true
@@ -169,7 +211,7 @@
       "action": "no_new_data",
       "website": "http://www.tanin.it/",
       "email": null,
-      "phone": "+39 01 +39 09 126684",
+      "phone": "+39 01 0912 6684",
       "patch": {}
     },
     {
@@ -177,7 +219,7 @@
       "action": "no_new_data",
       "website": "https://www.arcobaleno.arenzano.it/",
       "email": null,
-      "phone": "+39 3471191166",
+      "phone": "+39 347 1191166",
       "patch": {}
     },
     {
@@ -228,7 +270,7 @@
       "action": "updated",
       "website": "https://www.visitemilia.com/organizza-la-tua-visita/albergo-dei-cacciatori",
       "email": "destinazione.emilia@regione.emilia-romagna.it",
-      "phone": "+39 05 +39 15 276430",
+      "phone": "+39 05 1527 6430",
       "patch": {
         "email": "destinazione.emilia@regione.emilia-romagna.it",
         "seo_indexable": true
@@ -239,7 +281,7 @@
       "action": "updated",
       "website": "http://www.albergovisolotto.it/",
       "email": "info@albergovisolotto.it",
-      "phone": "+39 017594930",
+      "phone": "+39 017 594930",
       "patch": {
         "email": "info@albergovisolotto.it",
         "seo_indexable": true
@@ -310,7 +352,7 @@
       "action": "updated",
       "website": "https://www.ilrosetoparkhotel.com/",
       "email": "ilrosetoparkhotel@gmail.com",
-      "phone": "+39 08 +39 18 348626",
+      "phone": "+39 08 1834 8626",
       "patch": {
         "email": "ilrosetoparkhotel@gmail.com",
         "seo_indexable": true
@@ -341,7 +383,7 @@
       "action": "updated",
       "website": "https://www.ariavilladicampagna.it/",
       "email": "%20info@ariavilladicampagna.it",
-      "phone": "+39 08 +39 99 340760",
+      "phone": "+39 08 9934 0760",
       "patch": {
         "email": "%20info@ariavilladicampagna.it",
         "seo_indexable": true
@@ -406,7 +448,7 @@
       "action": "no_new_data",
       "website": "https://www.hotelscheck-in.com/loasibnbdisilviascarpa/it/",
       "email": null,
-      "phone": "+39 08848526",
+      "phone": null,
       "patch": {}
     },
     {
@@ -418,7 +460,7 @@
       "action": "updated",
       "website": "http://www.campingagatos.it/",
       "email": "dottoreaugusto@yahoo.it",
-      "phone": "+39 09 +39 41 662015",
+      "phone": "+39 09 4166 2015",
       "patch": {
         "email": "dottoreaugusto@yahoo.it",
         "seo_indexable": true
@@ -461,7 +503,7 @@
       "action": "updated",
       "website": "http://www.atlanticterme.com/?utm_source=GoogleMyBusiness&utm_medium=KlickWebsite&utm_campaign=GoogleMyBusiness",
       "email": "info@atlanticterme.com",
-      "phone": "+39 04 +39 98 669015",
+      "phone": "+39 049 584264",
       "patch": {
         "email": "info@atlanticterme.com",
         "seo_indexable": true
@@ -472,7 +514,7 @@
       "action": "updated",
       "website": "https://www.bellavistaterme.com/?utm_source=GB&utm_medium=organic",
       "email": "info@bellavistaterme.com",
-      "phone": "+39 049793333",
+      "phone": "+39 049 793333",
       "patch": {
         "email": "info@bellavistaterme.com",
         "seo_indexable": true
@@ -483,7 +525,7 @@
       "action": "updated",
       "website": "http://www.aristonmolino.it/",
       "email": "aristonmolino@aristonmolino.it",
-      "phone": "+39 04 +39 98 669061",
+      "phone": "+39 04 9866 9061",
       "patch": {
         "email": "aristonmolino@aristonmolino.it",
         "seo_indexable": true
@@ -494,7 +536,7 @@
       "action": "updated",
       "website": "http://www.columbiaterme.com/",
       "email": "info@columbiaterme.com",
-      "phone": "+39 04 +39 98 669606",
+      "phone": "+39 04 9866 9606",
       "patch": {
         "email": "info@columbiaterme.com",
         "seo_indexable": true
@@ -505,7 +547,7 @@
       "action": "updated",
       "website": "http://www.hotelmionipezzato.com/",
       "email": "info@hotelmionipezzato.com",
-      "phone": "+39 04 +39 98 668377",
+      "phone": "+39 04 9866 8377",
       "patch": {
         "email": "info@hotelmionipezzato.com",
         "seo_indexable": true
@@ -516,7 +558,7 @@
       "action": "updated",
       "website": "http://www.plaza.it/",
       "email": "info@plaza.it",
-      "phone": "+39 04 +39 98 669333",
+      "phone": "+39 04 9866 9333",
       "patch": {
         "email": "info@plaza.it",
         "seo_indexable": true
@@ -527,7 +569,7 @@
       "action": "updated",
       "website": "https://www.principeterme.com/?utm_source=gbp&utm_medium=organic",
       "email": "info@principeterme.com",
-      "phone": "+39 04 +39 98 600844",
+      "phone": "+39 04 9860 0844",
       "patch": {
         "email": "info@principeterme.com",
         "seo_indexable": true
@@ -538,7 +580,7 @@
       "action": "updated",
       "website": "http://www.savoiaterme.it/",
       "email": "info@savoiaterme.it",
-      "phone": "+39 04 +39 98 231111",
+      "phone": "+39 04 9823 1111",
       "patch": {
         "email": "info@savoiaterme.it",
         "seo_indexable": true
@@ -549,7 +591,7 @@
       "action": "updated",
       "website": "http://www.smeraldoterme.it/",
       "email": "smeraldo@smeraldoterme.it",
-      "phone": "+39 04 +39 98 669555",
+      "phone": "+39 04 9866 9555",
       "patch": {
         "email": "smeraldo@smeraldoterme.it",
         "seo_indexable": true
@@ -560,7 +602,7 @@
       "action": "updated",
       "website": "http://www.termebelvedere.it/",
       "email": "belvedere@termebelvedere.it",
-      "phone": "+39 04 +39 98 602409",
+      "phone": "+39 04 9860 2409",
       "patch": {
         "email": "belvedere@termebelvedere.it",
         "seo_indexable": true
@@ -571,7 +613,7 @@
       "action": "updated",
       "website": "https://hotelfirenzeterme.it/",
       "email": "ricevimento@hotelfirenzeterme.it",
-      "phone": "+39 04 +39 99 813421",
+      "phone": "+39 04 9981 3421",
       "patch": {
         "email": "ricevimento@hotelfirenzeterme.it",
         "seo_indexable": true
@@ -590,7 +632,7 @@
       "action": "updated",
       "website": "http://www.termeinternazionale.it/",
       "email": "info@termeinternazionale.it",
-      "phone": "+39 04 +39 98 600300",
+      "phone": "+39 04 9860 0300",
       "patch": {
         "email": "info@termeinternazionale.it",
         "seo_indexable": true
@@ -609,7 +651,7 @@
       "action": "updated",
       "website": "https://www.hoteltermemilano.com/?utm_source=GMB&utm_medium=GMB_link&utm_campaign=GMB_link",
       "email": "info@hoteltermemilano.com",
-      "phone": "+39 000812886",
+      "phone": "+39 000 812886",
       "patch": {
         "email": "info@hoteltermemilano.com",
         "seo_indexable": true
@@ -620,7 +662,7 @@
       "action": "updated",
       "website": "http://www.termepatria.it/",
       "email": "prenotazioni@termepatria.it",
-      "phone": "+39 04 +39 98 617444",
+      "phone": "+39 04 9861 7444",
       "patch": {
         "email": "prenotazioni@termepatria.it",
         "seo_indexable": true
@@ -631,7 +673,7 @@
       "action": "updated",
       "website": "https://www.salusterme.it/",
       "email": "salus@salusterme.it",
-      "phone": "+39 04 +39 98 668057",
+      "phone": "+39 04 9866 8057",
       "patch": {
         "email": "salus@salusterme.it",
         "seo_indexable": true
@@ -642,7 +684,7 @@
       "action": "updated",
       "website": "https://www.termevenezia.it/?utm_source=GMB&utm_medium=GMB&utm_campaign=GMB",
       "email": "venezia@termevenezia.it",
-      "phone": "+39 04 +39 98 669800",
+      "phone": "+39 04 9866 9800",
       "patch": {
         "email": "venezia@termevenezia.it",
         "seo_indexable": true
@@ -653,7 +695,7 @@
       "action": "updated",
       "website": "https://www.sbirziolahotels.com/it/hotel-roma/?utm_source=google&utm_medium=local&utm_campaign=GBP-roma",
       "email": "info@termeroma.it",
-      "phone": "+39 04 +39 98 669127",
+      "phone": "+39 04 9866 9127",
       "patch": {
         "email": "info@termeroma.it",
         "seo_indexable": true
@@ -664,7 +706,7 @@
       "action": "no_new_data",
       "website": "https://termeterna.com/en?utm_source=googlemaps&utm_medium=mybusiness&utm_campaign=mybusiness",
       "email": null,
-      "phone": "+39 04 +39 98 668044",
+      "phone": "+39 04 9866 8044",
       "patch": {}
     },
     {
@@ -672,7 +714,7 @@
       "action": "updated",
       "website": "https://www.addahotel.it/",
       "email": "info@addahotel.it",
-      "phone": "+39 03 +39 73 980401",
+      "phone": "+39 03 7398 0401",
       "patch": {
         "email": "info@addahotel.it",
         "seo_indexable": true
@@ -703,7 +745,7 @@
       "action": "updated",
       "website": "http://www.borasca.eu/",
       "email": "info@borasca.eu",
-      "phone": "+39 03 +39 77 046150",
+      "phone": "+39 03 7704 6150",
       "patch": {
         "email": "info@borasca.eu",
         "seo_indexable": true
@@ -714,7 +756,7 @@
       "action": "updated",
       "website": "http://www.mulinodiprada.com/",
       "email": "mulinodiprada@gmail.com",
-      "phone": "+39 07786260963",
+      "phone": "+39 09 2016 0807",
       "patch": {
         "email": "mulinodiprada@gmail.com",
         "seo_indexable": true
@@ -729,7 +771,7 @@
       "action": "updated",
       "website": "http://casadilucio.it/",
       "email": "info@casadilucio.it",
-      "phone": "+39 01120152",
+      "phone": "+39 011 200934",
       "patch": {
         "email": "info@casadilucio.it",
         "seo_indexable": true
@@ -740,7 +782,7 @@
       "action": "updated",
       "website": "https://www.charliehotel.it/",
       "email": "info@hotelcharlie.it",
-      "phone": "+39 02 +39 95 307255",
+      "phone": "+39 04 2026 0417",
       "patch": {
         "email": "info@hotelcharlie.it",
         "seo_indexable": true
@@ -751,7 +793,7 @@
       "action": "updated",
       "website": "https://hotelduefontane.it/",
       "email": "hotelduefontane@gmail.com",
-      "phone": "+39 03 +39 77 833333",
+      "phone": "+39 03 7783 3333",
       "patch": {
         "email": "hotelduefontane@gmail.com",
         "seo_indexable": true
@@ -778,7 +820,7 @@
       "action": "updated",
       "website": "http://www.hotelmotelpiu.com/",
       "email": "info@hotelmotelpiu.com",
-      "phone": "+39 03 +39 73 278538",
+      "phone": "+39 03 7327 8538",
       "patch": {
         "email": "info@hotelmotelpiu.com",
         "seo_indexable": true
@@ -789,7 +831,7 @@
       "action": "updated",
       "website": "https://www.hotelmotelsporting.it/it/",
       "email": "info@hotelmotelsporting.it",
-      "phone": "+39 03 +39 73 242586",
+      "phone": "+39 03 7324 2586",
       "patch": {
         "email": "info@hotelmotelsporting.it",
         "seo_indexable": true
@@ -808,7 +850,7 @@
       "action": "updated",
       "website": "http://www.villabelvedere1849.it/",
       "email": "villabelvedere1849@gmail.com",
-      "phone": "+39 03 +39 63 340695",
+      "phone": "+39 03 6334 0695",
       "patch": {
         "email": "villabelvedere1849@gmail.com",
         "seo_indexable": true
@@ -827,7 +869,7 @@
       "action": "updated",
       "website": "https://www.residenzaiportici.com/",
       "email": "residenzaiportici@gmail.com",
-      "phone": null,
+      "phone": "+39 340 0810069",
       "patch": {
         "email": "residenzaiportici@gmail.com",
         "seo_indexable": true
@@ -838,7 +880,7 @@
       "action": "updated",
       "website": "http://www.silkmotel.it/",
       "email": "info@silkmotel.it",
-      "phone": "+39 03 +39 71 799160",
+      "phone": "+39 03 7179 9160",
       "patch": {
         "email": "info@silkmotel.it",
         "seo_indexable": true
@@ -853,7 +895,7 @@
       "action": "updated",
       "website": "https://www.allatorredelbarbarossa.it/",
       "email": "info@allatorredelbarbarossa.it",
-      "phone": "+39 04159170135",
+      "phone": "+39 021 097490",
       "patch": {
         "email": "info@allatorredelbarbarossa.it",
         "seo_indexable": true
@@ -864,7 +906,7 @@
       "action": "updated",
       "website": "https://bbacquadolce.it/",
       "email": "gabriellabonaiti78@gmail.com",
-      "phone": "+39 023309478",
+      "phone": "+39 023 309478",
       "patch": {
         "email": "gabriellabonaiti78@gmail.com",
         "seo_indexable": true
@@ -879,7 +921,7 @@
       "action": "updated",
       "website": "http://www.illagodipinto.it/",
       "email": "info@illagodipinto.it",
-      "phone": "+39 03 +39 41 363415",
+      "phone": "+39 03 4136 3415",
       "patch": {
         "email": "info@illagodipinto.it",
         "seo_indexable": true
@@ -890,7 +932,7 @@
       "action": "updated",
       "website": "https://beblecolombine.it/",
       "email": "info@beblecolombine.it",
-      "phone": "+39 03 +39 41 700816",
+      "phone": "+39 03 4170 0816",
       "patch": {
         "email": "info@beblecolombine.it",
         "seo_indexable": true
@@ -901,7 +943,7 @@
       "action": "updated",
       "website": "http://www.bbcontradalunga.it/",
       "email": "info@bbcontradalunga.it",
-      "phone": "+39 3356443223",
+      "phone": "+39 335 6443223",
       "patch": {
         "email": "info@bbcontradalunga.it",
         "seo_indexable": true
@@ -935,7 +977,7 @@
       "action": "updated",
       "website": "http://www.casalarosaabbadialariana.com/",
       "email": "casalarosaabbadialariana@gmail.com",
-      "phone": "+39 00000080",
+      "phone": "+39 03979319832",
       "patch": {
         "email": "casalarosaabbadialariana@gmail.com",
         "seo_indexable": true
@@ -958,7 +1000,7 @@
       "action": "updated",
       "website": "http://www.alberodellenoci.it/",
       "email": "info@alberodellenoci.it",
-      "phone": "+39 065575287",
+      "phone": "+39 065 575287",
       "patch": {
         "email": "info@alberodellenoci.it",
         "seo_indexable": true
@@ -1004,7 +1046,7 @@
       "action": "updated",
       "website": "https://www.relaissanlorenzo.it/",
       "email": "info@relaissanlorenzo.it",
-      "phone": "+39 05 +39 77 785003",
+      "phone": "+39 05 7778 5003",
       "patch": {
         "email": "info@relaissanlorenzo.it",
         "seo_indexable": true
@@ -1019,7 +1061,7 @@
       "action": "no_new_data",
       "website": "https://albergobussola.weebly.com/",
       "email": null,
-      "phone": "+39 00 +39 47 263252",
+      "phone": "+39 00 4726 3252",
       "patch": {}
     },
     {
@@ -1027,7 +1069,7 @@
       "action": "updated",
       "website": "http://www.albergoristoranteolimpia.it/",
       "email": "info@albergoristoranteolimpia.it",
-      "phone": "+39 05 +39 77 778250",
+      "phone": "+39 05 7777 8250",
       "patch": {
         "email": "info@albergoristoranteolimpia.it",
         "seo_indexable": true
@@ -1049,7 +1091,7 @@
       "action": "updated",
       "website": "http://www.bbgliarchi.it/",
       "email": "info@bbgliarchi.it",
-      "phone": "+39 3714480935",
+      "phone": "+39 371 4480935",
       "patch": {
         "email": "info@bbgliarchi.it",
         "seo_indexable": true
@@ -1060,7 +1102,7 @@
       "action": "updated",
       "website": "http://www.bbilbiancospino.com/",
       "email": "info@bbilbiancospino.com",
-      "phone": "+39 05 +39 77 778078",
+      "phone": "+39 05 7777 8078",
       "patch": {
         "email": "info@bbilbiancospino.com",
         "seo_indexable": true
@@ -1090,7 +1132,7 @@
       "action": "updated",
       "website": "http://www.hoteladrianaamiata.com/",
       "email": "hoteladriana@alice.it",
-      "phone": "+39 05 +39 77 778116",
+      "phone": "+39 05 7777 8116",
       "patch": {
         "email": "hoteladriana@alice.it",
         "seo_indexable": true
@@ -1101,7 +1143,7 @@
       "action": "updated",
       "website": "http://www.hotelfabbrini.com/",
       "email": "info@hotelfabbrini.com",
-      "phone": "+39 00329459",
+      "phone": "+39 000 488268",
       "patch": {
         "email": "info@hotelfabbrini.com",
         "seo_indexable": true
@@ -1124,7 +1166,7 @@
       "action": "updated",
       "website": "http://www.parcoerosa.it/",
       "email": "parcoerosa@parcoerosa.it",
-      "phone": "+39 05 +39 77 776326",
+      "phone": "+39 05 7777 6326",
       "patch": {
         "email": "parcoerosa@parcoerosa.it",
         "seo_indexable": true
@@ -1135,7 +1177,7 @@
       "action": "updated",
       "website": "https://www.stellamiata.it/",
       "email": "info@stellamiata.it",
-      "phone": "+39 05 +39 77 574788",
+      "phone": "+39 05 7757 4788",
       "patch": {
         "email": "info@stellamiata.it",
         "seo_indexable": true
@@ -1146,7 +1188,7 @@
       "action": "no_new_data",
       "website": "http://hotelvalledelfiora.it/",
       "email": null,
-      "phone": null,
+      "phone": "+39 333 3333333",
       "patch": {}
     },
     {
@@ -1154,7 +1196,7 @@
       "action": "updated",
       "website": "http://www.laboccadibacco.com/",
       "email": "%20info@laboccadibacco.com",
-      "phone": "+39 05 +39 77 777624",
+      "phone": "+39 05 7777 7624",
       "patch": {
         "email": "%20info@laboccadibacco.com",
         "seo_indexable": true
@@ -1195,7 +1237,7 @@
       "action": "updated",
       "website": "http://www.sanea.it/",
       "email": "info@sanea.it",
-      "phone": "+39 00601270952",
+      "phone": "+39 01 4323 0776",
       "patch": {
         "email": "info@sanea.it",
         "seo_indexable": true
@@ -1210,7 +1252,7 @@
       "action": "updated",
       "website": "http://www.sincantu.it/",
       "email": "sincantesinis@gmail.com",
-      "phone": "+39 3662951365",
+      "phone": "+39 366 2951365",
       "patch": {
         "email": "sincantesinis@gmail.com",
         "seo_indexable": true
