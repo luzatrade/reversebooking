@@ -3,27 +3,31 @@ import { BRAND_NAME } from "@/lib/legal/company";
 import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
+import { trimSeoDescription } from "@/lib/seo/serp-copy";
 import type { DestinationHub } from "@/lib/seo/destination-queries";
 import type { Locale } from "@/lib/i18n/translations";
 
-function trimDescription(value: string, max = 160) {
-  const normalized = value.replace(/\s+/g, " ").trim();
-  if (normalized.length <= max) return normalized;
-  return `${normalized.slice(0, max - 1).trim()}…`;
-}
+export function buildDestinationTitle(hub: DestinationHub, locale: Locale = "it"): string {
+  const city = hub.displayName.trim();
+  const count = hub.structureCount;
 
-export function buildDestinationTitle(hub: DestinationHub) {
-  return `Hotel a ${hub.displayName}`;
+  if (locale === "en") {
+    return `Hotels in ${city}: ${count} properties — Get direct offers`;
+  }
+  return `Hotel a ${city}: ${count} strutture — Richiedi offerte dirette`;
 }
 
 export function buildDestinationDescription(hub: DestinationHub, locale: Locale) {
+  const city = hub.displayName;
+  const count = hub.structureCount;
+
   if (locale === "en") {
-    return trimDescription(
-      `Browse ${hub.structureCount} hotels and properties in ${hub.displayName}. Send a personalized offer request on ${BRAND_NAME} and receive direct proposals from local hosts.`,
+    return trimSeoDescription(
+      `Compare ${count} hotels and B&Bs in ${city}. Publish a free stay request on ${BRAND_NAME} and receive personalised direct offers from local properties. No booking commission for travellers.`,
     );
   }
-  return trimDescription(
-    `Scopri ${hub.structureCount} hotel e strutture a ${hub.displayName}. Invia una richiesta personalizzata su ${BRAND_NAME} e ricevi proposte dirette dalle strutture.`,
+  return trimSeoDescription(
+    `Confronta ${count} hotel e B&B a ${city}. Pubblica una richiesta di soggiorno gratuita su ${BRAND_NAME} e ricevi offerte personalizzate dalle strutture. Zero commissioni per chi viaggia.`,
   );
 }
 
@@ -41,27 +45,33 @@ export function buildDestinationIntro(hub: DestinationHub, locale: Locale) {
   return `Trova ${hub.structureCount} strutture a ${hub.displayName} e richiedi un'offerta personalizzata su ${BRAND_NAME}.`;
 }
 
+function absoluteTitle(title: string): string {
+  return title.endsWith(BRAND_NAME) ? title : `${title} · ${BRAND_NAME}`;
+}
+
 export function buildDestinationMetadata(hub: DestinationHub, locale: Locale, page = 1): Metadata {
-  const baseTitle = buildDestinationTitle(hub);
-  const title = page > 1 ? `${baseTitle} · pag. ${page}` : baseTitle;
+  const baseTitle = buildDestinationTitle(hub, locale);
+  const paginatedSuffix = locale === "en" ? ` · page ${page}` : ` · pag. ${page}`;
+  const title = page > 1 ? `${baseTitle}${paginatedSuffix}` : baseTitle;
   const description = buildDestinationDescription(hub, locale);
+  const absolute = absoluteTitle(title);
   const heroUrl = getDestinationCityPhoto(hub);
   const ogImages = heroUrl ? [{ url: heroUrl, alt: hub.displayName }] : undefined;
 
   return {
-    title: { absolute: title.endsWith(BRAND_NAME) ? title : `${title} · ${BRAND_NAME}` },
+    title: { absolute },
     description,
     alternates: buildLanguageAlternates(`/destinazioni/${hub.slug}`, locale),
     robots: { index: page === 1, follow: true },
     openGraph: buildOpenGraph({
-      title,
+      title: absolute,
       description,
       path: `/destinazioni/${hub.slug}`,
       locale,
       images: ogImages,
     }),
     twitter: buildTwitterCard({
-      title,
+      title: absolute,
       description,
       images: ogImages?.map((image) => image.url),
     }),
@@ -72,6 +82,7 @@ export function buildDestinationJsonLd(
   hub: DestinationHub,
   items: { slug: string; name: string }[],
   pageUrl: string,
+  locale: Locale = "it",
 ) {
   const heroUrl = getDestinationCityPhoto(hub);
 
@@ -81,9 +92,9 @@ export function buildDestinationJsonLd(
       {
         "@type": "CollectionPage",
         "@id": `${pageUrl}#destination`,
-        name: buildDestinationTitle(hub),
+        name: buildDestinationTitle(hub, locale),
         url: pageUrl,
-        description: buildDestinationDescription(hub, "it"),
+        description: buildDestinationDescription(hub, locale),
         numberOfItems: hub.structureCount,
         ...(heroUrl ? { image: heroUrl } : {}),
       },

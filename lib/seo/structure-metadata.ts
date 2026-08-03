@@ -4,22 +4,61 @@ import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib
 import { buildDestinationSlug } from "@/lib/seo/city-canonical";
 import { destinationPublicPath, homePath, localizedPath } from "@/lib/i18n/routing";
 import { canonicalUrl } from "@/lib/seo/canonical";
-import { buildStructureSeoDescription as generateDescription } from "@/lib/seo/structure-description";
+import { buildStructureSeoDescription as buildOnPageDescription } from "@/lib/seo/structure-description";
+import { trimSeoDescription, trimSeoTitleSegment } from "@/lib/seo/serp-copy";
 import type { Locale } from "@/lib/i18n/translations";
 import type { StructureSeoRecord } from "@/lib/seo/structure-queries";
 
-function trimDescription(value: string, max = 155) {
-  const normalized = value.replace(/\s+/g, " ").trim();
-  if (normalized.length <= max) return normalized;
-  return `${normalized.slice(0, max - 1).trim()}…`;
+function manualDescription(record: StructureSeoRecord, locale: Locale): string | null {
+  const value =
+    locale === "en"
+      ? record.descriptionEn?.trim() || record.descriptionIt?.trim()
+      : record.descriptionIt?.trim() || record.descriptionEn?.trim();
+  return value || null;
 }
 
-export function buildStructureSeoDescription(record: StructureSeoRecord, locale: Locale = "it") {
-  return trimDescription(generateDescription(record, locale));
+export function buildStructureSeoTitle(record: StructureSeoRecord, locale: Locale = "it"): string {
+  const city = record.cityName.trim();
+  const name = record.name.trim();
+  const longSuffix =
+    locale === "en" ? " — Direct offers, no commission" : " — Offerte dirette senza commissioni";
+  const shortSuffix = locale === "en" ? " — Direct offers" : " — Offerte dirette";
+  const joiner = locale === "en" ? " in " : " a ";
+
+  const build = (propertyName: string, suffix: string) => `${propertyName}${joiner}${city}${suffix}`;
+
+  let title = build(name, longSuffix);
+  if (title.length <= 72) return title;
+
+  title = build(name, shortSuffix);
+  if (title.length <= 72) return title;
+
+  const maxNameLength = Math.max(18, 72 - shortSuffix.length - joiner.length - city.length);
+  const trimmedName = trimSeoTitleSegment(name, maxNameLength);
+  return build(trimmedName, shortSuffix);
 }
 
-export function buildStructureSeoTitle(record: StructureSeoRecord) {
-  return `${record.name} · ${record.cityName}`;
+export function buildStructureSeoDescription(record: StructureSeoRecord, locale: Locale = "it"): string {
+  const manual = manualDescription(record, locale);
+  if (manual) return trimSeoDescription(manual);
+
+  const city = record.cityName;
+  const name = record.name;
+
+  if (locale === "en") {
+    return trimSeoDescription(
+      `Book ${name} in ${city} with HotelsDrop reverse booking: publish a free stay request and get a direct offer from the property. No booking commission for travellers.`,
+    );
+  }
+
+  return trimSeoDescription(
+    `Prenota ${name} a ${city} con il reverse booking HotelsDrop: pubblica una richiesta di soggiorno gratuita e ricevi un'offerta diretta dalla struttura. Nessuna commissione per chi viaggia.`,
+  );
+}
+
+/** On-page body copy (unchanged behaviour for hotel pages). */
+export function buildStructurePageDescription(record: StructureSeoRecord, locale: Locale = "it"): string {
+  return buildOnPageDescription(record, locale);
 }
 
 function countryIsoCode(countryName: string) {
@@ -36,25 +75,30 @@ function lodgingSchemaType(record: StructureSeoRecord) {
   return "Hotel";
 }
 
+function absoluteTitle(title: string): string {
+  return title.endsWith(BRAND_NAME) ? title : `${title} · ${BRAND_NAME}`;
+}
+
 export function buildStructureMetadata(record: StructureSeoRecord, locale: Locale = "it"): Metadata {
-  const title = buildStructureSeoTitle(record);
+  const title = buildStructureSeoTitle(record, locale);
   const description = buildStructureSeoDescription(record, locale);
+  const absolute = absoluteTitle(title);
   const images = [record.mainPhotoUrl, ...record.galleryPhotoUrls].filter(Boolean) as string[];
 
   return {
-    title: { absolute: `${title} · ${BRAND_NAME}` },
+    title: { absolute },
     description,
     alternates: buildLanguageAlternates(`/hotel/${record.slug}`, locale),
     robots: { index: true, follow: true },
     openGraph: buildOpenGraph({
-      title: `${title} · ${BRAND_NAME}`,
+      title: absolute,
       description,
       path: `/hotel/${record.slug}`,
       locale,
       images: images[0] ? [{ url: images[0], alt: record.name }] : undefined,
     }),
     twitter: buildTwitterCard({
-      title: `${title} · ${BRAND_NAME}`,
+      title: absolute,
       description,
       images: images[0] ? [images[0]] : undefined,
     }),
