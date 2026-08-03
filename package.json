@@ -22,7 +22,8 @@
     "translate:onboarding:apply": "node scripts/translate-onboarding-descriptions.mjs apply",
     "backfill:hotel-coords": "npx tsx scripts/backfill-hotel-coords-from-maps.ts",
     "storage:prune-safe": "node scripts/prune-storage-safe.mjs",
-    "agent:check-secrets": "node scripts/check-agent-secrets.mjs"
+    "agent:check-secrets": "node scripts/check-agent-secrets.mjs",
+    "import:italy-master-cards-50": "node scripts/import-luxury-hotels-enriched.mjs --file data/italy-hotels-master-cards-50.json"
   },
   "dependencies": {
     "@base-ui/react": "^1.4.1",
