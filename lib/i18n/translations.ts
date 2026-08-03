@@ -1346,6 +1346,16 @@ export const translations = {
       claimVerifiedPartner: "Profilo rivendicato da un partner verificato.",
       websiteButton: "Sito web",
       noDirectContacts: "Contatti diretti non disponibili per questa struttura.",
+      reverseBookingTitle: "Fatti trovare dalle strutture",
+      reverseBookingSubtitle:
+        "Pubblica una richiesta gratuita per {city}: hotel e B&B della zona ti inviano offerte personalizzate.",
+      reverseBookingCta: "Droppa la tua richiesta",
+      reverseBookingTrustFree: "Gratis per chi viaggia",
+      reverseBookingTrustNoCommission: "Nessuna commissione sulle prenotazioni",
+      reverseBookingTrustOffers: "Confronta offerte dirette dalle strutture",
+      reverseBookingHowItWorks: "Scopri come funziona",
+      locationSection: "Dove si trova",
+      contactsSection: "Contatti diretti",
     },
     location: {
       cityPlaceholder: "Scrivi una città, es. Roma, Parigi, Bangkok...",
@@ -2700,6 +2710,16 @@ export const translations = {
       claimVerifiedPartner: "Profile claimed by a verified partner.",
       websiteButton: "Website",
       noDirectContacts: "Direct contacts are not available for this property.",
+      reverseBookingTitle: "Let properties find you",
+      reverseBookingSubtitle:
+        "Publish a free stay request for {city}: local hotels and B&Bs send you personalised offers.",
+      reverseBookingCta: "Drop your request",
+      reverseBookingTrustFree: "Free for travellers",
+      reverseBookingTrustNoCommission: "No booking commission",
+      reverseBookingTrustOffers: "Compare direct offers from properties",
+      reverseBookingHowItWorks: "See how it works",
+      locationSection: "Location",
+      contactsSection: "Direct contacts",
     },
     location: {
       cityPlaceholder: "Type a city, e.g. Rome, Paris, Bangkok...",
