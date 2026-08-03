@@ -109,6 +109,15 @@ export async function fetchStructureBySlug(slug: string): Promise<StructureSeoRe
   return null;
 }
 
+export function buildStructureTravelRequestHref(
+  record: Pick<StructureSeoRecord, "id" | "cityName" | "onboardingId" | "hotelAccountId">,
+): string {
+  const hotelId = record.hotelAccountId ?? record.onboardingId ?? record.id;
+  const params = new URLSearchParams({ hotel_id: hotelId });
+  if (record.cityName.trim()) params.set("city", record.cityName.trim());
+  return `/inserzionista/crea-annuncio?${params.toString()}`;
+}
+
 export async function resolveSlugByUuid(identifier: string): Promise<string | null> {
   const admin = createServiceRoleClient();
   if (!admin) return null;

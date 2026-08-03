@@ -48,7 +48,7 @@ export function normalizePublicEmail(raw) {
   if (!local || !domain) return null;
   if (BLOCKED_DOMAINS.has(domain)) return null;
   if (/\.(png|jpg|jpeg|gif|webp|svg|woff|css)$/i.test(domain)) return null;
-  if (/(noreply|no-reply|donotreply|privacy|gdpr|newsletter|marketing|analytics|sentry)/i.test(local)) {
+  if (/(noreply|no-reply|donotreply|unsubscribe|privacy|gdpr|newsletter|marketing|analytics|sentry)/i.test(local)) {
     return null;
   }
   return cleaned;

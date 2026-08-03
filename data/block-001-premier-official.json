@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Rome Cavalieri, A Waldorf Astoria Hotel",
+    "city": "Roma",
+    "address": "Via Alberto Cadlolo 101, 00136 Roma (RM), Italia",
+    "slug": "rome-cavalieri-a-waldorf-astoria-hotel-roma",
+    "website": "https://www.hilton.com/en/hotels/romhiwa-rome-cavalieri/"
+  },
+  {
+    "name": "Bulgari Hotel Milano",
+    "city": "Milano",
+    "address": "Via Privata Fratelli Gabba 7b, 20121 Milano (MI), Italia",
+    "slug": "bulgari-hotel-milano-milano",
+    "website": "https://www.bulgarihotels.com/en_US/milan"
+  },
+  {
+    "name": "Hotel Brunelleschi",
+    "city": "Firenze",
+    "address": "Piazza Sant'Elisabetta 3, 50122 Firenze (FI), Italia",
+    "slug": "hotel-brunelleschi-firenze",
+    "website": "https://www.hotelbrunelleschi.it/"
+  },
+  {
+    "name": "The Gritti Palace",
+    "city": "Venezia",
+    "address": "Campo Santa Maria del Giglio 2467, 30124 Venezia (VE), Italia",
+    "slug": "the-gritti-palace-venezia",
+    "website": "https://www.marriott.com/en-us/hotels/vcegk-the-gritti-palace-a-luxury-collection-hotel-venice/"
+  },
+  {
+    "name": "Bauer Palazzo",
+    "city": "Venezia",
+    "address": "San Marco 1459, 30124 Venezia (VE), Italia",
+    "slug": "bauer-palazzo-venezia",
+    "website": "https://www.bauerpalazzo.it/en/"
+  },
+  {
+    "name": "Grand Hotel Vesuvio",
+    "city": "Napoli",
+    "address": "Via Partenope 45, 80121 Napoli (NA), Italia",
+    "slug": "grand-hotel-vesuvio-napoli",
+    "website": "https://www.vesuvio.it/"
+  },
+  {
+    "name": "Romeo Hotel Napoli",
+    "city": "Napoli",
+    "address": "Via Cristoforo Colombo 45, 80133 Napoli (NA), Italia",
+    "slug": "romeo-hotel-napoli-napoli",
+    "website": "https://www.romeohotels.com/"
+  },
+  {
+    "name": "Principi di Piemonte",
+    "city": "Torino",
+    "address": "Via Piero Gobetti 15, 10123 Torino (TO), Italia",
+    "slug": "principi-di-piemonte-torino",
+    "website": "https://www.principidipiemonte.com/"
+  },
+  {
+    "name": "Golden Palace Hotel",
+    "city": "Torino",
+    "address": "Via dell'Arcivescovado 18, 10121 Torino (TO), Italia",
+    "slug": "golden-palace-hotel-torino",
+    "website": "https://www.goldenpalaceweb.com/"
+  },
+  {
+    "name": "Due Torri Hotel",
+    "city": "Verona",
+    "address": "Piazza Sant'anastasia 4, 37121 Verona (VR), Italia",
+    "slug": "due-torri-hotel-verona",
+    "website": "https://www.duetorrihotel.com/"
+  },
+  {
+    "name": "Grand Hotel Majestic già Baglioni",
+    "city": "Bologna",
+    "address": "Via dell'Indipendenza 8, 40121 Bologna (BO), Italia",
+    "slug": "grand-hotel-majestic-gia-baglioni-bologna",
+    "website": "https://www.grandhotelmajestic.duetorrihotels.com/"
+  },
+  {
+    "name": "Belmond Grand Hotel Timeo",
+    "city": "Taormina",
+    "address": "Piazza Vittorio Emanuele 28, 98039 Taormina (ME), Italia",
+    "slug": "belmond-grand-hotel-timeo-taormina",
+    "website": "https://www.belmond.com/hotels/europe/italy/taormina/belmond-grand-hotel-timeo/"
+  },
+  {
+    "name": "Belmond Hotel Splendido",
+    "city": "Portofino",
+    "address": "Via Roma 2, 16034 Portofino (GE), Italia",
+    "slug": "belmond-hotel-splendido-portofino",
+    "website": "https://www.belmond.com/hotels/europe/italy/portofino/belmond-hotel-splendido/"
+  },
+  {
+    "name": "Grand Hotel Continental Siena",
+    "city": "Siena",
+    "address": "Banchi di Sopra 85, 53100 Siena (SI), Italia",
+    "slug": "grand-hotel-continental-siena-siena",
+    "website": "https://www.grandhotelcontinentalsiena.com/"
+  },
+  {
+    "name": "Capri Palace Jumeirah",
+    "city": "Anacapri",
+    "address": "Via Capodimonte 2, 80071 Anacapri (NA), Italia",
+    "slug": "capri-palace-jumeirah-capri",
+    "website": "https://www.capripalace.com/"
+  },
+  {
+    "name": "Palazzo Gattini Luxury Hotel",
+    "city": "Matera",
+    "address": "Piazza Duomo 13, 75100 Matera (MT), Italia",
+    "slug": "palazzo-gattini-luxury-hotel-matera",
+    "website": "https://www.palazzogattini.com/"
+  }
+]
