@@ -22,7 +22,9 @@
     "translate:onboarding:apply": "node scripts/translate-onboarding-descriptions.mjs apply",
     "backfill:hotel-coords": "npx tsx scripts/backfill-hotel-coords-from-maps.ts",
     "storage:prune-safe": "node scripts/prune-storage-safe.mjs",
-    "agent:check-secrets": "node scripts/check-agent-secrets.mjs"
+    "agent:check-secrets": "node scripts/check-agent-secrets.mjs",
+    "indexnow:submit-all": "npx tsx scripts/submit-indexnow-batch.ts",
+    "indexnow:dry-run": "npx tsx scripts/submit-indexnow-batch.ts --dry-run"
   },
   "dependencies": {
     "@base-ui/react": "^1.4.1",
