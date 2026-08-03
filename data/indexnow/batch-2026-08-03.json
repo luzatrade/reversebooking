@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-08-03T22:08:21.634Z",
+  "dryRun": false,
+  "origin": "https://www.hotelsdrop.com",
+  "keyLocation": "https://www.hotelsdrop.com/6cfc69986d924392bf34861a5187da1d.txt",
+  "totalUrls": 41250,
+  "sample": [
+    "https://www.hotelsdrop.com/it/hotel/correttori-house-reggio-di-calabria",
+    "https://www.hotelsdrop.com/en/hotel/correttori-house-reggio-di-calabria",
+    "https://www.hotelsdrop.com/it/hotel/garibaldi-rooms-reggio-calabria-2",
+    "https://www.hotelsdrop.com/en/hotel/garibaldi-rooms-reggio-calabria-2",
+    "https://www.hotelsdrop.com/it/hotel/domus-nova-reggio-di-calabria"
+  ],
+  "result": {
+    "ok": true,
+    "submitted": 41250,
+    "status": 202
+  }
+}
