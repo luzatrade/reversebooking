@@ -1,0 +1,4770 @@
+{
+  "generated_at": "2026-08-03T06:58:09.888Z",
+  "block_size": 50,
+  "total_hotels": 19059,
+  "total_blocks": 382,
+  "blocks_generated": 382,
+  "priority_order": [
+    "premier (17)",
+    "partial descriptions (50)",
+    "standard harvest (resto)"
+  ],
+  "usage": "Copia il contenuto di block-NNN-prompt.md in Gemini. Salva la risposta in block-NNN-response.md",
+  "blocks": [
+    {
+      "block": 1,
+      "file": "block-001-prompt.md",
+      "hotels": 50,
+      "range": "1-50",
+      "sample_cities": [
+        "Roma",
+        "Milano",
+        "Firenze",
+        "Venezia",
+        "Napoli"
+      ]
+    },
+    {
+      "block": 2,
+      "file": "block-002-prompt.md",
+      "hotels": 50,
+      "range": "51-100",
+      "sample_cities": [
+        "Cameri",
+        "Campagna",
+        "Campo di Giove",
+        "Campofelice di Roccella",
+        "Campomarino"
+      ]
+    },
+    {
+      "block": 3,
+      "file": "block-003-prompt.md",
+      "hotels": 50,
+      "range": "101-150",
+      "sample_cities": [
+        "Abbadia Cerreto",
+        "Abbadia Lariana",
+        "Abbadia San Salvatore",
+        "Abbasanta"
+      ]
+    },
+    {
+      "block": 4,
+      "file": "block-004-prompt.md",
+      "hotels": 50,
+      "range": "151-200",
+      "sample_cities": [
+        "Abbasanta",
+        "Abbateggio",
+        "Abbiategrasso"
+      ]
+    },
+    {
+      "block": 5,
+      "file": "block-005-prompt.md",
+      "hotels": 50,
+      "range": "201-250",
+      "sample_cities": [
+        "Abbiategrasso",
+        "Abetone Cutigliano",
+        "Abriola",
+        "Acate"
+      ]
+    },
+    {
+      "block": 6,
+      "file": "block-006-prompt.md",
+      "hotels": 50,
+      "range": "251-300",
+      "sample_cities": [
+        "Acate",
+        "Accadia",
+        "Acceglio"
+      ]
+    },
+    {
+      "block": 7,
+      "file": "block-007-prompt.md",
+      "hotels": 50,
+      "range": "301-350",
+      "sample_cities": [
+        "Acceglio",
+        "Accettura",
+        "Acciano",
+        "Accumoli"
+      ]
+    },
+    {
+      "block": 8,
+      "file": "block-008-prompt.md",
+      "hotels": 50,
+      "range": "351-400",
+      "sample_cities": [
+        "Accumoli",
+        "Acerenza",
+        "Acerno"
+      ]
+    },
+    {
+      "block": 9,
+      "file": "block-009-prompt.md",
+      "hotels": 50,
+      "range": "401-450",
+      "sample_cities": [
+        "Acerno",
+        "Acerra",
+        "Aci Bonaccorsi",
+        "Aci Castello"
+      ]
+    },
+    {
+      "block": 10,
+      "file": "block-010-prompt.md",
+      "hotels": 50,
+      "range": "451-500",
+      "sample_cities": [
+        "Aci Castello",
+        "Aci Catena",
+        "Aci Sant'Antonio",
+        "Acireale",
+        "Acquafondata"
+      ]
+    },
+    {
+      "block": 11,
+      "file": "block-011-prompt.md",
+      "hotels": 50,
+      "range": "501-550",
+      "sample_cities": [
+        "Acquafondata",
+        "Acquaformosa",
+        "Acquafredda"
+      ]
+    },
+    {
+      "block": 12,
+      "file": "block-012-prompt.md",
+      "hotels": 50,
+      "range": "551-600",
+      "sample_cities": [
+        "Acquafredda",
+        "Acqualagna",
+        "Acquanegra Cremonese",
+        "Acquanegra sul Chiese"
+      ]
+    },
+    {
+      "block": 13,
+      "file": "block-013-prompt.md",
+      "hotels": 50,
+      "range": "601-650",
+      "sample_cities": [
+        "Acquanegra sul Chiese",
+        "Acquapendente",
+        "Acquappesa",
+        "Acquaro"
+      ]
+    },
+    {
+      "block": 14,
+      "file": "block-014-prompt.md",
+      "hotels": 50,
+      "range": "651-700",
+      "sample_cities": [
+        "Acquaro",
+        "Acquasanta Terme",
+        "Acquasparta"
+      ]
+    },
+    {
+      "block": 15,
+      "file": "block-015-prompt.md",
+      "hotels": 50,
+      "range": "701-750",
+      "sample_cities": [
+        "Acquasparta",
+        "Acquaviva Collecroce",
+        "Acquaviva d'Isernia",
+        "Acquaviva delle Fonti"
+      ]
+    },
+    {
+      "block": 16,
+      "file": "block-016-prompt.md",
+      "hotels": 50,
+      "range": "751-800",
+      "sample_cities": [
+        "Acquaviva delle Fonti",
+        "Acquaviva Picena",
+        "Acquaviva Platani"
+      ]
+    },
+    {
+      "block": 17,
+      "file": "block-017-prompt.md",
+      "hotels": 50,
+      "range": "801-850",
+      "sample_cities": [
+        "Acquaviva Platani",
+        "Acquedolci",
+        "Acqui Terme",
+        "Acri"
+      ]
+    },
+    {
+      "block": 18,
+      "file": "block-018-prompt.md",
+      "hotels": 50,
+      "range": "851-900",
+      "sample_cities": [
+        "Acri",
+        "Acuto",
+        "Adelfia"
+      ]
+    },
+    {
+      "block": 19,
+      "file": "block-019-prompt.md",
+      "hotels": 50,
+      "range": "901-950",
+      "sample_cities": [
+        "Adelfia",
+        "Adrano",
+        "Adrara San Martino",
+        "Adrara San Rocco"
+      ]
+    },
+    {
+      "block": 20,
+      "file": "block-020-prompt.md",
+      "hotels": 50,
+      "range": "951-1000",
+      "sample_cities": [
+        "Adria",
+        "Adro",
+        "Affi"
+      ]
+    },
+    {
+      "block": 21,
+      "file": "block-021-prompt.md",
+      "hotels": 50,
+      "range": "1001-1050",
+      "sample_cities": [
+        "Affi",
+        "Affile",
+        "Afragola",
+        "Africo"
+      ]
+    },
+    {
+      "block": 22,
+      "file": "block-022-prompt.md",
+      "hotels": 50,
+      "range": "1051-1100",
+      "sample_cities": [
+        "Africo",
+        "Agazzano",
+        "Agerola",
+        "Aggius",
+        "Agira"
+      ]
+    },
+    {
+      "block": 23,
+      "file": "block-023-prompt.md",
+      "hotels": 50,
+      "range": "1101-1150",
+      "sample_cities": [
+        "Agira",
+        "Agliana",
+        "Agliano Terme"
+      ]
+    },
+    {
+      "block": 24,
+      "file": "block-024-prompt.md",
+      "hotels": 50,
+      "range": "1151-1200",
+      "sample_cities": [
+        "Agliano Terme",
+        "Aglientu",
+        "Agli�",
+        "Agna"
+      ]
+    },
+    {
+      "block": 25,
+      "file": "block-025-prompt.md",
+      "hotels": 50,
+      "range": "1201-1250",
+      "sample_cities": [
+        "Agna",
+        "Agnadello",
+        "Agnana Calabra",
+        "Agnone"
+      ]
+    },
+    {
+      "block": 26,
+      "file": "block-026-prompt.md",
+      "hotels": 50,
+      "range": "1251-1300",
+      "sample_cities": [
+        "Agnosine",
+        "Agordo",
+        "Agosta"
+      ]
+    },
+    {
+      "block": 27,
+      "file": "block-027-prompt.md",
+      "hotels": 50,
+      "range": "1301-1350",
+      "sample_cities": [
+        "Agosta",
+        "Agra",
+        "Agrate Brianza",
+        "Agrate Conturbia"
+      ]
+    },
+    {
+      "block": 28,
+      "file": "block-028-prompt.md",
+      "hotels": 50,
+      "range": "1351-1400",
+      "sample_cities": [
+        "Agrate Conturbia",
+        "Agrigento",
+        "Agropoli",
+        "Agugliano"
+      ]
+    },
+    {
+      "block": 29,
+      "file": "block-029-prompt.md",
+      "hotels": 50,
+      "range": "1401-1450",
+      "sample_cities": [
+        "Agugliano",
+        "Agugliaro",
+        "Aicurzio",
+        "Aidomaggiore"
+      ]
+    },
+    {
+      "block": 30,
+      "file": "block-030-prompt.md",
+      "hotels": 50,
+      "range": "1451-1500",
+      "sample_cities": [
+        "Aidomaggiore",
+        "Aidone",
+        "Aielli",
+        "Aiello Calabro"
+      ]
+    },
+    {
+      "block": 31,
+      "file": "block-031-prompt.md",
+      "hotels": 50,
+      "range": "1501-1550",
+      "sample_cities": [
+        "Aiello Calabro",
+        "Aiello del Friuli",
+        "Aiello del Sabato"
+      ]
+    },
+    {
+      "block": 32,
+      "file": "block-032-prompt.md",
+      "hotels": 50,
+      "range": "1551-1600",
+      "sample_cities": [
+        "Aiello del Sabato",
+        "Aieta",
+        "Ailano",
+        "Ailoche"
+      ]
+    },
+    {
+      "block": 33,
+      "file": "block-033-prompt.md",
+      "hotels": 50,
+      "range": "1601-1650",
+      "sample_cities": [
+        "Ailoche",
+        "Airasca",
+        "Airola"
+      ]
+    },
+    {
+      "block": 34,
+      "file": "block-034-prompt.md",
+      "hotels": 50,
+      "range": "1651-1700",
+      "sample_cities": [
+        "Airola",
+        "Airole",
+        "Airuno",
+        "Aisone"
+      ]
+    },
+    {
+      "block": 35,
+      "file": "block-035-prompt.md",
+      "hotels": 50,
+      "range": "1701-1750",
+      "sample_cities": [
+        "Aisone",
+        "Ala",
+        "Ala di Stura",
+        "Alagna"
+      ]
+    },
+    {
+      "block": 36,
+      "file": "block-036-prompt.md",
+      "hotels": 50,
+      "range": "1751-1800",
+      "sample_cities": [
+        "Alagna",
+        "Alagna Valsesia",
+        "Alanno",
+        "Alassio"
+      ]
+    },
+    {
+      "block": 37,
+      "file": "block-037-prompt.md",
+      "hotels": 50,
+      "range": "1801-1850",
+      "sample_cities": [
+        "Alassio",
+        "Alatri",
+        "Alba",
+        "Alba Adriatica"
+      ]
+    },
+    {
+      "block": 38,
+      "file": "block-038-prompt.md",
+      "hotels": 50,
+      "range": "1851-1900",
+      "sample_cities": [
+        "Alba Adriatica",
+        "Albagiara",
+        "Albairate",
+        "Albanella"
+      ]
+    },
+    {
+      "block": 39,
+      "file": "block-039-prompt.md",
+      "hotels": 50,
+      "range": "1901-1950",
+      "sample_cities": [
+        "Albanella",
+        "Albano di Lucania",
+        "Albano Laziale",
+        "Albano Sant'Alessandro"
+      ]
+    },
+    {
+      "block": 40,
+      "file": "block-040-prompt.md",
+      "hotels": 50,
+      "range": "1951-2000",
+      "sample_cities": [
+        "Albano Sant'Alessandro",
+        "Albano Vercellese",
+        "Albaredo d'Adige"
+      ]
+    },
+    {
+      "block": 41,
+      "file": "block-041-prompt.md",
+      "hotels": 50,
+      "range": "2001-2050",
+      "sample_cities": [
+        "Albaredo d'Adige",
+        "Albaredo per San Marco",
+        "Albareto",
+        "Albaretto della Torre"
+      ]
+    },
+    {
+      "block": 42,
+      "file": "block-042-prompt.md",
+      "hotels": 50,
+      "range": "2051-2100",
+      "sample_cities": [
+        "Albaretto della Torre",
+        "Albavilla",
+        "Albenga"
+      ]
+    },
+    {
+      "block": 43,
+      "file": "block-043-prompt.md",
+      "hotels": 50,
+      "range": "2101-2150",
+      "sample_cities": [
+        "Albenga",
+        "Albera Ligure",
+        "Alberobello",
+        "Alberona"
+      ]
+    },
+    {
+      "block": 44,
+      "file": "block-044-prompt.md",
+      "hotels": 50,
+      "range": "2151-2200",
+      "sample_cities": [
+        "Alberona",
+        "Albese con Cassano",
+        "Albettone",
+        "Albi"
+      ]
+    },
+    {
+      "block": 45,
+      "file": "block-045-prompt.md",
+      "hotels": 50,
+      "range": "2201-2250",
+      "sample_cities": [
+        "Albi",
+        "Albiano",
+        "Albiano d'Ivrea",
+        "Albiate"
+      ]
+    },
+    {
+      "block": 46,
+      "file": "block-046-prompt.md",
+      "hotels": 50,
+      "range": "2251-2300",
+      "sample_cities": [
+        "Albiate",
+        "Albidona",
+        "Albignasego"
+      ]
+    },
+    {
+      "block": 47,
+      "file": "block-047-prompt.md",
+      "hotels": 50,
+      "range": "2301-2350",
+      "sample_cities": [
+        "Albignasego",
+        "Albinea",
+        "Albino",
+        "Albiolo"
+      ]
+    },
+    {
+      "block": 48,
+      "file": "block-048-prompt.md",
+      "hotels": 50,
+      "range": "2351-2400",
+      "sample_cities": [
+        "Albiolo",
+        "Albisola Superiore",
+        "Albissola Marina",
+        "Albizzate"
+      ]
+    },
+    {
+      "block": 49,
+      "file": "block-049-prompt.md",
+      "hotels": 50,
+      "range": "2401-2450",
+      "sample_cities": [
+        "Albonese",
+        "Albosaggia",
+        "Albugnano"
+      ]
+    },
+    {
+      "block": 50,
+      "file": "block-050-prompt.md",
+      "hotels": 50,
+      "range": "2451-2500",
+      "sample_cities": [
+        "Albugnano",
+        "Albuzzano",
+        "Alcamo",
+        "Alcara li Fusi"
+      ]
+    },
+    {
+      "block": 51,
+      "file": "block-051-prompt.md",
+      "hotels": 50,
+      "range": "2501-2550",
+      "sample_cities": [
+        "Alcara li Fusi",
+        "Aldeno",
+        "Aldino/Aldein",
+        "Ales"
+      ]
+    },
+    {
+      "block": 52,
+      "file": "block-052-prompt.md",
+      "hotels": 50,
+      "range": "2551-2600",
+      "sample_cities": [
+        "Ales",
+        "Alessandria",
+        "Alessandria del Carretto",
+        "Alessandria della Rocca"
+      ]
+    },
+    {
+      "block": 53,
+      "file": "block-053-prompt.md",
+      "hotels": 50,
+      "range": "2601-2650",
+      "sample_cities": [
+        "Alessandria della Rocca",
+        "Alessano",
+        "Alezio",
+        "Alfano"
+      ]
+    },
+    {
+      "block": 54,
+      "file": "block-054-prompt.md",
+      "hotels": 50,
+      "range": "2651-2700",
+      "sample_cities": [
+        "Alfano",
+        "Alfedena",
+        "Alfianello",
+        "Alfiano Natta"
+      ]
+    },
+    {
+      "block": 55,
+      "file": "block-055-prompt.md",
+      "hotels": 50,
+      "range": "2701-2750",
+      "sample_cities": [
+        "Alfiano Natta",
+        "Alfonsine",
+        "Alghero"
+      ]
+    },
+    {
+      "block": 56,
+      "file": "block-056-prompt.md",
+      "hotels": 50,
+      "range": "2751-2800",
+      "sample_cities": [
+        "Alghero",
+        "Algua",
+        "Alia",
+        "Aliano"
+      ]
+    },
+    {
+      "block": 57,
+      "file": "block-057-prompt.md",
+      "hotels": 50,
+      "range": "2801-2850",
+      "sample_cities": [
+        "Alice Bel Colle",
+        "Alice Castello",
+        "Alife",
+        "Alimena"
+      ]
+    },
+    {
+      "block": 58,
+      "file": "block-058-prompt.md",
+      "hotels": 50,
+      "range": "2851-2900",
+      "sample_cities": [
+        "Alimena",
+        "Aliminusa",
+        "Allai",
+        "Alleghe",
+        "Allein"
+      ]
+    },
+    {
+      "block": 59,
+      "file": "block-059-prompt.md",
+      "hotels": 50,
+      "range": "2901-2950",
+      "sample_cities": [
+        "Allein",
+        "Allerona",
+        "Alliste"
+      ]
+    },
+    {
+      "block": 60,
+      "file": "block-060-prompt.md",
+      "hotels": 50,
+      "range": "2951-3000",
+      "sample_cities": [
+        "Alliste",
+        "Allumiere",
+        "Alluvioni Piovera",
+        "Almenno San Bartolomeo"
+      ]
+    },
+    {
+      "block": 61,
+      "file": "block-061-prompt.md",
+      "hotels": 50,
+      "range": "3001-3050",
+      "sample_cities": [
+        "Almenno San Bartolomeo",
+        "Almenno San Salvatore",
+        "Almese",
+        "Alm�",
+        "Alonte"
+      ]
+    },
+    {
+      "block": 62,
+      "file": "block-062-prompt.md",
+      "hotels": 50,
+      "range": "3051-3100",
+      "sample_cities": [
+        "Alpago",
+        "Alpette",
+        "Alpignano",
+        "Alserio",
+        "Alta Val Tidone"
+      ]
+    },
+    {
+      "block": 63,
+      "file": "block-063-prompt.md",
+      "hotels": 50,
+      "range": "3101-3150",
+      "sample_cities": [
+        "Alta Val Tidone",
+        "Alta Valle Intelvi",
+        "Altamura"
+      ]
+    },
+    {
+      "block": 64,
+      "file": "block-064-prompt.md",
+      "hotels": 50,
+      "range": "3151-3200",
+      "sample_cities": [
+        "Altamura",
+        "Altare",
+        "Altavalle",
+        "Altavilla Irpina"
+      ]
+    },
+    {
+      "block": 65,
+      "file": "block-065-prompt.md",
+      "hotels": 50,
+      "range": "3201-3250",
+      "sample_cities": [
+        "Altavilla Irpina",
+        "Altavilla Milicia",
+        "Altavilla Monferrato",
+        "Altavilla Silentina",
+        "Altavilla Vicentina"
+      ]
+    },
+    {
+      "block": 66,
+      "file": "block-066-prompt.md",
+      "hotels": 50,
+      "range": "3251-3300",
+      "sample_cities": [
+        "Altavilla Vicentina",
+        "Altidona",
+        "Altilia",
+        "Altino"
+      ]
+    },
+    {
+      "block": 67,
+      "file": "block-067-prompt.md",
+      "hotels": 50,
+      "range": "3301-3350",
+      "sample_cities": [
+        "Altino",
+        "Altissimo",
+        "Altivole"
+      ]
+    },
+    {
+      "block": 68,
+      "file": "block-068-prompt.md",
+      "hotels": 50,
+      "range": "3351-3400",
+      "sample_cities": [
+        "Altivole",
+        "Alto",
+        "Alto Reno Terme",
+        "Alto Sermenza"
+      ]
+    },
+    {
+      "block": 69,
+      "file": "block-069-prompt.md",
+      "hotels": 50,
+      "range": "3401-3450",
+      "sample_cities": [
+        "Alto Sermenza",
+        "Altofonte",
+        "Altomonte",
+        "Altopascio"
+      ]
+    },
+    {
+      "block": 70,
+      "file": "block-070-prompt.md",
+      "hotels": 50,
+      "range": "3451-3500",
+      "sample_cities": [
+        "Altopascio",
+        "Altopiano della Vigolana",
+        "Alviano",
+        "Alvignano",
+        "Alvito"
+      ]
+    },
+    {
+      "block": 71,
+      "file": "block-071-prompt.md",
+      "hotels": 50,
+      "range": "3501-3550",
+      "sample_cities": [
+        "Alvito",
+        "Alzano Lombardo",
+        "Alzano Scrivia",
+        "Alzate Brianza",
+        "Al�"
+      ]
+    },
+    {
+      "block": 72,
+      "file": "block-072-prompt.md",
+      "hotels": 50,
+      "range": "3551-3600",
+      "sample_cities": [
+        "Al�",
+        "Al� dei Sardi",
+        "Al� Terme",
+        "Amalfi"
+      ]
+    },
+    {
+      "block": 73,
+      "file": "block-073-prompt.md",
+      "hotels": 50,
+      "range": "3601-3650",
+      "sample_cities": [
+        "Amalfi",
+        "Amandola",
+        "Amantea",
+        "Amaro"
+      ]
+    },
+    {
+      "block": 74,
+      "file": "block-074-prompt.md",
+      "hotels": 50,
+      "range": "3651-3700",
+      "sample_cities": [
+        "Amaro",
+        "Amaroni",
+        "Amaseno"
+      ]
+    },
+    {
+      "block": 75,
+      "file": "block-075-prompt.md",
+      "hotels": 50,
+      "range": "3701-3750",
+      "sample_cities": [
+        "Amato",
+        "Amatrice",
+        "Ambivere",
+        "Amblar-Don"
+      ]
+    },
+    {
+      "block": 76,
+      "file": "block-076-prompt.md",
+      "hotels": 50,
+      "range": "3751-3800",
+      "sample_cities": [
+        "Amblar-Don",
+        "Ameglia",
+        "Amelia",
+        "Amendolara"
+      ]
+    },
+    {
+      "block": 77,
+      "file": "block-077-prompt.md",
+      "hotels": 50,
+      "range": "3801-3850",
+      "sample_cities": [
+        "Amendolara",
+        "Ameno",
+        "Amorosi",
+        "Ampezzo"
+      ]
+    },
+    {
+      "block": 78,
+      "file": "block-078-prompt.md",
+      "hotels": 50,
+      "range": "3851-3900",
+      "sample_cities": [
+        "Ampezzo",
+        "Amsterdam",
+        "Anacapri",
+        "Anagni",
+        "Ancarano"
+      ]
+    },
+    {
+      "block": 79,
+      "file": "block-079-prompt.md",
+      "hotels": 50,
+      "range": "3901-3950",
+      "sample_cities": [
+        "Ancarano",
+        "Ancona",
+        "Andali"
+      ]
+    },
+    {
+      "block": 80,
+      "file": "block-080-prompt.md",
+      "hotels": 50,
+      "range": "3951-4000",
+      "sample_cities": [
+        "Andalo",
+        "Andalo Valtellino",
+        "Andezeno",
+        "Andora"
+      ]
+    },
+    {
+      "block": 81,
+      "file": "block-081-prompt.md",
+      "hotels": 50,
+      "range": "4001-4050",
+      "sample_cities": [
+        "Andora",
+        "Andorno Micca",
+        "Andrano"
+      ]
+    },
+    {
+      "block": 82,
+      "file": "block-082-prompt.md",
+      "hotels": 50,
+      "range": "4051-4100",
+      "sample_cities": [
+        "Andrano",
+        "Andrate",
+        "Andreis",
+        "Andretta",
+        "Andria"
+      ]
+    },
+    {
+      "block": 83,
+      "file": "block-083-prompt.md",
+      "hotels": 50,
+      "range": "4101-4150",
+      "sample_cities": [
+        "Andria",
+        "Andriano/Andrian",
+        "Anela",
+        "Anfo"
+      ]
+    },
+    {
+      "block": 84,
+      "file": "block-084-prompt.md",
+      "hotels": 50,
+      "range": "4151-4200",
+      "sample_cities": [
+        "Anfo",
+        "Angera",
+        "Anghiari",
+        "Angiari"
+      ]
+    },
+    {
+      "block": 85,
+      "file": "block-085-prompt.md",
+      "hotels": 50,
+      "range": "4201-4250",
+      "sample_cities": [
+        "Angiari",
+        "Angolo Terme",
+        "Angri"
+      ]
+    },
+    {
+      "block": 86,
+      "file": "block-086-prompt.md",
+      "hotels": 50,
+      "range": "4251-4300",
+      "sample_cities": [
+        "Angri",
+        "Angrogna",
+        "Anguillara Sabazia",
+        "Anguillara Veneta"
+      ]
+    },
+    {
+      "block": 87,
+      "file": "block-087-prompt.md",
+      "hotels": 50,
+      "range": "4301-4350",
+      "sample_cities": [
+        "Annicco",
+        "Annone di Brianza",
+        "Annone Veneto",
+        "Anoia"
+      ]
+    },
+    {
+      "block": 88,
+      "file": "block-088-prompt.md",
+      "hotels": 50,
+      "range": "4351-4400",
+      "sample_cities": [
+        "Anoia",
+        "Antegnate",
+        "Anterivo/Altrei",
+        "Antey-Saint-Andr�"
+      ]
+    },
+    {
+      "block": 89,
+      "file": "block-089-prompt.md",
+      "hotels": 50,
+      "range": "4401-4450",
+      "sample_cities": [
+        "Antey-Saint-Andr�",
+        "Anticoli Corrado",
+        "Antignano",
+        "Antillo"
+      ]
+    },
+    {
+      "block": 90,
+      "file": "block-090-prompt.md",
+      "hotels": 50,
+      "range": "4451-4500",
+      "sample_cities": [
+        "Antillo",
+        "Antonimina",
+        "Antrodoco",
+        "Antrona Schieranco"
+      ]
+    },
+    {
+      "block": 91,
+      "file": "block-091-prompt.md",
+      "hotels": 50,
+      "range": "4501-4550",
+      "sample_cities": [
+        "Antrona Schieranco",
+        "Anversa degli Abruzzi",
+        "Anzano del Parco",
+        "Anzano di Puglia",
+        "Anzi"
+      ]
+    },
+    {
+      "block": 92,
+      "file": "block-092-prompt.md",
+      "hotels": 50,
+      "range": "4551-4600",
+      "sample_cities": [
+        "Anzio",
+        "Anzola d'Ossola",
+        "Anzola dell'Emilia"
+      ]
+    },
+    {
+      "block": 93,
+      "file": "block-093-prompt.md",
+      "hotels": 50,
+      "range": "4601-4650",
+      "sample_cities": [
+        "Anzola dell'Emilia",
+        "Aosta",
+        "Apecchio",
+        "Apice"
+      ]
+    },
+    {
+      "block": 94,
+      "file": "block-094-prompt.md",
+      "hotels": 50,
+      "range": "4651-4700",
+      "sample_cities": [
+        "Apice",
+        "Apiro",
+        "Apollosa",
+        "Appiano Gentile"
+      ]
+    },
+    {
+      "block": 95,
+      "file": "block-095-prompt.md",
+      "hotels": 50,
+      "range": "4701-4750",
+      "sample_cities": [
+        "Appiano Gentile",
+        "Appiano sulla strada del vino/Eppan an der Weinstra�e",
+        "Appignano",
+        "Appignano del Tronto",
+        "Aprica"
+      ]
+    },
+    {
+      "block": 96,
+      "file": "block-096-prompt.md",
+      "hotels": 50,
+      "range": "4751-4800",
+      "sample_cities": [
+        "Aprica",
+        "Apricale",
+        "Apricena",
+        "Aprigliano"
+      ]
+    },
+    {
+      "block": 97,
+      "file": "block-097-prompt.md",
+      "hotels": 50,
+      "range": "4801-4850",
+      "sample_cities": [
+        "Aprigliano",
+        "Aprilia",
+        "Aquara",
+        "Aquila d'Arroscia"
+      ]
+    },
+    {
+      "block": 98,
+      "file": "block-098-prompt.md",
+      "hotels": 50,
+      "range": "4851-4900",
+      "sample_cities": [
+        "Aquila d'Arroscia",
+        "Aquileia",
+        "Aquilonia",
+        "Aquino"
+      ]
+    },
+    {
+      "block": 99,
+      "file": "block-099-prompt.md",
+      "hotels": 50,
+      "range": "4901-4950",
+      "sample_cities": [
+        "Aquino",
+        "Aradeo",
+        "Aragona",
+        "Aramengo",
+        "Arba"
+      ]
+    },
+    {
+      "block": 100,
+      "file": "block-100-prompt.md",
+      "hotels": 50,
+      "range": "4951-5000",
+      "sample_cities": [
+        "Arba",
+        "Arborea",
+        "Arborio",
+        "Arbus"
+      ]
+    },
+    {
+      "block": 101,
+      "file": "block-101-prompt.md",
+      "hotels": 50,
+      "range": "5001-5050",
+      "sample_cities": [
+        "Arbus",
+        "Arcade",
+        "Arce",
+        "Arcene"
+      ]
+    },
+    {
+      "block": 102,
+      "file": "block-102-prompt.md",
+      "hotels": 50,
+      "range": "5051-5100",
+      "sample_cities": [
+        "Arcene",
+        "Arcevia",
+        "Archi",
+        "Arcidosso"
+      ]
+    },
+    {
+      "block": 103,
+      "file": "block-103-prompt.md",
+      "hotels": 50,
+      "range": "5101-5150",
+      "sample_cities": [
+        "Arcidosso",
+        "Arcinazzo Romano",
+        "Arcisate",
+        "Arco"
+      ]
+    },
+    {
+      "block": 104,
+      "file": "block-104-prompt.md",
+      "hotels": 50,
+      "range": "5151-5200",
+      "sample_cities": [
+        "Arco",
+        "Arcola",
+        "Arcole",
+        "Arconate",
+        "Arcore"
+      ]
+    },
+    {
+      "block": 105,
+      "file": "block-105-prompt.md",
+      "hotels": 50,
+      "range": "5201-5250",
+      "sample_cities": [
+        "Arcore",
+        "Arcugnano",
+        "Ardara",
+        "Ardauli",
+        "Ardea"
+      ]
+    },
+    {
+      "block": 106,
+      "file": "block-106-prompt.md",
+      "hotels": 50,
+      "range": "5251-5300",
+      "sample_cities": [
+        "Ardea",
+        "Ardenno",
+        "Ardesio",
+        "Ardore",
+        "Arena"
+      ]
+    },
+    {
+      "block": 107,
+      "file": "block-107-prompt.md",
+      "hotels": 50,
+      "range": "5301-5350",
+      "sample_cities": [
+        "Arena",
+        "Arena Po",
+        "Arenzano",
+        "Arese"
+      ]
+    },
+    {
+      "block": 108,
+      "file": "block-108-prompt.md",
+      "hotels": 50,
+      "range": "5351-5400",
+      "sample_cities": [
+        "Arese",
+        "Arezzo",
+        "Argegno",
+        "Argelato"
+      ]
+    },
+    {
+      "block": 109,
+      "file": "block-109-prompt.md",
+      "hotels": 50,
+      "range": "5401-5450",
+      "sample_cities": [
+        "Argelato",
+        "Argenta",
+        "Argentera",
+        "Arguello",
+        "Argusto"
+      ]
+    },
+    {
+      "block": 110,
+      "file": "block-110-prompt.md",
+      "hotels": 50,
+      "range": "5451-5500",
+      "sample_cities": [
+        "Argusto",
+        "Ari",
+        "Ariano Irpino",
+        "Ariano nel Polesine"
+      ]
+    },
+    {
+      "block": 111,
+      "file": "block-111-prompt.md",
+      "hotels": 50,
+      "range": "5501-5550",
+      "sample_cities": [
+        "Ariano nel Polesine",
+        "Ariccia",
+        "Arignano",
+        "Aritzo",
+        "Arizzano"
+      ]
+    },
+    {
+      "block": 112,
+      "file": "block-112-prompt.md",
+      "hotels": 50,
+      "range": "5551-5600",
+      "sample_cities": [
+        "Arizzano",
+        "Arlena di Castro",
+        "Arluno",
+        "Armeno",
+        "Armento"
+      ]
+    },
+    {
+      "block": 113,
+      "file": "block-113-prompt.md",
+      "hotels": 50,
+      "range": "5601-5650",
+      "sample_cities": [
+        "Armento",
+        "Armo",
+        "Armungia",
+        "Arnad"
+      ]
+    },
+    {
+      "block": 114,
+      "file": "block-114-prompt.md",
+      "hotels": 50,
+      "range": "5651-5700",
+      "sample_cities": [
+        "Arnad",
+        "Arnara",
+        "Arnasco",
+        "Arnesano",
+        "Arola"
+      ]
+    },
+    {
+      "block": 115,
+      "file": "block-115-prompt.md",
+      "hotels": 50,
+      "range": "5701-5750",
+      "sample_cities": [
+        "Arona",
+        "Arosio",
+        "Arpaia",
+        "Arpaise",
+        "Arpino"
+      ]
+    },
+    {
+      "block": 116,
+      "file": "block-116-prompt.md",
+      "hotels": 50,
+      "range": "5751-5800",
+      "sample_cities": [
+        "Arquata Scrivia",
+        "Arqu� Petrarca",
+        "Arqu� Polesine",
+        "Arre"
+      ]
+    },
+    {
+      "block": 117,
+      "file": "block-117-prompt.md",
+      "hotels": 50,
+      "range": "5801-5850",
+      "sample_cities": [
+        "Arrone",
+        "Arsago Seprio",
+        "Arsiero",
+        "Arsita"
+      ]
+    },
+    {
+      "block": 118,
+      "file": "block-118-prompt.md",
+      "hotels": 50,
+      "range": "5851-5900",
+      "sample_cities": [
+        "Arsita",
+        "Arsi�",
+        "Arsoli",
+        "Arta Terme"
+      ]
+    },
+    {
+      "block": 119,
+      "file": "block-119-prompt.md",
+      "hotels": 50,
+      "range": "5901-5950",
+      "sample_cities": [
+        "Arta Terme",
+        "Artegna",
+        "Artena",
+        "Artogne"
+      ]
+    },
+    {
+      "block": 120,
+      "file": "block-120-prompt.md",
+      "hotels": 50,
+      "range": "5951-6000",
+      "sample_cities": [
+        "Artogne",
+        "Arvier",
+        "Arzachena",
+        "Arzago d'Adda",
+        "Arzana"
+      ]
+    },
+    {
+      "block": 121,
+      "file": "block-121-prompt.md",
+      "hotels": 50,
+      "range": "6001-6050",
+      "sample_cities": [
+        "Arzana",
+        "Arzano",
+        "Arzergrande",
+        "Arzignano"
+      ]
+    },
+    {
+      "block": 122,
+      "file": "block-122-prompt.md",
+      "hotels": 50,
+      "range": "6051-6100",
+      "sample_cities": [
+        "Arzignano",
+        "Ascea",
+        "Asciano",
+        "Ascoli Piceno"
+      ]
+    },
+    {
+      "block": 123,
+      "file": "block-123-prompt.md",
+      "hotels": 50,
+      "range": "6101-6150",
+      "sample_cities": [
+        "Ascoli Piceno",
+        "Ascoli Satriano",
+        "Ascrea",
+        "Asiago"
+      ]
+    },
+    {
+      "block": 124,
+      "file": "block-124-prompt.md",
+      "hotels": 50,
+      "range": "6151-6200",
+      "sample_cities": [
+        "Asiago",
+        "Asigliano Veneto",
+        "Asigliano Vercellese",
+        "Asola",
+        "Asolo"
+      ]
+    },
+    {
+      "block": 125,
+      "file": "block-125-prompt.md",
+      "hotels": 50,
+      "range": "6201-6250",
+      "sample_cities": [
+        "Assago",
+        "Assemini",
+        "Assisi"
+      ]
+    },
+    {
+      "block": 126,
+      "file": "block-126-prompt.md",
+      "hotels": 50,
+      "range": "6251-6300",
+      "sample_cities": [
+        "Assisi",
+        "Asso",
+        "Assolo",
+        "Assoro",
+        "Asti"
+      ]
+    },
+    {
+      "block": 127,
+      "file": "block-127-prompt.md",
+      "hotels": 50,
+      "range": "6301-6350",
+      "sample_cities": [
+        "Asti",
+        "Asuni",
+        "Ateleta",
+        "Atella",
+        "Atena Lucana"
+      ]
+    },
+    {
+      "block": 128,
+      "file": "block-128-prompt.md",
+      "hotels": 50,
+      "range": "6351-6400",
+      "sample_cities": [
+        "Atena Lucana",
+        "Atessa",
+        "Atina",
+        "Atrani",
+        "Atri"
+      ]
+    },
+    {
+      "block": 129,
+      "file": "block-129-prompt.md",
+      "hotels": 50,
+      "range": "6401-6450",
+      "sample_cities": [
+        "Atri",
+        "Atripalda",
+        "Attigliano",
+        "Attimis",
+        "Atzara"
+      ]
+    },
+    {
+      "block": 130,
+      "file": "block-130-prompt.md",
+      "hotels": 50,
+      "range": "6451-6500",
+      "sample_cities": [
+        "Augusta",
+        "Auletta",
+        "Aulla",
+        "Aurano"
+      ]
+    },
+    {
+      "block": 131,
+      "file": "block-131-prompt.md",
+      "hotels": 50,
+      "range": "6501-6550",
+      "sample_cities": [
+        "Aurano",
+        "Aurigo",
+        "Auronzo di Cadore",
+        "Ausonia"
+      ]
+    },
+    {
+      "block": 132,
+      "file": "block-132-prompt.md",
+      "hotels": 50,
+      "range": "6551-6600",
+      "sample_cities": [
+        "Ausonia",
+        "Austis",
+        "Avegno",
+        "Avelengo/Hafling"
+      ]
+    },
+    {
+      "block": 133,
+      "file": "block-133-prompt.md",
+      "hotels": 50,
+      "range": "6601-6650",
+      "sample_cities": [
+        "Avelengo/Hafling",
+        "Avella",
+        "Avellino",
+        "Averara",
+        "Aversa"
+      ]
+    },
+    {
+      "block": 134,
+      "file": "block-134-prompt.md",
+      "hotels": 50,
+      "range": "6651-6700",
+      "sample_cities": [
+        "Aversa",
+        "Avetrana",
+        "Avezzano",
+        "Aviano"
+      ]
+    },
+    {
+      "block": 135,
+      "file": "block-135-prompt.md",
+      "hotels": 50,
+      "range": "6701-6750",
+      "sample_cities": [
+        "Aviano",
+        "Aviatico",
+        "Avigliana",
+        "Avigliano",
+        "Avigliano Umbro"
+      ]
+    },
+    {
+      "block": 136,
+      "file": "block-136-prompt.md",
+      "hotels": 50,
+      "range": "6751-6800",
+      "sample_cities": [
+        "Avigliano Umbro",
+        "Avio",
+        "Avise",
+        "Avola",
+        "Avolasca"
+      ]
+    },
+    {
+      "block": 137,
+      "file": "block-137-prompt.md",
+      "hotels": 50,
+      "range": "6801-6850",
+      "sample_cities": [
+        "Ayas",
+        "Aymavilles",
+        "Azeglio",
+        "Azzanello",
+        "Azzano d'Asti"
+      ]
+    },
+    {
+      "block": 138,
+      "file": "block-138-prompt.md",
+      "hotels": 50,
+      "range": "6851-6900",
+      "sample_cities": [
+        "Azzano d'Asti",
+        "Azzano Decimo",
+        "Azzano Mella",
+        "Azzano San Paolo",
+        "Azzate"
+      ]
+    },
+    {
+      "block": 139,
+      "file": "block-139-prompt.md",
+      "hotels": 50,
+      "range": "6901-6950",
+      "sample_cities": [
+        "Azzate",
+        "Azzio",
+        "Azzone",
+        "Baceno"
+      ]
+    },
+    {
+      "block": 140,
+      "file": "block-140-prompt.md",
+      "hotels": 50,
+      "range": "6951-7000",
+      "sample_cities": [
+        "Baceno",
+        "Bacoli",
+        "Badalucco",
+        "Badesi"
+      ]
+    },
+    {
+      "block": 141,
+      "file": "block-141-prompt.md",
+      "hotels": 50,
+      "range": "7001-7050",
+      "sample_cities": [
+        "Badesi",
+        "Badia Calavena",
+        "Badia Pavese",
+        "Badia Polesine",
+        "Badia Tedalda"
+      ]
+    },
+    {
+      "block": 142,
+      "file": "block-142-prompt.md",
+      "hotels": 50,
+      "range": "7051-7100",
+      "sample_cities": [
+        "Badia Tedalda",
+        "Badia/Abtei",
+        "Badolato",
+        "Bagaladi"
+      ]
+    },
+    {
+      "block": 143,
+      "file": "block-143-prompt.md",
+      "hotels": 50,
+      "range": "7101-7150",
+      "sample_cities": [
+        "Bagaladi",
+        "Bagheria",
+        "Bagnacavallo",
+        "Bagnara Calabra"
+      ]
+    },
+    {
+      "block": 144,
+      "file": "block-144-prompt.md",
+      "hotels": 50,
+      "range": "7151-7200",
+      "sample_cities": [
+        "Bagnara Calabra",
+        "Bagnara di Romagna",
+        "Bagnaria",
+        "Bagnaria Arsa",
+        "Bagnasco"
+      ]
+    },
+    {
+      "block": 145,
+      "file": "block-145-prompt.md",
+      "hotels": 50,
+      "range": "7201-7250",
+      "sample_cities": [
+        "Bagnasco",
+        "Bagnatica",
+        "Bagni di Lucca",
+        "Bagno a Ripoli"
+      ]
+    },
+    {
+      "block": 146,
+      "file": "block-146-prompt.md",
+      "hotels": 50,
+      "range": "7251-7300",
+      "sample_cities": [
+        "Bagno a Ripoli",
+        "Bagno di Romagna",
+        "Bagnoli del Trigno",
+        "Bagnoli di Sopra"
+      ]
+    },
+    {
+      "block": 147,
+      "file": "block-147-prompt.md",
+      "hotels": 50,
+      "range": "7301-7350",
+      "sample_cities": [
+        "Bagnoli di Sopra",
+        "Bagnoli Irpino",
+        "Bagnolo Cremasco",
+        "Bagnolo del Salento",
+        "Bagnolo di Po"
+      ]
+    },
+    {
+      "block": 148,
+      "file": "block-148-prompt.md",
+      "hotels": 50,
+      "range": "7351-7400",
+      "sample_cities": [
+        "Bagnolo di Po",
+        "Bagnolo in Piano",
+        "Bagnolo Mella",
+        "Bagnolo Piemonte"
+      ]
+    },
+    {
+      "block": 149,
+      "file": "block-149-prompt.md",
+      "hotels": 50,
+      "range": "7401-7450",
+      "sample_cities": [
+        "Bagnolo Piemonte",
+        "Bagnolo San Vito",
+        "Bagnone",
+        "Bagnoregio"
+      ]
+    },
+    {
+      "block": 150,
+      "file": "block-150-prompt.md",
+      "hotels": 50,
+      "range": "7451-7500",
+      "sample_cities": [
+        "Bagnoregio",
+        "Bagolino",
+        "Baia e Latina",
+        "Baiano",
+        "Bairo"
+      ]
+    },
+    {
+      "block": 151,
+      "file": "block-151-prompt.md",
+      "hotels": 50,
+      "range": "7501-7550",
+      "sample_cities": [
+        "Baiso",
+        "Bajardo",
+        "Balangero",
+        "Baldichieri d'Asti",
+        "Baldissero Canavese"
+      ]
+    },
+    {
+      "block": 152,
+      "file": "block-152-prompt.md",
+      "hotels": 50,
+      "range": "7551-7600",
+      "sample_cities": [
+        "Baldissero d'Alba",
+        "Baldissero Torinese",
+        "Balestrate",
+        "Balestrino"
+      ]
+    },
+    {
+      "block": 153,
+      "file": "block-153-prompt.md",
+      "hotels": 50,
+      "range": "7601-7650",
+      "sample_cities": [
+        "Balestrino",
+        "Ballabio",
+        "Ballao",
+        "Balme",
+        "Balmuccia"
+      ]
+    },
+    {
+      "block": 154,
+      "file": "block-154-prompt.md",
+      "hotels": 50,
+      "range": "7651-7700",
+      "sample_cities": [
+        "Balmuccia",
+        "Balocco",
+        "Balsorano",
+        "Balvano",
+        "Balzola"
+      ]
+    },
+    {
+      "block": 155,
+      "file": "block-155-prompt.md",
+      "hotels": 50,
+      "range": "7701-7750",
+      "sample_cities": [
+        "Banari",
+        "Banchette",
+        "Bangkok",
+        "Bannio Anzino",
+        "Banzi"
+      ]
+    },
+    {
+      "block": 156,
+      "file": "block-156-prompt.md",
+      "hotels": 50,
+      "range": "7751-7800",
+      "sample_cities": [
+        "Baragiano",
+        "Baranello",
+        "Barano d'Ischia",
+        "Baranzate"
+      ]
+    },
+    {
+      "block": 157,
+      "file": "block-157-prompt.md",
+      "hotels": 50,
+      "range": "7801-7850",
+      "sample_cities": [
+        "Baranzate",
+        "Barasso",
+        "Baratili San Pietro",
+        "Barbania",
+        "Barbara"
+      ]
+    },
+    {
+      "block": 158,
+      "file": "block-158-prompt.md",
+      "hotels": 50,
+      "range": "7851-7900",
+      "sample_cities": [
+        "Barbara",
+        "Barbarano Mossano",
+        "Barbarano Romano",
+        "Barbaresco"
+      ]
+    },
+    {
+      "block": 159,
+      "file": "block-159-prompt.md",
+      "hotels": 50,
+      "range": "7901-7950",
+      "sample_cities": [
+        "Barbaresco",
+        "Barbariga",
+        "Barbata",
+        "Barberino di Mugello",
+        "Barberino Tavarnelle"
+      ]
+    },
+    {
+      "block": 160,
+      "file": "block-160-prompt.md",
+      "hotels": 50,
+      "range": "7951-8000",
+      "sample_cities": [
+        "Barberino Tavarnelle",
+        "Barbianello",
+        "Barbiano/Barbian",
+        "Barcellona Pozzo di Gotto"
+      ]
+    },
+    {
+      "block": 161,
+      "file": "block-161-prompt.md",
+      "hotels": 50,
+      "range": "8001-8050",
+      "sample_cities": [
+        "Barcellona Pozzo di Gotto",
+        "Barcelona",
+        "Barcis",
+        "Bard"
+      ]
+    },
+    {
+      "block": 162,
+      "file": "block-162-prompt.md",
+      "hotels": 50,
+      "range": "8051-8100",
+      "sample_cities": [
+        "Bardello con Malgesso e Bregano",
+        "Bardi",
+        "Bardineto",
+        "Bardolino",
+        "Bardonecchia"
+      ]
+    },
+    {
+      "block": 163,
+      "file": "block-163-prompt.md",
+      "hotels": 50,
+      "range": "8101-8150",
+      "sample_cities": [
+        "Bardonecchia",
+        "Bareggio",
+        "Barengo",
+        "Baressa",
+        "Barete"
+      ]
+    },
+    {
+      "block": 164,
+      "file": "block-164-prompt.md",
+      "hotels": 50,
+      "range": "8151-8200",
+      "sample_cities": [
+        "Barete",
+        "Barga",
+        "Bargagli",
+        "Barge",
+        "Barghe"
+      ]
+    },
+    {
+      "block": 165,
+      "file": "block-165-prompt.md",
+      "hotels": 50,
+      "range": "8201-8250",
+      "sample_cities": [
+        "Barghe",
+        "Bari",
+        "Bari Sardo"
+      ]
+    },
+    {
+      "block": 166,
+      "file": "block-166-prompt.md",
+      "hotels": 50,
+      "range": "8251-8300",
+      "sample_cities": [
+        "Bari Sardo",
+        "Bariano",
+        "Baricella",
+        "Barile",
+        "Barisciano"
+      ]
+    },
+    {
+      "block": 167,
+      "file": "block-167-prompt.md",
+      "hotels": 50,
+      "range": "8301-8350",
+      "sample_cities": [
+        "Barisciano",
+        "Barlassina",
+        "Barletta",
+        "Barni",
+        "Barolo"
+      ]
+    },
+    {
+      "block": 168,
+      "file": "block-168-prompt.md",
+      "hotels": 50,
+      "range": "8351-8400",
+      "sample_cities": [
+        "Barolo",
+        "Barone Canavese",
+        "Baronissi",
+        "Barrafranca"
+      ]
+    },
+    {
+      "block": 169,
+      "file": "block-169-prompt.md",
+      "hotels": 50,
+      "range": "8401-8450",
+      "sample_cities": [
+        "Barrafranca",
+        "Barrali",
+        "Barrea",
+        "Barumini",
+        "Barzago"
+      ]
+    },
+    {
+      "block": 170,
+      "file": "block-170-prompt.md",
+      "hotels": 50,
+      "range": "8451-8500",
+      "sample_cities": [
+        "Barzan�",
+        "Barzio",
+        "Basaluzzo",
+        "Bascap�",
+        "Baschi"
+      ]
+    },
+    {
+      "block": 171,
+      "file": "block-171-prompt.md",
+      "hotels": 50,
+      "range": "8501-8550",
+      "sample_cities": [
+        "Baschi",
+        "Basciano",
+        "Baselga di Pin�",
+        "Baselice",
+        "Basiano"
+      ]
+    },
+    {
+      "block": 172,
+      "file": "block-172-prompt.md",
+      "hotels": 50,
+      "range": "8551-8600",
+      "sample_cities": [
+        "Basic�",
+        "Basiglio",
+        "Basiliano",
+        "Bassano Bresciano",
+        "Bassano del Grappa"
+      ]
+    },
+    {
+      "block": 173,
+      "file": "block-173-prompt.md",
+      "hotels": 50,
+      "range": "8601-8650",
+      "sample_cities": [
+        "Bassano del Grappa",
+        "Bassano in Teverina",
+        "Bassano Romano",
+        "Bassiano"
+      ]
+    },
+    {
+      "block": 174,
+      "file": "block-174-prompt.md",
+      "hotels": 50,
+      "range": "8651-8700",
+      "sample_cities": [
+        "Bassiano",
+        "Bassignana",
+        "Bastia Mondov�",
+        "Bastia Umbra"
+      ]
+    },
+    {
+      "block": 175,
+      "file": "block-175-prompt.md",
+      "hotels": 50,
+      "range": "8701-8750",
+      "sample_cities": [
+        "Bastia Umbra",
+        "Bastida Pancarana",
+        "Bastiglia",
+        "Battaglia Terme",
+        "Battifollo"
+      ]
+    },
+    {
+      "block": 176,
+      "file": "block-176-prompt.md",
+      "hotels": 50,
+      "range": "8751-8800",
+      "sample_cities": [
+        "Battipaglia",
+        "Battuda",
+        "Baucina",
+        "Bauladu",
+        "Baunei"
+      ]
+    },
+    {
+      "block": 177,
+      "file": "block-177-prompt.md",
+      "hotels": 50,
+      "range": "8801-8850",
+      "sample_cities": [
+        "Baveno",
+        "Bedero Valcuvia",
+        "Bedizzole",
+        "Bedollo",
+        "Bedonia"
+      ]
+    },
+    {
+      "block": 178,
+      "file": "block-178-prompt.md",
+      "hotels": 50,
+      "range": "8851-8900",
+      "sample_cities": [
+        "Bedonia",
+        "Bedulita",
+        "Bee",
+        "Beinasco",
+        "Beinette"
+      ]
+    },
+    {
+      "block": 179,
+      "file": "block-179-prompt.md",
+      "hotels": 50,
+      "range": "8901-8950",
+      "sample_cities": [
+        "Beinette",
+        "Belcastro",
+        "Belfiore",
+        "Belforte all'Isauro",
+        "Belforte del Chienti"
+      ]
+    },
+    {
+      "block": 180,
+      "file": "block-180-prompt.md",
+      "hotels": 50,
+      "range": "8951-9000",
+      "sample_cities": [
+        "Belforte del Chienti",
+        "Belforte Monferrato",
+        "Belgioioso",
+        "Belgirate",
+        "Bella"
+      ]
+    },
+    {
+      "block": 181,
+      "file": "block-181-prompt.md",
+      "hotels": 50,
+      "range": "9001-9050",
+      "sample_cities": [
+        "Bellagio",
+        "Bellano",
+        "Bellante",
+        "Bellaria-Igea Marina"
+      ]
+    },
+    {
+      "block": 182,
+      "file": "block-182-prompt.md",
+      "hotels": 50,
+      "range": "9051-9100",
+      "sample_cities": [
+        "Bellaria-Igea Marina",
+        "Bellegra",
+        "Bellino",
+        "Bellinzago Lombardo"
+      ]
+    },
+    {
+      "block": 183,
+      "file": "block-183-prompt.md",
+      "hotels": 50,
+      "range": "9101-9150",
+      "sample_cities": [
+        "Bellinzago Lombardo",
+        "Bellinzago Novarese",
+        "Bellizzi",
+        "Bellona",
+        "Bellosguardo"
+      ]
+    },
+    {
+      "block": 184,
+      "file": "block-184-prompt.md",
+      "hotels": 50,
+      "range": "9151-9200",
+      "sample_cities": [
+        "Belluno",
+        "Belmonte Calabro",
+        "Belmonte Castello",
+        "Belmonte del Sannio",
+        "Belmonte in Sabina"
+      ]
+    },
+    {
+      "block": 185,
+      "file": "block-185-prompt.md",
+      "hotels": 50,
+      "range": "9201-9250",
+      "sample_cities": [
+        "Belpasso",
+        "Belsito",
+        "Belvedere di Spinello",
+        "Belvedere Langhe"
+      ]
+    },
+    {
+      "block": 186,
+      "file": "block-186-prompt.md",
+      "hotels": 50,
+      "range": "9251-9300",
+      "sample_cities": [
+        "Belvedere Langhe",
+        "Belvedere Marittimo",
+        "Belvedere Ostrense",
+        "Belveglio"
+      ]
+    },
+    {
+      "block": 187,
+      "file": "block-187-prompt.md",
+      "hotels": 50,
+      "range": "9301-9350",
+      "sample_cities": [
+        "Belv�",
+        "Bema",
+        "Bene Lario",
+        "Bene Vagienna",
+        "Benetutti"
+      ]
+    },
+    {
+      "block": 188,
+      "file": "block-188-prompt.md",
+      "hotels": 50,
+      "range": "9351-9400",
+      "sample_cities": [
+        "Benetutti",
+        "Benevello",
+        "Benevento",
+        "Benna",
+        "Bentivoglio"
+      ]
+    },
+    {
+      "block": 189,
+      "file": "block-189-prompt.md",
+      "hotels": 50,
+      "range": "9401-9450",
+      "sample_cities": [
+        "Berceto",
+        "Berchidda",
+        "Beregazzo con Figliaro",
+        "Bereguardo",
+        "Bergamasco"
+      ]
+    },
+    {
+      "block": 190,
+      "file": "block-190-prompt.md",
+      "hotels": 50,
+      "range": "9451-9500",
+      "sample_cities": [
+        "Bergamasco",
+        "Bergamo",
+        "Bergantino",
+        "Bergeggi"
+      ]
+    },
+    {
+      "block": 191,
+      "file": "block-191-prompt.md",
+      "hotels": 50,
+      "range": "9501-9550",
+      "sample_cities": [
+        "Bergeggi",
+        "Bergolo",
+        "Berlin",
+        "Berlingo",
+        "Bernalda"
+      ]
+    },
+    {
+      "block": 192,
+      "file": "block-192-prompt.md",
+      "hotels": 50,
+      "range": "9551-9600",
+      "sample_cities": [
+        "Bernalda",
+        "Bernareggio",
+        "Bernate Ticino",
+        "Bernezzo",
+        "Bertinoro"
+      ]
+    },
+    {
+      "block": 193,
+      "file": "block-193-prompt.md",
+      "hotels": 50,
+      "range": "9601-9650",
+      "sample_cities": [
+        "Bertinoro",
+        "Bertiolo",
+        "Bertonico",
+        "Berzano di San Pietro",
+        "Berzano di Tortona"
+      ]
+    },
+    {
+      "block": 194,
+      "file": "block-194-prompt.md",
+      "hotels": 50,
+      "range": "9651-9700",
+      "sample_cities": [
+        "Berzo Inferiore",
+        "Berzo San Fermo",
+        "Besana in Brianza",
+        "Besano",
+        "Besate"
+      ]
+    },
+    {
+      "block": 195,
+      "file": "block-195-prompt.md",
+      "hotels": 50,
+      "range": "9701-9750",
+      "sample_cities": [
+        "Besenzone",
+        "Besnate",
+        "Besozzo",
+        "Bessude",
+        "Bettola"
+      ]
+    },
+    {
+      "block": 196,
+      "file": "block-196-prompt.md",
+      "hotels": 50,
+      "range": "9751-9800",
+      "sample_cities": [
+        "Bettona",
+        "Beura-Cardezza",
+        "Bevagna",
+        "Beverino",
+        "Bevilacqua"
+      ]
+    },
+    {
+      "block": 197,
+      "file": "block-197-prompt.md",
+      "hotels": 50,
+      "range": "9801-9850",
+      "sample_cities": [
+        "Bevilacqua",
+        "Biancavilla",
+        "Bianchi",
+        "Bianco",
+        "Biandrate"
+      ]
+    },
+    {
+      "block": 198,
+      "file": "block-198-prompt.md",
+      "hotels": 50,
+      "range": "9851-9900",
+      "sample_cities": [
+        "Bianz�",
+        "Biassono",
+        "Bibbiano",
+        "Bibbiena",
+        "Bibbona"
+      ]
+    },
+    {
+      "block": 199,
+      "file": "block-199-prompt.md",
+      "hotels": 50,
+      "range": "9901-9950",
+      "sample_cities": [
+        "Bibbona",
+        "Bibiana",
+        "Biccari",
+        "Bicinicco",
+        "Bidon�"
+      ]
+    },
+    {
+      "block": 200,
+      "file": "block-200-prompt.md",
+      "hotels": 50,
+      "range": "9951-10000",
+      "sample_cities": [
+        "Biella",
+        "Bienno",
+        "Bieno",
+        "Bientina",
+        "Binago"
+      ]
+    },
+    {
+      "block": 201,
+      "file": "block-201-prompt.md",
+      "hotels": 50,
+      "range": "10001-10050",
+      "sample_cities": [
+        "Binetto",
+        "Bioglio",
+        "Bionaz",
+        "Bione",
+        "Birori"
+      ]
+    },
+    {
+      "block": 202,
+      "file": "block-202-prompt.md",
+      "hotels": 50,
+      "range": "10051-10100",
+      "sample_cities": [
+        "Bisacquino",
+        "Bisceglie",
+        "Bisegna",
+        "Bisenti",
+        "Bisignano"
+      ]
+    },
+    {
+      "block": 203,
+      "file": "block-203-prompt.md",
+      "hotels": 50,
+      "range": "10101-10150",
+      "sample_cities": [
+        "Bisignano",
+        "Bistagno",
+        "Bitetto",
+        "Bitonto",
+        "Bitritto"
+      ]
+    },
+    {
+      "block": 204,
+      "file": "block-204-prompt.md",
+      "hotels": 50,
+      "range": "10151-10200",
+      "sample_cities": [
+        "Bitritto",
+        "Bitti",
+        "Bivona",
+        "Bivongi",
+        "Bizzarone"
+      ]
+    },
+    {
+      "block": 205,
+      "file": "block-205-prompt.md",
+      "hotels": 50,
+      "range": "10201-10250",
+      "sample_cities": [
+        "Bleggio Superiore",
+        "Blello",
+        "Blera",
+        "Blessagno",
+        "Blevio"
+      ]
+    },
+    {
+      "block": 206,
+      "file": "block-206-prompt.md",
+      "hotels": 50,
+      "range": "10251-10300",
+      "sample_cities": [
+        "Blufi",
+        "Boara Pisani",
+        "Bobbio",
+        "Bobbio Pellice",
+        "Boca"
+      ]
+    },
+    {
+      "block": 207,
+      "file": "block-207-prompt.md",
+      "hotels": 50,
+      "range": "10301-10350",
+      "sample_cities": [
+        "Bocchigliero",
+        "Boccioleto",
+        "Bocenago",
+        "Boffalora d'Adda",
+        "Boffalora sopra Ticino"
+      ]
+    },
+    {
+      "block": 208,
+      "file": "block-208-prompt.md",
+      "hotels": 50,
+      "range": "10351-10400",
+      "sample_cities": [
+        "Bogliasco",
+        "Bognanco",
+        "Bogogno",
+        "Boissano",
+        "Bojano"
+      ]
+    },
+    {
+      "block": 209,
+      "file": "block-209-prompt.md",
+      "hotels": 50,
+      "range": "10401-10450",
+      "sample_cities": [
+        "Bolano",
+        "Bolgare",
+        "Bollate",
+        "Bollengo",
+        "Bologna"
+      ]
+    },
+    {
+      "block": 210,
+      "file": "block-210-prompt.md",
+      "hotels": 50,
+      "range": "10451-10500",
+      "sample_cities": [
+        "Bologna",
+        "Bolognano",
+        "Bolognetta",
+        "Bolognola",
+        "Bolotana"
+      ]
+    },
+    {
+      "block": 211,
+      "file": "block-211-prompt.md",
+      "hotels": 50,
+      "range": "10501-10550",
+      "sample_cities": [
+        "Bolsena",
+        "Boltiere",
+        "Bolzano",
+        "Bolzano Novarese"
+      ]
+    },
+    {
+      "block": 212,
+      "file": "block-212-prompt.md",
+      "hotels": 50,
+      "range": "10551-10600",
+      "sample_cities": [
+        "Bolzano Novarese",
+        "Bolzano Vicentino",
+        "Bomarzo",
+        "Bomba",
+        "Bompensiere"
+      ]
+    },
+    {
+      "block": 213,
+      "file": "block-213-prompt.md",
+      "hotels": 50,
+      "range": "10601-10650",
+      "sample_cities": [
+        "Bomporto",
+        "Bonarcado",
+        "Bonassola",
+        "Bonate Sopra"
+      ]
+    },
+    {
+      "block": 214,
+      "file": "block-214-prompt.md",
+      "hotels": 50,
+      "range": "10651-10700",
+      "sample_cities": [
+        "Bonate Sotto",
+        "Bonavigo",
+        "Bondeno",
+        "Bondone",
+        "Bonea"
+      ]
+    },
+    {
+      "block": 215,
+      "file": "block-215-prompt.md",
+      "hotels": 50,
+      "range": "10701-10750",
+      "sample_cities": [
+        "Bonefro",
+        "Bonemerse",
+        "Bonifati",
+        "Bonito",
+        "Bonnanaro"
+      ]
+    },
+    {
+      "block": 216,
+      "file": "block-216-prompt.md",
+      "hotels": 50,
+      "range": "10751-10800",
+      "sample_cities": [
+        "Bonvicino",
+        "Borbona",
+        "Borca di Cadore",
+        "Bordano",
+        "Bordighera"
+      ]
+    },
+    {
+      "block": 217,
+      "file": "block-217-prompt.md",
+      "hotels": 50,
+      "range": "10801-10850",
+      "sample_cities": [
+        "Bordighera",
+        "Bordolano",
+        "Bore",
+        "Boretto",
+        "Borgarello"
+      ]
+    },
+    {
+      "block": 218,
+      "file": "block-218-prompt.md",
+      "hotels": 50,
+      "range": "10851-10900",
+      "sample_cities": [
+        "Borgetto",
+        "Borghetto d'Arroscia",
+        "Borghetto di Borbera",
+        "Borghetto di Vara",
+        "Borghetto Lodigiano"
+      ]
+    },
+    {
+      "block": 219,
+      "file": "block-219-prompt.md",
+      "hotels": 50,
+      "range": "10901-10950",
+      "sample_cities": [
+        "Borghetto Lodigiano",
+        "Borghetto Santo Spirito",
+        "Borghi",
+        "Borgia",
+        "Borgiallo"
+      ]
+    },
+    {
+      "block": 220,
+      "file": "block-220-prompt.md",
+      "hotels": 50,
+      "range": "10951-11000",
+      "sample_cities": [
+        "Borgio Verezzi",
+        "Borgo a Mozzano",
+        "Borgo Chiese",
+        "Borgo d'Ale",
+        "Borgo d'Anaunia"
+      ]
+    },
+    {
+      "block": 221,
+      "file": "block-221-prompt.md",
+      "hotels": 50,
+      "range": "11001-11050",
+      "sample_cities": [
+        "Borgo d'Anaunia",
+        "Borgo di Terzo",
+        "Borgo Lares",
+        "Borgo Mantovano",
+        "Borgo Pace"
+      ]
+    },
+    {
+      "block": 222,
+      "file": "block-222-prompt.md",
+      "hotels": 50,
+      "range": "11051-11100",
+      "sample_cities": [
+        "Borgo Priolo",
+        "Borgo San Dalmazzo",
+        "Borgo San Giacomo",
+        "Borgo San Giovanni",
+        "Borgo San Lorenzo"
+      ]
+    },
+    {
+      "block": 223,
+      "file": "block-223-prompt.md",
+      "hotels": 50,
+      "range": "11101-11150",
+      "sample_cities": [
+        "Borgo Tossignano",
+        "Borgo Val di Taro",
+        "Borgo Valbelluna",
+        "Borgo Valsugana"
+      ]
+    },
+    {
+      "block": 224,
+      "file": "block-224-prompt.md",
+      "hotels": 50,
+      "range": "11151-11200",
+      "sample_cities": [
+        "Borgo Velino",
+        "Borgo Veneto",
+        "Borgo Vercelli",
+        "Borgo Virgilio",
+        "Borgocarbonara"
+      ]
+    },
+    {
+      "block": 225,
+      "file": "block-225-prompt.md",
+      "hotels": 50,
+      "range": "11201-11250",
+      "sample_cities": [
+        "Borgone Susa",
+        "Borgonovo Val Tidone",
+        "Borgoratto Alessandrino",
+        "Borgoratto Mormorolo",
+        "Borgoricco"
+      ]
+    },
+    {
+      "block": 226,
+      "file": "block-226-prompt.md",
+      "hotels": 50,
+      "range": "11251-11300",
+      "sample_cities": [
+        "Borgorose",
+        "Borgosatollo",
+        "Borgosesia",
+        "Bormida",
+        "Bormio"
+      ]
+    },
+    {
+      "block": 227,
+      "file": "block-227-prompt.md",
+      "hotels": 50,
+      "range": "11301-11350",
+      "sample_cities": [
+        "Bornasco",
+        "Borno",
+        "Boroneddu",
+        "Borrello",
+        "Borriana"
+      ]
+    },
+    {
+      "block": 228,
+      "file": "block-228-prompt.md",
+      "hotels": 50,
+      "range": "11351-11400",
+      "sample_cities": [
+        "Borutta",
+        "Borzonasca",
+        "Bosa",
+        "Bosco Chiesanuova"
+      ]
+    },
+    {
+      "block": 229,
+      "file": "block-229-prompt.md",
+      "hotels": 50,
+      "range": "11401-11450",
+      "sample_cities": [
+        "Bosco Chiesanuova",
+        "Bosco Marengo",
+        "Bosconero",
+        "Boscoreale",
+        "Boscotrecase"
+      ]
+    },
+    {
+      "block": 230,
+      "file": "block-230-prompt.md",
+      "hotels": 50,
+      "range": "11451-11500",
+      "sample_cities": [
+        "Boscotrecase",
+        "Bosia",
+        "Bosio",
+        "Bosisio Parini",
+        "Bosnasco"
+      ]
+    },
+    {
+      "block": 231,
+      "file": "block-231-prompt.md",
+      "hotels": 50,
+      "range": "11501-11550",
+      "sample_cities": [
+        "Botricello",
+        "Botrugno",
+        "Bottanuco",
+        "Botticino",
+        "Bottidda"
+      ]
+    },
+    {
+      "block": 232,
+      "file": "block-232-prompt.md",
+      "hotels": 50,
+      "range": "11551-11600",
+      "sample_cities": [
+        "Bovalino",
+        "Bovegno",
+        "Boves",
+        "Bovezzo",
+        "Boville Ernica"
+      ]
+    },
+    {
+      "block": 233,
+      "file": "block-233-prompt.md",
+      "hotels": 50,
+      "range": "11601-11650",
+      "sample_cities": [
+        "Bovolone",
+        "Bozzole",
+        "Bozzolo",
+        "Bra",
+        "Bracca"
+      ]
+    },
+    {
+      "block": 234,
+      "file": "block-234-prompt.md",
+      "hotels": 50,
+      "range": "11651-11700",
+      "sample_cities": [
+        "Bracigliano",
+        "Braies/Prags",
+        "Brallo di Pregola",
+        "Brancaleone"
+      ]
+    },
+    {
+      "block": 235,
+      "file": "block-235-prompt.md",
+      "hotels": 50,
+      "range": "11701-11750",
+      "sample_cities": [
+        "Brancaleone",
+        "Brandico",
+        "Brandizzo",
+        "Branzi",
+        "Braone"
+      ]
+    },
+    {
+      "block": 236,
+      "file": "block-236-prompt.md",
+      "hotels": 50,
+      "range": "11751-11800",
+      "sample_cities": [
+        "Breda di Piave",
+        "Breganze",
+        "Bregnano",
+        "Brembate",
+        "Brembate di Sopra"
+      ]
+    },
+    {
+      "block": 237,
+      "file": "block-237-prompt.md",
+      "hotels": 50,
+      "range": "11801-11850",
+      "sample_cities": [
+        "Brendola",
+        "Brenna",
+        "Brennero/Brenner",
+        "Breno",
+        "Brenta"
+      ]
+    },
+    {
+      "block": 238,
+      "file": "block-238-prompt.md",
+      "hotels": 50,
+      "range": "11851-11900",
+      "sample_cities": [
+        "Brentonico",
+        "Brenzone sul Garda",
+        "Brescello",
+        "Brescia"
+      ]
+    },
+    {
+      "block": 239,
+      "file": "block-239-prompt.md",
+      "hotels": 50,
+      "range": "11901-11950",
+      "sample_cities": [
+        "Brescia",
+        "Bresimo",
+        "Bressana Bottarone",
+        "Bressanone/Brixen",
+        "Bressanvido"
+      ]
+    },
+    {
+      "block": 240,
+      "file": "block-240-prompt.md",
+      "hotels": 50,
+      "range": "11951-12000",
+      "sample_cities": [
+        "Bresso",
+        "Brezzo di Bedero",
+        "Briaglia",
+        "Briatico",
+        "Bricherasio"
+      ]
+    },
+    {
+      "block": 241,
+      "file": "block-241-prompt.md",
+      "hotels": 50,
+      "range": "12001-12050",
+      "sample_cities": [
+        "Brienno",
+        "Brienza",
+        "Briga Alta",
+        "Briga Novarese",
+        "Brignano Gera d'Adda"
+      ]
+    },
+    {
+      "block": 242,
+      "file": "block-242-prompt.md",
+      "hotels": 50,
+      "range": "12051-12100",
+      "sample_cities": [
+        "Brindisi Montagna",
+        "Brinzio",
+        "Briona",
+        "Brione",
+        "Briosco"
+      ]
+    },
+    {
+      "block": 243,
+      "file": "block-243-prompt.md",
+      "hotels": 50,
+      "range": "12101-12150",
+      "sample_cities": [
+        "Brissogne",
+        "Brittoli",
+        "Brivio",
+        "Broccostella",
+        "Brogliano"
+      ]
+    },
+    {
+      "block": 244,
+      "file": "block-244-prompt.md",
+      "hotels": 50,
+      "range": "12151-12200",
+      "sample_cities": [
+        "Brolo",
+        "Brondello",
+        "Broni",
+        "Bronte",
+        "Bronzolo/Branzoll"
+      ]
+    },
+    {
+      "block": 245,
+      "file": "block-245-prompt.md",
+      "hotels": 50,
+      "range": "12201-12250",
+      "sample_cities": [
+        "Bronzolo/Branzoll",
+        "Brossasco",
+        "Brosso",
+        "Brovello-Carpugnino",
+        "Brozolo"
+      ]
+    },
+    {
+      "block": 246,
+      "file": "block-246-prompt.md",
+      "hotels": 50,
+      "range": "12251-12300",
+      "sample_cities": [
+        "Brugnera",
+        "Bruino",
+        "Brumano",
+        "Brunate",
+        "Brunello"
+      ]
+    },
+    {
+      "block": 247,
+      "file": "block-247-prompt.md",
+      "hotels": 50,
+      "range": "12301-12350",
+      "sample_cities": [
+        "Brunico/Bruneck",
+        "Bruno",
+        "Brusaporto",
+        "Brusasco",
+        "Brusciano"
+      ]
+    },
+    {
+      "block": 248,
+      "file": "block-248-prompt.md",
+      "hotels": 50,
+      "range": "12351-12400",
+      "sample_cities": [
+        "Brusimpiano",
+        "Brusnengo",
+        "Brusson",
+        "Bruzolo",
+        "Bruzzano Zeffirio"
+      ]
+    },
+    {
+      "block": 249,
+      "file": "block-249-prompt.md",
+      "hotels": 50,
+      "range": "12401-12450",
+      "sample_cities": [
+        "Buccheri",
+        "Bucchianico",
+        "Bucciano",
+        "Buccinasco",
+        "Buccino"
+      ]
+    },
+    {
+      "block": 250,
+      "file": "block-250-prompt.md",
+      "hotels": 50,
+      "range": "12451-12500",
+      "sample_cities": [
+        "Bucine",
+        "Buddus�",
+        "Budoia",
+        "Budoni",
+        "Budrio"
+      ]
+    },
+    {
+      "block": 251,
+      "file": "block-251-prompt.md",
+      "hotels": 50,
+      "range": "12501-12550",
+      "sample_cities": [
+        "Budrio",
+        "Buggerru",
+        "Buggiano"
+      ]
+    },
+    {
+      "block": 252,
+      "file": "block-252-prompt.md",
+      "hotels": 50,
+      "range": "12551-12600",
+      "sample_cities": [
+        "Buggiano",
+        "Buglio in Monte",
+        "Bugnara",
+        "Buguggiate",
+        "Buja"
+      ]
+    },
+    {
+      "block": 253,
+      "file": "block-253-prompt.md",
+      "hotels": 50,
+      "range": "12601-12650",
+      "sample_cities": [
+        "Bulzi",
+        "Buonabitacolo",
+        "Buonalbergo",
+        "Buonconvento",
+        "Buonvicino"
+      ]
+    },
+    {
+      "block": 254,
+      "file": "block-254-prompt.md",
+      "hotels": 50,
+      "range": "12651-12700",
+      "sample_cities": [
+        "Buonvicino",
+        "Burago di Molgora",
+        "Burcei",
+        "Burgio"
+      ]
+    },
+    {
+      "block": 255,
+      "file": "block-255-prompt.md",
+      "hotels": 50,
+      "range": "12701-12750",
+      "sample_cities": [
+        "Burgio",
+        "Burgos",
+        "Buriasco",
+        "Buronzo",
+        "Busalla"
+      ]
+    },
+    {
+      "block": 256,
+      "file": "block-256-prompt.md",
+      "hotels": 50,
+      "range": "12751-12800",
+      "sample_cities": [
+        "Buscemi",
+        "Buseto Palizzolo",
+        "Bussero",
+        "Busseto"
+      ]
+    },
+    {
+      "block": 257,
+      "file": "block-257-prompt.md",
+      "hotels": 50,
+      "range": "12801-12850",
+      "sample_cities": [
+        "Busseto",
+        "Bussi sul Tirino",
+        "Busso",
+        "Bussolengo",
+        "Bussoleno"
+      ]
+    },
+    {
+      "block": 258,
+      "file": "block-258-prompt.md",
+      "hotels": 50,
+      "range": "12851-12900",
+      "sample_cities": [
+        "Busto Arsizio",
+        "Busto Garolfo",
+        "Butera",
+        "Buti",
+        "Buttapietra"
+      ]
+    },
+    {
+      "block": 259,
+      "file": "block-259-prompt.md",
+      "hotels": 50,
+      "range": "12901-12950",
+      "sample_cities": [
+        "Buttapietra",
+        "Buttigliera Alta",
+        "Buttigliera d'Asti",
+        "Buttrio",
+        "Cabella Ligure"
+      ]
+    },
+    {
+      "block": 260,
+      "file": "block-260-prompt.md",
+      "hotels": 50,
+      "range": "12951-13000",
+      "sample_cities": [
+        "Cabras",
+        "Caccamo",
+        "Caccuri",
+        "Cadegliano-Viconago",
+        "Cadelbosco di Sopra"
+      ]
+    },
+    {
+      "block": 261,
+      "file": "block-261-prompt.md",
+      "hotels": 50,
+      "range": "13001-13050",
+      "sample_cities": [
+        "Caderzone Terme",
+        "Cadoneghe",
+        "Cadorago",
+        "Cadrezzate con Osmate",
+        "Caerano di San Marco"
+      ]
+    },
+    {
+      "block": 262,
+      "file": "block-262-prompt.md",
+      "hotels": 50,
+      "range": "13051-13100",
+      "sample_cities": [
+        "Cagli",
+        "Cagliari",
+        "Caglio",
+        "Cagnano Amiterno",
+        "Cagnano Varano"
+      ]
+    },
+    {
+      "block": 263,
+      "file": "block-263-prompt.md",
+      "hotels": 50,
+      "range": "13101-13150",
+      "sample_cities": [
+        "Caianello",
+        "Caiazzo",
+        "Caines/Kuens",
+        "Caino",
+        "Caiolo"
+      ]
+    },
+    {
+      "block": 264,
+      "file": "block-264-prompt.md",
+      "hotels": 50,
+      "range": "13151-13200",
+      "sample_cities": [
+        "Cairano",
+        "Cairate",
+        "Cairo Montenotte",
+        "Caivano",
+        "Calabritto"
+      ]
+    },
+    {
+      "block": 265,
+      "file": "block-265-prompt.md",
+      "hotels": 50,
+      "range": "13201-13250",
+      "sample_cities": [
+        "Calalzo di Cadore",
+        "Calamandrana",
+        "Calamonaci",
+        "Calangianus",
+        "Calanna"
+      ]
+    },
+    {
+      "block": 266,
+      "file": "block-266-prompt.md",
+      "hotels": 50,
+      "range": "13251-13300",
+      "sample_cities": [
+        "Calascibetta",
+        "Calascio",
+        "Calasetta",
+        "Calatabiano"
+      ]
+    },
+    {
+      "block": 267,
+      "file": "block-267-prompt.md",
+      "hotels": 50,
+      "range": "13301-13350",
+      "sample_cities": [
+        "Calatabiano",
+        "Calatafimi-Segesta",
+        "Calcata",
+        "Calceranica al Lago",
+        "Calci"
+      ]
+    },
+    {
+      "block": 268,
+      "file": "block-268-prompt.md",
+      "hotels": 50,
+      "range": "13351-13400",
+      "sample_cities": [
+        "Calci",
+        "Calciano",
+        "Calcinaia",
+        "Calcinate",
+        "Calcinato"
+      ]
+    },
+    {
+      "block": 269,
+      "file": "block-269-prompt.md",
+      "hotels": 50,
+      "range": "13401-13450",
+      "sample_cities": [
+        "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+        "Caldarola",
+        "Calderara di Reno",
+        "Caldes"
+      ]
+    },
+    {
+      "block": 270,
+      "file": "block-270-prompt.md",
+      "hotels": 50,
+      "range": "13451-13500",
+      "sample_cities": [
+        "Caldes",
+        "Caldiero",
+        "Caldogno",
+        "Caldonazzo",
+        "Calendasco"
+      ]
+    },
+    {
+      "block": 271,
+      "file": "block-271-prompt.md",
+      "hotels": 50,
+      "range": "13501-13550",
+      "sample_cities": [
+        "Calestano",
+        "Calice al Cornoviglio",
+        "Calice Ligure",
+        "Calimera"
+      ]
+    },
+    {
+      "block": 272,
+      "file": "block-272-prompt.md",
+      "hotels": 50,
+      "range": "13551-13600",
+      "sample_cities": [
+        "Calimera",
+        "Calitri",
+        "Calizzano",
+        "Callabiana",
+        "Calliano"
+      ]
+    },
+    {
+      "block": 273,
+      "file": "block-273-prompt.md",
+      "hotels": 50,
+      "range": "13601-13650",
+      "sample_cities": [
+        "Calopezzati",
+        "Calosso",
+        "Caloveto",
+        "Caltabellotta",
+        "Caltagirone"
+      ]
+    },
+    {
+      "block": 274,
+      "file": "block-274-prompt.md",
+      "hotels": 50,
+      "range": "13651-13700",
+      "sample_cities": [
+        "Caltagirone",
+        "Caltanissetta",
+        "Caltavuturo",
+        "Caltignaga",
+        "Calto"
+      ]
+    },
+    {
+      "block": 275,
+      "file": "block-275-prompt.md",
+      "hotels": 50,
+      "range": "13701-13750",
+      "sample_cities": [
+        "Calvagese della Riviera",
+        "Calvanico",
+        "Calvatone",
+        "Calvello",
+        "Calvene"
+      ]
+    },
+    {
+      "block": 276,
+      "file": "block-276-prompt.md",
+      "hotels": 50,
+      "range": "13751-13800",
+      "sample_cities": [
+        "Calvera",
+        "Calvi",
+        "Calvi dell'Umbria",
+        "Calvi Risorta",
+        "Calvignano"
+      ]
+    },
+    {
+      "block": 277,
+      "file": "block-277-prompt.md",
+      "hotels": 50,
+      "range": "13801-13850",
+      "sample_cities": [
+        "Calvizzano",
+        "Camagna Monferrato",
+        "Camaiore",
+        "Camandona",
+        "Camastra"
+      ]
+    },
+    {
+      "block": 278,
+      "file": "block-278-prompt.md",
+      "hotels": 50,
+      "range": "13851-13900",
+      "sample_cities": [
+        "Cambiago",
+        "Cambiano",
+        "Cambiasca",
+        "Camburzano",
+        "Camerana"
+      ]
+    },
+    {
+      "block": 279,
+      "file": "block-279-prompt.md",
+      "hotels": 50,
+      "range": "13901-13950",
+      "sample_cities": [
+        "Camerata Nuova",
+        "Camerata Picena",
+        "Cameri",
+        "Camerino",
+        "Camerota"
+      ]
+    },
+    {
+      "block": 280,
+      "file": "block-280-prompt.md",
+      "hotels": 50,
+      "range": "13951-14000",
+      "sample_cities": [
+        "Camerota",
+        "Camigliano",
+        "Camini",
+        "Camino",
+        "Camino al Tagliamento"
+      ]
+    },
+    {
+      "block": 281,
+      "file": "block-281-prompt.md",
+      "hotels": 50,
+      "range": "14001-14050",
+      "sample_cities": [
+        "Cammarata",
+        "Camogli",
+        "Campagna",
+        "Campagna Lupia",
+        "Campagnano di Roma"
+      ]
+    },
+    {
+      "block": 282,
+      "file": "block-282-prompt.md",
+      "hotels": 50,
+      "range": "14051-14100",
+      "sample_cities": [
+        "Campagnatico",
+        "Campagnola Cremasca",
+        "Campagnola Emilia",
+        "Campana",
+        "Camparada"
+      ]
+    },
+    {
+      "block": 283,
+      "file": "block-283-prompt.md",
+      "hotels": 50,
+      "range": "14101-14150",
+      "sample_cities": [
+        "Campello sul Clitunno",
+        "Campertogno",
+        "Campi Bisenzio",
+        "Campi Salentina",
+        "Campiglia Cervo"
+      ]
+    },
+    {
+      "block": 284,
+      "file": "block-284-prompt.md",
+      "hotels": 50,
+      "range": "14151-14200",
+      "sample_cities": [
+        "Campiglia dei Berici",
+        "Campiglia Marittima",
+        "Campiglione Fenile",
+        "Campione d'Italia",
+        "Campitello di Fassa"
+      ]
+    },
+    {
+      "block": 285,
+      "file": "block-285-prompt.md",
+      "hotels": 50,
+      "range": "14201-14250",
+      "sample_cities": [
+        "Campitello di Fassa",
+        "Campli",
+        "Campo Calabro",
+        "Campo di Giove",
+        "Campo di Trens/Freienfeld"
+      ]
+    },
+    {
+      "block": 286,
+      "file": "block-286-prompt.md",
+      "hotels": 50,
+      "range": "14251-14300",
+      "sample_cities": [
+        "Campo di Trens/Freienfeld",
+        "Campo Ligure",
+        "Campo nell'Elba",
+        "Campo San Martino"
+      ]
+    },
+    {
+      "block": 287,
+      "file": "block-287-prompt.md",
+      "hotels": 50,
+      "range": "14301-14350",
+      "sample_cities": [
+        "Campo San Martino",
+        "Campo Tures/Sand in Taufers",
+        "Campobasso",
+        "Campobello di Licata",
+        "Campobello di Mazara"
+      ]
+    },
+    {
+      "block": 288,
+      "file": "block-288-prompt.md",
+      "hotels": 50,
+      "range": "14351-14400",
+      "sample_cities": [
+        "Campobello di Mazara",
+        "Campochiaro",
+        "Campodarsego",
+        "Campodenno",
+        "Campodimele"
+      ]
+    },
+    {
+      "block": 289,
+      "file": "block-289-prompt.md",
+      "hotels": 50,
+      "range": "14401-14450",
+      "sample_cities": [
+        "Campodimele",
+        "Campodipietra",
+        "Campodolcino",
+        "Campodoro",
+        "Campofelice di Roccella"
+      ]
+    },
+    {
+      "block": 290,
+      "file": "block-290-prompt.md",
+      "hotels": 50,
+      "range": "14451-14500",
+      "sample_cities": [
+        "Campofelice di Roccella",
+        "Campofilone",
+        "Campofiorito",
+        "Campoformido",
+        "Campofranco"
+      ]
+    },
+    {
+      "block": 291,
+      "file": "block-291-prompt.md",
+      "hotels": 50,
+      "range": "14501-14550",
+      "sample_cities": [
+        "Campolattaro",
+        "Campoli Appennino",
+        "Campoli del Monte Taburno",
+        "Campolieto",
+        "Campolongo Maggiore"
+      ]
+    },
+    {
+      "block": 292,
+      "file": "block-292-prompt.md",
+      "hotels": 50,
+      "range": "14551-14600",
+      "sample_cities": [
+        "Campomarino",
+        "Campomorone",
+        "Camponogara",
+        "Campora",
+        "Camporeale"
+      ]
+    },
+    {
+      "block": 293,
+      "file": "block-293-prompt.md",
+      "hotels": 50,
+      "range": "14601-14650",
+      "sample_cities": [
+        "Camporgiano",
+        "Camporosso",
+        "Camporotondo di Fiastrone",
+        "Camporotondo Etneo",
+        "Camposampiero"
+      ]
+    },
+    {
+      "block": 294,
+      "file": "block-294-prompt.md",
+      "hotels": 50,
+      "range": "14651-14700",
+      "sample_cities": [
+        "Camposampiero",
+        "Camposano",
+        "Camposanto",
+        "Campotosto",
+        "Camugnano"
+      ]
+    },
+    {
+      "block": 295,
+      "file": "block-295-prompt.md",
+      "hotels": 50,
+      "range": "14701-14750",
+      "sample_cities": [
+        "Canal San Bovo",
+        "Canale",
+        "Canale d'Agordo",
+        "Canale Monterano",
+        "Canaro"
+      ]
+    },
+    {
+      "block": 296,
+      "file": "block-296-prompt.md",
+      "hotels": 50,
+      "range": "14751-14800",
+      "sample_cities": [
+        "Canaro",
+        "Canazei",
+        "Cancellara",
+        "Cancello ed Arnone",
+        "Canda"
+      ]
+    },
+    {
+      "block": 297,
+      "file": "block-297-prompt.md",
+      "hotels": 50,
+      "range": "14801-14850",
+      "sample_cities": [
+        "Candelo",
+        "Candia Canavese",
+        "Candia Lomellina",
+        "Candiana",
+        "Candida"
+      ]
+    },
+    {
+      "block": 298,
+      "file": "block-298-prompt.md",
+      "hotels": 50,
+      "range": "14851-14900",
+      "sample_cities": [
+        "Canepina",
+        "Caneva",
+        "Canicattini Bagni",
+        "Canicatt�",
+        "Canino"
+      ]
+    },
+    {
+      "block": 299,
+      "file": "block-299-prompt.md",
+      "hotels": 50,
+      "range": "14901-14950",
+      "sample_cities": [
+        "Canistro",
+        "Canna",
+        "Cannalonga",
+        "Cannara",
+        "Cannero Riviera"
+      ]
+    },
+    {
+      "block": 300,
+      "file": "block-300-prompt.md",
+      "hotels": 50,
+      "range": "14951-15000",
+      "sample_cities": [
+        "Cannero Riviera",
+        "Canneto Pavese",
+        "Canneto sull'Oglio",
+        "Cannobio",
+        "Cannole"
+      ]
+    },
+    {
+      "block": 301,
+      "file": "block-301-prompt.md",
+      "hotels": 50,
+      "range": "15001-15050",
+      "sample_cities": [
+        "Canonica d'Adda",
+        "Canosa di Puglia",
+        "Canosa Sannita",
+        "Canosio",
+        "Canossa"
+      ]
+    },
+    {
+      "block": 302,
+      "file": "block-302-prompt.md",
+      "hotels": 50,
+      "range": "15051-15100",
+      "sample_cities": [
+        "Cantagallo",
+        "Cantalice",
+        "Cantalupa",
+        "Cantalupo in Sabina",
+        "Cantalupo Ligure"
+      ]
+    },
+    {
+      "block": 303,
+      "file": "block-303-prompt.md",
+      "hotels": 50,
+      "range": "15101-15150",
+      "sample_cities": [
+        "Cantarana",
+        "Cantello",
+        "Canterano",
+        "Cantiano",
+        "Cantoira"
+      ]
+    },
+    {
+      "block": 304,
+      "file": "block-304-prompt.md",
+      "hotels": 50,
+      "range": "15151-15200",
+      "sample_cities": [
+        "Canzano",
+        "Canzo",
+        "Caorle",
+        "Caorso",
+        "Capaccio Paestum"
+      ]
+    },
+    {
+      "block": 305,
+      "file": "block-305-prompt.md",
+      "hotels": 50,
+      "range": "15201-15250",
+      "sample_cities": [
+        "Capaccio Paestum",
+        "Capaci",
+        "Capalbio",
+        "Capannoli"
+      ]
+    },
+    {
+      "block": 306,
+      "file": "block-306-prompt.md",
+      "hotels": 50,
+      "range": "15251-15300",
+      "sample_cities": [
+        "Capannoli",
+        "Capannori",
+        "Capena",
+        "Capergnanica",
+        "Capestrano"
+      ]
+    },
+    {
+      "block": 307,
+      "file": "block-307-prompt.md",
+      "hotels": 50,
+      "range": "15301-15350",
+      "sample_cities": [
+        "Capiago Intimiano",
+        "Capistrano",
+        "Capistrello",
+        "Capitignano",
+        "Capizzi"
+      ]
+    },
+    {
+      "block": 308,
+      "file": "block-308-prompt.md",
+      "hotels": 50,
+      "range": "15351-15400",
+      "sample_cities": [
+        "Capodimonte",
+        "Capodrise",
+        "Capoliveri",
+        "Capolona"
+      ]
+    },
+    {
+      "block": 309,
+      "file": "block-309-prompt.md",
+      "hotels": 50,
+      "range": "15401-15450",
+      "sample_cities": [
+        "Capolona",
+        "Caponago",
+        "Caporciano",
+        "Caposele",
+        "Capoterra"
+      ]
+    },
+    {
+      "block": 310,
+      "file": "block-310-prompt.md",
+      "hotels": 50,
+      "range": "15451-15500",
+      "sample_cities": [
+        "Capoterra",
+        "Capovalle",
+        "Cappadocia",
+        "Cappella Cantone",
+        "Cappella de' Picenardi"
+      ]
+    },
+    {
+      "block": 311,
+      "file": "block-311-prompt.md",
+      "hotels": 50,
+      "range": "15501-15550",
+      "sample_cities": [
+        "Cappelle sul Tavo",
+        "Capracotta",
+        "Capraia e Limite",
+        "Capraia Isola",
+        "Capranica"
+      ]
+    },
+    {
+      "block": 312,
+      "file": "block-312-prompt.md",
+      "hotels": 50,
+      "range": "15551-15600",
+      "sample_cities": [
+        "Capranica",
+        "Capranica Prenestina",
+        "Caprarica di Lecce",
+        "Caprarola",
+        "Caprauna"
+      ]
+    },
+    {
+      "block": 313,
+      "file": "block-313-prompt.md",
+      "hotels": 50,
+      "range": "15601-15650",
+      "sample_cities": [
+        "Capri",
+        "Capri Leone",
+        "Capriana",
+        "Capriano del Colle",
+        "Capriata d'Orba"
+      ]
+    },
+    {
+      "block": 314,
+      "file": "block-314-prompt.md",
+      "hotels": 50,
+      "range": "15651-15700",
+      "sample_cities": [
+        "Capriati a Volturno",
+        "Caprie",
+        "Capriglia Irpina",
+        "Capriglio",
+        "Caprino Bergamasco"
+      ]
+    },
+    {
+      "block": 315,
+      "file": "block-315-prompt.md",
+      "hotels": 50,
+      "range": "15701-15750",
+      "sample_cities": [
+        "Capriva del Friuli",
+        "Capua",
+        "Capurso",
+        "Caraffa del Bianco",
+        "Caraffa di Catanzaro"
+      ]
+    },
+    {
+      "block": 316,
+      "file": "block-316-prompt.md",
+      "hotels": 50,
+      "range": "15751-15800",
+      "sample_cities": [
+        "Caraglio",
+        "Caramagna Piemonte",
+        "Caramanico Terme",
+        "Carapelle",
+        "Carapelle Calvisio"
+      ]
+    },
+    {
+      "block": 317,
+      "file": "block-317-prompt.md",
+      "hotels": 50,
+      "range": "15801-15850",
+      "sample_cities": [
+        "Carasco",
+        "Carassai",
+        "Carate Brianza",
+        "Carate Urio",
+        "Caravaggio"
+      ]
+    },
+    {
+      "block": 318,
+      "file": "block-318-prompt.md",
+      "hotels": 50,
+      "range": "15851-15900",
+      "sample_cities": [
+        "Caravate",
+        "Caravonica",
+        "Carbognano",
+        "Carbonara al Ticino",
+        "Carbonara di Nola"
+      ]
+    },
+    {
+      "block": 319,
+      "file": "block-319-prompt.md",
+      "hotels": 50,
+      "range": "15901-15950",
+      "sample_cities": [
+        "Carbonera",
+        "Carbonia",
+        "Carcare",
+        "Carcoforo",
+        "Cardano al Campo"
+      ]
+    },
+    {
+      "block": 320,
+      "file": "block-320-prompt.md",
+      "hotels": 50,
+      "range": "15951-16000",
+      "sample_cities": [
+        "Cardedu",
+        "Cardeto",
+        "Cardito",
+        "Card�",
+        "Careggine"
+      ]
+    },
+    {
+      "block": 321,
+      "file": "block-321-prompt.md",
+      "hotels": 50,
+      "range": "16001-16050",
+      "sample_cities": [
+        "Carezzano",
+        "Carfizzi",
+        "Cargeghe",
+        "Cariati",
+        "Carife"
+      ]
+    },
+    {
+      "block": 322,
+      "file": "block-322-prompt.md",
+      "hotels": 50,
+      "range": "16051-16100",
+      "sample_cities": [
+        "Carini",
+        "Carinola",
+        "Carisio",
+        "Carisolo",
+        "Carlantino"
+      ]
+    },
+    {
+      "block": 323,
+      "file": "block-323-prompt.md",
+      "hotels": 50,
+      "range": "16101-16150",
+      "sample_cities": [
+        "Carlentini",
+        "Carlino",
+        "Carloforte",
+        "Carlopoli",
+        "Carmagnola"
+      ]
+    },
+    {
+      "block": 324,
+      "file": "block-324-prompt.md",
+      "hotels": 50,
+      "range": "16151-16200",
+      "sample_cities": [
+        "Carmagnola",
+        "Carmiano",
+        "Carmignano",
+        "Carmignano di Brenta",
+        "Carnago"
+      ]
+    },
+    {
+      "block": 325,
+      "file": "block-325-prompt.md",
+      "hotels": 50,
+      "range": "16201-16250",
+      "sample_cities": [
+        "Carolei",
+        "Carona",
+        "Caronia",
+        "Caronno Pertusella",
+        "Caronno Varesino"
+      ]
+    },
+    {
+      "block": 326,
+      "file": "block-326-prompt.md",
+      "hotels": 50,
+      "range": "16251-16300",
+      "sample_cities": [
+        "Carovigno",
+        "Carovilli",
+        "Carpaneto Piacentino",
+        "Carpanzano",
+        "Carpegna"
+      ]
+    },
+    {
+      "block": 327,
+      "file": "block-327-prompt.md",
+      "hotels": 50,
+      "range": "16301-16350",
+      "sample_cities": [
+        "Carpi",
+        "Carpiano",
+        "Carpignano Salentino",
+        "Carpignano Sesia",
+        "Carpineti"
+      ]
+    },
+    {
+      "block": 328,
+      "file": "block-328-prompt.md",
+      "hotels": 50,
+      "range": "16351-16400",
+      "sample_cities": [
+        "Carpineto della Nora",
+        "Carpineto Romano",
+        "Carpineto Sinello",
+        "Carpino",
+        "Carpinone"
+      ]
+    },
+    {
+      "block": 329,
+      "file": "block-329-prompt.md",
+      "hotels": 50,
+      "range": "16401-16450",
+      "sample_cities": [
+        "Carrara",
+        "Carrega Ligure",
+        "Carro",
+        "Carrodano",
+        "Carrosio"
+      ]
+    },
+    {
+      "block": 330,
+      "file": "block-330-prompt.md",
+      "hotels": 50,
+      "range": "16451-16500",
+      "sample_cities": [
+        "Cartigliano",
+        "Cartignano",
+        "Cartoceto",
+        "Cartosio",
+        "Cartura"
+      ]
+    },
+    {
+      "block": 331,
+      "file": "block-331-prompt.md",
+      "hotels": 50,
+      "range": "16501-16550",
+      "sample_cities": [
+        "Carugo",
+        "Carunchio",
+        "Carvico",
+        "Carzano",
+        "Casabona"
+      ]
+    },
+    {
+      "block": 332,
+      "file": "block-332-prompt.md",
+      "hotels": 50,
+      "range": "16551-16600",
+      "sample_cities": [
+        "Casagiove",
+        "Casal di Principe",
+        "Casal Velino",
+        "Casalanguida",
+        "Casalattico"
+      ]
+    },
+    {
+      "block": 333,
+      "file": "block-333-prompt.md",
+      "hotels": 50,
+      "range": "16601-16650",
+      "sample_cities": [
+        "Casalborgone",
+        "Casalbuono",
+        "Casalbuttano ed Uniti",
+        "Casalciprano",
+        "Casalduni"
+      ]
+    },
+    {
+      "block": 334,
+      "file": "block-334-prompt.md",
+      "hotels": 50,
+      "range": "16651-16700",
+      "sample_cities": [
+        "Casale Marittimo",
+        "Casale Monferrato",
+        "Casale sul Sile",
+        "Casalecchio di Reno"
+      ]
+    },
+    {
+      "block": 335,
+      "file": "block-335-prompt.md",
+      "hotels": 50,
+      "range": "16701-16750",
+      "sample_cities": [
+        "Casalecchio di Reno",
+        "Casaleggio Boiro",
+        "Casaleggio Novara",
+        "Casaleone",
+        "Casaletto Lodigiano"
+      ]
+    },
+    {
+      "block": 336,
+      "file": "block-336-prompt.md",
+      "hotels": 50,
+      "range": "16751-16800",
+      "sample_cities": [
+        "Casalfiumanese",
+        "Casalgrande",
+        "Casalgrasso",
+        "Casali del Manco",
+        "Casalincontrada"
+      ]
+    },
+    {
+      "block": 337,
+      "file": "block-337-prompt.md",
+      "hotels": 50,
+      "range": "16801-16850",
+      "sample_cities": [
+        "Casalmaggiore",
+        "Casalmaiocco",
+        "Casalmorano",
+        "Casalmoro",
+        "Casalnoceto"
+      ]
+    },
+    {
+      "block": 338,
+      "file": "block-338-prompt.md",
+      "hotels": 50,
+      "range": "16851-16900",
+      "sample_cities": [
+        "Casalserugo",
+        "Casaluce",
+        "Casalvecchio di Puglia",
+        "Casalvecchio Siculo",
+        "Casalvieri"
+      ]
+    },
+    {
+      "block": 339,
+      "file": "block-339-prompt.md",
+      "hotels": 50,
+      "range": "16901-16950",
+      "sample_cities": [
+        "Casamicciola Terme",
+        "Casandrino",
+        "Casanova Lerrone",
+        "Caselle Torinese",
+        "Caserta"
+      ]
+    },
+    {
+      "block": 340,
+      "file": "block-340-prompt.md",
+      "hotels": 50,
+      "range": "16951-17000",
+      "sample_cities": [
+        "Casier",
+        "Casina",
+        "Casirate d'Adda",
+        "Caslino d'Erba",
+        "Casnate con Bernate"
+      ]
+    },
+    {
+      "block": 341,
+      "file": "block-341-prompt.md",
+      "hotels": 50,
+      "range": "17001-17050",
+      "sample_cities": [
+        "Casola Valsenio",
+        "Casole d'Elsa",
+        "Casoli",
+        "Casorate Sempione",
+        "Casorezzo"
+      ]
+    },
+    {
+      "block": 342,
+      "file": "block-342-prompt.md",
+      "hotels": 50,
+      "range": "17051-17100",
+      "sample_cities": [
+        "Casorzo Monferrato",
+        "Casperia",
+        "Caspoggio",
+        "Cassacco",
+        "Cassago Brianza"
+      ]
+    },
+    {
+      "block": 343,
+      "file": "block-343-prompt.md",
+      "hotels": 50,
+      "range": "17101-17150",
+      "sample_cities": [
+        "Cassano delle Murge",
+        "Cassano Irpino",
+        "Cassano Spinola",
+        "Cassaro",
+        "Cassiglio"
+      ]
+    },
+    {
+      "block": 344,
+      "file": "block-344-prompt.md",
+      "hotels": 50,
+      "range": "17151-17200",
+      "sample_cities": [
+        "Cassina Valsassina",
+        "Cassinasco",
+        "Cassine",
+        "Cassinelle",
+        "Cassinetta di Lugagnano"
+      ]
+    },
+    {
+      "block": 345,
+      "file": "block-345-prompt.md",
+      "hotels": 50,
+      "range": "17201-17250",
+      "sample_cities": [
+        "Castagneto Carducci",
+        "Castagneto Po",
+        "Castagnito",
+        "Castagnole delle Lanze",
+        "Castagnole Monferrato"
+      ]
+    },
+    {
+      "block": 346,
+      "file": "block-346-prompt.md",
+      "hotels": 50,
+      "range": "17251-17300",
+      "sample_cities": [
+        "Castagnole Piemonte",
+        "Castana",
+        "Castano Primo",
+        "Casteggio",
+        "Castel di Iudica"
+      ]
+    },
+    {
+      "block": 347,
+      "file": "block-347-prompt.md",
+      "hotels": 50,
+      "range": "17301-17350",
+      "sample_cities": [
+        "Castellammare del Golfo",
+        "Castellana Sicula",
+        "Castelmola",
+        "Casteltermini",
+        "Castelvetrano"
+      ]
+    },
+    {
+      "block": 348,
+      "file": "block-348-prompt.md",
+      "hotels": 50,
+      "range": "17351-17400",
+      "sample_cities": [
+        "Castelvetrano",
+        "Castiglione di Sicilia",
+        "Castrofilippo",
+        "Castroreale",
+        "Catania"
+      ]
+    },
+    {
+      "block": 349,
+      "file": "block-349-prompt.md",
+      "hotels": 50,
+      "range": "17401-17450",
+      "sample_cities": [
+        "Catania",
+        "Catanzaro"
+      ]
+    },
+    {
+      "block": 350,
+      "file": "block-350-prompt.md",
+      "hotels": 50,
+      "range": "17451-17500",
+      "sample_cities": [
+        "Catanzaro",
+        "Catenanuova",
+        "Cattolica Eraclea",
+        "Cebu",
+        "Cefal�"
+      ]
+    },
+    {
+      "block": 351,
+      "file": "block-351-prompt.md",
+      "hotels": 50,
+      "range": "17501-17550",
+      "sample_cities": [
+        "Cefal�",
+        "Cefal� Diana",
+        "Centuripe",
+        "Cerami",
+        "Cerda"
+      ]
+    },
+    {
+      "block": 352,
+      "file": "block-352-prompt.md",
+      "hotels": 50,
+      "range": "17551-17600",
+      "sample_cities": [
+        "Chiusa Sclafani",
+        "Cianciana",
+        "Ciminna",
+        "Cinisi",
+        "Cinque Terre"
+      ]
+    },
+    {
+      "block": 353,
+      "file": "block-353-prompt.md",
+      "hotels": 50,
+      "range": "17601-17650",
+      "sample_cities": [
+        "Collesano",
+        "Comiso",
+        "Comitini",
+        "Como",
+        "Condr�"
+      ]
+    },
+    {
+      "block": 354,
+      "file": "block-354-prompt.md",
+      "hotels": 50,
+      "range": "17651-17700",
+      "sample_cities": [
+        "Condr�",
+        "Contessa Entellina",
+        "Corleone",
+        "Cortina d'Ampezzo",
+        "Custonaci"
+      ]
+    },
+    {
+      "block": 355,
+      "file": "block-355-prompt.md",
+      "hotels": 50,
+      "range": "17701-17750",
+      "sample_cities": [
+        "Custonaci",
+        "Delia",
+        "Dubai",
+        "Enna",
+        "Erice"
+      ]
+    },
+    {
+      "block": 356,
+      "file": "block-356-prompt.md",
+      "hotels": 50,
+      "range": "17751-17800",
+      "sample_cities": [
+        "Falcone",
+        "Favara",
+        "Favignana",
+        "Ferla",
+        "Ferrara"
+      ]
+    },
+    {
+      "block": 357,
+      "file": "block-357-prompt.md",
+      "hotels": 50,
+      "range": "17801-17850",
+      "sample_cities": [
+        "Ficarazzi",
+        "Ficarra",
+        "Firenze",
+        "Fiumedinisi",
+        "Fiumefreddo di Sicilia"
+      ]
+    },
+    {
+      "block": 358,
+      "file": "block-358-prompt.md",
+      "hotels": 50,
+      "range": "17851-17900",
+      "sample_cities": [
+        "Fiumefreddo di Sicilia",
+        "Floresta",
+        "Floridia",
+        "Fondachelli-Fantina",
+        "Forza d'Agr�"
+      ]
+    },
+    {
+      "block": 359,
+      "file": "block-359-prompt.md",
+      "hotels": 50,
+      "range": "17901-17950",
+      "sample_cities": [
+        "Francofonte",
+        "Frazzan�",
+        "Furci Siculo",
+        "Furnari",
+        "Gaggi"
+      ]
+    },
+    {
+      "block": 360,
+      "file": "block-360-prompt.md",
+      "hotels": 50,
+      "range": "17951-18000",
+      "sample_cities": [
+        "Genova",
+        "Ischia"
+      ]
+    },
+    {
+      "block": 361,
+      "file": "block-361-prompt.md",
+      "hotels": 50,
+      "range": "18001-18050",
+      "sample_cities": [
+        "Ischia",
+        "Istanbul",
+        "Lecce",
+        "Lisbon"
+      ]
+    },
+    {
+      "block": 362,
+      "file": "block-362-prompt.md",
+      "hotels": 50,
+      "range": "18051-18100",
+      "sample_cities": [
+        "Lisbon",
+        "London",
+        "Lucca",
+        "Lyon"
+      ]
+    },
+    {
+      "block": 363,
+      "file": "block-363-prompt.md",
+      "hotels": 50,
+      "range": "18101-18150",
+      "sample_cities": [
+        "Lyon",
+        "Madrid",
+        "Manila",
+        "Matera"
+      ]
+    },
+    {
+      "block": 364,
+      "file": "block-364-prompt.md",
+      "hotels": 50,
+      "range": "18151-18200",
+      "sample_cities": [
+        "Matera",
+        "Mazzarrone",
+        "Melilli",
+        "Merano",
+        "Messina"
+      ]
+    },
+    {
+      "block": 365,
+      "file": "block-365-prompt.md",
+      "hotels": 50,
+      "range": "18201-18250",
+      "sample_cities": [
+        "Milano",
+        "Modena",
+        "Munich"
+      ]
+    },
+    {
+      "block": 366,
+      "file": "block-366-prompt.md",
+      "hotels": 50,
+      "range": "18251-18300",
+      "sample_cities": [
+        "Munich",
+        "Napoli",
+        "New York"
+      ]
+    },
+    {
+      "block": 367,
+      "file": "block-367-prompt.md",
+      "hotels": 50,
+      "range": "18301-18350",
+      "sample_cities": [
+        "New York",
+        "Olbia",
+        "Orvieto"
+      ]
+    },
+    {
+      "block": 368,
+      "file": "block-368-prompt.md",
+      "hotels": 50,
+      "range": "18351-18400",
+      "sample_cities": [
+        "Orvieto",
+        "Osaka",
+        "Padova",
+        "Palermo"
+      ]
+    },
+    {
+      "block": 369,
+      "file": "block-369-prompt.md",
+      "hotels": 50,
+      "range": "18401-18450",
+      "sample_cities": [
+        "Palermo",
+        "Paris"
+      ]
+    },
+    {
+      "block": 370,
+      "file": "block-370-prompt.md",
+      "hotels": 50,
+      "range": "18451-18500",
+      "sample_cities": [
+        "Paris",
+        "Parma",
+        "Perugia",
+        "Phuket"
+      ]
+    },
+    {
+      "block": 371,
+      "file": "block-371-prompt.md",
+      "hotels": 50,
+      "range": "18501-18550",
+      "sample_cities": [
+        "Phuket",
+        "Pisa",
+        "Portofino",
+        "Positano"
+      ]
+    },
+    {
+      "block": 372,
+      "file": "block-372-prompt.md",
+      "hotels": 50,
+      "range": "18551-18600",
+      "sample_cities": [
+        "Positano",
+        "Prague",
+        "Ravello",
+        "Ravenna"
+      ]
+    },
+    {
+      "block": 373,
+      "file": "block-373-prompt.md",
+      "hotels": 50,
+      "range": "18601-18650",
+      "sample_cities": [
+        "Ravenna",
+        "Reggio di Calabria",
+        "Rimini"
+      ]
+    },
+    {
+      "block": 374,
+      "file": "block-374-prompt.md",
+      "hotels": 50,
+      "range": "18651-18700",
+      "sample_cities": [
+        "Rimini",
+        "Roma",
+        "Salerno"
+      ]
+    },
+    {
+      "block": 375,
+      "file": "block-375-prompt.md",
+      "hotels": 50,
+      "range": "18701-18750",
+      "sample_cities": [
+        "Salerno",
+        "San Gimignano",
+        "Santorini",
+        "Sassari"
+      ]
+    },
+    {
+      "block": 376,
+      "file": "block-376-prompt.md",
+      "hotels": 50,
+      "range": "18751-18800",
+      "sample_cities": [
+        "Sassari",
+        "Siena",
+        "Siracusa",
+        "Sorrento"
+      ]
+    },
+    {
+      "block": 377,
+      "file": "block-377-prompt.md",
+      "hotels": 50,
+      "range": "18801-18850",
+      "sample_cities": [
+        "Sorrento",
+        "Taormina",
+        "Tokyo"
+      ]
+    },
+    {
+      "block": 378,
+      "file": "block-378-prompt.md",
+      "hotels": 50,
+      "range": "18851-18900",
+      "sample_cities": [
+        "Tokyo",
+        "Torino",
+        "Trapani"
+      ]
+    },
+    {
+      "block": 379,
+      "file": "block-379-prompt.md",
+      "hotels": 50,
+      "range": "18901-18950",
+      "sample_cities": [
+        "Trapani",
+        "Trento",
+        "Trieste"
+      ]
+    },
+    {
+      "block": 380,
+      "file": "block-380-prompt.md",
+      "hotels": 50,
+      "range": "18951-19000",
+      "sample_cities": [
+        "Trieste",
+        "Tropea",
+        "Urbino",
+        "Venezia"
+      ]
+    },
+    {
+      "block": 381,
+      "file": "block-381-prompt.md",
+      "hotels": 50,
+      "range": "19001-19050",
+      "sample_cities": [
+        "Venezia",
+        "Verona",
+        "Vienna"
+      ]
+    },
+    {
+      "block": 382,
+      "file": "block-382-prompt.md",
+      "hotels": 9,
+      "range": "19051-19059",
+      "sample_cities": [
+        "Vienna"
+      ]
+    }
+  ]
+}
