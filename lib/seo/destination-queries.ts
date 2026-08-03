@@ -219,3 +219,12 @@ export function destinationHubMatchesCity(hub: DestinationHub, cityName: string)
     (name) => buildDestinationSlug(name) === hub.slug,
   );
 }
+
+export function buildDestinationTravelRequestHref(
+  hub: Pick<DestinationHub, "displayName" | "cityId">,
+): string {
+  if (!hub.displayName.trim()) return "/inserzionista/crea-annuncio";
+  const params = new URLSearchParams({ city: hub.displayName.trim() });
+  if (hub.cityId) params.set("city_id", hub.cityId);
+  return `/inserzionista/crea-annuncio?${params.toString()}`;
+}
