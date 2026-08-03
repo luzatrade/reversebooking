@@ -13,10 +13,12 @@ function parseArgs() {
     const i = process.argv.indexOf(flag);
     return i >= 0 ? process.argv[i + 1] : null;
   };
+  const overrides = get("--overrides");
   return {
     response: resolve(process.cwd(), get("--response")),
     block: resolve(process.cwd(), get("--block")),
     out: resolve(process.cwd(), get("--out")),
+    overrides: overrides ? resolve(process.cwd(), overrides) : null,
   };
 }
 
@@ -42,28 +44,11 @@ function parseHotels(text) {
   });
 }
 
-const CITY_OVERRIDES = {
-  4: "Campofelice di Roccella",
-  19: "Montegrotto Terme",
-  38: "Ponte Adda",
-  39: "Lodi",
-  40: "San Martino in Strada",
-  41: "Crema",
-  42: "Casalpusterlengo",
-  43: "Corte Palasio",
-  44: "Crema",
-  45: "Lodi",
-  46: "Settala",
-  47: "Casalpusterlengo",
-  48: "Moscazzano",
-  49: "Chignolo Po",
-  50: "Monte Cremasco",
-};
-
 function main() {
-  const { response, block, out } = parseArgs();
+  const { response, block, out, overrides } = parseArgs();
   const text = readFileSync(response, "utf8");
   const slugs = JSON.parse(readFileSync(block, "utf8")).hotels.map((h) => h.slug);
+  const cityOverrides = overrides ? JSON.parse(readFileSync(overrides, "utf8")) : {};
   const parsed = parseHotels(text);
   if (parsed.length !== slugs.length) {
     throw new Error(`Parsed ${parsed.length} hotels, expected ${slugs.length}`);
@@ -71,7 +56,7 @@ function main() {
   const outData = parsed.map((h, i) => {
     const row = { slug: slugs[i], ...h };
     delete row.nome;
-    const city = CITY_OVERRIDES[i + 1];
+    const city = cityOverrides[String(i + 1)];
     if (city) row.city = city;
     return row;
   });
