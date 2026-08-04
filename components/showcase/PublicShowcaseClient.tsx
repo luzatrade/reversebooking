@@ -600,25 +600,67 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
         })
     : formatMessage(t.showcase.featuredStructuresCatalogTitle, {
         total: structureCatalogCount.toLocaleString(locale === "en" ? "en-GB" : "it-IT"),
-        featured: displayHotels.length,
       });
   const structuresCatalogHref = hasSelectedCity
     ? destinationPublicPath(resolveDestinationHubSlug(selectedCity.city_name), locale)
     : localizedPath(locale, "/destinazioni");
 
-  function renderHotelCard(hotel: HotelAccount, layout: "compact" | "single" = "compact") {
+  function renderHotelCard(hotel: HotelAccount, layout: "compact" | "dense" = "compact") {
     const country = countryLabel(hotel.country_code);
     const locationLine = `${structureTypeLabels[hotel.structure_type]} · ${hotel.city_name}${country ? `, ${country}` : ""}`;
     const description = publicHotelDescription(
       pickLocalizedDescription(hotel.description, hotel.description_en, locale),
     );
+    const profileHref = structureProfileHref(
+      { id: hotel.id, isOnboarding: hotel.isOnboarding ?? false, slug: hotel.slug ?? null },
+      locale,
+    );
+
+    if (layout === "dense") {
+      return (
+        <article
+          key={hotel.id}
+          data-showcase-hotel-id={hotel.id}
+          className={cn(
+            "flex shrink-0 snap-start flex-col overflow-hidden rounded-xl border bg-white shadow-sm transition hover:shadow-md",
+            hotel.id === focusedHotelId ? "border-[#c2410c] ring-2 ring-[#c2410c]/30" : "border-zinc-200/90",
+          )}
+        >
+          <Link href={profileHref} className="block">
+            {hotel.main_photo_url ? (
+              <img src={hotel.main_photo_url} alt={hotel.property_name} className="h-28 w-full object-cover" />
+            ) : (
+              <div className="flex h-28 w-full items-center justify-center bg-zinc-100 text-zinc-400">
+                <Building2 className="h-7 w-7" />
+              </div>
+            )}
+          </Link>
+          <div className="flex flex-1 flex-col p-3">
+            <Link href={profileHref} className="line-clamp-2 text-sm font-semibold leading-snug text-zinc-900 hover:text-[#0f4c81]">
+              {hotel.property_name}
+            </Link>
+            <p className="mt-1 line-clamp-1 text-[11px] text-zinc-500">{locationLine}</p>
+            <div className="mt-2.5 flex flex-wrap gap-1.5">
+              <Link href={profileHref} className="rounded-full bg-[#e8f0f8] px-2.5 py-1 text-[10px] font-bold text-[#0f4c81]">
+                {t.showcase.cardProfile}
+              </Link>
+              {viewer.role !== "hotel" ? (
+                <Link href={createRequestHrefForHotel(hotel)} className="rounded-full bg-[#fff7ed] px-2.5 py-1 text-[10px] font-bold text-[#c2410c]">
+                  {t.showcase.cardRequest}
+                </Link>
+              ) : null}
+            </div>
+          </div>
+        </article>
+      );
+    }
+
     return (
       <article
         key={hotel.id}
         data-showcase-hotel-id={hotel.id}
         className={cn(
-          "flex shrink-0 snap-start flex-col overflow-hidden rounded-2xl border bg-zinc-50",
-          layout === "single" ? "w-full" : "w-[18.5rem] sm:w-[20rem]",
+          "flex w-[18.5rem] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border bg-zinc-50 sm:w-[20rem]",
           hotel.id === focusedHotelId ? "border-[#c2410c] ring-2 ring-[#c2410c]/40" : "border-zinc-200",
         )}
       >
@@ -781,10 +823,9 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
         sectionId="showcase-structures"
         title={structuresSliderTitle}
         subtitle={t.showcase.featuredHotelsSubtitle}
-        prevLabel={t.showcase.sliderPrevious}
-        nextLabel={t.showcase.sliderNext}
         itemCount={!hotelsLoading ? displayHotels.length : 0}
-        singleCard
+        hideNavigation
+        denseGrid
         footer={
           !hotelsLoading && structureCatalogCount > 0 ? (
             <Link
@@ -806,7 +847,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
               : t.showcase.noStructuresFound}
           </div>
         ) : null}
-        {!hotelsLoading ? displayHotels.map((hotel) => renderHotelCard(hotel, "single")) : null}
+        {!hotelsLoading ? displayHotels.map((hotel) => renderHotelCard(hotel, "dense")) : null}
       </HorizontalSlider>
 
       <HorizontalSlider

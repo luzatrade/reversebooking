@@ -16,8 +16,10 @@ type HorizontalSliderProps = {
   children: ReactNode;
   prevLabel?: string;
   nextLabel?: string;
-  /** Una card per viewport, frecce grandi e contatore posizione. */
-  singleCard?: boolean;
+  /** Solo swipe/scroll: niente frecce né contatore. */
+  hideNavigation?: boolean;
+  /** Larghezza card responsive: ~2 su mobile, ~4 su desktop. */
+  denseGrid?: boolean;
   footer?: ReactNode;
 };
 
@@ -37,7 +39,8 @@ export function HorizontalSlider({
   children,
   prevLabel = "Precedente",
   nextLabel = "Successivo",
-  singleCard = false,
+  hideNavigation = false,
+  denseGrid = false,
   footer,
 }: HorizontalSliderProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -49,10 +52,11 @@ export function HorizontalSlider({
     const clamped = Math.max(0, Math.min(index, itemCount - 1));
     setActiveIndex(clamped);
     const child = container.children[clamped] as HTMLElement | undefined;
-    child?.scrollIntoView({ behavior: "smooth", inline: singleCard ? "center" : "start", block: "nearest" });
-  }, [itemCount, singleCard]);
+    child?.scrollIntoView({ behavior: "smooth", inline: "start", block: "nearest" });
+  }, [itemCount]);
 
   useEffect(() => {
+    if (hideNavigation) return;
     const container = scrollRef.current;
     if (!container) return;
     const onScroll = () => {
@@ -73,18 +77,18 @@ export function HorizontalSlider({
     container.addEventListener("scroll", onScroll, { passive: true });
     onScroll();
     return () => container.removeEventListener("scroll", onScroll);
-  }, [itemCount]);
+  }, [hideNavigation, itemCount]);
 
-  const showNav = itemCount > 1;
+  const showNav = !hideNavigation && itemCount > 1;
 
   return (
     <section id={sectionId} className={cn("hd-feed-card scroll-mt-24 p-4 sm:p-5", sectionClassName)}>
-      <div className={cn("mb-3 flex items-end justify-between gap-3", singleCard ? "sm:mb-4" : "sm:mb-4")}>
+      <div className="mb-3 flex items-end justify-between gap-3 sm:mb-4">
         <div className="min-w-0">
-          <h2 className={cn("hd-bento-title", singleCard ? "whitespace-normal" : "truncate", titleClassName)}>{title}</h2>
+          <h2 className={cn("hd-bento-title", denseGrid ? "whitespace-normal" : "truncate", titleClassName)}>{title}</h2>
           {subtitle ? <p className={cn("hd-bento-subtitle", subtitleClassName)}>{subtitle}</p> : null}
         </div>
-        {showNav && !singleCard ? (
+        {showNav ? (
           <div className="flex shrink-0 items-center gap-2">
             <button
               type="button"
@@ -106,47 +110,17 @@ export function HorizontalSlider({
         ) : null}
       </div>
 
-      <div className={cn("relative", singleCard && showNav && "px-12 sm:px-14")}>
-        {showNav && singleCard ? (
-          <>
-            <button
-              type="button"
-              aria-label={prevLabel}
-              onClick={() => scrollToIndex(Math.max(activeIndex - 1, 0))}
-              disabled={activeIndex === 0}
-              className="hd-hero-nav absolute left-0 top-1/2 z-10 inline-flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border-2 border-[#0f4c81] bg-white shadow-xl transition hover:bg-[#0f4c81] hover:text-white disabled:pointer-events-none disabled:opacity-35 sm:h-14 sm:w-14"
-            >
-              <ChevronLeft className="h-6 w-6 text-[#0f4c81] group-hover:text-white" />
-            </button>
-            <button
-              type="button"
-              aria-label={nextLabel}
-              onClick={() => scrollToIndex(Math.min(activeIndex + 1, itemCount - 1))}
-              disabled={activeIndex >= itemCount - 1}
-              className="hd-hero-nav absolute right-0 top-1/2 z-10 inline-flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border-2 border-[#0f4c81] bg-white shadow-xl transition hover:bg-[#0f4c81] hover:text-white disabled:pointer-events-none disabled:opacity-35 sm:h-14 sm:w-14"
-            >
-              <ChevronRight className="h-6 w-6 text-[#0f4c81]" />
-            </button>
-          </>
-        ) : null}
-
-        <div
-          ref={scrollRef}
-          className={cn(
-            "flex snap-x snap-mandatory overflow-x-auto overscroll-x-contain pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
-            singleCard ? "gap-0 scroll-px-0" : "gap-4",
-            singleCard && "[&>article]:w-full [&>article]:max-w-none [&>article]:flex-[0_0_100%] [&>article]:snap-center",
-          )}
-        >
-          {children}
-        </div>
+      <div
+        ref={scrollRef}
+        className={cn(
+          "flex snap-x snap-mandatory overflow-x-auto overscroll-x-contain pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
+          denseGrid ? "gap-3 scroll-px-0" : "gap-4 pb-2",
+          denseGrid &&
+            "[&>article]:w-[calc(50%-6px)] [&>article]:max-w-[calc(50%-6px)] [&>article]:flex-[0_0_calc(50%-6px)] [&>article]:snap-start sm:[&>article]:w-[calc(33.333%-8px)] sm:[&>article]:max-w-[calc(33.333%-8px)] sm:[&>article]:flex-[0_0_calc(33.333%-8px)] lg:[&>article]:w-[calc(25%-9px)] lg:[&>article]:max-w-[calc(25%-9px)] lg:[&>article]:flex-[0_0_calc(25%-9px)]",
+        )}
+      >
+        {children}
       </div>
-
-      {singleCard && showNav ? (
-        <p className="mt-2 text-center text-xs font-medium text-zinc-500" aria-live="polite">
-          {activeIndex + 1} / {itemCount}
-        </p>
-      ) : null}
 
       {footer ? <div className="mt-4 flex justify-center">{footer}</div> : null}
     </section>
