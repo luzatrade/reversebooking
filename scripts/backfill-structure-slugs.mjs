@@ -118,11 +118,11 @@ async function main() {
   const used = await loadUsedSlugs();
   const onboarding = await fetchAll(
     "onboarding_hotels",
-    "id, nome, city_name, indirizzo, main_photo_url, status, slug, seo_indexable",
+    "id, nome, city_name, indirizzo, main_photo_url, description, description_en, status, slug, seo_indexable",
   );
   const hotels = await fetchAll(
     "hotel_accounts",
-    "id, property_name, city_name, full_address, main_photo_url, account_status, subscription_active, provider_kind, slug, seo_indexable",
+    "id, property_name, city_name, full_address, main_photo_url, description, description_en, account_status, subscription_active, provider_kind, slug, seo_indexable",
   );
 
   console.log(`Onboarding: ${onboarding.length} righe`);

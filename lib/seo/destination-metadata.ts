@@ -3,6 +3,7 @@ import { BRAND_NAME } from "@/lib/legal/company";
 import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
+import { isDestinationHubIndexable } from "@/lib/seo/destination-quality";
 import { trimSeoDescription } from "@/lib/seo/serp-copy";
 import type { DestinationHub } from "@/lib/seo/destination-queries";
 import type { Locale } from "@/lib/i18n/translations";
@@ -58,11 +59,13 @@ export function buildDestinationMetadata(hub: DestinationHub, locale: Locale, pa
   const heroUrl = getDestinationCityPhoto(hub);
   const ogImages = heroUrl ? [{ url: heroUrl, alt: hub.displayName }] : undefined;
 
+  const indexable = isDestinationHubIndexable(hub);
+
   return {
     title: { absolute },
     description,
     alternates: buildLanguageAlternates(`/destinazioni/${hub.slug}`, locale),
-    robots: { index: page === 1, follow: true },
+    robots: { index: page === 1 && indexable, follow: true },
     openGraph: buildOpenGraph({
       title: absolute,
       description,

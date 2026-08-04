@@ -5,20 +5,20 @@ export type HowItWorksStep = { title: string; description: string };
 
 const PREMIUM_DESTINATION_INTROS: Record<string, { it: string; en: string }> = {
   roma: {
-    it: "Roma concentra hotel, B&B e guest house tra Centro Storico, Trastevere, Termini e EUR. Su HotelsDrop pubblichi una sola richiesta con date e budget: le strutture della Capitale rispondono con proposte dirette, senza commissioni per chi viaggia.",
-    en: "Rome offers hotels, B&Bs and guest houses across the historic centre, Trastevere, Termini and EUR. On HotelsDrop you publish one request with dates and budget, and local properties reply with direct offers — free for travellers.",
+    it: "Roma concentra hotel, B&B e guest house tra Centro Storico, Trastevere, Termini e EUR. Su HotelsDrop pubblichi una sola richiesta con date e budget: le strutture della Capitale rispondono con proposte dirette, senza commissioni per chi viaggia. Ideale per weekend culturali, eventi in sede e soggiorni lunghi con famiglia o gruppo.",
+    en: "Rome offers hotels, B&Bs and guest houses across the historic centre, Trastevere, Termini and EUR. On HotelsDrop you publish one request with dates and budget, and local properties reply with direct offers — free for travellers. Perfect for cultural weekends, conference stays and longer family or group trips.",
   },
   milano: {
-    it: "Milano è ideale per soggiorni business e leisure, con strutture vicino al Duomo, Porta Garibaldi e Fiera. Con HotelsDrop confronti offerte personalizzate dagli hotel milanesi senza cercare su decine di portali.",
-    en: "Milan suits business and leisure stays, with properties near the Duomo, Porta Garibaldi and the trade fair. HotelsDrop lets you compare tailored offers from Milan hotels without browsing dozens of booking sites.",
+    it: "Milano è ideale per soggiorni business e leisure, con strutture vicino al Duomo, Porta Garibaldi e Fiera. Con HotelsDrop confronti offerte personalizzate dagli hotel milanesi senza cercare su decine di portali. Utile anche per fiere, fashion week e trasferte con più camere.",
+    en: "Milan suits business and leisure stays, with properties near the Duomo, Porta Garibaldi and the trade fair. HotelsDrop lets you compare tailored offers from Milan hotels without browsing dozens of booking sites. Also useful for trade fairs, fashion week and multi-room business trips.",
   },
   napoli: {
-    it: "Napoli e il suo golfo offrono soluzioni per city break, mare e partenze verso Capri e la Costiera. Invia una richiesta su HotelsDrop e ricevi proposte dirette da hotel e B&B selezionati in città.",
-    en: "Naples and its gulf suit city breaks, seaside stays and trips toward Capri and the Amalfi Coast. Send one request on HotelsDrop and receive direct proposals from local hotels and B&Bs.",
+    it: "Napoli e il suo golfo offrono soluzioni per city break, mare e partenze verso Capri e la Costiera. Invia una richiesta su HotelsDrop e ricevi proposte dirette da hotel e B&B selezionati in città. Molte strutture coprono anche parcheggio, colazione e transfer per porto e aeroporto.",
+    en: "Naples and its gulf suit city breaks, seaside stays and trips toward Capri and the Amalfi Coast. Send one request on HotelsDrop and receive direct proposals from local hotels and B&Bs. Many properties also cover parking, breakfast and port or airport transfers.",
   },
   firenze: {
-    it: "Firenze attira viaggiatori per arte, enogastronomia e base per la Toscana. Su HotelsDrop le strutture fiorentine rispondono alla tua richiesta con offerte su misura per date, budget e servizi desiderati.",
-    en: "Florence draws travellers for art, food and Tuscany trips. On HotelsDrop Florentine properties reply to your request with tailored offers for your dates, budget and preferred services.",
+    it: "Firenze attira viaggiatori per arte, enogastronomia e base per la Toscana. Su HotelsDrop le strutture fiorentine rispondono alla tua richiesta con offerte su misura per date, budget e servizi desiderati. Ottima scelta per musei, matrimoni in villa e itinerari enogastronomici.",
+    en: "Florence draws travellers for art, food and Tuscany trips. On HotelsDrop Florentine properties reply to your request with tailored offers for your dates, budget and preferred services. A strong pick for museums, villa weddings and food-and-wine itineraries.",
   },
   torino: {
     it: "Torino unisce hotel business, boutique e B&B tra centro e Lingotto. Su HotelsDrop invii una richiesta e ricevi offerte dirette per eventi, ski trip verso le Alpi e city break.",
@@ -29,20 +29,20 @@ const PREMIUM_DESTINATION_INTROS: Record<string, { it: string; en: string }> = {
     en: "Bologna suits food tours, university visits and trade fairs. Bologna properties on HotelsDrop reply with offers tailored to your budget, area and required services.",
   },
   catania: {
-    it: "Catania è base ideale per Etna, mare e barocco siciliano. Pubblica la tua richiesta su HotelsDrop e confronta offerte dirette da hotel e B&B dell'area.",
-    en: "Catania is a strong base for Etna, the coast and Sicilian baroque. Publish your request on HotelsDrop and compare direct offers from local hotels and B&Bs.",
+    it: "Catania è base ideale per Etna, mare e barocco siciliano. Pubblica la tua richiesta su HotelsDrop e confronta offerte dirette da hotel e B&B dell'area. Le strutture spesso propongono pacchetti per escursioni sull'Etna e soggiorni lungo la costa ionica.",
+    en: "Catania is a strong base for Etna, the coast and Sicilian baroque. Publish your request on HotelsDrop and compare direct offers from local hotels and B&Bs. Properties often propose packages for Etna trips and stays along the Ionian coast.",
   },
   palermo: {
-    it: "Palermo concentra strutture tra centro storico, waterfront e aeroporto. Con HotelsDrop una richiesta raggiunge hotel e guest house compatibili con le tue date.",
-    en: "Palermo offers stays across the historic centre, waterfront and airport area. One HotelsDrop request reaches compatible hotels and guest houses for your dates.",
+    it: "Palermo concentra strutture tra centro storico, waterfront e aeroporto. Con HotelsDrop una richiesta raggiunge hotel e guest house compatibili con le tue date. Utile per city break, eventi culturali e gruppi che cercano più camere in zona centrale.",
+    en: "Palermo offers stays across the historic centre, waterfront and airport area. One HotelsDrop request reaches compatible hotels and guest houses for your dates. Useful for city breaks, cultural events and groups needing several rooms downtown.",
   },
   bari: {
     it: "Bari e la Puglia attirano mare, borghi e itinerari slow. Su HotelsDrop le strutture pugliesi inviano proposte dirette senza commissioni per chi viaggia.",
     en: "Bari and Puglia attract seaside stays, villages and slow travel. On HotelsDrop Apulian properties send direct offers with no traveller commission.",
   },
   verona: {
-    it: "Verona unisce Arena, romanticismo e prossimità al Lago di Garda. Invia una richiesta personalizzata e ricevi offerte da hotel e B&B veronesi.",
-    en: "Verona combines the Arena, romantic breaks and Lake Garda access. Send a personalised request and receive offers from Verona hotels and B&Bs.",
+    it: "Verona unisce Arena, romanticismo e prossimità al Lago di Garda. Invia una richiesta personalizzata e ricevi offerte da hotel e B&B veronesi. Molte strutture coprono anche soggiorni per opera, matrimoni e weekend sul Garda.",
+    en: "Verona combines the Arena, romantic breaks and Lake Garda access. Send a personalised request and receive offers from Verona hotels and B&Bs. Many properties also cover opera season, weddings and Lake Garda weekends.",
   },
   rimini: {
     it: "Rimini e la Riviera romagnola sono ideali per mare, famiglie ed eventi. HotelsDrop mette in contatto la tua richiesta con hotel e residence della zona.",
@@ -77,8 +77,8 @@ const PREMIUM_DESTINATION_INTROS: Record<string, { it: string; en: string }> = {
     en: "Tokyo requires choosing areas like Shibuya, Shinjuku and Asakusa. HotelsDrop connects your request with Japanese properties that reply with tailored offers.",
   },
   venezia: {
-    it: "Venezia offre hotel e B&B tra San Marco, Cannaregio e Mestre. Su HotelsDrop invii una richiesta e ricevi offerte dirette dalle strutture venete.",
-    en: "Venice offers hotels and B&Bs across San Marco, Cannaregio and Mestre. Send one HotelsDrop request and receive direct offers from Venetian properties.",
+    it: "Venezia offre hotel e B&B tra San Marco, Cannaregio e Mestre. Su HotelsDrop invii una richiesta e ricevi offerte dirette dalle strutture venete. Puoi indicare preferenze su zona laguna o terraferma, accessibilità e servizi per gruppi.",
+    en: "Venice offers hotels and B&Bs across San Marco, Cannaregio and Mestre. Send one HotelsDrop request and receive direct offers from Venetian properties. You can specify lagoon vs mainland area, accessibility and group services.",
   },
   genova: {
     it: "Genova unisce porto, centro storico e Riviera di Levante. HotelsDrop mette in contatto la tua richiesta con hotel e B&B della Superba.",
@@ -573,6 +573,15 @@ export function getDestinationFaq(locale: Locale, cityName: string): FaqItem[] {
         answer:
           "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
       },
+      {
+        question: `What types of accommodation can I find in ${cityName}?`,
+        answer: `The HotelsDrop catalogue in ${cityName} includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.`,
+      },
+      {
+        question: "Are there booking commissions for travellers?",
+        answer:
+          "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+      },
     ];
   }
   return [
@@ -589,6 +598,15 @@ export function getDestinationFaq(locale: Locale, cityName: string): FaqItem[] {
       question: "È utile anche per gruppi e agenzie di viaggio?",
       answer:
         "Sì. Scuole, aziende, eventi e agenzie possono pubblicare una sola richiesta di gruppo invece di mandare decine di email. Tutte le strutture compatibili della zona selezionata ricevono la richiesta e rispondono con la propria offerta.",
+    },
+    {
+      question: `Che tipi di alloggio trovo a ${cityName}?`,
+      answer: `Il catalogo HotelsDrop a ${cityName} include hotel, B&B, guest house e appartamenti con foto e dettagli verificati. Puoi indicare zona e servizi quando pubblichi la richiesta.`,
+    },
+    {
+      question: "Ci sono commissioni di prenotazione per chi viaggia?",
+      answer:
+        "No. Pubblicare richieste, confrontare offerte e contattare le strutture è gratuito per i viaggiatori su HotelsDrop. Le strutture rispondono con proposte dirette, senza commissioni da portale OTA.",
     },
   ];
 }
