@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { getSessionAndProfile } from "@/lib/auth/session";
+import { fetchActiveTravelRequestCount } from "@/lib/showcase/catalogCounts";
 import { resolveHotelShowcaseScope } from "@/lib/showcase/hotelScope";
 import { fetchShowcaseConcludedRequests, fetchShowcaseTravelRequests } from "@/lib/showcase/publicRequests";
 
@@ -16,17 +17,39 @@ export async function GET(request: Request) {
     ?.split(",")
     .map((id) => id.trim())
     .filter(Boolean);
+  const cityId = searchParams.get("city_id")?.trim() || null;
+  const countryCode = searchParams.get("country_code")?.trim() || null;
 
   try {
     const hotelScope = await hotelScopeForRequest();
+    const cityFilter =
+      !hotelScope && cityId
+        ? { cityId, countryCode: countryCode ?? "IT" }
+        : undefined;
 
     if (ids?.length) {
       const requests = await fetchShowcaseConcludedRequests(ids, hotelScope);
       return NextResponse.json({ requests, scopedToHotelCity: Boolean(hotelScope) });
     }
 
-    const requests = await fetchShowcaseTravelRequests(200, hotelScope);
-    return NextResponse.json({ requests, scopedToHotelCity: Boolean(hotelScope) });
+    const [requests, requestCount] = await Promise.all([
+      fetchShowcaseTravelRequests(250, hotelScope, cityFilter),
+      hotelScope
+        ? fetchActiveTravelRequestCount({
+            countryCode: hotelScope.countryCode ?? "IT",
+            cityId: hotelScope.cityId,
+          })
+        : fetchActiveTravelRequestCount({
+            countryCode: countryCode ?? "IT",
+            cityId,
+          }),
+    ]);
+
+    return NextResponse.json({
+      requests,
+      requestCount,
+      scopedToHotelCity: Boolean(hotelScope),
+    });
   } catch (err) {
     return NextResponse.json(
       { error: err instanceof Error ? err.message : "Impossibile caricare le richieste" },

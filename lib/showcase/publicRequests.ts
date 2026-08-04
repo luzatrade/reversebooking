@@ -40,7 +40,11 @@ function normalizeRows(data: unknown[]) {
   }) as ShowcaseTravelRequest[];
 }
 
-export async function fetchShowcaseTravelRequests(limit = 200, hotelScope?: HotelShowcaseScope | null) {
+export async function fetchShowcaseTravelRequests(
+  limit = 250,
+  hotelScope?: HotelShowcaseScope | null,
+  cityFilter?: { cityId?: string | null; countryCode?: string | null },
+) {
   const admin = createServiceRoleClient();
   if (!admin) throw new Error("Service role non configurato");
 
@@ -55,9 +59,12 @@ export async function fetchShowcaseTravelRequests(limit = 200, hotelScope?: Hote
   if (hotelScope) {
     query = query.eq("city_id", hotelScope.cityId);
     if (hotelScope.countryCode) query = query.eq("country_code", hotelScope.countryCode);
+  } else if (cityFilter?.cityId) {
+    query = query.eq("city_id", cityFilter.cityId);
+    if (cityFilter.countryCode) query = query.eq("country_code", cityFilter.countryCode);
   }
 
-  const { data, error } = await query.limit(hotelScope ? 500 : limit);
+  const { data, error } = await query.limit(hotelScope || cityFilter?.cityId ? 500 : limit);
   if (error) throw error;
 
   const rows = normalizeRows(data ?? []);
