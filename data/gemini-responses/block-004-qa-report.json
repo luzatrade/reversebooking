@@ -1,0 +1,876 @@
+{
+  "summary": {
+    "total": 50,
+    "issues_count": 50,
+    "warnings_count": 6,
+    "phones_all_blank_emails": true,
+    "meta_hotelsdrop_ok": 50,
+    "amenities_avg": "5.0"
+  },
+  "rows": [
+    {
+      "index": 151,
+      "nome": "Agriturismo S'ispiga",
+      "slug": "agriturismo-s-ispiga-abbasanta",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"agriturismo-s-ispiga-abbasanta\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 152,
+      "nome": "Agriturismo Sa Pramma",
+      "slug": "agriturismo-sa-pramma-abbasanta",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"agriturismo-sa-pramma-abbasanta\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 153,
+      "nome": "Agriturismo su Nuratolu",
+      "slug": "agriturismo-su-nuratolu-abbasanta",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"agriturismo-su-nuratolu-abbasanta\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 154,
+      "nome": "Agriturismo Villa Gaia Cabras",
+      "slug": "agriturismo-villa-gaia-cabras-abbasanta",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"agriturismo-villa-gaia-cabras-abbasanta\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 155,
+      "nome": "Azienda Agrituristica l'Orto",
+      "slug": "azienda-agrituristica-l-orto-abbasanta",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"azienda-agrituristica-l-orto-abbasanta\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 156,
+      "nome": "B&B Affittacamere Perdalonga",
+      "slug": "b-b-affittacamere-perdalonga-abbasanta",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"b-b-affittacamere-perdalonga-abbasanta\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 157,
+      "nome": "B&B Bitulera",
+      "slug": "b-b-bitulera-abbasanta",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"b-b-bitulera-abbasanta\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 158,
+      "nome": "B&B S'Arenada",
+      "slug": "b-b-s-arenada-abbasanta",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"b-b-s-arenada-abbasanta\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 159,
+      "nome": "Bed & Breakfast Al piano di sopra",
+      "slug": "bed-breakfast-al-piano-di-sopra-abbasanta",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"bed-breakfast-al-piano-di-sopra-abbasanta\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 160,
+      "nome": "Country Hotel Mandra Edera",
+      "slug": "country-hotel-mandra-edera-abbasanta",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"country-hotel-mandra-edera-abbasanta\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 161,
+      "nome": "La Corte degli Ulivi | Albergo Rurale",
+      "slug": "la-corte-degli-ulivi-albergo-rurale-abbasanta",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"la-corte-degli-ulivi-albergo-rurale-abbasanta\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 162,
+      "nome": "La Tinaia Country House Bed & Board",
+      "slug": "la-tinaia-country-house-bed-board-abbasanta",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"la-tinaia-country-house-bed-board-abbasanta\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 163,
+      "nome": "Le Sughere Societa' Cooperativa",
+      "slug": "le-sughere-societa-cooperativa-abbasanta",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"le-sughere-societa-cooperativa-abbasanta\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 164,
+      "nome": "Pessighette Dimora di Campagna Bosa",
+      "slug": "pessighette-dimora-di-campagna-bosa-abbasanta",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"pessighette-dimora-di-campagna-bosa-abbasanta\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 165,
+      "nome": "Regia Hotel",
+      "slug": "regia-hotel-abbasanta",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"regia-hotel-abbasanta\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 166,
+      "nome": "ROSA DEI VENTI ROOMS",
+      "slug": "rosa-dei-venti-rooms-abbasanta",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"rosa-dei-venti-rooms-abbasanta\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 167,
+      "nome": "Agriturismo Borgo San Martino",
+      "slug": "agriturismo-borgo-san-martino-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"agriturismo-borgo-san-martino-abbateggio\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 168,
+      "nome": "Agriturismo Colle della Selva",
+      "slug": "agriturismo-colle-della-selva-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"agriturismo-colle-della-selva-abbateggio\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 169,
+      "nome": "B&B Famiglia nel vento",
+      "slug": "b-b-famiglia-nel-vento-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"b-b-famiglia-nel-vento-abbateggio\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 170,
+      "nome": "B&B Nonna Gina",
+      "slug": "b-b-nonna-gina-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"b-b-nonna-gina-abbateggio\""
+      ],
+      "warnings": [
+        "La Scena may not be Italian editorial tone"
+      ]
+    },
+    {
+      "index": 171,
+      "nome": "Borgo Majella",
+      "slug": "borgo-majella-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"borgo-majella-abbateggio\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 172,
+      "nome": "Casa del Pellegrino",
+      "slug": "casa-del-pellegrino-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"casa-del-pellegrino-abbateggio\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 173,
+      "nome": "Casa dell’Orso",
+      "slug": "casa-dell-orso-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"casa-dell-orso-abbateggio\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 174,
+      "nome": "Country House Antiche Dimore",
+      "slug": "country-house-antiche-dimore-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"country-house-antiche-dimore-abbateggio\""
+      ],
+      "warnings": [
+        "La Scena may not be Italian editorial tone"
+      ]
+    },
+    {
+      "index": 175,
+      "nome": "Dimore Montane • glamping • b&b • ristorante",
+      "slug": "dimore-montane-glamping-b-b-ristorante-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"dimore-montane-glamping-b-b-ristorante-abbateggio\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 176,
+      "nome": "Hotel Ede",
+      "slug": "hotel-ede-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"hotel-ede-abbateggio\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 177,
+      "nome": "Hotel Mazzocca",
+      "slug": "hotel-mazzocca-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"hotel-mazzocca-abbateggio\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 178,
+      "nome": "Hotel Orsini",
+      "slug": "hotel-orsini-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"hotel-orsini-abbateggio\""
+      ],
+      "warnings": [
+        "La Scena may not be Italian editorial tone"
+      ]
+    },
+    {
+      "index": 179,
+      "nome": "Hotel Panorama",
+      "slug": "hotel-panorama-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"hotel-panorama-abbateggio\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 180,
+      "nome": "La casa dalle finestre blu B&B",
+      "slug": "la-casa-dalle-finestre-blu-b-b-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"la-casa-dalle-finestre-blu-b-b-abbateggio\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 181,
+      "nome": "La Casetta B&B",
+      "slug": "la-casetta-b-b-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"la-casetta-b-b-abbateggio\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 182,
+      "nome": "La Quercia B&B",
+      "slug": "la-quercia-b-b-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"la-quercia-b-b-abbateggio\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 183,
+      "nome": "Locanda della Corte",
+      "slug": "locanda-della-corte-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"locanda-della-corte-abbateggio\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 184,
+      "nome": "Masseria Majella",
+      "slug": "masseria-majella-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"masseria-majella-abbateggio\""
+      ],
+      "warnings": [
+        "phone added by Gemini (seed empty): \"**Email:**\""
+      ]
+    },
+    {
+      "index": 185,
+      "nome": "Ristorante Belvedere Di Giardini Pasquale & C.",
+      "slug": "ristorante-belvedere-di-giardini-pasquale-c-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"ristorante-belvedere-di-giardini-pasquale-c-abbateggio\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 186,
+      "nome": "Sapori di Bea",
+      "slug": "sapori-di-bea-abbateggio",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"sapori-di-bea-abbateggio\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 187,
+      "nome": "Affittacamere Le Camere della Cervia",
+      "slug": "affittacamere-le-camere-della-cervia-abbiategrasso",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"affittacamere-le-camere-della-cervia-abbiategrasso\""
+      ],
+      "warnings": [
+        "La Scena may not be Italian editorial tone"
+      ]
+    },
+    {
+      "index": 188,
+      "nome": "Agriturismo Cascina Palazzo",
+      "slug": "agriturismo-cascina-palazzo-abbiategrasso",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"agriturismo-cascina-palazzo-abbiategrasso\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 189,
+      "nome": "Agriturismo i Leprotti",
+      "slug": "agriturismo-i-leprotti-abbiategrasso",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"agriturismo-i-leprotti-abbiategrasso\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 190,
+      "nome": "Agriturismo Ristoro Cascina Riazzolo",
+      "slug": "agriturismo-ristoro-cascina-riazzolo-abbiategrasso",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"agriturismo-ristoro-cascina-riazzolo-abbiategrasso\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 191,
+      "nome": "B&B Cascina delle mele",
+      "slug": "b-b-cascina-delle-mele-abbiategrasso",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"b-b-cascina-delle-mele-abbiategrasso\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 192,
+      "nome": "B&B Il Giardino",
+      "slug": "b-b-il-giardino-abbiategrasso",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"b-b-il-giardino-abbiategrasso\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 193,
+      "nome": "B&B La Ginibissa",
+      "slug": "b-b-la-ginibissa-abbiategrasso",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"b-b-la-ginibissa-abbiategrasso\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 194,
+      "nome": "B&B La Tarantola",
+      "slug": "b-b-la-tarantola-abbiategrasso",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"b-b-la-tarantola-abbiategrasso\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 195,
+      "nome": "B&B Locanda Lugagnano",
+      "slug": "b-b-locanda-lugagnano-abbiategrasso",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"b-b-locanda-lugagnano-abbiategrasso\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 196,
+      "nome": "B&B Nel cortile",
+      "slug": "b-b-nel-cortile-abbiategrasso",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"b-b-nel-cortile-abbiategrasso\""
+      ],
+      "warnings": [
+        "phone added by Gemini (seed empty): \"**Email:**\""
+      ]
+    },
+    {
+      "index": 197,
+      "nome": "B&B Palazzo Barzizza",
+      "slug": "b-b-palazzo-barzizza-abbiategrasso",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"b-b-palazzo-barzizza-abbiategrasso\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 198,
+      "nome": "Casa Dolce Casa",
+      "slug": "casa-dolce-casa-abbiategrasso",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"casa-dolce-casa-abbiategrasso\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 199,
+      "nome": "Cascina Poscallone",
+      "slug": "cascina-poscallone-abbiategrasso",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"cascina-poscallone-abbiategrasso\""
+      ],
+      "warnings": []
+    },
+    {
+      "index": 200,
+      "nome": "Cascina San Donato - Azienda agricola - Vendita diretta frutta e verdura - Fattoria Didattica",
+      "slug": "cascina-san-donato-azienda-agricola-vendita-dire-abbiategrasso",
+      "issues": [
+        "slug mismatch: gemini=\"null\" seed=\"cascina-san-donato-azienda-agricola-vendita-dire-abbiategrasso\""
+      ],
+      "warnings": []
+    }
+  ],
+  "parsed": [
+    {
+      "slug": null,
+      "telefono": "+39 347 302 2768",
+      "gps": {
+        "lat": 40.14973,
+        "lng": 8.522502
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 328 735 7363",
+      "gps": {
+        "lat": 39.994324,
+        "lng": 8.553092
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 338 248 4633",
+      "gps": {
+        "lat": 40.250068,
+        "lng": 8.568905
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 340 317 0324",
+      "gps": {
+        "lat": 39.945119,
+        "lng": 8.455628
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 0783 53620",
+      "gps": {
+        "lat": 40.017194,
+        "lng": 8.606296
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 0785 52207",
+      "gps": {
+        "lat": 40.122433,
+        "lng": 8.825006
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 349 395 0656",
+      "gps": {
+        "lat": 40.117485,
+        "lng": 8.8263
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 347 517 7915",
+      "gps": {
+        "lat": 40.11974,
+        "lng": 8.824088
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 340 256 8290",
+      "gps": {
+        "lat": 40.123582,
+        "lng": 8.816816
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 320 151 5170",
+      "gps": {
+        "lat": 40.154531,
+        "lng": 8.776488
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 393 872 4450",
+      "gps": {
+        "lat": 40.251422,
+        "lng": 8.510715
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 348 381 2405",
+      "gps": {
+        "lat": 40.269906,
+        "lng": 8.523239
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 0785 564107",
+      "gps": {
+        "lat": 40.12433,
+        "lng": 8.82047
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 347 648 0478",
+      "gps": {
+        "lat": 40.273889,
+        "lng": 8.511195
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 377 099 4955",
+      "gps": {
+        "lat": 40.132304,
+        "lng": 8.802597
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 347 862 3292",
+      "gps": {
+        "lat": 40.122881,
+        "lng": 8.824583
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 085 854 3512",
+      "gps": {
+        "lat": 42.221529,
+        "lng": 14.022875
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 340 733 6650",
+      "gps": {
+        "lat": 42.216292,
+        "lng": 14.009974
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 350 024 6866",
+      "gps": {
+        "lat": 42.15232,
+        "lng": 14.018731
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 320 758 2129",
+      "gps": {
+        "lat": 42.255752,
+        "lng": 14.06014
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 328 687 8793",
+      "gps": {
+        "lat": 42.214023,
+        "lng": 14.001623
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 085 859828",
+      "gps": {
+        "lat": 42.250041,
+        "lng": 14.061995
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 348 175 5863",
+      "gps": {
+        "lat": 42.223494,
+        "lng": 14.023177
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 333 889 9567",
+      "gps": {
+        "lat": 42.212906,
+        "lng": 14.0202
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 320 922 1069",
+      "gps": {
+        "lat": 42.201346,
+        "lng": 14.047404
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 085 922121",
+      "gps": {
+        "lat": 42.160721,
+        "lng": 14.007971
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 085 922205",
+      "gps": {
+        "lat": 42.158918,
+        "lng": 14.004092
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 085 922161",
+      "gps": {
+        "lat": 42.158927,
+        "lng": 14.006027
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 348 322 2801",
+      "gps": {
+        "lat": 42.225706,
+        "lng": 13.990413
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 348 773 5746",
+      "gps": {
+        "lat": 42.228855,
+        "lng": 14.021314
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 338 614 5782",
+      "gps": {
+        "lat": 42.217529,
+        "lng": 13.959955
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 366 724 4879",
+      "gps": {
+        "lat": 42.219925,
+        "lng": 14.012238
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 085 857 2505",
+      "gps": {
+        "lat": 42.213865,
+        "lng": 14.025122
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "**Email:**",
+      "gps": {
+        "lat": 42.216857,
+        "lng": 14.018763
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 085 857 2115",
+      "gps": {
+        "lat": 42.215513,
+        "lng": 14.02516
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 085 857 2359",
+      "gps": {
+        "lat": 42.212222,
+        "lng": 14.015
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 331 188 2645",
+      "gps": {
+        "lat": 45.399294,
+        "lng": 8.912178
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 345 148 9871",
+      "gps": {
+        "lat": 45.395115,
+        "lng": 8.939297
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 02 9460 2685",
+      "gps": {
+        "lat": 45.41098,
+        "lng": 8.88441
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 02 940 6603",
+      "gps": {
+        "lat": 45.438592,
+        "lng": 8.948105
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 328 768 1551",
+      "gps": {
+        "lat": 45.471022,
+        "lng": 8.957924
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 392 747 4768",
+      "gps": {
+        "lat": 45.420523,
+        "lng": 9.166764
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 347 035 3907",
+      "gps": {
+        "lat": 45.412265,
+        "lng": 8.913222
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 02 9496 6523",
+      "gps": {
+        "lat": 45.401723,
+        "lng": 8.958026
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 393 279 2307",
+      "gps": {
+        "lat": 45.424042,
+        "lng": 8.904334
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "**Email:**",
+      "gps": {
+        "lat": 45.402791,
+        "lng": 8.914662
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 328 845 1519",
+      "gps": {
+        "lat": 45.366191,
+        "lng": 8.923567
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 329 347 0498",
+      "gps": {
+        "lat": 45.310182,
+        "lng": 9.021528
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 347 522 6101",
+      "gps": {
+        "lat": 45.417998,
+        "lng": 8.920103
+      }
+    },
+    {
+      "slug": null,
+      "telefono": "+39 347 056 8625",
+      "gps": {
+        "lat": 45.379987,
+        "lng": 8.885532
+      }
+    }
+  ]
+}

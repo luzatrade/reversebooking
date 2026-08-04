@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { fetchCatalogStructureCount } from "@/lib/showcase/catalogCounts";
 import { fetchShowcaseStructures } from "@/lib/showcase/homeData";
 
 export const runtime = "nodejs";
@@ -9,10 +10,14 @@ export async function GET(request: Request) {
   const cityId = searchParams.get("city_id")?.trim() || null;
   const cityName = searchParams.get("city")?.trim() || null;
   const countryCode = searchParams.get("country_code")?.trim() || null;
+  const cityOptions = { cityId, cityName, countryCode };
 
   try {
-    const hotels = await fetchShowcaseStructures({ cityId, cityName, countryCode });
-    return NextResponse.json({ hotels });
+    const [hotels, structureCount] = await Promise.all([
+      fetchShowcaseStructures(cityOptions),
+      fetchCatalogStructureCount(cityOptions),
+    ]);
+    return NextResponse.json({ hotels, structureCount });
   } catch (err) {
     return NextResponse.json(
       { error: err instanceof Error ? err.message : "Impossibile caricare le strutture" },
