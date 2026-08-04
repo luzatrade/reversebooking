@@ -46,9 +46,11 @@ export function HorizontalSlider({
   const scrollToIndex = useCallback((index: number) => {
     const container = scrollRef.current;
     if (!container) return;
-    const child = container.children[index] as HTMLElement | undefined;
+    const clamped = Math.max(0, Math.min(index, itemCount - 1));
+    setActiveIndex(clamped);
+    const child = container.children[clamped] as HTMLElement | undefined;
     child?.scrollIntoView({ behavior: "smooth", inline: singleCard ? "center" : "start", block: "nearest" });
-  }, [singleCard]);
+  }, [itemCount, singleCard]);
 
   useEffect(() => {
     const container = scrollRef.current;
@@ -112,18 +114,18 @@ export function HorizontalSlider({
               aria-label={prevLabel}
               onClick={() => scrollToIndex(Math.max(activeIndex - 1, 0))}
               disabled={activeIndex === 0}
-              className="hd-hero-nav absolute left-0 top-1/2 z-10 inline-flex h-11 w-11 -translate-y-1/2 items-center justify-center border-2 border-[#0f4c81]/20 bg-white shadow-lg transition hover:border-[#0f4c81]/40 hover:bg-[#f0f6fc] disabled:pointer-events-none disabled:opacity-35 sm:h-12 sm:w-12"
+              className="hd-hero-nav absolute left-0 top-1/2 z-10 inline-flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border-2 border-[#0f4c81] bg-white shadow-xl transition hover:bg-[#0f4c81] hover:text-white disabled:pointer-events-none disabled:opacity-35 sm:h-14 sm:w-14"
             >
-              <ChevronLeft className="h-5 w-5 text-[#0f4c81]" />
+              <ChevronLeft className="h-6 w-6 text-[#0f4c81] group-hover:text-white" />
             </button>
             <button
               type="button"
               aria-label={nextLabel}
               onClick={() => scrollToIndex(Math.min(activeIndex + 1, itemCount - 1))}
               disabled={activeIndex >= itemCount - 1}
-              className="hd-hero-nav absolute right-0 top-1/2 z-10 inline-flex h-11 w-11 -translate-y-1/2 items-center justify-center border-2 border-[#0f4c81]/20 bg-white shadow-lg transition hover:border-[#0f4c81]/40 hover:bg-[#f0f6fc] disabled:pointer-events-none disabled:opacity-35 sm:h-12 sm:w-12"
+              className="hd-hero-nav absolute right-0 top-1/2 z-10 inline-flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border-2 border-[#0f4c81] bg-white shadow-xl transition hover:bg-[#0f4c81] hover:text-white disabled:pointer-events-none disabled:opacity-35 sm:h-14 sm:w-14"
             >
-              <ChevronRight className="h-5 w-5 text-[#0f4c81]" />
+              <ChevronRight className="h-6 w-6 text-[#0f4c81]" />
             </button>
           </>
         ) : null}
