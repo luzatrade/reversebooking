@@ -2,6 +2,11 @@ import { createServiceRoleClient } from "@/lib/supabase/admin";
 import { cityHeroImages } from "@/data/cityHeroImages";
 import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
 import { buildDestinationSlug, canonicalCityKey, cityLookupNames } from "@/lib/seo/city-canonical";
+import {
+  filterIndexableDestinationHubs,
+  isDestinationHubIndexable,
+  structureHasMainPhoto,
+} from "@/lib/seo/destination-quality";
 import { POPULAR_DESTINATION_CITIES } from "@/lib/seo/popular-destinations";
 
 export const DESTINATION_MIN_STRUCTURES = 3;
@@ -59,6 +64,7 @@ async function loadDestinationIndex(): Promise<DestinationIndex> {
         .select("slug, seo_indexable, city_name, nome, indirizzo, main_photo_url")
         .eq("seo_indexable", true)
         .not("slug", "is", null)
+        .not("main_photo_url", "is", null)
         .range(from, from + 999);
       if (error) throw error;
 
@@ -90,6 +96,7 @@ async function loadDestinationIndex(): Promise<DestinationIndex> {
         .select("slug, seo_indexable, city_name, property_name, full_address, main_photo_url, provider_kind")
         .eq("seo_indexable", true)
         .not("slug", "is", null)
+        .not("main_photo_url", "is", null)
         .range(from, from + 999);
       if (error) throw error;
 
@@ -114,6 +121,8 @@ async function loadDestinationIndex(): Promise<DestinationIndex> {
   }
 
   function addStructure(cityName: string, item: DestinationStructureItem) {
+    if (!structureHasMainPhoto(item)) return;
+
     const hubKey = canonicalCityKey(cityName);
     const hubSlug = buildDestinationSlug(cityName);
     const bucket = structuresByHubKey.get(hubKey) ?? {
@@ -166,12 +175,17 @@ export async function fetchDestinationHubBySlug(slug: string): Promise<Destinati
 
 export async function listDestinationHubSlugs(): Promise<string[]> {
   const index = await loadDestinationIndex();
-  return [...index.hubs.keys()].sort();
+  return [...index.hubs.values()]
+    .filter(isDestinationHubIndexable)
+    .map((hub) => hub.slug)
+    .sort();
 }
 
 export async function listAllDestinationHubs(): Promise<DestinationHub[]> {
   const index = await loadDestinationIndex();
-  return [...index.hubs.values()].sort((a, b) => a.displayName.localeCompare(b.displayName, "it"));
+  return filterIndexableDestinationHubs([...index.hubs.values()]).sort((a, b) =>
+    a.displayName.localeCompare(b.displayName, "it"),
+  );
 }
 
 export async function listPopularDestinations(): Promise<DestinationHub[]> {
