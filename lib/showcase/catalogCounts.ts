@@ -69,3 +69,30 @@ export async function fetchCatalogStructureCount(
 
   return onboarding + registered;
 }
+
+export async function fetchActiveTravelRequestCount(
+  options: { countryCode?: string | null; cityId?: string | null } = {},
+): Promise<number> {
+  const admin = createServiceRoleClient();
+  if (!admin) return 0;
+
+  const now = new Date().toISOString();
+  let query = admin
+    .from("travel_requests")
+    .select("id", { count: "exact", head: true })
+    .eq("status", "active")
+    .gt("expires_at", now);
+
+  const country = options.countryCode?.trim().toUpperCase();
+  if (country) query = query.eq("country_code", country);
+
+  const cityId = options.cityId?.trim();
+  if (cityId) query = query.eq("city_id", cityId);
+
+  const { count, error } = await query;
+  if (error) {
+    console.error("[showcase] travel_requests count failed:", error.message);
+    return 0;
+  }
+  return count ?? 0;
+}

@@ -65,8 +65,7 @@ const ctaRequest = "inline-flex items-center justify-center gap-1.5 rounded-full
 
 /** Vetrina homepage: elenco agenzie per città (riattivare in un secondo momento). */
 const SHOW_HOME_AGENCY_DIRECTORY = false;
-const RANDOM_REQUESTS_SHOW = 24;
-const SHOWCASE_REQUESTS_POOL = 200;
+const SHOWCASE_REQUESTS_POOL = 250;
 
 function shuffleItems<T>(items: T[]): T[] {
   const copy = [...items];
@@ -241,7 +240,9 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
   const [dropBenefitsOpen, setDropBenefitsOpen] = useState(false);
   const [focusedHotelId, setFocusedHotelId] = useState<string | null>(null);
   const [catalogTotalCount, setCatalogTotalCount] = useState(() => initialData?.catalogTotalCount ?? 0);
+  const [activeRequestTotalCount, setActiveRequestTotalCount] = useState(() => initialData?.activeRequestTotalCount ?? 0);
   const [cityStructureCount, setCityStructureCount] = useState<number | null>(null);
+  const [cityRequestCount, setCityRequestCount] = useState<number | null>(null);
   const mapHotelId = searchParams.get("map_hotel")?.trim() || null;
 
   const hasSelectedCity = Boolean(selectedCity.city_name.trim());
@@ -385,10 +386,18 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
           .gt("updated_at", acceptedCutoff),
       ]);
 
-      const requestsJson = (await requestsRes.json()) as { requests?: TravelRequest[]; error?: string };
+      const requestsJson = (await requestsRes.json()) as {
+        requests?: TravelRequest[];
+        requestCount?: number;
+        error?: string;
+      };
       if (!requestsRes.ok) {
         setError(requestsJson.error ?? t.showcase.loadRequestsError);
         return;
+      }
+      if (typeof requestsJson.requestCount === "number") {
+        setActiveRequestTotalCount(requestsJson.requestCount);
+        setCityRequestCount(null);
       }
 
       const acceptedIds = new Set<string>();
@@ -421,6 +430,36 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
   }
 
   useEffect(() => { void loadShowcase(); }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    async function loadCityRequests() {
+      if (!hasSelectedCity || !selectedCity.city_id) return;
+      try {
+        const params = new URLSearchParams();
+        params.set("city_id", selectedCity.city_id);
+        if (selectedCity.country_code) params.set("country_code", selectedCity.country_code);
+        const res = await fetch(`/api/showcase/requests?${params.toString()}`, { cache: "no-store", credentials: "include" });
+        const json = (await res.json()) as { requests?: TravelRequest[]; requestCount?: number };
+        if (cancelled || !res.ok) return;
+        const rows = Array.isArray(json.requests) ? json.requests : [];
+        setRequests((current) => {
+          const merged = new Map(current.map((r) => [r.id, r]));
+          for (const row of rows) merged.set(row.id, row as TravelRequest);
+          return Array.from(merged.values())
+            .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
+            .slice(0, SHOWCASE_REQUESTS_POOL);
+        });
+        if (typeof json.requestCount === "number") setCityRequestCount(json.requestCount);
+      } catch {
+        if (!cancelled) setCityRequestCount(null);
+      }
+    }
+    void loadCityRequests();
+    return () => {
+      cancelled = true;
+    };
+  }, [hasSelectedCity, selectedCity.city_id, selectedCity.country_code]);
 
   useEffect(() => {
     let cancelled = false;
@@ -501,7 +540,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
     if (isHotel) return requests.filter(matchesHotelCity);
     const matched = requests.filter(matchesSelectedCity);
     if (hasSelectedCity) return matched;
-    return shuffleItems(matched).slice(0, RANDOM_REQUESTS_SHOW);
+    return shuffleItems(matched);
   }, [
     requests,
     hasSelectedCity,
@@ -529,6 +568,18 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
     }, 150);
     return () => window.clearTimeout(timer);
   }, [focusedHotelId, hotelsLoading, displayHotels.length]);
+
+  const requestCatalogCount = hasSelectedCity
+    ? (cityRequestCount ?? displayRequests.length)
+    : activeRequestTotalCount;
+  const requestsSliderTitle =
+    isHotel && viewer.hotelCityName
+      ? formatMessage(t.showcase.activeRequestsInCity, { count: requestCatalogCount, city: viewer.hotelCityName })
+      : hasSelectedCity
+        ? formatMessage(t.showcase.activeRequestsInCity, { count: requestCatalogCount, city: selectedCity.city_name })
+        : formatMessage(t.showcase.activeRequestsCatalogTitle, {
+            total: requestCatalogCount.toLocaleString(locale === "en" ? "en-GB" : "it-IT"),
+          });
 
   function renderRequestCard(request: TravelRequest) {
     const hasOffer = offeredRequestIds.has(request.id);
@@ -851,13 +902,8 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
       </HorizontalSlider>
 
       <HorizontalSlider
-        title={
-          isHotel && viewer.hotelCityName
-            ? formatMessage(t.showcase.activeRequestsInCity, { count: displayRequests.length, city: viewer.hotelCityName })
-            : hasSelectedCity
-              ? formatMessage(t.showcase.activeRequestsInCity, { count: displayRequests.length, city: selectedCity.city_name })
-              : formatMessage(t.showcase.featuredRequestsCount, { count: displayRequests.length })
-        }
+        sectionId="showcase-requests"
+        title={requestsSliderTitle}
         subtitle={
           isHotel
             ? t.showcase.requestsSubtitleHotel
@@ -866,9 +912,9 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
               : t.showcase.requestsSubtitleFeatured
         }
         subtitleClassName={!isHotel && !hasSelectedCity ? "hd-bento-subtitle-orange" : undefined}
-        prevLabel={t.showcase.sliderPrevious}
-        nextLabel={t.showcase.sliderNext}
         itemCount={!loading && !error ? displayRequests.length : 0}
+        hideNavigation
+        denseGrid
       >
         {error ? <div className="w-full rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}
         {loading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">{t.showcase.loadingHome}</div> : null}

@@ -13,13 +13,13 @@ import {
   type ShowcaseTravelRequest,
 } from "@/lib/showcase/publicRequests";
 import { fetchRandomCatalogOffers } from "@/lib/catalog-offers/queries";
-import { fetchCatalogStructureCount } from "@/lib/showcase/catalogCounts";
+import { fetchActiveTravelRequestCount, fetchCatalogStructureCount } from "@/lib/showcase/catalogCounts";
 import { parseStoredCoords } from "@/lib/showcase/hotelMapCoords";
 
 export const RANDOM_ONBOARDING_POOL = 320;
 export const RANDOM_ONBOARDING_SHOW = 40;
 export const RANDOM_REGISTERED_SHOW = 20;
-export const SHOWCASE_REQUESTS_POOL = 200;
+export const SHOWCASE_REQUESTS_POOL = 250;
 
 const PUBLIC_ONBOARDING_STATUS_SET = new Set<string>([
   "unclaimed",
@@ -65,6 +65,7 @@ export type ShowcaseHomeInitialData = {
   structureOffers: CatalogOfferListItem[];
   agencyOffers: CatalogOfferListItem[];
   catalogTotalCount: number;
+  activeRequestTotalCount: number;
 };
 
 export type FetchShowcaseStructuresOptions = {
@@ -351,14 +352,16 @@ export async function fetchShowcaseHomeInitialData(): Promise<ShowcaseHomeInitia
   }
 
   try {
-    const [requests, acceptedIds, hotels, structureOffers, agencyOffers, catalogTotalCount] = await Promise.all([
-      fetchShowcaseTravelRequests(SHOWCASE_REQUESTS_POOL),
-      fetchRecentlyAcceptedRequestIds(),
-      fetchShowcaseStructures(),
-      fetchRandomCatalogOffers("hotel_vacancy", 12),
-      fetchRandomCatalogOffers("agency_package", 12),
-      fetchCatalogStructureCount(),
-    ]);
+    const [requests, acceptedIds, hotels, structureOffers, agencyOffers, catalogTotalCount, activeRequestTotalCount] =
+      await Promise.all([
+        fetchShowcaseTravelRequests(SHOWCASE_REQUESTS_POOL),
+        fetchRecentlyAcceptedRequestIds(),
+        fetchShowcaseStructures(),
+        fetchRandomCatalogOffers("hotel_vacancy", 12),
+        fetchRandomCatalogOffers("agency_package", 12),
+        fetchCatalogStructureCount(),
+        fetchActiveTravelRequestCount({ countryCode: "IT" }),
+      ]);
 
     const concluded = acceptedIds.length ? await fetchShowcaseConcludedRequests(acceptedIds) : [];
     const merged = new Map<string, ShowcaseTravelRequest>();
@@ -374,6 +377,7 @@ export async function fetchShowcaseHomeInitialData(): Promise<ShowcaseHomeInitia
       structureOffers,
       agencyOffers,
       catalogTotalCount,
+      activeRequestTotalCount,
     };
   } catch {
     return null;
