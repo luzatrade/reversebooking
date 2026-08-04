@@ -24,6 +24,7 @@ import { RoleAlertBells } from "@/components/notifications/RoleAlertBells";
 import { topbarAuthLinkClass, topbarAuthPrimaryClass } from "@/components/navigation/topbarStyles";
 import { formatAdvertiserPublicName, oneAdvertiserProfile } from "@/lib/advertiser/publicName";
 import { formatMessage } from "@/lib/i18n/format";
+import { destinationPublicPath, localizedPath } from "@/lib/i18n/routing";
 import { getStructureTypeLabels } from "@/lib/i18n/labels";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import type { CatalogStructureHit } from "@/lib/catalog/searchStructures";
@@ -34,6 +35,7 @@ import { mealPlanLabels, type MealPlan, type StructureType, type UserRole } from
 import type { CatalogOfferListItem } from "@/types/catalog-offers";
 import type { ShowcaseHomeInitialData, ShowcaseHomeHotel } from "@/lib/showcase/homeData";
 import { structureProfileHref } from "@/lib/showcase/structureExploreLinks";
+import { resolveDestinationHubSlug } from "@/lib/seo/city-canonical";
 
 function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date()) {
   const until = new Date(acceptedAtIso).getTime() + 24 * 60 * 60 * 1000;
@@ -238,6 +240,8 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
   const [mapExploreOpen, setMapExploreOpen] = useState(false);
   const [dropBenefitsOpen, setDropBenefitsOpen] = useState(false);
   const [focusedHotelId, setFocusedHotelId] = useState<string | null>(null);
+  const [catalogTotalCount, setCatalogTotalCount] = useState(() => initialData?.catalogTotalCount ?? 0);
+  const [cityStructureCount, setCityStructureCount] = useState<number | null>(null);
   const mapHotelId = searchParams.get("map_hotel")?.trim() || null;
 
   const hasSelectedCity = Boolean(selectedCity.city_name.trim());
@@ -431,10 +435,16 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
         }
         const query = params.toString();
         const res = await fetch(query ? `/api/showcase/structures?${query}` : "/api/showcase/structures");
-        const json = (await res.json()) as { hotels?: ShowcaseHomeHotel[] };
+        const json = (await res.json()) as { hotels?: ShowcaseHomeHotel[]; structureCount?: number };
         if (cancelled) return;
         const rows = Array.isArray(json.hotels) ? json.hotels : [];
         setHotels(rows.map(mapInitialHotel));
+        if (hasSelectedCity) {
+          setCityStructureCount(typeof json.structureCount === "number" ? json.structureCount : rows.length);
+        } else {
+          setCityStructureCount(null);
+          if (typeof json.structureCount === "number") setCatalogTotalCount(json.structureCount);
+        }
       } catch {
         if (!cancelled) setHotels([]);
       } finally {
@@ -580,7 +590,23 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
     );
   }
 
-  function renderHotelCard(hotel: HotelAccount) {
+  const structureCatalogCount = hasSelectedCity ? (cityStructureCount ?? displayHotels.length) : catalogTotalCount;
+  const structuresSliderTitle = hasSelectedCity
+    ? hotelsLoading
+      ? formatMessage(t.showcase.structuresAtCityLoading, { city: selectedCity.city_name })
+      : formatMessage(t.showcase.structuresAtCityCount, {
+          count: structureCatalogCount,
+          city: selectedCity.city_name,
+        })
+    : formatMessage(t.showcase.featuredStructuresCatalogTitle, {
+        total: structureCatalogCount.toLocaleString(locale === "en" ? "en-GB" : "it-IT"),
+        featured: displayHotels.length,
+      });
+  const structuresCatalogHref = hasSelectedCity
+    ? destinationPublicPath(resolveDestinationHubSlug(selectedCity.city_name), locale)
+    : localizedPath(locale, "/destinazioni");
+
+  function renderHotelCard(hotel: HotelAccount, layout: "compact" | "single" = "compact") {
     const country = countryLabel(hotel.country_code);
     const locationLine = `${structureTypeLabels[hotel.structure_type]} · ${hotel.city_name}${country ? `, ${country}` : ""}`;
     const description = publicHotelDescription(
@@ -591,7 +617,8 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
         key={hotel.id}
         data-showcase-hotel-id={hotel.id}
         className={cn(
-          "flex w-[18.5rem] shrink-0 snap-start flex-col overflow-hidden rounded-2xl border bg-zinc-50 sm:w-[20rem]",
+          "flex shrink-0 snap-start flex-col overflow-hidden rounded-2xl border bg-zinc-50",
+          layout === "single" ? "w-full" : "w-[18.5rem] sm:w-[20rem]",
           hotel.id === focusedHotelId ? "border-[#c2410c] ring-2 ring-[#c2410c]/40" : "border-zinc-200",
         )}
       >
@@ -752,17 +779,24 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
 <div className="relative z-0 mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
       <HorizontalSlider
         sectionId="showcase-structures"
-        title={
-          hasSelectedCity
-            ? hotelsLoading
-              ? formatMessage(t.showcase.structuresAtCityLoading, { city: selectedCity.city_name })
-              : formatMessage(t.showcase.structuresAtCityCount, { count: displayHotels.length, city: selectedCity.city_name })
-            : formatMessage(t.showcase.featuredStructuresCount, { count: displayHotels.length })
-        }
+        title={structuresSliderTitle}
         subtitle={t.showcase.featuredHotelsSubtitle}
         prevLabel={t.showcase.sliderPrevious}
         nextLabel={t.showcase.sliderNext}
         itemCount={!hotelsLoading ? displayHotels.length : 0}
+        singleCard
+        footer={
+          !hotelsLoading && structureCatalogCount > 0 ? (
+            <Link
+              href={structuresCatalogHref}
+              className="inline-flex items-center justify-center rounded-full bg-[#0f4c81] px-5 py-2.5 text-sm font-bold text-white transition hover:bg-[#0d4373]"
+            >
+              {hasSelectedCity
+                ? formatMessage(t.showcase.exploreCityCatalogCta, { city: selectedCity.city_name })
+                : t.showcase.exploreCatalogCta}
+            </Link>
+          ) : null
+        }
       >
         {hotelsLoading ? <div className="w-full rounded-2xl border border-zinc-200 bg-white p-6 text-sm text-zinc-500">{t.showcase.loadingStructures}</div> : null}
         {!hotelsLoading && displayHotels.length === 0 ? (
@@ -772,7 +806,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
               : t.showcase.noStructuresFound}
           </div>
         ) : null}
-        {!hotelsLoading ? displayHotels.map((hotel) => renderHotelCard(hotel)) : null}
+        {!hotelsLoading ? displayHotels.map((hotel) => renderHotelCard(hotel, "single")) : null}
       </HorizontalSlider>
 
       <HorizontalSlider

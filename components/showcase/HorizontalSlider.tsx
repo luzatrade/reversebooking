@@ -16,6 +16,9 @@ type HorizontalSliderProps = {
   children: ReactNode;
   prevLabel?: string;
   nextLabel?: string;
+  /** Una card per viewport, frecce grandi e contatore posizione. */
+  singleCard?: boolean;
+  footer?: ReactNode;
 };
 
 /**
@@ -34,6 +37,8 @@ export function HorizontalSlider({
   children,
   prevLabel = "Precedente",
   nextLabel = "Successivo",
+  singleCard = false,
+  footer,
 }: HorizontalSliderProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -42,8 +47,8 @@ export function HorizontalSlider({
     const container = scrollRef.current;
     if (!container) return;
     const child = container.children[index] as HTMLElement | undefined;
-    child?.scrollIntoView({ behavior: "smooth", inline: "start", block: "nearest" });
-  }, []);
+    child?.scrollIntoView({ behavior: "smooth", inline: singleCard ? "center" : "start", block: "nearest" });
+  }, [singleCard]);
 
   useEffect(() => {
     const container = scrollRef.current;
@@ -68,14 +73,16 @@ export function HorizontalSlider({
     return () => container.removeEventListener("scroll", onScroll);
   }, [itemCount]);
 
+  const showNav = itemCount > 1;
+
   return (
     <section id={sectionId} className={cn("hd-feed-card scroll-mt-24 p-4 sm:p-5", sectionClassName)}>
-      <div className="mb-3 flex items-end justify-between gap-3 sm:mb-4">
+      <div className={cn("mb-3 flex items-end justify-between gap-3", singleCard ? "sm:mb-4" : "sm:mb-4")}>
         <div className="min-w-0">
-          <h2 className={cn("hd-bento-title truncate", titleClassName)}>{title}</h2>
+          <h2 className={cn("hd-bento-title", singleCard ? "whitespace-normal" : "truncate", titleClassName)}>{title}</h2>
           {subtitle ? <p className={cn("hd-bento-subtitle", subtitleClassName)}>{subtitle}</p> : null}
         </div>
-        {itemCount > 1 ? (
+        {showNav && !singleCard ? (
           <div className="flex shrink-0 items-center gap-2">
             <button
               type="button"
@@ -97,12 +104,49 @@ export function HorizontalSlider({
         ) : null}
       </div>
 
-      <div
-        ref={scrollRef}
-        className="flex snap-x snap-mandatory gap-4 overflow-x-auto overscroll-x-contain pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-      >
-        {children}
+      <div className={cn("relative", singleCard && showNav && "px-12 sm:px-14")}>
+        {showNav && singleCard ? (
+          <>
+            <button
+              type="button"
+              aria-label={prevLabel}
+              onClick={() => scrollToIndex(Math.max(activeIndex - 1, 0))}
+              disabled={activeIndex === 0}
+              className="hd-hero-nav absolute left-0 top-1/2 z-10 inline-flex h-11 w-11 -translate-y-1/2 items-center justify-center border-2 border-[#0f4c81]/20 bg-white shadow-lg transition hover:border-[#0f4c81]/40 hover:bg-[#f0f6fc] disabled:pointer-events-none disabled:opacity-35 sm:h-12 sm:w-12"
+            >
+              <ChevronLeft className="h-5 w-5 text-[#0f4c81]" />
+            </button>
+            <button
+              type="button"
+              aria-label={nextLabel}
+              onClick={() => scrollToIndex(Math.min(activeIndex + 1, itemCount - 1))}
+              disabled={activeIndex >= itemCount - 1}
+              className="hd-hero-nav absolute right-0 top-1/2 z-10 inline-flex h-11 w-11 -translate-y-1/2 items-center justify-center border-2 border-[#0f4c81]/20 bg-white shadow-lg transition hover:border-[#0f4c81]/40 hover:bg-[#f0f6fc] disabled:pointer-events-none disabled:opacity-35 sm:h-12 sm:w-12"
+            >
+              <ChevronRight className="h-5 w-5 text-[#0f4c81]" />
+            </button>
+          </>
+        ) : null}
+
+        <div
+          ref={scrollRef}
+          className={cn(
+            "flex snap-x snap-mandatory overflow-x-auto overscroll-x-contain pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
+            singleCard ? "gap-0 scroll-px-0" : "gap-4",
+            singleCard && "[&>article]:w-full [&>article]:max-w-none [&>article]:flex-[0_0_100%] [&>article]:snap-center",
+          )}
+        >
+          {children}
+        </div>
       </div>
+
+      {singleCard && showNav ? (
+        <p className="mt-2 text-center text-xs font-medium text-zinc-500" aria-live="polite">
+          {activeIndex + 1} / {itemCount}
+        </p>
+      ) : null}
+
+      {footer ? <div className="mt-4 flex justify-center">{footer}</div> : null}
     </section>
   );
 }

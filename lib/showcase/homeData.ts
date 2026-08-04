@@ -13,6 +13,7 @@ import {
   type ShowcaseTravelRequest,
 } from "@/lib/showcase/publicRequests";
 import { fetchRandomCatalogOffers } from "@/lib/catalog-offers/queries";
+import { fetchCatalogStructureCount } from "@/lib/showcase/catalogCounts";
 import { parseStoredCoords } from "@/lib/showcase/hotelMapCoords";
 
 export const RANDOM_ONBOARDING_POOL = 320;
@@ -63,6 +64,7 @@ export type ShowcaseHomeInitialData = {
   hotels: ShowcaseHomeHotel[];
   structureOffers: CatalogOfferListItem[];
   agencyOffers: CatalogOfferListItem[];
+  catalogTotalCount: number;
 };
 
 export type FetchShowcaseStructuresOptions = {
@@ -349,12 +351,13 @@ export async function fetchShowcaseHomeInitialData(): Promise<ShowcaseHomeInitia
   }
 
   try {
-    const [requests, acceptedIds, hotels, structureOffers, agencyOffers] = await Promise.all([
+    const [requests, acceptedIds, hotels, structureOffers, agencyOffers, catalogTotalCount] = await Promise.all([
       fetchShowcaseTravelRequests(SHOWCASE_REQUESTS_POOL),
       fetchRecentlyAcceptedRequestIds(),
       fetchShowcaseStructures(),
       fetchRandomCatalogOffers("hotel_vacancy", 12),
       fetchRandomCatalogOffers("agency_package", 12),
+      fetchCatalogStructureCount(),
     ]);
 
     const concluded = acceptedIds.length ? await fetchShowcaseConcludedRequests(acceptedIds) : [];
@@ -370,6 +373,7 @@ export async function fetchShowcaseHomeInitialData(): Promise<ShowcaseHomeInitia
       hotels,
       structureOffers,
       agencyOffers,
+      catalogTotalCount,
     };
   } catch {
     return null;
