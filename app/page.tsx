@@ -66,7 +66,7 @@ export default async function HomePage() {
       <HomeMarketingSections />
       <HomeComparisonSection />
       <PopularDestinationsBlock />
-      <HomeBottomSections initialData={initialData} />
+      <HomeBottomSections />
     </div>
   );
 }

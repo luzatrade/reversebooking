@@ -1,14 +1,8 @@
-import { HomeSeoInventoryStrip } from "@/components/showcase/HomeSeoInventoryStrip";
 import { FaqSection } from "@/components/seo/FaqSection";
 import { getServerLocale } from "@/lib/i18n/get-translations";
 import { getHomeFaqSections, getMarketingLabels } from "@/lib/i18n/seo-marketing";
-import type { ShowcaseHomeInitialData } from "@/lib/showcase/homeData";
 
-type Props = {
-  initialData: ShowcaseHomeInitialData | null;
-};
-
-export async function HomeBottomSections({ initialData }: Props) {
+export async function HomeBottomSections() {
   const locale = await getServerLocale();
   const labels = getMarketingLabels(locale);
   const faqSections = getHomeFaqSections(locale);
@@ -22,8 +16,6 @@ export async function HomeBottomSections({ initialData }: Props) {
       className="scroll-mt-24 border-t border-zinc-200 bg-zinc-50 px-4 py-10 dark:border-zinc-800 dark:bg-zinc-950 sm:px-6 lg:px-8"
     >
       <div className="mx-auto max-w-7xl space-y-4 sm:space-y-5">
-        <HomeSeoInventoryStrip initialData={initialData} />
-
         <details className="group overflow-hidden rounded-2xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
           <summary className="cursor-pointer list-none px-4 py-3.5 marker:content-none sm:px-5 sm:py-4 [&::-webkit-details-marker]:hidden">
             <span className="flex items-center justify-between gap-3">
