@@ -4,7 +4,7 @@
  *
  * Usage:
  *   node scripts/seed-italy-showcase-requests.mjs
- *   node scripts/seed-italy-showcase-requests.mjs --count 200 --intl 70
+ *   node scripts/seed-italy-showcase-requests.mjs --principal 50
  *
  * Requires: NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY
  */
@@ -31,8 +31,16 @@ const sb = createClient(url, serviceKey, {
 const args = process.argv.slice(2);
 const countArg = args.find((a, i) => args[i - 1] === "--count");
 const intlArg = args.find((a, i) => args[i - 1] === "--intl");
-const TOTAL = countArg && Number(countArg) > 0 ? Number(countArg) : 200;
-const INTL_COUNT = intlArg && Number(intlArg) > 0 ? Number(intlArg) : 70;
+const principalArg = args.find((a, i) => args[i - 1] === "--principal");
+const PRINCIPAL_ONLY = Boolean(principalArg);
+const TOTAL = PRINCIPAL_ONLY
+  ? Number(principalArg) > 0
+    ? Number(principalArg)
+    : 50
+  : countArg && Number(countArg) > 0
+    ? Number(countArg)
+    : 200;
+const INTL_COUNT = intlArg && Number(intlArg) > 0 ? Number(intlArg) : PRINCIPAL_ONLY ? Math.min(18, Math.floor(TOTAL * 0.35)) : 70;
 
 const ALPHABET = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
 function randomSuffix(len = 6) {
@@ -98,27 +106,45 @@ function expiresAtForCheckOut(checkOut) {
   return zonedLocalToUtcIso(`${nextDay}T00:00:00`);
 }
 
-/** Città italiane con peso (strutture abbonate + hub turistici). */
+/** Hub principali — nome italiano per vetrina IT. */
+const PRINCIPAL_CITIES = [
+  { city_name: "Napoli", city_id: "IT-NAP", areas: ["Centro", "Chiaia", "Vomero", "Porto", "Mergellina"] },
+  { city_name: "Roma", city_id: "IT-ROM", areas: ["Centro Storico", "Trastevere", "Termini", "Prati", "San Giovanni"] },
+  { city_name: "Milano", city_id: "IT-MIL", areas: ["Centro", "Navigli", "Brera", "Porta Garibaldi", "Duomo"] },
+  { city_name: "Verona", city_id: "IT-VRN", areas: ["Centro", "Arena", "Porta Nuova", "Veronetta", "Borgo Trento"] },
+  { city_name: "Venezia", city_id: "IT-VCE", areas: ["San Marco", "Cannaregio", "Dorsoduro", "Mestre", "Rialto"] },
+  { city_name: "Catania", city_id: "IT-CTA", areas: ["Centro", "Etnea", "Ognina", "Porto", "Borgo"] },
+  { city_name: "Palermo", city_id: "IT-PMO", areas: ["Centro", "Mondello", "Kalsa", "Politeama", "Vucciria"] },
+];
+
+/** Città italiane vetrina — pesi più equi (hub + città con catalogo). */
 const ITALY_CITIES = [
-  { city_name: "Reggio Calabria", city_id: "IT-REG", areas: ["Lungomare", "Centro", "Stazione", "Aragonese"], weight: 28 },
-  { city_name: "Reggio di Calabria", city_id: "IT-REG", areas: ["Lungomare", "Centro", "Stazione", "Porto"], weight: 6 },
-  { city_name: "Pesaro", city_id: "IT-pesaro", areas: ["Centro", "Lungomare", "Baia Flaminia", "Stazione"], weight: 12 },
-  { city_name: "Rome", city_id: "IT-ROM", areas: ["Centro Storico", "Trastevere", "Termini", "Prati"], weight: 14 },
-  { city_name: "Milan", city_id: "IT-MIL", areas: ["Centro", "Navigli", "Brera", "Porta Garibaldi"], weight: 12 },
-  { city_name: "Naples", city_id: "IT-NAP", areas: ["Centro", "Chiaia", "Vomero", "Porto"], weight: 10 },
-  { city_name: "Florence", city_id: "IT-FLR", areas: ["Duomo", "Oltrarno", "SMN", "San Lorenzo"], weight: 10 },
-  { city_name: "Venice", city_id: "IT-VCE", areas: ["San Marco", "Cannaregio", "Dorsoduro", "Mestre"], weight: 8 },
-  { city_name: "Palermo", city_id: "IT-PMO", areas: ["Centro", "Mondello", "Kalsa", "Politeama"], weight: 8 },
+  ...PRINCIPAL_CITIES.map((c) => ({ ...c, weight: 10 })),
+  { city_name: "Reggio Calabria", city_id: "IT-REG", areas: ["Lungomare", "Centro", "Stazione", "Aragonese"], weight: 8 },
+  { city_name: "Reggio di Calabria", city_id: "IT-REG", areas: ["Lungomare", "Centro", "Stazione", "Porto"], weight: 3 },
+  { city_name: "Pesaro", city_id: "IT-pesaro", areas: ["Centro", "Lungomare", "Baia Flaminia", "Stazione"], weight: 6 },
+  { city_name: "Firenze", city_id: "IT-FLR", areas: ["Duomo", "Oltrarno", "SMN", "San Lorenzo"], weight: 9 },
   { city_name: "Bari", city_id: "IT-BRI", areas: ["Murattiano", "Lungomare", "Stazione", "Poggiofranco"], weight: 8 },
-  { city_name: "Bologna", city_id: "IT-BLQ", areas: ["Centro", "Università", "Fiera", "Stazione"], weight: 6 },
-  { city_name: "Turin", city_id: "IT-TRN", areas: ["Centro", "Lingotto", "Porta Susa", "San Salvario"], weight: 6 },
-  { city_name: "Verona", city_id: "IT-VRN", areas: ["Centro", "Arena", "Porta Nuova", "Veronetta"], weight: 5 },
+  { city_name: "Bologna", city_id: "IT-BLQ", areas: ["Centro", "Università", "Fiera", "Stazione"], weight: 7 },
+  { city_name: "Torino", city_id: "IT-TRN", areas: ["Centro", "Lingotto", "Porta Susa", "San Salvario"], weight: 7 },
   { city_name: "Rimini", city_id: "IT-RMI", areas: ["Marina Centro", "Cesareo", "Fiera", "Rivabella"], weight: 6 },
-  { city_name: "Catania", city_id: "IT-CTA", areas: ["Centro", "Etnea", "Ognina", "Porto"], weight: 5 },
+  { city_name: "Genova", city_id: "IT-GOA", areas: ["Centro", "Porto Antico", "Carignano", "Stazione Brignole"], weight: 5 },
+  { city_name: "Padova", city_id: "IT-PAD", areas: ["Centro", "Basilica", "Stazione", "Prato della Valle"], weight: 5 },
+  { city_name: "Trieste", city_id: "IT-TRS", areas: ["Centro", "Città Vecchia", "Barcola", "Stazione"], weight: 4 },
+  { city_name: "Lecce", city_id: "IT-LCC", areas: ["Centro barocco", "Stazione", "Porto", "San Cataldo"], weight: 4 },
+  { city_name: "Cagliari", city_id: "IT-CAG", areas: ["Marina", "Castello", "Poetto", "Stazione"], weight: 5 },
   { city_name: "Sorrento", city_id: "IT-SOR", areas: ["Centro", "Marina Grande", "Corso Italia", "Meta"], weight: 4 },
-  { city_name: "Amalfi", city_id: "IT-AMF", areas: ["Centro", "Lungomare", "Atrani", "Ravello transfer"], weight: 3 },
   { city_name: "Taormina", city_id: "IT-TAO", areas: ["Centro", "Mazzarò", "Giardini Naxos", "Teatro Antico"], weight: 4 },
-  { city_name: "Matera", city_id: "IT-MAT", areas: ["Sassi", "Centro", "Sasso Barisano", "Civita"], weight: 3 },
+  { city_name: "Matera", city_id: "IT-MAT", areas: ["Sassi", "Centro", "Sasso Barisano", "Civita"], weight: 4 },
+  { city_name: "Salerno", city_id: "IT-SAL", areas: ["Centro", "Lungomare", "Stazione", "Luci del artista"], weight: 4 },
+  { city_name: "Pisa", city_id: "IT-PSA", areas: ["Centro", "Piazza dei Miracoli", "Stazione", "Lungarno"], weight: 4 },
+  { city_name: "Perugia", city_id: "IT-PEG", areas: ["Centro storico", "MiniMetro", "Stazione", "Elce"], weight: 3 },
+  { city_name: "Siracusa", city_id: "IT-SIR", areas: ["Ortigia", "Centro", "Lungomare", "Neapolis"], weight: 4 },
+  { city_name: "Amalfi", city_id: "IT-AMF", areas: ["Centro", "Lungomare", "Atrani", "Ravello transfer"], weight: 3 },
+  { city_name: "Como", city_id: "IT-CMO", areas: ["Lungolago", "Brunate", "Stazione", "Lago"], weight: 3 },
+  { city_name: "Bergamo", city_id: "IT-BGY", areas: ["Città Alta", "Città Bassa", "Stazione", "Orio area"], weight: 3 },
+  { city_name: "Ravenna", city_id: "IT-RAV", areas: ["Centro", "Mosaic district", "Stazione", "Marina"], weight: 3 },
+  { city_name: "Jesolo", city_id: "IT-JES", areas: ["Piazza Mazzini", "Pineta", "Lido est", "Stazione"], weight: 3 },
 ];
 
 const ADVERTISERS = [
@@ -332,6 +358,17 @@ function buildScenarios() {
   ];
 }
 
+function expandPrincipalCities(total) {
+  const perCity = Math.floor(total / PRINCIPAL_CITIES.length);
+  const extra = total % PRINCIPAL_CITIES.length;
+  const slots = [];
+  for (let i = 0; i < PRINCIPAL_CITIES.length; i += 1) {
+    const n = perCity + (i < extra ? 1 : 0);
+    for (let j = 0; j < n; j += 1) slots.push(PRINCIPAL_CITIES[i]);
+  }
+  return shuffle(slots);
+}
+
 function expandWeightedCities(total) {
   const slots = [];
   const sum = ITALY_CITIES.reduce((s, c) => s + c.weight, 0);
@@ -484,18 +521,20 @@ async function createRequest(city, scenario, lang, adv) {
 }
 
 async function main() {
-  console.log(`HotelsDrop — seed ${TOTAL} richieste Italia (${INTL_COUNT} EN/ES)`);
+  const modeLabel = PRINCIPAL_ONLY ? `hub principali (${PRINCIPAL_CITIES.map((c) => c.city_name).join(", ")})` : "Italia";
+  console.log(`HotelsDrop — seed ${TOTAL} richieste ${modeLabel} (${INTL_COUNT} EN/ES)`);
   const { pool, byLang } = await ensureAdvertisers();
   if (!pool.length) {
     console.error("Nessun inserzionista demo.");
     process.exit(1);
   }
 
-  const cities = expandWeightedCities(TOTAL);
+  const cities = PRINCIPAL_ONLY ? expandPrincipalCities(TOTAL) : expandWeightedCities(TOTAL);
   const langs = buildLangPlan(TOTAL, INTL_COUNT);
   const scenarios = buildScenarios();
   let created = 0;
   const stats = { it: 0, en: 0, es: 0, reggio: 0, pesaro: 0 };
+  const cityCounts = new Map();
 
   for (let i = 0; i < TOTAL; i += 1) {
     const city = cities[i] ?? pick(ITALY_CITIES);
@@ -508,6 +547,7 @@ async function main() {
       stats[lang] += 1;
       if (city.city_id === "IT-REG") stats.reggio += 1;
       if (city.city_id === "IT-pesaro") stats.pesaro += 1;
+      cityCounts.set(city.city_name, (cityCounts.get(city.city_name) ?? 0) + 1);
       if (created % 25 === 0 || created <= 5) {
         console.log(`  + ${city.city_name} · ${row.kind} · ${row.lang} · ${row.guests} ospiti · ${row.budget}€`);
       }
@@ -527,7 +567,13 @@ async function main() {
   console.log("\n=== RIEPILOGO ===");
   console.log(`  Create ora: ${created}`);
   console.log(`  Lingue: IT ${stats.it} · EN ${stats.en} · ES ${stats.es}`);
-  console.log(`  Reggio: ${stats.reggio} · Pesaro: ${stats.pesaro}`);
+  if (!PRINCIPAL_ONLY) {
+    console.log(`  Reggio: ${stats.reggio} · Pesaro: ${stats.pesaro}`);
+  }
+  console.log("  Per città:");
+  for (const [name, n] of [...cityCounts.entries()].sort((a, b) => b[1] - a[1])) {
+    console.log(`    ${name}: ${n}`);
+  }
   console.log(`  IT attive totali: ${count ?? "?"}`);
 }
 
