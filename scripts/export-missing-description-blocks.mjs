@@ -4,6 +4,8 @@
  * Usage:
  *   node scripts/export-missing-description-blocks.mjs
  *   node scripts/export-missing-description-blocks.mjs --block-size 35 --max-blocks 5
+ *   node scripts/export-missing-description-blocks.mjs --block 001   # solo blocco 001
+ *   node scripts/export-missing-description-blocks.mjs --block 001 --stdout  # stampa prompt (no file)
  */
 
 import { mkdirSync, writeFileSync } from "fs";
@@ -21,9 +23,20 @@ const DEFAULT_BLOCK_SIZE = 35;
 function parseArgs() {
   const sizeArg = process.argv.find((a) => a.startsWith("--block-size="));
   const maxArg = process.argv.find((a) => a.startsWith("--max-blocks="));
+  const blockArg = process.argv.find((a) => a.startsWith("--block="));
+  const blockNumArg = process.argv.indexOf("--block");
+  const blockFromSpace =
+    blockNumArg !== -1 && process.argv[blockNumArg + 1] && !process.argv[blockNumArg + 1].startsWith("--")
+      ? process.argv[blockNumArg + 1]
+      : null;
+  const blockRaw = blockArg ? blockArg.split("=")[1] : blockFromSpace;
+  const onlyBlock = blockRaw ? Number.parseInt(blockRaw, 10) : null;
+
   return {
     blockSize: sizeArg ? Number.parseInt(sizeArg.split("=")[1], 10) : DEFAULT_BLOCK_SIZE,
     maxBlocks: maxArg ? Number.parseInt(maxArg.split("=")[1], 10) : null,
+    onlyBlock,
+    stdout: process.argv.includes("--stdout"),
   };
 }
 
@@ -63,11 +76,44 @@ function padBlock(n) {
   return String(n).padStart(3, "0");
 }
 
+function buildPromptText(blockNum, totalBlocks, chunk) {
+  const promptLines = [buildGeminiDescriptionPromptHeader(blockNum, totalBlocks, chunk.length)];
+  for (const [i, row] of chunk.entries()) {
+    promptLines.push(
+      `${i + 1}. **${row.nome}** — ${row.city_name}`,
+      `   - slug: \`${row.slug ?? "DA GENERARE"}\``,
+      `   - indirizzo: ${row.indirizzo ?? "—"}`,
+      "",
+    );
+  }
+  return promptLines.filter(Boolean).join("\n");
+}
+
 async function main() {
-  const { blockSize, maxBlocks } = parseArgs();
+  const { blockSize, maxBlocks, onlyBlock, stdout } = parseArgs();
   const rows = await fetchMissingDescription();
   const totalBlocks = Math.ceil(rows.length / blockSize);
-  const blocksToWrite = maxBlocks ? Math.min(maxBlocks, totalBlocks) : totalBlocks;
+
+  if (onlyBlock != null && (onlyBlock < 1 || onlyBlock > totalBlocks)) {
+    console.error(`Blocco ${onlyBlock} non valido (1–${totalBlocks})`);
+    process.exit(1);
+  }
+
+  const startBlock = onlyBlock ?? 1;
+  const endBlock = onlyBlock ?? (maxBlocks ? Math.min(maxBlocks, totalBlocks) : totalBlocks);
+  const blocksToWrite = endBlock - startBlock + 1;
+
+  if (stdout && onlyBlock == null) {
+    console.error("Usa --stdout con --block N (es. --block 001 --stdout)");
+    process.exit(1);
+  }
+
+  if (stdout) {
+    const start = (startBlock - 1) * blockSize;
+    const chunk = rows.slice(start, start + blockSize);
+    process.stdout.write(buildPromptText(startBlock, totalBlocks, chunk));
+    return;
+  }
 
   mkdirSync(OUT_DIR, { recursive: true });
 
@@ -83,7 +129,7 @@ async function main() {
     blocks: [],
   };
 
-  for (let blockNum = 1; blockNum <= blocksToWrite; blockNum += 1) {
+  for (let blockNum = startBlock; blockNum <= endBlock; blockNum += 1) {
     const start = (blockNum - 1) * blockSize;
     const chunk = rows.slice(start, start + blockSize);
     const blockId = padBlock(blockNum);
@@ -107,20 +153,11 @@ async function main() {
     const jsonPath = resolve(OUT_DIR, `block-${blockId}.json`);
     writeFileSync(jsonPath, JSON.stringify(payload, null, 2), "utf8");
 
-    const promptLines = [
-      buildGeminiDescriptionPromptHeader(blockNum, totalBlocks, chunk.length),
-    ];
-
-    for (const [i, row] of chunk.entries()) {
-      promptLines.push(
-        `${i + 1}. **${row.nome}** — ${row.city_name}`,
-        `   - slug: \`${row.slug ?? "DA GENERARE"}\``,
-        `   - indirizzo: ${row.indirizzo ?? "—"}`,
-        "",
-      );
-    }
-
-    writeFileSync(resolve(OUT_DIR, `block-${blockId}-prompt.md`), promptLines.filter(Boolean).join("\n"), "utf8");
+    writeFileSync(
+      resolve(OUT_DIR, `block-${blockId}-prompt.md`),
+      buildPromptText(blockNum, totalBlocks, chunk),
+      "utf8",
+    );
 
     index.blocks.push({
       blockId,
@@ -131,11 +168,15 @@ async function main() {
     });
   }
 
-  writeFileSync(resolve(__dirname, "../data/missing-descriptions/index.json"), JSON.stringify(index, null, 2), "utf8");
+  if (!onlyBlock) {
+    writeFileSync(resolve(__dirname, "../data/missing-descriptions/index.json"), JSON.stringify(index, null, 2), "utf8");
+  }
 
   console.log(`Strutture senza description: ${rows.length}`);
-  console.log(`Blocchi (${blockSize} cad.): ${blocksToWrite} scritti su ${totalBlocks} totali`);
-  console.log(`Cartella: data/missing-descriptions/`);
+  console.log(
+    `Blocchi (${blockSize} cad.): ${blocksToWrite} scritti (${startBlock}–${endBlock}) su ${totalBlocks} totali`,
+  );
+  console.log(`Cartella locale: data/missing-descriptions/ (non in git)`);
 }
 
 main().catch((err) => {

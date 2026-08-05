@@ -1,23 +1,41 @@
 # Strutture senza descrizione IT
 
-Export per batch Gemini: blocchi da **35** strutture con foto e indirizzo ma **senza** `description` (italiano).
+Export **locale** per batch Gemini. I file generati **non** sono su GitHub (vedi `.gitignore`).
 
 ## Regola Gemini (importante)
 
 **NON inventare.** Solo testi verificati da sito ufficiale / Google Business.  
 Se non trova nulla → struttura in `not_found`, descrizioni **vuote** (non importate).
 
-## Rigenerare export
+## Genera prompt sul tuo PC / Cloud Agent
 
 ```bash
+# Solo blocco 001 → stampa prompt (copia in Gemini)
+node scripts/export-missing-description-blocks.mjs --block 001 --stdout
+
+# Oppure salva file locale (non va in git)
+node scripts/export-missing-description-blocks.mjs --block 001
+
+# Tutti i blocchi (17k strutture) — solo se serve
 node scripts/export-missing-description-blocks.mjs
-node scripts/export-missing-description-blocks.mjs --max-blocks=1   # solo blocco 001
 ```
+
+Output locale: `data/missing-descriptions/blocks/block-001-prompt.md`
 
 ## Workflow
 
-1. Apri `blocks/block-NNN-prompt.md` → copia in Gemini.
-2. Gemini risponde con JSON:
+1. Genera o apri il prompt del blocco.
+2. Incolla in Gemini (meglio con ricerca web).
+3. Salva la risposta JSON in `data/gemini-responses/block-001-response.json` (anche questo è locale).
+4. Import in Supabase:
+
+```bash
+node scripts/import-gemini-block-descriptions.mjs --file data/gemini-responses/block-001-response.json
+```
+
+5. Se ci sono `not_found`, viene creato `block-001-response-not-found.json` con l’elenco.
+
+## Formato risposta Gemini
 
 ```json
 {
@@ -40,19 +58,6 @@ node scripts/export-missing-description-blocks.mjs --max-blocks=1   # solo blocc
   ]
 }
 ```
-
-3. Salva come `data/gemini-responses/block-NNN-response.json`
-4. Import:
-
-```bash
-node scripts/import-gemini-block-descriptions.mjs --file data/gemini-responses/block-NNN-response.json
-```
-
-5. Se ci sono `not_found`, viene creato `block-NNN-response-not-found.json` con l’elenco.
-
-## Formato legacy
-
-Ancora supportato: array semplice in `block-XXX-updates.json` (solo righe con descrizione).
 
 ## Criteri export
 
