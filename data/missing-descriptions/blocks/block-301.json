@@ -5,15 +5,6 @@
   "blockSize": 35,
   "hotels": [
     {
-      "id": "f57670e8-b9b8-44e0-af21-3fcb8f05be0b",
-      "slug": "b-b-borgo-san-martino-borgo-san-martino-2",
-      "nome": "B&B Borgo San Martino",
-      "city_name": "Borgo San Martino",
-      "indirizzo": "Borgo S. Martino, 182, 00039 Zagarolo RM",
-      "lat": 41.843527,
-      "lng": 12.827235
-    },
-    {
       "id": "9813f314-50aa-41cf-9a5b-671687c47ea0",
       "slug": "b-b-borgo-san-martino-borgo-san-martino",
       "nome": "B&B Borgo San Martino",
@@ -21,6 +12,15 @@
       "indirizzo": "Vico S. Martino, 7, 70043 Monopoli BA",
       "lat": 40.952098,
       "lng": 17.302761
+    },
+    {
+      "id": "f57670e8-b9b8-44e0-af21-3fcb8f05be0b",
+      "slug": "b-b-borgo-san-martino-borgo-san-martino-2",
+      "nome": "B&B Borgo San Martino",
+      "city_name": "Borgo San Martino",
+      "indirizzo": "Borgo S. Martino, 182, 00039 Zagarolo RM",
+      "lat": 41.843527,
+      "lng": 12.827235
     },
     {
       "id": "603e0434-d462-472e-a879-58dfd23d1f62",

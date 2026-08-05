@@ -14,15 +14,6 @@
       "lng": 8.221452
     },
     {
-      "id": "9ed0a0e7-0736-43e3-8f35-f89a5b03109a",
-      "slug": "belvedere-affittacamere-belvedere-langhe-2",
-      "nome": "Belvedere Affittacamere",
-      "city_name": "Belvedere Langhe",
-      "indirizzo": "Via Gioacchino Belli, 16, 42123 Reggio Emilia RE",
-      "lat": 44.676906,
-      "lng": 10.612801
-    },
-    {
       "id": "c9db142d-25f9-4b62-9445-89acf2628ba8",
       "slug": "belvedere-affittacamere-belvedere-langhe",
       "nome": "Belvedere Affittacamere",
@@ -30,6 +21,15 @@
       "indirizzo": "V. Fieschi, 220, 19018 Corniglia SP",
       "lat": 44.119575,
       "lng": 9.70705
+    },
+    {
+      "id": "9ed0a0e7-0736-43e3-8f35-f89a5b03109a",
+      "slug": "belvedere-affittacamere-belvedere-langhe-2",
+      "nome": "Belvedere Affittacamere",
+      "city_name": "Belvedere Langhe",
+      "indirizzo": "Via Gioacchino Belli, 16, 42123 Reggio Emilia RE",
+      "lat": 44.676906,
+      "lng": 10.612801
     },
     {
       "id": "3f8bb4a1-13ff-44af-85b3-09e1cfba1a9c",

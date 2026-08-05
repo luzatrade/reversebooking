@@ -1,40 +1,60 @@
 # Strutture senza descrizione IT
 
-Export per batch Gemini / copywriter: blocchi da **35** strutture con foto e indirizzo ma **senza** `description` (italiano).
+Export per batch Gemini: blocchi da **35** strutture con foto e indirizzo ma **senza** `description` (italiano).
 
-## Rigenerare
+## Regola Gemini (importante)
+
+**NON inventare.** Solo testi verificati da sito ufficiale / Google Business.  
+Se non trova nulla → struttura in `not_found`, descrizioni **vuote** (non importate).
+
+## Rigenerare export
 
 ```bash
 node scripts/export-missing-description-blocks.mjs
+node scripts/export-missing-description-blocks.mjs --max-blocks=1   # solo blocco 001
 ```
 
-Opzioni:
+## Workflow
 
-- `--block-size=35` (default)
-- `--max-blocks=5` (solo i primi 5 blocchi, per test)
+1. Apri `blocks/block-NNN-prompt.md` → copia in Gemini.
+2. Gemini risponde con JSON:
 
-## Contenuto
+```json
+{
+  "updates": [
+    {
+      "slug": "hotel-slug",
+      "indirizzo": "...",
+      "description": "...",
+      "description_en": "...",
+      "sources": ["https://..."]
+    }
+  ],
+  "not_found": [
+    {
+      "slug": "hotel-slug",
+      "nome": "...",
+      "city_name": "...",
+      "reason": "sito assente / dati insufficienti"
+    }
+  ]
+}
+```
 
-| File | Uso |
-|------|-----|
-| `index.json` | Totale strutture, numero blocchi, lista file |
-| `blocks/block-001.json` | 35 strutture (slug, nome, città, indirizzo, contatti) |
-| `blocks/block-001-prompt.md` | Prompt pronto per Gemini |
-
-## Workflow descrizioni
-
-1. Apri `blocks/block-NNN-prompt.md` (o JSON) e genera testi IT + EN.
-2. Salva la risposta in `data/gemini-responses/block-NNN-updates.json` (array con `slug`, `description`, `description_en`, `indirizzo`).
-3. Import:
+3. Salva come `data/gemini-responses/block-NNN-response.json`
+4. Import:
 
 ```bash
-node scripts/import-gemini-block-descriptions.mjs --file data/gemini-responses/block-NNN-updates.json
+node scripts/import-gemini-block-descriptions.mjs --file data/gemini-responses/block-NNN-response.json
 ```
 
-4. Rigenera export (il blocco esportato avrà meno righe) o passa al blocco successivo.
+5. Se ci sono `not_found`, viene creato `block-NNN-response-not-found.json` con l’elenco.
+
+## Formato legacy
+
+Ancora supportato: array semplice in `block-XXX-updates.json` (solo righe con descrizione).
 
 ## Criteri export
 
-- Tabella `onboarding_hotels`
-- `main_photo_url` e `indirizzo` presenti
-- `description` IT vuota o null
+- `onboarding_hotels` con `main_photo_url` + `indirizzo`
+- `description` IT vuota

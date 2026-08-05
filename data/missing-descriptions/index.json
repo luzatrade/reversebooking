@@ -1,11 +1,11 @@
 {
-  "exportedAt": "2026-08-05T20:15:08.527Z",
+  "exportedAt": "2026-08-05T20:28:00.639Z",
   "blockSize": 35,
   "totalStructures": 17480,
   "totalBlocks": 500,
   "blocksWritten": 500,
   "criteria": "onboarding_hotels: main_photo_url + indirizzo presenti, description IT vuota",
-  "importScript": "node scripts/import-gemini-block-descriptions.mjs --file data/gemini-responses/block-XXX-updates.json",
+  "importScript": "node scripts/import-gemini-block-descriptions.mjs --file data/gemini-responses/block-XXX-response.json",
   "blocks": [
     {
       "blockId": "001",

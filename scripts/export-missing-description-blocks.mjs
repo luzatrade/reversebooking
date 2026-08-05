@@ -10,6 +10,7 @@ import { mkdirSync, writeFileSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 import dotenv from "dotenv";
+import { buildGeminiDescriptionPromptHeader } from "./lib/gemini-description-rules.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: resolve(__dirname, "../.env.local"), override: true });
@@ -77,7 +78,8 @@ async function main() {
     totalBlocks,
     blocksWritten: blocksToWrite,
     criteria: "onboarding_hotels: main_photo_url + indirizzo presenti, description IT vuota",
-    importScript: "node scripts/import-gemini-block-descriptions.mjs --file data/gemini-responses/block-XXX-updates.json",
+    importScript:
+      "node scripts/import-gemini-block-descriptions.mjs --file data/gemini-responses/block-XXX-response.json",
     blocks: [],
   };
 
@@ -106,13 +108,7 @@ async function main() {
     writeFileSync(jsonPath, JSON.stringify(payload, null, 2), "utf8");
 
     const promptLines = [
-      `# Blocco ${blockNum}/${totalBlocks} — ${chunk.length} strutture senza descrizione IT`,
-      "",
-      "Genera description (IT, narrativa ~120–200 parole) e description_en (EN, Property Overview style) per ogni hotel.",
-      "Output finale: JSON array come block-002-updates.json con slug, description, description_en, indirizzo.",
-      "",
-      "## Strutture",
-      "",
+      buildGeminiDescriptionPromptHeader(blockNum, totalBlocks, chunk.length),
     ];
 
     for (const [i, row] of chunk.entries()) {
