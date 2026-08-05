@@ -1,4 +1,4 @@
-import { canonicalUrl } from "@/lib/seo/canonical";
+import { getServerLocale } from "@/lib/i18n/get-translations";
 import { buildDestinationJsonLd } from "@/lib/seo/destination-metadata";
 import type { DestinationHub, DestinationStructureItem } from "@/lib/seo/destination-queries";
 
@@ -8,11 +8,13 @@ type Props = {
   pageUrl: string;
 };
 
-export function DestinationJsonLd({ hub, items, pageUrl }: Props) {
+export async function DestinationJsonLd({ hub, items, pageUrl }: Props) {
+  const locale = await getServerLocale();
   const jsonLd = buildDestinationJsonLd(
     hub,
     items.map((item) => ({ slug: item.slug, name: item.name })),
     pageUrl,
+    locale,
   );
 
   return (

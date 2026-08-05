@@ -1,6 +1,7 @@
 import { buildLlmsFullTxt, buildLlmsTxt } from "@/lib/seo/llms-content";
+import { fetchLlmsCatalogStats } from "@/lib/seo/llms-stats";
 
-export const revalidate = 86400;
+export const revalidate = 3600;
 
 function textResponse(body: string) {
   return new Response(body, {
@@ -11,6 +12,7 @@ function textResponse(body: string) {
   });
 }
 
-export function GET() {
-  return textResponse(buildLlmsTxt());
+export async function GET() {
+  const stats = await fetchLlmsCatalogStats();
+  return textResponse(buildLlmsTxt("it", stats));
 }

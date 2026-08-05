@@ -89,7 +89,7 @@ export function buildStructureMetadata(record: StructureSeoRecord, locale: Local
     title: { absolute },
     description,
     alternates: buildLanguageAlternates(`/hotel/${record.slug}`, locale),
-    robots: { index: true, follow: true },
+    robots: { index: record.seoIndexable, follow: true },
     openGraph: buildOpenGraph({
       title: absolute,
       description,

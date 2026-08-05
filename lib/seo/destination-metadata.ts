@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { BRAND_NAME } from "@/lib/legal/company";
+import { localizedPath } from "@/lib/i18n/routing";
 import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
@@ -88,6 +89,7 @@ export function buildDestinationJsonLd(
   locale: Locale = "it",
 ) {
   const heroUrl = getDestinationCityPhoto(hub);
+  const hotelPath = (slug: string) => localizedPath(locale, `/hotel/${slug}`);
 
   return {
     "@context": "https://schema.org",
@@ -107,7 +109,7 @@ export function buildDestinationJsonLd(
           "@type": "ListItem",
           position: index + 1,
           name: item.name,
-          url: canonicalUrl(`/hotel/${item.slug}`),
+          url: canonicalUrl(hotelPath(item.slug)),
         })),
       },
       {
