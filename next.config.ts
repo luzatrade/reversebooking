@@ -1,4 +1,6 @@
 import type { NextConfig } from "next";
+import { BRAND_DOMAIN } from "./lib/legal/company";
+import { APEX_REDIRECT_PATH_REGEX } from "./lib/seo/crawler-paths";
 
 const isDev = process.env.NODE_ENV === "development";
 
@@ -57,14 +59,23 @@ const nextConfig: NextConfig = {
     ],
   },
   async redirects() {
+    const apexHost = BRAND_DOMAIN;
+    const wwwOrigin = `https://www.${apexHost}`;
+
     return [
       { source: "/register", destination: "/registrazione", permanent: true },
       { source: "/vetrina", destination: "/", permanent: true },
       { source: "/vetrina/:path*", destination: "/", permanent: true },
       {
-        source: "/:path*",
-        has: [{ type: "host", value: "hotelsdrop.com" }],
-        destination: "https://www.hotelsdrop.com/:path*",
+        source: "/",
+        has: [{ type: "host", value: apexHost }],
+        destination: `${wwwOrigin}/`,
+        permanent: true,
+      },
+      {
+        source: `/:path(${APEX_REDIRECT_PATH_REGEX})`,
+        has: [{ type: "host", value: apexHost }],
+        destination: `${wwwOrigin}/:path`,
         permanent: true,
       },
     ];
