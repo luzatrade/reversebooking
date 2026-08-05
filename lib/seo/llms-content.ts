@@ -1,11 +1,33 @@
+import type { Metadata } from "next";
 import { BRAND_DISPLAY, BRAND_NAME, company } from "@/lib/legal/company";
 import { localizedPath } from "@/lib/i18n/routing";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import type { Locale } from "@/lib/i18n/translations";
 
-const LLMS_LAST_UPDATED = "2026-07-29";
+export type LlmsCatalogStats = {
+  structureCount: number;
+  activeRequestCount: number;
+  destinationHubCount: number;
+};
 
-function buildLlmsTxtLocale(locale: Locale) {
+function statsBlock(stats: LlmsCatalogStats | null, locale: Locale): string {
+  if (!stats) return "";
+  if (locale === "en") {
+    return `## Catalog snapshot
+- Indexed properties: ${stats.structureCount.toLocaleString("en-US")}
+- Active stay requests (Italy): ${stats.activeRequestCount.toLocaleString("en-US")}
+- Destination hubs (≥3 properties): ${stats.destinationHubCount.toLocaleString("en-US")}
+`;
+  }
+  return `## Snapshot catalogo
+- Strutture indicizzate: ${stats.structureCount.toLocaleString("it-IT")}
+- Richieste di soggiorno attive (Italia): ${stats.activeRequestCount.toLocaleString("it-IT")}
+- Hub destinazione (≥3 strutture): ${stats.destinationHubCount.toLocaleString("it-IT")}
+`;
+}
+
+function buildLlmsTxtLocale(locale: Locale, stats: LlmsCatalogStats | null = null) {
+  const lastUpdated = new Date().toISOString().slice(0, 10);
   const home = canonicalUrl(localizedPath(locale, "/"));
   const about = canonicalUrl(localizedPath(locale, "/cos-e-hotelsdrop"));
   const destinations = canonicalUrl(localizedPath(locale, "/destinazioni"));
@@ -18,7 +40,7 @@ function buildLlmsTxtLocale(locale: Locale) {
   if (locale === "en") {
     return `# ${BRAND_DISPLAY}
 
-> lastUpdated: ${LLMS_LAST_UPDATED}
+> lastUpdated: ${lastUpdated}
 > HotelsDrop is a reverse booking marketplace for hotels, B&Bs and vacation rentals in Italy and worldwide.
 > Travellers publish one free stay request; matching properties send direct personalised offers with zero traveller booking commission.
 
@@ -42,6 +64,8 @@ When a traveller publishes a request, **onboarding properties with a verified em
 
 ## Keywords
 - reverse booking, reversebooking, hotel without commission, direct hotel offers
+
+${statsBlock(stats, locale)}
 
 ## Entity
 - Brand: ${BRAND_NAME} (${BRAND_DISPLAY})
@@ -75,7 +99,7 @@ When a traveller publishes a request, **onboarding properties with a verified em
 
   return `# ${BRAND_DISPLAY}
 
-> lastUpdated: ${LLMS_LAST_UPDATED}
+> lastUpdated: ${lastUpdated}
 > HotelsDrop è un marketplace di reverse booking per hotel, B&B e case vacanza in Italia e nel mondo.
 > Il viaggiatore pubblica una richiesta gratuita; le strutture compatibili rispondono con offerte dirette personalizzate, senza commissioni di prenotazione per chi viaggia.
 
@@ -99,6 +123,8 @@ Quando un viaggiatore pubblica una richiesta, le **strutture onboarding con emai
 
 ## Keywords
 - reverse booking, reversebooking, prenotazione inversa, hotel senza commissioni, offerte hotel dirette
+
+${statsBlock(stats, locale)}
 
 ## Entity
 - Brand: ${BRAND_NAME} (${BRAND_DISPLAY})
@@ -130,11 +156,11 @@ Quando un viaggiatore pubblica una richiesta, le **strutture onboarding con emai
 `;
 }
 
-export function buildLlmsTxt(locale: Locale = "it") {
-  return `${buildLlmsTxtLocale(locale).trim()}\n`;
+export function buildLlmsTxt(locale: Locale = "it", stats: LlmsCatalogStats | null = null) {
+  return `${buildLlmsTxtLocale(locale, stats).trim()}\n`;
 }
 
-export function buildLlmsFullTxt(locale: Locale = "it") {
+export function buildLlmsFullTxt(locale: Locale = "it", stats: LlmsCatalogStats | null = null) {
   const siteIt = canonicalUrl(localizedPath("it", "/")).replace(/\/$/, "");
   const siteEn = canonicalUrl(localizedPath("en", "/")).replace(/\/$/, "");
 
@@ -194,5 +220,5 @@ export function buildLlmsFullTxt(locale: Locale = "it") {
 - ${canonicalUrl(localizedPath("en", "/guide/agenzie-viaggio"))}
 `;
 
-  return `${buildLlmsTxtLocale(locale).trim()}${locale === "en" ? extendedEn : extendedIt}\n`;
+  return `${buildLlmsTxtLocale(locale, stats).trim()}${locale === "en" ? extendedEn : extendedIt}\n`;
 }
