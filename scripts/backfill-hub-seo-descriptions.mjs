@@ -15,6 +15,29 @@ dotenv.config({ path: resolve(__dirname, "../.env.local"), override: true });
 const { createClient } = await import("@supabase/supabase-js");
 const { isOnboardingSeoIndexable } = await import("./lib/seo-slug.mjs");
 
+const TOURIST_CITIES = [
+  "Taormina",
+  "Positano",
+  "Capri",
+  "Sorrento",
+  "Amalfi",
+  "Matera",
+  "Siena",
+  "Cortina d'Ampezzo",
+  "Salerno",
+  "Lecce",
+  "Siracusa",
+  "Como",
+  "Parma",
+  "Pisa",
+  "Padova",
+  "Olbia",
+  "Brescia",
+  "Sanremo",
+  "Cagliari",
+  "Trieste",
+];
+
 const DEFAULT_CITIES = [
   "Roma",
   "Milano",
@@ -32,6 +55,7 @@ const DEFAULT_CITIES = [
   "Bolzano",
   "Bergamo",
   "Perugia",
+  ...TOURIST_CITIES,
 ];
 
 const dryRun = process.argv.includes("--dry-run");
