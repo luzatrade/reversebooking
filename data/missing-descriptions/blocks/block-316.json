@@ -1,0 +1,323 @@
+{
+  "block": 316,
+  "blockId": "316",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "8a5b34e2-5e42-4150-8712-b9508e5195fe",
+      "slug": "hotel-ristorante-riposo-bracca",
+      "nome": "Hotel Ristorante Riposo",
+      "city_name": "Bracca",
+      "indirizzo": "Via de Medici, 101, 24016 San Pellegrino Terme BG",
+      "lat": 45.82406,
+      "lng": 9.67349
+    },
+    {
+      "id": "d529b671-85ab-4555-b273-684f4aa17c6e",
+      "slug": "monte-zucco-relax-bracca",
+      "nome": "Monte Zucco Relax",
+      "city_name": "Bracca",
+      "indirizzo": "Via Monte Zucco, 11, 24016 Frasnito BG",
+      "lat": 45.835328,
+      "lng": 9.656613
+    },
+    {
+      "id": "04d9d2c2-2793-4682-a3a2-a5447bd033c7",
+      "slug": "resort-san-pellegrino-terme-bracca",
+      "nome": "Resort San Pellegrino Terme",
+      "city_name": "Bracca",
+      "indirizzo": "Via Botta, 8, 24010 Bracca BG",
+      "lat": 45.811838,
+      "lng": 9.692746
+    },
+    {
+      "id": "4ed502af-5d9b-409c-979c-8da8b256dde1",
+      "slug": "ristorante-da-gianni-di-bertinotti-g-c-bracca",
+      "nome": "Ristorante Da Gianni di Bertinotti G. & C.",
+      "city_name": "Bracca",
+      "indirizzo": "Via Tiolo, 37, 24019 Zogno BG",
+      "lat": 45.805498,
+      "lng": 9.674886
+    },
+    {
+      "id": "0498bf50-3586-4177-acf7-d1fce303c5c7",
+      "slug": "agriturismo-lbstud-di-riccioni-g-bracciano",
+      "nome": "agriturismo LBStud di Riccioni G.",
+      "city_name": "Bracciano",
+      "indirizzo": "Via Baglione, 13, 00062 Bracciano RM",
+      "lat": 42.080418,
+      "lng": 12.166771
+    },
+    {
+      "id": "6c1fa874-f979-402a-b6fa-019c8889a13a",
+      "slug": "alloggio-turistico-isonzo-bracciano-roma-bracciano",
+      "nome": "Alloggio Turistico Isonzo - Bracciano (Roma)",
+      "city_name": "Bracciano",
+      "indirizzo": "Via Isonzo, 12, 00062 Bracciano RM",
+      "lat": 42.100885,
+      "lng": 12.16999
+    },
+    {
+      "id": "0d719f0b-f18b-4d55-8c54-58d2798c632a",
+      "slug": "domusbiri-bracciano",
+      "nome": "DomusBiri",
+      "city_name": "Bracciano",
+      "indirizzo": "Via G. Argenti, 19, 00062 Lungolago RM",
+      "lat": 42.110538,
+      "lng": 12.180329
+    },
+    {
+      "id": "f3ef3a9c-d331-4dd7-b0ea-fe16d7daa7cf",
+      "slug": "ecoalbergo-bracciano-bracciano",
+      "nome": "Ecoalbergo Bracciano",
+      "city_name": "Bracciano",
+      "indirizzo": "Piazza Giuseppe Mazzini, 12, 00062 Bracciano RM",
+      "lat": 42.104254,
+      "lng": 12.176846
+    },
+    {
+      "id": "97edd747-6827-4d08-af2c-2625e7d5f72d",
+      "slug": "granducato-di-bracciano-suite-duomo-bracciano",
+      "nome": "Granducato di Bracciano - Suite Duomo",
+      "city_name": "Bracciano",
+      "indirizzo": "Via Della Rotonda, 16, 00062 Bracciano RM",
+      "lat": 42.103939,
+      "lng": 12.178113
+    },
+    {
+      "id": "c00f8efa-3693-4d67-8188-d413f85583cc",
+      "slug": "la-gismonda-bracciano",
+      "nome": "La Gismonda",
+      "city_name": "Bracciano",
+      "indirizzo": "Via della Cisterna, 6, 00062 Bracciano RM",
+      "lat": 42.11265,
+      "lng": 12.160431
+    },
+    {
+      "id": "369e0399-468d-4e71-bbeb-2d05c388eeae",
+      "slug": "le-camere-di-vittoria-bracciano",
+      "nome": "Le camere di Vittoria",
+      "city_name": "Bracciano",
+      "indirizzo": "Via Giulio Volpi, 7, 00062 Bracciano RM",
+      "lat": 42.104012,
+      "lng": 12.175709
+    },
+    {
+      "id": "3492acd0-dfb0-4a50-ada9-01a2e6a6e1a7",
+      "slug": "oak-country-relax-bracciano",
+      "nome": "OAK country relax",
+      "city_name": "Bracciano",
+      "indirizzo": "via degli scopeti, 1, 00066 Manziana RM",
+      "lat": 42.089832,
+      "lng": 12.091397
+    },
+    {
+      "id": "d782fdae-61b6-4b28-88aa-17bbc19c3ced",
+      "slug": "poggio-delle-molare-bracciano",
+      "nome": "Poggio delle Molare",
+      "city_name": "Bracciano",
+      "indirizzo": "Via delle Molare, 10, 00062 Bracciano RM",
+      "lat": 42.084402,
+      "lng": 12.177712
+    },
+    {
+      "id": "e7bb2b28-c0e9-42e3-ba06-346ec641083b",
+      "slug": "vigna-caio-relais-spa-bracciano",
+      "nome": "Vigna Caio Relais & Spa",
+      "city_name": "Bracciano",
+      "indirizzo": "Via del Riposo, 1, 00062 Bracciano RM",
+      "lat": 42.106468,
+      "lng": 12.179381
+    },
+    {
+      "id": "ecd19e08-5467-4d48-a7fb-83e3e28a88fd",
+      "slug": "villa-clementina-hotel-spa-ristorante-bracciano-bracciano",
+      "nome": "Villa Clementina Hotel Spa & Ristorante Bracciano",
+      "city_name": "Bracciano",
+      "indirizzo": "Traversa Quarto del Lago, 12, 00062 Bracciano RM",
+      "lat": 42.095546,
+      "lng": 12.19106
+    },
+    {
+      "id": "b79e427e-dde0-497c-8131-148686f8de0d",
+      "slug": "agriturismo-tenuta-don-carlo-bracigliano",
+      "nome": "Agriturismo Tenuta Don Carlo",
+      "city_name": "Bracigliano",
+      "indirizzo": "Via Cupa Belvedere, 84015 Nocera Superiore SA",
+      "lat": 40.749815,
+      "lng": 14.69011
+    },
+    {
+      "id": "55c5fc8e-85ec-4706-999e-d7364368d3b3",
+      "slug": "b-b-dea-guest-house-bracigliano",
+      "nome": "B&B Dea Guest House",
+      "city_name": "Bracigliano",
+      "indirizzo": "Via Mercatello, 115, 83025 Borgo AV",
+      "lat": 40.837554,
+      "lng": 14.784835
+    },
+    {
+      "id": "b1ae54cd-8cfb-4865-b520-be62b331f8de",
+      "slug": "b-b-dei-rota-affittacamere-mercato-san-severino-bracigliano",
+      "nome": "B&B dei Rota affittacamere Mercato San Severino Salerno",
+      "city_name": "Bracigliano",
+      "indirizzo": "Via Tommaso Sanseverino, n 12, 84085 Mercato San Severino SA",
+      "lat": 40.785661,
+      "lng": 14.76045
+    },
+    {
+      "id": "536798f9-a776-4145-bfca-3b0a36c1cdd6",
+      "slug": "b-b-il-piccolo-principe-bracigliano",
+      "nome": "B&B IL PICCOLO PRINCIPE",
+      "city_name": "Bracigliano",
+      "indirizzo": "Via Giovanni Amendola, 12, 84085 Mercato San Severino SA",
+      "lat": 40.784402,
+      "lng": 14.760221
+    },
+    {
+      "id": "d62a513c-ca37-4c7e-88dc-dc93aad9a081",
+      "slug": "b-b-le-rocce-bracigliano",
+      "nome": "B&B Le Rocce",
+      "city_name": "Bracigliano",
+      "indirizzo": "Via Secondo, Via Pendino Lombardi, 8, 84083 Castel San Giorgio SA",
+      "lat": 40.780958,
+      "lng": 14.691523
+    },
+    {
+      "id": "01bf4eea-3889-4487-9886-effafd8e3cd1",
+      "slug": "b-b-sun-garden-bracigliano",
+      "nome": "B&B Sun Garden",
+      "city_name": "Bracigliano",
+      "indirizzo": "Via Biagio De Giovanni, 9, 83026 Montoro AV",
+      "lat": 40.816701,
+      "lng": 14.793231
+    },
+    {
+      "id": "e6a739a6-6693-4930-ae1f-ba7a394ad612",
+      "slug": "borgo-paradiso-bracigliano",
+      "nome": "borgo paradiso",
+      "city_name": "Bracigliano",
+      "indirizzo": "Via F. D'Amato, 9, 84083 Lanzara SA",
+      "lat": 40.773998,
+      "lng": 14.676716
+    },
+    {
+      "id": "1f058423-aa61-4ca7-988a-92f3add5e086",
+      "slug": "casa-vacanze-mercolino-bracigliano",
+      "nome": "Casa Vacanze Mercolino",
+      "city_name": "Bracigliano",
+      "indirizzo": "Via Nazario Sauro, 87, 84082 Bracigliano SA",
+      "lat": 40.825477,
+      "lng": 14.695737
+    },
+    {
+      "id": "4d8eb880-2dd8-4e4f-b7d8-6ddde30958a5",
+      "slug": "civico-31-luxury-rooms-bracigliano",
+      "nome": "Civico 31 luxury rooms",
+      "city_name": "Bracigliano",
+      "indirizzo": "Trav. Via Mannara, 31, 84083 Castel San Giorgio SA",
+      "lat": 40.778332,
+      "lng": 14.70079
+    },
+    {
+      "id": "fed4c10b-5d5e-49e5-af2d-28214bcc410a",
+      "slug": "dream-room-bracigliano",
+      "nome": "Dream Room",
+      "city_name": "Bracigliano",
+      "indirizzo": "Via S. Felice, 27, 84085 Piazza del Galdo-Sant'angelo SA",
+      "lat": 40.770167,
+      "lng": 14.701996
+    },
+    {
+      "id": "7f20bcc3-3c50-4c4f-a0bf-2de5bac8137b",
+      "slug": "i-milord-bracigliano",
+      "nome": "i milord",
+      "city_name": "Bracigliano",
+      "indirizzo": "Via Domenico Alfieri, 19, 84083 Lanzara SA",
+      "lat": 40.773579,
+      "lng": 14.67573
+    },
+    {
+      "id": "4dc0e478-10e9-4dd8-8585-05bfe5114f14",
+      "slug": "i-milord-2-bracigliano",
+      "nome": "I Milord 2",
+      "city_name": "Bracigliano",
+      "indirizzo": "Via S. Maria di Costantinopoli, 51, 84083 Castel San Giorgio SA",
+      "lat": 40.790497,
+      "lng": 14.706509
+    },
+    {
+      "id": "ff58de38-5ee5-4cd1-b4d4-600668011388",
+      "slug": "il-vicoletto-room-bracigliano",
+      "nome": "Il Vicoletto room",
+      "city_name": "Bracigliano",
+      "indirizzo": "Vico Demanio Piazza, 23, 84085 Mercato San Severino SA",
+      "lat": 40.771716,
+      "lng": 14.712387
+    },
+    {
+      "id": "9c6d3cd2-750b-4790-bbd6-99e5a07a7b54",
+      "slug": "inbloom-angolo-nascosto-bracigliano",
+      "nome": "InBloom-Angolo Nascosto",
+      "city_name": "Bracigliano",
+      "indirizzo": "Via S. Felice, 513, 84085 Piazza del Galdo-Sant'angelo SA",
+      "lat": 40.770473,
+      "lng": 14.702523
+    },
+    {
+      "id": "b6aed2c1-4064-49a6-8c0f-4f27c278358c",
+      "slug": "la-casa-di-francy-bracigliano",
+      "nome": "La casa di Francy",
+      "city_name": "Bracigliano",
+      "indirizzo": "Via Vescovo Gabrie e Capaccio, 84082 Bracigliano SA",
+      "lat": 40.82087,
+      "lng": 14.70996
+    },
+    {
+      "id": "8ed0f2aa-ca0f-4ca2-915d-8490d0f817e7",
+      "slug": "locanda-della-bottega-bracigliano",
+      "nome": "Locanda della Bottega",
+      "city_name": "Bracigliano",
+      "indirizzo": "Via Roma, 33/1 piano, 84084 Fisciano SA",
+      "lat": 40.768978,
+      "lng": 14.797782
+    },
+    {
+      "id": "7c8c76cb-4cbb-46da-986f-9802df7c00dd",
+      "slug": "nonna-concetta-b-b-nocera-bracigliano",
+      "nome": "NONNA CONCETTA B&B NOCERA",
+      "city_name": "Bracigliano",
+      "indirizzo": "Via Carlo Cafiero, 14, 84014 Nocera Inferiore SA",
+      "lat": 40.751527,
+      "lng": 14.648659
+    },
+    {
+      "id": "e92d235c-c495-4f9b-a2fa-e87dca4c169c",
+      "slug": "san-severino-park-hotel-spa-bracigliano",
+      "nome": "San Severino Park Hotel & Spa",
+      "city_name": "Bracigliano",
+      "indirizzo": "Via Bagnara, 10, 84010 Mercato San Severino SA",
+      "lat": 40.772042,
+      "lng": 14.746205
+    },
+    {
+      "id": "7bdebb12-537e-4758-99bc-fdc70695e6dc",
+      "slug": "albergo-huber-braies-prags",
+      "nome": "Albergo Huber",
+      "city_name": "Braies/Prags",
+      "indirizzo": "Loc. Braies di Dentro, 6, 39030 Braies BZ",
+      "lat": 46.719009,
+      "lng": 12.130163
+    },
+    {
+      "id": "ebdb2dfe-1880-4b11-bfd9-8e330b8f73cd",
+      "slug": "alpin-natur-hotel-bruckele-braies-prags",
+      "nome": "Alpin Natur Hotel Brückele",
+      "city_name": "Braies/Prags",
+      "indirizzo": "Ausserprags, Frazione Braies di Fuori, 4, 39030 Braies BZ",
+      "lat": 46.677827,
+      "lng": 12.150063
+    }
+  ]
+}

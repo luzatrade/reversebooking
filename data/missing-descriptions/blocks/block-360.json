@@ -1,0 +1,323 @@
+{
+  "block": 360,
+  "blockId": "360",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "a92c4dec-ae3c-4592-8418-9fe898c1a48c",
+      "slug": "hotel-sicilia-enna-calascibetta",
+      "nome": "Hotel Sicilia - Enna",
+      "city_name": "Calascibetta",
+      "indirizzo": "Piazza Napoleone Colajanni, 7, 94100 Enna EN",
+      "lat": 37.566307,
+      "lng": 14.280865
+    },
+    {
+      "id": "6b25143c-b2f2-48e4-a737-5c99ee02ba69",
+      "slug": "sicily-center-rooms-calascibetta",
+      "nome": "Sicily Center rooms",
+      "city_name": "Calascibetta",
+      "indirizzo": "Via Annunziata, 53, 94010 Calascibetta EN",
+      "lat": 37.589612,
+      "lng": 14.271728
+    },
+    {
+      "id": "3fb9b68b-f8e2-4abc-8deb-1215e604fd84",
+      "slug": "una-casa-al-belvedere-calascibetta",
+      "nome": "Una Casa al Belvedere",
+      "city_name": "Calascibetta",
+      "indirizzo": "Piazza Francesco Crispi, 9, 94100 Enna EN",
+      "lat": 37.568794,
+      "lng": 14.276798
+    },
+    {
+      "id": "7d3b9902-d089-4860-9b6a-8d9dbc32126d",
+      "slug": "angeli-in-terrazza-calascio",
+      "nome": "Angeli in Terrazza",
+      "city_name": "Calascio",
+      "indirizzo": "Via di Mezzo la Terra, 23, 67020 Calascio AQ",
+      "lat": 42.326607,
+      "lng": 13.699031
+    },
+    {
+      "id": "f70cef49-17f9-40dc-a58c-a4b4438fe36e",
+      "slug": "b-b-acca-lascio-calascio",
+      "nome": "B&B Acca' Lascio",
+      "city_name": "Calascio",
+      "indirizzo": "Via Preta Jerta, 10, 67020 Calascio AQ",
+      "lat": 42.326119,
+      "lng": 13.696681
+    },
+    {
+      "id": "e0500a61-48ef-40c8-893a-f6b953fc7ae1",
+      "slug": "b-b-il-girasole-cin-it066030c2ghmbeqdo-calascio",
+      "nome": "B&B Il Girasole / CIN: IT066030C2GHMBEQDO",
+      "city_name": "Calascio",
+      "indirizzo": "Via San Cipriano, 3, 67020 Castelvecchio Calvisio AQ",
+      "lat": 42.311142,
+      "lng": 13.683082
+    },
+    {
+      "id": "c4e197ef-5e29-4536-8106-e153e90251cc",
+      "slug": "destasu-bed-wellness-calascio",
+      "nome": "Destasù Bed & Wellness",
+      "city_name": "Calascio",
+      "indirizzo": "V.le dei Pini, 73, 67023 Castel del Monte AQ",
+      "lat": 42.365805,
+      "lng": 13.727404
+    },
+    {
+      "id": "e3e9c9b8-eb0b-45e1-9186-f4a654dafa63",
+      "slug": "palazzo-diamante-calascio",
+      "nome": "Palazzo Diamante",
+      "city_name": "Calascio",
+      "indirizzo": "Via Diamante Volpe, 67020 Calascio AQ",
+      "lat": 42.327132,
+      "lng": 13.699965
+    },
+    {
+      "id": "99aee7e8-bd79-488d-b9bc-d6ecc88f0ae7",
+      "slug": "residenza-storica-le-civette-calascio",
+      "nome": "Residenza Storica LE CIVETTE",
+      "city_name": "Calascio",
+      "indirizzo": "Via S. Angelo, 7/9, 67023 Castel del Monte AQ",
+      "lat": 42.365363,
+      "lng": 13.727899
+    },
+    {
+      "id": "e5ce5ba7-7834-4727-bedb-ad19ef2cd57e",
+      "slug": "rocca-calascio-albergo-diffuso-calascio",
+      "nome": "Rocca Calascio - Albergo Diffuso",
+      "city_name": "Calascio",
+      "indirizzo": "Localita' Rocca, 67020 Calascio AQ",
+      "lat": 42.328165,
+      "lng": 13.690805
+    },
+    {
+      "id": "f2ead490-3c36-4272-8824-5f7f65055e31",
+      "slug": "sextantio-albergo-diffuso-santo-stefano-di-sessa-calascio",
+      "nome": "Sextantio Albergo Diffuso, Santo Stefano di Sessanio",
+      "city_name": "Calascio",
+      "indirizzo": "Via Principe Umberto, 67020 Santo Stefano di Sessanio AQ",
+      "lat": 42.34405,
+      "lng": 13.644329
+    },
+    {
+      "id": "fb9b9b6c-d89f-4e78-91e6-0b0a541d9f55",
+      "slug": "affittacamere-calabisso-calasetta",
+      "nome": "Affittacamere Calabisso",
+      "city_name": "Calasetta",
+      "indirizzo": "Via Savoia, 19, 09011 Calasetta CI",
+      "lat": 39.110114,
+      "lng": 8.367739
+    },
+    {
+      "id": "51d02c30-6dee-4891-b5e4-c8ba2b594229",
+      "slug": "b-b-s-accorru-calasetta",
+      "nome": "B&B \"S'Accorru\"",
+      "city_name": "Calasetta",
+      "indirizzo": "Via Sicilia, 17, 09017 Sant'Antioco CI",
+      "lat": 39.061688,
+      "lng": 8.456067
+    },
+    {
+      "id": "0998a93a-ce0a-4c5c-90c5-2317e694e9d5",
+      "slug": "b-b-bella-calasetta-calasetta",
+      "nome": "B&B Bella Calasetta",
+      "city_name": "Calasetta",
+      "indirizzo": "Via Giuseppe Mazzini, 67, 09011 Calasetta CI",
+      "lat": 39.100635,
+      "lng": 8.363986
+    },
+    {
+      "id": "79dfe774-a009-4cc1-8811-67eddaefa103",
+      "slug": "b-b-ca-margo-calasetta",
+      "nome": "B&B Ca' Margò",
+      "city_name": "Calasetta",
+      "indirizzo": "Piazza Villanova, 34, 09011 Calasetta CI",
+      "lat": 39.110344,
+      "lng": 8.372548
+    },
+    {
+      "id": "069f923b-6e0e-48ce-a7af-2bfd839f6031",
+      "slug": "b-b-four-seasons-calasetta",
+      "nome": "B&B Four Seasons",
+      "city_name": "Calasetta",
+      "indirizzo": "Via Str. Vecchia, 63, 09011 Calasetta CI",
+      "lat": 39.104565,
+      "lng": 8.374911
+    },
+    {
+      "id": "19372f90-7120-4a79-8186-e3f681a0a728",
+      "slug": "b-b-le-tre-spiagge-calasetta",
+      "nome": "B&B Le Tre Spiagge",
+      "city_name": "Calasetta",
+      "indirizzo": "Via Dante, 1, 09011 Calasetta CI",
+      "lat": 39.107288,
+      "lng": 8.369288
+    },
+    {
+      "id": "e71a963c-4d06-475b-9030-0cd9a87d6645",
+      "slug": "b-b-margherita-calasetta",
+      "nome": "B&B Margherita",
+      "city_name": "Calasetta",
+      "indirizzo": "Via Guglielmo Oberdan, 30, 09011 Calasetta CI",
+      "lat": 39.1087,
+      "lng": 8.370291
+    },
+    {
+      "id": "150b91e1-5654-4c9b-95cf-9420487db148",
+      "slug": "b-b-villa-acquamarina-calasetta",
+      "nome": "B&B Villa Acquamarina",
+      "city_name": "Calasetta",
+      "indirizzo": "Via Bonifacio, 11, 09011 Calasetta CI",
+      "lat": 39.106286,
+      "lng": 8.369788
+    },
+    {
+      "id": "857e1bf9-4f79-4c50-abe7-522a042012f0",
+      "slug": "bobo-house-calasetta-calasetta",
+      "nome": "Bobo House Calasetta",
+      "city_name": "Calasetta",
+      "indirizzo": "Via Savoia, 42, 09011 Calasetta CI",
+      "lat": 39.109734,
+      "lng": 8.368065
+    },
+    {
+      "id": "ced736ed-d7d9-4a9d-bb4b-c0e0d854e517",
+      "slug": "calasetta-residence-calasetta",
+      "nome": "Calasetta Residence",
+      "city_name": "Calasetta",
+      "indirizzo": "Via delle Rondini, 10, 09011 Calasetta CI",
+      "lat": 39.10741,
+      "lng": 8.365127
+    },
+    {
+      "id": "057717a5-5f17-4f2d-add8-c32fb30d0464",
+      "slug": "casa-giulia-calasetta",
+      "nome": "Casa Giulia",
+      "city_name": "Calasetta",
+      "indirizzo": "Via Guglielmo Oberdan, 1, 09011 Calasetta CI",
+      "lat": 39.108013,
+      "lng": 8.369053
+    },
+    {
+      "id": "962db44a-344d-40b1-bb12-055779b88c24",
+      "slug": "casa-vacanza-asfodelo-calasetta",
+      "nome": "Casa vacanza Asfodelo",
+      "city_name": "Calasetta",
+      "indirizzo": "Via N. Sauro, 74, 09011 Calasetta CI",
+      "lat": 39.109911,
+      "lng": 8.372371
+    },
+    {
+      "id": "561457f4-3733-4d1e-99bf-46f0cae92d56",
+      "slug": "hotel-cala-di-seta-calasetta-calasetta",
+      "nome": "Hotel Cala di Seta Calasetta",
+      "city_name": "Calasetta",
+      "indirizzo": "Viale R. Margherita, 61, 09011 Calasetta CI",
+      "lat": 39.110073,
+      "lng": 8.371009
+    },
+    {
+      "id": "63ba3a1b-5c4e-41d0-893e-4844f4938181",
+      "slug": "hotel-le-sabbie-calasetta-calasetta",
+      "nome": "Hotel Le Sabbie Calasetta",
+      "city_name": "Calasetta",
+      "indirizzo": "Vico Secondo delle Sabbie, 4, 09011 Calasetta CI",
+      "lat": 39.104439,
+      "lng": 8.365244
+    },
+    {
+      "id": "c2fbb356-5303-4c64-9d6c-46aaad1d4d10",
+      "slug": "hotel-luci-del-faro-calasetta",
+      "nome": "Hotel Luci del Faro",
+      "city_name": "Calasetta",
+      "indirizzo": "Località Spiaggia Grande, 09011 Calasetta CI",
+      "lat": 39.075811,
+      "lng": 8.353242
+    },
+    {
+      "id": "c75e2355-a00b-445a-8e87-cbef81c02a2f",
+      "slug": "hotel-stella-del-sud-calasetta",
+      "nome": "Hotel Stella del sud",
+      "city_name": "Calasetta",
+      "indirizzo": "Loc. Spiaggia grande, 09011 Calasetta CI",
+      "lat": 39.085155,
+      "lng": 8.359714
+    },
+    {
+      "id": "1c227f02-71f6-4766-93d4-932da955b070",
+      "slug": "i-tre-schen-albergo-rurale-calasetta",
+      "nome": "I Tre Schen - Albergo Rurale",
+      "city_name": "Calasetta",
+      "indirizzo": "Strada Sisineddu, 14, 09011 Calasetta CI",
+      "lat": 39.08319,
+      "lng": 8.395404
+    },
+    {
+      "id": "5ed3302d-8a05-4334-bd7c-58014dde7183",
+      "slug": "oasi-blu-calasetta",
+      "nome": "Oasi Blu",
+      "city_name": "Calasetta",
+      "indirizzo": "09011 Calasetta CI",
+      "lat": 39.091157,
+      "lng": 8.370261
+    },
+    {
+      "id": "afa79dda-2a5a-46ce-8ec9-1a401c67bcbb",
+      "slug": "ristorante-1-maggio-hotel-paola-calasetta",
+      "nome": "Ristorante 1° Maggio hotel paola",
+      "city_name": "Calasetta",
+      "indirizzo": "strada Punta, km 2, 09014 Tonnare CI",
+      "lat": 39.165669,
+      "lng": 8.301613
+    },
+    {
+      "id": "fbd992e2-2d1b-48ff-9562-755bd11da9b3",
+      "slug": "antico-borgo-country-hotel-calatabiano",
+      "nome": "Antico Borgo Country Hotel",
+      "city_name": "Calatabiano",
+      "indirizzo": "Traversa I Calatabiano Pasteria, 8, 95011 Calatabiano CT",
+      "lat": 37.814339,
+      "lng": 15.224745
+    },
+    {
+      "id": "5f4e235f-df9b-40bd-8008-77517df181be",
+      "slug": "arcobaleno-dell-etna-calatabiano",
+      "nome": "Arcobaleno dell'Etna",
+      "city_name": "Calatabiano",
+      "indirizzo": "Contrada, Via S. Giorgio, 95011 Calatabiano CT",
+      "lat": 37.811547,
+      "lng": 15.198623
+    },
+    {
+      "id": "ceae02a8-8964-4378-a567-05802f814009",
+      "slug": "assinos-palace-hotel-calatabiano",
+      "nome": "Assinos Palace Hotel",
+      "city_name": "Calatabiano",
+      "indirizzo": "Via Consolare Valeria, 33, 98035 Giardini Naxos ME",
+      "lat": 37.818904,
+      "lng": 15.248258
+    },
+    {
+      "id": "de4fe269-4059-412a-a9a4-38b93ff444cc",
+      "slug": "b-b-domus-candida-calatabiano",
+      "nome": "B&B Domus Candida",
+      "city_name": "Calatabiano",
+      "indirizzo": "V. Umberto I, 122, 95011 Calatabiano CT",
+      "lat": 37.820239,
+      "lng": 15.227217
+    },
+    {
+      "id": "43d0c941-6ae8-42f2-a599-75fba590c2a2",
+      "slug": "b-b-i-colori-del-sole-calatabiano",
+      "nome": "B&B I Colori Del Sole",
+      "city_name": "Calatabiano",
+      "indirizzo": "Via Giuseppe La Farina, 15, 95013 Fiumefreddo Sicilia CT",
+      "lat": 37.790706,
+      "lng": 15.207824
+    }
+  ]
+}

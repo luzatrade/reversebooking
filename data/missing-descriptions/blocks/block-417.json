@@ -1,0 +1,323 @@
+{
+  "block": 417,
+  "blockId": "417",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "d87a878b-d7b8-4049-ad48-ed166ac7c19f",
+      "slug": "locanda-cascina-chigollo-capiago-intimiano",
+      "nome": "Locanda cascina Chigollo",
+      "city_name": "Capiago Intimiano",
+      "indirizzo": "Via Chigollo, 7, 22070 Capiago Intimiano CO",
+      "lat": 45.769706,
+      "lng": 9.144177
+    },
+    {
+      "id": "244849f3-66b8-4ed4-8972-7cae36fbbf5c",
+      "slug": "agriturismo-bardari-capistrano",
+      "nome": "Agriturismo Bardari",
+      "city_name": "Capistrano",
+      "indirizzo": "Contrada Trunchi, 88022 Curinga CZ",
+      "lat": 38.806481,
+      "lng": 16.267018
+    },
+    {
+      "id": "4c4ffaa4-4a09-4028-b5e0-0b884b71d007",
+      "slug": "agriturismo-sant-elia-capistrano",
+      "nome": "Agriturismo Sant'Elia",
+      "city_name": "Capistrano",
+      "indirizzo": "Località Sant'Elia, 89818 Capistrano VV",
+      "lat": 38.704262,
+      "lng": 16.294674
+    },
+    {
+      "id": "7a622427-f4cc-44ce-9e64-3a83a6c816e9",
+      "slug": "b-b-casa-armonia-capistrano",
+      "nome": "B&B Casa Armonia",
+      "city_name": "Capistrano",
+      "indirizzo": "Vico II° Armonia, 9, 89812 Pizzo VV",
+      "lat": 38.736424,
+      "lng": 16.160145
+    },
+    {
+      "id": "c6a0dff9-b114-4800-b631-4f4a0f2d25ec",
+      "slug": "b-b-stella-d-oro-capistrano",
+      "nome": "B&B stella d'oro",
+      "city_name": "Capistrano",
+      "indirizzo": "SS 18 Tirrena Inferiore, 18, 89900 Vibo Valentia VV",
+      "lat": 38.715358,
+      "lng": 16.142832
+    },
+    {
+      "id": "b3cd7f53-4e5f-43f7-9f3d-2d7c19eefa0e",
+      "slug": "casa-dei-mille-bed-and-breakfast-capistrano",
+      "nome": "Casa Dei Mille Bed And Breakfast",
+      "city_name": "Capistrano",
+      "indirizzo": "Via S. Francesco, 89812 Pizzo VV",
+      "lat": 38.736242,
+      "lng": 16.164486
+    },
+    {
+      "id": "3255f5ae-d220-4d5b-a77f-58a29b7d7e81",
+      "slug": "domus-piedigrotta-capistrano",
+      "nome": "Domus Piedigrotta",
+      "city_name": "Capistrano",
+      "indirizzo": "Via Riviera Prangi, 110, 89812 Pizzo VV",
+      "lat": 38.741616,
+      "lng": 16.175523
+    },
+    {
+      "id": "9dc573bd-aa9f-47fb-bf69-86cfbba3903a",
+      "slug": "hotel-castelmonardo-capistrano",
+      "nome": "Hotel Castelmonardo",
+      "city_name": "Capistrano",
+      "indirizzo": "Via 4 Novembre, 144, 89814 Filadelfia VV",
+      "lat": 38.783437,
+      "lng": 16.295685
+    },
+    {
+      "id": "36cd6598-ea53-4568-861a-85ed2fef6eae",
+      "slug": "hotel-della-piazza-capistrano",
+      "nome": "Hotel della Piazza",
+      "city_name": "Capistrano",
+      "indirizzo": "Piazza della Repubblica, 89812 Pizzo VV",
+      "lat": 38.735627,
+      "lng": 16.161351
+    },
+    {
+      "id": "b91d4aea-0a69-47b7-b708-db33509e2d05",
+      "slug": "hotel-ristorante-marinella-capistrano",
+      "nome": "Hotel Ristorante Marinella",
+      "city_name": "Capistrano",
+      "indirizzo": "Via Riviera Prangi, 89812 Pizzo VV",
+      "lat": 38.762198,
+      "lng": 16.197818
+    },
+    {
+      "id": "629ba2a1-81a4-4aaf-9553-e8351b0ab0a5",
+      "slug": "il-casalino-capistrano",
+      "nome": "Il Casalino",
+      "city_name": "Capistrano",
+      "indirizzo": "Vico I Uccelli, 89812 Pizzo VV",
+      "lat": 38.734723,
+      "lng": 16.161506
+    },
+    {
+      "id": "8238ee0e-6444-4d21-ad8f-989e1410c6d8",
+      "slug": "puerto-seguro-b-b-a-pizzo-capistrano",
+      "nome": "Puerto Seguro B&B a Pizzo",
+      "city_name": "Capistrano",
+      "indirizzo": "VII deviazione, Via Riviera Prangi, 89812 Loc. Marinella VV",
+      "lat": 38.762521,
+      "lng": 16.196219
+    },
+    {
+      "id": "e3f4977b-aa0b-48bb-bbbc-b97cffa5dccc",
+      "slug": "residenza-antico-borgo-capistrano",
+      "nome": "Residenza Antico Borgo",
+      "city_name": "Capistrano",
+      "indirizzo": "Via B. Maiolo, 30, 89814 Filadelfia VV",
+      "lat": 38.785181,
+      "lng": 16.292341
+    },
+    {
+      "id": "4e7bf792-5a2d-43f0-8277-c4b4585384ef",
+      "slug": "residenza-vinci-capistrano",
+      "nome": "Residenza Vinci",
+      "city_name": "Capistrano",
+      "indirizzo": "Via Giuseppe Marcello, Via M. Salomone, 225, 89812 Pizzo VV",
+      "lat": 38.733763,
+      "lng": 16.161347
+    },
+    {
+      "id": "bd4bf8ce-6943-469b-8d6c-6575a42c4f3f",
+      "slug": "locanda-3-scalini-capistrello",
+      "nome": "Locanda 3 scalini",
+      "city_name": "Capistrello",
+      "indirizzo": "Via SS, Palentina, 9, 67050 Capistrello AQ",
+      "lat": 41.971676,
+      "lng": 13.396964
+    },
+    {
+      "id": "f6966a93-d9f2-4610-9b3d-de972c3095c4",
+      "slug": "casale-virginia-capitignano",
+      "nome": "Casale Virginia",
+      "city_name": "Capitignano",
+      "indirizzo": "Località San Matteo, 64010 Montereale AQ",
+      "lat": 42.536083,
+      "lng": 13.269111
+    },
+    {
+      "id": "690ae2a4-3789-4099-8dba-a3bf2ce29ca3",
+      "slug": "la-pennichella-capitignano",
+      "nome": "La Pennichella",
+      "city_name": "Capitignano",
+      "indirizzo": "Via della Molinella, SNC 67015, 67015 Piedicolle AQ",
+      "lat": 42.51957,
+      "lng": 13.251073
+    },
+    {
+      "id": "84b875b9-187c-47d1-b39f-5fd85f7c597a",
+      "slug": "affittacamere-nebrodi-capizzi",
+      "nome": "Affittacamere nebrodi",
+      "city_name": "Capizzi",
+      "indirizzo": "V. Vespri, 140, 98031 Capizzi ME",
+      "lat": 37.849312,
+      "lng": 14.480847
+    },
+    {
+      "id": "cf890d65-ce81-4ff9-97ac-c23c9f930075",
+      "slug": "agriturismo-l-uliveto-capizzi",
+      "nome": "Agriturismo L'Uliveto",
+      "city_name": "Capizzi",
+      "indirizzo": "C.da Drago Lucida, 98070 Reitano ME",
+      "lat": 37.982695,
+      "lng": 14.339881
+    },
+    {
+      "id": "7d84f6c8-bafb-4cf5-9c34-5b5cf16fad33",
+      "slug": "agriturismo-leanza-la-baita-capizzi",
+      "nome": "Agriturismo Leanza \"La Baita\"",
+      "city_name": "Capizzi",
+      "indirizzo": "c.da Sciammo SS120, km152, 98033, 98030 San Teodoro ME",
+      "lat": 37.829738,
+      "lng": 14.695052
+    },
+    {
+      "id": "762337e2-4055-4ad2-9739-5a0fae64b5e3",
+      "slug": "agriturismo-monte-soprano-capizzi",
+      "nome": "Agriturismo Monte Soprano",
+      "city_name": "Capizzi",
+      "indirizzo": "Contrada Cipolluzzi, snc, 94010 Cerami EN",
+      "lat": 37.842681,
+      "lng": 14.443202
+    },
+    {
+      "id": "49864f8d-642b-43b0-80bf-6f0b617214ee",
+      "slug": "albergo-za-maria-capizzi",
+      "nome": "Albergo Za' Maria",
+      "city_name": "Capizzi",
+      "indirizzo": "Via Nazionale, 113, 98072 Caronia ME",
+      "lat": 38.020821,
+      "lng": 14.388976
+    },
+    {
+      "id": "35d5618c-9636-4ea7-a68f-94de57d4cdc8",
+      "slug": "b-b-la-grande-mela-capizzi",
+      "nome": "B&B La Grande Mela",
+      "city_name": "Capizzi",
+      "indirizzo": "Via Caracciolo, 54, 98077 Santo Stefano di Camastra ME",
+      "lat": 38.015127,
+      "lng": 14.349741
+    },
+    {
+      "id": "a28a028c-43dd-435b-b312-d81fc6bc69f1",
+      "slug": "b-b-le-tre-stelle-capizzi",
+      "nome": "B&b Le Tre Stelle",
+      "city_name": "Capizzi",
+      "indirizzo": "Via Giuseppe Garibaldi, 2, 94010 Cerami EN",
+      "lat": 37.809072,
+      "lng": 14.508944
+    },
+    {
+      "id": "d7f204dc-8789-4feb-ac62-a12383fcd70f",
+      "slug": "b-b-san-procopio-capizzi",
+      "nome": "B&b San Procopio",
+      "city_name": "Capizzi",
+      "indirizzo": "Via Conte Ruggero, 180, 94018 Troina EN",
+      "lat": 37.783029,
+      "lng": 14.596649
+    },
+    {
+      "id": "757efed7-a8f2-46c1-841a-1e2559a45d17",
+      "slug": "heart-of-sicily-capizzi",
+      "nome": "Heart of Sicily",
+      "city_name": "Capizzi",
+      "indirizzo": "Via Prillo, 6, 98073 Mistretta ME",
+      "lat": 37.925966,
+      "lng": 14.359019
+    },
+    {
+      "id": "8486627f-cdbe-4ad4-97d7-76a82e3906d4",
+      "slug": "hotel-la-playa-blanca-capizzi",
+      "nome": "Hotel La Playa Blanca",
+      "city_name": "Capizzi",
+      "indirizzo": "Via Nino Martoglio, 98077 Santo Stefano di Camastra ME",
+      "lat": 38.018822,
+      "lng": 14.345191
+    },
+    {
+      "id": "f6c9cea9-6f6c-46e5-ba1a-20309869aafc",
+      "slug": "la-casa-del-tempo-capizzi",
+      "nome": "LA CASA DEL TEMPO",
+      "city_name": "Capizzi",
+      "indirizzo": "Via Vittorio Emanuele, n.19, 94010 Cerami EN",
+      "lat": 37.812415,
+      "lng": 14.508595
+    },
+    {
+      "id": "88a667cc-7a10-4495-bcac-f9dadd836ba8",
+      "slug": "la-dolce-vita-regalbuto-capizzi",
+      "nome": "La Dolce Vita Regalbuto",
+      "city_name": "Capizzi",
+      "indirizzo": "Contrada Piano Arena, 94017 Regalbuto EN",
+      "lat": 37.65832,
+      "lng": 14.620929
+    },
+    {
+      "id": "1b7595dc-8d08-4efe-8866-0878759913bc",
+      "slug": "la-struttura-e-immersa-nel-cuore-del-centro-stor-capizzi",
+      "nome": "la struttura è immersa nel cuore del centro storico, tra le tante coloratissime botteghe di ceramiche artigianali",
+      "city_name": "Capizzi",
+      "indirizzo": "Via Vittorio Emanuele, 22/A, 98077 Santo Stefano di Camastra ME",
+      "lat": 38.015467,
+      "lng": 14.350479
+    },
+    {
+      "id": "fc562346-0d24-44fe-8c50-6c5bae4ffc9c",
+      "slug": "tus-hotel-capizzi",
+      "nome": "Tus'Hotel",
+      "city_name": "Capizzi",
+      "indirizzo": "Contrada Torrazza Porto Marina Lotarello, ss113 SS 113 - Km. 163, 98079 Castel di Tusa ME",
+      "lat": 38.009176,
+      "lng": 14.247238
+    },
+    {
+      "id": "d9bb0178-0e73-4db9-8d9a-78b84598e0dc",
+      "slug": "struttura-capizzone",
+      "nome": ".",
+      "city_name": "Capizzone",
+      "indirizzo": "Via Partigiani, 33, 24030 Caroli BG",
+      "lat": 45.789488,
+      "lng": 9.57551
+    },
+    {
+      "id": "27f52b95-030f-435c-b19e-6dbb9ed5c27c",
+      "slug": "ristorante-al-botto-capizzone",
+      "nome": "Ristorante Al Botto",
+      "city_name": "Capizzone",
+      "indirizzo": "Via S. Bernardo, 10, 24030 Roncola BG",
+      "lat": 45.767715,
+      "lng": 9.563106
+    },
+    {
+      "id": "7112a8f1-c08a-4b4f-a35e-7b7a020ee810",
+      "slug": "agatirso-capo-d-orlando",
+      "nome": "AGATIRSO",
+      "city_name": "Capo d'Orlando",
+      "indirizzo": "Via Saint Bon, 22, 98071 Capo d'Orlando ME",
+      "lat": 38.162135,
+      "lng": 14.745626
+    },
+    {
+      "id": "5d52910d-584e-43c1-bd5d-cb35bf5379f0",
+      "slug": "awa-b-b-capo-d-orlando",
+      "nome": "AWA B&B",
+      "city_name": "Capo d'Orlando",
+      "indirizzo": "via consolare antica 163, Via Raffaello, 3, 98071 Capo d'Orlando ME",
+      "lat": 38.150681,
+      "lng": 14.740017
+    }
+  ]
+}

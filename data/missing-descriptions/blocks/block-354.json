@@ -1,0 +1,323 @@
+{
+  "block": 354,
+  "blockId": "354",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "8016c39d-da0e-48c0-968d-f4d29e2bf981",
+      "slug": "albergo-ristorante-sole-cadrezzate-con-osmate",
+      "nome": "Albergo Ristorante Sole",
+      "city_name": "Cadrezzate con Osmate",
+      "indirizzo": "Via Ruga del Porto Vecchio, 1, 21018 Sesto Calende VA",
+      "lat": 45.723816,
+      "lng": 8.635643
+    },
+    {
+      "id": "1a652926-c8c3-4f71-bb2f-378c6dba7c0d",
+      "slug": "b-b-hotel-malpensa-lago-maggiore-cadrezzate-con-osmate",
+      "nome": "B&B HOTEL Malpensa Lago Maggiore",
+      "city_name": "Cadrezzate con Osmate",
+      "indirizzo": "Via Milano, 23, 21029 Vergiate VA",
+      "lat": 45.724764,
+      "lng": 8.677518
+    },
+    {
+      "id": "1af9300a-df34-4ae7-bc59-fc88dd01effe",
+      "slug": "greenrose-guest-house-cadrezzate-con-osmate",
+      "nome": "GreenRose Guest House",
+      "city_name": "Cadrezzate con Osmate",
+      "indirizzo": "Via Maggiore, 10, 21062 Cadrezzate con Osmate VA",
+      "lat": 45.78903,
+      "lng": 8.65942
+    },
+    {
+      "id": "9d15240b-af17-4075-b98b-b935d6dd8663",
+      "slug": "hotel-europa-cadrezzate-con-osmate",
+      "nome": "Hotel Europa",
+      "city_name": "Cadrezzate con Osmate",
+      "indirizzo": "Via al Porto, 68, 21027 Ispra VA",
+      "lat": 45.812633,
+      "lng": 8.607921
+    },
+    {
+      "id": "dfd5738e-aa49-4e74-831a-8bccb5ef42d1",
+      "slug": "tenuta-aquasole-hotel-e-ristorante-nella-natura-cadrezzate-con-osmate",
+      "nome": "Tenuta Aquasole, Hotel e Ristorante nella natura, Sale Meeting e Centro Congressi Aziendali a Mercallo",
+      "city_name": "Cadrezzate con Osmate",
+      "indirizzo": "V. Fornace, 498/1, 21020 Mercallo VA",
+      "lat": 45.750808,
+      "lng": 8.674858
+    },
+    {
+      "id": "0263bbe5-e9ef-42eb-8c06-97c415f059fe",
+      "slug": "agriturismo-alle-rive-caerano-di-san-marco",
+      "nome": "Agriturismo alle Rive",
+      "city_name": "Caerano di San Marco",
+      "indirizzo": "Via Mercato Vecchio, 39, 31031 Caerano di San Marco TV",
+      "lat": 45.791981,
+      "lng": 12.018646
+    },
+    {
+      "id": "8628c3f2-2bc2-4967-8baa-094f5b4efc39",
+      "slug": "bed-breakfast-millennio-caerano-di-san-marco",
+      "nome": "Bed & Breakfast Millennio",
+      "city_name": "Caerano di San Marco",
+      "indirizzo": "Via S. Francesco, 44, 31031 Caerano di San Marco TV",
+      "lat": 45.792124,
+      "lng": 11.986551
+    },
+    {
+      "id": "4c76092f-67ee-436a-a227-faedd8fe5c90",
+      "slug": "casale-dei-pra-affittacamere-caerano-di-san-marco",
+      "nome": "Casale dei Pra' Affittacamere",
+      "city_name": "Caerano di San Marco",
+      "indirizzo": "Via Pra de Roda, 10-10/A, 31031 Caerano di San Marco TV",
+      "lat": 45.808109,
+      "lng": 12.005109
+    },
+    {
+      "id": "3e337e37-a5e0-45dd-b4e6-105fd1e1b728",
+      "slug": "albergo-delle-valli-cafasse",
+      "nome": "Albergo delle Valli",
+      "city_name": "Cafasse",
+      "indirizzo": "Via C. Miglietti, 67, 10070 Germagnano TO",
+      "lat": 45.260698,
+      "lng": 7.466894
+    },
+    {
+      "id": "b79ca137-8a50-4b46-bc2e-c81e035f4f02",
+      "slug": "casa-del-caval-bianco-affittacamere-cafasse",
+      "nome": "Casa Del Caval Bianco - Affittacamere",
+      "city_name": "Cafasse",
+      "indirizzo": "Via Andrea Mensa, 26, 10078 Venaria Reale TO",
+      "lat": 45.134762,
+      "lng": 7.627498
+    },
+    {
+      "id": "5a89d80f-fef6-4329-b28b-432dd095cd2e",
+      "slug": "floating-dream-cafasse",
+      "nome": "Floating Dream",
+      "city_name": "Cafasse",
+      "indirizzo": "Via Lanzo, 1, 10070 Fiano TO",
+      "lat": 45.216285,
+      "lng": 7.538848
+    },
+    {
+      "id": "a2bbf7e9-a4f0-4382-9931-c830de512b66",
+      "slug": "hotel-galant-cafasse",
+      "nome": "Hotel Galant",
+      "city_name": "Cafasse",
+      "indirizzo": "Corso Giuseppe Garibaldi, 155, 10078 Venaria Reale TO",
+      "lat": 45.119741,
+      "lng": 7.64421
+    },
+    {
+      "id": "4efeb34f-b566-44df-b568-b4dd6af245b9",
+      "slug": "hotel-ristorante-piemonte-cafasse",
+      "nome": "Hotel Ristorante Piemonte",
+      "city_name": "Cafasse",
+      "indirizzo": "Via Umberto I, 23, 10074 Lanzo Torinese TO",
+      "lat": 45.275089,
+      "lng": 7.474278
+    },
+    {
+      "id": "f1d74925-f869-4ecc-bc68-b5fc61c6e53f",
+      "slug": "hotel-stazione-reale-cafasse",
+      "nome": "Hotel Stazione Reale",
+      "city_name": "Cafasse",
+      "indirizzo": "Viale Roma, 20, 10078 Venaria Reale TO",
+      "lat": 45.132349,
+      "lng": 7.634851
+    },
+    {
+      "id": "8a97a431-05a7-49fb-a85e-d3c3fe43acd8",
+      "slug": "il-mondo-in-valle-di-simonetti-monica-cafasse",
+      "nome": "Il Mondo in Valle di Simonetti Monica",
+      "city_name": "Cafasse",
+      "indirizzo": "Via Pessinetto Fuori, 41, 10070 Pessinetto TO",
+      "lat": 45.287227,
+      "lng": 7.414331
+    },
+    {
+      "id": "b5c454ac-61c8-4f97-b285-9a5aa99980e7",
+      "slug": "la-vispa-teresa-b-b-cafasse",
+      "nome": "La Vispa Teresa B&B",
+      "city_name": "Cafasse",
+      "indirizzo": "via case Togliatti 5 - località, 10070 Plassa-togliatti TO",
+      "lat": 45.291409,
+      "lng": 7.4708
+    },
+    {
+      "id": "a7d09b6b-937a-40c7-8c25-32f23af8de54",
+      "slug": "le-finestre-sui-canali-cafasse",
+      "nome": "Le Finestre sui Canali",
+      "city_name": "Cafasse",
+      "indirizzo": "Vicolo Cubito, 18, 10070 Cafasse TO",
+      "lat": 45.239262,
+      "lng": 7.520189
+    },
+    {
+      "id": "7aa306d4-e560-4dff-913d-117bb7a35696",
+      "slug": "locanda-vecchio-novecento-cafasse",
+      "nome": "Locanda Vecchio Novecento",
+      "city_name": "Cafasse",
+      "indirizzo": "Via Corio, 8A, 10070 Grosso TO",
+      "lat": 45.256815,
+      "lng": 7.55933
+    },
+    {
+      "id": "0223b58d-f6e8-4dda-a2ee-3b90b391b470",
+      "slug": "agriturismo-il-capitano-caggiano",
+      "nome": "Agriturismo Il Capitano",
+      "city_name": "Caggiano",
+      "indirizzo": "Località Mozzone, 84030 Caggiano SA",
+      "lat": 40.549942,
+      "lng": 15.507546
+    },
+    {
+      "id": "dd5f9520-f69e-41ca-b00d-d959685ff996",
+      "slug": "hotel-pino-caggiano",
+      "nome": "Hotel Pino",
+      "city_name": "Caggiano",
+      "indirizzo": "Via Principessa Elena, 24, 84030 Caggiano SA",
+      "lat": 40.566976,
+      "lng": 15.493359
+    },
+    {
+      "id": "f2c15396-c019-494b-8795-a520043aa49f",
+      "slug": "locanda-severino-caggiano",
+      "nome": "Locanda Severino",
+      "city_name": "Caggiano",
+      "indirizzo": "Largo Re Galantuomo, 11, 84030 Caggiano SA",
+      "lat": 40.568945,
+      "lng": 15.490925
+    },
+    {
+      "id": "67313ace-65c6-4d04-80b9-1758fdbe4190",
+      "slug": "agriturismo-cardella-cagli",
+      "nome": "Agriturismo Cardella",
+      "city_name": "Cagli",
+      "indirizzo": "Località Cardella, 68, 61046 Piobbico PU",
+      "lat": 43.567843,
+      "lng": 12.559825
+    },
+    {
+      "id": "a8fb3737-ffcf-43c1-9484-364427e97524",
+      "slug": "albergo-ristorante-birra-al-pozzo-cagli",
+      "nome": "Albergo Ristorante Birra al Pozzo",
+      "city_name": "Cagli",
+      "indirizzo": "Pianacce, 12, 61041 Acqualagna PU",
+      "lat": 43.637321,
+      "lng": 12.699755
+    },
+    {
+      "id": "ce4035f0-3de1-4239-9849-199cb134503f",
+      "slug": "b-b-villa-taddea-cagli",
+      "nome": "B&B Villa Taddea",
+      "city_name": "Cagli",
+      "indirizzo": "Località Bacciardi, 1A, 61046 Piobbico PU",
+      "lat": 43.573699,
+      "lng": 12.548565
+    },
+    {
+      "id": "07746133-b189-4658-b1da-05a3157c2c73",
+      "slug": "hotel-ristorante-il-daino-cagli",
+      "nome": "Hotel - Ristorante Il Daino",
+      "city_name": "Cagli",
+      "indirizzo": "Via Roma, 19, 61040 Frontone PU",
+      "lat": 43.513706,
+      "lng": 12.737305
+    },
+    {
+      "id": "05a0c19d-37a9-41ab-bd7c-1298244f7d5b",
+      "slug": "hotel-pineta-snc-cagli",
+      "nome": "Hotel Pineta Snc",
+      "city_name": "Cagli",
+      "indirizzo": "Viale della Vittoria, 15, 61043 Cagli PU",
+      "lat": 43.544306,
+      "lng": 12.646831
+    },
+    {
+      "id": "97aac7c0-7cb4-4c37-9fc5-897149ae44c8",
+      "slug": "hotel-stazione-di-posta-cagli",
+      "nome": "Hotel Stazione di Posta",
+      "city_name": "Cagli",
+      "indirizzo": "Via Flaminia, km 221 230, 61044 Cantiano PU",
+      "lat": 43.452713,
+      "lng": 12.631844
+    },
+    {
+      "id": "148cf6f0-f4b6-470e-a27b-7aac4534a62a",
+      "slug": "la-rosa-rossa-cagli",
+      "nome": "La Rosa Rossa",
+      "city_name": "Cagli",
+      "indirizzo": "Via del Burano, 1, 61043 Cagli PU",
+      "lat": 43.545402,
+      "lng": 12.652867
+    },
+    {
+      "id": "399f1870-0722-41a8-8b2a-a9b9f7c87c7f",
+      "slug": "san-pietro-fuori-le-mura-b-b-cagli",
+      "nome": "San Pietro Fuori le Mura B&B",
+      "city_name": "Cagli",
+      "indirizzo": "Via Corvalan, 61043 Cagli PU",
+      "lat": 43.540771,
+      "lng": 12.652338
+    },
+    {
+      "id": "2ed45339-2997-4adc-8c01-93387854e136",
+      "slug": "serendipity-boutique-country-house-cagli",
+      "nome": "Serendipity, Boutique Country House",
+      "city_name": "Cagli",
+      "indirizzo": "Località S. Rocco, 11, 61044 Cantiano PU",
+      "lat": 43.458526,
+      "lng": 12.628632
+    },
+    {
+      "id": "ee281417-252a-4672-98f5-5ae62a552562",
+      "slug": "hotel-ristorante-san-marino-caglio",
+      "nome": "Hotel Ristorante San Marino",
+      "city_name": "Caglio",
+      "indirizzo": "Via Regina Nuova, 64, 22010 Laglio CO",
+      "lat": 45.877627,
+      "lng": 9.1326
+    },
+    {
+      "id": "bd4d5b4f-68a7-44b4-b1b9-d2a3bb79c622",
+      "slug": "residenza-santa-valeria-caglio",
+      "nome": "Residenza Santa Valeria",
+      "city_name": "Caglio",
+      "indirizzo": "Via Giovanni Segantini, 14, 22030 Caglio CO",
+      "lat": 45.87181,
+      "lng": 9.237659
+    },
+    {
+      "id": "27d8d325-873a-4f76-8c87-f3aaedc4978e",
+      "slug": "affittacamere-uvaspina-cagnano-amiterno",
+      "nome": "Affittacamere Uvaspina",
+      "city_name": "Cagnano Amiterno",
+      "indirizzo": "Frazione Bivio di Pizzoli, 67017 Pizzoli AQ",
+      "lat": 42.411179,
+      "lng": 13.305683
+    },
+    {
+      "id": "ade04de7-cc83-481c-90f3-4f4167d49a4f",
+      "slug": "agriturismo-la-canestra-cucina-tipica-fattoria-d-cagnano-amiterno",
+      "nome": "Agriturismo La Canestra - cucina tipica, fattoria didattica, camere",
+      "city_name": "Cagnano Amiterno",
+      "indirizzo": "Via S. Rocco, 7, 67014 Capitignano AQ",
+      "lat": 42.533091,
+      "lng": 13.278422
+    },
+    {
+      "id": "75b52fa1-e561-4029-9f84-ffab30ca8d8a",
+      "slug": "locanda-fonte-dell-orso-cagnano-amiterno",
+      "nome": "Locanda fonte dell'orso",
+      "city_name": "Cagnano Amiterno",
+      "indirizzo": "S.P. 30 km 5,5, 67100 L'Aquila AQ",
+      "lat": 42.401485,
+      "lng": 13.24635
+    }
+  ]
+}

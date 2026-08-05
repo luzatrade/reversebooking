@@ -1,0 +1,323 @@
+{
+  "block": 84,
+  "blockId": "084",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "c99b4bb5-96be-404d-8bf2-b6a4bd54bef4",
+      "slug": "b-b-sant-anna-cairo-montenotte-sv-altare",
+      "nome": "B&B Sant'Anna Cairo Montenotte (SV)",
+      "city_name": "Altare",
+      "indirizzo": "Str. Sant'Anna, 13, 17014 Cairo Montenotte SV",
+      "lat": 44.392046,
+      "lng": 8.267431
+    },
+    {
+      "id": "0e11919d-f3db-4d12-a78a-46e9294d7e2d",
+      "slug": "elfo-degli-ulivi-altare",
+      "nome": "Elfo degli Ulivi",
+      "city_name": "Altare",
+      "indirizzo": "Via Guardia, 29, 17026 Tosse SV",
+      "lat": 44.227937,
+      "lng": 8.383609
+    },
+    {
+      "id": "90791d3a-4d06-4a24-b249-ddfa6cd61dbd",
+      "slug": "er-mirin-il-mulino-di-carcare-altare",
+      "nome": "Er Mirin il mulino di Carcare",
+      "city_name": "Altare",
+      "indirizzo": "Via S. Giovanni del Monte, 137, 17043 Carcare SV",
+      "lat": 44.352654,
+      "lng": 8.285016
+    },
+    {
+      "id": "4ef84b33-2c5e-45f8-9325-f4748f5833fe",
+      "slug": "hotel-giovanna-b-b-altare",
+      "nome": "Hotel Giovanna B&B",
+      "city_name": "Altare",
+      "indirizzo": "Via Serra, 25, 17028 Spotorno SV",
+      "lat": 44.222804,
+      "lng": 8.41476
+    },
+    {
+      "id": "76c6d8b5-231c-4ac5-afe5-651577d058dc",
+      "slug": "hotel-la-gaietta-altare",
+      "nome": "Hotel La Gaietta",
+      "city_name": "Altare",
+      "indirizzo": "Piazza della Libertà, 98, 17017 Millesimo SV",
+      "lat": 44.365209,
+      "lng": 8.205798
+    },
+    {
+      "id": "81f98851-f56d-494b-bf55-edd2397373db",
+      "slug": "la-conchiglia-altare",
+      "nome": "La Conchiglia",
+      "city_name": "Altare",
+      "indirizzo": "Vico Santa Caterina, 5, 17028 Spotorno SV",
+      "lat": 44.228745,
+      "lng": 8.413961
+    },
+    {
+      "id": "c739fc7a-e3c4-49c1-88bc-12da0c57cd55",
+      "slug": "la-dolce-vita-altare",
+      "nome": "La Dolce Vita",
+      "city_name": "Altare",
+      "indirizzo": "Via Guardia, 3, 17026 Tosse SV",
+      "lat": 44.227176,
+      "lng": 8.386126
+    },
+    {
+      "id": "dd2ba388-8a02-4708-9f76-df204e631f8a",
+      "slug": "locanda-contrada-dei-fattori-altare",
+      "nome": "Locanda Contrada dei Fattori",
+      "city_name": "Altare",
+      "indirizzo": "Strada Bellini, 2, 17014 Cairo Montenotte SV",
+      "lat": 44.425873,
+      "lng": 8.282648
+    },
+    {
+      "id": "b3b05c0b-39c8-41e3-9e81-f3b90bcdb62a",
+      "slug": "miramare-altare",
+      "nome": "Miramare",
+      "city_name": "Altare",
+      "indirizzo": "Via Umberto Giordano, 11r, 17100 Savona SV",
+      "lat": 44.297742,
+      "lng": 8.466737
+    },
+    {
+      "id": "282d3ff6-0e30-4e92-8e93-4fdcdd1af2fd",
+      "slug": "nelly-g-altare",
+      "nome": "Nelly G",
+      "city_name": "Altare",
+      "indirizzo": "Via Canto di Sopra, 26, 17020 Calice Ligure SV",
+      "lat": 44.224285,
+      "lng": 8.296441
+    },
+    {
+      "id": "dbca2589-b4ea-45eb-8d20-d0ce132aa9cf",
+      "slug": "se-mi-vuoi-lasciare-altare",
+      "nome": "Se mi vuoi lasciare",
+      "city_name": "Altare",
+      "indirizzo": "Via Vecchia di Plodio, 14, 17043 Carcare SV",
+      "lat": 44.356538,
+      "lng": 8.283375
+    },
+    {
+      "id": "d0fd9b14-634c-4499-8fb8-8ae9cf3f17d8",
+      "slug": "trattoria-locanda-san-rocco-altare",
+      "nome": "Trattoria Locanda San Rocco",
+      "city_name": "Altare",
+      "indirizzo": "Via Restagno Annibale, 1, 17041 Altare SV",
+      "lat": 44.335372,
+      "lng": 8.343027
+    },
+    {
+      "id": "0e4d388b-3691-46e2-9807-90f1b4a36489",
+      "slug": "affittacamere-da-silvia-altavalle",
+      "nome": "Affittacamere da Silvia",
+      "city_name": "Altavalle",
+      "indirizzo": "Loc. Bissina- Valle, di, 38091 Daone TN",
+      "lat": 46.052528,
+      "lng": 10.513403
+    },
+    {
+      "id": "a5646498-9c43-4682-9455-172334ac709a",
+      "slug": "agritur-all-olivo-altavalle",
+      "nome": "Agritur All'OLIVO",
+      "city_name": "Altavalle",
+      "indirizzo": "Località Vallata, n° 1, 38092 Faver TN",
+      "lat": 46.177907,
+      "lng": 11.237439
+    },
+    {
+      "id": "72036c22-ef0d-4817-a239-5a52922f745e",
+      "slug": "agritur-calvola-altavalle",
+      "nome": "Agritur Calvola",
+      "city_name": "Altavalle",
+      "indirizzo": "Via Villa Calvola, 62, 38060 Ville del Monte TN",
+      "lat": 45.926042,
+      "lng": 10.832202
+    },
+    {
+      "id": "10652ef0-4756-4eeb-a397-c024566c07b1",
+      "slug": "agritur-due-valli-altavalle",
+      "nome": "Agritur Due Valli",
+      "city_name": "Altavalle",
+      "indirizzo": "Via Plan, 15, 38020 Cis TN",
+      "lat": 46.39856,
+      "lng": 11.005737
+    },
+    {
+      "id": "e2b1e98b-48ce-4385-b4b0-b46dd5636a80",
+      "slug": "agritur-le-cavade-altavalle",
+      "nome": "Agritur le Cavade",
+      "city_name": "Altavalle",
+      "indirizzo": "Localita Cavade, 1, 38034 Cembra TN",
+      "lat": 46.170336,
+      "lng": 11.219133
+    },
+    {
+      "id": "10e3c0e4-89b0-471b-9e75-3950f7f1a9f7",
+      "slug": "agritur-leita-altavalle",
+      "nome": "Agritur Leita",
+      "city_name": "Altavalle",
+      "indirizzo": "Via S. Emerenziana, 70, 38019 Tuenno TN",
+      "lat": 46.324701,
+      "lng": 11.019572
+    },
+    {
+      "id": "0857507a-83c9-4c39-9b3d-b787285bc8bf",
+      "slug": "agritur-ponte-alto-altavalle",
+      "nome": "Agritur Ponte Alto",
+      "city_name": "Altavalle",
+      "indirizzo": "Via alla Cascata, 27, 38123 Trento TN",
+      "lat": 46.072886,
+      "lng": 11.152254
+    },
+    {
+      "id": "0d07a4bb-8b64-4361-908e-769bd5717858",
+      "slug": "agritur-val-d-adige-altavalle",
+      "nome": "Agritur Val d'Adige",
+      "city_name": "Altavalle",
+      "indirizzo": "Localita' Roncafort, 78/a, 38121 Trento TN",
+      "lat": 46.101412,
+      "lng": 11.097313
+    },
+    {
+      "id": "1513ebbc-774d-4061-8b58-bab6aada2c8e",
+      "slug": "agriturismo-alberobello-altavalle",
+      "nome": "Agriturismo Alberobello",
+      "city_name": "Altavalle",
+      "indirizzo": "Localita' alpe Lavarotto, 1, 28846 Borgomezzavalle VB",
+      "lat": 46.047759,
+      "lng": 8.184542
+    },
+    {
+      "id": "01e93d97-4be8-4cf8-b4b0-d9a55b67aad9",
+      "slug": "agriturismo-margone-trento-altavalle",
+      "nome": "Agriturismo Margone Trento",
+      "city_name": "Altavalle",
+      "indirizzo": "Via Margone, 37, 38123 Ravina TN",
+      "lat": 46.032957,
+      "lng": 11.103644
+    },
+    {
+      "id": "e723b192-4d5f-4763-8db8-7b17a127a4ab",
+      "slug": "agriturismo-pianrestel-altavalle",
+      "nome": "Agriturismo Pianrestel",
+      "city_name": "Altavalle",
+      "indirizzo": "Via Gastaldo, 26, 38033 Cavalese TN",
+      "lat": 46.288421,
+      "lng": 11.478144
+    },
+    {
+      "id": "d35b01ae-9fca-4b2e-81e8-09b2d539ff32",
+      "slug": "albergo-bar-miravalle-altavalle",
+      "nome": "Albergo Bar Miravalle",
+      "city_name": "Altavalle",
+      "indirizzo": "Frazione Cavrasto, n° 2, 38071 Bleggio Superiore TN",
+      "lat": 46.015933,
+      "lng": 10.815583
+    },
+    {
+      "id": "a739f79e-f571-40f2-ab66-626357da7255",
+      "slug": "albergo-miravalle-fai-della-paganella-altavalle",
+      "nome": "Albergo Miravalle Fai della Paganella",
+      "city_name": "Altavalle",
+      "indirizzo": "Via Cembran 9-11, 38010 Fai della Paganella TN",
+      "lat": 46.175134,
+      "lng": 11.058589
+    },
+    {
+      "id": "9d5a19b7-64c7-4df0-ad1e-cb510f0e4a69",
+      "slug": "beb-trattoria-miravalle-altavalle",
+      "nome": "BeB Trattoria Miravalle",
+      "city_name": "Altavalle",
+      "indirizzo": "Localita, Zona Artigianale Polina, 6, 38087 Roncone TN",
+      "lat": 45.991108,
+      "lng": 10.687166
+    },
+    {
+      "id": "cb00f293-9923-4fe6-9410-c154f1662d87",
+      "slug": "bed-breakfast-casa-delle-fate-altavalle",
+      "nome": "Bed & Breakfast \"Casa delle fate\"",
+      "city_name": "Altavalle",
+      "indirizzo": "Via Castel la Santa 04 Termon Termon di, Via Castel la Santa, 4, 38010 Termon TN",
+      "lat": 46.269409,
+      "lng": 11.034532
+    },
+    {
+      "id": "feb96fea-18e4-49c2-a996-c9284cc346f1",
+      "slug": "hotel-garni-alta-valle-altavalle",
+      "nome": "Hotel Garní Alta Valle",
+      "city_name": "Altavalle",
+      "indirizzo": "Via Nazionale, 1, 25050 Vione BS",
+      "lat": 46.246993,
+      "lng": 10.453662
+    },
+    {
+      "id": "2327f589-6027-4838-bdba-e155387addd4",
+      "slug": "hotel-miravalle-altavalle",
+      "nome": "Hotel Miravalle",
+      "city_name": "Altavalle",
+      "indirizzo": "Strada Nòa, 22, 38078 San Lorenzo Dorsino TN",
+      "lat": 46.078345,
+      "lng": 10.904671
+    },
+    {
+      "id": "a167e494-bdb9-4e05-96b9-a19e518b5878",
+      "slug": "locanda-del-passatore-home-restaurant-b-b-altavalle",
+      "nome": "Locanda Del Passatore - Home Restaurant - B&B",
+      "city_name": "Altavalle",
+      "indirizzo": "Via Campagna, 16, 38092 Faver TN",
+      "lat": 46.180296,
+      "lng": 11.234904
+    },
+    {
+      "id": "47df918f-c223-40ef-bba6-33f125084e97",
+      "slug": "le-rive-altavilla-irpina",
+      "nome": "\"LE RIVE\"",
+      "city_name": "Altavilla Irpina",
+      "indirizzo": "Unnamed Road,83010, 83010 Tufo AV",
+      "lat": 41.015824,
+      "lng": 14.810684
+    },
+    {
+      "id": "49df16fa-eee4-4e44-a316-421552fd74d0",
+      "slug": "agriturismo-e-winery-feudo-di-castelmozzo-altavilla-irpina",
+      "nome": "Agriturismo e Winery FEUDO DI CASTELMOZZO",
+      "city_name": "Altavilla Irpina",
+      "indirizzo": "Via Tuori, 23, 83030 Santa Paolina AV",
+      "lat": 41.015674,
+      "lng": 14.844308
+    },
+    {
+      "id": "81e7e7a7-2d82-46f0-9ff6-160d3435dcd6",
+      "slug": "b-b-villa-noemi-eventi-altavilla-irpina",
+      "nome": "B&B - VILLA NOEMI EVENTI",
+      "city_name": "Altavilla Irpina",
+      "indirizzo": "Contrada Bosco della Corte, 1, 83030 Prata di Principato Ultra AV",
+      "lat": 40.977938,
+      "lng": 14.805897
+    },
+    {
+      "id": "fe9dbdd9-1b63-4363-9b94-e8ce423ed1ef",
+      "slug": "b-b-la-casa-della-nonna-altavilla-irpina",
+      "nome": "B&B \"La casa della Nonna\"",
+      "city_name": "Altavilla Irpina",
+      "indirizzo": "Via Provinciale 56 n.23, Passo Serra, 83038 Montemiletto AV",
+      "lat": 41.02449,
+      "lng": 14.881106
+    },
+    {
+      "id": "07aa45e1-7979-40b6-ac28-8f35d1ef6059",
+      "slug": "b-b-le-colonne-altavilla-irpina",
+      "nome": "B&B Le Colonne",
+      "city_name": "Altavilla Irpina",
+      "indirizzo": "Via Dante, 14/12, 83030 Montefusco AV",
+      "lat": 41.036707,
+      "lng": 14.854024
+    }
+  ]
+}

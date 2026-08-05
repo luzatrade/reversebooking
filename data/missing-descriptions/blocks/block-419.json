@@ -1,0 +1,323 @@
+{
+  "block": 419,
+  "blockId": "419",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "db9192f5-319a-4b88-9ec7-dfa35ebd8943",
+      "slug": "tufaro-b-b-capodrise",
+      "nome": "Tufaro B&B",
+      "city_name": "Capodrise",
+      "indirizzo": "Via S. Lorenzo, 3, 81047 Macerata Campania CE",
+      "lat": 41.061668,
+      "lng": 14.291341
+    },
+    {
+      "id": "d02bfa3b-94f2-4e4a-8030-019ade862a32",
+      "slug": "valentino-bed-and-breakfast-capodrise",
+      "nome": "Valentino Bed and Breakfast",
+      "city_name": "Capodrise",
+      "indirizzo": "Via Retella, 81020 Capodrise CE",
+      "lat": 41.043818,
+      "lng": 14.312234
+    },
+    {
+      "id": "005d1777-ef51-4c49-9aa8-327ae976f54a",
+      "slug": "casa-campanella-resort-capoliveri",
+      "nome": "Casa Campanella Resort",
+      "city_name": "Capoliveri",
+      "indirizzo": "Localita' Madonnina, 1, 57031 Capoliveri LI",
+      "lat": 42.752531,
+      "lng": 10.371027
+    },
+    {
+      "id": "f9915af3-e781-4463-b54a-df0aec3aca3c",
+      "slug": "country-hotel-residence-pilade-capoliveri",
+      "nome": "Country Hotel Residence Pilade",
+      "city_name": "Capoliveri",
+      "indirizzo": "Località Mola, 5, 57031 Mola LI",
+      "lat": 42.755942,
+      "lng": 10.378828
+    },
+    {
+      "id": "d26bdae7-73a1-4640-9312-853e80c8e004",
+      "slug": "elba-travels-capoliveri",
+      "nome": "Elba Travels",
+      "city_name": "Capoliveri",
+      "indirizzo": "Localita' Morcone, 23, 57031 Capoliveri LI",
+      "lat": 42.733324,
+      "lng": 10.375027
+    },
+    {
+      "id": "5d2f7b41-510f-44bb-8b22-6538e454ec0b",
+      "slug": "hotel-anfora-capoliveri",
+      "nome": "Hotel Anfora",
+      "city_name": "Capoliveri",
+      "indirizzo": "Località Naregno, 57031 Naregno LI",
+      "lat": 42.755032,
+      "lng": 10.401158
+    },
+    {
+      "id": "9e369210-e4cd-41d3-8cea-4c878d9b3ddb",
+      "slug": "hotel-antares-capoliveri",
+      "nome": "Hotel Antares",
+      "city_name": "Capoliveri",
+      "indirizzo": "57031 Lido di Capoliveri LI",
+      "lat": 42.761358,
+      "lng": 10.353735
+    },
+    {
+      "id": "fe442626-1390-4d77-9777-e4707697ebb1",
+      "slug": "hotel-belmare-capoliveri",
+      "nome": "Hotel Belmare",
+      "city_name": "Capoliveri",
+      "indirizzo": "Banchina 4 Novembre, 21, 57036 Porto Azzurro LI",
+      "lat": 42.764431,
+      "lng": 10.398869
+    },
+    {
+      "id": "65507041-f91e-448e-aaf5-235cf13aa987",
+      "slug": "hotel-capo-di-stella-capoliveri",
+      "nome": "Hotel Capo di Stella",
+      "city_name": "Capoliveri",
+      "indirizzo": "Via Capo di Stella, 57031 Lacona LI",
+      "lat": 42.757799,
+      "lng": 10.317184
+    },
+    {
+      "id": "7accb3a8-427d-42ae-a25f-113d924e5857",
+      "slug": "hotel-dino-capoliveri",
+      "nome": "Hotel Dino",
+      "city_name": "Capoliveri",
+      "indirizzo": "Localita' Pareti, 1, 57031 Capoliveri LI",
+      "lat": 42.726966,
+      "lng": 10.374995
+    },
+    {
+      "id": "f4a49961-a59d-421b-853d-e31e56c5fd60",
+      "slug": "hotel-e-residence-cala-di-mola-capoliveri",
+      "nome": "Hotel e Residence Cala di Mola",
+      "city_name": "Capoliveri",
+      "indirizzo": "Via Provinciale Ovest, 131, 57036 Porto Azzurro LI",
+      "lat": 42.761873,
+      "lng": 10.386634
+    },
+    {
+      "id": "b4c4d277-850d-49e3-b708-14d872979280",
+      "slug": "hotel-frank-s-capoliveri",
+      "nome": "Hotel Frank's",
+      "city_name": "Capoliveri",
+      "indirizzo": "Località Naregno, 34, 57031 Capoliveri LI",
+      "lat": 42.75603,
+      "lng": 10.401929
+    },
+    {
+      "id": "ce4436c9-7ca8-4923-a43e-db78bd828571",
+      "slug": "hotel-golfo-azzurro-capoliveri",
+      "nome": "Hotel Golfo Azzurro",
+      "city_name": "Capoliveri",
+      "indirizzo": "Via Claris Appiani, 5, 57031 Capoliveri LI",
+      "lat": 42.74468,
+      "lng": 10.379784
+    },
+    {
+      "id": "c7d3381f-04fd-4f2b-bb56-d4666c96cbab",
+      "slug": "hotel-plaza-capoliveri",
+      "nome": "Hotel Plaza",
+      "city_name": "Capoliveri",
+      "indirizzo": "Loc. Fanaletto, 1, 57036 Porto Azzurro LI",
+      "lat": 42.76292,
+      "lng": 10.394634
+    },
+    {
+      "id": "df4dcefb-8566-41c8-8552-a36113681bd3",
+      "slug": "hotel-stella-maris-capoliveri",
+      "nome": "Hotel Stella Maris",
+      "city_name": "Capoliveri",
+      "indirizzo": "Localita' Pareti, 57031 Capoliveri LI",
+      "lat": 42.72836,
+      "lng": 10.375692
+    },
+    {
+      "id": "8b46cf39-e8c2-4ab3-b594-40b70397df20",
+      "slug": "hotel-villa-rodriguez-b-b-capoliveri-isola-d-elb-capoliveri",
+      "nome": "Hotel Villa Rodriguez - B&B Capoliveri Isola d'Elba",
+      "city_name": "Capoliveri",
+      "indirizzo": "Loc, 57031 Naregno LI",
+      "lat": 42.756692,
+      "lng": 10.401708
+    },
+    {
+      "id": "f48aa520-6914-46d2-93ea-fa3f08d6ba30",
+      "slug": "i-fiori-di-salici-capoliveri",
+      "nome": "I Fiori di Salici",
+      "city_name": "Capoliveri",
+      "indirizzo": "località salici, 2, 57031 Capoliveri LI",
+      "lat": 42.749774,
+      "lng": 10.376743
+    },
+    {
+      "id": "e9b70d36-7da1-4649-8232-01896736b59b",
+      "slug": "innamorata-capoliveri-li-capoliveri",
+      "nome": "Innamorata - Capoliveri (li)",
+      "city_name": "Capoliveri",
+      "indirizzo": "Via Innamorata, 13, 57031 Innamorata LI",
+      "lat": 42.722557,
+      "lng": 10.377665
+    },
+    {
+      "id": "8b99bff4-f0ab-4f52-9123-47168d056d8d",
+      "slug": "jr-resort-elba-international-capoliveri",
+      "nome": "JR Resort Elba International",
+      "city_name": "Capoliveri",
+      "indirizzo": "Località Baia delle Fontanelle, 57031 Naregno LI",
+      "lat": 42.756477,
+      "lng": 10.395722
+    },
+    {
+      "id": "11682462-9b3b-4444-9a5a-619afefadc1c",
+      "slug": "le-acacie-hotel-residence-isola-d-elba-capoliveri",
+      "nome": "Le Acacie Hotel & Residence Isola d'Elba",
+      "city_name": "Capoliveri",
+      "indirizzo": "Località Naregno, 57031 Capoliveri, Isola d' Elba LI",
+      "lat": 42.754182,
+      "lng": 10.401446
+    },
+    {
+      "id": "f9373416-4967-4a25-8ef8-d3c5f0e51e52",
+      "slug": "le-calanchiole-camping-village-isola-d-elba-capoliveri",
+      "nome": "Le Calanchiole Camping Village isola d'Elba",
+      "city_name": "Capoliveri",
+      "indirizzo": "13 Localita' Calanchiole, 57031 Capoliveri LI",
+      "lat": 42.757845,
+      "lng": 10.360634
+    },
+    {
+      "id": "b1722a39-314b-4d8a-a715-cf4b7385b6b2",
+      "slug": "residential-hotel-villaggio-innamorata-capoliveri",
+      "nome": "Residential Hotel Villaggio Innamorata",
+      "city_name": "Capoliveri",
+      "indirizzo": "57031 Innamorata LI",
+      "lat": 42.722004,
+      "lng": 10.379099
+    },
+    {
+      "id": "f9d64e29-c419-4d12-b6bc-46aba904a514",
+      "slug": "agriturismo-albergotti-capolona",
+      "nome": "Agriturismo Albergotti",
+      "city_name": "Capolona",
+      "indirizzo": "Località Ceciliano, 78, 52100 Arezzo AR",
+      "lat": 43.500953,
+      "lng": 11.863552
+    },
+    {
+      "id": "8e32970c-5213-488c-8318-d53325a92603",
+      "slug": "agriturismo-azienda-agricola-il-pozzo-capolona",
+      "nome": "AGRITURISMO Azienda Agricola Il Pozzo",
+      "city_name": "Capolona",
+      "indirizzo": "Località Il Pozzo, 31b, 52010 Capolona AR",
+      "lat": 43.589739,
+      "lng": 11.867836
+    },
+    {
+      "id": "236d5de3-142a-47cb-8bb5-c384fd1f0c24",
+      "slug": "agriturismo-borgo-ornina-capolona",
+      "nome": "Agriturismo Borgo Ornina",
+      "city_name": "Capolona",
+      "indirizzo": "Strada per Ornina, 121, 52016 Castel Focognano AR",
+      "lat": 43.63102,
+      "lng": 11.805843
+    },
+    {
+      "id": "da07878b-59b0-41be-98f7-8811163de396",
+      "slug": "agriturismo-cuprena-capolona",
+      "nome": "Agriturismo Cuprena",
+      "city_name": "Capolona",
+      "indirizzo": "Località Marcena, 59, 52100 Arezzo AR",
+      "lat": 43.540075,
+      "lng": 11.856752
+    },
+    {
+      "id": "8bbf523c-95d8-44f0-93e2-c6009c29c013",
+      "slug": "agriturismo-molinvecchio-sul-capraia-capolona",
+      "nome": "Agriturismo Molinvecchio sul Capraia",
+      "city_name": "Capolona",
+      "indirizzo": "Località L'Abate, 52010 Talla AR",
+      "lat": 43.601199,
+      "lng": 11.78759
+    },
+    {
+      "id": "27ee724f-9488-4778-b32a-7091b3747c32",
+      "slug": "agriturismo-rossodisera-capolona",
+      "nome": "Agriturismo Rossodisera",
+      "city_name": "Capolona",
+      "indirizzo": "Località Libbia, 9, 52100 Arezzo AR",
+      "lat": 43.504315,
+      "lng": 11.900805
+    },
+    {
+      "id": "79f59d13-07b6-4af9-9774-549f756ad3ae",
+      "slug": "b-b-lavanda-e-rosmarino-capolona",
+      "nome": "B&B Lavanda e Rosmarino",
+      "city_name": "Capolona",
+      "indirizzo": "Località il Cipresso, 187, 52010 Cenina AR",
+      "lat": 43.581043,
+      "lng": 11.847535
+    },
+    {
+      "id": "542a9ddd-c840-4d94-ab39-6161678b37f3",
+      "slug": "bio-agriturismo-il-vigno-capolona",
+      "nome": "Bio Agriturismo Il Vigno",
+      "city_name": "Capolona",
+      "indirizzo": "Localita' Il Vigno 262, 52033 Caprese Michelangelo AR",
+      "lat": 43.642943,
+      "lng": 11.9559
+    },
+    {
+      "id": "02156309-7a7d-41d0-b7da-976e5b5f761e",
+      "slug": "casina-della-burraia-capolona",
+      "nome": "Casina della Burraia",
+      "city_name": "Capolona",
+      "indirizzo": "loc La casina 46, 52010 Subbiano AR",
+      "lat": 43.620089,
+      "lng": 11.908405
+    },
+    {
+      "id": "eab81e86-1463-438e-8e47-57bd5fa55c8f",
+      "slug": "fattoria-de-toscani-capolona",
+      "nome": "Fattoria de Toscani",
+      "city_name": "Capolona",
+      "indirizzo": "Località Ornina Bassa 109-A, 52016 Castel Focognano AR",
+      "lat": 43.628407,
+      "lng": 11.809427
+    },
+    {
+      "id": "01f95ef7-2ddf-4cf0-87b0-23a1f4194b2b",
+      "slug": "hotel-le-capanne-capolona",
+      "nome": "Hotel le Capanne",
+      "city_name": "Capolona",
+      "indirizzo": "Località Il Matto, 44/45, 52040 Arezzo AR",
+      "lat": 43.411724,
+      "lng": 11.820668
+    },
+    {
+      "id": "51160205-0f6a-489e-a921-aa7f2ac6f56d",
+      "slug": "il-casotto-capolona",
+      "nome": "Il Casotto",
+      "city_name": "Capolona",
+      "indirizzo": "Localita, Via di Vallebona, 83, 52010 Chiusi della Verna AR",
+      "lat": 43.646468,
+      "lng": 11.858472
+    },
+    {
+      "id": "81c7bdcd-4635-47a6-ba6b-055b25b4c2d9",
+      "slug": "il-paradiso-capolona",
+      "nome": "Il Paradiso",
+      "city_name": "Capolona",
+      "indirizzo": "Località il Paradiso, 306, 52010 Capolona AR",
+      "lat": 43.559757,
+      "lng": 11.846262
+    }
+  ]
+}

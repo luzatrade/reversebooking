@@ -1,0 +1,323 @@
+{
+  "block": 9,
+  "blockId": "009",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "9a3f0a4d-555d-460a-8a7b-3fcb8793c7ab",
+      "slug": "luxury-b-b-euphorbia-acireale",
+      "nome": "Luxury B&b Euphorbia",
+      "city_name": "Acireale",
+      "indirizzo": "Via Canale Torto, 2, 95024 Acireale CT",
+      "lat": 37.636783,
+      "lng": 15.176314
+    },
+    {
+      "id": "0eacd768-0a35-46db-bce2-a6caf604feb4",
+      "slug": "palazzo-giovanni-bed-and-breakfast-acireale",
+      "nome": "Palazzo Giovanni Bed and Breakfast",
+      "city_name": "Acireale",
+      "indirizzo": "Via XXI Aprile, 103, 95024 Acireale CT",
+      "lat": 37.651202,
+      "lng": 15.187366
+    },
+    {
+      "id": "591d2bbe-2b34-4cf5-9172-5ad41ca66367",
+      "slug": "residenza-cavour-acireale",
+      "nome": "Residenza Cavour",
+      "city_name": "Acireale",
+      "indirizzo": "Via Camillo Benso Conte di Cavour, 17, 95024 Acireale CT",
+      "lat": 37.612924,
+      "lng": 15.164974
+    },
+    {
+      "id": "19cd0f42-7ccb-402a-9e6e-2969f9e863cc",
+      "slug": "riflessi-acireale-palace-suites-acireale",
+      "nome": "Riflessi Acireale Palace Suites",
+      "city_name": "Acireale",
+      "indirizzo": "Via S. Martino, 121, 95024 Acireale CT",
+      "lat": 37.610234,
+      "lng": 15.163625
+    },
+    {
+      "id": "ff472eba-a13c-4b7b-a2be-7b7bf273b6e2",
+      "slug": "savoia-residence-acireale",
+      "nome": "Savoia Residence",
+      "city_name": "Acireale",
+      "indirizzo": "Corso Savoia, 19, 95024 Acireale CT",
+      "lat": 37.61403,
+      "lng": 15.165207
+    },
+    {
+      "id": "db2c51e9-2fe3-4bf0-862b-a3b439dc5b49",
+      "slug": "villa-arianna-acireale-acireale",
+      "nome": "Villa Arianna Acireale",
+      "city_name": "Acireale",
+      "indirizzo": "Via Lazzaretto, 95024 Acireale CT",
+      "lat": 37.619274,
+      "lng": 15.149445
+    },
+    {
+      "id": "f9435d6c-2187-451c-b3d4-40017be89f97",
+      "slug": "villa-feluchia-b-b-acireale",
+      "nome": "Villa Feluchia B&B",
+      "city_name": "Acireale",
+      "indirizzo": "Via Collegio Fiandaca, 44/A, 95024 Acireale CT",
+      "lat": 37.641399,
+      "lng": 15.123896
+    },
+    {
+      "id": "39ad49ab-87a8-42ba-8203-fa7233047658",
+      "slug": "agriturismo-il-pioppeto-acquafondata",
+      "nome": "Agriturismo Il Pioppeto",
+      "city_name": "Acquafondata",
+      "indirizzo": "Strada Provinciale 81, 44, 03043 Cassino FR",
+      "lat": 41.474895,
+      "lng": 13.840762
+    },
+    {
+      "id": "8f924c56-6078-4952-a873-5ac76f578100",
+      "slug": "b-b-hotel-la-villa-acquafondata",
+      "nome": "B&B hotel La Villa",
+      "city_name": "Acquafondata",
+      "indirizzo": "Traversa1, Via Atinense, 9/11, 86077 Pozzilli IS",
+      "lat": 41.514322,
+      "lng": 14.058212
+    },
+    {
+      "id": "28096be6-af3a-4220-a7de-4a260c984b9a",
+      "slug": "b-b-il-sorriso-acquafondata",
+      "nome": "b&b Il Sorriso",
+      "city_name": "Acquafondata",
+      "indirizzo": "D.Alighieri, 6 Piano terra, 86077 Pozzilli IS",
+      "lat": 41.512821,
+      "lng": 14.059375
+    },
+    {
+      "id": "1e995cef-d3bf-4174-bd5b-5374ce4ad579",
+      "slug": "b-b-l-eden-acquafondata",
+      "nome": "B&B L'EDEN",
+      "city_name": "Acquafondata",
+      "indirizzo": "Via Sant'Angelo, 13, 03043 Cassino FR",
+      "lat": 41.479168,
+      "lng": 13.827051
+    },
+    {
+      "id": "d17181b6-8dd4-49fb-a09f-661d1915a242",
+      "slug": "b-b-la-costa-acquafondata",
+      "nome": "B&B La Costa",
+      "city_name": "Acquafondata",
+      "indirizzo": "Via Caira, 35, 03043 Cassino FR",
+      "lat": 41.501656,
+      "lng": 13.828742
+    },
+    {
+      "id": "321b1830-4300-4d0c-aee1-ba4935557235",
+      "slug": "b-b-la-montagnarosa-acquafondata",
+      "nome": "B&B La Montagnarosa",
+      "city_name": "Acquafondata",
+      "indirizzo": "Via Mainarde, 86070 Castelnuovo A Volturno IS",
+      "lat": 41.623831,
+      "lng": 14.045883
+    },
+    {
+      "id": "b0589d8d-2b40-4404-bb96-849850ca757b",
+      "slug": "b-b-sud-e-magia-acquafondata",
+      "nome": "B&b Sud e Magia",
+      "city_name": "Acquafondata",
+      "indirizzo": "Via Lecine, 03040 San Vittore del Lazio FR",
+      "lat": 41.459765,
+      "lng": 13.942461
+    },
+    {
+      "id": "8d353df8-8bff-4b58-b695-e9a51dc2357e",
+      "slug": "chez-nous-bed-and-breakfast-acquafondata",
+      "nome": "Chez Nous Bed and Breakfast",
+      "city_name": "Acquafondata",
+      "indirizzo": "03040 Picinisco FR",
+      "lat": 41.643173,
+      "lng": 13.869177
+    },
+    {
+      "id": "4928165e-c789-496b-b0d8-f8112fcffb5f",
+      "slug": "gerberarooms-acquafondata",
+      "nome": "Gerberarooms",
+      "city_name": "Acquafondata",
+      "indirizzo": "Via Atinense, 27/A, 86077 Pozzilli IS",
+      "lat": 41.514757,
+      "lng": 14.059727
+    },
+    {
+      "id": "2ff0be72-b8ba-4c50-980e-2eed10f7d5eb",
+      "slug": "giosam-bed-breakfast-acquafondata",
+      "nome": "Giosam Bed & Breakfast",
+      "city_name": "Acquafondata",
+      "indirizzo": "Via Atinense, 14, 86077 Pozzilli IS",
+      "lat": 41.513414,
+      "lng": 14.059603
+    },
+    {
+      "id": "0a3f35ed-3ded-4bfa-b390-620311b3e672",
+      "slug": "hotel-continental-cassino-acquafondata",
+      "nome": "Hotel Continental Cassino",
+      "city_name": "Acquafondata",
+      "indirizzo": "Piazza Alcide De Gasperi, 4, 03043 Cassino FR",
+      "lat": 41.492677,
+      "lng": 13.829659
+    },
+    {
+      "id": "69367b5f-da42-4596-99e1-b014f07ce4e9",
+      "slug": "hotel-la-pace-experience-acquafondata",
+      "nome": "Hotel La Pace - Experience",
+      "city_name": "Acquafondata",
+      "indirizzo": "Via Abruzzi, 16, 03043 Cassino FR",
+      "lat": 41.496358,
+      "lng": 13.831394
+    },
+    {
+      "id": "1b355aeb-3900-4e2b-8170-3ae190ef955a",
+      "slug": "hotel-ristorante-al-boschetto-cassino-acquafondata",
+      "nome": "Hotel Ristorante Al Boschetto Cassino",
+      "city_name": "Acquafondata",
+      "indirizzo": "Via Ausonia, 54, SR, 630 KM 0/300, 03043 Cassino FR",
+      "lat": 41.471599,
+      "lng": 13.815094
+    },
+    {
+      "id": "1990f68d-1c2c-4c55-b13e-5c5f9f17d0ea",
+      "slug": "hotel-ristorante-la-campagnola-acquafondata",
+      "nome": "Hotel Ristorante La Campagnola",
+      "city_name": "Acquafondata",
+      "indirizzo": "SR630, 24, 03043 Cassino FR",
+      "lat": 41.468253,
+      "lng": 13.810488
+    },
+    {
+      "id": "02d9b8d0-9e9a-4d26-bab6-61242a24c5a6",
+      "slug": "hotel-sant-elia-acquafondata",
+      "nome": "Hotel Sant'Elia",
+      "city_name": "Acquafondata",
+      "indirizzo": "Via Pezzogrande, 798, 03049 Sant'Elia Fiumerapido FR",
+      "lat": 41.529763,
+      "lng": 13.853951
+    },
+    {
+      "id": "b33014ac-abec-418a-a602-1553dcc36525",
+      "slug": "la-sorgente-acquafondata",
+      "nome": "La Sorgente",
+      "city_name": "Acquafondata",
+      "indirizzo": "Viale Sandro Pertini, 12, 86070 Rocchetta Alta IS",
+      "lat": 41.626476,
+      "lng": 14.086816
+    },
+    {
+      "id": "48668023-4c99-4387-99bc-e1b07c0302f4",
+      "slug": "la-suite-acquafondata",
+      "nome": "La Suite",
+      "city_name": "Acquafondata",
+      "indirizzo": "Via Enrico de Nicola, 151, 03043 Cassino FR",
+      "lat": 41.49169,
+      "lng": 13.83309
+    },
+    {
+      "id": "3ef5194e-0906-443e-bf85-f28e1b8e1cbe",
+      "slug": "locanda-belvedere-da-stefano-acquafondata",
+      "nome": "Locanda Belvedere da Stefano",
+      "city_name": "Acquafondata",
+      "indirizzo": "Località Pratola snc in frazione, 86070 Castelnuovo Al Volturno IS",
+      "lat": 41.636078,
+      "lng": 14.05153
+    },
+    {
+      "id": "d52a321b-342b-493e-bf8e-0078e8af325b",
+      "slug": "palazzo-licinio-acquafondata",
+      "nome": "Palazzo Licinio",
+      "city_name": "Acquafondata",
+      "indirizzo": "Via Antonio de Bellis, 3, 86079 Venafro IS",
+      "lat": 41.485155,
+      "lng": 14.043538
+    },
+    {
+      "id": "bc06aaab-a68b-47b4-a45a-ffd163b180e9",
+      "slug": "tenuta-degli-uliveti-b-b-acquafondata",
+      "nome": "Tenuta degli Uliveti B&B",
+      "city_name": "Acquafondata",
+      "indirizzo": "Via Degli Uliveti, 03049 Sant'Elia Fiumerapido FR",
+      "lat": 41.523749,
+      "lng": 13.86876
+    },
+    {
+      "id": "2173f9e7-526b-4099-aca4-d3d90def1f68",
+      "slug": "agriturismo-l-antico-casale-acquaformosa",
+      "nome": "Agriturismo L'Antico Casale",
+      "city_name": "Acquaformosa",
+      "indirizzo": "c/da S. Anna, 87042 Altomonte CS",
+      "lat": 39.706694,
+      "lng": 16.148294
+    },
+    {
+      "id": "a7223a2a-1198-43e1-9ac7-787dd3671b10",
+      "slug": "albergo-meruo-acquaformosa",
+      "nome": "Albergo Meruo",
+      "city_name": "Acquaformosa",
+      "indirizzo": "Piazza Croce, 3, 87016 Morano Calabro CS",
+      "lat": 39.84491,
+      "lng": 16.133948
+    },
+    {
+      "id": "3e4dbb59-ba25-4acb-921e-9aeb58df44c6",
+      "slug": "antico-borgo-b-b-acquaformosa",
+      "nome": "Antico Borgo B&B",
+      "city_name": "Acquaformosa",
+      "indirizzo": "Via Olivella, 122, 87040 Tarsia CS",
+      "lat": 39.620818,
+      "lng": 16.268289
+    },
+    {
+      "id": "f312f984-f127-42f3-96d0-0696398434e9",
+      "slug": "b-b-cristallo-acquaformosa",
+      "nome": "B&B Cristallo",
+      "city_name": "Acquaformosa",
+      "indirizzo": "Via Giuseppe Mazzini, 12, 87012 Castrovillari CS",
+      "lat": 39.813749,
+      "lng": 16.205702
+    },
+    {
+      "id": "a8c3206f-b5d8-4649-8534-d0a112744ace",
+      "slug": "b-b-il-laghetto-acquaformosa",
+      "nome": "B&B IL LAGHETTO",
+      "city_name": "Acquaformosa",
+      "indirizzo": "Via Timpone della Capanna, 12 b, 87012 Castrovillari CS",
+      "lat": 39.82407,
+      "lng": 16.223128
+    },
+    {
+      "id": "34f9b46d-62b1-477a-b073-48e0ae453a1d",
+      "slug": "b-b-ka-edda-acquaformosa",
+      "nome": "B&B KA EDDA",
+      "city_name": "Acquaformosa",
+      "indirizzo": "Via Fontana Vecchia, 61, 87010 Acquaformosa CS",
+      "lat": 39.723774,
+      "lng": 16.091356
+    },
+    {
+      "id": "b80dd109-c35d-4404-b170-9dfcc7a4fc50",
+      "slug": "b-b-la-brezza-del-pollino-acquaformosa",
+      "nome": "B&B La Brezza del Pollino",
+      "city_name": "Acquaformosa",
+      "indirizzo": "C.da Mangioppo, 38, 87016 Morano Calabro CS",
+      "lat": 39.85111,
+      "lng": 16.148821
+    },
+    {
+      "id": "10effbeb-0669-4609-821c-d3a769795806",
+      "slug": "castello-di-altomonte-ristorante-albergo-acquaformosa",
+      "nome": "Castello Di Altomonte Ristorante Albergo",
+      "city_name": "Acquaformosa",
+      "indirizzo": "Piazza Castello, 6, 87042 Altomonte CS",
+      "lat": 39.699004,
+      "lng": 16.131761
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 173,
+  "blockId": "173",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "c4c09634-d39c-45c2-8f6a-f95eb62acdc8",
+      "slug": "b-b-atrani-rooms-atrani",
+      "nome": "B&B Atrani Rooms",
+      "city_name": "Atrani",
+      "indirizzo": "V. dei Dogi, 15a, 84010 Atrani SA",
+      "lat": 40.637073,
+      "lng": 14.607515
+    },
+    {
+      "id": "3906a503-7d47-4f01-89d1-cd7224172c3f",
+      "slug": "cristallpont-amalfi-day-atrani",
+      "nome": "CristallPont: Amalfi.Day",
+      "city_name": "Atrani",
+      "indirizzo": "V. Dragone, 2, 84010 Atrani SA",
+      "lat": 40.636797,
+      "lng": 14.608177
+    },
+    {
+      "id": "920ed86b-7ae1-44f7-86c9-af7a9e277386",
+      "slug": "donna-giulia-atrani",
+      "nome": "Donna Giulia",
+      "city_name": "Atrani",
+      "indirizzo": "Via Roberto Il Guiscardo, 47, 84011 Amalfi SA",
+      "lat": 40.633657,
+      "lng": 14.605431
+    },
+    {
+      "id": "447981a6-f4d1-442d-be82-b8a015da63e3",
+      "slug": "eva-rooms-atrani",
+      "nome": "Eva Rooms",
+      "city_name": "Atrani",
+      "indirizzo": "Via Gabriele di Benedetto, 3/Interno 3, 84010 Atrani SA",
+      "lat": 40.634731,
+      "lng": 14.608227
+    },
+    {
+      "id": "cd253e66-140b-4a78-8fc3-8620c56977a0",
+      "slug": "hotel-l-argine-fiorito-atrani",
+      "nome": "Hotel \"L'Argine fiorito\"",
+      "city_name": "Atrani",
+      "indirizzo": "V. dei Dogi, 45, 84010 Atrani SA",
+      "lat": 40.63789,
+      "lng": 14.606856
+    },
+    {
+      "id": "7f8760ed-c891-4d4b-816f-9af1500e86a9",
+      "slug": "hotel-amalfi-atrani",
+      "nome": "Hotel Amalfi",
+      "city_name": "Atrani",
+      "indirizzo": "Via dei Pastai, 3, 84011 Amalfi SA",
+      "lat": 40.635051,
+      "lng": 14.60198
+    },
+    {
+      "id": "62d02dc0-8b64-4296-9d70-9f713319b0f5",
+      "slug": "hotel-croce-di-amalfi-atrani",
+      "nome": "Hotel Croce di Amalfi",
+      "city_name": "Atrani",
+      "indirizzo": "Salita S. Nicola dei Greci, 13/15, 84011 Amalfi SA",
+      "lat": 40.633862,
+      "lng": 14.601514
+    },
+    {
+      "id": "85a6fead-b1f6-4a02-874d-53f3f79def82",
+      "slug": "hotel-fontana-atrani",
+      "nome": "Hotel Fontana",
+      "city_name": "Atrani",
+      "indirizzo": "Piazza Duomo, 7, 84011 Amalfi SA",
+      "lat": 40.634008,
+      "lng": 14.602491
+    },
+    {
+      "id": "5841b13f-a3c2-46be-9ada-a86f8ed9f233",
+      "slug": "hotel-le-fioriere-atrani",
+      "nome": "Hotel Le Fioriere",
+      "city_name": "Atrani",
+      "indirizzo": "Via Gennaro Capriglione, 138, 84010 Praiano SA",
+      "lat": 40.613149,
+      "lng": 14.522656
+    },
+    {
+      "id": "18d6b01d-e54f-4fc7-a77e-14f1eeec301a",
+      "slug": "hotel-luna-convento-atrani",
+      "nome": "Hotel Luna Convento",
+      "city_name": "Atrani",
+      "indirizzo": "Via Pantaleone Comite, 33, 84011 Amalfi SA",
+      "lat": 40.633183,
+      "lng": 14.606786
+    },
+    {
+      "id": "01986efb-684f-4527-91f7-719795bcd285",
+      "slug": "hotel-palazzo-ferraioli-atrani",
+      "nome": "Hotel Palazzo Ferraioli",
+      "city_name": "Atrani",
+      "indirizzo": "Via Supportico Marinella, 10, 84010 Atrani SA",
+      "lat": 40.636032,
+      "lng": 14.608057
+    },
+    {
+      "id": "1307e2bb-bbd6-4974-a618-a11694d2bd77",
+      "slug": "hotel-raito-amalfi-coast-atrani",
+      "nome": "Hotel Raito Amalfi Coast",
+      "city_name": "Atrani",
+      "indirizzo": "Via Nuova Raito, 9, 84019 Vietri sul Mare SA",
+      "lat": 40.668462,
+      "lng": 14.717326
+    },
+    {
+      "id": "62e0f9a5-bdb0-4a84-845e-c9f6d6e68bfb",
+      "slug": "hotel-san-francesco-atrani",
+      "nome": "Hotel San Francesco",
+      "city_name": "Atrani",
+      "indirizzo": "Via Santa Tecla, 54, 84010 Maiori SA",
+      "lat": 40.649654,
+      "lng": 14.636457
+    },
+    {
+      "id": "1f9b59cb-66f2-4124-a64b-15727656a3fd",
+      "slug": "hotel-santa-lucia-atrani",
+      "nome": "Hotel Santa Lucia",
+      "city_name": "Atrani",
+      "indirizzo": "V Alfonso Gatto, 44, 84010 Minori SA",
+      "lat": 40.65026,
+      "lng": 14.625936
+    },
+    {
+      "id": "9a4830b0-f17f-4dc9-bc96-734bb5dbedce",
+      "slug": "la-scogliera-s-a-s-di-m-g-gambardella-c-atrani",
+      "nome": "La Scogliera S.A.S Di M.G Gambardella & C.",
+      "city_name": "Atrani",
+      "indirizzo": "Via Gabriele di Benedetto, 3, 84010 Atrani SA",
+      "lat": 40.634731,
+      "lng": 14.60829
+    },
+    {
+      "id": "a0d92230-c490-4efc-a234-12732b369cfa",
+      "slug": "me-fra-di-criscuolo-sonia-atrani",
+      "nome": "Me.Fra Di Criscuolo Sonia",
+      "city_name": "Atrani",
+      "indirizzo": "V. Michele Buonocore, 12, 84010 Atrani SA",
+      "lat": 40.636733,
+      "lng": 14.608589
+    },
+    {
+      "id": "92c72d2d-06c8-4561-aece-4ecff807b013",
+      "slug": "villa-lara-hotel-atrani",
+      "nome": "Villa Lara Hotel",
+      "city_name": "Atrani",
+      "indirizzo": "Via delle Cartiere, 1, 84011 Amalfi SA",
+      "lat": 40.638564,
+      "lng": 14.600489
+    },
+    {
+      "id": "cd6f4ea1-5f59-42af-9f98-ca024eb7c25e",
+      "slug": "a-casa-di-costanza-atri",
+      "nome": "A Casa di Costanza",
+      "city_name": "Atri",
+      "indirizzo": "Via Picena, 45, 64032 Atri TE",
+      "lat": 42.580221,
+      "lng": 13.973159
+    },
+    {
+      "id": "dd2a7192-f11e-4ca9-8ea1-4d9e82e09462",
+      "slug": "a-casa-di-gio-atri",
+      "nome": "A Casa di Gió",
+      "city_name": "Atri",
+      "indirizzo": "Via Aldo Moro, 126, 64032 Atri TE",
+      "lat": 42.570173,
+      "lng": 14.011883
+    },
+    {
+      "id": "140ca35d-7dde-4522-a87e-84efa43e3bf6",
+      "slug": "al-civico-2-atri",
+      "nome": "Al Civico 2",
+      "city_name": "Atri",
+      "indirizzo": "Via Picena, Portico San Nicola, 2, 64032 Atri TE",
+      "lat": 42.580497,
+      "lng": 13.97398
+    },
+    {
+      "id": "acf38acf-0b48-4a44-ba6d-edd525555834",
+      "slug": "arco-di-san-francesco-atri",
+      "nome": "Arco di San Francesco",
+      "city_name": "Atri",
+      "indirizzo": "Via S. Francesco, 64032 Atri TE",
+      "lat": 42.580185,
+      "lng": 13.976551
+    },
+    {
+      "id": "5844e646-7a3d-4dc8-8ecd-8e3e28276ba3",
+      "slug": "b-b-spa-novantadieci-club-atri",
+      "nome": "B&B & SPA Novantadieci Club",
+      "city_name": "Atri",
+      "indirizzo": "Contrada Colle Sciarra, snc, 64032 Atri TE",
+      "lat": 42.582897,
+      "lng": 14.007813
+    },
+    {
+      "id": "03e9106a-8bf8-4992-8804-1d79dfb4a3ae",
+      "slug": "b-b-al-centro-storico-21-atri",
+      "nome": "B&B Al Centro Storico 21",
+      "city_name": "Atri",
+      "indirizzo": "Via Cardinale Cicada, 21, 64032 Atri TE",
+      "lat": 42.580954,
+      "lng": 13.978247
+    },
+    {
+      "id": "594de29d-2dee-4e67-b116-57d0392324f1",
+      "slug": "b-b-alexander-atri",
+      "nome": "B&B ALEXANDER",
+      "city_name": "Atri",
+      "indirizzo": "CIN IT067004C16FGBD5LV, Via Domenico Tinozzi, 14, 64032 Atri TE",
+      "lat": 42.580304,
+      "lng": 13.985358
+    },
+    {
+      "id": "88bf93cc-0894-4b82-95e4-f4cf13778ec1",
+      "slug": "b-b-la-canfora-cin-it067004c1z3ujbw9v-atri",
+      "nome": "B&B La Canfora Cin. IT067004C1Z3UJBW9V",
+      "city_name": "Atri",
+      "indirizzo": "SP27a, 64032 Stracca TE",
+      "lat": 42.631492,
+      "lng": 13.994107
+    },
+    {
+      "id": "6ef31ee1-6522-4dd2-9090-d47297725b49",
+      "slug": "b-b-la-casetta-di-atri-atri",
+      "nome": "B&B La Casetta di Atri",
+      "city_name": "Atri",
+      "indirizzo": "Vico Prepositi, 12, 64032 Atri TE",
+      "lat": 42.579107,
+      "lng": 13.97829
+    },
+    {
+      "id": "b57f5367-07f4-45c5-bcb9-10339a70d55a",
+      "slug": "b-b-tio-pepe-1-atri",
+      "nome": "B&B TIO PEPE 1",
+      "city_name": "Atri",
+      "indirizzo": "Via Grecia, 4, 64026 Roseto degli Abruzzi TE",
+      "lat": 42.657821,
+      "lng": 14.006265
+    },
+    {
+      "id": "2d236433-0dd0-4e94-9539-fdafa0944041",
+      "slug": "bellavista-bed-and-breakfast-atri",
+      "nome": "Bellavista bed and breakfast",
+      "city_name": "Atri",
+      "indirizzo": "Via Sant' Agostino, 22, 64032 Atri TE",
+      "lat": 42.579437,
+      "lng": 13.978241
+    },
+    {
+      "id": "e9e55e63-d5a9-43b1-b05f-274bbe9ebe89",
+      "slug": "bioagriturismo-la-quercia-atri",
+      "nome": "BioAgriturismo La Quercia",
+      "city_name": "Atri",
+      "indirizzo": "Contrada Centorame, 4, 64032 Atri TE",
+      "lat": 42.555895,
+      "lng": 14.061971
+    },
+    {
+      "id": "d9d5ba30-5e09-4b2e-85cf-072b96b7932a",
+      "slug": "casa-in-centro-storico-atri-locazione-turistica-atri",
+      "nome": "Casa in centro storico Atri - Locazione Turistica",
+      "city_name": "Atri",
+      "indirizzo": "Vico Rane, 18, 64032 Atri TE",
+      "lat": 42.579292,
+      "lng": 13.974373
+    },
+    {
+      "id": "a15a38a4-c284-416c-af63-51accc907e1f",
+      "slug": "cornelia-b-b-atri",
+      "nome": "Cornelia B&B",
+      "city_name": "Atri",
+      "indirizzo": "Corso Elio Adriano, 29, 64032 Atri TE",
+      "lat": 42.580022,
+      "lng": 13.978518
+    },
+    {
+      "id": "e93c673f-f07c-4885-8ab4-5c9d55d8b458",
+      "slug": "hotel-abruzzo-atri",
+      "nome": "Hotel Abruzzo",
+      "city_name": "Atri",
+      "indirizzo": "Viale Abruzzo, 2, 64025 Pineto TE",
+      "lat": 42.614492,
+      "lng": 14.063905
+    },
+    {
+      "id": "103c8c70-2543-4fdf-9b24-bf12a63f5eb2",
+      "slug": "hotel-du-parc-atri",
+      "nome": "Hotel Du Parc",
+      "city_name": "Atri",
+      "indirizzo": "Viale Umberto I, 6, 64032 Atri TE",
+      "lat": 42.580401,
+      "lng": 13.982989
+    },
+    {
+      "id": "c0ab49ba-11aa-434b-8d67-445c96f025b1",
+      "slug": "hotel-italia-atri",
+      "nome": "Hotel Italia",
+      "city_name": "Atri",
+      "indirizzo": "Piazza Tito Marucci, 4, 64025 Pineto TE",
+      "lat": 42.607307,
+      "lng": 14.06864
+    },
+    {
+      "id": "8cb7f90a-786a-4ae3-ae67-6e1558d29336",
+      "slug": "hotel-parco-degli-ulivi-atri",
+      "nome": "Hotel Parco degli Ulivi",
+      "city_name": "Atri",
+      "indirizzo": "SS16, 92, 64025 Pineto TE",
+      "lat": 42.640647,
+      "lng": 14.042079
+    }
+  ]
+}

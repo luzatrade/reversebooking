@@ -1,0 +1,323 @@
+{
+  "block": 148,
+  "blockId": "148",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "892af540-8281-44d0-9712-b61222214ba7",
+      "slug": "agriturismo-san-tommaso-ariano-irpino",
+      "nome": "Agriturismo San Tommaso",
+      "city_name": "Ariano Irpino",
+      "indirizzo": "Contrada S. Tommaso, 12, 83031 Ariano Irpino AV",
+      "lat": 41.148708,
+      "lng": 15.0703
+    },
+    {
+      "id": "dab535fe-7d23-4810-a48c-6ddf78b79d55",
+      "slug": "b-b-dimora-peluso-melito-irpino-av-irpinia-ariano-irpino",
+      "nome": "B&B Dimora Peluso - Melito Irpino AV - Irpinia",
+      "city_name": "Ariano Irpino",
+      "indirizzo": "83030 Cozza AV",
+      "lat": 41.126961,
+      "lng": 15.029102
+    },
+    {
+      "id": "449e50cc-33f9-4386-b680-75c50cc0d028",
+      "slug": "b-b-la-reggia-ariano-irpino",
+      "nome": "B&B La Reggia",
+      "city_name": "Ariano Irpino",
+      "indirizzo": "C.da Centovie, 20, 83031 Ariano Irpino AV",
+      "lat": 41.143953,
+      "lng": 15.036803
+    },
+    {
+      "id": "eb3f8505-93a2-46c8-a792-6388e18639d8",
+      "slug": "grand-hotel-biffy-ariano-irpino",
+      "nome": "Grand Hotel Biffy",
+      "city_name": "Ariano Irpino",
+      "indirizzo": "Via Cardito, 83031 Ariano Irpino AV",
+      "lat": 41.135513,
+      "lng": 15.081042
+    },
+    {
+      "id": "c38170e8-75a7-41a4-94a0-44ab173aad00",
+      "slug": "hotel-fontana-del-re-ariano-irpino",
+      "nome": "Hotel Fontana Del Re",
+      "city_name": "Ariano Irpino",
+      "indirizzo": "Corso Vittorio Emanuele, 1, 83031 Ariano Irpino AV",
+      "lat": 41.147422,
+      "lng": 15.082832
+    },
+    {
+      "id": "761c765e-e1a5-49e0-b54d-b24df9e2a09e",
+      "slug": "il-rifugio-del-principe-ariano-irpino-2",
+      "nome": "Il Rifugio del Principe",
+      "city_name": "Ariano Irpino",
+      "indirizzo": "SP36, 83040 Gesualdo AV",
+      "lat": 41.031206,
+      "lng": 15.058854
+    },
+    {
+      "id": "d0819ef3-2bcb-4b24-baa0-07c2edbe44e5",
+      "slug": "life-hotel-ariano-irpino",
+      "nome": "LIFE HOTEL",
+      "city_name": "Ariano Irpino",
+      "indirizzo": "Via Santa Barbara N 3, SS90, 120, 83031 Ariano Irpino AV",
+      "lat": 41.120132,
+      "lng": 15.079581
+    },
+    {
+      "id": "efcf5132-1c8b-45ea-bbc2-534b27c02d73",
+      "slug": "villa-antico-mulino-eventi-e-ricevimenti-ad-aria-ariano-irpino",
+      "nome": "Villa Antico Mulino | Eventi e Ricevimenti ad Ariano Irpino",
+      "city_name": "Ariano Irpino",
+      "indirizzo": "Contrada Ficucelle, 2/A, 83031 Trimonti AV",
+      "lat": 41.1921,
+      "lng": 15.070013
+    },
+    {
+      "id": "fb1cb137-74dc-4ad5-96b5-dad816c8a01b",
+      "slug": "villa-santoro-ariano-irpino",
+      "nome": "Villa Santoro",
+      "city_name": "Ariano Irpino",
+      "indirizzo": "SS90, 83031 Serralonga AV",
+      "lat": 41.179848,
+      "lng": 15.133167
+    },
+    {
+      "id": "cced8a31-cdbe-4881-847b-daae1ad5fee6",
+      "slug": "villa-sorriso-hotel-ristorante-ariano-irpino",
+      "nome": "Villa Sorriso Hotel Ristorante",
+      "city_name": "Ariano Irpino",
+      "indirizzo": "Via Nazionale, SS90, Km. 18, 83031 Ariano Irpino AV",
+      "lat": 41.108658,
+      "lng": 15.083415
+    },
+    {
+      "id": "65d28966-554f-44dd-b6bb-bb0aca8aaf86",
+      "slug": "villa-tre-colli-agriturismo-b-b-ariano-irpino",
+      "nome": "Villa Tre Colli Agriturismo B&b",
+      "city_name": "Ariano Irpino",
+      "indirizzo": "Via Turchiciello, 19, 83031 Ariano Irpino AV",
+      "lat": 41.156392,
+      "lng": 15.118562
+    },
+    {
+      "id": "ed66adb6-9268-4c30-8aad-dcbdd5d9a73f",
+      "slug": "agriturismo-bertilla-ariano-nel-polesine",
+      "nome": "Agriturismo Bertilla",
+      "city_name": "Ariano nel Polesine",
+      "indirizzo": "Via Veneto Ariano, 1, 45012 Ariano nel Polesine RO",
+      "lat": 44.99366,
+      "lng": 12.162469
+    },
+    {
+      "id": "9361b2b4-e605-4004-86ff-9f7376ab2d39",
+      "slug": "agriturismo-casa-ramello-ariano-nel-polesine",
+      "nome": "Agriturismo Casa Ramello",
+      "city_name": "Ariano nel Polesine",
+      "indirizzo": "Via Bighette, 945012, 45012 Ariano nel Polesine RO",
+      "lat": 44.971463,
+      "lng": 12.11126
+    },
+    {
+      "id": "ac8be00b-a2ae-4acc-99c6-424343c0709a",
+      "slug": "agriturismo-forzello-ariano-nel-polesine",
+      "nome": "Agriturismo Forzello",
+      "city_name": "Ariano nel Polesine",
+      "indirizzo": "Via Brenta Ariano, 25, 45012 Ariano RO",
+      "lat": 44.946279,
+      "lng": 12.174304
+    },
+    {
+      "id": "737847d6-0d98-4948-902f-b951a64b7bc7",
+      "slug": "albergo-l-oasi-cannevie-ariano-nel-polesine",
+      "nome": "Albergo L'Oasi Cannevié",
+      "city_name": "Ariano nel Polesine",
+      "indirizzo": "Via per Volano, 45, 44021 Codigoro FE",
+      "lat": 44.806969,
+      "lng": 12.236656
+    },
+    {
+      "id": "ca7854f5-94b8-4cc5-aeca-8976bfcc8d63",
+      "slug": "albergo-risto-italia-ariano-nel-polesine",
+      "nome": "Albergo RISTO' Italia",
+      "city_name": "Ariano nel Polesine",
+      "indirizzo": "Via Giacomo Matteotti, 471, 45018 Porto Tolle RO",
+      "lat": 44.952223,
+      "lng": 12.337335
+    },
+    {
+      "id": "29c60c9f-ab52-47cb-9e78-8d1fc8fe0e90",
+      "slug": "b-b-casa-egle-ariano-nel-polesine",
+      "nome": "B&B Casa Egle",
+      "city_name": "Ariano nel Polesine",
+      "indirizzo": "Via Battare, 621/149, 45015 Corbola RO",
+      "lat": 45.008808,
+      "lng": 12.086764
+    },
+    {
+      "id": "63ded8fa-664b-4fe7-94bd-5bd746f170ce",
+      "slug": "b-b-da-toni-ariano-nel-polesine",
+      "nome": "B&B Da Toni",
+      "city_name": "Ariano nel Polesine",
+      "indirizzo": "Via Dottor Maddalena, 68, 45019 Taglio di Po RO",
+      "lat": 45.012111,
+      "lng": 12.200821
+    },
+    {
+      "id": "7766e846-7362-4cb9-8294-544f3179efa8",
+      "slug": "ca-mia-rooms-ariano-nel-polesine",
+      "nome": "Ca'Mia Rooms",
+      "city_name": "Ariano nel Polesine",
+      "indirizzo": "Via Giacomo Matteotti, 222, 45018 Ca' Tiepolo RO",
+      "lat": 44.95052,
+      "lng": 12.326882
+    },
+    {
+      "id": "d31b4deb-ea12-4472-b381-bad80fe7149d",
+      "slug": "la-bicocca-b-b-ariano-nel-polesine",
+      "nome": "La Bicocca B&B",
+      "city_name": "Ariano nel Polesine",
+      "indirizzo": "Vicolo Amolaretta, 24, 45011 Adria RO",
+      "lat": 45.055503,
+      "lng": 12.062219
+    },
+    {
+      "id": "79358438-739f-4762-a4c9-c57f73fff1c8",
+      "slug": "locanda-yanis-ariano-nel-polesine",
+      "nome": "Locanda Yanis",
+      "city_name": "Ariano nel Polesine",
+      "indirizzo": "Via Romea, 193, 44026 Zona Industriale Mesola FE",
+      "lat": 44.89358,
+      "lng": 12.219608
+    },
+    {
+      "id": "584d5728-92be-456f-ac6f-0fc5c4842ed8",
+      "slug": "ponte-molo-hotel-ariano-nel-polesine",
+      "nome": "Ponte Molo - Hotel",
+      "city_name": "Ariano nel Polesine",
+      "indirizzo": "Via Borgo Molo, 5, 45018 Porto Tolle RO",
+      "lat": 44.948608,
+      "lng": 12.308714
+    },
+    {
+      "id": "4570bb72-12c5-4cec-807f-abdfbf55fdd8",
+      "slug": "agriturismo-armando-iacchelli-ariccia",
+      "nome": "Agriturismo Armando Iacchelli",
+      "city_name": "Ariccia",
+      "indirizzo": "Via delle Noci, 15, 00049 Velletri RM",
+      "lat": 41.72195,
+      "lng": 12.73577
+    },
+    {
+      "id": "93be73af-fe0e-49df-8ae6-0eddc4e8a527",
+      "slug": "albergo-ristorante-fontana-di-papa-ariccia",
+      "nome": "Albergo Ristorante Fontana di Papa",
+      "city_name": "Ariccia",
+      "indirizzo": "Via Nettunense, km 12, 00072 Ariccia RM",
+      "lat": 41.672648,
+      "lng": 12.649719
+    },
+    {
+      "id": "9591df98-ffbc-44ba-b60c-1b4939db5e2f",
+      "slug": "b-b-il-melograno-ariccia",
+      "nome": "B&B Il Melograno",
+      "city_name": "Ariccia",
+      "indirizzo": "Via Appia Nuova, 7, 00072 Ariccia RM",
+      "lat": 41.722402,
+      "lng": 12.677569
+    },
+    {
+      "id": "e39f6fdb-d58b-462c-9002-92a9787ad3c8",
+      "slug": "gigi-ariccia",
+      "nome": "GiGi",
+      "city_name": "Ariccia",
+      "indirizzo": "Via Rufelli, 75, 00072 Ariccia RM",
+      "lat": 41.706514,
+      "lng": 12.651707
+    },
+    {
+      "id": "b032af15-30da-46ae-8d99-ae373f5dea1b",
+      "slug": "hotel-ristorante-villa-robinia-ariccia",
+      "nome": "Hotel Ristorante Villa Robinia",
+      "city_name": "Ariccia",
+      "indirizzo": "Viale Fratelli Rosselli, 19, 00045 Genzano di Roma RM",
+      "lat": 41.711797,
+      "lng": 12.68509
+    },
+    {
+      "id": "a9414a86-5974-4fd8-822f-30ee536e11d7",
+      "slug": "la-vista-agriturismo-boutique-ariccia",
+      "nome": "La Vista Agriturismo Boutique",
+      "city_name": "Ariccia",
+      "indirizzo": "Via Prelatura, 12, 00072 Ariccia RM",
+      "lat": 41.7039,
+      "lng": 12.654183
+    },
+    {
+      "id": "63b67d89-6316-4f57-950e-1510767475b0",
+      "slug": "maison-martina-ariccia",
+      "nome": "Maison Martina",
+      "city_name": "Ariccia",
+      "indirizzo": "Via Quinto Labieno Partico, 7, 00072 Ariccia RM",
+      "lat": 41.723015,
+      "lng": 12.691643
+    },
+    {
+      "id": "0b76106f-ca48-4c11-b523-9a7e6bd3aec4",
+      "slug": "maison3g-ariccia",
+      "nome": "Maison3g",
+      "city_name": "Ariccia",
+      "indirizzo": "Via dell'Uccelliera, 102, 00072 Ariccia RM",
+      "lat": 41.735432,
+      "lng": 12.694475
+    },
+    {
+      "id": "036ca393-4622-4bfa-80d6-33a7b82dc62a",
+      "slug": "mia-rooms-ariccia-ariccia",
+      "nome": "Mia Rooms Ariccia",
+      "city_name": "Ariccia",
+      "indirizzo": "Via Pagliarozza, 5-7, 00072 Ariccia RM",
+      "lat": 41.69639,
+      "lng": 12.664013
+    },
+    {
+      "id": "dfb1b568-5d8e-4dea-a674-d266b0ace49a",
+      "slug": "monte-due-torri-agriturismo-ariccia",
+      "nome": "Monte Due Torri Agriturismo",
+      "city_name": "Ariccia",
+      "indirizzo": "Via Montegiove Nuovo, 77, 00045 Genzano di Roma RM",
+      "lat": 41.695971,
+      "lng": 12.682011
+    },
+    {
+      "id": "4df8ad5b-07d6-46db-966f-872387af848f",
+      "slug": "ristorante-e-albergo-diffuso-lo-specchio-di-dian-ariccia",
+      "nome": "Ristorante e Albergo Diffuso Lo Specchio di Diana",
+      "city_name": "Ariccia",
+      "indirizzo": "Corso Vittorio Emanuele, 11, 00074 Nemi RM",
+      "lat": 41.719886,
+      "lng": 12.714077
+    },
+    {
+      "id": "78b4c364-f103-4443-a33e-5b131e678b95",
+      "slug": "agriturismo-b-b-la-cinciallegra-arignano",
+      "nome": "Agriturismo b&b La Cinciallegra",
+      "city_name": "Arignano",
+      "indirizzo": "Cascina Serramena Bassa, 25, 10020 Riva presso Chieri TO",
+      "lat": 44.992981,
+      "lng": 7.923592
+    },
+    {
+      "id": "32a22474-f76d-477e-bb6f-3c1d4f417e7c",
+      "slug": "b-b-fairy-castle-arignano",
+      "nome": "B&B Fairy Castle",
+      "city_name": "Arignano",
+      "indirizzo": "Via Pescarmona, 16, 14022 Castelnuovo Don Bosco AT",
+      "lat": 45.043754,
+      "lng": 7.961516
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 130,
+  "blockId": "130",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "e52bbfbe-4dde-4462-a7a3-26809d8e9bb2",
+      "slug": "agriturismo-tre-morene-aquara",
+      "nome": "Agriturismo Tre Morene",
+      "city_name": "Aquara",
+      "indirizzo": "84060 Monteforte Cilento SA",
+      "lat": 40.359182,
+      "lng": 15.180419
+    },
+    {
+      "id": "f2967f53-eb37-42f2-a417-e6b2f6aa28c6",
+      "slug": "aquamaris-design-suite-spa-aquara",
+      "nome": "Aquamaris Design Suite & Spa",
+      "city_name": "Aquara",
+      "indirizzo": "Via Linora, 28, 84047 Licinella-Torre di Paestum SA",
+      "lat": 40.395477,
+      "lng": 14.998844
+    },
+    {
+      "id": "3329b74f-a10d-45ea-8421-6cc721be0520",
+      "slug": "b-b-le-grazie-aquara",
+      "nome": "B&B Le Grazie",
+      "city_name": "Aquara",
+      "indirizzo": "Via Madonna delle Grazie, 69, 84065 Piaggine SA",
+      "lat": 40.348736,
+      "lng": 15.373794
+    },
+    {
+      "id": "e382910b-6add-46dc-8880-d32bba11db9c",
+      "slug": "b-b-o-stiavucco-aquara",
+      "nome": "B&B O' Stiavucco",
+      "city_name": "Aquara",
+      "indirizzo": "Via S. Teodoro, 69, 84020 Corleto Monforte SA",
+      "lat": 40.438408,
+      "lng": 15.376184
+    },
+    {
+      "id": "91388b80-b402-4771-b6f6-afce09cb875c",
+      "slug": "la-casa-di-federico-aquara",
+      "nome": "La Casa Di Federico",
+      "city_name": "Aquara",
+      "indirizzo": "Via Annunziata, 84020 Aquara SA",
+      "lat": 40.444123,
+      "lng": 15.255486
+    },
+    {
+      "id": "46c6a6c7-23d8-4ed8-9cc9-1a4d85abcb0b",
+      "slug": "la-casa-di-nenna-aquara",
+      "nome": "La Casa di Nenna",
+      "city_name": "Aquara",
+      "indirizzo": "Via Pietro Guglielmotti, 84070 Trentinara SA",
+      "lat": 40.400144,
+      "lng": 15.107246
+    },
+    {
+      "id": "b333e13b-6b6e-4b40-830c-dcfe0d6a6390",
+      "slug": "la-chiocciola-aquara",
+      "nome": "La Chiocciola",
+      "city_name": "Aquara",
+      "indirizzo": "Via Sansalone, 16, 84060 Trentinara SA",
+      "lat": 40.400265,
+      "lng": 15.108315
+    },
+    {
+      "id": "7d481515-6752-40cb-a24d-e39c121fd885",
+      "slug": "la-terrazza-di-laurino-aquara",
+      "nome": "La Terrazza di Laurino",
+      "city_name": "Aquara",
+      "indirizzo": "Via Pescorubino, 84057 Laurino SA",
+      "lat": 40.337353,
+      "lng": 15.351395
+    },
+    {
+      "id": "63a43574-6aef-4e95-a97b-cf9ecb267b48",
+      "slug": "masusa-aquara",
+      "nome": "Masusà",
+      "city_name": "Aquara",
+      "indirizzo": "Via S. Leonardo, snc, 84020 Aquara SA",
+      "lat": 40.452639,
+      "lng": 15.246429
+    },
+    {
+      "id": "57b4aeb8-3870-4572-a31a-2b5872bfaba2",
+      "slug": "tenuta-canale-aquara",
+      "nome": "Tenuta Canale",
+      "city_name": "Aquara",
+      "indirizzo": "SP44, snc, 84020 Aquara SA",
+      "lat": 40.440583,
+      "lng": 15.245445
+    },
+    {
+      "id": "89e47557-ce49-44ad-a9a8-88a593807feb",
+      "slug": "agriturismo-cascina-il-poggio-aquila-d-arroscia",
+      "nome": "Agriturismo Cascina il Poggio",
+      "city_name": "Aquila d'Arroscia",
+      "indirizzo": "Frazione Marmoreo, 97, 17033 Casanova Lerrone SV",
+      "lat": 44.046041,
+      "lng": 8.063906
+    },
+    {
+      "id": "66b72393-4b57-4213-906d-c9915e7d2abc",
+      "slug": "agriturismo-le-merline-aquila-d-arroscia",
+      "nome": "Agriturismo Le Merline",
+      "city_name": "Aquila d'Arroscia",
+      "indirizzo": "Via Costa de Ferrari, 3, 17032 Chiesa SV",
+      "lat": 44.077037,
+      "lng": 8.107755
+    },
+    {
+      "id": "b32cc05f-42be-4632-88ea-fae4f9267e55",
+      "slug": "albergo-ristorante-aquila-aquila-d-arroscia",
+      "nome": "Albergo Ristorante Aquila",
+      "city_name": "Aquila d'Arroscia",
+      "indirizzo": "Borgata Canto, 8, 18028 Aquila di Arroscia IM",
+      "lat": 44.084156,
+      "lng": 8.005275
+    },
+    {
+      "id": "95841e16-43ee-4d5f-a024-9592d3d442e1",
+      "slug": "arve-bed-breakfast-aquila-d-arroscia",
+      "nome": "Arvé Bed & Breakfast",
+      "city_name": "Aquila d'Arroscia",
+      "indirizzo": "Via Isonzo, 6, 17030 Castelbianco SV",
+      "lat": 44.109127,
+      "lng": 8.080133
+    },
+    {
+      "id": "16d8e0cc-e2e6-4409-84f7-54a8e7c899a1",
+      "slug": "b-b-8a-castelbianco-aquila-d-arroscia",
+      "nome": "B&B 8A CASTELBIANCO",
+      "city_name": "Aquila d'Arroscia",
+      "indirizzo": "Via Giuseppe Mazzini, 10/1, 17030 Castelbianco SV",
+      "lat": 44.1093,
+      "lng": 8.079871
+    },
+    {
+      "id": "5442b2f9-a5c3-43b4-9285-ec114fe6b1e2",
+      "slug": "ca-di-vissai-aquila-d-arroscia",
+      "nome": "Ca' di Vissai",
+      "city_name": "Aquila d'Arroscia",
+      "indirizzo": "17032 Menosio SV, Italia",
+      "lat": 44.079224,
+      "lng": 8.096941
+    },
+    {
+      "id": "61e45abd-d85a-42fc-9c4d-5a0cb01e3a4f",
+      "slug": "ca-do-diao-aquila-d-arroscia",
+      "nome": "Ca' Do Diao",
+      "city_name": "Aquila d'Arroscia",
+      "indirizzo": "Località Varavo Inferiore, 15, 17030 Onzo SV",
+      "lat": 44.072101,
+      "lng": 8.061026
+    },
+    {
+      "id": "88e05918-0ef2-46e4-b507-458da7151560",
+      "slug": "gli-ulivi-aquila-d-arroscia",
+      "nome": "Gli Ulivi",
+      "city_name": "Aquila d'Arroscia",
+      "indirizzo": "frazione maremo, 9, 17033 Casanova Lerrone SV",
+      "lat": 44.037734,
+      "lng": 8.074947
+    },
+    {
+      "id": "38bcebc3-9d43-41d0-93eb-8292d730f23e",
+      "slug": "il-calderone-aquila-d-arroscia",
+      "nome": "Il Calderone",
+      "city_name": "Aquila d'Arroscia",
+      "indirizzo": "Via Villa 30, 18020 Ubaga IM",
+      "lat": 44.050531,
+      "lng": 7.991573
+    },
+    {
+      "id": "be8122f1-44bb-47a6-beb6-14214cc95768",
+      "slug": "la-casa-dei-nonni-castelbianco-aquila-d-arroscia",
+      "nome": "La casa dei Nonni Castelbianco",
+      "city_name": "Aquila d'Arroscia",
+      "indirizzo": "Via Vesallo, 18, 17030 Castelbianco SV",
+      "lat": 44.109333,
+      "lng": 8.079333
+    },
+    {
+      "id": "0766b964-7f67-4fd7-8cf6-c36d4d6e399c",
+      "slug": "la-guardia-b-b-aquila-d-arroscia",
+      "nome": "La Guardia B&B",
+      "city_name": "Aquila d'Arroscia",
+      "indirizzo": "case Soprani, 1, 12078 Prale CN",
+      "lat": 44.117804,
+      "lng": 7.90985
+    },
+    {
+      "id": "eed7633a-8c7d-4f04-b78e-9ec68a7e262e",
+      "slug": "la-libellula-rossa-aquila-d-arroscia",
+      "nome": "La Libellula Rossa",
+      "city_name": "Aquila d'Arroscia",
+      "indirizzo": "Via Bassi, 40, 17030 Erli SV",
+      "lat": 44.133899,
+      "lng": 8.107335
+    },
+    {
+      "id": "036e18ca-5323-42d3-9eef-6cb6dafc607a",
+      "slug": "lo-sporting-aquila-d-arroscia",
+      "nome": "Lo Sporting",
+      "city_name": "Aquila d'Arroscia",
+      "indirizzo": "Via Matteotti, 15, frazione Perati, 17030 Nasino SV",
+      "lat": 44.114188,
+      "lng": 8.032693
+    },
+    {
+      "id": "08972286-96ee-4d7d-bd98-ac674c5ea67d",
+      "slug": "agriturismo-pelos-aquileia",
+      "nome": "Agriturismo Pelos",
+      "city_name": "Aquileia",
+      "indirizzo": "Via Udine, 38, 33050 Ruda UD",
+      "lat": 45.846733,
+      "lng": 13.393717
+    },
+    {
+      "id": "a15a7555-1031-4912-8a78-4efdc4e50a50",
+      "slug": "albergo-ristorante-ragno-d-oro-aquileia",
+      "nome": "Albergo ristorante Ragno D'oro",
+      "city_name": "Aquileia",
+      "indirizzo": "SS 14 Trieste /venezia, 33059 Villa Vicentina UD",
+      "lat": 45.805899,
+      "lng": 13.399435
+    },
+    {
+      "id": "a7e581ae-82a8-4c60-b024-eea8ccbc2a98",
+      "slug": "albergo-villa-reale-aquileia",
+      "nome": "Albergo Villa Reale",
+      "city_name": "Aquileia",
+      "indirizzo": "Via Colombo, 11, 34073 Grado GO",
+      "lat": 45.677025,
+      "lng": 13.392681
+    },
+    {
+      "id": "15c9a841-7290-4ce0-8d18-60519f8d96fb",
+      "slug": "alla-basilica-aquileia",
+      "nome": "Alla Basilica",
+      "city_name": "Aquileia",
+      "indirizzo": "Viale Stazione, 2, 33051 Aquileia UD",
+      "lat": 45.770658,
+      "lng": 13.368706
+    },
+    {
+      "id": "cd49dbd6-2eeb-4d37-8b21-a67cb806a430",
+      "slug": "casa-delneri-boutique-hotel-adults-only-aquileia",
+      "nome": "Casa Delneri Boutique Hotel Adults Only",
+      "city_name": "Aquileia",
+      "indirizzo": "Via XXIV Maggio, 18, Via XXIV Maggio, 16, 33051 Aquileia UD",
+      "lat": 45.768386,
+      "lng": 13.364086
+    },
+    {
+      "id": "b78959d8-134b-4790-8e67-44c5a68fd92a",
+      "slug": "holiday-grado-aquileia",
+      "nome": "Holiday Grado",
+      "city_name": "Aquileia",
+      "indirizzo": "Via S. Pellico, 6, 34073 Grado GO",
+      "lat": 45.679532,
+      "lng": 13.403861
+    },
+    {
+      "id": "936477ba-601d-432c-a0d5-2c72fbbd014c",
+      "slug": "hotel-abbazia-aquileia",
+      "nome": "Hotel Abbazia",
+      "city_name": "Aquileia",
+      "indirizzo": "Via Colombo, 12, 34073 Grado GO",
+      "lat": 45.677204,
+      "lng": 13.392118
+    },
+    {
+      "id": "d08bbd88-e3c6-425d-a4b1-12ad995daa43",
+      "slug": "hotel-bellavista-aquileia",
+      "nome": "Hotel Bellavista",
+      "city_name": "Aquileia",
+      "indirizzo": "Viale Italia, 48, 34073 Grado GO",
+      "lat": 45.679277,
+      "lng": 13.405407
+    },
+    {
+      "id": "41013603-5d59-4d8a-9265-99dc671e62d7",
+      "slug": "hotel-carol-grado-aquileia",
+      "nome": "Hotel Carol Grado",
+      "city_name": "Aquileia",
+      "indirizzo": "Riva Ugo. Foscolo, 13, 34073 Grado GO",
+      "lat": 45.678835,
+      "lng": 13.396286
+    },
+    {
+      "id": "bb339554-0eff-4b21-a4be-2c15d21bb9ec",
+      "slug": "hotel-eden-grado-aquileia",
+      "nome": "Hotel Eden Grado",
+      "city_name": "Aquileia",
+      "indirizzo": "Via Marco Polo, 2, 34073 Grado GO",
+      "lat": 45.679253,
+      "lng": 13.396952
+    },
+    {
+      "id": "4e516eb7-d9f6-481e-9bff-1d3c1c0e666b",
+      "slug": "hotel-eldorado-depandance-apartments-aquileia",
+      "nome": "Hotel Eldorado, Depandance & Apartments",
+      "city_name": "Aquileia",
+      "indirizzo": "Viale Argine Moreri, 81, 34073 Grado GO",
+      "lat": 45.680182,
+      "lng": 13.400672
+    },
+    {
+      "id": "d95c218c-9a6a-49b9-a36e-7ce4f1174a93",
+      "slug": "hotel-lido-aquileia",
+      "nome": "Hotel Lido",
+      "city_name": "Aquileia",
+      "indirizzo": "Via Francesco Morosini, 12, 34073 Grado GO",
+      "lat": 45.677157,
+      "lng": 13.387894
+    }
+  ]
+}

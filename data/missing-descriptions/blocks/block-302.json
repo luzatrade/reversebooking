@@ -1,0 +1,323 @@
+{
+  "block": 302,
+  "blockId": "302",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "0f210095-d554-475f-b972-84418bdd416c",
+      "slug": "b-b-casaverde-belluno-borgo-valbelluna",
+      "nome": "B&B CasaVerde Belluno",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Via Rive di Villa, 37, 32026 Borgo Valbelluna BL",
+      "lat": 46.033239,
+      "lng": 12.053535
+    },
+    {
+      "id": "d4dcfff3-f1bb-4fc8-8e74-0e7d02f06720",
+      "slug": "bed-and-breakfast-la-colombera-borgo-valbelluna",
+      "nome": "Bed and Breakfast la Colombera",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Via Frontin, 116/A, 32026 Borgo Valbelluna BL",
+      "lat": 46.067597,
+      "lng": 12.150784
+    },
+    {
+      "id": "57185bf1-2631-47e1-8bd3-b19de458439c",
+      "slug": "casa-rosetta-borgo-valbelluna",
+      "nome": "Casa Rosetta",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Via Rive di Villa, 62, 32026 Borgo Valbelluna BL",
+      "lat": 46.035898,
+      "lng": 12.060865
+    },
+    {
+      "id": "b49348bf-d0f1-4039-a1a7-c590de2836a8",
+      "slug": "hotel-ristorante-pizzeria-al-cavallino-rosso-borgo-valbelluna",
+      "nome": "Hotel Ristorante Pizzeria Al Cavallino Rosso",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Via Bardies, 65, 32026 Borgo Valbelluna BL",
+      "lat": 46.045332,
+      "lng": 12.028411
+    },
+    {
+      "id": "a562e716-f630-4221-aa20-5951a7e7ef53",
+      "slug": "il-fontego-b-b-borgo-valbelluna",
+      "nome": "Il Fontego - B&B",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Corso 31 Ottobre, 6d, 32026 Borgo Valbelluna BL",
+      "lat": 46.062642,
+      "lng": 12.081291
+    },
+    {
+      "id": "deb9310b-1f4c-404f-9ac7-04cf6c0cf382",
+      "slug": "la-polluce-bed-and-breakfast-borgo-valbelluna",
+      "nome": "La Polluce bed and breakfast",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Via, Località Confos, 79, 32026 Borgo Valbelluna BL",
+      "lat": 46.042267,
+      "lng": 12.173648
+    },
+    {
+      "id": "be41ccef-1050-4418-bce1-db60dfe32af7",
+      "slug": "panorama-dolomiti-borgo-valbelluna",
+      "nome": "Panorama Dolomiti",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Via Galliano, 9, 32026 Mel BL",
+      "lat": 46.063808,
+      "lng": 12.076551
+    },
+    {
+      "id": "b85704eb-9678-47f5-a25b-2d8eaea0dbe7",
+      "slug": "relais-poggio-pagnan-agriturismo-5-girasoli-borgo-valbelluna",
+      "nome": "Relais Poggio Pagnan Agriturismo 5 Girasoli",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Via Zottier, 35, 32026 Zottier BL",
+      "lat": 46.063466,
+      "lng": 12.114065
+    },
+    {
+      "id": "e266dd77-d6a6-4b81-9773-6f44ac7a8572",
+      "slug": "agritur-maso-valli-borgo-valsugana",
+      "nome": "Agritur Maso Valli",
+      "city_name": "Borgo Valsugana",
+      "indirizzo": "Via Per Telve, 3, 38051 Borgo Valsugana TN",
+      "lat": 46.05805,
+      "lng": 11.464894
+    },
+    {
+      "id": "6f6c91b7-bdf8-4922-9c28-b267d30c5a5e",
+      "slug": "agriturismo-fattoria-dalcastagne-borgo-valsugana",
+      "nome": "Agriturismo Fattoria Dalcastagnè",
+      "city_name": "Borgo Valsugana",
+      "indirizzo": "Loc Mosili, 16, 38050 Torcegno TN",
+      "lat": 46.071895,
+      "lng": 11.455154
+    },
+    {
+      "id": "2942ce36-ff94-45d6-8719-53a4fc88fece",
+      "slug": "al-cacciatore-albergo-ristorante-bar-borgo-valsugana",
+      "nome": "Al Cacciatore - Albergo - Ristorante - Bar",
+      "city_name": "Borgo Valsugana",
+      "indirizzo": "Località Prati di Monte, 38056 Levico Terme TN",
+      "lat": 46.031743,
+      "lng": 11.341699
+    },
+    {
+      "id": "abf5f10a-61f0-4612-939e-ae2a64f021b8",
+      "slug": "b-b-al-gatto-nero-borgo-valsugana",
+      "nome": "B&B AL GATTO NERO",
+      "city_name": "Borgo Valsugana",
+      "indirizzo": "Via Mazzini, 6, 38051 Borgo Valsugana TN",
+      "lat": 46.053101,
+      "lng": 11.457497
+    },
+    {
+      "id": "50cfcedf-4ed7-4b83-ae25-6a5e3cd0cfb2",
+      "slug": "b-b-casa-d-arte-borgo-valsugana",
+      "nome": "B&B Casa d'Arte",
+      "city_name": "Borgo Valsugana",
+      "indirizzo": "Vicolo delle Caodigne, 14/app.2, 38056 Levico Terme TN",
+      "lat": 46.010975,
+      "lng": 11.30409
+    },
+    {
+      "id": "d0337e5b-87c8-4e2a-ba64-72bc2b0b4d10",
+      "slug": "b-b-piagaro-borgo-valsugana-borgo-valsugana",
+      "nome": "B&B Piagaro Borgo Valsugana",
+      "city_name": "Borgo Valsugana",
+      "indirizzo": "Località Piagaro, 1, 38051 Borgo Valsugana TN",
+      "lat": 46.039642,
+      "lng": 11.444134
+    },
+    {
+      "id": "f55ad148-3e0f-4c43-8504-ea49a1920c88",
+      "slug": "bellavista-relax-hotel-borgo-valsugana",
+      "nome": "BellaVista Relax Hotel",
+      "city_name": "Borgo Valsugana",
+      "indirizzo": "Via Vittorio Emanuele III, 7, 38056 Levico Terme TN",
+      "lat": 46.014947,
+      "lng": 11.295925
+    },
+    {
+      "id": "b9e7e98d-f560-4a78-8836-927407a0b15a",
+      "slug": "hotel-eden-levico-terme-borgo-valsugana",
+      "nome": "Hotel Eden Levico Terme",
+      "city_name": "Borgo Valsugana",
+      "indirizzo": "Via Vittorio Emanuele, 14, 38056 Levico Terme TN",
+      "lat": 46.014649,
+      "lng": 11.296479
+    },
+    {
+      "id": "40a0aabf-997c-4b95-9ce7-18eed0e24e2f",
+      "slug": "la-tana-del-lupo-borgo-valsugana",
+      "nome": "La Tana del Lupo",
+      "city_name": "Borgo Valsugana",
+      "indirizzo": "V. Fonde, n. 30, 38051 Borgo Valsugana TN",
+      "lat": 46.036121,
+      "lng": 11.461719
+    },
+    {
+      "id": "b4a1e4b7-91ee-4eb4-8271-a90c3ec02b4d",
+      "slug": "la-villa-degli-orti-borgo-valsugana",
+      "nome": "La Villa degli Orti",
+      "city_name": "Borgo Valsugana",
+      "indirizzo": "Via per Torcegno, 05, 38051 Borgo Valsugana TN",
+      "lat": 46.054272,
+      "lng": 11.45732
+    },
+    {
+      "id": "80c824dc-a523-4def-a986-dac8a07f13fc",
+      "slug": "locanda-in-borgo-garni-wellness-borgo-valsugana",
+      "nome": "Locanda in Borgo Garni&Wellness",
+      "city_name": "Borgo Valsugana",
+      "indirizzo": "Corso Ausugum, 90, 38051 Borgo Valsugana TN",
+      "lat": 46.054485,
+      "lng": 11.459582
+    },
+    {
+      "id": "18299cf9-451f-432a-889a-57d2a6ab4586",
+      "slug": "ostello-sportivo-di-borgo-valsugana-borgo-valsugana",
+      "nome": "Ostello Sportivo di Borgo Valsugana",
+      "city_name": "Borgo Valsugana",
+      "indirizzo": "Via Piccola, 31, 38051 Borgo Valsugana TN",
+      "lat": 46.049436,
+      "lng": 11.4686
+    },
+    {
+      "id": "7cd21ff3-f292-43d8-bed5-39493b7ba27b",
+      "slug": "san-giorgio-affittacamere-rent-a-room-borgo-valsugana",
+      "nome": "San Giorgio Affittacamere Rent a Room",
+      "city_name": "Borgo Valsugana",
+      "indirizzo": "Via Fratelli, 6, 38051 Borgo Valsugana TN",
+      "lat": 46.053168,
+      "lng": 11.457777
+    },
+    {
+      "id": "5ebf1da1-1d2a-4438-be9a-4240ab51b795",
+      "slug": "albergo-ristorante-parco-alle-noci-tra-la-cascat-borgo-velino",
+      "nome": "Albergo-Ristorante\"Parco alle Noci\"tra la Cascata delle Marmore,Labro e valle Santa di S Francesco",
+      "city_name": "Borgo Velino",
+      "indirizzo": "Via S. Susanna, 21, 02010 Piedicolle RI",
+      "lat": 42.501053,
+      "lng": 12.853066
+    },
+    {
+      "id": "244bf279-3776-40c1-9853-157c25ebf086",
+      "slug": "hotel-arcangelo-borgo-velino",
+      "nome": "Hotel Arcangelo",
+      "city_name": "Borgo Velino",
+      "indirizzo": "Via Vaiano Nuova, 52, 02100 Rieti RI",
+      "lat": 42.429551,
+      "lng": 12.921323
+    },
+    {
+      "id": "944a1e96-1f97-4563-b3b4-e31c3bd41265",
+      "slug": "hotel-ristorante-i-tre-orsacchiotti-borgo-velino",
+      "nome": "Hotel Ristorante \"I Tre Orsacchiotti\"",
+      "city_name": "Borgo Velino",
+      "indirizzo": "Via Nazionale, 15, 02010 Castel Sant'Angelo RI",
+      "lat": 42.376845,
+      "lng": 13.003096
+    },
+    {
+      "id": "41f83748-e4e4-45d9-8eef-20e272879490",
+      "slug": "hotel-ristorante-da-valerio-borgo-velino",
+      "nome": "Hotel Ristorante Da Valerio",
+      "city_name": "Borgo Velino",
+      "indirizzo": "Via Salaria per Roma, 4, 02015 Santa Rufina RI",
+      "lat": 42.406486,
+      "lng": 12.923933
+    },
+    {
+      "id": "5c56cfd7-aa08-4af3-98e2-2cc440d27cf2",
+      "slug": "hotel-togo-palace-borgo-velino",
+      "nome": "Hotel Togo Palace",
+      "city_name": "Borgo Velino",
+      "indirizzo": "P.le Zamboni, 10, 02100 Rieti RI",
+      "lat": 42.458523,
+      "lng": 12.976549
+    },
+    {
+      "id": "3e4f2914-588e-4abd-9404-0a4737ee1285",
+      "slug": "agriturismo-azienda-agricola-marin-borgo-veneto",
+      "nome": "Agriturismo Azienda Agricola Marin",
+      "city_name": "Borgo Veneto",
+      "indirizzo": "Via Chiesa Prà, 64, 35042 Este PD",
+      "lat": 45.207815,
+      "lng": 11.650302
+    },
+    {
+      "id": "ccdb60de-f922-440c-a126-25ba640258ba",
+      "slug": "b-b-borgo-arcadia-borgo-veneto",
+      "nome": "B&B Borgo Arcadia",
+      "city_name": "Borgo Veneto",
+      "indirizzo": "Via Sabbioni, 21A, 36026 Pojana Maggiore VI",
+      "lat": 45.315405,
+      "lng": 11.508353
+    },
+    {
+      "id": "a58ad1e9-1ad2-4a2a-93e1-8244de82f90d",
+      "slug": "locanda-ca-vejo-srl-borgo-veneto",
+      "nome": "Locanda Ca' Vejo srl",
+      "city_name": "Borgo Veneto",
+      "indirizzo": "V. Nello Gioachin, 34-36, 35040 Megliadino San Vitale PD",
+      "lat": 45.162892,
+      "lng": 11.529243
+    },
+    {
+      "id": "e648c750-3b5e-48dd-a6af-ab2d0a9175cb",
+      "slug": "macri-borgo-veneto",
+      "nome": "Macri",
+      "city_name": "Borgo Veneto",
+      "indirizzo": "Via Giacomo Matteotti, 88, 35044 Montagnana PD",
+      "lat": 45.234081,
+      "lng": 11.46392
+    },
+    {
+      "id": "259d6825-fdfe-4aa3-85b6-a6fa9535b292",
+      "slug": "ristorante-albergo-al-capitello-borgo-veneto",
+      "nome": "Ristorante Albergo Al Capitello",
+      "city_name": "Borgo Veneto",
+      "indirizzo": "Via Capitello, 12, 35040 Megliadino San Vitale PD",
+      "lat": 45.200647,
+      "lng": 11.523568
+    },
+    {
+      "id": "4466c660-bcaf-4a13-b543-0c83f5f322a7",
+      "slug": "villa-mari-borgo-veneto",
+      "nome": "Villa Mari",
+      "city_name": "Borgo Veneto",
+      "indirizzo": "Via S Zeno, 25, 35044 Montagnana PD",
+      "lat": 45.228825,
+      "lng": 11.476292
+    },
+    {
+      "id": "eed6ac46-b022-44f4-9f0f-cf08d48bb9fb",
+      "slug": "agriturismo-cascina-margherita-borgo-vercelli",
+      "nome": "Agriturismo Cascina Margherita",
+      "city_name": "Borgo Vercelli",
+      "indirizzo": "Cascina Margherita, 3, 28060 Ponzana NO",
+      "lat": 45.411713,
+      "lng": 8.520932
+    },
+    {
+      "id": "63421500-ea3e-4035-bcc8-d7cb19c10d53",
+      "slug": "borgo-ramezzana-country-house-borgo-vercelli",
+      "nome": "Borgo Ramezzana Country House",
+      "city_name": "Borgo Vercelli",
+      "indirizzo": "SP7, 3, 13039 Trino VC",
+      "lat": 45.206553,
+      "lng": 8.249786
+    },
+    {
+      "id": "2c750c64-5431-403d-906d-d26305fd6dea",
+      "slug": "a-casa-dei-gonzaga-borgo-virgilio",
+      "nome": "A Casa dei Gonzaga",
+      "city_name": "Borgo Virgilio",
+      "indirizzo": "Via Saverio Bettinelli, 29, 46100 Mantova MN",
+      "lat": 45.158139,
+      "lng": 10.78304
+    }
+  ]
+}

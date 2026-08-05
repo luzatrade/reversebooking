@@ -1,0 +1,323 @@
+{
+  "block": 318,
+  "blockId": "318",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "45baa4cf-bea7-4d3b-b906-be43ca9e9445",
+      "slug": "villa-spaia-brancaleone",
+      "nome": "Villa Spaia",
+      "city_name": "Brancaleone",
+      "indirizzo": "Via Zelante, 89036 Brancaleone RC",
+      "lat": 37.961382,
+      "lng": 16.097904
+    },
+    {
+      "id": "7da99698-8723-4a6e-8396-e1e1c5ec6ffe",
+      "slug": "villaggio-club-altalia-brancaleone",
+      "nome": "Villaggio Club Altalia",
+      "city_name": "Brancaleone",
+      "indirizzo": "Contrada Altalia, 10-12, 89036 Brancaleone RC",
+      "lat": 37.958236,
+      "lng": 16.096408
+    },
+    {
+      "id": "e59e0bb3-848b-4ff6-a172-ad405850a8b5",
+      "slug": "il-giardino-brandico",
+      "nome": "Il Giardino",
+      "city_name": "Brandico",
+      "indirizzo": "Via Giosuè Carducci, 3, 25030 Trenzano BS",
+      "lat": 45.475345,
+      "lng": 9.990432
+    },
+    {
+      "id": "c5e67a81-5e93-4a71-83bd-55df11bfc670",
+      "slug": "b-b-hotel-settimo-torinese-brandizzo",
+      "nome": "B&B HOTEL Settimo Torinese",
+      "city_name": "Brandizzo",
+      "indirizzo": "Via Leinì, 101, 10036 Settimo Torinese TO",
+      "lat": 45.143333,
+      "lng": 7.748611
+    },
+    {
+      "id": "bd41d16e-deee-4c56-8cc1-30d0c082ee7a",
+      "slug": "green-hotel-brandizzo",
+      "nome": "Green Hotel",
+      "city_name": "Brandizzo",
+      "indirizzo": "Via Milano, 177, 10036 Settimo Torinese TO",
+      "lat": 45.154003,
+      "lng": 7.796599
+    },
+    {
+      "id": "db1f2afc-be82-4639-bc09-4060e5771389",
+      "slug": "hotel-fortyfive-brandizzo",
+      "nome": "Hotel Fortyfive",
+      "city_name": "Brandizzo",
+      "indirizzo": "Stradale Torino, 40, 10034 Chivasso TO",
+      "lat": 45.189814,
+      "lng": 7.879682
+    },
+    {
+      "id": "52cc1d8d-1616-408f-a321-b86a611ddede",
+      "slug": "hotel-serenella-brandizzo",
+      "nome": "Hotel Serenella",
+      "city_name": "Brandizzo",
+      "indirizzo": "Via Conte Luigi Tarino, 4, 10124 Torino TO",
+      "lat": 45.070368,
+      "lng": 7.694883
+    },
+    {
+      "id": "82b7f3bb-1e65-42d4-a089-1e0a664fb7b9",
+      "slug": "hotel-vecchio-pavone-brandizzo",
+      "nome": "Hotel Vecchio Pavone",
+      "city_name": "Brandizzo",
+      "indirizzo": "Via Giacomo Leopardi, 1, 10079 Mappano TO",
+      "lat": 45.149204,
+      "lng": 7.697731
+    },
+    {
+      "id": "d469b863-afe6-4fb4-a641-7ecbe505a64c",
+      "slug": "hotel-verdina-2-0-srl-brandizzo",
+      "nome": "Hotel Verdina 2.0 SRL",
+      "city_name": "Brandizzo",
+      "indirizzo": "Via Pisa, 69, 10088 Volpiano TO",
+      "lat": 45.186192,
+      "lng": 7.791798
+    },
+    {
+      "id": "dbcae789-2119-4922-b37b-05085cb947f2",
+      "slug": "l-ulivo-selvatico-brandizzo",
+      "nome": "L'ulivo Selvatico",
+      "city_name": "Brandizzo",
+      "indirizzo": "Via Piave, 2, 10032 Brandizzo TO",
+      "lat": 45.177995,
+      "lng": 7.845586
+    },
+    {
+      "id": "175dd58f-c884-41bf-bb56-61a3cf921f27",
+      "slug": "maison-di-gugli-brandizzo",
+      "nome": "Maison di Gugli",
+      "city_name": "Brandizzo",
+      "indirizzo": "Via Torino, 82, 10032 Brandizzo TO",
+      "lat": 45.178503,
+      "lng": 7.845699
+    },
+    {
+      "id": "6341bb68-a2e1-4806-accd-030ec6bc8513",
+      "slug": "residence-viali-chivasso-brandizzo",
+      "nome": "Residence Viali Chivasso",
+      "city_name": "Brandizzo",
+      "indirizzo": "Viale V. Veneto, 8, 10034 Chivasso TO",
+      "lat": 45.188187,
+      "lng": 7.890821
+    },
+    {
+      "id": "93cc1e17-95a5-4a2e-a938-58a7aeb4efa7",
+      "slug": "via-casne-2-affitti-brevi-brandizzo",
+      "nome": "Via Casne 2 - Affitti brevi",
+      "city_name": "Brandizzo",
+      "indirizzo": "Via Casne, 2, 10088 Volpiano TO",
+      "lat": 45.18794,
+      "lng": 7.775111
+    },
+    {
+      "id": "496ed812-8f84-4cd1-b6ef-67a5744c3447",
+      "slug": "albergo-carona-branzi",
+      "nome": "Albergo Carona",
+      "city_name": "Branzi",
+      "indirizzo": "Via Angelo Bianchi, 22, 24010 Carona BG",
+      "lat": 46.021263,
+      "lng": 9.784066
+    },
+    {
+      "id": "fcc07154-a12f-45d9-ba79-e40b8e51b8b9",
+      "slug": "albergo-panoramico-valle-brembana-branzi",
+      "nome": "Albergo Panoramico valle brembana",
+      "city_name": "Branzi",
+      "indirizzo": "Via Foppo, 49, 24010 Moio De' Calvi BG",
+      "lat": 45.948947,
+      "lng": 9.69774
+    },
+    {
+      "id": "44624c6c-c23d-4e5a-858b-5e671da44cb2",
+      "slug": "hotel-des-alpes-branzi",
+      "nome": "Hotel Des Alpes",
+      "city_name": "Branzi",
+      "indirizzo": "Via Cortivo, 9, 24010 Foppolo BG",
+      "lat": 46.045919,
+      "lng": 9.75745
+    },
+    {
+      "id": "83be6b00-af08-4243-9584-a15928cf5df7",
+      "slug": "k2-hotel-restaurant-branzi",
+      "nome": "K2 Hotel & Restaurant",
+      "city_name": "Branzi",
+      "indirizzo": "Via Foppelle, 42, 24010 Foppolo BG",
+      "lat": 46.041206,
+      "lng": 9.759834
+    },
+    {
+      "id": "321b84e6-27bf-4c8d-afc1-ef1b2892a7bb",
+      "slug": "la-locandiera-carona-branzi",
+      "nome": "La Locandiera Carona",
+      "city_name": "Branzi",
+      "indirizzo": "Piazza Vittorio Veneto, 3, 24010 Carona BG",
+      "lat": 46.020206,
+      "lng": 9.78214
+    },
+    {
+      "id": "17aaee5c-aec6-4f91-8232-964bd289023f",
+      "slug": "locanda-ristorante-pizzeria-i-riviu-branzi",
+      "nome": "Locanda Ristorante Pizzeria I Riviù",
+      "city_name": "Branzi",
+      "indirizzo": "Via Rivioni, 14, 24010 Branzi BG",
+      "lat": 45.998096,
+      "lng": 9.755537
+    },
+    {
+      "id": "7c6c1b1a-0797-4c16-830b-900eb5febcd1",
+      "slug": "orobie-alps-resort-branzi",
+      "nome": "Orobie Alps Resort",
+      "city_name": "Branzi",
+      "indirizzo": "Via Monica, 70, 24010 Roncobello BG",
+      "lat": 45.955496,
+      "lng": 9.755191
+    },
+    {
+      "id": "26648e1e-101e-4fab-824d-09db8cccc470",
+      "slug": "villa-carona-hotel-spa-branzi",
+      "nome": "Villa Carona Hotel & Spa",
+      "city_name": "Branzi",
+      "indirizzo": "Via Pagliari, 24010 Carona BG",
+      "lat": 46.022457,
+      "lng": 9.791928
+    },
+    {
+      "id": "5c23395c-e697-4dd5-b267-da4e95d0ed6b",
+      "slug": "agriturismo-san-faustino-braone",
+      "nome": "Agriturismo San Faustino",
+      "city_name": "Braone",
+      "indirizzo": "Via San Faustino, 1, 25040 Ceto BS",
+      "lat": 46.006279,
+      "lng": 10.352632
+    },
+    {
+      "id": "89d8e74b-96a2-408c-bdb6-29e6b7e8a871",
+      "slug": "b-b-santa-cristina-braone",
+      "nome": "B&B Santa Cristina",
+      "city_name": "Braone",
+      "indirizzo": "Via S. Gregorio, 3/A, 25040 Sommaprada di Lozio BS",
+      "lat": 45.992689,
+      "lng": 10.26258
+    },
+    {
+      "id": "a82dabcd-e67a-4719-824b-1e019583dca4",
+      "slug": "b-b-valentina-braone",
+      "nome": "B&B Valentina",
+      "city_name": "Braone",
+      "indirizzo": "Via Falger, 13, 25050 Niardo BS",
+      "lat": 45.974187,
+      "lng": 10.332956
+    },
+    {
+      "id": "6eccbb95-b834-4538-b6b1-c139c879e603",
+      "slug": "bed-and-breaskfast-ble-braone",
+      "nome": "Bed and breaskfast Blè",
+      "city_name": "Braone",
+      "indirizzo": "V. Dassaro, 5, 25040 Cerveno BS",
+      "lat": 46.002788,
+      "lng": 10.325847
+    },
+    {
+      "id": "8d00a828-f260-443c-9f0f-254be8f60ef5",
+      "slug": "casa-visnenza-b-b-braone",
+      "nome": "Casa Visnenza B&B",
+      "city_name": "Braone",
+      "indirizzo": "Via S. Faustino, 7, 25044 Capo di Ponte BS",
+      "lat": 46.027759,
+      "lng": 10.334233
+    },
+    {
+      "id": "6a7679d6-3b7f-4c3f-ae68-e4f57ace0698",
+      "slug": "catif-ladru-braone",
+      "nome": "Catif Ladrù",
+      "city_name": "Braone",
+      "indirizzo": "Via Bassa, 3, 25040 Cerveno BS",
+      "lat": 46.0033,
+      "lng": 10.32614
+    },
+    {
+      "id": "9ac9ed57-2550-41c4-a624-342f2feb9f15",
+      "slug": "i-sei-petali-agriturismo-azienda-agricola-braone",
+      "nome": "I sei petali | Agriturismo Azienda agricola",
+      "city_name": "Braone",
+      "indirizzo": "Via Strada Di Mezzo, 3, 25044 Capo di Ponte BS",
+      "lat": 46.0173,
+      "lng": 10.339131
+    },
+    {
+      "id": "807acb0a-9947-47a4-b1f2-45ff7efe3dd6",
+      "slug": "ostello-di-vallecamonica-braone",
+      "nome": "Ostello di Vallecamonica",
+      "city_name": "Braone",
+      "indirizzo": "Via Monsignor Vittorio Bonomelli, 11, 25043 Breno BS",
+      "lat": 45.954423,
+      "lng": 10.301485
+    },
+    {
+      "id": "7968d36a-145c-4067-ab0c-94a9ae02f7c6",
+      "slug": "appartamento-a-brebbia-brebbia",
+      "nome": "Appartamento a BREBBIA",
+      "city_name": "Brebbia",
+      "indirizzo": "Via IV Novembre, 11, 21020 Brebbia VA",
+      "lat": 45.838809,
+      "lng": 8.65942
+    },
+    {
+      "id": "51ef8af0-a3d9-4a2b-bc85-b5386f52cd01",
+      "slug": "colori-del-lago-brebbia",
+      "nome": "Colori del Lago",
+      "city_name": "Brebbia",
+      "indirizzo": "Via Trento, 9, 21020 Brebbia VA",
+      "lat": 45.826639,
+      "lng": 8.648671
+    },
+    {
+      "id": "c9946825-5514-4cd0-afc3-8820928a3eb3",
+      "slug": "dkamping-village-brebbia",
+      "nome": "DKamping Village",
+      "city_name": "Brebbia",
+      "indirizzo": "via Carducci, 943, 21027 Ispra VA",
+      "lat": 45.827208,
+      "lng": 8.627105
+    },
+    {
+      "id": "766f417f-8dcf-4aa0-ba9b-2a7c2c4c64b5",
+      "slug": "nel-giardino-di-dafne-brebbia",
+      "nome": "Nel giardino di Dafne",
+      "city_name": "Brebbia",
+      "indirizzo": "Via Santa Caterina, 35, 28838 Stresa VB",
+      "lat": 45.868702,
+      "lng": 8.558317
+    },
+    {
+      "id": "debd4c46-f41c-4139-9812-c3712a5e0eb5",
+      "slug": "residence-sport-benessere-brebbia",
+      "nome": "Residence Sport & Benessere",
+      "city_name": "Brebbia",
+      "indirizzo": "Via G. Garibaldi, 21, 21020 Brebbia VA",
+      "lat": 45.826843,
+      "lng": 8.650313
+    },
+    {
+      "id": "5ee2537d-c4f9-4857-ae01-3c0f1f4be03b",
+      "slug": "agriturismo-ca-del-gelso-breda-di-piave",
+      "nome": "Agriturismo Ca' Del Gelso",
+      "city_name": "Breda di Piave",
+      "indirizzo": "Via Levada, 1, 31030 Breda di Piave TV",
+      "lat": 45.722475,
+      "lng": 12.3413
+    }
+  ]
+}

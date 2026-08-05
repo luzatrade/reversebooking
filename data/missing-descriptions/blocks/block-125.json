@@ -1,0 +1,323 @@
+{
+  "block": 125,
+  "blockId": "125",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "0b1f61b2-9f64-4077-95b3-7a40dc9a404a",
+      "slug": "b-b-genti-delle-alture-apice",
+      "nome": "B&B Genti Delle Alture",
+      "city_name": "Apice",
+      "indirizzo": "Piazza Carbonari, snc, 82021 Apice Vecchio BN",
+      "lat": 41.120137,
+      "lng": 14.93138
+    },
+    {
+      "id": "e13aa927-60c4-4c20-a9fa-ffeb11be3f9b",
+      "slug": "b-b-relais-aeclanum-apice",
+      "nome": "B&B Relais Aeclanum",
+      "city_name": "Apice",
+      "indirizzo": "Via Bosco, 53, 83036 Mirabella Eclano AV",
+      "lat": 41.059271,
+      "lng": 15.021264
+    },
+    {
+      "id": "91442798-875d-4088-9a63-79baae412031",
+      "slug": "bombrelais-apice",
+      "nome": "Bombrelais",
+      "city_name": "Apice",
+      "indirizzo": "Via Federico II, 82021 Apice BN",
+      "lat": 41.104457,
+      "lng": 14.929094
+    },
+    {
+      "id": "65380a26-6929-4858-aaba-6e702c1dc5a8",
+      "slug": "country-relais-la-torretta-baronale-apice",
+      "nome": "Country Relais La Torretta Baronale",
+      "city_name": "Apice",
+      "indirizzo": "a Morcopio, Via San Vito, 37, 82018 San Giovanni BN",
+      "lat": 41.12097,
+      "lng": 14.885258
+    },
+    {
+      "id": "14982e10-56bc-4576-8052-250169347825",
+      "slug": "giardini-hurz-apice",
+      "nome": "Giardini Hurz®",
+      "city_name": "Apice",
+      "indirizzo": "Via Piana Romana, 46, 82020 Pietrelcina BN",
+      "lat": 41.20536,
+      "lng": 14.870067
+    },
+    {
+      "id": "2c2dfc82-c1f9-4d60-8890-37650087eebb",
+      "slug": "hotel-incontro-apice",
+      "nome": "Hotel Incontro",
+      "city_name": "Apice",
+      "indirizzo": "Via Nazionale Manna, 83031 Ariano Irpino AV",
+      "lat": 41.117185,
+      "lng": 15.081729
+    },
+    {
+      "id": "09ab236f-c013-4784-b012-40af8c5edcc3",
+      "slug": "hotel-l-ulivo-apice",
+      "nome": "Hotel l'Ulivo",
+      "city_name": "Apice",
+      "indirizzo": "Via Santa Caterina, 85, 83036 Mirabella Eclano AV",
+      "lat": 41.038302,
+      "lng": 15.015948
+    },
+    {
+      "id": "7b3d7122-1627-4dfa-9b09-c7de417b4806",
+      "slug": "hotel-lemi-apice",
+      "nome": "Hotel Lemi",
+      "city_name": "Apice",
+      "indirizzo": "Contrada Collepiano, 82030 Benevento BN",
+      "lat": 41.205847,
+      "lng": 14.697306
+    },
+    {
+      "id": "bb37b681-8d2a-4a28-82ea-17b8d7053336",
+      "slug": "hotel-ristorante-aeclanum-apice",
+      "nome": "Hotel Ristorante Aeclanum",
+      "city_name": "Apice",
+      "indirizzo": "Via Nazionale, 32, 83036 Mirabella Eclano AV",
+      "lat": 41.054708,
+      "lng": 15.016668
+    },
+    {
+      "id": "e8458c92-8b2d-441a-8852-920a84aa6524",
+      "slug": "hotel-ristorante-europa-apice",
+      "nome": "Hotel Ristorante Europa",
+      "city_name": "Apice",
+      "indirizzo": "Via Campoceraso, 83030 Venticano AV",
+      "lat": 41.046494,
+      "lng": 14.928406
+    },
+    {
+      "id": "35ae9fd2-6935-464a-912d-c9788adfd8ba",
+      "slug": "il-fortilizio-di-padre-pio-s-a-s-di-mazza-i-c-apice",
+      "nome": "Il Fortilizio Di Padre Pio S.A.S. Di Mazza I. & C.",
+      "city_name": "Apice",
+      "indirizzo": "Via Fontana dei Fieri, 113, 82020 Pietrelcina BN",
+      "lat": 41.191343,
+      "lng": 14.83698
+    },
+    {
+      "id": "2a6e1519-ee0d-4eec-8421-fbf5f560917e",
+      "slug": "soggiorno-il-sentiero-degli-ulivi-apice",
+      "nome": "Soggiorno - Il Sentiero degli Ulivi",
+      "city_name": "Apice",
+      "indirizzo": "Via Campoceraso, 44, 83030 Venticano AV",
+      "lat": 41.045346,
+      "lng": 14.937346
+    },
+    {
+      "id": "5b25b540-f49b-4ca1-82a6-00e4838324af",
+      "slug": "agriturismo-l-orizzonte-apiro",
+      "nome": "Agriturismo L'Orizzonte",
+      "city_name": "Apiro",
+      "indirizzo": "Contrada Montalvello, 38, 62021 Apiro MC",
+      "lat": 43.404899,
+      "lng": 13.140416
+    },
+    {
+      "id": "ec660df9-0146-417b-969e-87b298acc609",
+      "slug": "agriturismo-la-casa-del-sole-apiro",
+      "nome": "Agriturismo La Casa del Sole",
+      "city_name": "Apiro",
+      "indirizzo": "Via S. Salvatore, 22, 62021 Apiro MC",
+      "lat": 43.388011,
+      "lng": 13.133741
+    },
+    {
+      "id": "0d4c2b8c-38b7-404c-b5eb-2debe23dd1ee",
+      "slug": "agriturismo-ristorante-colleverde-apiro",
+      "nome": "Agriturismo Ristorante Colleverde",
+      "city_name": "Apiro",
+      "indirizzo": "Contrada Cozzi, 1, 62021 Apiro MC",
+      "lat": 43.37955,
+      "lng": 13.13653
+    },
+    {
+      "id": "c4e59083-408f-44cc-b691-b7dfbef2d7b3",
+      "slug": "agriturismo-santa-maria-del-gallo-apiro",
+      "nome": "Agriturismo Santa Maria del Gallo",
+      "city_name": "Apiro",
+      "indirizzo": "Contrada Santa Maria, 7, 62021 Apiro MC",
+      "lat": 43.353431,
+      "lng": 13.118196
+    },
+    {
+      "id": "cc7b7c47-9f2f-4167-8f0f-b895944f06ab",
+      "slug": "horti-del-baio-apiro",
+      "nome": "Horti del Baio",
+      "city_name": "Apiro",
+      "indirizzo": "Castreccioni 13/a a 2 km dal chiosco Da Rosanna e li Monelli, 62011 Cingoli MC",
+      "lat": 43.364123,
+      "lng": 13.138662
+    },
+    {
+      "id": "e11adf27-e2eb-4bfa-9e2a-26bfa97b42b4",
+      "slug": "hotel-eldorado-apiro",
+      "nome": "Hotel Eldorado",
+      "city_name": "Apiro",
+      "indirizzo": "Piazza Cesare Battisti, 12, 62021 Apiro MC",
+      "lat": 43.391364,
+      "lng": 13.132487
+    },
+    {
+      "id": "890e608a-838e-457c-b444-33b359ba99df",
+      "slug": "juliette-rooms-jesi-affittacamere-apiro",
+      "nome": "Juliette Rooms Jesi affittacamere",
+      "city_name": "Apiro",
+      "indirizzo": "Mura Occidentali, 10 bis, 60035 Jesi AN",
+      "lat": 43.521296,
+      "lng": 13.240609
+    },
+    {
+      "id": "94c4d5a6-7c1d-4c43-9781-10c363969991",
+      "slug": "b-b-benevento-apollosa",
+      "nome": "B&B Benevento",
+      "city_name": "Apollosa",
+      "indirizzo": "Via Ferdinando Bozza, 22, 82100 Benevento BN",
+      "lat": 41.115864,
+      "lng": 14.795533
+    },
+    {
+      "id": "99149d8e-7ef7-4ff2-8a87-c74a18d3e7ba",
+      "slug": "b-b-la-ferrovia-apollosa",
+      "nome": "B&B La Ferrovia",
+      "city_name": "Apollosa",
+      "indirizzo": "Viale Principe di Napoli, 179, 82100 Benevento BN",
+      "lat": 41.140615,
+      "lng": 14.770542
+    },
+    {
+      "id": "86e209d4-beaa-424d-8f8c-adef6ff25986",
+      "slug": "b-b-le-vecchie-cantine-apollosa",
+      "nome": "B&B Le Vecchie Cantine",
+      "city_name": "Apollosa",
+      "indirizzo": "Via Aurilli, 82030 Campoli del Monte Taburno BN",
+      "lat": 41.132251,
+      "lng": 14.649106
+    },
+    {
+      "id": "650f1047-dd85-4387-9790-dfc4942e608e",
+      "slug": "b-b-smeraldo-apollosa",
+      "nome": "B&B SMERALDO",
+      "city_name": "Apollosa",
+      "indirizzo": "Contrada Montecalvo, 82100 Benevento BN",
+      "lat": 41.107654,
+      "lng": 14.772824
+    },
+    {
+      "id": "3cbdf980-1eeb-4d9b-85bb-ee78398c7fee",
+      "slug": "b-b-tre-passi-dalla-torre-apollosa",
+      "nome": "B&B Tre Passi dalla Torre",
+      "city_name": "Apollosa",
+      "indirizzo": "SS7, 60, 82016 Montesarchio BN",
+      "lat": 41.054693,
+      "lng": 14.686505
+    },
+    {
+      "id": "740b805c-bb30-4e39-9ca1-b50632c0339c",
+      "slug": "casa-zelia-apollosa",
+      "nome": "Casa Zelia",
+      "city_name": "Apollosa",
+      "indirizzo": "Via Giovanni della Casa, 20, 82100 Benevento BN",
+      "lat": 41.13656,
+      "lng": 14.771167
+    },
+    {
+      "id": "0300dd89-e002-49d8-bbf0-8bbaf8a0a19a",
+      "slug": "dimora-del-duomo-apollosa",
+      "nome": "Dimora del Duomo",
+      "city_name": "Apollosa",
+      "indirizzo": "Via Carlo Torre, 2, 82100 Benevento BN",
+      "lat": 41.13198,
+      "lng": 14.77413
+    },
+    {
+      "id": "87abdd45-5b13-424e-8fc8-4fcedae2508b",
+      "slug": "gaya-resort-apollosa",
+      "nome": "Gaya resort",
+      "city_name": "Apollosa",
+      "indirizzo": "Via Ennio Goduti, 10, 82100 Benevento BN",
+      "lat": 41.132084,
+      "lng": 14.775298
+    },
+    {
+      "id": "e1d4e487-f85e-4e81-b35e-1b7eccd6b16e",
+      "slug": "hotel-costarama-di-caporaso-luigi-apollosa",
+      "nome": "Hotel Costarama Di Caporaso Luigi",
+      "city_name": "Apollosa",
+      "indirizzo": "Loc. Costa Rama, 82030 Cautano BN",
+      "lat": 41.132633,
+      "lng": 14.640181
+    },
+    {
+      "id": "92dae736-9b9e-49ac-a4e1-054454017738",
+      "slug": "hotel-ristorante-il-castello-apollosa",
+      "nome": "Hotel Ristorante Il Castello",
+      "city_name": "Apollosa",
+      "indirizzo": "Via Vitulanese, 188, 82016 Montesarchio BN",
+      "lat": 41.066802,
+      "lng": 14.646628
+    },
+    {
+      "id": "231f95f2-bfbb-43e9-9a97-5b0323a2a2a7",
+      "slug": "janara-santa-sofia-apollosa",
+      "nome": "Janara - Santa Sofia",
+      "city_name": "Apollosa",
+      "indirizzo": "Via Annunziata, 48, 82100 Benevento BN",
+      "lat": 41.129152,
+      "lng": 14.781574
+    },
+    {
+      "id": "9e4b6a13-1a41-4a3b-803d-773e07cfb15c",
+      "slug": "parva-vinea-apollosa",
+      "nome": "Parva Vinea",
+      "city_name": "Apollosa",
+      "indirizzo": "Via Filippo Serino, 26, 82100 Benevento BN",
+      "lat": 41.116787,
+      "lng": 14.789898
+    },
+    {
+      "id": "6cd9c45c-a481-4b9c-973c-f768a419b3ad",
+      "slug": "relais-il-feudo-apollosa",
+      "nome": "Relais Il Feudo",
+      "city_name": "Apollosa",
+      "indirizzo": "Via Trocchia, 82010 Trocchia BN",
+      "lat": 41.070923,
+      "lng": 14.740833
+    },
+    {
+      "id": "95780bef-c4c0-4b43-a0f7-d891874d7eec",
+      "slug": "traiano-rooms-apollosa",
+      "nome": "Traiano Rooms",
+      "city_name": "Apollosa",
+      "indirizzo": "Via Cupa Santa Lucia, 66, 82100 Benevento BN",
+      "lat": 41.132751,
+      "lng": 14.781791
+    },
+    {
+      "id": "c23bf7d0-7316-4452-84cf-6c2d954bad99",
+      "slug": "albergo-la-collina-appiano-gentile",
+      "nome": "Albergo La Collina",
+      "city_name": "Appiano Gentile",
+      "indirizzo": "Via S. Elia, 5, 22070 Casnate con Bernate CO",
+      "lat": 45.751372,
+      "lng": 9.068733
+    },
+    {
+      "id": "0dcabae6-d809-4541-b29b-fc5ea9a17444",
+      "slug": "b-b-la-darsena-appiano-gentile",
+      "nome": "B&B La Darsena",
+      "city_name": "Appiano Gentile",
+      "indirizzo": "Piazza Roma, 14, 22100 Como CO",
+      "lat": 45.813795,
+      "lng": 9.083762
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 353,
+  "blockId": "353",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "bb2a0d8f-aa7f-4a79-a099-8f163d8618c0",
+      "slug": "azienda-agricola-il-contadino-di-punghellini-cadelbosco-di-sopra",
+      "nome": "Azienda Agricola Il Contadino di Punghellini",
+      "city_name": "Cadelbosco di Sopra",
+      "indirizzo": "V. Carlo Marx, 97, 42124 Reggio nell'Emilia RE",
+      "lat": 44.752908,
+      "lng": 10.593996
+    },
+    {
+      "id": "c3515951-3cff-44ed-b563-ce6baf3c5497",
+      "slug": "casa-isabel-cadelbosco-di-sopra",
+      "nome": "Casa Isabel",
+      "city_name": "Cadelbosco di Sopra",
+      "indirizzo": "Via Caduti di Via Nuova, 6, 42023 Cadelbosco di Sopra RE",
+      "lat": 44.765416,
+      "lng": 10.596529
+    },
+    {
+      "id": "454fc660-a0af-497c-ae4e-4563e4f4796e",
+      "slug": "il-casale-bed-breakfast-cadelbosco-di-sopra",
+      "nome": "IL CASALE Bed & Breakfast",
+      "city_name": "Cadelbosco di Sopra",
+      "indirizzo": "Via Leonardo da Vinci, 23, 42023 Cadelbosco di Sotto RE",
+      "lat": 44.81599,
+      "lng": 10.622944
+    },
+    {
+      "id": "e396cf4f-3b0d-427b-acfa-8b461e162560",
+      "slug": "master-hotel-cadelbosco-di-sopra",
+      "nome": "Master Hotel",
+      "city_name": "Cadelbosco di Sopra",
+      "indirizzo": "Galleria Giuseppe Carretti, 3/a, 42023 Cadelbosco di Sopra RE",
+      "lat": 44.763961,
+      "lng": 10.595382
+    },
+    {
+      "id": "a110e981-cf9a-439c-acc9-cf4cb987fddd",
+      "slug": "pianderna-agriwellness-cadelbosco-di-sopra",
+      "nome": "Pianderna Agriwellness",
+      "city_name": "Cadelbosco di Sopra",
+      "indirizzo": "Via Pianderna, 9, 42019 Scandiano RE",
+      "lat": 44.573287,
+      "lng": 10.670871
+    },
+    {
+      "id": "e2df1efb-9396-451c-86b4-7c00f2c51b8e",
+      "slug": "ristorante-hotel-bar-gemmi-cadelbosco-di-sopra",
+      "nome": "Ristorante Hotel Bar Gemmi",
+      "city_name": "Cadelbosco di Sopra",
+      "indirizzo": "Via G. Marconi, 2, 42023 Cadelbosco di Sotto RE",
+      "lat": 44.803656,
+      "lng": 10.618244
+    },
+    {
+      "id": "66cd9dfa-2ab9-422b-9ad7-dbffffea4005",
+      "slug": "affittacamere-r-b-emilia-54-cadeo",
+      "nome": "Affittacamere R&B Emilia 54",
+      "city_name": "Cadeo",
+      "indirizzo": "Via S. Rocco, 2, 29010 Cadeo PC",
+      "lat": 44.97532,
+      "lng": 9.830185
+    },
+    {
+      "id": "616af877-0de6-4972-9ff4-c7a04c754733",
+      "slug": "b-b-la-villetta-cadeo",
+      "nome": "B&B La Villetta",
+      "city_name": "Cadeo",
+      "indirizzo": "Via Marco Boscarelli, 16, 29121 Piacenza PC",
+      "lat": 45.043391,
+      "lng": 9.67333
+    },
+    {
+      "id": "2ea037cf-88b8-4f46-8226-343beb5e2c79",
+      "slug": "best-western-park-hotel-cadeo",
+      "nome": "Best Western Park Hotel",
+      "city_name": "Cadeo",
+      "indirizzo": "Str. Val Nure, 7, 29122 Piacenza PC",
+      "lat": 45.028385,
+      "lng": 9.68609
+    },
+    {
+      "id": "bb5b0167-32a0-4c61-991a-7bdddacc8678",
+      "slug": "cristal-cadeo",
+      "nome": "Cristal",
+      "city_name": "Cadeo",
+      "indirizzo": "Via Cristoforo Colombo, 126, 29122 Piacenza PC",
+      "lat": 45.043435,
+      "lng": 9.712346
+    },
+    {
+      "id": "0a7e6e93-ed9b-48f1-a32d-7331c30d4fb6",
+      "slug": "la-scottina-relais-bistrot-cadeo",
+      "nome": "La Scottina Relais & Bistrot",
+      "city_name": "Cadeo",
+      "indirizzo": "Str. Riglio, snc, 29010 Cadeo PC",
+      "lat": 44.996205,
+      "lng": 9.82295
+    },
+    {
+      "id": "104c1639-ead8-4dc9-b95f-1885bcd52357",
+      "slug": "villa-costanza-hotel-gourmet-restaurant-cadeo",
+      "nome": "Villa Costanza Hotel & Gourmet Restaurant",
+      "city_name": "Cadeo",
+      "indirizzo": "Strada Ponteriglio, 27, 29010 Pontenure PC",
+      "lat": 45.004492,
+      "lng": 9.800913
+    },
+    {
+      "id": "7862b7ba-6720-4581-b33c-f93ff98b88de",
+      "slug": "albergo-palazzo-lodron-bertelli-caderzone-terme",
+      "nome": "Albergo Palazzo Lodron Bertelli",
+      "city_name": "Caderzone Terme",
+      "indirizzo": "Piazza S. Antonio, 38080 Caderzone TN",
+      "lat": 46.130086,
+      "lng": 10.756952
+    },
+    {
+      "id": "6da8888b-30f9-4cef-870e-1c27c254825a",
+      "slug": "centro-pineta-family-hotel-wellness-caderzone-terme",
+      "nome": "Centro Pineta Family Hotel & Wellness",
+      "city_name": "Caderzone Terme",
+      "indirizzo": "Via Giacomo Matteotti, 43, 38086 Pinzolo TN",
+      "lat": 46.154762,
+      "lng": 10.763247
+    },
+    {
+      "id": "b61142b1-8989-4d14-b2f4-954b926e6085",
+      "slug": "hotel-denny-caderzone-terme",
+      "nome": "Hotel Denny",
+      "city_name": "Caderzone Terme",
+      "indirizzo": "Via Giuseppe Garibaldi, 4, 38080 Carisolo TN",
+      "lat": 46.169157,
+      "lng": 10.763574
+    },
+    {
+      "id": "19f57eb6-fac1-42b9-a4cf-6dd4d45be1c2",
+      "slug": "hotel-orso-grigio-caderzone-terme",
+      "nome": "Hotel Orso Grigio",
+      "city_name": "Caderzone Terme",
+      "indirizzo": "Via Roncac, 6, 38080 Carisolo TN",
+      "lat": 46.1653,
+      "lng": 10.758331
+    },
+    {
+      "id": "d1df9832-5cd1-42b8-9e43-aa3875f51f8c",
+      "slug": "hotel-villa-fosine-di-maffei-raffaela-c-snc-caderzone-terme",
+      "nome": "Hotel Villa Fosine Di Maffei Raffaela & C. Snc",
+      "city_name": "Caderzone Terme",
+      "indirizzo": "Via Fucine, 19, 38086 Pinzolo TN",
+      "lat": 46.163132,
+      "lng": 10.760946
+    },
+    {
+      "id": "4a1fce65-b05f-4406-bc5c-7ce0d4444f74",
+      "slug": "maso-del-brenta-caderzone-terme",
+      "nome": "Maso del Brenta",
+      "city_name": "Caderzone Terme",
+      "indirizzo": "Località Pan, 38080 Caderzone TN",
+      "lat": 46.145012,
+      "lng": 10.76077
+    },
+    {
+      "id": "8bcade3a-950a-47be-a187-6f1ce8fc67c3",
+      "slug": "anman-s-r-l-cadoneghe",
+      "nome": "Anman S.R.L",
+      "city_name": "Cadoneghe",
+      "indirizzo": "Piazzale della Stazione, 6, 35131 Padova PD",
+      "lat": 45.416508,
+      "lng": 11.880101
+    },
+    {
+      "id": "51183c71-8fab-4e1e-b630-37ea0476abc1",
+      "slug": "b-b-william-cadoneghe",
+      "nome": "B&B William",
+      "city_name": "Cadoneghe",
+      "indirizzo": "Vicolo Bernardo Parentino, 7, 35132 Padova PD",
+      "lat": 45.421289,
+      "lng": 11.879108
+    },
+    {
+      "id": "933d7be5-74de-4010-b202-4e6e98895712",
+      "slug": "bed-and-breakfast-agostini-daniela-cadoneghe",
+      "nome": "Bed and Breakfast Agostini Daniela",
+      "city_name": "Cadoneghe",
+      "indirizzo": "Via Belvedere, 1, 35010 Cadoneghe PD",
+      "lat": 45.457933,
+      "lng": 11.908707
+    },
+    {
+      "id": "121040d8-185c-420e-831f-37ca3495a16d",
+      "slug": "casa-del-pellegrino-cadoneghe",
+      "nome": "Casa del Pellegrino",
+      "city_name": "Cadoneghe",
+      "indirizzo": "Via M. Cesarotti, 21, 35123 Padova PD",
+      "lat": 45.402179,
+      "lng": 11.881742
+    },
+    {
+      "id": "a297c56f-4e6c-422b-8b44-984556c8433d",
+      "slug": "hilton-garden-inn-padua-city-centre-cadoneghe",
+      "nome": "Hilton Garden Inn Padua City Centre",
+      "city_name": "Cadoneghe",
+      "indirizzo": "Corso Milano, 40, 35139 Padova PD",
+      "lat": 45.409815,
+      "lng": 11.869596
+    },
+    {
+      "id": "be964881-98e2-4177-bf9e-e6f67d543b34",
+      "slug": "hornel-room-cadoneghe",
+      "nome": "HORNEL room",
+      "city_name": "Cadoneghe",
+      "indirizzo": "Via Franzela, 3, 35135 Padova PD",
+      "lat": 45.435756,
+      "lng": 11.871102
+    },
+    {
+      "id": "8adb3599-0196-40dc-abe4-55fb6d9498f8",
+      "slug": "hotel-autostrada-cadoneghe",
+      "nome": "Hotel Autostrada",
+      "city_name": "Cadoneghe",
+      "indirizzo": "Via S. Marco, 5, 35129 Padova PD",
+      "lat": 45.414842,
+      "lng": 11.917284
+    },
+    {
+      "id": "74325cae-1a0e-4b1c-8eb4-dbc051d9b362",
+      "slug": "hotel-patavium-cadoneghe",
+      "nome": "Hotel Patavium",
+      "city_name": "Cadoneghe",
+      "indirizzo": "Via Beato Pellegrino, 106, 35137 Padova PD",
+      "lat": 45.415288,
+      "lng": 11.869314
+    },
+    {
+      "id": "ff28f5b0-e9e0-4447-b93e-ebce5055cb0b",
+      "slug": "hotel-sagittario-padova-italy-cadoneghe",
+      "nome": "Hotel Sagittario Padova Italy",
+      "city_name": "Cadoneghe",
+      "indirizzo": "Via Giovanni Randaccio, 6, 35129 Padova PD",
+      "lat": 45.432217,
+      "lng": 11.936552
+    },
+    {
+      "id": "c137baf7-f338-4d33-9f66-5f3a698e3cfb",
+      "slug": "hotello-padova-hostel-more-cadoneghe",
+      "nome": "Hotello Padova - Hostel & More",
+      "city_name": "Cadoneghe",
+      "indirizzo": "Corso del Popolo, 2, 35131 Padova PD",
+      "lat": 45.414001,
+      "lng": 11.879169
+    },
+    {
+      "id": "21a0311f-7481-4833-bdc9-fa94d3ecc350",
+      "slug": "le-padovanelle-cadoneghe",
+      "nome": "Le Padovanelle",
+      "city_name": "Cadoneghe",
+      "indirizzo": "Via dell'Ippodromo, 4, 35100 Ponte di Brenta PD",
+      "lat": 45.424296,
+      "lng": 11.931392
+    },
+    {
+      "id": "ab9c7893-6b67-4208-9fb0-482032834a11",
+      "slug": "matrix-hotel-residence-cadoneghe",
+      "nome": "Matrix Hotel & Residence",
+      "city_name": "Cadoneghe",
+      "indirizzo": "Via Germania, 22, 35010 Vigonza PD",
+      "lat": 45.436143,
+      "lng": 11.95019
+    },
+    {
+      "id": "a4eac459-6940-457d-85f7-02533b325404",
+      "slug": "takate-collection-cadoneghe",
+      "nome": "Takate Collection",
+      "city_name": "Cadoneghe",
+      "indirizzo": "Piazza A. de Gasperi, 47, 35131 Padova PD",
+      "lat": 45.415736,
+      "lng": 11.878943
+    },
+    {
+      "id": "92790601-93ff-4344-8b46-7896a4105915",
+      "slug": "villaluigia-cadoneghe",
+      "nome": "VillaLuigia",
+      "city_name": "Cadoneghe",
+      "indirizzo": "Via Umberto I, 10, 35010 Vigonza PD",
+      "lat": 45.431833,
+      "lng": 11.94931
+    },
+    {
+      "id": "aeaf6789-2686-4056-8df7-395d0b46fcd4",
+      "slug": "agriturismo-la-fornace-a-senna-comasco-di-formen-cadorago",
+      "nome": "Agriturismo La Fornace a Senna Comasco, di Formenti Ivan",
+      "city_name": "Cadorago",
+      "indirizzo": "Via Fornace, 2, 22070 Senna Comasco CO",
+      "lat": 45.758713,
+      "lng": 9.100695
+    },
+    {
+      "id": "f1be54bd-3cc9-4b92-aecc-68fba44dda75",
+      "slug": "b-b-hotel-como-baradello-cadorago",
+      "nome": "B&B HOTEL Como Baradello",
+      "city_name": "Cadorago",
+      "indirizzo": "Piazzale Camerlata, 9/a, 22100 Como CO",
+      "lat": 45.790032,
+      "lng": 9.085043
+    },
+    {
+      "id": "556ac3fe-40c0-41eb-b717-7e92561fce88",
+      "slug": "b-b-il-melograno-cadorago",
+      "nome": "B&B Il Melograno",
+      "city_name": "Cadorago",
+      "indirizzo": "Via del Mandresco, 5, 22074 Lomazzo CO",
+      "lat": 45.707603,
+      "lng": 9.03485
+    }
+  ]
+}

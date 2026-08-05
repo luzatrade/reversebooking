@@ -1,0 +1,323 @@
+{
+  "block": 424,
+  "blockId": "424",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "2ca1be7e-872e-4646-af6d-a5a27c80c571",
+      "slug": "albergo-diffuso-tra-vicoli-e-tramonti-capranica-prenestina",
+      "nome": "Albergo Diffuso Tra Vicoli e Tramonti",
+      "city_name": "Capranica Prenestina",
+      "indirizzo": "Via Vittorio de Sica, 2, 00030 Castel San Pietro Romano RM",
+      "lat": 41.846054,
+      "lng": 12.895111
+    },
+    {
+      "id": "1fe1f4f9-8b5e-4073-9fc7-48faa7054d4a",
+      "slug": "b-b-il-bacio-e-la-nocciola-capranica-prenestina",
+      "nome": "B&B Il Bacio e la Nocciola",
+      "city_name": "Capranica Prenestina",
+      "indirizzo": "Ventiquattresima Str. Bis, 47, 00030 Colle Spina RM",
+      "lat": 41.777966,
+      "lng": 12.847186
+    },
+    {
+      "id": "a245d893-75d4-4993-acf7-f7e5a891c5c4",
+      "slug": "cascina-1956-capranica-prenestina",
+      "nome": "Cascina 1956",
+      "city_name": "Capranica Prenestina",
+      "indirizzo": "Via Cori, 6, 00036 Palestrina RM",
+      "lat": 41.831482,
+      "lng": 12.901126
+    },
+    {
+      "id": "093fea94-f026-4145-8f3d-a029a180ba57",
+      "slug": "il-casale-delle-ginestre-capranica-prenestina",
+      "nome": "Il Casale Delle Ginestre",
+      "city_name": "Capranica Prenestina",
+      "indirizzo": "00030 Castel San Pietro Romano RM, Italia",
+      "lat": 41.856389,
+      "lng": 12.901111
+    },
+    {
+      "id": "d81e0b19-f680-4fbc-a7ec-84e4da7afe42",
+      "slug": "lo-scoiattolo-b-b-capranica-prenestina",
+      "nome": "Lo scoiattolo b&b",
+      "city_name": "Capranica Prenestina",
+      "indirizzo": "Via Cima, 1/A, 00033 Cave RM",
+      "lat": 41.793714,
+      "lng": 12.953949
+    },
+    {
+      "id": "1465a18f-e554-4382-855a-02f71fb685f6",
+      "slug": "b-b-quattrostelle-caprarica-di-lecce",
+      "nome": "B&B QuattroStelle",
+      "city_name": "Caprarica di Lecce",
+      "indirizzo": "c.da Spezzaferro, snc, 73020 Cavallino LE",
+      "lat": 40.30226,
+      "lng": 18.198566
+    },
+    {
+      "id": "6d0bb2cf-d065-41fc-a93e-eecf3c055171",
+      "slug": "la-casetta-b-b-caprarica-di-lecce",
+      "nome": "La Casetta B&B",
+      "city_name": "Caprarica di Lecce",
+      "indirizzo": "Via de Dominicis, 26, 73020 Cavallino LE",
+      "lat": 40.311547,
+      "lng": 18.203209
+    },
+    {
+      "id": "54e334b0-9a33-4c9d-9de2-9afb28b3adb4",
+      "slug": "la-curte-te-lu-pippi-caprarica-di-lecce",
+      "nome": "La Curte Te Lu Pippi",
+      "city_name": "Caprarica di Lecce",
+      "indirizzo": "Via Capece, 7, 73010 Caprarica di Lecce LE",
+      "lat": 40.261156,
+      "lng": 18.244232
+    },
+    {
+      "id": "3576cf1b-39b3-495e-ae21-9fbfe29494e1",
+      "slug": "la-macchia-b-b-caprarica-di-lecce",
+      "nome": "La Macchia B&B",
+      "city_name": "Caprarica di Lecce",
+      "indirizzo": "Via Oronzo Potì, 47, 73026 Melendugno LE",
+      "lat": 40.278687,
+      "lng": 18.331175
+    },
+    {
+      "id": "2458073e-c5ff-47e6-a135-6fca5b906bba",
+      "slug": "la-suite-negli-orti-caprarica-di-lecce",
+      "nome": "La Suite Negli Orti",
+      "city_name": "Caprarica di Lecce",
+      "indirizzo": "Via Case Sparse Li Mori, 73023 Lizzanello LE",
+      "lat": 40.31406,
+      "lng": 18.225724
+    },
+    {
+      "id": "d1e0e0d7-afd4-4cda-993c-72f357507d60",
+      "slug": "li-mori-rooms-caprarica-di-lecce",
+      "nome": "Li Mori Rooms",
+      "city_name": "Caprarica di Lecce",
+      "indirizzo": "Via Case Sparse Li Mori, snc, 73023 Lizzanello LE",
+      "lat": 40.316879,
+      "lng": 18.2275
+    },
+    {
+      "id": "f4800202-529d-483c-a10b-fb94c7a3522e",
+      "slug": "masseria-stali-the-originals-relais-caprarica-di-lecce",
+      "nome": "Masseria Stali, The Originals Relais",
+      "city_name": "Caprarica di Lecce",
+      "indirizzo": "Via vicinale, Via Cisterna Vecchia, 8, 73010 Caprarica di Lecce LE",
+      "lat": 40.254691,
+      "lng": 18.242156
+    },
+    {
+      "id": "69d58a0b-d4ce-432b-9770-067ff3d7a7d9",
+      "slug": "monterussi-b-b-caprarica-di-lecce",
+      "nome": "Monterussi B&B",
+      "city_name": "Caprarica di Lecce",
+      "indirizzo": "Via Caprarica, 113, 73020 Cavallino LE",
+      "lat": 40.307513,
+      "lng": 18.203678
+    },
+    {
+      "id": "693aec7d-490f-4e13-b974-7441de0ccad7",
+      "slug": "mybed-b-b-caprarica-di-lecce",
+      "nome": "MyBed B&B",
+      "city_name": "Caprarica di Lecce",
+      "indirizzo": "Via Francesco Petrarca, 7, 73020 Cavallino LE",
+      "lat": 40.30818,
+      "lng": 18.203864
+    },
+    {
+      "id": "2fc9ca83-e751-4965-ace1-d5a8881d8b00",
+      "slug": "rescio-s-rooms-b-b-caprarica-di-lecce",
+      "nome": "Rescio's Rooms B&B",
+      "city_name": "Caprarica di Lecce",
+      "indirizzo": "Via Lizzanello, 97, 73020 Cavallino LE",
+      "lat": 40.30981,
+      "lng": 18.208804
+    },
+    {
+      "id": "ca6865fd-3c0b-4ce5-a78a-7a64a9a2a023",
+      "slug": "b-b-buongiorno-caprarola-caprarola",
+      "nome": "B&B Buongiorno Caprarola",
+      "city_name": "Caprarola",
+      "indirizzo": "Via Nicola Borgna e Giacomo Loppi, 5, 01032 Caprarola VT",
+      "lat": 42.319953,
+      "lng": 12.236017
+    },
+    {
+      "id": "f5169986-ad4f-49df-acc6-a83fd7ce1f69",
+      "slug": "il-vicolo-bed-and-breakfast-caprarola",
+      "nome": "Il Vicolo bed and breakfast",
+      "city_name": "Caprarola",
+      "indirizzo": "Via S. Egidio, 3, 01032 Caprarola VT",
+      "lat": 42.326889,
+      "lng": 12.238968
+    },
+    {
+      "id": "3a2fc6ce-c1b4-4939-bfe7-440db8e9c33f",
+      "slug": "la-bella-venere-lake-resort-caprarola",
+      "nome": "La Bella Venere - Lake Resort",
+      "city_name": "Caprarola",
+      "indirizzo": "Localita' Scardenato, 01032 Caprarola VT",
+      "lat": 42.332624,
+      "lng": 12.196594
+    },
+    {
+      "id": "4c5780f6-d22a-4e0b-8092-28afdf6f7fff",
+      "slug": "la-valle-di-vico-agriturismo-bed-and-breakfast-caprarola",
+      "nome": "La Valle di Vico | Agriturismo - Bed and Breakfast",
+      "city_name": "Caprarola",
+      "indirizzo": "Strada Comunale Caproceca, 01032 Caprarola VT",
+      "lat": 42.33906,
+      "lng": 12.207401
+    },
+    {
+      "id": "33f5defc-c695-404d-b2b9-e9ad9b1e8553",
+      "slug": "rio-vicano-residence-hotel-caprarola",
+      "nome": "RIO VICANO Residence Hotel",
+      "city_name": "Caprarola",
+      "indirizzo": "Via Cassia Cimina, km 19, 100 - civico, 1084, 01037 Ronciglione VT",
+      "lat": 42.30239,
+      "lng": 12.200364
+    },
+    {
+      "id": "089b19f3-6de2-4544-8ccf-89fb97708cd6",
+      "slug": "rifugio-pian-dell-arma-caprauna",
+      "nome": "Rifugio Pian dell'Arma",
+      "city_name": "Caprauna",
+      "indirizzo": "SP216, 12070 Caprauna CN",
+      "lat": 44.11794,
+      "lng": 7.935587
+    },
+    {
+      "id": "b641b154-bab8-402b-a228-b9137612c2c1",
+      "slug": "agriturismo-la-casina-caprese-michelangelo",
+      "nome": "Agriturismo La Casina",
+      "city_name": "Caprese Michelangelo",
+      "indirizzo": "Via Casina Silvani, 171, 52033 Caprese Michelangelo AR",
+      "lat": 43.613352,
+      "lng": 12.00385
+    },
+    {
+      "id": "f6f7ff2c-676c-4ab8-af2a-631904139a41",
+      "slug": "agriturismo-le-ceregne-bio-caprese-michelangelo",
+      "nome": "Agriturismo Le Ceregne Bio",
+      "city_name": "Caprese Michelangelo",
+      "indirizzo": "Località le ceregne, 76, 52036 Pieve Santo Stefano AR",
+      "lat": 43.606823,
+      "lng": 12.05051
+    },
+    {
+      "id": "9df0a975-2fcd-41ed-8e42-1158040cc14a",
+      "slug": "agriturismo-podere-tovari-caprese-michelangelo",
+      "nome": "AGRITURISMO PODERE TOVARI",
+      "city_name": "Caprese Michelangelo",
+      "indirizzo": "Via Motina bassa, 68, 52031 Anghiari AR",
+      "lat": 43.556517,
+      "lng": 12.046837
+    },
+    {
+      "id": "f4eb3fa6-52f8-4f82-850c-5481b324d163",
+      "slug": "agriturismo-priello-caprese-michelangelo",
+      "nome": "Agriturismo Priello",
+      "city_name": "Caprese Michelangelo",
+      "indirizzo": "Localita' Priello, 244, 52033 Caprese Michelangelo AR",
+      "lat": 43.609092,
+      "lng": 11.987858
+    },
+    {
+      "id": "dd92dd27-171e-4034-85e7-b886cbd77ae6",
+      "slug": "agriturismo-selvadonica-caprese-michelangelo",
+      "nome": "Agriturismo Selvadonica",
+      "city_name": "Caprese Michelangelo",
+      "indirizzo": "Selvadonica, 151, 52033 Caprese Michelangelo AR",
+      "lat": 43.618183,
+      "lng": 12.00429
+    },
+    {
+      "id": "74b4ffd2-7b93-47a0-a62e-76cb2547c1ea",
+      "slug": "borgo-faeta-country-relais-caprese-michelangelo",
+      "nome": "Borgo Faeta Country Relais",
+      "city_name": "Caprese Michelangelo",
+      "indirizzo": "Via Strapolino, 109, 52033 Caprese Michelangelo AR",
+      "lat": 43.628,
+      "lng": 12.001797
+    },
+    {
+      "id": "dacdc630-0589-45a0-b140-f15374bcbc66",
+      "slug": "casa-cappellino-caprese-michelangelo",
+      "nome": "Casa Cappellino",
+      "city_name": "Caprese Michelangelo",
+      "indirizzo": "Via Lama, 4, 52033 Lama AR",
+      "lat": 43.64674,
+      "lng": 11.97023
+    },
+    {
+      "id": "af583e0a-02fa-4140-9880-8c845ddf4c84",
+      "slug": "euro-hotel-caprese-michelangelo",
+      "nome": "Euro hotel",
+      "city_name": "Caprese Michelangelo",
+      "indirizzo": "SS3bis Area di Servizio Tevere Ovest, 52036, 52036 Pieve Santo Stefano AR",
+      "lat": 43.657731,
+      "lng": 12.051644
+    },
+    {
+      "id": "82169d97-9cf3-47b9-9af5-064922e6ca1f",
+      "slug": "hotel-cristallo-caprese-michelangelo",
+      "nome": "Hotel Cristallo",
+      "city_name": "Caprese Michelangelo",
+      "indirizzo": "Via Pratolino, 289A, 52033 Caprese Michelangelo AR",
+      "lat": 43.636771,
+      "lng": 11.985517
+    },
+    {
+      "id": "e6e63241-9044-417f-b016-1db56361abeb",
+      "slug": "hotel-santo-stefano-caprese-michelangelo",
+      "nome": "Hotel Santo Stefano",
+      "city_name": "Caprese Michelangelo",
+      "indirizzo": "Via Tiberina, 95, 52036 Pieve Santo Stefano AR",
+      "lat": 43.670833,
+      "lng": 12.039167
+    },
+    {
+      "id": "067bb4bb-8476-4e3f-aaef-093fedcb5a30",
+      "slug": "la-pecora-e-l-agnello-caprese-michelangelo",
+      "nome": "La pecora e l agnello",
+      "city_name": "Caprese Michelangelo",
+      "indirizzo": "Via Capoluogo, 72, 52033 Caprese Michelangelo AR",
+      "lat": 43.643053,
+      "lng": 11.985407
+    },
+    {
+      "id": "5e59b7a6-6680-4266-a675-1578a6c0eebb",
+      "slug": "locanda-del-viandante-apartments-pool-valle-di-m-caprese-michelangelo",
+      "nome": "Locanda del Viandante Apartments&Pool - Valle di Mezzo",
+      "city_name": "Caprese Michelangelo",
+      "indirizzo": "Località Valle di Mezzo, 70, 52031 Ponte alla Piera, AR",
+      "lat": 43.578275,
+      "lng": 11.978176
+    },
+    {
+      "id": "611631c2-21ed-45f2-8fdd-84d1ab941b07",
+      "slug": "ristorante-albergo-la-buca-di-michelangelo-caprese-michelangelo",
+      "nome": "Ristorante Albergo La Buca di Michelangelo",
+      "city_name": "Caprese Michelangelo",
+      "indirizzo": "Via Capoluogo, 51, 52033 Caprese Michelangelo AR",
+      "lat": 43.644055,
+      "lng": 11.986285
+    },
+    {
+      "id": "440f69e8-03e4-43f8-8a0c-6dde4f4f88dc",
+      "slug": "terra-di-michelangelo-caprese-michelangelo",
+      "nome": "Terra Di Michelangelo",
+      "city_name": "Caprese Michelangelo",
+      "indirizzo": "Loc, Via S. Polo, 70, 52033 Caprese Michelangelo AR",
+      "lat": 43.62154,
+      "lng": 11.99195
+    }
+  ]
+}

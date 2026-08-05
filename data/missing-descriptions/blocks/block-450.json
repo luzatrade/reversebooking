@@ -1,0 +1,323 @@
+{
+  "block": 450,
+  "blockId": "450",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "25e5dc3c-55aa-439b-924b-0bf61f8a782c",
+      "slug": "il-gatto-che-ride-carvico",
+      "nome": "Il Gatto Che Ride",
+      "city_name": "Carvico",
+      "indirizzo": "Via Roncarro, 9, 24030 Carvico BG",
+      "lat": 45.707567,
+      "lng": 9.488664
+    },
+    {
+      "id": "6d3c88f4-b428-419b-9b7c-0a4c6c0ca5e3",
+      "slug": "b-b-al-portico-carzano",
+      "nome": "B&B Al Portico",
+      "city_name": "Carzano",
+      "indirizzo": "Piazza Maggiore, 12, 38050 Telve TN",
+      "lat": 46.070623,
+      "lng": 11.477833
+    },
+    {
+      "id": "df04f37f-1e97-4bd3-b96c-e54b57d19dcc",
+      "slug": "b-b-alpentor-porta-delle-alpi-carzano",
+      "nome": "B&B Alpentor - Porta delle Alpi",
+      "city_name": "Carzano",
+      "indirizzo": "Vicolo Valletta, 13, 38050 Telve TN",
+      "lat": 46.070024,
+      "lng": 11.47848
+    },
+    {
+      "id": "79820fc4-b18b-4ec4-abd3-b6cb2386a051",
+      "slug": "b-b-e-ristorante-le-rose-carzano",
+      "nome": "B&b e Ristorante Le Rose",
+      "city_name": "Carzano",
+      "indirizzo": "Via XVIII Settembre, 35, 38050 Carzano TN",
+      "lat": 46.071221,
+      "lng": 11.492169
+    },
+    {
+      "id": "39e7fdce-34e8-422b-b551-ed08e6e57e8b",
+      "slug": "b-b-elise-carzano",
+      "nome": "B&B Elisè",
+      "city_name": "Carzano",
+      "indirizzo": "Via Cenone, 35/1, 38059 Castel Ivano TN",
+      "lat": 46.072331,
+      "lng": 11.506526
+    },
+    {
+      "id": "ecb3f770-273f-459d-bc41-6d91fa252bc5",
+      "slug": "b-b-le-soleil-carzano",
+      "nome": "B&B Le Soleil",
+      "city_name": "Carzano",
+      "indirizzo": "B&B le soleil, Via Alcide Degasperi, 1, 38050 Scurelle TN",
+      "lat": 46.063697,
+      "lng": 11.503651
+    },
+    {
+      "id": "9c763762-3ea5-4080-b2e7-24995ff05d3b",
+      "slug": "masetto-egidio-eco-agritur-carzano",
+      "nome": "Masetto Egidio Eco-Agritur",
+      "city_name": "Carzano",
+      "indirizzo": "Via della, Via della Róda 1, 6, 38059 Strigno TN",
+      "lat": 46.057632,
+      "lng": 11.523234
+    },
+    {
+      "id": "1ada58e2-1a69-47fd-bc72-6725172bf214",
+      "slug": "almare-b-b-casabona",
+      "nome": "Almaré B&B",
+      "city_name": "Casabona",
+      "indirizzo": "Via Taras, 7, 88900 Crotone KR",
+      "lat": 39.060408,
+      "lng": 17.132694
+    },
+    {
+      "id": "6818fb6e-5898-43e5-9434-971c4303fffa",
+      "slug": "b-b-carlo-v-casabona",
+      "nome": "B&B Carlo V",
+      "city_name": "Casabona",
+      "indirizzo": "Via Garibaldi, 25, 88900 Crotone KR",
+      "lat": 39.081473,
+      "lng": 17.130746
+    },
+    {
+      "id": "8b5bf1a4-f3d8-436b-b37f-a774f333e5c9",
+      "slug": "b-b-la-casa-di-bianca-luxury-casabona",
+      "nome": "B&B la casa di Bianca Luxury",
+      "city_name": "Casabona",
+      "indirizzo": "Via Don Minzoni, 19, 88900 Crotone KR",
+      "lat": 39.068991,
+      "lng": 17.129419
+    },
+    {
+      "id": "b2c7a6e9-bb47-42c4-a1f4-a5ef8b393e58",
+      "slug": "bed-breakfast-pitagora-casabona",
+      "nome": "Bed & Breakfast Pitagora",
+      "city_name": "Casabona",
+      "indirizzo": "Via Matteotti, 70, 88900 Crotone KR",
+      "lat": 39.07592,
+      "lng": 17.121641
+    },
+    {
+      "id": "e7661493-2ada-4787-a39e-e108bb3400da",
+      "slug": "bed-and-breakfast-castello-casabona",
+      "nome": "Bed and Breakfast \"Castello\"",
+      "city_name": "Casabona",
+      "indirizzo": "Via Francesco le Rose, 40, 88900 Crotone KR",
+      "lat": 39.082384,
+      "lng": 17.132967
+    },
+    {
+      "id": "f2819a6f-924e-4880-855c-9f3195d78234",
+      "slug": "bed-and-breakfast-magna-grecia-crotone-casabona",
+      "nome": "Bed and Breakfast \"Magna Grecia\" - Crotone",
+      "city_name": "Casabona",
+      "indirizzo": "Via Terina, 4, 88900 Crotone KR",
+      "lat": 39.053967,
+      "lng": 17.136667
+    },
+    {
+      "id": "b6df1f1b-67c0-4c88-959f-c30cb23793e4",
+      "slug": "agriturismo-la-quercia-casacalenda",
+      "nome": "Agriturismo La Quercia",
+      "city_name": "Casacalenda",
+      "indirizzo": "Contrada Convento, 2, 86043 Casacalenda CB",
+      "lat": 41.728959,
+      "lng": 14.854566
+    },
+    {
+      "id": "2be2c32d-ab04-42d0-af43-be8bb6dfdd79",
+      "slug": "b-b-arcobaleno-casacalenda",
+      "nome": "B&B Arcobaleno",
+      "city_name": "Casacalenda",
+      "indirizzo": "Viale Kennedy, 34, 86043 Casacalenda CB",
+      "lat": 41.738029,
+      "lng": 14.845241
+    },
+    {
+      "id": "775f93ff-9c10-4712-9357-3d13a6534ed2",
+      "slug": "affittacamere-montepiano-day-use-casacanditella",
+      "nome": "Affittacamere Montepiano - Day USE",
+      "city_name": "Casacanditella",
+      "indirizzo": "Via Montepiano, 36, 66010 San Rocco CH",
+      "lat": 42.240422,
+      "lng": 14.128444
+    },
+    {
+      "id": "f5f1eb19-e518-4435-bd01-817b7fa83cfd",
+      "slug": "albergo-ristorante-s-eufemia-casacanditella",
+      "nome": "Albergo Ristorante S. Eufemia",
+      "city_name": "Casacanditella",
+      "indirizzo": "Via Sant'Eufemia, 125, 66010 Fara Filiorum Petri CH",
+      "lat": 42.234713,
+      "lng": 14.177458
+    },
+    {
+      "id": "f35fbcfe-accc-41bf-92bc-a320bfc1ecf3",
+      "slug": "b-b-dimora-rossipinti-casacanditella",
+      "nome": "B&B Dimora Rossipinti",
+      "city_name": "Casacanditella",
+      "indirizzo": "Contrada Calvario, 37, 66030 Filetto CH",
+      "lat": 42.253631,
+      "lng": 14.244583
+    },
+    {
+      "id": "ad50edc7-19b6-4ba3-abcd-f811252cfdf6",
+      "slug": "b-b-la-casa-della-nonna-casacanditella",
+      "nome": "B&B La Casa Della Nonna",
+      "city_name": "Casacanditella",
+      "indirizzo": "Via di Rapino, 40, 66010 Fara Filiorum Petri CH",
+      "lat": 42.233558,
+      "lng": 14.185223
+    },
+    {
+      "id": "4ca6e5f4-9e71-4253-8c6d-644e8ab4b585",
+      "slug": "b-b-la-dea-maja-casacanditella",
+      "nome": "B&B La Dea Maja",
+      "city_name": "Casacanditella",
+      "indirizzo": "Via Giardino, 54, 66010 Fara Filiorum Petri CH",
+      "lat": 42.25036,
+      "lng": 14.18509
+    },
+    {
+      "id": "e8e30ac7-43ca-4efc-af6e-fe017b9d64b4",
+      "slug": "b-b-lo-gnomo-casacanditella",
+      "nome": "B&B Lo Gnomo",
+      "city_name": "Casacanditella",
+      "indirizzo": "via Capocciato - via Umberto Primo 43, 66010 Pennapiedimonte CH",
+      "lat": 42.151687,
+      "lng": 14.194316
+    },
+    {
+      "id": "9f3bfb96-51a8-4b8e-bf61-c95aa2e4ff93",
+      "slug": "b-b-nontiscordardime-casacanditella",
+      "nome": "B&B Nontiscordardime",
+      "city_name": "Casacanditella",
+      "indirizzo": "Corso Umberto I, 5, 66036 Orsogna CH",
+      "lat": 42.2192,
+      "lng": 14.282585
+    },
+    {
+      "id": "63cb35d2-8ba7-459a-94a3-d3e2c175d064",
+      "slug": "grelios-stanze-preziose-casacanditella",
+      "nome": "Grelios stanze preziose",
+      "city_name": "Casacanditella",
+      "indirizzo": "Vicolo Zulli, 2, 66016 Guardiagrele CH",
+      "lat": 42.191535,
+      "lng": 14.220738
+    },
+    {
+      "id": "c2a7d583-af2e-4261-a33e-137d71270053",
+      "slug": "hotel-altevie-casacanditella",
+      "nome": "Hotel Altevie",
+      "city_name": "Casacanditella",
+      "indirizzo": "Via Bocca di Valle, 115, 66016 Guardiagrele CH",
+      "lat": 42.183491,
+      "lng": 14.181774
+    },
+    {
+      "id": "0ebc0568-ee5a-4dcb-b4e2-e4a8f48a5458",
+      "slug": "ranieri-events-and-b-b-casacanditella",
+      "nome": "Ranieri Events and B&B",
+      "city_name": "Casacanditella",
+      "indirizzo": "Via Colle Crudele, 8, 66010 San Martino sulla Marrucina CH",
+      "lat": 42.237652,
+      "lng": 14.20966
+    },
+    {
+      "id": "7399aa9a-651e-46b6-aa23-9c3fdd3421f6",
+      "slug": "residence-praetorium-maiella-park-cin-it069069b4-casacanditella",
+      "nome": "Residence Praetorium Maiella Park- CIN IT069069B45KOR2IPG",
+      "city_name": "Casacanditella",
+      "indirizzo": "Via la Valle, 8, 66010 Pretoro CH",
+      "lat": 42.216323,
+      "lng": 14.139553
+    },
+    {
+      "id": "0a5a69d4-2aa0-420c-b71a-8e9761b88400",
+      "slug": "affittacamere-silvagni-casagiove",
+      "nome": "Affittacamere Silvagni",
+      "city_name": "Casagiove",
+      "indirizzo": "Piazza Pasquale Silvagni, 11, 81022 Casagiove CE",
+      "lat": 41.077621,
+      "lng": 14.313024
+    },
+    {
+      "id": "78886fe0-8eaa-4380-9ea3-e5326be552e6",
+      "slug": "afrodite-guest-house-casagiove",
+      "nome": "Afrodite Guest House",
+      "city_name": "Casagiove",
+      "indirizzo": "Corso Pietro Giannone, 132, 81100 Caserta CE",
+      "lat": 41.079831,
+      "lng": 14.331894
+    },
+    {
+      "id": "0964c62d-ce4f-433f-9362-5ec62ba5dc28",
+      "slug": "b-b-4th-floor-caserta-casagiove",
+      "nome": "B&b 4th Floor Caserta",
+      "city_name": "Casagiove",
+      "indirizzo": "Via Cesare Battisti, 109, 81100 Caserta CE",
+      "lat": 41.068754,
+      "lng": 14.331346
+    },
+    {
+      "id": "37d4d1cc-c767-49a8-939d-a3f69311462e",
+      "slug": "b-b-la-reggia-casagiove",
+      "nome": "B&B La Reggia",
+      "city_name": "Casagiove",
+      "indirizzo": "Via Gaetano Salvemini, 27, 81100 Caserta CE",
+      "lat": 41.070696,
+      "lng": 14.31635
+    },
+    {
+      "id": "747c5392-b0b4-4d54-a0b8-e0fdcb85eee2",
+      "slug": "bed-breakfast-le-fontane-del-re-casagiove",
+      "nome": "Bed & Breakfast Le Fontane del Re",
+      "city_name": "Casagiove",
+      "indirizzo": "Piazza Luigi Vanvitelli, 4/D, 81100 Caserta CE",
+      "lat": 41.075782,
+      "lng": 14.332001
+    },
+    {
+      "id": "7f5b3c84-ff11-4370-b284-f0304e0e0b0b",
+      "slug": "bedbreakfast-caserta-royale-apartment-casagiove",
+      "nome": "bedbreakfast \"Caserta Royale Apartment\"",
+      "city_name": "Casagiove",
+      "indirizzo": "Via Caduti sul Lavoro, 14, 81022 Casagiove CE",
+      "lat": 41.076231,
+      "lng": 14.304793
+    },
+    {
+      "id": "e8f15372-9260-4252-8ff0-2c5d12b4cb59",
+      "slug": "casa-casagiove-casagiove",
+      "nome": "Casa Casagiove",
+      "city_name": "Casagiove",
+      "indirizzo": "Via Ferrante Fratelli, 13, 81022 Casagiove CE",
+      "lat": 41.078409,
+      "lng": 14.312805
+    },
+    {
+      "id": "29318707-f9fb-4406-b696-f1e2390614ce",
+      "slug": "caserta-royale-suites-casagiove",
+      "nome": "Caserta Royale Suites",
+      "city_name": "Casagiove",
+      "indirizzo": "Via Regalone, 19, 81022 Casagiove CE",
+      "lat": 41.072385,
+      "lng": 14.307932
+    },
+    {
+      "id": "016276c0-e0d3-47e9-b6fc-d7f27e50bc8c",
+      "slug": "hotel-baby-casagiove",
+      "nome": "Hotel Baby",
+      "city_name": "Casagiove",
+      "indirizzo": "Via Giuseppe Verdi, 41, 81100 Caserta CE",
+      "lat": 41.06917,
+      "lng": 14.33164
+    }
+  ]
+}

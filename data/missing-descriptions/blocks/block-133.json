@@ -1,0 +1,323 @@
+{
+  "block": 133,
+  "blockId": "133",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "9ae28c96-be52-4dec-87da-a7c62d37024d",
+      "slug": "cannon-d-oro-aramengo",
+      "nome": "Cannon d'Oro",
+      "city_name": "Aramengo",
+      "indirizzo": "Piazza Camillo Benso Conte di Cavour, 21, 14023 Cocconato AT",
+      "lat": 45.085823,
+      "lng": 8.039779
+    },
+    {
+      "id": "52b0296d-5120-43e5-af6d-2ffb06741504",
+      "slug": "dalla-magna-livia-l-l-di-cavalitto-alessandro-aramengo",
+      "nome": "Dalla Magna Livia L. & L. Di Cavalitto Alessandro",
+      "city_name": "Aramengo",
+      "indirizzo": "Via Giulio Romano Vercelli, 83, 10020 Marcorengo TO",
+      "lat": 45.139546,
+      "lng": 8.066505
+    },
+    {
+      "id": "02f3088d-c552-4097-8687-13686e57127e",
+      "slug": "la-civignola-agriturismo-resort-aramengo",
+      "nome": "La Civignola - Agriturismo Resort",
+      "city_name": "Aramengo",
+      "indirizzo": "Str. Civignola, 20, 10020 Casalborgone TO",
+      "lat": 45.13917,
+      "lng": 7.961172
+    },
+    {
+      "id": "ac22192e-6d1a-45f8-9493-c4a9e97a4470",
+      "slug": "locanda-martelletti-aramengo",
+      "nome": "Locanda Martelletti",
+      "city_name": "Aramengo",
+      "indirizzo": "Piazza Statuto, 10, 14023 Cocconato AT",
+      "lat": 45.087597,
+      "lng": 8.038791
+    },
+    {
+      "id": "03847310-8c1e-498f-a7e0-092030ede42b",
+      "slug": "theresa-sulla-collina-b-b-aramengo",
+      "nome": "Theresa sulla collina b&b",
+      "city_name": "Aramengo",
+      "indirizzo": "VIA RECINTO 25 FRAZ, 14020 Passerano AT",
+      "lat": 45.069033,
+      "lng": 8.018375
+    },
+    {
+      "id": "24d99f69-dba8-4da6-a8c3-fb1e5cee943d",
+      "slug": "vecchio-castagno-ristorante-albergo-aramengo",
+      "nome": "Vecchio Castagno - ristorante albergo",
+      "city_name": "Aramengo",
+      "indirizzo": "Str. Cocconito, 1, 14023 Cocconito Vignaretto AT",
+      "lat": 45.10867,
+      "lng": 8.023008
+    },
+    {
+      "id": "c6d63413-a65b-493b-9c5b-d5bfc88aa2c1",
+      "slug": "agriturismo-al-luogo-del-giulio-arba",
+      "nome": "Agriturismo al Luogo del Giulio",
+      "city_name": "Arba",
+      "indirizzo": "Via Pordenone, 155, 33085 Maniago PN",
+      "lat": 46.140175,
+      "lng": 12.696875
+    },
+    {
+      "id": "e291985c-040d-4592-b9f5-9bb1346e16e8",
+      "slug": "albergo-al-palazat-arba",
+      "nome": "albergo al palazat",
+      "city_name": "Arba",
+      "indirizzo": "Piazza Plebiscito, 6, 33092 Cavasso Nuovo PN",
+      "lat": 46.193848,
+      "lng": 12.768147
+    },
+    {
+      "id": "3fa19bd7-c05c-4ba0-9a26-bbbc49ae408e",
+      "slug": "albergo-julienne-arba",
+      "nome": "Albergo Julienne",
+      "city_name": "Arba",
+      "indirizzo": "Via D. Manin, 63, 33090 Arba PN",
+      "lat": 46.144936,
+      "lng": 12.795478
+    },
+    {
+      "id": "d3358712-c0ef-4d51-8664-f032af9c2bbe",
+      "slug": "albergo-ristorante-belvedere-arba",
+      "nome": "Albergo Ristorante Belvedere",
+      "city_name": "Arba",
+      "indirizzo": "Via Odorico Odorico, 54, 33094 Sequals PN",
+      "lat": 46.158611,
+      "lng": 12.823889
+    },
+    {
+      "id": "8ee78e36-633c-4523-b58f-86fc97b95d1e",
+      "slug": "bed-breakfast-cuore-di-lavanda-arba",
+      "nome": "Bed & Breakfast Cuore di Lavanda",
+      "city_name": "Arba",
+      "indirizzo": "Via Damiano Chiesa, 6, 33097 Spilimbergo PN",
+      "lat": 46.143685,
+      "lng": 12.905667
+    },
+    {
+      "id": "c3719637-d4eb-4a4d-90b5-5482c4396b58",
+      "slug": "casa-rossa-ai-colli-alloggio-arba",
+      "nome": "CASA ROSSA AI COLLI - alloggio",
+      "city_name": "Arba",
+      "indirizzo": "Via ai Colli, 2/1, 33030 Ragogna UD",
+      "lat": 46.178414,
+      "lng": 12.981627
+    },
+    {
+      "id": "87954b99-bb19-4955-ba3a-58c4fd79ccfc",
+      "slug": "casa-valcellina-albergo-e-ristorante-arba",
+      "nome": "Casa Valcellina | Albergo e Ristorante",
+      "city_name": "Arba",
+      "indirizzo": "Viale Stazione, 26, 33086 Montereale Valcellina PN",
+      "lat": 46.148176,
+      "lng": 12.656432
+    },
+    {
+      "id": "af4b73ac-eed4-4750-a28d-d54c84bd50e8",
+      "slug": "corte-morea-hotel-b-b-ristorante-arba",
+      "nome": "Corte Morea - Hotel - B&B - Ristorante",
+      "city_name": "Arba",
+      "indirizzo": "Via della Roggia, 38, 33090 Sequals PN",
+      "lat": 46.163311,
+      "lng": 12.893603
+    },
+    {
+      "id": "dd0f89bb-d8ab-4954-9137-3943ed895d98",
+      "slug": "dolcenero-hotel-residence-arba",
+      "nome": "Dolcenero Hotel Residence",
+      "city_name": "Arba",
+      "indirizzo": "Via Fagagna, 1, 33038 San Daniele del Friuli UD",
+      "lat": 46.156592,
+      "lng": 13.016222
+    },
+    {
+      "id": "14313c09-cbe3-4338-a303-a868fcad0705",
+      "slug": "gelindo-dei-magredi-arba",
+      "nome": "Gelindo dei Magredi",
+      "city_name": "Arba",
+      "indirizzo": "33099 Vivaro PN",
+      "lat": 46.080503,
+      "lng": 12.780322
+    },
+    {
+      "id": "55a5ea30-990d-45c4-b035-6f7a02242023",
+      "slug": "grand-hotel-president-arba",
+      "nome": "Grand Hotel President",
+      "city_name": "Arba",
+      "indirizzo": "Via Cividale, 10, 33097 Spilimbergo PN",
+      "lat": 46.106389,
+      "lng": 12.903611
+    },
+    {
+      "id": "8953d136-23d9-4531-bd6c-029fa8c55e18",
+      "slug": "hotel-al-giardino-arba",
+      "nome": "Hotel Al Giardino",
+      "city_name": "Arba",
+      "indirizzo": "Via Circonvallazione Nuova, 3, 33092 Fanna PN",
+      "lat": 46.182816,
+      "lng": 12.748188
+    },
+    {
+      "id": "14d36b8b-ca0b-4438-83be-dd865f4ec16c",
+      "slug": "hotel-oliva-arba",
+      "nome": "Hotel Oliva",
+      "city_name": "Arba",
+      "indirizzo": "Via Luigi Longo, 2, 33081 Aviano PN",
+      "lat": 46.073059,
+      "lng": 12.587971
+    },
+    {
+      "id": "73d0feaf-a1ef-454b-ae09-bde240bcfc0f",
+      "slug": "hotel-relais-picaron-arba",
+      "nome": "Hotel Relais Picaron",
+      "city_name": "Arba",
+      "indirizzo": "Via Astemio, 3, 33038 San Daniele del Friuli UD",
+      "lat": 46.164619,
+      "lng": 13.001194
+    },
+    {
+      "id": "4bc4b008-c567-446a-aad8-2bbcedd037f9",
+      "slug": "hotel-vajont-arba",
+      "nome": "Hotel Vajont",
+      "city_name": "Arba",
+      "indirizzo": "Piazza Monte Toc, 5, 33080 Vajont PN",
+      "lat": 46.146428,
+      "lng": 12.699008
+    },
+    {
+      "id": "aab386eb-c4bb-483c-b99b-5ebd734346c1",
+      "slug": "il-grappolo-d-oro-arba",
+      "nome": "Il Grappolo d'Oro",
+      "city_name": "Arba",
+      "indirizzo": "Via Sequals, 1, 33090 Arba PN",
+      "lat": 46.162066,
+      "lng": 12.809664
+    },
+    {
+      "id": "1269ebb4-168f-4046-93be-f1228225cbd3",
+      "slug": "ostarie-vecjo-friul-1901-arba",
+      "nome": "Ostarie Vecjo Friûl 1901",
+      "city_name": "Arba",
+      "indirizzo": "Via Nazionale, 7, 33039 Rivis UD",
+      "lat": 46.009722,
+      "lng": 12.941944
+    },
+    {
+      "id": "0aca30c8-7a10-4224-89dd-13b3578d88a2",
+      "slug": "portone180-guesthouse-arba",
+      "nome": "Portone180 GuestHouse",
+      "city_name": "Arba",
+      "indirizzo": "Via XX Settembre, 180, 33080 Roveredo in Piano PN",
+      "lat": 46.002245,
+      "lng": 12.617591
+    },
+    {
+      "id": "ca4b7c97-019b-4f43-abc7-b0d84e000474",
+      "slug": "residence-stefania-arba",
+      "nome": "Residence Stefania",
+      "city_name": "Arba",
+      "indirizzo": "Via Roma, 17, 33092 Cavasso Nuovo PN",
+      "lat": 46.194959,
+      "lng": 12.769413
+    },
+    {
+      "id": "5da7cccc-341a-4c02-8db9-43deaf920995",
+      "slug": "agriturismo-le-mimose-arborea",
+      "nome": "Agriturismo Le Mimose",
+      "city_name": "Arborea",
+      "indirizzo": "Str. 24 Ovest, 09092 Arborea OR",
+      "lat": 39.793523,
+      "lng": 8.573416
+    },
+    {
+      "id": "b637bb1e-4595-4d59-9a62-b8d9b66b131e",
+      "slug": "agriturismo-s-aranada-arborea",
+      "nome": "Agriturismo S'Aranada",
+      "city_name": "Arborea",
+      "indirizzo": "Via Gioberti, 09094 Marrubiu OR",
+      "lat": 39.751215,
+      "lng": 8.627192
+    },
+    {
+      "id": "352a5b93-f5c4-4d8f-9542-2808e0701558",
+      "slug": "b-b-fraefe-arborea",
+      "nome": "B&B FraeFe",
+      "city_name": "Arborea",
+      "indirizzo": "Str. 18Bis Est, 6, 09092 Arborea OR",
+      "lat": 39.773187,
+      "lng": 8.592858
+    },
+    {
+      "id": "b80008e5-86fb-4d1f-9c19-5a2e0e69cfd9",
+      "slug": "capo-frasca-resort-arborea",
+      "nome": "Capo Frasca resort",
+      "city_name": "Arborea",
+      "indirizzo": "Via Mare Mediterraneo, 23, 09031 Sant'Antonio di Santadi VS",
+      "lat": 39.71336,
+      "lng": 8.486233
+    },
+    {
+      "id": "7aa4e9d8-e48f-431a-bb4c-7fbfc5f725ad",
+      "slug": "dal-tramonto-all-alba-arborea",
+      "nome": "Dal tramonto all'alba",
+      "city_name": "Arborea",
+      "indirizzo": "Str. 18 Ovest, 11, 09092 Arborea OR",
+      "lat": 39.771927,
+      "lng": 8.567143
+    },
+    {
+      "id": "a0fb4a5e-9166-4f2b-b0c0-54492de08061",
+      "slug": "horse-country-resort-congress-spa-arborea",
+      "nome": "Horse Country Resort Congress & SPA",
+      "city_name": "Arborea",
+      "indirizzo": "Str. 24 Ovest, 09092 Arborea OR",
+      "lat": 39.793251,
+      "lng": 8.551783
+    },
+    {
+      "id": "8e77d2ff-23b2-4e62-bd24-6844b77f3996",
+      "slug": "hotel-gran-torre-arborea",
+      "nome": "Hotel Gran Torre",
+      "city_name": "Arborea",
+      "indirizzo": "strada Torregrande Pontile, 09072 Cabras OR",
+      "lat": 39.906826,
+      "lng": 8.532636
+    },
+    {
+      "id": "27eb443b-523b-4270-8b22-b1cd345a9fdf",
+      "slug": "hotel-le-torri-arborea",
+      "nome": "Hotel Le Torri",
+      "city_name": "Arborea",
+      "indirizzo": "Via Sardegna, 23, 09092 Arborea OR",
+      "lat": 39.773653,
+      "lng": 8.585609
+    },
+    {
+      "id": "b05db6cf-f887-4255-ad9e-71fd5d8fe6aa",
+      "slug": "hotel-lido-beach-arborea",
+      "nome": "Hotel Lido Beach",
+      "city_name": "Arborea",
+      "indirizzo": "Via Vittorio Bottego, 77, 09170 Torre Grande OR",
+      "lat": 39.903521,
+      "lng": 8.524682
+    },
+    {
+      "id": "22612c1c-1ca4-4797-a7fa-110aba509882",
+      "slug": "il-vecchio-oliveto-bed-breakfast-arborea",
+      "nome": "Il Vecchio Oliveto Bed & Breakfast",
+      "city_name": "Arborea",
+      "indirizzo": "Is Bangius, 09094 Marrubiu OR",
+      "lat": 39.78124,
+      "lng": 8.663964
+    }
+  ]
+}

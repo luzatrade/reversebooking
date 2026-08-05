@@ -1,0 +1,323 @@
+{
+  "block": 491,
+  "blockId": "491",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "b2378ea9-047e-49fe-8f5c-16b3bb08a71c",
+      "slug": "la-casa-del-viandante-modena",
+      "nome": "La Casa del Viandante",
+      "city_name": "Modena",
+      "indirizzo": "Via Emilia Ovest, 500, 41123 Modena MO, Italia",
+      "lat": 44.657523,
+      "lng": 10.899649
+    },
+    {
+      "id": "4d8beb67-b49d-4154-bebd-8e9c952c4af3",
+      "slug": "la-corte-dei-sogni-modena",
+      "nome": "La Corte Dei Sogni",
+      "city_name": "Modena",
+      "indirizzo": "Stradello Romano, 8, 41122 Modena MO, Italia",
+      "lat": 44.625918,
+      "lng": 10.977899
+    },
+    {
+      "id": "33c071c8-0f08-476f-a3e1-261cfca1b837",
+      "slug": "loft-albinelli-modena",
+      "nome": "Loft Albinelli",
+      "city_name": "Modena",
+      "indirizzo": "Via Luigi Albinelli, 40, 41121 Modena MO, Italia",
+      "lat": 44.644673,
+      "lng": 10.924993
+    },
+    {
+      "id": "34a726a0-44a2-4733-9944-2794063640de",
+      "slug": "pisacane61-modena",
+      "nome": "Pisacane61",
+      "city_name": "Modena",
+      "indirizzo": "Via Carlo Pisacane, 61, 41122 Modena MO, Italia",
+      "lat": 44.65629,
+      "lng": 10.943173
+    },
+    {
+      "id": "acf3d01b-1fd0-44f5-ab39-3cb5cea7c67e",
+      "slug": "residence-da-gio-b-b-a-modena-vicino-all-hesperi-modena",
+      "nome": "Residence Da Giò - B&B a Modena vicino all'Hesperia e al centro storico-Case Vacanze A Modena",
+      "city_name": "Modena",
+      "indirizzo": "Via Archirola, 29, 41124 Modena MO, Italia",
+      "lat": 44.638354,
+      "lng": 10.930434
+    },
+    {
+      "id": "d840e457-1929-43c2-bba8-183d080a3bdc",
+      "slug": "room-breakfast-canalino-21-modena",
+      "nome": "Room & breakfast canalino 21",
+      "city_name": "Modena",
+      "indirizzo": "Via Canalino, 21, 41121 Modena MO, Italia",
+      "lat": 44.644784,
+      "lng": 10.927
+    },
+    {
+      "id": "4cc1e1ee-b896-47ba-ac26-ce5aba19d103",
+      "slug": "salotto-delle-arti-modena",
+      "nome": "Salotto delle Arti",
+      "city_name": "Modena",
+      "indirizzo": "Rua del Muro, 86, 41121 Modena MO, Italia",
+      "lat": 44.644917,
+      "lng": 10.92071
+    },
+    {
+      "id": "eddb106c-c740-442a-93ca-6fe1c0835945",
+      "slug": "villa-argiolas-bed-breakfast-modena",
+      "nome": "Villa Argiolas Bed & Breakfast",
+      "city_name": "Modena",
+      "indirizzo": "Via Alessandro Argiolas, 34, 41126 Modena MO, Italia",
+      "lat": 44.612455,
+      "lng": 10.920892
+    },
+    {
+      "id": "4048e6bf-d55f-479e-8491-08f2093f0217",
+      "slug": "villa-sofia-b-b-modena",
+      "nome": "villa sofia b&b",
+      "city_name": "Modena",
+      "indirizzo": "Via M. Bonacini, 6, 41121 Modena MO, Italia",
+      "lat": 44.640811,
+      "lng": 10.939853
+    },
+    {
+      "id": "6eaff9b4-e719-4458-be2e-44c07aa02fe1",
+      "slug": "bold-hotel-munchen-zentrum-munich",
+      "nome": "Bold Hotel München Zentrum",
+      "city_name": "Munich",
+      "indirizzo": "Lindwurmstraße 70A, 80337 München-Ludwigsvorstadt-Isarvorstadt",
+      "lat": 48.126351,
+      "lng": 11.551576
+    },
+    {
+      "id": "4b73c8c7-ec39-402a-8de5-8b776c087169",
+      "slug": "hotel-brack-munich",
+      "nome": "Hotel Brack",
+      "city_name": "Munich",
+      "indirizzo": "Lindwurmstraße 153, 80337 München",
+      "lat": 48.125814,
+      "lng": 11.551295
+    },
+    {
+      "id": "e696a537-1732-4bf9-8ec3-ebac201958ce",
+      "slug": "hotel-eder-munich",
+      "nome": "Hotel Eder",
+      "city_name": "Munich",
+      "indirizzo": "Zweigstraße 8, 80336 München-Ludwigsvorstadt-Isarvorstadt",
+      "lat": 48.138645,
+      "lng": 11.562335
+    },
+    {
+      "id": "54f91dee-a1e5-4b4a-9776-b1912b9a338e",
+      "slug": "hotel-europaischer-hof-munich",
+      "nome": "Hotel Europäischer Hof",
+      "city_name": "Munich",
+      "indirizzo": "Bayerstraße 31, 80335 München-Ludwigsvorstadt-Isarvorstadt",
+      "lat": 48.139019,
+      "lng": 11.559926
+    },
+    {
+      "id": "dbbf31ce-2e9e-4853-9b3a-4681944c9f57",
+      "slug": "hotel-excelsior-munich-munich",
+      "nome": "Hotel Excelsior Munich",
+      "city_name": "Munich",
+      "indirizzo": "Schützenstr 11, 80335 München-Ludwigsvorstadt-Isarvorstadt",
+      "lat": 48.139801,
+      "lng": 11.562207
+    },
+    {
+      "id": "cb329bf0-5f1b-426c-817c-611d973bf115",
+      "slug": "hotel-gio-munich",
+      "nome": "Hotel Gio",
+      "city_name": "Munich",
+      "indirizzo": "Häberlstraße 9, 80337 München-Ludwigsvorstadt-Isarvorstadt",
+      "lat": 48.128239,
+      "lng": 11.558609
+    },
+    {
+      "id": "4c2da709-657e-48ae-819c-8383a85e7227",
+      "slug": "hotel-italia-munich",
+      "nome": "Hotel Italia",
+      "city_name": "Munich",
+      "indirizzo": "Schillerstraße 19, 80336 München",
+      "lat": 48.137032,
+      "lng": 11.561166
+    },
+    {
+      "id": "942dbf09-cadc-402e-bfe8-a14826299c49",
+      "slug": "hotel-mariandl-munich",
+      "nome": "Hotel Mariandl",
+      "city_name": "Munich",
+      "indirizzo": "Goethestraße 51, 80336 München-Ludwigsvorstadt-Isarvorstadt",
+      "lat": 48.133291,
+      "lng": 11.558839
+    },
+    {
+      "id": "e497f6ff-0a06-4718-84da-bdd0f1fd9a37",
+      "slug": "hotel-s16-munich",
+      "nome": "Hotel S16",
+      "city_name": "Munich",
+      "indirizzo": "Schillerstraße 16, 80336 München",
+      "lat": 48.137917,
+      "lng": 11.560869
+    },
+    {
+      "id": "df892261-ca1d-461c-ac9e-c75d17a4976e",
+      "slug": "hotel-wallis-munich",
+      "nome": "Hotel Wallis",
+      "city_name": "Munich",
+      "indirizzo": "Schwanthalerstraße 8, 80336 München",
+      "lat": 48.137552,
+      "lng": 11.563381
+    },
+    {
+      "id": "ba1953c9-7bec-4a3b-9b34-2a04d8069751",
+      "slug": "hotel-westend-munchen-munich",
+      "nome": "Hotel Westend - München",
+      "city_name": "Munich",
+      "indirizzo": "Schwanthalerstraße 121, 80339 München",
+      "lat": 48.137809,
+      "lng": 11.545219
+    },
+    {
+      "id": "1fa12a3b-3cd9-4058-a2dd-32a65b1f21da",
+      "slug": "koenigshof-a-luxury-collection-hotel-munich-munich",
+      "nome": "Koenigshof, a Luxury Collection Hotel, Munich",
+      "city_name": "Munich",
+      "indirizzo": "Karlsplatz 25, 80335 München",
+      "lat": 48.139696,
+      "lng": 11.564613
+    },
+    {
+      "id": "b3ba23d5-5eb7-446a-bdda-23e002c31104",
+      "slug": "munich-deluxe-hotel-munich",
+      "nome": "Munich Deluxe Hotel",
+      "city_name": "Munich",
+      "indirizzo": "Schwanthalerstraße 116, 80339 München-Schwanthalerhöhe",
+      "lat": 48.137865,
+      "lng": 11.547884
+    },
+    {
+      "id": "e969a077-3de1-457c-b7b3-37921c8d5447",
+      "slug": "platzl-hotel-munich",
+      "nome": "Platzl Hotel",
+      "city_name": "Munich",
+      "indirizzo": "Sparkassenstraße 10, 80331 München-Altstadt-Lehel",
+      "lat": 48.137956,
+      "lng": 11.578887
+    },
+    {
+      "id": "b170eec5-479d-4d13-ba98-4a5e5b1a40e8",
+      "slug": "schmellergarten-munich",
+      "nome": "Schmellergarten",
+      "city_name": "Munich",
+      "indirizzo": "Schmellerstraße 20, 80337 München-Ludwigsvorstadt-Isarvorstadt",
+      "lat": 48.125001,
+      "lng": 11.553036
+    },
+    {
+      "id": "02c2a75f-db61-45b6-8beb-eb25e1a6ac35",
+      "slug": "1-hotel-central-park-new-york",
+      "nome": "1 Hotel Central Park",
+      "city_name": "New York",
+      "indirizzo": "1414 6th Ave, New York, NY 10019",
+      "lat": 40.764804,
+      "lng": -73.976617
+    },
+    {
+      "id": "32b25fc3-0b96-468b-a856-f2aac769940a",
+      "slug": "ameritania-hotel-at-times-square-new-york",
+      "nome": "Ameritania Hotel at Times Square",
+      "city_name": "New York",
+      "indirizzo": "230 W 54th St, New York, NY 10019",
+      "lat": 40.763979,
+      "lng": -73.982773
+    },
+    {
+      "id": "d7552d48-cbdc-4693-bc36-1fba0f9a4328",
+      "slug": "belvedere-hotel-new-york",
+      "nome": "Belvedere Hotel",
+      "city_name": "New York",
+      "indirizzo": "319 W 48th St, New York, NY 10036",
+      "lat": 40.761677,
+      "lng": -73.98804
+    },
+    {
+      "id": "b795d577-4240-498a-805f-a8e0d3bd42b0",
+      "slug": "dream-midtown-by-hyatt-new-york",
+      "nome": "Dream Midtown, by Hyatt",
+      "city_name": "New York",
+      "indirizzo": "210 W 55th St, New York, NY 10019",
+      "lat": 40.764419,
+      "lng": -73.981971
+    },
+    {
+      "id": "6ae86940-c506-4701-ac11-90261447ce03",
+      "slug": "hampton-inn-manhattan-times-square-central-new-york",
+      "nome": "Hampton Inn Manhattan/Times Square Central",
+      "city_name": "New York",
+      "indirizzo": "220 W 41st St, New York, NY 10036",
+      "lat": 40.755607,
+      "lng": -73.988663
+    },
+    {
+      "id": "08e9fa74-7594-462a-a01f-dca53a723016",
+      "slug": "hilton-club-the-central-at-5th-new-york-new-york",
+      "nome": "Hilton Club The Central at 5th New York",
+      "city_name": "New York",
+      "indirizzo": "12 E 48th St, New York, NY 10017",
+      "lat": 40.756628,
+      "lng": -73.976971
+    },
+    {
+      "id": "8a4e7934-376a-466b-a9c9-a32fd1081830",
+      "slug": "hilton-garden-inn-new-york-central-park-south-mi-new-york",
+      "nome": "Hilton Garden Inn New York/Central Park South-Midtown West",
+      "city_name": "New York",
+      "indirizzo": "237 W 54th St, New York, NY 10019",
+      "lat": 40.7645,
+      "lng": -73.983115
+    },
+    {
+      "id": "4dc666f8-a6ce-4ab1-865f-b2e4b7cbfe69",
+      "slug": "hotel-riu-plaza-new-york-times-square-new-york",
+      "nome": "Hotel Riu Plaza New York Times Square",
+      "city_name": "New York",
+      "indirizzo": "305 W 46th St, New York, NY 10036",
+      "lat": 40.760195,
+      "lng": -73.988134
+    },
+    {
+      "id": "0a48e6e4-766b-45ec-8526-9fc16b7bf8e8",
+      "slug": "paramount-times-square-a-generator-hotel-new-york",
+      "nome": "Paramount Times Square - A Generator Hotel",
+      "city_name": "New York",
+      "indirizzo": "235 W 46th St, New York, NY 10036",
+      "lat": 40.759535,
+      "lng": -73.987009
+    },
+    {
+      "id": "a1f24fe8-62f6-4637-8211-1e86dd9417b0",
+      "slug": "park-central-hotel-new-york-new-york",
+      "nome": "Park Central Hotel New York",
+      "city_name": "New York",
+      "indirizzo": "870 7th Ave, New York, NY 10019",
+      "lat": 40.764596,
+      "lng": -73.980951
+    },
+    {
+      "id": "08af5806-4b60-41d1-8f58-6739714ea172",
+      "slug": "sanctuary-hotel-new-york-new-york",
+      "nome": "Sanctuary Hotel New York",
+      "city_name": "New York",
+      "indirizzo": "132 W 47th St, New York, NY 10036",
+      "lat": 40.758492,
+      "lng": -73.98311
+    }
+  ]
+}

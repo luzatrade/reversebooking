@@ -1,0 +1,323 @@
+{
+  "block": 180,
+  "blockId": "180",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "59aca6a2-365b-45d7-baa1-681a80ec3123",
+      "slug": "affittacamera-da-felice-avellino",
+      "nome": "Affittacamera Da Felice",
+      "city_name": "Avellino",
+      "indirizzo": "Via Ferrari Canale, 13, 83028 Canale AV",
+      "lat": 40.858138,
+      "lng": 14.849526
+    },
+    {
+      "id": "ed7c73bb-4e0a-4ead-89d6-6cc7198872cb",
+      "slug": "b-b-casicarillo-800-avellino",
+      "nome": "B&b Casicarillo 800",
+      "city_name": "Avellino",
+      "indirizzo": "Vicolo Casicarillo, 34, 83028 Serino AV",
+      "lat": 40.854429,
+      "lng": 14.871918
+    },
+    {
+      "id": "2a0b89d6-4382-4b10-a60f-00946aff549f",
+      "slug": "b-b-torrette-avellino",
+      "nome": "B&B Torrette",
+      "city_name": "Avellino",
+      "indirizzo": "Via Nazionale, 148, 83013 Mercogliano AV",
+      "lat": 40.906729,
+      "lng": 14.759609
+    },
+    {
+      "id": "d7ed52e1-61fe-4e28-bf02-79ef53c3fd4f",
+      "slug": "bed-breakfast-villa-antinea-avellino",
+      "nome": "Bed & Breakfast Villa Antinea",
+      "city_name": "Avellino",
+      "indirizzo": "Via dei Due Principati, 36, 83100 Avellino AV",
+      "lat": 40.905854,
+      "lng": 14.798495
+    },
+    {
+      "id": "07b5999a-5d16-4eb8-9634-80794fc49d6f",
+      "slug": "il-posto-accanto-avellino",
+      "nome": "Il Posto Accanto",
+      "city_name": "Avellino",
+      "indirizzo": "Via Brigata Avellino, 21, 83100 Avellino AV",
+      "lat": 40.91074,
+      "lng": 14.774735
+    },
+    {
+      "id": "44107cc1-1a6d-4372-a160-9eb8045b58c0",
+      "slug": "vea-resort-hotel-avellino",
+      "nome": "Vea Resort Hotel",
+      "city_name": "Avellino",
+      "indirizzo": "Via S. Gerardo Maiella, 84085 Ciorani SA",
+      "lat": 40.80612,
+      "lng": 14.734786
+    },
+    {
+      "id": "cd5e0411-caee-419f-a5c0-d2976f30a0c7",
+      "slug": "villa-masullo-bed-breakfast-avellino",
+      "nome": "Villa Masullo Bed & Breakfast",
+      "city_name": "Avellino",
+      "indirizzo": "Via Sala, 77, 83013 Torelli-torrette AV",
+      "lat": 40.906441,
+      "lng": 14.742368
+    },
+    {
+      "id": "65ad6de6-c972-4107-8c1b-c2375847d6c8",
+      "slug": "albergo-piazzatorre-averara",
+      "nome": "Albergo Piazzatorre",
+      "city_name": "Averara",
+      "indirizzo": "Via Centro, 21, 24010 Piazzatorre BG",
+      "lat": 45.990011,
+      "lng": 9.681004
+    },
+    {
+      "id": "f9c3f3ef-5431-4bfc-a90a-36cac6daa864",
+      "slug": "albergo-ristorante-coira-averara",
+      "nome": "Albergo Ristorante Coira",
+      "city_name": "Averara",
+      "indirizzo": "Via Muggiasca, 9, 24010 Colla-muggiasca BG",
+      "lat": 45.983241,
+      "lng": 9.623495
+    },
+    {
+      "id": "e07ce90b-2967-4cd1-a3c0-a57bd4291cdc",
+      "slug": "albergo-ristorante-luisella-averara",
+      "nome": "Albergo Ristorante Luisella",
+      "city_name": "Averara",
+      "indirizzo": "Viale Europa, 12, 24017 Serina BG",
+      "lat": 45.884304,
+      "lng": 9.741625
+    },
+    {
+      "id": "e98d1fdb-71ec-4d14-ac9e-6bd351af7cf8",
+      "slug": "albergo-ristorante-pizzo-tre-signori-averara",
+      "nome": "Albergo Ristorante Pizzo Tre Signori",
+      "city_name": "Averara",
+      "indirizzo": "Via Comm Pietro Busi, 25, 24010 Valtorta BG",
+      "lat": 45.97729,
+      "lng": 9.53556
+    },
+    {
+      "id": "22a1ca77-1ef5-462d-aabd-5e3f8014717f",
+      "slug": "albergo-ristorante-sole-averara",
+      "nome": "Albergo Ristorante Sole",
+      "city_name": "Averara",
+      "indirizzo": "Via Dottore Giuseppe Bonandrini, 4, 24010 Mezzoldo BG",
+      "lat": 46.012896,
+      "lng": 9.664857
+    },
+    {
+      "id": "9ad684b5-9fed-4ea7-ad6e-5d6f986237e6",
+      "slug": "b-b-22-santa-brigida-averara",
+      "nome": "B&B 22 - Santa Brigida",
+      "city_name": "Averara",
+      "indirizzo": "Via Taleggio, 22, 24010 Santa Brigida BG",
+      "lat": 45.991793,
+      "lng": 9.625026
+    },
+    {
+      "id": "e84f0968-37ef-44aa-b533-ce2f2c95b358",
+      "slug": "b-b-luna-averara",
+      "nome": "B&B Luna",
+      "city_name": "Averara",
+      "indirizzo": "Via P. Boselli, 48, 24015 San Giovanni Bianco BG",
+      "lat": 45.870356,
+      "lng": 9.652047
+    },
+    {
+      "id": "481a83c9-9d07-4659-b812-db4e93369734",
+      "slug": "bed-and-breakfast-santa-brigida-averara",
+      "nome": "Bed and Breakfast - Santa Brigida",
+      "city_name": "Averara",
+      "indirizzo": "Via Monticello, 4, 24010 Colla-muggiasca BG",
+      "lat": 45.984164,
+      "lng": 9.619988
+    },
+    {
+      "id": "e5858cdf-8595-4b6e-89f0-c870c14f071b",
+      "slug": "hotel-adler-averara",
+      "nome": "Hotel Adler",
+      "city_name": "Averara",
+      "indirizzo": "Via Ronchi, 65, 24010 Foppolo BG",
+      "lat": 46.042742,
+      "lng": 9.757881
+    },
+    {
+      "id": "9b2eb17d-0e6c-4b96-b6b0-817b81b04b54",
+      "slug": "hotel-corona-averara",
+      "nome": "Hotel Corona",
+      "city_name": "Averara",
+      "indirizzo": "Via S. Rocco, 8, 24010 Branzi BG",
+      "lat": 46.00076,
+      "lng": 9.758241
+    },
+    {
+      "id": "28b0db95-2066-40e8-9190-9e524126a9ee",
+      "slug": "hotel-cristallo-di-venfra-srl-averara",
+      "nome": "HOTEL CRISTALLO di VENFRA srl",
+      "city_name": "Averara",
+      "indirizzo": "53, V. Ronchi, 24010 Foppolo BG",
+      "lat": 46.042341,
+      "lng": 9.757282
+    },
+    {
+      "id": "aca81bbc-c6f6-4e65-b8e8-4789c9eda3f7",
+      "slug": "hotel-miramonti-averara",
+      "nome": "Hotel Miramonti",
+      "city_name": "Averara",
+      "indirizzo": "Via Giuseppe Verdi, 2, 24017 Serina BG",
+      "lat": 45.874041,
+      "lng": 9.718095
+    },
+    {
+      "id": "263cc5f6-3793-414a-8d6c-9e997192f68f",
+      "slug": "hotel-ristorante-pedretti-averara",
+      "nome": "Hotel Ristorante Pedretti",
+      "city_name": "Averara",
+      "indirizzo": "Via Umberto I, 23, 24010 Branzi BG",
+      "lat": 46.002778,
+      "lng": 9.759167
+    },
+    {
+      "id": "745fcc96-3680-4681-b20c-76fc69c43c3f",
+      "slug": "hotel-ristorante-pizzeria-molinari-averara",
+      "nome": "Hotel Ristorante Pizzeria Molinari",
+      "city_name": "Averara",
+      "indirizzo": "z, Via Cari a Tutti, 34, 24010 Piazzolo BG",
+      "lat": 45.980103,
+      "lng": 9.670804
+    },
+    {
+      "id": "592dd37d-6d73-42ac-b4ec-31a6a2b6a1f3",
+      "slug": "locanda-al-lago-averara",
+      "nome": "Locanda al Lago",
+      "city_name": "Averara",
+      "indirizzo": "Via del Ponte, 1, 24010 Cassiglio BG",
+      "lat": 45.966636,
+      "lng": 9.610824
+    },
+    {
+      "id": "7cff75a7-761c-4482-85e9-634321dc118c",
+      "slug": "ostello-brembo-camere-e-relax-averara",
+      "nome": "Ostello Brembo - Camere e relax",
+      "city_name": "Averara",
+      "indirizzo": "Via Orbrembo, 20, 24010 Camerata Cornello BG",
+      "lat": 45.896473,
+      "lng": 9.656383
+    },
+    {
+      "id": "05a3af0c-dcd7-4f76-8008-bb24af46b47d",
+      "slug": "ristorante-albergo-pierino-di-stracchi-daniela-averara",
+      "nome": "Ristorante Albergo Pierino Di Stracchi Daniela",
+      "city_name": "Averara",
+      "indirizzo": "Via Roma, 16, 24010 Cusio BG",
+      "lat": 45.990843,
+      "lng": 9.60267
+    },
+    {
+      "id": "7b540759-80a3-413a-bda0-680e7e7c0090",
+      "slug": "romantiche-orobie-b-b-averara",
+      "nome": "Romantiche Orobie B&B",
+      "city_name": "Averara",
+      "indirizzo": "Via Oro, 24, 24010 Baresi BG",
+      "lat": 45.951949,
+      "lng": 9.732452
+    },
+    {
+      "id": "de9b099a-f576-412d-a0fe-452579fdf595",
+      "slug": "b-b-dimora-normanna-aversa",
+      "nome": "B&B Dimora Normanna",
+      "city_name": "Aversa",
+      "indirizzo": "Via Isonzo, 42, 81031 Aversa CE",
+      "lat": 40.972012,
+      "lng": 14.20954
+    },
+    {
+      "id": "6cc8313d-e4fd-43c9-8274-dfaef0ac1882",
+      "slug": "b-b-sognando-vietri-e-spa-esclusiva-aversa",
+      "nome": "B&B Sognando Vietri e Spa esclusiva",
+      "city_name": "Aversa",
+      "indirizzo": "Via Isonzo, 81, 81031 Aversa CE",
+      "lat": 40.972205,
+      "lng": 14.209923
+    },
+    {
+      "id": "3f4dc75b-1517-4650-afa1-5fd36a1535a7",
+      "slug": "giardininormanni-aversa",
+      "nome": "GiardiniNormanni",
+      "city_name": "Aversa",
+      "indirizzo": "Via Pietro Pirolo, 4, 81031 Aversa CE",
+      "lat": 40.963846,
+      "lng": 14.204069
+    },
+    {
+      "id": "f4db8fcc-bde6-4f98-ae75-55a7779b090c",
+      "slug": "harmonia-aversa",
+      "nome": "Harmonia",
+      "city_name": "Aversa",
+      "indirizzo": "Via Arturo Garofano, 97, 81031 Aversa CE",
+      "lat": 40.967263,
+      "lng": 14.211557
+    },
+    {
+      "id": "abcf8a19-a717-4cd2-89f3-20be3ee114c4",
+      "slug": "hoa-suites-aversa",
+      "nome": "Hoa Suites",
+      "city_name": "Aversa",
+      "indirizzo": "Via Roberto Vitale, 3, 81031 Aversa CE",
+      "lat": 40.976876,
+      "lng": 14.215936
+    },
+    {
+      "id": "e0ce7e28-bb2a-4545-9f71-f59befa614ce",
+      "slug": "hotel-artemide-aversa",
+      "nome": "Hotel Artemide",
+      "city_name": "Aversa",
+      "indirizzo": "Piazza Antonio Ruberti, 81031 Aversa CE",
+      "lat": 40.97375,
+      "lng": 14.21645
+    },
+    {
+      "id": "f5d7babe-72b0-4200-9445-96bd8b5d77b2",
+      "slug": "hotel-chic-aversa",
+      "nome": "Hotel Chic",
+      "city_name": "Aversa",
+      "indirizzo": "Km. 18.700, SS7bis, 80014 Giugliano in Campania NA",
+      "lat": 40.940438,
+      "lng": 14.218035
+    },
+    {
+      "id": "9e177112-3ae1-4e30-956d-a8f9f1c5037e",
+      "slug": "hotel-del-sole-aversa",
+      "nome": "Hotel del Sole",
+      "city_name": "Aversa",
+      "indirizzo": "Piazza Giuseppe Mazzini, 27, 81031 Aversa CE",
+      "lat": 40.973297,
+      "lng": 14.216688
+    },
+    {
+      "id": "79411e12-c020-4f90-b19c-9fc4bc8008df",
+      "slug": "hotel-futuro-aversa",
+      "nome": "HOTEL FUTURO",
+      "city_name": "Aversa",
+      "indirizzo": "Via Alfredo Nobel, 5, 81031 Aversa CE",
+      "lat": 40.958468,
+      "lng": 14.212425
+    },
+    {
+      "id": "4623b3df-b923-45b5-ac5f-8aac9f33ea35",
+      "slug": "hotel-glamour-aversa",
+      "nome": "Hotel Glamour",
+      "city_name": "Aversa",
+      "indirizzo": "Vai avv.Aniello Palumbo numero 90, 80019 Qualiano NA",
+      "lat": 40.928589,
+      "lng": 14.141032
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 496,
+  "blockId": "496",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "ab8c464f-02a8-4e5d-bcab-0471aa918e32",
+      "slug": "casa-ollie-san-gimignano",
+      "nome": "Casa Ollie",
+      "city_name": "San Gimignano",
+      "indirizzo": "Località Pugiano, n16, 53037 Castel San Gimignano SI, Italia",
+      "lat": 43.417292,
+      "lng": 11.011037
+    },
+    {
+      "id": "04c958be-f751-4524-a420-71c1dd1029f2",
+      "slug": "duccio-nacci-rooms-guest-house-san-gimignano",
+      "nome": "Duccio Nacci Rooms-guest house",
+      "city_name": "San Gimignano",
+      "indirizzo": "Via S. Stefano, 6, 53037 San Gimignano SI, Italia",
+      "lat": 43.467954,
+      "lng": 11.04506
+    },
+    {
+      "id": "bf8d211a-7447-46d3-8e05-8e639bce82f6",
+      "slug": "hotel-bel-soggiorno-san-gimignano",
+      "nome": "Hotel Bel Soggiorno",
+      "city_name": "San Gimignano",
+      "indirizzo": "Via S. Giovanni, 91, 53037 San Gimignano SI, Italia",
+      "lat": 43.465363,
+      "lng": 11.042761
+    },
+    {
+      "id": "8f3643ed-abd7-4fbf-bd88-267eb3cbca20",
+      "slug": "hotel-da-graziano-san-gimignano-san-gimignano",
+      "nome": "Hotel Da Graziano - San Gimignano",
+      "city_name": "San Gimignano",
+      "indirizzo": "Via Giacomo Matteotti, 39/A, 53037 San Gimignano SI, Italia",
+      "lat": 43.462001,
+      "lng": 11.037345
+    },
+    {
+      "id": "76017be2-e333-4836-8f62-0ceb27eec1dc",
+      "slug": "hotel-la-cisterna-san-gimignano",
+      "nome": "Hotel la Cisterna",
+      "city_name": "San Gimignano",
+      "indirizzo": "Piazza Della Cisterna, 23, 53037 San Gimignano SI, Italia",
+      "lat": 43.467327,
+      "lng": 11.043953
+    },
+    {
+      "id": "874b2616-019a-47ed-985c-93858a0ff3d2",
+      "slug": "hotel-leon-bianco-san-gimignano",
+      "nome": "Hotel Leon Bianco",
+      "city_name": "San Gimignano",
+      "indirizzo": "Piazza Della Cisterna, 13, 53037 San Gimignano SI, Italia",
+      "lat": 43.467648,
+      "lng": 11.043701
+    },
+    {
+      "id": "d1fea5a5-21ae-4965-85e1-b2c4c3936748",
+      "slug": "hotel-san-michele-san-gimignano",
+      "nome": "Hotel San Michele",
+      "city_name": "San Gimignano",
+      "indirizzo": "Località Strada, Via Martiri di Citerna, 14, 53037 San Gimignano SI, Italia",
+      "lat": 43.475947,
+      "lng": 11.029779
+    },
+    {
+      "id": "5676a2b9-63fb-4d11-b550-50efafe075da",
+      "slug": "hotel-villa-belvedere-san-gimignano-san-gimignano",
+      "nome": "Hotel Villa Belvedere San Gimignano",
+      "city_name": "San Gimignano",
+      "indirizzo": "Via Dante, 14, 53037 San Gimignano SI, Italia",
+      "lat": 43.471348,
+      "lng": 11.034708
+    },
+    {
+      "id": "2aa4b31a-78f7-4810-913d-89afa0519701",
+      "slug": "le-undici-lune-san-gimignano",
+      "nome": "Le Undici Lune",
+      "city_name": "San Gimignano",
+      "indirizzo": "Via Mainardi, 9, 53037 San Gimignano SI, Italia",
+      "lat": 43.469217,
+      "lng": 11.041188
+    },
+    {
+      "id": "00a9a620-d67c-483f-8f48-83e43e576300",
+      "slug": "palazzo-al-torrione-bed-breakfast-san-gimignano",
+      "nome": "Palazzo al Torrione Bed & Breakfast",
+      "city_name": "San Gimignano",
+      "indirizzo": "Via di Berignano, 76, 53037 San Gimignano SI, Italia",
+      "lat": 43.465383,
+      "lng": 11.042114
+    },
+    {
+      "id": "1c4839fe-e0af-4fe1-ab58-b19855c6eb20",
+      "slug": "palazzo-buonaccorsi-residenza-d-epoca-san-gimignano",
+      "nome": "Palazzo Buonaccorsi Residenza d'Epoca",
+      "city_name": "San Gimignano",
+      "indirizzo": "Via S. Matteo, 95, 53037 San Gimignano SI, Italia",
+      "lat": 43.469391,
+      "lng": 11.041477
+    },
+    {
+      "id": "67732bfd-3444-49e9-96f5-28a02c44de4a",
+      "slug": "podere-sant-elena-bed-breakfast-san-gimignano-san-gimignano",
+      "nome": "Podere Sant'Elena Bed Breakfast San Gimignano",
+      "city_name": "San Gimignano",
+      "indirizzo": "Località Racciano, 42/A, 53037 San Gimignano SI, Italia",
+      "lat": 43.4599,
+      "lng": 11.025101
+    },
+    {
+      "id": "1e27c167-dc78-45b1-a207-05c1746fe4de",
+      "slug": "primetta-house-san-gimignano",
+      "nome": "Primetta House",
+      "city_name": "San Gimignano",
+      "indirizzo": "Via Giacomo Matteotti, 39, 53037 San Gimignano SI, Italia",
+      "lat": 43.461871,
+      "lng": 11.037843
+    },
+    {
+      "id": "a2c52371-6301-4f5e-bd56-06f57843cc50",
+      "slug": "relais-santa-chiara-hotel-by-double-hospitality-san-gimignano",
+      "nome": "Relais Santa Chiara Hotel by Double Hospitality",
+      "city_name": "San Gimignano",
+      "indirizzo": "Via Giacomo Matteotti, 15, 53037 San Gimignano SI, Italia",
+      "lat": 43.461679,
+      "lng": 11.038055
+    },
+    {
+      "id": "2ca4b70b-6b97-4707-a261-e76902d86465",
+      "slug": "terra-d-ombra-bed-breakfast-san-gimignano",
+      "nome": "Terra d Ombra Bed&Breakfast",
+      "city_name": "San Gimignano",
+      "indirizzo": "Via Piandornella, 13, 53037 San Gimignano SI, Italia",
+      "lat": 43.466852,
+      "lng": 11.044898
+    },
+    {
+      "id": "a716d5d0-7033-46ee-99f3-73b94dc4df7f",
+      "slug": "villa-alba-bed-breakfast-san-gimignano",
+      "nome": "Villa Alba Bed & Breakfast",
+      "city_name": "San Gimignano",
+      "indirizzo": "Via Dante, 15, 53037 San Gimignano SI, Italia",
+      "lat": 43.471003,
+      "lng": 11.035827
+    },
+    {
+      "id": "2a8040d8-226c-409f-94dc-2c5ceb448a1b",
+      "slug": "amphitrite-suites-santorini-santorini",
+      "nome": "Amphitrite Suites Santorini",
+      "city_name": "Santorini",
+      "indirizzo": "Βόθωνας 847 00",
+      "lat": 36.393021,
+      "lng": 25.450207
+    },
+    {
+      "id": "a3e0a132-9beb-4dd4-9488-0f1ec7aa9648",
+      "slug": "arotron-santorini-santorini",
+      "nome": "Arotron Santorini",
+      "city_name": "Santorini",
+      "indirizzo": "Pyrgos Kallistis 847 00",
+      "lat": 36.382313,
+      "lng": 25.4438
+    },
+    {
+      "id": "3cd27796-5e9a-4a4f-bc2b-99077099bf30",
+      "slug": "art-hotel-santorini-santorini",
+      "nome": "Art Hotel Santorini",
+      "city_name": "Santorini",
+      "indirizzo": "Pyrgos Kallistis 847 00",
+      "lat": 36.376611,
+      "lng": 25.450565
+    },
+    {
+      "id": "361458eb-fa1c-4ce1-a3c5-15d7d65a0c2e",
+      "slug": "deep-earth-villas-santorini",
+      "nome": "Deep Earth Villas",
+      "city_name": "Santorini",
+      "indirizzo": "Exo Gonia 847 00",
+      "lat": 36.388793,
+      "lng": 25.458266
+    },
+    {
+      "id": "31139abf-c192-49f6-94bd-031030977dfe",
+      "slug": "hotel-daedalous-santorini",
+      "nome": "Hotel Daedalous",
+      "city_name": "Santorini",
+      "indirizzo": "Santorini 847 00",
+      "lat": 36.393156,
+      "lng": 25.461509
+    },
+    {
+      "id": "4c8d906c-cdc8-4137-93d0-3a7e04ff8b97",
+      "slug": "hotel-orizontes-santorini-santorini",
+      "nome": "Hotel Orizontes Santorini",
+      "city_name": "Santorini",
+      "indirizzo": "Pyrgos Kallistis 847 00",
+      "lat": 36.384203,
+      "lng": 25.441931
+    },
+    {
+      "id": "3d58dcbf-bf44-47e0-8e96-36ac69088d30",
+      "slug": "kalisperis-hotel-santorini",
+      "nome": "Kalisperis Hotel",
+      "city_name": "Santorini",
+      "indirizzo": "Βόθωνας, Epar.Od. Firon-Ormou Perissis, Mesaria 847 00",
+      "lat": 36.393858,
+      "lng": 25.449513
+    },
+    {
+      "id": "fb11150e-e2e7-4b02-91df-2cd32021095c",
+      "slug": "kallos-imar-hotel-santorini",
+      "nome": "Kallos Imar Hotel",
+      "city_name": "Santorini",
+      "indirizzo": "Mesaria 847 00",
+      "lat": 36.398537,
+      "lng": 25.451626
+    },
+    {
+      "id": "02b54a42-72ca-492e-8e48-e9b7723f50ad",
+      "slug": "lilium-hotel-santorini-santorini",
+      "nome": "Lilium Hotel Santorini",
+      "city_name": "Santorini",
+      "indirizzo": "Fira, Φηρά 847 00",
+      "lat": 36.39441,
+      "lng": 25.438231
+    },
+    {
+      "id": "de9c5842-73d2-4411-85d1-79638f8c772b",
+      "slug": "petit-palace-suites-santorini",
+      "nome": "Petit Palace Suites",
+      "city_name": "Santorini",
+      "indirizzo": "Fira 847 00",
+      "lat": 36.392255,
+      "lng": 25.438684
+    },
+    {
+      "id": "92bf1c6d-c8b3-4abf-bf54-5e2ded82f89e",
+      "slug": "santorini-luxury-suites-exo-santorini",
+      "nome": "Santorini Luxury Suites - EXO",
+      "city_name": "Santorini",
+      "indirizzo": "Exo Gonia 847 00",
+      "lat": 36.386796,
+      "lng": 25.461899
+    },
+    {
+      "id": "80bfffd4-2c49-4664-b8b3-45d94d8283fc",
+      "slug": "santorini-vinery-mansion-santorini",
+      "nome": "Santorini Vinery Mansion",
+      "city_name": "Santorini",
+      "indirizzo": "Exo Gonia 847 00",
+      "lat": 36.391138,
+      "lng": 25.470854
+    },
+    {
+      "id": "4294bf7e-84f8-451c-97a5-21dc1c1782ad",
+      "slug": "smy-santorini-suites-villas-santorini",
+      "nome": "Smy Santorini Suites & Villas",
+      "city_name": "Santorini",
+      "indirizzo": "Pyrgos Kallistis 847 00",
+      "lat": 36.384091,
+      "lng": 25.44202
+    },
+    {
+      "id": "30fc73be-f780-4382-bac3-a6c3baee6301",
+      "slug": "villa-danezis-santorini",
+      "nome": "Villa Danezis",
+      "city_name": "Santorini",
+      "indirizzo": "Epar.Od. Mesarias-Archeas Thiras, Thira 847 00",
+      "lat": 36.394404,
+      "lng": 25.445919
+    },
+    {
+      "id": "907fd71a-17f7-4b1d-b783-34d94dbaee9e",
+      "slug": "villa-manos-santorini",
+      "nome": "Villa Manos",
+      "city_name": "Santorini",
+      "indirizzo": "Karterádos 847 00",
+      "lat": 36.406946,
+      "lng": 25.447168
+    },
+    {
+      "id": "e3624a2a-7ab9-40e5-a61e-edff440a6a41",
+      "slug": "14bnb-sassari",
+      "nome": "14bnb",
+      "city_name": "Sassari",
+      "indirizzo": "Via Giorgio Asproni, 14b, 07100 Sassari SS, Italia",
+      "lat": 40.721401,
+      "lng": 8.565683
+    },
+    {
+      "id": "0d92eb6e-e9aa-4f09-ad92-8b9299ba7460",
+      "slug": "b-i-c-bnb-in-centro-sassari",
+      "nome": "B.I.C. (bnb in centro)",
+      "city_name": "Sassari",
+      "indirizzo": "Via Usai, 19, 07100 Sassari SS, Italia",
+      "lat": 40.727072,
+      "lng": 8.562983
+    },
+    {
+      "id": "d467b84f-5e91-4df6-b59b-61f41528c2ef",
+      "slug": "b-b-2000-bed-and-breakfast-sassari",
+      "nome": "B&B 2000 - Bed and Breakfast",
+      "city_name": "Sassari",
+      "indirizzo": "V. Giovanni Maria Angioy, 55, 07100 Sassari SS, Italia",
+      "lat": 40.723759,
+      "lng": 8.554442
+    },
+    {
+      "id": "ae2902d2-773c-43fd-9bd0-0b9bee4bce7b",
+      "slug": "b-b-dell-abbaddu-sassari",
+      "nome": "B&B Dell' Abbaddu",
+      "city_name": "Sassari",
+      "indirizzo": "Via Abbadu, 13, 07100 Sassari SS, Italia",
+      "lat": 40.730302,
+      "lng": 8.558813
+    }
+  ]
+}

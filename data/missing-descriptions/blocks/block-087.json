@@ -1,0 +1,323 @@
+{
+  "block": 87,
+  "blockId": "087",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "738b2953-b3d6-4415-bec5-490edbfd434c",
+      "slug": "agriturismo-la-pieve-altidona",
+      "nome": "Agriturismo La Pieve",
+      "city_name": "Altidona",
+      "indirizzo": "Contrada latrocella, 11, 63873 Altidona FM",
+      "lat": 43.101609,
+      "lng": 13.801473
+    },
+    {
+      "id": "b75165ed-1bdf-4d64-9bc0-d33a095ed71d",
+      "slug": "alba-sul-mare-guest-house-altidona",
+      "nome": "Alba sul Mare Guest House",
+      "city_name": "Altidona",
+      "indirizzo": "Contrada Montecantino, 47/a, 63061 Massignano AP",
+      "lat": 43.058189,
+      "lng": 13.849577
+    },
+    {
+      "id": "013d8130-e472-49fb-befa-bf41847c5bb5",
+      "slug": "b-b-la-poeta-vicino-a14-pedaso-altidona",
+      "nome": "B&B La poeta- vicino A14 Pedaso",
+      "city_name": "Altidona",
+      "indirizzo": "Contrada Valdaso, 58, 63861 Campofilone FM",
+      "lat": 43.082236,
+      "lng": 13.795878
+    },
+    {
+      "id": "bea4cd0d-879b-4706-961a-1c969fcbbd31",
+      "slug": "b-b-vicolo-fiorito-altidona",
+      "nome": "B&B Vicolo Fiorito",
+      "city_name": "Altidona",
+      "indirizzo": "Vicolo Matteo Barabucci, 1, 63873 Altidona FM",
+      "lat": 43.107241,
+      "lng": 13.794779
+    },
+    {
+      "id": "7a8c63fc-517a-4932-a990-d357122e62f9",
+      "slug": "bar-hotel-caprice-altidona",
+      "nome": "Bar Hotel Caprice",
+      "city_name": "Altidona",
+      "indirizzo": "Via Aprutina, 43/47, 63873 Altidona FM",
+      "lat": 43.105118,
+      "lng": 13.835939
+    },
+    {
+      "id": "56a2e744-6e5c-4079-a3ba-e84f54ee6fbf",
+      "slug": "bed-breakfast-duchessa-altidona",
+      "nome": "Bed & Breakfast Duchessa",
+      "city_name": "Altidona",
+      "indirizzo": "Via Madonna Manù, 63868 Lapedona FM",
+      "lat": 43.117079,
+      "lng": 13.796314
+    },
+    {
+      "id": "bf3857ac-3814-47c2-99bb-ce5483de0c6b",
+      "slug": "bed-and-breakfast-casajo-altidona",
+      "nome": "Bed and Breakfast CASAJO",
+      "city_name": "Altidona",
+      "indirizzo": "Via Madonna Manù nr. 40, 63026 Lapedona AP",
+      "lat": 43.117171,
+      "lng": 13.796403
+    },
+    {
+      "id": "010b4801-337d-415c-891d-ba1e40bcad85",
+      "slug": "camping-garden-river-altidona",
+      "nome": "Camping Garden River",
+      "city_name": "Altidona",
+      "indirizzo": "Via Ottorino Respighi, 63873 Marina di Altidona FM",
+      "lat": 43.101749,
+      "lng": 13.830902
+    },
+    {
+      "id": "f8876c31-dc43-48c1-b8a9-5a71746a5036",
+      "slug": "casa-degli-archi-altidona",
+      "nome": "Casa degli Archi",
+      "city_name": "Altidona",
+      "indirizzo": "Via Madonna Manù, 41, 63868 Lapedona FM",
+      "lat": 43.120746,
+      "lng": 13.799728
+    },
+    {
+      "id": "713d198d-ce02-464c-ae4c-ebd0f3fc81f9",
+      "slug": "dimora-villa-ricci-altidona",
+      "nome": "Dimora Villa Ricci",
+      "city_name": "Altidona",
+      "indirizzo": "Via Guglielmo Marconi, 20, 63827 Pedaso FM",
+      "lat": 43.095641,
+      "lng": 13.84426
+    },
+    {
+      "id": "84ba3e06-cd0d-4faa-889c-233c640b9f58",
+      "slug": "hotel-palmensis-altidona",
+      "nome": "Hotel Palmensis",
+      "city_name": "Altidona",
+      "indirizzo": "Via della Stazione, 56, 63900 Fermo FM",
+      "lat": 43.148053,
+      "lng": 13.814554
+    },
+    {
+      "id": "414b45d2-69a1-4769-ba74-f7af89256afb",
+      "slug": "hotel-ristorante-rivamare-altidona",
+      "nome": "Hotel Ristorante Rivamare",
+      "city_name": "Altidona",
+      "indirizzo": "Via Montecantino, 59, 63061 Marina di Massignano AP",
+      "lat": 43.058273,
+      "lng": 13.850204
+    },
+    {
+      "id": "102259e3-970f-45c5-b215-f5f7619c1eec",
+      "slug": "hotel-ristorante-valdaso-altidona",
+      "nome": "Hotel ristorante Valdaso",
+      "city_name": "Altidona",
+      "indirizzo": "Via Papa Giovanni XXIII, 22, 63827 Pedaso FM",
+      "lat": 43.096562,
+      "lng": 13.837811
+    },
+    {
+      "id": "c62a92d4-e071-4fd8-86da-a9a65d58d73c",
+      "slug": "il-nido-di-alice-altidona",
+      "nome": "Il nido di Alice",
+      "city_name": "Altidona",
+      "indirizzo": "Via Monti di Monterubbiano, 4, 63868 Lapedona FM",
+      "lat": 43.096795,
+      "lng": 13.745365
+    },
+    {
+      "id": "428a3d8f-e8cc-40d4-93b8-2c1896cbd1e3",
+      "slug": "la-sorgente-country-house-altidona",
+      "nome": "La Sorgente Country House",
+      "city_name": "Altidona",
+      "indirizzo": "Contrada Marezi, 36/a, 63061 Massignano AP",
+      "lat": 43.054772,
+      "lng": 13.814591
+    },
+    {
+      "id": "42159642-c7e7-47ab-945c-95b3b7730f55",
+      "slug": "monna-terra-b-b-altidona",
+      "nome": "Monna Terra B&B",
+      "city_name": "Altidona",
+      "indirizzo": "Via Costa di Chiara 13/14, 63900 Torre di Palme FM",
+      "lat": 43.130442,
+      "lng": 13.798375
+    },
+    {
+      "id": "141336d7-3f92-4b60-a827-ae03718eb10d",
+      "slug": "podere-miray-agriturismo-bottega-altidona",
+      "nome": "Podere Miray Agriturismo & Bottega",
+      "city_name": "Altidona",
+      "indirizzo": "SP35, 63900 Fermo FM",
+      "lat": 43.126349,
+      "lng": 13.817481
+    },
+    {
+      "id": "6ab225f2-1c06-47d5-92b6-ff1f99258f0b",
+      "slug": "riva-verde-camping-village-residence-acquapark-altidona",
+      "nome": "Riva Verde Camping Village Residence Acquapark",
+      "city_name": "Altidona",
+      "indirizzo": "SS16, 63873 Altidona FM",
+      "lat": 43.119192,
+      "lng": 13.830738
+    },
+    {
+      "id": "323cd991-3e32-49fe-9ec4-8adfcad73cd7",
+      "slug": "vicolo-malavolta-7-rooms-and-suites-altidona",
+      "nome": "Vicolo Malavolta 7 - Rooms and Suites",
+      "city_name": "Altidona",
+      "indirizzo": "Largo Adriatico, 63873 Marina di Altidona FM",
+      "lat": 43.104937,
+      "lng": 13.834641
+    },
+    {
+      "id": "d6b14bd1-b2fa-4db8-bed2-d9560ecb3b16",
+      "slug": "albergo-residence-mistef-altilia",
+      "nome": "Albergo - Residence Mistef",
+      "city_name": "Altilia",
+      "indirizzo": "Vincolo Autostradale A3 29, 88042 Falerna CZ",
+      "lat": 38.999379,
+      "lng": 16.133589
+    },
+    {
+      "id": "0192925b-015a-4f45-881c-e04490ef3c57",
+      "slug": "albergo-carpino-altilia",
+      "nome": "Albergo Carpino",
+      "city_name": "Altilia",
+      "indirizzo": "Via Parisi, 34, 87050 Pian del Lago CS",
+      "lat": 39.19902,
+      "lng": 16.314753
+    },
+    {
+      "id": "a6cbb3d4-f0ff-4920-ab54-3c6ea059a227",
+      "slug": "azienda-agrituristica-montebeltrano-altilia",
+      "nome": "Azienda Agrituristica Montebeltrano",
+      "city_name": "Altilia",
+      "indirizzo": "87040 Montebeltrano CS",
+      "lat": 39.197214,
+      "lng": 16.29425
+    },
+    {
+      "id": "e97a421a-5f17-48c3-9cf3-ff142e34f971",
+      "slug": "b-b-calabria-altilia",
+      "nome": "B&B Calabria",
+      "city_name": "Altilia",
+      "indirizzo": "Via Roma, 7, 87057 Scigliano CS",
+      "lat": 39.127351,
+      "lng": 16.312356
+    },
+    {
+      "id": "da48c263-51a0-414f-9071-28512a0431c5",
+      "slug": "georgerock-altilia",
+      "nome": "Georgerock",
+      "city_name": "Altilia",
+      "indirizzo": "via pietragiorgi, 8, 87034 Grimaldi CS",
+      "lat": 39.125139,
+      "lng": 16.22427
+    },
+    {
+      "id": "cf162607-0aa6-4122-a5c3-acb6d5c187e8",
+      "slug": "gh-baia-di-tempsa-resort-altilia",
+      "nome": "GH Baia di Tempsa Resort",
+      "city_name": "Altilia",
+      "indirizzo": "SS 18 Tirrena Inferiore, 87032 Campora San Giovanni CS",
+      "lat": 39.051382,
+      "lng": 16.096547
+    },
+    {
+      "id": "07ae319f-8454-42f2-8a43-e466b3a8cdeb",
+      "slug": "hotel-ristorante-valle-del-savuto-altilia",
+      "nome": "Hotel Ristorante Valle del Savuto",
+      "city_name": "Altilia",
+      "indirizzo": "SS 18 Tirrena Inferiore, n 15, 87032 Campora San Giovanni CS",
+      "lat": 39.052889,
+      "lng": 16.095467
+    },
+    {
+      "id": "bf60f027-c536-4d6b-a480-ec29e80819be",
+      "slug": "l-isola-di-aurora-altilia",
+      "nome": "L'Isola di Aurora",
+      "city_name": "Altilia",
+      "indirizzo": "Località SAVUTO, 88040 Martirano CZ",
+      "lat": 39.096097,
+      "lng": 16.245672
+    },
+    {
+      "id": "1fabc4b6-4c52-46d7-aa93-f0f18f482fd2",
+      "slug": "la-scala-del-libro-altilia",
+      "nome": "La scala del libro",
+      "city_name": "Altilia",
+      "indirizzo": "Via Nazionale, 87056 Santo Stefano di Rogliano CS",
+      "lat": 39.193894,
+      "lng": 16.318292
+    },
+    {
+      "id": "b8f79428-dfa1-4d2b-81a3-3e0becf720cc",
+      "slug": "palace-hotel-una-nuova-strada-altilia",
+      "nome": "Palace Hotel Una Nuova Strada",
+      "city_name": "Altilia",
+      "indirizzo": "Viale Stazione, 88047 Nocera Terinese CZ",
+      "lat": 39.00692,
+      "lng": 16.127547
+    },
+    {
+      "id": "91a57edf-abca-45b7-8e93-d6cefd7d869f",
+      "slug": "residenza-matilde-bed-breakfast-altilia",
+      "nome": "Residenza Matilde Bed & Breakfast",
+      "city_name": "Altilia",
+      "indirizzo": "Vico 1 Granatello, 24, 87030 Fiumefreddo Bruzio CS",
+      "lat": 39.234788,
+      "lng": 16.066098
+    },
+    {
+      "id": "82fd5da5-aa26-4fc7-aa26-44736eac84dc",
+      "slug": "il-cucco-casa-vacanza-altino",
+      "nome": "“IL CUCCO” casa vacanza",
+      "city_name": "Altino",
+      "indirizzo": "Contrada Valloni, 35, 66010 Gessopalena CH",
+      "lat": 42.071168,
+      "lng": 14.283851
+    },
+    {
+      "id": "9efd8d22-cab3-4f35-bfd5-47a5e2e23308",
+      "slug": "agriturismo-casa-mia-altino",
+      "nome": "Agriturismo Casa Mia",
+      "city_name": "Altino",
+      "indirizzo": "Contrada Prangiarella, 9, 66020 Paglieta CH",
+      "lat": 42.157657,
+      "lng": 14.486968
+    },
+    {
+      "id": "664a33f8-ca2e-4674-8405-faaefe9be35f",
+      "slug": "b-b-da-nonna-nzia-altino",
+      "nome": "b&b da nonna 'Nzia",
+      "city_name": "Altino",
+      "indirizzo": "Corso Margherita, 25, 66037 Sant'Eusanio del Sangro CH",
+      "lat": 42.166462,
+      "lng": 14.333508
+    },
+    {
+      "id": "7e6def66-5256-4438-946c-60e6df5160a6",
+      "slug": "b-b-il-ghiro-altino",
+      "nome": "B&B Il Ghiro",
+      "city_name": "Altino",
+      "indirizzo": "66010 San Martino Sulla Marrucina CH, Italia",
+      "lat": 42.2246,
+      "lng": 14.214535
+    },
+    {
+      "id": "7016d37b-5bac-4444-bfe3-558139458716",
+      "slug": "b-b-il-glicine-campagnolo-altino",
+      "nome": "B&B Il Glicine Campagnolo",
+      "city_name": "Altino",
+      "indirizzo": "66041 Castelluccio CH",
+      "lat": 42.139786,
+      "lng": 14.45615
+    }
+  ]
+}

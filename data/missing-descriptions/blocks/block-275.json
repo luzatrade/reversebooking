@@ -1,0 +1,323 @@
+{
+  "block": 275,
+  "blockId": "275",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "1597306d-ae4d-423e-97ed-b8787d225c74",
+      "slug": "foresteria-di-serracavallo-bisignano",
+      "nome": "Foresteria di Serracavallo",
+      "city_name": "Bisignano",
+      "indirizzo": "Contrada Serracavallo, 87043 Bisignano CS",
+      "lat": 39.502685,
+      "lng": 16.309108
+    },
+    {
+      "id": "6211ec77-d193-48ee-8780-cd5cd42b7e55",
+      "slug": "gusto-west-bisignano",
+      "nome": "Gusto West",
+      "city_name": "Bisignano",
+      "indirizzo": "Cittadella Mediocrati, Piazza C.A. Dalla Chiesa, 26, 87043 Bisignano CS",
+      "lat": 39.503094,
+      "lng": 16.264507
+    },
+    {
+      "id": "b8f9bc39-90b4-47eb-a098-29e0cca5a1b0",
+      "slug": "kabbala-club-bisignano",
+      "nome": "kabbala club",
+      "city_name": "Bisignano",
+      "indirizzo": "Via, 87010 Campo di Fieno CS",
+      "lat": 39.435577,
+      "lng": 16.175922
+    },
+    {
+      "id": "294cfa39-919a-4811-9b78-fc7d993764c1",
+      "slug": "la-giara-b-b-bisignano",
+      "nome": "la giara b&b",
+      "city_name": "Bisignano",
+      "indirizzo": "Via Caminona, 70, 87069 San Demetrio Corone CS",
+      "lat": 39.57122,
+      "lng": 16.357473
+    },
+    {
+      "id": "277db819-c48a-4908-af78-03f2b07f829a",
+      "slug": "una-hotels-tenuta-contessa-farm-spa-cosenza-bisignano",
+      "nome": "UNA HOTELS Tenuta Contessa Farm & SPA Cosenza",
+      "city_name": "Bisignano",
+      "indirizzo": "Loc. Contessa Soprana, 87010 Montalto Uffugo CS",
+      "lat": 39.44124,
+      "lng": 16.201667
+    },
+    {
+      "id": "a04e0bde-1e97-44fa-a63e-7e847de22eae",
+      "slug": "villa-santa-caterina-bisignano",
+      "nome": "Villa \"Santa Caterina\"",
+      "city_name": "Bisignano",
+      "indirizzo": "Via Cariglialto, 76, 87046 Montalto Uffugo CS",
+      "lat": 39.418254,
+      "lng": 16.233074
+    },
+    {
+      "id": "b81948ea-cc5b-4bc2-af7a-609617af5357",
+      "slug": "villa-inkanto-resort-spa-bisignano",
+      "nome": "Villa Inkanto Resort & SPA",
+      "city_name": "Bisignano",
+      "indirizzo": "G783+38, 87043 Bisignano CS",
+      "lat": 39.51518,
+      "lng": 16.253309
+    },
+    {
+      "id": "738c9595-16bd-4048-939e-60e6096890b0",
+      "slug": "villa-piero-bisignano",
+      "nome": "Villa Piero",
+      "city_name": "Bisignano",
+      "indirizzo": "87043 Bisignano CS",
+      "lat": 39.5345,
+      "lng": 16.241156
+    },
+    {
+      "id": "0bc6a53b-4973-4dd3-81f3-5dec658c0bf5",
+      "slug": "abbadia-borgo-del-sole-bistagno",
+      "nome": "Abbadia Borgo Del Sole",
+      "city_name": "Bistagno",
+      "indirizzo": "Strada Sant'Antonio 24 Località Abba, 12060 Marsaglia CN",
+      "lat": 44.459699,
+      "lng": 8.004341
+    },
+    {
+      "id": "566fc2f1-e138-42f5-aa90-f3edfdd81dd3",
+      "slug": "agriturismo-costa-dei-platani-bistagno",
+      "nome": "Agriturismo - Costa dei Platani",
+      "city_name": "Bistagno",
+      "indirizzo": "Strada Comunale della Maggiora, 89, 15011 Acqui Terme AL",
+      "lat": 44.690419,
+      "lng": 8.485238
+    },
+    {
+      "id": "777c9a9a-90aa-4eb2-9ec7-32f66dc00370",
+      "slug": "agriturismo-san-desiderio-bistagno",
+      "nome": "Agriturismo San Desiderio",
+      "city_name": "Bistagno",
+      "indirizzo": "Regione S. Desiderio, 40, 14058 Monastero Bormida AT",
+      "lat": 44.639533,
+      "lng": 8.344283
+    },
+    {
+      "id": "e4523898-860c-4d30-bf71-a7c11acdd278",
+      "slug": "azienda-agrituristica-il-campasso-bistagno",
+      "nome": "AZIENDA AGRITURISTICA IL CAMPASSO",
+      "city_name": "Bistagno",
+      "indirizzo": "Regione Carpeneta, 21, 15019 Strevi AL",
+      "lat": 44.695564,
+      "lng": 8.514633
+    },
+    {
+      "id": "a0e2ea96-afa0-4df7-a33a-280dc04e52f2",
+      "slug": "b-b-al-sentiero-bistagno",
+      "nome": "B&B Al Sentiero",
+      "city_name": "Bistagno",
+      "indirizzo": "Regione Giovisio, 11, 15012 Bistagno AL",
+      "lat": 44.68125,
+      "lng": 8.380729
+    },
+    {
+      "id": "8ef34e7b-9399-4cf3-b565-dd5e820aa955",
+      "slug": "b-b-casa-fossello-bistagno",
+      "nome": "B&B Casa Fossello",
+      "city_name": "Bistagno",
+      "indirizzo": "Regione Fossello, 7, 14040 Montabone AT",
+      "lat": 44.693907,
+      "lng": 8.404268
+    },
+    {
+      "id": "c1681078-c95d-4395-93c2-34bd69968805",
+      "slug": "b-b-cascina-malinverni-bistagno",
+      "nome": "B&B Cascina Malinverni",
+      "city_name": "Bistagno",
+      "indirizzo": "Regione Marenco, 13, 14042 Rocchetta Palafea AT",
+      "lat": 44.696045,
+      "lng": 8.347538
+    },
+    {
+      "id": "722112d6-0116-412c-a6da-329878d03f17",
+      "slug": "b-b-da-levi-piana-del-sole-bistagno",
+      "nome": "B&B Da Levi Piana del Sole",
+      "city_name": "Bistagno",
+      "indirizzo": "Regione Presa, 71, 15010 Rivalta Bormida AL",
+      "lat": 44.711943,
+      "lng": 8.579364
+    },
+    {
+      "id": "6128cad1-3859-486d-b8d9-4b60f27da4ef",
+      "slug": "cascina-marcantonio-bistagno",
+      "nome": "Cascina Marcantonio",
+      "city_name": "Bistagno",
+      "indirizzo": "Strada Comunale della Maggiora, 140, 15011 Acqui Terme AL",
+      "lat": 44.695206,
+      "lng": 8.500908
+    },
+    {
+      "id": "bad967ee-0a1f-4da7-8db4-0152df42d2a1",
+      "slug": "hotel-monteverde-bistagno",
+      "nome": "HOTEL MONTEVERDE",
+      "city_name": "Bistagno",
+      "indirizzo": "Corso Italia, 17, 15012 Bistagno AL",
+      "lat": 44.661215,
+      "lng": 8.369218
+    },
+    {
+      "id": "e5463320-b32b-44e7-8c31-df963591f5ba",
+      "slug": "monteverde-appartamenti-bistagno",
+      "nome": "MONTEVERDE APPARTAMENTI",
+      "city_name": "Bistagno",
+      "indirizzo": "Corso Italia, 16, 15012 Bistagno AL",
+      "lat": 44.660769,
+      "lng": 8.369286
+    },
+    {
+      "id": "4389bca7-b35b-450c-aced-c328e5f4c9db",
+      "slug": "b-b-agora-bitetto",
+      "nome": "B&B Agorà",
+      "city_name": "Bitetto",
+      "indirizzo": "Piazza Aldo Moro, 19, 70020 Bitetto BA",
+      "lat": 41.039865,
+      "lng": 16.748276
+    },
+    {
+      "id": "1837b142-86a2-4203-82cd-f73f2f88c3de",
+      "slug": "b-b-la-maison-da-francy-bitetto",
+      "nome": "B&B La Maison da Francy",
+      "city_name": "Bitetto",
+      "indirizzo": "Via Giannini, 34, 70020 Bitetto BA",
+      "lat": 41.041973,
+      "lng": 16.748623
+    },
+    {
+      "id": "83bd2d73-7e90-4e5f-90cb-9fbe6cdedb9e",
+      "slug": "b-b-palazzo-1906-bitetto",
+      "nome": "B&B Palazzo 1906",
+      "city_name": "Bitetto",
+      "indirizzo": "Via Giuseppe Abbruzzese, 27, 70020 Bitetto BA",
+      "lat": 41.043596,
+      "lng": 16.751417
+    },
+    {
+      "id": "5201639b-ba8c-488f-a5c1-4798f8df422f",
+      "slug": "dimora-barone-bitetto",
+      "nome": "Dimora Barone",
+      "city_name": "Bitetto",
+      "indirizzo": "Via Sant'Antonio, 4, 70020 Bitetto BA",
+      "lat": 41.040706,
+      "lng": 16.749579
+    },
+    {
+      "id": "0c308188-47b5-44fb-8ac4-6f93a84ce4d4",
+      "slug": "epoca-b-b-bitetto",
+      "nome": "EPOCA B&B",
+      "city_name": "Bitetto",
+      "indirizzo": "Via Gatti Francesco, 23, 70020 Bitetto BA",
+      "lat": 41.041324,
+      "lng": 16.751056
+    },
+    {
+      "id": "f7ecb2ed-3d1b-4d7e-b212-8ae442eb14e8",
+      "slug": "hotel-paradise-rooms-bitetto",
+      "nome": "Hotel Paradise Rooms",
+      "city_name": "Bitetto",
+      "indirizzo": "Largo Vincenzo Carone, 4, 70020 Bitritto BA",
+      "lat": 41.040613,
+      "lng": 16.825879
+    },
+    {
+      "id": "620d4c89-fc9f-41dc-9788-442c1bef1f6e",
+      "slug": "le-segrete-casa-vacanze-bitetto",
+      "nome": "Le segrete casa vacanze",
+      "city_name": "Bitetto",
+      "indirizzo": "Via Spirito Santo, 35, 70028 Sannicandro di Bari BA",
+      "lat": 40.999237,
+      "lng": 16.798043
+    },
+    {
+      "id": "f62a5ccd-1d6e-471d-9581-c8032e79abe1",
+      "slug": "magna-domus-bitetto",
+      "nome": "Magna Domus",
+      "city_name": "Bitetto",
+      "indirizzo": "Via Guglielmo Marconi, 3, 70020 Bitetto BA",
+      "lat": 41.038424,
+      "lng": 16.750416
+    },
+    {
+      "id": "9987a06c-169e-410e-8ffb-d9991b92dbfe",
+      "slug": "pugliese16-bitetto",
+      "nome": "Pugliese16",
+      "city_name": "Bitetto",
+      "indirizzo": "Via Pugliese Giuseppe, 16, 70020 Bitetto BA",
+      "lat": 41.039914,
+      "lng": 16.749614
+    },
+    {
+      "id": "4aafb429-49cd-4046-9f72-0b82d529dde6",
+      "slug": "villa-nascente-bitetto",
+      "nome": "Villa Nascente",
+      "city_name": "Bitetto",
+      "indirizzo": "SP207, 70020 Bitetto BA",
+      "lat": 41.045253,
+      "lng": 16.741764
+    },
+    {
+      "id": "c3a356a8-2071-4ba5-b3ad-2702bae33ebf",
+      "slug": "antico-monastero-bitonto",
+      "nome": "Antico Monastero",
+      "city_name": "Bitonto",
+      "indirizzo": "Via delle Marteri, 35, 70032 Bitonto BA",
+      "lat": 41.107797,
+      "lng": 16.687537
+    },
+    {
+      "id": "d52e0687-db4e-45ce-83fa-1e4c0a3c8361",
+      "slug": "b-b-dimora-bellavista-sauna-e-colazione-italiana-bitonto",
+      "nome": "B&B Dimora Bellavista | Sauna e Colazione Italiana",
+      "city_name": "Bitonto",
+      "indirizzo": "Corte Dei Guardia, 2, 70032 Bitonto BA",
+      "lat": 41.1051,
+      "lng": 16.689059
+    },
+    {
+      "id": "db5148aa-1c6f-41b1-b0be-75d967d1dd33",
+      "slug": "b-b-il-solito-posto-bitonto",
+      "nome": "B&B Il Solito Posto",
+      "city_name": "Bitonto",
+      "indirizzo": "Via Vincenzo Rogadeo, 28, 70032 Bitonto BA",
+      "lat": 41.106583,
+      "lng": 16.692111
+    },
+    {
+      "id": "9e5e6596-4e48-4046-af8f-80b82ecea772",
+      "slug": "beb-lungo-tiflis-bitonto",
+      "nome": "Beb lungo tiflis",
+      "city_name": "Bitonto",
+      "indirizzo": "Via Solferino, 27 70032, 70032 Bitonto BA",
+      "lat": 41.105921,
+      "lng": 16.686733
+    },
+    {
+      "id": "e964f4eb-638e-4111-8c39-d6e33c0bf35c",
+      "slug": "casa-apuliae-b-b-bitonto",
+      "nome": "Casa Apuliae B&b",
+      "city_name": "Bitonto",
+      "indirizzo": "Piazza Cattedrale, 23, 70032 Bitonto BA",
+      "lat": 41.10621,
+      "lng": 16.689011
+    },
+    {
+      "id": "e49e03df-f4f0-47eb-8667-3e3855e9d20d",
+      "slug": "citta-vecchia-bitonto",
+      "nome": "Città Vecchia",
+      "city_name": "Bitonto",
+      "indirizzo": "Arco la Rocca, 70032 Bitonto BA",
+      "lat": 41.107932,
+      "lng": 16.68843
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 432,
+  "blockId": "432",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "1685bd8d-11db-4133-b670-7b733d7665e8",
+      "slug": "b-b-l-infinito-carbognano",
+      "nome": "B&B L'Infinito",
+      "city_name": "Carbognano",
+      "indirizzo": "Via Aldo Moro, 13, 01030 Carbognano VT",
+      "lat": 42.331413,
+      "lng": 12.261765
+    },
+    {
+      "id": "3c47b30d-228c-423c-a20c-550f7171145c",
+      "slug": "dimore-santa-maria-carbognano",
+      "nome": "Dimore Santa Maria",
+      "city_name": "Carbognano",
+      "indirizzo": "Via San Maria, 5, 01030 Carbognano VT",
+      "lat": 42.331443,
+      "lng": 12.26749
+    },
+    {
+      "id": "e9e7f88f-91c8-4be0-9db9-9ada3dabcd93",
+      "slug": "ros-s-house-carbognano",
+      "nome": "Ros's house",
+      "city_name": "Carbognano",
+      "indirizzo": "Via Ugo Petrucci, 5, 01030 Corchiano VT",
+      "lat": 42.3461,
+      "lng": 12.358822
+    },
+    {
+      "id": "d77aa3a7-8425-43e4-afbc-d4c94663d2ed",
+      "slug": "agriturismo-cascina-san-carlo-carbonara-al-ticino",
+      "nome": "Agriturismo Cascina San Carlo",
+      "city_name": "Carbonara al Ticino",
+      "indirizzo": "527F+X2 Cascina San Carlo Loc. S. Spirito, Cascina Santo Spirito, 27027 Gropello Cairoli PV",
+      "lat": 45.165067,
+      "lng": 9.023265
+    },
+    {
+      "id": "d4d25295-e196-4537-ae4e-2c3a508049aa",
+      "slug": "corte-cairoli-b-b-carbonara-al-ticino",
+      "nome": "Corte Cairoli B&B",
+      "city_name": "Carbonara al Ticino",
+      "indirizzo": "Via Cairoli, 13, 27027 Gropello Cairoli PV",
+      "lat": 45.177736,
+      "lng": 8.991514
+    },
+    {
+      "id": "8843c4f1-2aff-46e9-80be-49da85cb860e",
+      "slug": "country-house-carbonara-al-ticino",
+      "nome": "Country House",
+      "city_name": "Carbonara al Ticino",
+      "indirizzo": "Via Villanova, 5, 27020 Zerbolò PV",
+      "lat": 45.176182,
+      "lng": 9.049288
+    },
+    {
+      "id": "e06e6151-153c-4514-ba47-2e45f0742e8c",
+      "slug": "plaza-hotel-carbonara-al-ticino",
+      "nome": "Plaza Hotel",
+      "city_name": "Carbonara al Ticino",
+      "indirizzo": "Via Palmiro Togliatti, 39, 27028 San Martino Siccomario PV",
+      "lat": 45.158828,
+      "lng": 9.130505
+    },
+    {
+      "id": "04ee29cf-f74f-4661-a197-60c89d2e8b05",
+      "slug": "relais-torre-dei-torti-luxury-bed-and-breakfast-carbonara-al-ticino",
+      "nome": "Relais Torre dei Torti - Luxury Bed and Breakfast",
+      "city_name": "Carbonara al Ticino",
+      "indirizzo": "Via Torre de Torti, 16, 27051 Cava Manara PV",
+      "lat": 45.148188,
+      "lng": 9.100598
+    },
+    {
+      "id": "d9c8fe1d-c65c-435c-8f73-a1073358ab1f",
+      "slug": "b-b-nola-casa-hyria-carbonara-di-nola",
+      "nome": "B&B Nola Casa Hyria",
+      "city_name": "Carbonara di Nola",
+      "indirizzo": "V. Nazionale delle Puglie, 160, 80035 Nola NA",
+      "lat": 40.936455,
+      "lng": 14.512391
+    },
+    {
+      "id": "a3dc6cbe-0c80-4621-9794-cb3551865321",
+      "slug": "complesso-villa-lina-carbonara-di-nola",
+      "nome": "Complesso Villa Lina",
+      "city_name": "Carbonara di Nola",
+      "indirizzo": "Via Muro D'Arce, Via Foce, 84087 Sarno SA",
+      "lat": 40.832902,
+      "lng": 14.588129
+    },
+    {
+      "id": "526ce1df-3d99-42de-8068-2e1ddcdd887b",
+      "slug": "glam-b-b-room-carbonara-di-nola",
+      "nome": "GLAM B&B room",
+      "city_name": "Carbonara di Nola",
+      "indirizzo": "Via Botteghelle, 80047 San Giuseppe Vesuviano NA",
+      "lat": 40.835294,
+      "lng": 14.512297
+    },
+    {
+      "id": "5adf766c-2c8a-42d1-840f-5af99f05759c",
+      "slug": "hotel-belsito-carbonara-di-nola",
+      "nome": "Hotel Belsito",
+      "city_name": "Carbonara di Nola",
+      "indirizzo": "Via S. Paolo Belsito, 126, 80035 Nola NA",
+      "lat": 40.919328,
+      "lng": 14.538878
+    },
+    {
+      "id": "c150e4b6-49e9-4adf-b8c5-6482423a720c",
+      "slug": "hotel-i-gigli-ristorante-carbonara-di-nola",
+      "nome": "Hotel I Gigli & Ristorante",
+      "city_name": "Carbonara di Nola",
+      "indirizzo": "Via Giacomo Puccini, 32, 80035 Nola NA",
+      "lat": 40.932903,
+      "lng": 14.526303
+    },
+    {
+      "id": "6d2a330d-dc32-4060-b62b-ee5c1af3f212",
+      "slug": "hotel-il-giardino-degli-aranci-a-nola-carbonara-di-nola",
+      "nome": "Hotel il Giardino degli Aranci a Nola",
+      "city_name": "Carbonara di Nola",
+      "indirizzo": "Via Parrocchia, 152, 80035 Nola NA",
+      "lat": 40.877028,
+      "lng": 14.505
+    },
+    {
+      "id": "9e8dd319-6ef4-4d08-b56f-90b84bc69bce",
+      "slug": "hotel-saturday-carbonara-di-nola",
+      "nome": "Hotel Saturday",
+      "city_name": "Carbonara di Nola",
+      "indirizzo": "Via Nuova Sarno, 80036 Palma Campania NA",
+      "lat": 40.838548,
+      "lng": 14.565189
+    },
+    {
+      "id": "08c26a32-e456-430c-84f0-24b6c95f67a0",
+      "slug": "il-poggio-delle-rose-carbonara-di-nola",
+      "nome": "Il Poggio Delle Rose",
+      "city_name": "Carbonara di Nola",
+      "indirizzo": "Via Marini Boschetto 3, 83020 Domicella AV",
+      "lat": 40.879804,
+      "lng": 14.589756
+    },
+    {
+      "id": "e4d231cd-34a5-4644-8186-4a447419e9f5",
+      "slug": "la-casa-dei-coloni-carbonara-di-nola",
+      "nome": "La casa dei coloni",
+      "city_name": "Carbonara di Nola",
+      "indirizzo": "SS367, 80035 Cappella degli Spiriti NA",
+      "lat": 40.900309,
+      "lng": 14.544365
+    },
+    {
+      "id": "35f07a13-80de-42e4-8a85-3e360b837ec0",
+      "slug": "masseria-marini-hotel-carbonara-di-nola",
+      "nome": "Masseria Marini - HOTEL",
+      "city_name": "Carbonara di Nola",
+      "indirizzo": "Via del Destino, 14, 80047 San Giuseppe NA",
+      "lat": 40.836282,
+      "lng": 14.524656
+    },
+    {
+      "id": "04ae9529-d6f5-49a6-8827-1f5a72e50f41",
+      "slug": "palazzo-22-b-b-carbonara-di-nola",
+      "nome": "Palazzo 22 B&B",
+      "city_name": "Carbonara di Nola",
+      "indirizzo": "Via San Pietro, 22, 80035 Nola NA",
+      "lat": 40.931928,
+      "lng": 14.520448
+    },
+    {
+      "id": "f6bd871d-fb6f-4f90-b865-a2353846ce82",
+      "slug": "raphaelle-relais-carbonara-di-nola",
+      "nome": "Raphaëlle Relais",
+      "city_name": "Carbonara di Nola",
+      "indirizzo": "Via S. M. LA Scala, 41, 80047 San Giuseppe NA",
+      "lat": 40.826317,
+      "lng": 14.502849
+    },
+    {
+      "id": "3106389e-6710-43b3-ba0f-5ecd8e79bfc4",
+      "slug": "b-b-villa-carmen-carbonara-scrivia",
+      "nome": "B&B Villa Carmen",
+      "city_name": "Carbonara Scrivia",
+      "indirizzo": "SP134, 25, 15050 Spineto Scrivia AL",
+      "lat": 44.842433,
+      "lng": 8.865283
+    },
+    {
+      "id": "55b927d3-d64b-4e25-9541-9ab553b76000",
+      "slug": "il-carrettino-country-hotel-tortona-carbonara-scrivia",
+      "nome": "Il Carrettino Country Hotel tortona",
+      "city_name": "Carbonara Scrivia",
+      "indirizzo": "Strada Provinciale per Pozzolo Formigaro, 15, 15057 Tortona AL",
+      "lat": 44.867638,
+      "lng": 8.825202
+    },
+    {
+      "id": "6a19eefb-60de-4418-b13a-3e2bfea7a60e",
+      "slug": "malpassuti-resort-carbonara-scrivia",
+      "nome": "Malpassuti Resort",
+      "city_name": "Carbonara Scrivia",
+      "indirizzo": "Vicolo A. Cantù, 11, 15050 Carbonara Scrivia AL",
+      "lat": 44.849926,
+      "lng": 8.869656
+    },
+    {
+      "id": "becea4f0-f52e-473e-bec0-b82f147cdae4",
+      "slug": "spineto-house-carbonara-scrivia",
+      "nome": "Spineto House",
+      "city_name": "Carbonara Scrivia",
+      "indirizzo": "Via Bruno Buozzi, 6, 15050 Spineto Scrivia AL",
+      "lat": 44.836579,
+      "lng": 8.871638
+    },
+    {
+      "id": "7e159179-b7ea-4a80-ac34-f9430c893252",
+      "slug": "b-b-siris-affittacamere-carbone",
+      "nome": "B&B Siris Affittacamere",
+      "city_name": "Carbone",
+      "indirizzo": "Contrada Pietrapica, 85032 Chiaromonte PZ",
+      "lat": 40.074071,
+      "lng": 16.160056
+    },
+    {
+      "id": "5235b34b-2b8b-49c7-a701-cfbd3922aded",
+      "slug": "hotel-ricevimenti-piccolo-paradiso-latronico-carbone",
+      "nome": "Hotel & Ricevimenti Piccolo Paradiso – Latronico",
+      "city_name": "Carbone",
+      "indirizzo": "Contrada Torre, KM 17,470, 85043 Latronico PZ",
+      "lat": 40.071471,
+      "lng": 16.05106
+    },
+    {
+      "id": "b7459e94-e49b-46ea-b5b1-f212d9277458",
+      "slug": "hotel-mulino-iannarelli-carbone",
+      "nome": "Hotel Mulino Iannarelli",
+      "city_name": "Carbone",
+      "indirizzo": "Mezzana Salice, 85030 San Severino Lucano PZ",
+      "lat": 39.979274,
+      "lng": 16.173059
+    },
+    {
+      "id": "5cedf589-3164-46f4-81a9-f63289871e81",
+      "slug": "hotel-sette-e-mezzo-carbone",
+      "nome": "Hotel Sette e Mezzo",
+      "city_name": "Carbone",
+      "indirizzo": "e caduti di, Via Aldo Moro e Caduti Via Fani, 30, 85040 Castelluccio Superiore PZ",
+      "lat": 40.010313,
+      "lng": 15.969877
+    },
+    {
+      "id": "3063fbfd-576f-4c1d-86c4-c581297a3add",
+      "slug": "leukos-bed-and-breakfast-carbone",
+      "nome": "Leukòs Bed and Breakfast",
+      "city_name": "Carbone",
+      "indirizzo": "Via Ciro Fontana, 85031 Castelsaraceno PZ",
+      "lat": 40.163179,
+      "lng": 15.990235
+    },
+    {
+      "id": "6a04eb22-dfa1-4a73-9b44-d3b6ece98777",
+      "slug": "terrazze-sul-frido-carbone",
+      "nome": "Terrazze sul Frido",
+      "city_name": "Carbone",
+      "indirizzo": "C/da conocchielle 11, 85040 Viggianello PZ",
+      "lat": 39.974727,
+      "lng": 16.170506
+    },
+    {
+      "id": "b8f7ed4f-bf2f-4adb-bef9-ae29385443d2",
+      "slug": "a-casa-di-ita-carbonera",
+      "nome": "A casa di Ita",
+      "city_name": "Carbonera",
+      "indirizzo": "Via Trieste, 48D, 31020 Fontane TV",
+      "lat": 45.715233,
+      "lng": 12.245358
+    },
+    {
+      "id": "6be1c37c-a0a1-484b-b348-bbd60fb8280a",
+      "slug": "b-b-al-parco-storga-carbonera",
+      "nome": "B&B Al Parco Storga",
+      "city_name": "Carbonera",
+      "indirizzo": "Via M. Gandino, 38, 31100 Treviso TV",
+      "lat": 45.679592,
+      "lng": 12.262685
+    },
+    {
+      "id": "2937bf0e-75e4-4d41-bb60-b544312aba20",
+      "slug": "bed-breakfast-via-barbano-carbonera",
+      "nome": "Bed & Breakfast Via Barbano",
+      "city_name": "Carbonera",
+      "indirizzo": "Via Barbano da Treviso, 22, 31100 Treviso TV",
+      "lat": 45.659054,
+      "lng": 12.276014
+    },
+    {
+      "id": "13ba7d75-236c-412f-9bb5-a594e59a8eac",
+      "slug": "bed-and-breakfast-canziane-treviso-carbonera",
+      "nome": "Bed and breakfast Canziane - Treviso",
+      "city_name": "Carbonera",
+      "indirizzo": "Via Grande di Carbonera, 54, 31030 Carbonera TV",
+      "lat": 45.681529,
+      "lng": 12.298185
+    },
+    {
+      "id": "9943019f-5d0e-4ece-a744-df8966723f9c",
+      "slug": "best-western-titian-inn-hotel-treviso-carbonera",
+      "nome": "Best Western Titian Inn Hotel Treviso",
+      "city_name": "Carbonera",
+      "indirizzo": "Via Callalta, 87, 31057 Silea TV",
+      "lat": 45.662473,
+      "lng": 12.29648
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 445,
+  "blockId": "445",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "f8b48ad8-cb73-46e1-ab0e-fa3010a73895",
+      "slug": "residence-albergo-tre-re-carpineti",
+      "nome": "Residence Albergo Tre Re",
+      "city_name": "Carpineti",
+      "indirizzo": "Via Roma, 17, 42035 Castelnovo ne' Monti RE",
+      "lat": 44.435089,
+      "lng": 10.405792
+    },
+    {
+      "id": "f6b970f1-3b35-429b-a5da-a9ad43ce3cba",
+      "slug": "ristorante-al-ciocco-carpineti",
+      "nome": "Ristorante Al Ciocco",
+      "city_name": "Carpineti",
+      "indirizzo": "Via Palloncino-tia, 2, 41045 Farneta MO",
+      "lat": 44.346615,
+      "lng": 10.569828
+    },
+    {
+      "id": "2729caf0-ece9-4f04-9efe-fc300ce79dd1",
+      "slug": "villa-clore-hotel-spa-carpineti",
+      "nome": "Villa Clorè Hotel & Spa",
+      "city_name": "Carpineti",
+      "indirizzo": "Via per Palagano, 9, 41023 Lama Mocogno MO",
+      "lat": 44.308327,
+      "lng": 10.733366
+    },
+    {
+      "id": "3bcfb6d2-a74d-4e3b-927a-199911eff26c",
+      "slug": "agriturismo-via-del-campo-carpineto-della-nora",
+      "nome": "Agriturismo Via Del Campo",
+      "city_name": "Carpineto della Nora",
+      "indirizzo": "Contrada Le Monache, 9, 65019 Pianella PE",
+      "lat": 42.406877,
+      "lng": 14.060015
+    },
+    {
+      "id": "5599354e-130a-4298-aee3-80d890965fdf",
+      "slug": "almond-b-b-carpineto-della-nora",
+      "nome": "ALMOND B&B",
+      "city_name": "Carpineto della Nora",
+      "indirizzo": "Vico Fonte Umano, 12, 65013 Fonte Umano PE",
+      "lat": 42.521701,
+      "lng": 14.116248
+    },
+    {
+      "id": "476aee09-a119-44ea-8032-c3596cde492a",
+      "slug": "b-b-aterno-carpineto-della-nora",
+      "nome": "B&B Aterno",
+      "city_name": "Carpineto della Nora",
+      "indirizzo": "Via Aterno, 65015 Montesilvano PE",
+      "lat": 42.509129,
+      "lng": 14.144431
+    },
+    {
+      "id": "da2c2a40-3517-4771-be01-fa464d378b57",
+      "slug": "b-b-don-pasquale-carpineto-della-nora",
+      "nome": "B&B Don Pasquale",
+      "city_name": "Carpineto della Nora",
+      "indirizzo": "Piazza Duca Abruzzi, 18, 65010 Picciano PE",
+      "lat": 42.47606,
+      "lng": 13.989131
+    },
+    {
+      "id": "952d0ff5-caaa-48ab-95dd-beb35f3df71f",
+      "slug": "b-b-l-albero-di-antonia-carpineto-della-nora",
+      "nome": "B&B L'albero di Antonia",
+      "city_name": "Carpineto della Nora",
+      "indirizzo": "Via Aristotele Pacini, 5, 64032 Atri TE",
+      "lat": 42.573098,
+      "lng": 13.99476
+    },
+    {
+      "id": "4d44e8e5-4565-4677-a6b4-61018f08d7cc",
+      "slug": "b-b-la-casa-dei-nonni-carpineto-della-nora",
+      "nome": "B&b la Casa dei Nonni",
+      "city_name": "Carpineto della Nora",
+      "indirizzo": "Contrada S. Silvestro, 97, 64028 Silvi TE",
+      "lat": 42.550668,
+      "lng": 14.098993
+    },
+    {
+      "id": "39da9d6e-45ab-482f-8599-0ec0b9cd6d13",
+      "slug": "b-b-la-casetta-carpineto-della-nora",
+      "nome": "B&B La Casetta",
+      "city_name": "Carpineto della Nora",
+      "indirizzo": "Via S. Martino, 67, 65013 San Martino Bassa PE",
+      "lat": 42.514325,
+      "lng": 14.125491
+    },
+    {
+      "id": "c4428151-623b-4c37-bbcd-0929630d929b",
+      "slug": "b-b-la-colonna-carpineto-della-nora",
+      "nome": "B&B La Colonna",
+      "city_name": "Carpineto della Nora",
+      "indirizzo": "Contrada Scarangi, 00032 Carpineto Romano RM",
+      "lat": 41.612192,
+      "lng": 13.070282
+    },
+    {
+      "id": "27cd6ffe-f831-4484-9570-b20e4d743a33",
+      "slug": "b-b-la-peschiera-carpineto-della-nora",
+      "nome": "B&B La Peschiera",
+      "city_name": "Carpineto della Nora",
+      "indirizzo": "Via D. Alighieri, 113, 00032 Carpineto Romano RM",
+      "lat": 41.608334,
+      "lng": 13.082891
+    },
+    {
+      "id": "b0adcdbd-5b30-4b1c-a74c-b75ae5505bde",
+      "slug": "bed-breakfast-oasi-carpineto-della-nora",
+      "nome": "Bed & Breakfast OASI",
+      "city_name": "Carpineto della Nora",
+      "indirizzo": "Via I Maggio, 16, 64025 Pineto TE",
+      "lat": 42.612468,
+      "lng": 14.065085
+    },
+    {
+      "id": "8cb8f7bc-3cd4-4de0-b935-406d91d7821c",
+      "slug": "bed-and-breakfast-la-casa-del-casale-carpineto-della-nora",
+      "nome": "Bed and Breakfast La Casa del Casale",
+      "city_name": "Carpineto della Nora",
+      "indirizzo": "Via del Casale, 3, 64026 Casal Thaulero TE",
+      "lat": 42.658309,
+      "lng": 13.97439
+    },
+    {
+      "id": "6782fb8c-352d-4669-b69b-d557efe18c7d",
+      "slug": "bed-and-breakfast-la-casa-di-rinaldo-carpineto-della-nora",
+      "nome": "Bed and Breakfast La Casa di Rinaldo",
+      "city_name": "Carpineto della Nora",
+      "indirizzo": "Via Vomano Vecchio, 18, 64025 Pineto TE",
+      "lat": 42.646577,
+      "lng": 14.038331
+    },
+    {
+      "id": "9798a252-6096-4868-bc0d-b00d74002c84",
+      "slug": "bed-and-breakfast-le-valli-del-cerrano-carpineto-della-nora",
+      "nome": "Bed and Breakfast Le Valli del Cerrano",
+      "city_name": "Carpineto della Nora",
+      "indirizzo": "Via Colle Cretone>via Arlini,52 64025, 64026 Pineto TE",
+      "lat": 42.583737,
+      "lng": 14.071904
+    },
+    {
+      "id": "33494604-4ae5-49aa-845f-6f7b1bd8ba81",
+      "slug": "casale-adriatico-b-b-carpineto-della-nora",
+      "nome": "Casale Adriatico B&B",
+      "city_name": "Carpineto della Nora",
+      "indirizzo": "Via Arlini, 34, 64025 Pineto TE",
+      "lat": 42.588968,
+      "lng": 14.073912
+    },
+    {
+      "id": "3fa2a08a-d68c-46a7-adf2-3fd70873d517",
+      "slug": "sinilu-b-b-carpineto-della-nora",
+      "nome": "Sinilù B&B",
+      "city_name": "Carpineto della Nora",
+      "indirizzo": "Via Indipendenza, 10, 64028 Pianacce TE",
+      "lat": 42.554996,
+      "lng": 14.085628
+    },
+    {
+      "id": "ab928f1a-8aea-47ca-9265-8e93eae9ed5a",
+      "slug": "b-b-villa-olimpia-carpineto-romano",
+      "nome": "B&B Villa Olimpia",
+      "city_name": "Carpineto Romano",
+      "indirizzo": "Piazza Regina Margherita, 00032 Carpineto Romano RM",
+      "lat": 41.605627,
+      "lng": 13.086097
+    },
+    {
+      "id": "514a8ae5-fd26-47a7-aea0-e00027490d7c",
+      "slug": "hotel-colosseo-colleferro-roma-carpineto-romano",
+      "nome": "Hotel Colosseo Colleferro roma",
+      "city_name": "Carpineto Romano",
+      "indirizzo": "Via Artigianato, 69, 00034 Colleferro RM",
+      "lat": 41.734397,
+      "lng": 13.009893
+    },
+    {
+      "id": "602013d2-a753-4fad-b927-12d650fd5872",
+      "slug": "il-colle-rentrooms-carpineto-romano",
+      "nome": "Il Colle Rentrooms",
+      "city_name": "Carpineto Romano",
+      "indirizzo": "Via pietralata, 03013 Ferentino FR",
+      "lat": 41.69007,
+      "lng": 13.267123
+    },
+    {
+      "id": "8998158a-cade-4ca2-b688-913c42fbb5c9",
+      "slug": "il-paradiso-carpineto-romano",
+      "nome": "Il Paradiso",
+      "city_name": "Carpineto Romano",
+      "indirizzo": "Via Monti Appennini, 27, 04100 Latina LT",
+      "lat": 41.48231,
+      "lng": 12.904057
+    },
+    {
+      "id": "babfe8e5-7497-4fc0-b9d1-edf5c47e0ca6",
+      "slug": "jo-sedio-residenza-carpineto-romano",
+      "nome": "Jo Sedio residenza",
+      "city_name": "Carpineto Romano",
+      "indirizzo": "Via Cavour, 84, 00032 Carpineto Romano RM",
+      "lat": 41.604069,
+      "lng": 13.088049
+    },
+    {
+      "id": "25f0c164-e72d-49c6-a3e8-e789691d99c7",
+      "slug": "la-tana-delle-lepri-carpineto-romano",
+      "nome": "La Tana Delle Lepri",
+      "city_name": "Carpineto Romano",
+      "indirizzo": "SP11, 71/B, 03017 Morolo FR",
+      "lat": 41.647135,
+      "lng": 13.216376
+    },
+    {
+      "id": "1ff4aa7f-d96b-4d9e-aff4-32f9d85b23f2",
+      "slug": "agriturismo-il-tratturo-carpineto-sinello",
+      "nome": "Agriturismo Il Tratturo",
+      "city_name": "Carpineto Sinello",
+      "indirizzo": "Via Vilignina 1, 50, 66054 Vasto CH",
+      "lat": 42.085268,
+      "lng": 14.705059
+    },
+    {
+      "id": "bd054364-a830-4927-af04-c25649d17bad",
+      "slug": "agriturismo-montagnola-carpineto-sinello",
+      "nome": "Agriturismo Montagnola",
+      "city_name": "Carpineto Sinello",
+      "indirizzo": "Contrada Matritano, 69, 66030 Carpineto Sinello CH",
+      "lat": 42.033442,
+      "lng": 14.46878
+    },
+    {
+      "id": "e4bc4565-0366-48f2-b25c-2ceebf6ff098",
+      "slug": "b-b-bellavista-carpineto-sinello",
+      "nome": "B&B BellaVista",
+      "city_name": "Carpineto Sinello",
+      "indirizzo": "Via Lota, 19/F, 66054 Vasto CH",
+      "lat": 42.096691,
+      "lng": 14.701184
+    },
+    {
+      "id": "392e2fc3-9d43-4647-87e3-b53c4a081e3c",
+      "slug": "b-b-il-glicine-carpineto-sinello-ch-medio-vastes-carpineto-sinello",
+      "nome": "B&B IL Glicine Carpineto Sinello CH medio Vastese",
+      "city_name": "Carpineto Sinello",
+      "indirizzo": "Piazza Guglielmo Marconi, 3, 66030 Carpineto Sinello CH",
+      "lat": 42.010552,
+      "lng": 14.503873
+    },
+    {
+      "id": "798b3bfd-0355-4470-b777-77da060c6b55",
+      "slug": "b-b-la-dimora-carpineto-sinello",
+      "nome": "B&B La Dimora",
+      "city_name": "Carpineto Sinello",
+      "indirizzo": "Via Terranova, 5, 66052 Gissi CH",
+      "lat": 42.019597,
+      "lng": 14.544909
+    },
+    {
+      "id": "dcde4721-85f2-4de9-8ec4-b1d08852c6e1",
+      "slug": "bella-vista-b-b-gissi-camere-appartamenti-vacanz-carpineto-sinello",
+      "nome": "Bella Vista B&B Gissi | Camere - Appartamenti Vacanze",
+      "city_name": "Carpineto Sinello",
+      "indirizzo": "Via Italia, 158, 66052 Gissi CH",
+      "lat": 42.013288,
+      "lng": 14.54677
+    },
+    {
+      "id": "61bd32f0-2b79-4ce0-a6bb-df2e200bbcf4",
+      "slug": "ca-luna-carpineto-sinello",
+      "nome": "Cà Luna",
+      "city_name": "Carpineto Sinello",
+      "indirizzo": "Viale Europa, 14, 66052 Gissi CH",
+      "lat": 42.020384,
+      "lng": 14.543858
+    },
+    {
+      "id": "4b2094c1-8e5e-46c2-8af3-b65a6d75e476",
+      "slug": "villa-polercia-carpineto-sinello",
+      "nome": "Villa Polercia",
+      "city_name": "Carpineto Sinello",
+      "indirizzo": "Contrada Polercia, 4, 66051 Cupello CH",
+      "lat": 42.072022,
+      "lng": 14.686347
+    },
+    {
+      "id": "92d7405c-54a8-4c64-9d52-391cfdff8ab8",
+      "slug": "agriturismo-torre-bruno-carpino",
+      "nome": "Agriturismo Torre Bruno",
+      "city_name": "Carpino",
+      "indirizzo": "Localita' Coppa Calva, 71010 Carpino FG",
+      "lat": 41.863327,
+      "lng": 15.865032
+    },
+    {
+      "id": "e04a7060-664d-4f31-8ed0-c1ca3bb292ef",
+      "slug": "agriturismo-villa-costanza-carpino",
+      "nome": "Agriturismo Villa Costanza",
+      "city_name": "Carpino",
+      "indirizzo": "contrada Coppa, Via della Repubblica, 71010 Carpino FG",
+      "lat": 41.847739,
+      "lng": 15.860504
+    },
+    {
+      "id": "ccacd1bb-a7be-488f-b36f-af53f7c52da2",
+      "slug": "b-b-donna-elena-vico-del-gargano-carpino",
+      "nome": "B&B Donna Elena Vico del Gargano",
+      "city_name": "Carpino",
+      "indirizzo": "V. Matassa, 15, 71018 Vico del Gargano FG",
+      "lat": 41.897088,
+      "lng": 15.955076
+    }
+  ]
+}

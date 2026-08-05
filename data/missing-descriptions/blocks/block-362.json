@@ -1,0 +1,323 @@
+{
+  "block": 362,
+  "blockId": "362",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "d27a8347-befe-49e9-b9dc-57ccdfcb009e",
+      "slug": "bnb-sole-e-luna-calcata",
+      "nome": "Bnb Sole e Luna",
+      "city_name": "Calcata",
+      "indirizzo": "V. Garibaldi, 21, 01030 Calcata Vecchia VT",
+      "lat": 42.21617,
+      "lng": 12.418443
+    },
+    {
+      "id": "0e475f5b-d192-4dba-8d59-0b3dbe63202b",
+      "slug": "francalancia-country-resort-calcata",
+      "nome": "Francalancia Country Resort",
+      "city_name": "Calcata",
+      "indirizzo": "Via Pian Braccone, 8, 00060 Castelnuovo di Porto RM",
+      "lat": 42.115223,
+      "lng": 12.493729
+    },
+    {
+      "id": "f727b61f-d826-4cba-92ea-16e304ed2da3",
+      "slug": "hotel-antico-residence-roma-calcata",
+      "nome": "Hotel Antico Residence Roma",
+      "city_name": "Calcata",
+      "indirizzo": "Via Cassia, Km 37, 01036 Nepi VT",
+      "lat": 42.171751,
+      "lng": 12.330896
+    },
+    {
+      "id": "8faa858f-97ac-41d6-9e6d-6fae4dea476b",
+      "slug": "hotel-sassacci-calcata",
+      "nome": "Hotel Sassacci",
+      "city_name": "Calcata",
+      "indirizzo": "Via Flaminia, Km 56, 01033 Civita Castellana VT",
+      "lat": 42.320647,
+      "lng": 12.43506
+    },
+    {
+      "id": "43246b34-8868-46e0-bc39-f86e7b99bc24",
+      "slug": "la-casa-sui-tetti-calcata",
+      "nome": "La Casa sui Tetti",
+      "city_name": "Calcata",
+      "indirizzo": "V. San Giovanni, 43, 01030 Calcata Vecchia VT",
+      "lat": 42.216625,
+      "lng": 12.418647
+    },
+    {
+      "id": "b415ccc9-a132-4724-bc58-04fb8480b81b",
+      "slug": "la-dolce-sosta-calcata",
+      "nome": "La Dolce Sosta",
+      "city_name": "Calcata",
+      "indirizzo": "Via di Baccano, 00063 Poggio Dell'ellera RM",
+      "lat": 42.115881,
+      "lng": 12.371084
+    },
+    {
+      "id": "d82f7a23-87a5-404e-9a53-7a329760ff7a",
+      "slug": "maisonette-fata-bislacca-calcata",
+      "nome": "MAISONETTE Fata Bislacca",
+      "city_name": "Calcata",
+      "indirizzo": "V. Tripoli, 8, 01030 Calcata Vecchia VT",
+      "lat": 42.216013,
+      "lng": 12.418845
+    },
+    {
+      "id": "5fd5a902-0ff5-4b88-a88f-65660c2f4949",
+      "slug": "romea-calcata",
+      "nome": "Romea",
+      "city_name": "Calcata",
+      "indirizzo": "Piazza Cesare Leonelli, 3, 00063 Campagnano di Roma RM",
+      "lat": 42.140621,
+      "lng": 12.382895
+    },
+    {
+      "id": "ea767a81-f8b7-4833-9b0c-b63380fa7100",
+      "slug": "stanza-d-artista-calcata-calcata",
+      "nome": "STANZA D'ARTISTA CALCATA",
+      "city_name": "Calcata",
+      "indirizzo": "P.zza Roma, 8/piano terra, 01030 Calcata Vecchia VT",
+      "lat": 42.216766,
+      "lng": 12.420394
+    },
+    {
+      "id": "24a7010a-537a-46f2-920f-055e212cdbfb",
+      "slug": "a-un-passo-dal-lago-calceranica-al-lago",
+      "nome": "A un passo dal lago",
+      "city_name": "Calceranica al Lago",
+      "indirizzo": "CIN IT022034C1D76JFWPK - CIR 17476, Via Andanta, 12, 38052 Caldonazzo TN",
+      "lat": 46.000932,
+      "lng": 11.259912
+    },
+    {
+      "id": "510952ac-0bb1-4eee-b2af-f52a6b0885df",
+      "slug": "agriturismo-la-barberina-calceranica-al-lago",
+      "nome": "agriturismo la barberina",
+      "city_name": "Calceranica al Lago",
+      "indirizzo": "Piazza Sugarina, 8, 38050 Calceranica al Lago TN",
+      "lat": 46.00251,
+      "lng": 11.24357
+    },
+    {
+      "id": "702fe889-a8a2-43ec-8689-a39d66c71f7e",
+      "slug": "agriturismo-verdecrudo-calceranica-al-lago",
+      "nome": "Agriturismo Verdecrudo",
+      "city_name": "Calceranica al Lago",
+      "indirizzo": "località Maso Murari, 1, 38050 Calceranica al Lago TN",
+      "lat": 45.99269,
+      "lng": 11.24916
+    },
+    {
+      "id": "7e95480f-55de-4d3b-9d09-2bf1081e5b9d",
+      "slug": "albergo-alla-torre-calceranica-al-lago",
+      "nome": "Albergo alla Torre",
+      "city_name": "Calceranica al Lago",
+      "indirizzo": "Via della Villa, 37, 38052 Caldonazzo TN",
+      "lat": 45.992558,
+      "lng": 11.259408
+    },
+    {
+      "id": "b7a4986f-fd3f-4d2c-a61e-b1e8cc281dd0",
+      "slug": "albergo-micamada-calceranica-al-lago",
+      "nome": "Albergo Micamada",
+      "city_name": "Calceranica al Lago",
+      "indirizzo": "Via S. Pietro, 3, 38050 Calceranica al Lago TN",
+      "lat": 46.004948,
+      "lng": 11.246637
+    },
+    {
+      "id": "c8f4dcde-5c80-4a25-a3cd-239ee0602f0f",
+      "slug": "alla-pieve-calceranica-al-lago",
+      "nome": "Alla Pieve",
+      "city_name": "Calceranica al Lago",
+      "indirizzo": "Via don Enrico Angeli, 38, 38050 Calceranica al Lago TN",
+      "lat": 46.005015,
+      "lng": 11.239225
+    },
+    {
+      "id": "0d065243-c43c-4172-a8db-f9843d5faa07",
+      "slug": "b-b-alba-sul-lago-calceranica-al-lago",
+      "nome": "B&B Alba sul Lago",
+      "city_name": "Calceranica al Lago",
+      "indirizzo": "Maso Toldi, 5, 38057 Pergine Valsugana TN",
+      "lat": 46.030839,
+      "lng": 11.215308
+    },
+    {
+      "id": "da8e47ba-8165-4c61-b8ef-deb4e38070d4",
+      "slug": "b-b-casa-sul-lago-calceranica-al-lago",
+      "nome": "B&B Casa sul Lago",
+      "city_name": "Calceranica al Lago",
+      "indirizzo": "Via Lungo Lago, 42, 38050 Calceranica al Lago TN",
+      "lat": 46.001238,
+      "lng": 11.252165
+    },
+    {
+      "id": "1656f08d-4681-4eeb-9d1b-9648e58d2bef",
+      "slug": "energy-hotel-calceranica-al-lago",
+      "nome": "Energy Hotel",
+      "city_name": "Calceranica al Lago",
+      "indirizzo": "Corso Alpini, 1, 38050 Calceranica al Lago TN",
+      "lat": 46.004457,
+      "lng": 11.243211
+    },
+    {
+      "id": "c458a6c8-c345-4ea6-b4f8-bcca630969a0",
+      "slug": "hotel-al-sorriso-calceranica-al-lago",
+      "nome": "Hotel Al Sorriso",
+      "city_name": "Calceranica al Lago",
+      "indirizzo": "Via Segantini, 14, 38056 Levico Terme TN",
+      "lat": 46.013464,
+      "lng": 11.28847
+    },
+    {
+      "id": "8aef71e4-c741-45c7-9ec6-0b64af184d60",
+      "slug": "hotel-dolomiti-calceranica-al-lago-2",
+      "nome": "Hotel Dolomiti",
+      "city_name": "Calceranica al Lago",
+      "indirizzo": "Via Vicenza, 37, 38049 Vattaro TN",
+      "lat": 45.993342,
+      "lng": 11.218397
+    },
+    {
+      "id": "0fce6240-342e-41ed-b2ed-243f705e59f8",
+      "slug": "hotel-dolomiti-calceranica-al-lago",
+      "nome": "Hotel Dolomiti",
+      "city_name": "Calceranica al Lago",
+      "indirizzo": "Traversa Lido, 8, 38056 Levico Terme TN",
+      "lat": 46.009327,
+      "lng": 11.290528
+    },
+    {
+      "id": "c9a0e8ca-9329-4101-a5c3-b1726ec269a5",
+      "slug": "hotel-garni-bellavista-calceranica-al-lago",
+      "nome": "Hotel Garnì Bellavista",
+      "city_name": "Calceranica al Lago",
+      "indirizzo": "Viale Venezia, 12, 38050 Calceranica al Lago TN",
+      "lat": 46.003909,
+      "lng": 11.258835
+    },
+    {
+      "id": "e9520e5d-677c-4218-a3a4-b55c3fe8047f",
+      "slug": "hotel-la-piroga-calceranica-al-lago",
+      "nome": "Hotel la Piroga",
+      "city_name": "Calceranica al Lago",
+      "indirizzo": "Via Penisola Verde, 1, 38050 Calceranica al Lago TN",
+      "lat": 46.005383,
+      "lng": 11.246933
+    },
+    {
+      "id": "8046a3ed-b9a1-407f-8e3a-82ec477dc130",
+      "slug": "hotel-tomei-calceranica-al-lago",
+      "nome": "Hotel Tomei",
+      "city_name": "Calceranica al Lago",
+      "indirizzo": "Via Dante Alighieri a VATTARO, 1, Via Dante Alighieri, 1, 38049 Vattaro TN",
+      "lat": 45.994657,
+      "lng": 11.217633
+    },
+    {
+      "id": "1ab62119-407e-4697-8f9f-80e92064b2e6",
+      "slug": "agriturismo-al-palazzaccio-calci",
+      "nome": "Agriturismo Al Palazzaccio",
+      "city_name": "Calci",
+      "indirizzo": "Via del Seminario, 11, 56011 Calci PI",
+      "lat": 43.731802,
+      "lng": 10.515044
+    },
+    {
+      "id": "a1b23360-0e2a-4c83-92fd-614ed645632a",
+      "slug": "agriturismo-rosselmini-tuscany-calci",
+      "nome": "Agriturismo Rosselmini - Tuscany",
+      "city_name": "Calci",
+      "indirizzo": "Via Rosselmini, 10, 56011 Calci PI",
+      "lat": 43.721158,
+      "lng": 10.509515
+    },
+    {
+      "id": "25fccd44-2341-4fb8-8456-cf91e86a826a",
+      "slug": "agriturismo-villa-buieri-calci",
+      "nome": "Agriturismo Villa Buieri",
+      "city_name": "Calci",
+      "indirizzo": "Via della Certosa, 2, 56011 Pisa PI",
+      "lat": 43.718756,
+      "lng": 10.524078
+    },
+    {
+      "id": "c32f1880-21ef-402c-80f0-06cb6c829fda",
+      "slug": "azienda-agricola-podere-del-pari-srl-calci",
+      "nome": "Azienda Agricola Podere del Pari srl",
+      "city_name": "Calci",
+      "indirizzo": "Via di Pari, 6, 56011 Calci PI",
+      "lat": 43.735704,
+      "lng": 10.51116
+    },
+    {
+      "id": "ddabbce7-8d87-4a6c-9af8-2a7147710748",
+      "slug": "b-b-antica-toscana-casa-vacanze-appartamenti-calci",
+      "nome": "B&B Antica Toscana- Casa Vacanze - Appartamenti",
+      "city_name": "Calci",
+      "indirizzo": "Via Eugenio III, 5, 56011 Calci PI",
+      "lat": 43.720147,
+      "lng": 10.537288
+    },
+    {
+      "id": "4fb41b67-3d27-49ef-89ea-3920aea09509",
+      "slug": "b-b-gli-olivi-calci",
+      "nome": "B&B Gli Olivi",
+      "city_name": "Calci",
+      "indirizzo": "Via F. Ruschi, 174, 56011 Calci PI",
+      "lat": 43.731742,
+      "lng": 10.517615
+    },
+    {
+      "id": "cb0dad56-13ce-4278-9755-143a9feabf8c",
+      "slug": "b-b-villamorosa-calci",
+      "nome": "B&B Villamorosa",
+      "city_name": "Calci",
+      "indirizzo": "Via Provinciale Vicarese, 27, 56010 Vicopisano PI",
+      "lat": 43.70669,
+      "lng": 10.50469
+    },
+    {
+      "id": "c13849c1-faa6-4ab3-9338-bdee9b376d04",
+      "slug": "hotel-da-carlos-calci",
+      "nome": "Hotel da Carlos",
+      "city_name": "Calci",
+      "indirizzo": "Via Nuova per Pisa, 5901, 55100 Lucca LU",
+      "lat": 43.776628,
+      "lng": 10.459518
+    },
+    {
+      "id": "02593831-b760-4cfb-81e8-856a57804ccc",
+      "slug": "l-angolo-verde-bed-breakfast-calci",
+      "nome": "L' Angolo Verde - Bed & Breakfast",
+      "city_name": "Calci",
+      "indirizzo": "Via Piastroni, 56, 56021 Cascina PI",
+      "lat": 43.702304,
+      "lng": 10.457592
+    },
+    {
+      "id": "3c34653e-95f2-408f-b24f-74bacc4a0cfa",
+      "slug": "la-fabbrica-calci-calci",
+      "nome": "La Fabbrica Calci",
+      "city_name": "Calci",
+      "indirizzo": "Via Don Minzoni, 30, 56011 Calci PI",
+      "lat": 43.733711,
+      "lng": 10.51824
+    },
+    {
+      "id": "081b68b7-b100-43da-a041-6d7a569d4f0a",
+      "slug": "ninfeo-dell-arancera-calci",
+      "nome": "Ninfeo dell' Arancera",
+      "city_name": "Calci",
+      "indirizzo": "loc villa Scorzi, 4, 56011 Calci PI",
+      "lat": 43.71931,
+      "lng": 10.509585
+    }
+  ]
+}

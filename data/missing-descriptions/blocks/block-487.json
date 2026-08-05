@@ -1,0 +1,323 @@
+{
+  "block": 487,
+  "blockId": "487",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "2d087595-e443-4625-99d9-f7c0f808ed04",
+      "slug": "hotel-borges-chiado-lisbon",
+      "nome": "Hotel Borges Chiado",
+      "city_name": "Lisbon",
+      "indirizzo": "R. Garrett 108, 1200-205 Lisboa",
+      "lat": 38.710711,
+      "lng": -9.141892
+    },
+    {
+      "id": "7ee9a634-f12a-4780-8002-c9d491b69d05",
+      "slug": "hotel-britania-art-deco-lisboa-lisbon",
+      "nome": "Hotel Britania Art Deco Lisboa",
+      "city_name": "Lisbon",
+      "indirizzo": "Rua Rodrigues Sampaio, 17, 1150-278 Lisboa",
+      "lat": 38.721539,
+      "lng": -9.145554
+    },
+    {
+      "id": "1f56c6ea-c532-4335-9452-b7f35859737c",
+      "slug": "hotel-marques-de-pombal-lisbon",
+      "nome": "Hotel Marquês de Pombal",
+      "city_name": "Lisbon",
+      "indirizzo": "Av. da Liberdade 243, 1250-143 Lisboa",
+      "lat": 38.723298,
+      "lng": -9.148929
+    },
+    {
+      "id": "5682d7e7-f53d-42ff-9efe-6ed2dc6f99b1",
+      "slug": "hotel-mundial-lisbon",
+      "nome": "Hotel Mundial",
+      "city_name": "Lisbon",
+      "indirizzo": "Praça Martim Moniz 2, 1100-341 Lisboa",
+      "lat": 38.715047,
+      "lng": -9.136983
+    },
+    {
+      "id": "26ecca0c-16fd-45cb-883b-7f873113a31b",
+      "slug": "hotel-santa-justa-lisboa-lisbon",
+      "nome": "Hotel Santa Justa Lisboa",
+      "city_name": "Lisbon",
+      "indirizzo": "R. dos Correeiros 204, 1100-170 Lisboa",
+      "lat": 38.712681,
+      "lng": -9.137865
+    },
+    {
+      "id": "a637d678-a38e-4467-b08b-2456749c330b",
+      "slug": "hotel-vincci-baixa-lisbon",
+      "nome": "Hotel Vincci Baixa",
+      "city_name": "Lisbon",
+      "indirizzo": "R. do Comércio 32 38, 1100-150 Lisboa",
+      "lat": 38.709253,
+      "lng": -9.135645
+    },
+    {
+      "id": "4990d692-0e28-4f7a-8fe6-65d54368c37b",
+      "slug": "inspira-liberdade-boutique-hotel-lisbon",
+      "nome": "Inspira Liberdade Boutique Hotel",
+      "city_name": "Lisbon",
+      "indirizzo": "R. de Santa Marta 48, 1150-297 Lisboa",
+      "lat": 38.723176,
+      "lng": -9.145611
+    },
+    {
+      "id": "e9a3b8ce-87fd-4c37-960a-d3a5a909df5b",
+      "slug": "internacional-design-hotel-lisbon",
+      "nome": "Internacional Design Hotel",
+      "city_name": "Lisbon",
+      "indirizzo": "Rua da Betesga 3, 1100-090 Lisboa",
+      "lat": 38.713033,
+      "lng": -9.138397
+    },
+    {
+      "id": "92c67901-5956-450d-9bc9-4550b9395a39",
+      "slug": "lisbon-city-hotel-by-city-hotels-lisbon",
+      "nome": "Lisbon City Hotel by City Hotels",
+      "city_name": "Lisbon",
+      "indirizzo": "Av. Alm. Reis 49, 1150-010 Lisboa",
+      "lat": 38.724746,
+      "lng": -9.135309
+    },
+    {
+      "id": "e9f5adbe-3aeb-44d8-bac7-0da5b7bf2843",
+      "slug": "central-hotel-london-london",
+      "nome": "Central Hotel London",
+      "city_name": "London",
+      "indirizzo": "16-18 Argyle St, London WC1H 8EG",
+      "lat": 51.529177,
+      "lng": -0.123907
+    },
+    {
+      "id": "45f55edd-60c1-4289-88b7-9cacdc8c5993",
+      "slug": "city-london-hotel-london",
+      "nome": "City London Hotel",
+      "city_name": "London",
+      "indirizzo": "30 Borough Rd, London SE1 0AJ",
+      "lat": 51.499086,
+      "lng": -0.101968
+    },
+    {
+      "id": "f00252b3-2ec3-42c0-a231-6aa159998f66",
+      "slug": "holiday-inn-express-london-southwark-by-ihg-london",
+      "nome": "Holiday Inn Express London - Southwark by IHG",
+      "city_name": "London",
+      "indirizzo": "103-109 Southwark St, London SE1 0JQ",
+      "lat": 51.506127,
+      "lng": -0.10218
+    },
+    {
+      "id": "feb04db4-9feb-4b01-8bb9-c9ee03b51687",
+      "slug": "hotel-indigo-london-1-leicester-square-by-ihg-london",
+      "nome": "Hotel Indigo London - 1 Leicester Square by IHG",
+      "city_name": "London",
+      "indirizzo": "1 Leicester Square, London WC2H 7NA",
+      "lat": 51.510822,
+      "lng": -0.130746
+    },
+    {
+      "id": "c54f6121-7f7f-43de-b3e8-e63a30f9c20e",
+      "slug": "hyde-london-city-london",
+      "nome": "Hyde London City",
+      "city_name": "London",
+      "indirizzo": "15 Old Bailey, London EC4M 7EF",
+      "lat": 51.51626,
+      "lng": -0.102424
+    },
+    {
+      "id": "0f922e54-d07e-4694-a159-faa9184c89cc",
+      "slug": "leonardo-royal-london-st-paul-s-london",
+      "nome": "Leonardo Royal London St Paul's",
+      "city_name": "London",
+      "indirizzo": "10 Godliman St, London EC4V 5AJ",
+      "lat": 51.512781,
+      "lng": -0.099665
+    },
+    {
+      "id": "0b495cfa-66f3-4f1d-ab4c-1c765e63e759",
+      "slug": "london-hotel-london",
+      "nome": "London Hotel",
+      "city_name": "London",
+      "indirizzo": "London SW1V 2BB",
+      "lat": 51.50724,
+      "lng": -0.124327
+    },
+    {
+      "id": "7a41ac4f-1b77-4fa2-8d2a-6488a641e2f6",
+      "slug": "lost-property-st-paul-s-london-curio-collection-london",
+      "nome": "Lost Property St Paul's London - Curio Collection by Hilton",
+      "city_name": "London",
+      "indirizzo": "3-5 Ludgate Hill, London EC4M 7AA",
+      "lat": 51.513716,
+      "lng": -0.101067
+    },
+    {
+      "id": "51fea45f-0ec1-4eac-adb3-6865dc1feb03",
+      "slug": "master-st-paul-s-serviced-apartments-london",
+      "nome": "master St. Paul's Serviced Apartments",
+      "city_name": "London",
+      "indirizzo": "9 Creed Ln, London EC4V 5BR",
+      "lat": 51.513322,
+      "lng": -0.101055
+    },
+    {
+      "id": "7e0c0871-2f14-48a8-987f-6d6e61647e6d",
+      "slug": "me-london-london",
+      "nome": "ME London",
+      "city_name": "London",
+      "indirizzo": "336-337 Strand, London WC2R 1HA",
+      "lat": 51.511818,
+      "lng": -0.118898
+    },
+    {
+      "id": "88c6d604-6c02-4096-9a20-3a05afcb8700",
+      "slug": "novotel-london-blackfriars-london",
+      "nome": "Novotel London Blackfriars",
+      "city_name": "London",
+      "indirizzo": "Novotel, 46 Blackfriars Rd, London SE1 8NZ",
+      "lat": 51.505139,
+      "lng": -0.104835
+    },
+    {
+      "id": "f555bc2b-a7da-4e31-8c92-cb802836e1fd",
+      "slug": "premier-inn-london-holborn-hotel-london",
+      "nome": "Premier Inn London Holborn hotel",
+      "city_name": "London",
+      "indirizzo": "27-29 Red Lion St, London WC1R 4PS",
+      "lat": 51.520134,
+      "lng": -0.117321
+    },
+    {
+      "id": "db11ef19-9a85-4865-b698-d39360637785",
+      "slug": "strand-palace-london",
+      "nome": "Strand Palace",
+      "city_name": "London",
+      "indirizzo": "372 Strand, London WC2R 0JJ",
+      "lat": 51.510892,
+      "lng": -0.120843
+    },
+    {
+      "id": "9699d519-d210-48ee-8321-aa818d8bef72",
+      "slug": "the-londoner-hotel-london",
+      "nome": "The Londoner Hotel",
+      "city_name": "London",
+      "indirizzo": "38 Leicester Square, London WC2H 7DX",
+      "lat": 51.509862,
+      "lng": -0.130213
+    },
+    {
+      "id": "0c707a34-0775-425a-9dab-5517b209ec64",
+      "slug": "the-westin-london-city-london",
+      "nome": "The Westin London City",
+      "city_name": "London",
+      "indirizzo": "60 Upper Thames St., London EC4V 3AD",
+      "lat": 51.510816,
+      "lng": -0.095302
+    },
+    {
+      "id": "075e989d-60bd-4417-90f0-da03861330c2",
+      "slug": "al-tuscany-bed-breakfast-lucca",
+      "nome": "Al Tuscany Bed & Breakfast",
+      "city_name": "Lucca",
+      "indirizzo": "Via Cenami, 17, 55100 Lucca LU, Italia",
+      "lat": 43.842275,
+      "lng": 10.503939
+    },
+    {
+      "id": "e7a5f2d6-6fa0-4cba-9af0-9816c36ed631",
+      "slug": "albergo-alla-corte-degli-angeli-lucca",
+      "nome": "Albergo alla Corte degli Angeli",
+      "city_name": "Lucca",
+      "indirizzo": "V. Degli Angeli, 23, 55100 Lucca LU, Italia",
+      "lat": 43.845213,
+      "lng": 10.503664
+    },
+    {
+      "id": "97f9141b-aec7-495c-8f63-75f537f34660",
+      "slug": "albergo-moderno-lucca-lucca",
+      "nome": "Albergo Moderno Lucca",
+      "city_name": "Lucca",
+      "indirizzo": "in, Via Vincenzo Civitali, 38, 55100 Lucca LU, Italia",
+      "lat": 43.836817,
+      "lng": 10.503912
+    },
+    {
+      "id": "edf6674f-043f-4d10-8447-960d6eec22ff",
+      "slug": "at-home-bed-and-breakfast-lucca",
+      "nome": "At Home Bed and Breakfast",
+      "city_name": "Lucca",
+      "indirizzo": "Via dell'Anfiteatro, 32, 55100 Lucca LU, Italia",
+      "lat": 43.845539,
+      "lng": 10.50661
+    },
+    {
+      "id": "ce93a233-2ec9-4fd8-807b-346a6d9193ba",
+      "slug": "b-b-antica-corte-dei-principi-lucca",
+      "nome": "B&B Antica Corte dei Principi",
+      "city_name": "Lucca",
+      "indirizzo": "Via Olivo, 2, 55100 Lucca LU, Italia",
+      "lat": 43.842699,
+      "lng": 10.505038
+    },
+    {
+      "id": "abfd0aa5-27c6-434c-8a3c-a853fcea66c6",
+      "slug": "b-b-evelina-lucca",
+      "nome": "B&B Evelina",
+      "city_name": "Lucca",
+      "indirizzo": "Via Streghi, 12, 55100 Lucca LU, Italia",
+      "lat": 43.844644,
+      "lng": 10.504742
+    },
+    {
+      "id": "31c89f03-9bac-4bd5-8589-1b98fc00c973",
+      "slug": "b-b-franco-s-villa-bed-and-breakfast-lucca-culli-lucca",
+      "nome": "B&B Franco's Villa - Bed and Breakfast Lucca - Culliness",
+      "city_name": "Lucca",
+      "indirizzo": "Via del Santo, 236, 55023 Diecimo LU, Italia",
+      "lat": 43.96118,
+      "lng": 10.50507
+    },
+    {
+      "id": "358a59fc-3c4b-4c10-9b55-5f9efccba0f5",
+      "slug": "b-b-villa-anna-lucca",
+      "nome": "B&B Villa Anna",
+      "city_name": "Lucca",
+      "indirizzo": "Viale Luigi Cadorna, 41, 55100 Lucca LU, Italia",
+      "lat": 43.842945,
+      "lng": 10.516249
+    },
+    {
+      "id": "0fd120f6-83a6-48a4-ba93-0c671acca8d7",
+      "slug": "bed-breakfast-la-boheme-lucca",
+      "nome": "Bed & Breakfast La Boheme",
+      "city_name": "Lucca",
+      "indirizzo": "Via del Moro, 2, 55100 Lucca LU, Italia",
+      "lat": 43.84398,
+      "lng": 10.50333
+    },
+    {
+      "id": "370ae877-27d0-447e-9379-86ad95c544b3",
+      "slug": "bed-breakfast-la-gemma-di-elena-lucca",
+      "nome": "Bed & Breakfast La gemma di Elena",
+      "city_name": "Lucca",
+      "indirizzo": "Via della Zecca, 33, 55100 Lucca LU, Italia",
+      "lat": 43.846441,
+      "lng": 10.50869
+    },
+    {
+      "id": "545bb3fa-5085-49e8-8ea2-8a187d9357cb",
+      "slug": "bed-and-breakfast-lucca-fora-lucca",
+      "nome": "Bed and Breakfast Lucca Fora",
+      "city_name": "Lucca",
+      "indirizzo": "Via Pesciatina, 143, 55012 Lunata LU, Italia",
+      "lat": 43.856636,
+      "lng": 10.570001
+    }
+  ]
+}

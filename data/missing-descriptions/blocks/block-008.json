@@ -1,0 +1,323 @@
+{
+  "block": 8,
+  "blockId": "008",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "e00e6633-d4f8-425f-8fea-4752e86c9afd",
+      "slug": "cbh-sicitaly-group-aci-castello",
+      "nome": "CBH Sicitaly Group",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Piave, 25, 95021 Aci Castello CT",
+      "lat": 37.555731,
+      "lng": 15.147621
+    },
+    {
+      "id": "845d3e24-d8b4-428c-975c-71e62c3eff72",
+      "slug": "ciclope-resort-aci-castello",
+      "nome": "Ciclope Resort",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Provinciale, 3, 95021 Aci Castello CT",
+      "lat": 37.560936,
+      "lng": 15.158651
+    },
+    {
+      "id": "9eef5100-2d7f-4c98-b25b-bb9a0cae2a5d",
+      "slug": "four-points-by-sheraton-catania-aci-castello",
+      "nome": "Four Points by Sheraton Catania",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Antonello Da Messina 45 Aci Castello, 95021 Catania, CT",
+      "lat": 37.542212,
+      "lng": 15.136547
+    },
+    {
+      "id": "22872f17-5deb-4530-bb7d-af3e292675e0",
+      "slug": "grand-hotel-baia-verde-aci-castello",
+      "nome": "Grand Hotel Baia Verde",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Angelo Musco, 8, 95021 Aci Castello CT",
+      "lat": 37.539994,
+      "lng": 15.132745
+    },
+    {
+      "id": "83f572f4-84ae-41e2-9334-55285f682add",
+      "slug": "grand-hotel-faraglioni-aci-castello",
+      "nome": "GRAND HOTEL FARAGLIONI",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Lungomare Dei Ciclopi, 115, 95021 Aci Castello CT",
+      "lat": 37.559904,
+      "lng": 15.160326
+    },
+    {
+      "id": "2328393d-1e7e-4b1d-b4bc-3a1de45dfff4",
+      "slug": "hello-b-b-aci-castello",
+      "nome": "Hello B&B",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Pantolla, 3, 95021 Aci Trezza CT",
+      "lat": 37.562559,
+      "lng": 15.160808
+    },
+    {
+      "id": "747f89bc-a7e6-4935-b43f-6cf460c1cdd1",
+      "slug": "la-scogliera-in-bed-breakfast-aci-castello",
+      "nome": "La Scogliera In - Bed & Breakfast",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Domenico Tempio, 8, 95021 Aci Castello CT",
+      "lat": 37.537939,
+      "lng": 15.126981
+    },
+    {
+      "id": "5ae13f7a-a39b-4dc1-b13f-c265634e7735",
+      "slug": "la-terrazza-sul-mare-aci-castello",
+      "nome": "La Terrazza sul Mare",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Fornace, 20, 95021 Aci Castello CT",
+      "lat": 37.556822,
+      "lng": 15.148083
+    },
+    {
+      "id": "c613ad80-64a8-466d-ae2a-a7e487a6f911",
+      "slug": "lachea-hotel-aci-castello",
+      "nome": "Lachea Hotel",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Cardinale Dusmet, 4, 95021 Aci Castello CT",
+      "lat": 37.566886,
+      "lng": 15.161209
+    },
+    {
+      "id": "c8ee9504-64d6-4737-bb15-2578006ceb3f",
+      "slug": "oasi-perla-del-mare-bed-breakfast-aci-castello",
+      "nome": "Oasi Perla del Mare - Bed&Breakfast",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Sciarelli, 55, 95021 Aci Castello CT",
+      "lat": 37.543287,
+      "lng": 15.132717
+    },
+    {
+      "id": "cc6b6f43-5951-486a-bb1f-a168ae09000d",
+      "slug": "president-park-hotel-aci-castello",
+      "nome": "President Park Hotel",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Vampolieri, 49, 95021 Aci Castello CT",
+      "lat": 37.565525,
+      "lng": 15.155795
+    },
+    {
+      "id": "742465bc-e68e-4ec7-9b63-43e81066e155",
+      "slug": "sicilia-s-residence-hotel-art-spa-aci-castello",
+      "nome": "Sicilia's - Residence Hotel - Art & Spa",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via dei Tigli, 3, 95022 Aci Catena CT",
+      "lat": 37.574496,
+      "lng": 15.156609
+    },
+    {
+      "id": "0e6effb2-b488-47c4-a54f-1f757d31799f",
+      "slug": "sicitaly-acicastello-aci-castello",
+      "nome": "SicItaly Acicastello",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Piave, 23, 95021 Aci Castello CT",
+      "lat": 37.555809,
+      "lng": 15.147601
+    },
+    {
+      "id": "bf31ca78-7559-4573-81c2-7269521bab0d",
+      "slug": "zeus-residence-hotel-aparthotel-meeting-congress-aci-castello",
+      "nome": "Zeus Residence Hotel - Aparthotel - Meeting & Congress Catania",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Antonello da Messina, 8, 95021 Aci Castello CT",
+      "lat": 37.541051,
+      "lng": 15.134235
+    },
+    {
+      "id": "92882fd6-3f7a-4799-a6cc-3e249b2521c4",
+      "slug": "best-western-hotel-santa-caterina-aci-catena",
+      "nome": "Best Western Hotel Santa Caterina",
+      "city_name": "Aci Catena",
+      "indirizzo": "Via Santa Caterina, 42B, 95024 Acireale CT",
+      "lat": 37.606049,
+      "lng": 15.16838
+    },
+    {
+      "id": "6817b94b-f911-480a-a5c0-c1ff5462ad54",
+      "slug": "casa-vacanze-sole-delle-aci-aci-catena",
+      "nome": "CASA VACANZE SOLE DELLE ACI",
+      "city_name": "Aci Catena",
+      "indirizzo": "Via Dante Alighieri, 30, 95025 Aci Sant'Antonio CT",
+      "lat": 37.608245,
+      "lng": 15.131239
+    },
+    {
+      "id": "053e7eee-d526-4435-b1fe-9fee18697c3e",
+      "slug": "grande-albergo-maugeri-aci-catena",
+      "nome": "Grande Albergo Maugeri",
+      "city_name": "Aci Catena",
+      "indirizzo": "Piazza Giuseppe Garibaldi, 27, 95024 Acireale CT",
+      "lat": 37.61693,
+      "lng": 15.165917
+    },
+    {
+      "id": "c561c600-0b11-45ab-8c88-e4082deafea8",
+      "slug": "il-vecchio-sentiero-aci-catena",
+      "nome": "Il vecchio sentiero",
+      "city_name": "Aci Catena",
+      "indirizzo": "Via Aranci, 61, 95024 Acireale CT",
+      "lat": 37.612719,
+      "lng": 15.169196
+    },
+    {
+      "id": "c539df8d-16bf-49d3-a757-209ca2477b15",
+      "slug": "san-nicolo-aci-catena",
+      "nome": "San Nicolò",
+      "city_name": "Aci Catena",
+      "indirizzo": "Via S. Nicolò, 151, 95022 Aci Catena CT",
+      "lat": 37.576593,
+      "lng": 15.134515
+    },
+    {
+      "id": "f595cfa1-6300-403e-8df4-80b4dd443a9a",
+      "slug": "wave-hotel-aci-catena",
+      "nome": "Wave Hotel",
+      "city_name": "Aci Catena",
+      "indirizzo": "Viale della Fiera Franca, 33, 95024 Acireale CT",
+      "lat": 37.575021,
+      "lng": 15.169105
+    },
+    {
+      "id": "a3845371-3a93-4fed-ac69-af83d68a12f7",
+      "slug": "b-b-vicolo-del-chiostro-aci-sant-antonio",
+      "nome": "B&B Vicolo del Chiostro",
+      "city_name": "Aci Sant'Antonio",
+      "indirizzo": "Via Don Giovanni Bosco, 3, 95025 Aci Sant'Antonio CT",
+      "lat": 37.606463,
+      "lng": 15.128148
+    },
+    {
+      "id": "fd1afa88-4920-4ad0-af2e-e943f5f1e4cd",
+      "slug": "beb-casa-di-mari-aci-sant-antonio",
+      "nome": "BeB Casa di Mari",
+      "city_name": "Aci Sant'Antonio",
+      "indirizzo": "Via Dante Alighieri, 16, 95025 Aci Sant'Antonio CT",
+      "lat": 37.608099,
+      "lng": 15.130685
+    },
+    {
+      "id": "ac5cb66d-bb03-4f1d-a8cc-6f8fb87695fd",
+      "slug": "relais-san-giuliano-boutique-hotel-de-charme-aci-sant-antonio",
+      "nome": "Relais San Giuliano Boutique Hotel De Charme",
+      "city_name": "Aci Sant'Antonio",
+      "indirizzo": "Via Giuseppe Garibaldi, 280, Via Antonello da Messina, 3, 95029 Viagrande CT",
+      "lat": 37.615716,
+      "lng": 15.099539
+    },
+    {
+      "id": "045a1320-d80a-4fc0-af03-22862c0b7cf6",
+      "slug": "villa-corallo-dell-etna-aci-sant-antonio",
+      "nome": "Villa Corallo dell'Etna",
+      "city_name": "Aci Sant'Antonio",
+      "indirizzo": "Via Allegracuore, 21, 95024 Acireale CT",
+      "lat": 37.617248,
+      "lng": 15.13537
+    },
+    {
+      "id": "07c5e406-176a-4c1c-a2e6-3dd24dc8c93e",
+      "slug": "villa-delle-palme-aci-sant-antonio",
+      "nome": "Villa Delle Palme",
+      "city_name": "Aci Sant'Antonio",
+      "indirizzo": "Via Livorno, 143, 95026 Aci Castello CT",
+      "lat": 37.573608,
+      "lng": 15.166709
+    },
+    {
+      "id": "419f06aa-09d8-4885-a97d-adebb762e84d",
+      "slug": "villa-di-leo-borgo-viscalori-aci-sant-antonio",
+      "nome": "Villa Di Leo Borgo Viscalori",
+      "city_name": "Aci Sant'Antonio",
+      "indirizzo": "Piazza S. Biagio, 2, 95029 Viagrande CT",
+      "lat": 37.606278,
+      "lng": 15.090491
+    },
+    {
+      "id": "a0af6962-a863-4455-96b2-8514677e0805",
+      "slug": "b-b-acireale-il-cavalluccio-marino-fronte-mare-acireale",
+      "nome": "B&B ACIREALE- il Cavalluccio Marino fronte mare",
+      "city_name": "Acireale",
+      "indirizzo": "Via Argenta, 38, 95024 Acireale CT",
+      "lat": 37.634115,
+      "lng": 15.175208
+    },
+    {
+      "id": "b3110270-86ba-4a4d-a52e-8ef37edca8a9",
+      "slug": "b-b-comeinsicily-corte-dei-limoni-charming-relax-acireale",
+      "nome": "B&B ComeinSicily - Corte dei Limoni - Charming & Relaxing Luxury Hotel",
+      "city_name": "Acireale",
+      "indirizzo": "Via Monsignor Genuardi, 32, 95024 Acireale CT",
+      "lat": 37.613156,
+      "lng": 15.166966
+    },
+    {
+      "id": "5efcfb57-ccf6-4d43-bceb-0f45706c2767",
+      "slug": "b-b-le-chiazzette-acireale",
+      "nome": "B&B Le Chiazzette",
+      "city_name": "Acireale",
+      "indirizzo": "Via Marzulli, 67, 95024 Acireale CT",
+      "lat": 37.613767,
+      "lng": 15.167963
+    },
+    {
+      "id": "038ec5d5-3879-459a-8544-0f2e88830f1f",
+      "slug": "b-b-the-artists-acireale-acireale",
+      "nome": "B&B THE ARTISTS ACIREALE",
+      "city_name": "Acireale",
+      "indirizzo": "Via Romeo, 40, 95024 Acireale CT",
+      "lat": 37.612412,
+      "lng": 15.167275
+    },
+    {
+      "id": "9f4d1f66-3da8-4797-95f7-2114ef18886f",
+      "slug": "baroque-b-b-acireale",
+      "nome": "baroque B&B",
+      "city_name": "Acireale",
+      "indirizzo": "P.za Duomo, 95024 Acireale CT",
+      "lat": 37.613037,
+      "lng": 15.165778
+    },
+    {
+      "id": "f89a898e-38d3-4996-86dc-7f7a60f5bf17",
+      "slug": "hotel-capomulini-dimora-storica-acireale",
+      "nome": "Hotel Capomulini Dimora Storica",
+      "city_name": "Acireale",
+      "indirizzo": "Via Capomulini, 32, 95024 Acireale CT",
+      "lat": 37.576663,
+      "lng": 15.171008
+    },
+    {
+      "id": "c6a9ba4a-286d-4651-9389-4527abeae319",
+      "slug": "hotel-ibis-styles-catania-acireale-acireale",
+      "nome": "Hotel ibis Styles Catania Acireale",
+      "city_name": "Acireale",
+      "indirizzo": "Via Madonna delle Grazie, 98A/B, 95024 Acireale CT",
+      "lat": 37.594887,
+      "lng": 15.169107
+    },
+    {
+      "id": "31921986-7bc0-4f0f-88d0-c7e0247ea6db",
+      "slug": "hotel-orizzonte-acireale-acireale",
+      "nome": "Hotel Orizzonte Acireale",
+      "city_name": "Acireale",
+      "indirizzo": "Viale Cristoforo Colombo, 2, 95024 Acireale CT",
+      "lat": 37.638055,
+      "lng": 15.162628
+    },
+    {
+      "id": "fa8f5b2d-91e7-4f22-abdd-239246a0edea",
+      "slug": "hotel-santa-tecla-palace-acireale",
+      "nome": "Hotel Santa Tecla Palace",
+      "city_name": "Acireale",
+      "indirizzo": "Via Balestrate, 100, 95024 Acireale CT",
+      "lat": 37.629393,
+      "lng": 15.175041
+    }
+  ]
+}

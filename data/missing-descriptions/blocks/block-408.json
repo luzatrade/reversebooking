@@ -1,0 +1,323 @@
+{
+  "block": 408,
+  "blockId": "408",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "4f13a2f4-4271-464a-b658-ff485b0d8c95",
+      "slug": "b-b-lagomaggiore-cannobio",
+      "nome": "B&B Lagomaggiore",
+      "city_name": "Cannobio",
+      "indirizzo": "Via Casali Solivo, 9, 28822 Cannobio VB",
+      "lat": 46.055642,
+      "lng": 8.702534
+    },
+    {
+      "id": "3d37ea22-4749-4fb9-9697-410b81126a2c",
+      "slug": "b-b-spiaggia-amore-affittacamere-cannobio",
+      "nome": "B&B Spiaggia Amore - Affittacamere",
+      "city_name": "Cannobio",
+      "indirizzo": "Via Ceroni, 11A, 28822 Cannobio VB",
+      "lat": 46.05928,
+      "lng": 8.70046
+    },
+    {
+      "id": "7ef785c0-c1d2-45b9-b0c9-4ee9732b4118",
+      "slug": "bed-breakfast-villa-dei-pini-cannobio",
+      "nome": "Bed & Breakfast Villa dei Pini",
+      "city_name": "Cannobio",
+      "indirizzo": "Via Cressini, 13, 28822 Cannobio VB",
+      "lat": 46.060526,
+      "lng": 8.676201
+    },
+    {
+      "id": "a41af035-8394-46c7-9856-07d4ed11a7dd",
+      "slug": "ca-meison-b-b-cannobio-cannobio",
+      "nome": "Ca Meison B&B Cannobio",
+      "city_name": "Cannobio",
+      "indirizzo": "in S. Bartolomeo, Str. Nazionale, 5, 28822 Cannobio VB",
+      "lat": 46.087638,
+      "lng": 8.691128
+    },
+    {
+      "id": "4e52f591-9d2e-4bed-b77b-5e7ae87b3115",
+      "slug": "eden-cannobio",
+      "nome": "eden",
+      "city_name": "Cannobio",
+      "indirizzo": "Via ai Ger, 36, 28822 Cannobio VB",
+      "lat": 46.058602,
+      "lng": 8.690712
+    },
+    {
+      "id": "6afbfdfe-6485-4721-a67d-2525be2dd8b9",
+      "slug": "hotel-casa-arizzoli-cannobio",
+      "nome": "Hotel Casa Arizzoli",
+      "city_name": "Cannobio",
+      "indirizzo": "Via A. Giovanola, 92, 28822 Cannobio VB",
+      "lat": 46.061042,
+      "lng": 8.694265
+    },
+    {
+      "id": "f8e62b12-1fc1-4a75-b207-2601a1757a83",
+      "slug": "lakeview-cannobio-camping-resort-cannobio",
+      "nome": "Lakeview Cannobio Camping & Resort",
+      "city_name": "Cannobio",
+      "indirizzo": "S.S. 34, Km 35, 400, 28822 Cannobio VB",
+      "lat": 46.076904,
+      "lng": 8.693889
+    },
+    {
+      "id": "7ca3d9b9-1ae7-49f9-9ff2-678ad9d08a8e",
+      "slug": "residenza-cascina-nel-bosco-cannobio",
+      "nome": "Residenza Cascina nel Bosco",
+      "city_name": "Cannobio",
+      "indirizzo": "Casali Cuserina, 34, 28822 Cannobio VB",
+      "lat": 46.056894,
+      "lng": 8.686539
+    },
+    {
+      "id": "f26ba876-da55-49a3-a29f-ba15c5976481",
+      "slug": "rivalago-lounge-bar-and-b-b-cannobio",
+      "nome": "Rivalago Lounge Bar and B&B",
+      "city_name": "Cannobio",
+      "indirizzo": "Via Ceroni, 9, 28822 Cannobio VB",
+      "lat": 46.059458,
+      "lng": 8.700554
+    },
+    {
+      "id": "04917808-8d6d-46a5-b1bb-02b0cde946f3",
+      "slug": "solivonatural-b-b-cannobio",
+      "nome": "Solivonatural b&b",
+      "city_name": "Cannobio",
+      "indirizzo": "Via Casali Solivo, 2, 28822 Cannobio VB",
+      "lat": 46.057724,
+      "lng": 8.702561
+    },
+    {
+      "id": "47cc2467-b937-41ee-a9fd-9abe1912c005",
+      "slug": "villa-costantina-cannobio",
+      "nome": "Villa Costantina",
+      "city_name": "Cannobio",
+      "indirizzo": "Via Luigi Meschio, 19 A, 28822 Cannobio VB",
+      "lat": 46.062977,
+      "lng": 8.69914
+    },
+    {
+      "id": "8375c84f-ac73-4089-bfb1-7e74f6436aa1",
+      "slug": "villa-cuserina-cannobio",
+      "nome": "Villa Cuserina",
+      "city_name": "Cannobio",
+      "indirizzo": "Via Valle Cannobina, 45, 28822 Cannobio VB",
+      "lat": 46.058906,
+      "lng": 8.692648
+    },
+    {
+      "id": "d6482fd1-1889-4afd-9666-f65bfd43056a",
+      "slug": "villa-diomira-b-b-and-bike-cannobio",
+      "nome": "Villa Diomira B&B and Bike",
+      "city_name": "Cannobio",
+      "indirizzo": "Vicolo Castello, 4, 28822 Sant'Agata VB",
+      "lat": 46.071476,
+      "lng": 8.68635
+    },
+    {
+      "id": "f3ebc192-dd07-4d53-9b58-55d53a181256",
+      "slug": "albergo-le-muse-cannole",
+      "nome": "Albergo Le Muse",
+      "city_name": "Cannole",
+      "indirizzo": "Prov.le 212 carpignano sal.- cursi, km 0, 73020 Carpignano Salentino LE",
+      "lat": 40.183105,
+      "lng": 18.332525
+    },
+    {
+      "id": "47e58902-446b-4ae0-a0c4-8428c60bf2ca",
+      "slug": "belami-hotel-ristorante-cantina-cannole",
+      "nome": "Belami - Hotel Ristorante Cantina",
+      "city_name": "Cannole",
+      "indirizzo": "Via Roma, 86, 73024 Maglie LE",
+      "lat": 40.123457,
+      "lng": 18.297041
+    },
+    {
+      "id": "a2016f84-c0fe-4730-a474-f9f99bd73abb",
+      "slug": "dimore-nonna-ina-cannole",
+      "nome": "Dimore Nonna Ina",
+      "city_name": "Cannole",
+      "indirizzo": "Via Giannotta, 16, 73024 Maglie LE",
+      "lat": 40.123313,
+      "lng": 18.298158
+    },
+    {
+      "id": "2c339223-9a09-4453-aff1-377e23b2f094",
+      "slug": "hotel-corte-dei-francesi-cannole",
+      "nome": "Hotel Corte dei Francesi",
+      "city_name": "Cannole",
+      "indirizzo": "Via Roma, 138, 73024 Maglie LE",
+      "lat": 40.124621,
+      "lng": 18.296344
+    },
+    {
+      "id": "23099f89-ba5f-4e10-b8bd-319129fe8136",
+      "slug": "hotel-messapi-di-pedio-luigi-cannole",
+      "nome": "Hotel Messapi Di Pedio Luigi",
+      "city_name": "Cannole",
+      "indirizzo": "Via della Resistenza, 19, 73036 Muro Leccese LE",
+      "lat": 40.106453,
+      "lng": 18.334939
+    },
+    {
+      "id": "97564911-bfb0-42d4-bc78-b202f0113418",
+      "slug": "karpignana-hotel-cannole",
+      "nome": "Karpignàna Hotel",
+      "city_name": "Cannole",
+      "indirizzo": "Corso Umberto, 6G, 73020 Carpignano Salentino LE",
+      "lat": 40.19364,
+      "lng": 18.33772
+    },
+    {
+      "id": "573b155c-4ff6-4a51-9c7f-3fe0e08e1b2e",
+      "slug": "la-stella-di-keplero-cannole",
+      "nome": "La Stella Di Keplero",
+      "city_name": "Cannole",
+      "indirizzo": "Via S. Giovanni, 15, 73020 Cannole LE",
+      "lat": 40.166036,
+      "lng": 18.365955
+    },
+    {
+      "id": "379f4c78-cad3-40e7-8518-acef1038a56a",
+      "slug": "marelive-cdshotels-cannole",
+      "nome": "Marelive - CDSHotels",
+      "city_name": "Cannole",
+      "indirizzo": "Viale dei Palmizi, 73026 Torre dell'Orso LE",
+      "lat": 40.257804,
+      "lng": 18.434254
+    },
+    {
+      "id": "054a41ff-cd76-417d-84a0-5e1466c9446e",
+      "slug": "motel-s-16-cannole",
+      "nome": "Motel S.16",
+      "city_name": "Cannole",
+      "indirizzo": "73036 Muro Leccese LE, Italia",
+      "lat": 40.12434,
+      "lng": 18.33593
+    },
+    {
+      "id": "bb9a90b6-04ac-43c5-a2f9-4a304a0dba08",
+      "slug": "la-casetta-canolo",
+      "nome": "La Casetta",
+      "city_name": "Canolo",
+      "indirizzo": "Largo Giovanni Battista Chiappe, 89040 Gerace RC",
+      "lat": 38.272051,
+      "lng": 16.217859
+    },
+    {
+      "id": "420d09f2-5365-4bc4-92c5-370db2d0e4b9",
+      "slug": "b-b-la-finestra-sul-fiume-canonica-d-adda",
+      "nome": "B&B La finestra sul fiume",
+      "city_name": "Canonica d'Adda",
+      "indirizzo": "Vicolo Antonio Pizzagalli, 26, 20069 Vaprio d'Adda MI",
+      "lat": 45.576088,
+      "lng": 9.533297
+    },
+    {
+      "id": "9e512470-f635-435d-be27-9343388a9b27",
+      "slug": "b-b-mirna-canonica-d-adda",
+      "nome": "B&B Mirna",
+      "city_name": "Canonica d'Adda",
+      "indirizzo": "Via Antonio Motta, 5, 20069 Vaprio d'Adda MI",
+      "lat": 45.576187,
+      "lng": 9.532147
+    },
+    {
+      "id": "39d48259-cce2-46d6-afe3-5747b6a1a5ff",
+      "slug": "affitta-camere-domus-al-corso-canosa-di-puglia",
+      "nome": "Affitta Camere DomuS al Corso",
+      "city_name": "Canosa di Puglia",
+      "indirizzo": "Via Ettore Carafa, 11, 76012 Canosa di Puglia BT",
+      "lat": 41.223954,
+      "lng": 16.064603
+    },
+    {
+      "id": "df721393-c690-4055-90ed-85a1f04c9edc",
+      "slug": "affittacamere-la-perla-del-mare-canosa-di-puglia",
+      "nome": "Affittacamere La Perla del Mare",
+      "city_name": "Canosa di Puglia",
+      "indirizzo": "Lungomare Cristoforo Colombo, 70, 76016 Margherita di Savoia BT",
+      "lat": 41.379076,
+      "lng": 16.145918
+    },
+    {
+      "id": "ce6cc286-8f9a-48f7-a5bf-d06bccdf3a1d",
+      "slug": "antica-torre-dell-orologio-canosa-di-puglia",
+      "nome": "Antica Torre dell'Orologio",
+      "city_name": "Canosa di Puglia",
+      "indirizzo": "Via Trieste e Trento, 52, 76012 Canosa di Puglia BT",
+      "lat": 41.224524,
+      "lng": 16.061516
+    },
+    {
+      "id": "e834369c-42dd-45b1-a1cc-269a199dcead",
+      "slug": "b-b-bellavista-canosa-di-puglia",
+      "nome": "B&B Bellavista",
+      "city_name": "Canosa di Puglia",
+      "indirizzo": "Via Festicella, 13, 76016 Margherita di Savoia BT",
+      "lat": 41.3796,
+      "lng": 16.143935
+    },
+    {
+      "id": "55368a4a-fc94-48d5-b1dd-8bf7c1ea6ba4",
+      "slug": "b-b-dimore-demetra-canosa-di-puglia",
+      "nome": "B&B Dimore Demetra",
+      "city_name": "Canosa di Puglia",
+      "indirizzo": "Via John Fitzgerald Kennedy, 24, 76012 Canosa di Puglia BT",
+      "lat": 41.221214,
+      "lng": 16.066802
+    },
+    {
+      "id": "09594b08-5c09-4d8e-96d9-92eed924b30c",
+      "slug": "b-b-posta-piana-canosa-di-puglia",
+      "nome": "B&B Posta Piana",
+      "city_name": "Canosa di Puglia",
+      "indirizzo": "C.da Crocifisso SS 93, km 39.500, 76012 Canosa di Puglia BT",
+      "lat": 41.13581,
+      "lng": 15.901448
+    },
+    {
+      "id": "e3a4fd2a-6f87-46de-be07-4da69ae5af7d",
+      "slug": "domus-al-corso-b-b-canosa-di-puglia",
+      "nome": "DomuS al Corso B&B",
+      "city_name": "Canosa di Puglia",
+      "indirizzo": "Via Guglielmo Oberdan, 134, 76012 Canosa di Puglia BT",
+      "lat": 41.226952,
+      "lng": 16.063772
+    },
+    {
+      "id": "073532f5-cc40-4d67-a597-a561e42a0656",
+      "slug": "gazebo-rooms-canosa-di-puglia",
+      "nome": "Gazebo Rooms",
+      "city_name": "Canosa di Puglia",
+      "indirizzo": "Via Risorgimento, 11, 76016 Margherita di Savoia BT",
+      "lat": 41.374781,
+      "lng": 16.148908
+    },
+    {
+      "id": "19300e1a-4aee-4374-813b-e34a2d32dec2",
+      "slug": "hotel-canusium-canosa-di-puglia",
+      "nome": "Hotel Canusium",
+      "city_name": "Canosa di Puglia",
+      "indirizzo": "Piazza Oristano, 32, 70053 Canosa di Puglia BA",
+      "lat": 41.210062,
+      "lng": 16.079244
+    },
+    {
+      "id": "594d353c-9d00-478b-a5af-d3c6b7e48031",
+      "slug": "hotel-d-altavilla-canosa-di-puglia",
+      "nome": "Hotel d'Altavilla",
+      "city_name": "Canosa di Puglia",
+      "indirizzo": "Via Balilla, 49, 70053 Canosa di Puglia BT",
+      "lat": 41.221588,
+      "lng": 16.072813
+    }
+  ]
+}

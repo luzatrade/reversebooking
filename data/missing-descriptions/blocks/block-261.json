@@ -1,0 +1,323 @@
+{
+  "block": 261,
+  "blockId": "261",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "cbfc2956-7985-4d41-8a5e-99c16c67e187",
+      "slug": "air-hotel-bertinoro",
+      "nome": "Air Hotel",
+      "city_name": "Bertinoro",
+      "indirizzo": "Via Nereo Morandi, 7, 47121 Forlì FC",
+      "lat": 44.206464,
+      "lng": 12.076209
+    },
+    {
+      "id": "1f2ac5f7-1ab5-4f96-b5cf-c05aba97b341",
+      "slug": "all-ovile-bertinoro",
+      "nome": "All'Ovile",
+      "city_name": "Bertinoro",
+      "indirizzo": "Str. Vernacchia Montevescovo, 29, 47014 Meldola FC",
+      "lat": 44.088468,
+      "lng": 12.058395
+    },
+    {
+      "id": "f48ddc0d-92f8-489e-8d52-cc4052b2354a",
+      "slug": "b-b-del-borgo-bertinoro-bertinoro",
+      "nome": "B&B del Borgo Bertinoro",
+      "city_name": "Bertinoro",
+      "indirizzo": "Via Giuseppe Mazzini, 35, 47032 Bertinoro FC",
+      "lat": 44.14792,
+      "lng": 12.13494
+    },
+    {
+      "id": "a8c53b8d-ad43-46f4-b956-e1ef0b74b74a",
+      "slug": "casa-delle-ginestre-bertinoro",
+      "nome": "Casa delle ginestre",
+      "city_name": "Bertinoro",
+      "indirizzo": "Via Tomba di Casetto, 736, 47522 Cesena FC",
+      "lat": 44.07487,
+      "lng": 12.211608
+    },
+    {
+      "id": "87b1d592-4762-4296-bfb3-fdd8410d4bd7",
+      "slug": "giardino34-bertinoro",
+      "nome": "Giardino34",
+      "city_name": "Bertinoro",
+      "indirizzo": "Via S. Pellegrino Laziosi, 34, 47121 Forlì FC",
+      "lat": 44.219814,
+      "lng": 12.043144
+    },
+    {
+      "id": "178b7c40-0425-44d2-8e8d-0225297a7268",
+      "slug": "grand-hotel-forli-bertinoro",
+      "nome": "Grand Hotel Forlì",
+      "city_name": "Bertinoro",
+      "indirizzo": "Via Del Partigiano, 12/bis, 47121 Forlì FC",
+      "lat": 44.197308,
+      "lng": 11.997199
+    },
+    {
+      "id": "59eb2246-9218-4d79-b16d-7ecda549c1ec",
+      "slug": "hotel-fontanelle-bertinoro",
+      "nome": "Hotel Fontanelle",
+      "city_name": "Bertinoro",
+      "indirizzo": "Via Loreta, 271, 47032 Bertinoro FC",
+      "lat": 44.141457,
+      "lng": 12.100747
+    },
+    {
+      "id": "8256aa6c-ba37-4c4c-a830-33938a1f3f01",
+      "slug": "hotel-la-colonna-bertinoro",
+      "nome": "Hotel La Colonna",
+      "city_name": "Bertinoro",
+      "indirizzo": "Piazza della Libertà, 8, 47032 Bertinoro FC",
+      "lat": 44.149489,
+      "lng": 12.133147
+    },
+    {
+      "id": "a2b559d1-0d52-4089-bf23-12745aae772d",
+      "slug": "hotel-marta-bertinoro",
+      "nome": "Hotel Marta",
+      "city_name": "Bertinoro",
+      "indirizzo": "Via Carlo Cignani, 11, 47121 Forlì FC",
+      "lat": 44.221207,
+      "lng": 12.04368
+    },
+    {
+      "id": "12af8f1b-f179-4fe0-9d51-8474f9df600f",
+      "slug": "hotel-masini-bertinoro",
+      "nome": "Hotel Masini",
+      "city_name": "Bertinoro",
+      "indirizzo": "Corso Giuseppe Garibaldi, 28, 47121 Forlì FC",
+      "lat": 44.222729,
+      "lng": 12.038595
+    },
+    {
+      "id": "1be6d512-3154-4deb-b04c-cc56093ce5ef",
+      "slug": "hotel-michelangelo-forli-bertinoro",
+      "nome": "Hotel Michelangelo Forlì",
+      "city_name": "Bertinoro",
+      "indirizzo": "Via Michelangelo Buonarroti, 4/6, 47122 Forlì FC",
+      "lat": 44.217246,
+      "lng": 12.053129
+    },
+    {
+      "id": "eb00eeb0-c1e8-4acd-b62d-05a69aba7133",
+      "slug": "hotel-panorama-bertinoro-bertinoro",
+      "nome": "Hotel Panorama Bertinoro",
+      "city_name": "Bertinoro",
+      "indirizzo": "Piazza della Libertà, 11, 47032 Bertinoro FC",
+      "lat": 44.149233,
+      "lng": 12.134048
+    },
+    {
+      "id": "c8cf7b65-a0cc-4c76-904f-cf5a687081eb",
+      "slug": "la-cana-dolce-bertinoro",
+      "nome": "la cana dolce",
+      "city_name": "Bertinoro",
+      "indirizzo": "Viale Carducci, 151, 47032 Bertinoro FC",
+      "lat": 44.145783,
+      "lng": 12.141805
+    },
+    {
+      "id": "e0672223-263f-451a-82f7-a44d883a857a",
+      "slug": "mondo-antico-b-b-e-vicoletto-appartamento-vacanz-bertinoro",
+      "nome": "Mondo Antico B&B E VICOLETTO Appartamento Vacanza centro storico",
+      "city_name": "Bertinoro",
+      "indirizzo": "Via Paiuncolo, 9, 47521 Cesena FC",
+      "lat": 44.137345,
+      "lng": 12.24706
+    },
+    {
+      "id": "32b0d662-b0a5-444d-b83f-8ec4f0dc8b05",
+      "slug": "respiro-glamping-bertinoro",
+      "nome": "Respiro Glamping",
+      "city_name": "Bertinoro",
+      "indirizzo": "Via Pianazze, 1879, 47522 Cesena FC",
+      "lat": 44.078484,
+      "lng": 12.137826
+    },
+    {
+      "id": "d85fbefd-d83a-4631-8b08-2b19a46ce51b",
+      "slug": "romea-aparthotel-residence-bertinoro",
+      "nome": "Romea Aparthotel Residence",
+      "city_name": "Bertinoro",
+      "indirizzo": "Via Romea, 605, 47522 Cesena FC",
+      "lat": 44.139975,
+      "lng": 12.218377
+    },
+    {
+      "id": "986e394d-c9d9-404b-b1a9-fe8fcdba8415",
+      "slug": "affittacamere-all-antico-borgo-bertiolo",
+      "nome": "affittacamere All'Antico Borgo",
+      "city_name": "Bertiolo",
+      "indirizzo": "Via Tagliamento, 16, 33030 Camino Al Tagliamento UD",
+      "lat": 45.926144,
+      "lng": 12.94109
+    },
+    {
+      "id": "9ef2075c-63dd-4b30-8b2c-69f1b300a811",
+      "slug": "alberta-bertiolo",
+      "nome": "ALBERTA",
+      "city_name": "Bertiolo",
+      "indirizzo": "Via Latisana, 12, 33032 Bertiolo UD",
+      "lat": 45.94218,
+      "lng": 13.049625
+    },
+    {
+      "id": "c88cea7a-e4a6-471a-989a-60c5dad2b7f7",
+      "slug": "b-b-dreon-bertiolo",
+      "nome": "B&B Dreon",
+      "city_name": "Bertiolo",
+      "indirizzo": "Via Giuseppe Mazzini, 11, 30025 Fossalta di Portogruaro VE",
+      "lat": 45.792511,
+      "lng": 12.907986
+    },
+    {
+      "id": "133f7dec-8a87-4f39-9f95-12201048fe1b",
+      "slug": "b-b-gildo-bertiolo",
+      "nome": "B&B Gildo",
+      "city_name": "Bertiolo",
+      "indirizzo": "Via Margherita, 12, 33032 Bertiolo UD",
+      "lat": 45.941622,
+      "lng": 13.052399
+    },
+    {
+      "id": "45ecd3c8-97bd-4029-980d-428c0d100e61",
+      "slug": "b-b-salvia-e-rosmarino-bertiolo",
+      "nome": "B&B Salvia e Rosmarino",
+      "city_name": "Bertiolo",
+      "indirizzo": "Piazza Mercato, 7, 33032 Bertiolo UD",
+      "lat": 45.942572,
+      "lng": 13.048246
+    },
+    {
+      "id": "73372b1c-ce53-43af-8973-334ef26697ed",
+      "slug": "bar-oasi-trattoria-affittacamere-bertiolo",
+      "nome": "Bar Oasi Trattoria Affittacamere",
+      "city_name": "Bertiolo",
+      "indirizzo": "Via Roma, 107, 33050 Pocenia UD",
+      "lat": 45.836735,
+      "lng": 13.09847
+    },
+    {
+      "id": "71932ab3-faa4-4eb0-abb9-35bd8c5552ba",
+      "slug": "da-gastone-bertiolo",
+      "nome": "da Gastone",
+      "city_name": "Bertiolo",
+      "indirizzo": "Via Gabriele D'Annunzio, 48, 33050 Flambruzzo UD",
+      "lat": 45.879108,
+      "lng": 13.072621
+    },
+    {
+      "id": "2a3d1faf-f772-48ad-bfb7-6f5e16879880",
+      "slug": "edera-dei-guatto-bertiolo",
+      "nome": "EDERA dei Guatto",
+      "city_name": "Bertiolo",
+      "indirizzo": "Via Latisana, 32, 33032 Bertiolo UD",
+      "lat": 45.941246,
+      "lng": 13.048986
+    },
+    {
+      "id": "1cba947d-bfc0-4921-9295-b1430d0530eb",
+      "slug": "fiori-di-maggio-bertiolo",
+      "nome": "Fiori di Maggio",
+      "city_name": "Bertiolo",
+      "indirizzo": "Via Roveredo, 4, 33033 Muscletto UD",
+      "lat": 45.908617,
+      "lng": 13.003695
+    },
+    {
+      "id": "0f50942b-c8a9-486d-a508-f6b707aa6bef",
+      "slug": "agriturismo-chioso-di-sotto-bertonico",
+      "nome": "Agriturismo Chioso di Sotto",
+      "city_name": "Bertonico",
+      "indirizzo": "Via Roma, 34, 26010 Moscazzano CR",
+      "lat": 45.2927,
+      "lng": 9.684817
+    },
+    {
+      "id": "5be851e0-4efe-4417-819f-483b692c4596",
+      "slug": "break-hotel-bertonico",
+      "nome": "Break Hotel",
+      "city_name": "Bertonico",
+      "indirizzo": "Via Marconi, 5, 26864 Ospedaletto Lodigiano LO",
+      "lat": 45.172466,
+      "lng": 9.5874
+    },
+    {
+      "id": "8fe02f83-1411-49c0-86c6-97feeb177c76",
+      "slug": "casa-jomi-borghetto-lodigiano-bertonico",
+      "nome": "Casa Jomi Borghetto Lodigiano",
+      "city_name": "Bertonico",
+      "indirizzo": "Via Troglio, 57, 26812 Borghetto Lodigiano LO",
+      "lat": 45.210083,
+      "lng": 9.49498
+    },
+    {
+      "id": "2f7151fc-e5e4-4845-a3d2-582c284003f0",
+      "slug": "corte-stella-r-t-a-bertonico",
+      "nome": "Corte Stella - R.T.A.",
+      "city_name": "Bertonico",
+      "indirizzo": "Via Antonio Zoncada, 56, 26845 Codogno LO",
+      "lat": 45.158985,
+      "lng": 9.703702
+    },
+    {
+      "id": "804781d3-020f-490f-94e7-eef9a3ca7de0",
+      "slug": "trattoria-del-cristo-bertonico",
+      "nome": "Trattoria Del Cristo",
+      "city_name": "Bertonico",
+      "indirizzo": "Via del Cristo, 40, 26864 Ospedaletto Lodigiano LO",
+      "lat": 45.17,
+      "lng": 9.577222
+    },
+    {
+      "id": "5cbf8093-2d98-486a-80dc-a3f167c71c13",
+      "slug": "agriturismo-bella-ciao-berzano-di-san-pietro",
+      "nome": "Agriturismo Bella Ciao",
+      "city_name": "Berzano di San Pietro",
+      "indirizzo": "Località, valle gervasio, 5/A, 14020 Berzano di San Pietro AT",
+      "lat": 45.10624,
+      "lng": 7.965209
+    },
+    {
+      "id": "7cefae83-4beb-49e9-a021-b47a0d2f7507",
+      "slug": "aps-casale-tierra-madre-berzano-di-san-pietro",
+      "nome": "APS Casale Tierra Madre",
+      "city_name": "Berzano di San Pietro",
+      "indirizzo": "Località, valle gervasio, 22, 14020 Berzano di San Pietro AT",
+      "lat": 45.108328,
+      "lng": 7.959931
+    },
+    {
+      "id": "02b2c3c0-f4e2-4fbd-bb76-c25626f764be",
+      "slug": "cascina-cavana-berzano-di-san-pietro",
+      "nome": "Cascina Cavana",
+      "city_name": "Berzano di San Pietro",
+      "indirizzo": "Asti, Valle Ochera, 34, 14020 Berzano di San Pietro AT",
+      "lat": 45.10241,
+      "lng": 7.943272
+    },
+    {
+      "id": "f49101e2-75c2-4196-a46b-951d693d0be0",
+      "slug": "la-casa-in-collina-b-b-berzano-di-san-pietro",
+      "nome": "La casa in collina B&B",
+      "city_name": "Berzano di San Pietro",
+      "indirizzo": "Valle Ochera, 26, 14020 Berzano di San Pietro AT",
+      "lat": 45.103948,
+      "lng": 7.932689
+    },
+    {
+      "id": "3bb917f6-9da3-4ed2-bd9e-51aa3949d223",
+      "slug": "b-b-casa-suri-berzano-di-tortona",
+      "nome": "B&B Casa Surì",
+      "city_name": "Berzano di Tortona",
+      "indirizzo": "Località Ercolina, 3, 15052 Casalnoceto AL",
+      "lat": 44.908452,
+      "lng": 8.969508
+    }
+  ]
+}

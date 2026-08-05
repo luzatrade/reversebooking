@@ -1,0 +1,323 @@
+{
+  "block": 55,
+  "blockId": "055",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "443a935e-eb90-4d17-bdcd-3a60c2108a22",
+      "slug": "grand-hotel-la-chiusa-di-chietri-alberobello",
+      "nome": "Grand Hotel La Chiusa di Chietri",
+      "city_name": "Alberobello",
+      "indirizzo": "SS 172 dei Trulli, km 29, 800, 70011 Alberobello BA",
+      "lat": 40.821164,
+      "lng": 17.21344
+    },
+    {
+      "id": "9c9a5b3b-1d1b-45d9-a080-11413cdf6c5a",
+      "slug": "grand-hotel-olimpo-alberobello",
+      "nome": "Grand Hotel Olimpo",
+      "city_name": "Alberobello",
+      "indirizzo": "Via 7 Liberatori della Selva, 4b, 70011 Alberobello BA",
+      "lat": 40.779408,
+      "lng": 17.243608
+    },
+    {
+      "id": "3769b324-b74a-4659-9abf-e7fe29c8e7fe",
+      "slug": "hotel-ramapendula-alberobello",
+      "nome": "Hotel \"Ramapendula\"",
+      "city_name": "Alberobello",
+      "indirizzo": "Via Locorotondo, Snc, 70011 Alberobello BA",
+      "lat": 40.782661,
+      "lng": 17.245218
+    },
+    {
+      "id": "36f65452-5269-4cb1-883a-dbc24f2e293a",
+      "slug": "hotel-astoria-alberobello",
+      "nome": "Hotel Astoria",
+      "city_name": "Alberobello",
+      "indirizzo": "Viale Bari, 11, 70011 Alberobello BA",
+      "lat": 40.78659,
+      "lng": 17.241026
+    },
+    {
+      "id": "a8f55c2a-9361-4d9d-9d48-4fed66eb6fd1",
+      "slug": "hotel-cavaliere-alberobello",
+      "nome": "Hotel Cavaliere",
+      "city_name": "Alberobello",
+      "indirizzo": "Via Tommaso Siciliani, 47, 70015 Noci BA",
+      "lat": 40.799343,
+      "lng": 17.116724
+    },
+    {
+      "id": "f717e273-e99d-4d1b-82f4-e5c8b4809541",
+      "slug": "hotel-colle-del-sole-alberobello",
+      "nome": "Hotel Colle del Sole",
+      "city_name": "Alberobello",
+      "indirizzo": "Via Indipendenza, 63, 70011 Alberobello BA",
+      "lat": 40.779909,
+      "lng": 17.244317
+    },
+    {
+      "id": "a11ddcdf-2320-4da0-8cd1-ec1dd796a052",
+      "slug": "hotel-cuor-di-puglia-alberobello",
+      "nome": "Hotel Cuor Di Puglia",
+      "city_name": "Alberobello",
+      "indirizzo": "Via M.Viterbo, 3, 70011 Alberobello BA",
+      "lat": 40.779845,
+      "lng": 17.244689
+    },
+    {
+      "id": "4769911a-d078-46b7-bb73-5312b8185ba0",
+      "slug": "hotel-donatello-alberobello-alberobello",
+      "nome": "Hotel Donatello Alberobello",
+      "city_name": "Alberobello",
+      "indirizzo": "Via Angelo Turi, 96, 70011 Coreggia BA",
+      "lat": 40.805551,
+      "lng": 17.264971
+    },
+    {
+      "id": "367363a9-915f-4a9d-af8e-ff4d3bad6018",
+      "slug": "hotel-lanzillotta-alberobello",
+      "nome": "Hotel Lanzillotta",
+      "city_name": "Alberobello",
+      "indirizzo": "Piazza Re Ferdinando IV di Borbone , numero 33, 70011, Piazza Re Ferdinando IV di Borbone, 31, 70011 Alberobello BA",
+      "lat": 40.784504,
+      "lng": 17.237706
+    },
+    {
+      "id": "ea8ef7b5-a02d-42db-a7e5-778687e5b9e2",
+      "slug": "hotel-silva-alberobello",
+      "nome": "Hotel Silva",
+      "city_name": "Alberobello",
+      "indirizzo": "Largo Svevo Italo, 7, 70011 Alberobello BA",
+      "lat": 40.788357,
+      "lng": 17.233104
+    },
+    {
+      "id": "0984e450-35a9-49a6-9947-d4458bdce9b7",
+      "slug": "hotel-sovrano-alberobello",
+      "nome": "Hotel Sovrano",
+      "city_name": "Alberobello",
+      "indirizzo": "Viale Alcide De Gasperi, 2, 70011 Alberobello BA",
+      "lat": 40.788968,
+      "lng": 17.233195
+    },
+    {
+      "id": "938901ba-f93d-4669-8a5d-d29315f05a98",
+      "slug": "i-trulli-del-fauno-alberobello",
+      "nome": "I Trulli del Fauno",
+      "city_name": "Alberobello",
+      "indirizzo": "Strada Comunale Gabellota, 15c, 70011 Alberobello BA",
+      "lat": 40.782092,
+      "lng": 17.217605
+    },
+    {
+      "id": "f152fcb8-41a9-4cdc-aecc-5a32e5b0e91f",
+      "slug": "le-alcove-luxury-hotel-nei-trulli-alberobello",
+      "nome": "Le Alcove Luxury Hotel nei Trulli",
+      "city_name": "Alberobello",
+      "indirizzo": "Piazza Re Ferdinando IV di Borbone, 7, 70011 Alberobello BA",
+      "lat": 40.784671,
+      "lng": 17.238033
+    },
+    {
+      "id": "18e869e2-0ce6-4933-ac9b-56bcbc70789b",
+      "slug": "san-marco-boutique-rooms-alberobello",
+      "nome": "San Marco Boutique Rooms",
+      "city_name": "Alberobello",
+      "indirizzo": "Via Monte S. Marco, 17, 70011 Alberobello BA",
+      "lat": 40.782574,
+      "lng": 17.237813
+    },
+    {
+      "id": "29f9b26b-2879-44be-841e-a953a000a576",
+      "slug": "tipico-resort-in-trulli-alberobello",
+      "nome": "Tipico Resort in Trulli",
+      "city_name": "Alberobello",
+      "indirizzo": "Via Brigata Regina, 47, 70011 Alberobello BA",
+      "lat": 40.783266,
+      "lng": 17.237971
+    },
+    {
+      "id": "38c8fcb8-ae01-41cd-a4f1-3b7ae21d3a64",
+      "slug": "trulli-e-puglia-resort-alberobello",
+      "nome": "Trulli e Puglia Resort",
+      "city_name": "Alberobello",
+      "indirizzo": "P.za Gabriele D'Annunzio, 2, 70011 Alberobello BA",
+      "lat": 40.781456,
+      "lng": 17.236269
+    },
+    {
+      "id": "b0e3c0c8-d544-4ec4-ab67-41ab6e62a76d",
+      "slug": "trulli-holiday-albergo-diffuso-alberobello",
+      "nome": "Trulli Holiday Albergo Diffuso",
+      "city_name": "Alberobello",
+      "indirizzo": "Piazza XXVII Maggio, 38, 70011 Alberobello BA",
+      "lat": 40.784085,
+      "lng": 17.238414
+    },
+    {
+      "id": "8ca89081-4ca9-4720-95a6-905c7b8dc366",
+      "slug": "trullidea-albergo-diffuso-alberobello",
+      "nome": "Trullidea Albergo diffuso",
+      "city_name": "Alberobello",
+      "indirizzo": "Via Monte Sabotino, 10, 70011 Alberobello BA",
+      "lat": 40.782783,
+      "lng": 17.2369
+    },
+    {
+      "id": "74430d84-1fc6-4603-abe6-beb47bb460f9",
+      "slug": "affittacamere-la-torre-alberona",
+      "nome": "Affittacamere \"La Torre\"",
+      "city_name": "Alberona",
+      "indirizzo": "Via Roma, 45, 71032 Biccari FG",
+      "lat": 41.396769,
+      "lng": 15.193951
+    },
+    {
+      "id": "b1b3736f-922e-4c6f-ae1b-4f76e8f9482b",
+      "slug": "affittacamere-palazzo-1892-alberona",
+      "nome": "Affittacamere Palazzo 1892",
+      "city_name": "Alberona",
+      "indirizzo": "Corso Vittorio Emanuele III, 16, 82023 Castelvetere in Val Fortore BN",
+      "lat": 41.443007,
+      "lng": 14.934034
+    },
+    {
+      "id": "064d6416-39b8-477c-9771-97d2e760d5fc",
+      "slug": "agriturismo-regio-tratturo-alberona",
+      "nome": "Agriturismo Regio Tratturo",
+      "city_name": "Alberona",
+      "indirizzo": "Strada Provinciale 30, Baselice, BN, 82020 Baselice BN",
+      "lat": 41.382931,
+      "lng": 14.966089
+    },
+    {
+      "id": "e526723e-404d-4315-bc4c-fbd8ce3302e1",
+      "slug": "albergo-michelangelo-alberona",
+      "nome": "Albergo Michelangelo",
+      "city_name": "Alberona",
+      "indirizzo": "Via Michelangelo Buonarroti, 82028 San Bartolomeo In Galdo BN",
+      "lat": 41.425238,
+      "lng": 15.020973
+    },
+    {
+      "id": "a10b2966-f366-46f2-a22a-ca15e9b8caed",
+      "slug": "b-b-belvedere-castelluccio-valmaggiore-alberona",
+      "nome": "B&B Belvedere Castelluccio Valmaggiore",
+      "city_name": "Alberona",
+      "indirizzo": "Via Sotto le Mura, 66, 71020 Castelluccio Valmaggiore FG",
+      "lat": 41.340994,
+      "lng": 15.198184
+    },
+    {
+      "id": "f7c9f959-6cbf-4323-bb79-16c325a4124b",
+      "slug": "b-b-borgo-sciugolo-alberona",
+      "nome": "B&b Borgo Sciugolo",
+      "city_name": "Alberona",
+      "indirizzo": "Via Sciugolo, 2b, 82020 Baselice BN",
+      "lat": 41.39458,
+      "lng": 14.972428
+    },
+    {
+      "id": "663987f1-ae96-4a68-9f0d-d8d410267774",
+      "slug": "b-b-poggio-marano-alberona",
+      "nome": "B&B Poggio Marano",
+      "city_name": "Alberona",
+      "indirizzo": "Località Marano, 7, 82028 San Bartolomeo in Galdo BN",
+      "lat": 41.453382,
+      "lng": 15.03833
+    },
+    {
+      "id": "b804c59d-b178-425a-b9cd-8211669fed1a",
+      "slug": "bora-b-b-alberona",
+      "nome": "BORA B&B",
+      "city_name": "Alberona",
+      "indirizzo": "Via Sant'Antonio, 72, 71029 Troia FG",
+      "lat": 41.361428,
+      "lng": 15.306784
+    },
+    {
+      "id": "d2fd0bfd-292e-4bd4-a301-ed59cde81185",
+      "slug": "casa-al-lago-b-b-alberona",
+      "nome": "Casa Al Lago B&B",
+      "city_name": "Alberona",
+      "indirizzo": "Contrada Mazzocca, snc, 82020 Foiao Di Val Forotre BN",
+      "lat": 41.35434,
+      "lng": 14.926239
+    },
+    {
+      "id": "fa77ff97-7a8f-4a2b-a13c-736989bfac0f",
+      "slug": "dragonfly-affittacamere-alberona",
+      "nome": "Dragonfly affittacamere",
+      "city_name": "Alberona",
+      "indirizzo": "Via G. Leopardi, 2, 71030 Motta Montecorvino FG",
+      "lat": 41.506549,
+      "lng": 15.112812
+    },
+    {
+      "id": "9b53205a-7787-43d4-94f1-fa53c8b64057",
+      "slug": "hotel-palace-lucera-alberona",
+      "nome": "Hotel Palace Lucera",
+      "city_name": "Alberona",
+      "indirizzo": "G78R+48 Zona Industriale di Lucera, SP5, 71036 Lucera FG",
+      "lat": 41.515313,
+      "lng": 15.290813
+    },
+    {
+      "id": "fcafceb6-9348-4e64-bad2-fdd856146a6f",
+      "slug": "i-templari-di-alberona-alberona",
+      "nome": "I Templari di Alberona",
+      "city_name": "Alberona",
+      "indirizzo": "Via Ripa, 22, 71031 Alberona FG",
+      "lat": 41.434874,
+      "lng": 15.123336
+    },
+    {
+      "id": "7f6f6992-608f-436f-9185-a7a2cc64f1d6",
+      "slug": "il-viandante-bed-breakfast-alberona",
+      "nome": "Il Viandante Bed & Breakfast",
+      "city_name": "Alberona",
+      "indirizzo": "Via Colonnello Lorenzo D'Avanzo, 122, 71039 Roseto Valfortore FG",
+      "lat": 41.37353,
+      "lng": 15.096555
+    },
+    {
+      "id": "b9f0fa47-1a1e-41a7-bfb5-69c1a75bfee5",
+      "slug": "la-balconata-ristorante-pizzeria-hotel-diffusion-alberona",
+      "nome": "La Balconata Ristorante - Pizzeria - Hotel diffusion",
+      "city_name": "Alberona",
+      "indirizzo": "Via XXIV Maggio, 6, 71030 Volturino FG",
+      "lat": 41.478548,
+      "lng": 15.12443
+    },
+    {
+      "id": "831fa84d-8a29-4ef3-9664-0b954b8e379f",
+      "slug": "la-veranda-fiorita-alberona",
+      "nome": "La Veranda Fiorita",
+      "city_name": "Alberona",
+      "indirizzo": "Via Roma, 17, 71038 Pietramontecorvino FG",
+      "lat": 41.543341,
+      "lng": 15.128597
+    },
+    {
+      "id": "7b512216-694c-42f1-a333-3276f1385918",
+      "slug": "locanda-di-ody-alberona",
+      "nome": "Locanda di Ody",
+      "city_name": "Alberona",
+      "indirizzo": "Via Roma, 50, 71038 Pietramontecorvino FG",
+      "lat": 41.543465,
+      "lng": 15.127748
+    },
+    {
+      "id": "f9f299b3-9c74-45d9-8aa6-3bdbd54f9a83",
+      "slug": "pacifico-rooms-affittacamere-alberona",
+      "nome": "Pacifico Rooms affittacamere",
+      "city_name": "Alberona",
+      "indirizzo": "Via Costa, 48a, 82028 San Bartolomeo in Galdo BN",
+      "lat": 41.404642,
+      "lng": 15.011645
+    }
+  ]
+}

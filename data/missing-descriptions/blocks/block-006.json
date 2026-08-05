@@ -1,0 +1,323 @@
+{
+  "block": 6,
+  "blockId": "006",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "7fcedba8-7840-49b9-a24f-0a22e2aee80b",
+      "slug": "mantra-suite-room-acerenza",
+      "nome": "MANTRA - Suite & Room",
+      "city_name": "Acerenza",
+      "indirizzo": "Corso Vittorio Emanuele III, 158, 85011 Acerenza PZ",
+      "lat": 40.795218,
+      "lng": 15.940314
+    },
+    {
+      "id": "a86cdb01-1b95-419b-b5ea-62a6762a3d28",
+      "slug": "nido-nel-borgo-acerenza",
+      "nome": "Nido nel Borgo",
+      "city_name": "Acerenza",
+      "indirizzo": "Via Nicia, 85011 Acerenza PZ",
+      "lat": 40.796668,
+      "lng": 15.941461
+    },
+    {
+      "id": "536cc40e-6415-4749-859f-fc0d91d28dce",
+      "slug": "park-hotel-centro-congressi-acerenza",
+      "nome": "Park Hotel Centro Congressi",
+      "city_name": "Acerenza",
+      "indirizzo": "E847, 85100 Potenza PZ",
+      "lat": 40.635262,
+      "lng": 15.828196
+    },
+    {
+      "id": "98c438b9-f726-4f7b-af1f-9345706f02ff",
+      "slug": "white-room-acerenza",
+      "nome": "White Room",
+      "city_name": "Acerenza",
+      "indirizzo": "C/da Costa Del Canneto, snc, 85056 Ruoti PZ",
+      "lat": 40.713085,
+      "lng": 15.688303
+    },
+    {
+      "id": "a0aa3f15-ff4b-4718-85fb-f533542dc630",
+      "slug": "agriturismo-il-rifugio-acerno",
+      "nome": "Agriturismo Il Rifugio",
+      "city_name": "Acerno",
+      "indirizzo": "Contrada Incassata, 10, 84096 Montecorvino Rovella SA",
+      "lat": 40.637071,
+      "lng": 14.990069
+    },
+    {
+      "id": "8af94901-ae07-466f-93fa-344793f4ab45",
+      "slug": "agriturismo-la-magione-del-capitano-vincenza-acerno",
+      "nome": "Agriturismo La Magione Del Capitano Vincenza",
+      "city_name": "Acerno",
+      "indirizzo": "Via Vittorio Emanuele II, 1, 84090 Pugliano SA",
+      "lat": 40.676052,
+      "lng": 14.949314
+    },
+    {
+      "id": "5655c04d-5d88-4ee9-a49d-5688178577a3",
+      "slug": "agriturismo-la-vecchia-lanterna-acerno",
+      "nome": "Agriturismo la Vecchia Lanterna",
+      "city_name": "Acerno",
+      "indirizzo": "Contrada Cannito Pezze, 23, 84096 Montecorvino Rovella SA",
+      "lat": 40.682522,
+      "lng": 14.992095
+    },
+    {
+      "id": "46e7159c-021a-4fa6-91c4-75796289d35f",
+      "slug": "albergo-le-dodici-lune-di-alessandra-e-paola-cor-acerno",
+      "nome": "Albergo Le Dodici Lune Di Alessandra E Paola Coralluzzo S.N.C.",
+      "city_name": "Acerno",
+      "indirizzo": "Via Roma, 29, 84096 Montecorvino Rovella SA",
+      "lat": 40.696558,
+      "lng": 14.975017
+    },
+    {
+      "id": "90f7b336-882f-485a-96c3-47740cf5f65f",
+      "slug": "annabella-bed-and-breakfast-acerno",
+      "nome": "Annabella Bed and Breakfast",
+      "city_name": "Acerno",
+      "indirizzo": "Via Pietro Giraldi, 84095 Giffoni Valle Piana SA",
+      "lat": 40.718091,
+      "lng": 14.943725
+    },
+    {
+      "id": "2c6218e4-44b4-49e7-b06a-ab03d23037c9",
+      "slug": "b-b-clio-acerno",
+      "nome": "B&B Clio",
+      "city_name": "Acerno",
+      "indirizzo": "via S. NICOLA, 72, 84022 Campagna SA",
+      "lat": 40.648775,
+      "lng": 15.147013
+    },
+    {
+      "id": "ee321abe-05c5-463d-bb4f-3ed393d3c296",
+      "slug": "b-b-la-perla-dei-casali-acerno",
+      "nome": "B&B La perla dei casali",
+      "city_name": "Acerno",
+      "indirizzo": "Via Tito Zaniboni, 4, 84090 Capitignano SA",
+      "lat": 40.72042,
+      "lng": 14.902625
+    },
+    {
+      "id": "e8399d07-b4f2-4d20-b84e-c9569a30dd4e",
+      "slug": "b-b-le-terrazze-acerno",
+      "nome": "B&B LE TERRAZZE",
+      "city_name": "Acerno",
+      "indirizzo": "VIA ACHILLE VIANELLI, N° 13, 84062 Olevano sul Tusciano SA",
+      "lat": 40.651962,
+      "lng": 15.018952
+    },
+    {
+      "id": "ab014918-e35e-4630-8bf1-e5ea97ce8e37",
+      "slug": "b-b-normanni-28-acerno",
+      "nome": "B&B Normanni 28",
+      "city_name": "Acerno",
+      "indirizzo": "Via Normanni, 28, 84022 Campagna SA",
+      "lat": 40.666309,
+      "lng": 15.108434
+    },
+    {
+      "id": "4dc40a7a-fd19-4088-9155-aa30905a99f5",
+      "slug": "b-b-ospiti-a-corte-acerno",
+      "nome": "B&B Ospiti a Corte",
+      "city_name": "Acerno",
+      "indirizzo": "Via Corte, 10, 84095 Giffoni Valle Piana SA",
+      "lat": 40.712086,
+      "lng": 14.943255
+    },
+    {
+      "id": "be5800bf-2924-4882-8309-770ded2e5bce",
+      "slug": "domus-vivian-b-b-acerno",
+      "nome": "Domus Vivian b&b",
+      "city_name": "Acerno",
+      "indirizzo": "Via Papa Pio XI, 62, 84090 Pratole SA",
+      "lat": 40.623412,
+      "lng": 14.932262
+    },
+    {
+      "id": "be7bf9a9-7ae3-48b7-bef8-23817fa4661d",
+      "slug": "fabros-b-b-acerno",
+      "nome": "FABROS B&B",
+      "city_name": "Acerno",
+      "indirizzo": "Corso Umberto I, 80, 84022 Campagna SA",
+      "lat": 40.66498,
+      "lng": 15.10686
+    },
+    {
+      "id": "2888e55b-e772-469b-8e57-bec37c4926f3",
+      "slug": "grand-hotel-grisone-acerno",
+      "nome": "Grand Hotel Grisone",
+      "city_name": "Acerno",
+      "indirizzo": "Via Serroncelli, 46, 83043 Bagnoli Irpino AV",
+      "lat": 40.799405,
+      "lng": 15.103194
+    },
+    {
+      "id": "9c9eca9d-f185-484e-b5bc-2c6df530b07f",
+      "slug": "hotel-sica-acerno",
+      "nome": "Hotel Sica",
+      "city_name": "Acerno",
+      "indirizzo": "Via Romualdo Trifone, 6, 84096 Montecorvino Rovella SA",
+      "lat": 40.698715,
+      "lng": 14.974489
+    },
+    {
+      "id": "1948381d-bfbf-4b28-ad57-6a3e142f567d",
+      "slug": "lamberti-boutique-hotel-acerno",
+      "nome": "Lamberti Boutique Hotel",
+      "city_name": "Acerno",
+      "indirizzo": "Via Belvedere, 108, 84091 Battipaglia SA",
+      "lat": 40.615146,
+      "lng": 14.967105
+    },
+    {
+      "id": "dc44adf0-0d23-4d65-b1f5-cae7b8a93ccf",
+      "slug": "lorenzo-acerno",
+      "nome": "Lorenzo",
+      "city_name": "Acerno",
+      "indirizzo": "Via Mensa, 130, 84062 Monticelli SA",
+      "lat": 40.649218,
+      "lng": 15.018312
+    },
+    {
+      "id": "20561818-0999-4fa4-b07d-a07fa4dfbf10",
+      "slug": "oasi-verde-acerno",
+      "nome": "Oasi Verde",
+      "city_name": "Acerno",
+      "indirizzo": "Via Serroni, 14/B, 84090 Giffoni Sei Casali SA",
+      "lat": 40.708607,
+      "lng": 14.902796
+    },
+    {
+      "id": "f0f9ada4-2211-4d23-b026-74cee6abd850",
+      "slug": "valle-degli-alburni-acerno",
+      "nome": "Valle degli Alburni",
+      "city_name": "Acerno",
+      "indirizzo": "Vi Salice, 661, 84026 Postiglione SA",
+      "lat": 40.611097,
+      "lng": 15.215139
+    },
+    {
+      "id": "1fe5f90c-ce74-448c-b214-0393eb2dfbbc",
+      "slug": "villa-alessandra-acerno",
+      "nome": "Villa Alessandra",
+      "city_name": "Acerno",
+      "indirizzo": "Via Piantito, 43, 84022 Campagna SA",
+      "lat": 40.637985,
+      "lng": 15.10068
+    },
+    {
+      "id": "64f69e15-f897-4b1b-bebf-b286ef280801",
+      "slug": "vittoria-guest-house-battipaglia-acerno",
+      "nome": "Vittoria Guest House Battipaglia",
+      "city_name": "Acerno",
+      "indirizzo": "Traversa, Via Italia, 20, 84091 Battipaglia SA",
+      "lat": 40.60767,
+      "lng": 14.982103
+    },
+    {
+      "id": "6e876f73-9e79-4d8f-a1b6-3601265a276e",
+      "slug": "b-b-il-girasole-acerra",
+      "nome": "B&B Il Girasole",
+      "city_name": "Acerra",
+      "indirizzo": "Via Padre Pio, 7, 81024 Maddaloni CE",
+      "lat": 41.032135,
+      "lng": 14.375118
+    },
+    {
+      "id": "072e9fca-aad8-4d04-af76-791f68f71040",
+      "slug": "b-b-villa-milly-acerra",
+      "nome": "B&B Villa Milly",
+      "city_name": "Acerra",
+      "indirizzo": "III Traversa Pasquale Ianniello, 17, 80020 Frattamaggiore NA",
+      "lat": 40.9502,
+      "lng": 14.273573
+    },
+    {
+      "id": "3ac2fd6c-4d2a-4c8e-873e-8bf90aae2a4c",
+      "slug": "bed-breakfast-angel-s-paradise-acerra",
+      "nome": "Bed & Breakfast Angel's Paradise",
+      "city_name": "Acerra",
+      "indirizzo": "SP464, 80030 Mariglianella NA",
+      "lat": 40.936901,
+      "lng": 14.426126
+    },
+    {
+      "id": "7d3a3a2d-e625-42ba-9324-46a02b1654b9",
+      "slug": "bed-breakfast-la-primavera-acerra",
+      "nome": "Bed & Breakfast La Primavera",
+      "city_name": "Acerra",
+      "indirizzo": "Via Alcide De Gasperi, 44, 80011 Acerra NA",
+      "lat": 40.950838,
+      "lng": 14.364646
+    },
+    {
+      "id": "975ebb4b-6279-4b24-8484-ef7f153a8641",
+      "slug": "casa-giulia-acerra",
+      "nome": "Casa Giulia",
+      "city_name": "Acerra",
+      "indirizzo": "Via Volturno, 80011 Acerra NA",
+      "lat": 40.945234,
+      "lng": 14.362607
+    },
+    {
+      "id": "0a3119f6-ac16-47fb-a174-f1d6a37cb9db",
+      "slug": "charming-gea-acerra",
+      "nome": "Charming GEA",
+      "city_name": "Acerra",
+      "indirizzo": "Via Coste, 41, 81027 San Felice a Cancello CE",
+      "lat": 41.001339,
+      "lng": 14.446248
+    },
+    {
+      "id": "e1632b61-4cb9-45bc-95cd-bbabc6017cd3",
+      "slug": "hotel-buona-luna-acerra",
+      "nome": "Hotel Buona Luna",
+      "city_name": "Acerra",
+      "indirizzo": "vico Marisa bellisario, 4/6, 80038 Pomigliano d'Arco NA",
+      "lat": 40.916164,
+      "lng": 14.402218
+    },
+    {
+      "id": "4f7432fb-33c6-4f45-93bf-5108f5d9ece0",
+      "slug": "hotel-cenacolo-acerra",
+      "nome": "Hotel Cenacolo",
+      "city_name": "Acerra",
+      "indirizzo": "Via del Cenacolo, 20, 80049 Somma Vesuviana NA",
+      "lat": 40.889649,
+      "lng": 14.43003
+    },
+    {
+      "id": "222df2eb-fe10-458d-9d25-63eb94d008c8",
+      "slug": "hotel-martini-acerra",
+      "nome": "Hotel Martini",
+      "city_name": "Acerra",
+      "indirizzo": "Viale Guglielmo Marconi, 203, 80020 Casavatore NA",
+      "lat": 40.895629,
+      "lng": 14.27814
+    },
+    {
+      "id": "338eb483-05fb-474c-bc68-2ac9d5d734b7",
+      "slug": "hotel-movida-acerra",
+      "nome": "Hotel Movida",
+      "city_name": "Acerra",
+      "indirizzo": "Via Pignatelli Ferdinando, 4, 80026 Casoria NA",
+      "lat": 40.922966,
+      "lng": 14.288181
+    },
+    {
+      "id": "f824ba35-19b2-45ed-b82c-e007cc30471f",
+      "slug": "hotel-ristorante-pizzeria-elio-acerra",
+      "nome": "Hotel Ristorante Pizzeria Elio",
+      "city_name": "Acerra",
+      "indirizzo": "Corso Umberto I, 115, 80034 Marigliano NA",
+      "lat": 40.925758,
+      "lng": 14.447633
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 106,
+  "blockId": "106",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "373063c3-e878-4b7d-bda1-ae80918e0caf",
+      "slug": "sassdei-suite-hotel-andalo-andalo",
+      "nome": "Sassdei Suite Hotel - Andalo",
+      "city_name": "Andalo",
+      "indirizzo": "Via Rindole, 4, 38010 Andalo TN",
+      "lat": 46.163495,
+      "lng": 11.005124
+    },
+    {
+      "id": "374b70f8-b344-4813-977a-02a7520fa035",
+      "slug": "b-b-al-carotin-andalo-valtellino",
+      "nome": "B&B Al Carotin",
+      "city_name": "Andalo Valtellino",
+      "indirizzo": "Via Superiore, 58, 23009 Andalo Valtellino SO",
+      "lat": 46.132258,
+      "lng": 9.476185
+    },
+    {
+      "id": "2b2cc215-44d4-45b8-a564-8d0f7fb64ff0",
+      "slug": "ca-elsa-b-b-andalo-valtellino",
+      "nome": "Cà Elsa B&B",
+      "city_name": "Andalo Valtellino",
+      "indirizzo": "Via Spluga, 115, 23015 Nuova Olonio SO",
+      "lat": 46.171697,
+      "lng": 9.432593
+    },
+    {
+      "id": "89620f0a-d9bc-4807-a94b-4b2d3bdf104d",
+      "slug": "hotel-berlinghera-andalo-valtellino",
+      "nome": "Hotel Berlinghera",
+      "city_name": "Andalo Valtellino",
+      "indirizzo": "Via Dascio, 25, 22010 Dascio CO",
+      "lat": 46.187489,
+      "lng": 9.417647
+    },
+    {
+      "id": "511cbe26-b156-46e8-b908-d318d5ef5ba7",
+      "slug": "hotel-del-mera-andalo-valtellino",
+      "nome": "Hotel del Mera",
+      "city_name": "Andalo Valtellino",
+      "indirizzo": "Via Dascio, 11, 22010 Sorico CO",
+      "lat": 46.187156,
+      "lng": 9.416913
+    },
+    {
+      "id": "787ab597-ddc9-4e8f-8436-56ef5071fc58",
+      "slug": "hotel-europa-andalo-valtellino",
+      "nome": "Hotel Europa",
+      "city_name": "Andalo Valtellino",
+      "indirizzo": "Via Cesare Battisti, 4, 22010 Sorico CO",
+      "lat": 46.171578,
+      "lng": 9.380181
+    },
+    {
+      "id": "2ceda3a5-3b4e-49e6-81cd-18372e26680e",
+      "slug": "hotel-lago-di-como-andalo-valtellino",
+      "nome": "Hotel Lago di Como",
+      "city_name": "Andalo Valtellino",
+      "indirizzo": "Via Legnone, 4, 23823 Colico LC",
+      "lat": 46.135795,
+      "lng": 9.372371
+    },
+    {
+      "id": "bd1f0207-13b5-4c62-846a-9ebaa3455dc4",
+      "slug": "hotel-rezia-valtellina-andalo-valtellino",
+      "nome": "Hotel Rezia Valtellina",
+      "city_name": "Andalo Valtellino",
+      "indirizzo": "Via Statale, 33, 23013 Cosio Valtellino SO",
+      "lat": 46.133793,
+      "lng": 9.561334
+    },
+    {
+      "id": "9bbbd356-2b26-4c6c-822c-5f2774e007c0",
+      "slug": "hotel-risi-andalo-valtellino",
+      "nome": "Hotel Risi",
+      "city_name": "Andalo Valtellino",
+      "indirizzo": "Via Lungolario Polti, 1, 23823 Colico LC",
+      "lat": 46.137112,
+      "lng": 9.368196
+    },
+    {
+      "id": "45661eff-1459-4710-95cd-5fee8c927984",
+      "slug": "hotel-ristorante-baraglia-andalo-valtellino",
+      "nome": "Hotel Ristorante Baraglia",
+      "city_name": "Andalo Valtellino",
+      "indirizzo": "Via Bondo, 8, 23010 Mello SO",
+      "lat": 46.15375,
+      "lng": 9.548916
+    },
+    {
+      "id": "9b753c50-eb91-4698-b566-1d6039791530",
+      "slug": "hotel-roma-colico-andalo-valtellino",
+      "nome": "Hotel Roma Colico",
+      "city_name": "Andalo Valtellino",
+      "indirizzo": "Via Laghetto, 8, 23823 Colico LC",
+      "lat": 46.123611,
+      "lng": 9.354722
+    },
+    {
+      "id": "b3811159-b054-44a1-b642-777c47b69ca8",
+      "slug": "residence-i-fiori-andalo-valtellino",
+      "nome": "Residence I Fiori",
+      "city_name": "Andalo Valtellino",
+      "indirizzo": "Via S. Giovanni Bosco, 40, 23010 Piantedo SO",
+      "lat": 46.137715,
+      "lng": 9.425059
+    },
+    {
+      "id": "23af7113-d533-4cee-bf07-de05f1884d7f",
+      "slug": "residenza-conca-verde-b-b-andalo-valtellino",
+      "nome": "Residenza Conca Verde B&B",
+      "city_name": "Andalo Valtellino",
+      "indirizzo": "Via Europa, 30, 23013 Cosio Valtellino SO",
+      "lat": 46.137015,
+      "lng": 9.498168
+    },
+    {
+      "id": "b7d136e6-1679-4d48-9b79-8e91add4513a",
+      "slug": "spluga-sosta-hotel-andalo-valtellino",
+      "nome": "Spluga Sosta & Hotel",
+      "city_name": "Andalo Valtellino",
+      "indirizzo": "Via Spluga, 42, 23015 Dubino SO",
+      "lat": 46.168915,
+      "lng": 9.429358
+    },
+    {
+      "id": "c81f89b6-1580-4e13-9f98-8652ffd84935",
+      "slug": "agriturismo-del-florario-andezeno",
+      "nome": "Agriturismo del Florario",
+      "city_name": "Andezeno",
+      "indirizzo": "Str. della Giardina, 10023 Chieri TO",
+      "lat": 44.991192,
+      "lng": 7.792707
+    },
+    {
+      "id": "85ed799d-12a4-4dd1-a65b-9dea03cbfbea",
+      "slug": "agriturismo-la-vija-andezeno",
+      "nome": "Agriturismo La Vijà",
+      "city_name": "Andezeno",
+      "indirizzo": "Str. Tetti Lusso, 8, 10023 Chieri TO",
+      "lat": 45.021198,
+      "lng": 7.881835
+    },
+    {
+      "id": "7d8b1c14-c14e-475c-9dc6-7ec6161fdc7f",
+      "slug": "aston-hotel-andezeno",
+      "nome": "Aston Hotel",
+      "city_name": "Andezeno",
+      "indirizzo": "Str. al Traforo di Pino, 23, 10025 Pino Torinese TO",
+      "lat": 45.056801,
+      "lng": 7.764023
+    },
+    {
+      "id": "b4ffb781-4a0b-4715-b951-3b45c7eda834",
+      "slug": "b-b-madamadore-andezeno",
+      "nome": "B&B MadamaDorè",
+      "city_name": "Andezeno",
+      "indirizzo": "C.so Vittorio Emanuele II, 78, 10020 Andezeno TO",
+      "lat": 45.033052,
+      "lng": 7.881375
+    },
+    {
+      "id": "57c5fbc8-0688-41f5-b01e-23ea98bd3e4f",
+      "slug": "castello-di-montaldo-hotel-spa-wedding-congress-andezeno",
+      "nome": "Castello di Montaldo - Hotel Spa Wedding Congress",
+      "city_name": "Andezeno",
+      "indirizzo": "Piazza Superga, 1, 10020 Montaldo Torinese TO",
+      "lat": 45.066135,
+      "lng": 7.848701
+    },
+    {
+      "id": "709799ef-1294-4cd7-b097-4bdca08e1f49",
+      "slug": "cico-e-mamasita-andezeno",
+      "nome": "Cico e Mamasita",
+      "city_name": "Andezeno",
+      "indirizzo": "Via Cavour, 41, 10020 Andezeno TO",
+      "lat": 45.038544,
+      "lng": 7.8667
+    },
+    {
+      "id": "3a67415b-0576-42d8-a500-6025b0540a84",
+      "slug": "hotel-cascina-speranza-andezeno",
+      "nome": "Hotel Cascina Speranza",
+      "city_name": "Andezeno",
+      "indirizzo": "Via Alessandro Pertini, 25, 10020 Riva presso Chieri TO",
+      "lat": 44.978597,
+      "lng": 7.879334
+    },
+    {
+      "id": "df7d58fc-89a0-4746-9977-207714f02d65",
+      "slug": "hotel-glis-andezeno",
+      "nome": "Hotel Glis",
+      "city_name": "Andezeno",
+      "indirizzo": "Corso Lombardia, 42, 10099 San Mauro Torinese TO",
+      "lat": 45.116271,
+      "lng": 7.744204
+    },
+    {
+      "id": "4f037df5-641a-44f0-82c9-9f9f2c93fd1b",
+      "slug": "hotel-la-maddalena-andezeno",
+      "nome": "Hotel La Maddalena",
+      "city_name": "Andezeno",
+      "indirizzo": "Via Beppe Fenoglio, 4, 10023 Chieri TO",
+      "lat": 44.999076,
+      "lng": 7.811051
+    },
+    {
+      "id": "e8fb53f0-dc55-49d5-8112-1951cdafe476",
+      "slug": "hotel-panorama-andezeno",
+      "nome": "Hotel Panorama",
+      "city_name": "Andezeno",
+      "indirizzo": "Via Alessandro Volta, 2, 10020 Cambiano TO",
+      "lat": 44.971284,
+      "lng": 7.763473
+    },
+    {
+      "id": "2728acac-0946-48e7-8186-2c1397427f8e",
+      "slug": "il-bricco-b-b-andezeno",
+      "nome": "Il Bricco B&B",
+      "city_name": "Andezeno",
+      "indirizzo": "Bricco Ornesio, 10090 Sciolze TO",
+      "lat": 45.09268,
+      "lng": 7.888656
+    },
+    {
+      "id": "5b60c25e-920d-44a7-b8b6-8611947d1eb9",
+      "slug": "marconi-apartment-andezeno",
+      "nome": "Marconi Apartment",
+      "city_name": "Andezeno",
+      "indirizzo": "Via Guglielmo Marconi, 9, 10023 Chieri TO",
+      "lat": 45.015085,
+      "lng": 7.826173
+    },
+    {
+      "id": "cdeb55da-c408-4733-8857-8ee526e7a158",
+      "slug": "punto-di-vista-bed-and-breakfast-andezeno",
+      "nome": "PUNTO DI VISTA - Bed and Breakfast",
+      "city_name": "Andezeno",
+      "indirizzo": "Str. Turriglie, 33, 10023 Chieri TO",
+      "lat": 45.024132,
+      "lng": 7.816297
+    },
+    {
+      "id": "16330497-cf5d-46e1-8602-e56bfc8ea366",
+      "slug": "rocca-di-arignano-andezeno",
+      "nome": "Rocca di Arignano",
+      "city_name": "Andezeno",
+      "indirizzo": "Via Gino Lisa, 16, 10020 Arignano TO",
+      "lat": 45.043918,
+      "lng": 7.90277
+    },
+    {
+      "id": "523d59fd-1705-4e0f-af71-cb9c92a2dba9",
+      "slug": "rosatea-b-b-andezeno",
+      "nome": "Rosatea B&B",
+      "city_name": "Andezeno",
+      "indirizzo": "Str. della Rosa, 53, 10023 Chieri TO",
+      "lat": 45.03743,
+      "lng": 7.840786
+    },
+    {
+      "id": "f92398fb-c28e-4d83-8595-1fb56386022c",
+      "slug": "agriturismo-domus-serena-andora",
+      "nome": "Agriturismo Domus Serena",
+      "city_name": "Andora",
+      "indirizzo": "17051, Via Piangrande, 32, 17020 Andora SV",
+      "lat": 43.975667,
+      "lng": 8.136683
+    },
+    {
+      "id": "6aab063b-5bbb-4174-b248-e2c7b8d0d70c",
+      "slug": "agriturismo-gli-aromi-andora",
+      "nome": "Agriturismo Gli Aromi",
+      "city_name": "Andora",
+      "indirizzo": "Via Piangrande, 31, 17020 Pian Grande SV",
+      "lat": 43.97643,
+      "lng": 8.135835
+    },
+    {
+      "id": "8c4dcc86-1459-4622-9973-3e5f29adca98",
+      "slug": "agriturismo-il-glicine-andora",
+      "nome": "Agriturismo Il Glicine",
+      "city_name": "Andora",
+      "indirizzo": "Via A. Divizia, 29, 17020 Andora SV",
+      "lat": 43.999599,
+      "lng": 8.107527
+    },
+    {
+      "id": "241bc84c-136b-4d4d-8b78-ce5af60e31dc",
+      "slug": "albergo-adriana-andora",
+      "nome": "Albergo Adriana",
+      "city_name": "Andora",
+      "indirizzo": "Via Novara, 20, 17020 Laigueglia SV",
+      "lat": 43.973561,
+      "lng": 8.157316
+    },
+    {
+      "id": "f2496577-8a02-4783-8811-f9724b371ced",
+      "slug": "albergo-la-pineta-andora",
+      "nome": "Albergo La Pineta",
+      "city_name": "Andora",
+      "indirizzo": "Str. della Pineta, 10, 17020 Andora SV",
+      "lat": 43.953037,
+      "lng": 8.154556
+    },
+    {
+      "id": "cc2d7e2e-9822-4c1c-a84e-dd1e3979fd09",
+      "slug": "b-b-andoramare-andora",
+      "nome": "B&B Andoramare",
+      "city_name": "Andora",
+      "indirizzo": "Via Rattalino, 13, 17020 Marina di Andora SV",
+      "lat": 43.953756,
+      "lng": 8.144832
+    }
+  ]
+}

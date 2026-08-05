@@ -1,0 +1,323 @@
+{
+  "block": 108,
+  "blockId": "108",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "c194cb31-3513-4457-ade7-0e4c46396150",
+      "slug": "la-balaustra-b-b-andrano",
+      "nome": "La Balaustra B&B",
+      "city_name": "Andrano",
+      "indirizzo": "Via Provinciale, 282, 73032 Andrano LE",
+      "lat": 39.980914,
+      "lng": 18.377298
+    },
+    {
+      "id": "cd793171-5a02-4e0a-a0db-ffef2e16f864",
+      "slug": "la-tartana-andrano",
+      "nome": "La Tartana",
+      "city_name": "Andrano",
+      "indirizzo": "Via IV Novembre, 151, 73030 Castro LE",
+      "lat": 40.006629,
+      "lng": 18.423942
+    },
+    {
+      "id": "d2d3b9b2-7154-4c2b-bb3b-097aa29cab8b",
+      "slug": "le-due-capanne-andrano",
+      "nome": "Le Due Capanne",
+      "city_name": "Andrano",
+      "indirizzo": "via Italia, 3, 73030 Castiglione dʼOtranto LE",
+      "lat": 39.985335,
+      "lng": 18.350359
+    },
+    {
+      "id": "e0405edd-a0a9-47db-9049-63d8f63739fa",
+      "slug": "le-rose-andrano",
+      "nome": "Le Rose",
+      "city_name": "Andrano",
+      "indirizzo": "Via Giuseppe Verdi, 73030 Vignacastrisi LE",
+      "lat": 40.01672,
+      "lng": 18.406986
+    },
+    {
+      "id": "e154580c-c93a-4384-a60e-088015fe418f",
+      "slug": "palazzo-vecchio-b-b-andrano",
+      "nome": "Palazzo Vecchio B&B",
+      "city_name": "Andrano",
+      "indirizzo": "Via Benvenuto Cellini, 38, 73030 Marittima LE",
+      "lat": 39.994311,
+      "lng": 18.398764
+    },
+    {
+      "id": "bbbac821-7fce-418d-9ce0-bac31a3a033b",
+      "slug": "petra-charme-a-sud-est-andrano",
+      "nome": "PETRA. Charme a sud est",
+      "city_name": "Andrano",
+      "indirizzo": "Via Vecchia Castiglione, 70, 73030 Diso LE",
+      "lat": 39.998362,
+      "lng": 18.37456
+    },
+    {
+      "id": "0c87d002-68e5-4aad-8ebb-25845d179188",
+      "slug": "trappitu-dei-settimi-b-b-andrano",
+      "nome": "Trappitu Dei Settimi B&B",
+      "city_name": "Andrano",
+      "indirizzo": "Via Convento, 48, 73030 Diso LE",
+      "lat": 39.995697,
+      "lng": 18.400768
+    },
+    {
+      "id": "c806ab68-e25c-4011-acbc-18969194c47c",
+      "slug": "vignali-residence-andrano",
+      "nome": "Vignali Residence",
+      "city_name": "Andrano",
+      "indirizzo": "Via Filippo Turati, 34, 73030 Diso LE",
+      "lat": 40.008842,
+      "lng": 18.395637
+    },
+    {
+      "id": "6c2eb339-e737-448d-b099-5bdd3dbe09c8",
+      "slug": "vignavecchia-andrano",
+      "nome": "Vignavecchia",
+      "city_name": "Andrano",
+      "indirizzo": "Via Umberto Giordano, 30, 73030 Vignacastrisi LE",
+      "lat": 40.018564,
+      "lng": 18.40194
+    },
+    {
+      "id": "fe22bd32-8cf0-43f0-b177-d9064865e7f5",
+      "slug": "zahir-b-b-andrano",
+      "nome": "Zahir B&B",
+      "city_name": "Andrano",
+      "indirizzo": "Via di Mezzo, 55, 73030 Castro LE",
+      "lat": 40.009497,
+      "lng": 18.425227
+    },
+    {
+      "id": "9afab9bf-2ae5-46c8-b3c8-58df66cfdc4d",
+      "slug": "agriturismo-la-ca-d-amelio-andrate",
+      "nome": "Agriturismo la Ca' d'Amelio",
+      "city_name": "Andrate",
+      "indirizzo": "Via Sibia n. 46/A, 10010 Calea TO",
+      "lat": 45.498378,
+      "lng": 7.822354
+    },
+    {
+      "id": "8056c0c0-ef76-4a40-bceb-800b864f2560",
+      "slug": "b-b-cascina-bedria-andrate",
+      "nome": "B&B Cascina Bedria",
+      "city_name": "Andrate",
+      "indirizzo": "Via Maresco passare da Burolo, non da Chiaverano attenersi a, quest'indirizzo, 10010 Burolo TO",
+      "lat": 45.491144,
+      "lng": 7.920858
+    },
+    {
+      "id": "2c81da87-480a-49ea-b50f-5859fccd8887",
+      "slug": "b-b-cascina-brunod-andrate",
+      "nome": "B&B Cascina Brunod",
+      "city_name": "Andrate",
+      "indirizzo": "Località Pertietto, 5, 10010 Chiaverano TO",
+      "lat": 45.509747,
+      "lng": 7.904109
+    },
+    {
+      "id": "5c17c149-6d70-4516-9e89-47f0ffa8f08d",
+      "slug": "b-b-i-tre-ciliegi-andrate",
+      "nome": "B&B I Tre Ciliegi",
+      "city_name": "Andrate",
+      "indirizzo": "Via Mulini, 24, 10013 Borgofranco d'Ivrea TO",
+      "lat": 45.512869,
+      "lng": 7.870874
+    },
+    {
+      "id": "b8865b11-1c80-4c15-8673-ea219976cb96",
+      "slug": "b-b-l-albero-maestro-andrate",
+      "nome": "B&B L'Albero Maestro",
+      "city_name": "Andrate",
+      "indirizzo": "Via Torrazza, 18, 10013 Borgofranco d'Ivrea TO",
+      "lat": 45.527699,
+      "lng": 7.853235
+    },
+    {
+      "id": "63db04b9-9611-4840-b3ee-e1956b0dcb55",
+      "slug": "b-b-la-coccinella-ecologico-e-biologico-cin-it09-andrate",
+      "nome": "B&B La Coccinella - Ecologico e Biologico CIN: IT096028C1LO23OMD8",
+      "city_name": "Andrate",
+      "indirizzo": "Casale Grippagli, 17, 13895 Graglia BI",
+      "lat": 45.552085,
+      "lng": 7.960818
+    },
+    {
+      "id": "16477639-cb82-4fc1-b6b2-b78f77ebe875",
+      "slug": "b-b-villa-tavallini-biella-andrate",
+      "nome": "B&B Villa Tavallini Biella",
+      "city_name": "Andrate",
+      "indirizzo": "Via Benedetto Croce, 32, 13814 Pollone BI",
+      "lat": 45.580421,
+      "lng": 7.991552
+    },
+    {
+      "id": "6f33858b-d55b-4526-838c-75cd8cec3fba",
+      "slug": "l-ospitalita-del-castello-andrate",
+      "nome": "L'Ospitalità del Castello",
+      "city_name": "Andrate",
+      "indirizzo": "P. Conte Rinaldo, 7, 10010 Settimo Vittone TO",
+      "lat": 45.550251,
+      "lng": 7.83578
+    },
+    {
+      "id": "d42d2e33-50cb-4b7f-a7cb-474b55be376e",
+      "slug": "la-locanda-dei-gatti-andrate",
+      "nome": "La Locanda dei Gatti",
+      "city_name": "Andrate",
+      "indirizzo": "Via Mombarone, 14, 13893 Donato BI",
+      "lat": 45.527552,
+      "lng": 7.906428
+    },
+    {
+      "id": "75e88774-d77f-42ce-aa7c-bd735253a2c9",
+      "slug": "ostello-del-canoa-acquapiatta-andrate",
+      "nome": "Ostello del Canoa - Acquapiatta",
+      "city_name": "Andrate",
+      "indirizzo": "Via Dora Baltea, 1d, 10015 Ivrea TO",
+      "lat": 45.464312,
+      "lng": 7.873976
+    },
+    {
+      "id": "c930567d-7afc-4d45-b3d1-900f5c0318c1",
+      "slug": "ostello-di-san-germano-di-ferrando-patrizia-andrate",
+      "nome": "Ostello di San Germano di Ferrando Patrizia",
+      "city_name": "Andrate",
+      "indirizzo": "Via Sandro Pertini, 3, 10013 Borgofranco d'Ivrea TO",
+      "lat": 45.525146,
+      "lng": 7.851759
+    },
+    {
+      "id": "cf42c4d6-0be9-4b0a-b181-17482c3fab8c",
+      "slug": "relais-del-brigante-andrate",
+      "nome": "Relais del Brigante",
+      "city_name": "Andrate",
+      "indirizzo": "V. Umberto I, 6, 10010 Settimo Vittone TO",
+      "lat": 45.557929,
+      "lng": 7.83282
+    },
+    {
+      "id": "626ae2ba-d402-437e-9714-e8e0e4571dc1",
+      "slug": "da-nati-locanda-e-b-b-andreis",
+      "nome": "“Da Nati” Locanda e B&B",
+      "city_name": "Andreis",
+      "indirizzo": "Piazza IV Novembre, 1, 33090 Arba PN",
+      "lat": 46.145405,
+      "lng": 12.791922
+    },
+    {
+      "id": "809947b0-4f2e-499e-8949-3312cfdff4df",
+      "slug": "al-vecje-for-andreis",
+      "nome": "Al Vecje For",
+      "city_name": "Andreis",
+      "indirizzo": "Via Centrale, 43, 33080 Andreis PN",
+      "lat": 46.200577,
+      "lng": 12.613605
+    },
+    {
+      "id": "56d533bf-ba7e-48b3-91ec-5b644c07e972",
+      "slug": "b-b-il-gufo-andreis",
+      "nome": "B&B il Gufo",
+      "city_name": "Andreis",
+      "indirizzo": "Via Roma, 135, 33080 Erto e Casso PN",
+      "lat": 46.275817,
+      "lng": 12.373578
+    },
+    {
+      "id": "5f90902c-0938-4816-b133-278434cf0087",
+      "slug": "b-b-in-fattoria-andreis",
+      "nome": "B&B In Fattoria",
+      "city_name": "Andreis",
+      "indirizzo": "Borgo, Palazza, 3, 33080 Frisanco PN",
+      "lat": 46.201883,
+      "lng": 12.718486
+    },
+    {
+      "id": "542cf46a-ffdd-4ba2-84eb-7fe4603bec82",
+      "slug": "cjasa-celeste-andreis-andreis",
+      "nome": "Cjasa Celeste Andreis",
+      "city_name": "Andreis",
+      "indirizzo": "Via Centrale, 16, 33080 Andreis PN",
+      "lat": 46.200755,
+      "lng": 12.613994
+    },
+    {
+      "id": "33d3250e-70d0-41b9-8cdf-974d891d896d",
+      "slug": "foresteria-del-parco-naturale-regionale-delle-do-andreis",
+      "nome": "Foresteria del Parco Naturale Regionale delle Dolomiti Friulane - Andreis",
+      "city_name": "Andreis",
+      "indirizzo": "Via Acquedotto, 1, 33080 Andreis PN",
+      "lat": 46.202388,
+      "lng": 12.613273
+    },
+    {
+      "id": "a9584b11-1153-4d3d-bf73-c8ac2a228caa",
+      "slug": "affitta-camere-la-casa-di-ninna-andretta",
+      "nome": "Affitta Camere La Casa di Ninna",
+      "city_name": "Andretta",
+      "indirizzo": "Contrada Foresta, 33, 83031 Ariano Irpino AV",
+      "lat": 41.112398,
+      "lng": 15.081785
+    },
+    {
+      "id": "51afced0-037b-4d2b-99b2-5feef8be872e",
+      "slug": "agriturismo-a-un-tiro-di-schioppo-andretta",
+      "nome": "Agriturismo \"A un tiro di schioppo\"",
+      "city_name": "Andretta",
+      "indirizzo": "Contrada Valle Santa Maria, 83045 Calitri AV",
+      "lat": 40.924971,
+      "lng": 15.460788
+    },
+    {
+      "id": "71c3734b-6401-4485-836d-2a613b90632c",
+      "slug": "agriturismo-caperroni-andretta",
+      "nome": "Agriturismo Caperroni",
+      "city_name": "Andretta",
+      "indirizzo": "C.da Caperroni - Pescopagano S.S. Ofantina km 17+300, 85020 Pescopagano PZ",
+      "lat": 40.872964,
+      "lng": 15.36598
+    },
+    {
+      "id": "da50d6b1-2875-42e5-b5ca-c7c7e10df0e6",
+      "slug": "al-17-andretta",
+      "nome": "Al 17",
+      "city_name": "Andretta",
+      "indirizzo": "Via Cesare Battisti, 17, 83055 Sturno AV",
+      "lat": 41.018003,
+      "lng": 15.109292
+    },
+    {
+      "id": "2c6a2ec1-88b0-4efd-8f9f-a0df1c2e17c3",
+      "slug": "b-b-il-tritone-andretta",
+      "nome": "B&B Il Tritone",
+      "city_name": "Andretta",
+      "indirizzo": "Piazza della Repubblica, 25, 84020 Laviano SA",
+      "lat": 40.785652,
+      "lng": 15.306528
+    },
+    {
+      "id": "4618f13d-c9ac-45f1-950a-7e3eefc44e01",
+      "slug": "domus-romulea-albergo-locanda-andretta",
+      "nome": "Domus Romulea Albergo Locanda",
+      "city_name": "Andretta",
+      "indirizzo": "Via XXIII Luglio, 303, 83044 Bisaccia AV",
+      "lat": 41.005922,
+      "lng": 15.380012
+    },
+    {
+      "id": "f46f8cbf-44d2-4d83-9f85-4cb0702a3b39",
+      "slug": "hotel-ambasciatori-andretta",
+      "nome": "Hotel Ambasciatori",
+      "city_name": "Andretta",
+      "indirizzo": "Via E. Pitoli,, 83045 Calitri AV",
+      "lat": 40.905187,
+      "lng": 15.429885
+    }
+  ]
+}

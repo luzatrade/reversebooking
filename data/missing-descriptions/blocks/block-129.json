@@ -1,0 +1,323 @@
+{
+  "block": 129,
+  "blockId": "129",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "55d1e0ad-3cba-4a06-89f0-4d23cfba8f5e",
+      "slug": "b-b-l-antico-rudere-aprigliano",
+      "nome": "B&B L'antico Rudere",
+      "city_name": "Aprigliano",
+      "indirizzo": "Via Donato Bendicenti, 14, 87100 Cosenza CS",
+      "lat": 39.287451,
+      "lng": 16.265335
+    },
+    {
+      "id": "94fdf018-1c22-40a1-a4e0-ad4ff01067e2",
+      "slug": "b-b-le-ortensie-aprigliano",
+      "nome": "B&B Le Ortensie",
+      "city_name": "Aprigliano",
+      "indirizzo": "Viale della Repubblica, 143/scala B, 87100 Cosenza CS",
+      "lat": 39.296117,
+      "lng": 16.247209
+    },
+    {
+      "id": "817df379-a2ae-42e3-a99d-7728e3965a1b",
+      "slug": "b-b-sasso-aprigliano",
+      "nome": "B&B Sasso",
+      "city_name": "Aprigliano",
+      "indirizzo": "Via Alberico Talarico, 11, 87100 Cosenza CS",
+      "lat": 39.296835,
+      "lng": 16.24806
+    },
+    {
+      "id": "51d797c5-c625-48a2-97ef-deb521aaf01a",
+      "slug": "b-b-the-dream-aprigliano",
+      "nome": "B&B The Dream",
+      "city_name": "Aprigliano",
+      "indirizzo": "Via Pasquale Rossi, 97, 87100 Cosenza CS",
+      "lat": 39.306362,
+      "lng": 16.245308
+    },
+    {
+      "id": "0fa177d3-0af0-49f5-bd03-bfe7369bf656",
+      "slug": "borgo-riolo-sas-di-bozzo-francesca-aprigliano",
+      "nome": "Borgo Riolo sas di Bozzo Francesca",
+      "city_name": "Aprigliano",
+      "indirizzo": "87100 Donnici Inferiore CS",
+      "lat": 39.250737,
+      "lng": 16.294515
+    },
+    {
+      "id": "36d60218-977f-4f9b-afa6-2ae4a19c7d11",
+      "slug": "clc-home-b-b-cosenza-aprigliano",
+      "nome": "clc home b&b cosenza",
+      "city_name": "Aprigliano",
+      "indirizzo": "Via Domenico Milelli, 26, 87100 Cosenza CS",
+      "lat": 39.291831,
+      "lng": 16.254048
+    },
+    {
+      "id": "428d6367-96b0-4b02-a981-81d0f75a573f",
+      "slug": "donna-giovanna-guest-house-aprigliano",
+      "nome": "Donna Giovanna Guest House",
+      "city_name": "Aprigliano",
+      "indirizzo": "Via Piave, 98, 87100 Cosenza CS",
+      "lat": 39.29417,
+      "lng": 16.250755
+    },
+    {
+      "id": "abe92023-a436-44ef-a486-0903e2af67bd",
+      "slug": "italiana-hotels-cosenza-aprigliano",
+      "nome": "Italiana Hotels Cosenza",
+      "city_name": "Aprigliano",
+      "indirizzo": "Via Panebianco, 452, 87100 Cosenza CS",
+      "lat": 39.313446,
+      "lng": 16.246523
+    },
+    {
+      "id": "b8db1dec-a47c-4bbd-a973-20af8e8c0e27",
+      "slug": "kosentia-b-b-aprigliano",
+      "nome": "Kosentia B&B",
+      "city_name": "Aprigliano",
+      "indirizzo": "Via Cesare Marini, 9, 87100 Cosenza CS",
+      "lat": 39.29891,
+      "lng": 16.254126
+    },
+    {
+      "id": "a430cdb4-5f46-4be6-b941-244ec22ac4f1",
+      "slug": "la-bienbi-aprigliano",
+      "nome": "La Bienbi'",
+      "city_name": "Aprigliano",
+      "indirizzo": "Via Terenzio Tavolaro, 10, 87100 Cosenza CS",
+      "lat": 39.30331,
+      "lng": 16.246439
+    },
+    {
+      "id": "65fde9a5-c781-42d3-9501-6889581bc4ee",
+      "slug": "le-stanzedi-karola-luigia-aprigliano",
+      "nome": "Le stanzedi Karola&Luigia",
+      "city_name": "Aprigliano",
+      "indirizzo": "Via Duomo, 12, 87059 Spezzano Piccolo CS",
+      "lat": 39.288055,
+      "lng": 16.343353
+    },
+    {
+      "id": "a30efb23-54e2-4fdd-b18a-a297286a8bbe",
+      "slug": "misve-home-aprigliano",
+      "nome": "Misve Home",
+      "city_name": "Aprigliano",
+      "indirizzo": "Via Savoia, 6, 87100 Cosenza CS",
+      "lat": 39.297344,
+      "lng": 16.248261
+    },
+    {
+      "id": "66533ee5-3fa6-4db5-9db1-d1b0d9c853af",
+      "slug": "villafam-aprigliano",
+      "nome": "VillaFam",
+      "city_name": "Aprigliano",
+      "indirizzo": "Via Benito Aloisi, 13, 87100 Donnici Superiore CS",
+      "lat": 39.246101,
+      "lng": 16.304727
+    },
+    {
+      "id": "92ff1dbc-a460-4209-8656-4ae1dd7c3008",
+      "slug": "affittacamere-casano-aprilia",
+      "nome": "Affittacamere casano",
+      "city_name": "Aprilia",
+      "indirizzo": "Via A. di Crollalanza, 29, 04011 Aprilia LT",
+      "lat": 41.592105,
+      "lng": 12.653872
+    },
+    {
+      "id": "9f8ddef2-bf41-4e32-90cc-b66471f13863",
+      "slug": "anna-rooms-aprilia",
+      "nome": "Anna Rooms",
+      "city_name": "Aprilia",
+      "indirizzo": "Piazza Don Luigi Sturzo, 13, 04011 Aprilia LT",
+      "lat": 41.594634,
+      "lng": 12.645241
+    },
+    {
+      "id": "330626f9-7290-441a-b868-9d6035c91f88",
+      "slug": "appartment-le-mirage-2-0-aprilia",
+      "nome": "Appartment Le Mirage 2.0",
+      "city_name": "Aprilia",
+      "indirizzo": "Via Giuseppe di Vittorio, 6, 04011 Aprilia LT",
+      "lat": 41.595594,
+      "lng": 12.646477
+    },
+    {
+      "id": "f6962390-f3bf-4935-8fb2-bd265d9630f1",
+      "slug": "b-b-delle-valli-aprilia",
+      "nome": "B & B Delle Valli",
+      "city_name": "Aprilia",
+      "indirizzo": "Via delle Valli, 13, 04011 Aprilia LT",
+      "lat": 41.598697,
+      "lng": 12.635977
+    },
+    {
+      "id": "ff4a81bd-7269-42ec-bf66-e6893ce5dbb3",
+      "slug": "b-b-il-casale-di-giulia-aprilia",
+      "nome": "B&B \"Il casale di Giulia\"",
+      "city_name": "Aprilia",
+      "indirizzo": "Via Carano, 149/151, 04011 Aprilia LT",
+      "lat": 41.570188,
+      "lng": 12.732866
+    },
+    {
+      "id": "2b161db3-0fb8-4d51-b55b-bafb78183f4c",
+      "slug": "b-b-aprilia-casale-del-vento-aprilia",
+      "nome": "B&B Aprilia - Casale del Vento",
+      "city_name": "Aprilia",
+      "indirizzo": "Via Basento, 10, 04011 Fossignano LT",
+      "lat": 41.594136,
+      "lng": 12.563508
+    },
+    {
+      "id": "a121fdb2-9094-42a8-b9d8-641f13aa3131",
+      "slug": "b-b-la-riserva-nuova-aprilia",
+      "nome": "B&B La Riserva Nuova",
+      "city_name": "Aprilia",
+      "indirizzo": "Via Riserva Nuova, 62, 04011 Aprilia LT",
+      "lat": 41.564752,
+      "lng": 12.616732
+    },
+    {
+      "id": "76beab31-a857-4f4a-bec4-8e8c5aed9edf",
+      "slug": "bed-breakfast-le-mirage-aprilia",
+      "nome": "Bed & Breakfast Le Mirage",
+      "city_name": "Aprilia",
+      "indirizzo": "Via della Stazione, 04011 Aprilia LT",
+      "lat": 41.591744,
+      "lng": 12.641093
+    },
+    {
+      "id": "ef66edcc-6db2-4371-9dd2-4ac1f5dbc798",
+      "slug": "como-exclusive-affittacamere-aprilia",
+      "nome": "COMÓ EXCLUSIVE affittacamere",
+      "city_name": "Aprilia",
+      "indirizzo": "Via Pontina, 206, 04011 Aprilia LT",
+      "lat": 41.576016,
+      "lng": 12.657042
+    },
+    {
+      "id": "3fab9504-a8c3-4ccc-8df5-4dd8dfd6e471",
+      "slug": "della-piana-residence-srl-aprilia",
+      "nome": "Della Piana Residence Srl",
+      "city_name": "Aprilia",
+      "indirizzo": "Via della Piana, 22, 04011 Aprilia LT",
+      "lat": 41.595487,
+      "lng": 12.632831
+    },
+    {
+      "id": "52dc1046-2272-4401-b266-3f97a4bc5208",
+      "slug": "favola-affittacamere-aprilia",
+      "nome": "Favola Affittacamere",
+      "city_name": "Aprilia",
+      "indirizzo": "Piazza Salvatore Valeri, 4, 00048 Nettuno RM",
+      "lat": 41.457967,
+      "lng": 12.659007
+    },
+    {
+      "id": "de54c261-3171-477a-81ab-8a8f42b44980",
+      "slug": "hotel-aquila-aprilia-aprilia",
+      "nome": "Hotel Aquila | Aprilia",
+      "city_name": "Aprilia",
+      "indirizzo": "Via Alessandro Volta, 6, 04011 Aprilia LT",
+      "lat": 41.597272,
+      "lng": 12.650475
+    },
+    {
+      "id": "0aa42bd9-66b1-4259-a129-871c11f0bccd",
+      "slug": "hotel-enea-aprilia-aprilia",
+      "nome": "Hotel Enea Aprilia",
+      "city_name": "Aprilia",
+      "indirizzo": "Via del Commercio, 1, 04011 Aprilia LT",
+      "lat": 41.577879,
+      "lng": 12.649526
+    },
+    {
+      "id": "d6e54e76-d30e-4177-ae86-1322a317a530",
+      "slug": "hotel-san-michele-aprilia",
+      "nome": "Hotel San Michele",
+      "city_name": "Aprilia",
+      "indirizzo": "Via delle Margherite, 23, 04011 Aprilia LT",
+      "lat": 41.592904,
+      "lng": 12.646589
+    },
+    {
+      "id": "d214da1e-df51-4203-8332-ceb6a46f5bbd",
+      "slug": "la-tenuta-del-passero-fraz-le-ferriere-aprilia",
+      "nome": "La Tenuta del Passero - Fraz.Le Ferriere",
+      "city_name": "Aprilia",
+      "indirizzo": "Via Corsira, 2, 04011 Latina LT",
+      "lat": 41.505173,
+      "lng": 12.728569
+    },
+    {
+      "id": "625376a7-0be5-474d-9ffd-772e75992811",
+      "slug": "lucaia-b-b-aprilia",
+      "nome": "Lucaia B&B",
+      "city_name": "Aprilia",
+      "indirizzo": "Via delle Due Case, 31, 04011 Aprilia LT",
+      "lat": 41.59943,
+      "lng": 12.591079
+    },
+    {
+      "id": "2fac90db-c0e5-4bb5-9203-b906592f8d34",
+      "slug": "peonia-rooms-aprilia",
+      "nome": "Peonia Rooms",
+      "city_name": "Aprilia",
+      "indirizzo": "Via Nettunense, 283, 04011 Campo di Carne LT",
+      "lat": 41.55277,
+      "lng": 12.635514
+    },
+    {
+      "id": "448f4f68-5237-46f9-ae1f-1f2feed40bd8",
+      "slug": "s-home-villa-nel-verde-fuori-roma-alloggio-soste-aprilia",
+      "nome": "S'Home - Villa nel Verde fuori Roma - Alloggio Sostenibile",
+      "city_name": "Aprilia",
+      "indirizzo": "Via Carano, 50/E, 04011 Aprilia LT",
+      "lat": 41.590673,
+      "lng": 12.697577
+    },
+    {
+      "id": "0bc1fcc4-c628-42ae-b58f-c45184def236",
+      "slug": "simon-hotel-aprilia-aprilia",
+      "nome": "SIMON HOTEL APRILIA",
+      "city_name": "Aprilia",
+      "indirizzo": "Via Caracalla, 04011 Aprilia LT",
+      "lat": 41.585649,
+      "lng": 12.647893
+    },
+    {
+      "id": "a267c4cc-7e2c-4fe9-af32-4f5c92f69f02",
+      "slug": "agriturimo-la-dimora-del-croccio-aquara",
+      "nome": "Agriturimo La Dimora del Croccio",
+      "city_name": "Aquara",
+      "indirizzo": "contrada Remolino, 84055 Felitto SA",
+      "lat": 40.368007,
+      "lng": 15.254195
+    },
+    {
+      "id": "a732e461-56dc-4331-b01e-b7d7168f3251",
+      "slug": "agriturismo-casale-condotti-aquara",
+      "nome": "Agriturismo Casale Condotti",
+      "city_name": "Aquara",
+      "indirizzo": "Località Condotti, 84020 Aquara SA",
+      "lat": 40.44891,
+      "lng": 15.254592
+    },
+    {
+      "id": "52b4714e-1d06-4958-9bd5-0d7907a5f192",
+      "slug": "agriturismo-cuorelieto-del-cilento-aquara",
+      "nome": "Agriturismo CuoreLieto del Cilento",
+      "city_name": "Aquara",
+      "indirizzo": "Località Cerabona Strada Provinciale 12/c, snc, 84020 Corleto Monforte SA",
+      "lat": 40.44424,
+      "lng": 15.371416
+    }
+  ]
+}

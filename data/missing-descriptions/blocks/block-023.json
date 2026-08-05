@@ -1,0 +1,323 @@
+{
+  "block": 23,
+  "blockId": "023",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "1eb15d6f-cff5-464e-902d-db41b560cdf7",
+      "slug": "motel-europa-adro",
+      "nome": "Motel Europa",
+      "city_name": "Adro",
+      "indirizzo": "V.le Europa, 6, 25036 Palazzolo sull'Oglio BS",
+      "lat": 45.589583,
+      "lng": 9.894121
+    },
+    {
+      "id": "0db6d9a7-83a8-430f-a839-062d1d750ffa",
+      "slug": "relaisfranciacorta-adro",
+      "nome": "Relaisfranciacorta",
+      "city_name": "Adro",
+      "indirizzo": "Via A. Manzoni, 29, 25040 Colombaro BS",
+      "lat": 45.646513,
+      "lng": 9.991588
+    },
+    {
+      "id": "07c5a146-c806-45f3-bf6e-e04b55713db3",
+      "slug": "rosa-dei-venti-adro",
+      "nome": "Rosa dei Venti",
+      "city_name": "Adro",
+      "indirizzo": "Via Stazione Vecchia, 97, 25050 Provaglio d'Iseo BS",
+      "lat": 45.618187,
+      "lng": 10.029212
+    },
+    {
+      "id": "c4889321-9a87-4dd5-a363-ccdf07a73b2c",
+      "slug": "solive-franciacorta-adro",
+      "nome": "Solive Franciacorta",
+      "city_name": "Adro",
+      "indirizzo": "Via Calvarole, 15, 25040 Corte Franca BS",
+      "lat": 45.621228,
+      "lng": 9.988371
+    },
+    {
+      "id": "798fa5b1-8992-4a3f-8791-7a79dff0ffe9",
+      "slug": "stop-adro",
+      "nome": "Stop",
+      "city_name": "Adro",
+      "indirizzo": "Via Sarnico, 94, 24060 Predore BG",
+      "lat": 45.67871,
+      "lng": 9.998281
+    },
+    {
+      "id": "1f24008e-1292-47c5-9007-b05fb8be34e9",
+      "slug": "agriturismo-ai-progni-affi",
+      "nome": "Agriturismo \"Ai Progni \"",
+      "city_name": "Affi",
+      "indirizzo": "Via Progni, 7, 37010 Affi VR",
+      "lat": 45.546769,
+      "lng": 10.790127
+    },
+    {
+      "id": "5710bb55-076b-4641-9829-650b2b3cb4cb",
+      "slug": "agriturismo-riondel-affi",
+      "nome": "Agriturismo Riondel",
+      "city_name": "Affi",
+      "indirizzo": "Località Coletto, 1, 37010 Affi VR",
+      "lat": 45.574111,
+      "lng": 10.774642
+    },
+    {
+      "id": "9ffeb7c3-85d5-4fb5-94bf-5f77aecf8eb8",
+      "slug": "b-b-da-patty-affi",
+      "nome": "B&B Da Patty",
+      "city_name": "Affi",
+      "indirizzo": "Via Don Gnocchi, 3, 37010 Affi VR",
+      "lat": 45.554103,
+      "lng": 10.782713
+    },
+    {
+      "id": "d6be2b53-2c69-41d6-a806-95f3fb00a0c8",
+      "slug": "b-b-hotel-affi-lago-di-garda-affi",
+      "nome": "B&B HOTEL Affi Lago di Garda",
+      "city_name": "Affi",
+      "indirizzo": "Via Crivellin, 1A, 37010 Affi VR",
+      "lat": 45.552746,
+      "lng": 10.79214
+    },
+    {
+      "id": "11cc92a0-e194-433b-aaad-92d3b0a90397",
+      "slug": "b-b-la-corte-affi",
+      "nome": "B&B La Corte",
+      "city_name": "Affi",
+      "indirizzo": "Caorsa, 37010 Affi VR",
+      "lat": 45.546389,
+      "lng": 10.77195
+    },
+    {
+      "id": "bd93b25b-7032-4ed8-8b82-6251dd7399de",
+      "slug": "b-b-la-magnolia-affi",
+      "nome": "B&B La Magnolia",
+      "city_name": "Affi",
+      "indirizzo": "Via Beccherle Ingegner, 618, 37013 Ceredello VR",
+      "lat": 45.592491,
+      "lng": 10.784473
+    },
+    {
+      "id": "ebdea692-b2b2-4e77-8447-16444ca4b508",
+      "slug": "best-western-hotel-garda-affi",
+      "nome": "Best Western Hotel Garda",
+      "city_name": "Affi",
+      "indirizzo": "Via G. Carducci, 2B, 37010 Affi VR",
+      "lat": 45.552055,
+      "lng": 10.789686
+    },
+    {
+      "id": "25a100fa-5f48-45d8-9d5a-0e1bf3ec7066",
+      "slug": "borgo-romantico-green-relais-affi",
+      "nome": "Borgo Romantico Green Relais",
+      "city_name": "Affi",
+      "indirizzo": "Via Preela Poggi, 21, 37010 Cavaion Veronese VR",
+      "lat": 45.524833,
+      "lng": 10.770702
+    },
+    {
+      "id": "7512c1e3-30e1-4999-aebb-74b399718428",
+      "slug": "corte-castello-affi",
+      "nome": "Corte Castello",
+      "city_name": "Affi",
+      "indirizzo": "Via Incaffi, 11, 37010 Affi VR",
+      "lat": 45.546976,
+      "lng": 10.765059
+    },
+    {
+      "id": "d0607339-e5ce-41e3-9824-2e9a5eb04d42",
+      "slug": "corte-impero-hotel-restaurant-affi",
+      "nome": "Corte Impero Hotel & Restaurant",
+      "city_name": "Affi",
+      "indirizzo": "Via Pozzo dell'Amore, 35, 37010 Affi VR",
+      "lat": 45.551533,
+      "lng": 10.771893
+    },
+    {
+      "id": "478d73a5-fd54-46bf-b9eb-dbb986a4befe",
+      "slug": "eurocongressi-hotel-affi",
+      "nome": "Eurocongressi Hotel",
+      "city_name": "Affi",
+      "indirizzo": "Via Lionello Fiumi, 24, 37010 Cavaion Veronese VR",
+      "lat": 45.537471,
+      "lng": 10.781682
+    },
+    {
+      "id": "a12a5d2f-f4ac-4e42-9366-6f305ceec30d",
+      "slug": "hotel-al-sole-enjoy-holiday-affi",
+      "nome": "Hotel al Sole - ENJOY HOLIDAY",
+      "city_name": "Affi",
+      "indirizzo": "Via Montesaline, 37010 Cavaion Veronese VR",
+      "lat": 45.540075,
+      "lng": 10.775006
+    },
+    {
+      "id": "83222cc7-c880-44f6-9c4a-d3a182ec1a51",
+      "slug": "hotel-andreis-affi",
+      "nome": "Hotel Andreis",
+      "city_name": "Affi",
+      "indirizzo": "Hotel Andreis, Via Berengario, 26, 37010 Cavaion Veronese VR",
+      "lat": 45.535978,
+      "lng": 10.76637
+    },
+    {
+      "id": "1701b76d-9986-43ee-8193-2820bba64391",
+      "slug": "hotel-fortuna-affi",
+      "nome": "Hotel Fortuna",
+      "city_name": "Affi",
+      "indirizzo": "Via Costabella, 17/19, 37010 Albaré Stazione VR",
+      "lat": 45.571077,
+      "lng": 10.758721
+    },
+    {
+      "id": "8b26da29-6298-4e10-85ec-8c4d4716f3b9",
+      "slug": "hotel-la-dolce-vita-affi",
+      "nome": "HOTEL La Dolce Vita",
+      "city_name": "Affi",
+      "indirizzo": "Via Ca' Nove, 9, 37010 Cavaion Veronese VR",
+      "lat": 45.533878,
+      "lng": 10.766155
+    },
+    {
+      "id": "839b6af2-3d51-437b-a628-bdf968686feb",
+      "slug": "hotel-valbella-affi",
+      "nome": "Hotel Valbella",
+      "city_name": "Affi",
+      "indirizzo": "Via S. Colombano, 38, 37011 Bardolino VR",
+      "lat": 45.564517,
+      "lng": 10.730553
+    },
+    {
+      "id": "e710a080-8591-40f2-a8ea-75d7d63657dd",
+      "slug": "il-pigno-affi",
+      "nome": "Il Pigno",
+      "city_name": "Affi",
+      "indirizzo": "Via Pigno, 37010 Affi VR",
+      "lat": 45.561959,
+      "lng": 10.778161
+    },
+    {
+      "id": "535c7b2d-a85c-474e-9df1-4780302d3567",
+      "slug": "le-cocche-affi",
+      "nome": "Le Cocche",
+      "city_name": "Affi",
+      "indirizzo": "Località Cocche, 2, 37010 Affi VR",
+      "lat": 45.556857,
+      "lng": 10.781921
+    },
+    {
+      "id": "3a4e32ce-d18d-46f6-b09d-55c9fbfbf8f3",
+      "slug": "relais-san-michele-affi",
+      "nome": "Relais San Michele",
+      "city_name": "Affi",
+      "indirizzo": "Via Barbuzzola, 6, 37010 Rivoli Veronese VR",
+      "lat": 45.544053,
+      "lng": 10.812886
+    },
+    {
+      "id": "0c5f76c0-00f8-4344-b1fe-3fb5fea41e89",
+      "slug": "residence-fontanelle-affi",
+      "nome": "Residence Fontanelle",
+      "city_name": "Affi",
+      "indirizzo": "Località Fontanelle, 2A, 37010 Cavaion Veronese VR",
+      "lat": 45.525046,
+      "lng": 10.794173
+    },
+    {
+      "id": "5ecf71f7-666f-4dd8-86ab-1bccefb2895a",
+      "slug": "affittacamere-le-ginestre-colleferro-affile",
+      "nome": "Affittacamere Le Ginestre Colleferro",
+      "city_name": "Affile",
+      "indirizzo": "Via Casilina, km 48, 00034 Colleferro RM",
+      "lat": 41.75471,
+      "lng": 12.987787
+    },
+    {
+      "id": "8fa039a7-fd9d-4df6-a3a7-78d9421d083e",
+      "slug": "agriturismo-colle-tocci-subiaco-affile",
+      "nome": "Agriturismo Colle Tocci Subiaco",
+      "city_name": "Affile",
+      "indirizzo": "Contrada Castagnola, 8, 00028 Subiaco RM",
+      "lat": 41.911813,
+      "lng": 13.094338
+    },
+    {
+      "id": "8d3112fe-74ca-4aea-9202-f83e6dffa743",
+      "slug": "atlantic-park-hotel-spa-ristorante-centro-beness-affile",
+      "nome": "Atlantic Park Hotel - Spa - Ristorante - Centro benessere - Piscina - Sala convegni",
+      "city_name": "Affile",
+      "indirizzo": "Via Prenestina Sud, 37, 03014 Fiuggi FR",
+      "lat": 41.784993,
+      "lng": 13.230915
+    },
+    {
+      "id": "cb52fd52-0113-4529-bd38-def9d1b445e8",
+      "slug": "b-b-valmontone-magicland-casa-del-girasole-affile",
+      "nome": "B&B Valmontone MagicLand - Casa del Girasole",
+      "city_name": "Affile",
+      "indirizzo": "Via Luigi Petroselli, 50/int.2, 00030 Genazzano RM",
+      "lat": 41.818605,
+      "lng": 12.972534
+    },
+    {
+      "id": "70fbd2dc-6760-41c3-afa2-1c80b5b35e16",
+      "slug": "bed-and-breakfast-la-panarda-affile",
+      "nome": "Bed and Breakfast - La Panarda",
+      "city_name": "Affile",
+      "indirizzo": "W3FV+QV, 00028 Subiaco RM",
+      "lat": 41.924437,
+      "lng": 13.094688
+    },
+    {
+      "id": "27ca39aa-d98d-42df-abb0-77d968e362ff",
+      "slug": "bed-and-breakfast-casa-rosella-country-house-affile",
+      "nome": "Bed and Breakfast Casa Rosella - Country House",
+      "city_name": "Affile",
+      "indirizzo": "Via Fontana Fresca, n° 25, 00030 Bellegra RM",
+      "lat": 41.882276,
+      "lng": 13.041968
+    },
+    {
+      "id": "b18109f7-9ab4-487d-bf30-72734c357291",
+      "slug": "belvedere-ristorante-b-b-affile",
+      "nome": "Belvedere Ristorante B&B",
+      "city_name": "Affile",
+      "indirizzo": "Via dei Monasteri, 33, 00028 Subiaco RM",
+      "lat": 41.923695,
+      "lng": 13.106011
+    },
+    {
+      "id": "ffd4ae09-152c-4ef8-8daa-217381b89f61",
+      "slug": "civico69-bar-pasticceria-bed-breakfast-affile",
+      "nome": "Civico69 - Bar Pasticceria Bed&Breakfast",
+      "city_name": "Affile",
+      "indirizzo": "Corso Cesare Battisti, 69, 00028 Subiaco RM",
+      "lat": 41.924738,
+      "lng": 13.085696
+    },
+    {
+      "id": "6b044175-c81e-4698-bbea-43ab27ab3999",
+      "slug": "foresteria-del-monastero-di-s-scolastica-affile",
+      "nome": "Foresteria del Monastero di S. Scolastica",
+      "city_name": "Affile",
+      "indirizzo": "Piazzale Santa Scolastica, 1, 00028 Subiaco RM",
+      "lat": 41.919064,
+      "lng": 13.109564
+    },
+    {
+      "id": "32d8581d-a9ad-44c3-8aa6-2963dd717af8",
+      "slug": "hotel-cremona-ristorante-bar-affile",
+      "nome": "Hotel Cremona Ristorante Bar",
+      "city_name": "Affile",
+      "indirizzo": "Via Palmiro Togliatti, 19, 00030 Genazzano RM",
+      "lat": 41.824295,
+      "lng": 12.967582
+    }
+  ]
+}

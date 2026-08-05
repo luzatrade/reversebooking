@@ -1,0 +1,323 @@
+{
+  "block": 439,
+  "blockId": "439",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "57f9fdb7-1453-401a-a79d-f3d5c676d17c",
+      "slug": "hotel-castiglione-carlino",
+      "nome": "Hotel Castiglione",
+      "city_name": "Carlino",
+      "indirizzo": "Lungomare Trieste, 126, 33054 Lignano Sabbiadoro UD",
+      "lat": 45.68507,
+      "lng": 13.13757
+    },
+    {
+      "id": "6701bb3e-ed6a-42f8-8a6a-2e93babe3474",
+      "slug": "hotel-elvia-carlino",
+      "nome": "Hotel Elvia",
+      "city_name": "Carlino",
+      "indirizzo": "Via Miramare, 2, 33054 Lignano Sabbiadoro UD",
+      "lat": 45.688017,
+      "lng": 13.135781
+    },
+    {
+      "id": "7fc6ff1e-0d76-4c40-b977-b729097afa6a",
+      "slug": "hotel-italia-palace-carlino",
+      "nome": "Hotel Italia Palace",
+      "city_name": "Carlino",
+      "indirizzo": "Viale Italia, 7, 33054 Lignano Sabbiadoro UD",
+      "lat": 45.692713,
+      "lng": 13.148586
+    },
+    {
+      "id": "9ccaa9e5-d0ea-48f5-9d69-f01139660fc2",
+      "slug": "hotel-miramare-carlino",
+      "nome": "Hotel Miramare",
+      "city_name": "Carlino",
+      "indirizzo": "Via Aquileia, 49, 33054 Lignano Sabbiadoro UD",
+      "lat": 45.688547,
+      "lng": 13.143333
+    },
+    {
+      "id": "fd05a7e0-defd-485d-8d79-a8d888141db8",
+      "slug": "hotel-regina-carlino",
+      "nome": "Hotel Regina",
+      "city_name": "Carlino",
+      "indirizzo": "Via Lilienfeld, 4, 33054 Lignano Sabbiadoro UD",
+      "lat": 45.684975,
+      "lng": 13.134355
+    },
+    {
+      "id": "f76ceb82-aee1-46c3-9c0d-dcb4908d03e3",
+      "slug": "hotel-trieste-carlino",
+      "nome": "Hotel Trieste",
+      "city_name": "Carlino",
+      "indirizzo": "Via Terza Armata, 40, 33058 San Giorgio di Nogaro UD",
+      "lat": 45.8348,
+      "lng": 13.193854
+    },
+    {
+      "id": "f9807164-cebc-426b-8423-ba68f9f116c2",
+      "slug": "hotel-villa-franca-carlino",
+      "nome": "Hotel Villa Franca",
+      "city_name": "Carlino",
+      "indirizzo": "Lungomare Trieste, 118, 33054 Lignano Sabbiadoro UD",
+      "lat": 45.68538,
+      "lng": 13.138984
+    },
+    {
+      "id": "b2e0d00c-ba4e-462a-b50a-ee12d9800ce2",
+      "slug": "jo-hotel-wellness-spa-carlino",
+      "nome": "JO Hotel Wellness & Spa",
+      "city_name": "Carlino",
+      "indirizzo": "Via Udine, 7/9, 33050 Marano Lagunare UD",
+      "lat": 45.766267,
+      "lng": 13.167865
+    },
+    {
+      "id": "89825011-ef90-4aeb-8e71-76c087abd6e6",
+      "slug": "pensione-imperia-carlino",
+      "nome": "Pensione Imperia",
+      "city_name": "Carlino",
+      "indirizzo": "Viale dei Platani, 80, 33054 Lignano Sabbiadoro UD",
+      "lat": 45.690976,
+      "lng": 13.13824
+    },
+    {
+      "id": "cec5aa41-723e-4961-984d-3104d9799e9d",
+      "slug": "aquamadre-suites-carloforte",
+      "nome": "AQUAMADRE Suites",
+      "city_name": "Carloforte",
+      "indirizzo": "Via Armando Diaz, 34, 09014 Carloforte CI",
+      "lat": 39.142383,
+      "lng": 8.30643
+    },
+    {
+      "id": "5bbb5ab7-70f7-4af9-8501-9015c830a1a1",
+      "slug": "b-b-mencin-carloforte",
+      "nome": "B&B Mencin",
+      "city_name": "Carloforte",
+      "indirizzo": "Via Porta Leone, 24, 09014 Carloforte CI",
+      "lat": 39.147555,
+      "lng": 8.306899
+    },
+    {
+      "id": "5ee5dc56-7505-4e0b-b2e9-14181c4c225f",
+      "slug": "domo-cicindela-boutique-rooms-centro-carloforte-carloforte",
+      "nome": "Domo Cicindela Boutique Rooms Centro Carloforte",
+      "city_name": "Carloforte",
+      "indirizzo": "Piazza Carlo Emanuele III, 17, 09014 Carloforte CI",
+      "lat": 39.145211,
+      "lng": 8.307239
+    },
+    {
+      "id": "7a32ab8c-3478-4b1c-b99f-2264d7877482",
+      "slug": "garden-rooms-carloforte",
+      "nome": "Garden Rooms",
+      "city_name": "Carloforte",
+      "indirizzo": "Strada Provinciale 102, Km 2/3, 09014 Carloforte CI",
+      "lat": 39.123345,
+      "lng": 8.291804
+    },
+    {
+      "id": "59e5e973-e671-4713-85c6-7770d53a95ec",
+      "slug": "guardia-dei-mori-carloforte",
+      "nome": "Guardia dei Mori",
+      "city_name": "Carloforte",
+      "indirizzo": "Localita' Nassetta, 09014 Carloforte CI",
+      "lat": 39.157538,
+      "lng": 8.29058
+    },
+    {
+      "id": "0a5457de-3441-4f9c-ab36-023fa332637f",
+      "slug": "hotel-california-carloforte",
+      "nome": "Hotel California",
+      "city_name": "Carloforte",
+      "indirizzo": "Via Giuseppe Cavallera, 15, 09014 Carloforte CI",
+      "lat": 39.142212,
+      "lng": 8.302979
+    },
+    {
+      "id": "e8be2d6a-2d05-40bd-8677-dbcf03c40e57",
+      "slug": "hotel-galman-carloforte",
+      "nome": "Hotel Galman",
+      "city_name": "Carloforte",
+      "indirizzo": "località Bellavista, 09014 Carloforte CI",
+      "lat": 39.109032,
+      "lng": 8.282239
+    },
+    {
+      "id": "d7baf299-807a-4246-b90e-b4edf3e426ad",
+      "slug": "hotel-hieracon-carloforte",
+      "nome": "Hotel Hieracon",
+      "city_name": "Carloforte",
+      "indirizzo": "Corso C. Cavour, 62, 09014 Carloforte CI",
+      "lat": 39.147839,
+      "lng": 8.308726
+    },
+    {
+      "id": "62065875-b9d2-47bf-bbee-759912e0cbab",
+      "slug": "hotel-lido-degli-spagnoli-carloforte",
+      "nome": "Hotel Lido degli Spagnoli",
+      "city_name": "Carloforte",
+      "indirizzo": "Viale Adriatico, 32, 09010 Portoscuso CI",
+      "lat": 39.211167,
+      "lng": 8.37154
+    },
+    {
+      "id": "42f7aeff-da7f-495e-8d21-8a5d9749a1da",
+      "slug": "hotel-villa-pimpina-carloforte",
+      "nome": "Hotel Villa Pimpina",
+      "city_name": "Carloforte",
+      "indirizzo": "Via Genova, 106/108, 09014 Carloforte CI",
+      "lat": 39.146121,
+      "lng": 8.305076
+    },
+    {
+      "id": "22e6c06d-a750-49ab-90b5-f1ec21877d76",
+      "slug": "le-saline-suites-carloforte",
+      "nome": "Le Saline Suites",
+      "city_name": "Carloforte",
+      "indirizzo": "Via Berlinguer, 12, 09014 Carloforte CI",
+      "lat": 39.140871,
+      "lng": 8.303505
+    },
+    {
+      "id": "4aa4eb36-0218-4d5c-8e2c-0985a44f0d5b",
+      "slug": "lu-hotel-carloforte-carloforte",
+      "nome": "Lu' Hotel Carloforte",
+      "city_name": "Carloforte",
+      "indirizzo": "Corso Battellieri, 26, 09014 Carloforte CI",
+      "lat": 39.143208,
+      "lng": 8.307261
+    },
+    {
+      "id": "fa26ff86-eccc-439e-9090-ce0dc8b3faf1",
+      "slug": "nichotel-carloforte",
+      "nome": "Nichotel",
+      "city_name": "Carloforte",
+      "indirizzo": "Via Garibaldi, 7, 09014 Carloforte CI",
+      "lat": 39.145841,
+      "lng": 8.307353
+    },
+    {
+      "id": "6ad9d630-1d27-43b3-a2cc-589bf790964c",
+      "slug": "panoramic-studio-carloforte-carloforte",
+      "nome": "Panoramic Studio Carloforte",
+      "city_name": "Carloforte",
+      "indirizzo": "Via Enrico Berlinguer, 14, 09014 Carloforte CI",
+      "lat": 39.140925,
+      "lng": 8.30356
+    },
+    {
+      "id": "9074fd53-8207-4941-b32f-342d5a0634ee",
+      "slug": "residenza-cuntin-carloforte-carloforte",
+      "nome": "Residenza Cuntin Carloforte",
+      "city_name": "Carloforte",
+      "indirizzo": "Via Cesare Battisti, 11, 09014 Carloforte CI",
+      "lat": 39.143161,
+      "lng": 8.304885
+    },
+    {
+      "id": "cee37a88-2b91-4f5b-a579-d5c083ad689e",
+      "slug": "trilli-ecobnb-carloforte",
+      "nome": "Trilli EcoBnb",
+      "city_name": "Carloforte",
+      "indirizzo": "Via Giuseppe Mazzini, 15, 09014 Carloforte CI",
+      "lat": 39.143549,
+      "lng": 8.304678
+    },
+    {
+      "id": "3b2a1ec9-c543-40b7-9f46-c73689647d0c",
+      "slug": "affittacamere-sogni-d-oro-carlopoli",
+      "nome": "Affittacamere Sogni d'Oro",
+      "city_name": "Carlopoli",
+      "indirizzo": "Via Cristoforo Colombo, 67, 88046 Lamezia Terme CZ",
+      "lat": 38.969501,
+      "lng": 16.314472
+    },
+    {
+      "id": "ee93edfa-7ccf-4a90-bf55-d71af2f885c7",
+      "slug": "b-e-b-pontepiccolo-villa-giglio-group-carlopoli",
+      "nome": "B e B Pontepiccolo - Villa Giglio Group",
+      "city_name": "Carlopoli",
+      "indirizzo": "Viale Papa, Viale Pio X, 232, 88100 Catanzaro CZ",
+      "lat": 38.927559,
+      "lng": 16.580635
+    },
+    {
+      "id": "c1871c70-2a98-475c-836b-1df1eb289220",
+      "slug": "b-b-i-portici-carlopoli",
+      "nome": "B&B I Portici",
+      "city_name": "Carlopoli",
+      "indirizzo": "Via Padre Antonio da Olivadi, 5, 88100 Catanzaro CZ",
+      "lat": 38.927024,
+      "lng": 16.581146
+    },
+    {
+      "id": "e3d6c455-b7fc-4924-b94a-12e430fb47d2",
+      "slug": "b-b-la-casa-dama-guest-house-carlopoli",
+      "nome": "B&B La Casa Dama Guest-House",
+      "city_name": "Carlopoli",
+      "indirizzo": "Vico S. Giacomo, 88046 Lamezia Terme CZ",
+      "lat": 38.974273,
+      "lng": 16.320302
+    },
+    {
+      "id": "a4bc58ba-8271-47d3-8f0d-ca7baf1c214c",
+      "slug": "b-b-lamezia-terme-centro-cin-it079160c1s4xxgays-carlopoli",
+      "nome": "B&B Lamezia Terme Centro - CIN IT079160C1S4XXGAYS",
+      "city_name": "Carlopoli",
+      "indirizzo": "Via Isonzo, 23, 88046 Lamezia Terme CZ",
+      "lat": 38.973735,
+      "lng": 16.319098
+    },
+    {
+      "id": "e2fcdd4d-2605-43c6-906d-a4c9f6fcc2bb",
+      "slug": "b-b-san-giovanni-cin-it079160c1y3bcoq6y-carlopoli",
+      "nome": "B&B SAN GIOVANNI - CIN IT079160C1Y3BCOQ6Y",
+      "city_name": "Carlopoli",
+      "indirizzo": "Vico I°, Piazza San Giovanni, 8, 88046 Lamezia Terme CZ",
+      "lat": 38.975135,
+      "lng": 16.320884
+    },
+    {
+      "id": "521baa7c-b8bb-4aa3-8a7c-8bc56445f514",
+      "slug": "la-casa-di-anna-carlopoli",
+      "nome": "La casa di Anna",
+      "city_name": "Carlopoli",
+      "indirizzo": "Via Damiano Chiesa, 20, 88046 Lamezia Terme CZ",
+      "lat": 38.973949,
+      "lng": 16.315265
+    },
+    {
+      "id": "bdaf6b61-793a-4ae4-b14f-819daf465923",
+      "slug": "la-gerosa-guest-house-carlopoli",
+      "nome": "La Gerosa Guest House",
+      "city_name": "Carlopoli",
+      "indirizzo": "Via del Progresso, 472, 88046 Lamezia Terme CZ",
+      "lat": 38.944537,
+      "lng": 16.328784
+    },
+    {
+      "id": "9829caf7-b2e2-4cae-90db-b333311c90fd",
+      "slug": "villa-maria-carlopoli",
+      "nome": "Villa Maria",
+      "city_name": "Carlopoli",
+      "indirizzo": "Via Gioacchino Murat, 108, 88046 Lamezia Terme CZ",
+      "lat": 38.944628,
+      "lng": 16.322891
+    },
+    {
+      "id": "317c4176-b2ae-4811-996f-5bb6c24bb6c1",
+      "slug": "albergo-ristorante-san-marco-carmagnola",
+      "nome": "Albergo Ristorante SAN MARCO",
+      "city_name": "Carmagnola",
+      "indirizzo": "Via S. Francesco di Sales, 18, 10022 Carmagnola TO",
+      "lat": 44.850791,
+      "lng": 7.721855
+    }
+  ]
+}

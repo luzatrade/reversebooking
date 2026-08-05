@@ -1,0 +1,323 @@
+{
+  "block": 146,
+  "blockId": "146",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "19ca2ca2-7dc5-4374-9339-fe0c1ed3f589",
+      "slug": "agriturismo-ai-due-laghi-del-verginese-argenta",
+      "nome": "Agriturismo Ai Due Laghi del Verginese",
+      "city_name": "Argenta",
+      "indirizzo": "Via Bargellesi, 2, 44015 Gambulaga FE",
+      "lat": 44.747913,
+      "lng": 11.830767
+    },
+    {
+      "id": "0c096dc6-6fc7-476e-a788-a6cca6762046",
+      "slug": "agriturismo-bassara-le-capanne-argenta",
+      "nome": "Agriturismo Bassara Le Capanne",
+      "city_name": "Argenta",
+      "indirizzo": "Via Cardinala, 2, 44011 Argenta FE",
+      "lat": 44.613514,
+      "lng": 11.81531
+    },
+    {
+      "id": "65d2582f-4d07-4993-b336-c553b11e5ca5",
+      "slug": "b-b-la-salghe-argenta",
+      "nome": "B&B La Salghè",
+      "city_name": "Argenta",
+      "indirizzo": "Via Borgo Seliciata, 1, 44011 Argenta FE",
+      "lat": 44.61537,
+      "lng": 11.840266
+    },
+    {
+      "id": "acd06509-d2f0-44a8-a9aa-66cbcb6458bc",
+      "slug": "bed-breakfast-ciliegio-felice-argenta-argenta",
+      "nome": "Bed & Breakfast Ciliegio Felice Argenta",
+      "city_name": "Argenta",
+      "indirizzo": "Str. Valletta, 31, 44011 Traghetto FE",
+      "lat": 44.640318,
+      "lng": 11.688367
+    },
+    {
+      "id": "deb16159-1576-474d-891a-913f08da1326",
+      "slug": "boni-room-breakfast-smart-rooms-argenta-argenta",
+      "nome": "Boni Room & Breakfast/SMART ROOMS ARGENTA",
+      "city_name": "Argenta",
+      "indirizzo": "Via Imperiale, 8/B, 44011 Traghetto FE",
+      "lat": 44.632748,
+      "lng": 11.674742
+    },
+    {
+      "id": "a85c0281-8051-4b9a-82c8-081880fd17fa",
+      "slug": "ca-morari-argenta",
+      "nome": "Cà Morari",
+      "city_name": "Argenta",
+      "indirizzo": "Via Morari, 18, 44011 San Biagio FE",
+      "lat": 44.589142,
+      "lng": 11.865858
+    },
+    {
+      "id": "3c97b3c7-206e-4fa7-85c0-2a21a7625ad4",
+      "slug": "corte-dossello-ristorante-albergo-argenta",
+      "nome": "Corte Dossello Ristorante - Albergo",
+      "city_name": "Argenta",
+      "indirizzo": "Via Briccola, 7, 44027 Massa Fiscaglia FE",
+      "lat": 44.778582,
+      "lng": 12.044007
+    },
+    {
+      "id": "dda1fd9b-dc5c-485c-a647-863fc00b2282",
+      "slug": "hotel-centrale-argenta",
+      "nome": "Hotel Centrale",
+      "city_name": "Argenta",
+      "indirizzo": "Via Gustavo Bianchi, 1, 44011 Argenta FE",
+      "lat": 44.614227,
+      "lng": 11.836281
+    },
+    {
+      "id": "167eff82-4187-4a3e-84e7-bce5e5e9671c",
+      "slug": "hotel-la-candela-argenta",
+      "nome": "Hotel la candela",
+      "city_name": "Argenta",
+      "indirizzo": "Via San Vitale, 175, 40026 Sesto Imolese BO",
+      "lat": 44.468849,
+      "lng": 11.768261
+    },
+    {
+      "id": "39c03fb9-6c7a-4aaa-944f-7a8885c6417b",
+      "slug": "hotel-villa-reale-argenta",
+      "nome": "Hotel Villa Reale",
+      "city_name": "Argenta",
+      "indirizzo": "Viale Antonio Roiti, 16/A, 44011 Argenta FE",
+      "lat": 44.612355,
+      "lng": 11.836725
+    },
+    {
+      "id": "1e15cfa6-7bad-4a8f-b67e-f2d56e6b27f8",
+      "slug": "i-due-orfici-argenta",
+      "nome": "I Due Orfici",
+      "city_name": "Argenta",
+      "indirizzo": "Via Comacchio, 1051, 44123 Cona FE",
+      "lat": 44.805392,
+      "lng": 11.711638
+    },
+    {
+      "id": "eea02b0c-3fe3-46c2-8ee0-70c65a72af32",
+      "slug": "il-correggiolo-argenta",
+      "nome": "Il Correggiolo",
+      "city_name": "Argenta",
+      "indirizzo": "JRFX+J5, 44011 Argenta FE",
+      "lat": 44.624063,
+      "lng": 11.847937
+    },
+    {
+      "id": "cde7ec05-d9fe-446f-a0b7-9cf44fe7f5ce",
+      "slug": "locanda-al-cavaliere-argenta",
+      "nome": "Locanda Al Cavaliere",
+      "city_name": "Argenta",
+      "indirizzo": "Via Fascinata, 2, 40062 San Pietro Capofiume BO",
+      "lat": 44.656815,
+      "lng": 11.64238
+    },
+    {
+      "id": "fca664ca-a37c-45db-a625-7033af9f44c2",
+      "slug": "residence-appartamenti-villa-masi-argenta",
+      "nome": "Residence Appartamenti Villa Masi",
+      "city_name": "Argenta",
+      "indirizzo": "Viale Adriatico, 2, 44124 Masi Torello FE",
+      "lat": 44.800644,
+      "lng": 11.777088
+    },
+    {
+      "id": "682067a5-eff2-4807-b44c-c71d2e03e888",
+      "slug": "sacripante-argenta",
+      "nome": "Sacripante",
+      "city_name": "Argenta",
+      "indirizzo": "Str. Bordocchia, 160, 44020 Ostellato FE",
+      "lat": 44.727041,
+      "lng": 11.88258
+    },
+    {
+      "id": "3e79a424-6968-4329-8260-3f53f0e9b375",
+      "slug": "affittacamere-l-abri-argentera",
+      "nome": "Affittacamere L'Abrì",
+      "city_name": "Argentera",
+      "indirizzo": "Via Francia, 3, 12010 Pontebernardo CN",
+      "lat": 44.350517,
+      "lng": 7.017471
+    },
+    {
+      "id": "a0e6c781-abbc-4af0-8ad7-4bebbfea5f5b",
+      "slug": "b-b-del-villaggio-argentera",
+      "nome": "B&B del Villaggio",
+      "city_name": "Argentera",
+      "indirizzo": "Via Nazionale, 1, 12010 Villaggio Primavera CN",
+      "lat": 44.367529,
+      "lng": 6.985998
+    },
+    {
+      "id": "c9b7a603-9607-4ac7-8325-725d743d1d87",
+      "slug": "la-barmo-affittacamere-argentera",
+      "nome": "La Barmo Affittacamere",
+      "city_name": "Argentera",
+      "indirizzo": "Via Longa, 9, 12010 Pietraporzio CN",
+      "lat": 44.349975,
+      "lng": 7.018397
+    },
+    {
+      "id": "d6cd5aae-c28f-461c-a6c3-8d85503a4076",
+      "slug": "locanda-la-marmu-e-osteria-della-croce-bianca-ma-argentera",
+      "nome": "Locanda La Marmu e Osteria della Croce bianca Marmora",
+      "city_name": "Argentera",
+      "indirizzo": "Borgata Vernetti, 18, 12020 Marmora CN",
+      "lat": 44.457878,
+      "lng": 7.094271
+    },
+    {
+      "id": "6d5934fa-5669-4491-ad5d-41011eeb02c5",
+      "slug": "lou-loop-argentera",
+      "nome": "Lou Loop",
+      "city_name": "Argentera",
+      "indirizzo": "Frazione Bagni , 59, 12010 Vinadio CN",
+      "lat": 44.289305,
+      "lng": 7.074534
+    },
+    {
+      "id": "d37f4039-e216-48fe-8195-9d35d50b240a",
+      "slug": "rifugio-becchi-rossi-argentera",
+      "nome": "Rifugio Becchi Rossi",
+      "city_name": "Argentera",
+      "indirizzo": "12010 Ferrere CN",
+      "lat": 44.358643,
+      "lng": 6.954941
+    },
+    {
+      "id": "55167e85-277f-4031-a5a0-97560b3a2a06",
+      "slug": "rifugio-della-pace-argentera",
+      "nome": "Rifugio della Pace",
+      "city_name": "Argentera",
+      "indirizzo": "SS21 - Colle della maddalena, 12010 Val d'Oronaye, Francia",
+      "lat": 44.421588,
+      "lng": 6.898049
+    },
+    {
+      "id": "0e8d94ce-2075-4495-8753-09a37ff10137",
+      "slug": "a-casa-di-anna-arguello",
+      "nome": "A Casa di Anna",
+      "city_name": "Arguello",
+      "indirizzo": "Via Roma, 3, 12070 Pezzolo Valle Uzzone CN",
+      "lat": 44.540935,
+      "lng": 8.193455
+    },
+    {
+      "id": "bd5aebbd-06a7-46e5-8d10-8c246ef00cd6",
+      "slug": "agriturismo-cascina-prato-arguello",
+      "nome": "Agriturismo Cascina Prato",
+      "city_name": "Arguello",
+      "indirizzo": "Cascina Prato, 1, 12050 Cravanzana CN",
+      "lat": 44.580375,
+      "lng": 8.13184
+    },
+    {
+      "id": "6a439911-e71c-4246-aa50-e9d2993959fe",
+      "slug": "agriturismo-la-collina-degli-scoiattoli-arguello",
+      "nome": "Agriturismo La Collina degli Scoiattoli",
+      "city_name": "Arguello",
+      "indirizzo": "Via Dietro Langhe, 19, 12050 Cravanzana CN",
+      "lat": 44.563261,
+      "lng": 8.12569
+    },
+    {
+      "id": "c13bd293-d4bd-4f8e-ae86-aa64190d2863",
+      "slug": "b-b-ca-d-fefi-arguello",
+      "nome": "B&B Cà d' FeFI",
+      "city_name": "Arguello",
+      "indirizzo": "Fossati, 14, 12070 Gorzegno CN",
+      "lat": 44.522768,
+      "lng": 8.13057
+    },
+    {
+      "id": "57708f1a-1bb1-426c-a139-f2c8c2ab053c",
+      "slug": "b-b-ca-pavaglione-fraz-san-bovo-arguello",
+      "nome": "B&B Ca' Pavaglione - Fraz.San Bovo",
+      "city_name": "Arguello",
+      "indirizzo": "Via Trezzo Tinella, 19, 12050 Castino CN",
+      "lat": 44.643368,
+      "lng": 8.138228
+    },
+    {
+      "id": "255a3ded-efdf-45fc-9e57-09cf14b4ad6e",
+      "slug": "b-b-le-coccinelle-arguello",
+      "nome": "B&B Le Coccinelle",
+      "city_name": "Arguello",
+      "indirizzo": "scaravascio, 10, 12050 Torre Bormida CN",
+      "lat": 44.548815,
+      "lng": 8.139402
+    },
+    {
+      "id": "6939dd9d-f4db-4679-9131-1b6c30f7ee79",
+      "slug": "b-b-tra-cielo-e-terra-arguello",
+      "nome": "B&B Tra Cielo e Terra",
+      "city_name": "Arguello",
+      "indirizzo": "Località Molinari, 3, 12050 Roddino CN",
+      "lat": 44.584373,
+      "lng": 8.022091
+    },
+    {
+      "id": "1fbf839f-1a5f-4136-ad2f-7fd1469d4269",
+      "slug": "ca-ginet-arguello",
+      "nome": "Ca' Ginet",
+      "city_name": "Arguello",
+      "indirizzo": "Via Costavita, 10, 12050 Cravanzana CN",
+      "lat": 44.575066,
+      "lng": 8.125282
+    },
+    {
+      "id": "f791f1c5-87d9-46f7-b8a7-8c7d798ae087",
+      "slug": "ciabot-langhe-arguello",
+      "nome": "Ciabot Langhe",
+      "city_name": "Arguello",
+      "indirizzo": "Località Chiabotto, 3, 12050 Roddino CN",
+      "lat": 44.571957,
+      "lng": 8.021545
+    },
+    {
+      "id": "a2c7044c-1a84-4190-b5e6-3c626cbb4656",
+      "slug": "dimora-storico-romantica-il-sole-e-la-luna-arguello",
+      "nome": "Dimora Storico Romantica Il Sole E La Luna",
+      "city_name": "Arguello",
+      "indirizzo": "Piazza Giovanni Sobrero, 9, 12050 Cerretto Langhe CN",
+      "lat": 44.574078,
+      "lng": 8.0986
+    },
+    {
+      "id": "3c4f7247-b87a-427e-9897-d2d444e7cbed",
+      "slug": "hotel-trepiasi-arguello",
+      "nome": "Hotel Trepiasì",
+      "city_name": "Arguello",
+      "indirizzo": "Viale Guglielmo Marconi, 1, 12074 Cortemilia CN",
+      "lat": 44.580391,
+      "lng": 8.192062
+    },
+    {
+      "id": "7cd205cb-6659-4c3e-8f97-397283e11c71",
+      "slug": "locanda-degli-sfizi-arguello",
+      "nome": "Locanda degli sfizi",
+      "city_name": "Arguello",
+      "indirizzo": "Via Provinciale, 105, 12050 Cravanzana CN",
+      "lat": 44.573611,
+      "lng": 8.127778
+    },
+    {
+      "id": "bd084077-0867-475e-b339-f3bf3525089b",
+      "slug": "ristorante-albergo-l-bunet-arguello",
+      "nome": "Ristorante Albergo 'l bunet",
+      "city_name": "Arguello",
+      "indirizzo": "Via Roma, 24, 12074 Bergolo CN",
+      "lat": 44.547585,
+      "lng": 8.182517
+    }
+  ]
+}

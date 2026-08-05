@@ -1,0 +1,323 @@
+{
+  "block": 410,
+  "blockId": "410",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "f1d35bbd-ae40-4d27-90a1-6d2ad7ea1256",
+      "slug": "agriturismo-ca-de-magnani-cantagallo",
+      "nome": "Agriturismo Ca' De' Magnani",
+      "city_name": "Cantagallo",
+      "indirizzo": "Via Ca' dei Bravi, 2, 40035 Baragazza BO",
+      "lat": 44.135735,
+      "lng": 11.198543
+    },
+    {
+      "id": "44406323-682b-4954-acc2-85b299a8f1f2",
+      "slug": "agriturismo-il-frantoio-di-colle-alberto-cantagallo",
+      "nome": "Agriturismo Il Frantoio di Colle Alberto",
+      "city_name": "Cantagallo",
+      "indirizzo": "Via Risorgimento, 76, 51037 Fognano PT",
+      "lat": 43.947452,
+      "lng": 11.031045
+    },
+    {
+      "id": "246e7271-f8a7-4faf-8d1f-397b8c00cc32",
+      "slug": "agriturismo-il-pianaccio-cantagallo",
+      "nome": "Agriturismo Il Pianaccio",
+      "city_name": "Cantagallo",
+      "indirizzo": "Via Maone e Casello, 150, 51037 Montale PT",
+      "lat": 43.947263,
+      "lng": 11.014486
+    },
+    {
+      "id": "d1264efe-ec66-4d9b-9c4e-cd9ac5595be9",
+      "slug": "agriturismo-il-ponticello-cantagallo",
+      "nome": "Agriturismo il Ponticello",
+      "city_name": "Cantagallo",
+      "indirizzo": "Nucleo Fabio, località Fabio, 6, 59021 Vaiano PO",
+      "lat": 43.942221,
+      "lng": 11.14596
+    },
+    {
+      "id": "78f158f9-4da5-4bbd-9eb4-7671f33661e8",
+      "slug": "agriturismo-selvapiana-cantagallo",
+      "nome": "Agriturismo Selvapiana",
+      "city_name": "Cantagallo",
+      "indirizzo": "Via selvapiana, 5, 59025 Cantagallo PO",
+      "lat": 44.035012,
+      "lng": 11.101351
+    },
+    {
+      "id": "5ad5c444-26c5-479f-8579-9817ab352b29",
+      "slug": "azienda-agricola-casamatta-b-b-cantagallo",
+      "nome": "Azienda Agricola CasaMatta B&B",
+      "city_name": "Cantagallo",
+      "indirizzo": "Via di Torri e Ciarlico, 50041 Calenzano FI",
+      "lat": 43.901299,
+      "lng": 11.161776
+    },
+    {
+      "id": "2ddf945e-4731-4fdd-a9ea-39a5bc648bc5",
+      "slug": "bar-albergo-ristorante-il-ponte-cantagallo",
+      "nome": "Bar Albergo Ristorante Il Ponte",
+      "city_name": "Cantagallo",
+      "indirizzo": "Via G. Pepoli, 32, 40035 Castiglione dei Pepoli BO",
+      "lat": 44.141606,
+      "lng": 11.157792
+    },
+    {
+      "id": "d92ed75f-d4ea-4383-942e-f3d5972b164e",
+      "slug": "casa-vacanze-e-ristorante-casa-le-bandite-cantagallo",
+      "nome": "Casa Vacanze e Ristorante Casa Le Bandite",
+      "city_name": "Cantagallo",
+      "indirizzo": "Fraz. S. Ippolito Bolzano, 189, 59024 Vernio PO",
+      "lat": 44.027406,
+      "lng": 11.142724
+    },
+    {
+      "id": "5c1545a8-e666-44bd-8c79-0111ce1d5a61",
+      "slug": "i-vivai-hotel-cantagallo",
+      "nome": "I Vivai Hotel",
+      "city_name": "Cantagallo",
+      "indirizzo": "Via Parugiano di Sopra, 33, 59013 Montemurlo PO",
+      "lat": 43.917187,
+      "lng": 11.051284
+    },
+    {
+      "id": "9bdb9fba-4c1d-466c-9e97-95269669f77d",
+      "slug": "nido-del-merlo-cantagallo",
+      "nome": "Nido del Merlo",
+      "city_name": "Cantagallo",
+      "indirizzo": "Via Montalese, 67/b, 51100 Pistoia PT",
+      "lat": 43.93808,
+      "lng": 10.991517
+    },
+    {
+      "id": "c129760e-d507-409f-bc07-08aa8acad570",
+      "slug": "rifugio-le-cave-cantagallo",
+      "nome": "Rifugio le Cave",
+      "city_name": "Cantagallo",
+      "indirizzo": "Cave, 59025 Cantagallo PO",
+      "lat": 44.018792,
+      "lng": 11.066287
+    },
+    {
+      "id": "4ec95c7c-c123-4132-a3dc-18891ce9933f",
+      "slug": "rifugio-pacini-pian-della-rasa-cantagallo",
+      "nome": "Rifugio Pacini - Pian della Rasa",
+      "city_name": "Cantagallo",
+      "indirizzo": "59025, SP24, 33, 59025 Cantagallo PO",
+      "lat": 44.03431,
+      "lng": 11.052694
+    },
+    {
+      "id": "a27a59bf-3588-498b-a2af-3b25cb61a3df",
+      "slug": "b-b-il-casale-dei-nonni-cantalice",
+      "nome": "B&B Il Casale dei Nonni",
+      "city_name": "Cantalice",
+      "indirizzo": "Via Torretta, 30, 02100 Rieti RI",
+      "lat": 42.441198,
+      "lng": 12.859301
+    },
+    {
+      "id": "405d1957-7350-4547-a956-c0a5f4ee34a1",
+      "slug": "b-b-stella-polare-cantalice",
+      "nome": "B&B Stella Polare",
+      "city_name": "Cantalice",
+      "indirizzo": "Via Angelo Maria Ricci, 107, 02100 Rieti RI",
+      "lat": 42.422975,
+      "lng": 12.862865
+    },
+    {
+      "id": "4a1b1808-11ed-4117-bb4c-c1ea5083a9a3",
+      "slug": "bed-and-breakfast-la-cascina-della-vachina-cantalice",
+      "nome": "Bed and Breakfast La Cascina della Vachina",
+      "city_name": "Cantalice",
+      "indirizzo": "via fonte giovannone, 4, 02018 Poggio Bustone RI",
+      "lat": 42.488457,
+      "lng": 12.858562
+    },
+    {
+      "id": "5cc0bb7a-7f12-4479-a054-30d2e7e9d1c6",
+      "slug": "casa-vacanze-san-giacomo-cantalice",
+      "nome": "Casa Vacanze San Giacomo",
+      "city_name": "Cantalice",
+      "indirizzo": "Via S. Giacomo, 4, 02018 Poggio Bustone RI",
+      "lat": 42.502886,
+      "lng": 12.8898
+    },
+    {
+      "id": "87018859-fadc-4e66-b0de-42106c2698cf",
+      "slug": "villa-dell-annunziata-cantalice",
+      "nome": "Villa Dell'Annunziata",
+      "city_name": "Cantalice",
+      "indirizzo": "Via Foresta, 26, 02100 Rieti RI",
+      "lat": 42.428508,
+      "lng": 12.871554
+    },
+    {
+      "id": "ebbd65f7-0647-42ef-bc75-edcb6492dacf",
+      "slug": "b-b-il-baciass-cantalupa",
+      "nome": "B&B Il Baciass",
+      "city_name": "Cantalupa",
+      "indirizzo": "Via S. Pietro V. L., 112, 10064 Pinerolo TO",
+      "lat": 44.904952,
+      "lng": 7.315058
+    },
+    {
+      "id": "111beb4c-48b9-4d71-8f12-f7f3aebf28ba",
+      "slug": "b-b-il-furtin-cantalupa",
+      "nome": "B&B Il Furtin",
+      "city_name": "Cantalupa",
+      "indirizzo": "Via Rocca, 28, 10060 Cantalupa TO",
+      "lat": 44.95129,
+      "lng": 7.341512
+    },
+    {
+      "id": "e0ba8988-ae70-4863-bd9f-92951b1a571d",
+      "slug": "b-b-la-ciuenda-cantalupa",
+      "nome": "B&b La Ciuenda",
+      "city_name": "Cantalupa",
+      "indirizzo": "Via Campo Sportivo, 2, 10063 Perosa Argentina TO",
+      "lat": 44.960994,
+      "lng": 7.189583
+    },
+    {
+      "id": "72a3e6be-b2c0-447f-9ad4-ca0647a64fe4",
+      "slug": "b-b-la-poiana-cantalupa",
+      "nome": "B&B La Poiana",
+      "city_name": "Cantalupa",
+      "indirizzo": "Str. delle Cascine, 282, 10064 Pinerolo TO",
+      "lat": 44.911104,
+      "lng": 7.314529
+    },
+    {
+      "id": "5c082948-031e-4d86-8249-d31f35e64439",
+      "slug": "la-locanda-della-maison-verte-cantalupa",
+      "nome": "La Locanda della Maison Verte",
+      "city_name": "Cantalupa",
+      "indirizzo": "Via Rossi, 34, 10060 Cantalupa TO",
+      "lat": 44.940278,
+      "lng": 7.346667
+    },
+    {
+      "id": "cbf63c42-7817-4d74-bd37-48d672ae0e10",
+      "slug": "agriturismo-la-collina-degli-ulivi-cantalupo-in-sabina",
+      "nome": "Agriturismo la collina degli ulivi",
+      "city_name": "Cantalupo in Sabina",
+      "indirizzo": "Via Selci, 72, 02044 Forano RI",
+      "lat": 42.285043,
+      "lng": 12.624379
+    },
+    {
+      "id": "0bfe8910-d91d-48a0-9fa1-55bb0c6afcab",
+      "slug": "agriturismo-monterone-cantalupo-in-sabina",
+      "nome": "Agriturismo Monterone",
+      "city_name": "Cantalupo in Sabina",
+      "indirizzo": "Contrada Monterone, 00060 Ponzano Romano RM",
+      "lat": 42.263179,
+      "lng": 12.562242
+    },
+    {
+      "id": "12982229-283e-4186-bb9c-0c041e9c313b",
+      "slug": "agriturismo-nociquerceto-cantalupo-in-sabina",
+      "nome": "Agriturismo Nociquerceto",
+      "city_name": "Cantalupo in Sabina",
+      "indirizzo": "Contrada Noci Querceto, 02040 Tarano RI",
+      "lat": 42.341999,
+      "lng": 12.59742
+    },
+    {
+      "id": "4cbf8b98-4582-432c-878f-325b9daaf832",
+      "slug": "agriturismo-terra-sabina-cantalupo-in-sabina",
+      "nome": "Agriturismo Terra Sabina",
+      "city_name": "Cantalupo in Sabina",
+      "indirizzo": "V. Santa Lucia, 5, 02047 Poggio Mirteto RI",
+      "lat": 42.260583,
+      "lng": 12.644573
+    },
+    {
+      "id": "fca3c7ef-b20d-48c5-be71-f25cae353c64",
+      "slug": "agriturismo-valle-d-ambrosia-cantalupo-in-sabina",
+      "nome": "Agriturismo Valle d'Ambrosia",
+      "city_name": "Cantalupo in Sabina",
+      "indirizzo": "Via San Giovanni snc (Loc. Cantalupo in Sabina), 02040 Selci RI",
+      "lat": 42.294765,
+      "lng": 12.639024
+    },
+    {
+      "id": "9994b7ff-0ba7-4ee1-abf4-3ecb927e51da",
+      "slug": "albergo-da-peppino-cantalupo-in-sabina",
+      "nome": "Albergo da Peppino",
+      "city_name": "Cantalupo in Sabina",
+      "indirizzo": "Via Goffredo Mameli, 53, 02047 Poggio Mirteto RI",
+      "lat": 42.26363,
+      "lng": 12.688007
+    },
+    {
+      "id": "54306a79-51f7-4ff0-b870-843fcf36739a",
+      "slug": "l-angoletto-in-selci-hotel-cantalupo-in-sabina",
+      "nome": "L'Angoletto in Selci Hotel",
+      "city_name": "Cantalupo in Sabina",
+      "indirizzo": "Via Roma, 195 A, 02044 Selci RI",
+      "lat": 42.306711,
+      "lng": 12.621263
+    },
+    {
+      "id": "3fba4c77-19ee-4c7a-8113-ca7cab0ce97a",
+      "slug": "la-casa-del-viandante-guest-house-in-sabina-cantalupo-in-sabina",
+      "nome": "La Casa del Viandante | Guest House in Sabina",
+      "city_name": "Cantalupo in Sabina",
+      "indirizzo": "Contrada Galantina, 1, 02044 Forano RI",
+      "lat": 42.273812,
+      "lng": 12.639599
+    },
+    {
+      "id": "756f99be-bab4-4757-a8ae-1a1d0af6349f",
+      "slug": "la-torretta-boutique-guest-house-cantalupo-in-sabina",
+      "nome": "La Torretta Boutique Guest House",
+      "city_name": "Cantalupo in Sabina",
+      "indirizzo": "Via Mazzini, 7, 02041 Casperia RI",
+      "lat": 42.33879,
+      "lng": 12.67036
+    },
+    {
+      "id": "4416246d-20a6-400c-b213-34b9d1096889",
+      "slug": "la-valle-del-tevere-cantalupo-in-sabina",
+      "nome": "La Valle del Tevere",
+      "city_name": "Cantalupo in Sabina",
+      "indirizzo": "Borgo Regina Margherita, 46, 00060 Torrita Tiberina RM",
+      "lat": 42.235325,
+      "lng": 12.620583
+    },
+    {
+      "id": "9d6a619a-6d76-416a-9bf1-047a8517bfe1",
+      "slug": "le-vecchie-scuderie-cantalupo-in-sabina",
+      "nome": "Le Vecchie Scuderie",
+      "city_name": "Cantalupo in Sabina",
+      "indirizzo": "Via Difesa, 31 A, 02032 Passo Corese RI",
+      "lat": 42.193994,
+      "lng": 12.66689
+    },
+    {
+      "id": "ef3ada38-6343-4a1f-b354-8727acd3554f",
+      "slug": "locanda-le-ginestre-cantalupo-in-sabina",
+      "nome": "Locanda le GINESTRE",
+      "city_name": "Cantalupo in Sabina",
+      "indirizzo": "Via Luigi Chierici, 02040 Cantalupo in Sabina RI",
+      "lat": 42.304726,
+      "lng": 12.649845
+    },
+    {
+      "id": "99ddd70d-6813-420d-9c33-8ed1baab7d73",
+      "slug": "resort-sabino-cantalupo-in-sabina",
+      "nome": "Resort Sabino",
+      "city_name": "Cantalupo in Sabina",
+      "indirizzo": "Via Palombara, 23, 02040 Poggio Catino RI",
+      "lat": 42.298005,
+      "lng": 12.672279
+    }
+  ]
+}

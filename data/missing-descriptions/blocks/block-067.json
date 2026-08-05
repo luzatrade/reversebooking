@@ -1,0 +1,323 @@
+{
+  "block": 67,
+  "blockId": "067",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "45725ead-cf85-4881-ad32-4bf04864e699",
+      "slug": "albergo-e-ristorante-delle-rose-di-mancuso-mario-alessandria",
+      "nome": "Albergo E Ristorante Delle Rose Di Mancuso Mario Xa7 C.",
+      "city_name": "Alessandria",
+      "indirizzo": "Via Achille Grandi, 5, 15121 Alessandria AL",
+      "lat": 44.892825,
+      "lng": 8.594228
+    },
+    {
+      "id": "cfe7e41d-e3fd-47df-81a6-ffd2602ffca4",
+      "slug": "albergo-keiko-alessandria",
+      "nome": "Albergo Keiko",
+      "city_name": "Alessandria",
+      "indirizzo": "Via Marengo, 130, 15121 Alessandria AL",
+      "lat": 44.909421,
+      "lng": 8.63363
+    },
+    {
+      "id": "3e6004da-5700-4412-8842-36e9e73cb54c",
+      "slug": "albergo-ristorante-da-tunon-alessandria-alessandria",
+      "nome": "Albergo Ristorante \"da Tunon\" - Alessandria",
+      "city_name": "Alessandria",
+      "indirizzo": "Via Dante Alighieri, 4, 15026 Oviglio AL",
+      "lat": 44.860976,
+      "lng": 8.48799
+    },
+    {
+      "id": "92d6cf0f-15fe-4ca4-b1d9-ff59ddcbd747",
+      "slug": "alli-due-buoi-rossi-alessandria",
+      "nome": "Alli Due Buoi Rossi",
+      "city_name": "Alessandria",
+      "indirizzo": "Via Camillo Cavour, 32, 15121 Alessandria AL",
+      "lat": 44.911226,
+      "lng": 8.6165
+    },
+    {
+      "id": "8fe43d21-55f8-4287-8917-86138d8610bd",
+      "slug": "b-b-arcobaleno-alessandria",
+      "nome": "B&B Arcobaleno",
+      "city_name": "Alessandria",
+      "indirizzo": "V.Verona, 102, 15121 Alessandria AL",
+      "lat": 44.91707,
+      "lng": 8.61613
+    },
+    {
+      "id": "c1cc6a2b-5efb-4c03-953c-fac8fe706963",
+      "slug": "b-b-i-tre-gatti-alessandria",
+      "nome": "B&B I tre gatti",
+      "city_name": "Alessandria",
+      "indirizzo": "Via Carlo Alberto, 15035 Frassinello Monferrato AL",
+      "lat": 45.032511,
+      "lng": 8.386786
+    },
+    {
+      "id": "87d6a27c-a18e-44cf-88e2-d56a0abeae55",
+      "slug": "casasport-alessandria-alessandria",
+      "nome": "CasaSport Alessandria",
+      "city_name": "Alessandria",
+      "indirizzo": "Via Colombo, zona Orti, 8, 15121 Alessandria AL",
+      "lat": 44.926948,
+      "lng": 8.618295
+    },
+    {
+      "id": "2c739eac-9035-49b5-91d9-34c0addf15dc",
+      "slug": "hotel-diamante-alessandria-alessandria",
+      "nome": "Hotel Diamante Alessandria",
+      "city_name": "Alessandria",
+      "indirizzo": "Viale della Valletta, 180, 15100 Spinetta Marengo AL",
+      "lat": 44.885731,
+      "lng": 8.697708
+    },
+    {
+      "id": "7c71aac4-6254-408d-b9af-e1943a677d9a",
+      "slug": "hotel-domus-alessandria",
+      "nome": "Hotel Domus",
+      "city_name": "Alessandria",
+      "indirizzo": "Via Teresa Castellani, 12, 15121 Alessandria AL",
+      "lat": 44.907994,
+      "lng": 8.612077
+    },
+    {
+      "id": "3380f688-8c21-4380-977e-edae4a7b8bc4",
+      "slug": "hotel-europa-alessandria",
+      "nome": "Hotel Europa",
+      "city_name": "Alessandria",
+      "indirizzo": "Via Palestro, 1, 15100 Alessandria AL",
+      "lat": 44.915705,
+      "lng": 8.610436
+    },
+    {
+      "id": "d34e0a23-440b-430f-8263-8a59e41a5d1c",
+      "slug": "hotel-il-torrese-alessandria",
+      "nome": "Hotel Il Torrese",
+      "city_name": "Alessandria",
+      "indirizzo": "Via Roma, 38, 27030 Torre Beretti PV",
+      "lat": 45.060551,
+      "lng": 8.670419
+    },
+    {
+      "id": "922b51fa-6243-41e5-b28e-34f409aa496a",
+      "slug": "hotel-londra-alessandria-alessandria",
+      "nome": "Hotel Londra Alessandria",
+      "city_name": "Alessandria",
+      "indirizzo": "Corso Felice Cavallotti, 51, 15121 Alessandria AL",
+      "lat": 44.910711,
+      "lng": 8.606928
+    },
+    {
+      "id": "51b122da-963b-453b-b262-eea3849971f3",
+      "slug": "hotel-lux-alessandria",
+      "nome": "Hotel Lux",
+      "city_name": "Alessandria",
+      "indirizzo": "Via Piacenza, 72, 15121 Alessandria AL",
+      "lat": 44.913426,
+      "lng": 8.610741
+    },
+    {
+      "id": "f97b9614-7fe8-4e24-afa5-56d95e2d2e91",
+      "slug": "hotel-royal-alessandria",
+      "nome": "Hotel Royal",
+      "city_name": "Alessandria",
+      "indirizzo": "Corso Carlo Marx, 18, 15121 Alessandria AL",
+      "lat": 44.901483,
+      "lng": 8.604553
+    },
+    {
+      "id": "138a9672-a8cb-4388-82cc-f69ac2152062",
+      "slug": "il-chiostro-hostel-and-hotel-alessandria",
+      "nome": "Il Chiostro - hostel and hotel",
+      "city_name": "Alessandria",
+      "indirizzo": "Via Santa Maria di Castello, 14, 15121 Alessandria AL",
+      "lat": 44.918063,
+      "lng": 8.614961
+    },
+    {
+      "id": "5a8da280-6e98-4e27-a5ae-ca27bceaf538",
+      "slug": "la-corte-alessandria",
+      "nome": "La Corte",
+      "city_name": "Alessandria",
+      "indirizzo": "ingresso nel cortile, Via Sant'Ubaldo, 50, 15121 Alessandria AL",
+      "lat": 44.918923,
+      "lng": 8.613848
+    },
+    {
+      "id": "805db7ee-b70e-4741-913d-cc7a9cf3bf9f",
+      "slug": "lvg-hotel-collection-al-mulino-alessandria",
+      "nome": "LVG Hotel Collection - Al Mulino",
+      "city_name": "Alessandria",
+      "indirizzo": "Via Casale, 44, 15122 San Michele AL",
+      "lat": 44.938091,
+      "lng": 8.584517
+    },
+    {
+      "id": "c654817a-b458-4bd6-be92-d5a382dcdd0a",
+      "slug": "relais-palazzo-paleologi-secolo-xiv-alessandria",
+      "nome": "Relais Palazzo Paleologi - Secolo XIV",
+      "city_name": "Alessandria",
+      "indirizzo": "Via Cardinale Bobba, 4, Via Antico Monastero, 8, 15037 Lu e Cuccaro Monferrato AL",
+      "lat": 45.000473,
+      "lng": 8.483167
+    },
+    {
+      "id": "27066ed7-d841-4676-b210-889cc2e68733",
+      "slug": "residence-corso-monferrato-alessandria",
+      "nome": "Residence Corso Monferrato",
+      "city_name": "Alessandria",
+      "indirizzo": "Corso Monferrato, 99, 15121 Alessandria AL",
+      "lat": 44.918671,
+      "lng": 8.61369
+    },
+    {
+      "id": "3ee029e1-e37c-45db-845e-2d655cf690d1",
+      "slug": "villa-aurora-alessandria",
+      "nome": "Villa Aurora",
+      "city_name": "Alessandria",
+      "indirizzo": "SP75, 8, C, 15044 Quargnento AL",
+      "lat": 44.946659,
+      "lng": 8.493464
+    },
+    {
+      "id": "fff72e64-2ac6-4c05-8a41-995319d97608",
+      "slug": "ambrosia-hostel-alessandria-del-carretto",
+      "nome": "ambrosia hostel",
+      "city_name": "Alessandria del Carretto",
+      "indirizzo": "Via Difisella, 23, 87070 Alessandria del Carretto CS",
+      "lat": 39.957916,
+      "lng": 16.376934
+    },
+    {
+      "id": "4e8370ac-ad1e-4a7f-8c7e-5ef814e59ea3",
+      "slug": "bed-and-breakfast-la-casetta-alessandria-del-carretto",
+      "nome": "Bed and Breakfast LA CASETTA",
+      "city_name": "Alessandria del Carretto",
+      "indirizzo": "Contrada Lavine, 85030 Terranova di Pollino PZ",
+      "lat": 39.96359,
+      "lng": 16.255991
+    },
+    {
+      "id": "43feb1ef-aa2a-48f6-ac33-4f4e8f8ddb1a",
+      "slug": "hotel-la-falconara-alessandria-del-carretto",
+      "nome": "Hotel la Falconara",
+      "city_name": "Alessandria del Carretto",
+      "indirizzo": "Via La Falconara, 87012 Castrovillari CS",
+      "lat": 39.826817,
+      "lng": 16.236873
+    },
+    {
+      "id": "ed3b0c39-ad20-4608-929e-158b9575a6b1",
+      "slug": "hotel-picchio-nero-alessandria-del-carretto",
+      "nome": "Hotel Picchio Nero",
+      "city_name": "Alessandria del Carretto",
+      "indirizzo": "Via Mulino, 1, 85030 Terranova di Pollino PZ",
+      "lat": 39.975098,
+      "lng": 16.299343
+    },
+    {
+      "id": "b8ff05b7-f932-4189-a8f6-b8c1d067384b",
+      "slug": "hotel-pino-loricato-alessandria-del-carretto",
+      "nome": "Hotel Pino Loricato",
+      "city_name": "Alessandria del Carretto",
+      "indirizzo": "Via Ines Zurlini, 130, 85030 Terranova di Pollino PZ",
+      "lat": 39.976475,
+      "lng": 16.292532
+    },
+    {
+      "id": "754218e3-02db-4ab3-a995-e20daee2fdf8",
+      "slug": "l-b-b-b-alessandria-del-carretto",
+      "nome": "L&B B&B",
+      "city_name": "Alessandria del Carretto",
+      "indirizzo": "Via Convento, 1, 85030 Terranova di Pollino PZ",
+      "lat": 39.97925,
+      "lng": 16.29601
+    },
+    {
+      "id": "45e05e03-e3a6-4bbb-9a03-adc55d035b5c",
+      "slug": "maritato-hotel-villapiana-lido-alessandria-del-carretto",
+      "nome": "Maritato Hotel Villapiana Lido",
+      "city_name": "Alessandria del Carretto",
+      "indirizzo": "Via Lungomare, 87076 Villapiana Lido CS",
+      "lat": 39.810429,
+      "lng": 16.491617
+    },
+    {
+      "id": "d523e31e-6ba3-431a-b5a4-bd9054eac166",
+      "slug": "adler-spa-resort-sicilia-alessandria-della-rocca",
+      "nome": "ADLER Spa Resort SICILIA",
+      "city_name": "Alessandria della Rocca",
+      "indirizzo": "Contrada Salsa, 92010 Siculiana AG",
+      "lat": 37.376756,
+      "lng": 13.318879
+    },
+    {
+      "id": "bd75b30c-b7ab-4b85-b5ad-c80ebb069cd1",
+      "slug": "albergo-ristorante-pizzeria-del-viale-alessandria-della-rocca",
+      "nome": "Albergo Ristorante Pizzeria Del Viale",
+      "city_name": "Alessandria della Rocca",
+      "indirizzo": "Via XX Settembre, 1, 90030 Palazzo Adriano PA",
+      "lat": 37.681023,
+      "lng": 13.379995
+    },
+    {
+      "id": "b370b6cd-9ec7-4fcf-99ca-06cd930b9fe7",
+      "slug": "alico-alessandria-della-rocca",
+      "nome": "Alico",
+      "city_name": "Alessandria della Rocca",
+      "indirizzo": "Via Vittorio Emanuele III, 30, 92020 San Biagio Platani AG",
+      "lat": 37.510145,
+      "lng": 13.526242
+    },
+    {
+      "id": "d9fde3c6-511b-48e5-a6a2-5ad9a60544c3",
+      "slug": "b-b-da-francesca-alessandria-della-rocca",
+      "nome": "B&B Da Francesca",
+      "city_name": "Alessandria della Rocca",
+      "indirizzo": "Contrada Scaldamosche, Via Nazionale Sud, 72, 92010 Bivona AG",
+      "lat": 37.616154,
+      "lng": 13.436211
+    },
+    {
+      "id": "cdb84be1-f216-481f-816c-ae7a85b128cb",
+      "slug": "b-b-macalube-alessandria-della-rocca",
+      "nome": "B&B Macalube",
+      "city_name": "Alessandria della Rocca",
+      "indirizzo": "Via Fontes Episcopi, 25, 92021 Aragona AG",
+      "lat": 37.392664,
+      "lng": 13.618627
+    },
+    {
+      "id": "0b4b5e28-4605-4759-8be8-624f3c2d34f3",
+      "slug": "b-b-zahra-aragona-alessandria-della-rocca",
+      "nome": "B&B ZAHRA ARAGONA",
+      "city_name": "Alessandria della Rocca",
+      "indirizzo": "Via Carmagnola, 1, 92021 Aragona AG",
+      "lat": 37.39627,
+      "lng": 13.620646
+    },
+    {
+      "id": "2d933485-4d5b-497e-b21b-25b26a1dd9f1",
+      "slug": "casa-quisquina-alessandria-della-rocca",
+      "nome": "Casa Quisquina",
+      "city_name": "Alessandria della Rocca",
+      "indirizzo": "Via Palma, 50, 92020 Santo Stefano Quisquina AG",
+      "lat": 37.625974,
+      "lng": 13.489791
+    },
+    {
+      "id": "88431e13-9998-43f3-9cd5-9f341ac6d6db",
+      "slug": "ciuci-s-manor-alessandria-della-rocca",
+      "nome": "Ciuci's Manor",
+      "city_name": "Alessandria della Rocca",
+      "indirizzo": "Contrada Carbonia, 92021 Aragona AG",
+      "lat": 37.45152,
+      "lng": 13.582444
+    }
+  ]
+}

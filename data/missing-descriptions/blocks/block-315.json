@@ -1,0 +1,323 @@
+{
+  "block": 315,
+  "blockId": "315",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "86453de9-5948-4709-a6b4-57229530c352",
+      "slug": "hotel-edelweiss-mantova-bovolone",
+      "nome": "Hotel Edelweiss Mantova",
+      "city_name": "Bovolone",
+      "indirizzo": "Via Roma, 109, 46033 Castel d'Ario MN",
+      "lat": 45.195064,
+      "lng": 10.962472
+    },
+    {
+      "id": "c7213193-8766-44f8-a7f5-926011a132a0",
+      "slug": "hotel-gelmini-bovolone",
+      "nome": "Hotel Gelmini",
+      "city_name": "Bovolone",
+      "indirizzo": "Via Belfiore, 54, 37135 Verona VR",
+      "lat": 45.383956,
+      "lng": 10.994722
+    },
+    {
+      "id": "ea22f7e3-46e5-494e-9f1d-08030a4609c1",
+      "slug": "hotel-ristorante-sasso-bovolone",
+      "nome": "HOTEL RISTORANTE SASSO",
+      "city_name": "Bovolone",
+      "indirizzo": "Via S. Pierino, 318, 37051 Bovolone VR",
+      "lat": 45.239031,
+      "lng": 11.154772
+    },
+    {
+      "id": "c7663ac9-3590-4d67-8bd9-4e920b1dbd43",
+      "slug": "hotel-residence-il-chiostro-bovolone",
+      "nome": "Hotel-Residence Il Chiostro",
+      "city_name": "Bovolone",
+      "indirizzo": "Via Roma, 85, 37050 Oppeano VR",
+      "lat": 45.306854,
+      "lng": 11.180026
+    },
+    {
+      "id": "289c605a-3311-49c8-bcc7-e4e3eeca96a4",
+      "slug": "muraless-art-hotel-verona-world-hotels-crafted-bovolone",
+      "nome": "Muraless Art Hotel Verona - World Hotels Crafted",
+      "city_name": "Bovolone",
+      "indirizzo": "Via Scuderlando, 122, 37060 Castel d'Azzano VR",
+      "lat": 45.373015,
+      "lng": 10.965386
+    },
+    {
+      "id": "4e163524-9adc-4b56-be47-d2fb12b0a3d5",
+      "slug": "tenuta-molino-dei-sassi-ristorante-matrimoni-eve-bovolone",
+      "nome": "Tenuta Molino dei Sassi | Ristorante - Matrimoni - Eventi - Hotel",
+      "city_name": "Bovolone",
+      "indirizzo": "Via Ronchesana, 2, 37059 Zevio VR",
+      "lat": 45.372053,
+      "lng": 11.076703
+    },
+    {
+      "id": "e5e0307b-d22c-4507-963f-c03dd0704e66",
+      "slug": "b-b-casa-mortarino-in-15040-bozzole-alessandria-bozzole",
+      "nome": "B&B Casa Mortarino in 15040 Bozzole (Alessandria)",
+      "city_name": "Bozzole",
+      "indirizzo": "Via Vittorio Emanuele, 8, 15040 Bozzole AL",
+      "lat": 45.06963,
+      "lng": 8.606087
+    },
+    {
+      "id": "5f5310bb-c481-4f49-92b6-4c07a0ff9608",
+      "slug": "b-b-la-corte-delle-rose-bozzole",
+      "nome": "B&B La Corte delle Rose",
+      "city_name": "Bozzole",
+      "indirizzo": "Viale Marchesi della Valle, 17, 15040 Bozzole AL",
+      "lat": 45.067889,
+      "lng": 8.6069
+    },
+    {
+      "id": "6c4ed0ae-4fbc-440f-99ef-530ab27c21ff",
+      "slug": "hotel-bozzole-bozzole",
+      "nome": "Hotel Bozzole",
+      "city_name": "Bozzole",
+      "indirizzo": "Vicolo Bonacossa, 1/11, 15040 Bozzole AL",
+      "lat": 45.070132,
+      "lng": 8.605155
+    },
+    {
+      "id": "353e499b-f63e-4e4f-99bd-8b26dcfe1551",
+      "slug": "agriturismo-corte-palazzo-bozzolo",
+      "nome": "Agriturismo Corte Palazzo",
+      "city_name": "Bozzolo",
+      "indirizzo": "Str. Mosio, 14, 46010 Marcaria MN",
+      "lat": 45.129454,
+      "lng": 10.510954
+    },
+    {
+      "id": "1e132aa0-e50c-4ef5-b936-ff6dd2766fe2",
+      "slug": "albergo-ristorante-al-duca-sabbioneta-bozzolo",
+      "nome": "Albergo Ristorante Al Duca Sabbioneta",
+      "city_name": "Bozzolo",
+      "indirizzo": "Via della Stamperia, 18, 46018 Sabbioneta MN",
+      "lat": 44.996751,
+      "lng": 10.490792
+    },
+    {
+      "id": "a25f7ff0-e3a0-4cbe-9c55-249e8debd0ae",
+      "slug": "b-b-il-glicine-bozzolo",
+      "nome": "B&B Il Glicine",
+      "city_name": "Bozzolo",
+      "indirizzo": "Via Isole, 7 bis/A, 46010 San Martino Dall'argine MN",
+      "lat": 45.098545,
+      "lng": 10.519092
+    },
+    {
+      "id": "3c30976e-9624-44ee-9a12-e7e6293bbced",
+      "slug": "beb-da-nina-bozzolo",
+      "nome": "BeB da Nina",
+      "city_name": "Bozzolo",
+      "indirizzo": "Via Pesenti, 40, 46018 Sabbioneta MN",
+      "lat": 45.001224,
+      "lng": 10.491817
+    },
+    {
+      "id": "0bddad02-cf7c-40bc-8a2f-fc88798f0b79",
+      "slug": "bed-and-breakfast-borgo-dei-duchi-bozzolo",
+      "nome": "Bed and breakfast-Borgo dei Duchi",
+      "city_name": "Bozzolo",
+      "indirizzo": "Via Guglielmo Marconi, 88, 46017 Rivarolo Mantovano MN",
+      "lat": 45.071094,
+      "lng": 10.43672
+    },
+    {
+      "id": "59848e33-304f-408f-9f22-d43379c67139",
+      "slug": "confidence-hotel-viadana-ex-motel-giglio-bozzolo",
+      "nome": "CONFIDENCE HOTEL VIADANA (Ex Motel Giglio)",
+      "city_name": "Bozzolo",
+      "indirizzo": "Via Gerbolina, 1/H, 46019 Viadana MN",
+      "lat": 44.942094,
+      "lng": 10.538515
+    },
+    {
+      "id": "0f244704-eef6-4413-8d0b-8b83a57ea228",
+      "slug": "hotel-il-duca-barbablu-bozzolo",
+      "nome": "Hotel Il Duca Barbablù",
+      "city_name": "Bozzolo",
+      "indirizzo": "Via della Stamperia, 18, 46018 Sabbioneta MN",
+      "lat": 44.996784,
+      "lng": 10.490726
+    },
+    {
+      "id": "ad93d673-9860-4800-8ff7-5fdd1bbaec7c",
+      "slug": "turismo-rurale-la-garzaga-bozzolo",
+      "nome": "Turismo Rurale \"La Garzaga\"",
+      "city_name": "Bozzolo",
+      "indirizzo": "Via Garzaga, 8, 46040 Ceresara MN",
+      "lat": 45.247623,
+      "lng": 10.511121
+    },
+    {
+      "id": "844ebe8a-fcc9-4f3f-b8b6-f4a2a0377086",
+      "slug": "villa-dei-tigli-bozzolo",
+      "nome": "Villa Dei Tigli",
+      "city_name": "Bozzolo",
+      "indirizzo": "Via Cantarana, 20, 46040 Rodigo MN",
+      "lat": 45.198134,
+      "lng": 10.621571
+    },
+    {
+      "id": "5fe2c5d3-d973-4633-a801-aeac56570416",
+      "slug": "albergo-cantine-ascheri-bra",
+      "nome": "Albergo Cantine Ascheri",
+      "city_name": "Bra",
+      "indirizzo": "Via G. Piumati, 25, 12042 Bra CN",
+      "lat": 44.692469,
+      "lng": 7.848015
+    },
+    {
+      "id": "250b0e59-903c-49cc-a5cb-48e6dd34522a",
+      "slug": "b-b-asfodelo-rooms-e-camere-bra",
+      "nome": "B&B Asfodelo Rooms e Camere",
+      "city_name": "Bra",
+      "indirizzo": "Via Vittorio Emanuele II, 23, 12042 Bra CN",
+      "lat": 44.700867,
+      "lng": 7.848299
+    },
+    {
+      "id": "a3239b78-9e46-4194-aac6-794e6687aba0",
+      "slug": "b-b-hotel-cherasco-langhe-bra",
+      "nome": "B&B HOTEL Cherasco Langhe",
+      "city_name": "Bra",
+      "indirizzo": "Via Savigliano, 116, 12062 Cherasco CN",
+      "lat": 44.663248,
+      "lng": 7.779748
+    },
+    {
+      "id": "63383023-4fd9-4a97-a3b6-336d313555fe",
+      "slug": "bed-bra-bra",
+      "nome": "Bed&Bra",
+      "city_name": "Bra",
+      "indirizzo": "Via Tagliamento, 13, 12042 Bra CN",
+      "lat": 44.690917,
+      "lng": 7.857424
+    },
+    {
+      "id": "723c7a7e-9918-47b5-856f-ceadae0d2cea",
+      "slug": "bra-inn-bra",
+      "nome": "Bra Inn",
+      "city_name": "Bra",
+      "indirizzo": "Via Provvidenza, 8, 12042 Bra CN",
+      "lat": 44.700089,
+      "lng": 7.849595
+    },
+    {
+      "id": "44f565f2-e9d3-4a39-8e51-5927fd4803c8",
+      "slug": "guest-house-langamore-bra",
+      "nome": "Guest house LangAmore",
+      "city_name": "Bra",
+      "indirizzo": "Via Regina Margherita, 6, 12042 Pollenzo CN",
+      "lat": 44.686001,
+      "lng": 7.895637
+    },
+    {
+      "id": "923779e3-c207-4db3-a8ad-b033306394bd",
+      "slug": "hotel-terre-dei-salici-bra",
+      "nome": "Hotel Terre dei Salici",
+      "city_name": "Bra",
+      "indirizzo": "S.da Reale, 47, 12030 Caramagna Piemonte CN",
+      "lat": 44.774593,
+      "lng": 7.729945
+    },
+    {
+      "id": "0675547c-4ed4-448e-aeee-81f78cbf6c59",
+      "slug": "hotel-the-marin-s-bra",
+      "nome": "Hotel The Marin's",
+      "city_name": "Bra",
+      "indirizzo": "Via Cuneo, 125/A, 12042 Bra CN",
+      "lat": 44.680292,
+      "lng": 7.847022
+    },
+    {
+      "id": "787ce1c0-9722-4a2d-bac7-47800d9fcb2d",
+      "slug": "il-cortile-bra",
+      "nome": "Il Cortile",
+      "city_name": "Bra",
+      "indirizzo": "Via G. B. Gandino, 1B, 12042 Bra CN",
+      "lat": 44.699956,
+      "lng": 7.848162
+    },
+    {
+      "id": "6f5e1778-2a61-45d1-a2ea-bd42bd5795ca",
+      "slug": "l-ombra-della-collina-bra-bra",
+      "nome": "L'Ombra della Collina Bra",
+      "city_name": "Bra",
+      "indirizzo": "Via Mendicità Istruita, 47, 12042 Bra CN",
+      "lat": 44.696347,
+      "lng": 7.855543
+    },
+    {
+      "id": "c18fb5ca-4676-40f1-b65f-1ab318d3e5c8",
+      "slug": "la-buschera-bra",
+      "nome": "La Buschera",
+      "city_name": "Bra",
+      "indirizzo": "Piazza Carlo Alberto, 19, 12042 Bra CN",
+      "lat": 44.695003,
+      "lng": 7.849443
+    },
+    {
+      "id": "548fad55-b13d-4fa5-8c00-4b6299d8fee2",
+      "slug": "phi-hotel-cavalieri-bra",
+      "nome": "Phi Hotel Cavalieri",
+      "city_name": "Bra",
+      "indirizzo": "Piazza Giovanni Arpino, 37, 12042 Bra CN",
+      "lat": 44.704344,
+      "lng": 7.840156
+    },
+    {
+      "id": "e8e1e9e2-5bb0-4c1c-b5e4-d40e01eeeb69",
+      "slug": "porte-ad-arco-bra",
+      "nome": "Porte ad Arco",
+      "city_name": "Bra",
+      "indirizzo": "Piazza Caduti per la Libertà, 29, 12042 Bra CN",
+      "lat": 44.697423,
+      "lng": 7.854222
+    },
+    {
+      "id": "910d77f7-be2b-407c-abd1-c70c7379549a",
+      "slug": "ristorante-albergo-badellino-bra",
+      "nome": "Ristorante Albergo Badellino",
+      "city_name": "Bra",
+      "indirizzo": "P.za XX Settembre, 4, 12042 Bra CN",
+      "lat": 44.696242,
+      "lng": 7.856249
+    },
+    {
+      "id": "a83912f3-1b29-4c7e-bc43-a0659413eccc",
+      "slug": "b-b-la-dea-bracca",
+      "nome": "B&B La Dea",
+      "city_name": "Bracca",
+      "indirizzo": "Via Sottoripa, 1, 24010 Bracca BG",
+      "lat": 45.819146,
+      "lng": 9.706085
+    },
+    {
+      "id": "7ef49958-780f-407a-808c-b9f44151cf2c",
+      "slug": "casa-vecia-bracca",
+      "nome": "Casa Vecia",
+      "city_name": "Bracca",
+      "indirizzo": "via madasco, 5, 24010 Bracca BG",
+      "lat": 45.809659,
+      "lng": 9.709265
+    },
+    {
+      "id": "889ed335-b956-422e-9f2a-eac4811ae43b",
+      "slug": "hotel-avogadro-bracca",
+      "nome": "Hotel Avogadro",
+      "city_name": "Bracca",
+      "indirizzo": "Via S. Carlo, 40, 24016 San Pellegrino Terme BG",
+      "lat": 45.837967,
+      "lng": 9.66391
+    }
+  ]
+}

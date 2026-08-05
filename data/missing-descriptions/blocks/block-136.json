@@ -1,0 +1,323 @@
+{
+  "block": 136,
+  "blockId": "136",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "cbd20727-0743-42b6-97c2-13509062815d",
+      "slug": "country-hotel-castelbarco-arcene",
+      "nome": "Country Hotel Castelbarco",
+      "city_name": "Arcene",
+      "indirizzo": "Via Concesa, 20069 Vaprio d'Adda MI",
+      "lat": 45.58848,
+      "lng": 9.529567
+    },
+    {
+      "id": "2c67e51f-9708-4046-b6af-dfc500fa6281",
+      "slug": "hotel-albi-arcene",
+      "nome": "Hotel Albi",
+      "city_name": "Arcene",
+      "indirizzo": "Via Conte Pino Zanchi, 2, 24040 Stezzano BG",
+      "lat": 45.653592,
+      "lng": 9.650392
+    },
+    {
+      "id": "1741e2ea-26c0-4fd1-8011-b878de503d63",
+      "slug": "hotel-del-brembo-arcene",
+      "nome": "Hotel del Brembo",
+      "city_name": "Arcene",
+      "indirizzo": "Stada Provinciale 184 Snc, SP184, Snc, 24046 Osio Sotto BG",
+      "lat": 45.610031,
+      "lng": 9.567018
+    },
+    {
+      "id": "58667fbe-d44f-4e28-bb12-9dd1696f8397",
+      "slug": "hotel-eden-arcene",
+      "nome": "Hotel Eden",
+      "city_name": "Arcene",
+      "indirizzo": "Via Milano, 16, 24046 Osio Sotto BG",
+      "lat": 45.610447,
+      "lng": 9.587986
+    },
+    {
+      "id": "9fb74335-1040-4620-a713-1f4b53e98ec0",
+      "slug": "hotel-ristorante-continental-arcene",
+      "nome": "Hotel Ristorante Continental",
+      "city_name": "Arcene",
+      "indirizzo": "Via Milano, 1, 24046 Osio Sotto BG",
+      "lat": 45.612078,
+      "lng": 9.591799
+    },
+    {
+      "id": "50799e20-6ea0-4416-91d2-cc47a3484f8f",
+      "slug": "il-cortile-da-tania-arcene",
+      "nome": "Il cortile da Tania",
+      "city_name": "Arcene",
+      "indirizzo": "Via Libertà, 87, 24050 Zanica BG",
+      "lat": 45.638387,
+      "lng": 9.682822
+    },
+    {
+      "id": "93726b21-d43c-4ffa-8af5-2d094659c616",
+      "slug": "la-braseria-arcene",
+      "nome": "La Braseria",
+      "city_name": "Arcene",
+      "indirizzo": "Via Risorgimento, 17, 24046 Osio Sotto BG",
+      "lat": 45.615919,
+      "lng": 9.591506
+    },
+    {
+      "id": "50a5a7fa-6116-4c44-bdc0-560b228fd7b5",
+      "slug": "palace-hotel-arcene",
+      "nome": "Palace Hotel",
+      "city_name": "Arcene",
+      "indirizzo": "Corso Europa, 2, 24040 Verdellino BG",
+      "lat": 45.599156,
+      "lng": 9.597467
+    },
+    {
+      "id": "30b0c747-6c8a-4d86-b99b-58fb9dc3d837",
+      "slug": "ristorante-albergo-papa-arcene",
+      "nome": "Ristorante Albergo Papa",
+      "city_name": "Arcene",
+      "indirizzo": "Corso Vittorio Veneto, 57, 24046 Osio Sotto BG",
+      "lat": 45.612938,
+      "lng": 9.589777
+    },
+    {
+      "id": "637d75cb-2dfd-4bca-b8c1-1645c9d71302",
+      "slug": "san-giorgio-arcene",
+      "nome": "San Giorgio",
+      "city_name": "Arcene",
+      "indirizzo": "Piazza Caduti della Libertà, 1, 24040 Boltiere BG",
+      "lat": 45.600173,
+      "lng": 9.580531
+    },
+    {
+      "id": "4e076b86-ce96-4300-a726-c9f4f2c7dfcb",
+      "slug": "spa-hotel-parigi-2-arcene",
+      "nome": "Spa Hotel Parigi 2",
+      "city_name": "Arcene",
+      "indirizzo": "Via Ruggero Leoncavallo, 5, 24044 Dalmine BG",
+      "lat": 45.636949,
+      "lng": 9.619373
+    },
+    {
+      "id": "027e0181-86e5-4b2c-a973-9ddb9e10f22c",
+      "slug": "villa-fenix-osio-sotto-arcene",
+      "nome": "Villa Fenix Osio Sotto",
+      "city_name": "Arcene",
+      "indirizzo": "Via Michelangelo Buonarroti, 16, 24046 Rio Isolo BG",
+      "lat": 45.603174,
+      "lng": 9.592585
+    },
+    {
+      "id": "7dd655ed-c5d6-41f7-9d45-8e9d9a46b291",
+      "slug": "agriturismo-acquasalata-arcevia",
+      "nome": "Agriturismo Acquasalata",
+      "city_name": "Arcevia",
+      "indirizzo": "Frazione Montale, 116, 60011 Arcevia AN",
+      "lat": 43.56537,
+      "lng": 13.021682
+    },
+    {
+      "id": "6a28a3e4-8d43-4734-a1c7-2d08ca0f00bd",
+      "slug": "agriturismo-borgo-belfiore-arcevia",
+      "nome": "Agriturismo Borgo Belfiore",
+      "city_name": "Arcevia",
+      "indirizzo": "Via Santo Apollinare, 70, 60011 Arcevia AN",
+      "lat": 43.525723,
+      "lng": 12.93656
+    },
+    {
+      "id": "c93c1fa8-62b9-44eb-bee3-427740ef43cc",
+      "slug": "agriturismo-bosimano-arcevia",
+      "nome": "Agriturismo Bosimano",
+      "city_name": "Arcevia",
+      "indirizzo": "Via Prosano, 60, 60011 Arcevia AN",
+      "lat": 43.473303,
+      "lng": 12.97466
+    },
+    {
+      "id": "a7392dbe-bc4a-4b68-937e-fbf83400f68e",
+      "slug": "agriturismo-il-boschetto-arcevia",
+      "nome": "Agriturismo il Boschetto",
+      "city_name": "Arcevia",
+      "indirizzo": "Sp 360 km 33, 200, 60011 Arcevia AN",
+      "lat": 43.514519,
+      "lng": 12.962617
+    },
+    {
+      "id": "52b4610e-22b8-45cc-9cfa-34736664fae8",
+      "slug": "agriturismo-la-cantina-di-bacco-arcevia",
+      "nome": "Agriturismo la Cantina di Bacco",
+      "city_name": "Arcevia",
+      "indirizzo": "Frazione Ripalta, 90, 60011 Arcevia AN",
+      "lat": 43.565811,
+      "lng": 12.982097
+    },
+    {
+      "id": "5300e38d-12f3-44ed-a277-af21dc22315f",
+      "slug": "agriturismo-le-betulle-arcevia",
+      "nome": "Agriturismo Le Betulle",
+      "city_name": "Arcevia",
+      "indirizzo": "Frazione Avacelli, 260, 60011 Arcevia AN",
+      "lat": 43.482361,
+      "lng": 12.997592
+    },
+    {
+      "id": "d5bbd003-0878-40cc-bdc7-5de24782b354",
+      "slug": "b-b-brunamonti-arcevia",
+      "nome": "B&B Brunamonti",
+      "city_name": "Arcevia",
+      "indirizzo": "Via F. Brunamonti, 49, 60011 Arcevia AN",
+      "lat": 43.498254,
+      "lng": 12.938676
+    },
+    {
+      "id": "eed17c9a-bbd6-42be-89f1-5ad9fd18bf54",
+      "slug": "b-b-da-alberto-arcevia",
+      "nome": "b&b da Alberto",
+      "city_name": "Arcevia",
+      "indirizzo": "Frazione S. Giovanni Battista, 110, 60011 Arcevia AN",
+      "lat": 43.501469,
+      "lng": 12.947955
+    },
+    {
+      "id": "83c4fcd0-7330-454a-b902-d2431860c0b7",
+      "slug": "b-b-in-vino-veritas-arcevia",
+      "nome": "B&B IN VINO VERITAS",
+      "city_name": "Arcevia",
+      "indirizzo": "Fraz, Frazione Prosano, 31, 60011 Arcevia AN",
+      "lat": 43.480464,
+      "lng": 12.981005
+    },
+    {
+      "id": "5e69ab88-3516-4b77-ae1f-7ea024807daa",
+      "slug": "il-leccio-arcevia",
+      "nome": "Il Leccio",
+      "city_name": "Arcevia",
+      "indirizzo": "Località Colleaprico, 16, 60011 Arcevia AN",
+      "lat": 43.508868,
+      "lng": 12.976419
+    },
+    {
+      "id": "fd3a0a97-d311-4b94-80f7-160c52502cb9",
+      "slug": "la-casa-di-odessa-arcevia",
+      "nome": "La casa di Odessa",
+      "city_name": "Arcevia",
+      "indirizzo": "Frazione Montale, 66, 60011 Arcevia AN",
+      "lat": 43.544807,
+      "lng": 12.993688
+    },
+    {
+      "id": "1e5df5fb-68b7-4f0f-89ce-eb340170087f",
+      "slug": "la-cerqua-agriturismo-arcevia-arcevia",
+      "nome": "La Cerqua Agriturismo - Arcevia",
+      "city_name": "Arcevia",
+      "indirizzo": "Frazione S. Stefano, 50/A, 60011 Arcevia AN",
+      "lat": 43.483549,
+      "lng": 12.907276
+    },
+    {
+      "id": "8222d321-549b-4326-af66-cae6e8b026ec",
+      "slug": "le-cune-country-house-and-farm-arcevia",
+      "nome": "Le Cune Country House and Farm",
+      "city_name": "Arcevia",
+      "indirizzo": "Via Palazzo, 260, 60011 Arcevia AN",
+      "lat": 43.540285,
+      "lng": 12.924386
+    },
+    {
+      "id": "a52fb27e-2710-44e0-8646-61ea6743230f",
+      "slug": "park-hotel-arcevia",
+      "nome": "Park Hotel",
+      "city_name": "Arcevia",
+      "indirizzo": "Via Roma, 5, 60011 Arcevia AN",
+      "lat": 43.49843,
+      "lng": 12.937894
+    },
+    {
+      "id": "f2b06338-a7e4-4644-aee7-fe3f9fe0ab82",
+      "slug": "riserva-privata-san-settimio-arcevia",
+      "nome": "Riserva Privata San Settimio",
+      "city_name": "Arcevia",
+      "indirizzo": "Frazione Palazzo, 274, 60011 Arcevia AN",
+      "lat": 43.537166,
+      "lng": 12.913558
+    },
+    {
+      "id": "cdf78fff-7387-452f-9fcd-3b577189f6da",
+      "slug": "ristorante-pizzeria-agriturismo-piccolo-ranch-arcevia",
+      "nome": "Ristorante Pizzeria Agriturismo Piccolo Ranch",
+      "city_name": "Arcevia",
+      "indirizzo": "Frazione S. Pietro, 48, 60011 Arcevia AN",
+      "lat": 43.56373,
+      "lng": 12.927286
+    },
+    {
+      "id": "f29b25c9-ce31-4c78-af67-819e0c810e2f",
+      "slug": "rocca-contrada-arcevia",
+      "nome": "Rocca Contrada",
+      "city_name": "Arcevia",
+      "indirizzo": "Piazza Giuseppe Garibaldi, 11, 60011 Arcevia AN",
+      "lat": 43.499738,
+      "lng": 12.940107
+    },
+    {
+      "id": "cc3a5713-85f8-4130-8f62-32b96b4536dd",
+      "slug": "sogno-divino-b-b-arcevia",
+      "nome": "Sogno diVino B&B",
+      "city_name": "Arcevia",
+      "indirizzo": "Frazione Montale, 190, 60011 Montale AN",
+      "lat": 43.542869,
+      "lng": 12.992269
+    },
+    {
+      "id": "b8038bb8-f5a3-4738-a357-727751402f1e",
+      "slug": "visitarcevia-arcevia",
+      "nome": "VisitArcevia",
+      "city_name": "Arcevia",
+      "indirizzo": "Corso Giuseppe Mazzini, 57, 60011 Arcevia AN",
+      "lat": 43.499702,
+      "lng": 12.939367
+    },
+    {
+      "id": "8aac2750-5b2d-407f-84f9-0ad6d0b7d1e0",
+      "slug": "b-b-la-nuova-stella-archi",
+      "nome": "B&B La Nuova Stella",
+      "city_name": "Archi",
+      "indirizzo": "Via Quadroni, 160, 66040 Perano CH",
+      "lat": 42.109733,
+      "lng": 14.371179
+    },
+    {
+      "id": "2e150328-2b9a-4ff2-8762-e853e8a2712f",
+      "slug": "casa-vistaverde-b-b-archi",
+      "nome": "Casa Vistaverde · B&B",
+      "city_name": "Archi",
+      "indirizzo": "Contrada Rascitti, 66044 Archi CH",
+      "lat": 42.096703,
+      "lng": 14.384166
+    },
+    {
+      "id": "045be9f7-b5bf-40a9-af0c-1129e9dad13b",
+      "slug": "hotel-ristorante-al-duca-archi",
+      "nome": "Hotel Ristorante Al Duca",
+      "city_name": "Archi",
+      "indirizzo": "Viale Duca degli Abruzzi, 26, 66041 Atessa CH",
+      "lat": 42.067034,
+      "lng": 14.445186
+    },
+    {
+      "id": "430b4896-0e8d-46c1-b293-cebb3cf3207b",
+      "slug": "hotel-ristorante-l-anfora-archi",
+      "nome": "Hotel Ristorante L'anfora",
+      "city_name": "Archi",
+      "indirizzo": "Via Monte Marcone, 40, 66041 Atessa CH",
+      "lat": 42.125833,
+      "lng": 14.4325
+    }
+  ]
+}

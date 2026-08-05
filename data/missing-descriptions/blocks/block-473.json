@@ -1,0 +1,323 @@
+{
+  "block": 473,
+  "blockId": "473",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "b3a3236f-ecf5-4d73-b257-4684ab6e6003",
+      "slug": "b-b-il-tempio-di-hera-castelvetrano",
+      "nome": "B&B Il Tempio di Hera",
+      "city_name": "Castelvetrano",
+      "indirizzo": "S.S. 115, C/Da Garraffo, 16, 91022 Castelvetrano TP",
+      "lat": 37.587253,
+      "lng": 12.838191
+    },
+    {
+      "id": "3dcf1ff2-80c8-4090-ae0f-f2e041691e54",
+      "slug": "baitan-custom-experience-hotel-castelvetrano",
+      "nome": "Baitan - Custom Experience Hotel",
+      "city_name": "Castelvetrano",
+      "indirizzo": "Contrada Spagnola, 337/D Bis, 91025 Marsala TP",
+      "lat": 37.841645,
+      "lng": 12.479561
+    },
+    {
+      "id": "6a19abc9-1cb5-47f4-a3d2-6e5a0048a45c",
+      "slug": "bed-and-breakfast-san-giovanni-castelvetrano",
+      "nome": "Bed and Breakfast San Giovanni",
+      "city_name": "Castelvetrano",
+      "indirizzo": "Via XXIV Maggio, 91022 Castelvetrano TP",
+      "lat": 37.676453,
+      "lng": 12.793476
+    },
+    {
+      "id": "5a21d4a9-5594-4fda-96bb-1d8fe70835b0",
+      "slug": "home-dolce-luna-castelvetrano",
+      "nome": "HOME DOLCE LUNA",
+      "city_name": "Castelvetrano",
+      "indirizzo": "Via Pietro Luna, 91022 Castelvetrano TP",
+      "lat": 37.682408,
+      "lng": 12.789697
+    },
+    {
+      "id": "091d4ceb-58bc-4f6d-ad3e-dbac45ff6207",
+      "slug": "hotel-alceste-castelvetrano",
+      "nome": "Hotel Alceste",
+      "city_name": "Castelvetrano",
+      "indirizzo": "Via Alceste, 21, 91022 Marinella TP",
+      "lat": 37.583598,
+      "lng": 12.84081
+    },
+    {
+      "id": "be1928c7-e12d-4ae8-a287-03c5d3c8f177",
+      "slug": "la-terrazza-di-harmakhis-castelvetrano",
+      "nome": "La Terrazza di Harmakhis",
+      "city_name": "Castelvetrano",
+      "indirizzo": "Bivio Cappuccini, Snc, 91028 Partanna TP",
+      "lat": 37.716551,
+      "lng": 12.88766
+    },
+    {
+      "id": "af3ba10c-4111-4cd8-b44d-e44f1dda0f3c",
+      "slug": "mahara-hotel-castelvetrano",
+      "nome": "Mahara Hotel",
+      "city_name": "Castelvetrano",
+      "indirizzo": "Lungomare S. Vito, 3, 91026 Mazara del Vallo TP",
+      "lat": 37.647595,
+      "lng": 12.597218
+    },
+    {
+      "id": "8c0e52a2-56f7-4a3e-b9ac-ced17622f2e0",
+      "slug": "palazzo-al-carmine-dimora-storica-castelvetrano",
+      "nome": "Palazzo al Carmine Dimora Storica",
+      "city_name": "Castelvetrano",
+      "indirizzo": "Via Giacomo Leopardi, 25, 91022 Castelvetrano TP",
+      "lat": 37.681328,
+      "lng": 12.791332
+    },
+    {
+      "id": "3b42a950-50a4-4a4f-a444-545d1cc7e4fe",
+      "slug": "affittacamere-bellavista-castiglione-di-sicilia",
+      "nome": "Affittacamere Bellavista",
+      "city_name": "Castiglione di Sicilia",
+      "indirizzo": "Via S. Francesco, 95012 Castiglione di Sicilia CT",
+      "lat": 37.879756,
+      "lng": 15.11868
+    },
+    {
+      "id": "774883e8-58a2-4d0c-8c17-52d49f727e66",
+      "slug": "agriturismo-bedandbreakfast-ghiritina-castiglione-di-sicilia",
+      "nome": "Agriturismo, Bedandbreakfast, Ghiritina",
+      "city_name": "Castiglione di Sicilia",
+      "indirizzo": "Contrada Ghiritina, 98034 Francavilla di Sicilia ME",
+      "lat": 37.90031,
+      "lng": 15.159566
+    },
+    {
+      "id": "7fdddf3c-d422-4909-823a-37ccf77c854b",
+      "slug": "animosa-suites-castiglione-di-sicilia",
+      "nome": "Animosa Suites",
+      "city_name": "Castiglione di Sicilia",
+      "indirizzo": "Via Guglielmo Marconi, 95012 Castiglione di Sicilia CT",
+      "lat": 37.879726,
+      "lng": 15.12307
+    },
+    {
+      "id": "d8840418-861a-421a-8e0d-1c573ce7426f",
+      "slug": "b-b-country-house-il-tanaceto-castiglione-di-sicilia",
+      "nome": "B&B - Country house- Il Tanaceto",
+      "city_name": "Castiglione di Sicilia",
+      "indirizzo": "Contrada Nemmi, 95012 Castiglione di Sicilia CT",
+      "lat": 37.890611,
+      "lng": 15.080532
+    },
+    {
+      "id": "9ab1c6f2-2b60-401b-8907-a1988bcb74c3",
+      "slug": "b-b-le-vie-del-borgo-castiglione-di-sicilia",
+      "nome": "B&B Le Vie del Borgo",
+      "city_name": "Castiglione di Sicilia",
+      "indirizzo": "via maggiore baracca, 5, 95012 Castiglione di Sicilia CT",
+      "lat": 37.883274,
+      "lng": 15.122724
+    },
+    {
+      "id": "a2ca0872-eab2-48b3-9d49-2e4db51e4c78",
+      "slug": "carma-luxury-rooms-castiglione-di-sicilia",
+      "nome": "CarMa Luxury Rooms",
+      "city_name": "Castiglione di Sicilia",
+      "indirizzo": "Via Gorizia, 6, 95015 Linguaglossa CT",
+      "lat": 37.84144,
+      "lng": 15.142896
+    },
+    {
+      "id": "5f9372fa-3d1c-4a61-8ef9-2d62152bc796",
+      "slug": "casa-fiore-del-borgo-castiglione-di-sicilia",
+      "nome": "Casa Fiore del Borgo",
+      "city_name": "Castiglione di Sicilia",
+      "indirizzo": "Via Dante Alighieri, 8, 95012 Castiglione di Sicilia CT",
+      "lat": 37.882964,
+      "lng": 15.122083
+    },
+    {
+      "id": "db2c5102-45b2-485d-9afc-f364317377a2",
+      "slug": "casa-fiore-nella-roccia-castiglione-di-sicilia",
+      "nome": "Casa Fiore nella Roccia",
+      "city_name": "Castiglione di Sicilia",
+      "indirizzo": "Via Madonna della Catena, 82, 95012 Castiglione di Sicilia CT",
+      "lat": 37.883681,
+      "lng": 15.12262
+    },
+    {
+      "id": "641449f7-8a93-4065-8699-a65abcaa4a1f",
+      "slug": "casale-romano-eco-hotel-castiglione-di-sicilia",
+      "nome": "Casale Romano eco hotel",
+      "city_name": "Castiglione di Sicilia",
+      "indirizzo": "ss 185 km 55, 6, 98030 Motta Camastra ME",
+      "lat": 37.876138,
+      "lng": 15.182832
+    },
+    {
+      "id": "46ef620d-7cf8-408b-888f-358e8983d470",
+      "slug": "cento-tari-guest-house-castiglione-di-sicilia",
+      "nome": "Cento Tarì Guest House",
+      "city_name": "Castiglione di Sicilia",
+      "indirizzo": "Via Regina Margherita, 28, 95012 Castiglione di Sicilia CT",
+      "lat": 37.882221,
+      "lng": 15.121701
+    },
+    {
+      "id": "5496f1e5-7dfa-464c-9acf-c8e305fa436d",
+      "slug": "hotel-federico-ii-castiglione-di-sicilia",
+      "nome": "Hotel Federico II",
+      "city_name": "Castiglione di Sicilia",
+      "indirizzo": "Via Maggiore Baracca, 2, 95012 Castiglione di Sicilia CT",
+      "lat": 37.88315,
+      "lng": 15.122771
+    },
+    {
+      "id": "8c35601c-2955-413f-8c92-64d89d1eda2b",
+      "slug": "hotel-florio-castiglione-di-sicilia",
+      "nome": "Hotel Florio",
+      "city_name": "Castiglione di Sicilia",
+      "indirizzo": "Via Biblioteca Villadicanense, 10, 95012 Castiglione di Sicilia CT",
+      "lat": 37.882917,
+      "lng": 15.122534
+    },
+    {
+      "id": "40f87d18-e470-413a-89fe-88cb1f36b6e6",
+      "slug": "il-glicine-castiglione-di-sicilia",
+      "nome": "Il Glicine",
+      "city_name": "Castiglione di Sicilia",
+      "indirizzo": "Via S. Giuseppe, 8, 95017 Piedimonte Etneo CT",
+      "lat": 37.81381,
+      "lng": 15.16041
+    },
+    {
+      "id": "a8b9e0fc-1d22-4663-bd03-0aae081baed4",
+      "slug": "l-arco-dei-sogni-castiglione-di-sicilia",
+      "nome": "L’ Arco dei Sogni",
+      "city_name": "Castiglione di Sicilia",
+      "indirizzo": "Via Posta Vecchia, 1, 98030 Malvagna ME",
+      "lat": 37.918028,
+      "lng": 15.055831
+    },
+    {
+      "id": "9eca89a5-5d39-476b-b724-827ee75eba86",
+      "slug": "mareneve-resort-castiglione-di-sicilia",
+      "nome": "Mareneve Resort",
+      "city_name": "Castiglione di Sicilia",
+      "indirizzo": "Via Mareneve, 63, 95015 Linguaglossa CT",
+      "lat": 37.839392,
+      "lng": 15.131693
+    },
+    {
+      "id": "0263e109-9ddb-4fbc-934e-83fecaf4c0eb",
+      "slug": "terralcantara-la-casa-delle-monache-castiglione-di-sicilia",
+      "nome": "Terralcantara la Casa delle Monache",
+      "city_name": "Castiglione di Sicilia",
+      "indirizzo": "Contrada Finaita, 98034 Graniti ME",
+      "lat": 37.870434,
+      "lng": 15.200248
+    },
+    {
+      "id": "1d3f6daa-aa48-480d-85aa-1971d9db7777",
+      "slug": "b-b-babilonia-castrofilippo",
+      "nome": "B&B Babilonia",
+      "city_name": "Castrofilippo",
+      "indirizzo": "V G Leopardi, 7, 92020 Castrofilippo AG",
+      "lat": 37.347568,
+      "lng": 13.752153
+    },
+    {
+      "id": "4fb4c72a-4e94-4933-b82e-0c942f8528ac",
+      "slug": "b-b-ercole-castrofilippo",
+      "nome": "B&B Ercole",
+      "city_name": "Castrofilippo",
+      "indirizzo": "Viale Cannatello, 50, 92100 Agrigento AG",
+      "lat": 37.263417,
+      "lng": 13.622945
+    },
+    {
+      "id": "0d4c0040-671f-4806-a1b5-307377a04c16",
+      "slug": "b-b-villa-jolanda-carmelo-castrofilippo",
+      "nome": "B&B VILLA JOLANDA & CARMELO",
+      "city_name": "Castrofilippo",
+      "indirizzo": "Contrada Mosella, 41, 92100 Villaggio Mosè AG",
+      "lat": 37.274394,
+      "lng": 13.636191
+    },
+    {
+      "id": "5e7ed053-23c3-48a6-b1c7-cd512d5fa8b0",
+      "slug": "casa-di-mamma-nto-b-b-castrofilippo",
+      "nome": "Casa di Mamma 'Ntò B&B",
+      "city_name": "Castrofilippo",
+      "indirizzo": "Via Guido Rossa, 92020 Castrofilippo AG",
+      "lat": 37.352388,
+      "lng": 13.749651
+    },
+    {
+      "id": "afc7649c-b1d1-489a-aef7-3c2d64e7404c",
+      "slug": "casa-vacanze-nonno-pietro-castrofilippo",
+      "nome": "Casa Vacanze Nonno Pietro",
+      "city_name": "Castrofilippo",
+      "indirizzo": "Via Ciccarelli, 9, 92020 Castrofilippo AG",
+      "lat": 37.351665,
+      "lng": 13.750342
+    },
+    {
+      "id": "74885154-4bcf-4967-812a-ef78eea903e8",
+      "slug": "hotel-kore-castrofilippo",
+      "nome": "Hotel Kore",
+      "city_name": "Castrofilippo",
+      "indirizzo": "Viale Leonardo Sciascia, 210, 92100 Agrigento AG",
+      "lat": 37.270952,
+      "lng": 13.622387
+    },
+    {
+      "id": "7e6bcbed-9b69-41f9-8d61-ba4f425ca4b4",
+      "slug": "hotel-tre-torri-agrigento-castrofilippo",
+      "nome": "Hotel Tre Torri - Agrigento",
+      "city_name": "Castrofilippo",
+      "indirizzo": "Viale Cannatello, 7, 92100 Villaggio Mosè AG",
+      "lat": 37.270474,
+      "lng": 13.619447
+    },
+    {
+      "id": "d201594f-ee60-43de-a324-c2eee34a525f",
+      "slug": "il-moro-agrigento-rooms-castrofilippo",
+      "nome": "Il Moro - Agrigento Rooms",
+      "city_name": "Castrofilippo",
+      "indirizzo": "Viale Aldo Moro, 234, 92026 Favara AG",
+      "lat": 37.308693,
+      "lng": 13.644518
+    },
+    {
+      "id": "cc74b5c1-bd3a-4eb5-9c5e-2abc04a37b1f",
+      "slug": "mariane-castrofilippo",
+      "nome": "Marianè",
+      "city_name": "Castrofilippo",
+      "indirizzo": "Via S. Benedetto, 3, 92026 Favara AG",
+      "lat": 37.320165,
+      "lng": 13.658815
+    },
+    {
+      "id": "eff84035-47af-44fb-b1cb-4ff794777a14",
+      "slug": "agriturismo-il-gelsomino-ritrovato-castroreale",
+      "nome": "Agriturismo Il Gelsomino Ritrovato",
+      "city_name": "Castroreale",
+      "indirizzo": "Via Orgaz, 19, 98057 Milazzo ME",
+      "lat": 38.190693,
+      "lng": 15.223396
+    },
+    {
+      "id": "c7ec2a84-12e7-4445-904c-6c6679a7fe0d",
+      "slug": "albergo-mendolia-castroreale",
+      "nome": "Albergo Mendolia",
+      "city_name": "Castroreale",
+      "indirizzo": "Via Madonna delle Grazie, 48, 98057 Milazzo ME",
+      "lat": 38.193262,
+      "lng": 15.252088
+    }
+  ]
+}

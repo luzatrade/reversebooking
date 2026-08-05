@@ -1,0 +1,323 @@
+{
+  "block": 265,
+  "blockId": "265",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "bdee2612-7c0d-463c-acff-13a4845685d3",
+      "slug": "nuovo-agriturismo-villa-enrichetta-bettola",
+      "nome": "Nuovo Agriturismo Villa Enrichetta",
+      "city_name": "Bettola",
+      "indirizzo": "Località Villa Enrichetta, 1, 29021 Bettola PC",
+      "lat": 44.783156,
+      "lng": 9.612052
+    },
+    {
+      "id": "d014a201-a41a-4b29-bc11-5bd017cf165d",
+      "slug": "uvamatta-bettola",
+      "nome": "UvaMatta",
+      "city_name": "Bettola",
+      "indirizzo": "Via Domenico Lusardi, 54, 29020 Carmiano PC",
+      "lat": 44.849454,
+      "lng": 9.613483
+    },
+    {
+      "id": "cad7f7dd-761b-4be9-bd87-bb2a461b0c8c",
+      "slug": "veleia-locanda-bettola",
+      "nome": "Veleia Locanda",
+      "city_name": "Bettola",
+      "indirizzo": "SP14, 29018 Magnani PC",
+      "lat": 44.784919,
+      "lng": 9.722467
+    },
+    {
+      "id": "aaeebd2a-d9e7-4e80-bcd6-d2632e89f7bf",
+      "slug": "agriturismo-l-uliveto-magico-bettona",
+      "nome": "Agriturismo L'Uliveto Magico",
+      "city_name": "Bettona",
+      "indirizzo": "Via cicaleto, 1, 06033 Cannara PG",
+      "lat": 42.981978,
+      "lng": 12.543956
+    },
+    {
+      "id": "99fc42fe-75db-4189-a98f-f7b8ee5dbb38",
+      "slug": "agriturismo-la-macina-di-bettona-bettona",
+      "nome": "agriturismo la macina di bettona",
+      "city_name": "Bettona",
+      "indirizzo": "Via Corta, 06084 Passaggio PG",
+      "lat": 43.015192,
+      "lng": 12.49477
+    },
+    {
+      "id": "c39b92fc-ba3a-40ae-96b0-24b563d8ac50",
+      "slug": "agriturismo-residenza-il-girasole-bettona",
+      "nome": "Agriturismo Residenza Il Girasole",
+      "city_name": "Bettona",
+      "indirizzo": "Via Perugia, 100, 06084 Bettona PG",
+      "lat": 43.020934,
+      "lng": 12.492806
+    },
+    {
+      "id": "97a66725-3efc-4d81-a6b9-820a2d3523fe",
+      "slug": "agriturismo-umbrian-sunrise-bettona",
+      "nome": "Agriturismo Umbrian Sunrise",
+      "city_name": "Bettona",
+      "indirizzo": "Strada Provinciale 412 Loc, 06033 Collemancio PG",
+      "lat": 42.978714,
+      "lng": 12.525914
+    },
+    {
+      "id": "fd854f6e-2e4d-450e-854e-6a990d89e020",
+      "slug": "b-b-river-melody-umbria-bettona",
+      "nome": "B&B River Melody Umbria",
+      "city_name": "Bettona",
+      "indirizzo": "Via Col di Mezzo, 47, 06084 Bettona PG",
+      "lat": 43.030154,
+      "lng": 12.47713
+    },
+    {
+      "id": "38f70e9c-243f-49bc-9b02-e57c7702ffee",
+      "slug": "bed-and-breakfast-madonna-del-latte-bettona",
+      "nome": "Bed And Breakfast Madonna Del Latte",
+      "city_name": "Bettona",
+      "indirizzo": "Vocabolo Pilercio, 30, 06033 Cannara PG",
+      "lat": 42.9916,
+      "lng": 12.524137
+    },
+    {
+      "id": "59637eb6-ed1b-43bf-82e2-79987d6616c9",
+      "slug": "borgo-sant-anna-bettona",
+      "nome": "Borgo Sant'Anna",
+      "city_name": "Bettona",
+      "indirizzo": "Via Sant'Anna, 17, 06084 Passaggio PG",
+      "lat": 43.037047,
+      "lng": 12.510784
+    },
+    {
+      "id": "0095ee35-fe36-4510-9c03-66ec2663dafe",
+      "slug": "country-house-il-sambro-bettona",
+      "nome": "Country House Il Sambro",
+      "city_name": "Bettona",
+      "indirizzo": "Via Molinella, 19, 06084 Passaggio PG",
+      "lat": 43.00317,
+      "lng": 12.503389
+    },
+    {
+      "id": "19e8c033-d6d1-4ffa-8bb4-e0944d44840d",
+      "slug": "country-house-le-case-coloniche-umbria-bettona",
+      "nome": "Country House le Case Coloniche Umbria",
+      "city_name": "Bettona",
+      "indirizzo": "Vocabolo la Torre, 06053 Deruta PG",
+      "lat": 43.000718,
+      "lng": 12.421984
+    },
+    {
+      "id": "e2f69edb-e184-4c77-9b00-61f1bb37c0f6",
+      "slug": "il-poggio-degli-olivi-bettona",
+      "nome": "Il Poggio degli Olivi",
+      "city_name": "Bettona",
+      "indirizzo": "Via Montebalacca, 06080 Passaggio PG",
+      "lat": 43.004178,
+      "lng": 12.510336
+    },
+    {
+      "id": "c81f4881-be8f-4a08-bfe7-790f4654e166",
+      "slug": "la-pila-il-santuario-dell-essere-bettona",
+      "nome": "La Pila - Il Santuario dell'essere",
+      "city_name": "Bettona",
+      "indirizzo": "Via Cinque Cerri, 06084 Bettona PG",
+      "lat": 42.995453,
+      "lng": 12.501829
+    },
+    {
+      "id": "e0859a14-def4-47fa-826b-6e49515c2a41",
+      "slug": "mame-bettona",
+      "nome": "MAME'",
+      "city_name": "Bettona",
+      "indirizzo": "Via S. Bernardino, 46, 06084 Bettona PG",
+      "lat": 42.985849,
+      "lng": 12.481077
+    },
+    {
+      "id": "8ac87b1f-4a89-49b7-9191-a677f884c449",
+      "slug": "palazzo-fiumi-laplaca-bettona",
+      "nome": "Palazzo Fiumi-LaPlaca",
+      "city_name": "Bettona",
+      "indirizzo": "Piazza Preziotti, 4, 06084 Bettona PG",
+      "lat": 43.012518,
+      "lng": 12.485654
+    },
+    {
+      "id": "48f843ce-13c5-4edc-a64e-328909983714",
+      "slug": "relais-la-corte-di-bettona-bettona",
+      "nome": "Relais La Corte di Bettona",
+      "city_name": "Bettona",
+      "indirizzo": "Via Santa Caterina, 2, 06084 Bettona PG",
+      "lat": 43.013816,
+      "lng": 12.484243
+    },
+    {
+      "id": "6923676a-0fd0-4e79-bffb-df5f8c199b29",
+      "slug": "societa-agricola-f-lli-angelucci-s-r-l-bettona",
+      "nome": "Società Agricola F.lli Angelucci S.r.l.",
+      "city_name": "Bettona",
+      "indirizzo": "Vocabolo S. Nicola, 69, 06033 Collemancio PG",
+      "lat": 42.986689,
+      "lng": 12.529974
+    },
+    {
+      "id": "473fdab8-a9fa-471b-a6d8-dacbfb1fac26",
+      "slug": "tra-grilli-e-cicale-bettona",
+      "nome": "Tra grilli e cicale",
+      "city_name": "Bettona",
+      "indirizzo": "Strada esterna vicinale del felceto, 3, 06053 Deruta PG",
+      "lat": 42.963524,
+      "lng": 12.437597
+    },
+    {
+      "id": "dab2f63f-3dd9-4556-859e-64ec4532c7b6",
+      "slug": "villa-paolotti-bettona",
+      "nome": "Villa Paolotti",
+      "city_name": "Bettona",
+      "indirizzo": "Piazza Umberto Balducci, 1, 06084 Bettona PG",
+      "lat": 43.01817,
+      "lng": 12.476691
+    },
+    {
+      "id": "ccc531b9-514c-4280-8519-cc8b9593015d",
+      "slug": "a-casa-di-lara-beura-cardezza",
+      "nome": "A casa di Lara",
+      "city_name": "Beura-Cardezza",
+      "indirizzo": "Via Domodossola, 10, 28851 Beura-cardezza VB",
+      "lat": 46.054729,
+      "lng": 8.280489
+    },
+    {
+      "id": "b6e576cf-8389-4323-8aec-1a597a1f4cae",
+      "slug": "agriturismo-la-tensa-beura-cardezza",
+      "nome": "Agriturismo La Tensa",
+      "city_name": "Beura-Cardezza",
+      "indirizzo": "Località Tensa, 28845 Domodossola VB",
+      "lat": 46.10193,
+      "lng": 8.275912
+    },
+    {
+      "id": "18b36fc9-a4c9-46a1-9f3b-6cf3c2576311",
+      "slug": "albergo-biglia-beura-cardezza",
+      "nome": "Albergo Biglia",
+      "city_name": "Beura-Cardezza",
+      "indirizzo": "Piazza Arturo dell'Oro, 22, 28845 Domodossola VB",
+      "lat": 46.114421,
+      "lng": 8.292484
+    },
+    {
+      "id": "a17a07a4-695e-4148-8cb5-994222940ff3",
+      "slug": "b-b-le-camelie-beura-cardezza",
+      "nome": "B&B Le Camelie",
+      "city_name": "Beura-Cardezza",
+      "indirizzo": "Borgata S. Quirico, 20, 28845 Domodossola VB",
+      "lat": 46.10164,
+      "lng": 8.292898
+    },
+    {
+      "id": "1f0f2267-d13c-4739-8333-4f864653f8f0",
+      "slug": "bed-breakfast-tiffany-a-domodossola-beura-cardezza",
+      "nome": "Bed & Breakfast Tiffany a Domodossola",
+      "city_name": "Beura-Cardezza",
+      "indirizzo": "Via G. G. Galletti, 72, 28845 Domodossola VB",
+      "lat": 46.112545,
+      "lng": 8.29217
+    },
+    {
+      "id": "032b659e-7679-4a88-883e-fc16164099fa",
+      "slug": "ca-bussun-beura-cardezza",
+      "nome": "Cá Bussun",
+      "city_name": "Beura-Cardezza",
+      "indirizzo": "via Guelfi, 2, 28845 Domodossola VB",
+      "lat": 46.115557,
+      "lng": 8.291877
+    },
+    {
+      "id": "19de2cbe-f662-4732-8241-5a804e2bc079",
+      "slug": "dimora-domese-beura-cardezza",
+      "nome": "Dimora Domese",
+      "city_name": "Beura-Cardezza",
+      "indirizzo": "Via Benedetto del Ponte, 4, 28845 Domodossola VB",
+      "lat": 46.116726,
+      "lng": 8.29187
+    },
+    {
+      "id": "dbc056b8-957f-4a63-8f66-f81de9524309",
+      "slug": "agriturismo-etico-le-grazie-bevagna",
+      "nome": "AGRITURISMO ETICO LE GRAZIE",
+      "city_name": "Bevagna",
+      "indirizzo": "Via Madonna delle Grazie, 20, 06031 Bevagna PG",
+      "lat": 42.920302,
+      "lng": 12.596266
+    },
+    {
+      "id": "17e5908a-cae3-4c89-b515-039e4a3b4b38",
+      "slug": "agriturismo-il-poggio-dei-pettirossi-bevagna",
+      "nome": "Agriturismo Il Poggio Dei Pettirossi",
+      "city_name": "Bevagna",
+      "indirizzo": "Via del Poggio, 1, 06031 Bevagna PG",
+      "lat": 42.92484,
+      "lng": 12.594175
+    },
+    {
+      "id": "2c837238-458d-4f1c-84a9-756b3ed8e585",
+      "slug": "agriturismo-villaggio-green-bevagna",
+      "nome": "Agriturismo Villaggio Green",
+      "city_name": "Bevagna",
+      "indirizzo": "Località Polzella, 35, 06036 Montefalco PG",
+      "lat": 42.891878,
+      "lng": 12.689807
+    },
+    {
+      "id": "1ef7e241-12e8-41cf-b199-4babf3cfd627",
+      "slug": "b-b-antignano-bevagna",
+      "nome": "B&B Antignano",
+      "city_name": "Bevagna",
+      "indirizzo": "06031 Bevagna PG, Italia",
+      "lat": 42.934852,
+      "lng": 12.609445
+    },
+    {
+      "id": "bc6357e3-cd1b-427a-a242-0dbfc119baa1",
+      "slug": "b-b-casa-anna-bevagna-umbria-bevagna",
+      "nome": "B&B Casa Anna Bevagna Umbria",
+      "city_name": "Bevagna",
+      "indirizzo": "Piazza dell'Asilo, 8, 06031 Bevagna PG",
+      "lat": 42.931443,
+      "lng": 12.607077
+    },
+    {
+      "id": "b3c305e3-b9bc-42cd-af2c-a4b2077fac64",
+      "slug": "b-b-dell-annunziata-bevagna",
+      "nome": "B&B Dell'Annunziata",
+      "city_name": "Bevagna",
+      "indirizzo": "Via Santissima Annunziata, 8, 06031 Bevagna PG",
+      "lat": 42.948476,
+      "lng": 12.60454
+    },
+    {
+      "id": "e1e541fc-00db-441f-81df-c3bb6f50d6b2",
+      "slug": "b-b-marinucci-s-house-le-stanze-del-canonico-bevagna",
+      "nome": "B&B Marinucci's House - Le stanze del Canonico",
+      "city_name": "Bevagna",
+      "indirizzo": "Via S. Francesco, 9, 06031 Bevagna PG",
+      "lat": 42.935108,
+      "lng": 12.61116
+    },
+    {
+      "id": "23b18cb3-c847-48cf-9441-2a552cb89217",
+      "slug": "b-b-porta-perugina-bevagna",
+      "nome": "B&B Porta Perugina",
+      "city_name": "Bevagna",
+      "indirizzo": "Piazza Giuseppe Garibaldi, 4, 06031 Bevagna PG",
+      "lat": 42.935146,
+      "lng": 12.610117
+    }
+  ]
+}

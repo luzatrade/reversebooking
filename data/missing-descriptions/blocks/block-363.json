@@ -1,0 +1,323 @@
+{
+  "block": 363,
+  "blockId": "363",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "73959122-f232-43bc-be6f-3a21df74bc79",
+      "slug": "villa-scorzi-relais-de-charme-calci",
+      "nome": "Villa Scorzi - Relais de Charme",
+      "city_name": "Calci",
+      "indirizzo": "Via del Lungomonte Pisano, 2, 56011 Calci PI",
+      "lat": 43.718644,
+      "lng": 10.508888
+    },
+    {
+      "id": "d5ea45ff-db9a-48a8-9b36-14d3ee8f1756",
+      "slug": "b-b-al-castello-castelmezzano-calciano",
+      "nome": "B&B Al Castello Castelmezzano",
+      "city_name": "Calciano",
+      "indirizzo": "Vico Largo Castello, 34, 85010 Castelmezzano PZ",
+      "lat": 40.530227,
+      "lng": 16.049482
+    },
+    {
+      "id": "af0c2c76-3fe4-45fd-8cb1-be8cc119df49",
+      "slug": "b-b-villino-francesca-calciano",
+      "nome": "B&B Villino Francesca",
+      "city_name": "Calciano",
+      "indirizzo": "Contrada Serra delle Vigne, 75019 snc MT",
+      "lat": 40.618067,
+      "lng": 16.131829
+    },
+    {
+      "id": "2b0b2c3a-d26c-45d8-aac5-fd4b42f8cab6",
+      "slug": "gianmaria-b-b-calciano",
+      "nome": "Gianmaria B&B",
+      "city_name": "Calciano",
+      "indirizzo": "Via Fratelli Cervi, 1, 75019 Tricarico MT",
+      "lat": 40.61389,
+      "lng": 16.143828
+    },
+    {
+      "id": "b5c8bc20-eef5-4708-8526-bf75e8a1ef2f",
+      "slug": "motel-basentum-calciano",
+      "nome": "Motel Basentum",
+      "city_name": "Calciano",
+      "indirizzo": "Scalo MT IT, Contrada Pantano, 75017, 75017 Salandra MT",
+      "lat": 40.583117,
+      "lng": 16.35235
+    },
+    {
+      "id": "bd2eaf4c-3223-4076-b385-fef0d540a51d",
+      "slug": "agriturismo-podere-travalda-calcinaia",
+      "nome": "Agriturismo Podere Travalda",
+      "city_name": "Calcinaia",
+      "indirizzo": "Via di Travalda, 10, 56025 Pontedera PI",
+      "lat": 43.64901,
+      "lng": 10.633504
+    },
+    {
+      "id": "8ce45e17-c563-4728-8207-d062e80a2bd4",
+      "slug": "b-b-arivellini-calcinaia",
+      "nome": "B&B Arivellini",
+      "city_name": "Calcinaia",
+      "indirizzo": "Via Loris Baroni, 2, 56010 Vicopisano PI",
+      "lat": 43.699818,
+      "lng": 10.583969
+    },
+    {
+      "id": "a01c02c6-31e2-4a29-9222-7db2f0699e78",
+      "slug": "b-b-il-viale-calcinaia",
+      "nome": "B&B Il Viale",
+      "city_name": "Calcinaia",
+      "indirizzo": "Viale IV Novembre, 10/12, 56025 Pontedera PI",
+      "lat": 43.660653,
+      "lng": 10.634583
+    },
+    {
+      "id": "f881cb36-03f8-4051-af98-15f320248412",
+      "slug": "le-carabattole-bed-breakfast-calcinaia",
+      "nome": "Le Carabattole Bed & Breakfast",
+      "city_name": "Calcinaia",
+      "indirizzo": "Via Butese, 1, 56010 Campomaggiore PI",
+      "lat": 43.703906,
+      "lng": 10.586094
+    },
+    {
+      "id": "caa65296-f9b7-4d29-a72c-6800a2ad04fb",
+      "slug": "villa-lenzi-s-b-b-trovare-tuscany-calcinaia",
+      "nome": "Villa Lenzi's B&B (TrOvare TUSCANY)",
+      "city_name": "Calcinaia",
+      "indirizzo": "Viale Armando Diaz, 83, 56010 Vicopisano PI",
+      "lat": 43.688961,
+      "lng": 10.584211
+    },
+    {
+      "id": "351e625c-5473-434f-a7d2-719674e2f494",
+      "slug": "villa-maya-calcinaia",
+      "nome": "Villa Maya",
+      "city_name": "Calcinaia",
+      "indirizzo": "Via Piccina, 14, 56021 Cascina PI",
+      "lat": 43.65149,
+      "lng": 10.554329
+    },
+    {
+      "id": "5857652c-f61c-4cf6-b2f9-f65e2d2dcf2b",
+      "slug": "bergamo-self-check-in-le-muraine-calcinate",
+      "nome": "Bergamo Self Check-in | Le Muraine",
+      "city_name": "Calcinate",
+      "indirizzo": "Via Alberico da Rosciate, 9, 24124 Bergamo BG",
+      "lat": 45.703877,
+      "lng": 9.680862
+    },
+    {
+      "id": "fd73e5a1-86c8-44a2-a0a8-554ae595eddb",
+      "slug": "albergo-trattoria-regina-calcinato",
+      "nome": "Albergo Trattoria Regina",
+      "city_name": "Calcinato",
+      "indirizzo": "Via XXIV Maggio, 61, 25017 Lonato del Garda BS",
+      "lat": 45.486215,
+      "lng": 10.472973
+    },
+    {
+      "id": "c0b052be-1571-442e-aa1b-fc7aac0c90c0",
+      "slug": "b-b-la-pergola-di-sant-antonio-calcinato",
+      "nome": "B&B La Pergola di Sant'Antonio",
+      "city_name": "Calcinato",
+      "indirizzo": "Via S. Antonio, 15, 25017 Lonato del Garda BS",
+      "lat": 45.460777,
+      "lng": 10.486556
+    },
+    {
+      "id": "ff3f7eef-9329-410a-a7ce-42dcc436b44e",
+      "slug": "bed-and-breakfast-al-fiume-calcinato",
+      "nome": "Bed and Breakfast Al Fiume",
+      "city_name": "Calcinato",
+      "indirizzo": "V. Gavardina, 27, 25081 Bedizzole BS",
+      "lat": 45.487097,
+      "lng": 10.394891
+    },
+    {
+      "id": "5f3fec43-06ae-4ff6-b767-511b3432d8cd",
+      "slug": "bed-and-breakfast-la-villetta-calcinato",
+      "nome": "Bed and Breakfast La Villetta",
+      "city_name": "Calcinato",
+      "indirizzo": "Via Felice Cavallotti, 228, 25018 Montichiari BS",
+      "lat": 45.419624,
+      "lng": 10.396528
+    },
+    {
+      "id": "be1d25bf-f98c-4160-b375-3dcb5cefa3c1",
+      "slug": "corte-mira-calcinato",
+      "nome": "Corte Mira",
+      "city_name": "Calcinato",
+      "indirizzo": "Via Brodenella, 1B, 25017 Lonato del Garda BS",
+      "lat": 45.442352,
+      "lng": 10.507642
+    },
+    {
+      "id": "6117dcf7-24fc-47f0-8cf6-2f07d4ab9018",
+      "slug": "hotel-ristorante-la-grotta-calcinato",
+      "nome": "Hotel Ristorante La Grotta",
+      "city_name": "Calcinato",
+      "indirizzo": "Via dei Mandorli, 22, 46043 Castiglione delle Stiviere MN",
+      "lat": 45.388994,
+      "lng": 10.50535
+    },
+    {
+      "id": "bc446fd5-afb2-4258-8c90-6b1b9650d03f",
+      "slug": "sullivan-ristorante-hotel-calcinato",
+      "nome": "Sullivan Ristorante & Hotel",
+      "city_name": "Calcinato",
+      "indirizzo": "Via Statale 11, 135 Ponte San Marco di, 25011 Brescia BS",
+      "lat": 45.475172,
+      "lng": 10.415512
+    },
+    {
+      "id": "b202935b-5ec3-4a2b-8bd6-ae4016ec0109",
+      "slug": "hotel-ristorante-la-bettola-calcio",
+      "nome": "Hotel Ristorante La Bettola",
+      "city_name": "Calcio",
+      "indirizzo": "Via Bonaita, 7, 24059 Urgnano BG",
+      "lat": 45.598024,
+      "lng": 9.700022
+    },
+    {
+      "id": "f8103fb1-341b-4bc1-b2c5-8ddddb5a0dad",
+      "slug": "la-fenice-calcio",
+      "nome": "La Fenice",
+      "city_name": "Calcio",
+      "indirizzo": "Via G. Matteotti, 28, 25032 Chiari BS",
+      "lat": 45.53826,
+      "lng": 9.927758
+    },
+    {
+      "id": "c8bc9096-a634-4549-a0e4-ad636a5a15a1",
+      "slug": "palazzo-barbo-calcio",
+      "nome": "Palazzo Barbò",
+      "city_name": "Calcio",
+      "indirizzo": "Via San Rocco, 3, 24050 Torre Pallavicina BG",
+      "lat": 45.446172,
+      "lng": 9.876593
+    },
+    {
+      "id": "8576e7d7-ccb5-4dd6-8064-de04751bafd6",
+      "slug": "b-b-villa-cuten-calco",
+      "nome": "B&B - Villa Cuten",
+      "city_name": "Calco",
+      "indirizzo": "Via Italia, 17, 23885 Calco LC",
+      "lat": 45.724941,
+      "lng": 9.417505
+    },
+    {
+      "id": "6feefefb-14bb-4d62-a462-3ad2b5de1259",
+      "slug": "b-b-il-torchio-calco",
+      "nome": "B&B Il Torchio",
+      "city_name": "Calco",
+      "indirizzo": "Via Ghislanzoni, Località Vescogna, 24, 23885 Calco LC",
+      "lat": 45.723554,
+      "lng": 9.425891
+    },
+    {
+      "id": "c16b7116-0d96-44f4-83c7-1aba4acf83b6",
+      "slug": "cascina-vedu-calco",
+      "nome": "Cascina Vedu",
+      "city_name": "Calco",
+      "indirizzo": "Via Salvador Allende, 10, 23807 Merate LC",
+      "lat": 45.703926,
+      "lng": 9.419299
+    },
+    {
+      "id": "7d6c42a9-5a3e-4b18-8747-991137cf7133",
+      "slug": "hotel-locanda-leonardo-calco",
+      "nome": "Hotel Locanda Leonardo",
+      "city_name": "Calco",
+      "indirizzo": "Via Padri Serviti, 1, 23801 Calolziocorte LC",
+      "lat": 45.790638,
+      "lng": 9.431093
+    },
+    {
+      "id": "b5bc29ca-7893-4e62-888b-ced2aba2954d",
+      "slug": "locanda-al-berso-calco",
+      "nome": "Locanda Al Bersò",
+      "city_name": "Calco",
+      "indirizzo": "Via Nazionale, 25, 23885 Calco LC",
+      "lat": 45.721986,
+      "lng": 9.412768
+    },
+    {
+      "id": "aaf6d028-7c4b-41b5-afe2-cf9210c3d389",
+      "slug": "das-badl-smart-retreat-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Das Badl Smart Retreat",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Pozzo, 34, 39052 Caldaro BZ",
+      "lat": 46.413056,
+      "lng": 11.231944
+    },
+    {
+      "id": "a09ae2c0-150d-44ae-90bb-bd674ee0e6bb",
+      "slug": "das-kaltern-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Das Kaltern",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Pianizza di Sopra, 65, 39052 Caldaro BZ",
+      "lat": 46.434944,
+      "lng": 11.247145
+    },
+    {
+      "id": "bff1a79f-f073-4dba-9729-b05eb92494b7",
+      "slug": "das-wanda-4-sterne-b-b-adults-only-hotel-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Das Wanda - 4 Sterne B&B Adults Only Hotel",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Via Garnellen, 18, 39052 Caldaro BZ",
+      "lat": 46.427436,
+      "lng": 11.243887
+    },
+    {
+      "id": "6dc779ad-0e9b-438c-9dfe-019fdb0e21b4",
+      "slug": "designhotel-gius-la-residenza-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Designhotel Gius la Residenza",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Trutsch, 01, 39052 Caldaro BZ",
+      "lat": 46.409505,
+      "lng": 11.247663
+    },
+    {
+      "id": "2d92601a-72b1-4029-a6e6-20bd9466f8b8",
+      "slug": "fruhstuckspension-roter-adler-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Frühstückspension Roter Adler",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Via dell Oro, 4, 39052 Caldaro BZ",
+      "lat": 46.412762,
+      "lng": 11.245929
+    },
+    {
+      "id": "0816376f-6f5d-47f2-8a02-914b0f2dca4c",
+      "slug": "haus-marlene-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Haus Marlene",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Via Heppenheim, 42, 39052 Caldaro sulla strada del Vino BZ",
+      "lat": 46.421611,
+      "lng": 11.230149
+    },
+    {
+      "id": "a0734908-050d-4204-a9aa-158dc94b8704",
+      "slug": "hotel-goldener-stern-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Hotel Goldener Stern",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Via Andreas Hofer Strasse, 28, 39052 Caldaro sulla strada del Vino BZ",
+      "lat": 46.414031,
+      "lng": 11.246006
+    },
+    {
+      "id": "c24b8e44-2b29-4cf5-b173-140613e763a8",
+      "slug": "hotel-malga-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Hotel Malga",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Malga, 7/c, 39052 Caldaro BZ",
+      "lat": 46.4055,
+      "lng": 11.23212
+    }
+  ]
+}

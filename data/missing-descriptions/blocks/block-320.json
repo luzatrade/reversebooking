@@ -1,0 +1,323 @@
+{
+  "block": 320,
+  "blockId": "320",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "09da7307-0dec-409a-894b-6ce95488d9b6",
+      "slug": "sweet-hotel-breganze",
+      "nome": "Sweet Hotel",
+      "city_name": "Breganze",
+      "indirizzo": "P.zza Libertà, 11, 36060 Longa VI",
+      "lat": 45.680524,
+      "lng": 11.640472
+    },
+    {
+      "id": "069052e2-a56d-4e3d-8ec0-380840dd6f97",
+      "slug": "villa-san-biagio-breganze",
+      "nome": "Villa San Biagio",
+      "city_name": "Breganze",
+      "indirizzo": "Via S. Biagio, 29, 36064 Colceresa VI",
+      "lat": 45.71118,
+      "lng": 11.603451
+    },
+    {
+      "id": "db832d53-c208-4a1f-91cc-2bfccd8cd5ab",
+      "slug": "ai-4-soli-bregnano",
+      "nome": "Ai 4 soli",
+      "city_name": "Bregnano",
+      "indirizzo": "Via P. Togliatti, 1, 22072 Cermenate CO",
+      "lat": 45.697714,
+      "lng": 9.074267
+    },
+    {
+      "id": "6394a262-10a0-48c7-9856-18e6765673a8",
+      "slug": "b-b-les-fleurettes-bregnano",
+      "nome": "B&B Les Fleurettes",
+      "city_name": "Bregnano",
+      "indirizzo": "Vicolo Privato Appennini, 22074 Lomazzo CO",
+      "lat": 45.694858,
+      "lng": 9.026454
+    },
+    {
+      "id": "4468add5-f001-41cf-a702-c5ff0be93f5b",
+      "slug": "foresteria-la-torretta-bregnano",
+      "nome": "Foresteria La Torretta",
+      "city_name": "Bregnano",
+      "indirizzo": "Piazza Concordia, 2, 22073 Fino Mornasco CO",
+      "lat": 45.732442,
+      "lng": 9.056864
+    },
+    {
+      "id": "fbe38169-2f75-4576-9d37-d1bc4e666538",
+      "slug": "hotel-gardenia-fiera-bregnano",
+      "nome": "Hotel Gardenia FIERA",
+      "city_name": "Bregnano",
+      "indirizzo": "Via Maestri Comacini, 22, 22072 Cermenate CO",
+      "lat": 45.694511,
+      "lng": 9.072486
+    },
+    {
+      "id": "256ef42d-9bee-4a64-82bb-a3cfe69f9d82",
+      "slug": "just-hotel-saronno-bregnano",
+      "nome": "Just Hotel Saronno",
+      "city_name": "Bregnano",
+      "indirizzo": "Via Strà Madonna, 15, 21047 Saronno VA",
+      "lat": 45.623919,
+      "lng": 9.016242
+    },
+    {
+      "id": "5cecdc78-0173-422d-bb7e-4002e8cc71ce",
+      "slug": "la-macina-agriturismo-bregnano",
+      "nome": "La Macina Agriturismo",
+      "city_name": "Bregnano",
+      "indirizzo": "Via Beato Michele Carcano, 1, 22070 Bregnano CO",
+      "lat": 45.689925,
+      "lng": 9.062958
+    },
+    {
+      "id": "094e4426-6e57-4298-9ec1-17be92d49abd",
+      "slug": "b-b-casa-lulu-brembate",
+      "nome": "B&B Casa Lulù",
+      "city_name": "Brembate",
+      "indirizzo": "Via Pista Crespi, 44, 24041 Brembate BG",
+      "lat": 45.599984,
+      "lng": 9.540059
+    },
+    {
+      "id": "03e16097-2f98-4f01-a808-9510a8bee7f1",
+      "slug": "b-b-lolly-brembate",
+      "nome": "B&B Lolly",
+      "city_name": "Brembate",
+      "indirizzo": "VIA Antonio Locatelli, 64, 24041 Brembate BG",
+      "lat": 45.600438,
+      "lng": 9.551803
+    },
+    {
+      "id": "339accf8-aa05-4752-beef-907e7e0be250",
+      "slug": "b-b-oasi-brembate-brembate",
+      "nome": "B&B Oasi Brembate",
+      "city_name": "Brembate",
+      "indirizzo": "Via Grignano, 31, 24041 Brembate BG",
+      "lat": 45.607234,
+      "lng": 9.551815
+    },
+    {
+      "id": "58bad804-a4dc-4f00-b015-433303ef4ae2",
+      "slug": "b-b-pontevecchio-brembate",
+      "nome": "B&B Pontevecchio",
+      "city_name": "Brembate",
+      "indirizzo": "Via San Vittore, 18, 24041 Brembate BG",
+      "lat": 45.606542,
+      "lng": 9.560166
+    },
+    {
+      "id": "22463bd4-92d6-42e9-bee5-f54a7a6a07e0",
+      "slug": "golden-teal-silver-birch-apartments-brembate",
+      "nome": "Golden Teal & Silver Birch apartments",
+      "city_name": "Brembate",
+      "indirizzo": "Via Palma Il Vecchio, 4, 24128 Bergamo BG",
+      "lat": 45.689585,
+      "lng": 9.660902
+    },
+    {
+      "id": "c565a82e-52fc-461d-9ec7-cbdf1d611f32",
+      "slug": "hotel-tech-brembate",
+      "nome": "Hotel Tech",
+      "city_name": "Brembate",
+      "indirizzo": "Via Vittorio Veneto, 31, 24041 Brembate BG",
+      "lat": 45.605985,
+      "lng": 9.546242
+    },
+    {
+      "id": "596a537f-0e5a-4597-8ad5-8d7845703863",
+      "slug": "b-b-il-borghetto-brembate-di-sopra",
+      "nome": "B&B Il Borghetto",
+      "city_name": "Brembate di Sopra",
+      "indirizzo": "Via Monte dei Gobbi, 10, 24030 Mozzo BG",
+      "lat": 45.698559,
+      "lng": 9.611198
+    },
+    {
+      "id": "6ffa4a02-4cec-4419-9a64-c0e46829aff5",
+      "slug": "green-stay-foresteria-bergamo-brembate-di-sopra",
+      "nome": "Green Stay - Foresteria Bergamo",
+      "city_name": "Brembate di Sopra",
+      "indirizzo": "Via Pietro Mascagni, 81, 24129 Bergamo BG",
+      "lat": 45.695975,
+      "lng": 9.63001
+    },
+    {
+      "id": "67e588ba-50b8-43d5-acb3-b14f3fd7c364",
+      "slug": "le-lanterne-bnb-jacuzzi-suite-brembate-di-sopra",
+      "nome": "Le Lanterne BnB Jacuzzi Suite",
+      "city_name": "Brembate di Sopra",
+      "indirizzo": "Via Cà Frerì, 5, 24018 Villa d'Almè BG",
+      "lat": 45.755586,
+      "lng": 9.617544
+    },
+    {
+      "id": "c1bd1f2f-4d68-468d-8ff5-99ea6871b40b",
+      "slug": "locanda-scotti-brembate-di-sopra",
+      "nome": "Locanda Scotti",
+      "city_name": "Brembate di Sopra",
+      "indirizzo": "Via Bergamo, 12, 24030 Paladina BG",
+      "lat": 45.727153,
+      "lng": 9.612101
+    },
+    {
+      "id": "6dbc2e2f-af2f-45dc-a476-2c64bce2ad26",
+      "slug": "grande-albergo-roma-brembio",
+      "nome": "Grande Albergo Roma",
+      "city_name": "Brembio",
+      "indirizzo": "Via Cittadella, 14, 29121 Piacenza PC",
+      "lat": 45.053603,
+      "lng": 9.693306
+    },
+    {
+      "id": "fcdae0a4-557a-4ce1-9c50-4d7415d29752",
+      "slug": "b-b-castello-sannazzaro-per-soggiorni-romantici-breme",
+      "nome": "B&B Castello Sannazzaro - Per soggiorni romantici, vicino Casale Monferrato",
+      "city_name": "Breme",
+      "indirizzo": "Via Roma, 5, 15036 Giarole AL",
+      "lat": 45.061594,
+      "lng": 8.566102
+    },
+    {
+      "id": "082d206d-549f-41f0-94f9-1622aa4e30f3",
+      "slug": "b-b-mezzaluna-ca-d-la-tonilla-breme",
+      "nome": "B&B Mezzaluna - Ca' d'la Tonilla",
+      "city_name": "Breme",
+      "indirizzo": "Via Mezzaluna, 12, 27020 Breme PV",
+      "lat": 45.125728,
+      "lng": 8.623813
+    },
+    {
+      "id": "a2a76a13-5d3d-4824-8414-c00e0ddd44de",
+      "slug": "bed-breakfast-l-infernot-breme",
+      "nome": "Bed & Breakfast L'Infernot",
+      "city_name": "Breme",
+      "indirizzo": "Strada Madonna delle Grazie, 4, 15030 Rosignano Monferrato AL",
+      "lat": 45.081837,
+      "lng": 8.397595
+    },
+    {
+      "id": "dd8bf999-59da-4b5e-8449-39579ccdfce3",
+      "slug": "il-cortile-di-greta-breme",
+      "nome": "Il Cortile di Greta",
+      "city_name": "Breme",
+      "indirizzo": "Frazione Trisogli 5 Cuccaro Monferrato AL IT, e, 15037 Lu e Cuccaro Monferrato AL",
+      "lat": 44.995728,
+      "lng": 8.506468
+    },
+    {
+      "id": "af817430-bda5-4ab2-8a11-a956ee8b0ee7",
+      "slug": "locanda-trento-breme",
+      "nome": "Locanda Trento",
+      "city_name": "Breme",
+      "indirizzo": "Via Trento, 12, 27036 Mortara PV",
+      "lat": 45.254231,
+      "lng": 8.743104
+    },
+    {
+      "id": "1c1cd745-d008-4005-b763-882ca63ee38c",
+      "slug": "b-b-la-corte-dei-gelsi-brendola",
+      "nome": "B&B “La Corte dei Gelsi”",
+      "city_name": "Brendola",
+      "indirizzo": "via Postumia, 27, 36040 Brendola VI",
+      "lat": 45.460193,
+      "lng": 11.481216
+    },
+    {
+      "id": "4baf9a01-5b4e-4438-8e11-a356ba1f43ce",
+      "slug": "b-b-la-quiete-brendola",
+      "nome": "B&B La Quiete",
+      "city_name": "Brendola",
+      "indirizzo": "Piazza del Popolo, 3, 36040 Brendola VI",
+      "lat": 45.471667,
+      "lng": 11.458889
+    },
+    {
+      "id": "84d21cc6-3f29-45bc-a8e2-1f0a61fceb8e",
+      "slug": "bed-and-breakfast-a-vicenza-el-pavejo-brendola",
+      "nome": "Bed and Breakfast a Vicenza El Pavejo",
+      "city_name": "Brendola",
+      "indirizzo": "Via San Vito, n. 66, 36040 Brendola VI",
+      "lat": 45.445147,
+      "lng": 11.468278
+    },
+    {
+      "id": "1896ecdd-8b0f-41f7-8306-355c4fca968b",
+      "slug": "hotel-verdi-vicenza-brendola",
+      "nome": "HOTEL VERDI VICENZA",
+      "city_name": "Brendola",
+      "indirizzo": "Via Lanza, 8, 36100 Vicenza VI",
+      "lat": 45.547088,
+      "lng": 11.512522
+    },
+    {
+      "id": "621738c4-fad7-42fb-9890-368365adf9a5",
+      "slug": "b-b-la-casa-di-agnes-brenna",
+      "nome": "B&B La Casa di Agnes",
+      "city_name": "Brenna",
+      "indirizzo": "Via Ramarino, 9, 22066 Mariano Comense CO",
+      "lat": 45.701226,
+      "lng": 9.16146
+    },
+    {
+      "id": "223eae32-50df-46f3-a95e-8d0794b0fab0",
+      "slug": "b-b-la-finestra-sul-giardino-brenna",
+      "nome": "B&B La finestra sul giardino",
+      "city_name": "Brenna",
+      "indirizzo": "V.le Ospedale, 11, 22063 Cantù CO",
+      "lat": 45.73818,
+      "lng": 9.138565
+    },
+    {
+      "id": "308767a5-4a67-4e4b-9b8b-296928886863",
+      "slug": "bed-breakfast-brenna-brenna",
+      "nome": "Bed & Breakfast Brenna",
+      "city_name": "Brenna",
+      "indirizzo": "Via Cardano, 77, 22100 Como CO",
+      "lat": 45.809245,
+      "lng": 9.054215
+    },
+    {
+      "id": "603e054c-455a-4457-b408-995600115678",
+      "slug": "casa-maria-brenna",
+      "nome": "Casa Maria",
+      "city_name": "Brenna",
+      "indirizzo": "Via S. Francesco D'Assisi, 26, 22063 Cantù CO",
+      "lat": 45.735457,
+      "lng": 9.120726
+    },
+    {
+      "id": "c1dcd2cd-4a2b-4f40-aa85-931c3ceb7d54",
+      "slug": "villa-gianna-brenna",
+      "nome": "Villa gianna",
+      "city_name": "Brenna",
+      "indirizzo": "Via Privata Garzonio, 1, 22044 Inverigo CO",
+      "lat": 45.738989,
+      "lng": 9.215862
+    },
+    {
+      "id": "c0708eb5-339c-4c12-bf9d-b9334845df22",
+      "slug": "aktivhotel-panorama-hotel-brennero-brenner",
+      "nome": "Aktivhotel Panorama Hotel",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Via Sant'Antonio, 176, 39041 Brennero BZ",
+      "lat": 46.966052,
+      "lng": 11.346941
+    },
+    {
+      "id": "a34a2b9b-2e96-4b02-9e8e-990263f05051",
+      "slug": "albergo-moarwirt-brennero-brenner",
+      "nome": "Albergo Moarwirt",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Via Roma, 11, 39041 Colle Isarco BZ",
+      "lat": 46.937751,
+      "lng": 11.444626
+    }
+  ]
+}

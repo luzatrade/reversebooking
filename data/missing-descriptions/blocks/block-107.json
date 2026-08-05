@@ -1,0 +1,323 @@
+{
+  "block": 107,
+  "blockId": "107",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "2c7e7113-aa0d-456c-863f-75c9b1f04160",
+      "slug": "b-b-sanpietro-andora-andora",
+      "nome": "B&B SanPietro Andora",
+      "city_name": "Andora",
+      "indirizzo": "Località Metta, 1/A, 17020 Andora SV",
+      "lat": 43.986078,
+      "lng": 8.131048
+    },
+    {
+      "id": "096259d9-b1a4-41c4-91c3-9121c1ff8eec",
+      "slug": "b-b-villa-corsini-andora",
+      "nome": "B&B Villa Corsini",
+      "city_name": "Andora",
+      "indirizzo": "Via Vincenzo Maglione, 2, 17020 Laigueglia SV",
+      "lat": 43.980825,
+      "lng": 8.157199
+    },
+    {
+      "id": "ffcd215e-c6cd-4c20-b7db-5a9c2adf9131",
+      "slug": "dachi-casa-vacanze-andora",
+      "nome": "Dachi casa vacanze",
+      "city_name": "Andora",
+      "indirizzo": "Località Negri, 17020 Andora SV",
+      "lat": 43.98413,
+      "lng": 8.134218
+    },
+    {
+      "id": "42957b10-fccc-43d4-9738-254f5c6acb1e",
+      "slug": "gli-ulivi-rooms-and-breakfast-andora",
+      "nome": "Gli Ulivi Rooms and Breakfast",
+      "city_name": "Andora",
+      "indirizzo": "Località Piazza, 11, 17020 Andora SV",
+      "lat": 43.99158,
+      "lng": 8.124707
+    },
+    {
+      "id": "a5871043-a4fa-4d50-8fcf-ddf6ecf6af5c",
+      "slug": "hotel-ristorante-jole-andora-andora",
+      "nome": "Hotel - Ristorante Jole Andora",
+      "city_name": "Andora",
+      "indirizzo": "Via Marco Polo, 16, 17051 Marina di Andora SV",
+      "lat": 43.952307,
+      "lng": 8.147562
+    },
+    {
+      "id": "090f4aa8-00bd-4075-9b2a-0bba6c3cc243",
+      "slug": "hotel-galleano-3-stelle-andora",
+      "nome": "Hotel Galleano 3 Stelle",
+      "city_name": "Andora",
+      "indirizzo": "Via Angelo Fontana, 12, 17051 Marina di Andora SV",
+      "lat": 43.948699,
+      "lng": 8.140169
+    },
+    {
+      "id": "708d4fdc-38c3-449c-b761-aeae5f8e8d77",
+      "slug": "hotel-i-due-gabbiani-andora",
+      "nome": "Hotel I Due Gabbiani",
+      "city_name": "Andora",
+      "indirizzo": "Via Mezzacqua, 2, 17020 Andora SV",
+      "lat": 43.955,
+      "lng": 8.150833
+    },
+    {
+      "id": "65c73a53-8ee1-4dae-8272-967f585a4ff0",
+      "slug": "hotel-lungomare-andora",
+      "nome": "Hotel Lungomare",
+      "city_name": "Andora",
+      "indirizzo": "Via Capri, 10, 17020 Marina di Andora SV",
+      "lat": 43.947304,
+      "lng": 8.139706
+    },
+    {
+      "id": "9bb47364-b6aa-42c9-922b-7577b9565239",
+      "slug": "hotel-mediterraneo-andora",
+      "nome": "Hotel Mediterraneo",
+      "city_name": "Andora",
+      "indirizzo": "Via Andrea Doria, 18, 17020 Laigueglia SV",
+      "lat": 43.981476,
+      "lng": 8.156216
+    },
+    {
+      "id": "74d1c362-4430-4868-aeb3-02ce0834d54c",
+      "slug": "hotel-moresco-andora",
+      "nome": "Hotel Moresco",
+      "city_name": "Andora",
+      "indirizzo": "Via Aurelia, 96, 17020 Marina di Andora SV",
+      "lat": 43.951667,
+      "lng": 8.151667
+    },
+    {
+      "id": "a6a07100-e313-46cf-b6ec-3acaaf7cf3fe",
+      "slug": "la-casita-andora",
+      "nome": "La Casita",
+      "city_name": "Andora",
+      "indirizzo": "Via P. Ferreri, 75/Interno 13, 17021 Alassio SV",
+      "lat": 44.002388,
+      "lng": 8.165489
+    },
+    {
+      "id": "4fb60311-1dfe-4624-9deb-4c59e462a4d6",
+      "slug": "residence-la-palma-andora",
+      "nome": "Residence La Palma",
+      "city_name": "Andora",
+      "indirizzo": "Viale Giuseppe Mazzini, 36, 17020 Andora SV",
+      "lat": 43.953499,
+      "lng": 8.150914
+    },
+    {
+      "id": "7bb0847c-e809-440c-a0ee-854b3b653556",
+      "slug": "villaggio-turistico-colombo-andora",
+      "nome": "Villaggio Turistico Colombo",
+      "city_name": "Andora",
+      "indirizzo": "Via Marchese Maglioni, 17020 Marina di Andora SV",
+      "lat": 43.959757,
+      "lng": 8.13423
+    },
+    {
+      "id": "1b14a673-3c56-4fcf-97dd-46ec3e98864e",
+      "slug": "affittacamere-belvedere-da-renzo-andorno-micca",
+      "nome": "Affittacamere Belvedere - da Renzo",
+      "city_name": "Andorno Micca",
+      "indirizzo": "Via Camillo Vercellone, 44, 13817 Sordevolo BI",
+      "lat": 45.575389,
+      "lng": 7.975011
+    },
+    {
+      "id": "ae79d976-fa90-49da-85e1-b61c3ef38121",
+      "slug": "agriturismo-casa-di-piero-e-marilena-andorno-micca",
+      "nome": "Agriturismo \"Casa di Piero e Marilena\"",
+      "city_name": "Andorno Micca",
+      "indirizzo": "Via Mulini, 64, 13878 Candelo BI",
+      "lat": 45.5476,
+      "lng": 8.125898
+    },
+    {
+      "id": "b52fccdc-3c2c-4175-9b03-7b4b454e61d1",
+      "slug": "agriturismo-borgo-ca-del-becca-andorno-micca",
+      "nome": "Agriturismo Borgo Cà del Becca",
+      "city_name": "Andorno Micca",
+      "indirizzo": "VIA AMBA ALAGI, 11, 13841 Bioglio BI",
+      "lat": 45.606247,
+      "lng": 8.117043
+    },
+    {
+      "id": "c7b41b02-7612-4693-b82a-964bceb81d73",
+      "slug": "agriturismo-la-fucina-andorno-micca",
+      "nome": "Agriturismo La Fucina",
+      "city_name": "Andorno Micca",
+      "indirizzo": "Via alla Fucina, 1, 13856 Vigliano Biellese BI",
+      "lat": 45.551343,
+      "lng": 8.134554
+    },
+    {
+      "id": "811a06e2-70f2-4d63-a279-503602af6fe9",
+      "slug": "b-b-casa-dolce-casa-andorno-micca",
+      "nome": "B&B Casa Dolce Casa",
+      "city_name": "Andorno Micca",
+      "indirizzo": "Via Sandigliano, 89, 13878 Candelo BI",
+      "lat": 45.533474,
+      "lng": 8.104281
+    },
+    {
+      "id": "74fabe91-36ae-4f56-881e-196d23ab5322",
+      "slug": "b-b-gli-eremiti-andorno-micca",
+      "nome": "B&B Gli Eremiti",
+      "city_name": "Andorno Micca",
+      "indirizzo": "Str. degli Eremiti, 44, 13811 San Giuseppe di Casto, Andorno Micca BI",
+      "lat": 45.620123,
+      "lng": 8.075648
+    },
+    {
+      "id": "9b3a4f62-4139-4293-a83d-dd59065406ab",
+      "slug": "b-b-sans-egal-andorno-micca",
+      "nome": "B&B Sans égal",
+      "city_name": "Andorno Micca",
+      "indirizzo": "Str. dei Campi, 14, 13900 Biella BI",
+      "lat": 45.552889,
+      "lng": 8.065653
+    },
+    {
+      "id": "0d9b7c2c-8fb3-4e0b-b565-bc985799bd73",
+      "slug": "b-b-villa-maria-andorno-micca",
+      "nome": "B&B Villa Maria",
+      "city_name": "Andorno Micca",
+      "indirizzo": "Via Martiri Libertà, 150, 13897 Occhieppo Inferiore BI",
+      "lat": 45.553801,
+      "lng": 8.017875
+    },
+    {
+      "id": "e7205909-9c40-41da-9dc8-6eb0afdfc8f1",
+      "slug": "cascina-serra-bed-breakfast-eco-house-andorno-micca",
+      "nome": "Cascina Serra Bed & Breakfast eco-house",
+      "city_name": "Andorno Micca",
+      "indirizzo": "Str. Case Sparse, 7, 13895 Muzzano BI",
+      "lat": 45.553909,
+      "lng": 7.98847
+    },
+    {
+      "id": "9797b817-bcc0-4f3a-9e4b-62066234a424",
+      "slug": "il-talucco-bed-breakfast-andorno-micca",
+      "nome": "Il Talucco: Bed & Breakfast",
+      "city_name": "Andorno Micca",
+      "indirizzo": "Via Raffaello Sanzio, 31, 13855 Valdengo BI",
+      "lat": 45.576193,
+      "lng": 8.123714
+    },
+    {
+      "id": "d296707a-3b4e-4e08-8411-e3b4f6d1de20",
+      "slug": "la-ca-di-carol-andorno-micca",
+      "nome": "La Cà di Carol",
+      "city_name": "Andorno Micca",
+      "indirizzo": "Regione Ronco Tonone, 5, 13818 Tollegno BI",
+      "lat": 45.599405,
+      "lng": 8.042941
+    },
+    {
+      "id": "d10a4ace-3945-48bf-a7ab-a7311cdaba4d",
+      "slug": "la-nuvola-andorno-micca",
+      "nome": "La Nuvola",
+      "city_name": "Andorno Micca",
+      "indirizzo": "Via Roma, 82, 13816 Sagliano Micca BI",
+      "lat": 45.620748,
+      "lng": 8.045031
+    },
+    {
+      "id": "1dad4d9b-2ad3-4e9b-9f4e-94daa17cea65",
+      "slug": "le-terrazze-di-tavigliano-andorno-micca",
+      "nome": "Le Terrazze Di Tavigliano",
+      "city_name": "Andorno Micca",
+      "indirizzo": "Via Ingegnere, VIa Italo Meliga, 2, 13811 Tavigliano BI",
+      "lat": 45.62315,
+      "lng": 8.053498
+    },
+    {
+      "id": "f8fd8c70-e059-4d83-9e80-46600fd54cbc",
+      "slug": "locanda-l-erbavoglio-andorno-micca",
+      "nome": "Locanda l'Erbavoglio",
+      "city_name": "Andorno Micca",
+      "indirizzo": "Frazione Fusero, 9, 13821 Callabiana BI",
+      "lat": 45.633015,
+      "lng": 8.090384
+    },
+    {
+      "id": "1ba5bf26-e9af-4a39-8fcc-735ef869e4a0",
+      "slug": "villa-bernardino-galliari-andorno-micca",
+      "nome": "Villa Bernardino Galliari",
+      "city_name": "Andorno Micca",
+      "indirizzo": "Via Bernardino Galliari, 309, 13811 Andorno Micca BI",
+      "lat": 45.616241,
+      "lng": 8.051764
+    },
+    {
+      "id": "82c314f7-adda-4d0c-8646-27b0c8394357",
+      "slug": "aia-di-san-giorgio-andrano",
+      "nome": "Aia di San Giorgio",
+      "city_name": "Andrano",
+      "indirizzo": "Via Vecchia Ortelle, 73030 Vignacastrisi LE",
+      "lat": 40.019678,
+      "lng": 18.403435
+    },
+    {
+      "id": "d7fef41c-b625-47d5-8e83-ed71df27d465",
+      "slug": "azienda-agrituristica-b-b-la-torre-andrano",
+      "nome": "Azienda Agrituristica B&B La Torre",
+      "city_name": "Andrano",
+      "indirizzo": "Via Umberto I, 73030 Vignacastrisi LE",
+      "lat": 40.021491,
+      "lng": 18.405714
+    },
+    {
+      "id": "e9fbaf52-1597-4a96-bb58-f1ea76f8619f",
+      "slug": "bellavista-b-b-castro-le-andrano",
+      "nome": "Bellavista B&B Castro (le)",
+      "city_name": "Andrano",
+      "indirizzo": "Via Sant'Antonio, 261, 73030 Castro LE",
+      "lat": 40.011711,
+      "lng": 18.427929
+    },
+    {
+      "id": "d2853a4e-4432-4365-a530-dd056468ad6c",
+      "slug": "belvedere-andrano",
+      "nome": "Belvedere",
+      "city_name": "Andrano",
+      "indirizzo": "Via Belvedere, 18, 73030 Castro di Lecce LE",
+      "lat": 40.008649,
+      "lng": 18.428501
+    },
+    {
+      "id": "dfcd0631-a48d-4dc4-87f0-3d2efa4e03be",
+      "slug": "campurra-affittacamere-andrano",
+      "nome": "CAMPURRA affittacamere",
+      "city_name": "Andrano",
+      "indirizzo": "Via Benvenuto Cellini, 29, 73030 Diso LE",
+      "lat": 39.994691,
+      "lng": 18.398744
+    },
+    {
+      "id": "ffd21542-4fce-4b86-8403-d2841b635b45",
+      "slug": "delle-antiche-rotte-andrano",
+      "nome": "Delle Antiche Rotte",
+      "city_name": "Andrano",
+      "indirizzo": "Via Comunale Saccuddi, 25 ex contrada madonna del lattarico, 73032 Marina di Andrano LE",
+      "lat": 39.965235,
+      "lng": 18.398291
+    },
+    {
+      "id": "c37995f4-f8b0-4915-aab0-f9ece10c22ce",
+      "slug": "eliados-casa-vacanze-andrano",
+      "nome": "Eliados Casa Vacanze",
+      "city_name": "Andrano",
+      "indirizzo": "Vicinale Doleo, 73030 Diso LE",
+      "lat": 39.995244,
+      "lng": 18.382075
+    }
+  ]
+}

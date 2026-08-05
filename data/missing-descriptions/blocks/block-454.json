@@ -1,0 +1,323 @@
+{
+  "block": 454,
+  "blockId": "454",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "62819256-e300-4d72-adf9-013e60234977",
+      "slug": "magnolia-casale-monferrato",
+      "nome": "Magnolia",
+      "city_name": "Casale Monferrato",
+      "indirizzo": "Via Benvenuto Sangiorgio, 22, 15033 Casale Monferrato AL",
+      "lat": 45.136636,
+      "lng": 8.454637
+    },
+    {
+      "id": "03bdbf2d-a29f-4dae-95f7-1e09bb789a9a",
+      "slug": "agriturismo-porcaloca-casale-sul-sile",
+      "nome": "Agriturismo Porcaloca",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Vicolo Schiavonia, 22, 31032 Casale sul Sile TV",
+      "lat": 45.607071,
+      "lng": 12.308348
+    },
+    {
+      "id": "732ea9d1-f123-4f2e-869e-3dde89249350",
+      "slug": "ai-bastioni-boutique-hotel-casale-sul-sile",
+      "nome": "Ai Bastioni Boutique Hotel",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Viale Fratelli Bandiera, 18, 31100 Treviso TV",
+      "lat": 45.662108,
+      "lng": 12.249648
+    },
+    {
+      "id": "7a070477-c2a9-4685-9543-b38b42552921",
+      "slug": "b-b-hotel-quarto-d-altino-casale-sul-sile",
+      "nome": "B&B HOTEL Quarto D'Altino",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Via Giovanni Pascoli, 1, 30020 Quarto d'Altino VE",
+      "lat": 45.580364,
+      "lng": 12.363406
+    },
+    {
+      "id": "21d06340-850c-4bfe-8cf6-f9cb6fcfbe29",
+      "slug": "b-b-sile-e-natura-casale-sul-sile",
+      "nome": "B&B Sile e Natura",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Via Nuova Trevigiana Lughignano, 43, 31032 Lughignano TV",
+      "lat": 45.620213,
+      "lng": 12.329447
+    },
+    {
+      "id": "bb63f301-29e7-4944-987a-9186141ea092",
+      "slug": "borgo-ca-dei-sospiri-casale-sul-sile",
+      "nome": "Borgo Cà dei Sospiri",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Via Roma, 146, 30020 San Michele Vecchio VE",
+      "lat": 45.587765,
+      "lng": 12.354607
+    },
+    {
+      "id": "4b55027c-a44e-4b2d-97ac-fa9cacb9d1ba",
+      "slug": "civico-493-bed-breakfast-casale-sul-sile",
+      "nome": "Civico 493 bed&breakfast",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Via Baratta Vecchia, 49, 31022 Preganziol TV",
+      "lat": 45.605833,
+      "lng": 12.229444
+    },
+    {
+      "id": "204508c2-cb8c-4635-8660-c5ab236dfe30",
+      "slug": "civico4-casale-sul-sile",
+      "nome": "Civico4",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Piazza del Donatore, 4, 31032 Conscio TV",
+      "lat": 45.615234,
+      "lng": 12.283854
+    },
+    {
+      "id": "03a8ecac-37c9-43ce-a1b7-4c4a3def4b8d",
+      "slug": "crowne-plaza-venice-east-quarto-d-altino-casale-sul-sile",
+      "nome": "Crowne Plaza Venice East - Quarto d'Altino",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Viale della Resistenza, 18/20, 30020 Quarto d'Altino VE",
+      "lat": 45.573882,
+      "lng": 12.365037
+    },
+    {
+      "id": "1ad62bff-7cba-4b9c-8eaf-dc71938012ef",
+      "slug": "hotel-ambra-casale-sul-sile",
+      "nome": "Hotel Ambra",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Via Adige, 3, 30020 Quarto d'Altino VE",
+      "lat": 45.581064,
+      "lng": 12.3664
+    },
+    {
+      "id": "3915a656-0a55-43b8-9dd3-be0c2952bcdd",
+      "slug": "hotel-continental-casale-sul-sile",
+      "nome": "Hotel Continental",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Via Roma, 16, 31100 Treviso TV",
+      "lat": 45.661813,
+      "lng": 12.246319
+    },
+    {
+      "id": "e589a7d3-25c3-4aec-b314-7478bbfac592",
+      "slug": "hotel-duca-d-aosta-casale-sul-sile",
+      "nome": "Hotel Duca D'Aosta",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Piazza Duca D'Aosta, 31, 31021 Mogliano Veneto TV",
+      "lat": 45.560733,
+      "lng": 12.234319
+    },
+    {
+      "id": "353b888e-fb08-40fb-ad55-17c4c8cfe80e",
+      "slug": "hotel-magnolia-casale-sul-sile",
+      "nome": "Hotel Magnolia",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Str. Terraglio, 136/2, 31022 Preganziol TV",
+      "lat": 45.610776,
+      "lng": 12.236377
+    },
+    {
+      "id": "f1dac4a8-c6a0-4f63-84fc-f1366ac83c79",
+      "slug": "hotel-semi-di-limone-casale-sul-sile",
+      "nome": "Hotel Semi di Limone",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Via Giambattista Tiepolo, 20, 31021 Zona Industriale S.p.z. TV",
+      "lat": 45.589598,
+      "lng": 12.299191
+    },
+    {
+      "id": "d4fdfda3-cdbd-4c13-9368-2f74a3229ae2",
+      "slug": "hotel-villa-braida-casale-sul-sile",
+      "nome": "Hotel Villa Braida",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Via Bonisiolo, 16b, 31021 Mogliano Veneto TV",
+      "lat": 45.578944,
+      "lng": 12.279274
+    },
+    {
+      "id": "1d153129-3309-4dbb-b552-33acd4ea94e0",
+      "slug": "laerte-palace-hotel-casale-sul-sile",
+      "nome": "Laerte Palace Hotel",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Via Monte Grappa, 2, 31021 Mogliano Veneto TV",
+      "lat": 45.560975,
+      "lng": 12.231643
+    },
+    {
+      "id": "a35324e9-7175-4f39-87bf-759be1de264f",
+      "slug": "move-hotels-venezia-nord-casale-sul-sile",
+      "nome": "Move Hotels Venezia Nord",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Via Bonfadini, 1, 31021 Mogliano Veneto TV",
+      "lat": 45.584272,
+      "lng": 12.28597
+    },
+    {
+      "id": "e7098a3e-22d2-49bb-aac5-05503e336fcf",
+      "slug": "the-foscarini-casale-sul-sile",
+      "nome": "The Foscarini",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Via Terraglio, 4, 31021 Mogliano Veneto TV",
+      "lat": 45.559075,
+      "lng": 12.233998
+    },
+    {
+      "id": "7ed2285e-11f4-48ec-bab5-d97055feaf2c",
+      "slug": "villa-irene-luxury-b-b-casale-sul-sile",
+      "nome": "Villa Irene - luxury B&B",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Via Vecchia Trevigiana Lughignano, 32, 31032 Casale Sul Sile TV",
+      "lat": 45.608962,
+      "lng": 12.315815
+    },
+    {
+      "id": "49599ec1-7630-4ca4-8060-74927d80aab0",
+      "slug": "villa-pace-park-hotel-bolognese-casale-sul-sile",
+      "nome": "Villa Pace Park Hotel Bolognese",
+      "city_name": "Casale sul Sile",
+      "indirizzo": "Str. Terraglio, 175, 31022 Preganziol TV",
+      "lat": 45.633179,
+      "lng": 12.240934
+    },
+    {
+      "id": "da0d8a83-8b90-42d9-886b-e7e2d2bc35c0",
+      "slug": "a-casa-di-giotto-casalecchio-di-reno",
+      "nome": "A casa di Giotto",
+      "city_name": "Casalecchio di Reno",
+      "indirizzo": "Via Don Luigi Sturzo, 43, 40135 Bologna BO",
+      "lat": 44.488263,
+      "lng": 11.295791
+    },
+    {
+      "id": "e5a89552-b74f-4b64-9285-7b223dfbd620",
+      "slug": "amati-design-hotel-con-centro-congressi-a-bologn-casalecchio-di-reno",
+      "nome": "Amatì Design Hotel con Centro Congressi a Bologna",
+      "city_name": "Casalecchio di Reno",
+      "indirizzo": "Via Rigosa, 14 Zola Predosa, 40069 Bologna BO",
+      "lat": 44.489949,
+      "lng": 11.228054
+    },
+    {
+      "id": "ac18455e-7c67-431e-a193-6904b05b04d5",
+      "slug": "b-b-ca-di-trittoni-casalecchio-di-reno",
+      "nome": "B&B Ca' di Trittoni",
+      "city_name": "Casalecchio di Reno",
+      "indirizzo": "Via Isonzo, 46, 40033 Casalecchio di Reno BO",
+      "lat": 44.487288,
+      "lng": 11.267743
+    },
+    {
+      "id": "80a909a4-98e9-4708-b64b-6a910541d0b3",
+      "slug": "b-b-galleria-del-reno-casalecchio-di-reno",
+      "nome": "B&B Galleria del Reno",
+      "city_name": "Casalecchio di Reno",
+      "indirizzo": "Via Marconi 51, c/o, Galleria del Reno, 3, 40122 Bologna BO",
+      "lat": 44.500035,
+      "lng": 11.339447
+    },
+    {
+      "id": "88a2d565-8f30-4d0b-8288-61244eda3343",
+      "slug": "b-b-la-magnolia-casalecchio-di-reno",
+      "nome": "B&B La Magnolia",
+      "city_name": "Casalecchio di Reno",
+      "indirizzo": "Via Andrea Costa, 45, 40134 Bologna BO",
+      "lat": 44.495293,
+      "lng": 11.324804
+    },
+    {
+      "id": "097b7078-6531-4e8d-9712-b7df21ba6fa5",
+      "slug": "b-b-la-terrazza-sul-reno-casalecchio-di-reno",
+      "nome": "B&B La Terrazza sul Reno",
+      "city_name": "Casalecchio di Reno",
+      "indirizzo": "Via G. Mazzini, 6, 40033 Casalecchio di Reno BO",
+      "lat": 44.478483,
+      "lng": 11.278233
+    },
+    {
+      "id": "ab4e0913-773d-49b1-8083-839510cd772c",
+      "slug": "b-b-le-stanze-di-erika-casalecchio-di-reno",
+      "nome": "B&B Le Stanze di Erika",
+      "city_name": "Casalecchio di Reno",
+      "indirizzo": "Via del Francia, 7, 40033 Casalecchio di Reno BO",
+      "lat": 44.485736,
+      "lng": 11.289332
+    },
+    {
+      "id": "9ca3b710-1c51-4151-8a15-3a1caf3d111c",
+      "slug": "b-b-maison-magnani-casalecchio-di-reno",
+      "nome": "B&B Maison Magnani",
+      "city_name": "Casalecchio di Reno",
+      "indirizzo": "Via Amerigo Vespucci, 8, 40033 Casalecchio di Reno BO",
+      "lat": 44.483131,
+      "lng": 11.279312
+    },
+    {
+      "id": "f26dc778-91c9-4a74-99de-052dc4ca7ede",
+      "slug": "bed-breakfast-chalet-i-colli-casalecchio-di-reno",
+      "nome": "Bed & Breakfast Chalet i Colli",
+      "city_name": "Casalecchio di Reno",
+      "indirizzo": "Via di Monte Albano, 25, 40135 Bologna BO",
+      "lat": 44.467193,
+      "lng": 11.299848
+    },
+    {
+      "id": "1b247244-ddc6-41d9-b899-0d835db8c9e5",
+      "slug": "bed-breakfast-chiusa-di-casalecchio-casalecchio-di-reno",
+      "nome": "Bed & Breakfast Chiusa di Casalecchio",
+      "city_name": "Casalecchio di Reno",
+      "indirizzo": "Via Filippo Turati, 3/piano terra, 40033 Casalecchio di Reno BO",
+      "lat": 44.477888,
+      "lng": 11.280957
+    },
+    {
+      "id": "30059b17-103b-407f-9c48-1657239a53fe",
+      "slug": "boutique-hotel-calzavecchio-casalecchio-di-reno",
+      "nome": "Boutique Hotel Calzavecchio",
+      "city_name": "Casalecchio di Reno",
+      "indirizzo": "Via Calzavecchio, 1, 40033 Casalecchio di Reno BO",
+      "lat": 44.473495,
+      "lng": 11.273307
+    },
+    {
+      "id": "ce3d8808-5d4b-4dba-97a1-fe14d33b6637",
+      "slug": "casa-gardel-appartamento-per-brevi-periodi-bed-a-casalecchio-di-reno",
+      "nome": "Casa Gardel Appartamento per brevi periodi Bed and breakfast",
+      "city_name": "Casalecchio di Reno",
+      "indirizzo": "Via I Maggio, 7, 40033 Casalecchio di Reno BO",
+      "lat": 44.479453,
+      "lng": 11.274405
+    },
+    {
+      "id": "54f79334-15ed-4476-b7ae-bd57a48fbc8a",
+      "slug": "continental-urban-art-hotel-casalecchio-di-reno",
+      "nome": "Continental Urban Art Hotel",
+      "city_name": "Casalecchio di Reno",
+      "indirizzo": "Via G. Garibaldi, 8, 40069 Zola Predosa BO",
+      "lat": 44.485733,
+      "lng": 11.225093
+    },
+    {
+      "id": "6d6223bf-3f27-4d14-ae0d-23a1984fd889",
+      "slug": "hotel-naxos-casalecchio-di-reno",
+      "nome": "hotel naxos",
+      "city_name": "Casalecchio di Reno",
+      "indirizzo": "Via Bazzanese, 95/3, 40033 Casalecchio di Reno BO",
+      "lat": 44.481091,
+      "lng": 11.257315
+    },
+    {
+      "id": "8432e3db-4469-4494-bf21-bf692a643ace",
+      "slug": "hotel-san-martino-bologna-casalecchio-di-reno",
+      "nome": "Hotel San Martino Bologna",
+      "city_name": "Casalecchio di Reno",
+      "indirizzo": "Via Bazzanese, 7, 40033 Casalecchio di Reno BO",
+      "lat": 44.479444,
+      "lng": 11.27
+    }
+  ]
+}

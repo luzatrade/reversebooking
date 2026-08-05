@@ -1,0 +1,323 @@
+{
+  "block": 164,
+  "blockId": "164",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "5d6706b2-6e2a-46d4-845e-4f9ee9c04b93",
+      "slug": "corte-di-emma-arzignano",
+      "nome": "Corte Di Emma",
+      "city_name": "Arzignano",
+      "indirizzo": "V. Vignaga, 37, 36071 Arzignano VI",
+      "lat": 45.526946,
+      "lng": 11.36051
+    },
+    {
+      "id": "f424dccd-3ca7-485b-a36f-ddf8248dadd0",
+      "slug": "el-canfin-arzignano",
+      "nome": "el Canfin",
+      "city_name": "Arzignano",
+      "indirizzo": "Contrada Frigon, 34, 36054 Montebello Vicentino VI",
+      "lat": 45.447872,
+      "lng": 11.400627
+    },
+    {
+      "id": "d5ea32a8-c3d7-4f96-b2aa-59514a11cfff",
+      "slug": "el-piron-di-giuliana-faggiana-arzignano",
+      "nome": "El Piron di Giuliana Faggiana",
+      "city_name": "Arzignano",
+      "indirizzo": "Via Giovanni XXIII Papa, 2, 36070 San Pietro Mussolino VI",
+      "lat": 45.58435,
+      "lng": 11.260212
+    },
+    {
+      "id": "0d43fc1e-8310-4196-a201-19a678f54ee4",
+      "slug": "hotel-ca-masieri-arzignano",
+      "nome": "Hotel Ca Masieri",
+      "city_name": "Arzignano",
+      "indirizzo": "Via Masieri, 16, 36070 Trissino VI",
+      "lat": 45.555326,
+      "lng": 11.35491
+    },
+    {
+      "id": "82562493-53a9-454b-a5e2-804596b689f1",
+      "slug": "hotel-zenari-arzignano",
+      "nome": "Hotel Zenari",
+      "city_name": "Arzignano",
+      "indirizzo": "Via B. Isnardo, 15/17, 36072 Chiampo VI",
+      "lat": 45.546135,
+      "lng": 11.278512
+    },
+    {
+      "id": "901e1553-9e2c-4cfc-90e5-75079abe5bfc",
+      "slug": "la-pietra-nera-arzignano",
+      "nome": "La Pietra Nera",
+      "city_name": "Arzignano",
+      "indirizzo": "Via Ranfani, 5, 37035 San Giovanni Ilarione VR",
+      "lat": 45.525591,
+      "lng": 11.240761
+    },
+    {
+      "id": "8ef4edb6-0308-45a2-8319-f0832d4a5520",
+      "slug": "locanda-castagna-arzignano",
+      "nome": "Locanda Castagna",
+      "city_name": "Arzignano",
+      "indirizzo": "Via Rio Torto, 50, 36071 Arzignano VI",
+      "lat": 45.530525,
+      "lng": 11.333869
+    },
+    {
+      "id": "9cc67642-ca3d-4ee4-9158-da195ca620ad",
+      "slug": "ristorante-trattoria-albergo-isetta-arzignano",
+      "nome": "Ristorante Trattoria Albergo Isetta",
+      "city_name": "Arzignano",
+      "indirizzo": "Contrada Pederiva, 96, 36044 Grancona VI",
+      "lat": 45.418945,
+      "lng": 11.459125
+    },
+    {
+      "id": "449821c9-ebc3-443b-bcb3-eca16c64bb16",
+      "slug": "affittacamere-il-centenario-ascea",
+      "nome": "Affittacamere Il Centenario",
+      "city_name": "Ascea",
+      "indirizzo": "Via XXIV Maggio, 1, 84046 Ascea SA",
+      "lat": 40.140114,
+      "lng": 15.185701
+    },
+    {
+      "id": "b8f8256a-f623-4024-8104-52e489ba9820",
+      "slug": "agriturismo-il-pozzo-ascea",
+      "nome": "Agriturismo il Pozzo",
+      "city_name": "Ascea",
+      "indirizzo": "Via Ardisani, 29, 84040 Casal Velino SA",
+      "lat": 40.191641,
+      "lng": 15.12946
+    },
+    {
+      "id": "b0701424-c5c4-43fc-9969-65119d10bb79",
+      "slug": "agriturismo-terra-di-elea-ascea",
+      "nome": "Agriturismo Terra di Elea",
+      "city_name": "Ascea",
+      "indirizzo": "Via Stampella 6 - S.P. 87, 84046 Ascea SA",
+      "lat": 40.181338,
+      "lng": 15.16776
+    },
+    {
+      "id": "71e0106c-4322-4cfd-8358-efb34500c849",
+      "slug": "albergo-elea-ascea",
+      "nome": "Albergo Elea",
+      "city_name": "Ascea",
+      "indirizzo": "Corso Elea, 69, 84046 Marina di Ascea SA",
+      "lat": 40.142441,
+      "lng": 15.168968
+    },
+    {
+      "id": "244cfbe0-3347-4b4b-8770-543092983dcc",
+      "slug": "b-b-la-chianarella-ascea",
+      "nome": "B&B La Chianarella",
+      "city_name": "Ascea",
+      "indirizzo": "Via Porta Rosa, 17, 84046 Marina di Ascea SA",
+      "lat": 40.150996,
+      "lng": 15.165042
+    },
+    {
+      "id": "0c83d5f7-7391-44b8-9a8b-671aa64d094b",
+      "slug": "casa-del-sole-ascea",
+      "nome": "Casa del Sole",
+      "city_name": "Ascea",
+      "indirizzo": "84052 Località Paradiso SA",
+      "lat": 40.188237,
+      "lng": 15.245592
+    },
+    {
+      "id": "61908223-c3d4-4592-a31a-192ca30f8d4e",
+      "slug": "donnarumma-hotel-ascea",
+      "nome": "DonnaRumma Hotel",
+      "city_name": "Ascea",
+      "indirizzo": "Via Nettuno, 1-5, 84040 Marina di Casal Velino SA",
+      "lat": 40.169259,
+      "lng": 15.136858
+    },
+    {
+      "id": "b3dd61ee-2ebb-4cc5-a036-84adc7c054ab",
+      "slug": "hotel-europa-ascea",
+      "nome": "Hotel Europa",
+      "city_name": "Ascea",
+      "indirizzo": "Via Velia, 2, 84040 Marina di Casal Velino SA",
+      "lat": 40.177785,
+      "lng": 15.12339
+    },
+    {
+      "id": "24cdd7ac-6e65-4de3-b707-627e5c92dfbe",
+      "slug": "hotel-il-porto-trattoria-del-mar-ascea",
+      "nome": "Hotel Il Porto - Trattoria del Mar",
+      "city_name": "Ascea",
+      "indirizzo": "Via Angelo Lista, 42, 84040 Marina di Casal Velino SA",
+      "lat": 40.17702,
+      "lng": 15.120216
+    },
+    {
+      "id": "925ea044-0903-43a0-9e19-ba71c7e909db",
+      "slug": "hotel-porta-rosa-ascea",
+      "nome": "Hotel Porta Rosa",
+      "city_name": "Ascea",
+      "indirizzo": "Viale Magna Graecia, 84046 Marina di Ascea SA",
+      "lat": 40.155932,
+      "lng": 15.157596
+    },
+    {
+      "id": "3be71651-8e90-4778-ba53-6ac234740e4c",
+      "slug": "hotel-villa-mar-dona-ascea",
+      "nome": "Hotel Villa Mar@dona",
+      "city_name": "Ascea",
+      "indirizzo": "Via Nettuno, 84046 Ascea SA",
+      "lat": 40.157069,
+      "lng": 15.152755
+    },
+    {
+      "id": "8e442b7e-a79c-493f-9a50-571b9c4d30b8",
+      "slug": "hotel-villaggio-copacabana-ascea",
+      "nome": "HOTEL VILLAGGIO COPACABANA",
+      "city_name": "Ascea",
+      "indirizzo": "Via Isola, 84040 Marina di Casal Velino SA",
+      "lat": 40.170848,
+      "lng": 15.134721
+    },
+    {
+      "id": "49a79f2b-213e-46f8-b1cd-692c76d109af",
+      "slug": "il-paradiso-di-hyele-ascea",
+      "nome": "Il Paradiso di Hyele",
+      "city_name": "Ascea",
+      "indirizzo": "Via contrada pennino,9, 84046 Ascea SA",
+      "lat": 40.145931,
+      "lng": 15.171413
+    },
+    {
+      "id": "c3999fbf-d16a-4628-ace0-4b70ee69638a",
+      "slug": "l-oasi-del-fauno-country-house-ascea",
+      "nome": "L'Oasi del Fauno Country House",
+      "city_name": "Ascea",
+      "indirizzo": "Via Varco della Spina, 84040 Casal Velino SA",
+      "lat": 40.193903,
+      "lng": 15.145116
+    },
+    {
+      "id": "7b8dcfed-ca24-410a-b17d-8b2b8b68dedf",
+      "slug": "la-casa-sul-blu-ascea",
+      "nome": "La Casa sul Blu",
+      "city_name": "Ascea",
+      "indirizzo": "Via Praiano, 12, 84066 Pisciotta SA",
+      "lat": 40.107126,
+      "lng": 15.233809
+    },
+    {
+      "id": "596d8b76-b4b4-49d5-9331-30b3779c9905",
+      "slug": "magicomar-hotel-ascea",
+      "nome": "MagicoMar Hotel",
+      "city_name": "Ascea",
+      "indirizzo": "Viale Esperia, 84046 Marina di Ascea SA",
+      "lat": 40.148844,
+      "lng": 15.163534
+    },
+    {
+      "id": "3f6b08cd-9fcb-4aee-8627-0640acee5c0a",
+      "slug": "marulivo-boutique-hotel-ascea",
+      "nome": "Marulivo Boutique Hotel",
+      "city_name": "Ascea",
+      "indirizzo": "Via Castello, 21, 84066 Pisciotta SA",
+      "lat": 40.108334,
+      "lng": 15.232623
+    },
+    {
+      "id": "550ca376-919d-439c-b805-e0436479e163",
+      "slug": "olimpia-cilento-resort-ascea",
+      "nome": "Olimpia Cilento Resort",
+      "city_name": "Ascea",
+      "indirizzo": "Viale delle Sirene, 84046 Marina di Ascea SA",
+      "lat": 40.151882,
+      "lng": 15.157818
+    },
+    {
+      "id": "f927ed62-497e-4bc2-a48d-3be47b8bab42",
+      "slug": "palazzo-del-baglivo-hotel-spa-cilento-ascea",
+      "nome": "Palazzo del Baglivo Hotel & Spa Cilento",
+      "city_name": "Ascea",
+      "indirizzo": "Via Vittoria 16 Frazione Casigliano, 84074 Mercato Cilento SA",
+      "lat": 40.278085,
+      "lng": 15.048652
+    },
+    {
+      "id": "d782ec8d-dcd1-41fe-a37b-46e1286e6b14",
+      "slug": "villa-laura-residence-hotel-apartments-studios-ascea",
+      "nome": "Villa Laura Residence Hotel Apartments & Studios",
+      "city_name": "Ascea",
+      "indirizzo": "Via Dionisio, 84046 Marina di Ascea SA",
+      "lat": 40.155918,
+      "lng": 15.158694
+    },
+    {
+      "id": "86d0a695-d836-409d-a32f-391a03f49f1a",
+      "slug": "acetylene-b-b-asciano",
+      "nome": "Acetylene B&B",
+      "city_name": "Asciano",
+      "indirizzo": "Via Provinciale Nord, 7/int. 5, 53040 Rapolano Terme SI",
+      "lat": 43.28777,
+      "lng": 11.6044
+    },
+    {
+      "id": "dab213c6-f708-43f0-aec4-b4526014fef2",
+      "slug": "agriturismo-dipinture-asciano",
+      "nome": "Agriturismo Dipinture",
+      "city_name": "Asciano",
+      "indirizzo": "Via Grottoli, 36, 53041 Asciano SI",
+      "lat": 43.228923,
+      "lng": 11.564497
+    },
+    {
+      "id": "86c7b8cb-9a4c-461f-bab2-21e6b3363966",
+      "slug": "agriturismo-il-molinello-asciano",
+      "nome": "Agriturismo Il Molinello",
+      "city_name": "Asciano",
+      "indirizzo": "Molinello, 53041 Asciano SI",
+      "lat": 43.241403,
+      "lng": 11.60008
+    },
+    {
+      "id": "11460021-cb92-4fca-942f-7bbb5dbe00b8",
+      "slug": "agriturismo-monte-oliveto-maggiore-asciano",
+      "nome": "Agriturismo Monte Oliveto Maggiore",
+      "city_name": "Asciano",
+      "indirizzo": "Via delle Piazze, 14, 53041 Chiusure SI",
+      "lat": 43.177158,
+      "lng": 11.559134
+    },
+    {
+      "id": "4eb8c1d0-c46a-4c76-a088-4d900489cfdd",
+      "slug": "agriturismo-paradiso-di-rughi-fabio-asciano",
+      "nome": "Agriturismo Paradiso Di Rughi Fabio",
+      "city_name": "Asciano",
+      "indirizzo": "Str. Vicinale del Piano, 32, 53041 Asciano SI",
+      "lat": 43.246659,
+      "lng": 11.561905
+    },
+    {
+      "id": "7b447195-f897-48a7-8b62-2064fcd4c001",
+      "slug": "alle-terme-b-b-bio-rooms-asciano",
+      "nome": "Alle Terme B&B Bio Rooms",
+      "city_name": "Asciano",
+      "indirizzo": "Via S. Sebastiano, 27, 53040 Rapolano Terme SI",
+      "lat": 43.284515,
+      "lng": 11.607271
+    },
+    {
+      "id": "c75a13bc-2658-4218-a8b3-50e9f63afb21",
+      "slug": "antico-granaione-b-b-residenza-d-epoca-it052026b-asciano",
+      "nome": "Antico Granaione B&B Residenza d'Epoca IT052026B9LCNLYMEY",
+      "city_name": "Asciano",
+      "indirizzo": "Via Fratelli Rosselli, 53040 Serre di Rapolano SI",
+      "lat": 43.258641,
+      "lng": 11.616422
+    }
+  ]
+}

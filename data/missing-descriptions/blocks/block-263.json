@@ -1,0 +1,323 @@
+{
+  "block": 263,
+  "blockId": "263",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "fa27b75e-1575-47ed-85aa-1821a878eec9",
+      "slug": "quader-nidi-nel-verde-berzo-inferiore",
+      "nome": "Quader nidi nel verde",
+      "city_name": "Berzo Inferiore",
+      "indirizzo": "Via Quadro, 25040 Bienno BS",
+      "lat": 45.926176,
+      "lng": 10.313296
+    },
+    {
+      "id": "3078bac8-3713-4029-9448-3715351e8521",
+      "slug": "roccaverde-hotel-berzo-inferiore",
+      "nome": "RoccaVerde Hotel",
+      "city_name": "Berzo Inferiore",
+      "indirizzo": "Via Follo, 1, 25043 Breno BS",
+      "lat": 45.956686,
+      "lng": 10.294513
+    },
+    {
+      "id": "ba53768e-eedd-492b-b821-dc16c3dad081",
+      "slug": "agriturismo-ca-del-manet-berzo-san-fermo",
+      "nome": "Agriturismo Cà del Manét",
+      "city_name": "Berzo San Fermo",
+      "indirizzo": "Via dei Roncati, 13, 24060 San Paolo d'Argon BG",
+      "lat": 45.691224,
+      "lng": 9.792877
+    },
+    {
+      "id": "ef208c17-85c4-4208-839d-255e3fc50596",
+      "slug": "agriturismo-con-camere-green-valley-berzo-san-fermo",
+      "nome": "Agriturismo con camere Green Valley",
+      "city_name": "Berzo San Fermo",
+      "indirizzo": "Via Valle Rossa, 73, 24020 Cene BG",
+      "lat": 45.779048,
+      "lng": 9.872625
+    },
+    {
+      "id": "b8ab53b9-edd9-4e00-83a2-cbe1e0cf45d4",
+      "slug": "agriturismo-ippolita-lucchetti-berzo-san-fermo",
+      "nome": "Agriturismo Ippolita Lucchetti",
+      "city_name": "Berzo San Fermo",
+      "indirizzo": "Localita, Via Valle Rossa, 24020 Cene BG",
+      "lat": 45.775542,
+      "lng": 9.864951
+    },
+    {
+      "id": "307dedc4-c9c7-41d0-a018-c7f82a6300a4",
+      "slug": "agriturismo-terra-e-lago-berzo-san-fermo",
+      "nome": "Agriturismo Terra e Lago",
+      "city_name": "Berzo San Fermo",
+      "indirizzo": "Via Giuseppe Garibaldi, 40, 25030 Paratico BS",
+      "lat": 45.653598,
+      "lng": 9.949326
+    },
+    {
+      "id": "4d047559-5bd2-4073-b118-bd9503b2e0cf",
+      "slug": "albergo-ristorante-della-torre-wine-bar-enoteca-berzo-san-fermo",
+      "nome": "Albergo Ristorante della Torre - Wine bar, Enoteca in Val Cavallina",
+      "city_name": "Berzo San Fermo",
+      "indirizzo": "Piazza Cavour, 26, 24069 Trescore Balneario BG",
+      "lat": 45.695216,
+      "lng": 9.840273
+    },
+    {
+      "id": "5c0edf9d-e8ec-49ca-aebb-97f3c8e1430c",
+      "slug": "b-b-gledizia-berzo-san-fermo",
+      "nome": "B&B Gledizia",
+      "city_name": "Berzo San Fermo",
+      "indirizzo": "Via Pietra di Credaro, 27, 24060 Credaro BG",
+      "lat": 45.656472,
+      "lng": 9.93145
+    },
+    {
+      "id": "5a8ff373-d264-4386-bf02-ecc0c4424bb7",
+      "slug": "b-b-vinea-prisca-family-resort-1998-berzo-san-fermo",
+      "nome": "B&B Vinea Prisca Family Resort 1998",
+      "city_name": "Berzo San Fermo",
+      "indirizzo": "Via S. Bernardo, 1A, 24069 Cenate Sotto BG",
+      "lat": 45.701067,
+      "lng": 9.814501
+    },
+    {
+      "id": "cb5e2251-406d-4488-88f1-ff33e57d207d",
+      "slug": "boutique-hotel-roma-30-berzo-san-fermo",
+      "nome": "Boutique Hotel Roma 30",
+      "city_name": "Berzo San Fermo",
+      "indirizzo": "Via Roma, 30, 24069 Trescore Balneario BG",
+      "lat": 45.690299,
+      "lng": 9.843257
+    },
+    {
+      "id": "30c29bc2-fb0b-4d80-a319-a4c000b0fb63",
+      "slug": "b-b-circuito-besana-in-brianza",
+      "nome": "B&B Circuito",
+      "city_name": "Besana in Brianza",
+      "indirizzo": "Via Roma, 21, 20853 Biassono MB",
+      "lat": 45.630632,
+      "lng": 9.276683
+    },
+    {
+      "id": "196032af-cd37-4551-9c9e-ef50f045c2aa",
+      "slug": "birabiro-b-b-cin-it108015c13tgu7tew-besana-in-brianza",
+      "nome": "Birabiro b&b - CIN IT108015C13TGU7TEW",
+      "city_name": "Besana in Brianza",
+      "indirizzo": "Via Goito, 29, 20841 Carate Brianza MB",
+      "lat": 45.67141,
+      "lng": 9.224914
+    },
+    {
+      "id": "37597c52-19a5-4931-a31d-b8fc8b83519e",
+      "slug": "b-b-il-pioppo-antico-besano",
+      "nome": "B&b Il Pioppo Antico",
+      "city_name": "Besano",
+      "indirizzo": "Via dei Tigli, 4, 21059 Viggiù VA",
+      "lat": 45.872456,
+      "lng": 8.915521
+    },
+    {
+      "id": "5a565bd1-73df-4029-a71b-3422cd3bc526",
+      "slug": "caroline-hotel-besano",
+      "nome": "Caroline Hotel",
+      "city_name": "Besano",
+      "indirizzo": "Via Federico Motta, 4, 21050 Brusimpiano VA",
+      "lat": 45.945228,
+      "lng": 8.889283
+    },
+    {
+      "id": "9ed8f04e-c1fc-44d9-880c-1e1220143558",
+      "slug": "l-helleboro-besano",
+      "nome": "L’Helleboro",
+      "city_name": "Besano",
+      "indirizzo": "Via S. Elia, 88, 21059 Viggiu' VA",
+      "lat": 45.87668,
+      "lng": 8.904522
+    },
+    {
+      "id": "585115b7-8fc3-4bda-b03c-d86c9ca1d844",
+      "slug": "villa-rina-besano",
+      "nome": "Villa Rina",
+      "city_name": "Besano",
+      "indirizzo": "Via Roma, 106, 21050 Porto Ceresio VA",
+      "lat": 45.910593,
+      "lng": 8.910669
+    },
+    {
+      "id": "025cb70f-fae4-4850-8584-53c4789864bf",
+      "slug": "aquarius-besate",
+      "nome": "Aquarius",
+      "city_name": "Besate",
+      "indirizzo": "Via Morona, 73, 20090 Trezzano sul Naviglio MI",
+      "lat": 45.42726,
+      "lng": 9.051709
+    },
+    {
+      "id": "9cfe4e7d-3ece-40c7-b3b2-b9a226b2ddfc",
+      "slug": "b-b-magnolia-besate",
+      "nome": "B&B Magnolia",
+      "city_name": "Besate",
+      "indirizzo": "Via De Capitani, 35/2, 20080 Besate MI",
+      "lat": 45.312458,
+      "lng": 8.971187
+    },
+    {
+      "id": "6b70ee39-21d5-4e97-a87d-21144aee2653",
+      "slug": "hotel-del-parco-besate",
+      "nome": "Hotel del Parco",
+      "city_name": "Besate",
+      "indirizzo": "Corso Milano, 95, 27029 Vigevano PV",
+      "lat": 45.330227,
+      "lng": 8.881545
+    },
+    {
+      "id": "6c1907e7-5c15-45d1-b7bb-ba1544d58f7f",
+      "slug": "hotel-morimondo-besate",
+      "nome": "Hotel Morimondo",
+      "city_name": "Besate",
+      "indirizzo": "Corte dei Cistercensi, 6, 20081 Morimondo MI",
+      "lat": 45.353119,
+      "lng": 8.955721
+    },
+    {
+      "id": "4494c6fe-5f57-42c0-bfd4-b1e4a289986d",
+      "slug": "hotel-motel-2000-besate",
+      "nome": "Hotel Motel 2000",
+      "city_name": "Besate",
+      "indirizzo": "Viale Cristoforo Colombo, 55, 20090 Trezzano sul Naviglio MI",
+      "lat": 45.428324,
+      "lng": 9.074884
+    },
+    {
+      "id": "f2d47fd2-56d9-4084-a90f-227fb81adf42",
+      "slug": "agritur-il-granello-besenello",
+      "nome": "Agritur Il Granello",
+      "city_name": "Besenello",
+      "indirizzo": "Via Stradone Vecchio, 13, 38019 Ville d'Anaunia TN",
+      "lat": 46.33077,
+      "lng": 11.023959
+    },
+    {
+      "id": "0f581130-0d52-43f6-9f9f-633ebce0fc35",
+      "slug": "agritur-maso-nello-besenello",
+      "nome": "Agritur Maso Nello",
+      "city_name": "Besenello",
+      "indirizzo": "Via Pineta, 3 - loc. Maso Nello Faedo, 38098 S. Michele a/A TN",
+      "lat": 46.195433,
+      "lng": 11.166355
+    },
+    {
+      "id": "9fd5f943-c763-425e-aad4-db03b7cedb93",
+      "slug": "agritur-renetta-besenello",
+      "nome": "Agritur Renetta",
+      "city_name": "Besenello",
+      "indirizzo": "Via di Campo, 12, 38019 Ville d'Anaunia TN",
+      "lat": 46.332748,
+      "lng": 11.052468
+    },
+    {
+      "id": "4684f55c-dce0-4be3-8947-fcb891b0b76f",
+      "slug": "agriturismo-ruatti-besenello",
+      "nome": "Agriturismo Ruatti",
+      "city_name": "Besenello",
+      "indirizzo": "Frazione Pracorno, 95, 38020 Pracorno TN",
+      "lat": 46.370668,
+      "lng": 10.885707
+    },
+    {
+      "id": "d8f0f558-7183-47f2-9989-b1a449f656bd",
+      "slug": "agriturismo-salizzoni-besenello",
+      "nome": "Agriturismo Salizzoni",
+      "city_name": "Besenello",
+      "indirizzo": "Via Valentini, 31, 38060 Calliano TN",
+      "lat": 45.935768,
+      "lng": 11.094272
+    },
+    {
+      "id": "84dbec35-2873-484f-9b88-308b81a30dd0",
+      "slug": "azienda-agricola-pratello-besenello",
+      "nome": "Azienda Agricola Pratello",
+      "city_name": "Besenello",
+      "indirizzo": "Via Pratello, 26, 25080 Padenghe sul Garda BS",
+      "lat": 45.508654,
+      "lng": 10.494648
+    },
+    {
+      "id": "5196a717-2db9-4716-8ee2-219c512dc6c4",
+      "slug": "b-b-bluemind-besenello",
+      "nome": "B&B BlueMind",
+      "city_name": "Besenello",
+      "indirizzo": "via Roma, 45, 38060 Besenello TN",
+      "lat": 45.938933,
+      "lng": 11.110925
+    },
+    {
+      "id": "5c2c4a23-33a8-4f39-9fa6-e8970e4b2c62",
+      "slug": "garni-anna-besenello",
+      "nome": "Garni Anna",
+      "city_name": "Besenello",
+      "indirizzo": "Via De Gasperi, 69, 38060 Besenello TN",
+      "lat": 45.947837,
+      "lng": 11.105578
+    },
+    {
+      "id": "1455239c-396a-4fa0-89ee-05156311776f",
+      "slug": "agriturismo-battibue-besenzone",
+      "nome": "Agriturismo Battibue",
+      "city_name": "Besenzone",
+      "indirizzo": "Via Battibue Localita Baselicaduce, 278, 29017 Fiorenzuola d'Arda PC",
+      "lat": 44.928426,
+      "lng": 9.92858
+    },
+    {
+      "id": "3a6c8025-aba9-491c-85de-79217abefc1a",
+      "slug": "agriturismo-la-terzola-3-0-besenzone",
+      "nome": "Agriturismo La Terzola 3.0",
+      "city_name": "Besenzone",
+      "indirizzo": "località Terzola, Via S. Protaso, 29017 Fiorenzuola d'Arda PC",
+      "lat": 44.931138,
+      "lng": 9.892207
+    },
+    {
+      "id": "ada0aeee-c108-48ee-8ace-66d5915567ca",
+      "slug": "agriturismo-le-colombaie-besenzone",
+      "nome": "Agriturismo Le Colombaie",
+      "city_name": "Besenzone",
+      "indirizzo": "Via Bersano, 34, 29010 Besenzone PC",
+      "lat": 44.976467,
+      "lng": 10.014315
+    },
+    {
+      "id": "a2fbba1a-63b0-4ad7-8c9c-f6c4e2b3a67d",
+      "slug": "albergo-san-donnino-fidenza-besenzone",
+      "nome": "Albergo San Donnino Fidenza",
+      "city_name": "Besenzone",
+      "indirizzo": "Via Agostino Berenini, 134, 43036 Fidenza PR",
+      "lat": 44.86509,
+      "lng": 10.065325
+    },
+    {
+      "id": "a03979df-8ea7-42cb-8ecd-23f868dc10ca",
+      "slug": "b-b-caminata-415-besenzone",
+      "nome": "B&B Caminata 415",
+      "city_name": "Besenzone",
+      "indirizzo": "Loc. Caselle Caminata, 415, 29017 Fiorenzuola d'Arda PC",
+      "lat": 44.903346,
+      "lng": 9.902588
+    },
+    {
+      "id": "5f83c264-f963-45f9-808f-45c1cf98dc28",
+      "slug": "b-b-casolare-fratina-besenzone",
+      "nome": "B&B Casolare Fratina",
+      "city_name": "Besenzone",
+      "indirizzo": "Vicolo Fratina, 3, 43016 Polesine Zibello PR",
+      "lat": 45.021607,
+      "lng": 10.132696
+    }
+  ]
+}

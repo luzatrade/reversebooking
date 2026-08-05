@@ -1,0 +1,323 @@
+{
+  "block": 76,
+  "blockId": "076",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "41841680-170d-42a4-929d-8ef967472496",
+      "slug": "wundergarten-dimora-dei-frati-aliminusa",
+      "nome": "Wundergarten Dimora dei frati",
+      "city_name": "Aliminusa",
+      "indirizzo": "Via Borgognone, 22, 90010 Gratteri PA",
+      "lat": 37.96445,
+      "lng": 13.972579
+    },
+    {
+      "id": "332c8ca7-dc19-4db0-a931-453512c828e4",
+      "slug": "agriturismo-furfullanu-allai",
+      "nome": "Agriturismo Furfullanu",
+      "city_name": "Allai",
+      "indirizzo": "Via case sparse, 58, 09058 Nurallao CA",
+      "lat": 39.781463,
+      "lng": 9.071167
+    },
+    {
+      "id": "2cbe7a3e-4a31-41df-9a3f-3570e462cfa4",
+      "slug": "b-b-madau-allai",
+      "nome": "B&B Madau",
+      "city_name": "Allai",
+      "indirizzo": "Via Vitt. Emanuele, 36A, 09086 Samugheo OR",
+      "lat": 39.946198,
+      "lng": 8.938799
+    },
+    {
+      "id": "a564fe85-dc3e-4e52-b32b-a5753bdd2642",
+      "slug": "sardegna-grand-hotel-terme-allai",
+      "nome": "Sardegna Grand Hotel Terme",
+      "city_name": "Allai",
+      "indirizzo": "SP23, 1, 09083 Fordongianus OR",
+      "lat": 39.999494,
+      "lng": 8.807251
+    },
+    {
+      "id": "5eb59782-6ec2-4de7-83f1-65581c4492ce",
+      "slug": "hotel-adriana-alleghe",
+      "nome": "Hotel Adriana",
+      "city_name": "Alleghe",
+      "indirizzo": "Corso Venezia, 20, 32022 Masaré BL",
+      "lat": 46.398413,
+      "lng": 12.013288
+    },
+    {
+      "id": "41586d02-7de1-43a9-8377-bde868af181b",
+      "slug": "hotel-albe-alleghe",
+      "nome": "Hotel Albe",
+      "city_name": "Alleghe",
+      "indirizzo": "Via Marmolada, Località Bosco Verde, 31, 32023 Rocca Pietore BL",
+      "lat": 46.428239,
+      "lng": 11.952862
+    },
+    {
+      "id": "131e0d65-4e42-4600-88d5-2d8e35280154",
+      "slug": "hotel-ciclamino-alleghe",
+      "nome": "Hotel Ciclamino",
+      "city_name": "Alleghe",
+      "indirizzo": "Corso Trieste, 8, 32022 Alleghe BL",
+      "lat": 46.386804,
+      "lng": 11.996313
+    },
+    {
+      "id": "4f0c75c7-e353-4e59-91e8-2b17352c0022",
+      "slug": "hotel-la-maison-wellness-spa-alleghe",
+      "nome": "Hotel La Maison Wellness & SPA",
+      "city_name": "Alleghe",
+      "indirizzo": "Via Masarè, 58, 32022 Alleghe BL",
+      "lat": 46.39493,
+      "lng": 12.006416
+    },
+    {
+      "id": "e149fac3-481e-4e43-baa6-55ce500c4a3a",
+      "slug": "hotel-mae-e-residence-panorama-alleghe",
+      "nome": "Hotel Maè e Residence Panorama",
+      "city_name": "Alleghe",
+      "indirizzo": "Via Masarei, 3, 32012 Val di Zoldo BL",
+      "lat": 46.387351,
+      "lng": 12.113882
+    },
+    {
+      "id": "f26f038d-57f3-4f97-82c6-3283bf4dd108",
+      "slug": "hotel-mondeval-alleghe",
+      "nome": "Hotel Mondeval",
+      "city_name": "Alleghe",
+      "indirizzo": "Via Piz del Corvo, 16, 32020 Santa Fosca BL",
+      "lat": 46.442353,
+      "lng": 12.066388
+    },
+    {
+      "id": "ec129d86-6b69-4958-909b-40f2ba9df40d",
+      "slug": "hotel-monte-civetta-alleghe",
+      "nome": "Hotel Monte Civetta",
+      "city_name": "Alleghe",
+      "indirizzo": "Via Nazionale, 22, 32022 Caprile BL",
+      "lat": 46.433637,
+      "lng": 11.998105
+    },
+    {
+      "id": "db999e53-8a00-469d-8ff7-c581000a1029",
+      "slug": "hotel-nigritella-alleghe",
+      "nome": "Hotel Nigritella",
+      "city_name": "Alleghe",
+      "indirizzo": "Via Santa Fosca, 17, 32020 Selva di Cadore BL",
+      "lat": 46.445244,
+      "lng": 12.060313
+    },
+    {
+      "id": "6a3a2553-caf1-4880-8741-2b14392ace38",
+      "slug": "hotel-orso-grigio-alleghe",
+      "nome": "Hotel Orso Grigio",
+      "city_name": "Alleghe",
+      "indirizzo": "Via Pescul, 103/105, 32020 Pescul BL",
+      "lat": 46.437569,
+      "lng": 12.071074
+    },
+    {
+      "id": "6dd20970-8159-4d70-bb0c-3a070393f4a1",
+      "slug": "hotel-ristorante-aurora-alleghe",
+      "nome": "Hotel Ristorante Aurora",
+      "city_name": "Alleghe",
+      "indirizzo": "Località Saviner di Laste, 60, 32023 Saviner di Laste BL",
+      "lat": 46.439589,
+      "lng": 11.987144
+    },
+    {
+      "id": "7f8326f9-d77c-4d39-af8a-be49a3a69c5c",
+      "slug": "hotel-tea-dolomiti-alleghe",
+      "nome": "Hotel Tea Dolomiti",
+      "city_name": "Alleghe",
+      "indirizzo": "Corso Italia, 86, 32022 Alleghe BL",
+      "lat": 46.408396,
+      "lng": 12.01905
+    },
+    {
+      "id": "05adcfef-ec55-4a70-b69d-703c80c8fcd9",
+      "slug": "hotel-valgranda-wellness-spa-alleghe",
+      "nome": "Hotel Valgranda **** Wellness & SPA",
+      "city_name": "Alleghe",
+      "indirizzo": "Via Pecol, 11, 32012 Pecol BL",
+      "lat": 46.392173,
+      "lng": 12.104582
+    },
+    {
+      "id": "a9254242-b4d0-4ee7-a0cd-8aa03662a633",
+      "slug": "hotel-venezia-alleghe",
+      "nome": "Hotel Venezia",
+      "city_name": "Alleghe",
+      "indirizzo": "Località Saviner di Laste, 50, 32023 Saviner di Laste BL",
+      "lat": 46.440254,
+      "lng": 11.987666
+    },
+    {
+      "id": "99f54ca8-6969-4748-a2b9-62c0d8378f8b",
+      "slug": "naturae-lodge-alleghe",
+      "nome": "Naturae Lodge",
+      "city_name": "Alleghe",
+      "indirizzo": "Via Lungo Lago, 12, 32022 Alleghe BL",
+      "lat": 46.405986,
+      "lng": 12.022225
+    },
+    {
+      "id": "a59c8e14-a281-41d0-b80b-e719c95d54fa",
+      "slug": "pineta-pastry-hotel-alleghe",
+      "nome": "Pineta Pastry Hotel",
+      "city_name": "Alleghe",
+      "indirizzo": "Via Marmolada, 13, 32023 Rocca Pietore BL",
+      "lat": 46.428747,
+      "lng": 11.96019
+    },
+    {
+      "id": "9ff72e2f-dabe-43d1-9f77-3ec002a1d39f",
+      "slug": "sporthotel-europa-alleghe",
+      "nome": "Sporthotel Europa",
+      "city_name": "Alleghe",
+      "indirizzo": "Via Europa, 10, 32022 Alleghe BL",
+      "lat": 46.406635,
+      "lng": 12.019265
+    },
+    {
+      "id": "e33831a6-7d86-483b-a4d7-0466b42f8d58",
+      "slug": "affittacamere-relais-de-la-grandze-allein",
+      "nome": "Affittacamere Relais de la Grandze",
+      "city_name": "Allein",
+      "indirizzo": "La Cretaz, 27, 11010 Doues AO",
+      "lat": 45.818663,
+      "lng": 7.305067
+    },
+    {
+      "id": "03a5adf1-81f0-4ed0-acca-d2642d269a4c",
+      "slug": "agriturismo-lo-ratele-allein",
+      "nome": "Agriturismo Lo Ratele",
+      "city_name": "Allein",
+      "indirizzo": "frazione villa n3, 11010 Allein AO",
+      "lat": 45.81251,
+      "lng": 7.273911
+    },
+    {
+      "id": "9f28e208-1d9a-4cfb-95cb-d8483a95190b",
+      "slug": "al-caminetto-allein",
+      "nome": "Al Caminetto",
+      "city_name": "Allein",
+      "indirizzo": "Via Canonico Giuseppe Brèan Nr, 33, 11100 Aosta AO",
+      "lat": 45.735227,
+      "lng": 7.302678
+    },
+    {
+      "id": "bc6e5ae8-689c-45a2-a800-7ca83bf415db",
+      "slug": "albergo-mont-velan-allein",
+      "nome": "Albergo Mont Velan",
+      "city_name": "Allein",
+      "indirizzo": "Rue Du Grand Saint Bernard, 13, 11014 Saint-Oyen AO",
+      "lat": 45.824507,
+      "lng": 7.213475
+    },
+    {
+      "id": "acf00de1-5d2a-4cd5-8758-2cca2d0db80d",
+      "slug": "albergo-residence-mont-gele-allein",
+      "nome": "Albergo Residence Mont Gelè",
+      "city_name": "Allein",
+      "indirizzo": "Frazione Voueces, 3, 11010 Ollomont AO",
+      "lat": 45.858381,
+      "lng": 7.300962
+    },
+    {
+      "id": "2de33504-20e5-4b16-9ba6-a1e78553f20e",
+      "slug": "b-b-enchante-allein",
+      "nome": "B&B EnChanté",
+      "city_name": "Allein",
+      "indirizzo": "Frazione Chanté, 12, 11010 Chanté AO",
+      "lat": 45.80835,
+      "lng": 7.284037
+    },
+    {
+      "id": "e486c833-a655-4a77-a544-45797b71ccc3",
+      "slug": "b-b-maison-cerise-allein",
+      "nome": "B&B Maison Cerise",
+      "city_name": "Allein",
+      "indirizzo": "11010 Allein AO, Italia",
+      "lat": 45.80729,
+      "lng": 7.273761
+    },
+    {
+      "id": "b7ac1a78-715c-4152-a19d-0fe296842179",
+      "slug": "camping-tunnel-international-allein",
+      "nome": "Camping Tunnel International",
+      "city_name": "Allein",
+      "indirizzo": "Rue Chevrières, 4, 11014 Etroubles AO",
+      "lat": 45.818345,
+      "lng": 7.228564
+    },
+    {
+      "id": "09a08961-cd8b-419a-bbbf-b606e7174c3f",
+      "slug": "chez-magan-allein",
+      "nome": "Chez Magan",
+      "city_name": "Allein",
+      "indirizzo": "Frazione Crè, 35, 11010 Gignod AO",
+      "lat": 45.775814,
+      "lng": 7.299446
+    },
+    {
+      "id": "3c4acfc7-9ebe-4bfe-b510-f9f997a402eb",
+      "slug": "clemaison-antica-dimora-appartamenti-allein",
+      "nome": "CleMaison Antica Dimora - Appartamenti",
+      "city_name": "Allein",
+      "indirizzo": "Frazione Clémencey, 6, 11010 Gignod AO",
+      "lat": 45.789416,
+      "lng": 7.269535
+    },
+    {
+      "id": "78f0325a-0a6c-4433-ba21-057df7f2235f",
+      "slug": "hostellerie-du-cheval-blanc-allein",
+      "nome": "Hostellerie Du Cheval Blanc",
+      "city_name": "Allein",
+      "indirizzo": "Rue, Via Clavalité, 20, 11100 Aosta AO",
+      "lat": 45.738959,
+      "lng": 7.336732
+    },
+    {
+      "id": "4245fd10-4f93-4632-a862-86497718a464",
+      "slug": "hotel-beau-sejour-allein",
+      "nome": "Hôtel Beau Sejour",
+      "city_name": "Allein",
+      "indirizzo": "Route Nationale du Grand Saint Bernard, 3, 11014 Etroubles AO",
+      "lat": 45.819075,
+      "lng": 7.229685
+    },
+    {
+      "id": "b16f8b94-3c21-4375-b199-2aabc2b34b9d",
+      "slug": "hotel-bellevue-allein",
+      "nome": "Hotel Bellevue",
+      "city_name": "Allein",
+      "indirizzo": "Frazione La Ressaz, 3, 11010 Gignod AO",
+      "lat": 45.776906,
+      "lng": 7.298009
+    },
+    {
+      "id": "f069f986-d6f8-48e5-86d2-7a1e9fc6350d",
+      "slug": "hotel-miage-allein",
+      "nome": "Hotel Miage",
+      "city_name": "Allein",
+      "indirizzo": "loc, Frazione Pont Suaz, 252, 11020 Charvensod AO",
+      "lat": 45.726925,
+      "lng": 7.32286
+    },
+    {
+      "id": "2d8bcb45-8f1a-4dcc-8f1e-96b020c3edd9",
+      "slug": "la-maison-du-bon-megnadzo-allein",
+      "nome": "La Maison du Bon Megnadzo",
+      "city_name": "Allein",
+      "indirizzo": "Località Chanet, 11010 Doues AO",
+      "lat": 45.79772,
+      "lng": 7.300076
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 421,
+  "blockId": "421",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "9b7e0c02-db60-4964-95d9-09667436f596",
+      "slug": "s-imbragu-b-b-capoterra",
+      "nome": "S'Imbragu B&B",
+      "city_name": "Capoterra",
+      "indirizzo": "Via Santa Barbara, 13, 09012 Capoterra CA",
+      "lat": 39.174732,
+      "lng": 8.969182
+    },
+    {
+      "id": "43dd0e68-0174-4aa0-a1d6-6477dffc0cc3",
+      "slug": "sa-sindria-cagliari-capoterra",
+      "nome": "Sa Sindria - Cagliari",
+      "city_name": "Capoterra",
+      "indirizzo": "Viale Sant'Avendrace, 351, 09122 Cagliari CA",
+      "lat": 39.233693,
+      "lng": 9.097625
+    },
+    {
+      "id": "74e25aa8-8bd7-4bf0-af62-20e2a4dfc432",
+      "slug": "villa-donna-maria-capoterra",
+      "nome": "Villa Donna Maria",
+      "city_name": "Capoterra",
+      "indirizzo": "Corso A.Gramsci, 23, 09012 Capoterra CA",
+      "lat": 39.177223,
+      "lng": 8.97077
+    },
+    {
+      "id": "b410b139-8b5b-49b6-9ea7-d964aa31e790",
+      "slug": "b-b-il-castello-di-denisa-capovalle",
+      "nome": "B&B Il castello di Denisa",
+      "city_name": "Capovalle",
+      "indirizzo": "Via Castello, 4, 25074 Idro BS",
+      "lat": 45.73471,
+      "lng": 10.46702
+    },
+    {
+      "id": "596544bf-dd13-4a8a-879b-7bba62bada79",
+      "slug": "b-b-la-casa-di-barbara-capovalle",
+      "nome": "B&B La Casa di Barbara",
+      "city_name": "Capovalle",
+      "indirizzo": "Via Balotello, 3, 25074 Crone BS",
+      "lat": 45.740359,
+      "lng": 10.484307
+    },
+    {
+      "id": "29e3b5c8-af48-4fb8-a6db-7b940915742f",
+      "slug": "casa-paola-capovalle",
+      "nome": "Casa Paola",
+      "city_name": "Capovalle",
+      "indirizzo": "CRV s.r.l, Via Sasse, 40, 25074 Idro BS",
+      "lat": 45.78033,
+      "lng": 10.523591
+    },
+    {
+      "id": "652ff200-f57b-4b5c-83ca-f51786b2d5a5",
+      "slug": "hotel-bar-gelateria-alpino-capovalle",
+      "nome": "Hotel, Bar, Gelateria Alpino",
+      "city_name": "Capovalle",
+      "indirizzo": "Via Lungo Lago Vittoria, 14, 25074 Crone BS",
+      "lat": 45.740376,
+      "lng": 10.480753
+    },
+    {
+      "id": "af078415-feb7-4c6c-87e3-28279713f3f7",
+      "slug": "sportcamping-glamping-resort-rio-vantone-capovalle",
+      "nome": "Sportcamping & Glamping Resort Rio Vantone",
+      "city_name": "Capovalle",
+      "indirizzo": "Via Vantone, 45, 25074 Idro BS",
+      "lat": 45.754041,
+      "lng": 10.497649
+    },
+    {
+      "id": "00d0fd4b-24c6-487f-90fb-bf15b37d9460",
+      "slug": "albergo-ristorante-la-lucciola-cappadocia",
+      "nome": "Albergo Ristorante La Lucciola",
+      "city_name": "Cappadocia",
+      "indirizzo": "Via Giorgina, 4, 67069 Tagliacozzo AQ",
+      "lat": 42.07128,
+      "lng": 13.256112
+    },
+    {
+      "id": "3b04c7af-9c31-4868-8d17-96a2ed515ffc",
+      "slug": "azienda-agrituristica-la-giarda-cappadocia",
+      "nome": "Azienda Agrituristica La Giarda",
+      "city_name": "Cappadocia",
+      "indirizzo": "Via Valeria, km 102/200, 67069 Tagliacozzo AQ",
+      "lat": 42.052601,
+      "lng": 13.305477
+    },
+    {
+      "id": "0067b784-0aee-4cdf-a7bb-7846cd6b36fc",
+      "slug": "europing-di-marsia-cappadocia",
+      "nome": "Europing Di Marsia",
+      "city_name": "Cappadocia",
+      "indirizzo": "67069 Tagliacozzo AQ",
+      "lat": 42.056208,
+      "lng": 13.195113
+    },
+    {
+      "id": "7042cb61-9755-40f4-987f-a23000156848",
+      "slug": "hotel-park-cappadocia",
+      "nome": "Hotel Park",
+      "city_name": "Cappadocia",
+      "indirizzo": "Via Tiburtina Valeria, Km 99, 67069 Tagliacozzo AQ",
+      "lat": 42.06882,
+      "lng": 13.275592
+    },
+    {
+      "id": "e5c78848-0b8c-4b6c-992c-a73cc476395b",
+      "slug": "hotel-ristorante-pizzeria-miramonti-cappadocia",
+      "nome": "Hotel ristorante pizzeria MIRAMONTI",
+      "city_name": "Cappadocia",
+      "indirizzo": "SS 5 Tiburtina Valeria var, 87, 67069 Tagliacozzo AQ",
+      "lat": 42.071129,
+      "lng": 13.258081
+    },
+    {
+      "id": "6ce56cc0-1ec6-4805-a975-4925f9c28de9",
+      "slug": "la-rondine-cappadocia",
+      "nome": "La Rondine",
+      "city_name": "Cappadocia",
+      "indirizzo": "Via Borgo Nuovo, 22, 67069 Tagliacozzo AQ",
+      "lat": 42.068026,
+      "lng": 13.252509
+    },
+    {
+      "id": "10dc090b-b447-4e0e-8dcc-e5663c7d00be",
+      "slug": "dellearti-design-hotel-cappella-cantone",
+      "nome": "Dellearti Design Hotel",
+      "city_name": "Cappella Cantone",
+      "indirizzo": "Via Geremia Bonomelli, 8, 26100 Cremona CR",
+      "lat": 45.132873,
+      "lng": 10.026998
+    },
+    {
+      "id": "60b67411-77a9-42cb-9d07-0359b7d525e8",
+      "slug": "foresteria-la-vista-cappella-cantone",
+      "nome": "Foresteria La Vista",
+      "city_name": "Cappella Cantone",
+      "indirizzo": "Piazza Sant'Antonio Maria Zaccaria, 7, 26100 Cremona CR",
+      "lat": 45.132907,
+      "lng": 10.025033
+    },
+    {
+      "id": "27e7e0df-0282-4dfa-b4f4-9385c5f09c50",
+      "slug": "hotel-astoria-cremona-cappella-cantone",
+      "nome": "Hotel Astoria Cremona",
+      "city_name": "Cappella Cantone",
+      "indirizzo": "Via Solferino, 9, 26100 Cremona CR",
+      "lat": 45.134626,
+      "lng": 10.024318
+    },
+    {
+      "id": "6b995202-ae6b-4d9b-b838-e7a0b923ad6f",
+      "slug": "hotel-duomo-cappella-cantone",
+      "nome": "Hotel Duomo",
+      "city_name": "Cappella Cantone",
+      "indirizzo": "Via dei Gonfalonieri, 13, 26100 Cremona CR",
+      "lat": 45.13309,
+      "lng": 10.024298
+    },
+    {
+      "id": "6f6d5b8d-e1ac-48a3-a77f-408af69e1cda",
+      "slug": "hotel-impero-cappella-cantone",
+      "nome": "Hotel impero",
+      "city_name": "Cappella Cantone",
+      "indirizzo": "Piazza Della Pace, 21, 26100 Cremona CR",
+      "lat": 45.132957,
+      "lng": 10.023216
+    },
+    {
+      "id": "3d560ada-175c-4a23-87f0-75afdb8b6464",
+      "slug": "palazzo-guazzoni-zaccaria-cappella-cantone",
+      "nome": "Palazzo Guazzoni Zaccaria",
+      "city_name": "Cappella Cantone",
+      "indirizzo": "Corso Pietro Vacchelli, 60, 26100 Cremona CR",
+      "lat": 45.134103,
+      "lng": 10.032652
+    },
+    {
+      "id": "ba8f8cb3-e4db-4e19-81e3-f07c5eb0dfa5",
+      "slug": "agriturismo-san-carlo-cappella-de-picenardi",
+      "nome": "Agriturismo San Carlo",
+      "city_name": "Cappella de' Picenardi",
+      "indirizzo": "Piazza Martiri della Libertà, 22, 26033 Cremona CR",
+      "lat": 45.184722,
+      "lng": 10.223333
+    },
+    {
+      "id": "112d73a2-4cc9-410d-8ca1-fa1ad7e234bb",
+      "slug": "hotel-ristorante-palazzo-quaranta-cappella-de-picenardi",
+      "nome": "Hotel Ristorante Palazzo Quaranta",
+      "city_name": "Cappella de' Picenardi",
+      "indirizzo": "Via Largo della Vittoria, Snc, 26031 Isola Dovarese CR",
+      "lat": 45.175348,
+      "lng": 10.312718
+    },
+    {
+      "id": "abce192f-5cf5-4f8f-8678-c6b11572c0f1",
+      "slug": "agriturismo-il-bosco-cappella-maggiore",
+      "nome": "Agriturismo Il Bosco",
+      "city_name": "Cappella Maggiore",
+      "indirizzo": "Via Maren, 7, 31029 Vittorio Veneto TV",
+      "lat": 46.023375,
+      "lng": 12.306013
+    },
+    {
+      "id": "4436af9d-5a60-452c-97a2-1cbd9c3bbe9d",
+      "slug": "agriturismo-lemire-cappella-maggiore",
+      "nome": "Agriturismo Lemire",
+      "city_name": "Cappella Maggiore",
+      "indirizzo": "Via Maset, 55, 31020 San Pietro di Feletto TV",
+      "lat": 45.935072,
+      "lng": 12.247791
+    },
+    {
+      "id": "b004b77d-4e9c-4b82-a6d7-140bce13762d",
+      "slug": "agriturismo-valbare-cappella-maggiore",
+      "nome": "Agriturismo ValBarè",
+      "city_name": "Cappella Maggiore",
+      "indirizzo": "Via Case Fossa, 32, 31010 Fregona TV",
+      "lat": 45.985003,
+      "lng": 12.355297
+    },
+    {
+      "id": "c8ff32d9-148d-4970-90ea-5797ec79b9f4",
+      "slug": "alice-relais-nelle-vigne-cappella-maggiore",
+      "nome": "Alice Relais nelle Vigne",
+      "city_name": "Cappella Maggiore",
+      "indirizzo": "Via G. Giardino, 94, 31029 Carpesica TV",
+      "lat": 45.951744,
+      "lng": 12.288869
+    },
+    {
+      "id": "6d0512da-920a-43ec-853c-df8f76abc95c",
+      "slug": "b-b-al-giardino-dei-laghi-cappella-maggiore",
+      "nome": "B&B Al Giardino dei Laghi",
+      "city_name": "Cappella Maggiore",
+      "indirizzo": "Via Grava Giuseppe, 1 A, 31020 Revine Lago TV",
+      "lat": 45.995849,
+      "lng": 12.243209
+    },
+    {
+      "id": "1dcca11f-2943-439a-b52a-ddfeeabe2dca",
+      "slug": "b-b-san-martino-colle-umberto-cappella-maggiore",
+      "nome": "B&B San Martino Colle Umberto",
+      "city_name": "Cappella Maggiore",
+      "indirizzo": "Via rossini, 1, 31014 Colle Umberto TV",
+      "lat": 45.958431,
+      "lng": 12.354727
+    },
+    {
+      "id": "4808944f-daa0-4f6f-bcb7-0b382f76a85b",
+      "slug": "b-b-villa-carli-cappella-maggiore",
+      "nome": "B&B Villa Carli",
+      "city_name": "Cappella Maggiore",
+      "indirizzo": "di caneva, Via Carmine, 6, 33070 Stevenà PN",
+      "lat": 45.967589,
+      "lng": 12.433946
+    },
+    {
+      "id": "3d4b4a2c-cf4b-4df2-95df-419159fbaaf3",
+      "slug": "ca-dea-gondola-cappella-maggiore",
+      "nome": "Cà Dea Gondola",
+      "city_name": "Cappella Maggiore",
+      "indirizzo": "Borgo Canalet, 29, 31026 Sarmede TV",
+      "lat": 45.992941,
+      "lng": 12.370704
+    },
+    {
+      "id": "c3aac24f-6ecf-4f1e-982f-ca05132ce7ce",
+      "slug": "casa-del-nonno-leone-cappella-maggiore",
+      "nome": "Casa del nonno Leone",
+      "city_name": "Cappella Maggiore",
+      "indirizzo": "Località Colmaggiore di Sopra, 54, 31020 Colmaggiore TV",
+      "lat": 45.988129,
+      "lng": 12.240824
+    },
+    {
+      "id": "44021657-4828-433d-a257-ddce9b7cf36c",
+      "slug": "da-caterina-cappella-maggiore",
+      "nome": "Da Caterina",
+      "city_name": "Cappella Maggiore",
+      "indirizzo": "Via A. Parravicini, 14, 31029 Vittorio Veneto TV",
+      "lat": 45.997556,
+      "lng": 12.293511
+    },
+    {
+      "id": "0133c43c-ea6d-4a64-9387-f321b51326d6",
+      "slug": "fratte-albergo-ristorante-cappella-maggiore",
+      "nome": "Fratte Albergo Ristorante",
+      "city_name": "Cappella Maggiore",
+      "indirizzo": "Via Fratte, 37, 31010 Fregona TV",
+      "lat": 45.990667,
+      "lng": 12.344084
+    },
+    {
+      "id": "ad0051d4-8449-4f79-b20d-d28e9be6628f",
+      "slug": "hotel-cappella-cappella-maggiore",
+      "nome": "Hotel Cappella",
+      "city_name": "Cappella Maggiore",
+      "indirizzo": "Str. Pecëi, 17, 39033 Colfosco BZ",
+      "lat": 46.552326,
+      "lng": 11.84784
+    },
+    {
+      "id": "d6196946-4c0a-45c1-a810-f1994e28042f",
+      "slug": "hotel-le-macine-cappella-maggiore",
+      "nome": "Hotel Le Macine",
+      "city_name": "Cappella Maggiore",
+      "indirizzo": "Via Lino Carlo del Favero, 19, 31029 Vittorio Veneto TV",
+      "lat": 45.978348,
+      "lng": 12.309547
+    }
+  ]
+}

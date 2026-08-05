@@ -1,0 +1,323 @@
+{
+  "block": 270,
+  "blockId": "270",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "cbee0790-1269-44a0-8426-29754a444101",
+      "slug": "la-locanda-di-villa-toscana-bibbona",
+      "nome": "La locanda di villa toscana",
+      "city_name": "Bibbona",
+      "indirizzo": "Via Vittorio Emanuele, 41, 57020 Bibbona LI",
+      "lat": 43.269333,
+      "lng": 10.59653
+    },
+    {
+      "id": "c695f79b-510b-449c-8f1f-25b8bae9f1b8",
+      "slug": "locanda-etrusca-bibbona",
+      "nome": "Locanda Etrusca",
+      "city_name": "Bibbona",
+      "indirizzo": "Piazza della Vittoria, 57020 Bibbona LI",
+      "lat": 43.270492,
+      "lng": 10.598309
+    },
+    {
+      "id": "73cbdc43-97fd-4397-a22e-c00b85d5c770",
+      "slug": "park-hotel-marinetta-beach-spa-bibbona",
+      "nome": "Park Hotel Marinetta - Beach & Spa",
+      "city_name": "Bibbona",
+      "indirizzo": "Via dei Cavalleggeri Nord, 3, 57020 Marina di Bibbona LI",
+      "lat": 43.245724,
+      "lng": 10.527819
+    },
+    {
+      "id": "b2be366b-2c11-4d6d-beb3-3b41773b6f61",
+      "slug": "poggio-picchio-bibbona",
+      "nome": "Poggio Picchio",
+      "city_name": "Bibbona",
+      "indirizzo": "frazione Bibbona, 30, 57020 Bibbona LI",
+      "lat": 43.26435,
+      "lng": 10.591627
+    },
+    {
+      "id": "68e70d21-c2a5-4240-8c8c-f9ab75b82480",
+      "slug": "punti-di-vista-b-b-food-wine-experience-bibbona",
+      "nome": "Punti Di Vista B&B Food & Wine Experience",
+      "city_name": "Bibbona",
+      "indirizzo": "Piazza della Vittoria, 10, 57020 Bibbona LI",
+      "lat": 43.270382,
+      "lng": 10.598667
+    },
+    {
+      "id": "b437c6fa-5787-4c8c-be89-2c34cd8454a1",
+      "slug": "relais-sant-elena-relais-di-charme-vacanze-bibbo-bibbona",
+      "nome": "Relais Sant'Elena | Relais di Charme, Vacanze Bibbona Toscana",
+      "city_name": "Bibbona",
+      "indirizzo": "Via Vicinale di Campo di Sasso, 57020 Bibbona LI",
+      "lat": 43.266646,
+      "lng": 10.613176
+    },
+    {
+      "id": "0362ec3f-9861-42d8-af55-2a59101f7a39",
+      "slug": "residence-ristorante-il-paradiso-bibbona",
+      "nome": "Residence Ristorante Il Paradiso",
+      "city_name": "Bibbona",
+      "indirizzo": "Strada Provinciale del Poggetto, 55, 56040 Guardistallo PI",
+      "lat": 43.313337,
+      "lng": 10.584978
+    },
+    {
+      "id": "3473949e-29ac-4204-b392-2b7c2fd74b06",
+      "slug": "residenza-d-epoca-cavaliere-romantic-rooms-near-bibbona",
+      "nome": "Residenza d'Epoca CAVALIERE Romantic Rooms near BOLGHERI",
+      "city_name": "Bibbona",
+      "indirizzo": "Via Vittorio Emanuele, 60, 57020 Bibbona LI",
+      "lat": 43.269507,
+      "lng": 10.596356
+    },
+    {
+      "id": "873ce0eb-2df2-4249-8816-599e93c8f291",
+      "slug": "agriturismo-cascina-san-nazario-remband-bibiana-bibiana",
+      "nome": "Agriturismo Cascina San Nazario Remband - Bibiana",
+      "city_name": "Bibiana",
+      "indirizzo": "Via della Libertà, 17, 10060 Bibiana TO",
+      "lat": 44.80348,
+      "lng": 7.291941
+    },
+    {
+      "id": "369a7795-23ef-44b2-acde-3dca461aa145",
+      "slug": "albergo-ristorante-sud-america-bibiana",
+      "nome": "Albergo Ristorante Sud America",
+      "city_name": "Bibiana",
+      "indirizzo": "Piazza Statuto, 14, 12034 Paesana CN",
+      "lat": 44.684911,
+      "lng": 7.275759
+    },
+    {
+      "id": "ae026e26-8e64-48c5-a393-47f62267a8dc",
+      "slug": "b-b-mombracco-bibiana",
+      "nome": "B&B Mombracco",
+      "city_name": "Bibiana",
+      "indirizzo": "Via dei Peano, 16, 12030 Envie CN",
+      "lat": 44.68248,
+      "lng": 7.36935
+    },
+    {
+      "id": "94716dbb-0a78-4b73-9048-9d7e066f8bed",
+      "slug": "hotel-la-colletta-bibiana",
+      "nome": "Hotel la Colletta",
+      "city_name": "Bibiana",
+      "indirizzo": "Borgata Colletta, 29, 12034 Paesana CN",
+      "lat": 44.695687,
+      "lng": 7.297383
+    },
+    {
+      "id": "871b7210-a470-41d0-8025-20ebfb6c440b",
+      "slug": "hotel-palavas-bibiana",
+      "nome": "Hotel Palavas",
+      "city_name": "Bibiana",
+      "indirizzo": "Borgata Garnier, 1, 10060 Villar Pellice TO",
+      "lat": 44.808481,
+      "lng": 7.134959
+    },
+    {
+      "id": "4baa1ccd-c882-412b-b0ec-e4c51235ea61",
+      "slug": "affittacamere-da-nonna-elisa-biccari",
+      "nome": "Affittacamere Da Nonna Elisa",
+      "city_name": "Biccari",
+      "indirizzo": "Via Piazza Vecchia, 65, 71039 Roseto Valfortore FG",
+      "lat": 41.371253,
+      "lng": 15.096096
+    },
+    {
+      "id": "5f75c6da-04f0-49e1-9b08-c4f6be70189b",
+      "slug": "agriturismo-pirro-biccari",
+      "nome": "Agriturismo Pirro",
+      "city_name": "Biccari",
+      "indirizzo": "C.da Cuparoni - SS 160, Lucera-Troia (incrocio per Faeto), 71029 Troia FG",
+      "lat": 41.396679,
+      "lng": 15.334907
+    },
+    {
+      "id": "bc930788-5b82-476e-ba07-edbaf71279a3",
+      "slug": "albergo-miravalle-biccari",
+      "nome": "Albergo Miravalle",
+      "city_name": "Biccari",
+      "indirizzo": "Contrada Ciampoli, 1, 71039 Roseto Valfortore FG",
+      "lat": 41.369871,
+      "lng": 15.09342
+    },
+    {
+      "id": "7960f13f-ffd9-4b4f-9965-ff6e570fc699",
+      "slug": "b-b-agora-biccari",
+      "nome": "B&B Agorà",
+      "city_name": "Biccari",
+      "indirizzo": "Via Madonna delle Grazie, Piazza Giacomo Matteotti, 106, 71032 Biccari FG",
+      "lat": 41.396191,
+      "lng": 15.19268
+    },
+    {
+      "id": "eff1acaf-b767-4c03-a0df-8da1a01a862e",
+      "slug": "b-b-al-belvedere-biccari",
+      "nome": "B&B Al Belvedere",
+      "city_name": "Biccari",
+      "indirizzo": "Via Giuseppe Verdi, 54, 71030 Volturino FG",
+      "lat": 41.475958,
+      "lng": 15.125539
+    },
+    {
+      "id": "3729d0c8-e353-43d9-8154-3af25fc1cbf5",
+      "slug": "b-b-casa-cavalli-biccari",
+      "nome": "B&B Casa Cavalli",
+      "city_name": "Biccari",
+      "indirizzo": "Piazza del Duomo, 5, 71036 Lucera FG",
+      "lat": 41.50838,
+      "lng": 15.334187
+    },
+    {
+      "id": "539afb2d-ac6b-445e-9126-4f55a6a15cba",
+      "slug": "bed-breakfast-palazzo-del-contestabile-troia-fog-biccari",
+      "nome": "BED & BREAKFAST PALAZZO DEL CONTESTABILE - TROIA - FOGGIA - PUGLIA",
+      "city_name": "Biccari",
+      "indirizzo": "Corso Umberto I, 137, 71029 Troia FG",
+      "lat": 41.360073,
+      "lng": 15.307907
+    },
+    {
+      "id": "272f1ede-71f1-41d2-9334-e1b4243746db",
+      "slug": "borgo-vinceri-biccari",
+      "nome": "Borgo Vinceri",
+      "city_name": "Biccari",
+      "indirizzo": "Sentiero della Fortezza Svevo-Angioina, 71036 Lucera FG",
+      "lat": 41.510011,
+      "lng": 15.324534
+    },
+    {
+      "id": "63b40d8d-7786-405a-866a-7c8699be3645",
+      "slug": "bubble-room-sul-tetto-della-puglia-biccari",
+      "nome": "Bubble Room sul Tetto della Puglia",
+      "city_name": "Biccari",
+      "indirizzo": "Lago Pescara, 71032 Biccari FG",
+      "lat": 41.371967,
+      "lng": 15.170123
+    },
+    {
+      "id": "8df42610-5aeb-43cf-8850-22c89365113b",
+      "slug": "relais-in-contrada-biccari",
+      "nome": "Relais in Contrada",
+      "city_name": "Biccari",
+      "indirizzo": "Str. Vicinale Perazzo, 5, 71036 Lucera FG",
+      "lat": 41.496938,
+      "lng": 15.362267
+    },
+    {
+      "id": "91bf42d2-a25f-43f4-afa6-2087225dfa52",
+      "slug": "suite-del-lago-luxuryroom-biccari",
+      "nome": "Suite del Lago_LuxuryRoom",
+      "city_name": "Biccari",
+      "indirizzo": "Via Salita Annunziata, 38, 71032 Biccari FG",
+      "lat": 41.398552,
+      "lng": 15.196218
+    },
+    {
+      "id": "62e1f865-4de4-4bcb-b74d-62e3654ca357",
+      "slug": "agriturismo-al-buttasella-bicinicco",
+      "nome": "Agriturismo Al Buttasella",
+      "city_name": "Bicinicco",
+      "indirizzo": "Via Chiasottis, 8, 33050 Mortegliano UD",
+      "lat": 45.958796,
+      "lng": 13.234202
+    },
+    {
+      "id": "63df6d8a-1e72-45a5-ac52-d1e9d7f78e1c",
+      "slug": "albergo-casa-orter-bicinicco",
+      "nome": "Albergo Casa Orter",
+      "city_name": "Bicinicco",
+      "indirizzo": "Via della Stazione, 13, 33050 Risano UD",
+      "lat": 45.97376,
+      "lng": 13.256662
+    },
+    {
+      "id": "a4f05622-e4e6-41a9-94e7-6ffca645b408",
+      "slug": "alle-robinie-bed-breakfast-bicinicco",
+      "nome": "Alle Robinie bed & breakfast",
+      "city_name": "Bicinicco",
+      "indirizzo": "Via Orsaria, 14, 33040 Pradamano UD",
+      "lat": 46.029885,
+      "lng": 13.308603
+    },
+    {
+      "id": "d6f0b620-b5c2-4f6c-a66d-892f94677aac",
+      "slug": "b-b-casa-di-gio-bicinicco",
+      "nome": "B&B casa di Giò",
+      "city_name": "Bicinicco",
+      "indirizzo": "Via Bolzano, 10, 33048 San Giovanni al Natisone UD",
+      "lat": 45.975006,
+      "lng": 13.392425
+    },
+    {
+      "id": "7fc7ef80-1d9c-484a-b581-ad760c1d3436",
+      "slug": "b-b-corte-alfier-di-alfier-andrea-francesco-bicinicco",
+      "nome": "B&B Corte Alfier di Alfier Andrea & Francesco",
+      "city_name": "Bicinicco",
+      "indirizzo": "Frazione di, Via Pozzuolo, 2, 33050 Lavariano UD",
+      "lat": 45.956115,
+      "lng": 13.225135
+    },
+    {
+      "id": "99730841-d458-43d9-9152-c3f7355fe159",
+      "slug": "standard-hotel-udine-bicinicco",
+      "nome": "Standard Hotel Udine",
+      "city_name": "Bicinicco",
+      "indirizzo": "Via Pier Paolo Pasolini, 4, 33040 Pradamano UD",
+      "lat": 46.021576,
+      "lng": 13.286357
+    },
+    {
+      "id": "decbe3c0-0f10-4e80-b072-8ea8963582cb",
+      "slug": "villa-di-tissano-bicinicco",
+      "nome": "Villa di Tissano",
+      "city_name": "Bicinicco",
+      "indirizzo": "Piazza Caimo, 4, 33050 Santa Maria la Longa UD",
+      "lat": 45.954665,
+      "lng": 13.266429
+    },
+    {
+      "id": "dbf8f34e-f162-4b1e-884c-9a950c37cffc",
+      "slug": "bed-breakfast-sul-ponte-gravina-in-puglia-bidon",
+      "nome": "BED & BREAKFAST SUL PONTE - GRAVINA IN PUGLIA",
+      "city_name": "Bidon�",
+      "indirizzo": "Via Fontana la Stella, 59, 70024 Gravina in Puglia BA",
+      "lat": 40.820204,
+      "lng": 16.414272
+    },
+    {
+      "id": "0f36c82f-ce6b-43cb-ba57-825a92d6b925",
+      "slug": "agora-palace-hotel-biella",
+      "nome": "Agorà Palace Hotel",
+      "city_name": "Biella",
+      "indirizzo": "Via Alfonso Lamarmora, 13A, 13900 Biella BI",
+      "lat": 45.5617,
+      "lng": 8.056
+    },
+    {
+      "id": "8533c36c-fb84-44b1-bf53-0fea15295685",
+      "slug": "albergo-cala-luna-biella",
+      "nome": "Albergo Cala Luna",
+      "city_name": "Biella",
+      "indirizzo": "Via Antonio Gramsci, 145, 13894 Gaglianico BI",
+      "lat": 45.544504,
+      "lng": 8.069837
+    },
+    {
+      "id": "6b88bc42-2e22-4c4d-a8b0-a1f8c70fe33b",
+      "slug": "augustus-hotel-biella",
+      "nome": "Augustus hotel",
+      "city_name": "Biella",
+      "indirizzo": "Via Orfanotrofio, 6, 13900 Biella BI",
+      "lat": 45.568155,
+      "lng": 8.054467
+    }
+  ]
+}

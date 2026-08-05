@@ -1,0 +1,323 @@
+{
+  "block": 176,
+  "blockId": "176",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "d3ea0bb3-37bd-4cff-b5b6-7f39fd7ea39f",
+      "slug": "affittacamere-araba-fenice-aulla",
+      "nome": "Affittacamere Araba Fenice",
+      "city_name": "Aulla",
+      "indirizzo": "Via Umberto Maddalena, 103, 19020 Vezzano Ligure SP",
+      "lat": 44.136784,
+      "lng": 9.891926
+    },
+    {
+      "id": "efd5134a-9c92-4aa0-98dc-abcf1b79a3bd",
+      "slug": "b-b-aulla-torre-di-san-caprasio-aulla",
+      "nome": "B&B Aulla Torre di San Caprasio",
+      "city_name": "Aulla",
+      "indirizzo": "Piazza L. Corbani, 6, 54011 Aulla MS",
+      "lat": 44.207036,
+      "lng": 9.969102
+    },
+    {
+      "id": "3b83c35f-13c4-4c52-95de-6af4d0004138",
+      "slug": "b-b-ca-di-megoto-aulla",
+      "nome": "B&B Ca' di Megoto",
+      "city_name": "Aulla",
+      "indirizzo": "Via Collina, 8, 54011 Aulla MS",
+      "lat": 44.224342,
+      "lng": 10.023232
+    },
+    {
+      "id": "120bbc10-ca84-45e1-a01f-cd3e993f679a",
+      "slug": "b-b-cadrecca-tra-terra-luna-e-mare-aulla",
+      "nome": "B&B Cadrecca Tra Terra Luna e Mare",
+      "city_name": "Aulla",
+      "indirizzo": "Via Cadrecca, 13, 54016 Monti MS",
+      "lat": 44.244667,
+      "lng": 9.99929
+    },
+    {
+      "id": "31941d76-b6f8-4b98-885e-3df2e16bcd2d",
+      "slug": "b-b-i-maseri-aulla",
+      "nome": "B&B i Maseri",
+      "city_name": "Aulla",
+      "indirizzo": "Via dei Pini, 28, 54035 Fosdinovo SP",
+      "lat": 44.139164,
+      "lng": 9.986205
+    },
+    {
+      "id": "1bd444f6-152d-451a-8708-e60146a8e09f",
+      "slug": "b-b-il-tempo-del-vento-aulla",
+      "nome": "B&B Il Tempo del Vento",
+      "city_name": "Aulla",
+      "indirizzo": "Via Tresana, 5, 54012 Tresana MS",
+      "lat": 44.253543,
+      "lng": 9.914031
+    },
+    {
+      "id": "33a8a066-f8cc-45b4-a658-4273e679d813",
+      "slug": "b-b-tenuta-campomagliano-aulla",
+      "nome": "B&B Tenuta CampoMagliano",
+      "city_name": "Aulla",
+      "indirizzo": "Via Pratomedici, 13, 54011 Bigliolo MS",
+      "lat": 44.233202,
+      "lng": 10.049832
+    },
+    {
+      "id": "5cc69fc5-19ea-4cd5-a042-48acdec2c5a0",
+      "slug": "bed-bike-aulla-aulla",
+      "nome": "Bed & Bike aulla",
+      "city_name": "Aulla",
+      "indirizzo": "Via Cerri, 71/73, 54011 Aulla MS",
+      "lat": 44.219557,
+      "lng": 9.974353
+    },
+    {
+      "id": "6e295b5d-a923-43b9-9822-d1a727485c3c",
+      "slug": "casa-dolce-casa-aulla",
+      "nome": "Casa dolce casa",
+      "city_name": "Aulla",
+      "indirizzo": "Via I Maggio, 147, 54028 Villafranca in Lunigiana MS",
+      "lat": 44.311339,
+      "lng": 9.973934
+    },
+    {
+      "id": "c225fc51-40c3-4c2e-af19-8bb876aded36",
+      "slug": "da-gambin-aulla",
+      "nome": "Da Gambin",
+      "city_name": "Aulla",
+      "indirizzo": "190 ⛉ Via Provinciale Podenzana, 54010 Podenzana MS",
+      "lat": 44.208948,
+      "lng": 9.919418
+    },
+    {
+      "id": "11ce024c-da26-413a-ad8a-6ddf88d52598",
+      "slug": "dalla-gina-e-paolino-b-b-aulla",
+      "nome": "Dalla Gina e Paolino B&B",
+      "city_name": "Aulla",
+      "indirizzo": "Via selva, 6, 54011 Aulla MS",
+      "lat": 44.215189,
+      "lng": 9.985405
+    },
+    {
+      "id": "2005f751-cdc5-4c72-9f73-5606c7463476",
+      "slug": "demy-hotel-aulla",
+      "nome": "Demy Hotel",
+      "city_name": "Aulla",
+      "indirizzo": "Via A. Salucci, 9, 54011 Aulla MS",
+      "lat": 44.214868,
+      "lng": 9.967527
+    },
+    {
+      "id": "0a354862-ba0a-4717-b987-b42053848a5b",
+      "slug": "gli-ulivi-aulla",
+      "nome": "Gli Ulivi",
+      "city_name": "Aulla",
+      "indirizzo": "Via Carignano, 70, 54035 Fosdinovo MS",
+      "lat": 44.141456,
+      "lng": 9.986525
+    },
+    {
+      "id": "54c566c5-515a-4dea-bd4b-9f181e78b96c",
+      "slug": "la-bianca-fattoria-aulla",
+      "nome": "La Bianca Fattoria",
+      "city_name": "Aulla",
+      "indirizzo": "Via Turì, 120, 19038 Sarzana SP",
+      "lat": 44.137501,
+      "lng": 9.964021
+    },
+    {
+      "id": "21b96658-3f29-495c-ac9c-bfbf370a3bae",
+      "slug": "la-casa-di-manu-aulla",
+      "nome": "La Casa di Manù",
+      "city_name": "Aulla",
+      "indirizzo": "Via Stadano, 45, 54010 Aulla MS",
+      "lat": 44.190009,
+      "lng": 9.924844
+    },
+    {
+      "id": "e88d04f8-3b13-4435-8db6-ef4212a2b8ea",
+      "slug": "locanda-da-mari-aulla",
+      "nome": "Locanda da Marì",
+      "city_name": "Aulla",
+      "indirizzo": "Via Malacosta, 2B, 54011 Aulla MS",
+      "lat": 44.224709,
+      "lng": 9.998423
+    },
+    {
+      "id": "23babbee-5781-4db2-a9b7-75c9f388495a",
+      "slug": "lunezia-resort-aulla",
+      "nome": "Lunezia Resort",
+      "city_name": "Aulla",
+      "indirizzo": "54011 Aulla MS",
+      "lat": 44.188628,
+      "lng": 9.988641
+    },
+    {
+      "id": "9bc1c5a2-7644-40e8-a6b6-04308387c038",
+      "slug": "relais-san-filippo-in-sogaglia-aulla",
+      "nome": "Relais San Filippo in Sogaglia",
+      "city_name": "Aulla",
+      "indirizzo": "Località Sogaglia, 6, 54026 Pieve MS",
+      "lat": 44.278664,
+      "lng": 9.907996
+    },
+    {
+      "id": "02698f9c-8b2b-4174-a917-403f3da43c46",
+      "slug": "villa-borgo-degli-artisti-boutique-rooms-aulla",
+      "nome": "Villa Borgo degli artisti boutique rooms",
+      "city_name": "Aulla",
+      "indirizzo": "Via Colletto, 12, 54011 Canova MS",
+      "lat": 44.192765,
+      "lng": 10.031203
+    },
+    {
+      "id": "e0f95560-1e1d-4eaf-84c0-32df0a7dc22e",
+      "slug": "albergo-del-sole-aurano",
+      "nome": "Albergo del Sole",
+      "city_name": "Aurano",
+      "indirizzo": "Piazza Imbarcadero, 18, 21010 Porto Valtravaglia VA",
+      "lat": 45.961554,
+      "lng": 8.68056
+    },
+    {
+      "id": "3e113388-f618-4763-bf9f-5308fadf3160",
+      "slug": "albergo-il-vapore-aurano",
+      "nome": "Albergo Il Vapore",
+      "city_name": "Aurano",
+      "indirizzo": "Via Nazionale, 90, 28824 Oggebbio VB",
+      "lat": 45.991128,
+      "lng": 8.648247
+    },
+    {
+      "id": "40301513-aee5-4636-aec9-f7f6035234cc",
+      "slug": "bed-breakfast-ca-del-pitur-di-cicogna-aurano",
+      "nome": "Bed & Breakfast CA' DEL PITUR di Cicogna",
+      "city_name": "Aurano",
+      "indirizzo": "Via Borgonuovo, 1, 28801 Cicogna VB",
+      "lat": 46.003242,
+      "lng": 8.491894
+    },
+    {
+      "id": "1312fa61-0588-4bae-b088-ecedc04fd8ca",
+      "slug": "hotel-sole-aurano",
+      "nome": "Hotel Sole",
+      "city_name": "Aurano",
+      "indirizzo": "CIR 103016-ALB-00002 CIN IT103016A1UX8Z4B98, http://www.albergosole.it, Via Nuova per Cassino, 6, 28821 Cannero Riviera VB",
+      "lat": 46.011195,
+      "lng": 8.665809
+    },
+    {
+      "id": "4572805f-ee4e-4419-9773-bae532cfba0c",
+      "slug": "hotel-villa-rosy-aurano",
+      "nome": "Hotel Villa Rosy",
+      "city_name": "Aurano",
+      "indirizzo": "VIA LAURO, 1, 28818 Premeno VB",
+      "lat": 45.97755,
+      "lng": 8.59253
+    },
+    {
+      "id": "240c5cd1-b284-4ab5-bcac-87c0e461a30b",
+      "slug": "luxury-italy-apartments-aurano",
+      "nome": "Luxury Italy Apartments",
+      "city_name": "Aurano",
+      "indirizzo": "Vicolo Jacchini, 6, 28921 Intra VB",
+      "lat": 45.935911,
+      "lng": 8.573505
+    },
+    {
+      "id": "6698ff10-cfc7-4744-8f03-59a05c4142f2",
+      "slug": "ostello-val-grande-aurano",
+      "nome": "Ostello Val Grande",
+      "city_name": "Aurano",
+      "indirizzo": "Via Borgonuovo, 2, 28801 Cicogna VB",
+      "lat": 46.003295,
+      "lng": 8.491628
+    },
+    {
+      "id": "fc0b2225-5146-4ab9-9383-8ff644a52a60",
+      "slug": "agriturismo-agagin-aurigo",
+      "nome": "Agriturismo Agagin",
+      "city_name": "Aurigo",
+      "indirizzo": "Via Regina Margherita, 62, 18010 Agaggio Inferiore IM",
+      "lat": 43.967938,
+      "lng": 7.816025
+    },
+    {
+      "id": "fce03628-193a-4957-9e80-5a8eb0976a4e",
+      "slug": "agriturismo-casa-ferrari-aurigo",
+      "nome": "Agriturismo casa Ferrari",
+      "city_name": "Aurigo",
+      "indirizzo": "Via regia S.n, 18021 Caravonica IM",
+      "lat": 43.989698,
+      "lng": 7.965708
+    },
+    {
+      "id": "384006fb-e3a4-49d5-afaf-23eb0a2ae276",
+      "slug": "agriturismo-le-meridiane-aurigo",
+      "nome": "Agriturismo le meridiane",
+      "city_name": "Aurigo",
+      "indirizzo": "Via Candeasco, 1, 18021 Borgomaro IM",
+      "lat": 43.976883,
+      "lng": 7.946069
+    },
+    {
+      "id": "69fb4452-2b57-49c7-b38c-ff6bfa37baa5",
+      "slug": "agriturismo-nonni-devia-aurigo",
+      "nome": "Agriturismo Nonni Devia",
+      "city_name": "Aurigo",
+      "indirizzo": "Via Roma, 17, 18023 Lucinasco IM",
+      "lat": 43.966831,
+      "lng": 7.961612
+    },
+    {
+      "id": "710cd5c9-9491-4b3d-824b-fa96709d2d8f",
+      "slug": "agriturismo-san-michele-aurigo",
+      "nome": "Agriturismo San Michele",
+      "city_name": "Aurigo",
+      "indirizzo": "Via Fontana Vecchia, 14, 18024 Dolcedo IM",
+      "lat": 43.903785,
+      "lng": 7.959213
+    },
+    {
+      "id": "b0bfae79-8f99-4af3-9b06-752e272d2d47",
+      "slug": "albergo-diffuso-relais-del-maro-aurigo",
+      "nome": "Albergo Diffuso Relais del Maro",
+      "city_name": "Aurigo",
+      "indirizzo": "Via Guglieri Ambrogio, 1, 18021 Borgomaro IM",
+      "lat": 43.975651,
+      "lng": 7.946009
+    },
+    {
+      "id": "bed33b4d-5624-4412-abe8-cd5b9c3bc7ed",
+      "slug": "albergo-lorenzina-aurigo",
+      "nome": "Albergo Lorenzina",
+      "city_name": "Aurigo",
+      "indirizzo": "Via Nazionale, 65, 18020 Pornassio IM",
+      "lat": 44.086083,
+      "lng": 7.872704
+    },
+    {
+      "id": "6e8d6167-71b1-48b1-a7cf-0d75ebcafefa",
+      "slug": "albergo-stella-aurigo",
+      "nome": "Albergo Stella",
+      "city_name": "Aurigo",
+      "indirizzo": "Via Angiolo Silvio Novaro, 3, 18100 Imperia IM",
+      "lat": 43.887818,
+      "lng": 8.048159
+    },
+    {
+      "id": "bbb2112d-2c8e-46bb-80e6-82e08afdedf0",
+      "slug": "ca-da-cardella-aurigo",
+      "nome": "Ca' da Cardella",
+      "city_name": "Aurigo",
+      "indirizzo": "Via Giardino, 10 bis, 18025 Mendatica IM",
+      "lat": 44.078329,
+      "lng": 7.803596
+    }
+  ]
+}

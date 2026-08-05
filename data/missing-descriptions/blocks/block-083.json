@@ -1,0 +1,323 @@
+{
+  "block": 83,
+  "blockId": "083",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "81bb6f59-ba59-4724-817f-173ea677df50",
+      "slug": "hotel-ristorante-vittoria-alta-valle-intelvi",
+      "nome": "Hotel Ristorante Vittoria",
+      "city_name": "Alta Valle Intelvi",
+      "indirizzo": "Via Provinciale, 116, 22023 San Fedele Intelvi CO",
+      "lat": 45.969444,
+      "lng": 9.073889
+    },
+    {
+      "id": "de8e16ff-6dd1-4a6d-83c9-dd534fbad2fa",
+      "slug": "la-locanda-del-notaio-alta-valle-intelvi",
+      "nome": "La Locanda del Notaio",
+      "city_name": "Alta Valle Intelvi",
+      "indirizzo": "Località Piano delle Noci, 42 loc. Pellio, 22024 Alta Valle Intelvi CO",
+      "lat": 45.976582,
+      "lng": 9.044536
+    },
+    {
+      "id": "a241988f-ff96-41be-af0f-b801bf050a99",
+      "slug": "le-radici-agriturismo-alta-valle-intelvi",
+      "nome": "Le Radici Agriturismo",
+      "city_name": "Alta Valle Intelvi",
+      "indirizzo": "Località Alpe di, 22028 Blessagno CO",
+      "lat": 45.96747,
+      "lng": 9.10594
+    },
+    {
+      "id": "208e801b-6247-4ccf-996a-f9adab148c8d",
+      "slug": "locanda-corte-di-pellio-b-b-alta-valle-intelvi",
+      "nome": "Locanda Corte di Pellio - B&B",
+      "city_name": "Alta Valle Intelvi",
+      "indirizzo": "Piazza 20 Settembre, 22024 Pellio Intelvi CO",
+      "lat": 45.979912,
+      "lng": 9.056524
+    },
+    {
+      "id": "8464f4fb-59be-426a-a38f-faa13ddd34f5",
+      "slug": "villa-alma-lake-como-bed-and-breakfast-your-alpi-alta-valle-intelvi",
+      "nome": "Villa Alma Lake Como Bed and Breakfast - your Alpine Retreat",
+      "city_name": "Alta Valle Intelvi",
+      "indirizzo": "Via Blessagno, 37/39, 22023 San Fedele Intelvi CO",
+      "lat": 45.967402,
+      "lng": 9.08098
+    },
+    {
+      "id": "858e670d-1792-4fb1-a231-a5ecf7d7cf2c",
+      "slug": "villa-san-fedele-hotel-alta-valle-intelvi",
+      "nome": "Villa San Fedele - Hotel",
+      "city_name": "Alta Valle Intelvi",
+      "indirizzo": "Via S. Rocco, 2, 22023 San Fedele Intelvi CO",
+      "lat": 45.970734,
+      "lng": 9.075907
+    },
+    {
+      "id": "15c4c736-79b4-428d-9a23-454ac38399ca",
+      "slug": "villa-san-giorgio-alta-valle-intelvi-como-alta-valle-intelvi",
+      "nome": "Villa San Giorgio (Alta Valle Intelvi, Como)",
+      "city_name": "Alta Valle Intelvi",
+      "indirizzo": "22024 Alta Valle Intelvi CO",
+      "lat": 45.981737,
+      "lng": 9.058692
+    },
+    {
+      "id": "9d290525-31a7-4a6d-a207-11b149f46cef",
+      "slug": "villa-simplicitas-e-solferino-alta-valle-intelvi",
+      "nome": "Villa Simplicitas e Solferino",
+      "city_name": "Alta Valle Intelvi",
+      "indirizzo": "Localita' Villa Simplicitas, 22023 Centro Valle Intelvi CO",
+      "lat": 45.968086,
+      "lng": 9.061117
+    },
+    {
+      "id": "4b7177b7-2f3d-490f-8ce8-e9d3bcd9856a",
+      "slug": "san-francesco-bed-breakfast-altamura",
+      "nome": "\"San Francesco\" Bed & Breakfast",
+      "city_name": "Altamura",
+      "indirizzo": "Via Sant'Andrea, 6, 70022 Altamura BA",
+      "lat": 40.825851,
+      "lng": 16.553058
+    },
+    {
+      "id": "96c5dfcf-5df2-4ff6-a261-694b1591038f",
+      "slug": "b-b-panorama-lucano-foresteria-multicamere-altamura",
+      "nome": "B & B Panorama Lucano - Foresteria Multicamere",
+      "city_name": "Altamura",
+      "indirizzo": "Via Treviso, 9, 70022 Altamura BA",
+      "lat": 40.818726,
+      "lng": 16.554697
+    },
+    {
+      "id": "a470f379-4d73-47c2-86f2-a07e3c9e50e2",
+      "slug": "b-b-capovento-della-murgia-altamura",
+      "nome": "B&B Capovento della Murgia",
+      "city_name": "Altamura",
+      "indirizzo": "Via Harrar, 28, 70022 Altamura BA",
+      "lat": 40.829472,
+      "lng": 16.559541
+    },
+    {
+      "id": "77ff56ca-3c17-45f5-971b-d7b1644204b5",
+      "slug": "b-b-casa-felda-altamura",
+      "nome": "B&B Casa Felda",
+      "city_name": "Altamura",
+      "indirizzo": "Via Ruggiero Paolo, 9, 70022 Altamura BA",
+      "lat": 40.826039,
+      "lng": 16.555442
+    },
+    {
+      "id": "db9d3058-08a0-49a2-8ea2-df8158870005",
+      "slug": "beb-luna-federiciana-altamura",
+      "nome": "Beb Luna Federiciana",
+      "city_name": "Altamura",
+      "indirizzo": "Claustro Labriola, 18, 70022 Altamura BA",
+      "lat": 40.827015,
+      "lng": 16.551975
+    },
+    {
+      "id": "00210d5c-5239-4061-b361-09889392c139",
+      "slug": "bed-and-breakfast-1951-altamura",
+      "nome": "Bed and Breakfast 1951",
+      "city_name": "Altamura",
+      "indirizzo": "Via 1ª Traversa Viale Traiano, 5, 70022 Altamura BA",
+      "lat": 40.822333,
+      "lng": 16.562769
+    },
+    {
+      "id": "947c28f8-af61-4e5a-8770-e89cac6d3092",
+      "slug": "deb-spa-altamura",
+      "nome": "deB&SPA",
+      "city_name": "Altamura",
+      "indirizzo": "Via Cristoforo Colombo, 13/15 17a, 70022 Altamura BA",
+      "lat": 40.825586,
+      "lng": 16.551786
+    },
+    {
+      "id": "375f8fa7-398e-404f-944e-447abdb6dfde",
+      "slug": "hotel-fuori-le-mura-altamura",
+      "nome": "Hotel Fuori Le Mura",
+      "city_name": "Altamura",
+      "indirizzo": "Via Maestri del Lavoro, 5, 70022 Altamura BA",
+      "lat": 40.83478,
+      "lng": 16.562155
+    },
+    {
+      "id": "47ddef26-8bb0-481c-abf1-552ecc283f60",
+      "slug": "hotel-san-nicola-altamura",
+      "nome": "Hotel San Nicola",
+      "city_name": "Altamura",
+      "indirizzo": "Via G. B, Via G. Manfredi, 29, 70022 Altamura BA",
+      "lat": 40.828363,
+      "lng": 16.554072
+    },
+    {
+      "id": "0c0dddc4-fd25-472a-ba78-e297c5f87b3b",
+      "slug": "il-borgo-antico-bed-breakfast-altamura-altamura",
+      "nome": "Il Borgo Antico - Bed & Breakfast Altamura",
+      "city_name": "Altamura",
+      "indirizzo": "Claustro Patella, 1, 70022 Altamura BA",
+      "lat": 40.827081,
+      "lng": 16.550458
+    },
+    {
+      "id": "4b2b1054-d0f9-41f2-954d-d093a60d9ec0",
+      "slug": "il-nido-dei-falchi-b-b-altamura",
+      "nome": "Il Nido Dei Falchi B&B",
+      "city_name": "Altamura",
+      "indirizzo": "Corso Federico II di Svevia, 105, 70022 Altamura BA",
+      "lat": 40.826623,
+      "lng": 16.552904
+    },
+    {
+      "id": "11db7bd3-f242-424c-b0d9-47f01d9061b0",
+      "slug": "il-paradiso-a-claustro-inferno-b-b-altamura",
+      "nome": "Il Paradiso a Claustro Inferno B&B",
+      "city_name": "Altamura",
+      "indirizzo": "Claustro Inferno, 3, 70022 Altamura BA",
+      "lat": 40.825932,
+      "lng": 16.555488
+    },
+    {
+      "id": "1fbaec69-f096-47ad-b917-5d1a2ae6a006",
+      "slug": "il-soprano-b-b-altamura-altamura",
+      "nome": "Il Soprano B&B Altamura",
+      "city_name": "Altamura",
+      "indirizzo": "Via Santa Caterina, 43, 70022 Altamura BA",
+      "lat": 40.826318,
+      "lng": 16.554974
+    },
+    {
+      "id": "1f57748b-a4ca-4700-9b53-1aefbf08e467",
+      "slug": "l-incanto-delle-mura-boutique-b-b-altamura-altamura",
+      "nome": "L'incanto Delle Mura | Boutique B&B Altamura",
+      "city_name": "Altamura",
+      "indirizzo": "Via Marsala, 2/4, 70022 Altamura BA",
+      "lat": 40.82806,
+      "lng": 16.55038
+    },
+    {
+      "id": "e5c0f1c1-c99c-4ccc-bfd1-36c20a412679",
+      "slug": "la-locanda-di-alice-altamura",
+      "nome": "La locanda di Alice",
+      "city_name": "Altamura",
+      "indirizzo": "Via Domenico Santoro, 6, 70022 Altamura BA",
+      "lat": 40.828316,
+      "lng": 16.551889
+    },
+    {
+      "id": "d0432afe-651d-44df-9ea7-54a3deee400c",
+      "slug": "malandri-b-b-altamura",
+      "nome": "Malandrì B&B",
+      "city_name": "Altamura",
+      "indirizzo": "Via Solofrano, 2, 70022 Altamura BA",
+      "lat": 40.828011,
+      "lng": 16.55145
+    },
+    {
+      "id": "71715333-c7dc-4e9b-8678-ac00e3e7ce0c",
+      "slug": "masseria-conti-filo-b-b-altamura-altamura",
+      "nome": "Masseria Conti Filo - B&B ALTAMURA",
+      "city_name": "Altamura",
+      "indirizzo": "SP79 KM 6 Strada Provinciale Altamura-Cassano, 70022 Altamura BA",
+      "lat": 40.836459,
+      "lng": 16.624266
+    },
+    {
+      "id": "add095d9-24a1-4210-a24f-2dae6152865d",
+      "slug": "mattei-luxury-b-b-altamura",
+      "nome": "Mattei Luxury B&B",
+      "city_name": "Altamura",
+      "indirizzo": "Via Michele Continisio, 1/3, 5, 70022 Altamura BA",
+      "lat": 40.826253,
+      "lng": 16.554404
+    },
+    {
+      "id": "47baae1d-27ab-4995-807d-12c1d2f79c3a",
+      "slug": "room26-altamura",
+      "nome": "Room26",
+      "city_name": "Altamura",
+      "indirizzo": "Via Piemonte, 26, 70022 Altamura BA",
+      "lat": 40.828184,
+      "lng": 16.548247
+    },
+    {
+      "id": "6e31192d-bf84-4000-981f-c51fbf554f74",
+      "slug": "affittacamere-bocca-d-orso-altare",
+      "nome": "Affittacamere Bocca d’Orso",
+      "city_name": "Altare",
+      "indirizzo": "Via Verne, 17041 Altare SV",
+      "lat": 44.326603,
+      "lng": 8.348064
+    },
+    {
+      "id": "eabd0bf9-61d7-4ad1-9b67-cf1f97d0fcec",
+      "slug": "albergo-al-castello-altare",
+      "nome": "Albergo al Castello",
+      "city_name": "Altare",
+      "indirizzo": "Località Bosi, 12, 17010 Cosseria SV",
+      "lat": 44.367468,
+      "lng": 8.235528
+    },
+    {
+      "id": "dfdf227d-2dd7-4291-98fb-2aabe4df7961",
+      "slug": "albergo-della-stazione-altare",
+      "nome": "Albergo della Stazione",
+      "city_name": "Altare",
+      "indirizzo": "Via dell' Indipendenza, 8, 17014 San Giuseppe SV",
+      "lat": 44.369662,
+      "lng": 8.28853
+    },
+    {
+      "id": "2810d590-2861-498b-b94f-a9a3ef4df451",
+      "slug": "albergo-ristorante-al-castello-altare",
+      "nome": "Albergo Ristorante Al Castello",
+      "city_name": "Altare",
+      "indirizzo": "Località Bosi, 12, 17010 Cosseria SV",
+      "lat": 44.367582,
+      "lng": 8.235133
+    },
+    {
+      "id": "3e11fcbe-306d-4f0f-bdca-00341e0f13c8",
+      "slug": "b-b-i-calleri-garden-rooms-altare",
+      "nome": "B&B I Calleri garden & rooms",
+      "city_name": "Altare",
+      "indirizzo": "Località Calleri, 92, 17010 Cosseria SV",
+      "lat": 44.36544,
+      "lng": 8.230429
+    },
+    {
+      "id": "589866e8-cf47-4d11-aabc-17ee5c38ee38",
+      "slug": "b-b-la-casa-dei-cuori-altare",
+      "nome": "B&B La casa dei cuori",
+      "city_name": "Altare",
+      "indirizzo": "Loc, Località Povigna, 70, 17010 Cosseria SV",
+      "lat": 44.362631,
+      "lng": 8.231377
+    },
+    {
+      "id": "24975aed-826b-4d3d-8639-eaca31b57da0",
+      "slug": "b-b-la-casa-del-daino-altare",
+      "nome": "B&B La casa del Daino",
+      "city_name": "Altare",
+      "indirizzo": "Unnamed Road, 17017, 17010 Cosseria SV",
+      "lat": 44.376974,
+      "lng": 8.247088
+    },
+    {
+      "id": "7852e271-a8f4-45af-af33-80828695ef14",
+      "slug": "b-b-le-stanze-del-moro-altare",
+      "nome": "B&B Le Stanze del Moro",
+      "city_name": "Altare",
+      "indirizzo": "Via 25 Aprile, 17, 17040 Pallare SV",
+      "lat": 44.324704,
+      "lng": 8.272071
+    }
+  ]
+}

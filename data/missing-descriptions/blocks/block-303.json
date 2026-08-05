@@ -1,0 +1,323 @@
+{
+  "block": 303,
+  "blockId": "303",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "dcdff22f-115d-4e98-8c82-e31f59510390",
+      "slug": "al-calypso-borgo-virgilio",
+      "nome": "Al calypso",
+      "city_name": "Borgo Virgilio",
+      "indirizzo": "Via Governolo, 11, 46010 Curtatone MN",
+      "lat": 45.129015,
+      "lng": 10.764367
+    },
+    {
+      "id": "771e954c-6216-48fb-9c7c-680741edc865",
+      "slug": "b-b-douce-france-borgo-virgilio",
+      "nome": "b&b Douce france",
+      "city_name": "Borgo Virgilio",
+      "indirizzo": "Via B. Buozzi, 7, 46034 Borgo Virgilio MN",
+      "lat": 45.10253,
+      "lng": 10.774462
+    },
+    {
+      "id": "b552237b-7a9f-479d-9497-b537db5e4457",
+      "slug": "b-b-emozioni-e-relax-borgo-virgilio",
+      "nome": "B&B Emozioni e Relax",
+      "city_name": "Borgo Virgilio",
+      "indirizzo": "Via Parma, 48, 46034 Pietole MN",
+      "lat": 45.113867,
+      "lng": 10.818423
+    },
+    {
+      "id": "05fc74ad-ba9a-4403-a9f1-1003db414323",
+      "slug": "b-b-giaciglio-di-virgilio-borgo-virgilio",
+      "nome": "B&B Giaciglio di Virgilio",
+      "city_name": "Borgo Virgilio",
+      "indirizzo": "di Virgilio, Via Cesare Battisti, 5, 46034 Cerese MN",
+      "lat": 45.119407,
+      "lng": 10.787487
+    },
+    {
+      "id": "7d82ac7e-2398-4c36-bc48-cab48a04bcd0",
+      "slug": "b-b-la-dimora-delle-calendule-borgo-virgilio",
+      "nome": "B&B La Dimora delle calendule",
+      "city_name": "Borgo Virgilio",
+      "indirizzo": "Via T.Tasso,14 Cerese di, 46034 Borgo Virgilio MN",
+      "lat": 45.122486,
+      "lng": 10.792502
+    },
+    {
+      "id": "ba678eb9-e7e4-462b-8fc4-bbd47c3353fb",
+      "slug": "b-b-parco-del-mincio-borgo-virgilio",
+      "nome": "B&B Parco del Mincio",
+      "city_name": "Borgo Virgilio",
+      "indirizzo": "Strada del Corriere, 19, 46034 Virgilio MN",
+      "lat": 45.127153,
+      "lng": 10.804252
+    },
+    {
+      "id": "7f9ef463-95ad-4c6f-a0a4-d086431dda19",
+      "slug": "corte-loiol-borgo-virgilio",
+      "nome": "Corte LOIOL",
+      "city_name": "Borgo Virgilio",
+      "indirizzo": "Via Tre Teste, 1, 46034 Borgo Virgilio MN",
+      "lat": 45.052859,
+      "lng": 10.669857
+    },
+    {
+      "id": "7013dc3b-1511-4007-b97f-8e99e26309ea",
+      "slug": "hotel-dei-gonzaga-borgo-virgilio",
+      "nome": "Hotel dei Gonzaga",
+      "city_name": "Borgo Virgilio",
+      "indirizzo": "Piazza Sordello, 52, 46100 Mantova MN",
+      "lat": 45.159487,
+      "lng": 10.796148
+    },
+    {
+      "id": "38e87646-cd5d-4f69-8f1d-10742e8ff671",
+      "slug": "virgilio-residence-borgo-virgilio",
+      "nome": "Virgilio Residence",
+      "city_name": "Borgo Virgilio",
+      "indirizzo": "Via Parenza Bassa, 7, 46034 Virgilio MN",
+      "lat": 45.118177,
+      "lng": 10.786255
+    },
+    {
+      "id": "7071ea70-2442-4cd7-b276-43400a2f4bb7",
+      "slug": "hotel-eolo-borgocarbonara",
+      "nome": "Hotel Eolo",
+      "city_name": "Borgocarbonara",
+      "indirizzo": "Viale Rinascita, 46, 46028 Sermide MN",
+      "lat": 45.001758,
+      "lng": 11.294813
+    },
+    {
+      "id": "e190a526-db51-4a4c-b6e1-689120f8d9db",
+      "slug": "la-locanda-nel-frutteto-room-breakfast-eventi-borgocarbonara",
+      "nome": "La Locanda nel Frutteto Room & Breakfast - Eventi",
+      "city_name": "Borgocarbonara",
+      "indirizzo": "Via Mazzarana, 87, 41016 Novi di Modena MO",
+      "lat": 44.87859,
+      "lng": 10.95079
+    },
+    {
+      "id": "8c9dd9c6-cbd7-49aa-a1e2-414c3a251bf7",
+      "slug": "locanda-divinis-borgocarbonara",
+      "nome": "Locanda Divinis",
+      "city_name": "Borgocarbonara",
+      "indirizzo": "Via S. Vito, 87, 37053 Cerea VR",
+      "lat": 45.197882,
+      "lng": 11.19744
+    },
+    {
+      "id": "c8e43afa-c808-4ed1-9f56-f358e51cdb3f",
+      "slug": "villa-camurana-borgocarbonara",
+      "nome": "Villa Camurana",
+      "city_name": "Borgocarbonara",
+      "indirizzo": "Via Camurana, 69, 41037 Medolla MO",
+      "lat": 44.864891,
+      "lng": 11.068068
+    },
+    {
+      "id": "935100b2-33f6-40a5-90cf-6e6a641100b0",
+      "slug": "albergo-ristorante-miniere-borgofranco-d-ivrea",
+      "nome": "Albergo Ristorante Miniere",
+      "city_name": "Borgofranco d'Ivrea",
+      "indirizzo": "Piazza Martiri 1944, 4, 10080 Traversella TO",
+      "lat": 45.509048,
+      "lng": 7.750348
+    },
+    {
+      "id": "e25d9bc2-1d7d-456c-95f8-63bf49263f9a",
+      "slug": "relais-castello-san-giuseppe-a-chiaverano-borgofranco-d-ivrea",
+      "nome": "Relais Castello San Giuseppe a Chiaverano",
+      "city_name": "Borgofranco d'Ivrea",
+      "indirizzo": "10010 Chiaverano TO",
+      "lat": 45.491497,
+      "lng": 7.89344
+    },
+    {
+      "id": "77c02508-28a1-45e7-85ac-efe56f761452",
+      "slug": "agriturismo-vignarello-borgolavezzaro",
+      "nome": "Agriturismo Vignarello",
+      "city_name": "Borgolavezzaro",
+      "indirizzo": "Via Barbavara, 2, 28070 Tornaco NO",
+      "lat": 45.347397,
+      "lng": 8.749268
+    },
+    {
+      "id": "51db10df-f940-46fa-a211-62b17f971664",
+      "slug": "albergo-bottala-borgolavezzaro",
+      "nome": "ALBERGO BOTTALA",
+      "city_name": "Borgolavezzaro",
+      "indirizzo": "27036 Mortara PV, Italia",
+      "lat": 45.25228,
+      "lng": 8.732674
+    },
+    {
+      "id": "7c6795c9-640c-4bfc-8206-c3e8dbd4714e",
+      "slug": "albergo-hotel-milano-di-lugani-giovanna-c-snc-borgolavezzaro",
+      "nome": "Albergo Hotel Milano Di Lugani Giovanna & C. Snc",
+      "city_name": "Borgolavezzaro",
+      "indirizzo": "Via Roma, 18, 27025 Gambolo' PV",
+      "lat": 45.255794,
+      "lng": 8.861257
+    },
+    {
+      "id": "3c29b01b-cc62-400b-b461-0cb8fd61a529",
+      "slug": "foresteria-lombarda-re-artu-borgolavezzaro",
+      "nome": "Foresteria Lombarda Re Artù",
+      "city_name": "Borgolavezzaro",
+      "indirizzo": "Contrada della Torre, 11, 27036 Mortara PV",
+      "lat": 45.252811,
+      "lng": 8.738778
+    },
+    {
+      "id": "2454c348-8cf6-4a8f-bd92-05fae157b2ed",
+      "slug": "il-mulino-alloggi-foresteria-borgolavezzaro",
+      "nome": "Il Mulino alloggi foresteria",
+      "city_name": "Borgolavezzaro",
+      "indirizzo": "Via Case Sparse per Cilavegna, 2, 27020 Parona PV",
+      "lat": 45.290925,
+      "lng": 8.752668
+    },
+    {
+      "id": "f4371128-4442-4aa1-b8f1-4ab79f929716",
+      "slug": "l-sass-borgomanero",
+      "nome": "'L SASS",
+      "city_name": "Borgomanero",
+      "indirizzo": "Via Barcellini, 14A, 28021 Borgomanero NO",
+      "lat": 45.691465,
+      "lng": 8.496945
+    },
+    {
+      "id": "704ab15b-9304-4377-98b1-c77fdcd48b80",
+      "slug": "b-b-benvenuti-al-nord-borgomanero",
+      "nome": "B&B Benvenuti Al Nord",
+      "city_name": "Borgomanero",
+      "indirizzo": "Via Piovale, 4, 28021 Borgomanero NO",
+      "lat": 45.695273,
+      "lng": 8.463625
+    },
+    {
+      "id": "0b68fdb3-2079-4eff-94da-e06ac37d9def",
+      "slug": "corte-22-bed-and-breakfast-e-appartamento-borgomanero",
+      "nome": "Corte 22 Bed and Breakfast e Appartamento",
+      "city_name": "Borgomanero",
+      "indirizzo": "Via Don Giovanni Bosco, 22, 28021 Borgomanero NO",
+      "lat": 45.70231,
+      "lng": 8.45717
+    },
+    {
+      "id": "f319e31a-63b0-4003-90f3-4287243051fa",
+      "slug": "hotel-san-francesco-borgomanero",
+      "nome": "Hotel San Francesco",
+      "city_name": "Borgomanero",
+      "indirizzo": "Via Maggiate, 107, 28021 Borgomanero NO",
+      "lat": 45.703785,
+      "lng": 8.482474
+    },
+    {
+      "id": "e26c4a7c-1562-4685-a069-dd547a0f6f97",
+      "slug": "il-nido-del-pettirosso-borgomanero",
+      "nome": "Il Nido del Pettirosso",
+      "city_name": "Borgomanero",
+      "indirizzo": "Via Piovale, 14, 28021 Borgomanero NO",
+      "lat": 45.693845,
+      "lng": 8.464555
+    },
+    {
+      "id": "afd27a3b-6fde-40a4-b529-0188cf27b310",
+      "slug": "le3stanze-di-loredana-borgomanero",
+      "nome": "LE3STANZE di Loredana",
+      "city_name": "Borgomanero",
+      "indirizzo": "Via Kennedy, 5/G, 28021 Borgomanero NO",
+      "lat": 45.706362,
+      "lng": 8.455919
+    },
+    {
+      "id": "13bfa7bc-d374-4835-bbe1-103086e47a04",
+      "slug": "maison-1706-borgomanero",
+      "nome": "Maison 1706",
+      "city_name": "Borgomanero",
+      "indirizzo": "Via Brunelli Maioni, 17, 28021 Borgomanero NO",
+      "lat": 45.699064,
+      "lng": 8.461039
+    },
+    {
+      "id": "e67adf9f-a33e-4482-ae48-2cb71f55dd3f",
+      "slug": "casa-rosalie-borgomaro",
+      "nome": "Casa Rosalie",
+      "city_name": "Borgomaro",
+      "indirizzo": "Via Torino, 51, 18020 Cesio IM",
+      "lat": 44.010819,
+      "lng": 7.955108
+    },
+    {
+      "id": "69ebe282-016c-41fe-87cb-a29b6873e291",
+      "slug": "casa-torretta-borgomaro",
+      "nome": "Casa Torretta",
+      "city_name": "Borgomaro",
+      "indirizzo": "Via Lazzaro, 1, 18021 Borgomaro IM",
+      "lat": 43.978853,
+      "lng": 7.950483
+    },
+    {
+      "id": "f8dfa41e-7521-4a01-bb94-be70628e8027",
+      "slug": "la-casa-del-cavaliere-borgomaro",
+      "nome": "La Casa del Cavaliere",
+      "city_name": "Borgomaro",
+      "indirizzo": "Via P. Merano, 22, 18021 Borgomaro IM",
+      "lat": 43.974922,
+      "lng": 7.944729
+    },
+    {
+      "id": "ff16190b-8b9d-4819-8e2e-4ca1e06d04a7",
+      "slug": "la-sosta-del-viandante-borgomaro",
+      "nome": "La sosta del Viandante",
+      "city_name": "Borgomaro",
+      "indirizzo": "Via Vincenzo Ferrari, 8, 18021 Borgomaro IM",
+      "lat": 43.974822,
+      "lng": 7.945682
+    },
+    {
+      "id": "8b861f96-1e76-4310-adca-8e7889e09da9",
+      "slug": "dimora-storica-casa-vanni-borgomezzavalle",
+      "nome": "Dimora Storica Casa Vanni",
+      "city_name": "Borgomezzavalle",
+      "indirizzo": "Via Valeggia, 6, 28841 Borgomezzavalle VB",
+      "lat": 46.052364,
+      "lng": 8.194818
+    },
+    {
+      "id": "98548d7e-d666-424f-a6f1-9a70f79fc68e",
+      "slug": "eco-house-e-b-b-a-suli-borgomezzavalle",
+      "nome": "Eco House e B&B A Sulì",
+      "city_name": "Borgomezzavalle",
+      "indirizzo": "Via Camblione, 3, 28841 Camblione VB",
+      "lat": 46.054975,
+      "lng": 8.209925
+    },
+    {
+      "id": "e5d61947-a21b-479d-a7f8-9844bcb4b42a",
+      "slug": "albergo-ristorante-pian-benot-nei-e-soleil-borgone-susa",
+      "nome": "Albergo Ristorante Pian Benot Nei e Soleil",
+      "city_name": "Borgone Susa",
+      "indirizzo": "Frazione, 10070 Usseglio TO",
+      "lat": 45.222584,
+      "lng": 7.22747
+    },
+    {
+      "id": "9152b325-f52c-4ea7-8f3c-b6a505cc86f1",
+      "slug": "b-b-autin-borgone-susa",
+      "nome": "B&B Autin",
+      "city_name": "Borgone Susa",
+      "indirizzo": "Via Carlo Emanuele I, 63, 10050 Bruzolo TO",
+      "lat": 45.140613,
+      "lng": 7.198604
+    }
+  ]
+}

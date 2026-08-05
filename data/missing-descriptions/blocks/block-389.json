@@ -1,0 +1,323 @@
+{
+  "block": 389,
+  "blockId": "389",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "cf0c9657-dc33-47a9-a9b4-f08a4c5b6704",
+      "slug": "hotel-villa-nettuno-campo-nell-elba",
+      "nome": "Hotel Villa Nettuno",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Viale degli Etruschi, 652, 57034 Marina di Campo LI",
+      "lat": 42.751177,
+      "lng": 10.241638
+    },
+    {
+      "id": "2570787a-dceb-4c6c-be22-de8455be3eeb",
+      "slug": "locanda-dell-amicizia-di-pierulivo-enrica-c-s-a-campo-nell-elba",
+      "nome": "Locanda Dell'Amicizia Di Pierulivo Enrica & C. S.A.S.",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "57034 Vallebuia LI, Italia",
+      "lat": 42.74513,
+      "lng": 10.17035
+    },
+    {
+      "id": "65de9f9c-411b-4975-83f6-b614d3831881",
+      "slug": "pfa-hotel-ginevra-isola-d-elba-campo-nell-elba",
+      "nome": "PFA Hotel Ginevra - Isola d'Elba",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Via A. de Gasperi, 63, 57038 Cavo LI",
+      "lat": 42.858127,
+      "lng": 10.418751
+    },
+    {
+      "id": "4b794f17-222e-461a-8629-88d3222a8dbb",
+      "slug": "piccolo-hotel-versilia-campo-nell-elba",
+      "nome": "Piccolo Hotel Versilia",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Via dell'Acquedotto, 1580, 57034 Marina di Campo LI",
+      "lat": 42.752559,
+      "lng": 10.243022
+    },
+    {
+      "id": "84ed27fd-5b0f-4f2e-8ee6-4a51bde4a45e",
+      "slug": "agrialloggi-lapalazzina-campo-san-martino",
+      "nome": "AGRIALLOGGI LAPALAZZINA",
+      "city_name": "Campo San Martino",
+      "indirizzo": "Via Vittorio Veneto, 72, 35010 Curtarolo PD",
+      "lat": 45.520707,
+      "lng": 11.840581
+    },
+    {
+      "id": "74215459-87d6-446d-845b-235c6bcca998",
+      "slug": "agriturismo-con-alloggi-honey-farm-campo-san-martino",
+      "nome": "Agriturismo con alloggi Honey Farm",
+      "city_name": "Campo San Martino",
+      "indirizzo": "Via dell'Orto, 52b, 35016 Piazzola sul Brenta PD",
+      "lat": 45.530631,
+      "lng": 11.798305
+    },
+    {
+      "id": "b9366ea3-167b-4d28-863b-b11b17c07783",
+      "slug": "agriturismo-sartor-san-giorgio-in-bosco-campo-san-martino",
+      "nome": "Agriturismo Sartor San Giorgio in Bosco",
+      "city_name": "Campo San Martino",
+      "indirizzo": "Via Calandrine, 2320, 35010 San Giorgio in Bosco PD",
+      "lat": 45.582717,
+      "lng": 11.833297
+    },
+    {
+      "id": "3499d87c-3be9-4bec-ba30-7902b61d8907",
+      "slug": "b-b-maison-parco-del-brenta-curtarolo-campo-san-martino",
+      "nome": "B&B Maison Parco del Brenta Curtarolo",
+      "city_name": "Campo San Martino",
+      "indirizzo": "di Curtarolo, Via Monte Pasubio, 41, 35010 Pieve PD",
+      "lat": 45.534003,
+      "lng": 11.817422
+    },
+    {
+      "id": "e3df8c39-dc0d-4255-8421-7ff394b52932",
+      "slug": "camerini-guest-house-campo-san-martino",
+      "nome": "Camerini Guest House",
+      "city_name": "Campo San Martino",
+      "indirizzo": "Via XX Settembre, 71, 35016 Piazzola sul Brenta PD",
+      "lat": 45.537344,
+      "lng": 11.786188
+    },
+    {
+      "id": "38350d67-d724-4098-ad25-6b8f9fb22de8",
+      "slug": "hotel-alle-scuole-campo-san-martino",
+      "nome": "Hotel Alle Scuole",
+      "city_name": "Campo San Martino",
+      "indirizzo": "Via Garavello Don Ernesto, 2, 35010 Santa Maria di Non PD",
+      "lat": 45.514366,
+      "lng": 11.856658
+    },
+    {
+      "id": "c1d84a42-dc54-4649-a524-055a6250ef1b",
+      "slug": "hotel-ariston-campo-san-martino",
+      "nome": "Hotel Ariston",
+      "city_name": "Campo San Martino",
+      "indirizzo": "Via Antoniana, 230, 35011 Campodarsego PD",
+      "lat": 45.503387,
+      "lng": 11.907534
+    },
+    {
+      "id": "e67a7d8c-d519-49c0-9c6a-2af047e5c66e",
+      "slug": "hotel-bracco-campo-san-martino",
+      "nome": "Hotel Bracco",
+      "city_name": "Campo San Martino",
+      "indirizzo": "Via Loreggiola, 115, 35010 Loreggiola PD",
+      "lat": 45.606976,
+      "lng": 11.921136
+    },
+    {
+      "id": "5369b13c-3111-4ca2-833f-26faa9baaac6",
+      "slug": "hotel-ristorante-pizzeria-al-leone-campo-san-martino",
+      "nome": "Hotel-Ristorante-Pizzeria \"al Leone\"",
+      "city_name": "Campo San Martino",
+      "indirizzo": "Via Roma, 47, 35010 Villa del Conte PD",
+      "lat": 45.585951,
+      "lng": 11.858579
+    },
+    {
+      "id": "d41b9553-84c1-466f-bb46-774e110443a6",
+      "slug": "la-brenta-vecchia-ristorante-alloggi-campo-san-martino",
+      "nome": "La Brenta Vecchia Ristorante & Alloggi",
+      "city_name": "Campo San Martino",
+      "indirizzo": "Via Maresana, 22 /A, 35010 Vigodarzere PD",
+      "lat": 45.483565,
+      "lng": 11.847476
+    },
+    {
+      "id": "94240c0f-bf29-4fe3-b4a2-456d4c13a5c0",
+      "slug": "la-penisola-agriturismo-campo-san-martino",
+      "nome": "La Penisola Agriturismo",
+      "city_name": "Campo San Martino",
+      "indirizzo": "Via Kennedy, 19, 35010 Campo San Martino PD",
+      "lat": 45.550243,
+      "lng": 11.806266
+    },
+    {
+      "id": "d24e3c85-3da5-42c2-bfe4-7b6063070e25",
+      "slug": "ahriapura-apartments-campo-tures-sand-in-taufers",
+      "nome": "AhriaPura Apartments",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Michelreiserweg, 5, 39032 Campo Tures BZ",
+      "lat": 46.919342,
+      "lng": 11.949421
+    },
+    {
+      "id": "4130bebd-ae6a-425a-ab88-d0efa30635a3",
+      "slug": "albergo-trojer-campo-tures-sand-in-taufers",
+      "nome": "Albergo Trojer",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Via S. Maurizio, 9, 39032 Campo Tures BZ",
+      "lat": 46.920489,
+      "lng": 11.956482
+    },
+    {
+      "id": "772779dc-528a-4a1d-bfd1-96eb0eef8184",
+      "slug": "alphotel-stocker-campo-tures-sand-in-taufers",
+      "nome": "Alphotel Stocker",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Via Wiesenhof, 41, 39032 Campo Tures BZ",
+      "lat": 46.917822,
+      "lng": 11.957333
+    },
+    {
+      "id": "62bfd467-be1e-44c5-80cb-87624af02770",
+      "slug": "apparthotel-central-campo-tures-sand-in-taufers",
+      "nome": "Apparthotel Central",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Josef Jungmann Straße, 1, 39032 Campo Tures BZ",
+      "lat": 46.918257,
+      "lng": 11.952164
+    },
+    {
+      "id": "c82e1f3c-9c09-4f36-926c-a367b7c8d5fc",
+      "slug": "b-b-hotel-heini-campo-tures-sand-in-taufers",
+      "nome": "B&B Hotel Heini",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Vicolo Bayer, 16, 39032 Campo Tures BZ",
+      "lat": 46.920806,
+      "lng": 11.951822
+    },
+    {
+      "id": "fd9bdc49-955a-49f6-b306-a00deabc4bac",
+      "slug": "bergheimat-by-alfred-campo-tures-sand-in-taufers",
+      "nome": "Bergheimat By Alfred",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Via Obergasse, 21, 39032 Acereto BZ",
+      "lat": 46.926751,
+      "lng": 11.981812
+    },
+    {
+      "id": "a8cf3694-57cc-417b-b33d-d6186316341b",
+      "slug": "feldmilla-design-hotel-wellness-spa-campo-tures-sand-in-taufers",
+      "nome": "Feldmilla Design Hotel - Wellness & SPA",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Via al Castello, 9, 39032 Campo Tures BZ",
+      "lat": 46.921354,
+      "lng": 11.952636
+    },
+    {
+      "id": "4a66b980-3fbb-47ce-987e-92dfa6eb2dc5",
+      "slug": "garberhof-campo-tures-sand-in-taufers",
+      "nome": "Garberhof",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Via Winkel, 60, 39032 Campo Tures BZ",
+      "lat": 46.916041,
+      "lng": 11.969509
+    },
+    {
+      "id": "91d1c053-ed1a-41a2-afde-a9d39c4945e5",
+      "slug": "garni-bergfried-campo-tures-sand-in-taufers",
+      "nome": "Garni Bergfried",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Vicolo Bayer, 32, 39032 Campo Tures BZ",
+      "lat": 46.920959,
+      "lng": 11.950839
+    },
+    {
+      "id": "b2c6b07c-9fba-4352-b78b-e38b03c53bd5",
+      "slug": "garni-zimmerhofer-campo-tures-sand-in-taufers",
+      "nome": "Garni Zimmerhofer",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Via Dottor Daimer, 56, 39032 Campo Tures BZ",
+      "lat": 46.916806,
+      "lng": 11.959324
+    },
+    {
+      "id": "343a9e99-59e6-4d18-9729-d43906103447",
+      "slug": "hotel-alte-muhle-campo-tures-sand-in-taufers",
+      "nome": "Hotel Alte Mühle",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Via S. Maurizio, 1/2, 39032 Campo Tures BZ",
+      "lat": 46.920651,
+      "lng": 11.954948
+    },
+    {
+      "id": "0c79f348-3286-4e1b-9fe3-d73eb219d821",
+      "slug": "hotel-drumlerhof-campo-tures-sand-in-taufers",
+      "nome": "Hotel Drumlerhof",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "via del municipio, 6, 39032 Campo Tures BZ",
+      "lat": 46.919372,
+      "lng": 11.952247
+    },
+    {
+      "id": "5da76d66-872f-4ce0-b81c-cc3e2a5f74a9",
+      "slug": "hotel-hellweger-campo-tures-sand-in-taufers",
+      "nome": "Hotel Hellweger",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Via Hugo Von Taufers, 22, 39032 Campo Tures BZ",
+      "lat": 46.917481,
+      "lng": 11.955025
+    },
+    {
+      "id": "940f0a8e-b52d-4844-b532-989df3b3a80e",
+      "slug": "hotel-mirabell-campo-tures-sand-in-taufers",
+      "nome": "Hotel Mirabell",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Via Hugo Von Taufers, 44, 39032 Campo Tures BZ",
+      "lat": 46.916622,
+      "lng": 11.95652
+    },
+    {
+      "id": "6560bf51-9017-460e-8107-2b809718c0d7",
+      "slug": "hotel-residence-alpinum-campo-tures-sand-in-taufers",
+      "nome": "Hotel Residence Alpinum",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Josef Jungmann Straße, 12, 39032 Campo Tures BZ",
+      "lat": 46.918758,
+      "lng": 11.952992
+    },
+    {
+      "id": "d668fc75-db6b-4ee3-8f86-41248262c08f",
+      "slug": "hotel-restaurant-spangla-campo-tures-sand-in-taufers",
+      "nome": "Hotel Restaurant Spangla",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Via Aurina, Ahrntalerstrasse, 23, 39032 Campo Tures BZ",
+      "lat": 46.919177,
+      "lng": 11.950893
+    },
+    {
+      "id": "4706b7e6-e7e3-4c04-8b1c-dd352ac84de2",
+      "slug": "hotel-stifter-campo-tures-sand-in-taufers",
+      "nome": "Hotel Stifter",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Via Valle Aurina, 16, 39030 Lutago BZ",
+      "lat": 46.950047,
+      "lng": 11.922267
+    },
+    {
+      "id": "4f965dc9-75f4-4bc6-8fc5-bf47fb9d3c5b",
+      "slug": "residence-margareth-campo-tures-sand-in-taufers",
+      "nome": "Residence Margareth",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Josef Jungmann Straße, 4, 39032 Campo Tures BZ",
+      "lat": 46.918147,
+      "lng": 11.953184
+    },
+    {
+      "id": "4b9e1232-b3dd-40e5-9542-5b5bde3dad56",
+      "slug": "residence-taufers-campo-tures-sand-in-taufers",
+      "nome": "Residence Taufers",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "Via Selva dei Molini, 1, 39032 Molini di Tures BZ",
+      "lat": 46.901295,
+      "lng": 11.94063
+    },
+    {
+      "id": "2fd81daa-fb31-43fa-ab9d-48fcea3c6deb",
+      "slug": "residence-villa-calluna-campo-tures-sand-in-taufers",
+      "nome": "Residence Villa Calluna",
+      "city_name": "Campo Tures/Sand in Taufers",
+      "indirizzo": "via Dr. Daimer, Str. 23, 39032 Sand in Taufers, Autonome Provinz Bozen - Südtirol",
+      "lat": 46.919189,
+      "lng": 11.957379
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 186,
+  "blockId": "186",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "9fc8fc4f-0792-48a7-b5ea-db1fcbb3500d",
+      "slug": "cascina-via-piane-azeglio-azeglio",
+      "nome": "Cascina Via Piane Azeglio",
+      "city_name": "Azeglio",
+      "indirizzo": "Via Piane, 78 bis, 10010 Azeglio TO",
+      "lat": 45.42219,
+      "lng": 7.983922
+    },
+    {
+      "id": "4709c3fb-3f1d-4d63-8989-3a771348fed4",
+      "slug": "country-house-residenza-di-campagna-fuori-porta-azeglio",
+      "nome": "Country House - Residenza di Campagna Fuori Porta d'Azeglio",
+      "city_name": "Azeglio",
+      "indirizzo": "Via Roma, 1 bis, 10010 Azeglio TO",
+      "lat": 45.426757,
+      "lng": 7.992297
+    },
+    {
+      "id": "1580ec92-e748-46d6-9b5e-bf020bd00cb7",
+      "slug": "hotel-d-azeglio-azeglio",
+      "nome": "Hotel D'Azeglio",
+      "city_name": "Azeglio",
+      "indirizzo": "Via della Mattonaia, 43, 50121 Firenze FI",
+      "lat": 43.774059,
+      "lng": 11.26956
+    },
+    {
+      "id": "374d0a94-e1de-4c93-9698-3e26d09a350f",
+      "slug": "hotel-residence-d-azeglio-torino-azeglio",
+      "nome": "Hotel Residence d'Azeglio Torino",
+      "city_name": "Azeglio",
+      "indirizzo": "Via Federico Menabrea, 20, 10126 Torino TO",
+      "lat": 45.042601,
+      "lng": 7.675523
+    },
+    {
+      "id": "1a1ee1be-7132-49ec-9a52-673978c8a100",
+      "slug": "il-giardino-dei-semplici-azeglio",
+      "nome": "Il Giardino dei Semplici",
+      "city_name": "Azeglio",
+      "indirizzo": "Via Roma, 78, 10010 Azeglio TO",
+      "lat": 45.42495,
+      "lng": 7.996933
+    },
+    {
+      "id": "29df01a3-269a-4198-a496-194e99ddf6db",
+      "slug": "adisartur-elegant-b-b-azzanello",
+      "nome": "AdisArtur Elegant B&B",
+      "city_name": "Azzanello",
+      "indirizzo": "Via Munizione, 14, 25034 Orzinuovi BS",
+      "lat": 45.401706,
+      "lng": 9.926023
+    },
+    {
+      "id": "7a7103d7-0795-4f86-8b41-1add499f1e51",
+      "slug": "agriturismo-corte-dei-semplici-azzanello",
+      "nome": "Agriturismo Corte Dei Semplici",
+      "city_name": "Azzanello",
+      "indirizzo": "Località, Cascina Colombara, 4, 26020 Bordolano CR",
+      "lat": 45.289574,
+      "lng": 9.977285
+    },
+    {
+      "id": "ac499b8c-7add-4e6c-a9c8-a618a2233152",
+      "slug": "agriturismo-padernello-azzanello",
+      "nome": "Agriturismo Padernello",
+      "city_name": "Azzanello",
+      "indirizzo": "Via Cavour, 2, 25022 Borgo San Giacomo BS",
+      "lat": 45.35945,
+      "lng": 9.993063
+    },
+    {
+      "id": "0b2630d6-a0ce-47e9-be55-a086399c87e3",
+      "slug": "osteria-il-becco-fine-affittacamere-azzanello",
+      "nome": "Osteria il Becco Fine Affittacamere",
+      "city_name": "Azzanello",
+      "indirizzo": "Via Roma, 12, 26020 Cumignano sul Naviglio CR",
+      "lat": 45.354525,
+      "lng": 9.836511
+    },
+    {
+      "id": "1fa17e56-9dad-48ec-a718-b64d657fdfa5",
+      "slug": "albergo-villa-conte-riccardi-azzano-d-asti",
+      "nome": "Albergo Villa Conte Riccardi",
+      "city_name": "Azzano d'Asti",
+      "indirizzo": "Via al Monte, 9, 14030 Rocca D'arazzo AT",
+      "lat": 44.870491,
+      "lng": 8.287231
+    },
+    {
+      "id": "b8b10a12-8ca2-49e3-a11e-27fa593869d5",
+      "slug": "b-b-la-crota-azzano-d-asti",
+      "nome": "B&B La Crota",
+      "city_name": "Azzano d'Asti",
+      "indirizzo": "Località Valterza, 68, 14100 Asti AT",
+      "lat": 44.909962,
+      "lng": 8.258263
+    },
+    {
+      "id": "af7aac0c-2d7b-441e-bba9-af658db48a4f",
+      "slug": "b-b-lanterna-delle-fate-azzano-d-asti",
+      "nome": "B&B Lanterna delle Fate",
+      "city_name": "Azzano d'Asti",
+      "indirizzo": "Via Montemarzo, 26, 14030 Azzano d'Asti AT",
+      "lat": 44.872015,
+      "lng": 8.263838
+    },
+    {
+      "id": "6570fd8b-24e2-4e8e-b116-050fb3519806",
+      "slug": "b-b-locanda-dei-fiori-azzano-d-asti",
+      "nome": "B&B Locanda dei fiori",
+      "city_name": "Azzano d'Asti",
+      "indirizzo": "Via Montemarzo, 2, 14030 Azzano d'Asti AT",
+      "lat": 44.873721,
+      "lng": 8.265249
+    },
+    {
+      "id": "6d548475-ab7c-4c3b-a128-fec050b5c721",
+      "slug": "b-b-locanda-della-sesta-felicita-azzano-d-asti",
+      "nome": "B&B Locanda della Sesta Felicità",
+      "city_name": "Azzano d'Asti",
+      "indirizzo": "Via San Pancrazio, 3, 14049 Vaglio Serra AT",
+      "lat": 44.804488,
+      "lng": 8.33291
+    },
+    {
+      "id": "b110eb9b-aa09-4ca6-8b0d-1d8261c8e442",
+      "slug": "cascina-pontetto-azzano-d-asti",
+      "nome": "Cascina Pontetto",
+      "city_name": "Azzano d'Asti",
+      "indirizzo": "Corso Alessandria, 526, 14100 Asti AT",
+      "lat": 44.906651,
+      "lng": 8.256594
+    },
+    {
+      "id": "dad54008-59ab-4491-848d-a456eed5eb8e",
+      "slug": "il-fiordaliso-azzano-d-asti",
+      "nome": "Il Fiordaliso",
+      "city_name": "Azzano d'Asti",
+      "indirizzo": "Via de Pianca, 14030 Azzano d'Asti AT",
+      "lat": 44.87208,
+      "lng": 8.270154
+    },
+    {
+      "id": "014128aa-9c6e-4851-9767-29ef80f723d8",
+      "slug": "affittacamere-al-santuario-azzano-decimo",
+      "nome": "Affittacamere \"Al Santuario\"",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Via Madonna di Rosa, 25, 33078 San Vito al Tagliamento PN",
+      "lat": 45.919932,
+      "lng": 12.86814
+    },
+    {
+      "id": "eac78b27-1076-4e24-90ff-664562bf69a6",
+      "slug": "albergo-ristorante-al-portico-azzano-decimo",
+      "nome": "Albergo Ristorante AL PORTICO",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Via Zuiano, 14, 33082 Azzano Decimo PN",
+      "lat": 45.872515,
+      "lng": 12.723445
+    },
+    {
+      "id": "5893312f-7891-4010-9ab9-2320d6ac8219",
+      "slug": "albergo-tuan-srl-azzano-decimo",
+      "nome": "Albergo Tuan Srl",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Via Nazionale, 3, 33080 Zoppola PN",
+      "lat": 45.949605,
+      "lng": 12.7575
+    },
+    {
+      "id": "8118a8c0-6140-4e4a-8d4a-00ab1c5b99be",
+      "slug": "b-b-ca-jole-azzano-decimo",
+      "nome": "B&B Ca' Jole",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Via Fratte Praturlone, 33080 Fiume Veneto PN",
+      "lat": 45.904366,
+      "lng": 12.726859
+    },
+    {
+      "id": "17a12f31-1651-4355-b435-10cf3b3cb7ca",
+      "slug": "b-b-delta-majestic-azzano-decimo",
+      "nome": "B&B Delta Majestic",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Piazzale XX Settembre, 9/int.15, 33170 Pordenone PN",
+      "lat": 45.958967,
+      "lng": 12.660733
+    },
+    {
+      "id": "197d288e-197f-4e9c-b06c-6798310e545a",
+      "slug": "b-b-la-barchessa-azzano-decimo",
+      "nome": "B&B La Barchessa",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Via S. Pietro in Piagno, 4, 33082 Azzano Decimo PN",
+      "lat": 45.916343,
+      "lng": 12.654585
+    },
+    {
+      "id": "3a119941-cedd-4d74-8dd5-81d122a9da3d",
+      "slug": "ca-muliner-azzano-decimo",
+      "nome": "Ca' Muliner",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Via Colle, 22, 33082 Azzano Decimo PN",
+      "lat": 45.880037,
+      "lng": 12.725103
+    },
+    {
+      "id": "37d29486-8a51-48f2-b252-5b71ffb95a2b",
+      "slug": "camere-da-mirna-di-claudio-piccolo-azzano-decimo",
+      "nome": "Camere da Mirna di Claudio Piccolo",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Via Italia, 33083 Villotta PN",
+      "lat": 45.8498,
+      "lng": 12.765003
+    },
+    {
+      "id": "f82dd672-876d-47a2-a856-de25dcc871c1",
+      "slug": "ch-hotel-decimo-massimo-azzano-decimo",
+      "nome": "Ch Hotel Decimo Massimo",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Via Don Bosco, 3, 33082 Azzano Decimo PN",
+      "lat": 45.880344,
+      "lng": 12.714811
+    },
+    {
+      "id": "8c79b187-4ef9-4767-891b-28b5a77d8a2f",
+      "slug": "ex-l-hotel-azzano-decimo",
+      "nome": "EX-L Hotel",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Piazza Guglielmo Marconi, 34, 33080 Fiume Veneto PN",
+      "lat": 45.928017,
+      "lng": 12.731546
+    },
+    {
+      "id": "7e47f61c-f784-47e9-8bd2-4040848870e8",
+      "slug": "hotel-antica-locanda-azzano-decimo",
+      "nome": "Hotel Antica Locanda",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Via Sclavons, 53, 33084 Cordenons PN",
+      "lat": 45.98093,
+      "lng": 12.69838
+    },
+    {
+      "id": "f9bc8c74-1761-4e29-b238-b553c2f61137",
+      "slug": "hotel-montereale-azzano-decimo",
+      "nome": "Hotel Montereale",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Via Montereale, 18, 33170 Pordenone PN",
+      "lat": 45.966078,
+      "lng": 12.653674
+    },
+    {
+      "id": "73b6455b-715e-42fb-8df7-347fe6593a55",
+      "slug": "hotel-naonis-azzano-decimo",
+      "nome": "Hotel Naonis",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Via Musil, 1, 33084 Cordenons PN",
+      "lat": 45.969017,
+      "lng": 12.6944
+    },
+    {
+      "id": "c55a6783-49f0-4170-8443-8993d19a91fb",
+      "slug": "hotel-ristorante-prata-verde-azzano-decimo",
+      "nome": "Hotel Ristorante Prata Verde",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Via Angelo Dino de Carli, 42, 33080 Prata di Pordenone PN",
+      "lat": 45.897638,
+      "lng": 12.603006
+    },
+    {
+      "id": "4a323e5f-6324-4043-9254-f1c014cc5684",
+      "slug": "hotel-santin-azzano-decimo",
+      "nome": "Hotel Santin",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Viale delle Grazie, 9, 33170 Pordenone PN",
+      "lat": 45.950385,
+      "lng": 12.661432
+    },
+    {
+      "id": "ea3badf3-0008-4915-9aef-af3b0d9dece1",
+      "slug": "ostello-europa-azzano-decimo",
+      "nome": "Ostello Europa",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Via Pomponio Amalteo, 39, 33078 San Vito al Tagliamento PN",
+      "lat": 45.914392,
+      "lng": 12.853647
+    },
+    {
+      "id": "3b8bd75d-50ad-45ce-af7b-fff77ec679ea",
+      "slug": "villa-yemaya-azzano-decimo",
+      "nome": "Villa Yemaya",
+      "city_name": "Azzano Decimo",
+      "indirizzo": "Via Divisione Julia, 1, 33072 Casarsa della Delizia PN",
+      "lat": 45.956287,
+      "lng": 12.847965
+    },
+    {
+      "id": "4dc1ad62-85c6-4b41-b891-10e999b61285",
+      "slug": "albergo-civico-7-azzano-mella",
+      "nome": "Albergo Civico 7",
+      "city_name": "Azzano Mella",
+      "indirizzo": "Viale Michelangelo, 25024 Leno BS",
+      "lat": 45.369868,
+      "lng": 10.213604
+    },
+    {
+      "id": "00e07320-1c34-4179-801f-ce9924319c81",
+      "slug": "albergo-hotel-papillon-azzano-mella",
+      "nome": "Albergo Hotel Papillon",
+      "city_name": "Azzano Mella",
+      "indirizzo": "Via Padana Superiore, 100, 25046 Cazzago San Martino BS",
+      "lat": 45.55689,
+      "lng": 10.052133
+    }
+  ]
+}

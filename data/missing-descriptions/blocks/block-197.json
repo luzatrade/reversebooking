@@ -1,0 +1,323 @@
+{
+  "block": 197,
+  "blockId": "197",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "d32ab7f9-1130-4ed5-a0e5-6369cf954b1d",
+      "slug": "hotel-terme-bagni-di-lucca-bagni-di-lucca",
+      "nome": "Hotel Terme Bagni di Lucca",
+      "city_name": "Bagni di Lucca",
+      "indirizzo": "Via del Paretaio, 1, 55021 Bagni di Lucca LU",
+      "lat": 44.011849,
+      "lng": 10.581161
+    },
+    {
+      "id": "7aa6b536-4f0e-497a-84f3-f334de12a098",
+      "slug": "la-locanda-di-pio-di-leseanu-daniela-c-s-a-s-bagni-di-lucca",
+      "nome": "La Locanda Di Pio Di Leseanu Daniela C. S.A.S.",
+      "city_name": "Bagni di Lucca",
+      "indirizzo": "Via Selve, 15, 55022 Bagni di Lucca LU",
+      "lat": 44.013107,
+      "lng": 10.582804
+    },
+    {
+      "id": "a7373e47-053e-4e99-a861-3eb977d2ee88",
+      "slug": "la-ninfa-hotel-ristorante-bagni-di-lucca",
+      "nome": "La Ninfa • Hotel & Ristorante",
+      "city_name": "Bagni di Lucca",
+      "indirizzo": "Via di Serraglia, 78, 55022 Bagni di Lucca LU",
+      "lat": 44.009574,
+      "lng": 10.578176
+    },
+    {
+      "id": "7fb0de9a-0682-4ef1-b5c7-1c134c55747e",
+      "slug": "park-hotel-regina-piscine-riscaldate-bagni-di-lucca",
+      "nome": "Park Hotel Regina - Piscine riscaldate",
+      "city_name": "Bagni di Lucca",
+      "indirizzo": "Viale Umberto I', 157, 55022 Bagni di Lucca LU",
+      "lat": 44.009143,
+      "lng": 10.58991
+    },
+    {
+      "id": "03dd2d9b-6af0-453c-8a26-84e0dcdad544",
+      "slug": "tenuta-la-fratta-bagni-di-lucca",
+      "nome": "Tenuta la Fratta",
+      "city_name": "Bagni di Lucca",
+      "indirizzo": "Loc.la Fratta, 55022 Fornoli LU",
+      "lat": 44.011246,
+      "lng": 10.555694
+    },
+    {
+      "id": "99a34228-3447-4578-9d0d-21c8c5a33553",
+      "slug": "villa-debora-bed-breakfast-bagni-di-lucca",
+      "nome": "Villa Debora Bed & Breakfast",
+      "city_name": "Bagni di Lucca",
+      "indirizzo": "Via Controneria, 1, 55022 Bagni di Lucca LU",
+      "lat": 44.014787,
+      "lng": 10.590536
+    },
+    {
+      "id": "73b66213-2f36-49d6-93c8-90dde5597e2c",
+      "slug": "villa-lucchesi-bagni-di-lucca",
+      "nome": "Villa Lucchesi",
+      "city_name": "Bagni di Lucca",
+      "indirizzo": "Viale Roma, 24, 55022 Bagni di Lucca LU",
+      "lat": 44.006713,
+      "lng": 10.586855
+    },
+    {
+      "id": "c836f5a9-02e1-4ea4-8d5e-5f9b544f2730",
+      "slug": "villa-rosalena-bagni-di-lucca",
+      "nome": "Villa Rosalena",
+      "city_name": "Bagni di Lucca",
+      "indirizzo": "loc. Camaione di sotto 21Ponte a Serraglio, 55022 Bagni di Lucca LU",
+      "lat": 44.012075,
+      "lng": 10.578165
+    },
+    {
+      "id": "77a8a2e0-c091-4f14-b401-8cd1bb530aae",
+      "slug": "agriturismo-villa-dauphine-bagno-a-ripoli",
+      "nome": "Agriturismo Villa Dauphiné",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Via Roma, 563, 50012 Bagno A Ripoli FI",
+      "lat": 43.730825,
+      "lng": 11.355068
+    },
+    {
+      "id": "161e1333-e07c-45a1-9b01-694e734c296a",
+      "slug": "antella-residence-bagno-a-ripoli",
+      "nome": "Antella Residence",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Bagno a Ripoli FI IT, Via Romanelli, 37/B, 50012 Antella FI",
+      "lat": 43.72858,
+      "lng": 11.322953
+    },
+    {
+      "id": "0fbb8b11-c39f-4edc-9713-36bb95be895d",
+      "slug": "b-b-dolce-miele-bagno-a-ripoli",
+      "nome": "B&B Dolce Miele",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Via della Martellina, 40E, 50012 Bagno A Ripoli FI",
+      "lat": 43.749744,
+      "lng": 11.328046
+    },
+    {
+      "id": "cfaef8ff-ef9f-4d0e-b968-f4bdb17db7cf",
+      "slug": "b-b-i-due-cipressi-bagno-a-ripoli",
+      "nome": "b&b i due cipressi",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Via di Vacciano, 26, 50012 Grassina FI",
+      "lat": 43.736195,
+      "lng": 11.275346
+    },
+    {
+      "id": "a0716dcb-0e94-4b10-b86c-de3c85533743",
+      "slug": "b-b-il-tabernacolo-bagno-a-ripoli",
+      "nome": "B&B Il Tabernacolo",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Via Aretina, 45, 50136 Firenze FI",
+      "lat": 43.769342,
+      "lng": 11.284682
+    },
+    {
+      "id": "b0b28dfb-4bdf-49c1-ac31-312cf67a075b",
+      "slug": "casa-martellina-holiday-home-bagno-a-ripoli",
+      "nome": "Casa Martellina - Holiday Home",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Via della Martellina, 15, 50012 Bagno A Ripoli FI",
+      "lat": 43.75169,
+      "lng": 11.322366
+    },
+    {
+      "id": "5bd6f0c6-1454-4655-9544-c9faeb3d8496",
+      "slug": "florence-country-relais-bagno-a-ripoli",
+      "nome": "Florence Country Relais",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Pian di Mugnone, 2, 50014 Fiesole FI",
+      "lat": 43.816175,
+      "lng": 11.316539
+    },
+    {
+      "id": "a025fc2c-e821-449e-8323-4c81c28290de",
+      "slug": "hotel-bologna-bagno-a-ripoli",
+      "nome": "Hotel Bologna",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Via Orcagna, 50, 50121 Firenze FI",
+      "lat": 43.769127,
+      "lng": 11.275068
+    },
+    {
+      "id": "a613cba9-ccdf-4899-8ee9-b8e807f39312",
+      "slug": "hotel-grifone-firenze-bagno-a-ripoli",
+      "nome": "Hotel Grifone Firenze",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Via Gaetano Pilati, 20/22, 50136 Firenze FI",
+      "lat": 43.768673,
+      "lng": 11.285559
+    },
+    {
+      "id": "ee52ebe7-585d-4dbd-9988-8b10262ff003",
+      "slug": "hotel-villa-olmi-firenze-bagno-a-ripoli",
+      "nome": "Hotel Villa Olmi Firenze",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Via Del Crocifisso Del Lume, 18, 50126 Firenze FI",
+      "lat": 43.757018,
+      "lng": 11.312317
+    },
+    {
+      "id": "5807d3d6-3aaf-4176-aa7d-3faf535b2290",
+      "slug": "hu-firenze-camping-in-town-bagno-a-ripoli",
+      "nome": "hu Firenze camping in town",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Via Generale C. A. dalla Chiesa, 1/3, 50136 Firenze FI",
+      "lat": 43.764643,
+      "lng": 11.316149
+    },
+    {
+      "id": "2ed9aeb7-16d8-45d7-be3a-a6ef7ed8e085",
+      "slug": "il-porto-relais-b-b-bagno-a-ripoli",
+      "nome": "Il porto relais b&b",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Via Alessandro Sinigaglia, 50012 Bagno a Ripoli FI",
+      "lat": 43.752019,
+      "lng": 11.317494
+    },
+    {
+      "id": "eadf4eef-565f-4d51-8bed-c590c3ea9972",
+      "slug": "italiana-hotels-bagno-a-ripoli",
+      "nome": "Italiana Hotels",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Viale Europa, 205, 50126 Firenze FI",
+      "lat": 43.757663,
+      "lng": 11.298592
+    },
+    {
+      "id": "28848bbc-9b31-4208-981f-b64883495f4d",
+      "slug": "la-corte-di-ripoli-bagno-a-ripoli",
+      "nome": "La Corte di Ripoli",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Via della Nave A Rovezzano, 16, 50012 Bagno a Ripoli FI",
+      "lat": 43.752791,
+      "lng": 11.319116
+    },
+    {
+      "id": "1d2df8df-aad5-4897-876d-2961ca355242",
+      "slug": "le-civette-country-resort-bagno-a-ripoli",
+      "nome": "Le Civette Country Resort",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Via del Carota, 3, 50012 Bagno a Ripoli FI",
+      "lat": 43.742596,
+      "lng": 11.334922
+    },
+    {
+      "id": "efc17534-ce3c-4a57-9e52-88fa51533810",
+      "slug": "poggio-baronti-b-b-bagno-a-ripoli",
+      "nome": "Poggio Baronti B&B",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Via dell'Eremo, 3, 50012 Bagno a Ripoli FI",
+      "lat": 43.74676,
+      "lng": 11.31729
+    },
+    {
+      "id": "cf71b1e3-fad1-433f-9e26-8a389e804890",
+      "slug": "together-florence-urban-resort-bagno-a-ripoli",
+      "nome": "Together Florence Urban Resort",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Via Alcide de Gasperi, 6, 50012 Bagno a Ripoli FI",
+      "lat": 43.752213,
+      "lng": 11.306464
+    },
+    {
+      "id": "aa7c03b6-b11c-4754-98bd-8affe490758f",
+      "slug": "villa-il-colle-b-b-bagno-a-ripoli",
+      "nome": "Villa il Colle B&B",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Bagno a Ripoli FI IT, Via Montisoni, 45, 50012 Antella FI",
+      "lat": 43.720646,
+      "lng": 11.339754
+    },
+    {
+      "id": "e2227e95-ef8c-496c-b51a-69f2b74f6866",
+      "slug": "villa-il-padule-b-b-dimora-storica-firenze-sud-bagno-a-ripoli",
+      "nome": "Villa Il Padule B&B Dimora Storica Firenze Sud",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Via del Padule, 33, 50012 Bagno a Ripoli FI",
+      "lat": 43.75884,
+      "lng": 11.326964
+    },
+    {
+      "id": "db7a7433-afe2-4a57-b3cb-949d8bc44556",
+      "slug": "villa-medicea-di-lilliano-wine-estate-bagno-a-ripoli",
+      "nome": "Villa Medicea di Lilliano, Wine Estate",
+      "city_name": "Bagno a Ripoli",
+      "indirizzo": "Via Lilliano e Meoli, 82, 50012 Grassina FI",
+      "lat": 43.717265,
+      "lng": 11.313214
+    },
+    {
+      "id": "492622f1-a9de-40f4-a7a9-1eff16363f46",
+      "slug": "agriturismo-al-monte-bagno-di-romagna",
+      "nome": "Agriturismo al Monte",
+      "city_name": "Bagno di Romagna",
+      "indirizzo": "Via Montegranelli Montesalvetti, 17, 47021 Bagno di Romagna FC",
+      "lat": 43.877248,
+      "lng": 11.950548
+    },
+    {
+      "id": "f3c8d719-db4d-4d26-ab60-4e750f43629d",
+      "slug": "agriturismo-incisa-bagno-di-romagna",
+      "nome": "Agriturismo Incisa",
+      "city_name": "Bagno di Romagna",
+      "indirizzo": "Località Incisa, 233, 47021 Bagno di Romagna FC",
+      "lat": 43.862575,
+      "lng": 12.052966
+    },
+    {
+      "id": "356fa3e3-8520-4935-8bc0-c02a85d3ae76",
+      "slug": "albergo-del-ponte-bagno-di-romagna",
+      "nome": "Albergo Del Ponte",
+      "city_name": "Bagno di Romagna",
+      "indirizzo": "Via Camillo Benso Conte di Cavour, 42, 47021 San Piero In Bagno FC",
+      "lat": 43.859158,
+      "lng": 11.976551
+    },
+    {
+      "id": "300dc208-6911-4a3f-a905-66ed20d7c048",
+      "slug": "albergo-roma-bagno-di-romagna",
+      "nome": "Albergo Roma",
+      "city_name": "Bagno di Romagna",
+      "indirizzo": "Via Della Fonte, 2, 47021 Bagno di Romagna FC",
+      "lat": 43.83411,
+      "lng": 11.959011
+    },
+    {
+      "id": "e6e2e150-d290-491a-b45e-cbdbfc0709c3",
+      "slug": "borgo-i-tre-baroni-bagno-di-romagna",
+      "nome": "Borgo I Tre Baroni",
+      "city_name": "Bagno di Romagna",
+      "indirizzo": "Via di Camaldoli, 52, 52014 Moggiona AR",
+      "lat": 43.781981,
+      "lng": 11.795192
+    },
+    {
+      "id": "770de37d-e68a-4bde-b2b8-ca66a0592b48",
+      "slug": "ca-serafina-bagno-di-romagna",
+      "nome": "Ca' Serafina",
+      "city_name": "Bagno di Romagna",
+      "indirizzo": "Piazza Ricasoli, 8, 47021 Bagno di Romagna FC",
+      "lat": 43.833996,
+      "lng": 11.959774
+    },
+    {
+      "id": "ba6b3f35-94ca-446c-b183-692a56abbb63",
+      "slug": "hotel-balneum-bagno-di-romagna",
+      "nome": "Hotel Balneum",
+      "city_name": "Bagno di Romagna",
+      "indirizzo": "Via Lungo Savio, 17, 47021 Bagno di Romagna FC",
+      "lat": 43.836087,
+      "lng": 11.960885
+    }
+  ]
+}

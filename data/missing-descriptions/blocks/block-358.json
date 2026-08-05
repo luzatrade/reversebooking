@@ -1,0 +1,323 @@
+{
+  "block": 358,
+  "blockId": "358",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "798c5fdc-1d80-4662-ad48-f33dedf06930",
+      "slug": "ristorante-albergo-7bello-calabritto",
+      "nome": "Ristorante Albergo 7Bello",
+      "city_name": "Calabritto",
+      "indirizzo": "C.so S. Alfonso, 46, 83040 Materdomini AV",
+      "lat": 40.81656,
+      "lng": 15.236348
+    },
+    {
+      "id": "575ba486-9903-4fea-852d-69a7ef2ef529",
+      "slug": "rurale-home-garden-calabritto",
+      "nome": "Rurale Home & Garden",
+      "city_name": "Calabritto",
+      "indirizzo": "Contrada Pezze, 4, 83048 Montella AV",
+      "lat": 40.848521,
+      "lng": 15.051608
+    },
+    {
+      "id": "d226fa45-3ec0-4e38-87c8-fb4bce552beb",
+      "slug": "tartufo-hotel-calabritto",
+      "nome": "Tartufo Hotel",
+      "city_name": "Calabritto",
+      "indirizzo": "Piazza Iannarella, 84020 Colliano SA",
+      "lat": 40.728815,
+      "lng": 15.289067
+    },
+    {
+      "id": "123ee20f-71b0-4108-aee7-f0b5715ed5d8",
+      "slug": "tenuta-san-felice-b-b-calabritto",
+      "nome": "Tenuta San Felice B&B",
+      "city_name": "Calabritto",
+      "indirizzo": "via S. FELICE, 84022 Campagna SA",
+      "lat": 40.650116,
+      "lng": 15.124374
+    },
+    {
+      "id": "c9cbeec9-bb7f-4ff6-9512-575770355a5c",
+      "slug": "alla-stazion-locanda-nelle-dolomiti-camere-risto-calalzo-di-cadore",
+      "nome": "Alla Stazion Locanda nelle Dolomiti Camere,Ristorante,Bar",
+      "city_name": "Calalzo di Cadore",
+      "indirizzo": "Via Manzago, 7, 32044 Pieve di Cadore BL",
+      "lat": 46.422129,
+      "lng": 12.360834
+    },
+    {
+      "id": "c45c5fcb-313c-4160-846c-2d62802de86a",
+      "slug": "b-b-dolomiti-calalzo-di-cadore",
+      "nome": "B&B Dolomiti",
+      "city_name": "Calalzo di Cadore",
+      "indirizzo": "Viale Marconi, 21, 32042 Calalzo di Cadore BL",
+      "lat": 46.447388,
+      "lng": 12.386324
+    },
+    {
+      "id": "96862b1c-e233-475e-a572-38a2089233fe",
+      "slug": "b-b-sognoincadore-calalzo-di-cadore",
+      "nome": "B&B SognoInCadore",
+      "city_name": "Calalzo di Cadore",
+      "indirizzo": "Via S. Rocco, 35, 32040 Domegge di Cadore BL",
+      "lat": 46.4618,
+      "lng": 12.41263
+    },
+    {
+      "id": "148f22ff-27a2-47b9-9306-cc0e8d661f5e",
+      "slug": "c-era-una-volta-un-re-calalzo-di-cadore",
+      "nome": "C'era una volta un re",
+      "city_name": "Calalzo di Cadore",
+      "indirizzo": "Via Nazionale, 25, 32042 Calalzo di Cadore BL",
+      "lat": 46.441058,
+      "lng": 12.380677
+    },
+    {
+      "id": "f1716124-b0fc-4d77-a586-9f2e56af9d61",
+      "slug": "chalet-cridola-dolomiti-experience-calalzo-di-cadore",
+      "nome": "Chalet Cridola Dolomiti Experience",
+      "city_name": "Calalzo di Cadore",
+      "indirizzo": "Via Monteona, 237/A, 32040 Lorenzago di Cadore BL",
+      "lat": 46.480642,
+      "lng": 12.462076
+    },
+    {
+      "id": "6cec3aea-4714-472d-9bbf-e0355611ff24",
+      "slug": "hotel-al-pelmo-calalzo-di-cadore",
+      "nome": "Hotel al Pelmo",
+      "city_name": "Calalzo di Cadore",
+      "indirizzo": "Via Nazionale, 60, 32044 Pieve di Cadore BL",
+      "lat": 46.42679,
+      "lng": 12.370634
+    },
+    {
+      "id": "c6f44f8f-6cf3-4de4-8233-692e660fbb51",
+      "slug": "hotel-belvedere-dolomiti-calalzo-di-cadore",
+      "nome": "Hotel Belvedere Dolomiti",
+      "city_name": "Calalzo di Cadore",
+      "indirizzo": "Gradinata Belvedere, 11, 32044 Pieve di Cadore BL",
+      "lat": 46.429215,
+      "lng": 12.376673
+    },
+    {
+      "id": "4d0576c5-32ae-4899-a152-21623b7f9e93",
+      "slug": "hotel-ferrovia-snc-calalzo-di-cadore",
+      "nome": "Hotel Ferrovia snc",
+      "city_name": "Calalzo di Cadore",
+      "indirizzo": "Via Stazione, 4, 32042 Calalzo di Cadore BL",
+      "lat": 46.446338,
+      "lng": 12.387555
+    },
+    {
+      "id": "fc63bca1-bf38-42e6-9d23-b4bfc2a29e69",
+      "slug": "hotel-giardino-calalzo-di-cadore",
+      "nome": "Hotel Giardino",
+      "city_name": "Calalzo di Cadore",
+      "indirizzo": "Via Giosuè Carducci, 20, 32044 Pieve di Cadore BL",
+      "lat": 46.430699,
+      "lng": 12.375704
+    },
+    {
+      "id": "d5861532-f7a7-43c6-b20b-c3801b238fb1",
+      "slug": "le-nene-dolomiti-guesthouse-calalzo-di-cadore",
+      "nome": "Le Nene - Dolomiti guesthouse",
+      "city_name": "Calalzo di Cadore",
+      "indirizzo": "Piazza Venezia, 6, 32044 Pieve di Cadore BL",
+      "lat": 46.423643,
+      "lng": 12.360712
+    },
+    {
+      "id": "e3d90983-a8e9-43e9-b1af-65cc05c862ac",
+      "slug": "le-stue-locazione-turistica-calalzo-di-cadore",
+      "nome": "Le Stue - locazione turistica",
+      "city_name": "Calalzo di Cadore",
+      "indirizzo": "Via Faveri, 21, 32044 Pieve di Cadore BL",
+      "lat": 46.430233,
+      "lng": 12.373818
+    },
+    {
+      "id": "d1cc15ac-bc80-48f7-a492-c7bccbe7908c",
+      "slug": "lioda-living-calalzo-di-cadore",
+      "nome": "Lioda Living",
+      "city_name": "Calalzo di Cadore",
+      "indirizzo": "Via Regia, 39, 32044 Pieve di Cadore BL",
+      "lat": 46.426354,
+      "lng": 12.362185
+    },
+    {
+      "id": "33389b2d-1673-472d-9587-e2a7905e0c61",
+      "slug": "locanda-ai-dogi-calalzo-di-cadore",
+      "nome": "Locanda Ai Dogi",
+      "city_name": "Calalzo di Cadore",
+      "indirizzo": "Piazza Municipio, 21, 32044 Pieve di Cadore BL",
+      "lat": 46.429542,
+      "lng": 12.374837
+    },
+    {
+      "id": "6212fae5-e914-4cbc-a5f5-71b82a0d4960",
+      "slug": "ostello-lunga-via-delle-dolomiti-calalzo-di-cadore",
+      "nome": "Ostello lunga via delle Dolomiti",
+      "city_name": "Calalzo di Cadore",
+      "indirizzo": "Via de stefani, 43, 32042 Calalzo di Cadore BL",
+      "lat": 46.44094,
+      "lng": 12.385051
+    },
+    {
+      "id": "87fbed11-0ae4-4199-b9bc-7584d8c3ca47",
+      "slug": "park-hotel-bellavista-dolomiti-calalzo-di-cadore",
+      "nome": "Park Hotel Bellavista Dolomiti",
+      "city_name": "Calalzo di Cadore",
+      "indirizzo": "Via S. Giovanni, 5, 32042 Calalzo di Cadore BL",
+      "lat": 46.448839,
+      "lng": 12.377073
+    },
+    {
+      "id": "04990440-63ec-48fc-a0a1-52e801825535",
+      "slug": "rifugio-pietro-galassi-al-monte-antelao-rifugio-calalzo-di-cadore",
+      "nome": "Rifugio Pietro Galassi al Monte Antelao - Rifugio Cai",
+      "city_name": "Calalzo di Cadore",
+      "indirizzo": "Forcella Piccola dell'Antelao, 32042 Calalzo di Cadore BL",
+      "lat": 46.470662,
+      "lng": 12.262069
+    },
+    {
+      "id": "40de343d-2740-419a-bd79-d2465c5afcee",
+      "slug": "alle-rive-bed-n-books-calamandrana",
+      "nome": "Alle Rive Bed 'n' Books",
+      "city_name": "Calamandrana",
+      "indirizzo": "Frazione Chiesavecchia, 55, 14042 Calamandrana AT",
+      "lat": 44.732235,
+      "lng": 8.33765
+    },
+    {
+      "id": "12758759-1ba2-487c-bd43-cdb505bbd517",
+      "slug": "azienda-agricola-la-giribaldina-calamandrana",
+      "nome": "Azienda Agricola la Giribaldina",
+      "city_name": "Calamandrana",
+      "indirizzo": "Frazione S. Vito, 39, 14042 Calamandrana AT",
+      "lat": 44.717559,
+      "lng": 8.319392
+    },
+    {
+      "id": "2fdb88e4-c472-4fb9-a159-20d6f659b9be",
+      "slug": "ca-del-bosso-calamandrana",
+      "nome": "Ca' del Bosso",
+      "city_name": "Calamandrana",
+      "indirizzo": "Regione Garbazzola 13, 14042 Garbazzola AT",
+      "lat": 44.737744,
+      "lng": 8.353145
+    },
+    {
+      "id": "9bab3889-b955-451b-b12d-fb40905c8253",
+      "slug": "cadgal-tenuta-la-cova-calamandrana",
+      "nome": "Cadgal - Tenuta La Cova",
+      "city_name": "Calamandrana",
+      "indirizzo": "Frazione Valle Chiozze, 24, 14042 Calamandrana AT",
+      "lat": 44.730258,
+      "lng": 8.345785
+    },
+    {
+      "id": "e69e8f12-5025-454d-b02c-e41300fbb6b9",
+      "slug": "che-piasi-calamandrana",
+      "nome": "Che Piasi",
+      "city_name": "Calamandrana",
+      "indirizzo": "Calamandrana (AT), Italia, Frazione Ferrai, 13, 14042 Calamandrana AT",
+      "lat": 44.734472,
+      "lng": 8.339845
+    },
+    {
+      "id": "1e089f63-b63b-40a8-af7b-09dcd1a8c12a",
+      "slug": "hotel-i-tre-poggi-calamandrana",
+      "nome": "Hotel I TRE POGGI",
+      "city_name": "Calamandrana",
+      "indirizzo": "Regione Merlini, 22, 14053 Canelli AT",
+      "lat": 44.697826,
+      "lng": 8.277261
+    },
+    {
+      "id": "2833eb90-901b-4843-ad5f-7c7852ed414d",
+      "slug": "la-martinella-bio-calamandrana",
+      "nome": "La Martinella Bio",
+      "city_name": "Calamandrana",
+      "indirizzo": "Via Regione Castagnole, 80, 14053 Canelli AT",
+      "lat": 44.700834,
+      "lng": 8.267136
+    },
+    {
+      "id": "45525116-4f6e-416b-bc94-3bb3b4890d2c",
+      "slug": "palazzo-centro-alloggi-vacanza-calamandrana",
+      "nome": "Palazzo Centro - Alloggi Vacanza",
+      "city_name": "Calamandrana",
+      "indirizzo": "Via Carlo Alberto, 25, 14049 Nizza Monferrato AT",
+      "lat": 44.774088,
+      "lng": 8.355161
+    },
+    {
+      "id": "89208948-ae75-41b0-a326-0c09b5313752",
+      "slug": "tenuta-miranda-calamandrana",
+      "nome": "Tenuta Miranda",
+      "city_name": "Calamandrana",
+      "indirizzo": "Regione Pelazzi, 189, 14050 Cassinasco AT",
+      "lat": 44.703786,
+      "lng": 8.300114
+    },
+    {
+      "id": "97fd49d2-66fe-455e-aaba-34d4363737f7",
+      "slug": "villa-adelaide-relais-wine-calamandrana",
+      "nome": "Villa Adelaide Relais & Wine",
+      "city_name": "Calamandrana",
+      "indirizzo": "Via G. Avalle, 13, 14042 Calamandrana AT",
+      "lat": 44.742164,
+      "lng": 8.336411
+    },
+    {
+      "id": "8d097d46-d5fc-4331-b9c6-c5237aa08db4",
+      "slug": "villa-chiara-hotel-calamandrana",
+      "nome": "Villa Chiara Hotel",
+      "city_name": "Calamandrana",
+      "indirizzo": "Via Roma, 6, 14053 Canelli AT",
+      "lat": 44.719346,
+      "lng": 8.28774
+    },
+    {
+      "id": "d6a6a7f2-9247-4b37-b8d9-64a2a26ce5ce",
+      "slug": "villa-panoramica-sulle-colline-del-monferrato-calamandrana",
+      "nome": "Villa panoramica sulle colline del Monferrato",
+      "city_name": "Calamandrana",
+      "indirizzo": "Frazione Boidi, 32, 14042 Calamandrana AT",
+      "lat": 44.739675,
+      "lng": 8.355141
+    },
+    {
+      "id": "843ace15-dba7-4c9f-abc0-a86c3245a0c1",
+      "slug": "agriturismo-tenute-piazza-calamonaci",
+      "nome": "Agriturismo Tenute Piazza",
+      "city_name": "Calamonaci",
+      "indirizzo": "c.da Musiti, 92016 Ribera AG",
+      "lat": 37.513928,
+      "lng": 13.298222
+    },
+    {
+      "id": "ed8949be-96a8-412a-a27b-a8c85440dd25",
+      "slug": "la-finestra-sul-cortile-cin-it084041c1kqowmjbt-calamonaci",
+      "nome": "La Finestra sul Cortile CIN IT084041C1KQOWMJBT",
+      "city_name": "Calamonaci",
+      "indirizzo": "Via Quartararo, 12, 92019 Sciacca AG",
+      "lat": 37.508821,
+      "lng": 13.085404
+    },
+    {
+      "id": "8399dd2d-37cc-497e-9569-03ccde5f6249",
+      "slug": "affittacamere-gallura-calangianus",
+      "nome": "Affittacamere Gallurà",
+      "city_name": "Calangianus",
+      "indirizzo": "Vico Nicolò Ferracciu, 2a, 07023 Calangianus OT",
+      "lat": 40.921898,
+      "lng": 9.195638
+    }
+  ]
+}

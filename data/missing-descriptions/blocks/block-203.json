@@ -1,0 +1,323 @@
+{
+  "block": 203,
+  "blockId": "203",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "84417fb7-68a5-4a1e-9b71-e78509b00a0c",
+      "slug": "b-b-civita-nova-bagnoregio",
+      "nome": "B&B Civita Nova",
+      "city_name": "Bagnoregio",
+      "indirizzo": "Via Don S. Nello Ponziani, 19, 01022 Bagnoregio VT",
+      "lat": 42.629124,
+      "lng": 12.091616
+    },
+    {
+      "id": "e3bfe724-586c-42cb-8a73-467ded28566d",
+      "slug": "b-b-il-cardellino-bagnoregio",
+      "nome": "B&B Il Cardellino",
+      "city_name": "Bagnoregio",
+      "indirizzo": "Località Colle Ombroso, 17, 05010 Porano TR",
+      "lat": 42.693029,
+      "lng": 12.073628
+    },
+    {
+      "id": "ba9d24ed-268a-4467-ae61-85c51a2f06cf",
+      "slug": "b-b-il-soffio-di-eolo-bagnoregio",
+      "nome": "B&B Il Soffio di Eolo",
+      "city_name": "Bagnoregio",
+      "indirizzo": "Via Ponterado snc, 01022 Loc. Salci, Bagnoregio VT",
+      "lat": 42.625703,
+      "lng": 12.067896
+    },
+    {
+      "id": "2fe37143-567b-4d97-978b-e7e8d03e9a0b",
+      "slug": "b-b-la-polinnia-bagnoregio",
+      "nome": "B&B La Polinnia",
+      "city_name": "Bagnoregio",
+      "indirizzo": "di Paola, Piazza S. Francesco, 7, 01022 Bagnoregio VT",
+      "lat": 42.626274,
+      "lng": 12.096317
+    },
+    {
+      "id": "ca9fc922-676e-4010-a450-03a30d7dec9e",
+      "slug": "b-b-le-camere-del-bocconcino-bagnoregio",
+      "nome": "B&B Le Camere del Bocconcino",
+      "city_name": "Bagnoregio",
+      "indirizzo": "Via Giacomo Matteotti, 1, 01022 Bagnoregio VT",
+      "lat": 42.62721,
+      "lng": 12.09115
+    },
+    {
+      "id": "501c2dd9-4c72-4146-83ea-3c0544ddec65",
+      "slug": "b-b-podere-ospedaletto-bagnoregio",
+      "nome": "B&B Podere Ospedaletto",
+      "city_name": "Bagnoregio",
+      "indirizzo": "Loc. Podere Ospedaletto, 01023 Bolsena VT",
+      "lat": 42.644374,
+      "lng": 12.024799
+    },
+    {
+      "id": "4984bb50-055b-4c41-b7e8-601a0810f789",
+      "slug": "bed-and-breakfast-del-prato-bagnoregio",
+      "nome": "Bed and Breakfast del Prato",
+      "city_name": "Bagnoregio",
+      "indirizzo": "Via della Cassa, 5, 01022 Bagnoregio VT",
+      "lat": 42.626749,
+      "lng": 12.094384
+    },
+    {
+      "id": "7054f7f5-8e06-4cf5-9f4a-2d1d7e18b09c",
+      "slug": "bellavista-bagnoregio",
+      "nome": "Bellavista",
+      "city_name": "Bagnoregio",
+      "indirizzo": "Via Francalancia, 22, 01022 Bagnoregio VT",
+      "lat": 42.626484,
+      "lng": 12.091133
+    },
+    {
+      "id": "6f12b57b-67ee-4e67-a5cd-f55bf4dae90a",
+      "slug": "corte-della-maesta-antica-residenza-bagnoregio",
+      "nome": "CORTE DELLA MAESTA' - ANTICA RESIDENZA",
+      "city_name": "Bagnoregio",
+      "indirizzo": "Vicolo della Maestà, 01022 Civita VT",
+      "lat": 42.627835,
+      "lng": 12.113888
+    },
+    {
+      "id": "73310de3-225b-4241-af19-e24d09fde4fd",
+      "slug": "hotel-divino-amore-bagnoregio",
+      "nome": "Hotel Divino Amore",
+      "city_name": "Bagnoregio",
+      "indirizzo": "Via Fidanza, 25, 01022 Bagnoregio VT",
+      "lat": 42.627271,
+      "lng": 12.096345
+    },
+    {
+      "id": "ca3fff87-be56-4209-8c98-dacea5f57775",
+      "slug": "hotel-ristorante-romantica-pucci-bagnoregio",
+      "nome": "Hotel Ristorante Romantica Pucci",
+      "city_name": "Bagnoregio",
+      "indirizzo": "Piazza Cavour, 1, 01022 Bagnoregio VT",
+      "lat": 42.626697,
+      "lng": 12.09428
+    },
+    {
+      "id": "9378039d-df48-422c-a026-93ba87ac3288",
+      "slug": "il-giardino-di-elena-bagnoregio",
+      "nome": "Il giardino di Elena",
+      "city_name": "Bagnoregio",
+      "indirizzo": "Via Cesare Mangioli, 52, 01022 Bagnoregio VT",
+      "lat": 42.627134,
+      "lng": 12.095536
+    },
+    {
+      "id": "09a309f4-ffd4-4477-9e8f-8ea3409d4e2e",
+      "slug": "il-palazzetto-affittacamere-bagnoregio",
+      "nome": "Il Palazzetto Affittacamere",
+      "city_name": "Bagnoregio",
+      "indirizzo": "Corso Giuseppe Mazzini, 113, 01022 Bagnoregio VT",
+      "lat": 42.626076,
+      "lng": 12.09816
+    },
+    {
+      "id": "5479a28d-b5a4-41c5-8628-a7b20153a87e",
+      "slug": "la-dimora-del-principe-bagnoregio",
+      "nome": "La Dimora del Principe",
+      "city_name": "Bagnoregio",
+      "indirizzo": "Via F. Monaldeschi, 13, 01022 Bagnoregio VT",
+      "lat": 42.626336,
+      "lng": 12.096008
+    },
+    {
+      "id": "78cfe61f-16a7-4ea6-ba43-d642f1ea458f",
+      "slug": "palazzo-mazzini-bagnoregio",
+      "nome": "Palazzo Mazzini",
+      "city_name": "Bagnoregio",
+      "indirizzo": "Corso Giuseppe Mazzini, 71, 01022 Bagnoregio VT",
+      "lat": 42.626319,
+      "lng": 12.096907
+    },
+    {
+      "id": "0b5c2537-0049-43d8-a0df-acd70c7f1a96",
+      "slug": "albergo-al-ponte-bagolino",
+      "nome": "Albergo Al Ponte",
+      "city_name": "Bagolino",
+      "indirizzo": "Via Maniva, 37, 25060 Collio BS",
+      "lat": 45.810321,
+      "lng": 10.367364
+    },
+    {
+      "id": "df6a8284-e39a-4a5a-bd11-489f5d368260",
+      "slug": "albergo-ristorante-bar-gelateria-al-tempo-perdut-bagolino",
+      "nome": "Albergo Ristorante Bar Gelateria \"Al Tempo Perduto\"",
+      "city_name": "Bagolino",
+      "indirizzo": "Via S. Rocco, 46, 25072 Bagolino BS",
+      "lat": 45.82405,
+      "lng": 10.461627
+    },
+    {
+      "id": "5a9ffa25-078d-46a3-a8cd-f19c58c86dd2",
+      "slug": "b-b-coccinella-bagolino",
+      "nome": "B&B COCCINELLA",
+      "city_name": "Bagolino",
+      "indirizzo": "Via Caduti, 136, 25072 Ponte Caffaro BS",
+      "lat": 45.823144,
+      "lng": 10.528959
+    },
+    {
+      "id": "3b5634d4-1594-41f2-b858-b64739e7fcb6",
+      "slug": "b-b-la-vittoria-bagolino",
+      "nome": "B&B La Vittoria",
+      "city_name": "Bagolino",
+      "indirizzo": "Via Roma, 7, 25070 Treviso Bresciano BS",
+      "lat": 45.713394,
+      "lng": 10.46545
+    },
+    {
+      "id": "86e31020-360e-48d1-82f1-229a39f18b7e",
+      "slug": "b-b-le-rose-localita-coste-2-idro-bs-bagolino",
+      "nome": "B&B le rose località coste 2 idro bs",
+      "city_name": "Bagolino",
+      "indirizzo": "Località Coste, 2, 25074 Idro BS",
+      "lat": 45.737171,
+      "lng": 10.481884
+    },
+    {
+      "id": "a0657609-6310-4434-82fb-0bd545919064",
+      "slug": "bed-and-breakfast-el-piastrol-bagolino",
+      "nome": "Bed And Breakfast El Piastrol",
+      "city_name": "Bagolino",
+      "indirizzo": "Via Fioravante Moreschi, 42, 25072 Bagolino BS",
+      "lat": 45.824106,
+      "lng": 10.463236
+    },
+    {
+      "id": "0a2aa269-6bd5-409a-9c8e-299946917e3a",
+      "slug": "hotel-tiziana-garni-bagolino",
+      "nome": "Hotel Tiziana Garnì",
+      "city_name": "Bagolino",
+      "indirizzo": "Via Dosso, 51, 25084 Gargnano BS",
+      "lat": 45.689081,
+      "lng": 10.66265
+    },
+    {
+      "id": "4e5c74ce-90c0-4035-b955-1797f6e5bb34",
+      "slug": "ostello-bagolino",
+      "nome": "Ostello",
+      "city_name": "Bagolino",
+      "indirizzo": "Via dei Quadri Ⅱ, 2, 25072 Ponte Caffaro BS",
+      "lat": 45.810037,
+      "lng": 10.525564
+    },
+    {
+      "id": "76eb7a9f-f847-4196-a70f-7f7a19291e54",
+      "slug": "affittacamere-le-nonne-baia-e-latina",
+      "nome": "Affittacamere Le Nonne",
+      "city_name": "Baia e Latina",
+      "indirizzo": "Vico Borrelli, 81051 Statigliano CE",
+      "lat": 41.278365,
+      "lng": 14.241462
+    },
+    {
+      "id": "26c21d50-4d79-42c2-a09c-0c8fd2cca0eb",
+      "slug": "b-b-il-rifugio-bed-and-breakfast-baia-e-latina",
+      "nome": "B&B Il Rifugio - bed-and-breakfast",
+      "city_name": "Baia e Latina",
+      "indirizzo": "81050 Camigliano CE",
+      "lat": 41.172124,
+      "lng": 14.234551
+    },
+    {
+      "id": "9536423e-e5cb-4c2f-8708-27a6e66ac435",
+      "slug": "habitat-luxury-suites-baia-e-latina",
+      "nome": "Habitat Luxury Suites",
+      "city_name": "Baia e Latina",
+      "indirizzo": "Via Aldo Moro, 4, 81041 Bellona CE",
+      "lat": 41.157319,
+      "lng": 14.230729
+    },
+    {
+      "id": "5d1c5eed-8219-48b7-ae34-a79d9c3f2d04",
+      "slug": "hotel-rosso-di-sera-baia-e-latina",
+      "nome": "Hotel Rosso di Sera",
+      "city_name": "Baia e Latina",
+      "indirizzo": "SP183, 25, 81051 Pietramelara CE",
+      "lat": 41.274819,
+      "lng": 14.180369
+    },
+    {
+      "id": "d34a4400-0636-4a00-8708-a4a5502cdac6",
+      "slug": "re-di-cuori-hotel-baia-e-latina",
+      "nome": "Re Di Cuori Hotel",
+      "city_name": "Baia e Latina",
+      "indirizzo": "Via Ceraselle, 156, 81059 Caianello CE",
+      "lat": 41.306984,
+      "lng": 14.097398
+    },
+    {
+      "id": "c4b56419-f3b8-4a75-aaba-ddbc5e89b44d",
+      "slug": "b-b-dolci-sogni-bed-breakfast-mugnano-del-cardin-baiano",
+      "nome": "B&B Dolci Sogni - Bed & Breakfast Mugnano del Cardinale",
+      "city_name": "Baiano",
+      "indirizzo": "Via Roma, 33, 83027 Mugnano del Cardinale AV",
+      "lat": 40.945047,
+      "lng": 14.629431
+    },
+    {
+      "id": "ca3f0d94-d5b9-4e53-a9e7-faa0e4345834",
+      "slug": "b-b-i-due-angeli-baiano",
+      "nome": "B&B I Due Angeli",
+      "city_name": "Baiano",
+      "indirizzo": "Via Quercia, 41, 83020 Sirignano AV",
+      "lat": 40.949551,
+      "lng": 14.628314
+    },
+    {
+      "id": "9379d5e9-ffa1-4cbc-8ad7-9c73449a8963",
+      "slug": "b-b-nola-baiano",
+      "nome": "B&B Nola",
+      "city_name": "Baiano",
+      "indirizzo": "Vicolo P. Fellecchia, 47, 80035 Nola NA",
+      "lat": 40.924724,
+      "lng": 14.526157
+    },
+    {
+      "id": "b54e56dc-bc6d-4285-8d20-db99cc7c5325",
+      "slug": "la-casa-di-lina-baiano",
+      "nome": "La Casa di Lina",
+      "city_name": "Baiano",
+      "indirizzo": "Via G. di Vittorio, 30, 83020 Sperone AV",
+      "lat": 40.953442,
+      "lng": 14.610312
+    },
+    {
+      "id": "ccd89658-27d5-41a6-9a54-c292af38fc89",
+      "slug": "lapietra-hotelescapes-baiano",
+      "nome": "Lapietra_hotelescapes",
+      "city_name": "Baiano",
+      "indirizzo": "Via Nuova Saviano, 157, 80040 San Gennaro Vesuviano NA",
+      "lat": 40.863144,
+      "lng": 14.51155
+    },
+    {
+      "id": "38ef0f17-9a6b-44df-a944-0a6c8f39a471",
+      "slug": "agrirelais-la-bolla-bairo",
+      "nome": "Agrirelais La Bolla",
+      "city_name": "Bairo",
+      "indirizzo": "Via Circonvallazione, 11, 10011 Agliè TO",
+      "lat": 45.36804,
+      "lng": 7.760006
+    },
+    {
+      "id": "dc44468a-10a2-4e35-8c65-80f310710d91",
+      "slug": "antharesworld-bairo",
+      "nome": "Antharesworld",
+      "city_name": "Bairo",
+      "indirizzo": "Via Lido, 33, 10010 Candia Canavese TO",
+      "lat": 45.319172,
+      "lng": 7.899968
+    }
+  ]
+}

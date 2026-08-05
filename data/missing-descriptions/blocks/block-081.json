@@ -1,0 +1,323 @@
+{
+  "block": 81,
+  "blockId": "081",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "6fb38dbf-3502-44d9-8a87-662383d50830",
+      "slug": "albergo-bortoluzzi-alpago",
+      "nome": "Albergo Bortoluzzi",
+      "city_name": "Alpago",
+      "indirizzo": "Via Giacomo Matteotti, 1, 32016 Farra D'Alpago BL",
+      "lat": 46.12128,
+      "lng": 12.358748
+    },
+    {
+      "id": "7100321b-c2d2-43e3-bed1-3f5df0612028",
+      "slug": "albergo-cappello-alpago",
+      "nome": "Albergo Cappello",
+      "city_name": "Alpago",
+      "indirizzo": "Via Sebastiano Ricci, 8, 32100 Belluno BL",
+      "lat": 46.13998,
+      "lng": 12.21676
+    },
+    {
+      "id": "83f17615-23c8-445f-bb6e-e0e1258884b2",
+      "slug": "albergo-casa-sperti-alpago",
+      "nome": "Albergo Casa Sperti",
+      "city_name": "Alpago",
+      "indirizzo": "Frazione, Via dei Spert, 1, 32016 Farra d´Alpago, BL",
+      "lat": 46.113279,
+      "lng": 12.402037
+    },
+    {
+      "id": "077b9476-23f2-4906-b4ea-d68e6501914a",
+      "slug": "albergo-delle-alpi-alpago",
+      "nome": "Albergo Delle Alpi",
+      "city_name": "Alpago",
+      "indirizzo": "Via Jacopo Tasso, 13, 32100 Belluno BL",
+      "lat": 46.141438,
+      "lng": 12.214912
+    },
+    {
+      "id": "7bf71ebb-b84c-4fc3-8ff2-317754aad1d2",
+      "slug": "albergo-ristorante-cima-i-pra-alpago",
+      "nome": "Albergo Ristorante Cima I Pra'",
+      "city_name": "Alpago",
+      "indirizzo": "Via Cima I Prà, 48, 32014 Ponte nellʼAlpi BL",
+      "lat": 46.195585,
+      "lng": 12.286698
+    },
+    {
+      "id": "24e65978-4415-442c-a7c5-73e69970339a",
+      "slug": "alla-posta-guest-house-locazione-turistica-alpago",
+      "nome": "Alla Posta Guest House Locazione Turistica",
+      "city_name": "Alpago",
+      "indirizzo": "Via S. Antonio, 9, 32016 Garna BL",
+      "lat": 46.156101,
+      "lng": 12.374748
+    },
+    {
+      "id": "97d551c8-ecbe-49b6-a5ad-192b877d0183",
+      "slug": "casa-alpago-alpago",
+      "nome": "Casa Alpago",
+      "city_name": "Alpago",
+      "indirizzo": "Via Cansiglio, Via Giuseppe Garibaldi, 72b, 32016 Alpago BL",
+      "lat": 46.113218,
+      "lng": 12.403138
+    },
+    {
+      "id": "65fb3f0e-12b8-4be4-8c63-210599f66c07",
+      "slug": "dolada-ristorante-boutique-hotel-alpago",
+      "nome": "Dolada Ristorante & Boutique hotel",
+      "city_name": "Alpago",
+      "indirizzo": "Via Dolada, 21, 32016 Plois BL",
+      "lat": 46.173665,
+      "lng": 12.36001
+    },
+    {
+      "id": "aa61ad21-eb6e-4eeb-8c83-98498afeb26a",
+      "slug": "hotel-1301-inn-alpago",
+      "nome": "Hotel 1301 Inn",
+      "city_name": "Alpago",
+      "indirizzo": "Via Barcis, 5, 33081 Aviano PN",
+      "lat": 46.112516,
+      "lng": 12.516736
+    },
+    {
+      "id": "b5160dab-49c1-48b4-b73d-f824050b4ac5",
+      "slug": "hotel-bella-italia-piancavallo-alpago",
+      "nome": "Hotel Bella Italia Piancavallo",
+      "city_name": "Alpago",
+      "indirizzo": "Via Barcis, 24, 33081 Aviano PN",
+      "lat": 46.112582,
+      "lng": 12.519868
+    },
+    {
+      "id": "0230aa8b-f228-4012-8587-94ecd7aeb01e",
+      "slug": "hotel-capri-alpago",
+      "nome": "Hotel Capri",
+      "city_name": "Alpago",
+      "indirizzo": "Rione Santa Caterina, 51, 32014 Ponte nelle Alpi BL",
+      "lat": 46.172009,
+      "lng": 12.283864
+    },
+    {
+      "id": "4e09d08d-fda2-495b-adfb-07a9c9fcdcd2",
+      "slug": "hotel-da-benito-alpago",
+      "nome": "Hotel da Benito",
+      "city_name": "Alpago",
+      "indirizzo": "Frazione Pian di Vedoia, 7, 32014 Ponte nelle Alpi BL",
+      "lat": 46.200697,
+      "lng": 12.28594
+    },
+    {
+      "id": "e81d0127-00d5-41d6-a0c9-74bc87ab7b3f",
+      "slug": "hotel-dante-alpago",
+      "nome": "Hotel Dante",
+      "city_name": "Alpago",
+      "indirizzo": "Via Lizzona, 32014 Lizzona BL",
+      "lat": 46.153846,
+      "lng": 12.319673
+    },
+    {
+      "id": "e8e6ed4d-703f-4a06-a281-671f0ba9a9bd",
+      "slug": "hotel-europa-belluno-alpago",
+      "nome": "Hotel Europa Belluno",
+      "city_name": "Alpago",
+      "indirizzo": "Via Vittorio Veneto, 158/o, 32100 Belluno BL",
+      "lat": 46.147457,
+      "lng": 12.225588
+    },
+    {
+      "id": "3a4e492f-5a8e-4a8c-86a7-a6717945d262",
+      "slug": "sport-hotel-alpago",
+      "nome": "Sport Hotel",
+      "city_name": "Alpago",
+      "indirizzo": "Piazzale della Puppa, 5, 33081 Piancavallo PN",
+      "lat": 46.105801,
+      "lng": 12.514125
+    },
+    {
+      "id": "20ce793d-cd04-4fc7-b47f-2d02cf699f3a",
+      "slug": "suite-hotel-astor-alpago",
+      "nome": "Suite Hotel Astor",
+      "city_name": "Alpago",
+      "indirizzo": "P.za, dei Martiri, 26, 32100 Belluno BL",
+      "lat": 46.138991,
+      "lng": 12.214961
+    },
+    {
+      "id": "5948615f-ef48-4c5d-bf2a-b9136b182bb4",
+      "slug": "albergo-ristorante-bergagna-alpette",
+      "nome": "Albergo Ristorante Bergagna",
+      "city_name": "Alpette",
+      "indirizzo": "V. Guglielmo Marconi, 19, 10085 Pont Canavese TO",
+      "lat": 45.420915,
+      "lng": 7.593325
+    },
+    {
+      "id": "2d129537-7273-4157-b058-48c2529f7876",
+      "slug": "b-b-il-riposo-del-guerriero-alpette",
+      "nome": "B&B Il riposo del guerriero.",
+      "city_name": "Alpette",
+      "indirizzo": "Frazione Ritornato, 259, 10070 Corio TO",
+      "lat": 45.336751,
+      "lng": 7.514525
+    },
+    {
+      "id": "5d35ed19-1756-46da-974b-63a9be1bf147",
+      "slug": "b-b-valle-orco-alpette",
+      "nome": "B&B Valle Orco",
+      "city_name": "Alpette",
+      "indirizzo": "Località Apparè 48, 10080 Sparone TO",
+      "lat": 45.408916,
+      "lng": 7.530243
+    },
+    {
+      "id": "8e5cdca7-b122-4efe-b036-0eaf7b9854c2",
+      "slug": "hotel-italia-coassolo-alpette",
+      "nome": "Hotel Italia - Coassolo",
+      "city_name": "Alpette",
+      "indirizzo": "Via Capoluogo, 188, 10070 Coassolo Torinese TO",
+      "lat": 45.300853,
+      "lng": 7.459505
+    },
+    {
+      "id": "baf540fd-659a-4bdd-b9b2-f0b5925b9c97",
+      "slug": "hotellerie-valle-sacra-b-b-centro-benessere-e-sp-alpette",
+      "nome": "Hôtellerie Valle Sacra B&B Centro benessere e spa",
+      "city_name": "Alpette",
+      "indirizzo": "Via Prato Domenica, 3, 10080 Cintano TO",
+      "lat": 45.427484,
+      "lng": 7.689382
+    },
+    {
+      "id": "8d3c892a-be7e-479d-aa57-e63f3a2451f9",
+      "slug": "il-pettirosso-alpette",
+      "nome": "Il Pettirosso",
+      "city_name": "Alpette",
+      "indirizzo": "Str. Filia, 71, 10081 Castellamonte TO",
+      "lat": 45.407201,
+      "lng": 7.702442
+    },
+    {
+      "id": "341a36c2-9feb-4ea3-913a-325381252ae7",
+      "slug": "stella-d-italia-camere-e-bar-caffetteria-alpette",
+      "nome": "Stella d'Italia camere e bar caffetteria",
+      "city_name": "Alpette",
+      "indirizzo": "Via Locana, 35, 10080 Sparone TO",
+      "lat": 45.413915,
+      "lng": 7.54409
+    },
+    {
+      "id": "29cb853d-da78-41be-833e-b9f04db73d5d",
+      "slug": "b-b-casa-v-ale-alpignano",
+      "nome": "B&B Casa V-Ale",
+      "city_name": "Alpignano",
+      "indirizzo": "Piazza IV Novembre, 7, 10093 Collegno TO",
+      "lat": 45.087185,
+      "lng": 7.57626
+    },
+    {
+      "id": "94e269be-a3d1-4f7a-a5b8-767059fa39e9",
+      "slug": "blu-hotel-sure-hotel-collection-by-best-western-alpignano",
+      "nome": "Blu Hotel, Sure Hotel Collection by Best Western",
+      "city_name": "Alpignano",
+      "indirizzo": "Via Torino, 154, 10093 Collegno TO",
+      "lat": 45.072789,
+      "lng": 7.590588
+    },
+    {
+      "id": "8a195a6c-4cb4-4184-bc7c-a13280500589",
+      "slug": "casa-delle-ortensie-alpignano",
+      "nome": "Casa Delle Ortensie",
+      "city_name": "Alpignano",
+      "indirizzo": "Via Dieci Martiri del Maiolo, 2, 10091 Alpignano TO",
+      "lat": 45.099951,
+      "lng": 7.521901
+    },
+    {
+      "id": "2eb6e1a3-2014-4da2-8528-589988a74846",
+      "slug": "diamante-motel-hotel-torino-collegno-alpignano",
+      "nome": "Diamante Motel Hotel Torino Collegno",
+      "city_name": "Alpignano",
+      "indirizzo": "Via Nazioni Unite, 11, 10093 Collegno TO",
+      "lat": 45.10495,
+      "lng": 7.595304
+    },
+    {
+      "id": "5c25fd6e-3874-4bee-86b4-de0d7f831fd0",
+      "slug": "hotel-gallia-centro-congressi-alpignano",
+      "nome": "Hotel Gallia - Centro Congressi",
+      "city_name": "Alpignano",
+      "indirizzo": "Via Torino, 29/A, 10044 Pianezza TO",
+      "lat": 45.095841,
+      "lng": 7.565482
+    },
+    {
+      "id": "aef3a414-ea60-40cd-8e7e-ef30c4a9e23b",
+      "slug": "hotel-motel-prestige-alpignano",
+      "nome": "Hotel Motel Prestige",
+      "city_name": "Alpignano",
+      "indirizzo": "Str. del Portone, 102, 10095 Grugliasco TO",
+      "lat": 45.045602,
+      "lng": 7.579935
+    },
+    {
+      "id": "12551bbb-34eb-4ce8-a0ad-19184daf7214",
+      "slug": "la-finestra-sulla-reggia-alpignano",
+      "nome": "La Finestra sulla Reggia",
+      "city_name": "Alpignano",
+      "indirizzo": "Via Andrea Mensa, Piazza della Repubblica, 37/G, 10078 Venaria Reale TO",
+      "lat": 45.135041,
+      "lng": 7.625886
+    },
+    {
+      "id": "ab60b33b-65bd-4b64-b5cb-3194658b97db",
+      "slug": "le-fantasie-di-tizi-alpignano",
+      "nome": "Le Fantasie di Tizi",
+      "city_name": "Alpignano",
+      "indirizzo": "Via Valdellatorre, 147, 10091 Alpignano TO",
+      "lat": 45.109972,
+      "lng": 7.51442
+    },
+    {
+      "id": "7fbf2c3e-591d-4f34-8dfb-5d727a77c76b",
+      "slug": "phi-hotel-homy-druento-alpignano",
+      "nome": "Phi Hotel Homy Druento",
+      "city_name": "Alpignano",
+      "indirizzo": "Via Manzoni, 42, 10040 Druento TO",
+      "lat": 45.133183,
+      "lng": 7.57159
+    },
+    {
+      "id": "a2218b73-df75-43b5-a002-c194f470b881",
+      "slug": "piccolo-hotel-allamano-alpignano",
+      "nome": "Piccolo Hotel Allamano",
+      "city_name": "Alpignano",
+      "indirizzo": "Str. del Gerbido, 106, 10095 Grugliasco TO",
+      "lat": 45.052074,
+      "lng": 7.599909
+    },
+    {
+      "id": "e1a566fa-3030-4fe7-b80c-15ebc165d4c4",
+      "slug": "vald-hotel-alpignano",
+      "nome": "Vald Hotel",
+      "city_name": "Alpignano",
+      "indirizzo": "Via Lanzo, 35, 10040 Val della Torre TO",
+      "lat": 45.144937,
+      "lng": 7.491596
+    },
+    {
+      "id": "9a818c22-8f28-4bde-b7af-b0befd73a1c8",
+      "slug": "b-b-la-corte-del-segrino-alserio",
+      "nome": "B&B La Corte del Segrino",
+      "city_name": "Alserio",
+      "indirizzo": "Via Segrino, 7/F, 22035 Canzo CO",
+      "lat": 45.83705,
+      "lng": 9.274844
+    }
+  ]
+}

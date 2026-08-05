@@ -1,0 +1,323 @@
+{
+  "block": 241,
+  "blockId": "241",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "c455c63e-1416-44f5-8e2c-ce9041a9e796",
+      "slug": "relais-dolomiti-bedollo",
+      "nome": "Relais Dolomiti",
+      "city_name": "Bedollo",
+      "indirizzo": "Via Guglielmo Marconi, 95, 38043 Cialini TN",
+      "lat": 46.156575,
+      "lng": 11.279996
+    },
+    {
+      "id": "0cec6640-1003-4367-88e2-9de2427aa001",
+      "slug": "agriturismo-agricampeggio-societa-agricola-cacig-bedonia",
+      "nome": "Agriturismo Agricampeggio Società Agricola Cacigolara",
+      "city_name": "Bedonia",
+      "indirizzo": "Località Cacigolara, 8, 500 meters on the right after passing Breia (Compiano), 43043 Borgo Val di Taro PR",
+      "lat": 44.514996,
+      "lng": 9.706416
+    },
+    {
+      "id": "174a49f1-f2c1-4c20-bcba-b1521a86319b",
+      "slug": "agriturismo-la-tempestosa-agriturismo-ristorante-bedonia",
+      "nome": "Agriturismo La Tempestosa, Agriturismo, Ristorante, Ristorazione Tipica Bedonia (PR)",
+      "city_name": "Bedonia",
+      "indirizzo": "Località Momarola, 33, 43041 Bedonia PR",
+      "lat": 44.509215,
+      "lng": 9.606313
+    },
+    {
+      "id": "d1b1de7d-4f3b-478d-8eea-427613fd9f06",
+      "slug": "albergo-ristorante-amici-bedonia",
+      "nome": "Albergo Ristorante Amici",
+      "city_name": "Bedonia",
+      "indirizzo": "Via Maurizio Caranza, 33, 19028 Varese Ligure SP",
+      "lat": 44.378198,
+      "lng": 9.595514
+    },
+    {
+      "id": "2ca9861c-da2a-4861-8d14-16af0ab02a30",
+      "slug": "b-b-celeste-bedonia",
+      "nome": "B&B Celeste",
+      "city_name": "Bedonia",
+      "indirizzo": "SP359R, 14, 43041 Bedonia PR",
+      "lat": 44.513148,
+      "lng": 9.634957
+    },
+    {
+      "id": "fe5e7880-a45e-43f9-8c37-2b93c1e73a84",
+      "slug": "b-b-la-provenzale-bedonia",
+      "nome": "B&B La Provenzale",
+      "city_name": "Bedonia",
+      "indirizzo": "Via Lusardi, 13, 43059 Tornolo PR",
+      "lat": 44.484177,
+      "lng": 9.630783
+    },
+    {
+      "id": "19614b8c-b5a8-40ec-b060-1f130c677961",
+      "slug": "casale-delle-farfalle-bedonia",
+      "nome": "Casale delle farfalle",
+      "city_name": "Bedonia",
+      "indirizzo": "43059 Tornolo PR",
+      "lat": 44.48937,
+      "lng": 9.626773
+    },
+    {
+      "id": "69925c2b-8632-4a55-9edd-1bc2a3b9dfee",
+      "slug": "hotel-albergo-casa-per-ferie-del-seminario-vesco-bedonia",
+      "nome": "Hotel - Albergo - Casa per ferie del Seminario Vescovile di Bedonia",
+      "city_name": "Bedonia",
+      "indirizzo": "Via Don S.Raffi, 30, 43041 Bedonia PR",
+      "lat": 44.507893,
+      "lng": 9.631662
+    },
+    {
+      "id": "67d3b156-4357-4c39-b6ea-52f3c4332fbd",
+      "slug": "villa-tre-angeli-bedonia",
+      "nome": "Villa Tre Angeli",
+      "city_name": "Bedonia",
+      "indirizzo": "Via Roma, 37, 43041 Bedonia PR",
+      "lat": 44.5012,
+      "lng": 9.633824
+    },
+    {
+      "id": "e6cc74bf-54b4-404d-bcd4-a72c22a58eb8",
+      "slug": "alberghi-per-anziani-rota-d-imagna-hotel-posta-bedulita",
+      "nome": "ALBERGHI PER ANZIANI ROTA D'IMAGNA HOTEL POSTA",
+      "city_name": "Bedulita",
+      "indirizzo": "Via Calchera, 4, 24037 Rota d'Imagna BG",
+      "lat": 45.829895,
+      "lng": 9.514755
+    },
+    {
+      "id": "f5b3c3ac-05cf-4fd0-b4ed-121ed68da5f2",
+      "slug": "b-b-oltre-il-bosco-bedulita",
+      "nome": "B&B Oltre Il Bosco",
+      "city_name": "Bedulita",
+      "indirizzo": "Via Ca' Moschè, 20, 24030 Roncola BG",
+      "lat": 45.77334,
+      "lng": 9.56319
+    },
+    {
+      "id": "82ddf947-b9ea-4dcb-aa20-178f16a4152c",
+      "slug": "hotel-aurora-bedulita",
+      "nome": "Hotel Aurora",
+      "city_name": "Bedulita",
+      "indirizzo": "Piazza Guglielmo Marconi, 7, 24030 Roncola BG",
+      "lat": 45.768007,
+      "lng": 9.562126
+    },
+    {
+      "id": "cab062ec-e39d-48b7-9b1f-28a0b22553df",
+      "slug": "hotel-miramonti-resort-spa-bedulita",
+      "nome": "Hotel Miramonti | Resort & SPA",
+      "city_name": "Bedulita",
+      "indirizzo": "Via alle Fonti, 5/6, 24037 Rota d'Imagna BG",
+      "lat": 45.83027,
+      "lng": 9.513111
+    },
+    {
+      "id": "25dd1f2b-01cb-48a2-b6a5-78c8bbcd8d93",
+      "slug": "hotel-ristorante-posta-bedulita",
+      "nome": "Hotel Ristorante Posta",
+      "city_name": "Bedulita",
+      "indirizzo": "Località Calchera, 4, 24037 Rota d'Imagna BG",
+      "lat": 45.830058,
+      "lng": 9.515013
+    },
+    {
+      "id": "740b120c-9ae7-4bcd-b997-19711ec1171e",
+      "slug": "il-borgo-del-castello-foresteria-lombarda-bedulita",
+      "nome": "Il Borgo Del Castello-Foresteria Lombarda",
+      "city_name": "Bedulita",
+      "indirizzo": "Via Giacomo Quarenghi, 50, 24037 Rota d'Imagna BG",
+      "lat": 45.835782,
+      "lng": 9.510954
+    },
+    {
+      "id": "b1ea91a6-b79b-47a0-9091-144ee90f7ef0",
+      "slug": "il-castello-di-venere-foresteria-lombarda-bedulita",
+      "nome": "Il Castello Di Venere - Foresteria Lombarda",
+      "city_name": "Bedulita",
+      "indirizzo": "Via Giacomo Quarenghi, 50, 24037 Calchera-frontale BG",
+      "lat": 45.835809,
+      "lng": 9.510917
+    },
+    {
+      "id": "be946cf1-3361-4f9d-8d2c-45f8c8c782b4",
+      "slug": "ristorante-bar-albergo-da-elia-bedulita",
+      "nome": "Ristorante Bar Albergo da Elia",
+      "city_name": "Bedulita",
+      "indirizzo": "Viale V. Veneto, 176, 24038 Selino Basso BG",
+      "lat": 45.814976,
+      "lng": 9.533043
+    },
+    {
+      "id": "08f6b3f2-0dd2-4aea-8614-934e5dd581b9",
+      "slug": "albergo-canetta-bee",
+      "nome": "Albergo Canetta",
+      "city_name": "Bee",
+      "indirizzo": "Via Belvedere, 23, 28818 Pollino VB",
+      "lat": 45.976341,
+      "lng": 8.61406
+    },
+    {
+      "id": "8e049900-2140-4ac6-a0c1-875147369ca8",
+      "slug": "hotel-ghiffa-bee",
+      "nome": "Hotel Ghiffa",
+      "city_name": "Bee",
+      "indirizzo": "Corso Belvedere, 88, 28823 Ghiffa VB",
+      "lat": 45.956119,
+      "lng": 8.616897
+    },
+    {
+      "id": "17e48437-b45d-459a-8b29-805163ac8bf7",
+      "slug": "hotel-sant-anna-bee",
+      "nome": "Hotel Sant'Anna",
+      "city_name": "Bee",
+      "indirizzo": "Viale Sant'Anna, 65, 28922 Verbania VB",
+      "lat": 45.929051,
+      "lng": 8.560909
+    },
+    {
+      "id": "400f2ace-626d-41da-8793-1e29a5008db6",
+      "slug": "kimyo-exclusive-house-spa-e-wellness-bee",
+      "nome": "Kimyô Exclusive House, SPA e Wellness",
+      "city_name": "Bee",
+      "indirizzo": "Via Farinet, 34, 28813 Bee VB",
+      "lat": 45.962243,
+      "lng": 8.572352
+    },
+    {
+      "id": "e34a758e-55dc-43ee-982b-0fddaa5146d5",
+      "slug": "la-casa-degli-aceri-bee",
+      "nome": "La Casa degli Aceri",
+      "city_name": "Bee",
+      "indirizzo": "Via Riva, 2, 28813 Pian Nava VB",
+      "lat": 45.973795,
+      "lng": 8.58363
+    },
+    {
+      "id": "98314216-dd4f-4a33-ba9d-7b30ff3ec071",
+      "slug": "affittacamere-b-biscuit-beinasco",
+      "nome": "Affittacamere B&Biscuit",
+      "city_name": "Beinasco",
+      "indirizzo": "Via Ellero, 31, 10126 Torino TO",
+      "lat": 45.034681,
+      "lng": 7.669787
+    },
+    {
+      "id": "e52be15f-e9a4-419d-9aad-685a6c641382",
+      "slug": "bnb-muriaglio-affitto-appartamenti-brevi-periodi-beinasco",
+      "nome": "BnB Muriaglio - affitto appartamenti brevi periodi",
+      "city_name": "Beinasco",
+      "indirizzo": "Via Muriaglio, 10, 10141 Torino TO",
+      "lat": 45.063805,
+      "lng": 7.6496
+    },
+    {
+      "id": "daeb18eb-ea2a-447c-aab9-07aea521089a",
+      "slug": "boston-art-hotel-torino-beinasco",
+      "nome": "Boston Art Hotel Torino",
+      "city_name": "Beinasco",
+      "indirizzo": "Via Massena, 70, 10128 Torino TO",
+      "lat": 45.056299,
+      "lng": 7.669321
+    },
+    {
+      "id": "48b529b5-b82b-4b69-80f1-a22ecce065aa",
+      "slug": "casa-stefania-beinasco",
+      "nome": "Casa Stefania",
+      "city_name": "Beinasco",
+      "indirizzo": "Via Bernardino Drovetti, 6, 10138 Torino TO",
+      "lat": 45.075588,
+      "lng": 7.666464
+    },
+    {
+      "id": "8f33e054-fbe1-407b-9936-7b75e25bf74d",
+      "slug": "duca-s-guest-house-beinasco",
+      "nome": "Duca's Guest House",
+      "city_name": "Beinasco",
+      "indirizzo": "Corso Duca degli Abruzzi, 94, 10129 Torino TO",
+      "lat": 45.054416,
+      "lng": 7.656659
+    },
+    {
+      "id": "cce2e8bc-03f2-44ba-ba03-2cc7825e67de",
+      "slug": "eco-art-hotel-torino-beinasco",
+      "nome": "Eco Art Hotel Torino",
+      "city_name": "Beinasco",
+      "indirizzo": "Via Principi d'Acaja, 17, 10138 Torino TO",
+      "lat": 45.075809,
+      "lng": 7.664254
+    },
+    {
+      "id": "76f8c9c2-8241-4775-814d-9f85a2e210f3",
+      "slug": "hotel-astor-beinasco",
+      "nome": "Hotel Astor",
+      "city_name": "Beinasco",
+      "indirizzo": "Piazza Tancredi Galimberti, 12, 10134 Torino TO",
+      "lat": 45.032646,
+      "lng": 7.654276
+    },
+    {
+      "id": "75e2502b-bae2-4149-b52e-a43044464301",
+      "slug": "hotel-bengasi-beinasco",
+      "nome": "Hotel Bengasi",
+      "city_name": "Beinasco",
+      "indirizzo": "Via Cimabue, 6, 10124 Moncalieri TO",
+      "lat": 45.01618,
+      "lng": 7.66249
+    },
+    {
+      "id": "505d9968-de4c-4988-9a04-25a1592b08ff",
+      "slug": "hotel-montevecchio-beinasco",
+      "nome": "Hotel Montevecchio",
+      "city_name": "Beinasco",
+      "indirizzo": "Via Rodolfo Montevecchio, 13 Bis, 10128 Torino TO",
+      "lat": 45.060781,
+      "lng": 7.672843
+    },
+    {
+      "id": "ca858cae-a0ed-4596-b530-cfee4535b08d",
+      "slug": "hotel-san-luigi-beinasco",
+      "nome": "Hotel San Luigi",
+      "city_name": "Beinasco",
+      "indirizzo": "Via S. Luigi, 5, 10092 Beinasco TO",
+      "lat": 45.028028,
+      "lng": 7.58397
+    },
+    {
+      "id": "7ac572a5-15ee-4618-814d-092c760a6142",
+      "slug": "hotel-tourist-beinasco",
+      "nome": "HOTEL TOURIST",
+      "city_name": "Beinasco",
+      "indirizzo": "Via Alpignano, 3, 10143 Torino TO",
+      "lat": 45.076278,
+      "lng": 7.651934
+    },
+    {
+      "id": "4f695ae5-8cd1-4814-846f-d830ae1c138d",
+      "slug": "hotel-vinzaglio-beinasco",
+      "nome": "Hotel Vinzaglio",
+      "city_name": "Beinasco",
+      "indirizzo": "Corso Vinzaglio, 12, 10121 Torino TO",
+      "lat": 45.06998,
+      "lng": 7.667778
+    },
+    {
+      "id": "a9b772c0-ad28-48fb-81c8-c79f57166e64",
+      "slug": "idea-hotel-torino-mirafiori-beinasco",
+      "nome": "Idea Hotel Torino Mirafiori",
+      "city_name": "Beinasco",
+      "indirizzo": "Via Paolo Gaidano, 113, 10137 Torino TO",
+      "lat": 45.041504,
+      "lng": 7.622374
+    }
+  ]
+}

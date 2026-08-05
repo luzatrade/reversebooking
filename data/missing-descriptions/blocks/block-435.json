@@ -1,0 +1,323 @@
+{
+  "block": 435,
+  "blockId": "435",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "22aa662c-4a47-491c-98dc-f55a0cf8387e",
+      "slug": "b-b-crisalide-card",
+      "nome": "B&B Crisalide",
+      "city_name": "Card�",
+      "indirizzo": "Via Sant'Antonio, 14, 72015 Fasano BR",
+      "lat": 40.836786,
+      "lng": 17.358104
+    },
+    {
+      "id": "43238f6f-2707-481c-afbb-de4c9912605d",
+      "slug": "b-b-guest-house-ai-cappuccini-noicattaro-ba-card",
+      "nome": "B&B Guest House Ai Cappuccini, Noicattaro Ba",
+      "city_name": "Card�",
+      "indirizzo": "Via Cappuccini, 60, Via Antonio Salandra, 4, 70016 Noicattaro BA",
+      "lat": 41.030497,
+      "lng": 16.990401
+    },
+    {
+      "id": "390cfbfe-dc9c-4b56-b914-5394dad3a70e",
+      "slug": "b-b-relais-del-senatore-card",
+      "nome": "B&B Relais Del Senatore",
+      "city_name": "Card�",
+      "indirizzo": "Via S Benedetto, 33, 70044 Polignano a Mare BA",
+      "lat": 40.996355,
+      "lng": 17.219616
+    },
+    {
+      "id": "343ea982-5116-4ca1-8902-bb5f7d6b03c5",
+      "slug": "bed-breakfast-di-nonna-pina-card",
+      "nome": "Bed & Breakfast di Nonna Pina",
+      "city_name": "Card�",
+      "indirizzo": "Via Leuca, 5, 72015 Torre Canne BR",
+      "lat": 40.836252,
+      "lng": 17.464169
+    },
+    {
+      "id": "0f2cdce2-2092-4484-b5bb-e9e0ea9c0e38",
+      "slug": "bed-breakfast-villa-cassandra-card",
+      "nome": "Bed & Breakfast Villa Cassandra",
+      "city_name": "Card�",
+      "indirizzo": "Via Turi, 54, 70013 Castellana Grotte BA",
+      "lat": 40.882379,
+      "lng": 17.13119
+    },
+    {
+      "id": "51a4d2e2-f511-46e0-add9-e143b540b6ae",
+      "slug": "dameta-b-b-card",
+      "nome": "Dameta B&B",
+      "city_name": "Card�",
+      "indirizzo": "Via Mancini, 18, 70014 Conversano BA",
+      "lat": 40.96847,
+      "lng": 17.109586
+    },
+    {
+      "id": "c94c6046-deb3-4f01-9ccb-10d331667b64",
+      "slug": "affittacamere-coletti-careggine",
+      "nome": "Affittacamere Coletti",
+      "city_name": "Careggine",
+      "indirizzo": "Via Pergola, 20A, 55030 Roggio LU",
+      "lat": 44.140472,
+      "lng": 10.294405
+    },
+    {
+      "id": "e98f5162-5fee-4872-8c25-d6d5cc2ef51b",
+      "slug": "bb-daniela-camere-appartamento-careggine",
+      "nome": "BB Daniela - Camere - Appartamento",
+      "city_name": "Careggine",
+      "indirizzo": "Località Pianacce, 55033 Castiglione di Garfagnana LU",
+      "lat": 44.156825,
+      "lng": 10.411261
+    },
+    {
+      "id": "10bc1e41-7149-49c4-85ea-318ab498f109",
+      "slug": "ceragetta-resort-bb-case-vacanze-lago-isola-sant-careggine",
+      "nome": "Ceragetta Resort - BB Case vacanze Lago Isola Santa (chat sul sito)",
+      "city_name": "Careggine",
+      "indirizzo": "Località Salceta, 55030 Careggine LU",
+      "lat": 44.068205,
+      "lng": 10.308987
+    },
+    {
+      "id": "3c575bc5-0333-4212-8c9c-554dc5408ed3",
+      "slug": "rifugio-alpi-apuane-careggine",
+      "nome": "Rifugio Alpi Apuane",
+      "city_name": "Careggine",
+      "indirizzo": "Via del Taccino, 9, 55030 Careggine LU",
+      "lat": 44.120239,
+      "lng": 10.325868
+    },
+    {
+      "id": "4f7ec84e-5080-4dc6-bae0-a9f678d0a4a4",
+      "slug": "b-b-al-castel-carema",
+      "nome": "B&B Al Castel",
+      "city_name": "Carema",
+      "indirizzo": "Via Castello, 8, 11026 Pont-Saint-Martin AO",
+      "lat": 45.59953,
+      "lng": 7.797297
+    },
+    {
+      "id": "4e88b01e-a696-45c3-a19b-4ed743c1ba8c",
+      "slug": "bed-breakfast-la-casa-antica-pont-saint-martin-a-carema",
+      "nome": "Bed & Breakfast La Casa Antica Pont-Saint-Martin (AO)",
+      "city_name": "Carema",
+      "indirizzo": "Via Sant'Erasmo, 22, 11026 Pont-Saint-Martin AO",
+      "lat": 45.592374,
+      "lng": 7.800527
+    },
+    {
+      "id": "42305d0b-b419-4fc7-bb73-961751f86189",
+      "slug": "bed-and-breakfast-soffio-di-vento-carema",
+      "nome": "Bed and Breakfast Soffio di Vento",
+      "city_name": "Carema",
+      "indirizzo": "Località Tour d'Hereraz, 11, 11020 Perloz AO",
+      "lat": 45.615599,
+      "lng": 7.814333
+    },
+    {
+      "id": "9e7443cf-f44a-4367-b512-4b5904ee5be1",
+      "slug": "d-artemisia-chambre-d-hotes-carema",
+      "nome": "d'ARTEmisia Chambre d'hôtes",
+      "city_name": "Carema",
+      "indirizzo": "Via Nazionale, 63, 11026 Pont-Saint-Martin AO",
+      "lat": 45.589511,
+      "lng": 7.800839
+    },
+    {
+      "id": "5b759cb6-5edb-47be-91a1-a02b79c001fd",
+      "slug": "hotel-carla-carema",
+      "nome": "Hotel Carla",
+      "city_name": "Carema",
+      "indirizzo": "Via Nazionale, 106, 11026 Pont-Saint-Martin AO",
+      "lat": 45.587329,
+      "lng": 7.802083
+    },
+    {
+      "id": "9cf09e38-5c23-4108-acc5-1da79fb38238",
+      "slug": "il-falco-e-la-volpe-carema",
+      "nome": "Il Falco e la Volpe",
+      "city_name": "Carema",
+      "indirizzo": "Località Campiglie, 10010 Settimo Vittone TO",
+      "lat": 45.556578,
+      "lng": 7.84448
+    },
+    {
+      "id": "5ca582e5-dbb6-4276-b8ca-8b02d9eefbfc",
+      "slug": "locanda-ristoro-maletto-carema",
+      "nome": "Locanda Ristoro Maletto",
+      "city_name": "Carema",
+      "indirizzo": "Alpe Maletto, 10010 Carema TO",
+      "lat": 45.584985,
+      "lng": 7.845795
+    },
+    {
+      "id": "196ad308-067d-4051-bc86-582f442e6156",
+      "slug": "mini-hotel-carema",
+      "nome": "Mini Hotel **",
+      "city_name": "Carema",
+      "indirizzo": "Via Umberto I', 5, 10010 Quincinetto TO",
+      "lat": 45.56243,
+      "lng": 7.80655
+    },
+    {
+      "id": "925f6f13-f929-4790-a986-b2d1a10cc15b",
+      "slug": "san-martin-holidays-home-carema",
+      "nome": "San Martin Holidays Home",
+      "city_name": "Carema",
+      "indirizzo": "Via Sarus, 1/A, 11026 Pont-Saint-Martin AO",
+      "lat": 45.596163,
+      "lng": 7.798679
+    },
+    {
+      "id": "b64b7217-7eea-4a1c-9f1f-df83344ebf71",
+      "slug": "b-b-del-carli-carenno",
+      "nome": "B&B del Carlì",
+      "city_name": "Carenno",
+      "indirizzo": "Via Giosuè Carducci, 8, 23802 Carenno LC",
+      "lat": 45.8033,
+      "lng": 9.465748
+    },
+    {
+      "id": "9c42bbbd-380c-4d7f-bfdd-acab94df10ae",
+      "slug": "wanda-s-farm-carentino",
+      "nome": "Wanda's Farm",
+      "city_name": "Carentino",
+      "indirizzo": "Via Alessandria, 27, 15022 Carentino AL",
+      "lat": 44.82805,
+      "lng": 8.483436
+    },
+    {
+      "id": "46fc5056-d5d2-4881-89d2-bf52ea99c2d6",
+      "slug": "all-asilo-caresana",
+      "nome": "All' Asilo",
+      "city_name": "Caresana",
+      "indirizzo": "Via ING.Pietro Bosso Patriota, 49, 15030 Villanova Monferrato AL",
+      "lat": 45.18088,
+      "lng": 8.479898
+    },
+    {
+      "id": "24953149-afe2-425c-b719-4cd89ad3eefe",
+      "slug": "alfieri-guest-house-caresanablot",
+      "nome": "Alfieri Guest House",
+      "city_name": "Caresanablot",
+      "indirizzo": "Via Vittorio Alfieri, 19, 13100 Vercelli VC",
+      "lat": 45.321776,
+      "lng": 8.413792
+    },
+    {
+      "id": "6d46a8e5-3571-40b8-abd5-359160345e9b",
+      "slug": "b-b-l-altro-tempo-caresanablot",
+      "nome": "B&B L’Altro Tempo",
+      "city_name": "Caresanablot",
+      "indirizzo": "Via Leonardo Walter Manzone, 19, 13100 Vercelli VC",
+      "lat": 45.332749,
+      "lng": 8.408835
+    },
+    {
+      "id": "f6075b9f-341e-40bf-b94a-230084a4b81e",
+      "slug": "b-b-l-antico-vicolo-vercelli-caresanablot",
+      "nome": "B&B L'Antico Vicolo Vercelli",
+      "city_name": "Caresanablot",
+      "indirizzo": "Corso Fiume, 105, 13100 Vercelli VC",
+      "lat": 45.327696,
+      "lng": 8.412269
+    },
+    {
+      "id": "b20bdea0-fa7a-4010-8396-0597a6fd77ba",
+      "slug": "bnb-il-bicciolano-2-caresanablot",
+      "nome": "bnb il bicciolano 2",
+      "city_name": "Caresanablot",
+      "indirizzo": "Corso Mario Abbiate, 110, 13100 Vercelli VC",
+      "lat": 45.318658,
+      "lng": 8.413842
+    },
+    {
+      "id": "e25dc661-328f-466d-b38e-e0f5b29c0a03",
+      "slug": "palazzo-cusani-charming-rooms-caresanablot",
+      "nome": "Palazzo Cusani Charming Rooms",
+      "city_name": "Caresanablot",
+      "indirizzo": "Via San Michele, 7, 13100 Vercelli VC",
+      "lat": 45.326312,
+      "lng": 8.423093
+    },
+    {
+      "id": "d0d18dd9-0db8-40a6-a68e-222e086f658a",
+      "slug": "b-b-il-melograno-carezzano",
+      "nome": "B&B Il Melograno",
+      "city_name": "Carezzano",
+      "indirizzo": "Cascina Sposino 2, 15050 Costa Vescovato AL",
+      "lat": 44.826823,
+      "lng": 8.922366
+    },
+    {
+      "id": "5aedb9e7-ceb5-4873-bc30-259f2c6d6657",
+      "slug": "country-house-dei-boschi-carezzano",
+      "nome": "Country House dei Boschi",
+      "city_name": "Carezzano",
+      "indirizzo": "Via Sant’Agata, 1, 15051 Carezzano AL",
+      "lat": 44.794492,
+      "lng": 8.910871
+    },
+    {
+      "id": "a9e13467-c29f-4b04-8d46-b91247686915",
+      "slug": "gemma-b-b-carezzano",
+      "nome": "Gemma B&B",
+      "city_name": "Carezzano",
+      "indirizzo": "Via Cinque Martiri, 21, 15050 Paderna AL",
+      "lat": 44.821026,
+      "lng": 8.891494
+    },
+    {
+      "id": "54e00859-30a1-4a3d-ab68-7120073a1076",
+      "slug": "la-campeggia-carezzano",
+      "nome": "la Campeggia",
+      "city_name": "Carezzano",
+      "indirizzo": "Via Sarizzola, 15050 Costa Vescovato AL",
+      "lat": 44.816397,
+      "lng": 8.928735
+    },
+    {
+      "id": "69fbb0df-15d1-4faf-aa80-0e9c4755adbb",
+      "slug": "agriturismo-b-b-donna-germana-carfizzi",
+      "nome": "Agriturismo - B&B - Donna Germana",
+      "city_name": "Carfizzi",
+      "indirizzo": "Via Madonna di Mare, 88811 Cirò Marina KR",
+      "lat": 39.382802,
+      "lng": 17.120906
+    },
+    {
+      "id": "d10f9a44-b4ab-4f4f-a484-a324240eafc7",
+      "slug": "agriturismo-la-quercia-carfizzi",
+      "nome": "Agriturismo La Quercia",
+      "city_name": "Carfizzi",
+      "indirizzo": "ctr. Foresta, 88815 Strongoli KR",
+      "lat": 39.274227,
+      "lng": 17.097911
+    },
+    {
+      "id": "f3d5380e-b44e-4200-a6df-59a769d4bc4b",
+      "slug": "almarea-case-vacanza-carfizzi",
+      "nome": "Almarea case vacanza",
+      "city_name": "Carfizzi",
+      "indirizzo": "Via San Luigi Gonzaga, 18, 88811 Cirò Marina KR",
+      "lat": 39.361339,
+      "lng": 17.130937
+    },
+    {
+      "id": "69f69e25-06b7-4ed3-ae41-af7a5bdae414",
+      "slug": "b-b-nonna-pina-carfizzi",
+      "nome": "B&B \"Nonna Pina\"",
+      "city_name": "Carfizzi",
+      "indirizzo": "Via Chieti, 46, 88811 Cirò Marina KR",
+      "lat": 39.36745,
+      "lng": 17.127992
+    }
+  ]
+}

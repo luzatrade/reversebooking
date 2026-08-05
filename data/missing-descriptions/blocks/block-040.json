@@ -1,0 +1,323 @@
+{
+  "block": 40,
+  "blockId": "040",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "7973ff45-b8c4-44e3-b1ab-a824ed6619cd",
+      "slug": "villa-rosanna-b-b-ailano",
+      "nome": "Villa Rosanna b&b",
+      "city_name": "Ailano",
+      "indirizzo": "Via Santo Spirito, 2, 81058 Caianello CE",
+      "lat": 41.310395,
+      "lng": 14.098256
+    },
+    {
+      "id": "01a046ff-f050-4b43-a716-310da77f7e88",
+      "slug": "ai-4-gatti-b-b-ailoche",
+      "nome": "Ai 4 Gatti B&B",
+      "city_name": "Ailoche",
+      "indirizzo": "Frazione Vacchiero, 21, 13821 Camandona BI",
+      "lat": 45.638358,
+      "lng": 8.095175
+    },
+    {
+      "id": "42c1a052-d52e-4998-b1a2-a0ee7fd2f7a4",
+      "slug": "albergo-ristorante-della-posta-ailoche",
+      "nome": "Albergo & Ristorante della Posta",
+      "city_name": "Ailoche",
+      "indirizzo": "Via Provinciale, 235, 13835 Trivero BI",
+      "lat": 45.652315,
+      "lng": 8.182875
+    },
+    {
+      "id": "bc0940ea-1b2d-4878-926c-3a04f321b529",
+      "slug": "albergo-italia-ailoche",
+      "nome": "Albergo Italia",
+      "city_name": "Ailoche",
+      "indirizzo": "Corso Roma, 6, 13019 Varallo VC",
+      "lat": 45.814008,
+      "lng": 8.254546
+    },
+    {
+      "id": "d9fcaa0b-8ffa-40ed-8b13-d8bcf19ea078",
+      "slug": "antico-affittacamere-di-tollegno-ailoche",
+      "nome": "Antico Affittacamere di Tollegno",
+      "city_name": "Ailoche",
+      "indirizzo": "Via Garibaldi, 49, 13818 Tollegno BI",
+      "lat": 45.593806,
+      "lng": 8.050905
+    },
+    {
+      "id": "e8620e86-6969-4fc4-945c-f0a41f9cd40d",
+      "slug": "azienda-agricola-con-agriturismo-ca-nel-bosco-ailoche",
+      "nome": "Azienda Agricola con Agriturismo Ca' nel Bosco",
+      "city_name": "Ailoche",
+      "indirizzo": "13833, Frazione Gila, 25/b, 13833 Portula BI",
+      "lat": 45.682675,
+      "lng": 8.172094
+    },
+    {
+      "id": "2949ddad-bbb4-40ab-a946-0512d066bcc8",
+      "slug": "b-b-il-cortile-ailoche",
+      "nome": "B&B Il Cortile",
+      "city_name": "Ailoche",
+      "indirizzo": "Via Pietro Bora, 22, 13900 Biella BI",
+      "lat": 45.566105,
+      "lng": 8.066155
+    },
+    {
+      "id": "cac0fece-9c1f-451c-8429-6fc42cda4210",
+      "slug": "b-b-il-gomitolo-soggiorno-di-charme-ailoche",
+      "nome": "B&B Il Gomitolo - Soggiorno di charme",
+      "city_name": "Ailoche",
+      "indirizzo": "Via XX Settembre, 32, 13818 Tollegno BI",
+      "lat": 45.59208,
+      "lng": 8.05445
+    },
+    {
+      "id": "eb60e5f6-5e2d-4a89-bc78-33b63e16ada0",
+      "slug": "b-b-la-biulla-ailoche",
+      "nome": "B&B La Biulla",
+      "city_name": "Ailoche",
+      "indirizzo": "Via G. Porta, 39, 13863 Biolla BI",
+      "lat": 45.701083,
+      "lng": 8.18317
+    },
+    {
+      "id": "1f6a9128-27ad-4bfb-a52a-b9c4c173a267",
+      "slug": "b-b-la-colombera-ailoche",
+      "nome": "B&B La Colombera",
+      "city_name": "Ailoche",
+      "indirizzo": "Via IV Novembre, 49, 13853 Lessona BI",
+      "lat": 45.582884,
+      "lng": 8.198165
+    },
+    {
+      "id": "5cf4e8ef-f87c-4888-acde-2b175e8cd8fe",
+      "slug": "b-b-residence-ianua-coeli-ailoche",
+      "nome": "B&B Residence Ianua Coeli",
+      "city_name": "Ailoche",
+      "indirizzo": "Localita' Caudana, 62, 13835 Pistolesa BI",
+      "lat": 45.648277,
+      "lng": 8.117385
+    },
+    {
+      "id": "6d669cf6-d7c2-4384-9bad-a48fc02a31f4",
+      "slug": "camere-camillo-ailoche",
+      "nome": "Camere Camillo",
+      "city_name": "Ailoche",
+      "indirizzo": "Via Noche, 21, 13864 Crevacuore BI",
+      "lat": 45.684412,
+      "lng": 8.240163
+    },
+    {
+      "id": "69611c03-d084-4a34-98e5-3dabc59f9dfd",
+      "slug": "casa-valduggia-ailoche",
+      "nome": "Casa Valduggia",
+      "city_name": "Ailoche",
+      "indirizzo": "Via Roma, 27, 13018 Valduggia VC",
+      "lat": 45.730059,
+      "lng": 8.330322
+    },
+    {
+      "id": "909be2a5-7bc8-42ee-8c1c-9dacfc52c7a6",
+      "slug": "casada-ailoche",
+      "nome": "CasAda",
+      "city_name": "Ailoche",
+      "indirizzo": "Via A. Cerruti, 19, 13853 Lessona BI",
+      "lat": 45.590328,
+      "lng": 8.200771
+    },
+    {
+      "id": "1766699e-63dd-4ae2-9936-21fba71482b0",
+      "slug": "la-burla-ailoche",
+      "nome": "La Burla",
+      "city_name": "Ailoche",
+      "indirizzo": "Località La Burla, 13010 Guardabosone VC",
+      "lat": 45.6971,
+      "lng": 8.25972
+    },
+    {
+      "id": "d2492087-196a-4082-a25f-3792aea17560",
+      "slug": "la-casa-verde-b-b-ailoche",
+      "nome": "La Casa Verde B&B",
+      "city_name": "Ailoche",
+      "indirizzo": "Frazione Pratrivero, 274, 13835 Pratrivero BI",
+      "lat": 45.665541,
+      "lng": 8.180854
+    },
+    {
+      "id": "e54f9d4d-321b-412a-b7f8-cc12714161ed",
+      "slug": "locanda-dei-mercanti-ailoche",
+      "nome": "Locanda dei Mercanti",
+      "city_name": "Ailoche",
+      "indirizzo": "piazza Vittorio Emanuele III, 3, 13864 Crevacuore BI",
+      "lat": 45.685966,
+      "lng": 8.248968
+    },
+    {
+      "id": "a47d341f-fece-4934-90d6-6d45bdeb46cc",
+      "slug": "locanda-di-campagna-guardabosone-ailoche",
+      "nome": "Locanda di Campagna Guardabosone",
+      "city_name": "Ailoche",
+      "indirizzo": "Via Roma, 37G, 13010 Guardabosone VC",
+      "lat": 45.702165,
+      "lng": 8.251498
+    },
+    {
+      "id": "89585274-d039-46ff-87a4-7a7396caa560",
+      "slug": "ristorante-albergo-bar-noveis-ailoche",
+      "nome": "Ristorante Albergo bar Noveis",
+      "city_name": "Ailoche",
+      "indirizzo": "Frazione Noveis, 20, 13864 Caprile BI",
+      "lat": 45.713718,
+      "lng": 8.190455
+    },
+    {
+      "id": "bf60e003-d031-461c-b854-bc18a37f519c",
+      "slug": "the-horse-guest-house-ailoche",
+      "nome": "THE HORSE - GUEST HOUSE",
+      "city_name": "Ailoche",
+      "indirizzo": "VIA ENRICO FERMI, 2, 28076 Pogno NO",
+      "lat": 45.757754,
+      "lng": 8.380781
+    },
+    {
+      "id": "8dd512f7-fe59-4b56-bc98-5cf6a81c6367",
+      "slug": "villa-erbetta-home-restaurant-b-b-ailoche",
+      "nome": "Villa Erbetta Home Restaurant+B&B",
+      "city_name": "Ailoche",
+      "indirizzo": "Via Torchio, 13010 Guardabosone VC",
+      "lat": 45.701291,
+      "lng": 8.251868
+    },
+    {
+      "id": "05f7b076-4426-4788-b8bb-16018fb0e2b0",
+      "slug": "apparta-hotel-airasca",
+      "nome": "Apparta hotel",
+      "city_name": "Airasca",
+      "indirizzo": "Via Bellezia, 2, 10043 Orbassano TO",
+      "lat": 45.028208,
+      "lng": 7.578472
+    },
+    {
+      "id": "165c4565-00f7-4160-a1d9-baeb368eed93",
+      "slug": "b-b-d-or-duble-airasca",
+      "nome": "b&b D'or dublè",
+      "city_name": "Airasca",
+      "indirizzo": "Via Garavella, 12, 10041 Carignano TO",
+      "lat": 44.906858,
+      "lng": 7.682162
+    },
+    {
+      "id": "1b0a65ef-fc2b-45a0-b7b7-4f6750784ec4",
+      "slug": "b-b-le-mimose-airasca",
+      "nome": "B&B Le Mimose",
+      "city_name": "Airasca",
+      "indirizzo": "Str. Cesani Sardegna, 52, 10060 Bricherasio TO",
+      "lat": 44.836269,
+      "lng": 7.290309
+    },
+    {
+      "id": "0080af50-dff2-4781-8313-9d0f8b1c6231",
+      "slug": "b-b-pian-savin-airasca",
+      "nome": "B&B Pian Savin",
+      "city_name": "Airasca",
+      "indirizzo": "Via Pian Savin, Borgata Tora, 1, 10094 Giaveno TO",
+      "lat": 45.009699,
+      "lng": 7.305065
+    },
+    {
+      "id": "3051a63b-1697-4669-879a-f07464c85a7a",
+      "slug": "b-b-quattro-gatti-airasca",
+      "nome": "B&B Quattro Gatti",
+      "city_name": "Airasca",
+      "indirizzo": "Fraz, Via Gabellieri, 9, 10060 Piscina TO",
+      "lat": 44.920429,
+      "lng": 7.44721
+    },
+    {
+      "id": "800fa642-f5e0-42dd-aea9-9830975d6486",
+      "slug": "casa-del-grande-vecchio-airasca",
+      "nome": "Casa Del Grande Vecchio",
+      "city_name": "Airasca",
+      "indirizzo": "Via Roma, 83, 10060 Airasca TO",
+      "lat": 44.91621,
+      "lng": 7.485995
+    },
+    {
+      "id": "a8c6ed59-0285-4008-8c7d-e92fb286de63",
+      "slug": "glicini-hotel-airasca",
+      "nome": "Glicini Hotel",
+      "city_name": "Airasca",
+      "indirizzo": "Via Val Pellice, 68, 10060 San Secondo di Pinerolo TO",
+      "lat": 44.855306,
+      "lng": 7.322399
+    },
+    {
+      "id": "a31b54c4-fcf6-4b90-bddf-5794b725323c",
+      "slug": "hotel-cavalieri-airasca",
+      "nome": "Hotel Cavalieri",
+      "city_name": "Airasca",
+      "indirizzo": "Stradale Orbassano, 21, 10064 Pinerolo TO",
+      "lat": 44.890461,
+      "lng": 7.353508
+    },
+    {
+      "id": "d8add0f6-ac72-47ef-b0bf-bd305790fe66",
+      "slug": "hotel-eden-airasca",
+      "nome": "Hotel Eden",
+      "city_name": "Airasca",
+      "indirizzo": "Str. Rivalta, 15, 10043 Orbassano TO",
+      "lat": 45.011232,
+      "lng": 7.530068
+    },
+    {
+      "id": "cfb14572-2db9-4812-b1d5-381b1f68e860",
+      "slug": "hotel-original-airasca",
+      "nome": "Hotel Original",
+      "city_name": "Airasca",
+      "indirizzo": "Via Arturo Farinelli, 4, 10135 Torino TO",
+      "lat": 45.015739,
+      "lng": 7.628613
+    },
+    {
+      "id": "e45ab679-7e04-489a-9fe2-398f9af3a6f8",
+      "slug": "hotel-quo-vadis-airasca",
+      "nome": "Hotel Quo Vadis",
+      "city_name": "Airasca",
+      "indirizzo": "Via Sestriere, 71, 10060 None TO",
+      "lat": 44.928078,
+      "lng": 7.524523
+    },
+    {
+      "id": "63083aea-85ef-4092-b7dd-c0e1a98a19ce",
+      "slug": "hotel-residence-guido-reni-airasca",
+      "nome": "Hotel Residence Guido Reni",
+      "city_name": "Airasca",
+      "indirizzo": "Via Tempio Pausania, 43, 10137 Torino TO",
+      "lat": 45.041983,
+      "lng": 7.629678
+    },
+    {
+      "id": "9edf24d7-fa67-4ce6-95b6-656c36db98f3",
+      "slug": "hotel-residence-sestriere-airasca",
+      "nome": "Hotel Residence Sestriere",
+      "city_name": "Airasca",
+      "indirizzo": "Via Brofferio, 5, 10024 Moncalieri TO",
+      "lat": 45.013489,
+      "lng": 7.65861
+    },
+    {
+      "id": "aae5a4d0-0d5c-4a4d-a3e5-dea31f2b44cb",
+      "slug": "hotel-san-giorgio-airasca",
+      "nome": "Hotel San Giorgio",
+      "city_name": "Airasca",
+      "indirizzo": "Via S. Giorgio, 41, 10090 Sangano TO",
+      "lat": 45.024891,
+      "lng": 7.458547
+    }
+  ]
+}

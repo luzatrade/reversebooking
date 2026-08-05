@@ -1,0 +1,323 @@
+{
+  "block": 349,
+  "blockId": "349",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "10b5958e-c597-4a3d-8d45-6a880766c32d",
+      "slug": "b-b-marialdo-bussoleno",
+      "nome": "B&B MariAldo",
+      "city_name": "Bussoleno",
+      "indirizzo": "Via Giuseppe Garibaldi, 3A, 10053 Bussoleno TO",
+      "lat": 45.141016,
+      "lng": 7.143912
+    },
+    {
+      "id": "e0546c20-387b-420e-a5ce-700e84d59a2a",
+      "slug": "residence-madamin-bussoleno",
+      "nome": "Residence Madamin",
+      "city_name": "Bussoleno",
+      "indirizzo": "Via Mentoulles, 9, 10060 Granges TO",
+      "lat": 45.023815,
+      "lng": 7.080094
+    },
+    {
+      "id": "986b7d20-4bfc-4710-aa18-e09d71376430",
+      "slug": "3per3-busto-arsizio",
+      "nome": "3per3",
+      "city_name": "Busto Arsizio",
+      "indirizzo": "Viale Boccaccio, 152, 21052 Busto Arsizio VA",
+      "lat": 45.583741,
+      "lng": 8.857294
+    },
+    {
+      "id": "207dae5f-b77d-405d-b378-804ea7a6f7e8",
+      "slug": "angolo-di-isa-busto-arsizio",
+      "nome": "ANGOLO DI ISA",
+      "city_name": "Busto Arsizio",
+      "indirizzo": "Via Alvise Cadamosto, 8, 21052 Busto Arsizio VA",
+      "lat": 45.610731,
+      "lng": 8.839107
+    },
+    {
+      "id": "f87b80be-a9b8-45ca-b0b6-a5adf67e4df4",
+      "slug": "antica-corte-room-breakfast-busto-arsizio",
+      "nome": "Antica Corte Room&Breakfast",
+      "city_name": "Busto Arsizio",
+      "indirizzo": "Vicolo Custodi, 3, 21052 Busto Arsizio VA",
+      "lat": 45.612142,
+      "lng": 8.849997
+    },
+    {
+      "id": "d3cc4c85-56e5-4dd1-9f47-685b19bedc40",
+      "slug": "antico-giardino-residence-busto-arsizio",
+      "nome": "Antico Giardino - Residence",
+      "city_name": "Busto Arsizio",
+      "indirizzo": "Via Lodovico Antonio Muratori, 30, 21052 Busto Arsizio VA",
+      "lat": 45.606976,
+      "lng": 8.859488
+    },
+    {
+      "id": "92c6bb9e-8ea5-4042-9eb8-65ada8d4ecb6",
+      "slug": "b-b-giet-busto-arsizio",
+      "nome": "B&B GIET",
+      "city_name": "Busto Arsizio",
+      "indirizzo": "Via Taormina, 26, 21052 Busto Arsizio VA",
+      "lat": 45.606855,
+      "lng": 8.837903
+    },
+    {
+      "id": "658cd4cb-4cd3-418f-b3eb-e2f1bf60b6b7",
+      "slug": "b-b-southitaly-busto-arsizio",
+      "nome": "B&B SouthItaly",
+      "city_name": "Busto Arsizio",
+      "indirizzo": "n, Via Fratelli di Dio, 29, 21052 Busto Arsizio VA",
+      "lat": 45.586755,
+      "lng": 8.845406
+    },
+    {
+      "id": "5a284404-b515-457a-ac60-744b059ae06e",
+      "slug": "bed-breakfast-milano-malpensa-busto-arsizio",
+      "nome": "Bed&Breakfast Milano Malpensa",
+      "city_name": "Busto Arsizio",
+      "indirizzo": "Via Valsugana, 4, 21052 Busto Arsizio VA",
+      "lat": 45.625715,
+      "lng": 8.835483
+    },
+    {
+      "id": "ee705e79-638c-4714-97bf-67876aa3be30",
+      "slug": "de-piante-guest-house-busto-arsizio",
+      "nome": "De Piante Guest House",
+      "city_name": "Busto Arsizio",
+      "indirizzo": "Via S. Francesco, 1, 21052 Busto Arsizio VA",
+      "lat": 45.614765,
+      "lng": 8.8533
+    },
+    {
+      "id": "4aeddd16-e150-423c-968a-54040d901971",
+      "slug": "hotel-d120-busto-arsizio",
+      "nome": "Hotel D120",
+      "city_name": "Busto Arsizio",
+      "indirizzo": "Via Armando Diaz, 120, 21057 Olgiate Olona VA",
+      "lat": 45.632781,
+      "lng": 8.861864
+    },
+    {
+      "id": "556accf8-50f5-4155-a1d2-624bb6959015",
+      "slug": "hotel-espana-busto-arsizio",
+      "nome": "Hotel Espana",
+      "city_name": "Busto Arsizio",
+      "indirizzo": "Viale Boccaccio, 174, 21052 Busto Arsizio VA",
+      "lat": 45.58125,
+      "lng": 8.857655
+    },
+    {
+      "id": "2524d7fb-edb6-4253-baf0-fbb6d88ea1b7",
+      "slug": "hotel-pineta-busto-arsizio",
+      "nome": "Hotel Pineta",
+      "city_name": "Busto Arsizio",
+      "indirizzo": "Corso Sempione, 150, 21052 Busto Arsizio VA",
+      "lat": 45.629662,
+      "lng": 8.83959
+    },
+    {
+      "id": "f127087c-61e0-4ed9-9205-3d2a5e65fca8",
+      "slug": "lo-sciuro-busto-arsizio",
+      "nome": "Lo sciuro",
+      "city_name": "Busto Arsizio",
+      "indirizzo": "Via Magenta, 61, 21052 Busto Arsizio VA",
+      "lat": 45.599657,
+      "lng": 8.846753
+    },
+    {
+      "id": "c3d51015-d534-403c-89a2-5b377e749b6e",
+      "slug": "location-lory-s-n-c-bed-and-breakfast-busto-arsi-busto-arsizio",
+      "nome": "Location Lory S.N.C Bed And Breakfast Busto Arsizio",
+      "city_name": "Busto Arsizio",
+      "indirizzo": "Via Mogadiscio, 3/bis, Via Mogadiscio, 3, 21052 Busto Arsizio VA",
+      "lat": 45.58457,
+      "lng": 8.85835
+    },
+    {
+      "id": "61e954e9-1fb4-48ba-a412-260cc773942c",
+      "slug": "loft-matteotti-busto-arsizio",
+      "nome": "Loft Matteotti",
+      "city_name": "Busto Arsizio",
+      "indirizzo": "Via Matteotti, 8, 21052 Busto Arsizio VA",
+      "lat": 45.611918,
+      "lng": 8.849438
+    },
+    {
+      "id": "95593978-ac74-4175-96bb-c33b4a9994c4",
+      "slug": "mo-om-hotel-busto-arsizio",
+      "nome": "MO.OM Hotel",
+      "city_name": "Busto Arsizio",
+      "indirizzo": "Via S. Francesco D'Assisi, 15, 21057 Olgiate Olona VA",
+      "lat": 45.635791,
+      "lng": 8.865492
+    },
+    {
+      "id": "f784e178-71fc-48e6-ace8-a84c7043216c",
+      "slug": "serendipity-guest-rooms-foresteria-lombarda-busto-arsizio",
+      "nome": "Serendipity Guest Rooms_Foresteria Lombarda",
+      "city_name": "Busto Arsizio",
+      "indirizzo": "Via Statuto, 11, 21052 Busto Arsizio VA",
+      "lat": 45.596249,
+      "lng": 8.839228
+    },
+    {
+      "id": "1fc126ae-3eba-4c61-8813-d807598e4c8c",
+      "slug": "bed-and-breakfast-orchidea-busto-garolfo",
+      "nome": "bed and breakfast Orchidea",
+      "city_name": "Busto Garolfo",
+      "indirizzo": "Via San Pietro, 43, 20038 Busto Garolfo MI",
+      "lat": 45.554776,
+      "lng": 8.883339
+    },
+    {
+      "id": "6ed3b514-c7e2-436a-86dd-c06236389ad3",
+      "slug": "hotel-motel-city-busto-garolfo",
+      "nome": "Hotel Motel City",
+      "city_name": "Busto Garolfo",
+      "indirizzo": "Via Papa Giovanni XXIII, 1, 20023 Legnano MI",
+      "lat": 45.60137,
+      "lng": 8.943493
+    },
+    {
+      "id": "b8b2bad0-1b4e-4e73-bde2-914bb6c9224c",
+      "slug": "poli-hotel-busto-garolfo",
+      "nome": "Poli Hotel",
+      "city_name": "Busto Garolfo",
+      "indirizzo": "SS33 del Sempione, 241, 20028 San Vittore Olona MI",
+      "lat": 45.581437,
+      "lng": 8.949675
+    },
+    {
+      "id": "ae82300c-21a9-415c-93e9-e3684a26d4a2",
+      "slug": "una-hotels-malpensa-busto-garolfo",
+      "nome": "UNA Hotels Malpensa",
+      "city_name": "Busto Garolfo",
+      "indirizzo": "Via F. Turati, 84, 20023 Cerro Maggiore MI",
+      "lat": 45.601191,
+      "lng": 8.94605
+    },
+    {
+      "id": "c2a3af2e-26c0-4fd1-afef-6b45d36d1e03",
+      "slug": "affittacamere-il-cortile-butera",
+      "nome": "Affittacamere Il Cortile",
+      "city_name": "Butera",
+      "indirizzo": "Corso Vittorio Emanuele II, 142, 93013 Mazzarino CL",
+      "lat": 37.304493,
+      "lng": 14.210196
+    },
+    {
+      "id": "093801ab-cf22-4e00-97b8-bef2052db9c9",
+      "slug": "agriturismo-alpa-mazzarino-butera",
+      "nome": "Agriturismo ALPA Mazzarino",
+      "city_name": "Butera",
+      "indirizzo": "C.da Contrasto, 93013 Mazzarino CL",
+      "lat": 37.258903,
+      "lng": 14.216376
+    },
+    {
+      "id": "49d7733f-6d9f-4db9-8ec5-8bb8edd41882",
+      "slug": "b-b-falconara-butera",
+      "nome": "B&B Falconara",
+      "city_name": "Butera",
+      "indirizzo": "SS 115 km 242.600, 93011 Butera CL",
+      "lat": 37.110218,
+      "lng": 14.046945
+    },
+    {
+      "id": "50a399a5-050b-423a-9391-db1f563a6449",
+      "slug": "b-b-la-colonna-dorica-butera",
+      "nome": "B&B La colonna Dorica",
+      "city_name": "Butera",
+      "indirizzo": "Corso Vittorio Emanuele, 67, 93012 Gela CL",
+      "lat": 37.063988,
+      "lng": 14.256528
+    },
+    {
+      "id": "526703e3-b596-4a48-b0dc-5d31ab525e22",
+      "slug": "b-b-villa-sara-falconara-butera",
+      "nome": "B&B Villa Sara Falconara",
+      "city_name": "Butera",
+      "indirizzo": "SS115, 93011 Butera CL",
+      "lat": 37.110216,
+      "lng": 14.051369
+    },
+    {
+      "id": "0a64e7c0-4f32-4a84-8c5e-097459badb28",
+      "slug": "desusino-residence-hotel-butera",
+      "nome": "Desusino Residence & Hotel",
+      "city_name": "Butera",
+      "indirizzo": "Strada Statale 115, Km 245, 93011 Butera CL",
+      "lat": 37.124657,
+      "lng": 14.076346
+    },
+    {
+      "id": "67c33827-dae8-4ad2-8ec2-44efc881784b",
+      "slug": "falconara-greenblu-resort-butera",
+      "nome": "Falconara Greenblu Resort",
+      "city_name": "Butera",
+      "indirizzo": "SS115, 93011 Butera CL",
+      "lat": 37.110565,
+      "lng": 14.051764
+    },
+    {
+      "id": "c2565306-fcba-490e-bf98-ac3cf5613ae7",
+      "slug": "hotel-lido-degli-angeli-butera",
+      "nome": "Hotel Lido degli Angeli",
+      "city_name": "Butera",
+      "indirizzo": "SS 115 km 242.600 Contrada Faino, 93011 Butera CL",
+      "lat": 37.110611,
+      "lng": 14.048067
+    },
+    {
+      "id": "1ba6e852-69d0-40cb-9eb4-0776f83a34d2",
+      "slug": "hotel-ristorante-pasticceria-sombrero-licata-butera",
+      "nome": "Hotel Ristorante Pasticceria Sombrero Licata",
+      "city_name": "Butera",
+      "indirizzo": "SS115 c.da safarello, 92027 Licata AG",
+      "lat": 37.113289,
+      "lng": 13.969802
+    },
+    {
+      "id": "38cc31c3-df04-4ea2-b12d-8e184bf313da",
+      "slug": "hotel-sileno-butera",
+      "nome": "Hotel Sileno",
+      "city_name": "Butera",
+      "indirizzo": "Largo Mancino Soldato, 93012 Gela CL",
+      "lat": 37.068978,
+      "lng": 14.259868
+    },
+    {
+      "id": "434a78db-6f11-40bd-9987-82046ae1141a",
+      "slug": "hotel-sole-alberghi-butera",
+      "nome": "Hotel Sole Alberghi",
+      "city_name": "Butera",
+      "indirizzo": "Via Mare, 32, 93012 Gela CL",
+      "lat": 37.062306,
+      "lng": 14.254399
+    },
+    {
+      "id": "a4ca6813-c057-4470-9930-bffe3d049f43",
+      "slug": "il-portico-dei-normanni-butera",
+      "nome": "IL Portico dei Normanni",
+      "city_name": "Butera",
+      "indirizzo": "Piazza Dante Alighieri, 15, 93011 Butera CL",
+      "lat": 37.186976,
+      "lng": 14.185724
+    },
+    {
+      "id": "b1a29264-dc17-4463-96a5-f7616f6aad52",
+      "slug": "lilium-in-butera",
+      "nome": "Lilium In",
+      "city_name": "Butera",
+      "indirizzo": "Via Sicani, 93012 Gela CL",
+      "lat": 37.08012,
+      "lng": 14.222746
+    }
+  ]
+}

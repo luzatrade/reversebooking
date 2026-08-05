@@ -1,0 +1,323 @@
+{
+  "block": 86,
+  "blockId": "086",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "b9c5ff00-c420-4943-9d3d-445bfd942a77",
+      "slug": "cascina-manu-altavilla-monferrato",
+      "nome": "Cascina Manu",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Varenghino e Buscarolo, 84, 15030 Rosignano Monferrato AL",
+      "lat": 45.06251,
+      "lng": 8.43317
+    },
+    {
+      "id": "2b053884-3ddf-4bc4-a35f-488f8c4e2be3",
+      "slug": "cascina-trapella-altavilla-monferrato",
+      "nome": "Cascina Trapella",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Str. S. Martino, 40, 15033 Roncaglia AL",
+      "lat": 45.051957,
+      "lng": 8.44459
+    },
+    {
+      "id": "ceaa9157-ccf5-400e-84ac-d386f14baa08",
+      "slug": "i-castagnoni-country-resort-wellness-altavilla-monferrato",
+      "nome": "I Castagnoni - Country Resort & Wellness",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Varenghino e Buscarolo, 67, 15030 Castagnoni AL",
+      "lat": 45.071471,
+      "lng": 8.420562
+    },
+    {
+      "id": "d9292b12-b80c-42ce-8cfa-2dae57afd662",
+      "slug": "la-quercia-rossa-altavilla-monferrato",
+      "nome": "La Quercia Rossa",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Str. Grazzano, 22, 14036 Moncalvo AT",
+      "lat": 45.044415,
+      "lng": 8.286259
+    },
+    {
+      "id": "d3b410af-dc20-4f62-80c1-b3d4e02cc13e",
+      "slug": "le-libellule-relais-altavilla-monferrato",
+      "nome": "Le Libellule Relais",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Via Ca' Dietro Pavese, 5, 15049 Vignale Monferrato AL",
+      "lat": 45.002902,
+      "lng": 8.423272
+    },
+    {
+      "id": "e4433719-26ce-4aa8-8038-f61ca6650062",
+      "slug": "monferrato-resort-altavilla-monferrato",
+      "nome": "Monferrato Resort",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Località, Cascina Palau, 25, 15020 Cereseto AL",
+      "lat": 45.072556,
+      "lng": 8.319534
+    },
+    {
+      "id": "f2d0ccf3-dee2-41f2-9e83-813088e3165c",
+      "slug": "relais-dal-cavaliere-altavilla-monferrato",
+      "nome": "Relais dal Cavaliere",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Str. Bricco, 11, 14036 Castellino AT",
+      "lat": 45.067,
+      "lng": 8.301423
+    },
+    {
+      "id": "82590fa7-2316-462f-b21f-8864e1dda93c",
+      "slug": "tenuta-montemagno-relais-wines-altavilla-monferrato",
+      "nome": "Tenuta Montemagno Relais & Wines",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Via Cascina Valfossato, 9, 14030 Montemagno Monferrato AT",
+      "lat": 44.994861,
+      "lng": 8.350702
+    },
+    {
+      "id": "d57e8085-51b3-4a1e-a2ee-c5ee0eb21441",
+      "slug": "villa-morneto-relais-agriturismo-altavilla-monferrato",
+      "nome": "Villa Morneto - Relais & Agriturismo",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Via Ca' Morneto, 3, 15049 Vignale Monferrato AL",
+      "lat": 45.012753,
+      "lng": 8.372586
+    },
+    {
+      "id": "e9731c53-fee4-4c8a-bd97-bb344f4d9739",
+      "slug": "astrea-wellness-spa-altavilla-silentina",
+      "nome": "Astrea Wellness & Spa",
+      "city_name": "Altavilla Silentina",
+      "indirizzo": "Via Falagato, 39, 84045 Altavilla Silentina SA",
+      "lat": 40.521708,
+      "lng": 15.075411
+    },
+    {
+      "id": "fb081adb-c6c5-4330-b33d-147a5b596b07",
+      "slug": "biancolivo-country-house-altavilla-silentina",
+      "nome": "Biancolivo Country House",
+      "city_name": "Altavilla Silentina",
+      "indirizzo": "Contrada Scalareta, 74, 84045 Altavilla Silentina SA",
+      "lat": 40.507432,
+      "lng": 15.111779
+    },
+    {
+      "id": "e406caae-ead8-4207-82a7-d0f02cb6140b",
+      "slug": "casale-degli-ulivi-prestige-altavilla-silentina",
+      "nome": "Casale Degli Ulivi Prestige",
+      "city_name": "Altavilla Silentina",
+      "indirizzo": "Via Frolla, 1, 84045 Altavilla Silentina SA",
+      "lat": 40.529865,
+      "lng": 15.141263
+    },
+    {
+      "id": "597af259-0f9f-41cc-9257-d03e338e1ab1",
+      "slug": "quota-424-altavilla-silentina",
+      "nome": "Quota 424",
+      "city_name": "Altavilla Silentina",
+      "indirizzo": "Contrada Piano delle Rose, 9, 84045 Altavilla Silentina SA",
+      "lat": 40.531351,
+      "lng": 15.136713
+    },
+    {
+      "id": "5c60942d-c17a-44c7-9c9b-df8e7db566f9",
+      "slug": "tenuta-ferrara-hauteville-altavilla-silentina",
+      "nome": "Tenuta Ferrara Hauteville",
+      "city_name": "Altavilla Silentina",
+      "indirizzo": "Via Vigna delle Canne, 42, 84045 Cerrelli SA",
+      "lat": 40.525813,
+      "lng": 15.109083
+    },
+    {
+      "id": "65a7fa18-4b82-4766-8b7d-4e5a882a302b",
+      "slug": "villa-lucilla-altavilla-silentina",
+      "nome": "Villa Lucilla",
+      "city_name": "Altavilla Silentina",
+      "indirizzo": "via molino vecchio, 15, 84045 Altavilla Silentina SA",
+      "lat": 40.549373,
+      "lng": 15.131118
+    },
+    {
+      "id": "ebb018f6-39e6-4f56-add9-ba87565788bf",
+      "slug": "albergo-ristorante-tavernelle-altavilla-vicentina",
+      "nome": "Albergo Ristorante Tavernelle",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Viale Verona, 6, 36077 Altavilla Vicentina VI",
+      "lat": 45.512445,
+      "lng": 11.451717
+    },
+    {
+      "id": "9c9aaa73-a422-4ab4-8632-81799dcb5b43",
+      "slug": "best-western-hotel-tre-torri-altavilla-vicentina",
+      "nome": "Best Western Hotel Tre Torri",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Via Tavernelle, 71, 36077 Altavilla Vicentina VI",
+      "lat": 45.514059,
+      "lng": 11.458469
+    },
+    {
+      "id": "4c2c31a9-a9d6-4c8d-ae80-f16dfcd9ea8a",
+      "slug": "casa-clara-altavilla-vicentina",
+      "nome": "Casa Clara",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Via Alessandro Manzoni, 6, 36077 Altavilla Vicentina VI",
+      "lat": 45.516556,
+      "lng": 11.482277
+    },
+    {
+      "id": "d21282f0-8c0c-4dd6-a06c-76166b7786e8",
+      "slug": "ghv-hotel-spa-altavilla-vicentina",
+      "nome": "GHV Hotel & SPA",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Via Carpaneda, 5, 36051 Creazzo VI",
+      "lat": 45.535907,
+      "lng": 11.481109
+    },
+    {
+      "id": "0535d3c8-f982-499c-9a11-f1c0740d9cb2",
+      "slug": "gli-olmi-altavilla-vicentina",
+      "nome": "Gli Olmi",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Via Como, 2, 36051 Creazzo VI",
+      "lat": 45.528464,
+      "lng": 11.483942
+    },
+    {
+      "id": "042d2ad9-44a5-403a-83e7-acaa71ac081a",
+      "slug": "hotel-residence-castelli-altavilla-vicentina",
+      "nome": "Hotel & Residence Castelli",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Viale Trieste, 73, 36075 Montecchio Maggiore VI",
+      "lat": 45.506818,
+      "lng": 11.440517
+    },
+    {
+      "id": "03337c0d-d2c0-4d59-a5fa-1d097c08ca40",
+      "slug": "hotel-castagna-altavilla-vicentina",
+      "nome": "Hotel Castagna",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Via Archimede, 2, 36075 Montecchio Maggiore VI",
+      "lat": 45.491532,
+      "lng": 11.435633
+    },
+    {
+      "id": "b747bd4c-09d4-4fdc-9c15-533b2dcec491",
+      "slug": "hotel-giada-viale-del-sole-altavilla-vicentina",
+      "nome": "Hotel Giada Viale del Sole",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Viale del Sole, 142, 36100 Vicenza VI",
+      "lat": 45.550996,
+      "lng": 11.511783
+    },
+    {
+      "id": "afa85c2f-a46e-4bc8-a3f4-ea47cad51fb5",
+      "slug": "hotel-locanda-botella-altavilla-vicentina",
+      "nome": "Hotel Locanda Botella",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Via S. Bernardino, 69, 36075 Montecchio Maggiore VI",
+      "lat": 45.507707,
+      "lng": 11.404288
+    },
+    {
+      "id": "224e5e03-3d00-45a9-97d0-004a2c861670",
+      "slug": "hotel-new-genziana-altavilla-vicentina",
+      "nome": "Hotel New Genziana",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Via G. Mazzini, 75, 36077 Altavilla Vicentina VI",
+      "lat": 45.495713,
+      "lng": 11.452133
+    },
+    {
+      "id": "d55a8f3c-f8eb-40e2-ab54-08eaa0b04c72",
+      "slug": "key-hotel-vicenza-altavilla-vicentina",
+      "nome": "Key Hotel Vicenza",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "V.le G. Trissino, 89, 36100 Vicenza VI",
+      "lat": 45.545042,
+      "lng": 11.557356
+    },
+    {
+      "id": "f06c4b6b-7f48-44bf-ad22-daafdfa0c72f",
+      "slug": "l-abbraccio-della-vigna-alloggio-agrituristico-a-altavilla-vicentina",
+      "nome": "L'Abbraccio della Vigna - Alloggio Agrituristico - Agriturismo",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Via Selva Alta, 1, 36075 Montecchio Maggiore VI",
+      "lat": 45.49498,
+      "lng": 11.454373
+    },
+    {
+      "id": "ae40e817-9893-4ecf-b4ad-13aa76f9fe2b",
+      "slug": "locanda-degli-ulivi-hotel-e-ristorante-sui-colli-altavilla-vicentina",
+      "nome": "Locanda Degli Ulivi (Hotel e Ristorante sui Colli Berici) - Arcugnano (VI)",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Via S. Giustina, 6, 36057 Arcugnano VI",
+      "lat": 45.495644,
+      "lng": 11.528284
+    },
+    {
+      "id": "d0e72b49-f288-49b1-84a2-68a84023f25f",
+      "slug": "ostello-olimpico-vicenza-altavilla-vicentina",
+      "nome": "Ostello Olimpico Vicenza",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Viale Antonio Giuriolo, 7/9, 36100 Vicenza VI",
+      "lat": 45.54846,
+      "lng": 11.55017
+    },
+    {
+      "id": "189b56d5-8a86-4ac1-9a68-376f7d69ad36",
+      "slug": "palace-hotel-la-conchiglia-d-oro-altavilla-vicentina",
+      "nome": "Palace Hotel La Conchiglia d'Oro",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Via Bassano, 7, 36100 Vicenza VI",
+      "lat": 45.542801,
+      "lng": 11.558638
+    },
+    {
+      "id": "6f560b43-de4b-490d-8efd-c21ed1f3265e",
+      "slug": "ristorante-crichelon-altavilla-vicentina",
+      "nome": "Ristorante Crichelon",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Via Napoleone Bonaparte, 4, 36077 Altavilla Vicentina VI",
+      "lat": 45.496956,
+      "lng": 11.490228
+    },
+    {
+      "id": "9faa12ce-a72a-4095-a92e-02fdb2403491",
+      "slug": "shg-hotel-de-la-ville-altavilla-vicentina",
+      "nome": "SHG Hotel De La Ville",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Viale Verona, 12, 36100 Vicenza VI",
+      "lat": 45.542936,
+      "lng": 11.528225
+    },
+    {
+      "id": "6201939a-02cd-4737-aef5-b0d6c381d609",
+      "slug": "valmarana-morosini-hotel-altavilla-vicentina",
+      "nome": "Valmarana Morosini Hotel",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "Via G. Marconi, 97, 36077 Altavilla Vicentina VI",
+      "lat": 45.509142,
+      "lng": 11.467394
+    },
+    {
+      "id": "6aedce70-0fd6-4b0b-9459-e6413e99d8c8",
+      "slug": "villa-valmarana-de-toni-dimora-storica-altavilla-vicentina",
+      "nome": "Villa Valmarana De Toni-Dimora Storica",
+      "city_name": "Altavilla Vicentina",
+      "indirizzo": "villavalmaranadetoni@gmail.com, Via IV Novembre, 13, 36051 Creazzo VI",
+      "lat": 45.534996,
+      "lng": 11.473187
+    },
+    {
+      "id": "0a55ac31-8b26-4d00-8a96-e499aff74ad8",
+      "slug": "acquarello-altidona",
+      "nome": "Acquarello",
+      "city_name": "Altidona",
+      "indirizzo": "Contrada Acquarello, 10/11, 63868 Lapedona FM",
+      "lat": 43.115178,
+      "lng": 13.79315
+    }
+  ]
+}

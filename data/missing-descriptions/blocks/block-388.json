@@ -1,0 +1,323 @@
+{
+  "block": 388,
+  "blockId": "388",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "80f5165a-e074-4525-9ef2-f0fedea5da6f",
+      "slug": "hotel-wieser-campo-di-trens-freienfeld",
+      "nome": "Hotel Wieser",
+      "city_name": "Campo di Trens/Freienfeld",
+      "indirizzo": "Frazione Stilfes, 55, 39040 Campo di Trens BZ",
+      "lat": 46.866389,
+      "lng": 11.479167
+    },
+    {
+      "id": "0fe9737b-6302-487b-8d92-45141bc85c0b",
+      "slug": "leitenhof-campo-di-trens-freienfeld",
+      "nome": "Leitenhof",
+      "city_name": "Campo di Trens/Freienfeld",
+      "indirizzo": "Afens 279/A, 39049 Val di Vizze BZ",
+      "lat": 46.917358,
+      "lng": 11.51535
+    },
+    {
+      "id": "3cd4b35b-0ef3-4710-9489-41885602c698",
+      "slug": "naturhotel-rainer-campo-di-trens-freienfeld",
+      "nome": "Naturhotel Rainer",
+      "city_name": "Campo di Trens/Freienfeld",
+      "indirizzo": "Jaufental, Mittertal 48, 39040 Racines BZ",
+      "lat": 46.854499,
+      "lng": 11.386933
+    },
+    {
+      "id": "27d2505e-a9b2-42cb-9f71-209dfcb6eb8e",
+      "slug": "pension-wiesenhof-campo-di-trens-freienfeld",
+      "nome": "Pension Wiesenhof",
+      "city_name": "Campo di Trens/Freienfeld",
+      "indirizzo": "Località Fuldres, 23, 39040 Fuldres BZ",
+      "lat": 46.852933,
+      "lng": 11.503761
+    },
+    {
+      "id": "8df08ed5-36be-4afd-8c97-7909e9281e77",
+      "slug": "romantik-hotel-restaurant-stafler-campo-di-trens-freienfeld",
+      "nome": "Romantik Hotel & Restaurant Stafler",
+      "city_name": "Campo di Trens/Freienfeld",
+      "indirizzo": "Via Mules, 10, 39040 Vipiteno BZ",
+      "lat": 46.851081,
+      "lng": 11.520645
+    },
+    {
+      "id": "0a29f166-491d-4226-ab8d-2f13bdd67d77",
+      "slug": "sporthotel-zoll-campo-di-trens-freienfeld",
+      "nome": "Sporthotel Zoll",
+      "city_name": "Campo di Trens/Freienfeld",
+      "indirizzo": "Via Brennero, 48/a, 39049 Vipiteno BZ",
+      "lat": 46.913717,
+      "lng": 11.441987
+    },
+    {
+      "id": "ee0d509b-ed1c-4b71-8f8c-d1191354cdc9",
+      "slug": "wirtshaus-hotel-lener-campo-di-trens-freienfeld",
+      "nome": "Wirtshaus & Hotel Lener",
+      "city_name": "Campo di Trens/Freienfeld",
+      "indirizzo": "Via Blieger, 2, 39040 Campo di Trens BZ",
+      "lat": 46.871861,
+      "lng": 11.483002
+    },
+    {
+      "id": "6abf2620-9da8-4e11-871b-aeb918b66292",
+      "slug": "agriturismo-gli-orti-di-bertin-camping-e-b-b-e-c-campo-ligure",
+      "nome": "Agriturismo Gli Orti di Bertin : Camping e B&B e Centro Eventi in Liguria",
+      "city_name": "Campo Ligure",
+      "indirizzo": "Via Valle Ponzema, 175, 16013 Campo Ligure GE",
+      "lat": 44.527238,
+      "lng": 8.715793
+    },
+    {
+      "id": "d9118751-e3e3-4550-abad-900304cbfda0",
+      "slug": "albergo-eco-del-mare-campo-ligure",
+      "nome": "Albergo Eco del Mare",
+      "city_name": "Campo Ligure",
+      "indirizzo": "Via Madonnina Inferiore, 5, 16016 Cogoleto GE",
+      "lat": 44.391197,
+      "lng": 8.660338
+    },
+    {
+      "id": "91c59ace-a9db-4114-bb9e-dd1dc5bf8f49",
+      "slug": "albergo-villa-margherita-campo-ligure",
+      "nome": "Albergo Villa Margherita",
+      "city_name": "Campo Ligure",
+      "indirizzo": "Via Francia, 39, 16010 Tiglieto GE",
+      "lat": 44.529888,
+      "lng": 8.626645
+    },
+    {
+      "id": "226c6777-4404-43bd-94e5-8de362859c0a",
+      "slug": "casa-del-pellegrino-campo-ligure",
+      "nome": "CASA DEL PELLEGRINO",
+      "city_name": "Campo Ligure",
+      "indirizzo": "Piazza Santuario della Guardia, 30, 16014 Ceranesi GE",
+      "lat": 44.490671,
+      "lng": 8.861993
+    },
+    {
+      "id": "81901928-24b0-4707-967b-8663be8fc80d",
+      "slug": "hotel-ristorante-la-pineta-campo-ligure",
+      "nome": "Hotel Ristorante La Pineta",
+      "city_name": "Campo Ligure",
+      "indirizzo": "Via al Deserto, 2, 16016 Cogoleto GE",
+      "lat": 44.397653,
+      "lng": 8.612325
+    },
+    {
+      "id": "14bb093c-90ff-4cbe-a480-87390e7e786c",
+      "slug": "hotel-serafino-campo-ligure",
+      "nome": "Hotel Serafino",
+      "city_name": "Campo Ligure",
+      "indirizzo": "Via Verona, 8, 16152 Genova GE",
+      "lat": 44.414685,
+      "lng": 8.869313
+    },
+    {
+      "id": "c0c1a554-adf5-4da3-95ef-d99661d85580",
+      "slug": "hotel-sirenella-campo-ligure",
+      "nome": "Hotel Sirenella",
+      "city_name": "Campo Ligure",
+      "indirizzo": "Via Don Giovanni Verità, 4/R, 16158 Genova GE",
+      "lat": 44.427892,
+      "lng": 8.754663
+    },
+    {
+      "id": "9ecaadf0-75e6-465d-bd03-e4760351be29",
+      "slug": "il-glicine-b-b-molare-campo-ligure",
+      "nome": "Il Glicine B&B Molare",
+      "city_name": "Campo Ligure",
+      "indirizzo": "Aperto da Marzo a Dicembre, CIN IT006095C1ESLCFTMZ, Via Michele Bonaria, 2, 15074 Molare AL",
+      "lat": 44.619682,
+      "lng": 8.598202
+    },
+    {
+      "id": "04ce6839-c594-45fd-93fc-bc489b3f5f4a",
+      "slug": "la-buscarella-campo-ligure",
+      "nome": "La Buscarella",
+      "city_name": "Campo Ligure",
+      "indirizzo": "Via Pian del Rosso, 23, 16013 Campo Ligure GE",
+      "lat": 44.539236,
+      "lng": 8.704589
+    },
+    {
+      "id": "f9914e36-06c6-4002-9fb5-f7f6c15a9693",
+      "slug": "nonno-toni-campo-ligure",
+      "nome": "Nonno Toni",
+      "city_name": "Campo Ligure",
+      "indirizzo": "Via della Giustizia, 8, 16013 Campo Ligure GE",
+      "lat": 44.537328,
+      "lng": 8.698606
+    },
+    {
+      "id": "a1903137-591b-4b5d-8030-2cb335284032",
+      "slug": "rifugio-nido-del-biancone-campo-ligure",
+      "nome": "Rifugio Nido del Biancone",
+      "city_name": "Campo Ligure",
+      "indirizzo": "SP165, 15060 Capanne di Marcarolo AL",
+      "lat": 44.548439,
+      "lng": 8.772165
+    },
+    {
+      "id": "a013018d-6a5f-400f-b480-8fc5b45c5f52",
+      "slug": "turchino-campo-ligure",
+      "nome": "Turchino",
+      "city_name": "Campo Ligure",
+      "indirizzo": "Via Isola Giugno, n°109, 16013 Campo Ligure GE",
+      "lat": 44.519005,
+      "lng": 8.700306
+    },
+    {
+      "id": "41ae9232-94d7-416f-86af-ae3c4391f40d",
+      "slug": "club-hotel-marina-2-campo-nell-elba",
+      "nome": "Club Hotel Marina 2",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Traversa di Via Segagnana, 245, 57034 Campo nell'Elba LI",
+      "lat": 42.753145,
+      "lng": 10.249636
+    },
+    {
+      "id": "32074587-0c58-4bd4-a917-49083466d767",
+      "slug": "eco-hotel-montemerlo-campo-nell-elba",
+      "nome": "Eco Hotel Montemerlo",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Via del Canaletto, 240, 57034 Fetovaia LI",
+      "lat": 42.734797,
+      "lng": 10.148379
+    },
+    {
+      "id": "9e244419-7ce1-4aed-ae40-396aa28e2682",
+      "slug": "elba-vibe-smart-hotel-campo-nell-elba",
+      "nome": "Elba Vibe Smart Hotel",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Via per Portoferraio, 2978, 57034 Campo nell'Elba LI",
+      "lat": 42.76918,
+      "lng": 10.238135
+    },
+    {
+      "id": "04eed7ec-73fd-4dd4-a63d-12b6b560b721",
+      "slug": "hotel-anna-campo-nell-elba",
+      "nome": "Hotel Anna",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "via del canaletto, località Fetovaia, 215/c, 57034 Fetovaia LI",
+      "lat": 42.735115,
+      "lng": 10.149483
+    },
+    {
+      "id": "e80593f5-8798-43ef-99b2-5132b5416d7e",
+      "slug": "hotel-b-b-la-conchiglia-campo-nell-elba",
+      "nome": "Hotel b&b La Conchiglia",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Loc. Cavoli, 57034 Campo nell'Elba LI",
+      "lat": 42.737211,
+      "lng": 10.187641
+    },
+    {
+      "id": "c3341e1b-e79e-4aaa-a938-835fbd566896",
+      "slug": "hotel-da-fine-campo-nell-elba",
+      "nome": "Hotel da Fine",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Via Vallebuia, 4, 57034 Seccheto LI",
+      "lat": 42.737459,
+      "lng": 10.175038
+    },
+    {
+      "id": "e01d6551-815d-4978-a14f-c1a2e2ce113b",
+      "slug": "hotel-eden-park-campo-nell-elba",
+      "nome": "Hotel Eden Park",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Via Pian di Mezzo, 917, 57034 Marina di Campo LI",
+      "lat": 42.757059,
+      "lng": 10.22478
+    },
+    {
+      "id": "61e9569a-7d68-440f-b259-99916b58f424",
+      "slug": "hotel-elba-campo-nell-elba",
+      "nome": "Hotel Elba",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Via Vecchia Aurelia, 301, 57016 Rosignano Marittimo LI",
+      "lat": 43.388181,
+      "lng": 10.437384
+    },
+    {
+      "id": "448b4bba-bef0-41ae-aabf-6370bfc5b26f",
+      "slug": "hotel-galli-wellness-spa-campo-nell-elba",
+      "nome": "HOTEL GALLI - WELLNESS & SPA",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Via Fetovaia, 115, 57034 Campo nell'Elba LI",
+      "lat": 42.73471,
+      "lng": 10.151375
+    },
+    {
+      "id": "9a4af892-bb9b-4b5f-a2ba-b83cdb73fec4",
+      "slug": "hotel-la-stella-campo-nell-elba",
+      "nome": "Hotel la Stella",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Via della Costa, 6639, 57034 Seccheto LI",
+      "lat": 42.735567,
+      "lng": 10.175619
+    },
+    {
+      "id": "bcf5670e-4a44-44da-b15e-01e559b0ef98",
+      "slug": "hotel-lilly-campo-nell-elba",
+      "nome": "Hotel Lilly",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Viale degli Etruschi, 333, 57034 Marina di Campo LI",
+      "lat": 42.750697,
+      "lng": 10.237861
+    },
+    {
+      "id": "a0db12fa-6a3d-432f-99b6-1a83ba7cc673",
+      "slug": "hotel-lo-scirocco-campo-nell-elba",
+      "nome": "Hotel Lo Scirocco",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Via Fetovaia, 84, 57034 Campo nell'Elba LI",
+      "lat": 42.734808,
+      "lng": 10.151787
+    },
+    {
+      "id": "b450a270-7d31-4b69-b7a2-6294f49c3df9",
+      "slug": "hotel-mirage-marina-di-campo-campo-nell-elba",
+      "nome": "Hotel Mirage - Marina di Campo",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Viale degli Etruschi, 405, 57034 Campo nell'Elba LI",
+      "lat": 42.751011,
+      "lng": 10.23858
+    },
+    {
+      "id": "563e7074-8de5-43fe-99e1-e3d17b8872b6",
+      "slug": "hotel-santa-caterina-isola-d-elba-campo-nell-elba",
+      "nome": "Hotel Santa Caterina - Isola d'Elba",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Viale Elba, 85, 57034 Marina di Campo LI",
+      "lat": 42.750806,
+      "lng": 10.235603
+    },
+    {
+      "id": "0ce31934-92c8-4290-9710-813f4fb38e80",
+      "slug": "hotel-sardi-campo-nell-elba",
+      "nome": "Hotel Sardi",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Via del Maestrale, 1, 57030 Pomonte LI",
+      "lat": 42.748411,
+      "lng": 10.119097
+    },
+    {
+      "id": "65275e7a-1232-4d65-a3d1-afe8ee6e56d7",
+      "slug": "hotel-villa-etrusca-campo-nell-elba",
+      "nome": "Hotel Villa Etrusca",
+      "city_name": "Campo nell'Elba",
+      "indirizzo": "Viale degli Etruschi, 283, 57034 Campo nell'Elba LI",
+      "lat": 42.750486,
+      "lng": 10.237539
+    }
+  ]
+}

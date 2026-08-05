@@ -1,0 +1,323 @@
+{
+  "block": 309,
+  "blockId": "309",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "6e9643da-1244-4fe5-9560-b5b110347ae3",
+      "slug": "bosa-queen-house-bosa",
+      "nome": "Bosa Queen House",
+      "city_name": "Bosa",
+      "indirizzo": "Via del Carmine, 125, 09089 Bosa OR",
+      "lat": 40.296125,
+      "lng": 8.502547
+    },
+    {
+      "id": "88c8e4a8-e14e-41c0-af0a-98eae4a9ca42",
+      "slug": "carlo-s-house-bosa",
+      "nome": "Carlo's House",
+      "city_name": "Bosa",
+      "indirizzo": "Via A. Lamarmora, 42, 09089 Bosa OR",
+      "lat": 40.298899,
+      "lng": 8.500386
+    },
+    {
+      "id": "55258d99-5cce-4c47-8d33-0cb2c90041e6",
+      "slug": "corte-fiorita-albergo-diffuso-bosa",
+      "nome": "Corte Fiorita Albergo Diffuso",
+      "city_name": "Bosa",
+      "indirizzo": "Lungo Temo Alcide De Gasperi, 45, 09089 Bosa OR",
+      "lat": 40.295183,
+      "lng": 8.501945
+    },
+    {
+      "id": "9b5144d4-71a5-4881-97f3-18b132dc988d",
+      "slug": "guesthouse-di-giuseppe-bosa",
+      "nome": "Guesthouse di Giuseppe",
+      "city_name": "Bosa",
+      "indirizzo": "Via Montenegro, 81A, 09089 Bosa OR",
+      "lat": 40.296096,
+      "lng": 8.50369
+    },
+    {
+      "id": "38a00569-6c79-4ae8-b542-11474b03dac9",
+      "slug": "hotel-isola-rossa-residenziale-bosa",
+      "nome": "Hotel Isola Rossa Residenziale",
+      "city_name": "Bosa",
+      "indirizzo": "Località Campu'e Mare, 09089 Bosa OR",
+      "lat": 40.288299,
+      "lng": 8.485077
+    },
+    {
+      "id": "5e1e8a79-ac35-47ef-b1c5-a3be39041a45",
+      "slug": "hotel-palazzo-pischedda-bosa-bosa",
+      "nome": "HOTEL PALAZZO PISCHEDDA BOSA",
+      "city_name": "Bosa",
+      "indirizzo": "Via Roma, 20, 09089 Bosa OR",
+      "lat": 40.293516,
+      "lng": 8.503342
+    },
+    {
+      "id": "5a7207fb-8e6e-4d48-8934-108d401bc8bd",
+      "slug": "hotel-ristorante-mannu-bosa",
+      "nome": "Hotel Ristorante Mannu",
+      "city_name": "Bosa",
+      "indirizzo": "Viale Alghero, 28, 08013 Bosa OR",
+      "lat": 40.297451,
+      "lng": 8.490039
+    },
+    {
+      "id": "6bfd68f4-b040-4133-b456-b80a4c14962f",
+      "slug": "la-terrazza-del-sole-guest-house-bosa",
+      "nome": "La Terrazza del Sole Guest House",
+      "city_name": "Bosa",
+      "indirizzo": "Viale della Repubblica, 2, 09080 Bosa OR",
+      "lat": 40.297196,
+      "lng": 8.494763
+    },
+    {
+      "id": "e09867e2-79b3-4c0b-b5a0-c400fb196a6d",
+      "slug": "madalen-guest-house-bosa",
+      "nome": "Madalen Guest House",
+      "city_name": "Bosa",
+      "indirizzo": "Corso Vittorio Emanuele II, Piazza Costituzione, 69, 09089 Bosa OR",
+      "lat": 40.295975,
+      "lng": 8.501314
+    },
+    {
+      "id": "27994905-9790-42da-b4e2-aac7e311014b",
+      "slug": "osa-rooms-bosa",
+      "nome": "Osa rooms",
+      "city_name": "Bosa",
+      "indirizzo": "Via Chiassuolo, 15, 09089 Bosa OR",
+      "lat": 40.296651,
+      "lng": 8.502141
+    },
+    {
+      "id": "4a00d3a4-fe8a-41a9-a7be-23a1d7eb5446",
+      "slug": "park-garden-guest-house-bosa",
+      "nome": "Park Garden Guest House",
+      "city_name": "Bosa",
+      "indirizzo": "Via degli Artigiani, 3, 09089 Bosa OR",
+      "lat": 40.291871,
+      "lng": 8.502827
+    },
+    {
+      "id": "875239a7-a19f-47bb-8387-82212d0dbf36",
+      "slug": "regnos-altos-boutique-rooms-bosa",
+      "nome": "Regnos Altos Boutique Rooms",
+      "city_name": "Bosa",
+      "indirizzo": "Via del Carmine, 99, 09089 Bosa OR",
+      "lat": 40.295801,
+      "lng": 8.503211
+    },
+    {
+      "id": "ee9858bf-5179-4bbc-8f6d-e93da87b442d",
+      "slug": "sporting-hotel-stella-maris-bosa",
+      "nome": "Sporting Hotel Stella Maris",
+      "city_name": "Bosa",
+      "indirizzo": "Via C. Colombo, 9, 09089 Bosa Marina OR",
+      "lat": 40.291521,
+      "lng": 8.479199
+    },
+    {
+      "id": "d7a4bea3-78a5-4611-8ba6-11ffe2873d34",
+      "slug": "albergo-ristorante-leso-1815-bosco-chiesanuova",
+      "nome": "Albergo Ristorante Leso 1815",
+      "city_name": "Bosco Chiesanuova",
+      "indirizzo": "Piazza XIII Comuni, 32, 37021 Bosco Chiesanuova VR",
+      "lat": 45.624486,
+      "lng": 11.052587
+    },
+    {
+      "id": "37abb045-c0ed-4659-91fb-5960b000b4f4",
+      "slug": "araldo-eco-lodge-bosco-chiesanuova",
+      "nome": "Araldo Eco-Lodge",
+      "city_name": "Bosco Chiesanuova",
+      "indirizzo": "Via Carcereri, 22, 37021 Bosco Chiesanuova VR",
+      "lat": 45.580244,
+      "lng": 11.042236
+    },
+    {
+      "id": "9bc746f5-2fe6-459b-9777-161bbf96adc8",
+      "slug": "b-b-il-pettirosso-bosco-chiesanuova",
+      "nome": "B & B Il Pettirosso",
+      "city_name": "Bosco Chiesanuova",
+      "indirizzo": "Via Moron, 38, 37024 Negrar di Valpolicella VR",
+      "lat": 45.519598,
+      "lng": 10.925753
+    },
+    {
+      "id": "98461c19-b8b2-42cb-b002-79a2c3f337c7",
+      "slug": "b-b-casamia-bosco-chiesanuova",
+      "nome": "b&b casamia",
+      "city_name": "Bosco Chiesanuova",
+      "indirizzo": "Via S. Urbano, 1G, 37024 Molina VR",
+      "lat": 45.612176,
+      "lng": 10.911596
+    },
+    {
+      "id": "66f9a9e2-c126-43d7-96e2-e3d957a0a4d4",
+      "slug": "b-b-dalla-eli-bosco-chiesanuova",
+      "nome": "B&B dalla ELI",
+      "city_name": "Bosco Chiesanuova",
+      "indirizzo": "Via Farinata degli Uberti, 37021 Bosco Chiesanuova VR",
+      "lat": 45.616328,
+      "lng": 11.0233
+    },
+    {
+      "id": "7d9bff74-72ec-49c9-abe0-01f657a09d0e",
+      "slug": "bbmolina-bosco-chiesanuova",
+      "nome": "BBmolina",
+      "city_name": "Bosco Chiesanuova",
+      "indirizzo": "Via B. Bacilieri, 99, 37022 Molina VR",
+      "lat": 45.611666,
+      "lng": 10.911015
+    },
+    {
+      "id": "c5567ff0-7966-4851-98b2-2a8b77a30da9",
+      "slug": "corte-tre-vigne-bosco-chiesanuova",
+      "nome": "Corte Tre Vigne",
+      "city_name": "Bosco Chiesanuova",
+      "indirizzo": "Via S. Stefano, 10, 37020 Marano di Valpolicella VR",
+      "lat": 45.531971,
+      "lng": 10.910582
+    },
+    {
+      "id": "f83a5e45-0fbc-4159-b260-9c28de88e004",
+      "slug": "da-andrea-e-raffaella-bosco-chiesanuova",
+      "nome": "da Andrea e Raffaella",
+      "city_name": "Bosco Chiesanuova",
+      "indirizzo": "Via Maso di Cerna, 7, 37020 Sant'Anna d'Alfaedo VR",
+      "lat": 45.589943,
+      "lng": 10.93835
+    },
+    {
+      "id": "ad95da4d-7e9a-4c4b-810c-7348df2586cf",
+      "slug": "dormire-alla-ruota-bosco-chiesanuova",
+      "nome": "Dormire alla Ruota",
+      "city_name": "Bosco Chiesanuova",
+      "indirizzo": "Via S. Marco, 7, 37020 Verona VR",
+      "lat": 45.562606,
+      "lng": 10.958063
+    },
+    {
+      "id": "460672af-ba1b-440b-ae94-e0764687b75e",
+      "slug": "hotel-lessinia-bosco-chiesanuova",
+      "nome": "Hotel Lessinia",
+      "city_name": "Bosco Chiesanuova",
+      "indirizzo": "Piazza Alpini, 3, 37021 Bosco Chiesanuova VR",
+      "lat": 45.619838,
+      "lng": 11.035646
+    },
+    {
+      "id": "41fd55dc-9c46-4589-bc45-96f50d7d2c0f",
+      "slug": "hotel-ristorante-casa-leon-d-oro-bosco-chiesanuova",
+      "nome": "Hotel Ristorante Casa Leon d’Oro",
+      "city_name": "Bosco Chiesanuova",
+      "indirizzo": "Piazza Guglielmo Marconi, 45, 37021 Bosco Chiesanuova VR",
+      "lat": 45.622643,
+      "lng": 11.030407
+    },
+    {
+      "id": "b62df049-eaa7-49cc-a826-dd764482f34f",
+      "slug": "hotel-ristorante-frizzolan-bosco-chiesanuova",
+      "nome": "Hotel Ristorante Frizzolan",
+      "city_name": "Bosco Chiesanuova",
+      "indirizzo": "Piazza Borgo, 5, 37021 Bosco Chiesanuova VR",
+      "lat": 45.62198,
+      "lng": 11.03049
+    },
+    {
+      "id": "f896f2fe-ba5c-492f-a954-e011ac383202",
+      "slug": "hotel-ristorante-piccola-mantova-bosco-chiesanuova",
+      "nome": "Hotel Ristorante Piccola Mantova",
+      "city_name": "Bosco Chiesanuova",
+      "indirizzo": "Via Aleardo Aleardi, 12, 37021 Bosco Chiesanuova VR",
+      "lat": 45.622791,
+      "lng": 11.017909
+    },
+    {
+      "id": "9abfc794-c5e1-4cd5-afc8-76d820aa249a",
+      "slug": "le-camere-della-bice-bosco-chiesanuova",
+      "nome": "Le Camere Della Bice",
+      "city_name": "Bosco Chiesanuova",
+      "indirizzo": "Contrada Bottega, 2, 37020 Negrar di Valpolicella VR",
+      "lat": 45.559753,
+      "lng": 10.938317
+    },
+    {
+      "id": "e64b2fd9-a00a-4b47-bb49-0984b962a354",
+      "slug": "locanda-alla-porchetta-bosco-chiesanuova",
+      "nome": "Locanda Alla Porchetta",
+      "city_name": "Bosco Chiesanuova",
+      "indirizzo": "Via S. Peretto, 18, 37024 Negrar di Valpolicella VR",
+      "lat": 45.528751,
+      "lng": 10.950694
+    },
+    {
+      "id": "129f2e8c-0752-447e-a0b4-4e1a680d3782",
+      "slug": "ongar-relax-bosco-chiesanuova",
+      "nome": "Ongar Relax",
+      "city_name": "Bosco Chiesanuova",
+      "indirizzo": "Contrada Ongar, 37021 Bosco Chiesanuova VR",
+      "lat": 45.629204,
+      "lng": 11.029911
+    },
+    {
+      "id": "cdb60ba3-6967-4b77-9176-9372e1d30ff8",
+      "slug": "casa-lidia-gavi-bosco-marengo",
+      "nome": "Casa Lidia Gavi",
+      "city_name": "Bosco Marengo",
+      "indirizzo": "Frazione Rovereto, 65, 15066 Gavi AL",
+      "lat": 44.70744,
+      "lng": 8.76549
+    },
+    {
+      "id": "eee621b8-98d4-4ad7-8596-96af72e2e814",
+      "slug": "cascina-folletto-bosco-marengo",
+      "nome": "Cascina Folletto",
+      "city_name": "Bosco Marengo",
+      "indirizzo": "SC Veneziana, 9, 15057 Tortona AL",
+      "lat": 44.812384,
+      "lng": 8.820122
+    },
+    {
+      "id": "c2664229-32cb-4181-814f-ab80e94c6158",
+      "slug": "cascina-merlanetta-agriturismo-fattoria-didattic-bosco-marengo",
+      "nome": "Cascina Merlanetta - Agriturismo & Fattoria didattica",
+      "city_name": "Bosco Marengo",
+      "indirizzo": "Via Ovada, 42, 15072 Casal Cermelli AL",
+      "lat": 44.82115,
+      "lng": 8.633392
+    },
+    {
+      "id": "372a53c3-a914-4ff6-9135-28a2ac04c8ed",
+      "slug": "fattoria-del-soul-bosco-marengo",
+      "nome": "Fattoria del Soul",
+      "city_name": "Bosco Marengo",
+      "indirizzo": "Via Ovada, 111, 15072 Portanuova AL",
+      "lat": 44.803218,
+      "lng": 8.635106
+    },
+    {
+      "id": "c2a41f1d-936c-41ee-afcc-0556dcb2abb7",
+      "slug": "la-cascina-grossa-bosco-marengo",
+      "nome": "La Cascina Grossa",
+      "city_name": "Bosco Marengo",
+      "indirizzo": "Via Antonio Gramsci, 2 in, 15122 Cascinagrossa AL",
+      "lat": 44.87919,
+      "lng": 8.719846
+    },
+    {
+      "id": "33765a85-278d-47cb-949a-889e4c7232a8",
+      "slug": "lacetoliera-b-b-casa-storica-bosco-marengo",
+      "nome": "Lacetoliera b&b casa storica",
+      "city_name": "Bosco Marengo",
+      "indirizzo": "Via V. Ricci, 15062 Bosco Marengo AL",
+      "lat": 44.820131,
+      "lng": 8.678693
+    }
+  ]
+}

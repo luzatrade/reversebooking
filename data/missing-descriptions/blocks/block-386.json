@@ -1,0 +1,323 @@
+{
+  "block": 386,
+  "blockId": "386",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "88ba2f56-bef1-4935-a10a-4dce332328ae",
+      "slug": "corte-colombarola-campione-d-italia",
+      "nome": "Corte Colombarola",
+      "city_name": "Campione d'Italia",
+      "indirizzo": "Via Campione, 12, 46031 Campione MN",
+      "lat": 45.076444,
+      "lng": 10.824658
+    },
+    {
+      "id": "bdaf5a42-d72c-464f-8d5f-04953e059ca3",
+      "slug": "gatto-in-vigna-campione-d-italia",
+      "nome": "Gatto in Vigna",
+      "city_name": "Campione d'Italia",
+      "indirizzo": "Via Cucco, 1, 31058 Susegana TV",
+      "lat": 45.875,
+      "lng": 12.207995
+    },
+    {
+      "id": "65da031c-c03e-4780-9fd7-696a2ac74e2c",
+      "slug": "grand-hotel-campione-campione-d-italia",
+      "nome": "Grand Hotel Campione",
+      "city_name": "Campione d'Italia",
+      "indirizzo": "Via Matteo da Campione, 2, 22061 Campione d'Italia CO",
+      "lat": 45.971975,
+      "lng": 8.97187
+    },
+    {
+      "id": "2d2ea157-b6a0-44cb-9eb2-7f93b7fed9c0",
+      "slug": "hotel-campione-campione-d-italia",
+      "nome": "Hotel Campione",
+      "city_name": "Campione d'Italia",
+      "indirizzo": "Via Campione 62, 6816 Bissone, Svizzera",
+      "lat": 45.961331,
+      "lng": 8.968838
+    },
+    {
+      "id": "9087657c-f373-4e70-8105-85b7cc86230c",
+      "slug": "masseria-camarda-campione-d-italia",
+      "nome": "Masseria Camarda",
+      "city_name": "Campione d'Italia",
+      "indirizzo": "Via Turco Camarda, 31, 72013 Ceglie Messapica BR",
+      "lat": 40.665771,
+      "lng": 17.551554
+    },
+    {
+      "id": "59f068dc-71a3-4db3-a884-763ee21e439f",
+      "slug": "my-italy-selection-agriturismo-italy-agriturismo-campione-d-italia",
+      "nome": "My Italy Selection | Agriturismo Italy | Agriturismo Tuscany",
+      "city_name": "Campione d'Italia",
+      "indirizzo": "P.za Cacciatori delle Alpi, 2, 22100 Como CO",
+      "lat": 45.81048,
+      "lng": 9.076926
+    },
+    {
+      "id": "f816c535-d9a6-4f7b-8d84-ad775384772a",
+      "slug": "residenza-lago-di-lugano-appartamenti-in-affitto-campione-d-italia",
+      "nome": "Residenza Lago di Lugano - Appartamenti in affitto a Bissone",
+      "city_name": "Campione d'Italia",
+      "indirizzo": "Via Campione 65, 6816 Bissone, Svizzera",
+      "lat": 45.961391,
+      "lng": 8.968125
+    },
+    {
+      "id": "d4b8dd71-a3fc-4cf2-a117-631c6832f9c3",
+      "slug": "suite-lago-relax-campione-d-italia",
+      "nome": "Suite Lago & Relax",
+      "city_name": "Campione d'Italia",
+      "indirizzo": "Via Totone, 36, 22061 Campione d'Italia CO",
+      "lat": 45.969455,
+      "lng": 8.973698
+    },
+    {
+      "id": "478c775e-9730-4dd7-97b9-45f9b08dc172",
+      "slug": "albergo-verda-val-campitello-di-fassa",
+      "nome": "Albergo Verda Val",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Strada, Strèda de Greva, 37, 38031 Campitello di Fassa TN",
+      "lat": 46.474978,
+      "lng": 11.740796
+    },
+    {
+      "id": "ca34d428-4487-441c-983f-8f99e9180392",
+      "slug": "alpenhotel-panorama-campitello-di-fassa",
+      "nome": "Alpenhotel Panorama",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Str. Ciadenac, 7, 38031 Campitello di Fassa TN",
+      "lat": 46.472612,
+      "lng": 11.735996
+    },
+    {
+      "id": "787c0104-77b7-472f-8592-33dfcadbb30d",
+      "slug": "aritz-garni-b-b-campitello-di-fassa",
+      "nome": "Aritz Garni B&B",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Strèda sot Ciapiaa, 6, 38031 Campitello di Fassa TN",
+      "lat": 46.474643,
+      "lng": 11.74246
+    },
+    {
+      "id": "38bd672c-1513-4d2a-9427-a93ab98be056",
+      "slug": "b-b-garni-villa-campitello-campitello-di-fassa",
+      "nome": "B&B Garnì Villa Campitello",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Strèda Roma, 2, 38032 Campitello di Fassa TN",
+      "lat": 46.475594,
+      "lng": 11.738516
+    },
+    {
+      "id": "36457c7c-0833-4a2b-a4a7-ae44419aef75",
+      "slug": "chalet-marcora-campitello-di-fassa",
+      "nome": "Chalet MARCORA",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Streda Dolomites, 99/101, 38031 Campitello di Fassa TN",
+      "lat": 46.477195,
+      "lng": 11.744273
+    },
+    {
+      "id": "3c8fbe30-5052-466c-94b2-8eb6ac1350e9",
+      "slug": "golden-park-resort-campitello-di-fassa",
+      "nome": "Golden Park Resort",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Strèda del Mèsc de Novacela, 341, 38030 Fontanazzo TN",
+      "lat": 46.471407,
+      "lng": 11.733551
+    },
+    {
+      "id": "2022732b-b49c-40f4-afbe-bf804f31540f",
+      "slug": "hotel-alpi-campitello-di-fassa",
+      "nome": "Hotel Alpi",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Dolomites, 24, 38031 Campitello di Fassa TN",
+      "lat": 46.47493,
+      "lng": 11.73947
+    },
+    {
+      "id": "d30e2f48-6dca-4c30-aa0e-d0236eb6228f",
+      "slug": "hotel-crepes-de-sela-campitello-di-fassa",
+      "nome": "Hotel Crepes De Sela",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Dolomites, 22, 38031 Campitello di Fassa TN",
+      "lat": 46.474558,
+      "lng": 11.739383
+    },
+    {
+      "id": "d26adb62-e6fd-4a7a-8563-7fe24d3c004b",
+      "slug": "hotel-diamant-campitello-campitello-di-fassa",
+      "nome": "Hotel Diamant Campitello",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Strèda sot Ciapiaa, 5, 38031 Campitello di Fassa TN",
+      "lat": 46.474224,
+      "lng": 11.742136
+    },
+    {
+      "id": "01f0ca99-4ab4-48c4-af72-fdcd4fc70759",
+      "slug": "hotel-flora-alpina-campitello-di-fassa",
+      "nome": "Hotel Flora Alpina",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Streda Dolomites, 8, 38031 Campitello di Fassa TN",
+      "lat": 46.473106,
+      "lng": 11.73598
+    },
+    {
+      "id": "869c62f2-0ace-4c64-9387-60fc2358fdcf",
+      "slug": "hotel-gran-chalet-soreghes-campitello-di-fassa",
+      "nome": "Hotel Gran Chalet Soreghes",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Strada De, Via Pent de Sera, 18, 38031 Campitello di Fassa TN",
+      "lat": 46.475354,
+      "lng": 11.74323
+    },
+    {
+      "id": "d23cfb3e-36e7-49d1-9401-e1e9152e2a51",
+      "slug": "hotel-gran-paradis-campitello-di-fassa",
+      "nome": "Hotel Gran Paradis",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Streda Dolomites, 6, 38031 Campitello di Fassa TN",
+      "lat": 46.473216,
+      "lng": 11.735007
+    },
+    {
+      "id": "b8369765-e757-4759-8815-bd4d1a1674c3",
+      "slug": "hotel-ladina-holiday-campitello-di-fassa",
+      "nome": "Hotel LADINA HOLIDAY",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Strèda de Pecei, 3, 38031 Campitello di Fassa TN",
+      "lat": 46.476156,
+      "lng": 11.741974
+    },
+    {
+      "id": "19f8a400-f182-4b5d-b637-d49492815828",
+      "slug": "hotel-medil-campitello-di-fassa",
+      "nome": "Hotel Medil",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Via Pent de Sera, 16, 38031 Campitello di Fassa TN",
+      "lat": 46.475016,
+      "lng": 11.742818
+    },
+    {
+      "id": "bae37668-e921-45c4-93d7-deed2d5590b8",
+      "slug": "hotel-ramon-campitello-di-fassa",
+      "nome": "Hotel Ramon",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Strèda sot Ciapiaa, 4, 38031 Campitello di Fassa TN",
+      "lat": 46.474717,
+      "lng": 11.743564
+    },
+    {
+      "id": "b51aea5a-e12f-4b14-94b3-800f354ad01a",
+      "slug": "hotel-salvan-con-spa-e-piscina-campitello-di-fassa",
+      "nome": "Hotel Salvan con spa e piscina",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Streda Dolomites, 10, 38031 Campitello di Fassa TN",
+      "lat": 46.473948,
+      "lng": 11.738005
+    },
+    {
+      "id": "d56b5960-166a-421d-8d0d-d3ffdb61604b",
+      "slug": "hotel-san-giusto-campitello-campitello-di-fassa",
+      "nome": "Hotel San Giusto Campitello",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Strèda Roma, 1, 38031 Campitello di Fassa TN",
+      "lat": 46.474899,
+      "lng": 11.738238
+    },
+    {
+      "id": "80879113-6bed-4d78-9bbe-a967c27bfa1e",
+      "slug": "hotel-sella-ronda-campitello-di-fassa",
+      "nome": "Hotel Sella Ronda",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Via Pent de Sera, 36, 38031 Campitello di Fassa TN",
+      "lat": 46.474541,
+      "lng": 11.743652
+    },
+    {
+      "id": "e1432de2-d821-4876-81a9-0597076cc730",
+      "slug": "hotel-stella-montis-campitello-di-fassa",
+      "nome": "Hotel Stella Montis",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Str. de Col da Fae, 56, 38031 Campitello di Fassa TN",
+      "lat": 46.477066,
+      "lng": 11.737283
+    },
+    {
+      "id": "424868e2-24c5-4d8a-bea0-02f69996148d",
+      "slug": "park-hotel-fedora-campitello-di-fassa",
+      "nome": "Park Hotel Fedora",
+      "city_name": "Campitello di Fassa",
+      "indirizzo": "Str. Veia, 18, 38031 Campitello di Fassa TN",
+      "lat": 46.47565,
+      "lng": 11.74494
+    },
+    {
+      "id": "0aadb864-c1e0-46e9-a649-f45cddd03f2e",
+      "slug": "albergo-rex-di-misantoni-g-e-a-c-campli",
+      "nome": "Albergo Rex di Misantoni G. e A. & C.",
+      "city_name": "Campli",
+      "indirizzo": "Via Cristoforo Colombo, 64100 Teramo TE",
+      "lat": 42.694391,
+      "lng": 13.788992
+    },
+    {
+      "id": "5785b2a1-03ad-4a48-9b4a-2631d7463076",
+      "slug": "albergo-ristorante-zio-mamo-campli",
+      "nome": "Albergo Ristorante Zio Mamo",
+      "city_name": "Campli",
+      "indirizzo": "Via Giuseppe Garibaldi, 8, 64015 Nereto TE",
+      "lat": 42.819664,
+      "lng": 13.817734
+    },
+    {
+      "id": "a52edbee-d9b3-4622-b78b-1782f0afc5ef",
+      "slug": "b-b-margarita-d-austria-campli",
+      "nome": "B&B Margarita D'Austria",
+      "city_name": "Campli",
+      "indirizzo": "Via Claudio Ferrucci, 10, 64012 Campli TE",
+      "lat": 42.727597,
+      "lng": 13.687172
+    },
+    {
+      "id": "d7eb218c-6c5e-4c0f-802b-16e5f3ad80c2",
+      "slug": "europa-hotel-campli",
+      "nome": "Europa Hotel",
+      "city_name": "Campli",
+      "indirizzo": "Viale Europa, 22, 64015 Nereto TE",
+      "lat": 42.81402,
+      "lng": 13.822034
+    },
+    {
+      "id": "cbb06b09-88f6-4e82-831b-dd1b94d59ed6",
+      "slug": "hotel-abruzzi-teramo-campli",
+      "nome": "HOTEL ABRUZZI Teramo",
+      "city_name": "Campli",
+      "indirizzo": "Viale Giuseppe Mazzini, 18, 64100 Teramo TE",
+      "lat": 42.659414,
+      "lng": 13.69714
+    },
+    {
+      "id": "f87c2c89-765b-4710-8255-624d26c7c156",
+      "slug": "hotel-remigio-i-campli",
+      "nome": "Hotel Remigio I",
+      "city_name": "Campli",
+      "indirizzo": "SP76, 64010 Località San Giacomo - Monte, TE",
+      "lat": 42.800489,
+      "lng": 13.57165
+    },
+    {
+      "id": "aca41fa3-bbc3-43f6-aa3b-ea7fc81df163",
+      "slug": "hotel-ristorante-fortezza-campli",
+      "nome": "Hotel Ristorante Fortezza",
+      "city_name": "Campli",
+      "indirizzo": "Corso Giuseppe Mazzini, 24, 64010 Civitella del Tronto TE",
+      "lat": 42.772294,
+      "lng": 13.668168
+    }
+  ]
+}

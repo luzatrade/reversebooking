@@ -1,0 +1,323 @@
+{
+  "block": 213,
+  "blockId": "213",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "4501e0d1-42f5-4e01-8cc5-d03734ff03d5",
+      "slug": "b-b-il-sasso-bianco-it012055c16cjvbt5t-barasso",
+      "nome": "B&B il Sasso Bianco IT012055C16CJVBT5T",
+      "city_name": "Barasso",
+      "indirizzo": "Via Streccione, 3, 21025 Comerio VA",
+      "lat": 45.837662,
+      "lng": 8.744315
+    },
+    {
+      "id": "c9d96287-8f0e-4310-830b-ccb3737605bb",
+      "slug": "b-b-tramonti-e-laghi-barasso",
+      "nome": "B&B TraMonti e Laghi",
+      "city_name": "Barasso",
+      "indirizzo": "Via Stazione, 3, 21025 Comerio VA",
+      "lat": 45.839404,
+      "lng": 8.747042
+    },
+    {
+      "id": "1e40cd61-a3ae-442f-bf88-395f4d5c2198",
+      "slug": "casale-del-cantico-barasso",
+      "nome": "CASALE DEL CANTICO",
+      "city_name": "Barasso",
+      "indirizzo": "Via Valcuvia, 2, 21030 Brenta VA",
+      "lat": 45.893472,
+      "lng": 8.681138
+    },
+    {
+      "id": "6cc19368-cb43-404a-a6e3-25258e431c65",
+      "slug": "los-perros-hermanos-barasso",
+      "nome": "Los Perros Hermanos",
+      "city_name": "Barasso",
+      "indirizzo": "Via Luigi Galvani, 16, 21028 Villaggio Ignis VA",
+      "lat": 45.801324,
+      "lng": 8.695329
+    },
+    {
+      "id": "479b5a58-9d1c-4bcb-94b8-7570f53bf371",
+      "slug": "via-dei-mari-guest-house-baratili-san-pietro",
+      "nome": "\"Via dei Mari\" Guest House",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "Via Case Sparse, 09170 Oristano OR",
+      "lat": 39.930612,
+      "lng": 8.578865
+    },
+    {
+      "id": "a4b88177-565b-4dc8-b712-990e43014192",
+      "slug": "40-parallelo-affittacamere-guesthouse-baratili-san-pietro",
+      "nome": "40º Parallelo Affittacamere/GuestHouse",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "Via Tiziano Vecellio, 11, 09070 Riola Sardo OR",
+      "lat": 39.990244,
+      "lng": 8.544055
+    },
+    {
+      "id": "8b76dc61-dfb6-493d-974e-6e07126e399b",
+      "slug": "affittacamere-shardana-baratili-san-pietro",
+      "nome": "Affittacamere Shardana",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "Via Sassari, 21, 09072 Cabras OR",
+      "lat": 39.927879,
+      "lng": 8.530843
+    },
+    {
+      "id": "a0c5476f-9719-4f62-a516-9b5c2b034c94",
+      "slug": "agriturismo-il-melograno-baratili-san-pietro",
+      "nome": "Agriturismo Il Melograno",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "Via G. Leopardi, 13, 09070 Riola Sardo OR",
+      "lat": 39.992685,
+      "lng": 8.53959
+    },
+    {
+      "id": "015a3ee2-797b-4a66-b298-01faf03c4094",
+      "slug": "agriturismo-la-cantina-baratili-san-pietro",
+      "nome": "Agriturismo La Cantina",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "Via Chiesa, 54, 09070 Baratili San Pietro OR",
+      "lat": 39.994421,
+      "lng": 8.553279
+    },
+    {
+      "id": "6e9db698-be15-4fc4-b110-a315cd6a2719",
+      "slug": "agriturismo-s-omu-baratili-san-pietro",
+      "nome": "Agriturismo S'Omu",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "Via Roma, 49-51, 09070 Baratili San Pietro OR",
+      "lat": 39.992964,
+      "lng": 8.554213
+    },
+    {
+      "id": "c54f8d56-c589-4f21-8de8-c5c66c8e3596",
+      "slug": "agriturismo-sa-crannaccia-baratili-san-pietro",
+      "nome": "Agriturismo Sa Crannaccia",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "Corso Amerigo Vespucci, 32, 09072 Cabras OR",
+      "lat": 39.929064,
+      "lng": 8.553099
+    },
+    {
+      "id": "b85cbae1-08aa-4b0c-91bf-f6a87a3cd6be",
+      "slug": "b-b-al-rimedio-baratili-san-pietro",
+      "nome": "B&B Al Rimedio",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "Via delle Grazie, 2, 09170 Oristano OR",
+      "lat": 39.92776,
+      "lng": 8.576587
+    },
+    {
+      "id": "0f67f95f-ad32-44b4-97b0-b1ed018d6931",
+      "slug": "b-b-marino-e-lily-baratili-san-pietro",
+      "nome": "B&B Marino E Lily",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "Via Grazia Deledda, 26, 09070 Baratili San Pietro OR",
+      "lat": 39.991144,
+      "lng": 8.551631
+    },
+    {
+      "id": "de7ff295-db71-4b3a-a658-7f9f6dcfeccd",
+      "slug": "b-b-rita-renzo-baratili-san-pietro",
+      "nome": "B&B Rita & Renzo",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "Via Roma, 11A, 09070 Riola Sardo OR",
+      "lat": 39.996055,
+      "lng": 8.53955
+    },
+    {
+      "id": "0d8bb94b-29d3-4d58-8d2e-56b4667076a0",
+      "slug": "gavino-baratili-san-pietro",
+      "nome": "Gavino",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "Via Roma, 104, 09070 Riola Sardo OR",
+      "lat": 39.993884,
+      "lng": 8.548087
+    },
+    {
+      "id": "2067a785-edc9-408f-a078-330b36d61677",
+      "slug": "gioia-guest-house-baratili-san-pietro",
+      "nome": "Gioia Guest House",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "6/A Via Salvator Anjelo de Castro, Via Regina Elena, 28, 09072 Cabras OR",
+      "lat": 39.93116,
+      "lng": 8.530689
+    },
+    {
+      "id": "1c9a2007-3119-43dd-8071-26b2eda6e206",
+      "slug": "hotel-lucrezia-baratili-san-pietro",
+      "nome": "Hotel Lucrezia",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "Via Roma, 14, 09070 Riola Sardo OR",
+      "lat": 39.995414,
+      "lng": 8.540286
+    },
+    {
+      "id": "ed0535f1-82ee-4af4-ae61-0e2c36bd695c",
+      "slug": "hotel-villa-canu-baratili-san-pietro",
+      "nome": "Hotel Villa Canu",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "Via Firenze, 9, 09072 Cabras OR",
+      "lat": 39.92913,
+      "lng": 8.529582
+    },
+    {
+      "id": "55b498d6-2f5b-4dd0-bd65-a0db6bed44a4",
+      "slug": "il-giglio-baratili-san-pietro",
+      "nome": "Il Giglio",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "SP9, 09170 Massama OR",
+      "lat": 39.945319,
+      "lng": 8.614917
+    },
+    {
+      "id": "f78ee816-c06d-48e5-842b-fc5cd0be6af3",
+      "slug": "la-casa-di-desideria-baratili-san-pietro",
+      "nome": "La Casa di Desideria",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "Via S. Pietro, 6, 09070 Baratili San Pietro OR",
+      "lat": 39.992052,
+      "lng": 8.559835
+    },
+    {
+      "id": "c92c19b6-fb02-47aa-8782-fc2d6236feef",
+      "slug": "s-apprigu-baratili-san-pietro",
+      "nome": "S'Apprigu",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "Via Roma, 34, 09072 Cabras OR",
+      "lat": 39.930398,
+      "lng": 8.528822
+    },
+    {
+      "id": "7898426f-0161-4a19-9b38-8c6094338c69",
+      "slug": "s-ommu-ezza-baratili-san-pietro",
+      "nome": "S'Ommu Ezza",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "Via Vittorio Emanuele III, 31, 09070 Narbolia OR",
+      "lat": 40.048645,
+      "lng": 8.576769
+    },
+    {
+      "id": "58b856bf-49c3-4fbf-bd36-e4b238780b87",
+      "slug": "sa-doa-baratili-san-pietro",
+      "nome": "Sa Doa",
+      "city_name": "Baratili San Pietro",
+      "indirizzo": "via Sebastiano Satta, Via Alessandro Manzoni, 3, 09070 Baratili San Pietro OR",
+      "lat": 39.992253,
+      "lng": 8.549766
+    },
+    {
+      "id": "6e462a1a-15ae-46e4-bad8-93aa3b25bb22",
+      "slug": "agriturismo-cascina-del-peso-barbania",
+      "nome": "Agriturismo Cascina Del Peso",
+      "city_name": "Barbania",
+      "indirizzo": "Via Lombardore, 306, 10040 Leini TO",
+      "lat": 45.215154,
+      "lng": 7.730647
+    },
+    {
+      "id": "5823da91-7fd0-4b7b-b39b-8e97f034e788",
+      "slug": "agriturismo-la-bedina-barbania",
+      "nome": "Agriturismo la Bedina",
+      "city_name": "Barbania",
+      "indirizzo": "Via Levone, 10080 Rivara TO",
+      "lat": 45.321386,
+      "lng": 7.626403
+    },
+    {
+      "id": "d9e64e33-6eb9-46c5-8022-16237fb1302e",
+      "slug": "albergo-sangri-la-barbania",
+      "nome": "Albergo Sangri-la'",
+      "city_name": "Barbania",
+      "indirizzo": "Via delle Valli, 10, 10074 Lanzo Torinese TO",
+      "lat": 45.271901,
+      "lng": 7.484471
+    },
+    {
+      "id": "09369b5e-8642-4267-965f-05845451df20",
+      "slug": "bed-breakfast-da-kate-barbania",
+      "nome": "Bed & Breakfast da Kate",
+      "city_name": "Barbania",
+      "indirizzo": "Via Principessa Jolanda, 11, 10090 Foglizzo TO",
+      "lat": 45.278048,
+      "lng": 7.822221
+    },
+    {
+      "id": "147dc582-98ce-4c8e-981e-b6bce4c9cb78",
+      "slug": "best-western-plus-hotel-le-rondini-barbania",
+      "nome": "Best Western Plus Hotel Le Rondini",
+      "city_name": "Barbania",
+      "indirizzo": "Via Parrocchia, 5, 10070 San Francesco Al Campo TO",
+      "lat": 45.224201,
+      "lng": 7.657216
+    },
+    {
+      "id": "cf94b105-4b53-403a-84c8-53a4baa3a6d3",
+      "slug": "dimora-a-corte-barbania",
+      "nome": "Dimora A Corte",
+      "city_name": "Barbania",
+      "indirizzo": "Via Torino, 2, 10075 Mathi TO",
+      "lat": 45.256526,
+      "lng": 7.543971
+    },
+    {
+      "id": "e1e6f7fd-c9a7-4669-94c5-29d8a33001c9",
+      "slug": "il-mulino-b-b-rivara-barbania",
+      "nome": "Il Mulino B&B Rivara",
+      "city_name": "Barbania",
+      "indirizzo": "Casale Molino, 1, 10080 Rivara TO",
+      "lat": 45.34209,
+      "lng": 7.62244
+    },
+    {
+      "id": "5434b2ff-73f3-4f6d-9f78-dd4da0a0318e",
+      "slug": "la-casa-dei-fiori-barbania",
+      "nome": "La casa dei fiori",
+      "city_name": "Barbania",
+      "indirizzo": "Via dei Fiori, 17, 10077 San Maurizio Canavese TO",
+      "lat": 45.219207,
+      "lng": 7.633218
+    },
+    {
+      "id": "594e6c30-5876-4864-a1ab-6d9ad079c8ca",
+      "slug": "via-ai-portici-suite-barbania",
+      "nome": "Via Ai Portici Suite",
+      "city_name": "Barbania",
+      "indirizzo": "Via Gibellini, 87, 10072 Caselle Torinese TO",
+      "lat": 45.17669,
+      "lng": 7.648544
+    },
+    {
+      "id": "a9e033ba-880f-4e2a-8751-ef0b6b7c0a19",
+      "slug": "agriturismo-b-b-cadabo-barbara",
+      "nome": "Agriturismo B&B Cadabò",
+      "city_name": "Barbara",
+      "indirizzo": "C.da Sant Angelo 4, 60036 Montecarotto AN",
+      "lat": 43.529448,
+      "lng": 13.104801
+    },
+    {
+      "id": "209d4775-f681-4063-9240-74359f49aede",
+      "slug": "agriturismo-il-bacucco-barbara",
+      "nome": "Agriturismo il Bacucco",
+      "city_name": "Barbara",
+      "indirizzo": "Contrada Bacucco, 11, 60036 Montecarotto AN",
+      "lat": 43.517852,
+      "lng": 13.056517
+    },
+    {
+      "id": "b8d8fa86-9fe7-48c1-b40f-8e43cacb6c9e",
+      "slug": "agriturismo-lo-sgorzolo-barbara",
+      "nome": "Agriturismo Lo Sgorzolo",
+      "city_name": "Barbara",
+      "indirizzo": "Via Montesecco, 67, 61045 Pergola PU",
+      "lat": 43.581154,
+      "lng": 12.900282
+    }
+  ]
+}

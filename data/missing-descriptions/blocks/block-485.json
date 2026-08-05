@@ -1,0 +1,323 @@
+{
+  "block": 485,
+  "blockId": "485",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "cf6b126b-ad8b-499a-8a24-3016d97d4668",
+      "slug": "white-suite-b-b-lecce-frazzan",
+      "nome": "White Suite B&B Lecce",
+      "city_name": "Frazzan�",
+      "indirizzo": "Via Antonello Coniger, 5, 73100 Lecce LE",
+      "lat": 40.354736,
+      "lng": 18.169592
+    },
+    {
+      "id": "d6695463-a901-472d-a6ca-34fccafba0b7",
+      "slug": "affittacamere-ilsoleventiquattrore-furci-siculo",
+      "nome": "Affittacamere ilsoleventiquattrore",
+      "city_name": "Furci Siculo",
+      "indirizzo": "Via Pasquale Simone Neri, 98023 Furci Siculo ME",
+      "lat": 37.961956,
+      "lng": 15.36767
+    },
+    {
+      "id": "835a9c02-c541-4c07-bbb6-72a68e6c9db8",
+      "slug": "la-zagara-b-b-furci-siculo",
+      "nome": "La Zagara B&B",
+      "city_name": "Furci Siculo",
+      "indirizzo": "Via Manzoni, 5, 98023 Furci Siculo ME",
+      "lat": 37.961487,
+      "lng": 15.382618
+    },
+    {
+      "id": "961032ed-8bb2-4bc2-b93f-dc7ca5c994cc",
+      "slug": "quattro-venti-furci-siculo",
+      "nome": "Quattro Venti",
+      "city_name": "Furci Siculo",
+      "indirizzo": "Via Calatafimi, 6, 98023 Furci Siculo ME",
+      "lat": 37.959107,
+      "lng": 15.380782
+    },
+    {
+      "id": "b31ddb9b-0854-4cf2-900f-89a5b30c5d43",
+      "slug": "agriturismo-agri-furnari",
+      "nome": "AGRITURISMO AGRI",
+      "city_name": "Furnari",
+      "indirizzo": "Contrada carone, Snc, 98054 Furnari ME",
+      "lat": 38.111328,
+      "lng": 15.101101
+    },
+    {
+      "id": "b394a600-ebe7-4bec-b723-00e02b719905",
+      "slug": "borgo-abacena-country-resort-furnari",
+      "nome": "Borgo Abacena Country Resort",
+      "city_name": "Furnari",
+      "indirizzo": "SP116, 98060 Tripi ME",
+      "lat": 38.086116,
+      "lng": 15.114093
+    },
+    {
+      "id": "df62ed06-5625-4760-bb93-6434d8912502",
+      "slug": "corallo-residence-portorosa-furnari",
+      "nome": "Corallo Residence Portorosa",
+      "city_name": "Furnari",
+      "indirizzo": "Complesso turistico Portorosa, Via Prestipaolo, 98054 Furnari ME",
+      "lat": 38.122111,
+      "lng": 15.114989
+    },
+    {
+      "id": "5e838472-423e-46af-b048-290172eced3c",
+      "slug": "home-and-relax-furnari",
+      "nome": "Home and Relax",
+      "city_name": "Furnari",
+      "indirizzo": "Via Risorgimento, 98054 Furnari ME",
+      "lat": 38.107241,
+      "lng": 15.11826
+    },
+    {
+      "id": "6af2ecdd-8cb6-429f-9e9c-056f3fe3fb90",
+      "slug": "hotel-atlantis-furnari",
+      "nome": "Hotel Atlantis",
+      "city_name": "Furnari",
+      "indirizzo": "Via Prestipaolo, 1, 98054 Furnari ME",
+      "lat": 38.125692,
+      "lng": 15.113496
+    },
+    {
+      "id": "bf31791e-14bc-4fdf-8de7-84e1ed2e3911",
+      "slug": "la-casa-di-mariu-furnari",
+      "nome": "La Casa di Mariù",
+      "city_name": "Furnari",
+      "indirizzo": "Contrada S. Filippo, 1, 98054 Furnari ME",
+      "lat": 38.111043,
+      "lng": 15.113332
+    },
+    {
+      "id": "9778843e-1b13-4426-a0f9-cd3c2151cc4d",
+      "slug": "laguna-azzurra-portorosa-furnari",
+      "nome": "Laguna Azzurra Portorosa",
+      "city_name": "Furnari",
+      "indirizzo": "Via Prestipaolo, 98054 Porto Rosa, ME",
+      "lat": 38.119688,
+      "lng": 15.111638
+    },
+    {
+      "id": "b95ce27f-9ff9-4b26-8617-776f97d16a31",
+      "slug": "portorosa-village-furnari",
+      "nome": "Portorosa Village",
+      "city_name": "Furnari",
+      "indirizzo": "Via Prestipaolo, 27, 98054 Tonnarella ME",
+      "lat": 38.122194,
+      "lng": 15.10773
+    },
+    {
+      "id": "e7a8543a-54da-4e99-bace-356b8290843a",
+      "slug": "residence-baia-dei-delfini-furnari",
+      "nome": "Residence Baia dei Delfini",
+      "city_name": "Furnari",
+      "indirizzo": "Via Prestipaolo, 98054 Tonnarella ME",
+      "lat": 38.12139,
+      "lng": 15.108318
+    },
+    {
+      "id": "8cdeab70-29a0-4f9e-bde9-8971809e8056",
+      "slug": "tindari-resort-furnari",
+      "nome": "Tindari Resort",
+      "city_name": "Furnari",
+      "indirizzo": "Via Prestipaolo, 27, 98054 Furnari ME",
+      "lat": 38.119069,
+      "lng": 15.112531
+    },
+    {
+      "id": "106a183e-1838-42c0-a99d-d43e531ee22e",
+      "slug": "voi-baia-di-tindari-resort-furnari",
+      "nome": "VOI Baia di Tindari Resort",
+      "city_name": "Furnari",
+      "indirizzo": "Via Vespri Siciliani, 98054 Furnari ME",
+      "lat": 38.120329,
+      "lng": 15.103035
+    },
+    {
+      "id": "ac726dc1-8beb-4ab9-b06f-a2bc0664537b",
+      "slug": "albergo-sabbie-d-oro-gaggi",
+      "nome": "Albergo Sabbie D'oro",
+      "city_name": "Gaggi",
+      "indirizzo": "Via Schisò, 12, 98035 Giardini-Naxos ME",
+      "lat": 37.824319,
+      "lng": 15.270334
+    },
+    {
+      "id": "ace064d4-4259-479b-96d3-de45659f8cb5",
+      "slug": "b-b-civico-115-gaggi-me-gaggi",
+      "nome": "B&B Civico 115 - Gaggi (ME)",
+      "city_name": "Gaggi",
+      "indirizzo": "Via Umberto, 115, 98030 Gaggi ME",
+      "lat": 37.857676,
+      "lng": 15.222503
+    },
+    {
+      "id": "7424bbc5-6b7a-44de-8d4f-18ebc6ca251b",
+      "slug": "bed-and-breakfast-alcantara-natura-gaggi",
+      "nome": "Bed and Breakfast Alcantara Natura",
+      "city_name": "Gaggi",
+      "indirizzo": "Contrada Cupparo, 10, 98036 Graniti ME",
+      "lat": 37.872504,
+      "lng": 15.212599
+    },
+    {
+      "id": "da3fe432-4b71-42d9-a9c9-9ec54809565e",
+      "slug": "hotel-eliseo-gaggi",
+      "nome": "Hotel Eliseo",
+      "city_name": "Gaggi",
+      "indirizzo": "Via Consolare Valeria, 1, 98035 Giardini Naxos ME",
+      "lat": 37.821298,
+      "lng": 15.262774
+    },
+    {
+      "id": "c2cfd473-a68c-4014-91ec-aac7cf068ff6",
+      "slug": "hotel-villa-nefele-gaggi",
+      "nome": "Hotel Villa Nefele",
+      "city_name": "Gaggi",
+      "indirizzo": "Via Vulcano, 2, 98035 Giardini-Naxos ME",
+      "lat": 37.823715,
+      "lng": 15.270323
+    },
+    {
+      "id": "5e5916f8-b242-460c-88a6-23eeb433a505",
+      "slug": "il-borgo-alcantara-gaggi",
+      "nome": "Il Borgo Alcantara",
+      "city_name": "Gaggi",
+      "indirizzo": "SP81, 95012 Mitogio CT",
+      "lat": 37.867651,
+      "lng": 15.192306
+    },
+    {
+      "id": "32ff3cb9-c528-4f0f-a232-ac8a903779da",
+      "slug": "lucia-giovanni-b-b-gaggi",
+      "nome": "Lucia & Giovanni B&b",
+      "city_name": "Gaggi",
+      "indirizzo": "Via Montello,21 angolo, Via Regina Margherita, 98035 Giardini Naxos ME",
+      "lat": 37.841809,
+      "lng": 15.279578
+    },
+    {
+      "id": "c639a76c-0947-47da-8c7f-2664d69e2ba9",
+      "slug": "new-naxos-village-gaggi",
+      "nome": "New Naxos Village",
+      "city_name": "Gaggi",
+      "indirizzo": "Via Consolare Valeria, 118/L, 98035 Giardini-Naxos ME",
+      "lat": 37.82006,
+      "lng": 15.258361
+    },
+    {
+      "id": "9fc736ee-843c-4672-8f77-9b316eba8e15",
+      "slug": "sicily-in-love-gaggi",
+      "nome": "Sicily in Love",
+      "city_name": "Gaggi",
+      "indirizzo": "Via degli Ulivi, 3, 98039 Taormina ME",
+      "lat": 37.831462,
+      "lng": 15.247731
+    },
+    {
+      "id": "aa328edf-f5c3-40dc-8d21-0271e5c25e65",
+      "slug": "villa-seta-bed-breakfast-gaggi",
+      "nome": "Villa Seta Bed & Breakfast",
+      "city_name": "Gaggi",
+      "indirizzo": "Via della Seta, 2, 98035 Chianchitta-pallio ME",
+      "lat": 37.825876,
+      "lng": 15.258933
+    },
+    {
+      "id": "f66a9990-6d09-48e9-8cee-ebcec6b24485",
+      "slug": "a-muri-b-b-gangi",
+      "nome": "A-MURI b&b",
+      "city_name": "Gangi",
+      "indirizzo": "Via Termini F. Paolo, 23, 90024 Gangi PA",
+      "lat": 37.794628,
+      "lng": 14.208123
+    },
+    {
+      "id": "b8a50be0-756b-4fd0-b4e8-9fa675df4bac",
+      "slug": "antico-borgo-buonanotte-gangi",
+      "nome": "Antico Borgo Buonanotte",
+      "city_name": "Gangi",
+      "indirizzo": "Contrada Buonanotte, 90010 San Mauro Castelverde PA",
+      "lat": 37.948429,
+      "lng": 14.187767
+    },
+    {
+      "id": "65238b86-223d-485b-8246-a47d95f331d4",
+      "slug": "hotel-gangi-gangi",
+      "nome": "Hotel Gangi",
+      "city_name": "Gangi",
+      "indirizzo": "Viale Generale Ciancio, 68, 94015 Piazza Armerina EN",
+      "lat": 37.388434,
+      "lng": 14.371641
+    },
+    {
+      "id": "557b28e8-d08b-4b11-9806-145838c96ec3",
+      "slug": "santa-lucia-b-b-gangi",
+      "nome": "Santa Lucia B&B",
+      "city_name": "Gangi",
+      "indirizzo": "Via S. Lucia, 5, 90024 Gangi PA",
+      "lat": 37.796549,
+      "lng": 14.206482
+    },
+    {
+      "id": "df99d3a8-32a5-4f8d-ba12-33964835ca77",
+      "slug": "terrematte-turismo-rurale-gangi",
+      "nome": "Terrematte - Turismo Rurale",
+      "city_name": "Gangi",
+      "indirizzo": "C/da Chiaretta, 90028 Polizzi Generosa PA",
+      "lat": 37.829581,
+      "lng": 13.998659
+    },
+    {
+      "id": "37610c0f-deca-421b-b1dc-bfc134547a56",
+      "slug": "b-b-hotel-ischia-san-nicola-ischia",
+      "nome": "B&B HOTEL Ischia San Nicola",
+      "city_name": "Ischia",
+      "indirizzo": "Via Parroco d'Abundo 69 80075 Forio, d Ischia, NA, Italia",
+      "lat": 40.709289,
+      "lng": 13.879373
+    },
+    {
+      "id": "6943cddb-3710-4df8-88e1-999348d9e644",
+      "slug": "b-b-la-piazzetta-ischia",
+      "nome": "B&B La Piazzetta",
+      "city_name": "Ischia",
+      "indirizzo": "Corso Vittoria Colonna, 122/1° Piano, 80077 Ischia NA, Italia",
+      "lat": 40.740382,
+      "lng": 13.950447
+    },
+    {
+      "id": "7992df7c-d756-4a72-a3d3-a11021c89ae8",
+      "slug": "bed-and-breakfast-ischia-villa-al-porto-ischia",
+      "nome": "Bed and Breakfast Ischia Villa al Porto",
+      "city_name": "Ischia",
+      "indirizzo": "Via Iasolino, 146B, 80077 Ischia NA, Italia",
+      "lat": 40.746031,
+      "lng": 13.938673
+    },
+    {
+      "id": "882c05dd-01d0-4170-bcae-e6a8bd5eeaa0",
+      "slug": "bed-and-breakfast-napoli-plebiscito-ischia",
+      "nome": "Bed and Breakfast Napoli Plebiscito",
+      "city_name": "Ischia",
+      "indirizzo": "Via Chiaia, 216/2º piano, 80121 Napoli NA, Italia",
+      "lat": 40.836655,
+      "lng": 14.246407
+    },
+    {
+      "id": "65997554-59fe-4468-8af4-954683513167",
+      "slug": "bed-and-breakfast-sweet-home-ischia-ischia",
+      "nome": "Bed and Breakfast Sweet Home Ischia",
+      "city_name": "Ischia",
+      "indirizzo": "Via Circonvallazione, 155, 80076 Lacco Ameno NA, Italia",
+      "lat": 40.752557,
+      "lng": 13.881224
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 177,
+  "blockId": "177",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "b1c22f2f-49ef-4241-9e32-7caddd0a3336",
+      "slug": "case-vacanze-gli-ulivi-aurigo",
+      "nome": "Case Vacanze Gli Ulivi",
+      "city_name": "Aurigo",
+      "indirizzo": "SP24, 18021 Borgomaro IM",
+      "lat": 43.973234,
+      "lng": 7.936967
+    },
+    {
+      "id": "fa4451df-40c3-45d5-baff-60af02a7ff72",
+      "slug": "hotel-kristina-aurigo",
+      "nome": "Hotel Kristina",
+      "city_name": "Aurigo",
+      "indirizzo": "Via Spianata Borgo Peri, 9, 18100 Imperia IM",
+      "lat": 43.888046,
+      "lng": 8.046926
+    },
+    {
+      "id": "d85a3a11-38b7-4743-88ee-b36ee08e5072",
+      "slug": "hotel-ristorante-la-pineta-aurigo",
+      "nome": "Hotel Ristorante La Pineta",
+      "city_name": "Aurigo",
+      "indirizzo": "Via Torino, 1, 18026 Colle San Bartolomeo IM",
+      "lat": 44.010133,
+      "lng": 7.951693
+    },
+    {
+      "id": "f5a24eb5-524e-4148-a295-d7d784034b9e",
+      "slug": "il-poggio-di-maro-aurigo",
+      "nome": "Il Poggio di Maro'",
+      "city_name": "Aurigo",
+      "indirizzo": "Regione Poggio, 10, 18010 Badalucco IM",
+      "lat": 43.922278,
+      "lng": 7.845545
+    },
+    {
+      "id": "5b16448d-092e-481b-8e6d-ae5cce92ecf0",
+      "slug": "le-macine-del-confluente-b-b-aurigo",
+      "nome": "Le Macine del Confluente B. & B.",
+      "city_name": "Aurigo",
+      "indirizzo": "Loc, Località Oxentina, snc, 18010 Badalucco IM",
+      "lat": 43.899522,
+      "lng": 7.842862
+    },
+    {
+      "id": "55e067f9-177a-4eb6-a871-f3ca268ae19f",
+      "slug": "secret-gardens-b-b-aurigo",
+      "nome": "Secret Gardens B&B",
+      "city_name": "Aurigo",
+      "indirizzo": "18021 Borgomaro IM",
+      "lat": 43.972808,
+      "lng": 7.946131
+    },
+    {
+      "id": "e68d52e3-e70e-4345-92b3-0e1c1ecfd809",
+      "slug": "sul-cammino-aurigo",
+      "nome": "Sul Cammino",
+      "city_name": "Aurigo",
+      "indirizzo": "via Ramelli 14, 18024 Dolcedo IM",
+      "lat": 43.903103,
+      "lng": 7.942256
+    },
+    {
+      "id": "e4e08299-6c86-49c0-b2c0-46ba69a25b63",
+      "slug": "villa-desideri-agriturismo-dinoabbo-aurigo",
+      "nome": "Villa Desideri Agriturismo Dinoabbo",
+      "city_name": "Aurigo",
+      "indirizzo": "Via roma, regione vissai snc, 18023 Lucinasco IM",
+      "lat": 43.967904,
+      "lng": 7.965373
+    },
+    {
+      "id": "98569be3-f2d3-4cae-b942-62331997c487",
+      "slug": "a-casa-di-ada-b-b-auronzo-di-cadore",
+      "nome": "A casa di Ada B&B",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Noà, 44, 32045 Santo Stefano di Cadore BL",
+      "lat": 46.564753,
+      "lng": 12.584281
+    },
+    {
+      "id": "74bf9b4a-eca4-4034-983c-7fbd08fb18a4",
+      "slug": "affittacamere-al-rucksack-auronzo-di-cadore",
+      "nome": "Affittacamere Al Rucksack",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Prof. Carlo Pais, 16, 32041 Auronzo di Cadore BL",
+      "lat": 46.551681,
+      "lng": 12.439026
+    },
+    {
+      "id": "38cac0f8-144d-431b-999c-fe36fedcf576",
+      "slug": "agriturismo-moie-auronzo-di-cadore",
+      "nome": "Agriturismo Moiè",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Valgrande, 52, 32040 Padola BL",
+      "lat": 46.618105,
+      "lng": 12.474169
+    },
+    {
+      "id": "3c2861ea-54ff-4d94-a948-3f7d17c87cd0",
+      "slug": "albergo-juventus-auronzo-di-cadore",
+      "nome": "Albergo Juventus",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Padova, 26, 32041 Auronzo di Cadore BL",
+      "lat": 46.544571,
+      "lng": 12.452152
+    },
+    {
+      "id": "316930b0-0c69-4675-89d6-fdb2914a43db",
+      "slug": "b-b-abete-bianco-auronzo-di-cadore",
+      "nome": "B&B Abete Bianco",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Cima Gogna, 17, 32041 Auronzo di Cadore BL",
+      "lat": 46.513507,
+      "lng": 12.46217
+    },
+    {
+      "id": "ca90f5ec-9013-4cc5-9e9b-cf0e579ee02e",
+      "slug": "b-b-al-castel-auronzo-di-cadore",
+      "nome": "B&B Al Castel",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Ajarnola, 56, 32040 Padola BL",
+      "lat": 46.600005,
+      "lng": 12.476442
+    },
+    {
+      "id": "e31901ef-3b02-45e8-bbb0-f286a86a60bc",
+      "slug": "b-b-campitello-13-auronzo-di-cadore",
+      "nome": "B&b Campitello 13",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Campitello, 13, 32040 Campitello BL",
+      "lat": 46.577404,
+      "lng": 12.531087
+    },
+    {
+      "id": "783ba792-0cc3-491c-beb0-36d373095996",
+      "slug": "b-b-dimora-al-bivacco-auronzo-di-cadore",
+      "nome": "B&B Dimora Al Bivacco",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via degli Alpini, 56, 32044 Pieve di Cadore BL",
+      "lat": 46.425796,
+      "lng": 12.366231
+    },
+    {
+      "id": "785566f7-8697-4ca2-8a71-52607fef3c55",
+      "slug": "b-b-il-bucaneve-auronzo-di-cadore",
+      "nome": "B&B Il Bucaneve",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Costa, 17G, 32045 Costalissoio BL",
+      "lat": 46.574901,
+      "lng": 12.545925
+    },
+    {
+      "id": "cae9d152-30d7-4adc-90b8-5d7f71d9e447",
+      "slug": "b-b-meuble-bar-giustina-auronzo-di-cadore",
+      "nome": "B&b Meuble Bar Giustina",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Largo Tarin, 5, 32041 Auronzo di Cadore BL",
+      "lat": 46.551781,
+      "lng": 12.443671
+    },
+    {
+      "id": "e654a846-c54b-4b0b-a373-5617a586188e",
+      "slug": "b-b-rossodisera-auronzo-di-cadore",
+      "nome": "B&B Rossodisera",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Calvi Pier Fortunato, 15, 32040 Domegge di Cadore BL",
+      "lat": 46.463413,
+      "lng": 12.413448
+    },
+    {
+      "id": "602e682d-8f90-4bff-b86f-9fa92175d8d7",
+      "slug": "b-b-verdi-armonie-auronzo-di-cadore",
+      "nome": "B&B Verdi Armonie",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Loreto, 36, 32040 Lozzo di Cadore BL",
+      "lat": 46.487804,
+      "lng": 12.444235
+    },
+    {
+      "id": "410e58be-7367-4b1d-9ccc-7e62397890b5",
+      "slug": "bed-breakfast-bar-la-coa-auronzo-di-cadore",
+      "nome": "Bed&Breakfast Bar La Coa",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Roma, 10, 32041 Auronzo di Cadore BL",
+      "lat": 46.550566,
+      "lng": 12.444027
+    },
+    {
+      "id": "9af83ba1-beca-409b-a943-bbdc994bde3c",
+      "slug": "belvedere-alloggio-turistico-auronzo-di-cadore",
+      "nome": "Belvedere Alloggio Turistico",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Riziò, 20, 32041 Auronzo di Cadore BL",
+      "lat": 46.558623,
+      "lng": 12.427591
+    },
+    {
+      "id": "409fd24e-3222-4b19-8d2b-777d3e35b238",
+      "slug": "cadore-haus-auronzo-di-cadore",
+      "nome": "Cadore Haus",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Saletta, 30, 32041 Auronzo di Cadore BL",
+      "lat": 46.546477,
+      "lng": 12.455756
+    },
+    {
+      "id": "08b95dd1-a553-4446-8d03-73a0521719d3",
+      "slug": "cedavecia-bed-breakfast-auronzo-di-cadore",
+      "nome": "Cedavécia Bed & Breakfast",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Sala, 2, 32040 Comelico Superiore BL",
+      "lat": 46.592494,
+      "lng": 12.511479
+    },
+    {
+      "id": "6767900a-0414-4de7-94b6-c47b53e72ceb",
+      "slug": "fra-rose-e-mughi-auronzo-di-cadore",
+      "nome": "Fra Rose e Mughi",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Cialoi, 14, 32040 Domegge di Cadore BL",
+      "lat": 46.462659,
+      "lng": 12.415705
+    },
+    {
+      "id": "d7d9f471-7304-42a0-9960-bcafb934ad67",
+      "slug": "hotel-auronzo-dolomites-affiliated-by-melia-auronzo-di-cadore",
+      "nome": "Hotel Auronzo Dolomites, Affiliated by Meliá",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Roma, 30, 32041 Auronzo di Cadore BL",
+      "lat": 46.549646,
+      "lng": 12.446215
+    },
+    {
+      "id": "594b034f-83e5-4cb2-8f46-0d39868ce140",
+      "slug": "la-culla-b-b-auronzo-di-cadore",
+      "nome": "La Culla B&B",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "via ajarnola 48, check-in, Via Valgrande, 54, 32040 Padola BL",
+      "lat": 46.618029,
+      "lng": 12.473231
+    },
+    {
+      "id": "30b11262-74d8-494c-aa4f-ac9519b8c28c",
+      "slug": "le-crode-auronzo-auronzo-di-cadore",
+      "nome": "Le Crode Auronzo",
+      "city_name": "Auronzo di Cadore",
+      "indirizzo": "Via Pier Fortunato Calvi, 3, 32041 Auronzo di Cadore BL",
+      "lat": 46.552916,
+      "lng": 12.440439
+    },
+    {
+      "id": "2b23cb54-9a9d-4719-b6b0-3fbfc77dea0c",
+      "slug": "affittacamere-il-tulipano-beach-formia-ausonia",
+      "nome": "affittacamere il Tulipano beach Formia",
+      "city_name": "Ausonia",
+      "indirizzo": "Via Santo Janni Pescinola, 6, 04023 Formia LT",
+      "lat": 41.258598,
+      "lng": 13.659682
+    },
+    {
+      "id": "f4c250ec-29f4-4a48-b645-e014fe12ed2f",
+      "slug": "azienda-agrituristica-la-tenuta-del-falco-ausonia",
+      "nome": "AZIENDA AGRITURISTICA \"LA TENUTA DEL FALCO\"",
+      "city_name": "Ausonia",
+      "indirizzo": "Via Ferdinandi, 1, 03030 Piedimonte San Germano FR",
+      "lat": 41.445567,
+      "lng": 13.744137
+    },
+    {
+      "id": "160f4ed7-ef61-40e6-a1aa-250a8b0fa344",
+      "slug": "b-b-holiday-formia-beach-ausonia",
+      "nome": "B&B Holiday Formia beach",
+      "city_name": "Ausonia",
+      "indirizzo": "Via Santo Janni Pescinola, 8, 04023 Formia LT",
+      "lat": 41.258403,
+      "lng": 13.659178
+    },
+    {
+      "id": "14c9aab1-af6a-4ae1-9ca0-ad352be72cad",
+      "slug": "b-b-le-terrazze-ausonia",
+      "nome": "B&B Le Terrazze",
+      "city_name": "Ausonia",
+      "indirizzo": "Via Appia Lato Napoli, 305, 04023 Formia LT",
+      "lat": 41.262183,
+      "lng": 13.641742
+    },
+    {
+      "id": "91b81740-fb20-48da-8478-794724597de6",
+      "slug": "b-b-maison-civico-13-ausonia",
+      "nome": "B&B Maison Civico 13",
+      "city_name": "Ausonia",
+      "indirizzo": "Via Provinciale, 13, 03040 Ausonia FR",
+      "lat": 41.357351,
+      "lng": 13.750475
+    },
+    {
+      "id": "e067d821-62cc-4055-bfe5-871058be09ed",
+      "slug": "b-b-nonna-elvira-ausonia",
+      "nome": "B&B Nonna Elvira",
+      "city_name": "Ausonia",
+      "indirizzo": "Via Carlo Pisacane, 04021 Castelforte LT",
+      "lat": 41.299944,
+      "lng": 13.823902
+    },
+    {
+      "id": "28933d00-94f9-41dd-a14d-4ba139dc10f3",
+      "slug": "bed-breakfast-casa-fratelli-castelli-ausonia",
+      "nome": "Bed & Breakfast Casa Fratelli Castelli",
+      "city_name": "Ausonia",
+      "indirizzo": "Piazza G. Galilei, 4, 03040 Ausonia FR",
+      "lat": 41.353569,
+      "lng": 13.748205
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 345,
+  "blockId": "345",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "09792721-6dc8-421c-8ed8-70afe5380bb4",
+      "slug": "casa-sunrise-the-guest-house-burgio",
+      "nome": "Casa Sunrise - The Guest House",
+      "city_name": "Burgio",
+      "indirizzo": "Via Modigliani, 32, 92019 Sciacca AG",
+      "lat": 37.509609,
+      "lng": 13.077037
+    },
+    {
+      "id": "fbd9b729-4a9d-4862-89cf-1bf8b3011382",
+      "slug": "hibrido-boutique-hotel-spa-burgio",
+      "nome": "Hibrido Boutique Hotel & Spa",
+      "city_name": "Burgio",
+      "indirizzo": "Via Caricatore, 35, 92019 Sciacca AG",
+      "lat": 37.505385,
+      "lng": 13.083773
+    },
+    {
+      "id": "59776b7c-c121-467f-bc6e-9f544db91674",
+      "slug": "hotel-melqart-burgio",
+      "nome": "Hotel Melqart",
+      "city_name": "Burgio",
+      "indirizzo": "Via Mulini, 11/12/14, 92019 Sciacca AG",
+      "lat": 37.505882,
+      "lng": 13.080176
+    },
+    {
+      "id": "ee4a96c9-d310-4ea4-85f4-6024e1a3e6ae",
+      "slug": "la-paloma-blanca-hotel-burgio",
+      "nome": "La Paloma Blanca Hotel",
+      "city_name": "Burgio",
+      "indirizzo": "Via Figuli, 5, 92019 Sciacca AG",
+      "lat": 37.506423,
+      "lng": 13.088779
+    },
+    {
+      "id": "e1195fd8-c47d-4b7c-9117-29089206e7e3",
+      "slug": "le-casette-del-porto-burgio",
+      "nome": "Le Casette del Porto",
+      "city_name": "Burgio",
+      "indirizzo": "Lungomare Cristoforo Colombo, 23, 92019 Sciacca AG",
+      "lat": 37.504894,
+      "lng": 13.083173
+    },
+    {
+      "id": "ddc69b29-e0fb-4e36-9eef-bbf44d3224be",
+      "slug": "macrame-fazello-burgio",
+      "nome": "Macramè Fazello",
+      "city_name": "Burgio",
+      "indirizzo": "Corso Tommaso Fazello, 97, 92019 Sciacca AG",
+      "lat": 37.510916,
+      "lng": 13.082614
+    },
+    {
+      "id": "a8a7966d-e42d-4a56-b38f-b13f8db6e2bb",
+      "slug": "nottincentro-guest-house-burgio",
+      "nome": "NottInCentro Guest House",
+      "city_name": "Burgio",
+      "indirizzo": "Via Conzo, 45, 92019 Sciacca AG",
+      "lat": 37.509341,
+      "lng": 13.078359
+    },
+    {
+      "id": "959daf25-f867-4856-ade2-9122ab0db340",
+      "slug": "roccaregina-hotel-burgio",
+      "nome": "RoccaRegina Hotel",
+      "city_name": "Burgio",
+      "indirizzo": "Lungomare Cristoforo Colombo, 13, 92019 Sciacca AG",
+      "lat": 37.504878,
+      "lng": 13.083704
+    },
+    {
+      "id": "d43ba0a4-c64b-4c6a-b47f-29979bd9b168",
+      "slug": "bedroom-da-zio-tore-affitti-brevi-burgos",
+      "nome": "Bedroom da Zio Tore - Affitti Brevi",
+      "city_name": "Burgos",
+      "indirizzo": "Via Mattei, 08020 Ottana NU",
+      "lat": 40.231922,
+      "lng": 9.035327
+    },
+    {
+      "id": "a9451658-1fe9-4114-a5cc-1e8566d15ddb",
+      "slug": "agriturismo-il-torrione-buriasco",
+      "nome": "Agriturismo Il Torrione",
+      "city_name": "Buriasco",
+      "indirizzo": "Strada del, Strada Galoppatoio, 20, 10064 Pinerolo TO",
+      "lat": 44.868762,
+      "lng": 7.350816
+    },
+    {
+      "id": "2edc2505-6d07-4bb5-b7e3-56db2e0cf2f8",
+      "slug": "albergo-regina-buriasco",
+      "nome": "Albergo Regina",
+      "city_name": "Buriasco",
+      "indirizzo": "Piazza Luigi Barbieri, 22, 10064 Pinerolo TO",
+      "lat": 44.883797,
+      "lng": 7.330828
+    },
+    {
+      "id": "d44b2c7a-e55b-4889-adb3-f5415e2bbf15",
+      "slug": "bed-and-breakfast-la-taupiniere-buriasco",
+      "nome": "Bed And Breakfast la Taupinière",
+      "city_name": "Buriasco",
+      "indirizzo": "Via Maestra Riva, 124, 10064 Riva TO",
+      "lat": 44.892048,
+      "lng": 7.387416
+    },
+    {
+      "id": "4088456b-f0ac-4c8f-9e9c-b2e906ee20df",
+      "slug": "green-class-hotel-candiolo-buriasco",
+      "nome": "Green Class Hotel Candiolo",
+      "city_name": "Buriasco",
+      "indirizzo": "Via Sestriere, 12, 10060 Candiolo TO",
+      "lat": 44.9603,
+      "lng": 7.56481
+    },
+    {
+      "id": "cbe9af80-818c-43d2-a2e4-5988bbc82668",
+      "slug": "hotel-residence-vigone-buriasco",
+      "nome": "Hotel Residence VigOne",
+      "city_name": "Buriasco",
+      "indirizzo": "Via Montagna, 3, 10067 Vigone TO",
+      "lat": 44.836114,
+      "lng": 7.494559
+    },
+    {
+      "id": "496312ba-2cd4-41ca-960b-b37480167e8e",
+      "slug": "residenza-la-beccata-societa-agricola-bea-s-s-buriasco",
+      "nome": "Residenza ...la beccata - Società Agricola BEA s.s.",
+      "city_name": "Buriasco",
+      "indirizzo": "Str. Santa Caterina, 8, 10064 Pinerolo TO",
+      "lat": 44.896555,
+      "lng": 7.339294
+    },
+    {
+      "id": "5e575e8c-68d0-46a7-89bd-6f656a67bd82",
+      "slug": "tenuta-la-cascinetta-buriasco",
+      "nome": "Tenuta La Cascinetta",
+      "city_name": "Buriasco",
+      "indirizzo": "Regione Rena, 10060 Buriasco TO",
+      "lat": 44.874589,
+      "lng": 7.389935
+    },
+    {
+      "id": "f4f60bcf-4ef8-4a31-986f-1d426860a104",
+      "slug": "cascina-donda-agriturismo-buronzo",
+      "nome": "Cascina Donda Agriturismo",
+      "city_name": "Buronzo",
+      "indirizzo": "Str. Vicinale Battiana Corte, 13853 Lessona BI",
+      "lat": 45.543743,
+      "lng": 8.22598
+    },
+    {
+      "id": "ec294099-43e5-4119-a2e8-c4cc31925d14",
+      "slug": "agriturismo-la-costa-busalla",
+      "nome": "Agriturismo La Costa",
+      "city_name": "Busalla",
+      "indirizzo": "Via Monte Pasubio, 55, 16018 Mignanego GE",
+      "lat": 44.545575,
+      "lng": 8.908431
+    },
+    {
+      "id": "00a8383f-f20f-43dd-afd7-7ca8cbccdf4e",
+      "slug": "agriturismo-le-giare-busalla",
+      "nome": "Agriturismo Le Giare",
+      "city_name": "Busalla",
+      "indirizzo": "Via Carpeneli, 17, 16015 Casella GE",
+      "lat": 44.54737,
+      "lng": 8.99668
+    },
+    {
+      "id": "09af6129-18b5-46bc-9e6a-fe535b7b4528",
+      "slug": "agriturismo-terra-e-cielo-busalla",
+      "nome": "Agriturismo Terra e Cielo",
+      "city_name": "Busalla",
+      "indirizzo": "Via Bellavista, 27, 16010 Serra Riccò GE",
+      "lat": 44.524786,
+      "lng": 8.923408
+    },
+    {
+      "id": "55dcdbda-9b24-44d4-8aed-4e6e50918a70",
+      "slug": "albergo-birra-busalla",
+      "nome": "Albergo Birra",
+      "city_name": "Busalla",
+      "indirizzo": "Località Birra, 3, 16010 Savignone GE",
+      "lat": 44.5672,
+      "lng": 8.955236
+    },
+    {
+      "id": "409f7caf-8ef2-4ea2-a8f3-e7c58c01bf84",
+      "slug": "albergo-garre-busalla",
+      "nome": "Albergo Garré",
+      "city_name": "Busalla",
+      "indirizzo": "Località Prelo, 56/A, 16010 San Bartolomeo GE",
+      "lat": 44.547924,
+      "lng": 8.975179
+    },
+    {
+      "id": "cffa2513-c028-4cc0-a811-442f565cc1b6",
+      "slug": "albergo-gelsomino-busalla",
+      "nome": "Albergo Gelsomino",
+      "city_name": "Busalla",
+      "indirizzo": "Piazza San Rocco, 4, 16010 Serra Riccò GE",
+      "lat": 44.509249,
+      "lng": 8.938237
+    },
+    {
+      "id": "8ab35be2-0f9b-4d4c-9fcf-d7cc3be32d44",
+      "slug": "albergo-ristorante-vittoria-busalla",
+      "nome": "Albergo Ristorante Vittoria",
+      "city_name": "Busalla",
+      "indirizzo": "Via Vittorio Veneto, 177, 16012 Busalla GE",
+      "lat": 44.574749,
+      "lng": 8.94343
+    },
+    {
+      "id": "94873ddf-fdcc-48ef-bb5b-61c0c2515fe8",
+      "slug": "b-b-a-o-soa-busalla",
+      "nome": "B&B A o Soâ",
+      "city_name": "Busalla",
+      "indirizzo": "Via Broglio, 11, 16010 Savignone GE",
+      "lat": 44.564805,
+      "lng": 8.991402
+    },
+    {
+      "id": "c0a12c4b-6ce4-4817-80e7-ba1194793791",
+      "slug": "b-b-casa-galletti-busalla",
+      "nome": "B&B Casa Galletti",
+      "city_name": "Busalla",
+      "indirizzo": "Via Martiri di Voltaggio, 22, 16012 Busalla GE",
+      "lat": 44.573579,
+      "lng": 8.937988
+    },
+    {
+      "id": "14dca59f-ce56-4f5b-9f6f-a9ab802d9378",
+      "slug": "b-b-e-home-restaurant-crocevia-del-sale-busalla",
+      "nome": "B&B e Home Restaurant Crocevia del Sale",
+      "city_name": "Busalla",
+      "indirizzo": "Via Crocefieschi, 9, 16015 Casella GE",
+      "lat": 44.539021,
+      "lng": 8.997331
+    },
+    {
+      "id": "ff48702d-3e85-4c48-a13a-e1eb495f9a3e",
+      "slug": "b-b-il-poggio-busalla",
+      "nome": "B&B Il Poggio",
+      "city_name": "Busalla",
+      "indirizzo": "Via Vecchia, 16012 Salvarezza GE",
+      "lat": 44.577313,
+      "lng": 8.961796
+    },
+    {
+      "id": "175124d4-38ee-40dc-a1fe-e2e3ad7562bf",
+      "slug": "b-b-la-moggia-busalla",
+      "nome": "B&B La Moggia",
+      "city_name": "Busalla",
+      "indirizzo": "V. Giuseppe Levrero, 4, 16012 Busalla GE",
+      "lat": 44.572536,
+      "lng": 8.944549
+    },
+    {
+      "id": "4f291044-77e4-4a0e-8482-6e92b0200ab4",
+      "slug": "hotel-balbi-busalla",
+      "nome": "Hotel Balbi",
+      "city_name": "Busalla",
+      "indirizzo": "Via Balbi, 21 nero, 16126 Genova GE",
+      "lat": 44.415876,
+      "lng": 8.924707
+    },
+    {
+      "id": "6ef11cdf-fbe6-41ec-bea5-bf3856675e84",
+      "slug": "hotel-castello-miramare-busalla",
+      "nome": "Hotel Castello Miramare",
+      "city_name": "Busalla",
+      "indirizzo": "Via Pegli, 2, 16156 Genova GE",
+      "lat": 44.424388,
+      "lng": 8.81221
+    },
+    {
+      "id": "c8adccfa-1caf-4bb0-a0c6-804b88e49b11",
+      "slug": "hotel-mediterranee-busalla",
+      "nome": "Hotel Mediterranee",
+      "city_name": "Busalla",
+      "indirizzo": "Lungomare di Pegli, 69, 16156 Genova GE",
+      "lat": 44.424986,
+      "lng": 8.813139
+    },
+    {
+      "id": "584e8ba2-4a3e-442e-b702-00beb65a0a76",
+      "slug": "l-ostelliere-hotel-busalla",
+      "nome": "L'Ostelliere Hotel",
+      "city_name": "Busalla",
+      "indirizzo": "Frazione Monterotondo, 56, 15066 Gavi AL",
+      "lat": 44.712127,
+      "lng": 8.824058
+    },
+    {
+      "id": "19b22897-d33d-4600-aebb-36dba098c882",
+      "slug": "palazzo-cicala-busalla",
+      "nome": "Palazzo Cicala",
+      "city_name": "Busalla",
+      "indirizzo": "Piazza delle Scuole Pie, 10, 16123 Genova GE",
+      "lat": 44.408272,
+      "lng": 8.930548
+    },
+    {
+      "id": "0b15024d-ba26-40f3-957b-9ae1688d63f3",
+      "slug": "aqvae-unconventional-country-house-busano",
+      "nome": "AQVAE Unconventional Country House",
+      "city_name": "Busano",
+      "indirizzo": "Borgata S. Grato, 2, 10080 Oglianico TO",
+      "lat": 45.34194,
+      "lng": 7.68261
+    }
+  ]
+}

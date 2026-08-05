@@ -1,0 +1,323 @@
+{
+  "block": 366,
+  "blockId": "366",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "0c44403f-1de3-4406-91dd-0e12a52428f8",
+      "slug": "albergo-due-spade-caldonazzo",
+      "nome": "Albergo Due Spade",
+      "city_name": "Caldonazzo",
+      "indirizzo": "Piazza Municipio, 2, 38052 Caldonazzo TN",
+      "lat": 45.991601,
+      "lng": 11.261794
+    },
+    {
+      "id": "cbc9a36e-13de-4668-a3a1-01e2e33ee406",
+      "slug": "b-b-appartamenti-alla-loggia-dell-imperatore-caldonazzo",
+      "nome": "B&B & Appartamenti Alla Loggia Dell'imperatore",
+      "city_name": "Caldonazzo",
+      "indirizzo": "Via G. Prati, 27, 38056 Levico Terme TN",
+      "lat": 46.012697,
+      "lng": 11.303437
+    },
+    {
+      "id": "6866827b-9cad-416e-98a7-3f249962da19",
+      "slug": "castello-errante-bio-bed-breakfast-caldonazzo",
+      "nome": "Castello Errante Bio Bed & Breakfast",
+      "city_name": "Caldonazzo",
+      "indirizzo": "Via della Villa, 3, 38052 Caldonazzo TN",
+      "lat": 45.992264,
+      "lng": 11.260921
+    },
+    {
+      "id": "f0038dd8-6d43-4bc4-bd3f-c5f6c0767bce",
+      "slug": "hotel-garden-levico-caldonazzo",
+      "nome": "Hotel Garden Levico",
+      "city_name": "Caldonazzo",
+      "indirizzo": "Via Vittorio Emanuele, 22, 38056 Levico Terme TN",
+      "lat": 46.014886,
+      "lng": 11.296198
+    },
+    {
+      "id": "78f22a10-dde8-432d-ab03-fca5ba3c051e",
+      "slug": "hotel-paoli-caldonazzo",
+      "nome": "Hotel Paoli",
+      "city_name": "Caldonazzo",
+      "indirizzo": "Lochere, 6, 38052 Caldonazzo TN",
+      "lat": 45.988716,
+      "lng": 11.300575
+    },
+    {
+      "id": "e91c094b-18ed-499d-bca8-e907a22a6b07",
+      "slug": "hotel-sport-caldonazzo",
+      "nome": "Hotel Sport",
+      "city_name": "Caldonazzo",
+      "indirizzo": "Via Giovanni Segantini, 4, 38056 Levico Terme TN",
+      "lat": 46.012212,
+      "lng": 11.290136
+    },
+    {
+      "id": "9b494799-02bf-44bb-9187-27ff51366201",
+      "slug": "lido-di-caldonazzo-caldonazzo",
+      "nome": "Lido di Caldonazzo",
+      "city_name": "Caldonazzo",
+      "indirizzo": "Via Lungo Lago, 1, 38052 Caldonazzo TN",
+      "lat": 46.005688,
+      "lng": 11.26255
+    },
+    {
+      "id": "cdb65af8-591d-4681-851d-8f7da6c80ff6",
+      "slug": "b-b-calvino-calendasco",
+      "nome": "b&b Calvino",
+      "city_name": "Calendasco",
+      "indirizzo": "Via Giuseppe Sidoli, 40, 29121 Piacenza PC",
+      "lat": 45.041935,
+      "lng": 9.673081
+    },
+    {
+      "id": "d8bc56b5-9a90-4077-9a23-616c9dd34357",
+      "slug": "b-b-molinetto-calendasco",
+      "nome": "B&B Molinetto",
+      "city_name": "Calendasco",
+      "indirizzo": "Str. Al Molinetto, 100, 29121 Piacenza PC",
+      "lat": 45.04398,
+      "lng": 9.642126
+    },
+    {
+      "id": "d5ff5e9e-ce2a-4a5c-91ae-c9968ea0adfc",
+      "slug": "il-tramonto-sul-po-calendasco",
+      "nome": "IL TRAMONTO SUL PO",
+      "city_name": "Calendasco",
+      "indirizzo": "Loc. Masero, 2, 29010 Calendasco PC",
+      "lat": 45.097956,
+      "lng": 9.594843
+    },
+    {
+      "id": "56336f38-3ae7-488f-96fe-e48f24f79f59",
+      "slug": "ostello-bar-ristorante-le-tre-corone-di-marian-r-calendasco",
+      "nome": "Ostello Bar Ristorante le Tre Corone di Marian Rose Slater",
+      "city_name": "Calendasco",
+      "indirizzo": "Via Mazzini Nuova, 59, 29010 Calendasco PC",
+      "lat": 45.087842,
+      "lng": 9.595674
+    },
+    {
+      "id": "297a904a-2cb2-4a79-af43-27527be42acf",
+      "slug": "salotto-corso-garibaldi-calendasco",
+      "nome": "Salotto Corso Garibaldi",
+      "city_name": "Calendasco",
+      "indirizzo": "Corso G.Garibaldi, 45, 29121 Piacenza PC",
+      "lat": 45.052263,
+      "lng": 9.691228
+    },
+    {
+      "id": "7d4a51d7-baa1-487b-9a89-f17c16f9fceb",
+      "slug": "b-b-hotel-calenzano-first-calenzano",
+      "nome": "B&B HOTEL Calenzano First",
+      "city_name": "Calenzano",
+      "indirizzo": "Via Dino Ciolli, 5, 50041 Calenzano FI",
+      "lat": 43.852767,
+      "lng": 11.165643
+    },
+    {
+      "id": "0e852138-cce6-4987-97ee-281c265f2d64",
+      "slug": "b-b-hotel-prato-city-center-calenzano",
+      "nome": "B&B HOTEL Prato City Center",
+      "city_name": "Calenzano",
+      "indirizzo": "Via Bettino, 4, 59100 Prato PO",
+      "lat": 43.875781,
+      "lng": 11.103359
+    },
+    {
+      "id": "394b5e80-464b-4a2f-a650-5405802ad1ac",
+      "slug": "b-b-le-margherite-calenzano",
+      "nome": "B&B Le Margherite",
+      "city_name": "Calenzano",
+      "indirizzo": "Via Giacomo Puccini, 283, 50041 Calenzano FI",
+      "lat": 43.857693,
+      "lng": 11.157832
+    },
+    {
+      "id": "3bd9b5bb-a514-4ab0-a4d9-51fb66e54207",
+      "slug": "fantastic-garden-hotel-ristorante-calenzano",
+      "nome": "Fantastic Garden Hotel & Ristorante",
+      "city_name": "Calenzano",
+      "indirizzo": "Viale XX Settembre, 200, 50019 Sesto Fiorentino FI",
+      "lat": 43.834135,
+      "lng": 11.212531
+    },
+    {
+      "id": "b237a6ea-e8b5-445d-be1c-0e295a96329d",
+      "slug": "hotel-500-firenze-calenzano",
+      "nome": "Hotel 500 Firenze",
+      "city_name": "Calenzano",
+      "indirizzo": "Via Tomerello, 1, 50013 Campi Bisenzio FI",
+      "lat": 43.838957,
+      "lng": 11.157787
+    },
+    {
+      "id": "14394ffd-efa6-4d73-ac78-ea7a9ae67c96",
+      "slug": "hotel-delta-florence-calenzano",
+      "nome": "Hotel Delta Florence",
+      "city_name": "Calenzano",
+      "indirizzo": "Via Vittorio Emanuele, 3, 50041 Calenzano FI",
+      "lat": 43.850937,
+      "lng": 11.168665
+    },
+    {
+      "id": "f544654d-2b2b-4482-89ea-0811236ece7d",
+      "slug": "hotel-etrusco-calenzano",
+      "nome": "Hotel Etrusco",
+      "city_name": "Calenzano",
+      "indirizzo": "Viale Pratese, 76/78, 50019 Sesto Fiorentino FI",
+      "lat": 43.841587,
+      "lng": 11.186899
+    },
+    {
+      "id": "9c2290ab-7bd8-4ba9-8fb5-80518852a56a",
+      "slug": "hotel-ibis-firenze-prato-est-calenzano",
+      "nome": "Hotel ibis Firenze Prato Est",
+      "city_name": "Calenzano",
+      "indirizzo": "Località Capalle, Via Fratelli Cervi, 50013 Campi Bisenzio FI",
+      "lat": 43.847264,
+      "lng": 11.139078
+    },
+    {
+      "id": "9580905c-ee67-4fba-80d9-af7a2412ec7a",
+      "slug": "hotel-la-selva-calenzano",
+      "nome": "Hotel La Selva",
+      "city_name": "Calenzano",
+      "indirizzo": "Via di Barberino, 221, 50041 Calenzano FI",
+      "lat": 43.923488,
+      "lng": 11.210896
+    },
+    {
+      "id": "1a1b8b41-e62c-4e6c-8c0b-cf2c6a8b7213",
+      "slug": "hotel-la-villetta-calenzano",
+      "nome": "Hotel La Villetta",
+      "city_name": "Calenzano",
+      "indirizzo": "Via Baldanzese, 73, 50041 Calenzano FI",
+      "lat": 43.851103,
+      "lng": 11.175739
+    },
+    {
+      "id": "03d5006f-4168-4904-983a-736237b817b7",
+      "slug": "hotel-valmarina-calenzano",
+      "nome": "Hotel Valmarina",
+      "city_name": "Calenzano",
+      "indirizzo": "Via Baldanzese, 146, 50041 Calenzano FI",
+      "lat": 43.849248,
+      "lng": 11.173349
+    },
+    {
+      "id": "23c5c03c-0e92-4764-8d4d-88fca5ea8e20",
+      "slug": "jr-hotels-gigli-firenze-calenzano",
+      "nome": "JR Hotels Gigli Firenze",
+      "city_name": "Calenzano",
+      "indirizzo": "Via degli Olmi, 7, 50041 Calenzano FI",
+      "lat": 43.844108,
+      "lng": 11.160017
+    },
+    {
+      "id": "70694446-67a5-42ef-a2fe-899b92a8b3b0",
+      "slug": "le-camere-di-mario-calenzano",
+      "nome": "Le Camere di Mario",
+      "city_name": "Calenzano",
+      "indirizzo": "Vaiano PO IT, Via Emilio Bertini, 27, 59021 Schignano PO",
+      "lat": 43.964376,
+      "lng": 11.105347
+    },
+    {
+      "id": "da3ada60-1269-4a8d-b6b1-c2565b4d0c00",
+      "slug": "novotel-firenze-nord-aeroporto-calenzano",
+      "nome": "Novotel Firenze Nord Aeroporto",
+      "city_name": "Calenzano",
+      "indirizzo": "Via Tevere 23 Osmannoro, Sesto Fiorentino, 50019 Florence, FI",
+      "lat": 43.810003,
+      "lng": 11.178294
+    },
+    {
+      "id": "e0b6b1d4-b6ae-426c-a546-e655361f8eb4",
+      "slug": "residenza-san-matteo-calenzano",
+      "nome": "Residenza San Matteo",
+      "city_name": "Calenzano",
+      "indirizzo": "VAI DI PRATO, 2, 50141 Calenzano FI",
+      "lat": 43.857946,
+      "lng": 11.144667
+    },
+    {
+      "id": "9d51116f-ef28-4237-a02c-1e13aa87e350",
+      "slug": "starhotels-vespucci-calenzano",
+      "nome": "Starhotels Vespucci",
+      "city_name": "Calenzano",
+      "indirizzo": "Via San Quirico, 292/A, 50010 Campi Bisenzio FI",
+      "lat": 43.848488,
+      "lng": 11.148661
+    },
+    {
+      "id": "fc78280d-4fc5-4745-8cdc-10bd5f766fd8",
+      "slug": "agriturismo-castione-calestano",
+      "nome": "Agriturismo Castione",
+      "city_name": "Calestano",
+      "indirizzo": "Via Deledda, 5, 43030 Calestano PR",
+      "lat": 44.5978,
+      "lng": 10.122064
+    },
+    {
+      "id": "8c217c8c-6dfe-4649-8fd7-7f144668f816",
+      "slug": "anime-salve-b-b-e-bike-home-restaurant-calestano",
+      "nome": "Anime Salve B&B E-BIKE Home Restaurant",
+      "city_name": "Calestano",
+      "indirizzo": "Via Carpintero, 6, 43038 Sala Baganza PR",
+      "lat": 44.666915,
+      "lng": 10.189023
+    },
+    {
+      "id": "3c6e831a-3f9c-4180-8d27-e2608b238ff2",
+      "slug": "b-b-avamposto-di-alpicella-calestano",
+      "nome": "B&B Avamposto di Alpicella",
+      "city_name": "Calestano",
+      "indirizzo": "Via Canesano, Località Alpicella, 22, 43030 Calestano PR",
+      "lat": 44.585187,
+      "lng": 10.135119
+    },
+    {
+      "id": "9b521952-ca68-4bfd-8b23-094a04952f5b",
+      "slug": "b-b-casa-di-arola-calestano",
+      "nome": "B&B Casa di Arola",
+      "city_name": "Calestano",
+      "indirizzo": "Strada Provinciale per Torrechiara, 22, 43013 Arola PR",
+      "lat": 44.674452,
+      "lng": 10.286402
+    },
+    {
+      "id": "0e2559ec-a2d0-42af-bea4-c559cd8028f9",
+      "slug": "b-b-corte-vecchi-calestano",
+      "nome": "B&B Corte Vecchi",
+      "city_name": "Calestano",
+      "indirizzo": "Str. Monticello, 7, 43044 Ozzano Taro PR",
+      "lat": 44.708921,
+      "lng": 10.146741
+    },
+    {
+      "id": "f3acd7e4-78f3-45b3-971d-1f9849859388",
+      "slug": "b-b-della-canadella-calestano",
+      "nome": "B&B della Canadella",
+      "city_name": "Calestano",
+      "indirizzo": "Via della Bassa, 9, 43037 Bassa PR",
+      "lat": 44.647545,
+      "lng": 10.295173
+    },
+    {
+      "id": "31e039b9-d6a3-4483-8fb3-2059b2c2b14d",
+      "slug": "b-b-la-costa-calestano",
+      "nome": "B&B La Costa",
+      "city_name": "Calestano",
+      "indirizzo": "Via La Costa 3, 43030 Ravarano PR",
+      "lat": 44.575071,
+      "lng": 10.075434
+    }
+  ]
+}

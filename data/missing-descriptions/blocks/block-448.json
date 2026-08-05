@@ -1,0 +1,323 @@
+{
+  "block": 448,
+  "blockId": "448",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "2abb98bb-b39e-4f20-91d6-117cd5776a47",
+      "slug": "hotel-victoria-carr",
+      "nome": "Hotel Victoria",
+      "city_name": "Carr�",
+      "indirizzo": "Via Antonio Meucci, 36, 12100 Cuneo CN",
+      "lat": 44.386141,
+      "lng": 7.537955
+    },
+    {
+      "id": "e50b70ae-24c2-46d9-9bc8-6a58ed83698c",
+      "slug": "hotel-villa-palma-by-agf-hotels-srl-carr",
+      "nome": "Hotel Villa Palma by AGF Hotels SRL",
+      "city_name": "Carr�",
+      "indirizzo": "Via Chemin Palma, 30, 36065 Mussolente VI",
+      "lat": 45.763633,
+      "lng": 11.804606
+    },
+    {
+      "id": "e422e81b-d5f3-4269-96d6-67b523ea2a91",
+      "slug": "palazzo-fauzone-carr",
+      "nome": "Palazzo Fauzone",
+      "city_name": "Carr�",
+      "indirizzo": "Via Vico, 8, 12084 Mondovì CN",
+      "lat": 44.387713,
+      "lng": 7.831102
+    },
+    {
+      "id": "eaa65445-d256-4e28-a052-ecdc0fc62ac4",
+      "slug": "relais-san-maurizio-carr",
+      "nome": "Relais San Maurizio",
+      "city_name": "Carr�",
+      "indirizzo": "Località San Maurizio, 39, 12058 Santo Stefano Belbo CN",
+      "lat": 44.705613,
+      "lng": 8.209361
+    },
+    {
+      "id": "1c24d02a-0946-456d-bdbf-4a7b0ce8c509",
+      "slug": "the-glam-boutique-hotel-apt-carr",
+      "nome": "The Glam Boutique Hotel & Apt.",
+      "city_name": "Carr�",
+      "indirizzo": "Viale Antonio Giuriolo, 10, 36100 Vicenza VI",
+      "lat": 45.54795,
+      "lng": 11.549945
+    },
+    {
+      "id": "412caea1-bce4-4f52-9645-bb9ac0827e20",
+      "slug": "azienda-agrituristica-setteponti-carsoli",
+      "nome": "Azienda Agrituristica Setteponti",
+      "city_name": "Carsoli",
+      "indirizzo": "Km. 74.200 Via Tiburtina Valeria, Carsoli, AQ 67061, 67061 Carsoli AQ",
+      "lat": 42.101002,
+      "lng": 13.114386
+    },
+    {
+      "id": "fb61d455-4205-4d93-adac-d997f6b62943",
+      "slug": "b-b-agli-ulivi-cartigliano",
+      "nome": "B&B agli Ulivi",
+      "city_name": "Cartigliano",
+      "indirizzo": "Via T. A, Via Thomas Alva Edison, 8, 36063 Marostica VI",
+      "lat": 45.737114,
+      "lng": 11.657028
+    },
+    {
+      "id": "25d5f534-ebc5-4255-ae2c-5b77c965c67f",
+      "slug": "b-b-brenta-cartigliano",
+      "nome": "B&B Brenta",
+      "city_name": "Cartigliano",
+      "indirizzo": "Via del Carmine, 26, 36050 Cartigliano VI",
+      "lat": 45.715741,
+      "lng": 11.696948
+    },
+    {
+      "id": "44e9a514-fd47-488b-b7bf-f2adce651893",
+      "slug": "b-b-diana-cartigliano",
+      "nome": "B&B Diana",
+      "city_name": "Cartigliano",
+      "indirizzo": "Via 4 Martiri, 21, 36063 Marostica VI",
+      "lat": 45.744973,
+      "lng": 11.662148
+    },
+    {
+      "id": "1ab13366-3b80-482a-a0d5-a13095510c0e",
+      "slug": "beb-brekfast-sinfonia-cartigliano",
+      "nome": "Beb brekfast sinfonia",
+      "city_name": "Cartigliano",
+      "indirizzo": "Via A. Magnasco, 19, 36061 Bassano del Grappa VI",
+      "lat": 45.747866,
+      "lng": 11.748481
+    },
+    {
+      "id": "1b895036-c96f-46f4-aafe-f911035d5ef8",
+      "slug": "le-nove-hotel-cartigliano",
+      "nome": "Le Nove hotel",
+      "city_name": "Cartigliano",
+      "indirizzo": "Via Rizzi, 51, 36055 Nove VI",
+      "lat": 45.725893,
+      "lng": 11.674885
+    },
+    {
+      "id": "4e466e9a-ab45-4838-bb1b-f5674c4d9ab6",
+      "slug": "affittacamere-del-ponte-di-paola-brunoni-cin-it0-cartignano",
+      "nome": "Affittacamere \"Del Ponte\" di Paola Brunoni CIN:IT004044B45GIZDQRH",
+      "city_name": "Cartignano",
+      "indirizzo": "Piazzetta 30 luglio, 12020 Cartignano CN",
+      "lat": 44.478898,
+      "lng": 7.286509
+    },
+    {
+      "id": "91eb1412-a787-41c1-81d3-4eba65a1f68b",
+      "slug": "albergo-pino-verde-cartignano",
+      "nome": "Albergo Pino Verde",
+      "city_name": "Cartignano",
+      "indirizzo": "Via Moschieres, 39, 12025 Dronero CN",
+      "lat": 44.466046,
+      "lng": 7.313087
+    },
+    {
+      "id": "27804adb-9e9d-4343-869f-6dcb657e06d5",
+      "slug": "albergo-ristorante-roccere-cartignano",
+      "nome": "Albergo Ristorante Roccerè",
+      "city_name": "Cartignano",
+      "indirizzo": "Frazione Sant'Anna, 135, 12020 Roccabruna CN",
+      "lat": 44.497866,
+      "lng": 7.310076
+    },
+    {
+      "id": "75ffdefb-1ea9-4623-a091-2bcbf4e23785",
+      "slug": "agriturismo-la-meridiana-cartoceto",
+      "nome": "Agriturismo La Meridiana",
+      "city_name": "Cartoceto",
+      "indirizzo": "Via Bargni, 16, 61036 Serrungarina PU",
+      "lat": 43.752706,
+      "lng": 12.863933
+    },
+    {
+      "id": "8a366e00-3c41-4191-9373-b0277746f068",
+      "slug": "agriturismo-pozzuolo-cartoceto",
+      "nome": "Agriturismo Pozzuolo",
+      "city_name": "Cartoceto",
+      "indirizzo": "Via di Mezzo, n. 31, 61036 Pozzuolo PU",
+      "lat": 43.764441,
+      "lng": 12.847792
+    },
+    {
+      "id": "ec6c2143-3d74-4836-bb96-b9503fba484a",
+      "slug": "albergo-metauro-cartoceto",
+      "nome": "Albergo Metauro",
+      "city_name": "Cartoceto",
+      "indirizzo": "Via Flaminia, 278, 61036 Calcinelli PU",
+      "lat": 43.748809,
+      "lng": 12.915502
+    },
+    {
+      "id": "5b7f5484-0254-4ac5-8c24-3a0b3c0c582f",
+      "slug": "antica-osteria-e-bed-breakfast-da-gustin-cartoceto",
+      "nome": "Antica Osteria e Bed & Breakfast Da Gustin",
+      "city_name": "Cartoceto",
+      "indirizzo": "Via Castello, 27, 61036 Serrungarina PU",
+      "lat": 43.7495,
+      "lng": 12.853759
+    },
+    {
+      "id": "b3a14ac9-4c94-4ecb-a5cf-e438b472ef7b",
+      "slug": "b-b-camera-con-vista-cartoceto",
+      "nome": "B&B Camera con vista",
+      "city_name": "Cartoceto",
+      "indirizzo": "Via Umberto I, 18, 61034 Fossombrone PU",
+      "lat": 43.688633,
+      "lng": 12.803864
+    },
+    {
+      "id": "9baab347-adde-4528-abca-ad21bd4b4fe2",
+      "slug": "b-b-terrazza-sul-mare-cartoceto",
+      "nome": "B&B Terrazza sul Mare",
+      "city_name": "Cartoceto",
+      "indirizzo": "Via Marzabotto, 10, 61032 Fano PU",
+      "lat": 43.858042,
+      "lng": 12.995174
+    },
+    {
+      "id": "bef288b8-d5c9-44a4-bb9c-3954422107b4",
+      "slug": "bed-and-breakfast-cornio-delle-fronde-cartoceto",
+      "nome": "Bed And Breakfast Cornio delle Fronde",
+      "city_name": "Cartoceto",
+      "indirizzo": "Via Costa della Figura, 24, 61030 Fontecorniale di Montefelcino PU",
+      "lat": 43.765745,
+      "lng": 12.829721
+    },
+    {
+      "id": "a837623e-a3ba-44af-8b04-1836782a07ce",
+      "slug": "casa-di-mi-agriturismo-con-piscina-cartoceto",
+      "nome": "Casa Di Mi Agriturismo con piscina",
+      "city_name": "Cartoceto",
+      "indirizzo": "Via della Fonte s.n, 61036 Colli al Metauro, PU",
+      "lat": 43.746462,
+      "lng": 12.873649
+    },
+    {
+      "id": "a3c064f2-d07f-40d3-90e4-caf60693aa68",
+      "slug": "casa-oliva-borgo-del-benessere-delle-marche-cartoceto",
+      "nome": "CASA OLIVA Borgo del Benessere delle Marche",
+      "city_name": "Cartoceto",
+      "indirizzo": "Via Castello 19 Bargni di, 61036 Colli al Metauro PU",
+      "lat": 43.749581,
+      "lng": 12.853454
+    },
+    {
+      "id": "9890c8d0-ed30-4a6d-84c1-9af5cf2324c2",
+      "slug": "casa-vacanze-il-monte-cin-it041010c2t5gvnd3m-cartoceto",
+      "nome": "Casa Vacanze \"Il Monte\" CIN IT041010C2T5GVND3M",
+      "city_name": "Cartoceto",
+      "indirizzo": "Strada Provinciale Mombaroccese, 10, 61030 Colli al Metauro PU",
+      "lat": 43.762642,
+      "lng": 12.880288
+    },
+    {
+      "id": "bfb45cd2-631e-49ca-892d-5e2a1f3cd7c8",
+      "slug": "castello-montegiove-country-house-cartoceto",
+      "nome": "Castello Montegiove Country House",
+      "city_name": "Cartoceto",
+      "indirizzo": "Via Forcolo, 26/28/30, 61032 Fano PU",
+      "lat": 43.825499,
+      "lng": 12.991231
+    },
+    {
+      "id": "843a35be-e275-4441-9775-5378a6dcf12a",
+      "slug": "eden-lilli-b-b-cartoceto",
+      "nome": "Eden Lilli B&B",
+      "city_name": "Cartoceto",
+      "indirizzo": "Via Pieve, 51, 61030 Salomone PU",
+      "lat": 43.766302,
+      "lng": 12.900908
+    },
+    {
+      "id": "70ce0050-9313-4eac-97ae-807bb01b3765",
+      "slug": "hotel-flaminio-cartoceto",
+      "nome": "Hotel Flaminio",
+      "city_name": "Cartoceto",
+      "indirizzo": "Via Flaminia, 196/200, 61036 Colli al Metauro, PU",
+      "lat": 43.738124,
+      "lng": 12.897344
+    },
+    {
+      "id": "c01b8ddc-934f-41ca-b2bd-e83e8e9df331",
+      "slug": "il-castagno-albergo-ristorante-pizzeria-cartoceto",
+      "nome": "Il Castagno Albergo Ristorante Pizzeria",
+      "city_name": "Cartoceto",
+      "indirizzo": "Via Giacomo Matteotti, 72, 61038 Orciano di Pesaro PU",
+      "lat": 43.686966,
+      "lng": 12.963704
+    },
+    {
+      "id": "5dbac9ca-3632-44da-b595-27bb237b6a5b",
+      "slug": "le-fontanelle-country-house-cartoceto",
+      "nome": "Le Fontanelle Country House",
+      "city_name": "Cartoceto",
+      "indirizzo": "Via Fontanelle, 11, 61040 Sant'Ippolito PU",
+      "lat": 43.682221,
+      "lng": 12.862131
+    },
+    {
+      "id": "54baa3aa-5c96-4c64-8e2e-0bcc81d220ea",
+      "slug": "locanda-borgognina-cartoceto",
+      "nome": "Locanda Borgognina",
+      "city_name": "Cartoceto",
+      "indirizzo": "Via Borgognina, 31, 61030 Cartoceto PU",
+      "lat": 43.770809,
+      "lng": 12.964406
+    },
+    {
+      "id": "95fab430-3ce8-4973-b2e1-ac738d04d09f",
+      "slug": "villa-cartoceto-cartoceto",
+      "nome": "Villa Cartoceto",
+      "city_name": "Cartoceto",
+      "indirizzo": "Via Umberto I, 11, 61030 Cartoceto PU",
+      "lat": 43.767114,
+      "lng": 12.881928
+    },
+    {
+      "id": "693b3721-4eed-49b1-838a-7fc39ea8ae45",
+      "slug": "agriturismo-b-b-valcrosa-cartosio",
+      "nome": "Agriturismo b&b Valcrosa",
+      "city_name": "Cartosio",
+      "indirizzo": "Localita, Regione Caliogna, 50, 15010 Melazzo AL",
+      "lat": 44.615551,
+      "lng": 8.441226
+    },
+    {
+      "id": "0764f910-502c-4af3-b96d-d99fc7d080b2",
+      "slug": "agriturismo-borghetto-la-radice-cartosio",
+      "nome": "Agriturismo borghetto la radice",
+      "city_name": "Cartosio",
+      "indirizzo": "Regione piandonne, 23, 14050 Roccaverano AT",
+      "lat": 44.606775,
+      "lng": 8.294254
+    },
+    {
+      "id": "7c174dfe-691e-4ccb-bca5-a477c7c1869e",
+      "slug": "agriturismo-le-piagge-via-dei-cascinali-257-1501-cartosio",
+      "nome": "Agriturismo Le Piagge - Via dei Cascinali, 257 - 15010 PONZONE AL",
+      "city_name": "Cartosio",
+      "indirizzo": "Via Cascinali, 257, 15010 Ponzone AL",
+      "lat": 44.605587,
+      "lng": 8.458615
+    },
+    {
+      "id": "5d3b0463-3349-4504-9675-97ec6caaf5dd",
+      "slug": "agriturismo-luna-di-miele-cartosio",
+      "nome": "Agriturismo Luna di Miele",
+      "city_name": "Cartosio",
+      "indirizzo": "Regione S. Desiderio, 48, 14058 Monastero Bormida AT",
+      "lat": 44.641652,
+      "lng": 8.329707
+    }
+  ]
+}

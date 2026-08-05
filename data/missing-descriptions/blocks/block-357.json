@@ -1,0 +1,323 @@
+{
+  "block": 357,
+  "blockId": "357",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "a8d566c5-1a5d-4a37-b543-15508f61b2f4",
+      "slug": "la-meridiana-country-house-cairano",
+      "nome": "La Meridiana Country House",
+      "city_name": "Cairano",
+      "indirizzo": "SP199, 83045 Calitri AV",
+      "lat": 40.918677,
+      "lng": 15.411166
+    },
+    {
+      "id": "5f40dd8b-ffa9-4535-9e1d-812eaecf7abd",
+      "slug": "ristorante-bike-hotel-gerardo-di-masi-cairano",
+      "nome": "Ristorante Bike Hotel Gerardo Di Masi",
+      "city_name": "Cairano",
+      "indirizzo": "C.so S. Alfonso, 83040 Caposele AV",
+      "lat": 40.818576,
+      "lng": 15.23688
+    },
+    {
+      "id": "fb1173ec-6b4e-4c61-88d7-461210f906f7",
+      "slug": "albergo-sant-anna-cairate",
+      "nome": "Albergo Sant'Anna",
+      "city_name": "Cairate",
+      "indirizzo": "Via Giuseppe Mazzini, 29, 21058 Solbiate Olona VA",
+      "lat": 45.649722,
+      "lng": 8.888611
+    },
+    {
+      "id": "f0a2ff61-08af-4a59-9d0a-58242a617d96",
+      "slug": "b-b-la-canonica-cairate",
+      "nome": "B&B La Canonica",
+      "city_name": "Cairate",
+      "indirizzo": "Via Jesi, 3, 21050 Cairate VA",
+      "lat": 45.690775,
+      "lng": 8.872887
+    },
+    {
+      "id": "df0858c4-4f0c-4b42-b208-b61481518bd1",
+      "slug": "color-house-malpensa-b-b-cairate",
+      "nome": "Color House Malpensa B&B",
+      "city_name": "Cairate",
+      "indirizzo": "Via Ugo Foscolo, 38 B, 21012 Cassano Magnago VA",
+      "lat": 45.675638,
+      "lng": 8.837427
+    },
+    {
+      "id": "4a21c07e-3fb6-4928-941c-f85395e088a7",
+      "slug": "doubletree-by-hilton-milan-malpensa-solbiate-olo-cairate",
+      "nome": "DoubleTree by Hilton Milan Malpensa Solbiate Olona",
+      "city_name": "Cairate",
+      "indirizzo": "Via per Busto Arsizio, 7, 21058 Solbiate Olona VA",
+      "lat": 45.643754,
+      "lng": 8.864746
+    },
+    {
+      "id": "64fc7e7b-12f6-4afc-8c04-a12b9f4da18b",
+      "slug": "hotel-campo-dei-fiori-cairate",
+      "nome": "Hotel Campo dei Fiori",
+      "city_name": "Cairate",
+      "indirizzo": "Via Dante Alighieri, 215, 21054 Fagnano Olona VA",
+      "lat": 45.666014,
+      "lng": 8.85079
+    },
+    {
+      "id": "ae663b68-eb3c-4179-b296-bd5f15ff0151",
+      "slug": "la-corte-b-b-cairate",
+      "nome": "La Corte B&B",
+      "city_name": "Cairate",
+      "indirizzo": "Via Felice Cavallotti, 6, 21054 Fagnano Olona VA",
+      "lat": 45.678665,
+      "lng": 8.868067
+    },
+    {
+      "id": "56345807-4fdb-4fba-8a98-585e336bcaea",
+      "slug": "tommy-vitello-b-b-cairate",
+      "nome": "Tommy Vitello B&B",
+      "city_name": "Cairate",
+      "indirizzo": "Via Mario Albino Bonicalza, 21012 Cassano Magnago VA",
+      "lat": 45.65069,
+      "lng": 8.84977
+    },
+    {
+      "id": "2c044b28-05e0-4c02-a879-29f2045aed60",
+      "slug": "villa-terzaghi-cairate",
+      "nome": "Villa Terzaghi",
+      "city_name": "Cairate",
+      "indirizzo": "Via S. Maurizio, 21055 Gorla Minore VA",
+      "lat": 45.644807,
+      "lng": 8.896899
+    },
+    {
+      "id": "5ea848da-0888-41a7-a701-3de0188f4cbe",
+      "slug": "b-b-al-giardino-degli-artisti-cairo-montenotte",
+      "nome": "B&B Al giardino degli artisti",
+      "city_name": "Cairo Montenotte",
+      "indirizzo": "Via Lavagna, 3, 17014 Cairo Montenotte SV",
+      "lat": 44.400805,
+      "lng": 8.272307
+    },
+    {
+      "id": "d1a8f535-355f-41d5-9bc7-fc738a7cce7e",
+      "slug": "ca-brichella-cairo-montenotte",
+      "nome": "Ca'Brichella",
+      "city_name": "Cairo Montenotte",
+      "indirizzo": "Via Recoaro, 17014 Cairo Montenotte SV",
+      "lat": 44.391992,
+      "lng": 8.29197
+    },
+    {
+      "id": "bd160d6f-9fc0-45f9-915c-9df61418572d",
+      "slug": "casa-laiazzo-bed-breakfast-cairo-montenotte",
+      "nome": "Casa Laiazzo Bed & Breakfast",
+      "city_name": "Cairo Montenotte",
+      "indirizzo": "Unnamed road, 17014 Rocchetta Cairo SV",
+      "lat": 44.419606,
+      "lng": 8.320903
+    },
+    {
+      "id": "19630058-5fd6-4e07-8a21-0e77bc142ad2",
+      "slug": "cascina-del-vai-cairo-montenotte",
+      "nome": "Cascina del Vai",
+      "city_name": "Cairo Montenotte",
+      "indirizzo": "Strada Ville, 140, 17014 Cairo Montenotte SV",
+      "lat": 44.431551,
+      "lng": 8.251003
+    },
+    {
+      "id": "da659c1d-b014-4e8b-9302-73dc318c83d3",
+      "slug": "hotel-city-cairo-montenotte",
+      "nome": "Hotel City",
+      "city_name": "Cairo Montenotte",
+      "indirizzo": "Corso Brigate Partigiane, 5/M, 17014 Cairo Montenotte SV",
+      "lat": 44.387383,
+      "lng": 8.281389
+    },
+    {
+      "id": "9848395a-fb04-4997-9ad6-2bb0a8e9ebb2",
+      "slug": "hotel-ristorante-la-torre-cairo-montenotte-cairo-montenotte",
+      "nome": "Hotel Ristorante La Torre Cairo Montenotte",
+      "city_name": "Cairo Montenotte",
+      "indirizzo": "Corso Italia, 29, 17014 Cairo Montenotte SV",
+      "lat": 44.397601,
+      "lng": 8.277321
+    },
+    {
+      "id": "5f3c3969-e907-436d-b2f9-8c9b89307a36",
+      "slug": "la-celestina-nuova-gestione-cairo-montenotte",
+      "nome": "La Celestina (Nuova Gestione)",
+      "city_name": "Cairo Montenotte",
+      "indirizzo": "Località Gallareto, 16, 17010 Piana Crixia SV",
+      "lat": 44.485337,
+      "lng": 8.310781
+    },
+    {
+      "id": "e6a00384-c28b-43dc-bba5-563ae67cf451",
+      "slug": "le-macine-relais-cairo-montenotte",
+      "nome": "Le Macine Relais",
+      "city_name": "Cairo Montenotte",
+      "indirizzo": "Strada Ferrere, 11, 17014 Cairo Montenotte SV",
+      "lat": 44.405616,
+      "lng": 8.264146
+    },
+    {
+      "id": "31985758-9c97-429d-976e-fa29c10c02b7",
+      "slug": "moto-pareto-b-b-cairo-montenotte",
+      "nome": "Moto Pareto B&B",
+      "city_name": "Cairo Montenotte",
+      "indirizzo": "Localita Zoppetti 8 Monteacuto 15010 Com, 15010 Pareto AL",
+      "lat": 44.535465,
+      "lng": 8.439596
+    },
+    {
+      "id": "637eac7d-1075-468a-a677-7444316b99f4",
+      "slug": "pensione-alpi-cairo-montenotte",
+      "nome": "Pensione Alpi",
+      "city_name": "Cairo Montenotte",
+      "indirizzo": "Via Ville, 19, 17014 Cairo Montenotte SV",
+      "lat": 44.422681,
+      "lng": 8.25723
+    },
+    {
+      "id": "263cd8d1-dc22-4893-be66-a8cc12a1015f",
+      "slug": "villa-eugenia-cairo-montenotte",
+      "nome": "Villa Eugenia",
+      "city_name": "Cairo Montenotte",
+      "indirizzo": "Str. Santa Maria, 21, 17014 Cairo Montenotte SV",
+      "lat": 44.410171,
+      "lng": 8.266149
+    },
+    {
+      "id": "b461b5b6-103a-418b-89d1-7d9444c9bba8",
+      "slug": "albergo-silverado-caivano",
+      "nome": "albergo silverado",
+      "city_name": "Caivano",
+      "indirizzo": "Via Bugnano, 59, 81030 Orta di Atella CE",
+      "lat": 40.978681,
+      "lng": 14.270917
+    },
+    {
+      "id": "51a3d8c9-1042-42ed-a76a-4c6aa0e03b8c",
+      "slug": "altamu-b-b-acerra-affittacamere-caivano",
+      "nome": "Altamu' B&B Acerra AFFITTACAMERE",
+      "city_name": "Caivano",
+      "indirizzo": "Via Gaetano Dublino, 49, 80011 Acerra NA",
+      "lat": 40.944994,
+      "lng": 14.38788
+    },
+    {
+      "id": "ffadcb0c-9ba3-4ed5-954c-753f140abc83",
+      "slug": "amaranto-hotel-caivano",
+      "nome": "Amaranto Hotel",
+      "city_name": "Caivano",
+      "indirizzo": "Traversa I Murillo di Cardito, 80021 Afragola NA",
+      "lat": 40.939701,
+      "lng": 14.307483
+    },
+    {
+      "id": "feda7b87-e3e5-4db9-a571-21ece82bb6bd",
+      "slug": "b-b-cube-frattamaggiore-caivano",
+      "nome": "B&B CUBE FRATTAMAGGIORE",
+      "city_name": "Caivano",
+      "indirizzo": "Via Roma, 12, 80027 Frattamaggiore NA",
+      "lat": 40.940746,
+      "lng": 14.272126
+    },
+    {
+      "id": "9a5e225f-3045-42b5-8104-104cceb1034a",
+      "slug": "b-b-dei-vicari-caivano",
+      "nome": "B&B Dei Vicari",
+      "city_name": "Caivano",
+      "indirizzo": "Via Riscatto, 43, 80027 Frattamaggiore NA",
+      "lat": 40.943078,
+      "lng": 14.274454
+    },
+    {
+      "id": "0b452b67-9789-4c5c-ae82-bb9cc1891593",
+      "slug": "b-b-il-vicoletto-caivano",
+      "nome": "B&B Il Vicoletto",
+      "city_name": "Caivano",
+      "indirizzo": "Via Viggiano, 9, 80020 Frattaminore NA",
+      "lat": 40.957871,
+      "lng": 14.271012
+    },
+    {
+      "id": "9c7ce500-e527-47dd-9f14-dbceb9704e4c",
+      "slug": "b-b-reccia-luxury-rooms-caivano",
+      "nome": "B&B Reccia luxury rooms",
+      "city_name": "Caivano",
+      "indirizzo": "Traversa I Giuseppe Mazzini, 4, 80027 Frattamaggiore NA",
+      "lat": 40.945161,
+      "lng": 14.267479
+    },
+    {
+      "id": "ee6c28ba-3d1b-4392-a358-e5a7742d0d91",
+      "slug": "bnb-villa-lendi-caivano",
+      "nome": "Bnb Villa Lendi",
+      "city_name": "Caivano",
+      "indirizzo": "Via Carmelo Pezzullo, 22, 80027 Frattamaggiore NA",
+      "lat": 40.938614,
+      "lng": 14.267667
+    },
+    {
+      "id": "4562f5d0-7a11-4f0b-b3ad-1e224d65b4ae",
+      "slug": "casa-affitto-breve-crispino-caivano",
+      "nome": "Casa Affitto Breve Crispino",
+      "city_name": "Caivano",
+      "indirizzo": "Via Giovanni XXIII, 89, 80020 Frattaminore NA",
+      "lat": 40.950851,
+      "lng": 14.271728
+    },
+    {
+      "id": "f505ed3f-c909-43c5-8791-920dc91c16cc",
+      "slug": "l-aranceto-b-b-caivano",
+      "nome": "L'Aranceto B&B",
+      "city_name": "Caivano",
+      "indirizzo": "Via Giacomo Bove, 6, 81047 Macerata Campania CE",
+      "lat": 41.061155,
+      "lng": 14.288403
+    },
+    {
+      "id": "11077b13-a490-4574-9f0d-e2e3c89d2361",
+      "slug": "villa-mafalda-b-b-caivano",
+      "nome": "Villa Mafalda B&B",
+      "city_name": "Caivano",
+      "indirizzo": "Via Padre Mario Vergara, 29, 80027 Frattamaggiore NA",
+      "lat": 40.934615,
+      "lng": 14.275207
+    },
+    {
+      "id": "46a14ea7-a649-4e61-bd4f-599d331ead09",
+      "slug": "albergo-san-gerardo-calabritto",
+      "nome": "Albergo San Gerardo",
+      "city_name": "Calabritto",
+      "indirizzo": "Via Santuario, 24, 83040 Caposele AV",
+      "lat": 40.816093,
+      "lng": 15.234573
+    },
+    {
+      "id": "005ee286-77b7-455f-b1f9-d68abb2ea0a6",
+      "slug": "bed-and-breakfast-la-casa-di-mimma-calabritto",
+      "nome": "Bed and Breakfast \"La Casa di Mimma\"",
+      "city_name": "Calabritto",
+      "indirizzo": "SS165, 83040 Caposele AV",
+      "lat": 40.828747,
+      "lng": 15.232507
+    },
+    {
+      "id": "81640588-00ae-46e6-be20-08fa8c5305a9",
+      "slug": "da-rosa-resort-srl-calabritto",
+      "nome": "Da Rosa Resort Srl",
+      "city_name": "Calabritto",
+      "indirizzo": "Via Santuario Materdomini, 10, 83040 Materdomini AV",
+      "lat": 40.816113,
+      "lng": 15.235025
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 33,
+  "blockId": "033",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "19accfe7-a344-4f47-9442-59a82f9d6334",
+      "slug": "camping-lago-azzurro-agrate-conturbia",
+      "nome": "Camping Lago Azzurro",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Via Enrico Fermi, 2, 28040 Dormelletto NO",
+      "lat": 45.737472,
+      "lng": 8.576552
+    },
+    {
+      "id": "56021e51-0df8-41e3-a2da-09135c096be2",
+      "slug": "casa-violetta-b-b-agrate-conturbia",
+      "nome": "Casa Violetta B&B",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Via Roma, 60 b, 28010 Agrate Conturbia NO",
+      "lat": 45.674546,
+      "lng": 8.562395
+    },
+    {
+      "id": "1d35a5d2-c698-4c9e-a941-a214c3ecdfdf",
+      "slug": "crystal-b-b-agrate-conturbia",
+      "nome": "CRYSTAL b&b",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Via Monte Bianco, 1A, 28040 Dormelletto NO",
+      "lat": 45.72876,
+      "lng": 8.571681
+    },
+    {
+      "id": "4e032280-d3ce-4915-b240-629ebdaad852",
+      "slug": "emotional-grand-motel-agrate-conturbia",
+      "nome": "Emotional Grand Motel",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Via della Fontana, 41, 28010 Fontaneto d'Agogna NO",
+      "lat": 45.660185,
+      "lng": 8.491772
+    },
+    {
+      "id": "50604af8-c57b-484e-976f-c12067ea2684",
+      "slug": "golf-hotel-castelconturbia-agrate-conturbia",
+      "nome": "Golf Hotel Castelconturbia",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Via Castelconturbia, 10, 28010 Localita' Bindellina NO",
+      "lat": 45.65122,
+      "lng": 8.571849
+    },
+    {
+      "id": "d041e1bc-04b0-4cc8-9e03-c58678022937",
+      "slug": "hotel-blue-relais-maggiore-agrate-conturbia",
+      "nome": "Hotel Blue Relais Maggiore",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Via Sempione, 182, 28053 Castelletto sopra Ticino NO",
+      "lat": 45.71979,
+      "lng": 8.595466
+    },
+    {
+      "id": "fa5da12f-31e1-4ee6-9327-1b66bddad4f4",
+      "slug": "hotel-italia-dormelletto-agrate-conturbia",
+      "nome": "Hotel Italia Dormelletto",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Corso Cavour, 170, 28040 Dormelletto NO",
+      "lat": 45.725546,
+      "lng": 8.580605
+    },
+    {
+      "id": "5f55693b-4b5b-4eee-8eb0-f3055419214f",
+      "slug": "hotel-le-palme-agrate-conturbia",
+      "nome": "Hotel Le Palme",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Corso Cavour, 130, 28040 Dormelletto NO",
+      "lat": 45.72961,
+      "lng": 8.57724
+    },
+    {
+      "id": "d1a728e3-f66d-43e0-92b1-27d911c01212",
+      "slug": "hotel-ramoverde-agrate-conturbia",
+      "nome": "Hotel Ramoverde",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Via G. Matteotti, 1, 28021 Borgomanero NO",
+      "lat": 45.697115,
+      "lng": 8.458971
+    },
+    {
+      "id": "c63175cd-ca76-4c6f-99d9-d6db21f86dff",
+      "slug": "hotel-residence-isotta-agrate-conturbia",
+      "nome": "Hotel Residence Isotta",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Via Pozzarino, 1, 28013 Veruno NO",
+      "lat": 45.688904,
+      "lng": 8.534262
+    },
+    {
+      "id": "25ae1dd8-5118-4fbe-a437-fbfeae996025",
+      "slug": "hotel-ristorante-la-perla-agrate-conturbia",
+      "nome": "Hotel Ristorante La Perla",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Via Sottomonte, 4, 28040 Varallo Pombia NO",
+      "lat": 45.673025,
+      "lng": 8.634918
+    },
+    {
+      "id": "68334ee4-1d9f-418a-9d84-554363b6b6c6",
+      "slug": "il-salice-b-b-agrate-conturbia",
+      "nome": "Il Salice B&B",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Via delle Venezie, 3, 28013 Veruno NO",
+      "lat": 45.69089,
+      "lng": 8.525743
+    },
+    {
+      "id": "e3d86673-902d-45ca-a9a0-8268b4548952",
+      "slug": "les-arcs-agrate-conturbia",
+      "nome": "Les Arcs",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Via Motto, 11, 28010 Conturbia NO",
+      "lat": 45.66961,
+      "lng": 8.572193
+    },
+    {
+      "id": "72000654-0561-4d1a-94a2-dbbef5b16950",
+      "slug": "lido-verbano-camping-village-agrate-conturbia",
+      "nome": "Lido Verbano Camping Village",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Via Sempione, 100, 28053 Castelletto sopra Ticino NO",
+      "lat": 45.719744,
+      "lng": 8.617834
+    },
+    {
+      "id": "fa96f940-bf5e-47ab-b0d0-4276abf0107d",
+      "slug": "ritratto-sul-lago-bed-breakfast-agrate-conturbia",
+      "nome": "Ritratto Sul Lago Bed & Breakfast",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Via Leonardo da Vinci, 15, 28040 Dormelletto NO",
+      "lat": 45.735668,
+      "lng": 8.578996
+    },
+    {
+      "id": "b1d78290-1739-4c19-8053-f8dd25982185",
+      "slug": "sirio-hotel-agrate-conturbia",
+      "nome": "SIRIO Hotel",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Corso Cavour, 188, 28040 Dormelletto NO",
+      "lat": 45.72414,
+      "lng": 8.581855
+    },
+    {
+      "id": "a9869ae8-59e9-4835-91af-575c5fbb5380",
+      "slug": "agrigento-bed-agrigento",
+      "nome": "Agrigento Bed",
+      "city_name": "Agrigento",
+      "indirizzo": "Via Atenea, 321, 92100 Agrigento AG, Italia",
+      "lat": 37.311079,
+      "lng": 13.578368
+    },
+    {
+      "id": "df75b2e4-7130-4743-9e09-91302ca334d6",
+      "slug": "alcova-camere-agrigento",
+      "nome": "Alcova Camere",
+      "city_name": "Agrigento",
+      "indirizzo": "Via San Francesco d'Assisi, 45, 92100 Agrigento AG, Italia",
+      "lat": 37.3109,
+      "lng": 13.581394
+    },
+    {
+      "id": "a24d2699-c683-409a-8c1c-e784a85b76e6",
+      "slug": "alloggio-della-posta-vecchia-agrigento",
+      "nome": "Alloggio Della Posta Vecchia",
+      "city_name": "Agrigento",
+      "indirizzo": "Via Giambertoni, 19, 92100 Agrigento AG, Italia",
+      "lat": 37.311499,
+      "lng": 13.58024
+    },
+    {
+      "id": "6408bad6-12c1-420b-a728-76b74baa7e68",
+      "slug": "b-b-agrigento-gioeniventidue-agrigento",
+      "nome": "B&B Agrigento GioeniVentidue",
+      "city_name": "Agrigento",
+      "indirizzo": "Via Gioeni, 22, 92100 Agrigento AG, Italia",
+      "lat": 37.311821,
+      "lng": 13.585683
+    },
+    {
+      "id": "e3b02bce-8c8a-46ce-84c0-8638394bc932",
+      "slug": "b-b-al-dammuso-agrigento",
+      "nome": "B&B Al Dammuso",
+      "city_name": "Agrigento",
+      "indirizzo": "Cortile Coniglio, 5, 92100 Agrigento AG, Italia",
+      "lat": 37.312327,
+      "lng": 13.579743
+    },
+    {
+      "id": "3b07aeed-d625-42be-980b-ca8a647c2977",
+      "slug": "b-b-dimora-di-girgenti-agrigento",
+      "nome": "B&B DIMORA DI GIRGENTI",
+      "city_name": "Agrigento",
+      "indirizzo": "Via Vela, 6, 92100 Agrigento AG, Italia",
+      "lat": 37.310506,
+      "lng": 13.583193
+    },
+    {
+      "id": "dc508ebf-bcb7-42ce-99c2-d7aa79b30b36",
+      "slug": "b-b-il-conte-agrigento",
+      "nome": "B&B IL CONTE",
+      "city_name": "Agrigento",
+      "indirizzo": "Via Atenea, 45, 92100 Agrigento AG, Italia",
+      "lat": 37.310184,
+      "lng": 13.58369
+    },
+    {
+      "id": "9540b79a-6713-4a20-bb3f-b2002df3b191",
+      "slug": "b-b-la-casa-di-nonna-agrigento",
+      "nome": "B&B La casa di nonna",
+      "city_name": "Agrigento",
+      "indirizzo": "Via Esseneto, 28, 92100 Agrigento AG, Italia",
+      "lat": 37.307911,
+      "lng": 13.584591
+    },
+    {
+      "id": "478298f1-80f6-4b6c-a442-306402922bf4",
+      "slug": "b-b-la-citta-degli-dei-agrigento",
+      "nome": "B&B LA CITTA' DEGLI DEI",
+      "city_name": "Agrigento",
+      "indirizzo": "Via Gioeni, 150, 92100 Agrigento AG, Italia",
+      "lat": 37.313336,
+      "lng": 13.583572
+    },
+    {
+      "id": "4f87f128-799b-4828-a6d4-f1e9bc8bbd36",
+      "slug": "b-b-ventoditramontana-agrigento",
+      "nome": "B&B VENTODITRAMONTANA",
+      "city_name": "Agrigento",
+      "indirizzo": "Via Acrone, 85, 92100 Agrigento AG, Italia",
+      "lat": 37.309219,
+      "lng": 13.57911
+    },
+    {
+      "id": "704ffc69-7e78-4df2-85b5-c4ffbe9204b9",
+      "slug": "bed-and-breakfast-le-casette-di-lu-cin-it084001c-agrigento",
+      "nome": "Bed and Breakfast Le Casette di Lù CIN IT084001C1DOWHC9PB",
+      "city_name": "Agrigento",
+      "indirizzo": "Via Neve, 12, 92100 Agrigento AG, Italia",
+      "lat": 37.312081,
+      "lng": 13.579775
+    },
+    {
+      "id": "3a36b1f9-4bbb-4d83-835d-93aff1205d43",
+      "slug": "bed-and-breakfast-mielezenzero-agrigento",
+      "nome": "Bed and Breakfast MieleZenzero",
+      "city_name": "Agrigento",
+      "indirizzo": "Via Carcino, 22, 92100 Agrigento AG, Italia",
+      "lat": 37.308509,
+      "lng": 13.583088
+    },
+    {
+      "id": "02573272-f28d-45fa-8d6a-77794ee66d4c",
+      "slug": "casa-vella-aprtament-agrigento",
+      "nome": "Casa Vella Aprtament",
+      "city_name": "Agrigento",
+      "indirizzo": "Via Callicratide, 36, 92100 Agrigento AG, Italia",
+      "lat": 37.308465,
+      "lng": 13.581678
+    },
+    {
+      "id": "309752b2-b9aa-4dab-96d3-710175637b83",
+      "slug": "hotel-exclusive-agrigento",
+      "nome": "Hotel Exclusive ****",
+      "city_name": "Agrigento",
+      "indirizzo": "Via Acrone, 15, 92100 Agrigento AG, Italia",
+      "lat": 37.308657,
+      "lng": 13.584561
+    },
+    {
+      "id": "37538296-65ff-475d-94a3-722fed29e206",
+      "slug": "la-nuit-agrigento",
+      "nome": "La Nuit",
+      "city_name": "Agrigento",
+      "indirizzo": "Via Gioeni, 153, 92100 Agrigento AG, Italia",
+      "lat": 37.313334,
+      "lng": 13.583264
+    },
+    {
+      "id": "37992add-d5e0-4af3-b8b4-242aafc67bdf",
+      "slug": "la-terrazza-di-carolina-agrigento",
+      "nome": "La Terrazza di Carolina",
+      "city_name": "Agrigento",
+      "indirizzo": "Cortile Modica I, 1, 92100 Agrigento AG, Italia",
+      "lat": 37.310041,
+      "lng": 13.584474
+    },
+    {
+      "id": "f7349a0d-e02f-4618-ab30-328b24c40398",
+      "slug": "la-terrazza-di-empedocle-agrigento",
+      "nome": "La Terrazza di Empedocle",
+      "city_name": "Agrigento",
+      "indirizzo": "Via Empedocle, 73, 92100 Agrigento AG, Italia",
+      "lat": 37.310522,
+      "lng": 13.578816
+    },
+    {
+      "id": "4c197459-f470-4a75-bf4a-f77cf79a972c",
+      "slug": "marchese-sala-b-b-agrigento-agrigento",
+      "nome": "Marchese Sala B&B Agrigento",
+      "city_name": "Agrigento",
+      "indirizzo": "Via Atenea, 45, 92100 Agrigento AG, Italia",
+      "lat": 37.310239,
+      "lng": 13.583669
+    },
+    {
+      "id": "28823ba2-64e1-4a1f-92aa-320421229e62",
+      "slug": "a-tre-passi-dal-mare-agropoli",
+      "nome": "A TRE PASSI DAL MARE",
+      "city_name": "Agropoli",
+      "indirizzo": "Via Caravaggio, 57, 84043 Agropoli SA",
+      "lat": 40.353667,
+      "lng": 14.999271
+    }
+  ]
+}

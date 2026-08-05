@@ -1,0 +1,323 @@
+{
+  "block": 77,
+  "blockId": "077",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "ecafb06e-afb9-421e-af56-ed89d4eeb030",
+      "slug": "locanda-la-clusaz-allein",
+      "nome": "Locanda La Clusaz",
+      "city_name": "Allein",
+      "indirizzo": "SS27, 1/a, 11010 Gignod AO",
+      "lat": 45.802986,
+      "lng": 7.262711
+    },
+    {
+      "id": "84ceb659-ebf7-4aaa-ab6d-f44c06749aed",
+      "slug": "maien-piolet-milieu-allein",
+      "nome": "Maien Piolet Milieu",
+      "city_name": "Allein",
+      "indirizzo": "Località Piolet, 11010 Doues AO",
+      "lat": 45.827244,
+      "lng": 7.290471
+    },
+    {
+      "id": "94bc9853-dbd5-4deb-9892-84bec42410e9",
+      "slug": "maison-bertin-allein",
+      "nome": "Maison Bertin",
+      "city_name": "Allein",
+      "indirizzo": "Ruelle Marcoz, 1, 11014 Etroubles AO",
+      "lat": 45.820241,
+      "lng": 7.230903
+    },
+    {
+      "id": "67b8e833-5d16-4ba3-983c-0e251c65a327",
+      "slug": "mochettaz-allein",
+      "nome": "Mochettaz",
+      "city_name": "Allein",
+      "indirizzo": "Corso Ivrea, 107, 11100 Aosta AO",
+      "lat": 45.740421,
+      "lng": 7.344238
+    },
+    {
+      "id": "0de76063-173e-4f44-9d86-ff1a5d4832f8",
+      "slug": "suisse-hotel-allein",
+      "nome": "SUISSE Hotel",
+      "city_name": "Allein",
+      "indirizzo": "Via Roma, 26, 11010 Saint-Rhémy AO",
+      "lat": 45.835055,
+      "lng": 7.184072
+    },
+    {
+      "id": "7664ee41-2a62-4a0b-b848-7da9ffc092c5",
+      "slug": "agriturismo-bardanella-allerona",
+      "nome": "Agriturismo Bardanella",
+      "city_name": "Allerona",
+      "indirizzo": "Voc Bardanella, 78, 05011 Allerona TR",
+      "lat": 42.836109,
+      "lng": 11.993422
+    },
+    {
+      "id": "815bcda7-091c-49f2-becb-90c3e6b386de",
+      "slug": "agriturismo-belvedere-delle-crete-allerona",
+      "nome": "Agriturismo Belvedere Delle Crete",
+      "city_name": "Allerona",
+      "indirizzo": "Vocabolo Belvedere, 44/a, 05011 Allerona TR",
+      "lat": 42.830196,
+      "lng": 11.983276
+    },
+    {
+      "id": "a8e0b3ea-045b-48bf-ab3b-4e8b8ddef1cc",
+      "slug": "agriturismo-casale-mulinaccino-allerona",
+      "nome": "Agriturismo Casale Mulinaccino",
+      "city_name": "Allerona",
+      "indirizzo": "della Montagna, 38, 05015 Fabro TR",
+      "lat": 42.845253,
+      "lng": 11.982838
+    },
+    {
+      "id": "826a066c-09ea-4429-bd34-7f1b9e78e4bc",
+      "slug": "agriturismo-il-colombaio-allerona",
+      "nome": "Agriturismo Il Colombaio",
+      "city_name": "Allerona",
+      "indirizzo": "Località Colombaiolo, Via di Parrano, Snc, 05010 Montegabbione TR",
+      "lat": 42.87629,
+      "lng": 12.073193
+    },
+    {
+      "id": "bf5d4c48-43aa-4a88-a8f3-d79d43ce39a7",
+      "slug": "agriturismo-pian-di-frattina-allerona",
+      "nome": "Agriturismo Pian di Frattina",
+      "city_name": "Allerona",
+      "indirizzo": "Contrada della Montagna, 43, 05015 Fabro TR",
+      "lat": 42.845258,
+      "lng": 11.973238
+    },
+    {
+      "id": "19d072ad-d041-493c-b553-7512a8675b60",
+      "slug": "agriturismo-riparossa-allerona",
+      "nome": "agriturismo riparossa",
+      "city_name": "Allerona",
+      "indirizzo": "vocabolo villa crespi 6, 05011 Allerona TR",
+      "lat": 42.789035,
+      "lng": 12.019077
+    },
+    {
+      "id": "f0bcbbc9-716e-4071-b0a0-7b0d83250dc4",
+      "slug": "agriturismo-san-pietro-aquaeortus-allerona",
+      "nome": "Agriturismo San Pietro Aquaeortus",
+      "city_name": "Allerona",
+      "indirizzo": "Via Vocabolo Leprara 24, 05011 Allerona TR",
+      "lat": 42.842414,
+      "lng": 11.929046
+    },
+    {
+      "id": "e35b3217-6604-4ade-98f0-4de4c3b7d76a",
+      "slug": "agriturismo-selvella-allerona",
+      "nome": "Agriturismo Selvella",
+      "city_name": "Allerona",
+      "indirizzo": "Localita' Selvella, 5, 05011 Allerona TR",
+      "lat": 42.815014,
+      "lng": 11.962538
+    },
+    {
+      "id": "75e2e3be-d0a6-470b-a08c-eecb25884f4c",
+      "slug": "b-b-campitelli-allerona",
+      "nome": "B&B Campitelli",
+      "city_name": "Allerona",
+      "indirizzo": "Via Campitelli, 114, 05011 Allerona TR",
+      "lat": 42.800895,
+      "lng": 11.992224
+    },
+    {
+      "id": "c31b54b3-755a-4e41-9e7a-75e950b93bac",
+      "slug": "b-b-locanda-toscanini-allerona",
+      "nome": "B&B Locanda Toscanini",
+      "city_name": "Allerona",
+      "indirizzo": "Piazza Arturo Toscanini, 3, 53040 Cetona SI",
+      "lat": 42.907397,
+      "lng": 11.917813
+    },
+    {
+      "id": "dc24bde1-3140-4b84-8c3b-289acd0eca7d",
+      "slug": "casale-il-ventaglio-allerona",
+      "nome": "Casale Il Ventaglio",
+      "city_name": "Allerona",
+      "indirizzo": "Strada Piani, 05016 Ficulle TR",
+      "lat": 42.850508,
+      "lng": 12.043026
+    },
+    {
+      "id": "ce65e928-9931-40ed-bcc3-1e3a08e69371",
+      "slug": "hotel-il-focolare-allerona",
+      "nome": "Hotel Il Focolare",
+      "city_name": "Allerona",
+      "indirizzo": "Contrada della Stazione, 57, 05015 Fabro TR",
+      "lat": 42.875243,
+      "lng": 12.022197
+    },
+    {
+      "id": "35bfe6b0-6245-497c-8350-90e69060d557",
+      "slug": "il-casale-di-lavinia-allerona",
+      "nome": "Il Casale di Lavinia",
+      "city_name": "Allerona",
+      "indirizzo": "Contrada della Piaggia, 2A, 05015 Fabro TR",
+      "lat": 42.866619,
+      "lng": 12.016076
+    },
+    {
+      "id": "8269d1db-3d81-4eb4-b942-9eed8907469e",
+      "slug": "la-pergoletta-a-castello-dal-1925-allerona",
+      "nome": "La Pergoletta a Castello, dal 1925",
+      "city_name": "Allerona",
+      "indirizzo": "Via Cairoli, 05014 Castel Viscardo TR",
+      "lat": 42.754904,
+      "lng": 12.003112
+    },
+    {
+      "id": "961dd4c6-b2d1-40c2-b8dc-c7f1bac147cd",
+      "slug": "six-keys-guesthouse-allerona",
+      "nome": "Six Keys Guesthouse",
+      "city_name": "Allerona",
+      "indirizzo": "Via Nuova, 9, 05011 Allerona TR",
+      "lat": 42.811885,
+      "lng": 11.972929
+    },
+    {
+      "id": "8aff1b8c-f2a8-45f7-8d24-32bc220ab7ea",
+      "slug": "albergo-vittoria-3-stelle-alliste",
+      "nome": "Albergo Vittoria 3 stelle",
+      "city_name": "Alliste",
+      "indirizzo": "Piazza San Martino, 11, 73057 Taviano LE",
+      "lat": 39.982502,
+      "lng": 18.087295
+    },
+    {
+      "id": "e2793448-bc62-492b-a793-95f1537c313e",
+      "slug": "aurosa-vacanze-bed-and-breakfast-alliste",
+      "nome": "Aurosa Vacanze Bed and Breakfast",
+      "city_name": "Alliste",
+      "indirizzo": "Via Capitano Antonio Cutrupia, 23, 73040 Alliste LE",
+      "lat": 39.946585,
+      "lng": 18.092035
+    },
+    {
+      "id": "70f7456b-8482-4af9-aa46-65e641f34d3e",
+      "slug": "b-b-casa-del-corso-alliste",
+      "nome": "B&B Casa del Corso",
+      "city_name": "Alliste",
+      "indirizzo": "Corso Vittorio Emanuele II, 28, 73057 Taviano LE",
+      "lat": 39.980936,
+      "lng": 18.085866
+    },
+    {
+      "id": "ab22a651-3c84-42d1-961a-3238c6b6eb78",
+      "slug": "b-b-maresalento-alliste",
+      "nome": "B&B MARESALENTO",
+      "city_name": "Alliste",
+      "indirizzo": "Via Fiumi Marina, 71, 73055 Racale LE",
+      "lat": 39.959098,
+      "lng": 18.090351
+    },
+    {
+      "id": "77390968-7933-467f-b105-9c4e82eafaef",
+      "slug": "b-b-palazzo-dei-don-alliste",
+      "nome": "B&B Palazzo dei Don",
+      "city_name": "Alliste",
+      "indirizzo": "Via Addolorata, 30, 73055 Racale LE",
+      "lat": 39.959302,
+      "lng": 18.093584
+    },
+    {
+      "id": "89532104-c042-4c2a-a27e-9c02fce1321d",
+      "slug": "b-b-santa-potenza-alliste",
+      "nome": "B&B Santa Potenza",
+      "city_name": "Alliste",
+      "indirizzo": "S.da Provinciale 266, 73040 Felline LE",
+      "lat": 39.928806,
+      "lng": 18.107525
+    },
+    {
+      "id": "8ab97ee6-c7b9-45f2-be91-3751bce57ee4",
+      "slug": "cortere-b-b-alliste",
+      "nome": "Corterè B&B",
+      "city_name": "Alliste",
+      "indirizzo": "Via le Croci, 23, 73040 Alliste LE",
+      "lat": 39.947799,
+      "lng": 18.090547
+    },
+    {
+      "id": "ba90da88-713a-42a2-9687-9f6bd930f850",
+      "slug": "don-alfonso-dimora-d-epoca-alliste",
+      "nome": "Don Alfonso, dimora d'epoca",
+      "city_name": "Alliste",
+      "indirizzo": "Via Dante Alighieri, 73055 Racale LE",
+      "lat": 39.960015,
+      "lng": 18.094241
+    },
+    {
+      "id": "ea6197a4-8355-4046-b2b2-063100bc47ea",
+      "slug": "donna-fiora-antica-dimora-alliste",
+      "nome": "DONNA FIORA Antica Dimora",
+      "city_name": "Alliste",
+      "indirizzo": "Via P. Leone, 9, 73040 Alliste LE",
+      "lat": 39.948814,
+      "lng": 18.08959
+    },
+    {
+      "id": "495a2e9d-30af-4fd3-af71-062f3e89456d",
+      "slug": "hotel-giardino-dei-pini-alliste",
+      "nome": "Hotel Giardino dei Pini",
+      "city_name": "Alliste",
+      "indirizzo": "S.da Provinciale 266, 73040 Alliste LE",
+      "lat": 39.907101,
+      "lng": 18.084972
+    },
+    {
+      "id": "7c867fff-e844-417c-b03b-2876b93f5cab",
+      "slug": "il-giardino-di-paola-b-b-alliste",
+      "nome": "Il Giardino di Paola B&B",
+      "city_name": "Alliste",
+      "indirizzo": "Via Macagnino, 5, 73040 Alliste LE",
+      "lat": 39.94973,
+      "lng": 18.086645
+    },
+    {
+      "id": "7e67deb4-b001-4801-93d1-f58a4e8d13b8",
+      "slug": "la-gemma-del-salento-alliste",
+      "nome": "La Gemma del Salento",
+      "city_name": "Alliste",
+      "indirizzo": "Via Mazzini, 35A, 73055 Racale LE",
+      "lat": 39.959925,
+      "lng": 18.097319
+    },
+    {
+      "id": "a2174da2-b609-44cd-a38c-74e19d10ec0d",
+      "slug": "le-colonne-b-b-alliste",
+      "nome": "Le Colonne B&B",
+      "city_name": "Alliste",
+      "indirizzo": "Via Monte Santo Michele, 3, 73055 Racale LE",
+      "lat": 39.958248,
+      "lng": 18.087862
+    },
+    {
+      "id": "d4573e68-9d30-49dd-ab2b-51c71f281626",
+      "slug": "le-gemelle-boutique-hotel-alliste",
+      "nome": "Le Gemelle Boutique Hotel",
+      "city_name": "Alliste",
+      "indirizzo": "Via Morelli, 2, 73055 Torre Suda LE",
+      "lat": 39.946504,
+      "lng": 18.035915
+    },
+    {
+      "id": "6f80ffdb-9ac7-444c-bbe7-67f1d3b9747b",
+      "slug": "lux-b-b-taviano-alliste",
+      "nome": "Lux b&b taviano",
+      "city_name": "Alliste",
+      "indirizzo": "Via Acaia, 3, 73057 Taviano LE",
+      "lat": 39.975947,
+      "lng": 18.080217
+    }
+  ]
+}

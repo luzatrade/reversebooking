@@ -1,0 +1,323 @@
+{
+  "block": 204,
+  "blockId": "204",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "7558bd70-70ca-4698-b0b0-86c656410583",
+      "slug": "b-b-il-casale-di-aglie-bairo",
+      "nome": "B&B Il Casale di Agliè",
+      "city_name": "Bairo",
+      "indirizzo": "Via Principe Amedeo, 40, 10011 Agliè TO",
+      "lat": 45.365513,
+      "lng": 7.768377
+    },
+    {
+      "id": "1984010e-d52d-493d-87c7-ad6909793662",
+      "slug": "b-b-il-laghetto-bairo",
+      "nome": "B&B Il Laghetto",
+      "city_name": "Bairo",
+      "indirizzo": "Via S. Grato, 33, 10010 Torre Canavese TO",
+      "lat": 45.394872,
+      "lng": 7.761721
+    },
+    {
+      "id": "162e57c3-10b4-48d6-8ebb-036340ebcb2f",
+      "slug": "b-b-la-cascina-bairo",
+      "nome": "B&B La Cascina",
+      "city_name": "Bairo",
+      "indirizzo": "Vicolo Campodoneo, 9, 10011 Agliè TO",
+      "lat": 45.365355,
+      "lng": 7.767027
+    },
+    {
+      "id": "694a6012-52d2-4ba0-8f59-7965e6f44334",
+      "slug": "b-b-la-libellula-bairo",
+      "nome": "B&B la libellula",
+      "city_name": "Bairo",
+      "indirizzo": "Via Santuario, 10, 10080 Cintano TO",
+      "lat": 45.422776,
+      "lng": 7.684932
+    },
+    {
+      "id": "a1062c47-8d5f-46df-931e-f0aa2a0c6efe",
+      "slug": "b-b-torre-cives-bairo",
+      "nome": "B&B Torre Cives",
+      "city_name": "Bairo",
+      "indirizzo": "Via Muriaglio, 18, 10080 Vidracco TO",
+      "lat": 45.425315,
+      "lng": 7.746964
+    },
+    {
+      "id": "c81e1eb3-8759-40c6-a337-ff624a0c0c8b",
+      "slug": "bed-breakfast-mezzaluna-bairo",
+      "nome": "Bed&breakfast Mezzaluna",
+      "city_name": "Bairo",
+      "indirizzo": "Via Gianni Micheletto, N.58, 10080 Feletto TO",
+      "lat": 45.301947,
+      "lng": 7.746576
+    },
+    {
+      "id": "20826a22-2cd4-40d9-ba6c-724eb6f2c0db",
+      "slug": "casa-omnia-b-b-bairo",
+      "nome": "Casa Omnia B&B",
+      "city_name": "Bairo",
+      "indirizzo": "Strada Provinciale 61 per, 10080 Issiglio TO",
+      "lat": 45.441882,
+      "lng": 7.718862
+    },
+    {
+      "id": "86061518-f385-4dd1-979a-de442cae3a15",
+      "slug": "hotel-motel-residence-s-front-bairo",
+      "nome": "Hotel Motel & Residence \"S\" - Front",
+      "city_name": "Bairo",
+      "indirizzo": "Via Giovanni, Via Roveda, 10, 10070 Front TO",
+      "lat": 45.290821,
+      "lng": 7.668656
+    },
+    {
+      "id": "24f2c22a-fcfd-4b85-beef-ffec279f6efb",
+      "slug": "il-vecchio-comune-b-b-bairo",
+      "nome": "Il Vecchio Comune B&B",
+      "city_name": "Bairo",
+      "indirizzo": "Via Chiuminatto, 14, 10080 Cintano TO",
+      "lat": 45.428227,
+      "lng": 7.687537
+    },
+    {
+      "id": "7b9f0d8d-13e7-41d0-9c67-025d7226d4db",
+      "slug": "locanda-la-guienda-bairo",
+      "nome": "Locanda La Guienda",
+      "city_name": "Bairo",
+      "indirizzo": "Via S. Grato, 15, 10010 Torre Canavese TO",
+      "lat": 45.394169,
+      "lng": 7.761579
+    },
+    {
+      "id": "5a003416-96c3-4064-8b77-f7f8c3950178",
+      "slug": "mulino-di-bairo-bairo",
+      "nome": "Mulino di Bairo",
+      "city_name": "Bairo",
+      "indirizzo": "Via Molino, 6, 10010 Bairo TO",
+      "lat": 45.368845,
+      "lng": 7.747805
+    },
+    {
+      "id": "b717b543-7467-46ee-be37-c64bf705eb2f",
+      "slug": "ostellorto-bairo",
+      "nome": "OstellOrto",
+      "city_name": "Bairo",
+      "indirizzo": "Via delle Scuole, 37, 10010 Silva TO",
+      "lat": 45.39202,
+      "lng": 7.785134
+    },
+    {
+      "id": "8c8f1304-d1d7-4d1d-abe4-294cf1f82f07",
+      "slug": "residenza-del-lago-bairo",
+      "nome": "Residenza del Lago",
+      "city_name": "Bairo",
+      "indirizzo": "Via Roma, 48Bis, 10010 Candia Canavese TO",
+      "lat": 45.327409,
+      "lng": 7.8846
+    },
+    {
+      "id": "31e01903-1a1a-4609-ab79-c73a2a173e43",
+      "slug": "ristorante-albergo-tre-re-bairo",
+      "nome": "Ristorante Albergo Tre Re",
+      "city_name": "Bairo",
+      "indirizzo": "Piazza Martiri Della Liberta', 27, 10181 Castellamonte TO",
+      "lat": 45.3833,
+      "lng": 7.709288
+    },
+    {
+      "id": "33e4b271-11d8-402d-b925-105bdbb122bb",
+      "slug": "agriturismo-ca-del-ciuco-baiso",
+      "nome": "Agriturismo Ca' del Ciuco",
+      "city_name": "Baiso",
+      "indirizzo": "Via Case Martini, 6, 42030 Vezzano sul Crostolo RE",
+      "lat": 44.576026,
+      "lng": 10.484148
+    },
+    {
+      "id": "3ef8c229-401a-4703-91c4-f6eb7d8f2ee0",
+      "slug": "agriturismo-di-sordiglio-baiso",
+      "nome": "Agriturismo di Sordiglio",
+      "city_name": "Baiso",
+      "indirizzo": "Via Paullo Sordiglio, 26, 42034 Sordiglio RE",
+      "lat": 44.562794,
+      "lng": 10.484982
+    },
+    {
+      "id": "0f019ea4-d22f-4db6-a7f9-53050abf0889",
+      "slug": "agriturismo-la-borgaccia-baiso",
+      "nome": "Agriturismo La Borgaccia",
+      "city_name": "Baiso",
+      "indirizzo": "Via, Baiso RE IT, 42031 Ca' D'orio RE",
+      "lat": 44.484157,
+      "lng": 10.620595
+    },
+    {
+      "id": "5a41fe55-7114-4f5b-94b9-b74cbd643635",
+      "slug": "agriturismo-san-valentino-baiso",
+      "nome": "Agriturismo San Valentino",
+      "city_name": "Baiso",
+      "indirizzo": "Via Rontano, 35, 42014 Castellarano RE",
+      "lat": 44.504933,
+      "lng": 10.689196
+    },
+    {
+      "id": "b3e23cde-0812-43b4-b49f-30bf3c5ed738",
+      "slug": "b-b-canossalpaca-baiso",
+      "nome": "B&B Canossalpaca",
+      "city_name": "Baiso",
+      "indirizzo": "Via Ceredolo dei coppi 149, 42026 Canossa RE",
+      "lat": 44.556859,
+      "lng": 10.454943
+    },
+    {
+      "id": "791a0388-1ab8-4810-8c84-8739e5694222",
+      "slug": "bed-and-breakfast-castello-san-romano-baiso",
+      "nome": "Bed and Breakfast CASTELLO SAN ROMANO",
+      "city_name": "Baiso",
+      "indirizzo": "Via Castello di S. Romano, 42031 Baiso RE",
+      "lat": 44.52202,
+      "lng": 10.638957
+    },
+    {
+      "id": "b5e0107b-d741-486b-adae-0513166a0e9f",
+      "slug": "borgo-cadonega-relais-spa-baiso",
+      "nome": "Borgo Cadonega Relais & Spa",
+      "city_name": "Baiso",
+      "indirizzo": "Via Cadonega, 7, 42030 Viano RE",
+      "lat": 44.543015,
+      "lng": 10.623348
+    },
+    {
+      "id": "da659f2c-81e6-4272-ad01-4cc5cf0d9e63",
+      "slug": "castello-di-viano-ristorante-room-suite-baiso",
+      "nome": "Castello di Viano - Ristorante - Room & Suite",
+      "city_name": "Baiso",
+      "indirizzo": "Via Castello, 9, 42030 Viano RE",
+      "lat": 44.550271,
+      "lng": 10.638424
+    },
+    {
+      "id": "88966847-bfce-4029-877e-02527688cbe9",
+      "slug": "cherry-house-b-b-baiso",
+      "nome": "Cherry House B&B",
+      "city_name": "Baiso",
+      "indirizzo": "Via Orazio Vecchi, 22, 41040 Polinago MO",
+      "lat": 44.346916,
+      "lng": 10.728462
+    },
+    {
+      "id": "40d2ca30-4036-4b40-9e43-b63ac15b4739",
+      "slug": "fattoria-branciana-baiso",
+      "nome": "Fattoria Branciana",
+      "city_name": "Baiso",
+      "indirizzo": "Via Rossena, 93, 42026 Canossa RE",
+      "lat": 44.568266,
+      "lng": 10.44764
+    },
+    {
+      "id": "0033c9bf-10c2-4848-ac28-c814d4ddfe30",
+      "slug": "hotel-matilde-baiso",
+      "nome": "Hotel Matilde",
+      "city_name": "Baiso",
+      "indirizzo": "Piazza del Tricolore, 3, 42033 Carpineti RE",
+      "lat": 44.457818,
+      "lng": 10.521524
+    },
+    {
+      "id": "61db43b9-1dd4-473e-92a9-b579b0904a5f",
+      "slug": "il-golfino-baiso",
+      "nome": "IL Golfino",
+      "city_name": "Baiso",
+      "indirizzo": "Via Telarolo, 12, 42014 Castellarano RE",
+      "lat": 44.53299,
+      "lng": 10.687461
+    },
+    {
+      "id": "3f4dc540-9ba8-4309-8138-f494001dd02d",
+      "slug": "locanda-sottolaluna-baiso",
+      "nome": "Locanda SottolaLuna",
+      "city_name": "Baiso",
+      "indirizzo": "Via S. Polo, 4, 42030 Viano RE",
+      "lat": 44.548591,
+      "lng": 10.620561
+    },
+    {
+      "id": "ee4da2bb-216b-4be8-a63b-3f2bb8d367f9",
+      "slug": "pra-de-mande-baiso",
+      "nome": "Prà de Mandè",
+      "city_name": "Baiso",
+      "indirizzo": "Via Prato Mandeto, 4, 42030 Viano RE",
+      "lat": 44.565109,
+      "lng": 10.647324
+    },
+    {
+      "id": "55b0d531-5a34-4f1a-b57b-b2144f796de4",
+      "slug": "affittacamere-le-camere-del-corso-bajardo",
+      "nome": "affittacamere Le camere del Corso",
+      "city_name": "Bajardo",
+      "indirizzo": "Corso G. Garibaldi, 138, 18038 Sanremo IM",
+      "lat": 43.820341,
+      "lng": 7.781662
+    },
+    {
+      "id": "8dabba74-7f2b-4560-8320-cf6df33c0036",
+      "slug": "andres-guesthouse-sanremo-bajardo",
+      "nome": "Andres GuestHouse Sanremo",
+      "city_name": "Bajardo",
+      "indirizzo": "Via Piave, 9, 18038 Sanremo IM",
+      "lat": 43.816788,
+      "lng": 7.776803
+    },
+    {
+      "id": "da8f2838-2929-44c8-a79b-267f0e09f164",
+      "slug": "b-b-le-camelie-del-bosco-bajardo",
+      "nome": "B&B Le Camelie del Bosco",
+      "city_name": "Bajardo",
+      "indirizzo": "Reg. Gian Lui, 2A, 18031 Bajardo IM",
+      "lat": 43.90277,
+      "lng": 7.726946
+    },
+    {
+      "id": "a0a55b63-484a-452a-b590-3b3c098968a3",
+      "slug": "hotel-ariston-montecarlo-bajardo",
+      "nome": "Hotel Ariston Montecarlo",
+      "city_name": "Bajardo",
+      "indirizzo": "Corso Giuseppe Mazzini, 507, 18038 Sanremo IM",
+      "lat": 43.819327,
+      "lng": 7.824048
+    },
+    {
+      "id": "8e46e28e-a6d5-49aa-9fcc-9d620ed7ad8b",
+      "slug": "hotel-sanremo-bajardo",
+      "nome": "Hotel Sanremo",
+      "city_name": "Bajardo",
+      "indirizzo": "Corso Augusto Mombello, 50, 18038 Sanremo IM",
+      "lat": 43.815278,
+      "lng": 7.776111
+    },
+    {
+      "id": "8abf0f4a-8908-44b0-944a-80121abfc6a2",
+      "slug": "hotel-villa-la-brise-bajardo",
+      "nome": "Hotel Villa La Brise",
+      "city_name": "Bajardo",
+      "indirizzo": "Corso Giuseppe Mazzini, 199, 18038 Sanremo IM",
+      "lat": 43.823411,
+      "lng": 7.808603
+    },
+    {
+      "id": "26823828-ea49-4579-9c5b-b47746d604cf",
+      "slug": "sakura-inn-sanremo-bajardo",
+      "nome": "Sakura Inn Sanremo",
+      "city_name": "Bajardo",
+      "indirizzo": "Via Camillo Benso di Cavour, 19, 18038 Sanremo IM",
+      "lat": 43.81758,
+      "lng": 7.776271
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 93,
+  "blockId": "093",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "d7e5f8bd-6c30-4397-a869-76dd2a1c8ff2",
+      "slug": "agriturismo-pupigliano-alviano",
+      "nome": "Agriturismo Pupigliano",
+      "city_name": "Alviano",
+      "indirizzo": "Vocabolo Pupigliano, 3, 05020 Alviano TR",
+      "lat": 42.591003,
+      "lng": 12.273505
+    },
+    {
+      "id": "c65668f8-c00d-4035-a436-ecd5ece7c670",
+      "slug": "b-b-fontanelle-alviano",
+      "nome": "B&B Fontanelle",
+      "city_name": "Alviano",
+      "indirizzo": "Vocabolo Fontanelle, 7, 05020 Alviano TR",
+      "lat": 42.587436,
+      "lng": 12.309602
+    },
+    {
+      "id": "0e33f9f3-fc7a-4c57-bd9c-9be33f1bb374",
+      "slug": "hotel-alviano-alviano",
+      "nome": "Hotel Alviano",
+      "city_name": "Alviano",
+      "indirizzo": "Str. della Stazione, 7, 05020 Alviano TR",
+      "lat": 42.591173,
+      "lng": 12.260219
+    },
+    {
+      "id": "3ba91117-bc61-4a82-a713-61ca271a59bf",
+      "slug": "a-vadera-alvignano",
+      "nome": "A' Vadera",
+      "city_name": "Alvignano",
+      "indirizzo": "Via castello, 24, 81010 Ruviano CE",
+      "lat": 41.210053,
+      "lng": 14.409497
+    },
+    {
+      "id": "6c5c771d-8e9e-4177-bc2b-9c54fe2b427a",
+      "slug": "agriturismo-genovesi-alvignano",
+      "nome": "Agriturismo Genovesi",
+      "city_name": "Alvignano",
+      "indirizzo": "Via Genovesi, 12, 81012 Alvignano CE",
+      "lat": 41.23503,
+      "lng": 14.358129
+    },
+    {
+      "id": "cdabc3da-10b5-4309-81ee-9e93f3b8d679",
+      "slug": "agriturismo-san-marco-alvignano",
+      "nome": "Agriturismo San Marco",
+      "city_name": "Alvignano",
+      "indirizzo": "Località, Via S. Ferdinando, 81010 Dragoni CE",
+      "lat": 41.269424,
+      "lng": 14.33337
+    },
+    {
+      "id": "e8978ae0-69c1-4c2d-8b20-55d0cb324648",
+      "slug": "atomos-alvignano",
+      "nome": "Atomos",
+      "city_name": "Alvignano",
+      "indirizzo": "Via moleta, 2, 81012 Alvignano CE",
+      "lat": 41.236611,
+      "lng": 14.345743
+    },
+    {
+      "id": "a9dfef56-1a5d-4e23-a2b5-1106037fb59a",
+      "slug": "b-b-la-casa-dei-fiori-alvignano",
+      "nome": "B&B LA CASA DEI FIORI",
+      "city_name": "Alvignano",
+      "indirizzo": "Via Telese, 166, 82031 Amorosi BN",
+      "lat": 41.203745,
+      "lng": 14.466655
+    },
+    {
+      "id": "6106718f-9965-49c7-b1ec-27cb48c30f46",
+      "slug": "de-matteo-b-b-alvignano",
+      "nome": "De Matteo B&B",
+      "city_name": "Alvignano",
+      "indirizzo": "Vicolo S. Giovanni Battista, 81013 Caiazzo CE",
+      "lat": 41.177542,
+      "lng": 14.366144
+    },
+    {
+      "id": "eaf189b8-87d5-4098-804c-0fccbd6c0ea6",
+      "slug": "la-dimora-di-euterpe-alvignano",
+      "nome": "La Dimora di Euterpe",
+      "city_name": "Alvignano",
+      "indirizzo": "Via Orientale, 22, 81010 Ruviano CE",
+      "lat": 41.210086,
+      "lng": 14.410406
+    },
+    {
+      "id": "3c43c8bf-d67c-41d3-91e7-ce384070b9a7",
+      "slug": "mulino-bencivenga-alvignano",
+      "nome": "Mulino Bencivenga",
+      "city_name": "Alvignano",
+      "indirizzo": "Via S. Giacomo, 1, 81012 Alvignano CE",
+      "lat": 41.239445,
+      "lng": 14.358121
+    },
+    {
+      "id": "99ec2a98-92bf-4d53-ae2d-67ce67c4496c",
+      "slug": "petrus-rooms-alvignano",
+      "nome": "Petrus Rooms",
+      "city_name": "Alvignano",
+      "indirizzo": "Via Ponte, 32, 81013 Caiazzo CE",
+      "lat": 41.175708,
+      "lng": 14.366759
+    },
+    {
+      "id": "b823b25f-fe4b-4f3e-9570-1fb4c1e2e647",
+      "slug": "villa-falcone-b-b-alvignano",
+      "nome": "Villa Falcone B&B",
+      "city_name": "Alvignano",
+      "indirizzo": "Via Faraoni, 99, 81012 Alvignano CE",
+      "lat": 41.242559,
+      "lng": 14.338711
+    },
+    {
+      "id": "79faa447-5a4f-4fe7-8a9e-4264c16b3e36",
+      "slug": "villa-ortensia-d-avalos-alvignano",
+      "nome": "Villa Ortensia D'Avalos",
+      "city_name": "Alvignano",
+      "indirizzo": "Via Antonio Genovesi, 2, 81012 Alvignano CE",
+      "lat": 41.227457,
+      "lng": 14.355989
+    },
+    {
+      "id": "0ab76276-b64a-48cc-ab85-82c26ca5b659",
+      "slug": "a-casa-di-bed-and-breakfast-alvito",
+      "nome": "“A casa di” bed and breakfast",
+      "city_name": "Alvito",
+      "indirizzo": "Piazza Umberto I, 1, 03041 Alvito FR",
+      "lat": 41.688955,
+      "lng": 13.745718
+    },
+    {
+      "id": "4bf6446c-5d23-4d8e-a277-3e0a58b40a3f",
+      "slug": "accogliente-dimora-nel-centro-storico-di-alvito-alvito",
+      "nome": "Accogliente Dimora nel Centro Storico di Alvito Dinamica Real Estate",
+      "city_name": "Alvito",
+      "indirizzo": "Via Ospedale, 34, 03041 Alvito FR",
+      "lat": 41.686828,
+      "lng": 13.740744
+    },
+    {
+      "id": "8e4b7b4c-5ca5-4dd5-8d51-c5cdf3843eb8",
+      "slug": "agriturismo-la-fattoria-alvito",
+      "nome": "Agriturismo La Fattoria",
+      "city_name": "Alvito",
+      "indirizzo": "Via Macerino, 03046 San Donato Val di Comino FR",
+      "lat": 41.699101,
+      "lng": 13.805302
+    },
+    {
+      "id": "9d8afe74-6668-41d9-aded-69b05e5c4c42",
+      "slug": "al-romito-alvito",
+      "nome": "Al Romito",
+      "city_name": "Alvito",
+      "indirizzo": "Via Madonna delle Fosse, 1, 03030 Santopadre FR",
+      "lat": 41.612438,
+      "lng": 13.639152
+    },
+    {
+      "id": "1535db56-d8d7-47f5-9158-bee1c7abf251",
+      "slug": "b-b-la-finestra-sul-lago-bed-and-breakfast-alvito",
+      "nome": "B&B - La Finestra sul Lago - Bed and Breakfast",
+      "city_name": "Alvito",
+      "indirizzo": "Via Carpello, 20, 03030 Posta Fibreno FR",
+      "lat": 41.702334,
+      "lng": 13.688523
+    },
+    {
+      "id": "4d294f5c-6915-4e62-9db5-b0ae15e6292a",
+      "slug": "b-b-al-colle-alvito",
+      "nome": "B&B Al Colle",
+      "city_name": "Alvito",
+      "indirizzo": "Via Colle, 48, 03030 Pescosolido FR",
+      "lat": 41.75139,
+      "lng": 13.656218
+    },
+    {
+      "id": "021b448f-0b7a-4b64-9dc9-fc12ff0f79ae",
+      "slug": "b-b-casal-cominium-alvito",
+      "nome": "B&B Casal Cominium",
+      "city_name": "Alvito",
+      "indirizzo": "Via S. Andrea, 22/A, 03046 San Donato Val di Comino FR",
+      "lat": 41.708738,
+      "lng": 13.774687
+    },
+    {
+      "id": "219054d2-e962-4536-b121-bdad918e99a3",
+      "slug": "b-b-castrum-alvito",
+      "nome": "B&B Castrum",
+      "city_name": "Alvito",
+      "indirizzo": "Piazza Guglielmo Marconi, 03030 Santopadre FR",
+      "lat": 41.602686,
+      "lng": 13.635048
+    },
+    {
+      "id": "bcc725da-1ea6-46b3-967e-fc9d7b4de759",
+      "slug": "b-b-il-cauto-alvito",
+      "nome": "B&B Il Caùto",
+      "city_name": "Alvito",
+      "indirizzo": "Via Caio Mario, 43, 03033 Arpino FR",
+      "lat": 41.647909,
+      "lng": 13.607606
+    },
+    {
+      "id": "5ad1f943-fbf6-48ef-bf80-4005f77634fc",
+      "slug": "fons-clara-domus-et-eventi-alvito",
+      "nome": "Fons Clara Domus et Eventi",
+      "city_name": "Alvito",
+      "indirizzo": "Via Colle Laturo, s.n.c, 03030 Fontechiari FR",
+      "lat": 41.680456,
+      "lng": 13.678708
+    },
+    {
+      "id": "256de739-32fa-4246-a6d5-21ae2dfec900",
+      "slug": "il-casale-della-regina-alvito",
+      "nome": "Il casale della regina",
+      "city_name": "Alvito",
+      "indirizzo": "Via Abate I. Rea, 03033 Arpino FR",
+      "lat": 41.643959,
+      "lng": 13.60917
+    },
+    {
+      "id": "1d65f473-c5b5-4e24-bfe5-9a9f915a85ee",
+      "slug": "il-tiglio-alvito",
+      "nome": "Il Tiglio",
+      "city_name": "Alvito",
+      "indirizzo": "Via S. Nicola, 03041 Alvito FR",
+      "lat": 41.687164,
+      "lng": 13.744412
+    },
+    {
+      "id": "b6b8a646-a2cf-47f5-8cf2-205db892565a",
+      "slug": "italy-farm-stay-alvito",
+      "nome": "Italy Farm Stay",
+      "city_name": "Alvito",
+      "indirizzo": "VIA Colledardo, 8, 03030 Pescosolido FR",
+      "lat": 41.745657,
+      "lng": 13.636511
+    },
+    {
+      "id": "9632a32e-eac2-4785-90ae-d5ccb0a88f9c",
+      "slug": "relais-colle-buono-alvito",
+      "nome": "Relais Colle Buono",
+      "city_name": "Alvito",
+      "indirizzo": "Via Colle Buono, 2, 03041 Serre di Conca FR",
+      "lat": 41.678581,
+      "lng": 13.754968
+    },
+    {
+      "id": "f321112e-b2e5-43be-82b5-c24f2f1a67a4",
+      "slug": "relais-valle-dell-aquila-alvito",
+      "nome": "Relais Valle dell'Aquila",
+      "city_name": "Alvito",
+      "indirizzo": "Loc. Massarella, 2, 03040 Settefrati FR",
+      "lat": 41.653756,
+      "lng": 13.840803
+    },
+    {
+      "id": "ce2e3035-f723-41de-bd65-8b0ab0a78700",
+      "slug": "rifugio-orsa-maggiore-alvito",
+      "nome": "Rifugio Orsa Maggiore",
+      "city_name": "Alvito",
+      "indirizzo": "SR666, 03030 Campoli Appennino FR",
+      "lat": 41.753201,
+      "lng": 13.726016
+    },
+    {
+      "id": "8d094f85-0862-4040-87bc-e803c5edab5a",
+      "slug": "tenuta-del-daino-alvito",
+      "nome": "Tenuta Del Daino",
+      "city_name": "Alvito",
+      "indirizzo": "Via Fontanelle, 6, 03041 Alvito FR",
+      "lat": 41.696608,
+      "lng": 13.749337
+    },
+    {
+      "id": "a546cb50-3c07-4531-9a47-705e77dce2f5",
+      "slug": "the-wishing-well-alvito",
+      "nome": "The Wishing Well",
+      "city_name": "Alvito",
+      "indirizzo": "Via Piana, 03040 Gallinaro FR",
+      "lat": 41.670723,
+      "lng": 13.805822
+    },
+    {
+      "id": "ecec0eb5-c90a-4899-b734-8c363a51be49",
+      "slug": "viale-dei-ciliegi-alvito",
+      "nome": "Viale dei Ciliegi",
+      "city_name": "Alvito",
+      "indirizzo": "Via S. Rocco Contrada Maiale, snc, 03041 Alvito FR",
+      "lat": 41.687033,
+      "lng": 13.76605
+    },
+    {
+      "id": "222aa531-331d-4fc5-8d8f-8d5e72255952",
+      "slug": "victoria-affitti-brevi-alvito",
+      "nome": "VICTORIA Affitti Brevi",
+      "city_name": "Alvito",
+      "indirizzo": "Via Maggiore Galliano, 30, 03040 Gallinaro FR",
+      "lat": 41.652611,
+      "lng": 13.797682
+    },
+    {
+      "id": "6dc7a674-4dee-4be5-9f8b-a5ea05041467",
+      "slug": "agriturismo-la-soglia-del-parco-alzano-lombardo",
+      "nome": "Agriturismo La soglia del parco",
+      "city_name": "Alzano Lombardo",
+      "indirizzo": "Via Zanino Colle, 17, 24020 Ranica BG",
+      "lat": 45.735023,
+      "lng": 9.709805
+    }
+  ]
+}

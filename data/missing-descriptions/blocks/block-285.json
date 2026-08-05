@@ -1,0 +1,323 @@
+{
+  "block": 285,
+  "blockId": "285",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "b3535d2c-ad1f-4e51-a300-476ce20e07ac",
+      "slug": "meriggio-agriturismo-bolognola",
+      "nome": "Meriggio Agriturismo",
+      "city_name": "Bolognola",
+      "indirizzo": "Frazione Meriggio, 11/bis, 62035 Fiastra MC",
+      "lat": 43.025894,
+      "lng": 13.170865
+    },
+    {
+      "id": "f105f469-b1dd-440e-8d88-b002d6b64d57",
+      "slug": "palazzo-rossi-historic-boutique-home-in-marche-bolognola",
+      "nome": "Palazzo Rossi | Historic Boutique Home in Marche",
+      "city_name": "Bolognola",
+      "indirizzo": "Piazza della Libertà, 77, 62028 Sarnano MC",
+      "lat": 43.035836,
+      "lng": 13.298705
+    },
+    {
+      "id": "cf78bb0b-daf2-4440-929a-674dd851cb0b",
+      "slug": "rifugio-del-fargno-bolognola",
+      "nome": "Rifugio del Fargno",
+      "city_name": "Bolognola",
+      "indirizzo": "Forcella del Fargno, 62039 Ussita MC",
+      "lat": 42.953072,
+      "lng": 13.20783
+    },
+    {
+      "id": "0d9dafde-7b18-4e5c-8bf3-ddcd6bf3fd2e",
+      "slug": "sasso-bianco-bolognola",
+      "nome": "Sasso Bianco",
+      "city_name": "Bolognola",
+      "indirizzo": "Via Madonna Sasso Bianco, 5, 62033 San Lorenzo Al Lago MC",
+      "lat": 43.037076,
+      "lng": 13.167912
+    },
+    {
+      "id": "64395181-d75a-45bc-8e57-220ceb79df61",
+      "slug": "agriturismo-sa-pigalva-bolotana",
+      "nome": "Agriturismo Sa Pigalva",
+      "city_name": "Bolotana",
+      "indirizzo": "Loc. Sa Pigalva, 07010 Tula SS",
+      "lat": 40.722637,
+      "lng": 9.013923
+    },
+    {
+      "id": "d02e280d-865c-4df1-8019-444ea4d057b1",
+      "slug": "agriturismo-santa-sarbana-bolotana",
+      "nome": "Agriturismo Santa Sarbana",
+      "city_name": "Bolotana",
+      "indirizzo": "Loc. Benaoes, 08017 Silanus NU",
+      "lat": 40.278048,
+      "lng": 8.881033
+    },
+    {
+      "id": "c2cb923e-9e2e-4bcf-b639-77fca286b546",
+      "slug": "agriturismo-su-francadu-bolotana",
+      "nome": "Agriturismo Su Francadu",
+      "city_name": "Bolotana",
+      "indirizzo": "SP19, 09073 Cuglieri OR",
+      "lat": 40.151369,
+      "lng": 8.660151
+    },
+    {
+      "id": "71096b76-f8e5-42fc-b4c9-e28d9f44f082",
+      "slug": "b-b-da-zia-carmela-bolotana",
+      "nome": "B&b da Zia Carmela",
+      "city_name": "Bolotana",
+      "indirizzo": "Vico Martini, 17, 08011 Bolotana NU",
+      "lat": 40.327805,
+      "lng": 8.960032
+    },
+    {
+      "id": "9d8637d1-3738-40d3-8967-538a24139337",
+      "slug": "b-b-sa-sartoria-bolotana",
+      "nome": "B&b sa sartoria",
+      "city_name": "Bolotana",
+      "indirizzo": "Piazza Corte Bella, 1, 08011 Bolotana NU",
+      "lat": 40.327585,
+      "lng": 8.959423
+    },
+    {
+      "id": "d78eadd3-042f-4f64-87a5-da8718fd06ac",
+      "slug": "il-melograno-bolotana",
+      "nome": "Il melograno",
+      "city_name": "Bolotana",
+      "indirizzo": "Via G. Marconi, 202, 08011 Bolotana NU",
+      "lat": 40.330565,
+      "lng": 8.955675
+    },
+    {
+      "id": "37ac99d0-a1c0-4957-b234-a1b827e1a6bf",
+      "slug": "ristorante-s-iscopalzu-bolotana",
+      "nome": "Ristorante S'Iscopalzu",
+      "city_name": "Bolotana",
+      "indirizzo": "Loc. S'Icopalzu, 08020 Osidda NU",
+      "lat": 40.507181,
+      "lng": 9.238733
+    },
+    {
+      "id": "236b3a12-5018-4f9f-b2be-1a2fb1c849d1",
+      "slug": "agriturismo-le-vigne-lago-di-bolsena-bolsena",
+      "nome": "Agriturismo Le Vigne lago di Bolsena",
+      "city_name": "Bolsena",
+      "indirizzo": "Località le Vigne, 157/B, 01023 Bolsena VT",
+      "lat": 42.641667,
+      "lng": 11.992485
+    },
+    {
+      "id": "36ee1c4d-3d40-4fd5-8775-577cbc6c483b",
+      "slug": "b-b-anna-bolsena",
+      "nome": "B&b ANNA",
+      "city_name": "Bolsena",
+      "indirizzo": "Via Giuseppe Savastano, 40, 01023 Bolsena VT",
+      "lat": 42.643978,
+      "lng": 11.983592
+    },
+    {
+      "id": "7c95371d-9787-4da6-8b62-369bdbd740f5",
+      "slug": "casale-1541-bolsena",
+      "nome": "Casale 1541",
+      "city_name": "Bolsena",
+      "indirizzo": "Via Acqua della Croce, 25, 01023 Bolsena VT",
+      "lat": 42.641928,
+      "lng": 11.991047
+    },
+    {
+      "id": "e7dcfb8d-2163-4c1f-b7e2-ed5374f2a4b2",
+      "slug": "hotel-columbus-sul-lago-4-stelle-bolsena",
+      "nome": "Hotel Columbus sul Lago 4 stelle",
+      "city_name": "Bolsena",
+      "indirizzo": "LUNGOLAGO, Viale Nicola Colesanti, 27, 01023 Bolsena VT",
+      "lat": 42.640997,
+      "lng": 11.982964
+    },
+    {
+      "id": "7196e18c-7354-44dd-bf09-2cde3bcf7d00",
+      "slug": "hotel-eden-bolsena",
+      "nome": "Hotel Eden",
+      "city_name": "Bolsena",
+      "indirizzo": "Via Cassia Nord, km 114/200, 01023 Bolsena VT",
+      "lat": 42.648049,
+      "lng": 11.972891
+    },
+    {
+      "id": "66f79994-f60e-4e29-ac84-38ecc57e71a8",
+      "slug": "hotel-holiday-bolsena",
+      "nome": "Hotel Holiday",
+      "city_name": "Bolsena",
+      "indirizzo": "Viale Armando Diaz, 38, 01023 Bolsena VT",
+      "lat": 42.643639,
+      "lng": 11.978513
+    },
+    {
+      "id": "6610b0c9-ef30-4448-b832-1bed1b541779",
+      "slug": "hotel-lido-beach-palace-bolsena",
+      "nome": "Hotel Lido Beach & Palace",
+      "city_name": "Bolsena",
+      "indirizzo": "km 114, 800, Via Cassia Nord, 01023 Bolsena VT",
+      "lat": 42.65,
+      "lng": 11.966389
+    },
+    {
+      "id": "fd9ffdd4-0661-42c2-ade3-42779647b609",
+      "slug": "hotel-nazionale-bolsena",
+      "nome": "Hotel Nazionale",
+      "city_name": "Bolsena",
+      "indirizzo": "Via Antonio Gramsci, 50, 01023 Bolsena VT",
+      "lat": 42.644012,
+      "lng": 11.986129
+    },
+    {
+      "id": "b28f174b-c51a-418b-b25f-a8e66bce03ba",
+      "slug": "hotel-royal-bolsena",
+      "nome": "Hotel Royal",
+      "city_name": "Bolsena",
+      "indirizzo": "Piazzale Dante Alighieri, 8/10, 01023 Bolsena VT",
+      "lat": 42.641406,
+      "lng": 11.982319
+    },
+    {
+      "id": "d56f6c05-6a96-4463-8806-68cf36c2c08c",
+      "slug": "hotel-zodiaco-bolsena-bolsena",
+      "nome": "Hotel Zodiaco - Bolsena",
+      "city_name": "Bolsena",
+      "indirizzo": "Via IV Novembre, 8, 01023 Bolsena VT",
+      "lat": 42.642395,
+      "lng": 11.989205
+    },
+    {
+      "id": "f2a53ea4-d9f1-45bc-afa6-c30d530f505a",
+      "slug": "il-palazzetto-bolsena",
+      "nome": "Il Palazzetto",
+      "city_name": "Bolsena",
+      "indirizzo": "Corso della Repubblica, 16, 01023 Bolsena VT",
+      "lat": 42.644339,
+      "lng": 11.987483
+    },
+    {
+      "id": "c780a285-353c-4413-a6cb-c18f8ab45a84",
+      "slug": "il-vesconte-bolsena",
+      "nome": "Il VesConte",
+      "city_name": "Bolsena",
+      "indirizzo": "Piazza S. Rocco, 12, 01023 Bolsena VT",
+      "lat": 42.645686,
+      "lng": 11.984935
+    },
+    {
+      "id": "2fdf247c-44fd-480b-9ce8-76d9a70b75e4",
+      "slug": "le-naiadi-park-hotel-bolsena",
+      "nome": "Le Naiadi Park Hotel",
+      "city_name": "Bolsena",
+      "indirizzo": "Viale Luigi Cadorna, 95, 01023 Bolsena VT",
+      "lat": 42.636544,
+      "lng": 11.985319
+    },
+    {
+      "id": "2aee4bfa-91d3-4571-821d-bdb63d404b26",
+      "slug": "loriana-park-hotel-sul-lago-bolsena",
+      "nome": "Loriana Park Hotel sul Lago",
+      "city_name": "Bolsena",
+      "indirizzo": "Viale Luigi Cadorna, 33, 01023 Bolsena VT",
+      "lat": 42.639612,
+      "lng": 11.984203
+    },
+    {
+      "id": "c5377da9-a8c8-45ed-8f1d-685322729b8a",
+      "slug": "ludwig-boutique-hotel-spa-bolsena",
+      "nome": "Ludwig Boutique Hotel & Spa",
+      "city_name": "Bolsena",
+      "indirizzo": "Viale Luigi Cadorna, 15/B, 01023 Bolsena VT",
+      "lat": 42.640101,
+      "lng": 11.983619
+    },
+    {
+      "id": "d5ed5817-3de7-44c5-a9b9-8eae7d86f170",
+      "slug": "palazzo-bottino-a-bolsena-bolsena",
+      "nome": "PALAZZO BOTTINO a Bolsena",
+      "city_name": "Bolsena",
+      "indirizzo": "Via del Bottino, 28, 01023 Bolsena VT",
+      "lat": 42.646159,
+      "lng": 11.986374
+    },
+    {
+      "id": "9a544f20-02ae-4c81-8e44-e821d1057c2a",
+      "slug": "platani-hotel-spa-bolsena",
+      "nome": "Platani Hotel & SPA",
+      "city_name": "Bolsena",
+      "indirizzo": "Via Roma, 2, 01023 Bolsena VT",
+      "lat": 42.643776,
+      "lng": 11.986608
+    },
+    {
+      "id": "532a180f-4c30-4b18-ba54-a0caeff656ba",
+      "slug": "villa-gualterio-bolsena",
+      "nome": "Villa Gualterio",
+      "city_name": "Bolsena",
+      "indirizzo": "Viale Nicola Colesanti, 38, 01023 Bolsena VT",
+      "lat": 42.642733,
+      "lng": 11.984094
+    },
+    {
+      "id": "9f2f9aa6-b5a0-4cab-9734-a0ca19d4ce7f",
+      "slug": "albergo-piccadilly-boltiere",
+      "nome": "Albergo Piccadilly",
+      "city_name": "Boltiere",
+      "indirizzo": "Piazza Affari, 44, 24040 Verdellino BG",
+      "lat": 45.600587,
+      "lng": 9.59849
+    },
+    {
+      "id": "bae32053-4773-4ac9-9707-37bc413aa00c",
+      "slug": "dalmine-luxury-suite-boltiere",
+      "nome": "Dalmine Luxury Suite",
+      "city_name": "Boltiere",
+      "indirizzo": "Via Dante Alighieri, 40/C, 24044 Dalmine BG",
+      "lat": 45.652975,
+      "lng": 9.604425
+    },
+    {
+      "id": "2d16e388-b69a-4abf-a523-450c8a9a995f",
+      "slug": "villa-fenix-osio-sotto-2-boltiere",
+      "nome": "Villa Fenix Osio Sotto 2",
+      "city_name": "Boltiere",
+      "indirizzo": "Via Michelangelo Buonarroti, 8, 24046 Rio Isolo BG",
+      "lat": 45.602952,
+      "lng": 9.592122
+    },
+    {
+      "id": "4f53e5cf-8fb6-4dad-875c-e0627ff9ed28",
+      "slug": "1928-guest-house-bolzano-novarese",
+      "nome": "1928 Guest House",
+      "city_name": "Bolzano Novarese",
+      "indirizzo": "Via Cremosina, 15, 28076 Pogno NO",
+      "lat": 45.75682,
+      "lng": 8.38225
+    },
+    {
+      "id": "4316fa5c-ec67-4df9-aef1-0902f9eb7cb5",
+      "slug": "b-b-casafrancisca-wellness-beach-bolzano-novarese",
+      "nome": "B&B CasaFrancisca Wellness Beach",
+      "city_name": "Bolzano Novarese",
+      "indirizzo": "Via Leopoldo Marangoni, 16, 28024 Gozzano NO",
+      "lat": 45.765329,
+      "lng": 8.429496
+    },
+    {
+      "id": "1a5458ca-aeb4-4f3d-994d-34563b561d35",
+      "slug": "b-b-la-corte-di-alzo-bolzano-novarese",
+      "nome": "B&B La corte di Alzo",
+      "city_name": "Bolzano Novarese",
+      "indirizzo": "Via Pietro Durio, 60, 28010 Alzo NO",
+      "lat": 45.794231,
+      "lng": 8.379008
+    }
+  ]
+}

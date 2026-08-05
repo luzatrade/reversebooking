@@ -1,0 +1,323 @@
+{
+  "block": 468,
+  "blockId": "468",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "cf3781d5-824a-4acd-869c-eae39f47990c",
+      "slug": "a-modo-mio-cassinelle",
+      "nome": "A Modo Mio",
+      "city_name": "Cassinelle",
+      "indirizzo": "Via Santuario, 53A, 15074 Molare AL",
+      "lat": 44.611941,
+      "lng": 8.592903
+    },
+    {
+      "id": "deb199cc-bc40-4cf1-8170-6e9bdb039564",
+      "slug": "agriturismo-la-rossa-cassinelle",
+      "nome": "Agriturismo La Rossa",
+      "city_name": "Cassinelle",
+      "indirizzo": "Strada per Cremolino, 15, 15010 Morsasco AL",
+      "lat": 44.651264,
+      "lng": 8.562885
+    },
+    {
+      "id": "86e7c6eb-54c5-4e0c-8006-b7ac833a7dc7",
+      "slug": "agriturismo-aia-cassinetta-di-lugagnano",
+      "nome": "Agriturismo Aia",
+      "city_name": "Cassinetta di Lugagnano",
+      "indirizzo": "ALZAIA NAVIGLIO GRANDE N. 1, Cascina dei Piatti, 20081 Cassinetta di Lugagnano MI",
+      "lat": 45.42475,
+      "lng": 8.914881
+    },
+    {
+      "id": "472b777e-d6db-49ac-950e-bdc0b53f5af5",
+      "slug": "aria-di-casa-experience-cassino",
+      "nome": "Aria di casa Experience",
+      "city_name": "Cassino",
+      "indirizzo": "Via degli Eroi, 6, 03043 Cassino FR",
+      "lat": 41.491602,
+      "lng": 13.83371
+    },
+    {
+      "id": "8ef87355-fe6f-42d4-ab03-f7758ea52297",
+      "slug": "b-b-le-palme-cassino",
+      "nome": "B&B Le Palme",
+      "city_name": "Cassino",
+      "indirizzo": "Via Sant'Antonino, 63, 03043 Cassino FR",
+      "lat": 41.49657,
+      "lng": 13.879522
+    },
+    {
+      "id": "adeb1f84-eaf6-4d10-9fee-6b3d25a360ce",
+      "slug": "best-western-hotel-rocca-cassino",
+      "nome": "Best Western Hotel Rocca",
+      "city_name": "Cassino",
+      "indirizzo": "Via Sferracavalli, 105, 03043 Cassino FR",
+      "lat": 41.507482,
+      "lng": 13.833717
+    },
+    {
+      "id": "a83e6ea4-e5f0-4237-9f60-61b62a38cdd7",
+      "slug": "domus-cassino-centro-cassino",
+      "nome": "Domus Cassino Centro",
+      "city_name": "Cassino",
+      "indirizzo": "Viale Dante, 6, 03043 Cassino FR",
+      "lat": 41.490644,
+      "lng": 13.82946
+    },
+    {
+      "id": "2c4892b7-87b4-41db-b7dd-e0805887805b",
+      "slug": "edra-palace-hotel-cassino",
+      "nome": "Edra Palace Hotel",
+      "city_name": "Cassino",
+      "indirizzo": "Via Ausonia, 03043 Cassino FR",
+      "lat": 41.46204,
+      "lng": 13.799692
+    },
+    {
+      "id": "2caf6be9-6595-40f8-8c6e-f3b6e67eac51",
+      "slug": "hotel-forum-palace-cassino-cassino",
+      "nome": "Hotel Forum Palace Cassino",
+      "city_name": "Cassino",
+      "indirizzo": "Via Casilina Nord, km. 136,500/180, 03043 Cassino FR",
+      "lat": 41.479931,
+      "lng": 13.81398
+    },
+    {
+      "id": "42ce8fb8-68b0-46b4-b488-9c9a5c82ff6d",
+      "slug": "hotel-piazza-marconi-cassino",
+      "nome": "Hotel Piazza Marconi",
+      "city_name": "Cassino",
+      "indirizzo": "Via Guglielmo Marconi, 25, 03043 Cassino FR",
+      "lat": 41.492184,
+      "lng": 13.828385
+    },
+    {
+      "id": "b8f24a45-caf7-4481-8e32-63fb0cd4e75c",
+      "slug": "il-colosseo-b-b-cassino-cassino",
+      "nome": "IL COLOSSEO B&B CASSINO",
+      "city_name": "Cassino",
+      "indirizzo": "V.Gaetano di Biasio, 222, 03043 Cassino FR",
+      "lat": 41.481934,
+      "lng": 13.824218
+    },
+    {
+      "id": "a1139a4f-9928-47b8-9918-5c5bbd16951c",
+      "slug": "agriturismo-il-magicorto-cassola",
+      "nome": "Agriturismo Il Magicorto",
+      "city_name": "Cassola",
+      "indirizzo": "Via Don Luigi Bressan, 46, 36022 San Zeno VI",
+      "lat": 45.744473,
+      "lng": 11.778076
+    },
+    {
+      "id": "b8796532-73ec-4412-862a-69bf9d5f389b",
+      "slug": "albergo-ristorante-nazionale-da-mirella-cassola",
+      "nome": "Albergo Ristorante Nazionale Da Mirella",
+      "city_name": "Cassola",
+      "indirizzo": "Via Nazionale, 74, 36056 Tezze sul Brenta VI",
+      "lat": 45.685923,
+      "lng": 11.772998
+    },
+    {
+      "id": "198b2728-23cf-4564-8711-d6973066d053",
+      "slug": "hotel-miramonti-cassola",
+      "nome": "Hotel Miramonti",
+      "city_name": "Cassola",
+      "indirizzo": "Via Guglielmo Marconi, 1, 36020 Pove del Grappa VI",
+      "lat": 45.800793,
+      "lng": 11.730539
+    },
+    {
+      "id": "856339c8-70f4-4f00-a8d0-451d6ce8df20",
+      "slug": "hotel-ristorante-al-bassanello-cassola",
+      "nome": "Hotel Ristorante Al Bassanello",
+      "city_name": "Cassola",
+      "indirizzo": "Via Trozzetti, 2, 36061 Bassano del Grappa VI",
+      "lat": 45.764733,
+      "lng": 11.74343
+    },
+    {
+      "id": "c3741dd5-e25e-4836-8023-a3e42dfd139a",
+      "slug": "hotel-villa-ca-sette-cassola",
+      "nome": "Hotel Villa Ca' Sette",
+      "city_name": "Cassola",
+      "indirizzo": "Via Cunizza da Romano, 4, 36061 Bassano del Grappa VI",
+      "lat": 45.779241,
+      "lng": 11.741779
+    },
+    {
+      "id": "46c43dc9-8c4a-4662-8652-af00e69b225c",
+      "slug": "hotel-volpara-cassola",
+      "nome": "Hotel Volpara",
+      "city_name": "Cassola",
+      "indirizzo": "Via Carlo Eger, 8, 31020 Liedolo di San Zenone degli Ezzellini TV",
+      "lat": 45.790616,
+      "lng": 11.811848
+    },
+    {
+      "id": "a2f63ca4-7187-40e9-a14e-4801b6f199a9",
+      "slug": "villa-tiziano-residence-cassola",
+      "nome": "Villa Tiziano Residence",
+      "city_name": "Cassola",
+      "indirizzo": "Viale dei Tigli, 53, 36067 Rosà VI",
+      "lat": 45.722288,
+      "lng": 11.76482
+    },
+    {
+      "id": "0cbc8934-228a-477b-acad-069d8b47cb0e",
+      "slug": "gruppo-luxe-domus-cassolnovo",
+      "nome": "Gruppo Luxe Domus",
+      "city_name": "Cassolnovo",
+      "indirizzo": "Via Vecchia per Cilavegna, 39, 27029 Vigevano PV",
+      "lat": 45.32141,
+      "lng": 8.821117
+    },
+    {
+      "id": "72f4c474-0619-477d-9eda-533b3428d5ea",
+      "slug": "il-cascinale-cassolnovo",
+      "nome": "Il Cascinale",
+      "city_name": "Cassolnovo",
+      "indirizzo": "Hotel Ristorante Il Cascinale, Via Vigevano, 31, 28065 Cerano NO",
+      "lat": 45.385381,
+      "lng": 8.792725
+    },
+    {
+      "id": "dc763568-7405-440f-82ee-e79a05706684",
+      "slug": "n-uovo-agriturismo-cassolnovo",
+      "nome": "N'UOVO Agriturismo",
+      "city_name": "Cassolnovo",
+      "indirizzo": "Via Cascina del Pozzo, 1, 27023 Cassolnovo PV",
+      "lat": 45.379642,
+      "lng": 8.76829
+    },
+    {
+      "id": "ccb2bf13-3797-45a0-9087-1ab293d01f9c",
+      "slug": "paraiso-madera-bed-and-breakfast-castagnaro",
+      "nome": "Paraiso Madera Bed and Breakfast",
+      "city_name": "Castagnaro",
+      "indirizzo": "Via Possessione, 37049 Carpi VR",
+      "lat": 45.130424,
+      "lng": 11.388495
+    },
+    {
+      "id": "398cec13-8955-42f6-bd7a-08c6dc0d2112",
+      "slug": "tenuta-la-pila-agriturismo-verona-castagnaro",
+      "nome": "Tenuta la Pila - Agriturismo Verona",
+      "city_name": "Castagnaro",
+      "indirizzo": "Via Pila, 42, 37049 Villa Bartolomea VR",
+      "lat": 45.138336,
+      "lng": 11.37114
+    },
+    {
+      "id": "9ae9a453-8a20-4fbe-9293-7d8ec204f963",
+      "slug": "agricamping-la-gallinella-castagneto-carducci",
+      "nome": "Agricamping La Gallinella",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "b, Strada Comunale di Segalari, 101b, 57022 Castagneto Carducci LI",
+      "lat": 43.164487,
+      "lng": 10.620414
+    },
+    {
+      "id": "9c942795-8ce0-41b7-a87d-4fe4a24733e9",
+      "slug": "agriturismo-podere-carducci-castagneto-carducci",
+      "nome": "Agriturismo Podere Carducci",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Strada Comunale di Segalari, 152, 57022 Castagneto Carducci LI",
+      "lat": 43.173593,
+      "lng": 10.621006
+    },
+    {
+      "id": "c00ee213-d6cb-4568-8f9d-36956defd987",
+      "slug": "boutique-carolina-hotel-di-nardo-group-castagneto-carducci",
+      "nome": "Boutique Carolina - Hotel Di Nardo Group",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Via Marco Polo, 57022 Marina di Castagneto Carducci LI",
+      "lat": 43.181362,
+      "lng": 10.538785
+    },
+    {
+      "id": "5e6c8934-036d-4def-ab8b-469fdfe841e0",
+      "slug": "campastrello-sport-hotel-residence-castagneto-carducci",
+      "nome": "Campastrello Sport Hotel & Residence",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Via Campastrello, 1, 57022 Castagneto Carducci LI",
+      "lat": 43.166121,
+      "lng": 10.587706
+    },
+    {
+      "id": "05af0602-4d38-44ea-995c-63c9f2fce96b",
+      "slug": "canado-family-hotel-castagneto-carducci",
+      "nome": "Canado Family Hotel",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Località Villa Emilia, 361, 57022 Castagneto Carducci LI",
+      "lat": 43.162134,
+      "lng": 10.540326
+    },
+    {
+      "id": "3d2c9d06-0803-4d60-aa0e-3edb2de413fd",
+      "slug": "casone-ugolino-hotel-con-appartamenti-e-camere-r-castagneto-carducci",
+      "nome": "Casone Ugolino | Hotel con appartamenti e camere | Ristorante pizzeria",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Via del Casone Ugolino, 24/24/32, 57022 Castagneto Carducci LI",
+      "lat": 43.168276,
+      "lng": 10.582724
+    },
+    {
+      "id": "bca331b5-645a-4f3b-a1a3-1aa9631c04c3",
+      "slug": "country-hotel-zi-martino-castagneto-carducci",
+      "nome": "Country Hotel Zi Martino",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Strada Provinciale Bolgherese, 262, 57022 San Giusto LI",
+      "lat": 43.164288,
+      "lng": 10.600192
+    },
+    {
+      "id": "242648d4-8965-4673-ba74-559843b832f9",
+      "slug": "etrusconia-hotel-castagneto-carducci-castagneto-carducci",
+      "nome": "Etrusconia Hotel Castagneto Carducci",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Via Walfredo della Gherardesca, 2, 57022 Marina di Castagneto Carducci LI",
+      "lat": 43.177546,
+      "lng": 10.538772
+    },
+    {
+      "id": "059859bc-3db2-4cf4-a104-bd67a6d91966",
+      "slug": "hotel-carlo-s-castagneto-carducci",
+      "nome": "Hotel Carlo's",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "SP 329 Passo di Bocca di Valle, 266, 57022 Castagneto Carducci LI",
+      "lat": 43.163815,
+      "lng": 10.600186
+    },
+    {
+      "id": "3bffafb6-61a5-4b1c-be67-2edecb25071d",
+      "slug": "hotel-cucciolo-castagneto-carducci",
+      "nome": "Hotel Cucciolo",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Via Vecchia Aurelia, 161, 57022 Donoratico LI",
+      "lat": 43.166619,
+      "lng": 10.564357
+    },
+    {
+      "id": "f582d5b9-bfbb-4f9b-86f4-f2f5b98fbc91",
+      "slug": "hotel-i-ginepri-castagneto-carducci",
+      "nome": "Hotel i Ginepri",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Viale Italia, 13, 57022 Marina di Castagneto Carducci LI",
+      "lat": 43.177067,
+      "lng": 10.538769
+    },
+    {
+      "id": "9b974d39-ef12-4e49-9bce-bbd4e744816f",
+      "slug": "hotel-villa-bolgheri-hotel-di-nardo-group-castagneto-carducci",
+      "nome": "Hotel Villa Bolgheri - Hotel di Nardo Group",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Via della Triglia, 4, 57022 Marina di Castagneto Carducci LI",
+      "lat": 43.176266,
+      "lng": 10.539819
+    }
+  ]
+}

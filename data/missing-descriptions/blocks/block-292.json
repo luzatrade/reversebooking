@@ -1,0 +1,323 @@
+{
+  "block": 292,
+  "blockId": "292",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "8a5bd940-a7e8-46a1-9d9e-c68854a958ad",
+      "slug": "appartamenti-nica-e-diego-nica-sas-borca-di-cadore",
+      "nome": "Appartamenti Nica e Diego - Nica Sas",
+      "city_name": "Borca di Cadore",
+      "indirizzo": "Via Olivo Sala, 106B, 32040 Borca di Cadore BL",
+      "lat": 46.441159,
+      "lng": 12.209217
+    },
+    {
+      "id": "78590ff1-899f-46c3-95d3-a0b6dae344a3",
+      "slug": "baita-deona-borca-di-cadore",
+      "nome": "Baita Deona",
+      "city_name": "Borca di Cadore",
+      "indirizzo": "Passo Cibiana, Via Pianezze, 61, 32040 Cibiana di Cadore BL",
+      "lat": 46.373844,
+      "lng": 12.259619
+    },
+    {
+      "id": "2eb53fcc-9811-4168-9aad-4d064832e18b",
+      "slug": "borca-di-cadore-borca-di-cadore",
+      "nome": "Borca di Cadore",
+      "city_name": "Borca di Cadore",
+      "indirizzo": "Viale della Stazione, 14, 32040 Cancia BL",
+      "lat": 46.435831,
+      "lng": 12.224157
+    },
+    {
+      "id": "02097390-d03d-4cca-a269-d1977c8818f5",
+      "slug": "chalet-al-lago-borca-di-cadore",
+      "nome": "Chalet Al Lago",
+      "city_name": "Borca di Cadore",
+      "indirizzo": "Via al Lago, 73, 32046 San Vito di Cadore BL",
+      "lat": 46.468246,
+      "lng": 12.201534
+    },
+    {
+      "id": "06217828-410c-4984-8927-7da9b77e13f2",
+      "slug": "dolomiti-lodge-ristorante-villa-gaia-borca-di-cadore",
+      "nome": "Dolomiti Lodge ristorante Villa Gaia",
+      "city_name": "Borca di Cadore",
+      "indirizzo": "Via della Stazione, 13, 32040 Venas di Cadore BL",
+      "lat": 46.408963,
+      "lng": 12.298384
+    },
+    {
+      "id": "34fcdead-1b9d-48e3-b2a3-8611d279a6da",
+      "slug": "dolomiti-sport-hotel-borca-di-cadore",
+      "nome": "Dolomiti Sport Hotel",
+      "city_name": "Borca di Cadore",
+      "indirizzo": "V. Roma, 33, 32046 San Vito di Cadore BL",
+      "lat": 46.454552,
+      "lng": 12.207973
+    },
+    {
+      "id": "4a36fb10-ef0a-4705-831a-3fdf971d274b",
+      "slug": "hg-casa-montana-guest-house-borca-di-cadore",
+      "nome": "HG Casa Montana - Guest House",
+      "city_name": "Borca di Cadore",
+      "indirizzo": "Via Costa, 9, 32046 San Vito di Cadore BL",
+      "lat": 46.464265,
+      "lng": 12.205857
+    },
+    {
+      "id": "1c1a386a-43e2-4555-a722-5d10b1595c08",
+      "slug": "hotel-il-cardo-borca-di-cadore",
+      "nome": "Hotel \"Il Cardo\"",
+      "city_name": "Borca di Cadore",
+      "indirizzo": "Via Belvedere, 91, 32046 San Vito di Cadore BL",
+      "lat": 46.463832,
+      "lng": 12.214113
+    },
+    {
+      "id": "2ecc9be4-9554-4152-84e8-f3174e1259f0",
+      "slug": "hotel-boite-borca-di-cadore",
+      "nome": "Hotel Boite",
+      "city_name": "Borca di Cadore",
+      "indirizzo": "Via Metanopoli, 32040 Corte BL",
+      "lat": 46.430142,
+      "lng": 12.238014
+    },
+    {
+      "id": "a1deb6e5-d161-4511-8e35-dc459e74bded",
+      "slug": "hotel-meuble-barancio-borca-di-cadore",
+      "nome": "Hotel Meublé Barancio",
+      "city_name": "Borca di Cadore",
+      "indirizzo": "Via Belvedere, 108, 32046 San Vito di Cadore BL",
+      "lat": 46.463857,
+      "lng": 12.214814
+    },
+    {
+      "id": "9352073f-f428-4f85-97bc-a062283bb507",
+      "slug": "hotel-villa-ines-borca-di-cadore",
+      "nome": "Hotel Villa Ines",
+      "city_name": "Borca di Cadore",
+      "indirizzo": "Via Taulen Marceana, 1, 32040 Villanova BL",
+      "lat": 46.439597,
+      "lng": 12.213736
+    },
+    {
+      "id": "d1f8bd16-1338-41c3-bc63-2883dac1b07a",
+      "slug": "residence-corte-borca-di-cadore",
+      "nome": "Residence Corte",
+      "city_name": "Borca di Cadore",
+      "indirizzo": "Via Metanopoli, 32040 Borca di Cadore BL",
+      "lat": 46.428009,
+      "lng": 12.236632
+    },
+    {
+      "id": "a9e002ff-6de2-4bc5-9911-0e9130b368eb",
+      "slug": "agriturismo-casali-scjs-bordano",
+      "nome": "Agriturismo Casali Scjs",
+      "city_name": "Bordano",
+      "indirizzo": "Strada Scjs, 1 33010, 33010 Venzone UD",
+      "lat": 46.329121,
+      "lng": 13.129658
+    },
+    {
+      "id": "45c987d9-4d24-4b38-b051-aaf91f7491e1",
+      "slug": "b-b-agli-ulivi-bordano",
+      "nome": "B&B Agli ulivi",
+      "city_name": "Bordano",
+      "indirizzo": "Via Val di Fiemme, 15, 33013 Gemona UD",
+      "lat": 46.282253,
+      "lng": 13.112553
+    },
+    {
+      "id": "3b9704e3-8f8c-45d0-8997-f8c2b5092756",
+      "slug": "civico17-bordano",
+      "nome": "Civico17",
+      "city_name": "Bordano",
+      "indirizzo": "Piazza Municipio, 17, 33010 Venzone UD",
+      "lat": 46.333546,
+      "lng": 13.139568
+    },
+    {
+      "id": "c975f10e-ee4e-427d-87fb-cc818177d0ea",
+      "slug": "sleep-in-venzone-bordano",
+      "nome": "Sleep in Venzone",
+      "city_name": "Bordano",
+      "indirizzo": "Via Pietro Petrolo, 14, 33010 Venzone UD",
+      "lat": 46.334801,
+      "lng": 13.138551
+    },
+    {
+      "id": "a4b9289d-fe3c-4c08-a639-323911a1ae57",
+      "slug": "sleep-in-venzone-depandance-bordano",
+      "nome": "Sleep In Venzone Depandance",
+      "city_name": "Bordano",
+      "indirizzo": "Via Pietro Petrolo, 10, 33010 Venzone UD",
+      "lat": 46.334855,
+      "lng": 13.138624
+    },
+    {
+      "id": "fa7dc6e4-93ca-4028-a91a-0f82c80abc01",
+      "slug": "affittacamere-a-feneira-bordighera",
+      "nome": "Affittacamere A Feneira",
+      "city_name": "Bordighera",
+      "indirizzo": "Via Annunziata, 14, 18030 San Biagio della Cima IM",
+      "lat": 43.817623,
+      "lng": 7.647693
+    },
+    {
+      "id": "887b2f4f-850c-4d3c-95fe-bab65bca598b",
+      "slug": "agriturismo-c-era-una-volta-bordighera",
+      "nome": "Agriturismo C'Era Una Volta...",
+      "city_name": "Bordighera",
+      "indirizzo": "Str. Ciaixe, 18033 Camporosso IM",
+      "lat": 43.825161,
+      "lng": 7.619149
+    },
+    {
+      "id": "b509ca8f-30b3-402b-ae07-82c0ee03c510",
+      "slug": "albergo-piccolo-paradiso-bordighera",
+      "nome": "Albergo Piccolo Paradiso",
+      "city_name": "Bordighera",
+      "indirizzo": "Via G. Marconi, 101, 18019 Vallecrosia al Mare IM",
+      "lat": 43.782942,
+      "lng": 7.641766
+    },
+    {
+      "id": "8c4a3c95-b2df-4e5f-bf77-e56e3ca35b65",
+      "slug": "b-b-acqua-di-mare-bordighera",
+      "nome": "B&B Acqua Di Mare",
+      "city_name": "Bordighera",
+      "indirizzo": "Via dei Pescatori, 6, 18012 Bordighera IM",
+      "lat": 43.782799,
+      "lng": 7.677848
+    },
+    {
+      "id": "fdcf0fba-bf8a-4f65-9a14-c3e05a5209b3",
+      "slug": "casa-odello-suite-and-the-sea-bordighera",
+      "nome": "CASA ODELLO suite and the sea",
+      "city_name": "Bordighera",
+      "indirizzo": "Via Vittorio Veneto, 9, 18012 Bordighera IM",
+      "lat": 43.780179,
+      "lng": 7.660698
+    },
+    {
+      "id": "0295630e-d01f-4252-9411-3d1a395793f1",
+      "slug": "gold-hotel-bordighera",
+      "nome": "Gold Hotel",
+      "city_name": "Bordighera",
+      "indirizzo": "Via Cesare Balbo, 7, 18012 Bordighera IM",
+      "lat": 43.780485,
+      "lng": 7.660082
+    },
+    {
+      "id": "02693c2d-27ed-4d19-9902-4d2ec8d9aa6a",
+      "slug": "grand-hotel-del-mare-resort-spa-bordighera",
+      "nome": "Grand Hotel del Mare Resort & Spa",
+      "city_name": "Bordighera",
+      "indirizzo": "Via Portico della Punta, 34, 18012 Bordighera IM",
+      "lat": 43.78664,
+      "lng": 7.68658
+    },
+    {
+      "id": "4ed39898-512f-4da0-af9d-c9390384a56a",
+      "slug": "hotel-elandra-bordighera",
+      "nome": "Hotel Elandra",
+      "city_name": "Bordighera",
+      "indirizzo": "Via Vittorio Emanuele II, 61, 18012 Bordighera IM",
+      "lat": 43.778301,
+      "lng": 7.666937
+    },
+    {
+      "id": "0897dbc9-0eb0-496c-b2ae-ff1ef2ff159c",
+      "slug": "hotel-lora-bordighera",
+      "nome": "HOTEL LORA",
+      "city_name": "Bordighera",
+      "indirizzo": "Via dei Bagni, 1, 18012 Bordighera IM",
+      "lat": 43.784964,
+      "lng": 7.680924
+    },
+    {
+      "id": "49f4a93b-bcf2-4ccb-ae1a-f357c1a7f304",
+      "slug": "hotel-marligure-bordighera",
+      "nome": "Hotel Marligure",
+      "city_name": "Bordighera",
+      "indirizzo": "SS 1, 22, 18012 Bordighera IM",
+      "lat": 43.781941,
+      "lng": 7.653075
+    },
+    {
+      "id": "569aa9b9-4603-4106-ad42-eb153b8db3a3",
+      "slug": "hotel-parigi-bordighera",
+      "nome": "Hotel Parigi",
+      "city_name": "Bordighera",
+      "indirizzo": "Lungomare Argentina, 16-18, 18012 Bordighera IM",
+      "lat": 43.77724,
+      "lng": 7.671187
+    },
+    {
+      "id": "37ff2b76-c504-4796-a7da-e34b2cb58268",
+      "slug": "hotel-piccolo-lido-bordighera",
+      "nome": "Hotel Piccolo Lido",
+      "city_name": "Bordighera",
+      "indirizzo": "Lungomare Argentina, 2, 18012 Bordighera IM",
+      "lat": 43.777093,
+      "lng": 7.672607
+    },
+    {
+      "id": "1a29aeb7-a75d-43d1-8cc6-b65287db4fc9",
+      "slug": "hotel-riviera-bordighera",
+      "nome": "Hotel Riviera",
+      "city_name": "Bordighera",
+      "indirizzo": "Via Bel Soggiorno, 2/4, 18012 Bordighera IM",
+      "lat": 43.789639,
+      "lng": 7.666011
+    },
+    {
+      "id": "cf222205-b7e8-42af-ad94-5a0d6cd67d6f",
+      "slug": "hotel-villa-elisa-spa-bordighera",
+      "nome": "Hotel Villa Elisa & Spa",
+      "city_name": "Bordighera",
+      "indirizzo": "Via Romana, 70, 18012 Bordighera IM",
+      "lat": 43.783975,
+      "lng": 7.66168
+    },
+    {
+      "id": "0d0a277b-1d05-4434-9336-e0068e863e6b",
+      "slug": "hotel-villa-miki-bordighera-bordighera",
+      "nome": "Hotel Villa Miki Bordighera",
+      "city_name": "Bordighera",
+      "indirizzo": "Via Lagazzi, 14, 18012 Bordighera IM",
+      "lat": 43.781026,
+      "lng": 7.659278
+    },
+    {
+      "id": "db57ea4d-ec96-47f5-8338-5773166ccb22",
+      "slug": "raphael-hotel-bordighera",
+      "nome": "Raphael Hotel",
+      "city_name": "Bordighera",
+      "indirizzo": "Via Angeli Custodi, 128, 18019 Vallecrosia IM",
+      "lat": 43.78344,
+      "lng": 7.646201
+    },
+    {
+      "id": "55e337bf-c458-4190-b283-ad75450df16c",
+      "slug": "villa-caterina-bordighera",
+      "nome": "Villa Caterina",
+      "city_name": "Bordighera",
+      "indirizzo": "114, Corso Italia, 112, 18012 Bordighera IM",
+      "lat": 43.781636,
+      "lng": 7.665614
+    },
+    {
+      "id": "3af0a2fa-5561-451f-b869-df1c6269f56a",
+      "slug": "villa-bottini-la-limonaia-bordolano",
+      "nome": "Villa Bottini - La Limonaia",
+      "city_name": "Bordolano",
+      "indirizzo": "Via Cairoli 23 Monasterolo di, 26010 Robecco d'Oglio CR",
+      "lat": 45.272642,
+      "lng": 10.042135
+    }
+  ]
+}

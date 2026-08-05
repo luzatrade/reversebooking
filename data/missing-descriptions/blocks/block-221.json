@@ -1,0 +1,323 @@
+{
+  "block": 221,
+  "blockId": "221",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "0d5425ec-67c2-46e8-b4dd-7339fd71c2e1",
+      "slug": "solho-hotel-4-stelle-s-bardolino",
+      "nome": "Solho Hotel 4 stelle S",
+      "city_name": "Bardolino",
+      "indirizzo": "Via Borgo Cavour, 38, 37011 Bardolino VR",
+      "lat": 45.547392,
+      "lng": 10.72393
+    },
+    {
+      "id": "c5dc6a1d-fec7-4551-b033-5cfff91117bf",
+      "slug": "wanderlust-hotel-bardolino-bardolino",
+      "nome": "Wanderlust Hotel Bardolino",
+      "city_name": "Bardolino",
+      "indirizzo": "Via Marconi, 11, 37011 Bardolino VR",
+      "lat": 45.54821,
+      "lng": 10.723416
+    },
+    {
+      "id": "547000d0-7c5c-4715-a8f4-57a042d53a60",
+      "slug": "ca-fiore-hotel-bardonecchia",
+      "nome": "Ca' Fiore Hotel",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Via Campo Principe, 4, 10052 Bardonecchia TO",
+      "lat": 45.071304,
+      "lng": 6.694631
+    },
+    {
+      "id": "27b5425b-2a16-41c2-b104-e6a389c61afc",
+      "slug": "case-verdi-bardonecchia-bardonecchia",
+      "nome": "Case Verdi Bardonecchia",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Via Cesare Battisti, 1, 10052 Bardonecchia TO",
+      "lat": 45.077055,
+      "lng": 6.710755
+    },
+    {
+      "id": "a28ff942-65ed-46e9-ae43-7bb4bfb2f492",
+      "slug": "chalet-bellevue-hotel-meuble-bardonecchia",
+      "nome": "Chalet Bellevue, hotel meublé",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Str. Millaures, 17 bis, 10052 Bardonecchia TO",
+      "lat": 45.072651,
+      "lng": 6.719484
+    },
+    {
+      "id": "d8dc6ed0-1052-41e9-bb11-56105bad3648",
+      "slug": "cicapuy-bardonecchia",
+      "nome": "Cicapuy",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Via Puy, 39, 10056 Oulx TO",
+      "lat": 45.04506,
+      "lng": 6.736877
+    },
+    {
+      "id": "5bb2815d-0e8c-4742-9344-5c83597f4e1f",
+      "slug": "hotel-bucaneve-bardonecchia",
+      "nome": "HOTEL BUCANEVE",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Viale G. dalla Vecchia, 2, 10052 Bardonecchia TO",
+      "lat": 45.074337,
+      "lng": 6.696684
+    },
+    {
+      "id": "81a81097-3bf3-4797-8f17-b1b77cdafec1",
+      "slug": "hotel-etoile-des-neiges-bardonecchia",
+      "nome": "Hotel Etoile Des Neiges",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Frazione Jouvenceaux, 24B, 10050 Sauze d'Oulx TO",
+      "lat": 45.022586,
+      "lng": 6.848693
+    },
+    {
+      "id": "5f3ccf08-0b67-444e-bb8e-c5aeaffb01be",
+      "slug": "hotel-europa-hotel-bardonecchia-bardonecchia",
+      "nome": "Hotel Europa - Hotel Bardonecchia",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Via la Rho, 80/82, 10052 Bardonecchia TO",
+      "lat": 45.081674,
+      "lng": 6.690764
+    },
+    {
+      "id": "846137fb-a7af-463e-aca6-8551b1f6ac78",
+      "slug": "hotel-gran-baita-bardonecchia",
+      "nome": "Hotel Gran Baita",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Via Villaggio Alpino, 21, 10050 Sauze d'Oulx TO",
+      "lat": 45.027222,
+      "lng": 6.856389
+    },
+    {
+      "id": "d6b12de8-c513-428a-8c66-d3e079ee67bd",
+      "slug": "hotel-k2-restaurant-bar-bardonecchia",
+      "nome": "Hotel K2- Restaurant & Bar",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Via Villaggio Alpino, 1, 10050 Sauze d'Oulx TO",
+      "lat": 45.027018,
+      "lng": 6.857836
+    },
+    {
+      "id": "958ec673-eb13-40c0-9282-38b640eab589",
+      "slug": "hotel-la-nigritella-bardonecchia-bardonecchia",
+      "nome": "Hotel La Nigritella Bardonecchia",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Via Melezet, 96, 10052 Bardonecchia TO",
+      "lat": 45.068968,
+      "lng": 6.690044
+    },
+    {
+      "id": "7dbb714e-9413-4ac0-af69-d205bd5a8b21",
+      "slug": "hotel-relais-des-alpes-bardonecchia",
+      "nome": "Hotel Relais des Alpes",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Piazza III Reggimento Alpini, 24, 10050 Sauze d'Oulx TO",
+      "lat": 45.026899,
+      "lng": 6.859765
+    },
+    {
+      "id": "032a38cc-c7ef-4e2d-a3d9-5351b576eae5",
+      "slug": "hotel-rosa-serenella-bar-bardonecchia",
+      "nome": "Hotel Rosa Serenella Bar.",
+      "city_name": "Bardonecchia",
+      "indirizzo": "www.hotelrosaserenella.net, Viale della Vittoria, 37, 10052 Bardonecchia TO",
+      "lat": 45.073335,
+      "lng": 6.703981
+    },
+    {
+      "id": "fff38eaa-02e0-4b38-857e-a66156b927a7",
+      "slug": "hotel-sommeiller-bardonecchia",
+      "nome": "Hotel Sommeiller",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Piazza Statuto, 3, 10052 Bardonecchia TO",
+      "lat": 45.077711,
+      "lng": 6.710687
+    },
+    {
+      "id": "d6cca199-8558-443d-b1e6-b8423aa37bea",
+      "slug": "hotel-villa-myosotis-ristorante-biovey-bardonecc-bardonecchia",
+      "nome": "Hotel Villa Myosotis - Ristorante Biovey Bardonecchia",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Via Gen. Cantore, 2, 10052 Bardonecchia TO",
+      "lat": 45.07758,
+      "lng": 6.705338
+    },
+    {
+      "id": "95a2a9fc-408d-4b79-91d8-b19649edd3d7",
+      "slug": "residence-la-tana-del-ghiro-bardonecchia",
+      "nome": "Residence \"La Tana del Ghiro\"",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Via Giovanni Giolitti, 12, 10052 Bardonecchia TO",
+      "lat": 45.080021,
+      "lng": 6.698247
+    },
+    {
+      "id": "c889ed23-b985-4c9d-8e16-ed5836994644",
+      "slug": "residence-les-lacs-bardonecchia",
+      "nome": "Residence LES LACS",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Via Stazione, 4, 10052 Bardonecchia TO",
+      "lat": 45.077375,
+      "lng": 6.709095
+    },
+    {
+      "id": "b17129d9-f774-434b-a2aa-1cf505344c3e",
+      "slug": "residence-tabor-bardonecchia",
+      "nome": "Residence Tabor",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Via Stazione, 6, 10052 Bardonecchia TO",
+      "lat": 45.077252,
+      "lng": 6.709055
+    },
+    {
+      "id": "b5f8a3fe-0789-4812-8b7f-cee19ad7c876",
+      "slug": "residence-villa-frejus-bardonecchia",
+      "nome": "Residence Villa Frejus",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Viale della Vittoria, 12, 10052 Bardonecchia TO",
+      "lat": 45.074783,
+      "lng": 6.707098
+    },
+    {
+      "id": "bdd91978-018a-4cef-9429-705f8eb6813c",
+      "slug": "rive-hotel-bardonecchia",
+      "nome": "Rivé Hotel",
+      "city_name": "Bardonecchia",
+      "indirizzo": "10052 Bardonecchia TO",
+      "lat": 45.070466,
+      "lng": 6.695402
+    },
+    {
+      "id": "52be0407-1444-414d-92b5-dd082c1efda9",
+      "slug": "savoia-mountain-resort-bardonecchia",
+      "nome": "Savoia Mountain Resort",
+      "city_name": "Bardonecchia",
+      "indirizzo": "Località Fregiusia, 10052 Bardonecchia TO",
+      "lat": 45.084976,
+      "lng": 6.734675
+    },
+    {
+      "id": "b6a4c824-ccfd-4039-8545-0cb0b68c61a5",
+      "slug": "ab-b-leonardo-bareggio",
+      "nome": "AB&B LEONARDO",
+      "city_name": "Bareggio",
+      "indirizzo": "Via Torino, 40, 20017 Rho MI",
+      "lat": 45.523739,
+      "lng": 9.038713
+    },
+    {
+      "id": "77095b5a-02ef-4f30-98c6-1ca8de5ee92f",
+      "slug": "b-b-agriturismo-cascina-la-palazzina-bareggio",
+      "nome": "B&B Agriturismo Cascina la Palazzina",
+      "city_name": "Bareggio",
+      "indirizzo": "Via la Palazzina, 3, 20080 Albairate MI",
+      "lat": 45.430049,
+      "lng": 8.954585
+    },
+    {
+      "id": "1e3cd114-a437-44b5-b99f-f61e6a669306",
+      "slug": "b-b-dei-gemelli-bareggio",
+      "nome": "B&B dei Gemelli",
+      "city_name": "Bareggio",
+      "indirizzo": "Via Martiri della Libertà, 42/44, 20008 Bareggio MI",
+      "lat": 45.474975,
+      "lng": 8.992307
+    },
+    {
+      "id": "a702fba1-93f1-430f-9fea-18cbd0e1ce66",
+      "slug": "b-b-i-due-leoni-bareggio",
+      "nome": "B&B I Due Leoni",
+      "city_name": "Bareggio",
+      "indirizzo": "Via Filanda, 10, 20007 Cornaredo MI",
+      "lat": 45.488214,
+      "lng": 9.013492
+    },
+    {
+      "id": "c254e47e-274f-40e5-a476-1694683cea00",
+      "slug": "b-b-la-tartaruga-srl-bareggio",
+      "nome": "B&B La Tartaruga Srl",
+      "city_name": "Bareggio",
+      "indirizzo": "Largo Roma, 17, 20006 Pregnana Milanese MI",
+      "lat": 45.518531,
+      "lng": 9.008078
+    },
+    {
+      "id": "0c28d129-23de-49ad-a25f-56b1bdd1609f",
+      "slug": "b-b-le-camelie-bareggio-bareggio",
+      "nome": "B&B LE CAMELIE BAREGGIO",
+      "city_name": "Bareggio",
+      "indirizzo": "Via Isonzo, 23, 20008 Brughiera MI",
+      "lat": 45.499049,
+      "lng": 8.995748
+    },
+    {
+      "id": "84b1394e-b237-4870-99dd-4bef0206f1f4",
+      "slug": "b-b-lo-smeraldo-bareggio",
+      "nome": "B&B Lo Smeraldo",
+      "city_name": "Bareggio",
+      "indirizzo": "Via S. Protaso, 35, 20008 Bareggio MI",
+      "lat": 45.488311,
+      "lng": 9.005369
+    },
+    {
+      "id": "06e10d31-987c-45ae-94cd-c9ae6ab69816",
+      "slug": "hotel-esperia-bareggio",
+      "nome": "Hotel Esperia",
+      "city_name": "Bareggio",
+      "indirizzo": "Piazza della Libertà, 2, 20017 Rho MI",
+      "lat": 45.524763,
+      "lng": 9.04415
+    },
+    {
+      "id": "45c2dbe4-6a79-4d56-a94b-7e63eb43c710",
+      "slug": "hotel-vecchio-convento-bareggio",
+      "nome": "Hotel Vecchio Convento",
+      "city_name": "Bareggio",
+      "indirizzo": "Via Alcide De Gasperi, 65, 20008 Bareggio MI",
+      "lat": 45.489196,
+      "lng": 8.995721
+    },
+    {
+      "id": "0a13e86a-c30b-498b-b59b-9d641bbf8dbc",
+      "slug": "idea-hotel-milano-san-siro-bareggio",
+      "nome": "Idea Hotel Milano San Siro",
+      "city_name": "Bareggio",
+      "indirizzo": "Via Gaetano Airaghi, 125, 20153 Milano MI",
+      "lat": 45.471364,
+      "lng": 9.077572
+    },
+    {
+      "id": "9e936b19-4af1-4703-a644-cb4ca1d8ff30",
+      "slug": "settimotel-bareggio",
+      "nome": "Settimotel",
+      "city_name": "Bareggio",
+      "indirizzo": "Strada Provinciale ex Strada Statale 11 Km 130/776, 20019 Settimo Milanese MI",
+      "lat": 45.4895,
+      "lng": 9.041538
+    },
+    {
+      "id": "feb96459-45c6-42b3-93bb-0fefa6c5c14a",
+      "slug": "soggiorni-al-casolare-bareggio",
+      "nome": "soggiorni al casolare",
+      "city_name": "Bareggio",
+      "indirizzo": "Via Cornaredo, 21, 20006 Pregnana Milanese MI",
+      "lat": 45.511439,
+      "lng": 9.013747
+    },
+    {
+      "id": "c1645aed-ff89-4d3f-83f3-37b4b5286a55",
+      "slug": "la-locanda-di-perico-paola-barengo",
+      "nome": "\"la locanda\" di Perico Paola",
+      "city_name": "Barengo",
+      "indirizzo": "Via Revislate, 4/1° piano, 28013 Gattico-Veruno NO",
+      "lat": 45.692337,
+      "lng": 8.534984
+    }
+  ]
+}

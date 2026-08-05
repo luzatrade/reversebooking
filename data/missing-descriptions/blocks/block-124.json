@@ -1,0 +1,323 @@
+{
+  "block": 124,
+  "blockId": "124",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "a4ae8b17-dc3b-42de-b441-1b08df3f3238",
+      "slug": "hotel-roma-aosta",
+      "nome": "Hotel Roma",
+      "city_name": "Aosta",
+      "indirizzo": "Via Torino, 7, 11100 Aosta AO",
+      "lat": 45.737101,
+      "lng": 7.324522
+    },
+    {
+      "id": "3416288c-2c41-4cdf-bedc-ddcf65fd3136",
+      "slug": "hotel-saint-pierre-aosta",
+      "nome": "Hotel Saint Pierre",
+      "city_name": "Aosta",
+      "indirizzo": "Rue Corrado Gex, 61, 11010 Saint-Pierre AO",
+      "lat": 45.709723,
+      "lng": 7.233744
+    },
+    {
+      "id": "f23813e1-aff4-424d-ae7c-1aa4f20c194c",
+      "slug": "hotel-village-aosta",
+      "nome": "Hotel Village",
+      "city_name": "Aosta",
+      "indirizzo": "Torrent de Maillod, 1, 11020 Quart AO",
+      "lat": 45.742505,
+      "lng": 7.379721
+    },
+    {
+      "id": "03c6d7a9-a91b-4333-8117-c9701d2c66bb",
+      "slug": "la-belle-epoque-aosta",
+      "nome": "La Belle Epoque",
+      "city_name": "Aosta",
+      "indirizzo": "Rue Claude d'Avise, 18, 11100 Aosta AO",
+      "lat": 45.736514,
+      "lng": 7.315899
+    },
+    {
+      "id": "c5c8dc26-c3a3-47c3-9c6c-1faacd89d9a0",
+      "slug": "la-meizon-de-sara-aosta",
+      "nome": "La Méizòn de Sara",
+      "city_name": "Aosta",
+      "indirizzo": "Via Sant'Anselmo, 134, 11100 Aosta AO",
+      "lat": 45.738962,
+      "lng": 7.327407
+    },
+    {
+      "id": "77d626a7-0419-4c1d-bbe5-9c41c84b3462",
+      "slug": "le-pageot-aosta",
+      "nome": "Le Pageot",
+      "city_name": "Aosta",
+      "indirizzo": "Viale Giorgio Carrel, 31, 11100 Aosta AO",
+      "lat": 45.735495,
+      "lng": 7.326908
+    },
+    {
+      "id": "e24b7f66-0e4d-47c0-a1d9-e60b7e67d0c5",
+      "slug": "maison-borbey-guesthouse-aosta",
+      "nome": "Maison Borbey Guesthouse",
+      "city_name": "Aosta",
+      "indirizzo": "Frazione Capoluogo, 73, 11020 Charvensod AO",
+      "lat": 45.721386,
+      "lng": 7.323346
+    },
+    {
+      "id": "7a093eb9-d32a-4e21-81b9-7c16af01f164",
+      "slug": "mon-emile-aosta",
+      "nome": "Mon Emile",
+      "city_name": "Aosta",
+      "indirizzo": "Località Bret, 24, 11020 Saint-Christophe AO",
+      "lat": 45.745914,
+      "lng": 7.358336
+    },
+    {
+      "id": "86bf4c29-ada2-4584-9de3-b0728e59f67e",
+      "slug": "norden-palace-aosta",
+      "nome": "Norden Palace",
+      "city_name": "Aosta",
+      "indirizzo": "Corso Battaglione Aosta, 30, 11100 Aosta AO",
+      "lat": 45.734321,
+      "lng": 7.307388
+    },
+    {
+      "id": "8daeae67-807d-40db-9991-bd2da2320f90",
+      "slug": "agriturismo-borgo-di-cortolla-apecchio",
+      "nome": "Agriturismo Borgo di Cortolla",
+      "city_name": "Apecchio",
+      "indirizzo": "Vocabolo Cortolla, 105, 06026 PERUGIA PG",
+      "lat": 43.448333,
+      "lng": 12.428453
+    },
+    {
+      "id": "8a556dfa-6520-452f-8780-070d4d78b81a",
+      "slug": "agriturismo-ca-licozzo-apecchio",
+      "nome": "Agriturismo ca'Licozzo",
+      "city_name": "Apecchio",
+      "indirizzo": "Loc. Ca' Licozzo, 61046 Piobbico PU",
+      "lat": 43.614395,
+      "lng": 12.48545
+    },
+    {
+      "id": "6dc0703e-621a-43c6-83f3-88c37f36cde5",
+      "slug": "agriturismo-chignoni-apecchio",
+      "nome": "Agriturismo Chignoni",
+      "city_name": "Apecchio",
+      "indirizzo": "Vocabolo Chignoni, 61042 Apecchio PU",
+      "lat": 43.535684,
+      "lng": 12.397245
+    },
+    {
+      "id": "d3b180fb-8d92-4951-9ee8-664ccec5face",
+      "slug": "agriturismo-fontesomma-apecchio",
+      "nome": "Agriturismo Fontesomma",
+      "city_name": "Apecchio",
+      "indirizzo": "Vocabolo Fonte Somma, 85, 61042 Apecchio PU",
+      "lat": 43.541738,
+      "lng": 12.462888
+    },
+    {
+      "id": "95a9bd21-a628-4d29-b00a-758f9e072cbe",
+      "slug": "agriturismo-le-capannacce-apecchio",
+      "nome": "Agriturismo Le Capannacce",
+      "city_name": "Apecchio",
+      "indirizzo": "Località Sant'Andrea in Serra D'Ocre, 23, 61049 Urbania PU",
+      "lat": 43.662029,
+      "lng": 12.586597
+    },
+    {
+      "id": "6831ffdf-ef3b-421f-a51c-14cdf6877a66",
+      "slug": "agriturismo-piandimolino-apecchio",
+      "nome": "Agriturismo Piandimolino",
+      "city_name": "Apecchio",
+      "indirizzo": "Vocabolo Pian di Molino, 16, 61042 Pian di Molino PU",
+      "lat": 43.580316,
+      "lng": 12.450333
+    },
+    {
+      "id": "d84f214f-ec76-488a-9853-ce945dd48f2d",
+      "slug": "albergo-montenerone-apecchio",
+      "nome": "Albergo Montenerone",
+      "city_name": "Apecchio",
+      "indirizzo": "Via Roma, 28, 61046 Piobbico PU",
+      "lat": 43.590013,
+      "lng": 12.509683
+    },
+    {
+      "id": "706e853a-d6ab-47d4-b00b-1065d1262971",
+      "slug": "b-b-casa-balducci-apecchio",
+      "nome": "B&B Casa Balducci",
+      "city_name": "Apecchio",
+      "indirizzo": "Via Don Luigi Sturzo, 7, 61040 Mercatello Sul Metauro PU",
+      "lat": 43.645749,
+      "lng": 12.333429
+    },
+    {
+      "id": "b9a565ce-d094-4c94-a8c3-2d98b74ed4c5",
+      "slug": "b-b-mulino-della-ricavata-apecchio",
+      "nome": "B&B Mulino della Ricavata",
+      "city_name": "Apecchio",
+      "indirizzo": "Località Porta Celle, 5, 61049 Urbania PU",
+      "lat": 43.682579,
+      "lng": 12.516174
+    },
+    {
+      "id": "30a6b5c3-dea0-4666-a3c9-fb074c214fed",
+      "slug": "casale-il-sogno-apecchio",
+      "nome": "Casale il Sogno",
+      "city_name": "Apecchio",
+      "indirizzo": "Località Casalecchi, 25, 06026 Pietralunga PG",
+      "lat": 43.475706,
+      "lng": 12.451293
+    },
+    {
+      "id": "84cd606d-6275-47e8-b3bd-43ff6168479a",
+      "slug": "casale-la-spina-apecchio",
+      "nome": "Casale La Spina",
+      "city_name": "Apecchio",
+      "indirizzo": "Vocabolo Spina, 61042 Apecchio PU",
+      "lat": 43.556527,
+      "lng": 12.430256
+    },
+    {
+      "id": "f962250a-e857-40aa-a134-5500fa9e85e6",
+      "slug": "castello-della-pieve-apecchio",
+      "nome": "Castello della Pieve",
+      "city_name": "Apecchio",
+      "indirizzo": "61040 Castello della Pieve, Province of Pesaro and Urbino",
+      "lat": 43.661998,
+      "lng": 12.31206
+    },
+    {
+      "id": "6309b7db-9871-4516-88d8-028f150da0c6",
+      "slug": "hotel-bramante-spa-apecchio",
+      "nome": "Hotel Bramante & Spa",
+      "city_name": "Apecchio",
+      "indirizzo": "Via Roma, 92, 61049 Urbania PU",
+      "lat": 43.673767,
+      "lng": 12.515285
+    },
+    {
+      "id": "0c9c243f-1215-4c70-895d-4665835895cb",
+      "slug": "hotel-ristorante-candeleto-apecchio",
+      "nome": "Hotel Ristorante Candeleto",
+      "city_name": "Apecchio",
+      "indirizzo": "Via delle Querce, 3, 06026 Pietralunga PG",
+      "lat": 43.435382,
+      "lng": 12.42467
+    },
+    {
+      "id": "880137ac-f53c-4e20-ba3c-19a7b0b969ea",
+      "slug": "la-locanda-del-borgo-apecchio",
+      "nome": "La Locanda del Borgo",
+      "city_name": "Apecchio",
+      "indirizzo": "Via Roma, 139, 06026 Pietralunga PG",
+      "lat": 43.442886,
+      "lng": 12.445822
+    },
+    {
+      "id": "fc4d3485-84ef-412e-8595-99381fe36437",
+      "slug": "la-tavola-marche-apecchio",
+      "nome": "La Tavola Marche",
+      "city_name": "Apecchio",
+      "indirizzo": "Via Candigliano, Localita Ca'Camone, 61048 Sant'Angelo in Vado PU",
+      "lat": 43.606052,
+      "lng": 12.412819
+    },
+    {
+      "id": "02cf927f-c311-423f-ab70-beb5195291e9",
+      "slug": "monte-paradiso-agriturismo-apecchio",
+      "nome": "Monte Paradiso Agriturismo",
+      "city_name": "Apecchio",
+      "indirizzo": "vocal. Gorghe, 21, 06026 Perugia PG",
+      "lat": 43.490832,
+      "lng": 12.427449
+    },
+    {
+      "id": "c3af687f-a3cd-469b-b1b1-b27dfaca0e01",
+      "slug": "palazzo-donati-apecchio",
+      "nome": "Palazzo Donati",
+      "city_name": "Apecchio",
+      "indirizzo": "Corso Bencivenni, 29, 61040 Mercatello sul Metauro PU",
+      "lat": 43.646889,
+      "lng": 12.337014
+    },
+    {
+      "id": "fe80c7cb-9566-4964-8eb0-d8ad65bf932e",
+      "slug": "relais-valguerriera-apecchio",
+      "nome": "Relais Valguerriera",
+      "city_name": "Apecchio",
+      "indirizzo": "Località Valguerriera, 61042 Apecchio PU",
+      "lat": 43.607831,
+      "lng": 12.434157
+    },
+    {
+      "id": "925c5a6a-fb11-4150-b012-f9dbf7b4aa72",
+      "slug": "affittacamere-l-angelica-apice",
+      "nome": "AFFITTACAMERE L'ANGELICA",
+      "city_name": "Apice",
+      "indirizzo": "Contrada Schivito, 68, 83035 Grottaminarda AV",
+      "lat": 41.039961,
+      "lng": 15.046585
+    },
+    {
+      "id": "9ef796bf-57f1-4ca5-a25f-2068de766a5f",
+      "slug": "agriturismo-al-castello-del-principe-apice",
+      "nome": "Agriturismo \"Al Castello del Principe\"",
+      "city_name": "Apice",
+      "indirizzo": "Via Federico II, 82018 Località Cubante BN",
+      "lat": 41.099038,
+      "lng": 14.929202
+    },
+    {
+      "id": "b6b3110f-8954-4153-8777-e6cd153ae2c2",
+      "slug": "agriturismo-tenuta-della-madama-apice",
+      "nome": "Agriturismo Tenuta della Madama",
+      "city_name": "Apice",
+      "indirizzo": "Contrada Festola, 83030 Venticano AV",
+      "lat": 41.056245,
+      "lng": 14.921322
+    },
+    {
+      "id": "8b134f35-8d80-464f-9b71-d3fd01c59e52",
+      "slug": "agriturismo-villa-luisa-apice",
+      "nome": "Agriturismo Villa Luisa",
+      "city_name": "Apice",
+      "indirizzo": "Via Federico II, 28, 82018 Calvi BN",
+      "lat": 41.100429,
+      "lng": 14.93508
+    },
+    {
+      "id": "d7835e6a-79be-4fde-814f-1a52c803bfab",
+      "slug": "b-b-artistico-relax-apice",
+      "nome": "B&B Artistico Relax",
+      "city_name": "Apice",
+      "indirizzo": "Via Appia, 130, 83030 Castello del Lago AV",
+      "lat": 41.076566,
+      "lng": 14.925357
+    },
+    {
+      "id": "ff265c28-d811-44ba-83b6-6bfecbc0d3f2",
+      "slug": "b-b-domus-d-italia-apice",
+      "nome": "B&B Domus D'Italia",
+      "city_name": "Apice",
+      "indirizzo": "Contrada Pozzillo, 16, 83036 Mirabella Eclano AV",
+      "lat": 41.048253,
+      "lng": 15.028664
+    },
+    {
+      "id": "4f1b7e9a-4d8d-409d-9346-4db4a3b83d50",
+      "slug": "b-b-domus-tua-apice",
+      "nome": "B&B Domus Tua",
+      "city_name": "Apice",
+      "indirizzo": "Via S. Giuseppe, 82020 Pietrelcina BN",
+      "lat": 41.199284,
+      "lng": 14.847969
+    }
+  ]
+}

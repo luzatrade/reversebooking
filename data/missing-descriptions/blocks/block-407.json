@@ -1,0 +1,323 @@
+{
+  "block": 407,
+  "blockId": "407",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "89c228ce-0fb5-4e15-8abb-56a6bcb1316e",
+      "slug": "b-b-la-casa-dei-tigli-cannara-cannara",
+      "nome": "B&B La Casa dei Tigli Cannara",
+      "city_name": "Cannara",
+      "indirizzo": "Via Destra Topino, 123, 06033 Cannara PG",
+      "lat": 43.015117,
+      "lng": 12.552962
+    },
+    {
+      "id": "a9fb4afd-7c61-4f6b-bce3-994dd7dfd81d",
+      "slug": "bed-and-breakfast-ciancaleoni-cannara",
+      "nome": "Bed and Breakfast Ciancaleoni",
+      "city_name": "Cannara",
+      "indirizzo": "Via Fontanella, 10, 06181 Rivotorto PG",
+      "lat": 43.042204,
+      "lng": 12.617809
+    },
+    {
+      "id": "51d17c34-db43-40a0-97a0-b01670404809",
+      "slug": "bed-and-breakfast-da-patty-cannara-cannara",
+      "nome": "Bed and Breakfast da Patty - Cannara",
+      "city_name": "Cannara",
+      "indirizzo": "Via S. Donato, 1, 06033 Cannara PG",
+      "lat": 42.995969,
+      "lng": 12.584251
+    },
+    {
+      "id": "39b29a82-4a3a-4e62-9414-d892627fe64a",
+      "slug": "hotel-cenacolo-cannara",
+      "nome": "Hotel Cenacolo",
+      "city_name": "Cannara",
+      "indirizzo": "Viale Patrono d'Italia, 70, 06181 Santa Maria degli Angeli PG",
+      "lat": 43.06245,
+      "lng": 12.587874
+    },
+    {
+      "id": "84051a0d-c25a-4e1a-8671-6e3a18267453",
+      "slug": "il-giardino-dei-ciliegi-cannara",
+      "nome": "Il Giardino dei Ciliegi",
+      "city_name": "Cannara",
+      "indirizzo": "Via Massera, 6, 06181 Assisi PG",
+      "lat": 43.033089,
+      "lng": 12.637312
+    },
+    {
+      "id": "36f07e4a-0b3b-4b64-beca-5234c3ced427",
+      "slug": "il-vialetto-cannara",
+      "nome": "Il Vialetto",
+      "city_name": "Cannara",
+      "indirizzo": "Parco XXV Aprile, 15B, 06033 Cannara PG",
+      "lat": 42.992202,
+      "lng": 12.575779
+    },
+    {
+      "id": "b1e2f2e0-986e-4626-84ba-0aaeb5242fd4",
+      "slug": "la-dolce-vista-umbria-bed-breakfast-cannara",
+      "nome": "La Dolce Vista Umbria Bed&Breakfast",
+      "city_name": "Cannara",
+      "indirizzo": "Vocabolo Conversino, 164/a, 06033 Cannara PG",
+      "lat": 42.982629,
+      "lng": 12.546993
+    },
+    {
+      "id": "f0a86beb-fc30-4a64-9a40-f7cb1d0540e6",
+      "slug": "la-residenza-di-bacco-cannara",
+      "nome": "La Residenza Di Bacco",
+      "city_name": "Cannara",
+      "indirizzo": "Via Collemancio, 25, 06033 Cannara PG",
+      "lat": 42.99394,
+      "lng": 12.575617
+    },
+    {
+      "id": "a281992e-e0ed-424d-8cd5-8005d9201802",
+      "slug": "le-vecchie-mura-b-b-cannara",
+      "nome": "Le Vecchie Mura B & B",
+      "city_name": "Cannara",
+      "indirizzo": "Piazza S. Matteo, 22, 06033 Cannara PG",
+      "lat": 42.993818,
+      "lng": 12.583472
+    },
+    {
+      "id": "adb6792f-282b-444b-9e57-29c83abe0e23",
+      "slug": "palazzo-delle-signorine-cannara",
+      "nome": "Palazzo delle Signorine",
+      "city_name": "Cannara",
+      "indirizzo": "Piazza Corte Vecchia, 12, 06033 Cannara PG",
+      "lat": 42.995216,
+      "lng": 12.582549
+    },
+    {
+      "id": "066ffab5-380a-41e0-a432-aa4e8e55d754",
+      "slug": "arancioamaro-ristorante-hotel-cannero-riviera",
+      "nome": "Arancioamaro Ristorante Hotel",
+      "city_name": "Cannero Riviera",
+      "indirizzo": "Viale delle Magnolie, 13, 28821 Cannero Riviera VB",
+      "lat": 46.019905,
+      "lng": 8.683597
+    },
+    {
+      "id": "6287e802-6d83-4088-89b7-b8153d0688a6",
+      "slug": "b-b-casa-al-mulino-cannero-riviera",
+      "nome": "B&B Casa al Mulino",
+      "city_name": "Cannero Riviera",
+      "indirizzo": "Via del Molino, 4, 28821 Cannero Riviera VB",
+      "lat": 46.022348,
+      "lng": 8.681408
+    },
+    {
+      "id": "ad7abebd-0020-4b33-8517-6ddb0178df5b",
+      "slug": "b-b-casa-banano-cannero-riviera",
+      "nome": "B&B Casa Banano",
+      "city_name": "Cannero Riviera",
+      "indirizzo": "Via Guglielmo Marconi, 30, 28821 Cannero Riviera VB",
+      "lat": 46.021926,
+      "lng": 8.684626
+    },
+    {
+      "id": "7db01455-4bd8-4801-a073-8c261aadb3f7",
+      "slug": "b-b-casa-forster-cannero-riviera",
+      "nome": "B&B Casa Forster",
+      "city_name": "Cannero Riviera",
+      "indirizzo": "Via Panoramica, 10, 28821 Cannero Riviera VB",
+      "lat": 46.023004,
+      "lng": 8.680674
+    },
+    {
+      "id": "3e7b6fb5-b925-4c6f-b8ee-cb57577abd50",
+      "slug": "franziska-s-place-cannero-riviera",
+      "nome": "Franziska's Place",
+      "city_name": "Cannero Riviera",
+      "indirizzo": "Via Roma, 60, 28821 Cannero Riviera VB",
+      "lat": 46.023098,
+      "lng": 8.684807
+    },
+    {
+      "id": "73953e51-98cc-4afc-a16c-5ae695f99ac5",
+      "slug": "hapimag-resort-cannero-cannero-riviera",
+      "nome": "Hapimag Resort Cannero",
+      "city_name": "Cannero Riviera",
+      "indirizzo": "Viale delle Magnolie, 7, 28821 Cannero Riviera VB",
+      "lat": 46.019727,
+      "lng": 8.681703
+    },
+    {
+      "id": "407860ca-5136-4223-ac76-05d81e415801",
+      "slug": "hotel-cannero-cannero-riviera",
+      "nome": "Hotel Cannero",
+      "city_name": "Cannero Riviera",
+      "indirizzo": "Piazza Umberto I, 2, 28821 Cannero Riviera VB",
+      "lat": 46.022049,
+      "lng": 8.685796
+    },
+    {
+      "id": "7de71844-3fba-4b33-bf3d-ffa5dd48b5a2",
+      "slug": "hotel-cannobio-cannero-riviera",
+      "nome": "Hotel Cannobio",
+      "city_name": "Cannero Riviera",
+      "indirizzo": "Piazza Vittorio Emanuele III, 6, 28822 Cannobio VB",
+      "lat": 46.062088,
+      "lng": 8.700208
+    },
+    {
+      "id": "7a69760a-f92d-4f07-bf9b-f6bdabc84553",
+      "slug": "hotel-del-fiume-cannero-riviera",
+      "nome": "Hotel del Fiume",
+      "city_name": "Cannero Riviera",
+      "indirizzo": "Via Darbedo, 26, 28822 Cannobio VB",
+      "lat": 46.068346,
+      "lng": 8.69304
+    },
+    {
+      "id": "a29d00b3-48bc-4ae7-a01f-04fcb370c583",
+      "slug": "hotel-la-rondinella-cannero-riviera",
+      "nome": "Hotel La Rondinella",
+      "city_name": "Cannero Riviera",
+      "indirizzo": "Via Lodovico Sacchetti, 50, 28821 Cannero Riviera VB",
+      "lat": 46.019748,
+      "lng": 8.673054
+    },
+    {
+      "id": "e2b433f9-52ed-4bf4-b50d-41e83a556cd4",
+      "slug": "hotel-villa-delle-palme-cannero-riviera",
+      "nome": "Hotel Villa delle Palme",
+      "city_name": "Cannero Riviera",
+      "indirizzo": "Via Darbedo, 12, 28822 Cannobio VB",
+      "lat": 46.070403,
+      "lng": 8.694252
+    },
+    {
+      "id": "7905954e-4f10-466d-ae2a-f6570b935c97",
+      "slug": "relais-villa-margherita-cannero-riviera",
+      "nome": "Relais Villa Margherita",
+      "city_name": "Cannero Riviera",
+      "indirizzo": "Via Giovanni Polli, 11, 28824 Oggebbio VB",
+      "lat": 45.996557,
+      "lng": 8.652325
+    },
+    {
+      "id": "0d88357d-8079-48f0-bcff-48f90d483a00",
+      "slug": "residenza-dei-fiori-cannero-riviera",
+      "nome": "Residenza dei fiori",
+      "city_name": "Cannero Riviera",
+      "indirizzo": "Piazza Umberto Primo, 2, 28821 Cannero Riviera VB",
+      "lat": 46.022346,
+      "lng": 8.68525
+    },
+    {
+      "id": "dcb85fbf-2114-4865-952f-a7bf0cfa5d06",
+      "slug": "villa-angelina-lake-view-dreams-cannero-riviera",
+      "nome": "Villa Angelina - Lake View Dreams",
+      "city_name": "Cannero Riviera",
+      "indirizzo": "Via Ludovico, Viale Lodovico Sacchetti, 44/46, 28821 Cannero Riviera VB",
+      "lat": 46.020293,
+      "lng": 8.673993
+    },
+    {
+      "id": "aa5e3a41-6a4f-4f4e-abcb-3a3e840f558e",
+      "slug": "villa-maria-hotel-residence-cannero-riviera",
+      "nome": "VILLA MARIA Hotel Residence",
+      "city_name": "Cannero Riviera",
+      "indirizzo": "Via Ceroni, 1, 28822 Cannobio VB",
+      "lat": 46.060335,
+      "lng": 8.700524
+    },
+    {
+      "id": "12aa7eb7-89c1-40d5-8434-5015afb01b62",
+      "slug": "villa-morissolina-bed-breakfast-ristorante-cannero-riviera",
+      "nome": "Villa Morissolina Bed & Breakfast Ristorante",
+      "city_name": "Cannero Riviera",
+      "indirizzo": "Contrada San Mauro 6, 28826 Trarego VB",
+      "lat": 46.033317,
+      "lng": 8.668344
+    },
+    {
+      "id": "7331a5b1-1c5a-4053-8c25-d72b6c0c73f7",
+      "slug": "agriturismo-casa-casoni-canneto-pavese",
+      "nome": "Agriturismo Casa Casoni",
+      "city_name": "Canneto Pavese",
+      "indirizzo": "Via Costiolo, 71, 27044 Canneto Pavese PV",
+      "lat": 45.037781,
+      "lng": 9.282684
+    },
+    {
+      "id": "d399b04f-2490-4b9f-8d09-8b1539cf2c16",
+      "slug": "b-b-la-mimosa-e-il-gelsomino-canneto-pavese",
+      "nome": "B&B La Mimosa e Il Gelsomino",
+      "city_name": "Canneto Pavese",
+      "indirizzo": "Via della Chiesa, 9, 27044 Canneto Pavese PV",
+      "lat": 45.050704,
+      "lng": 9.281709
+    },
+    {
+      "id": "e9de0c0f-552f-42c7-abb3-26b44b5b6dc0",
+      "slug": "la-casa-tra-i-vigneti-canneto-pavese",
+      "nome": "La casa tra i vigneti",
+      "city_name": "Canneto Pavese",
+      "indirizzo": "Frazione Castelrotto, 1, 27047 Montecalvo Versiggia PV",
+      "lat": 44.983264,
+      "lng": 9.274093
+    },
+    {
+      "id": "1d777cf3-d4fd-4399-b96e-024a1a096dc9",
+      "slug": "dimora-e-arte-bed-and-breakfast-canneto-sull-oglio",
+      "nome": "Dimora e Arte - Bed and Breakfast",
+      "city_name": "Canneto sull'Oglio",
+      "indirizzo": "Via Giuseppe Garibaldi, 81, 46013 Canneto sull'Oglio MN",
+      "lat": 45.149858,
+      "lng": 10.380001
+    },
+    {
+      "id": "8673991c-07f4-47f9-90c7-5a2e33d1c5eb",
+      "slug": "hotel-bifi-canneto-sull-oglio",
+      "nome": "Hotel Bifi",
+      "city_name": "Canneto sull'Oglio",
+      "indirizzo": "S.S. Sabbionetana 420 km 36, Via Monte Sabotino, 420, 26041 Casalmaggiore CR",
+      "lat": 44.980715,
+      "lng": 10.425291
+    },
+    {
+      "id": "fc44c7b4-7af8-4577-81f7-b2f1c7caefb0",
+      "slug": "antico-borgo-b-b-cannobio-cannobio",
+      "nome": "Antico Borgo B&B Cannobio",
+      "city_name": "Cannobio",
+      "indirizzo": "Via A. Giovanola, 75, 28822 Cannobio VB",
+      "lat": 46.0612,
+      "lng": 8.695031
+    },
+    {
+      "id": "21a61a97-01cb-48be-8485-29ea182fbfc1",
+      "slug": "b-b-21-cannobio",
+      "nome": "B&B 21",
+      "city_name": "Cannobio",
+      "indirizzo": "Via 14 Marzo, 21, 28822 Cannobio VB",
+      "lat": 46.066259,
+      "lng": 8.697272
+    },
+    {
+      "id": "f262f415-9f30-4ffb-b3b9-c23d1c26786f",
+      "slug": "b-b-a-cannobio-azalea-cannobio",
+      "nome": "B&B a Cannobio: Azalea",
+      "city_name": "Cannobio",
+      "indirizzo": "Casali Masserecci, 35, 28822 Cannobio VB",
+      "lat": 46.062024,
+      "lng": 8.689201
+    },
+    {
+      "id": "6b96faac-8362-4228-82e8-521e67872813",
+      "slug": "b-b-casa-edenrock-cannobio",
+      "nome": "B&B Casa Edenrock",
+      "city_name": "Cannobio",
+      "indirizzo": "via Casali Edenrock 2, 28822 Cannobio VB",
+      "lat": 46.075177,
+      "lng": 8.689099
+    }
+  ]
+}

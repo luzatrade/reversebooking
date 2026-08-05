@@ -1,0 +1,323 @@
+{
+  "block": 85,
+  "blockId": "085",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "015c2770-eea1-4870-b138-caf7dfbf0b06",
+      "slug": "blu-hotel-altavilla-irpina",
+      "nome": "Blu Hotel",
+      "city_name": "Altavilla Irpina",
+      "indirizzo": "Contrada Iannassi, 82010 San Nicola Manfredi BN",
+      "lat": 41.092759,
+      "lng": 14.832104
+    },
+    {
+      "id": "b6724813-3823-41c2-b3af-4f93d134ed2b",
+      "slug": "coccinella-b-b-altavilla-irpina",
+      "nome": "Coccinella B&B",
+      "city_name": "Altavilla Irpina",
+      "indirizzo": "Via Angelo l', 29, 83010 Tufo AV",
+      "lat": 41.012021,
+      "lng": 14.819197
+    },
+    {
+      "id": "a8bfa2c4-b4bf-410b-bec3-d6b3477471e6",
+      "slug": "domus-felix-a-summonte-altavilla-irpina",
+      "nome": "Domus Felix a Summonte",
+      "city_name": "Altavilla Irpina",
+      "indirizzo": "SS374, 9, 83010 Summonte AV",
+      "lat": 40.94752,
+      "lng": 14.743226
+    },
+    {
+      "id": "5de81961-1013-48e0-ba1f-98dd496b58a9",
+      "slug": "hotel-al-palazzetto-altavilla-irpina",
+      "nome": "Hotel Al Palazzetto",
+      "city_name": "Altavilla Irpina",
+      "indirizzo": "Via Piana, 12, 83010 Summonte AV",
+      "lat": 40.948056,
+      "lng": 14.743772
+    },
+    {
+      "id": "cffbd5cb-e39f-4fb9-a068-2cecf9aa431e",
+      "slug": "hotel-hypnos-altavilla-irpina",
+      "nome": "Hotel Hypnos",
+      "city_name": "Altavilla Irpina",
+      "indirizzo": "Via dei Sanniti, 77, 82018 San Giorgio del Sannio BN",
+      "lat": 41.078843,
+      "lng": 14.850895
+    },
+    {
+      "id": "4f7735bf-ce9a-4eb6-b80d-840683f2299c",
+      "slug": "ristorante-hotel-urciuolo-altavilla-irpina",
+      "nome": "Ristorante Hotel Urciuolo",
+      "city_name": "Altavilla Irpina",
+      "indirizzo": "Via Due Strade, 1, 83015 Pietrastornina AV",
+      "lat": 40.987973,
+      "lng": 14.737548
+    },
+    {
+      "id": "68b36202-ebca-41c8-941e-98e92e65a2a9",
+      "slug": "rossi-nero-resort-altavilla-irpina",
+      "nome": "Rossi&Nero Resort",
+      "city_name": "Altavilla Irpina",
+      "indirizzo": "Via Aria Miranda, 1, 82010 Arpaise BN",
+      "lat": 41.020481,
+      "lng": 14.75787
+    },
+    {
+      "id": "95746983-e55c-471e-b1e5-c4ee5a24033c",
+      "slug": "villa-verde-agriturismo-altavilla-irpina",
+      "nome": "Villa Verde Agriturismo",
+      "city_name": "Altavilla Irpina",
+      "indirizzo": "Contrada Agliano, 83030 Prata di Principato Ultra AV",
+      "lat": 41.000744,
+      "lng": 14.817817
+    },
+    {
+      "id": "3e264350-a131-4238-b3d0-27d97b982549",
+      "slug": "agriturismo-villa-cefala-altavilla-milicia",
+      "nome": "Agriturismo Villa Cefalà",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "SS 113 Settentrionale Sicula, 48, 90017 Santa Flavia PA",
+      "lat": 38.066395,
+      "lng": 13.533457
+    },
+    {
+      "id": "f2b72e3f-37c7-4f68-bf7d-7e4efbc40c2d",
+      "slug": "allegroitalia-torre-artale-palermo-altavilla-milicia",
+      "nome": "Allegroitalia Torre Artale Palermo",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Contrada Sant'Onofrio, 1, 90019 Palermo PA",
+      "lat": 37.99845,
+      "lng": 13.6114
+    },
+    {
+      "id": "6dca5c2c-dce7-47c7-a8d3-facc5fed1cbb",
+      "slug": "antico-casale-formica-altavilla-milicia",
+      "nome": "Antico Casale Formica",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Via Primo Consona, 3, 90011 Consona 1 PA",
+      "lat": 38.063021,
+      "lng": 13.500744
+    },
+    {
+      "id": "fe0c8695-3005-40a3-854e-565c4f5e5f27",
+      "slug": "b-b-benvenuti-al-sud-altavilla-milicia",
+      "nome": "B&B Benvenuti al Sud",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Via Roccazzo, 11, 90019 Trabia PA",
+      "lat": 38.012684,
+      "lng": 13.615202
+    },
+    {
+      "id": "3d856620-35a5-4763-b35e-2dd865ebbc5d",
+      "slug": "b-b-la-caletta-altavilla-milicia",
+      "nome": "B&B LA CALETTA",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Piano Torre, 17, 90017 Santa Flavia PA",
+      "lat": 38.097037,
+      "lng": 13.538526
+    },
+    {
+      "id": "b8c3d0b2-2a27-456b-b238-e88d06231e72",
+      "slug": "casa-giardinetto-altavilla-milicia",
+      "nome": "Casa Giardinetto",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Via S. Michele, 34, 90010 Altavilla Milicia PA",
+      "lat": 38.044692,
+      "lng": 13.549633
+    },
+    {
+      "id": "eac2f8a1-a40d-482e-880c-6f114f86288f",
+      "slug": "domina-zagarella-sicily-santa-flavia-altavilla-milicia",
+      "nome": "Domina Zagarella Sicily - Santa Flavia",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "SS 113 Settentrionale Sicula, 77, 90017 Santa Flavia PA",
+      "lat": 38.076658,
+      "lng": 13.540913
+    },
+    {
+      "id": "7e3a0af6-251e-4d06-b279-58da3c391084",
+      "slug": "donna-concetta-altavilla-milicia",
+      "nome": "Donna Concetta",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Via Roma, 113, 90017 Santa Flavia PA",
+      "lat": 38.091205,
+      "lng": 13.539512
+    },
+    {
+      "id": "74f7f9da-948b-4437-b711-d2355fdc07d8",
+      "slug": "hotel-borgo-di-ciaula-altavilla-milicia",
+      "nome": "Hotel Borgo di Ciàula",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Via Roma, 113, 90017 Santa Flavia PA",
+      "lat": 38.091214,
+      "lng": 13.53946
+    },
+    {
+      "id": "8eb938d7-61e9-431d-897f-c80b8585ec3f",
+      "slug": "hotel-sporting-club-altavilla-milicia",
+      "nome": "Hotel Sporting Club",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Via Consolare, 16, 90010 Altavilla Milicia PA",
+      "lat": 38.032755,
+      "lng": 13.58125
+    },
+    {
+      "id": "ef983388-cec9-4766-9c73-edb2334d8a88",
+      "slug": "hotel-torre-normanna-altavilla-milicia",
+      "nome": "Hotel Torre Normanna",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Strada Comunale Piano Torre, 90010 Altavilla Milicia PA",
+      "lat": 38.024828,
+      "lng": 13.597995
+    },
+    {
+      "id": "d1d6302d-55bc-4dd6-951c-49143002975f",
+      "slug": "hotel-villa-mare-altavilla-milicia",
+      "nome": "Hotel Villa Mare",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Via Vittorio Veneto, 45, 90010 Altavilla Milicia PA",
+      "lat": 38.045111,
+      "lng": 13.55093
+    },
+    {
+      "id": "1dca3a78-ca26-4f63-bd76-b55ff63a9ec8",
+      "slug": "la-dimora-dei-paladini-altavilla-milicia",
+      "nome": "La Dimora dei Paladini",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Corso Butera, 232, 90011 Bagheria PA",
+      "lat": 38.083905,
+      "lng": 13.50606
+    },
+    {
+      "id": "0a17a775-f01d-4ea7-b6f2-dedbd6e79eb8",
+      "slug": "luxury-boutique-hotel-blue-island-villa-caterina-altavilla-milicia",
+      "nome": "Luxury Boutique Hotel Blue Island Villa Caterina",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Viale Kennedy, 40, 90014 Casteldaccia PA",
+      "lat": 38.056703,
+      "lng": 13.538953
+    },
+    {
+      "id": "1d13cfe4-9874-42eb-b3c0-b7b92268224d",
+      "slug": "principe-alogna-hotel-spa-altavilla-milicia",
+      "nome": "Principe Alogna Hotel & SPA",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Str. Vicinale S. Nicola, 19, 90010 Altavilla Milicia PA",
+      "lat": 38.009699,
+      "lng": 13.599855
+    },
+    {
+      "id": "8d3f55e5-78c8-47a3-8325-09253cbd03c5",
+      "slug": "suite-le-palme-altavilla-milicia",
+      "nome": "Suite le palme",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Corso Italia, 45, 90011 Aspra PA",
+      "lat": 38.10159,
+      "lng": 13.491105
+    },
+    {
+      "id": "2cd03708-f6f5-463e-92b1-09947518e436",
+      "slug": "villa-edera-rental-rooms-altavilla-milicia",
+      "nome": "Villa Edera Rental Rooms",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Via Alcide De Gasperi, 17, 90017 Santa Flavia PA",
+      "lat": 38.086574,
+      "lng": 13.53626
+    },
+    {
+      "id": "78ae1368-ceab-4ce5-845d-ae9251c61000",
+      "slug": "villa-oltremare-resort-altavilla-milicia",
+      "nome": "Villa Oltremare resort",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Via S. Giovanni Bosco, 109, 90011 Bagheria PA",
+      "lat": 38.065323,
+      "lng": 13.508236
+    },
+    {
+      "id": "8a85327d-6a81-4ba1-9ddb-ba92c1ab689d",
+      "slug": "villa-scaduto-residence-altavilla-milicia",
+      "nome": "Villa Scaduto Residence",
+      "city_name": "Altavilla Milicia",
+      "indirizzo": "Corso Baldassare Scaduto, 9, 90011 Bagheria PA",
+      "lat": 38.090485,
+      "lng": 13.504816
+    },
+    {
+      "id": "a6ce6db1-60ee-4e06-8739-2dbc5c954dde",
+      "slug": "b-b-castello-di-frassinello-altavilla-monferrato",
+      "nome": "B&B Castello di Frassinello",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Via Giuseppe Garibaldi, 1, 15035 Frassinello Monferrato AL",
+      "lat": 45.032001,
+      "lng": 8.387381
+    },
+    {
+      "id": "cf37f6fd-b7fa-4384-be6b-d034c73a6bf5",
+      "slug": "b-b-locanda-il-cortile-altavilla-monferrato",
+      "nome": "B&B Locanda Il Cortile",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Via Evasio Rossi, 14, 15049 Vignale Monferrato AL",
+      "lat": 45.009936,
+      "lng": 8.399585
+    },
+    {
+      "id": "1d9b6bed-36d9-4e63-b7c7-ca452a551518",
+      "slug": "b-b-monferrato-ca-dei-sogni-della-dimora-belloni-altavilla-monferrato",
+      "nome": "B&B Monferrato Ca' Dei Sogni della Dimora Belloni Pool Relax and Wine Bar",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Via Giuseppe Mazzini, 6, 15041 Altavilla Monferrato AL",
+      "lat": 44.994711,
+      "lng": 8.375933
+    },
+    {
+      "id": "341ebff6-a9eb-46ca-90a4-7ad2305aadfa",
+      "slug": "b-b-monferrato-villa-hortensia-altavilla-monferrato",
+      "nome": "B&B Monferrato Villa Hortensia",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Via Felice Bava, 46, 14032 Casorzo AT",
+      "lat": 45.024393,
+      "lng": 8.33172
+    },
+    {
+      "id": "aa63114d-6631-404c-b42e-3cf340fd74f5",
+      "slug": "bed-and-breakfast-agriturismo-cascina-alberta-altavilla-monferrato",
+      "nome": "Bed and Breakfast - Agriturismo Cascina Alberta",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Via Ca' Prano, 14, 15049 Vignale Monferrato AL",
+      "lat": 45.019031,
+      "lng": 8.414062
+    },
+    {
+      "id": "a0eb8d5e-249a-40f3-8ee9-740697050874",
+      "slug": "belcasale-camere-in-collina-altavilla-monferrato",
+      "nome": "BELCASALE - Camere in collina",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Ca’ Molignano, 7, 15049 Vignale Monferrato AL",
+      "lat": 45.012536,
+      "lng": 8.362686
+    },
+    {
+      "id": "a166d604-9c17-4fa5-b76e-ebc6f744d535",
+      "slug": "belvedere-monferrato-relais-wellness-altavilla-monferrato",
+      "nome": "BELVEDERE MONFERRATO Relais&Wellness",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Ca' Molignano, 1, 15049 Vignale Monferrato AL",
+      "lat": 45.011026,
+      "lng": 8.363587
+    },
+    {
+      "id": "59d92046-fdaa-4db8-a2a4-1347e20f754a",
+      "slug": "ca-frescot-altavilla-monferrato",
+      "nome": "Ca' Frescòt",
+      "city_name": "Altavilla Monferrato",
+      "indirizzo": "Via Roma, 27, 14032 Casorzo AT",
+      "lat": 45.023163,
+      "lng": 8.338112
+    }
+  ]
+}

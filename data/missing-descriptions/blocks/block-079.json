@@ -1,0 +1,323 @@
+{
+  "block": 79,
+  "blockId": "079",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "2b4f4308-3609-43f7-b1ae-c10200c65427",
+      "slug": "bed-breakfast-all-angolo-sale-alluvioni-piovera",
+      "nome": "Bed & Breakfast “All’Angolo” Sale",
+      "city_name": "Alluvioni Piovera",
+      "indirizzo": "Piazza Giuseppe Garibaldi, 19, 15045 Sale AL",
+      "lat": 44.980976,
+      "lng": 8.808148
+    },
+    {
+      "id": "8eb5426a-87d8-4bae-b46c-f6e9a7a33765",
+      "slug": "ca-degli-ovi-alluvioni-piovera",
+      "nome": "Cà degli Ovi",
+      "city_name": "Alluvioni Piovera",
+      "indirizzo": "STRADA DELLE ROCCHE, 4, 15048 Valenza AL",
+      "lat": 45.053859,
+      "lng": 8.610358
+    },
+    {
+      "id": "dee51222-3037-4aa8-a28b-dc0e14492d5a",
+      "slug": "cascina-dei-gelsi-alluvioni-piovera",
+      "nome": "Cascina dei Gelsi",
+      "city_name": "Alluvioni Piovera",
+      "indirizzo": "Via Cerchetta, 12, 15045 Gerbidi AL",
+      "lat": 44.95386,
+      "lng": 8.808196
+    },
+    {
+      "id": "feec3abc-039a-443a-8721-68ef2ed9d528",
+      "slug": "la-fornace-agriturismo-holiday-farmhouse-alluvioni-piovera",
+      "nome": "La Fornace | agriturismo | holiday farmhouse",
+      "city_name": "Alluvioni Piovera",
+      "indirizzo": "V.le Teresa Michel, 52, 15121 Alessandria AL",
+      "lat": 44.92001,
+      "lng": 8.634418
+    },
+    {
+      "id": "15a4a495-35d8-4a50-9c70-45edfa6d1377",
+      "slug": "la-residenza-del-vescovo-alluvioni-piovera",
+      "nome": "La Residenza Del Vescovo",
+      "city_name": "Alluvioni Piovera",
+      "indirizzo": "Via M. A. Corti, 79, 27030 Gambarana PV",
+      "lat": 45.028093,
+      "lng": 8.760413
+    },
+    {
+      "id": "93991889-bd3e-4576-8d62-9c7b6b1d9bd3",
+      "slug": "marinella-g-h-alluvioni-piovera",
+      "nome": "Marinella G.H.",
+      "city_name": "Alluvioni Piovera",
+      "indirizzo": "Via Cavour, 103, 27056 Cornale PV",
+      "lat": 45.042291,
+      "lng": 8.916201
+    },
+    {
+      "id": "a893848c-090a-4985-bfd6-b859bb4261b8",
+      "slug": "monferrato-inn-alluvioni-piovera",
+      "nome": "Monferrato Inn",
+      "city_name": "Alluvioni Piovera",
+      "indirizzo": "Via degli Orti, 9, 15040 Rivarone AL",
+      "lat": 44.976274,
+      "lng": 8.71535
+    },
+    {
+      "id": "bc177969-7c35-4bf8-9cb3-fdc0f34240c2",
+      "slug": "agriturismo-al-robale-almenno-san-bartolomeo",
+      "nome": "Agriturismo Al Robale",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Cabinetti, 2, 24030 Almenno San Bartolomeo BG",
+      "lat": 45.757297,
+      "lng": 9.556388
+    },
+    {
+      "id": "60c2c296-947f-47dc-b178-8917987115c4",
+      "slug": "b-b-al-vecchio-molino-almenno-san-bartolomeo",
+      "nome": "b&b Al vecchio Molino",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Guglielmo Marconi, 16, 24030 Valbrembo BG",
+      "lat": 45.713827,
+      "lng": 9.595524
+    },
+    {
+      "id": "c28a89ac-3aac-4380-b99f-4dff7658f522",
+      "slug": "b-b-da-isa-di-pesenti-isabella-almenno-san-bartolomeo",
+      "nome": "B&B da Isa di Pesenti Isabella",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Roma, 87/A, 24010 Sedrina BG",
+      "lat": 45.781274,
+      "lng": 9.622444
+    },
+    {
+      "id": "e39ccf48-8096-4de5-8043-e1b5f81935d9",
+      "slug": "bed-and-breakfast-cascina-valgrande-almenno-san-bartolomeo",
+      "nome": "Bed and Breakfast Cascina Valgrande",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Secchia 50, Via Secchia, 46, 24030 Palazzago BG",
+      "lat": 45.739262,
+      "lng": 9.549098
+    },
+    {
+      "id": "898c303e-6490-490d-ae52-c61cb2bd21af",
+      "slug": "bergamum-f-l-almenno-san-bartolomeo",
+      "nome": "Bergamum F.L.",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Burattini, 5, 24123 Bergamo BG",
+      "lat": 45.717689,
+      "lng": 9.661954
+    },
+    {
+      "id": "94fcc15e-1cf8-4930-9641-8e5deb4d7197",
+      "slug": "bio-b-cascina-montebello-almenno-san-bartolomeo",
+      "nome": "Bio&B Cascina Montebello",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Montebello, 4, 24030 Palazzago BG",
+      "lat": 45.740585,
+      "lng": 9.559882
+    },
+    {
+      "id": "3ab77cb1-49ec-4108-aa83-9ce14e54e965",
+      "slug": "ca-baetti-l-antica-corte-foresteria-almenno-san-bartolomeo",
+      "nome": "Cà Baetti L’antica Corte Foresteria",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Ca' Baetti, 8, 24030 Roncola BG",
+      "lat": 45.779488,
+      "lng": 9.562384
+    },
+    {
+      "id": "f2291588-e301-4b00-8e98-ab3924b7656b",
+      "slug": "ca-del-cuco-almenno-san-bartolomeo",
+      "nome": "Ca' del Cuco",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Salvano, 24, 24030 Palazzago BG",
+      "lat": 45.741755,
+      "lng": 9.553538
+    },
+    {
+      "id": "6f481fba-e126-427d-a39a-e6e5328ce6f0",
+      "slug": "casa-di-giuly-bnb-guest-house-almenno-san-bartolomeo",
+      "nome": "Casa di Giuly BnB Guest House",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Sigismondi, 40B, 24018 Villa d'Almè BG",
+      "lat": 45.749582,
+      "lng": 9.613427
+    },
+    {
+      "id": "edf615b8-7df5-4812-9d29-30feb3f84d7d",
+      "slug": "cascina-belvedi-ristorante-albergo-almenno-san-bartolomeo",
+      "nome": "Cascina Belvedì Ristorante Albergo",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Belvedere, 4, 24010 Ubiale Clanezzo BG",
+      "lat": 45.763609,
+      "lng": 9.597372
+    },
+    {
+      "id": "bd0a5e88-65ca-4134-87a8-9f007b26d57a",
+      "slug": "due-lune-b-b-almenno-san-bartolomeo",
+      "nome": "Due Lune B&B",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via S. Giorgio, 11, 24031 Almenno San Salvatore BG",
+      "lat": 45.74574,
+      "lng": 9.593634
+    },
+    {
+      "id": "fe8d3013-f0d7-4744-b571-cf318cb2fd55",
+      "slug": "hotel-5-vie-almenno-san-bartolomeo",
+      "nome": "Hotel 5 Vie",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Garibaldi, 14, 24031 Almenno San Salvatore BG",
+      "lat": 45.751165,
+      "lng": 9.59925
+    },
+    {
+      "id": "b0ceab0a-940f-48d1-96c6-11ca85874435",
+      "slug": "hotel-camoretti-almenno-san-bartolomeo",
+      "nome": "Hotel Camoretti",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Camoretti, 2-2/A, 24030 Almenno San Bartolomeo BG",
+      "lat": 45.751903,
+      "lng": 9.552288
+    },
+    {
+      "id": "2eac2fd6-50d3-4007-b587-0e4c1e8ecb69",
+      "slug": "hotel-la-quercia-almenno-san-bartolomeo",
+      "nome": "Hotel La Quercia",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Dorotina, 11, 24030 Mozzo BG",
+      "lat": 45.695794,
+      "lng": 9.59776
+    },
+    {
+      "id": "16f9d851-ac86-45e9-a6e9-d7a28865f8ce",
+      "slug": "hotel-le-cornelle-almenno-san-bartolomeo",
+      "nome": "Hotel Le Cornelle",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Cornelle, 18, 24030 Valbrembo BG",
+      "lat": 45.717758,
+      "lng": 9.59573
+    },
+    {
+      "id": "7595be1f-1987-4d9c-b6a8-9bb5619158c7",
+      "slug": "hotel-mazzoleni-almenno-san-bartolomeo",
+      "nome": "Hotel Mazzoleni",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Piazza Guglielmo Marconi, 5, 24030 Roncola BG",
+      "lat": 45.768128,
+      "lng": 9.561538
+    },
+    {
+      "id": "4a080013-1aae-4c14-8466-b95649520309",
+      "slug": "hotel-ristorante-dei-pini-almenno-san-bartolomeo",
+      "nome": "Hotel Ristorante Dei Pini",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Alcide De Gasperi, 47, 24030 Mapello BG",
+      "lat": 45.717713,
+      "lng": 9.556817
+    },
+    {
+      "id": "03079ebb-14b6-4c45-9fff-cb22ec315223",
+      "slug": "hotel-ventolosa-val-brembana-almenno-san-bartolomeo",
+      "nome": "Hotel Ventolosa VaL Brembana",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Ventolosa, 23, 24018 Villa d'Almè BG",
+      "lat": 45.75394,
+      "lng": 9.610764
+    },
+    {
+      "id": "ee6177d9-24c1-4898-9db3-f775ca967528",
+      "slug": "il-posto-delle-rose-almenno-san-bartolomeo",
+      "nome": "Il Posto delle Rose",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Masconzano, 2, 24031 Masconzano BG",
+      "lat": 45.743983,
+      "lng": 9.591805
+    },
+    {
+      "id": "3bbc6312-e3a4-49c5-99a4-def7d6cc20b9",
+      "slug": "niji-hotel-restaurant-almenno-san-bartolomeo",
+      "nome": "Niji Hotel & Restaurant",
+      "city_name": "Almenno San Bartolomeo",
+      "indirizzo": "Via Dante Alighieri, 22, 24030 Mapello BG",
+      "lat": 45.723375,
+      "lng": 9.554079
+    },
+    {
+      "id": "10a2009e-57b8-4efe-a4c9-1c72efb6781a",
+      "slug": "aldeia-bianca-almenno-san-salvatore",
+      "nome": "Aldeia Bianca",
+      "city_name": "Almenno San Salvatore",
+      "indirizzo": "Via Regina Teodolinda, 2, 24031 Almenno San Salvatore BG",
+      "lat": 45.754578,
+      "lng": 9.604701
+    },
+    {
+      "id": "d48cf14e-9ab5-48ea-8e69-d935c11618e5",
+      "slug": "b-b-santa-lucia-almenno-san-salvatore",
+      "nome": "B&B Santa Lucia",
+      "city_name": "Almenno San Salvatore",
+      "indirizzo": "Via Giuseppe Garibaldi, 16, 24122 Bergamo BG",
+      "lat": 45.69559,
+      "lng": 9.662343
+    },
+    {
+      "id": "3f650430-eb5a-4c09-82a6-c4803fb15e6c",
+      "slug": "bnb-la-casa-di-anna-almenno-san-salvatore",
+      "nome": "BnB La Casa di Anna",
+      "city_name": "Almenno San Salvatore",
+      "indirizzo": "Via Fogazzaro, 9, 24018 Villa d'Almè BG",
+      "lat": 45.747752,
+      "lng": 9.612571
+    },
+    {
+      "id": "3d1f8130-aab4-49b1-8438-f54f42ed4115",
+      "slug": "hotel-relais-san-vigilio-almenno-san-salvatore",
+      "nome": "Hotel Relais San Vigilio",
+      "city_name": "Almenno San Salvatore",
+      "indirizzo": "Via al Castello, 7, 24129 Bergamo BG",
+      "lat": 45.709024,
+      "lng": 9.651269
+    },
+    {
+      "id": "eeeaf2d5-509b-47bf-baae-41b8ac0e8722",
+      "slug": "il-sole-almenno-san-salvatore",
+      "nome": "Il Sole",
+      "city_name": "Almenno San Salvatore",
+      "indirizzo": "Via Bartolomeo Colleoni, 1, 24129 Bergamo BG",
+      "lat": 45.70449,
+      "lng": 9.66288
+    },
+    {
+      "id": "9a5d37e9-8a60-490d-a2ee-6bef2d147865",
+      "slug": "b-b-503-di-alessio-e-orsola-almese",
+      "nome": "B&B 503 di Alessio e Orsola",
+      "city_name": "Almese",
+      "indirizzo": "Via Roma, 20, 10050 Chiusa di San Michele TO",
+      "lat": 45.101186,
+      "lng": 7.327187
+    },
+    {
+      "id": "0ad97ece-aca5-4743-a8c8-c1ffcca9e032",
+      "slug": "b-b-caterina-c-almese",
+      "nome": "B&B Caterina.c",
+      "city_name": "Almese",
+      "indirizzo": "Via Betulle, 35, 10040 Val della Torre TO",
+      "lat": 45.128967,
+      "lng": 7.472111
+    },
+    {
+      "id": "3941821c-16cb-4bcf-b97c-fde85a0587fb",
+      "slug": "b-b-certosa-1515-almese",
+      "nome": "B&B Certosa 1515",
+      "city_name": "Almese",
+      "indirizzo": "Via Sacra di San Michele, 51, 10051 Avigliana TO",
+      "lat": 45.074344,
+      "lng": 7.358453
+    }
+  ]
+}

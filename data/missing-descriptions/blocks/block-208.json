@@ -1,0 +1,323 @@
+{
+  "block": 208,
+  "blockId": "208",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "da436e80-212d-4c5c-9b05-131501611bbd",
+      "slug": "hotel-mater-mediterranea-ballao",
+      "nome": "HOTEL Mater Mediterranea",
+      "city_name": "Ballao",
+      "indirizzo": "Via Piemonte, 23, 09040 Senorbì CA",
+      "lat": 39.526091,
+      "lng": 9.133507
+    },
+    {
+      "id": "fe79f374-6b9d-48f1-9788-c56474510fe9",
+      "slug": "albergo-furnasa-balme",
+      "nome": "Albergo Furnasa",
+      "city_name": "Balme",
+      "indirizzo": "Via XXIV Maggio, 16, 10070 Usseglio TO",
+      "lat": 45.232322,
+      "lng": 7.208409
+    },
+    {
+      "id": "5c67d17d-67f5-4cec-8add-41a791dcaf6e",
+      "slug": "albergo-gran-paradiso-centro-benessere-ristorant-balme",
+      "nome": "Albergo Gran Paradiso - centro benessere - ristorante - Noasca",
+      "city_name": "Balme",
+      "indirizzo": "Via, Corso Umberto I, 2, 10080 Noasca TO",
+      "lat": 45.454361,
+      "lng": 7.313719
+    },
+    {
+      "id": "d5f8a3d4-b1a7-4c32-bc0b-7ea64cd14934",
+      "slug": "albergo-grand-usseglio-balme",
+      "nome": "Albergo Grand'Usseglio",
+      "city_name": "Balme",
+      "indirizzo": "Via Roma, 21, 10070 Usseglio TO",
+      "lat": 45.232645,
+      "lng": 7.222611
+    },
+    {
+      "id": "a3dba478-7c2e-4dfc-9823-e63115e24d41",
+      "slug": "albergo-ristorante-cantoira-balme",
+      "nome": "Albergo Ristorante Cantoira ****",
+      "city_name": "Balme",
+      "indirizzo": "Via Roma, 137, 10070 Cantoira TO",
+      "lat": 45.343174,
+      "lng": 7.379727
+    },
+    {
+      "id": "6908121e-87b5-4d98-a0ef-5b664283c134",
+      "slug": "b-b-scola-veja-balme",
+      "nome": "B&B Scòla Vèja",
+      "city_name": "Balme",
+      "indirizzo": "Borgata Pavaglione, 174, 10050 Chianocco TO",
+      "lat": 45.159375,
+      "lng": 7.187015
+    },
+    {
+      "id": "9411a9c4-7373-47f5-83dc-44421dd19e44",
+      "slug": "ceresole-sport-village-la-casa-del-re-balme",
+      "nome": "Ceresole Sport village (La Casa del Re)",
+      "city_name": "Balme",
+      "indirizzo": "Borgata Le Prese, 10, 10080 Ceresole Reale TO",
+      "lat": 45.433698,
+      "lng": 7.258603
+    },
+    {
+      "id": "2ddc30c4-89bd-4061-8830-dfb9a23296b7",
+      "slug": "chalet-sul-lago-hotel-a-moncenisio-piemonte-balme",
+      "nome": "Chalet sul lago Hotel a Moncenisio -Piemonte-",
+      "city_name": "Balme",
+      "indirizzo": "Via Regione Lago, 8, 10050 Moncenisio TO",
+      "lat": 45.202343,
+      "lng": 6.983611
+    },
+    {
+      "id": "5190ab3e-f4d5-462c-a012-d2254387bd15",
+      "slug": "convento-boutique-hotel-balme",
+      "nome": "Convento Boutique Hotel",
+      "city_name": "Balme",
+      "indirizzo": "Piazza S. Francesco, 5, 10059 Susa TO",
+      "lat": 45.133947,
+      "lng": 7.045899
+    },
+    {
+      "id": "5aa405d8-52d2-4ba3-829c-633a4102167f",
+      "slug": "grand-hotel-ceresole-balme",
+      "nome": "Grand Hotel Ceresole",
+      "city_name": "Balme",
+      "indirizzo": "Borgata Le Prese, 10, 10080 Ceresole Reale TO",
+      "lat": 45.433933,
+      "lng": 7.258637
+    },
+    {
+      "id": "0961f30d-f5c6-4cb1-93d8-96522b5c09b1",
+      "slug": "hotel-isolabella-balme",
+      "nome": "Hotel Isolabella",
+      "city_name": "Balme",
+      "indirizzo": "S.da Susa, 13, 10053 Bussoleno TO",
+      "lat": 45.137871,
+      "lng": 7.12718
+    },
+    {
+      "id": "0a6ef42c-d1dc-45ba-93b7-4612112a8af9",
+      "slug": "hotel-palas-balme",
+      "nome": "Hotel PALAS",
+      "city_name": "Balme",
+      "indirizzo": "Via Camillo Benso Conte di Cavour, 18/B, 10050 Bruzolo TO",
+      "lat": 45.141846,
+      "lng": 7.192741
+    },
+    {
+      "id": "8403aee4-98ef-4f07-a338-e98c0abbe9b0",
+      "slug": "hotel-susa-balme",
+      "nome": "Hotel Susa",
+      "city_name": "Balme",
+      "indirizzo": "Corso Stati Uniti, 4, 10059 Susa TO",
+      "lat": 45.138106,
+      "lng": 7.051877
+    },
+    {
+      "id": "58f0aed6-ec6b-4547-a3a3-fc52263ad43f",
+      "slug": "il-baraccone-resort-balme",
+      "nome": "Il Baraccone Resort",
+      "city_name": "Balme",
+      "indirizzo": "Località Baraccone, 7/A, 10050 San Didero TO",
+      "lat": 45.128374,
+      "lng": 7.209381
+    },
+    {
+      "id": "aad4bb4d-f03b-4967-8b71-d653f56da51c",
+      "slug": "sunrise-inn-spa-balme",
+      "nome": "Sunrise Inn & Spa",
+      "city_name": "Balme",
+      "indirizzo": "Frazione Gisola, 27, 10070 Gisola TO",
+      "lat": 45.283856,
+      "lng": 7.432312
+    },
+    {
+      "id": "bfb3c05a-8a97-4c5b-b703-94950af15414",
+      "slug": "villa-belvedere-balme",
+      "nome": "VILLA BELVEDERE",
+      "city_name": "Balme",
+      "indirizzo": "Via Oulx, 12, 10059 Susa TO",
+      "lat": 45.132935,
+      "lng": 7.043854
+    },
+    {
+      "id": "f63606cd-92fa-4da8-a3e0-282de6f0afc2",
+      "slug": "al-cantuccio-balmuccia",
+      "nome": "Al Cantuccio",
+      "city_name": "Balmuccia",
+      "indirizzo": "Via Statale, 17, 13028 Scopello VC",
+      "lat": 45.772991,
+      "lng": 8.09352
+    },
+    {
+      "id": "9fb2dffd-58f1-4e02-bdb8-872ed24d8939",
+      "slug": "albergo-ristorante-la-coldra-quarona-balmuccia",
+      "nome": "Albergo Ristorante La Coldra - Quarona",
+      "city_name": "Balmuccia",
+      "indirizzo": "Via S. Giovanni, 28, 13017 Quarona VC",
+      "lat": 45.757758,
+      "lng": 8.278173
+    },
+    {
+      "id": "e7380d36-da6a-487b-a80f-bc22fa4c2019",
+      "slug": "b-b-la-baita-delle-coccinelle-balmuccia",
+      "nome": "B&B LA BAITA DELLE COCCINELLE",
+      "city_name": "Balmuccia",
+      "indirizzo": "Localita Roncaglio, 13019 Varallo VC",
+      "lat": 45.786798,
+      "lng": 8.252579
+    },
+    {
+      "id": "e1cbec19-06e6-4c27-83e5-7af430aaddd2",
+      "slug": "campeggio-ai-dinelli-balmuccia",
+      "nome": "Campeggio ai Dinelli",
+      "city_name": "Balmuccia",
+      "indirizzo": "Via Varallo, 51, 13027 Scopa VC",
+      "lat": 45.808986,
+      "lng": 8.125362
+    },
+    {
+      "id": "4019b049-2412-47a9-868f-8915f58aefcb",
+      "slug": "casa-gemma-balmuccia",
+      "nome": "Casa Gemma",
+      "city_name": "Balmuccia",
+      "indirizzo": "Localita' Centro, 15, 13020 Rimella VC",
+      "lat": 45.907772,
+      "lng": 8.181625
+    },
+    {
+      "id": "5eb2440b-a1ed-4ed8-987e-50970dea7595",
+      "slug": "hotel-residence-giardini-balmuccia",
+      "nome": "Hotel Residence Giardini",
+      "city_name": "Balmuccia",
+      "indirizzo": "Via Umberto I, 9, 13020 Piode VC",
+      "lat": 45.770959,
+      "lng": 8.05099
+    },
+    {
+      "id": "217a93e5-05c4-4ff1-ad7e-291a44c647be",
+      "slug": "b-b-il-cigno-balocco",
+      "nome": "B&B Il Cigno",
+      "city_name": "Balocco",
+      "indirizzo": "Via Guglielmo Oberdan, 1, 13871 Benna BI",
+      "lat": 45.515018,
+      "lng": 8.123624
+    },
+    {
+      "id": "65591bd6-a8dc-447d-bb5f-55c668547c21",
+      "slug": "castello-della-bastia-balocco",
+      "nome": "Castello della Bastia",
+      "city_name": "Balocco",
+      "indirizzo": "Frazione Bastia, Piazza Castello, 5/C, 13040 Balocco VC",
+      "lat": 45.46549,
+      "lng": 8.28605
+    },
+    {
+      "id": "3ff3bbe2-af2f-4d25-b199-1ce3480a31c2",
+      "slug": "da-ovidio-fraz-fornace-crocicchio-balocco",
+      "nome": "Da Ovidio - Fraz.Fornace Crocicchio",
+      "city_name": "Balocco",
+      "indirizzo": "SP230, 6, 13030 Carisio VC",
+      "lat": 45.44587,
+      "lng": 8.232931
+    },
+    {
+      "id": "aca6f3a4-d0e9-4280-935d-e899abdbdb9d",
+      "slug": "hotel-balocco-balocco",
+      "nome": "Hotel Balocco",
+      "city_name": "Balocco",
+      "indirizzo": "Viale Giovanni Maria Orecchioni, 07021 Liscia di Vacca OT",
+      "lat": 41.136848,
+      "lng": 9.521709
+    },
+    {
+      "id": "7c658d40-c335-4931-b9ce-3664b1f77445",
+      "slug": "i-platani-balocco",
+      "nome": "I Platani",
+      "city_name": "Balocco",
+      "indirizzo": "Localita' Donna, 3, 13877 Villanova Biellese BI",
+      "lat": 45.469071,
+      "lng": 8.212225
+    },
+    {
+      "id": "24ef0093-9d23-43d7-bd7e-e919db9b2f8f",
+      "slug": "la-carosera-b-b-balocco",
+      "nome": "La Carosera B&B",
+      "city_name": "Balocco",
+      "indirizzo": "Via Castellengo, 29, 13836 Cossato BI",
+      "lat": 45.531946,
+      "lng": 8.187374
+    },
+    {
+      "id": "caa14fb7-3917-4aad-a4bc-954427e70923",
+      "slug": "la-casa-di-pietro-balocco",
+      "nome": "La Casa di Pietro",
+      "city_name": "Balocco",
+      "indirizzo": "Via Guglielmo Marconi, 10, 13882 Cerrione BI",
+      "lat": 45.469193,
+      "lng": 8.066281
+    },
+    {
+      "id": "4773804c-18f2-4720-aee6-fcba32eef6a2",
+      "slug": "antica-tenuta-agriturismo-balsorano",
+      "nome": "ANTICA TENUTA AGRITURISMO",
+      "city_name": "Balsorano",
+      "indirizzo": "Case Sparse, 67052 Balsorano AQ",
+      "lat": 41.819391,
+      "lng": 13.563265
+    },
+    {
+      "id": "2bc41925-1d08-46df-a32e-0d514c907e41",
+      "slug": "b-b-albergo-della-corte-l-aquila-balsorano",
+      "nome": "B&B Albergo Della Corte L'Aquila",
+      "city_name": "Balsorano",
+      "indirizzo": "Via Oppieto, 11/A, 67032 Pescasseroli AQ",
+      "lat": 41.805113,
+      "lng": 13.789174
+    },
+    {
+      "id": "09b7ca50-793c-4305-b887-eb07efb3ba92",
+      "slug": "b-b-charme-balsorano",
+      "nome": "B&B Charme",
+      "city_name": "Balsorano",
+      "indirizzo": "Via Barca S. Domenico, 37, 03039 Sora FR",
+      "lat": 41.706448,
+      "lng": 13.572513
+    },
+    {
+      "id": "9f46173a-fe0e-4736-9565-eb6474684815",
+      "slug": "b-b-la-collina-di-peppino-balsorano",
+      "nome": "B&B La Collina di Peppino",
+      "city_name": "Balsorano",
+      "indirizzo": "SP 19 km 16.800, 67059 Trasacco AQ",
+      "lat": 41.942599,
+      "lng": 13.541908
+    },
+    {
+      "id": "e26bad93-27d7-4a04-8b12-0aec3e2684c6",
+      "slug": "b-b-via-della-piazza-balsorano",
+      "nome": "B&B Via Della Piazza",
+      "city_name": "Balsorano",
+      "indirizzo": "Via della Piazza, 52, 67032 Pescasseroli AQ",
+      "lat": 41.811081,
+      "lng": 13.79042
+    },
+    {
+      "id": "18858b89-ed0e-4ee2-b8ee-31a6336aae0b",
+      "slug": "casa-radiosa-balsorano",
+      "nome": "Casa Radiosa",
+      "city_name": "Balsorano",
+      "indirizzo": "Via S. Vincenzo Ferreri, 80, 03039 Sora FR",
+      "lat": 41.756584,
+      "lng": 13.612972
+    }
+  ]
+}

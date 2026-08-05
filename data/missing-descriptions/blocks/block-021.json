@@ -1,0 +1,323 @@
+{
+  "block": 21,
+  "blockId": "021",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "d451bdb4-3a2b-43e1-a1f0-85d2aeb6de67",
+      "slug": "b-b-la-marica-adrano",
+      "nome": "B&B La Marica",
+      "city_name": "Adrano",
+      "indirizzo": "Via Cappuccini, 100/102, 95031 Adrano CT",
+      "lat": 37.656006,
+      "lng": 14.84048
+    },
+    {
+      "id": "2cb25197-d530-4ea6-857f-cba71eb683c6",
+      "slug": "b-b-patty-s-house-adrano",
+      "nome": "B&B Patty's House",
+      "city_name": "Adrano",
+      "indirizzo": "Via Madonna delle Grazie, 16, 95031 Adrano CT",
+      "lat": 37.660107,
+      "lng": 14.835199
+    },
+    {
+      "id": "5ab40382-b514-430e-8221-6d41815c4e79",
+      "slug": "bosco-ciancio-adrano",
+      "nome": "Bosco Ciancio",
+      "city_name": "Adrano",
+      "indirizzo": "Strada Provinciale, 95033 Biancavilla CT",
+      "lat": 37.67983,
+      "lng": 14.917092
+    },
+    {
+      "id": "eeea2b22-d1a9-4b41-a064-017dd7de7101",
+      "slug": "boscoscuro-adrano",
+      "nome": "Boscoscuro",
+      "city_name": "Adrano",
+      "indirizzo": "Via Monte Arso, 95030 Ragalna CT",
+      "lat": 37.657048,
+      "lng": 14.94462
+    },
+    {
+      "id": "eaa5ce53-0e5d-4050-8800-1b5fe57eca56",
+      "slug": "casa-romeo-adrano",
+      "nome": "Casa Romeo",
+      "city_name": "Adrano",
+      "indirizzo": "Via Riganati, 5, 95031 Adrano CT",
+      "lat": 37.665932,
+      "lng": 14.831871
+    },
+    {
+      "id": "26d90c6f-d9e5-4b1b-b94c-f2797a7e93df",
+      "slug": "centro-benessere-acquaplanet-adrano",
+      "nome": "Centro Benessere Acquaplanet",
+      "city_name": "Adrano",
+      "indirizzo": "Via Baratta, 190, 95047 Paternò CT",
+      "lat": 37.56646,
+      "lng": 14.909518
+    },
+    {
+      "id": "413df60c-0235-4704-98bf-0689c0f12501",
+      "slug": "corten-hotel-adrano",
+      "nome": "Corten Hotel",
+      "city_name": "Adrano",
+      "indirizzo": "Via Aldo Moro, 38, 95038 Santa Maria di Licodia CT",
+      "lat": 37.615157,
+      "lng": 14.898892
+    },
+    {
+      "id": "f5109d15-3ac8-403c-a5a8-ac3d7f3aff01",
+      "slug": "etna-morada-adrano-adrano",
+      "nome": "Etna Morada Adrano",
+      "city_name": "Adrano",
+      "indirizzo": "Via Casale dei Greci, 41, 95031 Adrano CT",
+      "lat": 37.65276,
+      "lng": 14.842932
+    },
+    {
+      "id": "8996162f-3f29-45d9-8b3d-82e721cf71fa",
+      "slug": "hotel-casale-dei-greci-adrano",
+      "nome": "Hotel \"Casale dei Greci\"",
+      "city_name": "Adrano",
+      "indirizzo": "Viale C. Colombo, 95033 Biancavilla CT",
+      "lat": 37.641354,
+      "lng": 14.874108
+    },
+    {
+      "id": "dbf90ef5-8c56-4f63-b25f-c16c0429beae",
+      "slug": "hotel-paradise-adrano",
+      "nome": "Hotel Paradise",
+      "city_name": "Adrano",
+      "indirizzo": "Via Alcide de Gasperi, 39, 95038 Santa Maria di Licodia CT",
+      "lat": 37.628769,
+      "lng": 14.888695
+    },
+    {
+      "id": "a527b42e-1fb2-483d-999f-dd1efc2b23e7",
+      "slug": "locale-dimora-rurale-adrano",
+      "nome": "Locale Dimora Rurale",
+      "city_name": "Adrano",
+      "indirizzo": "Contrada Naviccia, snc, 95031 Adrano CT",
+      "lat": 37.681474,
+      "lng": 14.834846
+    },
+    {
+      "id": "ee1ebd56-ac25-4d69-aa6f-8650c94b0e26",
+      "slug": "rifugio-ariel-adrano",
+      "nome": "Rifugio Ariel",
+      "city_name": "Adrano",
+      "indirizzo": "C.da Serra la Nave, 95030 Ragalna CT",
+      "lat": 37.69088,
+      "lng": 14.971722
+    },
+    {
+      "id": "5c224080-1876-4452-9369-51f117e93662",
+      "slug": "rifugio-giovanni-sapienza-adrano",
+      "nome": "Rifugio Giovanni Sapienza",
+      "city_name": "Adrano",
+      "indirizzo": "Piazzale Rifugio Sapienza, 95030 Nicolosi CT",
+      "lat": 37.700512,
+      "lng": 14.998503
+    },
+    {
+      "id": "dcb3a0a6-7e92-49cc-99d6-d7f9da334265",
+      "slug": "siculea-home-adrano",
+      "nome": "Siculea Home",
+      "city_name": "Adrano",
+      "indirizzo": "Via Tagliamento, 47, 95031 Adrano CT",
+      "lat": 37.660667,
+      "lng": 14.83259
+    },
+    {
+      "id": "a9a64177-a142-4ecc-b091-d99a4b05fc5a",
+      "slug": "affittacamere-la-martina-adrara-san-martino",
+      "nome": "Affittacamere La Martina",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Via Nazionale, 26, 24060 Vigano San Martino BG",
+      "lat": 45.734022,
+      "lng": 9.907759
+    },
+    {
+      "id": "5fb12229-19f6-4860-9bab-530a99715f9e",
+      "slug": "agriturismo-grammelot-adrara-san-martino",
+      "nome": "Agriturismo Grammelot",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Via Brugali, 31, 24060 Adrara San Martino BG",
+      "lat": 45.688606,
+      "lng": 9.941912
+    },
+    {
+      "id": "c4c6c915-12ad-402c-87de-9fc288d65880",
+      "slug": "albergo-stazione-adrara-san-martino",
+      "nome": "Albergo Stazione",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Via Roma, 12, 25030 Paratico BS",
+      "lat": 45.665394,
+      "lng": 9.956062
+    },
+    {
+      "id": "cf7d3f07-6005-456c-8734-6508184663e3",
+      "slug": "b-b-casa-del-nonno-adrara-san-martino",
+      "nome": "B&B Casa del Nonno",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Via Longo, 24, 24060 Adrara San Martino BG",
+      "lat": 45.700397,
+      "lng": 9.950839
+    },
+    {
+      "id": "4df57027-1bea-48a2-9f24-4302f5f86106",
+      "slug": "b-b-i-lazzarini-adrara-san-martino",
+      "nome": "B&B I Lazzarini",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Via Besenzoni Don G., 32, 24067 Sarnico BG",
+      "lat": 45.66775,
+      "lng": 9.953118
+    },
+    {
+      "id": "27c9fd5a-39b0-4850-ab52-8c66c45a4c8f",
+      "slug": "b-b-il-santo-pellegrino-chiuso-definitivamente-adrara-san-martino",
+      "nome": "B&B IL SANTO PELLEGRINO CHIUSO DEFINITIVAMENTE",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "san, SP79, 26, 24060 Adrara San Rocco BG",
+      "lat": 45.719405,
+      "lng": 9.961345
+    },
+    {
+      "id": "8394baa4-c6bb-451b-a5cc-e5f3e9500676",
+      "slug": "b-b-in-fattoria-adrara-san-martino",
+      "nome": "B&B in Fattoria",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Via Bescasolo, 27, 24060 Berzo San Fermo BG",
+      "lat": 45.717045,
+      "lng": 9.906369
+    },
+    {
+      "id": "e1705b66-3697-4c08-8fa6-7583c9477503",
+      "slug": "b-b-la-contrada-adrara-san-martino",
+      "nome": "B&B La Contrada",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Via Lantieri, 22, 24067 Sarnico BG",
+      "lat": 45.666451,
+      "lng": 9.958435
+    },
+    {
+      "id": "f0fa8a8a-6819-4b29-a036-2c37f02c6720",
+      "slug": "b-b-la-fenice-sul-lago-adrara-san-martino",
+      "nome": "B&B La Fenice sul Lago",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Via Gaetano Donizetti, 21, 24060 Villongo BG",
+      "lat": 45.667393,
+      "lng": 9.940562
+    },
+    {
+      "id": "ebf950e7-f4f8-4dd3-a781-b4d011d5a8b1",
+      "slug": "b-b-videtti-adrara-san-martino",
+      "nome": "B&B Videtti",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Via Tasso T., 11, 24060 Villongo BG",
+      "lat": 45.680481,
+      "lng": 9.945133
+    },
+    {
+      "id": "3b0855e5-ce80-467e-8ad3-8571deea24de",
+      "slug": "baita-tosca-adrara-san-martino",
+      "nome": "Baita Tosca",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Viale dei Fiori, 4, 24060 San Fermo BG",
+      "lat": 45.737121,
+      "lng": 9.950582
+    },
+    {
+      "id": "28e3e6fc-88c1-4f7d-a3ad-1e7a8e1c575f",
+      "slug": "colletto-agribio-relais-adrara-san-martino",
+      "nome": "Colletto AgriBio Relais",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Via Colletto, 6, 24060 Adrara San Martino BG",
+      "lat": 45.689778,
+      "lng": 9.947494
+    },
+    {
+      "id": "e171def3-af8c-4e1f-a7d9-19928ae9f935",
+      "slug": "giuseppe-b-b-adrara-san-martino",
+      "nome": "Giuseppe B&B",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Via Lombardia, 31, 24067 Sarnico BG",
+      "lat": 45.674003,
+      "lng": 9.970304
+    },
+    {
+      "id": "fdaa25fa-c714-430b-81c6-d7e68784e6d0",
+      "slug": "hotel-residence-ulivi-adrara-san-martino",
+      "nome": "Hotel & Residence Ulivi",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Viale A. Madruzza, 11, 25030 Paratico BS",
+      "lat": 45.662664,
+      "lng": 9.958859
+    },
+    {
+      "id": "c1205647-222e-4a1c-a3e4-fc7cde039ed2",
+      "slug": "hotel-moderno-adrara-san-martino",
+      "nome": "Hotel Moderno",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Viale Vittorio Veneto, 53, 24064 Grumello del Monte BG",
+      "lat": 45.633478,
+      "lng": 9.863774
+    },
+    {
+      "id": "62154cca-1b24-499e-badf-ff211f86e459",
+      "slug": "hotel-piccolo-principe-adrara-san-martino",
+      "nome": "Hotel Piccolo Principe",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Via Gennaro Sora, 2, 24060 Villongo BG",
+      "lat": 45.672577,
+      "lng": 9.928679
+    },
+    {
+      "id": "a48faf4a-d993-4b5f-97a2-e78237e0bb3b",
+      "slug": "la-piazza-bergamo-adrara-san-martino",
+      "nome": "La Piazza Bergamo",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Piazza 4 Novembre, 1, 24060 Monasterolo del Castello BG",
+      "lat": 45.763144,
+      "lng": 9.931943
+    },
+    {
+      "id": "a5180ad6-ca4a-4447-9019-09ea35f43d60",
+      "slug": "locanda-del-boscaiolo-adrara-san-martino",
+      "nome": "Locanda Del Boscaiolo",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Via Montegrappa, 41, 24060 Monasterolo del Castello BG",
+      "lat": 45.760868,
+      "lng": 9.929149
+    },
+    {
+      "id": "809e3464-15f3-4d53-b107-7eeac2eb11c6",
+      "slug": "resort-podere-castel-merlo-adrara-san-martino",
+      "nome": "Resort Podere Castel Merlo",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Via G. Verdi, 6, 24060 Villongo BG",
+      "lat": 45.670325,
+      "lng": 9.941546
+    },
+    {
+      "id": "4b61aeb4-46b5-4c29-9436-979ee414f3f1",
+      "slug": "sole-della-franciacorta-hotel-restaurant-adrara-san-martino",
+      "nome": "Sole della Franciacorta - Hotel & Restaurant",
+      "city_name": "Adrara San Martino",
+      "indirizzo": "Via Sarnico, 2, 25031 Capriolo BS",
+      "lat": 45.642233,
+      "lng": 9.935067
+    },
+    {
+      "id": "dcfecb08-6c5d-4119-96e2-c8508e276460",
+      "slug": "b-b-mirabilia-adrara-san-rocco",
+      "nome": "B&B Mirabilia",
+      "city_name": "Adrara San Rocco",
+      "indirizzo": "Via S. Fermo, 28, 24060 Grone BG",
+      "lat": 45.730899,
+      "lng": 9.953794
+    }
+  ]
+}

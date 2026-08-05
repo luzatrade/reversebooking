@@ -1,0 +1,323 @@
+{
+  "block": 60,
+  "blockId": "060",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "bc5ca1e0-08c7-4c6b-ba14-80f77bdf48ed",
+      "slug": "borgo-caprari-affittacamere-albinea",
+      "nome": "BORGO CAPRARI -affittacamere-",
+      "city_name": "Albinea",
+      "indirizzo": "Via Crostolo, 1, 42020 Albinea RE",
+      "lat": 44.625029,
+      "lng": 10.58973
+    },
+    {
+      "id": "ed1a7325-8018-4ae6-874b-7913e00f0f3a",
+      "slug": "casa-emilia-b-b-albinea-albinea",
+      "nome": "CASA EMILIA B&B Albinea",
+      "city_name": "Albinea",
+      "indirizzo": "Via Giuseppe Garibaldi, 31/1, 42020 Albinea RE",
+      "lat": 44.604551,
+      "lng": 10.595556
+    },
+    {
+      "id": "246575ae-eff0-49de-a8f5-c4caa2d2c80f",
+      "slug": "casale-hortensia-hospitalite-de-charme-albinea",
+      "nome": "Casale Hortensia Hospitalite de Charme",
+      "city_name": "Albinea",
+      "indirizzo": "Via Eduardo de Filippo, 16, 42123 Il Capriolo RE",
+      "lat": 44.651262,
+      "lng": 10.608168
+    },
+    {
+      "id": "b00bbfa7-8d22-47c2-ac50-e6744c4fcac2",
+      "slug": "hotel-europa-albinea",
+      "nome": "Hotel Europa",
+      "city_name": "Albinea",
+      "indirizzo": "Viale Olimpia, 2, 42122 Reggio Emilia RE",
+      "lat": 44.694032,
+      "lng": 10.641454
+    },
+    {
+      "id": "c48effb9-6592-4a91-afbd-b5eb9d64273b",
+      "slug": "hotel-italia-albinea",
+      "nome": "Hotel Italia",
+      "city_name": "Albinea",
+      "indirizzo": "Via Bligny, 26, 42124 Reggio Emilia RE",
+      "lat": 44.702597,
+      "lng": 10.645382
+    },
+    {
+      "id": "24dcada5-12f1-482c-8c7a-a563a7203504",
+      "slug": "hotel-parco-fola-albinea",
+      "nome": "Hotel Parco Fola",
+      "city_name": "Albinea",
+      "indirizzo": "Via Giuseppe Garibaldi, 17, 42020 Albinea RE",
+      "lat": 44.615276,
+      "lng": 10.602237
+    },
+    {
+      "id": "efbc09e7-e440-4c58-a310-1a066d1cdd92",
+      "slug": "la-casa-nel-bosco-albinea",
+      "nome": "La casa nel bosco",
+      "city_name": "Albinea",
+      "indirizzo": "Via Cà Signori, 26, 42019 Scandiano RE",
+      "lat": 44.59544,
+      "lng": 10.652588
+    },
+    {
+      "id": "100b4bd9-9ba1-4e26-a0dd-7ed85fc3d3af",
+      "slug": "la-maison-deux-albinea",
+      "nome": "La Maison Deux",
+      "city_name": "Albinea",
+      "indirizzo": "Via G. Matteotti, 2, 42020 Albinea RE",
+      "lat": 44.618624,
+      "lng": 10.61011
+    },
+    {
+      "id": "9f1eca26-ed4c-4e01-b585-0732171bbead",
+      "slug": "locanda-sant-ambrogio-albinea",
+      "nome": "Locanda Sant'Ambrogio",
+      "city_name": "Albinea",
+      "indirizzo": "Via della Tibbia, 2/1, 42123 Reggio nell'Emilia RE",
+      "lat": 44.651622,
+      "lng": 10.574927
+    },
+    {
+      "id": "9ffc6f57-0631-46e6-aecc-73d4d507d113",
+      "slug": "parco-di-montebello-albinea",
+      "nome": "Parco di Montebello",
+      "city_name": "Albinea",
+      "indirizzo": "Via Fosse Ardeatine, 1, 42020 Quattro Castella RE",
+      "lat": 44.610371,
+      "lng": 10.506226
+    },
+    {
+      "id": "6a8a5e82-b54c-473a-af5a-0e3215b43b4a",
+      "slug": "relais-roncolo-1888-an-slh-hotel-albinea",
+      "nome": "Relais Roncolo 1888, an SLH Hotel",
+      "city_name": "Albinea",
+      "indirizzo": "Tenuta di Roncolo (Venturini Baldini, Via Filippo Turati, 42, 42020 Quattro Castella RE",
+      "lat": 44.626992,
+      "lng": 10.503936
+    },
+    {
+      "id": "df8fa109-1003-44fc-9b1a-fd88bc2c0395",
+      "slug": "verdenoce-agriturismo-albinea",
+      "nome": "VERDENOCE Agriturismo",
+      "city_name": "Albinea",
+      "indirizzo": "Via Venturi, 9, 42020 Albinea RE",
+      "lat": 44.623852,
+      "lng": 10.647431
+    },
+    {
+      "id": "11aa0d85-a14d-407b-b488-34b61291acaa",
+      "slug": "albergo-ristorante-valle-d-oro-albino",
+      "nome": "Albergo ristorante - Valle D' Oro",
+      "city_name": "Albino",
+      "indirizzo": "Via Provinciale, 68, 24021 Albino BG",
+      "lat": 45.769084,
+      "lng": 9.810853
+    },
+    {
+      "id": "7276fc95-75df-4d53-b1d0-0467f5006a4f",
+      "slug": "b-b-casa-dolce-casa-albino",
+      "nome": "B&B Casa Dolce Casa",
+      "city_name": "Albino",
+      "indirizzo": "Via Grimoldo, 222, 24013 Oltre il Colle BG",
+      "lat": 45.892183,
+      "lng": 9.766713
+    },
+    {
+      "id": "4c305311-fc16-4e3a-b1e8-2d5b14fbcdae",
+      "slug": "b-b-casaviva-albino",
+      "nome": "B&B Casaviva",
+      "city_name": "Albino",
+      "indirizzo": "Via Provinciale, 41, 24021 Albino BG",
+      "lat": 45.760614,
+      "lng": 9.801245
+    },
+    {
+      "id": "e13f884f-7540-4dd0-8d5a-4a0e2cebc81a",
+      "slug": "bed-and-breakfast-il-ghiro-albino",
+      "nome": "Bed and Breakfast Il Ghiro",
+      "city_name": "Albino",
+      "indirizzo": "Via Poggio Ama, 14, 24020 Selvino BG",
+      "lat": 45.786828,
+      "lng": 9.760038
+    },
+    {
+      "id": "98b9fa84-29f1-46d3-a863-31ef6565ab10",
+      "slug": "bed-and-breakfast-montino-albino",
+      "nome": "Bed And Breakfast Montino",
+      "city_name": "Albino",
+      "indirizzo": "Via Campione, 18, 24020 Cene BG",
+      "lat": 45.778382,
+      "lng": 9.833083
+    },
+    {
+      "id": "7ce0e3f9-76c4-4e69-9eea-994bc4344ecf",
+      "slug": "bergamo-bnb-albino",
+      "nome": "Bergamo BnB",
+      "city_name": "Albino",
+      "indirizzo": "Via Pradelli, 14, 24020 Villa di Serio BG",
+      "lat": 45.721443,
+      "lng": 9.740202
+    },
+    {
+      "id": "57070573-3b4c-401e-8bef-cb56272cd457",
+      "slug": "ca-di-bonecc-albino",
+      "nome": "Cà di Bonecc",
+      "city_name": "Albino",
+      "indirizzo": "Via Piazzo, 1 C, 24021 Albino BG",
+      "lat": 45.758544,
+      "lng": 9.783183
+    },
+    {
+      "id": "1e5fb217-b350-4815-b2ad-574f02fc8be6",
+      "slug": "casa-vacanze-nonna-ita-albino",
+      "nome": "Casa vacanze Nonna ITA",
+      "city_name": "Albino",
+      "indirizzo": "Via Loverini, 6, 24021 Albino BG",
+      "lat": 45.763095,
+      "lng": 9.801636
+    },
+    {
+      "id": "b21aeea6-a83d-4c44-8f3a-ce61ae230919",
+      "slug": "hotel-albino",
+      "nome": "Hotel",
+      "city_name": "Albino",
+      "indirizzo": "Via Ripa, 12, 24021 Albino BG",
+      "lat": 45.765916,
+      "lng": 9.801873
+    },
+    {
+      "id": "5f39baa7-da73-4587-98e6-6ff9f5bdb4ed",
+      "slug": "la-ripa-boutique-hotel-albino",
+      "nome": "La Ripa Boutique Hotel",
+      "city_name": "Albino",
+      "indirizzo": "Via Ripa, 8, 24021 Albino BG",
+      "lat": 45.766037,
+      "lng": 9.801892
+    },
+    {
+      "id": "d2851798-2d79-4958-b7ac-1bfa1b61ea7e",
+      "slug": "montecura-accoglienza-e-ospitalita-albino",
+      "nome": "Montecura Accoglienza e Ospitalità",
+      "city_name": "Albino",
+      "indirizzo": "Via Monte Cura, 6, 24021 Albino BG",
+      "lat": 45.753768,
+      "lng": 9.805122
+    },
+    {
+      "id": "dd7d5538-d5b4-4d5d-aada-dfd55ba5b653",
+      "slug": "albergo-ristorante-michieletto-albiolo",
+      "nome": "Albergo Ristorante Michieletto",
+      "city_name": "Albiolo",
+      "indirizzo": "Via Roma, 1312, 22070 Valmorea CO",
+      "lat": 45.822945,
+      "lng": 8.936245
+    },
+    {
+      "id": "bfbc0e73-da97-47d2-b1b2-6a59ddd20154",
+      "slug": "b-b-casa-ceruti-albiolo",
+      "nome": "B&B Casa Ceruti",
+      "city_name": "Albiolo",
+      "indirizzo": "Via Papa Giovanni XXIII, 4, 22079 Villa Guardia CO",
+      "lat": 45.780732,
+      "lng": 9.0308
+    },
+    {
+      "id": "903a0184-7403-44ca-83ad-f357276a87ed",
+      "slug": "b-b-casa-charlie-albiolo",
+      "nome": "B&B Casa Charlie",
+      "city_name": "Albiolo",
+      "indirizzo": "Via Baggiolini Don Marco, 4, 21051 Arcisate VA",
+      "lat": 45.845972,
+      "lng": 8.875372
+    },
+    {
+      "id": "74f26404-31de-465d-9299-481a93268374",
+      "slug": "b-b-fior-di-campo-albiolo",
+      "nome": "B&B Fior di Campo",
+      "city_name": "Albiolo",
+      "indirizzo": "Via Cartiera, 2, 22029 Uggiate con Ronago CO",
+      "lat": 45.829005,
+      "lng": 8.992958
+    },
+    {
+      "id": "8e4abefb-aa22-4d4e-a392-9ebbe7a5eb5c",
+      "slug": "b-b-villa-verde-uggiate-albiolo",
+      "nome": "B&B Villa Verde Uggiate",
+      "city_name": "Albiolo",
+      "indirizzo": "Via Mulini, 40, 22029 Mulini CO",
+      "lat": 45.818842,
+      "lng": 8.983285
+    },
+    {
+      "id": "7d68a2cc-ef3b-47a8-9d47-0058959382d0",
+      "slug": "bar-ristorante-gonzaga-hotel-albiolo",
+      "nome": "Bar Ristorante Gonzaga Hotel",
+      "city_name": "Albiolo",
+      "indirizzo": "Via dei Biancospini, 2, 21050 Gaggiolo VA",
+      "lat": 45.834763,
+      "lng": 8.908951
+    },
+    {
+      "id": "6724ac27-ce49-46fb-a416-a3215461c53b",
+      "slug": "bis-hotel-varese-albiolo",
+      "nome": "Bis Hotel Varese",
+      "city_name": "Albiolo",
+      "indirizzo": "Via Franco Ossola, 21100 Varese VA",
+      "lat": 45.802429,
+      "lng": 8.853035
+    },
+    {
+      "id": "f2a7afe3-bfb1-43b8-a274-11a54afb486f",
+      "slug": "ca-rosa-b-b-albiolo",
+      "nome": "Ca' Rosa B&B",
+      "city_name": "Albiolo",
+      "indirizzo": "Via Ischia, 9, 21046 Malnate VA",
+      "lat": 45.794385,
+      "lng": 8.871849
+    },
+    {
+      "id": "877b0f47-d041-4415-ae15-b8938aaafcb8",
+      "slug": "casale-al-foino-albiolo",
+      "nome": "Casale al Foino",
+      "city_name": "Albiolo",
+      "indirizzo": "Via Arturo Ferrarin, 34, 21056 Induno Olona VA",
+      "lat": 45.838614,
+      "lng": 8.846983
+    },
+    {
+      "id": "76e15f7c-a43d-411a-a1ef-93d342ee49a1",
+      "slug": "il-faggio-rosso-albiolo",
+      "nome": "Il Faggio Rosso",
+      "city_name": "Albiolo",
+      "indirizzo": "Via Camillo Benso Conte di Cavour, 21B, 22070 Albiolo CO",
+      "lat": 45.803387,
+      "lng": 8.93613
+    },
+    {
+      "id": "c1c534e5-34f0-4345-bd8a-5dd7633c4f17",
+      "slug": "impero-hotel-albiolo",
+      "nome": "Impero Hotel",
+      "city_name": "Albiolo",
+      "indirizzo": "Via dei Bucaneve, 1, 21050 Gaggiolo VA",
+      "lat": 45.832565,
+      "lng": 8.908685
+    },
+    {
+      "id": "d57cfa0e-7e32-4575-a84e-28308904bd54",
+      "slug": "la-casa-sui-campi-b-b-albiolo",
+      "nome": "La Casa sui Campi B&B",
+      "city_name": "Albiolo",
+      "indirizzo": "Via Monte Rosa, 27, 22043 Solbiate con Cagno CO",
+      "lat": 45.790091,
+      "lng": 8.925067
+    }
+  ]
+}

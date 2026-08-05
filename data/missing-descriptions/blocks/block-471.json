@@ -1,0 +1,323 @@
+{
+  "block": 471,
+  "blockId": "471",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "cb8aa3a9-dad3-4a0c-9ed8-99c998967d2f",
+      "slug": "b-b-aria-di-mare-pollina-sicilia-castelbuono",
+      "nome": "B&B Aria di Mare - Pollina,Sicilia",
+      "city_name": "Castelbuono",
+      "indirizzo": "Via Camillo Benso Conte di Cavour, 46, 90010 Finale PA",
+      "lat": 38.019243,
+      "lng": 14.164327
+    },
+    {
+      "id": "d7c85bd8-7305-44bb-a6fc-afbd2bceab59",
+      "slug": "b-b-porta-delle-madonie-castelbuono",
+      "nome": "B&B Porta Delle Madonie",
+      "city_name": "Castelbuono",
+      "indirizzo": "Piazzetta del Popolo, 3, 90010 Campofelice di Roccella PA",
+      "lat": 37.991429,
+      "lng": 13.887029
+    },
+    {
+      "id": "a7fc9932-b077-48e4-a1d6-5b17e8566b3a",
+      "slug": "b-b-tulip-lotus-castelbuono-castelbuono",
+      "nome": "B&B TULIP LOTUS CASTELBUONO",
+      "city_name": "Castelbuono",
+      "indirizzo": "Via Roma, 18, 90013 Castelbuono PA",
+      "lat": 37.932036,
+      "lng": 14.087172
+    },
+    {
+      "id": "96666f08-a025-4e70-93f3-d088b0e3690e",
+      "slug": "b-b-villa-letizia-castelbuono",
+      "nome": "B&B Villa Letizia",
+      "city_name": "Castelbuono",
+      "indirizzo": "Via Isnello, snc, 90013 Castelbuono PA",
+      "lat": 37.929527,
+      "lng": 14.085115
+    },
+    {
+      "id": "f52bbd3c-cf45-4281-8797-74a794d17ac0",
+      "slug": "b-b-villa-letizia-inn-castelbuono",
+      "nome": "B&B Villa Letizia Inn",
+      "city_name": "Castelbuono",
+      "indirizzo": "Via Giuseppe Mazzini, 7, 90013 Castelbuono PA",
+      "lat": 37.935599,
+      "lng": 14.091057
+    },
+    {
+      "id": "f90ed59d-4442-4bbb-8402-c456973bc887",
+      "slug": "casa-sul-corso-castelbuono",
+      "nome": "Casa sul corso",
+      "city_name": "Castelbuono",
+      "indirizzo": "Via Turrisi, 6, 90013 Castelbuono PA",
+      "lat": 37.931657,
+      "lng": 14.087498
+    },
+    {
+      "id": "c771f6f0-8aa3-45a1-8d8b-f52f8c0fabd2",
+      "slug": "stanze-in-casa-castiglia-castelbuono-castelbuono",
+      "nome": "Stanze in Casa Castiglia Castelbuono",
+      "city_name": "Castelbuono",
+      "indirizzo": "37.94580023270191, 14.070480149698705, 90013 Castelbuono PA",
+      "lat": 37.945697,
+      "lng": 14.07047
+    },
+    {
+      "id": "5c82c2e7-e952-4469-ba9f-79ec2d9a3d49",
+      "slug": "villa-la-plaja-castelbuono",
+      "nome": "Villa La Plaja",
+      "city_name": "Castelbuono",
+      "indirizzo": "Contrada Plaia degli Uccelli, 90015 Cefalù PA",
+      "lat": 38.018104,
+      "lng": 14.067021
+    },
+    {
+      "id": "bdf0180d-77e2-4346-895f-7cb8b9997258",
+      "slug": "villa-tiberio-castelbuono",
+      "nome": "Villa Tiberio",
+      "city_name": "Castelbuono",
+      "indirizzo": "contrada Tiberio, 90010 San Mauro Castelverde PA",
+      "lat": 37.956813,
+      "lng": 14.165838
+    },
+    {
+      "id": "34897539-4b66-4ad9-a40a-b55efac2c500",
+      "slug": "bed-and-breakfast-case-giannone-casteldaccia",
+      "nome": "Bed and Breakfast Case Giannone",
+      "city_name": "Casteldaccia",
+      "indirizzo": "Via Luigi Einaudi, 90017 Santa Flavia PA",
+      "lat": 38.064259,
+      "lng": 13.533288
+    },
+    {
+      "id": "a311a8fc-5d32-4be4-b448-b4d22717a61f",
+      "slug": "blue-life-sea-luxury-rooms-casteldaccia",
+      "nome": "Blue Life, sea-luxury rooms",
+      "city_name": "Casteldaccia",
+      "indirizzo": "SS 113 Settentrionale Sicula, 138, 90014 Casteldaccia PA",
+      "lat": 38.05591,
+      "lng": 13.543669
+    },
+    {
+      "id": "36fa3012-417f-4b39-b62d-aaca05e8bd23",
+      "slug": "isabella-house-casteldaccia",
+      "nome": "Isabella House",
+      "city_name": "Casteldaccia",
+      "indirizzo": "Via Pietro Nenni, 9/C, 90014 Casteldaccia PA",
+      "lat": 38.054713,
+      "lng": 13.539193
+    },
+    {
+      "id": "874efea0-6c24-4586-8607-6f888b91ca5d",
+      "slug": "namuri-rooms-suites-sicily-casa-vacanze-castelda-casteldaccia",
+      "nome": "Namuri Rooms & Suites Sicily - Casa Vacanze - Casteldaccia",
+      "city_name": "Casteldaccia",
+      "indirizzo": "Via S. Giuseppe, 68, 90014 Casteldaccia PA",
+      "lat": 38.05195,
+      "lng": 13.5289
+    },
+    {
+      "id": "aa2db1d9-325e-4da8-bb31-3cbf429029f0",
+      "slug": "room-galletti-inguaggiato-casteldaccia",
+      "nome": "Room Galletti-Inguaggiato",
+      "city_name": "Casteldaccia",
+      "indirizzo": "Corso Butera, 116, 90011 Bagheria PA",
+      "lat": 38.086307,
+      "lng": 13.505621
+    },
+    {
+      "id": "5d520e41-d462-4d56-b709-3da2fb29934d",
+      "slug": "solus-b-b-casteldaccia",
+      "nome": "Solus B&B",
+      "city_name": "Casteldaccia",
+      "indirizzo": "via della rotonda, 2, 90014 Casteldaccia PA",
+      "lat": 38.064283,
+      "lng": 13.536994
+    },
+    {
+      "id": "3ff10c08-221e-473a-8436-76e1f72e7389",
+      "slug": "vile-in-palermo-casteldaccia",
+      "nome": "Vile in Palermo",
+      "city_name": "Casteldaccia",
+      "indirizzo": "SS 113 Settentrionale Sicula, 70, 90014 Casteldaccia PA",
+      "lat": 38.059117,
+      "lng": 13.539547
+    },
+    {
+      "id": "2a8e5c59-27d0-40bc-9734-a64e0765deaf",
+      "slug": "agriturismo-don-cesarino-az-agr-ing-dario-di-vin-castell-umberto",
+      "nome": "Agriturismo \"Don Cesarino\" - Az. Agr. Ing. Dario Di Vincenzo",
+      "city_name": "Castell'Umberto",
+      "indirizzo": "C.da Palazzo S.Giorgio, n.1, 98070 Castell'Umberto ME",
+      "lat": 38.061523,
+      "lng": 14.820053
+    },
+    {
+      "id": "0ad35291-b774-46ca-8adf-62d7c346ebd1",
+      "slug": "agriturismo-fattoria-san-pio-castell-umberto",
+      "nome": "Agriturismo Fattoria San Pio",
+      "city_name": "Castell'Umberto",
+      "indirizzo": "Contrada Rocca San Pietro, 98074 Naso ME",
+      "lat": 38.129126,
+      "lng": 14.806673
+    },
+    {
+      "id": "b3e3fd38-6867-4a45-a510-a83db526c5f7",
+      "slug": "agriturismo-fontanapietra-castell-umberto",
+      "nome": "Agriturismo Fontanapietra",
+      "city_name": "Castell'Umberto",
+      "indirizzo": "Contrada Colla, 8, 98078 Tortorici ME",
+      "lat": 38.018734,
+      "lng": 14.860158
+    },
+    {
+      "id": "bcc56e57-584c-409f-a2e5-2725f09a4d1d",
+      "slug": "agriturismo-la-sorgente-castell-umberto",
+      "nome": "AGRITURISMO LA SORGENTE",
+      "city_name": "Castell'Umberto",
+      "indirizzo": "Contrada Santa Lucia, 4, 98069 Sinagra ME",
+      "lat": 38.064784,
+      "lng": 14.861081
+    },
+    {
+      "id": "739f4aab-a801-4f5d-b6db-8ad31d54dbe5",
+      "slug": "antica-dimora-marinelli-castell-umberto",
+      "nome": "Antica Dimora Marinelli",
+      "city_name": "Castell'Umberto",
+      "indirizzo": "Via Garibaldi, 97, 98062 Ficarra ME",
+      "lat": 38.10777,
+      "lng": 14.831011
+    },
+    {
+      "id": "e835d6aa-019c-4b4b-83fe-e66da75e5c07",
+      "slug": "b-b-il-capitano-castell-umberto",
+      "nome": "B&B Il Capitano",
+      "city_name": "Castell'Umberto",
+      "indirizzo": "Via Trazzera Marina, 294, 98071 Capo d'Orlando ME",
+      "lat": 38.141025,
+      "lng": 14.722991
+    },
+    {
+      "id": "8ee16b09-1e10-4720-a63e-5572ddad350a",
+      "slug": "tenuta-albachiara-castell-umberto",
+      "nome": "Tenuta Albachiara",
+      "city_name": "Castell'Umberto",
+      "indirizzo": "Contrada, Piano S. Cono, 534, 98074 Naso ME",
+      "lat": 38.134189,
+      "lng": 14.774435
+    },
+    {
+      "id": "6c8750d4-af03-483b-b9a7-8b9a7c55105f",
+      "slug": "affittacamere-case-d-anna-castellammare-del-golf-castellammare-del-golfo",
+      "nome": "Affittacamere Case D'Anna - Castellammare del Golfo",
+      "city_name": "Castellammare del Golfo",
+      "indirizzo": "Corso Giuseppe Garibaldi, 122, 91014 Castellammare del Golfo TP",
+      "lat": 38.025349,
+      "lng": 12.881287
+    },
+    {
+      "id": "9371fa78-bded-4871-b4b8-d303af45baec",
+      "slug": "b-b-a-mare-castellammare-del-golfo",
+      "nome": "B&B A Mare",
+      "city_name": "Castellammare del Golfo",
+      "indirizzo": "V. Guglielmo Marconi, 195, 91014 Castellammare del Golfo TP",
+      "lat": 38.026285,
+      "lng": 12.887658
+    },
+    {
+      "id": "d3df3c1a-f394-4423-b847-62461cf75da4",
+      "slug": "badia-rooms-breakfast-castellammare-del-golfo",
+      "nome": "Badia Rooms & Breakfast",
+      "city_name": "Castellammare del Golfo",
+      "indirizzo": "Via Bizet, 7/9, 91014 Castellammare del Golfo TP",
+      "lat": 38.026793,
+      "lng": 12.880649
+    },
+    {
+      "id": "a0c8df4b-ef7b-42c0-8ec2-1e91c86fb781",
+      "slug": "cerri-hotel-castellammare-del-golfo",
+      "nome": "Cerri Hotel",
+      "city_name": "Castellammare del Golfo",
+      "indirizzo": "Via Mascagni, 4, 91014 Castellammare del Golfo TP",
+      "lat": 38.027612,
+      "lng": 12.879148
+    },
+    {
+      "id": "ab221006-ddf1-4995-ac90-d51db8af60da",
+      "slug": "cocciu-d-amuri-castellammare-del-golfo",
+      "nome": "Cocciu D'Amuri",
+      "city_name": "Castellammare del Golfo",
+      "indirizzo": "Contrada, Via Gemma D'Oro, 34, 91014 Castellammare del Golfo TP",
+      "lat": 38.016709,
+      "lng": 12.892809
+    },
+    {
+      "id": "3260757e-84fd-481a-86df-fe6e374fb70e",
+      "slug": "hotel-al-madarig-castellammare-del-golfo",
+      "nome": "Hotel Al Madarig",
+      "city_name": "Castellammare del Golfo",
+      "indirizzo": "Largo Petrolo, 7, 91014 Castellammare del Golfo TP",
+      "lat": 38.028585,
+      "lng": 12.882674
+    },
+    {
+      "id": "dff9a228-70ca-4ddf-af66-b4cd0d3edc3e",
+      "slug": "hotel-belvedere-resort-castellammare-del-golfo",
+      "nome": "Hotel Belvedere Resort",
+      "city_name": "Castellammare del Golfo",
+      "indirizzo": "SS187, Km 37, 91014 Castellammare del Golfo TP",
+      "lat": 38.029221,
+      "lng": 12.874329
+    },
+    {
+      "id": "41810d36-8ef6-4778-b63f-2dedb0d626ec",
+      "slug": "hotel-cala-marina-castellammare-del-golfo",
+      "nome": "Hotel Cala Marina",
+      "city_name": "Castellammare del Golfo",
+      "indirizzo": "Via Don Leonardo Zangara, n 1, 91014 Castellammare del Golfo TP",
+      "lat": 38.028381,
+      "lng": 12.878822
+    },
+    {
+      "id": "512f6eeb-ff1a-4ae0-97ed-b69182f78192",
+      "slug": "hotel-cetarium-castellammare-del-golfo",
+      "nome": "Hotel Cetarium",
+      "city_name": "Castellammare del Golfo",
+      "indirizzo": "Via Don Leonardo Zangara, 45, 91014 Castellammare del Golfo TP",
+      "lat": 38.028467,
+      "lng": 12.880776
+    },
+    {
+      "id": "b223ccfb-153e-4340-a568-6f13f1445864",
+      "slug": "hotel-punta-nord-est-castellammare-del-golfo",
+      "nome": "Hotel Punta Nord - Est",
+      "city_name": "Castellammare del Golfo",
+      "indirizzo": "Viale Leonardo da Vinci, 67, 91014 Castellammare del Golfo TP",
+      "lat": 38.025419,
+      "lng": 12.889442
+    },
+    {
+      "id": "bf900ff1-7be1-4e5a-9996-a453327c2151",
+      "slug": "hotel-sopra-le-mura-castellammare-del-golfo",
+      "nome": "Hotel Sopra Le Mura",
+      "city_name": "Castellammare del Golfo",
+      "indirizzo": "Via Giacomo Puccini, 62, 91014 Castellammare del Golfo TP",
+      "lat": 38.028132,
+      "lng": 12.881381
+    },
+    {
+      "id": "783bd0e2-6084-4d08-a59b-c8a85d6d6a40",
+      "slug": "la-piazzetta-hotel-castellammare-del-golfo",
+      "nome": "La Piazzetta Hotel",
+      "city_name": "Castellammare del Golfo",
+      "indirizzo": "Piazza Europa, 8, 91014 Castellammare del Golfo TP",
+      "lat": 38.02741,
+      "lng": 12.882408
+    }
+  ]
+}

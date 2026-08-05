@@ -1,0 +1,323 @@
+{
+  "block": 406,
+  "blockId": "406",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "255f4c76-ec15-4fde-aa6d-3bbf98d59aa0",
+      "slug": "lo-scoiattolo-canistro",
+      "nome": "Lo Scoiattolo",
+      "city_name": "Canistro",
+      "indirizzo": "Via Napoli, 138, 67050 Castellafiume AQ",
+      "lat": 41.986793,
+      "lng": 13.340803
+    },
+    {
+      "id": "3f2c419c-21d8-4944-8b90-8e96b367b352",
+      "slug": "agriturismo-antico-casale-canna",
+      "nome": "Agriturismo Antico Casale",
+      "city_name": "Canna",
+      "indirizzo": "Contrada Santa Marina, 7, 87073 Oriolo CS",
+      "lat": 40.093249,
+      "lng": 16.431002
+    },
+    {
+      "id": "d98ce791-298a-41c6-964a-d32ba57e2fb7",
+      "slug": "agriturismo-cervinace-canna",
+      "nome": "Agriturismo Cervinace",
+      "city_name": "Canna",
+      "indirizzo": "C/da Cervinace, 4, 87073 Oriolo CS",
+      "lat": 40.036404,
+      "lng": 16.458342
+    },
+    {
+      "id": "16efbceb-910d-4400-8680-6702e6a5b35b",
+      "slug": "agriturismo-pace-canna-canna",
+      "nome": "Agriturismo Pace Canna",
+      "city_name": "Canna",
+      "indirizzo": "Contrada Destre, 3, 87070 Canna CS",
+      "lat": 40.107253,
+      "lng": 16.510879
+    },
+    {
+      "id": "e0d4d7b0-8860-4cfa-b3ba-54a8ecc4804f",
+      "slug": "alma-hotel-canna",
+      "nome": "Alma Hotel",
+      "city_name": "Canna",
+      "indirizzo": "Via Tripoli, 2, 75027 San Giorgio Lucano MT",
+      "lat": 40.110344,
+      "lng": 16.388802
+    },
+    {
+      "id": "50861b7c-b514-408d-a845-0963e1b3e6fd",
+      "slug": "b-b-dimora-valicenti-canna",
+      "nome": "B&B Dimora Valicenti",
+      "city_name": "Canna",
+      "indirizzo": "Corso V. Emanuele, 146, 75027 San Giorgio Lucano MT",
+      "lat": 40.114086,
+      "lng": 16.389683
+    },
+    {
+      "id": "9755ec20-f8ea-42a9-a061-75771f9b5e46",
+      "slug": "b-b-giampi-e-carmela-canna",
+      "nome": "B&B Giampi e Carmela",
+      "city_name": "Canna",
+      "indirizzo": "Via Mercato, 36, 87070 Rocca CS",
+      "lat": 40.09494,
+      "lng": 16.502988
+    },
+    {
+      "id": "e9829065-f55b-4ae9-b2f7-a8c394adaee7",
+      "slug": "b-b-nova-siri-canna",
+      "nome": "B&B Nova Siri",
+      "city_name": "Canna",
+      "indirizzo": "Vicolo II Gramsci, 13/c, 75020 Nova Siri Scalo MT",
+      "lat": 40.127934,
+      "lng": 16.640268
+    },
+    {
+      "id": "9fc80c19-ccad-4808-8b79-87171f820dcf",
+      "slug": "b-b-ristorante-pizzeria-villhour-canna",
+      "nome": "B&B Ristorante Pizzeria Villhour",
+      "city_name": "Canna",
+      "indirizzo": "Contrada Montemilone, 87074 Rocca Imperiale CS",
+      "lat": 40.086965,
+      "lng": 16.60459
+    },
+    {
+      "id": "13687325-93eb-49d0-acf1-4f943f0644a0",
+      "slug": "bella-vista-mare-canna",
+      "nome": "Bella Vista Mare",
+      "city_name": "Canna",
+      "indirizzo": "Contrada Secolare, 9, 87070 Montegiordano CS",
+      "lat": 40.039659,
+      "lng": 16.588767
+    },
+    {
+      "id": "a4055a43-7deb-4572-a6ef-44f7396f6afe",
+      "slug": "best-western-hotel-imperiale-canna",
+      "nome": "Best Western Hotel Imperiale",
+      "city_name": "Canna",
+      "indirizzo": "Via Maiorana, 75020 Nova Siri MT",
+      "lat": 40.129902,
+      "lng": 16.639678
+    },
+    {
+      "id": "6288cbf5-560f-42e9-a441-e7a9ae583037",
+      "slug": "casa-castello-canna",
+      "nome": "Casa castello",
+      "city_name": "Canna",
+      "indirizzo": "Via Federico Svevo, 29, 87074 Rocca Imperiale CS",
+      "lat": 40.10908,
+      "lng": 16.578284
+    },
+    {
+      "id": "20ba1852-43d2-4712-9d53-a0bffc615aa2",
+      "slug": "eco-resort-dei-siriti-canna",
+      "nome": "Eco Resort dei Siriti",
+      "city_name": "Canna",
+      "indirizzo": "Contrada Piantata, 75020 Nova Siri MT",
+      "lat": 40.134834,
+      "lng": 16.592041
+    },
+    {
+      "id": "9bc9e291-8a8b-4ff8-9bb7-18ec37aad606",
+      "slug": "hotel-villa-cirigliano-canna",
+      "nome": "Hotel Villa Cirigliano",
+      "city_name": "Canna",
+      "indirizzo": "Pane E Vino, 75028 Tursi MT",
+      "lat": 40.211939,
+      "lng": 16.608274
+    },
+    {
+      "id": "155a1261-872c-4e32-b490-386a45ab35a1",
+      "slug": "il-borgo-del-benessere-canna",
+      "nome": "il borgo del benessere",
+      "city_name": "Canna",
+      "indirizzo": "V. Mercato, 39, 87074 Rocca Imperiale CS",
+      "lat": 40.109145,
+      "lng": 16.57931
+    },
+    {
+      "id": "b87d6638-fbeb-4421-a73c-42e2965eecc3",
+      "slug": "il-giglio-casa-albergo-canna",
+      "nome": "Il Giglio Casa Albergo",
+      "city_name": "Canna",
+      "indirizzo": "Via Giglio, 4, 75026 Rotondella MT",
+      "lat": 40.170974,
+      "lng": 16.525476
+    },
+    {
+      "id": "0c481719-99e2-443a-8620-e25dba166246",
+      "slug": "prestige-luxury-rooms-apartment-canna",
+      "nome": "Prestige Luxury Rooms & Apartment",
+      "city_name": "Canna",
+      "indirizzo": "Piazza Tarsia Vittorio, 1, Via Giuseppe Garibaldi, 39, 87070 Montegiordano CS",
+      "lat": 40.043389,
+      "lng": 16.534982
+    },
+    {
+      "id": "82e2448f-7550-4cc2-a2e4-f40f0578cc0c",
+      "slug": "siris-hotel-canna",
+      "nome": "Siris Hotel",
+      "city_name": "Canna",
+      "indirizzo": "Via Magna Grecia, 2, 75020 Nova Siri MT",
+      "lat": 40.133789,
+      "lng": 16.630072
+    },
+    {
+      "id": "12726573-b993-45ce-8e1d-fe490b35c88f",
+      "slug": "toccacielo-canna",
+      "nome": "Toccacielo",
+      "city_name": "Canna",
+      "indirizzo": "Contrada Laccata, 75020 Nova Siri MT",
+      "lat": 40.13175,
+      "lng": 16.656416
+    },
+    {
+      "id": "1f24fe3a-0fc9-419f-805d-7b765e0c87a3",
+      "slug": "a-casa-mia-b-b-cannalonga",
+      "nome": "A Casa Mia B&B",
+      "city_name": "Cannalonga",
+      "indirizzo": "Via Municipio, 51, 84060 Moio della Civitella SA",
+      "lat": 40.248139,
+      "lng": 15.267664
+    },
+    {
+      "id": "99c44c11-f167-4899-ac5f-d2df8e5a9e3d",
+      "slug": "agriturismo-l-oasi-cannalonga",
+      "nome": "Agriturismo L'Oasi",
+      "city_name": "Cannalonga",
+      "indirizzo": "Via Bonopra, 84052 Massascusa SA",
+      "lat": 40.203509,
+      "lng": 15.266004
+    },
+    {
+      "id": "1b4f8a8d-90a3-42d4-b781-9604dc75250c",
+      "slug": "agriturismo-salella-azienda-agricola-cannalonga",
+      "nome": "Agriturismo Salella - Azienda Agricola",
+      "city_name": "Cannalonga",
+      "indirizzo": "Salella, 84070 Salento SA",
+      "lat": 40.252371,
+      "lng": 15.195969
+    },
+    {
+      "id": "1031a535-2555-4d65-8532-d8a810af96fd",
+      "slug": "askia-rooms-breakfast-cannalonga",
+      "nome": "Askia Rooms & Breakfast",
+      "city_name": "Cannalonga",
+      "indirizzo": "Località Fumarella Località, Via Fiumarella, 3, 84046 Marina di Ascea SA",
+      "lat": 40.151413,
+      "lng": 15.162549
+    },
+    {
+      "id": "80b0c230-f000-4eb7-baeb-6ba896409c98",
+      "slug": "b-b-l-aurora-cannalonga",
+      "nome": "B&B L'Aurora",
+      "city_name": "Cannalonga",
+      "indirizzo": "Via per Vallo, 1, 84052 Ceraso SA",
+      "lat": 40.198354,
+      "lng": 15.251276
+    },
+    {
+      "id": "31015dcb-272f-4a8f-ae2a-60e220dd8a92",
+      "slug": "casale-degli-ulivi-ristorante-e-resort-cannalonga",
+      "nome": "Casale Degli Ulivi Ristorante e Resort",
+      "city_name": "Cannalonga",
+      "indirizzo": "Via Tempone, 1, 84060 Moio della Civitella SA",
+      "lat": 40.237706,
+      "lng": 15.269257
+    },
+    {
+      "id": "f57cc4cb-c5ee-4b2b-8f69-41af954f56ea",
+      "slug": "hotel-giardino-san-michele-cannalonga",
+      "nome": "Hotel Giardino San Michele",
+      "city_name": "Cannalonga",
+      "indirizzo": "Via Monte Gelbison, 84060 Novi Velia SA",
+      "lat": 40.223305,
+      "lng": 15.294224
+    },
+    {
+      "id": "a9b17e1e-8624-4815-b367-2304e19205df",
+      "slug": "la-casa-al-piccolo-borgo-cannalonga",
+      "nome": "La Casa al Piccolo Borgo",
+      "city_name": "Cannalonga",
+      "indirizzo": "Via San Salvatore, 1, 84040 Vallo della Lucania SA",
+      "lat": 40.235392,
+      "lng": 15.280393
+    },
+    {
+      "id": "1543a704-8ea3-4bb0-a8a9-56387128fd61",
+      "slug": "palazzo-resilente-cannalonga",
+      "nome": "Palazzo Resilente",
+      "city_name": "Cannalonga",
+      "indirizzo": "Via Velina, 102, 84040 Velina SA",
+      "lat": 40.200034,
+      "lng": 15.158983
+    },
+    {
+      "id": "5a44b0b0-4820-4c1d-ac6f-21fdeddc4bcb",
+      "slug": "ruggiero-park-hotel-cannalonga",
+      "nome": "Ruggiero Park Hotel",
+      "city_name": "Cannalonga",
+      "indirizzo": "Via Antonio della Gatta, 22, 84078 Vallo della Lucania SA",
+      "lat": 40.225048,
+      "lng": 15.27082
+    },
+    {
+      "id": "e916cb2c-dfde-4239-8170-30cc164b3fbf",
+      "slug": "affittacamere-bella-treccia-cannara",
+      "nome": "Affittacamere Bella Treccia",
+      "city_name": "Cannara",
+      "indirizzo": "Vocabolo Selvetta, 44, 06033 Cannara PG",
+      "lat": 42.98378,
+      "lng": 12.57642
+    },
+    {
+      "id": "c3fba3d2-e378-46cb-b484-8401d9e0211c",
+      "slug": "agriturismo-il-cicaleto-cannara-cannara",
+      "nome": "Agriturismo Il Cicaleto Cannara",
+      "city_name": "Cannara",
+      "indirizzo": "06033 Cannara PG",
+      "lat": 42.982576,
+      "lng": 12.539431
+    },
+    {
+      "id": "8baf52e6-1f7b-48f4-a458-b3092cbf07dd",
+      "slug": "agriturismo-incanto-della-natura-cannara",
+      "nome": "AGRITURISMO INCANTO DELLA NATURA",
+      "city_name": "Cannara",
+      "indirizzo": "Vocabolo Conversino, 171, 06033 Cannara PG",
+      "lat": 42.994629,
+      "lng": 12.546914
+    },
+    {
+      "id": "f6a3c509-5eb4-4bf2-a5ca-4e92cc738474",
+      "slug": "al-vecchio-pozzo-cannara",
+      "nome": "Al Vecchio Pozzo",
+      "city_name": "Cannara",
+      "indirizzo": "Via Fornaci, 156, 06033 Cannara PG",
+      "lat": 42.991171,
+      "lng": 12.554812
+    },
+    {
+      "id": "2eb8d481-7898-426a-b47b-8e77459b260a",
+      "slug": "b-b-antica-dimora-delle-acque-cannara",
+      "nome": "b & b antica dimora delle acque",
+      "city_name": "Cannara",
+      "indirizzo": "Via del Borgo, 2, 06033 Cannara PG",
+      "lat": 42.99569,
+      "lng": 12.583152
+    },
+    {
+      "id": "9b341a26-758f-4c83-9c7b-2de154f0ba89",
+      "slug": "b-b-cuor-di-lavanda-cannara",
+      "nome": "B&B Cuor di Lavanda",
+      "city_name": "Cannara",
+      "indirizzo": "Vocabolo S.S. Apostoli, 101, 06033 Cannara PG",
+      "lat": 42.999059,
+      "lng": 12.579418
+    }
+  ]
+}

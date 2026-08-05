@@ -1,0 +1,323 @@
+{
+  "block": 469,
+  "blockId": "469",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "b37327b7-cdbd-4d8d-90fe-8c461cf72074",
+      "slug": "hotel-villa-tirreno-castagneto-carducci",
+      "nome": "Hotel Villa Tirreno",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Via della Triglia, 4, 57022 Marina di Castagneto Carducci LI",
+      "lat": 43.176266,
+      "lng": 10.539819
+    },
+    {
+      "id": "90e96606-16df-4c99-a6a5-189f2af35dbc",
+      "slug": "locanda-roma-sleep-food-castagneto-carducci",
+      "nome": "LOCANDA ROMA sleep & food",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Via Vecchia Aurelia, 183, 57024 Donoratico LI",
+      "lat": 43.166146,
+      "lng": 10.564185
+    },
+    {
+      "id": "50ea2334-f4ff-45ee-8c7a-a42c1bd4eda0",
+      "slug": "marina-di-castagneto-carducci-castagneto-carducci",
+      "nome": "Marina Di Castagneto Carducci",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Via del Corallo, 3, 57022 Marina di Castagneto Carducci LI",
+      "lat": 43.179596,
+      "lng": 10.539585
+    },
+    {
+      "id": "1ff1d33b-a7bd-48bc-93ce-ec7c398b6fd9",
+      "slug": "paradu-ecovillage-resort-castagneto-carducci",
+      "nome": "Paradú EcoVillage & Resort",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Località Paradù, 383, 57022 Donoratico LI",
+      "lat": 43.15359,
+      "lng": 10.54195
+    },
+    {
+      "id": "386707cb-cf50-4664-93b4-6fdf31dcb9d1",
+      "slug": "relais-le-fornacelle-castagneto-carducci",
+      "nome": "Relais Le Fornacelle",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Loc. Le Fornacelle, 231, 57022 Castagneto Carducci LI",
+      "lat": 43.179825,
+      "lng": 10.593714
+    },
+    {
+      "id": "f657d68c-522d-4d18-aa19-63aabdbbf54d",
+      "slug": "tombolo-talasso-resort-castagneto-carducci",
+      "nome": "Tombolo Talasso Resort",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Via del Corallo, 3, 57022 Marina di Castagneto Carducci LI",
+      "lat": 43.179592,
+      "lng": 10.53959
+    },
+    {
+      "id": "b5132402-a513-47fc-b1e7-468dd7db228c",
+      "slug": "tuscany-hotel-alle-dune-castagneto-carducci",
+      "nome": "Tuscany Hotel Alle Dune",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Via Milano, 14, 57022 Castagneto Carducci LI",
+      "lat": 43.184656,
+      "lng": 10.538918
+    },
+    {
+      "id": "a98be3bc-38bf-45d2-ac77-d13ae82a226c",
+      "slug": "villa-curiel-castagneto-carducci",
+      "nome": "Villa Curiel",
+      "city_name": "Castagneto Carducci",
+      "indirizzo": "Via Antonio Gramsci, 4/C, 57022 Castagneto Carducci LI",
+      "lat": 43.160629,
+      "lng": 10.606552
+    },
+    {
+      "id": "75b1ab12-1c90-4748-9dac-a8c457bd26b1",
+      "slug": "albergo-martin-castagneto-po",
+      "nome": "Albergo Martin",
+      "city_name": "Castagneto Po",
+      "indirizzo": "Via Giuseppe Raimondo, 16, 10088 Volpiano TO",
+      "lat": 45.202364,
+      "lng": 7.778339
+    },
+    {
+      "id": "5f83c61d-24d2-4f11-b6e7-ceb783acec25",
+      "slug": "hotel-chivasso-ex-hotel-ritz-castagneto-po",
+      "nome": "Hotel Chivasso ex Hotel Ritz",
+      "city_name": "Castagneto Po",
+      "indirizzo": "V. Roma, 17/f, 10034 Chivasso TO",
+      "lat": 45.1925,
+      "lng": 7.890556
+    },
+    {
+      "id": "09d93956-0ad4-4db6-896e-fd680b47042a",
+      "slug": "hotel-la-meridiana-castagneto-po",
+      "nome": "Hotel La Meridiana",
+      "city_name": "Castagneto Po",
+      "indirizzo": "Piazza Vittorio Veneto, 2B, 10036 Settimo Torinese TO",
+      "lat": 45.136438,
+      "lng": 7.770603
+    },
+    {
+      "id": "e379e3f1-b2d4-46b9-ba2a-677ce3cfd7f5",
+      "slug": "hotel-la-noce-castagneto-po",
+      "nome": "Hotel La Noce",
+      "city_name": "Castagneto Po",
+      "indirizzo": "Piazza Garibaldi, 10, 10034 Chivasso TO",
+      "lat": 45.193042,
+      "lng": 7.889183
+    },
+    {
+      "id": "893c16b9-a924-4cbb-b52c-34d301e66238",
+      "slug": "relais-castello-di-san-sebastiano-po-castagneto-po",
+      "nome": "Relais Castello di San Sebastiano Po",
+      "city_name": "Castagneto Po",
+      "indirizzo": "Via Novarina, 9, 10020 San Sebastiano Da Po TO",
+      "lat": 45.154888,
+      "lng": 7.931607
+    },
+    {
+      "id": "06edf225-51b5-42da-a620-f7586c9ef0c2",
+      "slug": "ristorante-hotel-belvedere-castagneto-po",
+      "nome": "Ristorante Hotel Belvedere",
+      "city_name": "Castagneto Po",
+      "indirizzo": "Via Annibale Caro, 12, 10156 Torino TO",
+      "lat": 45.100502,
+      "lng": 7.734285
+    },
+    {
+      "id": "d1aea460-453b-46e5-97d7-54a07cdaf307",
+      "slug": "agriturismo-cascina-varie-castagnito",
+      "nome": "Agriturismo Cascina Varìe",
+      "city_name": "Castagnito",
+      "indirizzo": "Via Variglie, 3, 12050 San Giuseppe CN",
+      "lat": 44.756835,
+      "lng": 8.047858
+    },
+    {
+      "id": "043eb4fa-34c7-4c04-8af5-6dbc46f0911d",
+      "slug": "agriturismo-costa-catterina-castagnito",
+      "nome": "Agriturismo Costa Catterina",
+      "city_name": "Castagnito",
+      "indirizzo": "Via Castellinaldo, 14, 12050 Castagnito CN",
+      "lat": 44.758006,
+      "lng": 8.032204
+    },
+    {
+      "id": "93b6dc40-26c3-4dba-b9d8-94952730df2f",
+      "slug": "b-b-casa-margot-castagnito",
+      "nome": "B&B CASA MARGOT",
+      "city_name": "Castagnito",
+      "indirizzo": "Via Roma, 9, 12052 Neive CN",
+      "lat": 44.726106,
+      "lng": 8.116956
+    },
+    {
+      "id": "591c5175-31d1-40f1-88a5-f9a38a473ad6",
+      "slug": "b-b-marzia-castagnito",
+      "nome": "B&B Marzia",
+      "city_name": "Castagnito",
+      "indirizzo": "Str. Osteria, 9, 12051 Alba CN",
+      "lat": 44.72029,
+      "lng": 8.013803
+    },
+    {
+      "id": "46beb2b3-5d1f-44b4-aa62-761f6a21ad4c",
+      "slug": "bed-breakfast-i-pini-castagnito",
+      "nome": "Bed & Breakfast I Pini",
+      "city_name": "Castagnito",
+      "indirizzo": "Via Alba, 28A, 12050 Castagnito CN",
+      "lat": 44.747401,
+      "lng": 8.06232
+    },
+    {
+      "id": "299f7353-9fbf-4b12-b5b7-ab6e938f59c2",
+      "slug": "bed-and-breakfast-madera-castagnito",
+      "nome": "Bed and Breakfast MADERA",
+      "city_name": "Castagnito",
+      "indirizzo": "Frazione Bassi, 10, 12050 Bassi CN",
+      "lat": 44.737252,
+      "lng": 8.006337
+    },
+    {
+      "id": "65f729d2-9e16-4a60-b1f1-1ab7b5f80441",
+      "slug": "ca-dei-vini-d-alba-castagnito",
+      "nome": "Ca' dei Vini d'Alba",
+      "city_name": "Castagnito",
+      "indirizzo": "Via Roma, 18, 12050 Castagnito CN",
+      "lat": 44.754258,
+      "lng": 8.031993
+    },
+    {
+      "id": "67554be3-7352-48a2-9a5c-eac601541791",
+      "slug": "cascina-baresane-da-amabile-castagnito",
+      "nome": "Cascina Baresane Da Amabile",
+      "city_name": "Castagnito",
+      "indirizzo": "Str. Baresane, 32, 12051 Alba CN",
+      "lat": 44.668113,
+      "lng": 8.009928
+    },
+    {
+      "id": "94bef36f-9484-42c2-b74b-88bafd3de57e",
+      "slug": "cascina-cortine-castagnito",
+      "nome": "Cascina Cortine",
+      "city_name": "Castagnito",
+      "indirizzo": "Viale Bouillargues, 15, 12050 Guarene CN",
+      "lat": 44.750027,
+      "lng": 8.031418
+    },
+    {
+      "id": "aee499a6-dbfe-4491-9793-bb5973b1ec70",
+      "slug": "castahotel-4-stelle-castagnito",
+      "nome": "CastaHotel 4 Stelle",
+      "city_name": "Castagnito",
+      "indirizzo": "Via 4 Novembre, 83, 12050 Castagnito CN",
+      "lat": 44.746174,
+      "lng": 8.059574
+    },
+    {
+      "id": "d839c94f-161b-44a0-acc9-9dda88ed0d22",
+      "slug": "corte-bellora-residence-castagnito",
+      "nome": "Corte Bellora Residence",
+      "city_name": "Castagnito",
+      "indirizzo": "Via San Sudario, 17 12050, 12050 Alba CN",
+      "lat": 44.746207,
+      "lng": 8.069321
+    },
+    {
+      "id": "23e02c2e-e586-4750-8eb4-92dd376423eb",
+      "slug": "le-aromatiche-castagnito",
+      "nome": "Le Aromatiche",
+      "city_name": "Castagnito",
+      "indirizzo": "Via Serra, 23, 12050 Castagnito CN",
+      "lat": 44.752642,
+      "lng": 8.054964
+    },
+    {
+      "id": "db14838b-0c59-4cbd-a68b-03278205b397",
+      "slug": "mari-s-house-castagnito",
+      "nome": "Mari’s House",
+      "city_name": "Castagnito",
+      "indirizzo": "Via S. Licerio, 2A, 12050 Castagnito CN",
+      "lat": 44.753166,
+      "lng": 8.032777
+    },
+    {
+      "id": "ed508596-8bf4-4e5a-9c41-1c24bf72dcc2",
+      "slug": "villa-vecchio-castagnito",
+      "nome": "Villa Vecchio",
+      "city_name": "Castagnito",
+      "indirizzo": "Via Castellinaldo, 14/b, 12050 Castagnito CN",
+      "lat": 44.758761,
+      "lng": 8.032011
+    },
+    {
+      "id": "35754ac5-0168-4dec-9e37-46414e9faee2",
+      "slug": "albergo-roma-castagnole-delle-lanze",
+      "nome": "Albergo Roma",
+      "city_name": "Castagnole delle Lanze",
+      "indirizzo": "Via Bettica, 23, 14054 Castagnole delle Lanze AT",
+      "lat": 44.754017,
+      "lng": 8.150045
+    },
+    {
+      "id": "87d86976-91ae-4f2f-8f3a-efa45bfdbf3d",
+      "slug": "antica-casa-fiore-castagnole-delle-lanze",
+      "nome": "Antica Casa Fiore",
+      "city_name": "Castagnole delle Lanze",
+      "indirizzo": "14054 Castagnole delle Lanze AT",
+      "lat": 44.748881,
+      "lng": 8.148903
+    },
+    {
+      "id": "84c1f5a3-2ce4-4dad-bdd4-a3fd24d85617",
+      "slug": "b-b-nonna-giulina-camere-rooms-castagnole-delle-lanze",
+      "nome": "B&b Nonna GIULINA camere - Rooms",
+      "city_name": "Castagnole delle Lanze",
+      "indirizzo": "Via della Vittoria, 18, 14054 Castagnole delle Lanze AT",
+      "lat": 44.751267,
+      "lng": 8.149189
+    },
+    {
+      "id": "4217ac79-6588-406a-a554-d38c77a4a1f3",
+      "slug": "bricco-aive-castagnole-delle-lanze",
+      "nome": "Bricco Aivè",
+      "city_name": "Castagnole delle Lanze",
+      "indirizzo": "SC Carlina, 10, 14055 Costigliole d'Asti AT",
+      "lat": 44.766327,
+      "lng": 8.21715
+    },
+    {
+      "id": "169e8731-2fb9-4a2e-9ce3-df02425789a8",
+      "slug": "cascina-rita-castagnole-delle-lanze",
+      "nome": "Cascina Rita",
+      "city_name": "Castagnole delle Lanze",
+      "indirizzo": "Via Val Guarena, n.28, 14054 Castagnole delle Lanze AT",
+      "lat": 44.750324,
+      "lng": 8.14203
+    },
+    {
+      "id": "9f463f53-66d8-4c5f-8a02-bea880395746",
+      "slug": "dimora-cortese-castagnole-delle-lanze",
+      "nome": "Dimora Cortese",
+      "city_name": "Castagnole delle Lanze",
+      "indirizzo": "Via Auberti, 3, 14054 Castagnole delle Lanze AT",
+      "lat": 44.755824,
+      "lng": 8.149848
+    },
+    {
+      "id": "4f4231d1-a433-4776-b6b1-c49cd44d84a6",
+      "slug": "dimora-relax-castagnole-delle-lanze",
+      "nome": "Dimora Relax",
+      "city_name": "Castagnole delle Lanze",
+      "indirizzo": "Strada Ginestre, 14055 Costigliole d'Asti AT",
+      "lat": 44.779852,
+      "lng": 8.196428
+    }
+  ]
+}
