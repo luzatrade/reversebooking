@@ -1,0 +1,323 @@
+{
+  "block": 341,
+  "blockId": "341",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "61397e84-0fe7-4cba-8a7a-c440cdc77a5f",
+      "slug": "villa-maria-toscana-buggiano",
+      "nome": "Villa Maria Toscana",
+      "city_name": "Buggiano",
+      "indirizzo": "Via Maona, 21, 51016 Montecatini Terme PT",
+      "lat": 43.897167,
+      "lng": 10.77904
+    },
+    {
+      "id": "bfb8609f-44cd-42ff-8191-575e3435bfa5",
+      "slug": "agriturismo-adda-vegia-buglio-in-monte",
+      "nome": "Agriturismo Adda Vegia",
+      "city_name": "Buglio in Monte",
+      "indirizzo": "Via Pozzoni, 1, 23010 Buglio In Monte SO",
+      "lat": 46.173051,
+      "lng": 9.683759
+    },
+    {
+      "id": "9853a45c-e126-4cf7-82f9-a6ee81fb3400",
+      "slug": "agriturismo-luloc-buglio-in-monte",
+      "nome": "Agriturismo Luloc",
+      "city_name": "Buglio in Monte",
+      "indirizzo": "Località Reval, 23010 Buglio in Monte SO",
+      "lat": 46.182931,
+      "lng": 9.689821
+    },
+    {
+      "id": "8bf219ab-bb0b-4ff4-b90a-5b440b9d3421",
+      "slug": "albergo-del-boschetto-buglio-in-monte",
+      "nome": "Albergo del Boschetto",
+      "city_name": "Buglio in Monte",
+      "indirizzo": "Via Stelvio, 75, 23020 Poggiridenti Piano SO",
+      "lat": 46.168799,
+      "lng": 9.929422
+    },
+    {
+      "id": "cd28d4e5-c2af-48e0-91be-d731bf244790",
+      "slug": "bed-breakfast-terre-alte-buglio-in-monte",
+      "nome": "Bed & Breakfast Terre Alte",
+      "city_name": "Buglio in Monte",
+      "indirizzo": "Piazza della Libertà, 2, 23010 Buglio In Monte SO",
+      "lat": 46.183027,
+      "lng": 9.676791
+    },
+    {
+      "id": "e5a07f8e-f55b-4265-a4a4-c3965ad75900",
+      "slug": "il-sottobosco-b-b-buglio-in-monte",
+      "nome": "Il Sottobosco - B&B",
+      "city_name": "Buglio in Monte",
+      "indirizzo": "V. Folla, 19, 23010 Filorera, SO",
+      "lat": 46.216592,
+      "lng": 9.637971
+    },
+    {
+      "id": "c2562d53-dd9a-4a26-809a-8c89905edb98",
+      "slug": "albergo-moretto-bugnara",
+      "nome": "Albergo Moretto",
+      "city_name": "Bugnara",
+      "indirizzo": "Via Nazario Sauro, 100, 67035 Pratola Peligna AQ",
+      "lat": 42.095833,
+      "lng": 13.872222
+    },
+    {
+      "id": "43d7a173-b5fa-40a5-a83e-89316bc12493",
+      "slug": "b-b-il-girasole-bugnara",
+      "nome": "B&B IL GIRASOLE",
+      "city_name": "Bugnara",
+      "indirizzo": "Viale Fiume, 60, 67030 Introdacqua AQ",
+      "lat": 42.011663,
+      "lng": 13.897346
+    },
+    {
+      "id": "cef7d939-261d-4cea-a70a-f65fba76d3b4",
+      "slug": "b-b-la-dimora-bugnara",
+      "nome": "B&B La Dimora",
+      "city_name": "Bugnara",
+      "indirizzo": "Corso Ovidio, 238, 67039 Sulmona AQ",
+      "lat": 42.050125,
+      "lng": 13.922986
+    },
+    {
+      "id": "d5875044-f908-4097-b6d6-7540d52d6b06",
+      "slug": "b-b-solimo-bugnara",
+      "nome": "B&B Solimo",
+      "city_name": "Bugnara",
+      "indirizzo": "Via Circonvallazione Orientale, 7, 67039 Sulmona AQ",
+      "lat": 42.044857,
+      "lng": 13.926772
+    },
+    {
+      "id": "e16037c2-8928-4f24-a55e-4c2745411818",
+      "slug": "b-b-villa-asia-bugnara",
+      "nome": "B&b Villa Asia",
+      "city_name": "Bugnara",
+      "indirizzo": "Via Bugnara, 91, 67030 Campo di Fano AQ",
+      "lat": 42.05084,
+      "lng": 13.873776
+    },
+    {
+      "id": "c9653bda-f5c1-48ca-9e51-ffaea63eaaae",
+      "slug": "genzana-b-b-bugnara",
+      "nome": "Genzana B&B",
+      "city_name": "Bugnara",
+      "indirizzo": "67030 Introdacqua AQ",
+      "lat": 42.029476,
+      "lng": 13.889354
+    },
+    {
+      "id": "5b371258-f0b4-4196-9a7f-38cf6fd7ec8f",
+      "slug": "hotel-armando-s-bugnara",
+      "nome": "Hotel Armando’s",
+      "city_name": "Bugnara",
+      "indirizzo": "Via Montenero, 15, 67039 Sulmona AQ",
+      "lat": 42.044502,
+      "lng": 13.930034
+    },
+    {
+      "id": "2c3d050b-fb24-4fc3-807c-dba1c252673d",
+      "slug": "hotel-meeting-santacroce-bugnara",
+      "nome": "Hotel Meeting Santacroce",
+      "city_name": "Bugnara",
+      "indirizzo": "Piazza Guido Ginaldi, 3, 67039 Sulmona AQ",
+      "lat": 42.08473,
+      "lng": 13.898077
+    },
+    {
+      "id": "066c7eea-a403-40ea-a170-ecc64b434e9f",
+      "slug": "hotel-sagittario-bugnara",
+      "nome": "Hotel Sagittario",
+      "city_name": "Bugnara",
+      "indirizzo": "Via Piano Madonna di Loreto, 2, 67030 Bugnara AQ",
+      "lat": 42.032748,
+      "lng": 13.863537
+    },
+    {
+      "id": "e0dfe8e1-60b3-4b51-a7e0-cc012a5b72fa",
+      "slug": "hotel-santacroce-ovidius-bugnara",
+      "nome": "Hotel Santacroce Ovidius",
+      "city_name": "Bugnara",
+      "indirizzo": "Via Circonvallazione Occidentale, 177, 67039 Sulmona AQ",
+      "lat": 42.053749,
+      "lng": 13.919509
+    },
+    {
+      "id": "3582dc65-b459-42ce-84f0-bb86a8569df0",
+      "slug": "la-locanda-di-gino-bugnara",
+      "nome": "La Locanda di Gino",
+      "city_name": "Bugnara",
+      "indirizzo": "Via Panfilo Serafini, 1, 67039 Sulmona AQ",
+      "lat": 42.046209,
+      "lng": 13.925207
+    },
+    {
+      "id": "ab970f49-72e4-43ca-8140-4d9dbe43e649",
+      "slug": "mela-bii-bugnara",
+      "nome": "mela__bii",
+      "city_name": "Bugnara",
+      "indirizzo": "Via Torrone, 88, 67039 Sulmona AQ",
+      "lat": 42.046053,
+      "lng": 13.892574
+    },
+    {
+      "id": "f2b8be6e-8587-4fa1-9433-dac55d87d6db",
+      "slug": "stella-casabono-bugnara",
+      "nome": "Stella CasaBono",
+      "city_name": "Bugnara",
+      "indirizzo": "Via Panfilo Mazara, 18, 67039 Sulmona AQ",
+      "lat": 42.04802,
+      "lng": 13.924359
+    },
+    {
+      "id": "0847323e-d03d-4605-a75d-e5dfd271c5ba",
+      "slug": "vico-amato-residenza-bugnara",
+      "nome": "Vico Amato. Residenza",
+      "city_name": "Bugnara",
+      "indirizzo": "Vico Amato, 13, 67039 Sulmona AQ",
+      "lat": 42.046333,
+      "lng": 13.923926
+    },
+    {
+      "id": "049031f1-01ee-409f-9d3d-c2a641ba56c6",
+      "slug": "villa-del-poeta-bugnara",
+      "nome": "Villa Del Poeta",
+      "city_name": "Bugnara",
+      "indirizzo": "Via Montenero, 20, 67039 Sulmona AQ",
+      "lat": 42.043601,
+      "lng": 13.931041
+    },
+    {
+      "id": "0cb725c4-1675-42ee-997b-93ccfad3ac26",
+      "slug": "villa-diana-bugnara",
+      "nome": "Villa Diana",
+      "city_name": "Bugnara",
+      "indirizzo": "Via Giovanni, Via Granata, 1, 67039 Sulmona AQ",
+      "lat": 42.043507,
+      "lng": 13.923744
+    },
+    {
+      "id": "0747c7a6-da6e-4cb4-920e-7e186332b625",
+      "slug": "villa-linda-bed-and-breakfast-bugnara",
+      "nome": "Villa Linda Bed and Breakfast",
+      "city_name": "Bugnara",
+      "indirizzo": "SR, 479, 1, 67039 Sulmona AQ",
+      "lat": 42.025552,
+      "lng": 13.905349
+    },
+    {
+      "id": "3887f862-b1de-41d1-99d3-3e94e9b3d67e",
+      "slug": "i-palazzi-palace-grand-hotel-varese-buguggiate",
+      "nome": "I Palazzi - Palace Grand Hotel Varese",
+      "city_name": "Buguggiate",
+      "indirizzo": "Via Manara Luciano, 11, 21100 Varese VA",
+      "lat": 45.822108,
+      "lng": 8.809645
+    },
+    {
+      "id": "6e0f94a5-712d-4b0f-af71-8a30e6044dbb",
+      "slug": "la-selvetta-buguggiate",
+      "nome": "La Selvetta",
+      "city_name": "Buguggiate",
+      "indirizzo": "Via XXV Aprile, 88, 21020 Buguggiate VA",
+      "lat": 45.783664,
+      "lng": 8.817413
+    },
+    {
+      "id": "19148af9-e121-4a91-a7b0-068b8befc3c7",
+      "slug": "albergo-ristorante-pizzeria-bar-dal-asin-buja",
+      "nome": "Albergo Ristorante Pizzeria Bar Dal Asìn",
+      "city_name": "Buja",
+      "indirizzo": "Via Ciro di Pers, 63, 33030 Majano UD",
+      "lat": 46.185312,
+      "lng": 13.071351
+    },
+    {
+      "id": "fc8a50bc-5862-4d69-a18b-f73017a84232",
+      "slug": "b-b-the-secret-garden-buja",
+      "nome": "B&B The Secret Garden",
+      "city_name": "Buja",
+      "indirizzo": "Via Liberazione, 27, 33030 Buja UD",
+      "lat": 46.203847,
+      "lng": 13.10909
+    },
+    {
+      "id": "96e36b27-a980-4165-abd1-c939ced8eec7",
+      "slug": "hotel-bristol-buja-buja",
+      "nome": "Hotel Bristol Buja",
+      "city_name": "Buja",
+      "indirizzo": "Via Monteortone, 2, 35031 Abano Terme PD",
+      "lat": 45.354521,
+      "lng": 11.77675
+    },
+    {
+      "id": "8c3b4e5d-f412-4978-abf3-68159ff11f4a",
+      "slug": "hotel-san-daniele-buja",
+      "nome": "Hotel San Daniele",
+      "city_name": "Buja",
+      "indirizzo": "Via del Lago, 1, 33038 San Daniele del Friuli UD",
+      "lat": 46.160244,
+      "lng": 13.009804
+    },
+    {
+      "id": "7176e722-e1c6-4333-acea-3a7a754e3f09",
+      "slug": "meditur-hotel-udine-nord-buja",
+      "nome": "Meditur Hotel Udine Nord",
+      "city_name": "Buja",
+      "indirizzo": "Via Alpe Adria, 10, 33010 Tavagnacco UD",
+      "lat": 46.111559,
+      "lng": 13.213522
+    },
+    {
+      "id": "b988f079-0fee-458d-a2d9-95940b48d863",
+      "slug": "agriturismo-tenuta-del-fatio-bulgarograsso",
+      "nome": "Agriturismo Tenuta del Fatio",
+      "city_name": "Bulgarograsso",
+      "indirizzo": "Via Trento, 7, 22079 Villa Guardia CO",
+      "lat": 45.764269,
+      "lng": 9.031146
+    },
+    {
+      "id": "26d16293-e8c5-4c05-aede-aad6eaaad961",
+      "slug": "b-b-woodbnb-bulgarograsso",
+      "nome": "B&B Woodbnb",
+      "city_name": "Bulgarograsso",
+      "indirizzo": "Via A. Vivaldi, 29, 22070 Cassina Rizzardi CO",
+      "lat": 45.751705,
+      "lng": 9.022655
+    },
+    {
+      "id": "ea72b703-5c7d-4723-bf6b-360ff1b2476d",
+      "slug": "hotel-maria-bulgarograsso",
+      "nome": "Hotel Maria",
+      "city_name": "Bulgarograsso",
+      "indirizzo": "Via Risorgimento, 64, 22070 Luisago CO",
+      "lat": 45.757957,
+      "lng": 9.051068
+    },
+    {
+      "id": "d7f005f6-a126-4147-a23f-42dd271d2463",
+      "slug": "albergo-ristorante-doria-bulzi",
+      "nome": "Albergo ristorante Doria",
+      "city_name": "Bulzi",
+      "indirizzo": "Traversa S. Nicola, 07030 Santa Maria Coghinas SS",
+      "lat": 40.903672,
+      "lng": 8.87275
+    },
+    {
+      "id": "a3edb646-b520-4901-8dc9-2c8d03f15030",
+      "slug": "artemisia-sardegna-guesthouse-bulzi",
+      "nome": "Artemisia Sardegna | Guesthouse",
+      "city_name": "Bulzi",
+      "indirizzo": "Via Antonio Gramsci, 3, 07030 Tergu SS",
+      "lat": 40.872337,
+      "lng": 8.719521
+    }
+  ]
+}

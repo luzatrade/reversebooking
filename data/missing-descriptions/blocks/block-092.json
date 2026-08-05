@@ -1,0 +1,323 @@
+{
+  "block": 92,
+  "blockId": "092",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "5b801c25-649f-4006-9ea0-c28e4809ec0a",
+      "slug": "b-b-la-casetta-altopascio",
+      "nome": "B&B La Casetta",
+      "city_name": "Altopascio",
+      "indirizzo": "Via di Mazzone, 10, 55015 Montecarlo LU",
+      "lat": 43.836541,
+      "lng": 10.666288
+    },
+    {
+      "id": "42126a0a-f218-4ec1-ad93-3de9db591d71",
+      "slug": "b-b-la-ginestra-altopascio",
+      "nome": "B&B La Ginestra",
+      "city_name": "Altopascio",
+      "indirizzo": "Via Ponticelli, 185, 56022 Orentano PI",
+      "lat": 43.776107,
+      "lng": 10.689958
+    },
+    {
+      "id": "fcf5d725-f18e-4cf8-835d-c478d5988fa4",
+      "slug": "b-b-mansarda-sulla-francigena-altopascio",
+      "nome": "B&b mansarda sulla francigena",
+      "city_name": "Altopascio",
+      "indirizzo": "Via Romana, 22, 55011 Altopascio LU",
+      "lat": 43.825539,
+      "lng": 10.655666
+    },
+    {
+      "id": "ddeb0b51-421d-4e7c-8bb6-35f711590948",
+      "slug": "corte-capitani-b-b-altopascio",
+      "nome": "Corte Capitani B&B",
+      "city_name": "Altopascio",
+      "indirizzo": "Via Romana, 172, 55012 Capannori LU",
+      "lat": 43.841983,
+      "lng": 10.576276
+    },
+    {
+      "id": "6d76222e-c069-4760-a9d5-fdb8f9a7e96c",
+      "slug": "da-beppe-hotel-ristorante-bar-altopascio",
+      "nome": "Da Beppe Hotel Ristorante Bar",
+      "city_name": "Altopascio",
+      "indirizzo": "Via Vittorio Veneto, 27, 51013 Chiesina Uzzanese PT",
+      "lat": 43.839333,
+      "lng": 10.721436
+    },
+    {
+      "id": "d62f0865-ceb8-4299-8f09-ba5a122eab56",
+      "slug": "hotel-cavalieri-del-tau-altopascio",
+      "nome": "Hotel Cavalieri Del Tau",
+      "city_name": "Altopascio",
+      "indirizzo": "Via Gavinana, 56, 55011 Altopascio LU",
+      "lat": 43.814328,
+      "lng": 10.677981
+    },
+    {
+      "id": "508a3700-b210-49cd-8ed9-ae160107ed46",
+      "slug": "hotel-le-cerbaie-3-stelle-superior-altopascio",
+      "nome": "Hotel Le Cerbaie 3 Stelle Superior",
+      "city_name": "Altopascio",
+      "indirizzo": "Via della Sibolla, 15, 55011 Altopascio LU",
+      "lat": 43.820875,
+      "lng": 10.690848
+    },
+    {
+      "id": "cf08933c-f3f0-4cd6-80db-e68f7a76d0ee",
+      "slug": "hotel-one-altopascio",
+      "nome": "Hotel One",
+      "city_name": "Altopascio",
+      "indirizzo": "Via Roma, 86, 55011 Altopascio LU",
+      "lat": 43.809956,
+      "lng": 10.679741
+    },
+    {
+      "id": "48518f41-ad73-4d5a-aa73-93519bcf652b",
+      "slug": "hotel-paola-altopascio",
+      "nome": "Hotel Paola",
+      "city_name": "Altopascio",
+      "indirizzo": "Via Francesca Romea, 24, 55011 Altopascio LU",
+      "lat": 43.817068,
+      "lng": 10.670426
+    },
+    {
+      "id": "1a6483e3-dead-440a-bb92-59d06dde389d",
+      "slug": "hotel-villa-la-nina-altopascio",
+      "nome": "Hotel Villa La Nina",
+      "city_name": "Altopascio",
+      "indirizzo": "Via di S. Martino, 55, 55015 Mencarini LU",
+      "lat": 43.862256,
+      "lng": 10.652784
+    },
+    {
+      "id": "3adfd195-2305-4667-9a3e-88fefad0e542",
+      "slug": "la-porta-di-san-rocco-altopascio",
+      "nome": "La porta di San Rocco",
+      "city_name": "Altopascio",
+      "indirizzo": "Via dell'Ortaccio, 3, 55011 Altopascio LU",
+      "lat": 43.814382,
+      "lng": 10.675931
+    },
+    {
+      "id": "e8d632bd-aff7-49d2-be79-c02696f53245",
+      "slug": "motel-parco-delle-rose-altopascio",
+      "nome": "Motel Parco delle Rose",
+      "city_name": "Altopascio",
+      "indirizzo": "Via Privata delle Rose, 4, 51013 Chiesina Uzzanese PT",
+      "lat": 43.841938,
+      "lng": 10.716909
+    },
+    {
+      "id": "6dc47f4f-8c73-4815-adc8-17ec01ecf85a",
+      "slug": "night-room-altopascio",
+      "nome": "NIGHT ROOM",
+      "city_name": "Altopascio",
+      "indirizzo": "Loc. Cerbaie 43, Via delle Cerbaie, 55011 Altopascio LU",
+      "lat": 43.82185,
+      "lng": 10.689851
+    },
+    {
+      "id": "0f1df7f1-0f6b-4d5f-ba14-a38f41051f69",
+      "slug": "sibolla-holidays-altopascio",
+      "nome": "Sibolla Holidays",
+      "city_name": "Altopascio",
+      "indirizzo": "Località Ferranti, 20, 55011 Altopascio LU",
+      "lat": 43.822033,
+      "lng": 10.70131
+    },
+    {
+      "id": "828f4159-bd40-4c53-8180-73e9f06e7845",
+      "slug": "ulivo-house-altopascio",
+      "nome": "Ulivo House",
+      "city_name": "Altopascio",
+      "indirizzo": "Località Ginori, 4, 55011 Altopascio LU",
+      "lat": 43.821393,
+      "lng": 10.65095
+    },
+    {
+      "id": "ce5561f7-90ab-48e0-907e-82dfa36806c5",
+      "slug": "villa-miky-via-francigena-altopascio-altopascio",
+      "nome": "Villa Miky - Via Francigena Altopascio",
+      "city_name": "Altopascio",
+      "indirizzo": "V. Ulivi, 156, 56022 Villa Campanile PI",
+      "lat": 43.792328,
+      "lng": 10.688609
+    },
+    {
+      "id": "9ddd7cea-415e-49d5-b6a3-00e742aa52a2",
+      "slug": "villa-nadar-altopascio",
+      "nome": "Villa Nadar",
+      "city_name": "Altopascio",
+      "indirizzo": "Via Provinciale del Biagioni, 64, 55011 Spianate LU",
+      "lat": 43.813885,
+      "lng": 10.700046
+    },
+    {
+      "id": "1efa95e0-13a1-453d-a75f-2a34afbba243",
+      "slug": "agritur-la-sabbionara-altopiano-della-vigolana",
+      "nome": "Agritur La Sabbionara",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Via Sabbionare, 6, 38049 Altopiano della Vigolana TN",
+      "lat": 46.01101,
+      "lng": 11.198951
+    },
+    {
+      "id": "c2ac3df2-e1ca-4a4d-9b58-ad06c154363a",
+      "slug": "agritur-la-val-altopiano-della-vigolana",
+      "nome": "Agritur La Val",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Via Bersaglio, 24, 38049 Vigolo Vattaro TN",
+      "lat": 45.99717,
+      "lng": 11.191139
+    },
+    {
+      "id": "b143e95d-cd61-4edd-94b3-356996a381b0",
+      "slug": "agritur-sedici-bed-and-breakfast-altopiano-della-vigolana",
+      "nome": "AGRITUR SEDICI - Bed and Breakfast",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Via dei Pianari, 5, 38050 Tenna TN",
+      "lat": 46.021113,
+      "lng": 11.256373
+    },
+    {
+      "id": "3ce85b0b-4e64-44f0-8897-1bfbb5b7d5ba",
+      "slug": "agriturismo-corte-delle-mele-altopiano-della-vigolana",
+      "nome": "Agriturismo Corte delle Mele",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "A,, Via del Roro, 12, 38052 Caldonazzo TN",
+      "lat": 46.001785,
+      "lng": 11.267894
+    },
+    {
+      "id": "1bb88bb8-f6b9-4d70-ab41-03d8e9cd834e",
+      "slug": "albergo-al-bosco-altopiano-della-vigolana",
+      "nome": "albergo AL BOSCO",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Via Nordola sopra a Centa, 1, 38049 Altopiano della Vigolana TN",
+      "lat": 45.967803,
+      "lng": 11.22707
+    },
+    {
+      "id": "eb57b69e-872f-4d44-9a6b-86dd66a1a170",
+      "slug": "albergo-cinzia-altopiano-della-vigolana",
+      "nome": "Albergo Cinzia",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Via Vicenza, 15, 38049 Altopiano della Vigolana TN",
+      "lat": 45.995568,
+      "lng": 11.216276
+    },
+    {
+      "id": "ce0af453-3722-45b5-82c1-9c2e6145467f",
+      "slug": "azienda-agricola-e-agritur-maso-flonkeri-altopiano-della-vigolana",
+      "nome": "Azienda agricola e agritur Maso Flonkeri",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Via Mandola, 37, 38049 Altopiano della Vigolana TN",
+      "lat": 45.999956,
+      "lng": 11.219016
+    },
+    {
+      "id": "0cda1b04-6304-45d6-9fe3-66556c7ea1a0",
+      "slug": "berry-house-altopiano-della-vigolana",
+      "nome": "Berry House",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Località Maso del Giudice, 2, 38049 Vigolo Vattaro, TN",
+      "lat": 46.003147,
+      "lng": 11.177414
+    },
+    {
+      "id": "7b1b5bfe-2680-4cd7-bbe3-3905f4a5dd6b",
+      "slug": "botton-d-oro-delle-dolomiti-altopiano-della-vigolana",
+      "nome": "Botton d'oro delle Dolomiti",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Via Doss del Bue, 29, 38049 Vattaro TN",
+      "lat": 45.991776,
+      "lng": 11.215866
+    },
+    {
+      "id": "712ee88a-9c77-4852-9271-0076c764019f",
+      "slug": "casa-vigolana-natural-garni-altopiano-della-vigolana",
+      "nome": "Casa Vigolana Natural Garnì",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Via 3 Novembre, 35, 38049 Vigolo Vattaro TN",
+      "lat": 46.002918,
+      "lng": 11.199688
+    },
+    {
+      "id": "dd68db55-8353-4476-8501-8b02ce4bdfed",
+      "slug": "grand-hotel-astoria-altopiano-della-vigolana",
+      "nome": "Grand Hotel Astoria",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Piazza Italia, 1, 38046 Lavarone TN",
+      "lat": 45.940624,
+      "lng": 11.25134
+    },
+    {
+      "id": "0ae063cf-ce87-44d5-8b30-3529fa0e10ba",
+      "slug": "hotel-alpenrose-ristorante-spa-altopiano-della-vigolana",
+      "nome": "HOTEL ALPENROSE ristorante SPA",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Via Doss del Bue, 52, 38049 Vattaro TN",
+      "lat": 45.992298,
+      "lng": 11.21756
+    },
+    {
+      "id": "4bc5079f-6a42-422d-8fbf-2a175dfb7877",
+      "slug": "hotel-campregheri-altopiano-della-vigolana",
+      "nome": "Hotel Campregheri",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Frazione Campregheri, 34, 38049 Altopiano della Vigolana TN",
+      "lat": 45.984365,
+      "lng": 11.238384
+    },
+    {
+      "id": "761fd374-17c2-4132-a342-f529148239c8",
+      "slug": "hotel-du-lac-parc-residence-altopiano-della-vigolana",
+      "nome": "Hotel du Lac Parc & Residence",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Via Trieste, 32, 38046 Lavarone TN",
+      "lat": 45.937932,
+      "lng": 11.255442
+    },
+    {
+      "id": "de54e374-4fa8-46a8-aeaf-2b1e3cba9286",
+      "slug": "il-crogiolo-bed-and-breakfast-altopiano-della-vigolana",
+      "nome": "IL CROGIOLO Bed and Breakfast",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Str. del Paradis, 38049 Altopiano della Vigolana TN",
+      "lat": 45.999247,
+      "lng": 11.214761
+    },
+    {
+      "id": "a60e46f9-c983-4a58-a0b4-d6559c0b30ff",
+      "slug": "la-corte-di-san-rocco-altopiano-della-vigolana",
+      "nome": "La Corte di San Rocco",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Via al Bosco della Città, 2, 38123 Trento TN",
+      "lat": 46.036168,
+      "lng": 11.145516
+    },
+    {
+      "id": "07d5cd11-e36c-49ba-bf35-345adc8bb599",
+      "slug": "residence-hotel-da-remo-altopiano-della-vigolana",
+      "nome": "Residence Hotel da Remo",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Residence Hotel Da Remo, Via Alberè, 56, 38050 Tenna TN",
+      "lat": 46.016138,
+      "lng": 11.265708
+    },
+    {
+      "id": "e8716ad0-162c-406e-a8d5-f72eadf49721",
+      "slug": "ristorantehotelgilda-altopiano-della-vigolana",
+      "nome": "RistorantehotelGilda",
+      "city_name": "Altopiano della Vigolana",
+      "indirizzo": "Via Brenta, 22, 38052 Caldonazzo TN",
+      "lat": 45.995502,
+      "lng": 11.267423
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 231,
+  "blockId": "231",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "3ef2bac0-f742-4431-81f0-27945826b015",
+      "slug": "hotel-nuova-orchidea-bascap",
+      "nome": "Hotel Nuova Orchidea",
+      "city_name": "Bascap�",
+      "indirizzo": "Via Milano, 1, 20070 Dresano MI",
+      "lat": 45.365772,
+      "lng": 9.363154
+    },
+    {
+      "id": "99f44f6f-d843-4c75-851f-ebefd476b69f",
+      "slug": "hotel-sabrina-bascap",
+      "nome": "Hotel Sabrina",
+      "city_name": "Bascap�",
+      "indirizzo": "Via Emilia, 4, 26858 Sordio LO",
+      "lat": 45.338886,
+      "lng": 9.364522
+    },
+    {
+      "id": "5a4d5581-3d18-4ce3-997b-cc0d55217ea5",
+      "slug": "palazzo-marignano-hotel-bascap",
+      "nome": "Palazzo Marignano Hotel",
+      "city_name": "Bascap�",
+      "indirizzo": "Via Martiri della Libertà, 8, 20077 Melegnano MI",
+      "lat": 45.357398,
+      "lng": 9.321655
+    },
+    {
+      "id": "7cfb5fb7-0617-46a0-9489-b4d3dbd7a904",
+      "slug": "poste-regie-milan-guest-house-bascap",
+      "nome": "Poste Regie - Milan Guest House",
+      "city_name": "Bascap�",
+      "indirizzo": "Via Giovanni Battista Cassinis, 76, 20139 Milano MI",
+      "lat": 45.432965,
+      "lng": 9.238662
+    },
+    {
+      "id": "2fa53b9f-8403-4eef-9f1f-436540a79823",
+      "slug": "ripamonti-residence-hotel-milano-bascap",
+      "nome": "Ripamonti Residence & Hotel Milano",
+      "city_name": "Bascap�",
+      "indirizzo": "Via dei Pini, 3, 20072 Pieve Emanuele MI",
+      "lat": 45.347807,
+      "lng": 9.199692
+    },
+    {
+      "id": "683d973f-e53d-4406-9871-8b9d8513a06b",
+      "slug": "agriturismo-buriano-by-bellaluce-baschi",
+      "nome": "Agriturismo Buriano by Bellaluce",
+      "city_name": "Baschi",
+      "indirizzo": "Localita' Camporena, 01020 Lubriano VT",
+      "lat": 42.650822,
+      "lng": 12.129885
+    },
+    {
+      "id": "124feebf-ae84-4c9d-a2c0-9eb1ef051bec",
+      "slug": "agriturismo-la-quiete-di-caiano-baschi",
+      "nome": "Agriturismo La Quiete di Caiano",
+      "city_name": "Baschi",
+      "indirizzo": "Vocabolo Caiano, 166, 05023 Baschi TR",
+      "lat": 42.686138,
+      "lng": 12.212517
+    },
+    {
+      "id": "549e8ffe-5c3b-4fcb-9dd9-73c5356098f2",
+      "slug": "agriturismo-la-vite-e-l-ulivo-baschi",
+      "nome": "Agriturismo La Vite E L'ulivo",
+      "city_name": "Baschi",
+      "indirizzo": "Vocabolo Montebello, 147, 05023 Baschi TR",
+      "lat": 42.679817,
+      "lng": 12.213812
+    },
+    {
+      "id": "324420c5-477b-47e6-afcd-9d182b14629c",
+      "slug": "agriturismo-le-casette-baschi",
+      "nome": "Agriturismo Le Casette",
+      "city_name": "Baschi",
+      "indirizzo": "Le Casette, 05020 Montecchio TR",
+      "lat": 42.677102,
+      "lng": 12.252872
+    },
+    {
+      "id": "d316ff9d-0bc1-4d6a-a39a-851b85a9ae67",
+      "slug": "agriturismo-pomonte-baschi",
+      "nome": "Agriturismo Pomonte",
+      "city_name": "Baschi",
+      "indirizzo": "Loc. canino 1, 05019 Orvieto TR",
+      "lat": 42.702885,
+      "lng": 12.186543
+    },
+    {
+      "id": "13a989b1-10dc-4e8c-b976-66b321e104e0",
+      "slug": "agriturismo-san-bartolomeo-baschi",
+      "nome": "Agriturismo San Bartolomeo",
+      "city_name": "Baschi",
+      "indirizzo": "via Caserlena, 1, 05020 Montecchio TR",
+      "lat": 42.679879,
+      "lng": 12.254012
+    },
+    {
+      "id": "212c2a05-7944-4df2-a0de-919520e80ae4",
+      "slug": "alloggio-turistico-miracivita-baschi",
+      "nome": "Alloggio turistico MiraCivita",
+      "city_name": "Baschi",
+      "indirizzo": "Via G. Marconi, 17, 01020 Lubriano VT",
+      "lat": 42.63598,
+      "lng": 12.109569
+    },
+    {
+      "id": "e3b52a55-6a6e-42ba-85d3-22ae6eea29dc",
+      "slug": "b-b-dimora-paolina-baschi",
+      "nome": "B&B Dimora Paolina",
+      "city_name": "Baschi",
+      "indirizzo": "Via Guglielmo Marconi, 5, 05023 Baschi TR",
+      "lat": 42.671326,
+      "lng": 12.215836
+    },
+    {
+      "id": "bccff9b6-0237-4297-bd50-92b23ed000fd",
+      "slug": "b-b-poggio-stallone-baschi",
+      "nome": "B&B Poggio Stallone",
+      "city_name": "Baschi",
+      "indirizzo": "Località Acquafredda, 15, 05018 Orvieto TR",
+      "lat": 42.707943,
+      "lng": 12.153189
+    },
+    {
+      "id": "5a10f38b-2bed-447b-b330-c91d23014cd7",
+      "slug": "casale-al-lago-baschi",
+      "nome": "Casale al lago",
+      "city_name": "Baschi",
+      "indirizzo": "vocabolo pomurlo nuovo 240, 05023 Baschi TR",
+      "lat": 42.693087,
+      "lng": 12.239559
+    },
+    {
+      "id": "9b4a62fc-29d1-417b-8082-7f957f281395",
+      "slug": "hotel-gialletti-baschi",
+      "nome": "Hotel Gialletti",
+      "city_name": "Baschi",
+      "indirizzo": "Via Angelo Costanzi, 71, 05018 Orvieto TR",
+      "lat": 42.717116,
+      "lng": 12.143315
+    },
+    {
+      "id": "71ce706f-f6c6-4d3a-8774-cef5d5b3ea48",
+      "slug": "il-borgo-affitacamere-baschi",
+      "nome": "Il Borgo Affitacamere",
+      "city_name": "Baschi",
+      "indirizzo": "Via del Pericolo, 17, 01024 Castiglione In Teverina VT",
+      "lat": 42.644462,
+      "lng": 12.204435
+    },
+    {
+      "id": "95ae626d-8e85-42b1-8ba1-efe824b9c9e4",
+      "slug": "l-oasi-del-riposo-affitta-camere-baschi",
+      "nome": "L'OASI DEL RIPOSO - Affitta camere",
+      "city_name": "Baschi",
+      "indirizzo": "Via Amelia, 46, 05023 Baschi TR",
+      "lat": 42.672755,
+      "lng": 12.218575
+    },
+    {
+      "id": "88d71879-f002-4b0a-9539-511c318ab325",
+      "slug": "la-casa-di-gioia-baschi",
+      "nome": "La casa di Gioia",
+      "city_name": "Baschi",
+      "indirizzo": "Via 4 Novembre, 9, 01024 Castiglione In Teverina VT",
+      "lat": 42.644499,
+      "lng": 12.204148
+    },
+    {
+      "id": "8a6b6114-572d-41a6-b239-34eb5ffbe897",
+      "slug": "la-gallinella-rossa-cin-it055007c23z030941-baschi",
+      "nome": "La Gallinella Rossa - CIN IT055007C23Z030941",
+      "city_name": "Baschi",
+      "indirizzo": "vocabolo casa delle monache, 84, 05023 Baschi TR",
+      "lat": 42.674569,
+      "lng": 12.232659
+    },
+    {
+      "id": "160623ec-7ea2-4a7d-9696-119a679aed2f",
+      "slug": "le-macchie-baschi",
+      "nome": "Le Macchie",
+      "city_name": "Baschi",
+      "indirizzo": "Vocabolo Macchie, 143, 05023 Baschi TR",
+      "lat": 42.689186,
+      "lng": 12.229181
+    },
+    {
+      "id": "927f6c7e-8f1c-499a-8e67-8811ac00b998",
+      "slug": "podere-barbi-podere-stucchio-baschi",
+      "nome": "PODERE BARBI (PODERE STUCCHIO)",
+      "city_name": "Baschi",
+      "indirizzo": "Vocabolo Murotondo, 05023 Baschi TR",
+      "lat": 42.692593,
+      "lng": 12.226015
+    },
+    {
+      "id": "709edb2b-01e5-425e-9be3-5c231d28effd",
+      "slug": "agriturismo-za-beata-basciano",
+      "nome": "Agriturismo Zà Beata",
+      "city_name": "Basciano",
+      "indirizzo": "6 Contrada Centrella, Penna Sant'andrea, 64039 PENNA SANT_ANDREA TE",
+      "lat": 42.604694,
+      "lng": 13.763916
+    },
+    {
+      "id": "da855c68-367c-4e7e-bf91-5d38c26bf95b",
+      "slug": "antica-interamnia-basciano",
+      "nome": "Antica Interamnia",
+      "city_name": "Basciano",
+      "indirizzo": "Via dei Mosaici, 12, 64100 Teramo TE",
+      "lat": 42.658804,
+      "lng": 13.7073
+    },
+    {
+      "id": "bcc9ea8a-6b33-4146-adb9-62f2e683e955",
+      "slug": "b-b-arcobaleno-basciano",
+      "nome": "B&B Arcobaleno",
+      "city_name": "Basciano",
+      "indirizzo": "Via Benedetto Croce, 23, 64039 Penna Sant'Andrea TE",
+      "lat": 42.606867,
+      "lng": 13.751444
+    },
+    {
+      "id": "b1b6675d-1e8e-4c9f-bb15-030373f63136",
+      "slug": "b-b-letterario-palazzo-pistocchi-basciano",
+      "nome": "B&B letterario Palazzo Pistocchi",
+      "city_name": "Basciano",
+      "indirizzo": "Vico Degli Orti, 15, 64100 Teramo TE",
+      "lat": 42.658117,
+      "lng": 13.70839
+    },
+    {
+      "id": "149b0157-c2eb-4c74-b0e0-2009f06ad7de",
+      "slug": "bed-and-breakfast-memory-basciano",
+      "nome": "Bed and Breakfast Memory",
+      "city_name": "Basciano",
+      "indirizzo": "Via Macera, 16, 64020 Canzano TE",
+      "lat": 42.629431,
+      "lng": 13.826724
+    },
+    {
+      "id": "8943d034-8724-4738-8075-1a4a05cd85d8",
+      "slug": "corte-dei-tini-relais-ristorante-basciano",
+      "nome": "Corte dei Tini Relais & Ristorante",
+      "city_name": "Basciano",
+      "indirizzo": "SS81, 64100 Villa Vomano TE",
+      "lat": 42.613403,
+      "lng": 13.762961
+    },
+    {
+      "id": "9b89b61b-bbac-4409-a62f-6dfc97fccbe5",
+      "slug": "hotel-gran-sasso-basciano",
+      "nome": "Hotel Gran Sasso",
+      "city_name": "Basciano",
+      "indirizzo": "Via Luigi Vinciguerra, 12, 64100 Teramo TE",
+      "lat": 42.661167,
+      "lng": 13.700668
+    },
+    {
+      "id": "df9065c6-5638-4f0c-aa70-46aef1e4cad6",
+      "slug": "hotel-michelangelo-basciano",
+      "nome": "Hotel Michelangelo",
+      "city_name": "Basciano",
+      "indirizzo": "Viale A. de Paulis Fedele, 9, 64100 Teramo TE",
+      "lat": 42.664576,
+      "lng": 13.702628
+    },
+    {
+      "id": "9cf081c4-0f6b-4d2b-994b-d94285996334",
+      "slug": "hotel-podio-basciano",
+      "nome": "Hotel Podio",
+      "city_name": "Basciano",
+      "indirizzo": "Via del Cimitero, 64100 Poggio Cono TE",
+      "lat": 42.660392,
+      "lng": 13.776517
+    },
+    {
+      "id": "25d3857f-1c24-4dec-b39e-23b4c797e939",
+      "slug": "la-casa-di-gemma-b-b-basciano",
+      "nome": "La Casa di Gemma B&B",
+      "city_name": "Basciano",
+      "indirizzo": "via Guglielmo Marconi, 16, 64100 Villa Vomano TE",
+      "lat": 42.611997,
+      "lng": 13.761722
+    },
+    {
+      "id": "41137143-80ed-4479-bec4-18e5818dcfad",
+      "slug": "la-villetta-sul-mavone-basciano",
+      "nome": "La Villetta sul Mavone",
+      "city_name": "Basciano",
+      "indirizzo": "Via Casette, 11, 64042 Villa Petto TE",
+      "lat": 42.563413,
+      "lng": 13.716293
+    },
+    {
+      "id": "ac7e9ac2-6e59-4590-9820-0f6cb21877f3",
+      "slug": "park-hotel-sporting-basciano",
+      "nome": "Park Hotel Sporting",
+      "city_name": "Basciano",
+      "indirizzo": "Via Alcide de Gasperi, 41, 64100 Teramo TE",
+      "lat": 42.662444,
+      "lng": 13.707357
+    },
+    {
+      "id": "3670e85f-c0a9-4372-bdbf-b8930c224674",
+      "slug": "regenzio-affittacamere-basciano",
+      "nome": "ReGenzio Affittacamere",
+      "city_name": "Basciano",
+      "indirizzo": "Villa Pizzicato, 31, 64042 Colledara TE",
+      "lat": 42.579966,
+      "lng": 13.720709
+    }
+  ]
+}

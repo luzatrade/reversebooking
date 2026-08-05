@@ -1,0 +1,323 @@
+{
+  "block": 36,
+  "blockId": "036",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "44ed9dd1-dc7b-4fc5-a3b7-0ecb73a91ad5",
+      "slug": "agriturismo-sa-tanchitta-aidomaggiore",
+      "nome": "Agriturismo Sa Tanchitta",
+      "city_name": "Aidomaggiore",
+      "indirizzo": "09080 Ula Tirso OR, Italia",
+      "lat": 40.043739,
+      "lng": 8.914471
+    },
+    {
+      "id": "b524d813-2c8f-43d3-8fc3-d4b27bcb6c14",
+      "slug": "b-b-baddesalighes-aidomaggiore",
+      "nome": "B&B Baddesalighes",
+      "city_name": "Aidomaggiore",
+      "indirizzo": "Via Badde Salighes, 77, 08011 Bolotana NU",
+      "lat": 40.32837,
+      "lng": 8.954457
+    },
+    {
+      "id": "4297972f-15af-4533-94a1-c868c2368479",
+      "slug": "b-b-catedda-aidomaggiore",
+      "nome": "B&B Catedda",
+      "city_name": "Aidomaggiore",
+      "indirizzo": "Via S. Pietro, 46, 09076 Sedilo OR",
+      "lat": 40.172226,
+      "lng": 8.91778
+    },
+    {
+      "id": "c3e15e27-716e-49d5-a473-5baffec6205b",
+      "slug": "b-b-il-lupo-rosso-aidomaggiore",
+      "nome": "B&B Il Lupo Rosso",
+      "city_name": "Aidomaggiore",
+      "indirizzo": "Via Roma, 52, 09075 Santu Lussurgiu OR",
+      "lat": 40.14062,
+      "lng": 8.652741
+    },
+    {
+      "id": "535ad26b-96b1-4637-a87c-d16df666b462",
+      "slug": "b-b-il-melograno-paulilatino-aidomaggiore",
+      "nome": "B&B Il Melograno Paulilatino",
+      "city_name": "Aidomaggiore",
+      "indirizzo": "Via Giovanni Caboto, 1/a, 09070 Paulilatino OR",
+      "lat": 40.080401,
+      "lng": 8.768632
+    },
+    {
+      "id": "063443ca-b3ec-4e79-8012-90ae0331d953",
+      "slug": "b-b-linu-ruiu-aidomaggiore",
+      "nome": "B&B Linu Ruiu",
+      "city_name": "Aidomaggiore",
+      "indirizzo": "Via Giovanni Maria Angioi, 79, 09075 Santu Lussurgiu OR",
+      "lat": 40.143119,
+      "lng": 8.653091
+    },
+    {
+      "id": "73ace700-931d-40a7-a761-9850b771c17e",
+      "slug": "binzas-betzas-agriturismo-aidomaggiore",
+      "nome": "Binzas Betzas Agriturismo",
+      "city_name": "Aidomaggiore",
+      "indirizzo": "Via Marconi, 16, 09076 Sedilo OR",
+      "lat": 40.171713,
+      "lng": 8.919259
+    },
+    {
+      "id": "32aecb32-70c1-438f-b1a8-ae0239e7aee9",
+      "slug": "deiana-aidomaggiore",
+      "nome": "Deiana",
+      "city_name": "Aidomaggiore",
+      "indirizzo": "Viale Azuni, 86, 09075 Santu Lussurgiu OR",
+      "lat": 40.141267,
+      "lng": 8.6513
+    },
+    {
+      "id": "da9f0788-7665-4fdc-b3c0-acdf94fee3fc",
+      "slug": "domo-anninnia-ghilarza-guest-house-aidomaggiore",
+      "nome": "DOMO Anninnìa - Ghilarza Guest House",
+      "city_name": "Aidomaggiore",
+      "indirizzo": "Via C. Battisti, 34, 09074 Ghilarza OR",
+      "lat": 40.123689,
+      "lng": 8.839996
+    },
+    {
+      "id": "27f7b461-8695-45ce-a09d-1a981bc87641",
+      "slug": "hotel-l-anfora-aidomaggiore",
+      "nome": "Hotel l'anfora",
+      "city_name": "Aidomaggiore",
+      "indirizzo": "Area di servizio sulla 131, km 103 Tramatza OR",
+      "lat": 39.989877,
+      "lng": 8.643136
+    },
+    {
+      "id": "cefacfb9-a9ac-41b2-b37d-54092f631cd9",
+      "slug": "hotel-ristorante-badde-rosa-aidomaggiore",
+      "nome": "Hotel Ristorante Badde Rosa",
+      "city_name": "Aidomaggiore",
+      "indirizzo": "Localita' Minadorzu, 08011 Bolotana NU",
+      "lat": 40.317771,
+      "lng": 8.965925
+    },
+    {
+      "id": "29abadce-c747-4163-b053-0b735f247da0",
+      "slug": "locanda-sottobosco-aidomaggiore",
+      "nome": "Locanda Sottobosco",
+      "city_name": "Aidomaggiore",
+      "indirizzo": "Via dell'Ontano, 2, 09075 San Leonardo De Siete Fuentes OR",
+      "lat": 40.180494,
+      "lng": 8.665487
+    },
+    {
+      "id": "00034435-e99d-4519-b0a0-0cfa1e2f1532",
+      "slug": "pietro-e-graziella-aidomaggiore",
+      "nome": "Pietro e Graziella",
+      "city_name": "Aidomaggiore",
+      "indirizzo": "Via Emilia, 6, 08038 Sorgono NU",
+      "lat": 40.023478,
+      "lng": 9.099448
+    },
+    {
+      "id": "c12728e3-99c2-493a-997c-8f7ee8568b84",
+      "slug": "sa-mola-hotel-ristorante-aidomaggiore",
+      "nome": "Sa Mola Hotel Ristorante",
+      "city_name": "Aidomaggiore",
+      "indirizzo": "Via Superga, 09070 Bonarcado OR",
+      "lat": 40.098534,
+      "lng": 8.657733
+    },
+    {
+      "id": "cdd1ead5-c985-48db-a699-cc65b5a9069d",
+      "slug": "the-templars-guesthouse-aidomaggiore",
+      "nome": "The Templars Guesthouse",
+      "city_name": "Aidomaggiore",
+      "indirizzo": "Via Agostino Obinu, 36, 09075 Santu Lussurgiu OR",
+      "lat": 40.142022,
+      "lng": 8.655853
+    },
+    {
+      "id": "566e848c-4794-4d15-923e-20c0d7aa93b5",
+      "slug": "agriresort-leano-aidone",
+      "nome": "Agriresort Leano",
+      "city_name": "Aidone",
+      "indirizzo": "C.da Leano (KM3,SP16, SP16, 94015 Piazza Armerina EN",
+      "lat": 37.36421,
+      "lng": 14.39941
+    },
+    {
+      "id": "4d991eee-d8bc-42d8-810b-0d254407744c",
+      "slug": "agriturismo-bannata-aidone",
+      "nome": "Agriturismo Bannata",
+      "city_name": "Aidone",
+      "indirizzo": "C.da Bannata SS 117 bis, km 41, 94100 Piazza Armerina EN",
+      "lat": 37.434261,
+      "lng": 14.372331
+    },
+    {
+      "id": "d2161d7e-2b94-441c-a223-51a35a651c0a",
+      "slug": "agriturismo-il-drago-aidone",
+      "nome": "Agriturismo Il Drago",
+      "city_name": "Aidone",
+      "indirizzo": "Contrada Dragofosso, 94010 Aidone EN",
+      "lat": 37.367086,
+      "lng": 14.44501
+    },
+    {
+      "id": "7091a8b1-b50f-4d05-99ae-3e19acaecb7a",
+      "slug": "agriturismo-il-drago-p-zza-armerina-aidone",
+      "nome": "Agriturismo il drago p.zza Armerina",
+      "city_name": "Aidone",
+      "indirizzo": "Unnamed Road, 94010, 94010 Aidone EN",
+      "lat": 37.37001,
+      "lng": 14.439066
+    },
+    {
+      "id": "cc951377-5a93-4868-b6c2-45f77651b80f",
+      "slug": "agriturismo-salemi-aidone",
+      "nome": "Agriturismo Salemi",
+      "city_name": "Aidone",
+      "indirizzo": "Contrada Leano, 94015 Piazza Armerina EN",
+      "lat": 37.374556,
+      "lng": 14.411879
+    },
+    {
+      "id": "7e396785-86eb-4e99-8487-a68adf695bdb",
+      "slug": "bed-breakfast-le-giare-aidone",
+      "nome": "Bed & Breakfast Le Giare",
+      "city_name": "Aidone",
+      "indirizzo": "Via Domenico Minolfi, 13, 94010 Aidone EN",
+      "lat": 37.415979,
+      "lng": 14.447356
+    },
+    {
+      "id": "4c38298f-0975-4334-8778-a38591bdfa93",
+      "slug": "gh-hotel-restaurant-aidone",
+      "nome": "GH Hotel & Restaurant",
+      "city_name": "Aidone",
+      "indirizzo": "Via Generale Gaeta, 32, 94015 Piazza Armerina EN",
+      "lat": 37.39217,
+      "lng": 14.372352
+    },
+    {
+      "id": "1d784de6-2a5d-4906-a11c-e8e358198087",
+      "slug": "hotel-villa-romana-aidone",
+      "nome": "Hotel Villa Romana",
+      "city_name": "Aidone",
+      "indirizzo": "P.za Alcide de Gasperi, 18, 94015 Piazza Armerina EN",
+      "lat": 37.383224,
+      "lng": 14.369932
+    },
+    {
+      "id": "9aad3ee6-fe7e-4db1-96c5-57841cf896b3",
+      "slug": "la-casa-rossa-aidone",
+      "nome": "La casa rossa",
+      "city_name": "Aidone",
+      "indirizzo": "Via Piersanti Mattarella, 94015 Piazza Armerina EN",
+      "lat": 37.378787,
+      "lng": 14.361514
+    },
+    {
+      "id": "9e943da6-8d84-4453-922d-0689d351e49c",
+      "slug": "la-regina-di-saba-aidone",
+      "nome": "La Regina di Saba",
+      "city_name": "Aidone",
+      "indirizzo": "Via Pergola, 2, 94015 Piazza Armerina EN",
+      "lat": 37.381488,
+      "lng": 14.370321
+    },
+    {
+      "id": "9df76d0a-cd64-4532-b4c4-653974dab66a",
+      "slug": "monia-rooms-hospitality-aidone",
+      "nome": "Monia rooms&hospitality",
+      "city_name": "Aidone",
+      "indirizzo": "Via Chiaranda', 87, 94015 Piazza Armerina EN",
+      "lat": 37.387669,
+      "lng": 14.369308
+    },
+    {
+      "id": "60562a9c-5936-4572-bc05-bb489664f32b",
+      "slug": "morgantina-servizi-acc-soc-coop-aidone",
+      "nome": "Morgantina Servizi&acc soc coop",
+      "city_name": "Aidone",
+      "indirizzo": "Via Adelasia, 42, 94010 Aidone EN",
+      "lat": 37.416113,
+      "lng": 14.446353
+    },
+    {
+      "id": "bf4d4e9f-2ee9-4f23-bcdc-5dc6274d63c8",
+      "slug": "parco-degli-ulivi-ricevimenti-hotel-aidone",
+      "nome": "Parco degli Ulivi Ricevimenti Hotel",
+      "city_name": "Aidone",
+      "indirizzo": "Via Vecchia Ferrovia, 95040 Mirabella Imbaccari CT",
+      "lat": 37.333656,
+      "lng": 14.445824
+    },
+    {
+      "id": "601dd843-c60a-4958-be93-02706028a361",
+      "slug": "park-hotel-paradiso-aidone",
+      "nome": "Park Hotel Paradiso",
+      "city_name": "Aidone",
+      "indirizzo": "Contrada Sant'Andrea, 94015 Piazza Armerina EN",
+      "lat": 37.396368,
+      "lng": 14.360189
+    },
+    {
+      "id": "47ce4c3f-a6d0-428c-b509-48f89a70a5c7",
+      "slug": "ristorante-e-hotel-al-ritrovo-aidone",
+      "nome": "Ristorante e Hotel Al Ritrovo",
+      "city_name": "Aidone",
+      "indirizzo": "SS117bis, 94015 Enna EN",
+      "lat": 37.406813,
+      "lng": 14.383627
+    },
+    {
+      "id": "2422a0e1-e1a2-421a-b5b2-482db303d52c",
+      "slug": "villa-trigona-aidone",
+      "nome": "Villa Trigona",
+      "city_name": "Aidone",
+      "indirizzo": "Contrada, Via Salvatore Bauccio, 94016 Piazza Armerina EN",
+      "lat": 37.36408,
+      "lng": 14.375044
+    },
+    {
+      "id": "c5fef2be-d849-4254-b7d1-00fc5d8085cb",
+      "slug": "alba-sporting-hotel-aielli",
+      "nome": "Alba Sporting Hotel",
+      "city_name": "Aielli",
+      "indirizzo": "SS. Ovindoli, Viale Antonio Martini, 1, 67048 Rovere AQ",
+      "lat": 42.174505,
+      "lng": 13.515596
+    },
+    {
+      "id": "8bdc20d1-132d-4cae-9af9-c666ef6035f0",
+      "slug": "b-b-arco-dei-sogni-aielli",
+      "nome": "B&B Arco dei Sogni",
+      "city_name": "Aielli",
+      "indirizzo": "SS 696 del Parco Regionale Sirente-Velino, 67043 Celano AQ",
+      "lat": 42.066106,
+      "lng": 13.553835
+    },
+    {
+      "id": "ee6d5e28-10f6-4cf2-9ca5-a93681c04148",
+      "slug": "b-b-n-gima-all-ara-aielli",
+      "nome": "B&b n' gima all' ara",
+      "city_name": "Aielli",
+      "indirizzo": "V. Vallone, 5, 67041 Aielli AQ",
+      "lat": 42.082646,
+      "lng": 13.588891
+    },
+    {
+      "id": "a6377cc3-0923-4063-bc28-9a50f6375a60",
+      "slug": "grand-hotel-delle-rocche-ristorante-le-terrazze-aielli",
+      "nome": "Grand Hotel delle Rocche, Ristorante Le Terrazze",
+      "city_name": "Aielli",
+      "indirizzo": "Via Comunale per Secinaro, 220, 67048 Rocca di Mezzo AQ",
+      "lat": 42.19631,
+      "lng": 13.522703
+    }
+  ]
+}

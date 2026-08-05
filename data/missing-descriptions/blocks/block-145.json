@@ -1,0 +1,323 @@
+{
+  "block": 145,
+  "blockId": "145",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "9039806e-9ad2-4c08-8eea-c2558d677664",
+      "slug": "b-b-nest-on-the-lake-argegno",
+      "nome": "B&B Nest On The Lake",
+      "city_name": "Argegno",
+      "indirizzo": "Località Sostra, 19/17, 22025 Lezzeno CO",
+      "lat": 45.948166,
+      "lng": 9.203666
+    },
+    {
+      "id": "1d45bdfc-deb3-499f-b746-d320b2fbc7a8",
+      "slug": "b-b-sosta-sul-lago-argegno",
+      "nome": "B&B Sosta Sul Lago",
+      "city_name": "Argegno",
+      "indirizzo": "Località Bagnana, 99, 22025 Lezzeno CO",
+      "lat": 45.944968,
+      "lng": 9.187723
+    },
+    {
+      "id": "1215d818-bd4c-4f09-b3f5-6b930b12e409",
+      "slug": "bed-and-breakfast-casa-pini-argegno",
+      "nome": "Bed and Breakfast Casa Pini",
+      "city_name": "Argegno",
+      "indirizzo": "Via Brentano, 12 F, 22011 Griante CO",
+      "lat": 45.995661,
+      "lng": 9.233691
+    },
+    {
+      "id": "28e1ffb4-69ca-471a-bd55-f22a46cf1db2",
+      "slug": "casa-vostra-argegno",
+      "nome": "Casa Vostra",
+      "city_name": "Argegno",
+      "indirizzo": "Via Schignano, 3, 22010 Argegno CO",
+      "lat": 45.939453,
+      "lng": 9.127508
+    },
+    {
+      "id": "c3154395-c793-4ff8-9ad0-6698e1807b5d",
+      "slug": "fattoria-dei-castagni-argegno",
+      "nome": "Fattoria dei Castagni",
+      "city_name": "Argegno",
+      "indirizzo": "Via Schignano, 22010 Argegno CO",
+      "lat": 45.937349,
+      "lng": 9.110699
+    },
+    {
+      "id": "194e9e38-b003-4330-b581-6e55c344ce40",
+      "slug": "hotel-argegno-argegno",
+      "nome": "Hotel Argegno",
+      "city_name": "Argegno",
+      "indirizzo": "Via Milano, 4, 22010 Argegno CO",
+      "lat": 45.942841,
+      "lng": 9.128069
+    },
+    {
+      "id": "ee5f9a42-58bc-4eff-b8e6-553d28295dcc",
+      "slug": "hotel-ristorante-la-griglia-lago-di-como-argegno",
+      "nome": "Hotel Ristorante La Griglia Lago Di Como",
+      "city_name": "Argegno",
+      "indirizzo": "Via Schignano, 1, 22010 Sant'Anna CO",
+      "lat": 45.940156,
+      "lng": 9.110585
+    },
+    {
+      "id": "20588c4d-4e4a-4daa-9c52-ce168dab1e15",
+      "slug": "larioview-suites-argegno",
+      "nome": "Larioview suites",
+      "city_name": "Argegno",
+      "indirizzo": "Via Pizzo Gordona, 33, 22010 Argegno CO",
+      "lat": 45.9424,
+      "lng": 9.12585
+    },
+    {
+      "id": "714495e3-4335-4346-b029-f17b10f174bc",
+      "slug": "locanda-posta-argegno",
+      "nome": "Locanda Posta",
+      "city_name": "Argegno",
+      "indirizzo": "Via Cacciatori delle Alpi, 32, 22010 Argegno CO",
+      "lat": 45.943976,
+      "lng": 9.127487
+    },
+    {
+      "id": "4b3b80b2-9c9d-4bf2-8222-07b1cf8adfcf",
+      "slug": "locanda-sant-anna-argegno",
+      "nome": "Locanda Sant'Anna",
+      "city_name": "Argegno",
+      "indirizzo": "Via Schignano, 22010 Sant'Anna CO",
+      "lat": 45.940559,
+      "lng": 9.110286
+    },
+    {
+      "id": "d7acbf60-8a63-4547-9c60-3e6e6b856fe3",
+      "slug": "terrazza-del-borgo-argegno-argegno",
+      "nome": "Terrazza Del Borgo Argegno",
+      "city_name": "Argegno",
+      "indirizzo": "Via Giuseppe Garibaldi, 35, 22010 Argegno CO",
+      "lat": 45.942376,
+      "lng": 9.127886
+    },
+    {
+      "id": "bddd95f1-0c1e-4684-a533-b408a5da2ceb",
+      "slug": "una-finestra-sul-lago-argegno",
+      "nome": "Una finestra sul lago",
+      "city_name": "Argegno",
+      "indirizzo": "Via Cacciatori delle Alpi, 22 2nd Floor, 22010 Argegno CO",
+      "lat": 45.94356,
+      "lng": 9.127722
+    },
+    {
+      "id": "dae537f7-44fe-4378-a035-35906bbe26aa",
+      "slug": "villa-belvedere-como-lake-relais-e-le-restaurant-argegno",
+      "nome": "Villa Belvedere Como lake Relais e Le Restaurant in Villa",
+      "city_name": "Argegno",
+      "indirizzo": "Via Milano, 1, 22010 Argegno CO",
+      "lat": 45.941822,
+      "lng": 9.128258
+    },
+    {
+      "id": "92fe33a4-f404-49b0-8c42-d47ea2257eb7",
+      "slug": "vista-dolce-isola-argegno",
+      "nome": "Vista Dolce Isola",
+      "city_name": "Argegno",
+      "indirizzo": "Via Carlo Dotti, 1, 22010 Argegno CO",
+      "lat": 45.94173,
+      "lng": 9.120394
+    },
+    {
+      "id": "2291263a-1ad3-43b7-949d-b0da4f77551b",
+      "slug": "affittacamere-levante-argelato",
+      "nome": "Affittacamere levante",
+      "city_name": "Argelato",
+      "indirizzo": "Via Stelloni Levante, 23, 40012 Calderara di Reno BO",
+      "lat": 44.565962,
+      "lng": 11.296096
+    },
+    {
+      "id": "72942207-c719-4407-bd4a-9acb17578ace",
+      "slug": "affittacamere-villa-tigli-argelato",
+      "nome": "Affittacamere Villa Tigli",
+      "city_name": "Argelato",
+      "indirizzo": "Via dei Tigli, 42, 40050 Argelato BO",
+      "lat": 44.637833,
+      "lng": 11.343609
+    },
+    {
+      "id": "f64fd040-bdf7-48c6-b414-f6474b350dd0",
+      "slug": "antica-locanda-il-sole-hotel-argelato",
+      "nome": "Antica Locanda Il Sole Hotel",
+      "city_name": "Argelato",
+      "indirizzo": "Via Lame, 65, 40013 Trebbo BO",
+      "lat": 44.554077,
+      "lng": 11.318327
+    },
+    {
+      "id": "1b32c0c2-5ce0-458b-957f-04aadc534805",
+      "slug": "b-b-i-casali-it037050c1c59qkuua-argelato",
+      "nome": "B&B i Casali (IT037050C1C59QKUUA)",
+      "city_name": "Argelato",
+      "indirizzo": "Via Longarola, 42, 40010 Sala Bolognese BO",
+      "lat": 44.600983,
+      "lng": 11.297034
+    },
+    {
+      "id": "d1276caa-fc97-44f9-b2e9-fc3c5467bee7",
+      "slug": "b-b-oasi-argelato",
+      "nome": "B&B OASI",
+      "city_name": "Argelato",
+      "indirizzo": "Via Centese, 8, 40016 San Giorgio di Piano BO",
+      "lat": 44.638927,
+      "lng": 11.368093
+    },
+    {
+      "id": "da8ef13e-a7ed-4432-940b-6c757e6ce137",
+      "slug": "b-b-villa-pace-d-oro-argelato",
+      "nome": "B&B Villa Pace D'Oro",
+      "city_name": "Argelato",
+      "indirizzo": "Via Centese, 209, 40050 Argelato BO",
+      "lat": 44.651097,
+      "lng": 11.332049
+    },
+    {
+      "id": "3d5769ee-6d2a-48f6-80ca-c40c47036b48",
+      "slug": "bentivoglio-hotel-congress-argelato",
+      "nome": "Bentivoglio hotel congress",
+      "city_name": "Argelato",
+      "indirizzo": "A13, 40010 Padova BO",
+      "lat": 44.586988,
+      "lng": 11.389511
+    },
+    {
+      "id": "f1b20834-66c9-4446-8836-57b53ee81138",
+      "slug": "casa-paola-argelato",
+      "nome": "CASA PAOLA",
+      "city_name": "Argelato",
+      "indirizzo": "Via A. Gramsci, 7, 40010 Sala Bolognese BO",
+      "lat": 44.62045,
+      "lng": 11.259164
+    },
+    {
+      "id": "41975bb3-d899-43ef-90f2-4841a0add826",
+      "slug": "castello-d-argile-hotel-argelato",
+      "nome": "CASTELLO D'ARGILE HOTEL",
+      "city_name": "Argelato",
+      "indirizzo": "Via dei Falegnami, 3, 40050 Castello d'Argile BO",
+      "lat": 44.693129,
+      "lng": 11.306506
+    },
+    {
+      "id": "866e0b88-1068-4a9d-a814-a77af957ed60",
+      "slug": "hotel-ristorante-sushi-oro-argelato",
+      "nome": "Hotel & Ristorante sushi Oro",
+      "city_name": "Argelato",
+      "indirizzo": "Via Giovannina, 57, 44042 Cento FE",
+      "lat": 44.7345,
+      "lng": 11.267152
+    },
+    {
+      "id": "7ee5ea0a-fe8f-4369-bbc0-90d2fb4bc115",
+      "slug": "hotel-bentivoglio-argelato",
+      "nome": "Hotel Bentivoglio",
+      "city_name": "Argelato",
+      "indirizzo": "Piazza Carlo Alberto Pizzardi, 1, 40010 Bentivoglio BO",
+      "lat": 44.635137,
+      "lng": 11.420902
+    },
+    {
+      "id": "beb15bfa-2069-4b5d-bb98-4aad29ca8a2e",
+      "slug": "hotel-galliera-argelato",
+      "nome": "Hotel Galliera",
+      "city_name": "Argelato",
+      "indirizzo": "di Galliera, Via Dante Alighieri, 2A, 40015 San Vincenzo BO",
+      "lat": 44.734816,
+      "lng": 11.439307
+    },
+    {
+      "id": "b9c846b9-26da-42ea-b953-d62a1fcab70d",
+      "slug": "hotel-marconi-argelato",
+      "nome": "Hotel Marconi",
+      "city_name": "Argelato",
+      "indirizzo": "SP3, Trasversale di Pianura, 2/c, 40010 Bentivoglio BO",
+      "lat": 44.594293,
+      "lng": 11.383209
+    },
+    {
+      "id": "a9192910-d340-4245-9578-440ee6b05d9d",
+      "slug": "hotel-olimpic-bologna-argelato",
+      "nome": "Hotel Olimpic Bologna",
+      "city_name": "Argelato",
+      "indirizzo": "Via Galliera, 23, 40013 Castel Maggiore BO",
+      "lat": 44.558847,
+      "lng": 11.356225
+    },
+    {
+      "id": "ba885040-8dfb-45f5-85a1-5851d878ded8",
+      "slug": "hotel-pamela-argelato",
+      "nome": "Hotel Pamela",
+      "city_name": "Argelato",
+      "indirizzo": "Via Galliera Sud, 74, 40018 San Pietro In Casale BO",
+      "lat": 44.691962,
+      "lng": 11.398284
+    },
+    {
+      "id": "7439eacd-c199-401c-9b37-29fe47d4b748",
+      "slug": "hotel-sabo-argelato",
+      "nome": "Hotel SABO'",
+      "city_name": "Argelato",
+      "indirizzo": "Via Galliera, 80, 40050 Funo BO",
+      "lat": 44.587799,
+      "lng": 11.368911
+    },
+    {
+      "id": "a6915269-0c94-4e2a-a2d5-1eed56593fd1",
+      "slug": "jr-hotel-gate7-argelato",
+      "nome": "JR Hotel Gate7",
+      "city_name": "Argelato",
+      "indirizzo": "Via G. Garibaldi, 4, 40012 Calderara di Reno BO",
+      "lat": 44.554318,
+      "lng": 11.281325
+    },
+    {
+      "id": "e30793dd-306e-4ff8-9f4f-c2a836a31ee3",
+      "slug": "melograno-hotel-argelato",
+      "nome": "Melograno Hotel",
+      "city_name": "Argelato",
+      "indirizzo": "Via Altedo, 4419, 40018 San Pietro in Casale BO",
+      "lat": 44.690765,
+      "lng": 11.463974
+    },
+    {
+      "id": "41a21fb4-22fe-4ede-b297-f4812d77ce6d",
+      "slug": "mitico-hotel-natural-spa-argelato",
+      "nome": "Mitico Hotel & Natural Spa",
+      "city_name": "Argelato",
+      "indirizzo": "Via Ferrarese, 164, 40128 Bologna BO",
+      "lat": 44.533158,
+      "lng": 11.366826
+    },
+    {
+      "id": "5da4f316-67b1-48a2-b62f-fb6f3009060f",
+      "slug": "r-b-dalla-licia-argelato",
+      "nome": "R&B Dalla Licia",
+      "city_name": "Argelato",
+      "indirizzo": "Via Boves, 2, 40016 San Giorgio di Piano BO",
+      "lat": 44.649896,
+      "lng": 11.370473
+    },
+    {
+      "id": "49845af4-45f8-498d-b808-a33bcbe8acfe",
+      "slug": "agrilocanda-val-campotto-argenta",
+      "nome": "Agrilocanda Val Campotto",
+      "city_name": "Argenta",
+      "indirizzo": "Via Maria Margotti, 2, 44011 Argenta FE",
+      "lat": 44.601086,
+      "lng": 11.810134
+    }
+  ]
+}

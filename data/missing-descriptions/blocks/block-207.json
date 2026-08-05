@@ -1,0 +1,323 @@
+{
+  "block": 207,
+  "blockId": "207",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "01959611-1126-4bb6-8e66-e8dc8079d5ac",
+      "slug": "sunset-house-balestrate",
+      "nome": "Sunset House",
+      "city_name": "Balestrate",
+      "indirizzo": "Via Pitrè, 72, 90041 Balestrate PA",
+      "lat": 38.046783,
+      "lng": 13.002179
+    },
+    {
+      "id": "f3514160-d6c1-4833-b563-0717180cb3fc",
+      "slug": "vanity-spa-hotel-balestrate",
+      "nome": "vanity spa hotel",
+      "city_name": "Balestrate",
+      "indirizzo": "Via Roma, 65, 90041 Balestrate PA",
+      "lat": 38.050797,
+      "lng": 13.00451
+    },
+    {
+      "id": "a0641ae2-040c-4002-ac82-264e5edc109f",
+      "slug": "villa-rosa-bella-vista-balestrate-balestrate",
+      "nome": "Villa Rosa Bella Vista Balestrate",
+      "city_name": "Balestrate",
+      "indirizzo": "Via Carlo Alberto Dalla Chiesa, 14, 90041 Balestrate PA",
+      "lat": 38.048026,
+      "lng": 13.005648
+    },
+    {
+      "id": "c67b2eab-0d40-47c0-8922-20638f930a8d",
+      "slug": "ai-pozzi-village-balestrino",
+      "nome": "Ai Pozzi Village",
+      "city_name": "Balestrino",
+      "indirizzo": "Via Silvio Amico, 35, 17025 Loano SV",
+      "lat": 44.129845,
+      "lng": 8.242734
+    },
+    {
+      "id": "cb10d676-ccc1-40f0-a2eb-6f974d2168f4",
+      "slug": "antico-melo-balestrino",
+      "nome": "Antico Melo",
+      "city_name": "Balestrino",
+      "indirizzo": "Via Campo, 12, 17034 Castelvecchio di Rocca Barbena SV",
+      "lat": 44.129645,
+      "lng": 8.119136
+    },
+    {
+      "id": "1b9feed4-95f1-46f0-8a95-27b4a3a065f7",
+      "slug": "b-b-casa-rosso-le-cantine-balestrino",
+      "nome": "B&B Casa Rosso - Le Cantine",
+      "city_name": "Balestrino",
+      "indirizzo": "Via Nuova, 40, 17035 Cisano sul Neva SV",
+      "lat": 44.084698,
+      "lng": 8.150745
+    },
+    {
+      "id": "6f3f2136-8186-47e2-ab6b-f61a76e69ef4",
+      "slug": "b-b-due-passi-dal-mare-balestrino",
+      "nome": "B&B Due passi dal mare",
+      "city_name": "Balestrino",
+      "indirizzo": "SS 1, 17, 17023 Ceriale SV",
+      "lat": 44.096917,
+      "lng": 8.232018
+    },
+    {
+      "id": "ba69a4a2-00d7-4430-ab41-d9be2b4c8339",
+      "slug": "b-b-ghe-pensu-mi-balestrino",
+      "nome": "B&B Ghe pensu mi",
+      "city_name": "Balestrino",
+      "indirizzo": "P.za Mario Cennamo, 8, 17020 Toirano SV",
+      "lat": 44.128104,
+      "lng": 8.20527
+    },
+    {
+      "id": "f0fd648c-ae03-4aba-afeb-65410729ac36",
+      "slug": "casa-nina-balestrino",
+      "nome": "Casa Nina",
+      "city_name": "Balestrino",
+      "indirizzo": "Via Pietro Mainero, 54, 17020 Toirano SV",
+      "lat": 44.123906,
+      "lng": 8.211749
+    },
+    {
+      "id": "07adc06e-45cc-4d3a-8a46-5fd3cdd587d4",
+      "slug": "come-nelle-favole-balestrino",
+      "nome": "Come nelle Favole",
+      "city_name": "Balestrino",
+      "indirizzo": "Via Braida, 52, 17020 Toirano SV",
+      "lat": 44.12757,
+      "lng": 8.205908
+    },
+    {
+      "id": "56d3a883-f0ec-4bf3-a384-33c0a531c24c",
+      "slug": "domo-de-aste-balestrino",
+      "nome": "Domo de Aste",
+      "city_name": "Balestrino",
+      "indirizzo": "Via Giovanni Battista Parodi, 8, 17020 Toirano SV",
+      "lat": 44.126105,
+      "lng": 8.209305
+    },
+    {
+      "id": "b320c6b8-302b-4f1a-9327-b66421811329",
+      "slug": "gemy-balestrino",
+      "nome": "Gemy",
+      "city_name": "Balestrino",
+      "indirizzo": "Via Buragi, 10, 17020 Boissano SV",
+      "lat": 44.128154,
+      "lng": 8.229402
+    },
+    {
+      "id": "94b830c8-2666-4b56-af12-747099096367",
+      "slug": "il-giardino-degli-aranci-balestrino",
+      "nome": "Il Giardino degli Aranci",
+      "city_name": "Balestrino",
+      "indirizzo": "Via Balestrino, 4, 17020 Toirano SV",
+      "lat": 44.126092,
+      "lng": 8.202411
+    },
+    {
+      "id": "d0f5e6f4-69c2-4fb1-b13f-4731d90ec4fd",
+      "slug": "il-pittore-di-stelle-balestrino",
+      "nome": "Il Pittore di Stelle",
+      "city_name": "Balestrino",
+      "indirizzo": "Via Capae, 8, 17020 Boissano SV",
+      "lat": 44.131073,
+      "lng": 8.233393
+    },
+    {
+      "id": "87962219-634f-49a2-8df6-01e41dad9b95",
+      "slug": "la-pergola-balestrino",
+      "nome": "La Pergola",
+      "city_name": "Balestrino",
+      "indirizzo": "Via Calatafimi, 24, 17025 Loano SV",
+      "lat": 44.118915,
+      "lng": 8.249059
+    },
+    {
+      "id": "1ae6235a-516a-40a7-9d56-d6fbaec23fda",
+      "slug": "le-case-rotte-balestrino",
+      "nome": "Le case rotte",
+      "city_name": "Balestrino",
+      "indirizzo": "Località Fossato, 1, 17020 Balestrino SV",
+      "lat": 44.120992,
+      "lng": 8.175529
+    },
+    {
+      "id": "f74f0cde-4b4f-4c7e-aaef-e66b04930440",
+      "slug": "residence-oliveto-aparthotel-balestrino",
+      "nome": "Residence Oliveto Aparthotel",
+      "city_name": "Balestrino",
+      "indirizzo": "Via Romana, 31 - 37, 17023 Ceriale SV",
+      "lat": 44.092852,
+      "lng": 8.228689
+    },
+    {
+      "id": "75aafd22-b969-479a-b848-8d4f1f41dd0f",
+      "slug": "scia-dina-balestrino",
+      "nome": "Scià Dina",
+      "city_name": "Balestrino",
+      "indirizzo": "Via Giovanni Battista Parodi, 36, 17020 Toirano SV",
+      "lat": 44.125589,
+      "lng": 8.209966
+    },
+    {
+      "id": "415d9c9b-73fc-40ff-b10c-464216d87324",
+      "slug": "zac-house-balestrino",
+      "nome": "Zac House",
+      "city_name": "Balestrino",
+      "indirizzo": "Via Morette, 28, 17020 Boissano SV",
+      "lat": 44.132584,
+      "lng": 8.225284
+    },
+    {
+      "id": "dcfc9686-3c23-408d-ba61-a041fc59d631",
+      "slug": "albergo-ristorante-sporting-club-ballabio",
+      "nome": "Albergo Ristorante Sporting Club",
+      "city_name": "Ballabio",
+      "indirizzo": "Via Casimiro Ferrari, 3, 23811 Ballabio LC",
+      "lat": 45.901132,
+      "lng": 9.422563
+    },
+    {
+      "id": "3aa8e4e3-b219-484e-8b0d-399236f4be7b",
+      "slug": "b-b-il-castagneto-ballabio",
+      "nome": "B&B Il Castagneto",
+      "city_name": "Ballabio",
+      "indirizzo": "Via Castagneti, 28, 23818 Pasturo LC",
+      "lat": 45.942745,
+      "lng": 9.446093
+    },
+    {
+      "id": "1514d1dc-3e90-42e4-b22e-1c86d911509b",
+      "slug": "b-b-il-colombe-ballabio",
+      "nome": "B&B Il Colombé",
+      "city_name": "Ballabio",
+      "indirizzo": "Via Giuseppe Mazzini, 3, 23891 Barzanò LC",
+      "lat": 45.728593,
+      "lng": 9.317413
+    },
+    {
+      "id": "e88f4f58-5132-4de2-8f0b-9eb0e5f73006",
+      "slug": "b-b-la-castagna-ballabio",
+      "nome": "B&B la Castagna",
+      "city_name": "Ballabio",
+      "indirizzo": "Via dei Partigiani, 36, 23900 Lecco LC",
+      "lat": 45.866238,
+      "lng": 9.400683
+    },
+    {
+      "id": "ea16b8fb-b14f-4499-b43b-a6d73a127945",
+      "slug": "bb-partenza-funivia-piani-d-erna-ballabio",
+      "nome": "BB Partenza Funivia Piani D'Erna",
+      "city_name": "Ballabio",
+      "indirizzo": "Via Prealpi, 34, 23900 Lecco LC",
+      "lat": 45.86344,
+      "lng": 9.428305
+    },
+    {
+      "id": "564b251c-0053-42ff-931e-09deb22922bc",
+      "slug": "bed-breakfast-la-betulla-ballabio",
+      "nome": "Bed & Breakfast La Betulla",
+      "city_name": "Ballabio",
+      "indirizzo": "Piazza Scotti, 3/A, 23815 Introbio LC",
+      "lat": 45.971119,
+      "lng": 9.452753
+    },
+    {
+      "id": "a68b5dd6-a7a2-4f5d-a76a-3a44f9890411",
+      "slug": "foresteria-lombarda-ballabio",
+      "nome": "Foresteria Lombarda",
+      "city_name": "Ballabio",
+      "indirizzo": "Via Francesca Manzoni, 13, 23816 Barzio LC",
+      "lat": 45.94573,
+      "lng": 9.469372
+    },
+    {
+      "id": "e0a7ee35-26e8-4693-95e8-3ef62343f2cb",
+      "slug": "il-bosco-vicino-al-lago-vicino-alle-montagne-ballabio",
+      "nome": "Il bosco - vicino al lago, vicino alle montagne",
+      "city_name": "Ballabio",
+      "indirizzo": "Via Provinciale, 6, 23811 Ballabio LC",
+      "lat": 45.888566,
+      "lng": 9.421237
+    },
+    {
+      "id": "779a30ab-03f3-4c6a-8dc3-3b9a3a5a22a2",
+      "slug": "la-chambre-d-hote-ballabio",
+      "nome": "LA CHAMBRE D'HOTE",
+      "city_name": "Ballabio",
+      "indirizzo": "Via Giuseppe Parini, 3, 23811 Ballabio LC",
+      "lat": 45.901104,
+      "lng": 9.421558
+    },
+    {
+      "id": "7664951f-4e2e-49b0-8d51-b32e86f54d6e",
+      "slug": "lecco-hostel-rooms-ballabio",
+      "nome": "Lecco Hostel & Rooms",
+      "city_name": "Ballabio",
+      "indirizzo": "Corso Giacomo Matteotti, 89a, 23900 Lecco LC",
+      "lat": 45.863631,
+      "lng": 9.401434
+    },
+    {
+      "id": "85349b06-d423-4c90-b6b6-60eac06c946e",
+      "slug": "lullaby-b-b-ballabio",
+      "nome": "Lullaby B&B",
+      "city_name": "Ballabio",
+      "indirizzo": "Via Europa, 1, 23811 Ballabio LC",
+      "lat": 45.899454,
+      "lng": 9.426002
+    },
+    {
+      "id": "7f470e98-d9e6-4821-bb3c-e636aec29287",
+      "slug": "rocca-dell-innominato-ballabio",
+      "nome": "Rocca dell’Innominato",
+      "city_name": "Ballabio",
+      "indirizzo": "Via del Sarto, 30, 23900 Lecco LC",
+      "lat": 45.823895,
+      "lng": 9.419133
+    },
+    {
+      "id": "54711f9e-9090-4834-b3e9-1e157d0726e4",
+      "slug": "tra-monti-e-lago-ballabio",
+      "nome": "Tra Monti e Lago",
+      "city_name": "Ballabio",
+      "indirizzo": "Via Carrobbio, 1, 23811 Ballabio LC",
+      "lat": 45.9014,
+      "lng": 9.422304
+    },
+    {
+      "id": "332e338c-a482-4daf-95b2-f1fe1bab1610",
+      "slug": "villa-annamaria-ballabio",
+      "nome": "Villa Annamaria",
+      "city_name": "Ballabio",
+      "indirizzo": "Via Provinciale, 1, 23811 Ballabio LC",
+      "lat": 45.887793,
+      "lng": 9.419891
+    },
+    {
+      "id": "9dc27cfa-8051-4c21-aaa4-359e1afa8356",
+      "slug": "4-mori-family-village-ballao",
+      "nome": "4 Mori Family Village",
+      "city_name": "Ballao",
+      "indirizzo": "Località Is Perdigonis, ex S.S. 125, Km. 58, 09043 Muravera CA",
+      "lat": 39.3753,
+      "lng": 9.599441
+    },
+    {
+      "id": "2f3dfce3-af3b-4c26-bf6a-54494e748113",
+      "slug": "b-b-lago-mulargia-ballao",
+      "nome": "B&B Lago Mulargia",
+      "city_name": "Ballao",
+      "indirizzo": "Via Tirso, 25, 09040 Siurgus Donigala CA",
+      "lat": 39.602474,
+      "lng": 9.192226
+    }
+  ]
+}

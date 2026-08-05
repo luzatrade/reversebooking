@@ -1,0 +1,323 @@
+{
+  "block": 329,
+  "blockId": "329",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "44294511-ba17-452d-ad30-f84f088a3a62",
+      "slug": "agriturismo-il-terrazzo-brivio",
+      "nome": "Agriturismo IL TERRAZZO",
+      "city_name": "Brivio",
+      "indirizzo": "Biglio Superiore 8 Valgreghentino, 23857 Lecco LC",
+      "lat": 45.768043,
+      "lng": 9.399629
+    },
+    {
+      "id": "da514dd3-a291-4143-a86a-c0ee049621af",
+      "slug": "b-b-nina-o-brivio",
+      "nome": "B&b nina-o",
+      "city_name": "Brivio",
+      "indirizzo": "Via ignazio cantu, 2, 23883 Brivio LC",
+      "lat": 45.740776,
+      "lng": 9.447536
+    },
+    {
+      "id": "0690d49b-e778-474c-8069-1ea361152fb0",
+      "slug": "casetta-canosse-brivio",
+      "nome": "Casetta Canosse",
+      "city_name": "Brivio",
+      "indirizzo": "Frazione, Via Canosse, 16, 23883 Brivio LC",
+      "lat": 45.748228,
+      "lng": 9.441471
+    },
+    {
+      "id": "e479515e-e025-4388-93d2-704f5040ecf3",
+      "slug": "hotel-brivio-nuova-apertura-2025-brivio",
+      "nome": "Hotel Brivio (Nuova Apertura 2025)",
+      "city_name": "Brivio",
+      "indirizzo": "Via Cesare Brivio, 33, 20158 Milano MI",
+      "lat": 45.505729,
+      "lng": 9.17878
+    },
+    {
+      "id": "e703b462-88bf-4246-ad78-58de81be0084",
+      "slug": "hotel-la-sosta-brivio",
+      "nome": "Hotel La Sosta",
+      "city_name": "Brivio",
+      "indirizzo": "Via Amatore Sciesa, 7, 24034 Sosta BG",
+      "lat": 45.7404,
+      "lng": 9.450316
+    },
+    {
+      "id": "5f056fcc-939d-4cdc-aebe-a6c04184f28d",
+      "slug": "ristorante-hotel-la-sosta-brivio",
+      "nome": "Ristorante Hotel La Sosta",
+      "city_name": "Brivio",
+      "indirizzo": "Via Amatore Sciesa, 3, 24034 Sosta BG",
+      "lat": 45.740464,
+      "lng": 9.450028
+    },
+    {
+      "id": "1c63cad4-5633-4174-bccd-a823acdf166e",
+      "slug": "b-b-i-melograni-broccostella",
+      "nome": "B&B I melograni",
+      "city_name": "Broccostella",
+      "indirizzo": "Via Dante Alighieri, 03039 Sora FR",
+      "lat": 41.717578,
+      "lng": 13.612586
+    },
+    {
+      "id": "ca9530c1-27dc-4d7f-bb31-d93e7255a19f",
+      "slug": "bed-breakfast-portella-delle-fate-broccostella",
+      "nome": "Bed & Breakfast Portella delle Fate",
+      "city_name": "Broccostella",
+      "indirizzo": "Piazza Cesare Baronio, 27, 03039 Sora FR",
+      "lat": 41.720052,
+      "lng": 13.61231
+    },
+    {
+      "id": "494cb44a-0d4f-4f04-9c14-fb5966daf2d0",
+      "slug": "hotel-olimpus-broccostella",
+      "nome": "HOTEL OLIMPUS",
+      "city_name": "Broccostella",
+      "indirizzo": "Viale S. Domenico, 74, 03039 Sora FR",
+      "lat": 41.698711,
+      "lng": 13.582782
+    },
+    {
+      "id": "c63efc6e-c67a-4a71-a56c-5d6206f9038e",
+      "slug": "il-ciclope-countryhotel-restaurant-broccostella",
+      "nome": "Il Ciclope - CountryHotel & Restaurant",
+      "city_name": "Broccostella",
+      "indirizzo": "Via S. Francesco, 23, 03033 Arpino FR",
+      "lat": 41.654142,
+      "lng": 13.619845
+    },
+    {
+      "id": "07c3cd26-a57e-4bde-9bc7-b6cd99c58a45",
+      "slug": "morry-s-lodge-guest-house-broccostella",
+      "nome": "Morry's lodge guest house",
+      "city_name": "Broccostella",
+      "indirizzo": "Via Quarto, 4, 03039 Sora FR",
+      "lat": 41.720496,
+      "lng": 13.611589
+    },
+    {
+      "id": "6ed8f473-f107-456f-bdb6-269bdceca738",
+      "slug": "agriturismo-le-poscole-al-canton-brogliano",
+      "nome": "Agriturismo Le Poscole Al Canton",
+      "city_name": "Brogliano",
+      "indirizzo": "Strada Comunale Canton, 17, 36070 Castelgomberto VI",
+      "lat": 45.602948,
+      "lng": 11.387988
+    },
+    {
+      "id": "ffa1cfad-6612-4988-84f0-b794e859729f",
+      "slug": "hotel-la-terrazza-brogliano",
+      "nome": "Hotel la Terrazza",
+      "city_name": "Brogliano",
+      "indirizzo": "Via Alessandro Rossi, 86, 36100 Vicenza VI",
+      "lat": 45.539306,
+      "lng": 11.524616
+    },
+    {
+      "id": "92e7687e-5759-47d6-b0ba-775fe9630bf4",
+      "slug": "hotel-sirio-life-brogliano",
+      "nome": "Hotel Sirio Life",
+      "city_name": "Brogliano",
+      "indirizzo": "Via Belvedere, 1, 36070 Selva VI",
+      "lat": 45.580437,
+      "lng": 11.309192
+    },
+    {
+      "id": "8d2a2a52-2cc2-45ae-8bec-6025de60597a",
+      "slug": "masari-alla-casa-rossa-brogliano",
+      "nome": "Masari Alla Casa Rossa",
+      "city_name": "Brogliano",
+      "indirizzo": "Via Spesse 5 (Impostare come tappa intermedia, e poi proseguire verso la nostra sede, Via Grigio, 36070 Cornedo Vicentino VI",
+      "lat": 45.593858,
+      "lng": 11.341406
+    },
+    {
+      "id": "7d30394f-8f7d-41ac-9f7a-e0597af541bf",
+      "slug": "agriturismo-il-borgo-sul-lago-pizzo-brognaturo",
+      "nome": "Agriturismo Il Borgo sul Lago Pizzo",
+      "city_name": "Brognaturo",
+      "indirizzo": "SS110, Snc, 89812 Pizzo VV",
+      "lat": 38.739817,
+      "lng": 16.22825
+    },
+    {
+      "id": "add86b17-31d9-498b-902e-b2c25c8ac573",
+      "slug": "b-b-iside-brognaturo",
+      "nome": "B&B Iside",
+      "city_name": "Brognaturo",
+      "indirizzo": "Via Alcide De Gasperi, 47, 88060 Montepaone Lido CZ",
+      "lat": 38.731175,
+      "lng": 16.540881
+    },
+    {
+      "id": "80e7efe4-310d-4225-a3ef-29f59b82c67e",
+      "slug": "b-b-la-santera-brognaturo",
+      "nome": "B&B La Santera",
+      "city_name": "Brognaturo",
+      "indirizzo": "Via Sandro Pertini, 8, 88060 Marina di Davoli CZ",
+      "lat": 38.667193,
+      "lng": 16.543749
+    },
+    {
+      "id": "65d2598d-573a-4b5b-9ad8-4304773dbb8f",
+      "slug": "fra-tas-agriturismo-belvedere-brognaturo",
+      "nome": "FRA.TAS. Agriturismo Belvedere",
+      "city_name": "Brognaturo",
+      "indirizzo": "Contrada Forgevecchie, 89822 Brognaturo VV",
+      "lat": 38.592297,
+      "lng": 16.357257
+    },
+    {
+      "id": "94edc105-b8c9-4c48-bc91-01afae829dbc",
+      "slug": "hotel-ristorante-la-fontanella-brognaturo",
+      "nome": "Hotel Ristorante la Fontanella",
+      "city_name": "Brognaturo",
+      "indirizzo": "Località Cannella, 22, 89822 Spadola VV",
+      "lat": 38.589435,
+      "lng": 16.337043
+    },
+    {
+      "id": "c13c908e-2b28-460d-ba3a-7518eae6d2c1",
+      "slug": "hotel-valeria-brognaturo",
+      "nome": "Hotel Valeria",
+      "city_name": "Brognaturo",
+      "indirizzo": "Via Kennedy, 89822 Simbario VV",
+      "lat": 38.607898,
+      "lng": 16.334974
+    },
+    {
+      "id": "f7f68641-7f26-4e97-a0f7-45ab6390a0b8",
+      "slug": "agriturismo-il-sole-brolo",
+      "nome": "Agriturismo \"Il Sole\"",
+      "city_name": "Brolo",
+      "indirizzo": "Contrada Scarapulli, 5, 98060 Sant'Angelo di Brolo ME",
+      "lat": 38.108038,
+      "lng": 14.890815
+    },
+    {
+      "id": "232775cf-0d5d-4613-a61e-633937202bae",
+      "slug": "albergo-baia-verde-brolo",
+      "nome": "Albergo Baia Verde",
+      "city_name": "Brolo",
+      "indirizzo": "Via Nazionale, km 100+400, 98071 Capo d'Orlando ME",
+      "lat": 38.152803,
+      "lng": 14.782671
+    },
+    {
+      "id": "b6002e83-94c5-4c72-a216-8aeeef344973",
+      "slug": "albergo-la-scogliera-brolo",
+      "nome": "Albergo la Scogliera",
+      "city_name": "Brolo",
+      "indirizzo": "Via del Popolo, 5, 98060 Gliaca ME",
+      "lat": 38.165398,
+      "lng": 14.848985
+    },
+    {
+      "id": "45029031-70bb-42f3-baed-5d9788d8b296",
+      "slug": "antico-casale-di-gioiosa-marea-brolo",
+      "nome": "Antico Casale di Gioiosa Marea",
+      "city_name": "Brolo",
+      "indirizzo": "Contrada Casale, 25, 98063 Gioiosa Marea ME",
+      "lat": 38.150449,
+      "lng": 14.910138
+    },
+    {
+      "id": "61653e8b-1f7f-44d9-843f-a3f065c4e316",
+      "slug": "b-b-mare-blu-brolo",
+      "nome": "B&B Mare Blu",
+      "city_name": "Brolo",
+      "indirizzo": "Contrada Mangano, 3, 98063 Gioiosa Marea ME",
+      "lat": 38.170627,
+      "lng": 14.893227
+    },
+    {
+      "id": "f58862f6-d4d9-4845-ae81-ae35191d8d91",
+      "slug": "capo-skino-park-hotel-brolo",
+      "nome": "Capo Skino Park Hotel",
+      "city_name": "Brolo",
+      "indirizzo": "Contrada Schino, 98063 Gioiosa Marea ME",
+      "lat": 38.181208,
+      "lng": 14.900311
+    },
+    {
+      "id": "3df9fc0f-9396-45b2-b150-14694aa2e8ee",
+      "slug": "el-concept-room-brolo",
+      "nome": "El Concept Room",
+      "city_name": "Brolo",
+      "indirizzo": "Via Luigi Pirandello, 1, 98061 Brolo ME",
+      "lat": 38.156512,
+      "lng": 14.82745
+    },
+    {
+      "id": "3acc6fe6-1b54-4a58-9ab3-4a3d08740ea6",
+      "slug": "five-rooms-brolo-brolo",
+      "nome": "Five Rooms Brolo",
+      "city_name": "Brolo",
+      "indirizzo": "Via Alcide de Gasperi, 34, 98061 Brolo ME",
+      "lat": 38.15511,
+      "lng": 14.829934
+    },
+    {
+      "id": "8fff457d-1bf2-48d8-9d24-17768d24653a",
+      "slug": "gh-avalon-sikani-resort-brolo",
+      "nome": "GH Avalon Sikani Resort",
+      "city_name": "Brolo",
+      "indirizzo": "Contrada, Via Licari, 98063 Gioiosa Marea ME",
+      "lat": 38.179167,
+      "lng": 14.903056
+    },
+    {
+      "id": "9c6bd026-b168-4e9e-91b9-3b4244ede686",
+      "slug": "hotel-corallo-brolo",
+      "nome": "Hotel Corallo",
+      "city_name": "Brolo",
+      "indirizzo": "Contrada Calavà, 34, 98063 Gioiosa Marea ME",
+      "lat": 38.184819,
+      "lng": 14.910122
+    },
+    {
+      "id": "9e34f484-f9ae-4546-9063-67e814ef1e98",
+      "slug": "hotel-il-gattopardo-brolo",
+      "nome": "Hotel Il Gattopardo",
+      "city_name": "Brolo",
+      "indirizzo": "Via Marina, 69, 98061 Brolo ME",
+      "lat": 38.160334,
+      "lng": 14.827505
+    },
+    {
+      "id": "7e87971f-d815-4f40-a6a9-ec332c42e192",
+      "slug": "hotel-ristorante-il-mulino-brolo",
+      "nome": "Hotel Ristorante Il Mulino",
+      "city_name": "Brolo",
+      "indirizzo": "Via Andrea Doria, 46, 98071 Capo d'Orlando ME",
+      "lat": 38.160451,
+      "lng": 14.742378
+    },
+    {
+      "id": "fc8652d5-50df-4dec-94c0-63e536e68874",
+      "slug": "le-vele-residence-pool-brolo",
+      "nome": "Le Vele Residence&Pool",
+      "city_name": "Brolo",
+      "indirizzo": "Via Santa Barbara, 98061 Brolo ME",
+      "lat": 38.160072,
+      "lng": 14.824528
+    },
+    {
+      "id": "733152c5-dab5-46df-87c4-caa04a855289",
+      "slug": "lo-scoglio-della-formica-b-b-capo-d-orlando-me-brolo",
+      "nome": "Lo Scoglio della Formica b&b Capo D'Orlando (Me)",
+      "city_name": "Brolo",
+      "indirizzo": "Via Nino Mancari, 13, 98071 Capo d'Orlando ME",
+      "lat": 38.161862,
+      "lng": 14.744445
+    }
+  ]
+}

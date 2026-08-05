@@ -1,0 +1,323 @@
+{
+  "block": 222,
+  "blockId": "222",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "0c7d09b4-7e06-4492-884c-c4e17c79dfe4",
+      "slug": "aer-hotel-malpensa-barengo",
+      "nome": "AER HOTEL MALPENSA",
+      "city_name": "Barengo",
+      "indirizzo": "Via Gallarate, 35, 28047 Oleggio NO",
+      "lat": 45.592671,
+      "lng": 8.650953
+    },
+    {
+      "id": "b44fa00d-9607-4bae-bbae-a1cae70fb44d",
+      "slug": "b-bmagichouse-cin-it003106c1ta3bsiy9-barengo",
+      "nome": "B&BMagicHouse Cin IT003106C1TA3BSIY9",
+      "city_name": "Barengo",
+      "indirizzo": "Corso Risorgimento, 45, 28100 Novara NO",
+      "lat": 45.457246,
+      "lng": 8.617283
+    },
+    {
+      "id": "d29d4501-70a1-4b75-b4fa-85c48f81b446",
+      "slug": "bella-italia-palace-hotel-barengo",
+      "nome": "Bella Italia Palace Hotel",
+      "city_name": "Barengo",
+      "indirizzo": "LARGO GUIDO DONEGANI 6, Corso Trieste, 54, 28100 Novara NO",
+      "lat": 45.44977,
+      "lng": 8.639472
+    },
+    {
+      "id": "b7d29740-e045-4998-8adb-327099de8e08",
+      "slug": "casa-antonelli-barengo",
+      "nome": "Casa Antonelli",
+      "city_name": "Barengo",
+      "indirizzo": "Via Novara, 45, 28074 Ghemme NO",
+      "lat": 45.596526,
+      "lng": 8.422452
+    },
+    {
+      "id": "d1bde7fd-5949-4f0c-8005-eb02e9df7f31",
+      "slug": "casa-valletta-barengo",
+      "nome": "Casa Valletta",
+      "city_name": "Barengo",
+      "indirizzo": "Via Valletta, 2, 28040 Mezzomerico NO",
+      "lat": 45.620936,
+      "lng": 8.605282
+    },
+    {
+      "id": "beb0b655-7fa1-4caa-aea5-ff28566b72d4",
+      "slug": "hotel-camelia-barengo",
+      "nome": "Hotel Camelia",
+      "city_name": "Barengo",
+      "indirizzo": "Str. per Novara, 131, 28062 Cameri NO",
+      "lat": 45.485451,
+      "lng": 8.64962
+    },
+    {
+      "id": "e9452ece-27c9-45d9-9459-e2240f4943d1",
+      "slug": "hotel-villa-delle-rose-malpensa-novara-barengo",
+      "nome": "Hotel Villa delle Rose Malpensa - Novara",
+      "city_name": "Barengo",
+      "indirizzo": "Via Gallarate, 136, 28047 Oleggio NO",
+      "lat": 45.587765,
+      "lng": 8.677169
+    },
+    {
+      "id": "61c5d891-ee0c-40d1-8bf8-dec2c670054d",
+      "slug": "il-corbezzolo-baressa",
+      "nome": "Il Corbezzolo",
+      "city_name": "Baressa",
+      "indirizzo": "Via Antonio Gramsci, 2, 09090 Palmas Arborea OR",
+      "lat": 39.875014,
+      "lng": 8.642795
+    },
+    {
+      "id": "e3c46bd5-fab9-4730-9b62-9edf4201d4bb",
+      "slug": "airport-inn-preturo-barete",
+      "nome": "Airport Inn Preturo",
+      "city_name": "Barete",
+      "indirizzo": "Via Carlo d'Angiò, 23, 67100 L'Aquila AQ",
+      "lat": 42.378096,
+      "lng": 13.311134
+    },
+    {
+      "id": "9d1f0a74-59aa-478f-9cf6-a3ca9f382c21",
+      "slug": "b-b-l-aquila-del-parco-barete",
+      "nome": "B&B L'Aquila del Parco",
+      "city_name": "Barete",
+      "indirizzo": "Via Colle Rosso, 26, 67017 Pizzoli AQ",
+      "lat": 42.438025,
+      "lng": 13.301972
+    },
+    {
+      "id": "5777d05b-c4d8-434d-a546-68bfa8dca168",
+      "slug": "b-b-la-fonte-barete",
+      "nome": "B&B La Fonte",
+      "city_name": "Barete",
+      "indirizzo": "Via del Fiume, 22, 67100 L'Aquila AQ",
+      "lat": 42.36824,
+      "lng": 13.342237
+    },
+    {
+      "id": "a265f5dd-d5a5-4025-bf1c-373565060902",
+      "slug": "bed-breakfast-grandangolo-barete",
+      "nome": "Bed & Breakfast Grandangolo",
+      "city_name": "Barete",
+      "indirizzo": "SS17, 45, 67100 Sassa Scalo AQ",
+      "lat": 42.361431,
+      "lng": 13.291416
+    },
+    {
+      "id": "e1456ab6-c879-4bd6-ac6a-f051e13040dc",
+      "slug": "hotel-aquila-noleggio-e-bike-barete",
+      "nome": "Hotel Aquila noleggio e-bike",
+      "city_name": "Barete",
+      "indirizzo": "V. Roma, 208, 67019 Scoppito AQ",
+      "lat": 42.346016,
+      "lng": 13.2609
+    },
+    {
+      "id": "090322cb-74b3-46bc-8522-5a05fa5a6c1b",
+      "slug": "hotel-canadian-ristorante-bar-barete",
+      "nome": "Hotel Canadian Ristorante Bar",
+      "city_name": "Barete",
+      "indirizzo": "SS17, 67100 Località Casermette, L'Aquila AQ",
+      "lat": 42.360696,
+      "lng": 13.373533
+    },
+    {
+      "id": "d11d28b8-0ede-41d2-b3ab-1f1e66765363",
+      "slug": "hotel-il-portichetto-barete",
+      "nome": "Hotel Il Portichetto",
+      "city_name": "Barete",
+      "indirizzo": "s.s. 80, km 5, 800, 67100 L'Aquila AQ",
+      "lat": 42.384012,
+      "lng": 13.339251
+    },
+    {
+      "id": "d4a6a40c-0c2c-43a3-bf42-83802c39d371",
+      "slug": "hotel-la-compagnia-del-viaggiatore-barete",
+      "nome": "Hotel La Compagnia Del Viaggiatore",
+      "city_name": "Barete",
+      "indirizzo": "SS80, 159, 67100 L'Aquila AQ",
+      "lat": 42.385497,
+      "lng": 13.337844
+    },
+    {
+      "id": "fcf0dae8-c5e3-4035-8f09-556c6bf2de72",
+      "slug": "hotel-ristorante-pizzeria-il-giardino-barete",
+      "nome": "Hotel Ristorante Pizzeria Il Giardino",
+      "city_name": "Barete",
+      "indirizzo": "Via Sallustio, 12, 67012 Cagnano Amiterno AQ",
+      "lat": 42.459763,
+      "lng": 13.225455
+    },
+    {
+      "id": "c4fcc875-f259-4120-b7a0-c6bc8c5c4ba6",
+      "slug": "il-fienile-barete",
+      "nome": "Il Fienile",
+      "city_name": "Barete",
+      "indirizzo": "Via Picente, 7, 67010 Barete AQ",
+      "lat": 42.447815,
+      "lng": 13.281394
+    },
+    {
+      "id": "386b32fa-c462-4532-9ffc-64fc6deb99bc",
+      "slug": "il-giardinaccio-barete",
+      "nome": "il giardinaccio",
+      "city_name": "Barete",
+      "indirizzo": "Str. Vicinale dell'Aterno, 67100 L'Aquila AQ",
+      "lat": 42.345544,
+      "lng": 13.355961
+    },
+    {
+      "id": "f549f645-9966-426f-9ee7-6fb9a66a91a3",
+      "slug": "il-roseto-barete",
+      "nome": "Il Roseto",
+      "city_name": "Barete",
+      "indirizzo": "Via Delle Aie, località, Via delle Aie, Piazza Cansatessa, 17, 67100 L'Aquila AQ",
+      "lat": 42.383379,
+      "lng": 13.342877
+    },
+    {
+      "id": "715b8867-88e3-4f72-a260-914f76ec03ec",
+      "slug": "la-dimora-di-stefy-bed-breakfast-barete",
+      "nome": "La Dimora di Stefy - Bed & Breakfast",
+      "city_name": "Barete",
+      "indirizzo": "Via Francesco Paolo Tosti, 10B, 67100 L'Aquila AQ",
+      "lat": 42.358704,
+      "lng": 13.40444
+    },
+    {
+      "id": "b619378f-5af8-44f2-85cc-8a078e2714e5",
+      "slug": "le-farine-del-maestro-mulino-di-riolitto-e-caval-barete",
+      "nome": "Le Farine Del Maestro - Mulino di Riolitto e Cavalli F.",
+      "city_name": "Barete",
+      "indirizzo": "STRADA PROVINCIALE 29, N.1, 67010 Barete AQ",
+      "lat": 42.443564,
+      "lng": 13.274025
+    },
+    {
+      "id": "0bd11919-2aa5-42be-947a-06f8a9d45afa",
+      "slug": "le-stanze-di-bacco-barete",
+      "nome": "Le stanze di Bacco",
+      "city_name": "Barete",
+      "indirizzo": "Via S. Giovanni, 53, 67012 Cagnano Amiterno AQ",
+      "lat": 42.46135,
+      "lng": 13.261919
+    },
+    {
+      "id": "aa77084b-8576-42bc-845a-55f3c9a4bf15",
+      "slug": "un-passo-dal-cielo-barete",
+      "nome": "Un Passo Dal Cielo",
+      "city_name": "Barete",
+      "indirizzo": "Via dell'Aquila, 7, 67100 Collebrincioni AQ",
+      "lat": 42.396998,
+      "lng": 13.415584
+    },
+    {
+      "id": "effe61cc-af83-4078-a7a9-35e78dc4d026",
+      "slug": "acchiappasogni-art-boutique-hotel-barga",
+      "nome": "Acchiappasogni Art Boutique Hotel",
+      "city_name": "Barga",
+      "indirizzo": "Via di Mezzo, 21, 55051 Barga LU",
+      "lat": 44.072682,
+      "lng": 10.484532
+    },
+    {
+      "id": "726ba65e-22bc-4b53-8242-3d44a6cac7dc",
+      "slug": "agriturismo-i-cedri-barga",
+      "nome": "Agriturismo I Cedri",
+      "city_name": "Barga",
+      "indirizzo": "Localita' alla Villa, 4, 55051 Barga LU",
+      "lat": 44.084002,
+      "lng": 10.472391
+    },
+    {
+      "id": "399b7637-cc32-4cbf-b27b-7a34d5a9b014",
+      "slug": "agriturismo-puro-barga",
+      "nome": "Agriturismo Puro",
+      "city_name": "Barga",
+      "indirizzo": "Località Pozza, 1, 55051 Barga LU",
+      "lat": 44.065052,
+      "lng": 10.479676
+    },
+    {
+      "id": "32061a7e-7ad6-40a2-8b81-65063fa310d3",
+      "slug": "albergo-alpino-barga",
+      "nome": "Albergo Alpino",
+      "city_name": "Barga",
+      "indirizzo": "Viale Giovanni Pascoli, 41, 55051 Barga LU",
+      "lat": 44.075378,
+      "lng": 10.482595
+    },
+    {
+      "id": "561c33fa-92f5-4086-8531-49079aa8225d",
+      "slug": "albergo-gorizia-fornaci-di-barga-barga",
+      "nome": "Albergo Gorizia - Fornaci di Barga",
+      "city_name": "Barga",
+      "indirizzo": "Viale Cesare Battisti, 16, 55051 Fornaci di Barga LU",
+      "lat": 44.046906,
+      "lng": 10.47506
+    },
+    {
+      "id": "119f5b9b-a155-440d-beb8-9ca640a6ad6b",
+      "slug": "friendly-hotel-affittacamere-barga-barga",
+      "nome": "Friendly Hotel Affittacamere - Barga",
+      "city_name": "Barga",
+      "indirizzo": "Via di Mezzo, 17, 55051 Barga LU",
+      "lat": 44.072742,
+      "lng": 10.484321
+    },
+    {
+      "id": "fce287e0-c501-44d4-b567-9a086b3cab2f",
+      "slug": "hotel-ristorante-la-lanterna-barga",
+      "nome": "Hotel Ristorante La Lanterna",
+      "city_name": "Barga",
+      "indirizzo": "Località alle Monache, 300, 55032 Castelnuovo di Garfagnana LU",
+      "lat": 44.121853,
+      "lng": 10.409626
+    },
+    {
+      "id": "4d26752d-8258-41d5-b37c-e4a719a5c7ce",
+      "slug": "hotel-the-marquee-barga",
+      "nome": "Hotel The Marquee",
+      "city_name": "Barga",
+      "indirizzo": "Via Provinciale, 14, 55032 Castelnuovo di Garfagnana LU",
+      "lat": 44.121667,
+      "lng": 10.406667
+    },
+    {
+      "id": "926af905-d355-42bc-8243-81c7156d9ed3",
+      "slug": "in-castello-barga",
+      "nome": "In Castello",
+      "city_name": "Barga",
+      "indirizzo": "Via Castello, 9, 55027 Gallicano LU",
+      "lat": 44.060528,
+      "lng": 10.43495
+    },
+    {
+      "id": "2ec719b4-569e-42e3-abb2-31fb16b6dbdd",
+      "slug": "la-fatina-lodge-barga",
+      "nome": "La Fatina Lodge",
+      "city_name": "Barga",
+      "indirizzo": "Località Gragnana, 6, 55051 Barga LU",
+      "lat": 44.075539,
+      "lng": 10.496465
+    },
+    {
+      "id": "cdb87a04-50ce-4488-abe7-c605c3ce9243",
+      "slug": "la-limonaia-di-casagrande-barga",
+      "nome": "La Limonaia di Casagrande",
+      "city_name": "Barga",
+      "indirizzo": "Località S. Maria, 14, 55051 Barga LU",
+      "lat": 44.083402,
+      "lng": 10.489085
+    }
+  ]
+}

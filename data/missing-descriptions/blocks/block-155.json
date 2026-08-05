@@ -1,0 +1,323 @@
+{
+  "block": 155,
+  "blockId": "155",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "610466e5-d80d-46eb-ac54-6a63a91e3a19",
+      "slug": "casa-vicolo-parco-arpino-arpino",
+      "nome": "Casa Vicolo Parco Arpino",
+      "city_name": "Arpino",
+      "indirizzo": "Via Capitano Federico Ciccodicola, 18, 03033 Arpino FR",
+      "lat": 41.647449,
+      "lng": 13.607365
+    },
+    {
+      "id": "dd4b4a0b-29de-4df7-b2a8-47127aa7f73a",
+      "slug": "hotel-il-cavalier-d-arpino-arpino",
+      "nome": "Hotel Il Cavalier D'Arpino",
+      "city_name": "Arpino",
+      "indirizzo": "Via Vittoria Colonna, 21, 03033 Arpino FR",
+      "lat": 41.644372,
+      "lng": 13.612804
+    },
+    {
+      "id": "a9892aa1-53f2-46ac-b91e-bcb392ca8da7",
+      "slug": "i-giardini-dell-acropoli-arpino",
+      "nome": "I Giardini Dell'Acropoli",
+      "city_name": "Arpino",
+      "indirizzo": "03033, Via Civitavecchia, 03033 Arpino FR",
+      "lat": 41.650086,
+      "lng": 13.619126
+    },
+    {
+      "id": "59a2c2ec-b6df-4928-aa40-92397e012f71",
+      "slug": "il-laureto-srl-societa-agricola-arpino",
+      "nome": "Il Laureto Srl Societa' Agricola",
+      "city_name": "Arpino",
+      "indirizzo": "03033 Colle Carino FR",
+      "lat": 41.665282,
+      "lng": 13.607328
+    },
+    {
+      "id": "19f3d358-d34c-4f0a-8425-6eb843f181ef",
+      "slug": "la-suite-di-arpino-arpino",
+      "nome": "La Suite di Arpino",
+      "city_name": "Arpino",
+      "indirizzo": "Via Marco Agrippa, 24, 03033 Arpino FR",
+      "lat": 41.648945,
+      "lng": 13.609793
+    },
+    {
+      "id": "bca1f37b-e440-4881-9c6e-9d99f3da901e",
+      "slug": "marco-tullio-cicerone-arpino",
+      "nome": "Marco Tullio Cicerone",
+      "city_name": "Arpino",
+      "indirizzo": "Piazza Municipio, 7, 03033 piano secondo FR",
+      "lat": 41.648354,
+      "lng": 13.609903
+    },
+    {
+      "id": "926479f0-cb04-4772-890e-63ed2fedf4d3",
+      "slug": "tenuta-la-fagiana-arpino",
+      "nome": "Tenuta La Fagiana",
+      "city_name": "Arpino",
+      "indirizzo": "Contrada Vagni, 64, 03033 Arpino FR",
+      "lat": 41.628531,
+      "lng": 13.590424
+    },
+    {
+      "id": "220ca282-3b75-470d-a6d4-2e8d56e80219",
+      "slug": "tirotarico-agriturismo-arpino",
+      "nome": "Tirotarico Agriturismo",
+      "city_name": "Arpino",
+      "indirizzo": "Via Bartolone, 5, 03033 Arpino FR",
+      "lat": 41.656088,
+      "lng": 13.629097
+    },
+    {
+      "id": "27b77fce-35c2-4338-8813-83264d507745",
+      "slug": "agriturismo-casavecchia-dei-sibillini-arquata-del-tronto",
+      "nome": "Agriturismo Casavecchia dei Sibillini",
+      "city_name": "Arquata del Tronto",
+      "indirizzo": "Frazione Abetito Colle, 31, 63094 Montegallo AP",
+      "lat": 42.848899,
+      "lng": 13.370374
+    },
+    {
+      "id": "0001276c-a881-4a2a-9452-7d8a8946d668",
+      "slug": "agriturismo-la-valle-dei-bronzetti-arquata-del-tronto",
+      "nome": "Agriturismo La Valle Dei Bronzetti",
+      "city_name": "Arquata del Tronto",
+      "indirizzo": "SP473, 06043 Civita PG",
+      "lat": 42.688836,
+      "lng": 13.116647
+    },
+    {
+      "id": "d4ee986d-2a83-4458-a09d-8a7eee923541",
+      "slug": "agriturismo-la-valle-delle-aquile-arquata-del-tronto",
+      "nome": "Agriturismo la Valle delle Aquile",
+      "city_name": "Arquata del Tronto",
+      "indirizzo": "Codice CIR: 054035B501015066 Codice CIN: IT054035B501015066, Via del Pian Perduto, snc, 06046 Norcia PG",
+      "lat": 42.830207,
+      "lng": 13.204713
+    },
+    {
+      "id": "5321a254-fa3f-4ccc-8060-f4df8ab8d7a8",
+      "slug": "agriturismo-le-castellare-arquata-del-tronto",
+      "nome": "Agriturismo le Castellare",
+      "city_name": "Arquata del Tronto",
+      "indirizzo": "Colleregnone, 1, 63088 Montemonaco AP",
+      "lat": 42.917617,
+      "lng": 13.316302
+    },
+    {
+      "id": "bccfef1e-1453-438c-809a-b34a675b0cb9",
+      "slug": "agriturismo-monte-veletta-arquata-del-tronto",
+      "nome": "Agriturismo Monte Veletta",
+      "city_name": "Arquata del Tronto",
+      "indirizzo": "Via Sibilla, 09, 06046 Norcia PG",
+      "lat": 42.828778,
+      "lng": 13.204387
+    },
+    {
+      "id": "f88a3151-64d2-400a-aaf1-aea58e04ed30",
+      "slug": "agriturismo-ristorante-guerrin-meschino-arquata-del-tronto",
+      "nome": "agriturismo ristorante guerrin meschino",
+      "city_name": "Arquata del Tronto",
+      "indirizzo": "Via Del Pian Grande, 1, 06046 Castelluccio PG",
+      "lat": 42.828445,
+      "lng": 13.214145
+    },
+    {
+      "id": "42a03de6-24b5-4201-84aa-6fb9641d4317",
+      "slug": "b-b-il-castagneto-dei-sibillini-arquata-del-tronto",
+      "nome": "B&B Il Castagneto Dei Sibillini",
+      "city_name": "Arquata del Tronto",
+      "indirizzo": "Frazione Abetito Colle, 111, 63094 Abetito AP",
+      "lat": 42.844143,
+      "lng": 13.364975
+    },
+    {
+      "id": "a43277d2-198c-469b-b5e4-9567105ade0b",
+      "slug": "b-b-nonna-pia-arquata-del-tronto",
+      "nome": "B&B Nonna Pia",
+      "city_name": "Arquata del Tronto",
+      "indirizzo": "Frazione Favalanciata, 5, 63095 Favalanciata AP",
+      "lat": 42.764235,
+      "lng": 13.36913
+    },
+    {
+      "id": "55fee46a-1ed1-48af-9449-4a647887cf40",
+      "slug": "locanda-de-senari-arquata-del-tronto",
+      "nome": "Locanda De' Senari",
+      "city_name": "Arquata del Tronto",
+      "indirizzo": "06046 Castelluccio PG",
+      "lat": 42.8287,
+      "lng": 13.206792
+    },
+    {
+      "id": "58a84d0a-c2cd-4f1a-82c7-1d4196464e84",
+      "slug": "albergo-il-portico-ristorante-pizzeria-arquata-scrivia",
+      "nome": "Albergo Il Portico Ristorante Pizzeria",
+      "city_name": "Arquata Scrivia",
+      "indirizzo": "Via Giancarlo Odino, 83, 15060 Carrosio AL",
+      "lat": 44.660036,
+      "lng": 8.832203
+    },
+    {
+      "id": "f0c14d5d-5fb4-45ce-87cf-173af64486e4",
+      "slug": "b-b-la-fortezza-di-gavi-arquata-scrivia",
+      "nome": "B&B - La Fortezza di Gavi",
+      "city_name": "Arquata Scrivia",
+      "indirizzo": "Via Giuseppe Garibaldi, 52, 15066 Gavi AL",
+      "lat": 44.689221,
+      "lng": 8.803205
+    },
+    {
+      "id": "232a153d-031c-464e-b30f-e3eed01526e1",
+      "slug": "b-b-dely-arquata-scrivia",
+      "nome": "B&B DELY",
+      "city_name": "Arquata Scrivia",
+      "indirizzo": "Via Roma, 89, 15061 Arquata Scrivia AL",
+      "lat": 44.687837,
+      "lng": 8.886996
+    },
+    {
+      "id": "a29c79ba-d93a-4fbc-8549-ca2b76afad30",
+      "slug": "b-b-villa-s-anna-arquata-scrivia",
+      "nome": "B&B Villa S. Anna",
+      "city_name": "Arquata Scrivia",
+      "indirizzo": "SP144, 23, 15061 Arquata Scrivia AL",
+      "lat": 44.68948,
+      "lng": 8.915775
+    },
+    {
+      "id": "2c5c67c2-65bb-45a4-affa-a46eb70a9f84",
+      "slug": "cascina-angela-arquata-scrivia",
+      "nome": "Cascina Angela",
+      "city_name": "Arquata Scrivia",
+      "indirizzo": "SP168, 7, 15066 Gavi AL",
+      "lat": 44.670716,
+      "lng": 8.78741
+    },
+    {
+      "id": "3bc5ded1-bcf1-47b0-9368-4e5c54eb7631",
+      "slug": "cascina-degli-ulivi-arquata-scrivia",
+      "nome": "Cascina degli Ulivi",
+      "city_name": "Arquata Scrivia",
+      "indirizzo": "Strada Mazzola, 14, 15067 Novi Ligure AL",
+      "lat": 44.74566,
+      "lng": 8.769794
+    },
+    {
+      "id": "6fa6dd0b-2698-42bc-87f3-696e8cb378ad",
+      "slug": "dory-s-apartment-arquata-scrivia",
+      "nome": "Dory's apartment",
+      "city_name": "Arquata Scrivia",
+      "indirizzo": "S.da Per Rigoroso, 4, 15061 Arquata Scrivia AL",
+      "lat": 44.6774,
+      "lng": 8.895016
+    },
+    {
+      "id": "a0a72813-24ac-4f91-9bcd-75763b030f9f",
+      "slug": "hotel-al-castello-arquata-scrivia",
+      "nome": "Hotel Al Castello",
+      "city_name": "Arquata Scrivia",
+      "indirizzo": "Piazza Dante Alighieri, 11/R, 15066 Gavi AL",
+      "lat": 44.688694,
+      "lng": 8.806485
+    },
+    {
+      "id": "df4634c2-a190-47ab-b092-e8e998c24a6b",
+      "slug": "la-pradellina-b-b-arquata-scrivia-allevamento-ja-arquata-scrivia",
+      "nome": "La Pradellina B&B Arquata Scrivia Allevamento Jack Russell Terrier e Australian Cattle Dog",
+      "city_name": "Arquata Scrivia",
+      "indirizzo": "Località Pradella, 67, 15061 Arquata Scrivia AL",
+      "lat": 44.686372,
+      "lng": 8.867054
+    },
+    {
+      "id": "da902140-79e0-480c-b6c4-d647a347fed9",
+      "slug": "le-stanze-dei-visconti-arquata-scrivia",
+      "nome": "Le stanze dei Visconti",
+      "city_name": "Arquata Scrivia",
+      "indirizzo": "Via Cesare Anfosso, 67, 15060 Voltaggio AL",
+      "lat": 44.618266,
+      "lng": 8.842239
+    },
+    {
+      "id": "4ad33555-aefc-4d62-abbe-d5edb5691b7f",
+      "slug": "locanda-del-daino-casadicaccia-arquata-scrivia",
+      "nome": "Locanda Del Daino #casadicaccia",
+      "city_name": "Arquata Scrivia",
+      "indirizzo": "Via Oratorio, 33, 15060 Grondona AL",
+      "lat": 44.6957,
+      "lng": 8.96705
+    },
+    {
+      "id": "249d8a10-9046-48b0-872b-e39d5a9e0ee3",
+      "slug": "ostello-voltaggio-arquata-scrivia",
+      "nome": "Ostello Voltaggio",
+      "city_name": "Arquata Scrivia",
+      "indirizzo": "Piazza de Ferrari, 1, 15060 Voltaggio AL",
+      "lat": 44.617171,
+      "lng": 8.8425
+    },
+    {
+      "id": "383bf84e-7302-43db-9768-2058116c47e3",
+      "slug": "viabasso11-guest-house-arquata-scrivia",
+      "nome": "ViaBasso11 Guest House",
+      "city_name": "Arquata Scrivia",
+      "indirizzo": "Via Giacomo Basso, 11, 15067 Novi Ligure AL",
+      "lat": 44.75995,
+      "lng": 8.788536
+    },
+    {
+      "id": "ef59a8dd-2326-4b9b-975a-7dc1da8b1e95",
+      "slug": "villa-paradiso-charme-design-arquata-scrivia",
+      "nome": "Villa Paradiso Charme&Design",
+      "city_name": "Arquata Scrivia",
+      "indirizzo": "Via Moriassi, 75, 15061 Arquata Scrivia AL",
+      "lat": 44.695461,
+      "lng": 8.865924
+    },
+    {
+      "id": "7cfa0711-31b9-4e97-b17a-d3ad57dedb74",
+      "slug": "villa-sparina-resort-arquata-scrivia",
+      "nome": "Villa Sparina Resort",
+      "city_name": "Arquata Scrivia",
+      "indirizzo": "Frazione Monterotondo, 56, 15066 Gavi AL",
+      "lat": 44.712207,
+      "lng": 8.824021
+    },
+    {
+      "id": "3701419e-9dda-410d-a68d-d1b9437d7b0e",
+      "slug": "agriturismo-borgo-buzzaccarini-rocca-di-castello-arqu-petrarca",
+      "nome": "Agriturismo Borgo Buzzaccarini Rocca di Castello",
+      "city_name": "Arqu� Petrarca",
+      "indirizzo": "Via Marendole, 15, 35043 Monselice PD",
+      "lat": 45.229183,
+      "lng": 11.722817
+    },
+    {
+      "id": "72e75403-5f3a-4ebd-a53e-1bb453452945",
+      "slug": "agriturismo-franciscus-di-bressanin-fiammetta-arqu-petrarca",
+      "nome": "Agriturismo Franciscus di Bressanin Fiammetta",
+      "city_name": "Arqu� Petrarca",
+      "indirizzo": "Via Valleselle, 16, 35032 Arquà Petrarca PD",
+      "lat": 45.270263,
+      "lng": 11.714202
+    },
+    {
+      "id": "8ad22ff1-04a2-4b17-befb-68fad249bcc2",
+      "slug": "albergo-villa-del-poeta-ristorante-il-canzoniere-arqu-petrarca",
+      "nome": "Albergo Villa del Poeta - Ristorante Il Canzoniere",
+      "city_name": "Arqu� Petrarca",
+      "indirizzo": "Via Zane, 5, 35032 Arquà Petrarca PD",
+      "lat": 45.263149,
+      "lng": 11.716899
+    }
+  ]
+}

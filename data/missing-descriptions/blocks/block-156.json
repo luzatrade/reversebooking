@@ -1,0 +1,323 @@
+{
+  "block": 156,
+  "blockId": "156",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "fb93aa8b-3c0d-42e7-9b9b-2c503e637021",
+      "slug": "alloggio-franciscus-arqu-petrarca",
+      "nome": "Alloggio Franciscus",
+      "city_name": "Arqu� Petrarca",
+      "indirizzo": "Via Valleselle, 20, 35032 Arquà Petrarca PD",
+      "lat": 45.269904,
+      "lng": 11.713183
+    },
+    {
+      "id": "5b0c5d2d-a66b-48ef-bc63-7be3a14d8595",
+      "slug": "b-b-al-borgo-arqu-petrarca",
+      "nome": "B&B Al Borgo",
+      "city_name": "Arqu� Petrarca",
+      "indirizzo": "Via Ventolone, 4, 35032 Arquà Petrarca PD",
+      "lat": 45.270633,
+      "lng": 11.71705
+    },
+    {
+      "id": "2e881c77-3185-490a-b158-8d09c2632f6b",
+      "slug": "b-b-chez-vivi-arqu-petrarca",
+      "nome": "B&B Chez Vivì",
+      "city_name": "Arqu� Petrarca",
+      "indirizzo": "Via Palazzina, 28, 35032 Arquà Petrarca PD",
+      "lat": 45.263599,
+      "lng": 11.729883
+    },
+    {
+      "id": "a40f29a2-c4e7-4670-86c5-124e972aa9f1",
+      "slug": "b-b-e-centro-naturalistico-ambientale-la-finestr-arqu-petrarca",
+      "nome": "B&B e Centro Naturalistico Ambientale La finestra sui colli",
+      "city_name": "Arqu� Petrarca",
+      "indirizzo": "Via Benavides, 16, 35030 Valle San Giorgio PD",
+      "lat": 45.266133,
+      "lng": 11.685801
+    },
+    {
+      "id": "2e55b1ef-867e-477f-bc64-0792eb7e13c9",
+      "slug": "ca-borgo-delle-rane-arqu-petrarca",
+      "nome": "Cà Borgo delle Rane",
+      "city_name": "Arqu� Petrarca",
+      "indirizzo": "Via Savellon, 24, 35020 Pernumia PD",
+      "lat": 45.259398,
+      "lng": 11.783912
+    },
+    {
+      "id": "ee8d1db8-a8f7-4194-bc78-f312f5064aac",
+      "slug": "domus-rosarum-arqu-petrarca",
+      "nome": "domus rosarum",
+      "city_name": "Arqu� Petrarca",
+      "indirizzo": "Via Mandonego, 9, 35032 Arquà Petrarca PD",
+      "lat": 45.270537,
+      "lng": 11.747131
+    },
+    {
+      "id": "86ac3542-29c9-4b06-ac8e-7ae09437cf8a",
+      "slug": "holiday-house-petrarca-arqu-petrarca",
+      "nome": "Holiday house Petrarca",
+      "city_name": "Arqu� Petrarca",
+      "indirizzo": "Via Fontanelle, 19, 35032 Arquà Petrarca PD",
+      "lat": 45.276409,
+      "lng": 11.717449
+    },
+    {
+      "id": "0910aafe-8cdf-40e6-ab59-fbad2f945e25",
+      "slug": "hotel-petrarca-terme-arqu-petrarca",
+      "nome": "Hotel Petrarca Terme",
+      "city_name": "Arqu� Petrarca",
+      "indirizzo": "Piazza Roma, 23, 35036 Montegrotto Terme PD",
+      "lat": 45.330354,
+      "lng": 11.783096
+    },
+    {
+      "id": "97bf75e6-f2f2-467c-957a-80ac9a87ecb0",
+      "slug": "i-grilli-arqu-petrarca",
+      "nome": "i grilli",
+      "city_name": "Arqu� Petrarca",
+      "indirizzo": "Via Tormene, 13, 35030 Valle San Giorgio PD",
+      "lat": 45.268571,
+      "lng": 11.686247
+    },
+    {
+      "id": "cc6f43cd-f571-4418-8973-e4e1da326994",
+      "slug": "locanda-viridarium-arqu-petrarca",
+      "nome": "Locanda Viridarium",
+      "city_name": "Arqu� Petrarca",
+      "indirizzo": "Via Fontanelle, 5, 35032 Arquà Petrarca PD",
+      "lat": 45.271647,
+      "lng": 11.7163
+    },
+    {
+      "id": "477e2a4f-14b1-458d-83eb-2efb2e1108a7",
+      "slug": "locazione-turistica-borgo-petrarca-arqu-petrarca",
+      "nome": "Locazione Turistica Borgo Petrarca",
+      "city_name": "Arqu� Petrarca",
+      "indirizzo": "Via Roma, 2, 35032 Arquà Petrarca PD",
+      "lat": 45.269493,
+      "lng": 11.717739
+    },
+    {
+      "id": "436bfca4-6bbe-4278-a278-d4c513efd3f3",
+      "slug": "locazione-turistica-la-giuggiola-arqu-petrarca",
+      "nome": "Locazione Turistica La Giuggiola",
+      "city_name": "Arqu� Petrarca",
+      "indirizzo": "Via Jacopo da Arquà, 28, 35032 Arquà Petrarca PD",
+      "lat": 45.270339,
+      "lng": 11.7191
+    },
+    {
+      "id": "9a7cbc61-9c53-48b3-9861-e900a55142a4",
+      "slug": "agriturismo-i-quarti-arqu-polesine",
+      "nome": "Agriturismo I Quarti",
+      "city_name": "Arqu� Polesine",
+      "indirizzo": "Via John Fitzgerald Kennedy, 1290, 45030 Guarda Veneta RO",
+      "lat": 44.975706,
+      "lng": 11.790976
+    },
+    {
+      "id": "ecd0164f-3c1f-41a3-a951-522296b71512",
+      "slug": "b-b-casa-dell-alma-arqu-polesine",
+      "nome": "B&B Casa dell’Alma",
+      "city_name": "Arqu� Polesine",
+      "indirizzo": "Via Magarino, 359, 45038 Polesella RO",
+      "lat": 44.96614,
+      "lng": 11.753838
+    },
+    {
+      "id": "af4f892b-4a6f-4a9a-b9c4-1c0357cfe229",
+      "slug": "b-b-il-giardino-segreto-arqu-polesine",
+      "nome": "B&B Il giardino segreto",
+      "city_name": "Arqu� Polesine",
+      "indirizzo": "Via I Maggio, 18, 44033 Riva del Po FE",
+      "lat": 44.967899,
+      "lng": 11.796851
+    },
+    {
+      "id": "d73f02af-db6e-4a65-8dc0-4833cce317b0",
+      "slug": "b-b-le-sorbolare-arqu-polesine",
+      "nome": "B&B Le Sorbolare",
+      "city_name": "Arqu� Polesine",
+      "indirizzo": "Via Mascherine, 17, 45100 Rovigo RO",
+      "lat": 45.061022,
+      "lng": 11.768777
+    },
+    {
+      "id": "cab58f0a-d77d-4160-9227-71b29ed3c2bf",
+      "slug": "b-b-morosini-arqu-polesine",
+      "nome": "B&B Morosini",
+      "city_name": "Arqu� Polesine",
+      "indirizzo": "Via Giuseppe Garibaldi, 353, 45038 Polesella RO",
+      "lat": 44.962372,
+      "lng": 11.760553
+    },
+    {
+      "id": "06bf53c0-5ec8-4f8c-95be-c5e8c0a81efd",
+      "slug": "bed-breakfast-grandi-fiumi-arqu-polesine",
+      "nome": "Bed & Breakfast \"Grandi Fiumi\"",
+      "city_name": "Arqu� Polesine",
+      "indirizzo": "Via Edmondo de Amicis, 3, 45100 Rovigo RO",
+      "lat": 45.06406,
+      "lng": 11.795832
+    },
+    {
+      "id": "0eb276df-96cc-4533-973c-bcab03a4b360",
+      "slug": "bed-and-breakfast-da-zio-gianni-arqu-polesine",
+      "nome": "Bed and Breakfast \" da Zio Gianni \"",
+      "city_name": "Arqu� Polesine",
+      "indirizzo": "Via Stazione, 581, 45025 Fratta Polesine RO",
+      "lat": 45.038039,
+      "lng": 11.642148
+    },
+    {
+      "id": "867757f2-d16b-4aaf-b4c1-9d13f2d6a05c",
+      "slug": "casa-alice-arqu-polesine",
+      "nome": "Casa Alice",
+      "city_name": "Arqu� Polesine",
+      "indirizzo": "Via Raccano, 45030 Polesella RO",
+      "lat": 44.956816,
+      "lng": 11.732682
+    },
+    {
+      "id": "93329a9c-1eae-444c-ad5a-2b054477721e",
+      "slug": "corte-bussari-arqu-polesine",
+      "nome": "Corte Bussari",
+      "city_name": "Arqu� Polesine",
+      "indirizzo": "Via Valmolin Superiore, 1432, 45031 Arqua' Polesine RO",
+      "lat": 44.995944,
+      "lng": 11.718353
+    },
+    {
+      "id": "31b88f67-ee15-4b3c-ac39-9cd94ff112c0",
+      "slug": "hotel-i-laghetti-snc-arqu-polesine",
+      "nome": "Hotel I Laghetti Snc",
+      "city_name": "Arqu� Polesine",
+      "indirizzo": "SS16, 640, 45038 Polesella RO",
+      "lat": 44.976898,
+      "lng": 11.757077
+    },
+    {
+      "id": "69ac170b-2f0b-43ed-8ce5-fc11299dc362",
+      "slug": "hotel-italia-arqu-polesine",
+      "nome": "Hotel Italia",
+      "city_name": "Arqu� Polesine",
+      "indirizzo": "Via Eridania, 115, 45030 Occhiobello RO",
+      "lat": 44.909463,
+      "lng": 11.604958
+    },
+    {
+      "id": "b0c809b1-9218-4456-bf3d-3013239f5d9e",
+      "slug": "la-bordeghina-arqu-polesine",
+      "nome": "La Bordeghina",
+      "city_name": "Arqu� Polesine",
+      "indirizzo": "Via Guglielmo Marconi, 1477, 45030 Pontecchio Polesine RO",
+      "lat": 45.005664,
+      "lng": 11.806451
+    },
+    {
+      "id": "0cb0b855-8d0c-46df-8e39-a8466677328e",
+      "slug": "motel-karibe-arqu-polesine",
+      "nome": "Motel Karibe",
+      "city_name": "Arqu� Polesine",
+      "indirizzo": "Via G. Monti, 241/1, 45025 Fratta Polesine RO",
+      "lat": 45.028959,
+      "lng": 11.647845
+    },
+    {
+      "id": "600cfade-59c5-48cb-8d0b-d58e7456be5d",
+      "slug": "torre-del-po-arqu-polesine",
+      "nome": "Torre del Po",
+      "city_name": "Arqu� Polesine",
+      "indirizzo": "Via Novi, 140, 45030 Guarda Veneta RO",
+      "lat": 44.979035,
+      "lng": 11.795755
+    },
+    {
+      "id": "57fd15af-3aec-4360-a062-01a430e9bf78",
+      "slug": "una-hotels-occhiobello-arqu-polesine",
+      "nome": "UNA Hotels Occhiobello",
+      "city_name": "Arqu� Polesine",
+      "indirizzo": "Via Eridania, 36, 45030 Santa Maria Maddalena RO",
+      "lat": 44.918846,
+      "lng": 11.59364
+    },
+    {
+      "id": "22cf48a0-6cfb-4e53-ad89-355b0c78856f",
+      "slug": "villa-saraceni-arqu-polesine",
+      "nome": "Villa Saraceni",
+      "city_name": "Arqu� Polesine",
+      "indirizzo": "Via Giuseppe Mazzini, 78, 45030 Chiesa RO",
+      "lat": 44.984493,
+      "lng": 11.673237
+    },
+    {
+      "id": "5a246d9e-0488-4c3b-9abd-eadd161f3302",
+      "slug": "agriturismo-corte-zecchina-arre",
+      "nome": "agriturismo Corte Zecchina",
+      "city_name": "Arre",
+      "indirizzo": "Via Beverare, 59, 35028 Piove di Sacco PD",
+      "lat": 45.306442,
+      "lng": 12.110093
+    },
+    {
+      "id": "a494a14e-c2ea-4c78-af20-6f572f17d9f1",
+      "slug": "b-b-dora-e-flavio-arre",
+      "nome": "B&B Dora e Flavio",
+      "city_name": "Arre",
+      "indirizzo": "Via Pesare, 9/A, 35036 Montegrotto Terme PD",
+      "lat": 45.340355,
+      "lng": 11.801303
+    },
+    {
+      "id": "f5f89a04-ded9-4405-a32e-c75453831855",
+      "slug": "b-b-il-centralino-arre",
+      "nome": "B&B Il Centralino",
+      "city_name": "Arre",
+      "indirizzo": "Via Gioacchino Rossini, 39, 35020 Legnaro PD",
+      "lat": 45.347237,
+      "lng": 11.965016
+    },
+    {
+      "id": "6d3509f6-1cac-48e2-9ec1-00e9188ffaad",
+      "slug": "ca-sagredo-alloggi-arre",
+      "nome": "Cà Sagredo Alloggi",
+      "city_name": "Arre",
+      "indirizzo": "Via Matteotti, 179, 35026 Conselve PD",
+      "lat": 45.227978,
+      "lng": 11.881353
+    },
+    {
+      "id": "4eadc340-55f2-44f1-a70c-7025f60eb66a",
+      "slug": "ca-delle-rose-arre",
+      "nome": "Ca' delle Rose",
+      "city_name": "Arre",
+      "indirizzo": "Via Canaletta Inferiore, 1, 35040 Pozzonovo PD",
+      "lat": 45.148105,
+      "lng": 11.815156
+    },
+    {
+      "id": "63173737-153f-4c2b-aa8f-a57ba891adb4",
+      "slug": "hotel-lanterna-arre",
+      "nome": "Hotel Lanterna",
+      "city_name": "Arre",
+      "indirizzo": "Via A. Volta, 10, 35031 Abano Terme PD",
+      "lat": 45.349474,
+      "lng": 11.783757
+    },
+    {
+      "id": "6d74dfcd-5aa2-40cb-98e6-2e2f90c09050",
+      "slug": "hotel-majestic-galzignano-resort-terme-golf-arre",
+      "nome": "Hotel Majestic - Galzignano Resort Terme & Golf",
+      "city_name": "Arre",
+      "indirizzo": "Viale delle Terme, 84, 35030 Galzignano Terme PD",
+      "lat": 45.290245,
+      "lng": 11.767848
+    }
+  ]
+}

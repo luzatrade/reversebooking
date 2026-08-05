@@ -1,0 +1,323 @@
+{
+  "block": 199,
+  "blockId": "199",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "e84ad984-6c27-44ea-b9de-d322ff2eeaec",
+      "slug": "beb-orchidea-bagnoli-irpino",
+      "nome": "Beb ORCHIDEA",
+      "city_name": "Bagnoli Irpino",
+      "indirizzo": "Via della Libera, 33, 83048 Montella AV",
+      "lat": 40.837344,
+      "lng": 15.022225
+    },
+    {
+      "id": "3b4013e5-5048-41ed-a114-556c6628abae",
+      "slug": "country-house-il-papavero-bagnoli-irpino",
+      "nome": "Country House \" Il Papavero\"",
+      "city_name": "Bagnoli Irpino",
+      "indirizzo": "Contrada Quercia di Loica, 83043 Bagnoli Irpino AV",
+      "lat": 40.831028,
+      "lng": 15.061048
+    },
+    {
+      "id": "0c34716c-5c22-4948-b962-f634005c8586",
+      "slug": "country-house-nonna-pina-di-belingo-pascal-bagnoli-irpino",
+      "nome": "Country House Nonna Pina Di Belingo Pascal",
+      "city_name": "Bagnoli Irpino",
+      "indirizzo": "Contrada S. Donato, 3, 83043 Bagnoli Irpino AV",
+      "lat": 40.833618,
+      "lng": 15.06345
+    },
+    {
+      "id": "bcab7ca1-bf9d-4a08-9262-0a600289e2d6",
+      "slug": "hotel-cervialto-bagnoli-irpino",
+      "nome": "Hotel Cervialto",
+      "city_name": "Bagnoli Irpino",
+      "indirizzo": "Via Serroncelli, 12, 83043 Laceno AV",
+      "lat": 40.803097,
+      "lng": 15.111884
+    },
+    {
+      "id": "3e42b656-be22-47ad-a8f7-44c8217a0489",
+      "slug": "hotel-colucci-bagnoli-irpino",
+      "nome": "Hotel Colucci",
+      "city_name": "Bagnoli Irpino",
+      "indirizzo": "Via Giuseppe Passaro, 11, 83051 Nusco AV",
+      "lat": 40.889477,
+      "lng": 15.088231
+    },
+    {
+      "id": "f7c6e4df-14a1-4484-85c2-d8738b4734fc",
+      "slug": "hotel-ristorante-la-lucciola-bagnoli-irpino",
+      "nome": "Hotel ristorante La Lucciola",
+      "city_name": "Bagnoli Irpino",
+      "indirizzo": "Hotel ristorante La Lucciola, Via dei Prati, 2, 83043 Bagnoli Irpino AV",
+      "lat": 40.802927,
+      "lng": 15.11379
+    },
+    {
+      "id": "13f8e730-0c0b-4782-93ec-a6b90acf644d",
+      "slug": "hotel-ristorante-locanda-degli-hirpini-di-rosiel-bagnoli-irpino",
+      "nome": "Hotel Ristorante Locanda degli Hirpini di Rosiello Angelica",
+      "city_name": "Bagnoli Irpino",
+      "indirizzo": "Via delle Sorgenti Tronola, 3, 83043 Laceno AV",
+      "lat": 40.808159,
+      "lng": 15.114695
+    },
+    {
+      "id": "06e5a69b-91b7-4080-9491-b091375cd3fd",
+      "slug": "hotel-ristorante-zia-carmela-bagnoli-irpino",
+      "nome": "Hotel Ristorante Zia Carmela",
+      "city_name": "Bagnoli Irpino",
+      "indirizzo": "Via Michelangelo Cianciulli, 23, 83048 Montella AV",
+      "lat": 40.841576,
+      "lng": 15.017785
+    },
+    {
+      "id": "2d9c978e-42fb-4062-a8f3-608f1c045aa8",
+      "slug": "i-tre-ulivi-bagnoli-irpino",
+      "nome": "I Tre Ulivi",
+      "city_name": "Bagnoli Irpino",
+      "indirizzo": "Strada Vicinale Gaudo s/n, 83052 Paternopoli AV",
+      "lat": 40.967293,
+      "lng": 15.053423
+    },
+    {
+      "id": "9224fac6-f4dd-4edc-9770-87cfdf8ee921",
+      "slug": "irpinia-bikehouse-bagnoli-irpino",
+      "nome": "Irpinia BikeHouse",
+      "city_name": "Bagnoli Irpino",
+      "indirizzo": "Via Santa Lucia, 59, 83048 Montella AV",
+      "lat": 40.839907,
+      "lng": 15.023747
+    },
+    {
+      "id": "c9a57ddb-da21-4814-a161-6669bcd586aa",
+      "slug": "masseria-boutique-bagnoli-irpino",
+      "nome": "Masseria Boutique",
+      "city_name": "Bagnoli Irpino",
+      "indirizzo": "Via SS salvatore, 2, 83048 Montella AV",
+      "lat": 40.830928,
+      "lng": 15.033144
+    },
+    {
+      "id": "e3635374-d72c-4568-84ff-afe0a39f7990",
+      "slug": "ristorante-locanda-la-frasca-bagnoli-irpino",
+      "nome": "Ristorante Locanda La Frasca",
+      "city_name": "Bagnoli Irpino",
+      "indirizzo": "Via Serroncelli, 10, 83043 Bagnoli Irpino AV",
+      "lat": 40.802911,
+      "lng": 15.112522
+    },
+    {
+      "id": "67405b82-d562-433c-a1e2-83a461ed3938",
+      "slug": "villa-rizzo-resort-spa-bagnoli-irpino",
+      "nome": "Villa Rizzo Resort & Spa",
+      "city_name": "Bagnoli Irpino",
+      "indirizzo": "Via Gerardo Napoletano, 2, 84099 San Cipriano Picentino SA",
+      "lat": 40.711454,
+      "lng": 14.887924
+    },
+    {
+      "id": "a15cf466-3e1d-4205-b00b-c6642fe91151",
+      "slug": "agriturismo-cascina-loghetto-bagnolo-cremasco",
+      "nome": "Agriturismo Cascina Loghetto",
+      "city_name": "Bagnolo Cremasco",
+      "indirizzo": "Via Milano, 42, 26013 Crema CR",
+      "lat": 45.360364,
+      "lng": 9.641934
+    },
+    {
+      "id": "866ddd5f-ddc9-4f4e-864c-8320c4d8abd1",
+      "slug": "agriturismo-la-boschina-bagnolo-cremasco",
+      "nome": "Agriturismo La Boschina",
+      "city_name": "Bagnolo Cremasco",
+      "indirizzo": "Via Solera, 10/A, 26010 Ripalta Cremasca CR",
+      "lat": 45.345688,
+      "lng": 9.683174
+    },
+    {
+      "id": "a27bdd4c-56fd-41b8-8401-70ff0ce45ae6",
+      "slug": "b-b-countryhousecrema-bagnolo-cremasco",
+      "nome": "B&B Countryhousecrema",
+      "city_name": "Bagnolo Cremasco",
+      "indirizzo": "Via Treviglio, 11, 26013 Crema CR",
+      "lat": 45.369671,
+      "lng": 9.669325
+    },
+    {
+      "id": "9fb1d612-3783-4f32-8743-0b539127ef3f",
+      "slug": "b-b-villa-benvenuti-bagnolo-cremasco",
+      "nome": "B&B Villa Benvenuti",
+      "city_name": "Bagnolo Cremasco",
+      "indirizzo": "Via Torre, 20, 26013 Crema CR",
+      "lat": 45.358014,
+      "lng": 9.646805
+    },
+    {
+      "id": "23ce136c-6594-41e1-a8b1-7bfa8c50cf42",
+      "slug": "hotel-albergo-relais-vimercati-dimora-storica-a-bagnolo-cremasco",
+      "nome": "Hotel Albergo Relais Vimercati - Dimora storica a Crema",
+      "city_name": "Bagnolo Cremasco",
+      "indirizzo": "Via Vimercati, 13, 26013 Crema CR",
+      "lat": 45.361313,
+      "lng": 9.687335
+    },
+    {
+      "id": "e98a3fb5-8b8b-451c-9c4f-0a2d54a6b3b8",
+      "slug": "i-colori-della-vita-centro-benessere-pernottamen-bagnolo-cremasco",
+      "nome": "I Colori della Vita - Centro Benessere & Pernottamento",
+      "city_name": "Bagnolo Cremasco",
+      "indirizzo": "Via Crema, 54, 26010 Bagnolo Cremasco CR",
+      "lat": 45.360726,
+      "lng": 9.624174
+    },
+    {
+      "id": "d6f5af4a-2390-4810-8226-7d1208e7c2ec",
+      "slug": "park-hotel-residence-bagnolo-cremasco",
+      "nome": "Park Hotel Residence",
+      "city_name": "Bagnolo Cremasco",
+      "indirizzo": "Via IV Novembre, 51, 26013 Crema CR",
+      "lat": 45.360225,
+      "lng": 9.693895
+    },
+    {
+      "id": "008951b8-4937-4929-8282-e5e160066552",
+      "slug": "podere-ombrianello-bagnolo-cremasco",
+      "nome": "Podere Ombrianello",
+      "city_name": "Bagnolo Cremasco",
+      "indirizzo": "Via Ombrianello, 21, 26013 Ombriano CR",
+      "lat": 45.360435,
+      "lng": 9.65046
+    },
+    {
+      "id": "d69f7d6e-9ba1-490b-935a-0fb99544b87a",
+      "slug": "albergo-san-rocco-bagnolo-del-salento",
+      "nome": "Albergo San Rocco",
+      "city_name": "Bagnolo del Salento",
+      "indirizzo": "Via Roma, 100, 73020 Bagnolo del Salento LE",
+      "lat": 40.145816,
+      "lng": 18.349654
+    },
+    {
+      "id": "b5f6678e-c6a9-4099-85d5-36486053a9ef",
+      "slug": "antico-aranceto-b-b-bagnolo-del-salento",
+      "nome": "Antico Aranceto B&B",
+      "city_name": "Bagnolo del Salento",
+      "indirizzo": "P.zza San Giorgio, 32, 73020 Bagnolo del Salento LE",
+      "lat": 40.14944,
+      "lng": 18.352125
+    },
+    {
+      "id": "41e9f04e-3cdc-48a2-9e5e-af31925c3803",
+      "slug": "b-b-salento-vacanze-bagnolo-del-salento",
+      "nome": "B&B Salento Vacanze",
+      "city_name": "Bagnolo del Salento",
+      "indirizzo": "nr., Via F. Summonte, 10, 73024 Maglie LE",
+      "lat": 40.125748,
+      "lng": 18.299061
+    },
+    {
+      "id": "9587e5be-8e08-41f5-ab40-8fb86db29463",
+      "slug": "book-and-bed-bagnolo-del-salento",
+      "nome": "Book and Bed",
+      "city_name": "Bagnolo del Salento",
+      "indirizzo": "Via Lubelli, 13, 73024 Maglie LE",
+      "lat": 40.121728,
+      "lng": 18.29848
+    },
+    {
+      "id": "7fae8b32-b91a-474b-8c8a-9762c3f1f56d",
+      "slug": "borgoincorte-bagnolo-del-salento",
+      "nome": "Borgoincorte",
+      "city_name": "Bagnolo del Salento",
+      "indirizzo": "Via Zaca, 18, 73025 Martano LE",
+      "lat": 40.203312,
+      "lng": 18.300852
+    },
+    {
+      "id": "9e41efdd-0ad8-43f0-951f-f8886a4df3aa",
+      "slug": "derento-b-b-bagnolo-del-salento",
+      "nome": "Derentò B&B",
+      "city_name": "Bagnolo del Salento",
+      "indirizzo": "Via Croce Savoia, 46D, 73020 Bagnolo del Salento LE",
+      "lat": 40.149394,
+      "lng": 18.353704
+    },
+    {
+      "id": "b9699c9f-b548-4f0b-b550-6947cad7b879",
+      "slug": "fruit-village-otranto-torcito-resort-sport-villa-bagnolo-del-salento",
+      "nome": "FRUIT Village Otranto - TORCITO RESORT Sport Village",
+      "city_name": "Bagnolo del Salento",
+      "indirizzo": "Largo Vittorio Veneto, 73020 Cannole LE",
+      "lat": 40.168091,
+      "lng": 18.368533
+    },
+    {
+      "id": "b304ba00-5257-404a-8b23-7323170cc9bc",
+      "slug": "hotel-rodia-salento-bagnolo-del-salento",
+      "nome": "Hotel Rodia Salento",
+      "city_name": "Bagnolo del Salento",
+      "indirizzo": "Via Vittorio Emanuele, 19, 73024 Maglie LE",
+      "lat": 40.123694,
+      "lng": 18.301544
+    },
+    {
+      "id": "a47e80ec-07a5-413b-8854-e19d668d6f32",
+      "slug": "il-corallo-del-salento-bagnolo-del-salento",
+      "nome": "Il Corallo del Salento",
+      "city_name": "Bagnolo del Salento",
+      "indirizzo": "Via Paolo VI, 13, 73030 Vignacastrisi LE",
+      "lat": 40.013705,
+      "lng": 18.412709
+    },
+    {
+      "id": "f428cfb9-fd1f-4bef-bdf1-f0a2ff6a7115",
+      "slug": "le-murge-del-salento-b-b-bagnolo-del-salento",
+      "nome": "Le Murge Del Salento B&B",
+      "city_name": "Bagnolo del Salento",
+      "indirizzo": "Via Sardegna, 13, 73020 Uggiano la Chiesa LE",
+      "lat": 40.098449,
+      "lng": 18.441021
+    },
+    {
+      "id": "c1eaa7e4-ec8d-4565-abb0-ffea9c00d578",
+      "slug": "luci-del-salento-guest-house-bagnolo-del-salento",
+      "nome": "Luci del Salento Guest House",
+      "city_name": "Bagnolo del Salento",
+      "indirizzo": "Via Giuseppina Delli Ponti, 73, 73020 Scorrano LE",
+      "lat": 40.094429,
+      "lng": 18.300271
+    },
+    {
+      "id": "018446ed-c6b4-4880-b8a2-53d1b9439f62",
+      "slug": "palazzo-villani-lubelli-bagnolo-del-salento",
+      "nome": "Palazzo Villani Lubelli",
+      "city_name": "Bagnolo del Salento",
+      "indirizzo": "Via S. Giovanni, 58, 73020 Cannole LE",
+      "lat": 40.165411,
+      "lng": 18.365368
+    },
+    {
+      "id": "fcb24d23-2383-4888-870e-fff7151f79d6",
+      "slug": "sanlu-hotel-bagnolo-del-salento",
+      "nome": "Sanlu Hotel",
+      "city_name": "Bagnolo del Salento",
+      "indirizzo": "Via Provinciale Martano, 73020 Serrano LE",
+      "lat": 40.188732,
+      "lng": 18.348434
+    },
+    {
+      "id": "77b8cd2a-0b84-46f8-b53e-bcbeb6961d24",
+      "slug": "serranoroom-bagnolo-del-salento",
+      "nome": "SerranoRoom",
+      "city_name": "Bagnolo del Salento",
+      "indirizzo": "Corso Margherita, 108, 73020 Serrano LE",
+      "lat": 40.183452,
+      "lng": 18.353675
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 166,
+  "blockId": "166",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "ddfb89d0-27ad-45b0-be0e-a819a1a912db",
+      "slug": "la-casa-di-nonna-lina-ascoli-satriano",
+      "nome": "La Casa di Nonna Lina",
+      "city_name": "Ascoli Satriano",
+      "indirizzo": "Via Irpinia, 3/A, 71040 Ordona FG",
+      "lat": 41.315938,
+      "lng": 15.628447
+    },
+    {
+      "id": "f50f9f06-584b-4ffe-9f0a-053095cc1b46",
+      "slug": "le-stanze-del-castello-b-b-ascoli-satriano",
+      "nome": "Le Stanze del Castello b&b",
+      "city_name": "Ascoli Satriano",
+      "indirizzo": "Via Castello, 43, 71022 Ascoli Satriano FG",
+      "lat": 41.205102,
+      "lng": 15.559266
+    },
+    {
+      "id": "a3760759-56bf-47d5-ab24-e80a97899030",
+      "slug": "residence-affittacamere-the-big-family-ascoli-satriano",
+      "nome": "Residence Affittacamere The Big Family",
+      "city_name": "Ascoli Satriano",
+      "indirizzo": "Via Ortanova, 6A, 71022 Ascoli Satriano FG",
+      "lat": 41.203453,
+      "lng": 15.568002
+    },
+    {
+      "id": "f1785889-ee18-4e9c-bbd9-5cb02f8abd2a",
+      "slug": "residenza-dei-reali-ascoli-satriano",
+      "nome": "Residenza dei Reali",
+      "city_name": "Ascoli Satriano",
+      "indirizzo": "Via Bertrando dei Reali, 11, 71023 Bovino FG",
+      "lat": 41.24981,
+      "lng": 15.343569
+    },
+    {
+      "id": "f33bc3ac-c4cc-4aed-a25e-1dd8adc79fae",
+      "slug": "agriturismo-la-ripa-ascrea",
+      "nome": "Agriturismo La Ripa",
+      "city_name": "Ascrea",
+      "indirizzo": "Località Santa Maria, 00010 Montorio Romano RM",
+      "lat": 42.154958,
+      "lng": 12.808746
+    },
+    {
+      "id": "a15a85b2-51a6-4bdc-b4eb-48e8449b0b29",
+      "slug": "agriturismo-la-terrazza-su-farfa-ascrea",
+      "nome": "Agriturismo La Terrazza su Farfa",
+      "city_name": "Ascrea",
+      "indirizzo": "Via San Filippo, 27, 02031 Castelnuovo di Farfa RI",
+      "lat": 42.224253,
+      "lng": 12.743805
+    },
+    {
+      "id": "25c85403-1a07-47bf-8e86-c56a45d28974",
+      "slug": "agriturismo-le-cascine-ascrea",
+      "nome": "Agriturismo Le Cascine",
+      "city_name": "Ascrea",
+      "indirizzo": "Località Campigliano Via Rio, 02020 Castel di Tora RI",
+      "lat": 42.221998,
+      "lng": 12.970946
+    },
+    {
+      "id": "84bfda3f-c9b2-494d-9c63-92d24a2e6267",
+      "slug": "b-b-da-odila-ascrea",
+      "nome": "B&B da Odila",
+      "city_name": "Ascrea",
+      "indirizzo": "Via Carpinetti, 1, 02030 Poggio Nativo RI",
+      "lat": 42.190836,
+      "lng": 12.80853
+    },
+    {
+      "id": "54b7e660-40fb-4f10-8610-be0cbb5c2e59",
+      "slug": "b-b-in-sabina-ascrea",
+      "nome": "B&B In Sabina",
+      "city_name": "Ascrea",
+      "indirizzo": "Viale Roma, 13, 02030 Poggio Nativo RI",
+      "lat": 42.215648,
+      "lng": 12.795437
+    },
+    {
+      "id": "6d64437e-bc69-43eb-a8dd-f5079511505d",
+      "slug": "b-b-la-casetta-sul-lago-ascrea",
+      "nome": "B&B La Casetta sul Lago",
+      "city_name": "Ascrea",
+      "indirizzo": "Piazza Borghese, 8, 02020 Colle di Tora RI",
+      "lat": 42.215274,
+      "lng": 12.947711
+    },
+    {
+      "id": "04227e15-3718-45c9-88c7-c9150df06193",
+      "slug": "b-b-nonna-assunta-ascrea",
+      "nome": "B&B Nonna Assunta",
+      "city_name": "Ascrea",
+      "indirizzo": "Via Turanense, Loc. Casali Cervia, 02020 Collegiove RI",
+      "lat": 42.156951,
+      "lng": 13.009871
+    },
+    {
+      "id": "a4634469-52fe-479e-9bb7-24191ace49cd",
+      "slug": "c-era-una-volta-guest-house-affittacamere-ascrea",
+      "nome": "C'era Una Volta Guest House Affittacamere",
+      "city_name": "Ascrea",
+      "indirizzo": "Località Vaecorte, SNC, 02020 Colle di Tora RI",
+      "lat": 42.209602,
+      "lng": 12.948799
+    },
+    {
+      "id": "ecfb3408-20f0-4999-9825-f4c09ccb7312",
+      "slug": "hotel-ristorante-bar-turano-ascrea",
+      "nome": "Hotel Ristorante Bar Turano",
+      "city_name": "Ascrea",
+      "indirizzo": "Via Turanense, 50, 02020 Castel di Tora RI",
+      "lat": 42.21349,
+      "lng": 12.974352
+    },
+    {
+      "id": "dab56992-b742-411b-a835-096ccffb22d4",
+      "slug": "il-mastro-del-lago-ascrea",
+      "nome": "Il Mastro del Lago",
+      "city_name": "Ascrea",
+      "indirizzo": "Via Turanense, 2, 02020 Paganico Sabino RI",
+      "lat": 42.187627,
+      "lng": 12.993327
+    },
+    {
+      "id": "ec4dce16-e79c-4671-94a7-cba8a3340632",
+      "slug": "la-casa-sul-fiordo-ascrea",
+      "nome": "La casa sul Fiordo",
+      "city_name": "Ascrea",
+      "indirizzo": "Via Costa Aspo 20-22, Via Costa, 02020 Paganico Sabino RI",
+      "lat": 42.190424,
+      "lng": 12.998362
+    },
+    {
+      "id": "233ce1a0-6447-40c8-94c2-91ee7ac65844",
+      "slug": "la-tenuta-resort-agricolo-ascrea",
+      "nome": "La Tenuta Resort Agricolo",
+      "city_name": "Ascrea",
+      "indirizzo": "Loc Valle snc, Fraz, 02030 Collelungo RI",
+      "lat": 42.23716,
+      "lng": 12.803826
+    },
+    {
+      "id": "ef100115-7846-45bc-b64e-1f08decf8aa5",
+      "slug": "tenuta-del-casale-del-jazz-ascrea",
+      "nome": "Tenuta Del Casale Del Jazz",
+      "city_name": "Ascrea",
+      "indirizzo": "Via Vallocchie, 3, 02040 Salisano RI",
+      "lat": 42.263775,
+      "lng": 12.759036
+    },
+    {
+      "id": "dac06f68-40a3-4b41-8e3b-7cf0a34b1226",
+      "slug": "turano-resort-ascrea",
+      "nome": "Turano Resort",
+      "city_name": "Ascrea",
+      "indirizzo": "Via Parodi, 93, 02020 Colle di Tora RI",
+      "lat": 42.212539,
+      "lng": 12.947869
+    },
+    {
+      "id": "6f49fd0f-20df-4149-8035-17b895bd6800",
+      "slug": "albergo-garni-rendola-asiago",
+      "nome": "Albergo Garnì Rendola",
+      "city_name": "Asiago",
+      "indirizzo": "Via Rendola, 41, 36012 Asiago VI",
+      "lat": 45.880764,
+      "lng": 11.527618
+    },
+    {
+      "id": "c06d0d99-2376-45a0-a0b6-6a22236c5f92",
+      "slug": "albergo-ristorante-valbella-asiago",
+      "nome": "Albergo Ristorante Valbella",
+      "city_name": "Asiago",
+      "indirizzo": "Via Monte Valbella, 38, 36032 Gallio VI",
+      "lat": 45.890073,
+      "lng": 11.547615
+    },
+    {
+      "id": "7d4677c5-6fd3-4380-8556-f533f4c1d54f",
+      "slug": "albergo-rutzer-asiago",
+      "nome": "Albergo Rutzer",
+      "city_name": "Asiago",
+      "indirizzo": "Via Berga, 130, 36012 Asiago VI",
+      "lat": 45.877634,
+      "lng": 11.497926
+    },
+    {
+      "id": "a93a4c42-c21f-4f6d-9793-0e2a0e64a03a",
+      "slug": "asiago-sporting-hotel-spa-asiago",
+      "nome": "Asiago Sporting Hotel & SPA",
+      "city_name": "Asiago",
+      "indirizzo": "Corso IV Novembre, 77, 36012 Asiago VI",
+      "lat": 45.873561,
+      "lng": 11.510302
+    },
+    {
+      "id": "99e04529-a103-4922-b0b7-d96781107f4e",
+      "slug": "b-b-asiago-keple-asiago",
+      "nome": "B&B Asiago Keple",
+      "city_name": "Asiago",
+      "indirizzo": "Via Jacopo Scajaro, 6, 36012 Asiago VI",
+      "lat": 45.874386,
+      "lng": 11.508139
+    },
+    {
+      "id": "062c1b32-927a-4df1-8df6-42ea637b7c9a",
+      "slug": "b-b-happy-days-asiago-asiago",
+      "nome": "B&B Happy Days Asiago",
+      "city_name": "Asiago",
+      "indirizzo": "Via IV Novembre, 22, 36010 Mezzaselva VI",
+      "lat": 45.869079,
+      "lng": 11.428367
+    },
+    {
+      "id": "fdeeab5c-ebc7-4ed9-b781-2fc1c990ea46",
+      "slug": "b-b-locanda-stella-asiago",
+      "nome": "B&B Locanda Stella",
+      "city_name": "Asiago",
+      "indirizzo": "Piazza S. Giovanni, 10, 36010 Camporovere VI",
+      "lat": 45.879948,
+      "lng": 11.486097
+    },
+    {
+      "id": "e8686a1d-e217-4564-a7d0-c5aa8109ff9c",
+      "slug": "b-b-stella-alpina-asiago",
+      "nome": "B&B Stella Alpina",
+      "city_name": "Asiago",
+      "indirizzo": "Contrada Ciscati, 29-92, 36046 Lusiana Conco VI",
+      "lat": 45.802374,
+      "lng": 11.631838
+    },
+    {
+      "id": "6a2f4070-698b-4b1b-b715-ff70e7f9f5a2",
+      "slug": "begale-rifugio-urbano-appartamenti-asiago",
+      "nome": "Begale - Rifugio Urbano - Appartamenti",
+      "city_name": "Asiago",
+      "indirizzo": "Via Albaredo, 26, 36010 Rotzo VI",
+      "lat": 45.866664,
+      "lng": 11.412961
+    },
+    {
+      "id": "6459226d-19f7-4e7a-897a-bf6b32b8adf6",
+      "slug": "casa-ekharle-guesthouse-asiago",
+      "nome": "Casa Ekharle - Guesthouse",
+      "city_name": "Asiago",
+      "indirizzo": "Via Albaredo, 122, 36010 Rotzo VI",
+      "lat": 45.866609,
+      "lng": 11.417553
+    },
+    {
+      "id": "6744773b-d9d7-40a9-9f2d-e81386cdf0fc",
+      "slug": "hotel-croce-bianca-asiago",
+      "nome": "Hotel Croce Bianca",
+      "city_name": "Asiago",
+      "indirizzo": "Corso IV Novembre, 30, 36012 Asiago VI",
+      "lat": 45.874634,
+      "lng": 11.509264
+    },
+    {
+      "id": "0af62b4a-60b5-4dd5-a70e-ad57e31ddb6a",
+      "slug": "hotel-europa-residence-asiago",
+      "nome": "Hotel Europa Residence",
+      "city_name": "Asiago",
+      "indirizzo": "Corso IV Novembre, 65, 36012 Asiago VI",
+      "lat": 45.87365,
+      "lng": 11.50992
+    },
+    {
+      "id": "931276d6-e046-4d31-a715-91d742b11e41",
+      "slug": "hotel-milano-asiago",
+      "nome": "Hotel Milano",
+      "city_name": "Asiago",
+      "indirizzo": "Via Brigata Liguria, 15, 36012 Asiago VI",
+      "lat": 45.87722,
+      "lng": 11.509378
+    },
+    {
+      "id": "812edb87-719d-47ed-9ad7-35bca988ec97",
+      "slug": "hotel-paradiso-asiago",
+      "nome": "Hotel Paradiso",
+      "city_name": "Asiago",
+      "indirizzo": "Via Monte Val Bella, 33, 36012 Asiago VI",
+      "lat": 45.874751,
+      "lng": 11.510498
+    },
+    {
+      "id": "21517026-c08a-4a1c-af8d-2c9ac4ed5912",
+      "slug": "hotel-ristorante-alpi-foza-asiago",
+      "nome": "Hotel Ristorante Alpi - Foza",
+      "city_name": "Asiago",
+      "indirizzo": "Via Roma, 14, 36010 Foza VI",
+      "lat": 45.896969,
+      "lng": 11.630976
+    },
+    {
+      "id": "c7d53f42-df3b-4d2a-9c59-c81e3ab6f010",
+      "slug": "la-locanda-asiago",
+      "nome": "La Locanda",
+      "city_name": "Asiago",
+      "indirizzo": "Via Monte Val Bella, 31, 36012 Asiago VI",
+      "lat": 45.874818,
+      "lng": 11.510274
+    },
+    {
+      "id": "4f40cfa2-e549-4f0d-a596-c985a44873d8",
+      "slug": "villa-bonomo-charme-hotel-asiago",
+      "nome": "Villa Bonomo Charme Hotel",
+      "city_name": "Asiago",
+      "indirizzo": "Via Pennar, 322, 36012 Asiago VI",
+      "lat": 45.859545,
+      "lng": 11.543405
+    }
+  ]
+}

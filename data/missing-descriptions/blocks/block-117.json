@@ -1,0 +1,323 @@
+{
+  "block": 117,
+  "blockId": "117",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "3131de0e-0d98-4dbc-975f-cdf38283995f",
+      "slug": "sweet-home-b-b-san-ferdinando-anoia",
+      "nome": "Sweet Home B&B San Ferdinando",
+      "city_name": "Anoia",
+      "indirizzo": "Via Provinciale Est, 9a, 89026 San Ferdinando RC",
+      "lat": 38.484771,
+      "lng": 15.921627
+    },
+    {
+      "id": "2e9a00a6-ee54-4073-bd24-a41de3e72cab",
+      "slug": "uliveto-principessa-resort-banqueting-anoia",
+      "nome": "Uliveto Principessa Resort & Banqueting",
+      "city_name": "Anoia",
+      "indirizzo": "Contrada Oliveto Principessa, 1, 89022 Cittanova RC",
+      "lat": 38.362089,
+      "lng": 16.043739
+    },
+    {
+      "id": "377569f2-f79b-4fc0-8f05-860be65c3c44",
+      "slug": "bes-hotel-la-muratella-antegnate",
+      "nome": "Bes Hotel La Muratella",
+      "city_name": "Antegnate",
+      "indirizzo": "Via del Cassinello, 1, 24055 Cologno al Serio BG",
+      "lat": 45.587765,
+      "lng": 9.73641
+    },
+    {
+      "id": "7ca0f221-2b99-4e7e-8e1d-112a0204045c",
+      "slug": "giuly-s-home-antegnate",
+      "nome": "Giuly’s Home",
+      "city_name": "Antegnate",
+      "indirizzo": "Via E. Schivardi, 42, 24058 Romano di Lombardia BG",
+      "lat": 45.521887,
+      "lng": 9.757184
+    },
+    {
+      "id": "0d67d3bb-3358-4830-befa-63e98d4b6657",
+      "slug": "hotel-il-borghetto-antegnate",
+      "nome": "Hotel il Borghetto",
+      "city_name": "Antegnate",
+      "indirizzo": "Via Piave, 2, 24050 Bariano BG",
+      "lat": 45.512356,
+      "lng": 9.70686
+    },
+    {
+      "id": "f65d6e16-d1eb-4db8-974b-f98f5c8f4a72",
+      "slug": "hotel-mariet-antegnate",
+      "nome": "Hotel Mariet",
+      "city_name": "Antegnate",
+      "indirizzo": "Piazza M. D. Antonio Locatelli, 20, 24058 Romano di Lombardia BG",
+      "lat": 45.518095,
+      "lng": 9.755694
+    },
+    {
+      "id": "2cc70390-e86e-4672-9006-562f343f911e",
+      "slug": "hotel-meuble-atlantic-antegnate",
+      "nome": "Hotel Meublè Atlantic",
+      "city_name": "Antegnate",
+      "indirizzo": "Via Canonica, 1, 24047 Treviglio BG",
+      "lat": 45.527263,
+      "lng": 9.58368
+    },
+    {
+      "id": "283745db-a067-4b8c-8b98-d8b1606cd50c",
+      "slug": "hotel-verri-antegnate",
+      "nome": "Hotel Verri",
+      "city_name": "Antegnate",
+      "indirizzo": "Via Beata Vergine, 4, 24040 Misano di Gera d'Adda BG",
+      "lat": 45.479315,
+      "lng": 9.629931
+    },
+    {
+      "id": "02f3fc02-96b5-4842-bd57-93bd79cadea8",
+      "slug": "i-pioppi-bed-breakfast-antegnate",
+      "nome": "I Pioppi Bed & Breakfast",
+      "city_name": "Antegnate",
+      "indirizzo": "Via Milano, 37, 25032 Chiari BS",
+      "lat": 45.523823,
+      "lng": 9.904138
+    },
+    {
+      "id": "c2ef9401-1d8a-44f0-833c-d3291cfbe929",
+      "slug": "il-leone-d-oro-hotel-antegnate",
+      "nome": "Il Leone d’Oro - Hotel",
+      "city_name": "Antegnate",
+      "indirizzo": "Via Dante, 17, 24060 Telgate BG",
+      "lat": 45.628194,
+      "lng": 9.856046
+    },
+    {
+      "id": "ac2560e5-c5c3-4f97-8335-71ad3b805399",
+      "slug": "la-residenza-del-viale-affittacamere-antegnate",
+      "nome": "La Residenza del Viale - Affittacamere",
+      "city_name": "Antegnate",
+      "indirizzo": "Viale Ortigara, 7 a, 24047 Treviglio BG",
+      "lat": 45.527995,
+      "lng": 9.588098
+    },
+    {
+      "id": "80aac4c2-7fc9-430c-a213-e8c222f926f8",
+      "slug": "locanda-del-sole-antegnate",
+      "nome": "Locanda del Sole",
+      "city_name": "Antegnate",
+      "indirizzo": "Via Santo Stefano, 7, 24050 Mozzanica BG",
+      "lat": 45.475469,
+      "lng": 9.691015
+    },
+    {
+      "id": "4ecd0a73-1f70-4d51-b927-58dbec4ca99e",
+      "slug": "ostello-molino-di-basso-antegnate",
+      "nome": "OSTELLO MOLINO DI BASSO",
+      "city_name": "Antegnate",
+      "indirizzo": "Via Madonna di Loreto Località, 24050 Molino Di Basso BG",
+      "lat": 45.449697,
+      "lng": 9.882683
+    },
+    {
+      "id": "8089b6e1-7661-42ad-93aa-655f941783fc",
+      "slug": "quattro-gatti-ristorante-e-rooms-suites-antegnate",
+      "nome": "Quattro Gatti | Ristorante e Rooms&Suites",
+      "city_name": "Antegnate",
+      "indirizzo": "Via Don Giavazzi, 13, 24049 Verdello BG",
+      "lat": 45.606807,
+      "lng": 9.625121
+    },
+    {
+      "id": "e5875c90-a67d-4e39-a384-854ef9c515ff",
+      "slug": "ristorante-hotel-la-conchiglia-antegnate",
+      "nome": "Ristorante - Hotel La Conchiglia",
+      "city_name": "Antegnate",
+      "indirizzo": "Via del Commercio, 2, 24058 Romano di Lombardia BG",
+      "lat": 45.52229,
+      "lng": 9.742609
+    },
+    {
+      "id": "20ce8427-b1d9-418a-949f-3977e6c43ab2",
+      "slug": "sweet-motel-antegnate",
+      "nome": "Sweet Motel",
+      "city_name": "Antegnate",
+      "indirizzo": "Strada Provinciale Francesca Km 6, 24049 Verdello BG",
+      "lat": 45.589367,
+      "lng": 9.629732
+    },
+    {
+      "id": "d6a8c093-6c18-4083-a57d-f50371921307",
+      "slug": "villa-e-roma-antegnate",
+      "nome": "Villa e Roma",
+      "city_name": "Antegnate",
+      "indirizzo": "Via Bergamo, 33-35, 25036 Palazzolo sull'Oglio BS",
+      "lat": 45.597884,
+      "lng": 9.872462
+    },
+    {
+      "id": "a4e9d73f-c9c6-47d2-9ab5-56ff0410f3d5",
+      "slug": "affittacamere-garden-cavalese-anterivo-altrei",
+      "nome": "Affittacamere Garden Cavalese",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Via Trento, 33, 38033 Cavalese TN",
+      "lat": 46.289217,
+      "lng": 11.447777
+    },
+    {
+      "id": "ff4c4de7-de6c-4798-b237-e3f63624ad1f",
+      "slug": "agriturismo-maso-schneider-anterivo-altrei",
+      "nome": "Agriturismo Maso Schneider",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Località, Via Tassa, 38033 Cavalese TN",
+      "lat": 46.294224,
+      "lng": 11.448239
+    },
+    {
+      "id": "b1e5d9c1-e0ea-4caf-a5f6-be8735d77a5c",
+      "slug": "albergo-dolomiti-anterivo-altrei",
+      "nome": "Albergo Dolomiti",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Via Dallio G.Battista, 22, 38030 Capriana TN",
+      "lat": 46.26186,
+      "lng": 11.336663
+    },
+    {
+      "id": "9fe77271-0ccf-4c49-801b-44fb0a86b087",
+      "slug": "albergo-dolomiti-cavalese-anterivo-altrei",
+      "nome": "Albergo Dolomiti - Cavalese",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Via Montebello, 20, 38033 Cavalese TN",
+      "lat": 46.292284,
+      "lng": 11.461289
+    },
+    {
+      "id": "d430c077-c83b-4883-9534-4adfd4f6cc9b",
+      "slug": "albergo-pensione-serenetta-anterivo-altrei",
+      "nome": "Albergo Pensione Serenetta",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Via Mercato, 22, 38099 Ville di Fiemme TN",
+      "lat": 46.303497,
+      "lng": 11.455395
+    },
+    {
+      "id": "927cba62-1c7c-457a-8950-9ff2b4d9fad1",
+      "slug": "albergo-stella-cavalese-anterivo-altrei",
+      "nome": "Albergo Stella ** Cavalese",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Piazza 12 Partigiani, 6, 38033 Cavalese TN",
+      "lat": 46.292989,
+      "lng": 11.456278
+    },
+    {
+      "id": "75f500d9-9f1f-42e3-a001-59588e445f75",
+      "slug": "b-b-nonna-rosa-vista-lagorai-anterivo-altrei",
+      "nome": "B&B nonna Rosa vista Lagorai",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Via Domenica Lazzeri, 20A, 38030 Capriana TN",
+      "lat": 46.264753,
+      "lng": 11.338714
+    },
+    {
+      "id": "f93c5b8a-fd8e-488b-be89-1730a075726d",
+      "slug": "b-b-signora-elvira-anterivo-altrei",
+      "nome": "B&B Signora Elvira",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Via Gian Battista Dallio, 23, 38030 Capriana TN",
+      "lat": 46.262096,
+      "lng": 11.337041
+    },
+    {
+      "id": "02abb0c7-3003-467e-9fd7-1f3e8a868ac2",
+      "slug": "hotel-italia-anterivo-altrei",
+      "nome": "Hotel Italia",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Via Segherie, 80, 38030 Castello di Fiemme TN",
+      "lat": 46.272567,
+      "lng": 11.416786
+    },
+    {
+      "id": "7fcc2a0c-ec9c-4620-921d-f7d720e8e41e",
+      "slug": "hotel-langeshof-anterivo-altrei",
+      "nome": "Hotel Langeshof",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Via Katharina Lanz, 3, 39040 Anterivo BZ",
+      "lat": 46.281544,
+      "lng": 11.373877
+    },
+    {
+      "id": "f1cb547a-7548-4546-9a3d-83bd2ce2494c",
+      "slug": "hotel-latemar-dolomites-living-val-di-fiemme-anterivo-altrei",
+      "nome": "Hotel Latemar - Dolomites Living - Val di Fiemme",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Via Latemar, 16, 38030 Castello di Fiemme TN",
+      "lat": 46.283622,
+      "lng": 11.437925
+    },
+    {
+      "id": "920221f0-8306-45e7-8377-ae434f4f34eb",
+      "slug": "hotel-schonwies-anterivo-altrei",
+      "nome": "Hotel Schönwies",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Via Principale, 19, 39040 Trodena nel parco naturale BZ",
+      "lat": 46.323333,
+      "lng": 11.35143
+    },
+    {
+      "id": "ac482884-a966-4428-9f80-6e342a21abb6",
+      "slug": "hotel-schwarzhorn-anterivo-altrei",
+      "nome": "Hotel Schwarzhorn",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Oclini, 2, 39040 Aldino BZ",
+      "lat": 46.346635,
+      "lng": 11.453191
+    },
+    {
+      "id": "d1f4a750-8c71-467d-babd-45621f4e0401",
+      "slug": "locanda-alpina-dorfner-anterivo-altrei",
+      "nome": "Locanda Alpina Dorfner",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Casignano, 5, 39040 Montagna BZ",
+      "lat": 46.302222,
+      "lng": 11.308592
+    },
+    {
+      "id": "b0677479-9ee4-4349-85f9-8df3b34277e4",
+      "slug": "manna-resort-anterivo-altrei",
+      "nome": "Manna Resort",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Doladizza, Vicolo Klamm, 3, 39040 Montagna BZ",
+      "lat": 46.343814,
+      "lng": 11.325335
+    },
+    {
+      "id": "356a88c4-8ba9-49f6-acb2-82bc20acc338",
+      "slug": "naturhotel-waldheim-anterivo-altrei",
+      "nome": "Naturhotel Waldheim",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Via Gottschalk, 5, 39040 Anterivo BZ",
+      "lat": 46.279567,
+      "lng": 11.361818
+    },
+    {
+      "id": "d4440255-7f9d-436f-8eeb-444e6c120d0a",
+      "slug": "pensione-lochmann-anterivo-altrei",
+      "nome": "Pensione Lochmann",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Frazione Guggal, 4, 39040 Anterivo BZ",
+      "lat": 46.275102,
+      "lng": 11.371714
+    },
+    {
+      "id": "e834e254-e276-4f91-a743-ddb886641804",
+      "slug": "residence-zum-rossl-appartamenti-vacanze-anterivo-altrei",
+      "nome": "Residence Zum Rössl | Appartamenti vacanze",
+      "city_name": "Anterivo/Altrei",
+      "indirizzo": "Via Dottor Josef Noldin, 3, 39040 Anterivo BZ",
+      "lat": 46.276855,
+      "lng": 11.365906
+    }
+  ]
+}

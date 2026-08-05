@@ -1,0 +1,323 @@
+{
+  "block": 250,
+  "blockId": "250",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "e5c04f0b-0cac-426d-a546-c6d6a2525c3f",
+      "slug": "b-b-la-marella-belmonte-del-sannio",
+      "nome": "B&B La Marella",
+      "city_name": "Belmonte del Sannio",
+      "indirizzo": "C.da Rigaini 79 - Località Marella, 86081 Agnone IS",
+      "lat": 41.804792,
+      "lng": 14.3593
+    },
+    {
+      "id": "993dc1ac-c5a0-4dec-abaa-856bc635bbfb",
+      "slug": "bed-breakfast-la-caruscia-belmonte-del-sannio",
+      "nome": "Bed&Breakfast La Caruscia",
+      "city_name": "Belmonte del Sannio",
+      "indirizzo": "Contrada Maiella, 22, 86029 Trivento CB",
+      "lat": 41.767085,
+      "lng": 14.538638
+    },
+    {
+      "id": "ff55ff36-e539-4e61-822d-2f62229b5bab",
+      "slug": "belmonte-holiday-belmonte-del-sannio",
+      "nome": "Belmonte-Holiday",
+      "city_name": "Belmonte del Sannio",
+      "indirizzo": "Via Cardarelli, 8, 86080 Belmonte del Sannio IS",
+      "lat": 41.824289,
+      "lng": 14.423271
+    },
+    {
+      "id": "ec7d3dff-b548-4913-97ad-9bdacc33e43b",
+      "slug": "hotel-lo-smeraldo-sala-ricevimenti-belmonte-del-sannio",
+      "nome": "Hotel Lo Smeraldo | Sala Ricevimenti",
+      "city_name": "Belmonte del Sannio",
+      "indirizzo": "Contrada Canneto, 1, 86020 Roccavivara CB",
+      "lat": 41.850338,
+      "lng": 14.602881
+    },
+    {
+      "id": "3ddc3356-e06b-407f-b7cf-82c94ab3cd55",
+      "slug": "palazzo-della-citta-belmonte-del-sannio",
+      "nome": "Palazzo Della Città",
+      "city_name": "Belmonte del Sannio",
+      "indirizzo": "CIN: IT094002B4TRNA6EQU, Via Vittorio Alfieri, 1, 86081 Agnone IS",
+      "lat": 41.805932,
+      "lng": 14.366134
+    },
+    {
+      "id": "42a666d8-0d7a-488e-8d98-9a53f13e6cf5",
+      "slug": "sydney-b-b-belmonte-del-sannio",
+      "nome": "Sydney B&B",
+      "city_name": "Belmonte del Sannio",
+      "indirizzo": "Via Fonte Lava, 21, 66033 Castiglione Messer Marino CH",
+      "lat": 41.86759,
+      "lng": 14.453569
+    },
+    {
+      "id": "f9868c2f-d48c-4283-9add-e58fb1cfd686",
+      "slug": "arenarius-resort-belmonte-in-sabina",
+      "nome": "Arenarius Resort",
+      "city_name": "Belmonte in Sabina",
+      "indirizzo": "Via cecola, 4, 02030 Ornaro RI",
+      "lat": 42.278946,
+      "lng": 12.847941
+    },
+    {
+      "id": "a5dc6c50-e116-4b5c-b191-8e3416013f41",
+      "slug": "brindavan-country-house-belmonte-in-sabina",
+      "nome": "Brindavan Country House",
+      "city_name": "Belmonte in Sabina",
+      "indirizzo": "SP30, N° 18, 02020 Concerviano RI",
+      "lat": 42.297923,
+      "lng": 12.957824
+    },
+    {
+      "id": "1d4d38b4-b66f-4337-be5b-1ecfb050bb81",
+      "slug": "hotel-ristorante-valentino-belmonte-in-sabina",
+      "nome": "Hotel Ristorante Valentino",
+      "city_name": "Belmonte in Sabina",
+      "indirizzo": "Via Rieti, 9, 02100 Rieti RI",
+      "lat": 42.434051,
+      "lng": 12.909975
+    },
+    {
+      "id": "3d2622ae-6499-4760-a1df-6554bf3553b4",
+      "slug": "hotel-serena-belmonte-in-sabina",
+      "nome": "Hotel Serena",
+      "city_name": "Belmonte in Sabina",
+      "indirizzo": "Via dei Salici, 46/A, 02100 Rieti RI",
+      "lat": 42.401819,
+      "lng": 12.851954
+    },
+    {
+      "id": "371cfa63-bc4d-4664-be4f-cc6fde79c57d",
+      "slug": "la-noce-di-creta-agriturismo-biologico-osteria-n-belmonte-in-sabina",
+      "nome": "La Noce di Creta Agriturismo Biologico - Osteria Nuova di Poggio Moiano - Rieti - In Sabina",
+      "city_name": "Belmonte in Sabina",
+      "indirizzo": "Vocabolo Colle Mastrangelo, 250, 02037 Osteria Nuova RI",
+      "lat": 42.198087,
+      "lng": 12.862111
+    },
+    {
+      "id": "f9c7d014-1acb-4055-9689-a457ed1ed587",
+      "slug": "park-hotel-villa-potenziani-belmonte-in-sabina",
+      "nome": "Park Hotel Villa Potenziani",
+      "city_name": "Belmonte in Sabina",
+      "indirizzo": "Via S. Mauro, 6, 02100 Rieti RI",
+      "lat": 42.40244,
+      "lng": 12.881466
+    },
+    {
+      "id": "04b68f19-fa47-4534-bb80-3ce52e72e130",
+      "slug": "albergo-miravalle-belmonte-mezzagno",
+      "nome": "Albergo Miravalle",
+      "city_name": "Belmonte Mezzagno",
+      "indirizzo": "Contrada Segretaria, 8, 90036 Misilmeri PA",
+      "lat": 38.052194,
+      "lng": 13.459392
+    },
+    {
+      "id": "cbe2cac3-6551-4d1c-ad80-15836f11e00b",
+      "slug": "b-b-angolo83-belmonte-mezzagno",
+      "nome": "B&B Angolo83",
+      "city_name": "Belmonte Mezzagno",
+      "indirizzo": "Via Roma, 83, 90133 Palermo PA",
+      "lat": 38.113754,
+      "lng": 13.365275
+    },
+    {
+      "id": "a8301b82-a4ae-4766-acfb-9a9e395d3825",
+      "slug": "b-b-charme-93-principe-di-belmonte-belmonte-mezzagno",
+      "nome": "B&B CHARME 93 Principe di Belmonte",
+      "city_name": "Belmonte Mezzagno",
+      "indirizzo": "Via Principe di Belmonte, 93, 90139 Palermo PA",
+      "lat": 38.124323,
+      "lng": 13.357965
+    },
+    {
+      "id": "87df9ed4-e284-4ac3-a227-2b2a65469cfa",
+      "slug": "b-b-i-cinque-continenti-belmonte-mezzagno",
+      "nome": "B&B I Cinque Continenti",
+      "city_name": "Belmonte Mezzagno",
+      "indirizzo": "Via Piccola Teatro S. Cecilia, 5/1° piano, 90133 Palermo PA",
+      "lat": 38.113837,
+      "lng": 13.365486
+    },
+    {
+      "id": "69d2ceef-ba63-4ff6-addf-cf2d91e9d60d",
+      "slug": "b-b-palermo-sole-cultura-belmonte-mezzagno",
+      "nome": "B&B Palermo Sole & Cultura",
+      "city_name": "Belmonte Mezzagno",
+      "indirizzo": "Via Francesco Palumbo Minà, 7, 90127 Palermo PA",
+      "lat": 38.105939,
+      "lng": 13.369474
+    },
+    {
+      "id": "cdc3f4f7-d6fc-4a46-8968-5e56353baed7",
+      "slug": "ballaro-hotel-belmonte-mezzagno",
+      "nome": "Ballarò Hotel",
+      "city_name": "Belmonte Mezzagno",
+      "indirizzo": "Via Maqueda, 26, 90134 Palermo PA",
+      "lat": 38.110834,
+      "lng": 13.364511
+    },
+    {
+      "id": "85a082ca-f55e-4342-8172-a8e7e4c227d3",
+      "slug": "belmonte102-esclusive-suites-belmonte-mezzagno",
+      "nome": "Belmonte102 Esclusive Suites",
+      "city_name": "Belmonte Mezzagno",
+      "indirizzo": "Via Principe di Belmonte, 102, 90139 Palermo PA",
+      "lat": 38.123778,
+      "lng": 13.357347
+    },
+    {
+      "id": "646bd24d-71e3-446a-b935-5194dade50b9",
+      "slug": "casa-vacanza-monviso-lefuoriserieappartamenti-belmonte-mezzagno",
+      "nome": "Casa Vacanza Monviso LeFuoriserieAppartamenti",
+      "city_name": "Belmonte Mezzagno",
+      "indirizzo": "Via del Ponticello, 5, 90134 Palermo PA",
+      "lat": 38.11414,
+      "lng": 13.362225
+    },
+    {
+      "id": "7d86efa2-38ac-4bdb-92ee-e5eeee739ed4",
+      "slug": "hotel-concordia-belmonte-mezzagno",
+      "nome": "Hotel Concordia",
+      "city_name": "Belmonte Mezzagno",
+      "indirizzo": "Via Roma, 72, 90133 Palermo PA",
+      "lat": 38.112754,
+      "lng": 13.365291
+    },
+    {
+      "id": "baa24ac1-9f67-4810-82e3-feee5f74fc3a",
+      "slug": "hotel-del-centro-belmonte-mezzagno",
+      "nome": "Hotel del Centro",
+      "city_name": "Belmonte Mezzagno",
+      "indirizzo": "Via Roma, 72, 90133 Palermo PA",
+      "lat": 38.112711,
+      "lng": 13.365291
+    },
+    {
+      "id": "bc8416b8-1f81-45bc-9cf6-32920a31fec5",
+      "slug": "hotel-san-paolo-palace-belmonte-mezzagno",
+      "nome": "Hotel San Paolo Palace",
+      "city_name": "Belmonte Mezzagno",
+      "indirizzo": "Via Messina Marine, 91, 90123 Palermo PA",
+      "lat": 38.10774,
+      "lng": 13.380774
+    },
+    {
+      "id": "4d1892b8-bff6-49b9-b5ec-14644282d199",
+      "slug": "palazzo-balsamo-boutique-hotel-belmonte-mezzagno",
+      "nome": "Palazzo Balsamo Boutique Hotel",
+      "city_name": "Belmonte Mezzagno",
+      "indirizzo": "Via Divisi, 93, 90133 Palermo PA",
+      "lat": 38.112652,
+      "lng": 13.363766
+    },
+    {
+      "id": "bcc88694-df37-4d79-97aa-33849e7f15c2",
+      "slug": "palazzo-cartari-belmonte-mezzagno",
+      "nome": "Palazzo Cartari",
+      "city_name": "Belmonte Mezzagno",
+      "indirizzo": "V. dei Cartari, 21, 90133 Palermo PA",
+      "lat": 38.116634,
+      "lng": 13.365025
+    },
+    {
+      "id": "9c51c178-b712-4009-a370-fafb1c7b02a2",
+      "slug": "stardust-home-belmonte-mezzagno",
+      "nome": "Stardust Home",
+      "city_name": "Belmonte Mezzagno",
+      "indirizzo": "Vicolo Sciacca, 6, 90124 Palermo PA",
+      "lat": 38.085231,
+      "lng": 13.36834
+    },
+    {
+      "id": "0549da0d-b7d0-4e30-933b-553bb657b892",
+      "slug": "belmonte-inn-belmonte-piceno",
+      "nome": "Belmonte inn",
+      "city_name": "Belmonte Piceno",
+      "indirizzo": "Contrada Colle Tenna, 63875 Belmonte Piceno FM",
+      "lat": 43.092444,
+      "lng": 13.541302
+    },
+    {
+      "id": "caa6b557-eea5-4714-a7fb-fe957690fc56",
+      "slug": "aura-club-la-fenice-belpasso",
+      "nome": "Aura Club - La Fenice",
+      "city_name": "Belpasso",
+      "indirizzo": "Via Roma, 268, 95032 Belpasso CT",
+      "lat": 37.589439,
+      "lng": 14.977079
+    },
+    {
+      "id": "8b86722e-e1d4-4b18-92ef-b0811e35a36a",
+      "slug": "b-b-althea-etna-garden-belpasso",
+      "nome": "B&B - Althea Etna Garden",
+      "city_name": "Belpasso",
+      "indirizzo": "Via Nuova, 8, 95030 Nicolosi CT",
+      "lat": 37.615987,
+      "lng": 15.02643
+    },
+    {
+      "id": "fd0db8dc-7595-42e3-81a4-0a2e2eae788f",
+      "slug": "b-b-bcens-la-citta-delle-100-sculture-belpasso",
+      "nome": "B&B BcenS la città delle 100 sculture",
+      "city_name": "Belpasso",
+      "indirizzo": "Via Roma, 265, 95032 Belpasso CT",
+      "lat": 37.588937,
+      "lng": 14.97696
+    },
+    {
+      "id": "261638d8-5a30-4142-b0fe-5815919816e9",
+      "slug": "b-b-fossanoce-belpasso",
+      "nome": "B&B FOSSANOCE",
+      "city_name": "Belpasso",
+      "indirizzo": "Via Don Luigi Sturzo, 12, 95032 Belpasso CT",
+      "lat": 37.598561,
+      "lng": 14.981938
+    },
+    {
+      "id": "9fbb8c2e-5db9-4bc5-827c-644cb8050a45",
+      "slug": "b-b-la-grotta-belpasso",
+      "nome": "B&B La Grotta",
+      "city_name": "Belpasso",
+      "indirizzo": "Via Adua, 18, 95030 Nicolosi CT",
+      "lat": 37.61243,
+      "lng": 15.025472
+    },
+    {
+      "id": "b0abe304-5561-421b-a372-a33de18ad101",
+      "slug": "b-b-la-porta-dell-etna-belpasso",
+      "nome": "B&B La Porta dell'Etna",
+      "city_name": "Belpasso",
+      "indirizzo": "Via Somma, 107, 95030 Nicolosi CT",
+      "lat": 37.611426,
+      "lng": 15.018399
+    },
+    {
+      "id": "f7fef331-c3c7-4dfb-8442-7c594b8a82a3",
+      "slug": "b-b-la-rena-rossa-belpasso",
+      "nome": "B&B La Rena Rossa",
+      "city_name": "Belpasso",
+      "indirizzo": "Via Luigi Capuana, 6a, 95030 Nicolosi CT",
+      "lat": 37.616756,
+      "lng": 15.025093
+    },
+    {
+      "id": "6707aa34-ae29-4ad9-b6b1-ce5661a3d9ff",
+      "slug": "b-b-mount-etna-belpasso",
+      "nome": "B&B Mount Etna",
+      "city_name": "Belpasso",
+      "indirizzo": "Via Alcide de Gasperi, 66, 95032 Belpasso CT",
+      "lat": 37.600143,
+      "lng": 14.983087
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 4,
+  "blockId": "004",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "8f4980c6-2f38-41d6-ac4b-49744a937e5b",
+      "slug": "aura-glamping-accettura",
+      "nome": "Aura Glamping",
+      "city_name": "Accettura",
+      "indirizzo": "Contrada Montepiano, 75011 Accettura MT",
+      "lat": 40.458312,
+      "lng": 16.148154
+    },
+    {
+      "id": "9f51c8f3-bd0b-4455-b48f-9e6194386c03",
+      "slug": "b-b-a-due-passi-accettura",
+      "nome": "B&b A due passi",
+      "city_name": "Accettura",
+      "indirizzo": "Vico I Michele torraca, 5, 85010 Pietrapertosa PZ",
+      "lat": 40.519459,
+      "lng": 16.060689
+    },
+    {
+      "id": "3e2e17b2-e870-4246-8808-5c3b04d3c807",
+      "slug": "b-b-a-due-passi-hotel-bed-and-breakfast-e-affitt-accettura",
+      "nome": "B&B A Due Passi - hotel Bed and Breakfast e Affitta camere",
+      "city_name": "Accettura",
+      "indirizzo": "Vicolo II Forno, 15, 75014 Grassano MT",
+      "lat": 40.634291,
+      "lng": 16.282689
+    },
+    {
+      "id": "4aa17d42-949f-4f90-bf46-c591ad202d49",
+      "slug": "b-b-al-vico-pepe-accettura",
+      "nome": "B&B Al Vico Pepe",
+      "city_name": "Accettura",
+      "indirizzo": "Vico Storto Pepe, 17, 85010 Castelmezzano PZ",
+      "lat": 40.531172,
+      "lng": 16.047406
+    },
+    {
+      "id": "7f11c231-3816-484e-8839-ed3829294f8d",
+      "slug": "b-b-da-rosario-accettura",
+      "nome": "B&B da Rosario",
+      "city_name": "Accettura",
+      "indirizzo": "Via della Pineta n. 4, 85010 Campomaggiore PZ",
+      "lat": 40.566511,
+      "lng": 16.072517
+    },
+    {
+      "id": "95d64f25-a4a3-4b9f-b044-1e21891a2391",
+      "slug": "b-b-vigna-del-duca-accettura",
+      "nome": "B&B Vigna del Duca",
+      "city_name": "Accettura",
+      "indirizzo": "Vicolo II Forno, 6, 75014 Grassano MT",
+      "lat": 40.634026,
+      "lng": 16.282547
+    },
+    {
+      "id": "d557d716-9366-428c-a8de-ec7a63713638",
+      "slug": "b-b-villa-le-arcate-accettura",
+      "nome": "B&B Villa Le Arcate",
+      "city_name": "Accettura",
+      "indirizzo": "Via Luigi Einaudi, 15, 85012 Corleto Perticara PZ",
+      "lat": 40.384793,
+      "lng": 16.042133
+    },
+    {
+      "id": "30097e73-0292-4c35-a021-85f4cc794a67",
+      "slug": "convil-hotel-accettura",
+      "nome": "Convil Hotel",
+      "city_name": "Accettura",
+      "indirizzo": "Localita' Conche, 85012 Corleto Perticara PZ",
+      "lat": 40.393863,
+      "lng": 16.035748
+    },
+    {
+      "id": "8dc61d08-41c0-4e32-86b5-981e7b08991f",
+      "slug": "dar-dhiafa-accettura",
+      "nome": "Dar Dhiafa",
+      "city_name": "Accettura",
+      "indirizzo": "Vicolo II Capo le Grotte, 13, 75014 Grassano MT",
+      "lat": 40.633658,
+      "lng": 16.278697
+    },
+    {
+      "id": "ec27917d-4a1a-4164-83f1-b561f114769b",
+      "slug": "feni-home-bed-breakfast-tricarico-accettura",
+      "nome": "Fenì Home Bed & Breakfast Tricarico",
+      "city_name": "Accettura",
+      "indirizzo": "Via Scotellaro Rocco, 68, 75019 Tricarico MT",
+      "lat": 40.621214,
+      "lng": 16.145935
+    },
+    {
+      "id": "29d88d59-427d-4e35-b9df-194d2e95e3e2",
+      "slug": "hotel-antico-pastificio-sarubbi-accettura",
+      "nome": "Hotel Antico Pastificio Sarubbi",
+      "city_name": "Accettura",
+      "indirizzo": "Via Roma, 107, 75018 Stigliano MT",
+      "lat": 40.405568,
+      "lng": 16.225931
+    },
+    {
+      "id": "b95557b9-7a17-4f09-bebe-892c2734766d",
+      "slug": "hotel-croccia-accettura-accettura",
+      "nome": "Hotel Croccia Accettura",
+      "city_name": "Accettura",
+      "indirizzo": "Via Salita Bastione, 34, 75011 Accettura MT",
+      "lat": 40.493609,
+      "lng": 16.157928
+    },
+    {
+      "id": "3663a281-1549-4f32-9206-772888ec8bdc",
+      "slug": "hotel-la-salitella-accettura",
+      "nome": "Hotel La Salitella",
+      "city_name": "Accettura",
+      "indirizzo": "SS 407 Basentana, Snc, 75017 Salandra MT",
+      "lat": 40.585348,
+      "lng": 16.275675
+    },
+    {
+      "id": "70ffbd31-02ef-48e0-83a1-f1c95b453060",
+      "slug": "hotel-mariano-accettura",
+      "nome": "Hotel Mariano",
+      "city_name": "Accettura",
+      "indirizzo": "Via principe di Napoli, 65, 75018 Stigliano MT",
+      "lat": 40.402179,
+      "lng": 16.231867
+    },
+    {
+      "id": "16232138-dce0-48c4-925a-3f7b127f2514",
+      "slug": "hotel-ristorante-407-accettura",
+      "nome": "Hotel Ristorante 407",
+      "city_name": "Accettura",
+      "indirizzo": "Via Scalo Ferroviario, 31/33, 75010 Scalo Ferroviario Grassano-garaguso MT",
+      "lat": 40.593173,
+      "lng": 16.245261
+    },
+    {
+      "id": "b815e458-681b-4250-9723-68bc500910b9",
+      "slug": "hotel-san-giuliano-accettura",
+      "nome": "Hotel San Giuliano",
+      "city_name": "Accettura",
+      "indirizzo": "Piazza Peppino Cartoscelli, 7, 75011 Accettura MT",
+      "lat": 40.493054,
+      "lng": 16.158201
+    },
+    {
+      "id": "012b8d8a-7af8-48d6-8393-413fc472dfc4",
+      "slug": "la-panoramica-accettura",
+      "nome": "La Panoramica",
+      "city_name": "Accettura",
+      "indirizzo": "Via Michele Trivigno, 19, 85010 Castelmezzano PZ",
+      "lat": 40.531112,
+      "lng": 16.0475
+    },
+    {
+      "id": "49cbc074-3f80-47d7-b9ed-892c25733814",
+      "slug": "mirutt-b-b-wellness-accettura",
+      "nome": "Mirutt B&B & Wellness",
+      "city_name": "Accettura",
+      "indirizzo": "Vico Primo Castello, 8, 85010 Castelmezzano PZ",
+      "lat": 40.530838,
+      "lng": 16.049328
+    },
+    {
+      "id": "20535ff1-928e-408c-9476-d8bbf3c3996c",
+      "slug": "palazzo-laureano-dimora-storica-accettura",
+      "nome": "Palazzo Laureano - Dimora Storica",
+      "city_name": "Accettura",
+      "indirizzo": "Via Duomo, 8, 75019 Tricarico MT",
+      "lat": 40.623862,
+      "lng": 16.14338
+    },
+    {
+      "id": "09463fc8-32fa-4966-a5d0-acc559b13c5b",
+      "slug": "abruzzo-segreto-bed-breakfast-acciano",
+      "nome": "Abruzzo Segreto bed & breakfast",
+      "city_name": "Acciano",
+      "indirizzo": "Via S. Girolamo, 3, 67020 Navelli AQ",
+      "lat": 42.236646,
+      "lng": 13.728798
+    },
+    {
+      "id": "75d45941-ed55-44d9-af7f-03df966f7b42",
+      "slug": "agriturismo-il-pozzo-dei-desideri-acciano",
+      "nome": "Agriturismo Il Pozzo dei Desideri",
+      "city_name": "Acciano",
+      "indirizzo": "Via della Torre, 67020 San Pio delle Camere AQ",
+      "lat": 42.292133,
+      "lng": 13.635525
+    },
+    {
+      "id": "1541fe20-3ce8-4a03-9f71-a65cb0e8ba89",
+      "slug": "albergo-ma-re-acciano",
+      "nome": "Albergo Ma.Re",
+      "city_name": "Acciano",
+      "indirizzo": "Via Nerino Fracasso, 4, 65026 Popoli PE",
+      "lat": 42.172005,
+      "lng": 13.831924
+    },
+    {
+      "id": "c8df4d9f-94d5-4803-ab98-b2041550c7bc",
+      "slug": "albergo-ristorante-monte-selva-acciano",
+      "nome": "Albergo Ristorante Monte Selva",
+      "city_name": "Acciano",
+      "indirizzo": "SS. 17 Km 53, 67021 Barisciano AQ",
+      "lat": 42.319382,
+      "lng": 13.58691
+    },
+    {
+      "id": "73b55183-0e5c-46b3-a31e-9acdf2963750",
+      "slug": "alloggio-taddei-acciano",
+      "nome": "alloggio taddei",
+      "city_name": "Acciano",
+      "indirizzo": "S.da Provinciale Barisciano Caste de Monte, 5, 67021 Barisciano AQ",
+      "lat": 42.321108,
+      "lng": 13.587585
+    },
+    {
+      "id": "28af6aed-856a-4319-9c2d-ec3ec53f8efe",
+      "slug": "b-b-bellavista-acciano",
+      "nome": "B&B BellaVista",
+      "city_name": "Acciano",
+      "indirizzo": "Via Gran Sasso, n°4, 65026 Popoli PE",
+      "lat": 42.17684,
+      "lng": 13.833
+    },
+    {
+      "id": "ba5869f9-aa33-4436-a21d-edc1a878d15e",
+      "slug": "b-b-goriano-valli-acciano",
+      "nome": "B&B Goriano Valli",
+      "city_name": "Acciano",
+      "indirizzo": "Via Principale, 13, 67020 Goriano Valli AQ",
+      "lat": 42.182447,
+      "lng": 13.66803
+    },
+    {
+      "id": "7da887c0-b0c0-4ee4-84ce-3a4ad685169e",
+      "slug": "b-b-il-minotauro-acciano",
+      "nome": "B&B Il Minotauro",
+      "city_name": "Acciano",
+      "indirizzo": "Via Ricasso, 75, 67030 Vittorito AQ",
+      "lat": 42.12435,
+      "lng": 13.816999
+    },
+    {
+      "id": "859b4fd9-ff27-4e3a-9733-7bc223771ee2",
+      "slug": "b-b-la-grotta-di-nonno-vittorio-acciano",
+      "nome": "B&B La grotta di nonno Vittorio",
+      "city_name": "Acciano",
+      "indirizzo": "Via Carapelle, 5, 67020 San Pio delle Camere AQ",
+      "lat": 42.28747,
+      "lng": 13.654429
+    },
+    {
+      "id": "ccadbd61-7c89-4b77-9c6b-c6df8ee9b44a",
+      "slug": "b-b-sotto-le-volte-acciano",
+      "nome": "B&B Sotto Le Volte",
+      "city_name": "Acciano",
+      "indirizzo": "15bis, Via del Municipio, 67020 Navelli AQ",
+      "lat": 42.237264,
+      "lng": 13.728791
+    },
+    {
+      "id": "dbc04490-6754-4096-9a58-3860592d3075",
+      "slug": "bed-breakfast-la-solagna-acciano",
+      "nome": "Bed & Breakfast La Solagna",
+      "city_name": "Acciano",
+      "indirizzo": "Strada Interpoderale S. Lorenzo, 1, 67020 Acciano AQ",
+      "lat": 42.20651,
+      "lng": 13.65646
+    },
+    {
+      "id": "79eab0b9-59d9-4c8f-89e4-e38732d5a007",
+      "slug": "charme-in-perillis-acciano",
+      "nome": "Charme in Perillis",
+      "city_name": "Acciano",
+      "indirizzo": "via Colle, sn, 67020 San Benedetto in Perillis AQ",
+      "lat": 42.183521,
+      "lng": 13.771781
+    },
+    {
+      "id": "79a9ffc0-56b2-42a1-8911-55644b4146db",
+      "slug": "collis-petri-relais-acciano",
+      "nome": "Collis Petri Relais",
+      "city_name": "Acciano",
+      "indirizzo": "Via Dietro le Mura, 3, 67020 Collepietro AQ",
+      "lat": 42.221344,
+      "lng": 13.779272
+    },
+    {
+      "id": "7897f0e2-9cdc-4dfd-86e9-9d617cbf5714",
+      "slug": "hotel-lory-acciano",
+      "nome": "Hotel Lory",
+      "city_name": "Acciano",
+      "indirizzo": "Via Oreste Ranelletti, 335, 67043 Celano AQ",
+      "lat": 42.079048,
+      "lng": 13.551009
+    },
+    {
+      "id": "cb05de9b-e240-49a5-98f6-e94887db331b",
+      "slug": "hotel-tre-monti-acciano",
+      "nome": "Hotel Tre Monti",
+      "city_name": "Acciano",
+      "indirizzo": "V. Tiburtina Valeria, 1, 65026 Popoli PE",
+      "lat": 42.176415,
+      "lng": 13.837481
+    },
+    {
+      "id": "bc389f21-9e78-4513-a97b-679bb410bf58",
+      "slug": "il-vecchio-olmo-acciano",
+      "nome": "il Vecchio Olmo",
+      "city_name": "Acciano",
+      "indirizzo": "Via Lugnano, 67020 Gagliano Aterno AQ",
+      "lat": 42.13013,
+      "lng": 13.702285
+    }
+  ]
+}

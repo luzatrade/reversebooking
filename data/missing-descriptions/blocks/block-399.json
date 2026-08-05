@@ -1,0 +1,323 @@
+{
+  "block": 399,
+  "blockId": "399",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "189d4a93-da10-4c05-ace3-a339b48f1f38",
+      "slug": "agriturismo-i-9-filari-camposampiero",
+      "nome": "Agriturismo I 9 Filari",
+      "city_name": "Camposampiero",
+      "indirizzo": "Via Magarotto, 35, 35010 Limena PD",
+      "lat": 45.464368,
+      "lng": 11.836305
+    },
+    {
+      "id": "bb9e551b-8be9-45fc-a340-d2c1b32f2506",
+      "slug": "al-tezzon-hotel-camposampiero",
+      "nome": "Al Tezzon Hotel",
+      "city_name": "Camposampiero",
+      "indirizzo": "Borgo Trento Trieste, 33/10, 35012 Camposampiero PD",
+      "lat": 45.566877,
+      "lng": 11.932132
+    },
+    {
+      "id": "61b899f4-a0d1-4c6c-bfc8-fba77e251441",
+      "slug": "alloggi-villa-rosa-camposampiero",
+      "nome": "Alloggi Villa Rosa",
+      "city_name": "Camposampiero",
+      "indirizzo": "Via Baratella, 15, 35012 Camposampiero PD",
+      "lat": 45.569823,
+      "lng": 11.93222
+    },
+    {
+      "id": "3a7dfe44-e1b3-4681-964a-1671ad8633a2",
+      "slug": "b-b-armonie-di-campagna-camposampiero",
+      "nome": "B&B ARMONIE DI CAMPAGNA",
+      "city_name": "Camposampiero",
+      "indirizzo": "Via Campagna, 97, 35015 Galliera Veneta PD",
+      "lat": 45.677166,
+      "lng": 11.818926
+    },
+    {
+      "id": "ba1cc3f8-0a5c-463c-91a4-2d4246ba1dae",
+      "slug": "b-b-sotto-le-mura-camposampiero",
+      "nome": "B&B Sotto le Mura",
+      "city_name": "Camposampiero",
+      "indirizzo": "Via Trieste, 24, 35013 Cittadella PD",
+      "lat": 45.654295,
+      "lng": 11.785712
+    },
+    {
+      "id": "21d10cfc-519c-4ef0-aedc-ebeec974ea8d",
+      "slug": "ca-boin-bed-breakfast-camposampiero",
+      "nome": "Ca' Boin Bed & Breakfast",
+      "city_name": "Camposampiero",
+      "indirizzo": "Via dei Piazzotti, 29, 31030 Albaredo di Vedelago TV",
+      "lat": 45.660554,
+      "lng": 12.010326
+    },
+    {
+      "id": "8d2db1c6-d9d7-467e-baf7-c4d9b9206262",
+      "slug": "eudaimonia-apartments-fratte-camposampiero",
+      "nome": "Eudaimonia Apartments Fratte",
+      "city_name": "Camposampiero",
+      "indirizzo": "Via Ghiacciaia, 69, 35010 Fratte PD",
+      "lat": 45.582232,
+      "lng": 11.904906
+    },
+    {
+      "id": "35ef56eb-0484-4d89-b034-02404331eb46",
+      "slug": "hotel-san-paolo-camposampiero",
+      "nome": "Hotel San Paolo",
+      "city_name": "Camposampiero",
+      "indirizzo": "Via Borgo Padova, 5, 35012 Camposampiero PD",
+      "lat": 45.564753,
+      "lng": 11.930655
+    },
+    {
+      "id": "508b8a13-462d-46d0-9bff-fad3172740c8",
+      "slug": "residence-la-castellana-camposampiero",
+      "nome": "Residence La Castellana",
+      "city_name": "Camposampiero",
+      "indirizzo": "Via Monte Grappa, 54U, 31023 Resana TV",
+      "lat": 45.654429,
+      "lng": 11.972239
+    },
+    {
+      "id": "c993790f-bd8a-46fe-a7d4-5d579e1364bf",
+      "slug": "b-b-mon-reve-camposano-na-camposano",
+      "nome": "B&B Mon Rêve - Camposano (Na)",
+      "city_name": "Camposano",
+      "indirizzo": "Via Madonnella, 52, 80030 Camposano NA",
+      "lat": 40.957005,
+      "lng": 14.523845
+    },
+    {
+      "id": "179352b8-ea3f-4776-85b8-3aabf82a9d0c",
+      "slug": "dubai-village-camposano",
+      "nome": "Dubai Village",
+      "city_name": "Camposano",
+      "indirizzo": "Via Dubai, 1, 80030 Camposano NA",
+      "lat": 40.943037,
+      "lng": 14.53299
+    },
+    {
+      "id": "61b6d798-cc8f-4ecf-afb8-ffafc75da049",
+      "slug": "hotel-palazzo-giordano-bruno-camposano",
+      "nome": "Hotel Palazzo Giordano Bruno",
+      "city_name": "Camposano",
+      "indirizzo": "SS7bis, 321, 80035 Nola NA",
+      "lat": 40.935055,
+      "lng": 14.529139
+    },
+    {
+      "id": "78c301d8-bc8c-4cc5-bca0-b90e527a28f2",
+      "slug": "il-cortile-bed-breakfast-agriturismo-camposano",
+      "nome": "Il Cortile - Bed & Breakfast Agriturismo",
+      "city_name": "Camposano",
+      "indirizzo": "Via Roma, 43, 80033 Cicciano NA",
+      "lat": 40.96165,
+      "lng": 14.539299
+    },
+    {
+      "id": "2345be50-e3d6-4ed7-a1f5-6b6c1830b10c",
+      "slug": "ladi-house-camposano",
+      "nome": "LADI HOUSE",
+      "city_name": "Camposano",
+      "indirizzo": "Via Monsignor Amilcare Boccio, 109, 80035 Nola NA",
+      "lat": 40.920074,
+      "lng": 14.533846
+    },
+    {
+      "id": "e74063fd-881a-4c94-9de1-6b084521a020",
+      "slug": "ohahsi-camposano",
+      "nome": "OhAhSi",
+      "city_name": "Camposano",
+      "indirizzo": "V. Nazionale delle Puglie, 107, 80035 Nola NA",
+      "lat": 40.937283,
+      "lng": 14.520014
+    },
+    {
+      "id": "c75b838d-de58-4ae5-822a-d62fca3cd10d",
+      "slug": "radisson-hotel-naples-nola-camposano",
+      "nome": "Radisson Hotel Naples Nola",
+      "city_name": "Camposano",
+      "indirizzo": "Ss/7 Bis, km 50, 80035 Nola NA",
+      "lat": 40.932159,
+      "lng": 14.515317
+    },
+    {
+      "id": "dc95fce5-b5cf-4498-a4bf-401e086611ba",
+      "slug": "villa-nancy-camposano",
+      "nome": "Villa Nancy",
+      "city_name": "Camposano",
+      "indirizzo": "Via Roma, 129, 80030 Cimitile NA",
+      "lat": 40.942596,
+      "lng": 14.528537
+    },
+    {
+      "id": "97f88ea5-2813-4d74-b3f9-5b153baf78ed",
+      "slug": "aden-b-b-camposanto",
+      "nome": "Aden B&B",
+      "city_name": "Camposanto",
+      "indirizzo": "Via San Cristoforo, 59D, 40017 San Matteo della Decima BO",
+      "lat": 44.716803,
+      "lng": 11.234391
+    },
+    {
+      "id": "3403dadf-a47a-449a-9f32-0681b9baaad5",
+      "slug": "b-b-villa-dei-calchi-camposanto",
+      "nome": "B & B Villa dei Calchi",
+      "city_name": "Camposanto",
+      "indirizzo": "Via degli Estensi, 474, 41038 San Felice Sul Panaro MO",
+      "lat": 44.839295,
+      "lng": 11.151981
+    },
+    {
+      "id": "6f23649b-4aab-44cd-b2d1-a284e66fd1bf",
+      "slug": "b-b-i-pioppi-cipressini-camposanto",
+      "nome": "B&B I Pioppi Cipressini",
+      "city_name": "Camposanto",
+      "indirizzo": "Via degli Orsi, 692/B, 40014 Crevalcore BO",
+      "lat": 44.721276,
+      "lng": 11.181816
+    },
+    {
+      "id": "56fe4fbd-0b20-4edd-8cbf-c4208a61f78a",
+      "slug": "bed-breakfast-la-corte-di-adelina-camposanto",
+      "nome": "Bed & Breakfast La Corte di Adelina",
+      "city_name": "Camposanto",
+      "indirizzo": "Via Viazzola, 1704/b, 41017 Ravarino MO",
+      "lat": 44.74233,
+      "lng": 11.103101
+    },
+    {
+      "id": "3820c1f5-2abe-4f91-b08a-29c2a40a55ba",
+      "slug": "hotel-appartamenti-camere-via-onorio-ferraresi-camposanto",
+      "nome": "hotel appartamenti camere via onorio ferraresi",
+      "city_name": "Camposanto",
+      "indirizzo": "Via O. Ferraresi, 12, 41038 San Felice sul Panaro MO",
+      "lat": 44.839046,
+      "lng": 11.143586
+    },
+    {
+      "id": "2d3b307a-152c-4108-93c9-a9adb63fe731",
+      "slug": "hotel-cavezzo-camposanto",
+      "nome": "Hotel Cavezzo",
+      "city_name": "Camposanto",
+      "indirizzo": "Via Camillo Benso Conte di Cavour, 373, 41032 Cavezzo MO",
+      "lat": 44.822367,
+      "lng": 10.995126
+    },
+    {
+      "id": "14c85d46-fd57-4e36-a916-099b448000bd",
+      "slug": "hotel-la-cantina-srl-camposanto",
+      "nome": "Hotel La Cantina Srl",
+      "city_name": "Camposanto",
+      "indirizzo": "Via Statale, 179, 41036 Medolla MO",
+      "lat": 44.833716,
+      "lng": 11.052495
+    },
+    {
+      "id": "10fd9f2e-2f28-4e96-97bf-4cb672b4911d",
+      "slug": "hotel-luna-camposanto",
+      "nome": "Hotel Luna",
+      "city_name": "Camposanto",
+      "indirizzo": "Via dell' Olmone, 516, 41038 San Felice Sul Panaro MO",
+      "lat": 44.824243,
+      "lng": 11.13106
+    },
+    {
+      "id": "db3500a4-7627-4132-bf0c-dfee08baa446",
+      "slug": "hotel-polo-camposanto",
+      "nome": "Hotel Polo",
+      "city_name": "Camposanto",
+      "indirizzo": "Via Perossaro, 1466, 41038 San Felice Sul Panaro MO",
+      "lat": 44.833448,
+      "lng": 11.120366
+    },
+    {
+      "id": "a318e224-816d-4073-9fcd-9bfbd179eb23",
+      "slug": "le-stanze-di-matilde-camposanto",
+      "nome": "Le stanze di Matilde",
+      "city_name": "Camposanto",
+      "indirizzo": "Via di Mezzo Levante, 4685, 40014 Crevalcore BO",
+      "lat": 44.714537,
+      "lng": 11.205449
+    },
+    {
+      "id": "2372c3ae-1a9a-4308-a37a-0a8fef5fb671",
+      "slug": "agriturismo-regina-di-cuori-campotosto",
+      "nome": "Agriturismo Regina di Cuori",
+      "city_name": "Campotosto",
+      "indirizzo": "Via Tredici Cantoni, 67100 L'Aquila AQ",
+      "lat": 42.365483,
+      "lng": 13.420346
+    },
+    {
+      "id": "09c57320-9eed-48ac-a99c-c7e0a77afdbf",
+      "slug": "fanesia-coliving-campotosto",
+      "nome": "Fanesia Coliving",
+      "city_name": "Campotosto",
+      "indirizzo": "Corso Vittorio Emanuele III', 9, 64044 Fano Adriano TE",
+      "lat": 42.552693,
+      "lng": 13.537018
+    },
+    {
+      "id": "e857e693-ff27-4b33-ae1d-fe60efa0ad2a",
+      "slug": "hotel-nido-dell-aquila-campotosto",
+      "nome": "Hotel Nido dell'Aquila",
+      "city_name": "Campotosto",
+      "indirizzo": "Località Fonte Cerreto, 67100 Assergi AQ",
+      "lat": 42.425061,
+      "lng": 13.534112
+    },
+    {
+      "id": "7e5bf9be-b2a2-415e-b844-9513e546c12d",
+      "slug": "hotel-residence-azzurro-campotosto",
+      "nome": "Hotel Residence Azzurro",
+      "city_name": "Campotosto",
+      "indirizzo": "Via Giovanni di Vincenzo, 2, 67100 L'Aquila AQ",
+      "lat": 42.358031,
+      "lng": 13.383176
+    },
+    {
+      "id": "674722d4-4349-47c1-bdf3-e8e92ac614ea",
+      "slug": "la-fontana-campotosto",
+      "nome": "La Fontana",
+      "city_name": "Campotosto",
+      "indirizzo": "Codice CIN IT067034C18M5KJ6UD, Via Casarine, 9, 64047 Intermesoli TE",
+      "lat": 42.536095,
+      "lng": 13.541858
+    },
+    {
+      "id": "18670f13-d023-473b-8c7b-0648395e2166",
+      "slug": "la-valle-del-gran-sasso-hotel-residence-campotosto",
+      "nome": "La Valle del Gran Sasso Hotel - Residence",
+      "city_name": "Campotosto",
+      "indirizzo": "SS17bis, 67100 Assergi AQ",
+      "lat": 42.412994,
+      "lng": 13.506123
+    },
+    {
+      "id": "74c4159d-7933-4a88-9dcb-68b822a4cd9a",
+      "slug": "locanda-mausonium-campotosto",
+      "nome": "Locanda Mausonium",
+      "city_name": "Campotosto",
+      "indirizzo": "Via Lecco, 26, 67013 Mascioni AQ",
+      "lat": 42.53135,
+      "lng": 13.344482
+    },
+    {
+      "id": "d8b19851-e7a0-40ff-a639-48c7e2dce683",
+      "slug": "agriturismo-prunara-farmstead-f-lli-santoli-camugnano",
+      "nome": "Agriturismo Prunara Farmstead - F.lli Santoli",
+      "city_name": "Camugnano",
+      "indirizzo": "Località Prunara, 73, 40036 Monzuno BO",
+      "lat": 44.268438,
+      "lng": 11.24811
+    }
+  ]
+}

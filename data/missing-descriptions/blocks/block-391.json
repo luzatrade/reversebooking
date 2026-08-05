@@ -1,0 +1,323 @@
+{
+  "block": 391,
+  "blockId": "391",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "ee2bf7e8-020d-4fff-ad2a-7583eefc08d1",
+      "slug": "villa-medusa-camper-sicilia-campobello-di-mazara",
+      "nome": "Villa Medusa - Camper Sicilia",
+      "city_name": "Campobello di Mazara",
+      "indirizzo": "Bosco Vecchio, 1/2, 91021 Campobello di Mazara TP",
+      "lat": 37.585505,
+      "lng": 12.725509
+    },
+    {
+      "id": "9923d70a-1b36-4916-90bd-f5f9362492b9",
+      "slug": "wind-resort-campobello-di-mazara",
+      "nome": "Wind Resort",
+      "city_name": "Campobello di Mazara",
+      "indirizzo": "Contrada Puzziteddu, 91021 Campobello di Mazara TP",
+      "lat": 37.561079,
+      "lng": 12.679026
+    },
+    {
+      "id": "b5f97870-9172-40f2-b083-eab887edd80c",
+      "slug": "zahira-resort-campobello-di-mazara",
+      "nome": "Zahira Resort",
+      "city_name": "Campobello di Mazara",
+      "indirizzo": "Via Tonnara Fontana, 180, 91021 Campobello di Mazara TP",
+      "lat": 37.5803,
+      "lng": 12.74865
+    },
+    {
+      "id": "74259238-ec68-4fe7-b5e4-5220c4636ab5",
+      "slug": "hotel-lo-sciatore-campochiaro",
+      "nome": "Hotel Lo Sciatore",
+      "city_name": "Campochiaro",
+      "indirizzo": "KM 388, KM 388,71, 86027 Campitello Matese CB",
+      "lat": 41.463151,
+      "lng": 14.389992
+    },
+    {
+      "id": "1d7de199-3408-455e-848e-d743ec39d27e",
+      "slug": "hotel-miletto-spa-campochiaro",
+      "nome": "Hotel Miletto & Spa",
+      "city_name": "Campochiaro",
+      "indirizzo": "Via, 86027 Campitello Matese CB",
+      "lat": 41.461906,
+      "lng": 14.393185
+    },
+    {
+      "id": "089b9493-60af-4253-9394-31c812476500",
+      "slug": "il-palazzetto-dei-briganti-campochiaro",
+      "nome": "Il Palazzetto dei Briganti",
+      "city_name": "Campochiaro",
+      "indirizzo": "Via Roma, 10, 86014 Guardiaregia CB",
+      "lat": 41.434991,
+      "lng": 14.542766
+    },
+    {
+      "id": "68d6bace-f08a-4a4b-969f-777a1c4cd483",
+      "slug": "locanda-arcari-campochiaro",
+      "nome": "Locanda Arcari",
+      "city_name": "Campochiaro",
+      "indirizzo": "Via Colle Croce, 1, 86014 Guardiaregia CB",
+      "lat": 41.434686,
+      "lng": 14.541558
+    },
+    {
+      "id": "c4549c1b-9936-459f-8cda-4887108e0862",
+      "slug": "moma-roof-garden-campochiaro",
+      "nome": "MoMa Roof Garden",
+      "city_name": "Campochiaro",
+      "indirizzo": "Località Rio Freddo, 2, 86020 San Polo Matese CB",
+      "lat": 41.474688,
+      "lng": 14.499145
+    },
+    {
+      "id": "1ec85f0f-c9a9-44fb-8bf3-9475a24ed350",
+      "slug": "vittonico-campochiaro",
+      "nome": "VittoNico",
+      "city_name": "Campochiaro",
+      "indirizzo": "Via dei Mugnai, 2, 82026 Morcone BN",
+      "lat": 41.341903,
+      "lng": 14.661717
+    },
+    {
+      "id": "16d3e3c1-ca4b-4b2d-8a16-99fb6b37f31a",
+      "slug": "why-not-b-b-campochiaro",
+      "nome": "Why Not B&B",
+      "city_name": "Campochiaro",
+      "indirizzo": "Contrada Fonteiaova 38bis, 86020 San Polo Matese CB",
+      "lat": 41.473504,
+      "lng": 14.513747
+    },
+    {
+      "id": "533d059f-ef7e-4f69-9c46-b7d195837c15",
+      "slug": "agriturismo-villa-selvatico-campodarsego",
+      "nome": "Agriturismo Villa Selvatico",
+      "city_name": "Campodarsego",
+      "indirizzo": "Via Pietro Selvatico, 1, 35010 Vigonza PD",
+      "lat": 45.489541,
+      "lng": 11.947769
+    },
+    {
+      "id": "a14086e3-55d6-442e-8108-85caee61ff91",
+      "slug": "casa-di-accoglienza-lucia-valentini-terrani-campodarsego",
+      "nome": "Casa di Accoglienza Lucia Valentini Terrani",
+      "city_name": "Campodarsego",
+      "indirizzo": "Via Giusto de' Menabuoi, 64, 35132 Padova PD",
+      "lat": 45.420822,
+      "lng": 11.886617
+    },
+    {
+      "id": "19fcc16e-27b9-470c-a1e8-c3671d9c3146",
+      "slug": "il-viaggiatore-b-b-campodarsego",
+      "nome": "Il Viaggiatore B&B",
+      "city_name": "Campodarsego",
+      "indirizzo": "Via Anconetta, 56/A, 35010 San Giorgio delle Pertiche PD",
+      "lat": 45.535776,
+      "lng": 11.902536
+    },
+    {
+      "id": "1d190c92-1381-4f50-96e6-971ea3aa14cf",
+      "slug": "rosalimone-b-b-campodarsego",
+      "nome": "Rosalimone B&B",
+      "city_name": "Campodarsego",
+      "indirizzo": "Via P. Massimiliano Kolbe, 38, 35011 Campodarsego PD",
+      "lat": 45.504561,
+      "lng": 11.953025
+    },
+    {
+      "id": "e8ef5f44-5890-4571-b930-2320e7122f61",
+      "slug": "villa-da-ponte-campodarsego",
+      "nome": "Villa Da Ponte",
+      "city_name": "Campodarsego",
+      "indirizzo": "Via Roma, 72, 35010 Cadoneghe PD",
+      "lat": 45.472369,
+      "lng": 11.924011
+    },
+    {
+      "id": "9249a592-e88e-4fd2-a1ea-68b1adf527e5",
+      "slug": "agritur-agrihouse-val-di-non-trentino-campodenno",
+      "nome": "Agritur Agrihouse - Val di Non, Trentino",
+      "city_name": "Campodenno",
+      "indirizzo": "Vicolo della Rotonda, 3, 38010 Campodenno TN",
+      "lat": 46.248774,
+      "lng": 11.048111
+    },
+    {
+      "id": "f3f4fe0a-e4f0-4952-960c-0e4e11c6c364",
+      "slug": "agritur-casamela-campodenno",
+      "nome": "Agritur Casamela",
+      "city_name": "Campodenno",
+      "indirizzo": "Via alle Tovare, 16, 38012 Taio TN",
+      "lat": 46.315841,
+      "lng": 11.067698
+    },
+    {
+      "id": "9ed799fa-428b-4237-a217-9ab4ea50ea23",
+      "slug": "agritur-la-pieve-campodenno",
+      "nome": "Agritur La Pieve",
+      "city_name": "Campodenno",
+      "indirizzo": "Via di Sant'Eusebio, 4, 38012 Torra TN",
+      "lat": 46.301995,
+      "lng": 11.079923
+    },
+    {
+      "id": "70a54d91-34da-4c7e-abff-da4e6819ae4e",
+      "slug": "agritur-piccolo-fiore-campodenno",
+      "nome": "Agritur Piccolo Fiore",
+      "city_name": "Campodenno",
+      "indirizzo": "Via S. Marcello, 40, 38012 Dardine TN",
+      "lat": 46.286287,
+      "lng": 11.082812
+    },
+    {
+      "id": "22d4b3ef-1e4d-4f00-bcff-aaa7d7145865",
+      "slug": "albergo-al-borghetto-campodenno",
+      "nome": "Albergo Al Borghetto",
+      "city_name": "Campodenno",
+      "indirizzo": "Via Emanuele de Varda, 10, 38017 Mezzolombardo TN",
+      "lat": 46.216162,
+      "lng": 11.088405
+    },
+    {
+      "id": "7778adaa-ef67-429b-8aaf-2228d488f1aa",
+      "slug": "albergo-nardelli-campodenno",
+      "nome": "Albergo Nardelli",
+      "city_name": "Campodenno",
+      "indirizzo": "Via Lovernatico, 40, 38010 Sporminore TN",
+      "lat": 46.2379,
+      "lng": 11.030026
+    },
+    {
+      "id": "167138a1-e159-4c5a-8503-4686f226388d",
+      "slug": "albergo-ristorante-scoiattolo-campodenno",
+      "nome": "Albergo Ristorante Scoiattolo",
+      "city_name": "Campodenno",
+      "indirizzo": "38010 Pineta TN, Italia",
+      "lat": 46.23957,
+      "lng": 11.022235
+    },
+    {
+      "id": "22b0dffe-2759-4dc5-b54d-b0d3914b4e1a",
+      "slug": "alps-lover-campodenno",
+      "nome": "ALPS LOVER",
+      "city_name": "Campodenno",
+      "indirizzo": "Via Luc, 6, 38010 Lover TN",
+      "lat": 46.248465,
+      "lng": 11.023993
+    },
+    {
+      "id": "8a99648f-4d49-422e-a6e9-07344a24bd23",
+      "slug": "b-b-al-trifoglio-campodenno",
+      "nome": "B&b Al Trifoglio",
+      "city_name": "Campodenno",
+      "indirizzo": "Via Castel Belasi, 8, 38010 Campodenno TN",
+      "lat": 46.248867,
+      "lng": 11.033295
+    },
+    {
+      "id": "30eb7146-b677-4275-9739-ba3983dde7b3",
+      "slug": "b-b-fai-le-coccole-campodenno",
+      "nome": "B&B Fai le Coccole",
+      "city_name": "Campodenno",
+      "indirizzo": "Via Al Belvedere, 49, 38010 Fai della Paganella TN",
+      "lat": 46.175909,
+      "lng": 11.07381
+    },
+    {
+      "id": "69e272d0-68f4-4713-a936-7a55428800fc",
+      "slug": "b-b-la-casa-del-sole-campodenno-campodenno",
+      "nome": "B&B La casa del Sole Campodenno",
+      "city_name": "Campodenno",
+      "indirizzo": "Via Soì, 12, 38010 Campodenno TN",
+      "lat": 46.255717,
+      "lng": 11.038023
+    },
+    {
+      "id": "fc9e5454-99c8-4b7f-804b-2e2cc2b26e21",
+      "slug": "b-b-pra-da-lares-campodenno",
+      "nome": "B&B Pra da Lares",
+      "city_name": "Campodenno",
+      "indirizzo": "sp, 124, 38010 Ton TN",
+      "lat": 46.243192,
+      "lng": 11.063517
+    },
+    {
+      "id": "eb6bba40-baef-465d-99a1-aa21ffe3ec61",
+      "slug": "b-b-vivi-l-attimo-campodenno",
+      "nome": "B&B Vivi l'Attimo",
+      "city_name": "Campodenno",
+      "indirizzo": "Via Dossi, 6, 38010 Quetta TN",
+      "lat": 46.260382,
+      "lng": 11.048414
+    },
+    {
+      "id": "7d09be5a-bf8f-4b0b-b082-9833bf878622",
+      "slug": "chalet-tovel-mountain-lake-campodenno",
+      "nome": "Chalet Tovel - Mountain Lake",
+      "city_name": "Campodenno",
+      "indirizzo": "Località Lago di, 38019 Tovel TN",
+      "lat": 46.263979,
+      "lng": 10.952897
+    },
+    {
+      "id": "c3e746d2-63cc-4e9a-a2f4-9ec67b27cb0c",
+      "slug": "hotel-ristorante-pizzeria-dal-pez-campodenno",
+      "nome": "Hotel | Ristorante Pizzeria \"Dal Pez\"",
+      "city_name": "Campodenno",
+      "indirizzo": "Via Alcide De Gasperi, 4, 38010 Denno TN",
+      "lat": 46.275022,
+      "lng": 11.048398
+    },
+    {
+      "id": "2d966cdd-072d-49c1-bd3a-031723ffc63e",
+      "slug": "hotel-garni-la-vigna-adult-friendly-campodenno",
+      "nome": "Hotel Garni La Vigna - Adult Friendly",
+      "city_name": "Campodenno",
+      "indirizzo": "Via G. Postal, 49a, 38098 San Michele all'Adige TN",
+      "lat": 46.19878,
+      "lng": 11.124637
+    },
+    {
+      "id": "984f7d30-6aa8-48d3-831a-2d58098f9d65",
+      "slug": "hotel-rifugio-sores-campodenno",
+      "nome": "Hotel Rifugio Sores",
+      "city_name": "Campodenno",
+      "indirizzo": "Via Predaia, 1, 38012 Tres TN",
+      "lat": 46.318772,
+      "lng": 11.13509
+    },
+    {
+      "id": "e31c6f2f-8414-4d60-b627-2710f2802ff8",
+      "slug": "hotel-stella-alpina-campodenno",
+      "nome": "Hotel Stella Alpina",
+      "city_name": "Campodenno",
+      "indirizzo": "Via Guglielmo Marconi, 16, 38010 Fai della Paganella TN",
+      "lat": 46.181015,
+      "lng": 11.071825
+    },
+    {
+      "id": "1103b41a-0296-4e83-b4f2-b99254f4458b",
+      "slug": "affittacamere-le-benedettine-campodimele",
+      "nome": "Affittacamere le Benedettine",
+      "city_name": "Campodimele",
+      "indirizzo": "Via Alessandro Manzoni, 53, 04022 Fondi LT",
+      "lat": 41.360372,
+      "lng": 13.427132
+    },
+    {
+      "id": "0b3fcd98-511f-4654-b0a6-8c80a5f55652",
+      "slug": "b-b-city-campodimele",
+      "nome": "B&B CITY",
+      "city_name": "Campodimele",
+      "indirizzo": "Via Roma, 78, 04022 Fondi LT",
+      "lat": 41.359924,
+      "lng": 13.422274
+    }
+  ]
+}

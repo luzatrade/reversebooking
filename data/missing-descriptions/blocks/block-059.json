@@ -1,0 +1,323 @@
+{
+  "block": 59,
+  "blockId": "059",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "412659e0-d72d-4c45-ae0c-3aaa0af5abcb",
+      "slug": "hotel-parnaso-albidona",
+      "nome": "Hotel Parnaso",
+      "city_name": "Albidona",
+      "indirizzo": "Via Longo, 3, 87075 Trebisacce CS",
+      "lat": 39.871576,
+      "lng": 16.535624
+    },
+    {
+      "id": "1a8b83a3-3464-49dc-b830-c1c34ef8978d",
+      "slug": "hotel-ristorante-pizzeria-111-albidona",
+      "nome": "Hotel Ristorante Pizzeria 111",
+      "city_name": "Albidona",
+      "indirizzo": "contrada pantano, S.da Statale 106 Jonica, 87076 Villapiana Lido CS",
+      "lat": 39.836086,
+      "lng": 16.506461
+    },
+    {
+      "id": "98e89645-16d8-48bc-9757-2cc138a547b8",
+      "slug": "hotel-villa-s-maria-albidona",
+      "nome": "Hotel Villa S. Maria",
+      "city_name": "Albidona",
+      "indirizzo": "Via Nazionale SS92, 87070 Cerchiara di Calabria CS",
+      "lat": 39.805927,
+      "lng": 16.419697
+    },
+    {
+      "id": "9dc0af80-2ca1-47b9-8d12-0f298da0194c",
+      "slug": "la-dimora-dei-nonni-albidona",
+      "nome": "La Dimora dei Nonni",
+      "city_name": "Albidona",
+      "indirizzo": "Via Duca D'Aosta, 6, 87070 Albidona CS",
+      "lat": 39.922543,
+      "lng": 16.468328
+    },
+    {
+      "id": "53f1a241-3fdc-40aa-a06a-3d167da7652f",
+      "slug": "ludoga-luxury-suite-albidona",
+      "nome": "LUDOGA' LUXURY SUITE",
+      "city_name": "Albidona",
+      "indirizzo": "Viale dei barcaioli, 1, 87075 Trebisacce CS",
+      "lat": 39.866062,
+      "lng": 16.53343
+    },
+    {
+      "id": "7021169b-7b08-4fa6-a1e0-65993fd16b9f",
+      "slug": "luxury-house-albidona",
+      "nome": "Luxury House",
+      "city_name": "Albidona",
+      "indirizzo": "Via Nazionale, 87076 Villapiana Lido CS",
+      "lat": 39.81594,
+      "lng": 16.492606
+    },
+    {
+      "id": "4a4bad6a-4fa7-4518-be18-b1daabbc8f4e",
+      "slug": "masseria-torre-di-albidona-albidona",
+      "nome": "Masseria Torre di Albidona",
+      "city_name": "Albidona",
+      "indirizzo": "87075 Piana della Torre CS",
+      "lat": 39.910216,
+      "lng": 16.56522
+    },
+    {
+      "id": "c0ea120c-2c10-41f6-90b0-5ddcd80443ae",
+      "slug": "merigio-albidona",
+      "nome": "Merigio'",
+      "city_name": "Albidona",
+      "indirizzo": "Via delle Gardenie, 95, 87076 Villapiana Lido CS",
+      "lat": 39.81549,
+      "lng": 16.492335
+    },
+    {
+      "id": "43bf6977-0f0e-4c92-ae0b-911efa764ce6",
+      "slug": "relais-capo-spulico-beach-spa-albidona",
+      "nome": "Relais Capo Spulico - Beach & SPA",
+      "city_name": "Albidona",
+      "indirizzo": "Via Piano Marina, 87070 Roseto Capo Spulico CS",
+      "lat": 39.978227,
+      "lng": 16.614457
+    },
+    {
+      "id": "639ea370-b811-4aa6-97be-145420d6c0c7",
+      "slug": "rifugio-radura-del-grano-albidona",
+      "nome": "Rifugio Radura del Grano",
+      "city_name": "Albidona",
+      "indirizzo": "Viale Sparviero, 87070 Plataci CS",
+      "lat": 39.896947,
+      "lng": 16.429614
+    },
+    {
+      "id": "2d2ce086-67da-4d96-ba16-70d22bb23282",
+      "slug": "agriturismo-capeeto-albignasego",
+      "nome": "Agriturismo Capeeto",
+      "city_name": "Albignasego",
+      "indirizzo": "V. Lago Dolfin, 2, 35124 Padova PD",
+      "lat": 45.359304,
+      "lng": 11.896843
+    },
+    {
+      "id": "7311811d-14f6-47f1-875e-ca7bb1a3efec",
+      "slug": "agriturismo-verdecielo-albignasego",
+      "nome": "Agriturismo Verdecielo",
+      "city_name": "Albignasego",
+      "indirizzo": "Via Pozzoveggiani, 30/C, 35124 Padova PD",
+      "lat": 45.34846,
+      "lng": 11.909668
+    },
+    {
+      "id": "36f48305-93ce-441c-b2e2-5b9f964ba0ec",
+      "slug": "aurora-rooms-suite-albignasego",
+      "nome": "Aurora Rooms & Suite",
+      "city_name": "Albignasego",
+      "indirizzo": "Via Roma, 238, 35020 Albignasego PD",
+      "lat": 45.345339,
+      "lng": 11.867301
+    },
+    {
+      "id": "ac31dc99-bf1f-4558-9c60-6f87ff2caf22",
+      "slug": "b-b-alle-ortensie-albignasego",
+      "nome": "B&B Alle Ortensie",
+      "city_name": "Albignasego",
+      "indirizzo": "Cin : IT028003C16QQZVHCT, Vicolo Giacomo Zanella, 26A, 35020 Albignasego PD",
+      "lat": 45.360978,
+      "lng": 11.867712
+    },
+    {
+      "id": "e23f6dd3-a9ee-44d6-89bf-571246dd423d",
+      "slug": "baraca-padova-albignasego",
+      "nome": "Baràca Padova",
+      "city_name": "Albignasego",
+      "indirizzo": "Via Battaglia, 37, 35020 Albignasego PD",
+      "lat": 45.381499,
+      "lng": 11.857639
+    },
+    {
+      "id": "285e1a27-79b9-487a-9fbe-2c0782110c89",
+      "slug": "bed-and-breakfast-ai-girasoli-albignasego",
+      "nome": "Bed and Breakfast Ai Girasoli",
+      "city_name": "Albignasego",
+      "indirizzo": "Via Piovese, 182, 35127 Padova PD",
+      "lat": 45.37731,
+      "lng": 11.904481
+    },
+    {
+      "id": "b6836904-71f1-47d7-bf37-806d47b3f391",
+      "slug": "bread-and-butter-rooms-albignasego",
+      "nome": "Bread and Butter rooms",
+      "city_name": "Albignasego",
+      "indirizzo": "Via G. Galilei, 107, 35020 Albignasego PD",
+      "lat": 45.373748,
+      "lng": 11.855682
+    },
+    {
+      "id": "c981d1cc-f3ae-4076-96c2-ae8992726d4c",
+      "slug": "caminhouse-albignasego",
+      "nome": "CAMINHOUSE",
+      "city_name": "Albignasego",
+      "indirizzo": "Via Sicilia, 4, 35127 Padova PD",
+      "lat": 45.400671,
+      "lng": 11.942057
+    },
+    {
+      "id": "eab8b0d6-7273-45af-893e-e6b286a0bca3",
+      "slug": "casa-roma-rooms-apartments-albignasego",
+      "nome": "Casa Roma rooms &apartments",
+      "city_name": "Albignasego",
+      "indirizzo": "Via Guizza Conselvana, 144, 35125 Padova PD",
+      "lat": 45.381677,
+      "lng": 11.868931
+    },
+    {
+      "id": "f1504760-09b4-41be-afe1-478e79f096cb",
+      "slug": "dc-hotel-international-albignasego",
+      "nome": "DC Hotel International",
+      "city_name": "Albignasego",
+      "indirizzo": "Corso Stati Uniti, 14/B, 35127 Padova PD",
+      "lat": 45.393639,
+      "lng": 11.934507
+    },
+    {
+      "id": "834c4883-860c-459d-8d0a-fd5b271f6c73",
+      "slug": "hotel-colonna-albignasego",
+      "nome": "HOTEL COLONNA",
+      "city_name": "Albignasego",
+      "indirizzo": "Via Roma, 174, 35020 Albignasego PD",
+      "lat": 45.349152,
+      "lng": 11.86799
+    },
+    {
+      "id": "8b9c724a-e5a3-4151-b1fe-2e710b50c3b8",
+      "slug": "hotel-master-albignasego",
+      "nome": "Hotel Master",
+      "city_name": "Albignasego",
+      "indirizzo": "Via G. Mameli, 89, 35020 Albignasego PD",
+      "lat": 45.342567,
+      "lng": 11.827285
+    },
+    {
+      "id": "4f36ac3a-b4bb-4a2b-90e9-fea9efb14735",
+      "slug": "il-colore-dei-sogni-albignasego",
+      "nome": "Il colore dei sogni",
+      "city_name": "Albignasego",
+      "indirizzo": "Via Vo' di Placca, 73, 35020 Due Carrare PD",
+      "lat": 45.330092,
+      "lng": 11.818712
+    },
+    {
+      "id": "3e69a44c-0043-49ef-9aae-469260193127",
+      "slug": "m14-hotel-spa-albignasego",
+      "nome": "M14 Hotel & SPA",
+      "city_name": "Albignasego",
+      "indirizzo": "Via Acquette, 9, 35122 Padova PD",
+      "lat": 45.399816,
+      "lng": 11.87353
+    },
+    {
+      "id": "e08de48a-983a-4549-ba4e-38700aed219e",
+      "slug": "martina-s-rooms-albignasego",
+      "nome": "Martina's Rooms",
+      "city_name": "Albignasego",
+      "indirizzo": "Via Roma, 80, 35020 Albignasego PD",
+      "lat": 45.353814,
+      "lng": 11.868988
+    },
+    {
+      "id": "94855ade-fb06-4473-9ece-bd82d487c63e",
+      "slug": "palazzo-gilberto-albignasego",
+      "nome": "Palazzo Gilberto",
+      "city_name": "Albignasego",
+      "indirizzo": "Via Sorio, 66A, 35141 Padova PD",
+      "lat": 45.400689,
+      "lng": 11.856127
+    },
+    {
+      "id": "91c03d1e-7f2f-4f43-af16-d67571267fb0",
+      "slug": "sissi-bed-breakfast-albignasego",
+      "nome": "Sissi Bed & Breakfast",
+      "city_name": "Albignasego",
+      "indirizzo": "Via Padova, 56, 35030 Selvazzano Dentro PD",
+      "lat": 45.391842,
+      "lng": 11.813859
+    },
+    {
+      "id": "6e43c44e-9e10-4c0e-8abb-1c1bbfa5349d",
+      "slug": "villa-san-bonifacio-veneto-villa-mandriola-albignasego",
+      "nome": "Villa San Bonifacio - Veneto Villa Mandriola",
+      "city_name": "Albignasego",
+      "indirizzo": "Via Sebastiano Caboto, 10, 35020 Mandriola PD",
+      "lat": 45.368432,
+      "lng": 11.845232
+    },
+    {
+      "id": "dee50705-5112-494c-b824-28022da6f9a3",
+      "slug": "agriturismo-bellarosa-bio-albinea",
+      "nome": "Agriturismo Bellarosa Bio",
+      "city_name": "Albinea",
+      "indirizzo": "Via Roncosano, 11, 42020 Albinea RE",
+      "lat": 44.622337,
+      "lng": 10.618336
+    },
+    {
+      "id": "812c4724-d19e-471e-a4bf-6066b29c9019",
+      "slug": "agriturismo-bosco-del-fracasso-albinea",
+      "nome": "Agriturismo BOSCO DEL FRACASSO",
+      "city_name": "Albinea",
+      "indirizzo": "Via Bosco del Fracasso, 20, 42019 Scandiano RE",
+      "lat": 44.613419,
+      "lng": 10.658099
+    },
+    {
+      "id": "06a65d1d-40cf-44bc-b249-fe4e77a43b33",
+      "slug": "agriturismo-il-brugnolo-albinea",
+      "nome": "Agriturismo Il Brugnolo",
+      "city_name": "Albinea",
+      "indirizzo": "Via Sabatini, 10, 42019 Scandiano RE",
+      "lat": 44.619507,
+      "lng": 10.682834
+    },
+    {
+      "id": "65335bb2-c003-456d-baae-b5638d951652",
+      "slug": "agriturismo-la-razza-albinea",
+      "nome": "Agriturismo La Razza",
+      "city_name": "Albinea",
+      "indirizzo": "Via Monterampino, 3, 42123 Reggio nell'Emilia RE",
+      "lat": 44.642358,
+      "lng": 10.616842
+    },
+    {
+      "id": "742fba6a-2dc9-4026-b229-2b7c4b596ada",
+      "slug": "antico-podere-emilia-albinea",
+      "nome": "Antico Podere Emilia",
+      "city_name": "Albinea",
+      "indirizzo": "Via Carlo Darwin, 2, 42123 Reggio nell'Emilia RE",
+      "lat": 44.680932,
+      "lng": 10.579497
+    },
+    {
+      "id": "ee640a50-0838-4a11-8a70-8f9529feab58",
+      "slug": "azienda-agricola-e-agrituristica-cavazzone-albinea",
+      "nome": "Azienda Agricola e Agrituristica Cavazzone",
+      "city_name": "Albinea",
+      "indirizzo": "Via Cavazzone, 4, 42030 Viano RE",
+      "lat": 44.580349,
+      "lng": 10.58773
+    },
+    {
+      "id": "6a9ea4a4-8c4a-4ddb-8804-688ec7a770f0",
+      "slug": "b-b-des-artistes-albinea",
+      "nome": "B&B Des Artistes",
+      "city_name": "Albinea",
+      "indirizzo": "Via E. Zacconi, 19, 42020 Albinea RE",
+      "lat": 44.60318,
+      "lng": 10.647845
+    }
+  ]
+}

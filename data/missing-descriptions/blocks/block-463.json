@@ -1,0 +1,323 @@
+{
+  "block": 463,
+  "blockId": "463",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "f4699078-bf98-49cd-9b29-5641ea0dbcee",
+      "slug": "villa-casola-b-b-casola-di-napoli",
+      "nome": "Villa Casola B&B",
+      "city_name": "Casola di Napoli",
+      "indirizzo": "Via, 84017 Nocelle SA",
+      "lat": 40.629962,
+      "lng": 14.503519
+    },
+    {
+      "id": "7ae0c6a6-bc86-4ccb-83e2-a014cf9018bb",
+      "slug": "villa-le-zagare-relais-e-spa-casola-di-napoli",
+      "nome": "Villa le Zagare Relais e SPA",
+      "city_name": "Casola di Napoli",
+      "indirizzo": "Via Visitazione, 68, 80054 Gragnano NA",
+      "lat": 40.705882,
+      "lng": 14.516209
+    },
+    {
+      "id": "bccefb14-09d5-4459-9389-77862a60827e",
+      "slug": "agriturismo-casa-turchetti-casola-in-lunigiana",
+      "nome": "Agriturismo Casa Turchetti",
+      "city_name": "Casola in Lunigiana",
+      "indirizzo": "Cattognano 19, 54015 Cattognano MS",
+      "lat": 44.298889,
+      "lng": 10.080335
+    },
+    {
+      "id": "de39b882-40c0-403b-b20c-51b27add6a09",
+      "slug": "agriturismo-il-macereto-casola-in-lunigiana",
+      "nome": "Agriturismo Il Macereto",
+      "city_name": "Casola in Lunigiana",
+      "indirizzo": "via macereto, 2, 54013 Fivizzano MS",
+      "lat": 44.236892,
+      "lng": 10.128824
+    },
+    {
+      "id": "dab02c3d-372f-4527-b4b3-76f63e1c8e21",
+      "slug": "agriturismo-la-praduscella-di-bonfigli-armandina-casola-in-lunigiana",
+      "nome": "Agriturismo La Praduscella di Bonfigli Armandina",
+      "city_name": "Casola in Lunigiana",
+      "indirizzo": "Località Praduscella 1 Moncigoli, Fivizzano 54011, 54011 Fivizzano MS",
+      "lat": 44.212547,
+      "lng": 10.082837
+    },
+    {
+      "id": "ec3b0099-da4d-4be8-ac35-138119c83f0f",
+      "slug": "azienda-agricola-chinca-agriturismo-il-melo-di-f-casola-in-lunigiana",
+      "nome": "Azienda agricola Chinca - Agriturismo \"Il Melo\" di Francesca Chinca",
+      "city_name": "Casola in Lunigiana",
+      "indirizzo": "Loc. Ceresola, 1 fraz, 54013 San Terenzo Monti MS",
+      "lat": 44.180962,
+      "lng": 10.043891
+    },
+    {
+      "id": "44aa5ac0-40fb-4a8c-9eb1-e3f12a6c891e",
+      "slug": "b-b-il-girasole-casola-in-lunigiana",
+      "nome": "B&B Il Girasole",
+      "city_name": "Casola in Lunigiana",
+      "indirizzo": "Via Gignola, 3, 54035 Fosdinovo MS",
+      "lat": 44.137309,
+      "lng": 10.020526
+    },
+    {
+      "id": "4af0dea2-63de-4226-a5ea-7c9f30a6d3b4",
+      "slug": "b-b-la-luna-dei-medici-casola-in-lunigiana",
+      "nome": "B&B La Luna dei Medici",
+      "city_name": "Casola in Lunigiana",
+      "indirizzo": "Via Roma, 119, 54013 Fivizzano MS",
+      "lat": 44.23811,
+      "lng": 10.124488
+    },
+    {
+      "id": "34a5d7d8-609b-46eb-86cf-c1a76303815a",
+      "slug": "b-b-la-risorgiva-casola-in-lunigiana",
+      "nome": "B&b La Risorgiva",
+      "city_name": "Casola in Lunigiana",
+      "indirizzo": "SP16, 54013 Fivizzano MS",
+      "lat": 44.227552,
+      "lng": 10.133229
+    },
+    {
+      "id": "1bf7a5dd-e8a2-4db0-a1ab-4b61b9deff35",
+      "slug": "ca-luni-b-b-casola-in-lunigiana",
+      "nome": "Ca'luni B&B",
+      "city_name": "Casola in Lunigiana",
+      "indirizzo": "Via del Carmine, 149, 54014 Casola In Lunigiana MS",
+      "lat": 44.199701,
+      "lng": 10.176272
+    },
+    {
+      "id": "6e1e1767-f036-4df4-befa-bf6c54de9926",
+      "slug": "casa-vinicia-casola-in-lunigiana",
+      "nome": "Casa Vinicia",
+      "city_name": "Casola in Lunigiana",
+      "indirizzo": "Via della Stazione, 15, 54014 Equi Terme MS",
+      "lat": 44.169929,
+      "lng": 10.151683
+    },
+    {
+      "id": "dfe5e080-c9d5-474e-bdb6-5a702d01662c",
+      "slug": "castello-malaspina-di-fosdinovo-casola-in-lunigiana",
+      "nome": "Castello Malaspina di Fosdinovo",
+      "city_name": "Casola in Lunigiana",
+      "indirizzo": "Via Papiriana, 2, 54035 Fosdinovo MS",
+      "lat": 44.135475,
+      "lng": 10.020965
+    },
+    {
+      "id": "5da7b81a-78ff-4ee7-9db1-698330e5020c",
+      "slug": "le-chianine-dei-tognoli-casola-in-lunigiana",
+      "nome": "Le chianine dei Tognoli",
+      "city_name": "Casola in Lunigiana",
+      "indirizzo": "Via Castel dell'Aquila, 54013 Gragnola MS",
+      "lat": 44.19413,
+      "lng": 10.119997
+    },
+    {
+      "id": "5156a021-6070-45b6-813f-787c3c54917d",
+      "slug": "podere-groppini-casola-in-lunigiana",
+      "nome": "podere groppini",
+      "city_name": "Casola in Lunigiana",
+      "indirizzo": "Via Groppini, 54013 Fivizzano MS",
+      "lat": 44.240486,
+      "lng": 10.120573
+    },
+    {
+      "id": "bd975eee-e3ba-417a-a16c-cdf69508da3c",
+      "slug": "spino-fiorito-stay-casola-in-lunigiana",
+      "nome": "Spino Fiorito Stay",
+      "city_name": "Casola in Lunigiana",
+      "indirizzo": "Via Per Vedriano, 11, 54014 Casola in Lunigiana MS",
+      "lat": 44.223358,
+      "lng": 10.180124
+    },
+    {
+      "id": "223fb347-48ef-4a28-9779-8dad4b867e45",
+      "slug": "agriturismo-caminata-casola-valsenio",
+      "nome": "Agriturismo Caminata",
+      "city_name": "Casola Valsenio",
+      "indirizzo": "Via Olivelli, 38, 48032 Casola Valsenio RA",
+      "lat": 44.208101,
+      "lng": 11.590813
+    },
+    {
+      "id": "97f540d8-d678-4c99-bd7c-ddc29a45289d",
+      "slug": "agriturismo-i-monti-di-salecchio-casola-valsenio",
+      "nome": "Agriturismo I Monti di Salecchio",
+      "city_name": "Casola Valsenio",
+      "indirizzo": "Località Salecchio, 7, 50035 Palazzuolo Sul Senio FI",
+      "lat": 44.106755,
+      "lng": 11.564592
+    },
+    {
+      "id": "25e7b726-50f4-4ba4-acc9-58a2d73004da",
+      "slug": "agriturismo-il-poggiolo-casola-valsenio",
+      "nome": "Agriturismo Il Poggiolo",
+      "city_name": "Casola Valsenio",
+      "indirizzo": "via della Sintria, 9, 48032 Casola Valsenio RA",
+      "lat": 44.169734,
+      "lng": 11.631849
+    },
+    {
+      "id": "92bfc277-964f-45fe-b35c-b44d381d759b",
+      "slug": "agriturismo-la-ca-nova-casola-valsenio",
+      "nome": "Agriturismo La Ca' Nova",
+      "city_name": "Casola Valsenio",
+      "indirizzo": "Via Breta, 29, 48032 Casola Valsenio RA",
+      "lat": 44.194982,
+      "lng": 11.601991
+    },
+    {
+      "id": "1cac1da5-fc38-4c22-8d96-5845bb701b43",
+      "slug": "agriturismo-mariano-casola-valsenio",
+      "nome": "Agriturismo Mariano",
+      "city_name": "Casola Valsenio",
+      "indirizzo": "Via Cardello, 81, 48032 Casola Valsenio RA",
+      "lat": 44.248714,
+      "lng": 11.651807
+    },
+    {
+      "id": "aabd33be-5943-400d-86d1-2a7edb31f63c",
+      "slug": "b-b-ca-del-grillo-casola-valsenio",
+      "nome": "B&B Cà del Grillo",
+      "city_name": "Casola Valsenio",
+      "indirizzo": "Unnamed Road,40022, Via Montanara Sud, 4175 c, 40022 Castel del Rio BO",
+      "lat": 44.178793,
+      "lng": 11.503903
+    },
+    {
+      "id": "284516e3-589c-45eb-832a-c6eca3168de7",
+      "slug": "b-b-casetta-folli-casola-valsenio",
+      "nome": "B&B Casetta Folli",
+      "city_name": "Casola Valsenio",
+      "indirizzo": "Via Fra Angelo Pianori, 48013 Brisighella RA",
+      "lat": 44.225318,
+      "lng": 11.781719
+    },
+    {
+      "id": "abb63761-d923-45a5-9ff7-96a4875229ae",
+      "slug": "b-b-fava-casola-valsenio",
+      "nome": "B&B Fava",
+      "city_name": "Casola Valsenio",
+      "indirizzo": "Via Belfiore, 11, 48032 Casola Valsenio RA",
+      "lat": 44.221253,
+      "lng": 11.617043
+    },
+    {
+      "id": "ac673cc5-f10d-4733-8d53-e0c8c4e1707f",
+      "slug": "b-b-serra-casola-valsenio",
+      "nome": "B&B Serra",
+      "city_name": "Casola Valsenio",
+      "indirizzo": "Via Serra, 3295, 48014 Castel Bolognese RA",
+      "lat": 44.313807,
+      "lng": 11.746688
+    },
+    {
+      "id": "e3f84b45-7000-4eeb-9d01-1df3450da6b5",
+      "slug": "hotel-ristorante-europa-palazzuolo-sul-senio-casola-valsenio",
+      "nome": "Hotel Ristorante Europa Palazzuolo sul Senio",
+      "city_name": "Casola Valsenio",
+      "indirizzo": "Via Maghinardo Pagani, 4, 50035 Palazzuolo sul Senio FI",
+      "lat": 44.113507,
+      "lng": 11.549319
+    },
+    {
+      "id": "15e6ba34-6526-4e38-bfc1-b8de70116c5f",
+      "slug": "il-cardello-locanda-casola-valsenio",
+      "nome": "Il Cardello Locanda",
+      "city_name": "Casola Valsenio",
+      "indirizzo": "Via Cardello, 11, 48032 Casola Valsenio RA",
+      "lat": 44.231958,
+      "lng": 11.633155
+    },
+    {
+      "id": "5878e862-c3ca-4d28-8dd3-58e130adc23a",
+      "slug": "relais-ristorante-mevigo-casola-valsenio",
+      "nome": "Relais & Ristorante Mevigo",
+      "city_name": "Casola Valsenio",
+      "indirizzo": "Via del Monte, 35, 48032 Casola Valsenio RA",
+      "lat": 44.245247,
+      "lng": 11.63167
+    },
+    {
+      "id": "8aaf4a1e-08ca-485c-93c8-6b13e8925515",
+      "slug": "villaggio-della-salute-piu-casola-valsenio",
+      "nome": "Villaggio della Salute Più",
+      "city_name": "Casola Valsenio",
+      "indirizzo": "Via Sillaro, 27, 40050 Monterenzio BO",
+      "lat": 44.312956,
+      "lng": 11.459849
+    },
+    {
+      "id": "a1a8cfbc-21c8-4534-a787-9c3cff3a4297",
+      "slug": "agriturismo-i-casali-casole-d-elsa",
+      "nome": "Agriturismo I Casali",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Via Podere I Casali, 121, 53031 Casole d'Elsa SI",
+      "lat": 43.318543,
+      "lng": 11.029737
+    },
+    {
+      "id": "1b83a567-11aa-48e0-bd9b-d0ed8e4b7158",
+      "slug": "agriturismo-podere-tremulini-casole-d-elsa",
+      "nome": "Agriturismo Podere Tremulini",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Podere Tremulini, 53031 Casole d'Elsa SI",
+      "lat": 43.309872,
+      "lng": 11.06883
+    },
+    {
+      "id": "646974e8-beda-4142-a242-5d1c638a07f2",
+      "slug": "agriturismo-solaio-di-arianna-paolini-casole-d-elsa",
+      "nome": "Agriturismo Solaio di Arianna Paolini",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Via di Solaio 145/A - Località Solaio, 53031 Casole d'Elsa SI",
+      "lat": 43.339299,
+      "lng": 11.056368
+    },
+    {
+      "id": "118732e2-8d44-46ca-a7d6-0d71dc93f4b3",
+      "slug": "antica-fonte-resort-casole-d-elsa",
+      "nome": "Antica Fonte Resort",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Localita' Podere Casanova, 53031 Casole d'Elsa SI",
+      "lat": 43.347442,
+      "lng": 11.047467
+    },
+    {
+      "id": "bdc4e1bb-80ec-4ff3-baf5-2fdd9215c62e",
+      "slug": "bed-breakfast-palazzo-delle-erbe-casole-d-elsa",
+      "nome": "Bed & Breakfast Palazzo delle Erbe",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Via Roma, 66, 53031 Casole d'Elsa SI",
+      "lat": 43.341704,
+      "lng": 11.04422
+    },
+    {
+      "id": "b78415c5-b3ff-49a2-8fb4-b442ca92dd18",
+      "slug": "borgo-al-cerro-casole-d-elsa",
+      "nome": "Borgo al Cerro",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Localita' Podere Casanova, 53031 Casole d'Elsa SI",
+      "lat": 43.348372,
+      "lng": 11.046967
+    },
+    {
+      "id": "0df92670-024b-497b-87cf-e66c0451d8b9",
+      "slug": "castello-di-casole-a-belmond-hotel-tuscany-casole-d-elsa",
+      "nome": "Castello di Casole, A Belmond Hotel, Tuscany",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Località Querceto, 53031 Casole d'Elsa SI",
+      "lat": 43.324796,
+      "lng": 11.084068
+    }
+  ]
+}

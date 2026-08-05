@@ -1,0 +1,323 @@
+{
+  "block": 220,
+  "blockId": "220",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "e43efb1e-8761-4bb8-a127-4520ca600f1d",
+      "slug": "agriturismo-le-carovane-bardi",
+      "nome": "Agriturismo Le Carovane",
+      "city_name": "Bardi",
+      "indirizzo": "Loc. Bertoli, 43053 Compiano PR",
+      "lat": 44.504137,
+      "lng": 9.658427
+    },
+    {
+      "id": "8bea1144-5bbf-42a4-9bc0-01ff634e82a4",
+      "slug": "agriturismo-podere-barzia-bardi",
+      "nome": "Agriturismo Podere Barzia",
+      "city_name": "Bardi",
+      "indirizzo": "loc.Barzia, 226, 43032 Bardi PR",
+      "lat": 44.62765,
+      "lng": 9.742444
+    },
+    {
+      "id": "b837f6c7-6771-49a3-b98a-4474887d7263",
+      "slug": "agriturismo-poggio-d-incanto-bardi",
+      "nome": "Agriturismo Poggio d'incanto",
+      "city_name": "Bardi",
+      "indirizzo": "Strada del Poggio di San Bernardino, 12, 29021 Bettola PC",
+      "lat": 44.775486,
+      "lng": 9.61828
+    },
+    {
+      "id": "39d79f15-73d0-45e7-930c-4f95e5824408",
+      "slug": "antica-osteria-la-colomba-bardi",
+      "nome": "Antica Osteria La Colomba",
+      "city_name": "Bardi",
+      "indirizzo": "Località Tolarolo, 206, 43049 Varsi PR",
+      "lat": 44.622856,
+      "lng": 9.748672
+    },
+    {
+      "id": "c6739fa8-e6f7-439d-84bc-eb36442b1848",
+      "slug": "b-b-le-sei-dame-bardi",
+      "nome": "B & B Le Sei Dame",
+      "city_name": "Bardi",
+      "indirizzo": "Via Giordani, 18, 43032 Bardi PR",
+      "lat": 44.62996,
+      "lng": 9.730971
+    },
+    {
+      "id": "d8c10da2-7e1d-47d8-9e2a-d2b16e06edc4",
+      "slug": "ca-del-grano-bardi",
+      "nome": "Ca' del Grano",
+      "city_name": "Bardi",
+      "indirizzo": "Via S. Francesco, 5, 43032 Bardi PR",
+      "lat": 44.629751,
+      "lng": 9.73099
+    },
+    {
+      "id": "da882942-abc2-43cd-9a80-0a574ad920c5",
+      "slug": "hotel-ristorante-san-marco-bardi",
+      "nome": "Hotel Ristorante San Marco",
+      "city_name": "Bardi",
+      "indirizzo": "Via Monsignor Checchi, 2, 43041 Bedonia PR",
+      "lat": 44.502923,
+      "lng": 9.628511
+    },
+    {
+      "id": "a200a131-afcd-49db-a50e-eff11240f4cc",
+      "slug": "il-pozzo-e-la-macina-romantic-country-chic-b-b-bardi",
+      "nome": "Il pozzo e la macina romantic country-chic b&b",
+      "city_name": "Bardi",
+      "indirizzo": "Località Fornace, 194, 43032 Bardi PR",
+      "lat": 44.61513,
+      "lng": 9.712123
+    },
+    {
+      "id": "07c95998-d4a2-4f62-9d37-2449c2e3dfe0",
+      "slug": "la-locanda-dei-2-bardi",
+      "nome": "La Locanda dei 2",
+      "city_name": "Bardi",
+      "indirizzo": "Via Pione, 2, 29010 Vernasca PC",
+      "lat": 44.757027,
+      "lng": 9.812416
+    },
+    {
+      "id": "4ab278bf-b1a4-49ea-b56c-8504d7a86af5",
+      "slug": "prati-dei-campassi-bardi",
+      "nome": "Prati dei Campassi",
+      "city_name": "Bardi",
+      "indirizzo": "Loc. Predario, 26, 43032 Bardi PR",
+      "lat": 44.603799,
+      "lng": 9.753766
+    },
+    {
+      "id": "106543be-bf1c-4a88-a707-67e86bc04005",
+      "slug": "ristorante-hotel-stella-azzurra-bardi",
+      "nome": "Ristorante - Hotel Stella Azzurra",
+      "city_name": "Bardi",
+      "indirizzo": "Località Cavignaga, 100, 43041 Bedonia PR",
+      "lat": 44.514481,
+      "lng": 9.647052
+    },
+    {
+      "id": "cbf23293-5540-463d-9952-824b920440ee",
+      "slug": "tolasudolsa-rooms-breakfast-mountain-bike-bardi",
+      "nome": "Tolasudolsa Rooms, Breakfast & Mountain Bike",
+      "city_name": "Bardi",
+      "indirizzo": "Località Sambuceto, 208, 43053 Compiano PR",
+      "lat": 44.527551,
+      "lng": 9.678125
+    },
+    {
+      "id": "7676e2f9-c4dd-46c8-b9cb-a685b57c6364",
+      "slug": "villaggio-turistico-il-falco-bardi",
+      "nome": "Villaggio Turistico Il Falco",
+      "city_name": "Bardi",
+      "indirizzo": "Località Pessola, 110, 43049 Pessola PR",
+      "lat": 44.62499,
+      "lng": 9.863743
+    },
+    {
+      "id": "f98e90f1-ea4e-48b1-b491-8a51733c9f26",
+      "slug": "ca-di-voi-bardineto",
+      "nome": "Ca di Voi",
+      "city_name": "Bardineto",
+      "indirizzo": "Frazione Caragna, 17020 Calizzano SV",
+      "lat": 44.255294,
+      "lng": 8.120788
+    },
+    {
+      "id": "182516da-b76a-4a43-bf52-91bc76f7f795",
+      "slug": "ca-du-5-bardineto",
+      "nome": "Ca du 5°",
+      "city_name": "Bardineto",
+      "indirizzo": "Via Lavrio, 89, 17020 Bardino Nuovo SV",
+      "lat": 44.193905,
+      "lng": 8.261561
+    },
+    {
+      "id": "d1a2b6f0-02f6-47f0-83eb-062b5bfd7fa6",
+      "slug": "fratelli-oddone-bardineto",
+      "nome": "Fratelli Oddone",
+      "city_name": "Bardineto",
+      "indirizzo": "Via Martino, 13, 17020 Bardineto SV",
+      "lat": 44.192934,
+      "lng": 8.130867
+    },
+    {
+      "id": "68cbd5ff-31f8-4814-baa2-dae446a80b68",
+      "slug": "tra-cielo-e-mare-bardineto",
+      "nome": "Tra cielo e mare",
+      "city_name": "Bardineto",
+      "indirizzo": "Via S. Sebastiano, 20, 17027 Pietra Ligure SV",
+      "lat": 44.154058,
+      "lng": 8.263762
+    },
+    {
+      "id": "43b308d9-4936-4fde-be4b-fff2f3101a00",
+      "slug": "un-coccodrillo-a-frassino-bardineto",
+      "nome": "Un Coccodrillo a Frassino",
+      "city_name": "Bardineto",
+      "indirizzo": "Via frassino, 22, 17020 Calizzano SV",
+      "lat": 44.234911,
+      "lng": 8.13048
+    },
+    {
+      "id": "f4ca368d-db96-4d35-b10f-99490b0bc767",
+      "slug": "amaris-hotel-feeling-lake-garda-bardolino",
+      "nome": "Amaris Hotel - feeling Lake Garda",
+      "city_name": "Bardolino",
+      "indirizzo": "Via della Pace, 18, 37016 Garda VR",
+      "lat": 45.580283,
+      "lng": 10.722021
+    },
+    {
+      "id": "c984cc59-1f89-40e3-9796-24634a433c8b",
+      "slug": "art-hotel-ventaglio-bardolino",
+      "nome": "Art Hotel Ventaglio",
+      "city_name": "Bardolino",
+      "indirizzo": "Via Campagnola, 52, 37011 Bardolino VR",
+      "lat": 45.533866,
+      "lng": 10.729259
+    },
+    {
+      "id": "5e12fada-e902-493a-8083-c305e9563c84",
+      "slug": "b-b-lucy-bardolino-bardolino",
+      "nome": "B&B Lucy Bardolino",
+      "city_name": "Bardolino",
+      "indirizzo": "Via Marconi, 28/1, 37011 Bardolino VR",
+      "lat": 45.548768,
+      "lng": 10.723518
+    },
+    {
+      "id": "8cf98802-1f0f-4014-814a-d6a73ae3c5ba",
+      "slug": "hotel-al-sole-bardolino-bardolino",
+      "nome": "Hotel Al Sole Bardolino",
+      "city_name": "Bardolino",
+      "indirizzo": "Via S. Colombano, 5, 37011 Bardolino VR",
+      "lat": 45.553078,
+      "lng": 10.721756
+    },
+    {
+      "id": "820c912e-b4fe-4a99-a6e7-217f2f74f0aa",
+      "slug": "hotel-bardolino-bardolino",
+      "nome": "Hotel Bardolino",
+      "city_name": "Bardolino",
+      "indirizzo": "Via Santa Cristina, 19, 37011 Bardolino VR",
+      "lat": 45.539171,
+      "lng": 10.726947
+    },
+    {
+      "id": "57544439-4349-4bf5-887f-15474e23d73b",
+      "slug": "hotel-campagnola-bardolino",
+      "nome": "Hotel Campagnola",
+      "city_name": "Bardolino",
+      "indirizzo": "Via Santa Cristina, 30, 37011 Bardolino VR",
+      "lat": 45.539268,
+      "lng": 10.726236
+    },
+    {
+      "id": "0ede402f-7cf6-4aca-80bd-548818a14737",
+      "slug": "hotel-capri-bardolino-bardolino",
+      "nome": "Hotel Capri Bardolino",
+      "city_name": "Bardolino",
+      "indirizzo": "Via Mirabello, 21, 37011 Bardolino VR",
+      "lat": 45.544124,
+      "lng": 10.724136
+    },
+    {
+      "id": "bf4b7064-d5e9-42b8-9f40-4b6125abe5b3",
+      "slug": "hotel-gabbiano-by-double-hospitality-bardolino",
+      "nome": "Hotel Gabbiano by Double Hospitality",
+      "city_name": "Bardolino",
+      "indirizzo": "Via dei Cipressi, 24, 37016 Garda VR",
+      "lat": 45.579055,
+      "lng": 10.696476
+    },
+    {
+      "id": "d5e1ee83-7155-4f65-b109-bd2550bdc491",
+      "slug": "hotel-marina-bardolino",
+      "nome": "Hotel Marina",
+      "city_name": "Bardolino",
+      "indirizzo": "Via Marconi, 15, 37011 Bardolino VR",
+      "lat": 45.548447,
+      "lng": 10.723223
+    },
+    {
+      "id": "779805ff-5e5a-4b00-8926-7eaa10200224",
+      "slug": "hotel-maximilian-bardolino-bardolino",
+      "nome": "Hotel Maximilian Bardolino",
+      "city_name": "Bardolino",
+      "indirizzo": "Via Nicolò Copernico, 2, 37011 Bardolino VR",
+      "lat": 45.535542,
+      "lng": 10.728045
+    },
+    {
+      "id": "1d7e3adc-a36f-4091-88c1-996d7b154114",
+      "slug": "hotel-namia-by-dori-bardolino",
+      "nome": "Hotel Namia by Dori",
+      "city_name": "Bardolino",
+      "indirizzo": "Via Fosse, 20, 37011 Bardolino VR",
+      "lat": 45.548382,
+      "lng": 10.721277
+    },
+    {
+      "id": "f8de01ed-8d49-4bce-a44d-bee00b23d222",
+      "slug": "hotel-nettuno-bardolino",
+      "nome": "Hotel Nettuno",
+      "city_name": "Bardolino",
+      "indirizzo": "Via Dante Alighieri, 41, 37011 Bardolino VR",
+      "lat": 45.551552,
+      "lng": 10.718295
+    },
+    {
+      "id": "303afe2f-1fc1-45e7-acee-fcb591b7eae5",
+      "slug": "hotel-romantic-bardolino",
+      "nome": "Hotel Romantic",
+      "city_name": "Bardolino",
+      "indirizzo": "Via Berengario, 22, 37010 Cavaion Veronese VR",
+      "lat": 45.536192,
+      "lng": 10.766549
+    },
+    {
+      "id": "5d61d6b1-d308-418e-97eb-cbb11a0781ae",
+      "slug": "hotel-sportsman-bardolino",
+      "nome": "Hotel Sportsman",
+      "city_name": "Bardolino",
+      "indirizzo": "Via Gardesana dell'Acqua, 17, 37011 Bardolino VR",
+      "lat": 45.561744,
+      "lng": 10.713738
+    },
+    {
+      "id": "f44599d8-a0b9-4c6b-b560-c819f10bbb80",
+      "slug": "kairos-garda-hotel-bardolino",
+      "nome": "Kairos Garda Hotel",
+      "city_name": "Bardolino",
+      "indirizzo": "Via XXV Aprile, 36, 37014 Castelnuovo del Garda VR",
+      "lat": 45.438713,
+      "lng": 10.722401
+    },
+    {
+      "id": "71c88e99-371a-4a3d-b434-f7e9ab2d292e",
+      "slug": "la-zerla-bardolino",
+      "nome": "La Zerla",
+      "city_name": "Bardolino",
+      "indirizzo": "Località Ca' Bottura, 3, 37011 Lago di Garda, VR",
+      "lat": 45.566842,
+      "lng": 10.732272
+    },
+    {
+      "id": "213c8d55-b4d0-410b-bcab-5a2ef84a2059",
+      "slug": "resort-locanda-san-verolo-boutique-hotel-garda-c-bardolino",
+      "nome": "Resort Locanda San Verolo Boutique Hotel - Garda Countryside & Lake",
+      "city_name": "Bardolino",
+      "indirizzo": "Località S. Verolo, 1, 37010 Costermano sul Garda VR",
+      "lat": 45.603136,
+      "lng": 10.737541
+    }
+  ]
+}

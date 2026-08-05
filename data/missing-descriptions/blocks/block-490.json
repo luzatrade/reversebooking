@@ -1,0 +1,323 @@
+{
+  "block": 490,
+  "blockId": "490",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "17d49555-de60-4228-b740-b979e126a229",
+      "slug": "hotel-brunner-merano-merano",
+      "nome": "Hotel Brunner - Merano",
+      "city_name": "Merano",
+      "indirizzo": "Via Giuseppe Verdi, 31/A, 39012 Merano BZ",
+      "lat": 46.680041,
+      "lng": 11.155351
+    },
+    {
+      "id": "27f0e108-26ce-485f-88f4-3656b60fdd6a",
+      "slug": "hotel-europa-splendid-merano",
+      "nome": "Hotel Europa Splendid",
+      "city_name": "Merano",
+      "indirizzo": "C.so della Libertà, 178, 39012 Merano BZ",
+      "lat": 46.670923,
+      "lng": 11.159688
+    },
+    {
+      "id": "9dd9f521-66eb-4022-9780-42695f73ece8",
+      "slug": "hotel-meranerhof-merano",
+      "nome": "Hotel Meranerhof",
+      "city_name": "Merano",
+      "indirizzo": "Via A. Manzoni, 1, 39012 Merano BZ",
+      "lat": 46.669412,
+      "lng": 11.159073
+    },
+    {
+      "id": "539b39d0-c273-47c9-829e-295ee077e201",
+      "slug": "hotel-ristorante-pizzeria-cavallino-s-rossl-merano",
+      "nome": "Hotel Ristorante Pizzeria Cavallino - S' Rössl",
+      "city_name": "Merano",
+      "indirizzo": "Via delle Palade, 105, 39012 Merano BZ",
+      "lat": 46.656447,
+      "lng": 11.148832
+    },
+    {
+      "id": "a90fc5d9-7392-441c-8d29-ca829e46cef0",
+      "slug": "hotel-sittnerhof-meran-merano",
+      "nome": "Hotel Sittnerhof Meran",
+      "city_name": "Merano",
+      "indirizzo": "Giuseppe-Verdi-Straße, 58, 39012 Merano BZ",
+      "lat": 46.680259,
+      "lng": 11.1558
+    },
+    {
+      "id": "cac29830-1eea-4bae-b1ce-13d29682e97c",
+      "slug": "hotel-terme-merano-merano",
+      "nome": "Hotel Terme Merano",
+      "city_name": "Merano",
+      "indirizzo": "Piazza Terme, 1, 39012 Merano BZ",
+      "lat": 46.669219,
+      "lng": 11.161817
+    },
+    {
+      "id": "e4fc31e2-5198-44c0-9c27-a50099ac1a4a",
+      "slug": "hotel-villa-westend-merano",
+      "nome": "Hotel Villa Westend",
+      "city_name": "Merano",
+      "indirizzo": "Via Josef Speckbacher, 9, 39012 Merano BZ",
+      "lat": 46.668674,
+      "lng": 11.1513
+    },
+    {
+      "id": "125f5d64-d619-4bdc-9387-dea2ac092bed",
+      "slug": "manzoni-rooms-merano",
+      "nome": "Manzoni Rooms",
+      "city_name": "Merano",
+      "indirizzo": "-Manzoni-Straße, Via A. Manzoni, 41, 39012 Merano BZ",
+      "lat": 46.669318,
+      "lng": 11.157926
+    },
+    {
+      "id": "f328cc7f-6fec-4eb9-83b7-66abccda0761",
+      "slug": "villa-bavaria-residenz-palma-merano",
+      "nome": "Villa Bavaria & Residenz Palma",
+      "city_name": "Merano",
+      "indirizzo": "Via Salita Alla Chiesa, 15, 39012 Merano BZ",
+      "lat": 46.670047,
+      "lng": 11.1705
+    },
+    {
+      "id": "8fbccd7f-4a80-4bbe-938b-82251c3e8c21",
+      "slug": "windsor-merano-hotel-suites-merano",
+      "nome": "Windsor Merano Hotel & Suites",
+      "city_name": "Merano",
+      "indirizzo": "Via Rezia, 2, 39012 Merano BZ",
+      "lat": 46.669325,
+      "lng": 11.153138
+    },
+    {
+      "id": "9dc9973f-6fa4-45ee-83b3-e29dd29b32a7",
+      "slug": "garibaldi-r-b-messina-messina",
+      "nome": "Garibaldi R&B Messina",
+      "city_name": "Messina",
+      "indirizzo": "Via G. Garibaldi, 108, 98122 Messina ME",
+      "lat": 38.190937,
+      "lng": 15.556778
+    },
+    {
+      "id": "5d55da9c-ee2d-4953-8592-615cf798fb5f",
+      "slug": "hotel-la-residenza-messina",
+      "nome": "Hotel La Residenza",
+      "city_name": "Messina",
+      "indirizzo": "Via XXVII Luglio, 115, 98123 Messina ME",
+      "lat": 38.186578,
+      "lng": 15.553013
+    },
+    {
+      "id": "62623184-0f15-4181-9448-36752fd85180",
+      "slug": "hotel-messenion-messina",
+      "nome": "Hotel Messenion",
+      "city_name": "Messina",
+      "indirizzo": "Via Francesco Faranda, 7, 98123 Messina ME",
+      "lat": 38.186747,
+      "lng": 15.551638
+    },
+    {
+      "id": "b6ca9dd0-701a-436f-8f80-a76afa5df150",
+      "slug": "hotel-residence-cineapollo-messina",
+      "nome": "Hotel Residence CineApollo",
+      "city_name": "Messina",
+      "indirizzo": "Via S. Filippo Bianchi, 23, 98121 Messina ME",
+      "lat": 38.189662,
+      "lng": 15.555191
+    },
+    {
+      "id": "c8d7e1b2-5fc8-4957-b157-6a4296f6cf3e",
+      "slug": "hotel-sant-elia-messina",
+      "nome": "Hotel Sant'Elia",
+      "city_name": "Messina",
+      "indirizzo": "Via I Settembre, 67, 98122 Messina ME",
+      "lat": 38.188635,
+      "lng": 15.557608
+    },
+    {
+      "id": "8d60da02-cbb0-4f1a-86a4-76d018cb8f7b",
+      "slug": "hotel-touring-messina",
+      "nome": "Hotel Touring",
+      "city_name": "Messina",
+      "indirizzo": "Via Nicola Scotto, 17, 98122 Messina ME",
+      "lat": 38.184383,
+      "lng": 15.55923
+    },
+    {
+      "id": "1e71c190-c84d-4df8-be5f-9dd5f72d9be7",
+      "slug": "isola-smart-accomodation-messina",
+      "nome": "ISOLA - Smart Accomodation",
+      "city_name": "Messina",
+      "indirizzo": "Via Cesare Battisti, 155, 98122 Messina ME",
+      "lat": 38.188444,
+      "lng": 15.553884
+    },
+    {
+      "id": "9345f252-a4e5-48a6-a41d-2e436573fed9",
+      "slug": "jolly-charme-suite-messina",
+      "nome": "Jolly Charme Suite",
+      "city_name": "Messina",
+      "indirizzo": "Via G. Garibaldi, 126, 98122 Messina ME",
+      "lat": 38.19599,
+      "lng": 15.557389
+    },
+    {
+      "id": "f15fa11c-4b51-4335-b95e-6763d760a42d",
+      "slug": "messina-41-condhotel-messina",
+      "nome": "Messina 41 CondHotel",
+      "city_name": "Messina",
+      "indirizzo": "Viale Boccetta, 24, 98122 Messina ME",
+      "lat": 38.197847,
+      "lng": 15.554797
+    },
+    {
+      "id": "67e4b913-938e-48b1-ade9-0e4e69e63130",
+      "slug": "opera-relais-85-messina",
+      "nome": "Opera Relais 85",
+      "city_name": "Messina",
+      "indirizzo": "Via I Settembre, 85, 98122 Messina ME",
+      "lat": 38.189034,
+      "lng": 15.55724
+    },
+    {
+      "id": "ca0e55d6-51f3-4d98-b720-f8c3d19bbd78",
+      "slug": "opera-relais-r-b-messina",
+      "nome": "Opera Relais R&B",
+      "city_name": "Messina",
+      "indirizzo": "Via I Settembre, 111, 98122 Messina ME",
+      "lat": 38.189394,
+      "lng": 15.556911
+    },
+    {
+      "id": "ebd49956-b8f3-4fc5-bf73-b1e2d166372f",
+      "slug": "residence-acqua-del-conte-messina",
+      "nome": "Residence Acqua del Conte",
+      "city_name": "Messina",
+      "indirizzo": "Viale Italia, 44, 98124 Messina ME",
+      "lat": 38.189561,
+      "lng": 15.545885
+    },
+    {
+      "id": "bb61d437-c04b-49e0-bf9f-e73dd827b473",
+      "slug": "residence-san-martino-messina",
+      "nome": "Residence San Martino",
+      "city_name": "Messina",
+      "indirizzo": "Via Crema, 2, 98124 Messina ME",
+      "lat": 38.177916,
+      "lng": 15.548324
+    },
+    {
+      "id": "38307218-0aaf-4c9f-9529-cc66461f6990",
+      "slug": "royal-palace-hotel-messina-messina",
+      "nome": "Royal Palace Hotel Messina",
+      "city_name": "Messina",
+      "indirizzo": "Via T. Cannizzaro, 3, 98123 Messina ME",
+      "lat": 38.184999,
+      "lng": 15.558377
+    },
+    {
+      "id": "f613354c-8956-4ea2-aad7-4844d51a86d5",
+      "slug": "vmaison-hotel-messina-messina",
+      "nome": "VMaison Hotel Messina",
+      "city_name": "Messina",
+      "indirizzo": "V.le Europa, 59, 98100 Messina ME",
+      "lat": 38.179421,
+      "lng": 15.549807
+    },
+    {
+      "id": "4bab9ffa-aa00-4be8-9392-4215971eadee",
+      "slug": "b-b-caramelle-modena",
+      "nome": "B&B \"Caramelle\"",
+      "city_name": "Modena",
+      "indirizzo": "Via Luigi Poletti, 76, 41121 Modena MO, Italia",
+      "lat": 44.648757,
+      "lng": 10.937345
+    },
+    {
+      "id": "b35dac68-89ca-4362-afda-feb5e331e587",
+      "slug": "b-b-casagrande-cin-it036023c1ynpprjlf-modena",
+      "nome": "B&B Casagrande CIN IT036023C1YNPPRJLF",
+      "city_name": "Modena",
+      "indirizzo": "Str. Sant'Anna, 229, 41122 Modena MO, Italia",
+      "lat": 44.667334,
+      "lng": 10.915322
+    },
+    {
+      "id": "10fd6e4d-d299-4ed4-af8b-59928ecfc7c4",
+      "slug": "b-b-hotel-modena-modena",
+      "nome": "B&B HOTEL Modena",
+      "city_name": "Modena",
+      "indirizzo": "Via Emilia Est, 441, 41122 Modena MO, Italia",
+      "lat": 44.639075,
+      "lng": 10.943607
+    },
+    {
+      "id": "36a59cd0-b7d2-4aa3-b7fc-394743ed4811",
+      "slug": "b-b-igea-50-modena",
+      "nome": "B&B Igea.50",
+      "city_name": "Modena",
+      "indirizzo": "Via Igea, 50, 41126 Modena MO, Italia",
+      "lat": 44.614055,
+      "lng": 10.887604
+    },
+    {
+      "id": "53214bcc-c4ec-497e-ae36-5bd656875a07",
+      "slug": "b-b-le-noci-di-feo-modena",
+      "nome": "B&B Le Noci di Feo",
+      "city_name": "Modena",
+      "indirizzo": "Strada​ Albareto, 422, 41122 Modena MO, Italia",
+      "lat": 44.666826,
+      "lng": 10.946943
+    },
+    {
+      "id": "9ea70f6c-ac0a-4c2c-b241-98af41e77903",
+      "slug": "b-b-modena-sant-eufemia-30-modena",
+      "nome": "B&B Modena Sant'Eufemia 30",
+      "city_name": "Modena",
+      "indirizzo": "Largo Sant'eufemia, 41121 Modena MO, Italia",
+      "lat": 44.64678,
+      "lng": 10.924162
+    },
+    {
+      "id": "e97f64f0-5aba-4397-8fe1-6f486d72b801",
+      "slug": "b-b-viaemilia-modena",
+      "nome": "B&B ViaEmilia",
+      "city_name": "Modena",
+      "indirizzo": "Via Emilia Est, 1561, 41122 Modena MO, Italia",
+      "lat": 44.625522,
+      "lng": 10.97645
+    },
+    {
+      "id": "995e6b47-5a9e-486d-9515-9997575dda32",
+      "slug": "b-b-villa-firefly-modena",
+      "nome": "B&B Villa Firefly",
+      "city_name": "Modena",
+      "indirizzo": "Stradello Camurri, 11, 41122 Modena MO, Italia",
+      "lat": 44.671672,
+      "lng": 10.957171
+    },
+    {
+      "id": "57a5682a-7446-4d09-9184-0420b3ef89cb",
+      "slug": "casa-mappamondo-modena",
+      "nome": "Casa Mappamondo",
+      "city_name": "Modena",
+      "indirizzo": "Via Luigi Albinelli, 7, 41121 Modena MO, Italia",
+      "lat": 44.645144,
+      "lng": 10.925464
+    },
+    {
+      "id": "629b81e4-6372-460c-b9bc-c0c60dbebe21",
+      "slug": "country-resort-modena-modena",
+      "nome": "Country Resort Modena",
+      "city_name": "Modena",
+      "indirizzo": "Str. Fossa Monda Nord, 163, 41122 Modena MO, Italia",
+      "lat": 44.653514,
+      "lng": 10.971085
+    }
+  ]
+}

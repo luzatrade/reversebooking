@@ -1,0 +1,323 @@
+{
+  "block": 75,
+  "blockId": "075",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "7cc3ca51-4f72-4c9d-b2fc-9471163998bb",
+      "slug": "le-cortiglie-affittacamere-alife",
+      "nome": "Le Cortiglie Affittacamere",
+      "city_name": "Alife",
+      "indirizzo": "Via Gianfrancesco Trutta, 14, 81016 Piedimonte Matese CE",
+      "lat": 41.35615,
+      "lng": 14.368027
+    },
+    {
+      "id": "8b504bcb-fb0d-4ed8-8d8f-255072d524d1",
+      "slug": "pura-smart-veg-farmhouse-il-rifugio-pecorella-alife",
+      "nome": "PURA Smart Veg Farmhouse - Il Rifugio Pecorella",
+      "city_name": "Alife",
+      "indirizzo": "Via San Salvatore, 42, 81012 Alvignano CE",
+      "lat": 41.218792,
+      "lng": 14.348646
+    },
+    {
+      "id": "2e0694f8-aff4-4968-94e5-b778fb6c30d6",
+      "slug": "raja-rooms-alife",
+      "nome": "RAJA ROOMS",
+      "city_name": "Alife",
+      "indirizzo": "Viale Caduti Sul Lavoro, 86, 81011 Alife CE",
+      "lat": 41.320389,
+      "lng": 14.339754
+    },
+    {
+      "id": "48e0a1ad-e25b-4260-9ac0-583721485b8e",
+      "slug": "ruviano-la-torre-alife",
+      "nome": "Ruviano La Torre",
+      "city_name": "Alife",
+      "indirizzo": "Via Orientale, 1, 81010 Ruviano CE",
+      "lat": 41.209705,
+      "lng": 14.410238
+    },
+    {
+      "id": "69a793e4-86c4-4467-88b4-4192576de356",
+      "slug": "vernelle-country-resort-alife",
+      "nome": "Vernelle Country Resort",
+      "city_name": "Alife",
+      "indirizzo": "Via Mulino Vernelle, 81011 Zona Industriale, Alife CE",
+      "lat": 41.29192,
+      "lng": 14.333936
+    },
+    {
+      "id": "73e0df00-b6d3-4273-8170-470f860987b6",
+      "slug": "agriturismo-capuano-alimena",
+      "nome": "Agriturismo Capuano",
+      "city_name": "Alimena",
+      "indirizzo": "Ctr. Capuano, 90024 Gangi PA",
+      "lat": 37.765701,
+      "lng": 14.211429
+    },
+    {
+      "id": "116dddf9-3d6e-479b-95ad-853d2841b852",
+      "slug": "agriturismo-gelso-alimena",
+      "nome": "Agriturismo Gelso",
+      "city_name": "Alimena",
+      "indirizzo": "Loc. catalani Castellana Sicula, 90020 Castellana Sicula PA",
+      "lat": 37.801868,
+      "lng": 14.035898
+    },
+    {
+      "id": "ed70050b-feab-4bf8-a0b3-74e342d66ec3",
+      "slug": "agriturismo-giardino-donna-lavia-polizzi-generos-alimena",
+      "nome": "Agriturismo Giardino Donna Lavia - Polizzi Generosa - Parco delle Madonie - Ristorante",
+      "city_name": "Alimena",
+      "indirizzo": "Contrada Donna Laura, SNC, 90028 Polizzi Generosa PA",
+      "lat": 37.823482,
+      "lng": 13.997905
+    },
+    {
+      "id": "ea973522-a582-4130-900f-bfe34b2f55c8",
+      "slug": "agriturismo-monaco-di-mezzo-alimena",
+      "nome": "Agriturismo Monaco di Mezzo",
+      "city_name": "Alimena",
+      "indirizzo": "Contrada Monaco di Mezzo, 90027 Petralia Sottana PA",
+      "lat": 37.652557,
+      "lng": 14.07275
+    },
+    {
+      "id": "3675044d-203c-4659-94a0-137c7253743e",
+      "slug": "agriturismo-villa-assunta-alimena",
+      "nome": "Agriturismo Villa Assunta",
+      "city_name": "Alimena",
+      "indirizzo": "C/da Musciarello, 93018 Santa Caterina Villarmosa CL",
+      "lat": 37.596944,
+      "lng": 14.095377
+    },
+    {
+      "id": "7fc5f7f1-4e44-47e9-9206-96151e3e14cd",
+      "slug": "b-b-a-casa-dei-nonni-alimena",
+      "nome": "B&B A Casa dei Nonni",
+      "city_name": "Alimena",
+      "indirizzo": "Via Sant'Agata, 127, 94100 Enna EN",
+      "lat": 37.569056,
+      "lng": 14.275336
+    },
+    {
+      "id": "bacca9b8-72cf-4630-a4b7-345fa4c7fc20",
+      "slug": "b-b-il-galletto-r-alimena",
+      "nome": "B&B il Galletto r…",
+      "city_name": "Alimena",
+      "indirizzo": "Via Rocca Castello, 13, 90024 Gangi PA",
+      "lat": 37.796744,
+      "lng": 14.207798
+    },
+    {
+      "id": "4cb8d0d1-0f00-4ac1-93ac-6ced517265e5",
+      "slug": "b-b-la-casa-in-pietra-alimena",
+      "nome": "B&B La Casa In Pietra",
+      "city_name": "Alimena",
+      "indirizzo": "Via Piano Castelnuovo, 16, 93018 Santa Caterina Villarmosa CL",
+      "lat": 37.59228,
+      "lng": 14.03101
+    },
+    {
+      "id": "1b247eb8-6ce4-4fee-b087-e2a3cd4dfccd",
+      "slug": "b-b-madonie-guest-house-alimena",
+      "nome": "B&B MADONIE Guest House",
+      "city_name": "Alimena",
+      "indirizzo": "MADONIE Guest House, 90026 Petralia Soprana PA",
+      "lat": 37.808018,
+      "lng": 14.113319
+    },
+    {
+      "id": "5216b725-3779-4cf7-b961-4e864aa40779",
+      "slug": "b-b-proserpina-alimena",
+      "nome": "B&B Proserpina",
+      "city_name": "Alimena",
+      "indirizzo": "Via Sant'Agata, 108, 94100 Enna EN",
+      "lat": 37.568995,
+      "lng": 14.275276
+    },
+    {
+      "id": "e5d91f6b-254d-4932-820b-eaa439e4d435",
+      "slug": "casa-del-monte-locazione-turistica-alimena",
+      "nome": "Casa del monte Locazione Turistica",
+      "city_name": "Alimena",
+      "indirizzo": "Via Silvio Pellico, 19, 94100 Enna EN",
+      "lat": 37.560773,
+      "lng": 14.274118
+    },
+    {
+      "id": "76c529ca-fb2b-4010-8450-f89bd40a00cc",
+      "slug": "castello-piraino-alimena",
+      "nome": "Castello Piraino",
+      "city_name": "Alimena",
+      "indirizzo": "Contrada Piraino, 93018 Santa Caterina Villarmosa CL",
+      "lat": 37.589698,
+      "lng": 14.050543
+    },
+    {
+      "id": "a1875bd8-478a-4e5f-9c9e-6d0b90e4cb1f",
+      "slug": "donna-vi-hotel-alimena",
+      "nome": "Donna Vì Hotel",
+      "city_name": "Alimena",
+      "indirizzo": "Via della Libertà, 11, 90054 Geraci Siculo PA",
+      "lat": 37.851124,
+      "lng": 14.15032
+    },
+    {
+      "id": "2a363949-b899-46a4-a9cd-d95051ac0718",
+      "slug": "hotel-residenza-petra-alimena",
+      "nome": "Hotel Residenza Petra",
+      "city_name": "Alimena",
+      "indirizzo": "Via Errante, 5, 90026 Petralia Soprana PA",
+      "lat": 37.796367,
+      "lng": 14.10877
+    },
+    {
+      "id": "ec162df2-e5d9-4def-b147-3ccd7dbcb892",
+      "slug": "la-casa-del-borgo-alimena",
+      "nome": "LA CASA DEL BORGO",
+      "city_name": "Alimena",
+      "indirizzo": "Via Nazionale, 27, 90026 Petralia Soprana PA",
+      "lat": 37.78169,
+      "lng": 14.098813
+    },
+    {
+      "id": "1d265248-12b4-47bc-b511-3688aa4b48d9",
+      "slug": "locanda-di-cadi-alimena",
+      "nome": "Locanda di Cadì",
+      "city_name": "Alimena",
+      "indirizzo": "Borgo Cipampini, 90026 Petralia Soprana PA",
+      "lat": 37.761492,
+      "lng": 14.105177
+    },
+    {
+      "id": "613deb00-0421-40cd-8ada-2f300de2ab77",
+      "slug": "locanda-susuiusu-alimena",
+      "nome": "Locanda Susuiusu",
+      "city_name": "Alimena",
+      "indirizzo": "Via S. Girolamo, 45, 94100 Enna EN",
+      "lat": 37.566469,
+      "lng": 14.277984
+    },
+    {
+      "id": "368e570a-0650-4cb4-b951-ab23ef7c0ed4",
+      "slug": "p-g-design-by-lago-welcome-alimena",
+      "nome": "P&G DESIGN BY LAGO WELCOME",
+      "city_name": "Alimena",
+      "indirizzo": "Via Fratelli Attilio e Guido Vigna, 121/123, 94100 Enna EN",
+      "lat": 37.569406,
+      "lng": 14.275412
+    },
+    {
+      "id": "8326bd70-30c4-4d95-b726-593abbf8c6e5",
+      "slug": "un-posto-al-sole-alimena",
+      "nome": "Un Posto Al Sole",
+      "city_name": "Alimena",
+      "indirizzo": "contrada milicia, 93018 Caltanissetta CL",
+      "lat": 37.584794,
+      "lng": 14.065046
+    },
+    {
+      "id": "b2ab9b58-0a1a-4797-9bfa-ea457f6fa9d5",
+      "slug": "agriturismo-villa-splendore-ristorante-tipico-co-aliminusa",
+      "nome": "Agriturismo Villa Splendore - Ristorante tipico con piscina e camere, sicilian restaurant",
+      "city_name": "Aliminusa",
+      "indirizzo": "Contrada Baiata- Spinasanta S.S.120, Km 9, 500, 90052 Cerda PA",
+      "lat": 37.894261,
+      "lng": 13.811773
+    },
+    {
+      "id": "11b62755-53b4-4cc6-b9f4-1e94be3d868f",
+      "slug": "b-b-da-nina-aliminusa",
+      "nome": "B&B \"Da Nina\"",
+      "city_name": "Aliminusa",
+      "indirizzo": "Via Libertà, 92, 90010 Lascari PA",
+      "lat": 38.001457,
+      "lng": 13.937893
+    },
+    {
+      "id": "54743ecc-4355-454b-b008-91a2b5e25170",
+      "slug": "b-b-giardino-dei-cedri-aliminusa",
+      "nome": "B&B Giardino dei Cedri",
+      "city_name": "Aliminusa",
+      "indirizzo": "Via Giardini 1, a, 90019 Trabia PA",
+      "lat": 37.999507,
+      "lng": 13.647943
+    },
+    {
+      "id": "64dbbf0c-d667-4ac7-80ed-e84b3ff99ec8",
+      "slug": "b-b-ottolune-accomodations-aliminusa",
+      "nome": "B&B Ottolune Accomodations",
+      "city_name": "Aliminusa",
+      "indirizzo": "Via Salvatore Cipolla, 60, 90010 Campofelice di Roccella PA",
+      "lat": 37.989408,
+      "lng": 13.885548
+    },
+    {
+      "id": "0de94381-cb01-483a-87c4-984b0003fcd9",
+      "slug": "bed-and-breakfast-ulivo-aliminusa",
+      "nome": "Bed And Breakfast Ulivo",
+      "city_name": "Aliminusa",
+      "indirizzo": "Via Ettore Maiorana, 75, 90019 Trabia PA",
+      "lat": 37.989868,
+      "lng": 13.657731
+    },
+    {
+      "id": "c3ef6053-b571-48de-8039-8b1e139dcd15",
+      "slug": "belvedere-rent-rooms-aliminusa",
+      "nome": "Belvedere Rent Rooms",
+      "city_name": "Aliminusa",
+      "indirizzo": "Via Imera, 4, 90010 Campofelice di Roccella PA",
+      "lat": 37.992885,
+      "lng": 13.885604
+    },
+    {
+      "id": "f0ffc7ae-32e8-4c77-a939-e48e58e59437",
+      "slug": "casa-siciliana-altarbiah-aliminusa",
+      "nome": "Casa Siciliana Altarbiah",
+      "city_name": "Aliminusa",
+      "indirizzo": "Contrada Spinasanta, 90019 Trabia PA",
+      "lat": 37.965459,
+      "lng": 13.613241
+    },
+    {
+      "id": "94251121-1bc8-41ed-a949-a9bfea0971f6",
+      "slug": "il-muretto-aliminusa",
+      "nome": "Il Muretto",
+      "city_name": "Aliminusa",
+      "indirizzo": "Via S. Chiaramonte, 16, 90010 Lascari PA",
+      "lat": 37.999558,
+      "lng": 13.941564
+    },
+    {
+      "id": "3d48ccba-83ee-423f-a4cb-9b4c2598893a",
+      "slug": "il-vittoria-lascari-aliminusa",
+      "nome": "Il Vittoria Lascari",
+      "city_name": "Aliminusa",
+      "indirizzo": "Via Gugliuzza Croce, 34, 90010 Lascari PA",
+      "lat": 38.00104,
+      "lng": 13.939998
+    },
+    {
+      "id": "ef4faf17-f821-4bd3-9e83-7a2f8d93246a",
+      "slug": "la-cycas-aliminusa",
+      "nome": "La Cycas",
+      "city_name": "Aliminusa",
+      "indirizzo": "Via Sardegna, 10, 90019 Trabia PA",
+      "lat": 37.991802,
+      "lng": 13.657625
+    },
+    {
+      "id": "ca48a04c-3c34-4ec9-ae34-1ed3d920f0f2",
+      "slug": "stone-house-aliminusa",
+      "nome": "STONE HOUSE",
+      "city_name": "Aliminusa",
+      "indirizzo": "Via Scuole, 22, 90020 Montemaggiore Belsito PA",
+      "lat": 37.8493,
+      "lng": 13.758988
+    }
+  ]
+}

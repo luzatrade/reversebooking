@@ -1,0 +1,323 @@
+{
+  "block": 287,
+  "blockId": "287",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "3e3865dc-a6ba-489b-8a4c-ec1f2bc72019",
+      "slug": "casa-natia-bompensiere",
+      "nome": "Casa Natia",
+      "city_name": "Bompensiere",
+      "indirizzo": "Piazza Giuseppe Garibaldi, 12, 92026 Favara AG",
+      "lat": 37.316573,
+      "lng": 13.658324
+    },
+    {
+      "id": "530d9537-939e-4bf1-9810-9bf27f1797cd",
+      "slug": "corte-dei-monaci-bompensiere",
+      "nome": "Corte dei Monaci",
+      "city_name": "Bompensiere",
+      "indirizzo": "C.da Cannarozzo. Strada Prov. 78, km 1, direzione diga di Naro., Prosecuzione via Sen. Sammartino, 92024 Canicattì AG",
+      "lat": 37.346612,
+      "lng": 13.828544
+    },
+    {
+      "id": "01c44a32-8630-4723-83a8-95ed4cb703bd",
+      "slug": "giallo-ficodindia-bed-breakfast-bompensiere",
+      "nome": "Giallo Ficodindia Bed & Breakfast",
+      "city_name": "Bompensiere",
+      "indirizzo": "C/da Montagna Scalilli, 92024 Canicattì AG",
+      "lat": 37.367173,
+      "lng": 13.845901
+    },
+    {
+      "id": "d7971091-b679-4066-a9d2-b34e590611c1",
+      "slug": "guest-house-regina-margherita-bompensiere",
+      "nome": "Guest House Regina Margherita",
+      "city_name": "Bompensiere",
+      "indirizzo": "Via Regina Margherita, 39, 92026 Favara AG",
+      "lat": 37.314109,
+      "lng": 13.658977
+    },
+    {
+      "id": "c1956d1f-5db8-448d-87d7-db21eee9397f",
+      "slug": "hotel-belvedere-bompensiere",
+      "nome": "Hotel Belvedere",
+      "city_name": "Bompensiere",
+      "indirizzo": "Via Resistenza, 22, 92024 Canicattì AG",
+      "lat": 37.360193,
+      "lng": 13.857002
+    },
+    {
+      "id": "aac8aa34-2902-4072-a289-27d948c2bd90",
+      "slug": "la-locanda-dei-fiori-agriturismo-bompensiere",
+      "nome": "La Locanda dei Fiori Agriturismo",
+      "city_name": "Bompensiere",
+      "indirizzo": "FQHG+FV, 93010 Bompensiere CL",
+      "lat": 37.478688,
+      "lng": 13.777188
+    },
+    {
+      "id": "feff9322-e2b7-4af5-a5c9-2ca4183bc74e",
+      "slug": "la-zagara-bompensiere",
+      "nome": "La Zagara",
+      "city_name": "Bompensiere",
+      "indirizzo": "Via Zanella, 2, 92026 Favara AG",
+      "lat": 37.313336,
+      "lng": 13.658992
+    },
+    {
+      "id": "2c7d1f1f-2eba-4b32-aca7-5f8842435ec6",
+      "slug": "bed-and-breakfast-del-corso-bompietro",
+      "nome": "Bed and Breakfast \"Del corso\"",
+      "city_name": "Bompietro",
+      "indirizzo": "C.so Umberto Ⅰ, 1, 90024 Gangi PA",
+      "lat": 37.798679,
+      "lng": 14.204634
+    },
+    {
+      "id": "68f66a34-ee0f-456c-aa91-fbc2dcafd029",
+      "slug": "agriturismo-garuti-bomporto",
+      "nome": "Agriturismo Garuti",
+      "city_name": "Bomporto",
+      "indirizzo": "Via Carlo Testa, 16, 41030 Sorbara MO",
+      "lat": 44.749816,
+      "lng": 11.022624
+    },
+    {
+      "id": "8491eaea-acea-4d59-b518-7c4c4ece451d",
+      "slug": "agriturismo-le-gazze-bomporto",
+      "nome": "Agriturismo Le Gazze",
+      "city_name": "Bomporto",
+      "indirizzo": "Via Gorzano, 4, 41031 Camposanto MO",
+      "lat": 44.797254,
+      "lng": 11.120767
+    },
+    {
+      "id": "f2cf5476-1b02-4a20-a8e3-c5131a09a478",
+      "slug": "albergo-residence-al-passatore-bomporto",
+      "nome": "Albergo Residence Al Passatore",
+      "city_name": "Bomporto",
+      "indirizzo": "Via Ravarino Carpi, 113, 41030 Sorbara MO",
+      "lat": 44.743582,
+      "lng": 11.020821
+    },
+    {
+      "id": "6b27ae4b-48f8-4f90-bf7b-b8858bd0264a",
+      "slug": "b-b-il-salice-bomporto",
+      "nome": "B&B il salice",
+      "city_name": "Bomporto",
+      "indirizzo": "Str. Nazionale per Carpi Nord, 1388, 41123 Ganaceto MO",
+      "lat": 44.699633,
+      "lng": 10.893178
+    },
+    {
+      "id": "2ba39394-490e-422f-b902-12005acb4075",
+      "slug": "b-b-la-quercia-di-mery-bomporto",
+      "nome": "B&B La Quercia di Mery",
+      "city_name": "Bomporto",
+      "indirizzo": "Via D. Giambi, 2115, 41017 La Villa MO",
+      "lat": 44.744573,
+      "lng": 11.095597
+    },
+    {
+      "id": "98f694fe-8ff7-4b8b-adb5-ecf6eed378f9",
+      "slug": "b-b-le-ragazze-bomporto",
+      "nome": "B&B Le Ragazze",
+      "city_name": "Bomporto",
+      "indirizzo": "Via dell'Olmo, 13, 41030 Sorbara MO",
+      "lat": 44.746438,
+      "lng": 11.01348
+    },
+    {
+      "id": "e3b06398-0cb2-482d-97ed-6c6a0b9d1af8",
+      "slug": "casa-carpanelli-bomporto",
+      "nome": "Casa Carpanelli",
+      "city_name": "Bomporto",
+      "indirizzo": "Via Oppio, 88, 41015 Nonantola MO",
+      "lat": 44.6822,
+      "lng": 11.077076
+    },
+    {
+      "id": "2ba9948f-fd2b-4170-b9a4-e1e986d67e77",
+      "slug": "confidence-hotel-san-silvestro-bomporto",
+      "nome": "CONFIDENCE HOTEL SAN SILVESTRO",
+      "city_name": "Bomporto",
+      "indirizzo": "Via Canaletto, 129, 41030 San Prospero MO",
+      "lat": 44.804954,
+      "lng": 11.027731
+    },
+    {
+      "id": "90761ed8-bbd6-4304-8eec-70ec6d1fdb22",
+      "slug": "hotel-corte-vecchia-bomporto",
+      "nome": "Hotel Corte Vecchia",
+      "city_name": "Bomporto",
+      "indirizzo": "Via S. Geminiano, 1, 41030 San Prospero MO",
+      "lat": 44.783514,
+      "lng": 11.025458
+    },
+    {
+      "id": "1c5b0dd9-84fd-4ec0-bdae-d5fd8663b707",
+      "slug": "hotel-riverside-bomporto",
+      "nome": "Hotel Riverside",
+      "city_name": "Bomporto",
+      "indirizzo": "Via Emilia Est, 2456/s/P, 41018 San Cesario sul Panaro MO",
+      "lat": 44.623671,
+      "lng": 10.999286
+    },
+    {
+      "id": "33429b21-6055-439c-8f1f-51458ddc6d54",
+      "slug": "hotel-rosso-frizzante-bomporto",
+      "nome": "Hotel Rosso Frizzante",
+      "city_name": "Bomporto",
+      "indirizzo": "Via Falcone e Borsellino, 66, 41030 Sorbara MO",
+      "lat": 44.745732,
+      "lng": 11.011134
+    },
+    {
+      "id": "afae6908-428c-4d81-bb7d-527dfc5c6805",
+      "slug": "hotel-tre-torri-bomporto",
+      "nome": "Hotel Tre Torri",
+      "city_name": "Bomporto",
+      "indirizzo": "Via Statale, 12/223/225, 41036 Medolla MO",
+      "lat": 44.825013,
+      "lng": 11.046849
+    },
+    {
+      "id": "78f82df2-a500-4006-8d94-9d1a80b421ca",
+      "slug": "la-selvatica-50-b-b-bomporto",
+      "nome": "La Selvatica 50 B&B",
+      "city_name": "Bomporto",
+      "indirizzo": "Via Selvatica, 50, 41015 Nonantola MO",
+      "lat": 44.699497,
+      "lng": 11.043915
+    },
+    {
+      "id": "66cabd5e-0dc1-49b3-b905-f5715d6c2d1d",
+      "slug": "luna-sul-tetto-bomporto",
+      "nome": "Luna Sul Tetto",
+      "city_name": "Bomporto",
+      "indirizzo": "Via Giordano Bruno, 7, 41012 Carpi MO",
+      "lat": 44.784222,
+      "lng": 10.888373
+    },
+    {
+      "id": "d0760290-70b6-4d5a-8fee-40f2fb1707e4",
+      "slug": "smart-hotel-bomporto",
+      "nome": "Smart Hotel",
+      "city_name": "Bomporto",
+      "indirizzo": "Via Cesare Battisti, 25, 41012 Carpi MO",
+      "lat": 44.785934,
+      "lng": 10.885302
+    },
+    {
+      "id": "712ca344-413d-411c-99fe-fa5284fc278b",
+      "slug": "villa-tartaruga-bomporto",
+      "nome": "Villa Tartaruga",
+      "city_name": "Bomporto",
+      "indirizzo": "Via Garzolè, 41/43, 41013 Castelfranco Emilia MO",
+      "lat": 44.627026,
+      "lng": 11.119615
+    },
+    {
+      "id": "08f60430-ccd3-4bcd-be7d-3a78c9676e3a",
+      "slug": "villa-zaira-bomporto",
+      "nome": "Villa Zaira",
+      "city_name": "Bomporto",
+      "indirizzo": "Via Ravarino Carpi, 154, 41030 Sorbara MO",
+      "lat": 44.748183,
+      "lng": 11.008043
+    },
+    {
+      "id": "0690d4a2-d3ec-4495-a679-e46678140508",
+      "slug": "alma-bed-breakfast-e7053-bonarcado",
+      "nome": "Alma bed & breakfast E7053",
+      "city_name": "Bonarcado",
+      "indirizzo": "Via Santa Vittoria, 09078 Sennariolo OR",
+      "lat": 40.212488,
+      "lng": 8.553646
+    },
+    {
+      "id": "f0a5fdad-435c-4876-b43f-f4e10773fca7",
+      "slug": "antica-dimora-del-gruccione-bonarcado",
+      "nome": "Antica Dimora del Gruccione",
+      "city_name": "Bonarcado",
+      "indirizzo": "Via Michele Obinu, 31, 09075 Santu Lussurgiu OR",
+      "lat": 40.14262,
+      "lng": 8.653412
+    },
+    {
+      "id": "4337e61d-cf53-4336-864b-a79c7317a023",
+      "slug": "b-b-mare-montagna-bonarcado",
+      "nome": "B&B Mare Montagna.",
+      "city_name": "Bonarcado",
+      "indirizzo": "Via Antonio Gramsci, 1, 09070 Bonarcado OR",
+      "lat": 40.096556,
+      "lng": 8.658834
+    },
+    {
+      "id": "5f991ccd-c0d4-4325-8dba-ff60c4ff3ea7",
+      "slug": "b-b-sa-murighesa-bonarcado",
+      "nome": "b&b Sa Murighesa",
+      "city_name": "Bonarcado",
+      "indirizzo": "Via Giuseppe Manno, 68, 09070 San Vero Milis OR",
+      "lat": 40.01676,
+      "lng": 8.597452
+    },
+    {
+      "id": "08147e27-1816-4a8b-aae9-97fd5bccb0a7",
+      "slug": "bisos-ospitalita-diffusa-ecosostenibile-bonarcado",
+      "nome": "Bisos ospitalità diffusa ecosostenibile",
+      "city_name": "Bonarcado",
+      "indirizzo": "Via Roma, 1, 09070 Paulilatino OR",
+      "lat": 40.083851,
+      "lng": 8.764341
+    },
+    {
+      "id": "8a820b3f-edd2-497d-868f-2ffeeae9e97b",
+      "slug": "is-cheas-hotel-restaurant-bonarcado",
+      "nome": "Is Cheas Hotel & Restaurant",
+      "city_name": "Bonarcado",
+      "indirizzo": "Località Is Cheas, 09070 San Vero Milis OR",
+      "lat": 40.03037,
+      "lng": 8.592687
+    },
+    {
+      "id": "f09ae0d5-7a35-4630-8f46-f6974766c14a",
+      "slug": "mare-lughente-bonarcado",
+      "nome": "Mare Lughente",
+      "city_name": "Bonarcado",
+      "indirizzo": "Via dei Tamerici, 31, 09073 S'Archittu OR",
+      "lat": 40.0917,
+      "lng": 8.49281
+    },
+    {
+      "id": "b7c50049-4551-4b32-943b-b96cba5c769a",
+      "slug": "sa-murighessa-albergo-santu-lussurgiu-bonarcado",
+      "nome": "Sa Murighessa albergo Santu Lussurgiu",
+      "city_name": "Bonarcado",
+      "indirizzo": "Via Giovanni Maria Angioi, 125, 09075 Santu Lussurgiu OR",
+      "lat": 40.14286,
+      "lng": 8.654655
+    },
+    {
+      "id": "f8701903-fd5c-4d12-8fe8-99aadeb8b7a9",
+      "slug": "a-ca-me-bonassola",
+      "nome": "A Ca Mè",
+      "city_name": "Bonassola",
+      "indirizzo": "Via Ammiraglio Serra, 82 bis, 19011 Bonassola SP",
+      "lat": 44.178321,
+      "lng": 9.5877
+    },
+    {
+      "id": "ddec2772-fcfd-46a8-bac9-0f626e146c6b",
+      "slug": "affittacamere-da-luca-bonassola",
+      "nome": "Affittacamere \"Da Luca\"",
+      "city_name": "Bonassola",
+      "indirizzo": "Via gavazzo, 18, 19011 Bonassola SP",
+      "lat": 44.186111,
+      "lng": 9.583087
+    }
+  ]
+}

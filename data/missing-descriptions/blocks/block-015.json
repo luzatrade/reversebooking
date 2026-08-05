@@ -1,0 +1,323 @@
+{
+  "block": 15,
+  "blockId": "015",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "caea9100-14b6-48e0-aeea-758c6a890e4b",
+      "slug": "il-pianaccio-acquasparta",
+      "nome": "Il Pianaccio",
+      "city_name": "Acquasparta",
+      "indirizzo": "Viale Cerquestrette, 164, 06049 San Martino In Trignano PG",
+      "lat": 42.748041,
+      "lng": 12.661416
+    },
+    {
+      "id": "cb149847-f804-47dc-ace7-df4225fea7f0",
+      "slug": "la-casa-di-armando-acquasparta",
+      "nome": "La casa di Armando",
+      "city_name": "Acquasparta",
+      "indirizzo": "Località Pardo, 1C, 05029 San Gemini TR",
+      "lat": 42.609605,
+      "lng": 12.546267
+    },
+    {
+      "id": "53109c9e-e284-4ee2-b20c-12924863d120",
+      "slug": "la-casetta-di-lilly-acquasparta",
+      "nome": "La Casetta di Lilly",
+      "city_name": "Acquasparta",
+      "indirizzo": "Str, Strada di San Cristoforo, 3A, 05022 Amelia TR",
+      "lat": 42.601981,
+      "lng": 12.443597
+    },
+    {
+      "id": "b3b89292-5727-498b-951d-5da58b4320eb",
+      "slug": "la-fortezza-alta-acquasparta",
+      "nome": "La Fortezza Alta",
+      "city_name": "Acquasparta",
+      "indirizzo": "Località Fortezza Alta, 05020 Avigliano Umbro TR",
+      "lat": 42.670667,
+      "lng": 12.433444
+    },
+    {
+      "id": "46f88f92-9e89-4c94-bf62-96a1bffb8cae",
+      "slug": "la-lanterna-struttura-extralberghiera-acquasparta",
+      "nome": "La Lanterna struttura extralberghiera",
+      "city_name": "Acquasparta",
+      "indirizzo": "Via Giacomo Matteotti, 86, 05020 Avigliano Umbro TR",
+      "lat": 42.654193,
+      "lng": 12.424881
+    },
+    {
+      "id": "25bafc85-54d6-4091-8fef-c2966f4750ff",
+      "slug": "la-maison-bed-breakfast-acquasparta",
+      "nome": "La maison Bed & Breakfast",
+      "city_name": "Acquasparta",
+      "indirizzo": "Strada Regionale, 316, 06056 Massa Martana PG",
+      "lat": 42.730365,
+      "lng": 12.540177
+    },
+    {
+      "id": "0dfa472d-d2da-4c86-95a7-e74eccbb3188",
+      "slug": "la-perticara-agriturismo-acquasparta",
+      "nome": "La Perticara Agriturismo",
+      "city_name": "Acquasparta",
+      "indirizzo": "Via Campagna, 29, 05021 Acquasparta TR",
+      "lat": 42.651207,
+      "lng": 12.55419
+    },
+    {
+      "id": "f29dcd28-6615-445a-ba02-27ce838ef597",
+      "slug": "relais-tenuta-amerina-acquasparta",
+      "nome": "Relais Tenuta Amerina",
+      "city_name": "Acquasparta",
+      "indirizzo": "Str. di Merlone, 05021 Acquasparta TR",
+      "lat": 42.699215,
+      "lng": 12.539142
+    },
+    {
+      "id": "59769f64-de5e-4d8f-b7b4-e96e2fad9a89",
+      "slug": "tamerici-house-acquasparta",
+      "nome": "Tamerici House",
+      "city_name": "Acquasparta",
+      "indirizzo": "voc. Collicelli, 61/a Frazione Quadrelli, 05026 Montecastrilli TR",
+      "lat": 42.648399,
+      "lng": 12.507551
+    },
+    {
+      "id": "34bb2657-61f2-4a79-9383-0c02be6ba44e",
+      "slug": "torre-sangiovanni-albergo-ristorante-acquasparta",
+      "nome": "Torre Sangiovanni Albergo & Ristorante",
+      "city_name": "Acquasparta",
+      "indirizzo": "Vocabolo Castello, 26/G, 06059 Collevalenza PG",
+      "lat": 42.746008,
+      "lng": 12.485478
+    },
+    {
+      "id": "0b9d91e2-5571-4ada-8e6d-8628a5525103",
+      "slug": "agriturismo-colle-bianco-acquaviva-collecroce",
+      "nome": "Agriturismo Colle Bianco",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "Contrada Colle Bianco, 2/A, 86030 Mafalda CB",
+      "lat": 41.950284,
+      "lng": 14.732888
+    },
+    {
+      "id": "ece4af14-c3c6-4401-973c-eabc20f7c917",
+      "slug": "agriturismo-la-quiete-acquaviva-collecroce",
+      "nome": "Agriturismo La Quiete",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "Contrada Pontone Macchiozzi, 1, 86039 Termoli CB",
+      "lat": 41.965003,
+      "lng": 14.841512
+    },
+    {
+      "id": "4cefb3b9-c542-4da5-81fc-eb584f54e7ef",
+      "slug": "al-settimo-cielo-acquaviva-collecroce",
+      "nome": "Al Settimo Cielo",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "SP163, 86036 Montenero di Bisaccia CB",
+      "lat": 41.955833,
+      "lng": 14.75891
+    },
+    {
+      "id": "c70e0f76-10dc-4eb8-a138-825fe50d6433",
+      "slug": "albergo-diffuso-borgo-delle-fonti-acquaviva-collecroce",
+      "nome": "Albergo Diffuso \"Borgo delle Fonti\"",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "Via Trento, 3, 86030 Acquaviva Collecroce CB",
+      "lat": 41.868182,
+      "lng": 14.746114
+    },
+    {
+      "id": "993100f7-ea74-4b5c-ac5a-d4c435db8474",
+      "slug": "b-b-i-relais-acquaviva-collecroce",
+      "nome": "B&B I-relais",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "Contrada Serra, 1, 86033 Montefalcone nel Sannio CB",
+      "lat": 41.862549,
+      "lng": 14.665813
+    },
+    {
+      "id": "71ca07b4-bdb6-496b-9f04-fdc331974de3",
+      "slug": "b-b-lume-acquaviva-collecroce",
+      "nome": "B&b Lume",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "SP78, 47, 86030 Castelmauro CB",
+      "lat": 41.859578,
+      "lng": 14.71997
+    },
+    {
+      "id": "1e25ce46-e702-4b1b-8e31-8e8dadc12d9e",
+      "slug": "b-b-pozzo-innamorato-acquaviva-collecroce",
+      "nome": "B&B Pozzo Innamorato",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "86036 Montenero di Bisaccia CB",
+      "lat": 41.959634,
+      "lng": 14.765766
+    },
+    {
+      "id": "165ac9d0-90a6-4ef9-93c6-22b036b1f1df",
+      "slug": "colle-degli-ulivi-acquaviva-collecroce",
+      "nome": "Colle degli Ulivi",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "Strada Comunale del Bagni, 86038 Petacciato CB",
+      "lat": 42.022177,
+      "lng": 14.864397
+    },
+    {
+      "id": "abe14146-94f3-4db7-8878-9eb0b4a0c938",
+      "slug": "corte-reale-luxury-b-b-acquaviva-collecroce",
+      "nome": "Corte Reale Luxury B&B",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "Via Stingi, 41, 66050 San Salvo CH",
+      "lat": 42.039754,
+      "lng": 14.726852
+    },
+    {
+      "id": "690bc7b8-c1b7-4745-8f3a-314f741d63c5",
+      "slug": "country-house-mafalda-acquaviva-collecroce",
+      "nome": "Country House Mafalda",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "Contrada Granciara, 86030 Mafalda CB",
+      "lat": 41.943629,
+      "lng": 14.73766
+    },
+    {
+      "id": "999482cc-f761-47a7-a44e-9e3974b353d1",
+      "slug": "hotel-di-nardo-acquaviva-collecroce",
+      "nome": "Hotel Di Nardo",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "Via Pier Paolo Pasolini, 7, 86038 Petacciato CB",
+      "lat": 42.006745,
+      "lng": 14.858409
+    },
+    {
+      "id": "3c0b996f-6720-4bfc-a566-2a6cb67ac012",
+      "slug": "il-gallo-con-gli-stivali-acquaviva-collecroce",
+      "nome": "Il Gallo con gli Stivali",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "Via Sangro, 9, 86039 Termoli CB",
+      "lat": 41.989232,
+      "lng": 14.983033
+    },
+    {
+      "id": "c6b21bde-1385-48f3-b31a-9a6ddbdb6af3",
+      "slug": "masseria-grande-hotel-ristorante-acquaviva-collecroce",
+      "nome": "Masseria Grande Hotel - Ristorante",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "Contrada Pezze di Corundoli, 86032 Montecilfone CB",
+      "lat": 41.88507,
+      "lng": 14.848326
+    },
+    {
+      "id": "97f1e3e0-e223-4809-a843-95d1115d5995",
+      "slug": "paraiso-acquaviva-collecroce",
+      "nome": "Paraiso",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "c.da granciara, 14, 86030 Mafalda CB",
+      "lat": 41.940984,
+      "lng": 14.734625
+    },
+    {
+      "id": "daab8694-23ee-4227-b02c-6922dfa23301",
+      "slug": "parco-delle-stelle-acquaviva-collecroce",
+      "nome": "Parco delle Stelle",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "Via Fonticella, 86031 Castelmauro CB",
+      "lat": 41.839241,
+      "lng": 14.719468
+    },
+    {
+      "id": "4bb62888-b4cf-45fc-a243-9ed77df337b7",
+      "slug": "park-hotel-campitelli-acquaviva-collecroce",
+      "nome": "PARK HOTEL CAMPITELLI",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "Via S. Benedetto, 1, 86035 Larino CB",
+      "lat": 41.811244,
+      "lng": 14.922255
+    },
+    {
+      "id": "5f22cc51-4bf2-4f3c-8933-c94928dde436",
+      "slug": "residenza-b-b-vistamare-acquaviva-collecroce",
+      "nome": "Residenza B&B Vistamare",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "Piazza Belvedere, 24, 86038 Petacciato CB",
+      "lat": 42.016661,
+      "lng": 14.858134
+    },
+    {
+      "id": "2c1c955b-8153-4fb8-bd0a-bc1230de7503",
+      "slug": "residenza-skanderbeg-acquaviva-collecroce",
+      "nome": "Residenza Skanderbeg",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "Via Roma, 39, 86032 Montecilfone CB",
+      "lat": 41.902921,
+      "lng": 14.835281
+    },
+    {
+      "id": "22bd8532-5bcc-4048-ade1-05d0904d60c8",
+      "slug": "solelago-acquaviva-collecroce",
+      "nome": "Solelago",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "Contrada Difesa delle Camerelle, 86030 Guardialfiera CB",
+      "lat": 41.824776,
+      "lng": 14.825082
+    },
+    {
+      "id": "f7e2cbc3-1b08-49da-9424-2d800b6ce3e9",
+      "slug": "villa-bianca-hotel-spa-acquaviva-collecroce",
+      "nome": "Villa Bianca Hotel & Spa",
+      "city_name": "Acquaviva Collecroce",
+      "indirizzo": "Via il Caravaggio, 14/D, 66050 San Salvo CH",
+      "lat": 42.041541,
+      "lng": 14.73212
+    },
+    {
+      "id": "6c19ef4f-0f47-4a63-87d7-e8b26b4e4419",
+      "slug": "alisma-hotel-acquaviva-d-isernia",
+      "nome": "Alisma Hotel",
+      "city_name": "Acquaviva d'Isernia",
+      "indirizzo": "Via della Pinetina, 67030 Alfedena AQ",
+      "lat": 41.731686,
+      "lng": 14.03427
+    },
+    {
+      "id": "7f7bae83-3216-44ae-b232-f1dfec20da0a",
+      "slug": "b-b-domus-vela-acquaviva-d-isernia",
+      "nome": "B&B DOMUS VELA",
+      "city_name": "Acquaviva d'Isernia",
+      "indirizzo": "Piazza Umberto I, 86070 Fornelli IS",
+      "lat": 41.606615,
+      "lng": 14.14025
+    },
+    {
+      "id": "59c7efa2-1d71-4df6-ba62-73295564aa0c",
+      "slug": "b-b-giallo-siena-acquaviva-d-isernia",
+      "nome": "B&B Giallo Siena",
+      "city_name": "Acquaviva d'Isernia",
+      "indirizzo": "Via Casali, 86073 Colli a Volturno IS",
+      "lat": 41.609015,
+      "lng": 14.112496
+    },
+    {
+      "id": "410c3e6c-6c34-4d01-b0b2-827c0aa977c2",
+      "slug": "b-b-gocciaverde-acquaviva-d-isernia",
+      "nome": "B&B Gocciaverde",
+      "city_name": "Acquaviva d'Isernia",
+      "indirizzo": "Via Olmo, 86070 Rocchetta Alta IS",
+      "lat": 41.62969,
+      "lng": 14.074369
+    },
+    {
+      "id": "37fc37d1-1a9d-401e-b0df-46684237560a",
+      "slug": "b-b-il-borgo-acquaviva-d-isernia",
+      "nome": "B&B il Borgo",
+      "city_name": "Acquaviva d'Isernia",
+      "indirizzo": "Via Buonconsiglio, 30, 86070 Scapoli IS",
+      "lat": 41.616093,
+      "lng": 14.057847
+    }
+  ]
+}

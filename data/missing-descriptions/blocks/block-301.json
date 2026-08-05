@@ -1,0 +1,323 @@
+{
+  "block": 301,
+  "blockId": "301",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "f57670e8-b9b8-44e0-af21-3fcb8f05be0b",
+      "slug": "b-b-borgo-san-martino-borgo-san-martino-2",
+      "nome": "B&B Borgo San Martino",
+      "city_name": "Borgo San Martino",
+      "indirizzo": "Borgo S. Martino, 182, 00039 Zagarolo RM",
+      "lat": 41.843527,
+      "lng": 12.827235
+    },
+    {
+      "id": "9813f314-50aa-41cf-9a5b-671687c47ea0",
+      "slug": "b-b-borgo-san-martino-borgo-san-martino",
+      "nome": "B&B Borgo San Martino",
+      "city_name": "Borgo San Martino",
+      "indirizzo": "Vico S. Martino, 7, 70043 Monopoli BA",
+      "lat": 40.952098,
+      "lng": 17.302761
+    },
+    {
+      "id": "603e0434-d462-472e-a879-58dfd23d1f62",
+      "slug": "agriturismo-raimondi-cominesi-amilcare-borgo-san-siro",
+      "nome": "Agriturismo Raimondi Cominesi Amilcare",
+      "city_name": "Borgo San Siro",
+      "indirizzo": "Località Fornazzo, 27026 Madonna delle Bozzole PV",
+      "lat": 45.23268,
+      "lng": 8.959464
+    },
+    {
+      "id": "213ca738-b080-4929-a0a9-c1eb7a0af78a",
+      "slug": "b-b-dallo-zio-borgo-san-siro",
+      "nome": "B&B dalLo Zio",
+      "city_name": "Borgo San Siro",
+      "indirizzo": "Via Fornace, 15, 27030 Ottobiano PV",
+      "lat": 45.149162,
+      "lng": 8.833499
+    },
+    {
+      "id": "f8c8157c-3714-4e5c-910e-8ed262cf891b",
+      "slug": "hotel-il-pino-ristorante-bar-borgo-san-siro",
+      "nome": "Hotel Il Pino Ristorante Bar",
+      "city_name": "Borgo San Siro",
+      "indirizzo": "Corso Cavour, 1, 27026 Garlasco PV",
+      "lat": 45.196949,
+      "lng": 8.918302
+    },
+    {
+      "id": "88202e99-64ca-444e-96eb-6d90fa3ba202",
+      "slug": "piccola-torre-maison-borgo-san-siro",
+      "nome": "Piccola Torre Maison",
+      "city_name": "Borgo San Siro",
+      "indirizzo": "Via Giovanni Merula, 39, 27029 Vigevano PV",
+      "lat": 45.318725,
+      "lng": 8.858534
+    },
+    {
+      "id": "f64a584f-5d1e-4bad-8323-b22b71701952",
+      "slug": "yoghi-bubu-appartamenti-per-brevi-periodi-casa-v-borgo-san-siro",
+      "nome": "Yoghi & Bubu - Appartamenti Per Brevi Periodi/Casa Vacanze/ B&B Cir018018",
+      "city_name": "Borgo San Siro",
+      "indirizzo": "Via Maestra, 70, 27020 Borgo San Siro PV",
+      "lat": 45.243737,
+      "lng": 8.901013
+    },
+    {
+      "id": "e974d0f5-c95c-4c01-8451-f68af5c32420",
+      "slug": "antica-casa-balsari-borgo-ticino",
+      "nome": "Antica Casa Balsari",
+      "city_name": "Borgo Ticino",
+      "indirizzo": "Piazza Martiri, 16, 28040 Borgo Ticino NO",
+      "lat": 45.68882,
+      "lng": 8.6038
+    },
+    {
+      "id": "649c6aaf-01e9-4339-9235-033be6d0775e",
+      "slug": "albergo-ristorante-riviera-borgo-tossignano",
+      "nome": "Albergo Ristorante Riviera",
+      "city_name": "Borgo Tossignano",
+      "indirizzo": "Via Montanara Nord, 39, 40021 Borgo Tossignano BO",
+      "lat": 44.286485,
+      "lng": 11.606615
+    },
+    {
+      "id": "09d91e16-87ea-4c0b-8aa4-2ca23b7eb621",
+      "slug": "alla-corte-del-picchio-room-breakfast-borgo-tossignano",
+      "nome": "Alla Corte del Picchio Room & Breakfast",
+      "city_name": "Borgo Tossignano",
+      "indirizzo": "CIR 037016-AF-00001 - CIN IT037016B4P62OGRTB, Via Picchio, 1, 40023 Castel Guelfo di Bologna BO",
+      "lat": 44.438295,
+      "lng": 11.629384
+    },
+    {
+      "id": "06c1c52e-ade4-441b-bab3-bba8aa81897e",
+      "slug": "b-b-di-paola-e-luca-borgo-tossignano",
+      "nome": "B&B di Paola e Luca",
+      "city_name": "Borgo Tossignano",
+      "indirizzo": "Via Rio Gambellaro, 1b, 40021 Borgo Tossignano BO",
+      "lat": 44.285534,
+      "lng": 11.641779
+    },
+    {
+      "id": "9b594eb9-bd42-4394-af42-2a46ce61f9fd",
+      "slug": "ca-vanello-b-bio-borgo-tossignano",
+      "nome": "Cà vanello b&bio",
+      "city_name": "Borgo Tossignano",
+      "indirizzo": "Via Montanara Sud, 24, 40021 Borgo Tossignano BO",
+      "lat": 44.26811,
+      "lng": 11.57574
+    },
+    {
+      "id": "90912404-4aea-4a95-acfb-8211fbf221e9",
+      "slug": "casa-flosa-b-b-borgo-tossignano",
+      "nome": "Casa Flosa B&B",
+      "city_name": "Borgo Tossignano",
+      "indirizzo": "Via Flosa, 553, 40059 Medicina BO",
+      "lat": 44.468327,
+      "lng": 11.639512
+    },
+    {
+      "id": "a8d7ea6f-fc3a-4477-aa6c-8a5c39c42252",
+      "slug": "la-compagnia-b-b-borgo-tossignano",
+      "nome": "La Compagnia B&B",
+      "city_name": "Borgo Tossignano",
+      "indirizzo": "Via Gaiano Casanola, 123, 48027 Solarolo RA",
+      "lat": 44.334955,
+      "lng": 11.832574
+    },
+    {
+      "id": "3557a666-0567-4c38-bdac-d2c523a22851",
+      "slug": "ostello-dei-gessi-borgo-tossignano",
+      "nome": "Ostello dei Gessi",
+      "city_name": "Borgo Tossignano",
+      "indirizzo": "Piazza Andrea Costa, 13, 40021 Tossignano BO",
+      "lat": 44.27251,
+      "lng": 11.60361
+    },
+    {
+      "id": "2e7dbac3-4135-4b86-950b-dd6013969903",
+      "slug": "secret-garden-of-tossignano-borgo-tossignano",
+      "nome": "Secret Garden of Tossignano",
+      "city_name": "Borgo Tossignano",
+      "indirizzo": "Via Castiglione, 20, 40021 Tossignano BO",
+      "lat": 44.272834,
+      "lng": 11.603824
+    },
+    {
+      "id": "0a52c511-d161-4290-ab4f-10f28e021a19",
+      "slug": "agriturismo-biologico-terra-antica-borgo-val-di-taro",
+      "nome": "Agriturismo Biologico Terra Antica",
+      "city_name": "Borgo Val di Taro",
+      "indirizzo": "Località Cappella di San Martino, 31, 43043 Borgo Val di Taro PR",
+      "lat": 44.501219,
+      "lng": 9.797186
+    },
+    {
+      "id": "417ea213-3826-4999-a4e0-aa8397a27ca3",
+      "slug": "agriturismo-il-noce-d-oro-borgo-val-di-taro",
+      "nome": "Agriturismo Il Noce d'Oro",
+      "city_name": "Borgo Val di Taro",
+      "indirizzo": "Localita' Il Fornello, Frazione di San Martino, 26, 43043 Borgo Val di Taro PR",
+      "lat": 44.521847,
+      "lng": 9.782538
+    },
+    {
+      "id": "b3022e8c-8574-47e9-88cb-efec4077b535",
+      "slug": "agriturismo-le-querciole-borgo-val-di-taro",
+      "nome": "Agriturismo Le Querciole",
+      "city_name": "Borgo Val di Taro",
+      "indirizzo": "Localita San Pietro 3, 43043 Borgo Val di Taro PR",
+      "lat": 44.510372,
+      "lng": 9.8072
+    },
+    {
+      "id": "29260fae-8208-4f30-8ed2-1451991e417b",
+      "slug": "albergo-bar-firenze-borgo-val-di-taro",
+      "nome": "Albergo Bar Firenze",
+      "city_name": "Borgo Val di Taro",
+      "indirizzo": "Piazza Giuseppe Verdi, 3, 43043 Borgo Val di Taro PR",
+      "lat": 44.487428,
+      "lng": 9.765042
+    },
+    {
+      "id": "ca339e6a-cbc3-400f-88fc-42a454e30c8a",
+      "slug": "albergo-roma-borgo-val-di-taro",
+      "nome": "Albergo Roma",
+      "city_name": "Borgo Val di Taro",
+      "indirizzo": "Largo Roma, 9, 43043 Borgo Val di Taro PR",
+      "lat": 44.487022,
+      "lng": 9.764751
+    },
+    {
+      "id": "b13bd751-92f6-4f74-bf5f-5df219ceab85",
+      "slug": "b-b-borgoeden-borgo-val-di-taro",
+      "nome": "B&B Borgoeden",
+      "city_name": "Borgo Val di Taro",
+      "indirizzo": "Località Marzocco di Brunelli, 48, 43043 Borgo Val di Taro PR",
+      "lat": 44.513967,
+      "lng": 9.761852
+    },
+    {
+      "id": "503f4a97-85e2-485b-b4fa-200b7724cf43",
+      "slug": "b-b-rose-e-cioccolato-borgo-val-di-taro",
+      "nome": "B&B Rose e Cioccolato",
+      "city_name": "Borgo Val di Taro",
+      "indirizzo": "Località Brunelli, 22, 43043 Borgo Val di Taro PR",
+      "lat": 44.506217,
+      "lng": 9.764814
+    },
+    {
+      "id": "9f2991e0-4961-4197-b417-402bc904d265",
+      "slug": "liberty-room-and-breakfast-borgo-val-di-taro",
+      "nome": "LIBERTY ROOM AND BREAKFAST",
+      "city_name": "Borgo Val di Taro",
+      "indirizzo": "Via Montegrappa, 4, 43043 Borgo Val di Taro PR",
+      "lat": 44.486418,
+      "lng": 9.762363
+    },
+    {
+      "id": "c0cb8427-42bd-461f-afd8-855a697733f4",
+      "slug": "agriturismo-az-agr-saetta-di-marco-casagrande-borgo-valbelluna",
+      "nome": "AGRITURISMO Az.Agr. SAETTA' di Marco Casagrande",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Via Saettà, 155, 32026 Lentiai BL",
+      "lat": 46.00004,
+      "lng": 11.989554
+    },
+    {
+      "id": "e2e8f680-4578-4b57-9327-bdb555eb48b9",
+      "slug": "agriturismo-bon-tajer-borgo-valbelluna",
+      "nome": "Agriturismo Bon Tajer",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Via Colderù, 112, 32026 Lentiai BL",
+      "lat": 46.026428,
+      "lng": 12.04058
+    },
+    {
+      "id": "f54bef66-7367-429e-9572-cdc42468bb85",
+      "slug": "agriturismo-ca-ribelli-borgo-valbelluna",
+      "nome": "Agriturismo Ca' Ribelli",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Via Rive di Villa, 60, 32026 Borgo Valbelluna BL",
+      "lat": 46.034965,
+      "lng": 12.05891
+    },
+    {
+      "id": "8685214a-ddb8-4f54-85d2-5e83a20a09ff",
+      "slug": "agriturismo-casa-marietta-borgo-valbelluna",
+      "nome": "Agriturismo Casa Marietta",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Via Campo, 5, 32026 Borgo Valbelluna BL",
+      "lat": 46.044543,
+      "lng": 12.087942
+    },
+    {
+      "id": "ad6cb6e0-7231-4b0c-bb35-1920d720fb91",
+      "slug": "agriturismo-fattoria-ortoalpino-borgo-valbelluna",
+      "nome": "Agriturismo Fattoria Ortoalpino",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Località Confos, 69/a, 32026 Borgo Valbelluna BL",
+      "lat": 46.040062,
+      "lng": 12.177362
+    },
+    {
+      "id": "a92bc4b8-5c1b-4a05-8c3e-451f828f0665",
+      "slug": "agriturismo-la-casa-nei-boschi-borgo-valbelluna",
+      "nome": "agriturismo la casa nei boschi",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Via Boschi, 14, 32026 Borgo Valbelluna BL",
+      "lat": 46.03063,
+      "lng": 12.041852
+    },
+    {
+      "id": "c7d1115a-1a45-490b-9f0c-e8e78d784e2b",
+      "slug": "antica-villa-sophie-b-b-borgo-valbelluna",
+      "nome": "Antica Villa Sophie B&B",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Via Donatori Sangue, 6, 32026 Sant'Antonio Tortal BL",
+      "lat": 46.038911,
+      "lng": 12.162949
+    },
+    {
+      "id": "cc45a6cc-2ffe-402e-ab2b-bd156289d927",
+      "slug": "b-b-ai-pianai-borgo-valbelluna",
+      "nome": "B&B Ai Pianai",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Via Pellegai, 128, 32026 MEL BL",
+      "lat": 46.051046,
+      "lng": 12.130712
+    },
+    {
+      "id": "48e7180a-a6e9-43d0-90a0-e96c7c5b69cb",
+      "slug": "b-b-al-portico-borgo-valbelluna",
+      "nome": "B&B Al Portico",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Località Pialdier, 101, 32026 Borgo Valbelluna BL",
+      "lat": 46.076238,
+      "lng": 12.122083
+    },
+    {
+      "id": "1b051aca-2703-4a4e-b794-7a3657498f61",
+      "slug": "b-b-al-vecchio-carpino-borgo-valbelluna",
+      "nome": "B&B AL VECCHIO CARPINO",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Via Farra, 9, 32026 Mel BL",
+      "lat": 46.074049,
+      "lng": 12.11369
+    },
+    {
+      "id": "58efc350-3f00-4135-a815-655794ed43c9",
+      "slug": "b-b-alla-lanterna-borgo-valbelluna",
+      "nome": "b&b alla Lanterna",
+      "city_name": "Borgo Valbelluna",
+      "indirizzo": "Frazione Casteldardo, 50A Trichiana, 32026 Niccia BL",
+      "lat": 46.061047,
+      "lng": 12.145367
+    }
+  ]
+}

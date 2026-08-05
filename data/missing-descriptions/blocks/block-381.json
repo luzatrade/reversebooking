@@ -1,0 +1,323 @@
+{
+  "block": 381,
+  "blockId": "381",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "7335297b-f187-4b10-a080-3a2be454b220",
+      "slug": "b-b-l-andirivieni-camogli",
+      "nome": "B&B L'andirivieni",
+      "city_name": "Camogli",
+      "indirizzo": "Corso G. Mazzini, 109, 16032 Camogli GE",
+      "lat": 44.352548,
+      "lng": 9.152531
+    },
+    {
+      "id": "4399c713-16a6-4481-a4dc-da6b4513ea54",
+      "slug": "bed-and-breakfast-villa-orchidea-camogli",
+      "nome": "Bed and Breakfast Villa Orchidea",
+      "city_name": "Camogli",
+      "indirizzo": "Via Enrico Figari, 153, 16032 Camogli GE",
+      "lat": 44.348128,
+      "lng": 9.164739
+    },
+    {
+      "id": "21640c6e-301e-4a5f-964f-076de5150543",
+      "slug": "carrick-hotel-camogli-camogli",
+      "nome": "Carrick Hotel Camogli",
+      "city_name": "Camogli",
+      "indirizzo": "Via Nicolò Cuneo, 24, 16032 Camogli GE",
+      "lat": 44.346279,
+      "lng": 9.157661
+    },
+    {
+      "id": "dc0dcd39-f89d-4d40-8cbc-ff26a438dea4",
+      "slug": "hotel-la-camogliese-camogli",
+      "nome": "Hotel La Camogliese",
+      "city_name": "Camogli",
+      "indirizzo": "Via Giuseppe Garibaldi, 55, 16032 Camogli GE",
+      "lat": 44.34798,
+      "lng": 9.155601
+    },
+    {
+      "id": "c5ba3eb7-47fa-4a1c-a860-824a76977587",
+      "slug": "la-casa-di-alessia-camogli",
+      "nome": "La Casa di Alessia",
+      "city_name": "Camogli",
+      "indirizzo": "Salita Giacomo Favale, 5, 16032 Camogli GE",
+      "lat": 44.350121,
+      "lng": 9.153406
+    },
+    {
+      "id": "69ed1c48-ad11-4492-a4dc-b0a4f6add711",
+      "slug": "la-conchiglia-bed-breakfast-camogli",
+      "nome": "La CONCHIGLIA - Bed & Breakfast",
+      "city_name": "Camogli",
+      "indirizzo": "Via Romana, 5, 16032 Camogli GE",
+      "lat": 44.353901,
+      "lng": 9.14933
+    },
+    {
+      "id": "d4823787-4b81-4024-8bc9-3bf834c68f59",
+      "slug": "la-priaguea-house-beach-camogli",
+      "nome": "La Priaguea - House Beach",
+      "city_name": "Camogli",
+      "indirizzo": "Via Giuseppe Garibaldi, 89, 16032 Camogli GE",
+      "lat": 44.348613,
+      "lng": 9.154742
+    },
+    {
+      "id": "6656a9a9-9c75-4c8e-bc82-1269f877d160",
+      "slug": "locanda-i-tre-merli-camogli",
+      "nome": "Locanda I Tre Merli",
+      "city_name": "Camogli",
+      "indirizzo": "Via dello Scalo, 5, 16032 Camogli GE",
+      "lat": 44.351739,
+      "lng": 9.151305
+    },
+    {
+      "id": "e917d5ba-cd07-4d40-9369-a32601093ca6",
+      "slug": "porta-del-parco-camogli",
+      "nome": "Porta del Parco",
+      "city_name": "Camogli",
+      "indirizzo": "SS 1, 249, 16032 Camogli GE",
+      "lat": 44.343169,
+      "lng": 9.173069
+    },
+    {
+      "id": "618a688d-c30c-4b6f-aa57-fcc741a64f21",
+      "slug": "sublimis-boutique-hotel-camogli",
+      "nome": "Sublimis Boutique Hotel",
+      "city_name": "Camogli",
+      "indirizzo": "Salita Pinetto, 13, 16032 Camogli GE",
+      "lat": 44.349162,
+      "lng": 9.154657
+    },
+    {
+      "id": "085d379a-b898-4c00-949e-c0655b64fb15",
+      "slug": "villa-rosmarino-camogli",
+      "nome": "Villa Rosmarino",
+      "city_name": "Camogli",
+      "indirizzo": "Via Enrico Figari, 38, 16032 Camogli GE",
+      "lat": 44.343363,
+      "lng": 9.161832
+    },
+    {
+      "id": "67d57b3c-d2b3-4b3c-ab84-dc47bcf6b9eb",
+      "slug": "agriturismo-l-antico-casale-di-matteo-pollice-campagna",
+      "nome": "Agriturismo L'Antico Casale di Matteo Pollice",
+      "city_name": "Campagna",
+      "indirizzo": "Via Madonna D'Avigliano, 84022 Campagna SA",
+      "lat": 40.670163,
+      "lng": 15.119086
+    },
+    {
+      "id": "4808a51f-e3e2-4de0-8f91-a9cac29a71b9",
+      "slug": "agriturismo-sant-angelo-campagna",
+      "nome": "Agriturismo Sant'Angelo",
+      "city_name": "Campagna",
+      "indirizzo": "STRADA PRIVATA SANT'ANGELO, 7, 84022 Campagna SA",
+      "lat": 40.635324,
+      "lng": 15.095663
+    },
+    {
+      "id": "5912c5f5-86c0-4aa3-b49b-0b391beeb3a5",
+      "slug": "b-b-la-magnolia-campagna",
+      "nome": "B&B La Magnolia",
+      "city_name": "Campagna",
+      "indirizzo": "Via Calli, 106, 84022 Campagna SA",
+      "lat": 40.625833,
+      "lng": 15.095278
+    },
+    {
+      "id": "446bd638-8be1-4593-98bb-d5e6ed322061",
+      "slug": "casa-agricola-scorziello-campagna",
+      "nome": "Casa Agricola Scorziello",
+      "city_name": "Campagna",
+      "indirizzo": "S.da Statale 19 delle Calabrie, 84028 Serre SA",
+      "lat": 40.593378,
+      "lng": 15.121055
+    },
+    {
+      "id": "47a1ec6c-e5e5-41d0-8306-b8b8d4550fe0",
+      "slug": "dimora-storica-maccarunera-campagna",
+      "nome": "DIMORA STORICA MACCARUNERA",
+      "city_name": "Campagna",
+      "indirizzo": "Piazza Melchiorre Guerriero, 17, 84022 Campagna SA",
+      "lat": 40.667154,
+      "lng": 15.106868
+    },
+    {
+      "id": "948255d2-ff16-40f4-8703-d8048e536737",
+      "slug": "hotel-capital-campagna",
+      "nome": "Hotel Capital",
+      "city_name": "Campagna",
+      "indirizzo": "Via Nelson Mandela, 27, 84022 Quadrivio SA",
+      "lat": 40.636846,
+      "lng": 15.103165
+    },
+    {
+      "id": "47283ae2-8e4a-4718-9877-6accc41f0ab3",
+      "slug": "ristorante-il-castagneto-campagna",
+      "nome": "Ristorante Il Castagneto",
+      "city_name": "Campagna",
+      "indirizzo": "SS91, 84022 Campagna SA",
+      "lat": 40.638889,
+      "lng": 15.110833
+    },
+    {
+      "id": "c5fc8b74-b8ec-4878-872e-4fe2db72821c",
+      "slug": "the-stars-miaj-campagna",
+      "nome": "The Stars Miaj",
+      "city_name": "Campagna",
+      "indirizzo": "via Antonio Vincenzo RIVELLI, 7, 84022 Campagna SA",
+      "lat": 40.665723,
+      "lng": 15.107309
+    },
+    {
+      "id": "839beb7a-de05-4b7c-b285-1d11e717becd",
+      "slug": "alla-campana-campagna-lupia",
+      "nome": "Alla Campana",
+      "city_name": "Campagna Lupia",
+      "indirizzo": "Via Giuseppe Mazzini, 78, 30031 Dolo VE",
+      "lat": 45.42283,
+      "lng": 12.073878
+    },
+    {
+      "id": "355d4579-fab8-4260-89b9-7898182384aa",
+      "slug": "casa-a-colori-venezia-campagna-lupia",
+      "nome": "Casa a Colori Venezia",
+      "city_name": "Campagna Lupia",
+      "indirizzo": "Via dei Frati, 1, 30031 Dolo VE",
+      "lat": 45.41545,
+      "lng": 12.081817
+    },
+    {
+      "id": "ae7e69fc-8ff5-46e8-b17a-cc51f6e51369",
+      "slug": "hotel-angi-campagna-lupia",
+      "nome": "Hotel Angi",
+      "city_name": "Campagna Lupia",
+      "indirizzo": "Via Artigianato, 1, 30030 Fossò VE",
+      "lat": 45.395502,
+      "lng": 12.050266
+    },
+    {
+      "id": "e9663224-3219-4642-8948-9507d7c58180",
+      "slug": "hotel-antica-corte-marchesini-campagna-lupia",
+      "nome": "Hotel Antica Corte Marchesini",
+      "city_name": "Campagna Lupia",
+      "indirizzo": "Via Fratelli Cervi, 1, 30010 Campagna Lupia VE",
+      "lat": 45.359577,
+      "lng": 12.093227
+    },
+    {
+      "id": "76fc36d2-c23d-4c3e-b064-dda4c6ae5ad0",
+      "slug": "hotel-relais-alcova-del-doge-campagna-lupia",
+      "nome": "Hotel Relais Alcova del Doge",
+      "city_name": "Campagna Lupia",
+      "indirizzo": "Via Nazionale, 39/40, 30034 Mira VE",
+      "lat": 45.433403,
+      "lng": 12.116442
+    },
+    {
+      "id": "8461f88c-ecdc-44cd-b130-eebed0de9fd6",
+      "slug": "hotel-ristorante-magia-del-brenta-riviera-del-br-campagna-lupia",
+      "nome": "Hotel Ristorante Magia del Brenta - Riviera del Brenta",
+      "city_name": "Campagna Lupia",
+      "indirizzo": "Via Naviglio, 17, 30039 Fiesso d'Artico VE",
+      "lat": 45.414239,
+      "lng": 12.019913
+    },
+    {
+      "id": "e179d326-7284-4f2e-a0af-11adbaba34c5",
+      "slug": "hotel-ristorante-poppi-di-poppi-adriano-c-s-n-c-campagna-lupia",
+      "nome": "Hotel Ristorante Poppi Di Poppi Adriano & C. S.N.C.",
+      "city_name": "Campagna Lupia",
+      "indirizzo": "Strada Statale 309 Romea, 80, 30034 Mira VE",
+      "lat": 45.418693,
+      "lng": 12.166863
+    },
+    {
+      "id": "40c61aae-990c-4e06-9791-9d32a7de2f81",
+      "slug": "hotel-riviera-dei-dogi-campagna-lupia",
+      "nome": "Hotel Riviera dei Dogi",
+      "city_name": "Campagna Lupia",
+      "indirizzo": "Via Don G. Minzoni, 33, 30034 Mira VE",
+      "lat": 45.438286,
+      "lng": 12.137508
+    },
+    {
+      "id": "1eb9cd95-6116-4ef8-b221-739d18a2853e",
+      "slug": "villa-goetzen-ristorante-hotel-campagna-lupia",
+      "nome": "Villa Goetzen Ristorante Hotel",
+      "city_name": "Campagna Lupia",
+      "indirizzo": "Via G. Matteotti, 2c, 30031 Dolo VE",
+      "lat": 45.424992,
+      "lng": 12.079294
+    },
+    {
+      "id": "d7739ea1-d54e-4be1-be18-a5cec3dfe406",
+      "slug": "villa-martin-hotel-campagna-lupia",
+      "nome": "Villa Martin Hotel",
+      "city_name": "Campagna Lupia",
+      "indirizzo": "Via Argine Sinistro, 105, 30031 Dolo VE",
+      "lat": 45.41478,
+      "lng": 12.097715
+    },
+    {
+      "id": "f9738245-2818-4a33-9f97-ee80b510e006",
+      "slug": "autohotel-roma-campagnano-di-roma",
+      "nome": "Autohotel Roma",
+      "city_name": "Campagnano di Roma",
+      "indirizzo": "Via Cassia, Km 24.300, 00060 Formello RM",
+      "lat": 42.074391,
+      "lng": 12.373329
+    },
+    {
+      "id": "40dacab2-d8f1-48c6-aab6-aed254ca1f45",
+      "slug": "b-b-nonna-loreta-cod-cin-it058038c1ultc5prg-campagnano-di-roma",
+      "nome": "B&B Nonna Loreta Cod CIN IT058038C1ULTC5PRG",
+      "city_name": "Campagnano di Roma",
+      "indirizzo": "Via Delle Nocette, 6, 00060 Formello RM",
+      "lat": 42.066433,
+      "lng": 12.398328
+    },
+    {
+      "id": "430a569f-71fe-44b2-9231-1d077e1901bf",
+      "slug": "hotel-riesco-campagnano-di-roma",
+      "nome": "Hotel Riesco",
+      "city_name": "Campagnano di Roma",
+      "indirizzo": "Via della Stazione di Cesano, 340, 00123 Roma RM",
+      "lat": 42.06216,
+      "lng": 12.327125
+    },
+    {
+      "id": "16993081-9c8a-4b26-a063-f815571eacb2",
+      "slug": "la-meridiana-relais-campagnano-di-roma",
+      "nome": "La Meridiana Relais",
+      "city_name": "Campagnano di Roma",
+      "indirizzo": "Via Nazario Sauro, 42c, 00060 Formello RM",
+      "lat": 42.080955,
+      "lng": 12.401909
+    },
+    {
+      "id": "b403d69d-4255-4749-aabb-46cca00f07b7",
+      "slug": "agriturismo-podere-scopicci-campagnatico",
+      "nome": "Agriturismo - Podere Scopicci",
+      "city_name": "Campagnatico",
+      "indirizzo": "Via Fontemarina, località Scopicci, frazione 52, 58042 Campagnatico GR",
+      "lat": 42.861527,
+      "lng": 11.23352
+    },
+    {
+      "id": "d752aa36-f7a7-4072-acee-5bb54c284f75",
+      "slug": "agriturismo-casa-olivo-campagnatico",
+      "nome": "Agriturismo Casa Olivo",
+      "city_name": "Campagnatico",
+      "indirizzo": "SP44 delle Via delle Conce, 35, 58042 Campagnatico GR",
+      "lat": 42.872232,
+      "lng": 11.275102
+    }
+  ]
+}

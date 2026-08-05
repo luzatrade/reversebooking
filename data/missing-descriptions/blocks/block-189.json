@@ -1,0 +1,323 @@
+{
+  "block": 189,
+  "blockId": "189",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "6a25b2a5-0901-4780-9a3c-c891c2c69eba",
+      "slug": "albergo-ristorante-edelweiss-larespa-baceno",
+      "nome": "Albergo Ristorante Edelweiss - Larespa",
+      "city_name": "Baceno",
+      "indirizzo": "Frazione Viceno, 7, 28862 Crodo VB",
+      "lat": 46.228851,
+      "lng": 8.307834
+    },
+    {
+      "id": "86f5f7d7-0440-4e75-b6f2-9d4ef70be90f",
+      "slug": "albergo-ristorante-minoli-baceno",
+      "nome": "Albergo Ristorante Minoli",
+      "city_name": "Baceno",
+      "indirizzo": "Via Provinciale, 41, 28866 Premia VB",
+      "lat": 46.268313,
+      "lng": 8.339996
+    },
+    {
+      "id": "951f8c42-bcde-4724-8940-a4af8f34bbe3",
+      "slug": "albergo-ristorante-vecchio-scarpone-baceno",
+      "nome": "Albergo Ristorante Vecchio Scarpone",
+      "city_name": "Baceno",
+      "indirizzo": "Via Roma, 48, 28861 Baceno VB",
+      "lat": 46.261111,
+      "lng": 8.319444
+    },
+    {
+      "id": "01060299-c545-4f54-9ba6-eca6a1660b4a",
+      "slug": "b-b-casa-fattorini-baceno",
+      "nome": "B&B Casa Fattorini",
+      "city_name": "Baceno",
+      "indirizzo": "Via Roma, 77, 28861 Baceno VB",
+      "lat": 46.26141,
+      "lng": 8.319118
+    },
+    {
+      "id": "aa1ce650-69c0-4a01-9455-bfc7be59e4e3",
+      "slug": "b-b-casa-toma-baceno",
+      "nome": "B&B Casa Tomà",
+      "city_name": "Baceno",
+      "indirizzo": "Via Menogno, 5, 28855 Masera VB",
+      "lat": 46.144057,
+      "lng": 8.323328
+    },
+    {
+      "id": "5440a79f-6e21-4e08-8c1a-e2b3c7b417e5",
+      "slug": "b-b-la-beula-baceno",
+      "nome": "B&B La Beula",
+      "city_name": "Baceno",
+      "indirizzo": "Frazione Beola, 2, 28861 Baceno VB",
+      "lat": 46.269809,
+      "lng": 8.308817
+    },
+    {
+      "id": "13a3d54a-321f-4d50-a066-7d4a90c3aa96",
+      "slug": "b-b-ossola-dal-monte-baceno",
+      "nome": "B&B OSSOLA DAL MONTE",
+      "city_name": "Baceno",
+      "indirizzo": "VIA G. PROTTI, 28865 Crevoladossola VB",
+      "lat": 46.137219,
+      "lng": 8.282247
+    },
+    {
+      "id": "ddfccfcb-979b-4ec4-abbd-e1e17b7d2dbf",
+      "slug": "bed-bike-la-stalla-guest-house-baceno",
+      "nome": "Bed & Bike La Stalla Guest House",
+      "city_name": "Baceno",
+      "indirizzo": "Via Pontetto, 50, 28864 Montecrestese VB",
+      "lat": 46.149756,
+      "lng": 8.318272
+    },
+    {
+      "id": "3335463c-4e05-4ac3-9008-cd81cd8bb066",
+      "slug": "bed-breakfast-dimora-d-artista-baceno",
+      "nome": "Bed & Breakfast Dimora d'Artista",
+      "city_name": "Baceno",
+      "indirizzo": "Via Rossetti Valentini, 23, 28857 Santa Maria Maggiore VB",
+      "lat": 46.134424,
+      "lng": 8.462579
+    },
+    {
+      "id": "8e4a5ce2-63a1-440c-8e12-f4f4b3affe1e",
+      "slug": "hotel-miramonti-baceno",
+      "nome": "Hotel Miramonti",
+      "city_name": "Baceno",
+      "indirizzo": "Piazzale Armando Diaz, 3, 28857 Santa Maria Maggiore VB",
+      "lat": 46.136288,
+      "lng": 8.461384
+    },
+    {
+      "id": "ce3cbb9e-e052-49a8-b16c-bb9a3f8d9fe9",
+      "slug": "la-casermetta-santa-maria-maggiore-baceno",
+      "nome": "La Casermetta - Santa Maria Maggiore",
+      "city_name": "Baceno",
+      "indirizzo": "Via Pittor G.Borgnis, 3, 28857 Santa Maria Maggiore VB",
+      "lat": 46.1351,
+      "lng": 8.469873
+    },
+    {
+      "id": "23808bf6-f5ff-4ee1-bc90-ba806ba2466d",
+      "slug": "rifugio-monte-zeus-baceno",
+      "nome": "Rifugio Monte Zeus",
+      "city_name": "Baceno",
+      "indirizzo": "Frazione Crego, 6, 28866 Premia VB",
+      "lat": 46.256695,
+      "lng": 8.339661
+    },
+    {
+      "id": "cb665db4-df93-40ee-acab-199d607f5ee0",
+      "slug": "stella-alpina-hotel-e-ristorante-baceno",
+      "nome": "Stella Alpina Hotel e Ristorante",
+      "city_name": "Baceno",
+      "indirizzo": "Via Domodossola, 13, 28853 Druogno VB",
+      "lat": 46.134724,
+      "lng": 8.434609
+    },
+    {
+      "id": "dbdfa4bf-c0c9-4ee7-9138-9ea6763b1283",
+      "slug": "avernum-relais-bacoli",
+      "nome": "Avernum Relais",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Lago D'Averno, 7, 80078 Pozzuoli NA",
+      "lat": 40.834875,
+      "lng": 14.073582
+    },
+    {
+      "id": "60652740-522d-4b22-9dd7-71910e9d940a",
+      "slug": "baia-flegrea-meuble-bacoli",
+      "nome": "Baia Flegrea Meublè",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Francesco Petrarca, 19, 80070 Bacoli NA",
+      "lat": 40.79281,
+      "lng": 14.0794
+    },
+    {
+      "id": "91ff36cd-1bb9-4188-af4b-df2bc2579b80",
+      "slug": "cala-moresca-bacoli",
+      "nome": "Cala Moresca",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Faro, 44, 80070 Bacoli NA",
+      "lat": 40.784008,
+      "lng": 14.086633
+    },
+    {
+      "id": "a5f35dec-c28c-4cdf-9d49-aa91d315953c",
+      "slug": "calea-hotel-bacoli",
+      "nome": "Calea Hotel",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Lido Miliscola, 31, 80070 Bacoli NA",
+      "lat": 40.789256,
+      "lng": 14.066423
+    },
+    {
+      "id": "5e57624d-e098-43bb-919f-01be2e30e3b4",
+      "slug": "domus-diana-baia-bacoli",
+      "nome": "Domus Diana Baia",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Sella di Baia, 80070 Bacoli NA",
+      "lat": 40.818333,
+      "lng": 14.070316
+    },
+    {
+      "id": "4e6d9a16-33a2-4ff3-a11d-a7bcdd005b3a",
+      "slug": "grand-hotel-serapide-bacoli",
+      "nome": "Grand Hotel Serapide",
+      "city_name": "Bacoli",
+      "indirizzo": "Via S. Gennaro Agnano, 34, 80078 Pozzuoli NA",
+      "lat": 40.820583,
+      "lng": 14.143143
+    },
+    {
+      "id": "d387229d-025c-439e-869b-00ac235ae4d0",
+      "slug": "hotel-agave-bacoli",
+      "nome": "Hotel Agave",
+      "city_name": "Bacoli",
+      "indirizzo": "SS. 7/IV Domitiana, Km 53, 80078 Pozzuoli NA",
+      "lat": 40.852587,
+      "lng": 14.084237
+    },
+    {
+      "id": "176bb173-818b-4bf5-9000-e3f7acda17df",
+      "slug": "hotel-cocceio-bacoli",
+      "nome": "Hotel Cocceio",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Scalandrone, 109, 80070 Bacoli NA",
+      "lat": 40.840962,
+      "lng": 14.061931
+    },
+    {
+      "id": "973e8997-6018-493c-9ffb-1517cb29839d",
+      "slug": "hotel-villa-del-mare-ho-gi-srl-bacoli",
+      "nome": "Hotel Villa Del Mare Ho.Gi. Srl",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Sacello di Miseno, 69, 80070 Bacoli NA",
+      "lat": 40.78695,
+      "lng": 14.082889
+    },
+    {
+      "id": "fc6d5f32-2c6a-4d89-888c-a40b005510e1",
+      "slug": "il-barbacane-bacoli",
+      "nome": "Il Barbacane",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Castello, 2, 80070 Bacoli NA",
+      "lat": 40.811811,
+      "lng": 14.074372
+    },
+    {
+      "id": "2fc299e1-3f46-4a94-80cf-e726ed97655e",
+      "slug": "kira-suite-and-rooms-bacoli",
+      "nome": "Kira suite and rooms",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Palinuro, 25, 80078 Pozzuoli NA",
+      "lat": 40.83337,
+      "lng": 14.094965
+    },
+    {
+      "id": "1144c603-4f29-43f4-bebf-cdf772199f9e",
+      "slug": "la-sabbia-rooms-bacoli",
+      "nome": "La Sabbia Rooms",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Molo di Baia, 1, 80070 Bacoli NA",
+      "lat": 40.816379,
+      "lng": 14.071673
+    },
+    {
+      "id": "1fe6295a-ae31-4b84-aaac-9cd9a28c4706",
+      "slug": "la-suite-hotel-spa-bacoli",
+      "nome": "La Suite Hotel & Spa",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Flavio Gioia, 81, 80079 Procida NA",
+      "lat": 40.761295,
+      "lng": 14.012923
+    },
+    {
+      "id": "558799a0-f76d-46b8-b455-5cc1e2ea70bd",
+      "slug": "pharus-miseni-suites-and-rooms-bacoli",
+      "nome": "Pharus Miseni suites and rooms",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Faro, 42, 80070 Bacoli NA",
+      "lat": 40.784745,
+      "lng": 14.087613
+    },
+    {
+      "id": "60f6dbf9-9f5b-4f4a-8c6f-2d814a8c47da",
+      "slug": "relais-tiare-bed-and-breakfast-bacoli",
+      "nome": "Relais Tiaré Bed and Breakfast",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Cicerone, 35, 80070 Bacoli NA",
+      "lat": 40.824399,
+      "lng": 14.076416
+    },
+    {
+      "id": "605262f8-409e-4a9b-b271-eefd00a69e28",
+      "slug": "suite-b-b-mustafa-pozzuoli-bacoli",
+      "nome": "Suite B&B Mustafà pozzuoli",
+      "city_name": "Bacoli",
+      "indirizzo": "Vico Magazzini, 80078 Pozzuoli NA",
+      "lat": 40.822554,
+      "lng": 14.119029
+    },
+    {
+      "id": "68ca0270-7198-4868-a3d3-dfcabd7b7b4c",
+      "slug": "villa-aragonese-rooms-bacoli",
+      "nome": "Villa Aragonese Rooms",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Torregaveta, 123, 80070 Monte di Procida NA",
+      "lat": 40.810991,
+      "lng": 14.045144
+    },
+    {
+      "id": "d8ca4c5b-cc99-4ee1-ab84-b2d77a20c902",
+      "slug": "villa-edelweiss-bacoli",
+      "nome": "Villa Edelweiss",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Fusaro, 33, 80070 Bacoli NA",
+      "lat": 40.821883,
+      "lng": 14.061951
+    },
+    {
+      "id": "02a18c0b-cbfd-47f5-a0f1-831bf613e422",
+      "slug": "villa-gervasio-bacoli",
+      "nome": "Villa Gervasio",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Bellavista, 176, 80070 Bacoli NA",
+      "lat": 40.805983,
+      "lng": 14.068864
+    },
+    {
+      "id": "d729ffd0-bc75-4856-a522-443f4481d1f8",
+      "slug": "villa-oteri-rooms-bistrot-bacoli",
+      "nome": "Villa Oteri Rooms & Bistrot",
+      "city_name": "Bacoli",
+      "indirizzo": "Via Miliscola, 22, 80070 Bacoli NA",
+      "lat": 40.793258,
+      "lng": 14.067362
+    },
+    {
+      "id": "2fd4c153-901a-44b9-9a2e-ed932a43d109",
+      "slug": "affittacamere-tere-ceriana-badalucco",
+      "nome": "Affittacamere Teré Ceriana",
+      "city_name": "Badalucco",
+      "indirizzo": "Corso Italia, 72, 18034 Ceriana IM",
+      "lat": 43.879478,
+      "lng": 7.774412
+    },
+    {
+      "id": "5a13cab1-2323-47d0-bcb0-ca4c628ded08",
+      "slug": "agriturismo-l-adagio-badalucco",
+      "nome": "Agriturismo L'Adagio",
+      "city_name": "Badalucco",
+      "indirizzo": "Via Ortai, 15, 18010 Badalucco IM",
+      "lat": 43.913652,
+      "lng": 7.846954
+    }
+  ]
+}

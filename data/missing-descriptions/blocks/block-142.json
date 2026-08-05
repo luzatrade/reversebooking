@@ -1,0 +1,323 @@
+{
+  "block": 142,
+  "blockId": "142",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "8437cf4c-a7ce-4245-a713-cd0d42963a77",
+      "slug": "beb-aria-di-montagna-ardenno",
+      "nome": "beb Aria di Montagna",
+      "city_name": "Ardenno",
+      "indirizzo": "Via Somvalle, 279, 23010 Forcola SO",
+      "lat": 46.135101,
+      "lng": 9.671382
+    },
+    {
+      "id": "f8f37bab-0375-49db-bf55-d5d02247c3db",
+      "slug": "ca-selvetta-holiday-houses-in-valtellina-ardenno",
+      "nome": "Cà Selvetta - Holiday Houses in Valtellina",
+      "city_name": "Ardenno",
+      "indirizzo": "Via Piani Selvetta, 30, 23010 Forcola SO",
+      "lat": 46.162293,
+      "lng": 9.688917
+    },
+    {
+      "id": "ae21a738-4873-4de3-8947-99861d4818a5",
+      "slug": "foresteria-traversi-ardenno",
+      "nome": "Foresteria Traversi",
+      "city_name": "Ardenno",
+      "indirizzo": "Via Adua, 51, 23010 Berbenno di Valtellina SO",
+      "lat": 46.168645,
+      "lng": 9.740718
+    },
+    {
+      "id": "ba9a696b-8233-4494-8c8e-81db7ad2c8fa",
+      "slug": "hotel-badile-ardenno",
+      "nome": "Hotel Badile",
+      "city_name": "Ardenno",
+      "indirizzo": "Via Mulini, 23010 San Martino SO",
+      "lat": 46.240457,
+      "lng": 9.63148
+    },
+    {
+      "id": "2400c75f-eb58-4de0-bd02-619846c9cbf8",
+      "slug": "il-laghetto-hotel-ardenno",
+      "nome": "Il Laghetto Hotel",
+      "city_name": "Ardenno",
+      "indirizzo": "Via Stelxi, 1, 23010 Caiolo SO",
+      "lat": 46.153851,
+      "lng": 9.801586
+    },
+    {
+      "id": "72838b87-9ae7-448f-b31e-b7d975df55e0",
+      "slug": "trattoria-traversi-ardenno",
+      "nome": "Trattoria Traversi",
+      "city_name": "Ardenno",
+      "indirizzo": "Via Adua, 32, 23010 Berbenno di Valtellina SO",
+      "lat": 46.168789,
+      "lng": 9.740705
+    },
+    {
+      "id": "4c025a97-311d-4120-810e-8dfee1bd5eb3",
+      "slug": "al-milano-hotel-ristorante-pizzeria-ardesio",
+      "nome": "Al Milano Hotel, Ristorante & Pizzeria",
+      "city_name": "Ardesio",
+      "indirizzo": "Via Capitano Giovanni Rodari, 5, 24060 Bossico BG",
+      "lat": 45.8278,
+      "lng": 10.046248
+    },
+    {
+      "id": "395bbaba-3d8d-442a-b19b-c5819ae35808",
+      "slug": "albergo-bigoni-ardesio",
+      "nome": "Albergo Bigoni",
+      "city_name": "Ardesio",
+      "indirizzo": "Piazza B.V. Moretto 25, Piazza Madonna delle Grazie, 24020 Ardesio BG",
+      "lat": 45.938772,
+      "lng": 9.930763
+    },
+    {
+      "id": "edf42169-0921-40e5-8a77-122e7bfdb37f",
+      "slug": "albergo-della-posta-ardesio",
+      "nome": "Albergo Della Posta",
+      "city_name": "Ardesio",
+      "indirizzo": "Via Giuseppe Mazzini, 18, 24023 Clusone BG",
+      "lat": 45.889639,
+      "lng": 9.943956
+    },
+    {
+      "id": "63883a8b-a19e-4187-ba24-d8040473c0ff",
+      "slug": "albergo-ristorante-la-pesa-ardesio",
+      "nome": "Albergo Ristorante La Pesa",
+      "city_name": "Ardesio",
+      "indirizzo": "Via Ercole e Pietro Pozzi, 1, 24020 Parre BG",
+      "lat": 45.873996,
+      "lng": 9.899895
+    },
+    {
+      "id": "29e7955f-f1c8-42fa-b9a3-708758847ab9",
+      "slug": "antica-locanda-ardesio",
+      "nome": "Antica Locanda",
+      "city_name": "Ardesio",
+      "indirizzo": "Piazza Uccelli, 3, 24023 Clusone BG",
+      "lat": 45.890102,
+      "lng": 9.945082
+    },
+    {
+      "id": "67625302-aa7c-4592-b9f7-e29aa7229562",
+      "slug": "collina-luxury-relais-ardesio",
+      "nome": "Collina Luxury Relais",
+      "city_name": "Ardesio",
+      "indirizzo": "Via Collina Verde, 2, 24023 Clusone BG",
+      "lat": 45.888157,
+      "lng": 9.959706
+    },
+    {
+      "id": "4fb4f159-32dc-469f-98c8-813f9698f8fc",
+      "slug": "da-giorgio-ardesio-hotel-ristorante-atelier-da-g-ardesio",
+      "nome": "Da Giorgio Ardesio- Hotel-Ristorante- atelier da Giorgio",
+      "city_name": "Ardesio",
+      "indirizzo": "Via Guglielmo Marconi, 19, 24020 Ardesio BG",
+      "lat": 45.939356,
+      "lng": 9.930948
+    },
+    {
+      "id": "b8638d6f-981a-42f0-ac65-dee5fc812388",
+      "slug": "hotel-belvedere-ardesio",
+      "nome": "Hotel Belvedere",
+      "city_name": "Ardesio",
+      "indirizzo": "Via G. Marconi, 69, 24065 Lovere BG",
+      "lat": 45.82162,
+      "lng": 10.080372
+    },
+    {
+      "id": "5aaa8c37-a45e-4944-a291-a1b09f01922b",
+      "slug": "hotel-des-alpes-ardesio",
+      "nome": "Hotel Des Alpes",
+      "city_name": "Ardesio",
+      "indirizzo": "Via Donico, 10, 24020 Castione della Presolana BG",
+      "lat": 45.929039,
+      "lng": 10.077883
+    },
+    {
+      "id": "7796488a-89e3-4a3a-8fc3-7e550f531d48",
+      "slug": "hotel-libia-ardesio",
+      "nome": "Hotel Libia",
+      "city_name": "Ardesio",
+      "indirizzo": "Via da Fin, 15, 24020 Fino del Monte BG",
+      "lat": 45.890556,
+      "lng": 9.990833
+    },
+    {
+      "id": "a23dfbb7-16ab-4a79-8e05-5ebd96a768f7",
+      "slug": "hotel-migliorati-castione-della-presolana-ardesio",
+      "nome": "Hotel Migliorati - Castione della Presolana",
+      "city_name": "Ardesio",
+      "indirizzo": "Via Provinciale, 84, 24020 Castione della Presolana BG",
+      "lat": 45.922025,
+      "lng": 10.065701
+    },
+    {
+      "id": "fae61149-130e-41c9-951a-16fe4e2ae982",
+      "slug": "hotel-ristorante-garden-ardesio",
+      "nome": "Hotel Ristorante Garden",
+      "city_name": "Ardesio",
+      "indirizzo": "Via Papa Giovanni XXIII, 1, 24020 Fino del Monte BG",
+      "lat": 45.891989,
+      "lng": 9.990479
+    },
+    {
+      "id": "48fe7fe4-69e6-4b36-b552-9ddaab11dbb2",
+      "slug": "hotel-ristorante-morandi-ardesio",
+      "nome": "Hotel Ristorante Morandi",
+      "city_name": "Ardesio",
+      "indirizzo": "Via Dante, 19, 24020 Fiumenero BG",
+      "lat": 46.020984,
+      "lng": 9.957675
+    },
+    {
+      "id": "a89595ba-cf33-4b02-9210-1510b6fa2db0",
+      "slug": "hotel-spiazzi-ardesio",
+      "nome": "Hotel Spiazzi",
+      "city_name": "Ardesio",
+      "indirizzo": "Piazzale Avert, 1, 24020 Gromo BG",
+      "lat": 45.970592,
+      "lng": 9.96331
+    },
+    {
+      "id": "b76157bb-7b47-41dc-ba3b-eedb84676297",
+      "slug": "hotel-vittoria-ardesio",
+      "nome": "Hotel Vittoria",
+      "city_name": "Ardesio",
+      "indirizzo": "Via Spiazzi, 136, 24020 Boario Spiazzi BG",
+      "lat": 45.970409,
+      "lng": 9.958278
+    },
+    {
+      "id": "11c71db3-4a3c-4cf8-bcd6-6056de444aaa",
+      "slug": "locanda-del-cacciatore-ardesio",
+      "nome": "Locanda del Cacciatore",
+      "city_name": "Ardesio",
+      "indirizzo": "Via Roma, 9, 24020 Gromo BG",
+      "lat": 45.965852,
+      "lng": 9.926705
+    },
+    {
+      "id": "cdfed3b0-786c-4a93-a663-eeebf822022a",
+      "slug": "casa-di-mamre-ardore",
+      "nome": "CASA DI MAMRE",
+      "city_name": "Ardore",
+      "indirizzo": "Via XX Settembre, 1, 89031 Ardore RC",
+      "lat": 38.189526,
+      "lng": 16.169798
+    },
+    {
+      "id": "6e8b92a3-d99c-4574-b62b-684f99413ac4",
+      "slug": "riva-del-mare-ardore",
+      "nome": "Riva del Mare",
+      "city_name": "Ardore",
+      "indirizzo": "Via Marina, 45, 89037 Ardore Marina RC",
+      "lat": 38.175334,
+      "lng": 16.207572
+    },
+    {
+      "id": "ac162a54-1313-4746-8a9d-02b14c0e97ee",
+      "slug": "agriturismo-pirara-arena",
+      "nome": "Agriturismo Pirara",
+      "city_name": "Arena",
+      "indirizzo": "Contrada Pirara, 16, 89831 Gerocarne VV",
+      "lat": 38.565094,
+      "lng": 16.25294
+    },
+    {
+      "id": "67eedf92-4663-4ae9-8d13-f21fe4e28ea0",
+      "slug": "b-b-il-maggiolino-arena",
+      "nome": "b&b il Maggiolino",
+      "city_name": "Arena",
+      "indirizzo": "Via Toscana, località, 89900 San Pietro di Bivona VV",
+      "lat": 38.703165,
+      "lng": 16.10712
+    },
+    {
+      "id": "d9fb1aec-528a-4eda-96cc-2e31dab8f4a3",
+      "slug": "bed-and-breakfast-coral-blue-arena",
+      "nome": "Bed And Breakfast Coral Blue",
+      "city_name": "Arena",
+      "indirizzo": "S.p.Triparni Portosalvo, 89900 Briatico VV",
+      "lat": 38.702034,
+      "lng": 16.072214
+    },
+    {
+      "id": "9dd5876c-3316-4a18-b22c-bb90439464c6",
+      "slug": "hotel-barbieri-arena",
+      "nome": "Hotel Barbieri",
+      "city_name": "Arena",
+      "indirizzo": "Via del Pescatore, 29, 89900 Vibo Marina VV",
+      "lat": 38.711075,
+      "lng": 16.099527
+    },
+    {
+      "id": "69892f18-276f-45c7-a276-b0632019d769",
+      "slug": "hotel-certosa-arena",
+      "nome": "Hotel Certosa",
+      "city_name": "Arena",
+      "indirizzo": "Via Alfonso Scrivo, 4, 89822 Serra San Bruno VV",
+      "lat": 38.576944,
+      "lng": 16.325833
+    },
+    {
+      "id": "c1b38dbb-e966-4265-8c3f-ac90f2212456",
+      "slug": "hotel-diavin-arena",
+      "nome": "Hotel Diavin",
+      "city_name": "Arena",
+      "indirizzo": "Via Palermo, 11, 89900 Vibo Marina VV",
+      "lat": 38.710979,
+      "lng": 16.102778
+    },
+    {
+      "id": "5c3720be-ab32-498c-9fac-fb39c40d4066",
+      "slug": "hotel-ristorante-villa-rosa-arena",
+      "nome": "Hotel Ristorante Villa Rosa",
+      "city_name": "Arena",
+      "indirizzo": "Via Stretto di Pietro, 89822 Spadola VV",
+      "lat": 38.597342,
+      "lng": 16.334974
+    },
+    {
+      "id": "5569423c-c6c5-420f-bc3e-86bcac8e6ac9",
+      "slug": "residenza-arena-arena",
+      "nome": "Residenza Arena",
+      "city_name": "Arena",
+      "indirizzo": "Contrada Paola, 89861 Tropea VV",
+      "lat": 38.675079,
+      "lng": 15.904014
+    },
+    {
+      "id": "d9222bf1-4ad0-453e-8ff1-8de0ae74e251",
+      "slug": "the-maze-arena",
+      "nome": "The Maze",
+      "city_name": "Arena",
+      "indirizzo": "Via Scesa del Gesù, 89900 Vibo Valentia VV",
+      "lat": 38.672188,
+      "lng": 16.103021
+    },
+    {
+      "id": "7b78a093-a699-4b1b-bf08-5193a674b45a",
+      "slug": "700-enolocanda-arena-po",
+      "nome": "700 Enolocanda",
+      "city_name": "Arena Po",
+      "indirizzo": "Via Castello, 31, 27046 Santa Giuletta PV",
+      "lat": 45.022411,
+      "lng": 9.186246
+    },
+    {
+      "id": "158dc863-5c6d-4819-bdf5-14d2b42ea0ac",
+      "slug": "agriturismo-il-casale-del-sapere-e-del-sapore-arena-po",
+      "nome": "Agriturismo Il Casale del Sapere e del Sapore",
+      "city_name": "Arena Po",
+      "indirizzo": "Via Bruno Armani, 6, 29015 Castel San Giovanni PC",
+      "lat": 45.048059,
+      "lng": 9.383442
+    }
+  ]
+}

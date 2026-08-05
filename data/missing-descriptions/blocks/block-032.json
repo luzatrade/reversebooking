@@ -1,0 +1,323 @@
+{
+  "block": 32,
+  "blockId": "032",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "8ff49fd0-f433-4407-a9ff-b32f13690b9e",
+      "slug": "agriturismo-da-attilio-agra",
+      "nome": "agriturismo \"da attilio\"",
+      "city_name": "Agra",
+      "indirizzo": "Località Marcalone, 28822 Cannobio VB",
+      "lat": 46.07192,
+      "lng": 8.675165
+    },
+    {
+      "id": "44d5a343-9b5b-4f83-bbe7-c6667aa0d0d1",
+      "slug": "agriturismo-ristorante-voeuja-agra",
+      "nome": "Agriturismo ristorante Voeuja",
+      "city_name": "Agra",
+      "indirizzo": "Via Longhirolo, 9, 21016 Luino VA",
+      "lat": 46.002396,
+      "lng": 8.773366
+    },
+    {
+      "id": "81d6c344-70e7-4684-bd49-a6e1ccd38952",
+      "slug": "al-rost-b-b-agra",
+      "nome": "Al Rost B&B",
+      "city_name": "Agra",
+      "indirizzo": "Via Dumenza, 64, 21016 Poppino VA",
+      "lat": 46.019275,
+      "lng": 8.769457
+    },
+    {
+      "id": "8644d162-cfc7-4bf0-b98c-e3a536cf9e86",
+      "slug": "albergo-maccagno-agra",
+      "nome": "Albergo Maccagno",
+      "city_name": "Agra",
+      "indirizzo": "Piazza Vittorio Veneto, 1/3, 21061 Maccagno con Pino e Veddasca VA",
+      "lat": 46.043296,
+      "lng": 8.738162
+    },
+    {
+      "id": "00c90983-2185-4ccb-b460-4107ce65801b",
+      "slug": "albergo-paradiso-agra",
+      "nome": "Albergo Paradiso",
+      "city_name": "Agra",
+      "indirizzo": "Via Giuseppe Verdi, 5A, 21061 Maccagno con Pino e Veddasca VA",
+      "lat": 46.044464,
+      "lng": 8.735638
+    },
+    {
+      "id": "76d563e1-2020-4a53-9594-14d9b044a90b",
+      "slug": "b-b-magnolia-agra",
+      "nome": "B&B Magnolia",
+      "city_name": "Agra",
+      "indirizzo": "Via A. Giovanola, 36, 28822 Cannobio VB",
+      "lat": 46.061366,
+      "lng": 8.695931
+    },
+    {
+      "id": "009fa40b-fa69-434c-b435-5c62f25d3885",
+      "slug": "b-b-villa-viola-agra",
+      "nome": "B&B Villa Viola",
+      "city_name": "Agra",
+      "indirizzo": "Via Carlo Viola, 1, 21010 Curiglia VA",
+      "lat": 46.059459,
+      "lng": 8.803718
+    },
+    {
+      "id": "bc419930-dc06-490e-b99f-cb3c0a83c8c7",
+      "slug": "fattoria-roccolo-agra",
+      "nome": "Fattoria Roccolo",
+      "city_name": "Agra",
+      "indirizzo": "Locolità Roccolo, 1, 21010 Dumenza VA",
+      "lat": 46.054772,
+      "lng": 8.795854
+    },
+    {
+      "id": "a73c69c4-5966-4655-affa-2b6cc6032e77",
+      "slug": "foresteria-al-campanile-agra",
+      "nome": "Foresteria Al Campanile",
+      "city_name": "Agra",
+      "indirizzo": "Via dei Caduti Piazza della Chiesa, 21010 Curiglia con Monteviasco VA",
+      "lat": 46.070842,
+      "lng": 8.827048
+    },
+    {
+      "id": "6d0fa3c1-65ed-44e3-8bf1-f361daaa040c",
+      "slug": "garni-viggiona-agra",
+      "nome": "Garni Viggiona",
+      "city_name": "Agra",
+      "indirizzo": "Via Verbano, 3, 28826 Viggiona VB",
+      "lat": 46.032598,
+      "lng": 8.691397
+    },
+    {
+      "id": "0c93936b-4e74-4641-b6ca-c0b69117430f",
+      "slug": "hotel-elvezia-agra",
+      "nome": "Hotel Elvezia",
+      "city_name": "Agra",
+      "indirizzo": "Viale S. Carlo Borromeo, 4, 28822 Cannobio VB",
+      "lat": 46.064121,
+      "lng": 8.697794
+    },
+    {
+      "id": "b835e7ce-1a53-4cd0-9b6f-5db05a4442a3",
+      "slug": "hotel-montegrino-lakeview-agra",
+      "nome": "Hotel Montegrino Lakeview",
+      "city_name": "Agra",
+      "indirizzo": "Via Cadorna, 26, 21010 Montegrino Valtravaglia VA",
+      "lat": 45.977479,
+      "lng": 8.771547
+    },
+    {
+      "id": "cb063ca7-68e1-4f60-8632-e0fccd5f59a5",
+      "slug": "hotel-torre-imperiale-agra",
+      "nome": "Hotel Torre Imperiale",
+      "city_name": "Agra",
+      "indirizzo": "Piazza Roma, 1, 21061 Maccagno con Pino e Veddasca VA",
+      "lat": 46.036638,
+      "lng": 8.742114
+    },
+    {
+      "id": "edc03d14-0a03-4725-b7d4-76bb5d649964",
+      "slug": "hotel-villa-palmira-agra",
+      "nome": "Hotel Villa Palmira",
+      "city_name": "Agra",
+      "indirizzo": "Via D. Uccelli, 24, 28822 Cannobio VB",
+      "lat": 46.060211,
+      "lng": 8.697452
+    },
+    {
+      "id": "5ce58517-618d-40a5-b20d-0a7cfc301eaa",
+      "slug": "il-giardino-segreto-agra",
+      "nome": "Il Giardino Segreto",
+      "city_name": "Agra",
+      "indirizzo": "CIR 012092-CNI-00001, Via Felice Cavallotti, 34, 21016 Luino VA",
+      "lat": 46.003115,
+      "lng": 8.744205
+    },
+    {
+      "id": "c86c8f76-9a79-4d1f-ae40-57253e9f762c",
+      "slug": "park-hotel-italia-agra",
+      "nome": "Park Hotel Italia",
+      "city_name": "Agra",
+      "indirizzo": "Viale delle Magnolie, 19, 28821 Cannero Riviera VB",
+      "lat": 46.020439,
+      "lng": 8.684053
+    },
+    {
+      "id": "554530b2-becb-4e44-a100-7889592dcdce",
+      "slug": "residence-eden-rock-cannobio-agra",
+      "nome": "Residence Eden Rock Cannobio",
+      "city_name": "Agra",
+      "indirizzo": "28822 Sant'Agata VB",
+      "lat": 46.073978,
+      "lng": 8.688674
+    },
+    {
+      "id": "2243b12d-7bbc-4bb2-ba37-2a360ebbf7fa",
+      "slug": "residence-villa-margherita-agra",
+      "nome": "Residence Villa Margherita",
+      "city_name": "Agra",
+      "indirizzo": "Casali Darbedo, 2, 28822 Cannobio VB",
+      "lat": 46.069072,
+      "lng": 8.694999
+    },
+    {
+      "id": "a4904a86-ebaf-4f6d-bd5e-8ac99c4e7788",
+      "slug": "rifugio-campiglio-agra",
+      "nome": "Rifugio Campiglio",
+      "city_name": "Agra",
+      "indirizzo": "Località Alpe Pradecolo, 1, 21010 Dumenza VA",
+      "lat": 46.043105,
+      "lng": 8.810893
+    },
+    {
+      "id": "678e8781-9a15-4963-80d1-56b1691b152e",
+      "slug": "villa-porta-colmegna-agra",
+      "nome": "Villa Porta Colmegna",
+      "city_name": "Agra",
+      "indirizzo": "Via Angelo Palazzi, 1, 21016 Luino VA",
+      "lat": 46.025436,
+      "lng": 8.750973
+    },
+    {
+      "id": "a68304b4-7a97-484e-a702-7f34b29017ac",
+      "slug": "agriturismo-cascina-magana-agrate-brianza",
+      "nome": "Agriturismo Cascina Magana",
+      "city_name": "Agrate Brianza",
+      "indirizzo": "Cascina Magana, 2, 20875 Burago di Molgora MB",
+      "lat": 45.589893,
+      "lng": 9.394882
+    },
+    {
+      "id": "9020ffee-c08c-4cbe-856e-dd1a7a0bc3a9",
+      "slug": "agriturismo-galbusera-bianca-agrate-brianza",
+      "nome": "Agriturismo Galbusera Bianca",
+      "city_name": "Agrate Brianza",
+      "indirizzo": "Via Galbusera Bianca, 2, 23888 La Valletta Brianza LC",
+      "lat": 45.722089,
+      "lng": 9.37103
+    },
+    {
+      "id": "8946cf32-f6e5-45a5-9309-74bc80fac6e6",
+      "slug": "agriturismo-i-gelsi-agrate-brianza",
+      "nome": "Agriturismo I Gelsi",
+      "city_name": "Agrate Brianza",
+      "indirizzo": "Via S. Dionigi, 11, 23870 Cernusco Lombardone LC",
+      "lat": 45.692347,
+      "lng": 9.390986
+    },
+    {
+      "id": "a8056a14-8ffd-4088-ad84-d231d2b67c15",
+      "slug": "agriturismo-la-camilla-agrate-brianza",
+      "nome": "Agriturismo La Camilla",
+      "city_name": "Agrate Brianza",
+      "indirizzo": "Via Dante, 267, 20863 Concorezzo MB",
+      "lat": 45.599057,
+      "lng": 9.353001
+    },
+    {
+      "id": "1b887005-9912-4258-a813-5caa519d33e7",
+      "slug": "agriturismo-le-giuggiole-agrate-brianza",
+      "nome": "Agriturismo le Giuggiole",
+      "city_name": "Agrate Brianza",
+      "indirizzo": "Str. per Cascina Bragosa, 20042 Pessano con Bornago MI",
+      "lat": 45.556607,
+      "lng": 9.400619
+    },
+    {
+      "id": "90476dfb-19e1-449d-9eaf-cd36ee0e31ad",
+      "slug": "azienda-agricola-bio-e-agriturismo-brusignone-agrate-brianza",
+      "nome": "Azienda Agricola Bio e Agriturismo Brusignone",
+      "city_name": "Agrate Brianza",
+      "indirizzo": "Via Alcide De Gasperi, 31 20842, 20842 Montesiro MB",
+      "lat": 45.685269,
+      "lng": 9.280813
+    },
+    {
+      "id": "fe2f7390-053d-4f9d-a8d8-e01d9b08445e",
+      "slug": "b-b-irene-affittacamere-agrate-brianza",
+      "nome": "B&B Irene ( affittacamere )",
+      "city_name": "Agrate Brianza",
+      "indirizzo": "Via Rodolfo Morandi, n°25, 20864 Agrate Brianza MB",
+      "lat": 45.580653,
+      "lng": 9.354025
+    },
+    {
+      "id": "23928df2-ec17-4b67-8751-c2361c783f89",
+      "slug": "beat-house-apartments-agrate-brianza",
+      "nome": "beat house&apartments",
+      "city_name": "Agrate Brianza",
+      "indirizzo": "Via G. Matteotti, 70, 20864 Agrate Brianza MB",
+      "lat": 45.573064,
+      "lng": 9.350009
+    },
+    {
+      "id": "1a78051a-f6f0-4ae1-8c92-9eacd6444b90",
+      "slug": "bervius-agrate-brianza",
+      "nome": "Bervius",
+      "city_name": "Agrate Brianza",
+      "indirizzo": "Via Paracelso, 26, 20864 Agrate Brianza MB",
+      "lat": 45.57074,
+      "lng": 9.336417
+    },
+    {
+      "id": "60e40779-e973-4ba7-9afb-8aea1aede18e",
+      "slug": "cascina-bressanella-agriturismo-ortofrutta-km0-agrate-brianza",
+      "nome": "Cascina Bressanella | Agriturismo | Ortofrutta Km0",
+      "city_name": "Agrate Brianza",
+      "indirizzo": "Via della Cascina Selva, 11, 20842 Besana in Brianza MB",
+      "lat": 45.69466,
+      "lng": 9.282882
+    },
+    {
+      "id": "c41ebf1a-3443-462e-8d3e-f52d4f6c385f",
+      "slug": "cascina-costa-agrate-brianza",
+      "nome": "Cascina Costa",
+      "city_name": "Agrate Brianza",
+      "indirizzo": "località Costa, 12, 23893 Cassago Brianza LC",
+      "lat": 45.740048,
+      "lng": 9.277825
+    },
+    {
+      "id": "bd1f37c4-f18d-4478-9914-ce8361b16eba",
+      "slug": "fondobrugarolo-agrate-brianza",
+      "nome": "FondoBrugarolo",
+      "city_name": "Agrate Brianza",
+      "indirizzo": "Via A Manzoni, 15, 20884 Sulbiate MB",
+      "lat": 45.642387,
+      "lng": 9.435578
+    },
+    {
+      "id": "55413cb2-08ed-4250-be0c-a7ca89f020ce",
+      "slug": "mercure-milano-agrate-brianza-agrate-brianza",
+      "nome": "Mercure Milano Agrate Brianza",
+      "city_name": "Agrate Brianza",
+      "indirizzo": "Via Cardano, 2, 20864 Agrate Brianza MB",
+      "lat": 45.572293,
+      "lng": 9.336441
+    },
+    {
+      "id": "76771fc0-4304-4766-8458-7f50bf264632",
+      "slug": "bogogno-golf-resort-hotel-4-stelle-agrate-conturbia",
+      "nome": "Bogogno Golf Resort (Hotel 4 Stelle)",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Via San Isidoro, 1, 28010 Bogogno NO",
+      "lat": 45.651398,
+      "lng": 8.531672
+    },
+    {
+      "id": "3e3c9b46-d5b1-4711-8ac1-9fb76a362c29",
+      "slug": "camping-italia-lido-agrate-conturbia",
+      "nome": "Camping Italia Lido",
+      "city_name": "Agrate Conturbia",
+      "indirizzo": "Via Cicognola, 104, 28053 Castelletto sopra Ticino NO",
+      "lat": 45.724584,
+      "lng": 8.609989
+    }
+  ]
+}

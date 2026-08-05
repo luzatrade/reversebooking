@@ -1,0 +1,323 @@
+{
+  "block": 325,
+  "blockId": "325",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "238872b3-863d-4e2c-a3cd-a632154eaece",
+      "slug": "hotel-granduca-briatico",
+      "nome": "Hotel Granduca",
+      "city_name": "Briatico",
+      "indirizzo": "Contrada scrugli, 89817 Briatico VV",
+      "lat": 38.718065,
+      "lng": 16.0623
+    },
+    {
+      "id": "842d2dfb-0b0a-457e-b7da-d4998dc55766",
+      "slug": "hotel-la-praia-briatico",
+      "nome": "Hotel La Praia",
+      "city_name": "Briatico",
+      "indirizzo": "Via del Mare, 18, 89868 Zambrone VV",
+      "lat": 38.708595,
+      "lng": 15.973498
+    },
+    {
+      "id": "c26c17e3-4c38-458e-a97d-9f892733f064",
+      "slug": "hotel-scoglio-del-leone-briatico",
+      "nome": "Hotel Scoglio del Leone",
+      "city_name": "Briatico",
+      "indirizzo": "Via Marina, 89868 Zambrone VV",
+      "lat": 38.711606,
+      "lng": 15.974911
+    },
+    {
+      "id": "abdeb276-0650-469f-bcfe-feebacb63909",
+      "slug": "in-centro-briatico",
+      "nome": "In centro",
+      "city_name": "Briatico",
+      "indirizzo": "Via Milite Ignoto, 64, 89900 Vibo Valentia VV",
+      "lat": 38.676018,
+      "lng": 16.101955
+    },
+    {
+      "id": "5b01268b-2607-47a4-9d97-39af3f5fbacb",
+      "slug": "la-valle-verde-briatico",
+      "nome": "La Valle Verde",
+      "city_name": "Briatico",
+      "indirizzo": "contrada crita, 89868 Zambrone VV",
+      "lat": 38.709262,
+      "lng": 15.975971
+    },
+    {
+      "id": "e3eec4fa-700e-4e1e-b714-52987206e833",
+      "slug": "palazzo-marzano-briatico",
+      "nome": "Palazzo Marzano",
+      "city_name": "Briatico",
+      "indirizzo": "Corso Margherita, 89817 Briatico VV",
+      "lat": 38.725401,
+      "lng": 16.034894
+    },
+    {
+      "id": "7f7ddfac-0723-4063-b425-fa92621365f2",
+      "slug": "residenza-la-meridiana-briatico",
+      "nome": "Residenza La Meridiana",
+      "city_name": "Briatico",
+      "indirizzo": "Corso Margherita, 46, 89817 Briatico VV",
+      "lat": 38.725231,
+      "lng": 16.033599
+    },
+    {
+      "id": "33f9fcbd-3a05-47c9-a925-daabec695923",
+      "slug": "villa-paglianiti-your-family-residence-briatico",
+      "nome": "Villa Paglianiti - Your Family Residence !",
+      "city_name": "Briatico",
+      "indirizzo": "Contrada, Località la Brace, 1, 89817 Briatico VV",
+      "lat": 38.723856,
+      "lng": 16.021396
+    },
+    {
+      "id": "fa87d16c-acf7-487f-a6e9-430912b08208",
+      "slug": "villaggio-hotel-lido-san-giuseppe-briatico",
+      "nome": "Villaggio Hotel Lido San Giuseppe",
+      "city_name": "Briatico",
+      "indirizzo": "Loc. Brace, 89817 Briatico VV",
+      "lat": 38.72361,
+      "lng": 16.012882
+    },
+    {
+      "id": "6a427012-91c0-4c11-b5fc-3a3529c342b8",
+      "slug": "agriturismo-bacca-blu-bricherasio",
+      "nome": "Agriturismo Bacca Blu",
+      "city_name": "Bricherasio",
+      "indirizzo": "Str. Rivà, 31, 10060 Bricherasio TO",
+      "lat": 44.819742,
+      "lng": 7.285422
+    },
+    {
+      "id": "9c853dd4-dbda-405e-880a-2909c75dda25",
+      "slug": "agriturismo-la-casetta-ristorante-b-b-bricherasio",
+      "nome": "Agriturismo La Casetta - Ristorante - B&B",
+      "city_name": "Bricherasio",
+      "indirizzo": "Str. Cuccia, 25, 10060 Bricherasio TO",
+      "lat": 44.825821,
+      "lng": 7.278657
+    },
+    {
+      "id": "b3852d75-22a1-4795-ac92-a2ad39a49fc0",
+      "slug": "agriturismo-turina-b-b-a-bricherasio-bricherasio",
+      "nome": "Agriturismo Turina - B&B a Bricherasio",
+      "city_name": "Bricherasio",
+      "indirizzo": "Str. Tagliarea, 16, 10060 Bricherasio TO",
+      "lat": 44.815891,
+      "lng": 7.288723
+    },
+    {
+      "id": "29da96d8-e9d0-4e22-805a-4e9997dade36",
+      "slug": "b-b-agrialpi-bricherasio",
+      "nome": "B&B Agrialpi",
+      "city_name": "Bricherasio",
+      "indirizzo": "Str. Roncaglia, 35, 10060 Bricherasio TO",
+      "lat": 44.811584,
+      "lng": 7.289477
+    },
+    {
+      "id": "a4b5d867-4c5d-46f8-8224-cac28a8b9f68",
+      "slug": "b-b-becco-di-luna-bricherasio",
+      "nome": "B&B Becco di luna",
+      "city_name": "Bricherasio",
+      "indirizzo": "via Cianrama, 7, 10066 Torre Pellice TO",
+      "lat": 44.825853,
+      "lng": 7.209573
+    },
+    {
+      "id": "9cbcd598-bbc0-4038-930f-d05b12770227",
+      "slug": "b-b-l-orto-del-geo-bricherasio",
+      "nome": "B&B L'Orto del Geo",
+      "city_name": "Bricherasio",
+      "indirizzo": "Via Castellani, 79, 10061 Cavour TO",
+      "lat": 44.815637,
+      "lng": 7.344704
+    },
+    {
+      "id": "28e62d94-1b5f-499c-9c96-507f305504c3",
+      "slug": "b-b-villa-tagliarea-eventi-e-soggiorni-bricherasio",
+      "nome": "B&B Villa Tagliarea - Eventi e Soggiorni",
+      "city_name": "Bricherasio",
+      "indirizzo": "Str. Rivà, 49, 10060 Bricherasio TO",
+      "lat": 44.816034,
+      "lng": 7.282901
+    },
+    {
+      "id": "0bf48b15-c467-4f10-858a-c0fd75b15a03",
+      "slug": "cascina-marie-location-e-beb-bricherasio",
+      "nome": "Cascina Marie Location e Beb",
+      "city_name": "Bricherasio",
+      "indirizzo": "Str. Avaro, 4, 10060 Bricherasio TO",
+      "lat": 44.831151,
+      "lng": 7.330163
+    },
+    {
+      "id": "aa665e4c-7597-411e-b0ef-08cbfb8faa86",
+      "slug": "il-glomere-camping-quiet-campsite-in-the-alps-bricherasio",
+      "nome": "Il Glomere Camping – quiet campsite in the Alps",
+      "city_name": "Bricherasio",
+      "indirizzo": "Via Fornaci, 25, 10060 Rorà TO",
+      "lat": 44.78202,
+      "lng": 7.193556
+    },
+    {
+      "id": "87ccb7e8-18c0-4f72-a566-ef857574d9f6",
+      "slug": "la-marmotta-bricherasio",
+      "nome": "La Marmotta",
+      "city_name": "Bricherasio",
+      "indirizzo": "Piazza Parrocchiale, 11, 10062 Luserna TO",
+      "lat": 44.808451,
+      "lng": 7.246104
+    },
+    {
+      "id": "dac367c6-1c49-49b5-98aa-b3c591e4efb3",
+      "slug": "villa-sarti-bricherasio",
+      "nome": "Villa Sarti",
+      "city_name": "Bricherasio",
+      "indirizzo": "Via, Piazza Parrocchiale, 6, 10062 Luserna San Giovanni TO",
+      "lat": 44.808739,
+      "lng": 7.245239
+    },
+    {
+      "id": "651fb3a6-203c-414c-8253-5e0e43d339f2",
+      "slug": "casa-tarcisio-brienno",
+      "nome": "casa tarcisio",
+      "city_name": "Brienno",
+      "indirizzo": "Via Stretta, 14, 22020 Palanzo CO",
+      "lat": 45.865024,
+      "lng": 9.162059
+    },
+    {
+      "id": "4fe2650f-1b67-4a84-9ace-fffc681716cb",
+      "slug": "chalet-lilia-brienno",
+      "nome": "Chalet Lilia",
+      "city_name": "Brienno",
+      "indirizzo": "Via della Brugascia, 1, 22010 Brienno CO",
+      "lat": 45.910795,
+      "lng": 9.131048
+    },
+    {
+      "id": "c63f748b-7c95-407f-acee-e51fd7e4f92a",
+      "slug": "hotel-bersagliere-brienno",
+      "nome": "Hotel Bersagliere",
+      "city_name": "Brienno",
+      "indirizzo": "Via Regina Nuova, 38, 22010 Laglio CO",
+      "lat": 45.884933,
+      "lng": 9.139961
+    },
+    {
+      "id": "0b385f3e-5cfe-4204-80d8-a2046780e14d",
+      "slug": "hotel-national-brienno",
+      "nome": "Hotel National",
+      "city_name": "Brienno",
+      "indirizzo": "Piazza Rimembranza, 1, 22020 Zelbio CO",
+      "lat": 45.905196,
+      "lng": 9.178079
+    },
+    {
+      "id": "ccb08162-5f30-4a7a-a7c0-a2db4b184295",
+      "slug": "lg-lake-boutique-apartments-and-rooms-brienno",
+      "nome": "LG LAKE - boutique apartments and rooms",
+      "city_name": "Brienno",
+      "indirizzo": "Via del Biello, 22010 Brienno CO",
+      "lat": 45.912671,
+      "lng": 9.131707
+    },
+    {
+      "id": "0953a96a-e69d-4d13-8557-3e9c62b7349c",
+      "slug": "ristorante-albergo-bella-vista-brienno",
+      "nome": "Ristorante Albergo Bella Vista",
+      "city_name": "Brienno",
+      "indirizzo": "Via Adeletto Zerboni, 6, 22020 Veleso CO",
+      "lat": 45.909906,
+      "lng": 9.179277
+    },
+    {
+      "id": "e8a67c5a-ec7f-42f5-abc8-74045bf2d847",
+      "slug": "hotel-eden-ristorante-brienza",
+      "nome": "\"HOTEL EDEN\" RISTORANTE",
+      "city_name": "Brienza",
+      "indirizzo": "SS 598 di Fondo Valle d'Agri, 85050 Brienza PZ",
+      "lat": 40.460536,
+      "lng": 15.595252
+    },
+    {
+      "id": "72a02c3b-d41d-453c-8945-44b4847f1910",
+      "slug": "affittacamere-le-querce-brienza",
+      "nome": "Affittacamere Le Querce",
+      "city_name": "Brienza",
+      "indirizzo": "Via Querce, 43, 84039 Teggiano SA",
+      "lat": 40.39321,
+      "lng": 15.507804
+    },
+    {
+      "id": "65a3355d-3f87-402a-917b-fe8932480e27",
+      "slug": "b-b-bosco-ralle-brienza",
+      "nome": "B&B Bosco Ralle",
+      "city_name": "Brienza",
+      "indirizzo": "SC Ciciriello, 1, 85050 Satriano di Lucania PZ",
+      "lat": 40.535497,
+      "lng": 15.655789
+    },
+    {
+      "id": "f7c54b89-0651-49e8-8618-219c79c023ba",
+      "slug": "la-casa-del-borgo-brienza",
+      "nome": "La Casa Del Borgo",
+      "city_name": "Brienza",
+      "indirizzo": "Corso Umberto I, 35, 85050 Brienza PZ",
+      "lat": 40.476633,
+      "lng": 15.629221
+    },
+    {
+      "id": "7fa5b9fc-3d17-4893-823c-89227d9aec8e",
+      "slug": "la-giara-bed-breakfast-brienza",
+      "nome": "La Giara Bed & Breakfast",
+      "city_name": "Brienza",
+      "indirizzo": "Via Pagano Mario, 29, 85050 Brienza PZ",
+      "lat": 40.478495,
+      "lng": 15.629313
+    },
+    {
+      "id": "de89208b-3155-4b34-9f7f-021bf2c145a0",
+      "slug": "la-voce-del-fiume-b-b-a-brienza-brienza",
+      "nome": "La Voce del Fiume | B&B a Brienza",
+      "city_name": "Brienza",
+      "indirizzo": "Vico del Carmine, 5, 85050 Brienza PZ",
+      "lat": 40.479725,
+      "lng": 15.626052
+    },
+    {
+      "id": "b8b951e0-5890-4e27-ac3d-bf0476baf1c2",
+      "slug": "palazzo-brienza-brienza",
+      "nome": "Palazzo Brienza",
+      "city_name": "Brienza",
+      "indirizzo": "Piazza Mario Pagano, 18, 85100 Potenza PZ",
+      "lat": 40.638393,
+      "lng": 15.80266
+    },
+    {
+      "id": "a910af74-e78a-4468-b44c-d7ef7298afe9",
+      "slug": "ristorante-pizzeria-affittacamere-rezzo-brienza",
+      "nome": "Ristorante, Pizzeria, Affittacamere Rezzo",
+      "city_name": "Brienza",
+      "indirizzo": "Piazza Sandro Pertini, 1, 84030 Monte San Giacomo SA",
+      "lat": 40.344232,
+      "lng": 15.541183
+    },
+    {
+      "id": "88fe3433-6903-484a-a58a-3a7fc66688c1",
+      "slug": "albergo-ristorante-edelweiss-briga-alta",
+      "nome": "Albergo Ristorante Edelweiss",
+      "city_name": "Briga Alta",
+      "indirizzo": "Frazione Panice Sottana, 10, 12015 Limone Piemonte CN",
+      "lat": 44.179189,
+      "lng": 7.567039
+    }
+  ]
+}

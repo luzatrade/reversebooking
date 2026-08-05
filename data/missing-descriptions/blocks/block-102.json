@@ -1,0 +1,323 @@
+{
+  "block": 102,
+  "blockId": "102",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "42509bdd-08b6-4314-b6ca-9d615df8d26c",
+      "slug": "dimora-rosae-b-b-amorosi",
+      "nome": "Dimora Rosae B&B",
+      "city_name": "Amorosi",
+      "indirizzo": "Via Ferrovia, 4, 82037 Telese BN",
+      "lat": 41.212234,
+      "lng": 14.525486
+    },
+    {
+      "id": "1987a078-53ce-414f-b7c8-9e5c2fee794c",
+      "slug": "la-rosa-nel-cortile-b-b-amorosi",
+      "nome": "La Rosa Nel Cortile B&B",
+      "city_name": "Amorosi",
+      "indirizzo": "Via Roma, 56, 82031 Amorosi BN",
+      "lat": 41.203609,
+      "lng": 14.464209
+    },
+    {
+      "id": "f28afaaf-2f77-43dc-9eeb-0ee31eb57bbc",
+      "slug": "la-terrazza-sul-volturno-b-b-amorosi",
+      "nome": "La terrazza sul Volturno B&B",
+      "city_name": "Amorosi",
+      "indirizzo": "SP49, 151, 81010 Ruviano CE",
+      "lat": 41.193282,
+      "lng": 14.450595
+    },
+    {
+      "id": "1f37bf04-8cc0-46fa-8d8f-d11e6fa4affe",
+      "slug": "la-torre-b-b-home-and-relax-amorosi",
+      "nome": "La Torre B&B Home and Relax",
+      "city_name": "Amorosi",
+      "indirizzo": "63 Via San Salvatore Bis, Via S. Salvatore, 59, 82031 Amorosi BN",
+      "lat": 41.20579,
+      "lng": 14.469443
+    },
+    {
+      "id": "d026498d-9e85-4c44-b933-a12cdff93ec7",
+      "slug": "lvna-telesja-b-b-hotel-amorosi",
+      "nome": "Lvna Telesja B&b Hotel",
+      "city_name": "Amorosi",
+      "indirizzo": "Via T. Tasso, 13, 82037 Telese Terme BN",
+      "lat": 41.213347,
+      "lng": 14.527076
+    },
+    {
+      "id": "a26c085e-593d-406d-aa7f-1c4f034563d7",
+      "slug": "nerium-house-amorosi",
+      "nome": "Nerium house",
+      "city_name": "Amorosi",
+      "indirizzo": "Via Telese, 268, 82031 Amorosi BN",
+      "lat": 41.206594,
+      "lng": 14.479477
+    },
+    {
+      "id": "574a34e6-0199-48bc-9fab-f0d33e4c6f0c",
+      "slug": "villa-annamaria-b-b-e-casa-vacanze-amorosi",
+      "nome": "Villa Annamaria - B&B e casa vacanze",
+      "city_name": "Amorosi",
+      "indirizzo": "Via S. Nicola, 7, 82031 Amorosi BN",
+      "lat": 41.205046,
+      "lng": 14.461663
+    },
+    {
+      "id": "2f5629d2-2cbd-442e-9160-8b52622eef8d",
+      "slug": "villa-mariarosaria-amorosi",
+      "nome": "Villa Mariarosaria",
+      "city_name": "Amorosi",
+      "indirizzo": "Via Campagnano, 82031 Amorosi BN",
+      "lat": 41.193188,
+      "lng": 14.465761
+    },
+    {
+      "id": "017b5315-4ecb-4659-8fd6-7fa6f8d3dcf1",
+      "slug": "albergo-dal-cortesan-ampezzo",
+      "nome": "Albergo Dal Cortesan",
+      "city_name": "Ampezzo",
+      "indirizzo": "V. Nazionale, 170, 33021 Ampezzo UD",
+      "lat": 46.416354,
+      "lng": 12.791018
+    },
+    {
+      "id": "f9d92f68-10ca-400d-a5dc-e92e707aa9bf",
+      "slug": "albergo-galles-ampezzo",
+      "nome": "Albergo Galles",
+      "city_name": "Ampezzo",
+      "indirizzo": "Via Divisione Julia, 89 Casteons, 33026 Paluzza UD",
+      "lat": 46.536835,
+      "lng": 13.013667
+    },
+    {
+      "id": "d95a03e1-c6d1-481d-945f-6860fe891fd0",
+      "slug": "albergo-grimani-ampezzo",
+      "nome": "Albergo Grimani",
+      "city_name": "Ampezzo",
+      "indirizzo": "V. Nazionale, 35, 33021 Ampezzo UD",
+      "lat": 46.416337,
+      "lng": 12.793891
+    },
+    {
+      "id": "a5bcea3c-c27d-41ed-8309-020ea8f4e5d7",
+      "slug": "albergo-ristorante-alla-pagoda-ampezzo",
+      "nome": "Albergo Ristorante alla Pagoda",
+      "city_name": "Ampezzo",
+      "indirizzo": "Via Maiaso, 2, 33020 Enemonzo UD",
+      "lat": 46.420139,
+      "lng": 12.872694
+    },
+    {
+      "id": "54d2d9fd-3f16-4359-bb2c-573469f0a28c",
+      "slug": "albergo-ristorante-ariapura-ampezzo",
+      "nome": "Albergo ristorante AriaPura",
+      "city_name": "Ampezzo",
+      "indirizzo": "S.da Esterna Corso, 7, 33021 Ampezzo UD",
+      "lat": 46.414968,
+      "lng": 12.76727
+    },
+    {
+      "id": "f17f12e7-797f-4442-ac3a-612f2015e679",
+      "slug": "albergo-ristorante-pizzeria-italia-ampezzo",
+      "nome": "Albergo ristorante pizzeria Italia",
+      "city_name": "Ampezzo",
+      "indirizzo": "Via Roma, 48, 33026 Paluzza UD",
+      "lat": 46.528482,
+      "lng": 13.015689
+    },
+    {
+      "id": "b26e8d2a-d23e-4bea-9ceb-5c03cc76f8e1",
+      "slug": "alpine-wellness-hotel-e-ristorante-riglarhaus-ampezzo",
+      "nome": "Alpine Wellness Hotel e Ristorante Riglarhaus",
+      "city_name": "Ampezzo",
+      "indirizzo": "Frazione Lateis, 3, 33020 Sauris UD",
+      "lat": 46.455682,
+      "lng": 12.748822
+    },
+    {
+      "id": "4fca391b-6e53-43da-80c0-2f5bf6fe7134",
+      "slug": "bike-bikers-hotel-restaurant-ampezzo",
+      "nome": "BIKE & BIKERS HOTEL RESTAURANT",
+      "city_name": "Ampezzo",
+      "indirizzo": "V. Nazionale, 5, 33021 Ampezzo UD",
+      "lat": 46.415776,
+      "lng": 12.795857
+    },
+    {
+      "id": "0aede5db-5d59-40b5-8e78-f9050f641dea",
+      "slug": "depandance-albergo-grimani-ampezzo",
+      "nome": "Depandance - Albergo Grimani",
+      "city_name": "Ampezzo",
+      "indirizzo": "Piazza Zona Libera 1944, 9/interno, 33021 Ampezzo UD",
+      "lat": 46.416106,
+      "lng": 12.794237
+    },
+    {
+      "id": "e3a18eb8-4aaf-47bd-8bf3-c89f6db6a624",
+      "slug": "hotel-davost-ampezzo",
+      "nome": "Hotel Davòst",
+      "city_name": "Ampezzo",
+      "indirizzo": "Via Tagliamento, 26, 33024 Forni di Sopra UD",
+      "lat": 46.420864,
+      "lng": 12.578185
+    },
+    {
+      "id": "99a22326-4364-4f5a-82d6-ff39a758076c",
+      "slug": "hotel-garni-plueme-sauris-ampezzo",
+      "nome": "Hotel Garnì Plueme | Sauris",
+      "city_name": "Ampezzo",
+      "indirizzo": "fr, Via Sauris di Sotto, 26/a, 33020 Sauris UD",
+      "lat": 46.464592,
+      "lng": 12.709403
+    },
+    {
+      "id": "cee1b273-4f63-4a04-992d-543a6335d957",
+      "slug": "hotel-italia-ampezzo",
+      "nome": "Hotel Italia",
+      "city_name": "Ampezzo",
+      "indirizzo": "Via Venezia, 35, 33024 Forni di Sopra UD",
+      "lat": 46.411082,
+      "lng": 12.589629
+    },
+    {
+      "id": "4628d3af-9819-42ae-8b4f-b25703e67bf0",
+      "slug": "hotel-posta-ampezzo",
+      "nome": "Hotel Posta",
+      "city_name": "Ampezzo",
+      "indirizzo": "V. Nazionale, 174, 33024 Forni di Sopra UD",
+      "lat": 46.423904,
+      "lng": 12.578971
+    },
+    {
+      "id": "5e347974-b86e-4fe0-a0d7-58cff7a59de4",
+      "slug": "hotel-ristorante-bellavista-ampezzo",
+      "nome": "Hotel Ristorante Bellavista",
+      "city_name": "Ampezzo",
+      "indirizzo": "Viale Edelweiss, 11, 33020 Ravascletto UD",
+      "lat": 46.525263,
+      "lng": 12.924204
+    },
+    {
+      "id": "1adc8359-c15c-4bc2-83df-5b4164790a94",
+      "slug": "hotel-villa-alpina-ampezzo",
+      "nome": "Hotel Villa Alpina",
+      "city_name": "Ampezzo",
+      "indirizzo": "Via Madonna della Salute, 18, 33024 Forni di Sopra UD",
+      "lat": 46.422506,
+      "lng": 12.58119
+    },
+    {
+      "id": "e11ab459-2775-43eb-bf1d-fc6d771a5321",
+      "slug": "la-stube-ampezzo",
+      "nome": "La Stube",
+      "city_name": "Ampezzo",
+      "indirizzo": "V. Nazionale, 276, 33024 Forni di Sopra UD",
+      "lat": 46.417199,
+      "lng": 12.584986
+    },
+    {
+      "id": "5bab48d4-78b4-464d-924b-21258583bdda",
+      "slug": "rifugio-tita-piaz-perkhhite-tita-piaz-ampezzo",
+      "nome": "Rifugio Tita Piaz / Perkhhite Tita Piaz",
+      "city_name": "Ampezzo",
+      "indirizzo": "Loc. Passo Pura, Strada del Monte Pura, 33021 Ampezzo UD",
+      "lat": 46.42556,
+      "lng": 12.741879
+    },
+    {
+      "id": "81ff692f-839e-430c-abe7-b7bad34697e5",
+      "slug": "armada-hotel-amsterdam-amsterdam",
+      "nome": "Armada Hotel Amsterdam",
+      "city_name": "Amsterdam",
+      "indirizzo": "Keizersgracht 713-715, 1017 DX Amsterdam",
+      "lat": 52.364126,
+      "lng": 4.898529
+    },
+    {
+      "id": "48b9c57e-7846-46b9-a639-fa876627afa2",
+      "slug": "ciao-papa-hotel-amsterdam-central-station-amsterdam",
+      "nome": "Ciao Papa Hotel Amsterdam Central Station",
+      "city_name": "Amsterdam",
+      "indirizzo": "Nieuwendijk 15-1, 1012 LZ Amsterdam",
+      "lat": 52.378642,
+      "lng": 4.895241
+    },
+    {
+      "id": "2ea43c77-1cab-4a9c-9cc8-2956018c8134",
+      "slug": "hotel-city-garden-amsterdam-amsterdam",
+      "nome": "Hotel City Garden Amsterdam",
+      "city_name": "Amsterdam",
+      "indirizzo": "Pieter Cornelisz Hooftstraat 162, 1071 CH Amsterdam",
+      "lat": 52.359177,
+      "lng": 4.876244
+    },
+    {
+      "id": "3c7b3cf4-d026-4aca-be39-d6e42c845831",
+      "slug": "hotel-espresso-city-center-amsterdam",
+      "nome": "Hotel Espresso City Center",
+      "city_name": "Amsterdam",
+      "indirizzo": "Overtoom 57, 1054 HC Amsterdam",
+      "lat": 52.362842,
+      "lng": 4.876453
+    },
+    {
+      "id": "15c5e3eb-03b4-47c3-8096-9e65dcfa1ffe",
+      "slug": "hotel-estherea-amsterdam",
+      "nome": "Hotel Estherea",
+      "city_name": "Amsterdam",
+      "indirizzo": "Singel 303-309, 1012 WJ Amsterdam",
+      "lat": 52.370545,
+      "lng": 4.888644
+    },
+    {
+      "id": "c8e333ea-dc4b-4a39-9735-3b1dcc698d6c",
+      "slug": "hotel-mai-amsterdam-amsterdam",
+      "nome": "Hotel Mai Amsterdam",
+      "city_name": "Amsterdam",
+      "indirizzo": "Geldersekade 30, 1012 BJ Amsterdam",
+      "lat": 52.375444,
+      "lng": 4.901446
+    },
+    {
+      "id": "cadcd3eb-84bd-4397-ae01-1308c0da82a5",
+      "slug": "hotel-nh-city-centre-amsterdam-amsterdam",
+      "nome": "Hotel NH City Centre Amsterdam",
+      "city_name": "Amsterdam",
+      "indirizzo": "Spuistraat 288-292, 1012 VX Amsterdam",
+      "lat": 52.36972,
+      "lng": 4.88892
+    },
+    {
+      "id": "acfa3bf0-affc-4570-b6b0-6dbb435c82ee",
+      "slug": "hotel-notting-hill-amsterdam-amsterdam",
+      "nome": "Hotel Notting Hill Amsterdam",
+      "city_name": "Amsterdam",
+      "indirizzo": "Westeinde 26, 1017 ZP Amsterdam",
+      "lat": 52.358366,
+      "lng": 4.898883
+    },
+    {
+      "id": "a54d8d1f-bfda-4f00-b056-09ef3187cb5e",
+      "slug": "inntel-hotels-amsterdam-centre-amsterdam",
+      "nome": "Inntel Hotels Amsterdam Centre",
+      "city_name": "Amsterdam",
+      "indirizzo": "Nieuwezijds Kolk 19, 1012 PV Amsterdam",
+      "lat": 52.376046,
+      "lng": 4.894392
+    },
+    {
+      "id": "b44b00d2-cebf-4fa2-93d2-46b822391954",
+      "slug": "leonardo-eden-hotel-amsterdam-city-center-amsterdam",
+      "nome": "Leonardo Eden Hotel Amsterdam City Center",
+      "city_name": "Amsterdam",
+      "indirizzo": "Amstel 144, 1017 AE Amsterdam",
+      "lat": 52.366838,
+      "lng": 4.89869
+    }
+  ]
+}

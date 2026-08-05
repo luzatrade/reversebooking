@@ -1,0 +1,323 @@
+{
+  "block": 256,
+  "blockId": "256",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "f72d96ca-9e1c-40e1-8bc0-c391331fd61e",
+      "slug": "albergo-da-gianni-berbenno",
+      "nome": "Albergo da Gianni",
+      "city_name": "Berbenno",
+      "indirizzo": "Via Tiolo, 37, 24019 Zogno BG",
+      "lat": 45.805538,
+      "lng": 9.674462
+    },
+    {
+      "id": "520d65b1-f20e-46ea-b465-2bf96efe71ea",
+      "slug": "albergo-ristorante-la-rua-berbenno",
+      "nome": "Albergo Ristorante La Rua",
+      "city_name": "Berbenno",
+      "indirizzo": "Via S. Gottardo, 49, 24012 Val Brembilla BG",
+      "lat": 45.807424,
+      "lng": 9.598114
+    },
+    {
+      "id": "17660f34-baa6-4d7e-8add-3a3b1281e59a",
+      "slug": "b-b-carmen-berbenno",
+      "nome": "B&B Carmen",
+      "city_name": "Berbenno",
+      "indirizzo": "Via Busi Cariani, 12, 24015 Fuipiano Al Brembo BG",
+      "lat": 45.861224,
+      "lng": 9.6557
+    },
+    {
+      "id": "b8f3a356-4049-465c-ad69-c81960fd3630",
+      "slug": "b-b-i-baloss-berbenno",
+      "nome": "B&B I Baloss",
+      "city_name": "Berbenno",
+      "indirizzo": "Via Europa, 25, 24030 Berbenno BG",
+      "lat": 45.813573,
+      "lng": 9.573276
+    },
+    {
+      "id": "d1517e3b-003e-4847-8186-4b19386abecb",
+      "slug": "bed-breakfast-castello-regina-berbenno",
+      "nome": "Bed & Breakfast “Castello Regina”",
+      "city_name": "Berbenno",
+      "indirizzo": "Via Cavaglia, 10, 24012 Val Brembilla BG",
+      "lat": 45.834296,
+      "lng": 9.601793
+    },
+    {
+      "id": "66f15a0f-7948-4f28-9b18-0f9535a84f03",
+      "slug": "agriturismo-olmo-berbenno-di-valtellina",
+      "nome": "Agriturismo Olmo",
+      "city_name": "Berbenno di Valtellina",
+      "indirizzo": "Frazione Ponchiera, 500, 23100 Ponchiera SO",
+      "lat": 46.178828,
+      "lng": 9.8701
+    },
+    {
+      "id": "f24aa7bd-eb16-4219-a7bd-24293f1855f4",
+      "slug": "b-b-le-ruote-berbenno-di-valtellina",
+      "nome": "B&B Le Ruote",
+      "city_name": "Berbenno di Valtellina",
+      "indirizzo": "Via Mulini, 128, 23010 Berbenno di Valtellina SO",
+      "lat": 46.170375,
+      "lng": 9.740461
+    },
+    {
+      "id": "d3e4ff36-ccd2-4e07-bc85-341072b16bf4",
+      "slug": "grand-hotel-della-posta-berbenno-di-valtellina",
+      "nome": "Grand Hotel della Posta",
+      "city_name": "Berbenno di Valtellina",
+      "indirizzo": "Piazza Garibaldi Giuseppe, 19, 23100 Sondrio SO",
+      "lat": 46.170322,
+      "lng": 9.870126
+    },
+    {
+      "id": "e37df81e-2827-438a-9b6c-53f5e28b1ed2",
+      "slug": "hotel-europa-berbenno-di-valtellina",
+      "nome": "Hotel Europa",
+      "city_name": "Berbenno di Valtellina",
+      "indirizzo": "Lungomallero Luigi Cadorna, 27, 23100 Sondrio SO",
+      "lat": 46.171757,
+      "lng": 9.87014
+    },
+    {
+      "id": "23f05cc8-9e5f-46b7-a7eb-326dac0b706f",
+      "slug": "hotel-ristorante-salyut-centro-congressi-berbenno-di-valtellina",
+      "nome": "Hotel Ristorante Salyut Centro Congressi",
+      "city_name": "Berbenno di Valtellina",
+      "indirizzo": "Via Nazionale, 1297, 23010 Berbenno di Valtellina SO",
+      "lat": 46.159439,
+      "lng": 9.760361
+    },
+    {
+      "id": "45e47e97-5444-45d5-8041-20da7ea56601",
+      "slug": "le-corti-dei-sassi-berbenno-di-valtellina",
+      "nome": "Le Corti Dei Sassi",
+      "city_name": "Berbenno di Valtellina",
+      "indirizzo": "Via Giuseppe Garibaldi, 115, 23010 Berbenno di Valtellina SO",
+      "lat": 46.169301,
+      "lng": 9.739649
+    },
+    {
+      "id": "9fb68716-c296-409d-bccc-834d6bbd681d",
+      "slug": "agriturismo-e-azienda-agricola-il-mulino-della-r-berceto",
+      "nome": "Agriturismo e Azienda Agricola IL MULINO DELLA ROCCA",
+      "city_name": "Berceto",
+      "indirizzo": "Roccaprebalza, 29A, 43042 Berceto PR",
+      "lat": 44.524754,
+      "lng": 9.960124
+    },
+    {
+      "id": "eb07a8a6-58ae-406d-a179-1b41c7cdb106",
+      "slug": "agriturismo-i-tre-colli-berceto",
+      "nome": "Agriturismo I Tre Colli",
+      "city_name": "Berceto",
+      "indirizzo": "Via Vittorio Veneto, 85, 43045 Rubbiano PR",
+      "lat": 44.673295,
+      "lng": 10.057896
+    },
+    {
+      "id": "2566fcb9-1a52-444c-8477-412acd49d6f6",
+      "slug": "albergo-della-roccia-berceto",
+      "nome": "Albergo della Roccia",
+      "city_name": "Berceto",
+      "indirizzo": "Via Martiri della Libertà, 2, 43040 Varano de' Melegari PR",
+      "lat": 44.685793,
+      "lng": 10.017563
+    },
+    {
+      "id": "5915f766-d908-4ea1-ade0-79c353af34cc",
+      "slug": "albergo-trattoria-ghirardini-berceto",
+      "nome": "Albergo Trattoria Ghirardini",
+      "city_name": "Berceto",
+      "indirizzo": "Località Bosco, 106, 43021 Corniglio PR",
+      "lat": 44.446335,
+      "lng": 10.035573
+    },
+    {
+      "id": "b719ae40-6a50-4df6-a071-e6d8659bd92d",
+      "slug": "az-agr-il-paradiso-agriturismo-berceto",
+      "nome": "Az. Agr. Il Paradiso - agriturismo",
+      "city_name": "Berceto",
+      "indirizzo": "Via Borgo Vecchio, 54027 Pontremoli MS",
+      "lat": 44.383323,
+      "lng": 9.891233
+    },
+    {
+      "id": "cadc4000-f128-4ce3-9935-84d083b69097",
+      "slug": "b-b-casa-florida-berceto",
+      "nome": "B&b Casa Florida",
+      "city_name": "Berceto",
+      "indirizzo": "Via poderi, 35, 54027 Pontremoli MS",
+      "lat": 44.427405,
+      "lng": 9.891848
+    },
+    {
+      "id": "3a7c8624-205b-46a2-bd1f-d4b9770e9840",
+      "slug": "ca-del-moro-resort-berceto",
+      "nome": "Ca' del Moro Resort",
+      "city_name": "Berceto",
+      "indirizzo": "Via Giovanni Bellotti, 2, 54027 Pontremoli MS",
+      "lat": 44.38522,
+      "lng": 9.867172
+    },
+    {
+      "id": "aa8de9e6-903f-4022-a607-6bc7fdfeabff",
+      "slug": "casa-dei-cuori-b-b-azienda-agricola-natura-e-rel-berceto",
+      "nome": "Casa dei cuori - B&B - Azienda agricola - Natura e Relax",
+      "city_name": "Berceto",
+      "indirizzo": "Strada di Tordenaso, 39, 43013 Langhirano PR",
+      "lat": 44.631143,
+      "lng": 10.204502
+    },
+    {
+      "id": "a53b9ee3-561b-4568-80a8-1c39f03ba58d",
+      "slug": "il-corridore-piccolo-borgo-tralacosta-berceto",
+      "nome": "IL CORRIDORE - Piccolo Borgo Tralacosta",
+      "city_name": "Berceto",
+      "indirizzo": "Case Sparse Tralacosta, 105, 43042 Berceto PR",
+      "lat": 44.507188,
+      "lng": 9.993467
+    },
+    {
+      "id": "f8a4a253-c754-499f-8c4f-d4ac1c566f2b",
+      "slug": "la-casa-dei-nonni-room-breakfast-berceto",
+      "nome": "La Casa dei Nonni - Room & Breakfast",
+      "city_name": "Berceto",
+      "indirizzo": "Via Pier Maria Rossi, 8, 43042 Berceto PR",
+      "lat": 44.510835,
+      "lng": 9.989566
+    },
+    {
+      "id": "ed6065b5-cee9-4922-8e4b-89cc6e199bb6",
+      "slug": "la-casa-di-marty-b-b-berceto",
+      "nome": "La Casa di Marty B&B",
+      "city_name": "Berceto",
+      "indirizzo": "Via Valenti, 8, 43042 Berceto PR",
+      "lat": 44.509683,
+      "lng": 9.989281
+    },
+    {
+      "id": "e13be4e2-04c7-49ce-854a-e60f4c312025",
+      "slug": "la-ghiandaia-casa-vacanze-b-b-berceto-berceto",
+      "nome": "La Ghiandaia - Casa vacanze B&B - Berceto",
+      "city_name": "Berceto",
+      "indirizzo": "Località Piano di Bilù, 208 bis, 43042 Berceto PR",
+      "lat": 44.512735,
+      "lng": 9.979013
+    },
+    {
+      "id": "214daf26-cafa-4259-b34e-3fd5af154150",
+      "slug": "la-lupa-e-l-orso-berceto",
+      "nome": "La Lupa e l'Orso",
+      "city_name": "Berceto",
+      "indirizzo": "Località la valle, 92, 43042 Berceto PR",
+      "lat": 44.535633,
+      "lng": 9.971526
+    },
+    {
+      "id": "f0adca01-09c0-48d3-b6a5-a23e313e809f",
+      "slug": "notte-rosa-suites-relax-berceto",
+      "nome": "Notte Rosa Suites & Relax",
+      "city_name": "Berceto",
+      "indirizzo": "Str. Caselle, 38, 43045 Fornovo di Taro PR",
+      "lat": 44.681438,
+      "lng": 10.111471
+    },
+    {
+      "id": "ad145122-1271-4b2d-b32d-c5ccdce55527",
+      "slug": "ristorante-hotel-berse-berceto",
+      "nome": "Ristorante Hotel Bersè",
+      "city_name": "Berceto",
+      "indirizzo": "Loc. Groppo San Giovanni, 43042 Groppo san giovanni PR",
+      "lat": 44.538536,
+      "lng": 9.897601
+    },
+    {
+      "id": "16ee4bc0-6566-46db-88e5-73b36a863071",
+      "slug": "segarati-relax-albergo-diffuso-berceto",
+      "nome": "Segarati Relax Albergo Diffuso",
+      "city_name": "Berceto",
+      "indirizzo": "43032 Segarati PR",
+      "lat": 44.652704,
+      "lng": 9.80569
+    },
+    {
+      "id": "8456db71-3080-4087-92a6-77ea50dc5d12",
+      "slug": "a-casa-di-zia-berchidda",
+      "nome": "A Casa di Zia",
+      "city_name": "Berchidda",
+      "indirizzo": "Via Giosuè Carducci, 14, 07027 Oschiri OT",
+      "lat": 40.720577,
+      "lng": 9.095235
+    },
+    {
+      "id": "b2958ff3-4e68-46a6-a6c9-6c43554a48df",
+      "slug": "agriturismo-b-b-domo-de-resteblas-berchidda",
+      "nome": "Agriturismo B&B Domo de Resteblas",
+      "city_name": "Berchidda",
+      "indirizzo": "Strada del Lago Coghinas, 07022 Berchidda OT",
+      "lat": 40.776954,
+      "lng": 9.146933
+    },
+    {
+      "id": "b683084f-df27-4f90-a673-50645901ba5b",
+      "slug": "agriturismo-i-graniti-berchidda",
+      "nome": "Agriturismo I Graniti",
+      "city_name": "Berchidda",
+      "indirizzo": "Via nuoro2, 07020 Monti OT",
+      "lat": 40.808562,
+      "lng": 9.325465
+    },
+    {
+      "id": "4b173afe-6566-4c79-b9f3-b2cce391eda9",
+      "slug": "b-b-il-gallo-di-gallura-berchidda",
+      "nome": "B&B Il Gallo di Gallura",
+      "city_name": "Berchidda",
+      "indirizzo": "Corso Giacomo Matteotti, 28, 07029 Tempio Pausania OT",
+      "lat": 40.901117,
+      "lng": 9.103967
+    },
+    {
+      "id": "30f82847-85b7-40ad-ae93-47958d34eb5e",
+      "slug": "b-b-meladormo-berchidda",
+      "nome": "B&B Meladormo",
+      "city_name": "Berchidda",
+      "indirizzo": "Località Lu Curosu, 07029 Tempio Pausania OT",
+      "lat": 40.887814,
+      "lng": 9.100574
+    },
+    {
+      "id": "87450170-79bd-42f7-b604-36b75767e1eb",
+      "slug": "b-b-sa-soliana-berchidda",
+      "nome": "B&B Sa Soliana",
+      "city_name": "Berchidda",
+      "indirizzo": "Via Su Piattone, 29, 07020 Monti OT",
+      "lat": 40.83931,
+      "lng": 9.409383
+    },
+    {
+      "id": "cd0a8e28-b694-4a8b-a1e3-40903a43f021",
+      "slug": "b-b-san-michele-berchidda",
+      "nome": "B&B San Michele",
+      "city_name": "Berchidda",
+      "indirizzo": "localita sa ena e sas multas, 07022 Berchidda OT",
+      "lat": 40.799291,
+      "lng": 9.229426
+    },
+    {
+      "id": "4cca44bb-7b4e-42eb-918d-c6bb393c73de",
+      "slug": "b-b-san-paolo-berchidda",
+      "nome": "B&B SAN PAOLO",
+      "city_name": "Berchidda",
+      "indirizzo": "Via Giuncos Marinos, 07020 Monti OT",
+      "lat": 40.811016,
+      "lng": 9.318543
+    }
+  ]
+}

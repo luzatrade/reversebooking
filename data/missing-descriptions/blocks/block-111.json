@@ -1,0 +1,323 @@
+{
+  "block": 111,
+  "blockId": "111",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "6d854134-81f2-4b58-a75b-05b06e231975",
+      "slug": "camere-zimmer-al-lago-anfo",
+      "nome": "Camere Zimmer al lago",
+      "city_name": "Anfo",
+      "indirizzo": "Via Lago, 12, 25070 Anfo BS",
+      "lat": 45.767389,
+      "lng": 10.495798
+    },
+    {
+      "id": "e2eb8abd-6c4f-43e1-83eb-5964744c6a3f",
+      "slug": "hotel-adria-resort-anfo",
+      "nome": "Hotel Adria Resort",
+      "city_name": "Anfo",
+      "indirizzo": "Piazza Caduti, 4, 25088 Toscolano Maderno BS",
+      "lat": 45.645035,
+      "lng": 10.616283
+    },
+    {
+      "id": "50ec5a38-30a4-4cfb-ba41-6a492d6474c2",
+      "slug": "hotel-bonardi-anfo",
+      "nome": "Hotel Bonardi",
+      "city_name": "Anfo",
+      "indirizzo": "Via Maniva, 256, 25060 Collio BS",
+      "lat": 45.831218,
+      "lng": 10.398781
+    },
+    {
+      "id": "fd084496-568d-4145-a244-b53fe2e4fd46",
+      "slug": "hotel-lido-anfo",
+      "nome": "Hotel Lido",
+      "city_name": "Anfo",
+      "indirizzo": "Via Colletta, 64, 25084 Gargnano BS",
+      "lat": 45.68046,
+      "lng": 10.654407
+    },
+    {
+      "id": "88ae52b2-20d9-4328-bd20-b241c333603a",
+      "slug": "hotel-mariano-anfo",
+      "nome": "Hotel Mariano",
+      "city_name": "Anfo",
+      "indirizzo": "Via Sasso, 8, 25084 Gargnano BS",
+      "lat": 45.687006,
+      "lng": 10.643219
+    },
+    {
+      "id": "a03ddb8e-68fc-45da-90a4-4e17a6928fbf",
+      "slug": "hotel-ristorante-da-rita-anfo",
+      "nome": "Hotel Ristorante da Rita",
+      "city_name": "Anfo",
+      "indirizzo": "Via Roma, 140, 38083 Borgo Chiese TN",
+      "lat": 45.8793,
+      "lng": 10.591496
+    },
+    {
+      "id": "013dac90-1018-422a-b8f8-48646062a662",
+      "slug": "hotel-sorriso-anfo",
+      "nome": "Hotel Sorriso",
+      "city_name": "Anfo",
+      "indirizzo": "Via Religione, 5, 25088 Toscolano Maderno BS",
+      "lat": 45.640635,
+      "lng": 10.61119
+    },
+    {
+      "id": "ab1963bb-0b3f-4b2e-9509-03c225bdeb92",
+      "slug": "il-giardino-degli-elfi-anfo",
+      "nome": "Il Giardino degli Elfi",
+      "city_name": "Anfo",
+      "indirizzo": "Via Roma, 100, 25078 Pertica Bassa BS",
+      "lat": 45.75336,
+      "lng": 10.371501
+    },
+    {
+      "id": "cb52dec5-f03a-4a81-ab3f-784d981c2f2a",
+      "slug": "lago-idro-glamping-boutique-by-vacanze-col-cuore-anfo",
+      "nome": "Lago Idro Glamping Boutique by Vacanze col cuore",
+      "city_name": "Anfo",
+      "indirizzo": "Via Carlo Alberto dalla Chiesa, 7, 25070 Anfo BS",
+      "lat": 45.763752,
+      "lng": 10.49462
+    },
+    {
+      "id": "dcf9e8b2-e426-49b1-8d01-dc3bcd58eaf2",
+      "slug": "locanda-genzianella-anfo",
+      "nome": "Locanda Genzianella",
+      "city_name": "Anfo",
+      "indirizzo": "Via dei Patrioti, 40, 25084 Costa BS",
+      "lat": 45.733374,
+      "lng": 10.640013
+    },
+    {
+      "id": "c997c08d-390a-45f2-8339-1fca87a0c4e7",
+      "slug": "villa-delle-palme-anfo",
+      "nome": "Villa delle Palme",
+      "city_name": "Anfo",
+      "indirizzo": "Via Ponte, 3, 25084 Gargnano BS",
+      "lat": 45.683688,
+      "lng": 10.658852
+    },
+    {
+      "id": "fb677d20-ac19-4694-8b78-1b38a6880eeb",
+      "slug": "agriturismo-la-camelia-angera",
+      "nome": "Agriturismo La Camelia",
+      "city_name": "Angera",
+      "indirizzo": "Via Prati Bassi, 62, 21020 Taino VA",
+      "lat": 45.764683,
+      "lng": 8.606441
+    },
+    {
+      "id": "5092b58e-7281-442f-a202-f88dff052a5d",
+      "slug": "arona-palace-angera",
+      "nome": "Arona Palace",
+      "city_name": "Angera",
+      "indirizzo": "Piazza S. Graziano, 31, 28041 Arona NO",
+      "lat": 45.760409,
+      "lng": 8.560831
+    },
+    {
+      "id": "12b5f3aa-34f7-4550-aad8-7cdc47b91143",
+      "slug": "cascina-armonia-angera",
+      "nome": "Cascina Armonia",
+      "city_name": "Angera",
+      "indirizzo": "Via Milano, 84, 21021 Angera VA",
+      "lat": 45.765382,
+      "lng": 8.595695
+    },
+    {
+      "id": "3b42da1c-1e8b-41ba-be43-afcfad853f97",
+      "slug": "cascina-canee-angera",
+      "nome": "Cascina Canée",
+      "city_name": "Angera",
+      "indirizzo": "Via Prato Chiuso, 36, 21021 Angera VA",
+      "lat": 45.780608,
+      "lng": 8.579058
+    },
+    {
+      "id": "e1b722ee-aa36-4bd0-8fbf-0f4e3fffddd2",
+      "slug": "hotel-aries-angera",
+      "nome": "Hotel Aries",
+      "city_name": "Angera",
+      "indirizzo": "Via Sempione, 37, 28040 Lesa NO",
+      "lat": 45.824227,
+      "lng": 8.560558
+    },
+    {
+      "id": "b7f82cdc-6d27-4a25-9153-0bd31229aca3",
+      "slug": "hotel-capri-angera",
+      "nome": "Hotel Capri",
+      "city_name": "Angera",
+      "indirizzo": "Via Sempione, 131, 28040 Lesa NO",
+      "lat": 45.816231,
+      "lng": 8.547963
+    },
+    {
+      "id": "3e3d0d41-b38b-4b46-bb62-3fa221fc3074",
+      "slug": "hotel-concorde-angera",
+      "nome": "Hotel Concorde",
+      "city_name": "Angera",
+      "indirizzo": "Via Verbano, 1, 28041 Arona NO",
+      "lat": 45.765572,
+      "lng": 8.554101
+    },
+    {
+      "id": "9b8f0446-2b74-451a-8172-11d0458321b5",
+      "slug": "hotel-dei-tigli-angera-angera",
+      "nome": "Hotel dei Tigli - Angera",
+      "city_name": "Angera",
+      "indirizzo": "Via Paletta, 20, 21021 Angera VA",
+      "lat": 45.771937,
+      "lng": 8.573623
+    },
+    {
+      "id": "0c90e7db-0d95-450c-a846-57e71b7d5243",
+      "slug": "hotel-florida-angera",
+      "nome": "Hotel Florida",
+      "city_name": "Angera",
+      "indirizzo": "Piazza del Popolo, 32, 28041 Arona NO",
+      "lat": 45.763619,
+      "lng": 8.558415
+    },
+    {
+      "id": "7fcb43e7-ef6e-472f-9930-6ab78ac17caf",
+      "slug": "hotel-giardino-angera",
+      "nome": "Hotel Giardino",
+      "city_name": "Angera",
+      "indirizzo": "Corso Repubblica, 1, 28041 Arona NO",
+      "lat": 45.760041,
+      "lng": 8.561779
+    },
+    {
+      "id": "00229aef-5ef4-4685-9674-4458fcee2386",
+      "slug": "hotel-pavone-angera",
+      "nome": "Hotel Pavone",
+      "city_name": "Angera",
+      "indirizzo": "Via Borromeo Federico, 10, 21021 Angera VA",
+      "lat": 45.771984,
+      "lng": 8.574994
+    },
+    {
+      "id": "682ac2ba-326a-4b3f-8321-bf946b4ed6f1",
+      "slug": "hotel-ponti-angera-angera",
+      "nome": "Hotel Ponti Angera",
+      "city_name": "Angera",
+      "indirizzo": "Piazza Garibaldi, 21, 21021 Angera VA",
+      "lat": 45.772068,
+      "lng": 8.575359
+    },
+    {
+      "id": "099a4b90-573a-462b-8d57-50885e9711e9",
+      "slug": "il-sole-di-ranco-angera",
+      "nome": "Il Sole di Ranco",
+      "city_name": "Angera",
+      "indirizzo": "Indirizzo Commerciale:, Piazza Venezia, 5, 21020 Ranco VA",
+      "lat": 45.798201,
+      "lng": 8.569682
+    },
+    {
+      "id": "b03e06e2-140b-4cf5-8bbc-1e7c597bed6b",
+      "slug": "little-square-arona-angera",
+      "nome": "Little Square Arona",
+      "city_name": "Angera",
+      "indirizzo": "Via Giacomo Matteotti, 13, 28041 Arona NO",
+      "lat": 45.758322,
+      "lng": 8.55885
+    },
+    {
+      "id": "c9e183e6-f15e-4d39-9f5d-f890a57f127d",
+      "slug": "poggio-del-poeta-angera",
+      "nome": "Poggio del poeta",
+      "city_name": "Angera",
+      "indirizzo": "Via Ai Pozzi, 21021 Barzola VA",
+      "lat": 45.78775,
+      "lng": 8.617908
+    },
+    {
+      "id": "53a3570c-02c8-4481-a7d8-8c330c496f06",
+      "slug": "relais-cascina-al-campaccio-angera",
+      "nome": "Relais Cascina al Campaccio",
+      "city_name": "Angera",
+      "indirizzo": "Via Campaccio, 1, 21020 Taino VA",
+      "lat": 45.759713,
+      "lng": 8.607179
+    },
+    {
+      "id": "32e2ae4b-4503-48be-9b58-a630f32d2e36",
+      "slug": "ristorante-san-carlo-angera",
+      "nome": "Ristorante San Carlo",
+      "city_name": "Angera",
+      "indirizzo": "Via Verbano, 4, 28041 Arona NO",
+      "lat": 45.770649,
+      "lng": 8.543913
+    },
+    {
+      "id": "b42e65ff-8899-4eb5-9f2a-a5ce16756c4e",
+      "slug": "affittacamere-44-ricci-anghiari",
+      "nome": "Affittacamere \"44 Ricci\"",
+      "city_name": "Anghiari",
+      "indirizzo": "Corso Giacomo Matteotti, 44, 52031 Anghiari AR",
+      "lat": 43.540489,
+      "lng": 12.053241
+    },
+    {
+      "id": "2a345105-cc06-417c-9a21-3275d229c2c1",
+      "slug": "affittacamere-bellavista-anghiari",
+      "nome": "Affittacamere Bellavista",
+      "city_name": "Anghiari",
+      "indirizzo": "Via della Bozzia, 52031 Anghiari AR",
+      "lat": 43.541024,
+      "lng": 12.053337
+    },
+    {
+      "id": "03e3fec4-05fd-4b3a-9979-4146b01f9302",
+      "slug": "affittacamere-casa-margherita-anghiari",
+      "nome": "Affittacamere Casa Margherita",
+      "city_name": "Anghiari",
+      "indirizzo": "Via del Comune, 14, 52031 Anghiari AR",
+      "lat": 43.546872,
+      "lng": 12.055542
+    },
+    {
+      "id": "a5f29a80-b3c6-4c58-83a9-4815c919a9d9",
+      "slug": "affittacamere-casa-sofia-anghiari",
+      "nome": "Affittacamere Casa Sofia",
+      "city_name": "Anghiari",
+      "indirizzo": "Via Infrantoio, 45, 52031 Anghiari AR",
+      "lat": 43.543211,
+      "lng": 12.06291
+    },
+    {
+      "id": "44e11576-48f6-4e60-9a7d-534ced5123c5",
+      "slug": "agriturismo-terre-di-anghiari-anghiari",
+      "nome": "Agriturismo Terre di Anghiari",
+      "city_name": "Anghiari",
+      "indirizzo": "Via di Motina, 94, 52031 Anghiari AR",
+      "lat": 43.569995,
+      "lng": 12.038932
+    },
+    {
+      "id": "d9dcca97-6876-4223-9065-c794b915c347",
+      "slug": "agriturismo-terre-di-beba-wine-hospitality-anghiari",
+      "nome": "Agriturismo Terre di Beba _ Wine & Hospitality",
+      "city_name": "Anghiari",
+      "indirizzo": "loc. la casaccia, 10, 52031 Anghiari AR",
+      "lat": 43.528044,
+      "lng": 12.058123
+    },
+    {
+      "id": "c8ecd1fe-4da9-4f8a-9ce4-bfe8f44cbfcf",
+      "slug": "albergo-la-meridiana-di-chieli-mario-anghiari",
+      "nome": "Albergo La Meridiana di Chieli Mario",
+      "city_name": "Anghiari",
+      "indirizzo": "Piazza IV Novembre, 8, 52031 Anghiari AR",
+      "lat": 43.541618,
+      "lng": 12.054527
+    }
+  ]
+}

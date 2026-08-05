@@ -1,0 +1,323 @@
+{
+  "block": 229,
+  "blockId": "229",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "0b3858b3-de9e-47e4-a337-e9cc9853355f",
+      "slug": "hotel-sagittario-barrali",
+      "nome": "Hotel Sagittario",
+      "city_name": "Barrali",
+      "indirizzo": "Via Cottolengo, 3, 09026 San Sperate CA",
+      "lat": 39.358388,
+      "lng": 9.010022
+    },
+    {
+      "id": "05fa1411-760e-4aa0-9da2-5cb58ed814a4",
+      "slug": "la-ghirielle-barrali",
+      "nome": "La Ghirielle",
+      "city_name": "Barrali",
+      "indirizzo": "Via Caduti di Nassirya, 24, 09020 Pimentel CA",
+      "lat": 39.482871,
+      "lng": 9.064324
+    },
+    {
+      "id": "58072576-5ce0-438e-bed1-ccbf874434d8",
+      "slug": "la-locanda-d-oro-barrali",
+      "nome": "La Locanda d'Oro",
+      "city_name": "Barrali",
+      "indirizzo": "Viale Europa, 99, 09023 Monastir CA",
+      "lat": 39.382805,
+      "lng": 9.04956
+    },
+    {
+      "id": "26830fe0-9e79-45eb-9cd3-fcbabe079095",
+      "slug": "4flats-in-orto-di-venanzio-barrea",
+      "nome": "4Flats in Orto Di Venanzio",
+      "city_name": "Barrea",
+      "indirizzo": "Via Sarentina, 126, 67030 Barrea AQ",
+      "lat": 41.753612,
+      "lng": 13.990135
+    },
+    {
+      "id": "6ff040e1-f139-414a-bedc-e73d7a1f774e",
+      "slug": "albergo-ostello-dagli-elfi-barrea",
+      "nome": "Albergo Ostello dagli Elfi",
+      "city_name": "Barrea",
+      "indirizzo": "Via Leonardo di Loreto, 54, 67030 Barrea AQ",
+      "lat": 41.758972,
+      "lng": 13.990051
+    },
+    {
+      "id": "05c8e8ba-e958-4516-90d9-38a65d14e435",
+      "slug": "art-hotel-villetta-barrea-barrea",
+      "nome": "Art Hotel Villetta Barrea",
+      "city_name": "Barrea",
+      "indirizzo": "Via Scanno, 13, 67030 Villetta Barrea AQ",
+      "lat": 41.776765,
+      "lng": 13.936269
+    },
+    {
+      "id": "c8559c3a-5564-4c63-9e97-4b6e8e631630",
+      "slug": "b-b-il-rifugio-nel-parco-barrea",
+      "nome": "B&B Il Rifugio Nel Parco",
+      "city_name": "Barrea",
+      "indirizzo": "Via Benedetto Virgilio, 67030 Villetta Barrea AQ",
+      "lat": 41.775761,
+      "lng": 13.933852
+    },
+    {
+      "id": "25e7186f-37e4-4deb-aaf3-e94e76ed46fd",
+      "slug": "bed-breakfast-de-contra-barrea",
+      "nome": "Bed & Breakfast \"De Contra\"",
+      "city_name": "Barrea",
+      "indirizzo": "Via Benedetto Virgilio, 21, 67030 Villetta Barrea AQ",
+      "lat": 41.776168,
+      "lng": 13.937029
+    },
+    {
+      "id": "7008df75-8b17-4de0-b89b-6803fc73874f",
+      "slug": "hotel-holidays-barrea",
+      "nome": "Hotel Holidays",
+      "city_name": "Barrea",
+      "indirizzo": "Via Palombara, 3, 67030 Barrea AQ",
+      "lat": 41.756317,
+      "lng": 13.991865
+    },
+    {
+      "id": "efff7c79-9961-4364-a134-842c2718bf14",
+      "slug": "hotel-valdirose-barrea",
+      "nome": "Hotel Valdirose",
+      "city_name": "Barrea",
+      "indirizzo": "Via Della Vittoria, 51, 67030 Civitella Alfedena AQ",
+      "lat": 41.765432,
+      "lng": 13.944746
+    },
+    {
+      "id": "6dfd538f-9f80-40f7-b725-209969c44286",
+      "slug": "hotel-verdeneve-barrea",
+      "nome": "Hotel Verdeneve",
+      "city_name": "Barrea",
+      "indirizzo": "S.R. 83 Marsicana, Km. 50, 67030 Opi AQ",
+      "lat": 41.783215,
+      "lng": 13.84068
+    },
+    {
+      "id": "4b726660-ea3c-4556-b693-0dc6576322ca",
+      "slug": "vecchio-pescatore-barrea",
+      "nome": "Vecchio Pescatore",
+      "city_name": "Barrea",
+      "indirizzo": "Via Benedetto Virgilio, 187, 67030 Villetta Barrea AQ",
+      "lat": 41.776292,
+      "lng": 13.930594
+    },
+    {
+      "id": "eb904e98-73e3-4a0b-ac7e-62370638b586",
+      "slug": "antiche-terme-di-sardara-barumini",
+      "nome": "Antiche Terme di Sardara",
+      "city_name": "Barumini",
+      "indirizzo": "Loc. Santa Maria Aquas, SP4, 09030 Sardara VS",
+      "lat": 39.613896,
+      "lng": 8.785823
+    },
+    {
+      "id": "6356a864-9316-45df-8999-ef0978dfa4be",
+      "slug": "b-b-su-strintu-barumini",
+      "nome": "B&B Su Strintu",
+      "city_name": "Barumini",
+      "indirizzo": "Via Sa Giara, 1, 09029 Tuili VS",
+      "lat": 39.715081,
+      "lng": 8.962219
+    },
+    {
+      "id": "e718dd3f-0309-4b13-955a-b005d5985af1",
+      "slug": "bisus-de-jara-barumini",
+      "nome": "Bisus De Jara",
+      "city_name": "Barumini",
+      "indirizzo": "09029 Tuili VS",
+      "lat": 39.71181,
+      "lng": 8.957937
+    },
+    {
+      "id": "a3ed3d25-7dad-427a-99c5-e7ca765a30be",
+      "slug": "diecizero-inn-guesthouse-barumini",
+      "nome": "Diecizero Inn Guesthouse",
+      "city_name": "Barumini",
+      "indirizzo": "Viale Umberto I, n°36, 09021 Barumini VS",
+      "lat": 39.703521,
+      "lng": 9.001017
+    },
+    {
+      "id": "4f176dc6-e089-44d4-b9d6-71814db321d2",
+      "slug": "hotel-cardellino-barumini",
+      "nome": "Hotel Cardellino",
+      "city_name": "Barumini",
+      "indirizzo": "Via Dante Alighieri, 36, 09056 Isili CA",
+      "lat": 39.742933,
+      "lng": 9.107897
+    },
+    {
+      "id": "5ab4d3b1-e510-436a-816f-14268ff2699b",
+      "slug": "is-perdas-agriturismo-rural-retreat-spa-barumini",
+      "nome": "Is Perdas Agriturismo, Rural Retreat & Spa",
+      "city_name": "Barumini",
+      "indirizzo": "Località Motti, 09055 Gergei CA",
+      "lat": 39.705262,
+      "lng": 9.101526
+    },
+    {
+      "id": "d9d50504-e3d3-42f9-bb3f-9717e3582e5e",
+      "slug": "oasi-francescana-laconi-barumini",
+      "nome": "Oasi Francescana Laconi",
+      "city_name": "Barumini",
+      "indirizzo": "Via Cuccuru de Monte, 09090 Laconi OR",
+      "lat": 39.849862,
+      "lng": 9.050316
+    },
+    {
+      "id": "cd3d7f78-8a65-4f28-a5b6-fe34887b60a3",
+      "slug": "sa-lolla-hotel-barumini-barumini",
+      "nome": "Sa Lolla Hotel Barumini",
+      "city_name": "Barumini",
+      "indirizzo": "V Cavour, 49, 09021 Barumini VS",
+      "lat": 39.704459,
+      "lng": 9.004649
+    },
+    {
+      "id": "8640bc8f-33b2-40ff-ab91-d8cff16a4584",
+      "slug": "sa-mola-experience-barumini",
+      "nome": "Sa Mola Experience",
+      "city_name": "Barumini",
+      "indirizzo": "Località Santa Lucia, 09052 Escolca CA",
+      "lat": 39.687952,
+      "lng": 9.126689
+    },
+    {
+      "id": "22aba10a-284b-49ce-9a1a-3604aba45deb",
+      "slug": "sardara-hotel-di-ibba-silvano-sasc-barumini",
+      "nome": "Sardara Hotel di Ibba Silvano Sasc",
+      "city_name": "Barumini",
+      "indirizzo": "Via Cedrino, 5, 09030 Sardara VS",
+      "lat": 39.610908,
+      "lng": 8.821048
+    },
+    {
+      "id": "899a676f-7488-43a9-9835-526ad66a903e",
+      "slug": "su-nuraxi-agriturismo-hotel-barumini",
+      "nome": "Su Nuraxi Agriturismo-Hotel",
+      "city_name": "Barumini",
+      "indirizzo": "Viale Su Nuraxi, 6, 09021 Barumini VS",
+      "lat": 39.707815,
+      "lng": 8.987254
+    },
+    {
+      "id": "1ee170fb-f6b8-41af-b89e-dfaece069ae9",
+      "slug": "daman-rooms-breakfast-barzago",
+      "nome": "daMan - rooms&breakfast",
+      "city_name": "Barzago",
+      "indirizzo": "Via Forte, 3, 23890 Barzago LC",
+      "lat": 45.756684,
+      "lng": 9.312167
+    },
+    {
+      "id": "d48acb7b-5f59-4f09-bf49-aa6d048e2ed1",
+      "slug": "hotel-filippo-barzago",
+      "nome": "Hotel filippo",
+      "city_name": "Barzago",
+      "indirizzo": "Via M. Buonarroti, 3, 23845 Costa Masnaga LC",
+      "lat": 45.763395,
+      "lng": 9.288086
+    },
+    {
+      "id": "f4f874e5-620d-4bd0-b817-f68e6c5f1aa1",
+      "slug": "red-house-barzago",
+      "nome": "Red House",
+      "city_name": "Barzago",
+      "indirizzo": "via antonio stoppani, 592, 23852 Garlate LC",
+      "lat": 45.811858,
+      "lng": 9.398436
+    },
+    {
+      "id": "d7d85f90-2e8d-4e72-ace6-a63da9e25f06",
+      "slug": "albergo-canella-barzana",
+      "nome": "Albergo Canella",
+      "city_name": "Barzana",
+      "indirizzo": "Via Gaetano Donizetti, 13, 24030 Fuipiano Valle Imagna BG",
+      "lat": 45.852046,
+      "lng": 9.527612
+    },
+    {
+      "id": "203483c8-0d16-4abc-a4fb-fc6e430e7acc",
+      "slug": "casa-atena-barzana",
+      "nome": "Casa ATENA",
+      "city_name": "Barzana",
+      "indirizzo": "Via Sigismondi, 40B, 24018 Villa d'Almè BG",
+      "lat": 45.749266,
+      "lng": 9.613555
+    },
+    {
+      "id": "d915db57-0286-4951-9942-258442688c30",
+      "slug": "residenza-del-golf-barzana",
+      "nome": "Residenza del Golf",
+      "city_name": "Barzana",
+      "indirizzo": "Via Alessandro Manzoni, 28, 24030 Barzana BG",
+      "lat": 45.741035,
+      "lng": 9.564119
+    },
+    {
+      "id": "5616971c-cc12-4856-a859-735d97d6e2a3",
+      "slug": "roncola-2021-barzana",
+      "nome": "Roncola 2021",
+      "city_name": "Barzana",
+      "indirizzo": "Via Portola, 27, 24030 Roncola BG",
+      "lat": 45.771237,
+      "lng": 9.557987
+    },
+    {
+      "id": "79681a60-0050-4f2e-8e52-f5f48bdf4c78",
+      "slug": "agriturismo-la-bannera-barzan",
+      "nome": "Agriturismo La Bannera",
+      "city_name": "Barzan�",
+      "indirizzo": "Contrada la Bannera, 71020 Celle di San Vito FG",
+      "lat": 41.318789,
+      "lng": 15.177745
+    },
+    {
+      "id": "ffdfa304-b467-4393-8f50-95eb844e23f0",
+      "slug": "agriturismo-la-fornace-di-ilenia-giovanna-perego-barzan",
+      "nome": "Agriturismo La Fornace di Ilenia Giovanna Perego Castello di Brianza(LC)",
+      "city_name": "Barzan�",
+      "indirizzo": "Via del Molino, 9, 23884 Castello di Brianza LC",
+      "lat": 45.756635,
+      "lng": 9.340948
+    },
+    {
+      "id": "acc2f5e7-605b-41f0-965f-e39b24cef291",
+      "slug": "agriturismo-la-possa-barzan",
+      "nome": "Agriturismo La Possa",
+      "city_name": "Barzan�",
+      "indirizzo": "Via Privata Combi, 2, 23816 Concenedo LC",
+      "lat": 45.940063,
+      "lng": 9.48202
+    },
+    {
+      "id": "50d922af-96b4-477a-9c81-96c67e9a53ed",
+      "slug": "agriturismo-la-tavola-di-cherubino-barzan",
+      "nome": "Agriturismo La Tavola di Cherubino",
+      "city_name": "Barzan�",
+      "indirizzo": "Via Giovenigo, 4, 23880 Casatenovo LC",
+      "lat": 45.68809,
+      "lng": 9.305647
+    },
+    {
+      "id": "8d623c7c-2a40-4891-9078-a4916c1c92d0",
+      "slug": "b-b-da-marianna-barzan",
+      "nome": "B&B da Marianna",
+      "city_name": "Barzan�",
+      "indirizzo": "Via Luigi Cadorna, 1, 23891 Barzanò LC",
+      "lat": 45.73697,
+      "lng": 9.313058
+    }
+  ]
+}

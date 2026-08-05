@@ -1,0 +1,323 @@
+{
+  "block": 342,
+  "blockId": "342",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "a41ced13-d030-4015-b11a-15190668c9f1",
+      "slug": "b-b-domus-de-janas-bulzi",
+      "nome": "B&B Domus De Janas",
+      "city_name": "Bulzi",
+      "indirizzo": "Via Vittorio Emanuele, 72, 07035 Sedini SS",
+      "lat": 40.852006,
+      "lng": 8.815292
+    },
+    {
+      "id": "12ad7f94-c8cf-423d-992d-da87ae42ae08",
+      "slug": "b-b-la-roccia-bulzi",
+      "nome": "B&B La Roccia",
+      "city_name": "Bulzi",
+      "indirizzo": "Strada Statale 134 di Castel Sardo, 36, 07031 Castelsardo SS",
+      "lat": 40.894419,
+      "lng": 8.743806
+    },
+    {
+      "id": "6720ba0b-645b-446b-aac6-cc5e9001d892",
+      "slug": "b-b-la-terra-del-benessere-e-centro-olistico-bulzi",
+      "nome": "B&B La terra del benessere e Centro olistico",
+      "city_name": "Bulzi",
+      "indirizzo": "Via Alfieri, 7, 07031 Castelsardo SS",
+      "lat": 40.914869,
+      "lng": 8.710378
+    },
+    {
+      "id": "e04fc4d2-b5ed-4149-8da0-8b5c8e7ebd72",
+      "slug": "b-b-pani-silvio-bulzi",
+      "nome": "B&B Pani Silvio",
+      "city_name": "Bulzi",
+      "indirizzo": "Via Giacomo Leopardi, 6, 07034 Perfugas SS",
+      "lat": 40.832742,
+      "lng": 8.881268
+    },
+    {
+      "id": "2a0b84e3-0bfd-497c-8057-8f9f5b214c5a",
+      "slug": "castelsardo-resort-bulzi",
+      "nome": "Castelsardo Resort",
+      "city_name": "Bulzi",
+      "indirizzo": "Località Baia Ostina, 07031 Castelsardo SS",
+      "lat": 40.915173,
+      "lng": 8.73629
+    },
+    {
+      "id": "dddf80f6-7595-4ea9-a167-cbf20d54f05d",
+      "slug": "hotel-spa-riviera-castelsardo-bulzi",
+      "nome": "Hotel & SPA Riviera Castelsardo",
+      "city_name": "Bulzi",
+      "indirizzo": "Anglona Seafront, Lungomare Anglona, 1/B, 07031 Castelsardo SS",
+      "lat": 40.91345,
+      "lng": 8.70807
+    },
+    {
+      "id": "3c969063-281b-4c9d-b38d-eb94421d8db6",
+      "slug": "hotel-tartaruga-bianca-bulzi",
+      "nome": "Hotel Tartaruga Bianca",
+      "city_name": "Bulzi",
+      "indirizzo": "Via Cristoforo Colombo, 43, 07039 Valledoria SS",
+      "lat": 40.915377,
+      "lng": 8.778362
+    },
+    {
+      "id": "38847d12-f08f-4a84-b60f-79919005ecc1",
+      "slug": "il-ginepro-bulzi",
+      "nome": "Il Ginepro",
+      "city_name": "Bulzi",
+      "indirizzo": "Via Regina Elena, 111, 07039 Valledoria SS",
+      "lat": 40.920303,
+      "lng": 8.829429
+    },
+    {
+      "id": "e50b87cc-cb3e-4d92-afee-5694185b65de",
+      "slug": "il-vecchio-casale-bulzi",
+      "nome": "Il Vecchio Casale",
+      "city_name": "Bulzi",
+      "indirizzo": "Regione l'Ena di Preddi Larentu, 44, 07035 Sedini SS",
+      "lat": 40.866625,
+      "lng": 8.810407
+    },
+    {
+      "id": "791a0aed-d2f6-4055-ab0a-57c8c1d4e130",
+      "slug": "janus-hotel-bulzi",
+      "nome": "Janus Hotel",
+      "city_name": "Bulzi",
+      "indirizzo": "Via Roma, 85, 07031 Castelsardo SS",
+      "lat": 40.913686,
+      "lng": 8.709057
+    },
+    {
+      "id": "40347d0e-e309-4966-ab58-07650fc87287",
+      "slug": "montiruju-hotel-bulzi",
+      "nome": "Montiruju Hotel",
+      "city_name": "Bulzi",
+      "indirizzo": "Viale delle Terme, 1, 07030 Santa Maria Coghinas SS",
+      "lat": 40.905788,
+      "lng": 8.884306
+    },
+    {
+      "id": "733fc464-e6d7-4698-86d6-157096d52126",
+      "slug": "su-arghentu-country-hotel-bulzi",
+      "nome": "Su Arghentu Country Hotel",
+      "city_name": "Bulzi",
+      "indirizzo": "Località Bena e Traes, 07030 Laerru SS",
+      "lat": 40.827628,
+      "lng": 8.853488
+    },
+    {
+      "id": "e9fae3e7-8d8f-46e0-9e65-65e31d457f2a",
+      "slug": "the-square-castelsardo-bulzi",
+      "nome": "The Square Castelsardo",
+      "city_name": "Bulzi",
+      "indirizzo": "Via R. Elena, 23, 07031 Castelsardo SS",
+      "lat": 40.912892,
+      "lng": 8.712679
+    },
+    {
+      "id": "6d4ddbe4-f493-4fd4-8306-8ce5e555cc0e",
+      "slug": "affittacamere-falabella-teresa-buonabitacolo",
+      "nome": "Affittacamere Falabella Teresa",
+      "city_name": "Buonabitacolo",
+      "indirizzo": "Via Roma, 18, 84032 Buonabitacolo SA",
+      "lat": 40.27424,
+      "lng": 15.622762
+    },
+    {
+      "id": "dfb87d81-55e2-4b58-80e3-795197418575",
+      "slug": "affittacamere-girasole-buonabitacolo",
+      "nome": "Affittacamere Girasole",
+      "city_name": "Buonabitacolo",
+      "indirizzo": "Via Roma, 93, 84032 Buonabitacolo SA",
+      "lat": 40.27247,
+      "lng": 15.621438
+    },
+    {
+      "id": "0b879892-d860-409d-b291-6c9c11a8647b",
+      "slug": "agriturismo-affittacamere-il-tufo-buonabitacolo",
+      "nome": "Agriturismo - Affittacamere \"Il Tufo\"",
+      "city_name": "Buonabitacolo",
+      "indirizzo": "Via Tempa Caselle 9, 84033 Montesano sulla Marcellana SA",
+      "lat": 40.285571,
+      "lng": 15.67194
+    },
+    {
+      "id": "4ee78cc6-133d-4035-83a9-f9720ed8b560",
+      "slug": "agriturismo-dipinto-dal-sole-buonabitacolo",
+      "nome": "Agriturismo Dipinto dal Sole",
+      "city_name": "Buonabitacolo",
+      "indirizzo": "Via Vicinale Peppina, n.2, 84034 Padula SA",
+      "lat": 40.323748,
+      "lng": 15.655277
+    },
+    {
+      "id": "ba6631da-3dc5-4b22-8e67-25543ccb131d",
+      "slug": "agriturismo-il-castagneto-padula-buonabitacolo",
+      "nome": "Agriturismo Il Castagneto - Padula",
+      "city_name": "Buonabitacolo",
+      "indirizzo": "Via Pantagnone, 84034 Padula SA",
+      "lat": 40.322051,
+      "lng": 15.665415
+    },
+    {
+      "id": "cc85abb2-cfbc-47a7-82d0-e833993c306b",
+      "slug": "agriturismo-il-giardino-dei-ciliegi-buonabitacolo",
+      "nome": "Agriturismo il giardino dei ciliegi",
+      "city_name": "Buonabitacolo",
+      "indirizzo": "Località Vesolo, 84030 Sanza SA",
+      "lat": 40.265609,
+      "lng": 15.601315
+    },
+    {
+      "id": "da47590f-762c-4635-a6a1-116b7336650c",
+      "slug": "b-b-agriturismo-la-dolce-mela-buonabitacolo",
+      "nome": "B&B Agriturismo La Dolce Mela",
+      "city_name": "Buonabitacolo",
+      "indirizzo": "Via Tempa Petrini, 3, 84032 Buonabitacolo SA",
+      "lat": 40.274638,
+      "lng": 15.635658
+    },
+    {
+      "id": "60f95410-9809-493b-a33f-8b6075d0625b",
+      "slug": "be-and-be-buonabitacolo",
+      "nome": "Be and Be",
+      "city_name": "Buonabitacolo",
+      "indirizzo": "Via Giuseppe Garibaldi, 35, 84030 Montesano sulla Marcellana SA",
+      "lat": 40.284804,
+      "lng": 15.654976
+    },
+    {
+      "id": "80f4817b-d450-4332-bcd4-54daff616378",
+      "slug": "ca-del-conte-buonabitacolo",
+      "nome": "Cà del Conte",
+      "city_name": "Buonabitacolo",
+      "indirizzo": "Via Noce del Conte, 84034 Padula SA",
+      "lat": 40.320045,
+      "lng": 15.647125
+    },
+    {
+      "id": "b434f28c-971a-4a5a-8ef4-d75a34ac1b23",
+      "slug": "casa-vacanze-nicola-e-lina-buonabitacolo",
+      "nome": "Casa Vacanze Nicola e Lina",
+      "city_name": "Buonabitacolo",
+      "indirizzo": "Piazza Umberto I, 84030 Tortorella SA",
+      "lat": 40.142428,
+      "lng": 15.606128
+    },
+    {
+      "id": "0ecceb2a-3b79-4b1c-8197-d067a8d78b8c",
+      "slug": "da-zia-gio-buonabitacolo",
+      "nome": "Da zia Giò",
+      "city_name": "Buonabitacolo",
+      "indirizzo": "Via Fusara, 84034 Padula SA",
+      "lat": 40.332263,
+      "lng": 15.641705
+    },
+    {
+      "id": "76776cba-d226-4a88-bd62-96ef0c4f1e40",
+      "slug": "grand-hotel-certosa-buonabitacolo",
+      "nome": "Grand Hotel Certosa",
+      "city_name": "Buonabitacolo",
+      "indirizzo": "Viale Certosa, 41, 84034 Padula SA",
+      "lat": 40.334902,
+      "lng": 15.651824
+    },
+    {
+      "id": "fd7cb32e-b0f2-4e63-a0a8-d3e20806abe4",
+      "slug": "hotel-venezuela-albergo-buonabitacolo",
+      "nome": "Hotel Venezuela - Albergo",
+      "city_name": "Buonabitacolo",
+      "indirizzo": "Via Cesare Battisti, 34, 84033 Montesano Scalo SA",
+      "lat": 40.284267,
+      "lng": 15.657583
+    },
+    {
+      "id": "0fdc4a9a-17ff-4152-b042-fd0fccfbbf35",
+      "slug": "il-giardino-di-lavanda-buonabitacolo",
+      "nome": "Il Giardino di Lavanda",
+      "city_name": "Buonabitacolo",
+      "indirizzo": "via Tempa Carrozza 17, 84033 Montesano sulla Marcellana SA",
+      "lat": 40.242278,
+      "lng": 15.749794
+    },
+    {
+      "id": "61c0b753-5a82-429f-9235-2beaa11ff8b2",
+      "slug": "natural-house-buonabitacolo",
+      "nome": "Natural House",
+      "city_name": "Buonabitacolo",
+      "indirizzo": "84032 Buonabitacolo SA",
+      "lat": 40.264092,
+      "lng": 15.617161
+    },
+    {
+      "id": "efca896d-2e2c-4245-9be4-8c1da9091b4a",
+      "slug": "rosalinda-borgo-experience-buonabitacolo",
+      "nome": "Rosalinda Borgo Experience",
+      "city_name": "Buonabitacolo",
+      "indirizzo": "Corso Garibaldi, 2, 84030 Casaletto Spartano SA",
+      "lat": 40.150491,
+      "lng": 15.62018
+    },
+    {
+      "id": "c51538c6-6107-440d-9d5a-ba9a058e47fe",
+      "slug": "aia-di-lazzaro-agriturismo-a-casalbore-in-irpini-buonalbergo",
+      "nome": "Aia di Lazzaro | Agriturismo a Casalbore in Irpinia",
+      "city_name": "Buonalbergo",
+      "indirizzo": "Sant'Elia, 16, 83034 Casalbore AV",
+      "lat": 41.238771,
+      "lng": 15.007088
+    },
+    {
+      "id": "7b9768a5-e285-405b-9fc2-37d1d0feb73f",
+      "slug": "avalon-rione-castello-buonalbergo",
+      "nome": "Avalon (Rione Castello)",
+      "city_name": "Buonalbergo",
+      "indirizzo": "santa maria degli angeli, Salita Castello, 22, 82020 Pietrelcina BN",
+      "lat": 41.197248,
+      "lng": 14.849377
+    },
+    {
+      "id": "45142dcf-cd37-4981-8e42-051a4801d813",
+      "slug": "b-b-agriturismo-grandola-buonalbergo",
+      "nome": "B&B Agriturismo Grandola",
+      "city_name": "Buonalbergo",
+      "indirizzo": "C.DA. Cerreta 6, 83037 Montecalvo Irpino AV",
+      "lat": 41.167309,
+      "lng": 15.00573
+    },
+    {
+      "id": "e95a032c-7ba2-40c8-8501-1609f08d4dd9",
+      "slug": "dimora-forgione-b-b-buonalbergo",
+      "nome": "Dimora Forgione B&B",
+      "city_name": "Buonalbergo",
+      "indirizzo": "Vico Storto Valle, 2-4-6-8, 82020 Pietrelcina BN",
+      "lat": 41.197296,
+      "lng": 14.850007
+    },
+    {
+      "id": "df62b7bb-859a-4006-8234-a68abb17b453",
+      "slug": "la-maison-du-pont-relais-bed-and-breakfast-hotel-buonalbergo",
+      "nome": "La Maison Du Pont Relais | Bed and breakfast Hotel Pietrelcina",
+      "city_name": "Buonalbergo",
+      "indirizzo": "Via Paduli, 82020 Pietrelcina BN",
+      "lat": 41.195484,
+      "lng": 14.848495
+    },
+    {
+      "id": "bce40e3a-d26f-4eab-af9e-43da783be53d",
+      "slug": "petra-buonalbergo",
+      "nome": "Petra",
+      "city_name": "Buonalbergo",
+      "indirizzo": "Via nazionale, 32, 82020 Pietrelcina BN",
+      "lat": 41.200532,
+      "lng": 14.841202
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 61,
+  "blockId": "061",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "698046d2-c759-426c-b71b-a9b75c66e59e",
+      "slug": "la-corte-e-l-uva-albiolo",
+      "nome": "La Corte e L'Uva",
+      "city_name": "Albiolo",
+      "indirizzo": "Via A. Volta, 16, 22077 Olgiate Comasco CO",
+      "lat": 45.784718,
+      "lng": 8.969157
+    },
+    {
+      "id": "f68e34f6-1e61-4e18-b1fb-31c666a4dfeb",
+      "slug": "la-maison-di-gio-gio-albiolo",
+      "nome": "La Maison di Gio & Gio",
+      "city_name": "Albiolo",
+      "indirizzo": "Via Pier Amato Perretta, 19 a, 22077 Olgiate Comasco CO",
+      "lat": 45.791597,
+      "lng": 8.944283
+    },
+    {
+      "id": "be960428-e49a-4b72-9862-f5e59dd662c6",
+      "slug": "madonnina-albergo-ristorante-albiolo",
+      "nome": "Madonnina Albergo Ristorante",
+      "city_name": "Albiolo",
+      "indirizzo": "Largo Lanfranco da Ligurno, 1, 21050 Cantello VA",
+      "lat": 45.824522,
+      "lng": 8.901756
+    },
+    {
+      "id": "7e332876-8855-42c4-bc1d-7216e5df09b3",
+      "slug": "maryhouse-albiolo",
+      "nome": "Maryhouse",
+      "city_name": "Albiolo",
+      "indirizzo": "Via Monte Nero, 11, 21040 Venegono Superiore VA",
+      "lat": 45.747021,
+      "lng": 8.899459
+    },
+    {
+      "id": "5373a54f-6efb-48dc-8bbf-48830d47be45",
+      "slug": "riarel-b-b-rooms-and-hospitality-albiolo",
+      "nome": "Riarel | B&B - Rooms and hospitality",
+      "city_name": "Albiolo",
+      "indirizzo": "Via S. Maffeo, 17, 22070 Rodero CO",
+      "lat": 45.825117,
+      "lng": 8.915425
+    },
+    {
+      "id": "81ee2c12-5484-41a7-a3ef-5ddfe353bc0d",
+      "slug": "sweet-house-albiolo",
+      "nome": "Sweet House",
+      "city_name": "Albiolo",
+      "indirizzo": "V. Sarfatti, 3, 22042 San Fermo della Battaglia CO",
+      "lat": 45.815195,
+      "lng": 9.032138
+    },
+    {
+      "id": "19d199fb-4be2-4bf3-92e4-ff02485fe7fe",
+      "slug": "villa-sapi-albiolo",
+      "nome": "Villa Sapi",
+      "city_name": "Albiolo",
+      "indirizzo": "Via Roma, 19, 21051 Arcisate VA",
+      "lat": 45.85894,
+      "lng": 8.862572
+    },
+    {
+      "id": "179203ca-5347-4245-bf36-cc0eb4d69eb4",
+      "slug": "albergo-blue-fish-albisola-superiore",
+      "nome": "Albergo Blue Fish",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Corso Filippo Ferrari, 152, 17013 Albisola Superiore SV",
+      "lat": 44.330892,
+      "lng": 8.515196
+    },
+    {
+      "id": "ec4f6b66-0471-4568-bbb5-16352a65beb7",
+      "slug": "albisola-bed-breakfast-anche-per-lavoratori-casa-albisola-superiore",
+      "nome": "Albisola Bed&Breakfast anche per lavoratori | Casa Vacanze | B&B Albisola (SAVONA)",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Corso Italia, 3, 17013 Albisola Superiore SV",
+      "lat": 44.339248,
+      "lng": 8.509412
+    },
+    {
+      "id": "7cf8abc1-d0c7-45a0-83a5-c216a80c9d49",
+      "slug": "antica-dimora-rooms-albisola-superiore",
+      "nome": "Antica Dimora Rooms",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Via della Rovere, 13, 17013 Albisola Superiore SV",
+      "lat": 44.338372,
+      "lng": 8.509299
+    },
+    {
+      "id": "588a8ac8-dcf3-4f0d-9da8-426c574997ea",
+      "slug": "b-b-capo-torre-resort-spa-albisola-superiore",
+      "nome": "B&B Capo Torre Resort & SPA",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Via Torre del Capo, 42, 17013 Albisola Superiore SV",
+      "lat": 44.331491,
+      "lng": 8.524389
+    },
+    {
+      "id": "22ee5260-e071-4d6e-a620-932ca503ddda",
+      "slug": "ca-du-praettu-albisola-superiore",
+      "nome": "Cà du Praettu",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Via alla Maddalena, 13, 17013 Ellera SV",
+      "lat": 44.359877,
+      "lng": 8.467292
+    },
+    {
+      "id": "dfc35487-3964-43de-8d66-5dda79cab269",
+      "slug": "campeggio-parco-vacanze-anita-albisola-superiore",
+      "nome": "Campeggio Parco Vacanze Anita",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Corso Filippo Ferrari, 206, 17011 Albisola Superiore SV",
+      "lat": 44.3323,
+      "lng": 8.52544
+    },
+    {
+      "id": "7ff9723a-338e-470d-bdb0-5f01b24674e6",
+      "slug": "hotel-acqua-marina-albisola-superiore",
+      "nome": "Hotel Acqua Marina",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Via Matteo Repetto, 108, 17012 Albissola Marina SV",
+      "lat": 44.326214,
+      "lng": 8.500049
+    },
+    {
+      "id": "869c7e50-3130-4889-b351-df307a0382e3",
+      "slug": "hotel-europa-albisola-superiore",
+      "nome": "Hotel Europa",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Viale Liguria, 22, 17012 Albissola Marina SV",
+      "lat": 44.328853,
+      "lng": 8.505174
+    },
+    {
+      "id": "ba6abf02-455a-4082-b274-7cfb1045ae49",
+      "slug": "hotel-flora-albisola-superiore",
+      "nome": "Hotel Flora",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Via Monte Tabor, 47, 17015 Celle Ligure SV",
+      "lat": 44.346033,
+      "lng": 8.551989
+    },
+    {
+      "id": "82b4b425-b834-4358-91fd-56e5d8b07035",
+      "slug": "hotel-garden-albisola-marina-albisola-superiore",
+      "nome": "Hotel Garden Albisola marina",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Viale Alessandro Faraggiana, 6, 17012 Albissola Marina SV",
+      "lat": 44.329273,
+      "lng": 8.50717
+    },
+    {
+      "id": "e5fb2d4b-0f80-4635-811a-8510ba402a25",
+      "slug": "hotel-ristorante-onda-azzurra-albisola-superiore",
+      "nome": "Hotel Ristorante Onda Azzurra",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Via Cesare Battisti, 8, 17013 Albisola Superiore SV",
+      "lat": 44.329752,
+      "lng": 8.512358
+    },
+    {
+      "id": "4d374082-b4f7-49d8-942a-5cb6ddbe92fb",
+      "slug": "hotel-san-giorgio-albisola-superiore",
+      "nome": "Hotel San Giorgio",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Corso Giuseppe Mazzini, 24, 17013 Albisola Superiore SV",
+      "lat": 44.335641,
+      "lng": 8.51012
+    },
+    {
+      "id": "a49e7b31-8ab2-451e-954d-96dea6b386fe",
+      "slug": "idea-hotel-savona-albisola-superiore",
+      "nome": "Idea Hotel Savona",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Piazza Di Vittorio 2 c/o C.Comm. Le Officine, 17100 Savona SV",
+      "lat": 44.299741,
+      "lng": 8.463051
+    },
+    {
+      "id": "96f6aa36-0ed4-4784-8b21-f25cc9257ff7",
+      "slug": "mare-hotel-albisola-superiore",
+      "nome": "Mare Hotel",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Via Nizza, 89r, 17100 Savona SV",
+      "lat": 44.290324,
+      "lng": 8.453057
+    },
+    {
+      "id": "d3ea2ae5-ab71-4afe-b51f-acb9b05301ee",
+      "slug": "nonna-rina-b-b-albisola-superiore",
+      "nome": "Nonna Rina b&b",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Via degli Orefici, 5, 17100 Savona SV",
+      "lat": 44.307498,
+      "lng": 8.484371
+    },
+    {
+      "id": "d61c1e89-021a-4f6d-81b7-ce87c4ce8c68",
+      "slug": "park-hotel-albisola-superiore",
+      "nome": "Park Hotel",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Via Alba Docilia, 3, 17013 Albisola Superiore SV",
+      "lat": 44.332795,
+      "lng": 8.518438
+    },
+    {
+      "id": "7664bc52-709d-438a-afe6-75fab5e271a5",
+      "slug": "riobasco-guesthouse-albisola-superiore",
+      "nome": "Riobasco Guesthouse",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Via della Rovere, 102, 17013 Albisola Superiore SV",
+      "lat": 44.336978,
+      "lng": 8.508176
+    },
+    {
+      "id": "923de1a2-6228-4347-8a05-8dba97fb7a7f",
+      "slug": "vittoria-albisola-superiore",
+      "nome": "Vittoria",
+      "city_name": "Albisola Superiore",
+      "indirizzo": "Viale Giovanni Battista Perata, 17012 Albissola Marina SV",
+      "lat": 44.332718,
+      "lng": 8.504817
+    },
+    {
+      "id": "fc667626-157a-40d3-a517-ef7386d442b9",
+      "slug": "albergo-belvedere-albissola-marina",
+      "nome": "Albergo Belvedere",
+      "city_name": "Albissola Marina",
+      "indirizzo": "Via F. Gentile, 62, 17012 Albissola Marina SV",
+      "lat": 44.325162,
+      "lng": 8.494795
+    },
+    {
+      "id": "5c06dc24-592e-4068-9401-19716686ecb6",
+      "slug": "b-b-hotel-riviera-celle-ligure-albissola-marina",
+      "nome": "B&B HOTEL Riviera Celle Ligure",
+      "city_name": "Albissola Marina",
+      "indirizzo": "Via Federico Colla, 55, 17015 Celle Ligure SV",
+      "lat": 44.343062,
+      "lng": 8.544384
+    },
+    {
+      "id": "bf60baf0-1e98-44bd-bedb-016e7ac20126",
+      "slug": "b-b-hotel-savona-albissola-marina",
+      "nome": "B&B HOTEL Savona",
+      "city_name": "Albissola Marina",
+      "indirizzo": "Via Nizza, 62, 17100 Savona SV",
+      "lat": 44.290779,
+      "lng": 8.452842
+    },
+    {
+      "id": "fdc9e745-0179-4e24-87c6-7fc41b7643e7",
+      "slug": "bed-breakfast-gioiello-albissola-marina",
+      "nome": "Bed & Breakfast Gioiello",
+      "city_name": "Albissola Marina",
+      "indirizzo": "Via Monte Tabor, 65, 17015 Celle Ligure SV",
+      "lat": 44.346034,
+      "lng": 8.552441
+    },
+    {
+      "id": "d4db39cd-acbe-4fe7-9b41-af237da7544d",
+      "slug": "camera-asia-albissola-marina",
+      "nome": "Camera Asia",
+      "city_name": "Albissola Marina",
+      "indirizzo": "Via Poggio dell'Orizzonte, 63, 17012 Albissola Marina SV",
+      "lat": 44.329301,
+      "lng": 8.493718
+    },
+    {
+      "id": "f1ddf9dc-e33d-4707-b31b-b95915077b7f",
+      "slug": "hotel-nuovo-metropol-albissola-marina",
+      "nome": "Hotel Nuovo Metropol",
+      "city_name": "Albissola Marina",
+      "indirizzo": "Via Filippo Gentile, 1, 17012 Albissola Marina SV",
+      "lat": 44.325228,
+      "lng": 8.499383
+    },
+    {
+      "id": "f592d721-5b6e-44ca-90cb-9365fe9f87a5",
+      "slug": "joy-bandb-albissola-marina",
+      "nome": "Joy bandb",
+      "city_name": "Albissola Marina",
+      "indirizzo": "Via Barrili, 6, 17012 Albissola Marina SV",
+      "lat": 44.327154,
+      "lng": 8.496535
+    },
+    {
+      "id": "a06b7dfa-a564-4a6c-9dbc-4578dd7b7fd0",
+      "slug": "ostello-le-stuoie-albissola-marina",
+      "nome": "Ostello \"Le Stuoie\"",
+      "city_name": "Albissola Marina",
+      "indirizzo": "Via Italia, 49, 17012 Albissola Marina SV",
+      "lat": 44.327952,
+      "lng": 8.503849
+    },
+    {
+      "id": "7ea1cf20-289b-4f3b-95cd-d4271567b4e6",
+      "slug": "agriturismo-laghi-d-insubria-albizzate-albizzate",
+      "nome": "Agriturismo Laghi d'Insubria Albizzate.",
+      "city_name": "Albizzate",
+      "indirizzo": "Via Cascina Bertolina, 5, 21041 Albizzate VA",
+      "lat": 45.720431,
+      "lng": 8.786781
+    },
+    {
+      "id": "5e817a3b-92bd-43c0-86ee-078aaf2e0d0f",
+      "slug": "b-b-il-cortile-albizzate",
+      "nome": "B&B il Cortile",
+      "city_name": "Albizzate",
+      "indirizzo": "Via Torino, 63, 21011 Casorate Sempione VA",
+      "lat": 45.673485,
+      "lng": 8.739192
+    }
+  ]
+}

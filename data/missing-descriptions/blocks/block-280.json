@@ -1,0 +1,323 @@
+{
+  "block": 280,
+  "blockId": "280",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "2850ede9-e405-4d46-872c-93dac7d04d57",
+      "slug": "rifugio-pra-la-peira-bobbio-pellice",
+      "nome": "Rifugio Pra la Peira",
+      "city_name": "Bobbio Pellice",
+      "indirizzo": "località Pra la Peira, 10065 Pramollo TO",
+      "lat": 44.917392,
+      "lng": 7.176688
+    },
+    {
+      "id": "b34ed8e2-f998-4f9e-9660-a14d4f137396",
+      "slug": "the-old-fountain-bobbio-pellice",
+      "nome": "The Old Fountain",
+      "city_name": "Bobbio Pellice",
+      "indirizzo": "Via Inverso Rolandi, 41, 10066 Torre Pellice TO",
+      "lat": 44.807218,
+      "lng": 7.185389
+    },
+    {
+      "id": "0c24cf7b-6901-47ae-84a3-28a21423bb90",
+      "slug": "agriturismo-l-antico-sapore-boca",
+      "nome": "Agriturismo L'Antico Sapore",
+      "city_name": "Boca",
+      "indirizzo": "CODICE CIN IT003019B5NLXE3BNY/ Codice CIR 003019-AGR-00002, Str. vicinale Bellaria, 3, 28010 Boca NO",
+      "lat": 45.664949,
+      "lng": 8.419848
+    },
+    {
+      "id": "60d042a2-6e4e-4d21-b636-f7b633d83b5a",
+      "slug": "albergo-aurora-boca",
+      "nome": "Albergo Aurora",
+      "city_name": "Boca",
+      "indirizzo": "Via IV Novembre, 8, 28075 Grignasco NO",
+      "lat": 45.68119,
+      "lng": 8.337451
+    },
+    {
+      "id": "a33e8f11-638e-4938-80ae-ccf2f94ff78e",
+      "slug": "albergo-valsesiana-boca",
+      "nome": "Albergo Valsesiana",
+      "city_name": "Boca",
+      "indirizzo": "Corso XXV Aprile, 37, 28024 Gozzano NO",
+      "lat": 45.742981,
+      "lng": 8.433888
+    },
+    {
+      "id": "20273583-cd7e-475e-9f45-ff7328612ffc",
+      "slug": "b-b-le-coccinelle-grignasco-boca",
+      "nome": "B&B Le Coccinelle Grignasco",
+      "city_name": "Boca",
+      "indirizzo": "Via Alessandro Volta, 47, 28075 Grignasco NO",
+      "lat": 45.681345,
+      "lng": 8.347121
+    },
+    {
+      "id": "cab61267-d2f5-4d46-90bb-7d734c22a380",
+      "slug": "hotel-baiardo-boca",
+      "nome": "Hotel Baiardo",
+      "city_name": "Boca",
+      "indirizzo": "Via Novara, 337, 28078 Romagnano Sesia NO",
+      "lat": 45.615829,
+      "lng": 8.406319
+    },
+    {
+      "id": "373ff503-911c-4fe8-a347-709344248045",
+      "slug": "hotel-del-corso-boca",
+      "nome": "Hotel del Corso",
+      "city_name": "Boca",
+      "indirizzo": "Corso Sempione, 110, 28021 Borgomanero NO",
+      "lat": 45.706174,
+      "lng": 8.456834
+    },
+    {
+      "id": "9641225a-bf82-48ee-ba66-ff9e5e382013",
+      "slug": "hotel-rinaldo-apartments-boca",
+      "nome": "Hotel Rinaldo Apartments",
+      "city_name": "Boca",
+      "indirizzo": "Via U. Foscolo, 31, 28021 Borgomanero NO",
+      "lat": 45.699155,
+      "lng": 8.466816
+    },
+    {
+      "id": "d61ccff7-d2f0-4995-9b3d-d565689164f6",
+      "slug": "le-colline-di-maggiora-boca",
+      "nome": "Le Colline di Maggiora",
+      "city_name": "Boca",
+      "indirizzo": "Via dei Mille, 26, 28014 Maggiora NO",
+      "lat": 45.6883,
+      "lng": 8.420133
+    },
+    {
+      "id": "e94160fd-f326-46f1-ac22-3c52b7ff7777",
+      "slug": "momi-boca",
+      "nome": "Momi",
+      "city_name": "Boca",
+      "indirizzo": "Corso Garibaldi, 48, 28021 Borgomanero NO",
+      "lat": 45.69978,
+      "lng": 8.461606
+    },
+    {
+      "id": "52ffd012-81ee-44df-89c8-56a3542de53d",
+      "slug": "otium-b-b-boca",
+      "nome": "Otium B&B",
+      "city_name": "Boca",
+      "indirizzo": "Cascina Stoccada, 5, 28010 Cavallirio NO",
+      "lat": 45.661134,
+      "lng": 8.418879
+    },
+    {
+      "id": "8811a481-eab1-4714-8291-cf6e72e13baa",
+      "slug": "b-b-vita-con-piscina-bocchigliero",
+      "nome": "B&B & VITA con piscina",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Via Bulgaria, 17, 87060 Mirto CS",
+      "lat": 39.589753,
+      "lng": 16.768416
+    },
+    {
+      "id": "18e05f6f-c3d7-4026-881e-3e945c7389a8",
+      "slug": "b-b-3-medaglie-bocchigliero",
+      "nome": "B&B 3 Medaglie",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Via Alessandro Volta, 14, 87036 Rende CS",
+      "lat": 39.351471,
+      "lng": 16.244112
+    },
+    {
+      "id": "ccc832bd-cef2-4a86-8421-6c063af92072",
+      "slug": "b-b-casa-federico-bocchigliero",
+      "nome": "B&B Casa Federico",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Via Calvario, 34, 87055 San Giovanni in Fiore CS",
+      "lat": 39.25669,
+      "lng": 16.704777
+    },
+    {
+      "id": "b7de5d25-f8e5-4282-9f61-fac9811aca9d",
+      "slug": "b-b-casa-gabriele-bocchigliero",
+      "nome": "B&B Casa Gabriele",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Contrada Oliveto Longo, 87064 Corigliano-Rossano CS",
+      "lat": 39.596257,
+      "lng": 16.662135
+    },
+    {
+      "id": "ce57a4de-2e22-46f2-aee9-fb1531d8f5e5",
+      "slug": "b-b-don-emilio-bocchigliero",
+      "nome": "B&B DON EMILIO",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Via Antonio Gramsci, 87052 Moccone CS",
+      "lat": 39.339367,
+      "lng": 16.423235
+    },
+    {
+      "id": "5324d7f0-7cb3-4105-a670-048dc082d7c4",
+      "slug": "b-b-la-casa-di-gioacchino-bocchigliero",
+      "nome": "B&B La Casa di Gioacchino",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Via G. B. Falcone, 4, 87055 San Giovanni in Fiore CS",
+      "lat": 39.255077,
+      "lng": 16.700972
+    },
+    {
+      "id": "c06884ac-1321-47eb-8534-48b7f0598032",
+      "slug": "b-b-loricaly-bocchigliero",
+      "nome": "B&B Loricaly",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Via Michele de Marco, 87055 Lorica CS",
+      "lat": 39.252255,
+      "lng": 16.510915
+    },
+    {
+      "id": "e6491ddf-cad1-4216-92fd-5dbeeaeed5ec",
+      "slug": "b-b-mamma-elena-bocchigliero",
+      "nome": "B&B Mamma Elena",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Via Roma, 8, 87050 Rovito CS",
+      "lat": 39.307488,
+      "lng": 16.320782
+    },
+    {
+      "id": "43dcbb1d-fc11-465d-b99d-cb31499d5799",
+      "slug": "b-b-mastro-gio-bocchigliero",
+      "nome": "B&B Mastro Giò",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Via Marco Polo, 22, 87055 San Giovanni in Fiore CS",
+      "lat": 39.251687,
+      "lng": 16.696154
+    },
+    {
+      "id": "c6316fb1-8905-4029-8503-1ed47e096645",
+      "slug": "b-b-risveglio-nel-borgo-bocchigliero",
+      "nome": "B&b Risveglio nel Borgo",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Via Vincenzo Monaco, 55, 87010 San Donato di Ninea CS",
+      "lat": 39.709523,
+      "lng": 16.049933
+    },
+    {
+      "id": "3cd3d3cd-6066-40c3-9cd3-4e445e4d0392",
+      "slug": "b-b-rossini-luxury-2-cosenza-bocchigliero",
+      "nome": "B&B Rossini Luxury 2 - COSENZA",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Traversa S. Proclo, 87100 Cosenza CS",
+      "lat": 39.318196,
+      "lng": 16.245275
+    },
+    {
+      "id": "4d856513-5870-4f40-be0a-352614eef20b",
+      "slug": "b-b-villacristiano-bocchigliero",
+      "nome": "B&B Villacristiano",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Via A. de Gasperi, 32b, 87040 Marano Marchesato CS",
+      "lat": 39.305939,
+      "lng": 16.166962
+    },
+    {
+      "id": "10138943-5f95-44e3-b167-0f4d5b9998e1",
+      "slug": "bed-breakfast-lufra-bocchigliero",
+      "nome": "Bed & Breakfast Lufra",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Via G. Marconi, 80, 87036 Rende CS",
+      "lat": 39.353539,
+      "lng": 16.236535
+    },
+    {
+      "id": "1f73f81f-74b7-441f-89a6-d80a9715c59e",
+      "slug": "casale-marcalia-bed-breakfast-bocchigliero",
+      "nome": "Casale Marcalia - Bed & Breakfast",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Contrada Marcalia, sn, 87064 Corigliano CS",
+      "lat": 39.614471,
+      "lng": 16.501617
+    },
+    {
+      "id": "f7843b52-653d-47ea-967a-87addf21092e",
+      "slug": "hotel-e-azienda-agricola-renzini-bocchigliero",
+      "nome": "hotel e azienda agricola Renzini",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Via Russi, 193, 87060 Bocchigliero CS",
+      "lat": 39.418899,
+      "lng": 16.745174
+    },
+    {
+      "id": "d5f3bb6f-f95e-40e5-960d-6f7c3b62f0cd",
+      "slug": "il-falco-e-il-gabbiano-b-b-bocchigliero",
+      "nome": "Il Falco e il Gabbiano B&B",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Via Monaco, 87064 Schiavonea CS",
+      "lat": 39.648991,
+      "lng": 16.542201
+    },
+    {
+      "id": "566f853a-a62e-4943-8cd2-717af9f5d0f5",
+      "slug": "la-casina-b-b-bocchigliero",
+      "nome": "La Casina B&B",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Via dei Navigatori, 87064 Schiavonea CS",
+      "lat": 39.648665,
+      "lng": 16.546953
+    },
+    {
+      "id": "b8f5d1be-2b9e-41e6-b3d3-792187b7e9cf",
+      "slug": "mini-b-b-enrico-fermi-bocchigliero",
+      "nome": "Mini B&B - Enrico Fermi",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Via Enrico Fermi, 23, 87036 Quattromiglia CS",
+      "lat": 39.352188,
+      "lng": 16.239218
+    },
+    {
+      "id": "4620cb6f-0564-476c-b34f-e07f149c11bb",
+      "slug": "ntrizzi-workshop-b-b-wellbeing-bocchigliero",
+      "nome": "Ntrizzi - workshop, b&b, wellbeing",
+      "city_name": "Bocchigliero",
+      "indirizzo": "Via Motta, 90, 87066 Longobucco CS",
+      "lat": 39.45144,
+      "lng": 16.610438
+    },
+    {
+      "id": "b36caee8-7a9e-4f18-b9ec-a24729d46aa8",
+      "slug": "b-b-al-vicolo-del-gallo-boccioleto",
+      "nome": "B&B Al Vicolo del Gallo",
+      "city_name": "Boccioleto",
+      "indirizzo": "Vicolo del gallo, 5, 13019 Varallo VC",
+      "lat": 45.816822,
+      "lng": 8.250916
+    },
+    {
+      "id": "a14bac9e-b1f8-44ff-9396-e5c14ec6aa41",
+      "slug": "b-b-il-barsot-boccioleto",
+      "nome": "B&B Il Barsot",
+      "city_name": "Boccioleto",
+      "indirizzo": "Via Pela, 7, 28028 Pettenasco NO",
+      "lat": 45.819427,
+      "lng": 8.409686
+    },
+    {
+      "id": "609d9332-1fd4-4d73-a19e-2a03d88512c7",
+      "slug": "boccioleto-resort-spa-boccioleto",
+      "nome": "Boccioleto Resort&Spa",
+      "city_name": "Boccioleto",
+      "indirizzo": "Via Collegalli, 3, 50050 Montaione FI",
+      "lat": 43.613377,
+      "lng": 10.869551
+    },
+    {
+      "id": "a9229ca5-dd48-4cb5-8d9c-15662425f3c2",
+      "slug": "ospitalita-rurale-familiare-land-wasser-boccioleto",
+      "nome": "Ospitalità rurale familiare Land Wasser",
+      "city_name": "Boccioleto",
+      "indirizzo": "13020 Bocciolaro VC",
+      "lat": 45.853522,
+      "lng": 8.238081
+    }
+  ]
+}

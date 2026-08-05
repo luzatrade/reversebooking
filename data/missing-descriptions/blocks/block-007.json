@@ -1,0 +1,323 @@
+{
+  "block": 7,
+  "blockId": "007",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "f821a282-948c-4e53-b2bf-07a6e88b2a2c",
+      "slug": "infinity-suite-acerra",
+      "nome": "Infinity Suite",
+      "city_name": "Acerra",
+      "indirizzo": "Via Spiniello, 101, 80011 Acerra NA",
+      "lat": 40.944252,
+      "lng": 14.389336
+    },
+    {
+      "id": "83e39084-a387-43ee-b3e9-063e3379a193",
+      "slug": "la-dolce-sosta-acerra",
+      "nome": "La dolce sosta",
+      "city_name": "Acerra",
+      "indirizzo": "Via Montegrappa, 30, 80011 Acerra NA",
+      "lat": 40.944361,
+      "lng": 14.367629
+    },
+    {
+      "id": "99427a6e-c2df-4d94-b438-0106661b6c75",
+      "slug": "living-bed-and-breakfast-acerra",
+      "nome": "Living Bed and Breakfast",
+      "city_name": "Acerra",
+      "indirizzo": "Via Francesco Ferraro, 1, 80026 Casoria NA",
+      "lat": 40.914315,
+      "lng": 14.283286
+    },
+    {
+      "id": "b31cfb5a-5ede-4bc4-8dac-612bf8a7ff63",
+      "slug": "maison-464-acerra",
+      "nome": "MAISON 464",
+      "city_name": "Acerra",
+      "indirizzo": "Via Napoli, 464, 81027 San Felice a Cancello CE",
+      "lat": 41.002547,
+      "lng": 14.442557
+    },
+    {
+      "id": "53ea4396-9a03-4dbd-99ed-ceca77f0cfa4",
+      "slug": "paradisea-club-and-residences-acerra",
+      "nome": "Paradisea Club and Residences",
+      "city_name": "Acerra",
+      "indirizzo": "Via Rossi, 197, 80040 Napoli NA",
+      "lat": 40.872398,
+      "lng": 14.345956
+    },
+    {
+      "id": "8f50aa3c-c305-4c0f-9a2b-ca86b9d92561",
+      "slug": "pavean-suites-frattamaggiore-acerra",
+      "nome": "Pavean Suites Frattamaggiore",
+      "city_name": "Acerra",
+      "indirizzo": "Corso Durante, 218, 80027 Frattamaggiore NA",
+      "lat": 40.941425,
+      "lng": 14.271649
+    },
+    {
+      "id": "1d4d75b3-0546-44b6-a5ee-d613906b175e",
+      "slug": "sunrise-hotel-acerra",
+      "nome": "Sunrise Hotel",
+      "city_name": "Acerra",
+      "indirizzo": "Via Giacinto Gigante, 124, 80026 Casoria NA",
+      "lat": 40.894608,
+      "lng": 14.328287
+    },
+    {
+      "id": "b3555f92-1dbc-4b02-b024-6c16cdc788aa",
+      "slug": "utopia-the-art-of-bed-breakfast-acerra",
+      "nome": "UTOPIA The Art of Bed & Breakfast",
+      "city_name": "Acerra",
+      "indirizzo": "V. Europa, 17, 80034 Marigliano NA",
+      "lat": 40.917255,
+      "lng": 14.451633
+    },
+    {
+      "id": "397fd711-c749-46f1-aec9-9fcab9c86013",
+      "slug": "victoria-hotel-acerra",
+      "nome": "Victoria Hotel",
+      "city_name": "Acerra",
+      "indirizzo": "Via Madonnelle, 55, 80030 Castello di Cisterna NA",
+      "lat": 40.900635,
+      "lng": 14.412432
+    },
+    {
+      "id": "bb9afe6a-3be4-4452-bcd1-ad29e0e6ff40",
+      "slug": "a-due-passi-da-aci-bonaccorsi",
+      "nome": "A due passi da...",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Via Eugenio Montale, 35, 95025 Aci Sant'Antonio CT",
+      "lat": 37.624885,
+      "lng": 15.127063
+    },
+    {
+      "id": "b1318d34-2871-4a7b-9f32-4a22ebb2725d",
+      "slug": "b-b-alba-aci-bonaccorsi",
+      "nome": "B&B ALBA",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Via Rosario Scuderi, 95029 Viagrande CT",
+      "lat": 37.609746,
+      "lng": 15.097935
+    },
+    {
+      "id": "2687c8c9-8333-4601-b1c5-95eba41f1249",
+      "slug": "b-b-antichi-ricordi-aci-bonaccorsi",
+      "nome": "B&B Antichi Ricordi",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Via Giovanni Pascoli, 13, 95025 Aci Sant'Antonio CT",
+      "lat": 37.601139,
+      "lng": 15.12785
+    },
+    {
+      "id": "1cadac70-9e87-4070-b3bd-6da29c4cec63",
+      "slug": "b-b-casalotto-inn-aci-bonaccorsi",
+      "nome": "B&B Casalotto Inn",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Via Giovanni Pascoli, 11, 95025 Aci Sant'Antonio CT",
+      "lat": 37.601315,
+      "lng": 15.128701
+    },
+    {
+      "id": "c47fba44-5240-4804-bc33-7435365597b7",
+      "slug": "b-b-i-colori-dell-etna-aci-bonaccorsi",
+      "nome": "B&B I Colori dell'Etna",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Viale Giovanni Caboto, Via Portopalo, 5/7, 95037 San Giovanni la Punta CT",
+      "lat": 37.58577,
+      "lng": 15.101504
+    },
+    {
+      "id": "1c050dea-1a35-4117-b8ab-a30504be11e6",
+      "slug": "b-b-il-vulcano-aci-bonaccorsi",
+      "nome": "B&B Il Vulcano",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "4, Via M.llo Alfredo Agosta, 95022 Aci Catena CT",
+      "lat": 37.587421,
+      "lng": 15.147523
+    },
+    {
+      "id": "4ab9be91-ab9e-4b79-a2b9-1b244743bbf4",
+      "slug": "b-b-l-agrifoglio-dell-etna-aci-bonaccorsi",
+      "nome": "B&B L'Agrifoglio dell'Etna",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Via Principi di Villafranca, n°22/a, 95039 Trecastagni CT",
+      "lat": 37.619101,
+      "lng": 15.082815
+    },
+    {
+      "id": "b3d02774-5e15-40ac-a413-f36bab8fd87d",
+      "slug": "b-b-la-casetta-aci-bonaccorsi",
+      "nome": "B&B La Casetta",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Via Francesco Crispi, 40, 95020 Aci Bonaccorsi CT",
+      "lat": 37.59724,
+      "lng": 15.106774
+    },
+    {
+      "id": "4a84c7f6-68b7-4e6f-ac97-6772f534a1d8",
+      "slug": "b-b-le-antiche-cisterne-aci-bonaccorsi",
+      "nome": "B&B Le Antiche Cisterne",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Via Salvatore Quasimodo, 14, 95030 Tremestieri Etneo CT",
+      "lat": 37.567982,
+      "lng": 15.073868
+    },
+    {
+      "id": "fccb56ad-7fee-419d-8208-f4f1424030c0",
+      "slug": "b-b-sotto-l-eremo-aci-bonaccorsi",
+      "nome": "B&B Sotto l'eremo",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Via Eremo Sant'Anna, 29, 95022 Aci Catena CT",
+      "lat": 37.58859,
+      "lng": 15.133742
+    },
+    {
+      "id": "8d04dd21-e915-4e8d-b03e-281559db5dff",
+      "slug": "b-b-suite-aci-bonaccorsi",
+      "nome": "B&B suite",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Viale della Regione, 75, 95029 Viagrande CT",
+      "lat": 37.607388,
+      "lng": 15.095736
+    },
+    {
+      "id": "46fa5de7-a687-46f0-993c-af3ce26dbd58",
+      "slug": "bed-and-breakfast-maricla-viagrande-aci-bonaccorsi",
+      "nome": "Bed and Breakfast Mariclà - Viagrande",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Via A. Cabane', 10, 95029 Viagrande CT",
+      "lat": 37.610125,
+      "lng": 15.102077
+    },
+    {
+      "id": "b4ea31d8-12d4-461c-8f61-a632b88358e3",
+      "slug": "bed-and-breakfast-terra-e-stelle-aci-bonaccorsi",
+      "nome": "Bed and Breakfast Terra e Stelle",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Via Francesco Riso, 45, 95025 Aci Sant'Antonio CT",
+      "lat": 37.620278,
+      "lng": 15.128889
+    },
+    {
+      "id": "9a4655e0-89e8-4efd-9746-3995c52b2953",
+      "slug": "etna-country-aci-bonaccorsi",
+      "nome": "Etna Country",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Via Etnea, 396, 95030 Tremestieri Etneo CT",
+      "lat": 37.580461,
+      "lng": 15.07082
+    },
+    {
+      "id": "d0f24a16-837f-4287-a411-6ef4aafa79e1",
+      "slug": "grand-hotel-villa-itria-aci-bonaccorsi",
+      "nome": "Grand Hotel Villa Itria",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Via Antonio, Via Aniante, 3, 95029 Viagrande CT",
+      "lat": 37.605078,
+      "lng": 15.097492
+    },
+    {
+      "id": "18458439-bd0c-42b9-8431-2f9dae82d4fa",
+      "slug": "il-tiglio-aci-bonaccorsi",
+      "nome": "Il Tiglio",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Via Petrone, 55, 95029 Viagrande CT",
+      "lat": 37.601308,
+      "lng": 15.090691
+    },
+    {
+      "id": "cba3663c-9b40-4b5b-8a1e-53e0bd03fc0b",
+      "slug": "locanda-sant-antonio-aci-bonaccorsi",
+      "nome": "Locanda Sant'Antonio",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Piazza Maggiore, 29, 95025 Aci Sant'Antonio CT",
+      "lat": 37.60652,
+      "lng": 15.125838
+    },
+    {
+      "id": "748075e2-83e0-42c8-8831-1a56c8ce40d8",
+      "slug": "profumi-di-aci-boutique-b-b-aci-bonaccorsi",
+      "nome": "Profumi di Aci - Boutique B&B",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Via Nizzeti, 203, 95022 Nizzeti CT",
+      "lat": 37.5682,
+      "lng": 15.137768
+    },
+    {
+      "id": "c3db3b98-a088-4adc-b8cf-e01803c68189",
+      "slug": "sikelia-rooms-aci-bonaccorsi",
+      "nome": "Sikelia Rooms",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Via Giuseppe Garibaldi, 128, 95029 Viagrande CT",
+      "lat": 37.60874,
+      "lng": 15.097411
+    },
+    {
+      "id": "52fff849-1d7d-4eca-8e6d-8bfff9b6c849",
+      "slug": "zaffiro-lavico-rooms-etna-nature-sea-aci-bonaccorsi",
+      "nome": "Zaffiro Lavico rooms Etna nature sea",
+      "city_name": "Aci Bonaccorsi",
+      "indirizzo": "Via Giuseppe Ungaretti, 7/D, 95025 Aci Sant'Antonio CT",
+      "lat": 37.635021,
+      "lng": 15.104018
+    },
+    {
+      "id": "29fb5b66-afcb-4b21-b049-476919ed2c96",
+      "slug": "4-spa-resort-hotel-aci-castello",
+      "nome": "4 Spa Resort Hotel",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Nazionale, 114, 95021 Aci Castello CT",
+      "lat": 37.538055,
+      "lng": 15.124719
+    },
+    {
+      "id": "c65de0c3-99ca-4d3f-8f88-70332ebb472c",
+      "slug": "aci-trezza-la-cornera-appartamenti-lungomare-aci-castello",
+      "nome": "Aci Trezza La Cornera Appartamenti Lungomare",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via A. Capparelli, 40, 95021 Aci Castello CT",
+      "lat": 37.560588,
+      "lng": 15.160584
+    },
+    {
+      "id": "82c866b8-6740-4e38-99f3-9f2f69f3a1d0",
+      "slug": "b-b-borgo-marinaro-aci-castello",
+      "nome": "b&b Borgo Marinaro",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Volturno, 4, 95021 Aci Castello CT",
+      "lat": 37.556132,
+      "lng": 15.146751
+    },
+    {
+      "id": "98c51bf3-ebfa-49be-a0ff-dd891e335359",
+      "slug": "b-b-brezza-di-mare-aci-castello",
+      "nome": "B&B Brezza di Mare",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Livorno, 63, 95021 Aci Castello CT",
+      "lat": 37.569767,
+      "lng": 15.164212
+    },
+    {
+      "id": "772db7e1-760e-4759-ac3c-290699b7c0ed",
+      "slug": "b-b-epos-acitrezza-aci-castello",
+      "nome": "B&B Epos Acitrezza",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Provinciale, 262, 95021 Aci Castello CT",
+      "lat": 37.564465,
+      "lng": 15.162171
+    },
+    {
+      "id": "c5b38005-2097-44cb-910d-d6f677af2742",
+      "slug": "b-b-stella-marina-aci-castello",
+      "nome": "B&B Stella Marina",
+      "city_name": "Aci Castello",
+      "indirizzo": "Via Litteri, 48, 95021 Aci Trezza CT",
+      "lat": 37.566467,
+      "lng": 15.1585
+    }
+  ]
+}

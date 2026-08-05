@@ -1,0 +1,323 @@
+{
+  "block": 434,
+  "blockId": "434",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "63705942-1ea8-48f9-81c8-89fb94559546",
+      "slug": "b-b-le-betulle-cardano-al-campo",
+      "nome": "B&B Le Betulle",
+      "city_name": "Cardano al Campo",
+      "indirizzo": "Via Parma, 1, 21010 Cardano al Campo VA",
+      "lat": 45.638209,
+      "lng": 8.771146
+    },
+    {
+      "id": "e2080827-e887-4c8c-a54b-33d67a0fccfd",
+      "slug": "b-b-mc-fly-rooms-malpensa-airport-cardano-al-campo",
+      "nome": "B&B MC FLY ROOMS (Malpensa airport)",
+      "city_name": "Cardano al Campo",
+      "indirizzo": "Via C. Menotti, 7, 21013 Gallarate VA",
+      "lat": 45.656485,
+      "lng": 8.807059
+    },
+    {
+      "id": "784696a9-93ec-4ab0-a79d-5726f6ea6bf9",
+      "slug": "b-b-villa-bucceri-cardano-al-campo",
+      "nome": "B&B Villa Bucceri",
+      "city_name": "Cardano al Campo",
+      "indirizzo": "Via G. Oberdan, 7, 21010 Cardano Al Campo VA",
+      "lat": 45.650975,
+      "lng": 8.772258
+    },
+    {
+      "id": "b5c2bea7-ae6e-4523-8fa4-71be13d3d35e",
+      "slug": "cardano-hotel-cardano-al-campo",
+      "nome": "Cardano Hotel",
+      "city_name": "Cardano al Campo",
+      "indirizzo": "Via Al Campo, 10, 21010 Cardano al Campo VA",
+      "lat": 45.642687,
+      "lng": 8.76716
+    },
+    {
+      "id": "92e56591-053e-4628-93db-71630a0cd2b7",
+      "slug": "cascina-anita-cardano-al-campo",
+      "nome": "Cascina Anita",
+      "city_name": "Cardano al Campo",
+      "indirizzo": "Viale Adriatico, 10, 21017 Samarate VA",
+      "lat": 45.637956,
+      "lng": 8.79075
+    },
+    {
+      "id": "160448bd-f85c-4a27-af34-efc4d26a5288",
+      "slug": "cristel-malpensa-bed-breakfast-cardano-al-campo",
+      "nome": "Cristel Malpensa Bed & Breakfast",
+      "city_name": "Cardano al Campo",
+      "indirizzo": "Via dei Chiosetti, 20, 21010 Cardano Al Campo VA",
+      "lat": 45.641606,
+      "lng": 8.776427
+    },
+    {
+      "id": "996a286c-bc89-4fa4-8e31-9331960903c2",
+      "slug": "fly-bed-for-cardano-al-campo",
+      "nome": "Fly Bed - For",
+      "city_name": "Cardano al Campo",
+      "indirizzo": "Via Papa Giovanni XXIII, 166, 21010 Cardano al Campo VA",
+      "lat": 45.653623,
+      "lng": 8.76009
+    },
+    {
+      "id": "6849856c-20af-450f-981f-96dda7638efd",
+      "slug": "foresteria-villa-ormeni-malpensa-cardano-al-campo",
+      "nome": "Foresteria Villa Ormeni Malpensa",
+      "city_name": "Cardano al Campo",
+      "indirizzo": "Via Gabriele D'annunzio, 10, 21010 Cardano al Campo VA",
+      "lat": 45.650975,
+      "lng": 8.752418
+    },
+    {
+      "id": "3d3a4e91-8368-4e65-ae8d-747cf631f694",
+      "slug": "la-casa-delle-betulle-cardano-al-campo",
+      "nome": "La casa delle Betulle",
+      "city_name": "Cardano al Campo",
+      "indirizzo": "Via XX Settembre, 16, 21010 Cardano al Campo VA",
+      "lat": 45.640479,
+      "lng": 8.769375
+    },
+    {
+      "id": "b10c8093-d142-4856-be80-2e451954919d",
+      "slug": "la-siesta-bed-residence-cardano-al-campo",
+      "nome": "La Siesta Bed & Residence",
+      "city_name": "Cardano al Campo",
+      "indirizzo": "Viale Europa Ovest, 21, 21010 Cardano Al Campo VA",
+      "lat": 45.643131,
+      "lng": 8.766019
+    },
+    {
+      "id": "b072228d-9738-4fe3-801d-2d043c631db9",
+      "slug": "le-quattro-stelle-villa-cin-it012032b4u8y7cgsb-cardano-al-campo",
+      "nome": "Le Quattro Stelle Villa CIN: IT012032B4U8Y7CGSB",
+      "city_name": "Cardano al Campo",
+      "indirizzo": "Via Dolomiti, 2A, 21010 Cardano al Campo VA",
+      "lat": 45.638425,
+      "lng": 8.771533
+    },
+    {
+      "id": "637fb532-984f-4fbb-a44d-6723b9dc08e5",
+      "slug": "malpensa-house-cardano-al-campo",
+      "nome": "Malpensa House",
+      "city_name": "Cardano al Campo",
+      "indirizzo": "Via G. Ferraris, 10, 21010 Cardano Al Campo VA",
+      "lat": 45.642152,
+      "lng": 8.761109
+    },
+    {
+      "id": "8dfce641-b6ec-4cf3-85cf-c1a872e7342f",
+      "slug": "suite-room-malpensa-b-b-cardano-al-campo",
+      "nome": "Suite Room Malpensa B&B",
+      "city_name": "Cardano al Campo",
+      "indirizzo": "Via dei Novaj, 21010 Cardano al Campo VA",
+      "lat": 45.636405,
+      "lng": 8.765495
+    },
+    {
+      "id": "6cfe7117-4046-4753-b6ca-13c72bd38722",
+      "slug": "affittacamere-su-maistu-e-linna-cardedu",
+      "nome": "Affittacamere Su Maistu e'linna",
+      "city_name": "Cardedu",
+      "indirizzo": "Via Municipio, 4, 08040 Cardedu OG",
+      "lat": 39.796624,
+      "lng": 9.625756
+    },
+    {
+      "id": "1f68b747-e51c-456d-a57c-7db6f30d1442",
+      "slug": "agriturismo-donnolu-cardedu",
+      "nome": "Agriturismo Donnolu",
+      "city_name": "Cardedu",
+      "indirizzo": "Loc. Suengiu, 08047 Tertenia OG",
+      "lat": 39.666198,
+      "lng": 9.5845
+    },
+    {
+      "id": "0686826a-4535-42e2-b99f-9231b27b28ca",
+      "slug": "agriturismo-e-agricampeggio-cirra-cardedu",
+      "nome": "Agriturismo e Agricampeggio Cirra",
+      "city_name": "Cardedu",
+      "indirizzo": "Agriturismo cirra, 08047 Tertenia OG",
+      "lat": 39.662015,
+      "lng": 9.576383
+    },
+    {
+      "id": "a1b95afb-ec81-4371-89b6-f883c8f211ca",
+      "slug": "agriturismo-nuraghe-murtarba-cardedu",
+      "nome": "Agriturismo Nuraghe Murtarba",
+      "city_name": "Cardedu",
+      "indirizzo": "Lago Santa Lucia, 08049 Villagrande Strisaili OG",
+      "lat": 39.96166,
+      "lng": 9.594808
+    },
+    {
+      "id": "63fb943f-dfa9-4daf-afe6-58ef50ea0117",
+      "slug": "agriturismo-ogliastra-cardedu",
+      "nome": "Agriturismo Ogliastra",
+      "city_name": "Cardedu",
+      "indirizzo": "SS390, Località Genna e Sarbadore, 08040 Loceri OG",
+      "lat": 39.846965,
+      "lng": 9.61084
+    },
+    {
+      "id": "7a0d1097-f058-4bfe-a668-17c1fc91120b",
+      "slug": "agriturismo-s-orgiola-cardedu",
+      "nome": "Agriturismo S'Orgiola",
+      "city_name": "Cardedu",
+      "indirizzo": "Località, Via is Carcuris, 08040 Osini OG",
+      "lat": 39.762755,
+      "lng": 9.616202
+    },
+    {
+      "id": "588a4358-6b92-4b76-bfdc-066d7655bd51",
+      "slug": "agriturismo-sa-jana-holidays-cardedu",
+      "nome": "Agriturismo Sa Jana Holidays",
+      "city_name": "Cardedu",
+      "indirizzo": "località Bacu e Ludu, 08040 Cardedu OG",
+      "lat": 39.775955,
+      "lng": 9.647615
+    },
+    {
+      "id": "1e57e265-75a2-4480-8fc7-74e21e277078",
+      "slug": "agriturismo-sa-perda-arrubia-solo-pernottamento-cardedu",
+      "nome": "Agriturismo Sa Perda Arrubia(Solo pernottamento e uso cucina in comune)",
+      "city_name": "Cardedu",
+      "indirizzo": "loc.perdarubia - strada provinciale s.paolo, 08040 Cardedu OG",
+      "lat": 39.807145,
+      "lng": 9.599013
+    },
+    {
+      "id": "88fa6284-7dc2-4756-8904-3df454d7d557",
+      "slug": "agriturismo-su-barraccu-cardedu",
+      "nome": "Agriturismo Su Barraccu",
+      "city_name": "Cardedu",
+      "indirizzo": "località Goene, 08040 Loceri OG",
+      "lat": 39.870653,
+      "lng": 9.603759
+    },
+    {
+      "id": "f4b033af-3f32-4ea2-a6de-97dfc8828f02",
+      "slug": "agriturismo-turudhis-cardedu",
+      "nome": "Agriturismo Turudhis",
+      "city_name": "Cardedu",
+      "indirizzo": "Localita Turudhis Marina di Cea, 08048 Tortolì OG",
+      "lat": 39.883558,
+      "lng": 9.65878
+    },
+    {
+      "id": "5c6f3e19-523f-4fe9-99dd-2774440735b7",
+      "slug": "b-b-cardedu-cardedu",
+      "nome": "B&B Cardedu",
+      "city_name": "Cardedu",
+      "indirizzo": "Via Amsicora, 11, 08040 Cardedu OG",
+      "lat": 39.798266,
+      "lng": 9.624888
+    },
+    {
+      "id": "e38f2fd3-18c3-47de-8f16-2253befd48be",
+      "slug": "myhome-cardeto",
+      "nome": "@MYHOME",
+      "city_name": "Cardeto",
+      "indirizzo": "Via Vittorio Veneto, 6, 89123 Reggio di Calabria RC",
+      "lat": 38.117861,
+      "lng": 15.652058
+    },
+    {
+      "id": "b130d030-f620-4382-88fd-cf89d7a0a08a",
+      "slug": "alfa-phi-prezzo-ridotto-per-prenotazioni-dirette-cardeto",
+      "nome": "Alfa & Phi (prezzo ridotto per prenotazioni dirette)",
+      "city_name": "Cardeto",
+      "indirizzo": "Via Niccolò Tommaseo, 6/2° piano, 89124 Reggio di Calabria RC",
+      "lat": 38.118252,
+      "lng": 15.658541
+    },
+    {
+      "id": "757996cf-372a-4592-930d-e369cc849668",
+      "slug": "b-b-degli-ottimati-cardeto",
+      "nome": "B&B Degli Ottimati",
+      "city_name": "Cardeto",
+      "indirizzo": "Via Ottimati, 10, 89127 Reggio di Calabria RC",
+      "lat": 38.107061,
+      "lng": 15.643646
+    },
+    {
+      "id": "5080d554-78d8-4f78-a533-070fdd556fca",
+      "slug": "c-entro-hotel-cardeto",
+      "nome": "C'ENTRO Hotel",
+      "city_name": "Cardeto",
+      "indirizzo": "Via San Paolo, 1, 89125 Reggio Calabria RC",
+      "lat": 38.112695,
+      "lng": 15.648456
+    },
+    {
+      "id": "c0d5f50b-792a-469d-9400-53695b278404",
+      "slug": "malalbergo-cardeto",
+      "nome": "Malalbergo",
+      "city_name": "Cardeto",
+      "indirizzo": "Via Giulia, 2B, 89125 Reggio di Calabria RC",
+      "lat": 38.1106,
+      "lng": 15.645784
+    },
+    {
+      "id": "bff7f125-7fee-4929-8187-6cddc5a18bd7",
+      "slug": "righepois-cardeto",
+      "nome": "RighePois",
+      "city_name": "Cardeto",
+      "indirizzo": "Via Gabriele D'Annunzio, 19, 89125 Reggio di Calabria RC",
+      "lat": 38.113175,
+      "lng": 15.650742
+    },
+    {
+      "id": "c61ef7c6-96b8-46fa-989e-f510f68fd4ba",
+      "slug": "b-b-la-rotonda-cardito",
+      "nome": "B&B La Rotonda",
+      "city_name": "Cardito",
+      "indirizzo": "Via Massimo Stanzione, 4, 80027 Frattamaggiore NA",
+      "lat": 40.94172,
+      "lng": 14.27778
+    },
+    {
+      "id": "2d33c4df-83e6-435f-b8d1-abd377cb67ef",
+      "slug": "oasi-di-frattamaggiore-cardito",
+      "nome": "Oasi di Frattamaggiore",
+      "city_name": "Cardito",
+      "indirizzo": "Via Giovanni Pascoli, 15, 80027 Frattamaggiore NA",
+      "lat": 40.946818,
+      "lng": 14.278185
+    },
+    {
+      "id": "dbdc8f4c-f642-4d79-a2b6-20062b2bc3aa",
+      "slug": "pavean-suites-frattaminore-cardito",
+      "nome": "Pavean Suites Frattaminore",
+      "city_name": "Cardito",
+      "indirizzo": "Via Alcide De Gasperi, 10, 80020 Frattaminore NA",
+      "lat": 40.95728,
+      "lng": 14.268772
+    },
+    {
+      "id": "7c78af83-cba0-47e9-b446-b46ca54ae22d",
+      "slug": "relax-in-suite-cardito",
+      "nome": "Relax In Suite",
+      "city_name": "Cardito",
+      "indirizzo": "Via Emilio Scaglione, 281, 80145 Napoli NA",
+      "lat": 40.886596,
+      "lng": 14.227813
+    },
+    {
+      "id": "89bda82e-375c-413a-a678-b9434b6b1a88",
+      "slug": "b-b-a-pochi-passi-card",
+      "nome": "B&B A Pochi Passi",
+      "city_name": "Card�",
+      "indirizzo": "Via Fratelli Rosselli, 52, 70044 Polignano a Mare BA",
+      "lat": 40.991028,
+      "lng": 17.222073
+    }
+  ]
+}

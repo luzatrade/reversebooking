@@ -1,0 +1,323 @@
+{
+  "block": 236,
+  "blockId": "236",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "d8d7f1b7-c233-4e0e-9506-c2b0ca7b05c5",
+      "slug": "alpi-del-mare-bastia-mondov",
+      "nome": "Alpi del Mare",
+      "city_name": "Bastia Mondov�",
+      "indirizzo": "Piazza Mellano, 15, 12084 Mondovì CN",
+      "lat": 44.395504,
+      "lng": 7.81951
+    },
+    {
+      "id": "3ba7ad06-3080-4cea-847d-bd97b136bf4b",
+      "slug": "b-b-bricco-della-guardia-bastia-mondov",
+      "nome": "B&B Bricco della Guardia",
+      "city_name": "Bastia Mondov�",
+      "indirizzo": "Via A. Borsarelli, 37/a, 12080 Briaglia CN",
+      "lat": 44.392403,
+      "lng": 7.890087
+    },
+    {
+      "id": "225f4c98-bd80-4bfe-9ad9-9d71d859d6fe",
+      "slug": "b-b-bricco-fiore-bastia-mondov",
+      "nome": "B&B Bricco Fiore",
+      "city_name": "Bastia Mondov�",
+      "indirizzo": "Via Niella Tanaro, 5, 12080 Briaglia CN",
+      "lat": 44.403997,
+      "lng": 7.891481
+    },
+    {
+      "id": "4893d421-48cb-4138-8510-bcd9a3279a19",
+      "slug": "b-b-hotels-park-hotel-mondovi-bastia-mondov",
+      "nome": "B&B HOTELS Park Hotel Mondovì",
+      "city_name": "Bastia Mondov�",
+      "indirizzo": "Via Pietro Delvecchio, 2, 12084 Mondovì CN",
+      "lat": 44.394201,
+      "lng": 7.819559
+    },
+    {
+      "id": "949dc52c-0ac7-4acd-a425-3e0a2733dfd7",
+      "slug": "b-b-torre-in-langa-bastia-mondov",
+      "nome": "B&B Torre in Langa",
+      "city_name": "Bastia Mondov�",
+      "indirizzo": "Via Garibaldi, 67, 12061 Carrù CN",
+      "lat": 44.481863,
+      "lng": 7.882152
+    },
+    {
+      "id": "2dc38dd0-d362-43fc-9078-e8764880788e",
+      "slug": "b-b-vista-sulle-langhe-bastia-mondov",
+      "nome": "B&B Vista Sulle Langhe",
+      "city_name": "Bastia Mondov�",
+      "indirizzo": "Via Roma, 1, 12061 Carrù CN",
+      "lat": 44.47824,
+      "lng": 7.879145
+    },
+    {
+      "id": "beefb6d2-b7c6-4d5d-9959-5530e0549df9",
+      "slug": "bed-e-breakfast-casa-la-preziosa-mondovi-bastia-mondov",
+      "nome": "Bed e Breakfast Casa La Preziosa Mondovì",
+      "city_name": "Bastia Mondov�",
+      "indirizzo": "Str. Rifreddo, 67, 12084 Rifreddo CN",
+      "lat": 44.44421,
+      "lng": 7.857706
+    },
+    {
+      "id": "b9e3ce12-11d1-4930-a5f5-a122d9463aca",
+      "slug": "ca-del-magu-bastia-mondov",
+      "nome": "ca' del magu",
+      "city_name": "Bastia Mondov�",
+      "indirizzo": "via valmoretto, 9, 12080 San Michele Mondovì CN",
+      "lat": 44.385622,
+      "lng": 7.907838
+    },
+    {
+      "id": "00a2e768-0cd7-42b5-9d51-f9fda47c4239",
+      "slug": "casa-calleri-bastia-mondov",
+      "nome": "Casa Calleri",
+      "city_name": "Bastia Mondov�",
+      "indirizzo": "Via A. Borsarelli, 6, 12080 Briaglia CN",
+      "lat": 44.395308,
+      "lng": 7.876624
+    },
+    {
+      "id": "4c76c4ea-247b-4fa9-97d7-f0ca015c8c7d",
+      "slug": "casa-regina-montis-regalis-bastia-mondov",
+      "nome": "CASA REGINA MONTIS REGALIS",
+      "city_name": "Bastia Mondov�",
+      "indirizzo": "Piazza Carlo Emanuele, 4, 12080 Vicoforte CN",
+      "lat": 44.364335,
+      "lng": 7.862744
+    },
+    {
+      "id": "deb1ac6c-67f2-42fd-a676-69814920f303",
+      "slug": "duchessa-margherita-chateau-hotel-bastia-mondov",
+      "nome": "Duchessa Margherita Chateau & Hotel",
+      "city_name": "Bastia Mondov�",
+      "indirizzo": "Via S. Rocco, 29, 12080 Vicoforte CN",
+      "lat": 44.364378,
+      "lng": 7.863842
+    },
+    {
+      "id": "9579c729-42b4-4ec2-b700-2bc164d808ab",
+      "slug": "hotel-portici-bastia-mondov",
+      "nome": "Hotel Portici",
+      "city_name": "Bastia Mondov�",
+      "indirizzo": "Piazza Carlo Emanuele, 47, 12080 Vicoforte Santuario CN",
+      "lat": 44.362627,
+      "lng": 7.863475
+    },
+    {
+      "id": "3bef4262-5a9d-48ad-b197-74faf6532e44",
+      "slug": "hotel-ristorante-palazzo-di-mezzo-bastia-mondov",
+      "nome": "Hotel Ristorante Palazzo Di Mezzo",
+      "city_name": "Bastia Mondov�",
+      "indirizzo": "Via Garibaldi, 4, 12061 Carrù CN",
+      "lat": 44.480315,
+      "lng": 7.879381
+    },
+    {
+      "id": "0bdbd35b-14e6-4539-abb0-dec5f3e786af",
+      "slug": "i-perticali-bastia-mondov",
+      "nome": "I Perticali",
+      "city_name": "Bastia Mondov�",
+      "indirizzo": "Via Generale Uberto Revelli, 2, 12061 Carrù CN",
+      "lat": 44.480152,
+      "lng": 7.881615
+    },
+    {
+      "id": "0336a459-1b0b-4b1e-9ccb-2250deca8689",
+      "slug": "la-rocca-residence-bastia-mondov",
+      "nome": "La Rocca Residence",
+      "city_name": "Bastia Mondov�",
+      "indirizzo": "VICOLO DELLA ROCCA, 8, 12061 Carrù CN",
+      "lat": 44.47913,
+      "lng": 7.880844
+    },
+    {
+      "id": "ff5ac5c2-6d35-4afa-81b9-b847db1e82dd",
+      "slug": "le-camere-del-vascello-d-oro-bastia-mondov",
+      "nome": "Le Camere del Vascello d'Oro",
+      "city_name": "Bastia Mondov�",
+      "indirizzo": "Via Ospedale, 38, 12061 Carrù CN",
+      "lat": 44.478455,
+      "lng": 7.877435
+    },
+    {
+      "id": "850852e6-3535-46aa-9feb-e4f264fd4ae8",
+      "slug": "b-b-camere-mariella-bastia-umbra",
+      "nome": "B&B Camere Mariella",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Via Mezzo Miglio, 06083 Bastia Umbra PG",
+      "lat": 43.067399,
+      "lng": 12.568424
+    },
+    {
+      "id": "be8f6ef4-9dfd-4c40-b4c5-c482454b2f32",
+      "slug": "camere-i-monelli-bastia-umbra",
+      "nome": "Camere I Monelli",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Via Campiglione, 23, 06181 Assisi PG",
+      "lat": 43.075655,
+      "lng": 12.582811
+    },
+    {
+      "id": "3d9a7fb7-08ed-49ce-9f09-0e61fcce88f8",
+      "slug": "camere-la-basilica-bastia-umbra",
+      "nome": "Camere la Basilica",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Viale Patrono d'Italia, 17, 06181 Assisi PG",
+      "lat": 43.059552,
+      "lng": 12.581685
+    },
+    {
+      "id": "6eedd982-875c-4acf-84d2-298191442638",
+      "slug": "favorita-food-wine-resort-bastia-umbra",
+      "nome": "Favorita Food&Wine Resort",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Via A. Costa, 18/20, 06083 Bastia Umbra PG",
+      "lat": 43.082203,
+      "lng": 12.532895
+    },
+    {
+      "id": "236e96a5-4fc7-4a20-a320-fb84fbdc7ea5",
+      "slug": "green-village-assisi-hotel-camping-e-area-di-sos-bastia-umbra",
+      "nome": "Green Village Assisi - Hotel & Camping e Area di Sosta",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Via Campiglione, 110, 06181 Assisi PG",
+      "lat": 43.076081,
+      "lng": 12.574369
+    },
+    {
+      "id": "bc2ef752-c2ce-4993-be19-cceac164904f",
+      "slug": "hotel-campiglione-bastia-umbra",
+      "nome": "Hotel Campiglione",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Via Campiglione, 11/2, 06081 Assisi PG",
+      "lat": 43.07579,
+      "lng": 12.56162
+    },
+    {
+      "id": "fdafe768-7553-4948-8d95-7322ef5b3068",
+      "slug": "hotel-cristallo-assisi-bastia-umbra",
+      "nome": "Hotel Cristallo Assisi",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Via Los Angeles, 195, 06083 Assisi PG",
+      "lat": 43.063257,
+      "lng": 12.564607
+    },
+    {
+      "id": "c21e0148-ac3e-45c1-ae0b-8273f811e3ff",
+      "slug": "hotel-il-cammino-di-francesco-bastia-umbra",
+      "nome": "Hotel Il Cammino di Francesco",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Via Rodolfo Morandi, 2/4, 06083 Ospedalicchio PG",
+      "lat": 43.079599,
+      "lng": 12.501109
+    },
+    {
+      "id": "9a21b1db-46a6-4fde-b3b2-8de6994310a5",
+      "slug": "hotel-mom-fraz-s-m-degli-angeli-bastia-umbra",
+      "nome": "Hotel Mom - Fraz.S.M.degli Angeli",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "P.za Dante Alighieri, 3, 06181 Santa Maria degli Angeli PG",
+      "lat": 43.05962,
+      "lng": 12.585678
+    },
+    {
+      "id": "09b7ac78-abb9-4146-8d91-57fd4521ab00",
+      "slug": "hotel-porta-nuova-bastia-umbra",
+      "nome": "Hotel Porta Nuova",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Via, Viale Umberto I, 21, 06181 Assisi PG",
+      "lat": 43.066459,
+      "lng": 12.620972
+    },
+    {
+      "id": "b0f79d95-ca1b-4588-b277-daa18589f9ee",
+      "slug": "hotel-santa-lucia-bastia-umbra",
+      "nome": "Hotel Santa Lucia",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Via Ticino, 10, 06083 Bastia Umbra PG",
+      "lat": 43.067897,
+      "lng": 12.535231
+    },
+    {
+      "id": "0645f68e-aea5-4a91-a0c1-fd899800d153",
+      "slug": "hotel-turim-bastia-umbra",
+      "nome": "Hotel Turim",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Via Campiglione, 3, 06083 Bastia Umbra PG",
+      "lat": 43.076067,
+      "lng": 12.560173
+    },
+    {
+      "id": "a34f28e7-f28a-45ae-aec0-142f03d65198",
+      "slug": "hotel-umbra-bastia-umbra",
+      "nome": "Hotel Umbra",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Vicolo degli Archi, 6, 06181 Assisi PG",
+      "lat": 43.07107,
+      "lng": 12.61433
+    },
+    {
+      "id": "b0a48b54-7c7c-48ed-8a03-eeedbcc2ee72",
+      "slug": "il-casale-della-fornace-bastia-umbra",
+      "nome": "Il Casale della Fornace",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Via Enrico Mattei, 4/6, 06083 Bastia Umbra PG",
+      "lat": 43.078479,
+      "lng": 12.544221
+    },
+    {
+      "id": "280414ed-3660-4e2e-9a16-b8027a9a5127",
+      "slug": "le-camere-di-aisa-bastia-umbra",
+      "nome": "Le camere di Aisa",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Via S. Pio X, 10, 06181 Santa Maria degli Angeli PG",
+      "lat": 43.053978,
+      "lng": 12.578146
+    },
+    {
+      "id": "91a7c01a-06fb-4fcf-9c1d-a33d3baa7c40",
+      "slug": "mira-assisi-bastia-umbra",
+      "nome": "MiRa Assisi",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Via della Libertà, 66, 06083 Bastia Umbra PG",
+      "lat": 43.074865,
+      "lng": 12.562013
+    },
+    {
+      "id": "124d413d-9188-4303-8705-2e00917d641a",
+      "slug": "p-p-assisi-camere-bastia-umbra",
+      "nome": "P&P Assisi Camere",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Via Fosse Ardeatine, 26, 06083 Bastia Umbra PG",
+      "lat": 43.077352,
+      "lng": 12.545705
+    },
+    {
+      "id": "a6834742-41ba-45d4-9bd4-268065ba0b33",
+      "slug": "trattoria-santucci-bastia-umbra",
+      "nome": "Trattoria Santucci",
+      "city_name": "Bastia Umbra",
+      "indirizzo": "Viale Patrono d'Italia, 40, 06181 Santa Maria degli Angeli PG",
+      "lat": 43.059813,
+      "lng": 12.582569
+    },
+    {
+      "id": "55945da2-0817-42de-be23-17caec870732",
+      "slug": "agriturismo-casa-pelizza-bastida-pancarana",
+      "nome": "Agriturismo Casa Pelizza",
+      "city_name": "Bastida Pancarana",
+      "indirizzo": "Via Carona, 16, 27050 Bastida Pancarana PV",
+      "lat": 45.086227,
+      "lng": 9.083548
+    }
+  ]
+}

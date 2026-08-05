@@ -1,0 +1,323 @@
+{
+  "block": 205,
+  "blockId": "205",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "a1b87335-928e-4a14-952b-38e3193565f3",
+      "slug": "via-mameli-5-inn-bajardo",
+      "nome": "Via Mameli 5 Inn",
+      "city_name": "Bajardo",
+      "indirizzo": "Via Goffredo Mameli, 5, 18038 Sanremo IM",
+      "lat": 43.818015,
+      "lng": 7.776872
+    },
+    {
+      "id": "56a3280a-1a2f-4ff6-99f0-a468c4c8c3b2",
+      "slug": "via-palazzo-66-sanremo-inn-guesthouse-bajardo",
+      "nome": "Via Palazzo 66 Sanremo Inn GuestHouse",
+      "city_name": "Bajardo",
+      "indirizzo": "Via Palazzo, 66, 18038 Sanremo IM",
+      "lat": 43.817906,
+      "lng": 7.776463
+    },
+    {
+      "id": "4bc8b9e5-3c87-4dd0-80c7-9f8dbf589c40",
+      "slug": "agriturismo-brusalino-balangero",
+      "nome": "Agriturismo Brusalino",
+      "city_name": "Balangero",
+      "indirizzo": "località brusalino, 43/a, 12056 Mango CN",
+      "lat": 44.705137,
+      "lng": 8.147168
+    },
+    {
+      "id": "204c46c1-9a77-45d0-9e2f-283d660653c1",
+      "slug": "agriturismo-carlincarlota-ss-di-voghera-roberta-balangero",
+      "nome": "Agriturismo Carlincarlota Ss Di Voghera Roberta & C.",
+      "city_name": "Balangero",
+      "indirizzo": "via Borio, 6, 12052 Neive CN",
+      "lat": 44.712859,
+      "lng": 8.099909
+    },
+    {
+      "id": "0e99a319-5d91-4100-a7ca-d92c279744b0",
+      "slug": "agriturismo-cascina-ponchietta-balangero",
+      "nome": "Agriturismo Cascina Ponchietta",
+      "city_name": "Balangero",
+      "indirizzo": "Casali Ponchietta, Frazione S. Vito, 17, 12046 Montà CN",
+      "lat": 44.830943,
+      "lng": 7.940969
+    },
+    {
+      "id": "5e30e2f2-5e5d-478b-abb8-03834d9eadfb",
+      "slug": "agriturismo-cascina-vignole-balangero",
+      "nome": "Agriturismo Cascina Vignole",
+      "city_name": "Balangero",
+      "indirizzo": "Via Vignole, 2, 14014 Montafia AT",
+      "lat": 44.965828,
+      "lng": 8.006528
+    },
+    {
+      "id": "8e2d18fe-efde-49c5-af15-de3b0fedc770",
+      "slug": "agriturismo-fiorendo-balangero",
+      "nome": "Agriturismo Fiorendo",
+      "city_name": "Balangero",
+      "indirizzo": "Via Talucco Alto, 65, 10064 Pinerolo TO",
+      "lat": 44.96117,
+      "lng": 7.290168
+    },
+    {
+      "id": "694b3f48-3a1b-4f45-a590-35e06b262689",
+      "slug": "agriturismo-l-arbo-balangero",
+      "nome": "Agriturismo l'Arbo",
+      "city_name": "Balangero",
+      "indirizzo": "Via Bernardino Ferrari, 13816 Sagliano Micca BI",
+      "lat": 45.638883,
+      "lng": 8.04102
+    },
+    {
+      "id": "926eca9f-ba21-4613-b380-698470be8cd1",
+      "slug": "agriturismo-la-chabranda-balangero",
+      "nome": "Agriturismo La Chabranda",
+      "city_name": "Balangero",
+      "indirizzo": "Via Long Erminio, 28, 10063 Pomaretto TO",
+      "lat": 44.952543,
+      "lng": 7.171953
+    },
+    {
+      "id": "e8f116b5-eb11-4744-bcf4-cf31b4006b8f",
+      "slug": "agriturismo-la-durinera-balangero",
+      "nome": "Agriturismo La Durinera",
+      "city_name": "Balangero",
+      "indirizzo": "Via Torino, 138, 10070 Robassomero TO",
+      "lat": 45.191958,
+      "lng": 7.569439
+    },
+    {
+      "id": "dbe47469-45b6-409d-87f2-afd718b98c9b",
+      "slug": "agriturismo-la-natura-balangero",
+      "nome": "Agriturismo La Natura",
+      "city_name": "Balangero",
+      "indirizzo": "Via Benne dei Murisenghi, 8, 10060 Scalenghe TO",
+      "lat": 44.894149,
+      "lng": 7.42205
+    },
+    {
+      "id": "d9106b03-5c94-42e8-9568-192bf1281b58",
+      "slug": "agriturismo-la-virginia-balangero",
+      "nome": "Agriturismo la Virginia",
+      "city_name": "Balangero",
+      "indirizzo": "Via Valle Po, 70 Frazione Morra San Martino, 12036 Revello CN",
+      "lat": 44.640926,
+      "lng": 7.365255
+    },
+    {
+      "id": "4eed5622-9495-4b9e-8532-992fff7e4948",
+      "slug": "agriturismo-nelle-langhe-il-gelso-appartamenti-n-balangero",
+      "nome": "Agriturismo nelle Langhe - Il Gelso - appartamenti nella Valle del Barolo",
+      "city_name": "Balangero",
+      "indirizzo": "Borgata Croera, 34, 12064 La Morra CN",
+      "lat": 44.629079,
+      "lng": 7.932634
+    },
+    {
+      "id": "5109f4d5-d345-4d39-ab6e-35777c6eaf87",
+      "slug": "azienda-agrituristica-sa-mandra-balangero",
+      "nome": "Azienda Agrituristica Sa Mandra",
+      "city_name": "Balangero",
+      "indirizzo": "Strada Provinciale 44, 1, 07041 Alghero SS",
+      "lat": 40.653558,
+      "lng": 8.297499
+    },
+    {
+      "id": "97e90631-0638-4582-abb0-8ca4ba4e7aec",
+      "slug": "cascina-tre-tigli-balangero",
+      "nome": "Cascina Tre Tigli",
+      "city_name": "Balangero",
+      "indirizzo": "Frazione Montegrosso, 120, 14010 Asti AT",
+      "lat": 44.941898,
+      "lng": 8.104219
+    },
+    {
+      "id": "ae3ca402-642b-43ae-b981-84fe153f26b1",
+      "slug": "hotel-corona-grossa-balangero",
+      "nome": "Hotel Corona Grossa",
+      "city_name": "Balangero",
+      "indirizzo": "Stradale Lanzo, 2, 10070 Balangero TO",
+      "lat": 45.266667,
+      "lng": 7.519444
+    },
+    {
+      "id": "b45d2e39-ccc9-4683-8a6e-5e9e35173f9e",
+      "slug": "cascina-bambi-baldichieri-d-asti",
+      "nome": "CASCINA BAMBI",
+      "city_name": "Baldichieri d'Asti",
+      "indirizzo": "Via Castellero, 34, 14011 Baldichieri d'Asti AT",
+      "lat": 44.906249,
+      "lng": 8.085655
+    },
+    {
+      "id": "eccdb513-9f87-488d-90fe-ee95701e74c4",
+      "slug": "cascina-lane-baldichieri-d-asti",
+      "nome": "Cascina Lanè",
+      "city_name": "Baldichieri d'Asti",
+      "indirizzo": "Via Nazionale, 120, 14011 Baldichieri d'Asti AT",
+      "lat": 44.899077,
+      "lng": 8.109505
+    },
+    {
+      "id": "4a26b8d0-ff77-43b0-96d9-933554609d24",
+      "slug": "madama-vigna-baldichieri-d-asti",
+      "nome": "Madama Vigna",
+      "city_name": "Baldichieri d'Asti",
+      "indirizzo": "Via Nazionale, 41, 14011 Baldichieri d'Asti AT",
+      "lat": 44.903316,
+      "lng": 8.090889
+    },
+    {
+      "id": "2e157724-ed42-40d9-8a99-02671b2addce",
+      "slug": "bed-and-breakfast-castello-di-strambinello-baldissero-canavese",
+      "nome": "Bed and Breakfast Castello di Strambinello",
+      "city_name": "Baldissero Canavese",
+      "indirizzo": "Via Castello, 1, 10010 Strambinello TO",
+      "lat": 45.419967,
+      "lng": 7.772604
+    },
+    {
+      "id": "e40f4047-96fd-4a57-bdb1-90a2a1e3598c",
+      "slug": "casarosada-wellness-healing-retreat-baldissero-canavese",
+      "nome": "CasaRosada Wellness-Healing Retreat",
+      "city_name": "Baldissero Canavese",
+      "indirizzo": "Via Camillo Benso Conte di Cavour, 5, 10080 Vidracco TO",
+      "lat": 45.430958,
+      "lng": 7.757333
+    },
+    {
+      "id": "018a65e3-164a-4d64-a2d6-3f9400baf708",
+      "slug": "cascina-montiglio-baldissero-canavese",
+      "nome": "Cascina Montiglio",
+      "city_name": "Baldissero Canavese",
+      "indirizzo": "Regione Montiglio, 10010 Quagliuzzo TO",
+      "lat": 45.426385,
+      "lng": 7.775806
+    },
+    {
+      "id": "367d1e56-1771-409f-a5db-0188cbe4b879",
+      "slug": "hotel-rivarolo-baldissero-canavese",
+      "nome": "Hotel Rivarolo",
+      "city_name": "Baldissero Canavese",
+      "indirizzo": "C.so Indipendenza, 76, 10086 Rivarolo Canavese TO",
+      "lat": 45.336884,
+      "lng": 7.719872
+    },
+    {
+      "id": "cee411e5-962e-4835-82f6-bb277b1d3cc3",
+      "slug": "sina-villa-matilde-baldissero-canavese",
+      "nome": "Sina Villa Matilde",
+      "city_name": "Baldissero Canavese",
+      "indirizzo": "Viale Marconi, 29, 10090 Romano Canavese TO",
+      "lat": 45.386229,
+      "lng": 7.869403
+    },
+    {
+      "id": "86bf1021-a8db-47d8-b83d-1c288a530d81",
+      "slug": "villa-soleil-hotel-ivrea-baldissero-canavese",
+      "nome": "Villa Soleil | Hotel Ivrea",
+      "city_name": "Baldissero Canavese",
+      "indirizzo": "Via della Cartiera, 13, 10010 Colleretto Giacosa TO",
+      "lat": 45.429684,
+      "lng": 7.797949
+    },
+    {
+      "id": "5040ed3f-9218-4aac-99f1-1f08d5180943",
+      "slug": "agriturismo-da-mamma-baldissero-d-alba",
+      "nome": "Agriturismo da Mamma",
+      "city_name": "Baldissero d'Alba",
+      "indirizzo": "Strada Scaparoni, 4, 12051 Alba CN",
+      "lat": 44.717014,
+      "lng": 7.988849
+    },
+    {
+      "id": "10c62bab-8412-431d-8cc1-73348f1d3f3d",
+      "slug": "albergo-dell-agenzia-baldissero-d-alba",
+      "nome": "Albergo dell'Agenzia",
+      "city_name": "Baldissero d'Alba",
+      "indirizzo": "Via Fossano, 21, 12042 Pollenzo CN",
+      "lat": 44.681662,
+      "lng": 7.893743
+    },
+    {
+      "id": "f85f1e67-b932-4738-aab0-31dbb90e2145",
+      "slug": "alisea-eco-residence-baldissero-d-alba",
+      "nome": "AliseA Eco Residence",
+      "city_name": "Baldissero d'Alba",
+      "indirizzo": "Strada della Colla, 2, 12060 Pocapaglia CN",
+      "lat": 44.716438,
+      "lng": 7.886321
+    },
+    {
+      "id": "7936b2c5-5de8-4345-9566-295933161ed3",
+      "slug": "az-agr-demarie-giovanni-di-demarie-aldo-baldissero-d-alba",
+      "nome": "Az. Agr. DEMARIE Giovanni di Demarie Aldo",
+      "city_name": "Baldissero d'Alba",
+      "indirizzo": "Via Castellinaldo, 16, 12040 Vezza d'Alba CN",
+      "lat": 44.76461,
+      "lng": 8.019406
+    },
+    {
+      "id": "43244815-94df-4f63-8769-6a4130c041f5",
+      "slug": "casa-a-pollenzo-baldissero-d-alba",
+      "nome": "Casa a Pollenzo",
+      "city_name": "Baldissero d'Alba",
+      "indirizzo": "Strada Crociera Burdina, 5, 12060 Pollenzo CN",
+      "lat": 44.687886,
+      "lng": 7.898982
+    },
+    {
+      "id": "a2adf666-3d78-4c63-b346-38acd35d5ce5",
+      "slug": "casa-clara-baldissero-d-alba",
+      "nome": "Casa Clara",
+      "city_name": "Baldissero d'Alba",
+      "indirizzo": "Località Roreto, 7, 12040 Monteu Roero CN",
+      "lat": 44.773616,
+      "lng": 7.931608
+    },
+    {
+      "id": "3341ae92-01c3-4c26-82ec-e3b32e67344e",
+      "slug": "casa-degli-orti-baldissero-d-alba",
+      "nome": "Casa degli Orti",
+      "city_name": "Baldissero d'Alba",
+      "indirizzo": "Strada Orti, 22 L, 12042 Bra CN",
+      "lat": 44.688664,
+      "lng": 7.87975
+    },
+    {
+      "id": "ec180e99-c1ef-4b4d-ae9b-44c417d7e898",
+      "slug": "di-vin-roero-baldissero-d-alba",
+      "nome": "Di Vin Roero",
+      "city_name": "Baldissero d'Alba",
+      "indirizzo": "Piazza S. Bernardo, 11, 12040 Vezza d'Alba CN",
+      "lat": 44.764183,
+      "lng": 7.995677
+    },
+    {
+      "id": "c0567d3b-49e9-41ff-b1cf-3359fefbd6d2",
+      "slug": "hotel-albergo-borgo-san-martino-baldissero-d-alba",
+      "nome": "Hotel Albergo Borgo San Martino",
+      "city_name": "Baldissero d'Alba",
+      "indirizzo": "Str. Borgo S. Martino, 7, 12060 Macellai CN",
+      "lat": 44.697748,
+      "lng": 7.885907
+    },
+    {
+      "id": "198cc8c0-8128-46a0-91bc-de71ad6b1620",
+      "slug": "hotel-giardini-baldissero-d-alba",
+      "nome": "Hotel Giardini",
+      "city_name": "Baldissero d'Alba",
+      "indirizzo": "P.za XX Settembre, 28, 12042 Bra CN",
+      "lat": 44.695147,
+      "lng": 7.857666
+    }
+  ]
+}

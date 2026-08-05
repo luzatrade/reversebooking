@@ -1,0 +1,323 @@
+{
+  "block": 393,
+  "blockId": "393",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "1c41cce2-4fcf-4860-aa73-f0b1b3fc0c7f",
+      "slug": "albergo-ristorante-campanile-azzurro-campodoro",
+      "nome": "Albergo Ristorante Campanile Azzurro",
+      "city_name": "Campodoro",
+      "indirizzo": "Via Ronchi, 24, 35010 Ronchi di Campanile PD",
+      "lat": 45.463863,
+      "lng": 11.779938
+    },
+    {
+      "id": "c809b135-dad9-4a6f-87c5-5fb34592181c",
+      "slug": "b-b-el-criveo-campodoro",
+      "nome": "B&B El Criveo",
+      "city_name": "Campodoro",
+      "indirizzo": "Via Tolleo, 32, 35016 Piazzola sul Brenta PD",
+      "lat": 45.507734,
+      "lng": 11.792273
+    },
+    {
+      "id": "c45adb1b-5db6-4001-bec7-9b4c327dc310",
+      "slug": "colombara-farmhouse-campodoro",
+      "nome": "Colombara Farmhouse",
+      "city_name": "Campodoro",
+      "indirizzo": "Via S. Giovanni Battista, 29, 35035 Mestrino PD",
+      "lat": 45.458889,
+      "lng": 11.7375
+    },
+    {
+      "id": "2f0a7f68-39a5-49ca-9932-ea0c3600ddc5",
+      "slug": "hotel-marco-effe-campodoro",
+      "nome": "Hotel Marco Effe",
+      "city_name": "Campodoro",
+      "indirizzo": "Via Marco Polo, 63, 35035 Mestrino PD",
+      "lat": 45.437274,
+      "lng": 11.766676
+    },
+    {
+      "id": "b14b6ce9-17c9-48d1-85d5-2f0c190c47a3",
+      "slug": "hotel-pex-padova-campodoro",
+      "nome": "Hotel Pex Padova",
+      "city_name": "Campodoro",
+      "indirizzo": "Via della Provvidenza, 31, 35030 Sarmeola PD",
+      "lat": 45.419419,
+      "lng": 11.819707
+    },
+    {
+      "id": "c9e001a0-9479-4eb1-bf4e-2725a76d2718",
+      "slug": "laghetto-ca-brusa-campodoro",
+      "nome": "Laghetto Ca' Brusà",
+      "city_name": "Campodoro",
+      "indirizzo": "Via Vanzo Vecchio, 47A, 36043 Camisano Vicentino VI",
+      "lat": 45.496955,
+      "lng": 11.728401
+    },
+    {
+      "id": "44e3a592-10d6-40fb-8a0f-29b31533b55f",
+      "slug": "acacia-resort-campofelice-di-roccella",
+      "nome": "Acacia Resort",
+      "city_name": "Campofelice di Roccella",
+      "indirizzo": "Via Imera, 6, 90010 Campofelice di Roccella PA",
+      "lat": 37.982298,
+      "lng": 13.840803
+    },
+    {
+      "id": "5f82dd29-2198-4692-8635-161cef1f2b33",
+      "slug": "agriturismo-le-campanelle-campofelice-di-roccella",
+      "nome": "Agriturismo Le Campanelle",
+      "city_name": "Campofelice di Roccella",
+      "indirizzo": "Contrada, Via Olivazza, 90010 Lascari PA",
+      "lat": 37.986004,
+      "lng": 13.931007
+    },
+    {
+      "id": "3f34ef34-2321-4a51-9b10-672183d2f978",
+      "slug": "campeggio-praia-mare-campofelice-di-roccella",
+      "nome": "Campeggio Praia Mare",
+      "city_name": "Campofelice di Roccella",
+      "indirizzo": "Via Madonnina Di Gibilmanna, 91, 90010 Piana Calzata PA",
+      "lat": 38.009741,
+      "lng": 13.912461
+    },
+    {
+      "id": "150edcbe-a36e-42b7-9bdd-1ba0e623ae6e",
+      "slug": "campofelice-di-roccella-campofelice-di-roccella",
+      "nome": "campofelice di roccella",
+      "city_name": "Campofelice di Roccella",
+      "indirizzo": "90010 Campofelice di Roccella PA",
+      "lat": 37.992084,
+      "lng": 13.886327
+    },
+    {
+      "id": "44b6d932-7a67-4299-bbe7-9985eb82983f",
+      "slug": "carlton-hotel-riviera-cefalu-campofelice-di-roccella",
+      "nome": "Carlton Hotel Riviera - Cefalù",
+      "city_name": "Campofelice di Roccella",
+      "indirizzo": "Contrada Capo Plaia, snc, 90015 Cefalù PA",
+      "lat": 38.030449,
+      "lng": 13.94974
+    },
+    {
+      "id": "ec95e88a-526d-407a-bbc4-a34423ddacb4",
+      "slug": "casa-vacanze-sosta-dei-garibaldini-campofelice-di-roccella",
+      "nome": "Casa Vacanze Sosta dei Garibaldini",
+      "city_name": "Campofelice di Roccella",
+      "indirizzo": "Via Roma, 21, 90010 Campofelice di Roccella PA",
+      "lat": 37.991827,
+      "lng": 13.88727
+    },
+    {
+      "id": "7abb8aa6-9746-478a-9f47-aee5971c6d05",
+      "slug": "grand-palladium-sicilia-resort-spa-all-inclusive-campofelice-di-roccella",
+      "nome": "Grand Palladium Sicilia Resort & Spa - All Inclusive",
+      "city_name": "Campofelice di Roccella",
+      "indirizzo": "Viale Himera, 7, 90010 Campofelice di Roccella PA",
+      "lat": 37.982131,
+      "lng": 13.839164
+    },
+    {
+      "id": "a4ab4ddf-c85b-4a1a-82bb-086aa3223926",
+      "slug": "hotel-costa-verde-campofelice-di-roccella",
+      "nome": "Hotel Costa Verde",
+      "city_name": "Campofelice di Roccella",
+      "indirizzo": "Via dell'Imprenditoria, 90015 Cefalù PA",
+      "lat": 38.021159,
+      "lng": 13.950815
+    },
+    {
+      "id": "4fb94d13-3392-4afb-ab07-c538c9fad3e6",
+      "slug": "hotel-dolcestate-campofelice-di-roccella",
+      "nome": "Hotel Dolcestate",
+      "city_name": "Campofelice di Roccella",
+      "indirizzo": "Contrada Pistavecchia, 90010 Campofelice di Roccella PA",
+      "lat": 37.981474,
+      "lng": 13.842582
+    },
+    {
+      "id": "f71477d1-45f0-4aa4-9c68-fb55fda4a744",
+      "slug": "i-mori-holiday-rooms-campofelice-di-roccella",
+      "nome": "I Mori Holiday Rooms",
+      "city_name": "Campofelice di Roccella",
+      "indirizzo": "Via Giuseppe Mazzini, 22, 90010 Lascari PA",
+      "lat": 38.000767,
+      "lng": 13.939828
+    },
+    {
+      "id": "f1ebaec7-8c34-4cb6-ae06-0c4a8cff576a",
+      "slug": "le-dune-bed-breakfast-lascari-campofelice-di-roccella",
+      "nome": "Le Dune Bed & Breakfast Lascari",
+      "city_name": "Campofelice di Roccella",
+      "indirizzo": "via del mare, C.da Salinelle, 15, 90010 Lascari PA",
+      "lat": 38.020538,
+      "lng": 13.93499
+    },
+    {
+      "id": "e4f8c349-42c7-457c-bc18-0b2302237f9e",
+      "slug": "limen-wellness-hotel-campofelice-di-roccella",
+      "nome": "Limen Wellness Hotel",
+      "city_name": "Campofelice di Roccella",
+      "indirizzo": "Contrada Pistavecchia, snc, 90010 Campofelice di Roccella PA",
+      "lat": 37.984631,
+      "lng": 13.85521
+    },
+    {
+      "id": "50ef1b1a-eb88-41ca-896e-f2ef7b61b22a",
+      "slug": "mangia-s-himera-resort-campofelice-di-roccella",
+      "nome": "Mangia's Himera Resort",
+      "city_name": "Campofelice di Roccella",
+      "indirizzo": "Viale Delle Tribune, 90010 Campofelice di Roccella PA",
+      "lat": 37.985218,
+      "lng": 13.849455
+    },
+    {
+      "id": "5f691db6-52b8-4240-a197-dc5ce3d695cc",
+      "slug": "palmar-boutique-hotel-campofelice-di-roccella",
+      "nome": "PALMAR boutique hotel",
+      "city_name": "Campofelice di Roccella",
+      "indirizzo": "Lungomare del Mediterraneo, 39, 90010 Solfarelli PA",
+      "lat": 37.996466,
+      "lng": 13.877531
+    },
+    {
+      "id": "669df59b-90f0-44fe-b3b4-27768022f941",
+      "slug": "regina-stella-b-b-lascari-campofelice-di-roccella",
+      "nome": "Regina Stella B&B Lascari",
+      "city_name": "Campofelice di Roccella",
+      "indirizzo": "Via Libertà, 10, 90010 Lascari PA",
+      "lat": 38.000593,
+      "lng": 13.940477
+    },
+    {
+      "id": "161a5e74-ed94-429a-bf71-5ce07f0d366a",
+      "slug": "residence-privato-imperia-resort-campofelice-di-roccella",
+      "nome": "Residence Privato Imperia Resort",
+      "city_name": "Campofelice di Roccella",
+      "indirizzo": "Contrada Pistavecchia, 90010 Campofelice di Roccella PA",
+      "lat": 37.980865,
+      "lng": 13.847166
+    },
+    {
+      "id": "3ed618e8-20a6-4625-8906-25430045fe7f",
+      "slug": "agriturismo-mare-in-campagna-campofilone",
+      "nome": "Agriturismo mare in Campagna",
+      "city_name": "Campofilone",
+      "indirizzo": "Contrada Marina, 54, 63861 Campofilone FM",
+      "lat": 43.073957,
+      "lng": 13.846268
+    },
+    {
+      "id": "94bb34fb-b602-46c6-8b93-3c17bab2e442",
+      "slug": "agriturismo-vecchia-monta-campofilone",
+      "nome": "Agriturismo Vecchia Monta",
+      "city_name": "Campofilone",
+      "indirizzo": "Contrada Montecamauro, 36, 63861 Campofilone FM",
+      "lat": 43.073522,
+      "lng": 13.814753
+    },
+    {
+      "id": "913474ac-15ad-46ba-92b8-bde81a00483d",
+      "slug": "b-b-da-fioro-campofilone",
+      "nome": "B&B Da Fiorò",
+      "city_name": "Campofilone",
+      "indirizzo": "Contrada Piana Santi, 86, 63061 Massignano AP",
+      "lat": 43.037807,
+      "lng": 13.831815
+    },
+    {
+      "id": "8738c920-9bab-4ecf-b19f-0d80752aeaba",
+      "slug": "b-b-da-zare-campofilone",
+      "nome": "B&B DA ZARE'",
+      "city_name": "Campofilone",
+      "indirizzo": "Contrada Marina, 54, 63861 Campofilone FM",
+      "lat": 43.074035,
+      "lng": 13.84621
+    },
+    {
+      "id": "11eb7ebd-4eff-4ebd-b191-dd841652cd17",
+      "slug": "b-b-dal-capo-campofilone",
+      "nome": "B&B Dal Capo",
+      "city_name": "Campofilone",
+      "indirizzo": "Contrada Marina, 3, 63861 Campofilone FM",
+      "lat": 43.076736,
+      "lng": 13.838577
+    },
+    {
+      "id": "722f8001-06f0-40ea-9a3a-138788fca78d",
+      "slug": "b-b-land-sea-campofilone",
+      "nome": "B&B Land & Sea",
+      "city_name": "Campofilone",
+      "indirizzo": "Contrada Marina, 14, 63861 Campofilone FM",
+      "lat": 43.076116,
+      "lng": 13.821196
+    },
+    {
+      "id": "29485f5a-01c1-48ee-b321-5eee0027e63e",
+      "slug": "b-b-villa-eugenia-campofilone",
+      "nome": "B&B Villa Eugenia",
+      "city_name": "Campofilone",
+      "indirizzo": "Contrada Marina, 51, 63861 Campofilone FM",
+      "lat": 43.075618,
+      "lng": 13.845907
+    },
+    {
+      "id": "8cfc7a6f-24c8-4067-b68f-d975ad38f247",
+      "slug": "bnb-la-casina-dei-nonni-campofilone",
+      "nome": "BnB La Casina dei Nonni",
+      "city_name": "Campofilone",
+      "indirizzo": "Via Trento, 17, 63861 Campofilone FM",
+      "lat": 43.078997,
+      "lng": 13.815175
+    },
+    {
+      "id": "2cd875f7-5cff-45b9-a13c-63637b281daa",
+      "slug": "camping-village-fontana-marina-campofilone",
+      "nome": "Camping Village Fontana Marina",
+      "city_name": "Campofilone",
+      "indirizzo": "Località Tre Camini, SS16, 63861 Campofilone FM",
+      "lat": 43.078041,
+      "lng": 13.846341
+    },
+    {
+      "id": "68a4e1d4-23a1-4897-ba00-a9a7737715a0",
+      "slug": "cumana-blu-residence-campofilone",
+      "nome": "Cumana Blu Residence",
+      "city_name": "Campofilone",
+      "indirizzo": "Contrada Marina, 27, 63861 Campofilone FM",
+      "lat": 43.077516,
+      "lng": 13.831689
+    },
+    {
+      "id": "eef6f9ec-ce76-4d4a-a0ea-8db6b6a1be2a",
+      "slug": "gaeleon-b-b-campofilone-campofilone",
+      "nome": "GaeLeon B&B Campofilone",
+      "city_name": "Campofilone",
+      "indirizzo": "Unnamed Road, 63828 Campofilone FM Unnamed Road, 63828, 63861 Campofilone FM",
+      "lat": 43.066368,
+      "lng": 13.804626
+    },
+    {
+      "id": "72c27906-50f4-45da-b81c-5eb7b4c6df05",
+      "slug": "hotel-cormorano-campofilone",
+      "nome": "Hotel Cormorano",
+      "city_name": "Campofilone",
+      "indirizzo": "Via Giacomo Matteotti, 26, 63827 Pedaso FM",
+      "lat": 43.097696,
+      "lng": 13.842542
+    },
+    {
+      "id": "789f14f6-d44a-4a2e-8337-184d6a46c5c3",
+      "slug": "il-girasole-campofilone",
+      "nome": "Il Girasole",
+      "city_name": "Campofilone",
+      "indirizzo": "Contrada S. Pietro, 38, 63061 Massignano AP",
+      "lat": 43.039249,
+      "lng": 13.805436
+    }
+  ]
+}

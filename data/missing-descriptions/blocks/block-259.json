@@ -1,0 +1,323 @@
+{
+  "block": 259,
+  "blockId": "259",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "e6bcd008-57bc-40dc-8451-cac9caa82ae5",
+      "slug": "hotel-nikolai-residence-berlin",
+      "nome": "Hotel Nikolai Residence",
+      "city_name": "Berlin",
+      "indirizzo": "Am Nußbaum 5, 10178 Berlin",
+      "lat": 52.51725,
+      "lng": 13.4065
+    },
+    {
+      "id": "e9e20439-0943-4813-a612-aa183cd0450f",
+      "slug": "maritim-proarte-hotel-berlin-berlin",
+      "nome": "Maritim proArte Hotel Berlin",
+      "city_name": "Berlin",
+      "indirizzo": "Friedrichstraße 151 Dorotheenstraße 65 (Navigationsadresse, 10117 Berlin",
+      "lat": 52.518341,
+      "lng": 13.387289
+    },
+    {
+      "id": "e5d13650-99fe-4604-bd0d-a4ea90bb8202",
+      "slug": "melia-berlin-berlin",
+      "nome": "Meliá Berlin",
+      "city_name": "Berlin",
+      "indirizzo": "Friedrichstraße 103, 10117 Berlin",
+      "lat": 52.521495,
+      "lng": 13.388525
+    },
+    {
+      "id": "47466c6e-839f-48c2-a3da-54419aec15c2",
+      "slug": "monbijou-hotel-berlin",
+      "nome": "Monbijou Hotel",
+      "city_name": "Berlin",
+      "indirizzo": "Monbijou Hotel, Monbijoupl. 1, 10178 Berlin",
+      "lat": 52.522996,
+      "lng": 13.399995
+    },
+    {
+      "id": "a836cbfa-5511-4bce-88e0-7d36a90c2103",
+      "slug": "steigenberger-hotel-am-kanzleramt-berlin",
+      "nome": "Steigenberger Hotel am Kanzleramt",
+      "city_name": "Berlin",
+      "indirizzo": "Ella-Trebe-Straße 5, 10557 Berlin",
+      "lat": 52.523511,
+      "lng": 13.367535
+    },
+    {
+      "id": "1e4f0e58-59c3-44cf-bbf6-8a065dcc8726",
+      "slug": "albergo-locanda-primavera-berlingo",
+      "nome": "Albergo Locanda Primavera",
+      "city_name": "Berlingo",
+      "indirizzo": "Via Brescia, 18, 25050 Rodengo Saiano BS",
+      "lat": 45.594686,
+      "lng": 10.11015
+    },
+    {
+      "id": "3f751861-0701-4edf-af6d-24d0aacce7a1",
+      "slug": "b-b-franciacorta-rodengo-saiano-berlingo",
+      "nome": "B&B Franciacorta Rodengo Saiano",
+      "city_name": "Berlingo",
+      "indirizzo": "Via Privata Stretta, 5, 25050 Rodengo Saiano BS",
+      "lat": 45.593237,
+      "lng": 10.099445
+    },
+    {
+      "id": "68c52186-5a25-4a1c-a623-28f762e6d76c",
+      "slug": "b-b-il-melograno-berlingo",
+      "nome": "B&B il melograno",
+      "city_name": "Berlingo",
+      "indirizzo": "Via Guglielmo Marconi, 8C, 25030 Berlingo BS",
+      "lat": 45.50159,
+      "lng": 10.024198
+    },
+    {
+      "id": "8fbf9c95-859b-4296-9f53-7e8b01069c16",
+      "slug": "b-b-morgana-berlingo",
+      "nome": "B&B Morgana",
+      "city_name": "Berlingo",
+      "indirizzo": "17/A, Via Campagna, 25030 Castrezzato BS",
+      "lat": 45.504575,
+      "lng": 10.005087
+    },
+    {
+      "id": "d71f7a50-ba5d-4d1b-bdf4-124ac1735833",
+      "slug": "bed-breakfast-covidafranciacorta-berlingo",
+      "nome": "Bed & breakfast COVIDAFRANCIACORTA",
+      "city_name": "Berlingo",
+      "indirizzo": "Via Galileo Galilei, 8, 25030 Castrezzato BS",
+      "lat": 45.509911,
+      "lng": 9.98006
+    },
+    {
+      "id": "4f1d9e0b-58e2-4f49-ac91-0d5fa097d14d",
+      "slug": "casa-774-b-b-franciacorta-berlingo",
+      "nome": "Casa 774 B&B Franciacorta",
+      "city_name": "Berlingo",
+      "indirizzo": "Via Luigi Pirandello, 34, 25050 Passirano BS",
+      "lat": 45.596667,
+      "lng": 10.063377
+    },
+    {
+      "id": "72efc8c8-6f6e-46dd-8258-810ab397d7b1",
+      "slug": "foresteria-la-corte-berlingo",
+      "nome": "Foresteria La Corte",
+      "city_name": "Berlingo",
+      "indirizzo": "Via X Giornate, 22, 25030 Castrezzato BS",
+      "lat": 45.510313,
+      "lng": 9.978068
+    },
+    {
+      "id": "23b8edbf-1341-4832-a2a5-75a828bdea5d",
+      "slug": "hotel-franciacorta-3-stelle-berlingo",
+      "nome": "Hotel Franciacorta 3 STELLE",
+      "city_name": "Berlingo",
+      "indirizzo": "Via Donatori di Sangue, 10/D, 25050 Paderno Franciacorta BS",
+      "lat": 45.584607,
+      "lng": 10.08439
+    },
+    {
+      "id": "bd8858b8-ee7c-41bf-8117-f57e4ce22883",
+      "slug": "il-glicine-b-b-e-ristorante-berlingo",
+      "nome": "il Glicine B&B e RISTORANTE",
+      "city_name": "Berlingo",
+      "indirizzo": "Via Calchera, 32, 25046 Cazzago San Martino BS",
+      "lat": 45.580654,
+      "lng": 10.023904
+    },
+    {
+      "id": "ee51fe7f-d895-4638-8ac7-595b99b24903",
+      "slug": "villa-fenaroli-palace-hotel-berlingo",
+      "nome": "Villa Fenaroli Palace Hotel",
+      "city_name": "Berlingo",
+      "indirizzo": "Via Giuseppe Mazzini, 14, 25086 Rezzato BS",
+      "lat": 45.51543,
+      "lng": 10.31369
+    },
+    {
+      "id": "fba8e2d4-8ad9-4836-bb2d-acc832d4516d",
+      "slug": "villa-franca-in-franciacorta-berlingo",
+      "nome": "Villa Franca in Franciacorta",
+      "city_name": "Berlingo",
+      "indirizzo": "Via IV Novembre, 5A, 25050 Passirano BS",
+      "lat": 45.600037,
+      "lng": 10.067632
+    },
+    {
+      "id": "092379ee-4673-480d-a91d-a18c1ad9e9e2",
+      "slug": "agriturismo-casa-ricotta-bernalda",
+      "nome": "Agriturismo Casa Ricotta",
+      "city_name": "Bernalda",
+      "indirizzo": "Strada Casa Ricotta, 1, 75012 Bernalda MT",
+      "lat": 40.38542,
+      "lng": 16.799238
+    },
+    {
+      "id": "4ff3b62a-c7e8-45dd-97e4-c559c1c934ab",
+      "slug": "agriturismo-la-volpe-e-la-stella-bernalda",
+      "nome": "Agriturismo La Volpe e la Stella",
+      "city_name": "Bernalda",
+      "indirizzo": "C.da Sant'Agata, 75024 Montescaglioso MT",
+      "lat": 40.537828,
+      "lng": 16.678747
+    },
+    {
+      "id": "2e60ca0e-dbc1-4718-9e28-d58960cbc359",
+      "slug": "albergo-diffuso-il-borgo-ritrovato-bernalda",
+      "nome": "Albergo diffuso Il Borgo Ritrovato",
+      "city_name": "Bernalda",
+      "indirizzo": "Via N. Andrisani, 25, 75024 Montescaglioso MT",
+      "lat": 40.554654,
+      "lng": 16.66506
+    },
+    {
+      "id": "3ce66fc1-4a42-4dea-b21e-245f603052ba",
+      "slug": "b-b-casa-venezia-bernalda",
+      "nome": "B&B Casa Venezia",
+      "city_name": "Bernalda",
+      "indirizzo": "Via Trieste, 10, 75012 Bernalda MT",
+      "lat": 40.411704,
+      "lng": 16.689451
+    },
+    {
+      "id": "82bc812b-26be-4958-8866-b6d5c9044281",
+      "slug": "b-b-il-sogno-bernalda",
+      "nome": "B&B IL Sogno",
+      "city_name": "Bernalda",
+      "indirizzo": "Via Fiume, 37, 75024 Montescaglioso MT",
+      "lat": 40.55372,
+      "lng": 16.665056
+    },
+    {
+      "id": "e707d6dc-305a-4473-bd2f-026ec20e452e",
+      "slug": "b-b-ristorante-pizzeria-l-oasi-metaponto-matera-bernalda",
+      "nome": "B&B Ristorante Pizzeria L'Oasi Metaponto (Matera)",
+      "city_name": "Bernalda",
+      "indirizzo": "Via del Lido, 47, 75012 Lido di Metaponto MT",
+      "lat": 40.361388,
+      "lng": 16.837342
+    },
+    {
+      "id": "c2f3d6be-a850-4d83-bb82-fdbf41cee11d",
+      "slug": "b-b-soprattutto-bernalda",
+      "nome": "B&B Soprattutto",
+      "city_name": "Bernalda",
+      "indirizzo": "P.za Cirillo, 12, 75023 Montalbano Jonico MT",
+      "lat": 40.291969,
+      "lng": 16.559159
+    },
+    {
+      "id": "2f318f80-32bd-42b2-94c9-33db71f5bfec",
+      "slug": "b-b-villa-degli-angeli-bernalda",
+      "nome": "B&B VILLA DEGLI ANGELI",
+      "city_name": "Bernalda",
+      "indirizzo": "Via Madonna degli Angeli, 75012 Bernalda MT",
+      "lat": 40.419993,
+      "lng": 16.703765
+    },
+    {
+      "id": "086e2995-d331-4f3d-84f8-bfc58d12e77f",
+      "slug": "blue-iris-home-bernalda",
+      "nome": "Blue Iris Home",
+      "city_name": "Bernalda",
+      "indirizzo": "Viale delle Sirene, 55, 75012 Lido di Metaponto MT",
+      "lat": 40.357674,
+      "lng": 16.834769
+    },
+    {
+      "id": "0224642a-3681-4a0b-a754-4e7f139eaef4",
+      "slug": "borgo-san-gaetano-bernalda",
+      "nome": "Borgo San Gaetano",
+      "city_name": "Bernalda",
+      "indirizzo": "Corso Metaponto, 25, 75012 Bernalda MT",
+      "lat": 40.406868,
+      "lng": 16.687752
+    },
+    {
+      "id": "40de9d23-3ee9-4186-af33-265a8627909a",
+      "slug": "domus-dams-b-b-bernalda",
+      "nome": "Domus Dams B&B",
+      "city_name": "Bernalda",
+      "indirizzo": "Via Giambattista Gattini, 1, 75024 Montescaglioso MT",
+      "lat": 40.543272,
+      "lng": 16.669766
+    },
+    {
+      "id": "7ee7b3b6-8c08-41f9-9232-4fcf58915210",
+      "slug": "foresteria-dell-abbazia-bernalda",
+      "nome": "Foresteria dell'Abbazia",
+      "city_name": "Bernalda",
+      "indirizzo": "Piazza Cavalieri di Vittorio Veneto, 75024 Montescaglioso MT",
+      "lat": 40.558062,
+      "lng": 16.663721
+    },
+    {
+      "id": "d47d2925-25e2-4983-ade8-a63cbaa605bd",
+      "slug": "hotel-forliano-sala-ricevimenti-minerva-bernalda",
+      "nome": "Hotel Forliano - Sala Ricevimenti Minerva",
+      "city_name": "Bernalda",
+      "indirizzo": "Strada Statale Basentana, Km. 90, 100, 75012 Bernalda MT",
+      "lat": 40.402067,
+      "lng": 16.66943
+    },
+    {
+      "id": "fe7f692e-079b-46bc-9b46-a981202617f1",
+      "slug": "hotel-giardino-giamperduto-bernalda",
+      "nome": "Hotel Giardino Giamperduto",
+      "city_name": "Bernalda",
+      "indirizzo": "Via Giamperduto, 37, 75012 Bernalda MT",
+      "lat": 40.408433,
+      "lng": 16.695425
+    },
+    {
+      "id": "9bab1b7a-9558-4a44-8349-9ce4d97ff00f",
+      "slug": "hotel-palatinum-bernalda",
+      "nome": "Hotel Palatinum",
+      "city_name": "Bernalda",
+      "indirizzo": "S.da Statale 106 Jonica, 75012 Metaponto MT",
+      "lat": 40.394875,
+      "lng": 16.800648
+    },
+    {
+      "id": "a823e150-a417-4577-82b6-cbb5865c7701",
+      "slug": "hotel-sacco-bernalda",
+      "nome": "Hotel Sacco",
+      "city_name": "Bernalda",
+      "indirizzo": "Via del Lido, 7, 75012 Metaponto MT",
+      "lat": 40.359444,
+      "lng": 16.835556
+    },
+    {
+      "id": "afee353c-cbb2-4685-962a-e87e51d269ed",
+      "slug": "house-pitagorici-bernalda-bernalda",
+      "nome": "House Pitagorici Bernalda",
+      "city_name": "Bernalda",
+      "indirizzo": "Via Giuseppe Verdi, 36, 75012 Bernalda MT",
+      "lat": 40.409866,
+      "lng": 16.687094
+    },
+    {
+      "id": "1adb40c9-2269-4656-851a-bf9a8bd5f2e7",
+      "slug": "masseria-scannaturco-bernalda",
+      "nome": "Masseria Scannaturco",
+      "city_name": "Bernalda",
+      "indirizzo": "V. Demetra, 75020 Marina di Pisticci MT",
+      "lat": 40.293084,
+      "lng": 16.7687
+    },
+    {
+      "id": "76ef639b-3e10-4455-90cd-e1abb70960df",
+      "slug": "pensione-afrodite-bernalda",
+      "nome": "Pensione Afrodite",
+      "city_name": "Bernalda",
+      "indirizzo": "Viale Europa, 48, 75012 Metaponto MT",
+      "lat": 40.375,
+      "lng": 16.810488
+    }
+  ]
+}

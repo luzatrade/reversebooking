@@ -1,0 +1,323 @@
+{
+  "block": 368,
+  "blockId": "368",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "d7eb70d1-b342-45ef-b8af-1225c211e2a6",
+      "slug": "alba-bed-breakfast-melendugno-calimera",
+      "nome": "Alba Bed & Breakfast Melendugno",
+      "city_name": "Calimera",
+      "indirizzo": "SP Melendugno-Lecce, km 1.5, 73026 Melendugno LE",
+      "lat": 40.287681,
+      "lng": 18.325158
+    },
+    {
+      "id": "505b26bb-bfcd-4129-a77d-4651b0d489b9",
+      "slug": "azzurra-aparthotel-calimera",
+      "nome": "Azzurra Aparthotel",
+      "city_name": "Calimera",
+      "indirizzo": "Viale Virgilio, 94, 73021 Calimera LE",
+      "lat": 40.256182,
+      "lng": 18.282772
+    },
+    {
+      "id": "3ed55f60-0468-4857-9aec-9a9c0c31d61a",
+      "slug": "b-b-pietramare-calimera",
+      "nome": "B&B Pietramare",
+      "city_name": "Calimera",
+      "indirizzo": "Via Roma, 26, 73026 Melendugno LE",
+      "lat": 40.272476,
+      "lng": 18.336826
+    },
+    {
+      "id": "58b3c84f-af74-4c91-88ba-fbd9559ec70e",
+      "slug": "casa-calasso-b-b-calimera",
+      "nome": "Casa Calasso B&B",
+      "city_name": "Calimera",
+      "indirizzo": "Via Giorgio Castriota 136, 73021 Calimera LE",
+      "lat": 40.247483,
+      "lng": 18.275412
+    },
+    {
+      "id": "c0a3d9ea-05d1-45d6-9b71-c92fc949715f",
+      "slug": "dimora-assuntina-martano-calimera",
+      "nome": "Dimora Assuntina Martano",
+      "city_name": "Calimera",
+      "indirizzo": "Vico Stretto, 14, 73025 Martano LE",
+      "lat": 40.203196,
+      "lng": 18.304753
+    },
+    {
+      "id": "9c07bbe4-8c22-4ca9-83ff-ea211a5223b0",
+      "slug": "dimora-storica-casa-sicuro-b-b-calimera",
+      "nome": "Dimora Storica Casa Sicuro B&B",
+      "city_name": "Calimera",
+      "indirizzo": "Via Cosimo Moschettini, 3, 73025 Martano LE",
+      "lat": 40.202116,
+      "lng": 18.304674
+    },
+    {
+      "id": "86564761-9ec1-411c-9cf6-0c6d7ccdba60",
+      "slug": "il-geranio-b-b-calimera",
+      "nome": "Il Geranio B&B",
+      "city_name": "Calimera",
+      "indirizzo": "Via Santa Lucia, 23, 73020 Calimera LE",
+      "lat": 40.249381,
+      "lng": 18.279249
+    },
+    {
+      "id": "6bbc4727-4dfb-4387-8d5e-e53cf6bed499",
+      "slug": "il-giardino-dei-gelsi-calimera",
+      "nome": "Il Giardino dei Gelsi",
+      "city_name": "Calimera",
+      "indirizzo": "Via Calimera, 73010 Caprarica di Lecce LE",
+      "lat": 40.260744,
+      "lng": 18.249219
+    },
+    {
+      "id": "cec1f9f5-5c7d-4fbb-a303-75a4694983ac",
+      "slug": "l-antico-palazzo-calimera",
+      "nome": "L'antico Palazzo",
+      "city_name": "Calimera",
+      "indirizzo": "Via Sant'Anna, 5, 73029 Vernole LE",
+      "lat": 40.288583,
+      "lng": 18.304126
+    },
+    {
+      "id": "0f8d33a3-9661-43f5-a3de-37b02cb4af44",
+      "slug": "la-petrusa-b-b-calimera",
+      "nome": "La Petrusa B&B",
+      "city_name": "Calimera",
+      "indirizzo": "Strada Provinciale Vernole-Calimera, 73029 Vernole LE",
+      "lat": 40.278043,
+      "lng": 18.298742
+    },
+    {
+      "id": "e65b3d1d-8a5c-4f42-b1a5-903fa7c85340",
+      "slug": "masseria-rifisa-agriresort-calimera",
+      "nome": "Masseria Rifisa Agriresort",
+      "city_name": "Calimera",
+      "indirizzo": "Via Martiri D'Otranto, 73010 Caprarica di Lecce LE",
+      "lat": 40.258393,
+      "lng": 18.240061
+    },
+    {
+      "id": "791ed20d-a0f0-4d7f-ae51-a685c93ec587",
+      "slug": "mya-soggiorno-di-lusso-calimera",
+      "nome": "Mya - soggiorno di lusso",
+      "city_name": "Calimera",
+      "indirizzo": "Via Borgagne, 45, 73026 Melendugno LE",
+      "lat": 40.267116,
+      "lng": 18.338404
+    },
+    {
+      "id": "a91724aa-e2f3-4c5a-8026-0652ee8f87d5",
+      "slug": "ospiti-di-mimma-b-b-calimera",
+      "nome": "Ospiti di Mimma B&B",
+      "city_name": "Calimera",
+      "indirizzo": "Via Vittorio Veneto, 46, 73021 Calimera LE",
+      "lat": 40.253083,
+      "lng": 18.27593
+    },
+    {
+      "id": "7df1c144-9cfb-4d5b-8d9f-910d97c6b0a3",
+      "slug": "salento-ada-s-house-b-b-calimera",
+      "nome": "Salento Ada's House B&B",
+      "city_name": "Calimera",
+      "indirizzo": "Via Raffaello Sanzio, 10, 73026 Melendugno LE",
+      "lat": 40.270898,
+      "lng": 18.338992
+    },
+    {
+      "id": "3ec75ac9-0c9d-4c34-ac8a-20f178c33a66",
+      "slug": "sea-blue-sky-1a-calimera",
+      "nome": "Sea & Blue Sky 1A",
+      "city_name": "Calimera",
+      "indirizzo": "Via Brizio Marra, 24/int. 1A, 73021 Calimera LE",
+      "lat": 40.245449,
+      "lng": 18.273321
+    },
+    {
+      "id": "16a17747-308d-4fce-9621-3d0c9576b177",
+      "slug": "tenuta-masseria-del-gallo-calimera",
+      "nome": "Tenuta Masseria Del Gallo",
+      "city_name": "Calimera",
+      "indirizzo": "Via Europa, 162, 73021 Calimera LE",
+      "lat": 40.241311,
+      "lng": 18.286654
+    },
+    {
+      "id": "48171033-5d67-44f0-b1d0-011c41bb2c70",
+      "slug": "zia-cesaria-calimera",
+      "nome": "Zia Cesaria",
+      "city_name": "Calimera",
+      "indirizzo": "Via Costantinopoli, 56, 73021 Calimera LE",
+      "lat": 40.251348,
+      "lng": 18.277118
+    },
+    {
+      "id": "f9e78d8d-98cb-405e-9133-593ac89e8ed4",
+      "slug": "agriturismo-bellofatto-calitri",
+      "nome": "Agriturismo Bellofatto",
+      "city_name": "Calitri",
+      "indirizzo": "Contrada Pianomarotta, 18, 83057 Torella dei Lombardi AV",
+      "lat": 40.928855,
+      "lng": 15.090173
+    },
+    {
+      "id": "c9319ca4-f2f2-4c6d-b9a1-7d745f07531b",
+      "slug": "agriturismo-la-bonta-calitri",
+      "nome": "Agriturismo La Bontà",
+      "city_name": "Calitri",
+      "indirizzo": "Contrada Piano del Casino, 85054 Muro Lucano PZ",
+      "lat": 40.729734,
+      "lng": 15.526501
+    },
+    {
+      "id": "68bcac90-81c9-473c-afd4-01d1719bb610",
+      "slug": "agriturismo-la-dimora-dei-cavalieri-calitri",
+      "nome": "Agriturismo La Dimora dei Cavalieri",
+      "city_name": "Calitri",
+      "indirizzo": "c.da Tataseppe, n, 1, 85010 Vaglio Basilicata PZ",
+      "lat": 40.685028,
+      "lng": 15.886811
+    },
+    {
+      "id": "75834979-a224-44b2-bd42-77489af3552d",
+      "slug": "bed-breakfast-palazzo-zampaglione-calitri",
+      "nome": "Bed & Breakfast Palazzo Zampaglione",
+      "city_name": "Calitri",
+      "indirizzo": "Via Pasquale Berrilli, 10, 83045 Calitri AV",
+      "lat": 40.899768,
+      "lng": 15.439335
+    },
+    {
+      "id": "5bc0edae-e080-4ac7-a69d-c960093d7913",
+      "slug": "casa-vacanze-magnolia-42-calitri-calitri",
+      "nome": "Casa Vacanze Magnolia 42 Calitri",
+      "city_name": "Calitri",
+      "indirizzo": "Via Immacolata Concezione, 42, 83045 Calitri AV",
+      "lat": 40.898252,
+      "lng": 15.439263
+    },
+    {
+      "id": "3a3f2103-bcd1-47fd-88f5-890b7ed9cabe",
+      "slug": "country-house-le-strettole-calitri",
+      "nome": "Country House Le Strettole",
+      "city_name": "Calitri",
+      "indirizzo": "Via Giacomo Puccini Località Strettole, Calitri AV, 83045 Calitri AV",
+      "lat": 40.89985,
+      "lng": 15.427698
+    },
+    {
+      "id": "06bbe79a-728f-4382-871e-634e597b5520",
+      "slug": "il-giardino-calitri",
+      "nome": "Il Giardino",
+      "city_name": "Calitri",
+      "indirizzo": "Località Prato, 84024 Contursi Terme SA",
+      "lat": 40.648986,
+      "lng": 15.2294
+    },
+    {
+      "id": "cf776e2b-e91a-46cb-895d-7581ea30a088",
+      "slug": "la-vecchia-fattoria-agriturismo-cucina-contadina-calitri",
+      "nome": "La Vecchia Fattoria Agriturismo - cucina contadina",
+      "city_name": "Calitri",
+      "indirizzo": "Via Piana Romana, 82020 Pietrelcina BN",
+      "lat": 41.208341,
+      "lng": 14.869815
+    },
+    {
+      "id": "9950b90c-c0a8-4269-9777-7c36334d6d55",
+      "slug": "la-vista-b-b-calitri",
+      "nome": "La Vista B&B",
+      "city_name": "Calitri",
+      "indirizzo": "La Vista B&B, Via Stanco, 83045 Calitri AV",
+      "lat": 40.898978,
+      "lng": 15.439352
+    },
+    {
+      "id": "fcff3f28-9d3a-4b7a-8484-131fc46f98e8",
+      "slug": "le-talee-agriturismo-calitri",
+      "nome": "Le Talee Agriturismo",
+      "city_name": "Calitri",
+      "indirizzo": "Contrada Querce Nuove, 17/A, 83047 Lioni AV",
+      "lat": 40.888081,
+      "lng": 15.181416
+    },
+    {
+      "id": "4858e78f-e0cf-4e9d-99b0-9b3dbcbff138",
+      "slug": "pensione-eden-ristorante-calizzano",
+      "nome": "Pensione Eden Ristorante",
+      "city_name": "Calizzano",
+      "indirizzo": "Via Filippo Leale, 7, 17020 Calizzano SV",
+      "lat": 44.236552,
+      "lng": 8.117487
+    },
+    {
+      "id": "13c09434-e1ff-45cf-9226-e92a2dc93308",
+      "slug": "black-rose-callabiana",
+      "nome": "Black-rose",
+      "city_name": "Callabiana",
+      "indirizzo": "Frazione Bianco, 32, 13821 Camandona BI",
+      "lat": 45.642972,
+      "lng": 8.100539
+    },
+    {
+      "id": "7c088766-c90d-42cd-8b6b-5e76e5d25f79",
+      "slug": "b-b-al-borgo-calliano",
+      "nome": "B&B al Borgo",
+      "city_name": "Calliano",
+      "indirizzo": "Via di Glolo, 12, 38078 San Lorenzo Dorsino TN",
+      "lat": 46.075477,
+      "lng": 10.911251
+    },
+    {
+      "id": "135c7f28-6637-4cf6-9ba5-95069df80f47",
+      "slug": "b-b-ca-dei-nonni-di-barbero-chiara-calliano",
+      "nome": "B&B CA' DEI NONNI DI BARBERO CHIARA",
+      "city_name": "Calliano",
+      "indirizzo": "Via Asti, 124, 14031 Calliano Monferrato AT",
+      "lat": 44.997483,
+      "lng": 8.244131
+    },
+    {
+      "id": "2ae10661-690c-469e-a050-86f9ca23baf7",
+      "slug": "b-b-chiara-calliano",
+      "nome": "B&B CHIARA",
+      "city_name": "Calliano",
+      "indirizzo": "Via al Camp del Rosari, 4, 38076 Calavino TN",
+      "lat": 46.04896,
+      "lng": 10.986984
+    },
+    {
+      "id": "1f0d606a-05be-43bd-963f-123cb59cb8ed",
+      "slug": "b-b-diele-calliano",
+      "nome": "B&B Diele",
+      "city_name": "Calliano",
+      "indirizzo": "Via Trieste, 35, 38068 Rovereto TN",
+      "lat": 45.878625,
+      "lng": 11.035494
+    },
+    {
+      "id": "cd170cc4-f05e-4516-840b-2d418623a4b8",
+      "slug": "bed-breakfast-nettuno-calliano",
+      "nome": "Bed & Breakfast Nettuno",
+      "city_name": "Calliano",
+      "indirizzo": "Via Gian Domenico Romagnosi, 26, 38122 Trento TN",
+      "lat": 46.072765,
+      "lng": 11.122753
+    },
+    {
+      "id": "3004aab3-8be2-4b50-828c-049ab689617d",
+      "slug": "bed-and-breakfast-ca-antica-calliano",
+      "nome": "Bed and breakfast - ca ' Antica",
+      "city_name": "Calliano",
+      "indirizzo": "V.le Trento, 2, 38068 Rovereto TN",
+      "lat": 45.896916,
+      "lng": 11.042648
+    }
+  ]
+}

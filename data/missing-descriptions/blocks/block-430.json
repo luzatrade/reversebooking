@@ -1,0 +1,323 @@
+{
+  "block": 430,
+  "blockId": "430",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "75b8273c-d557-41a0-be25-44092e66c7bc",
+      "slug": "lodevi-rooms-carapelle",
+      "nome": "lodevì rooms",
+      "city_name": "Carapelle",
+      "indirizzo": "Via Monte Grappa, 58, 71121 Foggia FG",
+      "lat": 41.464803,
+      "lng": 15.553534
+    },
+    {
+      "id": "1c776e1c-7bf5-4022-b3cb-97bf4b465945",
+      "slug": "momento-soggiorno-di-charme-carapelle",
+      "nome": "Momento soggiorno di charme",
+      "city_name": "Carapelle",
+      "indirizzo": "Piazza Umberto Giordano, 13c, 71121 Foggia FG",
+      "lat": 41.461606,
+      "lng": 15.549454
+    },
+    {
+      "id": "a2aae380-2a8c-45b9-9743-ebafa64d2336",
+      "slug": "residenza-del-sele-b-b-luxury-carapelle",
+      "nome": "Residenza del Sele B&B Luxury",
+      "city_name": "Carapelle",
+      "indirizzo": "Corso Pietro Giannone, 1, 71121 Foggia FG",
+      "lat": 41.461247,
+      "lng": 15.552192
+    },
+    {
+      "id": "f051b23a-a3dc-489f-9687-092b3603e732",
+      "slug": "nonno-severino-carapelle-calvisio",
+      "nome": "Nonno Severino",
+      "city_name": "Carapelle Calvisio",
+      "indirizzo": "Via Gabriele d'Annunzio, 61, 67020 Santo Stefano di Sessanio AQ",
+      "lat": 42.341708,
+      "lng": 13.649435
+    },
+    {
+      "id": "85fc9de4-0fdd-4a8c-82c2-eac12ea1e615",
+      "slug": "notti-magiche-carapelle-calvisio",
+      "nome": "Notti magiche",
+      "city_name": "Carapelle Calvisio",
+      "indirizzo": "Piazza Torre Maggiore, 7, 67020 Castelvecchio Calvisio AQ",
+      "lat": 42.311153,
+      "lng": 13.687992
+    },
+    {
+      "id": "3e2fba3e-4b28-4c99-8cb5-6ac54badb746",
+      "slug": "ospitalita-santo-stefano-carapelle-calvisio",
+      "nome": "Ospitalità Santo Stefano",
+      "city_name": "Carapelle Calvisio",
+      "indirizzo": "SS17, KM 58.285, 67020 San Pio delle Camere AQ",
+      "lat": 42.293708,
+      "lng": 13.637402
+    },
+    {
+      "id": "b31eafec-9033-4246-b68b-90c3b0d92635",
+      "slug": "agriturismo-olivarancio-carasco",
+      "nome": "Agriturismo OlivArancio",
+      "city_name": "Carasco",
+      "indirizzo": "Via degli Ulivi, 39, 16040 Leivi GE",
+      "lat": 44.351638,
+      "lng": 9.308141
+    },
+    {
+      "id": "22a72a7a-c0c5-4e8c-8198-db7b0049774b",
+      "slug": "b-b-bella-vista-carasco",
+      "nome": "B&B Bella Vista",
+      "city_name": "Carasco",
+      "indirizzo": "Via Fontana, 9, 16042 Carasco GE",
+      "lat": 44.355722,
+      "lng": 9.364245
+    },
+    {
+      "id": "42e0ea5d-fbd8-4579-a430-fb212bdef0c9",
+      "slug": "b-b-la-terrazza-carasco",
+      "nome": "B&B La Terrazza",
+      "city_name": "Carasco",
+      "indirizzo": "Via Martiri della Liberazione, 139, 16043 Chiavari GE",
+      "lat": 44.31811,
+      "lng": 9.323135
+    },
+    {
+      "id": "b216d269-68f1-45a0-a124-8f1a4cc818ef",
+      "slug": "b-b-rivarola-al-tempo-dei-castelli-carasco",
+      "nome": "B&B Rivarola al Tempo dei Castelli",
+      "city_name": "Carasco",
+      "indirizzo": "Via Vittorio Veneto, 254, 16042 Rivarola GE",
+      "lat": 44.345275,
+      "lng": 9.358191
+    },
+    {
+      "id": "b38735a7-93d1-4215-b057-3b4c2d8fc103",
+      "slug": "ca-da-tollo-b-b-carasco",
+      "nome": "Ca' da Tollo B&B",
+      "city_name": "Carasco",
+      "indirizzo": "Via degli Ulivi, 49, 16030 Cogorno GE",
+      "lat": 44.334105,
+      "lng": 9.366582
+    },
+    {
+      "id": "93035a0a-dae2-47ee-8601-ff5b1ae38390",
+      "slug": "camping-paradiso-carasco",
+      "nome": "Camping Paradiso",
+      "city_name": "Carasco",
+      "indirizzo": "Via Menin, 3, 16042 Carasco GE",
+      "lat": 44.350187,
+      "lng": 9.354543
+    },
+    {
+      "id": "47831b58-a388-48a6-98c2-57b0e2e7e312",
+      "slug": "grand-hotel-torre-fara-carasco",
+      "nome": "Grand Hotel Torre Fara",
+      "city_name": "Carasco",
+      "indirizzo": "Via Preli, 15, 16043 Chiavari GE",
+      "lat": 44.320501,
+      "lng": 9.31018
+    },
+    {
+      "id": "382a09d0-1604-46f4-8594-425407d4b6f5",
+      "slug": "hotel-garden-carasco",
+      "nome": "Hotel & Garden",
+      "city_name": "Carasco",
+      "indirizzo": "Piazza Leonardi, 10, 16043 Chiavari GE",
+      "lat": 44.314777,
+      "lng": 9.32261
+    },
+    {
+      "id": "e9f4813c-e499-4c06-86a1-4f0687ae17dc",
+      "slug": "hotel-doria-in-chiusura-per-cambio-gestione-carasco",
+      "nome": "Hotel Doria in chiusura per CAMBIO GESTIONE",
+      "city_name": "Carasco",
+      "indirizzo": "Piazza Leonardi, 10, 16043 Chiavari GE",
+      "lat": 44.314906,
+      "lng": 9.32266
+    },
+    {
+      "id": "79a998f9-166c-449c-9d43-7f1d66439e94",
+      "slug": "hotel-miramare-carasco",
+      "nome": "Hotel Miramare",
+      "city_name": "Carasco",
+      "indirizzo": "Piazza Vittorio Veneto, 20, 16033 Lavagna GE",
+      "lat": 44.308074,
+      "lng": 9.347343
+    },
+    {
+      "id": "3536b781-a354-4e81-afe9-9fd1db0b9def",
+      "slug": "il-gelso-carasco",
+      "nome": "Il Gelso",
+      "city_name": "Carasco",
+      "indirizzo": "Via dei Caduti, 92, 16040 San Bartolomeo GE",
+      "lat": 44.346763,
+      "lng": 9.324812
+    },
+    {
+      "id": "b67d8553-6d21-4558-b71e-be437e9dacb3",
+      "slug": "loggia-piani-nuovi-carasco",
+      "nome": "Loggia Piani Nuovi",
+      "city_name": "Carasco",
+      "indirizzo": "Via Piani Nuovi, 8, 16042 Carasco GE",
+      "lat": 44.351602,
+      "lng": 9.359537
+    },
+    {
+      "id": "05b51c5f-255a-43a9-a39e-42dc059d04d9",
+      "slug": "tigullio-carasco",
+      "nome": "Tigullio",
+      "city_name": "Carasco",
+      "indirizzo": "Via Giacomo Matteotti, 1, 16033 Lavagna GE",
+      "lat": 44.306603,
+      "lng": 9.345677
+    },
+    {
+      "id": "62e28ce6-732c-460b-a5b1-72a46e63edc3",
+      "slug": "agriturismo-annarella-carassai",
+      "nome": "Agriturismo Annarella",
+      "city_name": "Carassai",
+      "indirizzo": "via molino vecchio, 6, 63063 Carassai AP",
+      "lat": 43.038189,
+      "lng": 13.676485
+    },
+    {
+      "id": "0b64369e-07f5-4ac3-b8a5-3a6aaee54a3d",
+      "slug": "agriturismo-c-era-una-volta-carassai",
+      "nome": "Agriturismo C'era una volta",
+      "city_name": "Carassai",
+      "indirizzo": "Contrada S. Gregorio, 34, 63065 Ripatransone AP",
+      "lat": 43.006609,
+      "lng": 13.687272
+    },
+    {
+      "id": "1035c0a3-c987-49fb-a05c-b1feac386bfa",
+      "slug": "agriturismo-il-podere-del-nonno-carassai",
+      "nome": "Agriturismo Il Podere del nonno",
+      "city_name": "Carassai",
+      "indirizzo": "Via Sant'impero, 4, 63065 Ripatransone AP",
+      "lat": 43.020926,
+      "lng": 13.748883
+    },
+    {
+      "id": "d8542aca-737f-4928-8155-690c77749221",
+      "slug": "agriturismo-la-casa-del-vecchio-mulino-carassai",
+      "nome": "Agriturismo La casa del vecchio mulino",
+      "city_name": "Carassai",
+      "indirizzo": "Contrada Menocchia, 63063 Carassai AP",
+      "lat": 43.024134,
+      "lng": 13.711983
+    },
+    {
+      "id": "6def578c-c6ee-445f-a12d-8c8a16e32dd4",
+      "slug": "agriturismo-la-favella-carassai",
+      "nome": "Agriturismo La Favella",
+      "city_name": "Carassai",
+      "indirizzo": "Contrada Menocchia, 54, 63062 Montefiore dell'Aso AP",
+      "lat": 43.035604,
+      "lng": 13.769822
+    },
+    {
+      "id": "e24bb58a-b203-4619-ba50-808a601d8ef2",
+      "slug": "agriturismo-nonno-pio-carassai",
+      "nome": "Agriturismo Nonno Pio",
+      "city_name": "Carassai",
+      "indirizzo": "Contrada Tesino, 58, 63073 Offida AP",
+      "lat": 42.966164,
+      "lng": 13.711021
+    },
+    {
+      "id": "349d2c54-9ec1-4019-a0d3-c44b3257e106",
+      "slug": "camping-san-procolo-carassai",
+      "nome": "Camping San Procolo",
+      "city_name": "Carassai",
+      "indirizzo": "Contrada Selve, 3, 63847 Monte Vidon Combatte FM",
+      "lat": 43.059869,
+      "lng": 13.625327
+    },
+    {
+      "id": "2a328167-5fa9-440e-91d5-4a7e5ccc9a59",
+      "slug": "casa-eviano-carassai",
+      "nome": "Casa Eviano",
+      "city_name": "Carassai",
+      "indirizzo": "Contrada da Montecucco, 12, 63063 Carassai AP",
+      "lat": 43.033826,
+      "lng": 13.665721
+    },
+    {
+      "id": "493f474f-3f08-4dac-ab8f-ed083b81053d",
+      "slug": "casale-di-maro-carassai",
+      "nome": "Casale di Maro",
+      "city_name": "Carassai",
+      "indirizzo": "Contrada S. Martino, 10, 63846 Monte Giberto FM",
+      "lat": 43.091401,
+      "lng": 13.607787
+    },
+    {
+      "id": "063f51ce-2082-412a-b49c-d66cedd844d8",
+      "slug": "dimora-storica-palazzo-polini-fioretti-carassai",
+      "nome": "Dimora Storica Palazzo Polini Fioretti",
+      "city_name": "Carassai",
+      "indirizzo": "Via Roma, 6, 63063 Carassai AP",
+      "lat": 43.032214,
+      "lng": 13.685215
+    },
+    {
+      "id": "5ddf3347-7d7c-4bc1-ad11-2800023d8466",
+      "slug": "hotel-boutique-magnolia-carassai",
+      "nome": "Hotel Boutique Magnolia",
+      "city_name": "Carassai",
+      "indirizzo": "Contrada Menocchia, 212/a, 63062 Montefiore dell'Aso AP",
+      "lat": 43.029181,
+      "lng": 13.713777
+    },
+    {
+      "id": "d3afd56b-5b94-41be-86df-a7e1a0c789c7",
+      "slug": "la-cicala-agriturismo-carassai",
+      "nome": "La Cicala Agriturismo",
+      "city_name": "Carassai",
+      "indirizzo": "via Casali, 22, 63063 Carassai AP",
+      "lat": 43.022314,
+      "lng": 13.670549
+    },
+    {
+      "id": "893157b4-890c-4419-9314-e993b6c44689",
+      "slug": "la-rosa-e-la-viola-carassai",
+      "nome": "La Rosa e La Viola",
+      "city_name": "Carassai",
+      "indirizzo": "Via Montevarmine, 28, 63063 Carassai AP",
+      "lat": 43.027814,
+      "lng": 13.657437
+    },
+    {
+      "id": "73432229-b7fa-4d66-9fe2-505bd3a44e5a",
+      "slug": "locanda-del-sole-agriturismo-ristorante-osteria-carassai",
+      "nome": "Locanda del Sole Agriturismo Ristorante Osteria Cucina Tradizionale Carne Marchigiana Alloggi Piscina Eventi",
+      "city_name": "Carassai",
+      "indirizzo": "Contrada Bore di Fiano, 5, 63846 Monte Giberto FM",
+      "lat": 43.102692,
+      "lng": 13.635426
+    },
+    {
+      "id": "94943faf-d0be-4f68-b721-fd4fdf6f1968",
+      "slug": "villa-meraviglia-carassai",
+      "nome": "Villa Meraviglia",
+      "city_name": "Carassai",
+      "indirizzo": "Contrada Casali, 15, 63063 Carassai AP",
+      "lat": 43.024417,
+      "lng": 13.664042
+    },
+    {
+      "id": "f04fb01d-ff76-452f-9381-615d36829c7b",
+      "slug": "agriturismo-san-genesio-carate-brianza",
+      "nome": "Agriturismo San Genesio",
+      "city_name": "Carate Brianza",
+      "indirizzo": "Via Raffaello Sanzio, 31, 23886 Cagliano, Colle Brianza LC",
+      "lat": 45.748786,
+      "lng": 9.3885
+    }
+  ]
+}

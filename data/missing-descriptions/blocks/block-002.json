@@ -1,0 +1,323 @@
+{
+  "block": 2,
+  "blockId": "002",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "8cd6b36a-d133-41a9-aa04-5fca1fa94bb1",
+      "slug": "il-sospiro-abriola",
+      "nome": "Il sospiro",
+      "city_name": "Abriola",
+      "indirizzo": "Contrada Policeta, 5, 85050 Satriano di Lucania PZ",
+      "lat": 40.527165,
+      "lng": 15.639474
+    },
+    {
+      "id": "38bcb356-79c8-4dd4-a95c-0f4654f1a3f4",
+      "slug": "la-dolce-vita-abriola",
+      "nome": "La Dolce Vita",
+      "city_name": "Abriola",
+      "indirizzo": "Contrada Valloni, 85010 Abriola PZ",
+      "lat": 40.518581,
+      "lng": 15.832482
+    },
+    {
+      "id": "442975ac-e6f7-4336-b816-0e1aec7bae9b",
+      "slug": "la-fattoria-sotto-il-cielo-abriola",
+      "nome": "La Fattoria Sotto il Cielo",
+      "city_name": "Abriola",
+      "indirizzo": "Contrada Petrucco, 9A, 85010 Pignola PZ",
+      "lat": 40.578917,
+      "lng": 15.734202
+    },
+    {
+      "id": "574bc258-b9fb-452e-abbe-876f5e3dafae",
+      "slug": "la-villa-resort-abriola",
+      "nome": "La Villa Resort.",
+      "city_name": "Abriola",
+      "indirizzo": "Via Europa, 10/A, 85010 Pignola PZ",
+      "lat": 40.571285,
+      "lng": 15.786922
+    },
+    {
+      "id": "7df2d548-b58a-4d59-92b1-852a4ea4321f",
+      "slug": "locanda-arcadia-abriola",
+      "nome": "Locanda Arcadia",
+      "city_name": "Abriola",
+      "indirizzo": "Via Forra, 1, 85055 Picerno PZ",
+      "lat": 40.628,
+      "lng": 15.657063
+    },
+    {
+      "id": "7003fa27-6c04-4ba4-bc59-14002c177176",
+      "slug": "open-abriola",
+      "nome": "Open",
+      "city_name": "Abriola",
+      "indirizzo": "Viale Seminario Maggiore, 4, 85100 Potenza PZ",
+      "lat": 40.639806,
+      "lng": 15.778371
+    },
+    {
+      "id": "dcef62b4-3cd0-4141-8866-9a09de833dbc",
+      "slug": "ostello-villafranca-abriola",
+      "nome": "Ostello Villafranca",
+      "city_name": "Abriola",
+      "indirizzo": "Via Neviera, 8, 85010 Pignola PZ",
+      "lat": 40.571149,
+      "lng": 15.783387
+    },
+    {
+      "id": "8755bd48-ffd2-4584-9286-d2c0ba98a636",
+      "slug": "parco-ricevimenti-hotel-pierfaone-abriola",
+      "nome": "Parco Ricevimenti Hotel Pierfaone",
+      "city_name": "Abriola",
+      "indirizzo": "Contrada Pierfaone, 85010 Abriola PZ",
+      "lat": 40.506413,
+      "lng": 15.765478
+    },
+    {
+      "id": "a9a90c9c-0cdd-41cd-88d5-48c21787d5db",
+      "slug": "pierfaone-hotel-e-spa-abriola",
+      "nome": "PIERFAONE HOTEL E SPA",
+      "city_name": "Abriola",
+      "indirizzo": "Contrada Pierfaone, 85010 Abriola PZ",
+      "lat": 40.505335,
+      "lng": 15.766009
+    },
+    {
+      "id": "41f1475a-f6b2-4d6e-a4e4-5a54068567b0",
+      "slug": "pietrapanna-abriola",
+      "nome": "Pietrapanna",
+      "city_name": "Abriola",
+      "indirizzo": "Contrada Potentissima, snc, 85010 Calvello PZ",
+      "lat": 40.444654,
+      "lng": 15.836233
+    },
+    {
+      "id": "8950bad0-a5ce-43f5-8963-660fbba162cf",
+      "slug": "baglio-occhipinti-acate",
+      "nome": "Baglio Occhipinti",
+      "city_name": "Acate",
+      "indirizzo": "C.da Fossa di Lupo, Strada Km 5, 4, 97019 Pedalino RG",
+      "lat": 37.005357,
+      "lng": 14.55012
+    },
+    {
+      "id": "8f5453ec-c30a-4586-baea-4dbd0eb8d731",
+      "slug": "cordial-hotel-acate",
+      "nome": "Cordial Hotel",
+      "city_name": "Acate",
+      "indirizzo": "S.S. 115 Comiso Km. 1, 97013 Comiso RG",
+      "lat": 36.950768,
+      "lng": 14.592372
+    },
+    {
+      "id": "0cfc7268-28b5-4970-8d59-aeae4cbb08c5",
+      "slug": "dimora-di-dante-acate",
+      "nome": "Dimora di Dante",
+      "city_name": "Acate",
+      "indirizzo": "Contrada Serravalle, sn, 97012 Chiaramonte Gulfi RG",
+      "lat": 37.007814,
+      "lng": 14.62851
+    },
+    {
+      "id": "246b6bbd-36ee-4062-a9de-acbbed9a4b77",
+      "slug": "el-homs-palace-hotel-acate",
+      "nome": "El Homs Palace Hotel",
+      "city_name": "Acate",
+      "indirizzo": "Via Generale Girlando, 49, 97013 Comiso RG",
+      "lat": 36.950699,
+      "lng": 14.606756
+    },
+    {
+      "id": "88401646-710d-48d9-bc19-1da083480078",
+      "slug": "gh-baraka-village-acate",
+      "nome": "GH Baraka Village",
+      "city_name": "Acate",
+      "indirizzo": "Via Fratelli di Dio, 97019 Scoglitti RG",
+      "lat": 36.900254,
+      "lng": 14.434179
+    },
+    {
+      "id": "63c96fc6-e090-4cbf-83c2-b1ebdd20321c",
+      "slug": "grand-hotel-vittoria-acate",
+      "nome": "Grand Hotel Vittoria",
+      "city_name": "Acate",
+      "indirizzo": "Vico III Carlo Pisacane, 53/B, 97019 Vittoria RG",
+      "lat": 36.951304,
+      "lng": 14.524602
+    },
+    {
+      "id": "fad34716-b835-42da-8bbe-4445ae32bd5b",
+      "slug": "home-d-d-acate",
+      "nome": "Home D&D",
+      "city_name": "Acate",
+      "indirizzo": "SP11, 93015 Niscemi CL",
+      "lat": 37.114395,
+      "lng": 14.389448
+    },
+    {
+      "id": "002b16eb-854c-4ccf-98ae-652f343f4686",
+      "slug": "hotel-europa-acate",
+      "nome": "Hotel Europa",
+      "city_name": "Acate",
+      "indirizzo": "Via Generale Armando Diaz, 4/a, 97019 Vittoria RG",
+      "lat": 36.956172,
+      "lng": 14.528347
+    },
+    {
+      "id": "97af25f9-bab4-469d-8747-544a49252a69",
+      "slug": "hotel-mida-acate",
+      "nome": "Hotel Mida",
+      "city_name": "Acate",
+      "indirizzo": "Via delle Seppie, 4, 97019 Scoglitti RG",
+      "lat": 36.898987,
+      "lng": 14.425079
+    },
+    {
+      "id": "0dbf50e8-b34a-4024-951c-dd5cfda7a047",
+      "slug": "hotel-villa-san-bartolo-resort-acate",
+      "nome": "Hotel Villa San Bartolo Resort",
+      "city_name": "Acate",
+      "indirizzo": "Contrada San Bartolo (presso Hotel Villa San Bartolo), 97019 Vittoria RG",
+      "lat": 36.982744,
+      "lng": 14.534143
+    },
+    {
+      "id": "81ffcd5c-8acb-42b0-882f-d81aacf5db7f",
+      "slug": "iblea-hotel-acate",
+      "nome": "Iblea Hotel",
+      "city_name": "Acate",
+      "indirizzo": "Contrada Coffa, snc, 97012 Chiaramonte Gulfi RG",
+      "lat": 37.030253,
+      "lng": 14.658
+    },
+    {
+      "id": "7d2f2d46-dd9e-4f92-ab40-02ede5613821",
+      "slug": "palazzo-melfi-suite-hotel-acate",
+      "nome": "Palazzo Melfi Suite Hotel",
+      "city_name": "Acate",
+      "indirizzo": "4, Piazza Fonte Diana, 97013 Comiso RG",
+      "lat": 36.9462,
+      "lng": 14.605212
+    },
+    {
+      "id": "087f0e8a-70bf-4065-8baa-29ded9d05a27",
+      "slug": "rocca-acate",
+      "nome": "Rocca",
+      "city_name": "Acate",
+      "indirizzo": "SS115, 4, 97011 Acate RG",
+      "lat": 36.997987,
+      "lng": 14.426541
+    },
+    {
+      "id": "adb02e08-0a07-4682-b6e7-2f656494da78",
+      "slug": "stella-dei-venti-acate",
+      "nome": "Stella dei venti",
+      "city_name": "Acate",
+      "indirizzo": "Contrada Gaspanella, km 6, 8, 97019 Vittoria RG",
+      "lat": 36.954285,
+      "lng": 14.450966
+    },
+    {
+      "id": "254a76c8-c905-49b5-916c-dd1d1445eddb",
+      "slug": "terra-del-sole-b-b-a-vittoria-acate",
+      "nome": "Terra del sole b&b a Vittoria",
+      "city_name": "Acate",
+      "indirizzo": "Via Bologna, 204, 97019 Vittoria RG",
+      "lat": 36.948543,
+      "lng": 14.523713
+    },
+    {
+      "id": "64b21f28-7879-4f4a-93c1-24f8723346d4",
+      "slug": "terre-iblee-resort-acate",
+      "nome": "TERRE IBLEE RESORT",
+      "city_name": "Acate",
+      "indirizzo": "C/da sperlinga, 97012 Chiaramonte Gulfi RG",
+      "lat": 37.058259,
+      "lng": 14.629064
+    },
+    {
+      "id": "fb406e24-8805-48c4-85e9-1edd2bbd0794",
+      "slug": "villa-orchidea-acate",
+      "nome": "Villa Orchidea",
+      "city_name": "Acate",
+      "indirizzo": "Contrada Boscorotondo, SP5, 97013 Comiso RG",
+      "lat": 36.983087,
+      "lng": 14.589778
+    },
+    {
+      "id": "537adcb0-b8d9-460f-8e9f-1be86025ad30",
+      "slug": "vittoria-colonna-acate",
+      "nome": "Vittoria Colonna",
+      "city_name": "Acate",
+      "indirizzo": "Via Magenta, 419, 97019 Vittoria RG",
+      "lat": 36.95366,
+      "lng": 14.527591
+    },
+    {
+      "id": "4c6f4f57-5af7-4968-a7c5-e26a66792ff9",
+      "slug": "yhomisus-acate",
+      "nome": "Yhomisus",
+      "city_name": "Acate",
+      "indirizzo": "Via Papa Giovanni XXIII, 75, 97013 Comiso RG",
+      "lat": 36.944618,
+      "lng": 14.604191
+    },
+    {
+      "id": "30ecbdd0-e38f-4951-8404-d8ed30df3e32",
+      "slug": "a-casa-nostra-accadia",
+      "nome": "A Casa Nostra",
+      "city_name": "Accadia",
+      "indirizzo": "Viale Antonino Ripandelli, 87, 71024 Candela FG",
+      "lat": 41.133103,
+      "lng": 15.516428
+    },
+    {
+      "id": "8371ab5f-dc6f-458c-8579-34703a23c3fc",
+      "slug": "agriturismo-antica-masseria-lo-conte-b-b-sala-ev-accadia",
+      "nome": "Agriturismo Antica Masseria Lo Conte B&B, sala eventi",
+      "city_name": "Accadia",
+      "indirizzo": "Via Torreamando, 99, 83031 Ariano Irpino AV",
+      "lat": 41.107329,
+      "lng": 15.087856
+    },
+    {
+      "id": "b06c0b42-2023-48bf-a644-e418bfbf2f6f",
+      "slug": "agriturismo-casale-cerere-accadia",
+      "nome": "Agriturismo Casale Cerere",
+      "city_name": "Accadia",
+      "indirizzo": "Contrada Serritelli, 61, 83046 Lacedonia AV",
+      "lat": 41.074349,
+      "lng": 15.408863
+    },
+    {
+      "id": "6476fa85-82e7-4c5d-8c3e-1665d9c072a0",
+      "slug": "agriturismo-la-fortezza-accadia",
+      "nome": "Agriturismo La fortezza",
+      "city_name": "Accadia",
+      "indirizzo": "Contrada Orneta, 88, 83031 Orneta AV",
+      "lat": 41.111113,
+      "lng": 15.11323
+    },
+    {
+      "id": "f07c315e-8025-4f55-8dcc-c78c8b7740ed",
+      "slug": "azienda-agrituristica-petrilli-accadia",
+      "nome": "Azienda Agrituristica Petrilli",
+      "city_name": "Accadia",
+      "indirizzo": "Via Scampata, 83040 Flumeri AV",
+      "lat": 41.083854,
+      "lng": 15.156582
+    },
+    {
+      "id": "f9e1106a-f35d-4e30-a262-497189f3994e",
+      "slug": "b-b-sant-arcangelo-accadia",
+      "nome": "B&B Sant Arcangelo",
+      "city_name": "Accadia",
+      "indirizzo": "Via Francesco Crispi, 6, 71028 Sant'Agata di Puglia FG",
+      "lat": 41.15074,
+      "lng": 15.381376
+    }
+  ]
+}

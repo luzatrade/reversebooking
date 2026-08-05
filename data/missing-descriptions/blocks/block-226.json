@@ -1,0 +1,323 @@
+{
+  "block": 226,
+  "blockId": "226",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "a97ac9ea-1405-49bd-ba46-a8ff81e8fb74",
+      "slug": "hotel-della-rotonda-barlassina",
+      "nome": "Hotel della Rotonda",
+      "city_name": "Barlassina",
+      "indirizzo": "Via Novara, 53, 21047 Saronno VA",
+      "lat": 45.622349,
+      "lng": 9.01699
+    },
+    {
+      "id": "a5bfb58e-fe7a-4a4c-9727-74847c0ed1d1",
+      "slug": "hotel-lombardia-barlassina",
+      "nome": "Hotel Lombardia",
+      "city_name": "Barlassina",
+      "indirizzo": "Corso Giuseppe Garibaldi, 5, 20030 Seveso MB",
+      "lat": 45.64233,
+      "lng": 9.136337
+    },
+    {
+      "id": "8146f3c0-07d6-495f-831b-aa0e9f7aafd5",
+      "slug": "hotel-motel-futura-barlassina",
+      "nome": "Hotel Motel Futura",
+      "city_name": "Barlassina",
+      "indirizzo": "Via Valassina, 97, 20037 Paderno Dugnano MI",
+      "lat": 45.580081,
+      "lng": 9.173643
+    },
+    {
+      "id": "0e87bb31-5b8b-43e1-bd61-9f6f887144f3",
+      "slug": "hotel-parco-borromeo-cesano-maderno-barlassina",
+      "nome": "Hotel Parco Borromeo Cesano Maderno",
+      "city_name": "Barlassina",
+      "indirizzo": "Piazza Ercole Procaccini, 20811 Cesano Maderno MB",
+      "lat": 45.629429,
+      "lng": 9.147542
+    },
+    {
+      "id": "e9165a63-38e2-4816-a3bf-a1bc6e4efd4b",
+      "slug": "residence-principe-barlassina",
+      "nome": "Residence Principe",
+      "city_name": "Barlassina",
+      "indirizzo": "Via Caduti della Liberazione, 18, 21047 Saronno VA",
+      "lat": 45.624391,
+      "lng": 9.034439
+    },
+    {
+      "id": "a5287580-626b-4995-8a64-68fe22185edf",
+      "slug": "b-b-chiaro-di-luna-barletta",
+      "nome": "B&B Chiaro di Luna",
+      "city_name": "Barletta",
+      "indirizzo": "Vico Miale da Troia, 32, 76121 Barletta BT",
+      "lat": 41.321221,
+      "lng": 16.285751
+    },
+    {
+      "id": "d54b77a8-58b4-409f-86ad-13cde3a17cc3",
+      "slug": "b-b-de-nittis-meridia-collection-barletta",
+      "nome": "B&B De Nittis - Meridia Collection",
+      "city_name": "Barletta",
+      "indirizzo": "Vicolo del Lupo, 9, 76121 Barletta BT",
+      "lat": 41.320033,
+      "lng": 16.276521
+    },
+    {
+      "id": "4480ec9c-2885-4358-a09c-cd7fb5a0d8e5",
+      "slug": "b-b-il-campanile-barletta-barletta",
+      "nome": "B&B Il Campanile Barletta",
+      "city_name": "Barletta",
+      "indirizzo": "Campanile Gotico, Via M. Abignenti, 2, 76121 Barletta BT",
+      "lat": 41.320723,
+      "lng": 16.28612
+    },
+    {
+      "id": "90026661-de6a-4520-a126-955f030e4c6b",
+      "slug": "b-b-la-disfida-di-barletta-barletta",
+      "nome": "B&B La Disfida di Barletta",
+      "city_name": "Barletta",
+      "indirizzo": "Via del Duomo, 1, 76121 Barletta BT",
+      "lat": 41.320821,
+      "lng": 16.284632
+    },
+    {
+      "id": "3de828bd-3371-458d-9de5-62f01011fefc",
+      "slug": "b-b-le-muse-barletta",
+      "nome": "B&b le muse",
+      "city_name": "Barletta",
+      "indirizzo": "Via Cavour, 62, 76121 Barletta BT",
+      "lat": 41.319267,
+      "lng": 16.285635
+    },
+    {
+      "id": "d2712212-ee2b-4c6f-a7cc-3d098790cdbc",
+      "slug": "b-b-nazareth-barletta",
+      "nome": "b&b Nazareth",
+      "city_name": "Barletta",
+      "indirizzo": "Via Nazareth, 60, 76121 Barletta BT",
+      "lat": 41.320414,
+      "lng": 16.28258
+    },
+    {
+      "id": "ac5d7f95-29ad-4cec-9b5c-4ba45a0c1a37",
+      "slug": "b-b-saint-patrick-barletta",
+      "nome": "B&B Saint Patrick",
+      "city_name": "Barletta",
+      "indirizzo": "Corso Giuseppe Garibaldi, 145, 76121 Barletta BT",
+      "lat": 41.320554,
+      "lng": 16.284058
+    },
+    {
+      "id": "826f745d-29ad-42f6-8bb3-39cf5c310fab",
+      "slug": "best-western-hotel-dei-cavalieri-barletta",
+      "nome": "Best Western Hotel Dei Cavalieri",
+      "city_name": "Barletta",
+      "indirizzo": "Via Foggia, 40, 76121 Barletta BT",
+      "lat": 41.320031,
+      "lng": 16.25746
+    },
+    {
+      "id": "7e58ea73-a03a-44c4-8d26-bb8bce03baad",
+      "slug": "binario-1-rooms-b-b-a-barletta-barletta",
+      "nome": "Binario 1 Rooms | B&B a Barletta",
+      "city_name": "Barletta",
+      "indirizzo": "Via Torino, 4, 76121 Barletta BT",
+      "lat": 41.3157,
+      "lng": 16.278036
+    },
+    {
+      "id": "9ac380d6-29f6-4f05-9cc2-0658689c3a5c",
+      "slug": "desideri-di-puglia-barletta",
+      "nome": "Desideri di Puglia",
+      "city_name": "Barletta",
+      "indirizzo": "Via Borgo Vecchio, 65, Vico Lepanto, 1, 76121 Barletta BT",
+      "lat": 41.319478,
+      "lng": 16.27875
+    },
+    {
+      "id": "7837bbfe-6488-408b-b15b-bd09b474016a",
+      "slug": "domatia-bed-and-breakfast-barletta",
+      "nome": "Domatia Bed and Breakfast",
+      "city_name": "Barletta",
+      "indirizzo": "Vico Pietro Riczio, 20, 76121 Barletta BT",
+      "lat": 41.321072,
+      "lng": 16.285533
+    },
+    {
+      "id": "bcc4a56e-f239-46b2-a4d7-157ac689118e",
+      "slug": "guest-house-al-centro-storico-barletta",
+      "nome": "Guest House Al Centro Storico",
+      "city_name": "Barletta",
+      "indirizzo": "Via Samuelli, 83, 76121 Barletta BT",
+      "lat": 41.320637,
+      "lng": 16.282138
+    },
+    {
+      "id": "f7f9d670-bc2e-4b7e-b5d0-5386aea68800",
+      "slug": "la-cattedrale-barletta-guest-house-camere-casa-v-barletta",
+      "nome": "La Cattedrale Barletta Guest House; Camere ; casa vacanza ;struttura bike friendly",
+      "city_name": "Barletta",
+      "indirizzo": "Via Santa Marta, 55, 76121 Barletta BT",
+      "lat": 41.321083,
+      "lng": 16.280427
+    },
+    {
+      "id": "639e1938-1529-421f-85ef-8249bba17b61",
+      "slug": "la-luna-e-il-sole-barletta",
+      "nome": "La Luna e il Sole",
+      "city_name": "Barletta",
+      "indirizzo": "Via Samuelli, 79, 76121 Barletta BT",
+      "lat": 41.320564,
+      "lng": 16.282149
+    },
+    {
+      "id": "72e21f6b-5c35-4f81-8ecb-b24e9dd732dd",
+      "slug": "la-terrazza-barletta",
+      "nome": "La Terrazza",
+      "city_name": "Barletta",
+      "indirizzo": "Via della Misericordia, 78, 76121 Barletta BT",
+      "lat": 41.319115,
+      "lng": 16.299561
+    },
+    {
+      "id": "b9b2f905-05a3-4dc7-97fc-027d43871b6f",
+      "slug": "liddo-boutique-hotel-barletta-barletta",
+      "nome": "Liddo Boutique Hotel Barletta",
+      "city_name": "Barletta",
+      "indirizzo": "Via III Novembre, 16/18, 76121 Barletta BT",
+      "lat": 41.317961,
+      "lng": 16.28718
+    },
+    {
+      "id": "eb8bdca5-a9a0-41fd-bbb4-97123afeeb27",
+      "slug": "nicotel-barletta-hotel-barletta",
+      "nome": "Nicotel Barletta Hotel",
+      "city_name": "Barletta",
+      "indirizzo": "Viale Regina Elena, 76121 Barletta BT",
+      "lat": 41.320625,
+      "lng": 16.295538
+    },
+    {
+      "id": "5a274b29-b48d-466a-8fcd-72bb27cbecc7",
+      "slug": "start-guest-house-barletta",
+      "nome": "StArt Guest House",
+      "city_name": "Barletta",
+      "indirizzo": "Via Andrea Bonello, 80, 76121 Barletta BT",
+      "lat": 41.321526,
+      "lng": 16.276667
+    },
+    {
+      "id": "52742aad-7c79-4ada-aecb-e10729ab07aa",
+      "slug": "villa-helios-barletta",
+      "nome": "Villa helios",
+      "city_name": "Barletta",
+      "indirizzo": "Via Ammiragli Ferdinando e Mario Casardi, 27, 76121 Barletta BT",
+      "lat": 41.319452,
+      "lng": 16.292593
+    },
+    {
+      "id": "c1a5d9dd-297d-44cc-a04a-19f8eadd4a36",
+      "slug": "vinslounge-b-b-suite-barletta",
+      "nome": "VinsLounge B&B Suite",
+      "city_name": "Barletta",
+      "indirizzo": "Via del Duomo, 5, 76121 Barletta BT",
+      "lat": 41.320796,
+      "lng": 16.284673
+    },
+    {
+      "id": "8dd2cb3a-1958-48b9-b97f-e9f2e1db0ca5",
+      "slug": "b-b-l-erica-barni",
+      "nome": "B&B L'Erica",
+      "city_name": "Barni",
+      "indirizzo": "Via privata Aldo Moro, 11, 23865 Onno LC",
+      "lat": 45.915522,
+      "lng": 9.291166
+    },
+    {
+      "id": "b156cbc0-f0bb-48df-b9bf-899269fe4c3f",
+      "slug": "b-b-sibi-barni",
+      "nome": "B&B SIBI",
+      "city_name": "Barni",
+      "indirizzo": "Via Papa Giovanni XXIII, 16, 23827 Lierna LC",
+      "lat": 45.953521,
+      "lng": 9.304724
+    },
+    {
+      "id": "0f971efc-6dff-4ef8-9f5a-9926a6b32a97",
+      "slug": "bed-breakfast-dei-laghi-barni",
+      "nome": "Bed & Breakfast Dei Laghi",
+      "city_name": "Barni",
+      "indirizzo": "Via Giuseppe Garibaldi, 20, 22030 Magreglio CO",
+      "lat": 45.918722,
+      "lng": 9.265805
+    },
+    {
+      "id": "dc7c8cc9-595c-4337-b969-6f76b8de0857",
+      "slug": "crotto-dei-pescatori-barni",
+      "nome": "Crotto dei Pescatori",
+      "city_name": "Barni",
+      "indirizzo": "Località Casate, 77, 22025 Lezzeno CO",
+      "lat": 45.950342,
+      "lng": 9.210296
+    },
+    {
+      "id": "0219e7cc-62bc-41be-a1af-0f9e5f425def",
+      "slug": "hotel-alverde-barni",
+      "nome": "Hotel Alverde",
+      "city_name": "Barni",
+      "indirizzo": "Contrada dei Ronchi, 7, 23826 Mandello del Lario LC",
+      "lat": 45.929244,
+      "lng": 9.3306
+    },
+    {
+      "id": "71ae2cf7-6d6f-47ad-a253-4a23545fe58c",
+      "slug": "hotel-grigna-barni",
+      "nome": "Hotel Grigna",
+      "city_name": "Barni",
+      "indirizzo": "Via Statale, 29, 23826 Mandello del Lario LC",
+      "lat": 45.915345,
+      "lng": 9.320634
+    },
+    {
+      "id": "f12b5c63-2217-42b2-a876-142cd7ff9240",
+      "slug": "hotel-mirabeau-bellagio-barni",
+      "nome": "Hotel Mirabeau Bellagio",
+      "city_name": "Barni",
+      "indirizzo": "Via Provinciale, 79, 22030 Alta, CO",
+      "lat": 45.927603,
+      "lng": 9.267876
+    },
+    {
+      "id": "edcf05e3-e73c-48cf-928e-b50d69b18fe3",
+      "slug": "hotel-ristorante-al-verde-barni",
+      "nome": "Hotel Ristorante Al Verde",
+      "city_name": "Barni",
+      "indirizzo": "Via Rossana, 5, 23826 Mandello del Lario LC",
+      "lat": 45.9293,
+      "lng": 9.330616
+    },
+    {
+      "id": "02ab7a70-c37b-40e4-8780-e454e440fd59",
+      "slug": "mamma-ciccia-rooms-apartments-barni",
+      "nome": "Mamma Ciccia rooms & apartments",
+      "city_name": "Barni",
+      "indirizzo": "Piazza Roma, 13, 23826 Mandello del Lario LC",
+      "lat": 45.912222,
+      "lng": 9.319167
+    },
+    {
+      "id": "3ab719d5-70c1-4150-a59f-0f83ce3d2877",
+      "slug": "nautilus-hotel-resort-lido-barni",
+      "nome": "Nautilus Hotel & Resort Lido",
+      "city_name": "Barni",
+      "indirizzo": "Strada Statale 583, 23826 Moregge LC",
+      "lat": 45.883901,
+      "lng": 9.331653
+    }
+  ]
+}

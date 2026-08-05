@@ -1,0 +1,323 @@
+{
+  "block": 194,
+  "blockId": "194",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "2da6930f-f54e-4cfd-97bc-b4a14140012a",
+      "slug": "oliver-hotel-di-oliveri-oliver-bagheria",
+      "nome": "Oliver Hotel Di Oliveri Oliver",
+      "city_name": "Bagheria",
+      "indirizzo": "Via Dottor Filippo Buttitta, 41, 90011 Bagheria PA",
+      "lat": 38.071966,
+      "lng": 13.503651
+    },
+    {
+      "id": "f0137dba-05a7-43e8-9007-7ded7d1609af",
+      "slug": "the-blue-and-red-rooms-bed-and-breakfast-bagheri-bagheria",
+      "nome": "The Blue and Red Rooms - Bed and Breakfast Bagheria - B&B -",
+      "city_name": "Bagheria",
+      "indirizzo": "Via Dante Alighieri, 107, 90011 Bagheria PA",
+      "lat": 38.083634,
+      "lng": 13.500325
+    },
+    {
+      "id": "7014a457-4027-4653-858c-9489ba829b9b",
+      "slug": "villa-buscemi-bagheria",
+      "nome": "Villa Buscemi",
+      "city_name": "Bagheria",
+      "indirizzo": "Vicinale Parisi IV, 5, 90011 Bagheria PA",
+      "lat": 38.09342,
+      "lng": 13.514314
+    },
+    {
+      "id": "a387043e-3feb-40eb-9e1c-1aca382a0698",
+      "slug": "affittacamere-san-cristoforo-bagnacavallo",
+      "nome": "Affittacamere San Cristoforo",
+      "city_name": "Bagnacavallo",
+      "indirizzo": "Via S. Cristoforo di Mezzeno, 1, 48018 Faenza RA",
+      "lat": 44.319454,
+      "lng": 11.908521
+    },
+    {
+      "id": "e471060b-87d5-44ae-b0cc-2116965c292f",
+      "slug": "alla-pieve-bagnacavallo",
+      "nome": "Alla Pieve",
+      "city_name": "Bagnacavallo",
+      "indirizzo": "Piazzale Luciano Lama, 1, 48012 Bagnacavallo RA",
+      "lat": 44.419257,
+      "lng": 11.973277
+    },
+    {
+      "id": "3ca7d535-10ea-4066-8f43-0bc76f50d8f5",
+      "slug": "antica-corte-lugo-affitti-brevi-e-appartamenti-v-bagnacavallo",
+      "nome": "Antica Corte Lugo - Affitti Brevi e Appartamenti Vacanza",
+      "city_name": "Bagnacavallo",
+      "indirizzo": "Corso Mazzini, 17, 48022 Lugo RA",
+      "lat": 44.421289,
+      "lng": 11.909882
+    },
+    {
+      "id": "f9b025d7-ca6c-415a-8c60-086a940153ba",
+      "slug": "antico-convento-san-francesco-bagnacavallo",
+      "nome": "Antico Convento San Francesco",
+      "city_name": "Bagnacavallo",
+      "indirizzo": "Via Luigi Cadorna, 10, 48012 Bagnacavallo RA",
+      "lat": 44.415861,
+      "lng": 11.972969
+    },
+    {
+      "id": "65b8e3af-dc89-4098-b17e-b6938c286f1c",
+      "slug": "b-b-hotel-faenza-bagnacavallo",
+      "nome": "B&B HOTEL Faenza",
+      "city_name": "Bagnacavallo",
+      "indirizzo": "Via S. Silvestro, 171, 48018 Faenza RA",
+      "lat": 44.3214,
+      "lng": 11.902356
+    },
+    {
+      "id": "6022e5de-bbcc-44ba-9990-2931fa7edc98",
+      "slug": "b-b-la-palazza-bagnacavallo",
+      "nome": "B&B La Palazza",
+      "city_name": "Bagnacavallo",
+      "indirizzo": "Via Palazza, 9, 48026 Russi RA",
+      "lat": 44.402418,
+      "lng": 12.054404
+    },
+    {
+      "id": "89e842d5-bd5e-4840-b0db-6c8c0677aa0f",
+      "slug": "b-b-la-torre-bagnacavallo",
+      "nome": "B&B La Torre",
+      "city_name": "Bagnacavallo",
+      "indirizzo": "Corso Sforza, 8, 48033 Cotignola RA",
+      "lat": 44.383009,
+      "lng": 11.94069
+    },
+    {
+      "id": "9ff71049-9626-4e18-b97a-43a8fafa85fc",
+      "slug": "b-b-le-due-magnolie-bagnacavallo",
+      "nome": "B&B Le due magnolie",
+      "city_name": "Bagnacavallo",
+      "indirizzo": "Via V. Monti, 13, 48033 Cotignola RA",
+      "lat": 44.387514,
+      "lng": 11.939004
+    },
+    {
+      "id": "76d5e003-d86c-45c0-8f49-bd967f1af90c",
+      "slug": "b-b-villa-dei-gelsi-a-cotignola-bagnacavallo",
+      "nome": "B&B Villa dei Gelsi a Cotignola",
+      "city_name": "Bagnacavallo",
+      "indirizzo": "Via S. Giovanni, 8, 48033 Barbiano RA",
+      "lat": 44.382481,
+      "lng": 11.899954
+    },
+    {
+      "id": "d855fc3f-fd0c-4fc7-bf0a-43d46f8131d6",
+      "slug": "dimora-deco-bagnacavallo",
+      "nome": "Dimora Decò",
+      "city_name": "Bagnacavallo",
+      "indirizzo": "Corso Giuseppe Garibaldi, 91, 48022 Lugo RA",
+      "lat": 44.415694,
+      "lng": 11.906942
+    },
+    {
+      "id": "4767d97e-4a42-4a9e-bcd9-2614bed3e572",
+      "slug": "hotel-al-flor-bagnacavallo",
+      "nome": "Hotel Al Flor",
+      "city_name": "Bagnacavallo",
+      "indirizzo": "Via Chiusa, 37, 48012 Bagnacavallo RA",
+      "lat": 44.413022,
+      "lng": 11.969185
+    },
+    {
+      "id": "bde380f4-74e7-4bc2-affd-304ec1686dbf",
+      "slug": "hotel-ala-d-oro-bagnacavallo",
+      "nome": "Hotel Ala d'Oro",
+      "city_name": "Bagnacavallo",
+      "indirizzo": "Via Giacomo Matteotti, 56, 48022 Lugo RA",
+      "lat": 44.419169,
+      "lng": 11.915279
+    },
+    {
+      "id": "68daa4f3-3423-4fdd-bfc7-d28a8080cc09",
+      "slug": "la-casetta-di-cotignola-di-tiziano-balzarotti-bagnacavallo",
+      "nome": "La Casetta Di Cotignola di Tiziano Balzarotti",
+      "city_name": "Bagnacavallo",
+      "indirizzo": "Via M. D'Azeglio, 28, 48033 Cotignola RA",
+      "lat": 44.386091,
+      "lng": 11.940925
+    },
+    {
+      "id": "1821a49e-88ea-407e-bf16-d3bdcc0d5331",
+      "slug": "night-day-affittacamere-di-laura-patuelli-bagnacavallo",
+      "nome": "Night&Day Affittacamere di Laura Patuelli",
+      "city_name": "Bagnacavallo",
+      "indirizzo": "Via Gaggio, 15, 48033 Cotignola RA",
+      "lat": 44.386647,
+      "lng": 11.905161
+    },
+    {
+      "id": "049bf596-a8d1-4c1c-90cd-c71e441bd62f",
+      "slug": "porta-mazzini-central-rooms-bagnacavallo",
+      "nome": "Porta Mazzini Central Rooms",
+      "city_name": "Bagnacavallo",
+      "indirizzo": "Via Giuseppe Mazzini, 39, 48012 Bagnacavallo RA",
+      "lat": 44.414963,
+      "lng": 11.974638
+    },
+    {
+      "id": "e09d61f0-77a4-47a2-aead-44d5f77f9a62",
+      "slug": "relais-casetta56-bagnacavallo",
+      "nome": "Relais Casetta56",
+      "city_name": "Bagnacavallo",
+      "indirizzo": "Via Chiusa, 56, 48012 Bagnacavallo RA",
+      "lat": 44.417559,
+      "lng": 11.944769
+    },
+    {
+      "id": "e929276c-0ee7-4d5a-bd5e-bb5dfa247384",
+      "slug": "albergo-delle-rose-bagnara-calabra",
+      "nome": "Albergo delle Rose",
+      "city_name": "Bagnara Calabra",
+      "indirizzo": "Corso Vittorio Emanuele II, 37, 89011 Bagnara Calabra RC",
+      "lat": 38.288492,
+      "lng": 15.804671
+    },
+    {
+      "id": "1728a6a4-49fe-4d4f-a63a-b5f08b38ff3c",
+      "slug": "b-b-al-vicoletto-bagnara-calabra",
+      "nome": "B&B Al Vicoletto",
+      "city_name": "Bagnara Calabra",
+      "indirizzo": "Via Raffaele Piria V vico, 11, 89058 Scilla RC",
+      "lat": 38.252584,
+      "lng": 15.716334
+    },
+    {
+      "id": "f3ea081a-48b1-491a-b63b-4da35c346985",
+      "slug": "b-b-bagnara-vista-mare-bagnara-calabra",
+      "nome": "B&B Bagnara Vista Mare",
+      "city_name": "Bagnara Calabra",
+      "indirizzo": "Via Don Giovanni Minzoni, 13, 89011 Bagnara Calabra RC",
+      "lat": 38.287355,
+      "lng": 15.805142
+    },
+    {
+      "id": "8f3cee5f-fe88-4eb2-9c1d-0d14660813ac",
+      "slug": "b-b-centrum-palmi-bagnara-calabra",
+      "nome": "B&B Centrum Palmi",
+      "city_name": "Bagnara Calabra",
+      "indirizzo": "Via Francesco Crispi, 42, 89015 Palmi RC",
+      "lat": 38.359019,
+      "lng": 15.847364
+    },
+    {
+      "id": "8b6539ab-8f58-47a5-abf5-3751166e297e",
+      "slug": "b-b-da-nonna-rita-bagnara-calabra",
+      "nome": "B&B Da Nonna Rita",
+      "city_name": "Bagnara Calabra",
+      "indirizzo": "Via Vittorio Emanuele III, n 38, 89011 Bagnara Calabra RC",
+      "lat": 38.287794,
+      "lng": 15.803829
+    },
+    {
+      "id": "c6196e45-5c7b-4d0b-992d-84b3b8ebe255",
+      "slug": "b-b-da-zio-toto-bagnara-calabra",
+      "nome": "B&B Da zio Totò",
+      "city_name": "Bagnara Calabra",
+      "indirizzo": "Via Piano, 12, 89058 Scilla RC",
+      "lat": 38.252865,
+      "lng": 15.71616
+    },
+    {
+      "id": "025beb1d-18d4-4bab-acbd-c1237947905b",
+      "slug": "b-b-degli-artisti-bagnara-calabra",
+      "nome": "B&B degli Artisti",
+      "city_name": "Bagnara Calabra",
+      "indirizzo": "Via Nazario Sauro, 13, 89015 Palmi RC",
+      "lat": 38.356364,
+      "lng": 15.84955
+    },
+    {
+      "id": "f9bb606c-7e25-489b-b27a-cdafe688e3e0",
+      "slug": "b-b-domus-palmi-cin-it080057c1rozim64u-bagnara-calabra",
+      "nome": "B&B Domus Palmi CIN IT080057C1ROZIM64U",
+      "city_name": "Bagnara Calabra",
+      "indirizzo": "Via A. Gramsci, 18, 89015 Palmi RC",
+      "lat": 38.355978,
+      "lng": 15.84643
+    },
+    {
+      "id": "944d89da-d50d-48f4-8070-adacdd597929",
+      "slug": "b-b-il-gabbiano-bagnara-calabra",
+      "nome": "B&B Il Gabbiano",
+      "city_name": "Bagnara Calabra",
+      "indirizzo": "Viale Filippo Turati, 61, 89011 Bagnara Calabra RC",
+      "lat": 38.285549,
+      "lng": 15.800998
+    },
+    {
+      "id": "4069b697-a043-458f-89f8-9cd5429cc0e8",
+      "slug": "bed-breakfast-anna-bagnara-calabra",
+      "nome": "Bed & Breakfast Anna",
+      "city_name": "Bagnara Calabra",
+      "indirizzo": "Uscita autostrada, SS 18 Tirrena Inferiore, 89011 Bagnara Calabra RC",
+      "lat": 38.310363,
+      "lng": 15.840616
+    },
+    {
+      "id": "118ef5b7-b571-4b9d-84b0-77e2698d022f",
+      "slug": "chiuso-bagnara-calabra",
+      "nome": "CHIUSO",
+      "city_name": "Bagnara Calabra",
+      "indirizzo": "Vico Parini, 1, 89011 Bagnara Calabra RC",
+      "lat": 38.286278,
+      "lng": 15.8028
+    },
+    {
+      "id": "43809020-68de-41ae-ad99-7c031b25a9d5",
+      "slug": "dimora-don-ciccillo-b-b-bagnara-calabra",
+      "nome": "Dimora Don Ciccillo B&B",
+      "city_name": "Bagnara Calabra",
+      "indirizzo": "Corso Vittorio Emanuele II, 124, 89011 Bagnara Calabra RC",
+      "lat": 38.28549,
+      "lng": 15.801378
+    },
+    {
+      "id": "18ab6fc8-3bc6-4199-a3d7-8d264033f8a1",
+      "slug": "grand-hotel-stella-maris-bagnara-calabra",
+      "nome": "Grand Hotel Stella Maris",
+      "city_name": "Bagnara Calabra",
+      "indirizzo": "Contrada S. Gaetano, 89015 Palmi RC",
+      "lat": 38.36738,
+      "lng": 15.868636
+    },
+    {
+      "id": "08c3c87b-18ea-44d6-9bf0-3845e8751d8d",
+      "slug": "grand-hotel-victoria-bagnara-calabra",
+      "nome": "Grand Hotel Victoria",
+      "city_name": "Bagnara Calabra",
+      "indirizzo": "Piazza Guglielmo Marconi, 4, 89011 Bagnara Calabra RC",
+      "lat": 38.286835,
+      "lng": 15.802384
+    },
+    {
+      "id": "a3fa3df6-a6f7-44e9-a89c-a512c5a6915b",
+      "slug": "green-park-residence-bagnara-calabra",
+      "nome": "GREEN PARK RESIDENCE",
+      "city_name": "Bagnara Calabra",
+      "indirizzo": "SP2, 1, 89011 Bagnara Calabra RC",
+      "lat": 38.291488,
+      "lng": 15.826853
+    },
+    {
+      "id": "48ee575e-305b-474e-9c19-8ef09e0a25a6",
+      "slug": "la-locandiera-bagnara-calabra",
+      "nome": "La Locandiera",
+      "city_name": "Bagnara Calabra",
+      "indirizzo": "Via Prof. Giuseppe Zagari, 34, 89058 Scilla RC",
+      "lat": 38.254395,
+      "lng": 15.716688
+    }
+  ]
+}

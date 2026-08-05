@@ -1,0 +1,323 @@
+{
+  "block": 276,
+  "blockId": "276",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "526254b4-7974-4b66-933b-7430eefd745f",
+      "slug": "la-maddalena-suite-rooms-bitonto",
+      "nome": "La Maddalena Suite & Rooms",
+      "city_name": "Bitonto",
+      "indirizzo": "Vico Galliani, 16, 70032 Bitonto BA",
+      "lat": 41.1082,
+      "lng": 16.690146
+    },
+    {
+      "id": "8dfde054-2f7a-40bc-ba57-0d5c8ab8f598",
+      "slug": "orchidea-bitonto",
+      "nome": "Orchidea",
+      "city_name": "Bitonto",
+      "indirizzo": "Via Giuseppe Lembo, 13, 70127 Bari BA",
+      "lat": 41.162319,
+      "lng": 16.745003
+    },
+    {
+      "id": "0ab9506e-d5a3-43b0-bdd3-b2bb27757905",
+      "slug": "palazzo-antica-via-appia-bitonto",
+      "nome": "Palazzo Antica Via Appia",
+      "city_name": "Bitonto",
+      "indirizzo": "Via Porta Robustina, 34, 70032 Bitonto BA",
+      "lat": 41.106864,
+      "lng": 16.688094
+    },
+    {
+      "id": "8ae2364a-6ab1-4a1e-a402-9e3478a42c44",
+      "slug": "san-marco-antico-relais-bitonto",
+      "nome": "San Marco Antico Relais",
+      "city_name": "Bitonto",
+      "indirizzo": "Via Altone, S.N, 70032 Bitonto BA",
+      "lat": 41.12508,
+      "lng": 16.707847
+    },
+    {
+      "id": "e46e8afc-38ab-42b4-8eab-1f7b08957a96",
+      "slug": "suite-spa-of-dreams-bitonto",
+      "nome": "Suite Spa Of Dreams",
+      "city_name": "Bitonto",
+      "indirizzo": "Corte S. Domenico, 6, 70032 Bitonto BA",
+      "lat": 41.105507,
+      "lng": 16.689188
+    },
+    {
+      "id": "bcb893d7-0e07-4618-bbe2-094d94907bc5",
+      "slug": "tenuta-gurgo-bitonto",
+      "nome": "Tenuta Gurgo",
+      "city_name": "Bitonto",
+      "indirizzo": "Via Patierno, 70032 C.da Santa Susanna, Bitonto BA",
+      "lat": 41.130344,
+      "lng": 16.706659
+    },
+    {
+      "id": "86bee268-cf77-4369-9a2b-1cb3328b659f",
+      "slug": "villa-palladino-bitonto",
+      "nome": "Villa Palladino",
+      "city_name": "Bitonto",
+      "indirizzo": "Via Paul Harris, 22, 70054 Giovinazzo BA",
+      "lat": 41.168605,
+      "lng": 16.73112
+    },
+    {
+      "id": "c0375c65-5b7c-4f8c-81f9-a311ff35d890",
+      "slug": "b-b-alta-dimora-bitritto",
+      "nome": "B&B Alta Dimora",
+      "city_name": "Bitritto",
+      "indirizzo": "Via Filippo Turati, 2, 70020 Bitritto BA",
+      "lat": 41.046582,
+      "lng": 16.827768
+    },
+    {
+      "id": "151298d3-16f7-411a-890a-080a1af9659c",
+      "slug": "b-b-butterfly-suite-bitritto",
+      "nome": "B&B Butterfly Suite",
+      "city_name": "Bitritto",
+      "indirizzo": "Via Alcide De Gasperi, 8A, 70020 Bitritto BA",
+      "lat": 41.045976,
+      "lng": 16.826508
+    },
+    {
+      "id": "526442d8-29cd-4cfb-a78b-e29b1899b1c4",
+      "slug": "b-b-casa-di-illy-bitritto",
+      "nome": "B&B Casa di Illy",
+      "city_name": "Bitritto",
+      "indirizzo": "Via Luigi Settembrini, 29, 70020 Bitritto BA",
+      "lat": 41.040473,
+      "lng": 16.826488
+    },
+    {
+      "id": "ea58aaa6-b6b6-4f3a-a76d-08a68f5c9705",
+      "slug": "b-b-dormireabari-bitritto",
+      "nome": "B&B Dormireabari",
+      "city_name": "Bitritto",
+      "indirizzo": "Via Giuseppe Mazzini, 20, 70020 Bitritto BA",
+      "lat": 41.038192,
+      "lng": 16.828082
+    },
+    {
+      "id": "ee177336-c6bf-4c1b-85ae-d135e9c9e79f",
+      "slug": "b-b-la-dimora-del-re-bitritto",
+      "nome": "B&B La Dimora del Re",
+      "city_name": "Bitritto",
+      "indirizzo": "Via Don Lorenzo Milani, 18/20, 70020 Bitritto BA",
+      "lat": 41.038471,
+      "lng": 16.829387
+    },
+    {
+      "id": "ea79de0a-39d5-4662-8704-fdd5626b659a",
+      "slug": "b-b-la-perla-bitritto",
+      "nome": "B&B La perla",
+      "city_name": "Bitritto",
+      "indirizzo": "Via Giuseppe Lembo, 6, 70127 Bari BA",
+      "lat": 41.162865,
+      "lng": 16.745817
+    },
+    {
+      "id": "d1f4458c-31f9-4f62-97f0-8b879b97a4e6",
+      "slug": "b-b-mirage-bitritto",
+      "nome": "B&B MIRAGE",
+      "city_name": "Bitritto",
+      "indirizzo": "Via Bitritto, 128/bis, 70124 Bari BA",
+      "lat": 41.075779,
+      "lng": 16.831394
+    },
+    {
+      "id": "5c0b1fa2-677d-4675-8675-06c4a04af13e",
+      "slug": "bed-breakfast-santa-fara-residence-bitritto",
+      "nome": "Bed & Breakfast Santa Fara Residence",
+      "city_name": "Bitritto",
+      "indirizzo": "Via Bitritto, 100d, 70124 Bari BA",
+      "lat": 41.097958,
+      "lng": 16.844257
+    },
+    {
+      "id": "6ea0ee97-865d-4aaf-8a89-1a97fc0ccdee",
+      "slug": "dimora-odigitria-b-b-bitritto",
+      "nome": "Dimora Odigitria B&B",
+      "city_name": "Bitritto",
+      "indirizzo": "Via Fascilla, 1, 70020 Bitritto BA",
+      "lat": 41.041624,
+      "lng": 16.826867
+    },
+    {
+      "id": "547670e2-ce84-41cc-95ce-786fc17e3aa4",
+      "slug": "hotel-new-bari-bitritto",
+      "nome": "Hotel New Bari",
+      "city_name": "Bitritto",
+      "indirizzo": "Via Giuseppe Mazzini, 34, 70020 Bitritto BA",
+      "lat": 41.038185,
+      "lng": 16.827465
+    },
+    {
+      "id": "d6a348fa-7149-4e9b-91a9-6f641c861493",
+      "slug": "hotel-olivo-bitritto",
+      "nome": "Hotel Olivò",
+      "city_name": "Bitritto",
+      "indirizzo": "Via Carlo Levi, 12, 70020 Bitritto BA",
+      "lat": 41.041917,
+      "lng": 16.82145
+    },
+    {
+      "id": "582983c5-1964-422d-b958-7695a0821e15",
+      "slug": "il-bergamotto-affittacamere-guesthouse-b-b-bitritto",
+      "nome": "Il Bergamotto • Affittacamere • Guesthouse • B&B",
+      "city_name": "Bitritto",
+      "indirizzo": "Via Monsignor Enrico Nicodemo, 16, 70020 Bitritto BA",
+      "lat": 41.048163,
+      "lng": 16.825242
+    },
+    {
+      "id": "ed7a547e-4115-4921-bb6f-66d243394deb",
+      "slug": "palazzo-mimi-bitritto",
+      "nome": "Palazzo Mimi",
+      "city_name": "Bitritto",
+      "indirizzo": "Via Luigi Cadorna, 4, 70020 Bitritto BA",
+      "lat": 41.041677,
+      "lng": 16.825365
+    },
+    {
+      "id": "9911d2f4-ad8e-43e3-a528-ce696c62aca3",
+      "slug": "paradise-rooms-apartments-bitritto",
+      "nome": "Paradise Rooms Apartments",
+      "city_name": "Bitritto",
+      "indirizzo": "Via Nicola Balenzano, 21, 70020 Bitritto BA",
+      "lat": 41.040492,
+      "lng": 16.825954
+    },
+    {
+      "id": "4540837b-908f-4524-923e-4c071b271bcb",
+      "slug": "vetritte-luxury-bitritto",
+      "nome": "Vetritte Luxury",
+      "city_name": "Bitritto",
+      "indirizzo": "Via Giusti Vescovo, 6, 70020 Bitritto BA",
+      "lat": 41.041004,
+      "lng": 16.825572
+    },
+    {
+      "id": "de4e5322-c95c-49a8-a035-9e4bf655c019",
+      "slug": "agua-dorada-boutique-hotel-bitti",
+      "nome": "Agua Dorada boutique hotel",
+      "city_name": "Bitti",
+      "indirizzo": "Via Berlinguer, 7, 08020 Lula NU",
+      "lat": 40.47176,
+      "lng": 9.494252
+    },
+    {
+      "id": "0e58ce4d-e3ec-4382-b0aa-f4269eb7d57e",
+      "slug": "albergo-antico-borgo-bitti",
+      "nome": "Albergo Antico Borgo",
+      "city_name": "Bitti",
+      "indirizzo": "V. Canne al Vento, 7, 08020 Galtellì NU",
+      "lat": 40.386104,
+      "lng": 9.616337
+    },
+    {
+      "id": "39286a5f-06b1-4c80-b0ee-49e79d9381d0",
+      "slug": "b-b-mes-agustu-bitti",
+      "nome": "B&B Mes'Agustu",
+      "city_name": "Bitti",
+      "indirizzo": "Via Cedrino, 08020 Galtellì NU",
+      "lat": 40.387702,
+      "lng": 9.614922
+    },
+    {
+      "id": "f9c9f6cf-e30c-4083-b57c-107e6b2fc24e",
+      "slug": "b-b-notte-al-museo-bitti",
+      "nome": "B&B Notte al Museo",
+      "city_name": "Bitti",
+      "indirizzo": "Via Goffredo Mameli, 08021 Bitti NU",
+      "lat": 40.477508,
+      "lng": 9.381655
+    },
+    {
+      "id": "36864bc9-6588-470f-ac05-1024ef6318a1",
+      "slug": "b-b-oasi-tepilora-bitti",
+      "nome": "B&B Oasi Tepilora",
+      "city_name": "Bitti",
+      "indirizzo": "V. Nino Bixio, 95, 08021 Bitti NU",
+      "lat": 40.479345,
+      "lng": 9.381992
+    },
+    {
+      "id": "87a6e875-ad75-4e70-be28-2627931f7318",
+      "slug": "b-b-roseddu-bitti",
+      "nome": "B&B Roseddu",
+      "city_name": "Bitti",
+      "indirizzo": "Via Brigata Reggio, 6, 08021 Bitti NU",
+      "lat": 40.477789,
+      "lng": 9.384448
+    },
+    {
+      "id": "3e2bc66d-9306-48b3-9023-4136a018a026",
+      "slug": "b-b-sa-domo-de-diosa-bitti",
+      "nome": "B&B Sa Domo de Diosa",
+      "city_name": "Bitti",
+      "indirizzo": "08021 Bitti NU",
+      "lat": 40.477067,
+      "lng": 9.383449
+    },
+    {
+      "id": "cdcb161a-4b7d-478a-ac28-e7dd51ced32c",
+      "slug": "b-b-sa-zodia-guest-house-bitti",
+      "nome": "B&B Sa Zodia Guest House",
+      "city_name": "Bitti",
+      "indirizzo": "Via Brescia, 25, 08021 Bitti NU",
+      "lat": 40.479093,
+      "lng": 9.382763
+    },
+    {
+      "id": "ebff0920-b6db-4044-9875-396e6ab5a2fa",
+      "slug": "b-b-santu-tomas-bitti",
+      "nome": "B&B Santu Tomas",
+      "city_name": "Bitti",
+      "indirizzo": "Via S. Tommaso, 2, 08021 Bitti NU",
+      "lat": 40.476395,
+      "lng": 9.383896
+    },
+    {
+      "id": "b67cf45c-fbf9-4fa8-89f8-59f7a6e9a924",
+      "slug": "casa-solotti-bitti",
+      "nome": "Casa Solotti",
+      "city_name": "Bitti",
+      "indirizzo": "Localita'Solotti Monte Ortobene, Nuoro, 08100 Nuoro NU",
+      "lat": 40.327484,
+      "lng": 9.371292
+    },
+    {
+      "id": "ce8b69c6-9656-4bb7-b3fa-60159111e593",
+      "slug": "grazia-deledda-bitti",
+      "nome": "Grazia Deledda",
+      "city_name": "Bitti",
+      "indirizzo": "Via Nazionale, 233, 08020 Galtellì NU",
+      "lat": 40.381784,
+      "lng": 9.607431
+    },
+    {
+      "id": "c211c702-400e-4e2f-a7d7-c19ce18e3e61",
+      "slug": "mary-house-bitti",
+      "nome": "Mary House",
+      "city_name": "Bitti",
+      "indirizzo": "Via Berbera, 2, 08100 Nuoro NU",
+      "lat": 40.325906,
+      "lng": 9.333763
+    },
+    {
+      "id": "90aaf3e7-8bc3-4bf9-a962-e99252918d40",
+      "slug": "nughe-e-oro-guesthouse-homestay-bitti",
+      "nome": "Nughe 'e' Oro Guesthouse Homestay",
+      "city_name": "Bitti",
+      "indirizzo": "Via Giacomo Matteotti, 14, 08100 Nuoro NU",
+      "lat": 40.320124,
+      "lng": 9.335288
+    }
+  ]
+}

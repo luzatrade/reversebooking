@@ -1,0 +1,323 @@
+{
+  "block": 190,
+  "blockId": "190",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "1bbb4085-0dc9-40d5-9cdb-961368b2071e",
+      "slug": "albergo-graziella-arma-di-taggia-badalucco",
+      "nome": "Albergo Graziella Arma di Taggia",
+      "city_name": "Badalucco",
+      "indirizzo": "Via Lido, 3, 18018 Arma di Taggia IM",
+      "lat": 43.83184,
+      "lng": 7.853842
+    },
+    {
+      "id": "e6bd22af-3c39-405f-9259-739a452f1728",
+      "slug": "albergo-lucciola-riviera-dei-fiori-badalucco",
+      "nome": "Albergo Lucciola Riviera dei Fiori",
+      "city_name": "Badalucco",
+      "indirizzo": "Via Gianni Cozzi, 4, 18010 Santo Stefano al Mare IM",
+      "lat": 43.837475,
+      "lng": 7.906758
+    },
+    {
+      "id": "f605ba15-b8ae-437a-a0f3-6f1284400fbc",
+      "slug": "best-western-hotel-anthurium-badalucco",
+      "nome": "Best Western Hotel Anthurium",
+      "city_name": "Badalucco",
+      "indirizzo": "Via Aurelia Levante, 2/18, 18010 Santo Stefano al Mare IM",
+      "lat": 43.838128,
+      "lng": 7.898525
+    },
+    {
+      "id": "a89f22f7-40c6-4bcb-b05a-547c6bbace79",
+      "slug": "castellaro-golf-resort-hotel-badalucco",
+      "nome": "Castellaro Golf Resort Hotel",
+      "city_name": "Badalucco",
+      "indirizzo": "Str. per i Piani, 1, 18011 Castellaro IM",
+      "lat": 43.855926,
+      "lng": 7.877817
+    },
+    {
+      "id": "09ab2649-998b-4275-869d-c8e0fcaa3f5e",
+      "slug": "hotel-arma-badalucco",
+      "nome": "Hotel Arma",
+      "city_name": "Badalucco",
+      "indirizzo": "Via Aurelia Levante, 18018 Arma di Taggia IM",
+      "lat": 43.835807,
+      "lng": 7.856031
+    },
+    {
+      "id": "c10169cc-f151-4dd2-9a41-f559331d502c",
+      "slug": "hotel-corso-badalucco",
+      "nome": "Hotel Corso",
+      "city_name": "Badalucco",
+      "indirizzo": "Corso Felice Cavallotti, 194, 18038 Sanremo IM",
+      "lat": 43.821748,
+      "lng": 7.794355
+    },
+    {
+      "id": "8c619d5e-5b14-4be0-80b5-a3af16e05369",
+      "slug": "hotel-ideal-badalucco",
+      "nome": "Hotel Ideal",
+      "city_name": "Badalucco",
+      "indirizzo": "Via Lungomare, 25, 18018 Arma di Taggia IM",
+      "lat": 43.829936,
+      "lng": 7.848069
+    },
+    {
+      "id": "6ffa1af7-fae1-4325-b0bb-f49ab70e883f",
+      "slug": "hotel-jean-marie-badalucco",
+      "nome": "Hotel Jean Marie",
+      "city_name": "Badalucco",
+      "indirizzo": "Via Andrea Doria, 40, 18018 Arma di Taggia IM",
+      "lat": 43.833152,
+      "lng": 7.851451
+    },
+    {
+      "id": "f06217ce-d2ec-4e06-a325-7ae1a1073f45",
+      "slug": "hotel-svizzera-badalucco",
+      "nome": "Hotel Svizzera",
+      "city_name": "Badalucco",
+      "indirizzo": "Via Lungomare, 123, 18018 Arma di Taggia IM",
+      "lat": 43.831047,
+      "lng": 7.85167
+    },
+    {
+      "id": "d339c090-fdc4-4b91-b574-0075e458b75f",
+      "slug": "hotel-vita-serena-badalucco",
+      "nome": "Hotel Vita Serena",
+      "city_name": "Badalucco",
+      "indirizzo": "Via Candido Queirolo, 102, 18018 Taggia IM",
+      "lat": 43.830507,
+      "lng": 7.849228
+    },
+    {
+      "id": "10a11da7-4964-4760-b452-396a4014a44b",
+      "slug": "il-ricamo-badalucco",
+      "nome": "Il Ricamo",
+      "city_name": "Badalucco",
+      "indirizzo": "Via Giobatta Boeri, 3, 18010 Badalucco IM",
+      "lat": 43.916035,
+      "lng": 7.847659
+    },
+    {
+      "id": "524338e3-d2bf-4b24-be39-a8013ee5eb00",
+      "slug": "residence-del-prado-badalucco",
+      "nome": "Residence del Prado",
+      "city_name": "Badalucco",
+      "indirizzo": "Corso Villaregia, 120, 18015 Riva Ligure IM",
+      "lat": 43.836429,
+      "lng": 7.876114
+    },
+    {
+      "id": "a1807b96-18cd-4c0d-a54d-111b02cee54e",
+      "slug": "ristorante-albergo-santo-spirito-badalucco",
+      "nome": "Ristorante Albergo Santo Spirito",
+      "city_name": "Badalucco",
+      "indirizzo": "Piazza Roma, 23, 18010 Molini di Triora IM",
+      "lat": 43.990288,
+      "lng": 7.774726
+    },
+    {
+      "id": "82e57507-8282-43ba-b820-21fbd5fa3c2c",
+      "slug": "abbaidda-hotel-badesi",
+      "nome": "Abbaidda Hotel",
+      "city_name": "Badesi",
+      "indirizzo": "Via A. Diaz, 07039 La Muddizza SS",
+      "lat": 40.910756,
+      "lng": 8.796098
+    },
+    {
+      "id": "abd76740-bb7e-4f63-9140-1d0f5596bb01",
+      "slug": "b-b-casetta-al-mare-badesi",
+      "nome": "B&B casetta al mare",
+      "city_name": "Badesi",
+      "indirizzo": "Lungomare Dettori, 23, 07038 Isola Rossa OT",
+      "lat": 41.012416,
+      "lng": 8.8752
+    },
+    {
+      "id": "505e5d7b-3157-471c-a461-4848a44068c7",
+      "slug": "b-b-le-peonie-badesi",
+      "nome": "B&B Le Peonie",
+      "city_name": "Badesi",
+      "indirizzo": "V. Tito Speri, 14, 07030 La Tozza OT",
+      "lat": 40.956483,
+      "lng": 8.886891
+    },
+    {
+      "id": "5c1cf10b-1a75-48fa-827b-149073cee790",
+      "slug": "borgo-bellavista-badesi-affitto-case-vacanza-badesi",
+      "nome": "Borgo Bellavista Badesi - Affitto case vacanza",
+      "city_name": "Badesi",
+      "indirizzo": "Via Porrino, 10, 07030 Badesi OT",
+      "lat": 40.965389,
+      "lng": 8.88741
+    },
+    {
+      "id": "9379b6cf-a08e-4210-9032-28c507b030b0",
+      "slug": "horizon-hotel-badesi-badesi",
+      "nome": "Horizon Hotel Badesi",
+      "city_name": "Badesi",
+      "indirizzo": "Via Mare, 31, 07030 Badesi OT",
+      "lat": 40.968442,
+      "lng": 8.877168
+    },
+    {
+      "id": "a8892a60-34b4-4eba-9ec3-0500b7af62bc",
+      "slug": "hotel-ariadimari-badesi",
+      "nome": "HOTEL ARIADIMARI",
+      "city_name": "Badesi",
+      "indirizzo": "Via Regina Elena, 78, 07039 Valledoria SS",
+      "lat": 40.924433,
+      "lng": 8.825624
+    },
+    {
+      "id": "d2b5cf11-2e7e-4fdf-8fcc-3f424966bca3",
+      "slug": "hotel-panorama-badesi",
+      "nome": "Hotel Panorama",
+      "city_name": "Badesi",
+      "indirizzo": "Via Mare, 37, 07030 Badesi OT",
+      "lat": 40.968782,
+      "lng": 8.87673
+    },
+    {
+      "id": "fba99cc7-dca9-4236-9a2a-9bc67db6a700",
+      "slug": "hotel-ristorante-marina-badesi-badesi",
+      "nome": "Hotel Ristorante Marina (Badesi)",
+      "city_name": "Badesi",
+      "indirizzo": "Locc vaddi lungoni, SP90, 07030 Badesi OT",
+      "lat": 40.96196,
+      "lng": 8.877509
+    },
+    {
+      "id": "5b2df6a5-2693-49d3-a5b3-5aab01cf44b5",
+      "slug": "i-giardini-di-badus-reception-badesi",
+      "nome": "I Giardini di Badus - Reception",
+      "city_name": "Badesi",
+      "indirizzo": "Via Brigata Sassari, 27, 07030 Badesi OT",
+      "lat": 40.96475,
+      "lng": 8.880601
+    },
+    {
+      "id": "1bfd2876-fc5f-46dd-b4fc-d5885a5e61b9",
+      "slug": "is-serenas-badesi-resort-badesi",
+      "nome": "Is Serenas Badesi Resort",
+      "city_name": "Badesi",
+      "indirizzo": "Località Maccia Boina, 07030 Badesi OT",
+      "lat": 40.954403,
+      "lng": 8.839845
+    },
+    {
+      "id": "e5e8237b-697a-4c6e-9717-e4b2a0c498f3",
+      "slug": "la-foce-village-camping-badesi",
+      "nome": "La Foce Village&Camping",
+      "city_name": "Badesi",
+      "indirizzo": "Via Ampurias, 110, 07039 Valledoria SS",
+      "lat": 40.933235,
+      "lng": 8.817356
+    },
+    {
+      "id": "0259e677-a00e-42e6-acfd-7f6423b8ff9d",
+      "slug": "residence-borgo-del-turchese-badesi",
+      "nome": "Residence Borgo del Turchese",
+      "city_name": "Badesi",
+      "indirizzo": "Via Mare, 29, 07030 Badesi OT",
+      "lat": 40.967855,
+      "lng": 8.87632
+    },
+    {
+      "id": "dddb7378-557c-4846-8132-659c8a6cf5d2",
+      "slug": "residence-costa-del-turchese-badesi",
+      "nome": "Residence Costa del Turchese",
+      "city_name": "Badesi",
+      "indirizzo": "Via Mare, 29, 07030 Badesi OT",
+      "lat": 40.967873,
+      "lng": 8.876666
+    },
+    {
+      "id": "5b74bfe0-f874-4970-917e-9543293d63f6",
+      "slug": "residence-i-delfini-badesi",
+      "nome": "Residence I Delfini",
+      "city_name": "Badesi",
+      "indirizzo": "Via Giovanni Pascoli, 07030 Badesi OT",
+      "lat": 40.964857,
+      "lng": 8.877988
+    },
+    {
+      "id": "e5fa753c-2ec7-457d-83d1-76f3def9083f",
+      "slug": "residence-le-onde-badesi",
+      "nome": "Residence Le Onde",
+      "city_name": "Badesi",
+      "indirizzo": "Via Dettori, 20, 07030 Badesi OT",
+      "lat": 40.966407,
+      "lng": 8.877655
+    },
+    {
+      "id": "a8e816d7-f73c-4973-b520-1f954a566033",
+      "slug": "residence-pierre-vacances-badus-badesi",
+      "nome": "Residence Pierre & Vacances Badus",
+      "city_name": "Badesi",
+      "indirizzo": "Via Brigata Sassari, 27, 07030 Badesi OT",
+      "lat": 40.964368,
+      "lng": 8.881522
+    },
+    {
+      "id": "a202646d-165c-4fd0-8eb0-7b000ca3c448",
+      "slug": "residenza-beb-borgo-marino-badesi",
+      "nome": "Residenza BeB Borgo Marino",
+      "city_name": "Badesi",
+      "indirizzo": "Via Dettori, 07030 Badesi OT",
+      "lat": 40.966401,
+      "lng": 8.878628
+    },
+    {
+      "id": "013cb86d-46ae-4e16-928f-aab85664fd7c",
+      "slug": "resort-spa-le-dune-badesi",
+      "nome": "Resort & SPA Le Dune",
+      "city_name": "Badesi",
+      "indirizzo": "Loc, 07030 Li Junchi OT",
+      "lat": 40.976839,
+      "lng": 8.860464
+    },
+    {
+      "id": "21304b60-5709-4479-92fa-f0d95e3a9c97",
+      "slug": "villa-agnese-badesi",
+      "nome": "Villa Agnese",
+      "city_name": "Badesi",
+      "indirizzo": "Via Riu Balbaru, 24, 07030 Badesi OT",
+      "lat": 40.962364,
+      "lng": 8.884627
+    },
+    {
+      "id": "88687211-e6ed-4c2b-884d-4bf5ccffeea6",
+      "slug": "b-b-ca-monte-mezzano-badia-calavena",
+      "nome": "B&B Cà Monte Mezzano",
+      "city_name": "Badia Calavena",
+      "indirizzo": "Via trezzolano, 8 A, 37141 Verona VR",
+      "lat": 45.502187,
+      "lng": 11.071101
+    },
+    {
+      "id": "54070cdf-a713-4d3c-bb2d-3526a5959581",
+      "slug": "b-b-villa-riva-badia-calavena",
+      "nome": "B&B Villa Riva",
+      "city_name": "Badia Calavena",
+      "indirizzo": "Via Riva, 17A, 37030 Badia Calavena VR",
+      "lat": 45.55895,
+      "lng": 11.14857
+    },
+    {
+      "id": "26d6ce15-f62f-46b8-9c94-db35c78bc1e1",
+      "slug": "bed-and-breakfast-corte-galo-badia-calavena",
+      "nome": "Bed and Breakfast Corte Galo",
+      "city_name": "Badia Calavena",
+      "indirizzo": "Via Pagnaghe, 16/A, 37039 Tregnago VR",
+      "lat": 45.497481,
+      "lng": 11.149979
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 249,
+  "blockId": "249",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "dcf4db1f-703f-4746-bdc0-eea57c8ce513",
+      "slug": "hotel-belvedere-bellona",
+      "nome": "Hotel Belvedere",
+      "city_name": "Bellona",
+      "indirizzo": "SS87, 85, 81100 Caserta CE",
+      "lat": 41.106405,
+      "lng": 14.306749
+    },
+    {
+      "id": "3a682a7a-3eaa-478c-ba8f-497c44427039",
+      "slug": "hotel-capys-s-r-l-bellona",
+      "nome": "Hotel Capys S. R. L.",
+      "city_name": "Bellona",
+      "indirizzo": "Via Santa Maria la Fossa, 24, 81043 Capua CE",
+      "lat": 41.103326,
+      "lng": 14.208384
+    },
+    {
+      "id": "872c878c-613b-410f-925a-238d02d98c39",
+      "slug": "hotel-del-sole-bellona",
+      "nome": "Hotel Del Sole",
+      "city_name": "Bellona",
+      "indirizzo": "Contrada Santa Justa, 81050 Pastorano CE",
+      "lat": 41.162445,
+      "lng": 14.173659
+    },
+    {
+      "id": "c6631ed3-228e-43e6-9c7f-b5924f5e08bf",
+      "slug": "hotel-miami-bellona",
+      "nome": "Hotel Miami ️️️",
+      "city_name": "Bellona",
+      "indirizzo": "SP 333, 20, 81041 Triflisco CE",
+      "lat": 41.135095,
+      "lng": 14.256321
+    },
+    {
+      "id": "5c1e23ae-da37-482e-a396-2859cffb8fda",
+      "slug": "hotel-the-queen-bellona",
+      "nome": "Hotel The Queen",
+      "city_name": "Bellona",
+      "indirizzo": "Via Casilina, Km. 191.300, 81050 Pastorano CE",
+      "lat": 41.168278,
+      "lng": 14.166145
+    },
+    {
+      "id": "7d7114cd-38ff-425e-961e-5af79c50ec3f",
+      "slug": "la-cascina-eurhotel-bellona",
+      "nome": "La Cascina Eurhotel",
+      "city_name": "Bellona",
+      "indirizzo": "S.s. Appia, Km 194, 81050 Pastorano CE",
+      "lat": 41.15773,
+      "lng": 14.174296
+    },
+    {
+      "id": "dc0779e4-feeb-4ce9-9ad5-b9a517d4308a",
+      "slug": "medea-resort-hotel-ricevimenti-bellona",
+      "nome": "Medea Resort Hotel & Ricevimenti",
+      "city_name": "Bellona",
+      "indirizzo": "SP 333, 11, 81041 Triflisco CE",
+      "lat": 41.135674,
+      "lng": 14.255691
+    },
+    {
+      "id": "f031c838-aa33-4280-b048-32aa7cfdbce9",
+      "slug": "sotto-le-stelle-di-capua-b-b-bellona",
+      "nome": "Sotto le stelle di capua B&B",
+      "city_name": "Bellona",
+      "indirizzo": "Via Duomo, 14/Terzo Piano, Int.1, 81043 Capua CE",
+      "lat": 41.108302,
+      "lng": 14.211161
+    },
+    {
+      "id": "3c4e9024-7b07-40e0-81ec-d045a5459ca0",
+      "slug": "tenuta-san-domenico-bellona",
+      "nome": "Tenuta San Domenico",
+      "city_name": "Bellona",
+      "indirizzo": "Traversa di Via Provinciale, Via Galatina, 81043 Sant'Angelo In Formis CE",
+      "lat": 41.125376,
+      "lng": 14.243594
+    },
+    {
+      "id": "97747ed7-fee0-41b0-bab2-b8d89eaf2feb",
+      "slug": "agriturismo-li-guira-bellosguardo",
+      "nome": "Agriturismo Li Guira",
+      "city_name": "Bellosguardo",
+      "indirizzo": "Contrada Cannavali, snc, 84075 Stio SA",
+      "lat": 40.30229,
+      "lng": 15.27073
+    },
+    {
+      "id": "4246f4de-ff91-4ce3-97ad-85486fb3215e",
+      "slug": "b-b-antonella-bellosguardo",
+      "nome": "B&B Antonella",
+      "city_name": "Bellosguardo",
+      "indirizzo": "Via Ortale, 6, 84060 Perito SA",
+      "lat": 40.300241,
+      "lng": 15.148379
+    },
+    {
+      "id": "8a30ab32-6ce1-4102-83e8-ff1bdc0f9b3f",
+      "slug": "le-cammarose-bellosguardo",
+      "nome": "Le Cammarose",
+      "city_name": "Bellosguardo",
+      "indirizzo": "Contrada Cammarose, 84055 Felitto SA",
+      "lat": 40.395468,
+      "lng": 15.275606
+    },
+    {
+      "id": "509b50fd-66ef-46d4-b5cd-c2287b6cc22f",
+      "slug": "villa-vilu-bellosguardo",
+      "nome": "Villa Vilù",
+      "city_name": "Bellosguardo",
+      "indirizzo": "c/da Tufolo, Bellosguardo, Italy, 84020, 84020 Bellosguardo SA",
+      "lat": 40.419765,
+      "lng": 15.311837
+    },
+    {
+      "id": "eda69c1d-5480-405e-b32d-f2f0f8899a51",
+      "slug": "al-torrione-belluno",
+      "nome": "Al torrione",
+      "city_name": "Belluno",
+      "indirizzo": "Via Roma, 15, 32100 Belluno BL",
+      "lat": 46.14018,
+      "lng": 12.217962
+    },
+    {
+      "id": "a592fbe8-f90c-491d-a441-4fcd042a0ed2",
+      "slug": "albergo-mirella-belluno",
+      "nome": "Albergo Mirella",
+      "city_name": "Belluno",
+      "indirizzo": "Via Don Giovanni Minzoni, 6, 32100 Belluno BL",
+      "lat": 46.146015,
+      "lng": 12.198838
+    },
+    {
+      "id": "0a28f815-f97a-4a56-9632-ff205aa5bdb6",
+      "slug": "b-b-al-sole-di-cavessago-belluno",
+      "nome": "B & B \"Al sole di Cavessago\"",
+      "city_name": "Belluno",
+      "indirizzo": "Via della Vigna, 44, 32100 Belluno BL",
+      "lat": 46.122124,
+      "lng": 12.221624
+    },
+    {
+      "id": "2b8b355b-8674-416b-827c-2f9f2e13cdf6",
+      "slug": "casa-de-bertoldi-agriturismo-belluno",
+      "nome": "Casa de Bertoldi - Agriturismo",
+      "city_name": "Belluno",
+      "indirizzo": "Villa alla Costa, Via Pedecastello, 40, 32024 Castion BL",
+      "lat": 46.137765,
+      "lng": 12.239016
+    },
+    {
+      "id": "29ac8451-817f-4b83-b26c-cce41b1a172b",
+      "slug": "casa-fullin-belluno",
+      "nome": "Casa Fullin",
+      "city_name": "Belluno",
+      "indirizzo": "Via Cusighe, 3, 32100 Belluno BL",
+      "lat": 46.156111,
+      "lng": 12.224659
+    },
+    {
+      "id": "37a08a40-3bb9-41d6-b06c-35fb0b7a079c",
+      "slug": "casa-per-ferie-al-centro-belluno",
+      "nome": "Casa Per Ferie Al Centro",
+      "city_name": "Belluno",
+      "indirizzo": "Piazza Giorgio Piloni, 11, 32100 Belluno BL",
+      "lat": 46.140586,
+      "lng": 12.21579
+    },
+    {
+      "id": "9e100973-9c69-4c13-909e-02acf59c329f",
+      "slug": "dolomiti-suite-belluno",
+      "nome": "Dolomiti Suite",
+      "city_name": "Belluno",
+      "indirizzo": "Via Feltre, 25, 32100 Belluno BL",
+      "lat": 46.138212,
+      "lng": 12.207157
+    },
+    {
+      "id": "41304315-903f-4704-bf2a-38a53a6e1c1e",
+      "slug": "dolomitinice1-belluno",
+      "nome": "DolomitiNice1",
+      "city_name": "Belluno",
+      "indirizzo": "Via Cordevole, 82, 32100 Belluno BL",
+      "lat": 46.14217,
+      "lng": 12.16737
+    },
+    {
+      "id": "dfb2b494-1b4b-41f0-809e-bedce127e687",
+      "slug": "dormire-caldi-affittacamere-belluno",
+      "nome": "DORMIRE CALDI Affittacamere",
+      "city_name": "Belluno",
+      "indirizzo": "Via Cavassico Inferiore, 9, 32026 Trichiana BL",
+      "lat": 46.078818,
+      "lng": 12.137546
+    },
+    {
+      "id": "7ccbbd37-d904-4354-bde6-2330e56acfac",
+      "slug": "gioz87-belluno",
+      "nome": "Gioz87",
+      "city_name": "Belluno",
+      "indirizzo": "Via Gioz, 87, 32100 Belluno BL",
+      "lat": 46.167722,
+      "lng": 12.189458
+    },
+    {
+      "id": "7f1e24da-12fc-4511-b71c-2b82226777d6",
+      "slug": "la-tieda-locazione-turistica-belluno",
+      "nome": "La Tieda - locazione turistica",
+      "city_name": "Belluno",
+      "indirizzo": "Via Madeago, 26, 32100 Belluno BL",
+      "lat": 46.114644,
+      "lng": 12.236058
+    },
+    {
+      "id": "c94200bb-1a8b-49af-8541-72eaca837fb5",
+      "slug": "a-taverna-intru-u-vicu-belmonte-calabro",
+      "nome": "A Taverna Intru u Vicu",
+      "city_name": "Belmonte Calabro",
+      "indirizzo": "Vico Terzo Indipendenza, 7, 87033 Belmonte Calabro CS",
+      "lat": 39.160363,
+      "lng": 16.077913
+    },
+    {
+      "id": "fd3d05bf-74ed-4df4-8b32-caee43bc82d6",
+      "slug": "b-b-dimora-dante-belmonte-calabro",
+      "nome": "B&B Dimora Dante",
+      "city_name": "Belmonte Calabro",
+      "indirizzo": "Sopportico Piazza, 87032 Amantea CS",
+      "lat": 39.136001,
+      "lng": 16.076011
+    },
+    {
+      "id": "f34838c7-25b8-4be1-9d5f-dd49fdb79b63",
+      "slug": "hotel-gaudio-belmonte-calabro",
+      "nome": "Hotel Gaudio",
+      "city_name": "Belmonte Calabro",
+      "indirizzo": "Strada Statale 18 Tirrena Inferiore, 87030 Longobardi CS",
+      "lat": 39.20483,
+      "lng": 16.062702
+    },
+    {
+      "id": "261aae52-afd9-4080-9d5c-56075566faaa",
+      "slug": "il-flauto-magico-b-b-belmonte-calabro",
+      "nome": "Il Flauto Magico B&B",
+      "city_name": "Belmonte Calabro",
+      "indirizzo": "V. Antonio Verre, snc, 87033 Belmonte Calabro CS",
+      "lat": 39.160547,
+      "lng": 16.078617
+    },
+    {
+      "id": "b1b76758-14de-4189-9c46-ca90ef5d1fdc",
+      "slug": "la-casa-della-filanda-belmonte-calabro",
+      "nome": "La Casa della Filanda",
+      "city_name": "Belmonte Calabro",
+      "indirizzo": "Via Cavour, 13, 87033 Belmonte Calabro CS",
+      "lat": 39.160462,
+      "lng": 16.07897
+    },
+    {
+      "id": "a2640927-1368-48e3-bce6-a7e6696de854",
+      "slug": "la-locanda-del-sarto-belmonte-calabro",
+      "nome": "LA LOCANDA DEL SARTO",
+      "city_name": "Belmonte Calabro",
+      "indirizzo": "Viale Michele Bianchi, 33, 87033 Belmonte Calabro CS",
+      "lat": 39.16178,
+      "lng": 16.080405
+    },
+    {
+      "id": "1e2ff467-ac5c-4f5c-a6b5-1e8871cc7e7d",
+      "slug": "villa-le-palme-longobardi-belmonte-calabro",
+      "nome": "Villa le Palme Longobardi",
+      "city_name": "Belmonte Calabro",
+      "indirizzo": "Via Marina, 35, 87030 Longobardi CS",
+      "lat": 39.206783,
+      "lng": 16.063068
+    },
+    {
+      "id": "d1263b57-e035-475a-ab49-6c249613b033",
+      "slug": "villa-maria-b-b-belmonte-calabro",
+      "nome": "Villa Maria B&B",
+      "city_name": "Belmonte Calabro",
+      "indirizzo": "Via Alessandro Volta, 4, 87040 Marano Principato CS",
+      "lat": 39.297944,
+      "lng": 16.174338
+    },
+    {
+      "id": "a61ab612-fd99-41bf-bc23-428d328be454",
+      "slug": "agriturismo-belvedere-belmonte-castello",
+      "nome": "Agriturismo Belvedere",
+      "city_name": "Belmonte Castello",
+      "indirizzo": "Via del Belvedere, 1650, 03042 Atina FR",
+      "lat": 41.641051,
+      "lng": 13.795163
+    },
+    {
+      "id": "4e121abe-12b3-4836-8dfe-a0c09a590cdd",
+      "slug": "agriturismo-di-charme-erbadoro-belmonte-castello",
+      "nome": "Agriturismo di charme erbadoro",
+      "city_name": "Belmonte Castello",
+      "indirizzo": "Via Antica Molito, 12, 03041 Alvito FR",
+      "lat": 41.687225,
+      "lng": 13.769626
+    },
+    {
+      "id": "950f9035-5a80-4a73-858f-cb69fedb7bd9",
+      "slug": "agriturismo-eco-bio-belmonte-vacanze-belmonte-castello",
+      "nome": "Agriturismo eco-bio Belmonte Vacanze",
+      "city_name": "Belmonte Castello",
+      "indirizzo": "Via Torri, 62, 50050 Montaione FI",
+      "lat": 43.507317,
+      "lng": 10.875056
+    }
+  ]
+}

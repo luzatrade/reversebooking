@@ -1,0 +1,323 @@
+{
+  "block": 444,
+  "blockId": "444",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "e35f780b-decb-46d2-9c9a-e47e78c3f3cf",
+      "slug": "agriturismo-la-stumina-carpi",
+      "nome": "Agriturismo La Stumina",
+      "city_name": "Carpi",
+      "indirizzo": "Via Ascari 6 A Cortile di, 41012 Carpi MO",
+      "lat": 44.819911,
+      "lng": 10.982029
+    },
+    {
+      "id": "65dc8156-c4eb-4d23-927c-0e9baee189ee",
+      "slug": "al-civico-73-bed-breakfast-carpi",
+      "nome": "al civico 73 Bed & Breakfast",
+      "city_name": "Carpi",
+      "indirizzo": "strada statale 413 romana sud, 73, 41012 Carpi MO",
+      "lat": 44.749979,
+      "lng": 10.878741
+    },
+    {
+      "id": "09c2a4d6-4a83-443e-8426-37a93ca46175",
+      "slug": "b-b-la-francesa-carpi",
+      "nome": "B&B La Francesa",
+      "city_name": "Carpi",
+      "indirizzo": "Stradello Fassi, 3, 41012 Carpi MO",
+      "lat": 44.820381,
+      "lng": 10.900507
+    },
+    {
+      "id": "a8cf7e57-0cdd-42b0-9f76-0a6e9638a87b",
+      "slug": "b-b-villa-dei-cigni-reali-carpi",
+      "nome": "B&B Villa dei Cigni Reali",
+      "city_name": "Carpi",
+      "indirizzo": "Via Marchiona, 10a, 41012 Carpi MO",
+      "lat": 44.75865,
+      "lng": 10.890406
+    },
+    {
+      "id": "272e2255-5e21-464f-b3ad-18a7afe17751",
+      "slug": "bed-breakfast-villa-delle-palme-carpi",
+      "nome": "Bed & Breakfast Villa delle Palme",
+      "city_name": "Carpi",
+      "indirizzo": "Via Pola Esterna, 13, 41012 Carpi MO",
+      "lat": 44.809569,
+      "lng": 10.897195
+    },
+    {
+      "id": "5a3b3d3f-1114-45e3-9643-6fab03039d12",
+      "slug": "borgo-case-nuove-bed-and-breakfast-carpi",
+      "nome": "Borgo CASE NUOVE Bed and Breakfast",
+      "city_name": "Carpi",
+      "indirizzo": "Stradello Donella, 10A, 41012 Carpi MO",
+      "lat": 44.792451,
+      "lng": 10.918762
+    },
+    {
+      "id": "ece273c2-4395-4732-a3f5-f6cce2dd9f78",
+      "slug": "carpi-suite-appartamenti-minghetti-carpi",
+      "nome": "Carpi Suite – Appartamenti Minghetti",
+      "city_name": "Carpi",
+      "indirizzo": "Via Marco Minghetti, 23, 41012 Carpi MO",
+      "lat": 44.769372,
+      "lng": 10.883953
+    },
+    {
+      "id": "eed2a7df-4d04-4fa2-a68f-7b7fd3a1907d",
+      "slug": "carpi-suite-appartamento-b-b-a-carpi-carpi",
+      "nome": "Carpi Suite – Appartamento B&B a Carpi",
+      "city_name": "Carpi",
+      "indirizzo": "Via Federico Garcia Lorca, 1, 41012 Carpi MO",
+      "lat": 44.776236,
+      "lng": 10.882715
+    },
+    {
+      "id": "78d29de9-ef3a-4a8f-babd-1af33085a8a7",
+      "slug": "da-maxim-affittacamere-carpi",
+      "nome": "Da Maxim affittacamere",
+      "city_name": "Carpi",
+      "indirizzo": "Via Della Rosa Parte Est, 35, 41012 Carpi MO",
+      "lat": 44.751064,
+      "lng": 10.850549
+    },
+    {
+      "id": "3cd1f259-ae5c-4794-a833-3870c5c8380e",
+      "slug": "hotel-carpi-carpi",
+      "nome": "Hotel Carpi",
+      "city_name": "Carpi",
+      "indirizzo": "Via delle Magliaie, 2/4, 41012 Carpi MO",
+      "lat": 44.776943,
+      "lng": 10.861105
+    },
+    {
+      "id": "d63c274e-d83b-48fe-bc5c-722164ea4312",
+      "slug": "l-andito-carpi",
+      "nome": "L'Andito",
+      "city_name": "Carpi",
+      "indirizzo": "Svoto Cattania, 9, 41012 Carpi MO",
+      "lat": 44.753708,
+      "lng": 10.890139
+    },
+    {
+      "id": "7052aaf9-4ec0-4e61-b620-696d3db490b3",
+      "slug": "lanterna-r-b-carpi",
+      "nome": "Lanterna R&B",
+      "city_name": "Carpi",
+      "indirizzo": "Via Giordano Bruno, 31, 41012 Carpi MO",
+      "lat": 44.784705,
+      "lng": 10.888667
+    },
+    {
+      "id": "12d1208b-9617-4bc2-a174-3a87963f4679",
+      "slug": "maison-rebecca-carpi",
+      "nome": "Maison Rebecca",
+      "city_name": "Carpi",
+      "indirizzo": "Via Curta Santa Chiara, 7, 41012 Carpi MO",
+      "lat": 44.786718,
+      "lng": 10.882962
+    },
+    {
+      "id": "dac6002f-2f2d-4dd4-a2a2-063d57bfde1d",
+      "slug": "suite-cecilia-carpi",
+      "nome": "Suite Cecilia",
+      "city_name": "Carpi",
+      "indirizzo": "Corso Sandro Cabassi, 14 a, 41012 Carpi MO",
+      "lat": 44.784298,
+      "lng": 10.887105
+    },
+    {
+      "id": "f9cf5580-06e1-4cfb-aa56-de36fe81a782",
+      "slug": "acca-sporting-milano-carpiano",
+      "nome": "Acca Sporting Milano",
+      "city_name": "Carpiano",
+      "indirizzo": "Via Sporting Mirasole, 56, 20090 Opera MI",
+      "lat": 45.395572,
+      "lng": 9.211361
+    },
+    {
+      "id": "06876e41-08b2-477e-9a46-681bd1b266ec",
+      "slug": "an-hotel-dependance-milano-melegnano-carpiano",
+      "nome": "AN Hotel Dépendance Milano Melegnano",
+      "city_name": "Carpiano",
+      "indirizzo": "Via Don Giuseppe Dossetti, 4 20074, 20074 Francolino MI",
+      "lat": 45.349223,
+      "lng": 9.282672
+    },
+    {
+      "id": "f832c1e3-daba-4be0-98b2-ada940f7ef89",
+      "slug": "golf-hotel-milano-carpiano",
+      "nome": "Golf Hotel Milano",
+      "city_name": "Carpiano",
+      "indirizzo": "Via Abruzzo, snc, 20073 Opera MI",
+      "lat": 45.370487,
+      "lng": 9.212227
+    },
+    {
+      "id": "e52480fc-3a15-4c9b-b699-378ad098cc74",
+      "slug": "suite-carpiano-carpiano",
+      "nome": "Suite Carpiano",
+      "city_name": "Carpiano",
+      "indirizzo": "Via per Carpiano, 2/C, 20077 Melegnano MI",
+      "lat": 45.354941,
+      "lng": 9.317621
+    },
+    {
+      "id": "42118161-7630-47cd-b90f-e2b237b172b9",
+      "slug": "agriturismo-tenuta-kyrios-carpignano-salentino",
+      "nome": "AGRITURISMO TENUTA KYRIOS",
+      "city_name": "Carpignano Salentino",
+      "indirizzo": "S.P. 147 Borgagne, 73020 Carpignano Salentino LE",
+      "lat": 40.230251,
+      "lng": 18.355798
+    },
+    {
+      "id": "200f0ae4-483d-4288-8b1d-9617e8defb35",
+      "slug": "calura-residence-carpignano-salentino",
+      "nome": "Calura Residence",
+      "city_name": "Carpignano Salentino",
+      "indirizzo": "Via U. Foscolo, 92, 73020 Carpignano Salentino LE",
+      "lat": 40.192709,
+      "lng": 18.34005
+    },
+    {
+      "id": "53d58f5a-0d29-44d6-bfb0-87905b81bb5b",
+      "slug": "corte-dei-salentini-b-b-carpignano-salentino",
+      "nome": "Corte dei Salentini B&B",
+      "city_name": "Carpignano Salentino",
+      "indirizzo": "Via Provinciale Martano - Otranto, 54, 73020 Carpignano Salentino LE",
+      "lat": 40.194069,
+      "lng": 18.327722
+    },
+    {
+      "id": "e787277c-2892-4d2d-981b-d9201cc823db",
+      "slug": "furnirussi-tenuta-carpignano-salentino",
+      "nome": "Furnirussi Tenuta",
+      "city_name": "Carpignano Salentino",
+      "indirizzo": "Strada Comunale Scine 29, frazione di Carpignano Salentino LE IT, 73020 Serrano LE",
+      "lat": 40.171798,
+      "lng": 18.344736
+    },
+    {
+      "id": "b3ed327c-5bc1-45cc-a393-66aa24cfd028",
+      "slug": "mamma-assunta-b-b-carpignano-salentino",
+      "nome": "Mamma Assunta B&B",
+      "city_name": "Carpignano Salentino",
+      "indirizzo": "Via Edmondo de Amicis, 46, 73026 Borgagne LE",
+      "lat": 40.238908,
+      "lng": 18.3779
+    },
+    {
+      "id": "74a2b7fa-0e90-4beb-96f5-3051088f9156",
+      "slug": "masseria-giamarra-carpignano-salentino",
+      "nome": "Masseria Giamarra",
+      "city_name": "Carpignano Salentino",
+      "indirizzo": "Strada Provinciale 48 Martano-Otranto 130, 73020 Carpignano Salentino LE",
+      "lat": 40.190811,
+      "lng": 18.342266
+    },
+    {
+      "id": "694953f5-86a0-4be4-98ce-8e745f9de598",
+      "slug": "masseria-san-cosimo-agriresort-carpignano-salentino",
+      "nome": "Masseria San Cosimo Agriresort",
+      "city_name": "Carpignano Salentino",
+      "indirizzo": "contrada San Cosimo, 73020 Carpignano Salentino LE",
+      "lat": 40.195188,
+      "lng": 18.328509
+    },
+    {
+      "id": "61f708ba-7a26-452c-a50c-c4b6c888cfc1",
+      "slug": "salento-guesthouse-carpignano-salentino",
+      "nome": "SALENTO GUESTHOUSE",
+      "city_name": "Carpignano Salentino",
+      "indirizzo": "Via Roma, 26, 73020 Carpignano Salentino LE",
+      "lat": 40.196912,
+      "lng": 18.340005
+    },
+    {
+      "id": "7113c231-907a-45a6-a4f9-022e24a50e64",
+      "slug": "vico-sant-antonio-carpignano-salentino",
+      "nome": "Vico Sant'Antonio",
+      "city_name": "Carpignano Salentino",
+      "indirizzo": "Vico S. Antonio, 73020 Carpignano Salentino LE",
+      "lat": 40.196542,
+      "lng": 18.340574
+    },
+    {
+      "id": "83a20da4-b283-44a8-a3f8-4863e5867955",
+      "slug": "b-b-carpignano-carpignano-sesia",
+      "nome": "B&B Carpignano",
+      "city_name": "Carpignano Sesia",
+      "indirizzo": "Via Cristoforo Colombo, 18, 74018 Palagianello TA",
+      "lat": 40.61433,
+      "lng": 16.978948
+    },
+    {
+      "id": "39f47166-8d1b-4eea-a6f0-5b5354c984c0",
+      "slug": "la-sesia-beauty-vice-carpignano-sesia",
+      "nome": "La Sesia Beauty Vice",
+      "city_name": "Carpignano Sesia",
+      "indirizzo": "Via Torino, 37, 28064 Carpignano Sesia NO",
+      "lat": 45.531475,
+      "lng": 8.407877
+    },
+    {
+      "id": "4a8066de-b5a0-4ad9-8aad-748f03e2ca71",
+      "slug": "la-sesia-hotel-srl-carpignano-sesia",
+      "nome": "La Sesia Hotel Srl",
+      "city_name": "Carpignano Sesia",
+      "indirizzo": "Via Torino, 37, 28064 Carpignano Sesia NO",
+      "lat": 45.531483,
+      "lng": 8.407782
+    },
+    {
+      "id": "2cc07e15-34c0-4c8f-862d-66bd269293df",
+      "slug": "albergo-ristorante-marola-carpineti",
+      "nome": "Albergo Ristorante Marola",
+      "city_name": "Carpineti",
+      "indirizzo": "di, Viale Bismantova, 2, 42033 Marola RE",
+      "lat": 44.477032,
+      "lng": 10.48851
+    },
+    {
+      "id": "220b8d72-0c2e-4ae4-8331-b12cb6f2788f",
+      "slug": "b-b-villa-rossana-carpineti",
+      "nome": "B&B Villa Rossana",
+      "city_name": "Carpineti",
+      "indirizzo": "Via Monchio di Mulazzano, 6, 43037 Lesignano de' Bagni PR",
+      "lat": 44.613556,
+      "lng": 10.327604
+    },
+    {
+      "id": "dce0e35d-cc6f-455a-854b-e3a8e937cd83",
+      "slug": "boiardo-hotel-carpineti",
+      "nome": "Boiardo Hotel",
+      "city_name": "Carpineti",
+      "indirizzo": "Via Pedemontana, 6, 42019 Scandiano RE",
+      "lat": 44.594254,
+      "lng": 10.677826
+    },
+    {
+      "id": "024add42-ed72-4060-b744-7803c885004e",
+      "slug": "camere-del-castello-carpineti-carpineti",
+      "nome": "Camere del Castello Carpineti",
+      "city_name": "Carpineti",
+      "indirizzo": "Via Castello delle Carpinete, 26, 42033 Carpineti RE",
+      "lat": 44.448501,
+      "lng": 10.528008
+    },
+    {
+      "id": "062e9ee1-5ca6-47c9-b285-712a146e7f4b",
+      "slug": "hotel-ristorante-pizzeria-parco-carpineti",
+      "nome": "Hotel Ristorante Pizzeria Parco",
+      "city_name": "Carpineti",
+      "indirizzo": "Via Aravecchia, 27, 41046 Palagano MO",
+      "lat": 44.320274,
+      "lng": 10.646339
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 331,
+  "blockId": "331",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "6770915e-73f3-4772-b8ea-42015f15ed04",
+      "slug": "albergo-tenuta-stroblhof-bronzolo-branzoll",
+      "nome": "Albergo Tenuta Stroblhof",
+      "city_name": "Bronzolo/Branzoll",
+      "indirizzo": "Pigenoerweg, 25, 39057 Appiano sulla strada del vino BZ",
+      "lat": 46.449589,
+      "lng": 11.249369
+    },
+    {
+      "id": "4ef3bd1a-72df-4f97-8891-952b4e9af4a0",
+      "slug": "albergo-zur-pfleg-bronzolo-branzoll",
+      "nome": "Albergo Zur Pfleg",
+      "city_name": "Bronzolo/Branzoll",
+      "indirizzo": "Via Pietralba, 94, 39055 Laives BZ",
+      "lat": 46.423075,
+      "lng": 11.343673
+    },
+    {
+      "id": "34309f5b-3665-4835-8da5-dabdc0bae49a",
+      "slug": "das-panorama-dependance-bronzolo-branzoll",
+      "nome": "Das Panorama - Dependance",
+      "city_name": "Bronzolo/Branzoll",
+      "indirizzo": "Via Prey, 11, 39052 Caldaro BZ",
+      "lat": 46.417995,
+      "lng": 11.24132
+    },
+    {
+      "id": "7598699b-4be9-4262-99f0-5c1cb850c34d",
+      "slug": "garni-sparer-bronzolo-branzoll",
+      "nome": "Garni Sparer",
+      "city_name": "Bronzolo/Branzoll",
+      "indirizzo": "Campi al Lago, 2, 39052 Caldaro sulla strada del Vino BZ",
+      "lat": 46.383667,
+      "lng": 11.270529
+    },
+    {
+      "id": "a0bfc25c-6a72-47a9-bfbc-6201c896e31b",
+      "slug": "gasthof-klughammer-bronzolo-branzoll",
+      "nome": "Gasthof Klughammer",
+      "city_name": "Bronzolo/Branzoll",
+      "indirizzo": "Localita' Klughammer, 5, Campi al Lago, 5, 39052 Caldaro sulla strada del Vino BZ",
+      "lat": 46.38334,
+      "lng": 11.269464
+    },
+    {
+      "id": "9b2db66e-4718-4e6a-94d0-43340343324e",
+      "slug": "gasthof-rechtebner-seit-leifers-bei-bozen-bronzolo-branzoll",
+      "nome": "Gasthof Rechtebner, Seit/Leifers bei Bozen",
+      "city_name": "Bronzolo/Branzoll",
+      "indirizzo": "Via La Costa, 21, 39055 Laives BZ",
+      "lat": 46.450186,
+      "lng": 11.356314
+    },
+    {
+      "id": "a3bacb8f-a38d-4f74-b721-5e1b3236e1fd",
+      "slug": "hotel-hasslhof-bronzolo-branzoll",
+      "nome": "Hotel Hasslhof",
+      "city_name": "Bronzolo/Branzoll",
+      "indirizzo": "Sankt Josef am See, 62, 39052 Kaltern am See BZ",
+      "lat": 46.380018,
+      "lng": 11.251859
+    },
+    {
+      "id": "e1c56e26-13ac-4a58-84b1-e434127a0ba0",
+      "slug": "hotel-ideal-park-bronzolo-branzoll",
+      "nome": "Hotel Ideal Park",
+      "city_name": "Bronzolo/Branzoll",
+      "indirizzo": "Via John Fitzgerald Kennedy, 233, 39055 Laives BZ",
+      "lat": 46.424014,
+      "lng": 11.334192
+    },
+    {
+      "id": "798d51b3-40ee-4d33-adf5-1a494fe6ace1",
+      "slug": "hotel-plattenhof-bronzolo-branzoll",
+      "nome": "Hotel Plattenhof",
+      "city_name": "Bronzolo/Branzoll",
+      "indirizzo": "Frazione Sella, 33, 39040 Termeno sulla Strada del Vino BZ",
+      "lat": 46.359339,
+      "lng": 11.244357
+    },
+    {
+      "id": "cead571b-8193-46e5-a6ce-b013e8e28880",
+      "slug": "hotel-stampfer-bronzolo-branzoll",
+      "nome": "Hotel Stampfer",
+      "city_name": "Bronzolo/Branzoll",
+      "indirizzo": "Via Stazione, 19, 39051 Bronzolo BZ",
+      "lat": 46.405029,
+      "lng": 11.317866
+    },
+    {
+      "id": "4812d8c6-41dd-4a89-a73c-666fdba3c42b",
+      "slug": "hotel-steiner-bronzolo-branzoll",
+      "nome": "Hotel Steiner",
+      "city_name": "Bronzolo/Branzoll",
+      "indirizzo": "Via John Fitzgerald Kennedy, 32, 39055 Laives BZ",
+      "lat": 46.429531,
+      "lng": 11.343518
+    },
+    {
+      "id": "c656d66e-fe2d-4008-99f1-528fc5a83b14",
+      "slug": "pension-leuchtenburg-bronzolo-branzoll",
+      "nome": "Pension Leuchtenburg",
+      "city_name": "Bronzolo/Branzoll",
+      "indirizzo": "Campi al Lago, 14, 39051 Caldaro sulla strada del Vino BZ",
+      "lat": 46.384578,
+      "lng": 11.269912
+    },
+    {
+      "id": "1d289d5a-5f98-41b2-8935-91c8ac67726a",
+      "slug": "rosslhof-bronzolo-branzoll",
+      "nome": "Rösslhof",
+      "city_name": "Bronzolo/Branzoll",
+      "indirizzo": "S. Giuseppe al Lago, 34B, 39052 Caldaro sulla strada del Vino BZ",
+      "lat": 46.383707,
+      "lng": 11.253508
+    },
+    {
+      "id": "fd728e2e-366c-4a06-9764-5c77619ea4e6",
+      "slug": "seehotel-sparer-bronzolo-branzoll",
+      "nome": "Seehotel Sparer",
+      "city_name": "Bronzolo/Branzoll",
+      "indirizzo": "Via Monticolo, 53, 39057 San Michele BZ",
+      "lat": 46.422819,
+      "lng": 11.286837
+    },
+    {
+      "id": "a460d04f-3986-412b-9d0e-9d8717ef18d3",
+      "slug": "seerose-bronzolo-branzoll",
+      "nome": "Seerose",
+      "city_name": "Bronzolo/Branzoll",
+      "indirizzo": "S. Giuseppe al Lago, 6, 39052 Caldaro BZ",
+      "lat": 46.386519,
+      "lng": 11.262052
+    },
+    {
+      "id": "12ecb92d-34da-48ee-9661-9346ef89df54",
+      "slug": "b-b-la-stanza-dei-sogni-saluzzo-brossasco",
+      "nome": "B&B La Stanza dei Sogni Saluzzo",
+      "city_name": "Brossasco",
+      "indirizzo": "Via Revello, 19 H, 12037 Saluzzo CN",
+      "lat": 44.645882,
+      "lng": 7.468468
+    },
+    {
+      "id": "9ce0b7f9-ccfb-4e01-a482-719ee612cb64",
+      "slug": "il-sogno-di-remi-brossasco",
+      "nome": "Il Sogno di Remì",
+      "city_name": "Brossasco",
+      "indirizzo": "Borgata Bruna, 12020 Brossasco CN",
+      "lat": 44.57445,
+      "lng": 7.377933
+    },
+    {
+      "id": "62b78020-f3bf-4f09-aaa2-36f1043cd27e",
+      "slug": "affittacamere-la-stella-delle-alpi-brosso",
+      "nome": "Affittacamere La stella delle Alpi",
+      "city_name": "Brosso",
+      "indirizzo": "Vicolo Bertarione, 4, 10089 Vico Canavese TO",
+      "lat": 45.493583,
+      "lng": 7.779373
+    },
+    {
+      "id": "4f6ba66c-b96d-4519-b473-cafbdaccdb78",
+      "slug": "b-b-piccolo-relais-brosso",
+      "nome": "B&B Piccolo Relais",
+      "city_name": "Brosso",
+      "indirizzo": "Via Conte Michele Cagnis, 6, 10010 Lessolo TO",
+      "lat": 45.479166,
+      "lng": 7.815897
+    },
+    {
+      "id": "172f3789-ef4f-4ba2-8f19-63439b5149d9",
+      "slug": "b-b-ranch-alba-montanaria-dormire-beb-valchiusel-brosso",
+      "nome": "B&B ranch Alba Montanaria, dormire beb Valchiusella, Maneggio cavalli",
+      "city_name": "Brosso",
+      "indirizzo": "Strada statale s/n - regione, montanaria, 10089 Brosso TO",
+      "lat": 45.484514,
+      "lng": 7.79787
+    },
+    {
+      "id": "47cbe7fb-48d3-45be-b07b-c8d4beda4922",
+      "slug": "l-incontro-brosso",
+      "nome": "L'Incontro",
+      "city_name": "Brosso",
+      "indirizzo": "Regione Lago, 1, 10089 Meugliano TO",
+      "lat": 45.476192,
+      "lng": 7.787417
+    },
+    {
+      "id": "9c2b3573-10ee-48f5-8d54-ffe2c8f2a54b",
+      "slug": "ristorante-albergo-bar-centro-brosso",
+      "nome": "Ristorante Albergo Bar Centro",
+      "city_name": "Brosso",
+      "indirizzo": "Piazza Garibaldi, 1, 10089 Vico Canavese TO",
+      "lat": 45.494203,
+      "lng": 7.778671
+    },
+    {
+      "id": "a9160bb5-4464-4db4-a9dc-6018d19b1c38",
+      "slug": "albergo-vittoria-brovello-carpugnino",
+      "nome": "Albergo Vittoria",
+      "city_name": "Brovello-Carpugnino",
+      "indirizzo": "Via Regina Margherita, 21, 28836 Gignese VB",
+      "lat": 45.86106,
+      "lng": 8.508893
+    },
+    {
+      "id": "0ba0a583-538b-443d-9d8d-3555d0453087",
+      "slug": "b-b-orto-di-marisa-brovello-carpugnino",
+      "nome": "B&B Orto di Marisa",
+      "city_name": "Brovello-Carpugnino",
+      "indirizzo": "Via delle Rose, 36, 28833 Brovello-carpugnino VB",
+      "lat": 45.843494,
+      "lng": 8.533336
+    },
+    {
+      "id": "7be0cf6f-dbbc-4340-b3e3-9533b0607980",
+      "slug": "boutique-hotel-stresa-brovello-carpugnino",
+      "nome": "Boutique Hotel Stresa",
+      "city_name": "Brovello-Carpugnino",
+      "indirizzo": "Corso Umberto I, 21, 28838 Stresa VB",
+      "lat": 45.884681,
+      "lng": 8.538059
+    },
+    {
+      "id": "4e6e24c2-77ad-4a30-ba2a-2c4e43674ff2",
+      "slug": "hotel-brisino-brovello-carpugnino",
+      "nome": "Hotel Brisino",
+      "city_name": "Brovello-Carpugnino",
+      "indirizzo": "Via per Magognino, 2, 28838 Stresa VB",
+      "lat": 45.872222,
+      "lng": 8.555
+    },
+    {
+      "id": "e3bedb96-fc14-4a79-8143-06f31b2e134c",
+      "slug": "hotel-luina-brovello-carpugnino",
+      "nome": "Hotel Luina",
+      "city_name": "Brovello-Carpugnino",
+      "indirizzo": "Via Giuseppe Garibaldi, 21, 28838 Stresa VB",
+      "lat": 45.883534,
+      "lng": 8.541483
+    },
+    {
+      "id": "a627201a-8735-4f17-927b-05cc6841f122",
+      "slug": "hotel-ristorante-la-capannina-brovello-carpugnino",
+      "nome": "Hotel Ristorante La Capannina",
+      "city_name": "Brovello-Carpugnino",
+      "indirizzo": "Via Crose, 57, 28040 Massino Visconti NO",
+      "lat": 45.821125,
+      "lng": 8.529887
+    },
+    {
+      "id": "8badaa68-6baf-4160-86c1-4246edebdc8b",
+      "slug": "sempione-boutique-hotel-brovello-carpugnino",
+      "nome": "SEMPIONE BOUTIQUE HOTEL",
+      "city_name": "Brovello-Carpugnino",
+      "indirizzo": "Corso Italia, 46, 28838 Stresa VB",
+      "lat": 45.883476,
+      "lng": 8.542342
+    },
+    {
+      "id": "ef1896e4-ae8b-4ac4-8c78-cc918ac3ea17",
+      "slug": "agriturismo-come-una-volta-brozolo",
+      "nome": "agriturismo Come una volta",
+      "city_name": "Brozolo",
+      "indirizzo": "Via Braia, 2, 10020 Brozolo TO",
+      "lat": 45.108355,
+      "lng": 8.06551
+    },
+    {
+      "id": "9cdf1f0a-754d-4a10-aa4f-5e171849bcc1",
+      "slug": "agriturismo-il-giardino-del-ciliegi-brozolo",
+      "nome": "Agriturismo Il Giardino Del Ciliegi",
+      "city_name": "Brozolo",
+      "indirizzo": "Via Peile, 15, 10020 Brozolo TO",
+      "lat": 45.118932,
+      "lng": 8.057098
+    },
+    {
+      "id": "100523f6-2009-41b1-81a1-0c19b4785cf4",
+      "slug": "la-casa-della-lavanda-b-b-brozolo",
+      "nome": "La Casa Della Lavanda B&B",
+      "city_name": "Brozolo",
+      "indirizzo": "Via Braia, 16, 10020 Brozolo TO",
+      "lat": 45.103893,
+      "lng": 8.068354
+    },
+    {
+      "id": "b0851f18-3a55-4355-8f61-d28be70188f2",
+      "slug": "nutrilamente-brozolo",
+      "nome": "Nutrilamente",
+      "city_name": "Brozolo",
+      "indirizzo": "Via Montenero, 14, 14020 Robella AT",
+      "lat": 45.120369,
+      "lng": 8.118457
+    },
+    {
+      "id": "548346a7-32dc-49f1-8fe6-856d3752e437",
+      "slug": "sotto-la-luna-bruna-b-b-brozolo",
+      "nome": "Sotto la Luna Bruna B&B",
+      "city_name": "Brozolo",
+      "indirizzo": "Fraz. Cocconito, Str. Cocconito, 18, 14023 Cocconato AT",
+      "lat": 45.103148,
+      "lng": 8.044565
+    },
+    {
+      "id": "e86f3b4c-ed91-4b3a-84af-1e77745688b0",
+      "slug": "affittacamere-top-suit-centro-brugherio",
+      "nome": "AFFITTACAMERE Top Suit Centro",
+      "city_name": "Brugherio",
+      "indirizzo": "Via Antonio Gramsci, 18/20, 20861 Brugherio MB",
+      "lat": 45.552625,
+      "lng": 9.301427
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 252,
+  "blockId": "252",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "ecad16c9-e1d7-4750-8ee7-c1c1bc232bee",
+      "slug": "b-b-poggio-delle-ginestre-belvedere-langhe",
+      "nome": "B&B POGGIO DELLE GINESTRE",
+      "city_name": "Belvedere Langhe",
+      "indirizzo": "Frazione Gorrino 29, 12070 Pezzolo Valle Uzzone CN",
+      "lat": 44.544013,
+      "lng": 8.221452
+    },
+    {
+      "id": "9ed0a0e7-0736-43e3-8f35-f89a5b03109a",
+      "slug": "belvedere-affittacamere-belvedere-langhe-2",
+      "nome": "Belvedere Affittacamere",
+      "city_name": "Belvedere Langhe",
+      "indirizzo": "Via Gioacchino Belli, 16, 42123 Reggio Emilia RE",
+      "lat": 44.676906,
+      "lng": 10.612801
+    },
+    {
+      "id": "c9db142d-25f9-4b62-9445-89acf2628ba8",
+      "slug": "belvedere-affittacamere-belvedere-langhe",
+      "nome": "Belvedere Affittacamere",
+      "city_name": "Belvedere Langhe",
+      "indirizzo": "V. Fieschi, 220, 19018 Corniglia SP",
+      "lat": 44.119575,
+      "lng": 9.70705
+    },
+    {
+      "id": "3f8bb4a1-13ff-44af-85b3-09e1cfba1a9c",
+      "slug": "belvedere-bike-hotel-belvedere-langhe",
+      "nome": "Belvedere Bike Hotel",
+      "city_name": "Belvedere Langhe",
+      "indirizzo": "Vicolo S. Giovanni, 3, 12046 Montà CN",
+      "lat": 44.811614,
+      "lng": 7.96047
+    },
+    {
+      "id": "53abeb33-8eda-4721-a243-3212a07d7c2f",
+      "slug": "casa-belvedere-belvedere-langhe",
+      "nome": "Casa Belvedere",
+      "city_name": "Belvedere Langhe",
+      "indirizzo": "12060 Farigliano CN",
+      "lat": 44.498776,
+      "lng": 7.96188
+    },
+    {
+      "id": "287741f1-c38e-41f5-9d43-61cb7abaf0ac",
+      "slug": "cascina-grattinera-b-b-belvedere-langhe",
+      "nome": "Cascina Grattinera B&B",
+      "city_name": "Belvedere Langhe",
+      "indirizzo": "Loc. Grattinera 1, SP343 km.5+000, 12070, 12070 Sale delle Langhe CN",
+      "lat": 44.401408,
+      "lng": 8.105187
+    },
+    {
+      "id": "8916b1c3-dc91-4175-8646-d851056fc203",
+      "slug": "la-tana-dello-scoiattolo-cir-004245beb00002-cin-belvedere-langhe",
+      "nome": "La Tana dello Scoiattolo CIR 004245beb00002 CIN IT004145C1JLAW3JYF",
+      "city_name": "Belvedere Langhe",
+      "indirizzo": "Via Berico, 17, 12060 Murazzano CN",
+      "lat": 44.468995,
+      "lng": 8.028843
+    },
+    {
+      "id": "c9118af7-d803-43df-95ee-09efe4eaa4f0",
+      "slug": "tenuta-monteoliveto-agriturismo-nelle-langhe-belvedere-langhe",
+      "nome": "Tenuta MonteOliveto - Agriturismo nelle Langhe",
+      "city_name": "Belvedere Langhe",
+      "indirizzo": "Regione Monteoliveto, 5, 14059 Vesime AT",
+      "lat": 44.621831,
+      "lng": 8.226342
+    },
+    {
+      "id": "ecbf2ea5-5a04-48e8-af21-dda9cd2b9def",
+      "slug": "villa-belvedere-langhe-belvedere-langhe",
+      "nome": "Villa Belvedere Langhe",
+      "city_name": "Belvedere Langhe",
+      "indirizzo": "Via Roma, 12060 Belvedere Langhe CN",
+      "lat": 44.493777,
+      "lng": 7.972802
+    },
+    {
+      "id": "9e3d1214-6145-409c-91fe-49fad54a38a9",
+      "slug": "b-b-8-marzo-belvedere-marittimo",
+      "nome": "B&B 8 marzo",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "Viale Giovanni Grossi, 19, 87021 Belvedere Marittimo CS",
+      "lat": 39.620348,
+      "lng": 15.852479
+    },
+    {
+      "id": "97230084-0edb-401f-b7a6-f5f976e61808",
+      "slug": "b-b-crispino-belvedere-marittimo",
+      "nome": "B&B Crispino",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "Contrada Castromurro, 26, 87021 Belvedere Marittimo CS",
+      "lat": 39.633895,
+      "lng": 15.844616
+    },
+    {
+      "id": "09ed6f8a-13ce-4359-ad2c-0c44d903b604",
+      "slug": "b-b-ortensia-belvedere-marittimo",
+      "nome": "B&B Ortensia",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "Contrada Castromurro, 205, 87021 Belvedere Marittimo CS",
+      "lat": 39.638815,
+      "lng": 15.842246
+    },
+    {
+      "id": "99103ccb-ace7-4eb0-97db-253b3bee7f21",
+      "slug": "b-b-palazzo-spinelli-belvedere-marittimo",
+      "nome": "B&B Palazzo Spinelli",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "Piazza Castel Rugiero, 18, 87021 Belvedere Marittimo CS",
+      "lat": 39.620119,
+      "lng": 15.86246
+    },
+    {
+      "id": "9e75fb0f-aef2-45f6-add4-c56ba9157ea6",
+      "slug": "belvedere-hotel-club-village-belvedere-marittimo",
+      "nome": "Belvedere Hotel Club Village",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "SS 18 Tirrena Inferiore, 87021 Castromurro, CS",
+      "lat": 39.635884,
+      "lng": 15.843788
+    },
+    {
+      "id": "f6e0328b-f200-4a50-be7d-d1b495bbb8fa",
+      "slug": "casa-del-sole-belvedere-marittimo",
+      "nome": "Casa del sole",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "Via Soleo, 26-32, 87021 Belvedere Marittimo CS",
+      "lat": 39.61202,
+      "lng": 15.857577
+    },
+    {
+      "id": "a6d49afd-b618-4b78-98d0-1f77670e5ea9",
+      "slug": "club-residence-la-castellana-belvedere-marittimo",
+      "nome": "Club Residence La Castellana",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "Località La Praia, 4, 87021 Belvedere Marittimo CS",
+      "lat": 39.596403,
+      "lng": 15.865981
+    },
+    {
+      "id": "12bfce2f-4d24-4300-8b96-3b249bc3dd01",
+      "slug": "ely-sea-b-b-belvedere-marittimo",
+      "nome": "Ely Sea B&B",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "P.za Giovanni Grossi, n16, 87021 Belvedere Marittimo CS",
+      "lat": 39.6217,
+      "lng": 15.851408
+    },
+    {
+      "id": "9f43908a-d112-4cfe-a1b8-bce2f1b90624",
+      "slug": "il-podere-dell-angelo-old-country-house-belvedere-marittimo",
+      "nome": "Il Podere dell'Angelo Old Country House",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "Contrada Oracchio, 77, 87021 Belvedere Marittimo CS",
+      "lat": 39.616182,
+      "lng": 15.88401
+    },
+    {
+      "id": "19273b1b-1144-4ea1-91b7-67d727562d5c",
+      "slug": "la-dimora-del-borgo-belvedere-marittimo",
+      "nome": "La dimora del borgo",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "Viale Giovanni Grossi, 42, 87021 Belvedere Marittimo CS",
+      "lat": 39.621405,
+      "lng": 15.851585
+    },
+    {
+      "id": "caaee4c3-aad0-4dc3-b24e-54cc07e64a8e",
+      "slug": "la-marinella-belvedere-marittimo",
+      "nome": "La Marinella",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "P.za Giovanni Grossi, 87021 Belvedere Marittimo CS",
+      "lat": 39.621674,
+      "lng": 15.85129
+    },
+    {
+      "id": "0fce8ec0-7041-4a84-a5d2-239d6d8aa7b5",
+      "slug": "la-perla-nascosta-belvedere-marittimo",
+      "nome": "La Perla Nascosta",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "Via dei Normanni, 32/F, 87021 Belvedere Marittimo CS",
+      "lat": 39.623227,
+      "lng": 15.854456
+    },
+    {
+      "id": "4e6ecdda-7c10-4bb5-8574-9d60e83856dc",
+      "slug": "la-risacca-relais-belvedere-marittimo",
+      "nome": "La Risacca Relais",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "Via Giannino Losardo, 48, 87021 Belvedere Marittimo CS",
+      "lat": 39.619487,
+      "lng": 15.852748
+    },
+    {
+      "id": "b69121ea-6c03-4ed7-982c-edaf016307b8",
+      "slug": "mare-belvedere-marittimo",
+      "nome": "Marè",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "Via Giustino Fortunato, 35, 87021 Belvedere Marittimo CS",
+      "lat": 39.623951,
+      "lng": 15.848286
+    },
+    {
+      "id": "6f8bd8d5-bc43-4c49-a08a-20ffa4304257",
+      "slug": "molo-93-roomsandsea-belvedere-marittimo",
+      "nome": "Molo'93 - RoomsandSea",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "Contrada Castromurro, 87021 Belvedere Marittimo CS",
+      "lat": 39.633479,
+      "lng": 15.843756
+    },
+    {
+      "id": "eef389c1-fe61-4363-8c9e-0cfc36d429f3",
+      "slug": "palazzo-del-miglio-belvedere-marittimo",
+      "nome": "Palazzo del Miglio",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "Via Flavio Cassiodoro, 67, 87021 Belvedere Marittimo CS",
+      "lat": 39.627459,
+      "lng": 15.855017
+    },
+    {
+      "id": "7641784c-03c3-4dff-9981-b032f68f9930",
+      "slug": "tenuta-dei-biondi-ulivi-b-b-belvedere-marittimo",
+      "nome": "Tenuta dei Biondi Ulivi B&B",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "Contrada Olivella, 33, 87021 Belvedere Marittimo CS",
+      "lat": 39.61033,
+      "lng": 15.873237
+    },
+    {
+      "id": "5c2506a2-e752-4844-b1c2-388ac408cb0a",
+      "slug": "the-dream-b-b-belvedere-marittimo",
+      "nome": "The Dream B&B",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "Contrada Olivella, 1, 87021 Belvedere Marittimo CS",
+      "lat": 39.614424,
+      "lng": 15.864531
+    },
+    {
+      "id": "c9ab94be-9850-4cd0-9c3a-8aaae032da7c",
+      "slug": "white-club-residence-belvedere-marittimo",
+      "nome": "White Club Residence",
+      "city_name": "Belvedere Marittimo",
+      "indirizzo": "Campo Minore, 87021 Belvedere Marittimo CS",
+      "lat": 39.608917,
+      "lng": 15.870449
+    },
+    {
+      "id": "6b66aeb1-4781-4524-8406-ba7357508d1b",
+      "slug": "agriturismo-al-rifugio-divino-belvedere-ostrense",
+      "nome": "Agriturismo Al Rifugio DiVino",
+      "city_name": "Belvedere Ostrense",
+      "indirizzo": "Via Gavigliano, 16, 60030 Belvedere Ostrense AN",
+      "lat": 43.599934,
+      "lng": 13.180596
+    },
+    {
+      "id": "fb82e84a-f8b1-415b-824a-788ad0f87097",
+      "slug": "agriturismo-campo-aperto-belvedere-ostrense",
+      "nome": "Agriturismo Campo Aperto",
+      "city_name": "Belvedere Ostrense",
+      "indirizzo": "Via Orti, 18, 60030 Belvedere Ostrense AN",
+      "lat": 43.580206,
+      "lng": 13.168923
+    },
+    {
+      "id": "7578cff3-e5f1-40f3-ba4f-90bacf997603",
+      "slug": "agriturismotenuta-belvedere-belvedere-ostrense",
+      "nome": "AgriturismoTenuta Belvedere",
+      "city_name": "Belvedere Ostrense",
+      "indirizzo": "Via Ronco, 2, 60030 Belvedere Ostrense AN",
+      "lat": 43.553758,
+      "lng": 13.14675
+    },
+    {
+      "id": "2246562b-1f28-416b-b186-93cbfffb26f5",
+      "slug": "apis-in-tabula-belvedere-ostrense",
+      "nome": "Apis in tabula",
+      "city_name": "Belvedere Ostrense",
+      "indirizzo": "V. San Bonaventura, 2, 60010 Ostra AN",
+      "lat": 43.615183,
+      "lng": 13.188503
+    },
+    {
+      "id": "2928cde7-111c-454e-a730-80c8ef39802d",
+      "slug": "casa-della-musica-casali-marchigiani-belvedere-ostrense",
+      "nome": "Casa della Musica - Casali Marchigiani",
+      "city_name": "Belvedere Ostrense",
+      "indirizzo": "Via Loretello, 2, 60010 Ostra AN",
+      "lat": 43.600621,
+      "lng": 13.160618
+    },
+    {
+      "id": "0e4b168e-5032-4f0e-bff0-6ac2c105ffe4",
+      "slug": "hotel-dei-nani-belvedere-ostrense",
+      "nome": "Hotel Dei Nani",
+      "city_name": "Belvedere Ostrense",
+      "indirizzo": "Viale del Lavoro, 34, 60035 Jesi AN",
+      "lat": 43.532951,
+      "lng": 13.254057
+    },
+    {
+      "id": "467d3834-7c26-4ac3-961a-594c3f504e09",
+      "slug": "hotel-federico-ii-belvedere-ostrense",
+      "nome": "Hotel Federico II",
+      "city_name": "Belvedere Ostrense",
+      "indirizzo": "Via Ancona, 92, 60035 Jesi AN",
+      "lat": 43.539184,
+      "lng": 13.26092
+    }
+  ]
+}

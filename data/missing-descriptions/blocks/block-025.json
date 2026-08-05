@@ -1,0 +1,323 @@
+{
+  "block": 25,
+  "blockId": "025",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "6ceab0f2-ea99-42a4-9d42-1795bde80f5d",
+      "slug": "ristorante-hotel-villa-denise-africo",
+      "nome": "Ristorante Hotel Villa Denise",
+      "city_name": "Africo",
+      "indirizzo": "ss106, km85, S.da Statale 106 Jonica, km85, 89034 Bovalino RC",
+      "lat": 38.154111,
+      "lng": 16.175009
+    },
+    {
+      "id": "4c745898-e6e2-477e-a487-7c94817f4117",
+      "slug": "villa-tripepi-africo",
+      "nome": "Villa Tripepi",
+      "city_name": "Africo",
+      "indirizzo": "Via Marina, 12, 89035 Bova Marina RC",
+      "lat": 37.930018,
+      "lng": 15.923257
+    },
+    {
+      "id": "395f6040-7006-477e-8945-ed7422155720",
+      "slug": "villaggio-jonio-blu-kalabrien-africo",
+      "nome": "Villaggio Jonio Blu - Kalabrien",
+      "city_name": "Africo",
+      "indirizzo": "Via C. Colombo, 8, 89032 Bianco RC",
+      "lat": 38.09495,
+      "lng": 16.154347
+    },
+    {
+      "id": "482431a9-c79f-455c-9a95-12f92ce88936",
+      "slug": "a-casa-di-elli-agazzano",
+      "nome": "A casa di Elli",
+      "city_name": "Agazzano",
+      "indirizzo": "Strada Misano, 11, 29010 Piano terra PC",
+      "lat": 44.937762,
+      "lng": 9.508711
+    },
+    {
+      "id": "30871fc0-ef69-4c32-8851-19f29c686630",
+      "slug": "albergo-ristorante-il-cervo-agazzano",
+      "nome": "Albergo Ristorante Il Cervo",
+      "city_name": "Agazzano",
+      "indirizzo": "Piazza Europa, 20, 29010 Agazzano PC",
+      "lat": 44.946285,
+      "lng": 9.519543
+    },
+    {
+      "id": "01769b2c-d0b8-4320-9242-83f0dec4bb7a",
+      "slug": "i-galli-bed-and-breakfast-agazzano",
+      "nome": "I Galli Bed and Breakfast",
+      "city_name": "Agazzano",
+      "indirizzo": "Via F. Gatti, 29010 Agazzano PC",
+      "lat": 44.94715,
+      "lng": 9.518064
+    },
+    {
+      "id": "f8583ef6-f769-4115-b295-e3cca5c9818a",
+      "slug": "residence-luisa-agazzano",
+      "nome": "Residence Luisa",
+      "city_name": "Agazzano",
+      "indirizzo": "Via Ranuzio Anguissola Scotti, 3, 29011 Agazzano PC",
+      "lat": 44.94605,
+      "lng": 9.519345
+    },
+    {
+      "id": "e1cd0271-5941-4b89-80ee-bb2bb3113b78",
+      "slug": "ristorante-il-calle-agazzano",
+      "nome": "Ristorante Il Calle",
+      "city_name": "Agazzano",
+      "indirizzo": "Strada Misano, 13, 29010 Agazzano PC",
+      "lat": 44.938591,
+      "lng": 9.509362
+    },
+    {
+      "id": "69027e0d-0780-4c9b-a507-100b47ec9d27",
+      "slug": "affittacamere-leonardo-s-agerola-costiera-amalfi-agerola",
+      "nome": "Affittacamere Leonardo's – Agerola | Costiera Amalfitana.",
+      "city_name": "Agerola",
+      "indirizzo": "Via Miramare, 17, 80051 Agerola NA",
+      "lat": 40.623726,
+      "lng": 14.568443
+    },
+    {
+      "id": "5a17bd96-d278-4198-9c18-71e2bf6cf0f3",
+      "slug": "agriturismo-punta-san-lazzaro-agerola",
+      "nome": "Agriturismo Punta San Lazzaro",
+      "city_name": "Agerola",
+      "indirizzo": "Via Santa Lucia, 80051 Agerola NA",
+      "lat": 40.628368,
+      "lng": 14.575309
+    },
+    {
+      "id": "8b7b5076-cbf3-4450-b030-f09e440c201d",
+      "slug": "b-b-mamaral-agerola",
+      "nome": "B&B Mamaral",
+      "city_name": "Agerola",
+      "indirizzo": "Via Pendola, 11, 80051 Pianillo NA",
+      "lat": 40.631659,
+      "lng": 14.535498
+    },
+    {
+      "id": "55b83568-63af-4664-89ca-6bab6f8072e0",
+      "slug": "b-b-mon-reve-agerola-agerola",
+      "nome": "B&B Mon Reve Agerola",
+      "city_name": "Agerola",
+      "indirizzo": "Via Galli, 14, 80051 Agerola NA",
+      "lat": 40.637095,
+      "lng": 14.534425
+    },
+    {
+      "id": "19d46333-e305-4430-9908-265fce85dbec",
+      "slug": "b-b-santa-maria-agerola-agerola",
+      "nome": "B&B SANTA MARIA AGEROLA",
+      "city_name": "Agerola",
+      "indirizzo": "Via Santa Maria, 13, 80051 Agerola NA",
+      "lat": 40.639733,
+      "lng": 14.541429
+    },
+    {
+      "id": "cd661634-799d-447f-bb38-f535002a7f18",
+      "slug": "casa-torre-agerola",
+      "nome": "Casa Torre",
+      "city_name": "Agerola",
+      "indirizzo": "Via Punta Fenile via punta fenile2/a, 80051 Agerola NA",
+      "lat": 40.625677,
+      "lng": 14.546757
+    },
+    {
+      "id": "1dcb0ca9-7c5a-492c-982b-6b4f306c5d47",
+      "slug": "furore-grand-hotel-agerola",
+      "nome": "Furore Grand Hotel",
+      "city_name": "Agerola",
+      "indirizzo": "Via Dell'Amore, 2, 84010 Furore SA",
+      "lat": 40.616226,
+      "lng": 14.54783
+    },
+    {
+      "id": "bc00ab00-7c2a-4ecd-9cb7-6e510ec432a7",
+      "slug": "hedera-rooms-agerola",
+      "nome": "HEDÈRA ROOMS",
+      "city_name": "Agerola",
+      "indirizzo": "Via Case Amatruda, 4/a, 80051 Pianillo NA",
+      "lat": 40.64026,
+      "lng": 14.545736
+    },
+    {
+      "id": "466c11bb-40fe-492b-9d68-29ce1778395b",
+      "slug": "il-borgo-agerola",
+      "nome": "Il Borgo",
+      "city_name": "Agerola",
+      "indirizzo": "Via Matteo Renato Florio, 81, 80051 Agerola NA",
+      "lat": 40.640177,
+      "lng": 14.553398
+    },
+    {
+      "id": "ab5bc760-12b5-484c-bd6c-1b749990ee4a",
+      "slug": "il-vigneto-di-nonno-pietro-fraz-pianillo-agerola",
+      "nome": "Il Vigneto di Nonno Pietro - Fraz.Pianillo",
+      "city_name": "Agerola",
+      "indirizzo": "Via Santa Croce, 6, 80051 Pianillo NA",
+      "lat": 40.640647,
+      "lng": 14.533576
+    },
+    {
+      "id": "d73e19e0-318a-44b1-b956-64de1e8127ca",
+      "slug": "la-dolce-vita-agerola",
+      "nome": "La dolce vita",
+      "city_name": "Agerola",
+      "indirizzo": "Via degli Ontanelli, 1/A, 80051 Agerola NA",
+      "lat": 40.626136,
+      "lng": 14.550461
+    },
+    {
+      "id": "b1d89f2e-9469-4073-80f8-a1dc495fb3ae",
+      "slug": "la-villa-carmelina-agerola",
+      "nome": "La Villa Carmelina",
+      "city_name": "Agerola",
+      "indirizzo": "Via Gemini, 1, 80051 Agerola NA",
+      "lat": 40.648276,
+      "lng": 14.544923
+    },
+    {
+      "id": "5a71965b-3807-4122-8cac-dcf0a5e3a563",
+      "slug": "le-5-perle-agerola",
+      "nome": "Le 5 Perle",
+      "city_name": "Agerola",
+      "indirizzo": "Via Roma 1, traversa, 3, 80051 Agerola NA",
+      "lat": 40.638292,
+      "lng": 14.543583
+    },
+    {
+      "id": "fe546dd0-719c-437f-b8c8-14b313d1ad08",
+      "slug": "o-spritt-house-agerola",
+      "nome": "O Spritt House",
+      "city_name": "Agerola",
+      "indirizzo": "Via Villani, 12, 80051 Agerola NA",
+      "lat": 40.630519,
+      "lng": 14.541881
+    },
+    {
+      "id": "9f58093c-df07-4ee5-8afa-6a00e15dd79f",
+      "slug": "quota-646-agerola",
+      "nome": "Quota 646",
+      "city_name": "Agerola",
+      "indirizzo": "Via Antonio Coppola II Traversa, 2, 80051 Agerola NA",
+      "lat": 40.627017,
+      "lng": 14.566516
+    },
+    {
+      "id": "30fb3ebe-3cf8-4454-a4eb-33731c242260",
+      "slug": "relais-milo-agerola",
+      "nome": "Relais Miló",
+      "city_name": "Agerola",
+      "indirizzo": "Prima, Via Roma, 80051 Agerola NA",
+      "lat": 40.638214,
+      "lng": 14.543835
+    },
+    {
+      "id": "b8bd0fb6-dd4a-488f-92a5-42396639d0b1",
+      "slug": "rossy-palace-amalficoast-suites-agerola",
+      "nome": "Rossy Palace - Amalficoast Suites",
+      "city_name": "Agerola",
+      "indirizzo": "Via Belvedere, 13, 80051 Agerola NA",
+      "lat": 40.62505,
+      "lng": 14.545853
+    },
+    {
+      "id": "cb327aba-7e6f-4417-ab4f-f74be62c77f3",
+      "slug": "silvana-s-house-agerola",
+      "nome": "Silvana's House",
+      "city_name": "Agerola",
+      "indirizzo": "Via Antonio Coppola, 61, 80051 San Lazzaro NA",
+      "lat": 40.627292,
+      "lng": 14.565591
+    },
+    {
+      "id": "91380dcb-6a43-4179-b9eb-8618a95022a4",
+      "slug": "terrazza-72-deluxe-room-breakfast-agerola",
+      "nome": "Terrazza 72 Deluxe Room & Breakfast",
+      "city_name": "Agerola",
+      "indirizzo": "Via Miramare, 24/26, 80051 Agerola NA",
+      "lat": 40.624293,
+      "lng": 14.567732
+    },
+    {
+      "id": "588f0f12-69f6-43c4-85a6-b6f2184e0182",
+      "slug": "zia-adele-agerola",
+      "nome": "Zia Adele",
+      "city_name": "Agerola",
+      "indirizzo": "Via Antonio Coppola, 143, 80051 Pianillo NA",
+      "lat": 40.629475,
+      "lng": 14.562729
+    },
+    {
+      "id": "622989ba-43d1-4b38-a5dd-fee7a8702f9f",
+      "slug": "agriturismo-il-muto-di-gallura-aggius",
+      "nome": "Agriturismo Il Muto di Gallura",
+      "city_name": "Aggius",
+      "indirizzo": "SP27, 07020 Aggius OT",
+      "lat": 40.921651,
+      "lng": 9.067931
+    },
+    {
+      "id": "4e2093d4-542a-4ae6-ac00-5df881d77b42",
+      "slug": "al-vecchio-corso-locanda-b-b-e-ristorante-aggius",
+      "nome": "Al Vecchio Corso Locanda (B&B e Ristorante)",
+      "city_name": "Aggius",
+      "indirizzo": "Via Roma, 96, 07029 Tempio Pausania OT",
+      "lat": 40.903718,
+      "lng": 9.103133
+    },
+    {
+      "id": "c0c6f084-89e6-42ec-9f98-f98502a2cb8f",
+      "slug": "b-b-camera-caffe-aggius",
+      "nome": "B&B Camera & Caffè",
+      "city_name": "Aggius",
+      "indirizzo": "Via Mentana, 5, 07029 Tempio Pausania OT",
+      "lat": 40.904579,
+      "lng": 9.105154
+    },
+    {
+      "id": "400ff47f-0681-4d10-8cbc-41cf25ade5c1",
+      "slug": "b-b-da-silvestro-aggius",
+      "nome": "B&b Da Silvestro",
+      "city_name": "Aggius",
+      "indirizzo": "Via Belluno, 53, 07029 Tempio Pausania OT",
+      "lat": 40.909187,
+      "lng": 9.098061
+    },
+    {
+      "id": "d87827d3-783b-4ca6-bab8-d7a4d90e6d97",
+      "slug": "b-b-la-tasgia-aggius",
+      "nome": "B&B La Tasgia",
+      "city_name": "Aggius",
+      "indirizzo": "Loc, 07020 Bonaita OT",
+      "lat": 40.929757,
+      "lng": 9.02323
+    },
+    {
+      "id": "c2b26757-20a7-48de-9ec8-955fce0a97db",
+      "slug": "b-b-letto-latte-aggius",
+      "nome": "B&B Letto&Latte",
+      "city_name": "Aggius",
+      "indirizzo": "Via Marsala, 11, 07029 Tempio Pausania OT",
+      "lat": 40.905278,
+      "lng": 9.105204
+    },
+    {
+      "id": "5fd5eb55-593b-49af-a41c-b8ca34b88b69",
+      "slug": "b-b-lo-stazzo-aggius",
+      "nome": "B&B Lo Stazzo",
+      "city_name": "Aggius",
+      "indirizzo": "Località Bonaita, 11, 07020 Aggius OT",
+      "lat": 40.945982,
+      "lng": 9.013087
+    }
+  ]
+}

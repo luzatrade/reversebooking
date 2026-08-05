@@ -1,0 +1,323 @@
+{
+  "block": 346,
+  "blockId": "346",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "f8c59bd0-b182-4ec2-8311-d2068c0191ef",
+      "slug": "la-bonauda-affittacamere-busano",
+      "nome": "La Bonauda Affittacamere",
+      "city_name": "Busano",
+      "indirizzo": "Frazione Gallenca, 98, 10087 Valperga TO",
+      "lat": 45.373645,
+      "lng": 7.679121
+    },
+    {
+      "id": "c41128ae-3869-48dc-a3b1-b0a75638dddb",
+      "slug": "agli-alteni-busca",
+      "nome": "Agli Alteni",
+      "city_name": "Busca",
+      "indirizzo": "Via Circonvallazione Est, 18/b, 12020 Villafalletto CN",
+      "lat": 44.554771,
+      "lng": 7.5423
+    },
+    {
+      "id": "b9f9a86a-f573-444b-9b28-d47f25d4acd7",
+      "slug": "agriturismo-le-lasarde-busca",
+      "nome": "agriturismo le lasarde",
+      "city_name": "Busca",
+      "indirizzo": "Cajot San Bernardo, 1, 12020 Venasca CN",
+      "lat": 44.569925,
+      "lng": 7.411319
+    },
+    {
+      "id": "daba86fd-8865-4ce6-a056-60bef407172e",
+      "slug": "agriturismo-tetto-garrone-busca",
+      "nome": "Agriturismo Tetto Garrone",
+      "city_name": "Busca",
+      "indirizzo": "Via della Campagna, 45, 12100 Roata Rossi CN",
+      "lat": 44.43417,
+      "lng": 7.526137
+    },
+    {
+      "id": "23dddf5b-e849-4c21-aed3-89829aeb8e62",
+      "slug": "albergo-ristorante-la-pineta-busca",
+      "nome": "Albergo Ristorante La Pineta",
+      "city_name": "Busca",
+      "indirizzo": "Piazzale Sant'Anna, 6, 12020 Roccabruna CN",
+      "lat": 44.497553,
+      "lng": 7.307772
+    },
+    {
+      "id": "4f9d1b4a-0fdf-429e-813c-94ebbe4402b5",
+      "slug": "b-b-l-uovo-e-la-faina-busca",
+      "nome": "B&B. l'uovo e la faina",
+      "city_name": "Busca",
+      "indirizzo": "Via Morra S. Giovanni, 119, 12022 Busca CN",
+      "lat": 44.509928,
+      "lng": 7.449613
+    },
+    {
+      "id": "272856d6-2a80-4972-aef2-687297006814",
+      "slug": "bed-breakfast-cascina-dell-eco-busca-busca",
+      "nome": "Bed & Breakfast Cascina dell' Eco Busca",
+      "city_name": "Busca",
+      "indirizzo": "Via Ceresa, 88/E, 12022 Busca CN",
+      "lat": 44.491552,
+      "lng": 7.452066
+    },
+    {
+      "id": "b18e5efa-7e2a-461d-969d-8e8ff4730142",
+      "slug": "ca-d-giorgetto-resort-busca",
+      "nome": "Ca' d'Giorgetto Resort",
+      "city_name": "Busca",
+      "indirizzo": "Via Colonia, 32, 12022 Madonna del Campanile di Busca CN",
+      "lat": 44.525453,
+      "lng": 7.46129
+    },
+    {
+      "id": "6e666f86-ca46-48af-a047-a8cedf1bbb61",
+      "slug": "casa-del-bosco-busca-busca",
+      "nome": "Casa del Bosco Busca",
+      "city_name": "Busca",
+      "indirizzo": "Via Cuneo, 125, 12022 Busca CN",
+      "lat": 44.473711,
+      "lng": 7.482978
+    },
+    {
+      "id": "7c016d8d-af77-410b-8676-c9b0d7e4393f",
+      "slug": "hotel-antico-podere-propano-busca",
+      "nome": "Hotel Antico Podere Propano",
+      "city_name": "Busca",
+      "indirizzo": "Via di Torino, 75, 12037 Saluzzo CN",
+      "lat": 44.654648,
+      "lng": 7.494425
+    },
+    {
+      "id": "cdf5443f-07c1-4b4f-abfd-6ac2a8aae9c4",
+      "slug": "il-giramondo-busca",
+      "nome": "Il Giramondo",
+      "city_name": "Busca",
+      "indirizzo": "Via Demaria, 5 Fraz. Castelletto, 12022 Busca CN",
+      "lat": 44.46775,
+      "lng": 7.443718
+    },
+    {
+      "id": "73604ba2-0a58-4136-8c71-5dc14d695b1c",
+      "slug": "l-ramassin-busca",
+      "nome": "L Ramassin",
+      "city_name": "Busca",
+      "indirizzo": "Str. S. Martino, 86, 12022 Busca CN",
+      "lat": 44.539145,
+      "lng": 7.469769
+    },
+    {
+      "id": "88d13caa-f729-4649-a35d-4662aab57a2e",
+      "slug": "airport-hotel-malpensa-buscate",
+      "nome": "Airport Hotel Malpensa",
+      "city_name": "Buscate",
+      "indirizzo": "Via Luigi Pirandello, 16, 21015 Lonate Pozzolo VA",
+      "lat": 45.582119,
+      "lng": 8.712714
+    },
+    {
+      "id": "7cf7b75b-da89-4c1b-b1ce-5d08195ca68b",
+      "slug": "b-b-il-giardino-nascosto-buscate",
+      "nome": "B&B Il Giardino Nascosto",
+      "city_name": "Buscate",
+      "indirizzo": "Via Goito, 19, 21052 Busto Arsizio VA",
+      "lat": 45.612864,
+      "lng": 8.841804
+    },
+    {
+      "id": "5eec24a8-46c6-40cd-991b-aa17fc9c5044",
+      "slug": "b-b-la-corte-della-nonna-buscate",
+      "nome": "B&B La Corte Della Nonna",
+      "city_name": "Buscate",
+      "indirizzo": "Via Camillo Benso Conte di Cavour, 8, 21017 Samarate VA",
+      "lat": 45.628888,
+      "lng": 8.785754
+    },
+    {
+      "id": "468dd283-2b38-4b5f-b93d-c906473b097e",
+      "slug": "il-piccolo-mondo-antico-buscate",
+      "nome": "Il Piccolo Mondo Antico",
+      "city_name": "Buscate",
+      "indirizzo": "Via G. Giusti, 24, 21053 Castellanza VA",
+      "lat": 45.608157,
+      "lng": 8.893295
+    },
+    {
+      "id": "2630e93b-ec5c-4bef-8194-25ee0c1934ce",
+      "slug": "savany-b-apartments-buscate",
+      "nome": "Savany B&Apartments",
+      "city_name": "Buscate",
+      "indirizzo": "Via Giacomo Puccini, 5, 20010 Buscate MI",
+      "lat": 45.544535,
+      "lng": 8.810762
+    },
+    {
+      "id": "608c9106-9ac3-4786-82a5-caf02319cc3d",
+      "slug": "st-gregory-b-b-buscate",
+      "nome": "St. Gregory B&B",
+      "city_name": "Buscate",
+      "indirizzo": "Piazza S. Gregorio, 5/6, 21057 Olgiate Olona VA",
+      "lat": 45.634019,
+      "lng": 8.888114
+    },
+    {
+      "id": "a2d18d2c-1a0a-44a7-9050-ebb8715c5c5c",
+      "slug": "addimura-sicilian-retreat-center-buscemi",
+      "nome": "Addimura - Sicilian Retreat Center",
+      "city_name": "Buscemi",
+      "indirizzo": "c.da Fontanabotte, 96010 Palazzolo Acreide SR",
+      "lat": 37.061941,
+      "lng": 14.897007
+    },
+    {
+      "id": "8228ed1a-5b35-405c-a10e-ea66eb120239",
+      "slug": "aurienzia-rooms-buscemi",
+      "nome": "AURIENZIA ROOMS",
+      "city_name": "Buscemi",
+      "indirizzo": "Via Aldo Moro, 78, 97100 Ragusa RG",
+      "lat": 36.930553,
+      "lng": 14.701426
+    },
+    {
+      "id": "de973a09-2566-4403-9d09-abc4d751902f",
+      "slug": "b-b-anapama-buscemi",
+      "nome": "B&B Anapama",
+      "city_name": "Buscemi",
+      "indirizzo": "Unnamed Road, 96010, 96010 Palazzolo Acreide SR",
+      "lat": 37.070772,
+      "lng": 14.897259
+    },
+    {
+      "id": "86d45a44-55e2-4475-9d4d-64d8d14b7d74",
+      "slug": "b-b-terrazzo-su-ibla-buscemi",
+      "nome": "B&B Terrazzo su Ibla",
+      "city_name": "Buscemi",
+      "indirizzo": "via Giuseppe, Via Tenente Giuseppe Schembari, 2, 97100 Ragusa RG",
+      "lat": 36.92731,
+      "lng": 14.732974
+    },
+    {
+      "id": "dca21f5e-69e1-42e9-8a0b-db40cba20c32",
+      "slug": "casa-agora-buscemi",
+      "nome": "Casa Agorà",
+      "city_name": "Buscemi",
+      "indirizzo": "Via Nicolò Zocco, 4, 96010 Palazzolo Acreide SR",
+      "lat": 37.062153,
+      "lng": 14.904454
+    },
+    {
+      "id": "cc33ac5f-eb07-4584-85b5-6b98718d6a7f",
+      "slug": "dimora-di-catullo-ospitalita-di-charme-buscemi",
+      "nome": "Dimora di Catullo - Ospitalità di Charme",
+      "city_name": "Buscemi",
+      "indirizzo": "Via Carlo Alberto, 42/44, 96010 Palazzolo Acreide SR",
+      "lat": 37.062271,
+      "lng": 14.90316
+    },
+    {
+      "id": "d83d0ef5-162b-4f00-9ac4-8e9da2ce6970",
+      "slug": "joanne-b-b-buscemi",
+      "nome": "Joanne B&B",
+      "city_name": "Buscemi",
+      "indirizzo": "Via Messina, 25, 96010 Canicattini Bagni SR",
+      "lat": 37.035943,
+      "lng": 15.058954
+    },
+    {
+      "id": "ff66173c-89b9-465b-9ad2-e8c29c694e48",
+      "slug": "lues-rooms-buscemi",
+      "nome": "Lues Rooms",
+      "city_name": "Buscemi",
+      "indirizzo": "Via dei Sospiri, 6, 97100 Ragusa RG",
+      "lat": 36.927226,
+      "lng": 14.745512
+    },
+    {
+      "id": "e209daaf-79fe-4935-a49b-f4d1ed5d354b",
+      "slug": "new-villa-carlotta-buscemi",
+      "nome": "New Villa Carlotta",
+      "city_name": "Buscemi",
+      "indirizzo": "Via Gandhi, 3, 97100 Ragusa RG",
+      "lat": 36.93382,
+      "lng": 14.690474
+    },
+    {
+      "id": "edda122d-221e-47cb-a5b1-526642254356",
+      "slug": "oasi-iblea-affittacamere-bed-and-breakfast-casa-buscemi",
+      "nome": "Oasi Iblea Affittacamere Bed and Breakfast Casa Vacanze Hotel Ragusa",
+      "city_name": "Buscemi",
+      "indirizzo": "Corso Italia, 380, 97100 Ragusa RG",
+      "lat": 36.927721,
+      "lng": 14.722205
+    },
+    {
+      "id": "7ed3eb41-2d74-4698-8ab0-df3b619bc55f",
+      "slug": "rta-palazzo-judica-buscemi",
+      "nome": "RTA Palazzo Judica",
+      "city_name": "Buscemi",
+      "indirizzo": "Ronco Grossi, 10, 96010 Palazzolo Acreide SR",
+      "lat": 37.061815,
+      "lng": 14.902879
+    },
+    {
+      "id": "feb531e2-480d-4035-934e-8edbcd9030d8",
+      "slug": "sud-est-b-b-buscemi",
+      "nome": "Sud Est B&B",
+      "city_name": "Buscemi",
+      "indirizzo": "Via Giuliano, 10, 96010 Palazzolo Acreide SR",
+      "lat": 37.059633,
+      "lng": 14.907369
+    },
+    {
+      "id": "b499e480-b6bf-450f-9c2f-3fa4e1007009",
+      "slug": "agriturismo-baglio-fontana-buseto-palizzolo",
+      "nome": "Agriturismo Baglio Fontana",
+      "city_name": "Buseto Palizzolo",
+      "indirizzo": "Via Palermo, 26, 91012 Buseto Palizzolo TP",
+      "lat": 38.013273,
+      "lng": 12.720359
+    },
+    {
+      "id": "9a2436d7-8eac-449a-a91b-77525986c682",
+      "slug": "alba-marina-b-b-buseto-palizzolo",
+      "nome": "ALBA MARINA B&B",
+      "city_name": "Buseto Palizzolo",
+      "indirizzo": "Viale C. Colombo, 139, 91030 Castelluzzo TP",
+      "lat": 38.092953,
+      "lng": 12.745377
+    },
+    {
+      "id": "fe6f0cfe-bc27-43d9-8cfc-cb182a2fd766",
+      "slug": "appartamento-siria-busith-buseto-palizzolo",
+      "nome": "Appartamento Siria Busith",
+      "city_name": "Buseto Palizzolo",
+      "indirizzo": "Via Andrea Spada, 92, 91012 Buseto Palizzolo TP",
+      "lat": 38.018142,
+      "lng": 12.725469
+    },
+    {
+      "id": "d4e05f7d-ea33-4ea4-9f85-a16820043829",
+      "slug": "b-b-buseto-palizzolo",
+      "nome": "B&B",
+      "city_name": "Buseto Palizzolo",
+      "indirizzo": "Via Palermo, 62, 91012 Buseto Palizzolo TP",
+      "lat": 38.013509,
+      "lng": 12.724689
+    },
+    {
+      "id": "e374c2ef-3fdd-4ffb-b0ac-ff26b41067a7",
+      "slug": "b-b-angela-buseto-palizzolo",
+      "nome": "B&B Angela",
+      "city_name": "Buseto Palizzolo",
+      "indirizzo": "Via Segesta, 65, 91012 Buseto Palizzolo TP",
+      "lat": 38.000285,
+      "lng": 12.718979
+    }
+  ]
+}

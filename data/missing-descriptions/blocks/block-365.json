@@ -1,0 +1,323 @@
+{
+  "block": 365,
+  "blockId": "365",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "57635bcc-6cf1-472d-a7f9-294ee932cd56",
+      "slug": "agriturismo-wellness-il-tempo-delle-mele-caldes",
+      "nome": "Agriturismo Wellness IL TEMPO DELLE MELE",
+      "city_name": "Caldes",
+      "indirizzo": "Strada Provinciale, 65, 38022 Caldes TN",
+      "lat": 46.367851,
+      "lng": 10.938653
+    },
+    {
+      "id": "5dc65c8e-c0a5-44d2-969d-49bcc8fd983e",
+      "slug": "albergo-alla-rocca-caldes",
+      "nome": "Albergo Alla Rocca",
+      "city_name": "Caldes",
+      "indirizzo": "V. del Tonale, 22, 38022 Caldes TN",
+      "lat": 46.365755,
+      "lng": 10.938671
+    },
+    {
+      "id": "da51c77d-7a71-4de5-812c-babd49fe49b8",
+      "slug": "albergo-tuenno-caldes",
+      "nome": "Albergo Tuenno",
+      "city_name": "Caldes",
+      "indirizzo": "Piazza Alpini, 25, 38019 Ville d'Anaunia TN",
+      "lat": 46.326645,
+      "lng": 11.023239
+    },
+    {
+      "id": "4c2c2ff9-db19-48aa-9faa-b18a128f1e1b",
+      "slug": "alle-meridiane-caldes",
+      "nome": "Alle Meridiane",
+      "city_name": "Caldes",
+      "indirizzo": "Via alla Cros, 1, 38025 Dimaro Folgarida TN",
+      "lat": 46.333084,
+      "lng": 10.879878
+    },
+    {
+      "id": "06cf42b5-1f75-49d8-9ee3-d296b796d53a",
+      "slug": "b-b-il-sorriso-dei-nonni-caldes",
+      "nome": "B&B Il Sorriso dei Nonni",
+      "city_name": "Caldes",
+      "indirizzo": "Frazione Pracorno, 136, 38020 Rabbi TN",
+      "lat": 46.372245,
+      "lng": 10.878558
+    },
+    {
+      "id": "ce574097-7b11-4131-bc1e-9414b526f134",
+      "slug": "b-b-soreghina-male-caldes",
+      "nome": "B&B Soreghina Malè",
+      "city_name": "Caldes",
+      "indirizzo": "Via Molini, 13, 38027 Malé TN",
+      "lat": 46.350627,
+      "lng": 10.911612
+    },
+    {
+      "id": "2d0af37c-57ac-4d65-8612-66dee33dfcb9",
+      "slug": "casa-fellin-1891-b-b-caldes",
+      "nome": "Casa Fellin 1891 B&B",
+      "city_name": "Caldes",
+      "indirizzo": "Via Enrico Bergamo, 12, 38023 Cles TN",
+      "lat": 46.365248,
+      "lng": 11.034941
+    },
+    {
+      "id": "15f7d819-9865-47b2-85bb-10e607ec9696",
+      "slug": "chalet-ai-mulini-caldes",
+      "nome": "Chalet ai mulini",
+      "city_name": "Caldes",
+      "indirizzo": "STRADA PER LE GLARE, Località Glare, 38022 Caldes TN",
+      "lat": 46.363787,
+      "lng": 10.947419
+    },
+    {
+      "id": "f40a0918-1e1a-4565-a77c-b6699dc0a8b4",
+      "slug": "hotel-diffuso-garni-della-locanda-elisa-caldes",
+      "nome": "Hotel Diffuso - Garnì della Locanda Elisa",
+      "city_name": "Caldes",
+      "indirizzo": "Piazza Centrale, 11, 38025 Dimaro Folgarida TN",
+      "lat": 46.325404,
+      "lng": 10.874809
+    },
+    {
+      "id": "7ec5a94f-04ec-4279-a656-0639eb94eaf9",
+      "slug": "hotel-garni-meledrio-caldes",
+      "nome": "Hotel Garni Meledrio",
+      "city_name": "Caldes",
+      "indirizzo": "Via Campiglio, 24, 38025 Dimaro Folgarida TN",
+      "lat": 46.327232,
+      "lng": 10.870896
+    },
+    {
+      "id": "699dd0b5-8f76-4e29-b45a-d86968c12859",
+      "slug": "hotel-garni-maria-caldes",
+      "nome": "Hotel Garni' Maria",
+      "city_name": "Caldes",
+      "indirizzo": "V. Nazionale, 582/b Loc, 38025 Monclassico TN",
+      "lat": 46.33635,
+      "lng": 10.892284
+    },
+    {
+      "id": "e7bce15b-4080-4ad6-9e03-a3bcdde6f4ac",
+      "slug": "hotel-henriette-caldes",
+      "nome": "Hotel Henriette",
+      "city_name": "Caldes",
+      "indirizzo": "Via Trento, 36, 38027 Malé TN",
+      "lat": 46.353901,
+      "lng": 10.913993
+    },
+    {
+      "id": "55139194-7c06-44a1-b866-fc487886ad8f",
+      "slug": "hotel-sole-caldes",
+      "nome": "Hotel Sole",
+      "city_name": "Caldes",
+      "indirizzo": "Via Guglielmo Marconi, 3, 38027 Malé TN",
+      "lat": 46.3534,
+      "lng": 10.913967
+    },
+    {
+      "id": "ef7f8b1e-d76f-4e1f-adf8-052ef6419578",
+      "slug": "kaiserkrone-chalet-spa-caldes",
+      "nome": "Kaiserkrone Chalet & Spa",
+      "city_name": "Caldes",
+      "indirizzo": "Piazza Giovanni Serra, 3, 38025 Dimaro TN",
+      "lat": 46.325796,
+      "lng": 10.874287
+    },
+    {
+      "id": "2db5f876-c205-47b9-8446-585054b5bb4a",
+      "slug": "laste-nature-mountain-hotel-caldes",
+      "nome": "Lastè Nature Mountain Hotel",
+      "city_name": "Caldes",
+      "indirizzo": "Località Molini, 11, 38022 Caldes TN",
+      "lat": 46.361916,
+      "lng": 10.942422
+    },
+    {
+      "id": "663ed1c3-d640-428b-846b-6cf05887a3a7",
+      "slug": "le-rocce-val-di-non-caldes",
+      "nome": "Le Rocce Val di Non",
+      "city_name": "Caldes",
+      "indirizzo": "Vicolo de le Giarberie, accesso da, Via Lanza, 8, 38019 Ville d'Anaunia TN",
+      "lat": 46.330335,
+      "lng": 11.040984
+    },
+    {
+      "id": "cdcb063b-a668-453b-bcdc-84ca7bdde181",
+      "slug": "park-hotel-bellevue-caldes",
+      "nome": "Park Hotel Bellevue",
+      "city_name": "Caldes",
+      "indirizzo": "Via Campo Carlo Magno, 3, 38025 Dimaro TN",
+      "lat": 46.323205,
+      "lng": 10.882736
+    },
+    {
+      "id": "f9ad5026-ca24-4795-befa-45fcaef72aba",
+      "slug": "sporthotel-rosatti-caldes",
+      "nome": "Sporthotel Rosatti",
+      "city_name": "Caldes",
+      "indirizzo": "Via Campiglio, 14, 38025 Dimaro TN",
+      "lat": 46.327457,
+      "lng": 10.870549
+    },
+    {
+      "id": "af4a13c4-1dda-4106-a3a6-e589c07f627f",
+      "slug": "albergo-ristorante-grobberio-caldiero",
+      "nome": "Albergo Ristorante Grobberio",
+      "city_name": "Caldiero",
+      "indirizzo": "Via Mezzavilla, 69, 37036 Marcellise VR",
+      "lat": 45.464744,
+      "lng": 11.104653
+    },
+    {
+      "id": "435d5b33-f922-4077-a5da-595bf8a54258",
+      "slug": "b-b-acquagrossa-caldiero",
+      "nome": "B&B Acquagrossa",
+      "city_name": "Caldiero",
+      "indirizzo": "Via Acquagrossa, 6a, 37036 San Martino Buon Albergo VR",
+      "lat": 45.400583,
+      "lng": 11.081224
+    },
+    {
+      "id": "49c5ace0-574e-4877-a58b-9f54ce9b6260",
+      "slug": "best-western-hotel-turismo-caldiero",
+      "nome": "Best Western Hotel Turismo",
+      "city_name": "Caldiero",
+      "indirizzo": "Via Nazionale, 58, 37036 San Martino Buon Albergo VR",
+      "lat": 45.421199,
+      "lng": 11.108083
+    },
+    {
+      "id": "6bec6f35-d3fa-4fa7-b24c-06f85e09b1f7",
+      "slug": "brixius-cin-it023042c1yjloaxv4-caldiero",
+      "nome": "Brixius - CIN:IT023042C1YJLOAXV4",
+      "city_name": "Caldiero",
+      "indirizzo": "Via Alta, 5, 37030 San Briccio VR",
+      "lat": 45.452765,
+      "lng": 11.119173
+    },
+    {
+      "id": "6a1298c5-d3f3-42bb-9eb4-7da343938365",
+      "slug": "damaranto-ristorante-con-camere-caldiero",
+      "nome": "DAMARANTO RISTORANTE CON CAMERE",
+      "city_name": "Caldiero",
+      "indirizzo": "Corso Vittorio Emanuele II, 50, 37038 Soave VR",
+      "lat": 45.423486,
+      "lng": 11.24713
+    },
+    {
+      "id": "c15cc10b-f2f9-4062-9d9d-a482f26698dd",
+      "slug": "via-verdi-b-b-caldiero",
+      "nome": "Via Verdi B&B",
+      "city_name": "Caldiero",
+      "indirizzo": "Via Giuseppe Verdi, 3, 37030 Vago VR",
+      "lat": 45.418789,
+      "lng": 11.133983
+    },
+    {
+      "id": "f5477569-2e36-45d9-acff-24ea5d5196fb",
+      "slug": "villa-turco-berti-luxury-apartments-spa-caldiero",
+      "nome": "Villa Turco Berti Luxury Apartments & SPA",
+      "city_name": "Caldiero",
+      "indirizzo": "Piazza Giacomo Matteotti, 23, 37042 Caldiero VR",
+      "lat": 45.408942,
+      "lng": 11.18238
+    },
+    {
+      "id": "21b78f3a-9fe9-43fb-821a-55983e589771",
+      "slug": "agriturismo-alla-corte-caldogno",
+      "nome": "Agriturismo alla Corte",
+      "city_name": "Caldogno",
+      "indirizzo": "Strada Statale Pasubio, 109, 36030 Costabissara VI",
+      "lat": 45.597078,
+      "lng": 11.494844
+    },
+    {
+      "id": "dba63c35-07ce-4bbd-bd5a-953ce9fedcf8",
+      "slug": "agriturismo-il-grande-portico-caldogno",
+      "nome": "Agriturismo Il Grande Portico",
+      "city_name": "Caldogno",
+      "indirizzo": "Via S. Cristoforo, 44, 36030 Costabissara VI",
+      "lat": 45.598713,
+      "lng": 11.499878
+    },
+    {
+      "id": "aa0a4ae3-05e1-42e1-aeca-8cf90b8946ff",
+      "slug": "agriturismo-maddalene-101-caldogno",
+      "nome": "Agriturismo Maddalene 101",
+      "city_name": "Caldogno",
+      "indirizzo": "Str. Maddalene, 101, 36100 Vicenza VI",
+      "lat": 45.567251,
+      "lng": 11.505852
+    },
+    {
+      "id": "99ba7745-d1db-460d-a2b9-60a414323809",
+      "slug": "bed-breakfast-alla-pergola-caldogno",
+      "nome": "Bed & Breakfast Alla Pergola",
+      "city_name": "Caldogno",
+      "indirizzo": "Vicolo Don Antonio Menin, 21, 36030 Caldogno VI",
+      "lat": 45.590936,
+      "lng": 11.524375
+    },
+    {
+      "id": "7aca6568-6cba-4adf-a8b4-76808b066af6",
+      "slug": "cityhotel-cristina-vicenza-caldogno",
+      "nome": "CityHotel Cristina Vicenza",
+      "city_name": "Caldogno",
+      "indirizzo": "Corso SS. Felice e Fortunato, 32, 36100 Vicenza VI",
+      "lat": 45.545847,
+      "lng": 11.537229
+    },
+    {
+      "id": "d3251561-ea3e-451c-9016-cab550a46345",
+      "slug": "hotel-doge-caldogno",
+      "nome": "Hotel Doge",
+      "city_name": "Caldogno",
+      "indirizzo": "Via A. Lamarmora, 20, 36100 Vicenza VI",
+      "lat": 45.558549,
+      "lng": 11.542021
+    },
+    {
+      "id": "7d4c3030-a99e-4f78-a627-79b65620ce32",
+      "slug": "hotel-villa-caldogno",
+      "nome": "Hotel Villa",
+      "city_name": "Caldogno",
+      "indirizzo": "V.Roma, 1, 36030 Villaverla VI",
+      "lat": 45.649965,
+      "lng": 11.493866
+    },
+    {
+      "id": "e7d6b3f3-55d6-49f6-a17d-3fd6c23aa93d",
+      "slug": "trattoria-lovise-caldogno",
+      "nome": "Trattoria Lovise",
+      "city_name": "Caldogno",
+      "indirizzo": "Via G. Marconi, 17, 36030 Costabissara VI",
+      "lat": 45.582357,
+      "lng": 11.48439
+    },
+    {
+      "id": "c762fa47-df7d-4eda-b530-4cbb09463d43",
+      "slug": "vicenza-tiepolo-hotel-caldogno",
+      "nome": "Vicenza Tiepolo Hotel",
+      "city_name": "Caldogno",
+      "indirizzo": "Viale S. Lazzaro, 110, 36100 Vicenza VI",
+      "lat": 45.537769,
+      "lng": 11.514328
+    },
+    {
+      "id": "af314d5f-25c9-42b0-b7fe-0f9707bbb9bc",
+      "slug": "villa-solatia-caldogno",
+      "nome": "Villa Solatia",
+      "city_name": "Caldogno",
+      "indirizzo": "Via Stadio, 16, 36030 Rettorgole VI",
+      "lat": 45.5943,
+      "lng": 11.52318
+    }
+  ]
+}

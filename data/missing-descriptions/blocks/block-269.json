@@ -1,0 +1,323 @@
+{
+  "block": 269,
+  "blockId": "269",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "2e49885a-5850-468c-a797-993e356b27d5",
+      "slug": "hotel-tricolore-bibbiano",
+      "nome": "Hotel Tricolore",
+      "city_name": "Bibbiano",
+      "indirizzo": "Via I. Newton, 9/A, 42124 Villa Gaida RE",
+      "lat": 44.742443,
+      "lng": 10.505399
+    },
+    {
+      "id": "03c6ba48-562b-4703-9fdf-0d6af3c9c7fd",
+      "slug": "le-ruote-bibbiano",
+      "nome": "Le Ruote",
+      "city_name": "Bibbiano",
+      "indirizzo": "Via della Volta, 9, 42030 Vezzano Sul Crostolo RE",
+      "lat": 44.599682,
+      "lng": 10.546344
+    },
+    {
+      "id": "5511c5f0-ef32-4450-9d6c-4d7f090d02e0",
+      "slug": "osteria-con-locanda-rossodivino-bibbiano",
+      "nome": "Osteria con Locanda Rossodivino",
+      "city_name": "Bibbiano",
+      "indirizzo": "Piazza Angelo Zanti, 11, 42025 Cavriago RE",
+      "lat": 44.695755,
+      "lng": 10.526779
+    },
+    {
+      "id": "b7483a1e-9f65-478c-8c91-ed9d98f5082e",
+      "slug": "ristorante-albergo-la-maddalena-bibbiano",
+      "nome": "Ristorante Albergo La Maddalena",
+      "city_name": "Bibbiano",
+      "indirizzo": "Via Louis Pasteur, 5, 42020 Quattro Castella RE",
+      "lat": 44.63184,
+      "lng": 10.472781
+    },
+    {
+      "id": "12ea57ea-1cb5-4d14-b10c-8aabc05c9075",
+      "slug": "albergo-ristorante-bellavista-bibbiena",
+      "nome": "Albergo Ristorante BELLAVISTA",
+      "city_name": "Bibbiena",
+      "indirizzo": "Viale S. Francesco, 17, 52010 Chiusi della Verna AR",
+      "lat": 43.699272,
+      "lng": 11.935657
+    },
+    {
+      "id": "5aee8df7-6321-4f7d-92ff-f1815d8ac7fa",
+      "slug": "albergo-ristorante-brogi-di-garbuglia-mario-bibbiena",
+      "nome": "Albergo Ristorante Brogi di Garbuglia Mario",
+      "city_name": "Bibbiena",
+      "indirizzo": "Via Selvaggia Mazzoni, 7, 52011 Bibbiena AR",
+      "lat": 43.693718,
+      "lng": 11.818032
+    },
+    {
+      "id": "f7f116cb-08a1-49bf-9cca-529ea4089594",
+      "slug": "albergo-san-lorenzo-bibbiena",
+      "nome": "Albergo San Lorenzo",
+      "city_name": "Bibbiena",
+      "indirizzo": "Piazza Jacopo Bordoni, 2, 52014 Poppi AR",
+      "lat": 43.722612,
+      "lng": 11.7678
+    },
+    {
+      "id": "cfaccf5f-e1cf-4d72-a493-1d72949fce4d",
+      "slug": "b-b-i-due-portali-bibbiena",
+      "nome": "B&B I Due Portali",
+      "city_name": "Bibbiena",
+      "indirizzo": "Via Bernardo Dovizi, 15, 52011 Bibbiena AR",
+      "lat": 43.694308,
+      "lng": 11.817203
+    },
+    {
+      "id": "5180d9b1-a496-4814-b6cb-e88600fa3200",
+      "slug": "b-b-la-casa-d-artista-bibbiena",
+      "nome": "B&B La Casa d'Artista",
+      "city_name": "Bibbiena",
+      "indirizzo": "Via Molino, 10, 52010 Ortignano AR",
+      "lat": 43.682315,
+      "lng": 11.752161
+    },
+    {
+      "id": "b7cbdf15-322e-4f8e-b3c8-059bc55b35e4",
+      "slug": "borgo-romena-bibbiena",
+      "nome": "Borgo Romena",
+      "city_name": "Bibbiena",
+      "indirizzo": "Località Romena, 15, 52015 Pratovecchio AR",
+      "lat": 43.778987,
+      "lng": 11.70304
+    },
+    {
+      "id": "537eb240-1e4a-4155-993a-c639e3adab4c",
+      "slug": "castello-di-valenzano-bibbiena",
+      "nome": "Castello di Valenzano",
+      "city_name": "Bibbiena",
+      "indirizzo": "Località Valenzano, 97, 52010 Subbiano AR",
+      "lat": 43.628994,
+      "lng": 11.881924
+    },
+    {
+      "id": "0db06432-4621-4c0a-ae8b-0835e99d41a5",
+      "slug": "da-giovanna-bibbiena",
+      "nome": "Da Giovanna",
+      "city_name": "Bibbiena",
+      "indirizzo": "Viale S. Francesco, 33, 52010 Chiusi della Verna AR",
+      "lat": 43.698827,
+      "lng": 11.936438
+    },
+    {
+      "id": "01448fe5-4510-4a37-88a8-345e0cd9bbb1",
+      "slug": "fattoria-di-marena-agriturismo-family-holidays-bibbiena",
+      "nome": "Fattoria di Marena - Agriturismo - Family Holidays",
+      "city_name": "Bibbiena",
+      "indirizzo": "loc. Fattoria di Marena, 52011 Bibbiena AR",
+      "lat": 43.714195,
+      "lng": 11.821018
+    },
+    {
+      "id": "a6d4d73a-20a7-47b1-8277-9eed57557d3a",
+      "slug": "hotel-borgo-antico-bibbiena-bibbiena",
+      "nome": "Hotel Borgo Antico Bibbiena",
+      "city_name": "Bibbiena",
+      "indirizzo": "Via Cappucci, 2, 52011 Bibbiena AR",
+      "lat": 43.694267,
+      "lng": 11.816518
+    },
+    {
+      "id": "f888804c-6400-465c-8e3d-08a1744fe70d",
+      "slug": "hotel-ristorante-la-torricella-bibbiena",
+      "nome": "Hotel Ristorante La Torricella",
+      "city_name": "Bibbiena",
+      "indirizzo": "Località Torricella, 14, 52014 Poppi AR",
+      "lat": 43.729105,
+      "lng": 11.770716
+    },
+    {
+      "id": "283c7c4d-c757-43a8-a0a9-84e2c8ccfe32",
+      "slug": "il-giardino-hotel-e-ristorante-bibbiena",
+      "nome": "Il Giardino Hotel e Ristorante",
+      "city_name": "Bibbiena",
+      "indirizzo": "Piazza Palagi, 2, 52011 Bibbiena AR",
+      "lat": 43.696952,
+      "lng": 11.809891
+    },
+    {
+      "id": "dc6eae27-0730-40d4-b133-f6a64684a203",
+      "slug": "mike-s-apartment-bibbiena",
+      "nome": "Mike's Apartment",
+      "city_name": "Bibbiena",
+      "indirizzo": "Via G. Borghi, 71, 52011 Bibbiena AR",
+      "lat": 43.694878,
+      "lng": 11.817417
+    },
+    {
+      "id": "47ffe802-28e9-45cc-a0ad-b72e908aa2c9",
+      "slug": "palazzo-gatteschi-bibbiena",
+      "nome": "Palazzo Gatteschi",
+      "city_name": "Bibbiena",
+      "indirizzo": "Via Falterona, 104, 52014 Poppi AR",
+      "lat": 43.7465,
+      "lng": 11.744071
+    },
+    {
+      "id": "d54ea1f0-b880-4aea-95cc-a547b571dd1e",
+      "slug": "parc-hotel-bibbiena",
+      "nome": "Parc Hotel",
+      "city_name": "Bibbiena",
+      "indirizzo": "Via Roma, 214, 52014 Poppi AR",
+      "lat": 43.726751,
+      "lng": 11.771555
+    },
+    {
+      "id": "3957f6de-13f5-44d6-b4f0-1d252121ffa5",
+      "slug": "pastor-angelicus-la-verna-bibbiena",
+      "nome": "Pastor Angelicus - La Verna",
+      "city_name": "Bibbiena",
+      "indirizzo": "Viale S. Francesco, 20, 52010 Chiusi della Verna AR",
+      "lat": 43.700446,
+      "lng": 11.931705
+    },
+    {
+      "id": "6f6579a9-c470-41d1-923f-d13706e5992b",
+      "slug": "ristorante-casentino-bibbiena",
+      "nome": "Ristorante Casentino",
+      "city_name": "Bibbiena",
+      "indirizzo": "Piazza della Repubblica, 6, 52014 Poppi AR",
+      "lat": 43.722451,
+      "lng": 11.76661
+    },
+    {
+      "id": "b0e96c96-cbc2-44f7-942c-562541ae075b",
+      "slug": "villa-giulia-fashion-b-b-bibbiena",
+      "nome": "Villa Giulia Fashion B&B",
+      "city_name": "Bibbiena",
+      "indirizzo": "Via Palmiro Togliatti, 40, 52018 Strada AR",
+      "lat": 43.747073,
+      "lng": 11.712646
+    },
+    {
+      "id": "46afd26e-e5a8-4b70-8e44-4ad08cb23b2d",
+      "slug": "villa-le-greti-bibbiena",
+      "nome": "Villa Le Greti",
+      "city_name": "Bibbiena",
+      "indirizzo": "Via Fiorentina, 52011 Soci AR",
+      "lat": 43.739579,
+      "lng": 11.800444
+    },
+    {
+      "id": "f7d8294b-5394-43aa-b882-ab70da3c5c51",
+      "slug": "agriturismo-il-palazzino-b-b-bibbona",
+      "nome": "Agriturismo Il Palazzino B&B",
+      "city_name": "Bibbona",
+      "indirizzo": "Loc. Il Palazzino, Via di Bacco, 10, 57020 Bibbona LI",
+      "lat": 43.269002,
+      "lng": 10.598562
+    },
+    {
+      "id": "7b77f199-dba2-4fc1-9034-76126808ff99",
+      "slug": "agriturismo-nonna-stella-bibbona",
+      "nome": "Agriturismo Nonna Stella",
+      "city_name": "Bibbona",
+      "indirizzo": "Via Campigliese, 8, 57020 Bibbona LI",
+      "lat": 43.249371,
+      "lng": 10.571788
+    },
+    {
+      "id": "c9166f22-7763-41f4-8656-1bdf1d06c3ae",
+      "slug": "beata-relais-bibbona",
+      "nome": "Beata Relais",
+      "city_name": "Bibbona",
+      "indirizzo": "Via Roma, 37, 56040 Guardistallo PI",
+      "lat": 43.312427,
+      "lng": 10.631323
+    },
+    {
+      "id": "0ee3578d-f40c-45fb-8d84-f9af2b54dadb",
+      "slug": "hotel-borgo-al-mare-bibbona",
+      "nome": "Hotel Borgo al Mare",
+      "city_name": "Bibbona",
+      "indirizzo": "Via del Forte, 1, 57020 Marina di Bibbona LI",
+      "lat": 43.239086,
+      "lng": 10.53142
+    },
+    {
+      "id": "c7dd56cd-cf2b-49ca-9432-728d341f3a18",
+      "slug": "hotel-flora-bibbona",
+      "nome": "Hotel Flora",
+      "city_name": "Bibbona",
+      "indirizzo": "Via del Mare, 26, 57020 Marina di Bibbona LI",
+      "lat": 43.246395,
+      "lng": 10.527706
+    },
+    {
+      "id": "0565d0da-a8da-43e2-91fc-2778dd3ecb8b",
+      "slug": "hotel-nina-bibbona",
+      "nome": "Hotel Nina",
+      "city_name": "Bibbona",
+      "indirizzo": "Via del Forte, 7, 57020 Marina di Bibbona LI",
+      "lat": 43.238098,
+      "lng": 10.528862
+    },
+    {
+      "id": "4730e82a-e696-4981-a000-66167d27541f",
+      "slug": "hotel-paradiso-verde-bibbona",
+      "nome": "Hotel Paradiso verde",
+      "city_name": "Bibbona",
+      "indirizzo": "Piazza del Forte, 1, 57020 Marina di Bibbona LI",
+      "lat": 43.237969,
+      "lng": 10.528611
+    },
+    {
+      "id": "957f7f3f-8ac0-4d5a-8d50-abc92290c07f",
+      "slug": "hotel-riva-dei-cavalleggeri-bibbona",
+      "nome": "Hotel Riva dei Cavalleggeri",
+      "city_name": "Bibbona",
+      "indirizzo": "Via dei Cavalleggeri Nord, 7, 57020 Marina di Bibbona LI",
+      "lat": 43.246899,
+      "lng": 10.529294
+    },
+    {
+      "id": "e17e4462-c5af-4c58-b03d-da0452a1544e",
+      "slug": "hotel-riva-etrusca-bibbona",
+      "nome": "Hotel Riva Etrusca",
+      "city_name": "Bibbona",
+      "indirizzo": "Via dei Melograni, 13, 57020 Marina di Bibbona LI",
+      "lat": 43.24612,
+      "lng": 10.53717
+    },
+    {
+      "id": "9d12715a-ef65-4f26-b0e2-c13f6a571c6e",
+      "slug": "hotiday-marina-di-bibbona-bibbona",
+      "nome": "Hotiday Marina di Bibbona",
+      "city_name": "Bibbona",
+      "indirizzo": "Via dei Cavalleggeri Nord, 3, 57020 Marina di Bibbona LI",
+      "lat": 43.245879,
+      "lng": 10.528027
+    },
+    {
+      "id": "8379b8d2-5a79-426b-a33e-cbd9510655ce",
+      "slug": "i-gigli-di-mare-bibbona",
+      "nome": "I Gigli di Mare",
+      "city_name": "Bibbona",
+      "indirizzo": "Via del Forte, 8, 57020 Marina di Bibbona LI",
+      "lat": 43.238326,
+      "lng": 10.528753
+    },
+    {
+      "id": "dfa725c4-6190-4826-8232-b3918d77c4a4",
+      "slug": "la-casa-nel-borgo-bibbona",
+      "nome": "La Casa nel Borgo",
+      "city_name": "Bibbona",
+      "indirizzo": "Via Piave, 24, 57020 Bibbona LI",
+      "lat": 43.269828,
+      "lng": 10.598617
+    }
+  ]
+}

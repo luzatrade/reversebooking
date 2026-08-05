@@ -1,0 +1,323 @@
+{
+  "block": 495,
+  "blockId": "495",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "a3bbb5f8-c3b5-4607-ac2b-626e99cac28c",
+      "slug": "villa-amore-ravello",
+      "nome": "Villa Amore",
+      "city_name": "Ravello",
+      "indirizzo": "Via dei Fusco, 5, 84010 Ravello SA",
+      "lat": 40.646213,
+      "lng": 14.611456
+    },
+    {
+      "id": "2ff543f6-68d0-40c5-b051-d4ed23a44c4d",
+      "slug": "villa-margherita-ravello",
+      "nome": "Villa Margherita",
+      "city_name": "Ravello",
+      "indirizzo": "Via Santa Margherita, 7, 84010 Ravello SA",
+      "lat": 40.651503,
+      "lng": 14.612952
+    },
+    {
+      "id": "e24fb99e-aa6a-4ecd-a092-0d0d83d6bddb",
+      "slug": "villa-piedimonte-ravello",
+      "nome": "Villa Piedimonte",
+      "city_name": "Ravello",
+      "indirizzo": "Via della Repubblica, 1, 84010 Ravello SA",
+      "lat": 40.64998,
+      "lng": 14.614794
+    },
+    {
+      "id": "a05690e9-5221-46fc-be1b-8c5b9c653c57",
+      "slug": "b-b-hotel-ravenna-ravenna",
+      "nome": "B&B HOTEL Ravenna",
+      "city_name": "Ravenna",
+      "indirizzo": "Viale della Lirica, 141, 48124 Ravenna RA, Italia",
+      "lat": 44.400904,
+      "lng": 12.181321
+    },
+    {
+      "id": "dffda49f-f349-4e76-a355-8bdd1c3308ef",
+      "slug": "exclusive-aparthotel-la-reunion-ravenna",
+      "nome": "Exclusive ApartHotel La Reunion",
+      "city_name": "Ravenna",
+      "indirizzo": "Via Corrado Ricci, 29, 48121 Ravenna RA",
+      "lat": 44.416011,
+      "lng": 12.199838
+    },
+    {
+      "id": "ea0ff7ed-d9aa-47df-bb57-d2cc4034d0ce",
+      "slug": "hotel-centrale-byron-ravenna",
+      "nome": "Hotel Centrale Byron",
+      "city_name": "Ravenna",
+      "indirizzo": "Via IV Novembre, 14, 48122 Ravenna RA",
+      "lat": 44.418215,
+      "lng": 12.199052
+    },
+    {
+      "id": "81787cc2-b79d-44a6-93f5-b4feab1671e0",
+      "slug": "hotel-minerva-ravenna",
+      "nome": "Hotel Minerva",
+      "city_name": "Ravenna",
+      "indirizzo": "V.le Pier Maroncelli, 1, 48121 Ravenna RA",
+      "lat": 44.419722,
+      "lng": 12.2075
+    },
+    {
+      "id": "0221c00c-b3c5-4f84-94ef-8a294239df9c",
+      "slug": "hotel-mosaico-ravenna",
+      "nome": "Hotel Mosaico",
+      "city_name": "Ravenna",
+      "indirizzo": "Via Darsena, 9, 48121 Ravenna RA",
+      "lat": 44.421828,
+      "lng": 12.208498
+    },
+    {
+      "id": "7fd03275-c010-47a3-8be1-5312eaf681f7",
+      "slug": "hotel-nh-ravenna-ravenna",
+      "nome": "Hotel NH Ravenna",
+      "city_name": "Ravenna",
+      "indirizzo": "Piazza Goffredo Mameli, 1, 48100 Ravenna RA",
+      "lat": 44.418904,
+      "lng": 12.204791
+    },
+    {
+      "id": "73f37ce8-1cf6-4285-990b-9159a5aa09eb",
+      "slug": "hotel-palazzo-bezzi-ravenna",
+      "nome": "Hotel Palazzo Bezzi",
+      "city_name": "Ravenna",
+      "indirizzo": "Via di Roma, 45, 48121 Ravenna RA",
+      "lat": 44.415651,
+      "lng": 12.204855
+    },
+    {
+      "id": "5d1cf2cf-a956-43ff-b54f-ce11b8301535",
+      "slug": "hotel-palazzo-galletti-abbiosi-ravenna",
+      "nome": "Hotel Palazzo Galletti Abbiosi",
+      "city_name": "Ravenna",
+      "indirizzo": "via di, Via di Roma, 140, 48121 Ravenna RA",
+      "lat": 44.417209,
+      "lng": 12.203863
+    },
+    {
+      "id": "895c4447-451c-46f1-93c6-e332b1a0f93f",
+      "slug": "hotel-ravenna-ravenna",
+      "nome": "Hotel Ravenna",
+      "city_name": "Ravenna",
+      "indirizzo": "V.le Pier Maroncelli, 12, 48121 Ravenna RA",
+      "lat": 44.419816,
+      "lng": 12.206998
+    },
+    {
+      "id": "0ab6b7a1-36f4-4618-a9dc-c916289dbd0b",
+      "slug": "hotel-sant-andrea-ravenna",
+      "nome": "Hotel Sant'Andrea",
+      "city_name": "Ravenna",
+      "indirizzo": "Via Carlo Cattaneo, 33, 48121 Ravenna RA",
+      "lat": 44.418411,
+      "lng": 12.195114
+    },
+    {
+      "id": "a97e92e5-cf65-4293-81d7-fd17814a7c86",
+      "slug": "maison-degli-artisti-ravenna",
+      "nome": "Maison degli Artisti",
+      "city_name": "Ravenna",
+      "indirizzo": "Via Armando Diaz, 42, 48121 Ravenna RA",
+      "lat": 44.418351,
+      "lng": 12.202591
+    },
+    {
+      "id": "28b944a3-e85f-4cde-ae10-c562bf87d153",
+      "slug": "valentino-luxury-rooms-b-b-ravenna-ravenna",
+      "nome": "Valentino Luxury Rooms | B&B Ravenna",
+      "city_name": "Ravenna",
+      "indirizzo": "Via Antica Zecca, 6, 48121 Ravenna RA",
+      "lat": 44.418053,
+      "lng": 12.201798
+    },
+    {
+      "id": "8d09f1c8-fc9e-42ba-b32f-721e34fec6c2",
+      "slug": "b-b-centrale-reggio-di-calabria",
+      "nome": "B&B Centrale",
+      "city_name": "Reggio di Calabria",
+      "indirizzo": "Via Antonio Brancati, 1/C, 89123 Reggio di Calabria RC",
+      "lat": 38.119237,
+      "lng": 15.651219
+    },
+    {
+      "id": "416ae8df-a3d8-48cc-9674-1d225cd503dd",
+      "slug": "correttori-house-reggio-di-calabria",
+      "nome": "Correttori House",
+      "city_name": "Reggio di Calabria",
+      "indirizzo": "Via dei Correttori 8",
+      "lat": 38.10682,
+      "lng": 15.64335
+    },
+    {
+      "id": "9fa6d7f3-429e-4661-a3f9-dc8feca30281",
+      "slug": "didimos-town-hotel-reggio-di-calabria",
+      "nome": "Didimos Town Hotel",
+      "city_name": "Reggio di Calabria",
+      "indirizzo": "Via Francesco Cananzi, 6, 89123 Reggio di Calabria RC",
+      "lat": 38.115932,
+      "lng": 15.650528
+    },
+    {
+      "id": "733960aa-0346-454d-b45a-541288bc4a7c",
+      "slug": "domus-nova-reggio-di-calabria",
+      "nome": "Domus Nova",
+      "city_name": "Reggio di Calabria",
+      "indirizzo": "Via dei Correttori, 15, 89127 Reggio Calabria (RC)",
+      "lat": 38.10645,
+      "lng": 15.64322
+    },
+    {
+      "id": "29ee574c-e5a1-4804-bba7-2f9a90e109f0",
+      "slug": "e-hotel-reggio-di-calabria",
+      "nome": "è Hotel",
+      "city_name": "Reggio di Calabria",
+      "indirizzo": "Via Giunchi, 89121 Reggio di Calabria RC",
+      "lat": 38.11734,
+      "lng": 15.648703
+    },
+    {
+      "id": "e7a2bbe8-1da5-48c8-9499-f112056f7034",
+      "slug": "grand-hotel-excelsior-reggio-di-calabria",
+      "nome": "Grand Hotel Excelsior",
+      "city_name": "Reggio di Calabria",
+      "indirizzo": "Via Vittorio Veneto, 66, 89123 Reggio Calabria RC",
+      "lat": 38.115095,
+      "lng": 15.650979
+    },
+    {
+      "id": "5b2e98b3-8965-4efb-8c02-21edc2b469fb",
+      "slug": "hotel-eubea-reggio-di-calabria",
+      "nome": "Hotel Eubea",
+      "city_name": "Reggio di Calabria",
+      "indirizzo": "Via Gaeta, 9, 89127 Reggio Calabria RC",
+      "lat": 38.101929,
+      "lng": 15.63581
+    },
+    {
+      "id": "6fb93f73-3e70-4699-bacf-7275c78cc732",
+      "slug": "hotel-medinblu-reggio-di-calabria",
+      "nome": "Hotel Medinblu",
+      "city_name": "Reggio di Calabria",
+      "indirizzo": "Via Demetrio Tripepi, 98, 89125 Reggio di Calabria RC",
+      "lat": 38.110943,
+      "lng": 15.647759
+    },
+    {
+      "id": "53d1e347-a237-4ad6-92a8-2a98a5a8084c",
+      "slug": "hotel-palace-masoanri-s-reggio-di-calabria",
+      "nome": "Hotel Palace Masoanri’s",
+      "city_name": "Reggio di Calabria",
+      "indirizzo": "Via Vittorio Veneto, 95, 89123 Reggio Calabria RC",
+      "lat": 38.115004,
+      "lng": 15.6513
+    },
+    {
+      "id": "ddc3b9d5-eec8-4f81-b9e6-e4247d66511f",
+      "slug": "lungomare-hotel-reggio-di-calabria",
+      "nome": "Lungomare Hotel",
+      "city_name": "Reggio di Calabria",
+      "indirizzo": "Viale Genoese Zerbi, 13, 89123 Reggio di Calabria RC",
+      "lat": 38.116429,
+      "lng": 15.650283
+    },
+    {
+      "id": "f1c26cf2-0bda-4718-9ed4-ca213297b45d",
+      "slug": "palazzo-bibbi-rooms-to-live-reggio-di-calabria",
+      "nome": "Palazzo Bibbi - Rooms to Live",
+      "city_name": "Reggio di Calabria",
+      "indirizzo": "Via San Francesco da Paola, 63, 89127 Reggio di Calabria RC",
+      "lat": 38.102285,
+      "lng": 15.637867
+    },
+    {
+      "id": "a5ef1891-bd6b-448a-bd63-092daea91136",
+      "slug": "residence-sirio-reggio-di-calabria",
+      "nome": "Residence Sirio",
+      "city_name": "Reggio di Calabria",
+      "indirizzo": "Via Al Foro Boario, 16, 89129 Reggio Calabria RC",
+      "lat": 38.100185,
+      "lng": 15.63848
+    },
+    {
+      "id": "77a80c55-2345-4b65-82a6-01e0c353c4d8",
+      "slug": "torrione-hotel-reggio-di-calabria",
+      "nome": "Torrione Hotel",
+      "city_name": "Reggio di Calabria",
+      "indirizzo": "Via del Torrione, 67, 89125 Reggio Calabria RC",
+      "lat": 38.109391,
+      "lng": 15.647192
+    },
+    {
+      "id": "fcef4a01-28a5-451d-88a1-a1c4736dbb53",
+      "slug": "town-house-cavour-reggio-di-calabria",
+      "nome": "Town House Cavour",
+      "city_name": "Reggio di Calabria",
+      "indirizzo": "Via Cavour, 19, 89127 Reggio Calabria (RC)",
+      "lat": 38.10756,
+      "lng": 15.64412
+    },
+    {
+      "id": "a92253f1-08b7-45fc-b9b7-c9f4e7866ae2",
+      "slug": "town-house-morgana-reggio-di-calabria",
+      "nome": "Town House Morgana",
+      "city_name": "Reggio di Calabria",
+      "indirizzo": "Via Fata Morgana, 2c, 89125 Reggio Calabria (RC)",
+      "lat": 38.11314,
+      "lng": 15.64955
+    },
+    {
+      "id": "a1ee3b96-a682-4485-907c-90fed802cd49",
+      "slug": "trip-room-breakfast-reggio-di-calabria",
+      "nome": "Trip Room & Breakfast",
+      "city_name": "Reggio di Calabria",
+      "indirizzo": "Via Possidonea, 10, 89125 Reggio Calabria RC",
+      "lat": 38.110996,
+      "lng": 15.650739
+    },
+    {
+      "id": "7a576e92-0965-42f5-924d-43138bb847f4",
+      "slug": "affita-camere-la-casa-di-ines-san-gimignano-san-gimignano",
+      "nome": "Affita camere La casa di Ines San Gimignano",
+      "city_name": "San Gimignano",
+      "indirizzo": "Via delle Romite, 2, 53037 San Gimignano SI, Italia",
+      "lat": 43.469815,
+      "lng": 11.042464
+    },
+    {
+      "id": "a5edfa59-1abe-4466-a40d-7b5f868a38c4",
+      "slug": "antico-borgo-il-cardino-san-gimignano",
+      "nome": "Antico Borgo Il Cardino",
+      "city_name": "San Gimignano",
+      "indirizzo": "Località il Cardino, 35, 53030 San Gimignano SI, Italia",
+      "lat": 43.408394,
+      "lng": 11.019383
+    },
+    {
+      "id": "a0aa25dd-f3f2-41a3-8727-96432b56bf3d",
+      "slug": "bed-and-breakfast-il-fienile-san-gimignano",
+      "nome": "Bed and Breakfast Il Fienile",
+      "city_name": "San Gimignano",
+      "indirizzo": "Via Vecchia per Poggibonsi, Località Casa Nera, 1, 53037 San Gimignano SI, Italia",
+      "lat": 43.46249,
+      "lng": 11.045743
+    },
+    {
+      "id": "98b9b271-acc2-432a-8fd9-eb392531aaf9",
+      "slug": "casa-da-rosetta-san-gimignano",
+      "nome": "Casa da Rosetta",
+      "city_name": "San Gimignano",
+      "indirizzo": "Via delle Romite, 15/21/25, 53037 San Gimignano SI, Italia",
+      "lat": 43.46928,
+      "lng": 11.043026
+    }
+  ]
+}

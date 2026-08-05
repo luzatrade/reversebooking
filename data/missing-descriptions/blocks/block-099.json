@@ -1,0 +1,323 @@
+{
+  "block": 99,
+  "blockId": "099",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "6b12ffcd-4a7e-4626-add7-8e640601a00d",
+      "slug": "bed-breakfast-palazzo-sassatelli-amatrice",
+      "nome": "Bed & Breakfast Palazzo Sassatelli",
+      "city_name": "Amatrice",
+      "indirizzo": "Via Nicola Zabaglia, 10, 06043 Cascia PG",
+      "lat": 42.718492,
+      "lng": 13.012964
+    },
+    {
+      "id": "ad6f6d60-149b-43c7-aec3-70587948a824",
+      "slug": "bed-and-breakfast-emilia-amatrice",
+      "nome": "Bed and Breakfast Emilia",
+      "city_name": "Amatrice",
+      "indirizzo": "Via del Campo Sportivo, 2, 67012 Cagnano Amiterno AQ",
+      "lat": 42.450275,
+      "lng": 13.233859
+    },
+    {
+      "id": "d9576728-4866-4957-b3c0-3b245a30f674",
+      "slug": "hotel-bar-da-giovannino-amatrice",
+      "nome": "Hotel Bar “da Giovannino”",
+      "city_name": "Amatrice",
+      "indirizzo": "Frazione S. Cipriano, 10, 02012 Amatrice RI",
+      "lat": 42.623458,
+      "lng": 13.302129
+    },
+    {
+      "id": "27eb022d-2587-4b2f-86d8-d70245cd8c59",
+      "slug": "hotel-centrale-cascia-amatrice",
+      "nome": "Hotel Centrale Cascia",
+      "city_name": "Amatrice",
+      "indirizzo": "Piazza Giuseppe Garibaldi, 9, 06043 Cascia PG",
+      "lat": 42.718273,
+      "lng": 13.014143
+    },
+    {
+      "id": "c329edf2-0f25-43e2-bb90-830e9934f274",
+      "slug": "hotel-da-benito-amatrice",
+      "nome": "Hotel Da Benito",
+      "city_name": "Amatrice",
+      "indirizzo": "Via Guglielmo Marconi, 4, 06046 Norcia PG",
+      "lat": 42.793178,
+      "lng": 13.092207
+    },
+    {
+      "id": "1afa32d7-9d47-4260-8797-4ea940c23268",
+      "slug": "hotel-europa-gran-sasso-amatrice",
+      "nome": "Hotel Europa Gran Sasso",
+      "city_name": "Amatrice",
+      "indirizzo": "Prati bassi, 64047 Pietracamela TE",
+      "lat": 42.500263,
+      "lng": 13.551669
+    },
+    {
+      "id": "11b8b33c-c405-4f6b-8c39-9250f7e7a098",
+      "slug": "settecento-hotel-ambivere",
+      "nome": "[SETTECENTO] Hotel",
+      "city_name": "Ambivere",
+      "indirizzo": "Via Milano, 3, 24030 Presezzo BG",
+      "lat": 45.690998,
+      "lng": 9.576835
+    },
+    {
+      "id": "792aa0a5-e33f-4e11-b180-8ea3f02dfbc4",
+      "slug": "agriturismo-il-belvedere-ambivere",
+      "nome": "Agriturismo Il Belvedere",
+      "city_name": "Ambivere",
+      "indirizzo": "Via Belvedere, 6, 24030 Palazzago BG",
+      "lat": 45.732784,
+      "lng": 9.529852
+    },
+    {
+      "id": "11913112-3af5-4c74-b395-dfa3208057aa",
+      "slug": "al-colle-ambivere",
+      "nome": "Al-Colle",
+      "city_name": "Ambivere",
+      "indirizzo": "giovanni XXlll, Via Fontanella, 15, 24039 Sotto il Monte Giovanni XXIII BG",
+      "lat": 45.716162,
+      "lng": 9.514632
+    },
+    {
+      "id": "99eff43a-a289-48ec-a392-bc1db2d2a1fb",
+      "slug": "bellavista-ristorante-hotel-ambivere",
+      "nome": "Bellavista Ristorante Hotel",
+      "city_name": "Ambivere",
+      "indirizzo": "Via Roncola Alta, 1, 24030 Roncola Alta BG",
+      "lat": 45.779372,
+      "lng": 9.547153
+    },
+    {
+      "id": "04934b7a-3400-41bc-b7f4-c44bd806b84b",
+      "slug": "bes-hotel-terme-a-palazzago-ambivere",
+      "nome": "Bes Hotel Terme a Palazzago",
+      "city_name": "Ambivere",
+      "indirizzo": "Via Gromlongo, 20, 24030 Palazzago BG",
+      "lat": 45.730777,
+      "lng": 9.53253
+    },
+    {
+      "id": "0c986236-bd4e-46ad-b0fd-f552f20fa76c",
+      "slug": "binario-magic-hotel-ambivere",
+      "nome": "Binario Magic Hotel",
+      "city_name": "Ambivere",
+      "indirizzo": "Via Briantea, 26, 24030 Palazzago BG",
+      "lat": 45.72736,
+      "lng": 9.535792
+    },
+    {
+      "id": "07e7c99f-0fd8-4f0a-86bf-d506942ca956",
+      "slug": "hotel-borgo-brianteo-ambivere",
+      "nome": "Hotel Borgo Brianteo",
+      "city_name": "Ambivere",
+      "indirizzo": "Via A. Diaz, 25/A, 24036 Ponte San Pietro BG",
+      "lat": 45.707183,
+      "lng": 9.568917
+    },
+    {
+      "id": "1a58c4e2-bbab-46d9-9741-7769e6f24f41",
+      "slug": "motel-soigne-ambivere",
+      "nome": "Motel Soigne'",
+      "city_name": "Ambivere",
+      "indirizzo": "Via Dante Alighieri, 20, 24030 Mapello BG",
+      "lat": 45.723133,
+      "lng": 9.554521
+    },
+    {
+      "id": "6fd92abf-1414-40ad-bcbf-985b8bc6e66b",
+      "slug": "agritur-la-fenice-amblar-don",
+      "nome": "AGRITUR LA FENICE",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Località Traversara, 58, 38028 Novella TN",
+      "lat": 46.433059,
+      "lng": 11.103046
+    },
+    {
+      "id": "6e9132a7-118c-4a64-9643-adc44ca7ecff",
+      "slug": "agritur-scoiattolo-amblar-don",
+      "nome": "Agritur Scoiattolo",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Via Inama, 10, 38012 Predaia TN",
+      "lat": 46.349554,
+      "lng": 11.089753
+    },
+    {
+      "id": "49dabbbe-3751-4711-93b5-4dbad54421d0",
+      "slug": "albergo-stella-alpina-amblar-don",
+      "nome": "Albergo Stella Alpina",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Via ai Masi, 1, 38011 Amblar TN",
+      "lat": 46.395187,
+      "lng": 11.147355
+    },
+    {
+      "id": "4c3b375a-56fc-40ed-888d-e739e228ccfa",
+      "slug": "b-b-claudia-amblar-don",
+      "nome": "B&B Claudia",
+      "city_name": "Amblar-Don",
+      "indirizzo": "V. Alla Malga, 18, 38011 Don TN",
+      "lat": 46.388654,
+      "lng": 11.140702
+    },
+    {
+      "id": "fbf9d264-89e1-48c2-acef-7ec2d91e3ca3",
+      "slug": "b-b-lupo-amblar-don",
+      "nome": "B&B Lupo",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Via Roen, 37, 38011 Amblar-Don TN",
+      "lat": 46.397064,
+      "lng": 11.145244
+    },
+    {
+      "id": "cde367f6-a801-4d17-98a2-2ad3df421858",
+      "slug": "casa-della-lavanda-amblar-don",
+      "nome": "Casa della Lavanda",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Via A. Manzoni, 8, 38011 Sarnonico TN",
+      "lat": 46.420209,
+      "lng": 11.140459
+    },
+    {
+      "id": "11a53ded-5544-4e32-b73f-6ef771850a73",
+      "slug": "hotel-lady-maria-amblar-don",
+      "nome": "Hotel Lady Maria",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Via Giuseppe Garibaldi, 20, 38013 Fondo TN",
+      "lat": 46.43779,
+      "lng": 11.137573
+    },
+    {
+      "id": "eac6f7ad-b2a3-45a5-bc11-8d26d2d4be48",
+      "slug": "hotel-parco-pineta-pizzeria-ristorante-ristorant-amblar-don",
+      "nome": "Hotel Parco Pineta - Pizzeria & Ristorante & Ristorante Indiano - Cavareno",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Via al Parco, 13, 38011 Cavareno TN",
+      "lat": 46.405144,
+      "lng": 11.143045
+    },
+    {
+      "id": "92cbfcf2-dde1-4c66-8641-8ff7c0d97163",
+      "slug": "hotel-ristorante-stella-alpina-amblar-don",
+      "nome": "Hotel Ristorante Stella Alpina",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Via Cesare Battisti, 56, 38011 Sarnonico TN",
+      "lat": 46.416137,
+      "lng": 11.139855
+    },
+    {
+      "id": "3ed7df1c-c5c4-4e3b-bda5-61c737a32b03",
+      "slug": "hotel-rosa-resort-amblar-don",
+      "nome": "Hotel Rosa Resort",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Via de Zinis, 31, 38011 Cavareno TN",
+      "lat": 46.406896,
+      "lng": 11.13319
+    },
+    {
+      "id": "3d0a5d2f-1bdd-4b0b-811c-fe63f1df8661",
+      "slug": "hotel-tannhof-amblar-don",
+      "nome": "Hotel Tannhof",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Pianizza di Sopra, 78, 39052 Caldaro BZ",
+      "lat": 46.429236,
+      "lng": 11.243781
+    },
+    {
+      "id": "cdee876f-2775-440b-bac7-9ecf2310f01e",
+      "slug": "hotel-waldheim-wellness-restaurant-amblar-don",
+      "nome": "Hotel Waldheim Wellness & Restaurant",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Bivio di Ruffrè, 1, 38010 Ruffrè-Mendola TN",
+      "lat": 46.417376,
+      "lng": 11.166591
+    },
+    {
+      "id": "2a9a76b3-0c2d-46e5-91a0-9848b446e85e",
+      "slug": "la-quiete-resort-amblar-don",
+      "nome": "La Quiete Resort",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Via Guglielmo Marconi, 12, 38010 Romeno TN",
+      "lat": 46.397517,
+      "lng": 11.123908
+    },
+    {
+      "id": "71553813-3847-4e23-8924-a1426ef9a5e5",
+      "slug": "panorama-designhotel-amblar-don",
+      "nome": "Panorama Designhotel",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Via Penegal, 21, 39052 Caldaro sulla strada del Vino BZ",
+      "lat": 46.418506,
+      "lng": 11.241949
+    },
+    {
+      "id": "def0e94d-80f0-4cdb-a314-e405dc45b64d",
+      "slug": "pension-brunnenhof-amblar-don",
+      "nome": "Pension Brunnenhof",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Via delle Vigne, 15, 39052 Caldaro sulla strada del Vino BZ",
+      "lat": 46.412563,
+      "lng": 11.235925
+    },
+    {
+      "id": "f8d95eb7-d96e-4d22-9433-c478570aca95",
+      "slug": "piccolo-orso-bruno-amblar-don",
+      "nome": "Piccolo Orso Bruno",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Via de Zinis, 29, 38011 Cavareno TN",
+      "lat": 46.406639,
+      "lng": 11.13325
+    },
+    {
+      "id": "60e0c5ef-8c7e-4338-a6e8-cd8390258394",
+      "slug": "stella-delle-alpi-wellness-resort-amblar-don",
+      "nome": "Stella delle Alpi Wellness & Resort",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Via Mendola, 41, 38010 Ronzone TN",
+      "lat": 46.424375,
+      "lng": 11.151622
+    },
+    {
+      "id": "b1e7b788-b2a1-49de-ab1c-15d2d155eac9",
+      "slug": "villa-nuova-amblar-don",
+      "nome": "VILLA NUOVA",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Via Mario Zucali, 37, 38010 Romeno TN",
+      "lat": 46.395588,
+      "lng": 11.121402
+    },
+    {
+      "id": "ae8f881d-2770-4fe7-a68b-3d0fe546203a",
+      "slug": "villa-nuova-hotel-ristorante-pizzeria-amblar-don",
+      "nome": "VILLA NUOVA - Hotel - Ristorante & Pizzeria",
+      "city_name": "Amblar-Don",
+      "indirizzo": "Via Mario Zucali, 37, 38010 Romeno TN",
+      "lat": 46.395588,
+      "lng": 11.12142
+    },
+    {
+      "id": "c5a46fc4-68f3-470b-9727-95715022e79b",
+      "slug": "abitatt-ameglia",
+      "nome": "Abitatt",
+      "city_name": "Ameglia",
+      "indirizzo": "Via Melara, 29, 54035 Borghetto-melara MS",
+      "lat": 44.100438,
+      "lng": 9.98713
+    },
+    {
+      "id": "fcbc6080-9389-407a-9583-bb17f5db78f0",
+      "slug": "ala-bianca-ameglia",
+      "nome": "Ala Bianca",
+      "city_name": "Ameglia",
+      "indirizzo": "Via Camisano, 94, 19031 Ameglia SP",
+      "lat": 44.078537,
+      "lng": 9.962784
+    }
+  ]
+}

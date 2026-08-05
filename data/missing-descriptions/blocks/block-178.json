@@ -1,0 +1,323 @@
+{
+  "block": 178,
+  "blockId": "178",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "ce882575-a205-4d4c-96d0-6405541d564b",
+      "slug": "bella-di-notte-ausonia",
+      "nome": "Bella di notte",
+      "city_name": "Ausonia",
+      "indirizzo": "Corso Achille Spatuzzi, 03047 San Giorgio a Liri FR",
+      "lat": 41.404763,
+      "lng": 13.762144
+    },
+    {
+      "id": "c829a82f-4818-4ff2-9190-bce54f9cf253",
+      "slug": "come-prima-country-house-ausonia",
+      "nome": "Come Prima country house",
+      "city_name": "Ausonia",
+      "indirizzo": "Via Granelle, 2, 03040 Ausonia FR",
+      "lat": 41.363609,
+      "lng": 13.760159
+    },
+    {
+      "id": "e7b6bad2-c7db-47c7-81a3-050a638742d0",
+      "slug": "emme-house-bed-breakfast-ausonia",
+      "nome": "Emme House Bed&Breakfast",
+      "city_name": "Ausonia",
+      "indirizzo": "Piazza Italia, 03045 Monticelli FR",
+      "lat": 41.410416,
+      "lng": 13.652035
+    },
+    {
+      "id": "35cd2d1f-c492-49af-9466-519de981b8b2",
+      "slug": "hotel-ristorante-al-piccolo-borgo-ausonia",
+      "nome": "Hotel - Ristorante \"Al Piccolo Borgo\"",
+      "city_name": "Ausonia",
+      "indirizzo": "Via Minerva, 11, 03040 Castelnuovo Parano FR",
+      "lat": 41.372889,
+      "lng": 13.74838
+    },
+    {
+      "id": "55008c17-c329-40dd-832a-6f8be6833dd2",
+      "slug": "hotel-ausonia-ausonia",
+      "nome": "Hotel Ausonia",
+      "city_name": "Ausonia",
+      "indirizzo": "Traversa XV Pineta, 11, 48015 Milano Marittima RA",
+      "lat": 44.29071,
+      "lng": 12.347965
+    },
+    {
+      "id": "7cb05665-e6da-49a8-bc65-e0da3ae0db7e",
+      "slug": "hotel-diana-ausonia",
+      "nome": "Hotel Diana",
+      "city_name": "Ausonia",
+      "indirizzo": "Via Ausonia, 22, 03043 Cassino FR",
+      "lat": 41.469004,
+      "lng": 13.810007
+    },
+    {
+      "id": "68e0f6d2-801d-44a6-bc9f-6a975096f305",
+      "slug": "hotel-maria-cristina-2-stelle-ausonia",
+      "nome": "Hotel Maria Cristina 2 stelle",
+      "city_name": "Ausonia",
+      "indirizzo": "Via Provinciale, 5, 03045 Esperia FR",
+      "lat": 41.383651,
+      "lng": 13.686647
+    },
+    {
+      "id": "20793a1f-97c2-4419-bb9d-cc8629a82526",
+      "slug": "minturnae-hotel-ausonia",
+      "nome": "Minturnae Hotel",
+      "city_name": "Ausonia",
+      "indirizzo": "Viale Pietro Fedele, 105, 04026 Marina di Minturno LT",
+      "lat": 41.244956,
+      "lng": 13.739192
+    },
+    {
+      "id": "14eeaf17-f760-4d50-8fe8-388501be72a2",
+      "slug": "terrazza-incanto-ausonia",
+      "nome": "Terrazza incanto",
+      "city_name": "Ausonia",
+      "indirizzo": "Piazza Risorgimento, 8, 04023 Formia LT",
+      "lat": 41.260434,
+      "lng": 13.616403
+    },
+    {
+      "id": "c70698d9-e781-4611-9b45-997abbd5af5d",
+      "slug": "affittacamere-la-piazzetta-austis",
+      "nome": "Affittacamere La piazzetta",
+      "city_name": "Austis",
+      "indirizzo": "Corso V. Emanuele, 64, 08030 Austis NU",
+      "lat": 40.071113,
+      "lng": 9.088449
+    },
+    {
+      "id": "a65679ce-6ed2-453c-999b-779991946d5c",
+      "slug": "agriturismo-da-valore-austis",
+      "nome": "Agriturismo Da Valore",
+      "city_name": "Austis",
+      "indirizzo": "Località Sa Paule, 08030 Austis NU",
+      "lat": 40.068748,
+      "lng": 9.074
+    },
+    {
+      "id": "104510bc-ab3b-4ffd-b474-67340fba2d2f",
+      "slug": "b-b-la-collina-dei-ciliegi-austis",
+      "nome": "B&B la collina dei ciliegi.",
+      "city_name": "Austis",
+      "indirizzo": "Vico Gonare, 4, 08020 Sarule NU",
+      "lat": 40.231941,
+      "lng": 9.1638
+    },
+    {
+      "id": "e045ff37-f1a8-4015-b94c-20ad92af2176",
+      "slug": "hotel-ristorante-pizzeria-il-platano-austis",
+      "nome": "Hotel ristorante pizzeria Il Platano",
+      "city_name": "Austis",
+      "indirizzo": "Viale Ghitti, 83, 08020 Ottana NU",
+      "lat": 40.231551,
+      "lng": 9.049642
+    },
+    {
+      "id": "62daf943-c67a-4012-84d9-b406a6ff837a",
+      "slug": "hotel-taloro-austis",
+      "nome": "Hotel Taloro",
+      "city_name": "Austis",
+      "indirizzo": "SS 128 Centrale Sarda, 08020 Gavoi NU",
+      "lat": 40.119726,
+      "lng": 9.207797
+    },
+    {
+      "id": "00139742-1f8d-44ae-871a-5649e4f74b02",
+      "slug": "kikina-bed-and-breakfast-austis",
+      "nome": "KIKINA - Bed and Breakfast",
+      "city_name": "Austis",
+      "indirizzo": "Via Carlo Alberto, 4, 08030 Austis NU",
+      "lat": 40.067901,
+      "lng": 9.08468
+    },
+    {
+      "id": "d7cebd54-8492-4c97-a2de-3e99a4823c61",
+      "slug": "albergo-caprile-sas-avegno",
+      "nome": "Albergo Caprile Sas.",
+      "city_name": "Avegno",
+      "indirizzo": "Via Giovanni Garaventa, 76, 16030 Uscio GE",
+      "lat": 44.413612,
+      "lng": 9.144295
+    },
+    {
+      "id": "fdeae0a9-4fbd-4e53-83f1-9565d882c74f",
+      "slug": "anita-b-b-avegno",
+      "nome": "ANITA B&B",
+      "city_name": "Avegno",
+      "indirizzo": "Via Vecchia Crocetta, 20, 16030 Uscio GE",
+      "lat": 44.41029,
+      "lng": 9.16917
+    },
+    {
+      "id": "9023f8ba-2d73-4a53-8a51-56f882a14f09",
+      "slug": "b-b-i-glicini-avegno",
+      "nome": "B&B I glicini",
+      "city_name": "Avegno",
+      "indirizzo": "Via S. Lorenzo, 16, 16030 Avegno GE",
+      "lat": 44.383354,
+      "lng": 9.175095
+    },
+    {
+      "id": "99695d4d-7914-42e7-aeed-8bab404a4ce6",
+      "slug": "b-b-passo-selvatico-avegno",
+      "nome": "B&B Passo Selvatico",
+      "city_name": "Avegno",
+      "indirizzo": "Passo Selvatico, 11, 16030 Avegno GE",
+      "lat": 44.392041,
+      "lng": 9.165558
+    },
+    {
+      "id": "59262459-3756-458f-9462-34ecfdc910b9",
+      "slug": "b-b-quincas-berro-d-agua-avegno",
+      "nome": "B&B Quincas Berro d'Agua",
+      "city_name": "Avegno",
+      "indirizzo": "Via Belvedere, 16030 Avegno GE",
+      "lat": 44.38197,
+      "lng": 9.152551
+    },
+    {
+      "id": "0a5b0747-62f4-411b-a682-13c56996e7a3",
+      "slug": "ca-di-toni-avegno",
+      "nome": "Cà di Toni",
+      "city_name": "Avegno",
+      "indirizzo": "Passo Sepozzo Superiore, 5, 16030 Testana GE",
+      "lat": 44.391461,
+      "lng": 9.149394
+    },
+    {
+      "id": "2ca2840a-d27f-4ab9-91b7-81aab4674a2d",
+      "slug": "casa-ori-avegno",
+      "nome": "Casa Ori",
+      "city_name": "Avegno",
+      "indirizzo": "Via Guglielmo Marconi, 34, 16030 Salto GE",
+      "lat": 44.399368,
+      "lng": 9.169199
+    },
+    {
+      "id": "f8aaefbe-c370-4c94-b744-3c594bc44731",
+      "slug": "hotel-cenobio-dei-dogi-avegno",
+      "nome": "Hotel Cenobio dei Dogi",
+      "city_name": "Avegno",
+      "indirizzo": "Via Nicolò Cuneo, 34, 16032 Camogli GE",
+      "lat": 44.347353,
+      "lng": 9.155753
+    },
+    {
+      "id": "cbdcc692-c89b-4fd4-a384-54ab544db1b7",
+      "slug": "hotel-elena-avegno",
+      "nome": "Hotel Elena",
+      "city_name": "Avegno",
+      "indirizzo": "Corso Garibaldi, 5, 16036 Recco GE",
+      "lat": 44.361359,
+      "lng": 9.139652
+    },
+    {
+      "id": "dbe0b505-57ad-45be-ad74-7fa6750c70a7",
+      "slug": "hotel-la-giara-avegno",
+      "nome": "Hotel La Giara",
+      "city_name": "Avegno",
+      "indirizzo": "Via Cavour, 79, 16036 Recco GE",
+      "lat": 44.361904,
+      "lng": 9.132157
+    },
+    {
+      "id": "1ba0f722-33ae-4a4e-a2fb-7425bdb1a312",
+      "slug": "locanda-bell-aria-avegno",
+      "nome": "Locanda Bell'Aria",
+      "city_name": "Avegno",
+      "indirizzo": "Via Colle Caprile, 26, 16030 Uscio GE",
+      "lat": 44.417244,
+      "lng": 9.150204
+    },
+    {
+      "id": "e8035a65-553e-478b-a82a-7958ddb7099b",
+      "slug": "locanda-da-nonno-puin-albergo-avegno",
+      "nome": "Locanda Da Nonno Puin (albergo)",
+      "city_name": "Avegno",
+      "indirizzo": "Via Cristoforo Colombo, 47, 16047 Ferrada GE",
+      "lat": 44.420414,
+      "lng": 9.209702
+    },
+    {
+      "id": "aa538402-7521-428e-b5cb-83c400de1e35",
+      "slug": "lookyhotel-avegno",
+      "nome": "Lookyhotel",
+      "city_name": "Avegno",
+      "indirizzo": "16030 Canepa GE",
+      "lat": 44.39946,
+      "lng": 9.11663
+    },
+    {
+      "id": "533ecaa2-dc67-4111-8bb3-dcab4cdd4f49",
+      "slug": "manuelina-taste-hotel-avegno",
+      "nome": "Manuelina Taste Hotel",
+      "city_name": "Avegno",
+      "indirizzo": "Via Roma, 296, 16036 Recco GE",
+      "lat": 44.369042,
+      "lng": 9.150297
+    },
+    {
+      "id": "afcd7f63-4260-4431-b1c7-2636c75c40ae",
+      "slug": "soffio-di-mare-camogli-avegno",
+      "nome": "Soffio di Mare - Camogli",
+      "city_name": "Avegno",
+      "indirizzo": "Scalinata Martiri delle Foibe, 21/1, 16032 Camogli GE",
+      "lat": 44.348285,
+      "lng": 9.155204
+    },
+    {
+      "id": "43762545-a259-4bac-97ac-827b7a25b3a1",
+      "slug": "stella-marina-avegno",
+      "nome": "Stella Marina",
+      "city_name": "Avegno",
+      "indirizzo": "Via Gio Bono Ferrari, 16, 16033 Camogli GE",
+      "lat": 44.346968,
+      "lng": 9.157048
+    },
+    {
+      "id": "ba9d4500-5eaf-4b2b-9360-1d0a394cef16",
+      "slug": "trattoria-lagoscuro-albergo-avegno",
+      "nome": "Trattoria Lagoscuro Albergo",
+      "city_name": "Avegno",
+      "indirizzo": "Via Antica Romana, 5, 16030 Avegno GE",
+      "lat": 44.382747,
+      "lng": 9.15942
+    },
+    {
+      "id": "a65dacd0-635f-4df2-8b77-c2a08473aa36",
+      "slug": "un-posto-al-sole-avegno",
+      "nome": "un posto al sole",
+      "city_name": "Avegno",
+      "indirizzo": "Via Arbora, 2, 16030 Avegno GE",
+      "lat": 44.381584,
+      "lng": 9.15274
+    },
+    {
+      "id": "cbb8d1a1-c412-44a6-9655-e0b658602c49",
+      "slug": "villa-carmelina-avegno",
+      "nome": "Villa Carmelina",
+      "city_name": "Avegno",
+      "indirizzo": "Via Verzemma, 33, 16036 Recco GE",
+      "lat": 44.378925,
+      "lng": 9.138492
+    },
+    {
+      "id": "46f9cc2d-c9eb-4d81-ad85-9f382fd3de54",
+      "slug": "albergo-feldhof-avelengo-hafling",
+      "nome": "Albergo Feldhof",
+      "city_name": "Avelengo/Hafling",
+      "indirizzo": "Goyenweg, 11, 39017 Scena BZ",
+      "lat": 46.675,
+      "lng": 11.191667
+    }
+  ]
+}

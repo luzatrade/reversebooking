@@ -1,0 +1,323 @@
+{
+  "block": 392,
+  "blockId": "392",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "25a96513-634d-4cc3-aa6a-18b65e22824e",
+      "slug": "b-b-il-cantuccio-campodimele",
+      "nome": "B&B Il Cantuccio",
+      "city_name": "Campodimele",
+      "indirizzo": "Via Cristoforo Colombo, 43, 04022 Fondi LT",
+      "lat": 41.350832,
+      "lng": 13.431877
+    },
+    {
+      "id": "641b97df-62d2-4580-8518-304085d7fd08",
+      "slug": "b-b-il-vicoletto-campodimele",
+      "nome": "B&B Il Vicoletto",
+      "city_name": "Campodimele",
+      "indirizzo": "Vico Casale, 3, 04020 Itri LT",
+      "lat": 41.289765,
+      "lng": 13.535739
+    },
+    {
+      "id": "53a043c0-6306-4fd6-8258-2073cbe83f29",
+      "slug": "bed-breakfast-mblo-campodimele",
+      "nome": "Bed & Breakfast Mblò",
+      "city_name": "Campodimele",
+      "indirizzo": "Largo Luigi Fortunato, 9, 04022 Fondi LT",
+      "lat": 41.357826,
+      "lng": 13.426028
+    },
+    {
+      "id": "49818638-8530-4fee-9157-e0d1d23ec946",
+      "slug": "bedandbreakfast-camere-primavera-campodimele",
+      "nome": "BedAndBreakfast Camere Primavera",
+      "city_name": "Campodimele",
+      "indirizzo": "Via S. Gaetano, 11, 04022 Fondi LT",
+      "lat": 41.359807,
+      "lng": 13.426872
+    },
+    {
+      "id": "71b03ab5-4c8a-4d54-81eb-3cc29804cbd6",
+      "slug": "e-spunta-la-luna-campodimele",
+      "nome": "E Spunta La Luna",
+      "city_name": "Campodimele",
+      "indirizzo": "Str. Vicinale Meroli, 4, 04020 Campodimele LT",
+      "lat": 41.389919,
+      "lng": 13.531055
+    },
+    {
+      "id": "e35d3de2-9c70-4623-af57-2d5642bd744d",
+      "slug": "il-beccaria-relais-b-b-campodimele",
+      "nome": "Il Beccaria Relais B&B",
+      "city_name": "Campodimele",
+      "indirizzo": "Piazza Cesare Beccaria, 7, 04022 Fondi LT",
+      "lat": 41.361201,
+      "lng": 13.423547
+    },
+    {
+      "id": "c7d3f7f9-7c6a-44ab-91aa-2164e9f16610",
+      "slug": "la-taverna-ristorante-b-b-campodimele",
+      "nome": "La Taverna Ristorante B&B",
+      "city_name": "Campodimele",
+      "indirizzo": "SR82, 29, 04020 Taverna LT",
+      "lat": 41.393892,
+      "lng": 13.519143
+    },
+    {
+      "id": "54b6efe2-effa-4af9-a153-e066db735088",
+      "slug": "ostello-ossigeno-campodimele",
+      "nome": "Ostello Ossigeno",
+      "city_name": "Campodimele",
+      "indirizzo": "Strada Regionale, 82, 04020 Itri LT",
+      "lat": 41.350699,
+      "lng": 13.52371
+    },
+    {
+      "id": "c33c4805-ab0a-4039-91d0-4d398105326e",
+      "slug": "villa-regina-sperlonga-vertice-rooms-campodimele",
+      "nome": "VILLA REGINA - Sperlonga Vertice Rooms",
+      "city_name": "Campodimele",
+      "indirizzo": "Via Chiarastella, 26, 04022 Fondi LT",
+      "lat": 41.329246,
+      "lng": 13.415835
+    },
+    {
+      "id": "c55106ee-c1f6-4fad-8936-fd73c5a16a3d",
+      "slug": "agriturismo-tenuta-colle-san-pietro-ristorante-t-campodipietra",
+      "nome": "Agriturismo Tenuta Colle San Pietro - Ristorante tipico con alloggi e fattoria didattica",
+      "city_name": "Campodipietra",
+      "indirizzo": "C/da San Pietro, 22/a, 86010 Campodipietra CB",
+      "lat": 41.537213,
+      "lng": 14.720689
+    },
+    {
+      "id": "478355ea-a517-44a7-b316-73cb761c68ba",
+      "slug": "agriturismo-terra-e-sapori-campodipietra",
+      "nome": "Agriturismo Terra e Sapori",
+      "city_name": "Campodipietra",
+      "indirizzo": "Contrada Soglioni, 12, 86010 Campodipietra CB",
+      "lat": 41.545663,
+      "lng": 14.730292
+    },
+    {
+      "id": "ed671a1d-3d6b-4001-911b-44a18e91c2c8",
+      "slug": "b-b-cherry-house-bed-breakfast-campodipietra",
+      "nome": "B&B Cherry House Bed&Breakfast",
+      "city_name": "Campodipietra",
+      "indirizzo": "Via San Giovanni dei Gelsi, 102/A, 86100 Campobasso CB",
+      "lat": 41.55242,
+      "lng": 14.695873
+    },
+    {
+      "id": "6458c8ed-0ae2-40d2-8fde-698bbf98f6cb",
+      "slug": "hostel-san-mercurio-campodipietra",
+      "nome": "Hostel San Mercurio",
+      "city_name": "Campodipietra",
+      "indirizzo": "vicolo del piano, 2, 86018 Toro CB",
+      "lat": 41.570954,
+      "lng": 14.765953
+    },
+    {
+      "id": "060e6478-8cb5-4928-9d75-07ca859d9af9",
+      "slug": "affittacamere-valchiavenna-campodolcino",
+      "nome": "AFFITTACAMERE VALCHIAVENNA",
+      "city_name": "Campodolcino",
+      "indirizzo": "Mese, Via Roma, 15, 23020 Chiavenna SO",
+      "lat": 46.304756,
+      "lng": 9.384036
+    },
+    {
+      "id": "50178022-63a1-4952-b749-89bc7e468256",
+      "slug": "albergo-ristorante-stella-alpina-campodolcino",
+      "nome": "Albergo Ristorante Stella Alpina",
+      "city_name": "Campodolcino",
+      "indirizzo": "Via Fraciscio, 62, 23021 Campodolcino SO",
+      "lat": 46.404125,
+      "lng": 9.363195
+    },
+    {
+      "id": "8e021f7b-f0a7-49bf-8fc5-952883806454",
+      "slug": "alps-oriental-wellness-hotel-campodolcino",
+      "nome": "Alps Oriental Wellness Hotel",
+      "city_name": "Campodolcino",
+      "indirizzo": "Via Prestone, 91, 23021 Campodolcino SO",
+      "lat": 46.386593,
+      "lng": 9.354537
+    },
+    {
+      "id": "e90dce59-4305-49de-81fd-8fa027ae4237",
+      "slug": "b-b-cristo-re-campodolcino",
+      "nome": "B&B Cristo Rè",
+      "city_name": "Campodolcino",
+      "indirizzo": "23021 Campodolcino SO",
+      "lat": 46.403551,
+      "lng": 9.355708
+    },
+    {
+      "id": "99169dc1-6932-4f0a-9d6e-a515592aa224",
+      "slug": "b-b-lo-scoiattolo-campodolcino",
+      "nome": "B&B Lo Scoiattolo",
+      "city_name": "Campodolcino",
+      "indirizzo": "Via Fraciscio, 103, 23021 Campodolcino SO",
+      "lat": 46.404235,
+      "lng": 9.365885
+    },
+    {
+      "id": "94a2189b-5903-43f5-9987-067868a699c8",
+      "slug": "b-b-portarezza-campodolcino",
+      "nome": "B&B Portarezza",
+      "city_name": "Campodolcino",
+      "indirizzo": "Via Portarezza, 42, 23021 Campodolcino SO",
+      "lat": 46.394703,
+      "lng": 9.350517
+    },
+    {
+      "id": "bae7b62d-9f2a-4068-b39e-51c932715275",
+      "slug": "ca-de-val-campodolcino",
+      "nome": "Ca De Val",
+      "city_name": "Campodolcino",
+      "indirizzo": "Via Don Romeo Ballerini, 3, 23021 Campodolcino SO",
+      "lat": 46.403517,
+      "lng": 9.35555
+    },
+    {
+      "id": "daebbfdc-42b3-4a96-90db-103401c56748",
+      "slug": "campodolcino-camping-campodolcino",
+      "nome": "Campodolcino Camping",
+      "city_name": "Campodolcino",
+      "indirizzo": "Via x Starleggia, 2, 23021 Campodolcino SO",
+      "lat": 46.411397,
+      "lng": 9.344654
+    },
+    {
+      "id": "a7990f4d-af1e-4608-a420-e53fc693ddba",
+      "slug": "casa-alpina-san-luigi-campodolcino",
+      "nome": "Casa Alpina San Luigi",
+      "city_name": "Campodolcino",
+      "indirizzo": "via gualdera, 75, 23021 Gualdera, SO",
+      "lat": 46.392243,
+      "lng": 9.360689
+    },
+    {
+      "id": "faa8117a-89d3-4430-b21a-e8eb1b884a70",
+      "slug": "hotel-bucaneve-campodolcino",
+      "nome": "Hotel Bucaneve",
+      "city_name": "Campodolcino",
+      "indirizzo": "Loc. Alpe Motta, Via Motta, 45, 23021 Campodolcino SO",
+      "lat": 46.420982,
+      "lng": 9.35546
+    },
+    {
+      "id": "59064a69-d7db-4c0b-8cb8-e0459921fed3",
+      "slug": "hotel-chalet-capriolo-campodolcino",
+      "nome": "Hotel Chalet Capriolo",
+      "city_name": "Campodolcino",
+      "indirizzo": "Via G. Carducci, 33, 23024 Madesimo SO",
+      "lat": 46.437279,
+      "lng": 9.359634
+    },
+    {
+      "id": "878e0155-69bd-4961-a334-222d17b83881",
+      "slug": "hotel-europa-campodolcino",
+      "nome": "Hotel Europa",
+      "city_name": "Campodolcino",
+      "indirizzo": "Via Corti, 135, 23021 Campodolcino SO",
+      "lat": 46.409558,
+      "lng": 9.350821
+    },
+    {
+      "id": "3c32ebac-065d-4aa6-bc17-000b3ef487d6",
+      "slug": "hotel-k2-campodolcino",
+      "nome": "Hotel K2",
+      "city_name": "Campodolcino",
+      "indirizzo": "Via G. Carducci, 11, 23024 Madesimo SO",
+      "lat": 46.436315,
+      "lng": 9.358803
+    },
+    {
+      "id": "633c165b-c804-483a-8818-95c8b0775453",
+      "slug": "hotel-ristorante-tambo-campodolcino",
+      "nome": "Hotel Ristorante Tambò",
+      "city_name": "Campodolcino",
+      "indirizzo": "Via per Motta, 15, 23021 Campodolcino SO",
+      "lat": 46.422489,
+      "lng": 9.355879
+    },
+    {
+      "id": "a4425b7d-be2d-4000-a2b6-051a8449c984",
+      "slug": "il-cervo-mountain-apartment-campodolcino",
+      "nome": "Il Cervo Mountain Apartment",
+      "city_name": "Campodolcino",
+      "indirizzo": "Via Corti, 81, 23021 Campodolcino SO",
+      "lat": 46.406369,
+      "lng": 9.350768
+    },
+    {
+      "id": "b627eb27-d689-4827-8fc1-b20f666a6fb1",
+      "slug": "residence-baita-dei-pini-campodolcino",
+      "nome": "Residence Baita dei Pini",
+      "city_name": "Campodolcino",
+      "indirizzo": "Via Don Luigi Guanella, 95, 23021 Campodolcino SO",
+      "lat": 46.404283,
+      "lng": 9.349666
+    },
+    {
+      "id": "0925f437-eca6-4773-a321-7a11f9bf8851",
+      "slug": "residence-fior-di-roccia-s-n-c-di-de-stefani-ste-campodolcino",
+      "nome": "Residence Fior Di Roccia S.N.C. Di De Stefani Stef Snc",
+      "city_name": "Campodolcino",
+      "indirizzo": "Via Fraciscio, 70, 23021 Fraciscio SO",
+      "lat": 46.404443,
+      "lng": 9.36324
+    },
+    {
+      "id": "e71f82dd-ecff-4a48-9c79-8f8e49fa2c0d",
+      "slug": "residence-larice-bianco-campodolcino",
+      "nome": "Residence Larice Bianco",
+      "city_name": "Campodolcino",
+      "indirizzo": "Via delle Soste, 33, 23021 Campodolcino SO",
+      "lat": 46.405242,
+      "lng": 9.366951
+    },
+    {
+      "id": "42105d22-06ca-4995-916b-10234a702875",
+      "slug": "san-luigi-rooms-apartments-campodolcino",
+      "nome": "San Luigi Rooms & Apartments",
+      "city_name": "Campodolcino",
+      "indirizzo": "Via Don Luigi Guanella, 2, 23021 Campodolcino SO",
+      "lat": 46.403697,
+      "lng": 9.353543
+    },
+    {
+      "id": "04351d20-ab19-48c6-a9fe-a7343f37eaaf",
+      "slug": "dimora-di-bosco-room-breakfast-cin-it028072b4gum-campodoro",
+      "nome": "\"Dimora di Bosco\" room & breakfast - CIN IT028072B4GUMUSDOY",
+      "city_name": "Campodoro",
+      "indirizzo": "via d. manin, 5, 35030 Rubano PD",
+      "lat": 45.442021,
+      "lng": 11.795606
+    },
+    {
+      "id": "b85f513a-ef14-433d-85ad-eb185fe0bfd1",
+      "slug": "agriturismo-gallo-nero-campodoro",
+      "nome": "Agriturismo Gallo Nero",
+      "city_name": "Campodoro",
+      "indirizzo": "Via Monte Cengio, 2, 35035 Mestrino PD",
+      "lat": 45.461637,
+      "lng": 11.725159
+    },
+    {
+      "id": "813dfb92-4e32-41ae-b8b3-dff7c6ea34bd",
+      "slug": "albergo-la-loggia-campodoro",
+      "nome": "Albergo La Loggia",
+      "city_name": "Campodoro",
+      "indirizzo": "Via IV Novembre, 34, 35035 Mestrino PD",
+      "lat": 45.441828,
+      "lng": 11.759906
+    }
+  ]
+}

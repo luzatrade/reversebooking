@@ -1,0 +1,323 @@
+{
+  "block": 338,
+  "blockId": "338",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "ee5fb495-0e54-41e1-a042-c72388725883",
+      "slug": "la-cantina-di-bacco-casa-vacanze-franco-ed-enza-buccino",
+      "nome": "La Cantina di Bacco + Casa Vacanze Franco ed Enza",
+      "city_name": "Buccino",
+      "indirizzo": "Piazza, 84020 San Gregorio Magno SA",
+      "lat": 40.656117,
+      "lng": 15.404959
+    },
+    {
+      "id": "206467da-11f6-41fb-97fc-e4601402e154",
+      "slug": "agriturismo-antiche-dimore-di-poggianto-bucine",
+      "nome": "Agriturismo Antiche Dimore di Poggianto",
+      "city_name": "Bucine",
+      "indirizzo": "Pergine Valdarno (Arezzo), Località Poggiauto, 52019 Pergine Valdarno AR",
+      "lat": 43.494898,
+      "lng": 11.687457
+    },
+    {
+      "id": "c6998a14-11d4-46d2-b62f-97978a8d0c9e",
+      "slug": "agriturismo-le-mura-bucine",
+      "nome": "Agriturismo Le Mura",
+      "city_name": "Bucine",
+      "indirizzo": "località Le Mura, 31, 52021 Bucine AR",
+      "lat": 43.456986,
+      "lng": 11.593344
+    },
+    {
+      "id": "46895282-a272-4180-83b7-9d0200df7948",
+      "slug": "agriturismo-podere-luisa-bucine",
+      "nome": "Agriturismo Podere Luisa",
+      "city_name": "Bucine",
+      "indirizzo": "Via Di Rendola, 152, 52025 Montevarchi AR",
+      "lat": 43.492148,
+      "lng": 11.552642
+    },
+    {
+      "id": "f8646e67-ac10-42a0-8daa-cf3429685234",
+      "slug": "agriturismo-relais-campiglioni-bucine",
+      "nome": "Agriturismo Relais Campiglioni",
+      "city_name": "Bucine",
+      "indirizzo": "Via Campiglioni Le Selici, 31, 52025 Montevarchi AR",
+      "lat": 43.495107,
+      "lng": 11.549038
+    },
+    {
+      "id": "423a1633-7caa-485b-a24a-db7ba67378fa",
+      "slug": "agriturismo-tenuta-lupinari-bucine",
+      "nome": "Agriturismo Tenuta Lupinari",
+      "city_name": "Bucine",
+      "indirizzo": "Località i Lupinari, 52021 Bucine AR",
+      "lat": 43.449398,
+      "lng": 11.592078
+    },
+    {
+      "id": "8ff5e6f3-e4ba-49ca-91d8-87dbcc4a1b52",
+      "slug": "agriturismo-tontenano-bucine",
+      "nome": "Agriturismo Tontenano",
+      "city_name": "Bucine",
+      "indirizzo": "Tontenano, 52021 Bucine AR",
+      "lat": 43.462863,
+      "lng": 11.593502
+    },
+    {
+      "id": "71989f0c-28fa-456f-b07c-aa876cd00afe",
+      "slug": "agriturismo-villa-le-vigne-bucine",
+      "nome": "Agriturismo Villa Le Vigne",
+      "city_name": "Bucine",
+      "indirizzo": "Via di Caposelvi, 178, 52025 Montevarchi AR",
+      "lat": 43.497685,
+      "lng": 11.59094
+    },
+    {
+      "id": "76d4d00d-7b33-4608-ac9c-235d279135e6",
+      "slug": "belvedere-bucine",
+      "nome": "Belvedere",
+      "city_name": "Bucine",
+      "indirizzo": "Località Frosini, 14, 52020 Bucine AR",
+      "lat": 43.472657,
+      "lng": 11.617692
+    },
+    {
+      "id": "c25e71fd-dfb0-4239-aef3-575c7820fa3b",
+      "slug": "bnb-casa-le-rondini-toscana-bucine",
+      "nome": "BnB Casa le Rondini Toscana",
+      "city_name": "Bucine",
+      "indirizzo": "Localita Migliarina, 109, 52021 Bucine AR",
+      "lat": 43.489271,
+      "lng": 11.631181
+    },
+    {
+      "id": "a5595e73-60db-4476-bc02-8b4eae6c2cdd",
+      "slug": "chianti-la-collina-bucine",
+      "nome": "Chianti La Collina",
+      "city_name": "Bucine",
+      "indirizzo": "Vepri, 52021 Bucine AR",
+      "lat": 43.436101,
+      "lng": 11.607147
+    },
+    {
+      "id": "f28c6403-e680-4b22-a113-25033a7a4b1c",
+      "slug": "fattoria-casabianca-di-liquori-aldo-bucine",
+      "nome": "FATTORIA CASABIANCA di Liquori Aldo",
+      "city_name": "Bucine",
+      "indirizzo": "Località Frosini, 14, 52021 Bucine AR",
+      "lat": 43.472767,
+      "lng": 11.618745
+    },
+    {
+      "id": "deff7611-84aa-4954-b12c-551124fd3de8",
+      "slug": "hotel-delta-bucine",
+      "nome": "Hotel Delta",
+      "city_name": "Bucine",
+      "indirizzo": "Via G. Puccini, 30, 52025 Montevarchi AR",
+      "lat": 43.528268,
+      "lng": 11.566674
+    },
+    {
+      "id": "0573e30d-4247-4738-a750-72dede71fd0e",
+      "slug": "i-salici-agriturismo-bucine",
+      "nome": "I Salici Agriturismo",
+      "city_name": "Bucine",
+      "indirizzo": "via presciano, 17, 52020 Pergine Valdarno AR",
+      "lat": 43.439865,
+      "lng": 11.660738
+    },
+    {
+      "id": "39f101a0-5b6b-4ac2-98a8-4f4ab67ec194",
+      "slug": "poggio-ugo-bucine",
+      "nome": "Poggio Ugo",
+      "city_name": "Bucine",
+      "indirizzo": "Via per Cennina, 12, 52021 Bucine AR",
+      "lat": 43.443576,
+      "lng": 11.600931
+    },
+    {
+      "id": "639c1058-5317-49d3-86c8-371903fe140e",
+      "slug": "relais-la-martina-bucine",
+      "nome": "Relais La Martina",
+      "city_name": "Bucine",
+      "indirizzo": "Loc. Ripaltella, 52021 Pietraviva AR",
+      "lat": 43.387148,
+      "lng": 11.561411
+    },
+    {
+      "id": "a3f9d591-cafa-42a3-ad08-3903fde6bbc4",
+      "slug": "salceta-a-tuscany-country-house-bucine",
+      "nome": "Salceta, a Tuscany Country House",
+      "city_name": "Bucine",
+      "indirizzo": "Via Pian di Chena, 2, 52028 Campogialli AR",
+      "lat": 43.52988,
+      "lng": 11.666709
+    },
+    {
+      "id": "5ff992b5-25ea-4247-a07c-54bf40512389",
+      "slug": "vepri-b4-bucine",
+      "nome": "Vepri B4",
+      "city_name": "Bucine",
+      "indirizzo": "Strada Comunale D'ambra B4 Bucine, 52021 Bucine AR",
+      "lat": 43.432279,
+      "lng": 11.607111
+    },
+    {
+      "id": "86263b53-76ea-4e3e-b6a9-233928d1c9ca",
+      "slug": "villa-di-capannole-bucine",
+      "nome": "Villa di Capannole",
+      "city_name": "Bucine",
+      "indirizzo": "23, Località, 52021 Bucine AR",
+      "lat": 43.462056,
+      "lng": 11.593199
+    },
+    {
+      "id": "bd25e1b1-b9fd-47d2-a21f-7f6c909a1c54",
+      "slug": "villa-petrea-bucine",
+      "nome": "Villa Petrea",
+      "city_name": "Bucine",
+      "indirizzo": "Via S. Donato, 3, 52021 Bucine AR",
+      "lat": 43.470938,
+      "lng": 11.620905
+    },
+    {
+      "id": "707a6731-2c6c-4e6a-b574-47de28bfc75d",
+      "slug": "agriturismo-f-lli-muzzu-buddus",
+      "nome": "Agriturismo F.lli Muzzu",
+      "city_name": "Buddus�",
+      "indirizzo": "Via A. Moro, 6, 07020 Sa Serra SS",
+      "lat": 40.702627,
+      "lng": 9.474755
+    },
+    {
+      "id": "925cad92-774a-4f87-9a17-0443109f8796",
+      "slug": "agriturismo-murgia-buddus",
+      "nome": "AGRITURISMO MURGIA",
+      "city_name": "Buddus�",
+      "indirizzo": "07020 Su Tirialzu OT",
+      "lat": 40.720202,
+      "lng": 9.474986
+    },
+    {
+      "id": "f989064e-538a-4c55-ad09-d5dc8fcfe78b",
+      "slug": "sa-corte-nova-buddus",
+      "nome": "Sa Corte Nova",
+      "city_name": "Buddus�",
+      "indirizzo": "Via Karl Marx, 10, 08020 Lula NU",
+      "lat": 40.469231,
+      "lng": 9.48512
+    },
+    {
+      "id": "802c11e1-0d4b-4f62-9188-5abab4c46e53",
+      "slug": "agriturismo-al-ranch-budoia",
+      "nome": "Agriturismo al Ranch",
+      "city_name": "Budoia",
+      "indirizzo": "Via Pedemontana Occidentale, 40, 33070 Budoia PN",
+      "lat": 46.053524,
+      "lng": 12.547409
+    },
+    {
+      "id": "8f4982bd-bc17-425c-bebd-0edc38768325",
+      "slug": "albergo-diffuso-polcenigo-budoia",
+      "nome": "Albergo Diffuso Polcenigo",
+      "city_name": "Budoia",
+      "indirizzo": "Piazza Plebiscito, 20, 33070 Polcenigo PN",
+      "lat": 46.030635,
+      "lng": 12.502063
+    },
+    {
+      "id": "ee199652-30e6-4f52-b2fc-fec669d21619",
+      "slug": "b-b-la-casa-di-elsa-budoia",
+      "nome": "B&B La Casa di Elsa",
+      "city_name": "Budoia",
+      "indirizzo": "Via Sacile, 33, 33070 Polcenigo PN",
+      "lat": 46.007702,
+      "lng": 12.508417
+    },
+    {
+      "id": "ba623c7f-bf08-4ff1-bd22-8503d5035c4b",
+      "slug": "b-b-palazzo-scolari-budoia",
+      "nome": "B&B Palazzo Scolari",
+      "city_name": "Budoia",
+      "indirizzo": "Via Gorgazzo, 2, 33070 Polcenigo PN",
+      "lat": 46.031125,
+      "lng": 12.502007
+    },
+    {
+      "id": "e282a8bf-9c49-42bb-ba03-a58b4174400f",
+      "slug": "bed-breakfast-venezia-delle-nevi-budoia",
+      "nome": "Bed & Breakfast Venezia delle Nevi",
+      "city_name": "Budoia",
+      "indirizzo": "via Solvela, 4, 33070 Budoia PN",
+      "lat": 46.054459,
+      "lng": 12.532092
+    },
+    {
+      "id": "47fed61f-8faa-4e01-9123-b3ab8e99fd93",
+      "slug": "casa-vacanza-polcenigo-bed-and-breakfast-b-b-cas-budoia",
+      "nome": "Casa Vacanza Polcenigo- Bed and Breakfast - B&B Casa Titti Polcenigo",
+      "city_name": "Budoia",
+      "indirizzo": "Via Pordenone, 130, 33070 Polcenigo PN",
+      "lat": 46.01825,
+      "lng": 12.510371
+    },
+    {
+      "id": "61e5a51e-ca7b-4533-a3d9-330b5b72d3c8",
+      "slug": "relais-sauc-spa-agriturismo-budoia",
+      "nome": "Relais Sauc & SPA - Agriturismo",
+      "city_name": "Budoia",
+      "indirizzo": "Località Sauc, 2, 33070 Budoia PN",
+      "lat": 46.096178,
+      "lng": 12.519021
+    },
+    {
+      "id": "776eb485-4fdc-452a-9325-e7971b66ce6b",
+      "slug": "albergo-terra-di-gallura-budoni",
+      "nome": "Albergo Terra Di Gallura",
+      "city_name": "Budoni",
+      "indirizzo": "Via Emilio Lussu, 1, 07051 Budoni OT",
+      "lat": 40.706682,
+      "lng": 9.702255
+    },
+    {
+      "id": "50fc40c8-28c1-4301-a93e-89f9ce171eb5",
+      "slug": "bravo-budoni-area-li-cupulatti-budoni",
+      "nome": "Bravo Budoni - Area Li Cupulatti",
+      "city_name": "Budoni",
+      "indirizzo": "Via A. Vespucci, 5, 07051 Agrustos OT",
+      "lat": 40.723089,
+      "lng": 9.706459
+    },
+    {
+      "id": "7cbba58e-51ce-4219-935c-aa1a35481bd5",
+      "slug": "budoni-beach-hotel-budoni",
+      "nome": "BUDONI BEACH HOTEL",
+      "city_name": "Budoni",
+      "indirizzo": "Via Porto Ainu, 07051 Budoni SU",
+      "lat": 40.690175,
+      "lng": 9.736145
+    },
+    {
+      "id": "c5272226-e9a1-475a-b5ff-467d529ffe56",
+      "slug": "budoni-resort-budoni",
+      "nome": "Budoni Resort",
+      "city_name": "Budoni",
+      "indirizzo": "Via A. Vespucci, 5, 07051 Agrustos OT",
+      "lat": 40.723086,
+      "lng": 9.706465
+    },
+    {
+      "id": "f2f83008-e952-40d6-884f-fd2b81a2d8c3",
+      "slug": "club-hotel-eurovillage-budoni",
+      "nome": "Club Hotel Eurovillage",
+      "city_name": "Budoni",
+      "indirizzo": "Via A. Vespucci, 07051 Agrustos OT",
+      "lat": 40.722058,
+      "lng": 9.707003
+    }
+  ]
+}

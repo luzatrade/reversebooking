@@ -1,0 +1,323 @@
+{
+  "block": 72,
+  "blockId": "072",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "ee94c54b-c90d-4ce5-a12e-bb9dcf76182b",
+      "slug": "b-b-alghero-aigua-centro-alghero",
+      "nome": "B&B Alghero Aigua centro",
+      "city_name": "Alghero",
+      "indirizzo": "Via Ambrogio Machin, 22, 07041 Alghero SS, Italia",
+      "lat": 40.558115,
+      "lng": 8.314915
+    },
+    {
+      "id": "132c0f92-cc3e-431b-b8e6-4a88abf5346b",
+      "slug": "b-b-alghero-horizon-alghero",
+      "nome": "B&B Alghero Horizon",
+      "city_name": "Alghero",
+      "indirizzo": "Via Asfodelo, 17, 07041 Alghero SS, Italia",
+      "lat": 40.561848,
+      "lng": 8.317497
+    },
+    {
+      "id": "87ef38d3-f45a-4e40-8b4d-0c94c9e0a472",
+      "slug": "b-b-dabi-alghero",
+      "nome": "B&B DaBi",
+      "city_name": "Alghero",
+      "indirizzo": "Via Brigata Sassari, 40, 07041 Alghero SS, Italia",
+      "lat": 40.559407,
+      "lng": 8.320703
+    },
+    {
+      "id": "a93ce25a-c0c2-4c23-8aea-16cd1b3ef768",
+      "slug": "b-b-sardegna-sole-e-mare-sardenya-sol-i-mar-alghero",
+      "nome": "B&B Sardegna Sole e Mare (Sardenya Sol i Mar)",
+      "city_name": "Alghero",
+      "indirizzo": "Via Caravaggio, 33, 07041 Alghero SS, Italia",
+      "lat": 40.563571,
+      "lng": 8.322715
+    },
+    {
+      "id": "64bc010b-1857-4c93-bb41-ba71d0426d93",
+      "slug": "bed-and-breakfast-casa-mia-alghero",
+      "nome": "Bed and Breakfast Casa Mia",
+      "city_name": "Alghero",
+      "indirizzo": "Via XX Settembre, 205, 07041 Alghero SS, Italia",
+      "lat": 40.561441,
+      "lng": 8.326211
+    },
+    {
+      "id": "a1f28ee1-9180-4bb0-a20d-cec61b17c38c",
+      "slug": "boipeba-guest-house-alghero",
+      "nome": "Boipeba Guest House",
+      "city_name": "Alghero",
+      "indirizzo": "Via L. Canepa, 12, 07041 Alghero SS, Italia",
+      "lat": 40.556889,
+      "lng": 8.322448
+    },
+    {
+      "id": "260dbe85-544f-4679-83aa-85a66a63c075",
+      "slug": "casa-dei-liuti-luxury-guest-house-alghero",
+      "nome": "Casa dei Liuti Luxury Guest House",
+      "city_name": "Alghero",
+      "indirizzo": "Via Carlo Alberto, 70, 07041 Alghero SS, Italia",
+      "lat": 40.557401,
+      "lng": 8.314111
+    },
+    {
+      "id": "087021c9-478c-4707-aa04-f0d26f2a44dd",
+      "slug": "casa-felicidad-alguer-alghero",
+      "nome": "Casa Felicidad Alguer",
+      "city_name": "Alghero",
+      "indirizzo": "Via Rodolfo Morandi, 2, 07041 Alghero SS, Italia",
+      "lat": 40.554309,
+      "lng": 8.32044
+    },
+    {
+      "id": "62cd0c8b-551b-4edb-9aef-2bb01c00450c",
+      "slug": "da-marilu-alghero-guest-house-alghero",
+      "nome": "Da Marilù Alghero - Guest House",
+      "city_name": "Alghero",
+      "indirizzo": "Via Catalogna, 30, 07041 Alghero SS, Italia",
+      "lat": 40.561164,
+      "lng": 8.317809
+    },
+    {
+      "id": "05e2f477-3480-4f34-ac2b-eb005dc60ac5",
+      "slug": "dolmen-guest-house-alghero",
+      "nome": "Dolmen Guest House",
+      "city_name": "Alghero",
+      "indirizzo": "Via E. Porrino, 62, 07041 Alghero SS, Italia",
+      "lat": 40.55474,
+      "lng": 8.322582
+    },
+    {
+      "id": "8b35eee7-f1d8-4831-a191-acc60d1f8953",
+      "slug": "hotel-san-francesco-alghero",
+      "nome": "Hotel San Francesco",
+      "city_name": "Alghero",
+      "indirizzo": "Via Ambrogio Machin, 2, 07041 Alghero SS, Italia",
+      "lat": 40.558117,
+      "lng": 8.314259
+    },
+    {
+      "id": "fe9f4c59-1eab-4b45-bc79-f4e682752030",
+      "slug": "leolu-alghero-guesthouse-bed-breakfast-alghero",
+      "nome": "Leolù Alghero Guesthouse Bed & Breakfast",
+      "city_name": "Alghero",
+      "indirizzo": "Via Rodolfo Morandi, 14, 07041 Alghero SS, Italia",
+      "lat": 40.553692,
+      "lng": 8.321528
+    },
+    {
+      "id": "d83383ee-1fac-4fb1-ab33-6b4e62f45319",
+      "slug": "monti-guest-house-alghero-alghero",
+      "nome": "Monti Guest House Alghero",
+      "city_name": "Alghero",
+      "indirizzo": "Via Rodolfo Morandi, n 2, 07041 Alghero SS, Italia",
+      "lat": 40.554292,
+      "lng": 8.320569
+    },
+    {
+      "id": "c3afc13b-4440-4f62-b711-0e54c0aa6b2d",
+      "slug": "ottocento-guest-house-alghero",
+      "nome": "Ottocento Guest House",
+      "city_name": "Alghero",
+      "indirizzo": "Via Santa Barbara, 20, 07041 Alghero SS, Italia",
+      "lat": 40.559346,
+      "lng": 8.311929
+    },
+    {
+      "id": "d96eb856-9352-4c31-8b90-a7e31a2bac69",
+      "slug": "r-d-bed-and-breakfast-alghero",
+      "nome": "R & D Bed and Breakfast",
+      "city_name": "Alghero",
+      "indirizzo": "Via Oristano, 50, 07041 Alghero SS, Italia",
+      "lat": 40.57291,
+      "lng": 8.319637
+    },
+    {
+      "id": "e7914cb6-448f-4fcf-84fb-6d2e02a033a4",
+      "slug": "sophora-guest-house-alghero-alghero",
+      "nome": "Sophora Guest House Alghero",
+      "city_name": "Alghero",
+      "indirizzo": "Via Alberto La Marmora, 86, 07041 Alghero SS, Italia",
+      "lat": 40.558647,
+      "lng": 8.318982
+    },
+    {
+      "id": "db7e9bba-1a73-44b8-a3e7-ad851d43c950",
+      "slug": "tidu-s-home-b-b-alghero",
+      "nome": "Tidu's home B&B",
+      "city_name": "Alghero",
+      "indirizzo": "Via Pasquale Paoli, 103, 07041 Alghero SS, Italia",
+      "lat": 40.568252,
+      "lng": 8.319879
+    },
+    {
+      "id": "925ada00-ba1c-4d6c-b54a-b065afd154ba",
+      "slug": "b-b-ametista-bergamo-algua",
+      "nome": "B & B Ametista Bergamo",
+      "city_name": "Algua",
+      "indirizzo": "Via IV Novembre, 54, 24010 Ponteranica BG",
+      "lat": 45.736225,
+      "lng": 9.661916
+    },
+    {
+      "id": "80228d32-0396-497d-875d-b8802ec60927",
+      "slug": "b-b-angela-casa-vacanze-piccolo-appartamento-algua",
+      "nome": "B&B Angela Casa Vacanze Piccolo Appartamento",
+      "city_name": "Algua",
+      "indirizzo": "Via Giuseppe Mazzini, 90, 24023 Clusone BG",
+      "lat": 45.889183,
+      "lng": 9.939725
+    },
+    {
+      "id": "d3f036ba-431c-4265-bf42-b03b5b3db081",
+      "slug": "b-b-bergamo-alta-algua",
+      "nome": "B&B Bergamo Alta",
+      "city_name": "Algua",
+      "indirizzo": "Via S. Lorenzo, 24, 24129 Bergamo BG",
+      "lat": 45.705006,
+      "lng": 9.664319
+    },
+    {
+      "id": "b2615d7a-6e9c-4ab9-8952-d5b92c8ce358",
+      "slug": "b-b-cascina-ronco-grande-algua",
+      "nome": "B&B Cascina Ronco Grande",
+      "city_name": "Algua",
+      "indirizzo": "VIA Cascina ronco grande, 24060 Cenate Sopra BG",
+      "lat": 45.722436,
+      "lng": 9.83381
+    },
+    {
+      "id": "923ecb7d-1c0d-4aad-bb14-66eeb754f3e5",
+      "slug": "b-b-centrale-algua",
+      "nome": "B&B CENTRALE",
+      "city_name": "Algua",
+      "indirizzo": "Via IV Novembre, 11, 24050 Orio al Serio BG",
+      "lat": 45.674515,
+      "lng": 9.69051
+    },
+    {
+      "id": "c69f819f-ea93-4262-9c50-662e1528a98e",
+      "slug": "b-b-leo-algua",
+      "nome": "B&B LEO",
+      "city_name": "Algua",
+      "indirizzo": "Frazione Rigosa, 49, 24010 Algua BG",
+      "lat": 45.80007,
+      "lng": 9.748334
+    },
+    {
+      "id": "ab7b5cc1-66db-4251-8f97-b2abda1cf36f",
+      "slug": "b-b-san-francesco-class-algua",
+      "nome": "B&B San Francesco Class",
+      "city_name": "Algua",
+      "indirizzo": "Via Monte Zucco, 1, 24016 San Pellegrino Terme BG",
+      "lat": 45.832854,
+      "lng": 9.664723
+    },
+    {
+      "id": "3eb1600b-ee3b-4ef5-b531-a174620f81c8",
+      "slug": "baita-nel-bosco-bnb-rigosa-algua",
+      "nome": "Baita nel Bosco | BnB Rigosa",
+      "city_name": "Algua",
+      "indirizzo": "località Piazzol de Fopp, 3, 24010 Algua BG",
+      "lat": 45.79369,
+      "lng": 9.74125
+    },
+    {
+      "id": "da7dc543-2c9c-429a-a279-0a280ac5eae3",
+      "slug": "bed-breakfast-nettuno-algua",
+      "nome": "Bed & Breakfast Nettuno",
+      "city_name": "Algua",
+      "indirizzo": "Via Roma, 5, 24040 Comun Nuovo BG",
+      "lat": 45.622788,
+      "lng": 9.661497
+    },
+    {
+      "id": "df1496f9-a251-453b-b654-b72e448d9b59",
+      "slug": "bergamo-alta-guest-house-algua",
+      "nome": "Bergamo Alta Guest House",
+      "city_name": "Algua",
+      "indirizzo": "Via Gombito, 4, 24129 Bergamo BG",
+      "lat": 45.704061,
+      "lng": 9.663583
+    },
+    {
+      "id": "b33e2bf3-6dd3-469a-8c38-47ed54180a7f",
+      "slug": "bgy-airport-guesthouse-algua",
+      "nome": "BGY Airport Guesthouse",
+      "city_name": "Algua",
+      "indirizzo": "Via Aldo Moro, 10, 24050 Nuova Betosca BG",
+      "lat": 45.661294,
+      "lng": 9.705776
+    },
+    {
+      "id": "8bf4b1ed-2d92-4ae7-8394-4048a4291a10",
+      "slug": "ca-gioel-algua",
+      "nome": "Cà Gioel",
+      "city_name": "Algua",
+      "indirizzo": "Via Martiri Libertà, 4, 24010 Ubiale Clanezzo BG",
+      "lat": 45.783481,
+      "lng": 9.614001
+    },
+    {
+      "id": "fd0b24aa-0841-402f-8988-631fd012253b",
+      "slug": "gio-el-happiness-guest-house-algua",
+      "nome": "GIO’EL Happiness Guest House",
+      "city_name": "Algua",
+      "indirizzo": "Via Vittore Ghislandi, 55, 24125 Bergamo BG",
+      "lat": 45.698476,
+      "lng": 9.685152
+    },
+    {
+      "id": "70e3bf78-9a4d-4ee9-9e3d-8db454a59c5b",
+      "slug": "sotto-l-alben-algua",
+      "nome": "Sotto l'Alben",
+      "city_name": "Algua",
+      "indirizzo": "Via Roma, 697, 24013 Oltre il Colle BG",
+      "lat": 45.890817,
+      "lng": 9.773758
+    },
+    {
+      "id": "9d36ee73-62e8-4062-a121-67a3686443ef",
+      "slug": "stay-bergamo-guesthouse-algua",
+      "nome": "Stay Bergamo Guesthouse",
+      "city_name": "Algua",
+      "indirizzo": "Via S. Giorgio, 17, 24122 Bergamo BG",
+      "lat": 45.688089,
+      "lng": 9.66684
+    },
+    {
+      "id": "b7421946-52e7-4f34-8ebb-ff227c306675",
+      "slug": "agriturismo-la-targa-alia",
+      "nome": "Agriturismo \"La Targa\"",
+      "city_name": "Alia",
+      "indirizzo": "SS120, Km 5, 90052 Cerda PA",
+      "lat": 37.920548,
+      "lng": 13.797961
+    },
+    {
+      "id": "311e97dc-d976-415b-b02b-26b96b0b1a12",
+      "slug": "agriturismo-serra-moneta-alia",
+      "nome": "Agriturismo Serra Moneta",
+      "city_name": "Alia",
+      "indirizzo": "Contrada Margimuto, 92020 Santo Stefano Quisquina AG",
+      "lat": 37.612871,
+      "lng": 13.516557
+    },
+    {
+      "id": "16ae41de-2e77-45fd-b8a3-0c6121871c36",
+      "slug": "b-b-de-spuches-house-via-liccio-n-40-a-caccamo-alia",
+      "nome": "B&B De Spuches House Via Liccio n.40/A Caccamo",
+      "city_name": "Alia",
+      "indirizzo": "Via Liccio, Via Siragusa, 90012 Caccamo PA",
+      "lat": 37.933895,
+      "lng": 13.664376
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 335,
+  "blockId": "335",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "1068d4df-1ed1-487d-87ee-5290bd1ce03c",
+      "slug": "b-b-hotel-napoli-san-mauro-brusciano",
+      "nome": "B&B HOTEL Napoli San Mauro",
+      "city_name": "Brusciano",
+      "indirizzo": "Via Casarea, 45, 80013 Casalnuovo di Napoli NA",
+      "lat": 40.888991,
+      "lng": 14.362094
+    },
+    {
+      "id": "45213583-c01c-42a8-b9ea-ae58ac8aa012",
+      "slug": "b-b-l-attico-e-la-ballata-brusciano-centro-brusciano",
+      "nome": "B&B L’Attico e La Ballata Brusciano Centro",
+      "city_name": "Brusciano",
+      "indirizzo": "Via Alcide De Gasperi, 5, 80031 Brusciano NA",
+      "lat": 40.91991,
+      "lng": 14.421874
+    },
+    {
+      "id": "dee79c09-aa0c-47c9-8283-c1a9935e8ea0",
+      "slug": "beb-i-gigli-brusciano",
+      "nome": "BeB I gigli",
+      "city_name": "Brusciano",
+      "indirizzo": "Via della Repubblica, 7, 80031 Brusciano NA",
+      "lat": 40.916556,
+      "lng": 14.422469
+    },
+    {
+      "id": "aaeacba6-d42d-4a94-8f41-e5adde473fd9",
+      "slug": "dimora-delle-rose-brusciano",
+      "nome": "Dimora delle Rose",
+      "city_name": "Brusciano",
+      "indirizzo": "Strada Provinciale Pomigliano - Miuli, 36b, 80030 Mariglianella NA",
+      "lat": 40.910455,
+      "lng": 14.429946
+    },
+    {
+      "id": "a1b70975-92f8-40f7-ac1c-74c014df745b",
+      "slug": "hotel-caribe-brusciano",
+      "nome": "Hotel Caribe",
+      "city_name": "Brusciano",
+      "indirizzo": "Via Antonio Vivaldi, 1, 80013 Casalnuovo di Napoli NA",
+      "lat": 40.921211,
+      "lng": 14.347703
+    },
+    {
+      "id": "c730323b-9574-4c96-a243-c388e13729d3",
+      "slug": "hotel-casal-dell-angelo-brusciano",
+      "nome": "Hotel Casal Dell'Angelo",
+      "city_name": "Brusciano",
+      "indirizzo": "V. XI Settembre, 40/400, 80034 Marigliano NA",
+      "lat": 40.933932,
+      "lng": 14.450781
+    },
+    {
+      "id": "6a076bbc-1971-4269-a113-31cc435007fd",
+      "slug": "hotel-dei-platani-brusciano",
+      "nome": "Hotel dei Platani",
+      "city_name": "Brusciano",
+      "indirizzo": "SS7bis, 26, 80035 Nola NA",
+      "lat": 40.93266,
+      "lng": 14.502664
+    },
+    {
+      "id": "28fad122-3922-4660-9392-20b7f4daa156",
+      "slug": "hotel-quadrifoglio-napoli-brusciano",
+      "nome": "Hotel Quadrifoglio Napoli",
+      "city_name": "Brusciano",
+      "indirizzo": "Via Kennedy, 8, 80030 Castello di Cisterna NA",
+      "lat": 40.919102,
+      "lng": 14.404355
+    },
+    {
+      "id": "1866bc50-0a0e-41ec-9b84-af405406a7f8",
+      "slug": "luxury-farm-brusciano",
+      "nome": "Luxury Farm",
+      "city_name": "Brusciano",
+      "indirizzo": "Via Nuova del Bosco, 80034 Marigliano NA",
+      "lat": 40.955746,
+      "lng": 14.457489
+    },
+    {
+      "id": "748ea089-7ce5-4fbb-93e7-0c9da466222c",
+      "slug": "residence-bouganville-brusciano",
+      "nome": "Residence Bouganville",
+      "city_name": "Brusciano",
+      "indirizzo": "Via Libertà, 4, 80031 Brusciano NA",
+      "lat": 40.928375,
+      "lng": 14.41525
+    },
+    {
+      "id": "4c6265e5-5735-445b-a210-669d40b85ed8",
+      "slug": "ro-agrimaison-brusciano",
+      "nome": "Ro agriMaison",
+      "city_name": "Brusciano",
+      "indirizzo": "V9P2+9GR, 80040 Volla NA",
+      "lat": 40.886053,
+      "lng": 14.350943
+    },
+    {
+      "id": "50ae57ac-df79-4927-8564-a0d17f549eb1",
+      "slug": "roseal-b-b-brusciano",
+      "nome": "Roseal B&B",
+      "city_name": "Brusciano",
+      "indirizzo": "Via Guido De Ruggiero, 80031 Brusciano NA",
+      "lat": 40.916737,
+      "lng": 14.429932
+    },
+    {
+      "id": "134a74f2-097f-4612-9946-c5c0c68e379b",
+      "slug": "voco-nola-naples-vulcano-buono-by-ihg-brusciano",
+      "nome": "voco Nola - Naples Vulcano Buono by IHG",
+      "city_name": "Brusciano",
+      "indirizzo": "Localita Boscofangone, 80035 Nola NA",
+      "lat": 40.950733,
+      "lng": 14.48974
+    },
+    {
+      "id": "4d19f080-2326-4652-b18d-8125a80bda87",
+      "slug": "agriturismo-il-carpio-brusimpiano",
+      "nome": "Agriturismo \"Il Carpio\"",
+      "city_name": "Brusimpiano",
+      "indirizzo": "Via Carpio, 21030 Cugliate-Fabiasco VA",
+      "lat": 45.937128,
+      "lng": 8.828241
+    },
+    {
+      "id": "430e1efa-6577-4cdd-a563-38c390a15ef0",
+      "slug": "agriturismo-villa-brugolta-brusimpiano",
+      "nome": "Agriturismo Villa Brugolta",
+      "city_name": "Brusimpiano",
+      "indirizzo": "21031 Cadegliano-Viconago VA, Italia",
+      "lat": 45.95136,
+      "lng": 8.849058
+    },
+    {
+      "id": "3161b552-2024-4390-94d9-6c9a363bbaac",
+      "slug": "al-boccalino-bed-breakfast-brusimpiano",
+      "nome": "AL BOCCALINO Bed & Breakfast",
+      "city_name": "Brusimpiano",
+      "indirizzo": "Via Francesco Borromini 27, 6815 Melide, Svizzera",
+      "lat": 45.95253,
+      "lng": 8.943917
+    },
+    {
+      "id": "65fc5c74-2965-4e8b-8b22-805cd0ed6bc0",
+      "slug": "apartment-lac-brusimpiano",
+      "nome": "Apartment Lac",
+      "city_name": "Brusimpiano",
+      "indirizzo": "Via Giuseppe Garibaldi, 2, 21050 Brusimpiano VA",
+      "lat": 45.948706,
+      "lng": 8.890024
+    },
+    {
+      "id": "a62033c6-4893-46b3-803b-8bf7cff8140d",
+      "slug": "b-b-manito-brusimpiano",
+      "nome": "B&B MANITO",
+      "city_name": "Brusimpiano",
+      "indirizzo": "Via Valle, 4, 21037 Lavena Ponte Tresa VA",
+      "lat": 45.966547,
+      "lng": 8.855416
+    },
+    {
+      "id": "2f0f8e3a-046e-47d7-bb10-0889e352053d",
+      "slug": "casafile-4-zimmer-ferienhaus-brusimpiano",
+      "nome": "casafile 4 ½ -Zimmer- Ferienhaus",
+      "city_name": "Brusimpiano",
+      "indirizzo": "Via M. Bagattini, 6, 21050 Brusimpiano VA",
+      "lat": 45.950392,
+      "lng": 8.889082
+    },
+    {
+      "id": "fac3f2b6-86fc-4fb8-9a42-fe7ad90ab716",
+      "slug": "dolceresio-lugano-lake-b-b-brusimpiano",
+      "nome": "Dolceresio Lugano Lake B&B",
+      "city_name": "Brusimpiano",
+      "indirizzo": "Vila da Roncaiöö 1, 6827 Brusino Arsizio, Svizzera",
+      "lat": 45.9278,
+      "lng": 8.937428
+    },
+    {
+      "id": "ccc9cbb6-6911-4a7d-9cfd-a0b359a15e6f",
+      "slug": "grotto-flora-b-b-brusimpiano",
+      "nome": "Grotto Flora B&B",
+      "city_name": "Brusimpiano",
+      "indirizzo": "Via Municipio 8, 6927 Agra, Svizzera",
+      "lat": 45.973797,
+      "lng": 8.914553
+    },
+    {
+      "id": "02bf3486-ec81-40b7-b5d8-19b00c0a6cc2",
+      "slug": "hotel-grotto-bagat-brusimpiano",
+      "nome": "Hotel Grotto Bagat",
+      "city_name": "Brusimpiano",
+      "indirizzo": "Via Brusimpiano, 18, 21037 Lavena Ponte Tresa VA",
+      "lat": 45.95378,
+      "lng": 8.877369
+    },
+    {
+      "id": "8afe212e-4bdc-4b6d-82a0-8b694beb8c92",
+      "slug": "la-corte-di-franco-brusimpiano",
+      "nome": "La Corte di Franco",
+      "city_name": "Brusimpiano",
+      "indirizzo": "Via Caminatti, 2, 21050 Brusimpiano VA",
+      "lat": 45.947191,
+      "lng": 8.88878
+    },
+    {
+      "id": "1a56b85c-b390-45e6-b846-afde26e76805",
+      "slug": "osteria-al-cantonaccio-con-alloggio-brusimpiano",
+      "nome": "Osteria al Cantonaccio con alloggio",
+      "city_name": "Brusimpiano",
+      "indirizzo": "Via Giuseppe Garibaldi, 17, 21050 Brusimpiano VA",
+      "lat": 45.947871,
+      "lng": 8.888959
+    },
+    {
+      "id": "d35483b1-1bc1-49bf-961a-ce2492e7b1df",
+      "slug": "villa-mia-lugano-lake-brusimpiano",
+      "nome": "Villa Mia Lugano Lake",
+      "city_name": "Brusimpiano",
+      "indirizzo": "Via Federico Motta, 8, 21050 Brusimpiano VA",
+      "lat": 45.944781,
+      "lng": 8.889502
+    },
+    {
+      "id": "63a5070b-2e9f-413c-8723-d30febfed22a",
+      "slug": "cascina-cottignano-brusnengo",
+      "nome": "Cascina Cottignano",
+      "city_name": "Brusnengo",
+      "indirizzo": "Località Cascina Cottignano, 1, 13866 Masserano BI",
+      "lat": 45.579044,
+      "lng": 8.229691
+    },
+    {
+      "id": "df4b2182-9886-4bd1-b6d7-be14349671af",
+      "slug": "starsbox-le-moline-brusnengo",
+      "nome": "StarsBOX Le Moline",
+      "city_name": "Brusnengo",
+      "indirizzo": "frazione bozzone 3, 13866 Masserano BI",
+      "lat": 45.6,
+      "lng": 8.225614
+    },
+    {
+      "id": "457892b1-44a8-4e79-af81-e10633135e64",
+      "slug": "affittacamere-ciampian-brusson",
+      "nome": "Affittacamere Ciampian",
+      "city_name": "Brusson",
+      "indirizzo": "Rue Col de Joux, 11022 Brusson AO",
+      "lat": 45.758049,
+      "lng": 7.718421
+    },
+    {
+      "id": "ce9a45bc-782a-4e9a-af8e-f66f3a0a083d",
+      "slug": "affittacamere-la-luge-d-antan-brusson",
+      "nome": "Affittacamere La Luge D'Antan",
+      "city_name": "Brusson",
+      "indirizzo": "Rue Col de Joux, 71, 11022 Brusson AO",
+      "lat": 45.757394,
+      "lng": 7.725553
+    },
+    {
+      "id": "bdb3161a-1f17-46ca-b07c-4255c1392584",
+      "slug": "albergo-croce-bianca-brusson",
+      "nome": "Albergo Croce Bianca",
+      "city_name": "Brusson",
+      "indirizzo": "Rue Arcesaz 70, 11022 Brusson AO",
+      "lat": 45.73906,
+      "lng": 7.746591
+    },
+    {
+      "id": "a192ec43-aeea-42c5-9673-9aa12ef31174",
+      "slug": "albergo-nord-brusson",
+      "nome": "Albergo Nord",
+      "city_name": "Brusson",
+      "indirizzo": "Rue Trois Villages, 98, 11022 Brusson AO",
+      "lat": 45.758116,
+      "lng": 7.729874
+    },
+    {
+      "id": "33367529-1808-4ffb-b6c9-2a9ac00f2ffe",
+      "slug": "au-rascard-chalet-d-hotes-brusson",
+      "nome": "AU RASCARD - CHALET D'HOTES",
+      "city_name": "Brusson",
+      "indirizzo": "Hameau Crêtes, 18, 11022 Brusson AO",
+      "lat": 45.759551,
+      "lng": 7.715548
+    },
+    {
+      "id": "5a9b5d60-aaad-4f5a-b0ed-996a1ef2cd96",
+      "slug": "b-b-l-abreny-brusson",
+      "nome": "B&B L'Abreny",
+      "city_name": "Brusson",
+      "indirizzo": "Loc. Les Cretes, 5, Brusson, 11022 Brusson AO",
+      "lat": 45.759342,
+      "lng": 7.715814
+    },
+    {
+      "id": "6aa80fc4-00a2-4c4a-84c4-73cb6dea560e",
+      "slug": "brusson-brusson",
+      "nome": "Brusson",
+      "city_name": "Brusson",
+      "indirizzo": "Hameau Ponteil, 24, 11022 Brusson AO",
+      "lat": 45.758056,
+      "lng": 7.729516
+    },
+    {
+      "id": "147bbaa8-9da9-4c6b-b5fa-183c7fde750d",
+      "slug": "brusson-alloggi-vacanze-brusson",
+      "nome": "brusson alloggi vacanze",
+      "city_name": "Brusson",
+      "indirizzo": "Rue Trois Villages, 39, 11020 Brusson AO",
+      "lat": 45.757704,
+      "lng": 7.732456
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 242,
+  "blockId": "242",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "7140ef5d-917f-4e64-a5f5-bd081d819556",
+      "slug": "metro-station-mini-van-capsula-house-beinasco",
+      "nome": "Metro Station Mini Van CAPSULA House",
+      "city_name": "Beinasco",
+      "indirizzo": "Via Rochemolles, 15, 10146 Torino TO",
+      "lat": 45.075179,
+      "lng": 7.621115
+    },
+    {
+      "id": "b5813163-d54a-49fe-a9b3-4d6cb16c5366",
+      "slug": "turin-metro-young-hostel-beinasco",
+      "nome": "Turin Metro Young - Hostel",
+      "city_name": "Beinasco",
+      "indirizzo": "Via Brione, 20, 10143 Torino TO",
+      "lat": 45.077204,
+      "lng": 7.646751
+    },
+    {
+      "id": "b98028f5-eed4-4524-81cb-11651c6d5448",
+      "slug": "affittacamere-santino-s-house-cin-it004163b4iouf-beinette",
+      "nome": "Affittacamere Santino's house - CIN: IT004163B4IOUF7XOX",
+      "city_name": "Beinette",
+      "indirizzo": "Via del Lazzaretto, 14, 12016 Peveragno CN",
+      "lat": 44.326022,
+      "lng": 7.618218
+    },
+    {
+      "id": "9fbe7c5f-5bd5-4228-8b8f-fe3c43a6a36f",
+      "slug": "agriturismo-b-b-ciabot-besimauda-beinette",
+      "nome": "Agriturismo B&B Ciabot Besimauda",
+      "city_name": "Beinette",
+      "indirizzo": "Via Brard 58 fraz.San Giovenale - Peveragno (CN), 12016 Peveragno CN",
+      "lat": 44.320071,
+      "lng": 7.601573
+    },
+    {
+      "id": "12a7a8f5-48a8-484a-bebb-f4e609a46b08",
+      "slug": "agriturismo-cascina-veja-beinette",
+      "nome": "Agriturismo Cascina Veja",
+      "city_name": "Beinette",
+      "indirizzo": "Fraz, Frazione Vigna, 4, 12013 Chiusa di Pesio CN",
+      "lat": 44.292698,
+      "lng": 7.673469
+    },
+    {
+      "id": "2916c718-8d5f-4008-84ac-52b130edcb58",
+      "slug": "agriturismo-la-dimora-del-contadino-beinette",
+      "nome": "Agriturismo La Dimora del Contadino",
+      "city_name": "Beinette",
+      "indirizzo": "Strada del Merlo, 121, 12084 Mondovì CN",
+      "lat": 44.38434,
+      "lng": 7.76719
+    },
+    {
+      "id": "0bcb8a8e-81ef-4442-a02e-18eacab96e78",
+      "slug": "albergo-ristorante-bacco-beinette-beinette",
+      "nome": "Albergo Ristorante Bacco Beinette",
+      "city_name": "Beinette",
+      "indirizzo": "Via XXIV Maggio, 37, 12081 Beinette CN",
+      "lat": 44.364552,
+      "lng": 7.645955
+    },
+    {
+      "id": "ba02b49d-4b1f-4b4e-8e7d-3af5bf3b59a1",
+      "slug": "alpuntogiusto-beinette",
+      "nome": "Alpuntogiusto",
+      "city_name": "Beinette",
+      "indirizzo": "Via Colletto, 9, 12016 Peveragno CN",
+      "lat": 44.31672,
+      "lng": 7.599726
+    },
+    {
+      "id": "c72a94b9-8283-4d9d-b8d5-2bb60c7313c0",
+      "slug": "b-b-alla-borgata-beinette",
+      "nome": "B&B Alla Borgata",
+      "city_name": "Beinette",
+      "indirizzo": "Via Rosbella, 9, 12012 Boves CN",
+      "lat": 44.309145,
+      "lng": 7.564379
+    },
+    {
+      "id": "0d8596d1-094b-419d-ae04-b299998ed0a4",
+      "slug": "b-b-antiche-radici-beinette",
+      "nome": "B&B antiche radici",
+      "city_name": "Beinette",
+      "indirizzo": "8M36+V9, 12013 Chiusa di Pesio CN",
+      "lat": 44.304887,
+      "lng": 7.661058
+    },
+    {
+      "id": "28fed7d2-c65e-441b-b1c3-913508b1c40b",
+      "slug": "b-b-giravento-beinette",
+      "nome": "B&B Giravento",
+      "city_name": "Beinette",
+      "indirizzo": "Via Monte Carbonet, 39, 12011 Borgo San Dalmazzo CN",
+      "lat": 44.333674,
+      "lng": 7.480753
+    },
+    {
+      "id": "3718bca9-5c3c-4ae4-ae22-5cb49d3650ae",
+      "slug": "b-b-l-abric-beinette",
+      "nome": "B&B L'Abric",
+      "city_name": "Beinette",
+      "indirizzo": "Via Maestra, 16, 12015 Limonetto CN",
+      "lat": 44.173808,
+      "lng": 7.555712
+    },
+    {
+      "id": "e0238d1e-c726-4611-91c1-492bda7165e7",
+      "slug": "b-b-la-bisimauda-beinette",
+      "nome": "B&B La Bisimauda",
+      "city_name": "Beinette",
+      "indirizzo": "Via Cuneo, 87, 12012 Boves CN",
+      "lat": 44.340378,
+      "lng": 7.557108
+    },
+    {
+      "id": "da17a1c7-715f-4a7d-b199-19d061458d0f",
+      "slug": "b-b-la-casa-arancione-camere-charme-cin-it004028-beinette",
+      "nome": "B&B La Casa Arancione - Camere & Charme CIN IT004028C2S6F8UZHQ",
+      "city_name": "Beinette",
+      "indirizzo": "Via Peveragno, 13, 12012 Boves CN",
+      "lat": 44.3298,
+      "lng": 7.55368
+    },
+    {
+      "id": "a34f9b71-bef6-41e8-9674-c33180e32331",
+      "slug": "b-b-la-coccinella-beinette",
+      "nome": "B&B La Coccinella",
+      "city_name": "Beinette",
+      "indirizzo": "Via Tetti Vittorio, 10, 12012 Rivoira CN",
+      "lat": 44.322379,
+      "lng": 7.567251
+    },
+    {
+      "id": "e4eaf445-b82e-4d69-b4f1-2debd745eed1",
+      "slug": "b-b-milu-beinette",
+      "nome": "B&B Milú",
+      "city_name": "Beinette",
+      "indirizzo": "Via Panin, 18, 12010 Cuneo CN",
+      "lat": 44.382892,
+      "lng": 7.503979
+    },
+    {
+      "id": "c5a987af-52b0-426d-9432-b1866053e8df",
+      "slug": "b-b-villa-antilia-beinette",
+      "nome": "B&B Villa Antilia",
+      "city_name": "Beinette",
+      "indirizzo": "Via Vigne, 20, 12022 Busca CN",
+      "lat": 44.530582,
+      "lng": 7.472682
+    },
+    {
+      "id": "b6805e35-20cf-4551-ac8c-8e86498317c5",
+      "slug": "b-b-virgula-beinette",
+      "nome": "B&B Virgula",
+      "city_name": "Beinette",
+      "indirizzo": "Via Carlo Pascal, 1, 12100 Cuneo CN",
+      "lat": 44.390532,
+      "lng": 7.547813
+    },
+    {
+      "id": "caf2e4f7-c2ef-4dbb-8984-11fd81b78890",
+      "slug": "cascina-la-commenda-beinette",
+      "nome": "Cascina La Commenda",
+      "city_name": "Beinette",
+      "indirizzo": "Via Vecchia di Santa Margherita, 5, 12016 Santa Margherita CN",
+      "lat": 44.35239,
+      "lng": 7.623179
+    },
+    {
+      "id": "9c696fee-2593-4421-b220-e68cf5bed4cb",
+      "slug": "cuneo-guest-house-beinette",
+      "nome": "Cuneo Guest House",
+      "city_name": "Beinette",
+      "indirizzo": "Corso Giovanni Giolitti, 34, 12100 Cuneo CN",
+      "lat": 44.386644,
+      "lng": 7.538835
+    },
+    {
+      "id": "6a8ad4de-6941-4314-ab82-38ea07722e96",
+      "slug": "rosbed-breakfast-beinette",
+      "nome": "ROSBed & Breakfast",
+      "city_name": "Beinette",
+      "indirizzo": "Via Rosbella, 36, 12012 Boves CN",
+      "lat": 44.297926,
+      "lng": 7.558005
+    },
+    {
+      "id": "11ddcfdd-e8a8-4b87-b379-5ccf8d0ab592",
+      "slug": "seguendo-l-oca-beinette",
+      "nome": "Seguendo L'Oca",
+      "city_name": "Beinette",
+      "indirizzo": "Via Passatore, 87, 12010 Cervasca CN",
+      "lat": 44.423544,
+      "lng": 7.49171
+    },
+    {
+      "id": "7fd99401-9a40-4950-adc9-49f1185a08c9",
+      "slug": "agriturismo-borgo-santa-lucia-agriturismo-cropan-belcastro",
+      "nome": "AGRITURISMO BORGO SANTA LUCIA - AGRITURISMO CROPANI",
+      "city_name": "Belcastro",
+      "indirizzo": "Contrada Santa Lucia, snc, 88051 Cropani CZ",
+      "lat": 38.947522,
+      "lng": 16.784816
+    },
+    {
+      "id": "ffb30d3c-ca6d-4203-826b-8ae233b82373",
+      "slug": "b-b-fontana-giulia-belcastro",
+      "nome": "B&B FONTANA GIULIA",
+      "city_name": "Belcastro",
+      "indirizzo": "Via della Concordia, 88054 Sersale CZ",
+      "lat": 39.013271,
+      "lng": 16.726765
+    },
+    {
+      "id": "4919e17d-ff60-4b6b-8806-8869312e32a3",
+      "slug": "villaggio-triton-aurum-hotels-belcastro",
+      "nome": "Villaggio Triton - Aurum Hotels",
+      "city_name": "Belcastro",
+      "indirizzo": "Viale S. Vincenzo, 88050 Sellia Marina CZ",
+      "lat": 38.899521,
+      "lng": 16.778389
+    },
+    {
+      "id": "2e3bb92f-262d-41d2-b2dd-849d71a32499",
+      "slug": "agriturismo-corte-belfiore-elio-bresciani-belfiore",
+      "nome": "Agriturismo Corte Belfiore Elio Bresciani",
+      "city_name": "Belfiore",
+      "indirizzo": "Via Podiola, 8, 46019 Viadana MN",
+      "lat": 44.986425,
+      "lng": 10.607796
+    },
+    {
+      "id": "7ef3d792-e4c7-4174-b12a-d862d411f1e3",
+      "slug": "agriturismo-corte-belvedere-belfiore",
+      "nome": "Agriturismo Corte Belvedere",
+      "city_name": "Belfiore",
+      "indirizzo": "Strada dei Colli, 98, 46040 Monzambano MN",
+      "lat": 45.357064,
+      "lng": 10.680624
+    },
+    {
+      "id": "427eebfe-5c57-42c7-ab38-b0e4aece020c",
+      "slug": "agriturismo-corte-dei-fiori-belfiore",
+      "nome": "Agriturismo Corte dei Fiori",
+      "city_name": "Belfiore",
+      "indirizzo": "Str. delle Caselle, 173, 37013 Pesina VR",
+      "lat": 45.59769,
+      "lng": 10.746572
+    },
+    {
+      "id": "848d83b3-d3a0-4998-b61c-16bc8f5d981b",
+      "slug": "agriturismo-il-melograno-belfiore",
+      "nome": "Agriturismo Il Melograno",
+      "city_name": "Belfiore",
+      "indirizzo": "Località Pigno, 8/d, 37069 Villafranca di Verona VR",
+      "lat": 45.365938,
+      "lng": 10.812152
+    },
+    {
+      "id": "d196d719-ebf1-4372-aa39-92cf083a912d",
+      "slug": "agriturismo-la-fredda-belfiore",
+      "nome": "Agriturismo La Fredda",
+      "city_name": "Belfiore",
+      "indirizzo": "Via Fredda, 1, 37066 Sommacampagna VR",
+      "lat": 45.391576,
+      "lng": 10.832848
+    },
+    {
+      "id": "c24a43e5-58e2-4947-85f0-1352e95b9e77",
+      "slug": "agriturismo-la-perlara-adults-only-16-belfiore",
+      "nome": "Agriturismo La Perlara - Adults Only ( + 16 )",
+      "city_name": "Belfiore",
+      "indirizzo": "Via Trezzolano, 17, 37141 Verona VR",
+      "lat": 45.502394,
+      "lng": 11.081302
+    },
+    {
+      "id": "380a669b-13ab-4c8b-bf6c-b20251d23692",
+      "slug": "agriturismo-millefiori-la-corte-delle-rose-belfiore",
+      "nome": "Agriturismo Millefiori la Corte delle Rose",
+      "city_name": "Belfiore",
+      "indirizzo": "Via Borghetto, 7, 45100 Rovigo RO",
+      "lat": 45.031814,
+      "lng": 11.856387
+    },
+    {
+      "id": "a1af2cb2-ef18-45be-88bb-d84ad285e6f8",
+      "slug": "antico-casale-bergamini-belfiore",
+      "nome": "Antico Casale Bergamini",
+      "city_name": "Belfiore",
+      "indirizzo": "Via Stazione Vecchia, 764, 37015 Sant'Ambrogio di Valpolicella VR",
+      "lat": 45.524436,
+      "lng": 10.865146
+    },
+    {
+      "id": "cedaafc8-2739-4791-889a-241682574b31",
+      "slug": "bed-breakfast-belfiore-belfiore",
+      "nome": "Bed & Breakfast Belfiore",
+      "city_name": "Belfiore",
+      "indirizzo": "Via Sorattino, 42, 25017 Lonato del Garda BS",
+      "lat": 45.46315,
+      "lng": 10.483247
+    },
+    {
+      "id": "20784d75-2fc9-4734-bc86-1953d4b2c7ba",
+      "slug": "belfiore-park-hotel-4s-belfiore",
+      "nome": "Belfiore Park Hotel 4s",
+      "city_name": "Belfiore",
+      "indirizzo": "Via G. Zanardelli, 5, 37010 Brenzone sul Garda VR",
+      "lat": 45.715496,
+      "lng": 10.771734
+    }
+  ]
+}

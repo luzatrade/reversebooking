@@ -1,0 +1,323 @@
+{
+  "block": 364,
+  "blockId": "364",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "2a63855c-c8f2-4e44-9eb4-fd50e0df7327",
+      "slug": "hotel-seegarten-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Hotel Seegarten",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "St. Josef am See 17, 39052 Caldaro BZ",
+      "lat": 46.383909,
+      "lng": 11.258738
+    },
+    {
+      "id": "b653864d-432d-4de0-8268-c363debc10f3",
+      "slug": "hotel-torgglhof-kaltern-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Hotel Torgglhof Kaltern",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Via Saltner, 30, 39052 Caldaro sulla strada del Vino BZ",
+      "lat": 46.420422,
+      "lng": 11.244828
+    },
+    {
+      "id": "65586f88-29f6-4096-9a41-a2add284220a",
+      "slug": "hotel-weingarten-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Hotel Weingarten",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Località Pianizza di Sotto, 9, 39052 Caldaro BZ",
+      "lat": 46.425215,
+      "lng": 11.252691
+    },
+    {
+      "id": "4bd2f752-62d3-425e-821e-46e2206ec17a",
+      "slug": "im-zeitlauf-life-with-nature-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Im Zeitlauf - life with nature",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Via Santa Maria, 6D, 39052 Caldaro sulla strada del Vino BZ",
+      "lat": 46.418594,
+      "lng": 11.230319
+    },
+    {
+      "id": "f9d49c5d-f8e2-40f8-acbf-aaec0030bfd9",
+      "slug": "kalterer-see-hof-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Kalterer See Hof",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "St. Josef am See 32b, S. Giuseppe al Lago, 32/b, 39052 Caldaro sulla strada del Vino BZ",
+      "lat": 46.384825,
+      "lng": 11.252846
+    },
+    {
+      "id": "75a1fbc5-eefa-427d-a06c-1d3d15948b81",
+      "slug": "kaltern-am-see-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Kaltern am See",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Piazza Principale, 10, 39052 Caldaro sulla strada del Vino BZ",
+      "lat": 46.414251,
+      "lng": 11.245485
+    },
+    {
+      "id": "88d18afd-4011-4fa2-8e64-b8720f83e1ed",
+      "slug": "pensione-latemar-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Pensione Latemar",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Via Europa, 18, 39052 Caldaro BZ",
+      "lat": 46.408966,
+      "lng": 11.238016
+    },
+    {
+      "id": "58a5cc4f-8953-44d5-9bd6-11c8c6816884",
+      "slug": "residence-la-terrazza-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Residence La Terrazza",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Barleiter Weg, 14/1. Stock, 39052 Kaltern an der Weinstraße., Autonome Provinz Bozen - Südtirol",
+      "lat": 46.40969,
+      "lng": 11.241283
+    },
+    {
+      "id": "598c6ba6-4619-462b-816c-9cc68dffc5d7",
+      "slug": "villa-weingarten-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Villa Weingarten",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Vicolo di Sotto, 24, 39052 Caldaro sulla strada del Vino BZ",
+      "lat": 46.415932,
+      "lng": 11.241948
+    },
+    {
+      "id": "2e536c3f-1b4a-43ab-a0c8-dc8d44bf0ab8",
+      "slug": "weingut-garni-hotel-klosterhof-caldaro-sulla-strada-del-vino-ka",
+      "nome": "WEINGUT GARNI HOTEL KLOSTERHOF@",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Via Klavenz, 40, 39052 Caldaro sulla strada del Vino BZ",
+      "lat": 46.420328,
+      "lng": 11.246619
+    },
+    {
+      "id": "d49a613b-90b5-40e8-ad15-9f01dd07f4e6",
+      "slug": "weisses-rossl-kaltern-caldaro-sulla-strada-del-vino-ka",
+      "nome": "Weisses Rössl Kaltern",
+      "city_name": "Caldaro sulla strada del vino/Kaltern an der Weinstra�e",
+      "indirizzo": "Piazza Principale, 11, 39052 Caldaro sulla strada del Vino BZ",
+      "lat": 46.413064,
+      "lng": 11.245926
+    },
+    {
+      "id": "3e3b6931-61a4-41b0-a404-d04f21982740",
+      "slug": "a-casa-del-contadino-caldarola",
+      "nome": "A Casa Del Contadino",
+      "city_name": "Caldarola",
+      "indirizzo": "Contrada San, Via Domenico Sbardellati, 62020 Caldarola MC",
+      "lat": 43.127018,
+      "lng": 13.216992
+    },
+    {
+      "id": "c064e524-64cb-4a3c-a08f-f594dadb1faa",
+      "slug": "b-b-sole-e-luna-caldarola",
+      "nome": "B&B Sole e Luna",
+      "city_name": "Caldarola",
+      "indirizzo": "Via Case Sparse, 25, 62020 Caccamo sul Lago, MC",
+      "lat": 43.151939,
+      "lng": 13.219574
+    },
+    {
+      "id": "a815b94d-6328-4783-913e-aad3946259f7",
+      "slug": "casa-tre-querce-italy-caldarola",
+      "nome": "Casa Tre Querce Italy",
+      "city_name": "Caldarola",
+      "indirizzo": "Contrada Cete, 37, 62020 Colmurano MC",
+      "lat": 43.172004,
+      "lng": 13.34783
+    },
+    {
+      "id": "0087527b-23b3-452e-90d8-81beb048fd4f",
+      "slug": "la-locanda-della-rocca-caldarola",
+      "nome": "La Locanda della Rocca",
+      "city_name": "Caldarola",
+      "indirizzo": "62026 Rocca Colonnalta MC",
+      "lat": 43.063467,
+      "lng": 13.259249
+    },
+    {
+      "id": "d5d253fb-551f-43e5-a700-89ac88c59559",
+      "slug": "mazzamurello-b-b-caldarola",
+      "nome": "Mazzamurello B&B",
+      "city_name": "Caldarola",
+      "indirizzo": "Contrada Acquaviva, 62020 Caldarola MC",
+      "lat": 43.128608,
+      "lng": 13.236265
+    },
+    {
+      "id": "55880f2e-547e-443e-a690-f8b3456b6a1e",
+      "slug": "ristorante-hoteltesoro-caldarola",
+      "nome": "Ristorante HotelTesoro",
+      "city_name": "Caldarola",
+      "indirizzo": "Via Annibal Caro, 62020 Caldarola MC",
+      "lat": 43.142529,
+      "lng": 13.220896
+    },
+    {
+      "id": "7a5c5899-43fc-4398-9552-69c68f1819d2",
+      "slug": "b-b-il-borghetto-di-durazzo-paola-calderara-di-r-calderara-di-reno",
+      "nome": "B&B Il Borghetto di DURAZZO Paola Calderara di Reno (Bo)",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "Via Longarola, 84, 40012 Calderara di Reno BO",
+      "lat": 44.57524,
+      "lng": 11.306042
+    },
+    {
+      "id": "533c0ccd-e33a-4db9-8f7c-4a2ec64cf5a6",
+      "slug": "b-b-il-giardino-calderara-di-reno",
+      "nome": "B&B Il Giardino",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "Via Aldina, 45, 40012 San Vitale Grande BO",
+      "lat": 44.545468,
+      "lng": 11.306752
+    },
+    {
+      "id": "efc7816f-a6a0-4edb-873b-a3e57b954158",
+      "slug": "b-b-santa-cecilia-calderara-di-reno",
+      "nome": "B&B SANTA CECILIA",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "Via Prati, 23, 40012 Calderara di Reno BO",
+      "lat": 44.594673,
+      "lng": 11.276467
+    },
+    {
+      "id": "7c4f6892-bce2-4057-abd0-6052cf59f6da",
+      "slug": "bianca-room-breakfast-calderara-di-reno",
+      "nome": "Bianca Room&Breakfast",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "Via Surrogazione, 52, 40012 Lippo BO",
+      "lat": 44.534538,
+      "lng": 11.300984
+    },
+    {
+      "id": "99a5d303-be91-4238-95c4-0e0d8f218b2c",
+      "slug": "giardino-di-mia-calderara-di-reno",
+      "nome": "Giardino di Mia",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "Via Roma, 108, 40012 Calderara di Reno BO",
+      "lat": 44.554478,
+      "lng": 11.266423
+    },
+    {
+      "id": "a451dde8-a135-4284-8e5a-5c2b456cf40e",
+      "slug": "hotel-brianza-calderara-di-reno",
+      "nome": "Hotel Brianza",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "Via Don Minzoni, 16, 40012 Calderara di Reno BO",
+      "lat": 44.537978,
+      "lng": 11.304807
+    },
+    {
+      "id": "ea4fb7f9-89b2-40f9-afdb-7888d7c5fabf",
+      "slug": "hotel-del-borgo-calderara-di-reno",
+      "nome": "Hotel del Borgo",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "V. Marco Emilio Lepido, 195, 40132 Bologna BO",
+      "lat": 44.520468,
+      "lng": 11.266775
+    },
+    {
+      "id": "af0a4cec-374a-48f0-b903-3a797495b502",
+      "slug": "hotel-i-portici-calderara-di-reno",
+      "nome": "Hotel I Portici",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "Via dell'Indipendenza, 69, 40121 Bologna BO",
+      "lat": 44.501919,
+      "lng": 11.344842
+    },
+    {
+      "id": "03b1b6f4-4028-4f02-8630-00758b9320f7",
+      "slug": "hotel-marconi-express-calderara-di-reno",
+      "nome": "Hotel Marconi Express",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "Via Cesare Boldrini, 24, 40121 Bologna BO",
+      "lat": 44.504731,
+      "lng": 11.338874
+    },
+    {
+      "id": "5a6d846f-ce8c-4a97-8d49-759faa1eb760",
+      "slug": "hp-fly-hotel-bologna-calderara-di-reno",
+      "nome": "HP Fly Hotel Bologna",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "Via Don Minzoni, 16, 40012 Calderara di Reno BO",
+      "lat": 44.538198,
+      "lng": 11.304607
+    },
+    {
+      "id": "16d2eaed-c261-425e-848a-234485ef5a68",
+      "slug": "la-torre-di-longara-calderara-di-reno",
+      "nome": "La Torre di Longara",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "V. Valli, 44, 40012 Longara BO",
+      "lat": 44.587776,
+      "lng": 11.2867
+    },
+    {
+      "id": "2a2b3ae7-74c4-4ee8-bda8-98ba481c660c",
+      "slug": "le-case-di-antonio-calderara-di-reno",
+      "nome": "Le Case di Antonio",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "Via Cesare Boldrini, 3, 40121 Bologna BO",
+      "lat": 44.504269,
+      "lng": 11.343445
+    },
+    {
+      "id": "ca2f57c1-1844-446d-be80-4b69430e82dd",
+      "slug": "made-in-bo-affittacamere-rooms-bologna-rooms-cam-calderara-di-reno",
+      "nome": "MADE IN BO-Affittacamere-Rooms-Bologna Rooms-Camere Stazione Centrale-Camere Bologna-Camere",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "Via Cesare Boldrini, 16, 40121 Bologna BO",
+      "lat": 44.504496,
+      "lng": 11.339499
+    },
+    {
+      "id": "768aa762-297d-43d9-9bb5-e1fbd8b58088",
+      "slug": "malamu-bnb-eventi-calderara-di-reno",
+      "nome": "MalaMù BnB Eventi",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "Via Pepoli, 19, 40069 Zola Predosa BO",
+      "lat": 44.514177,
+      "lng": 11.230129
+    },
+    {
+      "id": "64c00c52-401d-49e3-a857-238a29d6baf7",
+      "slug": "reno-bed-and-breakfast-calderara-di-reno",
+      "nome": "Reno bed and breakfast",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "Via Longarola, 82, 40012 Longara BO",
+      "lat": 44.575292,
+      "lng": 11.305975
+    },
+    {
+      "id": "50e5ac90-88b4-48c3-bce1-ece685f72fc0",
+      "slug": "ristorante-hotel-emi-calderara-di-reno",
+      "nome": "Ristorante Hotel Emi",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "Via Surrogazione, 45, 40012 Calderara di Reno BO",
+      "lat": 44.533673,
+      "lng": 11.30083
+    },
+    {
+      "id": "d3309866-6006-42c4-a4a8-77596f9b949d",
+      "slug": "triumvirato-rooms-calderara-di-reno",
+      "nome": "Triumvirato Rooms",
+      "city_name": "Calderara di Reno",
+      "indirizzo": "Via del Triumvirato, 123/3, 40132 Bologna BO",
+      "lat": 44.521748,
+      "lng": 11.295439
+    },
+    {
+      "id": "171a03a7-b675-41ac-bb2e-e697abaa1770",
+      "slug": "agritur-primo-sole-caldes",
+      "nome": "Agritur Primo Sole",
+      "city_name": "Caldes",
+      "indirizzo": "Vicolo dei Ponti, 15, 38023 Cles TN",
+      "lat": 46.346938,
+      "lng": 11.017795
+    }
+  ]
+}

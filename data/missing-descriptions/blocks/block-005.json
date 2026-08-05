@@ -1,0 +1,323 @@
+{
+  "block": 5,
+  "blockId": "005",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "5e29f0d8-85d9-48aa-b02c-776380022b30",
+      "slug": "la-casa-di-angizia-acciano",
+      "nome": "La Casa di Angizia",
+      "city_name": "Acciano",
+      "indirizzo": "Via Fara, 33, 67020 Gagliano Aterno AQ",
+      "lat": 42.127423,
+      "lng": 13.70063
+    },
+    {
+      "id": "4bec2664-da6d-4bb1-a315-d599b189c756",
+      "slug": "ostello-fiume-tirino-acciano",
+      "nome": "Ostello Fiume Tirino",
+      "city_name": "Acciano",
+      "indirizzo": "Via Antonio Gramsci, snc, 65022 Bussi Sul Tirino PE",
+      "lat": 42.215301,
+      "lng": 13.822189
+    },
+    {
+      "id": "462432d1-5148-4fa1-98a4-a39a4f30230e",
+      "slug": "palazzo-pirro-dimora-storica-acciano",
+      "nome": "Palazzo Pirro - Dimora Storica",
+      "city_name": "Acciano",
+      "indirizzo": "Via Vittorio Veneto, 4, 67020 San Lorenzo AQ",
+      "lat": 42.206223,
+      "lng": 13.655676
+    },
+    {
+      "id": "8ba1151a-2713-47dc-af70-a6ffb19c633c",
+      "slug": "tenuta-il-guerriero-agricampeggio-capestrano-acciano",
+      "nome": "Tenuta Il Guerriero - Agricampeggio Capestrano",
+      "city_name": "Acciano",
+      "indirizzo": "Contrada Cesa snc, 67022 Capestrano AQ",
+      "lat": 42.257699,
+      "lng": 13.786717
+    },
+    {
+      "id": "9dfde8b0-738c-48ba-9058-3737b047ddb6",
+      "slug": "agricampeggio-alta-montagna-bio-accumoli",
+      "nome": "Agricampeggio Alta Montagna Bio",
+      "city_name": "Accumoli",
+      "indirizzo": "Loc. Madonna delle Coste,2, 02011 Accumoli RI",
+      "lat": 42.703158,
+      "lng": 13.232474
+    },
+    {
+      "id": "a453a1f0-b09c-4f34-aa46-b8b1123c9557",
+      "slug": "agricamping-il-casale-accumoli",
+      "nome": "Agricamping Il Casale",
+      "city_name": "Accumoli",
+      "indirizzo": "loc. Madonna delle Coste, 02011 Accumoli RI",
+      "lat": 42.700922,
+      "lng": 13.239251
+    },
+    {
+      "id": "e54f5894-a39b-470c-a5b7-70f323312a3a",
+      "slug": "agriturismo-coop-grisciano-accumoli",
+      "nome": "Agriturismo 'Coop. Grisciano'",
+      "city_name": "Accumoli",
+      "indirizzo": "Frazione Grisciano, 02011 Accumoli RI",
+      "lat": 42.725165,
+      "lng": 13.267317
+    },
+    {
+      "id": "9c44d857-9357-4967-bf1c-b23f6a9f4510",
+      "slug": "agriturismo-il-casale-degli-amici-accumoli",
+      "nome": "Agriturismo il Casale degli Amici",
+      "city_name": "Accumoli",
+      "indirizzo": "Vocabolo Cappuccini, 157, 06046 Norcia PG",
+      "lat": 42.797663,
+      "lng": 13.120332
+    },
+    {
+      "id": "94978574-b8e1-4107-a2d1-e39c18eca4a3",
+      "slug": "agriturismo-il-casale-pica-accumoli",
+      "nome": "Agriturismo Il Casale Pica",
+      "city_name": "Accumoli",
+      "indirizzo": "Via Villa Camponeschi, 1, 02019 Posta RI",
+      "lat": 42.519289,
+      "lng": 13.098409
+    },
+    {
+      "id": "f447f371-6c87-423e-93b3-65e56662fd6c",
+      "slug": "agriturismo-la-valle-del-sambuco-accumoli",
+      "nome": "Agriturismo La Valle del Sambuco",
+      "city_name": "Accumoli",
+      "indirizzo": "Via Sambuco, 44, 06046 Loc. Casali di Serravalle, Norcia PG",
+      "lat": 42.790719,
+      "lng": 13.053608
+    },
+    {
+      "id": "7968c0c5-0d28-4d5a-bd3a-0ef566b5dcac",
+      "slug": "agriturismo-le-sorgenti-accumoli",
+      "nome": "Agriturismo Le Sorgenti",
+      "city_name": "Accumoli",
+      "indirizzo": "Loc. Casali Legogne, 06046 Norcia PG",
+      "lat": 42.816849,
+      "lng": 13.061671
+    },
+    {
+      "id": "8ed55dbf-9621-4312-b101-73750891b56a",
+      "slug": "agriturismo-valle-tezze-accumoli",
+      "nome": "Agriturismo Valle Tezze",
+      "city_name": "Accumoli",
+      "indirizzo": "Località Valle Tezze, 06043 Cascia PG",
+      "lat": 42.710353,
+      "lng": 13.021243
+    },
+    {
+      "id": "976caad0-cc4a-4849-b628-1a0275a7eb61",
+      "slug": "camere-antico-mulino-accumoli",
+      "nome": "Camere Antico Mulino",
+      "city_name": "Accumoli",
+      "indirizzo": "Viale Cavour, 06043 Padule PG",
+      "lat": 42.723289,
+      "lng": 13.022608
+    },
+    {
+      "id": "712a4a95-5057-465a-a781-742406207569",
+      "slug": "con-mario-e-almerina-accumoli",
+      "nome": "Con Mario e Almerina",
+      "city_name": "Accumoli",
+      "indirizzo": "Via G. Leopardi, 72, 06046 Frascaro PG",
+      "lat": 42.747003,
+      "lng": 13.145201
+    },
+    {
+      "id": "0cad0c95-e896-40fe-a1ea-5ef753f7ad23",
+      "slug": "country-house-il-casale-di-ginetto-accumoli",
+      "nome": "Country House Il Casale di Ginetto",
+      "city_name": "Accumoli",
+      "indirizzo": "Località Fogliano, 58, 06043 Fogliano PG",
+      "lat": 42.731522,
+      "lng": 13.047464
+    },
+    {
+      "id": "7c31f0bc-f81f-40a3-9765-3ceb1f988868",
+      "slug": "country-house-il-vecchio-ippocastano-accumoli",
+      "nome": "Country House il Vecchio Ippocastano",
+      "city_name": "Accumoli",
+      "indirizzo": "Piazza di Avendita, 06043 Avendita PG",
+      "lat": 42.75288,
+      "lng": 13.049345
+    },
+    {
+      "id": "2130ee6b-d862-426f-8b6c-f6080f26fc5c",
+      "slug": "gans-bed-breakfast-accumoli",
+      "nome": "GANS Bed & Breakfast",
+      "city_name": "Accumoli",
+      "indirizzo": "Via Tranquillo Graziani, 10/A, 06043 Cascia PG",
+      "lat": 42.721138,
+      "lng": 13.022403
+    },
+    {
+      "id": "e7ea76c3-a1cd-4e01-be51-7ea4ddf8b736",
+      "slug": "hotel-delle-rose-accumoli",
+      "nome": "Hotel Delle Rose",
+      "city_name": "Accumoli",
+      "indirizzo": "Via Fasce, 2, 06043 Cascia PG",
+      "lat": 42.719279,
+      "lng": 13.012836
+    },
+    {
+      "id": "01aefac0-b361-4d22-ad52-ed846c261580",
+      "slug": "hotel-il-quadrifoglio-accumoli",
+      "nome": "Hotel Il Quadrifoglio",
+      "city_name": "Accumoli",
+      "indirizzo": "Via Camillo Benso Conte di Cavour, 1, 06043 Cascia PG",
+      "lat": 42.71666,
+      "lng": 13.014221
+    },
+    {
+      "id": "c51f1cfb-4ea5-4175-a1e6-85968fa1ae93",
+      "slug": "hotel-la-corte-accumoli",
+      "nome": "Hotel La Corte",
+      "city_name": "Accumoli",
+      "indirizzo": "Via Pier Paolo Prosperi, 1, 06043 Cascia PG",
+      "lat": 42.718304,
+      "lng": 13.015418
+    },
+    {
+      "id": "91cf7a1f-7d2d-4bac-974c-0efd46123972",
+      "slug": "hotel-ristorante-il-castagneto-accumoli",
+      "nome": "Hotel Ristorante Il Castagneto",
+      "city_name": "Accumoli",
+      "indirizzo": "V. del Castagneto, 35, 02012 Amatrice RI",
+      "lat": 42.627636,
+      "lng": 13.294105
+    },
+    {
+      "id": "5fc082d0-09d7-4620-801d-3247c9805136",
+      "slug": "hotel-villa-stella-accumoli",
+      "nome": "Hotel Villa Stella",
+      "city_name": "Accumoli",
+      "indirizzo": "Via del Tiro a Segno, 28, 06043 Cascia PG",
+      "lat": 42.715814,
+      "lng": 13.017604
+    },
+    {
+      "id": "a2072095-0d7a-4aca-99b8-d5bdb7dc104f",
+      "slug": "ristorante-hotel-terme-accumoli",
+      "nome": "Ristorante Hotel Terme",
+      "city_name": "Accumoli",
+      "indirizzo": "P.za Terme, 20, 63095 Acquasanta Terme AP",
+      "lat": 42.770466,
+      "lng": 13.410926
+    },
+    {
+      "id": "8f1be898-c64f-4d4e-8e7e-085b7080beea",
+      "slug": "albergo-il-casone-il-casone-srl-acerenza",
+      "nome": "Albergo Il Casone - Il Casone Srl",
+      "city_name": "Acerenza",
+      "indirizzo": "CTR. CASONE BOSCO S. GIULIANO, 85011 Acerenza PZ",
+      "lat": 40.812297,
+      "lng": 15.884459
+    },
+    {
+      "id": "0dfcf4b9-7358-4d27-a43d-43e0b163f400",
+      "slug": "antica-dimora-del-drengot-acerenza",
+      "nome": "Antica Dimora del Drengot",
+      "city_name": "Acerenza",
+      "indirizzo": "Via Boreale, 5, 85011 Acerenza PZ",
+      "lat": 40.797609,
+      "lng": 15.939235
+    },
+    {
+      "id": "c897d885-8ba7-4102-a3ec-d3fc68b4c8f7",
+      "slug": "b-b-tra-i-castelli-acerenza",
+      "nome": "B&B Tra I Castelli",
+      "city_name": "Acerenza",
+      "indirizzo": "Fraz. Dragonetti via, Largo Pitagora, 2, 85020 Filiano PZ",
+      "lat": 40.830524,
+      "lng": 15.716008
+    },
+    {
+      "id": "14b24105-ad6d-4eed-b08d-1ef7f12f1281",
+      "slug": "bed-breakfastl-palatium-acerenza",
+      "nome": "Bed & Breakfastl Palatium",
+      "city_name": "Acerenza",
+      "indirizzo": "Via Roma, 3, 85026 Palazzo San Gervasio PZ",
+      "lat": 40.92984,
+      "lng": 15.981891
+    },
+    {
+      "id": "4c3ce3db-4c8d-4398-a438-e57fb814aacf",
+      "slug": "borgo-lamurese-acerenza",
+      "nome": "Borgo Lamurese",
+      "city_name": "Acerenza",
+      "indirizzo": "Contrada Cefalo, 19, 85021 Avigliano PZ",
+      "lat": 40.724486,
+      "lng": 15.71399
+    },
+    {
+      "id": "70014148-8fb5-4b4e-8ae5-25cb643c570d",
+      "slug": "casa-normanna-acerenza",
+      "nome": "Casa Normanna",
+      "city_name": "Acerenza",
+      "indirizzo": "Via N. Sole, 9, 85011 Acerenza PZ",
+      "lat": 40.797595,
+      "lng": 15.939603
+    },
+    {
+      "id": "3f6fbb7e-bc9e-43a8-8148-ac4d7a8ae2b2",
+      "slug": "hotel-tulbia-acerenza",
+      "nome": "Hotel Tulbia",
+      "city_name": "Acerenza",
+      "indirizzo": "Via S. Maria, 18 c, Via S. Maria, 18/C, 85017 Tolve PZ",
+      "lat": 40.689385,
+      "lng": 16.010912
+    },
+    {
+      "id": "3bc580af-f30d-40bf-8263-8c6c1c48d011",
+      "slug": "hotel-villa-del-sorriso-acerenza",
+      "nome": "Hotel Villa del Sorriso",
+      "city_name": "Acerenza",
+      "indirizzo": "Via Appia, 135, 85029 Venosa PZ",
+      "lat": 40.958516,
+      "lng": 15.803321
+    },
+    {
+      "id": "2273db38-3331-4c3c-834d-cc9cd66b0293",
+      "slug": "il-casale-del-borgo-acerenza",
+      "nome": "Il Casale del Borgo",
+      "city_name": "Acerenza",
+      "indirizzo": "Via Vittorio Emanuele III, 92, 85010 Cancellara PZ",
+      "lat": 40.731455,
+      "lng": 15.924488
+    },
+    {
+      "id": "4a8b4b64-0f18-4cd7-987e-7814d061c28e",
+      "slug": "la-portella-albergo-diffuso-acerenza",
+      "nome": "La Portella - Albergo Diffuso",
+      "city_name": "Acerenza",
+      "indirizzo": "Via Balestrieri, 110, 85015 Oppido Lucano PZ",
+      "lat": 40.766163,
+      "lng": 15.993344
+    },
+    {
+      "id": "cd71017b-fe98-4845-8b8b-ddf9b2d434fb",
+      "slug": "la-rosa-del-barone-acerenza",
+      "nome": "LA ROSA DEL BARONE",
+      "city_name": "Acerenza",
+      "indirizzo": "Via Vittorio Emanuele III, 29, 85010 Cancellara PZ",
+      "lat": 40.732304,
+      "lng": 15.923382
+    },
+    {
+      "id": "5baf3903-b552-4a70-b912-2eb15ccc5730",
+      "slug": "locanda-di-eolo-acerenza",
+      "nome": "Locanda Di Eolo",
+      "city_name": "Acerenza",
+      "indirizzo": "Localita' Rubavento, 85010 Vaglio Basilicata PZ",
+      "lat": 40.660486,
+      "lng": 15.880271
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 198,
+  "blockId": "198",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "ebee3fe3-d879-47d6-83e7-40b1517d0edc",
+      "slug": "hotel-delle-terme-santa-agnese-bagno-di-romagna",
+      "nome": "Hotel delle Terme Santa Agnese",
+      "city_name": "Bagno di Romagna",
+      "indirizzo": "Via Fiorentina, 17, 47021 Bagno di Romagna FC",
+      "lat": 43.833386,
+      "lng": 11.958765
+    },
+    {
+      "id": "36278eb0-92a3-4c57-9ece-41a6352fe828",
+      "slug": "hotel-miramonti-bagno-di-romagna",
+      "nome": "Hotel Miramonti",
+      "city_name": "Bagno di Romagna",
+      "indirizzo": "Via Acquapartita, 103, 47021 Bagno di Romagna FC",
+      "lat": 43.86326,
+      "lng": 12.024198
+    },
+    {
+      "id": "4b878f21-52ae-4ecf-8645-64d34520fa97",
+      "slug": "hotel-romagna-bagno-di-romagna",
+      "nome": "Hotel Romagna",
+      "city_name": "Bagno di Romagna",
+      "indirizzo": "Via Zuccherificio, 215, 47521 Cesena FC",
+      "lat": 44.140272,
+      "lng": 12.236285
+    },
+    {
+      "id": "6d468c16-0edc-4950-9b62-e351d5e614b0",
+      "slug": "hotel-tosco-romagnolo-ristorante-paolo-teverini-bagno-di-romagna",
+      "nome": "Hotel Tosco Romagnolo - Ristorante Paolo Teverini",
+      "city_name": "Bagno di Romagna",
+      "indirizzo": "V. del Popolo, 2, 47021 Bagno di Romagna FC",
+      "lat": 43.832898,
+      "lng": 11.958088
+    },
+    {
+      "id": "209c7788-119c-4c01-8d8e-29fc5a980c33",
+      "slug": "il-respiro-del-bosco-bagno-di-romagna",
+      "nome": "Il Respiro del Bosco",
+      "city_name": "Bagno di Romagna",
+      "indirizzo": "Località Ca' Banditina, 97, 47021 San Piero In Bagno FC",
+      "lat": 43.844116,
+      "lng": 11.990344
+    },
+    {
+      "id": "23edae7d-8296-41f0-8205-f4548475e26a",
+      "slug": "locanda-dei-baroni-bagno-di-romagna",
+      "nome": "Locanda dei Baroni",
+      "city_name": "Bagno di Romagna",
+      "indirizzo": "Via di Camaldoli, 7, 52010 Camaldoli AR",
+      "lat": 43.792694,
+      "lng": 11.819831
+    },
+    {
+      "id": "61766d68-5918-4d4a-9313-969aaf119a83",
+      "slug": "pensione-giardino-bagno-di-romagna",
+      "nome": "Pensione Giardino",
+      "city_name": "Bagno di Romagna",
+      "indirizzo": "Via Nazionale, 15, 52014 Badia Prataglia AR",
+      "lat": 43.794649,
+      "lng": 11.876524
+    },
+    {
+      "id": "4ac78f4c-cacf-46f5-9417-00494891a758",
+      "slug": "roseo-euroterme-bagno-di-romagna",
+      "nome": "Ròseo Euroterme",
+      "city_name": "Bagno di Romagna",
+      "indirizzo": "Via Lungo Savio, 2, 47021 Bagno di Romagna FC",
+      "lat": 43.831882,
+      "lng": 11.957367
+    },
+    {
+      "id": "5431132f-8a91-46a0-a88d-b720f22986af",
+      "slug": "affittacamere-al-piano-32-bagnoli-del-trigno",
+      "nome": "Affittacamere Al Piano 32",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "Via Piano, 32, 86029 Trivento CB",
+      "lat": 41.785694,
+      "lng": 14.550054
+    },
+    {
+      "id": "aa2d05a7-0ac5-4372-baf4-2bac67a2d39f",
+      "slug": "affittacamere-le-quercigliole-bagnoli-del-trigno",
+      "nome": "Affittacamere Le Quercigliole",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "Contrada Quercigliole, 2, 86025 Ripalimosani CB",
+      "lat": 41.616764,
+      "lng": 14.64249
+    },
+    {
+      "id": "28017ad6-d513-4d9a-93e4-d6b1c27cf79b",
+      "slug": "b-b-da-manuela-bagnoli-del-trigno",
+      "nome": "B&B da Manuela",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "Contrada Santo Janni, 72, 86096 Macchiagodena IS",
+      "lat": 41.552365,
+      "lng": 14.410873
+    },
+    {
+      "id": "798d01bd-79ca-4584-9d18-2be7b868943e",
+      "slug": "b-b-da-nonna-pina-bagnoli-del-trigno",
+      "nome": "B&B Da Nonna Pina",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "san giocondino, 15, 86081 Villa Canale IS",
+      "lat": 41.799894,
+      "lng": 14.408049
+    },
+    {
+      "id": "69835d68-affc-4db0-ad0b-53526b32b5b4",
+      "slug": "b-b-donna-livia-bagnoli-del-trigno",
+      "nome": "B&B Donna Livia",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "Piazza Garibaldi, 3, 86092 Cantalupo nel Sannio IS",
+      "lat": 41.521841,
+      "lng": 14.392042
+    },
+    {
+      "id": "05a82f03-b8bc-4abc-bca5-c1709c5ef5c0",
+      "slug": "b-b-il-medioevo-bagnoli-del-trigno",
+      "nome": "b&b il medioevo",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "Via Alto Volta, 12, 86090 Pesche IS",
+      "lat": 41.609692,
+      "lng": 14.284808
+    },
+    {
+      "id": "ca9e12fc-0654-48e0-acb6-8c18adbef8a0",
+      "slug": "b-b-il-tomolo-bagnoli-del-trigno",
+      "nome": "B&B Il Tomolo",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "Via Beato Antonio Lucci, 36, 86081 Agnone IS",
+      "lat": 41.805821,
+      "lng": 14.365892
+    },
+    {
+      "id": "190b5703-894a-42be-baac-daad59d3a816",
+      "slug": "b-b-ivan-bagnoli-del-trigno",
+      "nome": "B&B Ivan",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "Contrada, Viale Castelnuovo, 91, 86081 Agnone IS",
+      "lat": 41.830931,
+      "lng": 14.383809
+    },
+    {
+      "id": "5e0c0512-e386-4d07-91f8-6f4ab75b6d94",
+      "slug": "b-b-la-terrazza-bagnoli-del-trigno",
+      "nome": "B&B La Terrazza",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "Traversa Via Umberto I, 1, 86085 Pietrabbondante IS",
+      "lat": 41.748,
+      "lng": 14.386302
+    },
+    {
+      "id": "ab727b3a-0d54-4209-b222-c0b4cd050c8c",
+      "slug": "b-b-la-terrazza-del-dottore-bagnoli-del-trigno",
+      "nome": "B&B La terrazza del dottore",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "Via Garibaldi, 64, 86097 Pescolanciano IS",
+      "lat": 41.679053,
+      "lng": 14.335875
+    },
+    {
+      "id": "0e2cf486-8cd4-47ab-bace-9c4a8d6660be",
+      "slug": "b-b-la-torre-bagnoli-del-trigno",
+      "nome": "B&B La Torre",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "Via Torre, 36, 86095 Frosolone IS",
+      "lat": 41.608201,
+      "lng": 14.478358
+    },
+    {
+      "id": "f13bf52c-2555-48de-8251-c6c5a9fa3ab5",
+      "slug": "b-b-soleluna-bagnoli-del-trigno",
+      "nome": "B&B SoleLuna",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "IS, Via Ramiera Vecchia, 23, 86170 Isernia IS",
+      "lat": 41.59311,
+      "lng": 14.245244
+    },
+    {
+      "id": "756bf6a9-a195-474e-a468-3c388d0c0657",
+      "slug": "b-b-villa-carmen-resort-b-b-bagnoli-del-trigno",
+      "nome": "B&B Villa Carmen Resort B&B",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "Via Padre Abramo, 7, 86025 Ripalimosani CB",
+      "lat": 41.596881,
+      "lng": 14.659735
+    },
+    {
+      "id": "d046366c-0693-4824-ba2a-3b6a99dbcd69",
+      "slug": "bagnoli-del-trigno-bagnoli-del-trigno",
+      "nome": "Bagnoli del Trigno",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "Via Giuseppe Nicola Rossi, 8, 86091 Bagnoli del Trigno IS",
+      "lat": 41.702685,
+      "lng": 14.457841
+    },
+    {
+      "id": "a4af880a-8bb3-4db4-8f26-1706c0774a7a",
+      "slug": "campanile-affitta-camere-trivento-bagnoli-del-trigno",
+      "nome": "Campanile Affitta Camere - Trivento",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "Salita Cattedrale, 17, 86029 Trivento CB",
+      "lat": 41.78495,
+      "lng": 14.551214
+    },
+    {
+      "id": "33d35146-3dc4-4b56-bc97-3e3573791e76",
+      "slug": "locanda-degli-illustri-bagnoli-del-trigno",
+      "nome": "Locanda degli Illustri",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "Corso Antonio Cardarelli, 11, 86094 Civitanova del Sannio IS",
+      "lat": 41.66765,
+      "lng": 14.404024
+    },
+    {
+      "id": "963d5404-48c6-47d1-abd7-49042934490d",
+      "slug": "nel-verde-di-carinci-bagnoli-del-trigno",
+      "nome": "Nel verde di Carinci",
+      "city_name": "Bagnoli del Trigno",
+      "indirizzo": "Via Coniglio, 45, 86090 Indiprete IS",
+      "lat": 41.545396,
+      "lng": 14.345711
+    },
+    {
+      "id": "763d4ef9-0986-4ab2-b328-54aba2b0ccd9",
+      "slug": "affittacamere-ca-marcello-bagnoli-di-sopra",
+      "nome": "Affittacamere Cà Marcello",
+      "city_name": "Bagnoli di Sopra",
+      "indirizzo": "Via 28 Aprile 1945, 54, 35043 Monselice PD",
+      "lat": 45.243374,
+      "lng": 11.751235
+    },
+    {
+      "id": "3a2dcb9e-da6e-4758-8421-2d64cca456f3",
+      "slug": "agriturismo-i-marzemini-bagnoli-di-sopra",
+      "nome": "Agriturismo I Marzemini",
+      "city_name": "Bagnoli di Sopra",
+      "indirizzo": "Via 2 Giugno, 68, 35020 Legnaro PD",
+      "lat": 45.327011,
+      "lng": 11.96496
+    },
+    {
+      "id": "5e5e1bbc-86af-42fe-ac17-eb24bea455ea",
+      "slug": "barchessa-le-quattro-rose-bagnoli-di-sopra",
+      "nome": "Barchessa Le Quattro Rose",
+      "city_name": "Bagnoli di Sopra",
+      "indirizzo": "Via Bassa, 60, 35040 Vescovana PD",
+      "lat": 45.118701,
+      "lng": 11.730098
+    },
+    {
+      "id": "aeb62de1-fd77-461e-974b-f5a283190c94",
+      "slug": "borgo-sabbionara-bagnoli-di-sopra",
+      "nome": "borgo sabbionara",
+      "city_name": "Bagnoli di Sopra",
+      "indirizzo": "Via Cà Oddo, 32m, 35043 Monselice PD",
+      "lat": 45.225614,
+      "lng": 11.744639
+    },
+    {
+      "id": "b2436721-d016-43e9-8585-8bc4cec75b25",
+      "slug": "corte-carezzabella-bagnoli-di-sopra",
+      "nome": "Corte Carezzabella",
+      "city_name": "Bagnoli di Sopra",
+      "indirizzo": "Via Marconi Guglielmo, 752, 45030 San Martino di Venezze RO",
+      "lat": 45.123685,
+      "lng": 11.869075
+    },
+    {
+      "id": "fbb0db2f-59b7-4a69-b7cf-53c7d08c6b81",
+      "slug": "dominio-di-bagnoli-s-s-di-lorenzo-borletti-e-c-bagnoli-di-sopra",
+      "nome": "Dominio di Bagnoli S.S. di Lorenzo Borletti e C.",
+      "city_name": "Bagnoli di Sopra",
+      "indirizzo": "Piazza Guglielmo Marconi, 63, 35023 Bagnoli di Sopra PD",
+      "lat": 45.184655,
+      "lng": 11.882686
+    },
+    {
+      "id": "282c1d5a-1942-457a-bb32-d3f4b8dee0a7",
+      "slug": "l-incontro-bar-hotel-bagnoli-di-sopra",
+      "nome": "L’incontro Bar & Hotel",
+      "city_name": "Bagnoli di Sopra",
+      "indirizzo": "Via Roma, 11, 35030 Galzignano Terme PD",
+      "lat": 45.307727,
+      "lng": 11.73134
+    },
+    {
+      "id": "75151f76-5695-45af-88ce-ca8fb3d91c1e",
+      "slug": "al-campanile-bagnoli-irpino",
+      "nome": "Al Campanile",
+      "city_name": "Bagnoli Irpino",
+      "indirizzo": "Via Michele Lenzi, 24, 83043 Bagnoli Irpino AV",
+      "lat": 40.830014,
+      "lng": 15.072615
+    },
+    {
+      "id": "cbb8cfa5-ebcc-4346-95df-f4730bf3f1d8",
+      "slug": "ap-apartment-b-b-bagnoli-irpino",
+      "nome": "AP APARTMENT B&B",
+      "city_name": "Bagnoli Irpino",
+      "indirizzo": "Vico III Bonelli, 2, 83043 Bagnoli Irpino AV",
+      "lat": 40.82797,
+      "lng": 15.069277
+    },
+    {
+      "id": "28cfa8d1-c2d3-4976-be46-d000e22f91c6",
+      "slug": "b-b-affittacamere-soggiorno-boccuti-bagnoli-irpino",
+      "nome": "B&B Affittacamere Soggiorno Boccuti",
+      "city_name": "Bagnoli Irpino",
+      "indirizzo": "Via Ippolita Panico, 28, 83048 Montella AV",
+      "lat": 40.840515,
+      "lng": 15.015501
+    }
+  ]
+}

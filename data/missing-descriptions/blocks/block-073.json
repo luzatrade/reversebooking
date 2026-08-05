@@ -1,0 +1,323 @@
+{
+  "block": 73,
+  "blockId": "073",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "c78f0240-5b5c-4caf-82e2-71e52a8c66a1",
+      "slug": "bed-and-breakfast-simoamour-alia",
+      "nome": "Bed and Breakfast Simoamour",
+      "city_name": "Alia",
+      "indirizzo": "Via Pietro Nenni, 73, 90025 Lercara Friddi PA",
+      "lat": 37.746931,
+      "lng": 13.612909
+    },
+    {
+      "id": "155ed53a-e7d5-43f5-bde8-2e5b6fef9251",
+      "slug": "casa-lo-iacono-alia",
+      "nome": "Casa Lo Iacono",
+      "city_name": "Alia",
+      "indirizzo": "SS121, 90027 Petralia Sottana PA",
+      "lat": 37.610771,
+      "lng": 13.926743
+    },
+    {
+      "id": "4ed168b0-9546-4d7c-8e9e-0c48c78bb6f3",
+      "slug": "crocco-d-oro-di-sireci-vincenza-alia",
+      "nome": "Crocco D'Oro Di Sireci Vincenza",
+      "city_name": "Alia",
+      "indirizzo": "Via Giuseppe Garibaldi, 75, 90022 Caltavuturo PA",
+      "lat": 37.822063,
+      "lng": 13.889516
+    },
+    {
+      "id": "4af63d90-b019-4941-8c57-54098872fc04",
+      "slug": "equiturismo-san-lorenzo-villa-kamara-alia",
+      "nome": "Equiturismo San Lorenzo - Villa KAMARA",
+      "city_name": "Alia",
+      "indirizzo": "Via San Lorenzo, 19, 92022 Cammarata AG",
+      "lat": 37.645548,
+      "lng": 13.640557
+    },
+    {
+      "id": "b77e41ea-f686-4642-a7b1-334512983fed",
+      "slug": "le-camere-dell-emiro-alia",
+      "nome": "Le Camere dell’Emiro",
+      "city_name": "Alia",
+      "indirizzo": "Via Bagnati, 8, 90030 Castronovo di Sicilia PA",
+      "lat": 37.678814,
+      "lng": 13.602951
+    },
+    {
+      "id": "c018ba11-ee58-4403-937d-1f2d531f85c0",
+      "slug": "mandra-chiusilla-alia",
+      "nome": "Mandra Chiusilla",
+      "city_name": "Alia",
+      "indirizzo": "Contrada Chiusilla, 90016 Collesano PA",
+      "lat": 37.917989,
+      "lng": 13.952454
+    },
+    {
+      "id": "35d437da-d5db-48e4-8284-f7c6faf218e7",
+      "slug": "masseria-acque-di-palermo-alia",
+      "nome": "Masseria Acque di Palermo",
+      "city_name": "Alia",
+      "indirizzo": "SS121, km 195/700, 90030 Roccapalumba PA",
+      "lat": 37.796178,
+      "lng": 13.660376
+    },
+    {
+      "id": "f88d7c7f-232b-456d-ae3b-43474f70caf6",
+      "slug": "porta-soprana-luxury-guest-house-spa-alia",
+      "nome": "Porta Soprana luxury guest House & spa",
+      "city_name": "Alia",
+      "indirizzo": "Via Regina Elena, 19, 90020 Sclafani Bagni PA",
+      "lat": 37.821071,
+      "lng": 13.855771
+    },
+    {
+      "id": "e03ba9cd-3429-47f1-ad7a-44a68f65fe20",
+      "slug": "sutta-l-archi-alia",
+      "nome": "Sutta L'Archi",
+      "city_name": "Alia",
+      "indirizzo": "Via Archi, 23, 90021 Alia PA",
+      "lat": 37.781085,
+      "lng": 13.71363
+    },
+    {
+      "id": "11bb8f2b-fb42-4d9c-9128-e52b3512e1d7",
+      "slug": "trinacria-luxury-rooms-caccamo-alia",
+      "nome": "Trinacria Luxury Rooms Caccamo",
+      "city_name": "Alia",
+      "indirizzo": "Corso Umberto I, 84, 90012 Caccamo PA",
+      "lat": 37.931904,
+      "lng": 13.663794
+    },
+    {
+      "id": "60fca801-2d11-4b18-bc1d-350498a520ae",
+      "slug": "villa-dafne-alia",
+      "nome": "Villa Dafne",
+      "city_name": "Alia",
+      "indirizzo": "Contrada Cozzo di Cicero, 90021 Alia PA",
+      "lat": 37.767889,
+      "lng": 13.70098
+    },
+    {
+      "id": "24023fec-b9a6-4b11-876b-36a2d12ebeb6",
+      "slug": "villa-della-mimosa-alia",
+      "nome": "Villa Della Mimosa",
+      "city_name": "Alia",
+      "indirizzo": "Contrada Bordone, Alia 90021, 90021 Alia PA",
+      "lat": 37.787388,
+      "lng": 13.720071
+    },
+    {
+      "id": "219215b7-829e-4546-84ab-a44ebb72c663",
+      "slug": "villa-lachesi-a-caccamo-pa-alia",
+      "nome": "Villa Lachesi a Caccamo PA",
+      "city_name": "Alia",
+      "indirizzo": "Contrada Santa Nicola s, n.c- 21, 90012 Caccamo PA",
+      "lat": 37.913835,
+      "lng": 13.685004
+    },
+    {
+      "id": "315f3cef-57c9-44a3-8966-05a29a44d02e",
+      "slug": "agriturismo-u-vardar-aliano",
+      "nome": "Agriturismo 'U Vardar",
+      "city_name": "Aliano",
+      "indirizzo": "Contrada Galdo, 85030 San Chirico Raparo PZ",
+      "lat": 40.180609,
+      "lng": 16.104824
+    },
+    {
+      "id": "d8ba2736-9424-4abb-b896-e0291ac9dfbd",
+      "slug": "agriturismo-masseria-castiglione-aliano",
+      "nome": "Agriturismo Masseria Castiglione",
+      "city_name": "Aliano",
+      "indirizzo": "85010 Castiglione PZ",
+      "lat": 40.320294,
+      "lng": 16.153609
+    },
+    {
+      "id": "cb567dcc-f7bb-407d-910f-fc73cf9e854c",
+      "slug": "al-bosco-delle-api-aliano",
+      "nome": "Al Bosco delle Api",
+      "city_name": "Aliano",
+      "indirizzo": "Contrada Parriello, snc, 85010 Gallicchio PZ",
+      "lat": 40.299569,
+      "lng": 16.115582
+    },
+    {
+      "id": "8de568f6-8eb1-4938-bddf-d104a3a20a5d",
+      "slug": "b-b-coast-to-coast-basilicata-aliano",
+      "nome": "B&B Coast to Coast - Basilicata",
+      "city_name": "Aliano",
+      "indirizzo": "Via Pruzio, 8, 85010 Armento PZ",
+      "lat": 40.307317,
+      "lng": 16.065105
+    },
+    {
+      "id": "5f519e37-b1f6-4edf-92be-dd7565e0a9c4",
+      "slug": "bed-breakfast-del-corso-aliano",
+      "nome": "Bed & Breakfast del Corso",
+      "city_name": "Aliano",
+      "indirizzo": "Via Croce, 9, 85030 San Martino D'agri PZ",
+      "lat": 40.239943,
+      "lng": 16.052115
+    },
+    {
+      "id": "e2871dea-020d-4486-9706-647ed8da2a7f",
+      "slug": "bnb-piter-pan-aliano",
+      "nome": "BnB. Piter Pan",
+      "city_name": "Aliano",
+      "indirizzo": "Via Largo santa Maria della Rupe, per arrivare al parcheggio, Largo S. Lorenzo, 4, 85030 San Martino d'Agri PZ",
+      "lat": 40.241276,
+      "lng": 16.054855
+    },
+    {
+      "id": "99c8de9f-09ad-429e-af0a-e881e92d876b",
+      "slug": "casa-dell-americano-aliano",
+      "nome": "Casa dell'Americano",
+      "city_name": "Aliano",
+      "indirizzo": "Via Martiri D'Ungheria, 6, 75010 Aliano MT",
+      "lat": 40.314316,
+      "lng": 16.230719
+    },
+    {
+      "id": "20c6df89-6ecf-4615-95e7-d74cda24ab60",
+      "slug": "casa-vacanze-zio-peppe-aliano",
+      "nome": "Casa Vacanze ZIO PEPPE",
+      "city_name": "Aliano",
+      "indirizzo": "Corso Vittorio Emanuele, 25, 85038 Senise PZ",
+      "lat": 40.143426,
+      "lng": 16.290038
+    },
+    {
+      "id": "dca20c0a-4447-4d92-b70e-98fbbc2002e9",
+      "slug": "girastrittue-rooms-for-rent-aliano",
+      "nome": "Girastrittue, Rooms for Rent",
+      "city_name": "Aliano",
+      "indirizzo": "Via Conte di Salemi, 2, 75021 Colobraro MT",
+      "lat": 40.188407,
+      "lng": 16.425939
+    },
+    {
+      "id": "ec1067ac-5f25-4c90-b8e5-3b92d3221a0b",
+      "slug": "il-casale-dei-calanchi-aliano",
+      "nome": "Il Casale dei Calanchi",
+      "city_name": "Aliano",
+      "indirizzo": "Località Pantano, 75010 Aliano MT",
+      "lat": 40.287372,
+      "lng": 16.301816
+    },
+    {
+      "id": "a5dc8892-9dcf-4cfa-b57a-8a89c8584505",
+      "slug": "il-gattopardo-aliano",
+      "nome": "Il Gattopardo",
+      "city_name": "Aliano",
+      "indirizzo": "Via S. Di Giacomo, 9, 85037 Sant'Arcangelo PZ",
+      "lat": 40.256669,
+      "lng": 16.272327
+    },
+    {
+      "id": "ed81f319-9425-45c0-9fe0-ceab40f09f7d",
+      "slug": "il-paesaggio-lunare-affittacamere-aliano",
+      "nome": "Il Paesaggio Lunare - Affittacamere",
+      "city_name": "Aliano",
+      "indirizzo": "Via Sole, 20, 75010 Aliano MT",
+      "lat": 40.311696,
+      "lng": 16.232714
+    },
+    {
+      "id": "88dde99b-7fe3-4224-aa43-8daaa63de910",
+      "slug": "la-casa-dei-panorami-aliano",
+      "nome": "La Casa dei Panorami",
+      "city_name": "Aliano",
+      "indirizzo": "Viale Vittorio Veneto, 19, 75021 Colobraro MT",
+      "lat": 40.18996,
+      "lng": 16.425191
+    },
+    {
+      "id": "79396c4b-dfb4-4122-aab5-ad393cc4d0c5",
+      "slug": "la-sterpina-aliano",
+      "nome": "La Sterpina",
+      "city_name": "Aliano",
+      "indirizzo": "Contrada La Sterpina, snc, 85037 San Brancato PZ",
+      "lat": 40.266676,
+      "lng": 16.256894
+    },
+    {
+      "id": "b24f13a0-1090-4da6-ad9f-9ff9a64ae784",
+      "slug": "palazzo-scelzi-aliano",
+      "nome": "Palazzo Scelzi",
+      "city_name": "Aliano",
+      "indirizzo": "Piazza S. Luigi Gonzaga, 1/A, 75010 Aliano MT",
+      "lat": 40.31391,
+      "lng": 16.230018
+    },
+    {
+      "id": "b8485b8c-9e23-47ec-ad79-8fb9fdc40bbd",
+      "slug": "priore-aliano",
+      "nome": "Priore",
+      "city_name": "Aliano",
+      "indirizzo": "Via Zanardelli, 2, 85012 Corleto Perticara PZ",
+      "lat": 40.384409,
+      "lng": 16.040555
+    },
+    {
+      "id": "ddf9f9f5-f4d8-4470-bba0-b66090c3d23b",
+      "slug": "terra-d-oriente-affittacamere-gallicchio-aliano",
+      "nome": "Terra d'Oriente - Affittacamere Gallicchio",
+      "city_name": "Aliano",
+      "indirizzo": "Contrada S. Nicola, 85010 Gallicchio PZ",
+      "lat": 40.302213,
+      "lng": 16.120467
+    },
+    {
+      "id": "a124cd24-2047-49e2-aa2b-efdabf80db14",
+      "slug": "agriturismo-da-matra-alice-bel-colle",
+      "nome": "Agriturismo Da.matra'",
+      "city_name": "Alice Bel Colle",
+      "indirizzo": "Str. Pizio, 16, 15016 Cassine AL",
+      "lat": 44.761063,
+      "lng": 8.520312
+    },
+    {
+      "id": "bc935d78-6621-4a5f-8805-4e454f4aae87",
+      "slug": "albergo-tenco-by-bottega-alice-bel-colle",
+      "nome": "Albergo Tenco by Bottega",
+      "city_name": "Alice Bel Colle",
+      "indirizzo": "15010 Ricaldone AL",
+      "lat": 44.73293,
+      "lng": 8.469757
+    },
+    {
+      "id": "a1e803e7-873d-4086-b73a-1bb0e408093d",
+      "slug": "b-b-a-casa-di-anna-alice-bel-colle",
+      "nome": "B&B A Casa di Anna",
+      "city_name": "Alice Bel Colle",
+      "indirizzo": "Via Saborello, 27, 14049 Vaglio Serra AT",
+      "lat": 44.797473,
+      "lng": 8.347669
+    },
+    {
+      "id": "75820b4e-71cc-481d-b394-1d832637c661",
+      "slug": "b-b-a-modo-mio-alice-bel-colle",
+      "nome": "B&B A Modo Mio",
+      "city_name": "Alice Bel Colle",
+      "indirizzo": "Via, Regione Bagnario, 1, 15019 Strevi AL",
+      "lat": 44.695085,
+      "lng": 8.517643
+    },
+    {
+      "id": "c6494469-fac1-4924-a040-ebb0894e2c5c",
+      "slug": "b-b-casa-fiorita-alice-bel-colle",
+      "nome": "B&B Casa Fiorita",
+      "city_name": "Alice Bel Colle",
+      "indirizzo": "Str. Moirano, 244, 15011 Ghiazza AL",
+      "lat": 44.700408,
+      "lng": 8.44322
+    }
+  ]
+}

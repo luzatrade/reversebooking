@@ -1,0 +1,323 @@
+{
+  "block": 10,
+  "blockId": "010",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "f188f69b-df71-48bd-80a7-14d19c9c8b4f",
+      "slug": "dolcedorme-del-pollino-acquaformosa",
+      "nome": "Dolcedorme del Pollino",
+      "city_name": "Acquaformosa",
+      "indirizzo": "Contrada Campotenese, 87016 Morano Calabro CS",
+      "lat": 39.869128,
+      "lng": 16.070904
+    },
+    {
+      "id": "509bb312-e1fd-44a2-ad03-2e1b963fe719",
+      "slug": "green-bed-and-breakfast-acquaformosa",
+      "nome": "Green Bed And Breakfast",
+      "city_name": "Acquaformosa",
+      "indirizzo": "Via Acquaformosa, 10, 87012 Castrovillari CS",
+      "lat": 39.819947,
+      "lng": 16.225954
+    },
+    {
+      "id": "07ee3329-e824-432c-b276-1f9e0cee0824",
+      "slug": "hotel-food-drink-acquaformosa",
+      "nome": "Hotel Food & Drink",
+      "city_name": "Acquaformosa",
+      "indirizzo": "Via Aldo Moro, 14, 87042 Altomonte CS",
+      "lat": 39.698989,
+      "lng": 16.126231
+    },
+    {
+      "id": "e1437966-3264-4eb0-a769-2cc50fe49e2e",
+      "slug": "hotel-toscano-acquaformosa",
+      "nome": "Hotel Toscano",
+      "city_name": "Acquaformosa",
+      "indirizzo": "Contrada Canna, 29, 87040 Tarsia CS",
+      "lat": 39.628025,
+      "lng": 16.275244
+    },
+    {
+      "id": "1f1dd810-73e7-4e5e-aa05-e34b44fc3f8c",
+      "slug": "ka-millordi-acquaformosa",
+      "nome": "Ka Millordi",
+      "city_name": "Acquaformosa",
+      "indirizzo": "Vico Ruga Carso, 87010 Frascineto CS",
+      "lat": 39.835277,
+      "lng": 16.262931
+    },
+    {
+      "id": "23d879c2-8791-4acf-8452-0edbc875157f",
+      "slug": "la-costa-affittacamere-ristorante-b-b-acquaformosa",
+      "nome": "LA COSTA affittacamere ristorante b&b",
+      "city_name": "Acquaformosa",
+      "indirizzo": "Località Costa Del Mulino, 87020 Orsomarso CS",
+      "lat": 39.797942,
+      "lng": 15.910439
+    },
+    {
+      "id": "66809175-e526-48c9-a121-53a27a54a5b7",
+      "slug": "rifugio-montano-acquaformosa",
+      "nome": "Rifugio Montano",
+      "city_name": "Acquaformosa",
+      "indirizzo": "Valle del Fiume Argentino, 87020 Orsomarso CS",
+      "lat": 39.80139,
+      "lng": 15.957692
+    },
+    {
+      "id": "e0b8a0bf-79d9-41df-bd7c-3a2d61ab6892",
+      "slug": "ristorante-hotel-barbieri-acquaformosa",
+      "nome": "Ristorante Hotel Barbieri",
+      "city_name": "Acquaformosa",
+      "indirizzo": "Via Italo Barbieri, 30, 87042 Altomonte CS",
+      "lat": 39.694925,
+      "lng": 16.129193
+    },
+    {
+      "id": "ac48fc02-f587-41eb-abcc-3872cd29cb78",
+      "slug": "ristorante-pizzeria-bed-and-breakfast-insonnia-acquaformosa",
+      "nome": "Ristorante Pizzeria Bed and Breakfast INSONNIA",
+      "city_name": "Acquaformosa",
+      "indirizzo": "Via Piano della Fiera, SNc, 87010 San Sosti CS",
+      "lat": 39.656379,
+      "lng": 16.032386
+    },
+    {
+      "id": "bb94fda9-0181-400b-9a86-c8ba7c5fb0c1",
+      "slug": "tik-tak-bed-and-breakfast-acquaformosa",
+      "nome": "Tik Tak Bed and Breakfast",
+      "city_name": "Acquaformosa",
+      "indirizzo": "Via Orologio, 62, 87020 Verbicaro CS",
+      "lat": 39.755146,
+      "lng": 15.911843
+    },
+    {
+      "id": "0ce99a48-7489-4ec1-a4f4-f04b27f81c19",
+      "slug": "agriturismo-colombare-acquafredda",
+      "nome": "Agriturismo Colombare",
+      "city_name": "Acquafredda",
+      "indirizzo": "Str. Casalmoro, 20, 46042 Castel Goffredo MN",
+      "lat": 45.282017,
+      "lng": 10.445271
+    },
+    {
+      "id": "a4f3fe3a-a076-49fa-91ff-ef0a4aa28c79",
+      "slug": "albergo-la-piana-acquafredda",
+      "nome": "Albergo La Piana",
+      "city_name": "Acquafredda",
+      "indirizzo": "Str. Montichiari, 67, 25016 Ghedi BS",
+      "lat": 45.400672,
+      "lng": 10.313008
+    },
+    {
+      "id": "4282d89e-a50d-4f79-a014-7b14fa9ebc7c",
+      "slug": "albergo-ristorante-agriturismo-al-ciliegio-di-fi-acquafredda",
+      "nome": "Albergo Ristorante Agriturismo \"Al Ciliegio\" di Filippini Angela",
+      "city_name": "Acquafredda",
+      "indirizzo": "Via Mantova, 2, 46040 Casaloldo MN",
+      "lat": 45.244457,
+      "lng": 10.497581
+    },
+    {
+      "id": "b9770f43-a58c-498f-820d-b404c04e0501",
+      "slug": "albergo-ristorante-la-pieve-acquafredda",
+      "nome": "Albergo Ristorante La Pieve",
+      "city_name": "Acquafredda",
+      "indirizzo": "Via Giacomo Matteotti, 14, 46046 Medole MN",
+      "lat": 45.326308,
+      "lng": 10.519624
+    },
+    {
+      "id": "a4ed3be4-e940-4b97-98df-db4a7e93ffb3",
+      "slug": "albergo-villa-francesca-beauty-spa-isorella-acquafredda",
+      "nome": "Albergo Villa Francesca Beauty Spa Isorella",
+      "city_name": "Acquafredda",
+      "indirizzo": "via statale, 45, 25010 Isorella BS",
+      "lat": 45.316766,
+      "lng": 10.331306
+    },
+    {
+      "id": "4a83cc8e-af4b-4d55-8ddf-f066e02f32db",
+      "slug": "amira-palace-hotel-acquafredda",
+      "nome": "AMIRA PALACE HOTEL",
+      "city_name": "Acquafredda",
+      "indirizzo": "Via Svizzera, 9B, 46042 Castel Goffredo MN",
+      "lat": 45.282778,
+      "lng": 10.476111
+    },
+    {
+      "id": "d92404a9-b3c8-482e-9289-a93874de3872",
+      "slug": "b-b-il-fienile-acquafredda",
+      "nome": "B&B Il Fienile",
+      "city_name": "Acquafredda",
+      "indirizzo": "Via Fenil Salò, 4, 25011 Calcinato BS",
+      "lat": 45.439042,
+      "lng": 10.430325
+    },
+    {
+      "id": "0b47a43a-122a-4129-b943-853de784100e",
+      "slug": "b-b-santa-cristina-acquafredda",
+      "nome": "B&B Santa Cristina",
+      "city_name": "Acquafredda",
+      "indirizzo": "Via Bornate, 15, 25018 Montichiari BS",
+      "lat": 45.390046,
+      "lng": 10.370902
+    },
+    {
+      "id": "65ba7362-90b8-4fa5-93bd-bae9449a51fe",
+      "slug": "bellavista-acquafredda",
+      "nome": "Bellavista",
+      "city_name": "Acquafredda",
+      "indirizzo": "Via Soldana, 8, 46043 Medole MN",
+      "lat": 45.344636,
+      "lng": 10.484883
+    },
+    {
+      "id": "6f08f946-01d9-427c-a5d6-0993b9d0abc4",
+      "slug": "civico-43-acquafredda",
+      "nome": "Civico 43",
+      "city_name": "Acquafredda",
+      "indirizzo": "Via Madonna del Castello, 43, 25013 Carpenedolo BS",
+      "lat": 45.363235,
+      "lng": 10.431961
+    },
+    {
+      "id": "7391d012-0b4a-4b30-98a4-f5431cd68a93",
+      "slug": "hotel-club-san-diego-acquafredda",
+      "nome": "Hotel Club San Diego",
+      "city_name": "Acquafredda",
+      "indirizzo": "Via Nazionale, 59, 85046 Acquafredda PZ",
+      "lat": 40.031458,
+      "lng": 15.674254
+    },
+    {
+      "id": "4651eb29-ee72-4ee3-8fd6-a3ca7074eb2f",
+      "slug": "hotel-ristorante-pizzeria-faro-acquafredda",
+      "nome": "Hotel Ristorante Pizzeria Faro",
+      "city_name": "Acquafredda",
+      "indirizzo": "Via Mantova, 60, 25018 Montichiari BS",
+      "lat": 45.41273,
+      "lng": 10.396748
+    },
+    {
+      "id": "1c8eda46-ea2f-4453-9332-145a1041e5bf",
+      "slug": "hotel-spa-villa-del-mare-acquafredda",
+      "nome": "Hotel Spa Villa del Mare",
+      "city_name": "Acquafredda",
+      "indirizzo": "Via Acquafredda, SS 18 Tirrena Inferiore, 7, 85046 Maratea PZ",
+      "lat": 40.031378,
+      "lng": 15.675458
+    },
+    {
+      "id": "20476e16-9dd4-4a6c-a2e2-7e6a398436a2",
+      "slug": "la-spia-d-italia-hotel-ristorante-acquafredda",
+      "nome": "La Spia d'Italia Hotel & Ristorante",
+      "city_name": "Acquafredda",
+      "indirizzo": "Via dei Francesi, 2, 46040 Solferino MN",
+      "lat": 45.3725,
+      "lng": 10.566944
+    },
+    {
+      "id": "5cf78bca-c0b1-4964-a7fa-033e100f09f2",
+      "slug": "la-stazione-hotel-la-vecchia-tramvia-acquafredda",
+      "nome": "La Stazione Hotel(LA VECCHIA TRAMVIA)",
+      "city_name": "Acquafredda",
+      "indirizzo": "Viale Erasmo Boschetti, 51, 46043 Castiglione delle Stiviere MN",
+      "lat": 45.393562,
+      "lng": 10.482505
+    },
+    {
+      "id": "ae7b5102-fd7d-4721-9d0b-742de15da4da",
+      "slug": "le-stanze-di-duchessa-acquafredda",
+      "nome": "Le Stanze Di Duchessa",
+      "city_name": "Acquafredda",
+      "indirizzo": "Via Andrea Botturi, 33, 46042 Castel Goffredo MN",
+      "lat": 45.2966,
+      "lng": 10.475138
+    },
+    {
+      "id": "47a91faa-244b-4c4e-be25-7f99b991583b",
+      "slug": "les-suites-acquafredda",
+      "nome": "Les Suites",
+      "city_name": "Acquafredda",
+      "indirizzo": "Via Adami, 37, 46041 Asola MN",
+      "lat": 45.220138,
+      "lng": 10.413037
+    },
+    {
+      "id": "137ecbcc-f442-4de4-a3d5-2bce6bf1c420",
+      "slug": "monticlaris-foresteria-self-contained-acquafredda",
+      "nome": "Monticlaris Foresteria Self Contained",
+      "city_name": "Acquafredda",
+      "indirizzo": "Viale Europa, 6, 25018 Montichiari BS",
+      "lat": 45.413038,
+      "lng": 10.398139
+    },
+    {
+      "id": "116ba6b3-e7e8-42f2-893b-5feec52b2244",
+      "slug": "palazzo-bed-and-breakfast-acquafredda",
+      "nome": "Palazzo Bed and Breakfast",
+      "city_name": "Acquafredda",
+      "indirizzo": "Via Macallè, 13, 25012 Mezzane BS",
+      "lat": 45.346805,
+      "lng": 10.396483
+    },
+    {
+      "id": "8c354bcf-becd-42f0-84b5-5b1cca4cda69",
+      "slug": "park-hotel-ristorante-pizzeria-acquafredda",
+      "nome": "Park Hotel Ristorante Pizzeria",
+      "city_name": "Acquafredda",
+      "indirizzo": "46040 Casalmoro MN, Italia",
+      "lat": 45.259958,
+      "lng": 10.415144
+    },
+    {
+      "id": "22e3165d-4301-4a18-a722-86cb396ba6ea",
+      "slug": "agriturismo-alla-vecchia-quercia-acqualagna",
+      "nome": "Agriturismo Alla Vecchia Quercia",
+      "city_name": "Acqualagna",
+      "indirizzo": "Via Montaiate, 26, 61045 Pergola PU",
+      "lat": 43.537694,
+      "lng": 12.777591
+    },
+    {
+      "id": "fdd6839d-e396-4fd9-b29c-2841db492a5c",
+      "slug": "albergo-italia-urbino-pu-acqualagna",
+      "nome": "Albergo Italia - Urbino (pu)",
+      "city_name": "Acqualagna",
+      "indirizzo": "Corso Giuseppe Garibaldi, 32, 61029 Urbino PU",
+      "lat": 43.725556,
+      "lng": 12.636111
+    },
+    {
+      "id": "deda085f-0202-4adc-8c18-3b10595c4155",
+      "slug": "albergo-leon-d-oro-acqualagna",
+      "nome": "Albergo Leon D'Oro",
+      "city_name": "Acqualagna",
+      "indirizzo": "Via Flaminia, 213, 61041 Acqualagna PU",
+      "lat": 43.629261,
+      "lng": 12.682501
+    },
+    {
+      "id": "94c837f4-2cec-40b5-9813-2d7b0f88668d",
+      "slug": "albergo-shine-acqualagna-acqualagna",
+      "nome": "Albergo Shine Acqualagna",
+      "city_name": "Acqualagna",
+      "indirizzo": "Via Aldo Gamba, 56, 61041 Acqualagna PU",
+      "lat": 43.62597,
+      "lng": 12.675414
+    },
+    {
+      "id": "a3c4a130-08a8-4a89-86e1-c1fa0cfd3a90",
+      "slug": "b-b-casa-filippini-acqualagna",
+      "nome": "B & B Casa Filippini",
+      "city_name": "Acqualagna",
+      "indirizzo": "P.za Mercato, 3, 61034 Fossombrone PU",
+      "lat": 43.6884,
+      "lng": 12.807237
+    }
+  ]
+}

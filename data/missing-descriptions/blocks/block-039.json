@@ -1,0 +1,323 @@
+{
+  "block": 39,
+  "blockId": "039",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "1e84230e-b7fd-4882-af24-942195e2f9ba",
+      "slug": "virginia-resort-spa-aiello-del-sabato",
+      "nome": "Virginia Resort & Spa",
+      "city_name": "Aiello del Sabato",
+      "indirizzo": "Via Rivarano, 83024 Avellino AV",
+      "lat": 40.90296,
+      "lng": 14.751681
+    },
+    {
+      "id": "daa2dbf7-b2a4-49a2-b55a-6004d0f2ca63",
+      "slug": "viva-hotel-avellino-aiello-del-sabato",
+      "nome": "Viva! Hotel Avellino",
+      "city_name": "Aiello del Sabato",
+      "indirizzo": "Via Circumvallazione, 123, 83100 Avellino AV",
+      "lat": 40.918099,
+      "lng": 14.792559
+    },
+    {
+      "id": "42e316ba-8b08-4971-b9e7-d761703f68bd",
+      "slug": "a-casa-di-angela-aieta",
+      "nome": "A Casa di Angela",
+      "city_name": "Aieta",
+      "indirizzo": "V. dei Mercanti, 58, 87028 Praia a Mare CS",
+      "lat": 39.902666,
+      "lng": 15.78125
+    },
+    {
+      "id": "fd9064a2-000c-490b-8851-d37d08504e58",
+      "slug": "ad-un-passo-dal-mare-aieta",
+      "nome": "AD UN PASSO DAL MARE",
+      "city_name": "Aieta",
+      "indirizzo": "Via Vincenzo Bellini, 7, 87028 Praia a Mare CS",
+      "lat": 39.90001,
+      "lng": 15.777052
+    },
+    {
+      "id": "9536ad46-9f33-4817-bece-c7d663c6d60b",
+      "slug": "agriturismo-terre-rosse-di-massadita-aieta",
+      "nome": "Agriturismo Terre Rosse Di Massadita",
+      "city_name": "Aieta",
+      "indirizzo": "ctr. Massadita, 87020 Aieta CS",
+      "lat": 39.939541,
+      "lng": 15.840903
+    },
+    {
+      "id": "e1349c26-0376-48b1-8757-0a174c481a98",
+      "slug": "b-b-b-b-casa-za-clara-aieta",
+      "nome": "B&B \" B&B Casa za CLARA\"",
+      "city_name": "Aieta",
+      "indirizzo": "Via Lomonaco Notar, 5, 87020 Aieta CS",
+      "lat": 39.927945,
+      "lng": 15.824532
+    },
+    {
+      "id": "ecdd8d60-ab06-439c-91bf-fa1b49e4ee1b",
+      "slug": "b-b-biancaluna-aieta",
+      "nome": "B&B Biancaluna",
+      "city_name": "Aieta",
+      "indirizzo": "V. Cantogrande, 75, 87020 Aieta CS",
+      "lat": 39.928434,
+      "lng": 15.825232
+    },
+    {
+      "id": "86bfa7a5-b8ec-4b48-b254-4d9c2eb0cb58",
+      "slug": "b-b-isola-dino-sweet-home-aieta",
+      "nome": "B&B Isola Dino sweet home",
+      "city_name": "Aieta",
+      "indirizzo": "Via Cristoforo Colombo, 40, 87028 Praia a Mare CS",
+      "lat": 39.898718,
+      "lng": 15.778532
+    },
+    {
+      "id": "044923e5-6f94-48cd-bca7-88d208158792",
+      "slug": "b-b-li-gutti-aieta",
+      "nome": "B&B Li Gutti",
+      "city_name": "Aieta",
+      "indirizzo": "Discesa Pisano, 21, 87020 Aieta CS",
+      "lat": 39.928905,
+      "lng": 15.823197
+    },
+    {
+      "id": "87c6f694-5f9c-4f6e-91e0-dd6e519ce187",
+      "slug": "harmony-aieta",
+      "nome": "Harmony",
+      "city_name": "Aieta",
+      "indirizzo": "Lungomare Colonnello Francesco Sirimarco, 22, 87020 Tortora Marina CS",
+      "lat": 39.910141,
+      "lng": 15.767521
+    },
+    {
+      "id": "71e5e601-fb52-46dd-b6e6-4085cb9cdd46",
+      "slug": "hotel-borgo-la-tana-maratea-aieta",
+      "nome": "Hotel Borgo La Tana - Maratea",
+      "city_name": "Aieta",
+      "indirizzo": "Via dell'Amicizia, 22, 85046 Castrocucco di Maratea PZ",
+      "lat": 39.936476,
+      "lng": 15.76467
+    },
+    {
+      "id": "adb47fef-46ee-4836-aa01-29ff5c67351b",
+      "slug": "hotel-brutium-aieta",
+      "nome": "Hotel Brutium",
+      "city_name": "Aieta",
+      "indirizzo": "contrada sarre, 5, 87020 Tortora CS",
+      "lat": 39.942592,
+      "lng": 15.810427
+    },
+    {
+      "id": "c6ef855d-bbea-4cee-9966-a04764a950b4",
+      "slug": "hotel-calabria-aieta",
+      "nome": "Hotel Calabria",
+      "city_name": "Aieta",
+      "indirizzo": "Via Roma, 58, 87028 Praia a Mare CS",
+      "lat": 39.892365,
+      "lng": 15.78201
+    },
+    {
+      "id": "4eb945f9-b580-4c6e-92a8-0023e06cd601",
+      "slug": "hotel-germania-aieta",
+      "nome": "HOTEL GERMANIA",
+      "city_name": "Aieta",
+      "indirizzo": "Hotel germania, Via Roma, 44, 87028 Praia a Mare CS",
+      "lat": 39.893802,
+      "lng": 15.781144
+    },
+    {
+      "id": "a51e6a9d-9537-4af0-8f52-8bad6f49308e",
+      "slug": "hotel-la-loggia-aieta",
+      "nome": "Hotel La Loggia",
+      "city_name": "Aieta",
+      "indirizzo": "Centro storico, 87020 Tortora CS",
+      "lat": 39.939498,
+      "lng": 15.80899
+    },
+    {
+      "id": "e534813f-2aa6-4ee9-9a14-ea3050e66e4c",
+      "slug": "hotel-napoleone-aieta",
+      "nome": "Hotel Napoleone",
+      "city_name": "Aieta",
+      "indirizzo": "Viale A. Moro, 109, 87020 Tortora Marina CS",
+      "lat": 39.912146,
+      "lng": 15.770925
+    },
+    {
+      "id": "6588e790-10bb-4f64-8a27-8805a4729161",
+      "slug": "hotel-praja-mare-aieta",
+      "nome": "Hotel Praja mare",
+      "city_name": "Aieta",
+      "indirizzo": "Via Giuseppe Garibaldi, 27, 87028 Praia a Mare CS",
+      "lat": 39.894629,
+      "lng": 15.781742
+    },
+    {
+      "id": "ac6b4a6d-c22b-4285-b30d-d1ac278fbf06",
+      "slug": "hotel-residenza-del-golfo-aieta",
+      "nome": "Hotel Residenza del Golfo",
+      "city_name": "Aieta",
+      "indirizzo": "Viale Europa, Loc. Foresta, 87028 Praia a Mare CS",
+      "lat": 39.881913,
+      "lng": 15.799438
+    },
+    {
+      "id": "a6893fa8-2b4e-4605-a143-94aa477e3ba9",
+      "slug": "hotel-tea-praia-aieta",
+      "nome": "Hotel TEA Praia",
+      "city_name": "Aieta",
+      "indirizzo": "Via Dante Alighieri, 60, 87028 Praia a Mare CS",
+      "lat": 39.902091,
+      "lng": 15.776119
+    },
+    {
+      "id": "8fd4ea5a-0a7b-4fec-afce-4630c640399c",
+      "slug": "le-due-lanterne-aieta",
+      "nome": "Le Due Lanterne",
+      "city_name": "Aieta",
+      "indirizzo": "V. Cantogrande, 36, 87020 Aieta CS",
+      "lat": 39.928514,
+      "lng": 15.824347
+    },
+    {
+      "id": "29eab7ca-fcfe-4eec-9f98-100573fe4063",
+      "slug": "a-casa-nostra-ailano",
+      "nome": "A Casa Nostra",
+      "city_name": "Ailano",
+      "indirizzo": "1 Contrada, Via Mancini, 81051 Pietramelara CE",
+      "lat": 41.262333,
+      "lng": 14.176614
+    },
+    {
+      "id": "402cda4b-6dfd-4c57-bdbd-23d64d09be82",
+      "slug": "albergo-penza-ailano",
+      "nome": "Albergo Penza",
+      "city_name": "Ailano",
+      "indirizzo": "P.za Roma, 83, 81016 Piedimonte Matese CE",
+      "lat": 41.356641,
+      "lng": 14.374955
+    },
+    {
+      "id": "f8a506f4-7d5b-4bbd-88e7-2e601a53e464",
+      "slug": "b-b-il-giardino-di-eolo-ailano",
+      "nome": "B&B il giardino di Eolo",
+      "city_name": "Ailano",
+      "indirizzo": "Via Montemaggiore, 81051 Pietramelara CE",
+      "lat": 41.263285,
+      "lng": 14.187289
+    },
+    {
+      "id": "abc7e98c-ea7d-4a5b-882f-434acae6d3a7",
+      "slug": "b-b-la-casa-di-anna-ailano",
+      "nome": "B&B La casa di Anna",
+      "city_name": "Ailano",
+      "indirizzo": "Via Nicola Gigli, 81057 Teano CE",
+      "lat": 41.251873,
+      "lng": 14.067853
+    },
+    {
+      "id": "586f1368-11e0-4a3e-ac2b-0f459021c9bd",
+      "slug": "b-b-la-libellula-ailano",
+      "nome": "B&B La Libellula",
+      "city_name": "Ailano",
+      "indirizzo": "SP207, 1, 81010 Pratella CE",
+      "lat": 41.394784,
+      "lng": 14.171311
+    },
+    {
+      "id": "2c7dcec9-9891-4193-a858-53e5842999f8",
+      "slug": "chalet-vista-lago-ailano",
+      "nome": "Chalet Vista Lago",
+      "city_name": "Ailano",
+      "indirizzo": "81010 San Gregorio Matese CE",
+      "lat": 41.423219,
+      "lng": 14.361402
+    },
+    {
+      "id": "174128e8-94ed-4e68-ad02-0835a8c02ec4",
+      "slug": "da-nonna-pasqualina-ailano",
+      "nome": "Da Nonna Pasqualina",
+      "city_name": "Ailano",
+      "indirizzo": "Via Chiesa, 81010 Ciorlano CE",
+      "lat": 41.450425,
+      "lng": 14.158718
+    },
+    {
+      "id": "aa873f32-8a16-4eea-b16b-fe23ca7fa095",
+      "slug": "hotel-ascot-ailano",
+      "nome": "Hotel Ascot",
+      "city_name": "Ailano",
+      "indirizzo": "Via Ceraselle, 55, 81059 Montano CE",
+      "lat": 41.3075,
+      "lng": 14.106944
+    },
+    {
+      "id": "f8e18bca-e5df-48c5-a940-d964923cfe0c",
+      "slug": "jenny-s-house-ailano",
+      "nome": "Jenny's House",
+      "city_name": "Ailano",
+      "indirizzo": "Via Casilina, 167, 81050 Presenzano CE",
+      "lat": 41.345341,
+      "lng": 14.065002
+    },
+    {
+      "id": "306651de-f996-415d-8bbb-c8bdaf6d81b0",
+      "slug": "l-angolo-fiorito-ailano",
+      "nome": "L'angolo fiorito",
+      "city_name": "Ailano",
+      "indirizzo": "Via Nazionale dei Pentri, 47, 86090 Castelpetroso IS",
+      "lat": 41.547335,
+      "lng": 14.338901
+    },
+    {
+      "id": "28856e4e-45b1-42f3-a248-e569dbe7774d",
+      "slug": "la-caveja-ailano",
+      "nome": "La Caveja",
+      "city_name": "Ailano",
+      "indirizzo": "Via Santissima Annunziata, 10, 81040 Pietravairano CE",
+      "lat": 41.322882,
+      "lng": 14.16459
+    },
+    {
+      "id": "34d341a4-2059-47f5-abdb-9e80aae1eaec",
+      "slug": "la-quercia-di-aorivola-ailano",
+      "nome": "La Quercia di Aorivola",
+      "city_name": "Ailano",
+      "indirizzo": "Via Teano, 3, 81059 Aorivola CE",
+      "lat": 41.294311,
+      "lng": 14.058364
+    },
+    {
+      "id": "c47ad4a8-5bc6-469f-99d2-477ab6c2b2a4",
+      "slug": "la-rossa-fantastica-ailano",
+      "nome": "La Rossa Fantastica",
+      "city_name": "Ailano",
+      "indirizzo": "Via Madonna delle Grazie, 14, 81016 Piedimonte Matese CE",
+      "lat": 41.359635,
+      "lng": 14.373823
+    },
+    {
+      "id": "b5ed828b-be9e-43f1-96b7-25b8aa7e49c1",
+      "slug": "le-sale-resort-ailano",
+      "nome": "Le Sale Resort",
+      "city_name": "Ailano",
+      "indirizzo": "Via Francesco Landi, 47, 81100 Caserta CE",
+      "lat": 41.092382,
+      "lng": 14.324344
+    },
+    {
+      "id": "2e815843-de6d-4f9f-be1a-e232722a66ac",
+      "slug": "tenuta-d-ausilio-event-migliore-hotel-4-stelle-v-ailano",
+      "nome": "TENUTA D'AUSILIO Event MIGLIORE HOTEL 4 STELLE VAIRANO PATENORA CAIANELLO",
+      "city_name": "Ailano",
+      "indirizzo": "SS 85 Venafrana, 81058 Vairano Patenora CE",
+      "lat": 41.347689,
+      "lng": 14.10505
+    }
+  ]
+}

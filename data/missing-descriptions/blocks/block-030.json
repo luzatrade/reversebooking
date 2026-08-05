@@ -1,0 +1,323 @@
+{
+  "block": 30,
+  "blockId": "030",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "5aa63db4-8a77-4c77-9dc4-f67b25cfb6eb",
+      "slug": "agriturismo-guado-cannavina-agnone",
+      "nome": "Agriturismo Guado Cannavina",
+      "city_name": "Agnone",
+      "indirizzo": "Contrada Macchia, 11, 86082 Capracotta IS",
+      "lat": 41.848163,
+      "lng": 14.338218
+    },
+    {
+      "id": "e2410ee8-c1a1-44ff-9f45-a09139596be7",
+      "slug": "agriturismo-masseria-santa-lucia-agnone",
+      "nome": "Agriturismo Masseria Santa Lucia",
+      "city_name": "Agnone",
+      "indirizzo": "Contrada Fonte Sambuco, 23a, 86081 Agnone IS",
+      "lat": 41.784133,
+      "lng": 14.382558
+    },
+    {
+      "id": "dc6190d0-a1f3-4454-86de-703aac9877fc",
+      "slug": "albergo-conte-max-agnone",
+      "nome": "Albergo Conte Max",
+      "city_name": "Agnone",
+      "indirizzo": "via Vallesorda, 86082 Capracotta IS",
+      "lat": 41.831831,
+      "lng": 14.264438
+    },
+    {
+      "id": "07819a2a-df0a-4e2c-a59d-37f2c1f7d757",
+      "slug": "albergo-italia-agnone",
+      "nome": "Albergo Italia",
+      "city_name": "Agnone",
+      "indirizzo": "Piazza XX Settembre, 11, 86081 Agnone IS",
+      "lat": 41.808586,
+      "lng": 14.374395
+    },
+    {
+      "id": "21b39d65-d66b-454e-a407-fc1e2e09a81d",
+      "slug": "b-b-l-abbraccio-agnone-agnone",
+      "nome": "B & B L'ABBRACCIO AGNONE",
+      "city_name": "Agnone",
+      "indirizzo": "Corso Vittorio Emanuele, 185, 86081 Agnone IS",
+      "lat": 41.807477,
+      "lng": 14.370989
+    },
+    {
+      "id": "a066f693-471e-4c42-b893-8dc78a9ae5a3",
+      "slug": "b-b-largo-alighieri-agnone",
+      "nome": "B&B Largo Alighieri",
+      "city_name": "Agnone",
+      "indirizzo": "Via Alighieri, 6, 66045 Schiavi di Abruzzo CH",
+      "lat": 41.816629,
+      "lng": 14.484511
+    },
+    {
+      "id": "df63f551-1fd3-4606-92f9-4029d50a05e1",
+      "slug": "b-b-tirassegno-agnone",
+      "nome": "B&B Tirassegno",
+      "city_name": "Agnone",
+      "indirizzo": "Via Pasquale e Ettore Marinelli, 11, 86081 Agnone IS",
+      "lat": 41.811913,
+      "lng": 14.373706
+    },
+    {
+      "id": "c0a2bb86-e75e-430c-9470-9da26a1353f6",
+      "slug": "bellavista-agnone",
+      "nome": "Bellavista",
+      "city_name": "Agnone",
+      "indirizzo": "Via Vittorio Veneto, 46, 86020 Roccavivara CB",
+      "lat": 41.836813,
+      "lng": 14.597834
+    },
+    {
+      "id": "34850b2f-b293-4b1a-8bf8-6a8a03b65bb5",
+      "slug": "borgo-san-pietro-agnone",
+      "nome": "Borgo San Pietro",
+      "city_name": "Agnone",
+      "indirizzo": "Via Montebello, 54, 86081 Agnone IS",
+      "lat": 41.804768,
+      "lng": 14.363628
+    },
+    {
+      "id": "513c9770-b8b4-4913-873d-a55f136c753a",
+      "slug": "chevalier-claudio-agnone",
+      "nome": "chevalier claudio",
+      "city_name": "Agnone",
+      "indirizzo": "Contrada S. Onofrio, 196, 86081 Agnone IS",
+      "lat": 41.842958,
+      "lng": 14.354424
+    },
+    {
+      "id": "4b424df0-46e5-4ecf-9a1a-423f58567ec7",
+      "slug": "domus-hotel-resort-spa-agnone",
+      "nome": "Domus Hotel Resort & Spa",
+      "city_name": "Agnone",
+      "indirizzo": "Variante Esterna, 86091 Bagnoli del Trigno IS",
+      "lat": 41.702976,
+      "lng": 14.464611
+    },
+    {
+      "id": "352c6c6a-352a-453a-866a-800a3dd1d9fb",
+      "slug": "hotel-il-duca-del-sannio-agnone",
+      "nome": "Hotel Il Duca del Sannio",
+      "city_name": "Agnone",
+      "indirizzo": "Via Marconi, 26, 86081 Agnone IS",
+      "lat": 41.811111,
+      "lng": 14.375556
+    },
+    {
+      "id": "0eeb6fd7-ec7e-46ce-bfe0-4b0149be54fa",
+      "slug": "hotel-la-rampa-agnone",
+      "nome": "Hotel La Rampa",
+      "city_name": "Agnone",
+      "indirizzo": "Via Marina Nuova, 7, 84060 Agnone Cilento SA",
+      "lat": 40.218502,
+      "lng": 14.992445
+    },
+    {
+      "id": "8072be53-3a76-4a40-9cdb-dbe407ed6a88",
+      "slug": "hotel-monte-campo-agnone",
+      "nome": "Hotel Monte Campo",
+      "city_name": "Agnone",
+      "indirizzo": "C.da Santa Lucia, 86082 Capracotta IS",
+      "lat": 41.842824,
+      "lng": 14.279761
+    },
+    {
+      "id": "47e36c2a-6123-4982-bb56-f8b59656a766",
+      "slug": "la-dimora-del-sergente-agnone",
+      "nome": "La Dimora del Sergente",
+      "city_name": "Agnone",
+      "indirizzo": "Largo del Carmelo, 9, Via V. Veneto, 14, 86083 Carovilli IS",
+      "lat": 41.713616,
+      "lng": 14.296136
+    },
+    {
+      "id": "c7175a03-c960-462d-96ae-a95e17f11ebc",
+      "slug": "locanda-la-campana-agnone",
+      "nome": "Locanda La Campana",
+      "city_name": "Agnone",
+      "indirizzo": "Vico Polito, 15, 86081 Agnone IS",
+      "lat": 41.806656,
+      "lng": 14.367681
+    },
+    {
+      "id": "30e0dd1a-8534-41e1-b7f7-7defdb46c5bb",
+      "slug": "locanda-mammi-agnone",
+      "nome": "Locanda Mammì",
+      "city_name": "Agnone",
+      "indirizzo": "Contrada Castelnuovo, 86, 86081 Agnone IS",
+      "lat": 41.828159,
+      "lng": 14.384875
+    },
+    {
+      "id": "1f1d84bc-57fe-4484-a477-101cbae63bdc",
+      "slug": "masseria-acquasalsa-agnone",
+      "nome": "Masseria Acquasalsa",
+      "city_name": "Agnone",
+      "indirizzo": "Contrada Rigaini, 33, 86081 Agnone IS",
+      "lat": 41.794463,
+      "lng": 14.356312
+    },
+    {
+      "id": "13fce9e3-4918-4a24-8b8f-a6f618953f5c",
+      "slug": "rifugio-dei-sanniti-agnone",
+      "nome": "Rifugio dei Sanniti",
+      "city_name": "Agnone",
+      "indirizzo": "Strada Provinciale Sangritana, 66040 Borrello CH",
+      "lat": 41.914485,
+      "lng": 14.308708
+    },
+    {
+      "id": "fc2dfba1-20d9-4a76-9e27-d3b6b0d1bee6",
+      "slug": "agriturismo-rocca-dei-marchesi-brescia-agnosine",
+      "nome": "Agriturismo Rocca dei Marchesi Brescia",
+      "city_name": "Agnosine",
+      "indirizzo": "Via Silvio Moretti, 86, 25070 Sabbio Chiese BS",
+      "lat": 45.65476,
+      "lng": 10.41847
+    },
+    {
+      "id": "e7dc6212-0f67-4f7a-9930-2ecabb497093",
+      "slug": "al-poggio-verde-agnosine",
+      "nome": "Al Poggio Verde",
+      "city_name": "Agnosine",
+      "indirizzo": "Via del Fango, 29, 25070 Barghe BS",
+      "lat": 45.675506,
+      "lng": 10.404389
+    },
+    {
+      "id": "5d5e198d-b2a7-4fe2-bd87-d2c799663ae0",
+      "slug": "albergo-lodrino-zeta-affittacamere-agnosine",
+      "nome": "ALBERGO LODRINO - Zeta affittacamere",
+      "city_name": "Agnosine",
+      "indirizzo": "Via Kennedy, 6E, 25060 Lodrino BS",
+      "lat": 45.715392,
+      "lng": 10.278967
+    },
+    {
+      "id": "08682d3b-181e-44f8-8b72-63acc6ee877d",
+      "slug": "albergo-milena-agnosine",
+      "nome": "Albergo Milena",
+      "city_name": "Agnosine",
+      "indirizzo": "Via S. Giovanni Bosco, 14, 25063 Gardone Val Trompia BS",
+      "lat": 45.682316,
+      "lng": 10.186409
+    },
+    {
+      "id": "a9621df2-d32e-462c-a388-3485d44653a3",
+      "slug": "alla-vecchia-contrada-b-b-agnosine",
+      "nome": "Alla Vecchia Contrada B&B",
+      "city_name": "Agnosine",
+      "indirizzo": "Via Iᵒ Maggio, 6, 25070 Provaglio Val Sabbia BS",
+      "lat": 45.687503,
+      "lng": 10.423367
+    },
+    {
+      "id": "0de83791-88f2-4232-83c7-584f3827e8d8",
+      "slug": "b-b-al-caseificio-agnosine",
+      "nome": "B&B Al Caseificio",
+      "city_name": "Agnosine",
+      "indirizzo": "Via Nazionale, 70, 25070 Barghe BS",
+      "lat": 45.679032,
+      "lng": 10.406804
+    },
+    {
+      "id": "ad55dd8f-64e0-4574-a865-8e1ee5634a89",
+      "slug": "b-b-l-acero-agnosine",
+      "nome": "B&B L' Acero",
+      "city_name": "Agnosine",
+      "indirizzo": "Via S. Giovanni, 9, 25070 Casto BS",
+      "lat": 45.694446,
+      "lng": 10.319268
+    },
+    {
+      "id": "231a201c-1808-44a3-9d24-33653fd36548",
+      "slug": "b-b-settesette6-agnosine",
+      "nome": "B&B Settesette6",
+      "city_name": "Agnosine",
+      "indirizzo": "Via Fossane, 15, 25070 Barghe BS",
+      "lat": 45.6821,
+      "lng": 10.41334
+    },
+    {
+      "id": "c2721c37-d507-44c6-aae6-768e06cdae31",
+      "slug": "bed-breakfast-isola-verde-agnosine",
+      "nome": "Bed & breakfast Isola Verde",
+      "city_name": "Agnosine",
+      "indirizzo": "Via Resolvino, 4, 25060 Lodrino BS",
+      "lat": 45.715995,
+      "lng": 10.281824
+    },
+    {
+      "id": "0d60ec9c-450e-4caa-acdd-9a4bc249a865",
+      "slug": "borgo-alla-sorgente-lago-di-garda-antica-dimora-agnosine",
+      "nome": "Borgo alla Sorgente, Lago di Garda, antica dimora",
+      "city_name": "Agnosine",
+      "indirizzo": "Via Sopranico, 51, 25080 Vallio Terme BS",
+      "lat": 45.611285,
+      "lng": 10.405471
+    },
+    {
+      "id": "c773a60c-7839-4f5e-8f26-aed8496fb4ac",
+      "slug": "corte-torchio-b-b-agnosine",
+      "nome": "Corte Torchio B&B",
+      "city_name": "Agnosine",
+      "indirizzo": "Via Odorici, 21, 25077 Trobiolo BS",
+      "lat": 45.614927,
+      "lng": 10.504077
+    },
+    {
+      "id": "bd8ab4f0-9168-438e-8909-829f6c656def",
+      "slug": "divino-rooms-deluxe-agnosine",
+      "nome": "DiVino Rooms Deluxe",
+      "city_name": "Agnosine",
+      "indirizzo": "Via Parrocchiale, 22/B, 25070 Sabbio Chiese BS",
+      "lat": 45.656203,
+      "lng": 10.419874
+    },
+    {
+      "id": "1e4063c0-9857-4cc0-bcf3-c6f0daca3e4f",
+      "slug": "hotel-al-vecchio-palazzo-agnosine",
+      "nome": "Hotel al Vecchio Palazzo",
+      "city_name": "Agnosine",
+      "indirizzo": "Piazza A. Passerini, 5, 25070 Casto BS",
+      "lat": 45.69429,
+      "lng": 10.319427
+    },
+    {
+      "id": "8ea0d130-9d37-45ed-992f-29262555adff",
+      "slug": "hotel-igea-agnosine",
+      "nome": "Hotel Igea",
+      "city_name": "Agnosine",
+      "indirizzo": "Viale della Stazione, 15, 25122 Brescia BS",
+      "lat": 45.533611,
+      "lng": 10.2125
+    },
+    {
+      "id": "d201d5e1-9ebc-4fa2-a6b7-91ba71d6dfd8",
+      "slug": "la-sosta-di-nozza-ristorante-hotel-e-catering-agnosine",
+      "nome": "La Sosta di Nozza Ristorante Hotel e Catering",
+      "city_name": "Agnosine",
+      "indirizzo": "Via T. Secchi, 117, 25078 Vestone BS",
+      "lat": 45.697222,
+      "lng": 10.389444
+    },
+    {
+      "id": "5f46c257-8afd-4da9-abb7-613242791ff4",
+      "slug": "locanda-ferandi-agnosine",
+      "nome": "Locanda Ferandi",
+      "city_name": "Agnosine",
+      "indirizzo": "Via Roma, 22, 25080 Vallio Terme BS",
+      "lat": 45.610278,
+      "lng": 10.3925
+    }
+  ]
+}

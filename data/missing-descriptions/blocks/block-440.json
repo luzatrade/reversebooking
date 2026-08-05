@@ -1,0 +1,323 @@
+{
+  "block": 440,
+  "blockId": "440",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "9df7ccae-e84b-41a7-ab8a-f775e4318881",
+      "slug": "arpate-bed-breakfast-carmagnola",
+      "nome": "Arpatè Bed & Breakfast",
+      "city_name": "Carmagnola",
+      "indirizzo": "Via Oselle, 25, 10022 Oselle TO",
+      "lat": 44.823044,
+      "lng": 7.738251
+    },
+    {
+      "id": "b31133d1-80c6-4be8-90b5-7c011fae2633",
+      "slug": "hotel-il-bivio-carmagnola",
+      "nome": "Hotel Il Bivio",
+      "city_name": "Carmagnola",
+      "indirizzo": "Via Sommariva, 12, 10022 Carmagnola TO",
+      "lat": 44.848611,
+      "lng": 7.73
+    },
+    {
+      "id": "96aef32f-ea53-4c51-b637-04aac2e561bc",
+      "slug": "trattoria-dei-due-citroni-carmagnola",
+      "nome": "Trattoria Dei Due Citroni",
+      "city_name": "Carmagnola",
+      "indirizzo": "Via Torino, 75, 12030 Casalgrasso CN",
+      "lat": 44.821881,
+      "lng": 7.626475
+    },
+    {
+      "id": "12b55976-55f6-4d8e-bc59-b155cf5597b0",
+      "slug": "twelve-hotel-carmagnola",
+      "nome": "Twelve Hotel",
+      "city_name": "Carmagnola",
+      "indirizzo": "Via Giacomo Leopardi, 12, 10024 Moncalieri TO",
+      "lat": 45.012963,
+      "lng": 7.666541
+    },
+    {
+      "id": "fb5f4533-3889-4b1d-a485-a2170b6dc374",
+      "slug": "alma-salento-b-b-carmiano",
+      "nome": "Alma Salento B&B",
+      "city_name": "Carmiano",
+      "indirizzo": "Via Saraceni, 55, 73041 Carmiano LE",
+      "lat": 40.348803,
+      "lng": 18.038709
+    },
+    {
+      "id": "efdfa247-7422-4a36-8622-88ea68e485a4",
+      "slug": "b-b-il-vecchio-arco-carmiano",
+      "nome": "B&B Il Vecchio Arco",
+      "city_name": "Carmiano",
+      "indirizzo": "Via Pendino, 63, 73051 Novoli LE",
+      "lat": 40.37519,
+      "lng": 18.049203
+    },
+    {
+      "id": "0b3edfc9-59c0-4fa9-a7d6-de24cf17fbd4",
+      "slug": "calle-dei-saraceni-b-b-carmiano",
+      "nome": "Calle dei Saraceni B&B",
+      "city_name": "Carmiano",
+      "indirizzo": "Via T. Provenzano, 93, 73041 Carmiano LE",
+      "lat": 40.348398,
+      "lng": 18.036277
+    },
+    {
+      "id": "f582bc90-9e26-4636-ac20-b3d86c2e8de8",
+      "slug": "casa-salento-carmiano",
+      "nome": "Casa Salento",
+      "city_name": "Carmiano",
+      "indirizzo": "Via Gaetano Salvemini, 16, 73051 Novoli LE",
+      "lat": 40.380167,
+      "lng": 18.054183
+    },
+    {
+      "id": "d5d4da2f-f27e-4915-8e51-606f52fd3b82",
+      "slug": "donna-michelina-b-b-carmiano",
+      "nome": "Donna Michelina B&B",
+      "city_name": "Carmiano",
+      "indirizzo": "Via Antonio Miglietta, 57, 73041 Carmiano LE",
+      "lat": 40.345687,
+      "lng": 18.044665
+    },
+    {
+      "id": "8af3d633-7769-4530-83fd-64fca49ba88d",
+      "slug": "il-pozzo-casale-carmiano",
+      "nome": "Il Pozzo Casale",
+      "city_name": "Carmiano",
+      "indirizzo": "Via Pozzo Casale, 73041 Carmiano LE",
+      "lat": 40.346681,
+      "lng": 18.045333
+    },
+    {
+      "id": "9dd34ed6-055e-46da-80d8-195c4211827d",
+      "slug": "la-gazza-ladra-b-b-carmiano",
+      "nome": "La Gazza Ladra B&B",
+      "city_name": "Carmiano",
+      "indirizzo": "SP12 Carmiano-Magliano, Contrada Mastrominico,16, 73041 Carmiano LE",
+      "lat": 40.340214,
+      "lng": 18.054883
+    },
+    {
+      "id": "44fd8063-03b9-46a0-9468-3c7147575887",
+      "slug": "la-quiete-b-b-carmiano",
+      "nome": "La Quiete B&B",
+      "city_name": "Carmiano",
+      "indirizzo": "Via Nicolo Piccinni, 13, 73045 Leverano LE",
+      "lat": 40.294439,
+      "lng": 18.00197
+    },
+    {
+      "id": "4d8aff6c-17b1-4091-93e4-8ff08f107de4",
+      "slug": "porta-noa-rooms-carmiano",
+      "nome": "Porta Noa Rooms",
+      "city_name": "Carmiano",
+      "indirizzo": "Via S. Biagio, 73010 Veglie LE",
+      "lat": 40.336328,
+      "lng": 17.970275
+    },
+    {
+      "id": "b8784c47-fb27-48c6-8ecd-97f3fcb2f960",
+      "slug": "sud-est-guest-house-carmiano",
+      "nome": "Sud Est Guest House",
+      "city_name": "Carmiano",
+      "indirizzo": "Via Novoli, 56, 73041 Carmiano LE",
+      "lat": 40.349531,
+      "lng": 18.046036
+    },
+    {
+      "id": "b02ce663-7059-42ff-a178-565008f577f1",
+      "slug": "terra-di-negroamaro-agriturismo-carmiano",
+      "nome": "Terra di Negroamaro Agriturismo",
+      "city_name": "Carmiano",
+      "indirizzo": "73045 Leverano LE",
+      "lat": 40.296454,
+      "lng": 17.987329
+    },
+    {
+      "id": "ca75d60a-3995-4bfb-88d8-1d0b18fb6a65",
+      "slug": "affittacamere-donati-nada-carmignano",
+      "nome": "Affittacamere Donati nada",
+      "city_name": "Carmignano",
+      "indirizzo": "Via Sasso, 3, 59015 Carmignano PO",
+      "lat": 43.801468,
+      "lng": 11.006926
+    },
+    {
+      "id": "99e74004-c89a-4fe2-965e-8e8f5c1cc4a8",
+      "slug": "agriturismo-frigionaia-carmignano",
+      "nome": "Agriturismo Frigionaia",
+      "city_name": "Carmignano",
+      "indirizzo": "Via Augusto Novelli, 21, 59015 Carmignano PO",
+      "lat": 43.814458,
+      "lng": 11.013918
+    },
+    {
+      "id": "84b8c9c0-dc1b-4401-baac-c8f375b238a0",
+      "slug": "agriturismo-la-fattoria-di-capezzana-carmignano",
+      "nome": "Agriturismo La Fattoria di Capezzana",
+      "city_name": "Carmignano",
+      "indirizzo": "Via Capezzana, 34, 59015 Carmignano PO",
+      "lat": 43.823798,
+      "lng": 10.995398
+    },
+    {
+      "id": "50a504b6-d146-4837-8edd-088ebfb4b590",
+      "slug": "agriturismo-sotto-la-rocca-carmignano",
+      "nome": "Agriturismo Sotto la Rocca",
+      "city_name": "Carmignano",
+      "indirizzo": "Via Augusto Novelli, 10, 59015 Carmignano PO",
+      "lat": 43.814368,
+      "lng": 11.017683
+    },
+    {
+      "id": "72ed7890-ce3a-4660-8181-dd0585246068",
+      "slug": "agriturismo-sottotono-carmignano",
+      "nome": "Agriturismo Sottotono",
+      "city_name": "Carmignano",
+      "indirizzo": "Via Poggio dei Colli, 1, 59015 Carmignano PO",
+      "lat": 43.799823,
+      "lng": 11.009438
+    },
+    {
+      "id": "b7bac8da-238a-4852-9bef-0fe80338759a",
+      "slug": "b-b-all-infinito-carmignano",
+      "nome": "B&B All'infinito",
+      "city_name": "Carmignano",
+      "indirizzo": "Via Fernando Bicchi, 1/Int. 5, 59015 Carmignano PO",
+      "lat": 43.815174,
+      "lng": 11.021937
+    },
+    {
+      "id": "3e9925ac-d888-4350-a689-96cfc763aa00",
+      "slug": "b-b-la-rocca-carmignano",
+      "nome": "B&B La Rocca",
+      "city_name": "Carmignano",
+      "indirizzo": "Via del Castello, 24, 59015 Carmignano PO",
+      "lat": 43.812018,
+      "lng": 11.014143
+    },
+    {
+      "id": "25b23255-f82d-4018-b1bc-2cf1fae89362",
+      "slug": "bb-al-21-carmignano",
+      "nome": "BB \"Al 21\"",
+      "city_name": "Carmignano",
+      "indirizzo": "Piazza Giacomo Matteotti, 21, 59015 Carmignano PO",
+      "lat": 43.813659,
+      "lng": 11.017937
+    },
+    {
+      "id": "4a12009f-8d3f-4a6c-ba7a-ab171ec0d8d5",
+      "slug": "hotel-hermitage-carmignano",
+      "nome": "Hotel Hermitage",
+      "city_name": "Carmignano",
+      "indirizzo": "Via Ginepraia, 112, 59016 Poggio a Caiano PO",
+      "lat": 43.817249,
+      "lng": 11.044286
+    },
+    {
+      "id": "562ea747-d634-4da9-8c9a-ca54556ce50b",
+      "slug": "hotel-villa-s-michele-carmignano",
+      "nome": "Hotel Villa S. Michele",
+      "city_name": "Carmignano",
+      "indirizzo": "Piazza Giacomo Matteotti, 14, 59015 Carmignano PO",
+      "lat": 43.813432,
+      "lng": 11.017929
+    },
+    {
+      "id": "133f25a9-d673-466c-b8dd-57258b956b05",
+      "slug": "la-collina-degli-olivi-carmignano",
+      "nome": "La collina degli olivi",
+      "city_name": "Carmignano",
+      "indirizzo": "Via della Petraia, N.4, 59015 Carmignano PO",
+      "lat": 43.819906,
+      "lng": 11.030895
+    },
+    {
+      "id": "260428bd-dea1-4e0a-b594-496856582800",
+      "slug": "matana-b-b-carmignano",
+      "nome": "Matana B&B",
+      "city_name": "Carmignano",
+      "indirizzo": "Via Valle, 9, 59015 Carmignano PO",
+      "lat": 43.820777,
+      "lng": 11.011329
+    },
+    {
+      "id": "6250cde2-d0ee-4bb1-a1df-bebb1dbadab6",
+      "slug": "podere-sanlorenzo-carmignano",
+      "nome": "Podere Sanlorenzo",
+      "city_name": "Carmignano",
+      "indirizzo": "Via Malinoci, 36, 59015 Carmignano PO",
+      "lat": 43.821205,
+      "lng": 11.030158
+    },
+    {
+      "id": "9b14ddee-425c-466f-a669-59f6d060d66b",
+      "slug": "relais-colline-san-biagio-carmignano",
+      "nome": "Relais Colline San Biagio",
+      "city_name": "Carmignano",
+      "indirizzo": "Via S. Biagio, 6, 59015 Carmignano PO",
+      "lat": 43.809567,
+      "lng": 10.992531
+    },
+    {
+      "id": "3a9db016-1381-40d0-b354-7e0ce66e1dc0",
+      "slug": "albergaria-carmignano-di-brenta",
+      "nome": "Albergaria",
+      "city_name": "Carmignano di Brenta",
+      "indirizzo": "Via Salute, 72/D, 36028 Rossano Veneto VI",
+      "lat": 45.696023,
+      "lng": 11.802066
+    },
+    {
+      "id": "f8f467d3-9cd0-4354-977a-a717e65f5092",
+      "slug": "albergo-ristorante-europa-carmignano-di-brenta",
+      "nome": "albergo ristorante europa",
+      "city_name": "Carmignano di Brenta",
+      "indirizzo": "Via Angelo Velo, 49, 35014 Fontaniva PD",
+      "lat": 45.631907,
+      "lng": 11.740705
+    },
+    {
+      "id": "f65bc505-596c-4a6e-8256-af34d7c60d93",
+      "slug": "hotel-villa-tacchi-carmignano-di-brenta",
+      "nome": "Hotel Villa Tacchi",
+      "city_name": "Carmignano di Brenta",
+      "indirizzo": "Via Dante, 30/a, 35010 Gazzo PD",
+      "lat": 45.5804,
+      "lng": 11.675501
+    },
+    {
+      "id": "1548a105-ce3a-412f-862f-9552c5c06483",
+      "slug": "primula-house-b-b-carmignano-di-brenta",
+      "nome": "Primula House b&b",
+      "city_name": "Carmignano di Brenta",
+      "indirizzo": "Via Ronchi Vecchia, 3, 35010 Carmignano di Brenta PD",
+      "lat": 45.626105,
+      "lng": 11.707967
+    },
+    {
+      "id": "a4493b8e-cc4a-473b-802c-2a49dc166add",
+      "slug": "villa-solaris-hotel-residence-carmignano-di-brenta",
+      "nome": "VILLA SOLARIS Hotel & Residence",
+      "city_name": "Carmignano di Brenta",
+      "indirizzo": "Via S. Pio X, 5, 36056 Belvedere VI",
+      "lat": 45.682239,
+      "lng": 11.754082
+    },
+    {
+      "id": "4edd4bfa-2313-4e06-b041-8180c1e7d482",
+      "slug": "ristorante-tradate-con-alloggio-carnago",
+      "nome": "Ristorante Tradate con Alloggio",
+      "city_name": "Carnago",
+      "indirizzo": "Via Alessandro Volta, 20, 21049 Tradate VA",
+      "lat": 45.711617,
+      "lng": 8.908534
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 149,
+  "blockId": "149",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "e4fc2663-6bad-419d-a661-6d51ef2fcf7f",
+      "slug": "b-b-il-piccolo-leone-arignano",
+      "nome": "B&B Il Piccolo Leone",
+      "city_name": "Arignano",
+      "indirizzo": "Via Tetti Chiaffredo, 14, 10020 Arignano TO",
+      "lat": 45.060427,
+      "lng": 7.899437
+    },
+    {
+      "id": "293715bf-2fc6-4dbd-b011-12da1db7f591",
+      "slug": "confinedeisanti-b-b-arignano",
+      "nome": "ConfineDeiSanti B&B",
+      "city_name": "Arignano",
+      "indirizzo": "Via Lovencito, 6/a, 10020 Moriondo Torinese TO",
+      "lat": 45.041771,
+      "lng": 7.954474
+    },
+    {
+      "id": "685bce13-5a3d-44fa-87b5-aa4ae30cb783",
+      "slug": "i-conti-della-serva-arignano",
+      "nome": "I Conti della Serva",
+      "city_name": "Arignano",
+      "indirizzo": "Via Regione Aprà, 7, 10090 Cinzano TO",
+      "lat": 45.09436,
+      "lng": 7.911416
+    },
+    {
+      "id": "c497e2d5-3cdd-4931-9b4d-339a2b95c9fb",
+      "slug": "locanda-del-centro-arignano",
+      "nome": "Locanda del Centro",
+      "city_name": "Arignano",
+      "indirizzo": "Via Lorenzo Martini, 34, 10020 Cambiano TO",
+      "lat": 44.973552,
+      "lng": 7.781007
+    },
+    {
+      "id": "8f37946c-4f0e-48bc-aa5b-382f8427eb00",
+      "slug": "amistade-b-b-aritzo",
+      "nome": "Amistade B&B",
+      "city_name": "Aritzo",
+      "indirizzo": "Via Ospitone, 7, 09065 Seulo NU",
+      "lat": 39.871065,
+      "lng": 9.235323
+    },
+    {
+      "id": "94f1bfb1-4744-4ed0-ab06-18870fba3fcc",
+      "slug": "aurora-paba-aritzo",
+      "nome": "Aurora Paba",
+      "city_name": "Aritzo",
+      "indirizzo": "Via Margherita, 16, 08031 Aritzo NU",
+      "lat": 39.954933,
+      "lng": 9.196142
+    },
+    {
+      "id": "bc28845d-ce87-49ab-bbc8-38bc0f74444d",
+      "slug": "b-b-lugori-di-murgia-stefania-aritzo",
+      "nome": "B&B lugori di Murgia Stefania",
+      "city_name": "Aritzo",
+      "indirizzo": "località Taccu, 09065 Seulo NU",
+      "lat": 39.859505,
+      "lng": 9.225079
+    },
+    {
+      "id": "4c4a3f69-9fb9-4244-8d79-8533cc47fb43",
+      "slug": "b-b-santu-giuvanni-un-tuffo-nel-passato-aritzo",
+      "nome": "B&B Santu Giuvanni Un Tuffo nel Passato",
+      "city_name": "Aritzo",
+      "indirizzo": "Via Monte Spada, 18, Campanello in, Via Monte Spada, 16, 08023 Fonni NU",
+      "lat": 40.116394,
+      "lng": 9.255041
+    },
+    {
+      "id": "bb00abf5-1acc-4c82-b4f6-29a04ea0db8a",
+      "slug": "bed-and-breakfast-la-baita-di-aritzo-aritzo",
+      "nome": "Bed and Breakfast - La Baita di Aritzo",
+      "city_name": "Aritzo",
+      "indirizzo": "Via Bigna e Mariccu, 4, 08031 Aritzo NU",
+      "lat": 39.953393,
+      "lng": 9.194546
+    },
+    {
+      "id": "b6ad48d8-e47b-43a9-8de6-eff570a3abf1",
+      "slug": "bed-and-breakfast-al-rifugio-aritzo",
+      "nome": "Bed and Breakfast \"Al Rifugio\"",
+      "city_name": "Aritzo",
+      "indirizzo": "Via Nuova, 2, 08031 Aritzo NU",
+      "lat": 39.959701,
+      "lng": 9.196806
+    },
+    {
+      "id": "95d2ad72-3ba2-449d-9c25-7a746f68716d",
+      "slug": "bed-and-breakfast-casa-masini-fonni-aritzo",
+      "nome": "Bed and Breakfast Casa Masini Fonni",
+      "city_name": "Aritzo",
+      "indirizzo": "Via Alfonso Lamarmora, 4, 08023 Fonni NU",
+      "lat": 40.118174,
+      "lng": 9.252473
+    },
+    {
+      "id": "04d62625-54a6-4f60-a40d-173d43d23496",
+      "slug": "bed-breakfast-sa-jinta-aritzo",
+      "nome": "bed breakfast sa jinta",
+      "city_name": "Aritzo",
+      "indirizzo": "Via Alfonso Lamarmora, n8, 08030 Belvì NU",
+      "lat": 39.960818,
+      "lng": 9.184925
+    },
+    {
+      "id": "fb827858-d646-4586-ab33-8e8c5ac47fa4",
+      "slug": "chalet-su-foxile-aritzo",
+      "nome": "Chalet su Foxile",
+      "city_name": "Aritzo",
+      "indirizzo": "Loc. Gidilau, 08031 Aritzo NU",
+      "lat": 39.956417,
+      "lng": 9.191511
+    },
+    {
+      "id": "50b56e81-e958-4838-9429-dcaf1d15ce3a",
+      "slug": "cucina-tipica-hotel-ristorante-edera-di-cadau-ma-aritzo",
+      "nome": "Cucina Tipica Hotel Ristorante Edera di Cadau Marianna",
+      "city_name": "Aritzo",
+      "indirizzo": "Via Roma, 40, 08030 Belvì NU",
+      "lat": 39.957673,
+      "lng": 9.1821
+    },
+    {
+      "id": "e382dbce-88c4-4be4-9d5b-4f21a34a0830",
+      "slug": "hotel-belvedere-aritzo",
+      "nome": "Hotel Belvedere",
+      "city_name": "Aritzo",
+      "indirizzo": "SS295, Via Monsignor Tore, 39, 08039 Tonara NU",
+      "lat": 40.023887,
+      "lng": 9.169357
+    },
+    {
+      "id": "c131704e-a50a-4453-b7c1-2a3a030e6e2f",
+      "slug": "hotel-la-capannina-aritzo",
+      "nome": "hotel la capannina",
+      "city_name": "Aritzo",
+      "indirizzo": "Via Antonio Maxia, 78, 08031 Aritzo NU",
+      "lat": 39.95129,
+      "lng": 9.191246
+    },
+    {
+      "id": "16b7d471-4704-4c21-9821-04d5d40b1bdb",
+      "slug": "hotel-miramonti-seulo-aritzo",
+      "nome": "Hotel Miramonti Seulo",
+      "city_name": "Aritzo",
+      "indirizzo": "Localita Genna e sa luna, 09065 Seulo NU",
+      "lat": 39.870807,
+      "lng": 9.2245
+    },
+    {
+      "id": "baac2a3a-fc91-445d-a216-2915c0728119",
+      "slug": "hotel-moderno-aritzo",
+      "nome": "Hotel Moderno",
+      "city_name": "Aritzo",
+      "indirizzo": "Viale Kennedy, 6, 08031 Aritzo NU",
+      "lat": 39.953561,
+      "lng": 9.197521
+    },
+    {
+      "id": "e8e7cb12-9176-41d0-aaec-88c662ba34cc",
+      "slug": "hotel-ristorante-gusana-aritzo",
+      "nome": "Hotel Ristorante Gusana",
+      "city_name": "Aritzo",
+      "indirizzo": "Localita' Lago Di Gusana, 08020 Gavoi NU",
+      "lat": 40.135212,
+      "lng": 9.190388
+    },
+    {
+      "id": "ac98bc09-9a78-41af-b023-9256802f096c",
+      "slug": "hotel-sa-muvara-aritzo",
+      "nome": "Hotel Sa Muvara",
+      "city_name": "Aritzo",
+      "indirizzo": "Viale Kennedy, 33, 08031 Aritzo NU",
+      "lat": 39.949226,
+      "lng": 9.1911
+    },
+    {
+      "id": "f13594e2-9baf-4dbe-93eb-1ed1a325505e",
+      "slug": "s-apposentu-aritzo",
+      "nome": "S'apposentu",
+      "city_name": "Aritzo",
+      "indirizzo": "Via Bachisio Sulis, 1, 08031 Aritzo NU",
+      "lat": 39.956373,
+      "lng": 9.196919
+    },
+    {
+      "id": "a82fe67d-94ab-4a9f-8517-beb0780bd07c",
+      "slug": "s-erbei-niedda-guesthouse-aritzo",
+      "nome": "S'Erbei Niedda Guesthouse",
+      "city_name": "Aritzo",
+      "indirizzo": "Via Amsicora, 4, 09065 Seulo NU",
+      "lat": 39.868643,
+      "lng": 9.237406
+    },
+    {
+      "id": "fb9a133d-467f-41e1-bee0-867d577f108c",
+      "slug": "sa-stiddiosa-guesthouse-aritzo",
+      "nome": "Sa Stiddiosa Guesthouse",
+      "city_name": "Aritzo",
+      "indirizzo": "Via Umberto I, 17, 08030 Gadoni NU",
+      "lat": 39.916066,
+      "lng": 9.185749
+    },
+    {
+      "id": "31be1cc7-cff2-4fda-80e1-d0e2cd23b2ab",
+      "slug": "agriturismo-al-motto-arizzano",
+      "nome": "Agriturismo Al Motto",
+      "city_name": "Arizzano",
+      "indirizzo": "Via Sant'Anna, 7, 28814 Cambiasca VB",
+      "lat": 45.966121,
+      "lng": 8.546741
+    },
+    {
+      "id": "2d803e7e-0f6a-42a4-91f9-4e5008d458df",
+      "slug": "b-b-la-locanda-del-cinghiale-arizzano",
+      "nome": "B&B La Locanda del Cinghiale",
+      "city_name": "Arizzano",
+      "indirizzo": "Via Roma, 11, 28812 Aurano VB",
+      "lat": 45.998291,
+      "lng": 8.587923
+    },
+    {
+      "id": "53f14702-cb84-4c51-8b54-0ccb3ae8c9ce",
+      "slug": "b-b-villa-arancio-arizzano",
+      "nome": "B&B Villa Arancio",
+      "city_name": "Arizzano",
+      "indirizzo": "Via Santa Croce, 7, 28823 Ghiffa VB",
+      "lat": 45.958606,
+      "lng": 8.61963
+    },
+    {
+      "id": "ed400bce-8283-4c9d-a0ac-63d580cb5ee6",
+      "slug": "cherry-home-casa-vacanza-cin-it103003c2r4yjfyd4-arizzano",
+      "nome": "cherry home casa vacanza CIN IT103003C2R4YJFYD4",
+      "city_name": "Arizzano",
+      "indirizzo": "Corso Roma, 8, 28811 Arizzano VB",
+      "lat": 45.955313,
+      "lng": 8.584302
+    },
+    {
+      "id": "3716cd30-a7d6-4c71-954f-1ff827f2c92e",
+      "slug": "chi-ghinn-arizzano",
+      "nome": "Chi Ghinn",
+      "city_name": "Arizzano",
+      "indirizzo": "Via Maggiore, 21, 28813 Bee VB",
+      "lat": 45.960281,
+      "lng": 8.581398
+    },
+    {
+      "id": "eae653fc-8579-4fd2-82b6-e26c3f62b090",
+      "slug": "frankie-s-house-arizzano",
+      "nome": "Frankie’s House",
+      "city_name": "Arizzano",
+      "indirizzo": "Corso Risorgimento, 247, 28823 Ghiffa VB",
+      "lat": 45.959399,
+      "lng": 8.617899
+    },
+    {
+      "id": "bbce709b-f6dc-457e-9160-7e185a5b3406",
+      "slug": "holy-lake-arizzano",
+      "nome": "Holy Lake",
+      "city_name": "Arizzano",
+      "indirizzo": "Via De Amicis, 4, 28823 Ghiffa VB",
+      "lat": 45.956059,
+      "lng": 8.615707
+    },
+    {
+      "id": "78936187-e4ce-4194-bc57-08afbf9bdf7f",
+      "slug": "hotel-ancora-arizzano",
+      "nome": "Hotel Ancora",
+      "city_name": "Arizzano",
+      "indirizzo": "Corso Goffredo Mameli, 65, 28921 Verbania VB",
+      "lat": 45.93508,
+      "lng": 8.573606
+    },
+    {
+      "id": "52ceb635-9c3e-48f1-829c-362213b0db47",
+      "slug": "hotel-del-conte-arizzano",
+      "nome": "Hotel del Conte",
+      "city_name": "Arizzano",
+      "indirizzo": "Viale G. Garibaldi, 15, 21014 Laveno-Mombello VA",
+      "lat": 45.90854,
+      "lng": 8.61952
+    },
+    {
+      "id": "8021285f-7dc2-42ca-8dce-dccefe0f8656",
+      "slug": "hotel-moderno-arizzano",
+      "nome": "Hotel Moderno",
+      "city_name": "Arizzano",
+      "indirizzo": "Via Cesira Tresoldi Lorini, 1, 28818 Premeno VB",
+      "lat": 45.975546,
+      "lng": 8.591491
+    },
+    {
+      "id": "61268f73-a45a-48ff-ae4c-220ad49e4a24",
+      "slug": "hotel-pesce-d-oro-arizzano",
+      "nome": "Hotel Pesce d'Oro",
+      "city_name": "Arizzano",
+      "indirizzo": "Via Paolo Troubetzkoy, 136, 28925 Verbania VB",
+      "lat": 45.931268,
+      "lng": 8.539892
+    },
+    {
+      "id": "882146ff-6a84-4104-bf8a-88ca04c9b4c5",
+      "slug": "hotel-pian-nava-arizzano",
+      "nome": "Hotel Pian Nava",
+      "city_name": "Arizzano",
+      "indirizzo": "Via Milano, 21, 28813 Pian Nava VB",
+      "lat": 45.975211,
+      "lng": 8.582791
+    }
+  ]
+}

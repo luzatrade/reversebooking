@@ -1,0 +1,323 @@
+{
+  "block": 470,
+  "blockId": "470",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "41022586-42e7-4142-b34f-9f88d090d459",
+      "slug": "maison-younesco-villa-exclusive-tra-langhe-e-mon-castagnole-delle-lanze",
+      "nome": "Maison Younesco Villa exclusive tra Langhe e Monferrato",
+      "city_name": "Castagnole delle Lanze",
+      "indirizzo": "Via Ener Bettica, 31, 14054 Castagnole delle Lanze AT",
+      "lat": 44.753276,
+      "lng": 8.151581
+    },
+    {
+      "id": "d344fd1f-856d-408d-aaf8-676fdec63d4b",
+      "slug": "monvi-wine-relais-castagnole-delle-lanze",
+      "nome": "Monvì Wine Relais",
+      "city_name": "Castagnole delle Lanze",
+      "indirizzo": "Str. S. Martino, 3, 14055 Costigliole d'Asti AT",
+      "lat": 44.790575,
+      "lng": 8.168831
+    },
+    {
+      "id": "941233c3-ecb9-4f96-9b9a-3cb48f0ccdc2",
+      "slug": "vicolo-al-castello-langhe-e-monferrato-suites-castagnole-delle-lanze",
+      "nome": "Vicolo Al Castello - Langhe e Monferrato Suites",
+      "city_name": "Castagnole delle Lanze",
+      "indirizzo": "Vicolo Risso, 5, Via Pola, 1, 14055 Costigliole d'Asti AT",
+      "lat": 44.788235,
+      "lng": 8.179048
+    },
+    {
+      "id": "d4ce35f9-f97e-4847-8c15-6b4db88ca996",
+      "slug": "villa-cristina-suite-castagnole-delle-lanze",
+      "nome": "Villa Cristina Suite",
+      "city_name": "Castagnole delle Lanze",
+      "indirizzo": "Via Piani, 5/A, 14054 Castagnole delle Lanze AT",
+      "lat": 44.759563,
+      "lng": 8.157197
+    },
+    {
+      "id": "d929b815-f0bf-4bda-a5ac-96fb9e2ac4de",
+      "slug": "villa-fernando-castagnole-delle-lanze",
+      "nome": "VILLA FERNANDO",
+      "city_name": "Castagnole delle Lanze",
+      "indirizzo": "Via Val Guarena, 6, 14054 Castagnole delle Lanze AT",
+      "lat": 44.751162,
+      "lng": 8.14547
+    },
+    {
+      "id": "087a79c4-bbcf-4a6f-8537-62691c546087",
+      "slug": "villa-gallina-castagnole-delle-lanze",
+      "nome": "Villa Gallina",
+      "city_name": "Castagnole delle Lanze",
+      "indirizzo": "Via Gallina, 24, 12052 Neive CN",
+      "lat": 44.732436,
+      "lng": 8.095818
+    },
+    {
+      "id": "30cc08a4-3f86-4c52-9fa8-02c63e96166c",
+      "slug": "villa-la-mura-castagnole-delle-lanze",
+      "nome": "Villa La Mura",
+      "city_name": "Castagnole delle Lanze",
+      "indirizzo": "Strada Convento Tinella, 22, 14055 Costigliole d'Asti AT",
+      "lat": 44.768258,
+      "lng": 8.16748
+    },
+    {
+      "id": "2ca9a1db-40fe-4bc8-832d-d71c15f9abbd",
+      "slug": "villa-perla-castagnole-delle-lanze",
+      "nome": "Villa Perla",
+      "city_name": "Castagnole delle Lanze",
+      "indirizzo": "Str. Bricco Quaglia, 14, 14055 Costigliole d'Asti AT",
+      "lat": 44.759501,
+      "lng": 8.22072
+    },
+    {
+      "id": "5f7d180e-d772-4aea-bbd8-e8d43899878d",
+      "slug": "agriturismo-cascina-madonna-castagnole-monferrato",
+      "nome": "Agriturismo Cascina Madonna",
+      "city_name": "Castagnole Monferrato",
+      "indirizzo": "Via Alessandria, 55, 14030 Refrancore AT",
+      "lat": 44.933734,
+      "lng": 8.346315
+    },
+    {
+      "id": "31161fa0-5415-4add-8d0e-f97fd6fa1826",
+      "slug": "b-b-la-vite-e-l-ulivo-castagnole-monferrato",
+      "nome": "B&B La Vite e l'Ulivo",
+      "city_name": "Castagnole Monferrato",
+      "indirizzo": "Via S. Secondo, 33, 14030 Castagnole Monferrato AT",
+      "lat": 44.950399,
+      "lng": 8.301116
+    },
+    {
+      "id": "9a22640a-e927-460d-a090-2daebbf9a62f",
+      "slug": "golf-club-margara-castagnole-monferrato",
+      "nome": "Golf Club Margara",
+      "city_name": "Castagnole Monferrato",
+      "indirizzo": "WCR6+WX, Regione Margara, 15043 Fubine Monferrato AL",
+      "lat": 44.940044,
+      "lng": 8.412454
+    },
+    {
+      "id": "7da11f0b-13f4-42ea-acba-ef43ad2c9e7c",
+      "slug": "la-culla-di-bacco-castagnole-monferrato",
+      "nome": "La Culla di Bacco",
+      "city_name": "Castagnole Monferrato",
+      "indirizzo": "Via Garibaldi, 6, 14030 Castagnole Monferrato AT",
+      "lat": 44.961235,
+      "lng": 8.306804
+    },
+    {
+      "id": "228c7147-6e9d-42fc-935f-aa3823798940",
+      "slug": "la-mondianese-d-vine-castagnole-monferrato",
+      "nome": "La Mondianese D&Vine",
+      "city_name": "Castagnole Monferrato",
+      "indirizzo": "Cascina Mondianese, 12, 14030 Montemagno Monferrato AT",
+      "lat": 44.959476,
+      "lng": 8.315436
+    },
+    {
+      "id": "b0ca86b3-fa67-4c66-9244-68765ae60a72",
+      "slug": "relais-di-tenuta-santa-caterina-castagnole-monferrato",
+      "nome": "Relais di Tenuta Santa Caterina",
+      "city_name": "Castagnole Monferrato",
+      "indirizzo": "Via Guglielmo Marconi, 23, 14035 Grazzano Badoglio AT",
+      "lat": 45.035599,
+      "lng": 8.314116
+    },
+    {
+      "id": "32e9ba3b-b86a-4d1f-a747-fc4b10cf86f6",
+      "slug": "b-b-edera-castagnole-piemonte",
+      "nome": "B&B Edera",
+      "city_name": "Castagnole Piemonte",
+      "indirizzo": "Via Garibaldi, 27, 10060 Castagnole Piemonte TO",
+      "lat": 44.898711,
+      "lng": 7.570802
+    },
+    {
+      "id": "e21bfc54-7d74-452e-a27c-5b37880513ca",
+      "slug": "hotel-parisi-castagnole-piemonte",
+      "nome": "Hotel Parisi",
+      "city_name": "Castagnole Piemonte",
+      "indirizzo": "Via Luigi, Via Galvani, 19, 10042 Nichelino TO",
+      "lat": 45.002959,
+      "lng": 7.650948
+    },
+    {
+      "id": "edcac1e3-7210-405a-863b-afed6e044579",
+      "slug": "le-soleil-b-b-castagnole-piemonte",
+      "nome": "Le Soleil B&B",
+      "city_name": "Castagnole Piemonte",
+      "indirizzo": "Via Borgata S. Rocco, 26, 10060 Cercenasco TO",
+      "lat": 44.863627,
+      "lng": 7.487795
+    },
+    {
+      "id": "f6038431-316d-40fb-8967-9b5926ff6df2",
+      "slug": "b-b-la-colinesse-castana",
+      "nome": "B&B La Colinesse",
+      "city_name": "Castana",
+      "indirizzo": "Frazione Casa del Moro, 13, 27040 Montù Beccaria PV",
+      "lat": 45.017537,
+      "lng": 9.295875
+    },
+    {
+      "id": "6ab0ac0b-4447-4fd9-8272-4acab2e7ddff",
+      "slug": "delightful-home-lovely-hill-view-castana",
+      "nome": "Delightful Home-Lovely Hill View",
+      "city_name": "Castana",
+      "indirizzo": "Ca de Bazzini, 28, 27044 Canneto Pavese PV",
+      "lat": 45.04143,
+      "lng": 9.270129
+    },
+    {
+      "id": "04c2fe87-046b-4866-9f95-a4a8d89b7d27",
+      "slug": "b-b-del-corso-castano-primo",
+      "nome": "B&B DEL CORSO",
+      "city_name": "Castano Primo",
+      "indirizzo": "Corso Martiri Patrioti, 39, 20022 Castano Primo MI",
+      "lat": 45.552393,
+      "lng": 8.781019
+    },
+    {
+      "id": "754bb70e-d008-4ae8-a2be-91ced6e73780",
+      "slug": "da-mariuccia-castano-primo",
+      "nome": "Da Mariuccia",
+      "city_name": "Castano Primo",
+      "indirizzo": "Via Don Luigi Pozzi, 43, 20020 Robecchetto con Induno MI",
+      "lat": 45.526232,
+      "lng": 8.782048
+    },
+    {
+      "id": "39867dbc-19a2-4f1f-991f-29d9309c90db",
+      "slug": "hotel-motel-malpensa-inn-airport-malpensa-milano-castano-primo",
+      "nome": "Hotel & Motel Malpensa Inn AirPort Malpensa Milano",
+      "city_name": "Castano Primo",
+      "indirizzo": "Via Sant'Anna, 25, 21015 Lonate Pozzolo VA",
+      "lat": 45.58355,
+      "lng": 8.722685
+    },
+    {
+      "id": "e1de8b38-7cfd-44ba-8d0b-2362ef464d03",
+      "slug": "i-m-b-b-castano-primo",
+      "nome": "I’M B&B",
+      "city_name": "Castano Primo",
+      "indirizzo": "Via Santa Caterina, 81, 21015 Lonate Pozzolo VA",
+      "lat": 45.599154,
+      "lng": 8.764905
+    },
+    {
+      "id": "95d9c180-a30d-4f4d-a7d6-1e2d4d2da6dc",
+      "slug": "l-ago-nel-pagliaio-castano-primo",
+      "nome": "L'ago nel pagliaio",
+      "city_name": "Castano Primo",
+      "indirizzo": "Via Giacomo Matteotti, 34, 20029 Turbigo MI",
+      "lat": 45.533335,
+      "lng": 8.738294
+    },
+    {
+      "id": "cf826faf-1fa0-4bd2-b210-1b2bf1d6dac3",
+      "slug": "villoresi-rooms-castano-primo",
+      "nome": "VILLORESI ROOMS",
+      "city_name": "Castano Primo",
+      "indirizzo": "Via Gallarate, 14/16, 20022 Castano Primo MI",
+      "lat": 45.555414,
+      "lng": 8.783444
+    },
+    {
+      "id": "05c948d9-b29d-4dc3-89c7-1a0fa3c77b0b",
+      "slug": "b-b-oltrepo-di-albertini-gloria-casteggio",
+      "nome": "B&B Oltrepo di Albertini Gloria",
+      "city_name": "Casteggio",
+      "indirizzo": "Via Emilia, 27045 Casteggio PV",
+      "lat": 45.017398,
+      "lng": 9.132568
+    },
+    {
+      "id": "d0517447-a34f-403c-b4b5-ae6f64ae1baa",
+      "slug": "b-b-reginetta-casteggio",
+      "nome": "B&B REGINETTA",
+      "city_name": "Casteggio",
+      "indirizzo": "Via Alessandro Manzoni, 154, 27045 Casteggio PV",
+      "lat": 45.007559,
+      "lng": 9.117978
+    },
+    {
+      "id": "fceacc6c-4f8b-4144-b940-1dfc3bfd782e",
+      "slug": "agriturismo-masseria-portiere-stella-castel-di-iudica",
+      "nome": "Agriturismo Masseria Portiere Stella",
+      "city_name": "Castel di Iudica",
+      "indirizzo": "Contrada Portiere Stella, 95047 Paternò CT",
+      "lat": 37.456985,
+      "lng": 14.877337
+    },
+    {
+      "id": "23219174-5206-4b75-a15a-f571f44af20f",
+      "slug": "albergo-hotel-castel-miralago-castel-di-iudica",
+      "nome": "Albergo Hotel Castel Miralago",
+      "city_name": "Castel di Iudica",
+      "indirizzo": "SS121, KM 60, 94017 Regalbuto EN",
+      "lat": 37.644544,
+      "lng": 14.615646
+    },
+    {
+      "id": "dc4e4b4e-2a06-4b08-ae40-548872dbb0ba",
+      "slug": "belvedere-castel-di-iudica",
+      "nome": "Belvedere",
+      "city_name": "Castel di Iudica",
+      "indirizzo": "Via Giuseppe Garibaldi, 77, 95040 Castel di Judica CT",
+      "lat": 37.494997,
+      "lng": 14.646781
+    },
+    {
+      "id": "9eb59e9a-02c5-441d-88ca-dc3d5104a1d8",
+      "slug": "b-b-il-miglio-in-piu-castel-di-lucio",
+      "nome": "B&B Il Miglio In Più",
+      "city_name": "Castel di Lucio",
+      "indirizzo": "Via Nazionale, 107, 98079 Castel di Tusa ME",
+      "lat": 38.009125,
+      "lng": 14.250022
+    },
+    {
+      "id": "21073031-883d-47b7-b26b-dbd8da9f275d",
+      "slug": "exclusive-apartments-in-center-castel-di-lucio",
+      "nome": "Exclusive Apartments in center",
+      "city_name": "Castel di Lucio",
+      "indirizzo": "Strada Santa Caterina, 3, 98073 Mistretta ME",
+      "lat": 37.926611,
+      "lng": 14.362239
+    },
+    {
+      "id": "d5c2c4d8-6e0e-450d-b15f-dc62c382d544",
+      "slug": "la-rocca-castel-di-lucio",
+      "nome": "La Rocca",
+      "city_name": "Castel di Lucio",
+      "indirizzo": "Via S. Antonio Abate, 9, 94014 Nicosia EN",
+      "lat": 37.747293,
+      "lng": 14.396068
+    },
+    {
+      "id": "c9b5c3c3-747a-42fd-98bf-d1b1e6e5d07a",
+      "slug": "le-nuvole-castel-di-lucio",
+      "nome": "Le Nuvole",
+      "city_name": "Castel di Lucio",
+      "indirizzo": "Via Croce Missione, 8, 98077 Santo Stefano di Camastra ME",
+      "lat": 38.013833,
+      "lng": 14.350933
+    },
+    {
+      "id": "196bf10d-20cf-457b-86ed-59dbb7687f57",
+      "slug": "a-badia-castelbuono",
+      "nome": "a Badia",
+      "city_name": "Castelbuono",
+      "indirizzo": "Via Roma, 97, 90013 Castelbuono PA",
+      "lat": 37.93115,
+      "lng": 14.086369
+    }
+  ]
+}

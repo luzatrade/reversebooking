@@ -1,0 +1,323 @@
+{
+  "block": 489,
+  "blockId": "489",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "f05c5b7c-4479-4756-babb-965a0c90abe6",
+      "slug": "the-madrid-edition-madrid",
+      "nome": "The Madrid EDITION",
+      "city_name": "Madrid",
+      "indirizzo": "Pl. de Celenque, 2, Centro, 28013 Madrid",
+      "lat": 40.417536,
+      "lng": -3.70603
+    },
+    {
+      "id": "3679f05c-f4bb-479a-a5bb-1afd2330a980",
+      "slug": "umusic-hotel-madrid-madrid",
+      "nome": "UMusic Hotel Madrid",
+      "city_name": "Madrid",
+      "indirizzo": "C. de la Paz, 11, Centro, 28012 Madrid",
+      "lat": 40.415345,
+      "lng": -3.704102
+    },
+    {
+      "id": "4bfcbac4-b771-4e3d-81ca-9fcb61818396",
+      "slug": "woohoo-rooms-boutique-sol-madrid",
+      "nome": "Woohoo Rooms Boutique Sol",
+      "city_name": "Madrid",
+      "indirizzo": "C. de Carretas, 7, 3ª y 4ª planta, Centro, 28012 Madrid",
+      "lat": 40.416316,
+      "lng": -3.703052
+    },
+    {
+      "id": "dcca9889-db5f-4fd5-ae1f-614282e3b12f",
+      "slug": "woohoo-suites-madrid-madrid",
+      "nome": "Woohoo Suites Madrid",
+      "city_name": "Madrid",
+      "indirizzo": "C. de Concepcion Arenal, 6, 1º, Centro, 28004 Madrid",
+      "lat": 40.420789,
+      "lng": -3.704671
+    },
+    {
+      "id": "202346c5-aa55-4adc-833a-2ba4e75d5779",
+      "slug": "amelie-hotel-manila-manila",
+      "nome": "Amelie Hotel Manila",
+      "city_name": "Manila",
+      "indirizzo": "1667 Bocobo St, Malate, Manila, 1004 Metro Manila",
+      "lat": 14.573199,
+      "lng": 120.985016
+    },
+    {
+      "id": "6b14188e-83a3-43d5-a06d-f0d91b741995",
+      "slug": "bayview-park-hotel-manila-manila",
+      "nome": "Bayview Park Hotel Manila",
+      "city_name": "Manila",
+      "indirizzo": "1118 Roxas Boulevard, corner United Nations Avenue, Ermita, Manila, 1000 Metro Manila",
+      "lat": 14.578761,
+      "lng": 120.978416
+    },
+    {
+      "id": "08fcd9d6-25de-43df-b750-f62bad090e72",
+      "slug": "city-garden-suites-manila-manila",
+      "nome": "City Garden Suites Manila",
+      "city_name": "Manila",
+      "indirizzo": "1158 A. Mabini St, Ermita, Manila, 1004 Metro Manila",
+      "lat": 14.578896,
+      "lng": 120.980743
+    },
+    {
+      "id": "635d99a3-0d15-4951-9cd9-29826d103ab9",
+      "slug": "diamond-hotel-philippines-manila",
+      "nome": "Diamond Hotel Philippines",
+      "city_name": "Manila",
+      "indirizzo": "Roxas Boulevard, Corner Dr. J. Quintos Street, Malate, Manila, 1000 Metro Manila",
+      "lat": 14.572442,
+      "lng": 120.982176
+    },
+    {
+      "id": "db9a0143-17f7-4300-88c9-826be4319a97",
+      "slug": "executive-hotel-manila-manila",
+      "nome": "Executive Hotel Manila",
+      "city_name": "Manila",
+      "indirizzo": "1630 A. Mabini St, Malate, Manila, 1004 Metro Manila",
+      "lat": 14.57338,
+      "lng": 120.983413
+    },
+    {
+      "id": "d452ea98-62b7-4e19-a8a9-51302892cd03",
+      "slug": "las-palmas-hotel-de-manila-manila",
+      "nome": "Las Palmas Hotel de Manila",
+      "city_name": "Manila",
+      "indirizzo": "1616 A. Mabini St, Malate, Manila, 1004 Metro Manila",
+      "lat": 14.573656,
+      "lng": 120.983375
+    },
+    {
+      "id": "62c4dc1a-652e-46e6-a9a3-544438387a79",
+      "slug": "manila-grand-opera-hotel-manila",
+      "nome": "Manila Grand Opera Hotel",
+      "city_name": "Manila",
+      "indirizzo": "925 Doroteo Jose St, Santa Cruz, Manila, 1003 Metro Manila",
+      "lat": 14.605408,
+      "lng": 120.981563
+    },
+    {
+      "id": "f099247e-f465-4515-a682-c54b624e517f",
+      "slug": "new-coast-hotel-manila-manila",
+      "nome": "New Coast Hotel Manila",
+      "city_name": "Manila",
+      "indirizzo": "1588 Pedro Gil, corner Del Pilar St, Malate, Manila, 1004 Metro Manila",
+      "lat": 14.573537,
+      "lng": 120.982747
+    },
+    {
+      "id": "dc4a2238-ef54-406b-bf78-0d31dad247cd",
+      "slug": "pearl-lane-hotel-manila-manila",
+      "nome": "Pearl Lane Hotel Manila",
+      "city_name": "Manila",
+      "indirizzo": "1700 Ma. Orosa St, Malate, Manila, 1004 Metro Manila",
+      "lat": 14.573163,
+      "lng": 120.986358
+    },
+    {
+      "id": "dcdc2558-65d7-4181-be2e-9449e6a2d839",
+      "slug": "red-planet-manila-bay-manila",
+      "nome": "Red Planet Manila Bay",
+      "city_name": "Manila",
+      "indirizzo": "Arquiza St. Corner, 0930 Alhambra St, Ermita, Manila, 1000 Metro Manila",
+      "lat": 14.57755,
+      "lng": 120.97953
+    },
+    {
+      "id": "c94391d1-b4a5-430c-abf2-59f9dd70777c",
+      "slug": "regency-grand-suites-manila",
+      "nome": "Regency Grand Suites",
+      "city_name": "Manila",
+      "indirizzo": "Birch Tower, 1622 Bocobo St, Malate, Manila, 1004 Metro Manila",
+      "lat": 14.574069,
+      "lng": 120.984861
+    },
+    {
+      "id": "a6065061-87b6-4be8-8d31-4d1d26926483",
+      "slug": "riviera-mansion-hotel-manila",
+      "nome": "Riviera Mansion Hotel",
+      "city_name": "Manila",
+      "indirizzo": "1638 A. Mabini St, Malate, Manila, 1004 Metro Manila",
+      "lat": 14.573322,
+      "lng": 120.983555
+    },
+    {
+      "id": "3a647c87-a7dd-4810-8baf-6797c33af1c4",
+      "slug": "skyloft-hotel-manila",
+      "nome": "Skyloft Hotel",
+      "city_name": "Manila",
+      "indirizzo": "1160 Governor Forbes, Sampaloc, Manila, 1008 Metro Manila",
+      "lat": 14.612657,
+      "lng": 120.9903
+    },
+    {
+      "id": "fc51c09f-9327-40cd-b1e6-7edfe0b084d7",
+      "slug": "swiss-belhotel-blulane-manila",
+      "nome": "Swiss-Belhotel Blulane",
+      "city_name": "Manila",
+      "indirizzo": "609 Tomas Mapua St, Santa Cruz, Manila, 1003 Metro Manila",
+      "lat": 14.60167,
+      "lng": 120.979714
+    },
+    {
+      "id": "5a432940-6d7a-4976-9ab6-f542549146e6",
+      "slug": "the-manila-hotel-manila",
+      "nome": "The Manila Hotel",
+      "city_name": "Manila",
+      "indirizzo": "1 Rizal Park, Ermita, Manila, 0913 Metro Manila",
+      "lat": 14.583273,
+      "lng": 120.97394
+    },
+    {
+      "id": "20b32bf9-48bb-4952-8b85-b64fde259ef6",
+      "slug": "affittacamere-sestiere-santa-caterina-mazzarrone",
+      "nome": "Affittacamere Sestiere Santa Caterina",
+      "city_name": "Mazzarrone",
+      "indirizzo": "Via Arturo Toscanini, 1, 95042 Grammichele CT",
+      "lat": 37.213222,
+      "lng": 14.634271
+    },
+    {
+      "id": "86cad9ea-bab2-4c71-8f7d-4e85e23e5364",
+      "slug": "agriturismo-tenuta-margitello-mazzarrone",
+      "nome": "Agriturismo Tenuta Margitello",
+      "city_name": "Mazzarrone",
+      "indirizzo": "Ss 115 ((Km 310, 7, 97013 Comiso RG",
+      "lat": 36.945025,
+      "lng": 14.623726
+    },
+    {
+      "id": "3f3f215b-44f0-4546-9247-87d687fea6e4",
+      "slug": "g-g-hotel-mazzarrone",
+      "nome": "G&G Hotel",
+      "city_name": "Mazzarrone",
+      "indirizzo": "Viale Raffaele Failla, 90a, 95042 Grammichele CT",
+      "lat": 37.21176,
+      "lng": 14.646104
+    },
+    {
+      "id": "164f61ae-1a7a-4d63-a2c2-fc620315a793",
+      "slug": "guest-house-al-viale-affittacamere-mazzarrone",
+      "nome": "Guest House al Viale Affittacamere",
+      "city_name": "Mazzarrone",
+      "indirizzo": "Via Giuseppe Mazzini, 5, 95041 Caltagirone CT",
+      "lat": 37.221722,
+      "lng": 14.525491
+    },
+    {
+      "id": "bcf1a52d-84e4-43e9-8f8f-b764c7bc5a89",
+      "slug": "ronnavona-casa-vacanze-b-b-mazzarrone",
+      "nome": "Ronnavona Casa Vacanze B&B",
+      "city_name": "Mazzarrone",
+      "indirizzo": "Contrada Donnagona, 122, 97012 Chiaramonte Gulfi RG",
+      "lat": 37.07555,
+      "lng": 14.667499
+    },
+    {
+      "id": "d617cf4b-5367-46a4-b378-ae36aca9cc3d",
+      "slug": "amada-hotel-siracusa-melilli",
+      "nome": "Amada Hotel Siracusa",
+      "city_name": "Melilli",
+      "indirizzo": "Via Parma, 15, 96010 Città Giardino SR",
+      "lat": 37.104245,
+      "lng": 15.216453
+    },
+    {
+      "id": "2d513f31-77ec-4ed3-a19a-a06e02903a40",
+      "slug": "b-b-melibleo-melilli",
+      "nome": "B&B MELIBLEO",
+      "city_name": "Melilli",
+      "indirizzo": "Via Prazio, 9, 96010 Melilli SR",
+      "lat": 37.177842,
+      "lng": 15.135728
+    },
+    {
+      "id": "02a0e29f-0ae8-43f5-bce7-3693506c74ca",
+      "slug": "grand-hotel-villa-politi-melilli",
+      "nome": "Grand Hotel Villa Politi",
+      "city_name": "Melilli",
+      "indirizzo": "Via Maria Politi Laudien, 2, 96100 Siracusa SR",
+      "lat": 37.078812,
+      "lng": 15.2935
+    },
+    {
+      "id": "b2e2a50f-fa6a-49d1-b1a4-98295c2b0d91",
+      "slug": "la-casa-dei-mori-a-melilli-melilli",
+      "nome": "La Casa Dei Mori a Melilli",
+      "city_name": "Melilli",
+      "indirizzo": "Via Iblea, 32, 96010 Melilli SR",
+      "lat": 37.179069,
+      "lng": 15.125362
+    },
+    {
+      "id": "c5a760ca-f157-4248-954e-17f587fabeaf",
+      "slug": "venti-di-brucoli-melilli",
+      "nome": "Venti di Brucoli",
+      "city_name": "Melilli",
+      "indirizzo": "Via Canale, 99, 96011 Brucoli SR",
+      "lat": 37.282262,
+      "lng": 15.187723
+    },
+    {
+      "id": "4f9e2b94-64e2-481a-9cc4-72bec93c088c",
+      "slug": "wonderful-italy-suites-melilli",
+      "nome": "Wonderful Italy Suites",
+      "city_name": "Melilli",
+      "indirizzo": "Via Francesco Crispi, 66, 96100 Siracusa SR",
+      "lat": 37.067833,
+      "lng": 15.282406
+    },
+    {
+      "id": "72c2138a-e5a4-4645-ac5d-b4507e1d1810",
+      "slug": "boutique-design-hotel-imperialart-merano",
+      "nome": "Boutique & Design Hotel ImperialArt",
+      "city_name": "Merano",
+      "indirizzo": "C.so della Libertà, 110, 39012 Merano BZ",
+      "lat": 46.67086,
+      "lng": 11.162352
+    },
+    {
+      "id": "c098476c-39ff-4685-85c1-13bfc72fd001",
+      "slug": "city-hotel-merano-merano",
+      "nome": "City Hotel Merano",
+      "city_name": "Merano",
+      "indirizzo": "Via Mainardo 41 (Parking:, Via degli Alpini, 23, 39012 Merano BZ",
+      "lat": 46.672835,
+      "lng": 11.154245
+    },
+    {
+      "id": "7f0e30d7-20c1-42a0-ae09-9fe87d1e9cb1",
+      "slug": "garni-villa-betty-merano",
+      "nome": "Garni Villa Betty",
+      "city_name": "Merano",
+      "indirizzo": "Via Petrarca, 51, 39012 Merano BZ",
+      "lat": 46.667057,
+      "lng": 11.155078
+    },
+    {
+      "id": "302b2d3e-a4fd-4c14-b8bb-16b7cebfa88b",
+      "slug": "grand-hotel-bellevue-merano",
+      "nome": "Grand Hotel Bellevue",
+      "city_name": "Merano",
+      "indirizzo": "C.so della Libertà, 194, 39012 Merano BZ",
+      "lat": 46.671394,
+      "lng": 11.153403
+    },
+    {
+      "id": "4449e71d-9171-48b2-8eba-96ab77ca1720",
+      "slug": "hotel-aurora-merano",
+      "nome": "Hotel Aurora",
+      "city_name": "Merano",
+      "indirizzo": "Passeggiata Lungo Passirio, 38, 39012 Merano BZ",
+      "lat": 46.67034,
+      "lng": 11.159639
+    }
+  ]
+}

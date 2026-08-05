@@ -1,0 +1,323 @@
+{
+  "block": 257,
+  "blockId": "257",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "5b27d099-1869-4c49-8750-76ecd51cdac8",
+      "slug": "b-b-villa-teresa-berchidda",
+      "nome": "B&B Villa Teresa",
+      "city_name": "Berchidda",
+      "indirizzo": "Viale Italia, 30, 07027 Oschiri OT",
+      "lat": 40.719479,
+      "lng": 9.104168
+    },
+    {
+      "id": "92fbfcb8-c920-4419-8f28-6c521d99390a",
+      "slug": "bed-breakfast-su-dezzi-berchidda",
+      "nome": "Bed & Breakfast Su Dezzi",
+      "city_name": "Berchidda",
+      "indirizzo": "07022 Berchidda OT",
+      "lat": 40.778312,
+      "lng": 9.149993
+    },
+    {
+      "id": "c41d461b-cf24-42a1-9de1-03777cc64dbd",
+      "slug": "borgo-lu-puleu-berchidda",
+      "nome": "Borgo Lu Puleu",
+      "city_name": "Berchidda",
+      "indirizzo": "Loc. Su Puleu, 07034 Perfugas SS",
+      "lat": 40.815857,
+      "lng": 8.966483
+    },
+    {
+      "id": "62025fe2-740f-49dd-bb02-3d4f363509ba",
+      "slug": "cantina-perandria-berchidda",
+      "nome": "Cantina Perandria",
+      "city_name": "Berchidda",
+      "indirizzo": "Strada Statale 389 di Buddusò e del Correboi, 07020 Monti OT",
+      "lat": 40.796456,
+      "lng": 9.292897
+    },
+    {
+      "id": "ad57da31-fe0c-4caf-bb31-b5a494bdd678",
+      "slug": "hotel-ristorante-nuovo-limbara-berchidda",
+      "nome": "Hotel Ristorante Nuovo Limbara",
+      "city_name": "Berchidda",
+      "indirizzo": "Via Coghinas, 1, 07022 Berchidda OT",
+      "lat": 40.78545,
+      "lng": 9.163246
+    },
+    {
+      "id": "2f9807e3-7eb0-4a34-b43c-7581d59e7a51",
+      "slug": "hotel-sos-chelvos-berchidda",
+      "nome": "HOTEL SOS CHELVOS",
+      "city_name": "Berchidda",
+      "indirizzo": "Via Umberto I, 52, 07022 Berchidda OT",
+      "lat": 40.782382,
+      "lng": 9.168349
+    },
+    {
+      "id": "f33130b0-c887-4d22-8771-192e9fb1a13a",
+      "slug": "kenza-rooms-berchidda",
+      "nome": "Kenza Rooms",
+      "city_name": "Berchidda",
+      "indirizzo": "Via Poerio, 5, 07029 Tempio Pausania OT",
+      "lat": 40.900118,
+      "lng": 9.106666
+    },
+    {
+      "id": "cb6b47e2-531b-405d-9b78-93d89c6fb487",
+      "slug": "la-dolce-vita-berchidda",
+      "nome": "La dolce vita",
+      "city_name": "Berchidda",
+      "indirizzo": "Via Fertilia, 6, 07029 Tempio Pausania OT",
+      "lat": 40.9011,
+      "lng": 9.105698
+    },
+    {
+      "id": "0e6354be-a726-4cdc-b0a6-91771c4c3384",
+      "slug": "vallicciola-monte-limbara-nature-hotel-berchidda",
+      "nome": "Vallicciola - Monte Limbara Nature Hotel",
+      "city_name": "Berchidda",
+      "indirizzo": "Località Vallicciola, Monte Limbara, 07029 Tempio Pausania OT",
+      "lat": 40.850471,
+      "lng": 9.152905
+    },
+    {
+      "id": "c905026f-fa48-4e4e-b697-6d917192aea0",
+      "slug": "vermentino-in-jazz-berchidda",
+      "nome": "Vermentino in Jazz",
+      "city_name": "Berchidda",
+      "indirizzo": "Via del Vermentino, 07022 Berchidda OT",
+      "lat": 40.77593,
+      "lng": 9.155522
+    },
+    {
+      "id": "217fb8b5-231c-4d61-bad6-9816d5d03e47",
+      "slug": "albergo-ristorante-della-torre-beregazzo-con-figliaro",
+      "nome": "Albergo Ristorante Della Torre",
+      "city_name": "Beregazzo con Figliaro",
+      "indirizzo": "Via Vittorio Emanuele II, 3, 22012 Cernobbio CO",
+      "lat": 45.841236,
+      "lng": 9.066914
+    },
+    {
+      "id": "7a22ab78-066e-4e2b-b333-266d93d32db3",
+      "slug": "il-cortile-b-b-da-manu-maggy-hope-beregazzo-con-figliaro",
+      "nome": "Il Cortile B&B da Manu, Maggy & Hope",
+      "city_name": "Beregazzo con Figliaro",
+      "indirizzo": "Via Buschi Attilio, 1, 22100 Como CO",
+      "lat": 45.796242,
+      "lng": 9.062065
+    },
+    {
+      "id": "06209d58-e719-4d17-807d-0e291e902c77",
+      "slug": "agriturismo-cascina-mora-bereguardo",
+      "nome": "Agriturismo Cascina Mora",
+      "city_name": "Bereguardo",
+      "indirizzo": "Str. Cascina Mora, 800, 27100 Pavia PV",
+      "lat": 45.213771,
+      "lng": 9.127354
+    },
+    {
+      "id": "662afe5e-5547-4bc3-ad66-7eb542957e0a",
+      "slug": "b-b-due-fiumi-1908-bereguardo",
+      "nome": "B&B Due Fiumi 1908",
+      "city_name": "Bereguardo",
+      "indirizzo": "Via Garibaldi, 20, 27020 Travacò Siccomario PV",
+      "lat": 45.150429,
+      "lng": 9.163481
+    },
+    {
+      "id": "add984c7-eaba-4140-ae7e-06dcf3d158f2",
+      "slug": "bed-and-breakfast-la-casa-dei-frutti-di-bosco-bereguardo",
+      "nome": "bed and breakfast la casa dei frutti di bosco",
+      "city_name": "Bereguardo",
+      "indirizzo": "Via Palestro, 20, 27026 Garlasco PV",
+      "lat": 45.198909,
+      "lng": 8.936683
+    },
+    {
+      "id": "c9c0b0d2-418f-44c2-9587-8ca8520a0247",
+      "slug": "un-letto-nel-cortile-casa-vacanze-bereguardo",
+      "nome": "Un letto nel cortile - Casa vacanze",
+      "city_name": "Bereguardo",
+      "indirizzo": "Vicolo Cortile, 21, 27021 Bereguardo PV",
+      "lat": 45.25926,
+      "lng": 9.025068
+    },
+    {
+      "id": "2ee315a1-92e3-4d4d-b970-7f3fc6c78557",
+      "slug": "agora-cafe-hotel-calamandrana-bergamasco",
+      "nome": "Agorà Cafè & Hotel - Calamandrana",
+      "city_name": "Bergamasco",
+      "indirizzo": "Piazza Dante, 6, 14042 Calamandrana AT",
+      "lat": 44.73682,
+      "lng": 8.334445
+    },
+    {
+      "id": "02d3c08d-5432-4a78-acaa-76ce63113000",
+      "slug": "agriturismo-le-due-cascine-bergamasco",
+      "nome": "Agriturismo \"Le Due Cascine\"",
+      "city_name": "Bergamasco",
+      "indirizzo": "Regione Mariano, 14053 San Marzano Oliveto AT",
+      "lat": 44.7386,
+      "lng": 8.313279
+    },
+    {
+      "id": "d62738bc-361b-4798-bf6e-b18842ceb339",
+      "slug": "allegro-holiday-bergamasco",
+      "nome": "Allegro Holiday",
+      "city_name": "Bergamasco",
+      "indirizzo": "Strada Baglio, Regione Croci, 66, 14049 Nizza Monferrato AT",
+      "lat": 44.757552,
+      "lng": 8.401458
+    },
+    {
+      "id": "37a4628a-267a-452c-8d2d-7eb92638d999",
+      "slug": "almaranto-relais-boutique-hotel-bergamasco",
+      "nome": "Almaranto Relais Boutique Hotel",
+      "city_name": "Bergamasco",
+      "indirizzo": "Regione Quartino, 6, 14042 Calamandrana AT",
+      "lat": 44.734987,
+      "lng": 8.330691
+    },
+    {
+      "id": "fce092e4-4ced-432a-a1c0-e796f7053596",
+      "slug": "b-b-il-boschetto-bergamasco",
+      "nome": "B&B Il Boschetto",
+      "city_name": "Bergamasco",
+      "indirizzo": "Strada Provinciale Nizza-Alessandria, 14046 Bruno AT",
+      "lat": 44.797138,
+      "lng": 8.436983
+    },
+    {
+      "id": "4cda1f10-2edb-46b0-ae9f-8e81360e37fa",
+      "slug": "cascina-belvedere-bergamasco",
+      "nome": "CASCINA BELVEDERE",
+      "city_name": "Bergamasco",
+      "indirizzo": "Cascina Belvedere, 18, 15044 Quargnento AL",
+      "lat": 44.932707,
+      "lng": 8.443858
+    },
+    {
+      "id": "36372f64-ce6e-47ff-bbc1-a1711ddf7907",
+      "slug": "castello-di-oviglio-bergamasco",
+      "nome": "Castello di Oviglio",
+      "city_name": "Bergamasco",
+      "indirizzo": "Via XXIV Maggio, 1, 15026 Oviglio AL",
+      "lat": 44.860454,
+      "lng": 8.487249
+    },
+    {
+      "id": "77e16a28-3791-47d4-94b7-21075307fab2",
+      "slug": "il-noccioletto-bergamasco",
+      "nome": "Il Noccioletto",
+      "city_name": "Bergamasco",
+      "indirizzo": "Via Alessandria, 51, 14046 Cascina Gherlobbia AT",
+      "lat": 44.781205,
+      "lng": 8.410645
+    },
+    {
+      "id": "86f3c7ff-ed61-4551-a308-5a83362780d8",
+      "slug": "locanda-cossetti-ranch-winery-bergamasco",
+      "nome": "Locanda Cossetti Ranch Winery",
+      "city_name": "Bergamasco",
+      "indirizzo": "Regione Zucca, 1, 14045 Incisa Scapaccino AT",
+      "lat": 44.836201,
+      "lng": 8.421567
+    },
+    {
+      "id": "dd9f2e23-5591-48f8-adf6-3d5dfdc76438",
+      "slug": "monferrato-guest-house-il-muron-bergamasco",
+      "nome": "Monferrato Guest House - Il Murôn",
+      "city_name": "Bergamasco",
+      "indirizzo": "Via Cavour, 56, 15026 Carentino AL",
+      "lat": 44.829264,
+      "lng": 8.473677
+    },
+    {
+      "id": "498620f2-7d3b-4806-91a4-f9e53d98851a",
+      "slug": "agriturismo-corte-matiola-bergantino",
+      "nome": "Agriturismo Corte Matiola",
+      "city_name": "Bergantino",
+      "indirizzo": "Strada Libioli, 15, 46020 Libioli MN",
+      "lat": 45.03616,
+      "lng": 11.060309
+    },
+    {
+      "id": "188981e3-5315-4564-a613-855297a9640d",
+      "slug": "agriturismo-olianina-bergantino",
+      "nome": "Agriturismo Olianina",
+      "city_name": "Bergantino",
+      "indirizzo": "Via Gaiardina, 4, 46036 Borgo Mantovano MN",
+      "lat": 45.010167,
+      "lng": 11.115986
+    },
+    {
+      "id": "550bcccd-3511-4af8-907d-08551a4e101f",
+      "slug": "albergo-cavallucci-bergantino",
+      "nome": "Albergo Cavallucci",
+      "city_name": "Bergantino",
+      "indirizzo": "Via XXIX Luglio 1848, 29, 46028 Sermide MN",
+      "lat": 45.00497,
+      "lng": 11.298059
+    },
+    {
+      "id": "6d8b0e04-5c63-4848-bc49-39330b3cc233",
+      "slug": "albergo-hotel-la-gardenia-bergantino",
+      "nome": "Albergo Hotel La Gardenia",
+      "city_name": "Bergantino",
+      "indirizzo": "Via Arginino, 4304, 45032 Bergantino RO",
+      "lat": 45.060278,
+      "lng": 11.273889
+    },
+    {
+      "id": "6c373489-c619-4bf7-b503-188062cb21fa",
+      "slug": "b-b-da-mary-bergantino",
+      "nome": "B&B da Mary",
+      "city_name": "Bergantino",
+      "indirizzo": "Via Santo, 2, 37060 Pampuro VR",
+      "lat": 45.17083,
+      "lng": 11.006539
+    },
+    {
+      "id": "889c336e-c853-4a3b-a930-04eecf6b65a4",
+      "slug": "b-b-le-tortore-bergantino",
+      "nome": "B&B Le Tortore",
+      "city_name": "Bergantino",
+      "indirizzo": "Via Gilseppe Sani, 27, 45037 Melara RO",
+      "lat": 45.061621,
+      "lng": 11.202299
+    },
+    {
+      "id": "3adc2127-437e-43b5-8dfd-a2695d9c2987",
+      "slug": "green-house-in-campagna-bergantino",
+      "nome": "Green House in Campagna",
+      "city_name": "Bergantino",
+      "indirizzo": "Via Dell'Artigianato, 7, 45037 Melara RO",
+      "lat": 45.065209,
+      "lng": 11.204169
+    },
+    {
+      "id": "46789320-d886-4184-a427-ce5a6f0677a3",
+      "slug": "hotel-doria-ristorante-bergantino",
+      "nome": "Hotel Doria Ristorante",
+      "city_name": "Bergantino",
+      "indirizzo": "Str. Abetone Brennero Est, 63, 46035 Ostiglia MN",
+      "lat": 45.066933,
+      "lng": 11.141742
+    },
+    {
+      "id": "dcb91179-8b54-43bd-bf82-a86f680f5e56",
+      "slug": "hotel-meridiana-bergantino",
+      "nome": "Hotel Meridiana",
+      "city_name": "Bergantino",
+      "indirizzo": "Via prov. Eridania 2 ( Interno Via Saba ), 45035 Castelmassa RO",
+      "lat": 45.012979,
+      "lng": 11.336247
+    }
+  ]
+}

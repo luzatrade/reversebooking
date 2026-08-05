@@ -1,0 +1,323 @@
+{
+  "block": 498,
+  "blockId": "498",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "f98f1372-2fe1-4fa2-9592-6bb3b4d774c6",
+      "slug": "shimokita-stay-tokyo",
+      "nome": "Shimokita Stay シモキタステイ",
+      "city_name": "Tokyo",
+      "indirizzo": "2-chōme-27-2 Kitazawa, Setagaya City, Tokyo 155-0031",
+      "lat": 35.662738,
+      "lng": 139.665969
+    },
+    {
+      "id": "f5408f6c-f9d1-418e-9ba9-d59c2b164d65",
+      "slug": "shinjuku-washington-hotel-tokyo",
+      "nome": "Shinjuku Washington Hotel",
+      "city_name": "Tokyo",
+      "indirizzo": "3-chōme-2-9 Nishishinjuku, Shinjuku City, Tokyo 160-8336",
+      "lat": 35.686915,
+      "lng": 139.693276
+    },
+    {
+      "id": "7109dbb0-f113-468e-a797-914a520a982b",
+      "slug": "smile-hotel-tokyo-asagaya-tokyo",
+      "nome": "Smile Hotel Tokyo Asagaya",
+      "city_name": "Tokyo",
+      "indirizzo": "3-chōme-37-11 Asagayaminami, Suginami City, Tokyo 166-0004",
+      "lat": 35.704635,
+      "lng": 139.634868
+    },
+    {
+      "id": "ac7650ad-d29e-41ef-a3af-01f182130a64",
+      "slug": "the-knot-tokyo-shinjuku-tokyo",
+      "nome": "The Knot Tokyo Shinjuku",
+      "city_name": "Tokyo",
+      "indirizzo": "4-chōme-31-1 Nishishinjuku, Shinjuku City, Tokyo 160-0023",
+      "lat": 35.688534,
+      "lng": 139.688477
+    },
+    {
+      "id": "daa86a7a-26b7-4d07-b644-73280db77bc8",
+      "slug": "wpu-hotel-tokyo",
+      "nome": "WPÜ HOTEL",
+      "city_name": "Tokyo",
+      "indirizzo": "7-chōme-10-5 Nishishinjuku, Shinjuku City, Tokyo 160-0023",
+      "lat": 35.69387,
+      "lng": 139.698277
+    },
+    {
+      "id": "3aa618ee-1ec0-4eff-8ad7-fbfe002cfeac",
+      "slug": "albergo-maccotta-trapani",
+      "nome": "Albergo Maccotta",
+      "city_name": "Trapani",
+      "indirizzo": "Via Argentieri, 4, 91100 Trapani TP, Italia",
+      "lat": 38.015182,
+      "lng": 12.509816
+    },
+    {
+      "id": "cda98dab-9404-484a-88f4-1e978a5a1e22",
+      "slug": "albergo-room-of-andrea-palazzo-platamone-trapani",
+      "nome": "Albergo Room of Andrea - Palazzo Platamone",
+      "city_name": "Trapani",
+      "indirizzo": "Viale Regina Margherita, 31, 91100 Trapani TP, Italia",
+      "lat": 38.018763,
+      "lng": 12.516185
+    },
+    {
+      "id": "0a7396ee-314a-42e8-ba77-9b088d2c5644",
+      "slug": "albergo-russo-trapani",
+      "nome": "Albergo Russo",
+      "city_name": "Trapani",
+      "indirizzo": "Via Tintori, 4, 91100 Trapani TP, Italia",
+      "lat": 38.015404,
+      "lng": 12.508241
+    },
+    {
+      "id": "7ecc731c-6084-4552-944c-1e2a8ebf4972",
+      "slug": "albergo-tiziano-trapani",
+      "nome": "Albergo Tiziano",
+      "city_name": "Trapani",
+      "indirizzo": "Via Giuseppe Rubino, 4, 91100 Trapani TP, Italia",
+      "lat": 38.015373,
+      "lng": 12.522403
+    },
+    {
+      "id": "8d3c062f-58f9-406b-bd2a-71c7b802203b",
+      "slug": "albergo-vittoria-trapani",
+      "nome": "Albergo Vittoria",
+      "city_name": "Trapani",
+      "indirizzo": "Via Francesco Crispi, 4, 91100 Trapani TP, Italia",
+      "lat": 38.019438,
+      "lng": 12.517575
+    },
+    {
+      "id": "d383574d-5127-42ae-954e-3368f6caceb8",
+      "slug": "alla-marina-bed-and-breakfast-trapani",
+      "nome": "ALLA MARINA - BED AND BREAKFAST",
+      "city_name": "Trapani",
+      "indirizzo": "Viale Regina Elena, 4, 91100 Trapani TP, Italia",
+      "lat": 38.014486,
+      "lng": 12.509166
+    },
+    {
+      "id": "d412bb20-8d6e-4472-ac10-66f485793be3",
+      "slug": "b-b-il-profumo-del-porto-trapani",
+      "nome": "B&B Il profumo del porto",
+      "city_name": "Trapani",
+      "indirizzo": "Via Ammiraglio Staiti, 15, 91100 Trapani TP, Italia",
+      "lat": 38.013871,
+      "lng": 12.510808
+    },
+    {
+      "id": "250924f5-2a7c-4cfa-a624-1dcd8218e3e5",
+      "slug": "bed-breakfast-terrazze-villanova-trapani",
+      "nome": "Bed & Breakfast Terrazze Villanova",
+      "city_name": "Trapani",
+      "indirizzo": "Vicolo Villanova, 33, 91100 Trapani TP, Italia",
+      "lat": 38.020449,
+      "lng": 12.531108
+    },
+    {
+      "id": "5be28566-8b0b-474a-ac16-20ed0403655e",
+      "slug": "bed-and-breakfast-le-5-torri-trapani",
+      "nome": "Bed and Breakfast \"Le 5 Torri\"",
+      "city_name": "Trapani",
+      "indirizzo": "Via Fiscale, 4, 91100 Trapani TP, Italia",
+      "lat": 38.014471,
+      "lng": 12.514096
+    },
+    {
+      "id": "981f4c13-cbaa-4084-abe8-42bcde6ea5b2",
+      "slug": "bed-and-breakfast-il-cavaliere-trapani",
+      "nome": "Bed And Breakfast Il Cavaliere",
+      "city_name": "Trapani",
+      "indirizzo": "Via Pompeo Zuccalà, 19, 91100 Trapani TP, Italia",
+      "lat": 38.017636,
+      "lng": 12.542946
+    },
+    {
+      "id": "9d22d315-7e4c-4f69-8837-2c8cb80ba4a9",
+      "slug": "bed-and-breakfast-il-quadrifoglio-a-trapani-casa-trapani",
+      "nome": "Bed and Breakfast Il Quadrifoglio a Trapani - Casa Vacanze Trapani",
+      "city_name": "Trapani",
+      "indirizzo": "Via Nettuno, 26, 91100 Trapani TP, Italia",
+      "lat": 38.006828,
+      "lng": 12.56419
+    },
+    {
+      "id": "ac29102d-9807-477b-880d-46ffd69679ce",
+      "slug": "bed-and-breakfast-ligny-trapani",
+      "nome": "Bed And Breakfast Ligny",
+      "city_name": "Trapani",
+      "indirizzo": "Via Torre di Ligny, 14, 91100 Trapani TP, Italia",
+      "lat": 38.018186,
+      "lng": 12.498666
+    },
+    {
+      "id": "51f79afb-11bd-418b-9160-9127300f4f84",
+      "slug": "bed-and-breakfast-via-spalti-52-trapani",
+      "nome": "Bed and Breakfast Via Spalti 52",
+      "city_name": "Trapani",
+      "indirizzo": "Via Spalti, 52, 91100 Trapani TP, Italia",
+      "lat": 38.015114,
+      "lng": 12.516994
+    },
+    {
+      "id": "e76b7f42-1b4e-4efe-b52d-0acd33c7d549",
+      "slug": "central-gallery-rooms-palazzo-d-ali-staiti-xix-trapani",
+      "nome": "Central Gallery Rooms | Palazzo D'Alì Staiti XIX",
+      "city_name": "Trapani",
+      "indirizzo": "Lungomare Dante Alighieri, 28, 91100 Trapani TP, Italia",
+      "lat": 38.017679,
+      "lng": 12.511946
+    },
+    {
+      "id": "8b3e2f39-b8b0-45ff-8161-dbf8bad5e4f1",
+      "slug": "drepanon-prospettive-sul-mediterraneo-b-b-trapani",
+      "nome": "Drepanon, prospettive sul mediterraneo B&B",
+      "city_name": "Trapani",
+      "indirizzo": "Viale Regina Elena, 24, 91100 Trapani TP, Italia",
+      "lat": 38.014557,
+      "lng": 12.508383
+    },
+    {
+      "id": "b6ca348e-c05c-4ce0-ad31-7f7d13c8ba33",
+      "slug": "giardini-mon-plaisir-trapani",
+      "nome": "Giardini Mon Plaisir",
+      "city_name": "Trapani",
+      "indirizzo": "Via Giacomo Mistretta, 13, 91100 Trapani TP, Italia",
+      "lat": 38.020589,
+      "lng": 12.542663
+    },
+    {
+      "id": "1ebaa426-3772-45fe-a323-9013e653325a",
+      "slug": "la-casa-sul-mare-bed-breakfast-trapani",
+      "nome": "La Casa sul Mare - Bed & Breakfast",
+      "city_name": "Trapani",
+      "indirizzo": "Via Torre di Ligny, 30, 91100 Trapani TP, Italia",
+      "lat": 38.018567,
+      "lng": 12.498189
+    },
+    {
+      "id": "a6d6f2c6-c1b6-4a83-a8c2-49248a2b5d70",
+      "slug": "la-trinacria-rooms-trapani",
+      "nome": "La Trinacria Rooms",
+      "city_name": "Trapani",
+      "indirizzo": "Via Corallai, 49, 91100 Trapani TP, Italia",
+      "lat": 38.015822,
+      "lng": 12.503531
+    },
+    {
+      "id": "a7e00da6-ba87-423a-afbc-9986f37f14c3",
+      "slug": "teti-sea-view-rooms-apts-trapani-city-center-trapani",
+      "nome": "Teti Sea View Rooms & Apts. Trapani City Center",
+      "city_name": "Trapani",
+      "indirizzo": "Via Scudaniglio, 30, 91100 Trapani TP, Italia",
+      "lat": 38.020248,
+      "lng": 12.518592
+    },
+    {
+      "id": "4a69acf1-48c6-46d9-a15d-ccc6d8adedf7",
+      "slug": "vida-rooms-trapani",
+      "nome": "Vida Rooms",
+      "city_name": "Trapani",
+      "indirizzo": "Via Francesco Manzo, 17, 91100 Trapani TP, Italia",
+      "lat": 38.015592,
+      "lng": 12.523603
+    },
+    {
+      "id": "3ef92077-1edb-4434-af02-03c395653076",
+      "slug": "albergo-trento-trento",
+      "nome": "Albergo Trento",
+      "city_name": "Trento",
+      "indirizzo": "Corso Porta Nuova, 36, 37122 Verona VR, Italia",
+      "lat": 45.434404,
+      "lng": 10.989354
+    },
+    {
+      "id": "ccdbf192-9aeb-4dd6-b150-9f91c6f3413a",
+      "slug": "b-b-eden-trento",
+      "nome": "B&B Eden",
+      "city_name": "Trento",
+      "indirizzo": "Via Roma, 27, 38122 Trento TN, Italia",
+      "lat": 46.069602,
+      "lng": 11.119424
+    },
+    {
+      "id": "9ca37543-9aa6-460f-b8bd-07c1c1f1c0d8",
+      "slug": "b-b-hotel-trento-trento",
+      "nome": "B&B HOTEL Trento",
+      "city_name": "Trento",
+      "indirizzo": "Via Innsbruck, 11, 38100 Trento TN, Italia",
+      "lat": 46.111297,
+      "lng": 11.091853
+    },
+    {
+      "id": "cb598fea-d977-4766-a79b-a03205806509",
+      "slug": "b-b-la-malvasia-trento",
+      "nome": "B&B la Malvasia",
+      "city_name": "Trento",
+      "indirizzo": "Via della Malvasia, 77, 38122 Trento TN, Italia",
+      "lat": 46.075693,
+      "lng": 11.12511
+    },
+    {
+      "id": "30c8c20c-e02d-4c7f-82e0-6152042e9009",
+      "slug": "b-b-le-muse-trento-trento",
+      "nome": "B&B Le Muse Trento",
+      "city_name": "Trento",
+      "indirizzo": "Vicolo Cristoforo Madruzzo, 6, 38122 Trento TN, Italia",
+      "lat": 46.063607,
+      "lng": 11.122305
+    },
+    {
+      "id": "66b9da02-66ab-4dce-88ab-de992acb70cd",
+      "slug": "b-b-margot-trento-trento",
+      "nome": "B&B Margot Trento",
+      "city_name": "Trento",
+      "indirizzo": "Via Andrea Maffei, 1, 38122 Trento TN, Italia",
+      "lat": 46.066523,
+      "lng": 11.120417
+    },
+    {
+      "id": "bd1ed725-68e3-49d3-bbd9-f90dea87b4be",
+      "slug": "b-b-palazzo-malfatti-trento",
+      "nome": "B&B Palazzo Malfatti",
+      "city_name": "Trento",
+      "indirizzo": "Via Rodolfo Belenzani, 47, 38122 Trento TN, Italia",
+      "lat": 46.068073,
+      "lng": 11.121632
+    },
+    {
+      "id": "e17619f6-8a39-4817-bccb-3e7664ab468e",
+      "slug": "b-b-piedicastello-trento",
+      "nome": "B&B PIEDICASTELLO",
+      "city_name": "Trento",
+      "indirizzo": "Via Dòs Trento, 70, 38121 Trento TN, Italia",
+      "lat": 46.072626,
+      "lng": 11.114588
+    },
+    {
+      "id": "7666bd4f-f1b4-48e7-bd2e-bfd82f034626",
+      "slug": "b-b-trento-nel-verde-trento",
+      "nome": "B&B Trento nel Verde",
+      "city_name": "Trento",
+      "indirizzo": "Via Mesiano, 77/A, 38122 Trento TN, Italia",
+      "lat": 46.067791,
+      "lng": 11.138959
+    },
+    {
+      "id": "da91763b-db44-46b5-9d12-f5ff5adfdae7",
+      "slug": "bed-and-breakfast-relax-trento",
+      "nome": "Bed and Breakfast Relax",
+      "city_name": "Trento",
+      "indirizzo": "Via Giacomo Matteotti, 85, 38122 Trento TN, Italia",
+      "lat": 46.055669,
+      "lng": 11.121939
+    }
+  ]
+}

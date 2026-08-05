@@ -1,0 +1,323 @@
+{
+  "block": 428,
+  "blockId": "428",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "a2c1b7d9-99a9-456d-8519-9b2895f17a13",
+      "slug": "ilse-b-b-capua",
+      "nome": "Ilse B&B",
+      "city_name": "Capua",
+      "indirizzo": "Via Gelso Boscariello, 4, 81043 Capua CE",
+      "lat": 41.101572,
+      "lng": 14.208729
+    },
+    {
+      "id": "ebc56352-5996-4e4a-b7e5-3f1e6773aba6",
+      "slug": "nenna-country-rooms-capua",
+      "nome": "Nenna Country Rooms",
+      "city_name": "Capua",
+      "indirizzo": "Via Scarano, 4, 81043 Capua CE",
+      "lat": 41.10022,
+      "lng": 14.207038
+    },
+    {
+      "id": "b94bca53-9383-4af0-8914-ada813bd452a",
+      "slug": "royal-residence-capua",
+      "nome": "Royal Residence",
+      "city_name": "Capua",
+      "indirizzo": "Via Raffaele Uccella, 25, 81055 Santa Maria Capua Vetere CE",
+      "lat": 41.075305,
+      "lng": 14.254287
+    },
+    {
+      "id": "4f462e75-b0ba-4f28-a92f-dcebdf2978be",
+      "slug": "50m2-suite-apartment-capurso",
+      "nome": "50m2 Suite & Apartment",
+      "city_name": "Capurso",
+      "indirizzo": "Via S. Giuseppe, 4, 70010 Capurso BA",
+      "lat": 41.046669,
+      "lng": 16.917564
+    },
+    {
+      "id": "2049444a-8c42-4c6e-ab5d-ada9075c6eb0",
+      "slug": "a-casa-di-fede-capurso",
+      "nome": "A Casa di Fede",
+      "city_name": "Capurso",
+      "indirizzo": "Via Noicattaro, 12, 70010 Capurso BA",
+      "lat": 41.045865,
+      "lng": 16.925561
+    },
+    {
+      "id": "0719be86-d825-45a4-96ca-d712001cf70f",
+      "slug": "airam-room-s-capurso",
+      "nome": "Airam Room’s",
+      "city_name": "Capurso",
+      "indirizzo": "Via Ara Coeli, 70010 Capurso BA",
+      "lat": 41.048932,
+      "lng": 16.918037
+    },
+    {
+      "id": "2abad180-fc8e-445e-a111-3a84881e3681",
+      "slug": "ariaroom219-capurso",
+      "nome": "AriaRoom219",
+      "city_name": "Capurso",
+      "indirizzo": "Via Epifania Federico, 219, 70010 Capurso BA",
+      "lat": 41.047737,
+      "lng": 16.92638
+    },
+    {
+      "id": "c8533ef5-437f-4e10-a614-28b80d91189b",
+      "slug": "b-b-cose-belle-capurso",
+      "nome": "B&B Cose Belle",
+      "city_name": "Capurso",
+      "indirizzo": "Via Francesco Lattanzio, 6, 70010 Capurso BA",
+      "lat": 41.048242,
+      "lng": 16.921819
+    },
+    {
+      "id": "28976215-0e22-43f0-80dc-42d2449744be",
+      "slug": "casa-dei-nonni-capurso",
+      "nome": "casa dei nonni",
+      "city_name": "Capurso",
+      "indirizzo": "Via Roma, 19, 70010 Capurso BA",
+      "lat": 41.04701,
+      "lng": 16.921332
+    },
+    {
+      "id": "db0a0f73-55b1-4572-bc5a-51ad346f18c1",
+      "slug": "cecenove-capurso",
+      "nome": "Cecenove",
+      "city_name": "Capurso",
+      "indirizzo": "Via Caldora, 9, 70010 Capurso BA",
+      "lat": 41.048009,
+      "lng": 16.922239
+    },
+    {
+      "id": "6087062f-6d42-4327-81a2-21696963b28b",
+      "slug": "crystal-luxury-apartment-capurso",
+      "nome": "Crystal Luxury Apartment",
+      "city_name": "Capurso",
+      "indirizzo": "Via S. Onofrio, 45, 70010 Capurso BA",
+      "lat": 41.043877,
+      "lng": 16.919162
+    },
+    {
+      "id": "067b33f5-e0fe-4525-aac9-d16faa793ebb",
+      "slug": "dimora-del-bali-capurso",
+      "nome": "Dimora del Balì",
+      "city_name": "Capurso",
+      "indirizzo": "Via Teodoro Balì, 1/A, 70010 Capurso BA",
+      "lat": 41.048066,
+      "lng": 16.917135
+    },
+    {
+      "id": "d03cda8c-fb7e-4e07-b652-2084662080e8",
+      "slug": "giardino-principi-dafagi-suite-luxury-jacuzzi-ca-capurso",
+      "nome": "Giardino Principi Dafagi Suite luxury/Jacuzzi Capurso 10 minuti da Bari",
+      "city_name": "Capurso",
+      "indirizzo": "Via Enrico de Nicola, 14, 70010 Capurso BA",
+      "lat": 41.044589,
+      "lng": 16.917699
+    },
+    {
+      "id": "c5708e12-1cea-4646-80cf-00604f753aae",
+      "slug": "il-cantico-b-b-capurso",
+      "nome": "Il Cantico B&B",
+      "city_name": "Capurso",
+      "indirizzo": "Via Enrico de Nicola, 35, 70010 Capurso BA",
+      "lat": 41.044491,
+      "lng": 16.916748
+    },
+    {
+      "id": "1385e6fe-7826-4ff2-ac9b-de5115a6c3d4",
+      "slug": "le-segrete-del-pozzo-capurso",
+      "nome": "Le Segrete del Pozzo",
+      "city_name": "Capurso",
+      "indirizzo": "Via Battaglia, 18, 70010 Capurso BA",
+      "lat": 41.046211,
+      "lng": 16.925473
+    },
+    {
+      "id": "0a4f06c5-0248-40c4-896e-aee2f0a5434d",
+      "slug": "meteora-bed-and-breakfast-capurso",
+      "nome": "Meteora Bed And Breakfast",
+      "city_name": "Capurso",
+      "indirizzo": "Via Epifania Federico, 224, 70010 Capurso BA",
+      "lat": 41.047183,
+      "lng": 16.926947
+    },
+    {
+      "id": "3e55e4e7-819f-4ab1-b601-aa3efe7aef8d",
+      "slug": "roses-suite-apartments-capurso",
+      "nome": "Roses Suite & Apartments",
+      "city_name": "Capurso",
+      "indirizzo": "Vico Rosis, 19, 70010 Capurso BA",
+      "lat": 41.047202,
+      "lng": 16.921058
+    },
+    {
+      "id": "74bfc18c-7008-439b-8283-6e1c33be3d06",
+      "slug": "suite-gs-luxury-27-capurso",
+      "nome": "Suite GS Luxury 27",
+      "city_name": "Capurso",
+      "indirizzo": "Vico d'Alba, 16, 70010 Capurso BA",
+      "lat": 41.048004,
+      "lng": 16.919633
+    },
+    {
+      "id": "454115e4-6c7e-436f-9c32-7019df4e1d20",
+      "slug": "tenuta-barone-capurso",
+      "nome": "Tenuta Barone",
+      "city_name": "Capurso",
+      "indirizzo": "Via Triggiano, 56, 70010 Capurso BA",
+      "lat": 41.052488,
+      "lng": 16.921536
+    },
+    {
+      "id": "4e8d11ea-c007-4ca8-a67c-cef8fc23d4f6",
+      "slug": "the-tower-capurso",
+      "nome": "The tower",
+      "city_name": "Capurso",
+      "indirizzo": "Via S. Antonio, 9, 70010 Capurso BA",
+      "lat": 41.047239,
+      "lng": 16.920207
+    },
+    {
+      "id": "8ec08534-b77e-45ef-83a1-9070a370cab0",
+      "slug": "agriturismo-ceratti-caraffa-del-bianco",
+      "nome": "Agriturismo Ceratti",
+      "city_name": "Caraffa del Bianco",
+      "indirizzo": "CONTRADA PALAZZI, S.da Statale 106 Jonica, KM 82/5, 89030 Casignana RC",
+      "lat": 38.114743,
+      "lng": 16.15817
+    },
+    {
+      "id": "d0766fcb-9395-48df-a5ee-1efbbbb23656",
+      "slug": "b-b-regina-elena-caraffa-del-bianco",
+      "nome": "B&b Regina Elena",
+      "city_name": "Caraffa del Bianco",
+      "indirizzo": "Via Regina Elena, 19, 89032 Bianco RC",
+      "lat": 38.08973,
+      "lng": 16.14865
+    },
+    {
+      "id": "65bc9769-e6f0-4d35-b6b5-b54ce7586a34",
+      "slug": "bed-and-breakfast-terre-del-sud-caraffa-del-bianco",
+      "nome": "Bed and Breakfast Terre del Sud",
+      "city_name": "Caraffa del Bianco",
+      "indirizzo": "V. Oliverio, 19, 89044 Locri RC",
+      "lat": 38.228922,
+      "lng": 16.258566
+    },
+    {
+      "id": "fd1d298c-73bb-4ece-934e-efbef4e8afbc",
+      "slug": "b-b-alina-caraffa-di-catanzaro",
+      "nome": "B&B Alina",
+      "city_name": "Caraffa di Catanzaro",
+      "indirizzo": "Contrada Mula, 16/A, 88100 Catanzaro CZ",
+      "lat": 38.86954,
+      "lng": 16.584508
+    },
+    {
+      "id": "611cee2e-4ee0-47fc-9a46-c1027922b7d1",
+      "slug": "b-b-catanzaro-russo-rooms-caraffa-di-catanzaro",
+      "nome": "B&B Catanzaro Russo Rooms",
+      "city_name": "Caraffa di Catanzaro",
+      "indirizzo": "Via Luigi Rossi, 5, 88100 Catanzaro CZ",
+      "lat": 38.920643,
+      "lng": 16.583567
+    },
+    {
+      "id": "06efcc9c-fa31-4d3d-a363-2522ca24ee4b",
+      "slug": "b-b-la-collina-dei-poeti-caraffa-di-catanzaro",
+      "nome": "B&B La Collina Dei Poeti",
+      "city_name": "Caraffa di Catanzaro",
+      "indirizzo": "Traversa VIII Viale Crotone, 25, 88100 Catanzaro CZ",
+      "lat": 38.833733,
+      "lng": 16.628389
+    },
+    {
+      "id": "09aa31a1-7355-4bf1-9dc1-52adfeb70af3",
+      "slug": "b-b-melina-catanzaro-settingiano-caraffa-di-catanzaro",
+      "nome": "B&B Melina Catanzaro Settingiano",
+      "city_name": "Caraffa di Catanzaro",
+      "indirizzo": "Corso Telesio, 6/8, 88040 Settingiano CZ",
+      "lat": 38.893262,
+      "lng": 16.534424
+    },
+    {
+      "id": "0aba7f84-db5a-4030-8071-5066cd08f276",
+      "slug": "blu-marine-caraffa-di-catanzaro",
+      "nome": "Blu Marine",
+      "city_name": "Caraffa di Catanzaro",
+      "indirizzo": "Via Lungomare Stefano Pugliese, 29, 88100 Catanzaro CZ",
+      "lat": 38.817496,
+      "lng": 16.611182
+    },
+    {
+      "id": "a60481c7-ff6b-4bbf-bfeb-b3d853a79f68",
+      "slug": "borgo-piazza-catanzaro-caraffa-di-catanzaro",
+      "nome": "Borgo piazza Catanzaro",
+      "city_name": "Caraffa di Catanzaro",
+      "indirizzo": "QHXJ+X5, 88021 Borgia CZ",
+      "lat": 38.799894,
+      "lng": 16.580481
+    },
+    {
+      "id": "c4f00d3d-86b6-4ddd-9d97-3d59c79a2a8f",
+      "slug": "chalet-n5-guest-house-a-catanzaro-con-camere-del-caraffa-di-catanzaro",
+      "nome": "Chalet n5 Guest House a Catanzaro con camere Deluxe e Comfort minibar incluso e pulizia giornaliera spiaggia inclusa estate",
+      "city_name": "Caraffa di Catanzaro",
+      "indirizzo": "Via Ferdinandea, 5, 88100 Siano CZ",
+      "lat": 38.913934,
+      "lng": 16.600338
+    },
+    {
+      "id": "7e1c63fe-3636-4ea4-85b4-0139f87f9261",
+      "slug": "villa-maria-bed-breakfast-caraffa-di-catanzaro",
+      "nome": "Villa Maria Bed & Breakfast",
+      "city_name": "Caraffa di Catanzaro",
+      "indirizzo": "Via Tommaso Campanella, 10, 88040 Settingiano CZ",
+      "lat": 38.891442,
+      "lng": 16.537255
+    },
+    {
+      "id": "e0ffc1af-fe35-443f-8ada-4c0d7a67b3a6",
+      "slug": "b-b-dolce-caraglio-caraglio",
+      "nome": "B&B Dolce Caraglio",
+      "city_name": "Caraglio",
+      "indirizzo": "Via Roma, 207, 12023 Caraglio CN",
+      "lat": 44.418984,
+      "lng": 7.432031
+    },
+    {
+      "id": "2b51e1cb-9fd9-4c58-90de-74cab76d8b16",
+      "slug": "cascina-rosa-caraglio",
+      "nome": "Cascina Rosa",
+      "city_name": "Caraglio",
+      "indirizzo": "Via Bottonasco, 28, 12023 Caraglio CN",
+      "lat": 44.42511,
+      "lng": 7.399231
+    },
+    {
+      "id": "397e3339-e8c8-405c-b72b-7260a975d17f",
+      "slug": "virasol-b-b-caraglio",
+      "nome": "Virasol B&B",
+      "city_name": "Caraglio",
+      "indirizzo": "Via Addolorata, 8/a, 12025 Dronero CN",
+      "lat": 44.45694,
+      "lng": 7.431247
+    },
+    {
+      "id": "9d541071-5f93-43c7-83ac-e55d121a1394",
+      "slug": "affittacamere-casamatta-caramagna-piemonte",
+      "nome": "Affittacamere Casamatta",
+      "city_name": "Caramagna Piemonte",
+      "indirizzo": "Borgata Castagni, 5, 12064 La Morra CN",
+      "lat": 44.65615,
+      "lng": 7.927231
+    }
+  ]
+}

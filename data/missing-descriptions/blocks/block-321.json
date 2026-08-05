@@ -1,0 +1,323 @@
+{
+  "block": 321,
+  "blockId": "321",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "f370b304-0597-4cb1-b448-1f9bfeeac6ff",
+      "slug": "almarett-b-b-brennero-brenner",
+      "nome": "Almarett B&B",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Localita' Durach, 5, 39040 Racines BZ",
+      "lat": 46.8939,
+      "lng": 11.34416
+    },
+    {
+      "id": "4bfd5fe6-9369-416f-a0d8-09b4a0d9b7e8",
+      "slug": "feuerstein-nature-family-resort-brennero-brenner",
+      "nome": "Feuerstein Nature Family Resort",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Pflersch, 185, 39041 Brenner, Autonome Provinz Bozen - Südtirol",
+      "lat": 46.965027,
+      "lng": 11.339053
+    },
+    {
+      "id": "9b2df641-1f9c-437e-9dfa-ab9d79a5dfcf",
+      "slug": "goldenes-kreuz-hotel-brennero-brenner",
+      "nome": "Goldenes Kreuz Hotel",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Città Nuova, 36, 39049 Vipiteno BZ",
+      "lat": 46.896973,
+      "lng": 11.431866
+    },
+    {
+      "id": "66010d39-44bc-4e9b-ad69-c7a6f92ab156",
+      "slug": "hotel-alpin-val-di-fleres-brennero-brenner",
+      "nome": "Hotel Alpin Val di Fleres",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Fleres, 84, 39041 Colle Isarco BZ",
+      "lat": 46.950926,
+      "lng": 11.391491
+    },
+    {
+      "id": "d98357a9-e80a-4030-b4f2-6d2e07814a1c",
+      "slug": "hotel-argentum-brennero-brenner",
+      "nome": "Hotel Argentum",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Pflerschtal, St. Anton 157, 39041 Colle Isarco BZ",
+      "lat": 46.964204,
+      "lng": 11.349628
+    },
+    {
+      "id": "092503be-551c-4ded-a928-25304c6e5699",
+      "slug": "hotel-bergkristall-brennero-brenner",
+      "nome": "Hotel Bergkristall",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Via Fleres, 88, 39041 Colle Isarco BZ",
+      "lat": 46.952095,
+      "lng": 11.387591
+    },
+    {
+      "id": "6825ef0c-b37b-44c7-8ecf-d2f3aad81034",
+      "slug": "hotel-brenner-brennero-brenner",
+      "nome": "Hotel Brenner",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Reifenstein, 39049 Vipiteno BZ",
+      "lat": 46.882276,
+      "lng": 11.435463
+    },
+    {
+      "id": "519c7f99-eb02-4cdc-9670-9b6fe1ff2cb4",
+      "slug": "hotel-cafe-schuster-brennero-brenner",
+      "nome": "Hotel Café Schuster",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Via Parrocchia, 1, 39041 Colle Isarco BZ",
+      "lat": 46.938352,
+      "lng": 11.444443
+    },
+    {
+      "id": "256f9a15-af09-4fc4-a3a9-049c3105b68a",
+      "slug": "hotel-erna-brennero-brenner",
+      "nome": "Hotel Erna",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Via Fleres, 2, 39041 Colle Isarco BZ",
+      "lat": 46.936333,
+      "lng": 11.444256
+    },
+    {
+      "id": "193eb7ce-d34b-4ed3-b4f2-30117effbe14",
+      "slug": "hotel-gudrun-brennero-brenner",
+      "nome": "Hotel Gudrun",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Via Posta Vecchia, 8, 39041 Colle Isarco BZ",
+      "lat": 46.936881,
+      "lng": 11.446865
+    },
+    {
+      "id": "0a48e8a5-2897-4c05-8308-3b7f77c39f4d",
+      "slug": "hotel-residence-lorenz-ristorante-bar-pizzeria-brennero-brenner",
+      "nome": "Hotel Residence Lorenz Ristorante Bar Pizzeria",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Via Färber, 5, 39041 Colle Isarco BZ",
+      "lat": 46.935642,
+      "lng": 11.446186
+    },
+    {
+      "id": "59fad623-577a-4644-9b17-814f91c021d9",
+      "slug": "huhnerspielhutte-rifugio-cima-gallina-brennero-brenner",
+      "nome": "Hühnerspielhütte - Rifugio Cima Gallina",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Via Notenburg, 17, 39041 Colle Isarco BZ",
+      "lat": 46.941627,
+      "lng": 11.476327
+    },
+    {
+      "id": "1a2c5488-5d4e-43ad-a23f-908a359cf8a6",
+      "slug": "lamonte-premium-apartments-by-feuerstein-brennero-brenner",
+      "nome": "LaMonte Premium Apartments by Feuerstein",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Pflersch, 89, 39041 Brenner, Autonome Provinz Bozen - Südtirol",
+      "lat": 46.95266,
+      "lng": 11.387271
+    },
+    {
+      "id": "986f58cb-1868-4536-b83a-2d055c50074e",
+      "slug": "pension-alpenblick-sterzing-brennero-brenner",
+      "nome": "PENSION ALPENBLICK / Sterzing",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Fraktion Raminges, 9A, 39049 Vipiteno BZ",
+      "lat": 46.904302,
+      "lng": 11.420087
+    },
+    {
+      "id": "a085b82b-1598-42d6-81cc-106861bb89eb",
+      "slug": "pension-knappenhof-brennero-brenner",
+      "nome": "Pension Knappenhof",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Pflersch, 86, 39041 Gossensaß, Autonome Provinz Bozen - Südtirol",
+      "lat": 46.949908,
+      "lng": 11.390698
+    },
+    {
+      "id": "4601e54b-05a1-4bab-b1cb-a38cc6e2a4a0",
+      "slug": "pensione-alpenhof-brennero-brenner",
+      "nome": "Pensione Alpenhof",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "Via Stranghe, 4, 39041 Colle Isarco BZ",
+      "lat": 46.940285,
+      "lng": 11.441478
+    },
+    {
+      "id": "68c923e1-7ae0-4f06-b860-de465427ff38",
+      "slug": "smarthotel-brenner24-brennero-brenner",
+      "nome": "Smarthotel brenner24",
+      "city_name": "Brennero/Brenner",
+      "indirizzo": "St. Valentin Str., 11, 39041 Brenner, Autonome Provinz Bozen - Südtirol",
+      "lat": 47.004124,
+      "lng": 11.504992
+    },
+    {
+      "id": "a59e2a76-149d-487a-8700-1af06723a3c6",
+      "slug": "a-breno",
+      "nome": "A",
+      "city_name": "Breno",
+      "indirizzo": "Via Fausto Cadeo, 10, 25047 Darfo Boario Terme BS",
+      "lat": 45.893098,
+      "lng": 10.18953
+    },
+    {
+      "id": "3c69da1f-ab69-4ff0-9f22-997733b5c00f",
+      "slug": "hotel-milano-breno",
+      "nome": "Hotel Milano",
+      "city_name": "Breno",
+      "indirizzo": "V. Manifattura Vittorio Olcese, 17, 25047 Boario Terme BS",
+      "lat": 45.890213,
+      "lng": 10.188005
+    },
+    {
+      "id": "673f0e08-fa82-404d-a9cd-1ccd4d7cd009",
+      "slug": "hotel-san-martino-breno",
+      "nome": "Hotel San Martino",
+      "city_name": "Breno",
+      "indirizzo": "Via S. Martino, 28, 25047 Darfo Boario Terme BS",
+      "lat": 45.898095,
+      "lng": 10.192911
+    },
+    {
+      "id": "b13a55fe-8992-475f-ade8-766cb0dc91c1",
+      "slug": "albergo-ristorante-il-pescatore-brenta",
+      "nome": "Albergo Ristorante Il Pescatore",
+      "city_name": "Brenta",
+      "indirizzo": "Via Varese, 4, 21010 Porto Valtravaglia VA",
+      "lat": 45.961253,
+      "lng": 8.682035
+    },
+    {
+      "id": "e185b2d1-c5d3-40d2-9e95-f47101bf819d",
+      "slug": "la-dama-del-porto-ristorante-e-camere-brenta",
+      "nome": "La Dama del Porto - Ristorante e Camere",
+      "city_name": "Brenta",
+      "indirizzo": "Via dei Pescatori, 2, 21014 Laveno-Mombello VA",
+      "lat": 45.898246,
+      "lng": 8.596387
+    },
+    {
+      "id": "be9a4e3a-26ef-4963-97ab-74f6dcc1e232",
+      "slug": "locanda-da-i-baldi-brenta",
+      "nome": "Locanda Da I Baldi",
+      "city_name": "Brenta",
+      "indirizzo": "Viale G. Garibaldi, 7, 21014 Laveno-Mombello VA",
+      "lat": 45.908614,
+      "lng": 8.619377
+    },
+    {
+      "id": "cb11a419-eef6-451d-a0fb-80cd1a44f8d7",
+      "slug": "residencehotel-torre-del-brenta-brenta",
+      "nome": "Residencehotel Torre del Brenta",
+      "city_name": "Brenta",
+      "indirizzo": "Via Pradalago, 32, 38086 Madonna di Campiglio TN",
+      "lat": 46.233571,
+      "lng": 10.826764
+    },
+    {
+      "id": "83cdade3-b7ce-4f05-811b-93a08d2f07bd",
+      "slug": "ristorante-hotel-colonne-brenta",
+      "nome": "Ristorante Hotel Colonne",
+      "city_name": "Brenta",
+      "indirizzo": "Via Fincarà, 37, 21100 Varese VA",
+      "lat": 45.860491,
+      "lng": 8.791209
+    },
+    {
+      "id": "9f8e254a-384f-4c57-840f-a5d448ba7b81",
+      "slug": "affittacamere-corte-valdadige-guest-house-brentino-belluno",
+      "nome": "AFFITTACAMERE CORTE VALDADIGE GUEST HOUSE",
+      "city_name": "Brentino Belluno",
+      "indirizzo": "Via Santuario, 9, 37020 Brentino Belluno VR",
+      "lat": 45.641997,
+      "lng": 10.871793
+    },
+    {
+      "id": "fd03e55e-9685-4826-9327-c041d32e8f8b",
+      "slug": "agriturismo-revena-farm-guest-house-wine-holiday-brentino-belluno",
+      "nome": "Agriturismo Revena farm guest house wine holiday",
+      "city_name": "Brentino Belluno",
+      "indirizzo": "Località Revena, 3, 37020 Brentino Belluno VR",
+      "lat": 45.632624,
+      "lng": 10.875789
+    },
+    {
+      "id": "e3b28380-08c7-4bd6-b0bd-f7036ae983ad",
+      "slug": "agriturismo-tre-forti-brentino-belluno",
+      "nome": "Agriturismo Tre Forti",
+      "city_name": "Brentino Belluno",
+      "indirizzo": "Località Canova Tessari, 37010 Rivoli Veronese VR",
+      "lat": 45.594672,
+      "lng": 10.841031
+    },
+    {
+      "id": "0930b81e-38fa-4a67-a930-bc14b8df44e6",
+      "slug": "b-benantio-brentino-belluno",
+      "nome": "b&benantio",
+      "city_name": "Brentino Belluno",
+      "indirizzo": "Piazza della Vittoria, 10, 37020 Belluno Veronese VR",
+      "lat": 45.686254,
+      "lng": 10.899395
+    },
+    {
+      "id": "de7fb8dc-76ef-4a54-8452-a17e4ab093fb",
+      "slug": "casa-gianchia-b-b-brentino-belluno",
+      "nome": "Casa Gianchia B&B",
+      "city_name": "Brentino Belluno",
+      "indirizzo": "Via Casalini, 1, 37020 Brentino VR",
+      "lat": 45.64242,
+      "lng": 10.87334
+    },
+    {
+      "id": "4acedf1b-b969-4045-b3e0-ac8e2dae150a",
+      "slug": "hotel-belvedere-brentino-belluno",
+      "nome": "Hotel Belvedere",
+      "city_name": "Brentino Belluno",
+      "indirizzo": "Via Graziani, 12, 37013 Spiazzi VR",
+      "lat": 45.648185,
+      "lng": 10.851354
+    },
+    {
+      "id": "4a00ef9b-49c2-4682-b0c8-77a163609a22",
+      "slug": "hotel-monte-baldo-brentino-belluno",
+      "nome": "Hotel Monte Baldo",
+      "city_name": "Brentino Belluno",
+      "indirizzo": "Via Prada, 37010 Brenzone sul Garda VR",
+      "lat": 45.678538,
+      "lng": 10.780544
+    },
+    {
+      "id": "4f013f4e-a319-4b7e-8af5-7da906a10d71",
+      "slug": "hotel-ristorante-bar-olivo-brentino-belluno",
+      "nome": "Hotel Ristorante Bar Olivo",
+      "city_name": "Brentino Belluno",
+      "indirizzo": "Via Don Cesare Scala, 35, 37020 Brentino Belluno VR",
+      "lat": 45.65908,
+      "lng": 10.894472
+    },
+    {
+      "id": "b4672d1b-3332-40e3-9cb5-11b9e5a1cb5a",
+      "slug": "parc-hotel-san-pietro-brentino-belluno",
+      "nome": "Parc Hotel San Pietro",
+      "city_name": "Brentino Belluno",
+      "indirizzo": "Via Centro, 2, 37013 Spiazzi VR",
+      "lat": 45.645546,
+      "lng": 10.852976
+    },
+    {
+      "id": "8eb6a355-a99c-4618-bb22-03120bb1d13d",
+      "slug": "stella-alpina-hotel-brentino-belluno",
+      "nome": "Stella Alpina Hotel",
+      "city_name": "Brentino Belluno",
+      "indirizzo": "Piazzale Giovanni Paolo Secondo, 2, 37020 Ferrara di Monte Baldo VR",
+      "lat": 45.650646,
+      "lng": 10.854762
+    }
+  ]
+}

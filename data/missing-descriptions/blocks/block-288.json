@@ -1,0 +1,323 @@
+{
+  "block": 288,
+  "blockId": "288",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "33ea137b-d419-4540-b2c1-602249fbe327",
+      "slug": "albergo-feluca-bonassola",
+      "nome": "Albergo Feluca",
+      "city_name": "Bonassola",
+      "indirizzo": "Via Maxinara, 1, 19011 Bonassola SP",
+      "lat": 44.182213,
+      "lng": 9.584065
+    },
+    {
+      "id": "b688991d-969b-4610-8c90-5d235990274a",
+      "slug": "albergo-lungomare-bonassola",
+      "nome": "Albergo Lungomare",
+      "city_name": "Bonassola",
+      "indirizzo": "Via Giacomo Matteotti, 2, 19011 Bonassola SP",
+      "lat": 44.183707,
+      "lng": 9.582083
+    },
+    {
+      "id": "2ff9896b-6fc9-485b-8479-6524707290e5",
+      "slug": "b-b-pie-del-castello-bonassola",
+      "nome": "B&B Piè del Castello",
+      "city_name": "Bonassola",
+      "indirizzo": "Via Guido Semenza, 2, 19015 Levanto SP",
+      "lat": 44.166205,
+      "lng": 9.612488
+    },
+    {
+      "id": "7f235752-d2a8-4ec9-9d37-3d63d93552ee",
+      "slug": "ca-du-ferra-farm-relax-bonassola",
+      "nome": "Cà du Ferrà Farm & Relax",
+      "city_name": "Bonassola",
+      "indirizzo": "Via Gavazzo, snc, 19011 Bonassola SP",
+      "lat": 44.186412,
+      "lng": 9.583308
+    },
+    {
+      "id": "f6c0c885-8109-462d-b29f-21ab710e1264",
+      "slug": "curpi-de-ma-bonassola",
+      "nome": "Curpi de Ma",
+      "city_name": "Bonassola",
+      "indirizzo": "Via Gino Daneri, 18, 19011 Bonassola SP",
+      "lat": 44.184061,
+      "lng": 9.583513
+    },
+    {
+      "id": "9e608c0c-5e6f-498b-9de8-98bb60878225",
+      "slug": "fabienne-bonassola",
+      "nome": "Fabienne",
+      "city_name": "Bonassola",
+      "indirizzo": "Via Gino Daneri, 2/Int. 4, 19011 Bonassola SP",
+      "lat": 44.18394,
+      "lng": 9.583987
+    },
+    {
+      "id": "e414f14c-f184-40c7-a222-30d7cb82589a",
+      "slug": "hotel-delle-rose-bonassola",
+      "nome": "Hotel Delle Rose",
+      "city_name": "Bonassola",
+      "indirizzo": "Via Giuseppe Garibaldi, 8, 19011 Bonassola SP",
+      "lat": 44.183262,
+      "lng": 9.583149
+    },
+    {
+      "id": "51797a7d-54a8-47aa-8177-85e23cd8e886",
+      "slug": "hotel-garden-bonassola",
+      "nome": "Hotel Garden",
+      "city_name": "Bonassola",
+      "indirizzo": "Corso Italia, 6, 19015 Levanto SP",
+      "lat": 44.168609,
+      "lng": 9.610564
+    },
+    {
+      "id": "91792c83-02a9-4f89-932c-61d93573c1ff",
+      "slug": "hotel-palace-bonassola",
+      "nome": "Hotel Palace",
+      "city_name": "Bonassola",
+      "indirizzo": "Corso Roma, 25, 19015 Levanto SP",
+      "lat": 44.171339,
+      "lng": 9.610687
+    },
+    {
+      "id": "31ac4efa-a600-4711-9e54-515be2fffc68",
+      "slug": "hotel-villa-belvedere-bonassola",
+      "nome": "Hotel Villa Belvedere",
+      "city_name": "Bonassola",
+      "indirizzo": "Via Ammiraglio Serra, 33, 19100 Bonassola SP",
+      "lat": 44.181693,
+      "lng": 9.586662
+    },
+    {
+      "id": "bf23e76d-0217-4cd8-8da4-1c8eea9d3de9",
+      "slug": "hotel-villa-margherita-bonassola",
+      "nome": "Hotel Villa Margherita",
+      "city_name": "Bonassola",
+      "indirizzo": "Via Trento e Trieste, 31, 19015 Levanto SP",
+      "lat": 44.172484,
+      "lng": 9.61092
+    },
+    {
+      "id": "7fff717a-8701-4a72-991e-e5123d0d8662",
+      "slug": "la-madonnetta-dimora-d-epoca-bonassola",
+      "nome": "La Madonnetta - Dimora d'epoca -",
+      "city_name": "Bonassola",
+      "indirizzo": "Via Trento e Trieste, 46, 19015 Levanto SP",
+      "lat": 44.172935,
+      "lng": 9.606938
+    },
+    {
+      "id": "864111a1-90ba-4b48-b8b0-c938562b9c78",
+      "slug": "la-rossola-bonassola",
+      "nome": "La Rossola",
+      "city_name": "Bonassola",
+      "indirizzo": "Localita' Rossola, 11, 19011 Bonassola SP",
+      "lat": 44.197151,
+      "lng": 9.599344
+    },
+    {
+      "id": "c5967a79-4c6e-433a-b6da-ccbb5a989922",
+      "slug": "pensione-moderna-bonassola",
+      "nome": "Pensione Moderna",
+      "city_name": "Bonassola",
+      "indirizzo": "Via Gino Daneri, 79, 19011 Bonassola SP",
+      "lat": 44.185138,
+      "lng": 9.581578
+    },
+    {
+      "id": "55ef885d-34d1-4e49-a52d-03458f6e4684",
+      "slug": "resort-la-francesca-bonassola",
+      "nome": "Resort La Francesca",
+      "city_name": "Bonassola",
+      "indirizzo": "Località La Francesca, 19011 Bonassola SP",
+      "lat": 44.176722,
+      "lng": 9.59157
+    },
+    {
+      "id": "56443c4e-4ba1-478d-a29c-a3aac91bac18",
+      "slug": "rita-b-b-bonassola",
+      "nome": "Rita B&B",
+      "city_name": "Bonassola",
+      "indirizzo": "Via Sant'Erasmo, 27, 19011 Bonassola SP",
+      "lat": 44.184035,
+      "lng": 9.57974
+    },
+    {
+      "id": "ecfc5d29-e642-48cb-aaae-ae7d8f8e06aa",
+      "slug": "art-hotel-bonate-sopra",
+      "nome": "Art & Hotel",
+      "city_name": "Bonate Sopra",
+      "indirizzo": "Via dei Compagnoni, 31, 24048 Treviolo BG",
+      "lat": 45.670132,
+      "lng": 9.6021
+    },
+    {
+      "id": "02881526-409f-47f2-a8e6-f9c7ca16e1e4",
+      "slug": "b-b-appartamento-dimora-san-giorgio-lt-bonate-sopra",
+      "nome": "B&B Appartamento Dimora San Giorgio LT",
+      "city_name": "Bonate Sopra",
+      "indirizzo": "Via S. Giorgio, 3, 24040 Bonate Sotto BG",
+      "lat": 45.665674,
+      "lng": 9.561527
+    },
+    {
+      "id": "e2b71061-7726-4af2-ad32-9a03d1079bcd",
+      "slug": "b-b-puravita-bonate-sopra",
+      "nome": "B&B Puravita",
+      "city_name": "Bonate Sopra",
+      "indirizzo": "Via S. Francesco D'Assisi, 21, 24036 Ponte San Pietro BG",
+      "lat": 45.695711,
+      "lng": 9.580453
+    },
+    {
+      "id": "92a13442-d437-46e8-9ee5-7b6ccd28d5cc",
+      "slug": "citywalls-guest-house-bonate-sopra",
+      "nome": "CityWalls - Guest House",
+      "city_name": "Bonate Sopra",
+      "indirizzo": "Via Cesare Tallone, 2, 24128 Bergamo BG",
+      "lat": 45.69281,
+      "lng": 9.65079
+    },
+    {
+      "id": "74553cc6-4a56-4371-879e-4e399d8827d6",
+      "slug": "lvg-hotel-collection-bergamo-west-bonate-sopra",
+      "nome": "LVG Hotel Collection - Bergamo West",
+      "city_name": "Bonate Sopra",
+      "indirizzo": "VIa Fausto Radici, 3, 24030 Mozzo BG",
+      "lat": 45.698524,
+      "lng": 9.603112
+    },
+    {
+      "id": "131fc1eb-922a-433a-af96-a62964f4cb24",
+      "slug": "one-hotel-dalmine-bonate-sopra",
+      "nome": "One Hotel Dalmine",
+      "city_name": "Bonate Sopra",
+      "indirizzo": "Via Frà Galgario, 1, 24044 Dalmine BG",
+      "lat": 45.641048,
+      "lng": 9.613687
+    },
+    {
+      "id": "045a18d5-e08a-4e22-a1fe-356f8c3e01e9",
+      "slug": "residence-podere-san-marco-bonate-sopra",
+      "nome": "Residence Podere San Marco",
+      "city_name": "Bonate Sopra",
+      "indirizzo": "Via del Gambetto, 22, 24040 Bonate Sopra BG",
+      "lat": 45.686584,
+      "lng": 9.579723
+    },
+    {
+      "id": "5ca25028-7fcf-4952-9476-fb733e7370cf",
+      "slug": "villa-fenix-ponte-san-pietro-bonate-sopra",
+      "nome": "VILLA FENIX Ponte San Pietro",
+      "city_name": "Bonate Sopra",
+      "indirizzo": "Via XXIV Maggio, 17, 24036 Ponte San Pietro BG",
+      "lat": 45.696929,
+      "lng": 9.574972
+    },
+    {
+      "id": "0f9922da-8db5-4cb4-92e6-7cfd63887cca",
+      "slug": "garden-residence-bonate-sotto",
+      "nome": "Garden Residence",
+      "city_name": "Bonate Sotto",
+      "indirizzo": "Via Bastone, 24, 24044 Dalmine BG",
+      "lat": 45.656342,
+      "lng": 9.600738
+    },
+    {
+      "id": "8dbcd557-1362-4fbe-bafc-2bd68edd5888",
+      "slug": "mercure-bergamo-aeroporto-bonate-sotto",
+      "nome": "Mercure Bergamo Aeroporto",
+      "city_name": "Bonate Sotto",
+      "indirizzo": "Via Boito, 12, 24040 Stezzano BG",
+      "lat": 45.651154,
+      "lng": 9.631751
+    },
+    {
+      "id": "53d4ca3c-65c1-4706-bf0f-fd73cb446613",
+      "slug": "villa-giulia-bonate-sotto",
+      "nome": "Villa Giulia",
+      "city_name": "Bonate Sotto",
+      "indirizzo": "Via Vittorio Veneto, 86, 24040 Bonate Sotto BG",
+      "lat": 45.659568,
+      "lng": 9.55413
+    },
+    {
+      "id": "b1552384-7cf5-4872-a1f9-3df4eaefd15f",
+      "slug": "agriturismo-la-corte-di-anna-bonavigo",
+      "nome": "Agriturismo La Corte di Anna",
+      "city_name": "Bonavigo",
+      "indirizzo": "Via Pontoncello, 9, 37059 Santa Maria VR",
+      "lat": 45.378994,
+      "lng": 11.074529
+    },
+    {
+      "id": "edf33bc1-2346-48bd-b895-43fbae08d231",
+      "slug": "albergo-le-4-camere-bonavigo",
+      "nome": "Albergo Le 4 Camere",
+      "city_name": "Bonavigo",
+      "indirizzo": "Via Vittorio Veneto, 2, 37050 Roverchiara VR",
+      "lat": 45.272357,
+      "lng": 11.247756
+    },
+    {
+      "id": "721e2bcc-4844-43d0-9776-567bce3d04a9",
+      "slug": "b-b-villa-brenzoni-bonavigo",
+      "nome": "B&B Villa Brenzoni",
+      "city_name": "Bonavigo",
+      "indirizzo": "Via Martiri di Belfiore, 1, 37040 Bonavigo VR",
+      "lat": 45.257438,
+      "lng": 11.27643
+    },
+    {
+      "id": "f12e8dc8-e973-4480-bc1f-2862d27f3a78",
+      "slug": "residence-3-nidi-bonavigo",
+      "nome": "Residence 3 Nidi",
+      "city_name": "Bonavigo",
+      "indirizzo": "Via Pavarano, 15, 36045 Lonigo VI",
+      "lat": 45.394032,
+      "lng": 11.351215
+    },
+    {
+      "id": "a7cab406-080e-404c-b0e2-a37d20deada3",
+      "slug": "albergo-new-napoleonico-bondeno",
+      "nome": "Albergo New Napoleonico",
+      "city_name": "Bondeno",
+      "indirizzo": "Via Virgiliana, 129, 44012 Bondeno FE",
+      "lat": 44.876037,
+      "lng": 11.434623
+    },
+    {
+      "id": "c313a713-50cb-4ced-934d-700411161696",
+      "slug": "bed-and-breakfast-al-fluviale-bondeno",
+      "nome": "Bed and Breakfast Al Fluviale",
+      "city_name": "Bondeno",
+      "indirizzo": "Via Darsena, 4, 44121 Ferrara FE",
+      "lat": 44.830897,
+      "lng": 11.614646
+    },
+    {
+      "id": "75a467cc-1de6-42f7-bde0-1e54dad088ae",
+      "slug": "borgo-dei-sensi-bondeno",
+      "nome": "Borgo dei sensi",
+      "city_name": "Bondeno",
+      "indirizzo": "Via Ex Dogana, 131, 44041 Casumaro FE",
+      "lat": 44.833492,
+      "lng": 11.375482
+    },
+    {
+      "id": "6e84ee7e-4f07-44b4-b5dc-8e01981d2a29",
+      "slug": "casa-madonna-boschi-bondeno",
+      "nome": "Casa Madonna Boschi",
+      "city_name": "Bondeno",
+      "indirizzo": "Via Madonna Boschi, 14, 44028 Poggio Renatico FE",
+      "lat": 44.809529,
+      "lng": 11.478798
+    }
+  ]
+}

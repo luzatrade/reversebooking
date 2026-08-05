@@ -1,0 +1,323 @@
+{
+  "block": 1,
+  "blockId": "001",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "90591d8f-8034-434e-8e6a-ab5d10cf1812",
+      "slug": "delight-rooms-abbiategrasso",
+      "nome": "Delight Rooms",
+      "city_name": "Abbiategrasso",
+      "indirizzo": "Via Roma, 4, 20011 Corbetta MI",
+      "lat": 45.468232,
+      "lng": 8.919171
+    },
+    {
+      "id": "3d874551-9e2e-4194-91fa-e6cef6013d42",
+      "slug": "la-cardinala-abbiategrasso",
+      "nome": "La Cardinala",
+      "city_name": "Abbiategrasso",
+      "indirizzo": "Via Volturno, 6, 20081 Abbiategrasso MI",
+      "lat": 45.400334,
+      "lng": 8.920632
+    },
+    {
+      "id": "cca4f892-ef0e-4a95-835e-cb800cd4fa3e",
+      "slug": "mahthildis-agriturismo-b-b-abbiategrasso",
+      "nome": "Mahthildis Agriturismo B&B",
+      "city_name": "Abbiategrasso",
+      "indirizzo": "Cascina Grande, 1, 20080 Vermezzo con Zelo MI",
+      "lat": 45.387679,
+      "lng": 8.968459
+    },
+    {
+      "id": "fe658ee9-f5f6-4dc3-a5ae-2e1e5c8f7706",
+      "slug": "nuovo-hotel-italia-abbiategrasso",
+      "nome": "Nuovo Hotel Italia",
+      "city_name": "Abbiategrasso",
+      "indirizzo": "Piazza Castello, 31, 20081 Abbiategrasso MI",
+      "lat": 45.39888,
+      "lng": 8.919182
+    },
+    {
+      "id": "4cf6f316-b180-4899-9ef2-ad757dcf37c9",
+      "slug": "sanmartino67-abbiategrasso",
+      "nome": "SanMartino67",
+      "city_name": "Abbiategrasso",
+      "indirizzo": "Corso S. Martino, 67, 20081 Abbiategrasso MI",
+      "lat": 45.395985,
+      "lng": 8.917265
+    },
+    {
+      "id": "9f291f7d-1474-4c44-a786-788b80a86516",
+      "slug": "agriturismo-le-dogane-abetone-cutigliano",
+      "nome": "Agriturismo le Dogane",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Località Lambure, 1, 51028 San Marcello Piteglio PT",
+      "lat": 44.038845,
+      "lng": 10.750171
+    },
+    {
+      "id": "fce3484c-b9ff-4773-b16f-8abe5dd5bf57",
+      "slug": "albergo-ristorante-bar-sichi-abetone-cutigliano",
+      "nome": "Albergo Ristorante Bar Sichi",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Viale Beatrice, 59, 51024 Abetone Cutigliano PT",
+      "lat": 44.105702,
+      "lng": 10.721803
+    },
+    {
+      "id": "dfd36fdd-e76f-4a2b-9253-a69e7df4c74b",
+      "slug": "albergo-ristorante-la-villa-abetone-cutigliano-abetone-cutigliano",
+      "nome": "Albergo Ristorante La Villa - Abetone Cutigliano",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via del Sestaione, 118, 51024 Abetone PT",
+      "lat": 44.115808,
+      "lng": 10.691847
+    },
+    {
+      "id": "0107925a-e0ae-4b9f-a978-715d9b0e3a9e",
+      "slug": "albergo-sport-abetone-cutigliano",
+      "nome": "Albergo Sport",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via Brennero, 542, 51024 Abetone PT",
+      "lat": 44.14456,
+      "lng": 10.663184
+    },
+    {
+      "id": "e21afe02-f225-42e3-818b-b10a62972d0e",
+      "slug": "albergo-valle-verde-abetone-cutigliano",
+      "nome": "Albergo Valle Verde",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via Giardini Sud, 18, 41027 Pievepelago MO",
+      "lat": 44.194722,
+      "lng": 10.618889
+    },
+    {
+      "id": "fe72116f-cbe5-49fb-9563-892c1d595025",
+      "slug": "b-b-chalet-abetone-cutigliano",
+      "nome": "B&B Chalet",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via Brennero, 504, 51024 Abetone PT",
+      "lat": 44.145532,
+      "lng": 10.665287
+    },
+    {
+      "id": "17f324c9-20c7-4d57-8f59-33e30da83eab",
+      "slug": "b-b-dahu-abetone-cutigliano",
+      "nome": "B&B Dahu",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via Uccelliera, 47, 51024 Abetone PT",
+      "lat": 44.148912,
+      "lng": 10.663107
+    },
+    {
+      "id": "da1cc0f0-b3a8-4b62-bd93-a79d3cb1e03c",
+      "slug": "bed-and-breakfast-regina-abetone-cutigliano",
+      "nome": "Bed and Breakfast Regina",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via dell'Uccelliera, 9, 51024 Abetone PT",
+      "lat": 44.146263,
+      "lng": 10.664837
+    },
+    {
+      "id": "71f9da3c-fa0d-430a-9495-bb6fcad7272c",
+      "slug": "da-tosca-abetone-cutigliano",
+      "nome": "Da Tosca",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via Brennero, 85, 51024 Le Regine PT",
+      "lat": 44.131944,
+      "lng": 10.685556
+    },
+    {
+      "id": "d88edaad-b80c-4125-a922-da25fcdab00b",
+      "slug": "hg-abetone-piramidi-resort-abetone-cutigliano",
+      "nome": "HG Abetone & Piramidi Resort",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via Brennero, 456, 51024 Abetone PT",
+      "lat": 44.142031,
+      "lng": 10.668756
+    },
+    {
+      "id": "bbe315e3-226b-49b1-a8e3-c32b3241afb7",
+      "slug": "hotel-bellavista-abetone-cutigliano",
+      "nome": "Hotel Bellavista",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via Brennero, 383, 51024 Abetone Cutigliano PT",
+      "lat": 44.143608,
+      "lng": 10.662425
+    },
+    {
+      "id": "9221b98c-4be2-40f6-b24f-61a87ec008cd",
+      "slug": "hotel-bristol-abetone-cutigliano",
+      "nome": "Hotel Bristol",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via Giardini, 274, 41022 Dogana Nuova MO",
+      "lat": 44.164958,
+      "lng": 10.641552
+    },
+    {
+      "id": "93c9e387-94cc-4b8a-9301-8de0cfb552d9",
+      "slug": "hotel-la-valle-abetone-cutigliano",
+      "nome": "Hotel La Valle",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via Carega, 10, 51024 Cutigliano PT",
+      "lat": 44.099918,
+      "lng": 10.753939
+    },
+    {
+      "id": "157a5fc5-04cf-46b7-82a2-fd63ee974b28",
+      "slug": "hotel-ristorante-pizzeria-primula-abetone-cutigliano",
+      "nome": "Hotel Ristorante Pizzeria Primula",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via Brennero, 195, 51024 Abetone PT",
+      "lat": 44.140242,
+      "lng": 10.671104
+    },
+    {
+      "id": "3582415c-3a20-4ad3-bc97-54193c52acdf",
+      "slug": "i-pionieri-abetone-cutigliano",
+      "nome": "I Pionieri",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via Val di Luce, 54, 51024 Abetone PT",
+      "lat": 44.129804,
+      "lng": 10.629215
+    },
+    {
+      "id": "3d1c96ea-4522-46df-9859-7584b3ee4874",
+      "slug": "palazzo-42-boutique-hotel-suites-hotel-4-stelle-abetone-cutigliano",
+      "nome": "Palazzo 42 - boutique hotel & suites - Hotel 4 Stelle Pistoia",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via Curtatone e Montanara, 42, 51100 Pistoia PT",
+      "lat": 43.934151,
+      "lng": 10.914439
+    },
+    {
+      "id": "21072603-f91b-4300-93ed-7700dde858bd",
+      "slug": "pensione-ristorante-noemi-abetone-cutigliano",
+      "nome": "Pensione Ristorante Noemi",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via Brennero, 244, 51024 Le Regine PT",
+      "lat": 44.130383,
+      "lng": 10.687585
+    },
+    {
+      "id": "89563e75-11a1-4571-aa1f-2c378810a985",
+      "slug": "residenza-riva-abetone-cutigliano",
+      "nome": "Residenza Riva",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via Brennero, 407, 51024 Abetone Cutigliano PT",
+      "lat": 44.142329,
+      "lng": 10.66157
+    },
+    {
+      "id": "012aaf8d-d6df-458e-b0bd-a704454012b7",
+      "slug": "val-di-luce-spa-resort-abetone-cutigliano",
+      "nome": "Val di Luce SPA Resort",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Via Val di Luce, 22, 51024 Abetone PT",
+      "lat": 44.134577,
+      "lng": 10.630187
+    },
+    {
+      "id": "5286317a-bc07-44e7-826b-315396c18ebb",
+      "slug": "villa-patrizia-abetone-cutigliano",
+      "nome": "Villa Patrizia",
+      "city_name": "Abetone Cutigliano",
+      "indirizzo": "Viale Europa, 9, 51021 Cutigliano PT",
+      "lat": 44.099087,
+      "lng": 10.757064
+    },
+    {
+      "id": "15d9fd36-8d45-4c27-9342-d38b973ac93f",
+      "slug": "albergo-miramonti-abriola",
+      "nome": "Albergo Miramonti",
+      "city_name": "Abriola",
+      "indirizzo": "V. Caserma Lucania, 30, 85100 Potenza PZ",
+      "lat": 40.63987,
+      "lng": 15.805061
+    },
+    {
+      "id": "b9f83bff-b831-47dd-aeb9-5cd346107df9",
+      "slug": "b-b-85centro-abriola",
+      "nome": "B&B 85centro",
+      "city_name": "Abriola",
+      "indirizzo": "Via Giuseppe Mazzini, 85, 85100 Potenza PZ",
+      "lat": 40.639324,
+      "lng": 15.801134
+    },
+    {
+      "id": "3c19e7f7-2056-4ef4-87a8-65e8aa17b5a3",
+      "slug": "basilicata-al-volo-abriola",
+      "nome": "Basilicata Al Volo",
+      "city_name": "Abriola",
+      "indirizzo": "L.go San Giacomo, 1, 85010 Brindisi Montagna PZ",
+      "lat": 40.611492,
+      "lng": 15.939014
+    },
+    {
+      "id": "704da14c-65d2-4a52-a1cc-105a93be7f34",
+      "slug": "bouganville-hill-resort-wellness-space-abriola",
+      "nome": "Bouganville Hill Resort & Wellness Space",
+      "city_name": "Abriola",
+      "indirizzo": "S.P. 83, Snc, 85055 Picerno PZ",
+      "lat": 40.630477,
+      "lng": 15.624944
+    },
+    {
+      "id": "50a28802-eb46-4615-b5ce-8daa26bbb015",
+      "slug": "dimora-storica-giorni-resort-spa-abriola",
+      "nome": "Dimora storica Giorni resort & spa",
+      "city_name": "Abriola",
+      "indirizzo": "Via Umberto I, 85010 Pignola PZ",
+      "lat": 40.574366,
+      "lng": 15.785095
+    },
+    {
+      "id": "48a7680c-258a-4343-8744-44497f765c36",
+      "slug": "hotel-giubileo-abriola",
+      "nome": "Hotel Giubileo",
+      "city_name": "Abriola",
+      "indirizzo": "SS92, 85010 Località Rifreddo, Pignola PZ",
+      "lat": 40.57254,
+      "lng": 15.82271
+    },
+    {
+      "id": "32ed9675-2aea-4232-971b-d86c5781a66a",
+      "slug": "hotel-imperial-abriola",
+      "nome": "Hotel Imperial",
+      "city_name": "Abriola",
+      "indirizzo": "Terza Traversa Via Nazionale, 1, 85050 Brienza PZ",
+      "lat": 40.473459,
+      "lng": 15.628336
+    },
+    {
+      "id": "1cce9630-48f1-4119-ba02-17d24af76ab6",
+      "slug": "hotel-la-piana-abriola",
+      "nome": "Hotel La Piana",
+      "city_name": "Abriola",
+      "indirizzo": "Via Gerhard Rohlfs, 7, 85050 Tito PZ",
+      "lat": 40.603621,
+      "lng": 15.695562
+    },
+    {
+      "id": "4c2ee798-8a41-44b5-a96d-e8b6285575b5",
+      "slug": "hotel-ristorante-il-volturino-abriola",
+      "nome": "Hotel Ristorante Il Volturino",
+      "city_name": "Abriola",
+      "indirizzo": "Via Salvatore Milito, 3, 85010 Calvello PZ",
+      "lat": 40.473034,
+      "lng": 15.844723
+    },
+    {
+      "id": "bec42460-1cf0-4405-ba78-4be297d55744",
+      "slug": "hotel-sellata-abriola",
+      "nome": "Hotel Sellata",
+      "city_name": "Abriola",
+      "indirizzo": "sp, Contrada Sellata, 5, 85010 Abriola PZ",
+      "lat": 40.510964,
+      "lng": 15.806366
+    }
+  ]
+}

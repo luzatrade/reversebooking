@@ -1,0 +1,323 @@
+{
+  "block": 464,
+  "blockId": "464",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "f1b39303-bc0f-4402-9851-89b6becd2ef3",
+      "slug": "grecinella-casole-d-elsa",
+      "nome": "Grecinella",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Loc. Grecinella, 28, SP27, 53031 Casole d'Elsa SI",
+      "lat": 43.360439,
+      "lng": 11.020634
+    },
+    {
+      "id": "96156c82-d25f-4aac-a7c5-e852ff041970",
+      "slug": "hotel-al-vecchio-pietreto-casole-d-elsa",
+      "nome": "HOTEL AL VECCHIO PIETRETO",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Strada Vicinale del Pietreto, 73, 53034 Colle di Val d'Elsa SI",
+      "lat": 43.388465,
+      "lng": 11.137808
+    },
+    {
+      "id": "87adad06-cf19-44e1-b443-b41498f21441",
+      "slug": "hotel-la-selva-holistic-hotel-casole-d-elsa",
+      "nome": "HOTEL LA SELVA - HOLISTIC HOTEL",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Località Podere Pagliano, 22, 53031 Casole d'Elsa SI",
+      "lat": 43.248633,
+      "lng": 11.149673
+    },
+    {
+      "id": "b5ce8b62-fe2b-4e1f-a49c-9d9e76342d96",
+      "slug": "hotel-villa-belvedere-casole-d-elsa",
+      "nome": "Hotel Villa Belvedere",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Via Senese, 53034 Loc. Belvedere, Colle Val d’Elsa SI",
+      "lat": 43.415097,
+      "lng": 11.156077
+    },
+    {
+      "id": "7e2d2475-c7ac-483e-a967-9f9082e746d9",
+      "slug": "la-casa-di-arianna-casole-d-elsa",
+      "nome": "La casa di Arianna",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "53031 Casole d'Elsa SI",
+      "lat": 43.339142,
+      "lng": 11.058848
+    },
+    {
+      "id": "5fc457f7-92fe-460d-81c5-24f99ff93ab9",
+      "slug": "la-peschiera-casole-d-elsa-agriturismo-casole-d-elsa",
+      "nome": "La Peschiera Casole d'Elsa - Agriturismo",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Località Cavallano, 8, 53031 Casole d'Elsa SI",
+      "lat": 43.354156,
+      "lng": 11.050697
+    },
+    {
+      "id": "d4567ae3-24a1-475e-bc04-885f40200760",
+      "slug": "monti-1824-cottages-apartments-casole-d-elsa",
+      "nome": "Monti 1824 - Cottages & Apartments",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Viale della Rimembranza, 12, 53031 Casole d'Elsa SI",
+      "lat": 43.34778,
+      "lng": 11.033345
+    },
+    {
+      "id": "de057c21-2fcf-43da-a455-e93e2deafc0a",
+      "slug": "podere-la-ciabatta-casole-d-elsa",
+      "nome": "Podere la Ciabatta",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Località Monti, 16, 53031 Casole d'Elsa SI",
+      "lat": 43.351472,
+      "lng": 11.023433
+    },
+    {
+      "id": "70e44bcd-dc40-49f2-b57c-867146f8145e",
+      "slug": "relax-hotel-acquaviva-tuscany-hills-casole-d-elsa",
+      "nome": "Relax Hotel Acquaviva – Tuscany Hills",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Località Acquaviva, 1, 53031 Casole d'Elsa SI",
+      "lat": 43.36235,
+      "lng": 11.024235
+    },
+    {
+      "id": "df4a4f73-35d5-4796-a520-1f1675efedcd",
+      "slug": "sportland-la-badia-casole-d-elsa",
+      "nome": "Sportland la badia",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Via Liguria, 1, 53034 Colle di Val d'Elsa SI",
+      "lat": 43.421017,
+      "lng": 11.139044
+    },
+    {
+      "id": "87ddd735-5730-4133-84ee-e7205b694664",
+      "slug": "tenuta-colombaio-casole-d-elsa",
+      "nome": "Tenuta Colombaio",
+      "city_name": "Casole d'Elsa",
+      "indirizzo": "Loc. Colombaio, Viale della Rimembranza, 27, 53034 Casole d'Elsa SI",
+      "lat": 43.340359,
+      "lng": 11.038577
+    },
+    {
+      "id": "7013239f-3f01-427d-80b4-c5a9400cdbc6",
+      "slug": "b-b-la-casa-di-gio-casoli",
+      "nome": "B&B La Casa di Giò",
+      "city_name": "Casoli",
+      "indirizzo": "Via della Pace, 9, 66034 Lanciano CH",
+      "lat": 42.232963,
+      "lng": 14.398107
+    },
+    {
+      "id": "1e19830f-f281-42a6-b13d-0bbfb908ad98",
+      "slug": "lotus-house-boutique-b-b-casoli",
+      "nome": "Lotus House Boutique B&b",
+      "city_name": "Casoli",
+      "indirizzo": "Contrada Villa Stanazzo, 202, 66034 Lanciano CH",
+      "lat": 42.227341,
+      "lng": 14.422242
+    },
+    {
+      "id": "06c0bdc0-c95a-4b17-a4cd-34ca891fb355",
+      "slug": "palazzo-tilli-casoli",
+      "nome": "Palazzo Tilli",
+      "city_name": "Casoli",
+      "indirizzo": "Largo del Fiore, 1, 66043 Casoli CH",
+      "lat": 42.118731,
+      "lng": 14.293986
+    },
+    {
+      "id": "056558b7-324b-41cb-a7b1-9a52c026a9e2",
+      "slug": "residence-la-piazzetta-casoli",
+      "nome": "Residence La Piazzetta",
+      "city_name": "Casoli",
+      "indirizzo": "Viale 4 Novembre, sn, 66015 Fara San Martino CH",
+      "lat": 42.08876,
+      "lng": 14.205379
+    },
+    {
+      "id": "bdb7e71b-29a6-446e-8c9a-a9a0839270bb",
+      "slug": "agriturismo-sant-anna-casorate-sempione",
+      "nome": "Agriturismo Sant'Anna",
+      "city_name": "Casorate Sempione",
+      "indirizzo": "Via Eugenio Villoresi, 140, 21019 Somma Lombardo VA",
+      "lat": 45.675921,
+      "lng": 8.68797
+    },
+    {
+      "id": "0c5d3832-0053-40cb-9b02-7dbc55b0935f",
+      "slug": "b-b-il-poggio-casorate-sempione",
+      "nome": "B&B Il Poggio",
+      "city_name": "Casorate Sempione",
+      "indirizzo": "Via S. Martino, 11, 21011 Casorate Sempione VA",
+      "lat": 45.667214,
+      "lng": 8.740007
+    },
+    {
+      "id": "96979e32-9218-4ee2-9cb7-9d44a52e57c4",
+      "slug": "jet-hotel-sure-hotel-collection-by-best-western-casorate-sempione",
+      "nome": "Jet Hotel, Sure Hotel Collection by Best Western",
+      "city_name": "Casorate Sempione",
+      "indirizzo": "Via Tiro a Segno, 22, 21013 Gallarate VA",
+      "lat": 45.65009,
+      "lng": 8.802769
+    },
+    {
+      "id": "39973cb8-471e-42d2-8143-d3475c92af30",
+      "slug": "novotel-milano-malpensa-airport-casorate-sempione",
+      "nome": "Novotel Milano Malpensa Airport",
+      "city_name": "Casorate Sempione",
+      "indirizzo": "Via Al Campo, 99, 21010 Cardano al Campo VA",
+      "lat": 45.64186,
+      "lng": 8.758944
+    },
+    {
+      "id": "d7bbe234-f5fc-47ef-b13f-43be89744f37",
+      "slug": "b-b-la-filanda-di-francesca-meneghin-casorezzo",
+      "nome": "B&B La Filanda di Francesca Meneghin",
+      "city_name": "Casorezzo",
+      "indirizzo": "Via Europa, 14, 20010 Casorezzo MI",
+      "lat": 45.524696,
+      "lng": 8.902865
+    },
+    {
+      "id": "07cb6150-fd84-4182-b9dc-26a32ebc9c24",
+      "slug": "bed-breakfast-il-calimun-casorezzo",
+      "nome": "BED & BREAKFAST IL CALIMUN",
+      "city_name": "Casorezzo",
+      "indirizzo": "Via dell'Asilo, 25, 20003 Casorezzo MI",
+      "lat": 45.522315,
+      "lng": 8.900626
+    },
+    {
+      "id": "6a6b2b3d-d573-42cc-8cf1-cb8de72d279c",
+      "slug": "crespi-house-cin-it015168c1knatkfxz-casorezzo",
+      "nome": "Crespi House - Cin IT015168C1KNATKFXZ",
+      "city_name": "Casorezzo",
+      "indirizzo": "Via Valsugana, 1, 20015 Parabiago MI",
+      "lat": 45.531386,
+      "lng": 8.937456
+    },
+    {
+      "id": "544c77e2-71fa-406d-b848-3f6c79f38b23",
+      "slug": "san-giacomo-horses-agriturismo-casorezzo",
+      "nome": "San Giacomo Horses & Agriturismo",
+      "city_name": "Casorezzo",
+      "indirizzo": "Strada, Cascina S. Giacomo, 20004 Arluno MI",
+      "lat": 45.519378,
+      "lng": 8.927389
+    },
+    {
+      "id": "647b713a-88ef-4a19-880f-f679d27fd63d",
+      "slug": "hotel-kursaal-camera-day-use-napoli-casoria",
+      "nome": "Hotel Kursaal - Camera day use - Napoli",
+      "city_name": "Casoria",
+      "indirizzo": "Via Raffaele Ruggiero, 289, 80125 Napoli NA",
+      "lat": 40.837065,
+      "lng": 14.175126
+    },
+    {
+      "id": "1a304149-3d41-4a09-b957-edf698ae1715",
+      "slug": "vertigo-b-b-casoria",
+      "nome": "Vertigo B&B",
+      "city_name": "Casoria",
+      "indirizzo": "Via Lago Patria, 13, 80026 Casoria NA",
+      "lat": 40.902238,
+      "lng": 14.294889
+    },
+    {
+      "id": "c1cbe91b-c904-45fe-8b4f-3256c291b2ca",
+      "slug": "b-b-la-sergiunga-del-monferrato-casorzo-monferrato",
+      "nome": "B&B La Sergiunga del Monferrato",
+      "city_name": "Casorzo Monferrato",
+      "indirizzo": "Via Prato Casale, 37, 14032 Casorzo AT",
+      "lat": 45.01434,
+      "lng": 8.316174
+    },
+    {
+      "id": "25e1ed90-f89e-4ed1-8507-d98589761af4",
+      "slug": "casa-casorzo-monferrato",
+      "nome": "Casa",
+      "city_name": "Casorzo Monferrato",
+      "indirizzo": "Cascina Milano n.7, frazione Mongetto, 15049 Vignale Monferrato AL",
+      "lat": 45.023148,
+      "lng": 8.375655
+    },
+    {
+      "id": "89f1f225-6f62-46df-af2c-e7ed4cf59a2c",
+      "slug": "country-house-montessino-casorzo-monferrato",
+      "nome": "Country House Montessino",
+      "city_name": "Casorzo Monferrato",
+      "indirizzo": "Cascina Montessino, 20, 15038 Ottiglio AL",
+      "lat": 45.030305,
+      "lng": 8.354547
+    },
+    {
+      "id": "15d96221-697c-4620-bd3a-0536c3058280",
+      "slug": "agriturismo-caprareccia-bianca-holiday-apartment-casperia",
+      "nome": "Agriturismo Caprareccia Bianca Holiday Apartments",
+      "city_name": "Casperia",
+      "indirizzo": "Via Santa Maria, 02041 Casperia RI",
+      "lat": 42.358319,
+      "lng": 12.688623
+    },
+    {
+      "id": "fb50c164-8697-48fa-94d0-87388f11c89f",
+      "slug": "agriturismo-le-mandriacce-casperia",
+      "nome": "Agriturismo le Mandriacce",
+      "city_name": "Casperia",
+      "indirizzo": "Via Piana, 11, 00060 Ponzano Romano RM",
+      "lat": 42.235594,
+      "lng": 12.566963
+    },
+    {
+      "id": "1541f355-0216-42b7-9ddd-2b7331dcb142",
+      "slug": "b-b-colle-perrini-country-house-casperia",
+      "nome": "B&B Colle Perrini Country House",
+      "city_name": "Casperia",
+      "indirizzo": "Via Meleta, 24, 02041 Casperia RI",
+      "lat": 42.332475,
+      "lng": 12.65991
+    },
+    {
+      "id": "42ed036d-a999-4439-abb8-f4d135a091c6",
+      "slug": "corte-buenavista-guest-house-casperia",
+      "nome": "Corte Buenavista Guest House",
+      "city_name": "Casperia",
+      "indirizzo": "Vocabolo Chiorano, 12, 02046 Magliano Sabina RI",
+      "lat": 42.360935,
+      "lng": 12.507868
+    },
+    {
+      "id": "1a0e0a98-8331-4eae-848c-57a2829ddd89",
+      "slug": "relais-borgo-gentile-casperia",
+      "nome": "Relais Borgo Gentile",
+      "city_name": "Casperia",
+      "indirizzo": "Via dei tre colli SP, 53/N. 8, 02040 Tarano RI",
+      "lat": 42.34336,
+      "lng": 12.594647
+    },
+    {
+      "id": "42b5bd05-7ea5-4c9a-8dc2-14fbf8a16066",
+      "slug": "ristorante-degli-angeli-casperia",
+      "nome": "Ristorante Degli Angeli",
+      "city_name": "Casperia",
+      "indirizzo": "Vocabolo Madonna degli Angeli, 1, 02046 Madonna degli Angeli RI",
+      "lat": 42.386168,
+      "lng": 12.495939
+    },
+    {
+      "id": "6c7f2787-8e68-42af-b8ca-7705c50c5406",
+      "slug": "agarthi-suites-caspoggio",
+      "nome": "Agarthi Suites",
+      "city_name": "Caspoggio",
+      "indirizzo": "Via Fiorenza, 28, 23020 Boffetto SO",
+      "lat": 46.16146,
+      "lng": 9.954999
+    }
+  ]
+}

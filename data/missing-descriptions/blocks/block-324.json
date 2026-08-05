@@ -1,0 +1,323 @@
+{
+  "block": 324,
+  "blockId": "324",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "e42dc8a9-1f43-46c7-a928-1c25b6863f2b",
+      "slug": "park-hotel-italia-bressanvido",
+      "nome": "PARK HOTEL ITALIA",
+      "city_name": "Bressanvido",
+      "indirizzo": "Via Villa, 89, 36056 Tezze sul Brenta VI",
+      "lat": 45.682583,
+      "lng": 11.708943
+    },
+    {
+      "id": "ef26852b-27a8-42d4-80cd-6f23aad8bec4",
+      "slug": "affittacamere-pone-bresso",
+      "nome": "Affittacamere Pone",
+      "city_name": "Bresso",
+      "indirizzo": "Via Cadore, 54, 20099 Sesto San Giovanni MI",
+      "lat": 45.548115,
+      "lng": 9.259119
+    },
+    {
+      "id": "28807bc8-53f1-4255-b6d2-3000109bafc9",
+      "slug": "b-b-casa-pucci-milano-bresso",
+      "nome": "B&B Casa Pucci Milano",
+      "city_name": "Bresso",
+      "indirizzo": "Via Dante Alighieri, 14a, 20091 Bresso MI",
+      "lat": 45.531517,
+      "lng": 9.194598
+    },
+    {
+      "id": "3d6ef00b-eafc-42e9-bf92-4cbf3a8882c9",
+      "slug": "b-b-de-i-bravi-charming-guest-house-bresso",
+      "nome": "B&B De I Bravi - Charming guest house",
+      "city_name": "Bresso",
+      "indirizzo": "V. Angelo Bizzozero, 1F, 20032 Cormano MI",
+      "lat": 45.537747,
+      "lng": 9.176621
+    },
+    {
+      "id": "2597b7ed-1212-4b61-8df2-dc955e9c386b",
+      "slug": "b-b-eros-casa-bresso",
+      "nome": "B&b Eros casa",
+      "city_name": "Bresso",
+      "indirizzo": "Via Luigi Pastro, 10, 20161 Milano MI",
+      "lat": 45.512162,
+      "lng": 9.175991
+    },
+    {
+      "id": "f1bd82ab-edab-41c9-9c92-2ae3f8feb3a0",
+      "slug": "b-b-hotel-milano-ornato-bresso",
+      "nome": "B&B HOTEL Milano Ornato",
+      "city_name": "Bresso",
+      "indirizzo": "Via Luigi Ornato, 64, 20162 Milano MI",
+      "lat": 45.520021,
+      "lng": 9.192311
+    },
+    {
+      "id": "d2a51e95-cf69-4980-bd4b-5e82b657ba59",
+      "slug": "b-b-la-casa-del-nespolo-di-niguarda-bresso",
+      "nome": "B&B La Casa del Nespolo di... Niguarda",
+      "city_name": "Bresso",
+      "indirizzo": "Via Paulucci di Calboli Fulcieri, 32, 20162 Milano MI",
+      "lat": 45.517419,
+      "lng": 9.191637
+    },
+    {
+      "id": "83d91587-a09a-4711-a9ed-3b3e41482b28",
+      "slug": "b-b-la-corte-di-brusuglio-bresso",
+      "nome": "B&b La Corte di Brusuglio",
+      "city_name": "Bresso",
+      "indirizzo": "Via Renzo Villa, 3, 20032 Cormano MI",
+      "lat": 45.53943,
+      "lng": 9.177419
+    },
+    {
+      "id": "f07cd079-b933-4b85-a15b-ad0b0b78f550",
+      "slug": "breda-suites-hotel-milano-bresso",
+      "nome": "Breda Suites Hotel Milano",
+      "city_name": "Bresso",
+      "indirizzo": "Viale Sarca, 336, 20126 Milano MI",
+      "lat": 45.526153,
+      "lng": 9.215594
+    },
+    {
+      "id": "387a9f1b-656c-4918-afca-54d03a167307",
+      "slug": "casa-alice-guest-house-bresso",
+      "nome": "Casa Alice Guest House",
+      "city_name": "Bresso",
+      "indirizzo": "Via Edmondo De Amicis, 10, 20091 Bresso MI",
+      "lat": 45.53947,
+      "lng": 9.186192
+    },
+    {
+      "id": "26104b10-6043-4b9b-b0bc-3b117948d167",
+      "slug": "casatitta-bed-breakfast-bresso",
+      "nome": "CasaTitta Bed & Breakfast",
+      "city_name": "Bresso",
+      "indirizzo": "Via Giulio Belinzaghi, 21, 20159 Milano MI",
+      "lat": 45.496752,
+      "lng": 9.188226
+    },
+    {
+      "id": "dbdb02cf-e65b-4992-855c-3c4f635081e0",
+      "slug": "ciaomi-long-short-stay-training-events-niguarda-bresso",
+      "nome": "CiaoMi Long & Short Stay - Training & Events - Niguarda Bicocca",
+      "city_name": "Bresso",
+      "indirizzo": "Via Adriatico, 8, 20162 Milano MI",
+      "lat": 45.518126,
+      "lng": 9.196537
+    },
+    {
+      "id": "0568b8ed-fd80-406f-bd0f-5a0709946216",
+      "slug": "guest-house-pirelli-bresso",
+      "nome": "Guest House Pirelli",
+      "city_name": "Bresso",
+      "indirizzo": "Via Giovanni Battista Pirelli, 26, 20100 Milano MI",
+      "lat": 45.48397,
+      "lng": 9.19794
+    },
+    {
+      "id": "975e9220-38ca-40fa-adc9-bb60bb1d1f05",
+      "slug": "la-casa-nel-parco-affittacamere-bresso",
+      "nome": "La Casa Nel Parco Affittacamere",
+      "city_name": "Bresso",
+      "indirizzo": "Via Gian Carlo Clerici, 342, 20099 Sesto San Giovanni MI",
+      "lat": 45.533307,
+      "lng": 9.209033
+    },
+    {
+      "id": "fda28b41-1fae-4e25-851d-d538ab39f35a",
+      "slug": "milano-affittacamere-stazione-centrale-metropoli-bresso",
+      "nome": "milano affittacamere stazione centrale metropolitana",
+      "city_name": "Bresso",
+      "indirizzo": "Viale Monza, 38, 20125 Milano MI",
+      "lat": 45.491692,
+      "lng": 9.218729
+    },
+    {
+      "id": "a09fe448-0ee1-4f64-b850-ef24cfcbf5d6",
+      "slug": "neo-hotel-bresso",
+      "nome": "Neo Hotel",
+      "city_name": "Bresso",
+      "indirizzo": "Via XXV Aprile, 49/51, 20091 Bresso MI",
+      "lat": 45.535766,
+      "lng": 9.197255
+    },
+    {
+      "id": "9ee8ff07-8e5f-44bc-b6d6-a5d1b3698f20",
+      "slug": "ora-hotels-city-milano-bresso",
+      "nome": "Ora Hotels City Milano",
+      "city_name": "Bresso",
+      "indirizzo": "Via XXV Aprile, 49, 20091 Milano MI",
+      "lat": 45.53576,
+      "lng": 9.197263
+    },
+    {
+      "id": "e14fe27d-2da3-4f88-bf3b-4a3568b63aeb",
+      "slug": "residenze-niguarda-bresso",
+      "nome": "Residenze Niguarda",
+      "city_name": "Bresso",
+      "indirizzo": "Via Luigi Ornato, 18, 20162 Milano MI",
+      "lat": 45.516317,
+      "lng": 9.191191
+    },
+    {
+      "id": "a223fc33-e426-4b1b-85e6-1da354361d21",
+      "slug": "agriturismo-la-betulla-brezzo-di-bedero",
+      "nome": "Agriturismo La Betulla",
+      "city_name": "Brezzo di Bedero",
+      "indirizzo": "Via Belmonte, 50, 21010 Brezzo di Bedero VA",
+      "lat": 45.971666,
+      "lng": 8.708748
+    },
+    {
+      "id": "e2e2df25-9208-430c-bcde-94113c06ad97",
+      "slug": "agriturismo-tschang-wilma-brezzo-di-bedero",
+      "nome": "Agriturismo Tschang Wilma",
+      "city_name": "Brezzo di Bedero",
+      "indirizzo": "9, via Pira Pianeggi, 21010 Caldè VA",
+      "lat": 45.941474,
+      "lng": 8.680256
+    },
+    {
+      "id": "15cf91fd-54cf-4cc6-ae1d-f1e796c376b5",
+      "slug": "b-b-le-camelie-brezzo-di-bedero",
+      "nome": "B&B Le Camelie",
+      "city_name": "Brezzo di Bedero",
+      "indirizzo": "Via XXV Aprile, 2, 21030 Brissago-Valtravaglia VA",
+      "lat": 45.948622,
+      "lng": 8.746892
+    },
+    {
+      "id": "3378f2d2-3b14-42d5-99ba-41f1bc20aa6e",
+      "slug": "b-b-tana-del-ghiro-ligurno-porto-valtravaglia-la-brezzo-di-bedero",
+      "nome": "B&B Tana del ghiro-Ligurno-Porto Valtravaglia-Lago Maggiore-Varese",
+      "city_name": "Brezzo di Bedero",
+      "indirizzo": "Via San Rocco, 18, 21010 Porto Valtravaglia VA",
+      "lat": 45.949337,
+      "lng": 8.696998
+    },
+    {
+      "id": "929ab903-0220-4dc0-92ce-afc0837c9812",
+      "slug": "la-corte-antica-brezzo-di-bedero",
+      "nome": "La Corte Antica",
+      "city_name": "Brezzo di Bedero",
+      "indirizzo": "Via Alessandro Manzoni, 34, 21016 Luino VA",
+      "lat": 46.002069,
+      "lng": 8.743976
+    },
+    {
+      "id": "8b79533b-4fe0-40d9-aab9-b6aefb4e7129",
+      "slug": "luino-casa-amatissima-brezzo-di-bedero",
+      "nome": "Luino Casa Amatissima",
+      "city_name": "Brezzo di Bedero",
+      "indirizzo": "Via Portovaltravaglia, 16, 21010 Brezzo di Bedero VA",
+      "lat": 45.987202,
+      "lng": 8.711997
+    },
+    {
+      "id": "20da5297-4466-4765-b808-ea2a8b7adbfe",
+      "slug": "agriturismo-la-meridiana-briaglia",
+      "nome": "Agriturismo La Meridiana",
+      "city_name": "Briaglia",
+      "indirizzo": "Località Torretta, 6, 12082 Frabosa Soprana CN",
+      "lat": 44.313632,
+      "lng": 7.807546
+    },
+    {
+      "id": "678d90a5-13d1-4421-82da-bd748a1aa41c",
+      "slug": "albergo-della-ceramica-briaglia",
+      "nome": "Albergo della Ceramica",
+      "city_name": "Briaglia",
+      "indirizzo": "Via XX Settembre, 2, 12089 Villanova Mondovì CN",
+      "lat": 44.348103,
+      "lng": 7.765288
+    },
+    {
+      "id": "b8ee2e03-291a-45e2-b4ea-6384dc130745",
+      "slug": "b-b-caplin-briaglia",
+      "nome": "B&B Caplin",
+      "city_name": "Briaglia",
+      "indirizzo": "Via Località Gratteria, 11, 12084 Mondovì CN",
+      "lat": 44.444413,
+      "lng": 7.82983
+    },
+    {
+      "id": "e9276c36-68c7-43c7-8620-0e9eab28cf45",
+      "slug": "dimora-della-posta-briaglia",
+      "nome": "Dimora della Posta",
+      "city_name": "Briaglia",
+      "indirizzo": "Corso Statuto, 16, 12084 Mondovì CN",
+      "lat": 44.387695,
+      "lng": 7.820381
+    },
+    {
+      "id": "878e64ee-bed0-4d99-b24f-aafc01f2cf30",
+      "slug": "relais-colle-messino-briaglia",
+      "nome": "Relais Colle Messino",
+      "city_name": "Briaglia",
+      "indirizzo": "Via Ellero Tetti, 14, 12080 Briaglia CN",
+      "lat": 44.410454,
+      "lng": 7.869447
+    },
+    {
+      "id": "80664f67-ea93-4e5b-83c6-85da94037501",
+      "slug": "albergo-solari-briatico",
+      "nome": "Albergo Solari",
+      "city_name": "Briatico",
+      "indirizzo": "Via Gabriele d'Annunzio, 30, 89817 Briatico VV",
+      "lat": 38.72411,
+      "lng": 16.029976
+    },
+    {
+      "id": "d3555586-9ca9-49ca-b1e8-7ec1ec6add45",
+      "slug": "albergo-terrazzino-briatico",
+      "nome": "Albergo Terrazzino",
+      "city_name": "Briatico",
+      "indirizzo": "Piazza Marinella, Loc, n, 6, 89900 Bivona VV",
+      "lat": 38.711497,
+      "lng": 16.101357
+    },
+    {
+      "id": "ed8ffc81-ae9f-40f2-acc0-86c6b5b29406",
+      "slug": "aramoni-b-b-briatico",
+      "nome": "Aramoni B&B",
+      "city_name": "Briatico",
+      "indirizzo": "Via Corrado Alvaro, 13, 89868 Zambrone VV",
+      "lat": 38.697674,
+      "lng": 15.990314
+    },
+    {
+      "id": "2b499069-3a31-4e27-b22f-2c5fdde64363",
+      "slug": "b-b-il-giardino-sul-mare-briatico",
+      "nome": "B&B Il Giardino Sul Mare",
+      "city_name": "Briatico",
+      "indirizzo": "SS522, 89817 Briatico VV",
+      "lat": 38.716264,
+      "lng": 16.056408
+    },
+    {
+      "id": "75b4ccd3-6285-492e-8b1c-14c3d00abbf4",
+      "slug": "b-b-la-casa-di-tina-briatico-briatico",
+      "nome": "B&B La casa di Tina - Briatico",
+      "city_name": "Briatico",
+      "indirizzo": "Via Lungomare, 69, 89817 Briatico VV",
+      "lat": 38.726954,
+      "lng": 16.034055
+    },
+    {
+      "id": "f4b502ca-a71c-4c6f-b537-980965cb4c25",
+      "slug": "hotel-costa-bella-briatico",
+      "nome": "Hotel Costa Bella",
+      "city_name": "Briatico",
+      "indirizzo": "Strada St, Località Solaro, 522, 89817 Briatico VV",
+      "lat": 38.722776,
+      "lng": 16.024663
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 323,
+  "blockId": "323",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "304a3e6d-0515-46cf-8555-087289c32d84",
+      "slug": "hotel-don-camillo-brescello",
+      "nome": "Hotel Don Camillo",
+      "city_name": "Brescello",
+      "indirizzo": "Via Strada della Cisa, 60, 42041 Brescello RE",
+      "lat": 44.887843,
+      "lng": 10.499585
+    },
+    {
+      "id": "b2b44796-55a1-4350-9e12-1b054180bbfb",
+      "slug": "rooms-don-alfonso-brescello",
+      "nome": "Rooms Don Alfonso",
+      "city_name": "Brescello",
+      "indirizzo": "Via Emilia Est, 1/A, 43121 Parma PR",
+      "lat": 44.798498,
+      "lng": 10.339843
+    },
+    {
+      "id": "4164bed8-b55c-4d18-aaba-a28d4e83a970",
+      "slug": "villino-della-duchessa-brescello",
+      "nome": "Villino della Duchessa",
+      "city_name": "Brescello",
+      "indirizzo": "Via Cagliari, 7, 43122 Parma PR",
+      "lat": 44.814503,
+      "lng": 10.330168
+    },
+    {
+      "id": "9401d87c-a28e-4cea-a74f-cd59c7752311",
+      "slug": "affittacamere-bellafiora-bresimo",
+      "nome": "Affittacamere Bellafiora",
+      "city_name": "Bresimo",
+      "indirizzo": "Via Bellafiora, 18, 60027 Osimo AN",
+      "lat": 43.505977,
+      "lng": 13.492624
+    },
+    {
+      "id": "08d31513-5494-4a59-8895-9c0eeade3f4b",
+      "slug": "agriroom-bresimo",
+      "nome": "Agriroom",
+      "city_name": "Bresimo",
+      "indirizzo": "Mocenigo di Rumo, via san Vigilio 12 Via san Vigilio 12, Mocenigo di, 38020 Rumo TN",
+      "lat": 46.451709,
+      "lng": 11.009808
+    },
+    {
+      "id": "277a3933-3c4a-4127-92af-e83a5df53ccb",
+      "slug": "agritur-malga-bordolona-trento-agriturismo-trent-bresimo",
+      "nome": "Agritur Malga Bordolona Trento – Agriturismo Trento, Punto Ristoro Trento, Prodotti Tipici Trento",
+      "city_name": "Bresimo",
+      "indirizzo": "Località Bresimo snc, 38020 Bresimo TN",
+      "lat": 46.432346,
+      "lng": 10.889189
+    },
+    {
+      "id": "2d6a2a4d-80cd-4afb-a07f-3e506e7349ed",
+      "slug": "b-b-butterfly-bresimo",
+      "nome": "B&B Butterfly",
+      "city_name": "Bresimo",
+      "indirizzo": "Località Baselga, 17, 38020 Bresimo TN",
+      "lat": 46.415673,
+      "lng": 10.985285
+    },
+    {
+      "id": "6545a6e7-c19a-4364-bc0a-40be4ced1991",
+      "slug": "dimora-la-meridiana-bresimo",
+      "nome": "Dimora la Meridiana",
+      "city_name": "Bresimo",
+      "indirizzo": "Via Stenico, 5, 38095 Coltura TN",
+      "lat": 46.058473,
+      "lng": 10.793845
+    },
+    {
+      "id": "c25ac20f-bbbb-4b19-b747-13895d13f626",
+      "slug": "hotel-terme-bresimo",
+      "nome": "Hotel Terme",
+      "city_name": "Bresimo",
+      "indirizzo": "Localita' Le Acque, 38020 Bresimo TN",
+      "lat": 46.411553,
+      "lng": 10.957242
+    },
+    {
+      "id": "67c7c868-7f10-4ec0-a6ef-93b961662d5c",
+      "slug": "trattoria-il-contadino-di-lorenza-pozzatti-bresimo",
+      "nome": "Trattoria “Il Contadino” di Lorenza Pozzatti",
+      "city_name": "Bresimo",
+      "indirizzo": "Via Bevia, 7, 38020 Bresimo TN",
+      "lat": 46.411859,
+      "lng": 10.969269
+    },
+    {
+      "id": "595f3b11-5e33-4ba5-ae37-cd637c531f46",
+      "slug": "atelier-guest-house-bressana-bottarone",
+      "nome": "Atelier Guest House",
+      "city_name": "Bressana Bottarone",
+      "indirizzo": "Viale Carlo Marx, 15, 27058 Voghera PV",
+      "lat": 44.989402,
+      "lng": 9.007948
+    },
+    {
+      "id": "8c3bbe5e-6d78-49c9-8437-2601b08d3be1",
+      "slug": "suite-vogue-sforza-bressana-bottarone",
+      "nome": "Suite Vogue Sforza",
+      "city_name": "Bressana Bottarone",
+      "indirizzo": "Via Carolina Agata Bellocchio, 28, 27058 Voghera PV",
+      "lat": 44.991181,
+      "lng": 9.007128
+    },
+    {
+      "id": "9fac4678-f135-4221-8b9e-27a92a9dcfc3",
+      "slug": "albergo-garni-cremona-bressanone-brixen",
+      "nome": "Albergo Garni' Cremona",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Viale Mozart, 2/C, 39042 Bressanone BZ",
+      "lat": 46.709986,
+      "lng": 11.65144
+    },
+    {
+      "id": "734d2e9e-773b-4727-83f6-15e82e9940ca",
+      "slug": "albergo-millanderhof-bressanone-brixen",
+      "nome": "Albergo Millanderhof",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Via Plose, 58, 39042 Bressanone BZ",
+      "lat": 46.705687,
+      "lng": 11.659875
+    },
+    {
+      "id": "eeb99865-dbc2-40c5-85a8-82a76ee6b2eb",
+      "slug": "boutique-hotel-badhaus-bressanone-brixen",
+      "nome": "Boutique Hotel Badhaus",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Via Ponte Aquila, 5, 39042 Bressanone BZ",
+      "lat": 46.716772,
+      "lng": 11.658302
+    },
+    {
+      "id": "0e533435-e93e-4d67-a322-713329279200",
+      "slug": "cavallino-d-oro-bressanone-brixen",
+      "nome": "Cavallino d'Oro",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Via Brennero, 3, 39042 Bressanone BZ",
+      "lat": 46.719637,
+      "lng": 11.655791
+    },
+    {
+      "id": "eb2ce2c7-842e-4187-91b2-ba6b1603f705",
+      "slug": "dominik-alpine-city-wellness-hotel-brixen-adults-bressanone-brixen",
+      "nome": "Dominik Alpine City Wellness Hotel Brixen - Adults only",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Via Terzo di Sotto, 13, 39042 Bressanone BZ",
+      "lat": 46.716711,
+      "lng": 11.661602
+    },
+    {
+      "id": "a827dcb8-47c5-4f08-bef0-0e990c4a5d43",
+      "slug": "forestis-dolomites-bressanone-brixen",
+      "nome": "Forestis Dolomites",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Palmschoß 22, 39042 Bressanone BZ",
+      "lat": 46.675756,
+      "lng": 11.710031
+    },
+    {
+      "id": "3ea02d47-cf27-4b78-b7c2-0b0dba1088f1",
+      "slug": "gruner-baum-bressanone-brixen",
+      "nome": "Grüner Baum",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Via Stufles, 11, 39042 Bressanone BZ",
+      "lat": 46.717261,
+      "lng": 11.659395
+    },
+    {
+      "id": "c78d89f4-c6f4-4d57-a096-1997cfe4b549",
+      "slug": "hotel-fernblick-bressanone-brixen",
+      "nome": "Hotel Fernblick",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Via Obergasse 22 Fraz, Via San Leonardo, 39042 S. Andrea BZ",
+      "lat": 46.718405,
+      "lng": 11.691814
+    },
+    {
+      "id": "0516ff5b-415a-452f-9c90-df6be1ea6a03",
+      "slug": "hotel-garni-heiseler-bressanone-brixen",
+      "nome": "Hotel Garni Heiseler",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Via degli Alpini, 8, 39042 Bressanone BZ",
+      "lat": 46.712246,
+      "lng": 11.651939
+    },
+    {
+      "id": "c412f33f-e03d-4545-a9fb-73aea6629590",
+      "slug": "hotel-gasserhof-bressanone-brixen",
+      "nome": "Hotel Gasserhof",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Dorfstraße, 31, 39042 St. Andrä, Autonome Provinz Bozen - Südtirol",
+      "lat": 46.699599,
+      "lng": 11.676924
+    },
+    {
+      "id": "b4569e7d-c531-4445-b256-b4cb2d749e44",
+      "slug": "hotel-jarolim-bressanone-brixen",
+      "nome": "Hotel Jarolim",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Bahnhofplatz, 1, 39042 Bressanone BZ",
+      "lat": 46.71051,
+      "lng": 11.650574
+    },
+    {
+      "id": "d582c31b-054f-43aa-b379-a0f9c75ae7e3",
+      "slug": "hotel-krone-bressanone-brixen",
+      "nome": "Hotel Krone",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Via Fienili, 4, 39042 Bressanone BZ",
+      "lat": 46.717527,
+      "lng": 11.655063
+    },
+    {
+      "id": "3f2d3c23-ca6b-417f-9f0b-6e1a1667fd0b",
+      "slug": "hotel-lowenhof-bressanone-brixen",
+      "nome": "Hotel Löwenhof",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Via Brennero, 60, 39040 Bressanone BZ",
+      "lat": 46.734589,
+      "lng": 11.647241
+    },
+    {
+      "id": "bf7aafcb-cd7e-489a-ac01-67bf0fde73df",
+      "slug": "hotel-torgglerhof-bei-brixen-bressanone-brixen",
+      "nome": "Hotel Torgglerhof bei Brixen",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Via Cornale di Sopra 25, 39042 Bressanone BZ",
+      "lat": 46.716175,
+      "lng": 11.681367
+    },
+    {
+      "id": "5eba17ff-0b55-4553-a836-454cfcf8febb",
+      "slug": "hotel-traube-bressanone-brixen",
+      "nome": "Hotel Traube",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Via Roncato, 24, 39042 Bressanone BZ",
+      "lat": 46.712781,
+      "lng": 11.658715
+    },
+    {
+      "id": "0727e965-8329-42a6-a626-c197376e0b5a",
+      "slug": "lasserhaus-bressanone-brixen",
+      "nome": "Lasserhaus",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Via Stufles, 10, 39042 Bressanone BZ",
+      "lat": 46.71701,
+      "lng": 11.659317
+    },
+    {
+      "id": "96827cff-28de-4430-8cd2-41e9605c473e",
+      "slug": "my-arbor-dolomites-bressanone-brixen",
+      "nome": "My Arbor - Dolomites",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Leonharder Str., 26, 39042 Brixen, Autonome Provinz Bozen - Südtirol",
+      "lat": 46.703362,
+      "lng": 11.683668
+    },
+    {
+      "id": "328f6c1e-8977-4678-97b8-b9f41ab69713",
+      "slug": "ostello-della-gioventu-kassianeum-bressanone-brixen",
+      "nome": "Ostello della Gioventù Kassianeum",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Brunogasse, 2, 39042 Bressanone BZ",
+      "lat": 46.71501,
+      "lng": 11.658161
+    },
+    {
+      "id": "fe0fa11f-bf84-40cb-905e-cd6b45360e53",
+      "slug": "residence-nives-bressanone-brixen",
+      "nome": "Residence Nives",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Via Cesare Battisti, 48, 39042 Bressanone BZ",
+      "lat": 46.722266,
+      "lng": 11.658487
+    },
+    {
+      "id": "e0a1b819-fff3-4e88-a962-df8a73762ac8",
+      "slug": "santre-dolomythic-home-bressanone-brixen",
+      "nome": "Santre - dolomythic home",
+      "city_name": "Bressanone/Brixen",
+      "indirizzo": "Via Centrale, 19, 39042 Brixen, Autonome Provinz Bozen - Südtirol",
+      "lat": 46.699393,
+      "lng": 11.673734
+    },
+    {
+      "id": "340b0601-bc56-49a3-b295-5466c07d4e13",
+      "slug": "b-b-dal-vicere-villa-mezzalira-bressanvido",
+      "nome": "B&B Dal Viceré (Villa Mezzalira)",
+      "city_name": "Bressanvido",
+      "indirizzo": "Via S. Benedetto, 78 A, 36050 Bressanvido VI",
+      "lat": 45.649685,
+      "lng": 11.650054
+    },
+    {
+      "id": "c271a1f7-d21c-46ac-b531-11d98b239dd5",
+      "slug": "hotel-europa-bressanvido",
+      "nome": "Hotel Europa",
+      "city_name": "Bressanvido",
+      "indirizzo": "Viale Stazione, 5, 36063 Marostica VI",
+      "lat": 45.746339,
+      "lng": 11.658703
+    },
+    {
+      "id": "52b29975-cf08-4224-b9e3-cf17de6b0c8d",
+      "slug": "il-camino-rosso-the-red-chimney-bressanvido",
+      "nome": "Il Camino Rosso - The Red Chimney",
+      "city_name": "Bressanvido",
+      "indirizzo": "Via Guarniere, 26/28, 36066 Ancignano VI",
+      "lat": 45.6579,
+      "lng": 11.642111
+    }
+  ]
+}

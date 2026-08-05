@@ -1,0 +1,323 @@
+{
+  "block": 461,
+  "blockId": "461",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "a25993af-0fe1-48c6-8ad1-cd6f66917eab",
+      "slug": "agriturismo-a-veggia-vigna-casanova-lerrone",
+      "nome": "Agriturismo A Veggia Vigna",
+      "city_name": "Casanova Lerrone",
+      "indirizzo": "Borgata Villa, 36, 17033 Garlenda SV",
+      "lat": 44.031398,
+      "lng": 8.100391
+    },
+    {
+      "id": "8713fd97-fd0f-482a-8484-1f73ecbb63db",
+      "slug": "agriturismo-il-mulino-del-castello-casanova-lerrone",
+      "nome": "Agriturismo Il Mulino del Castello",
+      "city_name": "Casanova Lerrone",
+      "indirizzo": "SP6, 67, 17033 Garlenda SV",
+      "lat": 44.033165,
+      "lng": 8.103485
+    },
+    {
+      "id": "c78a4108-5882-439d-b08c-1bfe97a01bdf",
+      "slug": "agriturismo-le-3-case-casanova-lerrone",
+      "nome": "Agriturismo Le 3 Case",
+      "city_name": "Casanova Lerrone",
+      "indirizzo": "Frazione Paravenna, 15, 17033 Garlenda SV",
+      "lat": 44.025518,
+      "lng": 8.081032
+    },
+    {
+      "id": "8996a6ee-b27b-482c-9cc5-48460fbeb1e0",
+      "slug": "agriturismo-u-spigu-paravenna-garlenda-casanova-lerrone",
+      "nome": "Agriturismo U' Spigu Paravenna - Garlenda",
+      "city_name": "Casanova Lerrone",
+      "indirizzo": "Frazione Paravenna, 14, 17033 Garlenda SV",
+      "lat": 44.025421,
+      "lng": 8.080892
+    },
+    {
+      "id": "b77a4878-5567-4932-ac6c-972fe9d099b7",
+      "slug": "borgata-cantone-country-house-b-b-casanova-lerrone",
+      "nome": "Borgata Cantone Country House B&B",
+      "city_name": "Casanova Lerrone",
+      "indirizzo": "Borgata Cantone, 15, 17033 Garlenda SV",
+      "lat": 44.029631,
+      "lng": 8.102376
+    },
+    {
+      "id": "14be6270-7cf5-44ec-8b53-75602febc524",
+      "slug": "borgoameno-casanova-lerrone",
+      "nome": "Borgoameno",
+      "city_name": "Casanova Lerrone",
+      "indirizzo": "Via Case Soprane, 2, 17033 Casanova Lerrone SV",
+      "lat": 44.032945,
+      "lng": 8.048971
+    },
+    {
+      "id": "4ba19017-063b-411c-b1a2-37be27490314",
+      "slug": "villa-barca-casa-carpe-diem-casanova-lerrone",
+      "nome": "VILLA BARCA (Casa Carpe Diem)",
+      "city_name": "Casanova Lerrone",
+      "indirizzo": "Frazione, Via Case Soprane, 25, 17033 Casanova Lerrone SV",
+      "lat": 44.035709,
+      "lng": 8.046339
+    },
+    {
+      "id": "8f49e5a7-c862-4310-aff2-c38c1b53f5ad",
+      "slug": "b-b-caselle-cascina-della-rocca-caselle-torinese",
+      "nome": "B&B Caselle Cascina Della Rocca",
+      "city_name": "Caselle Torinese",
+      "indirizzo": "Via del Lazzaretto, 10, 10072 Caselle Torinese TO",
+      "lat": 45.164259,
+      "lng": 7.643997
+    },
+    {
+      "id": "0cfff4dd-f94f-4797-b086-896b1291a1ab",
+      "slug": "b-b-la-bilancia-caselle-torinese",
+      "nome": "B&B La Bilancia",
+      "city_name": "Caselle Torinese",
+      "indirizzo": "Via Vernone, 20/D, 10072 Caselle Torinese TO",
+      "lat": 45.173338,
+      "lng": 7.64351
+    },
+    {
+      "id": "982d5bd8-8e0e-46a5-9fe5-322aaccff37d",
+      "slug": "hotel-flying-caselle-torinese",
+      "nome": "Hotel Flying",
+      "city_name": "Caselle Torinese",
+      "indirizzo": "Via Torino, 34, 10077 San Maurizio Canavese TO",
+      "lat": 45.203758,
+      "lng": 7.619966
+    },
+    {
+      "id": "518a2d70-0189-4c1b-8286-da69d115c3b9",
+      "slug": "hotel-niagara-caselle-torinese",
+      "nome": "Hotel Niagara",
+      "city_name": "Caselle Torinese",
+      "indirizzo": "Via Carlo, Via C. Cravero, 70, 10072 Caselle Torinese TO",
+      "lat": 45.179597,
+      "lng": 7.646442
+    },
+    {
+      "id": "804220e4-e7a5-457b-b881-df8133ba58f8",
+      "slug": "hotel-ristorante-ruatta-caselle-torinese",
+      "nome": "Hotel Ristorante Ruatta",
+      "city_name": "Caselle Torinese",
+      "indirizzo": "via Devietti Goggia 80, Malanghero, San Maurizio Canavese - Caselle, 10077 Malanghero TO",
+      "lat": 45.201275,
+      "lng": 7.654624
+    },
+    {
+      "id": "8342b690-001f-4bfa-be3e-33d730ce7f38",
+      "slug": "il-sole-caselle-apartment-b-b-bed-breakfast-caselle-torinese",
+      "nome": "Il Sole caselle apartment B&B Bed & Breakfast",
+      "city_name": "Caselle Torinese",
+      "indirizzo": "Via alle Fabbriche, 66, 10072 Caselle Torinese TO",
+      "lat": 45.167088,
+      "lng": 7.638695
+    },
+    {
+      "id": "8a6bce34-8e16-4448-9764-36d135c5a9c8",
+      "slug": "jet-hotel-caselle-torinese",
+      "nome": "Jet Hotel",
+      "city_name": "Caselle Torinese",
+      "indirizzo": "Via della Zecca, 9, 10072 Caselle Torinese TO",
+      "lat": 45.187687,
+      "lng": 7.638955
+    },
+    {
+      "id": "2e5251d4-15ff-4508-b916-4a0ec1f437c6",
+      "slug": "la-boheme-smart-hotel-caselle-torinese",
+      "nome": "La Boheme SMART Hotel",
+      "city_name": "Caselle Torinese",
+      "indirizzo": "Str. delle Vallette, 52, 10151 Torino TO",
+      "lat": 45.10565,
+      "lng": 7.63863
+    },
+    {
+      "id": "0ec6834b-6313-4141-9110-792e7a350c78",
+      "slug": "le-ginestre-bed-and-breakfast-caselle-torinese",
+      "nome": "le Ginestre Bed And Breakfast",
+      "city_name": "Caselle Torinese",
+      "indirizzo": "Via Vietta, 5, 10072 Caselle Torinese TO",
+      "lat": 45.178027,
+      "lng": 7.643493
+    },
+    {
+      "id": "2ed9c07c-7ae7-40bc-ac50-59063ee01818",
+      "slug": "max-motel-art-gallery-room-suite-con-jacuzzi-cam-caselle-torinese",
+      "nome": "Max Motel - Art Gallery Room | Suite con Jacuzzi & Camere a Tema",
+      "city_name": "Caselle Torinese",
+      "indirizzo": "Viale Giacomo Medici del Vascello, 18, 10040 Druento TO",
+      "lat": 45.144201,
+      "lng": 7.570084
+    },
+    {
+      "id": "48dec313-9f64-4625-91d4-6e2dc3c57b3a",
+      "slug": "residence-mirage-caselle-torinese",
+      "nome": "Residence Mirage",
+      "city_name": "Caselle Torinese",
+      "indirizzo": "Via degli Alpini, 1/1/C, 10072 Caselle Torinese TO",
+      "lat": 45.168346,
+      "lng": 7.651713
+    },
+    {
+      "id": "7242d82e-74be-4455-b174-af2e7a835a6c",
+      "slug": "rosa-verde-caselle-torinese",
+      "nome": "ROSA VERDE",
+      "city_name": "Caselle Torinese",
+      "indirizzo": "Strada S. Maurizio, 23, 10072 Caselle Torinese TO",
+      "lat": 45.183371,
+      "lng": 7.644527
+    },
+    {
+      "id": "cc8b01ad-9b29-499c-9ca7-c63c74323d5e",
+      "slug": "artistic-charming-house-caserta",
+      "nome": "Artistic Charming House",
+      "city_name": "Caserta",
+      "indirizzo": "Corso Trieste, 11, 81100 Caserta CE",
+      "lat": 41.072291,
+      "lng": 14.330066
+    },
+    {
+      "id": "46d1863d-1318-4f40-a9eb-358f0e7ce574",
+      "slug": "b-b-a-casa-di-adele-caserta",
+      "nome": "B & B a Casa di Adele",
+      "city_name": "Caserta",
+      "indirizzo": "Viale Alberto Beneduce, 11, 81100 Caserta CE",
+      "lat": 41.07537,
+      "lng": 14.341314
+    },
+    {
+      "id": "a1c85367-a219-48c7-8dcf-486ea9e80689",
+      "slug": "b-b-roof-garden-house-caserta",
+      "nome": "B&B Roof Garden House",
+      "city_name": "Caserta",
+      "indirizzo": "Corso Trieste, 19, 81100 Caserta CE",
+      "lat": 41.072212,
+      "lng": 14.330275
+    },
+    {
+      "id": "d3639d66-93c7-4b7b-85b2-39c1496784cf",
+      "slug": "b-b-terrazza-filangio-caserta",
+      "nome": "B&b Terrazza Filangiò",
+      "city_name": "Caserta",
+      "indirizzo": "Via Roma, 162, 81100 Caserta CE",
+      "lat": 41.069733,
+      "lng": 14.339312
+    },
+    {
+      "id": "50d9c1d3-0b51-4ebe-b722-c9d39e342291",
+      "slug": "b-b-vanvitelli-caserta",
+      "nome": "B&B Vanvitelli",
+      "city_name": "Caserta",
+      "indirizzo": "Via Alessandro de Franciscis, 50, 81100 Caserta CE",
+      "lat": 41.078276,
+      "lng": 14.340921
+    },
+    {
+      "id": "b807760a-c417-4c0c-a936-3810bde311a5",
+      "slug": "bed-and-breakfast-conte-spencer-caserta",
+      "nome": "Bed And Breakfast - Conte Spencer",
+      "city_name": "Caserta",
+      "indirizzo": "Via S. Michele Arcangelo, 15, 81100 Caserta Vecchia CE",
+      "lat": 41.097094,
+      "lng": 14.365896
+    },
+    {
+      "id": "31dad8f0-5242-44bc-a022-29ffe36c8a2a",
+      "slug": "hotel-royal-caserta-caserta",
+      "nome": "Hotel Royal Caserta",
+      "city_name": "Caserta",
+      "indirizzo": "Viale Vittorio Veneto, 13, 81020 Caserta CE",
+      "lat": 41.070052,
+      "lng": 14.329693
+    },
+    {
+      "id": "a17abb1a-4dfa-47bf-b8b9-5eae2c9c0df5",
+      "slug": "little-sweet-escape-caserta",
+      "nome": "Little Sweet Escape",
+      "city_name": "Caserta",
+      "indirizzo": "Via Guglielmo Marconi, 31, 81100 Caserta CE",
+      "lat": 41.072492,
+      "lng": 14.350543
+    },
+    {
+      "id": "3f22e47a-ab5f-4428-857d-334b0424c5ac",
+      "slug": "real-borbone-caserta",
+      "nome": "Real Borbone",
+      "city_name": "Caserta",
+      "indirizzo": "Via A.S. Mazzocchi, 1, 81100 Caserta CE",
+      "lat": 41.072649,
+      "lng": 14.33037
+    },
+    {
+      "id": "b0cf0117-eb72-464e-96f5-6f8b42d74551",
+      "slug": "sweet-dream-caserta",
+      "nome": "Sweet Dream",
+      "city_name": "Caserta",
+      "indirizzo": "Via Roma, 105, 81100 Caserta CE",
+      "lat": 41.069969,
+      "lng": 14.337574
+    },
+    {
+      "id": "1ad9261e-a376-498e-ab3e-0be6becc1ccc",
+      "slug": "the-essential-caserta",
+      "nome": "The Essential",
+      "city_name": "Caserta",
+      "indirizzo": "Via Fulvio Renella, 103, 81100 Caserta CE",
+      "lat": 41.069313,
+      "lng": 14.339871
+    },
+    {
+      "id": "1e16716a-668a-469c-968b-e9724d3bd56b",
+      "slug": "alloggi-turistici-daniel-casier",
+      "nome": "Alloggi Turistici Daniel",
+      "city_name": "Casier",
+      "indirizzo": "Strada Regionale Treviso-Mare 89, Via Treviso Mare, 4, 31057 Silea TV",
+      "lat": 45.644794,
+      "lng": 12.329638
+    },
+    {
+      "id": "4aab0ae8-60ce-4cad-a761-38500e795f8a",
+      "slug": "antica-dimora-stucky-casier",
+      "nome": "Antica Dimora Stucky",
+      "city_name": "Casier",
+      "indirizzo": "Via Sant'Antonino, 335, 31100 Treviso TV",
+      "lat": 45.645734,
+      "lng": 12.270781
+    },
+    {
+      "id": "abf6e425-14e7-4555-8f4e-1750545f0fb4",
+      "slug": "b-b-ca-rina-casier",
+      "nome": "B&B Ca' Rina",
+      "city_name": "Casier",
+      "indirizzo": "Via Tagliamento, 2F, 31022 Preganziol TV",
+      "lat": 45.602339,
+      "lng": 12.255102
+    },
+    {
+      "id": "85af8e81-251d-4233-b91c-5217965d5388",
+      "slug": "civico-26-casier",
+      "nome": "Civico 26",
+      "city_name": "Casier",
+      "indirizzo": "V. Nascimben, 26, 31100 Treviso TV",
+      "lat": 45.648716,
+      "lng": 12.233457
+    },
+    {
+      "id": "71916834-b41c-420c-b983-bcb17d6f7261",
+      "slug": "dafne-bnb-casier",
+      "nome": "Dafne Bnb",
+      "city_name": "Casier",
+      "indirizzo": "Via G. Zompini, 4, 31100 Treviso TV",
+      "lat": 45.657709,
+      "lng": 12.246309
+    }
+  ]
+}

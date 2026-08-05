@@ -1,0 +1,323 @@
+{
+  "block": 415,
+  "blockId": "415",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "70e8b723-71cf-4bef-9baf-bcf33c358a53",
+      "slug": "agriturismo-il-quarto-capalbio",
+      "nome": "Agriturismo Il Quarto",
+      "city_name": "Capalbio",
+      "indirizzo": "IV Ebreo, 15, 58014 Campigliola GR",
+      "lat": 42.515175,
+      "lng": 11.519007
+    },
+    {
+      "id": "52e0505c-e236-4e91-8ace-38ab80672dfc",
+      "slug": "agriturismo-la-siesta-capalbio",
+      "nome": "Agriturismo La Siesta",
+      "city_name": "Capalbio",
+      "indirizzo": "58010 Marsiliana GR",
+      "lat": 42.538552,
+      "lng": 11.334215
+    },
+    {
+      "id": "e5a9a18e-bbc8-4a2f-a580-c04b89956379",
+      "slug": "agriturismo-la-verde-rosa-capalbio",
+      "nome": "Agriturismo La Verde Rosa",
+      "city_name": "Capalbio",
+      "indirizzo": "Strada Valle Lunga, 3A, 01014 Montalto di Castro VT",
+      "lat": 42.416442,
+      "lng": 11.502128
+    },
+    {
+      "id": "5e02b1d5-5485-4165-bd81-aa04936c5d85",
+      "slug": "agriturismo-podere-del-sole-capalbio",
+      "nome": "Agriturismo Podere del Sole",
+      "city_name": "Capalbio",
+      "indirizzo": "Località il fodero, 01014 Montalto di Castro VT",
+      "lat": 42.381637,
+      "lng": 11.49454
+    },
+    {
+      "id": "d3dfd85f-2020-4cc0-979a-19b2b6d982e7",
+      "slug": "agriturismo-podere-l-olmaia-capalbio",
+      "nome": "Agriturismo podere l'Olmaia",
+      "city_name": "Capalbio",
+      "indirizzo": "via Maremmana Spinicci, n.55, 58014 Marsiliana GR",
+      "lat": 42.547013,
+      "lng": 11.354539
+    },
+    {
+      "id": "4299d5ed-f291-4c6c-8462-fced7fa22c46",
+      "slug": "albergo-del-lago-capalbio",
+      "nome": "Albergo Del Lago",
+      "city_name": "Capalbio",
+      "indirizzo": "Via Umbria, 22, 58011 Capalbio Scalo GR",
+      "lat": 42.40888,
+      "lng": 11.371376
+    },
+    {
+      "id": "3d78a5f8-11de-471a-9efb-d8fa87b652b2",
+      "slug": "b-b-borgo-vera-capalbio",
+      "nome": "B&B Borgo Vera",
+      "city_name": "Capalbio",
+      "indirizzo": "58014 Mulino Santa Maria GR",
+      "lat": 42.543482,
+      "lng": 11.502986
+    },
+    {
+      "id": "60faa989-cf73-4a27-b74f-68a2221a70c4",
+      "slug": "capalbio-vacanze-capalbio",
+      "nome": "Capalbio Vacanze",
+      "city_name": "Capalbio",
+      "indirizzo": "Via Genova, 5, 58010 Capalbio GR",
+      "lat": 42.424361,
+      "lng": 11.419715
+    },
+    {
+      "id": "03d444f9-a90b-4e18-a11f-0b1557a1e667",
+      "slug": "casale-artemisia-capalbio-capalbio",
+      "nome": "Casale Artemisia Capalbio",
+      "city_name": "Capalbio",
+      "indirizzo": "Strada Poggetti, 4/B, 58011 Capalbio GR",
+      "lat": 42.440313,
+      "lng": 11.394196
+    },
+    {
+      "id": "e8b27461-15ae-4ac3-a0d6-e0e0e597a8ba",
+      "slug": "hotel-il-cipresso-capalbio-capalbio",
+      "nome": "Hotel Il Cipresso Capalbio",
+      "city_name": "Capalbio",
+      "indirizzo": "Str. Sugherella, 3, 58011 Capalbio GR",
+      "lat": 42.419935,
+      "lng": 11.384798
+    },
+    {
+      "id": "989d5485-3fee-4ea5-b8f7-22a7b64e3234",
+      "slug": "hotel-valle-del-buttero-capalbio",
+      "nome": "Hotel Valle del Buttero",
+      "city_name": "Capalbio",
+      "indirizzo": "Via I. Silone, 21, 58011 Capalbio GR",
+      "lat": 42.454943,
+      "lng": 11.422206
+    },
+    {
+      "id": "31af8c9c-e7e2-419b-9e0b-babfef00dd51",
+      "slug": "locanda-rossa-capalbio",
+      "nome": "Locanda Rossa",
+      "city_name": "Capalbio",
+      "indirizzo": "Strada Capalbio Pescia Fiorentina, 11b, 58011 Capalbio GR",
+      "lat": 42.446099,
+      "lng": 11.457984
+    },
+    {
+      "id": "5f118d6b-1f47-4c84-89f5-d823f4cea924",
+      "slug": "orti-di-capalbio-capalbio",
+      "nome": "Orti di Capalbio",
+      "city_name": "Capalbio",
+      "indirizzo": "Via Val dei Ceppi, 8/a, 58011 Capalbio GR",
+      "lat": 42.420355,
+      "lng": 11.395465
+    },
+    {
+      "id": "aecdc9ed-0414-4dcb-9a87-99362eb0fe5d",
+      "slug": "podere-406-capalbio",
+      "nome": "Podere 406",
+      "city_name": "Capalbio",
+      "indirizzo": "S.da Querciolare, 19, 01014 Montalto di Castro VT",
+      "lat": 42.409995,
+      "lng": 11.511221
+    },
+    {
+      "id": "33b6fa10-61e1-4483-adf3-4ce7adfbde59",
+      "slug": "resort-capalbio-capalbio",
+      "nome": "Resort Capalbio",
+      "city_name": "Capalbio",
+      "indirizzo": "Località Poggetti, Strada Provinciale Pedemontana, 58, 58011 Casale Nuovo GR",
+      "lat": 42.424467,
+      "lng": 11.389101
+    },
+    {
+      "id": "7d97382c-bc57-4652-9887-42901a9f3458",
+      "slug": "agriturismo-biologico-i-girasoli-di-lari-capannoli",
+      "nome": "Agriturismo Biologico I Girasoli di Lari",
+      "city_name": "Capannoli",
+      "indirizzo": "Via Giacomo Leopardi, 5, 56035 Cevoli PI",
+      "lat": 43.575832,
+      "lng": 10.62319
+    },
+    {
+      "id": "88c6545e-1bd6-470b-b5cd-57332f28e5b3",
+      "slug": "agriturismo-il-bosco-capannoli",
+      "nome": "Agriturismo Il Bosco",
+      "city_name": "Capannoli",
+      "indirizzo": "Via del Bosco, 11, 56030 Selvatelle PI",
+      "lat": 43.565657,
+      "lng": 10.68597
+    },
+    {
+      "id": "2e93a008-8cbe-46d9-b7e4-739dad274ad1",
+      "slug": "agriturismo-podere-chiaromonte-farm-holiday-farm-capannoli",
+      "nome": "Agriturismo Podere Chiaromonte farm holiday farmhouse",
+      "city_name": "Capannoli",
+      "indirizzo": "Località La Piaggia, 15, 56036 Forcoli PI",
+      "lat": 43.613322,
+      "lng": 10.71276
+    },
+    {
+      "id": "ed6102c8-1f2b-468c-b881-229e8b9e653a",
+      "slug": "agriturismo-podere-chiasso-gherardo-capannoli",
+      "nome": "Agriturismo Podere Chiasso Gherardo",
+      "city_name": "Capannoli",
+      "indirizzo": "Via S. Sebastiano, 50, 56037 Peccioli PI",
+      "lat": 43.555064,
+      "lng": 10.725185
+    },
+    {
+      "id": "3bb3da9a-b4b5-4893-a7ac-bc94fd6a04b5",
+      "slug": "agriturismo-polgara-capannoli",
+      "nome": "Agriturismo Polgara",
+      "city_name": "Capannoli",
+      "indirizzo": "Via Querceto, 28, 56035 Casciana Terme Lari PI",
+      "lat": 43.56829,
+      "lng": 10.601418
+    },
+    {
+      "id": "c8b80e9b-58ef-404e-b85a-ac17aa1c14eb",
+      "slug": "agriturismo-terra-di-dio-toscanizzazione-capannoli",
+      "nome": "Agriturismo Terra Di Dio Toscanizzazione",
+      "city_name": "Capannoli",
+      "indirizzo": "S.S. 439 Sarzanese Valdera, Località Bosco, 56033 Capannoli PI",
+      "lat": 43.571016,
+      "lng": 10.682792
+    },
+    {
+      "id": "6b95b58b-038a-4c36-ae72-b8e4cefc1404",
+      "slug": "albergo-montechiari-albergo-montechiari-sas-di-s-capannoli",
+      "nome": "Albergo Montechiari Albergo Montechiari Sas Di Sutter Verena Rosa & C.",
+      "city_name": "Capannoli",
+      "indirizzo": "Via Fonte Vecchia, 21, 56036 Palaia PI",
+      "lat": 43.610934,
+      "lng": 10.695508
+    },
+    {
+      "id": "22a9df33-7be8-42fc-98ba-6f001af00e19",
+      "slug": "asilo-masi-b-b-country-house-capannoli",
+      "nome": "Asilo Masi B&B Country House",
+      "city_name": "Capannoli",
+      "indirizzo": "Piazza S. Bartolomeo, 4, 56033 Capannoli PI",
+      "lat": 43.58242,
+      "lng": 10.678681
+    },
+    {
+      "id": "48f8c2c0-247e-4e96-b85e-dae15ab9fcdc",
+      "slug": "bed-and-breakfast-catherina-capannoli",
+      "nome": "Bed And Breakfast Catherina",
+      "city_name": "Capannoli",
+      "indirizzo": "Via Raffaello Sanzio, 64, 56038 Ponsacco PI",
+      "lat": 43.615257,
+      "lng": 10.638232
+    },
+    {
+      "id": "f8fb869d-8761-4b3b-b308-f8426561247d",
+      "slug": "casolare-isabella-capannoli",
+      "nome": "Casolare isabella",
+      "city_name": "Capannoli",
+      "indirizzo": "Via Valdera Capannoli, 204, 56038 Ponsacco PI",
+      "lat": 43.610903,
+      "lng": 10.638572
+    },
+    {
+      "id": "69c71893-bf4a-407b-af5a-aa703840f77c",
+      "slug": "farm-resort-tuscany-time-capannoli",
+      "nome": "Farm Resort Tuscany Time",
+      "city_name": "Capannoli",
+      "indirizzo": "Via della Rimessa, 63, 56036 Palaia PI",
+      "lat": 43.581901,
+      "lng": 10.737807
+    },
+    {
+      "id": "bf45a7dd-fe16-4fa8-b3cd-d942c015a73b",
+      "slug": "il-boschetto-capannoli",
+      "nome": "Il Boschetto",
+      "city_name": "Capannoli",
+      "indirizzo": "Via Fonte Vecchia, 10, 56036 Palaia PI",
+      "lat": 43.610377,
+      "lng": 10.700658
+    },
+    {
+      "id": "a66c6577-e61d-49d9-9974-17250a7e5fb4",
+      "slug": "il-castello-di-san-ruffino-capannoli",
+      "nome": "Il Castello di San Ruffino",
+      "city_name": "Capannoli",
+      "indirizzo": "Via S. Lorenzo, 6, 56035 San Ruffino PI",
+      "lat": 43.562646,
+      "lng": 10.611732
+    },
+    {
+      "id": "2f72a21e-c20b-4d2b-a11a-45090ebb7a2f",
+      "slug": "la-fanciullaccia-guesthouse-toscana-capannoli",
+      "nome": "La Fanciullaccia | Guesthouse Toscana",
+      "city_name": "Capannoli",
+      "indirizzo": "Località Fonte a Valle, 64/1, 56033 San Pietro Belvedere PI",
+      "lat": 43.577058,
+      "lng": 10.659755
+    },
+    {
+      "id": "2cd5b1e1-be14-4f7f-89d4-2d019cf0c6fd",
+      "slug": "la-sorgente-ristorante-capannoli",
+      "nome": "La Sorgente Ristorante",
+      "city_name": "Capannoli",
+      "indirizzo": "Via Volterrana, 56033 Loc. Bosco PI",
+      "lat": 43.57167,
+      "lng": 10.6827
+    },
+    {
+      "id": "9910ac2c-851a-4d19-aad5-d096fdc96ff8",
+      "slug": "room-rent-morrona-capannoli",
+      "nome": "Room Rent Morrona",
+      "city_name": "Capannoli",
+      "indirizzo": "Via Andrea Baldi, 46, 56030 Terricciola PI",
+      "lat": 43.532284,
+      "lng": 10.661968
+    },
+    {
+      "id": "91d38d42-4c3c-4c5b-b2c7-4230f22f68b9",
+      "slug": "san-ruffino-apartments-capannoli",
+      "nome": "San Ruffino Apartments",
+      "city_name": "Capannoli",
+      "indirizzo": "Via Belfiore, 30, 56035 Casciana Terme Lari PI",
+      "lat": 43.562284,
+      "lng": 10.615815
+    },
+    {
+      "id": "05642fa9-fff7-40c8-be2c-4db322ccb9f6",
+      "slug": "tenuta-quarrata-in-villa-san-giorgio-capannoli",
+      "nome": "Tenuta Quarrata in Villa San Giorgio",
+      "city_name": "Capannoli",
+      "indirizzo": "Via di San Pietro Belvedere, 1, 56033 Capannoli PI",
+      "lat": 43.577849,
+      "lng": 10.644373
+    },
+    {
+      "id": "2e8491b0-fcfd-4815-a2b0-d9449c57a42b",
+      "slug": "villa-casanova-capannoli",
+      "nome": "Villa Casanova",
+      "city_name": "Capannoli",
+      "indirizzo": "Via Camugliano, 18, 56038 Ponsacco PI",
+      "lat": 43.597441,
+      "lng": 10.651546
+    },
+    {
+      "id": "b7ee21e1-5d64-4d3b-9a52-f8b416be1cad",
+      "slug": "affittacamere-l-arancio-capannori",
+      "nome": "Affittacamere L'Arancio",
+      "city_name": "Capannori",
+      "indirizzo": "Via Romana, 57/59, 55110 Lucca LU",
+      "lat": 43.844073,
+      "lng": 10.519414
+    }
+  ]
+}

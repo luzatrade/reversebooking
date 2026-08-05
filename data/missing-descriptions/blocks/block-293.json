@@ -1,0 +1,323 @@
+{
+  "block": 293,
+  "blockId": "293",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "5918497f-2ee7-41d7-badf-7b6311efb58b",
+      "slug": "agriturismo-alleluja-country-house-and-glamping-bore",
+      "nome": "Agriturismo Alleluja: Country House and Glamping Resort",
+      "city_name": "Bore",
+      "indirizzo": "Via Besozzola, 34, 43047 Berzieri PR",
+      "lat": 44.765561,
+      "lng": 9.898922
+    },
+    {
+      "id": "7e486c61-8ce4-41d4-a727-65c2f0329464",
+      "slug": "albergo-san-carlo-bore",
+      "nome": "Albergo San Carlo",
+      "city_name": "Bore",
+      "indirizzo": "V.le Giacomo Matteotti, 33, 43039 Salsomaggiore Terme PR",
+      "lat": 44.819402,
+      "lng": 9.983802
+    },
+    {
+      "id": "96eb77c1-1eee-4dbd-9587-ccaa6838a1fb",
+      "slug": "grand-hotel-regina-salsomaggiore-terme-bore",
+      "nome": "Grand Hotel Regina Salsomaggiore Terme",
+      "city_name": "Bore",
+      "indirizzo": "Largo Roma, 3, 43039 Salsomaggiore Terme PR",
+      "lat": 44.814523,
+      "lng": 9.980238
+    },
+    {
+      "id": "ca64c8b8-59f4-4cd5-9038-68fa7fc7303a",
+      "slug": "green-park-monastero-bore",
+      "nome": "Green Park Monastero",
+      "city_name": "Bore",
+      "indirizzo": "Località Casale Monastero, 13, 29020 Morfasso PC",
+      "lat": 44.766997,
+      "lng": 9.766337
+    },
+    {
+      "id": "1db43f04-0860-47a3-b9f7-a04282da7757",
+      "slug": "hotel-amica-bore",
+      "nome": "Hotel Amica",
+      "city_name": "Bore",
+      "indirizzo": "Viale Rimembranze, 6 bis, 43039 Salsomaggiore Terme PR",
+      "lat": 44.814686,
+      "lng": 9.979068
+    },
+    {
+      "id": "620fcf6a-365b-4566-b0c5-72de6018a9e2",
+      "slug": "hotel-residence-ricordo-du-parc-bore",
+      "nome": "Hotel Residence Ricordo Du Parc",
+      "city_name": "Bore",
+      "indirizzo": "Via Tabiano, 39, 43039 Bagni di Tabiano PR",
+      "lat": 44.806488,
+      "lng": 10.016915
+    },
+    {
+      "id": "04dba60f-bfa8-495d-a799-14862a76047b",
+      "slug": "room-breakfast-diana-e-ninni-bore",
+      "nome": "Room & Breakfast Diana E Ninni",
+      "city_name": "Bore",
+      "indirizzo": "Via Trento, 4, 43039 Salsomaggiore Terme PR",
+      "lat": 44.820191,
+      "lng": 9.984278
+    },
+    {
+      "id": "ec351a8b-ca7b-43df-ad71-e357d2f29b4f",
+      "slug": "societa-agricola-visconti-massimo-c-bore",
+      "nome": "Società Agricola Visconti Massimo & C.",
+      "city_name": "Bore",
+      "indirizzo": "Località Pollorsi, 1, 29010 Vernasca PC",
+      "lat": 44.829398,
+      "lng": 9.912897
+    },
+    {
+      "id": "d4599aab-51b3-47e5-8f11-3acf0d16be9b",
+      "slug": "agriturismo-san-giuseppe-boretto",
+      "nome": "Agriturismo San Giuseppe",
+      "city_name": "Boretto",
+      "indirizzo": "Via L. Bertozzi, 24, 42043 Gattatico RE",
+      "lat": 44.786974,
+      "lng": 10.461677
+    },
+    {
+      "id": "0cdc8e92-fec1-4495-8f97-bad5fd215e34",
+      "slug": "albergo-delle-industrie-boretto",
+      "nome": "Albergo delle industrie",
+      "city_name": "Boretto",
+      "indirizzo": "Via delle Industrie, 2, 26041 Casalmaggiore CR",
+      "lat": 44.980555,
+      "lng": 10.433144
+    },
+    {
+      "id": "c57527e6-dd24-424e-ad9c-726716a3bea0",
+      "slug": "alzaia38-boretto",
+      "nome": "alzaia38",
+      "city_name": "Boretto",
+      "indirizzo": "Via Trento, 8, 42022 Boretto RE",
+      "lat": 44.906389,
+      "lng": 10.552659
+    },
+    {
+      "id": "de839e1a-cfb7-4875-bfcc-8aedc98dbb65",
+      "slug": "b-b-antica-cascina-boretto",
+      "nome": "B&B Antica cascina",
+      "city_name": "Boretto",
+      "indirizzo": "Via Geminiolo, 26, 42022 Boretto RE",
+      "lat": 44.895288,
+      "lng": 10.586961
+    },
+    {
+      "id": "49cf97ea-052f-44ae-bfb4-3c62d8b6adfd",
+      "slug": "b-b-da-luisa-boretto",
+      "nome": "B&B da Luisa",
+      "city_name": "Boretto",
+      "indirizzo": "Via Pietro Saccani, 58, 42022 Boretto RE",
+      "lat": 44.906107,
+      "lng": 10.556103
+    },
+    {
+      "id": "63cf2d02-9186-4fc1-8a3d-cabb29e85ff8",
+      "slug": "b-b-happiness-in-the-country-boretto",
+      "nome": "B&B Happiness in the Country",
+      "city_name": "Boretto",
+      "indirizzo": "Via Ghiarole, 2, 42041 Ghiarole RE",
+      "lat": 44.89996,
+      "lng": 10.49831
+    },
+    {
+      "id": "9432e300-5cb5-47df-b19a-10f4a0326724",
+      "slug": "b-b-il-ponticello-boretto",
+      "nome": "B&B Il Ponticello",
+      "city_name": "Boretto",
+      "indirizzo": "Via Pieve, 200, 42044 Gualtieri RE",
+      "lat": 44.896528,
+      "lng": 10.59357
+    },
+    {
+      "id": "c745e872-127a-4389-9a32-035cf877a0e5",
+      "slug": "b-b-la-casa-dei-prugni-boretto",
+      "nome": "B&B La casa dei prugni",
+      "city_name": "Boretto",
+      "indirizzo": "Via Geminiolo, 43, 42022 Boretto RE",
+      "lat": 44.896488,
+      "lng": 10.576971
+    },
+    {
+      "id": "da3aebbc-9187-4d7d-bbb7-d1b0d525fc0e",
+      "slug": "b-b-la-casetta-boretto",
+      "nome": "B&B La Casetta",
+      "city_name": "Boretto",
+      "indirizzo": "via Quadra Pazzaglia Nord n°1, 42041 Ghiarole di Brescello RE",
+      "lat": 44.902182,
+      "lng": 10.497763
+    },
+    {
+      "id": "70da06d9-050c-446a-b9d6-da1fb6c22478",
+      "slug": "b-b-stazione-don-camillo-boretto",
+      "nome": "B&B Stazione Don Camillo",
+      "city_name": "Boretto",
+      "indirizzo": "Viale Venturini, 11, 42041 Brescello RE",
+      "lat": 44.898308,
+      "lng": 10.519064
+    },
+    {
+      "id": "27da97bc-0a4d-4b05-a999-fb2f1a4ec55f",
+      "slug": "bed-and-breakfast-l-ulma-e-l-opi-boretto",
+      "nome": "bed and breakfast l'Ulma e l'Opi",
+      "city_name": "Boretto",
+      "indirizzo": "Via Sacco e Vanzetti, 5/B, 42016 Guastalla RE",
+      "lat": 44.902509,
+      "lng": 10.660074
+    },
+    {
+      "id": "aba19a80-fbed-4e91-bd3b-9278a3ec30d7",
+      "slug": "confidence-hotel-ligabue-boretto",
+      "nome": "CONFIDENCE HOTEL LIGABUE",
+      "city_name": "Boretto",
+      "indirizzo": "Piazza IV Novembre, 6, 42044 Gualtieri RE",
+      "lat": 44.905785,
+      "lng": 10.63133
+    },
+    {
+      "id": "440f2793-0c64-4101-b930-e8451c43edbc",
+      "slug": "hotel-residence-parma-boretto",
+      "nome": "Hotel Residence Parma",
+      "city_name": "Boretto",
+      "indirizzo": "Via Emilia Est, 250, 43123 Parma PR",
+      "lat": 44.792657,
+      "lng": 10.358088
+    },
+    {
+      "id": "0237c080-d834-4e21-99e5-40c926fddbae",
+      "slug": "la-casa-all-ombra-della-chiesa-boretto",
+      "nome": "La Casa all'ombra della Chiesa",
+      "city_name": "Boretto",
+      "indirizzo": "Via M. Nizzoli, 42041 Brescello RE",
+      "lat": 44.900567,
+      "lng": 10.515836
+    },
+    {
+      "id": "840d40e1-8563-43e4-8157-3fb569f55cde",
+      "slug": "la-sosta-fuori-stazione-b-b-boretto",
+      "nome": "La Sosta fuori stazione B&B",
+      "city_name": "Boretto",
+      "indirizzo": "Viale Venturini, 12, 42041 Brescello RE",
+      "lat": 44.898608,
+      "lng": 10.517905
+    },
+    {
+      "id": "6e003750-8451-4d42-b4b3-704d2554f7f9",
+      "slug": "luna-residence-hotel-boretto",
+      "nome": "Luna Residence Hotel",
+      "city_name": "Boretto",
+      "indirizzo": "Via Antonio Maria Molossi, 14, 26041 Casalmaggiore CR",
+      "lat": 45.002138,
+      "lng": 10.414291
+    },
+    {
+      "id": "8db786ac-720a-4b91-80c9-81cac17e38ad",
+      "slug": "soc-agr-la-pervinca-s-s-boretto",
+      "nome": "Soc. Agr. La Pervinca s.s.",
+      "city_name": "Boretto",
+      "indirizzo": "Via delle Ville, n° 54, 42016 San Girolamo RE",
+      "lat": 44.924678,
+      "lng": 10.709597
+    },
+    {
+      "id": "ed7d5513-b4e3-446e-9b77-685b3c0dfc44",
+      "slug": "trattoria-del-pesce-albergo-del-po-osteria-al-po-boretto",
+      "nome": "Trattoria Del Pesce Albergo del Po Osteria al Ponte museo dei pontieri",
+      "city_name": "Boretto",
+      "indirizzo": "Via Argine, 5, 42022 Boretto RE",
+      "lat": 44.908087,
+      "lng": 10.53826
+    },
+    {
+      "id": "c9885e5d-6e3f-44e1-b3ae-d5c1f8b02d98",
+      "slug": "agriturismo-fornace-certosa-borgarello",
+      "nome": "Agriturismo Fornace Certosa",
+      "city_name": "Borgarello",
+      "indirizzo": "Via Fratelli Cervi, 2/4, 27010 Giussago PV",
+      "lat": 45.253169,
+      "lng": 9.151809
+    },
+    {
+      "id": "5328215e-6a06-4ebe-b63d-026b66087d6d",
+      "slug": "agriturismo-maiocchi-borgarello",
+      "nome": "Agriturismo Maiocchi",
+      "city_name": "Borgarello",
+      "indirizzo": "strada provinciale per San Genesio, 2, 27010 Borgarello PV",
+      "lat": 45.238194,
+      "lng": 9.156387
+    },
+    {
+      "id": "fa4b531a-298e-42df-b316-f3bd83788b50",
+      "slug": "b-b-borgo-tre-case-sulla-via-francigena-a-2-pass-borgarello",
+      "nome": "B&B Borgo Tre Case (sulla Via Francigena a 2 passi da Pavia)",
+      "city_name": "Borgarello",
+      "indirizzo": "Strada Canarazzo - cascina Casoni 6, 27020 Carbonara al Ticino PV",
+      "lat": 45.196187,
+      "lng": 9.091927
+    },
+    {
+      "id": "7dbc18ff-a95b-47bd-9a26-dd7cc7ee4acd",
+      "slug": "b-b-one-million-borgarello",
+      "nome": "B&B One Million",
+      "city_name": "Borgarello",
+      "indirizzo": "Via Giovanni Verga, 33, 27010 Borgarello PV",
+      "lat": 45.242458,
+      "lng": 9.136975
+    },
+    {
+      "id": "e51a5487-c60b-4481-9354-e0feda3b1856",
+      "slug": "abba-camere-b-b-borgaro-torinese",
+      "nome": "Abba Camere B&B",
+      "city_name": "Borgaro Torinese",
+      "indirizzo": "Via Lanzo, 125, 10071 Borgaro Torinese TO",
+      "lat": 45.150072,
+      "lng": 7.654555
+    },
+    {
+      "id": "bd389785-be50-4436-af54-d137113bcd9d",
+      "slug": "agriturismo-cascina-argentera-borgaro-torinese",
+      "nome": "Agriturismo Cascina Argentera",
+      "city_name": "Borgaro Torinese",
+      "indirizzo": "Via Argentera, 35, 10079 Mappano TO",
+      "lat": 45.149484,
+      "lng": 7.712764
+    },
+    {
+      "id": "ba32e441-9192-4519-81fe-61e1a71d0853",
+      "slug": "agriturismo-cascina-domina-borgaro-torinese",
+      "nome": "Agriturismo Cascina Domina",
+      "city_name": "Borgaro Torinese",
+      "indirizzo": "Str. della Trinita', 42, 10090 Gassino Torinese TO",
+      "lat": 45.112468,
+      "lng": 7.827277
+    },
+    {
+      "id": "81f3c9fa-4d8e-4060-96e2-a98dd3aab9ed",
+      "slug": "agriturismo-i-camini-borgaro-torinese",
+      "nome": "Agriturismo I Camini",
+      "city_name": "Borgaro Torinese",
+      "indirizzo": "Str. Fornacino, 95, 10040 Leini TO",
+      "lat": 45.159861,
+      "lng": 7.72094
+    },
+    {
+      "id": "f091b1e4-f30f-4f3c-94a4-12d7762c2d4b",
+      "slug": "agriturismo-il-ristoro-dei-folletti-ristorazione-borgaro-torinese",
+      "nome": "Agriturismo Il Ristoro dei Folletti - Ristorazione, Azienda Agricola e Bed&Breakfast",
+      "city_name": "Borgaro Torinese",
+      "indirizzo": "Str. Ceriaglio, 7, 10020 Casalborgone TO",
+      "lat": 45.133383,
+      "lng": 7.946057
+    }
+  ]
+}

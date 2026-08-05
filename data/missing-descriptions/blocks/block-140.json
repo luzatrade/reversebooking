@@ -1,0 +1,323 @@
+{
+  "block": 140,
+  "blockId": "140",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "ad3bad91-f6f7-4ca7-a124-ae13b36f4741",
+      "slug": "lo-stallone-rent-a-room-arconate",
+      "nome": "Lo Stallone Rent a Room",
+      "city_name": "Arconate",
+      "indirizzo": "Via per Cuggiono, 2, 20010 Buscate MI",
+      "lat": 45.540157,
+      "lng": 8.811766
+    },
+    {
+      "id": "6c8b723a-fb74-4acc-83d9-1d3d49d03d9f",
+      "slug": "moulin-de-la-galette-arconate",
+      "nome": "Moulin de la galette",
+      "city_name": "Arconate",
+      "indirizzo": "Via Mulino Galletto, 20039 Canegrate MI",
+      "lat": 45.578454,
+      "lng": 8.934707
+    },
+    {
+      "id": "9d1c929f-f80a-417c-bc3b-1637188795c7",
+      "slug": "pizzeria-hotel-don-carlos-arconate",
+      "nome": "Pizzeria/hotel Don Carlos",
+      "city_name": "Arconate",
+      "indirizzo": "Via Guglielmo Marconi, 58, 20010 Buscate MI",
+      "lat": 45.541294,
+      "lng": 8.812217
+    },
+    {
+      "id": "be1afa4b-2674-4a13-9ba5-9908ca73506a",
+      "slug": "tower-hotel-busto-arsizio-malpensa-arconate",
+      "nome": "Tower hotel Busto Arsizio - Malpensa",
+      "city_name": "Arconate",
+      "indirizzo": "Via Magenta, 14, 21052 Busto Arsizio VA",
+      "lat": 45.60768,
+      "lng": 8.845804
+    },
+    {
+      "id": "c125d85e-9dc8-40fb-96a5-28012bf1075c",
+      "slug": "villa-verganti-veronesi-arconate",
+      "nome": "Villa Verganti Veronesi",
+      "city_name": "Arconate",
+      "indirizzo": "Viale Lombardia, 33, 20001 Inveruno MI",
+      "lat": 45.510486,
+      "lng": 8.851262
+    },
+    {
+      "id": "9c4a2f06-6c20-43f1-bf14-9561115e5081",
+      "slug": "al-giardino-segreto-arcore",
+      "nome": "Al Giardino Segreto",
+      "city_name": "Arcore",
+      "indirizzo": "Via Luciano Manara, 21, 20900 Monza MB",
+      "lat": 45.588908,
+      "lng": 9.263014
+    },
+    {
+      "id": "f995d70e-9a74-4a5a-9977-b7d3b0e401dc",
+      "slug": "albergo-platani-arcore",
+      "nome": "Albergo Platani",
+      "city_name": "Arcore",
+      "indirizzo": "Via A. Casati, 49, 20862 Arcore MB",
+      "lat": 45.625724,
+      "lng": 9.324489
+    },
+    {
+      "id": "562de864-5476-43d6-86e0-05dc705b6163",
+      "slug": "b-b-dell-olmo-arcore",
+      "nome": "B&B dell'olmo",
+      "city_name": "Arcore",
+      "indirizzo": "Via dell'Olmo, 55, 20853 Biassono MB",
+      "lat": 45.623271,
+      "lng": 9.272217
+    },
+    {
+      "id": "11d53651-eb51-486c-a01b-9d28d3aba559",
+      "slug": "best-western-plus-borgolecco-hotel-arcore",
+      "nome": "BEST WESTERN Plus BorgoLecco Hotel",
+      "city_name": "Arcore",
+      "indirizzo": "Via Giacomo Matteotti, 2, 20862 Arcore MB",
+      "lat": 45.630214,
+      "lng": 9.331015
+    },
+    {
+      "id": "2a05b6a0-d149-4033-bd50-5f847063e3a1",
+      "slug": "conte-durini-apartments-rooms-arcore",
+      "nome": "Conte Durini Apartments & Rooms",
+      "city_name": "Arcore",
+      "indirizzo": "P.zza Durini Conte, 1, 20862 Arcore MB",
+      "lat": 45.638957,
+      "lng": 9.33214
+    },
+    {
+      "id": "c116b129-f2da-4a3e-87e0-5aabd69ddac8",
+      "slug": "cosmo-hotel-torri-arcore",
+      "nome": "Cosmo Hotel Torri",
+      "city_name": "Arcore",
+      "indirizzo": "Via Torri Bianche, 4, 20871 Vimercate MB",
+      "lat": 45.600736,
+      "lng": 9.362219
+    },
+    {
+      "id": "de9e680c-6c09-4af2-8570-e55fef06bdd5",
+      "slug": "il-colombee-arcore",
+      "nome": "Il Colombee",
+      "city_name": "Arcore",
+      "indirizzo": "Via Colombe´, 14, 23874 Montevecchia LC",
+      "lat": 45.698781,
+      "lng": 9.3835
+    },
+    {
+      "id": "63e277dd-ac38-4082-b98d-4433ecf4e333",
+      "slug": "la-casa-di-elena-arcore",
+      "nome": "La Casa di Elena",
+      "city_name": "Arcore",
+      "indirizzo": "Viale Brianza, 80, 20862 Cacciatori MB",
+      "lat": 45.639895,
+      "lng": 9.325761
+    },
+    {
+      "id": "8ff4dd0f-7c7d-4a92-a5be-49966e41f2ba",
+      "slug": "la-raffa-house-location-per-eventi-privati-e-cas-arcore",
+      "nome": "La Raffa House - Location per eventi privati e Casa Vacanze",
+      "city_name": "Arcore",
+      "indirizzo": "Via Gran Sasso, 46, 20862 Arcore MB",
+      "lat": 45.633707,
+      "lng": 9.313162
+    },
+    {
+      "id": "3490de2a-50b7-4ca7-8716-bdea29d18190",
+      "slug": "privilege-apartments-arcore",
+      "nome": "Privilege Apartments",
+      "city_name": "Arcore",
+      "indirizzo": "Via Rossino, 3, 20871 Vimercate MB",
+      "lat": 45.609726,
+      "lng": 9.388129
+    },
+    {
+      "id": "13eb773e-eb5d-4358-baf8-fdd32e25e66e",
+      "slug": "ramona-b-b-arcore",
+      "nome": "Ramona B&B",
+      "city_name": "Arcore",
+      "indirizzo": "Via Casiraghi e Riboldi, 17, 20853 Biassono MB",
+      "lat": 45.626633,
+      "lng": 9.268743
+    },
+    {
+      "id": "3f5c8f44-c3e1-4771-be55-5c899e0c012d",
+      "slug": "residence-cascina-san-giovanni-arcore",
+      "nome": "Residence Cascina San Giovanni",
+      "city_name": "Arcore",
+      "indirizzo": "Via Michelangelo Buonarroti, 40/b, 20043 Arcore MB",
+      "lat": 45.619994,
+      "lng": 9.324198
+    },
+    {
+      "id": "784636b5-b49d-4333-8931-0d4bc4c79ab7",
+      "slug": "ristorante-sant-eustorgio-arcore",
+      "nome": "Ristorante Sant' Eustorgio",
+      "city_name": "Arcore",
+      "indirizzo": "Via F. Gilera, 1, 20862 Arcore MB",
+      "lat": 45.627677,
+      "lng": 9.32613
+    },
+    {
+      "id": "39f28120-e031-48d3-af7f-e02f2111a01f",
+      "slug": "agriturismo-san-michele-arcugnano",
+      "nome": "Agriturismo San Michele",
+      "city_name": "Arcugnano",
+      "indirizzo": "Str. Pergoletta, 118, 36100 Vicenza VI",
+      "lat": 45.525946,
+      "lng": 11.557708
+    },
+    {
+      "id": "33fca34d-01f3-4f3e-95a3-fc00c954371d",
+      "slug": "agriturismo-valchegozzo-arcugnano",
+      "nome": "Agriturismo Valchegozzo",
+      "city_name": "Arcugnano",
+      "indirizzo": "Via Lago di Fimon, 137, 36057 Arcugnano VI",
+      "lat": 45.45171,
+      "lng": 11.540571
+    },
+    {
+      "id": "1023defa-bb23-465a-a90d-3da3a8d358bb",
+      "slug": "alloggio-alla-collina-arcugnano",
+      "nome": "Alloggio alla Collina",
+      "city_name": "Arcugnano",
+      "indirizzo": "Via Umberto I, n 50/52, 36057 Arcugnano VI",
+      "lat": 45.501548,
+      "lng": 11.535636
+    },
+    {
+      "id": "aa852ce3-e9d7-4904-a039-a7d7c4150d3f",
+      "slug": "b-b-il-suono-del-bosco-arcugnano",
+      "nome": "B&B Il Suono del Bosco",
+      "city_name": "Arcugnano",
+      "indirizzo": "Via S. Bernardino, 19, 36057 Arcugnano VI",
+      "lat": 45.479622,
+      "lng": 11.507467
+    },
+    {
+      "id": "9cf43f75-bae1-4e81-a4fa-03da8ad5eb35",
+      "slug": "b-b-la-quiete-arcugnano",
+      "nome": "B&B La Quiete",
+      "city_name": "Arcugnano",
+      "indirizzo": "Via S. Felice, 7\\a, 36057 Arcugnano VI",
+      "lat": 45.473883,
+      "lng": 11.559887
+    },
+    {
+      "id": "50de7c2d-2490-4a9e-aa4b-3a1ee44b6caf",
+      "slug": "bob-and-jenny-s-b-b-arcugnano",
+      "nome": "Bob And Jenny's B&B",
+      "city_name": "Arcugnano",
+      "indirizzo": "Borgo Berga, 140, 36100 Vicenza VI",
+      "lat": 45.538591,
+      "lng": 11.555983
+    },
+    {
+      "id": "abf405f0-22ee-4d6c-a7ab-4fd28e1ce346",
+      "slug": "camping-e-b-b-il-lago-arcugnano",
+      "nome": "Camping e B&B Il Lago",
+      "city_name": "Arcugnano",
+      "indirizzo": "Via Monticello, 47, 36057 Arcugnano VI",
+      "lat": 45.484129,
+      "lng": 11.541529
+    },
+    {
+      "id": "9ba2bd0b-1c15-4b3d-9f3e-0c0ca46597c5",
+      "slug": "casa-felice-soggiorni-di-relax-lavoro-e-gruppo-a-arcugnano",
+      "nome": "Casa Felice - soggiorni di relax, lavoro e gruppo ad Arcugnano",
+      "city_name": "Arcugnano",
+      "indirizzo": "Via Paoloni, 23, 36057 Arcugnano VI",
+      "lat": 45.491074,
+      "lng": 11.52258
+    },
+    {
+      "id": "3c9ad87e-ab58-4556-b03e-87409c869651",
+      "slug": "da-pierina-arcugnano",
+      "nome": "Da Pierina",
+      "city_name": "Arcugnano",
+      "indirizzo": "Via Lago di Fimon, 108, 36057 Arcugnano VI",
+      "lat": 45.45675,
+      "lng": 11.540186
+    },
+    {
+      "id": "855f1228-1b67-405c-af2d-871e7d8da08a",
+      "slug": "fattoria-le-vegre-azienda-vitivinicola-agrituris-arcugnano",
+      "nome": "Fattoria le Vegre - Azienda vitivinicola - Agriturismo con camere - Degustazione Vini Colli Berici",
+      "city_name": "Arcugnano",
+      "indirizzo": "Via Vegre, 36, 36057 Arcugnano VI",
+      "lat": 45.488082,
+      "lng": 11.528079
+    },
+    {
+      "id": "a3ad3d24-1b39-421a-a4fa-98494e051547",
+      "slug": "relais-villa-gozzi-b-b-arcugnano",
+      "nome": "Relais Villa Gozzi B&B",
+      "city_name": "Arcugnano",
+      "indirizzo": "Via Pilla, 6, 36057 Arcugnano VI",
+      "lat": 45.504543,
+      "lng": 11.518867
+    },
+    {
+      "id": "8b15629e-f5ac-4454-8fda-8cb0d13a2efe",
+      "slug": "villa-magnolia-arcugnano",
+      "nome": "Villa Magnolia",
+      "city_name": "Arcugnano",
+      "indirizzo": "Via Spianzana, 15, 36057 Arcugnano VI",
+      "lat": 45.490011,
+      "lng": 11.524005
+    },
+    {
+      "id": "53b6291e-2f61-4748-ae6d-510fc7e74d1e",
+      "slug": "villa-michelangelo-vicenza-starhotels-collezione-arcugnano",
+      "nome": "Villa Michelangelo Vicenza - Starhotels Collezione",
+      "city_name": "Arcugnano",
+      "indirizzo": "Via Sacco, 35, 36057 Arcugnano VI",
+      "lat": 45.496831,
+      "lng": 11.540167
+    },
+    {
+      "id": "85f43bac-7313-4928-9154-9e887512a65b",
+      "slug": "agriturismo-carrucana-ardara",
+      "nome": "Agriturismo Carrucana",
+      "city_name": "Ardara",
+      "indirizzo": "Strada Statale 127 Settentrionale Sarda, 07030 Laerru SS",
+      "lat": 40.794121,
+      "lng": 8.832244
+    },
+    {
+      "id": "fe8569e5-d703-4238-80b2-66b906098696",
+      "slug": "austinu-bingedda-s-home-ardara",
+      "nome": "Austinu&Bingedda's home",
+      "city_name": "Ardara",
+      "indirizzo": "Via Comita, 3, 07010 Ardara SS",
+      "lat": 40.623774,
+      "lng": 8.809069
+    },
+    {
+      "id": "a7df5359-3934-47e5-89a6-caa72a3e2fc0",
+      "slug": "b-b-il-pavone-ardara",
+      "nome": "B&B \"Il Pavone\"",
+      "city_name": "Ardara",
+      "indirizzo": "Via Ginevra Zanetti, 93, 07100 Sassari SS",
+      "lat": 40.724234,
+      "lng": 8.583177
+    },
+    {
+      "id": "2727bf77-e2b9-4725-b314-2f791f60f348",
+      "slug": "b-b-la-casa-sui-tetti-ardara",
+      "nome": "B&B La Casa sui Tetti",
+      "city_name": "Ardara",
+      "indirizzo": "Via Monserrato, 16, 07014 Ozieri SS",
+      "lat": 40.583242,
+      "lng": 8.995234
+    }
+  ]
+}

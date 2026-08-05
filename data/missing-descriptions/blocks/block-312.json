@@ -1,0 +1,323 @@
+{
+  "block": 312,
+  "blockId": "312",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "46861831-6bb6-4107-b05d-a1c01976c8c3",
+      "slug": "le-due-matote-relais-bossolasco",
+      "nome": "Le due matote Relais",
+      "city_name": "Bossolasco",
+      "indirizzo": "Località Curine Pratofreddo, Pratofreddo 1, 12060, Bossolasco CN",
+      "lat": 44.529721,
+      "lng": 8.047078
+    },
+    {
+      "id": "9eb4dd3c-0f48-4ee5-968d-1531d372ddf3",
+      "slug": "locanda-del-borgo-bossolasco",
+      "nome": "Locanda del Borgo",
+      "city_name": "Bossolasco",
+      "indirizzo": "Borgata Castello, 5, 12077 Prunetto CN",
+      "lat": 44.491349,
+      "lng": 8.144496
+    },
+    {
+      "id": "8358ae1e-0040-4a4b-832c-8603a3692272",
+      "slug": "locanda-ferrante-con-camere-bossolasco",
+      "nome": "Locanda Ferrante Con Camere",
+      "city_name": "Bossolasco",
+      "indirizzo": "Piazza S. Giorgio, 4, 12050 Niella Belbo CN",
+      "lat": 44.512777,
+      "lng": 8.079212
+    },
+    {
+      "id": "aba9551e-03ab-4361-97b9-3fcdf6777235",
+      "slug": "maison-otto-bossolasco",
+      "nome": "Maison Otto",
+      "city_name": "Bossolasco",
+      "indirizzo": "Via Umberto I 67, Bossolasco 12060, Cuneo, 12060 Bossolasco CN",
+      "lat": 44.528467,
+      "lng": 8.053541
+    },
+    {
+      "id": "60295786-b3b9-47cb-9a25-c647d9448e6f",
+      "slug": "residence-radice-verde-bossolasco",
+      "nome": "Residence Radice Verde",
+      "city_name": "Bossolasco",
+      "indirizzo": "Via Airali, 8, 12050 Cissone CN",
+      "lat": 44.562756,
+      "lng": 8.032438
+    },
+    {
+      "id": "2731f491-8e5f-46b4-8eb4-0ca3912a1733",
+      "slug": "agriturismo-la-casa-di-botro-botricello",
+      "nome": "Agriturismo La Casa di Botro",
+      "city_name": "Botricello",
+      "indirizzo": "Via Benigno Zaccagnini, 2, 88070 Botricello CZ",
+      "lat": 38.929781,
+      "lng": 16.853301
+    },
+    {
+      "id": "37740c1c-d934-4c5d-b05a-cea4c1cfff12",
+      "slug": "albamaris-guest-house-botricello",
+      "nome": "Albamaris Guest House",
+      "city_name": "Botricello",
+      "indirizzo": "Via Rosa Dei Venti, 88070 Botricello CZ",
+      "lat": 38.933405,
+      "lng": 16.867014
+    },
+    {
+      "id": "c0cd9c2a-a45d-49c8-8972-3fea887be0ab",
+      "slug": "b-b-da-agostino-botricello",
+      "nome": "B&B Da Agostino",
+      "city_name": "Botricello",
+      "indirizzo": "Via Magna Grecia, 73, 88070 Botricello CZ",
+      "lat": 38.925872,
+      "lng": 16.860821
+    },
+    {
+      "id": "d0136479-0ea2-401b-990b-e29d871fad3f",
+      "slug": "b-b-la-scogliera-botricello",
+      "nome": "B&b La Scogliera",
+      "city_name": "Botricello",
+      "indirizzo": "Via Pizzicarola, 6, 88841 Le Castella KR",
+      "lat": 38.908323,
+      "lng": 17.024382
+    },
+    {
+      "id": "21a6806e-23d5-4a03-a036-f2ef033db1e7",
+      "slug": "bruno-bed-breakfast-botricello",
+      "nome": "Bruno Bed & Breakfast",
+      "city_name": "Botricello",
+      "indirizzo": "Viale Taranto, 19/c, 88050 Cropani Marina CZ",
+      "lat": 38.927151,
+      "lng": 16.823674
+    },
+    {
+      "id": "27ab2d82-e164-45a5-ac52-ce78d2e90dc7",
+      "slug": "hotel-park-jonio-botricello",
+      "nome": "Hotel Park Jonio",
+      "city_name": "Botricello",
+      "indirizzo": "Via Mare Ionio, 32, 88842 Steccato di Cutro KR",
+      "lat": 38.937237,
+      "lng": 16.924927
+    },
+    {
+      "id": "d0a47491-7d6a-4f8c-aeb5-5ff5df1877f8",
+      "slug": "hotel-ristorante-il-corsaro-t-l-m-sas-botricello",
+      "nome": "Hotel Ristorante Il Corsaro T.L.M. Sas",
+      "city_name": "Botricello",
+      "indirizzo": "Via Volandrino, 88841 Isola di Capo Rizzuto KR",
+      "lat": 38.91648,
+      "lng": 17.019374
+    },
+    {
+      "id": "c351f09f-e49d-4120-a1bd-1b8c916e6df7",
+      "slug": "la-casa-di-peppino-e-lucia-botricello",
+      "nome": "La Casa di Peppino e Lucia",
+      "city_name": "Botricello",
+      "indirizzo": "Via Taranto, 31, 88070 Botricello CZ",
+      "lat": 38.933283,
+      "lng": 16.853584
+    },
+    {
+      "id": "e1e0f522-8050-45c2-a461-4bfaccfc23ee",
+      "slug": "marina-del-marchese-beach-resort-botricello",
+      "nome": "Marina del Marchese Beach Resort",
+      "city_name": "Botricello",
+      "indirizzo": "Via Marina di Bruni III, 88070 Botricello CZ",
+      "lat": 38.92644,
+      "lng": 16.872427
+    },
+    {
+      "id": "06743c05-8cbc-4fb2-8d7c-ff3776b2ea2b",
+      "slug": "nirvana-club-village-botricello",
+      "nome": "Nirvana Club Village",
+      "city_name": "Botricello",
+      "indirizzo": "Contrada Magliacane, 40, 88050 Belcastro CZ",
+      "lat": 38.929638,
+      "lng": 16.887208
+    },
+    {
+      "id": "b4c11e7c-ca99-42ae-9279-b3ab74dabf22",
+      "slug": "papavero-giallo-botricello",
+      "nome": "Papavero Giallo",
+      "city_name": "Botricello",
+      "indirizzo": "Via Fosso, 6, 88841 Le Castella KR",
+      "lat": 38.910704,
+      "lng": 17.024057
+    },
+    {
+      "id": "a7e8b47c-28a7-413b-8d53-9302789ce7ca",
+      "slug": "b-b-del-benessere-beauty-wellness-botrugno",
+      "nome": "B&B del Benessere Beauty & Wellness",
+      "city_name": "Botrugno",
+      "indirizzo": "Via Gallipoli, 64, 73024 Maglie LE",
+      "lat": 40.117241,
+      "lng": 18.293338
+    },
+    {
+      "id": "fac5e571-7796-4559-8f59-e0fd4871d45f",
+      "slug": "b-b-francesca-botrugno",
+      "nome": "B&B Francesca",
+      "city_name": "Botrugno",
+      "indirizzo": "Vico Malvicina 2 Via Malvicina ,66 ( di fronte, 73020 Scorrano LE",
+      "lat": 40.093178,
+      "lng": 18.295661
+    },
+    {
+      "id": "88552be8-ce0c-40ba-91cd-71ab72af95fe",
+      "slug": "b-b-li-curti-botrugno",
+      "nome": "B&B Li Curti",
+      "city_name": "Botrugno",
+      "indirizzo": "Via Madonna della Luce, 9, 73020 Scorrano LE",
+      "lat": 40.08873,
+      "lng": 18.298098
+    },
+    {
+      "id": "dcd7ee03-2ecc-4032-9ed2-bd9e75eecf4d",
+      "slug": "b-b-mediterraneo-botrugno",
+      "nome": "B&B Mediterraneo",
+      "city_name": "Botrugno",
+      "indirizzo": "Via Martiri D'Otranto, 13, 73024 Maglie LE",
+      "lat": 40.118421,
+      "lng": 18.294676
+    },
+    {
+      "id": "0cb8b92c-c5c3-4b68-a5c1-44c4688a4808",
+      "slug": "b-b-sideris-botrugno",
+      "nome": "B&B Sideris",
+      "city_name": "Botrugno",
+      "indirizzo": "SP237, 10, 73030 Surano LE",
+      "lat": 40.031658,
+      "lng": 18.350367
+    },
+    {
+      "id": "9d2dc885-f8ab-4354-8c64-5c0666378d9a",
+      "slug": "casa-cardignan-botrugno",
+      "nome": "Casa Cardignan",
+      "city_name": "Botrugno",
+      "indirizzo": "Via Santi Filippo e Giacomo, 9, 73030 Diso LE",
+      "lat": 40.010147,
+      "lng": 18.39055
+    },
+    {
+      "id": "abac9d2e-174b-4c0e-8cf5-b95be0e7db1d",
+      "slug": "corte-dei-granai-meeting-spa-raro-rooms-collecti-botrugno",
+      "nome": "Corte Dei Granai Meeting & SPA - Raro Rooms Collection",
+      "city_name": "Botrugno",
+      "indirizzo": "479X+WRR, 73024 Maglie LE",
+      "lat": 40.119785,
+      "lng": 18.299462
+    },
+    {
+      "id": "66770f58-418e-45b0-9c17-db77bf1f147e",
+      "slug": "don-totu-dimora-storica-botrugno",
+      "nome": "Don Totu - Dimora Storica",
+      "city_name": "Botrugno",
+      "indirizzo": "Via Crocefisso, 10, 73020 San Cassiano LE",
+      "lat": 40.055438,
+      "lng": 18.335003
+    },
+    {
+      "id": "45436e7b-9bc5-4d56-bd81-76167a4f3295",
+      "slug": "giardino-frannicola-botrugno",
+      "nome": "Giardino Frannicola",
+      "city_name": "Botrugno",
+      "indirizzo": "Antonio, Via A. Galati, 4, 73024 Maglie LE",
+      "lat": 40.120773,
+      "lng": 18.291748
+    },
+    {
+      "id": "35566940-e27a-453d-a61f-8a751fff8323",
+      "slug": "kamilia-guestrooms-botrugno",
+      "nome": "kamilia guestrooms",
+      "city_name": "Botrugno",
+      "indirizzo": "Via Roma, 99/A, 73020 San Cassiano LE",
+      "lat": 40.060406,
+      "lng": 18.328911
+    },
+    {
+      "id": "0f30b8b7-8f45-4f1a-9b47-63130c7ab11e",
+      "slug": "la-luna-nel-pozzo-botrugno",
+      "nome": "La luna nel pozzo",
+      "city_name": "Botrugno",
+      "indirizzo": "Via Tripoli, 34A, 73020 Botrugno LE",
+      "lat": 40.065979,
+      "lng": 18.323137
+    },
+    {
+      "id": "a10d7893-74bd-4662-83b0-343edd272528",
+      "slug": "la-nicchiarica-botrugno",
+      "nome": "La Nicchiarica",
+      "city_name": "Botrugno",
+      "indirizzo": "Strada Comunale Conca Marau, 4, 73036 Muro Leccese LE",
+      "lat": 40.124796,
+      "lng": 18.346013
+    },
+    {
+      "id": "85f2e4f9-bd85-43c7-8af1-58f9bd122e22",
+      "slug": "la-pigna-blu-botrugno",
+      "nome": "La Pigna Blu",
+      "city_name": "Botrugno",
+      "indirizzo": "Via Goffredo Mameli, 7, 73020 Botrugno LE",
+      "lat": 40.060196,
+      "lng": 18.316883
+    },
+    {
+      "id": "18ceae3b-1c9b-4bfb-b8aa-63d0b3af6c64",
+      "slug": "tenuta-tresca-suites-dimora-storica-botrugno",
+      "nome": "Tenuta Tresca Suites - Dimora Storica",
+      "city_name": "Botrugno",
+      "indirizzo": "Via IV Novembre, 2, 73020 San Cassiano LE",
+      "lat": 40.056253,
+      "lng": 18.33464
+    },
+    {
+      "id": "84106322-ab1f-4912-bfb9-c49246bb141d",
+      "slug": "villa-sitrie-botrugno",
+      "nome": "Villa Sitrie",
+      "city_name": "Botrugno",
+      "indirizzo": "Via Vittorio Veneto, 151, 73036 Muro Leccese LE",
+      "lat": 40.105203,
+      "lng": 18.343645
+    },
+    {
+      "id": "50971e48-05b0-49ac-86d7-9a5b90a5640a",
+      "slug": "b-b-villa-garden-bottanuco",
+      "nome": "B&B Villa & Garden",
+      "city_name": "Bottanuco",
+      "indirizzo": "Via S. Rocco, 7, 24042 Capriate San Gervasio BG",
+      "lat": 45.619665,
+      "lng": 9.527879
+    },
+    {
+      "id": "d842bc33-f959-4ae7-b6b4-d22a639e6cb8",
+      "slug": "cantina-al-silter-naturooms-bottanuco",
+      "nome": "Cantina Al Silter - NatuRooms",
+      "city_name": "Bottanuco",
+      "indirizzo": "Via Trieste, 27H, 24042 Capriate San Gervasio BG",
+      "lat": 45.617941,
+      "lng": 9.52443
+    },
+    {
+      "id": "8270935b-40c7-4e81-a49d-1462b49c7fe5",
+      "slug": "guglielmotel-bottanuco",
+      "nome": "GuglielMotel",
+      "city_name": "Bottanuco",
+      "indirizzo": "Via delle Industrie, 1, 24041 Brembate BG",
+      "lat": 45.612222,
+      "lng": 9.5425
+    },
+    {
+      "id": "5a1b73e9-7553-4474-a117-dbd70b731929",
+      "slug": "le-vigne-sull-adda-bottanuco",
+      "nome": "Le Vigne sull'Adda",
+      "city_name": "Bottanuco",
+      "indirizzo": "Via G. Parini, 24040 Bottanuco BG",
+      "lat": 45.633762,
+      "lng": 9.508374
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 44,
+  "blockId": "044",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "f08a77b4-6488-46ae-b602-7fdfe8b60590",
+      "slug": "b-b-ca-d-ambra-ala-di-stura",
+      "nome": "B&B Ca' D'ambra",
+      "city_name": "Ala di Stura",
+      "indirizzo": "Via Monti, 1, 10070 Bonzo TO",
+      "lat": 45.368173,
+      "lng": 7.304991
+    },
+    {
+      "id": "a290988e-a081-46ee-b042-846971b88274",
+      "slug": "b-b-la-crestolina-cin-it001003c1vbar23uf-ala-di-stura",
+      "nome": "B&B La Crestolina - CIN IT001003C1VBAR23UF",
+      "city_name": "Ala di Stura",
+      "indirizzo": "Frazione Cresto, 49, 10070 Ala di Stura TO",
+      "lat": 45.314453,
+      "lng": 7.289485
+    },
+    {
+      "id": "13c4e859-1f21-437c-947d-4c3131c1e77c",
+      "slug": "baite-del-baus-ala-di-stura",
+      "nome": "baite del baus",
+      "city_name": "Ala di Stura",
+      "indirizzo": "Frazione Martassina, 33, 10070 Ala di Stura TO",
+      "lat": 45.31449,
+      "lng": 7.277305
+    },
+    {
+      "id": "95a66755-0bbc-418a-ad09-811c10b5eb70",
+      "slug": "bnbuja-ala-di-stura",
+      "nome": "bnbuja",
+      "city_name": "Ala di Stura",
+      "indirizzo": "Frazione Mondrone, 10070 Ala di Stura TO",
+      "lat": 45.31208,
+      "lng": 7.259628
+    },
+    {
+      "id": "9f392210-73aa-4bb6-aaa3-98cd1889cdf5",
+      "slug": "casa-curnet-ala-di-stura",
+      "nome": "Casa Curnet",
+      "city_name": "Ala di Stura",
+      "indirizzo": "Frazione Cornetti, 61, 10070 Balme TO",
+      "lat": 45.300682,
+      "lng": 7.21993
+    },
+    {
+      "id": "1d813451-414e-424a-abbc-af2b70445587",
+      "slug": "grand-hotel-ala-di-stura-ala-di-stura",
+      "nome": "Grand Hotel Ala di Stura",
+      "city_name": "Ala di Stura",
+      "indirizzo": "Via Pian del Tetto, 2, 10070 Ala di Stura TO",
+      "lat": 45.316091,
+      "lng": 7.306342
+    },
+    {
+      "id": "c4f85651-805a-46c1-a324-5875cf4b919a",
+      "slug": "hotel-raggio-di-sole-ala-di-stura",
+      "nome": "Hotel Raggio di Sole",
+      "city_name": "Ala di Stura",
+      "indirizzo": "Via Ceres, 7, 10070 Ala di Stura TO",
+      "lat": 45.315296,
+      "lng": 7.306417
+    },
+    {
+      "id": "7f6e294b-e896-4e71-9af8-9f237d845251",
+      "slug": "il-nido-d-ala-ala-di-stura",
+      "nome": "il nido d'Ala",
+      "city_name": "Ala di Stura",
+      "indirizzo": "Via Ceres, 15, 10070 Ala di Stura TO",
+      "lat": 45.314687,
+      "lng": 7.308057
+    },
+    {
+      "id": "21e6fc43-3bdb-4e44-805e-2cf0b6216655",
+      "slug": "les-montagnards-ala-di-stura",
+      "nome": "Les Montagnards",
+      "city_name": "Ala di Stura",
+      "indirizzo": "Frazione Cornetti, 73, 10070 Balme TO",
+      "lat": 45.301121,
+      "lng": 7.220459
+    },
+    {
+      "id": "e5be9820-5ff3-422b-8564-b2bdb56e3783",
+      "slug": "rifugio-lungimala-ala-di-stura",
+      "nome": "Rifugio Lungimala",
+      "city_name": "Ala di Stura",
+      "indirizzo": "10070 Ala di Stura TO",
+      "lat": 45.296977,
+      "lng": 7.317655
+    },
+    {
+      "id": "e9e3bfa7-95c4-4ef7-b0de-fa0e192d5dc3",
+      "slug": "villa-biino-200s-ala-di-stura",
+      "nome": "Villa Biino 200s",
+      "city_name": "Ala di Stura",
+      "indirizzo": "Via Balme, 19, 10070 Ala di Stura TO",
+      "lat": 45.315224,
+      "lng": 7.296959
+    },
+    {
+      "id": "39c38f76-bf10-4462-ab3d-1594cd29755a",
+      "slug": "agriturismo-alagna-alagna",
+      "nome": "Agriturismo Alagna",
+      "city_name": "Alagna",
+      "indirizzo": "Frazione Rusa, 13021 Alagna Valsesia VC",
+      "lat": 45.859684,
+      "lng": 7.931823
+    },
+    {
+      "id": "4ac2e9df-a3e9-4ee5-a88d-6b28c95f456d",
+      "slug": "albergo-montagna-di-luce-alagna",
+      "nome": "Albergo Montagna di Luce",
+      "city_name": "Alagna",
+      "indirizzo": "Frazione Pedemonte, 19, 13021 Alagna Valsesia VC",
+      "lat": 45.860817,
+      "lng": 7.937933
+    },
+    {
+      "id": "9c65f1fe-819a-4c77-a75a-4522cbad43b7",
+      "slug": "albergo-monte-rosa-alagna",
+      "nome": "Albergo Monte Rosa",
+      "city_name": "Alagna",
+      "indirizzo": "Piazza degli alberghi, 12, 13021 Alagna Valsesia VC",
+      "lat": 45.854481,
+      "lng": 7.936849
+    },
+    {
+      "id": "e067e034-f899-44f8-9b8b-5feabab487dc",
+      "slug": "b-b-slapiana-alagna",
+      "nome": "B & B Slapiana",
+      "city_name": "Alagna",
+      "indirizzo": "Frazione Piana Fontana 12, 13020 Mollia VC",
+      "lat": 45.82056,
+      "lng": 8.029349
+    },
+    {
+      "id": "309b3b64-5797-4d70-ae64-a2e21d5017ff",
+      "slug": "b-b-alpe-sattal-alagna",
+      "nome": "B&B Alpe Sattal",
+      "city_name": "Alagna",
+      "indirizzo": "Loc. Alpe Sattal, 13021 Alagna Valsesia VC",
+      "lat": 45.856636,
+      "lng": 7.952344
+    },
+    {
+      "id": "521fad9e-ec0b-4f9c-84a0-c0c76838024d",
+      "slug": "casa-dei-fiori-alagna",
+      "nome": "Casa dei Fiori",
+      "city_name": "Alagna",
+      "indirizzo": "Frazione Bonda, 28, 13021 Alagna Valsesia VC",
+      "lat": 45.854208,
+      "lng": 7.935851
+    },
+    {
+      "id": "6feed949-a956-4f65-bec8-4874c8ec8125",
+      "slug": "hotel-cristallo-alagna-valsesia-alagna",
+      "nome": "Hotel Cristallo Alagna Valsesia",
+      "city_name": "Alagna",
+      "indirizzo": "Piazza Degli Alberghi, 7, 13021 Alagna Valsesia VC",
+      "lat": 45.854701,
+      "lng": 7.937323
+    },
+    {
+      "id": "371ef3f0-d3cf-4d63-b20a-ecbaa608db7b",
+      "slug": "hotel-nh-collection-alagna-mirtillo-rosso-alagna",
+      "nome": "Hotel NH Collection Alagna Mirtillo Rosso",
+      "city_name": "Alagna",
+      "indirizzo": "Strada della Barriera, 8, 13021 Riva Valdobbia VC",
+      "lat": 45.831277,
+      "lng": 7.956816
+    },
+    {
+      "id": "57760c82-3045-4e12-a07c-74665a6e0df6",
+      "slug": "l-aria-di-casa-alagna",
+      "nome": "L'aria di Casa",
+      "city_name": "Alagna",
+      "indirizzo": "Via Martiri della Libertà incrocio, Via dei Walser, 39, 13021 Alagna Valsesia VC",
+      "lat": 45.850494,
+      "lng": 7.938412
+    },
+    {
+      "id": "f8de3b67-2469-4748-b386-6a741fc70e3b",
+      "slug": "le-mie-radici-alagna",
+      "nome": "LE MIE RADICI",
+      "city_name": "Alagna",
+      "indirizzo": "Frazione Failungo, 45, 13020 Pila VC",
+      "lat": 45.770835,
+      "lng": 8.071681
+    },
+    {
+      "id": "e9fe7d05-1bc9-480a-94ce-0f199081a541",
+      "slug": "mh-olen-hotel-alagna",
+      "nome": "Mh Olen Hotel",
+      "city_name": "Alagna",
+      "indirizzo": "Frazione Bonda, 17, 13021 Alagna Valsesia VC",
+      "lat": 45.85324,
+      "lng": 7.935574
+    },
+    {
+      "id": "b5ee4577-f166-4fce-a4ea-906e9d5c2afd",
+      "slug": "mira-alagna-mountain-resort-spa-alagna",
+      "nome": "MIRA Alagna Mountain Resort & SPA",
+      "city_name": "Alagna",
+      "indirizzo": "Via Martiri della Libertà, 1, 13021 Alagna Valsesia VC",
+      "lat": 45.850667,
+      "lng": 7.939315
+    },
+    {
+      "id": "7500616a-4fd1-4dc0-a9e3-a6a2619f65b5",
+      "slug": "pensione-genzianella-alagna",
+      "nome": "Pensione Genzianella",
+      "city_name": "Alagna",
+      "indirizzo": "13021 Alagna Valsesia VC",
+      "lat": 45.854551,
+      "lng": 7.935981
+    },
+    {
+      "id": "1c9bdc56-fe0e-4db5-9495-ccadb2bab8a0",
+      "slug": "pietre-gemelle-resort-alagna",
+      "nome": "Pietre Gemelle Resort",
+      "city_name": "Alagna",
+      "indirizzo": "Località, Via Pietre Gemelle, 13021 Riva Valdobbia VC",
+      "lat": 45.837186,
+      "lng": 7.948544
+    },
+    {
+      "id": "9245ba64-3e1c-4fd9-b325-f69a49f04805",
+      "slug": "residence-indren-hus-alagna",
+      "nome": "Residence Indren Hus",
+      "city_name": "Alagna",
+      "indirizzo": "Via dei Walser, 18, 13021 Alagna Valsesia VC",
+      "lat": 45.850903,
+      "lng": 7.93751
+    },
+    {
+      "id": "3439e652-c899-45aa-9cb9-58af63506de2",
+      "slug": "residence-kalipe-alagna",
+      "nome": "Residence Kalipe",
+      "city_name": "Alagna",
+      "indirizzo": "Via dei Walser, 14, 13021 Alagna Valsesia VC",
+      "lat": 45.851611,
+      "lng": 7.937544
+    },
+    {
+      "id": "3fc831ab-ac9a-4cd1-97d6-40ce07729104",
+      "slug": "residence-mary-di-ferraris-stefania-alagna",
+      "nome": "Residence Mary di Ferraris Stefania",
+      "city_name": "Alagna",
+      "indirizzo": "Frazione alla Chiesa, 1, 13021 Alagna Valsesia VC",
+      "lat": 45.854149,
+      "lng": 7.937442
+    },
+    {
+      "id": "8e15153c-50e0-43b6-b770-8652e4560226",
+      "slug": "rifugio-casa-lobietti-alagna",
+      "nome": "Rifugio Casa Lobietti",
+      "city_name": "Alagna",
+      "indirizzo": "Otra Sesia, 4, 13020 Mollia VC",
+      "lat": 45.818302,
+      "lng": 8.000714
+    },
+    {
+      "id": "862b05fe-2930-490c-8668-e09f63028e44",
+      "slug": "tre-alberi-liberi-alagna",
+      "nome": "Tre Alberi Liberi",
+      "city_name": "Alagna",
+      "indirizzo": "Via Nicolao Sottile, 7, 13021 Riva Valdobbia VC",
+      "lat": 45.832915,
+      "lng": 7.954333
+    },
+    {
+      "id": "ccc7341e-0356-41dc-afb7-e94d1e2b83cf",
+      "slug": "zimmer-casa-prati-di-marisa-castagnola-alagna",
+      "nome": "Zimmer Casa Prati di Marisa Castagnola",
+      "city_name": "Alagna",
+      "indirizzo": "13021 Alagna Valsesia VC",
+      "lat": 45.85652,
+      "lng": 7.936041
+    },
+    {
+      "id": "6164f0a5-eb0e-43f9-b8c0-20746674361a",
+      "slug": "appartamenti-baita-reale-alagna-valsesia",
+      "nome": "Appartamenti Baita Reale",
+      "city_name": "Alagna Valsesia",
+      "indirizzo": "Frazione reale inferiore, 6, 13021 Alagna Valsesia VC",
+      "lat": 45.851097,
+      "lng": 7.936685
+    },
+    {
+      "id": "1fd36310-8cb7-453f-a568-a548a4572ef6",
+      "slug": "b-b-la-posa-sul-lago-alagna-valsesia",
+      "nome": "B&B La posa sul lago",
+      "city_name": "Alagna Valsesia",
+      "indirizzo": "Regione Santa Croce, 4, SP11, 13029 Rimasco VC",
+      "lat": 45.859871,
+      "lng": 8.06358
+    },
+    {
+      "id": "f374f580-e337-4a3b-a814-ffeb78ea9099",
+      "slug": "chalet-du-lys-alagna-valsesia",
+      "nome": "Chalet du Lys",
+      "city_name": "Alagna Valsesia",
+      "indirizzo": "Località Staffal, 14, 11020 Tache AO",
+      "lat": 45.859383,
+      "lng": 7.811704
+    },
+    {
+      "id": "492f9480-24bb-4d2a-a223-b2b04530f1e6",
+      "slug": "ellex-alagna-valsesia",
+      "nome": "Ellex",
+      "city_name": "Alagna Valsesia",
+      "indirizzo": "Localita' Tschaval, 6, 11020 Gressoney-La-Trinité AO",
+      "lat": 45.859707,
+      "lng": 7.813514
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 273,
+  "blockId": "273",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "825675c9-55f4-4af4-ba39-e604fbe8b5e8",
+      "slug": "albergo-ristorante-valentino-bionaz",
+      "nome": "Albergo Ristorante Valentino",
+      "city_name": "Bionaz",
+      "indirizzo": "Frazione Lexert, 5, 11010 Bionaz AO",
+      "lat": 45.865792,
+      "lng": 7.400471
+    },
+    {
+      "id": "44aeeee7-0fd5-4e3d-8c25-0d4f28c5c745",
+      "slug": "appartamenti-vacanze-luseney-bionaz",
+      "nome": "Appartamenti Vacanze Luseney",
+      "city_name": "Bionaz",
+      "indirizzo": "Frazione Plan de Veyne Chef Lieu, 13, 11010 Bionaz AO",
+      "lat": 45.873711,
+      "lng": 7.422751
+    },
+    {
+      "id": "5becb090-0b54-4a8a-a98f-c09272bfff1e",
+      "slug": "b-b-cle-du-paradis-bionaz",
+      "nome": "B&B Clé du Paradis",
+      "city_name": "Bionaz",
+      "indirizzo": "11010 Bionaz AO",
+      "lat": 45.870857,
+      "lng": 7.40928
+    },
+    {
+      "id": "50df47cc-c65b-4077-b1d7-e47744e24baa",
+      "slug": "b-b-la-maison-d-antan-bionaz",
+      "nome": "B&B La Maison d'Antan",
+      "city_name": "Bionaz",
+      "indirizzo": "Fraz, Balmes, 11010 Bionaz AO",
+      "lat": 45.862494,
+      "lng": 7.392038
+    },
+    {
+      "id": "f378522c-f3c6-4636-97f1-f827447e8095",
+      "slug": "camping-bar-ristorante-lac-lexert-bionaz",
+      "nome": "Camping Bar Ristorante Lac Lexert",
+      "city_name": "Bionaz",
+      "indirizzo": "Frazione Lexert, 14, 11010 Bionaz AO",
+      "lat": 45.863535,
+      "lng": 7.395997
+    },
+    {
+      "id": "c68c952e-d6dd-4ffa-b4fd-decb30a47e1f",
+      "slug": "hotel-cristina-bionaz",
+      "nome": "Hotel Cristina",
+      "city_name": "Bionaz",
+      "indirizzo": "Frazione Champagne, 1, 11020 Verrayes AO",
+      "lat": 45.743491,
+      "lng": 7.518212
+    },
+    {
+      "id": "cfc6ba13-229b-42ac-bd36-d22aaa798b53",
+      "slug": "hotel-rendez-vous-bionaz",
+      "nome": "Hotel Rendez-Vous",
+      "city_name": "Bionaz",
+      "indirizzo": "Località Soleil, 3, 11024 Châtillon AO",
+      "lat": 45.750334,
+      "lng": 7.620914
+    },
+    {
+      "id": "8bf7495a-5cd8-4213-8fcd-d38dadcc86a1",
+      "slug": "la-batise-bionaz",
+      "nome": "La Batise",
+      "city_name": "Bionaz",
+      "indirizzo": "Località, Frazione Plan de Veyne Chef Lieu, 11010 Bionaz AO",
+      "lat": 45.873716,
+      "lng": 7.422972
+    },
+    {
+      "id": "130498a3-86e6-4a57-aadf-a9096118c52d",
+      "slug": "la-tour-bionaz",
+      "nome": "La Tour",
+      "city_name": "Bionaz",
+      "indirizzo": "loc, Les Gallians, 1, 11010 Oyace AO",
+      "lat": 45.850969,
+      "lng": 7.38258
+    },
+    {
+      "id": "0da571a5-a248-4d8e-8677-5215f0fd4210",
+      "slug": "les-vrais-rayons-bionaz",
+      "nome": "Les Vrais Rayons",
+      "city_name": "Bionaz",
+      "indirizzo": "Località Capoluogo, 31, 11020 Verrayes AO",
+      "lat": 45.762206,
+      "lng": 7.534577
+    },
+    {
+      "id": "66889d7a-6dce-4385-b956-8015e0d40fbc",
+      "slug": "locanda-lac-place-moulin-bionaz",
+      "nome": "Locanda Lac Place Moulin",
+      "city_name": "Bionaz",
+      "indirizzo": "localita place moulin, 11010 Bionaz AO",
+      "lat": 45.898098,
+      "lng": 7.484652
+    },
+    {
+      "id": "7218dd52-118f-406f-b3ab-986c59d7cf41",
+      "slug": "maison-constance-b-b-bionaz",
+      "nome": "Maison Constance B&B",
+      "city_name": "Bionaz",
+      "indirizzo": "Dzovennoz, 12, 11010 Bionaz AO",
+      "lat": 45.866826,
+      "lng": 7.401652
+    },
+    {
+      "id": "7df34f4b-dd2b-4619-a77f-1e9784403698",
+      "slug": "restaurant-e-b-b-alpe-rebelle-mountain-lodge-bionaz",
+      "nome": "Restaurant e B&B Alpe Rebelle Mountain Lodge",
+      "city_name": "Bionaz",
+      "indirizzo": "Fraz. Loc. Chez-Chenoux, 1, 11010 Bionaz AO",
+      "lat": 45.877319,
+      "lng": 7.429765
+    },
+    {
+      "id": "7e8ba1c8-7073-46c5-851e-0ae177ccb55a",
+      "slug": "albergo-trattoria-dazze-bione",
+      "nome": "Albergo Trattoria Dazze",
+      "city_name": "Bione",
+      "indirizzo": "Via Angelo Gitti, 25060 Marcheno BS",
+      "lat": 45.698424,
+      "lng": 10.211878
+    },
+    {
+      "id": "2edb572c-c5f2-4dff-ad0d-d0afc5a15a11",
+      "slug": "hotel-trattoria-marcheno-bione",
+      "nome": "Hotel Trattoria Marcheno",
+      "city_name": "Bione",
+      "indirizzo": "Viale Martiri d'Indipendenza, 98, 25060 Marcheno BS",
+      "lat": 45.71335,
+      "lng": 10.221278
+    },
+    {
+      "id": "8702f009-b23f-4dc5-963f-a9c17ef64c2b",
+      "slug": "agriturismo-bonu-suile-birori",
+      "nome": "Agriturismo Bonu Suile",
+      "city_name": "Birori",
+      "indirizzo": "Località Caramarzos, 08017 Silanus NU",
+      "lat": 40.282473,
+      "lng": 8.887221
+    },
+    {
+      "id": "27724bf6-3390-428d-9c76-52ac737320f2",
+      "slug": "b-b-la-casa-antica-birori",
+      "nome": "B&B La Casa Antica",
+      "city_name": "Birori",
+      "indirizzo": "Corso Umberto I, 142, 08015 Macomer NU",
+      "lat": 40.265739,
+      "lng": 8.77813
+    },
+    {
+      "id": "11449323-fc26-4fd1-9d6d-9f4b7c0f8877",
+      "slug": "casa-castori-birori",
+      "nome": "Casa Castori",
+      "city_name": "Birori",
+      "indirizzo": "Via Eleonora D'Arborea, 16, 08015 Macomer NU",
+      "lat": 40.265731,
+      "lng": 8.783003
+    },
+    {
+      "id": "a6719516-d352-49df-936b-070e8e2fffc0",
+      "slug": "hotel-ristorante-marghine-di-mura-luigi-c-s-n-c-birori",
+      "nome": "Hotel Ristorante Marghine di Mura Luigi & C. S.N.C.",
+      "city_name": "Birori",
+      "indirizzo": "Via Vittorio Emanuele II, 3, 08015 Macomer NU",
+      "lat": 40.265861,
+      "lng": 8.778958
+    },
+    {
+      "id": "2c2c8a41-ffe3-4cdf-ba2e-df8e1858954f",
+      "slug": "agriturismo-bozzone-bisaccia",
+      "nome": "Agriturismo Bozzone",
+      "city_name": "Bisaccia",
+      "indirizzo": "SS303, 83046 Lacedonia AV",
+      "lat": 41.044392,
+      "lng": 15.412506
+    },
+    {
+      "id": "fe6f13d0-4645-488d-b341-84af3ca2f788",
+      "slug": "b-b-giulima-bisaccia",
+      "nome": "B&B Giulimà",
+      "city_name": "Bisaccia",
+      "indirizzo": "Via A. Pertini, 35, 71020 Rocchetta Sant'Antonio FG",
+      "lat": 41.106396,
+      "lng": 15.459239
+    },
+    {
+      "id": "9f924d4a-bfce-4fef-9ff4-7eafef5af779",
+      "slug": "hotel-caputo-bisaccia",
+      "nome": "Hotel Caputo",
+      "city_name": "Bisaccia",
+      "indirizzo": "Via Torino, 23, 83047 Lioni AV",
+      "lat": 40.876928,
+      "lng": 15.193309
+    },
+    {
+      "id": "5f1e036b-eac8-4244-8d51-372d64057d02",
+      "slug": "il-piccolo-principe-bisaccia",
+      "nome": "Il Piccolo Principe",
+      "city_name": "Bisaccia",
+      "indirizzo": "Via Cupa, 107, 83040 Cairano AV",
+      "lat": 40.895611,
+      "lng": 15.370898
+    },
+    {
+      "id": "fda1dda7-e170-49b6-aafd-ea34ce0d2ed6",
+      "slug": "agriturismo-montalbano-bisacquino",
+      "nome": "Agriturismo Montalbano",
+      "city_name": "Bisacquino",
+      "indirizzo": "92019 Località Scunchipani I AG",
+      "lat": 37.573038,
+      "lng": 13.059042
+    },
+    {
+      "id": "db25d8e3-841f-42a4-bf68-e58c967204ff",
+      "slug": "agriturismo-torre-tabia-bisacquino",
+      "nome": "Agriturismo Torre Tabia",
+      "city_name": "Bisacquino",
+      "indirizzo": "Contrada San Marco - Ragana, 92019 Sciacca AG",
+      "lat": 37.530895,
+      "lng": 13.012944
+    },
+    {
+      "id": "4c278664-b8a9-4d7e-b608-7e051c1686d6",
+      "slug": "antico-frantoio-sas-cantina-murgia-lamanno-bisacquino",
+      "nome": "Antico Frantoio Sas / Cantina Murgia Lamanno",
+      "city_name": "Bisacquino",
+      "indirizzo": "Contrada Purcaria Mendolazza, Sambuca Di Sicilia, AG 92017, SP44, 92017 Sambuca di Sicilia AG",
+      "lat": 37.657879,
+      "lng": 13.102872
+    },
+    {
+      "id": "c3e49044-63ec-4cd5-a478-936c826e8335",
+      "slug": "b-b-benjamas-bisacquino",
+      "nome": "B&B Benjamas",
+      "city_name": "Bisacquino",
+      "indirizzo": "Largo Madonna Dell'aiuto 1bisacquino, 90032 Bisacquino PA",
+      "lat": 37.708027,
+      "lng": 13.259267
+    },
+    {
+      "id": "f52f4aec-9db1-4437-9c60-882e7e1d02b4",
+      "slug": "b-b-chiaro-di-luna-corleone-bisacquino",
+      "nome": "B&B Chiaro di Luna - Corleone",
+      "city_name": "Bisacquino",
+      "indirizzo": "Via Discesa, Via D. Oddo, 9, 90034 Corleone PA",
+      "lat": 37.81428,
+      "lng": 13.29723
+    },
+    {
+      "id": "9fc9c1ce-f8a8-47ce-9588-c6f9bd3bfa94",
+      "slug": "bed-and-breakfast-sotto-le-stelle-bisacquino",
+      "nome": "Bed and Breakfast Sotto le Stelle",
+      "city_name": "Bisacquino",
+      "indirizzo": "Via S. Paolo, 35, 92010 Caltabellotta AG",
+      "lat": 37.576313,
+      "lng": 13.219484
+    },
+    {
+      "id": "6892a9da-f7a9-4e7a-8a88-6290c8db26b4",
+      "slug": "casa-vacanze-prezioso-bisacquino",
+      "nome": "Casa Vacanze Prezioso",
+      "city_name": "Bisacquino",
+      "indirizzo": "Cortile Vetrano, 7, 90032 Bisacquino PA",
+      "lat": 37.705822,
+      "lng": 13.257262
+    },
+    {
+      "id": "785d85f6-444a-4aa1-afbc-099fb448b196",
+      "slug": "corleone-bed-and-breakfast-bisacquino",
+      "nome": "Corleone bed and breakfast",
+      "city_name": "Bisacquino",
+      "indirizzo": "Via Ravenna, 6, 90034 Corleone PA",
+      "lat": 37.811485,
+      "lng": 13.303901
+    },
+    {
+      "id": "dbb6d6d6-7deb-44d1-9c68-d4d19f2d8412",
+      "slug": "corleone-guesthouse-bisacquino",
+      "nome": "Corleone Guesthouse",
+      "city_name": "Bisacquino",
+      "indirizzo": "Via Santa Lucia, 24, 90034 Corleone PA",
+      "lat": 37.816581,
+      "lng": 13.295482
+    },
+    {
+      "id": "7bd08b28-4974-4364-bfad-70e6becdc2ab",
+      "slug": "dream-corleone-one-bisacquino",
+      "nome": "DREAM CORLEONE ONE",
+      "city_name": "Bisacquino",
+      "indirizzo": "Discesa Santa Maria, 3, 90034 Corleone PA",
+      "lat": 37.814577,
+      "lng": 13.299952
+    },
+    {
+      "id": "8141e26b-3d12-489f-b3b2-18d49a00db75",
+      "slug": "fattoria-fratelli-marsolo-bisacquino",
+      "nome": "Fattoria Fratelli Marsolo",
+      "city_name": "Bisacquino",
+      "indirizzo": "M7Q7+X2, 90032 Bisacquino PA",
+      "lat": 37.689917,
+      "lng": 13.262536
+    },
+    {
+      "id": "ed31662d-a66c-44f8-9961-20f6e9730ac0",
+      "slug": "il-noce-antico-bisacquino",
+      "nome": "Il Noce Antico",
+      "city_name": "Bisacquino",
+      "indirizzo": "Contrada Quaranta, 90033 Chiusa Sclafani PA",
+      "lat": 37.684196,
+      "lng": 13.265627
+    }
+  ]
+}

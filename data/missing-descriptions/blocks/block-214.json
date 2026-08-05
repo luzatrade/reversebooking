@@ -1,0 +1,323 @@
+{
+  "block": 214,
+  "blockId": "214",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "f3956a50-731d-426c-8c73-386cbda81122",
+      "slug": "albergo-bar-al-casolare-numero-solo-per-bar-e-al-barbara",
+      "nome": "Albergo - Bar Al Casolare (numero solo per BAR e ALBERGO)",
+      "city_name": "Barbara",
+      "indirizzo": "Via Corinaldese, 6, 60013 Corinaldo AN",
+      "lat": 43.640411,
+      "lng": 13.067988
+    },
+    {
+      "id": "a39d4af3-c21d-4021-9f97-b1587bf2017d",
+      "slug": "albergo-ristorante-bellucci-barbara",
+      "nome": "ALBERGO RISTORANTE \"BELLUCCI\"",
+      "city_name": "Barbara",
+      "indirizzo": "Corso G. Marconi, 7, 60010 Castelleone di Suasa AN",
+      "lat": 43.607721,
+      "lng": 12.976456
+    },
+    {
+      "id": "4ce6913d-f956-459f-beda-97702b024dda",
+      "slug": "albergo-ristorante-pizzeria-la-palomba-barbara",
+      "nome": "Albergo Ristorante Pizzeria La Palomba",
+      "city_name": "Barbara",
+      "indirizzo": "Borgo Gramsci, 13, 61040 Mondavio PU",
+      "lat": 43.673923,
+      "lng": 12.967713
+    },
+    {
+      "id": "80d78773-86c6-42b7-9fb7-344fb872adeb",
+      "slug": "anna-rita-b-b-barbara",
+      "nome": "Anna Rita B&B",
+      "city_name": "Barbara",
+      "indirizzo": "Via II Giugno, 23, 60031 Moie AN",
+      "lat": 43.508989,
+      "lng": 13.121253
+    },
+    {
+      "id": "942b4560-2fa8-41e3-bce0-c86cdae95870",
+      "slug": "b-b-bread-and-fantasy-barbara",
+      "nome": "B& B bread and fantasy",
+      "city_name": "Barbara",
+      "indirizzo": "Via Santo Stefano, 1, 60010 Ostra AN",
+      "lat": 43.573173,
+      "lng": 13.110835
+    },
+    {
+      "id": "53c4bf3b-9059-43e4-b422-c2c0f23d72b8",
+      "slug": "b-b-da-roby-barbara",
+      "nome": "B&B Da Roby",
+      "city_name": "Barbara",
+      "indirizzo": "Via Ridolfi, 10, 60013 Corinaldo AN",
+      "lat": 43.654584,
+      "lng": 13.046204
+    },
+    {
+      "id": "389b48d8-74d6-4bd0-879b-b52c330335f8",
+      "slug": "casa-di-faustina-albergo-diffuso-barbara",
+      "nome": "casa di Faustina (albergo diffuso)",
+      "city_name": "Barbara",
+      "indirizzo": "Via Mura del Mangano 1, Check-in at, Via del Corso, 64, 60013 Corinaldo AN",
+      "lat": 43.649311,
+      "lng": 13.045558
+    },
+    {
+      "id": "71a0ecb2-caf7-4ce5-9dd4-d171197a4eb6",
+      "slug": "gaia-barbara",
+      "nome": "Gaia",
+      "city_name": "Barbara",
+      "indirizzo": "Contrada Gambacane, 7, 60010 Ostra Vetere AN",
+      "lat": 43.596778,
+      "lng": 13.05452
+    },
+    {
+      "id": "2833e3c3-1f16-404e-a097-0db6cee0dfbc",
+      "slug": "hotel-la-torre-barbara",
+      "nome": "Hotel La Torre",
+      "city_name": "Barbara",
+      "indirizzo": "Via Montecarottese, 4, 60030 Maiolati Spontini AN",
+      "lat": 43.506432,
+      "lng": 13.149876
+    },
+    {
+      "id": "a85e65fe-b25d-4b15-bc90-7fc472202f0a",
+      "slug": "il-paradiso-del-re-ristorantino-esclusivo-e-came-barbara",
+      "nome": "Il Paradiso del Re - Ristorantino esclusivo e Camere",
+      "city_name": "Barbara",
+      "indirizzo": "Frazione S. Pietro, 6, 60011 Arcevia AN",
+      "lat": 43.566947,
+      "lng": 12.93049
+    },
+    {
+      "id": "32893a90-b1b1-4ded-a459-2be03611901b",
+      "slug": "il-pozzo-di-vivalpa-barbara",
+      "nome": "Il Pozzo di Vivalpa",
+      "city_name": "Barbara",
+      "indirizzo": "Via S. Sebastiano, 6, 60030 Serra de' Conti AN",
+      "lat": 43.554087,
+      "lng": 13.062328
+    },
+    {
+      "id": "80a3cc41-e753-4daf-a0f0-014972f1414a",
+      "slug": "la-veranda-sul-giardino-barbara",
+      "nome": "La Veranda Sul Giardino",
+      "city_name": "Barbara",
+      "indirizzo": "Viale della Murata, 41, 60013 Corinaldo AN",
+      "lat": 43.642988,
+      "lng": 13.056595
+    },
+    {
+      "id": "7d0b6219-fe82-4b65-be28-6f21ef3cf8d4",
+      "slug": "ma-hotel-corinaldo-barbara",
+      "nome": "Ma Hotel Corinaldo",
+      "city_name": "Barbara",
+      "indirizzo": "Via del Corso, 60013 Corinaldo AN",
+      "lat": 43.648905,
+      "lng": 13.047695
+    },
+    {
+      "id": "923d1668-5a36-4cc4-830e-8d4fb8a53f50",
+      "slug": "ristorante-catering-hotel-giardino-barbara",
+      "nome": "Ristorante Catering Hotel Giardino",
+      "city_name": "Barbara",
+      "indirizzo": "Via Enrico Mattei, 4, 61047 San Lorenzo In Campo PU",
+      "lat": 43.59634,
+      "lng": 12.932117
+    },
+    {
+      "id": "bd65a56a-ce89-414a-93e7-1b4fb3b32da3",
+      "slug": "stone-farmhouse-bed-breakfast-barbara",
+      "nome": "Stone farmhouse Bed & Breakfast",
+      "city_name": "Barbara",
+      "indirizzo": "Via Fiume, 6, 60030 Moie AN",
+      "lat": 43.50136,
+      "lng": 13.132727
+    },
+    {
+      "id": "e85b6a3f-030d-4686-b7a5-1ad276ceddfb",
+      "slug": "agriturismo-canova-barbarano-mossano",
+      "nome": "Agriturismo Canova",
+      "city_name": "Barbarano Mossano",
+      "indirizzo": "Via Canova, 6, 36048 Barbarano Mossano VI",
+      "lat": 45.408597,
+      "lng": 11.558146
+    },
+    {
+      "id": "7cc8ff73-d837-4a8e-9c45-2feb62334ab8",
+      "slug": "agriturismo-da-sagraro-barbarano-mossano",
+      "nome": "Agriturismo da Sagraro",
+      "city_name": "Barbarano Mossano",
+      "indirizzo": "Via Olivari, 1, 36048 Mossano VI",
+      "lat": 45.429655,
+      "lng": 11.556757
+    },
+    {
+      "id": "e7efc41a-e306-482b-a6dd-3608e599c7ef",
+      "slug": "b-b-bagolari-barbarano-mossano",
+      "nome": "B&B Bagolari",
+      "city_name": "Barbarano Mossano",
+      "indirizzo": "Via dei Pilastri, 5, 36024 Nanto VI",
+      "lat": 45.414054,
+      "lng": 11.6184
+    },
+    {
+      "id": "e66527b3-0d57-4bc1-a6f1-0180c7f80388",
+      "slug": "b-b-casa-lina-barbarano-mossano",
+      "nome": "B&B Casa Lina",
+      "city_name": "Barbarano Mossano",
+      "indirizzo": "Via Cagliara, 8c, 36048 Ponte di Barbarano VI",
+      "lat": 45.392425,
+      "lng": 11.582987
+    },
+    {
+      "id": "a70d0d13-1a07-4365-b791-a66a60cdf7ad",
+      "slug": "bed-and-breakfast-in-valle-vicenza-barbarano-mossano",
+      "nome": "Bed and Breakfast In Valle Vicenza",
+      "city_name": "Barbarano Mossano",
+      "indirizzo": "Via la Vallà, 12/1, 36023 Lumignano VI",
+      "lat": 45.465877,
+      "lng": 11.589383
+    },
+    {
+      "id": "77aeeebc-164f-4a63-b0ba-1d60794da56c",
+      "slug": "bed-and-breakfast-miotto-barbarano-mossano",
+      "nome": "Bed and Breakfast Miotto",
+      "city_name": "Barbarano Mossano",
+      "indirizzo": "Via Borgo, 75, 36074 Montegalda VI",
+      "lat": 45.468351,
+      "lng": 11.62687
+    },
+    {
+      "id": "43357571-5e6e-4d28-9bbe-b55cff716a1c",
+      "slug": "casa-costabella-barbarano-mossano",
+      "nome": "Casa Costabella",
+      "city_name": "Barbarano Mossano",
+      "indirizzo": "Via Costabella, 39, 36021 Villaga VI",
+      "lat": 45.419592,
+      "lng": 11.507698
+    },
+    {
+      "id": "b550688d-0996-4a2c-b7c2-14c8ceeaba84",
+      "slug": "castello-di-barbarano-barbarano-mossano",
+      "nome": "Castello di Barbarano",
+      "city_name": "Barbarano Mossano",
+      "indirizzo": "Via Castello, 6, 36048 Barbarano VI",
+      "lat": 45.407127,
+      "lng": 11.538962
+    },
+    {
+      "id": "223a2912-9d20-4e26-b5dc-91181f161a36",
+      "slug": "hotel-turandot-osteria-nanni-barbarano-mossano",
+      "nome": "HOTEL Turandot & Osteria \"Nannì\"",
+      "city_name": "Barbarano Mossano",
+      "indirizzo": "Via Giuseppe Mazzini, 1, 36040 Grisignano di Zocco VI",
+      "lat": 45.475041,
+      "lng": 11.697723
+    },
+    {
+      "id": "74cc13c2-efa4-4ba6-baf2-27f3fe323754",
+      "slug": "il-casale-del-vino-barbarano-mossano",
+      "nome": "Il Casale del Vino",
+      "city_name": "Barbarano Mossano",
+      "indirizzo": "Via Ramiro Fabiani, 22 A, 36048 Barbarano Mossano VI",
+      "lat": 45.409853,
+      "lng": 11.542147
+    },
+    {
+      "id": "4a0669be-9149-4a30-93a4-53cf61ac9f38",
+      "slug": "abbraccio-home-barbarano-barbarano-romano",
+      "nome": "Abbraccio Home Barbarano",
+      "city_name": "Barbarano Romano",
+      "indirizzo": "Via Belvedere, 20, 01010 Barbarano Romano VT",
+      "lat": 42.252561,
+      "lng": 12.06589
+    },
+    {
+      "id": "aa259b93-3015-41eb-9641-9fee872530f5",
+      "slug": "agriturismo-il-poggio-barbarano-romano",
+      "nome": "Agriturismo il Poggio",
+      "city_name": "Barbarano Romano",
+      "indirizzo": "Via Giordano Campo, 64, 01019 Vetralla VT",
+      "lat": 42.309262,
+      "lng": 12.094257
+    },
+    {
+      "id": "f4ecf107-1daa-4560-a40d-b88631839b60",
+      "slug": "agriturismo-l-introvabile-barbarano-romano",
+      "nome": "Agriturismo L'Introvabile",
+      "city_name": "Barbarano Romano",
+      "indirizzo": "Strada Provinciale Blerana km 6+600, 01010 Blera VT",
+      "lat": 42.260626,
+      "lng": 12.05685
+    },
+    {
+      "id": "e2aa7910-31c3-41ae-bbc2-da7182b64a9f",
+      "slug": "albergo-da-benedetta-barbarano-romano",
+      "nome": "Albergo \"Da Benedetta\"",
+      "city_name": "Barbarano Romano",
+      "indirizzo": "Via Francesco Petrarca, 4, 01019 Vetralla VT",
+      "lat": 42.322951,
+      "lng": 12.055894
+    },
+    {
+      "id": "16bd330e-bbc1-4c2f-8d09-62c1ab76bb61",
+      "slug": "albergo-ristorante-antica-locanda-della-via-fran-barbarano-romano",
+      "nome": "Albergo Ristorante Antica Locanda della Via Francigena",
+      "city_name": "Barbarano Romano",
+      "indirizzo": "Località Pontarello, 6, 01019 Vetralla VT",
+      "lat": 42.330242,
+      "lng": 12.062767
+    },
+    {
+      "id": "8248a44b-5e76-46fe-872e-194237f96a1f",
+      "slug": "b-b-le-palme-barbarano-romano",
+      "nome": "B & B Le Palme",
+      "city_name": "Barbarano Romano",
+      "indirizzo": "Via S. Francesco d'Assisi, 69, 01030 Bassano Romano VT",
+      "lat": 42.220924,
+      "lng": 12.192316
+    },
+    {
+      "id": "c7574b31-eb17-437f-948f-cb3238f51513",
+      "slug": "b-b-il-parco-stanza-garibaldi-barbarano-romano",
+      "nome": "B&B Il Parco stanza Garibaldi",
+      "city_name": "Barbarano Romano",
+      "indirizzo": "Via Orsini, 4, 01010 Oriolo Romano VT",
+      "lat": 42.160097,
+      "lng": 12.13989
+    },
+    {
+      "id": "3fc467bf-9f77-4c29-8d30-c6dcc84ae648",
+      "slug": "b-b-il-sartore-barbarano-romano",
+      "nome": "B&B Il Sartore",
+      "city_name": "Barbarano Romano",
+      "indirizzo": "Via Cairoli, 10, 01019 Vetralla VT",
+      "lat": 42.307345,
+      "lng": 12.096707
+    },
+    {
+      "id": "698af43b-bb1c-4bd9-b56c-5dbad693a23a",
+      "slug": "b-b-il-tramonto-barbarano-romano",
+      "nome": "B&B Il Tramonto",
+      "city_name": "Barbarano Romano",
+      "indirizzo": "Via braccianese Claudia, Località Monte Merlo, km 47,500, 01010 Barbarano Romano VT",
+      "lat": 42.245071,
+      "lng": 12.097621
+    },
+    {
+      "id": "9c7141a5-2e88-4834-b5e6-8a54bc517880",
+      "slug": "b-b-la-finestra-sul-lago-barbarano-romano",
+      "nome": "B&B La Finestra sul Lago",
+      "city_name": "Barbarano Romano",
+      "indirizzo": "Strada Provinciale, Valle di Vico, n. 2, 01037 Ronciglione VT",
+      "lat": 42.303822,
+      "lng": 12.197645
+    }
+  ]
+}

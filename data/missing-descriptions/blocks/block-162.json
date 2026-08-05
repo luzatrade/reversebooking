@@ -1,0 +1,323 @@
+{
+  "block": 162,
+  "blockId": "162",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "057a6429-8605-4d23-b037-86747e820e2a",
+      "slug": "colonna-resort-arzachena",
+      "nome": "Colonna Resort",
+      "city_name": "Arzachena",
+      "indirizzo": "Spiaggia Capo Ferro, 07021 Porto Cervo OT",
+      "lat": 41.151289,
+      "lng": 9.527523
+    },
+    {
+      "id": "e242078e-403c-4259-9381-67b535116efb",
+      "slug": "grand-hotel-cannigione-arzachena",
+      "nome": "Grand Hotel Cannigione",
+      "city_name": "Arzachena",
+      "indirizzo": "Via Monti Corru, 07021 Cannigione OT",
+      "lat": 41.113466,
+      "lng": 9.436626
+    },
+    {
+      "id": "37799c42-d8c2-4dfe-93db-3173db0ec9fc",
+      "slug": "hotel-citti-arzachena",
+      "nome": "Hotel Citti",
+      "city_name": "Arzachena",
+      "indirizzo": "Viale Costa Smeralda, 197, 07021 Arzachena OT",
+      "lat": 41.082119,
+      "lng": 9.381631
+    },
+    {
+      "id": "c7ef3c9a-1849-41aa-9852-593ba6b4670b",
+      "slug": "hotel-la-bisaccia-arzachena",
+      "nome": "Hotel la Bisaccia",
+      "city_name": "Arzachena",
+      "indirizzo": "Via Baja Sardinia, 1, 07021 Arzachena OT",
+      "lat": 41.140559,
+      "lng": 9.482541
+    },
+    {
+      "id": "bd7d3cda-f522-4254-90e5-df587be578d4",
+      "slug": "hotel-libyssonis-arzachena",
+      "nome": "Hotel Libyssonis",
+      "city_name": "Arzachena",
+      "indirizzo": "Via del Lentischio, 1, 07046 Porto Torres SS",
+      "lat": 40.822894,
+      "lng": 8.420131
+    },
+    {
+      "id": "1a02a0e7-637c-44c8-aca2-ecdcbfa50264",
+      "slug": "hotel-micalosu-arzachena",
+      "nome": "Hotel Micalosu",
+      "city_name": "Arzachena",
+      "indirizzo": "Località Micalosu, Snc, 07021 Arzachena OT",
+      "lat": 41.117533,
+      "lng": 9.423462
+    },
+    {
+      "id": "4d5f92ca-5d97-4f2f-b5ad-331f15826bb9",
+      "slug": "hotel-olimpia-arzachena",
+      "nome": "Hotel Olimpia",
+      "city_name": "Arzachena",
+      "indirizzo": "Via del Mare, snc, 07021 Baja Sardinia OT",
+      "lat": 41.139627,
+      "lng": 9.482925
+    },
+    {
+      "id": "9c3f93c3-e71a-4e9c-9c45-0e7c21ce0987",
+      "slug": "hotel-pedra-santa-arzachena",
+      "nome": "Hotel Pedra Santa",
+      "city_name": "Arzachena",
+      "indirizzo": "Località Pulicinu, 07021 Arzachena OT",
+      "lat": 41.11114,
+      "lng": 9.472275
+    },
+    {
+      "id": "1967e1d4-8be8-4436-82de-6e79edb49fa1",
+      "slug": "hotel-punta-est-arzachena",
+      "nome": "Hotel Punta Est",
+      "city_name": "Arzachena",
+      "indirizzo": "Via i Cedri, 07021 Baja Sardinia OT",
+      "lat": 41.138764,
+      "lng": 9.477943
+    },
+    {
+      "id": "067abebe-f9d3-475d-869b-c2e05fefafdb",
+      "slug": "hotel-soleado-arzachena",
+      "nome": "Hotel Soleado",
+      "city_name": "Arzachena",
+      "indirizzo": "Via Lido, 19, 07041 Alghero SS",
+      "lat": 40.570991,
+      "lng": 8.318957
+    },
+    {
+      "id": "5dcf7969-bbed-4fde-9e5d-ae83194e67e0",
+      "slug": "la-jacia-hotel-resort-arzachena",
+      "nome": "La Jacia Hotel & Resort",
+      "city_name": "Arzachena",
+      "indirizzo": "Via Giuseppe Salaris, 07021 Mucchi Bianchi OT",
+      "lat": 41.130262,
+      "lng": 9.480122
+    },
+    {
+      "id": "390ff037-51cd-4a61-855e-e50c2cfa6fd2",
+      "slug": "lh-pedraladda-resort-arzachena",
+      "nome": "LH Pedraladda Resort",
+      "city_name": "Arzachena",
+      "indirizzo": "Via Zirulia, 50, 07031 Castelsardo SS",
+      "lat": 40.912399,
+      "lng": 8.722462
+    },
+    {
+      "id": "782472a9-ed55-40ce-9725-1363301f3dee",
+      "slug": "li-finistreddi-exclusive-country-retreat-arzachena",
+      "nome": "Li Finistreddi Exclusive Country Retreat",
+      "city_name": "Arzachena",
+      "indirizzo": "Loc. Micalosu, via le Finestrelle, 07021 Cannigione OT",
+      "lat": 41.110494,
+      "lng": 9.417071
+    },
+    {
+      "id": "69ac45a9-3713-4732-9ae1-b1e720e4cc34",
+      "slug": "romazzino-a-belmond-hotel-costa-smeralda-arzachena",
+      "nome": "Romazzino, a Belmond Hotel, Costa Smeralda",
+      "city_name": "Arzachena",
+      "indirizzo": "Via Romazzino, 4, 07021 Arzachena OT",
+      "lat": 41.099182,
+      "lng": 9.563654
+    },
+    {
+      "id": "ee579a15-4492-40b2-9780-4ff4c5e2167b",
+      "slug": "stazzo-lu-ciaccaru-arzachena",
+      "nome": "Stazzo Lu Ciaccaru",
+      "city_name": "Arzachena",
+      "indirizzo": "Via lu Ciaccaru, 19, 07021 Arzachena OT",
+      "lat": 41.061247,
+      "lng": 9.370173
+    },
+    {
+      "id": "984cb2ae-1873-4650-89c3-33c51aafd78c",
+      "slug": "b-b-treviglio-arzago-d-adda",
+      "nome": "B&B Treviglio",
+      "city_name": "Arzago d'Adda",
+      "indirizzo": "Via dei Facchetti, 2, 24047 Treviglio BG",
+      "lat": 45.522876,
+      "lng": 9.593797
+    },
+    {
+      "id": "ca8eae58-274d-442e-a1cf-a83737ac9be8",
+      "slug": "bed-and-breakfast-con-bagno-privato-arzago-d-adda",
+      "nome": "BED AND BREAKFAST CON BAGNO PRIVATO",
+      "city_name": "Arzago d'Adda",
+      "indirizzo": "Via Martiri della Libertà, 41, 26019 Vailate CR",
+      "lat": 45.462962,
+      "lng": 9.606971
+    },
+    {
+      "id": "0594ddee-7820-4383-9f6d-13fd177f28e5",
+      "slug": "bv-hotel-arzago-d-adda",
+      "nome": "BV Hotel",
+      "city_name": "Arzago d'Adda",
+      "indirizzo": "Via Provinciale per Verdello, 11, 24053 Brignano Gera d'Adda BG",
+      "lat": 45.543045,
+      "lng": 9.641236
+    },
+    {
+      "id": "953623c1-e81e-4a11-b47a-f62ea6042ea5",
+      "slug": "castello-visconteo-hotel-e-ricevimenti-arzago-d-adda",
+      "nome": "Castello Visconteo - Hotel e Ricevimenti",
+      "city_name": "Arzago d'Adda",
+      "indirizzo": "Piazza Giuseppe, Piazza Generale Domenico Perrucchetti, 3a, 20062 Cassano d'Adda MI",
+      "lat": 45.525688,
+      "lng": 9.524098
+    },
+    {
+      "id": "f6c8f5fa-6473-42e8-9521-cc7be0fe97c1",
+      "slug": "hotel-ristorante-julia-villa-maggi-ponti-arzago-d-adda",
+      "nome": "Hotel Ristorante Julia Villa Maggi Ponti",
+      "city_name": "Arzago d'Adda",
+      "indirizzo": "Via Isola Ponti, 1, 20062 Cassano d'Adda MI",
+      "lat": 45.523094,
+      "lng": 9.523497
+    },
+    {
+      "id": "31ce4dfa-d6ca-4c26-9b35-30074e75bb14",
+      "slug": "hotel-treviglio-arzago-d-adda",
+      "nome": "Hotel Treviglio",
+      "city_name": "Arzago d'Adda",
+      "indirizzo": "P.le Giuseppe Verdi, 7, 24047 Treviglio BG",
+      "lat": 45.51582,
+      "lng": 9.588422
+    },
+    {
+      "id": "39f1f580-129e-47d6-b5e0-5439f9a4e3ca",
+      "slug": "locanda-arzago-d-adda",
+      "nome": "Locanda",
+      "city_name": "Arzago d'Adda",
+      "indirizzo": "Via Bergamo, 12, 20060 Gessate MI",
+      "lat": 45.559406,
+      "lng": 9.450723
+    },
+    {
+      "id": "7c92ba2c-115e-4ae3-a45f-2d4151a595f7",
+      "slug": "motel-best-arzago-d-adda",
+      "nome": "Motel Best",
+      "city_name": "Arzago d'Adda",
+      "indirizzo": "Via Lodi, 2, 24040 Arzago d'Adda BG",
+      "lat": 45.474527,
+      "lng": 9.555006
+    },
+    {
+      "id": "571ba680-e89b-4758-a84a-38a48414c922",
+      "slug": "aer-sana-locazione-turistica-arzana",
+      "nome": "Aer Sana Locazione Turistica",
+      "city_name": "Arzana",
+      "indirizzo": "Via Don Bosco, 12, 08040 Arzana OG",
+      "lat": 39.919406,
+      "lng": 9.528427
+    },
+    {
+      "id": "bc979922-c205-4aac-a079-4ab0c38138e8",
+      "slug": "affittacamere-il-vicoletto-aria-ona-arzana",
+      "nome": "Affittacamere il Vicoletto Aria Ona",
+      "city_name": "Arzana",
+      "indirizzo": "Via Vittorio Emanuele, 25, 08049 Villagrande Strisaili OG",
+      "lat": 39.960609,
+      "lng": 9.505705
+    },
+    {
+      "id": "795a1a05-1767-48e4-81ef-ae5d95f22425",
+      "slug": "albergo-villa-selene-arzana",
+      "nome": "Albergo Villa Selene",
+      "city_name": "Arzana",
+      "indirizzo": "Coroddis, 08045 Lanusei OG",
+      "lat": 39.886409,
+      "lng": 9.531133
+    },
+    {
+      "id": "b87aafe4-1426-416e-9129-315dab142db4",
+      "slug": "b-b-la-corte-dei-baroni-arzana",
+      "nome": "B&B La Corte Dei Baroni",
+      "city_name": "Arzana",
+      "indirizzo": "Via Ferdinando Podda, 4, 08040 Loceri OG",
+      "lat": 39.856661,
+      "lng": 9.582012
+    },
+    {
+      "id": "7219f393-b65e-4af8-99e4-b3c7f7891b17",
+      "slug": "cantos-sonos-arzana",
+      "nome": "Cantos & Sonos",
+      "city_name": "Arzana",
+      "indirizzo": "SP56, 08040 Lotzorai OG",
+      "lat": 39.994835,
+      "lng": 9.614513
+    },
+    {
+      "id": "923b796a-a8c8-4433-8e7f-4945f5c15d7d",
+      "slug": "cortemalis-hostel-arzana",
+      "nome": "Cortemalis Hostel",
+      "city_name": "Arzana",
+      "indirizzo": "Strada Statale 198 di Seui e Lanusei, 87, 08040 Ilbono OG",
+      "lat": 39.891051,
+      "lng": 9.514438
+    },
+    {
+      "id": "02c4b5a1-6491-4e15-8f7e-8c7647a42e2e",
+      "slug": "hotel-antica-posada-arzana",
+      "nome": "Hotel Antica Posada",
+      "city_name": "Arzana",
+      "indirizzo": "Via Vittorio Emanuele, 7, 08040 Loceri OG",
+      "lat": 39.857125,
+      "lng": 9.582682
+    },
+    {
+      "id": "529e051f-4f67-412b-ada8-4f0c03a4d566",
+      "slug": "hotel-belvedere-arzana",
+      "nome": "Hotel Belvedere",
+      "city_name": "Arzana",
+      "indirizzo": "Via Umberto, 22, 08045 Lanusei OG",
+      "lat": 39.879623,
+      "lng": 9.542016
+    },
+    {
+      "id": "23e608e2-544d-4370-b0a1-44ab24218e2d",
+      "slug": "hotel-dei-tacchi-arzana",
+      "nome": "Hotel Dei Tacchi",
+      "city_name": "Arzana",
+      "indirizzo": "Vico III' Dante, 7, 08040 Osini NU",
+      "lat": 39.823438,
+      "lng": 9.494452
+    },
+    {
+      "id": "8ea50552-8be0-45a6-afff-248093f8da0e",
+      "slug": "hotel-marie-claire-arzana",
+      "nome": "HOTEL MARIE CLAIRE",
+      "city_name": "Arzana",
+      "indirizzo": "Via dei Ciclamini, 08045 Lanusei OG",
+      "lat": 39.885703,
+      "lng": 9.536661
+    },
+    {
+      "id": "b36db0a9-d9a5-46f7-9af3-4a2920d9bb12",
+      "slug": "hotel-murru-arzana",
+      "nome": "Hotel Murru",
+      "city_name": "Arzana",
+      "indirizzo": "Piazza Roma, 1, 08040 Arzana OG",
+      "lat": 39.918614,
+      "lng": 9.527226
+    },
+    {
+      "id": "c36d794b-4457-4b03-ab08-a68253115a27",
+      "slug": "hotel-orlando-experience-arzana",
+      "nome": "Hotel Orlando Experience",
+      "city_name": "Arzana",
+      "indirizzo": "Localita Santa Barbara, 08049 Villagrande Strisaili OG",
+      "lat": 39.937183,
+      "lng": 9.499403
+    }
+  ]
+}

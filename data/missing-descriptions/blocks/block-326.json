@@ -1,0 +1,323 @@
+{
+  "block": 326,
+  "blockId": "326",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "96b4427d-0d28-4204-8907-66cb442fbf3f",
+      "slug": "ca-jo-bed-and-breakfast-briga-alta",
+      "nome": "Ca-Jo Bed and Breakfast",
+      "city_name": "Briga Alta",
+      "indirizzo": "Sarezzo frazione Cappello, 23, 12075 Garessio CN",
+      "lat": 44.210968,
+      "lng": 7.95902
+    },
+    {
+      "id": "22ae2070-48cf-4272-bac2-4b30a998de4c",
+      "slug": "dolce-mente-briga-alta",
+      "nome": "dolce...Mente",
+      "city_name": "Briga Alta",
+      "indirizzo": "Via Tanarello, 4, 18025 Piaggia CN",
+      "lat": 44.082621,
+      "lng": 7.748471
+    },
+    {
+      "id": "117ae341-b35e-4526-b359-2a625d0e44f1",
+      "slug": "fiocco-di-neve-relais-spa-5l-briga-alta",
+      "nome": "Fiocco Di Neve Relais & Spa 5L",
+      "city_name": "Briga Alta",
+      "indirizzo": "Via Roma, 2/C, 12015 Limone Piemonte CN",
+      "lat": 44.202183,
+      "lng": 7.576926
+    },
+    {
+      "id": "0a300ce1-3944-47e5-bc82-819092b97d99",
+      "slug": "grand-hotel-principe-briga-alta",
+      "nome": "Grand Hotel Principe",
+      "city_name": "Briga Alta",
+      "indirizzo": "Via Genova, 45, 12015 Limone Piemonte CN",
+      "lat": 44.199267,
+      "lng": 7.580837
+    },
+    {
+      "id": "215867a1-c539-4f45-a207-bb9abe6cb69e",
+      "slug": "hotel-l-artisin-briga-alta",
+      "nome": "Hotel L'Artisin",
+      "city_name": "Briga Alta",
+      "indirizzo": "Via Almellina, 26, 12015 Limone Piemonte CN",
+      "lat": 44.19931,
+      "lng": 7.588736
+    },
+    {
+      "id": "fb6b15d5-338b-4250-8de5-3081606c84f2",
+      "slug": "hotel-le-mirval-briga-alta",
+      "nome": "Hôtel le Mirval",
+      "city_name": "Briga Alta",
+      "indirizzo": "Hôtel, 3 Rue Saint-Vincent Ferrier, 06430 La Brigue, Francia",
+      "lat": 44.062543,
+      "lng": 7.611811
+    },
+    {
+      "id": "06480cf0-7cbc-4b35-9d86-56b95b94e9e2",
+      "slug": "hotel-marguareis-briga-alta",
+      "nome": "Hotel Marguareis",
+      "city_name": "Briga Alta",
+      "indirizzo": "Via S. Secondo, 9, 12015 Limone Piemonte CN",
+      "lat": 44.200943,
+      "lng": 7.578425
+    },
+    {
+      "id": "be39297b-f8da-49e4-b18e-907a49affbd9",
+      "slug": "la-briga-briga-alta",
+      "nome": "La Briga",
+      "city_name": "Briga Alta",
+      "indirizzo": "Piazza A. Pastorelli, 1, 18025 Briga Alta CN",
+      "lat": 44.083212,
+      "lng": 7.750703
+    },
+    {
+      "id": "61fbc4d9-56b0-4195-a334-fdf42b052919",
+      "slug": "patatouc-briga-alta",
+      "nome": "Patatouc",
+      "city_name": "Briga Alta",
+      "indirizzo": "Tetti Matlas, 9, 12015 Limonetto CN",
+      "lat": 44.175261,
+      "lng": 7.551259
+    },
+    {
+      "id": "6a8871e7-e96b-4b0e-8cda-287c595450f2",
+      "slug": "b-b-il-borgo-agnello-briga-novarese",
+      "nome": "B&B Il Borgo Agnello",
+      "city_name": "Briga Novarese",
+      "indirizzo": "Via Borgomanero, 38, 28040 Paruzzaro NO",
+      "lat": 45.739487,
+      "lng": 8.510942
+    },
+    {
+      "id": "de039039-23ba-4dea-86ae-4430b4a72ce4",
+      "slug": "b-b-il-cortile-briga-novarese",
+      "nome": "B&B IL CORTILE",
+      "city_name": "Briga Novarese",
+      "indirizzo": "Via Dante, 3, 28010 Soriso NO",
+      "lat": 45.74138,
+      "lng": 8.410232
+    },
+    {
+      "id": "274dbb2c-02c5-49f9-9063-043e0affd00b",
+      "slug": "i-route-matt-briga-novarese",
+      "nome": "I Route Matt",
+      "city_name": "Briga Novarese",
+      "indirizzo": "Vicolo Cantonetto, 8, 28024 Auzate NO",
+      "lat": 45.743333,
+      "lng": 8.420833
+    },
+    {
+      "id": "d6023dda-44fb-4248-9dca-90ab5314ed04",
+      "slug": "tenuta-montezeglio-briga-novarese",
+      "nome": "Tenuta Montezeglio",
+      "city_name": "Briga Novarese",
+      "indirizzo": "SP111, 28045 Invorio NO",
+      "lat": 45.749742,
+      "lng": 8.463843
+    },
+    {
+      "id": "6ceb9a79-defd-4c7c-92ec-02b132b2ccfd",
+      "slug": "villa-jasmine-bed-breakfast-briga-novarese",
+      "nome": "Villa Jasmine Bed & Breakfast",
+      "city_name": "Briga Novarese",
+      "indirizzo": "Viale del Borgarino, 2, 28013 Gattico NO",
+      "lat": 45.710186,
+      "lng": 8.51908
+    },
+    {
+      "id": "b8578a25-f85c-4b14-b2e8-5b1cb3ed59d4",
+      "slug": "b-b-orio-affittacamere-foresteria-lombarda-brignano-gera-d-adda",
+      "nome": "B&B Orio Affittacamere Foresteria Lombarda",
+      "city_name": "Brignano Gera d'Adda",
+      "indirizzo": "Via Ferdinando Magellano, 24050 Grassobbio BG",
+      "lat": 45.648317,
+      "lng": 9.727555
+    },
+    {
+      "id": "d2dde8ae-a1db-4db4-a37a-c99beeec9f6b",
+      "slug": "capetone-brignano-gera-d-adda",
+      "nome": "Capetone",
+      "city_name": "Brignano Gera d'Adda",
+      "indirizzo": "Via Castel Rozzone, 36, 24053 Brignano Gera d'Adda BG",
+      "lat": 45.552405,
+      "lng": 9.632222
+    },
+    {
+      "id": "67dac24c-422c-4c28-b6a5-ff0683884bfd",
+      "slug": "da-filippo-b-b-a-treviglio-brignano-gera-d-adda",
+      "nome": "Da Filippo - B&B a Treviglio",
+      "city_name": "Brignano Gera d'Adda",
+      "indirizzo": "Viale Francesco Cassani, 31, 24047 Treviglio BG",
+      "lat": 45.523824,
+      "lng": 9.577066
+    },
+    {
+      "id": "b62bf243-11e8-4eaf-b2bd-10b6329a8488",
+      "slug": "agriturismo-cascina-battignana-brignano-frascata",
+      "nome": "Agriturismo Cascina Battignana",
+      "city_name": "Brignano-Frascata",
+      "indirizzo": "Cascina Battignana, 1, 15056 San Sebastiano Curone AL",
+      "lat": 44.789594,
+      "lng": 9.059527
+    },
+    {
+      "id": "6609333a-d608-4af9-9b4e-9f8b3efa9418",
+      "slug": "tenuta-ca-bella-brignano-frascata",
+      "nome": "Tenuta Ca' Bella",
+      "city_name": "Brignano-Frascata",
+      "indirizzo": "Frazione Ca' Bella, 15056 Dernice AL",
+      "lat": 44.775818,
+      "lng": 9.068921
+    },
+    {
+      "id": "cd9cd799-e948-4f02-831e-fa565d3e6ab7",
+      "slug": "al-centro-exclusive-apartment-brindisi",
+      "nome": "Al centro - exclusive apartment",
+      "city_name": "Brindisi",
+      "indirizzo": "Via Saponea, 66, 72100 Brindisi BR",
+      "lat": 40.634117,
+      "lng": 17.941605
+    },
+    {
+      "id": "4cb4d304-4a21-411d-bad8-e0a9002731b8",
+      "slug": "b-b-annunziata-brindisi",
+      "nome": "B&B Annunziata",
+      "city_name": "Brindisi",
+      "indirizzo": "Via Annunziata, 19, 72100 Brindisi BR",
+      "lat": 40.637234,
+      "lng": 17.947091
+    },
+    {
+      "id": "e77b9b83-01a7-4266-818f-9e783a8c13c5",
+      "slug": "b-b-porta-del-salento-brindisi",
+      "nome": "B&B Porta del Salento",
+      "city_name": "Brindisi",
+      "indirizzo": "Via Bastioni S. Giorgio, 18, 72100 Brindisi BR",
+      "lat": 40.635077,
+      "lng": 17.93983
+    },
+    {
+      "id": "214308b1-6b08-4c27-b471-70f929ccf240",
+      "slug": "best-western-hotel-nettuno-brindisi",
+      "nome": "Best Western Hotel Nettuno",
+      "city_name": "Brindisi",
+      "indirizzo": "Via Angelo Titi, 41, 72100 Brindisi BR",
+      "lat": 40.64122,
+      "lng": 17.954114
+    },
+    {
+      "id": "2af2d358-cf5d-42ca-be42-eda8ad890b35",
+      "slug": "boutique-hotel-executive-inn-brindisi",
+      "nome": "Boutique Hotel Executive Inn",
+      "city_name": "Brindisi",
+      "indirizzo": "Via Pozzo Traiano, 24, 72100 Brindisi BR",
+      "lat": 40.63697,
+      "lng": 17.946589
+    },
+    {
+      "id": "28a5b751-5ce1-4c15-820d-80ca433fc722",
+      "slug": "filia-solis-old-town-suites-spa-brindisi",
+      "nome": "Filia Solis - Old Town SUITEs & SPA",
+      "city_name": "Brindisi",
+      "indirizzo": "Via Bernardo de Royas, 17, 72100 Brindisi BR",
+      "lat": 40.635255,
+      "lng": 17.947112
+    },
+    {
+      "id": "e9dc2fee-c154-4a4c-8530-911e307f20ef",
+      "slug": "gran-duca-san-riccardo-luxury-house-suite-spa-ch-brindisi",
+      "nome": "GRAN DUCA SAN RICCARDO LUXURY HOUSE & SUITE SPA -CHECK IN H24 - AFFITTACAMERE - HOTEL VICINO AEROPORTO - AIRPORT BRINDISI",
+      "city_name": "Brindisi",
+      "indirizzo": "Viale Duca degli Abruzzi, 26, 72100 Brindisi BR",
+      "lat": 40.647687,
+      "lng": 17.946025
+    },
+    {
+      "id": "8e8c6e3c-3d10-4b24-87db-78704f00c61e",
+      "slug": "grande-albergo-internazionale-brindisi",
+      "nome": "Grande Albergo Internazionale",
+      "city_name": "Brindisi",
+      "indirizzo": "Viale Regina Margherita, 23, 72100 Brindisi BR",
+      "lat": 40.641488,
+      "lng": 17.946181
+    },
+    {
+      "id": "c8d255f3-c4b4-4817-84a7-15c96a40c0a6",
+      "slug": "hotel-residence-nemo-area-portuale-e-industriale-brindisi",
+      "nome": "Hotel & Residence Nemo - area portuale e industriale di Brindisi - STRUTTURA APERTA",
+      "city_name": "Brindisi",
+      "indirizzo": "Via Riccardo Moretti, 3, 72100 Brindisi BR",
+      "lat": 40.631395,
+      "lng": 17.976614
+    },
+    {
+      "id": "64ab73e5-6881-4c87-b713-1881ae503218",
+      "slug": "hotel-bastione-brindisi",
+      "nome": "Hotel Bastione",
+      "city_name": "Brindisi",
+      "indirizzo": "Via Bastioni Carlo V, 50, Strada per Patri, snc, 72100 Brindisi BR",
+      "lat": 40.631763,
+      "lng": 17.942005
+    },
+    {
+      "id": "b8173eed-debf-4ac6-8d05-5f0b4e58d84d",
+      "slug": "hotel-l-approdo-brindisi",
+      "nome": "HOTEL L`APPRODO",
+      "city_name": "Brindisi",
+      "indirizzo": "Vle Domenico Mennitti, 32, 72100 Brindisi BR",
+      "lat": 40.635609,
+      "lng": 17.948673
+    },
+    {
+      "id": "7fe61b79-c93a-4788-ba4e-0bf7e78d20bf",
+      "slug": "hotel-minerva-brindisi",
+      "nome": "Hotel Minerva",
+      "city_name": "Brindisi",
+      "indirizzo": "S.S 16 per S.Vito km 908, 72100 Brindisi BR",
+      "lat": 40.649811,
+      "lng": 17.86609
+    },
+    {
+      "id": "4bdc314d-7a5d-4c08-9a56-ccf7adf3ff68",
+      "slug": "hotel-orientale-brindisi",
+      "nome": "Hotel Orientale",
+      "city_name": "Brindisi",
+      "indirizzo": "Corso Giuseppe Garibaldi, 40, 72100 Brindisi BR",
+      "lat": 40.637852,
+      "lng": 17.946762
+    },
+    {
+      "id": "3e61ec32-ebfa-4b98-92aa-54e682cd3ff4",
+      "slug": "hotel-torino-brindisi",
+      "nome": "Hotel Torino",
+      "city_name": "Brindisi",
+      "indirizzo": "Largo Pietro Palumbo, 6, 72100 Brindisi BR",
+      "lat": 40.63541,
+      "lng": 17.943761
+    },
+    {
+      "id": "443c9032-fd99-45df-946d-99927cf3d7f3",
+      "slug": "ibis-styles-brindisi-brindisi",
+      "nome": "ibis Styles Brindisi",
+      "city_name": "Brindisi",
+      "indirizzo": "V.le Aldo Moro, 66, 72100 Brindisi BR",
+      "lat": 40.62664,
+      "lng": 17.931888
+    },
+    {
+      "id": "06c8e6eb-1ad6-446d-b474-7ca98268f26a",
+      "slug": "la-casa-di-eva-brindisi",
+      "nome": "La Casa di Eva",
+      "city_name": "Brindisi",
+      "indirizzo": "Via Del Geranio, 10, 72100 Brindisi BR",
+      "lat": 40.649961,
+      "lng": 17.945306
+    }
+  ]
+}

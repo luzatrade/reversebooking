@@ -1,0 +1,323 @@
+{
+  "block": 305,
+  "blockId": "305",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "831621a8-5263-4919-a7b0-8d7610b6336c",
+      "slug": "hotel-villa-mary-borgoricco",
+      "nome": "HOTEL VILLA MARY",
+      "city_name": "Borgoricco",
+      "indirizzo": "Via Luxore, 1E, 30036 Santa Maria di Sala VE",
+      "lat": 45.50415,
+      "lng": 12.030145
+    },
+    {
+      "id": "54403c48-e7da-439c-9390-d8fda03de31c",
+      "slug": "la-rotonda-relais-borgoricco",
+      "nome": "La Rotonda Relais",
+      "city_name": "Borgoricco",
+      "indirizzo": "Via Roma, 37, 31050 Badoere TV",
+      "lat": 45.632697,
+      "lng": 12.083962
+    },
+    {
+      "id": "d386a6ec-9fee-4006-9410-154fb1897bc9",
+      "slug": "locanda-ristorante-al-gallo-nero-borgoricco",
+      "nome": "Locanda & Ristorante Al Gallo Nero",
+      "city_name": "Borgoricco",
+      "indirizzo": "Via Desman, 162, 35010 Borgoricco PD",
+      "lat": 45.530981,
+      "lng": 11.966386
+    },
+    {
+      "id": "98c1cea8-f77d-4996-8d25-7a069722f892",
+      "slug": "locanda-patoea-alloggi-borgoricco",
+      "nome": "LOCANDA PATOEA ALLOGGI",
+      "city_name": "Borgoricco",
+      "indirizzo": "Via Desman, 300/A, 35010 Borgoricco PD",
+      "lat": 45.53519,
+      "lng": 11.942259
+    },
+    {
+      "id": "ddb2b238-7536-43f2-ac0d-60a8ae801960",
+      "slug": "park-hotel-villa-giustinian-borgoricco",
+      "nome": "Park Hotel Villa Giustinian",
+      "city_name": "Borgoricco",
+      "indirizzo": "Via Miranese, 85, 30035 Mirano VE",
+      "lat": 45.497896,
+      "lng": 12.125215
+    },
+    {
+      "id": "e770fdf7-aec8-4155-a589-33978fd04abc",
+      "slug": "ristorante-locanda-gallo-borgoricco",
+      "nome": "Ristorante Locanda Gallo",
+      "city_name": "Borgoricco",
+      "indirizzo": "V. Cazzaghetto, 44, 30031 Dolo VE",
+      "lat": 45.438949,
+      "lng": 12.050501
+    },
+    {
+      "id": "d08ad173-fbb0-4652-91cb-ae255e4c4e13",
+      "slug": "tenuta-le-risare-borgoricco",
+      "nome": "Tenuta Le Risare",
+      "city_name": "Borgoricco",
+      "indirizzo": "Via Stradone, 2, 35010 Campo San Martino PD",
+      "lat": 45.567203,
+      "lng": 11.8373
+    },
+    {
+      "id": "3085b362-9f43-41f0-801b-2c6cd6a26db6",
+      "slug": "villa-myosotis-borgoricco",
+      "nome": "Villa Myosotis",
+      "city_name": "Borgoricco",
+      "indirizzo": "V. Cavin di Sala, 78, 30035 Mirano VE",
+      "lat": 45.494867,
+      "lng": 12.089315
+    },
+    {
+      "id": "1e90b251-bbd6-409c-ae40-73b02a413e22",
+      "slug": "villa-paradiso-borgoricco-borgoricco",
+      "nome": "Villa Paradiso Borgoricco",
+      "city_name": "Borgoricco",
+      "indirizzo": "V. Menini, 31, 35010 San Michele delle Badesse PD",
+      "lat": 45.542319,
+      "lng": 11.938653
+    },
+    {
+      "id": "f827c4d1-3ca6-4bd5-a34a-5912bed43fc8",
+      "slug": "affittacamere-da-angela-borgorose",
+      "nome": "Affittacamere Da Angela",
+      "city_name": "Borgorose",
+      "indirizzo": "Via Piedimonte, 3, 02021 Borgorose RI",
+      "lat": 42.194061,
+      "lng": 13.234659
+    },
+    {
+      "id": "93bcaac7-dd83-4d3f-85ad-7fec9fedf748",
+      "slug": "albergo-la-duchessa-borgorose",
+      "nome": "Albergo La Duchessa",
+      "city_name": "Borgorose",
+      "indirizzo": "V. Marsicana, 4/6, 02021 Corvaro RI",
+      "lat": 42.17819,
+      "lng": 13.275176
+    },
+    {
+      "id": "c38c645e-5945-4563-bb71-c7386169902c",
+      "slug": "appartamenti-il-capomandro-borgorose",
+      "nome": "Appartamenti Il Capomandro",
+      "city_name": "Borgorose",
+      "indirizzo": "Piazza Antonio e Filippo Placidi, 02021, 02021 Sant'Anatolia RI",
+      "lat": 42.148965,
+      "lng": 13.293842
+    },
+    {
+      "id": "bf2f854d-077e-4cec-b49d-68be8eb0a74b",
+      "slug": "b-b-leofreni-natura-borgorose",
+      "nome": "B&B Leofreni Natura",
+      "city_name": "Borgorose",
+      "indirizzo": "02024 Leofreni RI",
+      "lat": 42.196788,
+      "lng": 13.126182
+    },
+    {
+      "id": "45e2fe8d-aa65-4b21-a8ec-1801e9a7fdfa",
+      "slug": "b-b-mo-si-borgorose",
+      "nome": "B&B mo si",
+      "city_name": "Borgorose",
+      "indirizzo": "Via Ottavio Liberatore, 13, 67050 Massa D'Albe AQ",
+      "lat": 42.106755,
+      "lng": 13.395247
+    },
+    {
+      "id": "5a660c1d-e10d-4811-9244-5ebb4619928a",
+      "slug": "b-b-sole-e-luna-borgorose",
+      "nome": "B&B Sole e Luna",
+      "city_name": "Borgorose",
+      "indirizzo": "Via Aranoria, 15, 67068 Scurcola Marsicana AQ",
+      "lat": 42.051399,
+      "lng": 13.329554
+    },
+    {
+      "id": "864cdfff-7ba4-4f46-8ab4-75edf10d804b",
+      "slug": "b-b-valle-gio-borgorose",
+      "nome": "B&B VALLE GIO'",
+      "city_name": "Borgorose",
+      "indirizzo": "Via Fonte Vecchia, 32, 67062 Magliano de' Marsi AQ",
+      "lat": 42.094993,
+      "lng": 13.36329
+    },
+    {
+      "id": "ed844a14-c09d-442b-81ea-8e794ab44814",
+      "slug": "il-casale-della-biodiversita-borgorose",
+      "nome": "Il Casale della Biodiversità",
+      "city_name": "Borgorose",
+      "indirizzo": "S. P. Dorsale Palentina km 7+450, 67067 Scanzano AQ",
+      "lat": 42.102857,
+      "lng": 13.260475
+    },
+    {
+      "id": "c49ee744-6ac5-4c11-af3d-fe84174fbd10",
+      "slug": "m-ami-b-b-borgorose",
+      "nome": "M'ami B&B",
+      "city_name": "Borgorose",
+      "indirizzo": "Zona Industriale snc, 67062 Magliano de' Marsi AQ",
+      "lat": 42.083705,
+      "lng": 13.358741
+    },
+    {
+      "id": "1c7cc193-38be-4b40-b001-4df46186d244",
+      "slug": "relais-magione-papale-borgorose",
+      "nome": "Relais Magione Papale",
+      "city_name": "Borgorose",
+      "indirizzo": "Via Porta Napoli, 67/1, 67100 L'Aquila AQ",
+      "lat": 42.33802,
+      "lng": 13.405115
+    },
+    {
+      "id": "5039e489-a008-42b0-b22b-7bc49cd99f8a",
+      "slug": "albergo-armida-di-scaroni-pietro-borgosatollo",
+      "nome": "Albergo Armida Di Scaroni Pietro",
+      "city_name": "Borgosatollo",
+      "indirizzo": "V. Macina, 42, 25014 Macina BS",
+      "lat": 45.470863,
+      "lng": 10.321568
+    },
+    {
+      "id": "7013f144-3147-47a3-86e0-9f115a96a2b4",
+      "slug": "albergo-livio-borgosatollo",
+      "nome": "Albergo Livio",
+      "city_name": "Borgosatollo",
+      "indirizzo": "V. delle Bettole, 68, 25134 Brescia BS",
+      "lat": 45.501443,
+      "lng": 10.262035
+    },
+    {
+      "id": "1a381718-b24b-4b41-a939-8a9ac65c976f",
+      "slug": "hotel-ai-ronchi-ristorante-e-parcheggio-borgosatollo",
+      "nome": "Hotel Ai Ronchi - Ristorante e Parcheggio",
+      "city_name": "Borgosatollo",
+      "indirizzo": "Viale della Bornata, 22, 25123 Brescia BS",
+      "lat": 45.529628,
+      "lng": 10.253144
+    },
+    {
+      "id": "3b4a6424-5a3a-48d0-8d4f-a8302303c834",
+      "slug": "albergo-ristorante-sacro-monte-borgosesia",
+      "nome": "Albergo Ristorante Sacro Monte",
+      "city_name": "Borgosesia",
+      "indirizzo": "Località, Via Sacro Monte, 14, 13019 Varallo VC",
+      "lat": 45.819692,
+      "lng": 8.256457
+    },
+    {
+      "id": "04585100-a7d4-46c9-a5b3-c5afb05b70c7",
+      "slug": "appartamenti-del-borgo-borgosesia",
+      "nome": "Appartamenti del Borgo",
+      "city_name": "Borgosesia",
+      "indirizzo": "Via Nicolao Sottile, 31, 13011 Borgosesia VC",
+      "lat": 45.717884,
+      "lng": 8.273868
+    },
+    {
+      "id": "aba324fc-6fc9-40e6-93c4-380ecbf33602",
+      "slug": "b-b-lo-scoiattolo-e-la-noce-borgosesia",
+      "nome": "B&b Lo scoiattolo e la noce",
+      "city_name": "Borgosesia",
+      "indirizzo": "Corso G. Matteotti, 329, 13037 Serravalle Sesia VC",
+      "lat": 45.679155,
+      "lng": 8.318316
+    },
+    {
+      "id": "de64575c-fb0a-40e0-9244-c2a68488f081",
+      "slug": "bilocale-vecchio-borgo-borgosesia",
+      "nome": "Bilocale Vecchio Borgo",
+      "city_name": "Borgosesia",
+      "indirizzo": "Via XX Settembre, 42, 13011 Borgosesia VC",
+      "lat": 45.715066,
+      "lng": 8.277814
+    },
+    {
+      "id": "55be388e-8473-498d-974f-1b6aed2d76b8",
+      "slug": "guest-house-maiori-borgosesia",
+      "nome": "Guest House Maiori",
+      "city_name": "Borgosesia",
+      "indirizzo": "Corso G. Matteotti, 328, 13037 Serravalle Sesia VC",
+      "lat": 45.677858,
+      "lng": 8.318957
+    },
+    {
+      "id": "d35a3fb9-cbf8-482d-9903-fb08449c1894",
+      "slug": "relax-borgosesia",
+      "nome": "Relax",
+      "city_name": "Borgosesia",
+      "indirizzo": "Frazione Caggi 22, 13011 Borgosesia VC",
+      "lat": 45.725662,
+      "lng": 8.279383
+    },
+    {
+      "id": "27ab0745-014b-4a21-8050-d7092d2921fb",
+      "slug": "villa-agnona-borgosesia",
+      "nome": "Villa Agnona",
+      "city_name": "Borgosesia",
+      "indirizzo": "Via Casazza, 20, 13011 Borgosesia VC",
+      "lat": 45.727718,
+      "lng": 8.25978
+    },
+    {
+      "id": "0648856c-a367-4f24-a05b-26c8d30159d9",
+      "slug": "agriturismo-il-canto-delle-rane-bormida",
+      "nome": "Agriturismo - Il canto delle Rane",
+      "city_name": "Bormida",
+      "indirizzo": "Via Calice, 17, 17024 Finale Ligure SV",
+      "lat": 44.186816,
+      "lng": 8.306542
+    },
+    {
+      "id": "c501048d-cff3-4c1c-a9e9-653343b7e277",
+      "slug": "bed-breakfast-la-casa-di-magali-bormida",
+      "nome": "Bed & Breakfast La Casa di Magalì",
+      "city_name": "Bormida",
+      "indirizzo": "Località Chiesa, 45, 17045 Bormida SV",
+      "lat": 44.276392,
+      "lng": 8.227697
+    },
+    {
+      "id": "bb5d69ce-7c11-4d53-8f2b-fa54ab4116e9",
+      "slug": "bed-breakfast-lumagin-bormida",
+      "nome": "Bed & Breakfast Lumagin",
+      "city_name": "Bormida",
+      "indirizzo": "Via Benne, 59, 17020 Feglino SV",
+      "lat": 44.211583,
+      "lng": 8.32172
+    },
+    {
+      "id": "155b6bc1-5315-4c31-ad18-4987b1382ad7",
+      "slug": "casa-di-anna-bormida",
+      "nome": "Casa di Anna",
+      "city_name": "Bormida",
+      "indirizzo": "Via Madonna della Neve, 78, 17020 Tovo San Giacomo SV",
+      "lat": 44.188679,
+      "lng": 8.257759
+    },
+    {
+      "id": "655aaeb2-9050-4a24-b173-fb88b46743dd",
+      "slug": "casacirio-agriturismo-bormida",
+      "nome": "CasaCirio agriturismo",
+      "city_name": "Bormida",
+      "indirizzo": "Via Bolla, 4, 17020 Vene SV",
+      "lat": 44.215736,
+      "lng": 8.281528
+    },
+    {
+      "id": "fa4aa0ad-45d7-4063-96df-3a755800df8a",
+      "slug": "i-lamoi-bormida",
+      "nome": "I Lamoi",
+      "city_name": "Bormida",
+      "indirizzo": "Via della Pineta, 17024 Finale Ligure SV",
+      "lat": 44.184678,
+      "lng": 8.329493
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 243,
+  "blockId": "243",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "e47eb94c-231c-4021-85e6-356d6059acc9",
+      "slug": "masseria-belfiore-belfiore",
+      "nome": "Masseria Belfiore",
+      "city_name": "Belfiore",
+      "indirizzo": "S.P. 28 Ostuni – Francavilla Fontana Km 6, 72017 Contrada Boccadoro, Ostuni BR",
+      "lat": 40.670081,
+      "lng": 17.595334
+    },
+    {
+      "id": "54f23fd9-5429-42c2-a17b-5ce5d310bced",
+      "slug": "villa-belfiore-hotel-belfiore",
+      "nome": "Villa Belfiore Hotel",
+      "city_name": "Belfiore",
+      "indirizzo": "Via Pioppa, 27, 44020 Ostellato FE",
+      "lat": 44.750404,
+      "lng": 11.949489
+    },
+    {
+      "id": "01c078c4-8de5-4c03-b7bc-cd92bbfc88b0",
+      "slug": "agriturismo-ca-betania-belforte-all-isauro",
+      "nome": "Agriturismo Ca'Betania",
+      "city_name": "Belforte all'Isauro",
+      "indirizzo": "Localita Betania, 34, 61040 Mercatello sul Metauro PU",
+      "lat": 43.659357,
+      "lng": 12.324691
+    },
+    {
+      "id": "0bc72f37-9ef1-4c47-9dc9-bffb0e16a162",
+      "slug": "albergo-balcone-sul-metauro-belforte-all-isauro",
+      "nome": "Albergo Balcone Sul Metauro",
+      "city_name": "Belforte all'Isauro",
+      "indirizzo": "Via Alessandro Manzoni, 20, 61049 Peglio PU",
+      "lat": 43.695,
+      "lng": 12.502321
+    },
+    {
+      "id": "78637463-a3ac-48cb-8077-e95ed36edc39",
+      "slug": "albergo-ester-belforte-all-isauro",
+      "nome": "Albergo Ester",
+      "city_name": "Belforte all'Isauro",
+      "indirizzo": "Corso Giovanni XXIII, 56, 61026 Piandimeleto PU",
+      "lat": 43.723496,
+      "lng": 12.410004
+    },
+    {
+      "id": "791ac597-56aa-406d-bba3-e98d258c1383",
+      "slug": "antica-locanda-la-diligenza-belforte-all-isauro",
+      "nome": "Antica Locanda La Diligenza",
+      "city_name": "Belforte all'Isauro",
+      "indirizzo": "Piazza del Pino, 9, 61040 Borgo Pace PU",
+      "lat": 43.657788,
+      "lng": 12.294857
+    },
+    {
+      "id": "5048ee63-63a6-440f-8661-b8f86df30b04",
+      "slug": "b-b-la-pace-belforte-all-isauro",
+      "nome": "B&B \"La Pace\"",
+      "city_name": "Belforte all'Isauro",
+      "indirizzo": "Località Campo Località Bottegno snc, 61026 Belforte all'isauro PU",
+      "lat": 43.687337,
+      "lng": 12.33822
+    },
+    {
+      "id": "a914429b-cce6-4417-8645-ef0e2803f561",
+      "slug": "b-b-country-house-locanda-le-querce-belforte-all-isauro",
+      "nome": "B&B Country House Locanda Le Querce",
+      "city_name": "Belforte all'Isauro",
+      "indirizzo": "Località Calmugnaio, 103, 61020 Frontino PU",
+      "lat": 43.77278,
+      "lng": 12.358353
+    },
+    {
+      "id": "bf14e6ad-93f4-4067-be99-023251bb731a",
+      "slug": "hotel-anna-belforte-all-isauro",
+      "nome": "Hotel Anna",
+      "city_name": "Belforte all'Isauro",
+      "indirizzo": "Vicolo Francioni, 4, 61021 Carpegna PU",
+      "lat": 43.781999,
+      "lng": 12.337217
+    },
+    {
+      "id": "21379895-ce4d-4e61-bb48-8d2f1f3caa9e",
+      "slug": "hotel-arca-belforte-all-isauro",
+      "nome": "Hotel Arca",
+      "city_name": "Belforte all'Isauro",
+      "indirizzo": "Via P. Gori, 71, 61028 Sassocorvaro PU",
+      "lat": 43.784233,
+      "lng": 12.486508
+    },
+    {
+      "id": "281dc980-73ad-4cf1-92a7-ed0a51fa17be",
+      "slug": "hotel-ristorante-santa-chiara-da-franco-belforte-all-isauro",
+      "nome": "Hotel Ristorante Santa Chiara da Franco",
+      "city_name": "Belforte all'Isauro",
+      "indirizzo": "Corso Giuseppe Garibaldi, 26, 61048 Sant'Angelo in Vado PU",
+      "lat": 43.665272,
+      "lng": 12.410467
+    },
+    {
+      "id": "5944b6da-1f81-42ae-b7c5-9709f6deeb17",
+      "slug": "hotel-ulisse-belforte-all-isauro",
+      "nome": "Hotel Ulisse",
+      "city_name": "Belforte all'Isauro",
+      "indirizzo": "Via Nicola Amaducci, 16, 61021 Carpegna PU",
+      "lat": 43.781048,
+      "lng": 12.335049
+    },
+    {
+      "id": "4e290369-e293-42d7-92a2-c6594bf7432c",
+      "slug": "il-poggio-belforte-all-isauro",
+      "nome": "Il Poggio",
+      "city_name": "Belforte all'Isauro",
+      "indirizzo": "Via Poggio, 22, 61021 Carpegna PU",
+      "lat": 43.782142,
+      "lng": 12.334106
+    },
+    {
+      "id": "4060d7ee-0a5a-4795-8bc9-2b9fb32d923b",
+      "slug": "la-grotta-dei-folletti-belforte-all-isauro",
+      "nome": "La Grotta dei Folletti",
+      "city_name": "Belforte all'Isauro",
+      "indirizzo": "Località Bruciata, 29/a, 61040 Mercatello sul Metauro PU",
+      "lat": 43.66532,
+      "lng": 12.331226
+    },
+    {
+      "id": "f0fdd993-1aa4-49f6-b8b0-540528b2e302",
+      "slug": "locanda-delle-storie-belforte-all-isauro",
+      "nome": "Locanda delle Storie",
+      "city_name": "Belforte all'Isauro",
+      "indirizzo": "Via Castello, 10, 61023 Pietrarubbia PU",
+      "lat": 43.793909,
+      "lng": 12.379607
+    },
+    {
+      "id": "ac3cfe3a-e08e-4178-803d-b8e900a418bf",
+      "slug": "palazzo-santinelli-b-b-belforte-all-isauro",
+      "nome": "Palazzo Santinelli B&b",
+      "city_name": "Belforte all'Isauro",
+      "indirizzo": "Corso Giuseppe Garibaldi, 20, 61048 Sant'Angelo in Vado PU",
+      "lat": 43.665511,
+      "lng": 12.411027
+    },
+    {
+      "id": "09d404e8-dae1-4aaa-a22e-69c8c0a7d730",
+      "slug": "residenza-d-epoca-san-girolamo-casa-e-vacanza-lo-belforte-all-isauro",
+      "nome": "Residenza d'epoca San Girolamo Casa e Vacanza Location per Eventi Frontino",
+      "city_name": "Belforte all'Isauro",
+      "indirizzo": "Via San Girolamo, 61021 Frontino PU",
+      "lat": 43.768857,
+      "lng": 12.376355
+    },
+    {
+      "id": "0a751264-b172-44b7-9e30-9aa011da037e",
+      "slug": "ristorante-locanda-il-mandriano-belforte-all-isauro",
+      "nome": "Ristorante locanda Il Mandriano",
+      "city_name": "Belforte all'Isauro",
+      "indirizzo": "Via Cantoniera, 70, 61021 Carpegna PU",
+      "lat": 43.785803,
+      "lng": 12.299063
+    },
+    {
+      "id": "2d0c3bcc-dac9-4335-8170-70d41d9e0cf3",
+      "slug": "agriturismo-colle-casini-cortesi-belforte-del-chienti",
+      "nome": "Agriturismo Colle Casini Cortesi",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "contrada Collarsone 10, 62020 Caldarola MC",
+      "lat": 43.120131,
+      "lng": 13.222957
+    },
+    {
+      "id": "a8e9dfc4-0657-4bf1-8d23-e3b65a2521bb",
+      "slug": "agriturismo-colle-regnano-belforte-del-chienti",
+      "nome": "Agriturismo Colle Regnano",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "Contrada Casadicristo, 11, 62029 Tolentino MC",
+      "lat": 43.166524,
+      "lng": 13.30723
+    },
+    {
+      "id": "c65d268e-fc23-4013-99bd-98a628e21f30",
+      "slug": "agriturismo-villa-ninetta-belforte-del-chienti",
+      "nome": "Agriturismo Villa Ninetta",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "Contrada San Pietro, 4, 62020 Caldarola MC",
+      "lat": 43.146999,
+      "lng": 13.235056
+    },
+    {
+      "id": "eea56efe-29e7-446e-a7c6-52db11b7eb1b",
+      "slug": "albergo-ristorante-da-lore-belforte-del-chienti",
+      "nome": "Albergo Ristorante Da Lorè",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "Via Nazionale, 34, 62020 Serrapetrona MC",
+      "lat": 43.146111,
+      "lng": 13.207222
+    },
+    {
+      "id": "e36e28e4-ff7a-4123-ac16-07f2ba9736e0",
+      "slug": "azzurro-di-vallepietra-belforte-del-chienti",
+      "nome": "Azzurro di Vallepietra",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "Contrada Case Nuove 13/a, 62020 Camporotondo di Fiastrone MC",
+      "lat": 43.126627,
+      "lng": 13.264653
+    },
+    {
+      "id": "5a73b268-5c50-4ab8-81c3-794962addbc0",
+      "slug": "b-b-antegiano-belforte-del-chienti",
+      "nome": "b&b antegiano",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "Via Madonna d'Antegiano, 3, 62020 Belforte del Chienti MC",
+      "lat": 43.15943,
+      "lng": 13.252138
+    },
+    {
+      "id": "e463ed0f-0373-4c3b-9dac-3354bacbdfc5",
+      "slug": "b-b-la-mimosa-belforte-del-chienti",
+      "nome": "B&B La Mimosa",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "Via Palmiro Togliatti, 10, 62020 Belforte del Chienti MC",
+      "lat": 43.162812,
+      "lng": 13.243931
+    },
+    {
+      "id": "73278808-60a4-4409-8a27-d4e2f4850a87",
+      "slug": "bed-breakfast-la-pinturetta-belforte-del-chienti",
+      "nome": "Bed & Breakfast La Pinturetta",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "Via Fornaci, 26, 62020 Belforte del Chienti MC",
+      "lat": 43.175095,
+      "lng": 13.250464
+    },
+    {
+      "id": "fc1b0065-12c5-4ee4-b86c-66a7fb28cac1",
+      "slug": "chiaroscuro-belforte-del-chienti-hotel-belforte-del-chienti",
+      "nome": "Chiaroscuro Belforte Del Chienti Hotel",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "Via Nazionale, 29, 62020 Belforte del Chienti MC",
+      "lat": 43.18047,
+      "lng": 13.252019
+    },
+    {
+      "id": "6ea36e1e-6b4b-4a0b-b418-2a0f3b8c42c0",
+      "slug": "collina-d-oro-belforte-del-chienti",
+      "nome": "Collina d’Oro",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "Via Fornaci sabine, 6, 62020 Belforte del Chienti MC",
+      "lat": 43.145295,
+      "lng": 13.242643
+    },
+    {
+      "id": "23bf77a1-ceaa-45b8-94d5-1528106aec56",
+      "slug": "coroncina-country-relais-belforte-del-chienti",
+      "nome": "Coroncina Country Relais",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "Via Fossa, 1, 62020 Belforte del Chienti MC",
+      "lat": 43.15029,
+      "lng": 13.234096
+    },
+    {
+      "id": "d09db1bb-1359-490b-9a4e-0df7fb98d624",
+      "slug": "country-house-l-incanto-dei-sibillini-belforte-del-chienti",
+      "nome": "Country House L'Incanto dei Sibillini",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "SP 502, Km 68/750, 62020 Casigliano MC",
+      "lat": 43.107744,
+      "lng": 13.268607
+    },
+    {
+      "id": "89617d62-635b-4f9c-a513-915f1912d85b",
+      "slug": "due-torri-belforte-del-chienti",
+      "nome": "Due Torri",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "Via S. Francesco, 21, 62027 San Severino Marche MC",
+      "lat": 43.225439,
+      "lng": 13.176882
+    },
+    {
+      "id": "9ebdd3c4-6eb8-46eb-848c-9a8c4e9d4d29",
+      "slug": "hotel-cluentum-belforte-del-chienti",
+      "nome": "Hotel Cluentum",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "Nuova S.S, Contrada S. Martino, 77 Km 69 + 141, 62029 Tolentino MC",
+      "lat": 43.195892,
+      "lng": 13.267016
+    },
+    {
+      "id": "350357a2-671e-49bc-96b3-567bbab92fb8",
+      "slug": "hotel-milano-belforte-del-chienti",
+      "nome": "Hotel Milano",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "Via Roma, 13, 62029 Tolentino MC",
+      "lat": 43.20839,
+      "lng": 13.284221
+    },
+    {
+      "id": "c484401d-f669-47f2-81cb-ffb5f1232c98",
+      "slug": "hotel-ristorante-ferranti-belforte-del-chienti",
+      "nome": "Hotel Ristorante Ferranti",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "Via Nazionale, 60, 62020 Serrapetrona MC",
+      "lat": 43.146297,
+      "lng": 13.20769
+    },
+    {
+      "id": "58dad9e6-0355-49b0-8cb2-3e33dbd9774b",
+      "slug": "hotel-ristorante-il-cavaliere-belforte-del-chienti",
+      "nome": "Hotel Ristorante Il Cavaliere",
+      "city_name": "Belforte del Chienti",
+      "indirizzo": "Via Mariani, 33, 62032 Polverina MC",
+      "lat": 43.091586,
+      "lng": 13.117162
+    }
+  ]
+}

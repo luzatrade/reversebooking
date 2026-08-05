@@ -1,0 +1,323 @@
+{
+  "block": 201,
+  "blockId": "201",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "40c45881-79a8-4362-88fd-d2d4d2e1d256",
+      "slug": "hotel-sporting-bagnolo-in-piano",
+      "nome": "Hotel Sporting",
+      "city_name": "Bagnolo in Piano",
+      "indirizzo": "Via G. Fontanesi, 2, 42012 Campagnola Emilia RE",
+      "lat": 44.843808,
+      "lng": 10.757142
+    },
+    {
+      "id": "a74a7e5a-81ad-4ced-a89c-b61b113b9f72",
+      "slug": "hotel-villa-petra-bagnolo-in-piano",
+      "nome": "Hotel Villa Petra",
+      "city_name": "Bagnolo in Piano",
+      "indirizzo": "Via della Costituzione, 44, 42017 Novellara RE",
+      "lat": 44.842403,
+      "lng": 10.726628
+    },
+    {
+      "id": "635bf461-c46c-4853-a8a4-4aa82935802a",
+      "slug": "le-palme-bagnolo-in-piano",
+      "nome": "Le Palme",
+      "city_name": "Bagnolo in Piano",
+      "indirizzo": "Via Roma, 27, 42011 Bagnolo in Piano RE",
+      "lat": 44.760629,
+      "lng": 10.672819
+    },
+    {
+      "id": "9427e662-3f7c-4cf8-98d9-107853376a68",
+      "slug": "residence-a-reggio-emilia-pieverossa-bagnolo-in-piano",
+      "nome": "Residence a Reggio Emilia Pieverossa",
+      "city_name": "Bagnolo in Piano",
+      "indirizzo": "Via Str. Vecchia, 13, 42011 Bagnolo in Piano RE",
+      "lat": 44.777643,
+      "lng": 10.681492
+    },
+    {
+      "id": "939445f6-748f-4346-8a16-aa412d57e1e8",
+      "slug": "silver-hotel-residence-bagnolo-in-piano",
+      "nome": "Silver Hotel Residence",
+      "city_name": "Bagnolo in Piano",
+      "indirizzo": "Via Olimpia, 1/R, 42011 Bagnolo in Piano RE",
+      "lat": 44.768894,
+      "lng": 10.666351
+    },
+    {
+      "id": "af03ba6d-4990-4ba0-93ab-3dd7dbc08099",
+      "slug": "albergo-odeon-bagnolo-mella",
+      "nome": "Albergo Odeon",
+      "city_name": "Bagnolo Mella",
+      "indirizzo": "Via G. Matteotti, 6, 25016 Ghedi BS",
+      "lat": 45.401237,
+      "lng": 10.280681
+    },
+    {
+      "id": "fa6d382d-48f6-4951-998f-74a2088835ce",
+      "slug": "antica-filanda-bagnolo-mella",
+      "nome": "Antica Filanda",
+      "city_name": "Bagnolo Mella",
+      "indirizzo": "Via Filande, 34, 25125 Brescia BS",
+      "lat": 45.517115,
+      "lng": 10.179928
+    },
+    {
+      "id": "594bf22e-9d24-49f4-937d-5a300199d616",
+      "slug": "b-b-millefiori-bagnolo-mella",
+      "nome": "B&B Millefiori",
+      "city_name": "Bagnolo Mella",
+      "indirizzo": "Via Contrada del mangano, 14, 25122 Brescia BS",
+      "lat": 45.539693,
+      "lng": 10.217787
+    },
+    {
+      "id": "e9de76ce-a70d-4b77-8675-ccdddeb1d79e",
+      "slug": "contegnaga-b-b-bagnolo-mella",
+      "nome": "Contegnaga B&B",
+      "city_name": "Bagnolo Mella",
+      "indirizzo": "Via S. Martino, 47, 25020 Flero BS",
+      "lat": 45.479917,
+      "lng": 10.170714
+    },
+    {
+      "id": "d71b6137-777a-415d-8f7b-1beadb4c494c",
+      "slug": "hotel-alla-sosta-bagnolo-mella",
+      "nome": "Hotel Alla Sosta",
+      "city_name": "Bagnolo Mella",
+      "indirizzo": "Via Alcide de Gasperi, 93, 25086 Rezzato BS",
+      "lat": 45.514191,
+      "lng": 10.320176
+    },
+    {
+      "id": "89575da3-a15c-4d18-a440-03f3ac561353",
+      "slug": "hotel-la-pina-bagnolo-mella",
+      "nome": "Hotel La Pina",
+      "city_name": "Bagnolo Mella",
+      "indirizzo": "Via Giuseppe Garibaldi, 98, 25086 Rezzato BS",
+      "lat": 45.508055,
+      "lng": 10.327217
+    },
+    {
+      "id": "7430d88a-e410-4f09-8704-7722e3e24d8e",
+      "slug": "hotel-santa-giulia-bagnolo-mella",
+      "nome": "Hotel Santa Giulia",
+      "city_name": "Bagnolo Mella",
+      "indirizzo": "Via Sandro Pertini, 16, 25014 Castenedolo BS",
+      "lat": 45.485152,
+      "lng": 10.322775
+    },
+    {
+      "id": "9374fff6-6dcf-4798-b6cd-7a819cd24360",
+      "slug": "hotel-sogno-bagnolo-mella",
+      "nome": "Hotel Sogno",
+      "city_name": "Bagnolo Mella",
+      "indirizzo": "Via Alcide de Gasperi, 261, 25086 Rezzato BS",
+      "lat": 45.515111,
+      "lng": 10.332019
+    },
+    {
+      "id": "444ed5ad-509f-4b66-a0cb-a2b193b6b1e6",
+      "slug": "hotel-trotter-bagnolo-mella",
+      "nome": "Hotel Trotter",
+      "city_name": "Bagnolo Mella",
+      "indirizzo": "Via Brescia, 35, 25024 Leno BS",
+      "lat": 45.379893,
+      "lng": 10.211629
+    },
+    {
+      "id": "28dc5f3d-c18b-4204-a8e5-135892528419",
+      "slug": "le-rondini-bagnolo-mella",
+      "nome": "Le Rondini",
+      "city_name": "Bagnolo Mella",
+      "indirizzo": "Via Borgo, 3, 25021 Bagnolo Mella BS",
+      "lat": 45.44316,
+      "lng": 10.18369
+    },
+    {
+      "id": "afbccc0e-6950-4651-b23b-474832e589ad",
+      "slug": "agriturismo-a-nostro-mizoun-bagnolo-piemonte",
+      "nome": "Agriturismo A Nostro Mizoun",
+      "city_name": "Bagnolo Piemonte",
+      "indirizzo": "Località Durandin, 39, 12030 Ostana CN",
+      "lat": 44.699936,
+      "lng": 7.19704
+    },
+    {
+      "id": "14c3d97b-3e55-467d-a911-41d783ca15b1",
+      "slug": "agriturismo-ai-prusot-bagnolo-piemonte",
+      "nome": "Agriturismo Ai Prüsot",
+      "city_name": "Bagnolo Piemonte",
+      "indirizzo": "Via Maddalena, 47, 12031 Bagnolo Piemonte CN",
+      "lat": 44.766168,
+      "lng": 7.298237
+    },
+    {
+      "id": "91eb3fac-5807-457e-8f68-1e61d4242a4d",
+      "slug": "agriturismo-ca-del-clat-azienda-agricola-dolci-b-bagnolo-piemonte",
+      "nome": "Agriturismo Ca' del Clat - Azienda Agricola Dolci Bacche della me",
+      "city_name": "Bagnolo Piemonte",
+      "indirizzo": "Via Bibiana, 27, 12031 Bagnolo Piemonte CN",
+      "lat": 44.7698,
+      "lng": 7.307525
+    },
+    {
+      "id": "daacd18c-7a32-4716-90ab-448e748650d5",
+      "slug": "agriturismo-cascine-del-castello-di-bagnolo-bagnolo-piemonte",
+      "nome": "Agriturismo Cascine Del Castello Di Bagnolo",
+      "city_name": "Bagnolo Piemonte",
+      "indirizzo": "Via Palazzo, 10, 12031 Bagnolo Piemonte CN",
+      "lat": 44.750621,
+      "lng": 7.29758
+    },
+    {
+      "id": "019cf754-bb26-42e6-b78e-0a6aba1ee638",
+      "slug": "alter-hotel-bagnolo-piemonte",
+      "nome": "Alter Hotel",
+      "city_name": "Bagnolo Piemonte",
+      "indirizzo": "Piazza Stazione, 1, 12032 Barge CN",
+      "lat": 44.728644,
+      "lng": 7.32943
+    },
+    {
+      "id": "1f083e42-1caa-47ee-8b19-ee3680827069",
+      "slug": "b-b-l-orto-di-ortensia-bagnolo-piemonte",
+      "nome": "B&B L'Orto di Ortensia",
+      "city_name": "Bagnolo Piemonte",
+      "indirizzo": "Via Minette, 7, 12031 Bagnolo Piemonte CN",
+      "lat": 44.759327,
+      "lng": 7.291437
+    },
+    {
+      "id": "8f36658d-a616-4b39-95d4-4f8746830e8b",
+      "slug": "bargiolina-bagnolo-piemonte",
+      "nome": "Bargiolina",
+      "city_name": "Bagnolo Piemonte",
+      "indirizzo": "Via Antica Torriana, 11, 12032 Barge CN",
+      "lat": 44.716182,
+      "lng": 7.351392
+    },
+    {
+      "id": "337c71fd-29b3-49cb-a54f-f7329aca86d3",
+      "slug": "ca-nostra-b-b-bagnolo-piemonte",
+      "nome": "CA' NOSTRA B&B",
+      "city_name": "Bagnolo Piemonte",
+      "indirizzo": "Via Roma, 61, 12031 Bagnolo Piemonte CN",
+      "lat": 44.76431,
+      "lng": 7.312206
+    },
+    {
+      "id": "396c7764-9f6e-494a-bd6a-6a9368e1b8cc",
+      "slug": "castello-di-bagnolo-parco-e-agriturismo-bagnolo-piemonte",
+      "nome": "Castello di Bagnolo, Parco e Agriturismo",
+      "city_name": "Bagnolo Piemonte",
+      "indirizzo": "Via Palazzo, 9, 12032 Bagnolo Piemonte CN",
+      "lat": 44.750642,
+      "lng": 7.297575
+    },
+    {
+      "id": "ccaf8016-5791-44b9-8cd9-7433a7f5185a",
+      "slug": "hotel-prealpina-bagnolo-piemonte",
+      "nome": "Hotel Prealpina",
+      "city_name": "Bagnolo Piemonte",
+      "indirizzo": "Via Barge, 2, 12031 Bagnolo Piemonte CN",
+      "lat": 44.755766,
+      "lng": 7.313931
+    },
+    {
+      "id": "365b635d-50bb-4636-b8ed-c7b564181bde",
+      "slug": "la-casa-di-cate-adry-bagnolo-piemonte",
+      "nome": "La casa di cate & adry",
+      "city_name": "Bagnolo Piemonte",
+      "indirizzo": "Via Roma, 176, 12030 Envie CN",
+      "lat": 44.685132,
+      "lng": 7.370917
+    },
+    {
+      "id": "efac520e-f9e0-4e67-a905-f5920265f508",
+      "slug": "locanda-la-via-del-sale-bagnolo-piemonte",
+      "nome": "Locanda la Via del Sale",
+      "city_name": "Bagnolo Piemonte",
+      "indirizzo": "Via Segheria, 4, 12030 Sanfront CN",
+      "lat": 44.648834,
+      "lng": 7.32191
+    },
+    {
+      "id": "f428748e-af1c-4dc8-9b6d-42714e3f421d",
+      "slug": "red-white-green-violet-pink-appartament-bagnolo-piemonte",
+      "nome": "Red White Green Violet Pink appartament",
+      "city_name": "Bagnolo Piemonte",
+      "indirizzo": "Piazza S. Pietro, 18, 12031 Bagnolo Piemonte CN",
+      "lat": 44.76097,
+      "lng": 7.313098
+    },
+    {
+      "id": "9bfe7d29-ecf1-4789-8c02-9a4256e4b582",
+      "slug": "villa-le-rose-bagnolo-piemonte",
+      "nome": "VILLA LE ROSE",
+      "city_name": "Bagnolo Piemonte",
+      "indirizzo": "Via S. Michele, 1, 10061 Cavour TO",
+      "lat": 44.799976,
+      "lng": 7.374318
+    },
+    {
+      "id": "40c16a74-ad2c-4c8a-b047-495d6644564b",
+      "slug": "villa-maria-sole-bed-breakfast-bagnolo-piemonte",
+      "nome": "Villa Maria Sole - Bed & Breakfast",
+      "city_name": "Bagnolo Piemonte",
+      "indirizzo": "Via Traversa Barge, 4, 12036 Revello CN",
+      "lat": 44.65261,
+      "lng": 7.440053
+    },
+    {
+      "id": "9cacc319-55c7-4f08-ae10-cc9387bd5722",
+      "slug": "al-parco-b-b-bagnolo-san-vito",
+      "nome": "Al Parco b&b",
+      "city_name": "Bagnolo San Vito",
+      "indirizzo": "Via Castiglione della Pescaia, 1, 46027 San Benedetto Po MN",
+      "lat": 45.044871,
+      "lng": 10.933347
+    },
+    {
+      "id": "9034b5b7-d959-4591-a538-82549a95ed99",
+      "slug": "albergo-meuble-la-corte-bagnolo-san-vito",
+      "nome": "Albergo Meuble' La Corte",
+      "city_name": "Bagnolo San Vito",
+      "indirizzo": "Via Romana Zaita, 31, 46031 Bagnolo San Vito MN",
+      "lat": 45.087456,
+      "lng": 10.871043
+    },
+    {
+      "id": "bf3c7d8d-18ff-4360-bc71-208ae626a306",
+      "slug": "b-b-a-casa-mia-bagnolo-san-vito",
+      "nome": "B&B A Casa Mia",
+      "city_name": "Bagnolo San Vito",
+      "indirizzo": "Via II Giugno, 12/A, 46031 Bagnolo San Vito MN",
+      "lat": 45.085441,
+      "lng": 10.875592
+    },
+    {
+      "id": "cde22554-9b69-48b7-8dd6-3cb82fbfae23",
+      "slug": "b-b-casa-silingardi-bagnolo-san-vito",
+      "nome": "B&B Casa Silingardi",
+      "city_name": "Bagnolo San Vito",
+      "indirizzo": "Via Roma, 46, 46031 Bagnolo San Vito MN",
+      "lat": 45.088512,
+      "lng": 10.875276
+    },
+    {
+      "id": "fcef5164-2efc-45da-abbe-2b0de8496249",
+      "slug": "b-b-hotel-mantova-cristallo-bagnolo-san-vito",
+      "nome": "B&B HOTEL Mantova Cristallo",
+      "city_name": "Bagnolo San Vito",
+      "indirizzo": "Via Cisa, 1/e, 46034 Borgo Virgilio MN",
+      "lat": 45.124618,
+      "lng": 10.788482
+    }
+  ]
+}

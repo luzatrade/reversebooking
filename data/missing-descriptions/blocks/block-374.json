@@ -1,0 +1,323 @@
+{
+  "block": 374,
+  "blockId": "374",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "d6fc0f1d-2fdc-4078-ab1c-167341d56e77",
+      "slug": "lo-scrigno-b-b-calvi",
+      "nome": "Lo Scrigno B&B",
+      "city_name": "Calvi",
+      "indirizzo": "Via Francesco di Benedetto, 27, 83038 Montemiletto AV",
+      "lat": 41.010495,
+      "lng": 14.902693
+    },
+    {
+      "id": "d4fed7d0-06cf-498a-a64f-a1fa86a9a61d",
+      "slug": "agriturismo-il-collicello-calvi-dell-umbria",
+      "nome": "Agriturismo Il Collicello",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Strada di Calledro, 1/A, 05035 Narni TR",
+      "lat": 42.459635,
+      "lng": 12.455457
+    },
+    {
+      "id": "493b7703-2754-413b-99f1-fbc7360f49f5",
+      "slug": "agriturismo-isola-verde-calvi-dell-umbria",
+      "nome": "Agriturismo Isola Verde",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Strada Narni Sant'Urbano, 89, 05035 Narni TR",
+      "lat": 42.473107,
+      "lng": 12.577171
+    },
+    {
+      "id": "080df558-fec3-4d6c-a8a7-16cf217dda3a",
+      "slug": "agriturismo-la-nocciolaia-calvi-dell-umbria",
+      "nome": "Agriturismo La Nocciolaia",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Strada di Montini, 3, 05035 Narni TR",
+      "lat": 42.448803,
+      "lng": 12.531449
+    },
+    {
+      "id": "5e4c5be4-a2c8-42c4-beca-ee2fe1b5444d",
+      "slug": "agriturismo-tenuta-san-savino-delle-rocchette-calvi-dell-umbria",
+      "nome": "Agriturismo Tenuta San Savino delle Rocchette",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Vocabolo S. Savino, 15, 05032 Calvi dell'Umbria TR",
+      "lat": 42.430448,
+      "lng": 12.53928
+    },
+    {
+      "id": "3b34a009-b011-4112-9696-e52766687b25",
+      "slug": "albergo-umbria-ristorante-il-convento-calvi-dell-umbria",
+      "nome": "Albergo Umbria –ristorante Il Convento",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Via Roma, 72, 05030 Otricoli TR",
+      "lat": 42.424791,
+      "lng": 12.479397
+    },
+    {
+      "id": "69d732d8-2f9b-4864-a988-751c70df4f3e",
+      "slug": "b-b-delle-erbe-calvi-dell-umbria",
+      "nome": "B&B delle Erbe",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Piazza delle Erbe 2, 05032 Calvi Dell'umbria TR",
+      "lat": 42.401632,
+      "lng": 12.567077
+    },
+    {
+      "id": "a76b6e1d-b432-41df-ab44-731125fe43e0",
+      "slug": "b-b-il-castello-calvi-dell-umbria",
+      "nome": "B&B IL CASTELLO",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Centro S. Vito, 13, 05035 S. Vito di Narni (TR) TR",
+      "lat": 42.437623,
+      "lng": 12.441791
+    },
+    {
+      "id": "e2ae83e9-71fb-4bfe-bef5-528e77b6af98",
+      "slug": "b-b-l-uliveto-calvi-dell-umbria",
+      "nome": "B&B L'Uliveto",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Via Maglianese, 22, 02040 Colleberardo RI",
+      "lat": 42.372392,
+      "lng": 12.590297
+    },
+    {
+      "id": "3bba03e8-b27e-4376-a3d7-8688d2a57a82",
+      "slug": "giardino-casa-selciata-calvi-dell-umbria",
+      "nome": "Giardino Casa Selciata",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Vocabolo Selciata, 29A, 05032 Calvi dell'Umbria TR",
+      "lat": 42.423569,
+      "lng": 12.527758
+    },
+    {
+      "id": "8f0dd9b9-3d7c-49f8-a9d6-341b06e84651",
+      "slug": "hotel-ristorante-la-pergola-calvi-dell-umbria",
+      "nome": "Hotel Ristorante La Pergola",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Strada Flaminia Km 63,900 Località, 02046 Frangellini RI",
+      "lat": 42.371052,
+      "lng": 12.471979
+    },
+    {
+      "id": "3a9f6d9b-e8a8-487e-b0e3-dd3a2780bc91",
+      "slug": "i-montanari-agrivillage-calvi-dell-umbria",
+      "nome": "I Montanari Agrivillage",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Strada dei Montanari, 2, 05035 Itieli TR",
+      "lat": 42.478824,
+      "lng": 12.574071
+    },
+    {
+      "id": "6bf43d37-e6d3-4c26-a3a3-6fdf2c99790c",
+      "slug": "il-merangolo-agriturismo-calvi-dell-umbria",
+      "nome": "Il Merangolo Agriturismo",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Strada Provinciale 54, 02040 Montebuono RI",
+      "lat": 42.369221,
+      "lng": 12.60661
+    },
+    {
+      "id": "3d97bf69-39b7-4a5e-8599-a85a85968391",
+      "slug": "il-piccolo-borgo-di-pezza-dario-calvi-dell-umbria",
+      "nome": "Il Piccolo Borgo di Pezza Dario",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Vocabolo Passatore, 16, 05032 Calvi dell'Umbria TR",
+      "lat": 42.406599,
+      "lng": 12.506997
+    },
+    {
+      "id": "a043a109-0ba2-4b0a-bc78-af2cccb840e3",
+      "slug": "la-casa-di-helena-calvi-dell-umbria",
+      "nome": "La Casa di Helena",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Via Vici, 32, 05039 Stroncone TR",
+      "lat": 42.499386,
+      "lng": 12.662827
+    },
+    {
+      "id": "5102c336-ef45-4eed-a2aa-d0e94c171c69",
+      "slug": "le-residenze-da-stefano-e-annalisa-calvi-dell-umbria",
+      "nome": "Le Residenze da Stefano e Annalisa",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Vocabolo S. Vito,15, 05032 Calvi Dell'umbria TR",
+      "lat": 42.384657,
+      "lng": 12.549022
+    },
+    {
+      "id": "9ee13cb8-b16c-427d-bd5d-e1cb5340d626",
+      "slug": "park-hotel-sabina-calvi-dell-umbria",
+      "nome": "Park Hotel Sabina",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Via Flaminia km 65, 02046 Magliano Sabina RI",
+      "lat": 42.384624,
+      "lng": 12.472531
+    },
+    {
+      "id": "d86db075-752a-4f63-a724-413468a94a08",
+      "slug": "tenuta-santa-cristina-calvi-dell-umbria",
+      "nome": "Tenuta Santa Cristina",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Vocabolo Santa Cristina, 02046 Calvi dell'Umbria TR",
+      "lat": 42.385413,
+      "lng": 12.513407
+    },
+    {
+      "id": "51bdd76e-2cbf-47b4-bb1f-8833827fbb7f",
+      "slug": "villa-gabriella-b-b-calvi-dell-umbria",
+      "nome": "Villa Gabriella B&B",
+      "city_name": "Calvi dell'Umbria",
+      "indirizzo": "Voc San Silvestro, 5, 05032 Calvi dell'Umbria TR",
+      "lat": 42.415275,
+      "lng": 12.549235
+    },
+    {
+      "id": "58d67c06-26e0-4502-826b-9d431afd1a96",
+      "slug": "alessia-sweet-home-calvi-risorta",
+      "nome": "Alessia Sweet Home",
+      "city_name": "Calvi Risorta",
+      "indirizzo": "Via IV Novembre, 57, 81043 Sant'Angelo In Formis CE",
+      "lat": 41.121981,
+      "lng": 14.250832
+    },
+    {
+      "id": "3787f6c6-3549-42db-818f-c12f18f5c0e2",
+      "slug": "b-b-la-finestra-sul-vulcano-calvi-risorta",
+      "nome": "B&B La Finestra Sul Vulcano",
+      "city_name": "Calvi Risorta",
+      "indirizzo": "Piazza Nicola Amore, 82, 81035 Roccamonfina CE",
+      "lat": 41.288217,
+      "lng": 13.983238
+    },
+    {
+      "id": "772f8e1d-8256-4af6-8afd-1ff549fde570",
+      "slug": "il-moro-bianco-calvi-risorta",
+      "nome": "Il Moro Bianco",
+      "city_name": "Calvi Risorta",
+      "indirizzo": "Via Cavone, 6, 81057 Teano CE",
+      "lat": 41.255979,
+      "lng": 14.069742
+    },
+    {
+      "id": "6c94e4c2-2575-411d-a8d1-ac22cdf7d436",
+      "slug": "informis-b-b-bed-breakfast-capua-calvi-risorta",
+      "nome": "INFORMIS B&B - Bed & Breakfast Capua",
+      "city_name": "Calvi Risorta",
+      "indirizzo": "Via Trebula, 2, 81043 Sant'Angelo In Formis CE",
+      "lat": 41.107237,
+      "lng": 14.252052
+    },
+    {
+      "id": "89f23e01-1ff3-4ed2-814a-913664765e46",
+      "slug": "tenuta-cerreto-calvi-risorta",
+      "nome": "Tenuta Cerreto",
+      "city_name": "Calvi Risorta",
+      "indirizzo": "Località Cerreto, 81042 Calvi Risorta CE",
+      "lat": 41.210313,
+      "lng": 14.101191
+    },
+    {
+      "id": "11484623-14a5-4908-9482-e1eb4ff89047",
+      "slug": "agriturismo-i-gessi-calvignano",
+      "nome": "Agriturismo i Gessi",
+      "city_name": "Calvignano",
+      "indirizzo": "Via Oratorio, 38, 27050 Corvino San Quirico PV",
+      "lat": 45.005355,
+      "lng": 9.162363
+    },
+    {
+      "id": "11bbee5f-d400-4df7-9b8c-39c8fd48e869",
+      "slug": "b-b-il-pozzo-calvignano",
+      "nome": "B&B Il Pozzo",
+      "city_name": "Calvignano",
+      "indirizzo": "Via V. Emanuele, 60, 27040 Montalto Pavese PV",
+      "lat": 44.979668,
+      "lng": 9.207022
+    },
+    {
+      "id": "b3e6f423-58e5-4212-b2f3-e6af31008ec5",
+      "slug": "castello-di-mornico-losana-calvignano",
+      "nome": "Castello di Mornico Losana",
+      "city_name": "Calvignano",
+      "indirizzo": "Via Cesare Bevilacqua, 2, 27040 Mornico PV",
+      "lat": 45.011458,
+      "lng": 9.202429
+    },
+    {
+      "id": "e4eee0e0-c2e9-4d9d-b29b-5d7fcc3821b7",
+      "slug": "hotel-le-vigne-di-corvino-ristorante-pizzeria-calvignano",
+      "nome": "HOTEL LE VIGNE DI CORVINO - Ristorante Pizzeria",
+      "city_name": "Calvignano",
+      "indirizzo": "Via Emilia, 42, 27050 Fumo, Corvino San Quirico PV",
+      "lat": 45.023644,
+      "lng": 9.151729
+    },
+    {
+      "id": "65ea0732-25a4-4195-9d7f-39d10b82794b",
+      "slug": "b-b-villa-in-campagna-calvisano",
+      "nome": "B&B Villa in Campagna",
+      "city_name": "Calvisano",
+      "indirizzo": "di, Via J.F. Kennedy, 74/b, 25012 Viadana Bresciana BS",
+      "lat": 45.375227,
+      "lng": 10.331577
+    },
+    {
+      "id": "9a4dade3-d5f0-440a-aaf0-87804db333e2",
+      "slug": "hotel-primavera-calvisano",
+      "nome": "Hotel Primavera",
+      "city_name": "Calvisano",
+      "indirizzo": "Viale Cavour, 36, 25015 Desenzano del Garda BS",
+      "lat": 45.46436,
+      "lng": 10.536617
+    },
+    {
+      "id": "942d04ea-c712-4d9d-950a-15886133c732",
+      "slug": "locanda-la-torre-b-b-calvisano",
+      "nome": "Locanda La Torre B&B",
+      "city_name": "Calvisano",
+      "indirizzo": "Via Dante, 6, 25012 Calvisano BS",
+      "lat": 45.348038,
+      "lng": 10.341986
+    },
+    {
+      "id": "9deea1b2-132a-46f0-a4f0-3508650a01e3",
+      "slug": "agriturismo-antica-masseria-fioretti-calvizzano",
+      "nome": "Agriturismo Antica Masseria Fioretti",
+      "city_name": "Calvizzano",
+      "indirizzo": "V. Tirone, 13, 80145 Napoli NA",
+      "lat": 40.890171,
+      "lng": 14.207767
+    },
+    {
+      "id": "c254d95a-2bc0-4022-a867-46b7debe5267",
+      "slug": "agriturismo-balestrieri-calvizzano",
+      "nome": "Agriturismo Balestrieri",
+      "city_name": "Calvizzano",
+      "indirizzo": "Via Parroco Giustino Russolillo, 110, 80126 Napoli NA",
+      "lat": 40.862408,
+      "lng": 14.166313
+    },
+    {
+      "id": "e90acfce-adf6-4769-a41d-d1ad9bcddb78",
+      "slug": "agriturismo-country-house-rifugio-degli-dei-calvizzano",
+      "nome": "Agriturismo Country House \"Rifugio Degli Dei\"",
+      "city_name": "Calvizzano",
+      "indirizzo": "Via Arienzo, 43, 84017 Positano SA",
+      "lat": 40.626669,
+      "lng": 14.500172
+    },
+    {
+      "id": "fe2012b5-f0cf-4853-9afe-4caa4e0c21a7",
+      "slug": "agriturismo-il-turuziello-calvizzano",
+      "nome": "Agriturismo il Turuziello",
+      "city_name": "Calvizzano",
+      "indirizzo": "Via Turiello, 5, 80061 Massa Lubrense NA",
+      "lat": 40.598243,
+      "lng": 14.34325
+    }
+  ]
+}

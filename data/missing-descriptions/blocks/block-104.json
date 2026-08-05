@@ -1,0 +1,323 @@
+{
+  "block": 104,
+  "blockId": "104",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "c0761bc1-bc7b-42cd-9a18-6e8dbdb3c3f6",
+      "slug": "b-b-alveare-di-rita-ancarano",
+      "nome": "B&B Alveare di Rita",
+      "city_name": "Ancarano",
+      "indirizzo": "Via Mediana Inferiore, 19, 63085 Maltignano AP",
+      "lat": 42.844625,
+      "lng": 13.703144
+    },
+    {
+      "id": "48b5e6ed-f362-49d8-8313-a58778daaff2",
+      "slug": "b-b-bio-melampo-ancarano",
+      "nome": "B&B Bio-Melampo",
+      "city_name": "Ancarano",
+      "indirizzo": "Str. Vicinale Casette, 19, 64010 Ancarano TE",
+      "lat": 42.827749,
+      "lng": 13.747827
+    },
+    {
+      "id": "fd2633e5-5f9b-4b35-acdc-e8c1bd130f32",
+      "slug": "b-b-river-ancarano",
+      "nome": "B&B River",
+      "city_name": "Ancarano",
+      "indirizzo": "Str. della Bonifica, 40, 63100 Ascoli Piceno AP",
+      "lat": 42.850119,
+      "lng": 13.650082
+    },
+    {
+      "id": "12b3d721-c2b5-4f90-9ca2-a0f98b6d0e04",
+      "slug": "b-b-spineola-ancarano",
+      "nome": "B&B Spineola",
+      "city_name": "Ancarano",
+      "indirizzo": "Via Pio La Torre, 63078 Spinetoli AP",
+      "lat": 42.884823,
+      "lng": 13.769449
+    },
+    {
+      "id": "ba383486-d988-4af9-a268-b4a47d9a2273",
+      "slug": "bed-and-breakfast-giardino-agritourist-ancarano",
+      "nome": "Bed and breakfast Giardino Agritourist",
+      "city_name": "Ancarano",
+      "indirizzo": "Contrada San Fedele, zona Via Gabriele D'Annunzio, 2, 64010 Controguerra TE",
+      "lat": 42.852164,
+      "lng": 13.814826
+    },
+    {
+      "id": "e831ec87-35dd-49e6-a7db-b886e959b2c2",
+      "slug": "country-house-andromeda-ancarano",
+      "nome": "Country House Andromeda",
+      "city_name": "Ancarano",
+      "indirizzo": "Contrada Ciafone, n.50, 63073 Offida AP",
+      "lat": 42.915791,
+      "lng": 13.733849
+    },
+    {
+      "id": "137f75f4-a068-44c6-8bd6-29800e44c670",
+      "slug": "country-house-il-piacere-ancarano",
+      "nome": "Country House Il Piacere",
+      "city_name": "Ancarano",
+      "indirizzo": "Via Ugo La Malfa, 64010 Civitella del Tronto TE",
+      "lat": 42.793325,
+      "lng": 13.637436
+    },
+    {
+      "id": "e7f40332-9e7a-4fb3-bc2e-a0eb9b73d66d",
+      "slug": "emidio-pepe-ancarano",
+      "nome": "Emidio Pepe",
+      "city_name": "Ancarano",
+      "indirizzo": "Contrada Chiesi, 10, 64010 Torano Nuovo TE",
+      "lat": 42.82964,
+      "lng": 13.77565
+    },
+    {
+      "id": "6f7ce626-a67f-47cf-8b30-0f381d035aaf",
+      "slug": "fly-b-b-ancarano",
+      "nome": "Fly b&b",
+      "city_name": "Ancarano",
+      "indirizzo": "Via A. De Gasperi, 6, 64010 Ancarano TE",
+      "lat": 42.835341,
+      "lng": 13.737693
+    },
+    {
+      "id": "8d8a5340-659d-4a12-8ff2-d3400fa030bd",
+      "slug": "hotel-ristorante-clodi-ancarano",
+      "nome": "Hotel Ristorante Clodi",
+      "city_name": "Ancarano",
+      "indirizzo": "Via dei Peschi, 64, 63100 Ascoli Piceno AP",
+      "lat": 42.844491,
+      "lng": 13.640396
+    },
+    {
+      "id": "8206f039-cffc-4d75-b13b-d6a8e12925ac",
+      "slug": "hotel-ristorante-concorde-ancarano",
+      "nome": "Hotel Ristorante Concorde",
+      "city_name": "Ancarano",
+      "indirizzo": "Viale J. F. Kennedy, 197, 64016 Sant'Egidio alla Vibrata TE",
+      "lat": 42.810567,
+      "lng": 13.736656
+    },
+    {
+      "id": "ff3b3013-dbbd-4100-adee-be4c3e44f779",
+      "slug": "hotel-ristorante-pizzeria-tramonto-ancarano",
+      "nome": "Hotel Ristorante Pizzeria Tramonto",
+      "city_name": "Ancarano",
+      "indirizzo": "Contrada Madonna della Carità, 45, 64010 Ancarano TE",
+      "lat": 42.836994,
+      "lng": 13.755949
+    },
+    {
+      "id": "6c79d05d-fdd0-4c7c-bc40-ce8d26466161",
+      "slug": "hotel-scacco-rosso-ancarano",
+      "nome": "Hotel Scacco Rosso",
+      "city_name": "Ancarano",
+      "indirizzo": "Via Piave, 23, 64016 Sant'Egidio alla Vibrata TE",
+      "lat": 42.822879,
+      "lng": 13.716205
+    },
+    {
+      "id": "28880c5a-aeff-414c-b69e-844d28886b62",
+      "slug": "il-gruccione-ancarano",
+      "nome": "Il Gruccione",
+      "city_name": "Ancarano",
+      "indirizzo": "Via Santa Maria ad Cellas, 18, 64027 Sant'Omero TE",
+      "lat": 42.788425,
+      "lng": 13.817999
+    },
+    {
+      "id": "1b075d28-38a7-49f8-a07a-73cbd09071ad",
+      "slug": "il-salice-hotel-ristorante-pizzeria-ancarano",
+      "nome": "IL SALICE Hotel Ristorante Pizzeria",
+      "city_name": "Ancarano",
+      "indirizzo": "Viale Vibrata, 13/A, 64010 Civitella del Tronto TE",
+      "lat": 42.795568,
+      "lng": 13.65147
+    },
+    {
+      "id": "b976b729-c7bd-49ea-a0a7-6f40f0b479a3",
+      "slug": "pantorano-rooms-ancarano",
+      "nome": "Pantorano rooms",
+      "city_name": "Ancarano",
+      "indirizzo": "Piazzetta delle Volte, 6, 63078 Pagliare del Tronto AP",
+      "lat": 42.866359,
+      "lng": 13.771359
+    },
+    {
+      "id": "ee20f2ad-771c-48c1-a0a6-74dfc68a7eb0",
+      "slug": "villa-dei-priori-ancarano",
+      "nome": "Villa dei Priori",
+      "city_name": "Ancarano",
+      "indirizzo": "Via Salaria, Km 220, 63077 Monsampolo del Tronto AP",
+      "lat": 42.889121,
+      "lng": 13.81547
+    },
+    {
+      "id": "418ae803-85da-439f-a034-0c0f1871674c",
+      "slug": "villa-yucca-b-b-and-glamping-ancarano",
+      "nome": "Villa Yucca - B&B and Glamping",
+      "city_name": "Ancarano",
+      "indirizzo": "Contrada Flaio, 35, 64010 Torano Nuovo TE",
+      "lat": 42.816485,
+      "lng": 13.787717
+    },
+    {
+      "id": "99ac2dd6-0ac7-4f77-91a6-de021bb2d6f3",
+      "slug": "villa9cento-ancarano",
+      "nome": "Villa9cento",
+      "city_name": "Ancarano",
+      "indirizzo": "Via dei Fossi, 5, 63082 Castel di Lama AP",
+      "lat": 42.865238,
+      "lng": 13.719638
+    },
+    {
+      "id": "55a144de-d965-4140-a652-d31aa01381a3",
+      "slug": "albergo-cantiani-ancona",
+      "nome": "Albergo Cantiani",
+      "city_name": "Ancona",
+      "indirizzo": "Via Lorenzo Lotto, 22, 60127 Ancona AN",
+      "lat": 43.605392,
+      "lng": 13.507128
+    },
+    {
+      "id": "4a61f6b5-0475-454a-8765-2f0a88f1d7b3",
+      "slug": "ego-hotel-ancona-ancona",
+      "nome": "Ego Hotel Ancona",
+      "city_name": "Ancona",
+      "indirizzo": "Via Flaminia, 220, 60126 Ancona AN",
+      "lat": 43.608801,
+      "lng": 13.459336
+    },
+    {
+      "id": "008dfcc2-14bd-465e-affc-796473458dff",
+      "slug": "g-hotel-ancona-ancona",
+      "nome": "G Hotel Ancona",
+      "city_name": "Ancona",
+      "indirizzo": "V. della Sbrozzola, 26, 60027 Osimo AN",
+      "lat": 43.512501,
+      "lng": 13.52693
+    },
+    {
+      "id": "be5cd73b-0afb-48a1-a61f-8a86e0e435da",
+      "slug": "grand-hotel-palace-ancona",
+      "nome": "Grand Hotel Palace",
+      "city_name": "Ancona",
+      "indirizzo": "Lungomare Luigi Vanvitelli, 24, 60121 Ancona AN",
+      "lat": 43.62151,
+      "lng": 13.510367
+    },
+    {
+      "id": "0a825168-2cee-4b11-a34f-0b701efb9bcf",
+      "slug": "grand-hotel-passetto-ancona",
+      "nome": "Grand Hotel Passetto",
+      "city_name": "Ancona",
+      "indirizzo": "Via Thaon de Revel, 1, 60124 Ancona AN",
+      "lat": 43.61386,
+      "lng": 13.534436
+    },
+    {
+      "id": "72bc6539-8c8e-4fd8-a013-0df1e0c308da",
+      "slug": "hotel-ankon-ancona",
+      "nome": "Hotel Ankon",
+      "city_name": "Ancona",
+      "indirizzo": "Via Loreto, 13/a, 60126 Ancona AN",
+      "lat": 43.602903,
+      "lng": 13.506306
+    },
+    {
+      "id": "ec43bbbd-6f05-474f-9ba1-4aa69f2642a4",
+      "slug": "hotel-concorde-camerano-ancona",
+      "nome": "Hotel Concorde Camerano",
+      "city_name": "Ancona",
+      "indirizzo": "Via Aspio Terme, 191, 60021 Camerano AN",
+      "lat": 43.527323,
+      "lng": 13.520403
+    },
+    {
+      "id": "f9721158-bc7d-403f-a353-569eea347534",
+      "slug": "hotel-della-rosa-ancona",
+      "nome": "Hotel della Rosa",
+      "city_name": "Ancona",
+      "indirizzo": "Piazza Fratelli Rosselli, 3, 60126 Ancona AN",
+      "lat": 43.606972,
+      "lng": 13.498601
+    },
+    {
+      "id": "74a29388-d794-4986-8f33-c356970c323e",
+      "slug": "hotel-della-vittoria-ancona",
+      "nome": "Hotel della Vittoria",
+      "city_name": "Ancona",
+      "indirizzo": "Via Fabio Filzi, 2, 60123 Ancona AN",
+      "lat": 43.615994,
+      "lng": 13.525565
+    },
+    {
+      "id": "c35869b6-a847-4eb9-8075-e337971439fc",
+      "slug": "hotel-emilia-ancona",
+      "nome": "Hotel Emilia",
+      "city_name": "Ancona",
+      "indirizzo": "Via Collina di Portonovo, 149/A, 60129 Ancona AN",
+      "lat": 43.562519,
+      "lng": 13.582613
+    },
+    {
+      "id": "12493069-2996-4503-8a70-e6e5a17340fc",
+      "slug": "hotel-europa-ancona",
+      "nome": "Hotel Europa",
+      "city_name": "Ancona",
+      "indirizzo": "Via Sentino, 3, 60126 Ancona AN",
+      "lat": 43.606852,
+      "lng": 13.453789
+    },
+    {
+      "id": "d0aebf2a-040f-42d6-a3ed-43053a076808",
+      "slug": "hotel-fortuna-ancona",
+      "nome": "Hotel Fortuna",
+      "city_name": "Ancona",
+      "indirizzo": "Piazza Rosselli, 15, 60126 Ancona AN",
+      "lat": 43.606789,
+      "lng": 13.49804
+    },
+    {
+      "id": "863af18e-600e-44e4-98fc-98a5988f382e",
+      "slug": "hotel-italia-ancona-ancona",
+      "nome": "Hotel Italia - ANCONA",
+      "city_name": "Ancona",
+      "indirizzo": "Piazza Rosselli, 9, 60126 Ancona AN",
+      "lat": 43.606889,
+      "lng": 13.498289
+    },
+    {
+      "id": "9303a55a-c4e4-4f38-a894-4aedcf4bff7f",
+      "slug": "hotel-la-fonte-ancona",
+      "nome": "Hotel La Fonte",
+      "city_name": "Ancona",
+      "indirizzo": "Via Fonte Magna, 33, 60027 Osimo AN",
+      "lat": 43.487537,
+      "lng": 13.485074
+    },
+    {
+      "id": "d29de151-ff0d-48c9-b0cd-3c57b20c34dc",
+      "slug": "hotel-nh-ancona-ancona",
+      "nome": "Hotel NH Ancona",
+      "city_name": "Ancona",
+      "indirizzo": "Via Rupi di Via XXIX Settembre, 14, 60122 Ancona AN",
+      "lat": 43.615124,
+      "lng": 13.50595
+    },
+    {
+      "id": "48c80769-d5f8-45e6-a12b-47a8d758e6fe",
+      "slug": "hotel-palace-del-conero-ancona",
+      "nome": "Hotel Palace del Conero",
+      "city_name": "Ancona",
+      "indirizzo": "Via Grandi, 6, 60027 Aspio Terme AN",
+      "lat": 43.527769,
+      "lng": 13.516885
+    }
+  ]
+}

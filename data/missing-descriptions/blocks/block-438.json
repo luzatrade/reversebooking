@@ -1,0 +1,323 @@
+{
+  "block": 438,
+  "blockId": "438",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "63898aa1-fc7e-4863-b5e6-6a59070cb4d5",
+      "slug": "edelweiss-alpine-nature-hotel-carisolo",
+      "nome": "Edelweiss Alpine Nature Hotel",
+      "city_name": "Carisolo",
+      "indirizzo": "Via N. Bolognini, 120, 38086 Pinzolo TN",
+      "lat": 46.16737,
+      "lng": 10.764236
+    },
+    {
+      "id": "71a4f0b4-3e87-4dea-a479-0befd7a61482",
+      "slug": "fulun-mountain-lodge-carisolo",
+      "nome": "Fulun Mountain Lodge",
+      "city_name": "Carisolo",
+      "indirizzo": "Viale Dolomiti, 15/D, 38086 Giustino TN",
+      "lat": 46.146023,
+      "lng": 10.767281
+    },
+    {
+      "id": "8d15a554-55b6-42b8-a4b2-7d8efe1017f7",
+      "slug": "garni-al-nardis-b-b-hotel-carisolo",
+      "nome": "Garni Al Nardis b&b hotel",
+      "city_name": "Carisolo",
+      "indirizzo": "Via Roncac, 8, 38080 Carisolo TN",
+      "lat": 46.165022,
+      "lng": 10.758685
+    },
+    {
+      "id": "b3ea6cc4-e0f6-49ac-b2ff-38b9ab896e99",
+      "slug": "hotel-lory-pinzolo-carisolo",
+      "nome": "Hotel Lory Pinzolo",
+      "city_name": "Carisolo",
+      "indirizzo": "Via Sorano, 35, 38086 Pinzolo TN",
+      "lat": 46.161747,
+      "lng": 10.763177
+    },
+    {
+      "id": "7afa661c-3d83-4895-9c2b-4c21d1638ccd",
+      "slug": "lefay-resort-spa-dolomiti-carisolo",
+      "nome": "Lefay Resort & SPA Dolomiti",
+      "city_name": "Carisolo",
+      "indirizzo": "Via Alpe di Grual, 16, 38086 Pinzolo TN",
+      "lat": 46.167086,
+      "lng": 10.766358
+    },
+    {
+      "id": "161addf8-ac6d-4deb-ba7f-5324be473353",
+      "slug": "residence-rta-la-rosa-delle-dolomiti-carisolo",
+      "nome": "Residence Rta La Rosa Delle Dolomiti",
+      "city_name": "Carisolo",
+      "indirizzo": "Via Alcide de Gasperi, 5, 38080 Carisolo TN",
+      "lat": 46.168508,
+      "lng": 10.756847
+    },
+    {
+      "id": "002c0fec-1609-4461-bf32-4df13d07e704",
+      "slug": "ristorante-locanda-dal-giulio-al-frate-carisolo",
+      "nome": "Ristorante Locanda dal Giulio al Fratè",
+      "city_name": "Carisolo",
+      "indirizzo": "SS239, 5, 38086 Sant'Antonio di Mavignola TN",
+      "lat": 46.200042,
+      "lng": 10.803916
+    },
+    {
+      "id": "1af48cde-dc5f-41f6-8147-aed4cb6e98a5",
+      "slug": "agriturismo-maniero-cerulli-carlantino",
+      "nome": "Agriturismo Maniero Cerulli",
+      "city_name": "Carlantino",
+      "indirizzo": "Contrada Conca D'Oro, 71035 Celenza Valfortore FG",
+      "lat": 41.551599,
+      "lng": 14.956517
+    },
+    {
+      "id": "e056f23b-dd66-4a8d-b233-3dba831d00a4",
+      "slug": "agriturismo-occhito-carlantino",
+      "nome": "Agriturismo Occhito",
+      "city_name": "Carlantino",
+      "indirizzo": "Cda Fosso Giuriachi, 86040 Macchia Valfortore CB",
+      "lat": 41.611376,
+      "lng": 14.933382
+    },
+    {
+      "id": "8381d623-d834-4433-9337-cdd67b801f67",
+      "slug": "campo-della-corte-carlantino",
+      "nome": "Campo della Corte",
+      "city_name": "Carlantino",
+      "indirizzo": "Nucleo di Stefano, 1, 82024 Castelpagano BN",
+      "lat": 41.405453,
+      "lng": 14.786033
+    },
+    {
+      "id": "04e3d960-c20a-4ee1-b0c4-566160e8c3e0",
+      "slug": "l-oasi-di-rosi-affittacamere-carlantino",
+      "nome": "l'Oasi di Rosi - Affittacamere",
+      "city_name": "Carlantino",
+      "indirizzo": "Contrada Purgatorio, 71033 Casalnuovo Monterotaro FG",
+      "lat": 41.662451,
+      "lng": 15.087111
+    },
+    {
+      "id": "db2da3ef-ad30-408f-a9cb-556cc3c55400",
+      "slug": "camping-ranocchio-carlazzo",
+      "nome": "Camping Ranocchio",
+      "city_name": "Carlazzo",
+      "indirizzo": "Via Al Lago, 139 A, 22010 Carlazzo CO",
+      "lat": 46.040567,
+      "lng": 9.168561
+    },
+    {
+      "id": "27aa2935-aaae-453b-8432-7c95bb7ac90f",
+      "slug": "gli-ulivi-carlazzo",
+      "nome": "GLI ULIVI",
+      "city_name": "Carlazzo",
+      "indirizzo": "Via Panoramica, 58, 22010 Carlazzo CO",
+      "lat": 46.044832,
+      "lng": 9.164995
+    },
+    {
+      "id": "db4b96ba-4f6e-420e-a305-f76261608f23",
+      "slug": "hotel-europa-carlazzo",
+      "nome": "Hotel EUROPA",
+      "city_name": "Carlazzo",
+      "indirizzo": "Lungo Lago Giacomo Matteotti, 19, 22018 Porlezza CO",
+      "lat": 46.034104,
+      "lng": 9.119254
+    },
+    {
+      "id": "e05359c4-3fa6-4a79-9a1f-bee88c21f808",
+      "slug": "la-cascina-carlazzo",
+      "nome": "La Cascina",
+      "city_name": "Carlazzo",
+      "indirizzo": "22010 Carlazzo CO",
+      "lat": 46.045168,
+      "lng": 9.165354
+    },
+    {
+      "id": "b1c31762-3189-42ae-ab99-a893a141eef6",
+      "slug": "villa-isella-loggio-carlazzo",
+      "nome": "Villa Isella Loggio",
+      "city_name": "Carlazzo",
+      "indirizzo": "Via Cadreglio, 29, 22010 Carlazzo CO",
+      "lat": 46.045908,
+      "lng": 9.157262
+    },
+    {
+      "id": "7a2b1747-1282-48ec-9740-94f10a634dfb",
+      "slug": "villaggio-turistico-lago-dorato-carlazzo",
+      "nome": "Villaggio turistico lago dorato",
+      "city_name": "Carlazzo",
+      "indirizzo": "Via Al Lago, 139, 22010 Carlazzo CO",
+      "lat": 46.040592,
+      "lng": 9.168032
+    },
+    {
+      "id": "8aedd93d-6cb8-4430-a40d-58fd6085497e",
+      "slug": "workation-castle-carlazzo",
+      "nome": "Workation Castle",
+      "city_name": "Carlazzo",
+      "indirizzo": "Via Castello, 10, 22010 Castello CO",
+      "lat": 46.03893,
+      "lng": 9.14916
+    },
+    {
+      "id": "58b77d2a-6730-48b4-9800-3df8d6fa5524",
+      "slug": "agriturismo-le-chiuse-carlentini",
+      "nome": "Agriturismo Le Chiuse",
+      "city_name": "Carlentini",
+      "indirizzo": "Contrada Contado, snc, 96013 Carlentini SR",
+      "lat": 37.277002,
+      "lng": 15.052506
+    },
+    {
+      "id": "a6c628bc-d65d-4c0b-a3b5-baeeeabdc412",
+      "slug": "albergo-trattoria-del-sole-carlentini",
+      "nome": "Albergo Trattoria del Sole",
+      "city_name": "Carlentini",
+      "indirizzo": "Via Trogilo, 11, 96010 Priolo Gargallo SR",
+      "lat": 37.158145,
+      "lng": 15.190472
+    },
+    {
+      "id": "ab93d837-0d23-4289-874e-88742c1b14db",
+      "slug": "b-b-cavour-carlentini",
+      "nome": "B.& B. Cavour",
+      "city_name": "Carlentini",
+      "indirizzo": "Via Cavour, 53, 96013 Carlentini SR",
+      "lat": 37.273402,
+      "lng": 15.01651
+    },
+    {
+      "id": "50b501eb-8b96-4c8b-ab07-2f1426d77d59",
+      "slug": "b-b-vittoria-house-carlentini",
+      "nome": "B&B Vittoria House",
+      "city_name": "Carlentini",
+      "indirizzo": "Contrada Madonna Marcellino, 96013 Carlentini SR",
+      "lat": 37.309032,
+      "lng": 15.005455
+    },
+    {
+      "id": "c895ba73-faec-4951-8338-88667a94dc4a",
+      "slug": "borgo-nocchiara-carlentini",
+      "nome": "Borgo Nocchiara",
+      "city_name": "Carlentini",
+      "indirizzo": "SP95, 96010 Villasmundo SR",
+      "lat": 37.262162,
+      "lng": 15.036173
+    },
+    {
+      "id": "02791a3e-4288-4a1f-af94-2a9ba0ed6764",
+      "slug": "hotel-residence-sicilia-catania-carlentini",
+      "nome": "Hotel & Residence | Sicilia | Catania",
+      "city_name": "Carlentini",
+      "indirizzo": "Via Libeccio, 50, 95121 Catania CT",
+      "lat": 37.365393,
+      "lng": 15.088865
+    },
+    {
+      "id": "9ae038d4-44f7-4131-892a-8f89c79672ba",
+      "slug": "i-santuzzi-beb-carlentini",
+      "nome": "i Santuzzi BeB",
+      "city_name": "Carlentini",
+      "indirizzo": "V. Antonio Gramsci, 52, 96013 Carlentini Nord SR",
+      "lat": 37.295975,
+      "lng": 15.007839
+    },
+    {
+      "id": "65c8ed15-a8d2-40d6-8173-9d1d2298207f",
+      "slug": "il-giardino-del-sole-carlentini",
+      "nome": "Il Giardino del Sole",
+      "city_name": "Carlentini",
+      "indirizzo": "Contrada San Demetrio, sn, 96013 Carlentini SR",
+      "lat": 37.349659,
+      "lng": 15.042506
+    },
+    {
+      "id": "32d34b7a-176d-4f19-be40-3ae7518f7f08",
+      "slug": "la-terrazza-di-cirico-carlentini",
+      "nome": "La Terrazza di Cirico'",
+      "city_name": "Carlentini",
+      "indirizzo": "Contrada \"Ciricò, snc, 96013 Carlentini SR",
+      "lat": 37.273311,
+      "lng": 14.992668
+    },
+    {
+      "id": "0b7556b7-4403-465f-ab60-93db48c82548",
+      "slug": "le-terre-di-san-domenico-carlentini",
+      "nome": "Le Terre Di San Domenico",
+      "city_name": "Carlentini",
+      "indirizzo": "contrada san domenico sp.57 km 4 Carlentini, 96010 Brucoli SR",
+      "lat": 37.273002,
+      "lng": 15.079846
+    },
+    {
+      "id": "ff7df23c-5758-41c0-be6e-e6c6ded49770",
+      "slug": "villa-rea-comfort-relax-carlentini",
+      "nome": "Villa Rea Comfort & Relax",
+      "city_name": "Carlentini",
+      "indirizzo": "Via Padre Luciano Aletta, 6, 96013 Carlentini SR",
+      "lat": 37.267898,
+      "lng": 15.005764
+    },
+    {
+      "id": "67ba04fd-214e-4633-92dc-716898d0c394",
+      "slug": "villa-sant-antonio-carlentini",
+      "nome": "Villa Sant'Antonio",
+      "city_name": "Carlentini",
+      "indirizzo": "96011 Augusta SR",
+      "lat": 37.262569,
+      "lng": 15.158157
+    },
+    {
+      "id": "07c288f4-5215-4686-9920-0caf6c9fa420",
+      "slug": "agriturismo-i-guardiani-carlino",
+      "nome": "Agriturismo I Guardiani",
+      "city_name": "Carlino",
+      "indirizzo": "Via Levaduzza, 30, 33050 Carlino UD",
+      "lat": 45.809437,
+      "lng": 13.186022
+    },
+    {
+      "id": "4c81036e-a108-4f2e-902b-1a908a2febd7",
+      "slug": "agriturismo-il-picchio-az-vinicola-casali-aureli-carlino",
+      "nome": "Agriturismo il Picchio - Az.vinicola CASALI AURELIA",
+      "city_name": "Carlino",
+      "indirizzo": "Via Nazionale, 3, 33050 Castions di Strada UD",
+      "lat": 45.828055,
+      "lng": 13.164879
+    },
+    {
+      "id": "26e00473-fc2a-48d6-9308-4b3d1ffc7adf",
+      "slug": "alla-posta-albergo-camere-affittacamere-carlino",
+      "nome": "Alla Posta - Albergo - Camere - Affittacamere",
+      "city_name": "Carlino",
+      "indirizzo": "Via Roma, 30, 33058 San Giorgio di Nogaro UD",
+      "lat": 45.831962,
+      "lng": 13.20929
+    },
+    {
+      "id": "8c861d0a-2553-4529-8ac1-1cce5cea91e2",
+      "slug": "hotel-adria-carlino",
+      "nome": "Hotel Adria",
+      "city_name": "Carlino",
+      "indirizzo": "Viale Centrale, 23, 33054 Lignano Sabbiadoro UD",
+      "lat": 45.68559,
+      "lng": 13.135193
+    },
+    {
+      "id": "4e08658a-3f2b-4dee-8eb7-dc2c74d11e76",
+      "slug": "hotel-ambra-fronte-mare-carlino",
+      "nome": "Hotel Ambra (FRONTE MARE)",
+      "city_name": "Carlino",
+      "indirizzo": "Lungomare Trieste, 124/A, 33054 Lignano Sabbiadoro UD",
+      "lat": 45.684726,
+      "lng": 13.137775
+    }
+  ]
+}

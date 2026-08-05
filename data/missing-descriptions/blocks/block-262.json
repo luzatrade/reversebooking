@@ -1,0 +1,323 @@
+{
+  "block": 262,
+  "blockId": "262",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "e98be855-9c62-4845-a7ec-3397d519fa7c",
+      "slug": "casa-cigana-berzano-di-tortona",
+      "nome": "casa cigana",
+      "city_name": "Berzano di Tortona",
+      "indirizzo": "Strada Comunale per Vho, 15057 Tortona AL",
+      "lat": 44.877342,
+      "lng": 8.889759
+    },
+    {
+      "id": "1cfe2569-c8dc-4546-ad4e-9edd844aefb9",
+      "slug": "casa-della-seteria-sironi-berzano-di-tortona",
+      "nome": "Casa della seteria Sironi",
+      "city_name": "Berzano di Tortona",
+      "indirizzo": "Via Calcinara Ottone, 6, 15057 Tortona AL",
+      "lat": 44.896488,
+      "lng": 8.86396
+    },
+    {
+      "id": "3dd6d05a-882a-4376-ab72-206486fcbaf3",
+      "slug": "country-housetenuta-terensano-berzano-di-tortona",
+      "nome": "Country HouseTenuta Terensano",
+      "city_name": "Berzano di Tortona",
+      "indirizzo": "Corso Roma, SP100, km 4, 5, 15059 Monleale AL",
+      "lat": 44.880362,
+      "lng": 8.987512
+    },
+    {
+      "id": "2aa7868c-8c57-4a8f-9797-022af4945f5e",
+      "slug": "hotel-oasi-bar-ristorante-berzano-di-tortona",
+      "nome": "Hotel Oasi Bar Ristorante",
+      "city_name": "Berzano di Tortona",
+      "indirizzo": "Strada Statale per Voghera, 87, 15057 Tortona AL",
+      "lat": 44.908103,
+      "lng": 8.878363
+    },
+    {
+      "id": "ef963add-d53e-4644-85d9-5b13d54422f9",
+      "slug": "hotel-villa-giulia-berzano-di-tortona",
+      "nome": "Hotel Villa Giulia",
+      "city_name": "Berzano di Tortona",
+      "indirizzo": "Strada Statale per Alessandria, 7/A, 15057 Tortona AL",
+      "lat": 44.894993,
+      "lng": 8.852127
+    },
+    {
+      "id": "9025edbe-86fd-4746-824e-093587a229f3",
+      "slug": "la-corte-nascosta-volpedo-berzano-di-tortona",
+      "nome": "La Corte Nascosta Volpedo",
+      "city_name": "Berzano di Tortona",
+      "indirizzo": "Frazione Cà Barbieri, 8, 15059 Volpedo AL",
+      "lat": 44.890715,
+      "lng": 9.006184
+    },
+    {
+      "id": "40247172-b5a7-4c24-a115-e16a8330798d",
+      "slug": "montegualdone-berzano-di-tortona",
+      "nome": "Montegualdone",
+      "city_name": "Berzano di Tortona",
+      "indirizzo": "S.da Montegualdone, 13, 15050 Cascine AL",
+      "lat": 44.861873,
+      "lng": 8.913299
+    },
+    {
+      "id": "48e9c07b-d8b7-4ade-ba0f-6a7194bf9edd",
+      "slug": "volpedo-hostel-berzano-di-tortona",
+      "nome": "Volpedo Hostel",
+      "city_name": "Berzano di Tortona",
+      "indirizzo": "Via Giuseppe Mazzini, 32, 15059 Volpedo AL",
+      "lat": 44.889047,
+      "lng": 8.986009
+    },
+    {
+      "id": "55085de3-a55e-44e2-b807-bfdee817c2f8",
+      "slug": "agriturismo-il-viandante-berzo-demo",
+      "nome": "Agriturismo il Viandante",
+      "city_name": "Berzo Demo",
+      "indirizzo": "Via Medaglia D'Argento, 2, 25050 Sellero BS",
+      "lat": 46.063086,
+      "lng": 10.339879
+    },
+    {
+      "id": "f025e67a-f455-4484-af53-5254a2e564c2",
+      "slug": "agriturismo-valsaviore-berzo-demo",
+      "nome": "Agriturismo Valsaviore",
+      "city_name": "Berzo Demo",
+      "indirizzo": "Località Planost, 25040 Cevo BS",
+      "lat": 46.086608,
+      "lng": 10.378977
+    },
+    {
+      "id": "d7d11b68-f813-44a4-8505-bd9638e76715",
+      "slug": "albergo-cumili-berzo-demo",
+      "nome": "Albergo Cumili'",
+      "city_name": "Berzo Demo",
+      "indirizzo": "Via Stazione, 1, 25044 Capo di Ponte BS",
+      "lat": 46.031304,
+      "lng": 10.343522
+    },
+    {
+      "id": "05aa9eee-e902-484d-bea9-4f83c1271a08",
+      "slug": "albergo-meuble-aurora-berzo-demo",
+      "nome": "Albergo Meuble' Aurora",
+      "city_name": "Berzo Demo",
+      "indirizzo": "Via Monte Colmo, 8, 25048 Edolo BS",
+      "lat": 46.17707,
+      "lng": 10.33722
+    },
+    {
+      "id": "5d59c896-9715-4573-a4ac-21961791b07c",
+      "slug": "albergo-ristorante-pizzeria-eternita-berzo-demo",
+      "nome": "Albergo Ristorante Pizzeria Eternità",
+      "city_name": "Berzo Demo",
+      "indirizzo": "Via Nazionale, 45, 25040 Malonno BS",
+      "lat": 46.118786,
+      "lng": 10.318512
+    },
+    {
+      "id": "3e1e623a-94da-4442-8a46-de004127d27e",
+      "slug": "b-b-borno-borno-bed-breakfast-berzo-demo",
+      "nome": "B&B Borno, Borno Bed & Breakfast",
+      "city_name": "Berzo Demo",
+      "indirizzo": "Via Vittorio Veneto, 39A, 25042 Borno BS",
+      "lat": 45.946422,
+      "lng": 10.203881
+    },
+    {
+      "id": "5e804821-f71a-472b-8a20-5249bae7549e",
+      "slug": "b-b-il-pettirosso-berzo-demo",
+      "nome": "B&B Il Pettirosso",
+      "city_name": "Berzo Demo",
+      "indirizzo": "Via Guglielmo Marconi, 25, 25040 Malonno BS",
+      "lat": 46.118238,
+      "lng": 10.313532
+    },
+    {
+      "id": "2156e5eb-ee3c-4fc2-88ad-39976e14d8b3",
+      "slug": "b-b-le-aquane-berzo-demo",
+      "nome": "B&B LE AQUANE",
+      "city_name": "Berzo Demo",
+      "indirizzo": "V. Mossino, 1, 25040 Ono San Pietro BS",
+      "lat": 46.017084,
+      "lng": 10.327197
+    },
+    {
+      "id": "ba46067e-9737-4823-8cf9-ad8f9cd9e31d",
+      "slug": "b-b-san-rocco-berzo-demo",
+      "nome": "B&B San Rocco",
+      "city_name": "Berzo Demo",
+      "indirizzo": "Via 25 Aprile, 30, 25044 Capo di Ponte BS",
+      "lat": 46.035439,
+      "lng": 10.347078
+    },
+    {
+      "id": "d1f04518-d475-44da-b384-a84c407b8775",
+      "slug": "b-b-valtili-berzo-demo",
+      "nome": "B&B Valtili",
+      "city_name": "Berzo Demo",
+      "indirizzo": "Località Valtilì, 1, 25040 Berzo Demo BS",
+      "lat": 46.084082,
+      "lng": 10.328047
+    },
+    {
+      "id": "6da020e7-aff2-4d2d-8bab-e15da6d11eaa",
+      "slug": "bed-breakfast-alla-fontana-berzo-demo",
+      "nome": "Bed & Breakfast \"Alla Fontana\"",
+      "city_name": "Berzo Demo",
+      "indirizzo": "Via S. Paolo, 46, 25040 Villa BS",
+      "lat": 45.994069,
+      "lng": 10.231812
+    },
+    {
+      "id": "250acf33-a073-4679-a279-d27690cb0c30",
+      "slug": "camere-ca-tunin-a-pochi-minuti-a-piedi-dalla-sta-berzo-demo",
+      "nome": "CAMERE CA' TUNIN . A pochi minuti a piedi dalla stazione retica e italiana. Ideale per il Trenino Rosso.",
+      "city_name": "Berzo Demo",
+      "indirizzo": "Via don Luigi Albonico, 18, 23037 Tirano SO",
+      "lat": 46.21613,
+      "lng": 10.174127
+    },
+    {
+      "id": "063468e8-34f7-433c-87b1-7b27cf54119b",
+      "slug": "camping-chalet-pian-della-regina-berzo-demo",
+      "nome": "Camping & Chalet Pian della Regina",
+      "city_name": "Berzo Demo",
+      "indirizzo": "Loc. Plà de le Egie, 25040 Cevo BS",
+      "lat": 46.086575,
+      "lng": 10.369115
+    },
+    {
+      "id": "195f77c6-05ad-41a3-86a8-1ab07f804ba4",
+      "slug": "corte-giorgi-b-b-berzo-demo",
+      "nome": "Corte Giorgi B&B",
+      "city_name": "Berzo Demo",
+      "indirizzo": "Via Foppo, 49, 25043 Breno BS",
+      "lat": 45.959283,
+      "lng": 10.308436
+    },
+    {
+      "id": "2fcd5751-1c18-491b-8928-4dfd13a89202",
+      "slug": "foresteria-antica-farmacia-berzo-demo",
+      "nome": "Foresteria Antica Farmacia",
+      "city_name": "Berzo Demo",
+      "indirizzo": "Via Nazionale, n° 4, 25051 Cedegolo BS",
+      "lat": 46.077708,
+      "lng": 10.34883
+    },
+    {
+      "id": "761c7b1e-3310-48e2-9756-e60b714b579d",
+      "slug": "foresteria-sopra-le-nuvole-berzo-demo",
+      "nome": "Foresteria Sopra le Nuvole",
+      "city_name": "Berzo Demo",
+      "indirizzo": "Via Pineta, 10, 25040 Cevo BS",
+      "lat": 46.081578,
+      "lng": 10.370909
+    },
+    {
+      "id": "b91ff990-2ff4-4741-9ade-8f21239543be",
+      "slug": "perbaccobar-bed-and-breakfast-brescia-berzo-demo",
+      "nome": "PerBaccoBar Bed and Breakfast Brescia",
+      "city_name": "Berzo Demo",
+      "indirizzo": "Via Nuova, 2, 25040 Ono San Pietro BS",
+      "lat": 46.01711,
+      "lng": 10.32586
+    },
+    {
+      "id": "ddee78ed-e613-48a9-bfb4-f71c46ec16b7",
+      "slug": "apartment-suite-oasi-verde-berzo-inferiore",
+      "nome": "Apartment Suite Oasi Verde",
+      "city_name": "Berzo Inferiore",
+      "indirizzo": "Via dei Tornanti, 4, 25040 Bienno BS",
+      "lat": 45.930663,
+      "lng": 10.309107
+    },
+    {
+      "id": "56bb50d2-95c1-4b7c-9308-90b002c0fcaf",
+      "slug": "b-b-la-casa-di-clara-berzo-inferiore",
+      "nome": "B & B \"La Casa di Clara\"",
+      "city_name": "Berzo Inferiore",
+      "indirizzo": "Via Alessandro Manzoni, 38, 25040 Esine BS",
+      "lat": 45.925617,
+      "lng": 10.253763
+    },
+    {
+      "id": "35f9d405-028b-42c3-9feb-95acac40d7cd",
+      "slug": "b-b-a-la-ria-berzo-inferiore",
+      "nome": "B&B a la Ria",
+      "city_name": "Berzo Inferiore",
+      "indirizzo": "Via Ripa, 117, 25040 Bienno BS",
+      "lat": 45.93389,
+      "lng": 10.29562
+    },
+    {
+      "id": "a7b19e5a-dd61-402b-9ee6-c83f57816b36",
+      "slug": "eremo-di-bienno-berzo-inferiore",
+      "nome": "Eremo di Bienno",
+      "city_name": "Berzo Inferiore",
+      "indirizzo": "Via San Pietro, 11, 25040 Bienno BS",
+      "lat": 45.944327,
+      "lng": 10.285699
+    },
+    {
+      "id": "3133280f-523d-415b-b1c8-4dabe660b10b",
+      "slug": "graffitipark-hotel-ristorante-berzo-inferiore",
+      "nome": "Graffitipark Hotel Ristorante",
+      "city_name": "Berzo Inferiore",
+      "indirizzo": "Via Sebastiano Briscioli, 42, 25044 Capo di Ponte BS",
+      "lat": 46.027134,
+      "lng": 10.34556
+    },
+    {
+      "id": "732fb496-f13a-4a90-ae84-2364a12336d8",
+      "slug": "hotel-giardino-breno-berzo-inferiore",
+      "nome": "Hotel Giardino Breno",
+      "city_name": "Berzo Inferiore",
+      "indirizzo": "Viale 28 Aprile, 7, 25043 Breno BS",
+      "lat": 45.958099,
+      "lng": 10.303936
+    },
+    {
+      "id": "e5994177-6edd-4e20-85c8-353793de883a",
+      "slug": "hotel-ristorante-oasi-verde-berzo-inferiore",
+      "nome": "Hotel Ristorante Oasi Verde",
+      "city_name": "Berzo Inferiore",
+      "indirizzo": "Via dei Tornanti, 4, 25040 Bienno BS",
+      "lat": 45.930538,
+      "lng": 10.309578
+    },
+    {
+      "id": "e84004a8-a50d-45df-ad7b-c425f4cbc11b",
+      "slug": "la-torre-a-colori-b-b-berzo-inferiore",
+      "nome": "La Torre a Colori B&B",
+      "city_name": "Berzo Inferiore",
+      "indirizzo": "Via Torre, 21, 25040 Esine BS",
+      "lat": 45.923406,
+      "lng": 10.256188
+    },
+    {
+      "id": "9dcc51ec-7b88-47f6-befc-6696f940d625",
+      "slug": "manzoni-124-berzo-inferiore",
+      "nome": "Manzoni 124",
+      "city_name": "Berzo Inferiore",
+      "indirizzo": "Via Alessandro Manzoni, 124, 25040 Esine BS",
+      "lat": 45.926445,
+      "lng": 10.246168
+    },
+    {
+      "id": "d5a15dcd-660f-485f-a95b-e840b45f1873",
+      "slug": "pasticceria-caffetteria-bed-and-breakfast-quadre-berzo-inferiore",
+      "nome": "Pasticceria Caffetteria Bed and Breakfast Quadretto",
+      "city_name": "Berzo Inferiore",
+      "indirizzo": "Via Contrizio, 32, 25040 Bienno BS",
+      "lat": 45.934569,
+      "lng": 10.295869
+    }
+  ]
+}

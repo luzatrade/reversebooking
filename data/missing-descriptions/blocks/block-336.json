@@ -1,0 +1,323 @@
+{
+  "block": 336,
+  "blockId": "336",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "0f06c9d1-cae8-4497-81ba-9c603d6c9ca0",
+      "slug": "chambres-d-hotes-a-barma-drola-brusson",
+      "nome": "Chambres d'hotes A Barma Drola",
+      "city_name": "Brusson",
+      "indirizzo": "Frazione Estoul 18, 11022 Brusson AO",
+      "lat": 45.756808,
+      "lng": 7.7616
+    },
+    {
+      "id": "a26bca2d-a412-4dda-a8a8-2a84e368cc68",
+      "slug": "chambres-d-hotes-le-coin-des-melezes-brusson",
+      "nome": "Chambres d'Hòtes\" Le Coin Des Mélèzes\"",
+      "city_name": "Brusson",
+      "indirizzo": "Località Fenilliettaz, 31, 11022 Estoul AO",
+      "lat": 45.760585,
+      "lng": 7.766359
+    },
+    {
+      "id": "132dcfc6-e36f-4a20-91e2-717efda02c18",
+      "slug": "hotel-beau-site-brusson",
+      "nome": "Hotel Beau Site",
+      "city_name": "Brusson",
+      "indirizzo": "Rue Trois Villages, 4, 11022 Brusson AO",
+      "lat": 45.756463,
+      "lng": 7.734454
+    },
+    {
+      "id": "fa3c0928-e797-4c5a-b9f0-920c781a248a",
+      "slug": "la-maison-de-dolphe-chalet-de-charme-a-brusson-brusson",
+      "nome": "La Maison de Dolphe - Chalet de Charme a Brusson",
+      "city_name": "Brusson",
+      "indirizzo": "Loc, 11022 Brusson AO",
+      "lat": 45.759398,
+      "lng": 7.71606
+    },
+    {
+      "id": "4d82a5dc-7173-43aa-80b9-ebbdbe7990b2",
+      "slug": "laghetto-brusson",
+      "nome": "Laghetto",
+      "city_name": "Brusson",
+      "indirizzo": "Rue Trois Villages, 291, 11022 Brusson AO",
+      "lat": 45.760814,
+      "lng": 7.721395
+    },
+    {
+      "id": "2999b6b6-fec9-479b-8473-2ae9447df8f1",
+      "slug": "les-hiboux-brusson",
+      "nome": "Les Hiboux",
+      "city_name": "Brusson",
+      "indirizzo": "Hameau Ponteil, 24, 11022 Brusson AO",
+      "lat": 45.751924,
+      "lng": 7.738724
+    },
+    {
+      "id": "4d6dfc5e-0c27-413a-aa15-42602a686fbe",
+      "slug": "mi-casa-tu-casa-brusson",
+      "nome": "Mi casa tu casa",
+      "city_name": "Brusson",
+      "indirizzo": "Rue de l'Eglise, 79, 11022 Brusson AO",
+      "lat": 45.780131,
+      "lng": 7.697996
+    },
+    {
+      "id": "1c41da38-46bb-441b-b7af-0c030e4abb4c",
+      "slug": "residence-aquila-brusson",
+      "nome": "Residence Aquila",
+      "city_name": "Brusson",
+      "indirizzo": "Rue Trois Villages, 63, 11022 Brusson AO",
+      "lat": 45.758207,
+      "lng": 7.731523
+    },
+    {
+      "id": "a9d46b5a-9785-4eb2-b594-d28a80a5ba9f",
+      "slug": "valley-vacanze-brusson",
+      "nome": "Valley Vacanze",
+      "city_name": "Brusson",
+      "indirizzo": "Rue Valley, 38, 11022 Brusson AO",
+      "lat": 45.759831,
+      "lng": 7.734603
+    },
+    {
+      "id": "f0be10c4-fb98-40f4-8921-077c27b093e5",
+      "slug": "b-b-la-petite-maison-coazze-bruzolo",
+      "nome": "B&B La Petite Maison Coazze",
+      "city_name": "Bruzolo",
+      "indirizzo": "Via Matteotti, 130, 10050 Coazze TO",
+      "lat": 45.051187,
+      "lng": 7.300949
+    },
+    {
+      "id": "1c2a3d73-05e4-4555-b177-e3d43f7a9c0b",
+      "slug": "b-b-terra-di-confine-bruzolo",
+      "nome": "B&B Terra di confine",
+      "city_name": "Bruzolo",
+      "indirizzo": "Via Roma, 89, 10050 Venaus TO",
+      "lat": 45.152529,
+      "lng": 7.012118
+    },
+    {
+      "id": "6ed59179-38ed-46e7-84f6-e3c46f225c92",
+      "slug": "la-meizoun-blancho-bruzolo",
+      "nome": "La Meizoun Blancho",
+      "city_name": "Bruzolo",
+      "indirizzo": "Via Grange, 10, 10060 Fenestrelle TO",
+      "lat": 45.024263,
+      "lng": 7.083923
+    },
+    {
+      "id": "03ae3f97-604e-4459-829a-c6bfa61f51fa",
+      "slug": "relais-des-alpes-bruzolo",
+      "nome": "Relais des Alpes",
+      "city_name": "Bruzolo",
+      "indirizzo": "Frazione S. Lorenzo, 82, 10050 Giaglione TO",
+      "lat": 45.136682,
+      "lng": 7.01277
+    },
+    {
+      "id": "44aa5735-abc3-4f66-a36b-40a3f6e41d31",
+      "slug": "yamabushi-bed-breakfast-bruzolo",
+      "nome": "Yamabushi Bed & Breakfast",
+      "city_name": "Bruzolo",
+      "indirizzo": "Via Cresta Fiorita, 10, 10050 Gravere TO",
+      "lat": 45.121025,
+      "lng": 7.023902
+    },
+    {
+      "id": "7de9f05f-a34c-4cad-9f3b-71028bbf5896",
+      "slug": "villa-francesca-e-cristina-bruzzano-zeffirio",
+      "nome": "Villa francesca e cristina",
+      "city_name": "Bruzzano Zeffirio",
+      "indirizzo": "89030 Ferruzzano RC",
+      "lat": 38.008782,
+      "lng": 16.129902
+    },
+    {
+      "id": "6e2e9866-cc3e-4743-bc57-48da075f8fc6",
+      "slug": "b-b-la-corte-bubbiano",
+      "nome": "B&B La Corte",
+      "city_name": "Bubbiano",
+      "indirizzo": "Via Battisti, 48, 27022 Casorate Primo PV",
+      "lat": 45.311399,
+      "lng": 9.013308
+    },
+    {
+      "id": "37cc817b-b04f-452d-b870-0778509e9aec",
+      "slug": "agriturismo-mondo-bubbio",
+      "nome": "Agriturismo Mondo",
+      "city_name": "Bubbio",
+      "indirizzo": "Regione Stropeta, 100, 14051 Bubbio AT",
+      "lat": 44.661756,
+      "lng": 8.28574
+    },
+    {
+      "id": "5c7214d3-a379-404d-be1b-8447529bc9c8",
+      "slug": "agriturismo-tre-colline-in-langa-bubbio",
+      "nome": "Agriturismo Tre colline in langa",
+      "city_name": "Bubbio",
+      "indirizzo": "SP25, 157, 14051 Bubbio AT",
+      "lat": 44.669862,
+      "lng": 8.289737
+    },
+    {
+      "id": "8d4883bc-5686-4cc5-afca-a7ce336fca12",
+      "slug": "b-b-cascina-sant-elena-bubbio",
+      "nome": "B&B Cascina Sant'Elena",
+      "city_name": "Bubbio",
+      "indirizzo": "Regione Tatorba, 70, 14051 Bubbio AT",
+      "lat": 44.62916,
+      "lng": 8.294865
+    },
+    {
+      "id": "46f09830-b3e6-444b-a4b9-b1825cadccb3",
+      "slug": "ca-d-becon-di-cresta-rita-bubbio",
+      "nome": "Ca d' Becon di Cresta Rita",
+      "city_name": "Bubbio",
+      "indirizzo": "Via Giarone, N. 11, 14051 Bubbio AT",
+      "lat": 44.663237,
+      "lng": 8.301024
+    },
+    {
+      "id": "c65cad22-4c32-47f7-bfcf-abc5c9d6575f",
+      "slug": "il-castello-di-bubbio-hotel-ristorante-bubbio",
+      "nome": "Il Castello di Bubbio Hotel Ristorante",
+      "city_name": "Bubbio",
+      "indirizzo": "Piazza del Castello, 1, 14051 Bubbio AT",
+      "lat": 44.661991,
+      "lng": 8.295141
+    },
+    {
+      "id": "d3750cc3-e4b3-43cc-8d36-f17f78d7b817",
+      "slug": "la-casa-dei-caprioli-bubbio",
+      "nome": "La Casa dei Caprioli",
+      "city_name": "Bubbio",
+      "indirizzo": "Regione Sant Antonio, 83, 14051 Bubbio AT",
+      "lat": 44.646886,
+      "lng": 8.289811
+    },
+    {
+      "id": "d8ce1283-6ac9-4271-9944-5c65ffebc3f0",
+      "slug": "ristorante-hotel-la-magnolia-bubbio",
+      "nome": "Ristorante hotel \"La Magnolia\"",
+      "city_name": "Bubbio",
+      "indirizzo": "Regione grassi, 48, 14051 Bubbio AT",
+      "lat": 44.636462,
+      "lng": 8.288872
+    },
+    {
+      "id": "f2a106aa-96d1-430b-bcaa-46e09a1bc023",
+      "slug": "villa-sibilla-agriturismo-di-charme-bubbio",
+      "nome": "Villa Sibilla - Agriturismo di Charme",
+      "city_name": "Bubbio",
+      "indirizzo": "Via S. Giuseppe, 12, 14051 Bubbio AT",
+      "lat": 44.663197,
+      "lng": 8.295221
+    },
+    {
+      "id": "c12239c5-d8f4-497e-bf66-0995b729a342",
+      "slug": "agriturismo-a-cunziria-buccheri",
+      "nome": "Agriturismo A'Cunziria",
+      "city_name": "Buccheri",
+      "indirizzo": "Contrada, Via Masera, 95049 Vizzini CT",
+      "lat": 37.164949,
+      "lng": 14.752607
+    },
+    {
+      "id": "7d7d86db-f2f0-49c4-a7ff-e521d8f87a4a",
+      "slug": "agriturismo-casmene-buccheri",
+      "nome": "Agriturismo Casmene",
+      "city_name": "Buccheri",
+      "indirizzo": "Contrada Guffari s.n, 96010 Buscemi SR",
+      "lat": 37.107421,
+      "lng": 14.828883
+    },
+    {
+      "id": "aecc1983-54fd-49dc-950f-80de14a1a7d7",
+      "slug": "agriturismo-giannavi-buccheri",
+      "nome": "Agriturismo Giannavi'",
+      "city_name": "Buccheri",
+      "indirizzo": "Contrada Giannavi' sp 23, 96010 Palazzolo Acreide SR",
+      "lat": 37.036704,
+      "lng": 14.861499
+    },
+    {
+      "id": "a3f2538a-24f2-4603-b6ac-6d6a4500af7a",
+      "slug": "agriturismo-roccadia-buccheri",
+      "nome": "Agriturismo Roccadia",
+      "city_name": "Buccheri",
+      "indirizzo": "C.Da Roccadia Sn, 96013 Carlentini SR",
+      "lat": 37.262702,
+      "lng": 15.032105
+    },
+    {
+      "id": "470bd125-a978-4e1f-912f-f0935720ba0e",
+      "slug": "agriturismo-valle-di-chiaramonte-buccheri",
+      "nome": "Agriturismo Valle Di Chiaramonte",
+      "city_name": "Buccheri",
+      "indirizzo": "Contrada Piano Zacchi Pantanelli, 97012 Chiaramonte Gulfi RG",
+      "lat": 37.054884,
+      "lng": 14.666217
+    },
+    {
+      "id": "e688b015-7d00-49d8-ab64-1485c02e875d",
+      "slug": "amecasa-accoglienza-diffusa-buccheri",
+      "nome": "Amecasa accoglienza diffusa",
+      "city_name": "Buccheri",
+      "indirizzo": "Corso Umberto I, 127, 95040 Licodia Eubea CT",
+      "lat": 37.156877,
+      "lng": 14.705041
+    },
+    {
+      "id": "14b7d03b-71d3-4730-8e8e-127d5930236b",
+      "slug": "borgo-degli-ulivi-buccheri",
+      "nome": "Borgo degli Ulivi",
+      "city_name": "Buccheri",
+      "indirizzo": "C.da Bibbia, 96010 Palazzolo Acreide SR",
+      "lat": 37.079948,
+      "lng": 15.029291
+    },
+    {
+      "id": "8d4bdff4-e71b-4ace-bfa2-4b81ffdf6a5e",
+      "slug": "dimore-hyblon-buccheri",
+      "nome": "Dimore Hyblon",
+      "city_name": "Buccheri",
+      "indirizzo": "Piazza Matrice, 2, 96010 Cassaro SR",
+      "lat": 37.10603,
+      "lng": 14.949555
+    },
+    {
+      "id": "56232100-9598-4843-80d4-8f839af17c63",
+      "slug": "domus-hyblaea-resort-buccheri",
+      "nome": "Domus Hyblaea Resort",
+      "city_name": "Buccheri",
+      "indirizzo": "Via Giuseppe Campailla, snc, 96010 Palazzolo Acreide SR",
+      "lat": 37.07159,
+      "lng": 14.916802
+    },
+    {
+      "id": "5b943072-5537-4e89-b5f3-76417ac58562",
+      "slug": "feudo-bauly-ristorante-hotel-ricevimenti-buccheri",
+      "nome": "Feudo Bauly - Ristorante, Hotel, Ricevimenti",
+      "city_name": "Buccheri",
+      "indirizzo": "C/da Bauly, 96017 Noto SR",
+      "lat": 37.035968,
+      "lng": 14.933967
+    },
+    {
+      "id": "9f17c7b9-7379-40ea-ab9d-9d345d394f3a",
+      "slug": "il-borghetto-di-santa-lucia-buccheri",
+      "nome": "Il Borghetto di Santa Lucia",
+      "city_name": "Buccheri",
+      "indirizzo": "Contrada Santa Lucia, 96017, 96017 Noto SR",
+      "lat": 37.03957,
+      "lng": 14.906282
+    }
+  ]
+}

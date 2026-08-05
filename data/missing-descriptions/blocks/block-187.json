@@ -1,0 +1,323 @@
+{
+  "block": 187,
+  "blockId": "187",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "04ea3f54-9ec6-4edb-a10c-e41ddbf7fcc5",
+      "slug": "b-b-bagnolo-mella-azzano-mella",
+      "nome": "B&B Bagnolo Mella",
+      "city_name": "Azzano Mella",
+      "indirizzo": "Via Antonio Gramsci, 164, 25021 Bagnolo Mella BS",
+      "lat": 45.427257,
+      "lng": 10.184366
+    },
+    {
+      "id": "e94cd29b-cc80-40dd-9125-9a8fe37b223f",
+      "slug": "bar-locanda-crocevia-azzano-mella",
+      "nome": "Bar Locanda Crocevia",
+      "city_name": "Azzano Mella",
+      "indirizzo": "Viale Caduti del Lavoro, 62, 25030 Castel Mella BS",
+      "lat": 45.492618,
+      "lng": 10.157366
+    },
+    {
+      "id": "fdbc0f03-b6bd-48c0-8f8e-f7b73c8576fa",
+      "slug": "bed-and-breakfast-la-terrazza-azzano-mella",
+      "nome": "Bed And Breakfast la Terrazza",
+      "city_name": "Azzano Mella",
+      "indirizzo": "Viale della Stazione, 33, 25122 Brescia BS",
+      "lat": 45.533225,
+      "lng": 10.213018
+    },
+    {
+      "id": "8beb937a-b56d-4783-b91c-0992d8e986cc",
+      "slug": "hotel-antica-fonte-azzano-mella",
+      "nome": "Hotel Antica Fonte",
+      "city_name": "Azzano Mella",
+      "indirizzo": "Via Fornaci, 34, 25131 Brescia BS",
+      "lat": 45.500614,
+      "lng": 10.168039
+    },
+    {
+      "id": "e9e541b3-1c89-4b78-8723-2c68773828b6",
+      "slug": "hotel-della-volta-azzano-mella",
+      "nome": "Hotel Della Volta",
+      "city_name": "Azzano Mella",
+      "indirizzo": "Via della Volta, 101, 25124 Brescia BS",
+      "lat": 45.512001,
+      "lng": 10.226058
+    },
+    {
+      "id": "19b31d0a-d2e9-4b27-b530-86565cb99058",
+      "slug": "hotel-euro-azzano-mella",
+      "nome": "Hotel Euro",
+      "city_name": "Azzano Mella",
+      "indirizzo": "Via Padana Superiore, 60, 25045 Castegnato BS",
+      "lat": 45.553496,
+      "lng": 10.112497
+    },
+    {
+      "id": "b48932c6-4d61-4875-b3c9-6519ee44d8d5",
+      "slug": "hotel-fiera-di-brescia-azzano-mella",
+      "nome": "Hotel Fiera di Brescia",
+      "city_name": "Azzano Mella",
+      "indirizzo": "Via Orzinuovi, 135/139, 25125 Brescia BS",
+      "lat": 45.531478,
+      "lng": 10.17653
+    },
+    {
+      "id": "5d3632ab-850f-4869-b1e1-9e9b6c3e7774",
+      "slug": "hotel-l-amalfitana-azzano-mella",
+      "nome": "Hotel L'Amalfitana",
+      "city_name": "Azzano Mella",
+      "indirizzo": "SP9, 8, 25020 Dello BS",
+      "lat": 45.400067,
+      "lng": 10.070605
+    },
+    {
+      "id": "15b0923e-7b9e-4afa-9fb6-ffac3d221710",
+      "slug": "hotel-master-azzano-mella",
+      "nome": "Hotel Master",
+      "city_name": "Azzano Mella",
+      "indirizzo": "Via Luigi Apollonio, 72, 25128 Brescia BS",
+      "lat": 45.545928,
+      "lng": 10.224306
+    },
+    {
+      "id": "3e07a996-f14b-4be0-a788-431990163e6a",
+      "slug": "hotel-primotel-azzano-mella",
+      "nome": "Hotel PriMotel",
+      "city_name": "Azzano Mella",
+      "indirizzo": "Via Borgosatollo, 30, 25124 Brescia BS",
+      "lat": 45.511163,
+      "lng": 10.230074
+    },
+    {
+      "id": "f7e3642f-019b-406d-a6b2-e0713fd0a5a7",
+      "slug": "il-colle-azzano-mella",
+      "nome": "Il Colle",
+      "city_name": "Azzano Mella",
+      "indirizzo": "PIAZZA MAZZINI, 14, 25020 Capriano del Colle BS",
+      "lat": 45.45503,
+      "lng": 10.128668
+    },
+    {
+      "id": "18cc1d63-4fb0-4e37-9abb-ed792020f437",
+      "slug": "la-casa-di-olga-azzano-mella",
+      "nome": "La Casa di Olga",
+      "city_name": "Azzano Mella",
+      "indirizzo": "Via Donatello, 269, 25124 Brescia BS",
+      "lat": 45.52108,
+      "lng": 10.250458
+    },
+    {
+      "id": "44abe284-152a-4203-a10d-343938c5ab49",
+      "slug": "le-camere-di-linda-azzano-mella",
+      "nome": "Le Camere Di Linda",
+      "city_name": "Azzano Mella",
+      "indirizzo": "Via Pier Paolo Gorini, 6, 25123 Brescia BS",
+      "lat": 45.55302,
+      "lng": 10.228618
+    },
+    {
+      "id": "24e9fb2e-90ef-4112-a2df-188f2298c28e",
+      "slug": "b-b-aeroporto-azzano-san-paolo",
+      "nome": "B&B Aeroporto",
+      "city_name": "Azzano San Paolo",
+      "indirizzo": "Piazza IV Novembre, 22, 24052 Azzano San Paolo BG",
+      "lat": 45.66037,
+      "lng": 9.675964
+    },
+    {
+      "id": "1b8ef3f3-74ab-4ce7-bb44-a75fc748ec69",
+      "slug": "bergamo-city-self-check-in-azzano-san-paolo",
+      "nome": "Bergamo City - Self Check-in",
+      "city_name": "Azzano San Paolo",
+      "indirizzo": "Via Edmondo de Amicis, 4, 24127 Bergamo BG",
+      "lat": 45.688042,
+      "lng": 9.656149
+    },
+    {
+      "id": "51796038-8b6d-4da0-9911-3d9bb627bd72",
+      "slug": "bergamoinhome-azzano-san-paolo",
+      "nome": "Bergamoinhome",
+      "city_name": "Azzano San Paolo",
+      "indirizzo": "Via S. Bernardino, 88, 24126 Bergamo BG",
+      "lat": 45.683513,
+      "lng": 9.662606
+    },
+    {
+      "id": "17b7688f-7e6e-44ac-a6ff-bce28940db72",
+      "slug": "bonne-nuit-guest-house-airport-orio-al-serio-bgy-azzano-san-paolo",
+      "nome": "Bonne Nuit Guest House - Airport Orio al Serio BGY",
+      "city_name": "Azzano San Paolo",
+      "indirizzo": "Via Cascina Portichetto, 3B, 24052 Azzano San Paolo BG",
+      "lat": 45.65517,
+      "lng": 9.686871
+    },
+    {
+      "id": "8dc66fb6-97a8-4c09-a50d-39f4939a90b4",
+      "slug": "casa-leonardo-airport-azzano-san-paolo",
+      "nome": "Casa Leonardo Airport",
+      "city_name": "Azzano San Paolo",
+      "indirizzo": "Viale Trieste, 29, 24052 Azzano San Paolo BG",
+      "lat": 45.662619,
+      "lng": 9.677583
+    },
+    {
+      "id": "e1cc5450-7b71-46ca-b8b5-c66c7a70d21e",
+      "slug": "elements-b-b-azzano-san-paolo",
+      "nome": "Elements B&B",
+      "city_name": "Azzano San Paolo",
+      "indirizzo": "Piazza F.lli Piacentini, 16, 24052 Azzano San Paolo BG",
+      "lat": 45.661431,
+      "lng": 9.672127
+    },
+    {
+      "id": "2eca9590-6fa9-440b-9691-85633cf96779",
+      "slug": "foresteria-giulia-azzano-san-paolo",
+      "nome": "Foresteria Giulia",
+      "city_name": "Azzano San Paolo",
+      "indirizzo": "Via Ferruccio dell'Orto, 24, 24126 Bergamo BG",
+      "lat": 45.679739,
+      "lng": 9.675098
+    },
+    {
+      "id": "9bbcd6ee-033e-40d8-b59c-638185368a07",
+      "slug": "grand-hotel-del-parco-azzano-san-paolo",
+      "nome": "Grand Hotel Del Parco",
+      "city_name": "Azzano San Paolo",
+      "indirizzo": "Via Galeno, 8/14, 24040 Stezzano BG",
+      "lat": 45.642938,
+      "lng": 9.657032
+    },
+    {
+      "id": "8752fb34-2380-4842-967e-c53401778519",
+      "slug": "hotel-cascata-azzano-san-paolo",
+      "nome": "Hotel Cascata",
+      "city_name": "Azzano San Paolo",
+      "indirizzo": "Viale Trieste, 28, 24052 Azzano San Paolo BG",
+      "lat": 45.662476,
+      "lng": 9.678608
+    },
+    {
+      "id": "02688344-ef23-4a19-b195-227496515552",
+      "slug": "like-home-boutique-hotel-bergamo-azzano-san-paolo",
+      "nome": "Like Home - Boutique Hotel Bergamo",
+      "city_name": "Azzano San Paolo",
+      "indirizzo": "Via Giacomo Leopardi, 1, 24052 Azzano San Paolo BG",
+      "lat": 45.666211,
+      "lng": 9.674421
+    },
+    {
+      "id": "82a95840-9d8e-4d6c-95fd-548ce2c21cf5",
+      "slug": "little-house-leonardo-airport-azzano-san-paolo",
+      "nome": "Little House Leonardo Airport",
+      "city_name": "Azzano San Paolo",
+      "indirizzo": "Via Galileo Galilei, 1, 24052 Azzano San Paolo BG",
+      "lat": 45.666554,
+      "lng": 9.674758
+    },
+    {
+      "id": "51a31eff-5614-4834-abfd-060348a4de23",
+      "slug": "villafiore-azzano-san-paolo",
+      "nome": "VILLAFIORE",
+      "city_name": "Azzano San Paolo",
+      "indirizzo": "Via Giosuè Carducci, 21, 24052 Azzano San Paolo BG",
+      "lat": 45.654409,
+      "lng": 9.664884
+    },
+    {
+      "id": "b5c3812c-7c17-490e-ad33-beef5686f407",
+      "slug": "winter-garden-hotel-azzano-san-paolo",
+      "nome": "Winter Garden Hotel",
+      "city_name": "Azzano San Paolo",
+      "indirizzo": "Via Padergnone, 52, 24050 Grassobbio BG",
+      "lat": 45.650558,
+      "lng": 9.706003
+    },
+    {
+      "id": "af80f11e-de2b-4d5a-a11d-ef958278fd84",
+      "slug": "b-b-7-laghi-azzate",
+      "nome": "B&B 7 laghi",
+      "city_name": "Azzate",
+      "indirizzo": "Via Bellini, 12 D, 21020 Buguggiate VA",
+      "lat": 45.784368,
+      "lng": 8.80414
+    },
+    {
+      "id": "12c920bf-70d5-4a66-9646-cbd662c14aa4",
+      "slug": "b-b-mansarda-pascoli-azzate",
+      "nome": "B&B Mansarda Pascoli",
+      "city_name": "Azzate",
+      "indirizzo": "Via Pascoli, 3, 21046 Malnate VA",
+      "lat": 45.798862,
+      "lng": 8.882699
+    },
+    {
+      "id": "cf758468-e550-4500-bb38-0ff1d3af346b",
+      "slug": "capolago-hotel-azzate",
+      "nome": "CAPOLAGO HOTEL",
+      "city_name": "Azzate",
+      "indirizzo": "Via per Bodio, 74, 21100 Varese VA",
+      "lat": 45.793678,
+      "lng": 8.802434
+    },
+    {
+      "id": "624a6288-86e9-42e7-9d1a-088932ffb370",
+      "slug": "ermo-colle-azzate",
+      "nome": "Ermo Colle",
+      "city_name": "Azzate",
+      "indirizzo": "Via Giacomo Leopardi, 31, 21022 Azzate VA",
+      "lat": 45.776312,
+      "lng": 8.795976
+    },
+    {
+      "id": "8ee646da-5cfe-46da-ac6d-e3dacc4c9a7c",
+      "slug": "hotel-locanda-dei-mai-intees-azzate",
+      "nome": "Hotel Locanda Dei Mai Intees",
+      "city_name": "Azzate",
+      "indirizzo": "Via Monte Grappa, 22, 21022 Azzate VA",
+      "lat": 45.781564,
+      "lng": 8.796033
+    },
+    {
+      "id": "f9075972-4d4f-4329-9f4e-62fe1e52ab96",
+      "slug": "hotel-villa-borghi-azzate",
+      "nome": "Hotel Villa Borghi",
+      "city_name": "Azzate",
+      "indirizzo": "Piazza Borghi, 1, 21020 Varano Borghi VA",
+      "lat": 45.77285,
+      "lng": 8.703851
+    },
+    {
+      "id": "327fd3bb-02eb-4a75-9374-2fbfdf1e9bf2",
+      "slug": "ristorante-hotel-villa-baroni-azzate",
+      "nome": "Ristorante - Hotel Villa Baroni",
+      "city_name": "Azzate",
+      "indirizzo": "Via Acquadro, 14, 21020 Bodio Lomnago VA",
+      "lat": 45.794565,
+      "lng": 8.755603
+    },
+    {
+      "id": "1340c687-f3ab-4325-b6ee-04ee81b67a6f",
+      "slug": "villa-cagnola-azzate",
+      "nome": "Villa Cagnola",
+      "city_name": "Azzate",
+      "indirizzo": "Via Guido, Via Cagnola, 21, 21045 Gazzada Schianno VA",
+      "lat": 45.778747,
+      "lng": 8.821501
+    },
+    {
+      "id": "1618ac05-295b-49af-b503-e2d0c7f62e0d",
+      "slug": "villa-campo-dei-fiori-b-b-azzate",
+      "nome": "Villa Campo Dei Fiori B.B",
+      "city_name": "Azzate",
+      "indirizzo": "Via della Piana, 6, 21020 Casciago VA",
+      "lat": 45.827641,
+      "lng": 8.760637
+    }
+  ]
+}

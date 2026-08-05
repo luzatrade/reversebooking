@@ -1,0 +1,323 @@
+{
+  "block": 158,
+  "blockId": "158",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "919aecc8-f024-4961-9cf4-c1a6f50b1d3a",
+      "slug": "albergo-ristorante-da-marco-al-cerbaro-arsiero",
+      "nome": "Albergo Ristorante Da Marco al Cerbaro",
+      "city_name": "Arsiero",
+      "indirizzo": "Contrà Cerbaro, 1, 36015 Schio VI",
+      "lat": 45.752447,
+      "lng": 11.32145
+    },
+    {
+      "id": "dff283cc-b8dd-4ba0-8575-8b60c5bb0e14",
+      "slug": "albergo-speranza-arsiero",
+      "nome": "Albergo Speranza",
+      "city_name": "Arsiero",
+      "indirizzo": "Via Patrioti, 21, 36012 Asiago VI",
+      "lat": 45.876897,
+      "lng": 11.510993
+    },
+    {
+      "id": "ce04383d-1bad-4959-8251-ee84c067bd56",
+      "slug": "b-b-cappuccini-arsiero",
+      "nome": "B&B Cappuccini",
+      "city_name": "Arsiero",
+      "indirizzo": "Via Cappuccini, 23, 36015 Schio VI",
+      "lat": 45.717716,
+      "lng": 11.349158
+    },
+    {
+      "id": "c87f1570-f17b-47c2-8084-79c53232c710",
+      "slug": "b-b-flauto-magico-arsiero",
+      "nome": "B&B Flauto Magico",
+      "city_name": "Arsiero",
+      "indirizzo": "Via Garibaldi, 21, 36030 Caltrano VI",
+      "lat": 45.77182,
+      "lng": 11.456226
+    },
+    {
+      "id": "a60cfcbc-7842-4881-9651-8fbb438859f3",
+      "slug": "giorgio-e-flora-ristorante-e-locanda-arsiero",
+      "nome": "Giorgio e Flora Ristorante e Locanda",
+      "city_name": "Arsiero",
+      "indirizzo": "Via Baldono, 1, 36010 Velo d'Astico VI",
+      "lat": 45.795979,
+      "lng": 11.341162
+    },
+    {
+      "id": "42278813-5eee-4102-9b51-a9535734f13c",
+      "slug": "hotel-alpi-arsiero",
+      "nome": "Hotel Alpi",
+      "city_name": "Arsiero",
+      "indirizzo": "Corso IV Novembre, 6/8, 36012 Asiago VI",
+      "lat": 45.875022,
+      "lng": 11.509203
+    },
+    {
+      "id": "76e89c61-68b2-46bf-86cd-8b525f275d6a",
+      "slug": "hotel-belvedere-arsiero",
+      "nome": "Hotel Belvedere",
+      "city_name": "Arsiero",
+      "indirizzo": "Via Val Posina, 71, 36016 Thiene VI",
+      "lat": 45.715724,
+      "lng": 11.470928
+    },
+    {
+      "id": "694f9cab-0164-4437-b350-c898cc9fa8f3",
+      "slug": "hotel-ristorante-al-prato-arsiero",
+      "nome": "Hotel Ristorante Al Prato",
+      "city_name": "Arsiero",
+      "indirizzo": "Contrà Sarcello, 4, 36040 Tonezza del Cimone VI",
+      "lat": 45.854722,
+      "lng": 11.3375
+    },
+    {
+      "id": "84994b1a-3afd-440e-ac9f-e14285091fa3",
+      "slug": "il-capriolo-felice-agriturismo-arsiero",
+      "nome": "Il Capriolo Felice - Agriturismo",
+      "city_name": "Arsiero",
+      "indirizzo": "Via Montepiano, 41, 36040 Lastebasse VI",
+      "lat": 45.899359,
+      "lng": 11.321893
+    },
+    {
+      "id": "ed00af64-508a-481e-bbb5-ba7d744fb358",
+      "slug": "il-giglio-alloggio-arsiero",
+      "nome": "Il Giglio Alloggio",
+      "city_name": "Arsiero",
+      "indirizzo": "Via G. Snichelotto, 18, 36015 Schio VI",
+      "lat": 45.719899,
+      "lng": 11.337245
+    },
+    {
+      "id": "3bd334a2-c8c7-49dc-a748-5e8acce9e1a7",
+      "slug": "la-casa-dei-gelsomini-arsiero",
+      "nome": "La Casa Dei Gelsomini",
+      "city_name": "Arsiero",
+      "indirizzo": "Via Lago di Sotto, 9, 36010 Lago VI",
+      "lat": 45.793058,
+      "lng": 11.348594
+    },
+    {
+      "id": "31a4c0c6-60d9-4f5a-9e8b-3c9ee330bfc6",
+      "slug": "la-vigneta-arsiero",
+      "nome": "La Vigneta",
+      "city_name": "Arsiero",
+      "indirizzo": "Via dei Longhi, 17, 36011 Arsiero VI",
+      "lat": 45.80635,
+      "lng": 11.358988
+    },
+    {
+      "id": "2a642aee-a526-4133-b3ff-84b2dff56a90",
+      "slug": "residence-hotel-cimbro-arsiero",
+      "nome": "Residence Hotel Cimbro",
+      "city_name": "Arsiero",
+      "indirizzo": "Piazza Cimbri, 4, 36010 Roana VI",
+      "lat": 45.869045,
+      "lng": 11.429301
+    },
+    {
+      "id": "513782e9-3677-4309-bfee-a09e6229a13a",
+      "slug": "ristorante-albergo-al-garibaldino-arsiero",
+      "nome": "Ristorante Albergo Al Garibaldino",
+      "city_name": "Arsiero",
+      "indirizzo": "Via Sareo, 5, 36010 Posina VI",
+      "lat": 45.790277,
+      "lng": 11.261243
+    },
+    {
+      "id": "74ed88a4-b546-45de-a517-264e6e9637cd",
+      "slug": "agriturismo-bellavista-arsita",
+      "nome": "Agriturismo Bellavista",
+      "city_name": "Arsita",
+      "indirizzo": "Contrada San Vito, 3, 64031 Arsita TE",
+      "lat": 42.488341,
+      "lng": 13.794222
+    },
+    {
+      "id": "191f9121-92f5-42ed-ad9d-6e4ada8618e0",
+      "slug": "agriturismo-la-vecchia-fontana-arsita",
+      "nome": "Agriturismo La Vecchia Fontana",
+      "city_name": "Arsita",
+      "indirizzo": "C. da Flagnano, 1, 65017 Roccafinadamo PE",
+      "lat": 42.481833,
+      "lng": 13.813498
+    },
+    {
+      "id": "de0fb569-08f4-4c15-bc5a-4e287ab66ade",
+      "slug": "albergo-ristorante-bar-san-lorenzo-arsita",
+      "nome": "Albergo Ristorante Bar San Lorenzo",
+      "city_name": "Arsita",
+      "indirizzo": "Via Nazionale, 27, 64039 Val Vomano TE",
+      "lat": 42.609421,
+      "lng": 13.759093
+    },
+    {
+      "id": "d5fde3e4-c309-406d-bce4-86e116fd832b",
+      "slug": "alloggio-agrituristico-bellavista-arsita",
+      "nome": "Alloggio Agrituristico Bellavista",
+      "city_name": "Arsita",
+      "indirizzo": "Via degli Angeli, 64030 Ronzano TE",
+      "lat": 42.554861,
+      "lng": 13.724998
+    },
+    {
+      "id": "2b6b76d6-b1a6-4c4c-8916-058a4b5880d2",
+      "slug": "alloggio-agrituristico-le-ginestre-arsita",
+      "nome": "alloggio agrituristico le ginestre",
+      "city_name": "Arsita",
+      "indirizzo": "64031 Colle dei Cerri TE, Italia",
+      "lat": 42.482811,
+      "lng": 13.765732
+    },
+    {
+      "id": "957ace43-8ef6-4a03-98eb-3d52b9d186b8",
+      "slug": "b-b-il-ghiro-e-la-luna-arsita",
+      "nome": "B&B il Ghiro e la Luna",
+      "city_name": "Arsita",
+      "indirizzo": "Contrada Valle Iannina, 64031 Arsita TE",
+      "lat": 42.478862,
+      "lng": 13.760016
+    },
+    {
+      "id": "d8c01369-c7a7-4e52-b4ee-5a8dcb8663b4",
+      "slug": "b-b-il-girasole-arsita",
+      "nome": "B&B Il Girasole",
+      "city_name": "Arsita",
+      "indirizzo": "Frazione Villa Frio, 13, 64030 Basciano TE",
+      "lat": 42.595626,
+      "lng": 13.73563
+    },
+    {
+      "id": "7fa59550-2342-47da-a38c-a02017daed30",
+      "slug": "b-b-mara-e-monti-arsita",
+      "nome": "B&B MARA E MONTI",
+      "city_name": "Arsita",
+      "indirizzo": "Fraz. Case Vaddino-Chiarino. snc, 64049 Tossicia TE",
+      "lat": 42.557019,
+      "lng": 13.669622
+    },
+    {
+      "id": "12ed33e5-67bc-4c7e-9320-3b5758fd660f",
+      "slug": "bed-and-breakfast-casa-dona-arsita",
+      "nome": "Bed and Breakfast Casa Donà",
+      "city_name": "Arsita",
+      "indirizzo": "Contrada Localita Casale, 17, 65017 Penne PE",
+      "lat": 42.447076,
+      "lng": 13.946261
+    },
+    {
+      "id": "da462e4e-33e6-4b6e-b850-90f16e56be89",
+      "slug": "colle-degli-angeli-arsita",
+      "nome": "Colle degli Angeli",
+      "city_name": "Arsita",
+      "indirizzo": "Vico de Santis, 65017 Penne PE",
+      "lat": 42.459856,
+      "lng": 13.922681
+    },
+    {
+      "id": "1d8980d5-79c9-4480-8279-1cdbb7d6105f",
+      "slug": "colle-dei-venti-arsita",
+      "nome": "Colle Dei Venti",
+      "city_name": "Arsita",
+      "indirizzo": "Contrada S. Vito, 7, 64031 Arsita TE",
+      "lat": 42.487825,
+      "lng": 13.793596
+    },
+    {
+      "id": "07b22736-a826-446a-9b76-8fac5f068587",
+      "slug": "hotel-pina-arsita",
+      "nome": "Hotel Pina",
+      "city_name": "Arsita",
+      "indirizzo": "Contrada S. Gabriele, 183, 64045 Isola del Gran Sasso d'Italia TE",
+      "lat": 42.515362,
+      "lng": 13.656935
+    },
+    {
+      "id": "4e34e512-4243-4c89-9a23-1b4cf8c49d6c",
+      "slug": "hotel-vomano-arsita",
+      "nome": "Hotel Vomano",
+      "city_name": "Arsita",
+      "indirizzo": "Viale Risorgimento, 113, 64046 Montorio al Vomano TE",
+      "lat": 42.582708,
+      "lng": 13.636678
+    },
+    {
+      "id": "2e84c3bc-7d27-494d-9197-ded86574927e",
+      "slug": "il-giardino-di-maria-pizzeria-piadineria-bed-and-arsita",
+      "nome": "Il Giardino Di Maria - Pizzeria - Piadineria - Bed and Breakfast",
+      "city_name": "Arsita",
+      "indirizzo": "SP37a, 6, 64041 Colledoro TE",
+      "lat": 42.515996,
+      "lng": 13.729595
+    },
+    {
+      "id": "9844395d-a42e-454f-be76-0a072df374bf",
+      "slug": "il-parco-dei-poeti-bed-breakfast-arsita",
+      "nome": "Il Parco dei Poeti Bed & Breakfast",
+      "city_name": "Arsita",
+      "indirizzo": "Contrada, SP23a, 64036 Stampalone TE",
+      "lat": 42.613229,
+      "lng": 13.89603
+    },
+    {
+      "id": "53dd6734-281d-41e4-9bd5-cf3025715135",
+      "slug": "la-locanda-del-brigante-arsita",
+      "nome": "La Locanda Del Brigante",
+      "city_name": "Arsita",
+      "indirizzo": "Via Colli, 59, 65010 Farindola PE",
+      "lat": 42.445041,
+      "lng": 13.821228
+    },
+    {
+      "id": "3b299f80-f117-4c30-a78f-bf2caa47f4d7",
+      "slug": "la-loggia-antica-arsita",
+      "nome": "La loggia antica",
+      "city_name": "Arsita",
+      "indirizzo": "Contrada Carbonesca, 64033 Arsita TE",
+      "lat": 42.515134,
+      "lng": 13.792694
+    },
+    {
+      "id": "8480d889-6a21-4a10-87bc-3edcfe253ba1",
+      "slug": "la-via-del-parco-arsita",
+      "nome": "La Via del Parco",
+      "city_name": "Arsita",
+      "indirizzo": "Contrada Collemesolo, 16, 64031 Arsita TE",
+      "lat": 42.471104,
+      "lng": 13.775291
+    },
+    {
+      "id": "3d3b621a-2d41-4445-bad5-de3173e80994",
+      "slug": "podere-vignalago-arsita",
+      "nome": "Podere VignaLago",
+      "city_name": "Arsita",
+      "indirizzo": "Contrada Poggioragone, 10, 65014 Loreto Aprutino PE",
+      "lat": 42.394164,
+      "lng": 13.947286
+    },
+    {
+      "id": "bdc26463-25e0-491d-a93a-31a91c221d75",
+      "slug": "ristorante-camere-la-locanda-del-voltigno-arsita",
+      "nome": "Ristorante -Camere \"La Locanda del Voltigno\"",
+      "city_name": "Arsita",
+      "indirizzo": "Contrada Santa Maria, 10, 65010 Villa Celiera PE",
+      "lat": 42.390258,
+      "lng": 13.848825
+    },
+    {
+      "id": "21947c5b-c711-46db-afde-aa805db3c5d4",
+      "slug": "bed-wellness-fisterre-arsi",
+      "nome": "Bed & Wellness Fisterre",
+      "city_name": "Arsi�",
+      "indirizzo": "Via Fisterre, 3, 32100 Belluno BL",
+      "lat": 46.148896,
+      "lng": 12.206435
+    }
+  ]
+}

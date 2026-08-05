@@ -1,0 +1,323 @@
+{
+  "block": 169,
+  "blockId": "169",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "8e3667f5-de87-4676-9b12-a60a717d6eae",
+      "slug": "bed-breakfast-il-vecchio-ginepro-assemini",
+      "nome": "Bed & Breakfast Il Vecchio Ginepro",
+      "city_name": "Assemini",
+      "indirizzo": "Via Bologna, 78, 09012 Capoterra CA",
+      "lat": 39.171519,
+      "lng": 8.967129
+    },
+    {
+      "id": "ea1a2ea5-efac-42c9-a2d2-e087553cafc4",
+      "slug": "corte-boero-bed-breakfast-eventi-assemini",
+      "nome": "Corte Boero Bed&Breakfast - Eventi",
+      "city_name": "Assemini",
+      "indirizzo": "SP 1 Località Santa Lucia Uta, 09010, 09068 Uta CA",
+      "lat": 39.200331,
+      "lng": 8.936806
+    },
+    {
+      "id": "64740c37-ae15-40ce-9248-7134772b9cf2",
+      "slug": "hotel-grillo-assemini",
+      "nome": "Hotel Grillo",
+      "city_name": "Assemini",
+      "indirizzo": "Via Carmine, 132, 09032 Assemini CA",
+      "lat": 39.283455,
+      "lng": 9.010633
+    },
+    {
+      "id": "9f04cfc5-8995-401c-82ec-acbfc265bf3e",
+      "slug": "hotel-rosa-assemini",
+      "nome": "HOTEL ROSA",
+      "city_name": "Assemini",
+      "indirizzo": "Via Venezia, 47, 09012 Capoterra CA",
+      "lat": 39.177654,
+      "lng": 8.97211
+    },
+    {
+      "id": "0df76f08-7ffb-43e4-9b14-f160d6139eb5",
+      "slug": "il-roseto-affitti-brevi-assemini",
+      "nome": "Il Roseto Affitti Brevi",
+      "city_name": "Assemini",
+      "indirizzo": "Via Campidano, 20, 09032 Assemini CA",
+      "lat": 39.293272,
+      "lng": 9.001563
+    },
+    {
+      "id": "85672ba3-93c6-43cb-bcab-814de822aab5",
+      "slug": "mansio-airport-hotel-residence-assemini",
+      "nome": "Mansio Airport Hotel & Residence",
+      "city_name": "Assemini",
+      "indirizzo": "Via Salvio Argiolas, 3, 09067 Elmas CA",
+      "lat": 39.272857,
+      "lng": 9.049337
+    },
+    {
+      "id": "7aed4e22-fd92-4ca6-be3a-350a1a3e78d5",
+      "slug": "the-orange-house-assemini",
+      "nome": "The Orange House",
+      "city_name": "Assemini",
+      "indirizzo": "Via Toscana, 3, 09032 Assemini CA",
+      "lat": 39.288183,
+      "lng": 9.008234
+    },
+    {
+      "id": "9f726868-cb93-499a-a6d7-64fa54dedeb3",
+      "slug": "villa-mostallino-affittacamere-assemini",
+      "nome": "Villa Mostallino Affittacamere",
+      "city_name": "Assemini",
+      "indirizzo": "Via Principe di Piemonte, 6, 09032 Assemini CA",
+      "lat": 39.289154,
+      "lng": 8.998353
+    },
+    {
+      "id": "e816948e-024e-48da-82a5-74e0a4c6c150",
+      "slug": "agriturismo-la-piaggia-assisi-assisi",
+      "nome": "Agriturismo La Piaggia - Assisi",
+      "city_name": "Assisi",
+      "indirizzo": "Viale Giovanna di Savoia, 3, 06181 Assisi PG, Italia",
+      "lat": 43.075833,
+      "lng": 12.601667
+    },
+    {
+      "id": "97f787f8-14e4-4737-b070-d694296a04e7",
+      "slug": "albergo-anna-assisi",
+      "nome": "Albergo Anna",
+      "city_name": "Assisi",
+      "indirizzo": "Via dei Priori, 48, 06123 Perugia PG, Italia",
+      "lat": 43.112032,
+      "lng": 12.38658
+    },
+    {
+      "id": "40d8be73-3e58-4668-a97c-b481c3d1242b",
+      "slug": "antico-borgo-assisi-bed-and-breakfast-assisi",
+      "nome": "Antico Borgo Assisi Bed and Breakfast",
+      "city_name": "Assisi",
+      "indirizzo": "V. Petrata, 21, 06181 Assisi PG, Italia",
+      "lat": 43.104974,
+      "lng": 12.628731
+    },
+    {
+      "id": "2af8f86b-fe5f-4b1f-a16d-0df394bc877f",
+      "slug": "b-b-il-chiostro-assisi",
+      "nome": "B&B Il Chiostro",
+      "city_name": "Assisi",
+      "indirizzo": "Via Borgo Aretino, 1, 06181 Assisi PG, Italia",
+      "lat": 43.068451,
+      "lng": 12.617965
+    },
+    {
+      "id": "ae7353b9-3c5b-4c5b-b3a3-b83d60b992f0",
+      "slug": "b-b-il-rifugio-assisi",
+      "nome": "B&B Il Rifugio",
+      "city_name": "Assisi",
+      "indirizzo": "Via Mario Poletti, 34 (Loc.Ospedalicchio di, 06083 Bastia Umbra PG, Italia",
+      "lat": 43.078636,
+      "lng": 12.512282
+    },
+    {
+      "id": "72a1e553-ac36-447b-b53b-69838c6bd5a7",
+      "slug": "b-b-lavanda-e-rosmarino-assisi",
+      "nome": "B&B Lavanda e Rosmarino",
+      "city_name": "Assisi",
+      "indirizzo": "Via di Mezzo, 8, 06181 Assisi PG, Italia",
+      "lat": 43.06011,
+      "lng": 12.623497
+    },
+    {
+      "id": "d3a0d40d-e7cf-4cfb-9bbd-e9e81411fd57",
+      "slug": "b-b-new-day-assisi",
+      "nome": "B&B New Day",
+      "city_name": "Assisi",
+      "indirizzo": "Via S. Francesco, 18, 06181 Assisi PG, Italia",
+      "lat": 43.073425,
+      "lng": 12.608443
+    },
+    {
+      "id": "1c1c7bdf-6eb1-436c-9414-733b61000e6c",
+      "slug": "b-b-raffiori-assisi",
+      "nome": "B&B Raffiori",
+      "city_name": "Assisi",
+      "indirizzo": "Via Protomartiri Francescani, 84, 06181 Assisi PG, Italia",
+      "lat": 43.05264,
+      "lng": 12.590522
+    },
+    {
+      "id": "3d591381-5504-48ab-9c87-8c9b733e6f3b",
+      "slug": "b-b-residenza-la-corte-assisi-assisi",
+      "nome": "B&B Residenza La Corte Assisi",
+      "city_name": "Assisi",
+      "indirizzo": "Via del Pozzo della Mensa, 27, 06181 Assisi PG, Italia",
+      "lat": 43.070375,
+      "lng": 12.616993
+    },
+    {
+      "id": "276c3f54-7b1e-4d1f-a9f9-66f38b9c15c5",
+      "slug": "bed-and-breakfast-la-via-francigena-assisi-assisi",
+      "nome": "Bed and Breakfast - La Via Francigena - Assisi",
+      "city_name": "Assisi",
+      "indirizzo": "Via Romana, 82, 06181 Assisi PG, Italia",
+      "lat": 43.022291,
+      "lng": 12.644167
+    },
+    {
+      "id": "f7903197-4acd-422b-8646-466b33e3bb49",
+      "slug": "bed-and-breakfast-barbara-assisi-assisi",
+      "nome": "Bed And Breakfast Barbara Assisi",
+      "city_name": "Assisi",
+      "indirizzo": "Vocabolo Bevagna, 29, 06033 Cannara PG, Italia",
+      "lat": 42.977779,
+      "lng": 12.569898
+    },
+    {
+      "id": "16d2b80c-39b7-48c7-9f5d-aca710fa168e",
+      "slug": "domus-mariae-b-b-assisi-assisi",
+      "nome": "Domus Mariae B&B Assisi",
+      "city_name": "Assisi",
+      "indirizzo": "Viale Giovanni XXIII, 29, 06181 Assisi PG, Italia",
+      "lat": 43.067452,
+      "lng": 12.624832
+    },
+    {
+      "id": "222acbe4-fba4-4205-a61b-904256800c8c",
+      "slug": "hotel-lieto-soggiorno-assisi",
+      "nome": "Hotel Lieto Soggiorno",
+      "city_name": "Assisi",
+      "indirizzo": "Via Arnaldo Fortini, 26, 06181 Assisi PG, Italia",
+      "lat": 43.071553,
+      "lng": 12.613029
+    },
+    {
+      "id": "da9f1cf4-9925-407c-81c8-f0a62e1836c6",
+      "slug": "hotel-pallotta-assisi-assisi",
+      "nome": "Hotel Pallotta Assisi",
+      "city_name": "Assisi",
+      "indirizzo": "Via S. Rufino, 6, 06181 Assisi PG, Italia",
+      "lat": 43.070885,
+      "lng": 12.616051
+    },
+    {
+      "id": "63ac08c0-3a43-41ce-8b28-1edab1a7d756",
+      "slug": "hotel-san-rufino-assisi",
+      "nome": "Hotel San Rufino",
+      "city_name": "Assisi",
+      "indirizzo": "Via Porta Perlici, 7, 06181 Assisi PG, Italia",
+      "lat": 43.071296,
+      "lng": 12.617513
+    },
+    {
+      "id": "a75b5603-9a2d-4fe9-95f0-8de67be83981",
+      "slug": "il-fienile-di-assisi-assisi",
+      "nome": "Il Fienile Di Assisi",
+      "city_name": "Assisi",
+      "indirizzo": "Via della Madonnina, 3., Castelnuovo di Assisi., 06181 Assisi PG, Italia",
+      "lat": 43.035004,
+      "lng": 12.58963
+    },
+    {
+      "id": "b13a72e1-ebc8-4d9e-88ad-3d06818811c8",
+      "slug": "sogni-d-assisi-b-b-assisi",
+      "nome": "Sogni d'Assisi B&B",
+      "city_name": "Assisi",
+      "indirizzo": "Via S. Benedetto, 15, 06181 Assisi PG, Italia",
+      "lat": 43.064561,
+      "lng": 12.625813
+    },
+    {
+      "id": "725ae4d3-9112-4707-b802-df11d7197f34",
+      "slug": "vico-del-poeta-assisi",
+      "nome": "Vico Del Poeta",
+      "city_name": "Assisi",
+      "indirizzo": "Via Giovanni Jorgensen, 6, 06181 Assisi PG, Italia",
+      "lat": 43.071849,
+      "lng": 12.616102
+    },
+    {
+      "id": "19532ff9-4a0f-435f-9f65-c0151b9b44ca",
+      "slug": "villa-clara-assisi-assisi",
+      "nome": "Villa Clara Assisi",
+      "city_name": "Assisi",
+      "indirizzo": "Via Beviglie, 41, 06181 Tordibetto PG, Italia",
+      "lat": 43.095579,
+      "lng": 12.576846
+    },
+    {
+      "id": "9d54a4c2-0d09-431b-8ab7-3657ff7b341b",
+      "slug": "villa-luce-assisi-rooms-suites-assisi",
+      "nome": "Villa Luce Assisi Rooms & Suites",
+      "city_name": "Assisi",
+      "indirizzo": "Via Giuseppe Leonelli, 4, 06181 Santa Maria degli Angeli PG, Italia",
+      "lat": 43.059307,
+      "lng": 12.57253
+    },
+    {
+      "id": "f63e2583-eee3-40a4-b8d7-5f61fdb976c2",
+      "slug": "agriturismo-crotto-di-somana-asso",
+      "nome": "Agriturismo Crotto Di Somana",
+      "city_name": "Asso",
+      "indirizzo": "Piazza Monsignor Clemente Gaddi, 23826 Mandello del Lario LC",
+      "lat": 45.929987,
+      "lng": 9.325674
+    },
+    {
+      "id": "ccc41ba1-13c0-499b-9d55-714b76e34318",
+      "slug": "albergo-ristorante-miravalle-asso",
+      "nome": "Albergo Ristorante Miravalle",
+      "city_name": "Asso",
+      "indirizzo": "Via Pian del Tivano, 27, 22030 Sormano CO",
+      "lat": 45.877914,
+      "lng": 9.246019
+    },
+    {
+      "id": "bbd2ed40-80d1-4551-be57-2e028bcf6549",
+      "slug": "albergo-ristorante-sala-spa-asso",
+      "nome": "Albergo Ristorante Sala - Spa",
+      "city_name": "Asso",
+      "indirizzo": "Via Vittorio Veneto, 21, 22039 Valbrona CO",
+      "lat": 45.878195,
+      "lng": 9.298907
+    },
+    {
+      "id": "8754056b-c913-4371-825d-42090d890fef",
+      "slug": "b-b-al-pozzo-asso",
+      "nome": "b&b Al Pozzo",
+      "city_name": "Asso",
+      "indirizzo": "23862 Civate LC, Italia",
+      "lat": 45.828434,
+      "lng": 9.332458
+    },
+    {
+      "id": "5aa1fe27-be5f-4d2f-9291-e9db3e13a69d",
+      "slug": "b-b-big-family-asso",
+      "nome": "B&B Big Family",
+      "city_name": "Asso",
+      "indirizzo": "Via Boschetto, 6, 23867 Suello LC",
+      "lat": 45.818495,
+      "lng": 9.317859
+    },
+    {
+      "id": "59cc281b-1c27-48ee-929a-0ed7c9b03835",
+      "slug": "b-b-la-pusianella-asso",
+      "nome": "B&B La Pusianella",
+      "city_name": "Asso",
+      "indirizzo": "Via Giuseppe Mazzini, 22, 22030 Pusiano CO",
+      "lat": 45.813241,
+      "lng": 9.281805
+    },
+    {
+      "id": "3213b1f7-b0a5-48cb-b5c7-6dde2404883a",
+      "slug": "bed-bike-ghisallo-asso",
+      "nome": "Bed&Bike Ghisallo",
+      "city_name": "Asso",
+      "indirizzo": "V. Milano, 54, 22030 Magreglio CO",
+      "lat": 45.91925,
+      "lng": 9.25978
+    }
+  ]
+}

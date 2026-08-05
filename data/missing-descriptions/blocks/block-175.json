@@ -1,0 +1,323 @@
+{
+  "block": 175,
+  "blockId": "175",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "b411b5b2-8041-4e85-8aa5-73c120a9ec37",
+      "slug": "ramandolo-club-attimis",
+      "nome": "Ramandolo club",
+      "city_name": "Attimis",
+      "indirizzo": "Via del Borgo, 12, 33045 Nimis UD",
+      "lat": 46.217674,
+      "lng": 13.263613
+    },
+    {
+      "id": "6f484d3c-857c-479f-80d9-df7dd3543190",
+      "slug": "tenuta-valdomini-s-agricola-r-l-attimis",
+      "nome": "Tenuta Valdomini S. Agricola R.L.",
+      "city_name": "Attimis",
+      "indirizzo": "Borgo Piccoli, 33040 Piccoli UD",
+      "lat": 46.175214,
+      "lng": 13.307959
+    },
+    {
+      "id": "38fff8c6-fc4c-47df-bb7e-3a0e804662be",
+      "slug": "bed-breakfast-sa-lumenaria-atzara",
+      "nome": "Bed & Breakfast Sa Lumenaria",
+      "city_name": "Atzara",
+      "indirizzo": "Viale Stazione, n°5, 08038 Sorgono NU",
+      "lat": 40.027503,
+      "lng": 9.104687
+    },
+    {
+      "id": "f84b0093-2d1b-4c9a-98c0-0427cf9594d9",
+      "slug": "hotel-sa-valasa-atzara",
+      "nome": "Hotel Sa Valasa",
+      "city_name": "Atzara",
+      "indirizzo": "Località Lago di Gusana, 08020 Gavoi NU",
+      "lat": 40.136407,
+      "lng": 9.199796
+    },
+    {
+      "id": "085f4fa4-6d40-4de3-b858-715f11e95403",
+      "slug": "la-plaza-affittacamere-ollolai-atzara",
+      "nome": "La Plaza Affittacamere Ollolai",
+      "city_name": "Atzara",
+      "indirizzo": "Piazza Guglielmo Marconi, 4, 08020 Ollolai NU",
+      "lat": 40.168768,
+      "lng": 9.179561
+    },
+    {
+      "id": "8196648d-fb00-460e-a3fe-6418e68b60ce",
+      "slug": "b-b-apartment-fiorisol-augusta",
+      "nome": "B&B APARTMENT FIORISOL",
+      "city_name": "Augusta",
+      "indirizzo": "Via Megara, 44, 96011 Augusta SR",
+      "lat": 37.231199,
+      "lng": 15.22111
+    },
+    {
+      "id": "98fcbf85-38ec-455a-82db-1d5461904911",
+      "slug": "b-b-augusta-augusta",
+      "nome": "B&B Augusta",
+      "city_name": "Augusta",
+      "indirizzo": "Via Papa Giovanni XXIII, 26, 96011 Augusta SR",
+      "lat": 37.247422,
+      "lng": 15.220555
+    },
+    {
+      "id": "ee225ea0-be97-4abc-8cca-0cd13c593119",
+      "slug": "b-b-garden-holiday-augusta",
+      "nome": "B&B Garden Holiday",
+      "city_name": "Augusta",
+      "indirizzo": "Viale Edoardo Garrone, 14, 96010 Città Giardino SR",
+      "lat": 37.104381,
+      "lng": 15.212892
+    },
+    {
+      "id": "8a7d3484-5311-4841-9463-8be2951b6dc1",
+      "slug": "b-b-giosa-augusta",
+      "nome": "B&B Giosa",
+      "city_name": "Augusta",
+      "indirizzo": "via dante alighieri, n19, 96011 Augusta SR",
+      "lat": 37.259174,
+      "lng": 15.227276
+    },
+    {
+      "id": "dabb743e-5338-46ba-ae3f-1a2c75035114",
+      "slug": "b-b-mare-di-augusta-la-finestra-sul-porto-augusta",
+      "nome": "B&B Mare di Augusta - La finestra sul porto",
+      "city_name": "Augusta",
+      "indirizzo": "Via Adua, 2, 96011 Augusta SR",
+      "lat": 37.222263,
+      "lng": 15.219189
+    },
+    {
+      "id": "4e7d4c37-ebbe-40b4-bdb6-e62521243b55",
+      "slug": "b-b-vecchia-darsena-augusta",
+      "nome": "B&B Vecchia Darsena",
+      "city_name": "Augusta",
+      "indirizzo": "Via Darsena, 4, 96011 Augusta SR",
+      "lat": 37.232145,
+      "lng": 15.217805
+    },
+    {
+      "id": "726523b1-fd88-41d3-abb7-e2c246be3bca",
+      "slug": "b-brucoli-augusta",
+      "nome": "B&Brucoli",
+      "city_name": "Augusta",
+      "indirizzo": "96011 Bongiovanni II SR",
+      "lat": 37.274692,
+      "lng": 15.188975
+    },
+    {
+      "id": "eccea812-eb8f-40d6-be44-b33adcfc033b",
+      "slug": "capo-campolato-hotel-banqueting-augusta",
+      "nome": "Capo Campolato Hotel & Banqueting",
+      "city_name": "Augusta",
+      "indirizzo": "Contrada Campolato, 96011 Brucoli SR",
+      "lat": 37.288242,
+      "lng": 15.209695
+    },
+    {
+      "id": "26504fc2-f684-475f-a840-c2d3f12eb8ac",
+      "slug": "casepicarmo-guest-house-epicure-spa-augusta",
+      "nome": "Casepicarmo Guest House & Epicure Spa",
+      "city_name": "Augusta",
+      "indirizzo": "Via Epicarmo, 133, 96011 Augusta SR",
+      "lat": 37.229539,
+      "lng": 15.221788
+    },
+    {
+      "id": "ca0c8cef-7c98-4462-8dac-f3553a28d37d",
+      "slug": "citta-della-notte-hotel-tra-catania-e-siracusa-s-augusta",
+      "nome": "Città della Notte - hotel tra Catania e Siracusa, Sicily hotel, cinema multisala, teatro, sala congressi, discoteca.",
+      "city_name": "Augusta",
+      "indirizzo": "Strada provinciale 3, Bivio Augusta, Contrada Campana, 96010, 96010 Melilli SR",
+      "lat": 37.262658,
+      "lng": 15.141602
+    },
+    {
+      "id": "546399a5-a58c-4673-809c-6d29e077edb1",
+      "slug": "guest-house-golfo-xifonio-augusta",
+      "nome": "GUEST HOUSE GOLFO XIFONIO",
+      "city_name": "Augusta",
+      "indirizzo": "Via Xifonia, 83, 96011 Augusta SR",
+      "lat": 37.230186,
+      "lng": 15.222628
+    },
+    {
+      "id": "ef7edc0b-f911-43b6-8a6c-8c01b153dbc8",
+      "slug": "guest-house-san-domenico-augusta",
+      "nome": "Guest House San Domenico",
+      "city_name": "Augusta",
+      "indirizzo": "Vicolo S. Domenico, 6, 96011 Augusta SR",
+      "lat": 37.230628,
+      "lng": 15.219099
+    },
+    {
+      "id": "4787aaa1-454f-4064-bb60-e2c5c7189485",
+      "slug": "hotel-la-bussola-augusta",
+      "nome": "Hotel La Bussola",
+      "city_name": "Augusta",
+      "indirizzo": "SS 114 Orientale Sicula, 30, 96010 Priolo Gargallo SR",
+      "lat": 37.141974,
+      "lng": 15.200331
+    },
+    {
+      "id": "ad15f172-36e1-43db-9b3e-02e93c8ef114",
+      "slug": "hotel-la-cavalera-augusta",
+      "nome": "Hotel La Cavalera",
+      "city_name": "Augusta",
+      "indirizzo": "Via delle Palme, 26, 96011 Augusta SR",
+      "lat": 37.262479,
+      "lng": 15.22131
+    },
+    {
+      "id": "f5a1510c-2715-4d57-a3b9-0a606cb08252",
+      "slug": "hotel-villa-marina-augusta",
+      "nome": "Hotel Villa Marina",
+      "city_name": "Augusta",
+      "indirizzo": "Via Spinelli, 60, 96011 Augusta SR",
+      "lat": 37.255476,
+      "lng": 15.241261
+    },
+    {
+      "id": "ef4dd238-1aa4-4f13-b656-86d3b51fcd26",
+      "slug": "il-triangolo-hotel-augusta",
+      "nome": "Il Triangolo Hotel",
+      "city_name": "Augusta",
+      "indirizzo": "Via Lungomare, 7, 96011 Agnone Bagni SR",
+      "lat": 37.310883,
+      "lng": 15.10342
+    },
+    {
+      "id": "7e78975e-a346-4ea7-a021-02aed8dc3465",
+      "slug": "krino-cafe-hotel-augusta",
+      "nome": "Krinò Cafè Hotel",
+      "city_name": "Augusta",
+      "indirizzo": "Viale America, 7, 96011 Augusta SR",
+      "lat": 37.250247,
+      "lng": 15.220754
+    },
+    {
+      "id": "de11098b-c002-4d1b-b44b-1cf904aeab6a",
+      "slug": "mangia-s-brucoli-sicily-autograph-collection-augusta",
+      "nome": "Mangia's Brucoli, Sicily, Autograph Collection",
+      "city_name": "Augusta",
+      "indirizzo": "Contrada Gisira, 96010 Brucoli SR",
+      "lat": 37.286411,
+      "lng": 15.182006
+    },
+    {
+      "id": "0ed18f84-4930-470a-9137-5ae5c78767dd",
+      "slug": "venus-sea-garden-hotel-augusta",
+      "nome": "Venus Sea Garden Hotel",
+      "city_name": "Augusta",
+      "indirizzo": "Via Pantelleria, 22, 96011 Augusta SR",
+      "lat": 37.276328,
+      "lng": 15.216472
+    },
+    {
+      "id": "28dd5802-6003-497d-a6a6-3171d2fef22a",
+      "slug": "villa-dei-cesari-augusta",
+      "nome": "Villa Dei Cesari",
+      "city_name": "Augusta",
+      "indirizzo": "Via Barone Zuppello, 84, 96011 Augusta SR",
+      "lat": 37.260406,
+      "lng": 15.221491
+    },
+    {
+      "id": "b904a3a1-d089-45d9-bc33-d7e7d1e601d2",
+      "slug": "albergo-terme-forlenza-auletta",
+      "nome": "Albergo Terme Forlenza",
+      "city_name": "Auletta",
+      "indirizzo": "SP429a, 84024 Contursi Terme SA",
+      "lat": 40.652281,
+      "lng": 15.230698
+    },
+    {
+      "id": "797cc250-1226-45b1-b21c-7d633f01350f",
+      "slug": "b-b-anastasia-auletta",
+      "nome": "B&B Anastasia",
+      "city_name": "Auletta",
+      "indirizzo": "Corso Giuseppe Garibaldi, 40, 84021 Buccino SA",
+      "lat": 40.634015,
+      "lng": 15.379198
+    },
+    {
+      "id": "0f7e80d3-97af-482c-80ff-e73873e9960a",
+      "slug": "b-b-l-oasi-auletta",
+      "nome": "B&B L'Oasi",
+      "city_name": "Auletta",
+      "indirizzo": "Strada Regionale 94a, 84031 Auletta SA",
+      "lat": 40.572919,
+      "lng": 15.428518
+    },
+    {
+      "id": "b19da493-6518-4368-81e8-50f7b40a6be4",
+      "slug": "bed-and-breakfast-mezzanotte-auletta",
+      "nome": "Bed and Breakfast Mezzanotte",
+      "city_name": "Auletta",
+      "indirizzo": "Contrada gara gara, 85050 Balvano PZ",
+      "lat": 40.656436,
+      "lng": 15.552788
+    },
+    {
+      "id": "d80a5923-bf61-4e29-84f5-289dd758bbae",
+      "slug": "elia-hotel-auletta",
+      "nome": "Elia Hotel",
+      "city_name": "Auletta",
+      "indirizzo": "Localita' Frascineta, 84021 Buccino SA",
+      "lat": 40.656226,
+      "lng": 15.329944
+    },
+    {
+      "id": "005c4d69-5aca-4d89-8b0d-d685510e5e19",
+      "slug": "hotel-ristorante-zi-marianna-auletta",
+      "nome": "Hotel Ristorante \"Zi Marianna\"",
+      "city_name": "Auletta",
+      "indirizzo": "Contrada Muraglione, 9, 84030 Pertosa SA",
+      "lat": 40.538494,
+      "lng": 15.451304
+    },
+    {
+      "id": "cfe99c5c-8efc-4fa3-960a-5fd573a3407e",
+      "slug": "hotel-terme-capasso-auletta",
+      "nome": "Hotel Terme Capasso",
+      "city_name": "Auletta",
+      "indirizzo": "Via Nazionale Bagni, 100/2 km, 84024 Sa SA",
+      "lat": 40.690018,
+      "lng": 15.251803
+    },
+    {
+      "id": "aaeab21a-d460-4533-97c8-0c9f83ec1f12",
+      "slug": "palazzo-gentilizio-de-maffutiis-auletta",
+      "nome": "Palazzo Gentilizio de Maffutiis",
+      "city_name": "Auletta",
+      "indirizzo": "Via Luca Beatrice, 84031 Auletta SA",
+      "lat": 40.556647,
+      "lng": 15.427803
+    },
+    {
+      "id": "6692b65c-9e72-4bda-81a0-219ca16c61a1",
+      "slug": "palazzo-sabini-auletta",
+      "nome": "Palazzo Sabini",
+      "city_name": "Auletta",
+      "indirizzo": "Via Casale Sottano, 38, 84030 Pertosa SA",
+      "lat": 40.542087,
+      "lng": 15.449417
+    },
+    {
+      "id": "7a188068-ed8b-4bdc-8e5a-05808b4879ca",
+      "slug": "a-casa-di-marilu-aulla",
+      "nome": "A Casa Di Marilù",
+      "city_name": "Aulla",
+      "indirizzo": "Via San Rocco, 32, 54035 Pulica MS",
+      "lat": 44.145058,
+      "lng": 10.043705
+    }
+  ]
+}

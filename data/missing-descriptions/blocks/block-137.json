@@ -1,0 +1,323 @@
+{
+  "block": 137,
+  "blockId": "137",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "0808b34b-f50c-4ad2-88d9-1ad97d3fbe46",
+      "slug": "hotel-ristorante-la-castellana-archi",
+      "nome": "Hotel Ristorante La Castellana",
+      "city_name": "Archi",
+      "indirizzo": "Via Piana La Fara, 18, 66041 Atessa CH",
+      "lat": 42.124552,
+      "lng": 14.406088
+    },
+    {
+      "id": "decfb35f-3e55-451f-bccb-3102a60e64c1",
+      "slug": "hotel-ristorante-leon-d-oro-archi",
+      "nome": "Hotel Ristorante Leon D'Oro",
+      "city_name": "Archi",
+      "indirizzo": "Via Giacomo Matteotti, 3, 66032 Castel Frentano CH",
+      "lat": 42.199057,
+      "lng": 14.352953
+    },
+    {
+      "id": "72e3c742-78f0-4ca4-bae7-de3870e935cf",
+      "slug": "hotel-ristorante-val-di-sangro-archi",
+      "nome": "Hotel Ristorante Val di Sangro",
+      "city_name": "Archi",
+      "indirizzo": "c.da san tommaso, 121, 66040 Perano CH",
+      "lat": 42.116192,
+      "lng": 14.393037
+    },
+    {
+      "id": "ab3ff532-b206-4c77-8365-3a8ef2ecba0c",
+      "slug": "hotel-select-wellness-spa-archi",
+      "nome": "Hotel Select Wellness & Spa",
+      "city_name": "Archi",
+      "indirizzo": "Via Piazzano, 90, 66041 Atessa CH",
+      "lat": 42.135628,
+      "lng": 14.426265
+    },
+    {
+      "id": "62b43da1-8cda-413f-b8d3-39fe33e89d61",
+      "slug": "il-castello-di-perano-archi",
+      "nome": "Il Castello di Perano",
+      "city_name": "Archi",
+      "indirizzo": "Piane d'Archi-Quadroni, 66040 Perano CH",
+      "lat": 42.10772,
+      "lng": 14.37464
+    },
+    {
+      "id": "b069dcf0-9b93-48c5-a4cf-f70245975302",
+      "slug": "ristorante-hotel-la-masseria-archi",
+      "nome": "Ristorante Hotel La Masseria",
+      "city_name": "Archi",
+      "indirizzo": "Via Piazzano, 69, 66041 Atessa CH",
+      "lat": 42.131276,
+      "lng": 14.420315
+    },
+    {
+      "id": "789f46dc-8bd5-436d-9572-9e1847f55f5f",
+      "slug": "affittacamere-le-fonti-arcidosso",
+      "nome": "Affittacamere Le Fonti",
+      "city_name": "Arcidosso",
+      "indirizzo": "Corso Toscana, 22, 58031 Arcidosso GR",
+      "lat": 42.871936,
+      "lng": 11.538102
+    },
+    {
+      "id": "72faf1ed-deb1-4da9-86fd-0a4551d6ced3",
+      "slug": "agriturismo-antico-casale-pozzuolo-arcidosso",
+      "nome": "Agriturismo Antico Casale Pozzuolo",
+      "city_name": "Arcidosso",
+      "indirizzo": "Pod. Pozzuolo, 1, 58038 Seggiano GR",
+      "lat": 42.921952,
+      "lng": 11.5661
+    },
+    {
+      "id": "21f91b20-2317-45dd-aea6-5bf5e3bc97ae",
+      "slug": "agriturismo-le-casaline-val-d-orcia-arcidosso",
+      "nome": "Agriturismo Le Casaline - Val d'Orcia",
+      "city_name": "Arcidosso",
+      "indirizzo": "Località Le Casaline, 58038 Seggiano GR",
+      "lat": 42.928339,
+      "lng": 11.591911
+    },
+    {
+      "id": "64a21341-8d1f-440e-ab34-85d78a1098cd",
+      "slug": "agriturismo-molino-del-ponte-arcidosso",
+      "nome": "Agriturismo Molino del Ponte",
+      "city_name": "Arcidosso",
+      "indirizzo": "Strada Provinciale Cipressino, 58031 Arcidosso GR",
+      "lat": 42.885513,
+      "lng": 11.524226
+    },
+    {
+      "id": "16122841-ba3c-4182-a521-5b30a26a0fc2",
+      "slug": "albergo-generale-cantore-monte-amiata-arcidosso",
+      "nome": "Albergo Generale Cantore - Monte Amiata -",
+      "city_name": "Arcidosso",
+      "indirizzo": "Località secondo rifugio Cantore,70, 53021 Abbadia San Salvatore SI",
+      "lat": 42.898622,
+      "lng": 11.626989
+    },
+    {
+      "id": "add55d67-7d5e-4f96-8364-c04295ab6591",
+      "slug": "albergo-le-macinaie-arcidosso",
+      "nome": "Albergo Le Macinaie",
+      "city_name": "Arcidosso",
+      "indirizzo": "Prato Delle Macinaie, 58033 Castel del Piano GR",
+      "lat": 42.891421,
+      "lng": 11.605988
+    },
+    {
+      "id": "0224ce55-068e-4e79-a9bc-b8c4f221d186",
+      "slug": "albergo-ristorante-sella-monte-amiata-arcidosso",
+      "nome": "Albergo Ristorante Sella Monte Amiata",
+      "city_name": "Arcidosso",
+      "indirizzo": "Località Vetta Amiata, 53021 Abbadia San Salvatore SI",
+      "lat": 42.891162,
+      "lng": 11.627018
+    },
+    {
+      "id": "c7be6aa8-0e9a-4dd1-8e74-b75e97529ac7",
+      "slug": "bed-breakfast-amiata-grosseto-arcidosso",
+      "nome": "Bed & Breakfast Amiata Grosseto",
+      "city_name": "Arcidosso",
+      "indirizzo": "Piazza Indipendenza, 12A, 58031 Arcidosso GR",
+      "lat": 42.871821,
+      "lng": 11.53956
+    },
+    {
+      "id": "840b3521-5ae2-43f3-b9ea-f058e9938b75",
+      "slug": "grand-hotel-impero-wellness-exclusive-spa-arcidosso",
+      "nome": "Grand Hotel Impero - Wellness & Exclusive SPA",
+      "city_name": "Arcidosso",
+      "indirizzo": "Via Roma, 7, 58033 Castel del Piano GR",
+      "lat": 42.88719,
+      "lng": 11.535627
+    },
+    {
+      "id": "a5bf580b-5bd3-418c-8130-f8ddf90af470",
+      "slug": "hotel-eden-arcidosso",
+      "nome": "Hotel Eden",
+      "city_name": "Arcidosso",
+      "indirizzo": "Via roma, 1, 58037 Santa Fiora GR",
+      "lat": 42.832013,
+      "lng": 11.586595
+    },
+    {
+      "id": "fadb4d17-de3c-49e9-bc66-7e3547eee788",
+      "slug": "hotel-parco-dei-faggi-monte-amiata-arcidosso",
+      "nome": "Hotel Parco dei Faggi - Monte Amiata",
+      "city_name": "Arcidosso",
+      "indirizzo": "58038 Rifugio Cantore GR",
+      "lat": 42.898635,
+      "lng": 11.624406
+    },
+    {
+      "id": "28cd4832-7f13-406e-b719-954ca7186946",
+      "slug": "la-baita-m-amiata-appartamenti-b-b-arcidosso",
+      "nome": "La Baita -M. Amiata - Appartamenti B&B",
+      "city_name": "Arcidosso",
+      "indirizzo": "Via Pozzo Stella, 52, 58033 Castel del Piano GR",
+      "lat": 42.890986,
+      "lng": 11.60695
+    },
+    {
+      "id": "87898ede-71b9-4955-a4be-44318e347083",
+      "slug": "la-colombaia-amiata-arcidosso",
+      "nome": "La Colombaia Amiata",
+      "city_name": "Arcidosso",
+      "indirizzo": "Fonte Canale, 3, 58031 Salaiola GR",
+      "lat": 42.857112,
+      "lng": 11.507249
+    },
+    {
+      "id": "c53acc5a-5f9d-43f7-864e-8673a08652d1",
+      "slug": "la-corteccia-del-faggio-arcidosso",
+      "nome": "La corteccia del faggio",
+      "city_name": "Arcidosso",
+      "indirizzo": "Primo rifugio amiatino 33, 53021 Abbadia San Salvatore SI",
+      "lat": 42.902153,
+      "lng": 11.635941
+    },
+    {
+      "id": "34bac03a-329a-4877-84c5-957f8a37fbcc",
+      "slug": "la-fuga-luxury-experience-arcidosso",
+      "nome": "La Fuga Luxury Experience",
+      "city_name": "Arcidosso",
+      "indirizzo": "V. delle Mura, 27, 58037 Santa Fiora GR",
+      "lat": 42.831696,
+      "lng": 11.587058
+    },
+    {
+      "id": "97275b30-9a80-4e0b-8e1f-64a4c7fca431",
+      "slug": "locanda-la-scottiglia-arcidosso",
+      "nome": "Locanda La Scottiglia",
+      "city_name": "Arcidosso",
+      "indirizzo": "Località Pescina, 29, 58038 Seggiano GR",
+      "lat": 42.916909,
+      "lng": 11.586126
+    },
+    {
+      "id": "2ac42fae-e69b-4f6d-887a-21d73f0d0be7",
+      "slug": "ostello-portabene-arcidosso",
+      "nome": "Ostello Portabene",
+      "city_name": "Arcidosso",
+      "indirizzo": "Via del Popolo, 34, 58031 Montelaterone GR",
+      "lat": 42.887485,
+      "lng": 11.513169
+    },
+    {
+      "id": "a769735f-9ace-42c5-994a-ceb5acea3bb4",
+      "slug": "thalassa-locanda-b-b-e-appartamento-arcidosso",
+      "nome": "Thalassa Locanda B&B e appartamento",
+      "city_name": "Arcidosso",
+      "indirizzo": "Via Talassese, 94, 58031 Arcidosso GR",
+      "lat": 42.871742,
+      "lng": 11.535012
+    },
+    {
+      "id": "e53e080d-21a2-4cd6-a883-8878611daf57",
+      "slug": "toscana-wellness-resort-bzar-hotels-arcidosso",
+      "nome": "Toscana Wellness Resort | BZAR hotels",
+      "city_name": "Arcidosso",
+      "indirizzo": "Località Aiole, 40, 58031 Arcidosso GR",
+      "lat": 42.855092,
+      "lng": 11.552826
+    },
+    {
+      "id": "0ca5dfd2-a56a-4174-87d1-69ad0a3e8d0f",
+      "slug": "albergo-king-arcinazzo-romano",
+      "nome": "Albergo King",
+      "city_name": "Arcinazzo Romano",
+      "indirizzo": "Via Colle della Volpe, 6, 03014 Fiuggi FR",
+      "lat": 41.798299,
+      "lng": 13.219352
+    },
+    {
+      "id": "456c44b3-07c0-4914-9500-127c5a81e42d",
+      "slug": "ambasciatori-place-hotel-arcinazzo-romano",
+      "nome": "Ambasciatori Place Hotel",
+      "city_name": "Arcinazzo Romano",
+      "indirizzo": "Via dei Villini, 8, 03014 Fiuggi FR",
+      "lat": 41.793677,
+      "lng": 13.21929
+    },
+    {
+      "id": "92d5a573-4681-4292-b63f-c8c15e1b1734",
+      "slug": "belsito-arcinazzo-romano",
+      "nome": "Belsito",
+      "city_name": "Arcinazzo Romano",
+      "indirizzo": "Via delle Rimembranze, 03010 Serrone FR",
+      "lat": 41.840221,
+      "lng": 13.098448
+    },
+    {
+      "id": "862a895a-f21c-432a-b4bf-430ecda7e933",
+      "slug": "casale-verdeluna-wine-resort-arcinazzo-romano",
+      "nome": "Casale VerdeLuna Wine Resort",
+      "city_name": "Arcinazzo Romano",
+      "indirizzo": "Località Civitella, 3, 03010 Piglio FR",
+      "lat": 41.809762,
+      "lng": 13.122947
+    },
+    {
+      "id": "3cf52fb1-744c-433e-9ae1-4e7f1100697e",
+      "slug": "hotel-livata-mountain-wellness-arcinazzo-romano",
+      "nome": "Hotel Livata Mountain Wellness",
+      "city_name": "Arcinazzo Romano",
+      "indirizzo": "Viale dei Boschi, 28, 00028 Livata RM",
+      "lat": 41.936972,
+      "lng": 13.152099
+    },
+    {
+      "id": "392d24b1-73be-4beb-9989-6cf7ba8d0126",
+      "slug": "hotel-mondial-park-arcinazzo-romano",
+      "nome": "Hotel Mondial Park",
+      "city_name": "Arcinazzo Romano",
+      "indirizzo": "Via Sant'Emiliano, 82, 03014 Fiuggi FR",
+      "lat": 41.792861,
+      "lng": 13.215765
+    },
+    {
+      "id": "94f810ec-c602-45ec-a99d-995ea08c397d",
+      "slug": "hotel-san-giorgio-arcinazzo-romano",
+      "nome": "Hotel San Giorgio",
+      "city_name": "Arcinazzo Romano",
+      "indirizzo": "Via Prenestina, 31, 03014 Fiuggi FR",
+      "lat": 41.792691,
+      "lng": 13.217734
+    },
+    {
+      "id": "da3c0b55-6051-40a5-864c-93fe9c1f602b",
+      "slug": "hotel-san-giorgio-fraz-altipiani-di-arcinazzo-arcinazzo-romano",
+      "nome": "Hotel San Giorgio - Fraz.Altipiani di Arcinazzo",
+      "city_name": "Arcinazzo Romano",
+      "indirizzo": "Via Sublacense, 03010 Trevi nel Lazio FR",
+      "lat": 41.849957,
+      "lng": 13.190098
+    },
+    {
+      "id": "8f1c0e87-0399-4b93-86a9-48bf7ec0db85",
+      "slug": "hotel-touring-wellness-beauty-arcinazzo-romano",
+      "nome": "Hotel Touring Wellness&beauty",
+      "city_name": "Arcinazzo Romano",
+      "indirizzo": "Terme, Via Fonte Nuova, 6, 03014 Fiuggi FR",
+      "lat": 41.792853,
+      "lng": 13.219146
+    },
+    {
+      "id": "efd98252-6ec2-492d-9823-02f597a35de7",
+      "slug": "le-fattora-arcinazzo-romano",
+      "nome": "Le Fattora",
+      "city_name": "Arcinazzo Romano",
+      "indirizzo": "Via Collepetto, 03010 Serrone FR",
+      "lat": 41.819937,
+      "lng": 13.099807
+    }
+  ]
+}

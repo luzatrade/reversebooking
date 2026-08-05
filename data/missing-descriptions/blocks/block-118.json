@@ -1,0 +1,323 @@
+{
+  "block": 118,
+  "blockId": "118",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "6e3ac62d-00a9-40c3-9c31-823aa0f5f49f",
+      "slug": "affittacamere-lo-verdze-antey-saint-andr",
+      "nome": "Affittacamere Lo verdze",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Frazione Nozon, 80, 11020 Torgnon AO",
+      "lat": 45.798737,
+      "lng": 7.581037
+    },
+    {
+      "id": "f7b74e6e-ac1b-4ba8-bb29-bb8a241fab43",
+      "slug": "agriturismo-au-jardin-fleuri-antey-saint-andr",
+      "nome": "Agriturismo Au Jardin Fleuri",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Frazione, Località Bourg, 7, 11020 Antey-Saint-André AO",
+      "lat": 45.805364,
+      "lng": 7.591603
+    },
+    {
+      "id": "cc9d5890-84c9-4df8-a23c-1e54687da1bb",
+      "slug": "agriturismo-la-clochette-dormire-a-torgnon-antey-saint-andr",
+      "nome": "Agriturismo La Clochette - dormire a Torgnon",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Frazione Nozon, 90/75, 11020 Torgnon AO",
+      "lat": 45.798538,
+      "lng": 7.580875
+    },
+    {
+      "id": "b09d6857-91b1-4cc0-a5c6-992d8fd2d45d",
+      "slug": "albergo-la-grolla-ristorante-pizzeria-bar-antey-saint-andr",
+      "nome": "Albergo la Grolla, ristorante, pizzeria bar",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "frazione filey 41 frazione filey, Località Filey, 41A, 11020 Antey-Saint-André AO",
+      "lat": 45.808227,
+      "lng": 7.58701
+    },
+    {
+      "id": "e3d27233-1f46-4961-b271-cdbccdc77b88",
+      "slug": "albergo-maison-tissiere-antey-saint-andr",
+      "nome": "Albergo Maison Tissiere",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Frazione Petit Antey, 9, Località Petit Antey, 9, 11020 Antey-Saint-André AO",
+      "lat": 45.802552,
+      "lng": 7.592687
+    },
+    {
+      "id": "5ee6bc19-80ca-42b4-babc-4006d457257d",
+      "slug": "b-b-miravalle-antey-saint-andr",
+      "nome": "B&B Miravalle",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Località Lillaz, 1a, 11020 Antey-Saint-André AO",
+      "lat": 45.815221,
+      "lng": 7.589108
+    },
+    {
+      "id": "dbe8c270-e0c2-45b9-a41f-d88287e58447",
+      "slug": "dalailama-village-antey-saint-andr",
+      "nome": "DalaiLama Village",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Località Promiod, 1B, 11024 Châtillon AO",
+      "lat": 45.786387,
+      "lng": 7.603595
+    },
+    {
+      "id": "84cff40e-0f66-43aa-a057-a74dbb5ce4b5",
+      "slug": "hotel-des-roses-antey-saint-andr",
+      "nome": "Hotel des Roses",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Localita' Poutaz, 5, 11020 Antey-Saint-André AO",
+      "lat": 45.818873,
+      "lng": 7.588835
+    },
+    {
+      "id": "2208d75f-988b-429c-8b17-2fdcfcfc7418",
+      "slug": "hotel-du-soleil-antey-saint-andr",
+      "nome": "Hotel du Soleil",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Piazza Frutaz, 30, 11020 Mongnod AO",
+      "lat": 45.803397,
+      "lng": 7.568321
+    },
+    {
+      "id": "b9afbd1e-bbdb-440f-a04f-575557802320",
+      "slug": "hotel-filey-antey-saint-andr",
+      "nome": "Hotel Filey",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Località Filey, 4, 11020 Antey-Saint-André AO",
+      "lat": 45.808703,
+      "lng": 7.587601
+    },
+    {
+      "id": "a5d68335-e7f2-4b4e-a604-14bddad64cea",
+      "slug": "jour-et-nuit-gorret-katia-antey-saint-andr",
+      "nome": "Jour et Nuit Gorret Katia",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Frazione Verney, 2, 11020 Torgnon AO",
+      "lat": 45.798659,
+      "lng": 7.570282
+    },
+    {
+      "id": "fdd0f2b6-2a4a-4a76-94ce-301e76c4f0c7",
+      "slug": "la-gran-becca-residence-antey-saint-andr",
+      "nome": "La Gran Becca Residence",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Loc, Località Champagne, 20, 11020 Antey-Saint-André AO",
+      "lat": 45.810537,
+      "lng": 7.589256
+    },
+    {
+      "id": "0c90f43c-6ccb-4622-aad9-85d6463fecbd",
+      "slug": "lo-barba-antey-saint-andr",
+      "nome": "Lo Barba",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Località Lillaz, 8, 11020 Antey-Saint-André AO",
+      "lat": 45.818945,
+      "lng": 7.591541
+    },
+    {
+      "id": "b7bab521-6e3d-46ba-91c5-bba94dc75d62",
+      "slug": "maison-du-tata-antey-saint-andr",
+      "nome": "Maison du Tatà",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Località Ruvère, 22, 11020 Antey-Saint-André AO",
+      "lat": 45.802945,
+      "lng": 7.589166
+    },
+    {
+      "id": "273cbb5c-187d-461e-b286-79fda739efab",
+      "slug": "pensione-monte-cervino-antey-saint-andr",
+      "nome": "Pensione Monte Cervino",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Località Ruvère, 3, 11020 Antey-Saint-André AO",
+      "lat": 45.803071,
+      "lng": 7.588742
+    },
+    {
+      "id": "563d5e1d-b7ef-47e1-a44e-3f44725585aa",
+      "slug": "relais-du-foyer-antey-saint-andr",
+      "nome": "Relais du Foyer",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Località Panorama, 37, 11024 Châtillon AO",
+      "lat": 45.753072,
+      "lng": 7.637446
+    },
+    {
+      "id": "275d2284-1b60-43cf-9a69-95b1938527fc",
+      "slug": "residence-beau-sejour-antey-saint-andr",
+      "nome": "Residence Beau Séjour",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Località Champagne, 25, 11020 Antey-Saint-André AO",
+      "lat": 45.806368,
+      "lng": 7.58854
+    },
+    {
+      "id": "fab6f6d7-4899-48bb-ab6e-6f23ab866fde",
+      "slug": "residence-bellevue-antey-saint-andr",
+      "nome": "Residence Bellevue",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Località Fiernaz, 27, 11020 Fiernaz AO",
+      "lat": 45.823696,
+      "lng": 7.591547
+    },
+    {
+      "id": "f9ccdabd-3065-4602-afa7-d044b198bb14",
+      "slug": "residence-covalou-antey-saint-andr",
+      "nome": "Residence Covalou",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Località Covalou, SR 46 della Valtournenche, 11020 Antey-Saint-Andrè AO",
+      "lat": 45.775657,
+      "lng": 7.592875
+    },
+    {
+      "id": "4ae061b0-28e7-4bfb-9abc-c96994b57aaa",
+      "slug": "villaggio-turistico-camping-cervino-antey-saint-andr",
+      "nome": "Villaggio Turistico Camping Cervino",
+      "city_name": "Antey-Saint-Andr�",
+      "indirizzo": "Località Nuarsaz, 26, 11020 Antey-Saint-André AO",
+      "lat": 45.834228,
+      "lng": 7.603138
+    },
+    {
+      "id": "4dc3e896-8697-4629-ba76-7212f77b0489",
+      "slug": "agriquartuccio-b-b-piscina-salata-anticoli-corrado",
+      "nome": "AgriQuartuccio b&b/Piscina salata",
+      "city_name": "Anticoli Corrado",
+      "indirizzo": "Strada Provinciale del Cavaliere, 67063 Oricola AQ",
+      "lat": 42.069375,
+      "lng": 13.061518
+    },
+    {
+      "id": "40ee9d0d-4f4f-4b10-9fd7-0b40216294d8",
+      "slug": "agriresort-la-cerra-anticoli-corrado",
+      "nome": "Agriresort La Cerra",
+      "city_name": "Anticoli Corrado",
+      "indirizzo": "Strada Di San Gregorio Da Sassola, km 6, 800, 00019 Tivoli RM",
+      "lat": 41.930455,
+      "lng": 12.828264
+    },
+    {
+      "id": "2034dd47-a253-4183-9c16-dc6ceb2536f5",
+      "slug": "agriturismo-al-giovenzano-anticoli-corrado",
+      "nome": "Agriturismo Al Giovenzano",
+      "city_name": "Anticoli Corrado",
+      "indirizzo": "Strada Provinciale Sambuci Cerreto, 00020 Ciciliano RM",
+      "lat": 41.976988,
+      "lng": 12.939336
+    },
+    {
+      "id": "49858ede-fffa-44a0-a3d9-8ecd47287991",
+      "slug": "al-cavaliere-ristorante-albergo-anticoli-corrado",
+      "nome": "Al Cavaliere Ristorante Albergo",
+      "city_name": "Anticoli Corrado",
+      "indirizzo": "Via Tiburtina Valeria km 67,200, 67063 Oricola AQ",
+      "lat": 42.071732,
+      "lng": 13.051112
+    },
+    {
+      "id": "3706e00f-9ccc-4315-9bed-71f2b8660ae6",
+      "slug": "al-seminario-anticoli-corrado",
+      "nome": "Al Seminario",
+      "city_name": "Anticoli Corrado",
+      "indirizzo": "Via Teobaldi, 2, 00019 Tivoli RM",
+      "lat": 41.965067,
+      "lng": 12.798873
+    },
+    {
+      "id": "8420e668-cd4f-478c-a97d-cb55c6bf9a18",
+      "slug": "bed-and-breakfast-villa-d-este-anticoli-corrado",
+      "nome": "Bed and Breakfast Villa d'Este",
+      "city_name": "Anticoli Corrado",
+      "indirizzo": "Via Boselli, 14, 00019 Tivoli RM",
+      "lat": 41.96189,
+      "lng": 12.797117
+    },
+    {
+      "id": "7333ba9a-d258-42c8-861e-6f408f990db2",
+      "slug": "hotel-ristorante-e-centro-sportivo-le-sequoie-anticoli-corrado",
+      "nome": "Hotel Ristorante e centro sportivo Le Sequoie",
+      "city_name": "Anticoli Corrado",
+      "indirizzo": "Via Tiburtina Valeria, 67061 Carsoli AQ",
+      "lat": 42.090357,
+      "lng": 13.067854
+    },
+    {
+      "id": "ede68d86-709f-4835-a663-ab815f89d042",
+      "slug": "la-giada-anticoli-corrado",
+      "nome": "La Giada",
+      "city_name": "Anticoli Corrado",
+      "indirizzo": "Vicolo del Duomo, 1, 00019 Tivoli RM",
+      "lat": 41.964569,
+      "lng": 12.798298
+    },
+    {
+      "id": "6fe1664c-b41a-451d-82f2-c767a9bf639c",
+      "slug": "le-ville-tivoli-suites-gregoriana-vesta-alloggio-anticoli-corrado",
+      "nome": "Le Ville Tivoli - Suites, Gregoriana, Vesta Alloggio Turistico",
+      "city_name": "Anticoli Corrado",
+      "indirizzo": "Viale Trieste, 45, 00019 Tivoli RM",
+      "lat": 41.959815,
+      "lng": 12.79922
+    },
+    {
+      "id": "ddb167e8-ccec-4c0e-b6a4-9ab332e363fb",
+      "slug": "agriturismo-il-fra-antignano",
+      "nome": "Agriturismo IL FRA'",
+      "city_name": "Antignano",
+      "indirizzo": "Str. Pocola, 101, 14016 Tigliole AT",
+      "lat": 44.884026,
+      "lng": 8.098152
+    },
+    {
+      "id": "27064d8d-902b-429b-8ffc-582178894a0f",
+      "slug": "antico-tralcio-bed-and-breakfast-e-home-restaura-antignano",
+      "nome": "Antico Tralcio Bed and Breakfast e Home Restaurant",
+      "city_name": "Antignano",
+      "indirizzo": "Via Malabaila, 1, 14010 Antignano AT",
+      "lat": 44.844987,
+      "lng": 8.134564
+    },
+    {
+      "id": "1b193b98-dbe3-4764-a165-4fc0ca041562",
+      "slug": "b-b-al-canei-antignano",
+      "nome": "B&B Al Canei",
+      "city_name": "Antignano",
+      "indirizzo": "Frazione, Str. Variglie, 69, 14100 Asti AT",
+      "lat": 44.870833,
+      "lng": 8.164359
+    },
+    {
+      "id": "7fc88a3a-76f8-4106-9cdc-f39803a6e74b",
+      "slug": "b-b-cascina-bellavista-tigliole-antignano",
+      "nome": "B&B Cascina Bellavista Tigliole",
+      "city_name": "Antignano",
+      "indirizzo": "Str. Remondini, 21, 14016 Tigliole AT",
+      "lat": 44.879772,
+      "lng": 8.071207
+    },
+    {
+      "id": "fabb27e6-51cf-425c-84df-e4057d950476",
+      "slug": "ca-nadin-antignano",
+      "nome": "Ca' Nadin",
+      "city_name": "Antignano",
+      "indirizzo": "Frazione Gorzano, 11, 14015 Gorzano AT",
+      "lat": 44.851165,
+      "lng": 8.040962
+    },
+    {
+      "id": "e1ae176a-a40a-4586-86d3-1ae070f0739a",
+      "slug": "cascina-bricchetto-antignano",
+      "nome": "Cascina Bricchetto",
+      "city_name": "Antignano",
+      "indirizzo": "Loc. Bramairate 161/A, 14100 Asti AT",
+      "lat": 44.900715,
+      "lng": 8.130283
+    }
+  ]
+}

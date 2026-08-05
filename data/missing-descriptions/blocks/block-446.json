@@ -1,0 +1,323 @@
+{
+  "block": 446,
+  "blockId": "446",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "78abe7dd-2240-4f4e-84f8-7a423a3cb760",
+      "slug": "b-b-marina-sleep-and-ship-nuova-gestione-2024-carpino",
+      "nome": "B&B Marina Sleep and Ship (NUOVA GESTIONE 2024)",
+      "city_name": "Carpino",
+      "indirizzo": "Via Scalo Marittimo, 61, 71012 Rodi Garganico FG",
+      "lat": 41.929371,
+      "lng": 15.887681
+    },
+    {
+      "id": "f8da29ae-33e5-4373-bc86-9290986c3c7b",
+      "slug": "b-b-mulino-di-canneto-carpino",
+      "nome": "B&b Mulino di Canneto",
+      "city_name": "Carpino",
+      "indirizzo": "Contrada canneto chiesetta, 71012 Rodi Garganico FG",
+      "lat": 41.918331,
+      "lng": 15.918783
+    },
+    {
+      "id": "2e63081a-aa15-4ab4-8946-03c774affc40",
+      "slug": "bed-breakfast-belvedere-carpino",
+      "nome": "Bed&Breakfast \"Belvedere\"",
+      "city_name": "Carpino",
+      "indirizzo": "Contrada Belvedere, Snc, primo piano, 71010 Ischitella FG",
+      "lat": 41.896897,
+      "lng": 15.902197
+    },
+    {
+      "id": "587fb197-330b-4fc1-a00a-2f5082b9fab5",
+      "slug": "garganomareborghi-vacanze-carpino",
+      "nome": "Garganomareborghi Vacanze",
+      "city_name": "Carpino",
+      "indirizzo": "Vico Saliero, 71018 Vico del Gargano FG",
+      "lat": 41.896174,
+      "lng": 15.954963
+    },
+    {
+      "id": "4658c430-30e8-4895-b489-16a738b9790f",
+      "slug": "gargara-bed-and-breakfast-carpino",
+      "nome": "Gárgara Bed and Breakfast",
+      "city_name": "Carpino",
+      "indirizzo": "Via Coppamendole, 47, 71018 Vico del Gargano FG",
+      "lat": 41.896211,
+      "lng": 15.95832
+    },
+    {
+      "id": "a5257e88-838d-4f8b-b2f2-2345d5c55f56",
+      "slug": "holiday-b-b-vico-del-gargano-carpino",
+      "nome": "Holiday B&B Vico Del Gargano",
+      "city_name": "Carpino",
+      "indirizzo": "Via Michele Monaco, 4, 71018 Vico del Gargano FG",
+      "lat": 41.898454,
+      "lng": 15.962498
+    },
+    {
+      "id": "20a9b440-7ac8-42e6-8454-bb5c3af2847b",
+      "slug": "hotel-de-la-ville-carpino",
+      "nome": "Hotel De La Ville",
+      "city_name": "Carpino",
+      "indirizzo": "Via Scalabrini, 71010 Carpino FG",
+      "lat": 41.851232,
+      "lng": 15.849011
+    },
+    {
+      "id": "82ab36f8-dcb0-4f0d-a6bb-1d9b7cf5a521",
+      "slug": "hotel-miramare-carpino",
+      "nome": "Hotel Miramare",
+      "city_name": "Carpino",
+      "indirizzo": "Via XX Settembre, 2, 71012 Rodi Garganico FG",
+      "lat": 41.929167,
+      "lng": 15.886111
+    },
+    {
+      "id": "0e0d2cd8-76a1-4975-9999-a40e494ab66f",
+      "slug": "hotel-pineta-carpino",
+      "nome": "Hotel Pineta",
+      "city_name": "Carpino",
+      "indirizzo": "Via Passarella, 6, 71018 San Menaio FG",
+      "lat": 41.935264,
+      "lng": 15.95788
+    },
+    {
+      "id": "e7121b85-cab5-41e3-a9eb-99b1c30c0923",
+      "slug": "ibisco-hotel-carpino",
+      "nome": "Ibisco hotel",
+      "city_name": "Carpino",
+      "indirizzo": "Contrada Santa Barbara, 6, 71012 Rodi Garganico FG",
+      "lat": 41.923833,
+      "lng": 15.865252
+    },
+    {
+      "id": "cadccf3c-6ecb-4e8d-8b31-b06737aad1f5",
+      "slug": "la-casa-al-gelso-carpino",
+      "nome": "La Casa al Gelso",
+      "city_name": "Carpino",
+      "indirizzo": "via Tirolo, 21, 71012 Rodi Garganico FG",
+      "lat": 41.928578,
+      "lng": 15.883921
+    },
+    {
+      "id": "2da167b6-b4bd-4c34-80c0-e1e38206010d",
+      "slug": "b-b-il-buon-cammino-carpinone",
+      "nome": "B&B Il Buon Cammino",
+      "city_name": "Carpinone",
+      "indirizzo": "Via Annunziata, vico III, 1, 86092 Roccamandolfi IS",
+      "lat": 41.494749,
+      "lng": 14.350794
+    },
+    {
+      "id": "985768fa-97cc-4a58-aaa5-be8403cf0a2f",
+      "slug": "casa-vacanze-quarto-di-sopra-carpinone",
+      "nome": "Casa vacanze Quarto di Sopra",
+      "city_name": "Carpinone",
+      "indirizzo": "Vico I Chiaia, 86093 Carpinone IS",
+      "lat": 41.59268,
+      "lng": 14.325547
+    },
+    {
+      "id": "269431a1-caab-4250-acca-87930f7580bb",
+      "slug": "grand-hotel-europa-isernia-carpinone",
+      "nome": "Grand Hotel Europa Isernia",
+      "city_name": "Carpinone",
+      "indirizzo": "Viale dei Pentri, 76, 86170 Isernia IS",
+      "lat": 41.597852,
+      "lng": 14.248816
+    },
+    {
+      "id": "f4f97f18-aeeb-44d4-9681-6dc89c2b97a7",
+      "slug": "hotel-s-maria-del-bagno-carpinone",
+      "nome": "Hotel S. Maria del Bagno",
+      "city_name": "Carpinone",
+      "indirizzo": "Via Santa Maria del Bagno, 1, 86090 Pesche IS",
+      "lat": 41.606801,
+      "lng": 14.274812
+    },
+    {
+      "id": "52f9e243-023c-4ba0-84a6-6627dd2c9437",
+      "slug": "albergo-sergio-carrara",
+      "nome": "Albergo Sergio",
+      "city_name": "Carrara",
+      "indirizzo": "Via Provinciale Avenza Carrara, 180, 54033 Carrara MS",
+      "lat": 44.047819,
+      "lng": 10.065673
+    },
+    {
+      "id": "87103c9c-043d-403f-89a2-01449d69938f",
+      "slug": "b-b-alberica10-carrara",
+      "nome": "B&B Alberica10",
+      "city_name": "Carrara",
+      "indirizzo": "Piazza Alberica, 10, 54033 Carrara MS",
+      "lat": 44.079386,
+      "lng": 10.097938
+    },
+    {
+      "id": "501a5518-eeee-4064-a327-aa711f7261ca",
+      "slug": "b-b-il-marlo-carrara",
+      "nome": "B&B IL MARLO",
+      "city_name": "Carrara",
+      "indirizzo": "Viale delle Pinete, 21, 54033 Carrara MS",
+      "lat": 44.03255,
+      "lng": 10.057168
+    },
+    {
+      "id": "ae6f4938-24d1-4d0d-8930-f36d1cb66371",
+      "slug": "b-b-nannalia-carrara",
+      "nome": "B&B Nannalia",
+      "city_name": "Carrara",
+      "indirizzo": "Marina di Carrara, Viale Monzoni, 107/bis, 54033 Carrara MS",
+      "lat": 44.043166,
+      "lng": 10.043704
+    },
+    {
+      "id": "d741920c-1ad3-47ab-92ca-3c7fb4634a44",
+      "slug": "b-b-residenza-marina-carrara",
+      "nome": "B&B Residenza Marina",
+      "city_name": "Carrara",
+      "indirizzo": "Via Venezia, 72, 54033 Marina di Carrara MS",
+      "lat": 44.040774,
+      "lng": 10.035103
+    },
+    {
+      "id": "c9ae5f3e-fbda-4750-bbf5-e74645ee3387",
+      "slug": "b-b-rossana-carrara",
+      "nome": "B&B Rossana",
+      "city_name": "Carrara",
+      "indirizzo": "Viale XX Settembre, 104, 54033 Carrara MS",
+      "lat": 44.069642,
+      "lng": 10.082832
+    },
+    {
+      "id": "9efb961c-9ec3-449d-aafd-d6f5486299e1",
+      "slug": "b-b-villa-belverde-carrara",
+      "nome": "B&B Villa Belverde",
+      "city_name": "Carrara",
+      "indirizzo": "Viale XX Settembre, 73, 54033 Carrara MS",
+      "lat": 44.06681,
+      "lng": 10.075885
+    },
+    {
+      "id": "372f98d4-2a56-4fb1-8ca1-b49c652c66d8",
+      "slug": "exclusive-hotel-apartments-carrara",
+      "nome": "Exclusive - Hotel & Apartments",
+      "city_name": "Carrara",
+      "indirizzo": "Viale Cristoforo Colombo, 57/63, 54033 Carrara MS",
+      "lat": 44.040315,
+      "lng": 10.033367
+    },
+    {
+      "id": "f5a532f8-31bc-486c-b8d5-7fa0fc197230",
+      "slug": "fattoria-battilana-carrara",
+      "nome": "Fattoria Battilana",
+      "city_name": "Carrara",
+      "indirizzo": "Via Ca' Marchetti, 7A, 54033 Carrara MS",
+      "lat": 44.055868,
+      "lng": 10.028707
+    },
+    {
+      "id": "130495c0-c0e3-4ac7-981d-8a346e7f3906",
+      "slug": "hotel-atlantic-carrara",
+      "nome": "Hotel Atlantic",
+      "city_name": "Carrara",
+      "indirizzo": "Viale Amerigo Vespucci, 36, 54033 Marina di Carrara MS",
+      "lat": 44.0382,
+      "lng": 10.03405
+    },
+    {
+      "id": "c312cd5f-4219-4af5-9742-a2d769cd3684",
+      "slug": "hotel-carrara-carrara",
+      "nome": "Hotel Carrara",
+      "city_name": "Carrara",
+      "indirizzo": "Via Enzo Petacchi, 21, 54033 Carrara MS",
+      "lat": 44.051121,
+      "lng": 10.06198
+    },
+    {
+      "id": "d2a0ef89-4c6b-4263-a01f-267f72ac9209",
+      "slug": "hotel-eco-del-mare-carrara",
+      "nome": "Hotel Eco del Mare",
+      "city_name": "Carrara",
+      "indirizzo": "Via Verona, 1, 54100 Marina di Massa MS",
+      "lat": 44.010085,
+      "lng": 10.095992
+    },
+    {
+      "id": "adb47326-622c-49f7-a5d8-1043494d8c41",
+      "slug": "hotel-eura-carrara",
+      "nome": "Hotel Eura",
+      "city_name": "Carrara",
+      "indirizzo": "Via delle Pinete, 1, 54100 Marina di Massa MS",
+      "lat": 44.011222,
+      "lng": 10.097508
+    },
+    {
+      "id": "b4ba47ce-5d5c-4bfc-a037-98eff0260c3c",
+      "slug": "hotel-gabrini-carrara",
+      "nome": "Hotel Gabrini",
+      "city_name": "Carrara",
+      "indirizzo": "Via Don Luigi Sturzo, 19, 54100 Marina di Massa MS",
+      "lat": 44.009429,
+      "lng": 10.102228
+    },
+    {
+      "id": "ea3204ef-4753-4e38-be33-ac3ecbc92f92",
+      "slug": "hotel-la-pineta-carrara",
+      "nome": "Hotel La Pineta",
+      "city_name": "Carrara",
+      "indirizzo": "Viale Cristoforo Colombo, 119 bis, 54033 Marina di Carrara MS",
+      "lat": 44.043761,
+      "lng": 10.025258
+    },
+    {
+      "id": "bbcad116-d007-4a94-84a7-18f384acaa59",
+      "slug": "hotel-luna-carrara",
+      "nome": "Hotel Luna",
+      "city_name": "Carrara",
+      "indirizzo": "Via Tornaboni, 17, 54100 Marina di Massa MS",
+      "lat": 44.015131,
+      "lng": 10.096302
+    },
+    {
+      "id": "013c9021-9e10-493c-b165-72d2b9e6a337",
+      "slug": "hotel-marina-carrara",
+      "nome": "Hotel Marina",
+      "city_name": "Carrara",
+      "indirizzo": "Via Magliano, 3, 54039 Massa MS",
+      "lat": 44.002439,
+      "lng": 10.112424
+    },
+    {
+      "id": "6505904f-a3e2-4c3c-af08-7f5049db4cb5",
+      "slug": "hotel-roma-carrara",
+      "nome": "Hotel Roma",
+      "city_name": "Carrara",
+      "indirizzo": "Piazza Giovanni Pellerano, 16, 54100 Marina di Massa MS",
+      "lat": 44.007958,
+      "lng": 10.101301
+    },
+    {
+      "id": "5cdb9b33-4c62-4ca4-9755-b750cbabc3cf",
+      "slug": "hotel-villa-tiziana-carrara",
+      "nome": "Hotel Villa Tiziana",
+      "city_name": "Carrara",
+      "indirizzo": "Via delle Pinete, 266/A, 54100 Marina di Massa MS",
+      "lat": 44.019488,
+      "lng": 10.08574
+    },
+    {
+      "id": "1738f24e-9577-4a8f-8f96-1d7d2bbd47a8",
+      "slug": "sally-s-b-b-carrara",
+      "nome": "Sally's B&B",
+      "city_name": "Carrara",
+      "indirizzo": "Via Casalina, 18A, 54033 Carrara MS",
+      "lat": 44.054429,
+      "lng": 10.086349
+    }
+  ]
+}

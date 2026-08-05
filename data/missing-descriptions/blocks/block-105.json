@@ -1,0 +1,323 @@
+{
+  "block": 105,
+  "blockId": "105",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "31f8f24d-49a5-4e29-a0ed-28a0f6f2ff41",
+      "slug": "metropolitan-suites-ancona-ancona",
+      "nome": "Metropolitan Suites Ancona",
+      "city_name": "Ancona",
+      "indirizzo": "Corso Giuseppe Mazzini, 156b, 60121 Ancona AN",
+      "lat": 43.617668,
+      "lng": 13.515304
+    },
+    {
+      "id": "b68ca537-ec8b-4fcc-b593-690a87a1584d",
+      "slug": "seeport-hotel-ancona",
+      "nome": "SeePort Hotel",
+      "city_name": "Ancona",
+      "indirizzo": "Via Rupi di Via XXIX Settembre, 12, 60122 Ancona AN",
+      "lat": 43.616112,
+      "lng": 13.506608
+    },
+    {
+      "id": "419057a3-794b-486a-babc-19b31a426373",
+      "slug": "the-city-hotel-ancona-ancona",
+      "nome": "The City Hotel Ancona",
+      "city_name": "Ancona",
+      "indirizzo": "Via Giacomo Matteotti, 112/114, 60121 Ancona AN",
+      "lat": 43.617855,
+      "lng": 13.517975
+    },
+    {
+      "id": "613a6ea1-a76d-4f6d-950f-29b123de7593",
+      "slug": "touring-hotel-falconara-ancona",
+      "nome": "Touring Hotel Falconara",
+      "city_name": "Ancona",
+      "indirizzo": "Via Spagnoli, 18, 60015 Falconara Marittima AN",
+      "lat": 43.623793,
+      "lng": 13.403766
+    },
+    {
+      "id": "4d455c7f-b739-4476-bf74-d3f04efe313e",
+      "slug": "azienda-agrituristica-biologica-il-querceto-andali",
+      "nome": "Azienda Agrituristica Biologica Il Querceto",
+      "city_name": "Andali",
+      "indirizzo": "Località Cerzeto, 1, 88832 Santa Severina KR",
+      "lat": 39.158808,
+      "lng": 16.902138
+    },
+    {
+      "id": "36a1c887-921a-4d39-8ceb-072c328ce9db",
+      "slug": "azienda-agrituristica-le-puzelle-andali",
+      "nome": "Azienda Agrituristica Le Puzelle",
+      "city_name": "Andali",
+      "indirizzo": "Località Puzelle, SS107bis, 88832 Santa Severina KR",
+      "lat": 39.147232,
+      "lng": 16.908608
+    },
+    {
+      "id": "d9a66d9a-d567-47db-8bf2-3242dcece7e1",
+      "slug": "bed-breakfast-la-villetta-andali",
+      "nome": "Bed & Breakfast La Villetta",
+      "city_name": "Andali",
+      "indirizzo": "Via Ilaria Alpi, 1, 88070 Botricello CZ",
+      "lat": 38.93388,
+      "lng": 16.85988
+    },
+    {
+      "id": "86075a77-64f8-48ae-99cd-722d3b807e63",
+      "slug": "casa-laino-andali",
+      "nome": "Casa Laino",
+      "city_name": "Andali",
+      "indirizzo": "Andali, Piazza Raffaele, 88070 Belcastro CZ",
+      "lat": 39.017302,
+      "lng": 16.784371
+    },
+    {
+      "id": "47836c27-1f41-4ccd-81bf-8f78bc8bf009",
+      "slug": "cassiodoro-rooms-affittacamere-andali",
+      "nome": "Cassiodoro Rooms Affittacamere",
+      "city_name": "Andali",
+      "indirizzo": "V.le Cassiodoro, 159/183, 88100 Catanzaro CZ",
+      "lat": 38.868838,
+      "lng": 16.607572
+    },
+    {
+      "id": "c5b85411-67b1-4221-98be-35675d8095d2",
+      "slug": "hotel-4-lampioni-andali",
+      "nome": "Hotel 4 Lampioni",
+      "city_name": "Andali",
+      "indirizzo": "Via Nazionale, 91, 88051 Cropani CZ",
+      "lat": 38.923258,
+      "lng": 16.807998
+    },
+    {
+      "id": "7e84bd11-6135-47f4-a97d-43bc820f2ab2",
+      "slug": "hotel-onda-bleu-andali",
+      "nome": "Hotel Onda Bleu",
+      "city_name": "Andali",
+      "indirizzo": "S.da Statale 106 Jonica, Km.212, 88070 Botricello CZ",
+      "lat": 38.938949,
+      "lng": 16.874767
+    },
+    {
+      "id": "52087714-7914-4d51-9b00-9a7742375fc3",
+      "slug": "hotel-ristorante-l-orizzonte-andali",
+      "nome": "Hotel Ristorante L'Orizzonte",
+      "city_name": "Andali",
+      "indirizzo": "Contrada Campolongo, 88841 Le Castella KR",
+      "lat": 38.941522,
+      "lng": 17.00329
+    },
+    {
+      "id": "c2be0372-3daf-445a-9f46-2b7e63abb9c4",
+      "slug": "la-collina-dolce-andali",
+      "nome": "La collina dolce",
+      "city_name": "Andali",
+      "indirizzo": "Strada Statale 180, 88051 Cropani CZ",
+      "lat": 38.978628,
+      "lng": 16.770582
+    },
+    {
+      "id": "ec475658-d643-48cd-a8a4-c16deab94cf5",
+      "slug": "sandhotel-via-de-gasperi-botricello-andali",
+      "nome": "Sandhotel via De Gasperi Botricello",
+      "city_name": "Andali",
+      "indirizzo": "Via De Gasperi, 88070 Botricello CZ",
+      "lat": 38.934279,
+      "lng": 16.869487
+    },
+    {
+      "id": "a7375e28-cd24-4cd7-91d4-314ca880e2ad",
+      "slug": "voi-floriana-resort-andali",
+      "nome": "VOI Floriana Resort",
+      "city_name": "Andali",
+      "indirizzo": "Via del Mare, 8, 88050 Simeri Crichi CZ",
+      "lat": 38.859001,
+      "lng": 16.694241
+    },
+    {
+      "id": "eecd7451-f92b-42a8-9fad-22490711aa4f",
+      "slug": "zaro-suites-bed-breakfast-andali",
+      "nome": "Zaro Suites Bed & Breakfast",
+      "city_name": "Andali",
+      "indirizzo": "Via della Resistenza, 10, 88100 Catanzaro CZ",
+      "lat": 38.870736,
+      "lng": 16.608836
+    },
+    {
+      "id": "aad28940-5d15-41b6-9b00-d68697adce2c",
+      "slug": "adler-meryem-wellness-hotel-andalo",
+      "nome": "ADLER MERYEM wellness hotel",
+      "city_name": "Andalo",
+      "indirizzo": "Piazza Centrale, 2, 38010 Andalo TN",
+      "lat": 46.165069,
+      "lng": 11.003634
+    },
+    {
+      "id": "f5402ec3-84fa-4d1e-bcbf-b905bc1ca6d7",
+      "slug": "alphotel-milano-andalo-andalo",
+      "nome": "Alphotel Milano Andalo",
+      "city_name": "Andalo",
+      "indirizzo": "Via Dossi, 8, 38010 Andalo TN",
+      "lat": 46.165082,
+      "lng": 11.001026
+    },
+    {
+      "id": "9fa154c9-b8dd-46bb-a8b4-c2496ad8af39",
+      "slug": "alpino-baby-family-hotel-andalo",
+      "nome": "Alpino Baby Family Hotel",
+      "city_name": "Andalo",
+      "indirizzo": "Via Priori, 17, 38010 Andalo TN",
+      "lat": 46.167879,
+      "lng": 11.002043
+    },
+    {
+      "id": "c98d2950-861f-4508-8a15-c270777bd851",
+      "slug": "appartamenti-residence-cima-tosa-andalo-andalo",
+      "nome": "Appartamenti - Residence Cima Tosa - Andalo",
+      "city_name": "Andalo",
+      "indirizzo": "Via S. Rocco, 8, 38010 Andalo TN",
+      "lat": 46.167153,
+      "lng": 11.00704
+    },
+    {
+      "id": "45a61d01-698b-43d0-94c9-a14f8e3d2fb9",
+      "slug": "astoria-comfort-hotel-andalo-andalo",
+      "nome": "Astoria Comfort Hotel Andalo",
+      "city_name": "Andalo",
+      "indirizzo": "Via Crosare, 7, 38010 Andalo TN",
+      "lat": 46.166236,
+      "lng": 11.002367
+    },
+    {
+      "id": "26aaa8b0-68c0-46c3-b0da-4ec80f8f966b",
+      "slug": "dolomiti-hotel-olimpia-andalo",
+      "nome": "Dolomiti Hotel Olimpia",
+      "city_name": "Andalo",
+      "indirizzo": "Via Paganella, 19, 38010 Andalo TN",
+      "lat": 46.165761,
+      "lng": 11.006948
+    },
+    {
+      "id": "e25b3a5e-4308-41a1-808b-dc54be27e127",
+      "slug": "garden-wellness-hotel-andalo-trentino-andalo",
+      "nome": "Garden Wellness Hotel - Andalo Trentino",
+      "city_name": "Andalo",
+      "indirizzo": "Viale Trento, 19, 38010 Andalo TN",
+      "lat": 46.171134,
+      "lng": 11.007408
+    },
+    {
+      "id": "089c8d63-56ca-492c-af2c-d0c4d12b91f5",
+      "slug": "grand-hotel-piz-galin-andalo",
+      "nome": "Grand Hotel Piz Galin",
+      "city_name": "Andalo",
+      "indirizzo": "Via Dossi, 1, 38010 Andalo TN",
+      "lat": 46.164783,
+      "lng": 11.002711
+    },
+    {
+      "id": "a9d26094-558e-4599-9cd2-a3bc9b10a4bd",
+      "slug": "hotel-al-plan-andalo",
+      "nome": "Hotel Al Plan",
+      "city_name": "Andalo",
+      "indirizzo": "Viale Trento, 5, 38010 Andalo TN",
+      "lat": 46.167125,
+      "lng": 11.003112
+    },
+    {
+      "id": "57eea874-4d82-4d27-aa88-1ce9cd7f7022",
+      "slug": "hotel-andalo-andalo",
+      "nome": "Hotel Andalo",
+      "city_name": "Andalo",
+      "indirizzo": "Piazzale Paganella, 7, 38010 Andalo TN",
+      "lat": 46.164375,
+      "lng": 11.006187
+    },
+    {
+      "id": "382adfc7-6505-41fc-9783-45447ae238f2",
+      "slug": "hotel-dal-bon-andalo",
+      "nome": "Hotel Dal Bon",
+      "city_name": "Andalo",
+      "indirizzo": "Via Dossi, 4, 38010 Andalo TN",
+      "lat": 46.165463,
+      "lng": 11.002053
+    },
+    {
+      "id": "b33ff6ff-6f73-4c56-8392-f80ec1c99f63",
+      "slug": "hotel-dolce-avita-andalo",
+      "nome": "Hotel Dolce Avita",
+      "city_name": "Andalo",
+      "indirizzo": "Via del Moro, 1, 38010 Andalo TN",
+      "lat": 46.167577,
+      "lng": 11.00141
+    },
+    {
+      "id": "ad74602a-87fe-4c2d-9d38-3b3ffed594f7",
+      "slug": "hotel-eden-andalo-mountain-lifestyle-andalo",
+      "nome": "Hotel Eden Andalo - Mountain Lifestyle",
+      "city_name": "Andalo",
+      "indirizzo": "Via Paganella, 25, 38010 Andalo TN",
+      "lat": 46.166822,
+      "lng": 11.007144
+    },
+    {
+      "id": "7e5fd6ff-bf40-47cb-9cc3-b64d3a003e3d",
+      "slug": "hotel-garni-la-roccia-andalo",
+      "nome": "Hotel Garni La Roccia",
+      "city_name": "Andalo",
+      "indirizzo": "Via Ponte Lambin, 38010 Andalo TN",
+      "lat": 46.163512,
+      "lng": 11.001426
+    },
+    {
+      "id": "6a5074ed-bfcb-480d-a459-b3217227de17",
+      "slug": "hotel-ghezzi-andalo",
+      "nome": "Hotel Ghezzi",
+      "city_name": "Andalo",
+      "indirizzo": "Viale Trento, 12, 38010 Andalo TN",
+      "lat": 46.166692,
+      "lng": 11.003846
+    },
+    {
+      "id": "db1ec803-a620-4029-9a8a-abc0d0910acc",
+      "slug": "hotel-k2-andalo",
+      "nome": "Hotel K2",
+      "city_name": "Andalo",
+      "indirizzo": "Via Rindole, 2, 38010 Andalo TN",
+      "lat": 46.163785,
+      "lng": 11.004915
+    },
+    {
+      "id": "d341ef13-ec80-49d1-bbbc-776435908ffc",
+      "slug": "hotel-negritella-andalo",
+      "nome": "Hotel Negritella",
+      "city_name": "Andalo",
+      "indirizzo": "Via Paganella, 32, 38010 Andalo TN",
+      "lat": 46.166723,
+      "lng": 11.008212
+    },
+    {
+      "id": "4276f50a-b923-4b03-ab4e-7a95f12c94af",
+      "slug": "hotel-nordik-andalo",
+      "nome": "Hotel Nordik",
+      "city_name": "Andalo",
+      "indirizzo": "Via Paganella, 11, 38010 Andalo TN",
+      "lat": 46.164917,
+      "lng": 11.006211
+    },
+    {
+      "id": "dfeaac34-5afe-462c-8bfb-480b09833e7a",
+      "slug": "hotel-piancastello-andalo-andalo",
+      "nome": "Hotel Piancastello - Andalo",
+      "city_name": "Andalo",
+      "indirizzo": "Via Strigole, 6, 38010 Andalo TN",
+      "lat": 46.166288,
+      "lng": 11.009703
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "block": 339,
+  "blockId": "339",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "1ad03c98-200a-4ff0-afce-f3d926267b4e",
+      "slug": "hotel-cala-mirto-budoni",
+      "nome": "Hotel Cala Mirto",
+      "city_name": "Budoni",
+      "indirizzo": "Località Porto Ainu, 07051 Budoni OT",
+      "lat": 40.690184,
+      "lng": 9.737617
+    },
+    {
+      "id": "803d7a51-6ad5-4b60-8108-bc61ce327675",
+      "slug": "hotel-castello-budoni-budoni",
+      "nome": "Hotel Castello Budoni",
+      "city_name": "Budoni",
+      "indirizzo": "PMQR+VC, 07051 Budoni OT",
+      "lat": 40.737046,
+      "lng": 9.690539
+    },
+    {
+      "id": "fc1b1c1b-590b-41f1-944d-3e2350f41b89",
+      "slug": "hotel-matta-village-budoni",
+      "nome": "Hotel Matta Village",
+      "city_name": "Budoni",
+      "indirizzo": "Matta e Peru 2, 07020 Matta E Peru OT",
+      "lat": 40.661534,
+      "lng": 9.74685
+    },
+    {
+      "id": "e2ed67ae-77ee-4656-b4f7-074200fcb12a",
+      "slug": "hotel-pedra-niedda-budoni",
+      "nome": "Hotel Pedra Niedda",
+      "city_name": "Budoni",
+      "indirizzo": "Via Porto Ainu, 1, 07051 Tanaunella OT",
+      "lat": 40.691991,
+      "lng": 9.730086
+    },
+    {
+      "id": "09d00887-d565-4daf-88f4-bb6c76f01dd3",
+      "slug": "hotel-pedra-ruja-budoni",
+      "nome": "Hotel Pedra Ruja",
+      "city_name": "Budoni",
+      "indirizzo": "Via Roma, 07051 Budoni OT",
+      "lat": 40.69677,
+      "lng": 9.690662
+    },
+    {
+      "id": "3f48c84d-b07d-4f8f-8012-738d8a2bd207",
+      "slug": "janna-e-sole-resort-budoni",
+      "nome": "Janna 'e Sole Resort",
+      "city_name": "Budoni",
+      "indirizzo": "Via B. Fieschi, 4, 07051 Budoni OT",
+      "lat": 40.727248,
+      "lng": 9.708624
+    },
+    {
+      "id": "59760a8a-27dc-40de-81ae-1af4cc489082",
+      "slug": "residence-l-uddastru-budoni",
+      "nome": "Residence L'Uddastru",
+      "city_name": "Budoni",
+      "indirizzo": "Via Porto San Paolo, 07051 Malamurì, Budoni OT",
+      "lat": 40.719879,
+      "lng": 9.684979
+    },
+    {
+      "id": "083136c6-8507-4745-b3c7-992edd481aad",
+      "slug": "resort-abbaia-ba-budoni",
+      "nome": "Resort Abbaia Ba",
+      "city_name": "Budoni",
+      "indirizzo": "Via Emilio Lussu, Snc, 07051 Budoni OT",
+      "lat": 40.709861,
+      "lng": 9.712106
+    },
+    {
+      "id": "63928b46-33e5-4f20-832f-848f30eac8a8",
+      "slug": "sa-prata-hotel-resort-budoni",
+      "nome": "Sa Prata Hotel & Resort",
+      "city_name": "Budoni",
+      "indirizzo": "Via Eleonora d'Arborea, 07051 Tanaunella OT",
+      "lat": 40.691463,
+      "lng": 9.728411
+    },
+    {
+      "id": "64e9af89-f687-41ca-a7db-9e540018ad87",
+      "slug": "secret-village-budoni-budoni",
+      "nome": "Secret Village Budoni",
+      "city_name": "Budoni",
+      "indirizzo": "07051 Budoni OT",
+      "lat": 40.728298,
+      "lng": 9.705691
+    },
+    {
+      "id": "c32c7851-6f31-4859-b655-68290c1028cf",
+      "slug": "stella-marina-budoni",
+      "nome": "Stella Marina",
+      "city_name": "Budoni",
+      "indirizzo": "Via dei Lidi, 80, 07051 Budoni OT",
+      "lat": 40.707329,
+      "lng": 9.715124
+    },
+    {
+      "id": "583aa3c6-92bd-40af-a08c-3d4501cbfb79",
+      "slug": "tenuta-lu-baroni-budoni",
+      "nome": "Tenuta Lu Baroni",
+      "city_name": "Budoni",
+      "indirizzo": "Via dei Giacinti, 07051 Porto Ottiolu OT",
+      "lat": 40.743851,
+      "lng": 9.701896
+    },
+    {
+      "id": "3f95327d-4ab2-4569-a17a-88eab42a10a1",
+      "slug": "tui-blue-budoni-budoni",
+      "nome": "TUI BLUE Budoni",
+      "city_name": "Budoni",
+      "indirizzo": "Via Cristoforo Colombo, 3, 07051 Agrustos GA",
+      "lat": 40.724164,
+      "lng": 9.708121
+    },
+    {
+      "id": "97fafb68-2ab2-4867-9db1-f74b78743180",
+      "slug": "villa-lentischio-domo-gallura-e-domo-baronia-bud-budoni",
+      "nome": "Villa Lentischio - Domo Gallura e Domo Baronia - Budoni",
+      "city_name": "Budoni",
+      "indirizzo": "Via Torquato Tasso, 200, 07051 Budoni OT",
+      "lat": 40.70728,
+      "lng": 9.711066
+    },
+    {
+      "id": "c200dad4-9d86-47e9-9dd3-6308f9e22cf8",
+      "slug": "villaggio-baia-dei-pini-budoni",
+      "nome": "Villaggio Baia dei Pini",
+      "city_name": "Budoni",
+      "indirizzo": "Località Pedra e Cupa, 07051 Budoni NU",
+      "lat": 40.699171,
+      "lng": 9.715449
+    },
+    {
+      "id": "798f81be-1263-4a52-8b74-fa18fa775316",
+      "slug": "a-casa-di-lella-budrio",
+      "nome": "A casa di Lella",
+      "city_name": "Budrio",
+      "indirizzo": "Via E. Zanardi, 4, 40054 Budrio BO",
+      "lat": 44.536734,
+      "lng": 11.533155
+    },
+    {
+      "id": "c24e39ff-f46c-4d67-bdcd-a5ed4ba504fc",
+      "slug": "agriturismo-country-house-santa-maria-maddalena-budrio",
+      "nome": "Agriturismo Country House Santa Maria Maddalena",
+      "city_name": "Budrio",
+      "indirizzo": "Via Armiggia, 34, 40054 Budrio BO",
+      "lat": 44.561509,
+      "lng": 11.492081
+    },
+    {
+      "id": "ea0cb24a-d762-4861-b200-e38a799ed4fb",
+      "slug": "agriturismo-flabeto-budrio",
+      "nome": "Agriturismo Flabeto",
+      "city_name": "Budrio",
+      "indirizzo": "Via Bagnarola, 4, 40054 Budrio BO",
+      "lat": 44.551602,
+      "lng": 11.512079
+    },
+    {
+      "id": "4ad64953-888c-4775-9ab5-ba9514d67b29",
+      "slug": "agriturismo-la-dondina-budrio",
+      "nome": "Agriturismo La Dondina",
+      "city_name": "Budrio",
+      "indirizzo": "Via Dondina, 1, 40054 Budrio BO",
+      "lat": 44.52137,
+      "lng": 11.543737
+    },
+    {
+      "id": "f002f61f-ec26-4468-8585-7002ba4e682a",
+      "slug": "agriturismo-la-riccardina-budrio",
+      "nome": "Agriturismo La Riccardina",
+      "city_name": "Budrio",
+      "indirizzo": "Via Cantapoiana, 2, 40054 Budrio BO",
+      "lat": 44.570858,
+      "lng": 11.52115
+    },
+    {
+      "id": "c09d281f-60cf-465e-97a1-2e7662965b06",
+      "slug": "agriturismo-podere-amati-budrio",
+      "nome": "Agriturismo Podere Amati",
+      "city_name": "Budrio",
+      "indirizzo": "Via Fornace, 3, 40054 Budrio BO",
+      "lat": 44.555898,
+      "lng": 11.518668
+    },
+    {
+      "id": "58226596-7c92-4fd2-93ef-08c6cc3b8bf3",
+      "slug": "albergo-aurora-budrio",
+      "nome": "Albergo Aurora",
+      "city_name": "Budrio",
+      "indirizzo": "Via P. C. S. Nasica, 110, 40055 Castenaso BO",
+      "lat": 44.501436,
+      "lng": 11.494532
+    },
+    {
+      "id": "065c41de-fe14-4000-b543-2049420058f2",
+      "slug": "b-b-hole6-budrio",
+      "nome": "B&B HOLE6",
+      "city_name": "Budrio",
+      "indirizzo": "Via Chiusa Nuova, 8/4, 40055 Castenaso BO",
+      "lat": 44.496381,
+      "lng": 11.466089
+    },
+    {
+      "id": "4fe69bab-8438-4c76-ad11-b28d596f8f50",
+      "slug": "b-b-house-bellaria-budrio",
+      "nome": "B&B House Bellaria",
+      "city_name": "Budrio",
+      "indirizzo": "Via Renato Torreggiani, 71, 40068 San Lazzaro di Savena BO",
+      "lat": 44.464807,
+      "lng": 11.410012
+    },
+    {
+      "id": "f945f3f3-9ecb-4077-b7d5-dcdfb3d58cb7",
+      "slug": "b-b-il-giardino-dei-portici-medicina-piano-terra-budrio",
+      "nome": "B&B Il Giardino dei Portici Medicina | Piano Terra | Centro Storico | Central Ground Floor Stay | Public Parking | A/C | WiFi",
+      "city_name": "Budrio",
+      "indirizzo": "Piazza A. Costa, 6, 40059 Medicina BO",
+      "lat": 44.4765,
+      "lng": 11.641004
+    },
+    {
+      "id": "4f80d938-d3b2-48f2-a460-922699613f56",
+      "slug": "b-b-l-alberone-budrio",
+      "nome": "B&B L'Alberone",
+      "city_name": "Budrio",
+      "indirizzo": "Via Mingarano, 23, 40054 Budrio BO",
+      "lat": 44.554899,
+      "lng": 11.528733
+    },
+    {
+      "id": "62d156bf-ce72-40bd-b3db-1e43c88d4ad7",
+      "slug": "b-b-la-terrazza-budrio",
+      "nome": "B&B La Terrazza",
+      "city_name": "Budrio",
+      "indirizzo": "SS 9 Via Emilia, 52, 40064 Ozzano dell'Emilia BO",
+      "lat": 44.446335,
+      "lng": 11.471834
+    },
+    {
+      "id": "e316fcb2-d7d3-41bc-ba9e-fa1047a452cd",
+      "slug": "b-b-la-torre-budrio",
+      "nome": "B&B La Torre",
+      "city_name": "Budrio",
+      "indirizzo": "Via Viazza in Destra, 25, 40054 Budrio BO",
+      "lat": 44.547237,
+      "lng": 11.542434
+    },
+    {
+      "id": "a9f80c25-dd49-4446-bee1-02fea268508a",
+      "slug": "b-b-mo-va-la-budrio",
+      "nome": "B&B Mo va là",
+      "city_name": "Budrio",
+      "indirizzo": "Via Zenzalino Sud, 25A, 40054 Budrio BO",
+      "lat": 44.527344,
+      "lng": 11.526037
+    },
+    {
+      "id": "633a7904-5357-4a9e-8574-990ca96a6c8f",
+      "slug": "bblovebologna-budrio",
+      "nome": "bblovebologna",
+      "city_name": "Budrio",
+      "indirizzo": "Via Dorando Petri, 2, 40055 Castenaso BO",
+      "lat": 44.51277,
+      "lng": 11.461389
+    },
+    {
+      "id": "89281726-cea5-4575-b6fd-2cb0eef6d4e8",
+      "slug": "colibri-art-b-b-budrio",
+      "nome": "Colibrì Art b&b",
+      "city_name": "Budrio",
+      "indirizzo": "Via Provinciale Superiore, 211, 40062 San Martino In Argine BO",
+      "lat": 44.587504,
+      "lng": 11.60895
+    },
+    {
+      "id": "77ad14b6-22de-4a63-be89-5204325aa745",
+      "slug": "hotel-san-francesco-budrio",
+      "nome": "Hotel San Francesco",
+      "city_name": "Budrio",
+      "indirizzo": "Via Frati Cappuccini, 3, 40054 Budrio BO",
+      "lat": 44.538024,
+      "lng": 11.528749
+    },
+    {
+      "id": "f9bde2ca-2441-46a9-a75e-28690c4b22ae",
+      "slug": "la-dimora-di-amelie-parcheggio-gratuito-budrio",
+      "nome": "La dimora di Amélie __parcheggio gratuito",
+      "city_name": "Budrio",
+      "indirizzo": "CIN: IT037054C2C82OEI2T, Via Cà Bassa, 1B, 40068 San Lazzaro di Savena BO",
+      "lat": 44.455545,
+      "lng": 11.445886
+    },
+    {
+      "id": "843176e7-e9cf-4510-80b0-16e7fa412d5d",
+      "slug": "quieora-b-b-dadudu-budrio",
+      "nome": "QuieOra B&B DADUDU'",
+      "city_name": "Budrio",
+      "indirizzo": "Via Loris Fortuna, 73, 40054 Budrio BO",
+      "lat": 44.491136,
+      "lng": 11.511193
+    },
+    {
+      "id": "200d7d6c-c9ac-4c7d-80aa-5512be5cfc2c",
+      "slug": "alelca-domo-b-b-buggerru",
+      "nome": "Alelca Domo B&B",
+      "city_name": "Buggerru",
+      "indirizzo": "Località, Str. delle dune di S. Nicolò, 4, 09010 Buggerru CI",
+      "lat": 39.417046,
+      "lng": 8.411794
+    }
+  ]
+}

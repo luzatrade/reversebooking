@@ -1,0 +1,323 @@
+{
+  "block": 356,
+  "blockId": "356",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "b47246c7-91c3-491f-843b-e163299c2947",
+      "slug": "il-rifugio-verde-caiazzo",
+      "nome": "Il Rifugio Verde",
+      "city_name": "Caiazzo",
+      "indirizzo": "SP247, 11, 81013 Caiazzo CE",
+      "lat": 41.16191,
+      "lng": 14.356343
+    },
+    {
+      "id": "60cc15bf-fd44-4e37-9d71-b6e29aa44c25",
+      "slug": "le-piracante-bed-breakfast-caiazzo",
+      "nome": "Le Piracante Bed&Breakfast",
+      "city_name": "Caiazzo",
+      "indirizzo": "Via Lavandaio, 27, 81013 Caiazzo CE",
+      "lat": 41.1967,
+      "lng": 14.374033
+    },
+    {
+      "id": "94a5e4f1-bb98-4ee7-a505-a3f4d54bcfdf",
+      "slug": "lory-s-home-via-valardo-n-6bis-caiazzo-ce-caiazzo",
+      "nome": "LORY'S HOME via valardo n. 6bis Caiazzo (ce)",
+      "city_name": "Caiazzo",
+      "indirizzo": "Via Valardo, 6bis, 81013 Caiazzo CE",
+      "lat": 41.17266,
+      "lng": 14.363445
+    },
+    {
+      "id": "114a7636-e0d3-458c-b54d-1554f35120ad",
+      "slug": "mandevilla-home-caiazzo",
+      "nome": "Mandevilla Home",
+      "city_name": "Caiazzo",
+      "indirizzo": "Piazza Porta Vetere, 4, 81013 Caiazzo CE",
+      "lat": 41.178249,
+      "lng": 14.364715
+    },
+    {
+      "id": "76ca9d37-1088-4e0b-9c39-8510ebecd50a",
+      "slug": "santa-lucia-b-b-caiazzo",
+      "nome": "Santa Lucia B&B",
+      "city_name": "Caiazzo",
+      "indirizzo": "Via Montegarofalo II, 5, 81013 Santa Lucia CE",
+      "lat": 41.196337,
+      "lng": 14.377209
+    },
+    {
+      "id": "0423322e-a08e-4579-8e01-1f6cddd83b21",
+      "slug": "tenuta-pezzapane-caiazzo",
+      "nome": "Tenuta Pezzapane",
+      "city_name": "Caiazzo",
+      "indirizzo": "Via Volturno, 4 Via Volturno, 1ª traversa, 1, 81010 Alvignanello CE",
+      "lat": 41.207962,
+      "lng": 14.437888
+    },
+    {
+      "id": "3b5e32bf-cc52-4e5f-b0e5-4390d2eba867",
+      "slug": "agriturismo-tischlerhof-caines-kuens",
+      "nome": "Agriturismo Tischlerhof",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Via Passo Giovo, 26, 39019 Tirolo BZ",
+      "lat": 46.693851,
+      "lng": 11.171144
+    },
+    {
+      "id": "717f6fba-170f-4b90-b548-1b7e0ac50474",
+      "slug": "albergo-sonnbichl-caines-kuens",
+      "nome": "Albergo Sonnbichl",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "39010 Rifiano BZ, Italia",
+      "lat": 46.699749,
+      "lng": 11.176025
+    },
+    {
+      "id": "6a307d4b-9a65-47f5-8a4c-910a0215a1e7",
+      "slug": "appartement-hotel-anthea-pension-pichler-caines-kuens",
+      "nome": "Appartement-Hotel Anthea / Pension Pichler",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Via del Seminario, 30, 39019 Tirolo BZ",
+      "lat": 46.69567,
+      "lng": 11.162386
+    },
+    {
+      "id": "39c58cb5-6e7b-49b0-852f-22eb4a460674",
+      "slug": "berggutl-caines-kuens",
+      "nome": "Berggütl",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Haslachstrasse, 17, 39019 Tirolo BZ",
+      "lat": 46.692764,
+      "lng": 11.154859
+    },
+    {
+      "id": "d63cd7c5-0e1f-4b83-9a1d-5840cfcddf1a",
+      "slug": "feldhof-apartments-chalet-caines-kuens",
+      "nome": "Feldhof Apartments - Chalet",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Via Passo Giovo, 10, 39010 Caines BZ",
+      "lat": 46.694528,
+      "lng": 11.174169
+    },
+    {
+      "id": "95e7a91a-bc1c-49f6-96c0-379c622d4169",
+      "slug": "furggerhof-caines-kuens",
+      "nome": "Furggerhof",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Via del Castello, 5, 39019 Tirolo BZ",
+      "lat": 46.691082,
+      "lng": 11.152285
+    },
+    {
+      "id": "eb95ff18-0fab-4247-a950-3b703658cdc0",
+      "slug": "hotel-brunnhofer-caines-kuens",
+      "nome": "Hotel Brunnhofer",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Via Aica, 33, 39019 Tirolo BZ",
+      "lat": 46.69062,
+      "lng": 11.167132
+    },
+    {
+      "id": "180d9d09-7a96-4c0b-a8ab-407a2cf206c6",
+      "slug": "hotel-haselried-caines-kuens",
+      "nome": "Hotel Haselried",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Via del Seminario, 28, 39019 Tirolo BZ",
+      "lat": 46.694795,
+      "lng": 11.162449
+    },
+    {
+      "id": "7b5078a9-6784-408a-9034-f5cf86454124",
+      "slug": "hotel-hofbrunn-caines-kuens",
+      "nome": "Hotel Hofbrunn",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Via Passo Giovo, 14, 39010 Rifiano BZ",
+      "lat": 46.699444,
+      "lng": 11.178889
+    },
+    {
+      "id": "729238a7-32ca-4cb1-9b5e-c3ae65459f37",
+      "slug": "hotel-restaurant-tannerhof-caines-kuens",
+      "nome": "Hotel Restaurant Tannerhof",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Schennastraße 20, 39017 Scena BZ",
+      "lat": 46.685814,
+      "lng": 11.188945
+    },
+    {
+      "id": "d44cbeb4-b062-49e2-8f37-96098cae21c2",
+      "slug": "hotel-sonnenhof-caines-kuens",
+      "nome": "Hotel Sonnenhof",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Via Caines, 43, 39010 Caines BZ",
+      "lat": 46.699824,
+      "lng": 11.169625
+    },
+    {
+      "id": "3ac58039-d2a4-4765-8694-0d5772754b37",
+      "slug": "hotel-stefanie-caines-kuens",
+      "nome": "Hotel Stefanie",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Via Ling, 30, 39019 Tirolo BZ",
+      "lat": 46.690847,
+      "lng": 11.161133
+    },
+    {
+      "id": "f405eedf-24fa-4dd8-8946-93c2961b6c2d",
+      "slug": "hotel-weger-caines-kuens",
+      "nome": "Hotel Weger",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Via Passo Giovo, 16, 39019 Tirolo BZ",
+      "lat": 46.687187,
+      "lng": 11.167946
+    },
+    {
+      "id": "561df410-1f42-4c5f-acc1-a65876512855",
+      "slug": "hotel-zirmerhof-caines-kuens",
+      "nome": "Hotel Zirmerhof",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Via Hohlgasse, 40, 39010 Rifiano BZ",
+      "lat": 46.70196,
+      "lng": 11.17827
+    },
+    {
+      "id": "ecef072c-bacf-4cb9-a391-e18bcf09ecab",
+      "slug": "laimerhof-caines-kuens",
+      "nome": "Laimerhof",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Via Passo Giovo, 82, 39010 Rifiano BZ",
+      "lat": 46.703444,
+      "lng": 11.181974
+    },
+    {
+      "id": "4e2a93d7-c055-47e3-803f-8bcd3a3cc237",
+      "slug": "pension-ferienwohnungen-st-corbinian-caines-kuens",
+      "nome": "Pension Ferienwohnungen St. Corbinian",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Via Passo Giovo, 5, 39010 Caines BZ",
+      "lat": 46.695684,
+      "lng": 11.172979
+    },
+    {
+      "id": "f691f529-3997-4d5f-9dca-0ffdc055f9a4",
+      "slug": "pension-schweigkofler-caines-kuens",
+      "nome": "Pension Schweigkofler",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Via Passo Giovo, 23, 39019 Tirolo BZ",
+      "lat": 46.688487,
+      "lng": 11.170592
+    },
+    {
+      "id": "41febeb3-f897-451b-917f-4c2ff22f7e11",
+      "slug": "pensione-kleon-caines-kuens",
+      "nome": "Pensione Kleon",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Via Hohlgasse, 10, 39010 Rifiano BZ",
+      "lat": 46.701719,
+      "lng": 11.178754
+    },
+    {
+      "id": "44107b76-d275-49a2-8fa3-fca982bbcbb8",
+      "slug": "tannerhof-bed-breakfast-caines-kuens",
+      "nome": "Tannerhof Bed & Breakfast",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Via Passo Giovo, 1, 39010 Caines BZ",
+      "lat": 46.695276,
+      "lng": 11.169304
+    },
+    {
+      "id": "260689be-8212-4a34-a600-25fe7eecf8c6",
+      "slug": "tiroler-kreuz-restaurant-hotel-dorf-tirol-caines-kuens",
+      "nome": "Tiroler Kreuz Restaurant Hotel Dorf Tirol",
+      "city_name": "Caines/Kuens",
+      "indirizzo": "Haslachstrasse, 117, 39019 Tirolo BZ",
+      "lat": 46.70242,
+      "lng": 11.158366
+    },
+    {
+      "id": "bfcdba25-6e1e-4d54-9ba2-6a64c27c73c4",
+      "slug": "agriturismo-dell-altopiano-serle-caino",
+      "nome": "Agriturismo Dell'Altopiano Serle",
+      "city_name": "Caino",
+      "indirizzo": "Via Carnevale, 11, 25080 Serle BS",
+      "lat": 45.591584,
+      "lng": 10.362947
+    },
+    {
+      "id": "e21cf87d-daeb-492e-af69-919213940306",
+      "slug": "agriturismo-b-b-caffe-e-vino-caiolo",
+      "nome": "Agriturismo B&B Caffè e Vino",
+      "city_name": "Caiolo",
+      "indirizzo": "Via Roi, 102, 23010 Caiolo SO",
+      "lat": 46.154236,
+      "lng": 9.808203
+    },
+    {
+      "id": "5664971b-2030-48fa-9688-bbd5651116ee",
+      "slug": "azienda-agrituristica-ribunta-caiolo",
+      "nome": "Azienda Agrituristica Ribunta'",
+      "city_name": "Caiolo",
+      "indirizzo": "Località S. Bernardo, 52, 23010 Caiolo SO",
+      "lat": 46.147459,
+      "lng": 9.796666
+    },
+    {
+      "id": "34bd65de-95b8-461e-a7e4-0bd180016ec1",
+      "slug": "baliba-ride-relax-caiolo",
+      "nome": "Balibà Ride & Relax",
+      "city_name": "Caiolo",
+      "indirizzo": "Via Ezio Vanoni, 493, 23012 Castione Andevenno SO",
+      "lat": 46.165831,
+      "lng": 9.801878
+    },
+    {
+      "id": "173e25c2-a65f-46ba-915d-40b1c455ddc7",
+      "slug": "bed-and-breakfast-carunei-caiolo",
+      "nome": "Bed and Breakfast CARUNEI",
+      "city_name": "Caiolo",
+      "indirizzo": "Via Sottomonte, 13, 23020 Poggiridenti SO",
+      "lat": 46.171577,
+      "lng": 9.925695
+    },
+    {
+      "id": "e95e6747-60cd-4ef6-9077-8183d59a75ee",
+      "slug": "menegola-gabriele-agriturismo-cavria-caiolo",
+      "nome": "Menegola Gabriele - Agriturismo Cavria",
+      "city_name": "Caiolo",
+      "indirizzo": "Via Piatta, 1/d, 23012 Castione Andevenno SO",
+      "lat": 46.174629,
+      "lng": 9.806874
+    },
+    {
+      "id": "210973cf-890a-4082-bf38-1939d13f654d",
+      "slug": "residenza-sassella-caiolo",
+      "nome": "Residenza Sassella",
+      "city_name": "Caiolo",
+      "indirizzo": "Piazza del Santuario, 7, 23100 Sondrio SO",
+      "lat": 46.162465,
+      "lng": 9.834821
+    },
+    {
+      "id": "d7252c6f-f606-40dd-a62d-1109738b9121",
+      "slug": "valtellina-mon-amour-caiolo",
+      "nome": "Valtellina Mon Amour",
+      "city_name": "Caiolo",
+      "indirizzo": "Via Fiorenza, 70, 23020 Piateda SO",
+      "lat": 46.162502,
+      "lng": 9.949927
+    },
+    {
+      "id": "17cf9fa0-4ad5-44bb-ad3a-62f5735eda14",
+      "slug": "hotel-happy-hour-cairano",
+      "nome": "Hotel Happy Hour",
+      "city_name": "Cairano",
+      "indirizzo": "Via SS. Ofantina km6 + 300, 83040 Morra De Sanctis AV",
+      "lat": 40.886886,
+      "lng": 15.261517
+    }
+  ]
+}

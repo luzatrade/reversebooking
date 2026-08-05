@@ -1,0 +1,323 @@
+{
+  "block": 394,
+  "blockId": "394",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "c18971b3-6874-4d0f-a7a8-5865be9b7764",
+      "slug": "le-residenze-degli-ulivi-campofilone",
+      "nome": "Le Residenze degli Ulivi",
+      "city_name": "Campofilone",
+      "indirizzo": "Contrada Valdaso, 22, 63861 Campofilone FM",
+      "lat": 43.079908,
+      "lng": 13.80403
+    },
+    {
+      "id": "c0a1fb7e-bcc1-482d-aab9-7e0c10dc7295",
+      "slug": "vista-d-amare-campofilone",
+      "nome": "Vista d'aMare",
+      "city_name": "Campofilone",
+      "indirizzo": "Via dei Piceni, 38, 63827 Pedaso FM",
+      "lat": 43.087374,
+      "lng": 13.845194
+    },
+    {
+      "id": "f4a286f2-4284-4c6b-beea-999eb5370b43",
+      "slug": "abbazia-santa-maria-del-bosco-campofiorito",
+      "nome": "Abbazia Santa Maria Del Bosco",
+      "city_name": "Campofiorito",
+      "indirizzo": "SP35, 90030 Contessa Entellina PA",
+      "lat": 37.711854,
+      "lng": 13.20568
+    },
+    {
+      "id": "405707aa-ee3c-4833-8769-cb13a530ac89",
+      "slug": "agriturismo-ridocco-campofiorito",
+      "nome": "Agriturismo Ridocco",
+      "city_name": "Campofiorito",
+      "indirizzo": "contrada Ridocco. s.s, 188c/km 15,500, 90034 Corleone PA",
+      "lat": 37.779919,
+      "lng": 13.269737
+    },
+    {
+      "id": "cedf37e1-773d-45cd-927c-f5ce8de3ca6c",
+      "slug": "chiosi-country-club-turismo-rurale-campofiorito",
+      "nome": "Chiosi Country Club (Turismo rurale)",
+      "city_name": "Campofiorito",
+      "indirizzo": "Via del Pino, snc, 90034 Contrada Chiosi PA",
+      "lat": 37.800509,
+      "lng": 13.304347
+    },
+    {
+      "id": "df3244c1-5ef3-4c4e-b16a-1cc97aed0f90",
+      "slug": "don-giovanni-hotel-campofiorito",
+      "nome": "Don Giovanni Hotel",
+      "city_name": "Campofiorito",
+      "indirizzo": "Contrada Pandolfina, 92017 Sambuca di Sicilia AG",
+      "lat": 37.667374,
+      "lng": 13.07966
+    },
+    {
+      "id": "37d7b0e0-4088-404e-b3a8-387e1adb9033",
+      "slug": "il-bevaio-di-corleone-campofiorito",
+      "nome": "Il Bevaio di Corleone",
+      "city_name": "Campofiorito",
+      "indirizzo": "SS188dir/c, 13, 90034 Campofiorito PA",
+      "lat": 37.761567,
+      "lng": 13.292117
+    },
+    {
+      "id": "9e0a2f35-d01e-4a46-8a4b-a69e3946a375",
+      "slug": "albergo-residenza-al-teatro-campoformido",
+      "nome": "Albergo Residenza al Teatro",
+      "city_name": "Campoformido",
+      "indirizzo": "Via Pracchiuso, 38, 33100 Udine UD",
+      "lat": 46.068152,
+      "lng": 13.243136
+    },
+    {
+      "id": "8fef653c-7fb5-4de0-89ba-2c564d515bcb",
+      "slug": "b-b-benvenuti-campoformido",
+      "nome": "B&B Benvenuti",
+      "city_name": "Campoformido",
+      "indirizzo": "Via Cormor, 81, 33030 Udine UD",
+      "lat": 46.0395,
+      "lng": 13.216226
+    },
+    {
+      "id": "8057f401-719d-4933-8f7d-e17d560d2d9b",
+      "slug": "b-b-hotel-udine-campoformido",
+      "nome": "B&B HOTEL Udine",
+      "city_name": "Campoformido",
+      "indirizzo": "Via Duino, 8, 33100 Udine UD",
+      "lat": 46.069016,
+      "lng": 13.24568
+    },
+    {
+      "id": "f4d19918-f742-41ee-a04b-ae69f2e9163e",
+      "slug": "bed-breakfast-al-teatro-campoformido",
+      "nome": "Bed & Breakfast \"Al Teatro\"",
+      "city_name": "Campoformido",
+      "indirizzo": "Viale Trieste, 18, 33100 Udine UD",
+      "lat": 46.067789,
+      "lng": 13.245189
+    },
+    {
+      "id": "9f83ca16-221f-4210-9c36-c646335d295f",
+      "slug": "bed-breakfast-apricot-campoformido",
+      "nome": "BED&BREAKFAST APRICOT",
+      "city_name": "Campoformido",
+      "indirizzo": "Via XXV Aprile, 7B, 33050 Pozzuolo del Friuli UD",
+      "lat": 46.016372,
+      "lng": 13.209757
+    },
+    {
+      "id": "4af30838-b1cf-4e50-9f38-dabc5ca91888",
+      "slug": "casanova-inn-campoformido",
+      "nome": "Casanova Inn",
+      "city_name": "Campoformido",
+      "indirizzo": "Via Spilimbergo, 133, 33035 Martignacco UD",
+      "lat": 46.078518,
+      "lng": 13.182863
+    },
+    {
+      "id": "63c7d23b-6fca-4f6c-bfb8-ef7b008177fe",
+      "slug": "hotel-capri-campoformido",
+      "nome": "Hotel Capri",
+      "city_name": "Campoformido",
+      "indirizzo": "Via S. Caterina, 60, 33037 Pasian di Prato UD",
+      "lat": 46.048036,
+      "lng": 13.200492
+    },
+    {
+      "id": "16cfa2e3-e01b-4936-964c-faa7d6b61c51",
+      "slug": "bed-breakfast-piazza-campofranco",
+      "nome": "Bed & Breakfast Piazza",
+      "city_name": "Campofranco",
+      "indirizzo": "Contrada Fosse, 93010 Sutera CL",
+      "lat": 37.521356,
+      "lng": 13.73676
+    },
+    {
+      "id": "b37d1237-50e8-42eb-af0c-ab7e95c9cc49",
+      "slug": "pernottamento-fontana-di-li-rosi-campofranco",
+      "nome": "Pernottamento “Fontana Di Li Rosi”",
+      "city_name": "Campofranco",
+      "indirizzo": "Via Vittorio Emanuele, 22, 93010 Campofranco CL",
+      "lat": 37.510489,
+      "lng": 13.711924
+    },
+    {
+      "id": "0da4ed44-18ae-4f91-8734-dbe927134b98",
+      "slug": "villa-rahal-campofranco",
+      "nome": "Villa Rahal",
+      "city_name": "Campofranco",
+      "indirizzo": "Via Picone Chiodo, 3, 92020 Racalmuto AG",
+      "lat": 37.401661,
+      "lng": 13.728627
+    },
+    {
+      "id": "a8bd734f-a428-487f-8263-461ddbd0de1d",
+      "slug": "a-casa-di-emma-campogalliano",
+      "nome": "A Casa di Emma",
+      "city_name": "Campogalliano",
+      "indirizzo": "Strada Statale per Carpi Nord, 1500, 41123 Ganaceto MO",
+      "lat": 44.707589,
+      "lng": 10.899096
+    },
+    {
+      "id": "d34bf356-5b2f-4a30-9edf-1cb35fd15cea",
+      "slug": "albergo-aqvila-d-oro-campogalliano",
+      "nome": "Albergo Aqvila D'Oro",
+      "city_name": "Campogalliano",
+      "indirizzo": "Piazza Ventiquattro Maggio, 3, 42048 Rubiera RE",
+      "lat": 44.652998,
+      "lng": 10.781885
+    },
+    {
+      "id": "09d86670-5883-4d7b-8617-aa078be2173b",
+      "slug": "albergo-la-gentile-campogalliano",
+      "nome": "Albergo La Gentile",
+      "city_name": "Campogalliano",
+      "indirizzo": "Viale Martiri della Libertà, 21, 41011 Campogalliano MO",
+      "lat": 44.688881,
+      "lng": 10.842561
+    },
+    {
+      "id": "a52211c3-fc1c-4078-94be-b526794b9dbd",
+      "slug": "b-b-dei-paduli-campogalliano",
+      "nome": "B&B Dei Paduli",
+      "city_name": "Campogalliano",
+      "indirizzo": "Via Zimella, 77, 42122 Reggio nell'Emilia RE",
+      "lat": 44.643874,
+      "lng": 10.764289
+    },
+    {
+      "id": "dc7a5747-e9d8-4e9b-993c-cb3efe74f6bd",
+      "slug": "best-western-hotel-modena-district-campogalliano",
+      "nome": "Best Western Hotel Modena District",
+      "city_name": "Campogalliano",
+      "indirizzo": "Via del Passatore, 160, 41011 Campogalliano MO",
+      "lat": 44.686238,
+      "lng": 10.851844
+    },
+    {
+      "id": "c85bf8f4-8e85-4df2-81e1-93a592b0d48a",
+      "slug": "hotel-commercio-campogalliano",
+      "nome": "Hotel Commercio",
+      "city_name": "Campogalliano",
+      "indirizzo": "Via G. di Vittorio, 14, 41011 Campogalliano MO",
+      "lat": 44.691949,
+      "lng": 10.846205
+    },
+    {
+      "id": "b6b08dbf-70f5-4e34-90d5-736694e1a197",
+      "slug": "hotel-europa-campogalliano",
+      "nome": "Hotel Europa",
+      "city_name": "Campogalliano",
+      "indirizzo": "Corso Vittorio Emanuele II, 52, 41121 Modena MO",
+      "lat": 44.650833,
+      "lng": 10.931389
+    },
+    {
+      "id": "40b640cc-0312-407c-bf81-473a39b54218",
+      "slug": "hotel-fontana-campogalliano",
+      "nome": "Hotel Fontana",
+      "city_name": "Campogalliano",
+      "indirizzo": "VIA MULINO DELLA VALLE, 1, 42048 Rubiera RE",
+      "lat": 44.6823,
+      "lng": 10.806947
+    },
+    {
+      "id": "f49b8a65-34c2-4035-99b8-5000b584ce44",
+      "slug": "hotel-magnagallo-campogalliano",
+      "nome": "Hotel Magnagallo",
+      "city_name": "Campogalliano",
+      "indirizzo": "Via Magnagallo Est, 7, 41011 Campogalliano MO",
+      "lat": 44.678096,
+      "lng": 10.852551
+    },
+    {
+      "id": "400eb51b-9bc8-4241-af47-f9281c8bae7b",
+      "slug": "hotel-tiby-campogalliano",
+      "nome": "Hotel Tiby",
+      "city_name": "Campogalliano",
+      "indirizzo": "Via E. Rainusso, 108, 41124 Modena MO",
+      "lat": 44.647694,
+      "lng": 10.914373
+    },
+    {
+      "id": "d2a95091-eea9-4529-a89d-af3c1712e841",
+      "slug": "hotel-villino-della-flanella-campogalliano",
+      "nome": "Hotel Villino della Flanella",
+      "city_name": "Campogalliano",
+      "indirizzo": "Via Viazza di Ramo, 248, 41123 Modena MO",
+      "lat": 44.661468,
+      "lng": 10.852115
+    },
+    {
+      "id": "2eeae19a-b9a4-4155-bd03-84214acee680",
+      "slug": "il-borgo-camere-campogalliano",
+      "nome": "IL Borgo CAMERE",
+      "city_name": "Campogalliano",
+      "indirizzo": "Str. Cave di Ramo, 170, 41123 Modena MO",
+      "lat": 44.656854,
+      "lng": 10.864817
+    },
+    {
+      "id": "318e41a9-f3e2-48f3-88e5-eedb64b433b4",
+      "slug": "la-brunita-campogalliano",
+      "nome": "la Brunita",
+      "city_name": "Campogalliano",
+      "indirizzo": "Via Secchia, 2, 42048 Rubiera RE",
+      "lat": 44.642376,
+      "lng": 10.780324
+    },
+    {
+      "id": "dc444af2-573e-4cc9-98e1-b6149a545a53",
+      "slug": "la-villa-delle-rose-affittacamere-a-carpi-campogalliano",
+      "nome": "La Villa delle Rose - Affittacamere a Carpi",
+      "city_name": "Campogalliano",
+      "indirizzo": "Via Della Rosa Parte Est, 35, 41012 Carpi MO",
+      "lat": 44.751455,
+      "lng": 10.850637
+    },
+    {
+      "id": "69285a3d-d4e0-4332-82f1-bf0091a2536e",
+      "slug": "lvg-hotel-collection-principe-campogalliano",
+      "nome": "LVG Hotel Collection - Principe",
+      "city_name": "Campogalliano",
+      "indirizzo": "Corso Vittorio Emanuele II, 94, 41121 Modena MO",
+      "lat": 44.651827,
+      "lng": 10.932408
+    },
+    {
+      "id": "48815101-a11c-48f5-8217-80b5abf86f6f",
+      "slug": "marchi-hotel-campogalliano",
+      "nome": "Marchi Hotel",
+      "city_name": "Campogalliano",
+      "indirizzo": "Via Modena - Capri, 81, 41019 Carpi MO",
+      "lat": 44.720019,
+      "lng": 10.904603
+    },
+    {
+      "id": "d4a9c7cb-6dbf-4065-a1ee-909794c4b8ff",
+      "slug": "rmh-modena-raffaello-hotel-campogalliano",
+      "nome": "RMH Modena Raffaello - Hotel",
+      "city_name": "Campogalliano",
+      "indirizzo": "Str. Cognento, 5, 41126 Modena MO",
+      "lat": 44.63581,
+      "lng": 10.89244
+    },
+    {
+      "id": "b01372bc-ac64-4f18-8baf-741d44fec191",
+      "slug": "sun-hotel-campogalliano",
+      "nome": "Sun Hotel",
+      "city_name": "Campogalliano",
+      "indirizzo": "Via Palmiro Togliatti, 1 H, 42048 Rubiera RE",
+      "lat": 44.653951,
+      "lng": 10.774145
+    }
+  ]
+}

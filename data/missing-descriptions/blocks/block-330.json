@@ -1,0 +1,323 @@
+{
+  "block": 330,
+  "blockId": "330",
+  "totalBlocks": 500,
+  "blockSize": 35,
+  "hotels": [
+    {
+      "id": "101e02ca-83d8-4050-838b-7db94bc56092",
+      "slug": "magico-appartamenti-scafa-brolo",
+      "nome": "Magico Appartamenti Scafa",
+      "city_name": "Brolo",
+      "indirizzo": "Magico Appartamenti Scafa Ss113 Km 101 accanto casello ANAS, 98071 Capo d'Orlando ME",
+      "lat": 38.152654,
+      "lng": 14.774057
+    },
+    {
+      "id": "5ce66602-127b-4ffe-9d95-65ac4ce4baf0",
+      "slug": "michelangelo-s-house-brolo",
+      "nome": "Michelangelo's House",
+      "city_name": "Brolo",
+      "indirizzo": "Contrada Cicà, 42, 98063 Gioiosa Marea ME",
+      "lat": 38.171079,
+      "lng": 14.90196
+    },
+    {
+      "id": "7b25939d-7bb8-456a-84e4-f873a0dfd4a7",
+      "slug": "residence-bianca-lancia-brolo-brolo",
+      "nome": "Residence Bianca Lancia Brolo",
+      "city_name": "Brolo",
+      "indirizzo": "Via Onorevole A. Germanà, 27, 98061 Brolo ME",
+      "lat": 38.159815,
+      "lng": 14.829185
+    },
+    {
+      "id": "36384832-1e9b-40d9-a3d0-571ff5b20fa2",
+      "slug": "riviera-del-sole-brolo",
+      "nome": "RIVIERA DEL SOLE",
+      "city_name": "Brolo",
+      "indirizzo": "Via del Mare, 39/A, 98060 Piraino ME",
+      "lat": 38.162083,
+      "lng": 14.844516
+    },
+    {
+      "id": "a8a8b45a-f4f9-4012-8bfc-504a96c06469",
+      "slug": "seaside-beach-hotel-brolo",
+      "nome": "Seaside Beach Hotel",
+      "city_name": "Brolo",
+      "indirizzo": "Via Andrea Doria, 63, 98071 Capo d'Orlando ME",
+      "lat": 38.158604,
+      "lng": 14.740757
+    },
+    {
+      "id": "da4eaaf4-3266-48f4-8f30-aa1aba4547f2",
+      "slug": "agricamping-la-meyra-brondello",
+      "nome": "Agricamping La Meyra",
+      "city_name": "Brondello",
+      "indirizzo": "Meira Gian Flip 19, 44.5187414122097, 7.375720693055697, 12020 Lemma CN",
+      "lat": 44.518764,
+      "lng": 7.375712
+    },
+    {
+      "id": "5b94e65f-6042-4266-b09a-9037001fc27d",
+      "slug": "agriturismo-agli-ulivi-brondello",
+      "nome": "Agriturismo Agli Ulivi",
+      "city_name": "Brondello",
+      "indirizzo": "Via S. Bernardino, 46, 12037 Saluzzo CN",
+      "lat": 44.626125,
+      "lng": 7.48754
+    },
+    {
+      "id": "21df721c-8596-4f66-9a97-c3d9190de13f",
+      "slug": "albergo-persico-brondello",
+      "nome": "Albergo Persico",
+      "city_name": "Brondello",
+      "indirizzo": "Vicolo Mercati, 10, 12037 Saluzzo CN",
+      "lat": 44.646014,
+      "lng": 7.491814
+    },
+    {
+      "id": "6466c1f9-e471-4cd0-99ba-245cee9412c1",
+      "slug": "b-b-cai-cai-saluzzo-brondello",
+      "nome": "B&B Cai cai Saluzzo",
+      "city_name": "Brondello",
+      "indirizzo": "Via Clemente Panero, 8, 12037 Saluzzo CN",
+      "lat": 44.643326,
+      "lng": 7.501663
+    },
+    {
+      "id": "0fbfff01-bb66-44ff-b211-992b5f81483e",
+      "slug": "b-b-l-albore-brondello",
+      "nome": "B&B L'Albore",
+      "city_name": "Brondello",
+      "indirizzo": "Via Ceretto, 68, 12024 Costigliole Saluzzo CN",
+      "lat": 44.554881,
+      "lng": 7.47852
+    },
+    {
+      "id": "549fa5d3-2057-4337-a779-788bb7e70899",
+      "slug": "b-b-la-torre-brondello",
+      "nome": "B&B La Torre",
+      "city_name": "Brondello",
+      "indirizzo": "Via Villa, 35/A, 12030 Brondello CN",
+      "lat": 44.599581,
+      "lng": 7.403406
+    },
+    {
+      "id": "05b44baf-f7f3-424f-bef4-c54d98c3ea69",
+      "slug": "b-b-marietta-brondello",
+      "nome": "B&B Marietta",
+      "city_name": "Brondello",
+      "indirizzo": "Via Vecchia Castellar, 2, 12020 Melle CN",
+      "lat": 44.561861,
+      "lng": 7.319455
+    },
+    {
+      "id": "a27aef1d-1dca-4ff1-9f68-8c371cebb528",
+      "slug": "casa-bart-bike-outdoor-hospitality-brondello",
+      "nome": "Casa Bart, Bike & Outdoor Hospitality",
+      "city_name": "Brondello",
+      "indirizzo": "Via Giovanni Cancan, 23, 12020 Villar San Costanzo CN",
+      "lat": 44.484309,
+      "lng": 7.37745
+    },
+    {
+      "id": "76721946-2e91-478e-b17e-946ac5ac364f",
+      "slug": "hotel-ceretto-brondello",
+      "nome": "Hotel Ceretto",
+      "city_name": "Brondello",
+      "indirizzo": "Str. del Ceretto, 2, 12022 Busca CN",
+      "lat": 44.544629,
+      "lng": 7.488985
+    },
+    {
+      "id": "e2a01ea2-7e0e-495c-8b9f-80fa62638bd3",
+      "slug": "io-sono-fior-di-loto-b-b-brondello",
+      "nome": "IO SONO FIOR DI LOTO - B&B",
+      "city_name": "Brondello",
+      "indirizzo": "Via dei Gossi, 21, 12022 San Chiaffredo CN",
+      "lat": 44.480915,
+      "lng": 7.502685
+    },
+    {
+      "id": "6119f97e-2201-4066-965f-d02df89b7791",
+      "slug": "locanda-dl-angel-brondello",
+      "nome": "Locanda Dl'Angel",
+      "city_name": "Brondello",
+      "indirizzo": "Via Pramallé, 26, 12020 Villar San Costanzo CN",
+      "lat": 44.484439,
+      "lng": 7.386762
+    },
+    {
+      "id": "0deefafe-ca89-4c34-919b-6617d29c6ae3",
+      "slug": "locanda-reloup-brondello",
+      "nome": "Locanda Reloup",
+      "city_name": "Brondello",
+      "indirizzo": "Piazza S. Massimo, 13, 12020 Isasca CN",
+      "lat": 44.586628,
+      "lng": 7.382299
+    },
+    {
+      "id": "571a586e-021b-4335-bbe5-15c549648d71",
+      "slug": "ostello-antagonisti-brondello",
+      "nome": "Ostello Antagonisti",
+      "city_name": "Brondello",
+      "indirizzo": "Via Carrera, 3/a, 12020 Melle CN",
+      "lat": 44.562137,
+      "lng": 7.32172
+    },
+    {
+      "id": "d047809d-3845-464d-9be5-e8b418494c68",
+      "slug": "ristorante-hotel-porta-santa-maria-brondello",
+      "nome": "Ristorante Hotel Porta Santa Maria",
+      "city_name": "Brondello",
+      "indirizzo": "Via Roberto d'Azeglio, 37, 12022 Busca CN",
+      "lat": 44.51581,
+      "lng": 7.474122
+    },
+    {
+      "id": "f436e552-a202-46cf-974c-bf41df8ca222",
+      "slug": "segnavento-rooms-and-suites-b-b-manta-brondello",
+      "nome": "Segnavento-rooms and suites | B&b Manta",
+      "city_name": "Brondello",
+      "indirizzo": "V. Collina, 8, 12030 Manta CN",
+      "lat": 44.613371,
+      "lng": 7.464362
+    },
+    {
+      "id": "38b59a48-a08f-443a-aeff-a63fa7901999",
+      "slug": "affittacamere-daniela-broni",
+      "nome": "Affittacamere Daniela",
+      "city_name": "Broni",
+      "indirizzo": "Via Colombarone, 36, 27044 Stradella PV",
+      "lat": 45.049556,
+      "lng": 9.269029
+    },
+    {
+      "id": "e666e2e8-0ad4-460c-80b8-17f9cf4c22b5",
+      "slug": "cascina-scova-resort-broni",
+      "nome": "Cascina Scova Resort",
+      "city_name": "Broni",
+      "indirizzo": "Via Vallone, 18, 27100 Pavia PV",
+      "lat": 45.186461,
+      "lng": 9.187558
+    },
+    {
+      "id": "7c70779c-b20b-456f-9bf1-118ed3ec1fc9",
+      "slug": "hotel-giannino-broni",
+      "nome": "Hotel Giannino",
+      "city_name": "Broni",
+      "indirizzo": "Via F .Turati, 18, 27028 San Martino Siccomario PV",
+      "lat": 45.161786,
+      "lng": 9.132634
+    },
+    {
+      "id": "c0d82674-af78-47a7-ab4c-0b27cbda7399",
+      "slug": "agriturismo-sole-di-sicilia-bronte",
+      "nome": "Agriturismo SOLE DI SICILIA",
+      "city_name": "Bronte",
+      "indirizzo": "C.da Calderara, s.n, 95036 Randazzo CT",
+      "lat": 37.881032,
+      "lng": 15.014059
+    },
+    {
+      "id": "38db23be-1180-4346-a230-4a75233ded28",
+      "slug": "albergo-diffuso-borgo-santa-caterina-vintage-bronte",
+      "nome": "Albergo Diffuso Borgo Santa Caterina \"Vintage\"",
+      "city_name": "Bronte",
+      "indirizzo": "Via Archimede, 37, 95012 Castiglione di Sicilia CT",
+      "lat": 37.882862,
+      "lng": 15.120898
+    },
+    {
+      "id": "77ffa5ef-3df0-4c3e-bc9d-b644a6e4fe66",
+      "slug": "antico-portale-bronte",
+      "nome": "Antico Portale",
+      "city_name": "Bronte",
+      "indirizzo": "Via Concezione, 12, 94017 Regalbuto EN",
+      "lat": 37.650238,
+      "lng": 14.643308
+    },
+    {
+      "id": "b9b1a7fa-2be6-4829-a4d8-794271f30b1f",
+      "slug": "b-b-al-vulcanetto-bronte",
+      "nome": "B&B Al Vulcanetto",
+      "city_name": "Bronte",
+      "indirizzo": "Via Madre Chiesa, 14, 98030 Moio Alcantara ME",
+      "lat": 37.900118,
+      "lng": 15.050009
+    },
+    {
+      "id": "24c7ff38-dece-4bbe-a5e6-1892e0cdced2",
+      "slug": "b-b-bluviro-bronte",
+      "nome": "B&B BluViRo",
+      "city_name": "Bronte",
+      "indirizzo": "Via Ustica, 10, 95034 Bronte CT",
+      "lat": 37.790866,
+      "lng": 14.83868
+    },
+    {
+      "id": "ae5c3d09-d3cd-47e4-8949-9f01e8739019",
+      "slug": "b-b-good-morning-etna-bronte",
+      "nome": "B&B Good Morning Etna",
+      "city_name": "Bronte",
+      "indirizzo": "Via Giudice Falcone, 29, 95034 Bronte CT",
+      "lat": 37.793201,
+      "lng": 14.843855
+    },
+    {
+      "id": "81e7d484-0d2f-4e18-9eb4-18b4b70d534f",
+      "slug": "b-b-planet-rooms-bronte",
+      "nome": "B&B Planet Rooms",
+      "city_name": "Bronte",
+      "indirizzo": "Via Roma, 30, 95034 Bronte CT",
+      "lat": 37.788261,
+      "lng": 14.83305
+    },
+    {
+      "id": "084704f3-8af5-4b82-8cb5-7ed2ede8140e",
+      "slug": "b-b-vista-etna-bronte",
+      "nome": "B&b Vista Etna",
+      "city_name": "Bronte",
+      "indirizzo": "Via Galliano, 58, 95036 Randazzo CT",
+      "lat": 37.874081,
+      "lng": 14.956794
+    },
+    {
+      "id": "d9ce878f-0564-4bd2-84d6-a741f40ac6db",
+      "slug": "fronte-etna-bronte",
+      "nome": "Fronte Etna",
+      "city_name": "Bronte",
+      "indirizzo": "Contrada Borgonovo, 95034 Bronte CT",
+      "lat": 37.794536,
+      "lng": 14.846897
+    },
+    {
+      "id": "b4d17567-adeb-4d59-8545-762a55dbf937",
+      "slug": "i-cugi-house-bronte",
+      "nome": "I Cugi House",
+      "city_name": "Bronte",
+      "indirizzo": "Via Messina, 207, 95034 Bronte CT",
+      "lat": 37.790593,
+      "lng": 14.839357
+    },
+    {
+      "id": "4c1f7f63-4090-4e80-ad20-a5bf1454ebab",
+      "slug": "relais-villa-miraglia-bronte",
+      "nome": "RELAIS VILLA MIRAGLIA",
+      "city_name": "Bronte",
+      "indirizzo": "SS289, 22, 98033 Cesarò ME",
+      "lat": 37.916366,
+      "lng": 14.655915
+    },
+    {
+      "id": "12f571f7-8205-40eb-b4f2-b9130ae5e71f",
+      "slug": "albergo-locanda-al-drago-bronzolo-branzoll",
+      "nome": "Albergo Locanda Al Drago",
+      "city_name": "Bronzolo/Branzoll",
+      "indirizzo": "Via Chiesa Vecchia, 15, 39051 Bronzolo BZ",
+      "lat": 46.403255,
+      "lng": 11.321479
+    }
+  ]
+}
