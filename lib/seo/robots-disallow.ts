@@ -1,0 +1,20 @@
+/** Path esclusi dall’indicizzazione in robots.txt (aree private / non SERP). */
+export const ROBOTS_DISALLOWED_PATHS = [
+  "/console/",
+  "/admin/",
+  "/chat/",
+  "/auth/",
+  "/api/",
+  "/agenzia/",
+  "/account/",
+  "/struttura/dashboard",
+  "/struttura/annunci/",
+  "/struttura/offerte/",
+  "/struttura/profilo",
+  "/inserzionista/",
+  "/login",
+  "/registrazione",
+  "/scegli-account",
+  "/annunci",
+  "/offerta/",
+] as const;
