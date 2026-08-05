@@ -274,11 +274,14 @@ export function CreateTravelRequestForm() {
         return false;
       }
 
-      await fetch("/api/notifications/new-request", {
+      const notifyRes = await fetch("/api/notifications/new-request", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ requestId: newRequest.id }),
       });
+      if (!notifyRes.ok) {
+        console.warn("Notifica strutture non riuscita", await notifyRes.text());
+      }
       clearTravelRequestDraft();
       setSuccess(t.forms.travelRequest.successCreated);
       setTimeout(() => router.push("/inserzionista/dashboard"), 900);

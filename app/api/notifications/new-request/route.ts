@@ -7,6 +7,10 @@ import {
   fetchOnboardingHotelById,
   notifyOnboardingHotelsByEmail,
 } from "@/lib/notifications/onboarding-new-request";
+import {
+  fetchActivePartnerHotelById,
+  fetchActivePartnerHotelsForRequest,
+} from "@/lib/notifications/partner-hotels-for-request";
 import { rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
 
 type Body = { requestId?: string };
@@ -78,28 +82,17 @@ export async function POST(request: Request) {
     if (requestError || !travelRequest) return NextResponse.json({ error: "Richiesta non trovata" }, { status: 404 });
 
     const requestCode = code(travelRequest.request_code);
-    const { data: hotels, error: hotelsError } = await supabase
-      .from("hotel_accounts")
-      .select("id, property_name, private_notification_email, public_email")
-      .eq("city_id", travelRequest.city_id)
-      .eq("account_status", "active")
-      .eq("subscription_active", true);
-    if (hotelsError) return NextResponse.json({ error: hotelsError.message }, { status: 500 });
-
-    const hotelRows = (hotels ?? []) as HotelRow[];
+    const hotelRows = await fetchActivePartnerHotelsForRequest(supabase, {
+      city_id: travelRequest.city_id,
+      city_name: travelRequest.city_name,
+      country_code: travelRequest.country_code,
+    });
     const targetHotelId = travelRequest.target_hotel_account_id as string | null;
     let targetHotel: HotelRow | null = null;
     let directOnboardingId: string | null = null;
 
     if (targetHotelId) {
-      const { data: directHotel } = await supabase
-        .from("hotel_accounts")
-        .select("id, property_name, private_notification_email, public_email")
-        .eq("id", targetHotelId)
-        .eq("account_status", "active")
-        .eq("subscription_active", true)
-        .maybeSingle();
-      targetHotel = (directHotel as HotelRow | null) ?? null;
+      targetHotel = await fetchActivePartnerHotelById(supabase, targetHotelId);
 
       if (!targetHotel) {
         const directOnboarding = await fetchOnboardingHotelById(supabase, targetHotelId);
