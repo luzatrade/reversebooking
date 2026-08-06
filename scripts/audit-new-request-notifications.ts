@@ -11,6 +11,7 @@ import dotenv from "dotenv";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 import { createClient } from "@supabase/supabase-js";
+import { getResendApiKey } from "@/lib/notifications/resend-env";
 import { resolveNotificationEmailFrom } from "@/lib/email/from";
 import { fetchOnboardingHotelsForCity } from "@/lib/notifications/onboarding-new-request";
 import { fetchActivePartnerHotelsForRequest } from "@/lib/notifications/partner-hotels-for-request";
@@ -70,7 +71,7 @@ async function loadRequest() {
 }
 
 async function testResend() {
-  const key = process.env.RESEND_API_KEY?.trim();
+  const key = getResendApiKey();
   const from = resolveNotificationEmailFrom();
   if (!key) {
     return { ok: false, reason: "RESEND_API_KEY non configurata — le email NON partono" };
