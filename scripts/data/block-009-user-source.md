@@ -1,0 +1,208 @@
+luxury-b-b-euphorbia-acireale
+Il Luxury B&B Euphorbia è una raffinata dimora situata in Via Canale Torto, 2 a Acireale (CT), posizionata sulle coordinate GPS 37.636783, 15.176314. Immerso nel verde della costa acese e a breve distanza dalla Riserva Naturale Orientata La Timpa, questa struttura è la scelta ideale per coppie in fuga romantica, viaggiatori business ed escursionisti alla ricerca del perfetto connubio tra mare, natura e comfort esclusivo.
+
+La location offre suite panoramiche dotate di aria condizionata, Wi-Fi ad alta velocità, TV a schermo piatto, bagno privato e terrazza solarium. Nelle vicinanze si possono facilmente raggiungere il centro storico di Acireale con la maestosa Piazza Duomo e la Cattedrale di Maria Santissima Annunziata, il suggestivo borgo marinaro di Santa Maria La Scala, la spiaggia di Capo Mulini e la città di Catania. Ideale anche come punto di partenza per tour sull'Etna e visite a Taormina.
+
+---
+palazzo-giovanni-bed-and-breakfast-acireale
+Il Palazzo Giovanni Bed and Breakfast sorge in Via XXI Aprile, 103 a Acireale (CT), alle coordinate 37.651202, 15.187366. Ospitato in un'elegante residenza storica della frazione costiera di Stazzo, il B&B offre una vista aperta sul Mar Jonio ed è l'alloggio ideale per famiglie, viaggiatori amanti della cultura e turisti che cercano relax vicino alle scogliere laviche e alle calette di acqua cristallina.
+
+Le camere sono spaziose e climatizzate, dotate di connessione Wi-Fi gratuita, bagno privato, minibar e vista panoramica. La struttura serve ogni mattina una ricca colazione con prodotti tipici siciliani. La sua posizione strategica consente di esplorare in pochi minuti la scogliera di Stazzo, il borgo di Pozzillo, il centro barocco di Acireale con la Basilica di San Sebastiano e il Palazzo Musmeci, garantendo un rapido collegamento con la SS114 per raggiungere Taormina, Giardini Naxos e i sentieri del Parco dell'Etna.
+
+---
+residenza-cavour-acireale
+La Residenza Cavour si trova in Via Camillo Benso Conte di Cavour, 17 nel pieno centro storico di Acireale (CT), coordinate GPS 37.612924, 15.164974. Questa elegante struttura ricettiva offre un soggiorno confortevole nel cuore pulsante dell'arte barocca acese, rendendola una scelta eccellente per turisti culturali, viaggiatori d'affari e coppie che desiderano muoversi a piedi tra monumenti, ristoranti e locali storici.
+
+La struttura dispone di sistemazioni moderne e finemente arredate, complete di aria condizionata, Wi-Fi gratuito, TV a schermo piatto, scrittoio e bagno privato con set di cortesia. A pochi passi a piedi si trovano la scenografica Piazza Duomo, la Basilica di San Sebastiano, Villa Belvedere e Corso Umberto I, la via principale dello shopping. La stazione ferroviaria di Acireale è comodamente raggiungibile, offrendo collegamenti diretti per Catania, Aci Trezza e Taormina.
+
+---
+riflessi-acireale-palace-suites-acireale
+Sito in Via S. Martino, 121 a Acireale (CT), con coordinate geografiche 37.610234, 15.163625, Riflessi Acireale Palace Suites è una struttura boutique pensata per chi desidera un soggiorno all'insegna del lusso, della privacy e del benessere. Perfetto per coppie, professionisti e viaggiatori esigenti, questo complesso si distingue per il design contemporaneo integrato nel contesto architettonico barocco di Acireale.
+
+Le suite sono dotate di domotica avanzata, insonorizzazione, climatizzazione autonoma, Wi-Fi ad alta velocità, Smart TV, minibar ed esclusive vasche idromassaggio o zone relax private. La posizione permette di raggiungere in pochissimi minuti il Duomo di Acireale, il Museo dell'Opera dei Pupi, la Chiesa del Collegio e lo storico Teatro Bellini. Ottimamente collegato con l'autostrada A18 per facili spostamenti verso Catania, l'aeroporto Fontanarossa e la costa di Aci Castello e Aci Trezza.
+
+---
+savoia-residence-acireale
+Il Savoia Residence sorge lungo una delle arterie principali della città, in Corso Savoia, 19 a Acireale (CT), alle coordinate 37.61403, 15.165207. Questa struttura residence rappresenta la soluzione abitativa perfetta per soggiorni di breve e media durata, ideale per famiglie, smart worker e gruppi di amici che ricercano l'indipendenza di un appartamento abbinata ai comfort di una struttura ricettiva.
+
+Gli alloggi includono ambienti climatizzati con cucina o angolo cottura completamente attrezzato, zona giorno con divano, Wi-Fi gratuito, Smart TV e bagno privato. La collocazione centrale consente di vivere da vicinissimo le tradizioni locali, compreso il famoso Carnevale di Acireale, e di raggiungere a piedi il Parco delle Terme, Piazza Duomo e le botteghe artigiane del centro. La fermata degli autobus urbani ed extraurbani è a pochi passi, facilitando i collegamenti verso il mare di Santa Tecla e l'Etna.
+
+---
+villa-arianna-acireale-acireale
+Situata in Via Lazzaretto a Acireale (CT), alle coordinate GPS 37.619274, 15.149445, Villa Arianna Acireale è un'oasi di tranquillità immersa nella campagna acese, tra agrumeti e vista sul versante orientale dell'Etna. La struttura è il target ideale per famiglie, gruppi di amici e viaggiatori in cerca di relax e natura senza rinunciare alla vicinanza ai principali servizi urbani.
+
+La villa dispone di ampi spazi esterni con giardino, parcheggio privato in loco, ambienti interni climatizzati, connessione Wi-Fi, camere con bagno privato e zona patio solarium. Dalla struttura è facile raggiungere il centro storico di Acireale, l'imbocco dell'autostrada A18 per escursioni verso Taormina e Messina, e i sentieri trekking del Parco dell'Etna (Zafferana Etnea, Nicolosi). In pochi minuti d'auto si raggiungono anche le spiagge laviche e i lidi attrezzati della costa ionica.
+
+---
+villa-feluchia-b-b-acireale
+Il Villa Feluchia B&B è posizionato in Via Collegio Fiandaca, 44/A a Acireale (CT), coordinate geografiche 37.641399, 15.123896. Immerso in un contesto residenziale riservato e verdeggiante alle falde dell'Etna, questo Bed and Breakfast è la struttura di riferimento per turisti green, viaggiatori in auto e coppie alla ricerca di silenzio e accoglienza familiare.
+
+La struttura offre camere accoglienti e ben illuminate con bagno privato, condizionatore, connessione Internet Wi-Fi gratuita, parcheggio privato e un rigoglioso giardino con area relax outdoor. La posizione strategica permette di raggiungere rapidamente sia il centro di Acireale sia i rinomati borghi etnei come Linera e Santa Venerina, oltre ai percorsi enogastronomici lungo la Strada del Vino dell'Etna.
+
+---
+agriturismo-il-pioppeto-acquafondata
+L'Agriturismo Il Pioppeto è situato lungo la Strada Provinciale 81, n. 44 a Cassino (FR), coordinate GPS 41.474895, 13.840762, nei pressi delle vie di collegamento per Acquafondata e la Valle del Rapido. È la scelta perfetta per amanti della natura, famiglie e turisti enogastronomici desiderosi di riscoprire i sapori genuini della tradizione ciociara.
+
+La struttura mette a disposizione sistemazioni confortevoli in stile rurale, ristorante interno con prodotti a km 0, ampia area verde outdoor, parco giochi e parcheggio gratuito. La sua posizione ai piedi di Montecassino consente di visitare la celebre Abbazia di Montecassino, il Museo Historiale, la zona archeologica di Casinum con l'Anfiteatro Romano, e di intraprendere escursioni trekking verso il Parco Nazionale d'Abruzzo, Lazio e Molise e le alture di Acquafondata.
+
+---
+b-b-hotel-la-villa-acquafondata
+Il B&B hotel La Villa si trova in Traversa 1, Via Atinense, 9/11 a Pozzilli (IS), coordinate 41.514322, 14.058212, nella piana venafrana a breve distanza dalle alture di Acquafondata e dal confine tra Lazio e Molise. Ideale per lavoratori, utenti dell'Istituto Neurologico Neuromed, famiglie e viaggiatori itineranti.
+
+La struttura offre camere climatizzate e insonorizzate, Wi-Fi gratuito, TV a schermo piatto, bagno privato e comodo parcheggio. Grazie alla posizione strategica vicina al Polo Ospedaliero Neuromed di Pozzilli, alla città storica di Venafro con il Castello Pandone, e ai collegamenti per la SS85 e l'autostrada A1 (uscita San Vittore o Caianello), rappresenta un punto d'appoggio pratico e confortevole.
+
+---
+b-b-il-sorriso-acquafondata
+Il b&b Il Sorriso si trova in Via Dante Alighieri, 6 (Piano terra) a Pozzilli (IS), alle coordinate GPS 41.512821, 14.059375. Questo accogliente B&B a conduzione familiare è la soluzione ottimale per assistenti di pazienti del Neuromed, turisti di passaggio ed escursionisti diretti verso il comprensorio montano di Acquafondata e delle Mainarde.
+
+L'alloggio dispone di ingresso indipendente, camere spaziose, riscaldamento autonomo, Wi-Fi gratuito, TV e bagno privato. Situato a pochi passi dai principali servizi di Pozzilli, consente di raggiungere rapidamente la città archeologica di Venafro, la Riserva Naturale Oasi WWF Le Mortine e l'area storica di Cassino.
+
+---
+b-b-l-eden-acquafondata
+Il B&B L'EDEN si trova in Via Sant'Angelo, 13 a Cassino (FR), con coordinate geografiche 41.479168, 13.827051, situato lungo la strada che porta alla frazione di Sant'Angelo in Theodice e ben collegato con l'area montana di Acquafondata. Target ideale: coppie, famiglie e viaggiatori di passaggio lungo la direttrice Lazio-Molise.
+
+La struttura mette a disposizione stanze ben rifinite, dotate di climatizzazione, connessione Internet Wi-Fi, TV LED, bagno in camera e prima colazione inclusa. Nelle vicinanze si trovano il Campus Universitario di Cassino, lo stabilimento Stellantis, il centro cittadino con il Parco Baden Powell e l'Abbazia di Montecassino.
+
+---
+b-b-la-costa-acquafondata
+Posizionato in Via Caira, 35 a Cassino (FR), coordinate 41.501656, 13.828742, il B&B La Costa sorge nella tranquilla frazione di Caira, ai piedi dei monti che salgono verso Acquafondata e il valico di Valleluce. Perfetto per appassionati di turismo memoriale (Seconda Guerra Mondiale), camminatori e famiglie.
+
+La struttura offre camere panoramiche e silenziose, Wi-Fi, aria condizionata, bagno privato e giardino con vista sul massiccio di Montecassino. Da Caira partono numerosi sentieri naturalistici per il trekking; in pochi minuti d'auto si raggiungono il Cimitero Militare Polacco, il centro di Cassino e le aree verdi dell'alta Valle del Rapido.
+
+---
+b-b-la-montagnarosa-acquafondata
+Il B&B La Montagnarosa è situato in Via Mainarde a Castelnuovo a Volturno (IS), nel comune di Rocchetta a Volturno, coordinate 41.623831, 14.045883. Questa struttura è un vero rifugio per gli amanti della montagna, dell'escursionismo, del birdwatching e del relax in altitudine, vicinissimo ai confini con Acquafondata.
+
+Le camere sono arredate con gusto rustico montano e offrono vista sulle vette della Catena delle Mainarde, connessione Wi-Fi, riscaldamento e bagno privato. Nelle immediate vicinanze è possibile esplorare le Sorgenti del Volturno, il Museo Internazionale delle Guerre Mondiali (MIGM), i sentieri del Parco Nazionale d'Abruzzo, Lazio e Molise e il Pianoro Campitelli.
+
+---
+b-b-sud-e-magia-acquafondata
+Il B&b Sud e Magia è ubicato in Via Lecine a San Vittore del Lazio (FR), coordinate GPS 41.459765, 13.942461, posizione altamente strategica a brevissima distanza dal casello autostradale A1 San Vittore e dalle strade montane verso Acquafondata e Viticuso. Ideale per viaggiatori in transito, famiglie e lavoratori.
+
+La struttura garantisce un soggiorno in ambienti moderni e accoglienti, dotati di aria condizionata, Wi-Fi veloce, parcheggio interno riservato e abbondante colazione. La collocazione permette di raggiungere in pochi minuti il borgo medievale di San Vittore, le Gole del Gari, l'Abbazia di Montecassino e la città di Venafro.
+
+---
+chez-nous-bed-and-breakfast-acquafondata
+Immerso nella splendida Val di Comino, Chez Nous Bed and Breakfast si trova nel comune di Picinisco (FR), alle coordinate 41.643173, 13.869177, a breve distanza da Acquafondata e Atina. Target d'elezione: turisti internazionali, amanti del buon vino (Atina DOC), escursionisti ed ecoturisti.
+
+La struttura offre ambienti curati con finiture tradizionali, camere con vista sulle montagne, Wi-Fi gratuito, riscaldamento e colazione con prodotti biologici locali. Nelle vicinanze si possono visitare il centro storico di Picinisco (amato dallo scrittore D.H. Lawrence), il Parco Nazionale d'Abruzzo, Lazio e Molise, le cantine del Cabernet di Atina e il suggestivo Lago di Posta Fibreno.
+
+---
+gerberarooms-acquafondata
+La struttura Gerberarooms è ubicata in Via Atinense, 27/A a Pozzilli (IS), coordinate GPS 41.514757, 14.059727. Questo affittacamere moderno rappresenta una sistemazione comoda e funzionale sia per chi soggiorna per motivi di salute (vicinanza all'INM Neuromed) sia per turisti in visita nel comprensorio della Valle del Volturno e di Acquafondata.
+
+Le stanze sono provviste di aria condizionata, connessione Wi-Fi ad alta velocità, TV Smart, bagno privato con doccia e riassetto giornaliero. La posizione lungo la Via Atinense garantisce ottimi collegamenti con la Strada Statale 85 Venafrana, la stazione ferroviaria di Venafro e le aree naturalistiche delle Mainarde.
+
+---
+giosam-bed-breakfast-acquafondata
+Il Giosam Bed & Breakfast si trova in Via Atinense, 14 a Pozzilli (IS), coordinate 41.513414, 14.059603. Pensato per offrire il massimo comfort in un ambiente familiare e rilassante, è la struttura ideale per pazienti e familiari della clinica Neuromed, lavoratori e viaggiatori desiderosi di esplorare il Molise occidentale e il Lazio meridionale.
+
+Offre sistemazioni accoglienti dotate di climatizzazione, connessione Internet Wi-Fi gratuita, bagno in camera, zona colazione e facilità di parcheggio nelle immediate vicinanze. Da qui è agevole visitare il Parco Regionale dell'Olivo di Venafro, la Palazzina Liberty di Venafro e le riserve montane verso Acquafondata.
+
+---
+hotel-continental-cassino-acquafondata
+L'Hotel Continental Cassino sorge in Piazza Alcide De Gasperi, 4 a Cassino (FR), alle coordinate GPS 41.492677, 13.829659. Situato direttamente in centro città, a pochissimi metri dalla Stazione Ferroviaria di Cassino, è una struttura alberghiera storica ideale per congressisti, turisti, gruppi organizzati ed escursionisti diretti ad Acquafondata.
+
+L'hotel dispone di camere spaziose con aria condizionata, Wi-Fi gratuito, TV via cavo, scrivania, sale riunioni, bar e reception aperta 24 ore su 24. La posizione centrale permette di muoversi a piedi verso i principali negozi, ristoranti, il Museo Historiale e di usufruire dei bus navetta diretti all'Abbazia di Montecassino e nei comuni limitrofi della provincia di Frosinone.
+
+---
+hotel-la-pace-experience-acquafondata
+L'Hotel La Pace - Experience è posizionato in Via Abruzzi, 16 a Cassino (FR), coordinate 41.496358, 13.831394. Struttura moderna e dinamica, focalizzata sul turismo esperienziale, è perfetta per viaggiatori d'affari, coppie, gruppi e amanti delle escursioni verso le aree montane di Acquafondata e delle Mainarde.
+
+L'albergo offre camere eleganti con domotica, Wi-Fi ad alta velocità, aria condizionata, TV satellitare, ristorante interno con cucina del territorio e parcheggio privato. La posizione centrale facilita la visita ai luoghi della Memoria (Cimiteri di Guerra Inglese e Polacco), alle Terme Varroniane e alle vicine montagne dell'Appennino Laziale.
+
+---
+hotel-ristorante-al-boschetto-cassino-acquafondata
+L'Hotel Ristorante Al Boschetto Cassino si trova lungo la Strada Regionale 630 Ausonia al km 0/300 (Via Ausonia, 54) a Cassino (FR), coordinate 41.471599, 13.815094. È la scelta perfetta per banchetti, viaggiatori in auto, famiglie ed escursionisti diretti verso il mare di Formia e Gaeta o le vette di Acquafondata.
+
+La struttura offre camere accoglienti e climatizzate, connessione Wi-Fi, grande parco alberato, parcheggio privato e un rinomato ristorante specializzato in cucina tradizionale ciociara e piatti di carne e pesce. Strategicamente posizionato vicinissimo al casello autostradale A1 di Cassino e alla superstrada per il Golfo di Gaeta.
+
+---
+hotel-ristorante-la-campagnola-acquafondata
+L'Hotel Ristorante La Campagnola è situato in SR630 n. 24 a Cassino (FR), alle coordinate GPS 41.468253, 13.810488. Questa struttura unisce l'ospitalità alberghiera alla buona tavola rurale, ponendosi come target ideale per lavoratori, autobus turistici, gruppi e famiglie in viaggio.
+
+Offre camere confortevoli con aria condizionata, TV, Wi-Fi, ampio parcheggio per auto e pullman, oltre a sale ristorante ideali per eventi. Situato a pochi passi dall'accesso autostradale A1 e ben collegato sia con il centro di Cassino sia con i borghi montani di Acquafondata e Viticuso.
+
+---
+hotel-sant-elia-acquafondata
+L'Hotel Sant'Elia si trova in Via Pezzogrande, 798 a Sant'Elia Fiumerapido (FR), coordinate 41.529763, 13.853951, lungo l'asse viario principale che conduce ad Acquafondata e alle Mainarde. È la sistemazione perfetta per turisti green, escursionisti, sportivi e famiglie.
+
+L'hotel dispone di sistemazioni moderne e luminose con Wi-Fi gratuito, condizionatore, TV a schermo piatto, bagno privato e ristorante convenzionato. La posizione consente di raggiungere rapidamente il borgo medievale di Sant'Elia Fiumerapido, le cascate del fiume Rapido, il Cimitero di Guerra Tedesco di Caira e i sentieri per Acquafondata.
+
+---
+la-sorgente-acquafondata
+La struttura La Sorgente è ubicata in Viale Sandro Pertini, 12 a Rocchetta Alta (IS), alle coordinate GPS 41.626476, 14.086816. Immersa nel paesaggio del Parco Nazionale d'Abruzzo, Lazio e Molise, è una destinazione d'eccellenza per appassionati di trekking, viaggiatori in cerca di pace e amanti dei borghi storici arrocati.
+
+Gli alloggi offrono ambienti caratteristici con riscaldamento, TV, Wi-Fi e bagni privati. Nelle immediate vicinanze si trovano i ruderi di Rocchetta Alta, le Sorgenti del Fiume Volturno e i collegamenti per il valico di Acquafondata e Filignano.
+
+---
+la-suite-acquafondata
+La Suite è una struttura ricettiva moderna situata in Via Enrico de Nicola, 151 a Cassino (FR), coordinate 41.49169, 13.83309. Pensata per una clientela business, coppie e turisti individuali che cercano riservatezza e comfort elevato nel centro cittadino.
+
+Le camere offrono arredi contemporanei, climatizzazione, connessione Wi-Fi ultra-veloce, Smart TV, minibar e bagni privati d'ispirazione spa. La posizione permette di raggiungere a piedi il Tribunale di Cassino, la Stazione Ferroviaria, i corsi principali del passeggio e di raggiungere in auto l'Abbazia e Acquafondata.
+
+---
+locanda-belvedere-da-stefano-acquafondata
+La Locanda Belvedere da Stefano sorge in Località Pratola snc a Castelnuovo al Volturno (IS), coordinate 41.636078, 14.05153. È una celebre locanda di montagna ideale per gli amanti della gastronomia locale molisana, per chi pratica escursionismo sul Monte Marrone e per i turisti che visitano l'area tra Molise e Acquafondata.
+
+La struttura offre camere accoglienti e una rinomata sala ristorante panoramica dove degustare piatti tipici locali a base di tartufo, carni alla brace e formaggi tradizionali. Punto di partenza privilegiato per la visita al Monumento a Charles de Gaulle sul Monte Marrone e al Parco delle Mainarde.
+
+---
+palazzo-licinio-acquafondata
+Palazzo Licinio si trova in Via Antonio de Bellis, 3 nel centro storico di Venafro (IS), coordinate GPS 41.485155, 14.043538. Dimora storica di grande fascino, rappresenta la scelta ideale per viaggiatori culturali, coppie e turisti alla ricerca di un'esperienza autentica tra storia e architettura nel Molise.
+
+Le camere mantengono lo stile d'epoca abbinato ai più moderni comfort: Wi-Fi gratuito, riscaldamento, aria condizionata, bagni privati e prima colazione in sale affrescate. Situato a pochi metri dal Museo Nazionale di Castello Pandone, dal Museo Archeologico di Venafro e ben collegato con le strade per Acquafondata e Cassino.
+
+---
+tenuta-degli-uliveti-b-b-acquafondata
+Il Tenuta degli Uliveti B&B sorge in Via Degli Uliveti a Sant'Elia Fiumerapido (FR), coordinate 41.523749, 13.86876. Immerso in una verdeggiante tenuta di ulivi ai piedi delle colline che salgono verso Acquafondata, è la struttura ideale per famiglie, coppie e viaggiatori con animali al seguito.
+
+Gli alloggi dispongono di aria condizionata, Wi-Fi, ampie vetrate, bagno privato, patio esterno e parcheggio privato. La posizione garantisce la massima tranquillità a breve distanza dal centro storico di Sant'Elia Fiumerapido, da Cassino e dai percorsi trekking del Parco Naturale delle Mainarde.
+
+---
+agriturismo-l-antico-casale-acquaformosa
+L'Agriturismo L'Antico Casale è situato in Contrada Sant'Anna a Altomonte (CS), coordinate GPS 39.706694, 16.148294. Questa struttura agrituristica nella provincia di Cosenza è la meta perfetta per gli amanti della natura, delle tradizioni enogastronomiche calabresi e delle visite ai borghi medievali vicini ad Acquaformosa.
+
+La struttura offre camere confortevoli in stile rurale, piscina all'aperto, ristorante con cucina locale e prodotti dell'azienda agricola, connessione Wi-Fi e ampio parcheggio. La posizione consente di visitare il borgo d'arte di Altomonte, la vicina Acquaformosa con il Santuario di Santa Maria del Monte e le vette del Parco Nazionale del Pollino.
+
+---
+albergo-meruo-acquaformosa
+L'Albergo Meruo si trova in Piazza Croce, 3 a Morano Calabro (CS), coordinate 39.84491, 16.133948. Inserito in uno dei "Borghi più Belli d'Italia", questo hotel rappresenta la base di partenza ideale per escursionisti, viaggiatori culturali e turisti che vogliono esplorare l'area di Acquaformosa e del Pollino.
+
+L'albergo dispone di camere confortevoli e panoramiche, dotate di riscaldamento, TV, Wi-Fi gratuito e bagno privato. Dalla struttura si raggiungono a piedi il Castello Normanno-Svevo di Morano, la Collegiata di San Nicola e la Chiesa di San Bernardino, mentre in auto si raggiungono rapidamente Acquaformosa, Castrovillari e i sentieri del Pollino.
+
+---
+antico-borgo-b-b-acquaformosa
+L'Antico Borgo B&B sorge in Via Olivella, 122 a Tarsia (CS), coordinate GPS 39.620818, 16.268289. Questa struttura è un comodo punto di riferimento per turisti interessati alla natura e alla storia della Valle del Crati e alle escursioni verso Acquaformosa.
+
+Le sistemazioni offrono aria condizionata, connessione Wi-Fi, TV e bagno privato. Situato a breve distanza dal Riserva Naturale Tarsia (Lago di Tarsia), dal Campo di Internamento di Ferramonti di Tarsia e dallo svincolo autostradale A2 Salerno-Reggio Calabria, facilitando gli spostamenti in tutta la provincia di Cosenza.
+
+---
+b-b-cristallo-acquaformosa
+Il B&B Cristallo si trova in Via Giuseppe Mazzini, 12 nel centro di Castrovillari (CS), coordinate 39.813749, 16.205702. Struttura urbana accogliente e moderna, è ideale per turisti, professionisti e appassionati di trekking diretti verso Acquaformosa e le vette del Parco del Pollino.
+
+Offre stanze luminose e climatizzate con Wi-Fi gratuito, TV a schermo piatto, bagno privato e prima colazione in locale convenzionato o in struttura. La posizione centrale permette di raggiungere a piedi il Castello Aragonese di Castrovillari, il Protocenobio di San Francesco e la zona commerciale della città.
+
+---
+b-b-il-laghetto-acquaformosa
+Il B&B IL LAGHETTO è situato in Via Timpone della Capanna, 12 b a Castrovillari (CS), coordinate 39.82407, 16.223128. Immerso in una tranquilla area verde, è l'alloggio ideale per famiglie, coppie ed ecoturisti alla ricerca di relax e natura alle porte del Pollino e vicino ad Acquaformosa.
+
+La struttura offre camere ampie con bagno privato, Wi-Fi gratuito, aria condizionata, parcheggio privato e giardino. Comodamente collegato sia con il centro cittadino di Castrovillari sia con le arterie provinciali per raggiungere le vette di Acquaformosa, Frascineto e Civita.
+
+---
+b-b-ka-edda-acquaformosa
+Il B&B KA EDDA si trova in Via Fontana Vecchia, 61 a Acquaformosa (CS), coordinate geografiche 39.723774, 16.091356. Posizionato nel cuore del caratteristico borgo arbëreshë (italo-albanese) di Acquaformosa, è la struttura ideale per viaggiatori culturali, amanti delle tradizioni etniche e amanti del turismo di montagna.
+
+La struttura offre camere tipiche e silenziose, dotate di riscaldamento, Wi-Fi, bagno privato e colazione con dolci tradizionali. Dalla struttura è possibile esplorare a piedi il centro di Acquaformosa, visitare il Santuario di Santa Maria del Monte posizionato sui monti circostanti e intraprendere escursioni trekking nelle faggete del Parco Nazionale del Pollino.
+
+---
+b-b-la-brezza-del-pollino-acquaformosa
+Il B&B La Brezza del Pollino si trova in Contrada Mangioppo, 38 a Morano Calabro (CS), coordinate 39.85111, 16.148821. Questa struttura immersa nel verde collinare è perfetta per chi cerca pace, aria pulita ed escursioni naturalistiche vicine ad Acquaformosa e alle vette principali del massiccio del Pollino.
+
+Offre sistemazioni accoglienti con Wi-Fi, climatizzazione, bagno privato, parcheggio gratuito e ampio giardino panoramico. La sua collocazione permette di accedere comodamente al centro di Morano Calabro, alle Grotte del Romito a Papasidero e alle strade per Acquaformosa e Lungro.
+
+---
+castello-di-altomonte-ristorante-albergo-acquaformosa
+Il Castello Di Altomonte Ristorante Albergo sorge nella storica Piazza Castello, 6 ad Altomonte (CS), coordinate GPS 39.699004, 16.131761. Ospitato in una fortezza medievale perfettamente conservata nel centro storico di Altomonte, è la scelta d'eccellenza per soggiorni di lusso, nozze, turismo culturale ed enogastronomico vicino ad Acquaformosa.
+
+La struttura mette a disposizione suite e camere d'epoca dotate di moderni comfort, Wi-Fi, riscaldamento, aria condizionata e vista panoramica sulla valle. Il famoso ristorante interno propone piatti della tradizione calabrese rielaborati in chiave gourmet. La posizione centrale permette di visitare il Museo Civico, la Chiesa della Consolazione e di raggiungere comodamente Acquaformosa e il Parco del Pollino.
