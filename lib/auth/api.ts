@@ -22,9 +22,12 @@ export async function requireApiUser(
     return { error: NextResponse.json({ error: "Server non configurato" }, { status: 503 }) };
   }
 
+  const authHeader = request.headers.get("authorization");
+  const bearer = authHeader?.startsWith("Bearer ") ? authHeader.slice(7).trim() : null;
+
   const {
     data: { user },
-  } = await supabase.auth.getUser();
+  } = bearer ? await supabase.auth.getUser(bearer) : await supabase.auth.getUser();
 
   if (!user) {
     return { error: NextResponse.json({ error: "Non autenticato" }, { status: 401 }) };

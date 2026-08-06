@@ -24,6 +24,7 @@
     "storage:prune-safe": "node scripts/prune-storage-safe.mjs",
     "agent:check-secrets": "node scripts/check-agent-secrets.mjs",
     "audit:new-request-notifications": "npx tsx scripts/audit-new-request-notifications.ts",
+    "replay:new-request-notifications": "npx tsx scripts/replay-new-request-notifications.ts",
     "indexnow:submit-all": "npx tsx scripts/submit-indexnow-batch.ts",
     "indexnow:dry-run": "npx tsx scripts/submit-indexnow-batch.ts --dry-run"
   },
