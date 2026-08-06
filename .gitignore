@@ -52,3 +52,8 @@ node_modules
 
 # Log script operativi (harvest, seed batch)
 /logs/
+
+# Export Gemini descrizioni — generato in locale (non versionare)
+/data/missing-descriptions/blocks/
+/data/missing-descriptions/index.json
+/data/gemini-responses/
