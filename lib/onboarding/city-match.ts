@@ -20,8 +20,9 @@ const cityAliases: Record<string, string[]> = {
   padova: ["padua"],
   syracuse: ["siracusa"],
   siracusa: ["syracuse"],
-  "reggio calabria": ["reggio di calabria"],
-  "reggio di calabria": ["reggio calabria"],
+  "reggio calabria": ["reggio di calabria", "reggio"],
+  "reggio di calabria": ["reggio calabria", "reggio"],
+  reggio: ["reggio calabria", "reggio di calabria"],
   london: ["londra"],
   londra: ["london"],
 };

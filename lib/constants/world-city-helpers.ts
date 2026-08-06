@@ -101,7 +101,26 @@ export function cityFromStored(data: { country_code?: string | null; country_nam
 export function cityFromInput(countryCode: string, cityName: string): WorldCity {
   const exactCity = majorWorldCities.find((city) => city.country_code === countryCode && normalizeText(city.city_name) === normalizeText(cityName));
   if (exactCity) return exactCity;
+  const canonicalId = resolveCanonicalCityId({ cityName, countryCode });
+  if (canonicalId) {
+    const known = majorWorldCities.find((city) => city.city_id === canonicalId);
+    if (known) return known;
+  }
   return createWorldCity(countryCode, cityName);
+}
+
+/** Allinea city_id/nome al catalogo (es. reggio → Reggio Calabria IT-REG). */
+export function normalizeWorldCitySelection(city: WorldCity): WorldCity {
+  if (!city.city_name.trim()) return city;
+  const canonicalId = resolveCanonicalCityId({
+    cityName: city.city_name,
+    cityId: city.city_id,
+    countryCode: city.country_code,
+  });
+  if (!canonicalId) return city;
+  const known = majorWorldCities.find((item) => item.city_id === canonicalId);
+  if (known) return known;
+  return { ...city, city_id: canonicalId };
 }
 
 const CITY_NAME_ALIASES: Record<string, string> = {
@@ -119,6 +138,7 @@ const CITY_NAME_ALIASES: Record<string, string> = {
   sorrento: "IT-SOR",
   capri: "IT-CAP",
   taormina: "IT-TAO",
+  reggio: "IT-REG",
   "reggio calabria": "IT-REG",
   "reggio di calabria": "IT-REG",
   genova: "IT-GOA", genoa: "IT-GOA",

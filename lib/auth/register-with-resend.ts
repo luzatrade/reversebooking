@@ -1,5 +1,6 @@
 import type { User } from "@supabase/supabase-js";
 import { sendSignupConfirmationEmail } from "@/lib/auth/signup-confirmation-email";
+import { getResendApiKey } from "@/lib/notifications/resend-env";
 import { getAppUrl } from "@/lib/legal/company";
 import { createServiceRoleClient } from "@/lib/supabase/admin";
 
@@ -14,7 +15,7 @@ type RegisterWithResendResult =
   | { ok: false; error: string; status?: number };
 
 function canSendSignupViaResend(): boolean {
-  return Boolean(process.env.RESEND_API_KEY?.trim() && createServiceRoleClient());
+  return Boolean(getResendApiKey() && createServiceRoleClient());
 }
 
 export function shouldRegisterWithResend(): boolean {
@@ -23,7 +24,7 @@ export function shouldRegisterWithResend(): boolean {
 
 export async function registerWithResend(input: RegisterWithResendInput): Promise<RegisterWithResendResult> {
   const admin = createServiceRoleClient();
-  if (!admin || !process.env.RESEND_API_KEY?.trim()) {
+  if (!admin || !getResendApiKey()) {
     return { ok: false, error: "Registrazione email non configurata.", status: 503 };
   }
 

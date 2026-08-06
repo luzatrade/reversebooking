@@ -8,7 +8,7 @@ import { AppDatePicker } from "@/components/ui/AppDatePicker";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { validateNoContactsInFields } from "@/lib/content/contact-guard";
 import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
-import { cityFromInput, emptyWorldCity } from "@/lib/constants/world-city-helpers";
+import { cityFromInput, emptyWorldCity, normalizeWorldCitySelection } from "@/lib/constants/world-city-helpers";
 import { makeRequestCode } from "@/lib/identifiers";
 import {
   buildTravelRequestResumePath,
@@ -224,6 +224,8 @@ export function CreateTravelRequestForm() {
         return false;
       }
 
+      const normalizedCity = normalizeWorldCitySelection(draft.selectedCity);
+
       const { data: advertiser, error: advertiserError } = await supabase
         .from("advertiser_profiles")
         .select("id")
@@ -242,10 +244,10 @@ export function CreateTravelRequestForm() {
       const payload = {
         request_code: makeRequestCode(),
         advertiser_id: advertiser.id,
-        country_code: draft.selectedCity.country_code,
-        country_name: draft.selectedCity.country_name,
-        city_name: draft.selectedCity.city_name,
-        city_id: draft.selectedCity.city_id,
+        country_code: normalizedCity.country_code,
+        country_name: normalizedCity.country_name,
+        city_name: normalizedCity.city_name,
+        city_id: normalizedCity.city_id,
         preferred_area: draft.preferredArea,
         preferred_structure_type: draft.preferredStructureType,
         check_in: draft.checkIn,
@@ -261,7 +263,7 @@ export function CreateTravelRequestForm() {
         visible_contact_phone: null,
         visible_contact_whatsapp: null,
         status: "active",
-        expires_at: checkoutExpiresAtIso(draft.checkOut, draft.selectedCity.country_code, draft.selectedCity.city_id),
+        expires_at: checkoutExpiresAtIso(draft.checkOut, normalizedCity.country_code, normalizedCity.city_id),
         target_hotel_account_id: draft.targetHotelId || null,
       };
       const { data: newRequest, error: insertError } = await supabase
@@ -274,11 +276,21 @@ export function CreateTravelRequestForm() {
         return false;
       }
 
-      await fetch("/api/notifications/new-request", {
+      const { data: sessionData } = await supabase.auth.getSession();
+      const accessToken = sessionData.session?.access_token;
+
+      const notifyRes = await fetch("/api/notifications/new-request", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        credentials: "include",
+        headers: {
+          "Content-Type": "application/json",
+          ...(accessToken ? { Authorization: `Bearer ${accessToken}` } : {}),
+        },
         body: JSON.stringify({ requestId: newRequest.id }),
       });
+      if (!notifyRes.ok) {
+        console.warn("Notifica strutture non riuscita", await notifyRes.text());
+      }
       clearTravelRequestDraft();
       setSuccess(t.forms.travelRequest.successCreated);
       setTimeout(() => router.push("/inserzionista/dashboard"), 900);

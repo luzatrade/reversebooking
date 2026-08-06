@@ -1,4 +1,5 @@
 import { resolveNotificationEmailFrom } from "@/lib/email/from";
+import { getResendApiKey } from "@/lib/notifications/resend-env";
 
 type EmailPayload = {
   to: string | null | undefined;
@@ -10,7 +11,7 @@ export async function sendEmailNotification(payload: EmailPayload) {
   const to = payload.to?.trim();
   if (!to) return { ok: false, skipped: true, reason: "missing_recipient"};
 
-  const resendApiKey = process.env.RESEND_API_KEY;
+  const resendApiKey = getResendApiKey();
   const from = resolveNotificationEmailFrom();
 
   if (!resendApiKey) {
