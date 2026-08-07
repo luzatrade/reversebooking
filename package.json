@@ -26,6 +26,8 @@
     "gemini:probe": "node scripts/generate-block-descriptions-gemini.mjs --probe",
     "gemini:generate-block": "node scripts/generate-block-descriptions-gemini.mjs",
     "seo:run-block": "node scripts/run-seo-description-block.mjs",
+    "lmstudio:probe": "node scripts/generate-block-descriptions-lmstudio.mjs --probe",
+    "lmstudio:test": "node scripts/test-lmstudio-one-hotel.mjs",
     "audit:new-request-notifications": "npx tsx scripts/audit-new-request-notifications.ts",
     "replay:new-request-notifications": "npx tsx scripts/replay-new-request-notifications.ts",
     "indexnow:submit-all": "npx tsx scripts/submit-indexnow-batch.ts",
