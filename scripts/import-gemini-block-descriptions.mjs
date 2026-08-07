@@ -59,10 +59,10 @@ async function updateHotel(hotel, { withContacts }) {
   const cityIstat = hotel.city ? await resolveCityIstat(hotel.city) : undefined;
 
   const patch = {
-    description: hotel.description,
-    description_en: hotel.description_en,
     indirizzo: hotel.indirizzo ?? row.indirizzo,
   };
+  if (hotel.description != null) patch.description = hotel.description;
+  if (hotel.description_en != null) patch.description_en = hotel.description_en;
   if (withContacts) {
     if (hotel.phone) patch.phone = hotel.phone;
     if (hotel.email) patch.email = hotel.email;

@@ -25,6 +25,11 @@ const RECOMMENDED = [
     alt: ["GOOGLE_PLACES_API_KEY_TEMP"],
   },
   {
+    key: "GEMINI_API_KEY",
+    why: "Generazione automatica descrizioni SEO (Gemini API)",
+    optional: true,
+  },
+  {
     key: "GOOGLE_PLACES_PHOTOS_KEY",
     why: "Download foto Places (opzionale se inclusa nella chiave principale)",
     optional: true,
