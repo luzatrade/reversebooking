@@ -26,12 +26,25 @@ Tipo: **Environment Variable** (runtime), scope repo `luzatrade/reversebooking`.
 | `NEXT_PUBLIC_SUPABASE_URL` | URL progetto Supabase prod |
 | `SUPABASE_SERVICE_ROLE_KEY` | Scrittura DB, upload foto, import onboarding |
 | `GOOGLE_PLACES_API_KEY` | Import completi (foto, telefono, sito, coordinate) |
+| `GEMINI_API_KEY` | Generazione automatica descrizioni SEO (blocchi 35) |
 
-Opzionali: `GOOGLE_PLACES_PHOTOS_KEY`, `RESEND_API_KEY`, `CRON_SECRET`.
+Opzionali: `GOOGLE_PLACES_PHOTOS_KEY`, `RESEND_API_KEY`, `CRON_SECRET`, `GEMINI_MODEL` (default `gemini-2.0-flash`).
 
 Verifica: `node scripts/check-agent-secrets.mjs`
 
 **Non** mettere secret in `.cursor/environment.json` (è nel repo in chiaro).
+
+## Descrizioni SEO automatiche (Gemini API)
+
+Con `GEMINI_API_KEY` + Supabase:
+
+```bash
+npm run gemini:probe
+node scripts/generate-block-descriptions-gemini.mjs --block 011 --import
+node scripts/run-seo-description-block.mjs --from 011 --to 015
+```
+
+Flusso: legge `data/missing-descriptions/blocks/block-NNN.json` → Gemini (1 hotel/chiamata) → validazione → `data/gemini-responses/block-NNN-updates.json` → import Supabase + `seo_indexable`.
 
 ## Cosa fare l'agente quando ha i secret
 
