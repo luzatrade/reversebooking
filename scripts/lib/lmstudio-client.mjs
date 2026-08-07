@@ -4,10 +4,27 @@
 
 const DEFAULT_BASE = "http://127.0.0.1:1234/v1";
 
+function numEnv(name, fallback) {
+  const raw = process.env[name]?.trim();
+  if (!raw) return fallback;
+  const n = Number.parseFloat(raw);
+  return Number.isFinite(n) ? n : fallback;
+}
+
 export function getLmStudioConfig() {
   const baseUrl = (process.env.LMSTUDIO_BASE_URL?.trim() || DEFAULT_BASE).replace(/\/$/, "");
   const model = process.env.LMSTUDIO_MODEL?.trim() || null;
   return { baseUrl, model };
+}
+
+/** Parametri generazione — override via LMSTUDIO_* in .env.local */
+export function getLmStudioGenerationParams() {
+  return {
+    temperature: numEnv("LMSTUDIO_TEMPERATURE", 0.2),
+    maxTokens: Math.round(numEnv("LMSTUDIO_MAX_TOKENS", 900)),
+    topP: numEnv("LMSTUDIO_TOP_P", 0.9),
+    repeatPenalty: numEnv("LMSTUDIO_REPEAT_PENALTY", 1.12),
+  };
 }
 
 export async function listModels(baseUrl = getLmStudioConfig().baseUrl) {
@@ -30,20 +47,26 @@ export async function chatCompletion({
   baseUrl,
   model,
   messages,
-  temperature = 0.65,
-  maxTokens = 1200,
+  temperature = getLmStudioGenerationParams().temperature,
+  maxTokens = getLmStudioGenerationParams().maxTokens,
+  topP = getLmStudioGenerationParams().topP,
+  repeatPenalty = getLmStudioGenerationParams().repeatPenalty,
   timeoutMs = 180000,
 }) {
   const url = `${baseUrl}/chat/completions`;
+  const body = {
+    model,
+    messages,
+    temperature,
+    max_tokens: maxTokens,
+    top_p: topP,
+    repeat_penalty: repeatPenalty,
+    stream: false,
+  };
   const res = await fetch(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      model,
-      messages,
-      temperature,
-      max_tokens: maxTokens,
-    }),
+    body: JSON.stringify(body),
     signal: AbortSignal.timeout(timeoutMs),
   });
 

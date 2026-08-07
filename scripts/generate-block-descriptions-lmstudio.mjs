@@ -116,7 +116,7 @@ async function generateEnglish(hotel, italian, baseUrl, model) {
     baseUrl,
     model,
     messages: [{ role: "system", content: system }, { role: "user", content: user }],
-    temperature: 0.5,
+    temperature: 0.35,
   });
   return parseJsonField(raw, "description_en");
 }
