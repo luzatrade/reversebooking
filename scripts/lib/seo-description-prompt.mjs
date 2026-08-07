@@ -124,15 +124,35 @@ function tryParseJsonObject(raw) {
   }
 }
 
+function extractFieldByRegex(text, field) {
+  const re = new RegExp(`"${field}"\\s*:\\s*"([\\s\\S]*?)"\\s*[,}]?\\s*$`, "i");
+  // Prefer greedy capture up to the last closing quote (models often omit final })
+  const greedy = text.match(new RegExp(`"${field}"\\s*:\\s*"([\\s\\S]*)"\\s*\\}?\\s*$`, "i"));
+  const m = greedy || text.match(re);
+  if (!m?.[1]) return null;
+  return m[1]
+    .replace(/\\n/g, "\n")
+    .replace(/\\r/g, "\r")
+    .replace(/\\t/g, "\t")
+    .replace(/\\"/g, '"')
+    .replace(/\\\\/g, "\\")
+    .trim();
+}
+
 export function parseJsonField(text, field = "description") {
   const fenced = text.match(/```(?:json)?\s*(\{[\s\S]*?\})\s*```/i);
-  const raw = fenced ? fenced[1] : text.match(/(\{[\s\S]*\})/)?.[1];
+  const raw = fenced ? fenced[1] : text.match(/(\{[\s\S]*\})/)?.[1] || text.match(/(\{[\s\S]*)/)?.[1];
   if (raw) {
-    const parsed = tryParseJsonObject(raw);
+    const parsed = tryParseJsonObject(raw.endsWith("}") ? raw : `${raw}}`);
     if (parsed && typeof parsed === "object") {
       const value = parsed[field] ?? parsed.description ?? parsed.description_en;
       if (typeof value === "string" && value.trim()) return value.trim();
     }
+    const fromRegex =
+      extractFieldByRegex(raw, field) ||
+      extractFieldByRegex(raw, "description") ||
+      extractFieldByRegex(raw, "description_en");
+    if (fromRegex) return fromRegex;
   }
   return text.replace(/^```[\w]*\n?|```$/g, "").trim();
 }
