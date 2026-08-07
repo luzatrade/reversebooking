@@ -1,0 +1,189 @@
+[
+  {
+    "id": "83f48922-c618-4d74-aa6d-9173ed98ea4c",
+    "slug": "108-bb-acquapendente",
+    "name": "108 b&b",
+    "city": "Acquapendente",
+    "address": "Via Vittorio Veneto 108, 01010 Grotte di Castro VT",
+    "coordinates": { "latitude": 42.6738, "longitude": 11.8741 },
+    "email": "",
+    "description_it": "Situato a Grotte di Castro, a brevissima distanza dalle rive del Lago di Bolsena e dal centro di Acquapendente, il 108 B&B accoglie i propri ospiti in un ambiente intimo, curato ed estremamente confortevole. La struttura rappresenta un punto di appoggio ideale sia per i pellegrini in percorrimento lungo la Via Francigena, sia per i viaggiatori che desiderano esplorare i tesori archeologici e naturalistici dell'Alta Tuscia. Le camere, arredate con gusto moderno e toni rilassanti, offrono bagno privato, connessione Wi-Fi gratuita, riscaldamento autonomo e TV a schermo piatto. Ogni mattina gli ospiti possono iniziare la giornata con una piacevole colazione. La posizione strategica consente di raggiungere facilmente i principali borghi storici della zona, rendendo il soggiorno piacevole, rilassante e autentico.",
+    "description_en": "Located in Grotte di Castro, just a short drive from the shores of Lake Bolsena and the town of Acquapendente, 108 B&B welcomes guests into an intimate, well-appointed, and highly comfortable atmosphere. This bed & breakfast provides an ideal base for pilgrims travelling along the Via Francigena as well as visitors eager to discover the archaeological and natural treasures of Upper Tuscia. The guest rooms feature modern decor in soothing color tones, private bathrooms, free Wi-Fi, heating, and flat-screen TVs. Every morning, guests can start their day with a delightful breakfast. Its strategic location allows effortless access to nearby historic villages, guaranteeing a relaxing and authentic stay."
+  },
+  {
+    "id": "42eef45f-f0b2-4839-81d4-6c0d228aa93b",
+    "slug": "agriturismo-il-sentiero-acquapendente",
+    "name": "Agriturismo Il Sentiero",
+    "city": "Acquapendente",
+    "address": "Strada Vicinale di Montepetrocco, 01021 Acquapendente VT",
+    "coordinates": { "latitude": 42.7482, "longitude": 11.8612 },
+    "email": "isabella.ilsentiero@gmail.com",
+    "description_it": "Immerso nelle lussureggianti colline dell'Alta Tuscia laziale, a solo 1,2 km dal centro di Acquapendente e ai confini con la Toscana e l'Umbria, l'Agriturismo Il Sentiero occupa una suggestiva casa di campagna risalente al XIX secolo. Circondato da un ampio parco alberato, la struttura offre una rinfrescante piscina all'aperto, un ristorante interno specializzato in ricette tradizionali e prodotti locali a chilometro zero, e la connessione Wi-Fi gratuita. Le sistemazioni, luminose ed eleganti, godono di incantevoli viste sul giardino e sulla campagna circostante. È la sistemazione ideale per chi cerca relax, contatto autentico con la natura ed eccellenza enogastronomica.",
+    "description_en": "Nestled among the lush hills of Upper Tuscia in Lazio, just 1.2 km from the center of Acquapendente and near the borders of Tuscany and Umbria, Agriturismo Il Sentiero occupies a charming 19th-century country house. Surrounded by a vast tree-lined garden, the property features a refreshing outdoor swimming pool, an on-site restaurant serving traditional recipes made with local zero-kilometer ingredients, and free Wi-Fi access. Bright and elegantly furnished, the rooms offer lovely views over the gardens and rolling countryside. It is the perfect retreat for travelers seeking relaxation, authentic contact with nature, and regional culinary excellence."
+  },
+  {
+    "id": "52b7014c-b2e0-4ab5-b349-ae0e0b519f92",
+    "slug": "agriturismo-le-spighe-acquapendente",
+    "name": "Agriturismo Le Spighe",
+    "city": "Acquapendente",
+    "address": "Strada Statale Cassia km 140, 01020 Proceno VT",
+    "coordinates": { "latitude": 42.7561, "longitude": 11.8294 },
+    "email": "lespighe@tiscali.it",
+    "description_it": "Situato lungo la storica Via Cassia alle porte del grazioso borgo medievale di Proceno e a pochi minuti da Acquapendente, l'Agriturismo Le Spighe offre un'oasi di pace e relax immersa nella campagna incontaminata. La struttura dispone di confortevoli appartamenti e camere arredati in stile rustico tosco-laziale, piscina all'aperto circondata dal verde, area solarium attrezzata e zona barbecue. È una scelta eccellente per famiglie e gruppi d'amici desiderosi di esplorare i dintorni ricchi di storia, dai borghi del tufo alle rinomate località termali della vicina Toscana.",
+    "description_en": "Located along the historic Via Cassia on the outskirts of the charming medieval village of Proceno and just minutes from Acquapendente, Agriturismo Le Spighe offers a peaceful haven amidst pristine countryside. The property provides comfortable apartments and rooms styled in traditional Tuscan-Latium rustic decor, an outdoor swimming pool surrounded by greenery, a sun terrace, and barbecue facilities. It is an excellent choice for families and groups of friends looking to explore nearby historical sites, tufa rock towns, and renowned thermal baths in neighboring Tuscany."
+  },
+  {
+    "id": "7f93ee12-4a67-4b45-9734-b919a65398fa",
+    "slug": "agriturismo-podernuovo-acquapendente-acquapendente",
+    "name": "Agriturismo Podernuovo Acquapendente",
+    "city": "Acquapendente",
+    "address": "Strada Falconiera 73, 01021 Acquapendente VT",
+    "coordinates": { "latitude": 42.741, "longitude": 11.8795 },
+    "email": "",
+    "description_it": "Situato in una posizione sopraelevata e panoramica nelle campagne di Acquapendente, l'Agriturismo Podernuovo offre un'esperienza di soggiorno autentica nel cuore dell'Alta Tuscia. La struttura mette a disposizione appartamenti e camere arredati secondo la tradizione contadina locale, dotati di ogni moderno comfort, compresa la connessione Wi-Fi e ingressi indipendenti. Gli ampi spazi esterni vantano un giardino curato, piscina con vista mozzafiato e aree attrezzate per il relax all'aperto. La vicinanza al Bosco del Sasseto e alla Riserva di Monte Rufeno lo rende una destinazione perfetta per chi ama il trekking e la natura.",
+    "description_en": "Set in an elevated, scenic countryside location near Acquapendente, Agriturismo Podernuovo offers an authentic stay experience in the of Upper Tuscia. The property features apartments and rooms decorated in traditional rural style, equipped with modern amenities including free Wi-Fi and private entrances. The vast grounds boast a manicured garden, a pool with stunning views, and outdoor relaxation areas. Its proximity to the Sasseto Forest and Monte Rufeno Nature Reserve makes it a ideal destination for nature lovers and hiking enthusiasts."
+  },
+  {
+    "id": "6d917644-0ff5-4e7c-a9c7-b669d19c526b",
+    "slug": "albergo-ristorante-toscana-acquapendente",
+    "name": "Albergo Ristorante Toscana",
+    "city": "Acquapendente",
+    "address": "Piazza Nazario Sauro 5, 01021 Acquapendente VT",
+    "coordinates": { "latitude": 42.7431, "longitude": 11.8672 },
+    "email": "info@albergotoscana.net",
+    "description_it": "Affacciato sulla centralissima Piazza Nazario Sauro nel cuore storico di Acquapendente, l'Albergo Ristorante Toscana vanta una solida tradizione di ospitalità. Punto di riferimento storico per i camminatori della Via Francigena e per i turisti in visita nella Tuscia, la struttura offre camere accoglienti e funzionali dotate di bagno privato, TV, connessione Wi-Fi e riscaldamento. Il fiore all'occhiello dell'albergo è il suo rinomato ristorante interno, dove vengono servite specialità tipiche della cucina laziale e toscana, preparate con ingredienti freschi e di stagione. La posizione centrale permette di raggiungere a piedi i principali siti culturali della città.",
+    "description_en": "Overlooking the central Piazza Nazario Sauro in the historic heart of Acquapendente, Albergo Ristorante Toscana boasts a rich tradition of hospitality. A historic reference point for Via Francigena pilgrims and tourists exploring Tuscia, the property offers cozy, functional rooms with private bathrooms, TV, free Wi-Fi, and heating. The highlight of the hotel is its renowned on-site restaurant, serving authentic Latium and Tuscan regional specialties prepared with fresh, seasonal ingredients. Its central location allows guests to explore all main town landmarks on foot."
+  },
+  {
+    "id": "80e3c1ab-9840-4a6a-8c7a-2be5dd63c1b8",
+    "slug": "alloggi-per-uso-turistico-am-acquapendente",
+    "name": "Alloggi Per Uso Turistico A&M",
+    "city": "Acquapendente",
+    "address": "Via Ruggero Leoncavallo 12, 01021 Acquapendente VT",
+    "coordinates": { "latitude": 42.7445, "longitude": 11.868 },
+    "email": "",
+    "description_it": "Gli Alloggi Per Uso Turistico A&M offrono sistemazioni moderne e indipendenti nel centro abitato di Acquapendente, perfette per chi cerca un soggiorno in totale libertà ed autonomia. Gli appartamenti sono finemente arredati e dotati di cucina o angolo cottura completamente accessoriato, zona giorno con TV a schermo piatto, connessione Wi-Fi gratuita e bagno privato con doccia. La posizione tranquilla ma ben servita consente di raggiungere comodamente a piedi i ristoranti, le botteghe del borgo e la storica Via Francigena, fornendo un'ottima base sia per soggiorni brevi che per vacanze più prolungate.",
+    "description_en": "Alloggi Per Uso Turistico A&M offers modern, self-contained accommodations in the town of Acquapendente, ideal for travelers seeking total independence and comfort. The apartments are tastefully furnished and feature fully equipped kitchens or kitchenettes, living areas with flat-screen TVs, free Wi-Fi, and private bathrooms with showers. Located in a quiet yet convenient neighborhood, guests can easily walk to local shops, restaurants, and the historic Via Francigena route, making it an excellent choice for short or extended stays."
+  },
+  {
+    "id": "002825b9-9d3d-47cf-afcb-97d4c7f967fa",
+    "slug": "alloggio-76-acquapendente",
+    "name": "Alloggio 76",
+    "city": "Acquapendente",
+    "address": "Via della Crocetta 76, 01021 Acquapendente VT",
+    "coordinates": { "latitude": 42.7428, "longitude": 11.8655 },
+    "email": "",
+    "description_it": "Situato nel cuore del centro storico di Acquapendente, l'Alloggio 76 è una struttura accogliente e ristrutturata che coniuga il fascino dell'architettura tradizionale con i servizi moderni. L'immobile offre un ambiente caldo e riservato con cucina ben equipaggiata, zona notte confortevole, Wi-Fi ad alta velocità e bagno privato. La sua ubicazione centrale consente di vivere appieno l'atmosfera autentica del borgo laziale, a pochi passi dalle principali attrazioni storiche e dai percorsi naturalistici della regione.",
+    "description_en": "Situated right in the historic center of Acquapendente, Alloggio 76 is a cozy, renovated property blending traditional architectural charm with modern conveniences. The apartment features a warm, private atmosphere complete with a fully equipped kitchen, comfortable bedroom, high-speed Wi-Fi, and a private bathroom. Its central location allows guests to fully experience the authentic atmosphere of this historic Latium town, just steps away from key cultural sites and surrounding nature trails."
+  },
+  {
+    "id": "8744722b-c8f4-4264-9ad4-b06c35297003",
+    "slug": "alloggio-turistico-san-pietro-acquapendente",
+    "name": "Alloggio Turistico San Pietro",
+    "city": "Acquapendente",
+    "address": "Via Oriolo 33, 01021 Acquapendente VT",
+    "coordinates": { "latitude": 42.7421, "longitude": 11.866 },
+    "email": "",
+    "description_it": "L'Alloggio Turistico San Pietro accoglie i propri ospiti in una via tranquilla del centro storico di Acquapendente. Caratterizzato da un'atmosfera familiare e rilassante, l'alloggio dispone di camere curate nei dettagli, dotate di connessione Wi-Fi gratuita, bagno privato, riscaldamento e TV a schermo piatto. È la scelta ideale per camminatori e viaggiatori che desiderano una sosta rigenerante lungo la Via Francigena, godendo della vicinanza a ristoranti tipici, monumenti e mercati locali.",
+    "description_en": "Alloggio Turistico San Pietro welcomes guests in a quiet street within Acquapendente's historic center. Characterized by a relaxing, homelike atmosphere, the property offers meticulously maintained rooms equipped with free Wi-Fi, private bathrooms, heating, and flat-screen TVs. It is an ideal stopover for walkers and pilgrims on the Via Francigena looking for a restful break close to local restaurants, historic monuments, and neighborhood markets."
+  },
+  {
+    "id": "605d7b6a-d383-47c3-b4da-89c31c6781eb",
+    "slug": "bb-casa-galli-acquapendente",
+    "name": "B&B CASA GALLI",
+    "city": "Acquapendente",
+    "address": "Via Casa Galli 55, 05013 Castel Giorgio TR",
+    "coordinates": { "latitude": 42.6981, "longitude": 11.9782 },
+    "email": "bbcasagalli@gmail.com",
+    "description_it": "Situato sull'altopiano dell'Alfina nel comune di Castel Giorgio, a brevissima distanza da Acquapendente e Orvieto, il B&B CASA GALLI propone una piacevole esperienza di soggiorno immersa nel verde. La struttura offre ambienti luminosi, arredati con cura e dotati di bagno privato, Wi-Fi gratuito e riscaldamento. Al mattino viene servita una genuina colazione a base di prodotti locali. Il giardino circostante con posti auto privati garantisce massima tranquillità e comodità per gli spostamenti tra Umbria e Lazio.",
+    "description_en": "Situated on the Alfina plateau in Castel Giorgio, very close to both Acquapendente and Orvieto, B&B CASA GALLI offers a pleasant countryside stay surrounded by nature. The property features bright, carefully decorated rooms equipped with private bathrooms, free Wi-Fi, and heating. In the morning, guests enjoy a genuine breakfast with local produce. The surrounding garden and private parking provide peace of mind and convenient access for exploring both Umbria and Lazio."
+  },
+  {
+    "id": "57ff26de-568f-4537-8a33-ce5522bfe4da",
+    "slug": "bb-predio-san-fernando-acquapendente",
+    "name": "B&B Predio San Fernando",
+    "city": "Acquapendente",
+    "address": "Località Predio San Fernando, 01021 Acquapendente VT",
+    "coordinates": { "latitude": 42.7392, "longitude": 11.8715 },
+    "email": "info@bbsanfernando.com",
+    "description_it": "Il B&B Predio San Fernando è un'elegante villa di campagna situata alle porte di Acquapendente, immersa in un parco verdeggiante ideale per il relax. La struttura dispone di ampie camere finemente arredate con affaccio sul giardino, bagni privati, connessione Wi-Fi gratuita e aria condizionata. La colazione ricca e curata viene servita nella sala comune o all'aperto durante la bella stagione. La posizione strategica al confine tra Lazio, Toscana e Umbria lo rende la base perfetta per escursioni culturali, termali e naturalistiche.",
+    "description_en": "B&B Predio San Fernando is an elegant country villa situated on the outskirts of Acquapendente, set within a lush green park ideal for relaxing. The property offers spacious, finely decorated rooms overlooking the garden, equipped with private bathrooms, free Wi-Fi, and air conditioning. A rich, carefully prepared breakfast is served in the dining room or outdoors during warm weather. Its location near the border of Lazio, Tuscany, and Umbria makes it an ideal launchpad for cultural, spa, and nature excursions."
+  },
+  {
+    "id": "27421a57-4b0a-478c-bab3-9a13161b1d0d",
+    "slug": "bb-quasi-toscana-acquapendente",
+    "name": "B&B Quasi Toscana",
+    "city": "Acquapendente",
+    "address": "Via Flaminia 18, 01021 Acquapendente VT",
+    "coordinates": { "latitude": 42.745, "longitude": 11.8678 },
+    "email": "",
+    "description_it": "Come suggerisce il nome, il B&B Quasi Toscana si trova nella fascia più settentrionale del Lazio, a pochissimi chilometri dal confine toscano e dalla Val d'Orcia. Questo bed & breakfast offre un'accoglienza calorosa e familiare con camere confortevoli, climatizzate e dotate di bagno privato e Wi-Fi gratuito. Al mattino gli ospiti possono gustare una colazione preparata con cura prima di partire alla scoperta di borghi storici, sorgenti termali e incantevoli paesaggi collinari.",
+    "description_en": "True to its name, B&B Quasi Toscana is located in the northernmost part of Lazio, just a few kilometers from the Tuscan border and Val d'Orcia. This bed & breakfast offers a warm, homelike welcome with comfortable, air-conditioned rooms featuring private bathrooms and free Wi-Fi. Guests enjoy a carefully prepared breakfast each morning before heading out to discover historic hilltop towns, thermal springs, and scenic countryside vistas."
+  },
+  {
+    "id": "2b97d784-05d1-4b3a-aca4-017f86e5d56d",
+    "slug": "bed-and-breakfast-la-grotta-acquapendente",
+    "name": "Bed And Breakfast la Grotta",
+    "city": "Acquapendente",
+    "address": "Loc. La Grotta 1, 05013 Castel Giorgio TR",
+    "coordinates": { "latitude": 42.7025, "longitude": 11.968 },
+    "email": "",
+    "description_it": "Il Bed And Breakfast la Grotta sorge in una tranquilla località di campagna nell'altopiano dell'Alfina, in prossimità del confine tra Castel Giorgio e Acquapendente. Immerso nella pace e nel silenzio della natura, l'alloggio vanta sistemazioni semplici, pulite e ben riscaldate, dotate di bagno privato, TV e Wi-Fi. Il giardino esterno consente di rilassarsi all'aria aperta, mentre la colazione propone sapori genuini del territorio.",
+    "description_en": "Bed And Breakfast la Grotta is set in a quiet countryside location on the Alfina plateau, close to the border between Castel Giorgio and Acquapendente. Surrounded by peaceful natural scenery, the property features simple, clean, and well-heated guest rooms equipped with private bathrooms, TVs, and free Wi-Fi. The outdoor garden offers a pleasant space to unwind, while breakfast showcases genuine regional flavors."
+  },
+  {
+    "id": "0768e75f-96d4-41be-9791-06d3b7ae88d1",
+    "slug": "casa-girolamo-acquapendente",
+    "name": "Casa Girolamo",
+    "city": "Acquapendente",
+    "address": "Via della Fonte 14, 01021 Acquapendente VT",
+    "coordinates": { "latitude": 42.7435, "longitude": 11.8665 },
+    "email": "",
+    "description_it": "Casa Girolamo è un accogliente appartamento situato nel cuore di Acquapendente, ideale per chi desidera trascorrere un soggiorno in totale indipendenza. La struttura si compone di una zona giorno con divano e TV, cucina completamente attrezzata, camera da letto matrimoniale e bagno privato con doccia e lavatrice. L'atmosfera calda e la posizione centrale la rendono idonea per famiglie, coppie o camminatori che vogliono vivere la città come un residente locale.",
+    "description_en": "Casa Girolamo is a cozy apartment situated right in the center of Acquapendente, ideal for guests seeking total independence during their stay. The layout features a living room with sofa and TV, a fully equipped kitchen, a double bedroom, and a private bathroom with shower and washing machine. Its warm ambience and central location suit families, couples, or walkers who want to experience the town like a local resident."
+  },
+  {
+    "id": "e2c4e578-cfd1-4b8a-8e1e-712c2a90909b",
+    "slug": "ecoalbergo-monte-rufeno-acquapendente",
+    "name": "EcoAlbergo Monte Rufeno",
+    "city": "Acquapendente",
+    "address": "Riserva Naturale Monte Rufeno, Località Monaldesca, 01021 Acquapendente VT",
+    "coordinates": { "latitude": 42.7812, "longitude": 11.9051 },
+    "email": "",
+    "description_it": "Immerso nel cuore incontaminato della Riserva Naturale Monte Rufeno, l'EcoAlbergo Monte Rufeno è una struttura ricettiva ecocompatibile concepita per gli amanti della natura e dell'escursionismo. Immersa in boschi secolari, la struttura offre camere confortevoli realizzate secondo criteri di sostenibilità ambientale, servizi di ristorazione con prodotti locali a km zero e spazi dedicati ad attività didattiche e astronomiche. È il punto di partenza perfetto per trekking, percorsi in e-bike e osservazione delle stelle presso il vicino Osservatorio Astronomico.",
+    "description_en": "Immersed in the heart of the Monte Rufeno Nature Reserve, EcoAlbergo Monte Rufeno is an eco-friendly property tailored for nature lovers and outdoor enthusiasts. Surrounded by ancient woodlands, it features comfortable rooms designed according to environmental sustainability criteria, dining services highlighting zero-kilometer local produce, and spaces dedicated to educational and astronomical activities. It is the perfect starting point for hiking, e-bike tours, and stargazing at the nearby Astronomical Observatory."
+  },
+  {
+    "id": "9e2563ae-739e-42a7-b0d0-099b49bb3bed",
+    "slug": "il-teatro-alloggio-turistico-acquapendente",
+    "name": "Il Teatro alloggio turistico",
+    "city": "Acquapendente",
+    "address": "Via della Modisteria 6, 01021 Acquapendente VT",
+    "coordinates": { "latitude": 42.7439, "longitude": 11.867 },
+    "email": "",
+    "description_it": "Situato a pochissimi passi dal celebre Teatro Boni nel centro storico di Acquapendente, Il Teatro alloggio turistico propone ambienti raffinati e recentemente ristrutturati. La struttura dispone di un elegante appartamento dotato di cucina accessoriata, zona living confortevole, connessione Wi-Fi gratuita e bagno moderno con doccia. L'ubicazione privilegiata consente di fruire comodamente dell'offerta culturale e gastronomica della cittadina, garantendo al contempo massima quiete notturna.",
+    "description_en": "Located just steps from the famous Teatro Boni in the historic center of Acquapendente, Il Teatro alloggio turistico features refined and newly renovated accommodations. The property offers an elegant apartment equipped with a fitted kitchen, comfortable living area, free Wi-Fi, and a modern bathroom with shower. Its privileged central location provides easy access to the town's cultural and culinary offerings while ensuring a quiet night's sleep."
+  },
+  {
+    "id": "d88a2657-b5d6-46ac-98d8-f646b9c61e79",
+    "slug": "lantico-camino-alloggio-turistico-acquapendente",
+    "name": "L'Antico Camino Alloggio Turistico",
+    "city": "Acquapendente",
+    "address": "Via Corgnolo 36, 01021 Acquapendente VT",
+    "coordinates": { "latitude": 42.7423, "longitude": 11.8668 },
+    "email": "",
+    "description_it": "Caratterizzato da dettagli in pietra e cotto e da un maestoso camino tradizionale, L'Antico Camino Alloggio Turistico offre un'atmosfera calda e suggestiva nel centro antico di Acquapendente. La sistemazione include un angolo cottura attrezzato, riscaldamento autonomo, TV a schermo piatto, Wi-Fi gratuito e bagno privato. È la scelta perfetta per coppie e viaggiatori che cercano il fascino delle dimore storiche unite a tutte le comodità moderne per esplorare la Tuscia e la vicina Toscana.",
+    "description_en": "Characterized by stone and terracotta details and a majestic traditional fireplace, L'Antico Camino Alloggio Turistico offers a warm, atmospheric stay in Acquapendente's old town. The accommodation features an equipped kitchenette, climate control, flat-screen TV, free Wi-Fi, and a private bathroom. It is the perfect choice for couples and travelers seeking historic charm combined with modern conveniences to explore Tuscia and neighboring Tuscany."
+  },
+  {
+    "id": "9e0401cf-9aa4-46cf-aeb2-9c3f9eda6384",
+    "slug": "la-cascina-della-grotta-di-tufo-acquapendente",
+    "name": "La cascina della grotta di tufo",
+    "city": "Acquapendente",
+    "address": "Località Pratolungo snc, 01021 Acquapendente VT",
+    "coordinates": { "latitude": 42.735, "longitude": 11.859 },
+    "email": "",
+    "description_it": "Situata nella quieta campagna della Località Pratolungo vicino ad Acquapendente, La cascina della grotta di tufo è un'antica dimora rurale in pietra e tufo finemente recuperata. Immersa in un grande giardino privato con vista aperta sulle colline della Tuscia, la cascina offre sistemazioni indipendenti spaziose e dotate di cucina accessoriata, Wi-Fi gratuito, area barbecue all'aperto e parcheggio privato. Un luogo magico e riservato dove vivere una vacanza a stretto contatto con la natura e le tradizioni locali.",
+    "description_en": "Located in the quiet countryside of Località Pratolungo near Acquapendente, La cascina della grotta di tufo is a beautifully restored traditional stone and tufa rural house. Surrounded by a large private garden with open views over the Tuscia hills, the farm property offers spacious self-catering units featuring equipped kitchens, free Wi-Fi, outdoor BBQ areas, and private parking. A magical, secluded sanctuary for a vacation immersed in nature and regional traditions."
+  }
+]
