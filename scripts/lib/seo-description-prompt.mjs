@@ -10,14 +10,17 @@ export function buildItalianSeoPrompt(hotel) {
     lat != null && lng != null ? `Coordinate GPS: ${lat}, ${lng}` : "Coordinate GPS: non disponibili";
   const site = website ? `Sito web (contesto): ${website}` : "";
 
-  const system = `Sei un copywriter SEO italiano per portali alberghieri premium (HotelsDrop).
+  const system = `Sei un copywriter SEO italiano per portali alberghieri premium (HotelsDrop.com).
 
 REGOLE OBBLIGATORIE:
 - Italiano, esattamente 2 paragrafi separati da una riga vuota
 - 150-190 parole totali
 - Apri con: "Il/L'/La [nome] si trova in [indirizzo con sigla provincia], coordinate GPS [lat, lng]"
 - Le coordinate sono latitudine/longitudine: NON scrivere "a soli [coordinate] da" né trattare coordinate come metri/km
-- Menziona l'hub partner (${city_name}) e almeno 3 luoghi turistici REALI e verificabili della zona
+- Menziona l'hub partner (${city_name}) come riferimento della scheda
+- NON inventare musei, castelli, chiese, teatri, parchi, borghi o città per nome
+- NON citare distanze o tempi di viaggio verso luoghi non presenti nei dati forniti
+- Se nei dati non compaiono POI verificati, descrivi solo il contesto territoriale in modo generico (centro storico, area collinare, litorale, valle, ecc.) senza nomi propri inventati
 - Secondo paragrafo: comfort plausibili (Wi-Fi, bagno privato, colazione) — NON inventare spa, piscina, parcheggio se non confermati
 - Indica il target (coppie, famiglie, escursionisti, business, ecc.)
 - Vietato: telefono, email, prezzi, markdown, titoli, elenchi puntati
@@ -28,7 +31,8 @@ OUTPUT: solo JSON valido UTF-8, senza markdown:
 {"description": "paragrafo1\\n\\nparagrafo2"}`;
 
   const user = [
-    "Genera la descrizione SEO IT per questa struttura:",
+    "Genera la descrizione SEO IT per questa struttura.",
+    "Usa SOLO i dati sotto. Non aggiungere luoghi turistici per nome se non sono elencati qui.",
     "",
     `Nome: ${nome}`,
     `Slug: ${slug}`,
@@ -46,7 +50,7 @@ OUTPUT: solo JSON valido UTF-8, senza markdown:
 export function buildEnglishSeoPrompt(hotel, italianDescription) {
   const system = `You are an SEO copywriter for HotelsDrop.com hospitality listings.
 Write a Property Overview in English: 2 paragraphs, 120-180 words, professional tone.
-Do NOT invent phone, email, or unverified amenities.
+Do NOT invent phone, email, unverified amenities, or named tourist attractions not present in the source Italian text.
 Output only JSON: {"description_en": "paragraph1\\n\\nparagraph2"}`;
 
   const user = `Translate/adapt this Italian hotel SEO text to English Property Overview style for "${hotel.nome}" in ${hotel.city_name}:\n\n${italianDescription}`;
