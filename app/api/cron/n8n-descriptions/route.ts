@@ -75,7 +75,7 @@ export async function POST(request: Request) {
 
   const url = new URL(request.url);
   const validateOnly = url.searchParams.get("validate_only") === "true";
-  const queueOnly = url.searchParams.get("queue") === "true";
+  const publish = url.searchParams.get("publish") === "true";
   const processQueue = url.searchParams.get("process_queue") === "true";
   const queueId = url.searchParams.get("queue_id");
 
@@ -116,16 +116,41 @@ export async function POST(request: Request) {
     return badRequest("Serve { hotels: [...] } con almeno un hotel");
   }
 
-  if (queueOnly) {
+  if (validateOnly && !publish) {
+    try {
+      const report = await importN8nDescriptionBatch(admin, body, {
+        validateOnly: true,
+        withContacts: true,
+      });
+      const status = report.invalid.length > 0 ? 422 : 200;
+      return NextResponse.json({
+        ok: report.invalid.length === 0,
+        validateOnly: true,
+        batchId: report.batchId,
+        invalid: report.invalid.length,
+        skipped: report.skipped.length,
+        report,
+        message: "Solo validazione — nulla salvato sul sito",
+        ranAt: new Date().toISOString(),
+      }, { status });
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Errore validazione";
+      return NextResponse.json({ error: message }, { status: 500 });
+    }
+  }
+
+  if (!publish) {
     try {
       const queued = await enqueueN8nDescriptionBatch(admin, body);
       return NextResponse.json({
         ok: true,
         queued: true,
+        published: false,
         queueId: queued.id,
         batchId: queued.batchId,
         hotelCount: queued.hotelCount,
-        message: "Batch in coda per revisione agente — non ancora sul sito",
+        message:
+          "Batch in coda per la tua approvazione — NON pubblicato sul sito. Scrivi «ok inserisci» per pubblicare.",
         ranAt: new Date().toISOString(),
       });
     } catch (err) {
@@ -136,15 +161,15 @@ export async function POST(request: Request) {
 
   try {
     const report = await importN8nDescriptionBatch(admin, body, {
-      validateOnly,
+      validateOnly: false,
       withContacts: true,
     });
 
-    const status = validateOnly && report.invalid.length > 0 ? 422 : 200;
+    const status = report.invalid.length > 0 ? 422 : 200;
 
     return NextResponse.json({
       ok: report.invalid.length === 0,
-      validateOnly,
+      published: true,
       batchId: report.batchId,
       imported: report.imported.length,
       invalid: report.invalid.length,
