@@ -1,0 +1,17 @@
+{
+  "source": "n8n",
+  "batch_id": "2026-08-08-test-001",
+  "hotels": [
+    {
+      "id": "83f48922-c618-4d74-aa6d-9173ed98ea4c",
+      "slug": "108-b-b-acquapendente",
+      "name": "108 b&b",
+      "city": "Acquapendente",
+      "address": "Via Vittorio Veneto 108, 01010 Grotte di Castro VT",
+      "coordinates": { "latitude": 42.6738, "longitude": 11.8741 },
+      "email": "",
+      "description_it": "Il 108 B&B si trova in Via Vittorio Veneto 108, 01010 Grotte di Castro VT, coordinate GPS 42.6738, 11.8741.\n\nSituato a Grotte di Castro, a breve distanza dal Lago di Bolsena e da Acquapendente, offre camere con bagno privato, Wi-Fi gratuito e colazione. Ideale per pellegrini della Via Francigena e turisti dell'Alta Tuscia.",
+      "description_en": "Located in Grotte di Castro near Lake Bolsena and Acquapendente, 108 B&B offers private bathrooms, free Wi-Fi, and breakfast. A practical base for Via Francigena pilgrims and visitors exploring Upper Tuscia."
+    }
+  ]
+}

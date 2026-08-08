@@ -68,13 +68,90 @@ export function buildRetryPrompt(hotel, issues, previousText) {
   return { system, user: fixUser };
 }
 
+/** Escape raw control chars inside JSON string literals (common LM Studio quirk). */
+function sanitizeJsonControlChars(jsonText) {
+  let out = "";
+  let inString = false;
+  let escaped = false;
+  for (const ch of jsonText) {
+    if (inString) {
+      if (escaped) {
+        out += ch;
+        escaped = false;
+        continue;
+      }
+      if (ch === "\\") {
+        out += ch;
+        escaped = true;
+        continue;
+      }
+      if (ch === '"') {
+        out += ch;
+        inString = false;
+        continue;
+      }
+      if (ch === "\n") {
+        out += "\\n";
+        continue;
+      }
+      if (ch === "\r") {
+        out += "\\r";
+        continue;
+      }
+      if (ch === "\t") {
+        out += "\\t";
+        continue;
+      }
+      if (ch.charCodeAt(0) < 32) continue;
+      out += ch;
+      continue;
+    }
+    if (ch === '"') inString = true;
+    out += ch;
+  }
+  return out;
+}
+
+function tryParseJsonObject(raw) {
+  try {
+    return JSON.parse(raw);
+  } catch {
+    try {
+      return JSON.parse(sanitizeJsonControlChars(raw));
+    } catch {
+      return null;
+    }
+  }
+}
+
+function extractFieldByRegex(text, field) {
+  const greedy = text.match(new RegExp(`"${field}"\\s*:\\s*"([\\s\\S]*)"\\s*\\}?\\s*$`, "i"));
+  const re = new RegExp(`"${field}"\\s*:\\s*"([\\s\\S]*?)"\\s*[,}]?\\s*$`, "i");
+  const m = greedy || text.match(re);
+  if (!m?.[1]) return null;
+  return m[1]
+    .replace(/\\n/g, "\n")
+    .replace(/\\r/g, "\r")
+    .replace(/\\t/g, "\t")
+    .replace(/\\"/g, '"')
+    .replace(/\\\\/g, "\\")
+    .trim();
+}
+
 export function parseJsonField(text, field = "description") {
   const fenced = text.match(/```(?:json)?\s*(\{[\s\S]*?\})\s*```/i);
-  const raw = fenced ? fenced[1] : text.match(/(\{[\s\S]*\})/)?.[1];
+  const raw = fenced ? fenced[1] : text.match(/(\{[\s\S]*\})/)?.[1] || text.match(/(\{[\s\S]*)/)?.[1];
   if (raw) {
-    const parsed = JSON.parse(raw);
-    const value = parsed[field] ?? parsed.description ?? parsed.description_en;
-    if (typeof value === "string" && value.trim()) return value.trim();
+    const parsed = tryParseJsonObject(raw.endsWith("}") ? raw : `${raw}}`);
+    if (parsed && typeof parsed === "object") {
+      const value = parsed[field] ?? parsed.description ?? parsed.description_en;
+      if (typeof value === "string" && value.trim()) return value.trim();
+    }
+    const fromRegex =
+      extractFieldByRegex(raw, field) ||
+      extractFieldByRegex(raw, "description") ||
+      extractFieldByRegex(raw, "description_en");
+    if (fromRegex) return fromRegex;
   }
   return text.replace(/^```[\w]*\n?|```$/g, "").trim();
 }
