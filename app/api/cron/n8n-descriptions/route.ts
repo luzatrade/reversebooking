@@ -5,6 +5,12 @@ import {
   importN8nDescriptionBatch,
   type N8nImportPayload,
 } from "@/lib/onboarding/n8n-descriptions";
+import {
+  enqueueN8nDescriptionBatch,
+  listPendingN8nQueues,
+  processAllPendingN8nQueues,
+  processN8nQueueItem,
+} from "@/lib/onboarding/n8n-queue";
 import { createServiceRoleClient } from "@/lib/supabase/admin";
 
 export const runtime = "nodejs";
@@ -28,6 +34,21 @@ export async function GET(request: Request) {
 
   const url = new URL(request.url);
   const limit = Number.parseInt(url.searchParams.get("limit") ?? "10", 10);
+
+  if (url.searchParams.get("queue") === "pending") {
+    try {
+      const pending = await listPendingN8nQueues(admin, limit);
+      return NextResponse.json({
+        ok: true,
+        count: pending.length,
+        queue: pending,
+        ranAt: new Date().toISOString(),
+      });
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Errore lista coda";
+      return NextResponse.json({ error: message }, { status: 500 });
+    }
+  }
 
   try {
     const hotels = await exportMissingDescriptionHotels(admin, limit);
@@ -54,6 +75,35 @@ export async function POST(request: Request) {
 
   const url = new URL(request.url);
   const validateOnly = url.searchParams.get("validate_only") === "true";
+  const queueOnly = url.searchParams.get("queue") === "true";
+  const processQueue = url.searchParams.get("process_queue") === "true";
+  const queueId = url.searchParams.get("queue_id");
+
+  if (processQueue) {
+    try {
+      if (queueId) {
+        const report = await processN8nQueueItem(admin, queueId);
+        return NextResponse.json({
+          ok: report.invalid.length === 0,
+          queueId,
+          imported: report.imported.length,
+          invalid: report.invalid.length,
+          report,
+          ranAt: new Date().toISOString(),
+        });
+      }
+      const results = await processAllPendingN8nQueues(admin, 5);
+      return NextResponse.json({
+        ok: true,
+        processed: results.length,
+        results,
+        ranAt: new Date().toISOString(),
+      });
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Errore process queue";
+      return NextResponse.json({ error: message }, { status: 500 });
+    }
+  }
 
   let body: N8nImportPayload;
   try {
@@ -64,6 +114,24 @@ export async function POST(request: Request) {
 
   if (!body.hotels?.length) {
     return badRequest("Serve { hotels: [...] } con almeno un hotel");
+  }
+
+  if (queueOnly) {
+    try {
+      const queued = await enqueueN8nDescriptionBatch(admin, body);
+      return NextResponse.json({
+        ok: true,
+        queued: true,
+        queueId: queued.id,
+        batchId: queued.batchId,
+        hotelCount: queued.hotelCount,
+        message: "Batch in coda per revisione agente — non ancora sul sito",
+        ranAt: new Date().toISOString(),
+      });
+    } catch (err) {
+      const message = err instanceof Error ? err.message : "Errore enqueue";
+      return NextResponse.json({ error: message }, { status: 500 });
+    }
   }
 
   try {
