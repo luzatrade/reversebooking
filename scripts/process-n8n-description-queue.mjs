@@ -4,6 +4,8 @@
  * Usage:
  *   node scripts/process-n8n-description-queue.mjs
  *   node scripts/process-n8n-description-queue.mjs --queue-id <uuid>
+ *
+ * Pubblica sul sito SOLO dopo approvazione utente (non usare da n8n).
  */
 
 import dotenv from "dotenv";
