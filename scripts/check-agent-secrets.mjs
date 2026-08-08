@@ -41,7 +41,12 @@ const RECOMMENDED = [
   },
   {
     key: "CRON_SECRET",
-    why: "Cron job Vercel (purge scaduti)",
+    why: "API n8n handoff + publish approvato + cron Vercel",
+    optional: true,
+  },
+  {
+    key: "N8N_WEBHOOK_URL",
+    why: "Webhook produzione n8n — agente avvia workflow scrape",
     optional: true,
   },
 ];
