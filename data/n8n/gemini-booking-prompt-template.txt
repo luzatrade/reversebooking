@@ -1,0 +1,7 @@
+{{SYSTEM_PROMPT}}
+
+---
+
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+{{HOTEL_LIST}}

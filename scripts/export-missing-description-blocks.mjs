@@ -17,6 +17,8 @@ dotenv.config({ path: resolve(__dirname, "../.env.local"), override: true });
 const OUT_DIR = resolve(__dirname, "../data/missing-descriptions/blocks");
 const DEFAULT_BLOCK_SIZE = 35;
 
+const { getBookingSeoSystemPrompt, buildBookingBatchUserPrompt } = await import("./lib/booking-seo-prompt.mjs");
+
 function parseArgs() {
   const sizeArg = process.argv.find((a) => a.startsWith("--block-size="));
   const maxArg = process.argv.find((a) => a.startsWith("--max-blocks="));
@@ -108,21 +110,12 @@ async function main() {
     const promptLines = [
       `# Blocco ${blockNum}/${totalBlocks} — ${chunk.length} strutture senza descrizione IT`,
       "",
-      "Genera description (IT, narrativa ~120–200 parole) e description_en (EN, Property Overview style) per ogni hotel.",
-      "Output finale: JSON array come block-002-updates.json con slug, description, description_en, indirizzo.",
+      getBookingSeoSystemPrompt(),
       "",
-      "## Strutture",
+      "---",
       "",
+      buildBookingBatchUserPrompt(chunk, { blockNum, totalBlocks }),
     ];
-
-    for (const [i, row] of chunk.entries()) {
-      promptLines.push(
-        `${i + 1}. **${row.nome}** — ${row.city_name}`,
-        `   - slug: \`${row.slug ?? "DA GENERARE"}\``,
-        `   - indirizzo: ${row.indirizzo ?? "—"}`,
-        "",
-      );
-    }
 
     writeFileSync(resolve(OUT_DIR, `block-${blockId}-prompt.md`), promptLines.filter(Boolean).join("\n"), "utf8");
 
