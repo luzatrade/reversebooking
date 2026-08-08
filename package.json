@@ -26,6 +26,8 @@
     "gemini:probe": "node scripts/generate-block-descriptions-gemini.mjs --probe",
     "gemini:generate-block": "node scripts/generate-block-descriptions-gemini.mjs",
     "seo:run-block": "node scripts/run-seo-description-block.mjs",
+    "n8n:import-batch": "node scripts/import-n8n-description-batch.mjs",
+    "n8n:validate-batch": "node scripts/import-n8n-description-batch.mjs --validate-only",
     "lmstudio:probe": "node scripts/generate-block-descriptions-lmstudio.mjs --probe",
     "lmstudio:test": "node scripts/test-lmstudio-one-hotel.mjs",
     "setup:mac-lmstudio": "node scripts/setup-mac-lmstudio.mjs",
