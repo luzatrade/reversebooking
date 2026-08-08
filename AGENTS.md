@@ -66,6 +66,21 @@ Migrations SQL: preferire `supabase db push` o eseguire file in `supabase/migrat
 
 Procedere in autonomia: import, seed, verifica console, commit, merge, deploy.
 
+## Bridge n8n ↔ Cursor (coda handoff)
+
+n8n **non** è accessibile direttamente. Il bridge è l’API HotelsDrop + coda `admin_audit_log`.
+
+| Direzione | Come |
+|-----------|------|
+| n8n → Cursor | POST `.../n8n-descriptions?secret=CRON` (senza `publish=true`) → coda |
+| Cursor → n8n | Secret `N8N_WEBHOOK_URL` + `npm run n8n:trigger` |
+| Cursor legge coda | `npm run n8n:list-pending` |
+| Publish dopo ok utente | `npm run n8n:publish-approved -- --queue-id <uuid>` |
+
+Guida setup: `data/n8n/CURSOR-BRIDGE.md`
+
+**Regola:** mai pubblicare senza approvazione utente («ok inserisci»).
+
 ## Cosa chiedere all'utente solo se i secret mancano
 
 Indicare **una sola volta** di aggiungere i secret nel dashboard Cursor (lista sopra), poi riavviare l'agent run.
