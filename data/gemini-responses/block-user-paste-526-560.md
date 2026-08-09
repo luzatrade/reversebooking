@@ -9,20 +9,20 @@ Website: http://www.hotelbaliviareggio.it/
 Email:
 
 Descrizione (Italiano):
-L'Hotel Bali si trova a Viareggio, a breve distanza dal celebre lungomare e dalla pineta che caratterizza la Versilia. La struttura propone camere semplici e funzionali, dotate di aria condizionata, TV, bagno privato e connessione Wi-Fi nelle aree comuni. La posizione consente di raggiungere facilmente a piedi o in bicicletta la passeggiata mare, i locali della movida estiva e le spiagge sabbiose. È una scelta pratica per chi desidera un soggiorno balneare economico nel cuore della città, con rapido accesso al centro storico e ai collegamenti verso Forte dei Marmi e Pisa.
+L'Hotel Bali sorge nel centro di Viareggio, a soli 100 metri dalla celebre passeggiata a mare e dalle ampie spiagge della Versilia. Gestito con cura, l'albergo offre un'atmosfera accogliente e sistemazioni climatizzate provviste di Wi-Fi gratuito, TV a schermo piatto, cassaforte e bagno privato. La struttura dispone di un grazioso giardino interno ed è situata in posizione ideale sia per godersi il mare sia per esplorare le boutique e i locali della costa toscana.
 
 Description (English):
-Hotel Bali is located in Viareggio, a short distance from the famous seafront promenade and the pinewood that defines the Versilia coast. The property offers simple, functional rooms with air conditioning, TV, private bathrooms, and Wi-Fi in common areas. Its position allows easy walking or cycling access to the beachfront, summer nightlife, and sandy shores. It is a practical choice for budget-conscious travelers seeking a seaside stay in the heart of town, with quick links to the historic center, Forte dei Marmi, and Pisa.
+Hotel Bali is situated in the heart of Viareggio, just 100 meters from the famous seaside promenade and Versilia's sandy beaches. Featuring friendly service, this cozy hotel offers air-conditioned rooms with free Wi-Fi, flat-screen TV, safe, and private bathroom. Guests can relax in a small private garden, and enjoy easy walking access to local shops, dining, and beach clubs.
 
-Servizi / Amenities: Aria condizionata, Wi-Fi nelle aree comuni, TV, Bagno privato, Vicinanza al mare, Posizione centrale
+Servizi / Amenities: Wi-Fi gratuito, Vicinanza alla spiaggia, Aria condizionata, Giardino interno, TV a schermo piatto, Reception
 
 Punti di interesse / Nearby Attractions:
 
-* Lungomare di Viareggio: ~0.5 km
-* Pineta di Levante: ~0.8 km
-* Centro storico di Viareggio: ~1 km
+* Passeggiata di Viareggio: ~0.1 km
+* Spiaggia di Viareggio: ~0.15 km
+* Pineta di Ponente: ~0.4 km
 
-Target ideale: Turisti balneari, Coppie, Viaggiatori in cerca di posizione centrale
+Target ideale: Coppie, Turisti balneari, Famiglie
 
 ---
 
@@ -37,20 +37,20 @@ Website: http://www.hotel-bellaitalia.it/
 Email:
 
 Descrizione (Italiano):
-L'Hotel Bella Italia sorge a Peschiera del Garda, in posizione strategica tra il Lago di Garda e i principali parchi divertimento del territorio. Le camere sono confortevoli e luminose, provviste di aria condizionata, TV, bagno privato e Wi-Fi gratuito. La struttura offre un'accogliente sala colazioni e parcheggio per gli ospiti. La vicinanza al centro storico fortificato, alle spiagge lacustri e alle fermate dei mezzi pubblici rende l'hotel ideale per famiglie e coppie che desiderano esplorare il Garda, Verona e le attrazioni della zona.
+L'Hotel Bella Italia si trova a Peschiera del Garda, a brevissima distanza dalle sponde del Lago di Garda. Inserito in un moderno complesso turistico, l'albergo offre camere eleganti e luminose dotate di climatizzazione, riscaldamento, Wi-Fi gratuito, TV satellitare, minibar e balcone o terrazza. A disposizione degli ospiti vi sono ampie piscine all'aperto, impianti sportivi, parco giochi per bambini, ristorante e bar. È la scelta perfetta per famiglie e vacanzieri desiderosi di divertimento e relax vicino al lago.
 
 Description (English):
-Hotel Bella Italia is located in Peschiera del Garda, strategically positioned between Lake Garda and the region's major theme parks. Comfortable, bright rooms feature air conditioning, TV, private bathrooms, and free Wi-Fi. The property offers a welcoming breakfast room and guest parking. Proximity to the fortified historic center, lake beaches, and public transport makes it ideal for families and couples exploring Lake Garda, Verona, and nearby attractions.
+Hotel Bella Italia is located in Peschiera del Garda, just a short walk from Lake Garda's shores. Situated within a vibrant resort complex, the hotel features bright and elegant rooms equipped with air conditioning, heating, free Wi-Fi, satellite TV, minibar, and a private balcony or terrace. Facilities include large outdoor pools, sports fields, a playground, restaurants, and bars, making it ideal for family vacations and lake leisure.
 
-Servizi / Amenities: Wi-Fi gratuito, Aria condizionata, Parcheggio, Colazione, TV, Bagno privato
+Servizi / Amenities: Piscine all'aperto, Ristorante e Bar, Impianti sportivi, Wi-Fi gratuito, Aria condizionata, Parcheggio privato
 
 Punti di interesse / Nearby Attractions:
 
-* Centro storico di Peschiera: ~0.5 km
-* Lago di Garda: ~0.8 km
-* Gardaland: ~5 km
+* Sponda del Lago di Garda: ~0.3 km
+* Gardaland Park: ~4.5 km
+* Centro Storico di Peschiera: ~1.5 km
 
-Target ideale: Famiglie, Coppie, Turisti del Lago di Garda
+Target ideale: Famiglie con bambini, Amanti del turismo lacustre, Gruppi
 
 ---
 
@@ -65,20 +65,20 @@ Website: https://www.gardenpraia.it/
 Email:
 
 Descrizione (Italiano):
-L'Hotel Garden è situato nel centro di Praia a Mare, a pochi passi dalla spiaggia e dal lungomare della Costa dei Cedri. L'albergo offre camere accoglienti con aria condizionata, TV, bagno privato e, in molti casi, balcone o vista sul mare. La struttura dispone di terrazza solarium e colazione a buffet. La posizione centrale permette di raggiungere facilmente l'Isola di Dino, le grotte marine e i sentieri panoramici che caratterizzano questo tratto di costa calabrese, meta apprezzata da chi cerca mare cristallino e natura incontaminata.
+L'Hotel Garden sorge nel centro di Praia a Mare, cittadina calabrese affacciata sul Tirreno e di fronte alla suggestiva Isola di Dino. La struttura mette a disposizione camere confortevoli e climatizzate con Wi-Fi gratuito, TV, telefono e bagno privato. L'albergo dispone di un ristorante interno che propone ricette della cucina tipica calabrese ed è posizionato a pochi passi dalla spiaggia di sabbia e dal viale pedonale commerciale.
 
 Description (English):
-Hotel Garden is located in the center of Praia a Mare, steps from the beach and the seafront promenade along the Cedar Coast. The hotel offers welcoming rooms with air conditioning, TV, private bathrooms, and often a balcony or sea view. Facilities include a sun terrace and buffet breakfast. Its central location provides easy access to Dino Island, sea caves, and scenic trails along this stretch of the Calabrian coast, popular with travelers seeking crystal-clear waters and unspoiled nature.
+Hotel Garden is located in central Praia a Mare, a seaside town facing Dino Island along Calabria's coastline. The hotel offers comfortable, air-conditioned rooms equipped with free Wi-Fi, TV, telephone, and private bathrooms. Guests can taste local Calabrian specialties at the on-site restaurant and enjoy immediate access to sandy beaches and the pedestrian town center.
 
-Servizi / Amenities: Vicinanza al mare, Aria condizionata, Terrazza solarium, Colazione a buffet, Wi-Fi, TV, Bagno privato
+Servizi / Amenities: Ristorante interno, Wi-Fi gratuito, Aria condizionata, Vicinanza al mare, Reception, TV
 
 Punti di interesse / Nearby Attractions:
 
-* Spiaggia di Praia a Mare: ~0.1 km
-* Isola di Dino: ~1 km
-* Grotte marine della Costa dei Cedri: ~2 km
+* Lungomare e Spiaggia di Praia a Mare: ~0.2 km
+* Isola di Dino: ~3 km
+* Santuario della Madonna della Grotta: ~0.8 km
 
-Target ideale: Turisti balneari, Famiglie, Amanti del mare e della natura
+Target ideale: Famiglie, Coppie, Turisti balneari
 
 ---
 
@@ -93,20 +93,20 @@ Website: http://www.hotelgiulietta.com/
 Email:
 
 Descrizione (Italiano):
-L'Hotel Giulietta si trova a Riccione, in una zona tranquilla ma comoda per raggiungere il Viale Ceccarini e la spiaggia. La struttura familiare propone camere luminose dotate di aria condizionata, TV, minibar, bagno privato e Wi-Fi gratuito. Molte sistemazioni dispongono di balcone. L'hotel offre colazione continentale e un servizio attento che accompagna gli ospiti durante il soggiorno. È la scelta ideale per chi desidera vivere la Riviera romagnola tra relax in spiaggia, passeggiate serali e vita sociale, senza rinunciare al comfort di una gestione cordiale.
+L'Hotel Giulietta gode di una posizione privilegiata a Riccione, situato direttamente sul mare e a pochi passi dalle rinomate vie del passeggio come Viale Ceccarini. Le camere, arredate con stile moderno e fresco, dispongono di aria condizionata, Wi-Fi gratuito, TV a schermo piatto, minibar e molte vantano balcone vista mare. La struttura offre una piscina panoramica riscaldata, ristorante con specialità romagnole e reception 24 ore su 24.
 
 Description (English):
-Hotel Giulietta is located in Riccione, in a quiet area yet convenient for reaching Viale Ceccarini and the beach. This family-run property offers bright rooms with air conditioning, TV, minibar, private bathroom, and free Wi-Fi, many with balconies. A continental breakfast and attentive service enhance the stay. It is ideal for enjoying the Romagna Riviera with beach relaxation, evening strolls, and social life, without sacrificing the comfort of warm hospitality.
+Hotel Giulietta occupies a prime seafront spot in Riccione, just a short walk from vibrant Viale Ceccarini. The rooms feature modern decor, air conditioning, free Wi-Fi, flat-screen TV, minibar, and many offer balconies with sea views. Features include a heated outdoor pool, an on-site restaurant serving regional cuisine, and 24-hour reception service.
 
-Servizi / Amenities: Wi-Fi gratuito, Aria condizionata, Colazione, Balcone, Minibar, TV, Bagno privato
+Servizi / Amenities: Frontemare, Piscina riscaldata, Ristorante tipico romagnolo, Wi-Fi gratuito, Aria condizionata, Parcheggio
 
 Punti di interesse / Nearby Attractions:
 
-* Spiaggia di Riccione: ~0.4 km
-* Viale Ceccarini: ~0.8 km
-* Aquafan: ~4 km
+* Spiaggia di Riccione: ~0.0 km
+* Viale Ceccarini: ~0.5 km
+* Palazzo del Turismo: ~0.4 km
 
-Target ideale: Famiglie, Coppie, Turisti della Riviera romagnola
+Target ideale: Coppie, Famiglie, Turisti balneari e dello shopping
 
 ---
 
@@ -121,20 +121,20 @@ Website: http://www.hotelglidei.com/
 Email:
 
 Descrizione (Italiano):
-L'Hotel Gli Dei sorge a Pozzuoli, nell'area dei Campi Flegrei, con vista panoramica sul Golfo di Napoli. La struttura offre camere confortevoli con aria condizionata, TV satellitare, minibar, Wi-Fi gratuito e bagno privato; alcune godono di terrazza vista mare. L'hotel dispone di ristorante interno, bar e parcheggio. La posizione collinare consente di raggiungere facilmente il porto per le isole di Ischia e Procida, l'anfiteatro flavio e i siti archeologici flegrei, offrendo un'ottima base per esplorare Napoli e il suo straordinario patrimonio naturalistico.
+L'Hotel Gli Dei è un'elegante struttura 4 stelle adagiata sulla collina di Agnano a Pozzuoli, con vista panoramica sul Golfo di Pozzuoli e sulle isole di Ischia e Procida. L'hotel offre camere e suite raffinate, dotate di climatizzazione, Wi-Fi gratuito, TV a schermo piatto e minibar. La struttura vanta una piscina panoramica all'aperto, terrazza solarium, american bar e sale congressi moderne. È una base ideale sia per viaggi d'affari che per esplorare i Campi Flegrei.
 
 Description (English):
-Hotel Gli Dei is set in Pozzuoli in the Phlegraean Fields area, with panoramic views over the Gulf of Naples. Comfortable rooms feature air conditioning, satellite TV, minibar, free Wi-Fi, and private bathrooms, with some offering sea-view terraces. The hotel includes an on-site restaurant, bar, and parking. Its hillside location provides easy access to the port for Ischia and Procida, the Flavian Amphitheatre, and Phlegraean archaeological sites, making it an excellent base for exploring Naples and its remarkable natural heritage.
+Hotel Gli Dei is an elegant 4-star property perched on Agnano Hill in Pozzuoli, overlooking the Gulf of Pozzuoli and the islands of Ischia and Procida. The hotel features refined rooms and suites equipped with climate control, free Wi-Fi, flat-screen TV, and minibar. On-site facilities include a panoramic outdoor pool, sun terrace, lounge bar, and modern event spaces, making it ideal for business and leisure travel.
 
-Servizi / Amenities: Vista mare, Ristorante interno, Wi-Fi gratuito, Parcheggio, Aria condizionata, Bar, TV satellitare
+Servizi / Amenities: Piscina panoramica, Vista mare, Wi-Fi gratuito, Parcheggio privato gratuito, Bar, Sala meeting, Aria condizionata
 
 Punti di interesse / Nearby Attractions:
 
-* Porto di Pozzuoli: ~2 km
-* Anfiteatro Flavio: ~3 km
-* Centro storico di Napoli: ~15 km
+* Vulcano Solfatara: ~1.5 km
+* Anfiteatro Flavio di Pozzuoli: ~3 km
+* Terme di Agnano: ~2 km
 
-Target ideale: Coppie, Turisti culturali, Viaggiatori interessati ai Campi Flegrei
+Target ideale: Coppie, Viaggiatori d'affari, Turisti culturali e relax
 
 ---
 
@@ -149,20 +149,20 @@ Website: http://www.hotelitaliamarinadimassa.com/
 Email:
 
 Descrizione (Italiano):
-L'Hotel Italia si affaccia sul Viale Vespucci di Marina di Massa, a pochi metri dalla spiaggia sabbiosa della Versilia. Le camere, semplici e curate, dispongono di aria condizionata, TV, bagno privato e Wi-Fi gratuito; molte sono dotate di balcone vista mare. La struttura offre colazione e un servizio cordiale tipico dell'ospitalità locale. La posizione fronte mare permette di godere della passeggiata ciclabile, delle Alpi Apuane sullo sfondo e di escursioni verso Carrara, Forte dei Marmi e le città d'arte della Toscana settentrionale.
+L'Hotel Italia è situato a Marina di Massa, a brevissima distanza dal centro e a soli 150 metri dal mare e dagli stabilimenti balneari. Circondato da un verde giardino, l'albergo offre camere accoglienti e spaziose con aria condizionata, Wi-Fi gratuito, TV e bagno privato. La struttura dispone di parcheggio privato e ristorante dove degustare specialità toscane di mare e terra, perfetto per un soggiorno balneare in totale comodità.
 
 Description (English):
-Hotel Italia faces Viale Vespucci in Marina di Massa, just steps from the sandy Versilia beach. Simple, well-kept rooms feature air conditioning, TV, private bathroom, and free Wi-Fi, with many offering sea-view balconies. The property serves breakfast with warm local hospitality. Its beachfront location allows guests to enjoy the cycling promenade, Apuan Alps backdrop, and excursions to Carrara, Forte dei Marmi, and the art cities of northern Tuscany.
+Hotel Italia is located in Marina di Massa, just 150 meters from the beach and close to the town center. Surrounded by a quiet garden, the hotel offers spacious rooms equipped with air conditioning, free Wi-Fi, TV, and private bathrooms. Guests can make use of private parking and an on-site restaurant serving Tuscan land and seafood dishes.
 
-Servizi / Amenities: Fronte mare, Wi-Fi gratuito, Balcone vista mare, Aria condizionata, Colazione, TV, Bagno privato
+Servizi / Amenities: Vicinanza al mare, Ristorante interno, Wi-Fi gratuito, Parcheggio privato, Giardino, Aria condizionata
 
 Punti di interesse / Nearby Attractions:
 
-* Spiaggia di Marina di Massa: ~0.05 km
-* Carrara (cave di marmo): ~8 km
-* Forte dei Marmi: ~12 km
+* Spiaggia di Marina di Massa: ~0.15 km
+* Pontile di Marina di Massa: ~0.4 km
+* Alpi Apuane: ~10 km
 
-Target ideale: Turisti balneari, Famiglie, Coppie in vacanza al mare
+Target ideale: Famiglie, Turisti balneari, Coppie
 
 ---
 
@@ -177,20 +177,20 @@ Website: https://www.hotelitaliaverona.it/
 Email:
 
 Descrizione (Italiano):
-L'Hotel Italia è situato a Verona, in zona Porta Nuova, a breve distanza dalla stazione ferroviaria e dal centro storico. Le camere moderne e funzionali offrono aria condizionata, TV a schermo piatto, Wi-Fi gratuito, minibar e bagno privato. La struttura mette a disposizione reception 24 ore, colazione a buffet e parcheggio convenzionato nelle vicinanze. La posizione strategica consente di raggiungere a piedi l'Arena, Piazza delle Erbe e le principali attrazioni veronesi, rendendo l'hotel una scelta comoda per turisti culturali e viaggiatori in transito.
+L'Hotel Italia si trova nel quartiere Borgo Trento a Verona, a pochi minuti a piedi dal centro storico e dal Ponte della Vittoria. Questo confortevole albergo 3 stelle propone camere accoglienti e ben arredate con climatizzazione, Wi-Fi ad alta velocità, TV a schermo piatto e minibar. La struttura include una piccola area relax con sauna e idromassaggio, palestra, bar e garage privato, rappresentando una scelta strategica sia per chi visita la città d'arte sia per motivi di lavoro.
 
 Description (English):
-Hotel Italia is located in Verona near Porta Nuova, a short walk from the railway station and historic center. Modern, functional rooms offer air conditioning, flat-screen TV, free Wi-Fi, minibar, and private bathrooms. The property provides 24-hour reception, buffet breakfast, and nearby partner parking. Its strategic position allows easy walking access to the Arena, Piazza delle Erbe, and Verona's main attractions, making it convenient for cultural tourists and transit travelers.
+Hotel Italia is situated in Verona's Borgo Trento district, within easy walking distance of the historic center and Ponte della Vittoria. This welcoming 3-star hotel provides comfortable rooms with air conditioning, high-speed Wi-Fi, flat-screen TV, and minibar. Guests can enjoy a small wellness corner with sauna and hot tub, a gym, lounge bar, and private garage parking.
 
-Servizi / Amenities: Wi-Fi gratuito, Reception 24/7, Aria condizionata, Colazione a buffet, Minibar, TV a schermo piatto, Parcheggio convenzionato
+Servizi / Amenities: Wi-Fi gratuito, Garage privato, Area relax con sauna, Palestra, Bar, Aria condizionata, Reception 24/7
 
 Punti di interesse / Nearby Attractions:
 
-* Arena di Verona: ~1.2 km
-* Stazione Porta Nuova: ~0.5 km
-* Piazza delle Erbe: ~1.5 km
+* Ponte della Vittoria: ~0.6 km
+* Arena di Verona: ~1.5 km
+* Ospedale Borgo Trento: ~0.5 km
 
-Target ideale: Turisti culturali, Viaggiatori in treno, Coppie e viaggiatori d'affari
+Target ideale: Turisti culturali, Viaggiatori d'affari, Coppie
 
 ---
 
@@ -205,20 +205,20 @@ Website: https://www.hotel-laura.com/
 Email:
 
 Descrizione (Italiano):
-L'Hotel Laura sorge a Ca' Ballarin, frazione di Cavallino-Treporti, immerso nel verde della laguna veneta e a breve distanza dalle spiagge del Litorale. La struttura propone camere confortevoli con aria condizionata, TV, bagno privato e Wi-Fi gratuito, in un ambiente familiare e rilassante. La colazione è servita in sala o in giardino. La posizione consente di raggiungere facilmente il ferry per Venezia, il Lido e i campi di Jesolo, offrendo un equilibrio ideale tra tranquillità lagunare e vita balneare dell'Adriatico.
+L'Hotel Laura si trova in località Ca' Ballarin nel comune di Cavallino-Treporti, in posizione comoda tra il mare Adriatico e la Laguna di Venezia. L'albergo a conduzione familiare garantisce un'ospitalità calorosa in camere funzionali dotate di aria condizionata, Wi-Fi gratuito, TV e bagno privato. La struttura dispone di ristorante con cucina tradizionale, bar e parcheggio gratuito, ideale per famiglie e turisti in cerca di mare, escursioni in bicicletta o visite a Venezia.
 
 Description (English):
-Hotel Laura is located in Ca' Ballarin (Cavallino-Treporti), surrounded by the greenery of the Venetian lagoon and close to Adriatic beaches. Comfortable rooms feature air conditioning, TV, private bathroom, and free Wi-Fi in a relaxed, family-friendly setting. Breakfast is served indoors or in the garden. The location provides easy access to ferries to Venice and the Lido, as well as the beaches of Jesolo, balancing lagoon tranquility with seaside life.
+Hotel Laura is set in Ca' Ballarin within the Cavallino-Treporti peninsula, situated between the Adriatic Sea and the Venetian Lagoon. This family-run hotel provides warm hospitality and practical rooms equipped with air conditioning, free Wi-Fi, TV, and private bathrooms. On-site services include a traditional restaurant, bar, and free parking, making it a great choice for beach holidays and trips to Venice.
 
-Servizi / Amenities: Wi-Fi gratuito, Giardino, Colazione, Aria condizionata, Parcheggio, Vicinanza spiaggia e laguna
+Servizi / Amenities: Ristorante tipico, Wi-Fi gratuito, Parcheggio gratuito, Aria condizionata, Bar, Bagno privato
 
 Punti di interesse / Nearby Attractions:
 
-* Spiaggia di Cavallino: ~2 km
-* Ferry per Venezia: ~5 km
-* Jesolo: ~8 km
+* Spiaggia di Cavallino: ~1.5 km
+* Imbarcadero Punta Sabbioni (per Venezia): ~8 km
+* Laguna Veneta: ~1 km
 
-Target ideale: Famiglie, Coppie, Turisti del Litorale veneto
+Target ideale: Famiglie, Cicloturisti, Turisti balneari e culturali
 
 ---
 
@@ -233,20 +233,20 @@ Website: https://www.relaisagliolivi.com/
 Email:
 
 Descrizione (Italiano):
-Il Relais agli Olivi è un elegante hotel a Lazise, sul Lago di Garda, circondato da uliveti e giardini curati. Le camere e le suites sono arredate con gusto contemporaneo e dispongono di aria condizionata, minibar, TV LCD, Wi-Fi gratuito e bagno con doccia o vasca. La struttura vanta piscina all'aperto, solarium, bar e ristorante con terrazza vista lago. La posizione tranquilla ma centrale permette di esplorare il borgo medievale di Lazise, le cantine vinicole e i parchi tematici della riviera gardesana.
+L'Hotel Relais agli Olivi si trova a soli 500 metri dal centro storico di Lazise e dalle sponde del Lago di Garda, immerso in un rigoglioso giardino tra alberi di ulivo. Questo raffinato garnì offre eleganti camere e suite con balcone o terrazzo, dotate di climatizzazione, Wi-Fi gratuito, TV satellitare e minibar. La struttura dispone di una splendida piscina all'aperto con zona idromassaggio, solarium e palestra, perfetta per una vacanza all'insegna del relax lacustre.
 
 Description (English):
-Relais agli Olivi is an elegant hotel in Lazise on Lake Garda, surrounded by olive groves and manicured gardens. Rooms and suites feature contemporary décor with air conditioning, minibar, LCD TV, free Wi-Fi, and bathrooms with shower or tub. Facilities include an outdoor pool, solarium, bar, and lake-view terrace restaurant. Its peaceful yet central location is perfect for exploring medieval Lazise, local wineries, and the theme parks of the Garda shoreline.
+Hotel Relais agli Olivi is located just 500 meters from historic Lazise and Lake Garda's shore, set in a lush garden filled with olive trees. This refined guesthouse offers elegant rooms and suites with balconies or terraces, climate control, free Wi-Fi, satellite TV, and minibars. Facilities feature a outdoor pool with a hot tub section, sun terrace, and fitness room for ultimate relaxation.
 
-Servizi / Amenities: Piscina all'aperto, Ristorante con terrazza, Wi-Fi gratuito, Giardino, Solarium, Aria condizionata, Parcheggio
+Servizi / Amenities: Piscina all'aperto con idromassaggio, Giardino con uliveto, Wi-Fi gratuito, Parcheggio privato, Aria condizionata, Palestra
 
 Punti di interesse / Nearby Attractions:
 
-* Centro storico di Lazise: ~0.8 km
-* Lago di Garda: ~1 km
+* Centro Storico di Lazise: ~0.5 km
+* Parco Termale del Garda: ~3.5 km
 * Gardaland: ~6 km
 
-Target ideale: Coppie, Turisti enogastronomici, Vacanze di relax sul Garda
+Target ideale: Coppie, Turisti in cerca di relax, Amanti del Lago di Garda
 
 ---
 
@@ -261,23 +261,20 @@ Website: https://www.baiaholiday.com/the-green-park-hotel/
 Email:
 
 Descrizione (Italiano):
-The Green Park Hotel si trova a Cavallino-Treporti, immerso in un ampio parco alberato a pochi minuti dalla spiaggia dell'Adriatico. L'hotel offre camere moderne con aria condizionata, TV, bagno privato e Wi-Fi; molte sistemazioni si aprono su balcone o patio. La struttura dispone di piscina, area giochi, ristorante, bar e parcheggio. È particolarmente adatto alle famiglie grazie alla vicinanza al mare, ai servizi per bambini e ai collegamenti rapidi con Venezia, Jesolo e le isole della laguna.
+Il The Green Park Hotel è una raffinata struttura 4 stelle immersa nel verde della litoranea di Cavallino-Treporti, a pochi passi dal mare. L'hotel vanta suite eleganti e moderne provviste di connessione Wi-Fi, climatizzazione, TV a schermo piatto e terrazze private. Tra i servizi spiccano la piscina all'aperto con solarium, ristorante di alta qualità, bar raffinato e l'accesso diretto ai servizi del complesso Baia Holiday. Rappresenta la combinazione perfetta di natura, comfort e mare.
 
 Description (English):
-The Green Park Hotel is set in Cavallino-Treporti within a large wooded park minutes from the Adriatic beach. Modern rooms feature air conditioning, TV, private bathrooms, and Wi-Fi, many with balconies or patios. Amenities include a swimming pool, play area, restaurant, bar, and parking. It is especially family-friendly, with proximity to the sea, children's facilities, and quick links to Venice, Jesolo, and the lagoon islands.
+The Green Park Hotel is a 4-star property set in coastal greenery in Cavallino-Treporti, steps from the beach. The hotel offers modern, elegant suites with Wi-Fi, climate control, flat-screen TV, and private terraces. Amenities include an outdoor swimming pool, sun deck, high-end restaurant, stylish bar, and easy access to coastal activities.
 
-Servizi / Amenities: Piscina, Parco alberato, Ristorante, Wi-Fi, Parcheggio, Area giochi, Aria condizionata
+Servizi / Amenities: Piscina all'aperto, Ristorante gourmet, Wi-Fi gratuito, Terrazze private, Aria condizionata, Parcheggio privato
 
 Punti di interesse / Nearby Attractions:
 
-* Spiaggia di Cavallino: ~1 km
-* Ferry per Venezia: ~4 km
-* Jesolo: ~10 km
+* Spiaggia di Cavallino: ~0.2 km
+* Punta Sabbioni (motonavi per Venezia): ~6 km
+* Parco Acquatico Caribe Bay: ~10 km
 
-Target ideale: Famiglie con bambini, Coppie, Turisti del Litorale veneto
-
----
-
+Target ideale: Coppie, Famiglie in cerca di comfort 4 stelle, Turisti balneari
 536. "Le camille" ristorante, pizzeria & locanda
 ID: aac7d8e4-622c-48e4-b282-89af4ec8ef0d
 Slug: le-camille-ristorante-pizzeria-locanda-agna
@@ -289,20 +286,20 @@ Website: https://www.facebook.com/LeCamilleRistoPizza
 Email:
 
 Descrizione (Italiano):
-Le Camille è una locanda con ristorante e pizzeria situata nella campagna polesana, nei pressi di Adria, immersa nel verde del Delta del Po. Le camere semplici e accoglienti offrono comfort essenziale con bagno privato e climatizzazione. Il vero punto di forza è la cucina: piatti della tradizione veneta e romagnola, pizze cotte nel forno a legna e prodotti locali. La struttura è meta ideale per cicloturisti, escursionisti del Parco del Delta e chi desidera un soggiorno autentico tra canali, birdwatching e gastronomia di territorio.
+Immersa nella campagna tra Adria e Agna, la locanda "Le Camille" unisce ospitalità e buona cucina. La struttura propone camere accoglienti e funzionali dotate di riscaldamento, aria condizionata, Wi-Fi gratuito e bagno privato. Il punto forte è il ristorante-pizzeria interno, rinomato per le sue pizze fragranti e piatti tradizionali del territorio polesano. La posizione tranquilla è ideale per chi cerca una sosta rilassante fuori dal traffico cittadino.
 
 Description (English):
-Le Camille is an inn with restaurant and pizzeria set in the Polesine countryside near Adria, surrounded by the Po Delta's greenery. Simple, welcoming rooms provide essential comfort with private bathrooms and air conditioning. The highlight is the kitchen: traditional Venetian and Romagna dishes, wood-fired pizzas, and local produce. It is ideal for cyclists, Po Delta park visitors, and travelers seeking an authentic stay among canals, birdwatching, and regional cuisine.
+Set in the countryside between Adria and Agna, "Le Camille" combines comfortable lodging with authentic local dining. The guesthouse offers cozy rooms with heating, air conditioning, free Wi-Fi, and private bathrooms. The highlight is the on-site restaurant and pizzeria, known for crispy wood-fired pizzas and traditional regional dishes.
 
-Servizi / Amenities: Ristorante, Pizzeria, Camere semplici, Aria condizionata, Bagno privato, Parcheggio
+Servizi / Amenities: Ristorante e Pizzeria, Wi-Fi gratuito, Parcheggio gratuito, Aria condizionata, Riscaldamento, Bagno privato
 
 Punti di interesse / Nearby Attractions:
 
-* Parco del Delta del Po: ~3 km
-* Centro di Adria: ~5 km
-* Chioggia: ~25 km
+* Centro Storico di Adria: ~6 km
+* Autodromo Adria International Raceway: ~12 km
+* Parco del Delta del Po: ~20 km
 
-Target ideale: Escursionisti, Cicloturisti, Amanti della gastronomia locale
+Target ideale: Viaggiatori di passaggio, Lavoratori in trasferta, Coppie
 
 ---
 
@@ -317,20 +314,20 @@ Website: http://affittacamere-due-mori.com.es/
 Email:
 
 Descrizione (Italiano):
-Gli Affittacamere Due Mori si trovano nel centro storico di Monselice, ai piedi del Colle della Rocca e del Castello Carrarese. Le camere, arredate con semplicità, dispongono di bagno privato, Wi-Fi gratuito, riscaldamento e TV. La posizione privilegiata consente di esplorare a piedi il borgo medievale, il percorso delle Sette Chiese e i colli Euganei. È una soluzione economica e autentica per chi visita Padova, le terme di Abano e i borghi del Veneto collinare.
+L'Affittacamere Due Mori è situato nel centro di Monselice, nei pressi delle antiche mura e del Castello di Monselice. La struttura propone sistemazioni semplici, pulite e confortevoli, fornite di Wi-Fi gratuito, riscaldamento, TV e bagno privato. La sua posizione consente di esplorare comodamente a piedi la storica cittadina e di raggiungere la stazione ferroviaria per spostamenti veloci verso Padova e Venezia.
 
 Description (English):
-Affittacamere Due Mori is located in Monselice's historic center, at the foot of Rocca Hill and the Carrarese Castle. Simply furnished rooms feature private bathrooms, free Wi-Fi, heating, and TV. The privileged location allows walking exploration of the medieval town, the Seven Churches route, and the Euganean Hills. It is an affordable, authentic base for visiting Padua, Abano thermal spas, and the hill towns of the Veneto.
+Affittacamere Due Mori is located in central Monselice, close to the town walls and Monselice Castle. The property provides simple, clean, and comfortable rooms equipped with free Wi-Fi, heating, TV, and private bathrooms. Its convenient position allows easy walks through the historic town and quick access to the railway station connecting to Padua and Venice.
 
-Servizi / Amenities: Wi-Fi gratuito, Posizione centrale, Bagno privato, Riscaldamento, TV
+Servizi / Amenities: Wi-Fi gratuito, Riscaldamento, TV, Bagno privato, Posizione centrale nel centro storico
 
 Punti di interesse / Nearby Attractions:
 
-* Castello di Monselice: ~0.3 km
-* Colli Euganei: ~2 km
-* Padova: ~25 km
+* Castello di Monselice: ~0.4 km
+* Santuario delle Sette Chiese: ~0.6 km
+* Stazione di Monselice: ~0.8 km
 
-Target ideale: Turisti culturali, Escursionisti, Viaggiatori economici
+Target ideale: Turisti culturali, Viaggiatori individuali, Coppie
 
 ---
 
@@ -339,26 +336,26 @@ ID: 33b01186-0d8a-441f-aab2-b0be6f38aef1
 Slug: agriturismo-zennare-agna
 Nome: Agriturismo Zennare
 Comune / Provincia: Chioggia (VE)
-Indirizzo: Via Zennare, 33 30015, di Ca' Bianca VE
+Indirizzo: Via Zennare, 33, 30015 Ca' Bianca VE
 Coordinate: Lat 45.188108, Lng 12.169563
 Website: http://www.zennare.it/
 Email:
 
 Descrizione (Italiano):
-L'Agriturismo Zennare sorge nella campagna lagunare alle porte di Chioggia, in un'azienda agricola che coltiva prodotti del territorio. Gli alloggi rustici e confortevoli offrono tranquillità, aria condizionata, Wi-Fi e bagno privato. La struttura propone colazioni e cene con specialità a km zero, degustazioni e passeggiate tra campi e canali. La vicinanza a Chioggia, al Lido di Venezia e al Delta del Po la rende perfetta per chi cerca un'esperienza rurale autentica senza rinunciare al mare e alla cultura veneziana.
+L'Agriturismo Zennare è situato nella quiete della campagna della frazione Ca' Bianca a Chioggia, vicino alle valli da pesca della laguna veneta. Ricavato da un casolare d'epoca ben restaurato, offre alloggi e camere confortevoli dotate di climatizzazione, Wi-Fi gratuito, riscaldamento e bagno privato. Immerso nell'azienda agricola di famiglia, è la scelta perfetta per riscoprire ritmi rilassati e visitare Chioggia e il Delta del Po.
 
 Description (English):
-Agriturismo Zennare is set in the lagoon countryside near Chioggia on a working farm growing local produce. Rustic yet comfortable accommodations offer tranquility, air conditioning, Wi-Fi, and private bathrooms. The property serves farm-to-table breakfasts and dinners, tastings, and walks among fields and canals. Proximity to Chioggia, Venice Lido, and the Po Delta makes it perfect for an authentic rural experience with easy access to the sea and Venetian culture.
+Agriturismo Zennare is located in the peaceful countryside of Ca' Bianca near Chioggia, close to the Venetian lagoon waterways. Housed in a beautifully restored farmhouse, it offers charming rooms and apartments equipped with air conditioning, free Wi-Fi, heating, and private bathrooms. Set on an active family farm, it provides a quiet retreat close to Chioggia and the Po Delta.
 
-Servizi / Amenities: Cucina a km zero, Colazione, Wi-Fi, Aria condizionata, Degustazioni, Parcheggio
+Servizi / Amenities: Wi-Fi gratuito, Parcheggio privato gratuito, Giardino, Aria condizionata, Riscaldamento, Prodotti locali
 
 Punti di interesse / Nearby Attractions:
 
-* Chioggia (Little Venice): ~5 km
-* Sottomarina: ~8 km
-* Venezia: ~30 km
+* Chioggia "Piccola Venezia": ~10 km
+* Sottomarina Lido: ~12 km
+* Parco del Delta del Po: ~15 km
 
-Target ideale: Coppie, Famiglie, Turisti enogastronomici e naturalistici
+Target ideale: Coppie, Amanti della natura, Turisti rurale
 
 ---
 
@@ -373,20 +370,20 @@ Website: http://www.balabuskarooms.it/
 Email:
 
 Descrizione (Italiano):
-Balabuska Rooms & Garden è un bed & breakfast immerso nel verde di Codevigo, lungo la storica Via Romea verso il Delta del Po. Le camere luminose e curate dispongono di bagno privato, aria condizionata, Wi-Fi gratuito e accesso al giardino attrezzato. La colazione è preparata con prodotti freschi e dolci fatti in casa. La posizione tranquilla è ideale per ciclisti della Romea, escursionisti del Parco del Delta e visitatori di Padova, Chioggia e le spiagge dell'Adriatico.
+Balabuska Rooms & Garden si trova lungo la Strada Statale Romea a Codevigo, a breve distanza dalla Laguna di Venezia e dalle spiagge di Sottomarina. La struttura offre camere moderne e luminose curate nel design, provviste di aria condizionata, Wi-Fi ad alta velocità, TV a schermo piatto e bagno privato. Immerso in un bel giardino curato, dispone di parcheggio privato ed è ideale per una sosta lungo la direttrice adriatica.
 
 Description (English):
-Balabuska Rooms & Garden is a B&B set in the greenery of Codevigo along the historic Via Romea toward the Po Delta. Bright, well-kept rooms feature private bathrooms, air conditioning, free Wi-Fi, and access to a furnished garden. Breakfast includes fresh products and homemade pastries. The peaceful location suits cyclists on the Romea route, Po Delta park visitors, and travelers exploring Padua, Chioggia, and Adriatic beaches.
+Balabuska Rooms & Garden is set along the SS Romea road in Codevigo, close to the Venetian Lagoon and Sottomarina beaches. The property offers modern, stylishly decorated rooms equipped with air conditioning, high-speed Wi-Fi, flat-screen TV, and private bathrooms. Surrounded by a manicured garden with private parking, it provides a great stopover for coastal travelers.
 
-Servizi / Amenities: Giardino, Colazione casalinga, Wi-Fi gratuito, Aria condizionata, Parcheggio, Bagno privato
+Servizi / Amenities: Wi-Fi ad alta velocità, Parcheggio privato gratuito, Giardino, Aria condizionata, TV a schermo piatto
 
 Punti di interesse / Nearby Attractions:
 
-* Parco del Delta del Po: ~8 km
-* Padova: ~20 km
-* Chioggia: ~15 km
+* Spiaggia di Sottomarina: ~12 km
+* Chioggia: ~10 km
+* Casoni della Fogolana: ~5 km
 
-Target ideale: Cicloturisti, Coppie, Amanti della natura
+Target ideale: Viaggiatori itineranti in auto, Coppie, Lavoratori in trasferta
 
 ---
 
@@ -401,20 +398,20 @@ Website: http://www.bluedreamhotel.it/
 Email:
 
 Descrizione (Italiano):
-Il Blue Dream Hotel si trova a Monselice, in posizione comoda per visitare il centro storico e i Colli Euganei. Le camere moderne offrono aria condizionata, TV a schermo piatto, minibar, Wi-Fi gratuito e bagno privato. La struttura dispone di bar, sala colazioni e parcheggio privato. Il personale cordiale assiste gli ospiti per escursioni verso Padova, le terme euganee e i borghi medievali della zona. È una scelta equilibrata tra comfort, prezzo e accessibilità ai principali attrattori del Padovano.
+Il Blue Dream Hotel è un raffinato 4 stelle situato a Monselice, ai piedi dei Colli Euganei e a breve distanza dal casello autostradale. L'albergo offre camere spaziose dal design elegante con parquet, climatizzazione, Wi-Fi gratuito, TV satellitare e minibar. La struttura dispone di una splendida piscina all'aperto immersa in un parco curato, ristorante interno e sale congressi moderne.
 
 Description (English):
-Blue Dream Hotel is located in Monselice, conveniently placed for visiting the historic center and Euganean Hills. Modern rooms feature air conditioning, flat-screen TV, minibar, free Wi-Fi, and private bathrooms. Amenities include a bar, breakfast room, and private parking. Friendly staff assist with excursions to Padua, Euganean thermal spas, and medieval villages. It offers a balanced choice of comfort, value, and access to the Padua area's main attractions.
+Blue Dream Hotel is a stylish 4-star property located in Monselice at the foot of the Euganean Hills, near the highway exit. The hotel features spacious, elegantly designed rooms with hardwood floors, air conditioning, free Wi-Fi, satellite TV, and minibars. On-site facilities include a outdoor swimming pool set in a park, a restaurant, and conference rooms.
 
-Servizi / Amenities: Wi-Fi gratuito, Parcheggio privato, Aria condizionata, Bar, Colazione, Minibar, TV
+Servizi / Amenities: Piscina all'aperto, Ristorante elegante, Parcheggio gratuito, Wi-Fi gratuito, Sala congressi, Aria condizionata
 
 Punti di interesse / Nearby Attractions:
 
-* Castello di Monselice: ~0.5 km
-* Colli Euganei: ~3 km
-* Padova: ~25 km
+* Centro Storico di Monselice: ~1.2 km
+* Parco Regionale dei Colli Euganei: ~2 km
+* Terme di Abano e Montegrotto: ~14 km
 
-Target ideale: Coppie, Viaggiatori d'affari, Turisti dei Colli Euganei
+Target ideale: Viaggiatori d'affari, Coppie, Turisti in cerca di relax e cultura
 
 ---
 
@@ -429,20 +426,20 @@ Website: http://www.cabrazzobedrelais.it/
 Email:
 
 Descrizione (Italiano):
-Ca' Brazzo Bed Relais è una dimora di charme nella campagna padovana, a Arre, circondata da giardini e campi. Le camere eleganti e raffinate dispongono di arredi di design, aria condizionata, minibar, Wi-Fi ad alta velocità e bagno privato con amenities di qualità. La colazione gourmet è servita in sala o in terrazza. La struttura è perfetta per coppie in cerca di relax, ciclisti dei colli Euganei e visitatori di Padova che preferiscono un rifugio tranquillo fuori dal traffico urbano.
+Ca' Brazzo Bed Relais è un'accogliente residenza di campagna situata ad Arre, immersa nella tranquillità della pianura padovana. Ricavato da un'antica dimora coloniale ristrutturata, offre suite e camere ampie fornite di Wi-Fi gratuito, riscaldamento, climatizzazione e bagno privato. Gli ambienti mantengono travi a vista e dettagli d'epoca, creando un'atmosfera calda e rilassante, perfetta per esplorare la Bassa Padovana.
 
 Description (English):
-Ca' Brazzo Bed Relais is a charming country house in Arre (Padua province), surrounded by gardens and fields. Elegant, refined rooms feature designer furnishings, air conditioning, minibar, high-speed Wi-Fi, and quality private bathrooms. Gourmet breakfast is served indoors or on the terrace. It is perfect for couples seeking relaxation, Euganean Hills cyclists, and Padua visitors preferring a peaceful retreat away from urban traffic.
+Ca' Brazzo Bed Relais is a charming country residence set in Arre, surrounded by the quiet countryside of Padua's plains. Housed in a restored country home, it offers spacious rooms and suites featuring free Wi-Fi, heating, air conditioning, and private bathrooms. With exposed wooden beams and classic architectural touches, it provides a warm and relaxing retreat.
 
-Servizi / Amenities: Colazione gourmet, Giardino, Wi-Fi ad alta velocità, Aria condizionata, Minibar, Parcheggio
+Servizi / Amenities: Wi-Fi gratuito, Parcheggio privato gratuito, Giardino, Aria condizionata, Riscaldamento, Bagno privato
 
 Punti di interesse / Nearby Attractions:
 
-* Colli Euganei: ~5 km
-* Monselice: ~8 km
-* Padova: ~22 km
+* Monselice: ~12 km
+* Conselve: ~4 km
+* Abbazia di Praglia: ~25 km
 
-Target ideale: Coppie, Turisti in cerca di charme, Cicloturisti
+Target ideale: Coppie, Turisti rurale, Viaggiatori in cerca di tranquillità
 
 ---
 
@@ -457,20 +454,20 @@ Website: http://www.cacinipadova.it/
 Email:
 
 Descrizione (Italiano):
-Ca' Cini è un bed & breakfast accogliente nel centro di Monselice, a pochi minuti dal Castello Carrarese e dal percorso delle Sette Chiese. Le camere confortevoli offrono bagno privato, Wi-Fi gratuito, aria condizionata e TV. La colazione abbondante prepara gli ospiti per le escursioni nei Colli Euganei e le visite a Padova. La gestione familiare e la posizione centrale rendono la struttura una base economica e autentica per scoprire il patrimonio storico e naturalistico del territorio euganeo.
+Ca' Cini è un'elegante guest house situata a Monselice, a pochi minuti a piedi dal centro storico e dalla stazione ferroviaria. La struttura offre camere finemente decorate con arredi di qualità, climatizzazione, Wi-Fi gratuito, TV a schermo piatto e bagno privato. Gli ambienti luminosi e l'ospitalità attenta permettono agli ospiti di godersi il soggiorno vicino ai Colli Euganei.
 
 Description (English):
-Ca' Cini is a welcoming B&B in central Monselice, minutes from the Carrarese Castle and the Seven Churches route. Comfortable rooms feature private bathrooms, free Wi-Fi, air conditioning, and TV. A hearty breakfast prepares guests for excursions in the Euganean Hills and visits to Padua. Family management and a central location make it an affordable, authentic base for exploring the Euganean area's historic and natural heritage.
+Ca' Cini is a stylish guest house in Monselice, located a short walk from the historic center and the train station. The property offers finely decorated rooms with quality furnishings, climate control, free Wi-Fi, flat-screen TV, and private bathrooms. The bright atmosphere and attentive hospitality make it an ideal base near the Euganean Hills.
 
-Servizi / Amenities: Colazione, Wi-Fi gratuito, Aria condizionata, Posizione centrale, Bagno privato
+Servizi / Amenities: Wi-Fi gratuito, Aria condizionata, Riscaldamento, TV a schermo piatto, Bagno privato, Parcheggio nelle vicinanze
 
 Punti di interesse / Nearby Attractions:
 
-* Castello di Monselice: ~0.4 km
-* Villa Duodo (Sette Chiese): ~1 km
-* Padova: ~25 km
+* Centro Storico di Monselice: ~0.5 km
+* Castello Cini di Monselice: ~0.7 km
+* Stazione di Monselice: ~0.4 km
 
-Target ideale: Turisti culturali, Coppie, Viaggiatori economici
+Target ideale: Coppie, Turisti culturali, Viaggiatori individuali
 
 ---
 
@@ -478,27 +475,27 @@ Target ideale: Turisti culturali, Coppie, Viaggiatori economici
 ID: 8fc329a4-a38f-459e-813c-61ca144a9167
 Slug: casa-sansovino-agna
 Nome: Casa Sansovino
-Comune / Provincia: Pontecasale (PD)
+Comune / Provincia: Candiana (PD)
 Indirizzo: Via Jacopo Sansovino, 1, 35020 Pontecasale PD
 Coordinate: Lat 45.21667, Lng 11.964926
 Website: http://www.casasansovino.it/
 Email:
 
 Descrizione (Italiano):
-Casa Sansovino è una guest house elegante a Pontecasale, frazione di Candia, immersa nella campagna veneta tra Padova e i Colli Euganei. Le camere spaziose e luminose sono arredate con gusto, con bagno privato, aria condizionata, Wi-Fi e TV. Il giardino e la terrazza offrono spazi di relax. La struttura è ideale per chi visita Padova, le ville venete e le terme euganee, cercando un'ospitalità raffinata in un ambiente residenziale tranquillo.
+Casa Sansovino si trova a Pontecasale di Candiana, di fronte alla celebre Villa Garzoni disegnata dall'architetto Jacopo Sansovino. Questa dimora storica offre alloggi di charme in un contesto rinascimentale di alto valore artistico. Le sistemazioni dispongono di connessione Wi-Fi, riscaldamento, condizionatore e bagno privato. È la scelta perfetta per amanti dell'arte e della storia veneta.
 
 Description (English):
-Casa Sansovino is an elegant guest house in Pontecasale (Candia), set in the Venetian countryside between Padua and the Euganean Hills. Spacious, bright rooms are tastefully furnished with private bathrooms, air conditioning, Wi-Fi, and TV. Garden and terrace provide relaxation spaces. It is ideal for visitors to Padua, Venetian villas, and Euganean thermal spas seeking refined hospitality in a quiet residential setting.
+Casa Sansovino is located in Pontecasale (Candiana), right opposite the famous Villa Garzoni designed by architect Jacopo Sansovino. This historic home offers charming accommodations in a Renaissance setting rich in cultural heritage. Units are equipped with Wi-Fi, heating, air conditioning, and private bathrooms.
 
-Servizi / Amenities: Giardino, Terrazza, Wi-Fi, Aria condizionata, Parcheggio, Bagno privato
+Servizi / Amenities: Wi-Fi gratuito, Dimora storica, Parcheggio gratuito, Riscaldamento, Aria condizionata, Giardino
 
 Punti di interesse / Nearby Attractions:
 
-* Padova: ~15 km
-* Colli Euganei: ~10 km
-* Villa Barbarigo (Valsanzibio): ~12 km
+* Villa Garzoni (Sansovino): ~0.05 km
+* Agna Centro: ~3.5 km
+* Chioggia: ~25 km
 
-Target ideale: Coppie, Turisti culturali, Viaggiatori in cerca di tranquillità
+Target ideale: Amanti dell'arte e della storia, Coppie, Turisti in cerca di dimore storiche
 
 ---
 
@@ -513,20 +510,20 @@ Website: http://www.lacortehotel.info/
 Email:
 
 Descrizione (Italiano):
-L'Hotel La Corte sorge a Correzzola, nel cuore del Polesine padovano, in un edificio ristrutturato che conserva il fascino della corte rurale veneta. Le camere confortevoli dispongono di aria condizionata, TV, Wi-Fi e bagno privato. La struttura offre ristorante con cucina locale, parcheggio e giardino. La posizione è strategica per esplorare il Parco del Delta del Po, le ville venete, Chioggia e Padova, con un'atmosfera di campagna autentica e accoglienza familiare.
+L'Hotel La Corte si trova a Correzzola, inserito nel suggestivo contesto storico dell'Aia delle Corti Benedettine. L'albergo coniuga il fascino dell'architettura rurale ben conservata con i comfort moderni, offrendo camere climatizzate con Wi-Fi gratuito, TV, minibar e bagno privato. La struttura dispone di ristorante, sale eventi e spazi verdi rilassanti.
 
 Description (English):
-Hotel La Corte is located in Correzzola in the Padua Polesine, in a renovated building preserving the charm of a Venetian rural courtyard. Comfortable rooms feature air conditioning, TV, Wi-Fi, and private bathrooms. The property offers a restaurant with local cuisine, parking, and garden. Its position is strategic for exploring the Po Delta Park, Venetian villas, Chioggia, and Padova, with authentic countryside atmosphere and family hospitality.
+Hotel La Corte is situated in Correzzola, part of the historic Benedictine Court complex. The hotel blends rural architectural charm with modern amenities, offering air-conditioned rooms with free Wi-Fi, TV, minibar, and private bathrooms. On-site facilities include a restaurant, event halls, and peaceful green areas.
 
-Servizi / Amenities: Ristorante, Giardino, Parcheggio, Wi-Fi, Aria condizionata, Cucina locale
+Servizi / Amenities: Ristorante interno, Wi-Fi gratuito, Parcheggio privato gratuito, Aria condizionata, Sale eventi, Giardino
 
 Punti di interesse / Nearby Attractions:
 
-* Parco del Delta del Po: ~5 km
-* Padova: ~25 km
-* Chioggia: ~20 km
+* Corti Benedettine di Correzzola: ~0.1 km
+* Chioggia e Laguna: ~18 km
+* Padova Centro: ~28 km
 
-Target ideale: Famiglie, Turisti naturalistici, Amanti della campagna veneta
+Target ideale: Turisti culturali, Coppie, Partecipanti a eventi e matrimoni
 
 ---
 
@@ -541,20 +538,20 @@ Website: https://hotelpalacerovigo.it/
 Email:
 
 Descrizione (Italiano):
-L'Hotel Palace si trova a Rovigo, lungo Viale Porta Po, in posizione comoda per il centro cittadino e le vie dello shopping. Le camere moderne e spaziose offrono aria condizionata, TV a schermo piatto, minibar, Wi-Fi gratuito e bagno privato. La struttura dispone di bar, sala colazioni, parcheggio e sale meeting. È particolarmente adatto a viaggiatori d'affari e turisti che visitano il Polesine, il Delta del Po e le città d'arte del Veneto orientale.
+L'Hotel Palace si trova a Rovigo, lungo Viale Porta Po, a breve distanza dal centro cittadino e dall'uscita autostradale Rovigo Ovest. L'albergo offre camere spaziose e ben insonorizzate, provviste di climatizzazione, Wi-Fi gratuito ad alta velocità, TV a schermo piatto e minibar. La struttura mette a disposizione un ampio parcheggio privato, un american bar e sale per riunioni aziendali.
 
 Description (English):
-Hotel Palace is located in Rovigo along Viale Porta Po, conveniently close to the city center and shopping streets. Modern, spacious rooms feature air conditioning, flat-screen TV, minibar, free Wi-Fi, and private bathrooms. Facilities include a bar, breakfast room, parking, and meeting rooms. It is well suited for business travelers and tourists visiting the Polesine, Po Delta, and art cities of eastern Veneto.
+Hotel Palace is located in Rovigo on Viale Porta Po, close to both the city center and the Rovigo West highway exit. The hotel features spacious, soundproofed rooms equipped with air conditioning, high-speed Wi-Fi, flat-screen TV, and minibar. Facilities include a large private parking lot, lounge bar, and meeting rooms.
 
-Servizi / Amenities: Wi-Fi gratuito, Parcheggio, Sale meeting, Bar, Aria condizionata, Colazione, Minibar
+Servizi / Amenities: Wi-Fi ad alta velocità, Parcheggio privato gratuito, Bar, Sala meeting, Aria condizionata, Reception 24/7
 
 Punti di interesse / Nearby Attractions:
 
-* Centro storico di Rovigo: ~1 km
-* Parco del Delta del Po: ~15 km
-* Ferrara: ~35 km
+* Centro Storico di Rovigo: ~1.5 km
+* Palazzo Roverella: ~1.8 km
+* Stazione di Rovigo: ~2 km
 
-Target ideale: Viaggiatori d'affari, Turisti del Polesine, Coppie
+Target ideale: Viaggiatori d'affari, Turisti in transito, Coppie
 
 ---
 
@@ -569,20 +566,20 @@ Website: https://hoteltriestepontelongo.top/
 Email:
 
 Descrizione (Italiano):
-L'Hotel Trieste è situato nel centro di Pontelongo, borgo del Polesine padovano attraversato dai canali che conducono al Delta del Po. Le camere funzionali dispongono di aria condizionata, TV, Wi-Fi e bagno privato. L'hotel offre colazione, bar e parcheggio. La posizione consente di raggiungere facilmente Chioggia, Padova e le aree naturalistiche del Delta, rappresentando una soluzione pratica per chi esplora la pianura veneta e le tradizioni della pesca e dell'agricoltura locale.
+L'Hotel Trieste è situato nel centro di Pontelongo, sulle rive del fiume Bacchiglione. Questo accogliente albergo a conduzione familiare propone sistemazioni semplici e funzionali dotate di riscaldamento, aria condizionata, Wi-Fi gratuito, TV e bagno privato. La struttura comprende un bar e un ristorante interno con cucina casalinga.
 
 Description (English):
-Hotel Trieste is located in central Pontelongo, a Polesine town crossed by canals leading to the Po Delta. Functional rooms feature air conditioning, TV, Wi-Fi, and private bathrooms. The hotel offers breakfast, a bar, and parking. Its location provides easy access to Chioggia, Padua, and the Delta's natural areas, making it a practical choice for exploring the Venetian plain and local fishing and farming traditions.
+Hotel Trieste is set in the center of Pontelongo, along the banks of the Bacchiglione River. This friendly family-run hotel provides functional rooms equipped with heating, air conditioning, free Wi-Fi, TV, and private bathrooms. On-site facilities include a bar and home-style restaurant.
 
-Servizi / Amenities: Wi-Fi, Colazione, Bar, Parcheggio, Aria condizionata, Bagno privato
+Servizi / Amenities: Ristorante interno, Wi-Fi gratuito, Bar, Aria condizionata, Riscaldamento, Parcheggio nelle vicinanze
 
 Punti di interesse / Nearby Attractions:
 
-* Parco del Delta del Po: ~10 km
-* Chioggia: ~18 km
-* Padova: ~30 km
+* Fiume Bacchiglione e argini ciclabili: ~0.1 km
+* Piove di Sacco: ~5 km
+* Chioggia: ~22 km
 
-Target ideale: Viaggiatori in auto, Turisti del Delta, Soggiorni economici
+Target ideale: Lavoratori in trasferta, Cicloturisti, Viaggiatori individuali
 
 ---
 
@@ -597,20 +594,20 @@ Website: http://www.iltrenodeisogni.it/
 Email:
 
 Descrizione (Italiano):
-Il Treno dei Sogni Bed & Relais è una struttura a tema ferroviario a Conselve, alle porte dei Colli Euganei. Le camere originali e curate nei dettagli richiamano l'atmosfera del viaggio in treno, con comfort moderni: aria condizionata, Wi-Fi, bagno privato e TV. Il giardino e gli spazi comuni raccontano la passione per le ferrovie d'epoca. È una meta unica per famiglie, appassionati di treni e visitatori di Padova che cercano un'esperienza di soggiorno diversa dal solito.
+Il Treno dei Sogni Bed & Relais si trova a Conselve, immerso nella tranquilla campagna tra Padova e i Colli Euganei. Questa originale struttura offre camere a tema ben curate, dotate di climatizzazione, Wi-Fi gratuito, TV a schermo piatto e bagno privato. Gli ospiti possono godersi un ampio giardino esterno e la colazione con prodotti locali.
 
 Description (English):
-Il Treno dei Sogni Bed & Relais is a railway-themed property in Conselve, gateway to the Euganean Hills. Uniquely decorated rooms evoke train travel with modern comforts: air conditioning, Wi-Fi, private bathroom, and TV. Gardens and common areas reflect a passion for vintage railways. It is a distinctive destination for families, train enthusiasts, and Padua visitors seeking an unusual stay experience.
+Il Treno dei Sogni Bed & Relais is located in Conselve, set in quiet countryside between Padua and the Euganean Hills. This uniquely themed property offers charming rooms equipped with air conditioning, free Wi-Fi, flat-screen TV, and private bathrooms. Guests enjoy a spacious outdoor garden and regional breakfast items.
 
-Servizi / Amenities: Tema ferroviario, Giardino, Wi-Fi, Aria condizionata, Colazione, Parcheggio
+Servizi / Amenities: Wi-Fi gratuito, Parcheggio privato gratuito, Giardino, Aria condizionata, Colazione con prodotti locali
 
 Punti di interesse / Nearby Attractions:
 
-* Colli Euganei: ~8 km
-* Padova: ~18 km
-* Monselice: ~12 km
+* Centro di Conselve: ~1 km
+* Monselice: ~9 km
+* Terme Euganee: ~15 km
 
-Target ideale: Famiglie con bambini, Appassionati di treni, Coppie in cerca di originalità
+Target ideale: Coppie, Turisti in cerca di sistemazioni originali, Famiglie
 
 ---
 
@@ -625,20 +622,20 @@ Website: http://lecortibenedettine.it/
 Email:
 
 Descrizione (Italiano):
-La Gastaldia è un affittacamere nel borgo rurale di Agna, immerso nella campagna padovana tra canali e campi. Le camere semplici e pulite offrono bagno privato, Wi-Fi e riscaldamento. La struttura si trova in un contesto storico legato alle corti benedettine del territorio. È ideale per ciclisti, escursionisti del Polesine e visitatori di Padova che preferiscono un soggiorno economico e autentico lontano dai circuiti turistici più affollati.
+La Gastaldia si trova nel comune di Agna, all'interno del circuito delle storiche Corti Benedettine. La struttura conserva testimonianze dell'architettura agricola veneta ed offre sistemazioni tranquille in un ambiente rurale rilassante. Le camere sono dotate di Wi-Fi gratuito, riscaldamento, aria condizionata e bagno privato. È un punto di sosta perfetto per percorsi enogastronomici e cicloturistici della pianura padovana.
 
 Description (English):
-La Gastaldia is guest accommodation in the rural village of Agna, set in the Padua countryside among canals and fields. Simple, clean rooms offer private bathrooms, Wi-Fi, and heating. The property sits in a historic context linked to the area's Benedictine courts. It is ideal for cyclists, Polesine hikers, and Padua visitors seeking an affordable, authentic stay away from crowded tourist routes.
+La Gastaldia is located in Agna, part of the historic Benedictine Courts region. The property preserves authentic Venetian agricultural architecture and provides quiet accommodations in a rural environment. Rooms come with free Wi-Fi, heating, air conditioning, and private bathrooms, making it ideal for cycling and culinary tours.
 
-Servizi / Amenities: Wi-Fi, Bagno privato, Riscaldamento, Parcheggio, Ambiente rurale
+Servizi / Amenities: Wi-Fi gratuito, Parcheggio gratuito, Giardino, Riscaldamento, Aria condizionata, Contesto storico
 
 Punti di interesse / Nearby Attractions:
 
-* Padova: ~20 km
-* Correzzola: ~5 km
-* Parco del Delta del Po: ~12 km
+* Centro di Agna: ~0.8 km
+* Corti Benedettine della Saccisica: ~5 km
+* Rovigo: ~18 km
 
-Target ideale: Cicloturisti, Viaggiatori economici, Amanti della campagna
+Target ideale: Amanti del turismo rurale, Cicloturisti, Coppie
 
 ---
 
@@ -646,27 +643,27 @@ Target ideale: Cicloturisti, Viaggiatori economici, Amanti della campagna
 ID: 638962fd-f045-4b87-a769-7d9e8ee0dadc
 Slug: la-rebosola-agna
 Nome: LA REBOSOLA
-Comune / Provincia: Cive (PD)
-Indirizzo: Via Rebosola, 36 35020, 35020 Cive PD
+Comune / Provincia: Codevigo (PD)
+Indirizzo: Via Rebosola, 36 35020, 35020 Cive' PD
 Coordinate: Lat 45.194922, Lng 12.164809
 Website: https://www.larebosola.it/
 Email:
 
 Descrizione (Italiano):
-La Rebosola è un agriturismo a Cive, nella campagna polesana, circondato da campi coltivati e canali. Gli alloggi rustici e confortevoli offrono tranquillità, aria condizionata, Wi-Fi e bagno privato. La cucina propone piatti della tradizione veneta con ingredienti a km zero, degustazioni e cene conviviali. La posizione è perfetta per birdwatching nel Delta del Po, cicloturismo lungo la Via Romea e visite a Chioggia, Padova e le spiagge dell'Adriatico.
+La Rebosola è un agriturismo e ristorante situato nella frazione di Civè a Codevigo, immerso nella campagna bonificata vicina alla Laguna di Venezia. La struttura propone alloggi rustici e accoglienti provvisti di Wi-Fi, climatizzazione, TV e bagno privato. Il ristorante interno propone piatti tradizionali veneti preparati con ingredienti dell'azienda agricola.
 
 Description (English):
-La Rebosola is a farmhouse in Cive (Polesine), surrounded by cultivated fields and canals. Rustic yet comfortable accommodations offer tranquility, air conditioning, Wi-Fi, and private bathrooms. The kitchen serves traditional Venetian dishes with zero-km ingredients, tastings, and convivial dinners. The location is perfect for Po Delta birdwatching, Via Romea cycling, and visits to Chioggia, Padua, and Adriatic beaches.
+La Rebosola is a farm stay and restaurant located in Civè (Codevigo), set in the quiet countryside near the Venetian Lagoon. The property offers rustic, cozy rooms with Wi-Fi, air conditioning, TV, and private bathrooms. The on-site restaurant serves traditional Venetian cuisine made with farm-fresh produce.
 
-Servizi / Amenities: Ristorante agriturismo, Prodotti a km zero, Wi-Fi, Aria condizionata, Degustazioni
+Servizi / Amenities: Ristorante con prodotti aziendali, Wi-Fi gratuito, Parcheggio gratuito, Aria condizionata, Giardino
 
 Punti di interesse / Nearby Attractions:
 
-* Parco del Delta del Po: ~6 km
-* Chioggia: ~18 km
-* Padova: ~28 km
+* Laguna Veneta e Casoni: ~4 km
+* Chioggia e Sottomarina: ~10 km
+* Delta del Po: ~18 km
 
-Target ideale: Turisti enogastronomici, Naturalisti, Famiglie
+Target ideale: Amanti della cucina genuina, Famiglie, Turisti rurale
 
 ---
 
@@ -681,23 +678,20 @@ Website: http://www.sanpiox1708.it/
 Email:
 
 Descrizione (Italiano):
-San Pio X Farm è un'azienda agricola storica ad Albignasego, alle porte di Padova, attiva dal 1708. La struttura offre agricampeggio, area sosta camper e alloggi semplici immersi nel verde. Gli ospiti possono acquistare prodotti dell'orto e della fattoria, partecipare alle attività rurali e godere di un'autentica esperienza di campagna. La vicinanza a Padova, ai Colli Euganei e alla ciclabile verso il centro rende la fattoria una base originale per famiglie, camperisti e amanti della natura.
+L'Agricampeggio San Pio X Farm è un'area sosta camper e campeggio rurale situata ad Albignasego, a pochi minuti di auto dal centro di Padova. Immersa in un'azienda agricola storica risalente al 1708, la struttura offre piazzole attrezzate con allaccio elettrico, carico/scarico acqua, servizi igienici con docce calde e connessione Wi-Fi. È una soluzione perfetta per i camperisti che desiderano visitare Padova in tutta tranquillità.
 
 Description (English):
-San Pio X Farm is a historic agricultural estate in Albignasego near Padua, operating since 1708. The property offers farm camping, motorhome pitches, and simple accommodations amid greenery. Guests can buy farm and garden produce, join rural activities, and enjoy an authentic countryside experience. Proximity to Padua, the Euganean Hills, and cycling routes to the city center makes it an original base for families, campers, and nature lovers.
+San Pio X Farm is an agri-campsite and camper parking area in Albignasego, located a short drive from central Padua. Set on a historic farm operating since 1708, the facility provides pitch spaces with power hookups, water services, modern restrooms with hot showers, and Wi-Fi access.
 
-Servizi / Amenities: Agricampeggio, Area camper, Prodotti agricoli, Esperienze in fattoria, Parcheggio
+Servizi / Amenities: Piazzole camper attrezzate, Allaccio elettrico, Carico/Scarico acqua, Docce calde, Wi-Fi gratuito, Pet-friendly
 
 Punti di interesse / Nearby Attractions:
 
-* Padova: ~8 km
-* Colli Euganei: ~15 km
-* Basilica di Sant'Antonio: ~9 km
+* Centro Storico di Padova: ~6 km
+* Prato della Valle (Padova): ~5 km
+* Terme Euganee: ~10 km
 
-Target ideale: Camperisti, Famiglie, Turismo rurale e naturalistico
-
----
-
+Target ideale: Camperisti, Amanti dell'open air, Famiglie in viaggio
 551. Agriturismo Cà Fenile
 ID: 8fc4daf6-c17b-4caa-904f-42cd6f1ae873
 Slug: agriturismo-ca-fenile-agnadello
@@ -709,20 +703,20 @@ Website: http://www.agriturismocafenile.com/
 Email:
 
 Descrizione (Italiano):
-L'Agriturismo Cà Fenile sorge ad Alzano Lombardo, alle porte di Bergamo, in una cascina ristrutturata circondata da prati e boschi. Le camere accoglienti dispongono di bagno privato, riscaldamento e Wi-Fi. La cucina propone piatti della tradizione bergamasca con ingredienti di produzione propria. La struttura è ideale per escursioni verso Bergamo Alta, le Orobie e i borghi della Val Seriana, offrendo un soggiorno autentico tra natura e gastronomia lombarda.
+L'Agriturismo Cà Fenile sorge sulle colline di Alzano Lombardo, all'imbocco della Val Seriana e a breve distanza da Bergamo. Immerso nel verde, l'agriturismo offre camere ed appartamenti arredati in stile montano e rustico, provvisti di riscaldamento, Wi-Fi gratuito e bagno privato. Il ristorante propone specialità bergamasche preparate con ingredienti a km 0.
 
 Description (English):
-Agriturismo Cà Fenile is set in Alzano Lombardo near Bergamo, in a renovated farmhouse surrounded by meadows and woods. Welcoming rooms feature private bathrooms, heating, and Wi-Fi. The kitchen serves Bergamo tradition with estate-grown ingredients. It is ideal for excursions to Bergamo Alta, the Orobie Alps, and Val Seriana villages, offering an authentic stay amid nature and Lombard cuisine.
+Agriturismo Cà Fenile is located on the hills of Alzano Lombardo, at the entrance of Val Seriana and close to Bergamo. Surrounded by greenery, this farm stay features rustic rooms and apartments equipped with heating, free Wi-Fi, and private bathrooms. The restaurant serves authentic regional specialties made with home-grown ingredients.
 
-Servizi / Amenities: Ristorante agriturismo, Prodotti propri, Wi-Fi, Parcheggio, Giardino
+Servizi / Amenities: Ristorante con cucina bergamasca, Wi-Fi gratuito, Parcheggio gratuito, Vista panoramica, Giardino
 
 Punti di interesse / Nearby Attractions:
 
-* Bergamo Alta: ~6 km
-* Milano: ~45 km
-* Lago d'Iseo: ~30 km
+* Bergamo Alta: ~8 km
+* Ciclovia della Val Seriana: ~2 km
+* Nembro: ~4 km
 
-Target ideale: Coppie, Turisti enogastronomici, Escursionisti
+Target ideale: Coppie, Amanti della natura e della buona tavola, Escursionisti
 
 ---
 
@@ -737,20 +731,20 @@ Website: http://www.cascinadimezzo.it/
 Email:
 
 Descrizione (Italiano):
-L'Agriturismo Cascina di Mezzo si trova a Liscate, nella campagna milanese orientale, a breve distanza da Milano e dall'aeroporto di Linate. La cascina storica offre camere rustiche e confortevoli con bagno privato, Wi-Fi e colazione con prodotti a km zero. Il ristorante serve cucina lombarda e piatti di stagione. È una scelta strategica per chi visita Milano, l'Expo area e i parchi del Ticino, preferendo il relax della campagna al caos cittadino.
+L'Agriturismo Cascina di Mezzo si trova a Liscate, immerso nel Parco Agricolo Sud Milano. La struttura offre un'oasi di pace rurale a breve distanza dalla metropoli milanese, proponendo camere accoglienti curate nei dettagli con Wi-Fi, aria condizionata, riscaldamento e bagno privato. Il rinomato ristorante propone menù stagionali della tradizione lombarda.
 
 Description (English):
-Agriturismo Cascina di Mezzo is located in Liscate in eastern Milan's countryside, close to Milan and Linate Airport. The historic farmhouse offers rustic, comfortable rooms with private bathrooms, Wi-Fi, and farm-to-table breakfast. The restaurant serves Lombard cuisine and seasonal dishes. It is a strategic choice for visiting Milan, the Expo area, and Ticino parks while preferring countryside calm over urban bustle.
+Agriturismo Cascina di Mezzo is situated in Liscate, nestled within the South Milan Agricultural Park. Offering a countryside retreat near Milan, it features cozy rooms with Wi-Fi, air conditioning, heating, and private bathrooms. The well-known restaurant serves seasonal traditional Lombard dishes.
 
-Servizi / Amenities: Ristorante, Colazione a km zero, Wi-Fi, Parcheggio, Prodotti agricoli
+Servizi / Amenities: Ristorante con cucina tipica lombarda, Wi-Fi gratuito, Parcheggio gratuito, Giardino, Aria condizionata
 
 Punti di interesse / Nearby Attractions:
 
-* Milano centro: ~15 km
-* Aeroporto Linate: ~10 km
-* Parco del Ticino: ~20 km
+* Milano Centro: ~20 km
+* Idroscalo di Milano: ~12 km
+* Aeroporto di Milano Linate: ~14 km
 
-Target ideale: Viaggiatori d'affari, Famiglie, Turisti tra Milano e campagna
+Target ideale: Famiglie, Lavoratori in cerca di relax, Turisti rurale
 
 ---
 
@@ -765,20 +759,20 @@ Website: https://www.bed-and-breakfast.it/it/lombardia/la-casa-del-nonno-cremona
 Email:
 
 Descrizione (Italiano):
-La Casa del Nonno è un bed & breakfast accogliente alle porte di Cremona, in un'atmosfera familiare che richiama la tradizione padana. Le camere confortevoli dispongono di bagno privato, Wi-Fi gratuito, aria condizionata e TV. La colazione abbondante include dolci fatti in casa e prodotti locali. La posizione consente di raggiungere facilmente il centro di Cremona con il violino di Stradivari, il Torrazzo e le dimore storiche, offrendo un'ospitalità calorosa a prezzi contenuti.
+Il B&B La Casa del Nonno si trova nelle immediate vicinanze di Cremona, situato nella frazione di Battaglione. La struttura garantisce un ambiente familiare e tranquillo, offrendo camere spaziose fornite di Wi-Fi gratuito, riscaldamento, TV e bagno privato. La comoda posizione consente di raggiungere rapidamente il centro storico della città del violino.
 
 Description (English):
-La Casa del Nonno is a welcoming B&B near Cremona in a family atmosphere evoking Padanian tradition. Comfortable rooms feature private bathrooms, free Wi-Fi, air conditioning, and TV. A hearty breakfast includes homemade pastries and local products. The location provides easy access to Cremona's center with Stradivari violins, the Torrazzo tower, and historic mansions, offering warm hospitality at modest prices.
+B&B La Casa del Nonno is located just outside Cremona, in the hamlet of Battaglione. The bed & breakfast offers a quiet family atmosphere with spacious rooms equipped with free Wi-Fi, heating, TV, and private bathrooms. Its location provides easy driving access to Cremona's historic violin-making center.
 
-Servizi / Amenities: Colazione casalinga, Wi-Fi gratuito, Aria condizionata, Atmosfera familiare, Parcheggio
+Servizi / Amenities: Wi-Fi gratuito, Parcheggio gratuito, Riscaldamento, TV, Bagno privato, Colazione inclusa
 
 Punti di interesse / Nearby Attractions:
 
-* Centro di Cremona: ~3 km
-* Museo del Violino: ~3.5 km
-* Torrazzo di Cremona: ~3.5 km
+* Museo del Violino (Cremona): ~4 km
+* Duomo di Cremona e Torrazzo: ~4.5 km
+* Fiera di Cremona: ~6 km
 
-Target ideale: Turisti culturali, Coppie, Viaggiatori economici
+Target ideale: Coppie, Turisti culturali, Lavoratori di passaggio
 
 ---
 
@@ -793,20 +787,20 @@ Website: http://www.ilfeudoresort.it/
 Email:
 
 Descrizione (Italiano):
-Il Feudo di Agnadello è un hotel e centro eventi in una dimora storica della pianura cremonese, circondata da parco e campi. Le camere eleganti offrono aria condizionata, Wi-Fi, TV e bagno privato. La struttura dispone di ristorante, sale per matrimoni e conferenze, parcheggio e giardino. La posizione tra Milano, Cremona e la Bergamasca lo rende adatto a cerimonie, meeting aziendali e soggiorni di charme alla scoperta della storia della Battaglia di Agnadello e del patrimonio lombardo.
+Il Feudo di Agnadello è un'elegante struttura ricettiva ed evento resort situata ad Agnadello, nella campagna cremasca al confine tra le province di Cremona, Bergamo e Milano. Immerso in un grande parco curato, dispone di camere eleganti e suites dotate di aria condizionata, Wi-Fi ad alta velocità, TV a schermo piatto, minibar e bagno privato. La struttura è rinomata come location per matrimoni, banchetti e meeting d'affari.
 
 Description (English):
-Il Feudo di Agnadello is a hotel and events venue in a historic manor on the Cremona plain, surrounded by parkland and fields. Elegant rooms feature air conditioning, Wi-Fi, TV, and private bathrooms. Facilities include a restaurant, wedding and conference halls, parking, and gardens. Its position between Milan, Cremona, and Bergamo suits ceremonies, corporate meetings, and charming stays exploring the Battle of Agnadello history and Lombard heritage.
+Il Feudo di Agnadello is an elegant hotel and event resort located in Agnadello, set in the countryside between Cremona, Bergamo, and Milan. Set within a large private park, it features stylish rooms and suites with air conditioning, high-speed Wi-Fi, flat-screen TV, minibar, and private bathrooms. The venue is widely known for hosting weddings, banquets, and corporate meetings.
 
-Servizi / Amenities: Ristorante, Sale eventi, Giardino, Parcheggio, Wi-Fi, Aria condizionata
+Servizi / Amenities: Parco e Giardino, Ristorante ed Eventi, Wi-Fi gratuito, Parcheggio privato gratuito, Aria condizionata, Sala ricevimenti
 
 Punti di interesse / Nearby Attractions:
 
-* Agnadello centro: ~1 km
-* Crema: ~15 km
-* Milano: ~40 km
+* Treviglio: ~8 km
+* Crema Centro: ~18 km
+* Parco della Preistoria (Rivolta d'Adda): ~5 km
 
-Target ideale: Sposi, Eventi aziendali, Coppie in cerca di charme storico
+Target ideale: Coppie, Partecipanti ad eventi/matrimoni, Viaggiatori d'affari
 
 ---
 
@@ -821,20 +815,20 @@ Website: https://discovergerace.it/albergo-sant-anna/
 Email:
 
 Descrizione (Italiano):
-L'Albergo Palazzo Sant'Anna sorge nel borgo medievale di Gerace, uno dei centri storici più affascinanti della Calabria, patrimonio UNESCO. Le camere, ricavate in un palazzo d'epoca, offrono vista panoramica sulla valle, aria condizionata, Wi-Fi e bagno privato. La struttura conserva elementi architettonici originali e un'atmosfera senza tempo. La posizione nel cuore del centro storico permette di esplorare a piedi chiese bizantine, vicoli in pietra e belvedere sullo Ionio, a pochi chilometri dalle spiagge di Locri e Siderno.
+L'Albergo Palazzo Sant'Anna sorge nel centro storico di Gerace, uno dei borghi più belli d'Italia situato sulle alture della Locride. Ricavato da un antico palazzo nobiliare ristrutturato, l'hotel offre sistemazioni suggestive con arredi classici, Wi-Fi gratuito, climatizzazione, TV e bagno privato. La vista sulle colline e sul mare Jonio arricchisce il soggiorno in questa perla d'arte medievale.
 
 Description (English):
-Albergo Palazzo Sant'Anna is set in the medieval town of Gerace, one of Calabria's most fascinating historic centers and a UNESCO site. Rooms within a period palace offer panoramic valley views, air conditioning, Wi-Fi, and private bathrooms. The property preserves original architectural elements and a timeless atmosphere. Its heart-of-town location allows walking exploration of Byzantine churches, stone alleys, and Ionian viewpoints, with beaches of Locri and Siderno nearby.
+Albergo Palazzo Sant'Anna is located in the historic center of Gerace, one of Italy's most beautiful medieval hilltop villages in the Locride area. Housed in a restored noble palace, the hotel offers charming rooms with classic decor, free Wi-Fi, air conditioning, TV, and private bathrooms, accompanied by views of the hills and the Ionian Sea.
 
-Servizi / Amenities: Palazzo storico, Vista panoramica, Wi-Fi, Aria condizionata, Posizione nel borgo antico
+Servizi / Amenities: Dimora storica, Wi-Fi gratuito, Aria condizionata, Riscaldamento, Vista panoramica, Bar
 
 Punti di interesse / Nearby Attractions:
 
-* Centro storico di Gerace: ~0.1 km
-* Locri: ~10 km
-* Costa ionica: ~12 km
+* Cattedrale di Gerace: ~0.3 km
+* Castello Normanno di Gerace: ~0.4 km
+* Locri e Costa dei Gelsomini: ~10 km
 
-Target ideale: Turisti culturali, Coppie, Amanti dei borghi medievali
+Target ideale: Coppie, Turisti culturali, Amanti dei borghi storici
 
 ---
 
@@ -849,20 +843,20 @@ Website: https://www.hotelscheck-in.com/hoteldarocco-rc/it/
 Email:
 
 Descrizione (Italiano):
-L'Albergo Ristorante da Rocco si trova a Marina di Gioiosa Ionica, a pochi passi dalla spiaggia della Locride. Le camere semplici e pulite dispongono di aria condizionata, TV, bagno privato e Wi-Fi. Il ristorante interno è rinomato per la cucina di pesce fresco e i piatti della tradizione calabrese. La gestione familiare garantisce un'accoglienza calorosa. È la base ideale per vacanze al mare, escursioni a Gerace, Aspromonte e le spiagge della Costa dei Gelsomini.
+L'Albergo Ristorante Da Rocco è situato a Marina di Gioiosa Ionica, a pochi minuti a piedi dal lungomare e dalle spiagge della Costa dei Gelsomini. Le camere sono accoglienti e provviste di aria condizionata, Wi-Fi gratuito, TV e bagno privato. Il ristorante interno è celebre nella zona per la preparazione di piatti della tradizione marinara calabrese con pesce fresco.
 
 Description (English):
-Albergo Ristorante da Rocco is located in Marina di Gioiosa Ionica, steps from the Locride beach. Simple, clean rooms feature air conditioning, TV, private bathroom, and Wi-Fi. The on-site restaurant is renowned for fresh seafood and traditional Calabrian dishes. Family management ensures warm hospitality. It is an ideal base for beach holidays and excursions to Gerace, Aspromonte, and the Jasmine Coast.
+Albergo Ristorante Da Rocco is set in Marina di Gioiosa Ionica, a short walk from the seafront promenade and beaches of the Jasmine Coast. Guest rooms are comfortable and equipped with air conditioning, free Wi-Fi, TV, and private bathrooms. The on-site restaurant is widely popular locally for serving traditional Calabrian seafood dishes made with fresh catches.
 
-Servizi / Amenities: Ristorante di pesce, Vicinanza al mare, Wi-Fi, Aria condizionata, Gestione familiare
+Servizi / Amenities: Ristorante specialità pesce, Wi-Fi gratuito, Aria condizionata, Vicinanza al mare, TV, Parcheggio
 
 Punti di interesse / Nearby Attractions:
 
-* Spiaggia di Marina di Gioiosa: ~0.2 km
-* Gerace: ~8 km
-* Locri: ~15 km
+* Lungomare di Marina di Gioiosa Ionica: ~0.3 km
+* Torre Cavallara: ~0.8 km
+* Roccella Ionica: ~8 km
 
-Target ideale: Turisti balneari, Famiglie, Amanti della cucina di mare
+Target ideale: Famiglie, Turisti balneari, Amanti della cucina di mare
 
 ---
 
@@ -877,20 +871,20 @@ Website: http://camumidha.it/
 Email:
 
 Descrizione (Italiano):
-Il B&B Camumidha è un bed & breakfast nel centro storico di Gerace, in un palazzo restaurato con terrazza panoramica sulla valle dell'Angitola. Le camere accoglienti offrono bagno privato, aria condizionata, Wi-Fi e arredi in stile locale. La colazione preparata con cura presenta specialità calabresi. La posizione nel borgo medievale consente di vivere l'atmosfera autentica di Gerace, visitare le chiese bizantine e raggiungere le spiagge ioniche in breve tragitto.
+Il B&B Camumidha si trova nel borgo medievale di Gerace. Offre sistemazioni accoglienti e luminose impreziosite da dettagli caratteristici in pietra e legno, dotate di connessione Wi-Fi gratuita, riscaldamento, aria condizionata e bagno privato. La struttura garantisce un'atmosfera serena e familiare, ideale per immergersi nelle tradizioni e nella storia della Locride.
 
 Description (English):
-B&B Camumidha is a bed & breakfast in Gerace's historic center, in a restored building with a panoramic terrace over the Angitola valley. Welcoming rooms feature private bathrooms, air conditioning, Wi-Fi, and local-style furnishings. A carefully prepared breakfast showcases Calabrian specialties. Its medieval village location allows guests to experience authentic Gerace, visit Byzantine churches, and reach Ionian beaches within a short drive.
+B&B Camumidha is located in the medieval village of Gerace. It provides bright and cozy rooms adorned with traditional stone and wood accents, complete with free Wi-Fi, heating, air conditioning, and private bathrooms. The B&B offers a warm, peaceful environment to experience local history and heritage.
 
-Servizi / Amenities: Terrazza panoramica, Colazione tipica, Wi-Fi, Aria condizionata, Borgo storico
+Servizi / Amenities: Wi-Fi gratuito, Aria condizionata, Riscaldamento, Colazione inclusa, Bagno privato
 
 Punti di interesse / Nearby Attractions:
 
-* Duomo di Gerace: ~0.2 km
-* Costa ionica: ~12 km
-* Locri: ~10 km
+* Centro Storico di Gerace: ~0.2 km
+* Piazza del Tocco: ~0.3 km
+* Parco Nazionale dell'Aspromonte: ~15 km
 
-Target ideale: Coppie, Turisti culturali, Amanti dei borghi antichi
+Target ideale: Coppie, Turisti culturali, Viaggiatori individuali
 
 ---
 
@@ -905,20 +899,20 @@ Website: http://la-vecchia-stazione.com.es/
 Email:
 
 Descrizione (Italiano):
-Il B&B La Vecchia Stazione sorge a Gioiosa Ionica, in un edificio che richiama l'antica stazione ferroviaria della Locride. Le camere confortevoli dispongono di bagno privato, aria condizionata, Wi-Fi e TV. La colazione è servita in un ambiente dal fascino retrò. La posizione consente di raggiungere facilmente le spiagge della Costa dei Gelsomini, il centro di Gioiosa e le località balneari di Locri e Siderno, con un'accoglienza familiare e prezzi accessibili.
+Il B&B La Vecchia Stazione sorge a Gioiosa Ionica, cittadina situata tra l'entroterra dell'Aspromonte e il mare Jonio. La struttura offre sistemazioni ampie e pulite dotate di riscaldamento, climatizzazione, Wi-Fi gratuito, TV e bagno privato. L'ambiente familiare e la posizione comoda consentono di esplorare sia la costa che i paesi dell'entroterra reggino.
 
 Description (English):
-B&B La Vecchia Stazione is located in Gioiosa Ionica in a building evoking the old Locride railway station. Comfortable rooms feature private bathrooms, air conditioning, Wi-Fi, and TV. Breakfast is served in a charming retro setting. The location provides easy access to Jasmine Coast beaches, Gioiosa center, and seaside towns of Locri and Siderno, with family hospitality and affordable rates.
+B&B La Vecchia Stazione is situated in Gioiosa Ionica, positioned between Aspromonte's hills and the Ionian Coast. The B&B offers spacious, clean rooms with heating, air conditioning, free Wi-Fi, TV, and private bathrooms. Warm hospitality makes it an easy base to explore both local beaches and inland historical towns.
 
-Servizi / Amenities: Tema ferroviario, Colazione, Wi-Fi, Aria condizionata, Parcheggio
+Servizi / Amenities: Wi-Fi gratuito, Parcheggio gratuito nelle vicinanze, Aria condizionata, Riscaldamento, TV
 
 Punti di interesse / Nearby Attractions:
 
-* Spiaggia di Gioiosa Ionica: ~1 km
-* Locri: ~8 km
-* Gerace: ~12 km
+* Centro Storico di Gioiosa Ionica: ~0.5 km
+* Castello Normanno di Gioiosa: ~0.8 km
+* Marina di Gioiosa Ionica (Spiaggia): ~5 km
 
-Target ideale: Famiglie, Coppie, Turisti della Costa ionica
+Target ideale: Coppie, Turisti itineranti, Lavoratori di passaggio
 
 ---
 
@@ -933,20 +927,20 @@ Website: https://www.booking.com/hotel/it/penisola-verde-b-amp-b.it.html
 Email:
 
 Descrizione (Italiano):
-Il B&B Penisola Verde si trova nella contrada Prologo, sopra Locri, immerso nel verde con vista sulla costa ionica. Le camere semplici e luminose offrono bagno privato, aria condizionata, Wi-Fi e terrazza panoramica. La colazione con prodotti locali prepara gli ospiti per le giornate al mare. La posizione collinare garantisce tranquillità e brevi distanze dalle spiagge di Locri, dal Parco archeologico di Locri Epizefiri e dalle località della Locride.
+Il B&B Penisola Verde sorge in Contrada Prologo a Locri, immerso nella quiete della campagna collinare a breve distanza dalla costa e dagli scavi archeologici di Locri Epizefiri. La struttura offre camere spaziose e luminose dotate di connessione Wi-Fi, climatizzazione, riscaldamento e bagno privato, con vista panoramica sul verde e sul mare.
 
 Description (English):
-B&B Penisola Verde is located in Contrada Prologo above Locri, surrounded by greenery with views over the Ionian coast. Simple, bright rooms feature private bathrooms, air conditioning, Wi-Fi, and a panoramic terrace. Breakfast with local products prepares guests for beach days. The hillside location ensures tranquility while keeping short distances to Locri beaches, the Locri Epizephyrii archaeological park, and Locride towns.
+B&B Penisola Verde is located in Contrada Prologo in Locri, surrounded by quiet countryside near the coast and the Locri Epizefiri archaeological park. The property offers spacious, bright rooms equipped with Wi-Fi, air conditioning, heating, and private bathrooms, featuring scenic views of surrounding hills and the sea.
 
-Servizi / Amenities: Vista panoramica, Terrazza, Colazione, Wi-Fi, Aria condizionata, Giardino
+Servizi / Amenities: Wi-Fi gratuito, Parcheggio privato gratuito, Giardino, Aria condizionata, Vista panoramica
 
 Punti di interesse / Nearby Attractions:
 
-* Spiaggia di Locri: ~3 km
-* Parco archeologico Locri: ~5 km
-* Gerace: ~10 km
+* Parco Archeologico di Locri Epizefiri: ~3 km
+* Lungomare di Locri: ~2.5 km
+* Gerace: ~8 km
 
-Target ideale: Coppie, Turisti balneari, Amanti della natura
+Target ideale: Amanti della natura, Coppie, Turisti culturali
 
 ---
 
@@ -961,17 +955,17 @@ Website: https://www.booking.com/hotel/it/bed-in-italy.it.html
 Email:
 
 Descrizione (Italiano):
-Bed in Italy Siderno offre appartamenti e camere nel centro di Siderno, cittadina della Locride affacciata sullo Ionio. Gli alloggi sono funzionali e dotati di cucina o angolo cottura, Wi-Fi, aria condizionata e bagno privato. La posizione centrale consente di raggiungere a piedi il lungomare, i negozi e i ristoranti. È una soluzione pratica per soggiorni più lunghi, famiglie e viaggiatori che desiderano esplorare la Costa dei Gelsomini, Locri, Gerace e le spiagge della provincia di Reggio Calabria.
+Bed in Italy Siderno si trova nel centro abitato di Siderno, a soli 500 metri dal lungomare e dalle spiagge della Costa dei Gelsomini. Le sistemazioni sono moderne, ben allestite e provviste di aria condizionata, connessione Wi-Fi ad alta velocità, TV a schermo piatto e bagno privato. La vicinanza alla stazione ferroviaria rende la struttura un punto d'appoggio pratico ed efficiente.
 
 Description (English):
-Bed in Italy Siderno offers apartments and rooms in central Siderno, a Locride town on the Ionian Sea. Functional accommodations include kitchen or kitchenette, Wi-Fi, air conditioning, and private bathroom. The central location allows walking access to the seafront, shops, and restaurants. It is a practical choice for longer stays, families, and travelers exploring the Jasmine Coast, Locri, Gerace, and Reggio Calabria province beaches.
+Bed in Italy Siderno is set in central Siderno, just 500 meters from the beach and seafront promenade along the Jasmine Coast. Rooms are modernly equipped with air conditioning, high-speed Wi-Fi, flat-screen TV, and private bathrooms. Its close proximity to the railway station makes it a highly convenient base.
 
-Servizi / Amenities: Angolo cottura/Cucina, Wi-Fi, Aria condizionata, Posizione centrale, Bagno privato
+Servizi / Amenities: Wi-Fi ad alta velocità, Aria condizionata, TV a schermo piatto, Bagno privato, Posizione centrale
 
 Punti di interesse / Nearby Attractions:
 
-* Lungomare di Siderno: ~0.3 km
-* Locri: ~12 km
-* Gerace: ~15 km
+* Lungomare e Spiaggia di Siderno: ~0.5 km
+* Stazione di Siderno: ~0.4 km
+* Siderno Superiore: ~3.5 km
 
-Target ideale: Famiglie, Soggiorni lunghi, Turisti della Costa ionica
+Target ideale: Coppie, Turisti balneari, Viaggiatori in treno e per lavoro
