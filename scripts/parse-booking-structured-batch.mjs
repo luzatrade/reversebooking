@@ -35,7 +35,8 @@ function parseSections(text) {
     if (!idMatch) continue;
 
     const slugMatch = section.match(/^Slug:\s*(.+)$/im);
-    const emailMatch = section.match(/^Email:\s*(.*)$/im);
+    // \s* must not cross lines — otherwise empty Email: absorbs "Descrizione (Italiano):"
+    const emailMatch = section.match(/^Email:\s*([^\n\r]*)$/im);
     const addrMatch = section.match(/^Indirizzo:\s*(.+)$/im);
 
     const itMatch = section.match(
@@ -48,7 +49,12 @@ function parseSections(text) {
     const description = itMatch ? itMatch[1].trim() : null;
     const description_en = enMatch ? enMatch[1].trim() : null;
     const emailRaw = emailMatch?.[1]?.trim() ?? "";
-    const email = emailRaw && !/^vuoto|—|-$/i.test(emailRaw) ? emailRaw : undefined;
+    const email =
+      emailRaw &&
+      !/^vuoto|—|-$/i.test(emailRaw) &&
+      /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailRaw)
+        ? emailRaw
+        : undefined;
 
     if (!description) {
       console.warn(`Skip ${idMatch[1]}: no IT description`);
