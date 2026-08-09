@@ -41,14 +41,16 @@ export function normalizePublicEmail(raw) {
     .toLowerCase()
     .replace(/^mailto:/i, "")
     .split("?")[0]
-    ?.trim();
+    ?.trim()
+    .replace(/^%20+/, "");
   if (!cleaned || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(cleaned)) return null;
   if (cleaned.length > 80) return null;
   const [local, domain] = cleaned.split("@");
   if (!local || !domain) return null;
   if (BLOCKED_DOMAINS.has(domain)) return null;
+  if (domain.includes("wixpress.com") || domain.includes("sentry")) return null;
   if (/\.(png|jpg|jpeg|gif|webp|svg|woff|css)$/i.test(domain)) return null;
-  if (/(noreply|no-reply|donotreply|unsubscribe|privacy|gdpr|newsletter|marketing|analytics|sentry)/i.test(local)) {
+  if (/(noreply|no-reply|donotreply|unsubscribe|privacy|gdpr|newsletter|marketing|analytics|sentry|wixpress)/i.test(local)) {
     return null;
   }
   return cleaned;
