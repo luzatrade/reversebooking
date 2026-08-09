@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+2556. Hotel New Genziana
+ID: 224e5e03-3d00-45a9-97d0-004a2c861670
+Slug: hotel-new-genziana-altavilla-vicentina
+Nome: Hotel New Genziana
+Comune / Provincia: Altavilla Vicentina
+Indirizzo: Via G. Mazzini, 75, 36077 Altavilla Vicentina VI
+Coordinate: Lat 45.495713, Lng 11.452133
+Website: http://hotelnewgenziana.com/
+Email: 
+
+2557. Key Hotel Vicenza
+ID: d55a8f3c-f8eb-40e2-ab54-08eaa0b04c72
+Slug: key-hotel-vicenza-altavilla-vicentina
+Nome: Key Hotel Vicenza
+Comune / Provincia: Altavilla Vicentina
+Indirizzo: V.le G. Trissino, 89, 36100 Vicenza VI
+Coordinate: Lat 45.545042, Lng 11.557356
+Website: http://www.key-hotel.it/
+Email: 
+
+2558. L'Abbraccio della Vigna - Alloggio Agrituristico - Agriturismo
+ID: f06c4b6b-7f48-44bf-ad22-daafdfa0c72f
+Slug: l-abbraccio-della-vigna-alloggio-agrituristico-a-altavilla-vicentina
+Nome: L'Abbraccio della Vigna - Alloggio Agrituristico - Agriturismo
+Comune / Provincia: Altavilla Vicentina
+Indirizzo: Via Selva Alta, 1, 36075 Montecchio Maggiore VI
+Coordinate: Lat 45.49498, Lng 11.454373
+Website: https://www.abbracciodellavigna.it/
+Email: 
+
+2559. Locanda Degli Ulivi (Hotel e Ristorante sui Colli Berici) - Arcugnano (VI)
+ID: ae40e817-9893-4ecf-b4ad-13aa76f9fe2b
+Slug: locanda-degli-ulivi-hotel-e-ristorante-sui-colli-altavilla-vicentina
+Nome: Locanda Degli Ulivi (Hotel e Ristorante sui Colli Berici) - Arcugnano (VI)
+Comune / Provincia: Altavilla Vicentina
+Indirizzo: Via S. Giustina, 6, 36057 Arcugnano VI
+Coordinate: Lat 45.495644, Lng 11.528284
+Website: https://www.locandadegliulivi.com/
+Email: 
+
+2560. Ostello Olimpico Vicenza
+ID: d0e72b49-f288-49b1-84a2-68a84023f25f
+Slug: ostello-olimpico-vicenza-altavilla-vicentina
+Nome: Ostello Olimpico Vicenza
+Comune / Provincia: Altavilla Vicentina
+Indirizzo: Viale Antonio Giuriolo, 7/9, 36100 Vicenza VI
+Coordinate: Lat 45.54846, Lng 11.55017
+Website: https://www.ostellovicenza.com/
+Email: 
+
+2561. Palace Hotel La Conchiglia d'Oro
+ID: 189b56d5-8a86-4ac1-9a68-376f7d69ad36
+Slug: palace-hotel-la-conchiglia-d-oro-altavilla-vicentina
+Nome: Palace Hotel La Conchiglia d'Oro
+Comune / Provincia: Altavilla Vicentina
+Indirizzo: Via Bassano, 7, 36100 Vicenza VI
+Coordinate: Lat 45.542801, Lng 11.558638
+Website: http://www.palacehotelvicenza.it/
+Email: 
+
+2562. Ristorante Crichelon
+ID: 6f560b43-de4b-490d-8efd-c21ed1f3265e
+Slug: ristorante-crichelon-altavilla-vicentina
+Nome: Ristorante Crichelon
+Comune / Provincia: Altavilla Vicentina
+Indirizzo: Via Napoleone Bonaparte, 4, 36077 Altavilla Vicentina VI
+Coordinate: Lat 45.496956, Lng 11.490228
+Website: http://www.crichelon.com/
+Email: 
+
+2563. SHG Hotel De La Ville
+ID: 9faa12ce-a72a-4095-a92e-02fdb2403491
+Slug: shg-hotel-de-la-ville-altavilla-vicentina
+Nome: SHG Hotel De La Ville
+Comune / Provincia: Altavilla Vicentina
+Indirizzo: Viale Verona, 12, 36100 Vicenza VI
+Coordinate: Lat 45.542936, Lng 11.528225
+Website: https://www.hoteldelavillevicenza.com/?utm_source=GB&utm_medium=organic
+Email: 
+
+2564. Valmarana Morosini Hotel
+ID: 6201939a-02cd-4737-aef5-b0d6c381d609
+Slug: valmarana-morosini-hotel-altavilla-vicentina
+Nome: Valmarana Morosini Hotel
+Comune / Provincia: Altavilla Vicentina
+Indirizzo: Via G. Marconi, 97, 36077 Altavilla Vicentina VI
+Coordinate: Lat 45.509142, Lng 11.467394
+Website: http://www.valmaranamorosinihotel.it/
+Email: 
+
+2565. Villa Valmarana De Toni-Dimora Storica
+ID: 6aedce70-0fd6-4b0b-9459-e6413e99d8c8
+Slug: villa-valmarana-de-toni-dimora-storica-altavilla-vicentina
+Nome: Villa Valmarana De Toni-Dimora Storica
+Comune / Provincia: Altavilla Vicentina
+Indirizzo: villavalmaranadetoni@gmail.com, Via IV Novembre, 13, 36051 Creazzo VI
+Coordinate: Lat 45.534996, Lng 11.473187
+Website: http://villavalmaranadetoni.it/?utm_source=gmb&utm_medium=referral
+Email: 
+
+2566. Acquarello
+ID: 0a55ac31-8b26-4d00-8a96-e499aff74ad8
+Slug: acquarello-altidona
+Nome: Acquarello
+Comune / Provincia: Altidona
+Indirizzo: Contrada Acquarello, 10/11, 63868 Lapedona FM
+Coordinate: Lat 43.115178, Lng 13.79315
+Website: http://www.acquarellorestaurant.it/
+Email: 
+
+2567. Agriturismo La Pieve
+ID: 738b2953-b3d6-4415-bec5-490edbfd434c
+Slug: agriturismo-la-pieve-altidona
+Nome: Agriturismo La Pieve
+Comune / Provincia: Altidona
+Indirizzo: Contrada latrocella, 11, 63873 Altidona FM
+Coordinate: Lat 43.101609, Lng 13.801473
+Website: https://www.agriturismolapieve.net/
+Email: 
+
+2568. Alba sul Mare Guest House
+ID: b75165ed-1bdf-4d64-9bc0-d33a095ed71d
+Slug: alba-sul-mare-guest-house-altidona
+Nome: Alba sul Mare Guest House
+Comune / Provincia: Altidona
+Indirizzo: Contrada Montecantino, 47/a, 63061 Massignano AP
+Coordinate: Lat 43.058189, Lng 13.849577
+Website: https://bbalbasulmare.it/
+Email: 
+
+2569. B&B La poeta- vicino A14 Pedaso
+ID: 013d8130-e472-49fb-befa-bf41847c5bb5
+Slug: b-b-la-poeta-vicino-a14-pedaso-altidona
+Nome: B&B La poeta- vicino A14 Pedaso
+Comune / Provincia: Altidona
+Indirizzo: Contrada Valdaso, 58, 63861 Campofilone FM
+Coordinate: Lat 43.082236, Lng 13.795878
+Website: https://beb.it/bblapoeta
+Email: 
+
+2570. B&B Vicolo Fiorito
+ID: bea4cd0d-879b-4706-961a-1c969fcbbd31
+Slug: b-b-vicolo-fiorito-altidona
+Nome: B&B Vicolo Fiorito
+Comune / Provincia: Altidona
+Indirizzo: Vicolo Matteo Barabucci, 1, 63873 Altidona FM
+Coordinate: Lat 43.107241, Lng 13.794779
+Website: https://www.facebook.com/BB-Vicolo-Fiorito-224121358183447/?modal=admin_todo_tour
+Email: 
+
+2571. Bar Hotel Caprice
+ID: 7a8c63fc-517a-4932-a990-d357122e62f9
+Slug: bar-hotel-caprice-altidona
+Nome: Bar Hotel Caprice
+Comune / Provincia: Altidona
+Indirizzo: Via Aprutina, 43/47, 63873 Altidona FM
+Coordinate: Lat 43.105118, Lng 13.835939
+Website: —
+Email: 
+
+2572. Bed & Breakfast Duchessa
+ID: 56a2e744-6e5c-4079-a3ba-e84f54ee6fbf
+Slug: bed-breakfast-duchessa-altidona
+Nome: Bed & Breakfast Duchessa
+Comune / Provincia: Altidona
+Indirizzo: Via Madonna Manù, 63868 Lapedona FM
+Coordinate: Lat 43.117079, Lng 13.796314
+Website: —
+Email: 
+
+2573. Bed and Breakfast CASAJO
+ID: bf3857ac-3814-47c2-99bb-ce5483de0c6b
+Slug: bed-and-breakfast-casajo-altidona
+Nome: Bed and Breakfast CASAJO
+Comune / Provincia: Altidona
+Indirizzo: Via Madonna Manù nr. 40, 63026 Lapedona AP
+Coordinate: Lat 43.117171, Lng 13.796403
+Website: —
+Email: 
+
+2574. Camping Garden River
+ID: 010b4801-337d-415c-891d-ba1e40bcad85
+Slug: camping-garden-river-altidona
+Nome: Camping Garden River
+Comune / Provincia: Altidona
+Indirizzo: Via Ottorino Respighi, 63873 Marina di Altidona FM
+Coordinate: Lat 43.101749, Lng 13.830902
+Website: https://www.gardenriver.it/?utm_source=google&utm_medium=mybusiness&utm_campaign=Google+MyBusiness&utm_content=gmb_site_link
+Email: 
+
+2575. Casa degli Archi
+ID: f8876c31-dc43-48c1-b8a9-5a71746a5036
+Slug: casa-degli-archi-altidona
+Nome: Casa degli Archi
+Comune / Provincia: Altidona
+Indirizzo: Via Madonna Manù, 41, 63868 Lapedona FM
+Coordinate: Lat 43.120746, Lng 13.799728
+Website: http://www.agriturismocasadegliarchi.com/
+Email: 
+
+2576. Dimora Villa Ricci
+ID: 713d198d-ce02-464c-ae4c-ebd0f3fc81f9
+Slug: dimora-villa-ricci-altidona
+Nome: Dimora Villa Ricci
+Comune / Provincia: Altidona
+Indirizzo: Via Guglielmo Marconi, 20, 63827 Pedaso FM
+Coordinate: Lat 43.095641, Lng 13.84426
+Website: http://www.dimoravillaricci.it/
+Email: 
+
+2577. Hotel Palmensis
+ID: 84ba3e06-cd0d-4faa-889c-233c640b9f58
+Slug: hotel-palmensis-altidona
+Nome: Hotel Palmensis
+Comune / Provincia: Altidona
+Indirizzo: Via della Stazione, 56, 63900 Fermo FM
+Coordinate: Lat 43.148053, Lng 13.814554
+Website: https://www.palmensis.it/
+Email: 
+
+2578. Hotel Ristorante Rivamare
+ID: 414b45d2-69a1-4769-ba74-f7af89256afb
+Slug: hotel-ristorante-rivamare-altidona
+Nome: Hotel Ristorante Rivamare
+Comune / Provincia: Altidona
+Indirizzo: Via Montecantino, 59, 63061 Marina di Massignano AP
+Coordinate: Lat 43.058273, Lng 13.850204
+Website: http://www.rivamare.it/
+Email: 
+
+2579. Hotel ristorante Valdaso
+ID: 102259e3-970f-45c5-b215-f5f7619c1eec
+Slug: hotel-ristorante-valdaso-altidona
+Nome: Hotel ristorante Valdaso
+Comune / Provincia: Altidona
+Indirizzo: Via Papa Giovanni XXIII, 22, 63827 Pedaso FM
+Coordinate: Lat 43.096562, Lng 13.837811
+Website: http://www.fata.it/
+Email: 
+
+2580. Il nido di Alice
+ID: c62a92d4-e071-4fd8-86da-a9a65d58d73c
+Slug: il-nido-di-alice-altidona
+Nome: Il nido di Alice
+Comune / Provincia: Altidona
+Indirizzo: Via Monti di Monterubbiano, 4, 63868 Lapedona FM
+Coordinate: Lat 43.096795, Lng 13.745365
+Website: —
+Email: 
+
+2581. La Sorgente Country House
+ID: 428a3d8f-e8cc-40d4-93b8-2c1896cbd1e3
+Slug: la-sorgente-country-house-altidona
+Nome: La Sorgente Country House
+Comune / Provincia: Altidona
+Indirizzo: Contrada Marezi, 36/a, 63061 Massignano AP
+Coordinate: Lat 43.054772, Lng 13.814591
+Website: http://countryhouselasorgente.it/
+Email: 
+
+2582. Monna Terra B&B
+ID: 42159642-c7e7-47ab-945c-95b3b7730f55
+Slug: monna-terra-b-b-altidona
+Nome: Monna Terra B&B
+Comune / Provincia: Altidona
+Indirizzo: Via Costa di Chiara 13/14, 63900 Torre di Palme FM
+Coordinate: Lat 43.130442, Lng 13.798375
+Website: http://www.monnaterra.com/
+Email: 
+
+2583. Podere Miray Agriturismo & Bottega
+ID: 141336d7-3f92-4b60-a827-ae03718eb10d
+Slug: podere-miray-agriturismo-bottega-altidona
+Nome: Podere Miray Agriturismo & Bottega
+Comune / Provincia: Altidona
+Indirizzo: SP35, 63900 Fermo FM
+Coordinate: Lat 43.126349, Lng 13.817481
+Website: http://www.poderemiray.it/
+Email: 
+
+2584. Riva Verde Camping Village Residence Acquapark
+ID: 6ab225f2-1c06-47d5-92b6-ff1f99258f0b
+Slug: riva-verde-camping-village-residence-acquapark-altidona
+Nome: Riva Verde Camping Village Residence Acquapark
+Comune / Provincia: Altidona
+Indirizzo: SS16, 63873 Altidona FM
+Coordinate: Lat 43.119192, Lng 13.830738
+Website: https://www.rivaverde.it/
+Email: 
+
+2585. Vicolo Malavolta 7 - Rooms and Suites
+ID: 323cd991-3e32-49fe-9ec4-8adfcad73cd7
+Slug: vicolo-malavolta-7-rooms-and-suites-altidona
+Nome: Vicolo Malavolta 7 - Rooms and Suites
+Comune / Provincia: Altidona
+Indirizzo: Largo Adriatico, 63873 Marina di Altidona FM
+Coordinate: Lat 43.104937, Lng 13.834641
+Website: https://www.vicolomalavolta.it/
+Email: 
+
+2586. Albergo - Residence Mistef
+ID: d6b14bd1-b2fa-4db8-bed2-d9560ecb3b16
+Slug: albergo-residence-mistef-altilia
+Nome: Albergo - Residence Mistef
+Comune / Provincia: Altilia
+Indirizzo: Vincolo Autostradale A3 29, 88042 Falerna CZ
+Coordinate: Lat 38.999379, Lng 16.133589
+Website: https://guestdesk.eu/hotel-mistef-falerna
+Email: 
+
+2587. Albergo Carpino
+ID: 0192925b-015a-4f45-881c-e04490ef3c57
+Slug: albergo-carpino-altilia
+Nome: Albergo Carpino
+Comune / Provincia: Altilia
+Indirizzo: Via Parisi, 34, 87050 Pian del Lago CS
+Coordinate: Lat 39.19902, Lng 16.314753
+Website: http://www.albergocarpino.it/
+Email: 
+
+2588. Azienda Agrituristica Montebeltrano
+ID: a6cbb3d4-f0ff-4920-ab54-3c6ea059a227
+Slug: azienda-agrituristica-montebeltrano-altilia
+Nome: Azienda Agrituristica Montebeltrano
+Comune / Provincia: Altilia
+Indirizzo: 87040 Montebeltrano CS
+Coordinate: Lat 39.197214, Lng 16.29425
+Website: —
+Email: 
+
+2589. B&B Calabria
+ID: e97a421a-5f17-48c3-9cf3-ff142e34f971
+Slug: b-b-calabria-altilia
+Nome: B&B Calabria
+Comune / Provincia: Altilia
+Indirizzo: Via Roma, 7, 87057 Scigliano CS
+Coordinate: Lat 39.127351, Lng 16.312356
+Website: http://www.bedandbreakfastcalabria.it/?utm_source=gmb
+Email: 
+
+2590. Georgerock
+ID: da48c263-51a0-414f-9071-28512a0431c5
+Slug: georgerock-altilia
+Nome: Georgerock
+Comune / Provincia: Altilia
+Indirizzo: via pietragiorgi, 8, 87034 Grimaldi CS
+Coordinate: Lat 39.125139, Lng 16.22427
+Website: —
+Email: 

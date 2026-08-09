@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+7771. Hotel Tirreno
+ID: 351e5105-b67f-49ea-90ba-3bb479751a6a
+Slug: hotel-tirreno-bassiano
+Nome: Hotel Tirreno
+Comune / Provincia: Bassiano
+Indirizzo: Via Lungomare, 4174, 04100 Latina LT
+Coordinate: Lat 41.406737, Lng 12.869879
+Website: https://www.hoteltirrenolatina.it/
+Email: 
+
+7772. Il Borgo Antico B&B Rocca Massima
+ID: 4b42d96d-cb4f-4e70-81dd-b78f0edf4d35
+Slug: il-borgo-antico-b-b-rocca-massima-bassiano
+Nome: Il Borgo Antico B&B Rocca Massima
+Comune / Provincia: Bassiano
+Indirizzo: Via S. Giuliano, 10, 04010 Rocca Massima LT
+Coordinate: Lat 41.679228, Lng 12.91918
+Website: —
+Email: 
+
+7773. Park Hotel
+ID: b5b1df2e-512a-461f-a784-8d38b36b59aa
+Slug: park-hotel-bassiano
+Nome: Park Hotel
+Comune / Provincia: Bassiano
+Indirizzo: Via dei Monti Lepini, 25, 04100 Latina LT
+Coordinate: Lat 41.458314, Lng 12.926801
+Website: https://www.parkhotel.it/
+Email: 
+
+7774. Spicchio di Luna
+ID: 04a9dcf4-8ea5-4bfe-8dec-3f8bff6982be
+Slug: spicchio-di-luna-bassiano
+Nome: Spicchio di Luna
+Comune / Provincia: Bassiano
+Indirizzo: Via Alessandro Manzoni, 14, 04014 Pontinia LT
+Coordinate: Lat 41.410985, Lng 13.037245
+Website: —
+Email: 
+
+7775. B&B Perbacco
+ID: 4707a925-bcb3-428d-b95e-b193018c57bc
+Slug: b-b-perbacco-bassignana
+Nome: B&B Perbacco
+Comune / Provincia: Bassignana
+Indirizzo: Via Mazzini, 7, 27020 Sartirana Lomellina PV
+Coordinate: Lat 45.113981, Lng 8.66653
+Website: http://bbperbacco.blogspot.com/
+Email: 
+
+7776. Hermoso Housing HH Valenza
+ID: fa35fea0-1d6c-44e3-854c-9dbbb6f4b778
+Slug: hermoso-housing-hh-valenza-bassignana
+Nome: Hermoso Housing HH Valenza
+Comune / Provincia: Bassignana
+Indirizzo: Corso Giuseppe Garibaldi, 61, 15048 Valenza AL
+Coordinate: Lat 45.01305, Lng 8.644736
+Website: https://www.hhsuite.com/it/rooms/808371.html
+Email: 
+
+7777. Hotel Motel 2 Tortona
+ID: 0a07fff5-f6f7-44c0-a1ee-6ba4ae423c11
+Slug: hotel-motel-2-tortona-bassignana
+Nome: Hotel Motel 2 Tortona
+Comune / Provincia: Bassignana
+Indirizzo: SP211, 14, 15057 Tortona AL
+Coordinate: Lat 44.939451, Lng 8.823991
+Website: https://www.motel2.it/
+Email: 
+
+7778. La Casetta
+ID: 633fc4ff-6961-414d-b6b3-09ed4c924bde
+Slug: la-casetta-bassignana
+Nome: La Casetta
+Comune / Provincia: Bassignana
+Indirizzo: Via Gustavo Bisoglio, 32bis, 15046 San Salvatore Monferrato AL
+Coordinate: Lat 44.99555, Lng 8.564998
+Website: https://beb.it/lacasettaaffittacamere
+Email: 
+
+7779. MA.MI
+ID: 50793486-5430-4369-b9bd-cf3d8d2e7fb4
+Slug: ma-mi-bassignana
+Nome: MA.MI
+Comune / Provincia: Bassignana
+Indirizzo: Via Cerchetta, 12, 15045 Sale AL
+Coordinate: Lat 44.957937, Lng 8.820992
+Website: —
+Email: 
+
+7780. Agriturismo Il Palazzetto
+ID: b3290f10-c9c3-44c6-a7e7-7b77aad65b9e
+Slug: agriturismo-il-palazzetto-bastia-mondov
+Nome: Agriturismo Il Palazzetto
+Comune / Provincia: Bastia Mondov�
+Indirizzo: borgata Palazzetto 18, 12060 Clavesana CN
+Coordinate: Lat 44.45805, Lng 7.907186
+Website: http://www.agriturismoilpalazzetto.it/
+Email: 
+
+7781. All' Ombra Del Castello
+ID: 29a2a49c-f728-40c2-b6fc-3b118fa250f4
+Slug: all-ombra-del-castello-bastia-mondov
+Nome: All' Ombra Del Castello
+Comune / Provincia: Bastia Mondov�
+Indirizzo: Via Molino, 60, 12060 Cigliè CN
+Coordinate: Lat 44.433921, Lng 7.927191
+Website: http://www.allombradelcastello.com/
+Email: 
+
+7782. Alpi del Mare
+ID: d8d7f1b7-c233-4e0e-9506-c2b0ca7b05c5
+Slug: alpi-del-mare-bastia-mondov
+Nome: Alpi del Mare
+Comune / Provincia: Bastia Mondov�
+Indirizzo: Piazza Mellano, 15, 12084 Mondovì CN
+Coordinate: Lat 44.395504, Lng 7.81951
+Website: http://www.hotelalpidelmare.it/
+Email: 
+
+7783. B&B Bricco della Guardia
+ID: 3ba7ad06-3080-4cea-847d-bd97b136bf4b
+Slug: b-b-bricco-della-guardia-bastia-mondov
+Nome: B&B Bricco della Guardia
+Comune / Provincia: Bastia Mondov�
+Indirizzo: Via A. Borsarelli, 37/a, 12080 Briaglia CN
+Coordinate: Lat 44.392403, Lng 7.890087
+Website: https://briccodellaguardia.wordpress.com/
+Email: 
+
+7784. B&B Bricco Fiore
+ID: 225f4c98-bd80-4bfe-9ad9-9d71d859d6fe
+Slug: b-b-bricco-fiore-bastia-mondov
+Nome: B&B Bricco Fiore
+Comune / Provincia: Bastia Mondov�
+Indirizzo: Via Niella Tanaro, 5, 12080 Briaglia CN
+Coordinate: Lat 44.403997, Lng 7.891481
+Website: http://www.briccofiore.it/
+Email: 
+
+7785. B&B HOTELS Park Hotel Mondovì
+ID: 4893d421-48cb-4138-8510-bcd9a3279a19
+Slug: b-b-hotels-park-hotel-mondovi-bastia-mondov
+Nome: B&B HOTELS Park Hotel Mondovì
+Comune / Provincia: Bastia Mondov�
+Indirizzo: Via Pietro Delvecchio, 2, 12084 Mondovì CN
+Coordinate: Lat 44.394201, Lng 7.819559
+Website: https://www.hotel-bb.com/it/hotel/mondovi?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext
+Email: 
+
+7786. B&B Torre in Langa
+ID: 949dc52c-0ac7-4acd-a425-3e0a2733dfd7
+Slug: b-b-torre-in-langa-bastia-mondov
+Nome: B&B Torre in Langa
+Comune / Provincia: Bastia Mondov�
+Indirizzo: Via Garibaldi, 67, 12061 Carrù CN
+Coordinate: Lat 44.481863, Lng 7.882152
+Website: http://www.torreinlanga.it/
+Email: 
+
+7787. B&B Vista Sulle Langhe
+ID: 2dc38dd0-d362-43fc-9078-e8764880788e
+Slug: b-b-vista-sulle-langhe-bastia-mondov
+Nome: B&B Vista Sulle Langhe
+Comune / Provincia: Bastia Mondov�
+Indirizzo: Via Roma, 1, 12061 Carrù CN
+Coordinate: Lat 44.47824, Lng 7.879145
+Website: http://www.vistalanghe.it/
+Email: 
+
+7788. Bed e Breakfast Casa La Preziosa Mondovì
+ID: beefb6d2-b7c6-4d5d-9959-5530e0549df9
+Slug: bed-e-breakfast-casa-la-preziosa-mondovi-bastia-mondov
+Nome: Bed e Breakfast Casa La Preziosa Mondovì
+Comune / Provincia: Bastia Mondov�
+Indirizzo: Str. Rifreddo, 67, 12084 Rifreddo CN
+Coordinate: Lat 44.44421, Lng 7.857706
+Website: https://www.facebook.com/Casa-La-Preziosa-Mondov%C3%AC-174315963087035/
+Email: 
+
+7789. ca' del magu
+ID: b9e3ce12-11d1-4930-a5f5-a122d9463aca
+Slug: ca-del-magu-bastia-mondov
+Nome: ca' del magu
+Comune / Provincia: Bastia Mondov�
+Indirizzo: via valmoretto, 9, 12080 San Michele Mondovì CN
+Coordinate: Lat 44.385622, Lng 7.907838
+Website: https://cadelmagu.it/
+Email: 
+
+7790. Casa Calleri
+ID: 00a2e768-0cd7-42b5-9d51-f9fda47c4239
+Slug: casa-calleri-bastia-mondov
+Nome: Casa Calleri
+Comune / Provincia: Bastia Mondov�
+Indirizzo: Via A. Borsarelli, 6, 12080 Briaglia CN
+Coordinate: Lat 44.395308, Lng 7.876624
+Website: http://www.casacalleri.it/
+Email: 
+
+7791. CASA REGINA MONTIS REGALIS
+ID: 4c76c4ea-247b-4fa9-97d7-f0ca015c8c7d
+Slug: casa-regina-montis-regalis-bastia-mondov
+Nome: CASA REGINA MONTIS REGALIS
+Comune / Provincia: Bastia Mondov�
+Indirizzo: Piazza Carlo Emanuele, 4, 12080 Vicoforte CN
+Coordinate: Lat 44.364335, Lng 7.862744
+Website: http://www.casareginamontisregalis.com/
+Email: 
+
+7792. Duchessa Margherita Chateau & Hotel
+ID: deb1ac6c-67f2-42fd-a676-69814920f303
+Slug: duchessa-margherita-chateau-hotel-bastia-mondov
+Nome: Duchessa Margherita Chateau & Hotel
+Comune / Provincia: Bastia Mondov�
+Indirizzo: Via S. Rocco, 29, 12080 Vicoforte CN
+Coordinate: Lat 44.364378, Lng 7.863842
+Website: http://duchessamargherita.it/
+Email: 
+
+7793. Hotel Portici
+ID: 9579c729-42b4-4ec2-b700-2bc164d808ab
+Slug: hotel-portici-bastia-mondov
+Nome: Hotel Portici
+Comune / Provincia: Bastia Mondov�
+Indirizzo: Piazza Carlo Emanuele, 47, 12080 Vicoforte Santuario CN
+Coordinate: Lat 44.362627, Lng 7.863475
+Website: http://hotel-portici.org.es/
+Email: 
+
+7794. Hotel Ristorante Palazzo Di Mezzo
+ID: 3bef4262-5a9d-48ad-b197-74faf6532e44
+Slug: hotel-ristorante-palazzo-di-mezzo-bastia-mondov
+Nome: Hotel Ristorante Palazzo Di Mezzo
+Comune / Provincia: Bastia Mondov�
+Indirizzo: Via Garibaldi, 4, 12061 Carrù CN
+Coordinate: Lat 44.480315, Lng 7.879381
+Website: http://www.palazzodimezzo.com/
+Email: 
+
+7795. I Perticali
+ID: 0bdbd35b-14e6-4539-abb0-dec5f3e786af
+Slug: i-perticali-bastia-mondov
+Nome: I Perticali
+Comune / Provincia: Bastia Mondov�
+Indirizzo: Via Generale Uberto Revelli, 2, 12061 Carrù CN
+Coordinate: Lat 44.480152, Lng 7.881615
+Website: http://www.iperticali.it/
+Email: 
+
+7796. La Rocca Residence
+ID: 0336a459-1b0b-4b1e-9ccb-2250deca8689
+Slug: la-rocca-residence-bastia-mondov
+Nome: La Rocca Residence
+Comune / Provincia: Bastia Mondov�
+Indirizzo: VICOLO DELLA ROCCA, 8, 12061 Carrù CN
+Coordinate: Lat 44.47913, Lng 7.880844
+Website: http://www.laroccadicarru.it/
+Email: 
+
+7797. Le Camere del Vascello d'Oro
+ID: ff5ac5c2-6d35-4afa-81b9-b847db1e82dd
+Slug: le-camere-del-vascello-d-oro-bastia-mondov
+Nome: Le Camere del Vascello d'Oro
+Comune / Provincia: Bastia Mondov�
+Indirizzo: Via Ospedale, 38, 12061 Carrù CN
+Coordinate: Lat 44.478455, Lng 7.877435
+Website: http://www.vascellodoro.it/
+Email: 
+
+7798. B&B Camere Mariella
+ID: 850852e6-3535-46aa-9feb-e4f264fd4ae8
+Slug: b-b-camere-mariella-bastia-umbra
+Nome: B&B Camere Mariella
+Comune / Provincia: Bastia Umbra
+Indirizzo: Via Mezzo Miglio, 06083 Bastia Umbra PG
+Coordinate: Lat 43.067399, Lng 12.568424
+Website: https://www.cameremariella.it/
+Email: 
+
+7799. Camere I Monelli
+ID: be8f6ef4-9dfd-4c40-b4c5-c482454b2f32
+Slug: camere-i-monelli-bastia-umbra
+Nome: Camere I Monelli
+Comune / Provincia: Bastia Umbra
+Indirizzo: Via Campiglione, 23, 06181 Assisi PG
+Coordinate: Lat 43.075655, Lng 12.582811
+Website: —
+Email: 
+
+7800. Camere la Basilica
+ID: 3d9a7fb7-08ed-49ce-9f09-0e61fcce88f8
+Slug: camere-la-basilica-bastia-umbra
+Nome: Camere la Basilica
+Comune / Provincia: Bastia Umbra
+Indirizzo: Viale Patrono d'Italia, 17, 06181 Assisi PG
+Coordinate: Lat 43.059552, Lng 12.581685
+Website: http://www.camerelabasilica.it/
+Email: 
+
+7801. Favorita Food&Wine Resort
+ID: 6eedd982-875c-4acf-84d2-298191442638
+Slug: favorita-food-wine-resort-bastia-umbra
+Nome: Favorita Food&Wine Resort
+Comune / Provincia: Bastia Umbra
+Indirizzo: Via A. Costa, 18/20, 06083 Bastia Umbra PG
+Coordinate: Lat 43.082203, Lng 12.532895
+Website: https://www.favoritaresort.com/?utm_source=gbp&utm_medium=local_map
+Email: 
+
+7802. Green Village Assisi - Hotel & Camping e Area di Sosta
+ID: 236e96a5-4fc7-4a20-a320-fb84fbdc7ea5
+Slug: green-village-assisi-hotel-camping-e-area-di-sos-bastia-umbra
+Nome: Green Village Assisi - Hotel & Camping e Area di Sosta
+Comune / Provincia: Bastia Umbra
+Indirizzo: Via Campiglione, 110, 06181 Assisi PG
+Coordinate: Lat 43.076081, Lng 12.574369
+Website: https://greenvillage-camping-hotel-assisi.com/
+Email: 
+
+7803. Hotel Campiglione
+ID: bc2ef752-c2ce-4993-be19-cceac164904f
+Slug: hotel-campiglione-bastia-umbra
+Nome: Hotel Campiglione
+Comune / Provincia: Bastia Umbra
+Indirizzo: Via Campiglione, 11/2, 06081 Assisi PG
+Coordinate: Lat 43.07579, Lng 12.56162
+Website: https://hotel-campiglione.it/
+Email: 
+
+7804. Hotel Cristallo Assisi
+ID: fdafe768-7553-4948-8d95-7322ef5b3068
+Slug: hotel-cristallo-assisi-bastia-umbra
+Nome: Hotel Cristallo Assisi
+Comune / Provincia: Bastia Umbra
+Indirizzo: Via Los Angeles, 195, 06083 Assisi PG
+Coordinate: Lat 43.063257, Lng 12.564607
+Website: http://www.hotelcristalloassisi.it/
+Email: 
+
+7805. Hotel Il Cammino di Francesco
+ID: c21e0148-ac3e-45c1-ae0b-8273f811e3ff
+Slug: hotel-il-cammino-di-francesco-bastia-umbra
+Nome: Hotel Il Cammino di Francesco
+Comune / Provincia: Bastia Umbra
+Indirizzo: Via Rodolfo Morandi, 2/4, 06083 Ospedalicchio PG
+Coordinate: Lat 43.079599, Lng 12.501109
+Website: http://www.ilcamminodifrancesco.it/
+Email: 

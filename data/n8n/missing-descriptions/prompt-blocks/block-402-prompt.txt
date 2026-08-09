@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+14036. Hotel Sirenetta 4 stelle
+ID: de62c361-c328-4d6b-82c6-740c5609b17c
+Slug: hotel-sirenetta-4-stelle-capaci
+Nome: Hotel Sirenetta 4 stelle
+Comune / Provincia: Capaci
+Indirizzo: Viale dei Saraceni, 81, 90040 Isola delle Femmine PA
+Coordinate: Lat 38.185841, Lng 13.23889
+Website: http://www.sirenetta.it/
+Email: 
+
+14037. La Scogliera Azzurra - Ristorante - Hotel - Lido
+ID: 3ea26197-0834-47b0-a3e0-7f0ff9483a4d
+Slug: la-scogliera-azzurra-ristorante-hotel-lido-capaci
+Nome: La Scogliera Azzurra - Ristorante - Hotel - Lido
+Comune / Provincia: Capaci
+Indirizzo: Fondo Scalici Simone 8-10, 90040, 90040 Isola delle Femmine PA
+Coordinate: Lat 38.199363, Lng 13.25644
+Website: http://www.scoglieraazzurra.it/
+Email: 
+
+14038. Saracen Sands Hotel & Congress Centre
+ID: 3152e24b-b209-4d79-8b35-3440d090e1fc
+Slug: saracen-sands-hotel-congress-centre-capaci
+Nome: Saracen Sands Hotel & Congress Centre
+Comune / Provincia: Capaci
+Indirizzo: Via Libertà, 128/A, 90040 Isola delle Femmine PA
+Coordinate: Lat 38.182765, Lng 13.240813
+Website: https://www.saracenhotelpalermo.com/
+Email: 
+
+14039. Sikelia Bed & Breakfast
+ID: 7c139712-6c3d-482f-84c4-ac3ed4c5748e
+Slug: sikelia-bed-breakfast-capaci
+Nome: Sikelia Bed & Breakfast
+Comune / Provincia: Capaci
+Indirizzo: parco degli ulivi 1, Via Teseo, 9, 90044 Carini PA
+Coordinate: Lat 38.159065, Lng 13.22238
+Website: https://www.booking.com/Share-wnkfU4
+Email: 
+
+14040. Sul Mare
+ID: 712364aa-f0f5-4754-95e8-71687120eecc
+Slug: sul-mare-capaci
+Nome: Sul Mare
+Comune / Provincia: Capaci
+Indirizzo: Vicolo Argento, 5, 90040 Isola delle Femmine PA
+Coordinate: Lat 38.200498, Lng 13.24353
+Website: https://b-b-sul-mare.italiacongusto.top/
+Email: 
+
+14041. Villa Bonocore Maletto
+ID: 99039bc7-f746-4f1d-9555-5235252cfafd
+Slug: villa-bonocore-maletto-capaci
+Nome: Villa Bonocore Maletto
+Comune / Provincia: Capaci
+Indirizzo: Via Salvatore Minutilla, 3, 90147 Palermo PA
+Coordinate: Lat 38.172069, Lng 13.302488
+Website: http://www.villabonocoremaletto.it/
+Email: 
+
+14042. Villa Seven Palms
+ID: 3b4e0d6f-5de8-49d9-ae4b-f18eba43a9f4
+Slug: villa-seven-palms-capaci
+Nome: Villa Seven Palms
+Comune / Provincia: Capaci
+Indirizzo: Passaggio delle Ginestre, 9, 90040 Isola delle Femmine PA
+Coordinate: Lat 38.186573, Lng 13.240561
+Website: https://villasevenpalms.com/
+Email: 
+
+14043. Villaggio Dei Saraceni
+ID: 18b0e29e-ccaf-4202-ad42-8d2d8306cfd9
+Slug: villaggio-dei-saraceni-capaci
+Nome: Villaggio Dei Saraceni
+Comune / Provincia: Capaci
+Indirizzo: Via Libertà, 128/A, 90040 Isola delle Femmine PA
+Coordinate: Lat 38.183832, Lng 13.240957
+Website: —
+Email: 
+
+14044. A CASA DI LELE, CAPALBIO camere e appartamenti
+ID: e0d5e023-f1a0-490f-9808-a2280e638862
+Slug: a-casa-di-lele-capalbio-camere-e-appartamenti-capalbio
+Nome: A CASA DI LELE, CAPALBIO camere e appartamenti
+Comune / Provincia: Capalbio
+Indirizzo: Via del Cutignolo, 43, 58011 Capalbio GR
+Coordinate: Lat 42.455601, Lng 11.422828
+Website: https://www.booking.com/Share-eMT0kb4
+Email: 
+
+14045. Agrialbergo Capalbio La Sugherella
+ID: 3d5cb76e-d89e-4c20-bde6-acd6e276785f
+Slug: agrialbergo-capalbio-la-sugherella-capalbio
+Nome: Agrialbergo Capalbio La Sugherella
+Comune / Provincia: Capalbio
+Indirizzo: Str. Sugherella, 3, 58011 Capalbio GR
+Coordinate: Lat 42.420369, Lng 11.384113
+Website: http://www.agrialbergo.it/
+Email: 
+
+14046. Agriturismo Ghiaccio Bosco Capalbio
+ID: e19e93d7-ee0d-4e5d-8738-6907cb0a0f7b
+Slug: agriturismo-ghiaccio-bosco-capalbio-capalbio
+Nome: Agriturismo Ghiaccio Bosco Capalbio
+Comune / Provincia: Capalbio
+Indirizzo: Str. della Sgrilla, 4, 58011 Capalbio GR
+Coordinate: Lat 42.459232, Lng 11.454723
+Website: https://www.ghiacciobosco.com/
+Email: 
+
+14047. Agriturismo Il Quarto
+ID: 70e8b723-71cf-4bef-9baf-bcf33c358a53
+Slug: agriturismo-il-quarto-capalbio
+Nome: Agriturismo Il Quarto
+Comune / Provincia: Capalbio
+Indirizzo: IV Ebreo, 15, 58014 Campigliola GR
+Coordinate: Lat 42.515175, Lng 11.519007
+Website: http://www.agriturismoilquarto.it/
+Email: 
+
+14048. Agriturismo La Siesta
+ID: 52e0505c-e236-4e91-8ace-38ab80672dfc
+Slug: agriturismo-la-siesta-capalbio
+Nome: Agriturismo La Siesta
+Comune / Provincia: Capalbio
+Indirizzo: 58010 Marsiliana GR
+Coordinate: Lat 42.538552, Lng 11.334215
+Website: https://www.agriturismolasiesta.com/
+Email: 
+
+14049. Agriturismo La Verde Rosa
+ID: e5a9a18e-bbc8-4a2f-a580-c04b89956379
+Slug: agriturismo-la-verde-rosa-capalbio
+Nome: Agriturismo La Verde Rosa
+Comune / Provincia: Capalbio
+Indirizzo: Strada Valle Lunga, 3A, 01014 Montalto di Castro VT
+Coordinate: Lat 42.416442, Lng 11.502128
+Website: https://www.agriturismolaverderosa.it/
+Email: 
+
+14050. Agriturismo Podere del Sole
+ID: 5e02b1d5-5485-4165-bd81-aa04936c5d85
+Slug: agriturismo-podere-del-sole-capalbio
+Nome: Agriturismo Podere del Sole
+Comune / Provincia: Capalbio
+Indirizzo: Località il fodero, 01014 Montalto di Castro VT
+Coordinate: Lat 42.381637, Lng 11.49454
+Website: https://www.agriturismopoderedelsole.com/
+Email: 
+
+14051. Agriturismo podere l'Olmaia
+ID: d3dfd85f-2020-4cc0-979a-19b2b6d982e7
+Slug: agriturismo-podere-l-olmaia-capalbio
+Nome: Agriturismo podere l'Olmaia
+Comune / Provincia: Capalbio
+Indirizzo: via Maremmana Spinicci, n.55, 58014 Marsiliana GR
+Coordinate: Lat 42.547013, Lng 11.354539
+Website: http://www.poderelolmaia.it/
+Email: 
+
+14052. Albergo Del Lago
+ID: 4299d5ed-f291-4c6c-8462-fced7fa22c46
+Slug: albergo-del-lago-capalbio
+Nome: Albergo Del Lago
+Comune / Provincia: Capalbio
+Indirizzo: Via Umbria, 22, 58011 Capalbio Scalo GR
+Coordinate: Lat 42.40888, Lng 11.371376
+Website: https://www.hotelscheck-in.com/albergodellagocapalbioscalo/it/
+Email: 
+
+14053. B&B Borgo Vera
+ID: 3d78a5f8-11de-471a-9efb-d8fa87b652b2
+Slug: b-b-borgo-vera-capalbio
+Nome: B&B Borgo Vera
+Comune / Provincia: Capalbio
+Indirizzo: 58014 Mulino Santa Maria GR
+Coordinate: Lat 42.543482, Lng 11.502986
+Website: http://www.borgovera.com/
+Email: 
+
+14054. Capalbio Vacanze
+ID: 60faa989-cf73-4a27-b74f-68a2221a70c4
+Slug: capalbio-vacanze-capalbio
+Nome: Capalbio Vacanze
+Comune / Provincia: Capalbio
+Indirizzo: Via Genova, 5, 58010 Capalbio GR
+Coordinate: Lat 42.424361, Lng 11.419715
+Website: http://www.capalbiovacanze.it/
+Email: 
+
+14055. Casale Artemisia Capalbio
+ID: 03d444f9-a90b-4e18-a11f-0b1557a1e667
+Slug: casale-artemisia-capalbio-capalbio
+Nome: Casale Artemisia Capalbio
+Comune / Provincia: Capalbio
+Indirizzo: Strada Poggetti, 4/B, 58011 Capalbio GR
+Coordinate: Lat 42.440313, Lng 11.394196
+Website: http://www.casaleartemisia.it/
+Email: 
+
+14056. Hotel Il Cipresso Capalbio
+ID: e8b27461-15ae-4ac3-a0d6-e0e0e597a8ba
+Slug: hotel-il-cipresso-capalbio-capalbio
+Nome: Hotel Il Cipresso Capalbio
+Comune / Provincia: Capalbio
+Indirizzo: Str. Sugherella, 3, 58011 Capalbio GR
+Coordinate: Lat 42.419935, Lng 11.384798
+Website: http://www.ilcipressocapalbio.it/
+Email: 
+
+14057. Hotel Valle del Buttero
+ID: 989d5485-3fee-4ea5-b8f7-22a7b64e3234
+Slug: hotel-valle-del-buttero-capalbio
+Nome: Hotel Valle del Buttero
+Comune / Provincia: Capalbio
+Indirizzo: Via I. Silone, 21, 58011 Capalbio GR
+Coordinate: Lat 42.454943, Lng 11.422206
+Website: https://www.valledelbuttero.it/
+Email: 
+
+14058. Locanda Rossa
+ID: 31af8c9c-e7e2-419b-9e0b-babfef00dd51
+Slug: locanda-rossa-capalbio
+Nome: Locanda Rossa
+Comune / Provincia: Capalbio
+Indirizzo: Strada Capalbio Pescia Fiorentina, 11b, 58011 Capalbio GR
+Coordinate: Lat 42.446099, Lng 11.457984
+Website: http://www.locandarossa.com/
+Email: 
+
+14059. Orti di Capalbio
+ID: 5f118d6b-1f47-4c84-89f5-d823f4cea924
+Slug: orti-di-capalbio-capalbio
+Nome: Orti di Capalbio
+Comune / Provincia: Capalbio
+Indirizzo: Via Val dei Ceppi, 8/a, 58011 Capalbio GR
+Coordinate: Lat 42.420355, Lng 11.395465
+Website: https://www.agriturismoortidicapalbio.it/
+Email: 
+
+14060. Podere 406
+ID: aecdc9ed-0414-4dcb-9a87-99362eb0fe5d
+Slug: podere-406-capalbio
+Nome: Podere 406
+Comune / Provincia: Capalbio
+Indirizzo: S.da Querciolare, 19, 01014 Montalto di Castro VT
+Coordinate: Lat 42.409995, Lng 11.511221
+Website: —
+Email: 
+
+14061. Resort Capalbio
+ID: 33b6fa10-61e1-4483-adf3-4ce7adfbde59
+Slug: resort-capalbio-capalbio
+Nome: Resort Capalbio
+Comune / Provincia: Capalbio
+Indirizzo: Località Poggetti, Strada Provinciale Pedemontana, 58, 58011 Casale Nuovo GR
+Coordinate: Lat 42.424467, Lng 11.389101
+Website: https://www.resortcapalbio.it/
+Email: 
+
+14062. Agriturismo Biologico I Girasoli di Lari
+ID: 7d97382c-bc57-4652-9887-42901a9f3458
+Slug: agriturismo-biologico-i-girasoli-di-lari-capannoli
+Nome: Agriturismo Biologico I Girasoli di Lari
+Comune / Provincia: Capannoli
+Indirizzo: Via Giacomo Leopardi, 5, 56035 Cevoli PI
+Coordinate: Lat 43.575832, Lng 10.62319
+Website: http://www.igirasolidilari.it/
+Email: 
+
+14063. Agriturismo Il Bosco
+ID: 88c6545e-1bd6-470b-b5cd-57332f28e5b3
+Slug: agriturismo-il-bosco-capannoli
+Nome: Agriturismo Il Bosco
+Comune / Provincia: Capannoli
+Indirizzo: Via del Bosco, 11, 56030 Selvatelle PI
+Coordinate: Lat 43.565657, Lng 10.68597
+Website: —
+Email: 
+
+14064. Agriturismo Podere Chiaromonte farm holiday farmhouse
+ID: 2e93a008-8cbe-46d9-b7e4-739dad274ad1
+Slug: agriturismo-podere-chiaromonte-farm-holiday-farm-capannoli
+Nome: Agriturismo Podere Chiaromonte farm holiday farmhouse
+Comune / Provincia: Capannoli
+Indirizzo: Località La Piaggia, 15, 56036 Forcoli PI
+Coordinate: Lat 43.613322, Lng 10.71276
+Website: http://www.poderechiaromonte.com/
+Email: 
+
+14065. Agriturismo Podere Chiasso Gherardo
+ID: ed6102c8-1f2b-468c-b881-229e8b9e653a
+Slug: agriturismo-podere-chiasso-gherardo-capannoli
+Nome: Agriturismo Podere Chiasso Gherardo
+Comune / Provincia: Capannoli
+Indirizzo: Via S. Sebastiano, 50, 56037 Peccioli PI
+Coordinate: Lat 43.555064, Lng 10.725185
+Website: http://peccioli.com.es/
+Email: 
+
+14066. Agriturismo Polgara
+ID: 3bb3da9a-b4b5-4893-a7ac-bc94fd6a04b5
+Slug: agriturismo-polgara-capannoli
+Nome: Agriturismo Polgara
+Comune / Provincia: Capannoli
+Indirizzo: Via Querceto, 28, 56035 Casciana Terme Lari PI
+Coordinate: Lat 43.56829, Lng 10.601418
+Website: https://www.agriturismopolgara.it/
+Email: 
+
+14067. Agriturismo Terra Di Dio Toscanizzazione
+ID: c8b80e9b-58ef-404e-b85a-ac17aa1c14eb
+Slug: agriturismo-terra-di-dio-toscanizzazione-capannoli
+Nome: Agriturismo Terra Di Dio Toscanizzazione
+Comune / Provincia: Capannoli
+Indirizzo: S.S. 439 Sarzanese Valdera, Località Bosco, 56033 Capannoli PI
+Coordinate: Lat 43.571016, Lng 10.682792
+Website: https://toscanizzazione.com/agroturismo/
+Email: 
+
+14068. Albergo Montechiari Albergo Montechiari Sas Di Sutter Verena Rosa & C.
+ID: 6b95b58b-038a-4c36-ae72-b8e4cefc1404
+Slug: albergo-montechiari-albergo-montechiari-sas-di-s-capannoli
+Nome: Albergo Montechiari Albergo Montechiari Sas Di Sutter Verena Rosa & C.
+Comune / Provincia: Capannoli
+Indirizzo: Via Fonte Vecchia, 21, 56036 Palaia PI
+Coordinate: Lat 43.610934, Lng 10.695508
+Website: http://www.albergo-montechiari.com/
+Email: 
+
+14069. Asilo Masi B&B Country House
+ID: 22a9df33-7be8-42fc-98ba-6f001af00e19
+Slug: asilo-masi-b-b-country-house-capannoli
+Nome: Asilo Masi B&B Country House
+Comune / Provincia: Capannoli
+Indirizzo: Piazza S. Bartolomeo, 4, 56033 Capannoli PI
+Coordinate: Lat 43.58242, Lng 10.678681
+Website: —
+Email: 
+
+14070. Bed And Breakfast Catherina
+ID: 48f8c2c0-247e-4e96-b85e-dae15ab9fcdc
+Slug: bed-and-breakfast-catherina-capannoli
+Nome: Bed And Breakfast Catherina
+Comune / Provincia: Capannoli
+Indirizzo: Via Raffaello Sanzio, 64, 56038 Ponsacco PI
+Coordinate: Lat 43.615257, Lng 10.638232
+Website: —
+Email: 

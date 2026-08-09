@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+11726. Hotel Saccardi & SPA - Adult Only
+ID: 07a0d1a2-f712-4f94-b239-f931842e5a5c
+Slug: hotel-saccardi-spa-adult-only-bussolengo
+Nome: Hotel Saccardi & SPA - Adult Only
+Comune / Provincia: Bussolengo
+Indirizzo: Via Ciro Ferrari, 08, 37066 Caselle VR
+Coordinate: Lat 45.411813, Lng 10.902794
+Website: http://www.hotelsaccardi.it/
+Email: 
+
+11727. Hotel Veronesi La Torre
+ID: 7c59e87a-3a9c-48cb-a8ea-7ac77fb428fc
+Slug: hotel-veronesi-la-torre-bussolengo
+Nome: Hotel Veronesi La Torre
+Comune / Provincia: Bussolengo
+Indirizzo: Via Monte Baldo, 22, 37062 Dossobuono VR
+Coordinate: Lat 45.396385, Lng 10.898961
+Website: https://www.hotelveronesilatorre.it/
+Email: 
+
+11728. Le Colline del Garda
+ID: 42b7c7cc-7037-4802-86fd-98d747c3e65a
+Slug: le-colline-del-garda-bussolengo
+Nome: Le Colline del Garda
+Comune / Provincia: Bussolengo
+Indirizzo: Via Pastrengo, 85, 37012 Torcolo VR
+Coordinate: Lat 45.48531, Lng 10.81279
+Website: http://le-colline-del.com.es/
+Email: 
+
+11729. Montresor Hotel Tower
+ID: 32404210-e10f-4b1b-89f7-695f99206358
+Slug: montresor-hotel-tower-bussolengo
+Nome: Montresor Hotel Tower
+Comune / Provincia: Bussolengo
+Indirizzo: Via A. Mantegna, 30, 37012 Bussolengo VR
+Coordinate: Lat 45.469074, Lng 10.852586
+Website: http://www.montresor-tower.com/
+Email: 
+
+11730. Residence Ca di Capri
+ID: 785befbe-f3c1-45af-98ad-3b47fcad171e
+Slug: residence-ca-di-capri-bussolengo
+Nome: Residence Ca di Capri
+Comune / Provincia: Bussolengo
+Indirizzo: Località Ca' di Capri, 100, 37012 Bussolengo VR
+Coordinate: Lat 45.446855, Lng 10.883672
+Website: http://www.residencecadicapri.it/
+Email: 
+
+11731. Residenza Agnello D'Oro
+ID: 6ac43b22-75c4-4248-9f74-3fce50686d6f
+Slug: residenza-agnello-d-oro-bussolengo
+Nome: Residenza Agnello D'Oro
+Comune / Provincia: Bussolengo
+Indirizzo: Via Piorta, 8, 37012 Bussolengo VR
+Coordinate: Lat 45.473913, Lng 10.848467
+Website: https://residenzagnellodoro.it/
+Email: 
+
+11732. Ristorante Pizzeria Cozzeria Hotel Moro Freoni
+ID: 42687ff9-29e9-49db-aeef-b68355315b6e
+Slug: ristorante-pizzeria-cozzeria-hotel-moro-freoni-bussolengo
+Nome: Ristorante Pizzeria Cozzeria Hotel Moro Freoni
+Comune / Provincia: Bussolengo
+Indirizzo: Via Nazionale del Brennero, 31, 37029 San Pietro in Cariano VR
+Coordinate: Lat 45.487014, Lng 10.896093
+Website: https://morofreoni.it/
+Email: 
+
+11733. VeronaLago B&B Accessibile
+ID: 4a40cfda-4d65-48ae-bcbd-bed71614e01b
+Slug: veronalago-b-b-accessibile-bussolengo
+Nome: VeronaLago B&B Accessibile
+Comune / Provincia: Bussolengo
+Indirizzo: Vicolo Murici, 1C, 37012 Bussolengo VR
+Coordinate: Lat 45.469947, Lng 10.847241
+Website: http://www.veronalagobnb.it/
+Email: 
+
+11734. Affittacamere al Cantoun
+ID: 6d180f8c-eef6-4764-a2e8-57f45fc0658d
+Slug: affittacamere-al-cantoun-bussoleno
+Nome: Affittacamere al Cantoun
+Comune / Provincia: Bussoleno
+Indirizzo: Via Ramats, 8, 10050 Chiomonte TO
+Coordinate: Lat 45.11984, Lng 6.98251
+Website: http://www.alcantounchiomonte.it/
+Email: 
+
+11735. Alba Camere
+ID: 2ef16ac5-e5f4-48c9-80ea-bb75084a3882
+Slug: alba-camere-bussoleno
+Nome: Alba Camere
+Comune / Provincia: Bussoleno
+Indirizzo: Via Asilo, 18, 10050 Chiomonte TO
+Coordinate: Lat 45.118151, Lng 6.983072
+Website: https://www.albacamerechiomonte.it/
+Email: 
+
+11736. B&B Giardino dei Merli
+ID: 60420e73-3cc9-4458-8df6-cfea6fe05710
+Slug: b-b-giardino-dei-merli-bussoleno
+Nome: B&B Giardino dei Merli
+Comune / Provincia: Bussoleno
+Indirizzo: Via Guglielmo Marconi, 1, 10053 Bussoleno TO
+Coordinate: Lat 45.141386, Lng 7.14621
+Website: https://alisastraveltips.com/il-giardino-dei-merli-italy
+Email: 
+
+11737. B&B MariAldo
+ID: 10b5958e-c597-4a3d-8d45-6a880766c32d
+Slug: b-b-marialdo-bussoleno
+Nome: B&B MariAldo
+Comune / Provincia: Bussoleno
+Indirizzo: Via Giuseppe Garibaldi, 3A, 10053 Bussoleno TO
+Coordinate: Lat 45.141016, Lng 7.143912
+Website: http://www.marialdo.it/
+Email: 
+
+11738. Residence Madamin
+ID: e0546c20-387b-420e-a5ce-700e84d59a2a
+Slug: residence-madamin-bussoleno
+Nome: Residence Madamin
+Comune / Provincia: Bussoleno
+Indirizzo: Via Mentoulles, 9, 10060 Granges TO
+Coordinate: Lat 45.023815, Lng 7.080094
+Website: https://www.valchisone.com/
+Email: 
+
+11739. 3per3
+ID: 986b7d20-4bfc-4710-aa18-e09d71376430
+Slug: 3per3-busto-arsizio
+Nome: 3per3
+Comune / Provincia: Busto Arsizio
+Indirizzo: Viale Boccaccio, 152, 21052 Busto Arsizio VA
+Coordinate: Lat 45.583741, Lng 8.857294
+Website: https://www.booking.com/hotel/it/3per3.it.html
+Email: 
+
+11740. ANGOLO DI ISA
+ID: 207dae5f-b77d-405d-b378-804ea7a6f7e8
+Slug: angolo-di-isa-busto-arsizio
+Nome: ANGOLO DI ISA
+Comune / Provincia: Busto Arsizio
+Indirizzo: Via Alvise Cadamosto, 8, 21052 Busto Arsizio VA
+Coordinate: Lat 45.610731, Lng 8.839107
+Website: —
+Email: 
+
+11741. Antica Corte Room&Breakfast
+ID: f87b80be-a9b8-45ca-b0b6-a5adf67e4df4
+Slug: antica-corte-room-breakfast-busto-arsizio
+Nome: Antica Corte Room&Breakfast
+Comune / Provincia: Busto Arsizio
+Indirizzo: Vicolo Custodi, 3, 21052 Busto Arsizio VA
+Coordinate: Lat 45.612142, Lng 8.849997
+Website: http://www.anticacortebusto.it/
+Email: 
+
+11742. Antico Giardino - Residence
+ID: d3cc4c85-56e5-4dd1-9f47-685b19bedc40
+Slug: antico-giardino-residence-busto-arsizio
+Nome: Antico Giardino - Residence
+Comune / Provincia: Busto Arsizio
+Indirizzo: Via Lodovico Antonio Muratori, 30, 21052 Busto Arsizio VA
+Coordinate: Lat 45.606976, Lng 8.859488
+Website: —
+Email: 
+
+11743. B&B GIET
+ID: 92c6bb9e-8ea5-4042-9eb8-65ada8d4ecb6
+Slug: b-b-giet-busto-arsizio
+Nome: B&B GIET
+Comune / Provincia: Busto Arsizio
+Indirizzo: Via Taormina, 26, 21052 Busto Arsizio VA
+Coordinate: Lat 45.606855, Lng 8.837903
+Website: http://www.bebgiet.it/
+Email: 
+
+11744. B&B SouthItaly
+ID: 658cd4cb-4cd3-418f-b3eb-e2f1bf60b6b7
+Slug: b-b-southitaly-busto-arsizio
+Nome: B&B SouthItaly
+Comune / Provincia: Busto Arsizio
+Indirizzo: n, Via Fratelli di Dio, 29, 21052 Busto Arsizio VA
+Coordinate: Lat 45.586755, Lng 8.845406
+Website: http://www.southitalybeb.it/
+Email: 
+
+11745. Bed&Breakfast Milano Malpensa
+ID: 5a284404-b515-457a-ac60-744b059ae06e
+Slug: bed-breakfast-milano-malpensa-busto-arsizio
+Nome: Bed&Breakfast Milano Malpensa
+Comune / Provincia: Busto Arsizio
+Indirizzo: Via Valsugana, 4, 21052 Busto Arsizio VA
+Coordinate: Lat 45.625715, Lng 8.835483
+Website: https://www.bnbmilanomalpensa.com/
+Email: 
+
+11746. De Piante Guest House
+ID: ee705e79-638c-4714-97bf-67876aa3be30
+Slug: de-piante-guest-house-busto-arsizio
+Nome: De Piante Guest House
+Comune / Provincia: Busto Arsizio
+Indirizzo: Via S. Francesco, 1, 21052 Busto Arsizio VA
+Coordinate: Lat 45.614765, Lng 8.8533
+Website: https://www.depianteguesthouse.com/
+Email: 
+
+11747. Hotel D120
+ID: 4aeddd16-e150-423c-968a-54040d901971
+Slug: hotel-d120-busto-arsizio
+Nome: Hotel D120
+Comune / Provincia: Busto Arsizio
+Indirizzo: Via Armando Diaz, 120, 21057 Olgiate Olona VA
+Coordinate: Lat 45.632781, Lng 8.861864
+Website: https://www.hoteld120.com/
+Email: 
+
+11748. Hotel Espana
+ID: 556accf8-50f5-4155-a1d2-624bb6959015
+Slug: hotel-espana-busto-arsizio
+Nome: Hotel Espana
+Comune / Provincia: Busto Arsizio
+Indirizzo: Viale Boccaccio, 174, 21052 Busto Arsizio VA
+Coordinate: Lat 45.58125, Lng 8.857655
+Website: http://www.hotelespana.it/
+Email: 
+
+11749. Hotel Pineta
+ID: 2524d7fb-edb6-4253-baf0-fbb6d88ea1b7
+Slug: hotel-pineta-busto-arsizio
+Nome: Hotel Pineta
+Comune / Provincia: Busto Arsizio
+Indirizzo: Corso Sempione, 150, 21052 Busto Arsizio VA
+Coordinate: Lat 45.629662, Lng 8.83959
+Website: http://www.hotelpineta.com/
+Email: 
+
+11750. Lo sciuro
+ID: f127087c-61e0-4ed9-9205-3d2a5e65fca8
+Slug: lo-sciuro-busto-arsizio
+Nome: Lo sciuro
+Comune / Provincia: Busto Arsizio
+Indirizzo: Via Magenta, 61, 21052 Busto Arsizio VA
+Coordinate: Lat 45.599657, Lng 8.846753
+Website: —
+Email: 
+
+11751. Location Lory S.N.C Bed And Breakfast Busto Arsizio
+ID: c3d51015-d534-403c-89a2-5b377e749b6e
+Slug: location-lory-s-n-c-bed-and-breakfast-busto-arsi-busto-arsizio
+Nome: Location Lory S.N.C Bed And Breakfast Busto Arsizio
+Comune / Provincia: Busto Arsizio
+Indirizzo: Via Mogadiscio, 3/bis, Via Mogadiscio, 3, 21052 Busto Arsizio VA
+Coordinate: Lat 45.58457, Lng 8.85835
+Website: http://www.affittacameremilano.com/
+Email: 
+
+11752. Loft Matteotti
+ID: 61e954e9-1fb4-48ba-a412-260cc773942c
+Slug: loft-matteotti-busto-arsizio
+Nome: Loft Matteotti
+Comune / Provincia: Busto Arsizio
+Indirizzo: Via Matteotti, 8, 21052 Busto Arsizio VA
+Coordinate: Lat 45.611918, Lng 8.849438
+Website: http://www.borntobehost.com/
+Email: 
+
+11753. MO.OM Hotel
+ID: 95593978-ac74-4175-96bb-c33b4a9994c4
+Slug: mo-om-hotel-busto-arsizio
+Nome: MO.OM Hotel
+Comune / Provincia: Busto Arsizio
+Indirizzo: Via S. Francesco D'Assisi, 15, 21057 Olgiate Olona VA
+Coordinate: Lat 45.635791, Lng 8.865492
+Website: https://www.moomhotel.com/?utm_source=google&utm_medium=organic&utm_campaign=GMB
+Email: 
+
+11754. Serendipity Guest Rooms_Foresteria Lombarda
+ID: f784e178-71fc-48e6-ace8-a84c7043216c
+Slug: serendipity-guest-rooms-foresteria-lombarda-busto-arsizio
+Nome: Serendipity Guest Rooms_Foresteria Lombarda
+Comune / Provincia: Busto Arsizio
+Indirizzo: Via Statuto, 11, 21052 Busto Arsizio VA
+Coordinate: Lat 45.596249, Lng 8.839228
+Website: https://serendipityguestrooms.it/
+Email: 
+
+11755. bed and breakfast Orchidea
+ID: 1fc126ae-3eba-4c61-8813-d807598e4c8c
+Slug: bed-and-breakfast-orchidea-busto-garolfo
+Nome: bed and breakfast Orchidea
+Comune / Provincia: Busto Garolfo
+Indirizzo: Via San Pietro, 43, 20038 Busto Garolfo MI
+Coordinate: Lat 45.554776, Lng 8.883339
+Website: http://www.bborchidea.com/
+Email: 
+
+11756. Hotel Motel City
+ID: 6ed3b514-c7e2-436a-86dd-c06236389ad3
+Slug: hotel-motel-city-busto-garolfo
+Nome: Hotel Motel City
+Comune / Provincia: Busto Garolfo
+Indirizzo: Via Papa Giovanni XXIII, 1, 20023 Legnano MI
+Coordinate: Lat 45.60137, Lng 8.943493
+Website: http://www.motelcity.it/
+Email: 
+
+11757. Poli Hotel
+ID: b8b2bad0-1b4e-4e73-bde2-914bb6c9224c
+Slug: poli-hotel-busto-garolfo
+Nome: Poli Hotel
+Comune / Provincia: Busto Garolfo
+Indirizzo: SS33 del Sempione, 241, 20028 San Vittore Olona MI
+Coordinate: Lat 45.581437, Lng 8.949675
+Website: https://www.polihotel.it/
+Email: 
+
+11758. UNA Hotels Malpensa
+ID: ae82300c-21a9-415c-93e9-e3684a26d4a2
+Slug: una-hotels-malpensa-busto-garolfo
+Nome: UNA Hotels Malpensa
+Comune / Provincia: Busto Garolfo
+Indirizzo: Via F. Turati, 84, 20023 Cerro Maggiore MI
+Coordinate: Lat 45.601191, Lng 8.94605
+Website: https://www.unaitalianhospitality.com/it/soggiorni/una-hotels-malpensa
+Email: 
+
+11759. Affittacamere Il Cortile
+ID: c2a3af2e-26c0-4fd1-afef-6b45d36d1e03
+Slug: affittacamere-il-cortile-butera
+Nome: Affittacamere Il Cortile
+Comune / Provincia: Butera
+Indirizzo: Corso Vittorio Emanuele II, 142, 93013 Mazzarino CL
+Coordinate: Lat 37.304493, Lng 14.210196
+Website: https://www.bebilcortile.it/
+Email: 
+
+11760. Agriturismo ALPA Mazzarino
+ID: 093801ab-cf22-4e00-97b8-bef2052db9c9
+Slug: agriturismo-alpa-mazzarino-butera
+Nome: Agriturismo ALPA Mazzarino
+Comune / Provincia: Butera
+Indirizzo: C.da Contrasto, 93013 Mazzarino CL
+Coordinate: Lat 37.258903, Lng 14.216376
+Website: http://www.agriturismoalpa.it/
+Email: 

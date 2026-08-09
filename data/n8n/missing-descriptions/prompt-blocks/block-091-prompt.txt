@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+3151. Albergo Ristorante Federico
+ID: 8d72b8a1-1416-4ea6-aad2-11f28a1eb408
+Slug: albergo-ristorante-federico-anagni
+Nome: Albergo Ristorante Federico
+Comune / Provincia: Anagni
+Indirizzo: Via Anticolana, 03012 Anagni FR
+Coordinate: Lat 41.746262, Lng 13.121663
+Website: —
+Email: 
+
+3152. Antica Dimora Palazzo Ciprani
+ID: 0676f356-2a4e-4835-9ca4-1fd364f1d8b0
+Slug: antica-dimora-palazzo-ciprani-anagni
+Nome: Antica Dimora Palazzo Ciprani
+Comune / Provincia: Anagni
+Indirizzo: Piazza Perfetti, 3, 03012 Anagni FR
+Coordinate: Lat 41.7431, Lng 13.155
+Website: https://anticadimoraciprani.it/
+Email: 
+
+3153. b&b centro storico
+ID: 0df34c16-cccd-4e85-ab08-aed54d29b419
+Slug: b-b-centro-storico-anagni
+Nome: b&b centro storico
+Comune / Provincia: Anagni
+Indirizzo: Vicolo Cocchetto, n20, 03012 Anagni FR
+Coordinate: Lat 41.744358, Lng 13.153049
+Website: —
+Email: 
+
+3154. B&B Novecento
+ID: fcc38b4e-caf7-4045-9c6c-1fedb6758820
+Slug: b-b-novecento-anagni
+Nome: B&B Novecento
+Comune / Provincia: Anagni
+Indirizzo: Viale Regina Margherita, 39, 03012 Anagni FR
+Coordinate: Lat 41.746667, Lng 13.149722
+Website: http://www.bbnovecentoanagni.com/
+Email: 
+
+3155. Casale San Pietro
+ID: 005cb2b7-853e-4ac6-92e2-a93f32da832f
+Slug: casale-san-pietro-anagni
+Nome: Casale San Pietro
+Comune / Provincia: Anagni
+Indirizzo: Vic. Le, Via Loiso Santa Giusta, 03012 San Filippo FR
+Coordinate: Lat 41.777894, Lng 13.158328
+Website: http://www.casalespietro.com/
+Email: 
+
+3156. Dimora il Bacio B&B
+ID: 576ec0e3-4995-4d6a-bcd3-c7ec63b6ec2d
+Slug: dimora-il-bacio-b-b-anagni
+Nome: Dimora il Bacio B&B
+Comune / Provincia: Anagni
+Indirizzo: Strada Vittorio Emanuele, 289, 03012 Anagni FR
+Coordinate: Lat 41.743029, Lng 13.160458
+Website: https://dimora-il-bacio-bb.italiacongusto.top/
+Email: 
+
+3157. Hotel Anagni Le Rose
+ID: c1eb44c6-65d0-4757-bdc1-9a0cd305edf5
+Slug: hotel-anagni-le-rose-anagni
+Nome: Hotel Anagni Le Rose
+Comune / Provincia: Anagni
+Indirizzo: Via Anticolana, km 0, 03012 Anagni FR
+Coordinate: Lat 41.728066, Lng 13.113178
+Website: http://www.albergolerose.it/
+Email: 
+
+3158. Hotel Citta' dei Papi
+ID: ac53248f-2a6e-4bf0-b879-1c576d38ebbe
+Slug: hotel-citta-dei-papi-anagni
+Nome: Hotel Citta' dei Papi
+Comune / Provincia: Anagni
+Indirizzo: Via di Fontana Sant'Angelo, 03012 Anagni FR
+Coordinate: Lat 41.728359, Lng 13.115674
+Website: http://www.cittadeipapi.it/
+Email: 
+
+3159. Il Viaggiatore
+ID: f5545cb5-7bf9-41fe-b2c6-e1839157d073
+Slug: il-viaggiatore-anagni
+Nome: Il Viaggiatore
+Comune / Provincia: Anagni
+Indirizzo: Strada Vittorio Emanuele, 34, 03012 Anagni FR
+Coordinate: Lat 41.744428, Lng 13.15365
+Website: https://il-viaggiatore.wixsite.com/il-viaggiatore
+Email: 
+
+3160. La terrazza Anagni
+ID: baee0469-68ba-40eb-8a94-be0c02e1f9aa
+Slug: la-terrazza-anagni-anagni
+Nome: La terrazza Anagni
+Comune / Provincia: Anagni
+Indirizzo: Via Nino Stoppani, 7, 03012 Anagni FR
+Coordinate: Lat 41.742524, Lng 13.158369
+Website: http://www.laterrazzaanagni.it/
+Email: 
+
+3161. Le Stanze del Duomo
+ID: 9b9b8b33-b04a-40fa-bccf-c312e154ae1a
+Slug: le-stanze-del-duomo-anagni
+Nome: Le Stanze del Duomo
+Comune / Provincia: Anagni
+Indirizzo: Via Dante, 68, 03012 Anagni FR
+Coordinate: Lat 41.741907, Lng 13.162407
+Website: http://www.lestanzedelduomo.com/
+Email: 
+
+3162. B&B Alveare di Rita
+ID: c0761bc1-bc7b-42cd-9a18-6e8dbdb3c3f6
+Slug: b-b-alveare-di-rita-ancarano
+Nome: B&B Alveare di Rita
+Comune / Provincia: Ancarano
+Indirizzo: Via Mediana Inferiore, 19, 63085 Maltignano AP
+Coordinate: Lat 42.844625, Lng 13.703144
+Website: http://www.alvearedirita.it/
+Email: 
+
+3163. B&B Bio-Melampo
+ID: 48b5e6ed-f362-49d8-8313-a58778daaff2
+Slug: b-b-bio-melampo-ancarano
+Nome: B&B Bio-Melampo
+Comune / Provincia: Ancarano
+Indirizzo: Str. Vicinale Casette, 19, 64010 Ancarano TE
+Coordinate: Lat 42.827749, Lng 13.747827
+Website: —
+Email: 
+
+3164. B&B River
+ID: fd2633e5-5f9b-4b35-acdc-e8c1bd130f32
+Slug: b-b-river-ancarano
+Nome: B&B River
+Comune / Provincia: Ancarano
+Indirizzo: Str. della Bonifica, 40, 63100 Ascoli Piceno AP
+Coordinate: Lat 42.850119, Lng 13.650082
+Website: http://www.bbriver.it/contatti/
+Email: 
+
+3165. B&B Spineola
+ID: 12b3d721-c2b5-4f90-9ca2-a0f98b6d0e04
+Slug: b-b-spineola-ancarano
+Nome: B&B Spineola
+Comune / Provincia: Ancarano
+Indirizzo: Via Pio La Torre, 63078 Spinetoli AP
+Coordinate: Lat 42.884823, Lng 13.769449
+Website: http://bnb-spineola.com.es/
+Email: 
+
+3166. Bed and breakfast Giardino Agritourist
+ID: ba383486-d988-4af9-a268-b4a47d9a2273
+Slug: bed-and-breakfast-giardino-agritourist-ancarano
+Nome: Bed and breakfast Giardino Agritourist
+Comune / Provincia: Ancarano
+Indirizzo: Contrada San Fedele, zona Via Gabriele D'Annunzio, 2, 64010 Controguerra TE
+Coordinate: Lat 42.852164, Lng 13.814826
+Website: http://www.bbabruzzo.com/
+Email: 
+
+3167. Country House Andromeda
+ID: e831ec87-35dd-49e6-a7db-b886e959b2c2
+Slug: country-house-andromeda-ancarano
+Nome: Country House Andromeda
+Comune / Provincia: Ancarano
+Indirizzo: Contrada Ciafone, n.50, 63073 Offida AP
+Coordinate: Lat 42.915791, Lng 13.733849
+Website: https://www.countryhouseandromeda.it/
+Email: 
+
+3168. Country House Il Piacere
+ID: 137f75f4-a068-44c6-8bd6-29800e44c670
+Slug: country-house-il-piacere-ancarano
+Nome: Country House Il Piacere
+Comune / Provincia: Ancarano
+Indirizzo: Via Ugo La Malfa, 64010 Civitella del Tronto TE
+Coordinate: Lat 42.793325, Lng 13.637436
+Website: http://www.ilpiacere.biz/
+Email: 
+
+3169. Emidio Pepe
+ID: e7f40332-9e7a-4fb3-bc2e-a0eb9b73d66d
+Slug: emidio-pepe-ancarano
+Nome: Emidio Pepe
+Comune / Provincia: Ancarano
+Indirizzo: Contrada Chiesi, 10, 64010 Torano Nuovo TE
+Coordinate: Lat 42.82964, Lng 13.77565
+Website: http://www.emidiopepe.com/
+Email: 
+
+3170. Fly b&b
+ID: 6f7ce626-a67f-47cf-8b30-0f381d035aaf
+Slug: fly-b-b-ancarano
+Nome: Fly b&b
+Comune / Provincia: Ancarano
+Indirizzo: Via A. De Gasperi, 6, 64010 Ancarano TE
+Coordinate: Lat 42.835341, Lng 13.737693
+Website: https://www.flybedandbreakfast.it/
+Email: 
+
+3171. Hotel Ristorante Clodi
+ID: 8d8a5340-659d-4a12-8ff2-d3400fa030bd
+Slug: hotel-ristorante-clodi-ancarano
+Nome: Hotel Ristorante Clodi
+Comune / Provincia: Ancarano
+Indirizzo: Via dei Peschi, 64, 63100 Ascoli Piceno AP
+Coordinate: Lat 42.844491, Lng 13.640396
+Website: http://www.hotelclodi.it/
+Email: 
+
+3172. Hotel Ristorante Concorde
+ID: 8206f039-cffc-4d75-b13b-d6a8e12925ac
+Slug: hotel-ristorante-concorde-ancarano
+Nome: Hotel Ristorante Concorde
+Comune / Provincia: Ancarano
+Indirizzo: Viale J. F. Kennedy, 197, 64016 Sant'Egidio alla Vibrata TE
+Coordinate: Lat 42.810567, Lng 13.736656
+Website: https://www.hconcorde.it/
+Email: 
+
+3173. Hotel Ristorante Pizzeria Tramonto
+ID: ff3b3013-dbbd-4100-adee-be4c3e44f779
+Slug: hotel-ristorante-pizzeria-tramonto-ancarano
+Nome: Hotel Ristorante Pizzeria Tramonto
+Comune / Provincia: Ancarano
+Indirizzo: Contrada Madonna della Carità, 45, 64010 Ancarano TE
+Coordinate: Lat 42.836994, Lng 13.755949
+Website: https://www.hotelristorantetramonto.com/
+Email: 
+
+3174. Hotel Scacco Rosso
+ID: 6c79d05d-fdd0-4c7c-bc40-ce8d26466161
+Slug: hotel-scacco-rosso-ancarano
+Nome: Hotel Scacco Rosso
+Comune / Provincia: Ancarano
+Indirizzo: Via Piave, 23, 64016 Sant'Egidio alla Vibrata TE
+Coordinate: Lat 42.822879, Lng 13.716205
+Website: —
+Email: 
+
+3175. Il Gruccione
+ID: 28880c5a-aeff-414c-b69e-844d28886b62
+Slug: il-gruccione-ancarano
+Nome: Il Gruccione
+Comune / Provincia: Ancarano
+Indirizzo: Via Santa Maria ad Cellas, 18, 64027 Sant'Omero TE
+Coordinate: Lat 42.788425, Lng 13.817999
+Website: https://gueststay.eu/il-gruccione-sant-omero
+Email: 
+
+3176. IL SALICE Hotel Ristorante Pizzeria
+ID: 1b075d28-38a7-49f8-a07a-73cbd09071ad
+Slug: il-salice-hotel-ristorante-pizzeria-ancarano
+Nome: IL SALICE Hotel Ristorante Pizzeria
+Comune / Provincia: Ancarano
+Indirizzo: Viale Vibrata, 13/A, 64010 Civitella del Tronto TE
+Coordinate: Lat 42.795568, Lng 13.65147
+Website: https://www.hotelristoranteilsalice.it/
+Email: 
+
+3177. Pantorano rooms
+ID: b976b729-c7bd-49ea-a0a7-6f40f0b479a3
+Slug: pantorano-rooms-ancarano
+Nome: Pantorano rooms
+Comune / Provincia: Ancarano
+Indirizzo: Piazzetta delle Volte, 6, 63078 Pagliare del Tronto AP
+Coordinate: Lat 42.866359, Lng 13.771359
+Website: http://www.pantorano.it/
+Email: 
+
+3178. Villa dei Priori
+ID: ee20f2ad-771c-48c1-a0a6-74dfc68a7eb0
+Slug: villa-dei-priori-ancarano
+Nome: Villa dei Priori
+Comune / Provincia: Ancarano
+Indirizzo: Via Salaria, Km 220, 63077 Monsampolo del Tronto AP
+Coordinate: Lat 42.889121, Lng 13.81547
+Website: https://eccoci.online/villadeipriori
+Email: 
+
+3179. Villa Yucca - B&B and Glamping
+ID: 418ae803-85da-439f-a034-0c0f1871674c
+Slug: villa-yucca-b-b-and-glamping-ancarano
+Nome: Villa Yucca - B&B and Glamping
+Comune / Provincia: Ancarano
+Indirizzo: Contrada Flaio, 35, 64010 Torano Nuovo TE
+Coordinate: Lat 42.816485, Lng 13.787717
+Website: http://villayucca.it/
+Email: 
+
+3180. Villa9cento
+ID: 99ac2dd6-0ac7-4f77-91a6-de021bb2d6f3
+Slug: villa9cento-ancarano
+Nome: Villa9cento
+Comune / Provincia: Ancarano
+Indirizzo: Via dei Fossi, 5, 63082 Castel di Lama AP
+Coordinate: Lat 42.865238, Lng 13.719638
+Website: http://www.villa9cento.com/
+Email: 
+
+3181. Albergo Cantiani
+ID: 55a144de-d965-4140-a652-d31aa01381a3
+Slug: albergo-cantiani-ancona
+Nome: Albergo Cantiani
+Comune / Provincia: Ancona
+Indirizzo: Via Lorenzo Lotto, 22, 60127 Ancona AN
+Coordinate: Lat 43.605392, Lng 13.507128
+Website: http://albergocantiani.it/
+Email: 
+
+3182. Ego Hotel Ancona
+ID: 4a61f6b5-0475-454a-8765-2f0a88f1d7b3
+Slug: ego-hotel-ancona-ancona
+Nome: Ego Hotel Ancona
+Comune / Provincia: Ancona
+Indirizzo: Via Flaminia, 220, 60126 Ancona AN
+Coordinate: Lat 43.608801, Lng 13.459336
+Website: http://www.egohotelancona.it/
+Email: 
+
+3183. G Hotel Ancona
+ID: 008dfcc2-14bd-465e-affc-796473458dff
+Slug: g-hotel-ancona-ancona
+Nome: G Hotel Ancona
+Comune / Provincia: Ancona
+Indirizzo: V. della Sbrozzola, 26, 60027 Osimo AN
+Coordinate: Lat 43.512501, Lng 13.52693
+Website: http://www.ghotelancona.it/
+Email: 
+
+3184. Grand Hotel Palace
+ID: be5cd73b-0afb-48a1-a61f-8a86e0e435da
+Slug: grand-hotel-palace-ancona
+Nome: Grand Hotel Palace
+Comune / Provincia: Ancona
+Indirizzo: Lungomare Luigi Vanvitelli, 24, 60121 Ancona AN
+Coordinate: Lat 43.62151, Lng 13.510367
+Website: https://www.grandhotelpalaceancona.com/
+Email: 
+
+3185. Grand Hotel Passetto
+ID: 0a825168-2cee-4b11-a34f-0b701efb9bcf
+Slug: grand-hotel-passetto-ancona
+Nome: Grand Hotel Passetto
+Comune / Provincia: Ancona
+Indirizzo: Via Thaon de Revel, 1, 60124 Ancona AN
+Coordinate: Lat 43.61386, Lng 13.534436
+Website: http://www.grandhotelpassetto.com/
+Email: 

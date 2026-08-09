@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+15751. Hotel Ristorante Europa Palazzuolo sul Senio
+ID: e3f84b45-7000-4eeb-9d01-1df3450da6b5
+Slug: hotel-ristorante-europa-palazzuolo-sul-senio-casola-valsenio
+Nome: Hotel Ristorante Europa Palazzuolo sul Senio
+Comune / Provincia: Casola Valsenio
+Indirizzo: Via Maghinardo Pagani, 4, 50035 Palazzuolo sul Senio FI
+Coordinate: Lat 44.113507, Lng 11.549319
+Website: http://www.heuropamugello.it/
+Email: 
+
+15752. Il Cardello Locanda
+ID: 15e6ba34-6526-4e38-bfc1-b8de70116c5f
+Slug: il-cardello-locanda-casola-valsenio
+Nome: Il Cardello Locanda
+Comune / Provincia: Casola Valsenio
+Indirizzo: Via Cardello, 11, 48032 Casola Valsenio RA
+Coordinate: Lat 44.231958, Lng 11.633155
+Website: http://www.ilcardellolocanda.it/
+Email: 
+
+15753. Relais & Ristorante Mevigo
+ID: 5878e862-c3ca-4d28-8dd3-58e130adc23a
+Slug: relais-ristorante-mevigo-casola-valsenio
+Nome: Relais & Ristorante Mevigo
+Comune / Provincia: Casola Valsenio
+Indirizzo: Via del Monte, 35, 48032 Casola Valsenio RA
+Coordinate: Lat 44.245247, Lng 11.63167
+Website: https://relaismevigo.it/
+Email: 
+
+15754. Villaggio della Salute Più
+ID: 8aaf4a1e-08ca-485c-93c8-6b13e8925515
+Slug: villaggio-della-salute-piu-casola-valsenio
+Nome: Villaggio della Salute Più
+Comune / Provincia: Casola Valsenio
+Indirizzo: Via Sillaro, 27, 40050 Monterenzio BO
+Coordinate: Lat 44.312956, Lng 11.459849
+Website: https://www.villaggiodellasalutepiu.it/it/
+Email: 
+
+15755. Agriturismo I Casali
+ID: a1a8cfbc-21c8-4534-a787-9c3cff3a4297
+Slug: agriturismo-i-casali-casole-d-elsa
+Nome: Agriturismo I Casali
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Via Podere I Casali, 121, 53031 Casole d'Elsa SI
+Coordinate: Lat 43.318543, Lng 11.029737
+Website: https://www.agriturismoicasali.com/
+Email: 
+
+15756. Agriturismo Podere Tremulini
+ID: 1b83a567-11aa-48e0-bd9b-d0ed8e4b7158
+Slug: agriturismo-podere-tremulini-casole-d-elsa
+Nome: Agriturismo Podere Tremulini
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Podere Tremulini, 53031 Casole d'Elsa SI
+Coordinate: Lat 43.309872, Lng 11.06883
+Website: https://poderetremulini.it/
+Email: 
+
+15757. Agriturismo Solaio di Arianna Paolini
+ID: 646974e8-beda-4142-a242-5d1c638a07f2
+Slug: agriturismo-solaio-di-arianna-paolini-casole-d-elsa
+Nome: Agriturismo Solaio di Arianna Paolini
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Via di Solaio 145/A - Località Solaio, 53031 Casole d'Elsa SI
+Coordinate: Lat 43.339299, Lng 11.056368
+Website: —
+Email: 
+
+15758. Antica Fonte Resort
+ID: 118732e2-8d44-46ca-a7d6-0d71dc93f4b3
+Slug: antica-fonte-resort-casole-d-elsa
+Nome: Antica Fonte Resort
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Localita' Podere Casanova, 53031 Casole d'Elsa SI
+Coordinate: Lat 43.347442, Lng 11.047467
+Website: https://www.anticafonteresort.it/
+Email: 
+
+15759. Bed & Breakfast Palazzo delle Erbe
+ID: bdc4e1bb-80ec-4ff3-baf5-2fdd9215c62e
+Slug: bed-breakfast-palazzo-delle-erbe-casole-d-elsa
+Nome: Bed & Breakfast Palazzo delle Erbe
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Via Roma, 66, 53031 Casole d'Elsa SI
+Coordinate: Lat 43.341704, Lng 11.04422
+Website: http://www.palazzodellerbe.com/
+Email: 
+
+15760. Borgo al Cerro
+ID: b78415c5-b3ff-49a2-8fb4-b442ca92dd18
+Slug: borgo-al-cerro-casole-d-elsa
+Nome: Borgo al Cerro
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Localita' Podere Casanova, 53031 Casole d'Elsa SI
+Coordinate: Lat 43.348372, Lng 11.046967
+Website: http://www.borgoalcerro.com/
+Email: 
+
+15761. Castello di Casole, A Belmond Hotel, Tuscany
+ID: 0df92670-024b-497b-87cf-e66c0451d8b9
+Slug: castello-di-casole-a-belmond-hotel-tuscany-casole-d-elsa
+Nome: Castello di Casole, A Belmond Hotel, Tuscany
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Località Querceto, 53031 Casole d'Elsa SI
+Coordinate: Lat 43.324796, Lng 11.084068
+Website: https://www.belmond.com/hotels/europe/italy/tuscany/belmond-castello-di-casole/?utm_source=local_search&utm_medium=link&utm_campaign=google_business
+Email: 
+
+15762. Grecinella
+ID: f1b39303-bc0f-4402-9851-89b6becd2ef3
+Slug: grecinella-casole-d-elsa
+Nome: Grecinella
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Loc. Grecinella, 28, SP27, 53031 Casole d'Elsa SI
+Coordinate: Lat 43.360439, Lng 11.020634
+Website: http://www.grecinella.com/
+Email: 
+
+15763. HOTEL AL VECCHIO PIETRETO
+ID: 96156c82-d25f-4aac-a7c5-e852ff041970
+Slug: hotel-al-vecchio-pietreto-casole-d-elsa
+Nome: HOTEL AL VECCHIO PIETRETO
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Strada Vicinale del Pietreto, 73, 53034 Colle di Val d'Elsa SI
+Coordinate: Lat 43.388465, Lng 11.137808
+Website: https://www.hotelpietreto.it/
+Email: 
+
+15764. HOTEL LA SELVA - HOLISTIC HOTEL
+ID: 87adad06-cf19-44e1-b443-b41498f21441
+Slug: hotel-la-selva-holistic-hotel-casole-d-elsa
+Nome: HOTEL LA SELVA - HOLISTIC HOTEL
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Località Podere Pagliano, 22, 53031 Casole d'Elsa SI
+Coordinate: Lat 43.248633, Lng 11.149673
+Website: https://madreselva.earth/
+Email: 
+
+15765. Hotel Villa Belvedere
+ID: b5ce8b62-fe2b-4e1f-a49c-9d9e76342d96
+Slug: hotel-villa-belvedere-casole-d-elsa
+Nome: Hotel Villa Belvedere
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Via Senese, 53034 Loc. Belvedere, Colle Val d’Elsa SI
+Coordinate: Lat 43.415097, Lng 11.156077
+Website: http://www.villabelvedere.com/
+Email: 
+
+15766. La casa di Arianna
+ID: 7e2d2475-c7ac-483e-a967-9f9082e746d9
+Slug: la-casa-di-arianna-casole-d-elsa
+Nome: La casa di Arianna
+Comune / Provincia: Casole d'Elsa
+Indirizzo: 53031 Casole d'Elsa SI
+Coordinate: Lat 43.339142, Lng 11.058848
+Website: —
+Email: 
+
+15767. La Peschiera Casole d'Elsa - Agriturismo
+ID: 5fc457f7-92fe-460d-81c5-24f99ff93ab9
+Slug: la-peschiera-casole-d-elsa-agriturismo-casole-d-elsa
+Nome: La Peschiera Casole d'Elsa - Agriturismo
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Località Cavallano, 8, 53031 Casole d'Elsa SI
+Coordinate: Lat 43.354156, Lng 11.050697
+Website: https://www.ilcanneto.net/agriturismo-singolo.php?url=la-peschiera
+Email: 
+
+15768. Monti 1824 - Cottages & Apartments
+ID: d4567ae3-24a1-475e-bc04-885f40200760
+Slug: monti-1824-cottages-apartments-casole-d-elsa
+Nome: Monti 1824 - Cottages & Apartments
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Viale della Rimembranza, 12, 53031 Casole d'Elsa SI
+Coordinate: Lat 43.34778, Lng 11.033345
+Website: https://monti1824.com/
+Email: 
+
+15769. Podere la Ciabatta
+ID: de057c21-2fcf-43da-a455-e93e2deafc0a
+Slug: podere-la-ciabatta-casole-d-elsa
+Nome: Podere la Ciabatta
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Località Monti, 16, 53031 Casole d'Elsa SI
+Coordinate: Lat 43.351472, Lng 11.023433
+Website: https://www.podereciabatta.com/
+Email: 
+
+15770. Relax Hotel Acquaviva – Tuscany Hills
+ID: 70e44bcd-dc40-49f2-b57c-867146f8145e
+Slug: relax-hotel-acquaviva-tuscany-hills-casole-d-elsa
+Nome: Relax Hotel Acquaviva – Tuscany Hills
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Località Acquaviva, 1, 53031 Casole d'Elsa SI
+Coordinate: Lat 43.36235, Lng 11.024235
+Website: https://www.acquavivasparelaxhotelcasole.it/it/
+Email: 
+
+15771. Sportland la badia
+ID: df4a4f73-35d5-4796-a520-1f1675efedcd
+Slug: sportland-la-badia-casole-d-elsa
+Nome: Sportland la badia
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Via Liguria, 1, 53034 Colle di Val d'Elsa SI
+Coordinate: Lat 43.421017, Lng 11.139044
+Website: https://www.sportlandlabadia.it/
+Email: 
+
+15772. Tenuta Colombaio
+ID: 87ddd735-5730-4133-84ee-e7205b694664
+Slug: tenuta-colombaio-casole-d-elsa
+Nome: Tenuta Colombaio
+Comune / Provincia: Casole d'Elsa
+Indirizzo: Loc. Colombaio, Viale della Rimembranza, 27, 53034 Casole d'Elsa SI
+Coordinate: Lat 43.340359, Lng 11.038577
+Website: —
+Email: 
+
+15773. B&B La Casa di Giò
+ID: 7013239f-3f01-427d-80b4-c5a9400cdbc6
+Slug: b-b-la-casa-di-gio-casoli
+Nome: B&B La Casa di Giò
+Comune / Provincia: Casoli
+Indirizzo: Via della Pace, 9, 66034 Lanciano CH
+Coordinate: Lat 42.232963, Lng 14.398107
+Website: https://sites.google.com/view/lacasadigiolanciano
+Email: 
+
+15774. Lotus House Boutique B&b
+ID: 1e19830f-f281-42a6-b13d-0bbfb908ad98
+Slug: lotus-house-boutique-b-b-casoli
+Nome: Lotus House Boutique B&b
+Comune / Provincia: Casoli
+Indirizzo: Contrada Villa Stanazzo, 202, 66034 Lanciano CH
+Coordinate: Lat 42.227341, Lng 14.422242
+Website: http://www.lotushouse.it/
+Email: 
+
+15775. Palazzo Tilli
+ID: 06c0bdc0-c95a-4b17-a4cd-34ca891fb355
+Slug: palazzo-tilli-casoli
+Nome: Palazzo Tilli
+Comune / Provincia: Casoli
+Indirizzo: Largo del Fiore, 1, 66043 Casoli CH
+Coordinate: Lat 42.118731, Lng 14.293986
+Website: http://www.palazzotilli.it/
+Email: 
+
+15776. Residence La Piazzetta
+ID: 056558b7-324b-41cb-a7b1-9a52c026a9e2
+Slug: residence-la-piazzetta-casoli
+Nome: Residence La Piazzetta
+Comune / Provincia: Casoli
+Indirizzo: Viale 4 Novembre, sn, 66015 Fara San Martino CH
+Coordinate: Lat 42.08876, Lng 14.205379
+Website: http://www.residencelapiazzetta.it/
+Email: 
+
+15777. Agriturismo Sant'Anna
+ID: bdb7e71b-29a6-446e-8c9a-a9a0839270bb
+Slug: agriturismo-sant-anna-casorate-sempione
+Nome: Agriturismo Sant'Anna
+Comune / Provincia: Casorate Sempione
+Indirizzo: Via Eugenio Villoresi, 140, 21019 Somma Lombardo VA
+Coordinate: Lat 45.675921, Lng 8.68797
+Website: http://www.aziendasantanna.com/
+Email: 
+
+15778. B&B Il Poggio
+ID: 0c5d3832-0053-40cb-9b02-7dbc55b0935f
+Slug: b-b-il-poggio-casorate-sempione
+Nome: B&B Il Poggio
+Comune / Provincia: Casorate Sempione
+Indirizzo: Via S. Martino, 11, 21011 Casorate Sempione VA
+Coordinate: Lat 45.667214, Lng 8.740007
+Website: http://www.ilpoggiodiste.it/
+Email: 
+
+15779. Jet Hotel, Sure Hotel Collection by Best Western
+ID: 96979e32-9218-4ee2-9cb7-9d44a52e57c4
+Slug: jet-hotel-sure-hotel-collection-by-best-western-casorate-sempione
+Nome: Jet Hotel, Sure Hotel Collection by Best Western
+Comune / Provincia: Casorate Sempione
+Indirizzo: Via Tiro a Segno, 22, 21013 Gallarate VA
+Coordinate: Lat 45.65009, Lng 8.802769
+Website: http://www.jethotel.com/
+Email: 
+
+15780. Novotel Milano Malpensa Airport
+ID: 39973cb8-471e-42d2-8143-d3475c92af30
+Slug: novotel-milano-malpensa-airport-casorate-sempione
+Nome: Novotel Milano Malpensa Airport
+Comune / Provincia: Casorate Sempione
+Indirizzo: Via Al Campo, 99, 21010 Cardano al Campo VA
+Coordinate: Lat 45.64186, Lng 8.758944
+Website: https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=3458&merchantid=seo-maps-IT-3458&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps
+Email: 
+
+15781. B&B La Filanda di Francesca Meneghin
+ID: d7bbe234-f5fc-47ef-b13f-43be89744f37
+Slug: b-b-la-filanda-di-francesca-meneghin-casorezzo
+Nome: B&B La Filanda di Francesca Meneghin
+Comune / Provincia: Casorezzo
+Indirizzo: Via Europa, 14, 20010 Casorezzo MI
+Coordinate: Lat 45.524696, Lng 8.902865
+Website: http://www.beblafilanda.it/
+Email: 
+
+15782. BED & BREAKFAST IL CALIMUN
+ID: 07cb6150-fd84-4182-b9dc-26a32ebc9c24
+Slug: bed-breakfast-il-calimun-casorezzo
+Nome: BED & BREAKFAST IL CALIMUN
+Comune / Provincia: Casorezzo
+Indirizzo: Via dell'Asilo, 25, 20003 Casorezzo MI
+Coordinate: Lat 45.522315, Lng 8.900626
+Website: —
+Email: 
+
+15783. Crespi House - Cin IT015168C1KNATKFXZ
+ID: 6a6b2b3d-d573-42cc-8cf1-cb8de72d279c
+Slug: crespi-house-cin-it015168c1knatkfxz-casorezzo
+Nome: Crespi House - Cin IT015168C1KNATKFXZ
+Comune / Provincia: Casorezzo
+Indirizzo: Via Valsugana, 1, 20015 Parabiago MI
+Coordinate: Lat 45.531386, Lng 8.937456
+Website: —
+Email: 
+
+15784. San Giacomo Horses & Agriturismo
+ID: 544c77e2-71fa-406d-b848-3f6c79f38b23
+Slug: san-giacomo-horses-agriturismo-casorezzo
+Nome: San Giacomo Horses & Agriturismo
+Comune / Provincia: Casorezzo
+Indirizzo: Strada, Cascina S. Giacomo, 20004 Arluno MI
+Coordinate: Lat 45.519378, Lng 8.927389
+Website: http://www.sangiacomohorses.it/
+Email: 
+
+15785. Hotel Kursaal - Camera day use - Napoli
+ID: 647b713a-88ef-4a19-880f-f679d27fd63d
+Slug: hotel-kursaal-camera-day-use-napoli-casoria
+Nome: Hotel Kursaal - Camera day use - Napoli
+Comune / Provincia: Casoria
+Indirizzo: Via Raffaele Ruggiero, 289, 80125 Napoli NA
+Coordinate: Lat 40.837065, Lng 14.175126
+Website: https://albergokursal.it/
+Email: 

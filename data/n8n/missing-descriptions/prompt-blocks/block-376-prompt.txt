@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+13126. Hotel da Fine
+ID: c3341e1b-e79e-4aaa-a938-835fbd566896
+Slug: hotel-da-fine-campo-nell-elba
+Nome: Hotel da Fine
+Comune / Provincia: Campo nell'Elba
+Indirizzo: Via Vallebuia, 4, 57034 Seccheto LI
+Coordinate: Lat 42.737459, Lng 10.175038
+Website: http://www.hoteldafine.it/
+Email: 
+
+13127. Hotel Eden Park
+ID: e01d6551-815d-4978-a14f-c1a2e2ce113b
+Slug: hotel-eden-park-campo-nell-elba
+Nome: Hotel Eden Park
+Comune / Provincia: Campo nell'Elba
+Indirizzo: Via Pian di Mezzo, 917, 57034 Marina di Campo LI
+Coordinate: Lat 42.757059, Lng 10.22478
+Website: https://booking.passepartout.cloud/booking?oidPortale=23911&lingua=it
+Email: 
+
+13128. Hotel Elba
+ID: 61e9569a-7d68-440f-b259-99916b58f424
+Slug: hotel-elba-campo-nell-elba
+Nome: Hotel Elba
+Comune / Provincia: Campo nell'Elba
+Indirizzo: Via Vecchia Aurelia, 301, 57016 Rosignano Marittimo LI
+Coordinate: Lat 43.388181, Lng 10.437384
+Website: http://www.elbahotel.net/
+Email: 
+
+13129. HOTEL GALLI - WELLNESS & SPA
+ID: 448b4bba-bef0-41ae-aabf-6370bfc5b26f
+Slug: hotel-galli-wellness-spa-campo-nell-elba
+Nome: HOTEL GALLI - WELLNESS & SPA
+Comune / Provincia: Campo nell'Elba
+Indirizzo: Via Fetovaia, 115, 57034 Campo nell'Elba LI
+Coordinate: Lat 42.73471, Lng 10.151375
+Website: http://www.hotelgalli.it/
+Email: 
+
+13130. Hotel la Stella
+ID: 9a4af892-bb9b-4b5f-a2ba-b83cdb73fec4
+Slug: hotel-la-stella-campo-nell-elba
+Nome: Hotel la Stella
+Comune / Provincia: Campo nell'Elba
+Indirizzo: Via della Costa, 6639, 57034 Seccheto LI
+Coordinate: Lat 42.735567, Lng 10.175619
+Website: http://www.hotellastella.it/
+Email: 
+
+13131. Hotel Lilly
+ID: bcf5670e-4a44-44da-b15e-01e559b0ef98
+Slug: hotel-lilly-campo-nell-elba
+Nome: Hotel Lilly
+Comune / Provincia: Campo nell'Elba
+Indirizzo: Viale degli Etruschi, 333, 57034 Marina di Campo LI
+Coordinate: Lat 42.750697, Lng 10.237861
+Website: http://www.lillyhotel.it/
+Email: 
+
+13132. Hotel Lo Scirocco
+ID: a0db12fa-6a3d-432f-99b6-1a83ba7cc673
+Slug: hotel-lo-scirocco-campo-nell-elba
+Nome: Hotel Lo Scirocco
+Comune / Provincia: Campo nell'Elba
+Indirizzo: Via Fetovaia, 84, 57034 Campo nell'Elba LI
+Coordinate: Lat 42.734808, Lng 10.151787
+Website: http://www.hotellosciroccoisoladelba.it/
+Email: 
+
+13133. Hotel Mirage - Marina di Campo
+ID: b450a270-7d31-4b69-b7a2-6294f49c3df9
+Slug: hotel-mirage-marina-di-campo-campo-nell-elba
+Nome: Hotel Mirage - Marina di Campo
+Comune / Provincia: Campo nell'Elba
+Indirizzo: Viale degli Etruschi, 405, 57034 Campo nell'Elba LI
+Coordinate: Lat 42.751011, Lng 10.23858
+Website: https://www.hotelmirage.com/
+Email: 
+
+13134. Hotel Santa Caterina - Isola d'Elba
+ID: 563e7074-8de5-43fe-99e1-e3d17b8872b6
+Slug: hotel-santa-caterina-isola-d-elba-campo-nell-elba
+Nome: Hotel Santa Caterina - Isola d'Elba
+Comune / Provincia: Campo nell'Elba
+Indirizzo: Viale Elba, 85, 57034 Marina di Campo LI
+Coordinate: Lat 42.750806, Lng 10.235603
+Website: https://www.hotelsantacaterinaelba.it/
+Email: 
+
+13135. Hotel Sardi
+ID: 0ce31934-92c8-4290-9710-813f4fb38e80
+Slug: hotel-sardi-campo-nell-elba
+Nome: Hotel Sardi
+Comune / Provincia: Campo nell'Elba
+Indirizzo: Via del Maestrale, 1, 57030 Pomonte LI
+Coordinate: Lat 42.748411, Lng 10.119097
+Website: http://www.hotelsardi.it/
+Email: 
+
+13136. Hotel Villa Etrusca
+ID: 65275e7a-1232-4d65-a3d1-afe8ee6e56d7
+Slug: hotel-villa-etrusca-campo-nell-elba
+Nome: Hotel Villa Etrusca
+Comune / Provincia: Campo nell'Elba
+Indirizzo: Viale degli Etruschi, 283, 57034 Campo nell'Elba LI
+Coordinate: Lat 42.750486, Lng 10.237539
+Website: http://www.hotelvillaetrusca.it/
+Email: 
+
+13137. Hotel Villa Nettuno
+ID: cf0c9657-dc33-47a9-a9b4-f08a4c5b6704
+Slug: hotel-villa-nettuno-campo-nell-elba
+Nome: Hotel Villa Nettuno
+Comune / Provincia: Campo nell'Elba
+Indirizzo: Viale degli Etruschi, 652, 57034 Marina di Campo LI
+Coordinate: Lat 42.751177, Lng 10.241638
+Website: http://www.villanettuno.it/
+Email: 
+
+13138. Locanda Dell'Amicizia Di Pierulivo Enrica & C. S.A.S.
+ID: 2570787a-dceb-4c6c-be22-de8455be3eeb
+Slug: locanda-dell-amicizia-di-pierulivo-enrica-c-s-a-campo-nell-elba
+Nome: Locanda Dell'Amicizia Di Pierulivo Enrica & C. S.A.S.
+Comune / Provincia: Campo nell'Elba
+Indirizzo: 57034 Vallebuia LI, Italia
+Coordinate: Lat 42.74513, Lng 10.17035
+Website: https://locandadellamicizia.com/
+Email: 
+
+13139. PFA Hotel Ginevra - Isola d'Elba
+ID: 65de9f9c-411b-4975-83f6-b614d3831881
+Slug: pfa-hotel-ginevra-isola-d-elba-campo-nell-elba
+Nome: PFA Hotel Ginevra - Isola d'Elba
+Comune / Provincia: Campo nell'Elba
+Indirizzo: Via A. de Gasperi, 63, 57038 Cavo LI
+Coordinate: Lat 42.858127, Lng 10.418751
+Website: http://www.albergoginevra.it/
+Email: 
+
+13140. Piccolo Hotel Versilia
+ID: 4b794f17-222e-461a-8629-88d3222a8dbb
+Slug: piccolo-hotel-versilia-campo-nell-elba
+Nome: Piccolo Hotel Versilia
+Comune / Provincia: Campo nell'Elba
+Indirizzo: Via dell'Acquedotto, 1580, 57034 Marina di Campo LI
+Coordinate: Lat 42.752559, Lng 10.243022
+Website: http://www.piccolohotelversilia.it/
+Email: 
+
+13141. AGRIALLOGGI LAPALAZZINA
+ID: 84ed27fd-5b0f-4f2e-8ee6-4a51bde4a45e
+Slug: agrialloggi-lapalazzina-campo-san-martino
+Nome: AGRIALLOGGI LAPALAZZINA
+Comune / Provincia: Campo San Martino
+Indirizzo: Via Vittorio Veneto, 72, 35010 Curtarolo PD
+Coordinate: Lat 45.520707, Lng 11.840581
+Website: http://www.agrialloggilapalazzina.it/
+Email: 
+
+13142. Agriturismo con alloggi Honey Farm
+ID: 74215459-87d6-446d-845b-235c6bcca998
+Slug: agriturismo-con-alloggi-honey-farm-campo-san-martino
+Nome: Agriturismo con alloggi Honey Farm
+Comune / Provincia: Campo San Martino
+Indirizzo: Via dell'Orto, 52b, 35016 Piazzola sul Brenta PD
+Coordinate: Lat 45.530631, Lng 11.798305
+Website: http://swite.com/agriturismohoneyfarm
+Email: 
+
+13143. Agriturismo Sartor San Giorgio in Bosco
+ID: b9366ea3-167b-4d28-863b-b11b17c07783
+Slug: agriturismo-sartor-san-giorgio-in-bosco-campo-san-martino
+Nome: Agriturismo Sartor San Giorgio in Bosco
+Comune / Provincia: Campo San Martino
+Indirizzo: Via Calandrine, 2320, 35010 San Giorgio in Bosco PD
+Coordinate: Lat 45.582717, Lng 11.833297
+Website: https://sartor-san-giorgio-bosco.migliorhotel.top/
+Email: 
+
+13144. B&B Maison Parco del Brenta Curtarolo
+ID: 3499d87c-3be9-4bec-ba30-7902b61d8907
+Slug: b-b-maison-parco-del-brenta-curtarolo-campo-san-martino
+Nome: B&B Maison Parco del Brenta Curtarolo
+Comune / Provincia: Campo San Martino
+Indirizzo: di Curtarolo, Via Monte Pasubio, 41, 35010 Pieve PD
+Coordinate: Lat 45.534003, Lng 11.817422
+Website: https://maisonparcodelbrenta.it/
+Email: 
+
+13145. Camerini Guest House
+ID: e3df8c39-dc0d-4255-8421-7ff394b52932
+Slug: camerini-guest-house-campo-san-martino
+Nome: Camerini Guest House
+Comune / Provincia: Campo San Martino
+Indirizzo: Via XX Settembre, 71, 35016 Piazzola sul Brenta PD
+Coordinate: Lat 45.537344, Lng 11.786188
+Website: https://cameriniguesthouse.it/
+Email: 
+
+13146. Hotel Alle Scuole
+ID: 38350d67-d724-4098-ad25-6b8f9fb22de8
+Slug: hotel-alle-scuole-campo-san-martino
+Nome: Hotel Alle Scuole
+Comune / Provincia: Campo San Martino
+Indirizzo: Via Garavello Don Ernesto, 2, 35010 Santa Maria di Non PD
+Coordinate: Lat 45.514366, Lng 11.856658
+Website: http://www.hotelallescuole.it/
+Email: 
+
+13147. Hotel Ariston
+ID: c1d84a42-dc54-4649-a524-055a6250ef1b
+Slug: hotel-ariston-campo-san-martino
+Nome: Hotel Ariston
+Comune / Provincia: Campo San Martino
+Indirizzo: Via Antoniana, 230, 35011 Campodarsego PD
+Coordinate: Lat 45.503387, Lng 11.907534
+Website: http://www.hotel-ariston.com/
+Email: 
+
+13148. Hotel Bracco
+ID: e67a7d8c-d519-49c0-9c6a-2af047e5c66e
+Slug: hotel-bracco-campo-san-martino
+Nome: Hotel Bracco
+Comune / Provincia: Campo San Martino
+Indirizzo: Via Loreggiola, 115, 35010 Loreggiola PD
+Coordinate: Lat 45.606976, Lng 11.921136
+Website: http://www.hotelbracco.it/
+Email: 
+
+13149. Hotel-Ristorante-Pizzeria "al Leone"
+ID: 5369b13c-3111-4ca2-833f-26faa9baaac6
+Slug: hotel-ristorante-pizzeria-al-leone-campo-san-martino
+Nome: Hotel-Ristorante-Pizzeria "al Leone"
+Comune / Provincia: Campo San Martino
+Indirizzo: Via Roma, 47, 35010 Villa del Conte PD
+Coordinate: Lat 45.585951, Lng 11.858579
+Website: http://www.hotelalleone.it/
+Email: 
+
+13150. La Brenta Vecchia Ristorante & Alloggi
+ID: d41b9553-84c1-466f-bb46-774e110443a6
+Slug: la-brenta-vecchia-ristorante-alloggi-campo-san-martino
+Nome: La Brenta Vecchia Ristorante & Alloggi
+Comune / Provincia: Campo San Martino
+Indirizzo: Via Maresana, 22 /A, 35010 Vigodarzere PD
+Coordinate: Lat 45.483565, Lng 11.847476
+Website: https://www.labrentavecchia.it/
+Email: 
+
+13151. La Penisola Agriturismo
+ID: 94240c0f-bf29-4fe3-b4a2-456d4c13a5c0
+Slug: la-penisola-agriturismo-campo-san-martino
+Nome: La Penisola Agriturismo
+Comune / Provincia: Campo San Martino
+Indirizzo: Via Kennedy, 19, 35010 Campo San Martino PD
+Coordinate: Lat 45.550243, Lng 11.806266
+Website: http://www.agriturismolapenisola.it/
+Email: 
+
+13152. AhriaPura Apartments
+ID: d24e3c85-3da5-42c2-bfe4-7b6063070e25
+Slug: ahriapura-apartments-campo-tures-sand-in-taufers
+Nome: AhriaPura Apartments
+Comune / Provincia: Campo Tures/Sand in Taufers
+Indirizzo: Michelreiserweg, 5, 39032 Campo Tures BZ
+Coordinate: Lat 46.919342, Lng 11.949421
+Website: https://www.ahria-apartments.it/?utm_source=GoogleMyBusiness&utm_medium=KlickWebsite&utm_campaign=GoogleMyBusiness
+Email: 
+
+13153. Albergo Trojer
+ID: 4130bebd-ae6a-425a-ab88-d0efa30635a3
+Slug: albergo-trojer-campo-tures-sand-in-taufers
+Nome: Albergo Trojer
+Comune / Provincia: Campo Tures/Sand in Taufers
+Indirizzo: Via S. Maurizio, 9, 39032 Campo Tures BZ
+Coordinate: Lat 46.920489, Lng 11.956482
+Website: http://www.garni-trojer.com/
+Email: 
+
+13154. Alphotel Stocker
+ID: 772779dc-528a-4a1d-bfd1-96eb0eef8184
+Slug: alphotel-stocker-campo-tures-sand-in-taufers
+Nome: Alphotel Stocker
+Comune / Provincia: Campo Tures/Sand in Taufers
+Indirizzo: Via Wiesenhof, 41, 39032 Campo Tures BZ
+Coordinate: Lat 46.917822, Lng 11.957333
+Website: https://www.hotelstocker.com/
+Email: 
+
+13155. Apparthotel Central
+ID: 62bfd467-be1e-44c5-80cb-87624af02770
+Slug: apparthotel-central-campo-tures-sand-in-taufers
+Nome: Apparthotel Central
+Comune / Provincia: Campo Tures/Sand in Taufers
+Indirizzo: Josef Jungmann Straße, 1, 39032 Campo Tures BZ
+Coordinate: Lat 46.918257, Lng 11.952164
+Website: http://www.apparthotel-central.com/
+Email: 
+
+13156. B&B Hotel Heini
+ID: c82e1f3c-9c09-4f36-926c-a367b7c8d5fc
+Slug: b-b-hotel-heini-campo-tures-sand-in-taufers
+Nome: B&B Hotel Heini
+Comune / Provincia: Campo Tures/Sand in Taufers
+Indirizzo: Vicolo Bayer, 16, 39032 Campo Tures BZ
+Coordinate: Lat 46.920806, Lng 11.951822
+Website: http://www.hotel-heini.com/
+Email: 
+
+13157. Bergheimat By Alfred
+ID: fd9bdc49-955a-49f6-b306-a00deabc4bac
+Slug: bergheimat-by-alfred-campo-tures-sand-in-taufers
+Nome: Bergheimat By Alfred
+Comune / Provincia: Campo Tures/Sand in Taufers
+Indirizzo: Via Obergasse, 21, 39032 Acereto BZ
+Coordinate: Lat 46.926751, Lng 11.981812
+Website: https://www.byalfred.net/de
+Email: 
+
+13158. Feldmilla Design Hotel - Wellness & SPA
+ID: a8cf3694-57cc-417b-b33d-d6186316341b
+Slug: feldmilla-design-hotel-wellness-spa-campo-tures-sand-in-taufers
+Nome: Feldmilla Design Hotel - Wellness & SPA
+Comune / Provincia: Campo Tures/Sand in Taufers
+Indirizzo: Via al Castello, 9, 39032 Campo Tures BZ
+Coordinate: Lat 46.921354, Lng 11.952636
+Website: https://www.feldmilla.com/
+Email: 
+
+13159. Garberhof
+ID: 4a66b980-3fbb-47ce-987e-92dfa6eb2dc5
+Slug: garberhof-campo-tures-sand-in-taufers
+Nome: Garberhof
+Comune / Provincia: Campo Tures/Sand in Taufers
+Indirizzo: Via Winkel, 60, 39032 Campo Tures BZ
+Coordinate: Lat 46.916041, Lng 11.969509
+Website: http://garberhof-stocker.it/
+Email: 
+
+13160. Garni Bergfried
+ID: 91d1c053-ed1a-41a2-afde-a9d39c4945e5
+Slug: garni-bergfried-campo-tures-sand-in-taufers
+Nome: Garni Bergfried
+Comune / Provincia: Campo Tures/Sand in Taufers
+Indirizzo: Vicolo Bayer, 32, 39032 Campo Tures BZ
+Coordinate: Lat 46.920959, Lng 11.950839
+Website: —
+Email: 

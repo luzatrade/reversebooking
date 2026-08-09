@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+3081. La Darbia Resort
+ID: 9d9c4c4a-a451-446f-a76b-b7ace8fa3eab
+Slug: la-darbia-resort-ameno
+Nome: La Darbia Resort
+Comune / Provincia: Ameno
+Indirizzo: Via per Miasino, 28016 Orta San Giulio NO
+Coordinate: Lat 45.793825, Lng 8.425606
+Website: https://www.ladarbia.com/
+Email: 
+
+3082. Ostello del Quadrifoglio by Le Pigne World
+ID: 4c36e005-bd7f-4443-813e-286baba59b42
+Slug: ostello-del-quadrifoglio-by-le-pigne-world-ameno
+Nome: Ostello del Quadrifoglio by Le Pigne World
+Comune / Provincia: Ameno
+Indirizzo: Vicolo Filiberti, 8, 28010 Ameno NO
+Coordinate: Lat 45.788765, Lng 8.438749
+Website: http://www.ostellodelquadrifoglio.it/
+Email: 
+
+3083. Villa Antica Colonia Spa&Wellness
+ID: 25ccf890-29ce-475f-8932-508d551c2c1d
+Slug: villa-antica-colonia-spa-wellness-ameno
+Nome: Villa Antica Colonia Spa&Wellness
+Comune / Provincia: Ameno
+Indirizzo: Via Primatesta, 7, 28028 Crabbia NO
+Coordinate: Lat 45.828375, Lng 8.400742
+Website: http://www.anticacolonia.com/
+Email: 
+
+3084. Villa Crespi
+ID: b35a3130-790f-4f0e-b74f-d7b18c581af6
+Slug: villa-crespi-ameno
+Nome: Villa Crespi
+Comune / Provincia: Ameno
+Indirizzo: Via Giuseppe Fava, 18, 28016 Orta San Giulio NO
+Coordinate: Lat 45.79641, Lng 8.416054
+Website: http://www.villacrespi.it/
+Email: 
+
+3085. Affittacamere Don Orazio Antico Casale
+ID: 8a39c907-5ea1-4b3c-810c-d1ce78cd8535
+Slug: affittacamere-don-orazio-antico-casale-amorosi
+Nome: Affittacamere Don Orazio Antico Casale
+Comune / Provincia: Amorosi
+Indirizzo: via Iacovelli, 82030 Faicchio BN
+Coordinate: Lat 41.261238, Lng 14.511823
+Website: —
+Email: 
+
+3086. Agriturismo - Bed and Breakfast Masseria Mezzanotte
+ID: 99bee07e-a98e-4455-9485-f9733c329556
+Slug: agriturismo-bed-and-breakfast-masseria-mezzanott-amorosi
+Nome: Agriturismo - Bed and Breakfast Masseria Mezzanotte
+Comune / Provincia: Amorosi
+Indirizzo: Via Corte Nocera, 28, 82030 San Salvatore Telesino BN
+Coordinate: Lat 41.239004, Lng 14.487522
+Website: http://www.masseriamezzanotte.it/
+Email: 
+
+3087. Agriturismo e Azienda Agricola Corte Ciervo
+ID: 31cbc01f-12ec-42d5-b186-bd271a4d10d2
+Slug: agriturismo-e-azienda-agricola-corte-ciervo-amorosi
+Nome: Agriturismo e Azienda Agricola Corte Ciervo
+Comune / Provincia: Amorosi
+Indirizzo: Contrada Purgatorio, 3, 82030 San Salvatore Telesino BN
+Coordinate: Lat 41.22636, Lng 14.506097
+Website: https://www.corteciervo.it/
+Email: 
+
+3088. Amorosi
+ID: d86e064f-0c98-47f4-9b72-bd626d67ba29
+Slug: amorosi-amorosi
+Nome: Amorosi
+Comune / Provincia: Amorosi
+Indirizzo: Via Telese, 296, 82031 Telese BN
+Coordinate: Lat 41.20779, Lng 14.486197
+Website: —
+Email: 
+
+3089. B&B Mon Amour CASA VACANZA ,amorosi benevento
+ID: 66fe1b69-19a5-40c9-ae60-b7bb5314230b
+Slug: b-b-mon-amour-casa-vacanza-amorosi-benevento-amorosi
+Nome: B&B Mon Amour CASA VACANZA ,amorosi benevento
+Comune / Provincia: Amorosi
+Indirizzo: Via S. Salvatore, 19, 82031 Amorosi BN
+Coordinate: Lat 41.204504, Lng 14.467821
+Website: https://casa-vacanza-mon-amour.italyvacations.top/
+Email: 
+
+3090. Casa Lerario
+ID: 421d099c-5128-412d-bc30-cee2ec72caa0
+Slug: casa-lerario-amorosi
+Nome: Casa Lerario
+Comune / Provincia: Amorosi
+Indirizzo: Contrada Laura, 6, 82030 Melizzano BN
+Coordinate: Lat 41.155294, Lng 14.490822
+Website: http://www.casalerario.it/
+Email: 
+
+3091. Choco B&B - Amnesia Experience
+ID: 69eb9cad-b27f-46f1-8edd-035d2481c7d8
+Slug: choco-b-b-amnesia-experience-amorosi
+Nome: Choco B&B - Amnesia Experience
+Comune / Provincia: Amorosi
+Indirizzo: Via Fausto Coppi, 16D, 82037 Telese Terme BN
+Coordinate: Lat 41.209713, Lng 14.530931
+Website: https://amnesiaexperience.it/
+Email: 
+
+3092. Dimora Rosae B&B
+ID: 42509bdd-08b6-4314-b6ca-9d615df8d26c
+Slug: dimora-rosae-b-b-amorosi
+Nome: Dimora Rosae B&B
+Comune / Provincia: Amorosi
+Indirizzo: Via Ferrovia, 4, 82037 Telese BN
+Coordinate: Lat 41.212234, Lng 14.525486
+Website: https://dimorarosae.it/
+Email: 
+
+3093. La Rosa Nel Cortile B&B
+ID: 1987a078-53ce-414f-b7c8-9e5c2fee794c
+Slug: la-rosa-nel-cortile-b-b-amorosi
+Nome: La Rosa Nel Cortile B&B
+Comune / Provincia: Amorosi
+Indirizzo: Via Roma, 56, 82031 Amorosi BN
+Coordinate: Lat 41.203609, Lng 14.464209
+Website: —
+Email: 
+
+3094. La terrazza sul Volturno B&B
+ID: f28afaaf-2f77-43dc-9eeb-0ee31eb57bbc
+Slug: la-terrazza-sul-volturno-b-b-amorosi
+Nome: La terrazza sul Volturno B&B
+Comune / Provincia: Amorosi
+Indirizzo: SP49, 151, 81010 Ruviano CE
+Coordinate: Lat 41.193282, Lng 14.450595
+Website: https://www.laterrazzasulvolturno.it/
+Email: 
+
+3095. La Torre B&B Home and Relax
+ID: 1f37bf04-8cc0-46fa-8d8f-d11e6fa4affe
+Slug: la-torre-b-b-home-and-relax-amorosi
+Nome: La Torre B&B Home and Relax
+Comune / Provincia: Amorosi
+Indirizzo: 63 Via San Salvatore Bis, Via S. Salvatore, 59, 82031 Amorosi BN
+Coordinate: Lat 41.20579, Lng 14.469443
+Website: —
+Email: 
+
+3096. Lvna Telesja B&b Hotel
+ID: d026498d-9e85-4c44-b933-a12cdff93ec7
+Slug: lvna-telesja-b-b-hotel-amorosi
+Nome: Lvna Telesja B&b Hotel
+Comune / Provincia: Amorosi
+Indirizzo: Via T. Tasso, 13, 82037 Telese Terme BN
+Coordinate: Lat 41.213347, Lng 14.527076
+Website: —
+Email: 
+
+3097. Nerium house
+ID: a26c085e-593d-406d-aa7f-1c4f034563d7
+Slug: nerium-house-amorosi
+Nome: Nerium house
+Comune / Provincia: Amorosi
+Indirizzo: Via Telese, 268, 82031 Amorosi BN
+Coordinate: Lat 41.206594, Lng 14.479477
+Website: http://bebnerium.com/
+Email: 
+
+3098. Villa Annamaria - B&B e casa vacanze
+ID: 574a34e6-0199-48bc-9fab-f0d33e4c6f0c
+Slug: villa-annamaria-b-b-e-casa-vacanze-amorosi
+Nome: Villa Annamaria - B&B e casa vacanze
+Comune / Provincia: Amorosi
+Indirizzo: Via S. Nicola, 7, 82031 Amorosi BN
+Coordinate: Lat 41.205046, Lng 14.461663
+Website: —
+Email: 
+
+3099. Villa Mariarosaria
+ID: 2f5629d2-2cbd-442e-9160-8b52622eef8d
+Slug: villa-mariarosaria-amorosi
+Nome: Villa Mariarosaria
+Comune / Provincia: Amorosi
+Indirizzo: Via Campagnano, 82031 Amorosi BN
+Coordinate: Lat 41.193188, Lng 14.465761
+Website: https://www.airbnb.it/rooms/1272993273963959536?adults=1&children=0&enable_m3_private_room=true&infants=0&pets=0&search_mode=regular_search&check_in=2025-03-01&check_out=2025-03-06&source_impression_id=p3_1731918048_P3qHIQy8i7Pnyr6i&previous_page_section_name=1000&federated_search_id=9a85113b-5540-4286-b83b-5caa1519235c
+Email: 
+
+3100. Albergo Dal Cortesan
+ID: 017b5315-4ecb-4659-8fd6-7fa6f8d3dcf1
+Slug: albergo-dal-cortesan-ampezzo
+Nome: Albergo Dal Cortesan
+Comune / Provincia: Ampezzo
+Indirizzo: V. Nazionale, 170, 33021 Ampezzo UD
+Coordinate: Lat 46.416354, Lng 12.791018
+Website: http://www.dalcortesan.altervista.org/
+Email: 
+
+3101. Albergo Galles
+ID: f9d92f68-10ca-400d-a5dc-e92e707aa9bf
+Slug: albergo-galles-ampezzo
+Nome: Albergo Galles
+Comune / Provincia: Ampezzo
+Indirizzo: Via Divisione Julia, 89 Casteons, 33026 Paluzza UD
+Coordinate: Lat 46.536835, Lng 13.013667
+Website: https://hotel-galles.bellaitaliatrips.top/
+Email: 
+
+3102. Albergo Grimani
+ID: d95a03e1-c6d1-481d-945f-6860fe891fd0
+Slug: albergo-grimani-ampezzo
+Nome: Albergo Grimani
+Comune / Provincia: Ampezzo
+Indirizzo: V. Nazionale, 35, 33021 Ampezzo UD
+Coordinate: Lat 46.416337, Lng 12.793891
+Website: http://www.residenzagrimani.it/
+Email: 
+
+3103. Albergo Ristorante alla Pagoda
+ID: a5bcea3c-c27d-41ed-8309-020ea8f4e5d7
+Slug: albergo-ristorante-alla-pagoda-ampezzo
+Nome: Albergo Ristorante alla Pagoda
+Comune / Provincia: Ampezzo
+Indirizzo: Via Maiaso, 2, 33020 Enemonzo UD
+Coordinate: Lat 46.420139, Lng 12.872694
+Website: https://www.unpostoatavola.it/ALLA_PAGODA/index.html
+Email: 
+
+3104. Albergo ristorante AriaPura
+ID: 54d2d9fd-3f16-4359-bb2c-573469f0a28c
+Slug: albergo-ristorante-ariapura-ampezzo
+Nome: Albergo ristorante AriaPura
+Comune / Provincia: Ampezzo
+Indirizzo: S.da Esterna Corso, 7, 33021 Ampezzo UD
+Coordinate: Lat 46.414968, Lng 12.76727
+Website: —
+Email: 
+
+3105. Albergo ristorante pizzeria Italia
+ID: f17f12e7-797f-4442-ac3a-612f2015e679
+Slug: albergo-ristorante-pizzeria-italia-ampezzo
+Nome: Albergo ristorante pizzeria Italia
+Comune / Provincia: Ampezzo
+Indirizzo: Via Roma, 48, 33026 Paluzza UD
+Coordinate: Lat 46.528482, Lng 13.015689
+Website: http://www.albergoitaliapaluzza.it/
+Email: 
+
+3106. Alpine Wellness Hotel e Ristorante Riglarhaus
+ID: b26e8d2a-d23e-4bea-9ceb-5c03cc76f8e1
+Slug: alpine-wellness-hotel-e-ristorante-riglarhaus-ampezzo
+Nome: Alpine Wellness Hotel e Ristorante Riglarhaus
+Comune / Provincia: Ampezzo
+Indirizzo: Frazione Lateis, 3, 33020 Sauris UD
+Coordinate: Lat 46.455682, Lng 12.748822
+Website: https://www.riglar.it/
+Email: 
+
+3107. BIKE & BIKERS HOTEL RESTAURANT
+ID: 4fca391b-6e53-43da-80c0-2f5bf6fe7134
+Slug: bike-bikers-hotel-restaurant-ampezzo
+Nome: BIKE & BIKERS HOTEL RESTAURANT
+Comune / Provincia: Ampezzo
+Indirizzo: V. Nazionale, 5, 33021 Ampezzo UD
+Coordinate: Lat 46.415776, Lng 12.795857
+Website: https://www.bikebikershotel.it/
+Email: 
+
+3108. Depandance - Albergo Grimani
+ID: 0aede5db-5d59-40b5-8e78-f9050f641dea
+Slug: depandance-albergo-grimani-ampezzo
+Nome: Depandance - Albergo Grimani
+Comune / Provincia: Ampezzo
+Indirizzo: Piazza Zona Libera 1944, 9/interno, 33021 Ampezzo UD
+Coordinate: Lat 46.416106, Lng 12.794237
+Website: https://www.residenzagrimani.it/
+Email: 
+
+3109. Hotel Davòst
+ID: e3a18eb8-4aaf-47bd-8bf3-c89f6db6a624
+Slug: hotel-davost-ampezzo
+Nome: Hotel Davòst
+Comune / Provincia: Ampezzo
+Indirizzo: Via Tagliamento, 26, 33024 Forni di Sopra UD
+Coordinate: Lat 46.420864, Lng 12.578185
+Website: http://www.hoteldavost.it/
+Email: 
+
+3110. Hotel Garnì Plueme | Sauris
+ID: 99a22326-4364-4f5a-82d6-ff39a758076c
+Slug: hotel-garni-plueme-sauris-ampezzo
+Nome: Hotel Garnì Plueme | Sauris
+Comune / Provincia: Ampezzo
+Indirizzo: fr, Via Sauris di Sotto, 26/a, 33020 Sauris UD
+Coordinate: Lat 46.464592, Lng 12.709403
+Website: https://hotelplueme.it/
+Email: 
+
+3111. Hotel Italia
+ID: cee1b273-4f63-4a04-992d-543a6335d957
+Slug: hotel-italia-ampezzo
+Nome: Hotel Italia
+Comune / Provincia: Ampezzo
+Indirizzo: Via Venezia, 35, 33024 Forni di Sopra UD
+Coordinate: Lat 46.411082, Lng 12.589629
+Website: https://www.hotelitaliafvg.com/it
+Email: 
+
+3112. Hotel Posta
+ID: 4628d3af-9819-42ae-8b4f-b25703e67bf0
+Slug: hotel-posta-ampezzo
+Nome: Hotel Posta
+Comune / Provincia: Ampezzo
+Indirizzo: V. Nazionale, 174, 33024 Forni di Sopra UD
+Coordinate: Lat 46.423904, Lng 12.578971
+Website: http://www.hotelposta.org/
+Email: 
+
+3113. Hotel Ristorante Bellavista
+ID: 5e347974-b86e-4fe0-a0d7-58cff7a59de4
+Slug: hotel-ristorante-bellavista-ampezzo
+Nome: Hotel Ristorante Bellavista
+Comune / Provincia: Ampezzo
+Indirizzo: Viale Edelweiss, 11, 33020 Ravascletto UD
+Coordinate: Lat 46.525263, Lng 12.924204
+Website: http://www.bellavistaravascletto.it/?utm_source=GoogleMyBusiness&utm_medium=KlickWebsite&utm_campaign=GoogleMyBusiness
+Email: 
+
+3114. Hotel Villa Alpina
+ID: 1adc8359-c15c-4bc2-83df-5b4164790a94
+Slug: hotel-villa-alpina-ampezzo
+Nome: Hotel Villa Alpina
+Comune / Provincia: Ampezzo
+Indirizzo: Via Madonna della Salute, 18, 33024 Forni di Sopra UD
+Coordinate: Lat 46.422506, Lng 12.58119
+Website: https://villaalpinaud.it/
+Email: 
+
+3115. La Stube
+ID: e11ab459-2775-43eb-bf1d-fc6d771a5321
+Slug: la-stube-ampezzo
+Nome: La Stube
+Comune / Provincia: Ampezzo
+Indirizzo: V. Nazionale, 276, 33024 Forni di Sopra UD
+Coordinate: Lat 46.417199, Lng 12.584986
+Website: http://www.lastube.it/
+Email: 

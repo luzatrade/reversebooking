@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+7666. Comeacasatua
+ID: 6d85501e-0feb-4acf-97e5-4868944d642f
+Slug: comeacasatua-basic
+Nome: Comeacasatua
+Comune / Provincia: Basic�
+Indirizzo: Str. Torre Tresca, 22, 70124 Bari BA
+Coordinate: Lat 41.093829, Lng 16.84928
+Website: https://www.booking.com/hotel/it/comeacasatua.it.html?aid=2323143&no_rooms=1&group_adults=2
+Email: 
+
+7667. Grotta Cilicia
+ID: 71dcbe5f-a282-40ea-9ad2-8bcee5c8dff6
+Slug: grotta-cilicia-basic
+Nome: Grotta Cilicia
+Comune / Provincia: Basic�
+Indirizzo: Via Giulio Pastore, 70015 Noci BA
+Coordinate: Lat 40.785963, Lng 17.129678
+Website: http://www.grottacilicia.it/
+Email: 
+
+7668. Hotel Barsotti
+ID: faa8ce1f-8459-491b-8755-f1e8cf1423e6
+Slug: hotel-barsotti-basic
+Nome: Hotel Barsotti
+Comune / Provincia: Basic�
+Indirizzo: Via Camillo Benso Conte di Cavour, 1, 72100 Brindisi BR
+Coordinate: Lat 40.635129, Lng 17.943328
+Website: https://barsotti.donhotel.net/
+Email: 
+
+7669. Hotel Sassi
+ID: ea7ad684-0953-49e0-a14f-a7defd90fa00
+Slug: hotel-sassi-basic
+Nome: Hotel Sassi
+Comune / Provincia: Basic�
+Indirizzo: Via S. Giovanni Vecchio, 89, 75100 Matera MT
+Coordinate: Lat 40.667096, Lng 16.609257
+Website: https://www.hotelsassi.it/
+Email: 
+
+7670. A Casa di Grace
+ID: eae785bc-0c02-4e10-9b23-a9f091801a8d
+Slug: a-casa-di-grace-basiglio
+Nome: A Casa di Grace
+Comune / Provincia: Basiglio
+Indirizzo: Residenza Golfo, Via Giotto, 2, 20079 Basiglio MI
+Coordinate: Lat 45.358078, Lng 9.159511
+Website: https://stayedhotel.eu/a-casa-di-grace-milano-3-basiglio-italy
+Email: 
+
+7671. Agriturismo Le Risaie
+ID: 98c94fe0-d13a-4822-80ab-9df6e9b6cae5
+Slug: agriturismo-le-risaie-basiglio
+Nome: Agriturismo Le Risaie
+Comune / Provincia: Basiglio
+Indirizzo: Piazza Monsignor Rossi, 2, 20079 Basiglio MI
+Coordinate: Lat 45.349062, Lng 9.163868
+Website: http://agriturismolerisaie.it/
+Email: 
+
+7672. B&B Botton d'Oro
+ID: 373851f6-6fb3-40c1-8e1d-5a983d5dfb28
+Slug: b-b-botton-d-oro-basiglio
+Nome: B&B Botton d'Oro
+Comune / Provincia: Basiglio
+Indirizzo: Via Giuseppe Verdi, 5D, 20079 Basiglio MI
+Coordinate: Lat 45.365332, Lng 9.159248
+Website: http://www.bottondorobasiglio.com/
+Email: 
+
+7673. B&B La Dimora di Charme
+ID: a1475656-0805-4287-bc90-5467d6e959de
+Slug: b-b-la-dimora-di-charme-basiglio
+Nome: B&B La Dimora di Charme
+Comune / Provincia: Basiglio
+Indirizzo: Via Cristoforo Colombo, 20079 Basiglio MI
+Coordinate: Lat 45.362938, Lng 9.154733
+Website: —
+Email: 
+
+7674. BB I Salici
+ID: 91f7dac3-c3a4-4d6a-ac11-340268aeb9ae
+Slug: bb-i-salici-basiglio
+Nome: BB I Salici
+Comune / Provincia: Basiglio
+Indirizzo: Via Giuseppe Verdi, Salici 132, 20079 Basiglio MI
+Coordinate: Lat 45.366374, Lng 9.156718
+Website: http://www.bbisalici.it/
+Email: 
+
+7675. Corte Basiglio
+ID: 364cc552-d14d-4533-89e7-56f3c5f3bbe1
+Slug: corte-basiglio-basiglio
+Nome: Corte Basiglio
+Comune / Provincia: Basiglio
+Indirizzo: Via Privata Gennari, 1, 20079 Basiglio MI
+Coordinate: Lat 45.348669, Lng 9.164437
+Website: https://www.cortebasiglio.com/
+Email: 
+
+7676. Hotel Ascot
+ID: 1ce25dbd-5313-4a4b-9441-aaa1b91aaf0a
+Slug: hotel-ascot-basiglio
+Nome: Hotel Ascot
+Comune / Provincia: Basiglio
+Indirizzo: Strada Provinciale 35, SPexSS35, 12, 20082 Binasco MI
+Coordinate: Lat 45.330944, Lng 9.1033
+Website: —
+Email: 
+
+7677. Hotel Comtur
+ID: 60b7647e-c857-47e9-b6a4-41a6565e6c7e
+Slug: hotel-comtur-basiglio
+Nome: Hotel Comtur
+Comune / Provincia: Basiglio
+Indirizzo: Via Europa, 11, 20082 Binasco MI
+Coordinate: Lat 45.331987, Lng 9.102872
+Website: http://www.hotelcomtur.com/
+Email: 
+
+7678. Hotel Elys
+ID: d273f51a-436c-4509-8bc9-2c8d1825cdab
+Slug: hotel-elys-basiglio
+Nome: Hotel Elys
+Comune / Provincia: Basiglio
+Indirizzo: Via Liguria, 5, 20090 Pieve Emanuele MI
+Coordinate: Lat 45.374419, Lng 9.169284
+Website: http://www.hotelelys.it/
+Email: 
+
+7679. Hotel Motel Visconteo
+ID: 13a92725-f400-4491-a152-a2b858e5b794
+Slug: hotel-motel-visconteo-basiglio
+Nome: Hotel Motel Visconteo
+Comune / Provincia: Basiglio
+Indirizzo: Str. Cerca, 130, 20082 Binasco MI
+Coordinate: Lat 45.337712, Lng 9.103
+Website: https://www.hotelmotelvisconteo.it/
+Email: 
+
+7680. Residenze Il Borromeo
+ID: 63e30420-c50d-4bb4-bb65-5bf2c7cc5342
+Slug: residenze-il-borromeo-basiglio
+Nome: Residenze Il Borromeo
+Comune / Provincia: Basiglio
+Indirizzo: Via Sardegna, 7, 20072 Pieve Emanuele MI
+Coordinate: Lat 45.37301, Lng 9.171987
+Website: https://www.ilborromeo.it/
+Email: 
+
+7681. Ristorante La Pergola
+ID: 2f17cc40-671b-4ff5-97a8-84688e98c5ba
+Slug: ristorante-la-pergola-basiglio
+Nome: Ristorante La Pergola
+Comune / Provincia: Basiglio
+Indirizzo: Strada Statale dei Giovi, 23 20058, 20058 Badile MI
+Coordinate: Lat 45.353786, Lng 9.127357
+Website: https://www.lapergolazibido.com/
+Email: 
+
+7682. Ai Gelsi Hotel
+ID: 9e573abe-daa5-406d-9ff0-042552776d32
+Slug: ai-gelsi-hotel-basiliano
+Nome: Ai Gelsi Hotel
+Comune / Provincia: Basiliano
+Indirizzo: Via Circonvallazione Ovest, 12, 33033 Codroipo UD
+Coordinate: Lat 45.956799, Lng 12.973243
+Website: http://www.gelsi.com/
+Email: 
+
+7683. Albergo Baschera
+ID: fc1ac4ef-de27-4a60-a720-491e0011a35d
+Slug: albergo-baschera-basiliano
+Nome: Albergo Baschera
+Comune / Provincia: Basiliano
+Indirizzo: Via Umberto I, 6/2, 33034 Fagagna UD
+Coordinate: Lat 46.111516, Lng 13.086183
+Website: https://www.albergobaschera.it/
+Email: 
+
+7684. Astoria Hotel Italia
+ID: 4f9d81e1-c0c9-4e58-9a75-a19a7a5a830a
+Slug: astoria-hotel-italia-basiliano
+Nome: Astoria Hotel Italia
+Comune / Provincia: Basiliano
+Indirizzo: Piazza XX Settembre, 24, 33100 Udine UD
+Coordinate: Lat 46.061469, Lng 13.233909
+Website: http://www.hotelastoria.udine.it/
+Email: 
+
+7685. B&B Altebas
+ID: 6870a925-c5be-44ad-93b8-d48701984af3
+Slug: b-b-altebas-basiliano
+Nome: B&B Altebas
+Comune / Provincia: Basiliano
+Indirizzo: Piazza S. Martino, 13, 33035 Nogaredo di Prato UD
+Coordinate: Lat 46.075193, Lng 13.137416
+Website: https://altebasbnb.it/
+Email: 
+
+7686. B&B Nono Tilio
+ID: 8fb9e57d-647d-4368-a7b5-ef74e5e58291
+Slug: b-b-nono-tilio-basiliano
+Nome: B&B Nono Tilio
+Comune / Provincia: Basiliano
+Indirizzo: Via Piave, 52/1, 33030 Talmassons UD
+Coordinate: Lat 45.930908, Lng 13.089135
+Website: https://tilio.tripcombined.com/
+Email: 
+
+7687. B&B Villa mi Sueño
+ID: 5f2afdf9-c9dc-4c52-902c-0c39d2bae014
+Slug: b-b-villa-mi-sueno-basiliano
+Nome: B&B Villa mi Sueño
+Comune / Provincia: Basiliano
+Indirizzo: Via Antonio Feruglio, 1, 33035 Udine UD
+Coordinate: Lat 46.094563, Lng 13.139877
+Website: https://villamisueño.it/
+Email: 
+
+7688. Best Western Hotel Continental
+ID: 8e7a1bb2-719a-4021-b4fb-7b7a1436eb05
+Slug: best-western-hotel-continental-basiliano
+Nome: Best Western Hotel Continental
+Comune / Provincia: Basiliano
+Indirizzo: Via Tricesimo, 71, 33100 Udine UD
+Coordinate: Lat 46.085854, Lng 13.233559
+Website: https://www.bestwestern.com/it_IT/book/hotel-details.98317.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:98317
+Email: 
+
+7689. Chiarelli House
+ID: 5eca417d-daae-47f2-aaab-ce02e3f193e1
+Slug: chiarelli-house-basiliano
+Nome: Chiarelli House
+Comune / Provincia: Basiliano
+Indirizzo: Via Partistagno, 7, 33100 Udine UD
+Coordinate: Lat 46.08157, Lng 13.228555
+Website: http://chiarelli-house.mydirectstay.com/
+Email: 
+
+7690. Comfort Zone Codroipo
+ID: 7215eae9-e2d7-42b0-b20d-acc0268ac3c1
+Slug: comfort-zone-codroipo-basiliano
+Nome: Comfort Zone Codroipo
+Comune / Provincia: Basiliano
+Indirizzo: Via Foro Boario, 1, 33033 Codroipo UD
+Coordinate: Lat 45.963129, Lng 12.976849
+Website: http://comfortzone-codroipo.it/
+Email: 
+
+7691. Corte Degli OstiNati
+ID: 3b125819-8815-4ad7-8737-1b30d8f0db9a
+Slug: corte-degli-ostinati-basiliano
+Nome: Corte Degli OstiNati
+Comune / Provincia: Basiliano
+Indirizzo: Via G. Oberdan, 11, 33031 Variano UD
+Coordinate: Lat 46.02481, Lng 13.114278
+Website: https://cortedegliostinati.it/
+Email: 
+
+7692. Friulmarangon
+ID: 3dc42471-77c7-4c63-b515-07cf904a60cc
+Slug: friulmarangon-basiliano
+Nome: Friulmarangon
+Comune / Provincia: Basiliano
+Indirizzo: Via Montenero, 4, 33031 Basiliano UD
+Coordinate: Lat 46.007376, Lng 13.144997
+Website: https://www.friulmarangon.it/#
+Email: 
+
+7693. Guest House Italo & Anna
+ID: a86a56fd-80e4-4286-aceb-55458cd7ab3c
+Slug: guest-house-italo-anna-basiliano
+Nome: Guest House Italo & Anna
+Comune / Provincia: Basiliano
+Indirizzo: Via Selvis, 41, 33037 Pasian di Prato UD
+Coordinate: Lat 46.052894, Lng 13.185373
+Website: https://www.italoeanna.com/
+Email: 
+
+7694. Hotel Belvedere
+ID: 681d5ded-4ca1-4282-8ce1-71d7bcff10cb
+Slug: hotel-belvedere-basiliano
+Nome: Hotel Belvedere
+Comune / Provincia: Basiliano
+Indirizzo: Viale Venezia, 66, 33033 Codroipo UD
+Coordinate: Lat 45.969722, Lng 12.976389
+Website: http://www.belvedereud.it/
+Email: 
+
+7695. Hotel Concorde
+ID: f33b8ea7-fc9a-4e33-98b0-7fb0095a932a
+Slug: hotel-concorde-basiliano
+Nome: Hotel Concorde
+Comune / Provincia: Basiliano
+Indirizzo: Via Pozzuolo, 226, 33100 Udine UD
+Coordinate: Lat 46.043688, Lng 13.221499
+Website: http://www.hotelconcorde.ud.it/
+Email: 
+
+7696. La Blave Rooms
+ID: d87650df-8681-4432-8586-48bb30966961
+Slug: la-blave-rooms-basiliano
+Nome: La Blave Rooms
+Comune / Provincia: Basiliano
+Indirizzo: Via Udine, 24, 33050 Mortegliano UD
+Coordinate: Lat 45.945317, Lng 13.174059
+Website: https://lablaverooms.it/
+Email: 
+
+7697. Palazzo Richard Leone
+ID: d13d5f5b-84f4-4ebd-a84c-4cc668e0183f
+Slug: palazzo-richard-leone-basiliano
+Nome: Palazzo Richard Leone
+Comune / Provincia: Basiliano
+Indirizzo: Via Pozzuolo, 58, 33100 Udine UD
+Coordinate: Lat 46.051545, Lng 13.226708
+Website: https://www.hotelspretorian.com/palazzo-richard-leone/
+Email: 
+
+7698. Resort Villa Manin
+ID: 8975f19d-1162-4821-8916-8a551f29a3d3
+Slug: resort-villa-manin-basiliano
+Nome: Resort Villa Manin
+Comune / Provincia: Basiliano
+Indirizzo: Via dei Dogi, 7, 33033 Codroipo UD
+Coordinate: Lat 45.948288, Lng 13.009853
+Website: http://www.villamaninresort.it/
+Email: 
+
+7699. Sleep In Udine
+ID: cab48936-b44f-4ae6-b7de-b4de63f7e55e
+Slug: sleep-in-udine-basiliano
+Nome: Sleep In Udine
+Comune / Provincia: Basiliano
+Indirizzo: secondo piano, V.le Europa Unita, 101/int.3, 33100 Udine UD
+Coordinate: Lat 46.056242, Lng 13.240909
+Website: http://www.stopsleepudine.com/sleep-in-udine-fronte-stazione/
+Email: 
+
+7700. Trattoria Albergo da Nando Mortegliano
+ID: 0fe15eab-bba7-469e-8e08-fa5bbbae703a
+Slug: trattoria-albergo-da-nando-mortegliano-basiliano
+Nome: Trattoria Albergo da Nando Mortegliano
+Comune / Provincia: Basiliano
+Indirizzo: Via Divisione Julia, 14, 33050 Mortegliano UD
+Coordinate: Lat 45.94518, Lng 13.177377
+Website: http://www.danando.it/
+Email: 

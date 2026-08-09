@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+3536. Hotel Borgo Vista Lago
+ID: 9006e2ce-021c-4833-b88a-81038af1dbb3
+Slug: hotel-borgo-vista-lago-anguillara-sabazia
+Nome: Hotel Borgo Vista Lago
+Comune / Provincia: Anguillara Sabazia
+Indirizzo: Viale Giuseppe Garibaldi, 61, 00069 Trevignano Romano RM
+Coordinate: Lat 42.154773, Lng 12.247196
+Website: https://www.borgovistalago.it/
+Email: 
+
+3537. Hotel Cassia
+ID: 90122638-7190-4df4-999e-55421885232e
+Slug: hotel-cassia-anguillara-sabazia
+Nome: Hotel Cassia
+Comune / Provincia: Anguillara Sabazia
+Indirizzo: Via Cassia, 1736, 00123 Roma RM
+Coordinate: Lat 42.009346, Lng 12.379185
+Website: https://www.hotelcassia.com/
+Email: 
+
+3538. Hotel Massimino
+ID: 74768f47-05c4-4f45-8083-12fc63928aa8
+Slug: hotel-massimino-anguillara-sabazia
+Nome: Hotel Massimino
+Comune / Provincia: Anguillara Sabazia
+Indirizzo: Via Anguillarese, km 4.200/km 4.200, 00061 Anguillara Sabazia RM
+Coordinate: Lat 42.068053, Lng 12.290464
+Website: http://www.hotelmassimino.com/
+Email: 
+
+3539. Hotel Ristorante da Righetto
+ID: eb89059e-55d7-454e-b0a0-460cfb86d6e6
+Slug: hotel-ristorante-da-righetto-anguillara-sabazia
+Nome: Hotel Ristorante da Righetto
+Comune / Provincia: Anguillara Sabazia
+Indirizzo: Corso Vittorio Emanuele, 70-72-74, 00063 Campagnano di Roma RM
+Coordinate: Lat 42.139851, Lng 12.382192
+Website: http://www.darighetto.it/
+Email: 
+
+3540. IL B&B DEL LAGO
+ID: bc957fff-d29f-484f-af49-5a6400cbb348
+Slug: il-b-b-del-lago-anguillara-sabazia
+Nome: IL B&B DEL LAGO
+Comune / Provincia: Anguillara Sabazia
+Indirizzo: Via Aloisio Anguillra, 8, 00061 Anguillara Sabazia RM
+Coordinate: Lat 42.091491, Lng 12.270833
+Website: —
+Email: 
+
+3541. Il Postiglione
+ID: 88762844-af67-433c-a6fd-ef657bb5a20c
+Slug: il-postiglione-anguillara-sabazia
+Nome: Il Postiglione
+Comune / Provincia: Anguillara Sabazia
+Indirizzo: Via Cassia Antica, 15, 00063 Campagnano di Roma RM
+Coordinate: Lat 42.118868, Lng 12.366991
+Website: http://www.ilpostiglione.it/
+Email: 
+
+3542. La Cannella
+ID: 75e062e0-f641-4a28-a1ef-497a023b31b5
+Slug: la-cannella-anguillara-sabazia
+Nome: La Cannella
+Comune / Provincia: Anguillara Sabazia
+Indirizzo: Via Pisa, 2, 00061 Anguillara Sabazia RM
+Coordinate: Lat 42.089561, Lng 12.261722
+Website: http://www.bblacannella.it/
+Email: 
+
+3543. Ristorante Albergo Benigni
+ID: 11fbf7eb-7aee-4bb1-af43-9d71374cfeb0
+Slug: ristorante-albergo-benigni-anguillara-sabazia
+Nome: Ristorante Albergo Benigni
+Comune / Provincia: Anguillara Sabazia
+Indirizzo: Via della Vittoria, 13, 00063 Campagnano di Roma RM
+Coordinate: Lat 42.137793, Lng 12.380436
+Website: https://www.ristorantehotelbenigni.com/
+Email: 
+
+3544. Vallelunga Park Hotel
+ID: c0d419ac-ea07-4c7d-8495-65fb009e07c7
+Slug: vallelunga-park-hotel-anguillara-sabazia
+Nome: Vallelunga Park Hotel
+Comune / Provincia: Anguillara Sabazia
+Indirizzo: di Roma&nbsp, Via della Mola Maggiorana, 2, 00063 Campagnano di Roma RM
+Coordinate: Lat 42.152674, Lng 12.369949
+Website: —
+Email: 
+
+3545. Agriturismo Locanda Venezze
+ID: 359ad46f-390c-4f20-bd73-fe17e8ebedb0
+Slug: agriturismo-locanda-venezze-anguillara-veneta
+Nome: Agriturismo Locanda Venezze
+Comune / Provincia: Anguillara Veneta
+Indirizzo: Via Feniletti, 420, 45030 San Martino di Venezze RO
+Coordinate: Lat 45.105892, Lng 11.866096
+Website: http://www.tenutacastelvenezze.it/
+Email: 
+
+3546. Albergo Fattoria Sant'Anna
+ID: 0e19f4c0-79e2-4268-833c-d0ece4236ec8
+Slug: albergo-fattoria-sant-anna-anguillara-veneta
+Nome: Albergo Fattoria Sant'Anna
+Comune / Provincia: Anguillara Veneta
+Indirizzo: Via Giotto, 37/1, 35020 Correzzola PD
+Coordinate: Lat 45.214979, Lng 12.084664
+Website: —
+Email: 
+
+3547. Albergo Ristorante Adige Padova
+ID: 8c8ce2ac-bca6-425c-b857-0e3fa3d6a6be
+Slug: albergo-ristorante-adige-padova-anguillara-veneta
+Nome: Albergo Ristorante Adige Padova
+Comune / Provincia: Anguillara Veneta
+Indirizzo: Via Barchessa, 2, 35040 Boara Pisani PD
+Coordinate: Lat 45.106878, Lng 11.783475
+Website: —
+Email: 
+
+3548. Aura Dimore ad Arquà Petrarca
+ID: 777c4b1d-954a-4817-b575-22e60320794f
+Slug: aura-dimore-ad-arqua-petrarca-anguillara-veneta
+Nome: Aura Dimore ad Arquà Petrarca
+Comune / Provincia: Anguillara Veneta
+Indirizzo: Via Montericco, 7, 35032 Arquà Petrarca PD
+Coordinate: Lat 45.26729, Lng 11.728933
+Website: https://auradimore.it/
+Email: 
+
+3549. Cà Rocca Relais
+ID: 84b04b4f-d399-4095-9259-4b31107f9a7f
+Slug: ca-rocca-relais-anguillara-veneta
+Nome: Cà Rocca Relais
+Comune / Provincia: Anguillara Veneta
+Indirizzo: Via Basse, 2, 35043 Monselice PD
+Coordinate: Lat 45.209995, Lng 11.770541
+Website: http://www.carocca.it/
+Email: 
+
+3550. Country House Campofiore
+ID: b796841c-6e27-490a-a5eb-5144ac52260a
+Slug: country-house-campofiore-anguillara-veneta
+Nome: Country House Campofiore
+Comune / Provincia: Anguillara Veneta
+Indirizzo: Via Isola di, Via Isola Terranova, 60, 35029 Pontelongo PD
+Coordinate: Lat 45.236809, Lng 12.060666
+Website: http://www.campofiore.eu/
+Email: 
+
+3551. Hotel Fuori Città
+ID: d8b3eba9-76c9-4f0f-b664-f89bf0566236
+Slug: hotel-fuori-citta-anguillara-veneta
+Nome: Hotel Fuori Città
+Comune / Provincia: Anguillara Veneta
+Indirizzo: Via Peagna, 2, 35048 Stanghella PD
+Coordinate: Lat 45.13604, Lng 11.768517
+Website: https://www.hotelfuoricitta.it/
+Email: 
+
+3552. Hotel Petrarca
+ID: 27858b76-7926-48b7-825d-83fef8f3d3c8
+Slug: hotel-petrarca-anguillara-veneta
+Nome: Hotel Petrarca
+Comune / Provincia: Anguillara Veneta
+Indirizzo: Via Roma, 90, 35040 Boara Pisani PD
+Coordinate: Lat 45.119306, Lng 11.771073
+Website: http://www.ristorantehotelpetrarca.it/
+Email: 
+
+3553. le casette di Olga
+ID: 7f6b2b52-7550-493b-93d9-f4eb8021daef
+Slug: le-casette-di-olga-anguillara-veneta
+Nome: le casette di Olga
+Comune / Provincia: Anguillara Veneta
+Indirizzo: Via Amolaro, 15, 35030 Baone PD
+Coordinate: Lat 45.267688, Lng 11.692813
+Website: —
+Email: 
+
+3554. Quo Vadis Qui Vieni
+ID: 55668ffb-2856-447a-b75a-2cbc7e44418b
+Slug: quo-vadis-qui-vieni-anguillara-veneta
+Nome: Quo Vadis Qui Vieni
+Comune / Provincia: Anguillara Veneta
+Indirizzo: Via Balbi Valier, 1, 45100 Rovigo RO
+Coordinate: Lat 45.094971, Lng 11.727017
+Website: https://quovadisbeb.com/
+Email: 
+
+3555. Ristorante Hotel europa
+ID: 96bfc20d-9bf5-4eb2-bb59-76202b3bbb29
+Slug: ristorante-hotel-europa-anguillara-veneta
+Nome: Ristorante Hotel europa
+Comune / Provincia: Anguillara Veneta
+Indirizzo: V.le Porta Po, 92, 45100 Rovigo RO
+Coordinate: Lat 45.052229, Lng 11.787373
+Website: https://hotelpalacerovigo.it/
+Email: 
+
+3556. Albergo Escondido Ferrara Snc di Ferrara Santo & C.
+ID: 82326cde-c4dc-4ff2-9b7a-327af37e73bd
+Slug: albergo-escondido-ferrara-snc-di-ferrara-santo-c-annicco
+Nome: Albergo Escondido Ferrara Snc di Ferrara Santo & C.
+Comune / Provincia: Annicco
+Indirizzo: Frazione Olzano, 2, 26015 Soresina CR
+Coordinate: Lat 45.280532, Lng 9.828787
+Website: https://albergo-escondido.bedsandhotels.com/
+Email: 
+
+3557. Appartamento73
+ID: 54bf3892-024c-4c10-b2ca-c74e2b82f833
+Slug: appartamento73-annicco
+Nome: Appartamento73
+Comune / Provincia: Annicco
+Indirizzo: Via Montegrappa, 32, 26020 Cignone CR
+Coordinate: Lat 45.269572, Lng 9.98613
+Website: https://appartamento73.mipiacelitalia.top/
+Email: 
+
+3558. b&b family home
+ID: ecec9100-3784-41b1-8130-c5011acf41e6
+Slug: b-b-family-home-annicco
+Nome: b&b family home
+Comune / Provincia: Annicco
+Indirizzo: Via Trento e Trieste, 24, 26015 Soresina CR
+Coordinate: Lat 45.288982, Lng 9.865831
+Website: —
+Email: 
+
+3559. Bes Hotel Cremona Soncino
+ID: bd215677-e488-4708-83b8-7b9f60a90940
+Slug: bes-hotel-cremona-soncino-annicco
+Nome: Bes Hotel Cremona Soncino
+Comune / Provincia: Annicco
+Indirizzo: Via Milano, 25, 26029 Soncino CR
+Coordinate: Lat 45.388015, Lng 9.852995
+Website: https://beshotelcremonasoncino.beddy.io/
+Email: 
+
+3560. Hotel Villa Borghesi
+ID: a19e3d36-b02d-46c9-ae2f-e603081b5491
+Slug: hotel-villa-borghesi-annicco
+Nome: Hotel Villa Borghesi
+Comune / Provincia: Annicco
+Indirizzo: Via Alcide de Gasperi, 17, 26020 Cignone CR
+Coordinate: Lat 45.272778, Lng 9.982778
+Website: http://www.hotelvillaborghesi.it/
+Email: 
+
+3561. il Poeta Contadino
+ID: 1cd93d98-8dba-449a-8d40-581335575f20
+Slug: il-poeta-contadino-annicco
+Nome: il Poeta Contadino
+Comune / Provincia: Annicco
+Indirizzo: Via Mara Maretti Soldi, SP6, 26011 Casalbuttano ed Uniti CR
+Coordinate: Lat 45.258149, Lng 9.961071
+Website: http://www.poetacontadino.it/
+Email: 
+
+3562. Residence Michela
+ID: bc74c351-3146-47be-ae34-9004a5e53738
+Slug: residence-michela-annicco
+Nome: Residence Michela
+Comune / Provincia: Annicco
+Indirizzo: Via Giuseppe Garibaldi, 27, 26026 Pizzighettone CR
+Coordinate: Lat 45.186374, Lng 9.782161
+Website: https://www.residencemichela.it/
+Email: 
+
+3563. Albergo Ristorante Arrigoni
+ID: bdfd0a72-d63a-4a71-a072-8bc39a401b92
+Slug: albergo-ristorante-arrigoni-annone-di-brianza
+Nome: Albergo Ristorante Arrigoni
+Comune / Provincia: Annone di Brianza
+Indirizzo: Via Roma, 60, 23892 Bulciago LC
+Coordinate: Lat 45.749535, Lng 9.282736
+Website: http://www.hotelarrigoni.it/
+Email: 
+
+3564. Albergo Sorgente
+ID: efd93a80-0b53-422f-8382-9079b24675ab
+Slug: albergo-sorgente-annone-di-brianza
+Nome: Albergo Sorgente
+Comune / Provincia: Annone di Brianza
+Indirizzo: Via Gajum, 36, 22035 Canzo CO
+Coordinate: Lat 45.848353, Lng 9.287322
+Website: http://www.albergosorgente.com/
+Email: 
+
+3565. B&B Armonie del Lago
+ID: a7c00e2d-ac00-40f8-91a4-5291339668f1
+Slug: b-b-armonie-del-lago-annone-di-brianza
+Nome: B&B Armonie del Lago
+Comune / Provincia: Annone di Brianza
+Indirizzo: Via Ponte, 15, 23841 Annone di Brianza LC
+Coordinate: Lat 45.80736, Lng 9.33226
+Website: https://www.armoniedellago.it/
+Email: 
+
+3566. Cornizzolo Bed Breakfast
+ID: c02fc985-13db-4625-bdff-541e286225cd
+Slug: cornizzolo-bed-breakfast-annone-di-brianza
+Nome: Cornizzolo Bed Breakfast
+Comune / Provincia: Annone di Brianza
+Indirizzo: Via Boschetto, 6, 23867 Suello LC
+Coordinate: Lat 45.818498, Lng 9.317671
+Website: https://www.facebook.com/profile.php?id=100092640198323
+Email: 
+
+3567. Dogana Vecchia
+ID: df0d0c38-fc0e-47c2-ae7d-74c57455dfea
+Slug: dogana-vecchia-annone-di-brianza
+Nome: Dogana Vecchia
+Comune / Provincia: Annone di Brianza
+Indirizzo: Via Provinciale, 25, 23862 Civate LC
+Coordinate: Lat 45.829544, Lng 9.351627
+Website: http://www.doganavecchia.net/
+Email: 
+
+3568. don abbondio Hotel Ristorante
+ID: 256e0ad5-19ea-42bf-ae0b-02fb1eb82ec1
+Slug: don-abbondio-hotel-ristorante-annone-di-brianza
+Nome: don abbondio Hotel Ristorante
+Comune / Provincia: Annone di Brianza
+Indirizzo: Piazza Era, 10, 23900 Lecco LC
+Coordinate: Lat 45.844096, Lng 9.398882
+Website: http://www.donabbondio.com/
+Email: 
+
+3569. Hotel Alberi Lecco
+ID: 5ca31ca7-3ab9-4b38-85c8-17a29240a96c
+Slug: hotel-alberi-lecco-annone-di-brianza
+Nome: Hotel Alberi Lecco
+Comune / Provincia: Annone di Brianza
+Indirizzo: Lungolario Isonzo, 4, 23900 Lecco LC
+Coordinate: Lat 45.853299, Lng 9.388402
+Website: http://www.hotelalberi.it/
+Email: 
+
+3570. Hotel Baia di Pare
+ID: 69663e07-43b3-4440-bbdc-effd76a438a3
+Slug: hotel-baia-di-pare-annone-di-brianza
+Nome: Hotel Baia di Pare
+Comune / Provincia: Annone di Brianza
+Indirizzo: Via Frazione Parè, 35, 23868 Valmadrera LC
+Coordinate: Lat 45.858526, Lng 9.365551
+Website: https://hotelbaiadiparevalmadrera.top/
+Email: 

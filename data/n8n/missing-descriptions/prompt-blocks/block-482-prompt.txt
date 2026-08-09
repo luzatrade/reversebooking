@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16836. Garden Ravello Hotel
+ID: 56ef5795-8a98-43af-a008-c3ed6c8bb652
+Slug: garden-ravello-hotel-ravello
+Nome: Garden Ravello Hotel
+Comune / Provincia: Ravello
+Indirizzo: Via Giovanni Boccaccio, 4, 84010 Ravello SA
+Coordinate: Lat 40.648957, Lng 14.61334
+Website: http://www.gardenravello.com/
+Email: info@gardenravello.com
+
+16837. Hotel Bonadies
+ID: 09ff8511-a8d5-48b6-aa15-cd45ccb6e719
+Slug: hotel-bonadies-ravello
+Nome: Hotel Bonadies
+Comune / Provincia: Ravello
+Indirizzo: Piazza Fontana Moresca, 5, 84010 Ravello SA
+Coordinate: Lat 40.653682, Lng 14.613277
+Website: http://www.hotelbonadies.com/
+Email: info@hotelbonadies.it
+
+16838. Hotel Giordano
+ID: 1740aeec-291a-4acc-b78d-4be97a060a17
+Slug: hotel-giordano-ravello
+Nome: Hotel Giordano
+Comune / Provincia: Ravello
+Indirizzo: Via Santissima Trinità, 14, 84010 Ravello SA
+Coordinate: Lat 40.648626, Lng 14.610859
+Website: http://www.giordanohotel.it/
+Email: info@giordanohotel.it
+
+16839. Hotel Graal
+ID: a103e0ad-db57-49fe-993e-09679904fac1
+Slug: hotel-graal-ravello
+Nome: Hotel Graal
+Comune / Provincia: Ravello
+Indirizzo: Via della Repubblica, 8, 84010 Ravello SA
+Coordinate: Lat 40.650078, Lng 14.613822
+Website: http://www.hotelgraal.it/
+Email: info@hotelgraal.it
+
+16840. Hotel La Moresca
+ID: 7052bf87-4b67-459b-adc8-90aee0eaa600
+Slug: hotel-la-moresca-ravello
+Nome: Hotel La Moresca
+Comune / Provincia: Ravello
+Indirizzo: Piazza Fontana Moresca, 8, 84010 Ravello SA
+Coordinate: Lat 40.653834, Lng 14.613053
+Website: https://www.lamorescaravello.com/
+Email: info@lamorescaravello.com
+
+16841. Hotel Palazzo Confalone
+ID: 9e38a61d-f529-4e80-81d7-62d412b7e194
+Slug: hotel-palazzo-confalone-ravello
+Nome: Hotel Palazzo Confalone
+Comune / Provincia: Ravello
+Indirizzo: Via S. Giovanni del Toro, 16, 84010 Ravello SA
+Coordinate: Lat 40.650092, Lng 14.612935
+Website: https://palazzoconfalone.it/
+Email: 
+
+16842. Hotel Rufolo
+ID: b113283c-392a-496b-bfd1-a7821a412f6b
+Slug: hotel-rufolo-ravello
+Nome: Hotel Rufolo
+Comune / Provincia: Ravello
+Indirizzo: Via S. Francesco, 1, 84010 Ravello SA
+Coordinate: Lat 40.648145, Lng 14.611904
+Website: http://www.hotelrufolo.com/
+Email: 
+
+16843. Hotel Toro
+ID: a7d39662-1412-4724-ba7b-692972745e25
+Slug: hotel-toro-ravello
+Nome: Hotel Toro
+Comune / Provincia: Ravello
+Indirizzo: Via Roma, 16, 84010 Ravello SA
+Coordinate: Lat 40.650025, Lng 14.611786
+Website: http://www.hoteltoro.it/
+Email: 
+
+16844. Hotel Villa Fraulo
+ID: 051f26e6-52e0-4898-8d75-4036bacba421
+Slug: hotel-villa-fraulo-ravello
+Nome: Hotel Villa Fraulo
+Comune / Provincia: Ravello
+Indirizzo: Via Giovanni Boccaccio, 7, 84010 Ravello SA
+Coordinate: Lat 40.649768, Lng 14.613327
+Website: https://www.villafraulo.com/?utm_source=gbp&utm_medium=organic
+Email: 
+
+16845. Palazzo Avino
+ID: 366a2ed7-3222-42db-a66a-26acb7fbd635
+Slug: palazzo-avino-ravello
+Nome: Palazzo Avino
+Comune / Provincia: Ravello
+Indirizzo: Via S. Giovanni del Toro, 28, 84010 Ravello SA
+Coordinate: Lat 40.651072, Lng 14.613026
+Website: http://www.palazzoavino.com/
+Email: info@palazzoavino.com
+
+16846. Ravello Art Hotel Marmorata
+ID: 65913f25-aa5f-402e-bff4-b651281da0ac
+Slug: ravello-art-hotel-marmorata-ravello
+Nome: Ravello Art Hotel Marmorata
+Comune / Provincia: Ravello
+Indirizzo: Via Bizantina, 3, 84010 Marmorata SA
+Coordinate: Lat 40.64632, Lng 14.619928
+Website: https://www.hotelmarmorata.com/?utm_source=gmb&utm_medium=organic
+Email: info@marmorata.it
+
+16847. Villa Amore
+ID: a3bbb5f8-c3b5-4607-ac2b-626e99cac28c
+Slug: villa-amore-ravello
+Nome: Villa Amore
+Comune / Provincia: Ravello
+Indirizzo: Via dei Fusco, 5, 84010 Ravello SA
+Coordinate: Lat 40.646213, Lng 14.611456
+Website: http://www.villaamore.it/
+Email: 
+
+16848. Villa Margherita
+ID: 2ff543f6-68d0-40c5-b051-d4ed23a44c4d
+Slug: villa-margherita-ravello
+Nome: Villa Margherita
+Comune / Provincia: Ravello
+Indirizzo: Via Santa Margherita, 7, 84010 Ravello SA
+Coordinate: Lat 40.651503, Lng 14.612952
+Website: https://www.belmond.com/hotels/europe/italy/amalfi-coast/belmond-villa-margherita/?utm_source=local_search&utm_medium=link&utm_campaign=google_business
+Email: unsubscribe@belmond.com
+
+16849. Villa Piedimonte
+ID: e24fb99e-aa6a-4ecd-a092-0d0d83d6bddb
+Slug: villa-piedimonte-ravello
+Nome: Villa Piedimonte
+Comune / Provincia: Ravello
+Indirizzo: Via della Repubblica, 1, 84010 Ravello SA
+Coordinate: Lat 40.64998, Lng 14.614794
+Website: http://www.villapiedimonte.com/
+Email: info@villapiedimonte.com
+
+16850. B&B HOTEL Ravenna
+ID: a05690e9-5221-46fc-be1b-8c5b9c653c57
+Slug: b-b-hotel-ravenna-ravenna
+Nome: B&B HOTEL Ravenna
+Comune / Provincia: Ravenna
+Indirizzo: Viale della Lirica, 141, 48124 Ravenna RA, Italia
+Coordinate: Lat 44.400904, Lng 12.181321
+Website: https://www.hotel-bb.com/it/hotel/ravenna?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext
+Email: 
+
+16851. Exclusive ApartHotel La Reunion
+ID: dffda49f-f349-4e76-a355-8bdd1c3308ef
+Slug: exclusive-aparthotel-la-reunion-ravenna
+Nome: Exclusive ApartHotel La Reunion
+Comune / Provincia: Ravenna
+Indirizzo: Via Corrado Ricci, 29, 48121 Ravenna RA
+Coordinate: Lat 44.416011, Lng 12.199838
+Website: https://www.lareunion.it/
+Email: info@lareunion.it
+
+16852. Hotel Centrale Byron
+ID: ea0ff7ed-d9aa-47df-bb57-d2cc4034d0ce
+Slug: hotel-centrale-byron-ravenna
+Nome: Hotel Centrale Byron
+Comune / Provincia: Ravenna
+Indirizzo: Via IV Novembre, 14, 48122 Ravenna RA
+Coordinate: Lat 44.418215, Lng 12.199052
+Website: http://www.hotelsravenna.it/byron/it-IT
+Email: info@hotelbyron.com
+
+16853. Hotel Minerva
+ID: 81787cc2-b79d-44a6-93f5-b4feab1671e0
+Slug: hotel-minerva-ravenna
+Nome: Hotel Minerva
+Comune / Provincia: Ravenna
+Indirizzo: V.le Pier Maroncelli, 1, 48121 Ravenna RA
+Coordinate: Lat 44.419722, Lng 12.2075
+Website: http://www.hotelminervaravenna.it/
+Email: hotel.minerva@libero.it
+
+16854. Hotel Mosaico
+ID: 0221c00c-b3c5-4f84-94ef-8a294239df9c
+Slug: hotel-mosaico-ravenna
+Nome: Hotel Mosaico
+Comune / Provincia: Ravenna
+Indirizzo: Via Darsena, 9, 48121 Ravenna RA
+Coordinate: Lat 44.421828, Lng 12.208498
+Website: https://www.hotelmosaico.it/
+Email: info@mosaicohotels.it
+
+16855. Hotel NH Ravenna
+ID: 7fd03275-c010-47a3-8be1-5312eaf681f7
+Slug: hotel-nh-ravenna-ravenna
+Nome: Hotel NH Ravenna
+Comune / Provincia: Ravenna
+Indirizzo: Piazza Goffredo Mameli, 1, 48100 Ravenna RA
+Coordinate: Lat 44.418904, Lng 12.204791
+Website: https://www.nh-hotels.com/en/hotel/nh-ravenna?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb
+Email: 
+
+16856. Hotel Palazzo Bezzi
+ID: 73f37ce8-1cf6-4285-990b-9159a5aa09eb
+Slug: hotel-palazzo-bezzi-ravenna
+Nome: Hotel Palazzo Bezzi
+Comune / Provincia: Ravenna
+Indirizzo: Via di Roma, 45, 48121 Ravenna RA
+Coordinate: Lat 44.415651, Lng 12.204855
+Website: http://www.palazzobezzi.it/
+Email: info@palazzobezzi.it
+
+16857. Hotel Palazzo Galletti Abbiosi
+ID: 5d1cf2cf-a956-43ff-b54f-ce11b8301535
+Slug: hotel-palazzo-galletti-abbiosi-ravenna
+Nome: Hotel Palazzo Galletti Abbiosi
+Comune / Provincia: Ravenna
+Indirizzo: via di, Via di Roma, 140, 48121 Ravenna RA
+Coordinate: Lat 44.417209, Lng 12.203863
+Website: http://www.palazzogallettiabbiosi.it/
+Email: 
+
+16858. Hotel Ravenna
+ID: 895c4447-451c-46f1-93c6-e332b1a0f93f
+Slug: hotel-ravenna-ravenna
+Nome: Hotel Ravenna
+Comune / Provincia: Ravenna
+Indirizzo: V.le Pier Maroncelli, 12, 48121 Ravenna RA
+Coordinate: Lat 44.419816, Lng 12.206998
+Website: http://www.hotelravenna.ra.it/
+Email: info@hotelravenna.ra.it
+
+16859. Hotel Sant'Andrea
+ID: 0ab6b7a1-36f4-4618-a9dc-c916289dbd0b
+Slug: hotel-sant-andrea-ravenna
+Nome: Hotel Sant'Andrea
+Comune / Provincia: Ravenna
+Indirizzo: Via Carlo Cattaneo, 33, 48121 Ravenna RA
+Coordinate: Lat 44.418411, Lng 12.195114
+Website: http://www.santandreahotel.com/
+Email: 
+
+16860. Maison degli Artisti
+ID: a97e92e5-cf65-4293-81d7-fd17814a7c86
+Slug: maison-degli-artisti-ravenna
+Nome: Maison degli Artisti
+Comune / Provincia: Ravenna
+Indirizzo: Via Armando Diaz, 42, 48121 Ravenna RA
+Coordinate: Lat 44.418351, Lng 12.202591
+Website: http://www.maisondegliartisti.it/
+Email: info@maisondegliartisti.it
+
+16861. Valentino Luxury Rooms | B&B Ravenna
+ID: 28b944a3-e85f-4cde-ae10-c562bf87d153
+Slug: valentino-luxury-rooms-b-b-ravenna-ravenna
+Nome: Valentino Luxury Rooms | B&B Ravenna
+Comune / Provincia: Ravenna
+Indirizzo: Via Antica Zecca, 6, 48121 Ravenna RA
+Coordinate: Lat 44.418053, Lng 12.201798
+Website: https://www.valentinorooms.it/
+Email: 
+
+16862. B&B Centrale
+ID: 8d09f1c8-fc9e-42ba-b32f-721e34fec6c2
+Slug: b-b-centrale-reggio-di-calabria
+Nome: B&B Centrale
+Comune / Provincia: Reggio di Calabria
+Indirizzo: Via Antonio Brancati, 1/C, 89123 Reggio di Calabria RC
+Coordinate: Lat 38.119237, Lng 15.651219
+Website: http://www.bbcentrale.it/
+Email: info@bbcentrale.rc.it
+
+16863. Correttori House
+ID: 416ae8df-a3d8-48cc-9674-1d225cd503dd
+Slug: correttori-house-reggio-di-calabria
+Nome: Correttori House
+Comune / Provincia: Reggio di Calabria
+Indirizzo: Via dei Correttori 8
+Coordinate: Lat 38.10682, Lng 15.64335
+Website: —
+Email: info@correttorihouse.it
+
+16864. Didimos Town Hotel
+ID: 9fa6d7f3-429e-4661-a3f9-dc8feca30281
+Slug: didimos-town-hotel-reggio-di-calabria
+Nome: Didimos Town Hotel
+Comune / Provincia: Reggio di Calabria
+Indirizzo: Via Francesco Cananzi, 6, 89123 Reggio di Calabria RC
+Coordinate: Lat 38.115932, Lng 15.650528
+Website: https://www.didimos.it/it/
+Email: 
+
+16865. Domus Nova
+ID: 733960aa-0346-454d-b45a-541288bc4a7c
+Slug: domus-nova-reggio-di-calabria
+Nome: Domus Nova
+Comune / Provincia: Reggio di Calabria
+Indirizzo: Via dei Correttori, 15, 89127 Reggio Calabria (RC)
+Coordinate: Lat 38.10645, Lng 15.64322
+Website: https://www.domusnovarc.it
+Email: info@domusnovarc.it
+
+16866. è Hotel
+ID: 29ee574c-e5a1-4804-bba7-2f9a90e109f0
+Slug: e-hotel-reggio-di-calabria
+Nome: è Hotel
+Comune / Provincia: Reggio di Calabria
+Indirizzo: Via Giunchi, 89121 Reggio di Calabria RC
+Coordinate: Lat 38.11734, Lng 15.648703
+Website: http://www.ehotelreggiocalabria.it/
+Email: info@ehotelreggiocalabria.it
+
+16867. Grand Hotel Excelsior
+ID: e7a2bbe8-1da5-48c8-9499-f112056f7034
+Slug: grand-hotel-excelsior-reggio-di-calabria
+Nome: Grand Hotel Excelsior
+Comune / Provincia: Reggio di Calabria
+Indirizzo: Via Vittorio Veneto, 66, 89123 Reggio Calabria RC
+Coordinate: Lat 38.115095, Lng 15.650979
+Website: https://www.grandhotelexcelsiorrc.it/
+Email: info.excelsior@montesanohotels.it
+
+16868. Hotel Eubea
+ID: 5b2e98b3-8965-4efb-8c02-21edc2b469fb
+Slug: hotel-eubea-reggio-di-calabria
+Nome: Hotel Eubea
+Comune / Provincia: Reggio di Calabria
+Indirizzo: Via Gaeta, 9, 89127 Reggio Calabria RC
+Coordinate: Lat 38.101929, Lng 15.63581
+Website: https://www.hoteleubea.it/
+Email: info@hoteleubea.it
+
+16869. Hotel Medinblu
+ID: 6fb93f73-3e70-4699-bacf-7275c78cc732
+Slug: hotel-medinblu-reggio-di-calabria
+Nome: Hotel Medinblu
+Comune / Provincia: Reggio di Calabria
+Indirizzo: Via Demetrio Tripepi, 98, 89125 Reggio di Calabria RC
+Coordinate: Lat 38.110943, Lng 15.647759
+Website: http://www.hotelmedinblu.com/
+Email: info@hotelmedinblu.com
+
+16870. Hotel Palace Masoanri’s
+ID: 53d1e347-a237-4ad6-92a8-2a98a5a8084c
+Slug: hotel-palace-masoanri-s-reggio-di-calabria
+Nome: Hotel Palace Masoanri’s
+Comune / Provincia: Reggio di Calabria
+Indirizzo: Via Vittorio Veneto, 95, 89123 Reggio Calabria RC
+Coordinate: Lat 38.115004, Lng 15.6513
+Website: https://www.hotelpalacemasoanri.it/
+Email: info@hotelpalacemasoanri.it

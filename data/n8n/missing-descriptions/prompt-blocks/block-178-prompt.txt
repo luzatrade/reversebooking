@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+6196. Residence Borgo del Turchese
+ID: 0259e677-a00e-42e6-acfd-7f6423b8ff9d
+Slug: residence-borgo-del-turchese-badesi
+Nome: Residence Borgo del Turchese
+Comune / Provincia: Badesi
+Indirizzo: Via Mare, 29, 07030 Badesi OT
+Coordinate: Lat 40.967855, Lng 8.87632
+Website: https://www.costadelturchese.it/
+Email: 
+
+6197. Residence Costa del Turchese
+ID: dddb7378-557c-4846-8132-659c8a6cf5d2
+Slug: residence-costa-del-turchese-badesi
+Nome: Residence Costa del Turchese
+Comune / Provincia: Badesi
+Indirizzo: Via Mare, 29, 07030 Badesi OT
+Coordinate: Lat 40.967873, Lng 8.876666
+Website: http://www.costadelturchese.it/
+Email: 
+
+6198. Residence I Delfini
+ID: 5b74bfe0-f874-4970-917e-9543293d63f6
+Slug: residence-i-delfini-badesi
+Nome: Residence I Delfini
+Comune / Provincia: Badesi
+Indirizzo: Via Giovanni Pascoli, 07030 Badesi OT
+Coordinate: Lat 40.964857, Lng 8.877988
+Website: https://residence-i-delfini.italiacongusto.top/
+Email: 
+
+6199. Residence Le Onde
+ID: e5fa753c-2ec7-457d-83d1-76f3def9083f
+Slug: residence-le-onde-badesi
+Nome: Residence Le Onde
+Comune / Provincia: Badesi
+Indirizzo: Via Dettori, 20, 07030 Badesi OT
+Coordinate: Lat 40.966407, Lng 8.877655
+Website: http://www.residenceleonde.it/
+Email: 
+
+6200. Residence Pierre & Vacances Badus
+ID: a8e816d7-f73c-4973-b520-1f954a566033
+Slug: residence-pierre-vacances-badus-badesi
+Nome: Residence Pierre & Vacances Badus
+Comune / Provincia: Badesi
+Indirizzo: Via Brigata Sassari, 27, 07030 Badesi OT
+Coordinate: Lat 40.964368, Lng 8.881522
+Website: https://www.pierreetvacances.com/fr-fr/fp_IID_location-residence-badus
+Email: 
+
+6201. Residenza BeB Borgo Marino
+ID: a202646d-165c-4fd0-8eb0-7b000ca3c448
+Slug: residenza-beb-borgo-marino-badesi
+Nome: Residenza BeB Borgo Marino
+Comune / Provincia: Badesi
+Indirizzo: Via Dettori, 07030 Badesi OT
+Coordinate: Lat 40.966401, Lng 8.878628
+Website: —
+Email: 
+
+6202. Resort & SPA Le Dune
+ID: 013cb86d-46ae-4e16-928f-aab85664fd7c
+Slug: resort-spa-le-dune-badesi
+Nome: Resort & SPA Le Dune
+Comune / Provincia: Badesi
+Indirizzo: Loc, 07030 Li Junchi OT
+Coordinate: Lat 40.976839, Lng 8.860464
+Website: https://www.resortledune.com/
+Email: 
+
+6203. Villa Agnese
+ID: 21304b60-5709-4479-92fa-f0d95e3a9c97
+Slug: villa-agnese-badesi
+Nome: Villa Agnese
+Comune / Provincia: Badesi
+Indirizzo: Via Riu Balbaru, 24, 07030 Badesi OT
+Coordinate: Lat 40.962364, Lng 8.884627
+Website: http://grussu.com/
+Email: 
+
+6204. B&B Cà Monte Mezzano
+ID: 88687211-e6ed-4c2b-884d-4bf5ccffeea6
+Slug: b-b-ca-monte-mezzano-badia-calavena
+Nome: B&B Cà Monte Mezzano
+Comune / Provincia: Badia Calavena
+Indirizzo: Via trezzolano, 8 A, 37141 Verona VR
+Coordinate: Lat 45.502187, Lng 11.071101
+Website: —
+Email: 
+
+6205. B&B Villa Riva
+ID: 54070cdf-a713-4d3c-bb2d-3526a5959581
+Slug: b-b-villa-riva-badia-calavena
+Nome: B&B Villa Riva
+Comune / Provincia: Badia Calavena
+Indirizzo: Via Riva, 17A, 37030 Badia Calavena VR
+Coordinate: Lat 45.55895, Lng 11.14857
+Website: https://www.bnbvillariva.it/
+Email: 
+
+6206. Bed and Breakfast Corte Galo
+ID: 26d6ce15-f62f-46b8-9c94-db35c78bc1e1
+Slug: bed-and-breakfast-corte-galo-badia-calavena
+Nome: Bed and Breakfast Corte Galo
+Comune / Provincia: Badia Calavena
+Indirizzo: Via Pagnaghe, 16/A, 37039 Tregnago VR
+Coordinate: Lat 45.497481, Lng 11.149979
+Website: http://www.cortegalo.it/
+Email: 
+
+6207. Bed And Breakfast Gemma
+ID: 5991e162-e46c-42bb-a8a8-976b8b036882
+Slug: bed-and-breakfast-gemma-badia-calavena
+Nome: Bed And Breakfast Gemma
+Comune / Provincia: Badia Calavena
+Indirizzo: V. Catena, 5, 37023 Grezzana VR
+Coordinate: Lat 45.524901, Lng 11.022156
+Website: —
+Email: 
+
+6208. Ca' del Diaolo Ristorante, Camere, Bar
+ID: 74ef7373-8f41-4b91-95dc-89d799c20a1e
+Slug: ca-del-diaolo-ristorante-camere-bar-badia-calavena
+Nome: Ca' del Diaolo Ristorante, Camere, Bar
+Comune / Provincia: Badia Calavena
+Indirizzo: Via Ca' del diavolo, 4b, 37030 Badia Calavena VR
+Coordinate: Lat 45.584759, Lng 11.152607
+Website: https://sites.google.com/view/cadeldiaolo/home
+Email: 
+
+6209. Corte Baccoi B&B
+ID: 8cd5acc3-e884-4751-a467-7a72a5d2c7c3
+Slug: corte-baccoi-b-b-badia-calavena
+Nome: Corte Baccoi B&B
+Comune / Provincia: Badia Calavena
+Indirizzo: Via Baccoi, 30, 37028 San Rocco VR
+Coordinate: Lat 45.554316, Lng 11.087539
+Website: http://www.cortebaccoi.it/
+Email: 
+
+6210. Corte Bonfiglio Colombari
+ID: 372f3b95-8fda-4af1-8296-61e8995b46ef
+Slug: corte-bonfiglio-colombari-badia-calavena
+Nome: Corte Bonfiglio Colombari
+Comune / Provincia: Badia Calavena
+Indirizzo: Località Bonfiglio, 1, 37031 Illasi VR
+Coordinate: Lat 45.477182, Lng 11.175954
+Website: https://www.cortebonfigliocolombari.it/
+Email: 
+
+6211. Corte Grisi
+ID: c21baef5-d2e8-41b0-8fbd-8cbc0d51f8df
+Slug: corte-grisi-badia-calavena
+Nome: Corte Grisi
+Comune / Provincia: Badia Calavena
+Indirizzo: Piazza Mercato, 20, 37030 Badia Calavena VR
+Coordinate: Lat 45.563767, Lng 11.157736
+Website: http://cortegrisi.it/
+Email: 
+
+6212. Corte Marani - Country & Adventure Retreat
+ID: 4802ce70-1f7e-4c89-b825-1a7c0aeff50a
+Slug: corte-marani-country-adventure-retreat-badia-calavena
+Nome: Corte Marani - Country & Adventure Retreat
+Comune / Provincia: Badia Calavena
+Indirizzo: via Lupatini, 1, 37030 Badia Calavena VR
+Coordinate: Lat 45.545438, Lng 11.149844
+Website: http://www.cortemarani.it/
+Email: 
+
+6213. COUNTRY HOUSE MALGA ZEBARI
+ID: cd693849-2a35-41da-b824-86e5beb2a68f
+Slug: country-house-malga-zebari-badia-calavena
+Nome: COUNTRY HOUSE MALGA ZEBARI
+Comune / Provincia: Badia Calavena
+Indirizzo: Contrada Zebari, 1, 37030 Velo Veronese VR
+Coordinate: Lat 45.584993, Lng 11.115085
+Website: http://malgazebari.it/
+Email: 
+
+6214. Hotel Cristina
+ID: 858e4995-9e1f-4048-8587-d7931c1f70f6
+Slug: hotel-cristina-badia-calavena
+Nome: Hotel Cristina
+Comune / Provincia: Badia Calavena
+Indirizzo: Via Piazza, 45, 37028 San Rocco di Piegara, Roverè Veronese VR
+Coordinate: Lat 45.552533, Lng 11.085873
+Website: http://www.cristinahotel.it/
+Email: 
+
+6215. Hotel Scandola Ristorante Pizzeria
+ID: 50678f25-c22d-435e-8300-52d97a8cb70e
+Slug: hotel-scandola-ristorante-pizzeria-badia-calavena
+Nome: Hotel Scandola Ristorante Pizzeria
+Comune / Provincia: Badia Calavena
+Indirizzo: Piazza V Corti, 37 Località, 37021 Corbiolo VR
+Coordinate: Lat 45.599956, Lng 11.030402
+Website: https://hotel-scandola.eatbu.com/
+Email: 
+
+6216. Il Sentiero B&B
+ID: c178809c-5b96-4173-ad4c-3ef87b93dde4
+Slug: il-sentiero-b-b-badia-calavena
+Nome: Il Sentiero B&B
+Comune / Provincia: Badia Calavena
+Indirizzo: contrada Giusi, 7, 37020 Cerro Veronese VR
+Coordinate: Lat 45.569926, Lng 11.048244
+Website: —
+Email: 
+
+6217. Ostello La Sosta
+ID: 8f9af4b7-9b87-419f-aa55-35c4a082527b
+Slug: ostello-la-sosta-badia-calavena
+Nome: Ostello La Sosta
+Comune / Provincia: Badia Calavena
+Indirizzo: Piazza Sant'Andrea, 8, 37030 Sant'Andrea VR
+Coordinate: Lat 45.594873, Lng 11.149881
+Website: http://www.ostellolasosta.it/
+Email: 
+
+6218. Palazzo Fritz
+ID: adafd7ff-aa65-4179-b5ef-2f6b7aee63f2
+Slug: palazzo-fritz-badia-calavena
+Nome: Palazzo Fritz
+Comune / Provincia: Badia Calavena
+Indirizzo: Via Roma, 3, 37030 Badia Calavena VR
+Coordinate: Lat 45.566119, Lng 11.153809
+Website: https://palazzofritz.it/
+Email: 
+
+6219. RESIDENCE VILLA VINCO
+ID: d9f70b6b-38f0-4c02-832d-6f3cf4b76176
+Slug: residence-villa-vinco-badia-calavena
+Nome: RESIDENCE VILLA VINCO
+Comune / Provincia: Badia Calavena
+Indirizzo: Via Roma, 27, 37039 Verona VR
+Coordinate: Lat 45.515043, Lng 11.166135
+Website: http://www.villavinco.it/
+Email: 
+
+6220. Ai Due Taxodi di Azienda Agricola Pratolina Sas
+ID: 4fa6c30f-eaf3-4646-b55f-80549bc7eabc
+Slug: ai-due-taxodi-di-azienda-agricola-pratolina-sas-badia-pavese
+Nome: Ai Due Taxodi di Azienda Agricola Pratolina Sas
+Comune / Provincia: Badia Pavese
+Indirizzo: Cascina Pezzanchera, 27010 Badia Pavese PV
+Coordinate: Lat 45.131813, Lng 9.458085
+Website: http://www.agriturismoaiduetaxodi.it/
+Email: 
+
+6221. B&B Dragonfly
+ID: 656d84e8-9277-40cf-bfb4-dd88b9f444be
+Slug: b-b-dragonfly-badia-pavese
+Nome: B&B Dragonfly
+Comune / Provincia: Badia Pavese
+Indirizzo: Viale Certosa, 13, 27013 Certosa di Pavia PV
+Coordinate: Lat 45.253438, Lng 9.131934
+Website: https://dragonflycertosa.wixsite.com/dragonfly
+Email: 
+
+6222. Hotel Badia Hill
+ID: 5657eee6-49cb-44dd-8ba9-d65b25a062ef
+Slug: hotel-badia-hill-badia-pavese
+Nome: Hotel Badia Hill
+Comune / Provincia: Badia Pavese
+Indirizzo: Str. Damez, 2A, 39036 Badia BZ
+Coordinate: Lat 46.60665, Lng 11.894819
+Website: http://www.badiahill.com/
+Email: 
+
+6223. Paviaaffittacamere affittacamere
+ID: 1663d005-dc38-4aa8-9513-29e4da85abb3
+Slug: paviaaffittacamere-affittacamere-badia-pavese
+Nome: Paviaaffittacamere affittacamere
+Comune / Provincia: Badia Pavese
+Indirizzo: Via Giovanni Rasori, 1, 27100 Pavia PV
+Coordinate: Lat 45.194322, Lng 9.145852
+Website: http://www.paviaaffittacamere.it/
+Email: 
+
+6224. Agriturismo La Bicocca
+ID: 74a17986-36e3-4d7f-a809-68abfd88b618
+Slug: agriturismo-la-bicocca-badia-polesine
+Nome: Agriturismo La Bicocca
+Comune / Provincia: Badia Polesine
+Indirizzo: Via Giuseppe Garibaldi, 170, 46028 Felonica MN
+Coordinate: Lat 44.978523, Lng 11.359559
+Website: https://www.agriturismolabicocca.net/
+Email: 
+
+6225. Agriturismo La Bisa
+ID: 58182d20-433d-4def-bd66-ac7358238eaf
+Slug: agriturismo-la-bisa-badia-polesine
+Nome: Agriturismo La Bisa
+Comune / Provincia: Badia Polesine
+Indirizzo: Via Tenuta Spalletti, 400, 45027 Trecenta RO
+Coordinate: Lat 45.011546, Lng 11.461036
+Website: https://www.labisa.it/
+Email: 
+
+6226. Agriturismo Le Clementine
+ID: a24dd613-012e-4f7e-b31b-589d8427e904
+Slug: agriturismo-le-clementine-badia-polesine
+Nome: Agriturismo Le Clementine
+Comune / Provincia: Badia Polesine
+Indirizzo: Via Colombano, 1239/B, 45021 Badia Polesine RO
+Coordinate: Lat 45.106908, Lng 11.509782
+Website: http://www.leclementine.it/
+Email: 
+
+6227. Alla Nave di Corradin Ivan e Filippo Snc
+ID: 5f5cf891-598c-4ea3-b856-1abf94f30fb9
+Slug: alla-nave-di-corradin-ivan-e-filippo-snc-badia-polesine
+Nome: Alla Nave di Corradin Ivan e Filippo Snc
+Comune / Provincia: Badia Polesine
+Indirizzo: Via Garibaldi, 2, 35040 Masi PD
+Coordinate: Lat 45.11, Lng 11.488056
+Website: http://www.allanave-dal1916.it/
+Email: 
+
+6228. Amy&Julie Bed&Breakfast
+ID: 86f362e8-feb4-4425-9315-1f6fe547d857
+Slug: amy-julie-bed-breakfast-badia-polesine
+Nome: Amy&Julie Bed&Breakfast
+Comune / Provincia: Badia Polesine
+Indirizzo: Via Cà Giovanelli, 13, 45021 Crocetta RO
+Coordinate: Lat 45.06909, Lng 11.485442
+Website: https://staynow.eu/bb-amy-julie-badia-polesine/
+Email: 
+
+6229. B&B Lilla All'Adige
+ID: b4dc8e37-6805-4e8f-bc1e-ecfd3132347b
+Slug: b-b-lilla-all-adige-badia-polesine
+Nome: B&B Lilla All'Adige
+Comune / Provincia: Badia Polesine
+Indirizzo: Via S. Luigi Gonzaga, 10, 37045 Ocara VR
+Coordinate: Lat 45.174689, Lng 11.339554
+Website: http://www.bblillalladige.it/
+Email: 
+
+6230. B&B RB
+ID: 6011da95-5b2b-4eed-9aa2-bcc541ba3480
+Slug: b-b-rb-badia-polesine
+Nome: B&B RB
+Comune / Provincia: Badia Polesine
+Indirizzo: Via Giovecca, 65, 45030 Gaiba RO
+Coordinate: Lat 44.942389, Lng 11.466971
+Website: https://www.beb-rb.it/
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+15016. GH Dimora Sant'Anna
+ID: 3f7ba121-f039-46f0-8e36-7cbadcfb2499
+Slug: gh-dimora-sant-anna-carovigno
+Nome: GH Dimora Sant'Anna
+Comune / Provincia: Carovigno
+Indirizzo: Via G. Matteotti, 100, 72012 Carovigno BR
+Coordinate: Lat 40.706881, Lng 17.656695
+Website: https://www.dimorasantanna.it/
+Email: 
+
+15017. Hotel Eden
+ID: d3d6a11b-360b-487b-8d26-acea2278c852
+Slug: hotel-eden-carovigno
+Nome: Hotel Eden
+Comune / Provincia: Carovigno
+Indirizzo: Contrada Catanzani, sn, 72012 Carovigno BR
+Coordinate: Lat 40.711318, Lng 17.652645
+Website: https://ourhotelexperience.com/eden-carovigno-italy
+Email: 
+
+15018. Hotel Victoria
+ID: 57f057f5-721b-4cd8-8f56-70841dcb5285
+Slug: hotel-victoria-carovigno
+Nome: Hotel Victoria
+Comune / Provincia: Carovigno
+Indirizzo: Via Vesuvio, 49, 72012 Torre Santa Sabina BR
+Coordinate: Lat 40.7543, Lng 17.70735
+Website: http://www.hotelvictoriapuglia.it/
+Email: 
+
+15019. Isola Verde Agriturismo
+ID: c6f11faf-e738-4ab9-a8d2-f2d6579d15ae
+Slug: isola-verde-agriturismo-carovigno
+Nome: Isola Verde Agriturismo
+Comune / Provincia: Carovigno
+Indirizzo: Strada Provinciale 34, 84, 72012 Carovigno BR
+Coordinate: Lat 40.717855, Lng 17.662794
+Website: http://www.isolaverdeagriturismo.it/
+Email: 
+
+15020. La Caletta B&B
+ID: acc70e75-d5ea-404e-958f-1e204af936c0
+Slug: la-caletta-b-b-carovigno
+Nome: La Caletta B&B
+Comune / Provincia: Carovigno
+Indirizzo: Contrada Carisciola-Monacelle, 72012 Torre Santa Sabina, Carovigno BR
+Coordinate: Lat 40.762653, Lng 17.688444
+Website: http://www.lacalettabb.it/
+Email: 
+
+15021. REVERSE HOTEL 4 Stelle
+ID: 546f92e0-b328-4cc4-9e33-36f1658c62ca
+Slug: reverse-hotel-4-stelle-carovigno
+Nome: REVERSE HOTEL 4 Stelle
+Comune / Provincia: Carovigno
+Indirizzo: C/da Taverna Nuova - Loc. Pantanagianni, 72012 Carovigno BR
+Coordinate: Lat 40.744947, Lng 17.712133
+Website: http://www.reversehotel.it/
+Email: 
+
+15022. Antica Dimora Isernia
+ID: 4c657e01-2668-4058-ac64-c9c6c473d830
+Slug: antica-dimora-isernia-carovilli
+Nome: Antica Dimora Isernia
+Comune / Provincia: Carovilli
+Indirizzo: Corso Marcelli, 185/191, 86170 Isernia IS
+Coordinate: Lat 41.588105, Lng 14.225628
+Website: http://www.anticadimoraisernia.com/
+Email: 
+
+15023. Hotel B&B Ristorante La Cona
+ID: eb86983b-7b62-45eb-8438-3b6d01660025
+Slug: hotel-b-b-ristorante-la-cona-carovilli
+Nome: Hotel B&B Ristorante La Cona
+Comune / Provincia: Carovilli
+Indirizzo: Via Garibaldi, 199, 86097 Pescolanciano IS
+Coordinate: Lat 41.681299, Lng 14.330557
+Website: http://www.lacona.info/
+Email: 
+
+15024. Snowake House
+ID: da999f40-c452-46aa-83cf-9ae5253a3d38
+Slug: snowake-house-carovilli
+Nome: Snowake House
+Comune / Provincia: Carovilli
+Indirizzo: Via Sangro, 23, 67031 Castel di Sangro AQ
+Coordinate: Lat 41.784618, Lng 14.104998
+Website: http://www.snowake.it/
+Email: 
+
+15025. AFFITTACAMERE CITY LOFT
+ID: 36f0f6c0-daa3-4088-8bc3-1abb2976e738
+Slug: affittacamere-city-loft-carpaneto-piacentino
+Nome: AFFITTACAMERE CITY LOFT
+Comune / Provincia: Carpaneto Piacentino
+Indirizzo: 2PX3+9G, Via Roma, 267, 29121 Piacenza PC
+Coordinate: Lat 45.048438, Lng 9.703813
+Website: https://www.booking.com/hotel/it/city-loft-piacenza.it.html?aid=356980&label=gog235jc-10CAsocUISY2l0eS1sb2Z0LXBpYWNlbnphSDNYA2hxiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKnpvfIBsACAdICJDI0MWY1NDY0LWNjODAtNGNkNC1iYTFhLTE3NDY1M2NkNTFmONgCAeACAQ&sid=5cae57d167a97ca7cfe634a1ef35f0cc&dist=0&keep_landing=1&sb_price_type=total&type=total&
+Email: 
+
+15026. Agriturismo Campogrande
+ID: 48f7ad5e-e1e9-466b-9838-4a0a8f83a361
+Slug: agriturismo-campogrande-carpaneto-piacentino
+Nome: Agriturismo Campogrande
+Comune / Provincia: Carpaneto Piacentino
+Indirizzo: Via Valera, 13, 29013 Carpaneto Piacentino PC
+Coordinate: Lat 44.927584, Lng 9.772679
+Website: http://www.campo-grande.net/
+Email: 
+
+15027. Cora Hotels Leon d'Oro Castell'Arquato
+ID: 2e006584-aef8-413f-83c1-cec9968b2c1f
+Slug: cora-hotels-leon-d-oro-castell-arquato-carpaneto-piacentino
+Nome: Cora Hotels Leon d'Oro Castell'Arquato
+Comune / Provincia: Carpaneto Piacentino
+Indirizzo: Piazza Europa, 6, 29014 Castell'Arquato PC
+Coordinate: Lat 44.852652, Lng 9.869839
+Website: https://www.corahotelsleondoro.com/
+Email: 
+
+15028. Hotel "La Maison de Vi"- country house et de charme
+ID: 58c4a277-87ec-4bc8-aad7-61ade7f35e78
+Slug: hotel-la-maison-de-vi-country-house-et-de-charme-carpaneto-piacentino
+Nome: Hotel "La Maison de Vi"- country house et de charme
+Comune / Provincia: Carpaneto Piacentino
+Indirizzo: Frazione Cimafava, 67, 29013 Carpaneto Piacentino PC
+Coordinate: Lat 44.906585, Lng 9.773357
+Website: http://www.lamaisondevi.it/
+Email: 
+
+15029. Bed and Breakfast Agrifoglio
+ID: def4bdc9-8fd2-4f17-a406-c963b6799c3d
+Slug: bed-and-breakfast-agrifoglio-carpanzano
+Nome: Bed and Breakfast Agrifoglio
+Comune / Provincia: Carpanzano
+Indirizzo: Via Porticelle, 19, 87057 Scigliano CS
+Coordinate: Lat 39.132318, Lng 16.345425
+Website: —
+Email: 
+
+15030. B&B Il Bughetto
+ID: 9006c2bc-48e5-42d9-8d56-0f50fa7bc277
+Slug: b-b-il-bughetto-carpegna
+Nome: B&B Il Bughetto
+Comune / Provincia: Carpegna
+Indirizzo: Via Poggiale, 16, 61021 Carpegna PU
+Coordinate: Lat 43.786957, Lng 12.349284
+Website: https://www.ilbughetto.it/
+Email: 
+
+15031. B&B IL POGGIO
+ID: 668e6451-cab8-4049-ac66-1ab9c8661bbf
+Slug: b-b-il-poggio-carpegna
+Nome: B&B IL POGGIO
+Comune / Provincia: Carpegna
+Indirizzo: Ca'moneta 17, 47868 Montecopiolo RN
+Coordinate: Lat 43.837863, Lng 12.370501
+Website: http://www.prolocomontecopiolo.it/bb-il-poggio
+Email: 
+
+15032. B&B Molino Del Gobbo
+ID: bd5ecece-2540-42df-809b-e686b68f59c8
+Slug: b-b-molino-del-gobbo-carpegna
+Nome: B&B Molino Del Gobbo
+Comune / Provincia: Carpegna
+Indirizzo: Località Campomarzio, 1, 47866 Sant'Agata Feltria RN
+Coordinate: Lat 43.865551, Lng 12.203581
+Website: http://www.molinodelgobbo.com/
+Email: 
+
+15033. Bed and Breakfast Dal Tenente - Caffè del Corso
+ID: aa4e873e-30f3-4c9d-a28b-dba4e5058227
+Slug: bed-and-breakfast-dal-tenente-caffe-del-corso-carpegna
+Nome: Bed and Breakfast Dal Tenente - Caffè del Corso
+Comune / Provincia: Carpegna
+Indirizzo: Corso Giuseppe Garibaldi, 22, 61048 Sant'Angelo in Vado PU
+Coordinate: Lat 43.66544, Lng 12.410993
+Website: https://www.bbdaltenente.it/
+Email: 
+
+15034. Carpegna Town Suites
+ID: d0a3b89e-e9a1-4c8e-bc8d-91aea1127d64
+Slug: carpegna-town-suites-carpegna
+Nome: Carpegna Town Suites
+Comune / Provincia: Carpegna
+Indirizzo: Via Giacomo Leopardi, 2, 61021 Carpegna PU
+Coordinate: Lat 43.782543, Lng 12.337887
+Website: https://www.carpegnatownsuites.it/
+Email: 
+
+15035. Falcon Hotel
+ID: a1287951-0b17-4e73-9f7e-7f6f9be62fc2
+Slug: falcon-hotel-carpegna
+Nome: Falcon Hotel
+Comune / Provincia: Carpegna
+Indirizzo: Via S. Girolamo, 30, 47866 Sant'Agata Feltria RN
+Coordinate: Lat 43.859948, Lng 12.209713
+Website: http://www.falconhotel.it/
+Email: 
+
+15036. Hotel il Duca del Montefeltro
+ID: cfa530c5-b1e4-46da-a464-e3682411d16f
+Slug: hotel-il-duca-del-montefeltro-carpegna
+Nome: Hotel il Duca del Montefeltro
+Comune / Provincia: Carpegna
+Indirizzo: Via Moro Aldo, 12, 47864 Pennabilli RN
+Coordinate: Lat 43.81932, Lng 12.26763
+Website: http://www.hotelducamontefeltro.it/
+Email: 
+
+15037. Hotel Magda
+ID: 5f025247-e472-42bf-b50f-d59042c1dcb5
+Slug: hotel-magda-carpegna
+Nome: Hotel Magda
+Comune / Provincia: Carpegna
+Indirizzo: Via Aurelio Saffi, 55, 47863 Novafeltria RN
+Coordinate: Lat 43.894363, Lng 12.291071
+Website: —
+Email: 
+
+15038. La Cegna
+ID: fed2038e-8f93-4eab-83fc-170ab2a9e2a4
+Slug: la-cegna-carpegna
+Nome: La Cegna
+Comune / Provincia: Carpegna
+Indirizzo: Via Ca' Fantino, 61010 Montemaggio PU
+Coordinate: Lat 43.872201, Lng 12.422592
+Website: —
+Email: 
+
+15039. La Locanda dell'Ambra
+ID: d6209ba6-1a10-4238-b751-b5bbdb3aeb18
+Slug: la-locanda-dell-ambra-carpegna
+Nome: La Locanda dell'Ambra
+Comune / Provincia: Carpegna
+Indirizzo: Via Garibaldi, 28, 47867 Talamello RN
+Coordinate: Lat 43.905471, Lng 12.285599
+Website: http://lalocandadellambra.com/index.html
+Email: 
+
+15040. Locanda al Coppo
+ID: 65c44475-4e2f-4b20-b91e-866adef7ad9e
+Slug: locanda-al-coppo-carpegna
+Nome: Locanda al Coppo
+Comune / Provincia: Carpegna
+Indirizzo: Via per S. Marino, 1, 61010 Monte Grimano Terme PU
+Coordinate: Lat 43.880441, Lng 12.483113
+Website: http://www.alcoppo.it/
+Email: 
+
+15041. Podere Fabbrani
+ID: ab5013a1-fd8f-4a10-8d0b-011be59ee578
+Slug: podere-fabbrani-carpegna
+Nome: Podere Fabbrani
+Comune / Provincia: Carpegna
+Indirizzo: Rovine di Cavedale, 47864 Pennabilli RN
+Coordinate: Lat 43.847849, Lng 12.30838
+Website: https://beb.it/poderefabbrani
+Email: 
+
+15042. B&B rosa mistica
+ID: e1c30251-6668-4164-8b7b-0746b92b0588
+Slug: b-b-rosa-mistica-carpenedolo
+Nome: B&B rosa mistica
+Comune / Provincia: Carpenedolo
+Indirizzo: Via Fornace, 34, 25018 Montichiari BS
+Coordinate: Lat 45.386768, Lng 10.405706
+Website: http://www.bbrosamistica.it/
+Email: 
+
+15043. Casa nel Vicolo
+ID: cf4ce15e-2198-47a4-bb38-7d5c9edeedb7
+Slug: casa-nel-vicolo-carpenedolo
+Nome: Casa nel Vicolo
+Comune / Provincia: Carpenedolo
+Indirizzo: Vicolo Mercato, 6, 25018 Montichiari BS
+Coordinate: Lat 45.412473, Lng 10.392116
+Website: https://www.casanelvicolo.it/
+Email: 
+
+15044. Hotel il Giardinetto
+ID: d86c30d5-c9bd-4117-9f31-e9cf0d34a658
+Slug: hotel-il-giardinetto-carpenedolo
+Nome: Hotel il Giardinetto
+Comune / Provincia: Carpenedolo
+Indirizzo: Via Guglielmo Marconi, 39, 25015 Desenzano del Garda BS
+Coordinate: Lat 45.467404, Lng 10.538369
+Website: https://stayly.it/hoteles/hotel-giardinetto-desenzano-del-garda
+Email: 
+
+15045. Hotel Nazionale
+ID: 345939be-536e-428c-871e-acc5537e1d95
+Slug: hotel-nazionale-carpenedolo
+Nome: Hotel Nazionale
+Comune / Provincia: Carpenedolo
+Indirizzo: Via Guglielmo Marconi, 23, 25015 Desenzano del Garda BS
+Coordinate: Lat 45.466646, Lng 10.54112
+Website: http://www.hotelnazionaledesenzano.it/
+Email: 
+
+15046. Hotel Palazzo Novello
+ID: 5b826a58-b10f-4740-9886-487bfb7b278d
+Slug: hotel-palazzo-novello-carpenedolo
+Nome: Hotel Palazzo Novello
+Comune / Provincia: Carpenedolo
+Indirizzo: Via Tito Speri, 19, 25018 Montichiari BS
+Coordinate: Lat 45.404835, Lng 10.389352
+Website: https://www.palazzonovello.it/?utm_source=googleMyBusiness&utm_medium=organic&utm_campaign=googleMyBusiness
+Email: 
+
+15047. Agriturismo Montebi
+ID: e7036441-55ed-4158-9e9a-7127e5ab85c3
+Slug: agriturismo-montebi-carpeneto
+Nome: Agriturismo Montebi
+Comune / Provincia: Carpeneto
+Indirizzo: Cascina Montebi, 113, 15070 Trisobbio AL
+Coordinate: Lat 44.643995, Lng 8.589477
+Website: https://www.montebi.it/
+Email: 
+
+15048. Albergo Vittoria Ovada, Hotel Ovada
+ID: c3f7b75f-ed8c-488b-a18a-46951b27b65e
+Slug: albergo-vittoria-ovada-hotel-ovada-carpeneto
+Nome: Albergo Vittoria Ovada, Hotel Ovada
+Comune / Provincia: Carpeneto
+Indirizzo: Str. Voltri, 27, 15076 Ovada AL
+Coordinate: Lat 44.631809, Lng 8.645059
+Website: http://www.vittorialbergo.it/
+Email: 
+
+15049. B&B Cantine Pietronero
+ID: 544f4896-694c-469a-b470-289dc8560c5a
+Slug: b-b-cantine-pietronero-carpeneto
+Nome: B&B Cantine Pietronero
+Comune / Provincia: Carpeneto
+Indirizzo: Via Roma, 23, 15010 Orsara Bormida AL
+Coordinate: Lat 44.689633, Lng 8.564656
+Website: https://bb-cantine-pietronero.italiatips.top/
+Email: 
+
+15050. B&B Casa Dormiveglia
+ID: 75b0e186-0fac-410e-aafc-7495ac34510f
+Slug: b-b-casa-dormiveglia-carpeneto
+Nome: B&B Casa Dormiveglia
+Comune / Provincia: Carpeneto
+Indirizzo: Cascina Bartameloni, 40, 15010 Montaldo Bormida AL
+Coordinate: Lat 44.695652, Lng 8.592387
+Website: https://www.casadormiveglia.com/
+Email: 

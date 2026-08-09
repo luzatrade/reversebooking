@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+1. Meridian Hotel
+ID: 4f6f658b-9184-4db5-bb01-033b33180d65
+Slug: meridian-hotel-acquappesa
+Nome: Meridian Hotel
+Comune / Provincia: Acquappesa
+Indirizzo: Via Amerigo Vespucci, 1, 87020 Guardia Piemontese CS
+Coordinate: Lat 39.46376, Lng 15.979766
+Website: https://www.hotelscheck-in.com/meridianhotelitaly/it/
+Email: 
+
+2. B&B Bellaria Rooms
+ID: 376f999f-b5fd-41d3-8d7b-3ee6588b6553
+Slug: b-b-bellaria-rooms-acquaro
+Nome: B&B Bellaria Rooms
+Comune / Provincia: Acquaro
+Indirizzo: Via Roma, 2/4, 89900 Longobardi VV
+Coordinate: Lat 38.704738, Lng 16.127864
+Website: —
+Email: 
+
+3. B&B Civico 6
+ID: d25c93c4-5ee7-4e38-867c-3b61570479df
+Slug: b-b-civico-6-acquaro
+Nome: B&B Civico 6
+Comune / Provincia: Acquaro
+Indirizzo: Via S. Nicola, 89054 Galatro RC
+Coordinate: Lat 38.461827, Lng 16.108984
+Website: —
+Email: 
+
+4. B&B Le Casette
+ID: eaf4fd8c-9d6f-4cf4-a2d1-7701ed42e0b9
+Slug: b-b-le-casette-acquaro
+Nome: B&B Le Casette
+Comune / Provincia: Acquaro
+Indirizzo: Piazza Umberto I, 47, 89843 Sant'Onofrio VV
+Coordinate: Lat 38.695403, Lng 16.144063
+Website: —
+Email: 
+
+5. B&B Via del Sole
+ID: 838af5f1-36ed-4161-8d50-b5b36a82efa2
+Slug: b-b-via-del-sole-acquaro
+Nome: B&B Via del Sole
+Comune / Provincia: Acquaro
+Indirizzo: Strada Statale 18, 324, 89851 Vena VV
+Coordinate: Lat 38.649576, Lng 16.055698
+Website: —
+Email: 
+
+6. B&B Villa Maracujà
+ID: 107e6ce0-9c57-4559-9ce3-e4f95488f4df
+Slug: b-b-villa-maracuja-acquaro
+Nome: B&B Villa Maracujà
+Comune / Provincia: Acquaro
+Indirizzo: Via nazionale ss18 Strada, Comunale Contura Campana, 89851 Ionadi VV
+Coordinate: Lat 38.63749, Lng 16.059729
+Website: http://www.villamaracuja.it/
+Email: 
+
+7. B&B Villa Mery
+ID: 8a38ef68-78ac-42a1-ab95-042cd72048c7
+Slug: b-b-villa-mery-acquaro
+Nome: B&B Villa Mery
+Comune / Provincia: Acquaro
+Indirizzo: Località Gianmondo, 89852 Mileto VV
+Coordinate: Lat 38.601606, Lng 16.069446
+Website: https://www.bbvillamery.it/
+Email: 
+
+8. Bed and Breakfast "Home Pacifico"
+ID: 53f08d82-9346-4380-870f-3ba9913dd067
+Slug: bed-and-breakfast-home-pacifico-acquaro
+Nome: Bed and Breakfast "Home Pacifico"
+Comune / Provincia: Acquaro
+Indirizzo: Contrada Cocari, snc, 89843 Sant'Onofrio VV
+Coordinate: Lat 38.693244, Lng 16.131051
+Website: https://homepacificobb.webnode.it/
+Email: 
+
+9. Bed and Breakfast Amarcord
+ID: 699a0969-1fe3-4808-9687-9c9af657fd7d
+Slug: bed-and-breakfast-amarcord-acquaro
+Nome: Bed and Breakfast Amarcord
+Comune / Provincia: Acquaro
+Indirizzo: Via Arno, 89023 Laureana di Borrello RC
+Coordinate: Lat 38.495033, Lng 16.083667
+Website: http://bed-and-breakfast-amarcord.org.es/
+Email: 
+
+10. BnB Nonna Cristina
+ID: 384fb3c4-9aca-47e5-bd83-12456688b14a
+Slug: bnb-nonna-cristina-acquaro
+Nome: BnB Nonna Cristina
+Comune / Provincia: Acquaro
+Indirizzo: Via Cassiodoro, 12, 89824 Vecchio Abitato VV
+Coordinate: Lat 38.44518, Lng 16.347981
+Website: —
+Email: 
+
+11. Donna Melina B&B
+ID: 393c8d96-701e-44dc-8e63-6a9c3b8e7388
+Slug: donna-melina-b-b-acquaro
+Nome: Donna Melina B&B
+Comune / Provincia: Acquaro
+Indirizzo: Via Real Badia, 35, 89852 Mileto VV
+Coordinate: Lat 38.607681, Lng 16.067278
+Website: https://donna-melina.bellaitaliatrips.top/
+Email: 
+
+12. Hotel Conte Ruggero
+ID: 41f48b1c-34ea-4f6f-8238-bbb6b1ee5d46
+Slug: hotel-conte-ruggero-acquaro
+Nome: Hotel Conte Ruggero
+Comune / Provincia: Acquaro
+Indirizzo: Via Tenente Bruno Pisani, 1, 89822 Serra San Bruno VV
+Coordinate: Lat 38.578904, Lng 16.331742
+Website: http://www.hotelbandbconteruggero.com/
+Email: 
+
+13. Hotel Ristorante degli Amici
+ID: b668662c-be37-4dec-b720-a1700e7c68b9
+Slug: hotel-ristorante-degli-amici-acquaro
+Nome: Hotel Ristorante degli Amici
+Comune / Provincia: Acquaro
+Indirizzo: Via Armando Diaz, 32, 89823 Mongiana VV
+Coordinate: Lat 38.513796, Lng 16.320274
+Website: https://www.hotelristorantedegliamici.com/
+Email: 
+
+14. IL Vicoletto
+ID: fc72a16b-ff57-40fb-b010-0b6669fb77bc
+Slug: il-vicoletto-acquaro
+Nome: IL Vicoletto
+Comune / Provincia: Acquaro
+Indirizzo: Corso Umberto I, 37, 89822 Serra San Bruno VV
+Coordinate: Lat 38.579941, Lng 16.332484
+Website: http://www.ilvicolettoserrasanbruno.it/
+Email: 
+
+15. MASSERIA CAPORELLI B&B azienda agricola
+ID: 478c38ea-bbe8-421b-b3d9-adb2baf5bdd7
+Slug: masseria-caporelli-b-b-azienda-agricola-acquaro
+Nome: MASSERIA CAPORELLI B&B azienda agricola
+Comune / Provincia: Acquaro
+Indirizzo: Via I Maggio, 44, 89851 San Costantino Calabro VV
+Coordinate: Lat 38.635512, Lng 16.082707
+Website: http://www.masseriacaporelli.it/
+Email: 
+
+16. Passo Del Falco S.R.L.
+ID: b724765c-55ed-48c8-91dc-29da85e0aa75
+Slug: passo-del-falco-s-r-l-acquaro
+Nome: Passo Del Falco S.R.L.
+Comune / Provincia: Acquaro
+Indirizzo: Via Nazionale, 33, 89831 Fago-Savini VV
+Coordinate: Lat 38.591049, Lng 16.266504
+Website: http://bedandbreakfastpassodelfalco.it/dove_siamo.html
+Email: 
+
+17. Sonia e Alessia
+ID: 6e64884b-d849-46c7-b00a-9474f001eebf
+Slug: sonia-e-alessia-acquaro
+Nome: Sonia e Alessia
+Comune / Provincia: Acquaro
+Indirizzo: Via Ospedale, 130, 89852 Mileto VV
+Coordinate: Lat 38.607682, Lng 16.0658
+Website: https://francescastraveltips.com/sonia-e-alessia-italy
+Email: 
+
+18. Tenuta del Barone
+ID: 67d6f49f-c324-433d-9c87-22a8a54b6bd0
+Slug: tenuta-del-barone-acquaro
+Nome: Tenuta del Barone
+Comune / Provincia: Acquaro
+Indirizzo: Str. Marzano, 89832 Dasà VV
+Coordinate: Lat 38.566414, Lng 16.191367
+Website: https://www.tenutadelbaronemarzano.it/
+Email: 
+
+19. Agriturismo Il Roccolo
+ID: eb68f8d5-68df-4e79-bfc7-95ef5d530ee3
+Slug: agriturismo-il-roccolo-acquasanta-terme
+Nome: Agriturismo Il Roccolo
+Comune / Provincia: Acquasanta Terme
+Indirizzo: Frazione Pomaro, 15/A, 63095 Acquasanta Terme AP
+Coordinate: Lat 42.764014, Lng 13.412106
+Website: http://www.ilroccolo.com/
+Email: 
+
+20. Agriturismo La Cittadella dei Sibillini
+ID: e4d3cf04-7451-4b13-b6cb-56755d184f48
+Slug: agriturismo-la-cittadella-dei-sibillini-acquasanta-terme
+Nome: Agriturismo La Cittadella dei Sibillini
+Comune / Provincia: Acquasanta Terme
+Indirizzo: Loc. Cittadella, 63048 Montemonaco AP
+Coordinate: Lat 42.88674, Lng 13.339496
+Website: http://www.cittadelladeisibillini.it/
+Email: 
+
+21. B&B Antico Borgo Piceno
+ID: fb1989eb-424b-4d27-8e85-b503e3d2868f
+Slug: b-b-antico-borgo-piceno-acquasanta-terme
+Nome: B&B Antico Borgo Piceno
+Comune / Provincia: Acquasanta Terme
+Indirizzo: Via S. Serafino da Montegranaro, 73, 63100 Ascoli Piceno AP
+Coordinate: Lat 42.858788, Lng 13.570909
+Website: https://www.anticoborgopiceno.it/
+Email: 
+
+22. B&B Il Giardino Segreto
+ID: 4f9341cb-7d3f-4723-b372-e65b0ec2b915
+Slug: b-b-il-giardino-segreto-acquasanta-terme
+Nome: B&B Il Giardino Segreto
+Comune / Provincia: Acquasanta Terme
+Indirizzo: Via Pretoriana, 55, 63100 Ascoli Piceno AP
+Coordinate: Lat 42.852134, Lng 13.575073
+Website: http://www.ilgiardinosegreto.eu/
+Email: 
+
+23. B&B La Piazzetta
+ID: b077c7a6-cad1-49ef-b8e5-81f292c0a9b9
+Slug: b-b-la-piazzetta-acquasanta-terme
+Nome: B&B La Piazzetta
+Comune / Provincia: Acquasanta Terme
+Indirizzo: Via Roma, 2Z, 63095 Acquasanta Terme AP
+Coordinate: Lat 42.768814, Lng 13.409272
+Website: http://lapiazzettabb.weebly.com/
+Email: 
+
+24. B&B Mosca Bianca
+ID: e93bbe04-0344-45a9-a0f1-5ee3e61257a4
+Slug: b-b-mosca-bianca-acquasanta-terme
+Nome: B&B Mosca Bianca
+Comune / Provincia: Acquasanta Terme
+Indirizzo: Località Castel Trosino, 9, 63100 Ascoli Piceno AP
+Coordinate: Lat 42.820937, Lng 13.553371
+Website: http://www.bebmoscabianca.it/
+Email: 
+
+25. Di Sabatino Resort
+ID: 7963af2f-61ae-4b1d-b014-54d37d0fe030
+Slug: di-sabatino-resort-acquasanta-terme
+Nome: Di Sabatino Resort
+Comune / Provincia: Acquasanta Terme
+Indirizzo: Corso Trento e Trieste, 25, 63100 Ascoli Piceno AP
+Coordinate: Lat 42.855654, Lng 13.576096
+Website: https://www.disabatino.it/
+Email: 
+
+26. Dimora storica Castel di Luco
+ID: 6869a1da-fae7-4ddc-9271-a9523785867d
+Slug: dimora-storica-castel-di-luco-acquasanta-terme
+Nome: Dimora storica Castel di Luco
+Comune / Provincia: Acquasanta Terme
+Indirizzo: 63095 Luco AP
+Coordinate: Lat 42.779478, Lng 13.427589
+Website: https://www.casteldiluco.it/
+Email: 
+
+27. Fattoria La Cona
+ID: 95472477-c40a-463a-8197-37ba559c902f
+Slug: fattoria-la-cona-acquasanta-terme
+Nome: Fattoria La Cona
+Comune / Provincia: Acquasanta Terme
+Indirizzo: Frazione Monte di Rosara, 44 Località Coperso, 63100 Ascoli Piceno AP
+Coordinate: Lat 42.819856, Lng 13.528896
+Website: http://www.fattorialacona.it/
+Email: 
+
+28. Hotel - Ristorante Tre Lanterne & SPA
+ID: cbf8a6e4-07b3-4d12-984e-92a2d77f286b
+Slug: hotel-ristorante-tre-lanterne-spa-acquasanta-terme
+Nome: Hotel - Ristorante Tre Lanterne & SPA
+Comune / Provincia: Acquasanta Terme
+Indirizzo: Frazione Cagnano, SNC, 63095 Acquasanta Terme AP
+Coordinate: Lat 42.769756, Lng 13.414784
+Website: https://tre-lanterne.italiabella.top/
+Email: 
+
+29. Hotel B&B Cantina dell'Arte Ascoli Piceno
+ID: 7d33c694-ce8b-4a80-b565-2f3d5cf615bc
+Slug: hotel-b-b-cantina-dell-arte-ascoli-piceno-acquasanta-terme
+Nome: Hotel B&B Cantina dell'Arte Ascoli Piceno
+Comune / Provincia: Acquasanta Terme
+Indirizzo: Rua Lupa, 8, 63100 Ascoli Piceno AP
+Coordinate: Lat 42.856299, Lng 13.577831
+Website: https://www.hotelcantinadellarte.it/
+Email: 
+
+30. Hotel Palazzo Guiderocchi
+ID: db804c12-a15b-4b96-89c6-454cac726b7d
+Slug: hotel-palazzo-guiderocchi-acquasanta-terme
+Nome: Hotel Palazzo Guiderocchi
+Comune / Provincia: Acquasanta Terme
+Indirizzo: Via Cesare Battisti, 3, 63100 Ascoli Piceno AP
+Coordinate: Lat 42.854498, Lng 13.573942
+Website: http://www.hotelguiderocchi.it/
+Email: 
+
+31. Hotel Ristorante Monastero Valledacqua di Acquasante Terme
+ID: 5cc00213-dddf-4925-9b76-3e2b801bb58e
+Slug: hotel-ristorante-monastero-valledacqua-di-acquas-acquasanta-terme
+Nome: Hotel Ristorante Monastero Valledacqua di Acquasante Terme
+Comune / Provincia: Acquasanta Terme
+Indirizzo: Località Valledacqua, 18, 63095 Acquasanta Terme AP
+Coordinate: Lat 42.772794, Lng 13.434753
+Website: https://www.hotel-monastero-valledacqua.it/
+Email: 
+
+32. La Fattoria dei Sibillini
+ID: 45b93b76-3571-43e6-9905-4e0b7706bd4c
+Slug: la-fattoria-dei-sibillini-acquasanta-terme
+Nome: La Fattoria dei Sibillini
+Comune / Provincia: Acquasanta Terme
+Indirizzo: Colleregnone, 6, 63088 Montemonaco AP
+Coordinate: Lat 42.914825, Lng 13.318586
+Website: https://www.fattoriadeisibillini.com/
+Email: 
+
+33. Nella Torre Bed & Breakfast
+ID: dbe322c1-4928-477a-84df-b526ee0e98f8
+Slug: nella-torre-bed-breakfast-acquasanta-terme
+Nome: Nella Torre Bed & Breakfast
+Comune / Provincia: Acquasanta Terme
+Indirizzo: Via Delle Donne, 10, 63100 Ascoli Piceno AP
+Coordinate: Lat 42.85748, Lng 13.573189
+Website: —
+Email: 
+
+34. Palazzo dei Mercanti - Dimora Storica
+ID: db68cbb4-fed7-42b2-a5e7-7916ff4a94f1
+Slug: palazzo-dei-mercanti-dimora-storica-acquasanta-terme
+Nome: Palazzo dei Mercanti - Dimora Storica
+Comune / Provincia: Acquasanta Terme
+Indirizzo: Corso Trento e Trieste, 35, 63100 Ascoli Piceno AP
+Coordinate: Lat 42.855447, Lng 13.576191
+Website: http://www.palazzodeimercanti.it/
+Email: 
+
+35. Residenza dei Capitani
+ID: 509d5ae4-8144-4feb-98b0-0ba85f65322f
+Slug: residenza-dei-capitani-acquasanta-terme
+Nome: Residenza dei Capitani
+Comune / Provincia: Acquasanta Terme
+Indirizzo: Piazza del Popolo ingresso, Via dei Tibaldeschi, 5, 63100 Ascoli Piceno AP
+Coordinate: Lat 42.854103, Lng 13.575912
+Website: http://www.residenzadeicapitani.it/
+Email: 

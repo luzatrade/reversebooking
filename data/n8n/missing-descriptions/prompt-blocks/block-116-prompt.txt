@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+4026. Bed Breakfast Al Castello
+ID: 6199c2b3-954a-4d86-a32c-02aeae3e0712
+Slug: bed-breakfast-al-castello-apricena
+Nome: Bed Breakfast Al Castello
+Comune / Provincia: Apricena
+Indirizzo: via Mons.Giuseppe, Via Monsignor G. Lariccia, 115, 71017 Torremaggiore FG
+Coordinate: Lat 41.690884, Lng 15.286726
+Website: http://www.bbcastello.it/
+Email: 
+
+4027. Grotta degli Ulivi
+ID: 61a3270a-374d-48ee-8d3d-bd2a02f3fe28
+Slug: grotta-degli-ulivi-apricena
+Nome: Grotta degli Ulivi
+Comune / Provincia: Apricena
+Indirizzo: Contrada Dell'Incoronata, 71011 Apricena FG
+Coordinate: Lat 41.796204, Lng 15.432106
+Website: http://www.grottadegliulivi.it/
+Email: 
+
+4028. Happy b&b
+ID: ea50af32-9346-4b9a-bf0b-b8a256404f24
+Slug: happy-b-b-apricena
+Nome: Happy b&b
+Comune / Provincia: Apricena
+Indirizzo: Via Bezzecca, 9, 71017 Torremaggiore FG
+Coordinate: Lat 41.68991, Lng 15.295317
+Website: https://happybeb-it.webnode.it/
+Email: 
+
+4029. IL PANORAMA
+ID: 25b47110-6eac-4855-94d2-294c8c96233b
+Slug: il-panorama-apricena
+Nome: IL PANORAMA
+Comune / Provincia: Apricena
+Indirizzo: Via Alberto Sabin, 14, 71017 Torremaggiore FG
+Coordinate: Lat 41.693438, Lng 15.282655
+Website: —
+Email: 
+
+4030. L'Ulivo
+ID: 10f0f5e2-0354-4e3a-bbf0-73bcfd401af7
+Slug: l-ulivo-apricena
+Nome: L'Ulivo
+Comune / Provincia: Apricena
+Indirizzo: Via Adige, 15, 71016 San Severo FG
+Coordinate: Lat 41.690896, Lng 15.388106
+Website: —
+Email: 
+
+4031. Malucri Resort
+ID: fdfc99ba-a510-4de0-98eb-ddafca645ce5
+Slug: malucri-resort-apricena
+Nome: Malucri Resort
+Comune / Provincia: Apricena
+Indirizzo: Corso del Popolo, 80, 71014 Borgo Celano FG
+Coordinate: Lat 41.701482, Lng 15.664381
+Website: http://www.malucri.it/
+Email: 
+
+4032. Sweet Room - B&B San Severo
+ID: 26de84dd-3aaf-4953-85f2-da471c1f0a22
+Slug: sweet-room-b-b-san-severo-apricena
+Nome: Sweet Room - B&B San Severo
+Comune / Provincia: Apricena
+Indirizzo: Via Emanuele De Deo, 24, 71016 San Severo FG
+Coordinate: Lat 41.683668, Lng 15.383645
+Website: https://artattic.eu/sweet-room-san-severo-italy
+Email: 
+
+4033. Teresa Masselli B&B
+ID: 5c289fee-32cd-480a-aab5-48206d75ffef
+Slug: teresa-masselli-b-b-apricena
+Nome: Teresa Masselli B&B
+Comune / Provincia: Apricena
+Indirizzo: Via Teresa Masselli, 27, 71016 San Severo FG
+Coordinate: Lat 41.689633, Lng 15.38286
+Website: https://b-b-teresa-masselli.hotel2x1.com/
+Email: 
+
+4034. Agriturismo Il Costrano
+ID: db81e808-5ede-48dc-8586-a4d77bfec4b4
+Slug: agriturismo-il-costrano-aprigliano
+Nome: Agriturismo Il Costrano
+Comune / Provincia: Aprigliano
+Indirizzo: Cnt Costrano, 87051 Aprigliano CS
+Coordinate: Lat 39.221789, Lng 16.347791
+Website: https://www.agriturismoilcostrano.com/
+Email: 
+
+4035. Agriturismo Pietro Falcone
+ID: bcf5fbc0-f676-4091-81c4-f9ee4ad86c26
+Slug: agriturismo-pietro-falcone-aprigliano
+Nome: Agriturismo Pietro Falcone
+Comune / Provincia: Aprigliano
+Indirizzo: Str. Cimitero, 87053 Celico CS
+Coordinate: Lat 39.313716, Lng 16.349944
+Website: https://agriturismo-pietro-falcone.migliorhotel.top/
+Email: 
+
+4036. Alma B&B Home Cosenza
+ID: 7d541a6e-6f8c-4923-88d1-43f44f30e405
+Slug: alma-b-b-home-cosenza-aprigliano
+Nome: Alma B&B Home Cosenza
+Comune / Provincia: Aprigliano
+Indirizzo: V. Francesco Cilea, 11, 87100 Cosenza CS
+Coordinate: Lat 39.307305, Lng 16.244376
+Website: https://www.casavacanzecosenza.it/
+Email: 
+
+4037. B&B L'antico Rudere
+ID: 55d1e0ad-3cba-4a06-89f0-4d23cfba8f5e
+Slug: b-b-l-antico-rudere-aprigliano
+Nome: B&B L'antico Rudere
+Comune / Provincia: Aprigliano
+Indirizzo: Via Donato Bendicenti, 14, 87100 Cosenza CS
+Coordinate: Lat 39.287451, Lng 16.265335
+Website: http://www.anticoruderecosenza.it/
+Email: 
+
+4038. B&B Le Ortensie
+ID: 94fdf018-1c22-40a1-a4e0-ad4ff01067e2
+Slug: b-b-le-ortensie-aprigliano
+Nome: B&B Le Ortensie
+Comune / Provincia: Aprigliano
+Indirizzo: Viale della Repubblica, 143/scala B, 87100 Cosenza CS
+Coordinate: Lat 39.296117, Lng 16.247209
+Website: https://tomrecommends.eu/le-ortensie-cosenza-italy
+Email: 
+
+4039. B&B Sasso
+ID: 817df379-a2ae-42e3-a99d-7728e3965a1b
+Slug: b-b-sasso-aprigliano
+Nome: B&B Sasso
+Comune / Provincia: Aprigliano
+Indirizzo: Via Alberico Talarico, 11, 87100 Cosenza CS
+Coordinate: Lat 39.296835, Lng 16.24806
+Website: —
+Email: 
+
+4040. B&B The Dream
+ID: 51d797c5-c625-48a2-97ef-deb521aaf01a
+Slug: b-b-the-dream-aprigliano
+Nome: B&B The Dream
+Comune / Provincia: Aprigliano
+Indirizzo: Via Pasquale Rossi, 97, 87100 Cosenza CS
+Coordinate: Lat 39.306362, Lng 16.245308
+Website: https://www.thedreambedandbreakfast.it/
+Email: 
+
+4041. Borgo Riolo sas di Bozzo Francesca
+ID: 0fa177d3-0af0-49f5-bd03-bfe7369bf656
+Slug: borgo-riolo-sas-di-bozzo-francesca-aprigliano
+Nome: Borgo Riolo sas di Bozzo Francesca
+Comune / Provincia: Aprigliano
+Indirizzo: 87100 Donnici Inferiore CS
+Coordinate: Lat 39.250737, Lng 16.294515
+Website: —
+Email: 
+
+4042. clc home b&b cosenza
+ID: 36d60218-977f-4f9b-afa6-2ae4a19c7d11
+Slug: clc-home-b-b-cosenza-aprigliano
+Nome: clc home b&b cosenza
+Comune / Provincia: Aprigliano
+Indirizzo: Via Domenico Milelli, 26, 87100 Cosenza CS
+Coordinate: Lat 39.291831, Lng 16.254048
+Website: —
+Email: 
+
+4043. Donna Giovanna Guest House
+ID: 428d6367-96b0-4b02-a981-81d0f75a573f
+Slug: donna-giovanna-guest-house-aprigliano
+Nome: Donna Giovanna Guest House
+Comune / Provincia: Aprigliano
+Indirizzo: Via Piave, 98, 87100 Cosenza CS
+Coordinate: Lat 39.29417, Lng 16.250755
+Website: https://www.donnagiovannaguesthouse.it/
+Email: 
+
+4044. Italiana Hotels Cosenza
+ID: abe92023-a436-44ef-a486-0903e2af67bd
+Slug: italiana-hotels-cosenza-aprigliano
+Nome: Italiana Hotels Cosenza
+Comune / Provincia: Aprigliano
+Indirizzo: Via Panebianco, 452, 87100 Cosenza CS
+Coordinate: Lat 39.313446, Lng 16.246523
+Website: http://www.hicosenza.it/
+Email: 
+
+4045. Kosentia B&B
+ID: b8db1dec-a47c-4bbd-a973-20af8e8c0e27
+Slug: kosentia-b-b-aprigliano
+Nome: Kosentia B&B
+Comune / Provincia: Aprigliano
+Indirizzo: Via Cesare Marini, 9, 87100 Cosenza CS
+Coordinate: Lat 39.29891, Lng 16.254126
+Website: https://www.facebook.com/profile.php?id=100091210007101
+Email: 
+
+4046. La Bienbi'
+ID: a430cdb4-5f46-4be6-b941-244ec22ac4f1
+Slug: la-bienbi-aprigliano
+Nome: La Bienbi'
+Comune / Provincia: Aprigliano
+Indirizzo: Via Terenzio Tavolaro, 10, 87100 Cosenza CS
+Coordinate: Lat 39.30331, Lng 16.246439
+Website: https://labienbi.it/
+Email: 
+
+4047. Le stanzedi Karola&Luigia
+ID: 65fde9a5-c781-42d3-9501-6889581bc4ee
+Slug: le-stanzedi-karola-luigia-aprigliano
+Nome: Le stanzedi Karola&Luigia
+Comune / Provincia: Aprigliano
+Indirizzo: Via Duomo, 12, 87059 Spezzano Piccolo CS
+Coordinate: Lat 39.288055, Lng 16.343353
+Website: https://fernandostravelexperience.eu/le-stanzedi-karola-amp-luigia-spezzano-piccolo12-italy
+Email: 
+
+4048. Misve Home
+ID: a30efb23-54e2-4fdd-b18a-a297286a8bbe
+Slug: misve-home-aprigliano
+Nome: Misve Home
+Comune / Provincia: Aprigliano
+Indirizzo: Via Savoia, 6, 87100 Cosenza CS
+Coordinate: Lat 39.297344, Lng 16.248261
+Website: http://misvehome.com.es/
+Email: 
+
+4049. VillaFam
+ID: 66533ee5-3fa6-4db5-9db1-d1b0d9c853af
+Slug: villafam-aprigliano
+Nome: VillaFam
+Comune / Provincia: Aprigliano
+Indirizzo: Via Benito Aloisi, 13, 87100 Donnici Superiore CS
+Coordinate: Lat 39.246101, Lng 16.304727
+Website: https://villafam.it/
+Email: 
+
+4050. Affittacamere casano
+ID: 92ff1dbc-a460-4209-8656-4ae1dd7c3008
+Slug: affittacamere-casano-aprilia
+Nome: Affittacamere casano
+Comune / Provincia: Aprilia
+Indirizzo: Via A. di Crollalanza, 29, 04011 Aprilia LT
+Coordinate: Lat 41.592105, Lng 12.653872
+Website: —
+Email: 
+
+4051. Anna Rooms
+ID: 9f8ddef2-bf41-4e32-90cc-b66471f13863
+Slug: anna-rooms-aprilia
+Nome: Anna Rooms
+Comune / Provincia: Aprilia
+Indirizzo: Piazza Don Luigi Sturzo, 13, 04011 Aprilia LT
+Coordinate: Lat 41.594634, Lng 12.645241
+Website: —
+Email: 
+
+4052. Appartment Le Mirage 2.0
+ID: 330626f9-7290-441a-b868-9d6035c91f88
+Slug: appartment-le-mirage-2-0-aprilia
+Nome: Appartment Le Mirage 2.0
+Comune / Provincia: Aprilia
+Indirizzo: Via Giuseppe di Vittorio, 6, 04011 Aprilia LT
+Coordinate: Lat 41.595594, Lng 12.646477
+Website: http://www.appartmentlemirage2.it/
+Email: 
+
+4053. B & B Delle Valli
+ID: f6962390-f3bf-4935-8fb2-bd265d9630f1
+Slug: b-b-delle-valli-aprilia
+Nome: B & B Delle Valli
+Comune / Provincia: Aprilia
+Indirizzo: Via delle Valli, 13, 04011 Aprilia LT
+Coordinate: Lat 41.598697, Lng 12.635977
+Website: —
+Email: 
+
+4054. B&B "Il casale di Giulia"
+ID: ff4a81bd-7269-42ec-bf66-e6893ce5dbb3
+Slug: b-b-il-casale-di-giulia-aprilia
+Nome: B&B "Il casale di Giulia"
+Comune / Provincia: Aprilia
+Indirizzo: Via Carano, 149/151, 04011 Aprilia LT
+Coordinate: Lat 41.570188, Lng 12.732866
+Website: https://vacationrentalinspection.com/il-casale-di-giulia-aprilia-italy
+Email: 
+
+4055. B&B Aprilia - Casale del Vento
+ID: 2b161db3-0fb8-4d51-b55b-bafb78183f4c
+Slug: b-b-aprilia-casale-del-vento-aprilia
+Nome: B&B Aprilia - Casale del Vento
+Comune / Provincia: Aprilia
+Indirizzo: Via Basento, 10, 04011 Fossignano LT
+Coordinate: Lat 41.594136, Lng 12.563508
+Website: —
+Email: 
+
+4056. B&B La Riserva Nuova
+ID: a121fdb2-9094-42a8-b9d8-641f13aa3131
+Slug: b-b-la-riserva-nuova-aprilia
+Nome: B&B La Riserva Nuova
+Comune / Provincia: Aprilia
+Indirizzo: Via Riserva Nuova, 62, 04011 Aprilia LT
+Coordinate: Lat 41.564752, Lng 12.616732
+Website: —
+Email: 
+
+4057. Bed & Breakfast Le Mirage
+ID: 76beab31-a857-4f4a-bec4-8e8c5aed9edf
+Slug: bed-breakfast-le-mirage-aprilia
+Nome: Bed & Breakfast Le Mirage
+Comune / Provincia: Aprilia
+Indirizzo: Via della Stazione, 04011 Aprilia LT
+Coordinate: Lat 41.591744, Lng 12.641093
+Website: —
+Email: 
+
+4058. COMÓ EXCLUSIVE affittacamere
+ID: ef66edcc-6db2-4371-9dd2-4ac1f5dbc798
+Slug: como-exclusive-affittacamere-aprilia
+Nome: COMÓ EXCLUSIVE affittacamere
+Comune / Provincia: Aprilia
+Indirizzo: Via Pontina, 206, 04011 Aprilia LT
+Coordinate: Lat 41.576016, Lng 12.657042
+Website: http://www.comoexclusive.eu/
+Email: 
+
+4059. Della Piana Residence Srl
+ID: 3fab9504-a8c3-4ccc-8df5-4dd8dfd6e471
+Slug: della-piana-residence-srl-aprilia
+Nome: Della Piana Residence Srl
+Comune / Provincia: Aprilia
+Indirizzo: Via della Piana, 22, 04011 Aprilia LT
+Coordinate: Lat 41.595487, Lng 12.632831
+Website: http://www.dellapianaresidence.it/
+Email: 
+
+4060. Favola Affittacamere
+ID: 52dc1046-2272-4401-b266-3f97a4bc5208
+Slug: favola-affittacamere-aprilia
+Nome: Favola Affittacamere
+Comune / Provincia: Aprilia
+Indirizzo: Piazza Salvatore Valeri, 4, 00048 Nettuno RM
+Coordinate: Lat 41.457967, Lng 12.659007
+Website: https://favolaguesthouse.it/
+Email: 

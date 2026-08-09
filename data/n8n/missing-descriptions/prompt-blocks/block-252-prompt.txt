@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+8786. Albergo Del Turista srl
+ID: 6fe42caa-f5e1-4faf-a8e1-f8d30002ef39
+Slug: albergo-del-turista-srl-bettola
+Nome: Albergo Del Turista srl
+Comune / Provincia: Bettola
+Indirizzo: Via Guglielmo Marconi, 35, 29010 Vernasca PC
+Coordinate: Lat 44.800579, Lng 9.832017
+Website: https://www.hotelspretorian.com/albergo-del-turista-srl/
+Email: 
+
+8787. Albergo Ristorante La Vecchia Quercia
+ID: 1f7eeb35-2895-485c-8432-2d2fa56430ca
+Slug: albergo-ristorante-la-vecchia-quercia-bettola
+Nome: Albergo Ristorante La Vecchia Quercia
+Comune / Provincia: Bettola
+Indirizzo: Via Gino Bianchi, 5, 29021 Bettola PC
+Coordinate: Lat 44.772551, Lng 9.612795
+Website: http://www.albergolavecchiaquercia.com/
+Email: 
+
+8788. Albergo Ristorante Piacentino
+ID: 72d7aa12-f3eb-4105-97cf-5ac92317c972
+Slug: albergo-ristorante-piacentino-bettola
+Nome: Albergo Ristorante Piacentino
+Comune / Provincia: Bettola
+Indirizzo: Piazza S. Francesco, 19, 29022 Bobbio PC
+Coordinate: Lat 44.769072, Lng 9.386852
+Website: http://www.hotelpiacentino.it/
+Email: 
+
+8789. B&b Boblin blu
+ID: 87f1de41-25d0-4e31-8d6c-d75f10e126c9
+Slug: b-b-boblin-blu-bettola
+Nome: B&b Boblin blu
+Comune / Provincia: Bettola
+Indirizzo: Località Maiolo, 46, 29021 Bettola PC
+Coordinate: Lat 44.749385, Lng 9.593756
+Website: —
+Email: 
+
+8790. B&B La Forgia
+ID: 60e487e6-8867-4d5c-bee3-fcfdbffa7975
+Slug: b-b-la-forgia-bettola
+Nome: B&B La Forgia
+Comune / Provincia: Bettola
+Indirizzo: Località Negri, 29021 Negri PC
+Coordinate: Lat 44.751177, Lng 9.601592
+Website: http://www.beblaforgia.it/
+Email: 
+
+8791. Da Nando Antica Osteria Hotel
+ID: 844c7aa3-903a-493b-a54f-7e2fbc6b3f06
+Slug: da-nando-antica-osteria-hotel-bettola
+Nome: Da Nando Antica Osteria Hotel
+Comune / Provincia: Bettola
+Indirizzo: Frazione Godi, 19, 29019 Godi PC
+Coordinate: Lat 44.904869, Lng 9.732872
+Website: http://albergodanando.it/
+Email: 
+
+8792. Grazzano Antica Stazione
+ID: d7f7e1f0-3090-4b19-9030-8850a3a2a2d5
+Slug: grazzano-antica-stazione-bettola
+Nome: Grazzano Antica Stazione
+Comune / Provincia: Bettola
+Indirizzo: Via Stazione, 1, 29020 Grazzano Visconti PC
+Coordinate: Lat 44.93626, Lng 9.671139
+Website: https://www.grazzanoanticastazione.it/
+Email: 
+
+8793. Il Portichetto Rivergaro
+ID: dafed683-13ae-4d25-aaae-8b0100243caf
+Slug: il-portichetto-rivergaro-bettola
+Nome: Il Portichetto Rivergaro
+Comune / Provincia: Bettola
+Indirizzo: Via dei Borzoli, 6, 29029 Rivergaro PC
+Coordinate: Lat 44.91981, Lng 9.61126
+Website: http://il-portichetto-rivergaro.com.es/
+Email: 
+
+8794. L'angolo nascosto
+ID: cb97bdbc-059d-4b50-8b67-2cdc7e139148
+Slug: l-angolo-nascosto-bettola
+Nome: L'angolo nascosto
+Comune / Provincia: Bettola
+Indirizzo: V. Rallio, 189, 29029 Rallio PC
+Coordinate: Lat 44.869945, Lng 9.575084
+Website: https://langolo-nascosto.hotelsinitaly.top/
+Email: 
+
+8795. La Locanda dei Cavalieri
+ID: c6df10c5-9f28-48b4-bc0f-f11a95acdaf2
+Slug: la-locanda-dei-cavalieri-bettola
+Nome: La Locanda dei Cavalieri
+Comune / Provincia: Bettola
+Indirizzo: Via Ca Ciani, 1, 29018 Lugagnano Val d'Arda PC
+Coordinate: Lat 44.810004, Lng 9.793399
+Website: http://www.lalocandadeicavalieri.it/
+Email: 
+
+8796. Nuova Pensione San Giuseppe
+ID: b2cc3e03-5f28-4947-8ca2-ec3f55c0b986
+Slug: nuova-pensione-san-giuseppe-bettola
+Nome: Nuova Pensione San Giuseppe
+Comune / Provincia: Bettola
+Indirizzo: Via del Pozzone, 3, 29019 San Damiano PC
+Coordinate: Lat 44.914967, Lng 9.708244
+Website: http://www.npsg.it/
+Email: 
+
+8797. Nuovo Agriturismo Villa Enrichetta
+ID: bdee2612-7c0d-463c-acff-13a4845685d3
+Slug: nuovo-agriturismo-villa-enrichetta-bettola
+Nome: Nuovo Agriturismo Villa Enrichetta
+Comune / Provincia: Bettola
+Indirizzo: Località Villa Enrichetta, 1, 29021 Bettola PC
+Coordinate: Lat 44.783156, Lng 9.612052
+Website: https://www.instagram.com/agrivillaenrichetta?igsh=OTV5dzRsajdpOTl0&utm_source=qr
+Email: 
+
+8798. UvaMatta
+ID: d014a201-a41a-4b29-bc11-5bd017cf165d
+Slug: uvamatta-bettola
+Nome: UvaMatta
+Comune / Provincia: Bettola
+Indirizzo: Via Domenico Lusardi, 54, 29020 Carmiano PC
+Coordinate: Lat 44.849454, Lng 9.613483
+Website: https://uvamatta.touritaliani.top/
+Email: 
+
+8799. Veleia Locanda
+ID: cad7f7dd-761b-4be9-bd87-bb2a461b0c8c
+Slug: veleia-locanda-bettola
+Nome: Veleia Locanda
+Comune / Provincia: Bettola
+Indirizzo: SP14, 29018 Magnani PC
+Coordinate: Lat 44.784919, Lng 9.722467
+Website: http://veleiaromana.it/
+Email: 
+
+8800. Agriturismo L'Uliveto Magico
+ID: aaeebd2a-d9e7-4e80-bcd6-d2632e89f7bf
+Slug: agriturismo-l-uliveto-magico-bettona
+Nome: Agriturismo L'Uliveto Magico
+Comune / Provincia: Bettona
+Indirizzo: Via cicaleto, 1, 06033 Cannara PG
+Coordinate: Lat 42.981978, Lng 12.543956
+Website: https://www.ulivetomagico.it/
+Email: 
+
+8801. agriturismo la macina di bettona
+ID: 99fc42fe-75db-4189-a98f-f7b8ee5dbb38
+Slug: agriturismo-la-macina-di-bettona-bettona
+Nome: agriturismo la macina di bettona
+Comune / Provincia: Bettona
+Indirizzo: Via Corta, 06084 Passaggio PG
+Coordinate: Lat 43.015192, Lng 12.49477
+Website: http://www.lamacinadibettona.it/
+Email: 
+
+8802. Agriturismo Residenza Il Girasole
+ID: c39b92fc-ba3a-40ae-96b0-24b563d8ac50
+Slug: agriturismo-residenza-il-girasole-bettona
+Nome: Agriturismo Residenza Il Girasole
+Comune / Provincia: Bettona
+Indirizzo: Via Perugia, 100, 06084 Bettona PG
+Coordinate: Lat 43.020934, Lng 12.492806
+Website: http://www.residenzailgirasole.com/
+Email: 
+
+8803. Agriturismo Umbrian Sunrise
+ID: 97a66725-3efc-4d81-a6b9-820a2d3523fe
+Slug: agriturismo-umbrian-sunrise-bettona
+Nome: Agriturismo Umbrian Sunrise
+Comune / Provincia: Bettona
+Indirizzo: Strada Provinciale 412 Loc, 06033 Collemancio PG
+Coordinate: Lat 42.978714, Lng 12.525914
+Website: http://www.umbriansunrise.com/
+Email: 
+
+8804. B&B River Melody Umbria
+ID: fd854f6e-2e4d-450e-854e-6a990d89e020
+Slug: b-b-river-melody-umbria-bettona
+Nome: B&B River Melody Umbria
+Comune / Provincia: Bettona
+Indirizzo: Via Col di Mezzo, 47, 06084 Bettona PG
+Coordinate: Lat 43.030154, Lng 12.47713
+Website: http://www.rivermelody.com/
+Email: 
+
+8805. Bed And Breakfast Madonna Del Latte
+ID: 38f70e9c-243f-49bc-9b02-e57c7702ffee
+Slug: bed-and-breakfast-madonna-del-latte-bettona
+Nome: Bed And Breakfast Madonna Del Latte
+Comune / Provincia: Bettona
+Indirizzo: Vocabolo Pilercio, 30, 06033 Cannara PG
+Coordinate: Lat 42.9916, Lng 12.524137
+Website: http://madonnadelatte-bnb.com.es/
+Email: 
+
+8806. Borgo Sant'Anna
+ID: 59637eb6-ed1b-43bf-82e2-79987d6616c9
+Slug: borgo-sant-anna-bettona
+Nome: Borgo Sant'Anna
+Comune / Provincia: Bettona
+Indirizzo: Via Sant'Anna, 17, 06084 Passaggio PG
+Coordinate: Lat 43.037047, Lng 12.510784
+Website: https://www.borgo-santanna.it/
+Email: 
+
+8807. Country House Il Sambro
+ID: 0095ee35-fe36-4510-9c03-66ec2663dafe
+Slug: country-house-il-sambro-bettona
+Nome: Country House Il Sambro
+Comune / Provincia: Bettona
+Indirizzo: Via Molinella, 19, 06084 Passaggio PG
+Coordinate: Lat 43.00317, Lng 12.503389
+Website: http://www.ilsambro.it/
+Email: 
+
+8808. Country House le Case Coloniche Umbria
+ID: 19e8c033-d6d1-4ffa-8bb4-e0944d44840d
+Slug: country-house-le-case-coloniche-umbria-bettona
+Nome: Country House le Case Coloniche Umbria
+Comune / Provincia: Bettona
+Indirizzo: Vocabolo la Torre, 06053 Deruta PG
+Coordinate: Lat 43.000718, Lng 12.421984
+Website: https://www.lecasecoloniche.it/
+Email: 
+
+8809. Il Poggio degli Olivi
+ID: e2f69edb-e184-4c77-9b00-61f1bb37c0f6
+Slug: il-poggio-degli-olivi-bettona
+Nome: Il Poggio degli Olivi
+Comune / Provincia: Bettona
+Indirizzo: Via Montebalacca, 06080 Passaggio PG
+Coordinate: Lat 43.004178, Lng 12.510336
+Website: https://www.poggiodegliolivi.com/
+Email: 
+
+8810. La Pila - Il Santuario dell'essere
+ID: c81f4881-be8f-4a08-bfe7-790f4654e166
+Slug: la-pila-il-santuario-dell-essere-bettona
+Nome: La Pila - Il Santuario dell'essere
+Comune / Provincia: Bettona
+Indirizzo: Via Cinque Cerri, 06084 Bettona PG
+Coordinate: Lat 42.995453, Lng 12.501829
+Website: https://la-pila-il-santuario-dellessere.camerainitalia.top/
+Email: 
+
+8811. MAME'
+ID: e0859a14-def4-47fa-826b-6e49515c2a41
+Slug: mame-bettona
+Nome: MAME'
+Comune / Provincia: Bettona
+Indirizzo: Via S. Bernardino, 46, 06084 Bettona PG
+Coordinate: Lat 42.985849, Lng 12.481077
+Website: http://bettona.com.es/
+Email: 
+
+8812. Palazzo Fiumi-LaPlaca
+ID: 8ac87b1f-4a89-49b7-9191-a677f884c449
+Slug: palazzo-fiumi-laplaca-bettona
+Nome: Palazzo Fiumi-LaPlaca
+Comune / Provincia: Bettona
+Indirizzo: Piazza Preziotti, 4, 06084 Bettona PG
+Coordinate: Lat 43.012518, Lng 12.485654
+Website: http://www.aweekinumbria.com/
+Email: 
+
+8813. Relais La Corte di Bettona
+ID: 48f843ce-13c5-4edc-a64e-328909983714
+Slug: relais-la-corte-di-bettona-bettona
+Nome: Relais La Corte di Bettona
+Comune / Provincia: Bettona
+Indirizzo: Via Santa Caterina, 2, 06084 Bettona PG
+Coordinate: Lat 43.013816, Lng 12.484243
+Website: http://www.relaisbettona.com/
+Email: 
+
+8814. Società Agricola F.lli Angelucci S.r.l.
+ID: 6923676a-0fd0-4e79-bffb-df5f8c199b29
+Slug: societa-agricola-f-lli-angelucci-s-r-l-bettona
+Nome: Società Agricola F.lli Angelucci S.r.l.
+Comune / Provincia: Bettona
+Indirizzo: Vocabolo S. Nicola, 69, 06033 Collemancio PG
+Coordinate: Lat 42.986689, Lng 12.529974
+Website: http://www.agricolaangelucci.it/
+Email: 
+
+8815. Tra grilli e cicale
+ID: 473fdab8-a9fa-471b-a6d8-dacbfb1fac26
+Slug: tra-grilli-e-cicale-bettona
+Nome: Tra grilli e cicale
+Comune / Provincia: Bettona
+Indirizzo: Strada esterna vicinale del felceto, 3, 06053 Deruta PG
+Coordinate: Lat 42.963524, Lng 12.437597
+Website: https://www.hotelitaliaweb.com/tra-grilli-e-cicale/
+Email: 
+
+8816. Villa Paolotti
+ID: dab2f63f-3dd9-4556-859e-64ec4532c7b6
+Slug: villa-paolotti-bettona
+Nome: Villa Paolotti
+Comune / Provincia: Bettona
+Indirizzo: Piazza Umberto Balducci, 1, 06084 Bettona PG
+Coordinate: Lat 43.01817, Lng 12.476691
+Website: https://thetravelinspect.com/villa-paolotti-bettona-perugia-italy
+Email: 
+
+8817. A casa di Lara
+ID: ccc531b9-514c-4280-8519-cc8b9593015d
+Slug: a-casa-di-lara-beura-cardezza
+Nome: A casa di Lara
+Comune / Provincia: Beura-Cardezza
+Indirizzo: Via Domodossola, 10, 28851 Beura-cardezza VB
+Coordinate: Lat 46.054729, Lng 8.280489
+Website: https://stayedhotels.com/a-casa-di-lara-italy
+Email: 
+
+8818. Agriturismo La Tensa
+ID: b6e576cf-8389-4323-8aec-1a597a1f4cae
+Slug: agriturismo-la-tensa-beura-cardezza
+Nome: Agriturismo La Tensa
+Comune / Provincia: Beura-Cardezza
+Indirizzo: Località Tensa, 28845 Domodossola VB
+Coordinate: Lat 46.10193, Lng 8.275912
+Website: http://www.agriturismotensa.it/
+Email: 
+
+8819. Albergo Biglia
+ID: 18b36fc9-a4c9-46a1-9f3b-6cf3c2576311
+Slug: albergo-biglia-beura-cardezza
+Nome: Albergo Biglia
+Comune / Provincia: Beura-Cardezza
+Indirizzo: Piazza Arturo dell'Oro, 22, 28845 Domodossola VB
+Coordinate: Lat 46.114421, Lng 8.292484
+Website: http://www.albergobiglia.com/
+Email: 
+
+8820. B&B Le Camelie
+ID: a17a07a4-695e-4148-8cb5-994222940ff3
+Slug: b-b-le-camelie-beura-cardezza
+Nome: B&B Le Camelie
+Comune / Provincia: Beura-Cardezza
+Indirizzo: Borgata S. Quirico, 20, 28845 Domodossola VB
+Coordinate: Lat 46.10164, Lng 8.292898
+Website: http://www.beblecamelie.com/
+Email: 

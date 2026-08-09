@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+11166. Albergo Al Castello
+ID: 0346fe1d-b50d-4328-86a2-6b13d8f6c3d2
+Slug: albergo-al-castello-brugnera
+Nome: Albergo Al Castello
+Comune / Provincia: Brugnera
+Indirizzo: Via Zat Sereno, 1, 33070 Caneva PN
+Coordinate: Lat 45.969438, Lng 12.447321
+Website: —
+Email: 
+
+11167. Albergo Due Fiumi
+ID: 91ebe66e-b3cc-434a-915c-d9d96217903a
+Slug: albergo-due-fiumi-brugnera
+Nome: Albergo Due Fiumi
+Comune / Provincia: Brugnera
+Indirizzo: Via Bertolissi, 35, 33077 Sacile PN
+Coordinate: Lat 45.94103, Lng 12.497768
+Website: http://www.due-fiumi.it/
+Email: 
+
+11168. B & B Dante pordenone
+ID: 367a6842-a15f-47d7-8948-662c61bd408c
+Slug: b-b-dante-pordenone-brugnera
+Nome: B & B Dante pordenone
+Comune / Provincia: Brugnera
+Indirizzo: Viale Dante, 19, 33084 Pordenone PN
+Coordinate: Lat 45.959964, Lng 12.66419
+Website: https://www.pordenonedante.eu/
+Email: 
+
+11169. B&B Lo Schiaccianoci
+ID: 128eeb25-5d98-476c-b954-8aae9ee1b941
+Slug: b-b-lo-schiaccianoci-brugnera
+Nome: B&B Lo Schiaccianoci
+Comune / Provincia: Brugnera
+Indirizzo: Via Casut, 163, 33074 Casut PN
+Coordinate: Lat 45.932341, Lng 12.541892
+Website: https://www.bed-and-breakfast.it/en/friuli-venezia-giulia/bed-breakfast-lo-schiaccianoci-fontanafredda/33231
+Email: 
+
+11170. Ca' Premuda | Locazione Codognè
+ID: c134e882-953e-4872-93c1-797945eb5c15
+Slug: ca-premuda-locazione-codogne-brugnera
+Nome: Ca' Premuda | Locazione Codognè
+Comune / Provincia: Brugnera
+Indirizzo: Via Scuole, 23, 31013 Roverbasso TV
+Coordinate: Lat 45.874899, Lng 12.459072
+Website: https://www.capremuda.it/
+Email: 
+
+11171. Casa Carrer B&B
+ID: 2d74dc8f-10a6-431a-807d-ca724b44c07c
+Slug: casa-carrer-b-b-brugnera
+Nome: Casa Carrer B&B
+Comune / Provincia: Brugnera
+Indirizzo: Str. Valle Brugnera, 7, 33077 Sacile PN
+Coordinate: Lat 45.915669, Lng 12.52501
+Website: http://www.casacarrer.it/
+Email: 
+
+11172. Hotel Luna_hotel pordenone
+ID: 00e5f4c4-496c-485c-9588-6edd9bb4df90
+Slug: hotel-luna-hotel-pordenone-brugnera
+Nome: Hotel Luna_hotel pordenone
+Comune / Provincia: Brugnera
+Indirizzo: Via B. Osoppo, 127, 33074 Fontanafredda PN
+Coordinate: Lat 45.983444, Lng 12.53646
+Website: https://www.hoteluna.net/
+Email: 
+
+11173. Hotel Purlilium
+ID: 70bd3864-699d-48b2-859e-d8782d532e59
+Slug: hotel-purlilium-brugnera
+Nome: Hotel Purlilium
+Comune / Provincia: Brugnera
+Indirizzo: Via Bagnador, 5, 33080 Porcia PN
+Coordinate: Lat 45.96543, Lng 12.600138
+Website: http://www.hotelpurlilium.it/
+Email: 
+
+11174. Il Giardino Segreto
+ID: 535ef486-2d38-4f48-ad6a-01dfc1ab3a36
+Slug: il-giardino-segreto-brugnera
+Nome: Il Giardino Segreto
+Comune / Provincia: Brugnera
+Indirizzo: Via G. Garibaldi, 81, 33077 Sacile PN
+Coordinate: Lat 45.953881, Lng 12.498659
+Website: —
+Email: 
+
+11175. Le Favole Agriturismo B&B
+ID: 17150746-6306-4078-abdf-29462e6b6356
+Slug: le-favole-agriturismo-b-b-brugnera
+Nome: Le Favole Agriturismo B&B
+Comune / Provincia: Brugnera
+Indirizzo: Via Ronche, 92, 33077 Sacile PN
+Coordinate: Lat 45.974156, Lng 12.486949
+Website: http://www.lefavole.com/
+Email: 
+
+11176. Villa Ca' Damiani Rooms & Apartments
+ID: d3ab026c-fc5c-4e29-84a4-b018875b7b48
+Slug: villa-ca-damiani-rooms-apartments-brugnera
+Nome: Villa Ca' Damiani Rooms & Apartments
+Comune / Provincia: Brugnera
+Indirizzo: Via Vittorio Veneto, 5, 33070 Caneva PN
+Coordinate: Lat 45.963838, Lng 12.43408
+Website: https://www.cadamiani.com/
+Email: 
+
+11177. Albergo Ristorante Tre Denti
+ID: ec8728f3-9064-4865-b8ab-38a817265a80
+Slug: albergo-ristorante-tre-denti-bruino
+Nome: Albergo Ristorante Tre Denti
+Comune / Provincia: Bruino
+Indirizzo: Via Roma, 25, 10060 Cantalupa TO
+Coordinate: Lat 44.939198, Lng 7.335001
+Website: https://www.albergotredenti.it/
+Email: 
+
+11178. Albergo Stazione
+ID: 5d747993-1248-4e50-bb04-2e840c4bee4a
+Slug: albergo-stazione-bruino
+Nome: Albergo Stazione
+Comune / Provincia: Bruino
+Indirizzo: Piazza Paracleto, 2, 10040 Piobesi Torinese TO
+Coordinate: Lat 44.931853, Lng 7.612072
+Website: https://albergo-stazione.albergatore.top/
+Email: 
+
+11179. Chiuso definitivamente Hotel To
+ID: 6fe72522-533b-456b-adef-909e00391fda
+Slug: chiuso-definitivamente-hotel-to-bruino
+Nome: Chiuso definitivamente Hotel To
+Comune / Provincia: Bruino
+Indirizzo: Sesta Strada Interporto Sito Sud, 10040 Rivalta di Torino TO
+Coordinate: Lat 45.038216, Lng 7.563317
+Website: —
+Email: 
+
+11180. Hotel Torino TENUTA CANTA
+ID: 8cb492db-362e-4723-84b1-126cfbbaa063
+Slug: hotel-torino-tenuta-canta-bruino
+Nome: Hotel Torino TENUTA CANTA
+Comune / Provincia: Bruino
+Indirizzo: XGG7+F8, 10040 Volvera TO
+Coordinate: Lat 44.97622, Lng 7.513255
+Website: —
+Email: 
+
+11181. Ristorante Hotel Celestino
+ID: a181d309-cbde-4d5f-a7a0-a63cc6740777
+Slug: ristorante-hotel-celestino-bruino
+Nome: Ristorante Hotel Celestino
+Comune / Provincia: Bruino
+Indirizzo: Corso Italia, 10, 10040 Piobesi Torinese TO
+Coordinate: Lat 44.932524, Lng 7.611076
+Website: http://www.hotelristorantecelestino.it/
+Email: 
+
+11182. Villa Party B&B Tiffany
+ID: 6f456a36-63ac-4d0b-9147-5ca4d2c02e17
+Slug: villa-party-b-b-tiffany-bruino
+Nome: Villa Party B&B Tiffany
+Comune / Provincia: Bruino
+Indirizzo: Via Susa - Pinerolo, 62, 10090 Bruino TO
+Coordinate: Lat 45.017813, Lng 7.465032
+Website: https://bb-tiffany.italyexperience.top/
+Email: 
+
+11183. 4 Racconti
+ID: 32d1a2c7-4e43-4c87-ab2e-e6efdd8891dc
+Slug: 4-racconti-brumano
+Nome: 4 Racconti
+Comune / Provincia: Brumano
+Indirizzo: Via Monsignore B. Cappelletti, 3, 24037 Brumano BG
+Coordinate: Lat 45.853621, Lng 9.500778
+Website: https://www.bandb4racconti.com/
+Email: 
+
+11184. B & b La Genzianella - Morterone
+ID: 284c4496-4e0d-411d-8f05-91abb0a284aa
+Slug: b-b-la-genzianella-morterone-brumano
+Nome: B & b La Genzianella - Morterone
+Comune / Provincia: Brumano
+Indirizzo: Localita` Medalunga, 2, 23811 Morterone LC
+Coordinate: Lat 45.878796, Lng 9.485002
+Website: —
+Email: 
+
+11185. MIRAMONTINO Mountain Suite & Spa
+ID: befde554-c216-4833-a8c9-928a1e4517f3
+Slug: miramontino-mountain-suite-spa-brumano
+Nome: MIRAMONTINO Mountain Suite & Spa
+Comune / Provincia: Brumano
+Indirizzo: Via V. Emanuele, 33, 24037 Rota d'Imagna BG
+Coordinate: Lat 45.830778, Lng 9.513697
+Website: https://miramontino.com/
+Email: 
+
+11186. Rifugio Resegone Brumano
+ID: 5790630d-86e3-48f1-99fc-ad255171b73c
+Slug: rifugio-resegone-brumano-brumano
+Nome: Rifugio Resegone Brumano
+Comune / Provincia: Brumano
+Indirizzo: Loc. Croci, 24037 Brumano BG
+Coordinate: Lat 45.856096, Lng 9.489183
+Website: https://rifugio-resegone.albergatore.top/
+Email: 
+
+11187. albergo Vista Lago Brunate
+ID: de6e3c71-c5a9-465e-ac4f-03f5f988cb0f
+Slug: albergo-vista-lago-brunate-brunate
+Nome: albergo Vista Lago Brunate
+Comune / Provincia: Brunate
+Indirizzo: Via Roma, 25, 22034 Brunate CO
+Coordinate: Lat 45.820325, Lng 9.095644
+Website: https://www.hotelvistalago.it/
+Email: 
+
+11188. Alle Vigne 5
+ID: e810de7a-3830-4fd4-9a5b-9683b441f171
+Slug: alle-vigne-5-brunate
+Nome: Alle Vigne 5
+Comune / Provincia: Brunate
+Indirizzo: Via alle Vigne, 5, 22034 Brunate CO
+Coordinate: Lat 45.815644, Lng 9.101757
+Website: —
+Email: 
+
+11189. Antica Dimora I Faggi di San Giorgio
+ID: 133f1216-9243-425c-b9be-adef0b5d471f
+Slug: antica-dimora-i-faggi-di-san-giorgio-brunate
+Nome: Antica Dimora I Faggi di San Giorgio
+Comune / Provincia: Brunate
+Indirizzo: Via alle Colme, 11, 22034 Brunate CO
+Coordinate: Lat 45.824978, Lng 9.106682
+Website: —
+Email: 
+
+11190. B&B Brunate Kangucavallo
+ID: 9d0dbe4d-94a7-4ae1-8ddf-c9b7448ed0bd
+Slug: b-b-brunate-kangucavallo-brunate
+Nome: B&B Brunate Kangucavallo
+Comune / Provincia: Brunate
+Indirizzo: Via Regonda, 2, 22034 Brunate CO
+Coordinate: Lat 45.825841, Lng 9.103144
+Website: https://www.kangucavallo.eu/
+Email: 
+
+11191. B&B Villa al Sole
+ID: 1127821b-c378-4c1f-90ac-56080e908aab
+Slug: b-b-villa-al-sole-brunate
+Nome: B&B Villa al Sole
+Comune / Provincia: Brunate
+Indirizzo: Via per Civiglio, 54, 22034 Brunate CO
+Coordinate: Lat 45.814432, Lng 9.103448
+Website: http://www.lavillaalsole.com/
+Email: 
+
+11192. Baita Sorriso
+ID: 11fcc488-8e74-488f-b7f5-80e369c3456d
+Slug: baita-sorriso-brunate
+Nome: Baita Sorriso
+Comune / Provincia: Brunate
+Indirizzo: 38, Via ai Piani, 22034 Brunate CO
+Coordinate: Lat 45.823586, Lng 9.089015
+Website: http://www.baitasorriso.com/
+Email: 
+
+11193. Bellavista Boutique Hotel e Ristorante
+ID: 243ef683-dd3a-437b-8101-ec09ac7b5f63
+Slug: bellavista-boutique-hotel-e-ristorante-brunate
+Nome: Bellavista Boutique Hotel e Ristorante
+Comune / Provincia: Brunate
+Indirizzo: Piazza Bonacossa, 2, 22034 Brunate CO
+Coordinate: Lat 45.819715, Lng 9.09562
+Website: http://www.bellavistabrunate.com/
+Email: 
+
+11194. Casa di Emanuele - B&B
+ID: 62873aed-da74-44a4-a56f-877854cd5036
+Slug: casa-di-emanuele-b-b-brunate
+Nome: Casa di Emanuele - B&B
+Comune / Provincia: Brunate
+Indirizzo: Via Monte Rosa, 26, 22034 Brunate CO
+Coordinate: Lat 45.82451, Lng 9.09411
+Website: https://www.casadiemanuele.it/
+Email: 
+
+11195. Hotel Marco'S
+ID: 4a16e0cb-4d80-4b73-9b57-f2fb166c60e4
+Slug: hotel-marco-s-brunate
+Nome: Hotel Marco'S
+Comune / Provincia: Brunate
+Indirizzo: Via Coloniola, 43, 22100 Como CO
+Coordinate: Lat 45.817139, Lng 9.083168
+Website: https://www.hotelmarcos.it/
+Email: 
+
+11196. Hotel Paradiso Como
+ID: 5ee08324-d17e-4032-827b-8854c821a3b4
+Slug: hotel-paradiso-como-brunate
+Nome: Hotel Paradiso Como
+Comune / Provincia: Brunate
+Indirizzo: Via Giacomo Scalini, 70, 22034 Brunate CO
+Coordinate: Lat 45.826038, Lng 9.102477
+Website: http://www.hotelparadisocomo.com/
+Email: 
+
+11197. Il Vecchio Borgo
+ID: 2da3a2d3-f6af-4e53-b422-2b7979ac71f4
+Slug: il-vecchio-borgo-brunate
+Nome: Il Vecchio Borgo
+Comune / Provincia: Brunate
+Indirizzo: Piazza Giacomo Matteotti, 1, 22100 Como CO
+Coordinate: Lat 45.814654, Lng 9.083847
+Website: http://www.ilvecchioborgorelais.it/
+Email: 
+
+11198. Laura B&B
+ID: 72d3dc4a-f32a-4325-9f93-c90e8ce87d92
+Slug: laura-b-b-brunate
+Nome: Laura B&B
+Comune / Provincia: Brunate
+Indirizzo: Via Alessandro Volta, 40, 22034 Brunate CO
+Coordinate: Lat 45.818923, Lng 9.096727
+Website: —
+Email: 
+
+11199. Locanda Volta
+ID: 48503ef9-f8d1-4d8b-9a49-8171a4221cef
+Slug: locanda-volta-brunate
+Nome: Locanda Volta
+Comune / Provincia: Brunate
+Indirizzo: Via Alessandro Volta, 40, 22034 Brunate CO
+Coordinate: Lat 45.818893, Lng 9.096648
+Website: https://locanda-volta.italytour.top/
+Email: 
+
+11200. Nuvole Garden Hotel Lake Como
+ID: 43ded8d7-0d66-4245-86aa-f27eb9b7b254
+Slug: nuvole-garden-hotel-lake-como-brunate
+Nome: Nuvole Garden Hotel Lake Como
+Comune / Provincia: Brunate
+Indirizzo: Piazza Bonacossa, 12, 22034 Brunate CO
+Coordinate: Lat 45.819201, Lng 9.095862
+Website: https://www.nuvolegarden.com/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness
+Email: 

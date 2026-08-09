@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+11446. Da Poldino
+ID: 3782b71c-6285-42cf-a0ff-fbcdcc8c40d7
+Slug: da-poldino-buggiano
+Nome: Da Poldino
+Comune / Provincia: Buggiano
+Indirizzo: Via Acquavivola, 36, 51011 Buggiano PT
+Coordinate: Lat 43.884668, Lng 10.740415
+Website: http://airbnb.it/h/dapoldino
+Email: 
+
+11447. Hotel Alba
+ID: 8b12b671-1e76-455f-ab2d-9518939b54e1
+Slug: hotel-alba-buggiano
+Nome: Hotel Alba
+Comune / Provincia: Buggiano
+Indirizzo: Via Palestro, 16, 51016 Montecatini Terme PT
+Coordinate: Lat 43.883239, Lng 10.774187
+Website: http://www.hotelalba.org/
+Email: 
+
+11448. Hotel Columbia Wellness & Spa
+ID: f44ca22d-c11c-4a18-aaea-a2cc3c302b8c
+Slug: hotel-columbia-wellness-spa-buggiano
+Nome: Hotel Columbia Wellness & Spa
+Comune / Provincia: Buggiano
+Indirizzo: Corso Roma, 19, 51016 Montecatini Terme PT
+Coordinate: Lat 43.883817, Lng 10.769358
+Website: https://www.hotelcolumbia.it/
+Email: 
+
+11449. Hotel La Riviera
+ID: 23e93610-f3f7-4661-a5e0-73c4ba2ada77
+Slug: hotel-la-riviera-buggiano
+Nome: Hotel La Riviera
+Comune / Provincia: Buggiano
+Indirizzo: Via Guglielmo Marconi, 17, 51016 Montecatini-Terme PT
+Coordinate: Lat 43.883482, Lng 10.78116
+Website: https://www.larivierahotel.it/
+Email: 
+
+11450. hotel Tarabaralla
+ID: e2e2856e-19dd-45ce-80fa-77f0b464ca8a
+Slug: hotel-tarabaralla-buggiano
+Nome: hotel Tarabaralla
+Comune / Provincia: Buggiano
+Indirizzo: Via Circonvallazione, 150, 51011 Buggiano PT
+Coordinate: Lat 43.877482, Lng 10.733324
+Website: http://www.hotelristorantetarabaralla.it/
+Email: 
+
+11451. Hotel Villa Sermolli
+ID: b04c42b9-4280-475c-a89e-c65845616e46
+Slug: hotel-villa-sermolli-buggiano
+Nome: Hotel Villa Sermolli
+Comune / Provincia: Buggiano
+Indirizzo: Via Umberto I, 2/8, 51011 Buggiano Castello PT
+Coordinate: Lat 43.886787, Lng 10.730462
+Website: https://www.villa-sermolli.com/
+Email: 
+
+11452. la piana
+ID: a9922467-c71f-44a8-90af-3be7bb39bcab
+Slug: la-piana-buggiano
+Nome: la piana
+Comune / Provincia: Buggiano
+Indirizzo: Via Buggiano Colle, 8, 51011 Buggiano PT
+Coordinate: Lat 43.891042, Lng 10.733698
+Website: http://www.beblapiana.com/
+Email: 
+
+11453. Park Hotel Moderno
+ID: 438860b5-531b-491a-8434-1bd46f7dbd4b
+Slug: park-hotel-moderno-buggiano
+Nome: Park Hotel Moderno
+Comune / Provincia: Buggiano
+Indirizzo: Via Gorizia, 11, 51016 Montecatini Terme PT
+Coordinate: Lat 43.881245, Lng 10.775698
+Website: http://www.parkhotelmoderno.it/
+Email: 
+
+11454. Petit Château
+ID: fd9f4573-4b5b-4eab-9aae-47a57380677d
+Slug: petit-chateau-buggiano
+Nome: Petit Château
+Comune / Provincia: Buggiano
+Indirizzo: Viale Carlo Rosselli, 10, 51016 Montecatini Terme PT
+Coordinate: Lat 43.886691, Lng 10.769109
+Website: http://www.petitchateau.it/
+Email: 
+
+11455. Residence Borgo Toscano
+ID: e7ac3d7b-c558-41c3-889f-e6ecc753cb0c
+Slug: residence-borgo-toscano-buggiano
+Nome: Residence Borgo Toscano
+Comune / Provincia: Buggiano
+Indirizzo: Via V. Veneto, 1, 51011 Borgo A Buggiano PT
+Coordinate: Lat 43.87961, Lng 10.72932
+Website: http://residence-borgo-toscano.alloggiotoscana.it/
+Email: 
+
+11456. Residenza Buggiano Antica B&B - Charme Apartment in Tuscany
+ID: 0735aa82-f303-4ab8-9d20-c658ba1e3e0a
+Slug: residenza-buggiano-antica-b-b-charme-apartment-i-buggiano
+Nome: Residenza Buggiano Antica B&B - Charme Apartment in Tuscany
+Comune / Provincia: Buggiano
+Indirizzo: Piazza Pretorio, 51011 Buggiano Castello PT
+Coordinate: Lat 43.887187, Lng 10.731096
+Website: http://www.lamagionedeitodaro.com/
+Email: 
+
+11457. Villa Maria Toscana
+ID: 61397e84-0fe7-4cba-8a7a-c440cdc77a5f
+Slug: villa-maria-toscana-buggiano
+Nome: Villa Maria Toscana
+Comune / Provincia: Buggiano
+Indirizzo: Via Maona, 21, 51016 Montecatini Terme PT
+Coordinate: Lat 43.897167, Lng 10.77904
+Website: http://www.villamariatoscana.it/
+Email: 
+
+11458. Agriturismo Adda Vegia
+ID: bfb8609f-44cd-42ff-8191-575e3435bfa5
+Slug: agriturismo-adda-vegia-buglio-in-monte
+Nome: Agriturismo Adda Vegia
+Comune / Provincia: Buglio in Monte
+Indirizzo: Via Pozzoni, 1, 23010 Buglio In Monte SO
+Coordinate: Lat 46.173051, Lng 9.683759
+Website: https://www.agriturismoaddavegia.it/
+Email: 
+
+11459. Agriturismo Luloc
+ID: 9853a45c-e126-4cf7-82f9-a6ee81fb3400
+Slug: agriturismo-luloc-buglio-in-monte
+Nome: Agriturismo Luloc
+Comune / Provincia: Buglio in Monte
+Indirizzo: Località Reval, 23010 Buglio in Monte SO
+Coordinate: Lat 46.182931, Lng 9.689821
+Website: https://agriturismoluloc.com/
+Email: 
+
+11460. Albergo del Boschetto
+ID: 8bf219ab-bb0b-4ff4-b90a-5b440b9d3421
+Slug: albergo-del-boschetto-buglio-in-monte
+Nome: Albergo del Boschetto
+Comune / Provincia: Buglio in Monte
+Indirizzo: Via Stelvio, 75, 23020 Poggiridenti Piano SO
+Coordinate: Lat 46.168799, Lng 9.929422
+Website: http://www.hoteldelboschetto.com/
+Email: 
+
+11461. Bed & Breakfast Terre Alte
+ID: cd28d4e5-c2af-48e0-91be-d731bf244790
+Slug: bed-breakfast-terre-alte-buglio-in-monte
+Nome: Bed & Breakfast Terre Alte
+Comune / Provincia: Buglio in Monte
+Indirizzo: Piazza della Libertà, 2, 23010 Buglio In Monte SO
+Coordinate: Lat 46.183027, Lng 9.676791
+Website: https://sites.google.com/view/bed-breakfast-terre-alte/
+Email: 
+
+11462. Il Sottobosco - B&B
+ID: e5a07f8e-f55b-4265-a4a4-c3965ad75900
+Slug: il-sottobosco-b-b-buglio-in-monte
+Nome: Il Sottobosco - B&B
+Comune / Provincia: Buglio in Monte
+Indirizzo: V. Folla, 19, 23010 Filorera, SO
+Coordinate: Lat 46.216592, Lng 9.637971
+Website: https://www.ilsottoboscovalmasino.it/
+Email: 
+
+11463. Albergo Moretto
+ID: c2562d53-dd9a-4a26-809a-8c89905edb98
+Slug: albergo-moretto-bugnara
+Nome: Albergo Moretto
+Comune / Provincia: Bugnara
+Indirizzo: Via Nazario Sauro, 100, 67035 Pratola Peligna AQ
+Coordinate: Lat 42.095833, Lng 13.872222
+Website: https://albergo-moretto.guideditalia.top/
+Email: 
+
+11464. B&B IL GIRASOLE
+ID: 43d7a173-b5fa-40a5-a83e-89316bc12493
+Slug: b-b-il-girasole-bugnara
+Nome: B&B IL GIRASOLE
+Comune / Provincia: Bugnara
+Indirizzo: Viale Fiume, 60, 67030 Introdacqua AQ
+Coordinate: Lat 42.011663, Lng 13.897346
+Website: http://www.bebilgirasole.com/
+Email: 
+
+11465. B&B La Dimora
+ID: cef7d939-261d-4cea-a70a-f65fba76d3b4
+Slug: b-b-la-dimora-bugnara
+Nome: B&B La Dimora
+Comune / Provincia: Bugnara
+Indirizzo: Corso Ovidio, 238, 67039 Sulmona AQ
+Coordinate: Lat 42.050125, Lng 13.922986
+Website: http://www.bandbladimora.com/it
+Email: 
+
+11466. B&B Solimo
+ID: d5875044-f908-4097-b6d6-7540d52d6b06
+Slug: b-b-solimo-bugnara
+Nome: B&B Solimo
+Comune / Provincia: Bugnara
+Indirizzo: Via Circonvallazione Orientale, 7, 67039 Sulmona AQ
+Coordinate: Lat 42.044857, Lng 13.926772
+Website: http://www.bbsolimo.it/
+Email: 
+
+11467. B&b Villa Asia
+ID: e16037c2-8928-4f24-a55e-4c2745411818
+Slug: b-b-villa-asia-bugnara
+Nome: B&b Villa Asia
+Comune / Provincia: Bugnara
+Indirizzo: Via Bugnara, 91, 67030 Campo di Fano AQ
+Coordinate: Lat 42.05084, Lng 13.873776
+Website: https://www.facebook.com/bbvillaasiasulmona
+Email: 
+
+11468. Genzana B&B
+ID: c9653bda-f5c1-48ca-9e51-ffaea63eaaae
+Slug: genzana-b-b-bugnara
+Nome: Genzana B&B
+Comune / Provincia: Bugnara
+Indirizzo: 67030 Introdacqua AQ
+Coordinate: Lat 42.029476, Lng 13.889354
+Website: —
+Email: 
+
+11469. Hotel Armando’s
+ID: 5b371258-f0b4-4196-9a7f-38cf6fd7ec8f
+Slug: hotel-armando-s-bugnara
+Nome: Hotel Armando’s
+Comune / Provincia: Bugnara
+Indirizzo: Via Montenero, 15, 67039 Sulmona AQ
+Coordinate: Lat 42.044502, Lng 13.930034
+Website: http://www.hotelarmandos.it/
+Email: 
+
+11470. Hotel Meeting Santacroce
+ID: 2c3d050b-fb24-4fc3-807c-dba1c252673d
+Slug: hotel-meeting-santacroce-bugnara
+Nome: Hotel Meeting Santacroce
+Comune / Provincia: Bugnara
+Indirizzo: Piazza Guido Ginaldi, 3, 67039 Sulmona AQ
+Coordinate: Lat 42.08473, Lng 13.898077
+Website: https://hotelsantacrocemeeting.com/
+Email: 
+
+11471. Hotel Sagittario
+ID: 066c7eea-a403-40ea-a170-ecc64b434e9f
+Slug: hotel-sagittario-bugnara
+Nome: Hotel Sagittario
+Comune / Provincia: Bugnara
+Indirizzo: Via Piano Madonna di Loreto, 2, 67030 Bugnara AQ
+Coordinate: Lat 42.032748, Lng 13.863537
+Website: http://www.hotelsagittario.it/
+Email: 
+
+11472. Hotel Santacroce Ovidius
+ID: e0dfe8e1-60b3-4b51-a7e0-cc012a5b72fa
+Slug: hotel-santacroce-ovidius-bugnara
+Nome: Hotel Santacroce Ovidius
+Comune / Provincia: Bugnara
+Indirizzo: Via Circonvallazione Occidentale, 177, 67039 Sulmona AQ
+Coordinate: Lat 42.053749, Lng 13.919509
+Website: https://hotelsantacroceovidius.com/
+Email: 
+
+11473. La Locanda di Gino
+ID: 3582dc65-b459-42ce-84f0-bb86a8569df0
+Slug: la-locanda-di-gino-bugnara
+Nome: La Locanda di Gino
+Comune / Provincia: Bugnara
+Indirizzo: Via Panfilo Serafini, 1, 67039 Sulmona AQ
+Coordinate: Lat 42.046209, Lng 13.925207
+Website: http://www.lalocandadigino.it/
+Email: 
+
+11474. mela__bii
+ID: ab970f49-72e4-43ca-8140-4d9dbe43e649
+Slug: mela-bii-bugnara
+Nome: mela__bii
+Comune / Provincia: Bugnara
+Indirizzo: Via Torrone, 88, 67039 Sulmona AQ
+Coordinate: Lat 42.046053, Lng 13.892574
+Website: https://melabii.italiacongusto.top/
+Email: 
+
+11475. Stella CasaBono
+ID: f2b8be6e-8587-4fa1-9433-dac55d87d6db
+Slug: stella-casabono-bugnara
+Nome: Stella CasaBono
+Comune / Provincia: Bugnara
+Indirizzo: Via Panfilo Mazara, 18, 67039 Sulmona AQ
+Coordinate: Lat 42.04802, Lng 13.924359
+Website: http://www.albergostella.info/
+Email: 
+
+11476. Vico Amato. Residenza
+ID: 0847323e-d03d-4605-a75d-e5dfd271c5ba
+Slug: vico-amato-residenza-bugnara
+Nome: Vico Amato. Residenza
+Comune / Provincia: Bugnara
+Indirizzo: Vico Amato, 13, 67039 Sulmona AQ
+Coordinate: Lat 42.046333, Lng 13.923926
+Website: http://www.vicoamato.it/
+Email: 
+
+11477. Villa Del Poeta
+ID: 049031f1-01ee-409f-9d3d-c2a641ba56c6
+Slug: villa-del-poeta-bugnara
+Nome: Villa Del Poeta
+Comune / Provincia: Bugnara
+Indirizzo: Via Montenero, 20, 67039 Sulmona AQ
+Coordinate: Lat 42.043601, Lng 13.931041
+Website: http://www.villadelpoeta.com/
+Email: 
+
+11478. Villa Diana
+ID: 0cb725c4-1675-42ee-997b-93ccfad3ac26
+Slug: villa-diana-bugnara
+Nome: Villa Diana
+Comune / Provincia: Bugnara
+Indirizzo: Via Giovanni, Via Granata, 1, 67039 Sulmona AQ
+Coordinate: Lat 42.043507, Lng 13.923744
+Website: http://www.bbvilladiana.it/
+Email: 
+
+11479. Villa Linda Bed and Breakfast
+ID: 0747c7a6-da6e-4cb4-920e-7e186332b625
+Slug: villa-linda-bed-and-breakfast-bugnara
+Nome: Villa Linda Bed and Breakfast
+Comune / Provincia: Bugnara
+Indirizzo: SR, 479, 1, 67039 Sulmona AQ
+Coordinate: Lat 42.025552, Lng 13.905349
+Website: http://www.villalinda-bb.it/
+Email: 
+
+11480. I Palazzi - Palace Grand Hotel Varese
+ID: 3887f862-b1de-41d1-99d3-3e94e9b3d67e
+Slug: i-palazzi-palace-grand-hotel-varese-buguggiate
+Nome: I Palazzi - Palace Grand Hotel Varese
+Comune / Provincia: Buguggiate
+Indirizzo: Via Manara Luciano, 11, 21100 Varese VA
+Coordinate: Lat 45.822108, Lng 8.809645
+Website: https://www.palacevarese.com/
+Email: 

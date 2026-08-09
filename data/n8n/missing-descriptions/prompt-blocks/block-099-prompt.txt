@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+3431. Little Square Arona
+ID: b03e06e2-140b-4cf5-8bbc-1e7c597bed6b
+Slug: little-square-arona-angera
+Nome: Little Square Arona
+Comune / Provincia: Angera
+Indirizzo: Via Giacomo Matteotti, 13, 28041 Arona NO
+Coordinate: Lat 45.758322, Lng 8.55885
+Website: http://www.littlesquarearona.com/
+Email: 
+
+3432. Poggio del poeta
+ID: c9e183e6-f15e-4d39-9f5d-f890a57f127d
+Slug: poggio-del-poeta-angera
+Nome: Poggio del poeta
+Comune / Provincia: Angera
+Indirizzo: Via Ai Pozzi, 21021 Barzola VA
+Coordinate: Lat 45.78775, Lng 8.617908
+Website: —
+Email: 
+
+3433. Relais Cascina al Campaccio
+ID: 53a3570c-02c8-4481-a7d8-8c330c496f06
+Slug: relais-cascina-al-campaccio-angera
+Nome: Relais Cascina al Campaccio
+Comune / Provincia: Angera
+Indirizzo: Via Campaccio, 1, 21020 Taino VA
+Coordinate: Lat 45.759713, Lng 8.607179
+Website: http://www.cascinacampaccio.it/
+Email: 
+
+3434. Ristorante San Carlo
+ID: 32e2ae4b-4503-48be-9b58-a630f32d2e36
+Slug: ristorante-san-carlo-angera
+Nome: Ristorante San Carlo
+Comune / Provincia: Angera
+Indirizzo: Via Verbano, 4, 28041 Arona NO
+Coordinate: Lat 45.770649, Lng 8.543913
+Website: https://www.hotelristorantesancarlo.com/
+Email: 
+
+3435. Affittacamere "44 Ricci"
+ID: b42e65ff-8899-4eb5-9f2a-a5ce16756c4e
+Slug: affittacamere-44-ricci-anghiari
+Nome: Affittacamere "44 Ricci"
+Comune / Provincia: Anghiari
+Indirizzo: Corso Giacomo Matteotti, 44, 52031 Anghiari AR
+Coordinate: Lat 43.540489, Lng 12.053241
+Website: https://44-ricci.italiadreams.top/
+Email: 
+
+3436. Affittacamere Bellavista
+ID: 2a345105-cc06-417c-9a21-3275d229c2c1
+Slug: affittacamere-bellavista-anghiari
+Nome: Affittacamere Bellavista
+Comune / Provincia: Anghiari
+Indirizzo: Via della Bozzia, 52031 Anghiari AR
+Coordinate: Lat 43.541024, Lng 12.053337
+Website: —
+Email: 
+
+3437. Affittacamere Casa Margherita
+ID: 03e3fec4-05fd-4b3a-9979-4146b01f9302
+Slug: affittacamere-casa-margherita-anghiari
+Nome: Affittacamere Casa Margherita
+Comune / Provincia: Anghiari
+Indirizzo: Via del Comune, 14, 52031 Anghiari AR
+Coordinate: Lat 43.546872, Lng 12.055542
+Website: —
+Email: 
+
+3438. Affittacamere Casa Sofia
+ID: a5f29a80-b3c6-4c58-83a9-4815c919a9d9
+Slug: affittacamere-casa-sofia-anghiari
+Nome: Affittacamere Casa Sofia
+Comune / Provincia: Anghiari
+Indirizzo: Via Infrantoio, 45, 52031 Anghiari AR
+Coordinate: Lat 43.543211, Lng 12.06291
+Website: http://affittacamere-casa-sofia.alloggiotoscana.it/
+Email: 
+
+3439. Agriturismo Terre di Anghiari
+ID: 44e11576-48f6-4e60-9a7d-534ced5123c5
+Slug: agriturismo-terre-di-anghiari-anghiari
+Nome: Agriturismo Terre di Anghiari
+Comune / Provincia: Anghiari
+Indirizzo: Via di Motina, 94, 52031 Anghiari AR
+Coordinate: Lat 43.569995, Lng 12.038932
+Website: http://www.terredianghiari.com/
+Email: 
+
+3440. Agriturismo Terre di Beba _ Wine & Hospitality
+ID: d9dcca97-6876-4223-9065-c794b915c347
+Slug: agriturismo-terre-di-beba-wine-hospitality-anghiari
+Nome: Agriturismo Terre di Beba _ Wine & Hospitality
+Comune / Provincia: Anghiari
+Indirizzo: loc. la casaccia, 10, 52031 Anghiari AR
+Coordinate: Lat 43.528044, Lng 12.058123
+Website: http://www.lacasacciaagriturismo.it/
+Email: 
+
+3441. Albergo La Meridiana di Chieli Mario
+ID: c8ecd1fe-4da9-4f8a-9ce4-bfe8f44cbfcf
+Slug: albergo-la-meridiana-di-chieli-mario-anghiari
+Nome: Albergo La Meridiana di Chieli Mario
+Comune / Provincia: Anghiari
+Indirizzo: Piazza IV Novembre, 8, 52031 Anghiari AR
+Coordinate: Lat 43.541618, Lng 12.054527
+Website: https://hotellameridiana.it/
+Email: 
+
+3442. Anghiari
+ID: bd51a9bb-271e-46e8-b9c6-91305279a4c4
+Slug: anghiari-anghiari
+Nome: Anghiari
+Comune / Provincia: Anghiari
+Indirizzo: 52031 Anghiari AR
+Coordinate: Lat 43.540165, Lng 12.052129
+Website: https://www.itcasa.it/en/immobile/casale-del-colle-2-37398/
+Email: 
+
+3443. Anghiari Hotel
+ID: 4d18394f-48af-4296-b6d1-046afebdd641
+Slug: anghiari-hotel-anghiari
+Nome: Anghiari Hotel
+Comune / Provincia: Anghiari
+Indirizzo: Via della Battaglia, 16, 52031 Anghiari AR
+Coordinate: Lat 43.544127, Lng 12.062985
+Website: —
+Email: 
+
+3444. Antica Dimora del Pellegrino
+ID: 3ae09513-a2e9-4809-85b4-1992252c7a67
+Slug: antica-dimora-del-pellegrino-anghiari
+Nome: Antica Dimora del Pellegrino
+Comune / Provincia: Anghiari
+Indirizzo: 14, Loc. Bagnolo del, Anghiari, 52031 Ponte Alla Piera AR
+Coordinate: Lat 43.586507, Lng 12.000553
+Website: http://www.anticadimoradelpellegrino.com/
+Email: 
+
+3445. B&B del Lago
+ID: c37c60ac-2a5b-4bac-8a07-78b1f676a390
+Slug: b-b-del-lago-anghiari
+Nome: B&B del Lago
+Comune / Provincia: Anghiari
+Indirizzo: Via della Ginestra, n. 14, 52037 Gragnano AR
+Coordinate: Lat 43.581332, Lng 12.096119
+Website: https://www.facebook.com/BEBDELLAGO/
+Email: 
+
+3446. B&B Vigna del Poggio
+ID: 5215adf5-5618-4e7c-9c60-ed118fc1ab00
+Slug: b-b-vigna-del-poggio-anghiari
+Nome: B&B Vigna del Poggio
+Comune / Provincia: Anghiari
+Indirizzo: Via Fausto Vagnetti, 4, 52031 Anghiari AR
+Coordinate: Lat 43.543225, Lng 12.050316
+Website: http://www.vignadelpoggio.it/
+Email: 
+
+3447. Bed & Breakfast Locanda del Viandante
+ID: d163a390-a415-41fb-b506-29b6b862818f
+Slug: bed-breakfast-locanda-del-viandante-anghiari
+Nome: Bed & Breakfast Locanda del Viandante
+Comune / Provincia: Anghiari
+Indirizzo: Località Cerreto, 11, 52031 Ponte Alla Piera AR
+Coordinate: Lat 43.593424, Lng 12.005726
+Website: http://www.locandadelviandante.com/
+Email: 
+
+3448. Casa Donella B&B
+ID: cd078346-f2a0-440f-83b0-054b2d50795e
+Slug: casa-donella-b-b-anghiari
+Nome: Casa Donella B&B
+Comune / Provincia: Anghiari
+Indirizzo: Via di S. Marino, 2, 52037 Gricignano AR
+Coordinate: Lat 43.541065, Lng 12.119392
+Website: https://www.casadonella.it/
+Email: 
+
+3449. Casa vacanze Il Nido sulla Ruga
+ID: 2b5c650b-7ed9-4f9e-9387-8218a13f77ef
+Slug: casa-vacanze-il-nido-sulla-ruga-anghiari
+Nome: Casa vacanze Il Nido sulla Ruga
+Comune / Provincia: Anghiari
+Indirizzo: Corso Giacomo Matteotti, 31, 52031 Anghiari AR
+Coordinate: Lat 43.540573, Lng 12.053086
+Website: https://ilnidosullaruga.it/
+Email: 
+
+3450. Il Cardo Resort
+ID: afa2a20b-fb2a-42ba-abba-b38e532d8ed5
+Slug: il-cardo-resort-anghiari
+Nome: Il Cardo Resort
+Comune / Provincia: Anghiari
+Indirizzo: Loc. San Lorenzo, 108, 52031 Anghiari AR
+Coordinate: Lat 43.527489, Lng 12.052082
+Website: https://www.ilcardotoscana.it/
+Email: 
+
+3451. Il cielo di Anghiari
+ID: d44c8351-3a69-4ce8-b7f1-c4a09bba856e
+Slug: il-cielo-di-anghiari-anghiari
+Nome: Il cielo di Anghiari
+Comune / Provincia: Anghiari
+Indirizzo: Corso Giacomo Matteotti, 30, 52031 Anghiari AR
+Coordinate: Lat 43.540375, Lng 12.052913
+Website: https://www.ilcielodianghiari.com/
+Email: 
+
+3452. Il Giardino Nascosto Affittacamere
+ID: a7bf8a6a-f97a-494d-90db-8c7124126bab
+Slug: il-giardino-nascosto-affittacamere-anghiari
+Nome: Il Giardino Nascosto Affittacamere
+Comune / Provincia: Anghiari
+Indirizzo: Via delle Mura di Sopra, 60, 52031 Anghiari AR
+Coordinate: Lat 43.541107, Lng 12.057541
+Website: http://www.ilgiardinonascosto.com/
+Email: 
+
+3453. La casa degli esposti
+ID: 50d45899-14e7-4714-bbe9-1aa6c4d7d5c4
+Slug: la-casa-degli-esposti-anghiari
+Nome: La casa degli esposti
+Comune / Provincia: Anghiari
+Indirizzo: Via Taglieschi, 7, 52031 Anghiari AR
+Coordinate: Lat 43.540718, Lng 12.055861
+Website: https://www.ilcielodianghiari.com/
+Email: 
+
+3454. Nero Gioconda Affittacamere
+ID: 19714a78-e696-4b4c-9ce7-ae693fac1ea1
+Slug: nero-gioconda-affittacamere-anghiari
+Nome: Nero Gioconda Affittacamere
+Comune / Provincia: Anghiari
+Indirizzo: Via del Castello Antico, 14, 52031 Anghiari AR
+Coordinate: Lat 43.54062, Lng 12.057628
+Website: http://www.nerogioconda.weebly.com/
+Email: 
+
+3455. B&B Corte San Tomaso
+ID: 15db7c58-fb5c-458b-a15a-571aef0703cf
+Slug: b-b-corte-san-tomaso-angiari
+Nome: B&B Corte San Tomaso
+Comune / Provincia: Angiari
+Indirizzo: Via Argine, 13, 37040 Bonavigo VR
+Coordinate: Lat 45.222774, Lng 11.293365
+Website: http://www.cortesantomaso.it/
+Email: 
+
+3456. B&B Il Glicine
+ID: e24c9750-1ce2-4d10-8e8b-9f2ba3243a2d
+Slug: b-b-il-glicine-angiari
+Nome: B&B Il Glicine
+Comune / Provincia: Angiari
+Indirizzo: Riviera Luigi Balzan, 604, 45021 Badia Polesine RO
+Coordinate: Lat 45.095077, Lng 11.488854
+Website: http://www.glicinebadia.it/
+Email: 
+
+3457. Bed & Breakfast AL 16
+ID: 00cfeb0d-e584-4131-b7ca-20dd63d653c9
+Slug: bed-breakfast-al-16-angiari
+Nome: Bed & Breakfast AL 16
+Comune / Provincia: Angiari
+Indirizzo: Lungadige Scrami, 16, 37045 Legnago VR
+Coordinate: Lat 45.194342, Lng 11.314727
+Website: https://bed-breakfast-al-16.vederelitalia.top/
+Email: 
+
+3458. Corte Ramedello
+ID: 2150098c-ead5-42c3-bae8-d198027308cf
+Slug: corte-ramedello-angiari
+Nome: Corte Ramedello
+Comune / Provincia: Angiari
+Indirizzo: Via Ramedello, 2, 37053 Cerea VR
+Coordinate: Lat 45.232687, Lng 11.230682
+Website: http://www.corteramedello.it/
+Email: 
+
+3459. Hostiliae Ciminiera Hotel
+ID: 7b71abe6-0b48-4658-be37-5b3dae690b85
+Slug: hostiliae-ciminiera-hotel-angiari
+Nome: Hostiliae Ciminiera Hotel
+Comune / Provincia: Angiari
+Indirizzo: Piazza Mondadori Milano, 8, 46035 Ostiglia MN
+Coordinate: Lat 45.070483, Lng 11.129236
+Website: —
+Email: 
+
+3460. Hotel & Residence Villa Bartolomea
+ID: c1f7f057-3b16-41a2-aec6-c1046c99c7e7
+Slug: hotel-residence-villa-bartolomea-angiari
+Nome: Hotel & Residence Villa Bartolomea
+Comune / Provincia: Angiari
+Indirizzo: Via dell'Accoglienza, 4, 37049 Villa Bartolomea VR
+Coordinate: Lat 45.140083, Lng 11.358171
+Website: http://www.hotelvillabartolomea.it/
+Email: 
+
+3461. Hotel Aldo Moro
+ID: 56ecf5db-68f5-46d3-89e7-3987c1f3c43c
+Slug: hotel-aldo-moro-angiari
+Nome: Hotel Aldo Moro
+Comune / Provincia: Angiari
+Indirizzo: Via Guglielmo Marconi, 27, 35044 Montagnana PD
+Coordinate: Lat 45.232024, Lng 11.467988
+Website: https://www.hotelaldomoro.com/hotel-a-montagnana
+Email: 
+
+3462. Hotel City Verona
+ID: fab556d8-ad10-48e4-9881-27ea0d06a2e2
+Slug: hotel-city-verona-angiari
+Nome: Hotel City Verona
+Comune / Provincia: Angiari
+Indirizzo: Via Madonnina, 36, 37057 San Giovanni Lupatoto VR
+Coordinate: Lat 45.383093, Lng 11.043906
+Website: https://www.hotelcityverona.com/
+Email: 
+
+3463. Hotel Milano
+ID: a2f62bbb-5ae9-4ec3-a000-404416f18742
+Slug: hotel-milano-angiari
+Nome: Hotel Milano
+Comune / Provincia: Angiari
+Indirizzo: Via Madonnina, 4, 37057 San Giovanni Lupatoto VR
+Coordinate: Lat 45.382627, Lng 11.044589
+Website: http://www.hotelmilanosgl.it/
+Email: 
+
+3464. Hotel Nuovo Sole
+ID: 5da9c52a-1dc6-46e9-b36f-df914c3443fa
+Slug: hotel-nuovo-sole-angiari
+Nome: Hotel Nuovo Sole
+Comune / Provincia: Angiari
+Indirizzo: Via Madonna, 332, 37051 Bovolone VR
+Coordinate: Lat 45.270556, Lng 11.101111
+Website: https://www.hotelnuovosolehns.com/
+Email: 
+
+3465. Hotel Ristorante Pergola
+ID: 82c8e5c8-3605-4ba2-8729-cfcbc49279ce
+Slug: hotel-ristorante-pergola-angiari
+Nome: Hotel Ristorante Pergola
+Comune / Provincia: Angiari
+Indirizzo: Via Verona, 140, 37045 Legnago VR
+Coordinate: Lat 45.186132, Lng 11.259454
+Website: http://www.hotelpergola.com/
+Email: 

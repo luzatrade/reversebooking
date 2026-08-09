@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+1576. Residence Tre Pini
+ID: be39f143-98ac-43a6-b5c8-1ee1a0c0c252
+Slug: residence-tre-pini-albiate
+Nome: Residence Tre Pini
+Comune / Provincia: Albiate
+Indirizzo: Via Adige ang, Via Tagliamento, 1/3, 20841 Carate Brianza MB
+Coordinate: Lat 45.668643, Lng 9.247225
+Website: http://www.residencetrepini.it/
+Email: 
+
+1577. Smart Hotel King, by R Collection Hotels
+ID: b30f19d8-d6e8-4d96-a8f6-8783df54940e
+Slug: smart-hotel-king-by-r-collection-hotels-albiate
+Nome: Smart Hotel King, by R Collection Hotels
+Comune / Provincia: Albiate
+Indirizzo: Via Varese, 5, 20814 Varedo MB
+Coordinate: Lat 45.592536, Lng 9.173853
+Website: http://www.hotel-king.it/
+Email: 
+
+1578. Affittacamere Delle Rose
+ID: e173281f-ebca-4d2b-90fd-627fbaea3c4e
+Slug: affittacamere-delle-rose-albidona
+Nome: Affittacamere Delle Rose
+Comune / Provincia: Albidona
+Indirizzo: Via Crotone, 22, 87070 Roseto Capo Spulico CS
+Coordinate: Lat 39.971635, Lng 16.622194
+Website: https://www.affittacamere-delle-rose.it/
+Email: 
+
+1579. Albergo Hotel Stellato
+ID: a0bf8f80-171d-4693-a5a3-9f2039bc5710
+Slug: albergo-hotel-stellato-albidona
+Nome: Albergo Hotel Stellato
+Comune / Provincia: Albidona
+Indirizzo: Via Mandrale, 7, 87075 Trebisacce CS
+Coordinate: Lat 39.861865, Lng 16.530373
+Website: http://hotelstellato.it/
+Email: 
+
+1580. B&B Il sogno di Calipso
+ID: d40da5a8-89fc-451f-9af2-600ad0947e54
+Slug: b-b-il-sogno-di-calipso-albidona
+Nome: B&B Il sogno di Calipso
+Comune / Provincia: Albidona
+Indirizzo: Via Capri, 1, 87071 Marina di Amendolara CS
+Coordinate: Lat 39.935649, Lng 16.606373
+Website: https://recommendedbypeter.com/il-sogno-di-calipso-italy
+Email: 
+
+1581. B&B Il Vecchio Pescatore
+ID: c9b50b66-c673-4d07-970e-10d17452e2c0
+Slug: b-b-il-vecchio-pescatore-albidona
+Nome: B&B Il Vecchio Pescatore
+Comune / Provincia: Albidona
+Indirizzo: Via Lampedusa, 87071 Marina di Amendolara CS
+Coordinate: Lat 39.940411, Lng 16.610541
+Website: https://bbilvecchiopescatore.top/
+Email: 
+
+1582. B&B Mare E Monti
+ID: 13e71e01-f59c-47e8-9e1c-2d37abe3af81
+Slug: b-b-mare-e-monti-albidona
+Nome: B&B Mare E Monti
+Comune / Provincia: Albidona
+Indirizzo: Via Filippo Turati, 6, 87070 Albidona CS
+Coordinate: Lat 39.924196, Lng 16.472982
+Website: https://bbtufaroalbidona.wixsite.com/home
+Email: 
+
+1583. B&B Sant'Elia
+ID: f8ea536f-990b-4e5a-aafd-61404baa4c3c
+Slug: b-b-sant-elia-albidona
+Nome: B&B Sant'Elia
+Comune / Provincia: Albidona
+Indirizzo: Via Dante Alighieri, 43a, 87070 Alessandria del Carretto CS
+Coordinate: Lat 39.958921, Lng 16.378865
+Website: http://beb-santelia.com.es/
+Email: 
+
+1584. Hotel Celestina
+ID: fcb5243a-9b9c-4b2a-90a7-5196ae4c541a
+Slug: hotel-celestina-albidona
+Nome: Hotel Celestina
+Comune / Provincia: Albidona
+Indirizzo: Via San Michele, 45, 87076 Villapiana CS
+Coordinate: Lat 39.809342, Lng 16.487944
+Website: http://www.hotelcelestina.it/
+Email: 
+
+1585. Hotel Corallo
+ID: b371e91f-5148-4e75-bbaa-887602e9cac2
+Slug: hotel-corallo-albidona
+Nome: Hotel Corallo
+Comune / Provincia: Albidona
+Indirizzo: Via Nazionale SS. 92, 104, 87076 Villapiana CS
+Coordinate: Lat 39.81111, Lng 16.490075
+Website: http://www.hotelcorallosrl.it/
+Email: 
+
+1586. Hotel Palace Miramare
+ID: fc44b12c-132d-451f-b9b7-a3e9892cd93c
+Slug: hotel-palace-miramare-albidona
+Nome: Hotel Palace Miramare
+Comune / Provincia: Albidona
+Indirizzo: Viale Magna Grecia, 87075 Trebisacce CS
+Coordinate: Lat 39.86389, Lng 16.531795
+Website: http://www.miramarepalacehotel.com/
+Email: 
+
+1587. Hotel Parnaso
+ID: 412659e0-d72d-4c45-ae0c-3aaa0af5abcb
+Slug: hotel-parnaso-albidona
+Nome: Hotel Parnaso
+Comune / Provincia: Albidona
+Indirizzo: Via Longo, 3, 87075 Trebisacce CS
+Coordinate: Lat 39.871576, Lng 16.535624
+Website: https://hotelparnaso.it/
+Email: 
+
+1588. Hotel Ristorante Pizzeria 111
+ID: 1a8b83a3-3464-49dc-b830-c1c34ef8978d
+Slug: hotel-ristorante-pizzeria-111-albidona
+Nome: Hotel Ristorante Pizzeria 111
+Comune / Provincia: Albidona
+Indirizzo: contrada pantano, S.da Statale 106 Jonica, 87076 Villapiana Lido CS
+Coordinate: Lat 39.836086, Lng 16.506461
+Website: http://www.hotelristorante111.org/
+Email: 
+
+1589. Hotel Villa S. Maria
+ID: 98e89645-16d8-48bc-9757-2cc138a547b8
+Slug: hotel-villa-s-maria-albidona
+Nome: Hotel Villa S. Maria
+Comune / Provincia: Albidona
+Indirizzo: Via Nazionale SS92, 87070 Cerchiara di Calabria CS
+Coordinate: Lat 39.805927, Lng 16.419697
+Website: http://www.hotelvillasantamaria.it/online/
+Email: 
+
+1590. La Dimora dei Nonni
+ID: 9dc0af80-2ca1-47b9-8d12-0f298da0194c
+Slug: la-dimora-dei-nonni-albidona
+Nome: La Dimora dei Nonni
+Comune / Provincia: Albidona
+Indirizzo: Via Duca D'Aosta, 6, 87070 Albidona CS
+Coordinate: Lat 39.922543, Lng 16.468328
+Website: http://terredilevidonia.it/
+Email: 
+
+1591. LUDOGA' LUXURY SUITE
+ID: 53f1a241-3fdc-40aa-a06a-3d167da7652f
+Slug: ludoga-luxury-suite-albidona
+Nome: LUDOGA' LUXURY SUITE
+Comune / Provincia: Albidona
+Indirizzo: Viale dei barcaioli, 1, 87075 Trebisacce CS
+Coordinate: Lat 39.866062, Lng 16.53343
+Website: —
+Email: 
+
+1592. Luxury House
+ID: 7021169b-7b08-4fa6-a1e0-65993fd16b9f
+Slug: luxury-house-albidona
+Nome: Luxury House
+Comune / Provincia: Albidona
+Indirizzo: Via Nazionale, 87076 Villapiana Lido CS
+Coordinate: Lat 39.81594, Lng 16.492606
+Website: https://evelynstravelexperience.eu/luxury-house-villapiana-lido1-italy
+Email: 
+
+1593. Masseria Torre di Albidona
+ID: 4a4bad6a-4fa7-4518-be18-b1daabbc8f4e
+Slug: masseria-torre-di-albidona-albidona
+Nome: Masseria Torre di Albidona
+Comune / Provincia: Albidona
+Indirizzo: 87075 Piana della Torre CS
+Coordinate: Lat 39.910216, Lng 16.56522
+Website: http://torredialbidona.com/
+Email: 
+
+1594. Merigio'
+ID: c0ea120c-2c10-41f6-90b0-5ddcd80443ae
+Slug: merigio-albidona
+Nome: Merigio'
+Comune / Provincia: Albidona
+Indirizzo: Via delle Gardenie, 95, 87076 Villapiana Lido CS
+Coordinate: Lat 39.81549, Lng 16.492335
+Website: http://www.merigio.it/
+Email: 
+
+1595. Relais Capo Spulico - Beach & SPA
+ID: 43bf6977-0f0e-4c92-ae0b-911efa764ce6
+Slug: relais-capo-spulico-beach-spa-albidona
+Nome: Relais Capo Spulico - Beach & SPA
+Comune / Provincia: Albidona
+Indirizzo: Via Piano Marina, 87070 Roseto Capo Spulico CS
+Coordinate: Lat 39.978227, Lng 16.614457
+Website: https://www.relaiscapospulico.it/
+Email: 
+
+1596. Rifugio Radura del Grano
+ID: 639ea370-b811-4aa6-97be-145420d6c0c7
+Slug: rifugio-radura-del-grano-albidona
+Nome: Rifugio Radura del Grano
+Comune / Provincia: Albidona
+Indirizzo: Viale Sparviero, 87070 Plataci CS
+Coordinate: Lat 39.896947, Lng 16.429614
+Website: http://raduradelgrano.com/
+Email: 
+
+1597. Agriturismo Capeeto
+ID: 2d2ce086-67da-4d96-ba16-70d22bb23282
+Slug: agriturismo-capeeto-albignasego
+Nome: Agriturismo Capeeto
+Comune / Provincia: Albignasego
+Indirizzo: V. Lago Dolfin, 2, 35124 Padova PD
+Coordinate: Lat 45.359304, Lng 11.896843
+Website: https://www.agriturismocapeeto.it/
+Email: 
+
+1598. Agriturismo Verdecielo
+ID: 7311811d-14f6-47f1-875e-ca7bb1a3efec
+Slug: agriturismo-verdecielo-albignasego
+Nome: Agriturismo Verdecielo
+Comune / Provincia: Albignasego
+Indirizzo: Via Pozzoveggiani, 30/C, 35124 Padova PD
+Coordinate: Lat 45.34846, Lng 11.909668
+Website: https://www.verdecielo.it/
+Email: 
+
+1599. Aurora Rooms & Suite
+ID: 36f48305-93ce-441c-b2e2-5b9f964ba0ec
+Slug: aurora-rooms-suite-albignasego
+Nome: Aurora Rooms & Suite
+Comune / Provincia: Albignasego
+Indirizzo: Via Roma, 238, 35020 Albignasego PD
+Coordinate: Lat 45.345339, Lng 11.867301
+Website: https://www.aurorarooms.com/
+Email: 
+
+1600. B&B Alle Ortensie
+ID: ac31dc99-bf1f-4558-9c60-6f87ff2caf22
+Slug: b-b-alle-ortensie-albignasego
+Nome: B&B Alle Ortensie
+Comune / Provincia: Albignasego
+Indirizzo: Cin : IT028003C16QQZVHCT, Vicolo Giacomo Zanella, 26A, 35020 Albignasego PD
+Coordinate: Lat 45.360978, Lng 11.867712
+Website: http://www.alleortensiebb.it/
+Email: 
+
+1601. Baràca Padova
+ID: e23f6dd3-a9ee-44d6-89bf-571246dd423d
+Slug: baraca-padova-albignasego
+Nome: Baràca Padova
+Comune / Provincia: Albignasego
+Indirizzo: Via Battaglia, 37, 35020 Albignasego PD
+Coordinate: Lat 45.381499, Lng 11.857639
+Website: https://www.facebook.com/BaracaPadova/?ref=bookmarks
+Email: 
+
+1602. Bed and Breakfast Ai Girasoli
+ID: 285e1a27-79b9-487a-9fbe-2c0782110c89
+Slug: bed-and-breakfast-ai-girasoli-albignasego
+Nome: Bed and Breakfast Ai Girasoli
+Comune / Provincia: Albignasego
+Indirizzo: Via Piovese, 182, 35127 Padova PD
+Coordinate: Lat 45.37731, Lng 11.904481
+Website: http://www.aigirasoli.info/
+Email: 
+
+1603. Bread and Butter rooms
+ID: b6836904-71f1-47d7-bf37-806d47b3f391
+Slug: bread-and-butter-rooms-albignasego
+Nome: Bread and Butter rooms
+Comune / Provincia: Albignasego
+Indirizzo: Via G. Galilei, 107, 35020 Albignasego PD
+Coordinate: Lat 45.373748, Lng 11.855682
+Website: https://www.breadandbutter-rooms.com/
+Email: 
+
+1604. CAMINHOUSE
+ID: c981d1cc-f3ae-4076-96c2-ae8992726d4c
+Slug: caminhouse-albignasego
+Nome: CAMINHOUSE
+Comune / Provincia: Albignasego
+Indirizzo: Via Sicilia, 4, 35127 Padova PD
+Coordinate: Lat 45.400671, Lng 11.942057
+Website: https://recommendedbyjiri.com/caminhouse-italy
+Email: 
+
+1605. Casa Roma rooms &apartments
+ID: eab8b0d6-7273-45af-893e-e6b286a0bca3
+Slug: casa-roma-rooms-apartments-albignasego
+Nome: Casa Roma rooms &apartments
+Comune / Provincia: Albignasego
+Indirizzo: Via Guizza Conselvana, 144, 35125 Padova PD
+Coordinate: Lat 45.381677, Lng 11.868931
+Website: https://www.booking.com/Share-By5jlX
+Email: 
+
+1606. DC Hotel International
+ID: f1504760-09b4-41be-afe1-478e79f096cb
+Slug: dc-hotel-international-albignasego
+Nome: DC Hotel International
+Comune / Provincia: Albignasego
+Indirizzo: Corso Stati Uniti, 14/B, 35127 Padova PD
+Coordinate: Lat 45.393639, Lng 11.934507
+Website: https://www.dchotel.it/
+Email: 
+
+1607. HOTEL COLONNA
+ID: 834c4883-860c-459d-8d0a-fd5b271f6c73
+Slug: hotel-colonna-albignasego
+Nome: HOTEL COLONNA
+Comune / Provincia: Albignasego
+Indirizzo: Via Roma, 174, 35020 Albignasego PD
+Coordinate: Lat 45.349152, Lng 11.86799
+Website: https://www.colonnahotel.it/
+Email: 
+
+1608. Hotel Master
+ID: 8b9c724a-e5a3-4151-b1fe-2e710b50c3b8
+Slug: hotel-master-albignasego
+Nome: Hotel Master
+Comune / Provincia: Albignasego
+Indirizzo: Via G. Mameli, 89, 35020 Albignasego PD
+Coordinate: Lat 45.342567, Lng 11.827285
+Website: http://www.hotelmaster.it/
+Email: 
+
+1609. Il colore dei sogni
+ID: 4f36ac3a-b4bb-4a2b-90e9-fea9efb14735
+Slug: il-colore-dei-sogni-albignasego
+Nome: Il colore dei sogni
+Comune / Provincia: Albignasego
+Indirizzo: Via Vo' di Placca, 73, 35020 Due Carrare PD
+Coordinate: Lat 45.330092, Lng 11.818712
+Website: http://ilcoloredeisogni.biz/
+Email: 
+
+1610. M14 Hotel & SPA
+ID: 3e69a44c-0043-49ef-9aae-469260193127
+Slug: m14-hotel-spa-albignasego
+Nome: M14 Hotel & SPA
+Comune / Provincia: Albignasego
+Indirizzo: Via Acquette, 9, 35122 Padova PD
+Coordinate: Lat 45.399816, Lng 11.87353
+Website: http://www.hotelm14.it/
+Email: 

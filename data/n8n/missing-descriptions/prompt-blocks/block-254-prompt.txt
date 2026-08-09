@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+8856. Il Portico affittacamere
+ID: 5305f19d-61d1-4400-bd0f-3b23fed3b155
+Slug: il-portico-affittacamere-beverino
+Nome: Il Portico affittacamere
+Comune / Provincia: Beverino
+Indirizzo: Piazza Giulio Beverini, 4, 19121 La Spezia SP
+Coordinate: Lat 44.104936, Lng 9.819939
+Website: https://affittacamereilporticoldg.italia-it.info/it/
+Email: 
+
+8857. La Cascina di Anna
+ID: 822da5dc-0c29-43cb-90ca-64b8d16f065e
+Slug: la-cascina-di-anna-beverino
+Nome: La Cascina di Anna
+Comune / Provincia: Beverino
+Indirizzo: Via della Chiesa, 1, 19020 Castiglione Vara SP
+Coordinate: Lat 44.199634, Lng 9.811897
+Website: —
+Email: 
+
+8858. Agriturismo Ca' Giulietta
+ID: a2e5af9b-e5da-4529-a434-d4a1ddfc4dae
+Slug: agriturismo-ca-giulietta-bevilacqua
+Nome: Agriturismo Ca' Giulietta
+Comune / Provincia: Bevilacqua
+Indirizzo: Via Barco, 6, 37066 Sommacampagna VR
+Coordinate: Lat 45.392373, Lng 10.862914
+Website: https://www.cagiulietta.it/prenota
+Email: 
+
+8859. Agriturismo Corte dei Mori
+ID: a0a4b1ad-13a5-48b5-bc92-39fa815f8442
+Slug: agriturismo-corte-dei-mori-bevilacqua
+Nome: Agriturismo Corte dei Mori
+Comune / Provincia: Bevilacqua
+Indirizzo: Via Valpiana, 4, 48013 San Cassiano Brisighella RA
+Coordinate: Lat 44.165121, Lng 11.688423
+Website: https://www.cortedeimori.it/
+Email: 
+
+8860. Agriturismo dei Grippi
+ID: 3ffb3ff0-aad3-4629-9c4b-bfbbe4cf59e0
+Slug: agriturismo-dei-grippi-bevilacqua
+Nome: Agriturismo dei Grippi
+Comune / Provincia: Bevilacqua
+Indirizzo: Località Casa Fasani, 1, 37060 Sona VR
+Coordinate: Lat 45.407313, Lng 10.767051
+Website: http://www.agriturismodeigrippi.it/
+Email: 
+
+8861. Albergo Ristorante La Campagnola
+ID: 0c01d899-d949-4ae3-9836-ef33806338a7
+Slug: albergo-ristorante-la-campagnola-bevilacqua
+Nome: Albergo Ristorante La Campagnola
+Comune / Provincia: Bevilacqua
+Indirizzo: Via S. Salvaro, 318, 35040 Urbana PD
+Coordinate: Lat 45.201068, Lng 11.422482
+Website: https://www.ristorantealbergolacampagnolapadova.it/
+Email: 
+
+8862. B&B Madonna Villa Baietta
+ID: 84397c6b-58cc-48aa-bcb2-ff514e5127a0
+Slug: b-b-madonna-villa-baietta-bevilacqua
+Nome: B&B Madonna Villa Baietta
+Comune / Provincia: Bevilacqua
+Indirizzo: Via Mantovana, 186, 37137 Madonna di Dossobuono VR
+Coordinate: Lat 45.402335, Lng 10.922366
+Website: http://villabaietta.com/
+Email: 
+
+8863. Ca' Bevilacqua B&B
+ID: 5303a6c0-96e7-4d05-94a0-1ed92a9a1a53
+Slug: ca-bevilacqua-b-b-bevilacqua
+Nome: Ca' Bevilacqua B&B
+Comune / Provincia: Bevilacqua
+Indirizzo: Via Santa Croce, 5607, 47032 Bertinoro FC
+Coordinate: Lat 44.213547, Lng 12.199504
+Website: https://www.cabevilacqua.com/
+Email: 
+
+8864. Castello Bevilacqua
+ID: 0dfea8fb-1b3d-4ec5-8059-2615f53ec002
+Slug: castello-bevilacqua-bevilacqua
+Nome: Castello Bevilacqua
+Comune / Provincia: Bevilacqua
+Indirizzo: Via Roma, 50, 37040 Bevilacqua VR
+Coordinate: Lat 45.232148, Lng 11.400043
+Website: http://www.castellobevilacqua.com/
+Email: 
+
+8865. Dimore Al Borgo
+ID: aa4263a6-c09a-49c3-a3f6-208ab3a39210
+Slug: dimore-al-borgo-bevilacqua
+Nome: Dimore Al Borgo
+Comune / Provincia: Bevilacqua
+Indirizzo: Via Papa Giovanni Paolo, 2-4, 35044 Montagnana PD
+Coordinate: Lat 45.228556, Lng 11.466391
+Website: https://www.dimorealborgo.com/
+Email: 
+
+8866. Affittacamere Palazzo Galifi
+ID: 097f1300-3003-4170-936f-589d16190577
+Slug: affittacamere-palazzo-galifi-biancavilla
+Nome: Affittacamere Palazzo Galifi
+Comune / Provincia: Biancavilla
+Indirizzo: Piazza Armando Diaz, 1, 95047 Paternò CT
+Coordinate: Lat 37.565512, Lng 14.896456
+Website: https://www.palazzogalifi.it/
+Email: 
+
+8867. Agri Art Hotel Croce Vallone
+ID: 4e5a5fcd-7bb7-4f1e-bdc8-0bbf92b54820
+Slug: agri-art-hotel-croce-vallone-biancavilla
+Nome: Agri Art Hotel Croce Vallone
+Comune / Provincia: Biancavilla
+Indirizzo: Contrada Croce Vallone, 95033 Biancavilla CT
+Coordinate: Lat 37.650032, Lng 14.885152
+Website: https://www.agriarthotelcrocevallone.com/
+Email: 
+
+8868. Agriturismo Travaglianti Etna's Excellence
+ID: f5f644a6-af4b-4d7e-9575-87717d529ef3
+Slug: agriturismo-travaglianti-etna-s-excellence-biancavilla
+Nome: Agriturismo Travaglianti Etna's Excellence
+Comune / Provincia: Biancavilla
+Indirizzo: Contrada Cavaliere - Bosco, 95038 Santa Maria di Licodia CT
+Coordinate: Lat 37.653479, Lng 14.914312
+Website: https://travaglianti.com/
+Email: 
+
+8869. Bianca di Navarra House
+ID: b337d71a-952b-4cae-bdc9-759a3ed503bd
+Slug: bianca-di-navarra-house-biancavilla
+Nome: Bianca di Navarra House
+Comune / Provincia: Biancavilla
+Indirizzo: Via Brescia, 32, 95033 Biancavilla CT
+Coordinate: Lat 37.644581, Lng 14.867118
+Website: https://www.facebook.com/profile.php?id=61561497718216
+Email: 
+
+8870. La Ginestra dell'Etna
+ID: a3fe036d-6b27-4bc2-a8a3-e5fc9edba5d9
+Slug: la-ginestra-dell-etna-biancavilla
+Nome: La Ginestra dell'Etna
+Comune / Provincia: Biancavilla
+Indirizzo: C.da pulica, Snc, 95033 Biancavilla CT
+Coordinate: Lat 37.658884, Lng 14.848846
+Website: https://www.beblaginestradelletna.it/
+Email: 
+
+8871. Residence Serra La Nave
+ID: c35cdc93-b432-4cdb-898e-6c5d2d1639b4
+Slug: residence-serra-la-nave-biancavilla
+Nome: Residence Serra La Nave
+Comune / Provincia: Biancavilla
+Indirizzo: contrada Serra La Nave, Piano Vetore, 95030 Ragalna CT
+Coordinate: Lat 37.691702, Lng 14.978602
+Website: http://www.residenceserralanave.com/
+Email: 
+
+8872. B&B LA COLONNA
+ID: de23cd62-32e0-4107-b9ce-e700684143fa
+Slug: b-b-la-colonna-bianchi
+Nome: B&B LA COLONNA
+Comune / Provincia: Bianchi
+Indirizzo: Piazza dei Mille, 14/B, 88049 Soveria Mannelli CZ
+Coordinate: Lat 39.082106, Lng 16.372538
+Website: https://www.bblacolonna.com/it
+Email: 
+
+8873. Bed and breakfast, da Peppino
+ID: 3ab698ae-5ec7-4550-aaf6-1cd943844c74
+Slug: bed-and-breakfast-da-peppino-bianchi
+Nome: Bed and breakfast, da Peppino
+Comune / Provincia: Bianchi
+Indirizzo: p.zza Roma, 2, 87050 Bianchi CS
+Coordinate: Lat 39.101657, Lng 16.410497
+Website: https://www.dapeppinobnb.it/
+Email: 
+
+8874. Bed Breakfast "Castagna "
+ID: 7971c52f-d27b-49f1-ab72-2fcfc7b73c7c
+Slug: bed-breakfast-castagna-bianchi
+Nome: Bed Breakfast "Castagna "
+Comune / Provincia: Bianchi
+Indirizzo: SS 109 della Piccola Sila, 31, 88040 Castagna CZ
+Coordinate: Lat 39.054126, Lng 16.436063
+Website: http://www.castagnisi.it/
+Email: 
+
+8875. Chalet Lago
+ID: 00a7a168-f879-4adf-a3ae-632291a31ab0
+Slug: chalet-lago-bianchi
+Nome: Chalet Lago
+Comune / Provincia: Bianchi
+Indirizzo: Località Carbonello All'interno del Sila Science Park 88055, 88055 Taverna CZ
+Coordinate: Lat 39.09005, Lng 16.528645
+Website: https://tripit.cyou/chalet-lago-983n49
+Email: 
+
+8876. La Rosa nel Bicchiere
+ID: 35fc3de7-cb79-470d-bb6f-1f30a05f80d4
+Slug: la-rosa-nel-bicchiere-bianchi
+Nome: La Rosa nel Bicchiere
+Comune / Provincia: Bianchi
+Indirizzo: Località Polso, 88049 Soveria Mannelli CZ
+Coordinate: Lat 39.069027, Lng 16.378143
+Website: http://www.larosanelbicchiere.it/
+Email: 
+
+8877. Ristorante Hotel Caligiuri
+ID: f52b5e60-978d-4999-bddd-97690bb72f40
+Slug: ristorante-hotel-caligiuri-bianchi
+Nome: Ristorante Hotel Caligiuri
+Comune / Provincia: Bianchi
+Indirizzo: Piazza della Vittoria, 5, 88041 Decollatura CZ
+Coordinate: Lat 39.051328, Lng 16.348859
+Website: http://www.hotelcaligiuri.com/
+Email: 
+
+8878. Tirituffo - B&B di campagna
+ID: 6c88bf00-153d-44de-a9ed-dcbdba71f94c
+Slug: tirituffo-b-b-di-campagna-bianchi
+Nome: Tirituffo - B&B di campagna
+Comune / Provincia: Bianchi
+Indirizzo: Via Provinciale, 53, 88049 Soveria Mannelli CZ
+Coordinate: Lat 39.082845, Lng 16.374126
+Website: https://www.tirituffo.it/
+Email: 
+
+8879. Albergo San Giorgio
+ID: cd5bdda5-e7a8-4464-a516-cda672e93c92
+Slug: albergo-san-giorgio-bianco
+Nome: Albergo San Giorgio
+Comune / Provincia: Bianco
+Indirizzo: 89036 Brancaleone Marina RC, Italia
+Coordinate: Lat 37.95298, Lng 16.089806
+Website: —
+Email: 
+
+8880. B&B L'Oleandro Bianco
+ID: 279f5afa-8937-47e2-8ce3-39f7a6814b5e
+Slug: b-b-l-oleandro-bianco-bianco
+Nome: B&B L'Oleandro Bianco
+Comune / Provincia: Bianco
+Indirizzo: Via Lungomare Contrada Straci, s.n.c, 89030 Condofuri Marina RC
+Coordinate: Lat 37.921417, Lng 15.845051
+Website: —
+Email: 
+
+8881. Lovely Bianco - Rooms & Apartment
+ID: 0c1d3435-ad95-48f4-9e6c-462e222663ab
+Slug: lovely-bianco-rooms-apartment-bianco
+Nome: Lovely Bianco - Rooms & Apartment
+Comune / Provincia: Bianco
+Indirizzo: Via C. Colombo, 99, 89032 Bianco RC
+Coordinate: Lat 38.088779, Lng 16.152851
+Website: —
+Email: 
+
+8882. Zefiro Residence
+ID: cb944a0f-8077-424b-a1b7-64113d992259
+Slug: zefiro-residence-bianco
+Nome: Zefiro Residence
+Comune / Provincia: Bianco
+Indirizzo: Via Mediterraneo, 80, 89048 Siderno RC
+Coordinate: Lat 38.254966, Lng 16.282586
+Website: http://www.zefiroresidence.it/
+Email: 
+
+8883. Hotel Novarello
+ID: f94f29a1-ac79-4c46-a147-39a950b6d42b
+Slug: hotel-novarello-biandrate
+Nome: Hotel Novarello
+Comune / Provincia: Biandrate
+Indirizzo: Via Dante Graziosi, 3, 28060 Granozzo con Monticello NO
+Coordinate: Lat 45.376429, Lng 8.583979
+Website: https://www.novarellovillaggioazzurro.com/
+Email: 
+
+8884. La Cupola
+ID: 2a105e9b-2ddc-49af-b8af-bea81402a9d3
+Slug: la-cupola-biandrate
+Nome: La Cupola
+Comune / Provincia: Biandrate
+Indirizzo: Corso Milano, 43, 28100 Novara NO
+Coordinate: Lat 45.44502, Lng 8.643001
+Website: —
+Email: 
+
+8885. Motel Piranha
+ID: c2142a73-66d7-4bb5-bd06-a6bc2af3a6d2
+Slug: motel-piranha-biandrate
+Nome: Motel Piranha
+Comune / Provincia: Biandrate
+Indirizzo: Strada Reg. 11 Novara-Vercelli, Snc, 28060 Orfengo NO
+Coordinate: Lat 45.394266, Lng 8.51154
+Website: https://motelpiranha.com/?utm_source=mybusiness&utm_medium=search&utm_campaign=search
+Email: 
+
+8886. B&B Art Garage Varese
+ID: ca988b65-fc60-408b-8095-69095f8bb5da
+Slug: b-b-art-garage-varese-biandronno
+Nome: B&B Art Garage Varese
+Comune / Provincia: Biandronno
+Indirizzo: Via Rimembranze, 21, 21024 Biandronno VA
+Coordinate: Lat 45.826463, Lng 8.713881
+Website: https://www.artgaragevarese.com/
+Email: 
+
+8887. Corte dei Brut
+ID: 5ca8fb8e-172f-4d3a-b487-e7e414aa4fbf
+Slug: corte-dei-brut-biandronno
+Nome: Corte dei Brut
+Comune / Provincia: Biandronno
+Indirizzo: Via al Lago, 21, 21026 Gavirate VA
+Coordinate: Lat 45.821861, Lng 8.743889
+Website: —
+Email: 
+
+8888. Equirelais Dimora di Campagna - Suite e bistro'
+ID: 36c7ec70-dde5-4d60-a16f-da054bfc8442
+Slug: equirelais-dimora-di-campagna-suite-e-bistro-biandronno
+Nome: Equirelais Dimora di Campagna - Suite e bistro'
+Comune / Provincia: Biandronno
+Indirizzo: Via Scerèe, 66, 21020 Bodio Lomnago VA
+Coordinate: Lat 45.798591, Lng 8.746684
+Website: https://www.equirelais.it/
+Email: 
+
+8889. Green Hotel
+ID: e6f4ab56-4025-40aa-a9c5-d6f1018ed780
+Slug: green-hotel-biandronno
+Nome: Green Hotel
+Comune / Provincia: Biandronno
+Indirizzo: di Vergiate VA IT, Via S. Rocco, 29, 21029 Corgeno VA
+Coordinate: Lat 45.740024, Lng 8.681697
+Website: https://www.greenhotel.info/motel/
+Email: 
+
+8890. Residence Le Arcate
+ID: db3642c5-a100-48a1-9047-87ecd99b5880
+Slug: residence-le-arcate-biandronno
+Nome: Residence Le Arcate
+Comune / Provincia: Biandronno
+Indirizzo: Via Guglielmo Marconi, 17, 21026 Gavirate VA
+Coordinate: Lat 45.842175, Lng 8.713709
+Website: https://www.residencelearcate.com/
+Email: 

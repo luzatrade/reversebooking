@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+11796. Camping Verona Village
+ID: 8368c379-d22e-47c4-b580-75c801094436
+Slug: camping-verona-village-buttapietra
+Nome: Camping Verona Village
+Comune / Provincia: Buttapietra
+Indirizzo: Via Forte Tomba, 44, 37135 Verona VR
+Coordinate: Lat 45.392864, Lng 10.994389
+Website: http://www.campingverona.com/
+Email: 
+
+11797. Gabrielli Rooms & Apartments
+ID: f3b7754e-b8aa-45b5-bc2a-78003d6686a7
+Slug: gabrielli-rooms-apartments-buttapietra
+Nome: Gabrielli Rooms & Apartments
+Comune / Provincia: Buttapietra
+Indirizzo: Viale della Fiera, 6, 37136 Verona VR
+Coordinate: Lat 45.421823, Lng 10.981935
+Website: http://www.gabriellirooms.it/
+Email: 
+
+11798. Hotel Brigafatta
+ID: c1fdc830-c389-4d07-bff9-e9f0e87fb2f9
+Slug: hotel-brigafatta-buttapietra
+Nome: Hotel Brigafatta
+Comune / Provincia: Buttapietra
+Indirizzo: Via Zambonina, 76, 37068 Corte Brigafatta Nuova VR
+Coordinate: Lat 45.328896, Lng 10.970003
+Website: —
+Email: 
+
+11799. Hotel Catullo
+ID: c33c6d69-dcb2-4700-9d94-cea6af2268cc
+Slug: hotel-catullo-buttapietra
+Nome: Hotel Catullo
+Comune / Provincia: Buttapietra
+Indirizzo: Viale del Lavoro, 35, 37036 San Martino Buon Albergo VR
+Coordinate: Lat 45.415492, Lng 11.086526
+Website: https://hotelcatulloverona.it/
+Email: 
+
+11800. Hotel Europa
+ID: ca7b6d10-dc3a-4270-8328-e8ee64e8ea1c
+Slug: hotel-europa-buttapietra
+Nome: Hotel Europa
+Comune / Provincia: Buttapietra
+Indirizzo: Viale Europa, 63, 37062 Dossobuono VR
+Coordinate: Lat 45.39267, Lng 10.915086
+Website: http://www.hoteleuropaverona.com/
+Email: 
+
+11801. Hotel Monaco
+ID: 47049000-5b27-4dad-afd1-a2bd334998cd
+Slug: hotel-monaco-buttapietra
+Nome: Hotel Monaco
+Comune / Provincia: Buttapietra
+Indirizzo: Via Evangelista Torricelli, 4, 37135 Verona VR
+Coordinate: Lat 45.403709, Lng 10.972099
+Website: http://www.hotelmonacovr.com/
+Email: 
+
+11802. HOTEL PEX VERONA
+ID: bf14225e-70e0-4cb6-ab2d-8d10623aaed6
+Slug: hotel-pex-verona-buttapietra
+Nome: HOTEL PEX VERONA
+Comune / Provincia: Buttapietra
+Indirizzo: Via Evangelista Torricelli, 4, 37135 Verona VR
+Coordinate: Lat 45.403771, Lng 10.971817
+Website: https://www.schiavonhotels.com/
+Email: 
+
+11803. Hotel Postumia
+ID: d2c8943d-5c8e-410f-82a8-8b1e30bd67a5
+Slug: hotel-postumia-buttapietra
+Nome: Hotel Postumia
+Comune / Provincia: Buttapietra
+Indirizzo: Via Cavour, 71, 37062 Dossobuono VR
+Coordinate: Lat 45.396946, Lng 10.914222
+Website: http://www.hotelpostumia.it/
+Email: 
+
+11804. LA PERGOLA SUITES
+ID: 96489bfb-1db4-48cd-a8cb-37980697bd7a
+Slug: la-pergola-suites-buttapietra
+Nome: LA PERGOLA SUITES
+Comune / Provincia: Buttapietra
+Indirizzo: Via Cavour, 96, 37062 Dossobuono VR
+Coordinate: Lat 45.399404, Lng 10.918836
+Website: https://lapergolasuites.it/home
+Email: 
+
+11805. Montemezzi hotel
+ID: 613be392-1354-4c54-899c-892834f38dad
+Slug: montemezzi-hotel-buttapietra
+Nome: Montemezzi hotel
+Comune / Provincia: Buttapietra
+Indirizzo: Via Verona, 92, 37068 Vigasio VR
+Coordinate: Lat 45.330799, Lng 10.951071
+Website: https://www.montemezzi.it/?utm_source=google&utm_medium=organic&utm_campaign=Knowledge_Graph
+Email: 
+
+11806. The Little Lake Verona Villa B&B
+ID: 64ab9900-a8f6-4b47-aeb9-24f820a55bea
+Slug: the-little-lake-verona-villa-b-b-buttapietra
+Nome: The Little Lake Verona Villa B&B
+Comune / Provincia: Buttapietra
+Indirizzo: Via Tunisi, 14, 37060 Buttapietra VR
+Coordinate: Lat 45.357954, Lng 11.014861
+Website: —
+Email: 
+
+11807. West Point Airport Hotel
+ID: 766dc940-e387-44a6-bf06-85c2b7d1368d
+Slug: west-point-airport-hotel-buttapietra
+Nome: West Point Airport Hotel
+Comune / Provincia: Buttapietra
+Indirizzo: Via Staffali, 2/A, 37062 Dossobuono VR
+Coordinate: Lat 45.390017, Lng 10.904674
+Website: http://www.hotelwestpoint.it/
+Email: 
+
+11808. Hotel Des Alpes
+ID: 33b78bc5-fa70-45e0-b3f2-4c7c1c30075c
+Slug: hotel-des-alpes-buttigliera-alta
+Nome: Hotel Des Alpes
+Comune / Provincia: Buttigliera Alta
+Indirizzo: Corso Moncenisio, 55, 10090 Rosta TO
+Coordinate: Lat 45.084192, Lng 7.469356
+Website: http://www.hoteldesalpes.com/
+Email: 
+
+11809. Hotel Vittoria
+ID: 90acd33a-eeab-42fe-b423-71ab3d33c13a
+Slug: hotel-vittoria-buttigliera-alta
+Nome: Hotel Vittoria
+Comune / Provincia: Buttigliera Alta
+Indirizzo: Corso Torino, 90/a, 10051 Avigliana TO
+Coordinate: Lat 45.085351, Lng 7.404156
+Website: https://hotel-vittoria.hotelpreferito.top/
+Email: 
+
+11810. Oca Carolina
+ID: 3f2917e5-0584-46ac-aab4-af9e0ef61396
+Slug: oca-carolina-buttigliera-alta
+Nome: Oca Carolina
+Comune / Provincia: Buttigliera Alta
+Indirizzo: Via Cornaglio, 20, 10090 Buttigliera Alta TO
+Coordinate: Lat 45.074185, Lng 7.427621
+Website: —
+Email: 
+
+11811. Rosta Residence Ranverso
+ID: 76812a78-5af4-4120-b6b9-51359fd9a23a
+Slug: rosta-residence-ranverso-buttigliera-alta
+Nome: Rosta Residence Ranverso
+Comune / Provincia: Buttigliera Alta
+Indirizzo: Via Buttigliera Alta, 41, 10090 Rosta TO
+Coordinate: Lat 45.069143, Lng 7.458067
+Website: https://rostaresidence.it/
+Email: 
+
+11812. B&B Bricco dei Ciliegi
+ID: 84ffb6db-c675-4d83-9f0d-80199c3d8e8e
+Slug: b-b-bricco-dei-ciliegi-buttigliera-d-asti
+Nome: B&B Bricco dei Ciliegi
+Comune / Provincia: Buttigliera d'Asti
+Indirizzo: Via Del Negro, 22, 14010 Cortazzone AT
+Coordinate: Lat 44.97419, Lng 8.067979
+Website: https://www.briccodeiciliegi.com/
+Email: 
+
+11813. B&B Il Vecchio Pero
+ID: 0c6dff26-ab90-4f09-be61-285e9971c701
+Slug: b-b-il-vecchio-pero-buttigliera-d-asti
+Nome: B&B Il Vecchio Pero
+Comune / Provincia: Buttigliera d'Asti
+Indirizzo: Frazione Morialdo, 21, 14022 Castelnuovo Don Bosco AT
+Coordinate: Lat 45.016882, Lng 7.982848
+Website: https://www.ilvecchiopero.it/
+Email: 
+
+11814. Cascina Barosca
+ID: 03bb0fbe-45cc-4056-ad82-f0147d41db6b
+Slug: cascina-barosca-buttigliera-d-asti
+Nome: Cascina Barosca
+Comune / Provincia: Buttigliera d'Asti
+Indirizzo: Frazione Morialdo, 45, 14022 Castelnuovo Don Bosco AT
+Coordinate: Lat 45.015367, Lng 7.994964
+Website: https://www.cascinabarosca.com/
+Email: 
+
+11815. La valle incantata B&B e Home Restaurant
+ID: 376c44fc-16c4-4bb2-94a0-4c401cf7dad6
+Slug: la-valle-incantata-b-b-e-home-restaurant-buttigliera-d-asti
+Nome: La valle incantata B&B e Home Restaurant
+Comune / Provincia: Buttigliera d'Asti
+Indirizzo: Via Circonvallazione Savi, 45, 14019 Villanova d'Asti AT
+Coordinate: Lat 44.979265, Lng 7.962712
+Website: http://www.beblavalleincantata.it/
+Email: 
+
+11816. Lusi è in Collina
+ID: 0e97ebed-20e3-42af-9290-4468a569a2be
+Slug: lusi-e-in-collina-buttigliera-d-asti
+Nome: Lusi è in Collina
+Comune / Provincia: Buttigliera d'Asti
+Indirizzo: via del, Via Bricco Cisero, 6, 14013 Cortandone AT
+Coordinate: Lat 44.948342, Lng 8.057473
+Website: https://lusincollina.com/
+Email: 
+
+11817. Relais Conac 1888 - Luxury B&B - Adults Only
+ID: c9e1f330-a237-4456-813f-88be4a80addd
+Slug: relais-conac-1888-luxury-b-b-adults-only-buttigliera-d-asti
+Nome: Relais Conac 1888 - Luxury B&B - Adults Only
+Comune / Provincia: Buttigliera d'Asti
+Indirizzo: Piazzale Piemonte, 6b, 14022 Castelnuovo Don Bosco AT
+Coordinate: Lat 45.040878, Lng 7.963339
+Website: http://www.conac.it/
+Email: 
+
+11818. Agriturismo Il Vagabondo
+ID: 2846f01c-8b1f-4be2-bb67-862cf8b674b6
+Slug: agriturismo-il-vagabondo-buttrio
+Nome: Agriturismo Il Vagabondo
+Comune / Provincia: Buttrio
+Indirizzo: Caminetto di Buttrio, Via G. B. Beltrame, 18/1, 33042 Buttrio UD
+Coordinate: Lat 46.003085, Lng 13.336113
+Website: —
+Email: 
+
+11819. Agriturismo Meridiano
+ID: a0e59120-6cad-46e7-8c01-7325956de08c
+Slug: agriturismo-meridiano-buttrio
+Nome: Agriturismo Meridiano
+Comune / Provincia: Buttrio
+Indirizzo: Localita' Busa Cappello, 1/4, 33043 Cividale del Friuli UD
+Coordinate: Lat 46.071392, Lng 13.449069
+Website: https://www.agriturismomeridiano.it/
+Email: 
+
+11820. Agriturismo Tra Le Vigne
+ID: 0f85f135-4064-4a08-a8fd-390d8c456fae
+Slug: agriturismo-tra-le-vigne-buttrio
+Nome: Agriturismo Tra Le Vigne
+Comune / Provincia: Buttrio
+Indirizzo: Via del Pozzo, 5, 33042 Buttrio UD
+Coordinate: Lat 46.016251, Lng 13.34209
+Website: http://www.castellodibuttrio.it/
+Email: 
+
+11821. Al Palazzetto
+ID: fdfc852b-8bf8-45f3-82f7-6df320c017b0
+Slug: al-palazzetto-buttrio
+Nome: Al Palazzetto
+Comune / Provincia: Buttrio
+Indirizzo: Vicolo Gorgo, 3, 33100 Udine UD
+Coordinate: Lat 46.061347, Lng 13.231157
+Website: https://www.alpalazzetto.it/
+Email: 
+
+11822. Alloggio Agrituristico Conte Ottelio
+ID: 8c266852-fd84-4b02-9490-c9cfd5a066fe
+Slug: alloggio-agrituristico-conte-ottelio-buttrio
+Nome: Alloggio Agrituristico Conte Ottelio
+Comune / Provincia: Buttrio
+Indirizzo: Via Torricelle, 12, 33040 Pradamano UD
+Coordinate: Lat 46.030281, Lng 13.296611
+Website: https://www.agriturismoconteottelio.com/
+Email: 
+
+11823. Azienda Agricola Castello di Buttrio Srl
+ID: a1f540f6-3f59-47ae-8d2a-9b6d4c7acb78
+Slug: azienda-agricola-castello-di-buttrio-srl-buttrio
+Nome: Azienda Agricola Castello di Buttrio Srl
+Comune / Provincia: Buttrio
+Indirizzo: Via del Pozzo, 5, 33042 Buttrio UD
+Coordinate: Lat 46.016357, Lng 13.341962
+Website: http://www.castellodibuttrio.it/vino/
+Email: 
+
+11824. Castello di Buttrio - Exclusive Country House
+ID: 49732300-5f4d-4e42-8266-5d47897d84b5
+Slug: castello-di-buttrio-exclusive-country-house-buttrio
+Nome: Castello di Buttrio - Exclusive Country House
+Comune / Provincia: Buttrio
+Indirizzo: Via del Pozzo, 5, 33042 Buttrio UD
+Coordinate: Lat 46.013022, Lng 13.343382
+Website: http://www.castellodibuttrio.it/
+Email: 
+
+11825. Danieli Factory Campus
+ID: 95559afb-c475-4188-94fb-4a9d73b6785e
+Slug: danieli-factory-campus-buttrio
+Nome: Danieli Factory Campus
+Comune / Provincia: Buttrio
+Indirizzo: Via Nazionale, 73, 33042 Buttrio UD
+Coordinate: Lat 46.00161, Lng 13.347044
+Website: http://www.danieli.com/
+Email: 
+
+11826. delParco Hotel
+ID: d136f7f8-cef3-4b49-af02-023ccd9775b5
+Slug: delparco-hotel-buttrio
+Nome: delParco Hotel
+Comune / Provincia: Buttrio
+Indirizzo: Via Bonaldo Stringher, 13, 33042 Buttrio UD
+Coordinate: Lat 46.010224, Lng 13.326767
+Website: https://www.delparcohotel.eu/
+Email: 
+
+11827. HOTEL CLOCCHIATTI NEXT
+ID: a55db9b0-2c67-4185-b151-c108cd49a9b6
+Slug: hotel-clocchiatti-next-buttrio
+Nome: HOTEL CLOCCHIATTI NEXT
+Comune / Provincia: Buttrio
+Indirizzo: Via Cividale, 29, 33100 Udine UD
+Coordinate: Lat 46.068809, Lng 13.246596
+Website: http://hotelclocchiattinext.it/
+Email: 
+
+11828. Hotel Principe
+ID: 48ca3a6d-733a-4893-8cf3-5fe39ca09537
+Slug: hotel-principe-buttrio
+Nome: Hotel Principe
+Comune / Provincia: Buttrio
+Indirizzo: V.le Europa Unita, 51, 33100 Udine UD
+Coordinate: Lat 46.056987, Lng 13.242362
+Website: http://www.principe-hotel.it/
+Email: 
+
+11829. Le Camere dell'Albero Bianco | Affittacamere con uso cucina e piscina a Manzano
+ID: b5cff2fb-5d93-4a59-8f68-a0e7aee45e16
+Slug: le-camere-dell-albero-bianco-affittacamere-con-u-buttrio
+Nome: Le Camere dell'Albero Bianco | Affittacamere con uso cucina e piscina a Manzano
+Comune / Provincia: Buttrio
+Indirizzo: Via della Chiesa, 6, 33044 Manzano UD
+Coordinate: Lat 45.992571, Lng 13.381279
+Website: https://www.lecameredellalberobianco.it/
+Email: 
+
+11830. Le Fucine Hotel
+ID: 7704d0d5-fb38-4342-afd0-d7af96e69283
+Slug: le-fucine-hotel-buttrio
+Nome: Le Fucine Hotel
+Comune / Provincia: Buttrio
+Indirizzo: Via Nazionale, 48, 33042 Buttrio UD
+Coordinate: Lat 46.003342, Lng 13.339996
+Website: http://www.lefucine.com/
+Email: 

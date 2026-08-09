@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+7001. Agriturismo la Bedina
+ID: 5823da91-7fd0-4b7b-b39b-8e97f034e788
+Slug: agriturismo-la-bedina-barbania
+Nome: Agriturismo la Bedina
+Comune / Provincia: Barbania
+Indirizzo: Via Levone, 10080 Rivara TO
+Coordinate: Lat 45.321386, Lng 7.626403
+Website: http://www.agriturismocanaveselabedina.it/
+Email: 
+
+7002. Albergo Sangri-la'
+ID: d9e64e33-6eb9-46c5-8022-16237fb1302e
+Slug: albergo-sangri-la-barbania
+Nome: Albergo Sangri-la'
+Comune / Provincia: Barbania
+Indirizzo: Via delle Valli, 10, 10074 Lanzo Torinese TO
+Coordinate: Lat 45.271901, Lng 7.484471
+Website: http://www.hotelsangrila.it/
+Email: 
+
+7003. Bed & Breakfast da Kate
+ID: 09369b5e-8642-4267-965f-05845451df20
+Slug: bed-breakfast-da-kate-barbania
+Nome: Bed & Breakfast da Kate
+Comune / Provincia: Barbania
+Indirizzo: Via Principessa Jolanda, 11, 10090 Foglizzo TO
+Coordinate: Lat 45.278048, Lng 7.822221
+Website: https://www.bbdakate.it/
+Email: 
+
+7004. Best Western Plus Hotel Le Rondini
+ID: 147dc582-98ce-4c8e-981e-b6bce4c9cb78
+Slug: best-western-plus-hotel-le-rondini-barbania
+Nome: Best Western Plus Hotel Le Rondini
+Comune / Provincia: Barbania
+Indirizzo: Via Parrocchia, 5, 10070 San Francesco Al Campo TO
+Coordinate: Lat 45.224201, Lng 7.657216
+Website: http://www.hotellerondini.it/
+Email: 
+
+7005. Dimora A Corte
+ID: cf94b105-4b53-403a-84c8-53a4baa3a6d3
+Slug: dimora-a-corte-barbania
+Nome: Dimora A Corte
+Comune / Provincia: Barbania
+Indirizzo: Via Torino, 2, 10075 Mathi TO
+Coordinate: Lat 45.256526, Lng 7.543971
+Website: https://www.dimoraacorte.it/
+Email: 
+
+7006. Il Mulino B&B Rivara
+ID: e1e6f7fd-c9a7-4669-94c5-29d8a33001c9
+Slug: il-mulino-b-b-rivara-barbania
+Nome: Il Mulino B&B Rivara
+Comune / Provincia: Barbania
+Indirizzo: Casale Molino, 1, 10080 Rivara TO
+Coordinate: Lat 45.34209, Lng 7.62244
+Website: http://www.mulinodicamagna.it/
+Email: 
+
+7007. La casa dei fiori
+ID: 5434b2ff-73f3-4f6d-9f78-dd4da0a0318e
+Slug: la-casa-dei-fiori-barbania
+Nome: La casa dei fiori
+Comune / Provincia: Barbania
+Indirizzo: Via dei Fiori, 17, 10077 San Maurizio Canavese TO
+Coordinate: Lat 45.219207, Lng 7.633218
+Website: https://www.instagram.com/_lacasadeifiori_to?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+Email: 
+
+7008. Via Ai Portici Suite
+ID: 594e6c30-5876-4864-a1ab-6d9ad079c8ca
+Slug: via-ai-portici-suite-barbania
+Nome: Via Ai Portici Suite
+Comune / Provincia: Barbania
+Indirizzo: Via Gibellini, 87, 10072 Caselle Torinese TO
+Coordinate: Lat 45.17669, Lng 7.648544
+Website: https://www.porticisuite.it/
+Email: 
+
+7009. Agriturismo B&B Cadabò
+ID: a9e033ba-880f-4e2a-8751-ef0b6b7c0a19
+Slug: agriturismo-b-b-cadabo-barbara
+Nome: Agriturismo B&B Cadabò
+Comune / Provincia: Barbara
+Indirizzo: C.da Sant Angelo 4, 60036 Montecarotto AN
+Coordinate: Lat 43.529448, Lng 13.104801
+Website: https://www.cadabo.com/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+7010. Agriturismo il Bacucco
+ID: 209d4775-f681-4063-9240-74359f49aede
+Slug: agriturismo-il-bacucco-barbara
+Nome: Agriturismo il Bacucco
+Comune / Provincia: Barbara
+Indirizzo: Contrada Bacucco, 11, 60036 Montecarotto AN
+Coordinate: Lat 43.517852, Lng 13.056517
+Website: http://www.bacucco.com/
+Email: 
+
+7011. Agriturismo Lo Sgorzolo
+ID: b8d8fa86-9fe7-48c1-b40f-8e43cacb6c9e
+Slug: agriturismo-lo-sgorzolo-barbara
+Nome: Agriturismo Lo Sgorzolo
+Comune / Provincia: Barbara
+Indirizzo: Via Montesecco, 67, 61045 Pergola PU
+Coordinate: Lat 43.581154, Lng 12.900282
+Website: http://www.losgorzolo.it/
+Email: 
+
+7012. Albergo - Bar Al Casolare (numero solo per BAR e ALBERGO)
+ID: f3956a50-731d-426c-8c73-386cbda81122
+Slug: albergo-bar-al-casolare-numero-solo-per-bar-e-al-barbara
+Nome: Albergo - Bar Al Casolare (numero solo per BAR e ALBERGO)
+Comune / Provincia: Barbara
+Indirizzo: Via Corinaldese, 6, 60013 Corinaldo AN
+Coordinate: Lat 43.640411, Lng 13.067988
+Website: http://www.alcasolare.it/
+Email: 
+
+7013. ALBERGO RISTORANTE "BELLUCCI"
+ID: a39d4af3-c21d-4021-9f97-b1587bf2017d
+Slug: albergo-ristorante-bellucci-barbara
+Nome: ALBERGO RISTORANTE "BELLUCCI"
+Comune / Provincia: Barbara
+Indirizzo: Corso G. Marconi, 7, 60010 Castelleone di Suasa AN
+Coordinate: Lat 43.607721, Lng 12.976456
+Website: —
+Email: 
+
+7014. Albergo Ristorante Pizzeria La Palomba
+ID: 4ce6913d-f956-459f-beda-97702b024dda
+Slug: albergo-ristorante-pizzeria-la-palomba-barbara
+Nome: Albergo Ristorante Pizzeria La Palomba
+Comune / Provincia: Barbara
+Indirizzo: Borgo Gramsci, 13, 61040 Mondavio PU
+Coordinate: Lat 43.673923, Lng 12.967713
+Website: http://www.lapalomba.it/
+Email: 
+
+7015. Anna Rita B&B
+ID: 80d78773-86c6-42b7-9fb7-344fb872adeb
+Slug: anna-rita-b-b-barbara
+Nome: Anna Rita B&B
+Comune / Provincia: Barbara
+Indirizzo: Via II Giugno, 23, 60031 Moie AN
+Coordinate: Lat 43.508989, Lng 13.121253
+Website: https://annarita.tripcombined.com/
+Email: 
+
+7016. B& B bread and fantasy
+ID: 942b4560-2fa8-41e3-bce0-c86cdae95870
+Slug: b-b-bread-and-fantasy-barbara
+Nome: B& B bread and fantasy
+Comune / Provincia: Barbara
+Indirizzo: Via Santo Stefano, 1, 60010 Ostra AN
+Coordinate: Lat 43.573173, Lng 13.110835
+Website: https://fantasy.tripcombined.com/
+Email: 
+
+7017. B&B Da Roby
+ID: 53c4bf3b-9059-43e4-b422-c2c0f23d72b8
+Slug: b-b-da-roby-barbara
+Nome: B&B Da Roby
+Comune / Provincia: Barbara
+Indirizzo: Via Ridolfi, 10, 60013 Corinaldo AN
+Coordinate: Lat 43.654584, Lng 13.046204
+Website: —
+Email: 
+
+7018. casa di Faustina (albergo diffuso)
+ID: 389b48d8-74d6-4bd0-879b-b52c330335f8
+Slug: casa-di-faustina-albergo-diffuso-barbara
+Nome: casa di Faustina (albergo diffuso)
+Comune / Provincia: Barbara
+Indirizzo: Via Mura del Mangano 1, Check-in at, Via del Corso, 64, 60013 Corinaldo AN
+Coordinate: Lat 43.649311, Lng 13.045558
+Website: https://difaustina.tripcombined.com/
+Email: 
+
+7019. Gaia
+ID: 71a0ecb2-caf7-4ce5-9dd4-d171197a4eb6
+Slug: gaia-barbara
+Nome: Gaia
+Comune / Provincia: Barbara
+Indirizzo: Contrada Gambacane, 7, 60010 Ostra Vetere AN
+Coordinate: Lat 43.596778, Lng 13.05452
+Website: http://www.gaiabb.it/
+Email: 
+
+7020. Hotel La Torre
+ID: 2833e3c3-1f16-404e-a097-0db6cee0dfbc
+Slug: hotel-la-torre-barbara
+Nome: Hotel La Torre
+Comune / Provincia: Barbara
+Indirizzo: Via Montecarottese, 4, 60030 Maiolati Spontini AN
+Coordinate: Lat 43.506432, Lng 13.149876
+Website: http://www.latorrehotel.com/
+Email: 
+
+7021. Il Paradiso del Re - Ristorantino esclusivo e Camere
+ID: a85e65fe-b25d-4b15-bc90-7fc472202f0a
+Slug: il-paradiso-del-re-ristorantino-esclusivo-e-came-barbara
+Nome: Il Paradiso del Re - Ristorantino esclusivo e Camere
+Comune / Provincia: Barbara
+Indirizzo: Frazione S. Pietro, 6, 60011 Arcevia AN
+Coordinate: Lat 43.566947, Lng 12.93049
+Website: http://www.ilparadisodelre.com/
+Email: 
+
+7022. Il Pozzo di Vivalpa
+ID: 32893a90-b1b1-4ded-a459-2be03611901b
+Slug: il-pozzo-di-vivalpa-barbara
+Nome: Il Pozzo di Vivalpa
+Comune / Provincia: Barbara
+Indirizzo: Via S. Sebastiano, 6, 60030 Serra de' Conti AN
+Coordinate: Lat 43.554087, Lng 13.062328
+Website: http://www.ilpozzodivivalpa.com/
+Email: 
+
+7023. La Veranda Sul Giardino
+ID: 80a3cc41-e753-4daf-a0f0-014972f1414a
+Slug: la-veranda-sul-giardino-barbara
+Nome: La Veranda Sul Giardino
+Comune / Provincia: Barbara
+Indirizzo: Viale della Murata, 41, 60013 Corinaldo AN
+Coordinate: Lat 43.642988, Lng 13.056595
+Website: https://la-veranda-sul-giardino.avventurainitalia.top/
+Email: 
+
+7024. Ma Hotel Corinaldo
+ID: 7d0b6219-fe82-4b65-be28-6f21ef3cf8d4
+Slug: ma-hotel-corinaldo-barbara
+Nome: Ma Hotel Corinaldo
+Comune / Provincia: Barbara
+Indirizzo: Via del Corso, 60013 Corinaldo AN
+Coordinate: Lat 43.648905, Lng 13.047695
+Website: https://www.mahotelcorinaldo.it/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+7025. Ristorante Catering Hotel Giardino
+ID: 923d1668-5a36-4cc4-830e-8d4fb8a53f50
+Slug: ristorante-catering-hotel-giardino-barbara
+Nome: Ristorante Catering Hotel Giardino
+Comune / Provincia: Barbara
+Indirizzo: Via Enrico Mattei, 4, 61047 San Lorenzo In Campo PU
+Coordinate: Lat 43.59634, Lng 12.932117
+Website: http://www.hotelgiardino.it/
+Email: 
+
+7026. Stone farmhouse Bed & Breakfast
+ID: bd65a56a-ce89-414a-93e7-1b4fb3b32da3
+Slug: stone-farmhouse-bed-breakfast-barbara
+Nome: Stone farmhouse Bed & Breakfast
+Comune / Provincia: Barbara
+Indirizzo: Via Fiume, 6, 60030 Moie AN
+Coordinate: Lat 43.50136, Lng 13.132727
+Website: https://www.booking.com/hotel/it/stone-farmhouse-in-moie.it.html
+Email: 
+
+7027. Agriturismo Canova
+ID: e85b6a3f-030d-4686-b7a5-1ad276ceddfb
+Slug: agriturismo-canova-barbarano-mossano
+Nome: Agriturismo Canova
+Comune / Provincia: Barbarano Mossano
+Indirizzo: Via Canova, 6, 36048 Barbarano Mossano VI
+Coordinate: Lat 45.408597, Lng 11.558146
+Website: http://www.agricanova.it/
+Email: 
+
+7028. Agriturismo da Sagraro
+ID: 7cc8ff73-d837-4a8e-9c45-2feb62334ab8
+Slug: agriturismo-da-sagraro-barbarano-mossano
+Nome: Agriturismo da Sagraro
+Comune / Provincia: Barbarano Mossano
+Indirizzo: Via Olivari, 1, 36048 Mossano VI
+Coordinate: Lat 45.429655, Lng 11.556757
+Website: https://www.agriturismodasagraro.com/
+Email: 
+
+7029. B&B Bagolari
+ID: e7efc41a-e306-482b-a6dd-3608e599c7ef
+Slug: b-b-bagolari-barbarano-mossano
+Nome: B&B Bagolari
+Comune / Provincia: Barbarano Mossano
+Indirizzo: Via dei Pilastri, 5, 36024 Nanto VI
+Coordinate: Lat 45.414054, Lng 11.6184
+Website: https://bagolaribnb.com/
+Email: 
+
+7030. B&B Casa Lina
+ID: e66527b3-0d57-4bc1-a6f1-0180c7f80388
+Slug: b-b-casa-lina-barbarano-mossano
+Nome: B&B Casa Lina
+Comune / Provincia: Barbarano Mossano
+Indirizzo: Via Cagliara, 8c, 36048 Ponte di Barbarano VI
+Coordinate: Lat 45.392425, Lng 11.582987
+Website: —
+Email: 
+
+7031. Bed and Breakfast In Valle Vicenza
+ID: a70d0d13-1a07-4365-b791-a66a60cdf7ad
+Slug: bed-and-breakfast-in-valle-vicenza-barbarano-mossano
+Nome: Bed and Breakfast In Valle Vicenza
+Comune / Provincia: Barbarano Mossano
+Indirizzo: Via la Vallà, 12/1, 36023 Lumignano VI
+Coordinate: Lat 45.465877, Lng 11.589383
+Website: http://www.bnbinvalle.com/
+Email: 
+
+7032. Bed and Breakfast Miotto
+ID: 77aeeebc-164f-4a63-b0ba-1d60794da56c
+Slug: bed-and-breakfast-miotto-barbarano-mossano
+Nome: Bed and Breakfast Miotto
+Comune / Provincia: Barbarano Mossano
+Indirizzo: Via Borgo, 75, 36074 Montegalda VI
+Coordinate: Lat 45.468351, Lng 11.62687
+Website: https://miotto.tripcombined.com/
+Email: 
+
+7033. Casa Costabella
+ID: 43357571-5e6e-4d28-9bbe-b55cff716a1c
+Slug: casa-costabella-barbarano-mossano
+Nome: Casa Costabella
+Comune / Provincia: Barbarano Mossano
+Indirizzo: Via Costabella, 39, 36021 Villaga VI
+Coordinate: Lat 45.419592, Lng 11.507698
+Website: —
+Email: 
+
+7034. Castello di Barbarano
+ID: b550688d-0996-4a2c-b7c2-14c8ceeaba84
+Slug: castello-di-barbarano-barbarano-mossano
+Nome: Castello di Barbarano
+Comune / Provincia: Barbarano Mossano
+Indirizzo: Via Castello, 6, 36048 Barbarano VI
+Coordinate: Lat 45.407127, Lng 11.538962
+Website: http://www.castellomarinoni.com/
+Email: 
+
+7035. HOTEL Turandot & Osteria "Nannì"
+ID: 223a2912-9d20-4e26-b5dc-91181f161a36
+Slug: hotel-turandot-osteria-nanni-barbarano-mossano
+Nome: HOTEL Turandot & Osteria "Nannì"
+Comune / Provincia: Barbarano Mossano
+Indirizzo: Via Giuseppe Mazzini, 1, 36040 Grisignano di Zocco VI
+Coordinate: Lat 45.475041, Lng 11.697723
+Website: http://www.turandotmagnolia.it/
+Email: 

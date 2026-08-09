@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+11096. Albergo Diffuso Borgo Santa Caterina "Vintage"
+ID: 38db23be-1180-4346-a230-4a75233ded28
+Slug: albergo-diffuso-borgo-santa-caterina-vintage-bronte
+Nome: Albergo Diffuso Borgo Santa Caterina "Vintage"
+Comune / Provincia: Bronte
+Indirizzo: Via Archimede, 37, 95012 Castiglione di Sicilia CT
+Coordinate: Lat 37.882862, Lng 15.120898
+Website: https://www.alcantaratravel.it/
+Email: 
+
+11097. Antico Portale
+ID: 77ffa5ef-3df0-4c3e-bc9d-b644a6e4fe66
+Slug: antico-portale-bronte
+Nome: Antico Portale
+Comune / Provincia: Bronte
+Indirizzo: Via Concezione, 12, 94017 Regalbuto EN
+Coordinate: Lat 37.650238, Lng 14.643308
+Website: —
+Email: 
+
+11098. B&B Al Vulcanetto
+ID: b9b1a7fa-2be6-4829-a4d8-794271f30b1f
+Slug: b-b-al-vulcanetto-bronte
+Nome: B&B Al Vulcanetto
+Comune / Provincia: Bronte
+Indirizzo: Via Madre Chiesa, 14, 98030 Moio Alcantara ME
+Coordinate: Lat 37.900118, Lng 15.050009
+Website: http://vulcanetto.com/
+Email: 
+
+11099. B&B BluViRo
+ID: 24c7ff38-dece-4bbe-a5e6-1892e0cdced2
+Slug: b-b-bluviro-bronte
+Nome: B&B BluViRo
+Comune / Provincia: Bronte
+Indirizzo: Via Ustica, 10, 95034 Bronte CT
+Coordinate: Lat 37.790866, Lng 14.83868
+Website: https://www.booking.com/Share-95br4Fs
+Email: 
+
+11100. B&B Good Morning Etna
+ID: ae5c3d09-d3cd-47e4-8949-9f01e8739019
+Slug: b-b-good-morning-etna-bronte
+Nome: B&B Good Morning Etna
+Comune / Provincia: Bronte
+Indirizzo: Via Giudice Falcone, 29, 95034 Bronte CT
+Coordinate: Lat 37.793201, Lng 14.843855
+Website: http://good-morning-etna.com.es/
+Email: 
+
+11101. B&B Planet Rooms
+ID: 81e7d484-0d2f-4e18-9eb4-18b4b70d534f
+Slug: b-b-planet-rooms-bronte
+Nome: B&B Planet Rooms
+Comune / Provincia: Bronte
+Indirizzo: Via Roma, 30, 95034 Bronte CT
+Coordinate: Lat 37.788261, Lng 14.83305
+Website: —
+Email: 
+
+11102. B&b Vista Etna
+ID: 084704f3-8af5-4b82-8cb5-7ed2ede8140e
+Slug: b-b-vista-etna-bronte
+Nome: B&b Vista Etna
+Comune / Provincia: Bronte
+Indirizzo: Via Galliano, 58, 95036 Randazzo CT
+Coordinate: Lat 37.874081, Lng 14.956794
+Website: https://www.facebook.com/bebvistaetna
+Email: 
+
+11103. Fronte Etna
+ID: d9ce878f-0564-4bd2-84d6-a741f40ac6db
+Slug: fronte-etna-bronte
+Nome: Fronte Etna
+Comune / Provincia: Bronte
+Indirizzo: Contrada Borgonovo, 95034 Bronte CT
+Coordinate: Lat 37.794536, Lng 14.846897
+Website: https://fronteetna.it/
+Email: 
+
+11104. I Cugi House
+ID: b4d17567-adeb-4d59-8545-762a55dbf937
+Slug: i-cugi-house-bronte
+Nome: I Cugi House
+Comune / Provincia: Bronte
+Indirizzo: Via Messina, 207, 95034 Bronte CT
+Coordinate: Lat 37.790593, Lng 14.839357
+Website: http://www.icugi.it/
+Email: 
+
+11105. RELAIS VILLA MIRAGLIA
+ID: 4c1f7f63-4090-4e80-ad20-a5bf1454ebab
+Slug: relais-villa-miraglia-bronte
+Nome: RELAIS VILLA MIRAGLIA
+Comune / Provincia: Bronte
+Indirizzo: SS289, 22, 98033 Cesarò ME
+Coordinate: Lat 37.916366, Lng 14.655915
+Website: https://www.relaisvillamiraglia.it/
+Email: 
+
+11106. Albergo Locanda Al Drago
+ID: 12f571f7-8205-40eb-b4f2-b9130ae5e71f
+Slug: albergo-locanda-al-drago-bronzolo-branzoll
+Nome: Albergo Locanda Al Drago
+Comune / Provincia: Bronzolo/Branzoll
+Indirizzo: Via Chiesa Vecchia, 15, 39051 Bronzolo BZ
+Coordinate: Lat 46.403255, Lng 11.321479
+Website: https://www.albergolocandaaldrago.it/
+Email: 
+
+11107. Albergo Tenuta Stroblhof
+ID: 6770915e-73f3-4772-b8ea-42015f15ed04
+Slug: albergo-tenuta-stroblhof-bronzolo-branzoll
+Nome: Albergo Tenuta Stroblhof
+Comune / Provincia: Bronzolo/Branzoll
+Indirizzo: Pigenoerweg, 25, 39057 Appiano sulla strada del vino BZ
+Coordinate: Lat 46.449589, Lng 11.249369
+Website: http://www.stroblhof.it/
+Email: 
+
+11108. Albergo Zur Pfleg
+ID: 4ef3bd1a-72df-4f97-8891-952b4e9af4a0
+Slug: albergo-zur-pfleg-bronzolo-branzoll
+Nome: Albergo Zur Pfleg
+Comune / Provincia: Bronzolo/Branzoll
+Indirizzo: Via Pietralba, 94, 39055 Laives BZ
+Coordinate: Lat 46.423075, Lng 11.343673
+Website: http://www.pfleg.it/
+Email: 
+
+11109. Das Panorama - Dependance
+ID: 34309f5b-3665-4835-8da5-dabdc0bae49a
+Slug: das-panorama-dependance-bronzolo-branzoll
+Nome: Das Panorama - Dependance
+Comune / Provincia: Bronzolo/Branzoll
+Indirizzo: Via Prey, 11, 39052 Caldaro BZ
+Coordinate: Lat 46.417995, Lng 11.24132
+Website: http://www.designhotel-panorama.com/
+Email: 
+
+11110. Garni Sparer
+ID: 7598699b-4be9-4262-99f0-5c1cb850c34d
+Slug: garni-sparer-bronzolo-branzoll
+Nome: Garni Sparer
+Comune / Provincia: Bronzolo/Branzoll
+Indirizzo: Campi al Lago, 2, 39052 Caldaro sulla strada del Vino BZ
+Coordinate: Lat 46.383667, Lng 11.270529
+Website: http://www.garni-sparer.it/
+Email: 
+
+11111. Gasthof Klughammer
+ID: a0bfc25c-6a72-47a9-bfbc-6201c896e31b
+Slug: gasthof-klughammer-bronzolo-branzoll
+Nome: Gasthof Klughammer
+Comune / Provincia: Bronzolo/Branzoll
+Indirizzo: Localita' Klughammer, 5, Campi al Lago, 5, 39052 Caldaro sulla strada del Vino BZ
+Coordinate: Lat 46.38334, Lng 11.269464
+Website: http://www.pensionklughammer.com/
+Email: 
+
+11112. Gasthof Rechtebner, Seit/Leifers bei Bozen
+ID: 9b2db66e-4718-4e6a-94d0-43340343324e
+Slug: gasthof-rechtebner-seit-leifers-bei-bozen-bronzolo-branzoll
+Nome: Gasthof Rechtebner, Seit/Leifers bei Bozen
+Comune / Provincia: Bronzolo/Branzoll
+Indirizzo: Via La Costa, 21, 39055 Laives BZ
+Coordinate: Lat 46.450186, Lng 11.356314
+Website: http://www.rechtebner.it/
+Email: 
+
+11113. Hotel Hasslhof
+ID: a3bacb8f-a38d-4f74-b721-5e1b3236e1fd
+Slug: hotel-hasslhof-bronzolo-branzoll
+Nome: Hotel Hasslhof
+Comune / Provincia: Bronzolo/Branzoll
+Indirizzo: Sankt Josef am See, 62, 39052 Kaltern am See BZ
+Coordinate: Lat 46.380018, Lng 11.251859
+Website: https://www.hasslhof.com/?utm_source=google&utm_medium=organic&utm_campaign=MyBusiness_hasslhof
+Email: 
+
+11114. Hotel Ideal Park
+ID: e1c56e26-13ac-4a58-84b1-e434127a0ba0
+Slug: hotel-ideal-park-bronzolo-branzoll
+Nome: Hotel Ideal Park
+Comune / Provincia: Bronzolo/Branzoll
+Indirizzo: Via John Fitzgerald Kennedy, 233, 39055 Laives BZ
+Coordinate: Lat 46.424014, Lng 11.334192
+Website: http://www.hotelidealpark.it/
+Email: 
+
+11115. Hotel Plattenhof
+ID: 798d51b3-40ee-4d33-adf5-1a494fe6ace1
+Slug: hotel-plattenhof-bronzolo-branzoll
+Nome: Hotel Plattenhof
+Comune / Provincia: Bronzolo/Branzoll
+Indirizzo: Frazione Sella, 33, 39040 Termeno sulla Strada del Vino BZ
+Coordinate: Lat 46.359339, Lng 11.244357
+Website: https://www.plattenhof.it/?utm_source=google&utm_medium=organic&utm_campaign=google_mybusiness&utm_term=hotel
+Email: 
+
+11116. Hotel Stampfer
+ID: cead571b-8193-46e5-a6ce-b013e8e28880
+Slug: hotel-stampfer-bronzolo-branzoll
+Nome: Hotel Stampfer
+Comune / Provincia: Bronzolo/Branzoll
+Indirizzo: Via Stazione, 19, 39051 Bronzolo BZ
+Coordinate: Lat 46.405029, Lng 11.317866
+Website: http://www.hotel-stampfer.com/?lang=it
+Email: 
+
+11117. Hotel Steiner
+ID: 4812d8c6-41dd-4a89-a73c-666fdba3c42b
+Slug: hotel-steiner-bronzolo-branzoll
+Nome: Hotel Steiner
+Comune / Provincia: Bronzolo/Branzoll
+Indirizzo: Via John Fitzgerald Kennedy, 32, 39055 Laives BZ
+Coordinate: Lat 46.429531, Lng 11.343518
+Website: https://www.hotelsteiner.com/
+Email: 
+
+11118. Pension Leuchtenburg
+ID: c656d66e-fe2d-4008-99f1-528fc5a83b14
+Slug: pension-leuchtenburg-bronzolo-branzoll
+Nome: Pension Leuchtenburg
+Comune / Provincia: Bronzolo/Branzoll
+Indirizzo: Campi al Lago, 14, 39051 Caldaro sulla strada del Vino BZ
+Coordinate: Lat 46.384578, Lng 11.269912
+Website: http://www.leuchtenburg.it/
+Email: 
+
+11119. Rösslhof
+ID: 1d289d5a-5f98-41b2-8935-91c8ac67726a
+Slug: rosslhof-bronzolo-branzoll
+Nome: Rösslhof
+Comune / Provincia: Bronzolo/Branzoll
+Indirizzo: S. Giuseppe al Lago, 34B, 39052 Caldaro sulla strada del Vino BZ
+Coordinate: Lat 46.383707, Lng 11.253508
+Website: http://www.roesslhof.info/
+Email: 
+
+11120. Seehotel Sparer
+ID: fd728e2e-366c-4a06-9764-5c77619ea4e6
+Slug: seehotel-sparer-bronzolo-branzoll
+Nome: Seehotel Sparer
+Comune / Provincia: Bronzolo/Branzoll
+Indirizzo: Via Monticolo, 53, 39057 San Michele BZ
+Coordinate: Lat 46.422819, Lng 11.286837
+Website: https://www.seehotel-sparer.it/
+Email: 
+
+11121. Seerose
+ID: a460d04f-3986-412b-9d0e-9d8717ef18d3
+Slug: seerose-bronzolo-branzoll
+Nome: Seerose
+Comune / Provincia: Bronzolo/Branzoll
+Indirizzo: S. Giuseppe al Lago, 6, 39052 Caldaro BZ
+Coordinate: Lat 46.386519, Lng 11.262052
+Website: http://www.seerose.it/
+Email: 
+
+11122. B&B La Stanza dei Sogni Saluzzo
+ID: 12ecb92d-34da-48ee-9661-9346ef89df54
+Slug: b-b-la-stanza-dei-sogni-saluzzo-brossasco
+Nome: B&B La Stanza dei Sogni Saluzzo
+Comune / Provincia: Brossasco
+Indirizzo: Via Revello, 19 H, 12037 Saluzzo CN
+Coordinate: Lat 44.645882, Lng 7.468468
+Website: —
+Email: 
+
+11123. Il Sogno di Remì
+ID: 9ce0b7f9-ccfb-4e01-a482-719ee612cb64
+Slug: il-sogno-di-remi-brossasco
+Nome: Il Sogno di Remì
+Comune / Provincia: Brossasco
+Indirizzo: Borgata Bruna, 12020 Brossasco CN
+Coordinate: Lat 44.57445, Lng 7.377933
+Website: http://www.ilsognodiremi.com/
+Email: 
+
+11124. Affittacamere La stella delle Alpi
+ID: 62b78020-f3bf-4f09-aaa2-36f1043cd27e
+Slug: affittacamere-la-stella-delle-alpi-brosso
+Nome: Affittacamere La stella delle Alpi
+Comune / Provincia: Brosso
+Indirizzo: Vicolo Bertarione, 4, 10089 Vico Canavese TO
+Coordinate: Lat 45.493583, Lng 7.779373
+Website: http://www.lastelladellealpi.it/
+Email: 
+
+11125. B&B Piccolo Relais
+ID: 4f6ba66c-b96d-4519-b473-cafbdaccdb78
+Slug: b-b-piccolo-relais-brosso
+Nome: B&B Piccolo Relais
+Comune / Provincia: Brosso
+Indirizzo: Via Conte Michele Cagnis, 6, 10010 Lessolo TO
+Coordinate: Lat 45.479166, Lng 7.815897
+Website: https://www.piccolo-relais.com/
+Email: 
+
+11126. B&B ranch Alba Montanaria, dormire beb Valchiusella, Maneggio cavalli
+ID: 172f3789-ef4f-4ba2-8f19-63439b5149d9
+Slug: b-b-ranch-alba-montanaria-dormire-beb-valchiusel-brosso
+Nome: B&B ranch Alba Montanaria, dormire beb Valchiusella, Maneggio cavalli
+Comune / Provincia: Brosso
+Indirizzo: Strada statale s/n - regione, montanaria, 10089 Brosso TO
+Coordinate: Lat 45.484514, Lng 7.79787
+Website: http://www.bbranchmontanaria.it/
+Email: 
+
+11127. L'Incontro
+ID: 47cbe7fb-48d3-45be-b07b-c8d4beda4922
+Slug: l-incontro-brosso
+Nome: L'Incontro
+Comune / Provincia: Brosso
+Indirizzo: Regione Lago, 1, 10089 Meugliano TO
+Coordinate: Lat 45.476192, Lng 7.787417
+Website: https://www.incontro-ristorante.it/
+Email: 
+
+11128. Ristorante Albergo Bar Centro
+ID: 9c2b3573-10ee-48f5-8d54-ffe2c8f2a54b
+Slug: ristorante-albergo-bar-centro-brosso
+Nome: Ristorante Albergo Bar Centro
+Comune / Provincia: Brosso
+Indirizzo: Piazza Garibaldi, 1, 10089 Vico Canavese TO
+Coordinate: Lat 45.494203, Lng 7.778671
+Website: https://airbb.cyou/ristorante-albergo-bar-81vhsq
+Email: 
+
+11129. Albergo Vittoria
+ID: a9160bb5-4464-4db4-a9dc-6018d19b1c38
+Slug: albergo-vittoria-brovello-carpugnino
+Nome: Albergo Vittoria
+Comune / Provincia: Brovello-Carpugnino
+Indirizzo: Via Regina Margherita, 21, 28836 Gignese VB
+Coordinate: Lat 45.86106, Lng 8.508893
+Website: http://www.hotelristorantevittoria.it/
+Email: 
+
+11130. B&B Orto di Marisa
+ID: 0ba0a583-538b-443d-9d8d-3555d0453087
+Slug: b-b-orto-di-marisa-brovello-carpugnino
+Nome: B&B Orto di Marisa
+Comune / Provincia: Brovello-Carpugnino
+Indirizzo: Via delle Rose, 36, 28833 Brovello-carpugnino VB
+Coordinate: Lat 45.843494, Lng 8.533336
+Website: https://www.ortodimarisa.it/
+Email: 

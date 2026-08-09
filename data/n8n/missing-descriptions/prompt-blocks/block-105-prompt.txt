@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+3641. B&B Signora Elvira
+ID: f93c5b8a-fd8e-488b-be89-1730a075726d
+Slug: b-b-signora-elvira-anterivo-altrei
+Nome: B&B Signora Elvira
+Comune / Provincia: Anterivo/Altrei
+Indirizzo: Via Gian Battista Dallio, 23, 38030 Capriana TN
+Coordinate: Lat 46.262096, Lng 11.337041
+Website: https://aloisstraveltips.com/b-amp-b-signora-elvira-capriana-italy
+Email: 
+
+3642. Hotel Italia
+ID: 02abb0c7-3003-467e-9fd7-1f3e8a868ac2
+Slug: hotel-italia-anterivo-altrei
+Nome: Hotel Italia
+Comune / Provincia: Anterivo/Altrei
+Indirizzo: Via Segherie, 80, 38030 Castello di Fiemme TN
+Coordinate: Lat 46.272567, Lng 11.416786
+Website: http://www.hotelitalia-dolomiti.com/
+Email: 
+
+3643. Hotel Langeshof
+ID: 7fcc2a0c-ec9c-4620-921d-f7d720e8e41e
+Slug: hotel-langeshof-anterivo-altrei
+Nome: Hotel Langeshof
+Comune / Provincia: Anterivo/Altrei
+Indirizzo: Via Katharina Lanz, 3, 39040 Anterivo BZ
+Coordinate: Lat 46.281544, Lng 11.373877
+Website: https://www.langeshof.com/
+Email: 
+
+3644. Hotel Latemar - Dolomites Living - Val di Fiemme
+ID: f1cb547a-7548-4546-9a3d-83bd2ce2494c
+Slug: hotel-latemar-dolomites-living-val-di-fiemme-anterivo-altrei
+Nome: Hotel Latemar - Dolomites Living - Val di Fiemme
+Comune / Provincia: Anterivo/Altrei
+Indirizzo: Via Latemar, 16, 38030 Castello di Fiemme TN
+Coordinate: Lat 46.283622, Lng 11.437925
+Website: http://www.latemar-hotel.it/
+Email: 
+
+3645. Hotel Schönwies
+ID: 920221f0-8306-45e7-8377-ae434f4f34eb
+Slug: hotel-schonwies-anterivo-altrei
+Nome: Hotel Schönwies
+Comune / Provincia: Anterivo/Altrei
+Indirizzo: Via Principale, 19, 39040 Trodena nel parco naturale BZ
+Coordinate: Lat 46.323333, Lng 11.35143
+Website: https://www.schoenwies.it/
+Email: 
+
+3646. Hotel Schwarzhorn
+ID: ac482884-a966-4428-9f80-6e342a21abb6
+Slug: hotel-schwarzhorn-anterivo-altrei
+Nome: Hotel Schwarzhorn
+Comune / Provincia: Anterivo/Altrei
+Indirizzo: Oclini, 2, 39040 Aldino BZ
+Coordinate: Lat 46.346635, Lng 11.453191
+Website: http://www.schwarzhorn.com/
+Email: 
+
+3647. Locanda Alpina Dorfner
+ID: d1f4a750-8c71-467d-babd-45621f4e0401
+Slug: locanda-alpina-dorfner-anterivo-altrei
+Nome: Locanda Alpina Dorfner
+Comune / Provincia: Anterivo/Altrei
+Indirizzo: Casignano, 5, 39040 Montagna BZ
+Coordinate: Lat 46.302222, Lng 11.308592
+Website: http://www.dorfner.it/
+Email: 
+
+3648. Manna Resort
+ID: b0677479-9ee4-4349-85f9-8df3b34277e4
+Slug: manna-resort-anterivo-altrei
+Nome: Manna Resort
+Comune / Provincia: Anterivo/Altrei
+Indirizzo: Doladizza, Vicolo Klamm, 3, 39040 Montagna BZ
+Coordinate: Lat 46.343814, Lng 11.325335
+Website: https://www.mannaresort.it/
+Email: 
+
+3649. Naturhotel Waldheim
+ID: 356a88c4-8ba9-49f6-acb2-82bc20acc338
+Slug: naturhotel-waldheim-anterivo-altrei
+Nome: Naturhotel Waldheim
+Comune / Provincia: Anterivo/Altrei
+Indirizzo: Via Gottschalk, 5, 39040 Anterivo BZ
+Coordinate: Lat 46.279567, Lng 11.361818
+Website: https://naturhotel-waldheim.com/it/anterivo-val-di-fiemme/
+Email: 
+
+3650. Pensione Lochmann
+ID: d4440255-7f9d-436f-8eeb-444e6c120d0a
+Slug: pensione-lochmann-anterivo-altrei
+Nome: Pensione Lochmann
+Comune / Provincia: Anterivo/Altrei
+Indirizzo: Frazione Guggal, 4, 39040 Anterivo BZ
+Coordinate: Lat 46.275102, Lng 11.371714
+Website: http://www.pension-lochmann.it/
+Email: 
+
+3651. Residence Zum Rössl | Appartamenti vacanze
+ID: e834e254-e276-4f91-a743-ddb886641804
+Slug: residence-zum-rossl-appartamenti-vacanze-anterivo-altrei
+Nome: Residence Zum Rössl | Appartamenti vacanze
+Comune / Provincia: Anterivo/Altrei
+Indirizzo: Via Dottor Josef Noldin, 3, 39040 Anterivo BZ
+Coordinate: Lat 46.276855, Lng 11.365906
+Website: https://www.residencezumroessl.it/
+Email: 
+
+3652. Affittacamere Lo verdze
+ID: 6e3ac62d-00a9-40c3-9c31-823aa0f5f49f
+Slug: affittacamere-lo-verdze-antey-saint-andr
+Nome: Affittacamere Lo verdze
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Frazione Nozon, 80, 11020 Torgnon AO
+Coordinate: Lat 45.798737, Lng 7.581037
+Website: http://www.loverdze.com/
+Email: 
+
+3653. Agriturismo Au Jardin Fleuri
+ID: f7b74e6e-ac1b-4ba8-bb29-bb8a241fab43
+Slug: agriturismo-au-jardin-fleuri-antey-saint-andr
+Nome: Agriturismo Au Jardin Fleuri
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Frazione, Località Bourg, 7, 11020 Antey-Saint-André AO
+Coordinate: Lat 45.805364, Lng 7.591603
+Website: http://aujardinfleuri.it/
+Email: 
+
+3654. Agriturismo La Clochette - dormire a Torgnon
+ID: cc9d5890-84c9-4df8-a23c-1e54687da1bb
+Slug: agriturismo-la-clochette-dormire-a-torgnon-antey-saint-andr
+Nome: Agriturismo La Clochette - dormire a Torgnon
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Frazione Nozon, 90/75, 11020 Torgnon AO
+Coordinate: Lat 45.798538, Lng 7.580875
+Website: http://www.laclochette.it/
+Email: 
+
+3655. Albergo la Grolla, ristorante, pizzeria bar
+ID: b09d6857-91b1-4cc0-a5c6-992d8fd2d45d
+Slug: albergo-la-grolla-ristorante-pizzeria-bar-antey-saint-andr
+Nome: Albergo la Grolla, ristorante, pizzeria bar
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: frazione filey 41 frazione filey, Località Filey, 41A, 11020 Antey-Saint-André AO
+Coordinate: Lat 45.808227, Lng 7.58701
+Website: —
+Email: 
+
+3656. Albergo Maison Tissiere
+ID: e3d27233-1f46-4961-b271-cdbccdc77b88
+Slug: albergo-maison-tissiere-antey-saint-andr
+Nome: Albergo Maison Tissiere
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Frazione Petit Antey, 9, Località Petit Antey, 9, 11020 Antey-Saint-André AO
+Coordinate: Lat 45.802552, Lng 7.592687
+Website: http://www.hoteltissiere.it/
+Email: 
+
+3657. B&B Miravalle
+ID: 5ee6bc19-80ca-42b4-babc-4006d457257d
+Slug: b-b-miravalle-antey-saint-andr
+Nome: B&B Miravalle
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Località Lillaz, 1a, 11020 Antey-Saint-André AO
+Coordinate: Lat 45.815221, Lng 7.589108
+Website: http://www.miravallecervino.it/
+Email: 
+
+3658. DalaiLama Village
+ID: dbe8c270-e0c2-45b9-a41f-d88287e58447
+Slug: dalailama-village-antey-saint-andr
+Nome: DalaiLama Village
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Località Promiod, 1B, 11024 Châtillon AO
+Coordinate: Lat 45.786387, Lng 7.603595
+Website: http://www.dalailamavillage.it/
+Email: 
+
+3659. Hotel des Roses
+ID: 84cff40e-0f66-43aa-a057-a74dbb5ce4b5
+Slug: hotel-des-roses-antey-saint-andr
+Nome: Hotel des Roses
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Localita' Poutaz, 5, 11020 Antey-Saint-André AO
+Coordinate: Lat 45.818873, Lng 7.588835
+Website: https://www.hoteldesroses.com/
+Email: 
+
+3660. Hotel du Soleil
+ID: 2208d75f-988b-429c-8b17-2fdcfcfc7418
+Slug: hotel-du-soleil-antey-saint-andr
+Nome: Hotel du Soleil
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Piazza Frutaz, 30, 11020 Mongnod AO
+Coordinate: Lat 45.803397, Lng 7.568321
+Website: https://www.hotel-du-soleil.it/
+Email: 
+
+3661. Hotel Filey
+ID: b9afbd1e-bbdb-440f-a04f-575557802320
+Slug: hotel-filey-antey-saint-andr
+Nome: Hotel Filey
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Località Filey, 4, 11020 Antey-Saint-André AO
+Coordinate: Lat 45.808703, Lng 7.587601
+Website: http://www.hotelfiley.com/
+Email: 
+
+3662. Jour et Nuit Gorret Katia
+ID: a5d68335-e7f2-4b4e-a604-14bddad64cea
+Slug: jour-et-nuit-gorret-katia-antey-saint-andr
+Nome: Jour et Nuit Gorret Katia
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Frazione Verney, 2, 11020 Torgnon AO
+Coordinate: Lat 45.798659, Lng 7.570282
+Website: http://www.jouretnuit.it/
+Email: 
+
+3663. La Gran Becca Residence
+ID: fdd0f2b6-2a4a-4a76-94ce-301e76c4f0c7
+Slug: la-gran-becca-residence-antey-saint-andr
+Nome: La Gran Becca Residence
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Loc, Località Champagne, 20, 11020 Antey-Saint-André AO
+Coordinate: Lat 45.810537, Lng 7.589256
+Website: http://lagranbeccacervinia.it/search
+Email: 
+
+3664. Lo Barba
+ID: 0c90f43c-6ccb-4622-aad9-85d6463fecbd
+Slug: lo-barba-antey-saint-andr
+Nome: Lo Barba
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Località Lillaz, 8, 11020 Antey-Saint-André AO
+Coordinate: Lat 45.818945, Lng 7.591541
+Website: http://www.lobarba.it/
+Email: 
+
+3665. Maison du Tatà
+ID: b7bab521-6e3d-46ba-91c5-bba94dc75d62
+Slug: maison-du-tata-antey-saint-andr
+Nome: Maison du Tatà
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Località Ruvère, 22, 11020 Antey-Saint-André AO
+Coordinate: Lat 45.802945, Lng 7.589166
+Website: https://maisondutata.it/
+Email: 
+
+3666. Pensione Monte Cervino
+ID: 273cbb5c-187d-461e-b286-79fda739efab
+Slug: pensione-monte-cervino-antey-saint-andr
+Nome: Pensione Monte Cervino
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Località Ruvère, 3, 11020 Antey-Saint-André AO
+Coordinate: Lat 45.803071, Lng 7.588742
+Website: https://www.pensionemontecervino.it/
+Email: 
+
+3667. Relais du Foyer
+ID: 563d5e1d-b7ef-47e1-a44e-3f44725585aa
+Slug: relais-du-foyer-antey-saint-andr
+Nome: Relais du Foyer
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Località Panorama, 37, 11024 Châtillon AO
+Coordinate: Lat 45.753072, Lng 7.637446
+Website: http://www.relaisdufoyer.it/
+Email: 
+
+3668. Residence Beau Séjour
+ID: 275d2284-1b60-43cf-9a69-95b1938527fc
+Slug: residence-beau-sejour-antey-saint-andr
+Nome: Residence Beau Séjour
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Località Champagne, 25, 11020 Antey-Saint-André AO
+Coordinate: Lat 45.806368, Lng 7.58854
+Website: http://www.bsej.com/
+Email: 
+
+3669. Residence Bellevue
+ID: fab6f6d7-4899-48bb-ab6e-6f23ab866fde
+Slug: residence-bellevue-antey-saint-andr
+Nome: Residence Bellevue
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Località Fiernaz, 27, 11020 Fiernaz AO
+Coordinate: Lat 45.823696, Lng 7.591547
+Website: http://www.residencebellevue.net/
+Email: 
+
+3670. Residence Covalou
+ID: f9ccdabd-3065-4602-afa7-d044b198bb14
+Slug: residence-covalou-antey-saint-andr
+Nome: Residence Covalou
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Località Covalou, SR 46 della Valtournenche, 11020 Antey-Saint-Andrè AO
+Coordinate: Lat 45.775657, Lng 7.592875
+Website: http://www.residencecovalou.com/
+Email: 
+
+3671. Villaggio Turistico Camping Cervino
+ID: 4ae061b0-28e7-4bfb-9abc-c96994b57aaa
+Slug: villaggio-turistico-camping-cervino-antey-saint-andr
+Nome: Villaggio Turistico Camping Cervino
+Comune / Provincia: Antey-Saint-Andr�
+Indirizzo: Località Nuarsaz, 26, 11020 Antey-Saint-André AO
+Coordinate: Lat 45.834228, Lng 7.603138
+Website: http://www.campingcervino.com/
+Email: 
+
+3672. AgriQuartuccio b&b/Piscina salata
+ID: 4dc3e896-8697-4629-ba76-7212f77b0489
+Slug: agriquartuccio-b-b-piscina-salata-anticoli-corrado
+Nome: AgriQuartuccio b&b/Piscina salata
+Comune / Provincia: Anticoli Corrado
+Indirizzo: Strada Provinciale del Cavaliere, 67063 Oricola AQ
+Coordinate: Lat 42.069375, Lng 13.061518
+Website: https://www.agriquartuccio.it/
+Email: 
+
+3673. Agriresort La Cerra
+ID: 40ee9d0d-4f4f-4b10-9fd7-0b40216294d8
+Slug: agriresort-la-cerra-anticoli-corrado
+Nome: Agriresort La Cerra
+Comune / Provincia: Anticoli Corrado
+Indirizzo: Strada Di San Gregorio Da Sassola, km 6, 800, 00019 Tivoli RM
+Coordinate: Lat 41.930455, Lng 12.828264
+Website: https://www.agriresortlacerra.it/
+Email: 
+
+3674. Agriturismo Al Giovenzano
+ID: 2034dd47-a253-4183-9c16-dc6ceb2536f5
+Slug: agriturismo-al-giovenzano-anticoli-corrado
+Nome: Agriturismo Al Giovenzano
+Comune / Provincia: Anticoli Corrado
+Indirizzo: Strada Provinciale Sambuci Cerreto, 00020 Ciciliano RM
+Coordinate: Lat 41.976988, Lng 12.939336
+Website: https://www.agriturismoalgiovenzano.it/
+Email: 
+
+3675. Al Cavaliere Ristorante Albergo
+ID: 49858ede-fffa-44a0-a3d9-8ecd47287991
+Slug: al-cavaliere-ristorante-albergo-anticoli-corrado
+Nome: Al Cavaliere Ristorante Albergo
+Comune / Provincia: Anticoli Corrado
+Indirizzo: Via Tiburtina Valeria km 67,200, 67063 Oricola AQ
+Coordinate: Lat 42.071732, Lng 13.051112
+Website: —
+Email: 

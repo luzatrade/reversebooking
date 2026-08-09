@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+8961. Agriturismo Nonna Stella
+ID: 7b77f199-dba2-4fc1-9034-76126808ff99
+Slug: agriturismo-nonna-stella-bibbona
+Nome: Agriturismo Nonna Stella
+Comune / Provincia: Bibbona
+Indirizzo: Via Campigliese, 8, 57020 Bibbona LI
+Coordinate: Lat 43.249371, Lng 10.571788
+Website: http://www.nonnastella.it/
+Email: 
+
+8962. Beata Relais
+ID: c9166f22-7763-41f4-8656-1bdf1d06c3ae
+Slug: beata-relais-bibbona
+Nome: Beata Relais
+Comune / Provincia: Bibbona
+Indirizzo: Via Roma, 37, 56040 Guardistallo PI
+Coordinate: Lat 43.312427, Lng 10.631323
+Website: https://www.beatabb.it/
+Email: 
+
+8963. Hotel Borgo al Mare
+ID: 0ee3578d-f40c-45fb-8d84-f9af2b54dadb
+Slug: hotel-borgo-al-mare-bibbona
+Nome: Hotel Borgo al Mare
+Comune / Provincia: Bibbona
+Indirizzo: Via del Forte, 1, 57020 Marina di Bibbona LI
+Coordinate: Lat 43.239086, Lng 10.53142
+Website: https://www.borgoalmare.it/
+Email: 
+
+8964. Hotel Flora
+ID: c7dd56cd-cf2b-49ca-9432-728d341f3a18
+Slug: hotel-flora-bibbona
+Nome: Hotel Flora
+Comune / Provincia: Bibbona
+Indirizzo: Via del Mare, 26, 57020 Marina di Bibbona LI
+Coordinate: Lat 43.246395, Lng 10.527706
+Website: http://www.florahotel.eu/
+Email: 
+
+8965. Hotel Nina
+ID: 0565d0da-a8da-43e2-91fc-2778dd3ecb8b
+Slug: hotel-nina-bibbona
+Nome: Hotel Nina
+Comune / Provincia: Bibbona
+Indirizzo: Via del Forte, 7, 57020 Marina di Bibbona LI
+Coordinate: Lat 43.238098, Lng 10.528862
+Website: https://www.hotelnina.it/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+8966. Hotel Paradiso verde
+ID: 4730e82a-e696-4981-a000-66167d27541f
+Slug: hotel-paradiso-verde-bibbona
+Nome: Hotel Paradiso verde
+Comune / Provincia: Bibbona
+Indirizzo: Piazza del Forte, 1, 57020 Marina di Bibbona LI
+Coordinate: Lat 43.237969, Lng 10.528611
+Website: https://www.hotelparadisoverde.it/
+Email: 
+
+8967. Hotel Riva dei Cavalleggeri
+ID: 957f7f3f-8ac0-4d5a-8d50-abc92290c07f
+Slug: hotel-riva-dei-cavalleggeri-bibbona
+Nome: Hotel Riva dei Cavalleggeri
+Comune / Provincia: Bibbona
+Indirizzo: Via dei Cavalleggeri Nord, 7, 57020 Marina di Bibbona LI
+Coordinate: Lat 43.246899, Lng 10.529294
+Website: http://www.cavalleggeri.it/
+Email: 
+
+8968. Hotel Riva Etrusca
+ID: e17e4462-c5af-4c58-b03d-da0452a1544e
+Slug: hotel-riva-etrusca-bibbona
+Nome: Hotel Riva Etrusca
+Comune / Provincia: Bibbona
+Indirizzo: Via dei Melograni, 13, 57020 Marina di Bibbona LI
+Coordinate: Lat 43.24612, Lng 10.53717
+Website: https://www.rivaetrusca.it/
+Email: 
+
+8969. Hotiday Marina di Bibbona
+ID: 9d12715a-ef65-4f26-b0e2-c13f6a571c6e
+Slug: hotiday-marina-di-bibbona-bibbona
+Nome: Hotiday Marina di Bibbona
+Comune / Provincia: Bibbona
+Indirizzo: Via dei Cavalleggeri Nord, 3, 57020 Marina di Bibbona LI
+Coordinate: Lat 43.245879, Lng 10.528027
+Website: https://hotiday.com/hotels/hotiday-marina-di-bibbona
+Email: 
+
+8970. I Gigli di Mare
+ID: 8379b8d2-5a79-426b-a33e-cbd9510655ce
+Slug: i-gigli-di-mare-bibbona
+Nome: I Gigli di Mare
+Comune / Provincia: Bibbona
+Indirizzo: Via del Forte, 8, 57020 Marina di Bibbona LI
+Coordinate: Lat 43.238326, Lng 10.528753
+Website: http://www.igiglidimare.it/
+Email: 
+
+8971. La Casa nel Borgo
+ID: dfa725c4-6190-4826-8232-b3918d77c4a4
+Slug: la-casa-nel-borgo-bibbona
+Nome: La Casa nel Borgo
+Comune / Provincia: Bibbona
+Indirizzo: Via Piave, 24, 57020 Bibbona LI
+Coordinate: Lat 43.269828, Lng 10.598617
+Website: http://www.casanelborgo.com/
+Email: 
+
+8972. La locanda di villa toscana
+ID: cbee0790-1269-44a0-8426-29754a444101
+Slug: la-locanda-di-villa-toscana-bibbona
+Nome: La locanda di villa toscana
+Comune / Provincia: Bibbona
+Indirizzo: Via Vittorio Emanuele, 41, 57020 Bibbona LI
+Coordinate: Lat 43.269333, Lng 10.59653
+Website: http://www.lalocandadivillatoscana.it/
+Email: 
+
+8973. Locanda Etrusca
+ID: c695f79b-510b-449c-8f1f-25b8bae9f1b8
+Slug: locanda-etrusca-bibbona
+Nome: Locanda Etrusca
+Comune / Provincia: Bibbona
+Indirizzo: Piazza della Vittoria, 57020 Bibbona LI
+Coordinate: Lat 43.270492, Lng 10.598309
+Website: http://www.locandaetrusca.it/
+Email: 
+
+8974. Park Hotel Marinetta - Beach & Spa
+ID: 73cbdc43-97fd-4397-a22e-c00b85d5c770
+Slug: park-hotel-marinetta-beach-spa-bibbona
+Nome: Park Hotel Marinetta - Beach & Spa
+Comune / Provincia: Bibbona
+Indirizzo: Via dei Cavalleggeri Nord, 3, 57020 Marina di Bibbona LI
+Coordinate: Lat 43.245724, Lng 10.527819
+Website: https://hotelmarinetta.it/?utm_source=google&utm_medium=referral&utm_campaign=PulsanteGMB
+Email: 
+
+8975. Poggio Picchio
+ID: b2be366b-2c11-4d6d-beb3-3b41773b6f61
+Slug: poggio-picchio-bibbona
+Nome: Poggio Picchio
+Comune / Provincia: Bibbona
+Indirizzo: frazione Bibbona, 30, 57020 Bibbona LI
+Coordinate: Lat 43.26435, Lng 10.591627
+Website: http://www.poggiopicchio.it/
+Email: 
+
+8976. Punti Di Vista B&B Food & Wine Experience
+ID: 68e70d21-c2a5-4240-8c8c-f9ab75b82480
+Slug: punti-di-vista-b-b-food-wine-experience-bibbona
+Nome: Punti Di Vista B&B Food & Wine Experience
+Comune / Provincia: Bibbona
+Indirizzo: Piazza della Vittoria, 10, 57020 Bibbona LI
+Coordinate: Lat 43.270382, Lng 10.598667
+Website: —
+Email: 
+
+8977. Relais Sant'Elena | Relais di Charme, Vacanze Bibbona Toscana
+ID: b437c6fa-5787-4c8c-be89-2c34cd8454a1
+Slug: relais-sant-elena-relais-di-charme-vacanze-bibbo-bibbona
+Nome: Relais Sant'Elena | Relais di Charme, Vacanze Bibbona Toscana
+Comune / Provincia: Bibbona
+Indirizzo: Via Vicinale di Campo di Sasso, 57020 Bibbona LI
+Coordinate: Lat 43.266646, Lng 10.613176
+Website: https://www.relaissantelena.it/
+Email: 
+
+8978. Residence Ristorante Il Paradiso
+ID: 0362ec3f-9861-42d8-af55-2a59101f7a39
+Slug: residence-ristorante-il-paradiso-bibbona
+Nome: Residence Ristorante Il Paradiso
+Comune / Provincia: Bibbona
+Indirizzo: Strada Provinciale del Poggetto, 55, 56040 Guardistallo PI
+Coordinate: Lat 43.313337, Lng 10.584978
+Website: http://www.residenceilparadiso.it/
+Email: 
+
+8979. Residenza d'Epoca CAVALIERE Romantic Rooms near BOLGHERI
+ID: 3473949e-29ac-4204-b392-2b7c2fd74b06
+Slug: residenza-d-epoca-cavaliere-romantic-rooms-near-bibbona
+Nome: Residenza d'Epoca CAVALIERE Romantic Rooms near BOLGHERI
+Comune / Provincia: Bibbona
+Indirizzo: Via Vittorio Emanuele, 60, 57020 Bibbona LI
+Coordinate: Lat 43.269507, Lng 10.596356
+Website: https://www.cavaliere-bibbona.com/
+Email: 
+
+8980. Agriturismo Cascina San Nazario Remband - Bibiana
+ID: 873ce0eb-2df2-4249-8816-599e93c8f291
+Slug: agriturismo-cascina-san-nazario-remband-bibiana-bibiana
+Nome: Agriturismo Cascina San Nazario Remband - Bibiana
+Comune / Provincia: Bibiana
+Indirizzo: Via della Libertà, 17, 10060 Bibiana TO
+Coordinate: Lat 44.80348, Lng 7.291941
+Website: http://www.agriturismocascinasannazario.com/
+Email: 
+
+8981. Albergo Ristorante Sud America
+ID: 369a7795-23ef-44b2-acde-3dca461aa145
+Slug: albergo-ristorante-sud-america-bibiana
+Nome: Albergo Ristorante Sud America
+Comune / Provincia: Bibiana
+Indirizzo: Piazza Statuto, 14, 12034 Paesana CN
+Coordinate: Lat 44.684911, Lng 7.275759
+Website: http://www.albergosudamerica.com/
+Email: 
+
+8982. B&B Mombracco
+ID: ae026e26-8e64-48c5-a393-47f62267a8dc
+Slug: b-b-mombracco-bibiana
+Nome: B&B Mombracco
+Comune / Provincia: Bibiana
+Indirizzo: Via dei Peano, 16, 12030 Envie CN
+Coordinate: Lat 44.68248, Lng 7.36935
+Website: https://staytrip.eu/bnb-mombracco-envie/
+Email: 
+
+8983. Hotel la Colletta
+ID: 94716dbb-0a78-4b73-9048-9d7e066f8bed
+Slug: hotel-la-colletta-bibiana
+Nome: Hotel la Colletta
+Comune / Provincia: Bibiana
+Indirizzo: Borgata Colletta, 29, 12034 Paesana CN
+Coordinate: Lat 44.695687, Lng 7.297383
+Website: http://www.lacolletta.com/
+Email: 
+
+8984. Hotel Palavas
+ID: 871b7210-a470-41d0-8025-20ebfb6c440b
+Slug: hotel-palavas-bibiana
+Nome: Hotel Palavas
+Comune / Provincia: Bibiana
+Indirizzo: Borgata Garnier, 1, 10060 Villar Pellice TO
+Coordinate: Lat 44.808481, Lng 7.134959
+Website: https://albergo-ristorante-palavas.albergo.top/
+Email: 
+
+8985. Affittacamere Da Nonna Elisa
+ID: 4baa1ccd-c882-412b-b0ec-e4c51235ea61
+Slug: affittacamere-da-nonna-elisa-biccari
+Nome: Affittacamere Da Nonna Elisa
+Comune / Provincia: Biccari
+Indirizzo: Via Piazza Vecchia, 65, 71039 Roseto Valfortore FG
+Coordinate: Lat 41.371253, Lng 15.096096
+Website: http://danonnaelisa.it/
+Email: 
+
+8986. Agriturismo Pirro
+ID: 5f75c6da-04f0-49e1-9b08-c4f6be70189b
+Slug: agriturismo-pirro-biccari
+Nome: Agriturismo Pirro
+Comune / Provincia: Biccari
+Indirizzo: C.da Cuparoni - SS 160, Lucera-Troia (incrocio per Faeto), 71029 Troia FG
+Coordinate: Lat 41.396679, Lng 15.334907
+Website: https://www.facebook.com/profile.php?id=100063633577266
+Email: 
+
+8987. Albergo Miravalle
+ID: bc930788-5b82-476e-ba07-edbaf71279a3
+Slug: albergo-miravalle-biccari
+Nome: Albergo Miravalle
+Comune / Provincia: Biccari
+Indirizzo: Contrada Ciampoli, 1, 71039 Roseto Valfortore FG
+Coordinate: Lat 41.369871, Lng 15.09342
+Website: —
+Email: 
+
+8988. B&B Agorà
+ID: 7960f13f-ffd9-4b4f-9965-ff6e570fc699
+Slug: b-b-agora-biccari
+Nome: B&B Agorà
+Comune / Provincia: Biccari
+Indirizzo: Via Madonna delle Grazie, Piazza Giacomo Matteotti, 106, 71032 Biccari FG
+Coordinate: Lat 41.396191, Lng 15.19268
+Website: https://smarthotelstay.com/b-b-agora-biccari/
+Email: 
+
+8989. B&B Al Belvedere
+ID: eff1acaf-b767-4c03-a0df-8da1a01a862e
+Slug: b-b-al-belvedere-biccari
+Nome: B&B Al Belvedere
+Comune / Provincia: Biccari
+Indirizzo: Via Giuseppe Verdi, 54, 71030 Volturino FG
+Coordinate: Lat 41.475958, Lng 15.125539
+Website: https://www.bbalbelvedere.it/
+Email: 
+
+8990. B&B Casa Cavalli
+ID: 3729d0c8-e353-43d9-8154-3af25fc1cbf5
+Slug: b-b-casa-cavalli-biccari
+Nome: B&B Casa Cavalli
+Comune / Provincia: Biccari
+Indirizzo: Piazza del Duomo, 5, 71036 Lucera FG
+Coordinate: Lat 41.50838, Lng 15.334187
+Website: http://www.palazzocavalli.it/
+Email: 
+
+8991. BED & BREAKFAST PALAZZO DEL CONTESTABILE - TROIA - FOGGIA - PUGLIA
+ID: 539afb2d-ac6b-445e-9126-4f55a6a15cba
+Slug: bed-breakfast-palazzo-del-contestabile-troia-fog-biccari
+Nome: BED & BREAKFAST PALAZZO DEL CONTESTABILE - TROIA - FOGGIA - PUGLIA
+Comune / Provincia: Biccari
+Indirizzo: Corso Umberto I, 137, 71029 Troia FG
+Coordinate: Lat 41.360073, Lng 15.307907
+Website: —
+Email: 
+
+8992. Borgo Vinceri
+ID: 272f1ede-71f1-41d2-9334-e1b4243746db
+Slug: borgo-vinceri-biccari
+Nome: Borgo Vinceri
+Comune / Provincia: Biccari
+Indirizzo: Sentiero della Fortezza Svevo-Angioina, 71036 Lucera FG
+Coordinate: Lat 41.510011, Lng 15.324534
+Website: https://www.borgovinceri.it/
+Email: 
+
+8993. Bubble Room sul Tetto della Puglia
+ID: 63b40d8d-7786-405a-866a-7c8699be3645
+Slug: bubble-room-sul-tetto-della-puglia-biccari
+Nome: Bubble Room sul Tetto della Puglia
+Comune / Provincia: Biccari
+Indirizzo: Lago Pescara, 71032 Biccari FG
+Coordinate: Lat 41.371967, Lng 15.170123
+Website: https://www.booking.com/hotel/it/bubble-room-sul-tetto-della-puglia.it.html
+Email: 
+
+8994. Relais in Contrada
+ID: 8df42610-5aeb-43cf-8850-22c89365113b
+Slug: relais-in-contrada-biccari
+Nome: Relais in Contrada
+Comune / Provincia: Biccari
+Indirizzo: Str. Vicinale Perazzo, 5, 71036 Lucera FG
+Coordinate: Lat 41.496938, Lng 15.362267
+Website: http://www.relaisincontrada.it/
+Email: 
+
+8995. Suite del Lago_LuxuryRoom
+ID: 91bf42d2-a25f-43f4-afa6-2087225dfa52
+Slug: suite-del-lago-luxuryroom-biccari
+Nome: Suite del Lago_LuxuryRoom
+Comune / Provincia: Biccari
+Indirizzo: Via Salita Annunziata, 38, 71032 Biccari FG
+Coordinate: Lat 41.398552, Lng 15.196218
+Website: —
+Email: 

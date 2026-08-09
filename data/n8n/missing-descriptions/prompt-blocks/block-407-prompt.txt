@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+14211. Agriturismo Borgo Ornina
+ID: 236d5de3-142a-47cb-8bb5-c384fd1f0c24
+Slug: agriturismo-borgo-ornina-capolona
+Nome: Agriturismo Borgo Ornina
+Comune / Provincia: Capolona
+Indirizzo: Strada per Ornina, 121, 52016 Castel Focognano AR
+Coordinate: Lat 43.63102, Lng 11.805843
+Website: http://www.ornina.it/
+Email: 
+
+14212. Agriturismo Cuprena
+ID: da07878b-59b0-41be-98f7-8811163de396
+Slug: agriturismo-cuprena-capolona
+Nome: Agriturismo Cuprena
+Comune / Provincia: Capolona
+Indirizzo: Località Marcena, 59, 52100 Arezzo AR
+Coordinate: Lat 43.540075, Lng 11.856752
+Website: http://cuprena.it/
+Email: 
+
+14213. Agriturismo Molinvecchio sul Capraia
+ID: 8bbf523c-95d8-44f0-93e2-c6009c29c013
+Slug: agriturismo-molinvecchio-sul-capraia-capolona
+Nome: Agriturismo Molinvecchio sul Capraia
+Comune / Provincia: Capolona
+Indirizzo: Località L'Abate, 52010 Talla AR
+Coordinate: Lat 43.601199, Lng 11.78759
+Website: https://molin-vecchio.com/
+Email: 
+
+14214. Agriturismo Rossodisera
+ID: 27ee724f-9488-4778-b32a-7091b3747c32
+Slug: agriturismo-rossodisera-capolona
+Nome: Agriturismo Rossodisera
+Comune / Provincia: Capolona
+Indirizzo: Località Libbia, 9, 52100 Arezzo AR
+Coordinate: Lat 43.504315, Lng 11.900805
+Website: http://rossodiseragriturismo.com/
+Email: 
+
+14215. B&B Lavanda e Rosmarino
+ID: 79f59d13-07b6-4af9-9774-549f756ad3ae
+Slug: b-b-lavanda-e-rosmarino-capolona
+Nome: B&B Lavanda e Rosmarino
+Comune / Provincia: Capolona
+Indirizzo: Località il Cipresso, 187, 52010 Cenina AR
+Coordinate: Lat 43.581043, Lng 11.847535
+Website: https://www.bblavandaerosmarino.it/
+Email: 
+
+14216. Bio Agriturismo Il Vigno
+ID: 542a9ddd-c840-4d94-ab39-6161678b37f3
+Slug: bio-agriturismo-il-vigno-capolona
+Nome: Bio Agriturismo Il Vigno
+Comune / Provincia: Capolona
+Indirizzo: Localita' Il Vigno 262, 52033 Caprese Michelangelo AR
+Coordinate: Lat 43.642943, Lng 11.9559
+Website: https://www.ilvigno.com/
+Email: 
+
+14217. Casina della Burraia
+ID: 02156309-7a7d-41d0-b7da-976e5b5f761e
+Slug: casina-della-burraia-capolona
+Nome: Casina della Burraia
+Comune / Provincia: Capolona
+Indirizzo: loc La casina 46, 52010 Subbiano AR
+Coordinate: Lat 43.620089, Lng 11.908405
+Website: http://www.casinadellaburraia.it/
+Email: 
+
+14218. Fattoria de Toscani
+ID: eab81e86-1463-438e-8e47-57bd5fa55c8f
+Slug: fattoria-de-toscani-capolona
+Nome: Fattoria de Toscani
+Comune / Provincia: Capolona
+Indirizzo: Località Ornina Bassa 109-A, 52016 Castel Focognano AR
+Coordinate: Lat 43.628407, Lng 11.809427
+Website: http://www.fattoriadetoscani.it/
+Email: 
+
+14219. Hotel le Capanne
+ID: 01f95ef7-2ddf-4cf0-87b0-23a1f4194b2b
+Slug: hotel-le-capanne-capolona
+Nome: Hotel le Capanne
+Comune / Provincia: Capolona
+Indirizzo: Località Il Matto, 44/45, 52040 Arezzo AR
+Coordinate: Lat 43.411724, Lng 11.820668
+Website: http://www.hotellecapanne.net/
+Email: 
+
+14220. Il Casotto
+ID: 51160205-0f6a-489e-a921-aa7f2ac6f56d
+Slug: il-casotto-capolona
+Nome: Il Casotto
+Comune / Provincia: Capolona
+Indirizzo: Localita, Via di Vallebona, 83, 52010 Chiusi della Verna AR
+Coordinate: Lat 43.646468, Lng 11.858472
+Website: http://www.agriturismoilcasotto.com/
+Email: 
+
+14221. Il Paradiso
+ID: 81c7bdcd-4635-47a6-ba6b-055b25b4c2d9
+Slug: il-paradiso-capolona
+Nome: Il Paradiso
+Comune / Provincia: Capolona
+Indirizzo: Località il Paradiso, 306, 52010 Capolona AR
+Coordinate: Lat 43.559757, Lng 11.846262
+Website: —
+Email: 
+
+14222. Palazzo Deca MANCINI
+ID: acddac08-31a1-488c-bc66-1b363d344362
+Slug: palazzo-deca-mancini-capolona
+Nome: Palazzo Deca MANCINI
+Comune / Provincia: Capolona
+Indirizzo: Località Ponte Caliano, 118, 52010 Subbiano AR
+Coordinate: Lat 43.562017, Lng 11.860861
+Website: —
+Email: 
+
+14223. Santantimo Tuscany Inn
+ID: ea651edb-ecfc-4463-b022-bf66ada762b7
+Slug: santantimo-tuscany-inn-capolona
+Nome: Santantimo Tuscany Inn
+Comune / Provincia: Capolona
+Indirizzo: Località Chiassa Vico, 90, 52100 Arezzo AR
+Coordinate: Lat 43.530863, Lng 11.888266
+Website: —
+Email: 
+
+14224. Torre Santa Flora
+ID: c71a6b15-e8d9-49a8-a71c-e7b0cc186202
+Slug: torre-santa-flora-capolona
+Nome: Torre Santa Flora
+Comune / Provincia: Capolona
+Indirizzo: Frazione Pontecaliano, 169, 52010 Arezzo AR
+Coordinate: Lat 43.565304, Lng 11.865353
+Website: http://www.torresantaflora.it/
+Email: 
+
+14225. Villa Casafredda Agriturismo
+ID: dc16be2a-d239-463c-9968-81da7959c0cf
+Slug: villa-casafredda-agriturismo-capolona
+Nome: Villa Casafredda Agriturismo
+Comune / Provincia: Capolona
+Indirizzo: Loc Ceciliano 82, 52100 Arezzo AR
+Coordinate: Lat 43.496752, Lng 11.864292
+Website: https://villa-casafredda.com/
+Email: 
+
+14226. Villa La Ginestra - Casa vacanze / Bed & breakfast
+ID: 24e98a41-9931-4fb7-9059-a260f6f3b4a0
+Slug: villa-la-ginestra-casa-vacanze-bed-breakfast-capolona
+Nome: Villa La Ginestra - Casa vacanze / Bed & breakfast
+Comune / Provincia: Capolona
+Indirizzo: Località Castelnuovo, 74, 52010 Subbiano AR
+Coordinate: Lat 43.560176, Lng 11.856375
+Website: http://www.villalaginestratuscany.com/
+Email: 
+
+14227. Villa la Nussa b&b
+ID: 8dcd8335-cbaa-47ec-a33e-4aee362ff83c
+Slug: villa-la-nussa-b-b-capolona
+Nome: Villa la Nussa b&b
+Comune / Provincia: Capolona
+Indirizzo: Via Veneto, 145, 52010 Capolona AR
+Coordinate: Lat 43.562038, Lng 11.850421
+Website: http://www.lanussa.it/
+Email: 
+
+14228. Villaspino
+ID: bcc9df7e-11ea-49ed-a1c7-684695398c94
+Slug: villaspino-capolona
+Nome: Villaspino
+Comune / Provincia: Capolona
+Indirizzo: Pieve di Cenina, 163, 52010 Capolona AR
+Coordinate: Lat 43.569139, Lng 11.850286
+Website: —
+Email: 
+
+14229. Affittacamere DolceLago
+ID: a390d3cd-d385-4220-a0ae-ec84681ca851
+Slug: affittacamere-dolcelago-caponago
+Nome: Affittacamere DolceLago
+Comune / Provincia: Caponago
+Indirizzo: Via Corsica, 29, 23843 Dolzago LC
+Coordinate: Lat 45.766527, Lng 9.340342
+Website: https://affittacameredolcelago.it/
+Email: 
+
+14230. B&B IL GUFO 42
+ID: 79327599-0e7c-4556-8717-23787041c887
+Slug: b-b-il-gufo-42-caponago
+Nome: B&B IL GUFO 42
+Comune / Provincia: Caponago
+Indirizzo: Via Giacomo Leopardi, 42, 20055 Vimodrone MI
+Coordinate: Lat 45.520826, Lng 9.288166
+Website: —
+Email: 
+
+14231. Bigatt B&B
+ID: 5e03d416-14cc-4dd1-9e24-ac0121ae0f26
+Slug: bigatt-b-b-caponago
+Nome: Bigatt B&B
+Comune / Provincia: Caponago
+Indirizzo: Via S. G. Bosco, 7, 20043 Vanzago MI
+Coordinate: Lat 45.52851, Lng 8.994258
+Website: http://bigatt.com/
+Email: 
+
+14232. Camera 40
+ID: 394f4530-258b-45e6-9985-6796fa308be2
+Slug: camera-40-caponago
+Nome: Camera 40
+Comune / Provincia: Caponago
+Indirizzo: Via Italia, 40, 20064 Gorgonzola MI
+Coordinate: Lat 45.530946, Lng 9.405652
+Website: http://www.camera40.it/
+Email: 
+
+14233. Devero Hotel
+ID: 8b8b15dd-1d79-446f-8460-31e6a6c5aed7
+Slug: devero-hotel-caponago
+Nome: Devero Hotel
+Comune / Provincia: Caponago
+Indirizzo: Largo J. F. Kennedy, 1, 20873 Cavenago di Brianza MB
+Coordinate: Lat 45.580237, Lng 9.416624
+Website: http://www.deverohotel.it/
+Email: 
+
+14234. Grow Green
+ID: 070f201a-fc2e-4f96-8320-ec5212b646c2
+Slug: grow-green-caponago
+Nome: Grow Green
+Comune / Provincia: Caponago
+Indirizzo: Cascina Turro, 20867 Caponago MB
+Coordinate: Lat 45.571141, Lng 9.38429
+Website: https://www.grow.green/
+Email: 
+
+14235. Il giardino di Fiorina
+ID: 9c1de60d-5906-427d-8e7d-8270fa6c8562
+Slug: il-giardino-di-fiorina-caponago
+Nome: Il giardino di Fiorina
+Comune / Provincia: Caponago
+Indirizzo: Via Bollate, 53, 20226 Novate Milanese MI
+Coordinate: Lat 45.536443, Lng 9.132283
+Website: http://ilgiardinodifiorina.com.es/
+Email: 
+
+14236. Il Topazio B&B
+ID: 6004e7b7-eb05-4b9d-90a5-62b8bc9d0efe
+Slug: il-topazio-b-b-caponago
+Nome: Il Topazio B&B
+Comune / Provincia: Caponago
+Indirizzo: Via Aldo Moro, 111, 20066 Melzo MI
+Coordinate: Lat 45.509358, Lng 9.430167
+Website: https://www.iltopaziomelzo.com/
+Email: 
+
+14237. Rona Motel
+ID: 157d40ad-cf87-4dcc-9f80-6872ea766268
+Slug: rona-motel-caponago
+Nome: Rona Motel
+Comune / Provincia: Caponago
+Indirizzo: Viale Monza, 15, 20867 Caponago MB
+Coordinate: Lat 45.56669, Lng 9.365365
+Website: https://www.hotelronamilan.com/
+Email: 
+
+14238. Antica Dimora del Tratturo Magno
+ID: 3a1621a2-e213-476e-b73c-2b1ef026047d
+Slug: antica-dimora-del-tratturo-magno-caporciano
+Nome: Antica Dimora del Tratturo Magno
+Comune / Provincia: Caporciano
+Indirizzo: Via della Fonte, 1, 67020 Tussio AQ
+Coordinate: Lat 42.265376, Lng 13.641537
+Website: https://www.anticadimoradeltratturomagno.it/
+Email: 
+
+14239. Dimora al colle
+ID: e7c35fdc-2321-4524-8331-d6e5011bf251
+Slug: dimora-al-colle-caporciano
+Nome: Dimora al colle
+Comune / Provincia: Caporciano
+Indirizzo: Via degli Orti, 2, 67020 Caporciano AQ
+Coordinate: Lat 42.24931, Lng 13.673773
+Website: —
+Email: 
+
+14240. Palazzo D'Alessandro Wunderkammer & Suites
+ID: 327b58bd-00d9-4158-83a9-2a4596352d21
+Slug: palazzo-d-alessandro-wunderkammer-suites-caporciano
+Nome: Palazzo D'Alessandro Wunderkammer & Suites
+Comune / Provincia: Caporciano
+Indirizzo: Via Vicinato Grande, 13, 67020 Caporciano AQ
+Coordinate: Lat 42.249528, Lng 13.674564
+Website: https://www.palazzodalessandro.it/
+Email: 
+
+14241. Regio Tratturo
+ID: 1bbc7385-f837-4368-afc9-1cc1cd9e55fc
+Slug: regio-tratturo-caporciano
+Nome: Regio Tratturo
+Comune / Provincia: Caporciano
+Indirizzo: Via Roma, 35, 67020 Caporciano AQ
+Coordinate: Lat 42.251899, Lng 13.671816
+Website: https://aliastraveltips.com/regio-tratturo-italy
+Email: 
+
+14242. Agriturismo Locanda Nina - Irpinia
+ID: 50ad132a-73cb-44a8-ba5d-8168b5bad89d
+Slug: agriturismo-locanda-nina-irpinia-caposele
+Nome: Agriturismo Locanda Nina - Irpinia
+Comune / Provincia: Caposele
+Indirizzo: 83040 Ponteromito AV
+Coordinate: Lat 40.897264, Lng 15.034749
+Website: https://www.locandanina.it/
+Email: 
+
+14243. Al Chiaro di Luna B&B
+ID: 9946ad2f-e7d3-45f7-8873-b1afa1ceb053
+Slug: al-chiaro-di-luna-b-b-caposele
+Nome: Al Chiaro di Luna B&B
+Comune / Provincia: Caposele
+Indirizzo: Via Croce, 85, 83052 Paternopoli AV
+Coordinate: Lat 40.975033, Lng 15.0373
+Website: https://completedstay.com/al-chiaro-di-luna-bnb-paternopoli/
+Email: 
+
+14244. B&B Tenuta Bianca
+ID: 017a64b9-e867-4cbd-8dbc-de3c2a3af217
+Slug: b-b-tenuta-bianca-caposele
+Nome: B&B Tenuta Bianca
+Comune / Provincia: Caposele
+Indirizzo: Via dell'Anfiteatro, 29, 84020 Oliveto Citra SA
+Coordinate: Lat 40.68589, Lng 15.231458
+Website: http://bnb-tenutabianca.com.es/
+Email: 
+
+14245. ALBA
+ID: a01587d5-81f9-46d4-b0b5-4a15c7944c2a
+Slug: alba-capoterra
+Nome: ALBA
+Comune / Provincia: Capoterra
+Indirizzo: Via Cagliari, 74, 09012 Capoterra CA
+Coordinate: Lat 39.174519, Lng 8.974586
+Website: —
+Email: 

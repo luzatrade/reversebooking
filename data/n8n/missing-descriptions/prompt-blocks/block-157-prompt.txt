@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+5461. Sogni d'Assisi B&B
+ID: b13a72e1-ebc8-4d9e-88ad-3d06818811c8
+Slug: sogni-d-assisi-b-b-assisi
+Nome: Sogni d'Assisi B&B
+Comune / Provincia: Assisi
+Indirizzo: Via S. Benedetto, 15, 06181 Assisi PG, Italia
+Coordinate: Lat 43.064561, Lng 12.625813
+Website: http://www.sognidassisi.it/
+Email: 
+
+5462. Vico Del Poeta
+ID: 725ae4d3-9112-4707-b802-df11d7197f34
+Slug: vico-del-poeta-assisi
+Nome: Vico Del Poeta
+Comune / Provincia: Assisi
+Indirizzo: Via Giovanni Jorgensen, 6, 06181 Assisi PG, Italia
+Coordinate: Lat 43.071849, Lng 12.616102
+Website: http://vicodelpoeta.com.es/
+Email: 
+
+5463. Villa Clara Assisi
+ID: 19532ff9-4a0f-435f-9f65-c0151b9b44ca
+Slug: villa-clara-assisi-assisi
+Nome: Villa Clara Assisi
+Comune / Provincia: Assisi
+Indirizzo: Via Beviglie, 41, 06181 Tordibetto PG, Italia
+Coordinate: Lat 43.095579, Lng 12.576846
+Website: https://www.villaclara-assisi.it/it
+Email: 
+
+5464. Villa Luce Assisi Rooms & Suites
+ID: 9d54a4c2-0d09-431b-8ab7-3657ff7b341b
+Slug: villa-luce-assisi-rooms-suites-assisi
+Nome: Villa Luce Assisi Rooms & Suites
+Comune / Provincia: Assisi
+Indirizzo: Via Giuseppe Leonelli, 4, 06181 Santa Maria degli Angeli PG, Italia
+Coordinate: Lat 43.059307, Lng 12.57253
+Website: https://www.villaluceassisi.it/
+Email: info@villaluceassisi.it
+
+5465. Agriturismo Crotto Di Somana
+ID: f63e2583-eee3-40a4-b8d7-5f61fdb976c2
+Slug: agriturismo-crotto-di-somana-asso
+Nome: Agriturismo Crotto Di Somana
+Comune / Provincia: Asso
+Indirizzo: Piazza Monsignor Clemente Gaddi, 23826 Mandello del Lario LC
+Coordinate: Lat 45.929987, Lng 9.325674
+Website: https://crottodisomana.it/
+Email: 
+
+5466. Albergo Ristorante Miravalle
+ID: ccc41ba1-13c0-499b-9d55-714b76e34318
+Slug: albergo-ristorante-miravalle-asso
+Nome: Albergo Ristorante Miravalle
+Comune / Provincia: Asso
+Indirizzo: Via Pian del Tivano, 27, 22030 Sormano CO
+Coordinate: Lat 45.877914, Lng 9.246019
+Website: https://www.hotelscheck-in.com/albergoristorantemiravallecomo/it/
+Email: 
+
+5467. Albergo Ristorante Sala - Spa
+ID: bbd2ed40-80d1-4551-be57-2e028bcf6549
+Slug: albergo-ristorante-sala-spa-asso
+Nome: Albergo Ristorante Sala - Spa
+Comune / Provincia: Asso
+Indirizzo: Via Vittorio Veneto, 21, 22039 Valbrona CO
+Coordinate: Lat 45.878195, Lng 9.298907
+Website: http://albergosala.com/
+Email: 
+
+5468. b&b Al Pozzo
+ID: 8754056b-c913-4371-825d-42090d890fef
+Slug: b-b-al-pozzo-asso
+Nome: b&b Al Pozzo
+Comune / Provincia: Asso
+Indirizzo: 23862 Civate LC, Italia
+Coordinate: Lat 45.828434, Lng 9.332458
+Website: http://www.bbalpozzo.net/
+Email: 
+
+5469. B&B Big Family
+ID: 5aa1fe27-be5f-4d2f-9291-e9db3e13a69d
+Slug: b-b-big-family-asso
+Nome: B&B Big Family
+Comune / Provincia: Asso
+Indirizzo: Via Boschetto, 6, 23867 Suello LC
+Coordinate: Lat 45.818495, Lng 9.317859
+Website: —
+Email: 
+
+5470. B&B La Pusianella
+ID: 59cc281b-1c27-48ee-929a-0ed7c9b03835
+Slug: b-b-la-pusianella-asso
+Nome: B&B La Pusianella
+Comune / Provincia: Asso
+Indirizzo: Via Giuseppe Mazzini, 22, 22030 Pusiano CO
+Coordinate: Lat 45.813241, Lng 9.281805
+Website: https://www.lapusianella.it/
+Email: 
+
+5471. Bed&Bike Ghisallo
+ID: 3213b1f7-b0a5-48cb-b5c7-6dde2404883a
+Slug: bed-bike-ghisallo-asso
+Nome: Bed&Bike Ghisallo
+Comune / Provincia: Asso
+Indirizzo: V. Milano, 54, 22030 Magreglio CO
+Coordinate: Lat 45.91925, Lng 9.25978
+Website: https://bedbike-ghisallo.italyforever.top/
+Email: 
+
+5472. Hotel Il Nibbio
+ID: 50d06c7a-90ff-48b2-b826-dc817fdbe4f3
+Slug: hotel-il-nibbio-asso
+Nome: Hotel Il Nibbio
+Comune / Provincia: Asso
+Indirizzo: Via Adua, 13, 22030 Magreglio CO
+Coordinate: Lat 45.921529, Lng 9.262123
+Website: http://www.hotelilnibbio.it/
+Email: 
+
+5473. Ristorante Albergo La Genzianella
+ID: 9f129a5e-91df-4a6f-b0f4-84eb9a6eaca7
+Slug: ristorante-albergo-la-genzianella-asso
+Nome: Ristorante Albergo La Genzianella
+Comune / Provincia: Asso
+Indirizzo: Localita San Primo, 4, 22021 Bellagio CO
+Coordinate: Lat 45.925182, Lng 9.229383
+Website: https://www.ristorantealbergolagenzianella.it/
+Email: 
+
+5474. Sara Hotel
+ID: 47a8cf86-092a-446b-9b5a-4c8d392d0bda
+Slug: sara-hotel-asso
+Nome: Sara Hotel
+Comune / Provincia: Asso
+Indirizzo: Via Santa Valeria, 10, 22030 Caglio CO
+Coordinate: Lat 45.874883, Lng 9.23787
+Website: http://www.hotelsaracaglio.it/
+Email: 
+
+5475. Villa Dei Cedri
+ID: 1117a064-19ca-4d2c-b0b3-24897f362bbc
+Slug: villa-dei-cedri-asso
+Nome: Villa Dei Cedri
+Comune / Provincia: Asso
+Indirizzo: Via Dosso, 25, 22033 Asso CO
+Coordinate: Lat 45.86081, Lng 9.271535
+Website: https://airbnb.com/h/villadelcedri
+Email: 
+
+5476. B&B Casa Piras
+ID: f7540c56-bc71-4fbb-81b4-b403004ff24f
+Slug: b-b-casa-piras-assolo
+Nome: B&B Casa Piras
+Comune / Provincia: Assolo
+Indirizzo: Traversa II Principessa Maria, 13, 09021 Barumini VS
+Coordinate: Lat 39.703808, Lng 9.006612
+Website: http://web.tiscali.it/casapiras/
+Email: 
+
+5477. B&B Casa Susanna
+ID: 3d37d73d-5485-4302-8288-a6b6430292fb
+Slug: b-b-casa-susanna-assolo
+Nome: B&B Casa Susanna
+Comune / Provincia: Assolo
+Indirizzo: Vicolo I Pozzo, 10, 09090 Sini OR
+Coordinate: Lat 39.754457, Lng 8.906862
+Website: —
+Email: 
+
+5478. B&B Is Camminantis
+ID: a5cb86d9-30a1-4466-a5a5-af22cfea8401
+Slug: b-b-is-camminantis-assolo
+Nome: B&B Is Camminantis
+Comune / Provincia: Assolo
+Indirizzo: SS128, km 58.400, 09058 Loc. Pira e Laconi ,Su Lau CA
+Coordinate: Lat 39.804041, Lng 9.066834
+Website: http://iscamminantis.blogspot.it/
+Email: 
+
+5479. B&B La Pavoncella
+ID: f2b83954-83ff-4210-b2bd-dc049c82cb9f
+Slug: b-b-la-pavoncella-assolo
+Nome: B&B La Pavoncella
+Comune / Provincia: Assolo
+Indirizzo: Vico I Roma, 73, 09020 Villamar VS
+Coordinate: Lat 39.615694, Lng 8.956006
+Website: —
+Email: 
+
+5480. B&B Mitzixeddas
+ID: 6b791622-5574-4531-9666-29c7dd3f5c98
+Slug: b-b-mitzixeddas-assolo
+Nome: B&B Mitzixeddas
+Comune / Provincia: Assolo
+Indirizzo: Via Lamarmora, 1, 09040 Mandas CA
+Coordinate: Lat 39.651353, Lng 9.12993
+Website: http://bnb-mitzixeddas.com.es/
+Email: 
+
+5481. B&B Ventuno
+ID: 34b7d0a5-f87b-4690-8ec1-4bfd007bafa3
+Slug: b-b-ventuno-assolo
+Nome: B&B Ventuno
+Comune / Provincia: Assolo
+Indirizzo: Via Cagliari, 21, 09021 Barumini VS
+Coordinate: Lat 39.701839, Lng 9.006897
+Website: —
+Email: 
+
+5482. De Ajala - B&B de Charme - Antica Dimora Laconese
+ID: 3103d5fd-4586-4288-8587-66fda6c5c76d
+Slug: de-ajala-b-b-de-charme-antica-dimora-laconese-assolo
+Nome: De Ajala - B&B de Charme - Antica Dimora Laconese
+Comune / Provincia: Assolo
+Indirizzo: Via Cavour, 3, 09090 Laconi OR
+Coordinate: Lat 39.854898, Lng 9.049737
+Website: https://stayo.eu/casa-de-ajala-bb-de-charme-in-antica-dimora-totalmente-ristrutturata-e-dotata-di-tutti-i-confort-bagni-privati-spazio-living-patio-esterno-ambienti-climatizzati-degustazioni-prodotti-locali-laconi/
+Email: 
+
+5483. Funtana Noa
+ID: 4b02a09b-897c-4a4a-911c-b13f83ed9587
+Slug: funtana-noa-assolo
+Nome: Funtana Noa
+Comune / Provincia: Assolo
+Indirizzo: Via Vittorio Emanuele III, 66, 09020 Villanovaforru VS
+Coordinate: Lat 39.631132, Lng 8.872234
+Website: http://www.hotelfuntananoa.it/
+Email: 
+
+5484. Is Coronas affittacamere
+ID: 82302242-96e3-40b8-b2c5-8d3e804ed16f
+Slug: is-coronas-affittacamere-assolo
+Nome: Is Coronas affittacamere
+Comune / Provincia: Assolo
+Indirizzo: Piazza Costituzione, 4, 09056 Isili CA
+Coordinate: Lat 39.740259, Lng 9.105112
+Website: https://iscoronas.it/
+Email: 
+
+5485. Villa Chiara Villamar
+ID: 34fcb1a3-f464-4466-b662-5bd6d1e143b8
+Slug: villa-chiara-villamar-assolo
+Nome: Villa Chiara Villamar
+Comune / Provincia: Assolo
+Indirizzo: Via Regina Elena, 6, 09020 Villamar VS
+Coordinate: Lat 39.617045, Lng 8.957943
+Website: https://john-recommends.eu/villa-chiara-villamar-italy
+Email: 
+
+5486. Al Vicolo Apartments
+ID: 8e66f806-fabf-4d65-8279-0b35d0bbc11b
+Slug: al-vicolo-apartments-assoro
+Nome: Al Vicolo Apartments
+Comune / Provincia: Assoro
+Indirizzo: Vicolo Scavi, 2, 94100 Enna EN
+Coordinate: Lat 37.569315, Lng 14.274044
+Website: —
+Email: 
+
+5487. Appartamento 24 Cannoli
+ID: 3c0c8ac5-9538-458c-8ab2-18ae3c4fa9a1
+Slug: appartamento-24-cannoli-assoro
+Nome: Appartamento 24 Cannoli
+Comune / Provincia: Assoro
+Indirizzo: Via Francesco Crispi, 30, 94013 Leonforte EN
+Coordinate: Lat 37.63618, Lng 14.390324
+Website: https://getit.cyou/appartamento-cannoli-akq67j
+Email: 
+
+5488. B&B Diamante
+ID: 880a0d76-c985-45c1-a0f7-b1c14a6ed17c
+Slug: b-b-diamante-assoro
+Nome: B&B Diamante
+Comune / Provincia: Assoro
+Indirizzo: Località Contrada Cannolo-Picinosi snc, 94010 Nissoria EN
+Coordinate: Lat 37.650597, Lng 14.426033
+Website: http://bnb-diamante.com.es/
+Email: 
+
+5489. B&B La Casa di Pinocchio
+ID: de6d6fad-0374-494f-886f-3a1f1d912b7b
+Slug: b-b-la-casa-di-pinocchio-assoro
+Nome: B&B La Casa di Pinocchio
+Comune / Provincia: Assoro
+Indirizzo: Via Candrilli, 55/57, 94100 Enna EN
+Coordinate: Lat 37.566305, Lng 14.280059
+Website: —
+Email: 
+
+5490. B&B La Perla Nera
+ID: ef74e50b-981d-45f9-afc6-6fddf9baa47d
+Slug: b-b-la-perla-nera-assoro
+Nome: B&B La Perla Nera
+Comune / Provincia: Assoro
+Indirizzo: C/da Picinosi, snc, 94010 Nissoria EN
+Coordinate: Lat 37.653466, Lng 14.422975
+Website: —
+Email: 
+
+5491. B&B Stazione Dittaino
+ID: b541fb47-66c3-4fd9-b612-4a419aecbde6
+Slug: b-b-stazione-dittaino-assoro
+Nome: B&B Stazione Dittaino
+Comune / Provincia: Assoro
+Indirizzo: Zona industriale Dittaino, 94010 Assoro EN
+Coordinate: Lat 37.564432, Lng 14.462474
+Website: http://www.bebstazionedittaino.it/
+Email: 
+
+5492. B&B Welc(h)ome
+ID: f551032f-9324-48c2-bba9-fb53c9c27791
+Slug: b-b-welc-h-ome-assoro
+Nome: B&B Welc(h)ome
+Comune / Provincia: Assoro
+Indirizzo: Via, Largo Rosso, 18, 94100 Enna EN
+Coordinate: Lat 37.567404, Lng 14.2811
+Website: http://welchome.com.es/
+Email: 
+
+5493. Agriturismo Tenuta Polledro
+ID: 15ae4f96-a4a9-47b1-9a3a-4d93894d80d0
+Slug: agriturismo-tenuta-polledro-asti
+Nome: Agriturismo Tenuta Polledro
+Comune / Provincia: Asti
+Indirizzo: Frazione Serravalle, 135, 14100 Asti AT
+Coordinate: Lat 44.956158, Lng 8.144843
+Website: http://www.agriturismotenutapolledro.it/
+Email: 
+
+5494. Albergo Antica Dogana
+ID: 3834aa3f-3be8-48e4-9088-183af96df7b4
+Slug: albergo-antica-dogana-asti
+Nome: Albergo Antica Dogana
+Comune / Provincia: Asti
+Indirizzo: Via Antica Dogana, 5, 14100 Quarto AT
+Coordinate: Lat 44.907413, Lng 8.283075
+Website: http://www.albergoanticadogana-asti.it/
+Email: 
+
+5495. B&B Casa del Ventiniere
+ID: b4a5fd95-25c6-478c-9d5d-071b867f8a22
+Slug: b-b-casa-del-ventiniere-asti
+Nome: B&B Casa del Ventiniere
+Comune / Provincia: Asti
+Indirizzo: Str. Variglie, n.81, 14100 Asti AT
+Coordinate: Lat 44.87376, Lng 8.163945
+Website: https://www.bbcasadelventiniere.it/
+Email: 

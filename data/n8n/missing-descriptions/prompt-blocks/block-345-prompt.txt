@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+12041. B&B CUBE FRATTAMAGGIORE
+ID: feda7b87-e3e5-4db9-a571-21ece82bb6bd
+Slug: b-b-cube-frattamaggiore-caivano
+Nome: B&B CUBE FRATTAMAGGIORE
+Comune / Provincia: Caivano
+Indirizzo: Via Roma, 12, 80027 Frattamaggiore NA
+Coordinate: Lat 40.940746, Lng 14.272126
+Website: http://bebcube.it/
+Email: 
+
+12042. B&B Dei Vicari
+ID: 9a5e225f-3045-42b5-8104-104cceb1034a
+Slug: b-b-dei-vicari-caivano
+Nome: B&B Dei Vicari
+Comune / Provincia: Caivano
+Indirizzo: Via Riscatto, 43, 80027 Frattamaggiore NA
+Coordinate: Lat 40.943078, Lng 14.274454
+Website: https://radekstravelexperience.eu/b-amp-b-dei-vicari-italy
+Email: 
+
+12043. B&B Il Vicoletto
+ID: 0b452b67-9789-4c5c-ae82-bb9cc1891593
+Slug: b-b-il-vicoletto-caivano
+Nome: B&B Il Vicoletto
+Comune / Provincia: Caivano
+Indirizzo: Via Viggiano, 9, 80020 Frattaminore NA
+Coordinate: Lat 40.957871, Lng 14.271012
+Website: —
+Email: 
+
+12044. B&B Reccia luxury rooms
+ID: 9c7ce500-e527-47dd-9f14-dbceb9704e4c
+Slug: b-b-reccia-luxury-rooms-caivano
+Nome: B&B Reccia luxury rooms
+Comune / Provincia: Caivano
+Indirizzo: Traversa I Giuseppe Mazzini, 4, 80027 Frattamaggiore NA
+Coordinate: Lat 40.945161, Lng 14.267479
+Website: —
+Email: 
+
+12045. Bnb Villa Lendi
+ID: ee6c28ba-3d1b-4392-a358-e5a7742d0d91
+Slug: bnb-villa-lendi-caivano
+Nome: Bnb Villa Lendi
+Comune / Provincia: Caivano
+Indirizzo: Via Carmelo Pezzullo, 22, 80027 Frattamaggiore NA
+Coordinate: Lat 40.938614, Lng 14.267667
+Website: https://www.bnbvillalendi.it/
+Email: 
+
+12046. Casa Affitto Breve Crispino
+ID: 4562f5d0-7a11-4f0b-b3ad-1e224d65b4ae
+Slug: casa-affitto-breve-crispino-caivano
+Nome: Casa Affitto Breve Crispino
+Comune / Provincia: Caivano
+Indirizzo: Via Giovanni XXIII, 89, 80020 Frattaminore NA
+Coordinate: Lat 40.950851, Lng 14.271728
+Website: https://www.booking.com/hotel/it/casa-affitto-breve-crispino.it.html
+Email: 
+
+12047. L'Aranceto B&B
+ID: f505ed3f-c909-43c5-8791-920dc91c16cc
+Slug: l-aranceto-b-b-caivano
+Nome: L'Aranceto B&B
+Comune / Provincia: Caivano
+Indirizzo: Via Giacomo Bove, 6, 81047 Macerata Campania CE
+Coordinate: Lat 41.061155, Lng 14.288403
+Website: https://beb.it/larancetocaturano
+Email: 
+
+12048. Villa Mafalda B&B
+ID: 11077b13-a490-4574-9f0d-e2e3c89d2361
+Slug: villa-mafalda-b-b-caivano
+Nome: Villa Mafalda B&B
+Comune / Provincia: Caivano
+Indirizzo: Via Padre Mario Vergara, 29, 80027 Frattamaggiore NA
+Coordinate: Lat 40.934615, Lng 14.275207
+Website: —
+Email: 
+
+12049. Albergo San Gerardo
+ID: 46a14ea7-a649-4e61-bd4f-599d331ead09
+Slug: albergo-san-gerardo-calabritto
+Nome: Albergo San Gerardo
+Comune / Provincia: Calabritto
+Indirizzo: Via Santuario, 24, 83040 Caposele AV
+Coordinate: Lat 40.816093, Lng 15.234573
+Website: https://www.sangerardoalbergoanziani.it/
+Email: 
+
+12050. Bed and Breakfast "La Casa di Mimma"
+ID: 005ee286-77b7-455f-b1f9-d68abb2ea0a6
+Slug: bed-and-breakfast-la-casa-di-mimma-calabritto
+Nome: Bed and Breakfast "La Casa di Mimma"
+Comune / Provincia: Calabritto
+Indirizzo: SS165, 83040 Caposele AV
+Coordinate: Lat 40.828747, Lng 15.232507
+Website: http://www.lacasadimimma.it/
+Email: 
+
+12051. Da Rosa Resort Srl
+ID: 81640588-00ae-46e6-be20-08fa8c5305a9
+Slug: da-rosa-resort-srl-calabritto
+Nome: Da Rosa Resort Srl
+Comune / Provincia: Calabritto
+Indirizzo: Via Santuario Materdomini, 10, 83040 Materdomini AV
+Coordinate: Lat 40.816113, Lng 15.235025
+Website: https://fioreit.cyou/da-rosa-resort-e1x4dn
+Email: 
+
+12052. Ristorante Albergo 7Bello
+ID: 798c5fdc-1d80-4662-ad48-f33dedf06930
+Slug: ristorante-albergo-7bello-calabritto
+Nome: Ristorante Albergo 7Bello
+Comune / Provincia: Calabritto
+Indirizzo: C.so S. Alfonso, 46, 83040 Materdomini AV
+Coordinate: Lat 40.81656, Lng 15.236348
+Website: http://www.7bello.it/
+Email: 
+
+12053. Rurale Home & Garden
+ID: 575ba486-9903-4fea-852d-69a7ef2ef529
+Slug: rurale-home-garden-calabritto
+Nome: Rurale Home & Garden
+Comune / Provincia: Calabritto
+Indirizzo: Contrada Pezze, 4, 83048 Montella AV
+Coordinate: Lat 40.848521, Lng 15.051608
+Website: —
+Email: 
+
+12054. Tartufo Hotel
+ID: d226fa45-3ec0-4e38-87c8-fb4bce552beb
+Slug: tartufo-hotel-calabritto
+Nome: Tartufo Hotel
+Comune / Provincia: Calabritto
+Indirizzo: Piazza Iannarella, 84020 Colliano SA
+Coordinate: Lat 40.728815, Lng 15.289067
+Website: http://www.tartufohotel.it/
+Email: 
+
+12055. Tenuta San Felice B&B
+ID: 123ee20f-71b0-4108-aee7-f0b5715ed5d8
+Slug: tenuta-san-felice-b-b-calabritto
+Nome: Tenuta San Felice B&B
+Comune / Provincia: Calabritto
+Indirizzo: via S. FELICE, 84022 Campagna SA
+Coordinate: Lat 40.650116, Lng 15.124374
+Website: http://www.tenutasanfelice.it/
+Email: 
+
+12056. Alla Stazion Locanda nelle Dolomiti Camere,Ristorante,Bar
+ID: c9cbeec9-bb7f-4ff6-9512-575770355a5c
+Slug: alla-stazion-locanda-nelle-dolomiti-camere-risto-calalzo-di-cadore
+Nome: Alla Stazion Locanda nelle Dolomiti Camere,Ristorante,Bar
+Comune / Provincia: Calalzo di Cadore
+Indirizzo: Via Manzago, 7, 32044 Pieve di Cadore BL
+Coordinate: Lat 46.422129, Lng 12.360834
+Website: http://www.allastazion.com/
+Email: 
+
+12057. B&B Dolomiti
+ID: c45c5fcb-313c-4160-846c-2d62802de86a
+Slug: b-b-dolomiti-calalzo-di-cadore
+Nome: B&B Dolomiti
+Comune / Provincia: Calalzo di Cadore
+Indirizzo: Viale Marconi, 21, 32042 Calalzo di Cadore BL
+Coordinate: Lat 46.447388, Lng 12.386324
+Website: https://www.dolomitibb.it/
+Email: 
+
+12058. B&B SognoInCadore
+ID: 96862b1c-e233-475e-a572-38a2089233fe
+Slug: b-b-sognoincadore-calalzo-di-cadore
+Nome: B&B SognoInCadore
+Comune / Provincia: Calalzo di Cadore
+Indirizzo: Via S. Rocco, 35, 32040 Domegge di Cadore BL
+Coordinate: Lat 46.4618, Lng 12.41263
+Website: https://www.sognoincadore.it/
+Email: 
+
+12059. C'era una volta un re
+ID: 148f22ff-27a2-47b9-9306-cc0e8d661f5e
+Slug: c-era-una-volta-un-re-calalzo-di-cadore
+Nome: C'era una volta un re
+Comune / Provincia: Calalzo di Cadore
+Indirizzo: Via Nazionale, 25, 32042 Calalzo di Cadore BL
+Coordinate: Lat 46.441058, Lng 12.380677
+Website: https://www.ceraunavoltaunre.net/
+Email: 
+
+12060. Chalet Cridola Dolomiti Experience
+ID: f1716124-b0fc-4d77-a586-9f2e56af9d61
+Slug: chalet-cridola-dolomiti-experience-calalzo-di-cadore
+Nome: Chalet Cridola Dolomiti Experience
+Comune / Provincia: Calalzo di Cadore
+Indirizzo: Via Monteona, 237/A, 32040 Lorenzago di Cadore BL
+Coordinate: Lat 46.480642, Lng 12.462076
+Website: https://www.chaletcridola.it/
+Email: 
+
+12061. Hotel al Pelmo
+ID: 6cec3aea-4714-472d-9bbf-e0355611ff24
+Slug: hotel-al-pelmo-calalzo-di-cadore
+Nome: Hotel al Pelmo
+Comune / Provincia: Calalzo di Cadore
+Indirizzo: Via Nazionale, 60, 32044 Pieve di Cadore BL
+Coordinate: Lat 46.42679, Lng 12.370634
+Website: http://www.pelmo.it/
+Email: 
+
+12062. Hotel Belvedere Dolomiti
+ID: c6f44f8f-6cf3-4de4-8233-692e660fbb51
+Slug: hotel-belvedere-dolomiti-calalzo-di-cadore
+Nome: Hotel Belvedere Dolomiti
+Comune / Provincia: Calalzo di Cadore
+Indirizzo: Gradinata Belvedere, 11, 32044 Pieve di Cadore BL
+Coordinate: Lat 46.429215, Lng 12.376673
+Website: https://www.hotelbelvederedolomiti.com/?utm_source=gbp&utm_medium=organic
+Email: 
+
+12063. Hotel Ferrovia snc
+ID: 4d0576c5-32ae-4899-a152-21623b7f9e93
+Slug: hotel-ferrovia-snc-calalzo-di-cadore
+Nome: Hotel Ferrovia snc
+Comune / Provincia: Calalzo di Cadore
+Indirizzo: Via Stazione, 4, 32042 Calalzo di Cadore BL
+Coordinate: Lat 46.446338, Lng 12.387555
+Website: http://www.hotelferrovia.it/
+Email: 
+
+12064. Hotel Giardino
+ID: fc63bca1-bf38-42e6-9d23-b4bfc2a29e69
+Slug: hotel-giardino-calalzo-di-cadore
+Nome: Hotel Giardino
+Comune / Provincia: Calalzo di Cadore
+Indirizzo: Via Giosuè Carducci, 20, 32044 Pieve di Cadore BL
+Coordinate: Lat 46.430699, Lng 12.375704
+Website: https://www.hotelgiardino-dolomiti.com/
+Email: 
+
+12065. Le Nene - Dolomiti guesthouse
+ID: d5861532-f7a7-43c6-b20b-c3801b238fb1
+Slug: le-nene-dolomiti-guesthouse-calalzo-di-cadore
+Nome: Le Nene - Dolomiti guesthouse
+Comune / Provincia: Calalzo di Cadore
+Indirizzo: Piazza Venezia, 6, 32044 Pieve di Cadore BL
+Coordinate: Lat 46.423643, Lng 12.360712
+Website: —
+Email: 
+
+12066. Le Stue - locazione turistica
+ID: e3d90983-a8e9-43e9-b1af-65cc05c862ac
+Slug: le-stue-locazione-turistica-calalzo-di-cadore
+Nome: Le Stue - locazione turistica
+Comune / Provincia: Calalzo di Cadore
+Indirizzo: Via Faveri, 21, 32044 Pieve di Cadore BL
+Coordinate: Lat 46.430233, Lng 12.373818
+Website: https://staynow.eu/le-stue-pieve-di-cadore/
+Email: 
+
+12067. Lioda Living
+ID: d1cc15ac-bc80-48f7-a492-c7bccbe7908c
+Slug: lioda-living-calalzo-di-cadore
+Nome: Lioda Living
+Comune / Provincia: Calalzo di Cadore
+Indirizzo: Via Regia, 39, 32044 Pieve di Cadore BL
+Coordinate: Lat 46.426354, Lng 12.362185
+Website: https://lioda.com/apartment/lioda-dolomiti/
+Email: 
+
+12068. Locanda Ai Dogi
+ID: 33389b2d-1673-472d-9587-e2a7905e0c61
+Slug: locanda-ai-dogi-calalzo-di-cadore
+Nome: Locanda Ai Dogi
+Comune / Provincia: Calalzo di Cadore
+Indirizzo: Piazza Municipio, 21, 32044 Pieve di Cadore BL
+Coordinate: Lat 46.429542, Lng 12.374837
+Website: http://www.locandaaidogi.it/
+Email: 
+
+12069. Ostello lunga via delle Dolomiti
+ID: 6212fae5-e914-4cbc-a5f5-71b82a0d4960
+Slug: ostello-lunga-via-delle-dolomiti-calalzo-di-cadore
+Nome: Ostello lunga via delle Dolomiti
+Comune / Provincia: Calalzo di Cadore
+Indirizzo: Via de stefani, 43, 32042 Calalzo di Cadore BL
+Coordinate: Lat 46.44094, Lng 12.385051
+Website: —
+Email: 
+
+12070. Park Hotel Bellavista Dolomiti
+ID: 87fbed11-0ae4-4199-b9bc-7584d8c3ca47
+Slug: park-hotel-bellavista-dolomiti-calalzo-di-cadore
+Nome: Park Hotel Bellavista Dolomiti
+Comune / Provincia: Calalzo di Cadore
+Indirizzo: Via S. Giovanni, 5, 32042 Calalzo di Cadore BL
+Coordinate: Lat 46.448839, Lng 12.377073
+Website: http://www.hotelbellavistadolomiti.it/
+Email: 
+
+12071. Rifugio Pietro Galassi al Monte Antelao - Rifugio Cai
+ID: 04990440-63ec-48fc-a0a1-52e801825535
+Slug: rifugio-pietro-galassi-al-monte-antelao-rifugio-calalzo-di-cadore
+Nome: Rifugio Pietro Galassi al Monte Antelao - Rifugio Cai
+Comune / Provincia: Calalzo di Cadore
+Indirizzo: Forcella Piccola dell'Antelao, 32042 Calalzo di Cadore BL
+Coordinate: Lat 46.470662, Lng 12.262069
+Website: https://www.rifugiogalassi.it/
+Email: 
+
+12072. Alle Rive Bed 'n' Books
+ID: 40de343d-2740-419a-bd79-d2465c5afcee
+Slug: alle-rive-bed-n-books-calamandrana
+Nome: Alle Rive Bed 'n' Books
+Comune / Provincia: Calamandrana
+Indirizzo: Frazione Chiesavecchia, 55, 14042 Calamandrana AT
+Coordinate: Lat 44.732235, Lng 8.33765
+Website: https://www.hotelsitaloweb.com/alle-rive-bednbooks-apt/
+Email: 
+
+12073. Azienda Agricola la Giribaldina
+ID: 12758759-1ba2-487c-bd43-cdb505bbd517
+Slug: azienda-agricola-la-giribaldina-calamandrana
+Nome: Azienda Agricola la Giribaldina
+Comune / Provincia: Calamandrana
+Indirizzo: Frazione S. Vito, 39, 14042 Calamandrana AT
+Coordinate: Lat 44.717559, Lng 8.319392
+Website: http://www.giribaldina.it/
+Email: 
+
+12074. Ca' del Bosso
+ID: 2fdb88e4-c472-4fb9-a159-20d6f659b9be
+Slug: ca-del-bosso-calamandrana
+Nome: Ca' del Bosso
+Comune / Provincia: Calamandrana
+Indirizzo: Regione Garbazzola 13, 14042 Garbazzola AT
+Coordinate: Lat 44.737744, Lng 8.353145
+Website: https://staidhotel.eu/ca-del-bosso-italy
+Email: 
+
+12075. Cadgal - Tenuta La Cova
+ID: 9bab3889-b955-451b-b12d-fb40905c8253
+Slug: cadgal-tenuta-la-cova-calamandrana
+Nome: Cadgal - Tenuta La Cova
+Comune / Provincia: Calamandrana
+Indirizzo: Frazione Valle Chiozze, 24, 14042 Calamandrana AT
+Coordinate: Lat 44.730258, Lng 8.345785
+Website: https://cadgal.it/
+Email: 

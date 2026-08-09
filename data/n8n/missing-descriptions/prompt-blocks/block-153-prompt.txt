@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+5321. Porta della musa
+ID: 66075175-11d7-4c86-81c7-106290e89fd5
+Slug: porta-della-musa-ascoli-piceno
+Nome: Porta della musa
+Comune / Provincia: Ascoli Piceno
+Indirizzo: Corso V. Emanuele, 13, 63100 Ascoli Piceno AP
+Coordinate: Lat 42.853648, Lng 13.579891
+Website: http://www.portadellamusacasavacanze.it/
+Email: 
+
+5322. Affittacamere Number 1
+ID: 8651368e-17e9-4436-857c-4e20adb195f5
+Slug: affittacamere-number-1-ascoli-satriano
+Nome: Affittacamere Number 1
+Comune / Provincia: Ascoli Satriano
+Indirizzo: Via Fontana Nuova, 117, 71026 Deliceto FG
+Coordinate: Lat 41.219541, Lng 15.382446
+Website: https://affittacamerenumber1.it/
+Email: 
+
+5323. Affittacamere Oscata
+ID: 199fb6fd-51f9-4fcf-8061-be598ae64bf0
+Slug: affittacamere-oscata-ascoli-satriano
+Nome: Affittacamere Oscata
+Comune / Provincia: Ascoli Satriano
+Indirizzo: Via Contrada Oscata, 15 (AV), 83044 Bisaccia AV
+Coordinate: Lat 41.038211, Lng 15.328005
+Website: —
+Email: 
+
+5324. Agriturismo Masseria Mascitelli
+ID: fbe3d7b1-4593-4425-baa1-dbb7bfa78974
+Slug: agriturismo-masseria-mascitelli-ascoli-satriano
+Nome: Agriturismo Masseria Mascitelli
+Comune / Provincia: Ascoli Satriano
+Indirizzo: S.P. 110 km 29+100, 71045 Orta Nova FG
+Coordinate: Lat 41.319798, Lng 15.67047
+Website: https://www.facebook.com/agriturismomasseriamascitelli
+Email: 
+
+5325. Albergo Italia
+ID: ac3c3cff-233f-4dca-8689-b659d105ccd2
+Slug: albergo-italia-ascoli-satriano
+Nome: Albergo Italia
+Comune / Provincia: Ascoli Satriano
+Indirizzo: Via Giovanni Robbe, 21, 85024 Lavello PZ
+Coordinate: Lat 41.04406, Lng 15.792347
+Website: https://www.albergoitalialavello.it/
+Email: 
+
+5326. Albergo Ristorante La Rosa Dei Venti
+ID: 8bec1185-f440-4911-9861-fba41e1ff450
+Slug: albergo-ristorante-la-rosa-dei-venti-ascoli-satriano
+Nome: Albergo Ristorante La Rosa Dei Venti
+Comune / Provincia: Ascoli Satriano
+Indirizzo: Via Santa Maria delle Grazie, 15, 71024 Candela FG
+Coordinate: Lat 41.140512, Lng 15.517624
+Website: https://albergo-ristorante-la-rosa-dei-venti.touritaliani.top/
+Email: 
+
+5327. B&B Alla Corte del Duca
+ID: 08144b7b-fcbb-4626-ab2e-0d300abcdfe8
+Slug: b-b-alla-corte-del-duca-ascoli-satriano
+Nome: B&B Alla Corte del Duca
+Comune / Provincia: Ascoli Satriano
+Indirizzo: Via Massimo D'Azeglio, 8, 71022 Ascoli Satriano FG
+Coordinate: Lat 41.204928, Lng 15.559498
+Website: http://www.allacortedelduca.it/
+Email: 
+
+5328. B&B La casa al Castello
+ID: 98d4141a-d1d4-4ac9-b7f9-d42a75451d4e
+Slug: b-b-la-casa-al-castello-ascoli-satriano
+Nome: B&B La casa al Castello
+Comune / Provincia: Ascoli Satriano
+Indirizzo: Vico Appulo, 12, 71022 Ascoli Satriano FG
+Coordinate: Lat 41.205191, Lng 15.559716
+Website: http://www.lacasaalcastello.it/
+Email: 
+
+5329. B&B Torre Covino
+ID: e16c8ec7-4fe2-42ea-983d-5bd0c0a61e94
+Slug: b-b-torre-covino-ascoli-satriano
+Nome: B&B Torre Covino
+Comune / Provincia: Ascoli Satriano
+Indirizzo: Via T. Covino, 71022 Ascoli Satriano FG
+Coordinate: Lat 41.203287, Lng 15.562863
+Website: —
+Email: 
+
+5330. Bed & Breakfast Piazza Matteotti
+ID: cf4918f7-3cc5-4a88-aabe-e2dd400f0280
+Slug: bed-breakfast-piazza-matteotti-ascoli-satriano
+Nome: Bed & Breakfast Piazza Matteotti
+Comune / Provincia: Ascoli Satriano
+Indirizzo: Via G. Garibaldi, 51, 71047 Stornara FG
+Coordinate: Lat 41.288703, Lng 15.769121
+Website: —
+Email: 
+
+5331. FORESTERIA DEL BORGO ANTICO
+ID: fea6767d-cbf5-4247-a649-04cd213f681f
+Slug: foresteria-del-borgo-antico-ascoli-satriano
+Nome: FORESTERIA DEL BORGO ANTICO
+Comune / Provincia: Ascoli Satriano
+Indirizzo: Largo Castello, 10, 71022 Ascoli Satriano FG
+Coordinate: Lat 41.205386, Lng 15.559218
+Website: —
+Email: 
+
+5332. La Casa di Nonna Lina
+ID: ddfb89d0-27ad-45b0-be0e-a819a1a912db
+Slug: la-casa-di-nonna-lina-ascoli-satriano
+Nome: La Casa di Nonna Lina
+Comune / Provincia: Ascoli Satriano
+Indirizzo: Via Irpinia, 3/A, 71040 Ordona FG
+Coordinate: Lat 41.315938, Lng 15.628447
+Website: —
+Email: 
+
+5333. Le Stanze del Castello b&b
+ID: f50f9f06-584b-4ffe-9f0a-053095cc1b46
+Slug: le-stanze-del-castello-b-b-ascoli-satriano
+Nome: Le Stanze del Castello b&b
+Comune / Provincia: Ascoli Satriano
+Indirizzo: Via Castello, 43, 71022 Ascoli Satriano FG
+Coordinate: Lat 41.205102, Lng 15.559266
+Website: https://staynow.eu/le-stanze-del-castello-bnb-ascoli-satriano/
+Email: 
+
+5334. Residence Affittacamere The Big Family
+ID: a3760759-56bf-47d5-ab24-e80a97899030
+Slug: residence-affittacamere-the-big-family-ascoli-satriano
+Nome: Residence Affittacamere The Big Family
+Comune / Provincia: Ascoli Satriano
+Indirizzo: Via Ortanova, 6A, 71022 Ascoli Satriano FG
+Coordinate: Lat 41.203453, Lng 15.568002
+Website: —
+Email: 
+
+5335. Residenza dei Reali
+ID: f1785889-ee18-4e9c-bbd9-5cb02f8abd2a
+Slug: residenza-dei-reali-ascoli-satriano
+Nome: Residenza dei Reali
+Comune / Provincia: Ascoli Satriano
+Indirizzo: Via Bertrando dei Reali, 11, 71023 Bovino FG
+Coordinate: Lat 41.24981, Lng 15.343569
+Website: —
+Email: 
+
+5336. Agriturismo La Ripa
+ID: f33bc3ac-c4cc-4aed-a25e-1dd8adc79fae
+Slug: agriturismo-la-ripa-ascrea
+Nome: Agriturismo La Ripa
+Comune / Provincia: Ascrea
+Indirizzo: Località Santa Maria, 00010 Montorio Romano RM
+Coordinate: Lat 42.154958, Lng 12.808746
+Website: http://www.laripa.com/
+Email: 
+
+5337. Agriturismo La Terrazza su Farfa
+ID: a15a85b2-51a6-4bdc-b4eb-48e8449b0b29
+Slug: agriturismo-la-terrazza-su-farfa-ascrea
+Nome: Agriturismo La Terrazza su Farfa
+Comune / Provincia: Ascrea
+Indirizzo: Via San Filippo, 27, 02031 Castelnuovo di Farfa RI
+Coordinate: Lat 42.224253, Lng 12.743805
+Website: https://laterrazzasufarfa.com/
+Email: 
+
+5338. Agriturismo Le Cascine
+ID: 25c85403-1a07-47bf-8e86-c56a45d28974
+Slug: agriturismo-le-cascine-ascrea
+Nome: Agriturismo Le Cascine
+Comune / Provincia: Ascrea
+Indirizzo: Località Campigliano Via Rio, 02020 Castel di Tora RI
+Coordinate: Lat 42.221998, Lng 12.970946
+Website: http://www.lecascineagriturismo.it/
+Email: 
+
+5339. B&B da Odila
+ID: 84bfda3f-c9b2-494d-9c63-92d24a2e6267
+Slug: b-b-da-odila-ascrea
+Nome: B&B da Odila
+Comune / Provincia: Ascrea
+Indirizzo: Via Carpinetti, 1, 02030 Poggio Nativo RI
+Coordinate: Lat 42.190836, Lng 12.80853
+Website: https://www.booking.com/hotel/it/b-amp-b-da-odila.it.html?aid=2434670
+Email: 
+
+5340. B&B In Sabina
+ID: 54b7e660-40fb-4f10-8610-be0cbb5c2e59
+Slug: b-b-in-sabina-ascrea
+Nome: B&B In Sabina
+Comune / Provincia: Ascrea
+Indirizzo: Viale Roma, 13, 02030 Poggio Nativo RI
+Coordinate: Lat 42.215648, Lng 12.795437
+Website: http://www.bebinsabina.com/
+Email: 
+
+5341. B&B La Casetta sul Lago
+ID: 6d64437e-bc69-43eb-a8dd-f5079511505d
+Slug: b-b-la-casetta-sul-lago-ascrea
+Nome: B&B La Casetta sul Lago
+Comune / Provincia: Ascrea
+Indirizzo: Piazza Borghese, 8, 02020 Colle di Tora RI
+Coordinate: Lat 42.215274, Lng 12.947711
+Website: https://hotelstays.eu/amp-italy
+Email: 
+
+5342. B&B Nonna Assunta
+ID: 04227e15-3718-45c9-88c7-c9150df06193
+Slug: b-b-nonna-assunta-ascrea
+Nome: B&B Nonna Assunta
+Comune / Provincia: Ascrea
+Indirizzo: Via Turanense, Loc. Casali Cervia, 02020 Collegiove RI
+Coordinate: Lat 42.156951, Lng 13.009871
+Website: http://www.bebnonnaassunta.org/
+Email: 
+
+5343. C'era Una Volta Guest House Affittacamere
+ID: a4634469-52fe-479e-9bb7-24191ace49cd
+Slug: c-era-una-volta-guest-house-affittacamere-ascrea
+Nome: C'era Una Volta Guest House Affittacamere
+Comune / Provincia: Ascrea
+Indirizzo: Località Vaecorte, SNC, 02020 Colle di Tora RI
+Coordinate: Lat 42.209602, Lng 12.948799
+Website: https://www.ceraunavolta-lagodelturano.it/dove-dormire-bnb/
+Email: 
+
+5344. Hotel Ristorante Bar Turano
+ID: ecfb3408-20f0-4999-9825-f4c09ccb7312
+Slug: hotel-ristorante-bar-turano-ascrea
+Nome: Hotel Ristorante Bar Turano
+Comune / Provincia: Ascrea
+Indirizzo: Via Turanense, 50, 02020 Castel di Tora RI
+Coordinate: Lat 42.21349, Lng 12.974352
+Website: http://www.hotelturano.it/
+Email: 
+
+5345. Il Mastro del Lago
+ID: dab56992-b742-411b-a835-096ccffb22d4
+Slug: il-mastro-del-lago-ascrea
+Nome: Il Mastro del Lago
+Comune / Provincia: Ascrea
+Indirizzo: Via Turanense, 2, 02020 Paganico Sabino RI
+Coordinate: Lat 42.187627, Lng 12.993327
+Website: —
+Email: 
+
+5346. La casa sul Fiordo
+ID: ec4dce16-e79c-4671-94a7-cba8a3340632
+Slug: la-casa-sul-fiordo-ascrea
+Nome: La casa sul Fiordo
+Comune / Provincia: Ascrea
+Indirizzo: Via Costa Aspo 20-22, Via Costa, 02020 Paganico Sabino RI
+Coordinate: Lat 42.190424, Lng 12.998362
+Website: http://www.lacasasulfiordo.it/
+Email: 
+
+5347. La Tenuta Resort Agricolo
+ID: 233ce1a0-6447-40c8-94c2-91ee7ac65844
+Slug: la-tenuta-resort-agricolo-ascrea
+Nome: La Tenuta Resort Agricolo
+Comune / Provincia: Ascrea
+Indirizzo: Loc Valle snc, Fraz, 02030 Collelungo RI
+Coordinate: Lat 42.23716, Lng 12.803826
+Website: http://www.latenuta.org/
+Email: 
+
+5348. Tenuta Del Casale Del Jazz
+ID: ef100115-7846-45bc-b64e-1f08decf8aa5
+Slug: tenuta-del-casale-del-jazz-ascrea
+Nome: Tenuta Del Casale Del Jazz
+Comune / Provincia: Ascrea
+Indirizzo: Via Vallocchie, 3, 02040 Salisano RI
+Coordinate: Lat 42.263775, Lng 12.759036
+Website: http://new.bebopjazzclub.net/#menu-item-4745
+Email: 
+
+5349. Turano Resort
+ID: dac06f68-40a3-4b41-8e3b-7cf0a34b1226
+Slug: turano-resort-ascrea
+Nome: Turano Resort
+Comune / Provincia: Ascrea
+Indirizzo: Via Parodi, 93, 02020 Colle di Tora RI
+Coordinate: Lat 42.212539, Lng 12.947869
+Website: http://www.turanoresort.it/
+Email: 
+
+5350. Albergo Garnì Rendola
+ID: 6f49fd0f-20df-4149-8035-17b895bd6800
+Slug: albergo-garni-rendola-asiago
+Nome: Albergo Garnì Rendola
+Comune / Provincia: Asiago
+Indirizzo: Via Rendola, 41, 36012 Asiago VI
+Coordinate: Lat 45.880764, Lng 11.527618
+Website: http://albergorendola.it/
+Email: 
+
+5351. Albergo Ristorante Valbella
+ID: c06d0d99-2376-45a0-a0b6-6a22236c5f92
+Slug: albergo-ristorante-valbella-asiago
+Nome: Albergo Ristorante Valbella
+Comune / Provincia: Asiago
+Indirizzo: Via Monte Valbella, 38, 36032 Gallio VI
+Coordinate: Lat 45.890073, Lng 11.547615
+Website: http://www.albergovalbella.com/
+Email: 
+
+5352. Albergo Rutzer
+ID: 7d4677c5-6fd3-4380-8556-f533f4c1d54f
+Slug: albergo-rutzer-asiago
+Nome: Albergo Rutzer
+Comune / Provincia: Asiago
+Indirizzo: Via Berga, 130, 36012 Asiago VI
+Coordinate: Lat 45.877634, Lng 11.497926
+Website: http://www.rutzer.com/
+Email: 
+
+5353. Asiago Sporting Hotel & SPA
+ID: a93a4c42-c21f-4f6d-9793-0e2a0e64a03a
+Slug: asiago-sporting-hotel-spa-asiago
+Nome: Asiago Sporting Hotel & SPA
+Comune / Provincia: Asiago
+Indirizzo: Corso IV Novembre, 77, 36012 Asiago VI
+Coordinate: Lat 45.873561, Lng 11.510302
+Website: http://www.asiagosporting.com/
+Email: 
+
+5354. B&B Asiago Keple
+ID: 99e04529-a103-4922-b0b7-d96781107f4e
+Slug: b-b-asiago-keple-asiago
+Nome: B&B Asiago Keple
+Comune / Provincia: Asiago
+Indirizzo: Via Jacopo Scajaro, 6, 36012 Asiago VI
+Coordinate: Lat 45.874386, Lng 11.508139
+Website: https://www.keple.it/it/b-b/
+Email: 
+
+5355. B&B Happy Days Asiago
+ID: 062c1b32-927a-4df1-8df6-42ea637b7c9a
+Slug: b-b-happy-days-asiago-asiago
+Nome: B&B Happy Days Asiago
+Comune / Provincia: Asiago
+Indirizzo: Via IV Novembre, 22, 36010 Mezzaselva VI
+Coordinate: Lat 45.869079, Lng 11.428367
+Website: http://www.bbhappydays.it/
+Email: 

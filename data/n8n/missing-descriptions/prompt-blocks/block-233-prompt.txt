@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+8121. Locanda Barchetta - Room Rental
+ID: 8b69dacc-45da-4f91-9909-b239263cd4ee
+Slug: locanda-barchetta-room-rental-bellagio
+Nome: Locanda Barchetta - Room Rental
+Comune / Provincia: Bellagio
+Indirizzo: Via Centrale, 13, 22021 Bellagio CO
+Coordinate: Lat 45.987508, Lng 9.261204
+Website: https://www.ristorantebarchetta.com/
+Email: 
+
+8122. Locanda della Maria
+ID: b9496af8-ce31-42b6-9a1c-48def98b631f
+Slug: locanda-della-maria-bellagio
+Nome: Locanda della Maria
+Comune / Provincia: Bellagio
+Indirizzo: Via Lodovico Loreti, 5, 22021 Bellagio CO
+Coordinate: Lat 45.974526, Lng 9.245599
+Website: http://www.bookingbellagio.com/
+Email: 
+
+8123. Luxury Lodges
+ID: 738bd261-2c0f-4aa6-bece-9427937b92ce
+Slug: luxury-lodges-bellagio
+Nome: Luxury Lodges
+Comune / Provincia: Bellagio
+Indirizzo: V. Valassina, 170/C, 22021 Bellagio CO
+Coordinate: Lat 45.971156, Lng 9.253869
+Website: https://www.glampingbellagio.com/
+Email: 
+
+8124. Miralago B&B and Apartments
+ID: abbe4c0f-663d-4c53-bf8b-4e71d6de70e3
+Slug: miralago-b-b-and-apartments-bellagio
+Nome: Miralago B&B and Apartments
+Comune / Provincia: Bellagio
+Indirizzo: Via Pescallo, 19, 22021 Bellagio CO
+Coordinate: Lat 45.981628, Lng 9.263305
+Website: https://www.miralagobellagio.com/
+Email: 
+
+8125. Residence la Limonera
+ID: 6f78b0f2-6851-4971-96ac-651481e29511
+Slug: residence-la-limonera-bellagio
+Nome: Residence la Limonera
+Comune / Provincia: Bellagio
+Indirizzo: Via C. Bellosio, 2, 22021 Bellagio CO
+Coordinate: Lat 45.98704, Lng 9.26197
+Website: http://www.residencelalimonera.com/
+Email: 
+
+8126. The Iconic Lodge
+ID: 55fa7c47-8b0a-460f-b310-d3db6c263569
+Slug: the-iconic-lodge-bellagio
+Nome: The Iconic Lodge
+Comune / Provincia: Bellagio
+Indirizzo: V. Valassina, 183, 22021 Bellagio CO
+Coordinate: Lat 45.95547, Lng 9.255574
+Website: https://theiconiclodge.com/pages/hospitality-iconic-lodge
+Email: 
+
+8127. Albergo Ristorante All'Orrido
+ID: 30ebec6a-2f27-4c1b-bdc5-6baf6519d008
+Slug: albergo-ristorante-all-orrido-bellano
+Nome: Albergo Ristorante All'Orrido
+Comune / Provincia: Bellano
+Indirizzo: Via XX Settembre, 19, 23822 Bellano LC
+Coordinate: Lat 46.04168, Lng 9.302312
+Website: https://albergo-ristorante-allorrido.bellaitaliatrips.top/
+Email: 
+
+8128. Albergo Ristorante Pizzeria del Sole
+ID: 5007fa65-1f4e-4d4f-9bfe-f43fbbb471ee
+Slug: albergo-ristorante-pizzeria-del-sole-bellano
+Nome: Albergo Ristorante Pizzeria del Sole
+Comune / Provincia: Bellano
+Indirizzo: P.za S. Giorgio, 17, 23829 Varenna LC
+Coordinate: Lat 46.010202, Lng 9.283409
+Website: http://www.solevarenna.altervista.org/
+Email: 
+
+8129. B&B Il Vicolo agli Orti
+ID: 622c4d4e-d808-4b60-9208-8d7522fd833f
+Slug: b-b-il-vicolo-agli-orti-bellano
+Nome: B&B Il Vicolo agli Orti
+Comune / Provincia: Bellano
+Indirizzo: Via Agli Orti, 1, 23822 Bellano LC
+Coordinate: Lat 46.043973, Lng 9.305027
+Website: https://bebvicoloagliorti.it/
+Email: 
+
+8130. B&B Maison Blanche
+ID: 13158fee-6b6f-4549-a281-eb8e09d13598
+Slug: b-b-maison-blanche-bellano
+Nome: B&B Maison Blanche
+Comune / Provincia: Bellano
+Indirizzo: Via P. Badoglio, 9, 23824 Dervio LC
+Coordinate: Lat 46.085178, Lng 9.310395
+Website: https://bb-maison-blanche.mondoinviaggio.top/
+Email: 
+
+8131. Bed and Breakfast del Viandante
+ID: ba4acf2c-835e-44b6-848d-7dc95ad54aa7
+Slug: bed-and-breakfast-del-viandante-bellano
+Nome: Bed and Breakfast del Viandante
+Comune / Provincia: Bellano
+Indirizzo: Frazione Lezzeno, 19, 23822 Bellano LC
+Coordinate: Lat 46.046608, Lng 9.311395
+Website: http://www.bebviandante.com/
+Email: 
+
+8132. Bed and Rider "la tana del Biker"
+ID: 04acb109-0b1f-4f6a-99a6-83eea7266736
+Slug: bed-and-rider-la-tana-del-biker-bellano
+Nome: Bed and Rider "la tana del Biker"
+Comune / Provincia: Bellano
+Indirizzo: Via Taceno, 6, 23822 Bellano LC
+Coordinate: Lat 46.040914, Lng 9.302646
+Website: https://airbnb.com/h/bedandriderroom1
+Email: 
+
+8133. Hotel Il Portichetto
+ID: 420a7e53-e71f-4c89-bf15-3a346f15b9a3
+Slug: hotel-il-portichetto-bellano
+Nome: Hotel Il Portichetto
+Comune / Provincia: Bellano
+Indirizzo: Via del Castellano, 9, 23828 Vezio LC
+Coordinate: Lat 46.010565, Lng 9.290245
+Website: https://www.hotelilportichetto.com/
+Email: 
+
+8134. Hotel Lauro
+ID: 31d99266-f385-44b6-9f57-0ad05b79a826
+Slug: hotel-lauro-bellano
+Nome: Hotel Lauro
+Comune / Provincia: Bellano
+Indirizzo: Contrada Larga, 12, 22010 Santa Maria Rezzonico CO
+Coordinate: Lat 46.070051, Lng 9.27703
+Website: http://www.hotellauro.com/
+Email: 
+
+8135. Hotel Restaurant Meridiana
+ID: 40c865fe-8b43-4e63-b559-34e0f2efdfcf
+Slug: hotel-restaurant-meridiana-bellano
+Nome: Hotel Restaurant Meridiana
+Comune / Provincia: Bellano
+Indirizzo: Via Carlo Alberto, 19, 23822 Bellano LC
+Coordinate: Lat 46.0475, Lng 9.305556
+Website: http://www.meridianotel.it/
+Email: 
+
+8136. Hotel Sole
+ID: f18280db-69d1-477c-8793-6806d4c42a9d
+Slug: hotel-sole-bellano
+Nome: Hotel Sole
+Comune / Provincia: Bellano
+Indirizzo: Via Statale, 263, 22010 San Siro CO
+Coordinate: Lat 46.067461, Lng 9.271866
+Website: http://www.hotelsolelagocomo.it/
+Email: 
+
+8137. Il Pontile Historic Center with AC by villavistalago Bellano
+ID: f13815dc-e68a-48ef-a741-364f56fd04e5
+Slug: il-pontile-historic-center-with-ac-by-villavista-bellano
+Nome: Il Pontile Historic Center with AC by villavistalago Bellano
+Comune / Provincia: Bellano
+Indirizzo: Via Vittorio Veneto, 2, 23822 Bellano LC
+Coordinate: Lat 46.043486, Lng 9.302422
+Website: https://www.villavistalago.it/en
+Email: 
+
+8138. La Casa Sul Sasso B&B and apartments
+ID: 23d7cbf0-c220-4709-ab03-b6e0de59c99f
+Slug: la-casa-sul-sasso-b-b-and-apartments-bellano
+Nome: La Casa Sul Sasso B&B and apartments
+Comune / Provincia: Bellano
+Indirizzo: Via Madonnina Nr3, Via Castello, 3, 23824 Dervio LC
+Coordinate: Lat 46.076143, Lng 9.307528
+Website: http://www.bbcstone.com/
+Email: 
+
+8139. La locanda del viandante
+ID: 0b2e16f2-c2ff-4c6f-a40f-81f5bc7a5a5f
+Slug: la-locanda-del-viandante-bellano
+Nome: La locanda del viandante
+Comune / Provincia: Bellano
+Indirizzo: Via Taceno, 11, 23822 Bellano LC
+Coordinate: Lat 46.041215, Lng 9.302767
+Website: —
+Email: 
+
+8140. Valle dei Mulini Rent Room&Apartments
+ID: cb9723cd-4da9-4781-8da1-19384af466b2
+Slug: valle-dei-mulini-rent-room-apartments-bellano
+Nome: Valle dei Mulini Rent Room&Apartments
+Comune / Provincia: Bellano
+Indirizzo: via Colico, 28, 23822 Bellano LC
+Coordinate: Lat 46.051984, Lng 9.311278
+Website: https://valledeimulinilakecomo.it/
+Email: 
+
+8141. Villa Anita
+ID: b18c1721-a31b-46a2-824c-702147435b8e
+Slug: villa-anita-bellano
+Nome: Villa Anita
+Comune / Provincia: Bellano
+Indirizzo: Strada Nuova per Oro, 5-39, 23822 Bellano LC
+Coordinate: Lat 46.048322, Lng 9.309232
+Website: http://www.villanita.lc.it/
+Email: 
+
+8142. Villa Marina
+ID: e0b9760d-d259-4284-8a8b-09512db9b3ed
+Slug: villa-marina-bellano
+Nome: Villa Marina
+Comune / Provincia: Bellano
+Indirizzo: SP72, 5, 23822 Bellano LC
+Coordinate: Lat 46.050755, Lng 9.309999
+Website: http://www.villamarinabellano.com/
+Email: 
+
+8143. Villa Rêverie - Boutique Hotel
+ID: 2ae98c28-3b41-4d00-93c5-2844ba8e28f7
+Slug: villa-reverie-boutique-hotel-bellano
+Nome: Villa Rêverie - Boutique Hotel
+Comune / Provincia: Bellano
+Indirizzo: Via Lecco, 12, 23822 Bellano LC
+Coordinate: Lat 46.035883, Lng 9.299284
+Website: https://www.villareverie.it/
+Email: 
+
+8144. Villa Stefy B&B
+ID: 99d05b63-bd61-4abe-9584-915e236cbb77
+Slug: villa-stefy-b-b-bellano
+Nome: Villa Stefy B&B
+Comune / Provincia: Bellano
+Indirizzo: Via Valvarrone, 28, 23824 Dervio LC
+Coordinate: Lat 46.078493, Lng 9.309982
+Website: http://villastefy.net/
+Email: 
+
+8145. B&B Al Vicoletto
+ID: e0a6f70f-f169-4dd4-82ce-3c315deec247
+Slug: b-b-al-vicoletto-bellante
+Nome: B&B Al Vicoletto
+Comune / Provincia: Bellante
+Indirizzo: Via Primo Riccitelli, 64020 Bellante TE
+Coordinate: Lat 42.744336, Lng 13.805566
+Website: https://www.bnbalvicolettobellante.it/
+Email: 
+
+8146. B&B La Villetta
+ID: cc745792-88ed-49c6-92d2-6431da3bf841
+Slug: b-b-la-villetta-bellante
+Nome: B&B La Villetta
+Comune / Provincia: Bellante
+Indirizzo: Via Colle Izzano, 95A, 64020 Bellante TE
+Coordinate: Lat 42.713814, Lng 13.841713
+Website: —
+Email: 
+
+8147. Breaking Business Hotel
+ID: 5121e1f5-5ed2-4d3d-8834-d23d587b0491
+Slug: breaking-business-hotel-bellante
+Nome: Breaking Business Hotel
+Comune / Provincia: Bellante
+Indirizzo: Via Italia, 64023 Mosciano Sant'Angelo TE
+Coordinate: Lat 42.713567, Lng 13.908574
+Website: https://www.breakinghotel.com/
+Email: 
+
+8148. Casale dei Ciliegi
+ID: 2e875845-ce6e-4f10-ba0c-9d82bc57c091
+Slug: casale-dei-ciliegi-bellante
+Nome: Casale dei Ciliegi
+Comune / Provincia: Bellante
+Indirizzo: Via Case Sparse, 64012 Floriano TE
+Coordinate: Lat 42.767124, Lng 13.768395
+Website: http://www.casaledeiciliegi.it/
+Email: 
+
+8149. Castello di Petecciano Ristorante B&B - Eventi
+ID: 15d66fd8-0bc3-4562-9081-7624ab6c6d96
+Slug: castello-di-petecciano-ristorante-b-b-eventi-bellante
+Nome: Castello di Petecciano Ristorante B&B - Eventi
+Comune / Provincia: Bellante
+Indirizzo: Via Santa Maria Assunta, 45, 64023 Mosciano Sant'Angelo TE
+Coordinate: Lat 42.731842, Lng 13.87913
+Website: —
+Email: 
+
+8150. Cataleya Resort & Spa
+ID: f92dce0b-6f5f-401b-8e16-025c6fcd9b60
+Slug: cataleya-resort-spa-bellante
+Nome: Cataleya Resort & Spa
+Comune / Provincia: Bellante
+Indirizzo: Via Istria, 2/A, 64024 Notaresco TE
+Coordinate: Lat 42.66205, Lng 13.901853
+Website: https://www.cataleyaresortspa.it/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+8151. Dimora Morello
+ID: f1116a4a-d2e0-4fe2-873f-1e0a1b42f790
+Slug: dimora-morello-bellante
+Nome: Dimora Morello
+Comune / Provincia: Bellante
+Indirizzo: Via della Stella, 21, 64027 Poggio Morello TE
+Coordinate: Lat 42.784086, Lng 13.870667
+Website: http://www.dimoramorello.com/
+Email: 
+
+8152. Il Casolare
+ID: 95a9ce04-18b2-4003-8ae7-8f82bf61760d
+Slug: il-casolare-bellante
+Nome: Il Casolare
+Comune / Provincia: Bellante
+Indirizzo: Via Fonte a Collina, 421, 64012 Floriano TE
+Coordinate: Lat 42.775932, Lng 13.76577
+Website: http://www.agriturismoilcasolare.com/
+Email: 
+
+8153. Il Parco Sul Mare Resort & SPA
+ID: 9a0e6a98-5a54-4852-b415-72ea525de94b
+Slug: il-parco-sul-mare-resort-spa-bellante
+Nome: Il Parco Sul Mare Resort & SPA
+Comune / Provincia: Bellante
+Indirizzo: Via Vascello, 17A, 64018 Tortoreto TE
+Coordinate: Lat 42.81198, Lng 13.921764
+Website: http://www.ilparcosulmare.com/
+Email: 
+
+8154. La Residenza di Campagna
+ID: d6c0a7ed-b7ce-4013-b807-3adcbb0f7c2d
+Slug: la-residenza-di-campagna-bellante
+Nome: La Residenza di Campagna
+Comune / Provincia: Bellante
+Indirizzo: Contrada Chiareto 35, 64020 Bellante TE
+Coordinate: Lat 42.721958, Lng 13.77784
+Website: —
+Email: 
+
+8155. Villa Floriana
+ID: 71fa37bd-b310-45e2-9e61-3d2c40b605b8
+Slug: villa-floriana-bellante
+Nome: Villa Floriana
+Comune / Provincia: Bellante
+Indirizzo: Via dell'Acquedotto, 2, 64018 Tortoreto TE
+Coordinate: Lat 42.808152, Lng 13.907013
+Website: http://www.villafloriana.com/
+Email: 

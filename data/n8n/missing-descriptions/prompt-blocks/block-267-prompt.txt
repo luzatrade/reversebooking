@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+9311. Park Hotel Olimpia
+ID: ec1ece64-a8d4-4efb-8d38-2bf93b82c75c
+Slug: park-hotel-olimpia-bobbio
+Nome: Park Hotel Olimpia
+Comune / Provincia: Bobbio
+Indirizzo: Località Pregola 58, 27050 Brallo di Pregola PV
+Coordinate: Lat 44.750833, Lng 9.285833
+Website: http://www.parkhotelolimpia.it/
+Email: 
+
+9312. Relais Sant'Ambrogio Agriturismo
+ID: 05d36e69-444b-4671-b8ff-b6b72fdfcff4
+Slug: relais-sant-ambrogio-agriturismo-bobbio
+Nome: Relais Sant'Ambrogio Agriturismo
+Comune / Provincia: Bobbio
+Indirizzo: loc. Sant'Ambrogio snc, 29022 Bobbio PC
+Coordinate: Lat 44.77355, Lng 9.398689
+Website: http://www.santambrogiobobbio.it/
+Email: 
+
+9313. Suites Bobbio
+ID: 22839dfb-b268-4c25-ba96-820eed6df27b
+Slug: suites-bobbio-bobbio
+Nome: Suites Bobbio
+Comune / Provincia: Bobbio
+Indirizzo: Short Lets Apartments - Suite della Contrada - Suite Trebbia, Contrada di Porta Nova, 30, 29022 Bobbio PC
+Coordinate: Lat 44.76822, Lng 9.386533
+Website: https://www.suitesbobbio.com/
+Email: 
+
+9314. Agribenessere agli abatti
+ID: 5781f4ae-8348-4bc0-84f4-9b86968447a4
+Slug: agribenessere-agli-abatti-bobbio-pellice
+Nome: Agribenessere agli abatti
+Comune / Provincia: Bobbio Pellice
+Indirizzo: Via Pian Lissard, 63, 12032 Barge CN
+Coordinate: Lat 44.714839, Lng 7.281764
+Website: https://www.agribenessereagliabatti.org/
+Email: 
+
+9315. Albergo Club Alpino
+ID: 0d287b3f-8cd2-4692-b88a-4bcbc8ed13ce
+Slug: albergo-club-alpino-bobbio-pellice
+Nome: Albergo Club Alpino
+Comune / Provincia: Bobbio Pellice
+Indirizzo: Via Provinciale, 32, 12030 Villa CN
+Coordinate: Lat 44.698772, Lng 7.158534
+Website: https://www.clubalpino.it/
+Email: 
+
+9316. B&B “Ai Fontana”
+ID: 6d1d125f-04f2-4a5f-8f51-e4b7aeca07fe
+Slug: b-b-ai-fontana-bobbio-pellice
+Nome: B&B “Ai Fontana”
+Comune / Provincia: Bobbio Pellice
+Indirizzo: Borgata Garnier, 23, 10060 Villar Pellice TO
+Coordinate: Lat 44.809264, Lng 7.134464
+Website: http://www.aifontana.com/
+Email: 
+
+9317. B&B "C'era una volta il Bessè"
+ID: 09bbcc26-69ab-4693-be45-e6a1eafdf1aa
+Slug: b-b-c-era-una-volta-il-besse-bobbio-pellice
+Nome: B&B "C'era una volta il Bessè"
+Comune / Provincia: Bobbio Pellice
+Indirizzo: Borgata Bessè, 5, 10060 Villar Pellice TO
+Coordinate: Lat 44.815498, Lng 7.127402
+Website: http://www.ceraunavoltailbesse.it/
+Email: 
+
+9318. Hotel Bar Da Natale
+ID: 5f9a08c5-f851-4dfa-8cbc-1aab030b6eb3
+Slug: hotel-bar-da-natale-bobbio-pellice
+Nome: Hotel Bar Da Natale
+Comune / Provincia: Bobbio Pellice
+Indirizzo: Via Roma, 13, 12034 Paesana CN
+Coordinate: Lat 44.684544, Lng 7.276706
+Website: http://www.hotelbardanatale.com/
+Email: 
+
+9319. Hotel Ristorante Chiabriera
+ID: 81586d00-73b8-413b-9445-7600eb46b0a8
+Slug: hotel-ristorante-chiabriera-bobbio-pellice
+Nome: Hotel Ristorante Chiabriera
+Comune / Provincia: Bobbio Pellice
+Indirizzo: Borgo Chiabriera, 2, 10063 Pomaretto TO
+Coordinate: Lat 44.952871, Lng 7.189339
+Website: http://www.hotelchiabriera.it/
+Email: 
+
+9320. Hotel Salei
+ID: 370c1856-1772-4f28-a878-7cc13dfaef69
+Slug: hotel-salei-bobbio-pellice
+Nome: Hotel Salei
+Comune / Provincia: Bobbio Pellice
+Indirizzo: Frazione Ghigo, 10, 10060 Prali TO
+Coordinate: Lat 44.888879, Lng 7.048708
+Website: http://www.hotelsalei.it/
+Email: 
+
+9321. La Canàoula B&B
+ID: 761d8995-f030-48aa-9f7c-63df5a1fd13a
+Slug: la-canaoula-b-b-bobbio-pellice
+Nome: La Canàoula B&B
+Comune / Provincia: Bobbio Pellice
+Indirizzo: Borgata Pidone, 3, 10060 Bobbio Pellice TO
+Coordinate: Lat 44.808196, Lng 7.114575
+Website: http://facebook.com/canaoula/
+Email: 
+
+9322. Rifugio Pra la Peira
+ID: 2850ede9-e405-4d46-872c-93dac7d04d57
+Slug: rifugio-pra-la-peira-bobbio-pellice
+Nome: Rifugio Pra la Peira
+Comune / Provincia: Bobbio Pellice
+Indirizzo: località Pra la Peira, 10065 Pramollo TO
+Coordinate: Lat 44.917392, Lng 7.176688
+Website: https://www.pralapeira.com/
+Email: 
+
+9323. The Old Fountain
+ID: b34ed8e2-f998-4f9e-9660-a14d4f137396
+Slug: the-old-fountain-bobbio-pellice
+Nome: The Old Fountain
+Comune / Provincia: Bobbio Pellice
+Indirizzo: Via Inverso Rolandi, 41, 10066 Torre Pellice TO
+Coordinate: Lat 44.807218, Lng 7.185389
+Website: —
+Email: 
+
+9324. Agriturismo L'Antico Sapore
+ID: 0c24cf7b-6901-47ae-84a3-28a21423bb90
+Slug: agriturismo-l-antico-sapore-boca
+Nome: Agriturismo L'Antico Sapore
+Comune / Provincia: Boca
+Indirizzo: CODICE CIN IT003019B5NLXE3BNY/ Codice CIR 003019-AGR-00002, Str. vicinale Bellaria, 3, 28010 Boca NO
+Coordinate: Lat 45.664949, Lng 8.419848
+Website: http://www.agriturismolanticosapore.it/
+Email: 
+
+9325. Albergo Aurora
+ID: 60d042a2-6e4e-4d21-b636-f7b633d83b5a
+Slug: albergo-aurora-boca
+Nome: Albergo Aurora
+Comune / Provincia: Boca
+Indirizzo: Via IV Novembre, 8, 28075 Grignasco NO
+Coordinate: Lat 45.68119, Lng 8.337451
+Website: http://www.albergoaurora.biz/
+Email: 
+
+9326. Albergo Valsesiana
+ID: a33e8f11-638e-4938-80ae-ccf2f94ff78e
+Slug: albergo-valsesiana-boca
+Nome: Albergo Valsesiana
+Comune / Provincia: Boca
+Indirizzo: Corso XXV Aprile, 37, 28024 Gozzano NO
+Coordinate: Lat 45.742981, Lng 8.433888
+Website: http://www.albergovalsesiana.it/
+Email: 
+
+9327. B&B Le Coccinelle Grignasco
+ID: 20273583-cd7e-475e-9f45-ff7328612ffc
+Slug: b-b-le-coccinelle-grignasco-boca
+Nome: B&B Le Coccinelle Grignasco
+Comune / Provincia: Boca
+Indirizzo: Via Alessandro Volta, 47, 28075 Grignasco NO
+Coordinate: Lat 45.681345, Lng 8.347121
+Website: http://lecoccinellegrignasco.it/
+Email: 
+
+9328. Hotel Baiardo
+ID: cab61267-d2f5-4d46-90bb-7d734c22a380
+Slug: hotel-baiardo-boca
+Nome: Hotel Baiardo
+Comune / Provincia: Boca
+Indirizzo: Via Novara, 337, 28078 Romagnano Sesia NO
+Coordinate: Lat 45.615829, Lng 8.406319
+Website: http://www.hotelbaiardo.it/
+Email: 
+
+9329. Hotel del Corso
+ID: 373ff503-911c-4fe8-a347-709344248045
+Slug: hotel-del-corso-boca
+Nome: Hotel del Corso
+Comune / Provincia: Boca
+Indirizzo: Corso Sempione, 110, 28021 Borgomanero NO
+Coordinate: Lat 45.706174, Lng 8.456834
+Website: http://www.hoteldelcorsoborgomanero.it/
+Email: 
+
+9330. Hotel Rinaldo Apartments
+ID: 9641225a-bf82-48ee-ba66-ff9e5e382013
+Slug: hotel-rinaldo-apartments-boca
+Nome: Hotel Rinaldo Apartments
+Comune / Provincia: Boca
+Indirizzo: Via U. Foscolo, 31, 28021 Borgomanero NO
+Coordinate: Lat 45.699155, Lng 8.466816
+Website: https://hotelrinaldo.it/
+Email: 
+
+9331. Le Colline di Maggiora
+ID: d61ccff7-d2f0-4995-9b3d-d565689164f6
+Slug: le-colline-di-maggiora-boca
+Nome: Le Colline di Maggiora
+Comune / Provincia: Boca
+Indirizzo: Via dei Mille, 26, 28014 Maggiora NO
+Coordinate: Lat 45.6883, Lng 8.420133
+Website: http://lecollinedimaggiora.com/
+Email: 
+
+9332. Momi
+ID: e94160fd-f326-46f1-ac22-3c52b7ff7777
+Slug: momi-boca
+Nome: Momi
+Comune / Provincia: Boca
+Indirizzo: Corso Garibaldi, 48, 28021 Borgomanero NO
+Coordinate: Lat 45.69978, Lng 8.461606
+Website: https://www.momiborgomanero.com/
+Email: 
+
+9333. Otium B&B
+ID: 52ffd012-81ee-44df-89c8-56a3542de53d
+Slug: otium-b-b-boca
+Nome: Otium B&B
+Comune / Provincia: Boca
+Indirizzo: Cascina Stoccada, 5, 28010 Cavallirio NO
+Coordinate: Lat 45.661134, Lng 8.418879
+Website: https://otium-bb.italiapaesaggiviaggi.top/
+Email: 
+
+9334. B&B & VITA con piscina
+ID: 8811a481-eab1-4714-8291-cf6e72e13baa
+Slug: b-b-vita-con-piscina-bocchigliero
+Nome: B&B & VITA con piscina
+Comune / Provincia: Bocchigliero
+Indirizzo: Via Bulgaria, 17, 87060 Mirto CS
+Coordinate: Lat 39.589753, Lng 16.768416
+Website: —
+Email: 
+
+9335. B&B 3 Medaglie
+ID: 18e05f6f-c3d7-4026-881e-3e945c7389a8
+Slug: b-b-3-medaglie-bocchigliero
+Nome: B&B 3 Medaglie
+Comune / Provincia: Bocchigliero
+Indirizzo: Via Alessandro Volta, 14, 87036 Rende CS
+Coordinate: Lat 39.351471, Lng 16.244112
+Website: —
+Email: 
+
+9336. B&B Casa Federico
+ID: ccc832bd-cef2-4a86-8421-6c063af92072
+Slug: b-b-casa-federico-bocchigliero
+Nome: B&B Casa Federico
+Comune / Provincia: Bocchigliero
+Indirizzo: Via Calvario, 34, 87055 San Giovanni in Fiore CS
+Coordinate: Lat 39.25669, Lng 16.704777
+Website: https://www.casafederico.it/
+Email: 
+
+9337. B&B Casa Gabriele
+ID: b7de5d25-f8e5-4282-9f61-fac9811aca9d
+Slug: b-b-casa-gabriele-bocchigliero
+Nome: B&B Casa Gabriele
+Comune / Provincia: Bocchigliero
+Indirizzo: Contrada Oliveto Longo, 87064 Corigliano-Rossano CS
+Coordinate: Lat 39.596257, Lng 16.662135
+Website: —
+Email: 
+
+9338. B&B DON EMILIO
+ID: ce57a4de-2e22-46f2-aee9-fb1531d8f5e5
+Slug: b-b-don-emilio-bocchigliero
+Nome: B&B DON EMILIO
+Comune / Provincia: Bocchigliero
+Indirizzo: Via Antonio Gramsci, 87052 Moccone CS
+Coordinate: Lat 39.339367, Lng 16.423235
+Website: http://donemiliobeb.it/
+Email: 
+
+9339. B&B La Casa di Gioacchino
+ID: 5324d7f0-7cb3-4105-a670-048dc082d7c4
+Slug: b-b-la-casa-di-gioacchino-bocchigliero
+Nome: B&B La Casa di Gioacchino
+Comune / Provincia: Bocchigliero
+Indirizzo: Via G. B. Falcone, 4, 87055 San Giovanni in Fiore CS
+Coordinate: Lat 39.255077, Lng 16.700972
+Website: http://www.lacasadigioacchino.it/
+Email: 
+
+9340. B&B Loricaly
+ID: c06884ac-1321-47eb-8534-48b7f0598032
+Slug: b-b-loricaly-bocchigliero
+Nome: B&B Loricaly
+Comune / Provincia: Bocchigliero
+Indirizzo: Via Michele de Marco, 87055 Lorica CS
+Coordinate: Lat 39.252255, Lng 16.510915
+Website: http://www.loricaly.it/alloggi
+Email: 
+
+9341. B&B Mamma Elena
+ID: e6491ddf-cad1-4216-92fd-5dbeeaeed5ec
+Slug: b-b-mamma-elena-bocchigliero
+Nome: B&B Mamma Elena
+Comune / Provincia: Bocchigliero
+Indirizzo: Via Roma, 8, 87050 Rovito CS
+Coordinate: Lat 39.307488, Lng 16.320782
+Website: http://bnb-mammaelena.com.es/
+Email: 
+
+9342. B&B Mastro Giò
+ID: 43dcbb1d-fc11-465d-b99d-cb31499d5799
+Slug: b-b-mastro-gio-bocchigliero
+Nome: B&B Mastro Giò
+Comune / Provincia: Bocchigliero
+Indirizzo: Via Marco Polo, 22, 87055 San Giovanni in Fiore CS
+Coordinate: Lat 39.251687, Lng 16.696154
+Website: https://bebmastrogio.it/
+Email: 
+
+9343. B&b Risveglio nel Borgo
+ID: c6316fb1-8905-4029-8503-1ed47e096645
+Slug: b-b-risveglio-nel-borgo-bocchigliero
+Nome: B&b Risveglio nel Borgo
+Comune / Provincia: Bocchigliero
+Indirizzo: Via Vincenzo Monaco, 55, 87010 San Donato di Ninea CS
+Coordinate: Lat 39.709523, Lng 16.049933
+Website: https://risveglio-nel-borgo.italyfun.top/
+Email: 
+
+9344. B&B Rossini Luxury 2 - COSENZA
+ID: 3cd3d3cd-6066-40c3-9cd3-4e445e4d0392
+Slug: b-b-rossini-luxury-2-cosenza-bocchigliero
+Nome: B&B Rossini Luxury 2 - COSENZA
+Comune / Provincia: Bocchigliero
+Indirizzo: Traversa S. Proclo, 87100 Cosenza CS
+Coordinate: Lat 39.318196, Lng 16.245275
+Website: http://www.rossiniluxury.it/
+Email: 
+
+9345. B&B Villacristiano
+ID: 4d856513-5870-4f40-be0a-352614eef20b
+Slug: b-b-villacristiano-bocchigliero
+Nome: B&B Villacristiano
+Comune / Provincia: Bocchigliero
+Indirizzo: Via A. de Gasperi, 32b, 87040 Marano Marchesato CS
+Coordinate: Lat 39.305939, Lng 16.166962
+Website: https://bb-villacristiano.italiadestinazioni.top/
+Email: 

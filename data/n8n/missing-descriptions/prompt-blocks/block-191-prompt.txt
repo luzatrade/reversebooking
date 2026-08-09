@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+6651. B&B Il Rifugio - bed-and-breakfast
+ID: 26c21d50-4d79-42c2-a09c-0c8fd2cca0eb
+Slug: b-b-il-rifugio-bed-and-breakfast-baia-e-latina
+Nome: B&B Il Rifugio - bed-and-breakfast
+Comune / Provincia: Baia e Latina
+Indirizzo: 81050 Camigliano CE
+Coordinate: Lat 41.172124, Lng 14.234551
+Website: https://beb.it/ilrifugiocamigliano
+Email: 
+
+6652. Habitat Luxury Suites
+ID: 9536423e-e5cb-4c2f-8708-27a6e66ac435
+Slug: habitat-luxury-suites-baia-e-latina
+Nome: Habitat Luxury Suites
+Comune / Provincia: Baia e Latina
+Indirizzo: Via Aldo Moro, 4, 81041 Bellona CE
+Coordinate: Lat 41.157319, Lng 14.230729
+Website: https://habitatluxurysuites.it/?fbclid=PAAaYx2gQ2xpF9xOhs-56SIm9CzVA2C7mw17yGQNeTD8doMenB_uD-Neky3dU
+Email: 
+
+6653. Hotel Rosso di Sera
+ID: 5d1c5eed-8219-48b7-ae34-a79d9c3f2d04
+Slug: hotel-rosso-di-sera-baia-e-latina
+Nome: Hotel Rosso di Sera
+Comune / Provincia: Baia e Latina
+Indirizzo: SP183, 25, 81051 Pietramelara CE
+Coordinate: Lat 41.274819, Lng 14.180369
+Website: https://www.hotelrossodisera.it/
+Email: 
+
+6654. Re Di Cuori Hotel
+ID: d34a4400-0636-4a00-8708-a4a5502cdac6
+Slug: re-di-cuori-hotel-baia-e-latina
+Nome: Re Di Cuori Hotel
+Comune / Provincia: Baia e Latina
+Indirizzo: Via Ceraselle, 156, 81059 Caianello CE
+Coordinate: Lat 41.306984, Lng 14.097398
+Website: http://www.hotelredicuori.it/
+Email: 
+
+6655. B&B Dolci Sogni - Bed & Breakfast Mugnano del Cardinale
+ID: c4b56419-f3b8-4a75-aaba-ddbc5e89b44d
+Slug: b-b-dolci-sogni-bed-breakfast-mugnano-del-cardin-baiano
+Nome: B&B Dolci Sogni - Bed & Breakfast Mugnano del Cardinale
+Comune / Provincia: Baiano
+Indirizzo: Via Roma, 33, 83027 Mugnano del Cardinale AV
+Coordinate: Lat 40.945047, Lng 14.629431
+Website: http://www.bebdolcisogni.it/
+Email: 
+
+6656. B&B I Due Angeli
+ID: ca3f0d94-d5b9-4e53-a9e7-faa0e4345834
+Slug: b-b-i-due-angeli-baiano
+Nome: B&B I Due Angeli
+Comune / Provincia: Baiano
+Indirizzo: Via Quercia, 41, 83020 Sirignano AV
+Coordinate: Lat 40.949551, Lng 14.628314
+Website: https://gratis-5606024.webadorsite.com/
+Email: 
+
+6657. B&B Nola
+ID: 9379d5e9-ffa1-4cbc-8ad7-9c73449a8963
+Slug: b-b-nola-baiano
+Nome: B&B Nola
+Comune / Provincia: Baiano
+Indirizzo: Vicolo P. Fellecchia, 47, 80035 Nola NA
+Coordinate: Lat 40.924724, Lng 14.526157
+Website: https://bb-nola.mipiacelitalia.top/
+Email: 
+
+6658. La Casa di Lina
+ID: b54e56dc-bc6d-4285-8d20-db99cc7c5325
+Slug: la-casa-di-lina-baiano
+Nome: La Casa di Lina
+Comune / Provincia: Baiano
+Indirizzo: Via G. di Vittorio, 30, 83020 Sperone AV
+Coordinate: Lat 40.953442, Lng 14.610312
+Website: —
+Email: 
+
+6659. Lapietra_hotelescapes
+ID: ccd89658-27d5-41a6-9a54-c292af38fc89
+Slug: lapietra-hotelescapes-baiano
+Nome: Lapietra_hotelescapes
+Comune / Provincia: Baiano
+Indirizzo: Via Nuova Saviano, 157, 80040 San Gennaro Vesuviano NA
+Coordinate: Lat 40.863144, Lng 14.51155
+Website: https://www.booking.com/hotel/it/lapietra-hotelescapes.it.html?aid=376372;label=it-5Srxg0e1twJI_ryrey2UnQS267778030993%3Apl%3Ata%3Ap1%3Ap22.563.000%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp1008765%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YVcLb15uXY9drDRMbmnr9EE;sid=0447019f810a20e892d75053d85e362c;dest_id=898;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1646391289;srpvid=a29a4cbbf7ce048e;type=total;ucfs=1&#tab-main
+Email: 
+
+6660. Agrirelais La Bolla
+ID: 38ef0f17-9a6b-44df-a944-0a6c8f39a471
+Slug: agrirelais-la-bolla-bairo
+Nome: Agrirelais La Bolla
+Comune / Provincia: Bairo
+Indirizzo: Via Circonvallazione, 11, 10011 Agliè TO
+Coordinate: Lat 45.36804, Lng 7.760006
+Website: http://agrirelaislabolla.com/
+Email: 
+
+6661. Antharesworld
+ID: dc44468a-10a2-4e35-8c65-80f310710d91
+Slug: antharesworld-bairo
+Nome: Antharesworld
+Comune / Provincia: Bairo
+Indirizzo: Via Lido, 33, 10010 Candia Canavese TO
+Coordinate: Lat 45.319172, Lng 7.899968
+Website: http://www.antharesworld.com/
+Email: 
+
+6662. B&B Il Casale di Agliè
+ID: 7558bd70-70ca-4698-b0b0-86c656410583
+Slug: b-b-il-casale-di-aglie-bairo
+Nome: B&B Il Casale di Agliè
+Comune / Provincia: Bairo
+Indirizzo: Via Principe Amedeo, 40, 10011 Agliè TO
+Coordinate: Lat 45.365513, Lng 7.768377
+Website: —
+Email: 
+
+6663. B&B Il Laghetto
+ID: 1984010e-d52d-493d-87c7-ad6909793662
+Slug: b-b-il-laghetto-bairo
+Nome: B&B Il Laghetto
+Comune / Provincia: Bairo
+Indirizzo: Via S. Grato, 33, 10010 Torre Canavese TO
+Coordinate: Lat 45.394872, Lng 7.761721
+Website: —
+Email: 
+
+6664. B&B La Cascina
+ID: 162e57c3-10b4-48d6-8ebb-036340ebcb2f
+Slug: b-b-la-cascina-bairo
+Nome: B&B La Cascina
+Comune / Provincia: Bairo
+Indirizzo: Vicolo Campodoneo, 9, 10011 Agliè TO
+Coordinate: Lat 45.365355, Lng 7.767027
+Website: http://lacascinadiaglie.com/
+Email: 
+
+6665. B&B la libellula
+ID: 694a6012-52d2-4ba0-8f59-7965e6f44334
+Slug: b-b-la-libellula-bairo
+Nome: B&B la libellula
+Comune / Provincia: Bairo
+Indirizzo: Via Santuario, 10, 10080 Cintano TO
+Coordinate: Lat 45.422776, Lng 7.684932
+Website: https://www.lalibellulabb.it/
+Email: 
+
+6666. B&B Torre Cives
+ID: a1062c47-8d5f-46df-931e-f0aa2a0c6efe
+Slug: b-b-torre-cives-bairo
+Nome: B&B Torre Cives
+Comune / Provincia: Bairo
+Indirizzo: Via Muriaglio, 18, 10080 Vidracco TO
+Coordinate: Lat 45.425315, Lng 7.746964
+Website: https://torrecives.wordpress.com/
+Email: 
+
+6667. Bed&breakfast Mezzaluna
+ID: c81e1eb3-8759-40c6-a337-ff624a0c0c8b
+Slug: bed-breakfast-mezzaluna-bairo
+Nome: Bed&breakfast Mezzaluna
+Comune / Provincia: Bairo
+Indirizzo: Via Gianni Micheletto, N.58, 10080 Feletto TO
+Coordinate: Lat 45.301947, Lng 7.746576
+Website: https://samanthastravelexperience.com/bed-amp-bredfast-mezzaluna-italy
+Email: 
+
+6668. Casa Omnia B&B
+ID: 20826a22-2cd4-40d9-ba6c-724eb6f2c0db
+Slug: casa-omnia-b-b-bairo
+Nome: Casa Omnia B&B
+Comune / Provincia: Bairo
+Indirizzo: Strada Provinciale 61 per, 10080 Issiglio TO
+Coordinate: Lat 45.441882, Lng 7.718862
+Website: http://www.bbcasaomnia.it/
+Email: 
+
+6669. Hotel Motel & Residence "S" - Front
+ID: 86061518-f385-4dd1-979a-de442cae3a15
+Slug: hotel-motel-residence-s-front-bairo
+Nome: Hotel Motel & Residence "S" - Front
+Comune / Provincia: Bairo
+Indirizzo: Via Giovanni, Via Roveda, 10, 10070 Front TO
+Coordinate: Lat 45.290821, Lng 7.668656
+Website: http://www.hotelsfront.it/
+Email: 
+
+6670. Il Vecchio Comune B&B
+ID: 24f2c22a-fcfd-4b85-beef-ffec279f6efb
+Slug: il-vecchio-comune-b-b-bairo
+Nome: Il Vecchio Comune B&B
+Comune / Provincia: Bairo
+Indirizzo: Via Chiuminatto, 14, 10080 Cintano TO
+Coordinate: Lat 45.428227, Lng 7.687537
+Website: http://www.ilvecchiocomune.it/
+Email: 
+
+6671. Locanda La Guienda
+ID: 7b9f0d8d-13e7-41d0-9c67-025d7226d4db
+Slug: locanda-la-guienda-bairo
+Nome: Locanda La Guienda
+Comune / Provincia: Bairo
+Indirizzo: Via S. Grato, 15, 10010 Torre Canavese TO
+Coordinate: Lat 45.394169, Lng 7.761579
+Website: https://www.locandalaguienda.it/
+Email: 
+
+6672. Mulino di Bairo
+ID: 5a003416-96c3-4064-8b77-f7f8c3950178
+Slug: mulino-di-bairo-bairo
+Nome: Mulino di Bairo
+Comune / Provincia: Bairo
+Indirizzo: Via Molino, 6, 10010 Bairo TO
+Coordinate: Lat 45.368845, Lng 7.747805
+Website: http://mulinodibairo.it/
+Email: 
+
+6673. OstellOrto
+ID: b717b543-7467-46ee-be37-c64bf705eb2f
+Slug: ostellorto-bairo
+Nome: OstellOrto
+Comune / Provincia: Bairo
+Indirizzo: Via delle Scuole, 37, 10010 Silva TO
+Coordinate: Lat 45.39202, Lng 7.785134
+Website: http://www.ostellorto.com/
+Email: 
+
+6674. Residenza del Lago
+ID: 8c8f1304-d1d7-4d1d-abe4-294cf1f82f07
+Slug: residenza-del-lago-bairo
+Nome: Residenza del Lago
+Comune / Provincia: Bairo
+Indirizzo: Via Roma, 48Bis, 10010 Candia Canavese TO
+Coordinate: Lat 45.327409, Lng 7.8846
+Website: http://www.residenzadelago.it/
+Email: 
+
+6675. Ristorante Albergo Tre Re
+ID: 31e01903-1a1a-4609-ab79-c73a2a173e43
+Slug: ristorante-albergo-tre-re-bairo
+Nome: Ristorante Albergo Tre Re
+Comune / Provincia: Bairo
+Indirizzo: Piazza Martiri Della Liberta', 27, 10181 Castellamonte TO
+Coordinate: Lat 45.3833, Lng 7.709288
+Website: http://trerecastellamonte.it/
+Email: 
+
+6676. Agriturismo Ca' del Ciuco
+ID: 33e4b271-11d8-402d-b925-105bdbb122bb
+Slug: agriturismo-ca-del-ciuco-baiso
+Nome: Agriturismo Ca' del Ciuco
+Comune / Provincia: Baiso
+Indirizzo: Via Case Martini, 6, 42030 Vezzano sul Crostolo RE
+Coordinate: Lat 44.576026, Lng 10.484148
+Website: http://www.cadelciuco.it/
+Email: 
+
+6677. Agriturismo di Sordiglio
+ID: 3ef8c229-401a-4703-91c4-f6eb7d8f2ee0
+Slug: agriturismo-di-sordiglio-baiso
+Nome: Agriturismo di Sordiglio
+Comune / Provincia: Baiso
+Indirizzo: Via Paullo Sordiglio, 26, 42034 Sordiglio RE
+Coordinate: Lat 44.562794, Lng 10.484982
+Website: http://www.agriturismodisordiglio.com/
+Email: 
+
+6678. Agriturismo La Borgaccia
+ID: 0f019ea4-d22f-4db6-a7f9-53050abf0889
+Slug: agriturismo-la-borgaccia-baiso
+Nome: Agriturismo La Borgaccia
+Comune / Provincia: Baiso
+Indirizzo: Via, Baiso RE IT, 42031 Ca' D'orio RE
+Coordinate: Lat 44.484157, Lng 10.620595
+Website: —
+Email: 
+
+6679. Agriturismo San Valentino
+ID: 5a41fe55-7114-4f5b-94b9-b74cbd643635
+Slug: agriturismo-san-valentino-baiso
+Nome: Agriturismo San Valentino
+Comune / Provincia: Baiso
+Indirizzo: Via Rontano, 35, 42014 Castellarano RE
+Coordinate: Lat 44.504933, Lng 10.689196
+Website: http://www.agriturismosanvalentino.it/
+Email: 
+
+6680. B&B Canossalpaca
+ID: b3e23cde-0812-43b4-b49f-30bf3c5ed738
+Slug: b-b-canossalpaca-baiso
+Nome: B&B Canossalpaca
+Comune / Provincia: Baiso
+Indirizzo: Via Ceredolo dei coppi 149, 42026 Canossa RE
+Coordinate: Lat 44.556859, Lng 10.454943
+Website: —
+Email: 
+
+6681. Bed and Breakfast CASTELLO SAN ROMANO
+ID: 791a0388-1ab8-4810-8c84-8739e5694222
+Slug: bed-and-breakfast-castello-san-romano-baiso
+Nome: Bed and Breakfast CASTELLO SAN ROMANO
+Comune / Provincia: Baiso
+Indirizzo: Via Castello di S. Romano, 42031 Baiso RE
+Coordinate: Lat 44.52202, Lng 10.638957
+Website: http://www.castellodisanromano.it/
+Email: 
+
+6682. Borgo Cadonega Relais & Spa
+ID: b5e0107b-d741-486b-adae-0513166a0e9f
+Slug: borgo-cadonega-relais-spa-baiso
+Nome: Borgo Cadonega Relais & Spa
+Comune / Provincia: Baiso
+Indirizzo: Via Cadonega, 7, 42030 Viano RE
+Coordinate: Lat 44.543015, Lng 10.623348
+Website: http://www.cadonega.it/
+Email: 
+
+6683. Castello di Viano - Ristorante - Room & Suite
+ID: da659f2c-81e6-4272-ad01-4cc5cf0d9e63
+Slug: castello-di-viano-ristorante-room-suite-baiso
+Nome: Castello di Viano - Ristorante - Room & Suite
+Comune / Provincia: Baiso
+Indirizzo: Via Castello, 9, 42030 Viano RE
+Coordinate: Lat 44.550271, Lng 10.638424
+Website: https://www.castellodiviano.it/
+Email: 
+
+6684. Cherry House B&B
+ID: 88966847-bfce-4029-877e-02527688cbe9
+Slug: cherry-house-b-b-baiso
+Nome: Cherry House B&B
+Comune / Provincia: Baiso
+Indirizzo: Via Orazio Vecchi, 22, 41040 Polinago MO
+Coordinate: Lat 44.346916, Lng 10.728462
+Website: http://www.cherryhouseinitaly.com/
+Email: 
+
+6685. Fattoria Branciana
+ID: 40d2ca30-4036-4b40-9e43-b63ac15b4739
+Slug: fattoria-branciana-baiso
+Nome: Fattoria Branciana
+Comune / Provincia: Baiso
+Indirizzo: Via Rossena, 93, 42026 Canossa RE
+Coordinate: Lat 44.568266, Lng 10.44764
+Website: http://fattoriabranciana.github.io/
+Email: 

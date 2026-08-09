@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16626. B&B HOTEL Madrid Centro Puerta del Sol
+ID: 067d36fe-8490-4b2c-b668-4a5ce21d2d78
+Slug: b-b-hotel-madrid-centro-puerta-del-sol-madrid
+Nome: B&B HOTEL Madrid Centro Puerta del Sol
+Comune / Provincia: Madrid
+Indirizzo: C. de la Montera, 10, Centro, 28013 Madrid
+Coordinate: Lat 40.417583, Lng -3.702503
+Website: https://www.hotel-bb.com/es/hotel/madrid-puerta-del-sol?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=madrid_puertadelsol
+Email: 
+
+16627. Hostal Cruz Sol
+ID: de799ed7-5ca4-4f4c-a0b7-22f41c3f895c
+Slug: hostal-cruz-sol-madrid
+Nome: Hostal Cruz Sol
+Comune / Provincia: Madrid
+Indirizzo: Plaza de Santa Cruz, 6, Centro, 28012 Madrid
+Coordinate: Lat 40.415361, Lng -3.705642
+Website: https://hostalcruzsol.com/
+Email: 
+
+16628. Hostal Madrid
+ID: 956d9f5d-fb81-4eb5-b004-45fadc99cb19
+Slug: hostal-madrid-madrid
+Nome: Hostal Madrid
+Comune / Provincia: Madrid
+Indirizzo: C. de Esparteros, 6, Centro, 28012 Madrid
+Coordinate: Lat 40.416048, Lng -3.705203
+Website: http://www.hostal-madrid.info/
+Email: 
+
+16629. Hotel Cortezo
+ID: 49f602c6-c999-4270-9938-d2e23fee30b3
+Slug: hotel-cortezo-madrid
+Nome: Hotel Cortezo
+Comune / Provincia: Madrid
+Indirizzo: Calle del Dr Cortezo, 3, Centro, 28012 Madrid
+Coordinate: Lat 40.413672, Lng -3.703572
+Website: https://www.hotelcortezo.com/?referer_code=GOOGLEBP
+Email: reservas@hotelcortezo.com
+
+16630. hotel madrid
+ID: 883bc85f-d919-4042-aaa3-67871c196b21
+Slug: hotel-madrid-madrid
+Nome: hotel madrid
+Comune / Provincia: Madrid
+Indirizzo: C. del Marqués Viudo de Pontejos, 13-11, Centro, Centro, 28012 Madrid
+Coordinate: Lat 40.415766, Lng -3.705317
+Website: —
+Email: 
+
+16631. Hotel Moderno
+ID: 8ddb12af-4f6f-4ff8-8735-0315997bfc00
+Slug: hotel-moderno-madrid
+Nome: Hotel Moderno
+Comune / Provincia: Madrid
+Indirizzo: C. del Arenal, 2, Centro, 28013 Madrid
+Coordinate: Lat 40.417042, Lng -3.704891
+Website: http://www.hotel-moderno.com/?utm_source=google&utm_medium=organic&utm_campaign=my_business
+Email: info@hotel-moderno.com
+
+16632. Hotel Preciados Madrid
+ID: ff4f7654-e35c-433f-bf03-289cd1130065
+Slug: hotel-preciados-madrid-madrid
+Nome: Hotel Preciados Madrid
+Comune / Provincia: Madrid
+Indirizzo: C. de Preciados, 37, Centro, 28013 Madrid
+Coordinate: Lat 40.419694, Lng -3.707505
+Website: https://preciadoshotel.com/
+Email: 
+
+16633. Hyatt Centric Gran Via Madrid
+ID: 17536c10-bd46-40d5-8dcf-98a8a087dca7
+Slug: hyatt-centric-gran-via-madrid-madrid
+Nome: Hyatt Centric Gran Via Madrid
+Comune / Provincia: Madrid
+Indirizzo: Gran Vía, 31, Centro, 28013 Centro, Madrid
+Coordinate: Lat 40.420008, Lng -3.703691
+Website: https://www.hyatt.com/hyatt-centric/en-US/madct-hyatt-centric-gran-via-madrid?src=corp_lclb_google_seo_madct&utm_source=google&utm_medium=organic&utm_campaign=lmr
+Email: 
+
+16634. Liabeny Hotel Madrid
+ID: f9e9ba35-7316-44b2-85e6-5c6c6741e16f
+Slug: liabeny-hotel-madrid-madrid
+Nome: Liabeny Hotel Madrid
+Comune / Provincia: Madrid
+Indirizzo: C. de la Salud, 3, Centro, 28013 Madrid
+Coordinate: Lat 40.418684, Lng -3.704
+Website: https://www.liabeny.es/
+Email: info@liabeny.com
+
+16635. Petit Palace Preciados
+ID: eb4be22e-d031-475e-9d62-5de5a5fa5830
+Slug: petit-palace-preciados-madrid
+Nome: Petit Palace Preciados
+Comune / Provincia: Madrid
+Indirizzo: C. de Galdo, 2, Centro, 28013 Madrid
+Coordinate: Lat 40.418105, Lng -3.704343
+Website: https://www.petitpalace.com/en/petit-palace-preciados/?utm_source=google&utm_medium=organic&utm_campaign=MyBusiness&utm_content=LON&origin_source=google&origin_medium=organic&origin_campaign=MyBusiness
+Email: 
+
+16636. Petit Palace Puerta del Sol
+ID: 97d47db3-94fb-413d-ae9e-d247d0fa6961
+Slug: petit-palace-puerta-del-sol-madrid
+Nome: Petit Palace Puerta del Sol
+Comune / Provincia: Madrid
+Indirizzo: C. del Arenal, 4, Centro, 28013 Madrid
+Coordinate: Lat 40.417026, Lng -3.705092
+Website: https://www.petitpalace.com/en/petit-palace-puerta-del-sol/?utm_source=google&utm_medium=organic&utm_campaign=MyBusiness&utm_content=PDS&origin_source=google&origin_medium=organic&origin_campaign=MyBusiness
+Email: 
+
+16637. The Madrid EDITION
+ID: f05c5b7c-4479-4756-babb-965a0c90abe6
+Slug: the-madrid-edition-madrid
+Nome: The Madrid EDITION
+Comune / Provincia: Madrid
+Indirizzo: Pl. de Celenque, 2, Centro, 28013 Madrid
+Coordinate: Lat 40.417536, Lng -3.70603
+Website: https://www.marriott.com/en-us/hotels/madeb-the-madrid-edition/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0
+Email: 
+
+16638. UMusic Hotel Madrid
+ID: 3679f05c-f4bb-479a-a5bb-1afd2330a980
+Slug: umusic-hotel-madrid-madrid
+Nome: UMusic Hotel Madrid
+Comune / Provincia: Madrid
+Indirizzo: C. de la Paz, 11, Centro, 28012 Madrid
+Coordinate: Lat 40.415345, Lng -3.704102
+Website: https://www.umusic-hotels.com/es/umusic-hotel-madrid?utm_source=google&utm_medium=organic&utm_campaign=madrid-google-my-business
+Email: info.madrid@umusic-hotels.com
+
+16639. Woohoo Rooms Boutique Sol
+ID: 4bfcbac4-b771-4e3d-81ca-9fcb61818396
+Slug: woohoo-rooms-boutique-sol-madrid
+Nome: Woohoo Rooms Boutique Sol
+Comune / Provincia: Madrid
+Indirizzo: C. de Carretas, 7, 3ª y 4ª planta, Centro, 28012 Madrid
+Coordinate: Lat 40.416316, Lng -3.703052
+Website: https://woohoo-group.com/woohoo-boutique-sol/?partner=9322utm_source=google&utm_medium=organic&utm_campaign=MyBusiness&utm
+Email: info@woohoo-group.com
+
+16640. Woohoo Suites Madrid
+ID: dcca9889-db5f-4fd5-ae1f-614282e3b12f
+Slug: woohoo-suites-madrid-madrid
+Nome: Woohoo Suites Madrid
+Comune / Provincia: Madrid
+Indirizzo: C. de Concepcion Arenal, 6, 1º, Centro, 28004 Madrid
+Coordinate: Lat 40.420789, Lng -3.704671
+Website: https://woohoo-group.com/woohoo-suites-madrid/?partner=9322utm_source=google&utm_medium=organic&utm_campaign=MyBusiness&utm
+Email: info@woohoo-group.com
+
+16641. Amelie Hotel Manila
+ID: 202346c5-aa55-4adc-833a-2ba4e75d5779
+Slug: amelie-hotel-manila-manila
+Nome: Amelie Hotel Manila
+Comune / Provincia: Manila
+Indirizzo: 1667 Bocobo St, Malate, Manila, 1004 Metro Manila
+Coordinate: Lat 14.573199, Lng 120.985016
+Website: https://www.ameliehotelmanila.com/
+Email: 
+
+16642. Bayview Park Hotel Manila
+ID: 6b14188e-83a3-43d5-a06d-f0d91b741995
+Slug: bayview-park-hotel-manila-manila
+Nome: Bayview Park Hotel Manila
+Comune / Provincia: Manila
+Indirizzo: 1118 Roxas Boulevard, corner United Nations Avenue, Ermita, Manila, 1000 Metro Manila
+Coordinate: Lat 14.578761, Lng 120.978416
+Website: http://www.bayviewparkhotel.com/?utm_source=GooglePlusLocal&utm_medium=Local&utm_campaign=GooglePlusInitiative
+Email: 
+
+16643. City Garden Suites Manila
+ID: 08fcd9d6-25de-43df-b750-f62bad090e72
+Slug: city-garden-suites-manila-manila
+Nome: City Garden Suites Manila
+Comune / Provincia: Manila
+Indirizzo: 1158 A. Mabini St, Ermita, Manila, 1004 Metro Manila
+Coordinate: Lat 14.578896, Lng 120.980743
+Website: http://citygardensuites.com/?utm_source=google+my+business&utm_medium=gmb&utm_campaign=gmb+organic+traffic
+Email: sales@citygardensuites.com
+
+16644. Diamond Hotel Philippines
+ID: 635d99a3-0d15-4951-9cd9-29826d103ab9
+Slug: diamond-hotel-philippines-manila
+Nome: Diamond Hotel Philippines
+Comune / Provincia: Manila
+Indirizzo: Roxas Boulevard, Corner Dr. J. Quintos Street, Malate, Manila, 1000 Metro Manila
+Coordinate: Lat 14.572442, Lng 120.982176
+Website: http://www.diamondhotel.com/
+Email: 
+
+16645. Executive Hotel Manila
+ID: db9a0143-17f7-4300-88c9-826be4319a97
+Slug: executive-hotel-manila-manila
+Nome: Executive Hotel Manila
+Comune / Provincia: Manila
+Indirizzo: 1630 A. Mabini St, Malate, Manila, 1004 Metro Manila
+Coordinate: Lat 14.57338, Lng 120.983413
+Website: https://www.executivehotel.com.ph/
+Email: 
+
+16646. Las Palmas Hotel de Manila
+ID: d452ea98-62b7-4e19-a8a9-51302892cd03
+Slug: las-palmas-hotel-de-manila-manila
+Nome: Las Palmas Hotel de Manila
+Comune / Provincia: Manila
+Indirizzo: 1616 A. Mabini St, Malate, Manila, 1004 Metro Manila
+Coordinate: Lat 14.573656, Lng 120.983375
+Website: http://www.laspalmashotel.com.ph/
+Email: 
+
+16647. Manila Grand Opera Hotel
+ID: 62c4dc1a-652e-46e6-a9a3-544438387a79
+Slug: manila-grand-opera-hotel-manila
+Nome: Manila Grand Opera Hotel
+Comune / Provincia: Manila
+Indirizzo: 925 Doroteo Jose St, Santa Cruz, Manila, 1003 Metro Manila
+Coordinate: Lat 14.605408, Lng 120.981563
+Website: http://www.manilagrandopera.com/
+Email: reservations@directwithhotels.com
+
+16648. New Coast Hotel Manila
+ID: f099247e-f465-4515-a682-c54b624e517f
+Slug: new-coast-hotel-manila-manila
+Nome: New Coast Hotel Manila
+Comune / Provincia: Manila
+Indirizzo: 1588 Pedro Gil, corner Del Pilar St, Malate, Manila, 1004 Metro Manila
+Coordinate: Lat 14.573537, Lng 120.982747
+Website: https://www.newcoasthotels.com/
+Email: contactus@newcoasthotels.com
+
+16649. Pearl Lane Hotel Manila
+ID: dc4a2238-ef54-406b-bf78-0d31dad247cd
+Slug: pearl-lane-hotel-manila-manila
+Nome: Pearl Lane Hotel Manila
+Comune / Provincia: Manila
+Indirizzo: 1700 Ma. Orosa St, Malate, Manila, 1004 Metro Manila
+Coordinate: Lat 14.573163, Lng 120.986358
+Website: http://pearl-lane.manilahotelsweb.com/en/
+Email: 
+
+16650. Red Planet Manila Bay
+ID: dcdc2558-65d7-4181-be2e-9449e6a2d839
+Slug: red-planet-manila-bay-manila
+Nome: Red Planet Manila Bay
+Comune / Provincia: Manila
+Indirizzo: Arquiza St. Corner, 0930 Alhambra St, Ermita, Manila, 1000 Metro Manila
+Coordinate: Lat 14.57755, Lng 120.97953
+Website: https://bookingengine.redplanethotels.com/878/
+Email: philippines@redplanethotels.com
+
+16651. Regency Grand Suites
+ID: c94391d1-b4a5-430c-abf2-59f9dd70777c
+Slug: regency-grand-suites-manila
+Nome: Regency Grand Suites
+Comune / Provincia: Manila
+Indirizzo: Birch Tower, 1622 Bocobo St, Malate, Manila, 1004 Metro Manila
+Coordinate: Lat 14.574069, Lng 120.984861
+Website: http://rgsmanila.com/
+Email: 
+
+16652. Riviera Mansion Hotel
+ID: a6065061-87b6-4be8-8d31-4d1d26926483
+Slug: riviera-mansion-hotel-manila
+Nome: Riviera Mansion Hotel
+Comune / Provincia: Manila
+Indirizzo: 1638 A. Mabini St, Malate, Manila, 1004 Metro Manila
+Coordinate: Lat 14.573322, Lng 120.983555
+Website: http://www.rivieramansion.com/
+Email: 
+
+16653. Skyloft Hotel
+ID: 3a647c87-a7dd-4810-8baf-6797c33af1c4
+Slug: skyloft-hotel-manila
+Nome: Skyloft Hotel
+Comune / Provincia: Manila
+Indirizzo: 1160 Governor Forbes, Sampaloc, Manila, 1008 Metro Manila
+Coordinate: Lat 14.612657, Lng 120.9903
+Website: https://www.thecitizenhotels.com/edit-hotel-data/skyloft-hotel
+Email: 
+
+16654. Swiss-Belhotel Blulane
+ID: fc51c09f-9327-40cd-b1e6-7edfe0b084d7
+Slug: swiss-belhotel-blulane-manila
+Nome: Swiss-Belhotel Blulane
+Comune / Provincia: Manila
+Indirizzo: 609 Tomas Mapua St, Santa Cruz, Manila, 1003 Metro Manila
+Coordinate: Lat 14.60167, Lng 120.979714
+Website: https://www.swiss-belhotel.com/hotels/swiss-belhotel-blulane?utm_source=google&utm_medium=GMB&utm_campaign=SBBL
+Email: 
+
+16655. The Manila Hotel
+ID: 5a432940-6d7a-4976-9ab6-f542549146e6
+Slug: the-manila-hotel-manila
+Nome: The Manila Hotel
+Comune / Provincia: Manila
+Indirizzo: 1 Rizal Park, Ermita, Manila, 0913 Metro Manila
+Coordinate: Lat 14.583273, Lng 120.97394
+Website: http://manila-hotel.com.ph/
+Email: 
+
+16656. Affittacamere Sestiere Santa Caterina
+ID: 20b32bf9-48bb-4952-8b85-b64fde259ef6
+Slug: affittacamere-sestiere-santa-caterina-mazzarrone
+Nome: Affittacamere Sestiere Santa Caterina
+Comune / Provincia: Mazzarrone
+Indirizzo: Via Arturo Toscanini, 1, 95042 Grammichele CT
+Coordinate: Lat 37.213222, Lng 14.634271
+Website: http://www.sestieresantacaterina.it/
+Email: 
+
+16657. Agriturismo Tenuta Margitello
+ID: 86cad9ea-bab2-4c71-8f7d-4e85e23e5364
+Slug: agriturismo-tenuta-margitello-mazzarrone
+Nome: Agriturismo Tenuta Margitello
+Comune / Provincia: Mazzarrone
+Indirizzo: Ss 115 ((Km 310, 7, 97013 Comiso RG
+Coordinate: Lat 36.945025, Lng 14.623726
+Website: http://www.tenutamargitello.com/
+Email: 
+
+16658. G&G Hotel
+ID: 3f3f215b-44f0-4546-9247-87d687fea6e4
+Slug: g-g-hotel-mazzarrone
+Nome: G&G Hotel
+Comune / Provincia: Mazzarrone
+Indirizzo: Viale Raffaele Failla, 90a, 95042 Grammichele CT
+Coordinate: Lat 37.21176, Lng 14.646104
+Website: https://gghotel.it/
+Email: 
+
+16659. Guest House al Viale Affittacamere
+ID: 164f61ae-1a7a-4d63-a2c2-fc620315a793
+Slug: guest-house-al-viale-affittacamere-mazzarrone
+Nome: Guest House al Viale Affittacamere
+Comune / Provincia: Mazzarrone
+Indirizzo: Via Giuseppe Mazzini, 5, 95041 Caltagirone CT
+Coordinate: Lat 37.221722, Lng 14.525491
+Website: https://www.guesthousecaltagirone.com/
+Email: 
+
+16660. Ronnavona Casa Vacanze B&B
+ID: bcf1a52d-84e4-43e9-8f8f-b764c7bc5a89
+Slug: ronnavona-casa-vacanze-b-b-mazzarrone
+Nome: Ronnavona Casa Vacanze B&B
+Comune / Provincia: Mazzarrone
+Indirizzo: Contrada Donnagona, 122, 97012 Chiaramonte Gulfi RG
+Coordinate: Lat 37.07555, Lng 14.667499
+Website: http://www.ronnavona.it/
+Email: 

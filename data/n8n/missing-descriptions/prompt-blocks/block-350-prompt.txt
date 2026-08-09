@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+12216. Agriturismo Al Palazzaccio
+ID: 1ab62119-407e-4697-8f9f-80e92064b2e6
+Slug: agriturismo-al-palazzaccio-calci
+Nome: Agriturismo Al Palazzaccio
+Comune / Provincia: Calci
+Indirizzo: Via del Seminario, 11, 56011 Calci PI
+Coordinate: Lat 43.731802, Lng 10.515044
+Website: http://www.alpalazzaccio.com/
+Email: 
+
+12217. Agriturismo Rosselmini - Tuscany
+ID: a1b23360-0e2a-4c83-92fd-614ed645632a
+Slug: agriturismo-rosselmini-tuscany-calci
+Nome: Agriturismo Rosselmini - Tuscany
+Comune / Provincia: Calci
+Indirizzo: Via Rosselmini, 10, 56011 Calci PI
+Coordinate: Lat 43.721158, Lng 10.509515
+Website: https://www.rosselmini.com/
+Email: 
+
+12218. Agriturismo Villa Buieri
+ID: 25fccd44-2341-4fb8-8456-cf91e86a826a
+Slug: agriturismo-villa-buieri-calci
+Nome: Agriturismo Villa Buieri
+Comune / Provincia: Calci
+Indirizzo: Via della Certosa, 2, 56011 Pisa PI
+Coordinate: Lat 43.718756, Lng 10.524078
+Website: http://www.agriturismovillabuieri.com/
+Email: 
+
+12219. Azienda Agricola Podere del Pari srl
+ID: c32f1880-21ef-402c-80f0-06cb6c829fda
+Slug: azienda-agricola-podere-del-pari-srl-calci
+Nome: Azienda Agricola Podere del Pari srl
+Comune / Provincia: Calci
+Indirizzo: Via di Pari, 6, 56011 Calci PI
+Coordinate: Lat 43.735704, Lng 10.51116
+Website: https://poderedelpari.it/contatti/
+Email: 
+
+12220. B&B Antica Toscana- Casa Vacanze - Appartamenti
+ID: ddabbce7-8d87-4a6c-9af8-2a7147710748
+Slug: b-b-antica-toscana-casa-vacanze-appartamenti-calci
+Nome: B&B Antica Toscana- Casa Vacanze - Appartamenti
+Comune / Provincia: Calci
+Indirizzo: Via Eugenio III, 5, 56011 Calci PI
+Coordinate: Lat 43.720147, Lng 10.537288
+Website: http://www.antica-toscana.it/
+Email: 
+
+12221. B&B Gli Olivi
+ID: 4fb41b67-3d27-49ef-89ea-3920aea09509
+Slug: b-b-gli-olivi-calci
+Nome: B&B Gli Olivi
+Comune / Provincia: Calci
+Indirizzo: Via F. Ruschi, 174, 56011 Calci PI
+Coordinate: Lat 43.731742, Lng 10.517615
+Website: http://www.gliolivi.it/
+Email: 
+
+12222. B&B Villamorosa
+ID: cb0dad56-13ce-4278-9755-143a9feabf8c
+Slug: b-b-villamorosa-calci
+Nome: B&B Villamorosa
+Comune / Provincia: Calci
+Indirizzo: Via Provinciale Vicarese, 27, 56010 Vicopisano PI
+Coordinate: Lat 43.70669, Lng 10.50469
+Website: https://www.villamorosa.com/
+Email: 
+
+12223. Hotel da Carlos
+ID: c13849c1-faa6-4ab3-9338-bdee9b376d04
+Slug: hotel-da-carlos-calci
+Nome: Hotel da Carlos
+Comune / Provincia: Calci
+Indirizzo: Via Nuova per Pisa, 5901, 55100 Lucca LU
+Coordinate: Lat 43.776628, Lng 10.459518
+Website: http://www.hoteldacarlos.it/
+Email: 
+
+12224. L' Angolo Verde - Bed & Breakfast
+ID: 02593831-b760-4cfb-81e8-856a57804ccc
+Slug: l-angolo-verde-bed-breakfast-calci
+Nome: L' Angolo Verde - Bed & Breakfast
+Comune / Provincia: Calci
+Indirizzo: Via Piastroni, 56, 56021 Cascina PI
+Coordinate: Lat 43.702304, Lng 10.457592
+Website: http://www.langoloverde.pisa.it/
+Email: 
+
+12225. La Fabbrica Calci
+ID: 3c34653e-95f2-408f-b24f-74bacc4a0cfa
+Slug: la-fabbrica-calci-calci
+Nome: La Fabbrica Calci
+Comune / Provincia: Calci
+Indirizzo: Via Don Minzoni, 30, 56011 Calci PI
+Coordinate: Lat 43.733711, Lng 10.51824
+Website: https://www.lafabbricacalci.it/
+Email: 
+
+12226. Ninfeo dell' Arancera
+ID: 081b68b7-b100-43da-a041-6d7a569d4f0a
+Slug: ninfeo-dell-arancera-calci
+Nome: Ninfeo dell' Arancera
+Comune / Provincia: Calci
+Indirizzo: loc villa Scorzi, 4, 56011 Calci PI
+Coordinate: Lat 43.71931, Lng 10.509585
+Website: —
+Email: 
+
+12227. Villa Scorzi - Relais de Charme
+ID: 73959122-f232-43bc-be6f-3a21df74bc79
+Slug: villa-scorzi-relais-de-charme-calci
+Nome: Villa Scorzi - Relais de Charme
+Comune / Provincia: Calci
+Indirizzo: Via del Lungomonte Pisano, 2, 56011 Calci PI
+Coordinate: Lat 43.718644, Lng 10.508888
+Website: https://www.villascorzi.com/
+Email: 
+
+12228. B&B Al Castello Castelmezzano
+ID: d5ea45ff-db9a-48a8-9b36-14d3ee8f1756
+Slug: b-b-al-castello-castelmezzano-calciano
+Nome: B&B Al Castello Castelmezzano
+Comune / Provincia: Calciano
+Indirizzo: Vico Largo Castello, 34, 85010 Castelmezzano PZ
+Coordinate: Lat 40.530227, Lng 16.049482
+Website: —
+Email: 
+
+12229. B&B Villino Francesca
+ID: af0c2c76-3fe4-45fd-8cb1-be8cc119df49
+Slug: b-b-villino-francesca-calciano
+Nome: B&B Villino Francesca
+Comune / Provincia: Calciano
+Indirizzo: Contrada Serra delle Vigne, 75019 snc MT
+Coordinate: Lat 40.618067, Lng 16.131829
+Website: http://villinofrancesca.wixsite.com/tricarico
+Email: 
+
+12230. Gianmaria B&B
+ID: 2b0b2c3a-d26c-45d8-aac5-fd4b42f8cab6
+Slug: gianmaria-b-b-calciano
+Nome: Gianmaria B&B
+Comune / Provincia: Calciano
+Indirizzo: Via Fratelli Cervi, 1, 75019 Tricarico MT
+Coordinate: Lat 40.61389, Lng 16.143828
+Website: https://m.facebook.com/gianmariabb/?locale2=it_IT
+Email: 
+
+12231. Motel Basentum
+ID: b5c8bc20-eef5-4708-8526-bf75e8a1ef2f
+Slug: motel-basentum-calciano
+Nome: Motel Basentum
+Comune / Provincia: Calciano
+Indirizzo: Scalo MT IT, Contrada Pantano, 75017, 75017 Salandra MT
+Coordinate: Lat 40.583117, Lng 16.35235
+Website: —
+Email: 
+
+12232. Agriturismo Podere Travalda
+ID: bd2eaf4c-3223-4076-b385-fef0d540a51d
+Slug: agriturismo-podere-travalda-calcinaia
+Nome: Agriturismo Podere Travalda
+Comune / Provincia: Calcinaia
+Indirizzo: Via di Travalda, 10, 56025 Pontedera PI
+Coordinate: Lat 43.64901, Lng 10.633504
+Website: —
+Email: 
+
+12233. B&B Arivellini
+ID: 8ce45e17-c563-4728-8207-d062e80a2bd4
+Slug: b-b-arivellini-calcinaia
+Nome: B&B Arivellini
+Comune / Provincia: Calcinaia
+Indirizzo: Via Loris Baroni, 2, 56010 Vicopisano PI
+Coordinate: Lat 43.699818, Lng 10.583969
+Website: https://www.arivellinivicopisano.it/
+Email: 
+
+12234. B&B Il Viale
+ID: a01c02c6-31e2-4a29-9222-7db2f0699e78
+Slug: b-b-il-viale-calcinaia
+Nome: B&B Il Viale
+Comune / Provincia: Calcinaia
+Indirizzo: Viale IV Novembre, 10/12, 56025 Pontedera PI
+Coordinate: Lat 43.660653, Lng 10.634583
+Website: http://ilviale-bb.it/
+Email: 
+
+12235. Le Carabattole Bed & Breakfast
+ID: f881cb36-03f8-4051-af98-15f320248412
+Slug: le-carabattole-bed-breakfast-calcinaia
+Nome: Le Carabattole Bed & Breakfast
+Comune / Provincia: Calcinaia
+Indirizzo: Via Butese, 1, 56010 Campomaggiore PI
+Coordinate: Lat 43.703906, Lng 10.586094
+Website: https://www.lecarabattole.com/
+Email: 
+
+12236. Villa Lenzi's B&B (TrOvare TUSCANY)
+ID: caa65296-f9b7-4d29-a72c-6800a2ad04fb
+Slug: villa-lenzi-s-b-b-trovare-tuscany-calcinaia
+Nome: Villa Lenzi's B&B (TrOvare TUSCANY)
+Comune / Provincia: Calcinaia
+Indirizzo: Viale Armando Diaz, 83, 56010 Vicopisano PI
+Coordinate: Lat 43.688961, Lng 10.584211
+Website: http://www.trovaretuscany.it/
+Email: 
+
+12237. Villa Maya
+ID: 351e625c-5473-434f-a7d2-719674e2f494
+Slug: villa-maya-calcinaia
+Nome: Villa Maya
+Comune / Provincia: Calcinaia
+Indirizzo: Via Piccina, 14, 56021 Cascina PI
+Coordinate: Lat 43.65149, Lng 10.554329
+Website: https://www.villamaya.it/
+Email: 
+
+12238. Bergamo Self Check-in | Le Muraine
+ID: 5857652c-f61c-4cf6-b2f9-f65e2d2dcf2b
+Slug: bergamo-self-check-in-le-muraine-calcinate
+Nome: Bergamo Self Check-in | Le Muraine
+Comune / Provincia: Calcinate
+Indirizzo: Via Alberico da Rosciate, 9, 24124 Bergamo BG
+Coordinate: Lat 45.703877, Lng 9.680862
+Website: https://www.lemurainebergamo.it/
+Email: 
+
+12239. Albergo Trattoria Regina
+ID: fd73e5a1-86c8-44a2-a0a8-554ae595eddb
+Slug: albergo-trattoria-regina-calcinato
+Nome: Albergo Trattoria Regina
+Comune / Provincia: Calcinato
+Indirizzo: Via XXIV Maggio, 61, 25017 Lonato del Garda BS
+Coordinate: Lat 45.486215, Lng 10.472973
+Website: https://albergo-trattoria-regina.italyforever.top/
+Email: 
+
+12240. B&B La Pergola di Sant'Antonio
+ID: c0b052be-1571-442e-aa1b-fc7aac0c90c0
+Slug: b-b-la-pergola-di-sant-antonio-calcinato
+Nome: B&B La Pergola di Sant'Antonio
+Comune / Provincia: Calcinato
+Indirizzo: Via S. Antonio, 15, 25017 Lonato del Garda BS
+Coordinate: Lat 45.460777, Lng 10.486556
+Website: http://www.lapergola.biz/
+Email: 
+
+12241. Bed and Breakfast Al Fiume
+ID: ff3f7eef-9329-410a-a7ce-42dcc436b44e
+Slug: bed-and-breakfast-al-fiume-calcinato
+Nome: Bed and Breakfast Al Fiume
+Comune / Provincia: Calcinato
+Indirizzo: V. Gavardina, 27, 25081 Bedizzole BS
+Coordinate: Lat 45.487097, Lng 10.394891
+Website: http://www.bbalfiume.it/
+Email: 
+
+12242. Bed and Breakfast La Villetta
+ID: 5f3fec43-06ae-4ff6-b767-511b3432d8cd
+Slug: bed-and-breakfast-la-villetta-calcinato
+Nome: Bed and Breakfast La Villetta
+Comune / Provincia: Calcinato
+Indirizzo: Via Felice Cavallotti, 228, 25018 Montichiari BS
+Coordinate: Lat 45.419624, Lng 10.396528
+Website: http://www.beblavilletta.net/
+Email: 
+
+12243. Corte Mira
+ID: be1d25bf-f98c-4160-b375-3dcb5cefa3c1
+Slug: corte-mira-calcinato
+Nome: Corte Mira
+Comune / Provincia: Calcinato
+Indirizzo: Via Brodenella, 1B, 25017 Lonato del Garda BS
+Coordinate: Lat 45.442352, Lng 10.507642
+Website: https://cortemira.kross.travel/
+Email: 
+
+12244. Hotel Ristorante La Grotta
+ID: 6117dcf7-24fc-47f0-8cf6-2f07d4ab9018
+Slug: hotel-ristorante-la-grotta-calcinato
+Nome: Hotel Ristorante La Grotta
+Comune / Provincia: Calcinato
+Indirizzo: Via dei Mandorli, 22, 46043 Castiglione delle Stiviere MN
+Coordinate: Lat 45.388994, Lng 10.50535
+Website: https://www.lagrottahotel-castiglione.com/
+Email: 
+
+12245. Sullivan Ristorante & Hotel
+ID: bc446fd5-afb2-4258-8c90-6b1b9650d03f
+Slug: sullivan-ristorante-hotel-calcinato
+Nome: Sullivan Ristorante & Hotel
+Comune / Provincia: Calcinato
+Indirizzo: Via Statale 11, 135 Ponte San Marco di, 25011 Brescia BS
+Coordinate: Lat 45.475172, Lng 10.415512
+Website: https://www.sullivanristorantehotel.it/
+Email: 
+
+12246. Hotel Ristorante La Bettola
+ID: b202935b-5ec3-4a2b-8bd6-ae4016ec0109
+Slug: hotel-ristorante-la-bettola-calcio
+Nome: Hotel Ristorante La Bettola
+Comune / Provincia: Calcio
+Indirizzo: Via Bonaita, 7, 24059 Urgnano BG
+Coordinate: Lat 45.598024, Lng 9.700022
+Website: http://www.hotelristorantebettola.it/
+Email: 
+
+12247. La Fenice
+ID: f8103fb1-341b-4bc1-b2c5-8ddddb5a0dad
+Slug: la-fenice-calcio
+Nome: La Fenice
+Comune / Provincia: Calcio
+Indirizzo: Via G. Matteotti, 28, 25032 Chiari BS
+Coordinate: Lat 45.53826, Lng 9.927758
+Website: https://lafenicechiari.top/
+Email: 
+
+12248. Palazzo Barbò
+ID: c8bc9096-a634-4549-a0e4-ad636a5a15a1
+Slug: palazzo-barbo-calcio
+Nome: Palazzo Barbò
+Comune / Provincia: Calcio
+Indirizzo: Via San Rocco, 3, 24050 Torre Pallavicina BG
+Coordinate: Lat 45.446172, Lng 9.876593
+Website: http://www.palazzobarbo.com/
+Email: 
+
+12249. B&B - Villa Cuten
+ID: 8576e7d7-ccb5-4dd6-8064-de04751bafd6
+Slug: b-b-villa-cuten-calco
+Nome: B&B - Villa Cuten
+Comune / Provincia: Calco
+Indirizzo: Via Italia, 17, 23885 Calco LC
+Coordinate: Lat 45.724941, Lng 9.417505
+Website: https://www.villacuten.it/
+Email: 
+
+12250. B&B Il Torchio
+ID: 6feefefb-14bb-4d62-a462-3ad2b5de1259
+Slug: b-b-il-torchio-calco
+Nome: B&B Il Torchio
+Comune / Provincia: Calco
+Indirizzo: Via Ghislanzoni, Località Vescogna, 24, 23885 Calco LC
+Coordinate: Lat 45.723554, Lng 9.425891
+Website: http://iltorchiobrianza.com/
+Email: 

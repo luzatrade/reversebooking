@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+12286. Hotel I Portici
+ID: af0a4cec-374a-48f0-b903-3a797495b502
+Slug: hotel-i-portici-calderara-di-reno
+Nome: Hotel I Portici
+Comune / Provincia: Calderara di Reno
+Indirizzo: Via dell'Indipendenza, 69, 40121 Bologna BO
+Coordinate: Lat 44.501919, Lng 11.344842
+Website: https://www.iporticihotel.com/
+Email: 
+
+12287. Hotel Marconi Express
+ID: 03b1b6f4-4028-4f02-8630-00758b9320f7
+Slug: hotel-marconi-express-calderara-di-reno
+Nome: Hotel Marconi Express
+Comune / Provincia: Calderara di Reno
+Indirizzo: Via Cesare Boldrini, 24, 40121 Bologna BO
+Coordinate: Lat 44.504731, Lng 11.338874
+Website: https://www.hotelmarconiexpress.it/
+Email: info@hotelmarconiexpress.com
+
+12288. HP Fly Hotel Bologna
+ID: 5a6d846f-ce8c-4a97-8d49-759faa1eb760
+Slug: hp-fly-hotel-bologna-calderara-di-reno
+Nome: HP Fly Hotel Bologna
+Comune / Provincia: Calderara di Reno
+Indirizzo: Via Don Minzoni, 16, 40012 Calderara di Reno BO
+Coordinate: Lat 44.538198, Lng 11.304607
+Website: https://www.hpflyhotelbologna.com/
+Email: 
+
+12289. La Torre di Longara
+ID: 16d2eaed-c261-425e-848a-234485ef5a68
+Slug: la-torre-di-longara-calderara-di-reno
+Nome: La Torre di Longara
+Comune / Provincia: Calderara di Reno
+Indirizzo: V. Valli, 44, 40012 Longara BO
+Coordinate: Lat 44.587776, Lng 11.2867
+Website: https://www.latorredilongara.it/
+Email: 
+
+12290. Le Case di Antonio
+ID: 2a2b3ae7-74c4-4ee8-bda8-98ba481c660c
+Slug: le-case-di-antonio-calderara-di-reno
+Nome: Le Case di Antonio
+Comune / Provincia: Calderara di Reno
+Indirizzo: Via Cesare Boldrini, 3, 40121 Bologna BO
+Coordinate: Lat 44.504269, Lng 11.343445
+Website: https://www.lecasediantonio.it/it
+Email: 
+
+12291. MADE IN BO-Affittacamere-Rooms-Bologna Rooms-Camere Stazione Centrale-Camere Bologna-Camere
+ID: ca2f57c1-1844-446d-be80-4b69430e82dd
+Slug: made-in-bo-affittacamere-rooms-bologna-rooms-cam-calderara-di-reno
+Nome: MADE IN BO-Affittacamere-Rooms-Bologna Rooms-Camere Stazione Centrale-Camere Bologna-Camere
+Comune / Provincia: Calderara di Reno
+Indirizzo: Via Cesare Boldrini, 16, 40121 Bologna BO
+Coordinate: Lat 44.504496, Lng 11.339499
+Website: https://www.felsinopewelcome.it/made-in-bo/
+Email: 
+
+12292. MalaMù BnB Eventi
+ID: 768aa762-297d-43d9-9bb5-e1fbd8b58088
+Slug: malamu-bnb-eventi-calderara-di-reno
+Nome: MalaMù BnB Eventi
+Comune / Provincia: Calderara di Reno
+Indirizzo: Via Pepoli, 19, 40069 Zola Predosa BO
+Coordinate: Lat 44.514177, Lng 11.230129
+Website: https://www.malamubnbeventi.com/
+Email: 
+
+12293. Reno bed and breakfast
+ID: 64c00c52-401d-49e3-a857-238a29d6baf7
+Slug: reno-bed-and-breakfast-calderara-di-reno
+Nome: Reno bed and breakfast
+Comune / Provincia: Calderara di Reno
+Indirizzo: Via Longarola, 82, 40012 Longara BO
+Coordinate: Lat 44.575292, Lng 11.305975
+Website: —
+Email: 
+
+12294. Ristorante Hotel Emi
+ID: 50e5ac90-88b4-48c3-bce1-ece685f72fc0
+Slug: ristorante-hotel-emi-calderara-di-reno
+Nome: Ristorante Hotel Emi
+Comune / Provincia: Calderara di Reno
+Indirizzo: Via Surrogazione, 45, 40012 Calderara di Reno BO
+Coordinate: Lat 44.533673, Lng 11.30083
+Website: https://www.hotelemi.it/
+Email: 
+
+12295. Triumvirato Rooms
+ID: d3309866-6006-42c4-a4a8-77596f9b949d
+Slug: triumvirato-rooms-calderara-di-reno
+Nome: Triumvirato Rooms
+Comune / Provincia: Calderara di Reno
+Indirizzo: Via del Triumvirato, 123/3, 40132 Bologna BO
+Coordinate: Lat 44.521748, Lng 11.295439
+Website: https://www.triumviratorooms.it/
+Email: 
+
+12296. Agritur Primo Sole
+ID: 171a03a7-b675-41ac-bb2e-e697abaa1770
+Slug: agritur-primo-sole-caldes
+Nome: Agritur Primo Sole
+Comune / Provincia: Caldes
+Indirizzo: Vicolo dei Ponti, 15, 38023 Cles TN
+Coordinate: Lat 46.346938, Lng 11.017795
+Website: http://www.agriturprimosole-valdinon.it/
+Email: 
+
+12297. Agriturismo Wellness IL TEMPO DELLE MELE
+ID: 57635bcc-6cf1-472d-a7f9-294ee932cd56
+Slug: agriturismo-wellness-il-tempo-delle-mele-caldes
+Nome: Agriturismo Wellness IL TEMPO DELLE MELE
+Comune / Provincia: Caldes
+Indirizzo: Strada Provinciale, 65, 38022 Caldes TN
+Coordinate: Lat 46.367851, Lng 10.938653
+Website: http://www.agriturdellemele.it/
+Email: 
+
+12298. Albergo Alla Rocca
+ID: 5dc65c8e-c0a5-44d2-969d-49bcc8fd983e
+Slug: albergo-alla-rocca-caldes
+Nome: Albergo Alla Rocca
+Comune / Provincia: Caldes
+Indirizzo: V. del Tonale, 22, 38022 Caldes TN
+Coordinate: Lat 46.365755, Lng 10.938671
+Website: http://www.allarocca.eu/
+Email: 
+
+12299. Albergo Tuenno
+ID: da51c77d-7a71-4de5-812c-babd49fe49b8
+Slug: albergo-tuenno-caldes
+Nome: Albergo Tuenno
+Comune / Provincia: Caldes
+Indirizzo: Piazza Alpini, 25, 38019 Ville d'Anaunia TN
+Coordinate: Lat 46.326645, Lng 11.023239
+Website: https://www.albergotuenno.com/
+Email: 
+
+12300. Alle Meridiane
+ID: 4c2c2ff9-db19-48aa-9faa-b18a128f1e1b
+Slug: alle-meridiane-caldes
+Nome: Alle Meridiane
+Comune / Provincia: Caldes
+Indirizzo: Via alla Cros, 1, 38025 Dimaro Folgarida TN
+Coordinate: Lat 46.333084, Lng 10.879878
+Website: http://www.allemeridiane.it/
+Email: 
+
+12301. B&B Il Sorriso dei Nonni
+ID: 06cf42b5-1f75-49d8-9ee3-d296b796d53a
+Slug: b-b-il-sorriso-dei-nonni-caldes
+Nome: B&B Il Sorriso dei Nonni
+Comune / Provincia: Caldes
+Indirizzo: Frazione Pracorno, 136, 38020 Rabbi TN
+Coordinate: Lat 46.372245, Lng 10.878558
+Website: http://www.ilsorrisodeinonni.it/
+Email: 
+
+12302. B&B Soreghina Malè
+ID: ce574097-7b11-4131-bc1e-9414b526f134
+Slug: b-b-soreghina-male-caldes
+Nome: B&B Soreghina Malè
+Comune / Provincia: Caldes
+Indirizzo: Via Molini, 13, 38027 Malé TN
+Coordinate: Lat 46.350627, Lng 10.911612
+Website: https://www.bebsoreghina.com/
+Email: 
+
+12303. Casa Fellin 1891 B&B
+ID: 2d0af37c-57ac-4d65-8612-66dee33dfcb9
+Slug: casa-fellin-1891-b-b-caldes
+Nome: Casa Fellin 1891 B&B
+Comune / Provincia: Caldes
+Indirizzo: Via Enrico Bergamo, 12, 38023 Cles TN
+Coordinate: Lat 46.365248, Lng 11.034941
+Website: https://beb.it/casafellin1891
+Email: 
+
+12304. Chalet ai mulini
+ID: 15f7d819-9865-47b2-85bb-10e607ec9696
+Slug: chalet-ai-mulini-caldes
+Nome: Chalet ai mulini
+Comune / Provincia: Caldes
+Indirizzo: STRADA PER LE GLARE, Località Glare, 38022 Caldes TN
+Coordinate: Lat 46.363787, Lng 10.947419
+Website: https://chaletaimulini.it/
+Email: 
+
+12305. Hotel Diffuso - Garnì della Locanda Elisa
+ID: f40a0918-1e1a-4565-a77c-b6699dc0a8b4
+Slug: hotel-diffuso-garni-della-locanda-elisa-caldes
+Nome: Hotel Diffuso - Garnì della Locanda Elisa
+Comune / Provincia: Caldes
+Indirizzo: Piazza Centrale, 11, 38025 Dimaro Folgarida TN
+Coordinate: Lat 46.325404, Lng 10.874809
+Website: https://locandaelisa.it/
+Email: 
+
+12306. Hotel Garni Meledrio
+ID: 7ec5a94f-04ec-4279-a656-0639eb94eaf9
+Slug: hotel-garni-meledrio-caldes
+Nome: Hotel Garni Meledrio
+Comune / Provincia: Caldes
+Indirizzo: Via Campiglio, 24, 38025 Dimaro Folgarida TN
+Coordinate: Lat 46.327232, Lng 10.870896
+Website: http://www.hotelmeledrio.it/
+Email: 
+
+12307. Hotel Garni' Maria
+ID: 699dd0b5-8f76-4e29-b45a-d86968c12859
+Slug: hotel-garni-maria-caldes
+Nome: Hotel Garni' Maria
+Comune / Provincia: Caldes
+Indirizzo: V. Nazionale, 582/b Loc, 38025 Monclassico TN
+Coordinate: Lat 46.33635, Lng 10.892284
+Website: http://www.hotelgarnimaria.it/
+Email: 
+
+12308. Hotel Henriette
+ID: e7bce15b-4080-4ad6-9e03-a3bcdde6f4ac
+Slug: hotel-henriette-caldes
+Nome: Hotel Henriette
+Comune / Provincia: Caldes
+Indirizzo: Via Trento, 36, 38027 Malé TN
+Coordinate: Lat 46.353901, Lng 10.913993
+Website: http://www.hotelhenriette.it/
+Email: 
+
+12309. Hotel Sole
+ID: 55139194-7c06-44a1-b866-fc487886ad8f
+Slug: hotel-sole-caldes
+Nome: Hotel Sole
+Comune / Provincia: Caldes
+Indirizzo: Via Guglielmo Marconi, 3, 38027 Malé TN
+Coordinate: Lat 46.3534, Lng 10.913967
+Website: http://www.trentinohotelsole.it/
+Email: 
+
+12310. Kaiserkrone Chalet & Spa
+ID: ef7f8b1e-d76f-4e1f-adf8-052ef6419578
+Slug: kaiserkrone-chalet-spa-caldes
+Nome: Kaiserkrone Chalet & Spa
+Comune / Provincia: Caldes
+Indirizzo: Piazza Giovanni Serra, 3, 38025 Dimaro TN
+Coordinate: Lat 46.325796, Lng 10.874287
+Website: https://www.kaiserkronechaletspa.it/
+Email: 
+
+12311. Lastè Nature Mountain Hotel
+ID: 2db5f876-c205-47b9-8446-585054b5bb4a
+Slug: laste-nature-mountain-hotel-caldes
+Nome: Lastè Nature Mountain Hotel
+Comune / Provincia: Caldes
+Indirizzo: Località Molini, 11, 38022 Caldes TN
+Coordinate: Lat 46.361916, Lng 10.942422
+Website: https://hotellaste.com/
+Email: 
+
+12312. Le Rocce Val di Non
+ID: 663ed1c3-d640-428b-846b-6cf05887a3a7
+Slug: le-rocce-val-di-non-caldes
+Nome: Le Rocce Val di Non
+Comune / Provincia: Caldes
+Indirizzo: Vicolo de le Giarberie, accesso da, Via Lanza, 8, 38019 Ville d'Anaunia TN
+Coordinate: Lat 46.330335, Lng 11.040984
+Website: http://www.leroccevaldinon.it/
+Email: 
+
+12313. Park Hotel Bellevue
+ID: cdcb063b-a668-453b-bcdc-84ca7bdde181
+Slug: park-hotel-bellevue-caldes
+Nome: Park Hotel Bellevue
+Comune / Provincia: Caldes
+Indirizzo: Via Campo Carlo Magno, 3, 38025 Dimaro TN
+Coordinate: Lat 46.323205, Lng 10.882736
+Website: https://parkhotelbellevue.eu/
+Email: 
+
+12314. Sporthotel Rosatti
+ID: f9ad5026-ca24-4795-befa-45fcaef72aba
+Slug: sporthotel-rosatti-caldes
+Nome: Sporthotel Rosatti
+Comune / Provincia: Caldes
+Indirizzo: Via Campiglio, 14, 38025 Dimaro TN
+Coordinate: Lat 46.327457, Lng 10.870549
+Website: http://www.sporthotel.it/
+Email: 
+
+12315. Albergo Ristorante Grobberio
+ID: af4a13c4-1dda-4106-a3a6-e589c07f627f
+Slug: albergo-ristorante-grobberio-caldiero
+Nome: Albergo Ristorante Grobberio
+Comune / Provincia: Caldiero
+Indirizzo: Via Mezzavilla, 69, 37036 Marcellise VR
+Coordinate: Lat 45.464744, Lng 11.104653
+Website: https://www.albergogrobberio.com/
+Email: 
+
+12316. B&B Acquagrossa
+ID: 435d5b33-f922-4077-a5da-595bf8a54258
+Slug: b-b-acquagrossa-caldiero
+Nome: B&B Acquagrossa
+Comune / Provincia: Caldiero
+Indirizzo: Via Acquagrossa, 6a, 37036 San Martino Buon Albergo VR
+Coordinate: Lat 45.400583, Lng 11.081224
+Website: —
+Email: 
+
+12317. Best Western Hotel Turismo
+ID: 49c5ace0-574e-4877-a58b-9f54ce9b6260
+Slug: best-western-hotel-turismo-caldiero
+Nome: Best Western Hotel Turismo
+Comune / Provincia: Caldiero
+Indirizzo: Via Nazionale, 58, 37036 San Martino Buon Albergo VR
+Coordinate: Lat 45.421199, Lng 11.108083
+Website: http://www.hotelturismo.it/
+Email: 
+
+12318. Brixius - CIN:IT023042C1YJLOAXV4
+ID: 6bec6f35-d3fa-4fa7-b24c-06f85e09b1f7
+Slug: brixius-cin-it023042c1yjloaxv4-caldiero
+Nome: Brixius - CIN:IT023042C1YJLOAXV4
+Comune / Provincia: Caldiero
+Indirizzo: Via Alta, 5, 37030 San Briccio VR
+Coordinate: Lat 45.452765, Lng 11.119173
+Website: http://beb-brixius.com/
+Email: 
+
+12319. DAMARANTO RISTORANTE CON CAMERE
+ID: 6a1298c5-d3f3-42bb-9eb4-7da343938365
+Slug: damaranto-ristorante-con-camere-caldiero
+Nome: DAMARANTO RISTORANTE CON CAMERE
+Comune / Provincia: Caldiero
+Indirizzo: Corso Vittorio Emanuele II, 50, 37038 Soave VR
+Coordinate: Lat 45.423486, Lng 11.24713
+Website: http://www.damaranto.com/
+Email: 
+
+12320. Via Verdi B&B
+ID: c15cc10b-f2f9-4062-9d9d-a482f26698dd
+Slug: via-verdi-b-b-caldiero
+Nome: Via Verdi B&B
+Comune / Provincia: Caldiero
+Indirizzo: Via Giuseppe Verdi, 3, 37030 Vago VR
+Coordinate: Lat 45.418789, Lng 11.133983
+Website: http://www.viaverdibbverona.it/
+Email: 

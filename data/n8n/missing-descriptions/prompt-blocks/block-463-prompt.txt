@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16171. Insulae Resort
+ID: eeb1e30c-fd36-43ff-bce9-cf2d421dffdb
+Slug: insulae-resort-cefal
+Nome: Insulae Resort
+Comune / Provincia: Cefal�
+Indirizzo: Via Samotracia, 90015 Cefalù PA
+Coordinate: Lat 38.029128, Lng 13.986727
+Website: http://www.insulaecefalu.it/
+Email: 
+
+16172. La Plumeria Hotel Restaurant
+ID: 9be2542e-0686-42f8-b200-d496849e1196
+Slug: la-plumeria-hotel-restaurant-cefal
+Nome: La Plumeria Hotel Restaurant
+Comune / Provincia: Cefal�
+Indirizzo: Corso Ruggero, 185, 90015 Cefalù PA
+Coordinate: Lat 38.040766, Lng 14.022234
+Website: https://viaggiesapori.com/laplumeriahotel
+Email: 
+
+16173. Resort Hotel Baia del Capitano
+ID: 026969cc-0538-4077-920d-5683280ed504
+Slug: resort-hotel-baia-del-capitano-cefal
+Nome: Resort Hotel Baia del Capitano
+Comune / Provincia: Cefal�
+Indirizzo: Contrada Mazzaforno, 90015 Mazzaforno PA
+Coordinate: Lat 38.031128, Lng 13.973687
+Website: http://www.baiadelcapitano.it/
+Email: 
+
+16174. Salemare Rooms & Suites
+ID: e7873e3e-beab-4699-a38c-991e5993419c
+Slug: salemare-rooms-suites-cefal
+Nome: Salemare Rooms & Suites
+Comune / Provincia: Cefal�
+Indirizzo: Cortile Cristoforo Colombo, 90015 Cefalù PA
+Coordinate: Lat 38.036867, Lng 14.019341
+Website: http://www.salemare.it/
+Email: 
+
+16175. Sunset Hotel
+ID: 188ed9b1-0bdb-4747-8be1-7ba17796f3e5
+Slug: sunset-hotel-cefal
+Nome: Sunset Hotel
+Comune / Provincia: Cefal�
+Indirizzo: Lungomare Giuseppe Giardina, 119, 90015 Cefalù PA
+Coordinate: Lat 38.033611, Lng 14.01195
+Website: http://www.sunsetcefalu.com/
+Email: 
+
+16176. Al Pescatore Hotel - 3 Stelle
+ID: 351df97e-2236-4956-afea-7bae73d702a7
+Slug: al-pescatore-hotel-3-stelle-cefal-diana
+Nome: Al Pescatore Hotel - 3 Stelle
+Comune / Provincia: Cefal� Diana
+Indirizzo: Via Dietro Castello, 6, 90015 Cefalù PA
+Coordinate: Lat 38.034983, Lng 14.030591
+Website: https://www.alpescatorecefalu.it/
+Email: 
+
+16177. b&b Caravella Mezzojuso
+ID: 72e8992e-1a5e-4fb2-ba28-c123416afe3b
+Slug: b-b-caravella-mezzojuso-cefal-diana
+Nome: b&b Caravella Mezzojuso
+Comune / Provincia: Cefal� Diana
+Indirizzo: Corso Vittorio Emanuele 46, Via Ugo Bassi, 1, 90030 Mezzojuso PA
+Coordinate: Lat 37.864942, Lng 13.465768
+Website: https://bb-caravella.italyexperience.top/
+Email: 
+
+16178. Hotel La Giara
+ID: 40484723-e675-4286-a05e-2706ce3de0d4
+Slug: hotel-la-giara-cefal-diana
+Nome: Hotel La Giara
+Comune / Provincia: Cefal� Diana
+Indirizzo: Via Veterani, 40, 90015 Cefalù PA
+Coordinate: Lat 38.040581, Lng 14.021647
+Website: http://www.hotel-lagiara.it/
+Email: 
+
+16179. Hotel Restaurant Diana
+ID: 72076650-137a-48f9-874e-85e50d69350e
+Slug: hotel-restaurant-diana-cefal-diana
+Nome: Hotel Restaurant Diana
+Comune / Provincia: Cefal� Diana
+Indirizzo: C/da San Paolo, snc, 90051 Ustica PA
+Coordinate: Lat 38.700711, Lng 13.186417
+Website: http://www.hoteldiana-ustica.com/
+Email: 
+
+16180. Victoria Palace Hotel
+ID: af72b3cf-3fc7-495e-b136-8a72fa4ebb43
+Slug: victoria-palace-hotel-cefal-diana
+Nome: Victoria Palace Hotel
+Comune / Provincia: Cefal� Diana
+Indirizzo: Lungomare Giuseppe Giardina, 90015 Cefalù PA
+Coordinate: Lat 38.034774, Lng 14.015379
+Website: http://www.cefaluvictoriapalace.it/
+Email: 
+
+16181. Antica Acropoli Locazione Turistica Centuripe
+ID: 935172ba-905c-46aa-ae96-ef622c4b6a01
+Slug: antica-acropoli-locazione-turistica-centuripe-centuripe
+Nome: Antica Acropoli Locazione Turistica Centuripe
+Comune / Provincia: Centuripe
+Indirizzo: Piazza Lanuvio, 23, 94010 Centuripe EN
+Coordinate: Lat 37.620271, Lng 14.741674
+Website: http://www.anticacropoli.com/
+Email: 
+
+16182. Borgo Ginuga
+ID: 9719eb06-b550-4805-8217-4eeb8ea9bd1d
+Slug: borgo-ginuga-centuripe
+Nome: Borgo Ginuga
+Comune / Provincia: Centuripe
+Indirizzo: c.da coco, 94010 Centuripe EN
+Coordinate: Lat 37.614111, Lng 14.771136
+Website: http://borgo-ginuga.com.es/
+Email: 
+
+16183. Kento Resort
+ID: 224e019b-0bad-41d6-88de-30a86ae753ac
+Slug: kento-resort-centuripe
+Nome: Kento Resort
+Comune / Provincia: Centuripe
+Indirizzo: Contrada Tagliacasse, SN, 94010 Centuripe EN
+Coordinate: Lat 37.627091, Lng 14.758638
+Website: —
+Email: 
+
+16184. B&B San Francesco
+ID: 8f5467d2-b0a1-45b4-8920-8b96f882faf6
+Slug: b-b-san-francesco-cerami
+Nome: B&B San Francesco
+Comune / Provincia: Cerami
+Indirizzo: Via Santa Elia, 39, 94014 Nicosia EN
+Coordinate: Lat 37.746755, Lng 14.391768
+Website: http://b-b-san-francesco.com.es/
+Email: 
+
+16185. D'ALOTTO SUITE & ROOMS
+ID: edf94379-7a40-4f92-8b11-2416e471623d
+Slug: d-alotto-suite-rooms-cerami
+Nome: D'ALOTTO SUITE & ROOMS
+Comune / Provincia: Cerami
+Indirizzo: V. Torretta, 74, 94013 Leonforte EN
+Coordinate: Lat 37.642819, Lng 14.400804
+Website: —
+Email: 
+
+16186. Hotel dei Nebrodi
+ID: ec90cfce-0d9a-4035-b6bd-00b1c7e92dd8
+Slug: hotel-dei-nebrodi-cerami
+Nome: Hotel dei Nebrodi
+Comune / Provincia: Cerami
+Indirizzo: Corso Margherita, 30, 98033 Cesarò ME
+Coordinate: Lat 37.843569, Lng 14.712713
+Website: https://hoteldeinebrodi.com/
+Email: 
+
+16187. Affittacamere Indios
+ID: 30c5507d-9f41-40d0-9478-a91853dc4a49
+Slug: affittacamere-indios-cerda
+Nome: Affittacamere Indios
+Comune / Provincia: Cerda
+Indirizzo: Via Vivirito, 35, 90052 Cerda PA
+Coordinate: Lat 37.907398, Lng 13.811405
+Website: https://affittacamere-indios.dormireinitalia.top/
+Email: 
+
+16188. Agriturismo Parco Di Nonna Betty Palermo
+ID: 0fef4bf9-3a79-4d7f-8228-516783b89b88
+Slug: agriturismo-parco-di-nonna-betty-palermo-cerda
+Nome: Agriturismo Parco Di Nonna Betty Palermo
+Comune / Provincia: Cerda
+Indirizzo: Via Landro, 90010 Lascari PA
+Coordinate: Lat 37.990221, Lng 13.944335
+Website: http://www.parcodinonnabetty.it/
+Email: 
+
+16189. Fontanarossa
+ID: 39fbff07-cb75-4e88-b7bc-de1cb848273f
+Slug: fontanarossa-cerda
+Nome: Fontanarossa
+Comune / Provincia: Cerda
+Indirizzo: 90052 Cerda PA
+Coordinate: Lat 37.873, Lng 13.838679
+Website: —
+Email: 
+
+16190. Le Due Sicilie B&B - CIN IT082044C1HCL3FJEB
+ID: 3e8b2eaf-a2d8-485b-a2a0-d911b66e151a
+Slug: le-due-sicilie-b-b-cin-it082044c1hcl3fjeb-cerda
+Nome: Le Due Sicilie B&B - CIN IT082044C1HCL3FJEB
+Comune / Provincia: Cerda
+Indirizzo: Via Libertà, 45/47, 90010 Lascari PA
+Coordinate: Lat 38.000801, Lng 13.939719
+Website: http://www.leduesiciliebb.it/
+Email: 
+
+16191. Terre di Himera Sicily charming agriturismo near Cefalù with private jacuzzi
+ID: 81c2ef34-43b9-4930-b5bc-d0944a8247cc
+Slug: terre-di-himera-sicily-charming-agriturismo-near-cerda
+Nome: Terre di Himera Sicily charming agriturismo near Cefalù with private jacuzzi
+Comune / Provincia: Cerda
+Indirizzo: 90018 Villaurea PA
+Coordinate: Lat 37.955729, Lng 13.818991
+Website: https://terredihimera.it/en/en-home/
+Email: 
+
+16192. Agriturismo Borgagne "Le Scerze"
+ID: 0145a3c1-0387-4488-ac6b-c9bb0f1ba958
+Slug: agriturismo-borgagne-le-scerze-cesar
+Nome: Agriturismo Borgagne "Le Scerze"
+Comune / Provincia: Cesar�
+Indirizzo: Circonvallazione, 73026 Borgagne LE
+Coordinate: Lat 40.235069, Lng 18.373917
+Website: https://www.lescerze.it/
+Email: 
+
+16193. Agriturismo Masseria Malopra
+ID: 80b3990e-abeb-4314-820a-15d425052f5a
+Slug: agriturismo-masseria-malopra-cesar
+Nome: Agriturismo Masseria Malopra
+Comune / Provincia: Cesar�
+Indirizzo: Contrada Malopra, 73025 Martano LE
+Coordinate: Lat 40.225965, Lng 18.301484
+Website: —
+Email: 
+
+16194. B&B Arzeria
+ID: 473efaca-1062-4eba-9681-764519529daf
+Slug: b-b-arzeria-cesar
+Nome: B&B Arzeria
+Comune / Provincia: Cesar�
+Indirizzo: Via S. Cesario, 173, 73020 Cavallino LE
+Coordinate: Lat 40.307859, Lng 18.194893
+Website: http://bnb-arzeria.com.es/
+Email: 
+
+16195. B&B Caesar
+ID: 5a8013d9-ec18-4298-8846-2e11617ec2f8
+Slug: b-b-caesar-cesar
+Nome: B&B Caesar
+Comune / Provincia: Cesar�
+Indirizzo: P.za Nicola Amore, 14, 80138 Napoli NA
+Coordinate: Lat 40.84781, Lng 14.261267
+Website: https://sites.google.com/view/caesar-napoli/
+Email: 
+
+16196. B&B Cèsar
+ID: 623a13aa-a17e-481f-af4e-7830cc6c6a80
+Slug: b-b-cesar-cesar
+Nome: B&B Cèsar
+Comune / Provincia: Cesar�
+Indirizzo: P.za Mercato, 4, 73040 Castrignano del Capo LE
+Coordinate: Lat 39.832553, Lng 18.350765
+Website: —
+Email: 
+
+16197. Caesar's B&B
+ID: 044dcc63-59c2-4b16-9490-e0e6ed1341d4
+Slug: caesar-s-b-b-cesar
+Nome: Caesar's B&B
+Comune / Provincia: Cesar�
+Indirizzo: Via Prima Berardinetti, 33/A, 84018 Scafati SA
+Coordinate: Lat 40.770376, Lng 14.534387
+Website: https://caesars-bb.italyexperience.top/
+Email: 
+
+16198. Casa di Ca Rooms
+ID: 5ae81489-a018-4006-a5cf-621fce8ab340
+Slug: casa-di-ca-rooms-cesar
+Nome: Casa di Ca Rooms
+Comune / Provincia: Cesar�
+Indirizzo: Via Giacomo Matteotti, 40, 73018 Squinzano LE
+Coordinate: Lat 40.436224, Lng 18.04658
+Website: https://casadica.it/
+Email: 
+
+16199. Cesar Palace
+ID: e50294a5-97b8-4432-9b9b-eaaea4f0de8b
+Slug: cesar-palace-cesar
+Nome: Cesar Palace
+Comune / Provincia: Cesar�
+Indirizzo: Via Nomentana, 55, 00161 Roma RM
+Coordinate: Lat 41.910742, Lng 12.502945
+Website: https://www.facebook.com/nomentana55/
+Email: 
+
+16200. Cesaranum B&B
+ID: 8c1552fa-7c9b-412b-b233-1729bd43e5c1
+Slug: cesaranum-b-b-cesar
+Nome: Cesaranum B&B
+Comune / Provincia: Cesar�
+Indirizzo: Via Socrate, 9, 73042 Casarano LE
+Coordinate: Lat 40.020473, Lng 18.163235
+Website: http://www.cesaranum.it/
+Email: 
+
+16201. Dear Mary B&B
+ID: b3d322de-9ebd-4884-af2b-7100b9bc6e0a
+Slug: dear-mary-b-b-cesar
+Nome: Dear Mary B&B
+Comune / Provincia: Cesar�
+Indirizzo: Via Cacciaventi, 10, 73016 San Cesario di Lecce LE
+Coordinate: Lat 40.302877, Lng 18.152468
+Website: https://www.dearmarybeb.com/
+Email: 
+
+16202. Hotel Caesar Palace
+ID: c0f8387b-cb93-4ac9-b521-ba388cce7d87
+Slug: hotel-caesar-palace-cesar
+Nome: Hotel Caesar Palace
+Comune / Provincia: Cesar�
+Indirizzo: Via Consolare Valeria, 130, 98035 Giardini Naxos ME
+Coordinate: Lat 37.819858, Lng 15.254774
+Website: http://www.hotelcaesarpalacenaxos.it/
+Email: 
+
+16203. Là di Cesar - affittacamere
+ID: d0cc4468-26bb-4d30-825e-b7e77c5ab050
+Slug: la-di-cesar-affittacamere-cesar
+Nome: Là di Cesar - affittacamere
+Comune / Provincia: Cesar�
+Indirizzo: Via G. Mazzini, 15, 33041 Aiello del Friuli UD
+Coordinate: Lat 45.873492, Lng 13.343736
+Website: https://ladicesar.com/
+Email: 
+
+16204. Mesciu Cesare B&B
+ID: 33e7a199-bb72-4117-8550-c3d203405213
+Slug: mesciu-cesare-b-b-cesar
+Nome: Mesciu Cesare B&B
+Comune / Provincia: Cesar�
+Indirizzo: Via Martino Marinosci, 45, 73100 Lecce LE
+Coordinate: Lat 40.362954, Lng 18.187947
+Website: —
+Email: 
+
+16205. Ristorante Agriturismo La Contessa Azienda Agrituristica La Contessa Dei F.Lli Giannaccari Marco E Celeste
+ID: b7e481c5-26a4-43af-924f-286ac66cc375
+Slug: ristorante-agriturismo-la-contessa-azienda-agrit-cesar
+Nome: Ristorante Agriturismo La Contessa Azienda Agrituristica La Contessa Dei F.Lli Giannaccari Marco E Celeste
+Comune / Provincia: Cesar�
+Indirizzo: 34, STR. PROV. 16, Lequile, LE 73010, 73010 Lequile LE
+Coordinate: Lat 40.313721, Lng 18.132671
+Website: —
+Email: 

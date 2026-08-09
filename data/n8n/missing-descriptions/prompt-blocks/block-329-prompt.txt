@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+11481. La Selvetta
+ID: 6e0f94a5-712d-4b0f-af71-8a30e6044dbb
+Slug: la-selvetta-buguggiate
+Nome: La Selvetta
+Comune / Provincia: Buguggiate
+Indirizzo: Via XXV Aprile, 88, 21020 Buguggiate VA
+Coordinate: Lat 45.783664, Lng 8.817413
+Website: —
+Email: 
+
+11482. Albergo Ristorante Pizzeria Bar Dal Asìn
+ID: 19148af9-e121-4a91-a7b0-068b8befc3c7
+Slug: albergo-ristorante-pizzeria-bar-dal-asin-buja
+Nome: Albergo Ristorante Pizzeria Bar Dal Asìn
+Comune / Provincia: Buja
+Indirizzo: Via Ciro di Pers, 63, 33030 Majano UD
+Coordinate: Lat 46.185312, Lng 13.071351
+Website: http://www.dalasin.it/
+Email: 
+
+11483. B&B The Secret Garden
+ID: fc8a50bc-5862-4d69-a18b-f73017a84232
+Slug: b-b-the-secret-garden-buja
+Nome: B&B The Secret Garden
+Comune / Provincia: Buja
+Indirizzo: Via Liberazione, 27, 33030 Buja UD
+Coordinate: Lat 46.203847, Lng 13.10909
+Website: https://www.facebook.com/profile.php?id=100094557612471
+Email: 
+
+11484. Hotel Bristol Buja
+ID: 96e36b27-a980-4165-abd1-c939ced8eec7
+Slug: hotel-bristol-buja-buja
+Nome: Hotel Bristol Buja
+Comune / Provincia: Buja
+Indirizzo: Via Monteortone, 2, 35031 Abano Terme PD
+Coordinate: Lat 45.354521, Lng 11.77675
+Website: http://www.bristolbuja.it/
+Email: 
+
+11485. Hotel San Daniele
+ID: 8c3b4e5d-f412-4978-abf3-68159ff11f4a
+Slug: hotel-san-daniele-buja
+Nome: Hotel San Daniele
+Comune / Provincia: Buja
+Indirizzo: Via del Lago, 1, 33038 San Daniele del Friuli UD
+Coordinate: Lat 46.160244, Lng 13.009804
+Website: http://www.sandanielehotel.com/
+Email: 
+
+11486. Meditur Hotel Udine Nord
+ID: 7176e722-e1c6-4333-acea-3a7a754e3f09
+Slug: meditur-hotel-udine-nord-buja
+Nome: Meditur Hotel Udine Nord
+Comune / Provincia: Buja
+Indirizzo: Via Alpe Adria, 10, 33010 Tavagnacco UD
+Coordinate: Lat 46.111559, Lng 13.213522
+Website: http://www.hoteludinenord.it/
+Email: 
+
+11487. Agriturismo Tenuta del Fatio
+ID: b988f079-0fee-458d-a2d9-95940b48d863
+Slug: agriturismo-tenuta-del-fatio-bulgarograsso
+Nome: Agriturismo Tenuta del Fatio
+Comune / Provincia: Bulgarograsso
+Indirizzo: Via Trento, 7, 22079 Villa Guardia CO
+Coordinate: Lat 45.764269, Lng 9.031146
+Website: http://tenutadelfatio.com/
+Email: 
+
+11488. B&B Woodbnb
+ID: 26d16293-e8c5-4c05-aede-aad6eaaad961
+Slug: b-b-woodbnb-bulgarograsso
+Nome: B&B Woodbnb
+Comune / Provincia: Bulgarograsso
+Indirizzo: Via A. Vivaldi, 29, 22070 Cassina Rizzardi CO
+Coordinate: Lat 45.751705, Lng 9.022655
+Website: https://www.woodbnb.it/
+Email: 
+
+11489. Hotel Maria
+ID: ea72b703-5c7d-4723-bf6b-360ff1b2476d
+Slug: hotel-maria-bulgarograsso
+Nome: Hotel Maria
+Comune / Provincia: Bulgarograsso
+Indirizzo: Via Risorgimento, 64, 22070 Luisago CO
+Coordinate: Lat 45.757957, Lng 9.051068
+Website: http://www.hotelmariacomo.com/
+Email: 
+
+11490. Albergo ristorante Doria
+ID: d7f005f6-a126-4147-a23f-42dd271d2463
+Slug: albergo-ristorante-doria-bulzi
+Nome: Albergo ristorante Doria
+Comune / Provincia: Bulzi
+Indirizzo: Traversa S. Nicola, 07030 Santa Maria Coghinas SS
+Coordinate: Lat 40.903672, Lng 8.87275
+Website: https://albergo-ristorante-doria.italiadestinazioni.top/
+Email: 
+
+11491. Artemisia Sardegna | Guesthouse
+ID: a3edb646-b520-4901-8dc9-2c8d03f15030
+Slug: artemisia-sardegna-guesthouse-bulzi
+Nome: Artemisia Sardegna | Guesthouse
+Comune / Provincia: Bulzi
+Indirizzo: Via Antonio Gramsci, 3, 07030 Tergu SS
+Coordinate: Lat 40.872337, Lng 8.719521
+Website: —
+Email: 
+
+11492. B&B Domus De Janas
+ID: a41ced13-d030-4015-b11a-15190668c9f1
+Slug: b-b-domus-de-janas-bulzi
+Nome: B&B Domus De Janas
+Comune / Provincia: Bulzi
+Indirizzo: Via Vittorio Emanuele, 72, 07035 Sedini SS
+Coordinate: Lat 40.852006, Lng 8.815292
+Website: http://bnbdomusdejanas.com/
+Email: 
+
+11493. B&B La Roccia
+ID: 12ad7f94-c8cf-423d-992d-da87ae42ae08
+Slug: b-b-la-roccia-bulzi
+Nome: B&B La Roccia
+Comune / Provincia: Bulzi
+Indirizzo: Strada Statale 134 di Castel Sardo, 36, 07031 Castelsardo SS
+Coordinate: Lat 40.894419, Lng 8.743806
+Website: —
+Email: 
+
+11494. B&B La terra del benessere e Centro olistico
+ID: 6720ba0b-645b-446b-aac6-cc5e9001d892
+Slug: b-b-la-terra-del-benessere-e-centro-olistico-bulzi
+Nome: B&B La terra del benessere e Centro olistico
+Comune / Provincia: Bulzi
+Indirizzo: Via Alfieri, 7, 07031 Castelsardo SS
+Coordinate: Lat 40.914869, Lng 8.710378
+Website: https://www.booking.com/hotel/it/la-terra-del-benessere.it.html
+Email: 
+
+11495. B&B Pani Silvio
+ID: e04fc4d2-b5ed-4149-8da0-8b5c8e7ebd72
+Slug: b-b-pani-silvio-bulzi
+Nome: B&B Pani Silvio
+Comune / Provincia: Bulzi
+Indirizzo: Via Giacomo Leopardi, 6, 07034 Perfugas SS
+Coordinate: Lat 40.832742, Lng 8.881268
+Website: http://bbpanisilvio.weebly.com/
+Email: 
+
+11496. Castelsardo Resort
+ID: 2a0b84e3-0bfd-497c-8057-8f9f5b214c5a
+Slug: castelsardo-resort-bulzi
+Nome: Castelsardo Resort
+Comune / Provincia: Bulzi
+Indirizzo: Località Baia Ostina, 07031 Castelsardo SS
+Coordinate: Lat 40.915173, Lng 8.73629
+Website: https://www.castelsardoresort.it/
+Email: 
+
+11497. Hotel & SPA Riviera Castelsardo
+ID: dddf80f6-7595-4ea9-a167-cbf20d54f05d
+Slug: hotel-spa-riviera-castelsardo-bulzi
+Nome: Hotel & SPA Riviera Castelsardo
+Comune / Provincia: Bulzi
+Indirizzo: Anglona Seafront, Lungomare Anglona, 1/B, 07031 Castelsardo SS
+Coordinate: Lat 40.91345, Lng 8.70807
+Website: https://www.hotelriviera.net/?utm_source=GB&utm_medium=organic
+Email: 
+
+11498. Hotel Tartaruga Bianca
+ID: 3c969063-281b-4c9d-b38d-eb94421d8db6
+Slug: hotel-tartaruga-bianca-bulzi
+Nome: Hotel Tartaruga Bianca
+Comune / Provincia: Bulzi
+Indirizzo: Via Cristoforo Colombo, 43, 07039 Valledoria SS
+Coordinate: Lat 40.915377, Lng 8.778362
+Website: https://www.hotel-tartarugabianca-sardegna.it/
+Email: 
+
+11499. Il Ginepro
+ID: 38847d12-f08f-4a84-b60f-79919005ecc1
+Slug: il-ginepro-bulzi
+Nome: Il Ginepro
+Comune / Provincia: Bulzi
+Indirizzo: Via Regina Elena, 111, 07039 Valledoria SS
+Coordinate: Lat 40.920303, Lng 8.829429
+Website: http://www.valledoria-ilginepro.it/
+Email: 
+
+11500. Il Vecchio Casale
+ID: e50b87cc-cb3e-4d92-afee-5694185b65de
+Slug: il-vecchio-casale-bulzi
+Nome: Il Vecchio Casale
+Comune / Provincia: Bulzi
+Indirizzo: Regione l'Ena di Preddi Larentu, 44, 07035 Sedini SS
+Coordinate: Lat 40.866625, Lng 8.810407
+Website: http://ilvecchiocasalebnb.com/
+Email: 
+
+11501. Janus Hotel
+ID: 791a0aed-d2f6-4055-ab0a-57c8c1d4e130
+Slug: janus-hotel-bulzi
+Nome: Janus Hotel
+Comune / Provincia: Bulzi
+Indirizzo: Via Roma, 85, 07031 Castelsardo SS
+Coordinate: Lat 40.913686, Lng 8.709057
+Website: http://www.janushotel.it/
+Email: 
+
+11502. Montiruju Hotel
+ID: 40347d0e-e309-4966-ab58-07650fc87287
+Slug: montiruju-hotel-bulzi
+Nome: Montiruju Hotel
+Comune / Provincia: Bulzi
+Indirizzo: Viale delle Terme, 1, 07030 Santa Maria Coghinas SS
+Coordinate: Lat 40.905788, Lng 8.884306
+Website: http://www.montirujuhotel.com/
+Email: 
+
+11503. Su Arghentu Country Hotel
+ID: 733fc464-e6d7-4698-86d6-157096d52126
+Slug: su-arghentu-country-hotel-bulzi
+Nome: Su Arghentu Country Hotel
+Comune / Provincia: Bulzi
+Indirizzo: Località Bena e Traes, 07030 Laerru SS
+Coordinate: Lat 40.827628, Lng 8.853488
+Website: https://www.suarghentucountryhotel.it/
+Email: 
+
+11504. The Square Castelsardo
+ID: e9fae3e7-8d8f-46e0-9e65-65e31d457f2a
+Slug: the-square-castelsardo-bulzi
+Nome: The Square Castelsardo
+Comune / Provincia: Bulzi
+Indirizzo: Via R. Elena, 23, 07031 Castelsardo SS
+Coordinate: Lat 40.912892, Lng 8.712679
+Website: —
+Email: 
+
+11505. Affittacamere Falabella Teresa
+ID: 6d4ddbe4-f493-4fd4-8306-8ce5e555cc0e
+Slug: affittacamere-falabella-teresa-buonabitacolo
+Nome: Affittacamere Falabella Teresa
+Comune / Provincia: Buonabitacolo
+Indirizzo: Via Roma, 18, 84032 Buonabitacolo SA
+Coordinate: Lat 40.27424, Lng 15.622762
+Website: —
+Email: 
+
+11506. Affittacamere Girasole
+ID: dfb87d81-55e2-4b58-80e3-795197418575
+Slug: affittacamere-girasole-buonabitacolo
+Nome: Affittacamere Girasole
+Comune / Provincia: Buonabitacolo
+Indirizzo: Via Roma, 93, 84032 Buonabitacolo SA
+Coordinate: Lat 40.27247, Lng 15.621438
+Website: —
+Email: 
+
+11507. Agriturismo - Affittacamere "Il Tufo"
+ID: 0b879892-d860-409d-b291-6c9c11a8647b
+Slug: agriturismo-affittacamere-il-tufo-buonabitacolo
+Nome: Agriturismo - Affittacamere "Il Tufo"
+Comune / Provincia: Buonabitacolo
+Indirizzo: Via Tempa Caselle 9, 84033 Montesano sulla Marcellana SA
+Coordinate: Lat 40.285571, Lng 15.67194
+Website: http://agriturismo-affittacamere-il-tufo.com.es/
+Email: 
+
+11508. Agriturismo Dipinto dal Sole
+ID: 4ee78cc6-133d-4035-83a9-f9720ed8b560
+Slug: agriturismo-dipinto-dal-sole-buonabitacolo
+Nome: Agriturismo Dipinto dal Sole
+Comune / Provincia: Buonabitacolo
+Indirizzo: Via Vicinale Peppina, n.2, 84034 Padula SA
+Coordinate: Lat 40.323748, Lng 15.655277
+Website: https://www.dipintodalsole.it/
+Email: 
+
+11509. Agriturismo Il Castagneto - Padula
+ID: ba6631da-3dc5-4b22-8e67-25543ccb131d
+Slug: agriturismo-il-castagneto-padula-buonabitacolo
+Nome: Agriturismo Il Castagneto - Padula
+Comune / Provincia: Buonabitacolo
+Indirizzo: Via Pantagnone, 84034 Padula SA
+Coordinate: Lat 40.322051, Lng 15.665415
+Website: http://www.agricastagneto.it/
+Email: 
+
+11510. Agriturismo il giardino dei ciliegi
+ID: cc85abb2-cfbc-47a7-82d0-e833993c306b
+Slug: agriturismo-il-giardino-dei-ciliegi-buonabitacolo
+Nome: Agriturismo il giardino dei ciliegi
+Comune / Provincia: Buonabitacolo
+Indirizzo: Località Vesolo, 84030 Sanza SA
+Coordinate: Lat 40.265609, Lng 15.601315
+Website: —
+Email: 
+
+11511. B&B Agriturismo La Dolce Mela
+ID: da47590f-762c-4635-a6a1-116b7336650c
+Slug: b-b-agriturismo-la-dolce-mela-buonabitacolo
+Nome: B&B Agriturismo La Dolce Mela
+Comune / Provincia: Buonabitacolo
+Indirizzo: Via Tempa Petrini, 3, 84032 Buonabitacolo SA
+Coordinate: Lat 40.274638, Lng 15.635658
+Website: http://www.agriturismoladolcemela.com/
+Email: 
+
+11512. Be and Be
+ID: 60f95410-9809-493b-a33f-8b6075d0625b
+Slug: be-and-be-buonabitacolo
+Nome: Be and Be
+Comune / Provincia: Buonabitacolo
+Indirizzo: Via Giuseppe Garibaldi, 35, 84030 Montesano sulla Marcellana SA
+Coordinate: Lat 40.284804, Lng 15.654976
+Website: https://be-and-be.camerainitalia.top/
+Email: 
+
+11513. Cà del Conte
+ID: 80f4817b-d450-4332-bcd4-54daff616378
+Slug: ca-del-conte-buonabitacolo
+Nome: Cà del Conte
+Comune / Provincia: Buonabitacolo
+Indirizzo: Via Noce del Conte, 84034 Padula SA
+Coordinate: Lat 40.320045, Lng 15.647125
+Website: http://www.cadelconte.it/
+Email: 
+
+11514. Casa Vacanze Nicola e Lina
+ID: b434f28c-971a-4a5a-8ef4-d75a34ac1b23
+Slug: casa-vacanze-nicola-e-lina-buonabitacolo
+Nome: Casa Vacanze Nicola e Lina
+Comune / Provincia: Buonabitacolo
+Indirizzo: Piazza Umberto I, 84030 Tortorella SA
+Coordinate: Lat 40.142428, Lng 15.606128
+Website: https://mymenuweb.com/it/restaurants/785777/?utm_source=google_profile&utm_medium=google_profile&utm_campaign=admin
+Email: 
+
+11515. Da zia Giò
+ID: 0ecceb2a-3b79-4b1c-8197-d067a8d78b8c
+Slug: da-zia-gio-buonabitacolo
+Nome: Da zia Giò
+Comune / Provincia: Buonabitacolo
+Indirizzo: Via Fusara, 84034 Padula SA
+Coordinate: Lat 40.332263, Lng 15.641705
+Website: https://da-zia-gi.italiacongusto.top/
+Email: 

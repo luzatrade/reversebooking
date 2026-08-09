@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+7456. VinsLounge B&B Suite
+ID: c1a5d9dd-297d-44cc-a04a-19f8eadd4a36
+Slug: vinslounge-b-b-suite-barletta
+Nome: VinsLounge B&B Suite
+Comune / Provincia: Barletta
+Indirizzo: Via del Duomo, 5, 76121 Barletta BT
+Coordinate: Lat 41.320796, Lng 16.284673
+Website: http://www.vinslounge.it/
+Email: 
+
+7457. B&B L'Erica
+ID: 8dd2cb3a-1958-48b9-b97f-e9f2e1db0ca5
+Slug: b-b-l-erica-barni
+Nome: B&B L'Erica
+Comune / Provincia: Barni
+Indirizzo: Via privata Aldo Moro, 11, 23865 Onno LC
+Coordinate: Lat 45.915522, Lng 9.291166
+Website: http://www.beblerica.it/
+Email: 
+
+7458. B&B SIBI
+ID: b156cbc0-f0bb-48df-b9bf-899269fe4c3f
+Slug: b-b-sibi-barni
+Nome: B&B SIBI
+Comune / Provincia: Barni
+Indirizzo: Via Papa Giovanni XXIII, 16, 23827 Lierna LC
+Coordinate: Lat 45.953521, Lng 9.304724
+Website: https://www.bbsibi.it/
+Email: 
+
+7459. Bed & Breakfast Dei Laghi
+ID: 0f971efc-6dff-4ef8-9f5a-9926a6b32a97
+Slug: bed-breakfast-dei-laghi-barni
+Nome: Bed & Breakfast Dei Laghi
+Comune / Provincia: Barni
+Indirizzo: Via Giuseppe Garibaldi, 20, 22030 Magreglio CO
+Coordinate: Lat 45.918722, Lng 9.265805
+Website: http://www.deilaghi.com/
+Email: 
+
+7460. Crotto dei Pescatori
+ID: dc7c8cc9-595c-4337-b969-6f76b8de0857
+Slug: crotto-dei-pescatori-barni
+Nome: Crotto dei Pescatori
+Comune / Provincia: Barni
+Indirizzo: Località Casate, 77, 22025 Lezzeno CO
+Coordinate: Lat 45.950342, Lng 9.210296
+Website: http://www.crottodeipescatori.com/
+Email: 
+
+7461. Hotel Alverde
+ID: 0219e7cc-62bc-41be-a1af-0f9e5f425def
+Slug: hotel-alverde-barni
+Nome: Hotel Alverde
+Comune / Provincia: Barni
+Indirizzo: Contrada dei Ronchi, 7, 23826 Mandello del Lario LC
+Coordinate: Lat 45.929244, Lng 9.3306
+Website: https://hotelalverde.com/
+Email: 
+
+7462. Hotel Grigna
+ID: 71ae2cf7-6d6f-47ad-a253-4a23545fe58c
+Slug: hotel-grigna-barni
+Nome: Hotel Grigna
+Comune / Provincia: Barni
+Indirizzo: Via Statale, 29, 23826 Mandello del Lario LC
+Coordinate: Lat 45.915345, Lng 9.320634
+Website: https://booking.bedzzle.com/desktop/?apikey=739392eb886403c9ca2cba6cf4bcb521&lang=it#search/cid=2026-09-05&cod=2026-09-06&gpa=A%2CA&cpn=&_=1761911592966
+Email: 
+
+7463. Hotel Mirabeau Bellagio
+ID: f12b5c63-2217-42b2-a876-142cd7ff9240
+Slug: hotel-mirabeau-bellagio-barni
+Nome: Hotel Mirabeau Bellagio
+Comune / Provincia: Barni
+Indirizzo: Via Provinciale, 79, 22030 Alta, CO
+Coordinate: Lat 45.927603, Lng 9.267876
+Website: https://hotel-mirabeau.com/
+Email: 
+
+7464. Hotel Ristorante Al Verde
+ID: edcf05e3-e73c-48cf-928e-b50d69b18fe3
+Slug: hotel-ristorante-al-verde-barni
+Nome: Hotel Ristorante Al Verde
+Comune / Provincia: Barni
+Indirizzo: Via Rossana, 5, 23826 Mandello del Lario LC
+Coordinate: Lat 45.9293, Lng 9.330616
+Website: http://www.hotelalverde.com/
+Email: 
+
+7465. Mamma Ciccia rooms & apartments
+ID: 02ab7a70-c37b-40e4-8780-e454e440fd59
+Slug: mamma-ciccia-rooms-apartments-barni
+Nome: Mamma Ciccia rooms & apartments
+Comune / Provincia: Barni
+Indirizzo: Piazza Roma, 13, 23826 Mandello del Lario LC
+Coordinate: Lat 45.912222, Lng 9.319167
+Website: http://www.mammaciccia.it/
+Email: 
+
+7466. Nautilus Hotel & Resort Lido
+ID: 3ab719d5-70c1-4150-a59f-0f83ce3d2877
+Slug: nautilus-hotel-resort-lido-barni
+Nome: Nautilus Hotel & Resort Lido
+Comune / Provincia: Barni
+Indirizzo: Strada Statale 583, 23826 Moregge LC
+Coordinate: Lat 45.883901, Lng 9.331653
+Website: https://nautiluslakehotel.com/
+Email: 
+
+7467. Villa Costanza
+ID: 42dfe2ad-3f9d-41ca-ad0d-fca7afd9c1ac
+Slug: villa-costanza-barni
+Nome: Villa Costanza
+Comune / Provincia: Barni
+Indirizzo: V. Milano, 40, 22030 Magreglio CO
+Coordinate: Lat 45.919974, Lng 9.26041
+Website: https://air.tl/MzrjMcpS
+Email: 
+
+7468. Agriturismo Bianconiglio - B&B Langhe del Barolo
+ID: d478b39b-a34b-4bff-a7dd-d9486c0c3bbf
+Slug: agriturismo-bianconiglio-b-b-langhe-del-barolo-barolo
+Nome: Agriturismo Bianconiglio - B&B Langhe del Barolo
+Comune / Provincia: Barolo
+Indirizzo: loc. Perno 30, 12065 Monforte d'Alba CN
+Coordinate: Lat 44.61278, Lng 7.97578
+Website: http://www.agriturismobianconiglio.com/
+Email: 
+
+7469. Agriturismo Cascina Rocca B&B
+ID: f624cf80-95c6-4f70-b45b-68fb6b27934b
+Slug: agriturismo-cascina-rocca-b-b-barolo
+Nome: Agriturismo Cascina Rocca B&B
+Comune / Provincia: Barolo
+Indirizzo: Frazione Annunziata Rocca 117/B, 12064 La Morra CN
+Coordinate: Lat 44.629152, Lng 7.955953
+Website: https://www.cascinarocca.com/
+Email: 
+
+7470. Agriturismo Il Gioco Dell'Oca
+ID: 72adf1a4-27b2-4006-9094-84d5b6853e5d
+Slug: agriturismo-il-gioco-dell-oca-barolo
+Nome: Agriturismo Il Gioco Dell'Oca
+Comune / Provincia: Barolo
+Indirizzo: Via Alba, 83, 12060 Barolo CN
+Coordinate: Lat 44.626338, Lng 7.956322
+Website: http://www.gioco-delloca.it/
+Email: 
+
+7471. Agriturismo Le Viole
+ID: b224f088-53b7-45a4-a188-3bb57f597fb1
+Slug: agriturismo-le-viole-barolo
+Nome: Agriturismo Le Viole
+Comune / Provincia: Barolo
+Indirizzo: Via delle Viole, 14, 12060 Barolo CN
+Coordinate: Lat 44.614731, Lng 7.92265
+Website: https://www.leviole.it/
+Email: 
+
+7472. ASILO LUX APARTMENTS
+ID: 11b5c5f7-8778-4aed-9927-52973d38c763
+Slug: asilo-lux-apartments-barolo
+Nome: ASILO LUX APARTMENTS
+Comune / Provincia: Barolo
+Indirizzo: Via Enrico Ghisolfi, Via Asilo, 6, 12060 Barolo CN
+Coordinate: Lat 44.60965, Lng 7.942611
+Website: http://www.asiloinbarolo.com/
+Email: 
+
+7473. B&B Casa in Barolo
+ID: 0aca0a27-90e8-4dc9-b88b-e18255606f8b
+Slug: b-b-casa-in-barolo-barolo
+Nome: B&B Casa in Barolo
+Comune / Provincia: Barolo
+Indirizzo: Vicolo del Pozzo, 3, 12060 Barolo CN
+Coordinate: Lat 44.609573, Lng 7.941924
+Website: http://www.casainbarolo.it/
+Email: 
+
+7474. Ca' San Ponzio - Affittacamere
+ID: 0a6da68b-33c1-4e0b-bea8-44811c3d091a
+Slug: ca-san-ponzio-affittacamere-barolo
+Nome: Ca' San Ponzio - Affittacamere
+Comune / Provincia: Barolo
+Indirizzo: Via Rittane, 7, 12060 Vergne CN
+Coordinate: Lat 44.611407, Lng 7.921717
+Website: http://www.casanponzio.com/
+Email: 
+
+7475. Casa Svizzera - Agriturismo in Barolo
+ID: 6e01cfba-1ce6-4142-94c3-c556ab8cca0f
+Slug: casa-svizzera-agriturismo-in-barolo-barolo
+Nome: Casa Svizzera - Agriturismo in Barolo
+Comune / Provincia: Barolo
+Indirizzo: Via Roma, 65, 12060 Barolo CN
+Coordinate: Lat 44.610574, Lng 7.942703
+Website: http://www.casasvizzera.com/
+Email: 
+
+7476. Casacolbert , Barolo
+ID: cfbb4cec-f261-4978-af8e-aa53d0a14114
+Slug: casacolbert-barolo-barolo
+Nome: Casacolbert , Barolo
+Comune / Provincia: Barolo
+Indirizzo: Via Acqua Gelata, 1, 12060 Barolo CN
+Coordinate: Lat 44.610848, Lng 7.941737
+Website: http://www.langheholiday.com/
+Email: 
+
+7477. Ciabot delle Aie - Dormi nelle Langhe di Barolo
+ID: b3f3e60b-3ed1-4a92-9006-1b82fa3bacbf
+Slug: ciabot-delle-aie-dormi-nelle-langhe-di-barolo-barolo
+Nome: Ciabot delle Aie - Dormi nelle Langhe di Barolo
+Comune / Provincia: Barolo
+Indirizzo: Via Preda, 1, 12060 Barolo CN
+Coordinate: Lat 44.61347, Lng 7.94673
+Website: —
+Email: 
+
+7478. Dimora Palma Barolo
+ID: 616449f1-ce5d-4f7f-92f9-bca909d38c25
+Slug: dimora-palma-barolo-barolo
+Nome: Dimora Palma Barolo
+Comune / Provincia: Barolo
+Indirizzo: Via XXV Aprile, 22, 12060 Barolo CN
+Coordinate: Lat 44.614092, Lng 7.941274
+Website: https://www.dimorapalma.it/
+Email: 
+
+7479. Eleìra Luxury Accommodations
+ID: 99e77533-c492-4775-86fa-7c0a9ab8d13c
+Slug: eleira-luxury-accommodations-barolo
+Nome: Eleìra Luxury Accommodations
+Comune / Provincia: Barolo
+Indirizzo: Via Cavour, 5, 12060 Barolo CN
+Coordinate: Lat 44.610439, Lng 7.943346
+Website: http://www.eleirabarolo.it/
+Email: 
+
+7480. Hotel Barolo
+ID: 6aae8279-261e-4990-9c55-a06a8ad0767d
+Slug: hotel-barolo-barolo
+Nome: Hotel Barolo
+Comune / Provincia: Barolo
+Indirizzo: Via Lomondo, 2, 12060 Barolo CN
+Coordinate: Lat 44.612679, Lng 7.942265
+Website: http://www.hotelbarolo.it/
+Email: 
+
+7481. La Giolitta Accomodations di Daniela Vacca
+ID: 46ceb4a9-6fcb-4f86-8efa-42fd94c421d1
+Slug: la-giolitta-accomodations-di-daniela-vacca-barolo
+Nome: La Giolitta Accomodations di Daniela Vacca
+Comune / Provincia: Barolo
+Indirizzo: Via Cesare Battisti, 13, 12060 Barolo CN
+Coordinate: Lat 44.609824, Lng 7.94322
+Website: https://www.lagiolitta.it/
+Email: 
+
+7482. La Rosa Gialla - Bio Appartamenti e camere di charme a Barolo
+ID: efcaf45f-00d5-4c0d-82b4-23b6e2380d6c
+Slug: la-rosa-gialla-bio-appartamenti-e-camere-di-char-barolo
+Nome: La Rosa Gialla - Bio Appartamenti e camere di charme a Barolo
+Comune / Provincia: Barolo
+Indirizzo: Via Vergne, 2, 12060 Barolo CN
+Coordinate: Lat 44.6143, Lng 7.920579
+Website: https://www.larosagialla.it/
+Email: 
+
+7483. La Terrazza Sul Bosco
+ID: 44c375f7-4279-4d53-84bb-b717e0856044
+Slug: la-terrazza-sul-bosco-barolo
+Nome: La Terrazza Sul Bosco
+Comune / Provincia: Barolo
+Indirizzo: Via Conforso, 5, 12060 Barolo CN
+Coordinate: Lat 44.609614, Lng 7.943386
+Website: http://www.camerano1875.com/
+Email: 
+
+7484. The Green Guesthouse
+ID: e28d3ebc-a041-4701-a4f1-b3964a0f9f2b
+Slug: the-green-guesthouse-barolo
+Nome: The Green Guesthouse
+Comune / Provincia: Barolo
+Indirizzo: Frazione Vergne, 83, 12068 Barolo CN
+Coordinate: Lat 44.613902, Lng 7.919835
+Website: http://www.green-guesthouse.it/
+Email: 
+
+7485. TorreBarolo
+ID: a7e8e12a-9fb1-4455-9b45-825fe4749b87
+Slug: torrebarolo-barolo
+Nome: TorreBarolo
+Comune / Provincia: Barolo
+Indirizzo: Via Gioberti, 4, 12060 Barolo CN
+Coordinate: Lat 44.610055, Lng 7.943255
+Website: http://www.torrebarolo.com/
+Email: 
+
+7486. Villa Carla Barolo
+ID: 4bac5abe-f887-455e-8d37-55099c8ca313
+Slug: villa-carla-barolo-barolo
+Nome: Villa Carla Barolo
+Comune / Provincia: Barolo
+Indirizzo: Via Monforte, 10, 12060 Barolo CN
+Coordinate: Lat 44.608393, Lng 7.940159
+Website: https://www.villacarlabarolo.com/
+Email: 
+
+7487. Vineho
+ID: c97c8193-6def-44e9-96d4-1bc6f901f563
+Slug: vineho-barolo
+Nome: Vineho
+Comune / Provincia: Barolo
+Indirizzo: Via delle Viole, 3, 12060 Barolo CN
+Coordinate: Lat 44.614973, Lng 7.927107
+Website: http://www.vineho.it/
+Email: 
+
+7488. B&B Poesie di Viaggio
+ID: 8f24b8f5-d7f3-47d4-8475-c4bbaa405639
+Slug: b-b-poesie-di-viaggio-barone-canavese
+Nome: B&B Poesie di Viaggio
+Comune / Provincia: Barone Canavese
+Indirizzo: Via Stazione, 29, 10010 Candia Canavese TO
+Coordinate: Lat 45.329472, Lng 7.89071
+Website: http://www.poesiediviaggio.it/
+Email: 
+
+7489. Castello di Pavone
+ID: f713a13d-4f67-431b-a8b8-5886ff80e388
+Slug: castello-di-pavone-barone-canavese
+Nome: Castello di Pavone
+Comune / Provincia: Barone Canavese
+Indirizzo: Via Dietro Castello, 10018 Pavone Canavese TO
+Coordinate: Lat 45.436408, Lng 7.856298
+Website: http://www.castellodipavone.com/
+Email: 
+
+7490. DE SANTI B&B
+ID: a9784cef-0fce-421e-9975-74d9bbed12cc
+Slug: de-santi-b-b-barone-canavese
+Nome: DE SANTI B&B
+Comune / Provincia: Barone Canavese
+Indirizzo: Via Roma, 79, 10010 Candia Canavese TO
+Coordinate: Lat 45.320169, Lng 7.878686
+Website: —
+Email: 

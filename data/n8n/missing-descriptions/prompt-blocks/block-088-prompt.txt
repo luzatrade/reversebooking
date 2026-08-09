@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+3046. Hotel Fina
+ID: 55a23505-e3bf-4d31-aaea-29a52ab39f2c
+Slug: hotel-fina-amelia
+Nome: Hotel Fina
+Comune / Provincia: Amelia
+Indirizzo: Via Tuderte, 419, 05035 Narni TR
+Coordinate: Lat 42.540675, Lng 12.522588
+Website: http://www.hotelfina.it/
+Email: 
+
+3047. Hotel Narnia
+ID: 18201d55-d040-4bca-9654-5edbeace172e
+Slug: hotel-narnia-amelia
+Nome: Hotel Narnia
+Comune / Provincia: Amelia
+Indirizzo: Viale della Stazione, 12, 05035 Narni Scalo TR
+Coordinate: Lat 42.531648, Lng 12.518457
+Website: https://www.hotel-narnia.com/
+Email: 
+
+3048. Hotel Umbria
+ID: eac70082-1a84-4107-8ce8-40785cca04bc
+Slug: hotel-umbria-amelia
+Nome: Hotel Umbria
+Comune / Provincia: Amelia
+Indirizzo: Località Pantaniccio, 14, 05012 Attigliano TR
+Coordinate: Lat 42.511177, Lng 12.296421
+Website: http://www.hotelumbria.it/
+Email: 
+
+3049. L' Albero degli Struzzi
+ID: 5c0e60f2-0129-4098-96c8-6ad76df8ad75
+Slug: l-albero-degli-struzzi-amelia
+Nome: L' Albero degli Struzzi
+Comune / Provincia: Amelia
+Indirizzo: Via Ortana, 58, 05028 Penna in Teverina TR
+Coordinate: Lat 42.484944, Lng 12.370928
+Website: —
+Email: 
+
+3050. La Corte Di Alice
+ID: 7c78b035-afed-4133-ad14-5103fc1e851f
+Slug: la-corte-di-alice-amelia
+Nome: La Corte Di Alice
+Comune / Provincia: Amelia
+Indirizzo: Vicolo dell'Aquila, 4, 05020 Lugnano In Teverina TR
+Coordinate: Lat 42.5747, Lng 12.329973
+Website: http://la-corte-di-alice.com.es/
+Email: 
+
+3051. Locanda Fosca Umbra
+ID: cbf6fba2-18f3-496f-9590-e467c40e6250
+Slug: locanda-fosca-umbra-amelia
+Nome: Locanda Fosca Umbra
+Comune / Provincia: Amelia
+Indirizzo: Via Tiberina, 164, 05035 Taizzano TR
+Coordinate: Lat 42.481262, Lng 12.501669
+Website: http://www.foscaumbra.it/
+Email: 
+
+3052. Marco & Andrea - Agriturismo Collepina
+ID: 6134d43d-7c1f-4c7e-a7b9-7ef2a2250cc4
+Slug: marco-andrea-agriturismo-collepina-amelia
+Nome: Marco & Andrea - Agriturismo Collepina
+Comune / Provincia: Amelia
+Indirizzo: Località Collepina, 05022 Amelia TR
+Coordinate: Lat 42.588556, Lng 12.384322
+Website: http://www.agriturismomarcoeandrea.com/
+Email: 
+
+3053. Villa Magnolia
+ID: 215efa86-85dd-456f-bf45-01ad2797b428
+Slug: villa-magnolia-amelia
+Nome: Villa Magnolia
+Comune / Provincia: Amelia
+Indirizzo: Via S. Giuseppe, 22, 01030 Bassano in Teverina VT
+Coordinate: Lat 42.464886, Lng 12.303965
+Website: https://www.villamagnoliabassano.it/
+Email: 
+
+3054. Agriturismo Masseria Farina
+ID: 7afb7a3a-5cd5-4d4f-a067-ecdf36ceab52
+Slug: agriturismo-masseria-farina-amendolara
+Nome: Agriturismo Masseria Farina
+Comune / Provincia: Amendolara
+Indirizzo: c.da Falabella, 87070 Amendolara CS
+Coordinate: Lat 39.973431, Lng 16.563749
+Website: http://www.agriturismomasseriafarina.it/
+Email: 
+
+3055. Alba de Mar B&B
+ID: 9973dbb1-19da-41b9-8287-9642a79186ee
+Slug: alba-de-mar-b-b-amendolara
+Nome: Alba de Mar B&B
+Comune / Provincia: Amendolara
+Indirizzo: Contrada Civita, 87070 Villaggio Baia del Castello CS
+Coordinate: Lat 39.983948, Lng 16.608775
+Website: https://rafaelstravelexperience.com/alba-de-mar-b-amp-b-italy
+Email: 
+
+3056. B&B Apollonia Roseto Capo Spulico
+ID: 0ff38421-aa4c-498a-b723-a6b5515d5313
+Slug: b-b-apollonia-roseto-capo-spulico-amendolara
+Nome: B&B Apollonia Roseto Capo Spulico
+Comune / Provincia: Amendolara
+Indirizzo: Via Piano Marina, 49, 87070 Borgata Marina CS
+Coordinate: Lat 39.974076, Lng 16.613473
+Website: —
+Email: 
+
+3057. B&B La Piazzetta
+ID: bdae7c2f-c6b7-4954-b6f8-1fcdf23e0a55
+Slug: b-b-la-piazzetta-amendolara
+Nome: B&B La Piazzetta
+Comune / Provincia: Amendolara
+Indirizzo: Via delle Rose, 23, 87070 Roseto Capo Spulico CS
+Coordinate: Lat 39.985941, Lng 16.600896
+Website: http://www.lapiazzettaroseto.it/
+Email: 
+
+3058. B&B Rosa Dei Venti
+ID: 4c44710b-e516-4508-bca8-c470fe5a3f85
+Slug: b-b-rosa-dei-venti-amendolara
+Nome: B&B Rosa Dei Venti
+Comune / Provincia: Amendolara
+Indirizzo: Contrada Civita, 87070 Villaggio Baia del Castello CS
+Coordinate: Lat 39.98383, Lng 16.608322
+Website: https://www.hotelscheck-in.com/bebrosadeiventi/it/
+Email: 
+
+3059. B&B Roseto Mare
+ID: 498cc87d-af18-4419-93b3-6e9f21a0a509
+Slug: b-b-roseto-mare-amendolara
+Nome: B&B Roseto Mare
+Comune / Provincia: Amendolara
+Indirizzo: Via Ellade, 7a, 87070 Roseto Capo Spulico CS
+Coordinate: Lat 39.966358, Lng 16.62204
+Website: http://www.bebrosetomare.it/
+Email: 
+
+3060. Cala dei Saraceni
+ID: dcb84e83-58c4-4e79-970c-f8d2461bb361
+Slug: cala-dei-saraceni-amendolara
+Nome: Cala dei Saraceni
+Comune / Provincia: Amendolara
+Indirizzo: CONTRADA, Via Piano Marina, 87070 Roseto Capo Spulico CS
+Coordinate: Lat 39.980627, Lng 16.596868
+Website: —
+Email: 
+
+3061. La dimora di Angela
+ID: be0ee4ce-9e59-4197-8759-a11ff2fc5198
+Slug: la-dimora-di-angela-amendolara
+Nome: La dimora di Angela
+Comune / Provincia: Amendolara
+Indirizzo: Contrada Gabriele, 9, 87071 Amendolara CS
+Coordinate: Lat 39.915344, Lng 16.577963
+Website: https://www.booking.com/hotel/it/la-dimora-di-angela-amendolara.it.html
+Email: 
+
+3062. La dimora di Poseidone
+ID: 8887cfa1-335a-4737-b1c9-23e946a94202
+Slug: la-dimora-di-poseidone-amendolara
+Nome: La dimora di Poseidone
+Comune / Provincia: Amendolara
+Indirizzo: Contrada colfari, 1, 87071 Amendolara CS
+Coordinate: Lat 39.961923, Lng 16.622153
+Website: http://poseidonecalabria.it/
+Email: 
+
+3063. Masseria Cielogreco
+ID: 9e65fca5-1ef9-426c-a9c4-93acf00cc305
+Slug: masseria-cielogreco-amendolara
+Nome: Masseria Cielogreco
+Comune / Provincia: Amendolara
+Indirizzo: Contrada Cielogreco, snc, 87071 Amendolara CS
+Coordinate: Lat 39.92852, Lng 16.58977
+Website: https://www.agriturismocielogreco.it/
+Email: 
+
+3064. Masseria Stamato
+ID: 716ca2d1-63f4-4343-8dfd-6e7c7f7c4747
+Slug: masseria-stamato-amendolara
+Nome: Masseria Stamato
+Comune / Provincia: Amendolara
+Indirizzo: contrada fragalizzi, 3, 87071 Amendolara CS
+Coordinate: Lat 39.953904, Lng 16.567619
+Website: —
+Email: 
+
+3065. Villaggio calabria agriturismo La Lista
+ID: 985f641e-f099-4133-b6f6-b5c24cdd9d1f
+Slug: villaggio-calabria-agriturismo-la-lista-amendolara
+Nome: Villaggio calabria agriturismo La Lista
+Comune / Provincia: Amendolara
+Indirizzo: S.S. n, S.da Statale 106 Jonica, 87071 Marina di Amendolara CS
+Coordinate: Lat 39.937515, Lng 16.60251
+Website: http://www.lalista.it/
+Email: 
+
+3066. Albergo Omnidiet
+ID: dec3dda1-0001-4a81-945a-8a43bb91207d
+Slug: albergo-omnidiet-ameno
+Nome: Albergo Omnidiet
+Comune / Provincia: Ameno
+Indirizzo: Via Monte Falò, 8, 28011 Armeno NO
+Coordinate: Lat 45.833902, Lng 8.472352
+Website: —
+Email: 
+
+3067. Albergo Ristorante La Genzianella
+ID: e4cbc984-1e0f-4111-8cca-98948565805a
+Slug: albergo-ristorante-la-genzianella-ameno
+Nome: Albergo Ristorante La Genzianella
+Comune / Provincia: Ameno
+Indirizzo: Via per Armeno, 10, 28010 Miasino NO
+Coordinate: Lat 45.80665, Lng 8.438309
+Website: http://www.lagenzianellahotel.it/
+Email: 
+
+3068. Albergo Ristorante Monterosa
+ID: cbf3789e-be02-4104-9bb5-2173dbca2e23
+Slug: albergo-ristorante-monterosa-ameno
+Nome: Albergo Ristorante Monterosa
+Comune / Provincia: Ameno
+Indirizzo: Viale Armando Diaz, 7, 28010 Ameno NO
+Coordinate: Lat 45.790655, Lng 8.435047
+Website: http://www.albergoristorantemonterosa.com/
+Email: 
+
+3069. B&B Il giardino sul lago
+ID: f79bcc88-8014-452b-81d2-645baf1ce6d7
+Slug: b-b-il-giardino-sul-lago-ameno
+Nome: B&B Il giardino sul lago
+Comune / Provincia: Ameno
+Indirizzo: Via Giovanetti, 52, 28016 Orta San Giulio NO
+Coordinate: Lat 45.795486, Lng 8.407286
+Website: http://www.ilgiardinosullago.info/
+Email: 
+
+3070. B&B Lavanda e Rosmarino
+ID: d0ac8274-fe5e-4e78-84f3-fbfc0639105a
+Slug: b-b-lavanda-e-rosmarino-ameno
+Nome: B&B Lavanda e Rosmarino
+Comune / Provincia: Ameno
+Indirizzo: Via Martelli, 33, 28010 Miasino NO
+Coordinate: Lat 45.798738, Lng 8.427885
+Website: http://www.beblavandaerosmarino.it/
+Email: 
+
+3071. B&b Lortallino
+ID: 7d0c31c5-417d-4588-9367-674914ab7b9d
+Slug: b-b-lortallino-ameno
+Nome: B&b Lortallino
+Comune / Provincia: Ameno
+Indirizzo: Località Lortallino, 4, 28010 Ameno NO
+Coordinate: Lat 45.781498, Lng 8.434711
+Website: http://beb-lortallino.com.es/
+Email: 
+
+3072. Campeggio Punta di Crabbia
+ID: 76132c69-dcff-4641-86c3-dd62243bf5d9
+Slug: campeggio-punta-di-crabbia-ameno
+Nome: Campeggio Punta di Crabbia
+Comune / Provincia: Ameno
+Indirizzo: Via Crabbia, 2/A, 28028 Pettenasco NO
+Coordinate: Lat 45.831291, Lng 8.396794
+Website: http://www.campingpuntacrabbia.it/
+Email: 
+
+3073. Camping Orta
+ID: 97b62dbb-89b9-491f-9e04-0f2ae507684b
+Slug: camping-orta-ameno
+Nome: Camping Orta
+Comune / Provincia: Ameno
+Indirizzo: Via Domodossola, 28, 28016 Orta San Giulio NO
+Coordinate: Lat 45.801802, Lng 8.42079
+Website: http://www.campingorta.it/
+Email: 
+
+3074. Hotel Battle of Britain
+ID: 5a4b259e-c5b3-4602-b9c1-1b98eda3c3db
+Slug: hotel-battle-of-britain-ameno
+Nome: Hotel Battle of Britain
+Comune / Provincia: Ameno
+Indirizzo: Viale Santuario Bocciola, 17, 28010 Ameno NO
+Coordinate: Lat 45.793419, Lng 8.427529
+Website: http://www.hotelbattleofbritain.com/
+Email: 
+
+3075. Hotel Fontaine Bleue
+ID: bb5b7d0c-d424-44d6-8b3a-7df037160e76
+Slug: hotel-fontaine-bleue-ameno
+Nome: Hotel Fontaine Bleue
+Comune / Provincia: Ameno
+Indirizzo: Via Novara, 67, 28016 Orta San Giulio NO
+Coordinate: Lat 45.774053, Lng 8.431078
+Website: https://www.hotelfontainebleue.it/
+Email: 
+
+3076. Hotel Ristorante Giardinetto
+ID: 5d337ec0-f71e-4c12-ab3a-f7871997f045
+Slug: hotel-ristorante-giardinetto-ameno
+Nome: Hotel Ristorante Giardinetto
+Comune / Provincia: Ameno
+Indirizzo: Via Provinciale, 1, 28028 Pettenasco NO
+Coordinate: Lat 45.821567, Lng 8.402438
+Website: http://www.giardinettohotel.com/
+Email: 
+
+3077. Hotel San Rocco
+ID: eaf097f0-6a4b-4f2f-80db-6944af6fd5a4
+Slug: hotel-san-rocco-ameno
+Nome: Hotel San Rocco
+Comune / Provincia: Ameno
+Indirizzo: Via Gippini, 11, 28016 Orta San Giulio NO
+Coordinate: Lat 45.800754, Lng 8.404745
+Website: https://www.hotelsanrocco.it/
+Email: 
+
+3078. L'Approdo
+ID: 4d0599c2-c2bd-4a84-b624-c1d69c1f8c74
+Slug: l-approdo-ameno
+Nome: L'Approdo
+Comune / Provincia: Ameno
+Indirizzo: Corso Roma, 80, 28028 Pettenasco NO
+Coordinate: Lat 45.810585, Lng 8.411698
+Website: http://www.approdohotelorta.com/
+Email: 
+
+3079. L'Oasi Amena
+ID: 6e076bfe-0360-432b-8212-048c7f65cae6
+Slug: l-oasi-amena-ameno
+Nome: L'Oasi Amena
+Comune / Provincia: Ameno
+Indirizzo: Viale Giacomo Matteotti, 3, 28010 Ameno NO
+Coordinate: Lat 45.786051, Lng 8.440235
+Website: http://www.oasiamena.com/
+Email: 
+
+3080. L'Oca Mannara
+ID: 3f4dffaa-fbd5-4072-b996-46e1a76875d2
+Slug: l-oca-mannara-ameno
+Nome: L'Oca Mannara
+Comune / Provincia: Ameno
+Indirizzo: via Leonardo Strigini, 1, 28010 Ameno NO
+Coordinate: Lat 45.78969, Lng 8.441774
+Website: https://loca-mannara.mipiacelitalia.top/
+Email: 

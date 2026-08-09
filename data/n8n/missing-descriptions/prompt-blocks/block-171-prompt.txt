@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+5951. La Pupazza Bed & Breakfast
+ID: f2b013ad-ba4a-4bf4-92d0-455e42ed376e
+Slug: la-pupazza-bed-breakfast-avigliano-umbro
+Nome: La Pupazza Bed & Breakfast
+Comune / Provincia: Avigliano Umbro
+Indirizzo: Vocabolo Pantane, 50, 05020 Montecastrilli TR
+Coordinate: Lat 42.649587, Lng 12.408429
+Website: http://www.lapupazzabnb.com/
+Email: 
+
+5952. LaZita B&B
+ID: 859f49aa-ea45-4fd2-95ca-a172e8491abf
+Slug: lazita-b-b-avigliano-umbro
+Nome: LaZita B&B
+Comune / Provincia: Avigliano Umbro
+Indirizzo: SP38, Via San Giuseppe, 4, 05026 Castel dell'Aquila TR
+Coordinate: Lat 42.635447, Lng 12.407388
+Website: https://www.lazita.it/
+Email: 
+
+5953. Agriturismo Al Palazzo
+ID: b4280650-57ff-4c26-9fdd-586dc4a7d3dd
+Slug: agriturismo-al-palazzo-avio
+Nome: Agriturismo Al Palazzo
+Comune / Provincia: Avio
+Indirizzo: Piazza Marconi, 37020 Brentino VR
+Coordinate: Lat 45.654934, Lng 10.888844
+Website: http://www.al-palazzo.it/
+Email: 
+
+5954. Albergo Avio
+ID: 66263444-0873-4d61-8760-a5ace24dd5e6
+Slug: albergo-avio-avio
+Nome: Albergo Avio
+Comune / Provincia: Avio
+Indirizzo: Via Roma, 26, 25050 Temù BS
+Coordinate: Lat 46.248754, Lng 10.470276
+Website: http://www.hotelaviotemu.it/
+Email: 
+
+5955. Albergo Ristorante Alpino "Da Tullio"
+ID: deca9913-5afa-4026-ab63-db179ec81250
+Slug: albergo-ristorante-alpino-da-tullio-avio
+Nome: Albergo Ristorante Alpino "Da Tullio"
+Comune / Provincia: Avio
+Indirizzo: Localita Madonna della Neve, 38063 Avio TN
+Coordinate: Lat 45.737151, Lng 10.881844
+Website: —
+Email: 
+
+5956. Baitone Alpino Nature Village
+ID: a0f48365-4e2d-45c8-a9e1-8201867332ba
+Slug: baitone-alpino-nature-village-avio
+Nome: Baitone Alpino Nature Village
+Comune / Provincia: Avio
+Indirizzo: Via Gardesana, 516, 37018 Malcesine VR
+Coordinate: Lat 45.809301, Lng 10.851381
+Website: https://www.baitonealpino.com/it
+Email: 
+
+5957. Hotel Corona
+ID: 72d386b3-e84b-4e28-81fa-a75da2dd4554
+Slug: hotel-corona-avio
+Nome: Hotel Corona
+Comune / Provincia: Avio
+Indirizzo: Via Centro, 1, 37013 Spiazzi VR
+Coordinate: Lat 45.647441, Lng 10.852135
+Website: http://hotelcorona-spiazzi.it/
+Email: 
+
+5958. Hotel Ristorante Pizzeria Belvedere
+ID: a8282c55-a5bf-4c25-9da0-b05b8ac05877
+Slug: hotel-ristorante-pizzeria-belvedere-avio
+Nome: Hotel Ristorante Pizzeria Belvedere
+Comune / Provincia: Avio
+Indirizzo: Via Don Cesare Scala, 31, 37020 Brentino Belluno VR
+Coordinate: Lat 45.658472, Lng 10.894147
+Website: http://www.hotelbelvedererivalta.it/
+Email: 
+
+5959. Hotel Zeni
+ID: 4cacc7ac-d47b-418b-90da-a787d75c2064
+Slug: hotel-zeni-avio
+Nome: Hotel Zeni
+Comune / Provincia: Avio
+Indirizzo: Via Roma, 16, 38060 Brentonico TN
+Coordinate: Lat 45.81722, Lng 10.954981
+Website: http://www.hotelzeni.it/
+Email: 
+
+5960. Perotti Mario e C. - Piccolo Fiore
+ID: b8145a11-5103-458d-93dd-c3af16f360a7
+Slug: perotti-mario-e-c-piccolo-fiore-avio
+Nome: Perotti Mario e C. - Piccolo Fiore
+Comune / Provincia: Avio
+Indirizzo: Viale Alcide Degasperi, 13, 38063 Avio TN
+Coordinate: Lat 45.735193, Lng 10.942147
+Website: —
+Email: 
+
+5961. Villa Monica
+ID: ee7b95b3-3833-4195-a9b3-9cdd9271db34
+Slug: villa-monica-avio
+Nome: Villa Monica
+Comune / Provincia: Avio
+Indirizzo: Via Mantova, 8, 38060 Brentonico TN
+Coordinate: Lat 45.816549, Lng 10.954378
+Website: http://www.villa-monica.it/
+Email: 
+
+5962. B&B da Stefano
+ID: f0f1b9e5-d85d-4cb6-b5a9-1643f73f0aab
+Slug: b-b-da-stefano-avise
+Nome: B&B da Stefano
+Comune / Provincia: Avise
+Indirizzo: fraz. Runaz 70, 11010 Avise AO
+Coordinate: Lat 45.705928, Lng 7.124907
+Website: —
+Email: 
+
+5963. B&B Le coeur de Rochefort
+ID: c9fe493b-52b7-4ac2-8c14-1f1a8905666d
+Slug: b-b-le-coeur-de-rochefort-avise
+Nome: B&B Le coeur de Rochefort
+Comune / Provincia: Avise
+Indirizzo: Frazione Rochefort, 22, 11011 Arvier AO
+Coordinate: Lat 45.700075, Lng 7.150497
+Website: https://bb-le-coeur-de-rochefort.percorsiitaliani.top/
+Email: 
+
+5964. B&B Luca76
+ID: f4eb6193-36cb-46cc-a37d-67dae43d1e7c
+Slug: b-b-luca76-avise
+Nome: B&B Luca76
+Comune / Provincia: Avise
+Indirizzo: Frazione Cerellaz, 5, 11010 Avise AO
+Coordinate: Lat 45.714937, Lng 7.135037
+Website: http://bebluca76.com/
+Email: 
+
+5965. Hotel Des Alpes
+ID: 931a8ea7-a390-49f1-ae21-842f56a19c97
+Slug: hotel-des-alpes-avise
+Nome: Hotel Des Alpes
+Comune / Provincia: Avise
+Indirizzo: Frazione Cerellaz, 54, 11010 Avise AO
+Coordinate: Lat 45.715248, Lng 7.13657
+Website: https://des-alpes.italiadestinazioni.top/
+Email: 
+
+5966. Hotel Notre Maison
+ID: 4c6619da-de2c-4bb8-b641-6049c3d869d1
+Slug: hotel-notre-maison-avise
+Nome: Hotel Notre Maison
+Comune / Provincia: Avise
+Indirizzo: Loc Villette, 4, 11010 Saint-Pierre AO
+Coordinate: Lat 45.734615, Lng 7.184763
+Website: https://www.hotelnotremaison.it/
+Email: 
+
+5967. La vieille Meison de Pappa
+ID: 5ca8aaac-044e-4715-a0c2-0f470c96274e
+Slug: la-vieille-meison-de-pappa-avise
+Nome: La vieille Meison de Pappa
+Comune / Provincia: Avise
+Indirizzo: Frazione Lalex, 53, 11010 Sarre AO
+Coordinate: Lat 45.714736, Lng 7.253303
+Website: http://www.bbsarre.com/
+Email: 
+
+5968. Maison Bovard
+ID: e38b17e4-c785-4fbf-ac8c-a47e013ead1a
+Slug: maison-bovard-avise
+Nome: Maison Bovard
+Comune / Provincia: Avise
+Indirizzo: Gerbelle, 16, 11010 Valgrisenche AO
+Coordinate: Lat 45.634209, Lng 7.06688
+Website: http://www.maisonbovard.com/
+Email: 
+
+5969. B&B Ermes
+ID: b06543d0-4029-4e93-ac98-55daf7c4913b
+Slug: b-b-ermes-avola
+Nome: B&B Ermes
+Comune / Provincia: Avola
+Indirizzo: via De Pretis 10, 96012 Avola SR
+Coordinate: Lat 36.907919, Lng 15.145983
+Website: http://www.ermesicilia.it/
+Email: 
+
+5970. B&B Meliora Rooms
+ID: 7ac140c9-5750-44e3-ac30-b28a51925d76
+Slug: b-b-meliora-rooms-avola
+Nome: B&B Meliora Rooms
+Comune / Provincia: Avola
+Indirizzo: Via Rattazzi, 86, 96012 Avola SR
+Coordinate: Lat 36.906349, Lng 15.134665
+Website: https://www.meliorarooms.it/
+Email: 
+
+5971. B&B Nonna Nina
+ID: 400c1468-a6f6-4d89-aa7a-aa4007a76831
+Slug: b-b-nonna-nina-avola
+Nome: B&B Nonna Nina
+Comune / Provincia: Avola
+Indirizzo: Via Resistenza Partigiani, 14, 96012 Avola SR
+Coordinate: Lat 36.91247, Lng 15.142158
+Website: http://www.bedandbreakfast-avola.it/
+Email: 
+
+5972. B&B Pantanello Rooms
+ID: ddbe5e19-328b-4b38-adb4-9f176487cc1e
+Slug: b-b-pantanello-rooms-avola
+Nome: B&B Pantanello Rooms
+Comune / Provincia: Avola
+Indirizzo: Di fronte alla spiaggia di Pantanello, Via G. Fortunato, 3, 96012 Avola SR
+Coordinate: Lat 36.906822, Lng 15.148053
+Website: https://pantanelloroomsavola.com/
+Email: 
+
+5973. B&B Salvo e Terry
+ID: 82d3d054-6987-4a48-aae4-da56d6418794
+Slug: b-b-salvo-e-terry-avola
+Nome: B&B Salvo e Terry
+Comune / Provincia: Avola
+Indirizzo: Via Sandro Pertini, 19, 96012 Avola SR
+Coordinate: Lat 36.916143, Lng 15.15452
+Website: https://www.salvoeterry.it/
+Email: 
+
+5974. Green House
+ID: 376a50df-85aa-497e-976c-b6ca8c9a2c80
+Slug: green-house-avola
+Nome: Green House
+Comune / Provincia: Avola
+Indirizzo: Via Mario d'Aleo, 7, 96012 Avola SR
+Coordinate: Lat 36.912349, Lng 15.143406
+Website: https://green-house-avola.bedsandhotels.com/
+Email: 
+
+5975. Hotel Don Giovanni 1943
+ID: 1685cc53-27bc-4097-b655-51f408de7788
+Slug: hotel-don-giovanni-1943-avola
+Nome: Hotel Don Giovanni 1943
+Comune / Provincia: Avola
+Indirizzo: Via Aldo Moro, 4, 96012 Avola SR
+Coordinate: Lat 36.900414, Lng 15.143786
+Website: https://my-stay-experience.com/don-giovanni-avola-italy
+Email: 
+
+5976. Hotel Merlino
+ID: 66826853-4835-4a2b-8875-577b40fd0689
+Slug: hotel-merlino-avola
+Nome: Hotel Merlino
+Comune / Provincia: Avola
+Indirizzo: Viale Papa Giovanni Paolo II, 96012 Avola SR
+Coordinate: Lat 36.916342, Lng 15.14495
+Website: https://hotel-merlino.jimdosite.com/
+Email: 
+
+5977. Hotel Paclà
+ID: 91fd17ee-ba28-4716-9416-efac263adfb3
+Slug: hotel-pacla-avola
+Nome: Hotel Paclà
+Comune / Provincia: Avola
+Indirizzo: Contrada Zuccara, 96012 Avola SR
+Coordinate: Lat 36.894978, Lng 15.133657
+Website: http://www.avolahotelpacla.com/
+Email: 
+
+5978. Hotel Villa Ionia
+ID: 12f0d094-52f2-45af-8529-d637ce204153
+Slug: hotel-villa-ionia-avola
+Nome: Hotel Villa Ionia
+Comune / Provincia: Avola
+Indirizzo: Via Sandro Pertini, 18, 96012 Avola SR
+Coordinate: Lat 36.91938, Lng 15.157201
+Website: http://www.hotelvillaionia.it/
+Email: 
+
+5979. Hybla Major B&B
+ID: 450ccc30-07bd-4168-a949-a82b54fbf65d
+Slug: hybla-major-b-b-avola
+Nome: Hybla Major B&B
+Comune / Provincia: Avola
+Indirizzo: Via Baracca, 8, 96012 Avola SR
+Coordinate: Lat 36.911667, Lng 15.140839
+Website: http://www.hyblamajor.com/
+Email: 
+
+5980. Il Moro Charming Rooms
+ID: 3eb891b9-3564-4d98-9bbf-14eaedd6fb80
+Slug: il-moro-charming-rooms-avola
+Nome: Il Moro Charming Rooms
+Comune / Provincia: Avola
+Indirizzo: Via Benedetto Croce, 11, 96012 Avola SR
+Coordinate: Lat 36.910959, Lng 15.144869
+Website: https://www.touristicavaldinotorooms.com/
+Email: 
+
+5981. Le Torrette rooms
+ID: b6dcdca5-bd8b-4885-a8f4-c56bd4a630bb
+Slug: le-torrette-rooms-avola
+Nome: Le Torrette rooms
+Comune / Provincia: Avola
+Indirizzo: Viale Lido, 66, 96012 Avola SR
+Coordinate: Lat 36.911047, Lng 15.143052
+Website: —
+Email: 
+
+5982. Le Tre Punte B&B
+ID: c61fbb3d-6a5d-4628-9823-b1e40b71e7b0
+Slug: le-tre-punte-b-b-avola
+Nome: Le Tre Punte B&B
+Comune / Provincia: Avola
+Indirizzo: Via 1° Maggio, 2, 96012 Avola SR
+Coordinate: Lat 36.914853, Lng 15.140908
+Website: https://www.booking.com/hotel/it/le-tre-punte-b-amp-b.it.html?aid=304142&label=gen173nr-1FCAsocUIUbGUtdHJlLXB1bnRlLWItYW1wLWJIFFgEaHGIAQGYARS4ARjIAQ3YAQHoAQH4AQOIAgGoAgS4Avfj6J8GwAIB0gIkMTFiMjc2YmUtYzRjNy00MjNmLTlhNjUtMzE0ODBlYzUwOTll2AIF4AIB&sid=03597c83005c79bff89300c7781b7beb&all_sr_blocks=967638802_369210537_2_1_0;checkin=2023-08-15;checkout=2023-08-18;dest_id=-110936;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=967638802_369210537_2_1_0;hpos=1;matching_block_id=967638802_369210537_2_1_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=967638802_369210537_2_1_0__25920;srepoch=1677341296;srpvid=3c397177888b0196;type=total;ucfs=1&#hotelTmpl
+Email: 
+
+5983. Marricriu BeB Rooms and Pool Avola
+ID: 9f194d8b-8d71-4442-9999-571a5f0e11c1
+Slug: marricriu-beb-rooms-and-pool-avola-avola
+Nome: Marricriu BeB Rooms and Pool Avola
+Comune / Provincia: Avola
+Indirizzo: Via Vespri Siciliani, 2, 96012 Avola SR
+Coordinate: Lat 36.912752, Lng 15.148494
+Website: http://www.marricriu.it/
+Email: 
+
+5984. Miramare Rooms
+ID: bdaa965e-d187-45b3-bef0-1bfee46f5740
+Slug: miramare-rooms-avola
+Nome: Miramare Rooms
+Comune / Provincia: Avola
+Indirizzo: Via Miramare, 3, 96012 Avola SR
+Coordinate: Lat 36.903166, Lng 15.13766
+Website: http://www.miramarerooms.it/
+Email: 
+
+5985. Morfeo Charming Rooms & Relax
+ID: abec2ede-cc78-4026-95ad-9c41e44950d3
+Slug: morfeo-charming-rooms-relax-avola
+Nome: Morfeo Charming Rooms & Relax
+Comune / Provincia: Avola
+Indirizzo: Via Procida, 116, 96012 Avola SR
+Coordinate: Lat 36.907214, Lng 15.133583
+Website: https://www.bedandbreakfastavola.com/
+Email: 

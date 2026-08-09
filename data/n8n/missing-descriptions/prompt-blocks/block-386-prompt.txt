@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+13476. B&B Valle Allegra
+ID: d0e140c9-7913-4f21-9d3f-f1e64551123c
+Slug: b-b-valle-allegra-camporotondo-etneo
+Nome: B&B Valle Allegra
+Comune / Provincia: Camporotondo Etneo
+Indirizzo: Via Valle Allegra, 1, 95030 Gravina di Catania CT
+Coordinate: Lat 37.560967, Lng 15.054124
+Website: http://www.valleallegra.it/
+Email: 
+
+13477. Debora Holiday House
+ID: eabd8fed-afff-46c1-92ea-6fdf831db44d
+Slug: debora-holiday-house-camporotondo-etneo
+Nome: Debora Holiday House
+Comune / Provincia: Camporotondo Etneo
+Indirizzo: Via dei Vespri, 254, 95045 Misterbianco CT
+Coordinate: Lat 37.519876, Lng 15.004291
+Website: https://www.deboraholidayhouse.it/
+Email: 
+
+13478. Etna Botanic Garden
+ID: 1884fcd4-c0c7-4142-9420-0c9fb2808149
+Slug: etna-botanic-garden-camporotondo-etneo
+Nome: Etna Botanic Garden
+Comune / Provincia: Camporotondo Etneo
+Indirizzo: Via Trinità, 34, 95030 Mascalucia CT
+Coordinate: Lat 37.576562, Lng 15.054343
+Website: https://www.etnabotanicgarden.com/
+Email: 
+
+13479. Giargeri Home
+ID: f4ef05fe-cc8d-4835-a914-ad687480f964
+Slug: giargeri-home-camporotondo-etneo
+Nome: Giargeri Home
+Comune / Provincia: Camporotondo Etneo
+Indirizzo: Via Nazionale, 16, 95058 Piano Tavola CT
+Coordinate: Lat 37.533955, Lng 14.98853
+Website: http://www.giargerihome.it/
+Email: 
+
+13480. Hotel Villa Cibele
+ID: f6a6b462-3dc5-43fb-845e-9d5247c2cbb1
+Slug: hotel-villa-cibele-camporotondo-etneo
+Nome: Hotel Villa Cibele
+Comune / Provincia: Camporotondo Etneo
+Indirizzo: Via Francesco Marletta, 17b, 95124 Catania CT
+Coordinate: Lat 37.516979, Lng 15.063158
+Website: https://www.villacibele.it/
+Email: 
+
+13481. Il Gelso Bianco Hotel
+ID: d0da554c-76c3-41be-b72d-04c73cc3b761
+Slug: il-gelso-bianco-hotel-camporotondo-etneo
+Nome: Il Gelso Bianco Hotel
+Comune / Provincia: Camporotondo Etneo
+Indirizzo: Autostrada A19 CT PA Km. 3, 95045 Misterbianco CT
+Coordinate: Lat 37.463607, Lng 15.0099
+Website: http://www.gelsobianco.it/
+Email: 
+
+13482. La terrazza sull'Etna Affitto breve
+ID: b05ac5c7-febe-4afe-a580-c1eef864b8ee
+Slug: la-terrazza-sull-etna-affitto-breve-camporotondo-etneo
+Nome: La terrazza sull'Etna Affitto breve
+Comune / Provincia: Camporotondo Etneo
+Indirizzo: Contrada Monzello Di Cuti, 95040 Motta Sant'Anastasia CT
+Coordinate: Lat 37.531614, Lng 14.97316
+Website: https://www.laterrazzasulletna.it/
+Email: 
+
+13483. Motta Palace Apartments & Rooms
+ID: 4095f6e0-c1d6-4055-bbd3-66c4e2624f22
+Slug: motta-palace-apartments-rooms-camporotondo-etneo
+Nome: Motta Palace Apartments & Rooms
+Comune / Provincia: Camporotondo Etneo
+Indirizzo: Via Vittorio Emanuele, 186, 95062 Motta Sant'Anastasia CT
+Coordinate: Lat 37.513638, Lng 14.96985
+Website: https://www.mottapalace.com/
+Email: 
+
+13484. Motta Residence Hotel
+ID: 150347ff-83b7-4ce4-b8e4-9555e0ae6cd0
+Slug: motta-residence-hotel-camporotondo-etneo
+Nome: Motta Residence Hotel
+Comune / Provincia: Camporotondo Etneo
+Indirizzo: Via Ruggero II, 14, 95040 Motta Sant'Anastasia CT
+Coordinate: Lat 37.507456, Lng 14.966316
+Website: http://www.mottaresidencehotel.it/
+Email: 
+
+13485. Agriturismo Alle Rose
+ID: b64a9323-65fe-4141-a456-0df63374b76e
+Slug: agriturismo-alle-rose-camposampiero
+Nome: Agriturismo Alle Rose
+Comune / Provincia: Camposampiero
+Indirizzo: V. Arzaroni Nord, 13, 35010 Massanzago PD
+Coordinate: Lat 45.568543, Lng 11.994215
+Website: https://agriturismoallerose.it/
+Email: 
+
+13486. Agriturismo Cà Amedeo
+ID: 85c48a7d-6311-44a5-958c-5b3782fd7140
+Slug: agriturismo-ca-amedeo-camposampiero
+Nome: Agriturismo Cà Amedeo
+Comune / Provincia: Camposampiero
+Indirizzo: Via Sabbionare, 28, 31033 Castelfranco Veneto TV
+Coordinate: Lat 45.656891, Lng 11.94477
+Website: http://www.caamedeo.com/
+Email: 
+
+13487. Agriturismo I 9 Filari
+ID: 189d4a93-da10-4c05-ace3-a339b48f1f38
+Slug: agriturismo-i-9-filari-camposampiero
+Nome: Agriturismo I 9 Filari
+Comune / Provincia: Camposampiero
+Indirizzo: Via Magarotto, 35, 35010 Limena PD
+Coordinate: Lat 45.464368, Lng 11.836305
+Website: http://www.i9filari.it/
+Email: 
+
+13488. Al Tezzon Hotel
+ID: bb9e551b-8be9-45fc-a340-d2c1b32f2506
+Slug: al-tezzon-hotel-camposampiero
+Nome: Al Tezzon Hotel
+Comune / Provincia: Camposampiero
+Indirizzo: Borgo Trento Trieste, 33/10, 35012 Camposampiero PD
+Coordinate: Lat 45.566877, Lng 11.932132
+Website: http://www.altezzonhotel.com/
+Email: 
+
+13489. Alloggi Villa Rosa
+ID: 61b899f4-a0d1-4c6c-bfc8-fba77e251441
+Slug: alloggi-villa-rosa-camposampiero
+Nome: Alloggi Villa Rosa
+Comune / Provincia: Camposampiero
+Indirizzo: Via Baratella, 15, 35012 Camposampiero PD
+Coordinate: Lat 45.569823, Lng 11.93222
+Website: http://www.alloggivillarosa.it/
+Email: 
+
+13490. B&B ARMONIE DI CAMPAGNA
+ID: 3a7dfe44-e1b3-4681-964a-1671ad8633a2
+Slug: b-b-armonie-di-campagna-camposampiero
+Nome: B&B ARMONIE DI CAMPAGNA
+Comune / Provincia: Camposampiero
+Indirizzo: Via Campagna, 97, 35015 Galliera Veneta PD
+Coordinate: Lat 45.677166, Lng 11.818926
+Website: —
+Email: 
+
+13491. B&B Sotto le Mura
+ID: ba1cc3f8-0a5c-463c-91a4-2d4246ba1dae
+Slug: b-b-sotto-le-mura-camposampiero
+Nome: B&B Sotto le Mura
+Comune / Provincia: Camposampiero
+Indirizzo: Via Trieste, 24, 35013 Cittadella PD
+Coordinate: Lat 45.654295, Lng 11.785712
+Website: https://www.sottolemuracittadella.it/
+Email: 
+
+13492. Ca' Boin Bed & Breakfast
+ID: 21d10cfc-519c-4ef0-aedc-ebeec974ea8d
+Slug: ca-boin-bed-breakfast-camposampiero
+Nome: Ca' Boin Bed & Breakfast
+Comune / Provincia: Camposampiero
+Indirizzo: Via dei Piazzotti, 29, 31030 Albaredo di Vedelago TV
+Coordinate: Lat 45.660554, Lng 12.010326
+Website: http://www.caboin.it/
+Email: 
+
+13493. Eudaimonia Apartments Fratte
+ID: 8d2db1c6-d9d7-467e-baf7-c4d9b9206262
+Slug: eudaimonia-apartments-fratte-camposampiero
+Nome: Eudaimonia Apartments Fratte
+Comune / Provincia: Camposampiero
+Indirizzo: Via Ghiacciaia, 69, 35010 Fratte PD
+Coordinate: Lat 45.582232, Lng 11.904906
+Website: https://www.eudaimoniafr.com/
+Email: 
+
+13494. Hotel San Paolo
+ID: 35ef56eb-0484-4d89-b034-02404331eb46
+Slug: hotel-san-paolo-camposampiero
+Nome: Hotel San Paolo
+Comune / Provincia: Camposampiero
+Indirizzo: Via Borgo Padova, 5, 35012 Camposampiero PD
+Coordinate: Lat 45.564753, Lng 11.930655
+Website: http://www.hotelsan-paolo.it/
+Email: 
+
+13495. Residence La Castellana
+ID: 508b8a13-462d-46d0-9bff-fad3172740c8
+Slug: residence-la-castellana-camposampiero
+Nome: Residence La Castellana
+Comune / Provincia: Camposampiero
+Indirizzo: Via Monte Grappa, 54U, 31023 Resana TV
+Coordinate: Lat 45.654429, Lng 11.972239
+Website: https://www.facebook.com/ResidenceLaCastellanaResana/
+Email: 
+
+13496. B&B Mon Rêve - Camposano (Na)
+ID: c993790f-bd8a-46fe-a7d4-5d579e1364bf
+Slug: b-b-mon-reve-camposano-na-camposano
+Nome: B&B Mon Rêve - Camposano (Na)
+Comune / Provincia: Camposano
+Indirizzo: Via Madonnella, 52, 80030 Camposano NA
+Coordinate: Lat 40.957005, Lng 14.523845
+Website: https://monrevemm.wixsite.com/monreve
+Email: 
+
+13497. Dubai Village
+ID: 179352b8-ea3f-4776-85b8-3aabf82a9d0c
+Slug: dubai-village-camposano
+Nome: Dubai Village
+Comune / Provincia: Camposano
+Indirizzo: Via Dubai, 1, 80030 Camposano NA
+Coordinate: Lat 40.943037, Lng 14.53299
+Website: http://www.dubaivillage.it/
+Email: 
+
+13498. Hotel Palazzo Giordano Bruno
+ID: 61b6d798-cc8f-4ecf-afb8-ffafc75da049
+Slug: hotel-palazzo-giordano-bruno-camposano
+Nome: Hotel Palazzo Giordano Bruno
+Comune / Provincia: Camposano
+Indirizzo: SS7bis, 321, 80035 Nola NA
+Coordinate: Lat 40.935055, Lng 14.529139
+Website: http://www.palazzogiordanobruno.it/
+Email: 
+
+13499. Il Cortile - Bed & Breakfast Agriturismo
+ID: 78c301d8-bc8c-4cc5-bca0-b90e527a28f2
+Slug: il-cortile-bed-breakfast-agriturismo-camposano
+Nome: Il Cortile - Bed & Breakfast Agriturismo
+Comune / Provincia: Camposano
+Indirizzo: Via Roma, 43, 80033 Cicciano NA
+Coordinate: Lat 40.96165, Lng 14.539299
+Website: https://relait.cyou/il-cortile-9qiv56
+Email: 
+
+13500. LADI HOUSE
+ID: 2345be50-e3d6-4ed7-a1f5-6b6c1830b10c
+Slug: ladi-house-camposano
+Nome: LADI HOUSE
+Comune / Provincia: Camposano
+Indirizzo: Via Monsignor Amilcare Boccio, 109, 80035 Nola NA
+Coordinate: Lat 40.920074, Lng 14.533846
+Website: —
+Email: 
+
+13501. OhAhSi
+ID: e74063fd-881a-4c94-9de1-6b084521a020
+Slug: ohahsi-camposano
+Nome: OhAhSi
+Comune / Provincia: Camposano
+Indirizzo: V. Nazionale delle Puglie, 107, 80035 Nola NA
+Coordinate: Lat 40.937283, Lng 14.520014
+Website: https://www.ohahsi.it/it
+Email: 
+
+13502. Radisson Hotel Naples Nola
+ID: c75b838d-de58-4ae5-822a-d62fca3cd10d
+Slug: radisson-hotel-naples-nola-camposano
+Nome: Radisson Hotel Naples Nola
+Comune / Provincia: Camposano
+Indirizzo: Ss/7 Bis, km 50, 80035 Nola NA
+Coordinate: Lat 40.932159, Lng 14.515317
+Website: https://www.radissonhotels.com/en-us/hotels/radisson-naples-nola?cid=a:se+b:gmb+c:emea+i:local+e:rad+d:cese+h:ITNAPNLA
+Email: 
+
+13503. Villa Nancy
+ID: dc95fce5-b5cf-4498-a4bf-401e086611ba
+Slug: villa-nancy-camposano
+Nome: Villa Nancy
+Comune / Provincia: Camposano
+Indirizzo: Via Roma, 129, 80030 Cimitile NA
+Coordinate: Lat 40.942596, Lng 14.528537
+Website: https://my-stay-experience.eu/villa-nancy-b-b-di-charme-italy
+Email: 
+
+13504. Aden B&B
+ID: 97f88ea5-2813-4d74-b3f9-5b153baf78ed
+Slug: aden-b-b-camposanto
+Nome: Aden B&B
+Comune / Provincia: Camposanto
+Indirizzo: Via San Cristoforo, 59D, 40017 San Matteo della Decima BO
+Coordinate: Lat 44.716803, Lng 11.234391
+Website: —
+Email: 
+
+13505. B & B Villa dei Calchi
+ID: 3403dadf-a47a-449a-9f32-0681b9baaad5
+Slug: b-b-villa-dei-calchi-camposanto
+Nome: B & B Villa dei Calchi
+Comune / Provincia: Camposanto
+Indirizzo: Via degli Estensi, 474, 41038 San Felice Sul Panaro MO
+Coordinate: Lat 44.839295, Lng 11.151981
+Website: http://www.villadeicalchi.it/
+Email: 
+
+13506. B&B I Pioppi Cipressini
+ID: 6f23649b-4aab-44cd-b2d1-a284e66fd1bf
+Slug: b-b-i-pioppi-cipressini-camposanto
+Nome: B&B I Pioppi Cipressini
+Comune / Provincia: Camposanto
+Indirizzo: Via degli Orsi, 692/B, 40014 Crevalcore BO
+Coordinate: Lat 44.721276, Lng 11.181816
+Website: https://beb.it/ipioppicipressini
+Email: 
+
+13507. Bed & Breakfast La Corte di Adelina
+ID: 56fe4fbd-0b20-4edd-8cbf-c4208a61f78a
+Slug: bed-breakfast-la-corte-di-adelina-camposanto
+Nome: Bed & Breakfast La Corte di Adelina
+Comune / Provincia: Camposanto
+Indirizzo: Via Viazzola, 1704/b, 41017 Ravarino MO
+Coordinate: Lat 44.74233, Lng 11.103101
+Website: https://www.lacortediadelina.com/
+Email: 
+
+13508. hotel appartamenti camere via onorio ferraresi
+ID: 3820c1f5-2abe-4f91-b08a-29c2a40a55ba
+Slug: hotel-appartamenti-camere-via-onorio-ferraresi-camposanto
+Nome: hotel appartamenti camere via onorio ferraresi
+Comune / Provincia: Camposanto
+Indirizzo: Via O. Ferraresi, 12, 41038 San Felice sul Panaro MO
+Coordinate: Lat 44.839046, Lng 11.143586
+Website: https://www.bed-and-breakfast.it/it/emilia-romagna/appartamento-ferraresi-san-felice-sul-panaro/68368?NumberRooms=1&NumberPeople=2&Children=
+Email: 
+
+13509. Hotel Cavezzo
+ID: 2d3b307a-152c-4108-93c9-a9adb63fe731
+Slug: hotel-cavezzo-camposanto
+Nome: Hotel Cavezzo
+Comune / Provincia: Camposanto
+Indirizzo: Via Camillo Benso Conte di Cavour, 373, 41032 Cavezzo MO
+Coordinate: Lat 44.822367, Lng 10.995126
+Website: https://gratis-4710721.webadorsite.com/
+Email: 
+
+13510. Hotel La Cantina Srl
+ID: 14c85d46-fd57-4e36-a916-099b448000bd
+Slug: hotel-la-cantina-srl-camposanto
+Nome: Hotel La Cantina Srl
+Comune / Provincia: Camposanto
+Indirizzo: Via Statale, 179, 41036 Medolla MO
+Coordinate: Lat 44.833716, Lng 11.052495
+Website: http://hotelcantina.it/
+Email: 

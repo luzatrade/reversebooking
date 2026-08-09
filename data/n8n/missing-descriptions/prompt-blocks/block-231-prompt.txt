@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+8051. B&B La Mimosa
+ID: e463ed0f-0373-4c3b-9dac-3354bacbdfc5
+Slug: b-b-la-mimosa-belforte-del-chienti
+Nome: B&B La Mimosa
+Comune / Provincia: Belforte del Chienti
+Indirizzo: Via Palmiro Togliatti, 10, 62020 Belforte del Chienti MC
+Coordinate: Lat 43.162812, Lng 13.243931
+Website: http://www.beb-lamimosa.it/
+Email: 
+
+8052. Bed & Breakfast La Pinturetta
+ID: 73278808-60a4-4409-8a27-d4e2f4850a87
+Slug: bed-breakfast-la-pinturetta-belforte-del-chienti
+Nome: Bed & Breakfast La Pinturetta
+Comune / Provincia: Belforte del Chienti
+Indirizzo: Via Fornaci, 26, 62020 Belforte del Chienti MC
+Coordinate: Lat 43.175095, Lng 13.250464
+Website: —
+Email: 
+
+8053. Chiaroscuro Belforte Del Chienti Hotel
+ID: fc1b0065-12c5-4ee4-b86c-66a7fb28cac1
+Slug: chiaroscuro-belforte-del-chienti-hotel-belforte-del-chienti
+Nome: Chiaroscuro Belforte Del Chienti Hotel
+Comune / Provincia: Belforte del Chienti
+Indirizzo: Via Nazionale, 29, 62020 Belforte del Chienti MC
+Coordinate: Lat 43.18047, Lng 13.252019
+Website: https://www.ristorantechiaroscuro.it/belforte-del-chienti-hotel/
+Email: 
+
+8054. Collina d’Oro
+ID: 6ea36e1e-6b4b-4a0b-b418-2a0f3b8c42c0
+Slug: collina-d-oro-belforte-del-chienti
+Nome: Collina d’Oro
+Comune / Provincia: Belforte del Chienti
+Indirizzo: Via Fornaci sabine, 6, 62020 Belforte del Chienti MC
+Coordinate: Lat 43.145295, Lng 13.242643
+Website: http://www.collinadoro.it/
+Email: 
+
+8055. Coroncina Country Relais
+ID: 23bf77a1-ceaa-45b8-94d5-1528106aec56
+Slug: coroncina-country-relais-belforte-del-chienti
+Nome: Coroncina Country Relais
+Comune / Provincia: Belforte del Chienti
+Indirizzo: Via Fossa, 1, 62020 Belforte del Chienti MC
+Coordinate: Lat 43.15029, Lng 13.234096
+Website: https://coroncina.it/
+Email: 
+
+8056. Country House L'Incanto dei Sibillini
+ID: d09db1bb-1359-490b-9a4e-0df7fb98d624
+Slug: country-house-l-incanto-dei-sibillini-belforte-del-chienti
+Nome: Country House L'Incanto dei Sibillini
+Comune / Provincia: Belforte del Chienti
+Indirizzo: SP 502, Km 68/750, 62020 Casigliano MC
+Coordinate: Lat 43.107744, Lng 13.268607
+Website: https://www.lincantodeisibillini.com/
+Email: 
+
+8057. Due Torri
+ID: 89617d62-635b-4f9c-a513-915f1912d85b
+Slug: due-torri-belforte-del-chienti
+Nome: Due Torri
+Comune / Provincia: Belforte del Chienti
+Indirizzo: Via S. Francesco, 21, 62027 San Severino Marche MC
+Coordinate: Lat 43.225439, Lng 13.176882
+Website: http://www.duetorri.it/
+Email: 
+
+8058. Hotel Cluentum
+ID: 9ebdd3c4-6eb8-46eb-848c-9a8c4e9d4d29
+Slug: hotel-cluentum-belforte-del-chienti
+Nome: Hotel Cluentum
+Comune / Provincia: Belforte del Chienti
+Indirizzo: Nuova S.S, Contrada S. Martino, 77 Km 69 + 141, 62029 Tolentino MC
+Coordinate: Lat 43.195892, Lng 13.267016
+Website: http://www.hotelcluentum.it/
+Email: 
+
+8059. Hotel Milano
+ID: 350357a2-671e-49bc-96b3-567bbab92fb8
+Slug: hotel-milano-belforte-del-chienti
+Nome: Hotel Milano
+Comune / Provincia: Belforte del Chienti
+Indirizzo: Via Roma, 13, 62029 Tolentino MC
+Coordinate: Lat 43.20839, Lng 13.284221
+Website: https://www.hotelmilanotolentino.it/
+Email: 
+
+8060. Hotel Ristorante Ferranti
+ID: c484401d-f669-47f2-81cb-ffb5f1232c98
+Slug: hotel-ristorante-ferranti-belforte-del-chienti
+Nome: Hotel Ristorante Ferranti
+Comune / Provincia: Belforte del Chienti
+Indirizzo: Via Nazionale, 60, 62020 Serrapetrona MC
+Coordinate: Lat 43.146297, Lng 13.20769
+Website: https://www.hotelferranti.it/
+Email: 
+
+8061. Hotel Ristorante Il Cavaliere
+ID: 58dad9e6-0355-49b0-8cb2-3e33dbd9774b
+Slug: hotel-ristorante-il-cavaliere-belforte-del-chienti
+Nome: Hotel Ristorante Il Cavaliere
+Comune / Provincia: Belforte del Chienti
+Indirizzo: Via Mariani, 33, 62032 Polverina MC
+Coordinate: Lat 43.091586, Lng 13.117162
+Website: http://www.hotelilcavaliere.com/
+Email: 
+
+8062. Il Villino Bed & Breakfast
+ID: 16a8ebba-7b9e-4ed6-94f9-8c0d7e65893c
+Slug: il-villino-bed-breakfast-belforte-del-chienti
+Nome: Il Villino Bed & Breakfast
+Comune / Provincia: Belforte del Chienti
+Indirizzo: Via Giuseppe Piccioni, 3, 62020 Belforte del Chienti MC
+Coordinate: Lat 43.174277, Lng 13.247957
+Website: http://www.il-villino.com/
+Email: 
+
+8063. Interno Marche
+ID: 9534f3ec-8771-49aa-a24c-7906df24c3e0
+Slug: interno-marche-belforte-del-chienti
+Nome: Interno Marche
+Comune / Provincia: Belforte del Chienti
+Indirizzo: Viale Cesare Battisti, 15, 62029 Tolentino MC
+Coordinate: Lat 43.210055, Lng 13.288182
+Website: https://www.internomarche.it/
+Email: 
+
+8064. Palazzo Bonfranceschi - residenza d'epoca
+ID: 5a6a579e-82a4-4690-9a50-d7a0f625fecd
+Slug: palazzo-bonfranceschi-residenza-d-epoca-belforte-del-chienti
+Nome: Palazzo Bonfranceschi - residenza d'epoca
+Comune / Provincia: Belforte del Chienti
+Indirizzo: Via Camillo Benso Conte di Cavour, 14, 62020 Belforte del Chienti MC
+Coordinate: Lat 43.164505, Lng 13.23773
+Website: https://palazzobonfranceschi.com/
+Email: 
+
+8065. Agriturismo Casa Ressia
+ID: 5f586dd7-2227-4f79-bb4e-c84011cc6de3
+Slug: agriturismo-casa-ressia-belforte-monferrato
+Nome: Agriturismo Casa Ressia
+Comune / Provincia: Belforte Monferrato
+Indirizzo: Località Altavilla, 42, 12051 Alba CN
+Coordinate: Lat 44.705586, Lng 8.058471
+Website: http://www.casaressia.com/
+Email: 
+
+8066. Agriturismo Cascina Binelli
+ID: bebe165e-d5d8-45da-a69a-ca46af110e4c
+Slug: agriturismo-cascina-binelli-belforte-monferrato
+Nome: Agriturismo Cascina Binelli
+Comune / Provincia: Belforte Monferrato
+Indirizzo: Borgata Pianezzo, 75, 12063 Dogliani CN
+Coordinate: Lat 44.534036, Lng 7.97691
+Website: https://osteriadeibinelli.it/
+Email: 
+
+8067. Agriturismo Castello Di Belforte
+ID: 71277ffc-fac5-47b8-b1ff-ffee38b3bb2e
+Slug: agriturismo-castello-di-belforte-belforte-monferrato
+Nome: Agriturismo Castello Di Belforte
+Comune / Provincia: Belforte Monferrato
+Indirizzo: Vocabolo Belforte 36A, Frazione Fiore Di, 06059 Todi PG
+Coordinate: Lat 42.744173, Lng 12.403722
+Website: https://www.castellodibelforte.it/
+Email: 
+
+8068. Agriturismo Paitin
+ID: d7e77e97-2554-4a12-a645-ae76da9a147f
+Slug: agriturismo-paitin-belforte-monferrato
+Nome: Agriturismo Paitin
+Comune / Provincia: Belforte Monferrato
+Indirizzo: Località Rivoli, 17, 12051 Alba CN
+Coordinate: Lat 44.676477, Lng 8.025996
+Website: http://www.paitin.it/
+Email: 
+
+8069. Al Chiar di Luna
+ID: 61df24c0-c37a-48f8-9da9-02631239b3f6
+Slug: al-chiar-di-luna-belforte-monferrato
+Nome: Al Chiar di Luna
+Comune / Provincia: Belforte Monferrato
+Indirizzo: Cascina Bensi, 32, 15070 Tagliolo Monferrato AL
+Coordinate: Lat 44.632245, Lng 8.680587
+Website: https://agriturismoalchiardiluna.it/
+Email: 
+
+8070. B&B La Diligenza
+ID: 39606035-4007-4765-bb60-7cbf1c0b4048
+Slug: b-b-la-diligenza-belforte-monferrato
+Nome: B&B La Diligenza
+Comune / Provincia: Belforte Monferrato
+Indirizzo: Str. Lercaro, 15, 15076 Ovada AL
+Coordinate: Lat 44.651772, Lng 8.664259
+Website: http://www.ladiligenzabb.it/
+Email: 
+
+8071. Cascina Giardini B&B
+ID: bd185fd8-b3c7-48f9-94be-7db4a7d3dce2
+Slug: cascina-giardini-b-b-belforte-monferrato
+Nome: Cascina Giardini B&B
+Comune / Provincia: Belforte Monferrato
+Indirizzo: 12051 Ricca-San Rocco Cherasca CN
+Coordinate: Lat 44.655136, Lng 8.079096
+Website: http://www.cascinagiardini.it/
+Email: 
+
+8072. Hotel Belforte
+ID: 706116ec-fe44-429d-8da2-97dc3e8b951e
+Slug: hotel-belforte-belforte-monferrato
+Nome: Hotel Belforte
+Comune / Provincia: Belforte Monferrato
+Indirizzo: Regione Fornace, 6, 15070 Belforte Monferrato AL
+Coordinate: Lat 44.626078, Lng 8.655906
+Website: http://www.hotelbelforte.com/
+Email: 
+
+8073. La Dimora di B. Cairoli
+ID: abd4a5f2-0057-4666-aa60-71875af1f95c
+Slug: la-dimora-di-b-cairoli-belforte-monferrato
+Nome: La Dimora di B. Cairoli
+Comune / Provincia: Belforte Monferrato
+Indirizzo: Via Cairoli, 100, 15076 Ovada AL
+Coordinate: Lat 44.639421, Lng 8.645231
+Website: https://beb.it/ladimoradibenedettocairoli
+Email: 
+
+8074. Relais Chiarene
+ID: ee51ade4-2ea1-4a5a-9c54-44b11b80e2c0
+Slug: relais-chiarene-belforte-monferrato
+Nome: Relais Chiarene
+Comune / Provincia: Belforte Monferrato
+Indirizzo: Località Chiarene, n. 5, 12060 Novello CN
+Coordinate: Lat 44.593501, Lng 7.908132
+Website: http://www.relaischiarene.it/
+Email: 
+
+8075. Villa Belforte
+ID: a7612335-7bb0-4e35-93db-97eca1ac67c7
+Slug: villa-belforte-belforte-monferrato
+Nome: Villa Belforte
+Comune / Provincia: Belforte Monferrato
+Indirizzo: Via Asti, 29, 14039 Tonco AT
+Coordinate: Lat 45.023749, Lng 8.185171
+Website: https://www.villabelforte.it/index.php/it/
+Email: 
+
+8076. Vitae di Langa - Agriturismo
+ID: 6d98d000-434d-4713-89ff-3f362c0d71c5
+Slug: vitae-di-langa-agriturismo-belforte-monferrato
+Nome: Vitae di Langa - Agriturismo
+Comune / Provincia: Belforte Monferrato
+Indirizzo: Via Guido Cane, 110, 12055 Valle Talloria CN
+Coordinate: Lat 44.64776, Lng 7.996305
+Website: https://www.vitaedilanga.com/
+Email: 
+
+8077. B&B Castellani
+ID: 470e4b0e-141c-4427-a423-e0deef501699
+Slug: b-b-castellani-belgioioso
+Nome: B&B Castellani
+Comune / Provincia: Belgioioso
+Indirizzo: Via Giacomo Parodi, 11, 27100 Pavia PV
+Coordinate: Lat 45.185726, Lng 9.151922
+Website: http://www.bbcastellani.it/
+Email: 
+
+8078. Hotel Aurora
+ID: ce2ef1b6-c7fa-4454-965c-1cc98effb51b
+Slug: hotel-aurora-belgioioso
+Nome: Hotel Aurora
+Comune / Provincia: Belgioioso
+Indirizzo: Viale Vittorio Emanuele II, 25, 27100 Pavia PV
+Coordinate: Lat 45.187964, Lng 9.146207
+Website: http://www.hotel-aurora.eu/
+Email: 
+
+8079. Hotel Moderno Pavia
+ID: 384b97d1-8d9f-4770-aecd-602f53a10bfc
+Slug: hotel-moderno-pavia-belgioioso
+Nome: Hotel Moderno Pavia
+Comune / Provincia: Belgioioso
+Indirizzo: Viale Vittorio Emanuele II, 41, 27100 Pavia PV
+Coordinate: Lat 45.188247, Lng 9.145787
+Website: http://www.hotelmoderno.it/
+Email: 
+
+8080. Rooms of Love
+ID: b5a54a17-7b8f-4b71-baee-b92c35424e01
+Slug: rooms-of-love-belgioioso
+Nome: Rooms of Love
+Comune / Provincia: Belgioioso
+Indirizzo: Viale Camillo Golgi, 40, 27100 Pavia PV
+Coordinate: Lat 45.194348, Lng 9.14626
+Website: http://www.affittacamerepavia.com/
+Email: 
+
+8081. Scuderia 100 Pertiche
+ID: f5230d55-8ac2-463c-87d8-e92f914be79f
+Slug: scuderia-100-pertiche-belgioioso
+Nome: Scuderia 100 Pertiche
+Comune / Provincia: Belgioioso
+Indirizzo: Strada Provinciale ex Strada Statale 412 della Val Tidone, 27019 Villanterio PV
+Coordinate: Lat 45.232634, Lng 9.349116
+Website: —
+Email: 
+
+8082. UniHo Hostel
+ID: 38b0779f-9dd1-4396-b1a1-d1b2cef88542
+Slug: uniho-hostel-belgioioso
+Nome: UniHo Hostel
+Comune / Provincia: Belgioioso
+Indirizzo: Via Lombroso, 15, 27100 Pavia PV
+Coordinate: Lat 45.195183, Lng 9.148101
+Website: https://www.uniho.it/
+Email: 
+
+8083. Affittacamere - B&B - Via Mazzini
+ID: 70796e57-8f7e-4cbf-9bb8-6e1638994fb0
+Slug: affittacamere-b-b-via-mazzini-belgirate
+Nome: Affittacamere - B&B - Via Mazzini
+Comune / Provincia: Belgirate
+Indirizzo: Via Mazzini, 12, 28838 Stresa VB
+Coordinate: Lat 45.883703, Lng 8.540754
+Website: http://www.via-mazzini.com/
+Email: 
+
+8084. Albergo Riva hotel
+ID: 872dbce5-b9b1-4cae-afc5-f642f98ba8f1
+Slug: albergo-riva-hotel-belgirate
+Nome: Albergo Riva hotel
+Comune / Provincia: Belgirate
+Indirizzo: Via Lungolago, 14, 21038 Leggiuno VA
+Coordinate: Lat 45.882505, Lng 8.600354
+Website: http://www.albergoriva.it/
+Email: 
+
+8085. B&B " Il Folletto del Lago "
+ID: 3915d0dc-0df5-4a84-b056-fdf833751917
+Slug: b-b-il-folletto-del-lago-belgirate
+Nome: B&B " Il Folletto del Lago "
+Comune / Provincia: Belgirate
+Indirizzo: CIN : IT103064C1243MAN4Y, Via Santi Giacomo e Filippo, 1, 28838 Levo VB
+Coordinate: Lat 45.882064, Lng 8.508969
+Website: http://www.ilfollettodellago.com/
+Email: 

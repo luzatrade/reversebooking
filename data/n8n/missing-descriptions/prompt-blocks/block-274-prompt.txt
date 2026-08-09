@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+9556. Il Palazzetto B&B
+ID: 9d0cf2a2-db85-4c8f-b657-23170992bafb
+Slug: il-palazzetto-b-b-bomarzo
+Nome: Il Palazzetto B&B
+Comune / Provincia: Bomarzo
+Indirizzo: Via Giambologna, 7, 01100 Viterbo VT
+Coordinate: Lat 42.427533, Lng 12.155049
+Website: http://palazzetto.com.es/
+Email: 
+
+9557. La Casa Del Sole
+ID: 8baa9f10-f61c-452b-9d89-c29e0ca1cec8
+Slug: la-casa-del-sole-bomarzo
+Nome: La Casa Del Sole
+Comune / Provincia: Bomarzo
+Indirizzo: Via della Rupe, 01020 Bomarzo VT
+Coordinate: Lat 42.488192, Lng 12.251222
+Website: http://www.lacasadelsoledibomarzo.com/
+Email: 
+
+9558. La Casa di Brancaleone Vitorchiano
+ID: 12d14bdb-a44e-4d36-89e4-359f3310741d
+Slug: la-casa-di-brancaleone-vitorchiano-bomarzo
+Nome: La Casa di Brancaleone Vitorchiano
+Comune / Provincia: Bomarzo
+Indirizzo: Vicolo Tortuoso, 12, 01030 Vitorchiano VT
+Coordinate: Lat 42.469846, Lng 12.174141
+Website: https://www.lacasadibrancaleone.it/
+Email: 
+
+9559. La mansarda del Sacro Bosco
+ID: 5a145451-39f5-476b-9227-ced851210da4
+Slug: la-mansarda-del-sacro-bosco-bomarzo
+Nome: La mansarda del Sacro Bosco
+Comune / Provincia: Bomarzo
+Indirizzo: vicolo del Sole, 8, 01020 Bomarzo VT
+Coordinate: Lat 42.491516, Lng 12.251347
+Website: https://travellingjoshua.eu/la-mansarda-del-sacro-bosco-italy
+Email: 
+
+9560. Villa Farfalla Bianca
+ID: 2a84dcf6-e636-41ce-bb65-b2c37a31cb4b
+Slug: villa-farfalla-bianca-bomarzo
+Nome: Villa Farfalla Bianca
+Comune / Provincia: Bomarzo
+Indirizzo: Str. Mazzatosta, 14 C, 01030 Vitorchiano VT
+Coordinate: Lat 42.461544, Lng 12.152758
+Website: https://dineit.cyou/farfalla-bianca-c152d4
+Email: 
+
+9561. Agriturismo Olimpo
+ID: dd2321fe-172f-4c1b-b973-7743fc760cd7
+Slug: agriturismo-olimpo-bomba
+Nome: Agriturismo Olimpo
+Comune / Provincia: Bomba
+Indirizzo: Contrada Montebello, 4, 66047 Villa Santa Maria CH
+Coordinate: Lat 42.001709, Lng 14.34554
+Website: https://www.olimpoagriresort.it/
+Email: 
+
+9562. Hotel Santamaria
+ID: a09b24f1-39a4-4e75-a76e-24974ef30be0
+Slug: hotel-santamaria-bomba
+Nome: Hotel Santamaria
+Comune / Provincia: Bomba
+Indirizzo: Piazza Guglielmo Marconi, 19, 66047 Villa Santa Maria CH
+Coordinate: Lat 41.946772, Lng 14.350178
+Website: https://www.facebook.com/HOTEL-Ristorante-Santamaria-733353960104865/
+Email: 
+
+9563. i tre falchi Bed & Breakfast
+ID: 33ca6042-6bea-43cb-ad94-32cc7d6fb098
+Slug: i-tre-falchi-bed-breakfast-bomba
+Nome: i tre falchi Bed & Breakfast
+Comune / Provincia: Bomba
+Indirizzo: Contrada Tutoglio, 14, 66040 Pennadomo CH
+Coordinate: Lat 42.027069, Lng 14.340585
+Website: http://www.itrefalchi.eu/
+Email: 
+
+9564. Pennadomo Climbing House
+ID: 6e9ac58a-05d1-4a04-88b1-a40325ce743d
+Slug: pennadomo-climbing-house-bomba
+Nome: Pennadomo Climbing House
+Comune / Provincia: Bomba
+Indirizzo: Via Orientale, 66040 Pennadomo CH
+Coordinate: Lat 42.003616, Lng 14.324114
+Website: https://www.pennadomoclimbinghouse.com/
+Email: 
+
+9565. Albergo Diffuso Montedoro
+ID: 9db3fe5e-4110-4fb3-9143-389bdc3f0063
+Slug: albergo-diffuso-montedoro-bompensiere
+Nome: Albergo Diffuso Montedoro
+Comune / Provincia: Bompensiere
+Indirizzo: Via Flaminia, 1, 93010 Montedoro CL
+Coordinate: Lat 37.452637, Lng 13.817584
+Website: https://albergo.tourmontedoro.com/albergo
+Email: 
+
+9566. B&B Eyexei Domus
+ID: aa287ad9-79d8-41f9-823c-e75edaf61880
+Slug: b-b-eyexei-domus-bompensiere
+Nome: B&B Eyexei Domus
+Comune / Provincia: Bompensiere
+Indirizzo: Via Monsignor Costantino de Simone, 22, 92100 Agrigento AG
+Coordinate: Lat 37.319863, Lng 13.620023
+Website: https://www.bebeyexeidomus.it/
+Email: 
+
+9567. Casa Natia
+ID: 3e3865dc-a6ba-489b-8a4c-ec1f2bc72019
+Slug: casa-natia-bompensiere
+Nome: Casa Natia
+Comune / Provincia: Bompensiere
+Indirizzo: Piazza Giuseppe Garibaldi, 12, 92026 Favara AG
+Coordinate: Lat 37.316573, Lng 13.658324
+Website: http://casa-natia.com.es/
+Email: 
+
+9568. Corte dei Monaci
+ID: 530d9537-939e-4bf1-9810-9bf27f1797cd
+Slug: corte-dei-monaci-bompensiere
+Nome: Corte dei Monaci
+Comune / Provincia: Bompensiere
+Indirizzo: C.da Cannarozzo. Strada Prov. 78, km 1, direzione diga di Naro., Prosecuzione via Sen. Sammartino, 92024 Canicattì AG
+Coordinate: Lat 37.346612, Lng 13.828544
+Website: https://corte-dei-monaci.albergatore.top/
+Email: 
+
+9569. Giallo Ficodindia Bed & Breakfast
+ID: 01c44a32-8630-4723-83a8-95ed4cb703bd
+Slug: giallo-ficodindia-bed-breakfast-bompensiere
+Nome: Giallo Ficodindia Bed & Breakfast
+Comune / Provincia: Bompensiere
+Indirizzo: C/da Montagna Scalilli, 92024 Canicattì AG
+Coordinate: Lat 37.367173, Lng 13.845901
+Website: https://gialloficodindia.it/
+Email: 
+
+9570. Guest House Regina Margherita
+ID: d7971091-b679-4066-a9d2-b34e590611c1
+Slug: guest-house-regina-margherita-bompensiere
+Nome: Guest House Regina Margherita
+Comune / Provincia: Bompensiere
+Indirizzo: Via Regina Margherita, 39, 92026 Favara AG
+Coordinate: Lat 37.314109, Lng 13.658977
+Website: https://www.facebook.com/Guest-House-Regina-Margherita-101929671730389/?epa=SEARCH_BOX
+Email: 
+
+9571. Hotel Belvedere
+ID: c1956d1f-5db8-448d-87d7-db21eee9397f
+Slug: hotel-belvedere-bompensiere
+Nome: Hotel Belvedere
+Comune / Provincia: Bompensiere
+Indirizzo: Via Resistenza, 22, 92024 Canicattì AG
+Coordinate: Lat 37.360193, Lng 13.857002
+Website: http://www.hotel-belvedere.org/
+Email: 
+
+9572. La Locanda dei Fiori Agriturismo
+ID: aac8aa34-2902-4072-a289-27d948c2bd90
+Slug: la-locanda-dei-fiori-agriturismo-bompensiere
+Nome: La Locanda dei Fiori Agriturismo
+Comune / Provincia: Bompensiere
+Indirizzo: FQHG+FV, 93010 Bompensiere CL
+Coordinate: Lat 37.478688, Lng 13.777188
+Website: https://www.facebook.com/AgriturismoLaLocandaDeiFiori/
+Email: 
+
+9573. La Zagara
+ID: feff9322-e2b7-4af5-a5c9-2ca4183bc74e
+Slug: la-zagara-bompensiere
+Nome: La Zagara
+Comune / Provincia: Bompensiere
+Indirizzo: Via Zanella, 2, 92026 Favara AG
+Coordinate: Lat 37.313336, Lng 13.658992
+Website: —
+Email: 
+
+9574. Bed and Breakfast "Del corso"
+ID: 2c7d1f1f-2eba-4b32-aca7-5f8842435ec6
+Slug: bed-and-breakfast-del-corso-bompietro
+Nome: Bed and Breakfast "Del corso"
+Comune / Provincia: Bompietro
+Indirizzo: C.so Umberto Ⅰ, 1, 90024 Gangi PA
+Coordinate: Lat 37.798679, Lng 14.204634
+Website: http://www.bebdelcorsogangi.it/
+Email: 
+
+9575. Agriturismo Garuti
+ID: 68f66a34-ee0f-456c-aa91-fbc2dcafd029
+Slug: agriturismo-garuti-bomporto
+Nome: Agriturismo Garuti
+Comune / Provincia: Bomporto
+Indirizzo: Via Carlo Testa, 16, 41030 Sorbara MO
+Coordinate: Lat 44.749816, Lng 11.022624
+Website: http://garutivini.it/
+Email: 
+
+9576. Agriturismo Le Gazze
+ID: 8491eaea-acea-4d59-b518-7c4c4ece451d
+Slug: agriturismo-le-gazze-bomporto
+Nome: Agriturismo Le Gazze
+Comune / Provincia: Bomporto
+Indirizzo: Via Gorzano, 4, 41031 Camposanto MO
+Coordinate: Lat 44.797254, Lng 11.120767
+Website: https://www.agriturismolegazze.it/
+Email: 
+
+9577. Albergo Residence Al Passatore
+ID: f2cf5476-1b02-4a20-a8e3-c5131a09a478
+Slug: albergo-residence-al-passatore-bomporto
+Nome: Albergo Residence Al Passatore
+Comune / Provincia: Bomporto
+Indirizzo: Via Ravarino Carpi, 113, 41030 Sorbara MO
+Coordinate: Lat 44.743582, Lng 11.020821
+Website: —
+Email: 
+
+9578. B&B il salice
+ID: 6b27ae4b-48f8-4f90-bf7b-b8858bd0264a
+Slug: b-b-il-salice-bomporto
+Nome: B&B il salice
+Comune / Provincia: Bomporto
+Indirizzo: Str. Nazionale per Carpi Nord, 1388, 41123 Ganaceto MO
+Coordinate: Lat 44.699633, Lng 10.893178
+Website: https://www.locandaparadisoristorante.com/
+Email: 
+
+9579. B&B La Quercia di Mery
+ID: 2ba39394-490e-422f-b902-12005acb4075
+Slug: b-b-la-quercia-di-mery-bomporto
+Nome: B&B La Quercia di Mery
+Comune / Provincia: Bomporto
+Indirizzo: Via D. Giambi, 2115, 41017 La Villa MO
+Coordinate: Lat 44.744573, Lng 11.095597
+Website: —
+Email: 
+
+9580. B&B Le Ragazze
+ID: 98f694fe-8ff7-4b8b-adb5-ecf6eed378f9
+Slug: b-b-le-ragazze-bomporto
+Nome: B&B Le Ragazze
+Comune / Provincia: Bomporto
+Indirizzo: Via dell'Olmo, 13, 41030 Sorbara MO
+Coordinate: Lat 44.746438, Lng 11.01348
+Website: https://easyit.cyou/ragazze-inn-rggylz
+Email: 
+
+9581. Casa Carpanelli
+ID: e3b06398-0cb2-482d-97ed-6c6a0b9d1af8
+Slug: casa-carpanelli-bomporto
+Nome: Casa Carpanelli
+Comune / Provincia: Bomporto
+Indirizzo: Via Oppio, 88, 41015 Nonantola MO
+Coordinate: Lat 44.6822, Lng 11.077076
+Website: https://www.casacarpanelli.com/
+Email: 
+
+9582. CONFIDENCE HOTEL SAN SILVESTRO
+ID: 2ba9948f-fd2b-4170-b9a4-e1e986d67e77
+Slug: confidence-hotel-san-silvestro-bomporto
+Nome: CONFIDENCE HOTEL SAN SILVESTRO
+Comune / Provincia: Bomporto
+Indirizzo: Via Canaletto, 129, 41030 San Prospero MO
+Coordinate: Lat 44.804954, Lng 11.027731
+Website: https://hotelsansilvestro.eu/
+Email: 
+
+9583. Hotel Corte Vecchia
+ID: 90761ed8-bbd6-4304-8eec-70ec6d1fdb22
+Slug: hotel-corte-vecchia-bomporto
+Nome: Hotel Corte Vecchia
+Comune / Provincia: Bomporto
+Indirizzo: Via S. Geminiano, 1, 41030 San Prospero MO
+Coordinate: Lat 44.783514, Lng 11.025458
+Website: http://www.cortevecchia.com/
+Email: 
+
+9584. Hotel Riverside
+ID: 1c5b0dd9-84fd-4ec0-bdae-d5fd8663b707
+Slug: hotel-riverside-bomporto
+Nome: Hotel Riverside
+Comune / Provincia: Bomporto
+Indirizzo: Via Emilia Est, 2456/s/P, 41018 San Cesario sul Panaro MO
+Coordinate: Lat 44.623671, Lng 10.999286
+Website: https://www.booking.com/hotel/it/riverside-srl-sant-39-ambrogio.fr.html?aid=2434670
+Email: 
+
+9585. Hotel Rosso Frizzante
+ID: 33429b21-6055-439c-8f1f-51458ddc6d54
+Slug: hotel-rosso-frizzante-bomporto
+Nome: Hotel Rosso Frizzante
+Comune / Provincia: Bomporto
+Indirizzo: Via Falcone e Borsellino, 66, 41030 Sorbara MO
+Coordinate: Lat 44.745732, Lng 11.011134
+Website: http://www.rossofrizzante.it/
+Email: 
+
+9586. Hotel Tre Torri
+ID: afae6908-428c-4d81-bb7d-527dfc5c6805
+Slug: hotel-tre-torri-bomporto
+Nome: Hotel Tre Torri
+Comune / Provincia: Bomporto
+Indirizzo: Via Statale, 12/223/225, 41036 Medolla MO
+Coordinate: Lat 44.825013, Lng 11.046849
+Website: https://www.hoteltretorri.com/
+Email: 
+
+9587. La Selvatica 50 B&B
+ID: 78f82df2-a500-4006-8d94-9d1a80b421ca
+Slug: la-selvatica-50-b-b-bomporto
+Nome: La Selvatica 50 B&B
+Comune / Provincia: Bomporto
+Indirizzo: Via Selvatica, 50, 41015 Nonantola MO
+Coordinate: Lat 44.699497, Lng 11.043915
+Website: https://www.laselvatica50.it/
+Email: 
+
+9588. Luna Sul Tetto
+ID: 66cabd5e-0dc1-49b3-b905-f5715d6c2d1d
+Slug: luna-sul-tetto-bomporto
+Nome: Luna Sul Tetto
+Comune / Provincia: Bomporto
+Indirizzo: Via Giordano Bruno, 7, 41012 Carpi MO
+Coordinate: Lat 44.784222, Lng 10.888373
+Website: http://www.lunasultetto.it/
+Email: 
+
+9589. Smart Hotel
+ID: d0760290-70b6-4d5a-8fee-40f2fb1707e4
+Slug: smart-hotel-bomporto
+Nome: Smart Hotel
+Comune / Provincia: Bomporto
+Indirizzo: Via Cesare Battisti, 25, 41012 Carpi MO
+Coordinate: Lat 44.785934, Lng 10.885302
+Website: https://smarthotelemilia.it/
+Email: 
+
+9590. Villa Tartaruga
+ID: 712ca344-413d-411c-99fe-fa5284fc278b
+Slug: villa-tartaruga-bomporto
+Nome: Villa Tartaruga
+Comune / Provincia: Bomporto
+Indirizzo: Via Garzolè, 41/43, 41013 Castelfranco Emilia MO
+Coordinate: Lat 44.627026, Lng 11.119615
+Website: http://www.villatartaruga.it/
+Email: 

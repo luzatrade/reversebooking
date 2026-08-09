@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+6161. La Sabbia Rooms
+ID: 1144c603-4f29-43f4-bebf-cdf772199f9e
+Slug: la-sabbia-rooms-bacoli
+Nome: La Sabbia Rooms
+Comune / Provincia: Bacoli
+Indirizzo: Via Molo di Baia, 1, 80070 Bacoli NA
+Coordinate: Lat 40.816379, Lng 14.071673
+Website: https://linktr.ee/lasabbiarooms
+Email: 
+
+6162. La Suite Hotel & Spa
+ID: 1fe6295a-ae31-4b84-aaac-9cd9a28c4706
+Slug: la-suite-hotel-spa-bacoli
+Nome: La Suite Hotel & Spa
+Comune / Provincia: Bacoli
+Indirizzo: Via Flavio Gioia, 81, 80079 Procida NA
+Coordinate: Lat 40.761295, Lng 14.012923
+Website: http://www.lasuiteresort.com/
+Email: 
+
+6163. Pharus Miseni suites and rooms
+ID: 558799a0-f76d-46b8-b455-5cc1e2ea70bd
+Slug: pharus-miseni-suites-and-rooms-bacoli
+Nome: Pharus Miseni suites and rooms
+Comune / Provincia: Bacoli
+Indirizzo: Via Faro, 42, 80070 Bacoli NA
+Coordinate: Lat 40.784745, Lng 14.087613
+Website: https://www.pharusmiseni.it/
+Email: 
+
+6164. Relais Tiaré Bed and Breakfast
+ID: 60f6dbf9-9f5b-4f4a-8c6f-2d814a8c47da
+Slug: relais-tiare-bed-and-breakfast-bacoli
+Nome: Relais Tiaré Bed and Breakfast
+Comune / Provincia: Bacoli
+Indirizzo: Via Cicerone, 35, 80070 Bacoli NA
+Coordinate: Lat 40.824399, Lng 14.076416
+Website: http://www.relais-tiare.com/
+Email: 
+
+6165. Suite B&B Mustafà pozzuoli
+ID: 605262f8-409e-4a9b-b271-eefd00a69e28
+Slug: suite-b-b-mustafa-pozzuoli-bacoli
+Nome: Suite B&B Mustafà pozzuoli
+Comune / Provincia: Bacoli
+Indirizzo: Vico Magazzini, 80078 Pozzuoli NA
+Coordinate: Lat 40.822554, Lng 14.119029
+Website: https://mustafaalporto.eatbu.com/?lang=it
+Email: 
+
+6166. Villa Aragonese Rooms
+ID: 68ca0270-7198-4868-a3d3-dfcabd7b7b4c
+Slug: villa-aragonese-rooms-bacoli
+Nome: Villa Aragonese Rooms
+Comune / Provincia: Bacoli
+Indirizzo: Via Torregaveta, 123, 80070 Monte di Procida NA
+Coordinate: Lat 40.810991, Lng 14.045144
+Website: https://villaaragonese.it/rooms/
+Email: 
+
+6167. Villa Edelweiss
+ID: d8ca4c5b-cc99-4ee1-ab84-b2d77a20c902
+Slug: villa-edelweiss-bacoli
+Nome: Villa Edelweiss
+Comune / Provincia: Bacoli
+Indirizzo: Via Fusaro, 33, 80070 Bacoli NA
+Coordinate: Lat 40.821883, Lng 14.061951
+Website: https://villa-edelweiss.goitalytravel.top/
+Email: 
+
+6168. Villa Gervasio
+ID: 02a18c0b-cbfd-47f5-a0f1-831bf613e422
+Slug: villa-gervasio-bacoli
+Nome: Villa Gervasio
+Comune / Provincia: Bacoli
+Indirizzo: Via Bellavista, 176, 80070 Bacoli NA
+Coordinate: Lat 40.805983, Lng 14.068864
+Website: http://www.villagervasio.it/
+Email: 
+
+6169. Villa Oteri Rooms & Bistrot
+ID: d729ffd0-bc75-4856-a522-443f4481d1f8
+Slug: villa-oteri-rooms-bistrot-bacoli
+Nome: Villa Oteri Rooms & Bistrot
+Comune / Provincia: Bacoli
+Indirizzo: Via Miliscola, 22, 80070 Bacoli NA
+Coordinate: Lat 40.793258, Lng 14.067362
+Website: https://www.villaoteri.it/
+Email: 
+
+6170. Affittacamere Teré Ceriana
+ID: 2fd4c153-901a-44b9-9a2e-ed932a43d109
+Slug: affittacamere-tere-ceriana-badalucco
+Nome: Affittacamere Teré Ceriana
+Comune / Provincia: Badalucco
+Indirizzo: Corso Italia, 72, 18034 Ceriana IM
+Coordinate: Lat 43.879478, Lng 7.774412
+Website: http://www.tere-ceriana.it/
+Email: 
+
+6171. Agriturismo L'Adagio
+ID: 5a13cab1-2323-47d0-bcb0-ca4c628ded08
+Slug: agriturismo-l-adagio-badalucco
+Nome: Agriturismo L'Adagio
+Comune / Provincia: Badalucco
+Indirizzo: Via Ortai, 15, 18010 Badalucco IM
+Coordinate: Lat 43.913652, Lng 7.846954
+Website: http://www.agriturismoladagio.it/
+Email: 
+
+6172. Albergo Graziella Arma di Taggia
+ID: 1bbb4085-0dc9-40d5-9cdb-961368b2071e
+Slug: albergo-graziella-arma-di-taggia-badalucco
+Nome: Albergo Graziella Arma di Taggia
+Comune / Provincia: Badalucco
+Indirizzo: Via Lido, 3, 18018 Arma di Taggia IM
+Coordinate: Lat 43.83184, Lng 7.853842
+Website: https://graziellahotel.it/
+Email: 
+
+6173. Albergo Lucciola Riviera dei Fiori
+ID: e6bd22af-3c39-405f-9259-739a452f1728
+Slug: albergo-lucciola-riviera-dei-fiori-badalucco
+Nome: Albergo Lucciola Riviera dei Fiori
+Comune / Provincia: Badalucco
+Indirizzo: Via Gianni Cozzi, 4, 18010 Santo Stefano al Mare IM
+Coordinate: Lat 43.837475, Lng 7.906758
+Website: http://www.albergolucciola.com/
+Email: 
+
+6174. Best Western Hotel Anthurium
+ID: f605ba15-b8ae-437a-a0f3-6f1284400fbc
+Slug: best-western-hotel-anthurium-badalucco
+Nome: Best Western Hotel Anthurium
+Comune / Provincia: Badalucco
+Indirizzo: Via Aurelia Levante, 2/18, 18010 Santo Stefano al Mare IM
+Coordinate: Lat 43.838128, Lng 7.898525
+Website: http://www.hotelanthurium.it/
+Email: 
+
+6175. Castellaro Golf Resort Hotel
+ID: a89f22f7-40c6-4bcb-b05a-547c6bbace79
+Slug: castellaro-golf-resort-hotel-badalucco
+Nome: Castellaro Golf Resort Hotel
+Comune / Provincia: Badalucco
+Indirizzo: Str. per i Piani, 1, 18011 Castellaro IM
+Coordinate: Lat 43.855926, Lng 7.877817
+Website: https://www.castellarogolf.it/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+6176. Hotel Arma
+ID: 09ab2649-998b-4275-869d-c8e0fcaa3f5e
+Slug: hotel-arma-badalucco
+Nome: Hotel Arma
+Comune / Provincia: Badalucco
+Indirizzo: Via Aurelia Levante, 18018 Arma di Taggia IM
+Coordinate: Lat 43.835807, Lng 7.856031
+Website: http://www.hotelarma.it/
+Email: 
+
+6177. Hotel Corso
+ID: c10169cc-f151-4dd2-9a41-f559331d502c
+Slug: hotel-corso-badalucco
+Nome: Hotel Corso
+Comune / Provincia: Badalucco
+Indirizzo: Corso Felice Cavallotti, 194, 18038 Sanremo IM
+Coordinate: Lat 43.821748, Lng 7.794355
+Website: —
+Email: 
+
+6178. Hotel Ideal
+ID: 8c619d5e-5b14-4be0-80b5-a3af16e05369
+Slug: hotel-ideal-badalucco
+Nome: Hotel Ideal
+Comune / Provincia: Badalucco
+Indirizzo: Via Lungomare, 25, 18018 Arma di Taggia IM
+Coordinate: Lat 43.829936, Lng 7.848069
+Website: http://www.hotel-ideal.it/
+Email: 
+
+6179. Hotel Jean Marie
+ID: 6ffa1af7-fae1-4325-b0bb-f49ab70e883f
+Slug: hotel-jean-marie-badalucco
+Nome: Hotel Jean Marie
+Comune / Provincia: Badalucco
+Indirizzo: Via Andrea Doria, 40, 18018 Arma di Taggia IM
+Coordinate: Lat 43.833152, Lng 7.851451
+Website: http://www.hoteljeanmarie.it/
+Email: 
+
+6180. Hotel Svizzera
+ID: f06217ce-d2ec-4e06-a325-7ae1a1073f45
+Slug: hotel-svizzera-badalucco
+Nome: Hotel Svizzera
+Comune / Provincia: Badalucco
+Indirizzo: Via Lungomare, 123, 18018 Arma di Taggia IM
+Coordinate: Lat 43.831047, Lng 7.85167
+Website: http://www.hotelsvizzera.it/
+Email: 
+
+6181. Hotel Vita Serena
+ID: d339c090-fdc4-4b91-b574-0075e458b75f
+Slug: hotel-vita-serena-badalucco
+Nome: Hotel Vita Serena
+Comune / Provincia: Badalucco
+Indirizzo: Via Candido Queirolo, 102, 18018 Taggia IM
+Coordinate: Lat 43.830507, Lng 7.849228
+Website: http://www.vitaserena.it/
+Email: 
+
+6182. Il Ricamo
+ID: 10a11da7-4964-4760-b452-396a4014a44b
+Slug: il-ricamo-badalucco
+Nome: Il Ricamo
+Comune / Provincia: Badalucco
+Indirizzo: Via Giobatta Boeri, 3, 18010 Badalucco IM
+Coordinate: Lat 43.916035, Lng 7.847659
+Website: https://vacationrentalsinspect.com/il-ricamo-italy
+Email: 
+
+6183. Residence del Prado
+ID: 524338e3-d2bf-4b24-be39-a8013ee5eb00
+Slug: residence-del-prado-badalucco
+Nome: Residence del Prado
+Comune / Provincia: Badalucco
+Indirizzo: Corso Villaregia, 120, 18015 Riva Ligure IM
+Coordinate: Lat 43.836429, Lng 7.876114
+Website: http://www.residencedelprado.it/
+Email: 
+
+6184. Ristorante Albergo Santo Spirito
+ID: a1807b96-18cd-4c0d-a54d-111b02cee54e
+Slug: ristorante-albergo-santo-spirito-badalucco
+Nome: Ristorante Albergo Santo Spirito
+Comune / Provincia: Badalucco
+Indirizzo: Piazza Roma, 23, 18010 Molini di Triora IM
+Coordinate: Lat 43.990288, Lng 7.774726
+Website: http://www.ristorantesantospirito.com/
+Email: 
+
+6185. Abbaidda Hotel
+ID: 82e57507-8282-43ba-b820-21fbd5fa3c2c
+Slug: abbaidda-hotel-badesi
+Nome: Abbaidda Hotel
+Comune / Provincia: Badesi
+Indirizzo: Via A. Diaz, 07039 La Muddizza SS
+Coordinate: Lat 40.910756, Lng 8.796098
+Website: https://www.abbaiddahotel.com/
+Email: 
+
+6186. B&B casetta al mare
+ID: abd76740-bb7e-4f63-9140-1d0f5596bb01
+Slug: b-b-casetta-al-mare-badesi
+Nome: B&B casetta al mare
+Comune / Provincia: Badesi
+Indirizzo: Lungomare Dettori, 23, 07038 Isola Rossa OT
+Coordinate: Lat 41.012416, Lng 8.8752
+Website: https://www.bebcasettaalmare.com/
+Email: 
+
+6187. B&B Le Peonie
+ID: 505e5d7b-3157-471c-a461-4848a44068c7
+Slug: b-b-le-peonie-badesi
+Nome: B&B Le Peonie
+Comune / Provincia: Badesi
+Indirizzo: V. Tito Speri, 14, 07030 La Tozza OT
+Coordinate: Lat 40.956483, Lng 8.886891
+Website: https://www.hotel-sardegna24.it/bb-le-peonie/
+Email: 
+
+6188. Borgo Bellavista Badesi - Affitto case vacanza
+ID: 5c1cf10b-1a75-48fa-827b-149073cee790
+Slug: borgo-bellavista-badesi-affitto-case-vacanza-badesi
+Nome: Borgo Bellavista Badesi - Affitto case vacanza
+Comune / Provincia: Badesi
+Indirizzo: Via Porrino, 10, 07030 Badesi OT
+Coordinate: Lat 40.965389, Lng 8.88741
+Website: http://www.borghidimare.com/
+Email: 
+
+6189. Horizon Hotel Badesi
+ID: 9379b6cf-a08e-4210-9032-28c507b030b0
+Slug: horizon-hotel-badesi-badesi
+Nome: Horizon Hotel Badesi
+Comune / Provincia: Badesi
+Indirizzo: Via Mare, 31, 07030 Badesi OT
+Coordinate: Lat 40.968442, Lng 8.877168
+Website: http://www.horizonbadesi.com/
+Email: 
+
+6190. HOTEL ARIADIMARI
+ID: a8892a60-34b4-4eba-9ec3-0500b7af62bc
+Slug: hotel-ariadimari-badesi
+Nome: HOTEL ARIADIMARI
+Comune / Provincia: Badesi
+Indirizzo: Via Regina Elena, 78, 07039 Valledoria SS
+Coordinate: Lat 40.924433, Lng 8.825624
+Website: http://www.ariadimari.it/
+Email: 
+
+6191. Hotel Panorama
+ID: d2b5cf11-2e7e-4fdf-8fcc-3f424966bca3
+Slug: hotel-panorama-badesi
+Nome: Hotel Panorama
+Comune / Provincia: Badesi
+Indirizzo: Via Mare, 37, 07030 Badesi OT
+Coordinate: Lat 40.968782, Lng 8.87673
+Website: http://www.hotelpanoramabadesi.com/
+Email: 
+
+6192. Hotel Ristorante Marina (Badesi)
+ID: fba99cc7-dca9-4236-9a2a-9bc67db6a700
+Slug: hotel-ristorante-marina-badesi-badesi
+Nome: Hotel Ristorante Marina (Badesi)
+Comune / Provincia: Badesi
+Indirizzo: Locc vaddi lungoni, SP90, 07030 Badesi OT
+Coordinate: Lat 40.96196, Lng 8.877509
+Website: http://www.hotelmarinasardegna.it/
+Email: 
+
+6193. I Giardini di Badus - Reception
+ID: 5b2df6a5-2693-49d3-a5b3-5aab01cf44b5
+Slug: i-giardini-di-badus-reception-badesi
+Nome: I Giardini di Badus - Reception
+Comune / Provincia: Badesi
+Indirizzo: Via Brigata Sassari, 27, 07030 Badesi OT
+Coordinate: Lat 40.96475, Lng 8.880601
+Website: https://www.residencebadus.com/
+Email: 
+
+6194. Is Serenas Badesi Resort
+ID: 1bfd2876-fc5f-46dd-b4fc-d5885a5e61b9
+Slug: is-serenas-badesi-resort-badesi
+Nome: Is Serenas Badesi Resort
+Comune / Provincia: Badesi
+Indirizzo: Località Maccia Boina, 07030 Badesi OT
+Coordinate: Lat 40.954403, Lng 8.839845
+Website: https://www.bluserena.it/hotel-e-resort/is-serenas-badesi-resort/
+Email: 
+
+6195. La Foce Village&Camping
+ID: e5e8237b-697a-4c6e-9717-e4b2a0c498f3
+Slug: la-foce-village-camping-badesi
+Nome: La Foce Village&Camping
+Comune / Provincia: Badesi
+Indirizzo: Via Ampurias, 110, 07039 Valledoria SS
+Coordinate: Lat 40.933235, Lng 8.817356
+Website: http://www.foce.it/
+Email: 

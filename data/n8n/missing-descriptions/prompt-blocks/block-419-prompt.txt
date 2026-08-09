@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+14631. Agriturismo Primo Bacio - IT008019B56FLUOB9S
+ID: 22a20a23-532f-4f40-a3c6-25a338f77dd1
+Slug: agriturismo-primo-bacio-it008019b56fluob9s-caravonica
+Nome: Agriturismo Primo Bacio - IT008019B56FLUOB9S
+Comune / Provincia: Caravonica
+Indirizzo: Via Monte Pasubio, 8, 18023 Chiusanico IM
+Coordinate: Lat 43.962243, Lng 7.997318
+Website: http://agriturismoprimobacio.it/
+Email: 
+
+14632. B&B Villa Anna
+ID: 05f7272c-3d37-4bd3-9e5c-ccde168d8b74
+Slug: b-b-villa-anna-caravonica
+Nome: B&B Villa Anna
+Comune / Provincia: Caravonica
+Indirizzo: STRADA PIANI, 9, 18023 Chiusanico IM
+Coordinate: Lat 43.982323, Lng 7.978823
+Website: https://www.facebook.com/villa.annatorria/
+Email: 
+
+14633. Hotel Caravelle
+ID: 6acf6643-6ee7-4b23-8725-533e4fef8c44
+Slug: hotel-caravelle-caravonica
+Nome: Hotel Caravelle
+Comune / Provincia: Caravonica
+Indirizzo: Via Sausette, 34, 18013 Diano Marina IM
+Coordinate: Lat 43.916578, Lng 8.092335
+Website: https://www.hotelcaravelle.it/
+Email: 
+
+14634. Hotel Diano Marina
+ID: 5793cbab-32bf-4a7f-9c09-b37c8cd8fc26
+Slug: hotel-diano-marina-caravonica
+Nome: Hotel Diano Marina
+Comune / Provincia: Caravonica
+Indirizzo: Via Generale Ardoino, 75, 18013 Diano Marina IM
+Coordinate: Lat 43.913025, Lng 8.086873
+Website: https://www.hoteldianomarina.eu/
+Email: 
+
+14635. Hotel Mayola
+ID: 31944a7a-0104-46ff-a3ab-5488371763fb
+Slug: hotel-mayola-caravonica
+Nome: Hotel Mayola
+Comune / Provincia: Caravonica
+Indirizzo: Via Corsica, 20, 18016 San Bartolomeo al Mare IM
+Coordinate: Lat 43.918659, Lng 8.097467
+Website: https://www.hotelmayola.it/
+Email: 
+
+14636. Hotel Ristorante La Marina
+ID: 14140c52-08f3-4ae1-96a7-72b79e5de868
+Slug: hotel-ristorante-la-marina-caravonica
+Nome: Hotel Ristorante La Marina
+Comune / Provincia: Caravonica
+Indirizzo: Via Moreno, 2, 18016 San Bartolomeo al Mare IM
+Coordinate: Lat 43.918826, Lng 8.094101
+Website: http://www.hotel-la-marina.it/
+Email: 
+
+14637. Hotel San Matteo
+ID: 6fa68c96-cd6c-438b-8aaa-089e7de756fe
+Slug: hotel-san-matteo-caravonica
+Nome: Hotel San Matteo
+Comune / Provincia: Caravonica
+Indirizzo: Via Faraldi, 77, 18016 San Bartolomeo al Mare IM
+Coordinate: Lat 43.944707, Lng 8.097745
+Website: http://www.hotelsanmatteo.it/
+Email: 
+
+14638. Hotel Tina
+ID: 69d17101-e687-44aa-a0f0-3b5378132acc
+Slug: hotel-tina-caravonica
+Nome: Hotel Tina
+Comune / Provincia: Caravonica
+Indirizzo: Viale Torino, 22, 18013 Diano Marina IM
+Coordinate: Lat 43.902302, Lng 8.076761
+Website: http://www.hoteltina.com/
+Email: 
+
+14639. Hotel Villa Igea
+ID: 694f16ab-9deb-4ab2-9c7f-a3fc89cbbd5b
+Slug: hotel-villa-igea-caravonica
+Nome: Hotel Villa Igea
+Comune / Provincia: Caravonica
+Indirizzo: Via Sant'Elmo, 1, 18013 Diano Marina IM
+Coordinate: Lat 43.901935, Lng 8.075092
+Website: https://www.hotelvillaigea.com/
+Email: 
+
+14640. L'ULIVO di SEMPRE
+ID: edc4866b-b3fc-4d67-9052-5e2f25f3225e
+Slug: l-ulivo-di-sempre-caravonica
+Nome: L'ULIVO di SEMPRE
+Comune / Provincia: Caravonica
+Indirizzo: Via Caduti al Passo del Ginestro, 4 fraz. Chiusanico ria IM,, 18023 Torria IM
+Coordinate: Lat 43.981968, Lng 7.980285
+Website: http://www.ulivodisempre.com/
+Email: 
+
+14641. Agriturismo Casale Loreto
+ID: 3e2e5427-81cb-40a8-9fb7-fe14a4cf8b00
+Slug: agriturismo-casale-loreto-carbognano
+Nome: Agriturismo Casale Loreto
+Comune / Provincia: Carbognano
+Indirizzo: Località Madonna delle Grazie, 11, 01030 Corchiano VT
+Coordinate: Lat 42.34813, Lng 12.37519
+Website: http://www.casaleloreto.it/
+Email: 
+
+14642. B&B L'Infinito
+ID: 1685bd8d-11db-4133-b670-7b733d7665e8
+Slug: b-b-l-infinito-carbognano
+Nome: B&B L'Infinito
+Comune / Provincia: Carbognano
+Indirizzo: Via Aldo Moro, 13, 01030 Carbognano VT
+Coordinate: Lat 42.331413, Lng 12.261765
+Website: https://www.bbinfinito.com/
+Email: 
+
+14643. Dimore Santa Maria
+ID: 3c47b30d-228c-423c-a20c-550f7171145c
+Slug: dimore-santa-maria-carbognano
+Nome: Dimore Santa Maria
+Comune / Provincia: Carbognano
+Indirizzo: Via San Maria, 5, 01030 Carbognano VT
+Coordinate: Lat 42.331443, Lng 12.26749
+Website: https://www.dimoresantamaria.it/
+Email: 
+
+14644. Ros's house
+ID: e9e7f88f-91c8-4be0-9db9-9ada3dabcd93
+Slug: ros-s-house-carbognano
+Nome: Ros's house
+Comune / Provincia: Carbognano
+Indirizzo: Via Ugo Petrucci, 5, 01030 Corchiano VT
+Coordinate: Lat 42.3461, Lng 12.358822
+Website: https://channelroom.eu/ros-s-house-corchiano
+Email: 
+
+14645. Agriturismo Cascina San Carlo
+ID: d77aa3a7-8425-43e4-afbc-d4c94663d2ed
+Slug: agriturismo-cascina-san-carlo-carbonara-al-ticino
+Nome: Agriturismo Cascina San Carlo
+Comune / Provincia: Carbonara al Ticino
+Indirizzo: 527F+X2 Cascina San Carlo Loc. S. Spirito, Cascina Santo Spirito, 27027 Gropello Cairoli PV
+Coordinate: Lat 45.165067, Lng 9.023265
+Website: https://agriturismocascinasancarlo.com/
+Email: 
+
+14646. Corte Cairoli B&B
+ID: d4d25295-e196-4537-ae4e-2c3a508049aa
+Slug: corte-cairoli-b-b-carbonara-al-ticino
+Nome: Corte Cairoli B&B
+Comune / Provincia: Carbonara al Ticino
+Indirizzo: Via Cairoli, 13, 27027 Gropello Cairoli PV
+Coordinate: Lat 45.177736, Lng 8.991514
+Website: —
+Email: 
+
+14647. Country House
+ID: 8843c4f1-2aff-46e9-80be-49da85cb860e
+Slug: country-house-carbonara-al-ticino
+Nome: Country House
+Comune / Provincia: Carbonara al Ticino
+Indirizzo: Via Villanova, 5, 27020 Zerbolò PV
+Coordinate: Lat 45.176182, Lng 9.049288
+Website: https://www.countryhouserent.com/
+Email: 
+
+14648. Plaza Hotel
+ID: e06e6151-153c-4514-ba47-2e45f0742e8c
+Slug: plaza-hotel-carbonara-al-ticino
+Nome: Plaza Hotel
+Comune / Provincia: Carbonara al Ticino
+Indirizzo: Via Palmiro Togliatti, 39, 27028 San Martino Siccomario PV
+Coordinate: Lat 45.158828, Lng 9.130505
+Website: https://www.plazahotel.it/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+14649. Relais Torre dei Torti - Luxury Bed and Breakfast
+ID: 04ee29cf-f74f-4661-a197-60c89d2e8b05
+Slug: relais-torre-dei-torti-luxury-bed-and-breakfast-carbonara-al-ticino
+Nome: Relais Torre dei Torti - Luxury Bed and Breakfast
+Comune / Provincia: Carbonara al Ticino
+Indirizzo: Via Torre de Torti, 16, 27051 Cava Manara PV
+Coordinate: Lat 45.148188, Lng 9.100598
+Website: https://www.relaistorredeitorti.it/
+Email: 
+
+14650. B&B Nola Casa Hyria
+ID: d9c8fe1d-c65c-435c-8f73-a1073358ab1f
+Slug: b-b-nola-casa-hyria-carbonara-di-nola
+Nome: B&B Nola Casa Hyria
+Comune / Provincia: Carbonara di Nola
+Indirizzo: V. Nazionale delle Puglie, 160, 80035 Nola NA
+Coordinate: Lat 40.936455, Lng 14.512391
+Website: —
+Email: 
+
+14651. Complesso Villa Lina
+ID: a3dc6cbe-0c80-4621-9794-cb3551865321
+Slug: complesso-villa-lina-carbonara-di-nola
+Nome: Complesso Villa Lina
+Comune / Provincia: Carbonara di Nola
+Indirizzo: Via Muro D'Arce, Via Foce, 84087 Sarno SA
+Coordinate: Lat 40.832902, Lng 14.588129
+Website: —
+Email: 
+
+14652. GLAM B&B room
+ID: 526ce1df-3d99-42de-8068-2e1ddcdd887b
+Slug: glam-b-b-room-carbonara-di-nola
+Nome: GLAM B&B room
+Comune / Provincia: Carbonara di Nola
+Indirizzo: Via Botteghelle, 80047 San Giuseppe Vesuviano NA
+Coordinate: Lat 40.835294, Lng 14.512297
+Website: —
+Email: 
+
+14653. Hotel Belsito
+ID: 5adf766c-2c8a-42d1-840f-5af99f05759c
+Slug: hotel-belsito-carbonara-di-nola
+Nome: Hotel Belsito
+Comune / Provincia: Carbonara di Nola
+Indirizzo: Via S. Paolo Belsito, 126, 80035 Nola NA
+Coordinate: Lat 40.919328, Lng 14.538878
+Website: https://www.hotelbelsitonola.it/
+Email: 
+
+14654. Hotel I Gigli & Ristorante
+ID: c150e4b6-49e9-4adf-b8c5-6482423a720c
+Slug: hotel-i-gigli-ristorante-carbonara-di-nola
+Nome: Hotel I Gigli & Ristorante
+Comune / Provincia: Carbonara di Nola
+Indirizzo: Via Giacomo Puccini, 32, 80035 Nola NA
+Coordinate: Lat 40.932903, Lng 14.526303
+Website: https://www.hoteligigli.it/
+Email: 
+
+14655. Hotel il Giardino degli Aranci a Nola
+ID: 6d2a330d-dc32-4060-b62b-ee5c1af3f212
+Slug: hotel-il-giardino-degli-aranci-a-nola-carbonara-di-nola
+Nome: Hotel il Giardino degli Aranci a Nola
+Comune / Provincia: Carbonara di Nola
+Indirizzo: Via Parrocchia, 152, 80035 Nola NA
+Coordinate: Lat 40.877028, Lng 14.505
+Website: https://www.hotelilgiardinodegliaranci.it/sito/index.html
+Email: 
+
+14656. Hotel Saturday
+ID: 9e8dd319-6ef4-4d08-b56f-90b84bc69bce
+Slug: hotel-saturday-carbonara-di-nola
+Nome: Hotel Saturday
+Comune / Provincia: Carbonara di Nola
+Indirizzo: Via Nuova Sarno, 80036 Palma Campania NA
+Coordinate: Lat 40.838548, Lng 14.565189
+Website: http://www.saturdayhotel.it/
+Email: 
+
+14657. Il Poggio Delle Rose
+ID: 08c26a32-e456-430c-84f0-24b6c95f67a0
+Slug: il-poggio-delle-rose-carbonara-di-nola
+Nome: Il Poggio Delle Rose
+Comune / Provincia: Carbonara di Nola
+Indirizzo: Via Marini Boschetto 3, 83020 Domicella AV
+Coordinate: Lat 40.879804, Lng 14.589756
+Website: https://www.facebook.com/ilpoggiodellerose
+Email: 
+
+14658. La casa dei coloni
+ID: e4d231cd-34a5-4644-8186-4a447419e9f5
+Slug: la-casa-dei-coloni-carbonara-di-nola
+Nome: La casa dei coloni
+Comune / Provincia: Carbonara di Nola
+Indirizzo: SS367, 80035 Cappella degli Spiriti NA
+Coordinate: Lat 40.900309, Lng 14.544365
+Website: http://la-casa-dei-coloni.com.es/
+Email: 
+
+14659. Masseria Marini - HOTEL
+ID: 35f07a13-80de-42e4-8a85-3e360b837ec0
+Slug: masseria-marini-hotel-carbonara-di-nola
+Nome: Masseria Marini - HOTEL
+Comune / Provincia: Carbonara di Nola
+Indirizzo: Via del Destino, 14, 80047 San Giuseppe NA
+Coordinate: Lat 40.836282, Lng 14.524656
+Website: https://villa-masseria-marini.albergatore.top/
+Email: 
+
+14660. Palazzo 22 B&B
+ID: 04ae9529-d6f5-49a6-8827-1f5a72e50f41
+Slug: palazzo-22-b-b-carbonara-di-nola
+Nome: Palazzo 22 B&B
+Comune / Provincia: Carbonara di Nola
+Indirizzo: Via San Pietro, 22, 80035 Nola NA
+Coordinate: Lat 40.931928, Lng 14.520448
+Website: —
+Email: 
+
+14661. Raphaëlle Relais
+ID: f6bd871d-fb6f-4f90-b865-a2353846ce82
+Slug: raphaelle-relais-carbonara-di-nola
+Nome: Raphaëlle Relais
+Comune / Provincia: Carbonara di Nola
+Indirizzo: Via S. M. LA Scala, 41, 80047 San Giuseppe NA
+Coordinate: Lat 40.826317, Lng 14.502849
+Website: https://www.raphaellerelais.it/
+Email: 
+
+14662. B&B Villa Carmen
+ID: 3106389e-6710-43b3-ba0f-5ecd8e79bfc4
+Slug: b-b-villa-carmen-carbonara-scrivia
+Nome: B&B Villa Carmen
+Comune / Provincia: Carbonara Scrivia
+Indirizzo: SP134, 25, 15050 Spineto Scrivia AL
+Coordinate: Lat 44.842433, Lng 8.865283
+Website: —
+Email: 
+
+14663. Il Carrettino Country Hotel tortona
+ID: 55b927d3-d64b-4e25-9541-9ab553b76000
+Slug: il-carrettino-country-hotel-tortona-carbonara-scrivia
+Nome: Il Carrettino Country Hotel tortona
+Comune / Provincia: Carbonara Scrivia
+Indirizzo: Strada Provinciale per Pozzolo Formigaro, 15, 15057 Tortona AL
+Coordinate: Lat 44.867638, Lng 8.825202
+Website: https://www.ilcarrettino.com/
+Email: 
+
+14664. Malpassuti Resort
+ID: 6a19eefb-60de-4418-b13a-3e2bfea7a60e
+Slug: malpassuti-resort-carbonara-scrivia
+Nome: Malpassuti Resort
+Comune / Provincia: Carbonara Scrivia
+Indirizzo: Vicolo A. Cantù, 11, 15050 Carbonara Scrivia AL
+Coordinate: Lat 44.849926, Lng 8.869656
+Website: http://www.malpassutiguest.it/
+Email: 
+
+14665. Spineto House
+ID: becea4f0-f52e-473e-bec0-b82f147cdae4
+Slug: spineto-house-carbonara-scrivia
+Nome: Spineto House
+Comune / Provincia: Carbonara Scrivia
+Indirizzo: Via Bruno Buozzi, 6, 15050 Spineto Scrivia AL
+Coordinate: Lat 44.836579, Lng 8.871638
+Website: http://spineto-house.org.es/
+Email: 

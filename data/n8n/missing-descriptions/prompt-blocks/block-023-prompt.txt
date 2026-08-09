@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+771. Euro Hotel Residence
+ID: b4b186c3-db6a-493f-8fc5-4689f397e765
+Slug: euro-hotel-residence-aicurzio
+Nome: Euro Hotel Residence
+Comune / Provincia: Aicurzio
+Indirizzo: Via Monza, 27, 20863 Concorezzo MB
+Coordinate: Lat 45.590108, Lng 9.326682
+Website: http://www.eurohotelresidence.it/
+Email: 
+
+772. Hotel Albergo Ristorante "Etrusco"
+ID: b2f0b813-477b-43ec-bbdf-0674906d7cd6
+Slug: hotel-albergo-ristorante-etrusco-aicurzio
+Nome: Hotel Albergo Ristorante "Etrusco"
+Comune / Provincia: Aicurzio
+Indirizzo: Via Monastero dei Verghi, 166, 24033 Calusco d'Adda BG
+Coordinate: Lat 45.683456, Lng 9.455566
+Website: http://www.albergoetrusco.it/
+Email: 
+
+773. Hotel Albergo Valentino
+ID: ba187750-4916-419b-ac52-42937aa10a1f
+Slug: hotel-albergo-valentino-aicurzio
+Nome: Hotel Albergo Valentino
+Comune / Provincia: Aicurzio
+Indirizzo: Via Dante, 1, 20882 Bellusco MB
+Coordinate: Lat 45.616818, Lng 9.418506
+Website: https://www.hotelalbergovalentino.it/
+Email: 
+
+774. Hotel la bergamina
+ID: 7fa96e58-1709-46fc-8a57-c3a2f5067279
+Slug: hotel-la-bergamina-aicurzio
+Nome: Hotel la bergamina
+Comune / Provincia: Aicurzio
+Indirizzo: Via Bergamina, 64, 20862 Arcore MB
+Coordinate: Lat 45.609634, Lng 9.329913
+Website: http://www.hotelbergamina.it/
+Email: 
+
+775. Hotel Polo
+ID: fcf28ffa-223d-4ac1-8a21-8c6eb458b1d7
+Slug: hotel-polo-aicurzio
+Nome: Hotel Polo
+Comune / Provincia: Aicurzio
+Indirizzo: Via Gaetano Donizetti, 1, 20865 Usmate Velate MB
+Coordinate: Lat 45.639037, Lng 9.365144
+Website: http://www.hotel-polo.it/
+Email: 
+
+776. Hotel Sirio
+ID: 6d943c12-1471-4b42-be82-62df23ca4288
+Slug: hotel-sirio-aicurzio
+Nome: Hotel Sirio
+Comune / Provincia: Aicurzio
+Indirizzo: Via Cesare Battisti, 30, 24030 Medolago BG
+Coordinate: Lat 45.66898, Lng 9.498442
+Website: http://www.hotelsiriobergamo.it/
+Email: 
+
+777. La Corte Guesthouse - Appartamento con Giardino privato
+ID: f662e321-f4db-4ff1-a083-b05791526375
+Slug: la-corte-guesthouse-appartamento-con-giardino-pr-aicurzio
+Nome: La Corte Guesthouse - Appartamento con Giardino privato
+Comune / Provincia: Aicurzio
+Indirizzo: Via Giacomo Matteotti, 20872 Cornate d'Adda MB
+Coordinate: Lat 45.646876, Lng 9.466675
+Website: https://www.lacorteguesthouse.com/
+Email: 
+
+778. La Molgora Hotel
+ID: 34ed19fd-5143-412e-8d56-5c77823dd543
+Slug: la-molgora-hotel-aicurzio
+Nome: La Molgora Hotel
+Comune / Provincia: Aicurzio
+Indirizzo: Via Alessandro Volta, 16, 23870 Cernusco Lombardone LC
+Coordinate: Lat 45.694638, Lng 9.39664
+Website: https://www.lamolgorahotel.it/
+Email: 
+
+779. Melas Hotel
+ID: ecfb44dd-2d07-4330-add9-0ae47d201add
+Slug: melas-hotel-aicurzio
+Nome: Melas Hotel
+Comune / Provincia: Aicurzio
+Indirizzo: Via Bergamo, 37, 23807 Merate LC
+Coordinate: Lat 45.688847, Lng 9.421997
+Website: http://www.melashotel.it/
+Email: 
+
+780. RistHotel Pianura Inn
+ID: ea38f06e-872b-494e-b268-ffb145d5b5c1
+Slug: risthotel-pianura-inn-aicurzio
+Nome: RistHotel Pianura Inn
+Comune / Provincia: Aicurzio
+Indirizzo: Viale Lombardia, 21, 20874 Busnago MB
+Coordinate: Lat 45.614201, Lng 9.458955
+Website: https://www.pianurainn.it/
+Email: 
+
+781. Agriturismo Pialza
+ID: 7355814a-4a5c-4a5b-a7ea-8c00b0c29d67
+Slug: agriturismo-pialza-aidomaggiore
+Nome: Agriturismo Pialza
+Comune / Provincia: Aidomaggiore
+Indirizzo: Strada Pialza, 08018 Sindia NU
+Coordinate: Lat 40.286495, Lng 8.657246
+Website: http://www.pialza.it/
+Email: 
+
+782. Agriturismo Sa Tanchitta
+ID: 44ed9dd1-dc7b-4fc5-a3b7-0ecb73a91ad5
+Slug: agriturismo-sa-tanchitta-aidomaggiore
+Nome: Agriturismo Sa Tanchitta
+Comune / Provincia: Aidomaggiore
+Indirizzo: 09080 Ula Tirso OR, Italia
+Coordinate: Lat 40.043739, Lng 8.914471
+Website: https://www.satanchitta.it/
+Email: 
+
+783. B&B Baddesalighes
+ID: b524d813-2c8f-43d3-8fc3-d4b27bcb6c14
+Slug: b-b-baddesalighes-aidomaggiore
+Nome: B&B Baddesalighes
+Comune / Provincia: Aidomaggiore
+Indirizzo: Via Badde Salighes, 77, 08011 Bolotana NU
+Coordinate: Lat 40.32837, Lng 8.954457
+Website: —
+Email: 
+
+784. B&B Catedda
+ID: 4297972f-15af-4533-94a1-c868c2368479
+Slug: b-b-catedda-aidomaggiore
+Nome: B&B Catedda
+Comune / Provincia: Aidomaggiore
+Indirizzo: Via S. Pietro, 46, 09076 Sedilo OR
+Coordinate: Lat 40.172226, Lng 8.91778
+Website: https://amalfit.cyou/catedda-villa-6hlywq
+Email: 
+
+785. B&B Il Lupo Rosso
+ID: c3e15e27-716e-49d5-a473-5baffec6205b
+Slug: b-b-il-lupo-rosso-aidomaggiore
+Nome: B&B Il Lupo Rosso
+Comune / Provincia: Aidomaggiore
+Indirizzo: Via Roma, 52, 09075 Santu Lussurgiu OR
+Coordinate: Lat 40.14062, Lng 8.652741
+Website: —
+Email: 
+
+786. B&B Il Melograno Paulilatino
+ID: 535ad26b-96b1-4637-a87c-d16df666b462
+Slug: b-b-il-melograno-paulilatino-aidomaggiore
+Nome: B&B Il Melograno Paulilatino
+Comune / Provincia: Aidomaggiore
+Indirizzo: Via Giovanni Caboto, 1/a, 09070 Paulilatino OR
+Coordinate: Lat 40.080401, Lng 8.768632
+Website: —
+Email: 
+
+787. B&B Linu Ruiu
+ID: 063443ca-b3ec-4e79-8012-90ae0331d953
+Slug: b-b-linu-ruiu-aidomaggiore
+Nome: B&B Linu Ruiu
+Comune / Provincia: Aidomaggiore
+Indirizzo: Via Giovanni Maria Angioi, 79, 09075 Santu Lussurgiu OR
+Coordinate: Lat 40.143119, Lng 8.653091
+Website: —
+Email: 
+
+788. Binzas Betzas Agriturismo
+ID: 73ace700-931d-40a7-a761-9850b771c17e
+Slug: binzas-betzas-agriturismo-aidomaggiore
+Nome: Binzas Betzas Agriturismo
+Comune / Provincia: Aidomaggiore
+Indirizzo: Via Marconi, 16, 09076 Sedilo OR
+Coordinate: Lat 40.171713, Lng 8.919259
+Website: https://binzas-betzas-agriturismo.italiatrip.top/
+Email: 
+
+789. Deiana
+ID: 32aecb32-70c1-438f-b1a8-ae0239e7aee9
+Slug: deiana-aidomaggiore
+Nome: Deiana
+Comune / Provincia: Aidomaggiore
+Indirizzo: Viale Azuni, 86, 09075 Santu Lussurgiu OR
+Coordinate: Lat 40.141267, Lng 8.6513
+Website: https://www.booking.com/hotel/it/b-amp-b-jana.it.html?aid=304142&label=gen173nr-1FCAEoggI46AdIFFgEaHGIAQGYARS4ARjIAQzYAQHoAQH4AQKIAgGoAgS4Av-Y_qYGwAIB0gIkMTM1MGVmMDUtN2Y5ZC00YWExLWEwNjctZDIxNWU5M2FkZTY12AIF4AIB&sid=74c22bdb62bc092d9a665e914be478e6&dest_id=5381862;dest_type=hotel;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1692372169;srpvid=41496c0d4279035d;type=total;ucfs=1&#hotelTmpl
+Email: 
+
+790. DOMO Anninnìa - Ghilarza Guest House
+ID: da9f0788-7665-4fdc-b3c0-acdf94fee3fc
+Slug: domo-anninnia-ghilarza-guest-house-aidomaggiore
+Nome: DOMO Anninnìa - Ghilarza Guest House
+Comune / Provincia: Aidomaggiore
+Indirizzo: Via C. Battisti, 34, 09074 Ghilarza OR
+Coordinate: Lat 40.123689, Lng 8.839996
+Website: —
+Email: 
+
+791. Hotel l'anfora
+ID: 27f7b461-8695-45ce-a09d-1a981bc87641
+Slug: hotel-l-anfora-aidomaggiore
+Nome: Hotel l'anfora
+Comune / Provincia: Aidomaggiore
+Indirizzo: Area di servizio sulla 131, km 103 Tramatza OR
+Coordinate: Lat 39.989877, Lng 8.643136
+Website: https://www.anforahoteloristano.com/
+Email: 
+
+792. Hotel Ristorante Badde Rosa
+ID: cefacfb9-a9ac-41b2-b37d-54092f631cd9
+Slug: hotel-ristorante-badde-rosa-aidomaggiore
+Nome: Hotel Ristorante Badde Rosa
+Comune / Provincia: Aidomaggiore
+Indirizzo: Localita' Minadorzu, 08011 Bolotana NU
+Coordinate: Lat 40.317771, Lng 8.965925
+Website: https://www.hotelbadderosa.com/
+Email: 
+
+793. Locanda Sottobosco
+ID: 29abadce-c747-4163-b053-0b735f247da0
+Slug: locanda-sottobosco-aidomaggiore
+Nome: Locanda Sottobosco
+Comune / Provincia: Aidomaggiore
+Indirizzo: Via dell'Ontano, 2, 09075 San Leonardo De Siete Fuentes OR
+Coordinate: Lat 40.180494, Lng 8.665487
+Website: http://www.locandasottobosco.com/
+Email: 
+
+794. Pietro e Graziella
+ID: 00034435-e99d-4519-b0a0-0cfa1e2f1532
+Slug: pietro-e-graziella-aidomaggiore
+Nome: Pietro e Graziella
+Comune / Provincia: Aidomaggiore
+Indirizzo: Via Emilia, 6, 08038 Sorgono NU
+Coordinate: Lat 40.023478, Lng 9.099448
+Website: http://bnbpietroegraziella.com.es/
+Email: 
+
+795. Sa Mola Hotel Ristorante
+ID: c12728e3-99c2-493a-997c-8f7ee8568b84
+Slug: sa-mola-hotel-ristorante-aidomaggiore
+Nome: Sa Mola Hotel Ristorante
+Comune / Provincia: Aidomaggiore
+Indirizzo: Via Superga, 09070 Bonarcado OR
+Coordinate: Lat 40.098534, Lng 8.657733
+Website: https://www.villamariafrancesca.net/
+Email: 
+
+796. The Templars Guesthouse
+ID: cdd1ead5-c985-48db-a699-cc65b5a9069d
+Slug: the-templars-guesthouse-aidomaggiore
+Nome: The Templars Guesthouse
+Comune / Provincia: Aidomaggiore
+Indirizzo: Via Agostino Obinu, 36, 09075 Santu Lussurgiu OR
+Coordinate: Lat 40.142022, Lng 8.655853
+Website: https://thetemplarsguesthouse.com/
+Email: 
+
+797. Agriresort Leano
+ID: 566e848c-4794-4d15-923e-20c0d7aa93b5
+Slug: agriresort-leano-aidone
+Nome: Agriresort Leano
+Comune / Provincia: Aidone
+Indirizzo: C.da Leano (KM3,SP16, SP16, 94015 Piazza Armerina EN
+Coordinate: Lat 37.36421, Lng 14.39941
+Website: https://www.tenuteleano.com/?utm_source=gbp&utm_medium=organic
+Email: 
+
+798. Agriturismo Bannata
+ID: 4d991eee-d8bc-42d8-810b-0d254407744c
+Slug: agriturismo-bannata-aidone
+Nome: Agriturismo Bannata
+Comune / Provincia: Aidone
+Indirizzo: C.da Bannata SS 117 bis, km 41, 94100 Piazza Armerina EN
+Coordinate: Lat 37.434261, Lng 14.372331
+Website: http://www.bannata.com/
+Email: 
+
+799. Agriturismo Il Drago
+ID: d2161d7e-2b94-441c-a223-51a35a651c0a
+Slug: agriturismo-il-drago-aidone
+Nome: Agriturismo Il Drago
+Comune / Provincia: Aidone
+Indirizzo: Contrada Dragofosso, 94010 Aidone EN
+Coordinate: Lat 37.367086, Lng 14.44501
+Website: http://www.agriturismodrago.com/
+Email: 
+
+800. Agriturismo il drago p.zza Armerina
+ID: 7091a8b1-b50f-4d05-99ae-3e19acaecb7a
+Slug: agriturismo-il-drago-p-zza-armerina-aidone
+Nome: Agriturismo il drago p.zza Armerina
+Comune / Provincia: Aidone
+Indirizzo: Unnamed Road, 94010, 94010 Aidone EN
+Coordinate: Lat 37.37001, Lng 14.439066
+Website: —
+Email: 
+
+801. Agriturismo Salemi
+ID: cc951377-5a93-4868-b6c2-45f77651b80f
+Slug: agriturismo-salemi-aidone
+Nome: Agriturismo Salemi
+Comune / Provincia: Aidone
+Indirizzo: Contrada Leano, 94015 Piazza Armerina EN
+Coordinate: Lat 37.374556, Lng 14.411879
+Website: http://www.agrisalemi.it/
+Email: 
+
+802. Bed & Breakfast Le Giare
+ID: 7e396785-86eb-4e99-8487-a68adf695bdb
+Slug: bed-breakfast-le-giare-aidone
+Nome: Bed & Breakfast Le Giare
+Comune / Provincia: Aidone
+Indirizzo: Via Domenico Minolfi, 13, 94010 Aidone EN
+Coordinate: Lat 37.415979, Lng 14.447356
+Website: http://www.legiareaidone.it/
+Email: 
+
+803. GH Hotel & Restaurant
+ID: 4c38298f-0975-4334-8778-a38591bdfa93
+Slug: gh-hotel-restaurant-aidone
+Nome: GH Hotel & Restaurant
+Comune / Provincia: Aidone
+Indirizzo: Via Generale Gaeta, 32, 94015 Piazza Armerina EN
+Coordinate: Lat 37.39217, Lng 14.372352
+Website: https://hotelgh.it/
+Email: 
+
+804. Hotel Villa Romana
+ID: 1d784de6-2a5d-4906-a11c-e8e358198087
+Slug: hotel-villa-romana-aidone
+Nome: Hotel Villa Romana
+Comune / Provincia: Aidone
+Indirizzo: P.za Alcide de Gasperi, 18, 94015 Piazza Armerina EN
+Coordinate: Lat 37.383224, Lng 14.369932
+Website: https://hotel-villaromana.it/
+Email: 
+
+805. La casa rossa
+ID: 9aad3ee6-fe7e-4db1-96c5-57841cf896b3
+Slug: la-casa-rossa-aidone
+Nome: La casa rossa
+Comune / Provincia: Aidone
+Indirizzo: Via Piersanti Mattarella, 94015 Piazza Armerina EN
+Coordinate: Lat 37.378787, Lng 14.361514
+Website: https://saveit.cyou/casa-rossa-lq5upd
+Email: 

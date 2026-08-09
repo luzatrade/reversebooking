@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16276. la TerrazzaSPA B&B
+ID: a473b55b-0681-4c28-984a-470adb6cb903
+Slug: la-terrazzaspa-b-b-comiso
+Nome: la TerrazzaSPA B&B
+Comune / Provincia: Comiso
+Indirizzo: Via Generale Amato, 102 II° e III° Piano, 97013 Comiso RG
+Coordinate: Lat 36.948116, Lng 14.604765
+Website: http://www.laterrazzaspa.com/
+Email: 
+
+16277. Relais Parco Cavalonga Hotel
+ID: 0073e203-5ad2-4668-af0b-206f9e6e8a85
+Slug: relais-parco-cavalonga-hotel-comiso
+Nome: Relais Parco Cavalonga Hotel
+Comune / Provincia: Comiso
+Indirizzo: SP80, km 3.200, 97100 Donnafugata RG
+Coordinate: Lat 36.888569, Lng 14.592762
+Website: http://www.parcocavalonga.it/
+Email: 
+
+16278. Thomas'home Comiso
+ID: 42896a82-06e4-4cfb-9a83-476827a25e12
+Slug: thomas-home-comiso-comiso
+Nome: Thomas'home Comiso
+Comune / Provincia: Comiso
+Indirizzo: Via Spallanzani, 66, 97013 Comiso RG
+Coordinate: Lat 36.940393, Lng 14.603031
+Website: http://comiso.com.es/
+Email: 
+
+16279. A Due Passi Dal Centro Sweet rooms
+ID: fadd482c-26fa-4309-8755-b0f4f4ebf42e
+Slug: a-due-passi-dal-centro-sweet-rooms-comitini
+Nome: A Due Passi Dal Centro Sweet rooms
+Comune / Provincia: Comitini
+Indirizzo: Via II Ortolani, 4, 92100 Agrigento AG
+Coordinate: Lat 37.310793, Lng 13.580683
+Website: http://a-due-passi-dal-centro.com.es/
+Email: 
+
+16280. B&B Holiday Home Zolfare
+ID: 7ff04dce-be24-4a57-adca-a45aafe606c3
+Slug: b-b-holiday-home-zolfare-comitini
+Nome: B&B Holiday Home Zolfare
+Comune / Provincia: Comitini
+Indirizzo: Via Vittorio Emanuele II, 90, 92020 Comitini AG
+Coordinate: Lat 37.408337, Lng 13.643221
+Website: https://admin.booking.com/hotel/hoteladmin/extranet_ng/manage/home.html?hotel_id=5047068&lang=it&hotel_account_id=2684904&ses=1b35bd7063f2fc9b34f12f6b71c19f56
+Email: 
+
+16281. B&B My Home
+ID: 386641d5-8fb8-46ac-aeb7-960d6dd0b7d8
+Slug: b-b-my-home-comitini
+Nome: B&B My Home
+Comune / Provincia: Comitini
+Indirizzo: Via Imera, 280, 92100 Agrigento AG
+Coordinate: Lat 37.317753, Lng 13.580524
+Website: https://timothylovestotravel.com/b-amp-b-my-home-agrigento-italy
+Email: 
+
+16282. Casa di Luca
+ID: 8cfdda5b-11dd-4d9f-a7fc-f93851509136
+Slug: casa-di-luca-comitini
+Nome: Casa di Luca
+Comune / Provincia: Comitini
+Indirizzo: Via Barone Lamberto Montaperto, 3, 92100 Agrigento AG
+Coordinate: Lat 37.331734, Lng 13.596847
+Website: https://www.booking.com/hotel/it/casa-di-luca-agrigento.it.html?aid=334359
+Email: 
+
+16283. Cortile Baronello
+ID: d2583442-61e5-4ee6-982e-01b4dd5247ca
+Slug: cortile-baronello-comitini
+Nome: Cortile Baronello
+Comune / Provincia: Comitini
+Indirizzo: Cortile Baronello, 15, 92100 Agrigento AG
+Coordinate: Lat 37.312587, Lng 13.572969
+Website: https://www.bella-sicilia.it/cortile-baronello/
+Email: 
+
+16284. Dimora Fraula Casa Vacanze
+ID: a09a89e6-6cfe-46ea-b598-4339ac4d724f
+Slug: dimora-fraula-casa-vacanze-comitini
+Nome: Dimora Fraula Casa Vacanze
+Comune / Provincia: Comitini
+Indirizzo: Via S. Leonardo, 8, 92100 Agrigento AG
+Coordinate: Lat 37.305596, Lng 13.584356
+Website: https://www.booking.com/hotel/it/dimora-fraula-guest-house.it.html?aid=334359
+Email: 
+
+16285. Guest House Artemide
+ID: 9980a1ed-0d61-4b80-803b-c3b8ddbe92e7
+Slug: guest-house-artemide-comitini
+Nome: Guest House Artemide
+Comune / Provincia: Comitini
+Indirizzo: Via Gioeni, 57, 92100 Agrigento AG
+Coordinate: Lat 37.311815, Lng 13.585472
+Website: http://guest-house-artemide.italianeisole.it/
+Email: 
+
+16286. KALGHEROS
+ID: 78302a2d-64d9-4e26-bb52-06493eac7ce4
+Slug: kalgheros-comitini
+Nome: KALGHEROS
+Comune / Provincia: Comitini
+Indirizzo: Via Atenea, 305, 92100 Agrigento AG
+Coordinate: Lat 37.311391, Lng 13.578824
+Website: —
+Email: 
+
+16287. Aléa Rooms
+ID: 7321e4e5-728a-4af6-8d47-42d99c4da481
+Slug: alea-rooms-condr
+Nome: Aléa Rooms
+Comune / Provincia: Condr�
+Indirizzo: Via Cosimo di Palma, 9, 73100 Lecce LE
+Coordinate: Lat 40.354663, Lng 18.184418
+Website: https://alearooms.it/
+Email: 
+
+16288. Antiche Volte B&B
+ID: 9df6af61-c716-40d5-9287-005a34343129
+Slug: antiche-volte-b-b-condr
+Nome: Antiche Volte B&B
+Comune / Provincia: Condr�
+Indirizzo: Via Antonello Coniger, 22, 73100 Lecce LE
+Coordinate: Lat 40.354797, Lng 18.169458
+Website: http://www.antichevoltelecce.com/
+Email: 
+
+16289. B&B Dimi House
+ID: 111c7687-983f-4e09-ad30-119049e7ce4c
+Slug: b-b-dimi-house-condr
+Nome: B&B Dimi House
+Comune / Provincia: Condr�
+Indirizzo: Via Filippo Bacile, 19, 73100 Lecce LE
+Coordinate: Lat 40.352116, Lng 18.178046
+Website: http://www.dimihouse.com/
+Email: 
+
+16290. B&B Il Giardino della Scuncerta
+ID: 50cc7f15-35ea-4db7-a8af-f53380e92148
+Slug: b-b-il-giardino-della-scuncerta-condr
+Nome: B&B Il Giardino della Scuncerta
+Comune / Provincia: Condr�
+Indirizzo: Via Giovanni Andrea Coppola, 38, 73100 Lecce LE
+Coordinate: Lat 40.347552, Lng 18.179598
+Website: http://www.ilgiardinodellascuncerta.it/
+Email: 
+
+16291. B&B Lecce Mon Amour
+ID: 61eaa7cf-158c-4dde-8f4e-e45ef3338265
+Slug: b-b-lecce-mon-amour-condr
+Nome: B&B Lecce Mon Amour
+Comune / Provincia: Condr�
+Indirizzo: Via Giuseppe Mantovano, 8, 73100 Lecce LE
+Coordinate: Lat 40.355063, Lng 18.178733
+Website: http://www.leccemonamour.com/
+Email: 
+
+16292. B&B Mamma Splendora
+ID: 9a5cbcc0-5d0c-4b72-9ea4-72eba6c12993
+Slug: b-b-mamma-splendora-condr
+Nome: B&B Mamma Splendora
+Comune / Provincia: Condr�
+Indirizzo: Via Guglielmotto D'Otranto, 19, 73100 Lecce LE
+Coordinate: Lat 40.346093, Lng 18.172882
+Website: https://www.mammasplendora.it/
+Email: 
+
+16293. B&B Manzoni
+ID: 59228546-5abd-4046-b286-a0fbc2a195f2
+Slug: b-b-manzoni-condr
+Nome: B&B Manzoni
+Comune / Provincia: Condr�
+Indirizzo: 73100 Lecce LE, Italia
+Coordinate: Lat 40.362305, Lng 18.172479
+Website: —
+Email: 
+
+16294. B&B Nidi di Feo
+ID: b8435b3e-9c38-4ed2-af28-87934dde901c
+Slug: b-b-nidi-di-feo-condr
+Nome: B&B Nidi di Feo
+Comune / Provincia: Condr�
+Indirizzo: Via Adriatica, 128, 73100 Lecce LE
+Coordinate: Lat 40.368339, Lng 18.168925
+Website: http://www.nididifeo.it/
+Email: 
+
+16295. B&B SALento Garden di Manno Stefano
+ID: f2b403f8-7172-4451-a039-bb7ed69016a6
+Slug: b-b-salento-garden-di-manno-stefano-condr
+Nome: B&B SALento Garden di Manno Stefano
+Comune / Provincia: Condr�
+Indirizzo: Via Vittorio Tondi, 2, 73100 Lecce LE
+Coordinate: Lat 40.3567, Lng 18.196053
+Website: http://dimoresalento-garden.com.es/
+Email: 
+
+16296. BnB FICO - B&B - Bed&Breakfast
+ID: e7312546-b910-4b1f-993b-8598b4067e3b
+Slug: bnb-fico-b-b-bed-breakfast-condr
+Nome: BnB FICO - B&B - Bed&Breakfast
+Comune / Provincia: Condr�
+Indirizzo: Via de Jacobis, 30, 73100 Lecce LE
+Coordinate: Lat 40.349869, Lng 18.162163
+Website: https://www.bnbfico.com/
+Email: 
+
+16297. Dimora dei Salentini B&B
+ID: 08260dc3-52ca-4602-b823-7b7ce63c3c39
+Slug: dimora-dei-salentini-b-b-condr
+Nome: Dimora dei Salentini B&B
+Comune / Provincia: Condr�
+Indirizzo: Via di Casanello, 18, 73100 Lecce LE
+Coordinate: Lat 40.357138, Lng 18.175504
+Website: https://www.dimoradeisalentini.com/
+Email: 
+
+16298. Distinto Suite & Rooms B&B
+ID: 972f0cdc-86ba-4cca-acaf-214fa0653f0a
+Slug: distinto-suite-rooms-b-b-condr
+Nome: Distinto Suite & Rooms B&B
+Comune / Provincia: Condr�
+Indirizzo: Via G. Oberdan, 43, 73100 Lecce LE
+Coordinate: Lat 40.353034, Lng 18.182497
+Website: http://distintolecce.it/
+Email: 
+
+16299. Don Nino B&B
+ID: 5b9faf96-74b2-44c7-997e-5ca918d1c2d7
+Slug: don-nino-b-b-condr
+Nome: Don Nino B&B
+Comune / Provincia: Condr�
+Indirizzo: Via Giovanni Camillo Palma, 65/A, 73100 Lecce LE
+Coordinate: Lat 40.343488, Lng 18.174603
+Website: —
+Email: 
+
+16300. Five Rooms - Dimore Centro Lecce
+ID: 0d58b43a-e961-4c6f-b20f-2f2792214223
+Slug: five-rooms-dimore-centro-lecce-condr
+Nome: Five Rooms - Dimore Centro Lecce
+Comune / Provincia: Condr�
+Indirizzo: Via Francesco Casotti, 17, 73100 Lecce LE
+Coordinate: Lat 40.349971, Lng 18.180815
+Website: https://www.dimorecentrolecce.it/
+Email: 
+
+16301. Hotel Condor Taormina
+ID: 2b150ac1-478c-4a0b-9449-592c78206aa4
+Slug: hotel-condor-taormina-condr
+Nome: Hotel Condor Taormina
+Comune / Provincia: Condr�
+Indirizzo: Via Dietro Cappuccini, 25, 98039 Taormina ME
+Coordinate: Lat 37.856902, Lng 15.286152
+Website: http://www.condorhotel.com/
+Email: 
+
+16302. Il Cortile Delle Esperidi B&B
+ID: 50889d8d-e9c6-4ba3-aea9-d1e77ed8c519
+Slug: il-cortile-delle-esperidi-b-b-condr
+Nome: Il Cortile Delle Esperidi B&B
+Comune / Provincia: Condr�
+Indirizzo: Via g. Candido, 20, 73100 Lecce LE
+Coordinate: Lat 40.349029, Lng 18.1759
+Website: http://www.ilcortiledelleesperidi.it/
+Email: 
+
+16303. Lecce House B&B
+ID: eee4e39f-d382-4e09-93be-79899d5ddd06
+Slug: lecce-house-b-b-condr
+Nome: Lecce House B&B
+Comune / Provincia: Condr�
+Indirizzo: Via Michele Saponaro, 9, 73100 Lecce LE
+Coordinate: Lat 40.357259, Lng 18.193245
+Website: http://www.leccehouse.it/
+Email: 
+
+16304. Lu Cuccuviu B&B
+ID: c2d420ea-7dfc-4ff1-b85d-b50abf33b01b
+Slug: lu-cuccuviu-b-b-condr
+Nome: Lu Cuccuviu B&B
+Comune / Provincia: Condr�
+Indirizzo: Via Filippo Corridoni, 7, 73100 Lecce LE
+Coordinate: Lat 40.349563, Lng 18.182884
+Website: —
+Email: 
+
+16305. NovantaNove B&B
+ID: 58e04417-3324-452a-8804-4a8cd9376566
+Slug: novantanove-b-b-condr
+Nome: NovantaNove B&B
+Comune / Provincia: Condr�
+Indirizzo: Via Giuseppe Zanardelli, 99, 73100 Lecce LE
+Coordinate: Lat 40.354201, Lng 18.182105
+Website: —
+Email: 
+
+16306. Dimora SIQU
+ID: 7cdc3945-b7e7-470b-a0c5-4471e2bcc689
+Slug: dimora-siqu-contessa-entellina
+Nome: Dimora SIQU
+Comune / Provincia: Contessa Entellina
+Indirizzo: Via Camillo Benso Conte di Cavour, 60, 92013 Menfi AG
+Coordinate: Lat 37.601948, Lng 12.963537
+Website: https://www.dimorasiqu.com/
+Email: 
+
+16307. La Regina di Adrano
+ID: 5f7ae239-fcdb-4d94-b289-c88b24895c8b
+Slug: la-regina-di-adrano-contessa-entellina
+Nome: La Regina di Adrano
+Comune / Provincia: Contessa Entellina
+Indirizzo: Contrada Adragna, 92017 Sambuca di Sicilia AG
+Coordinate: Lat 37.675006, Lng 13.130958
+Website: http://www.lareginadiadrano.it/
+Email: 
+
+16308. Marigiò Menfi
+ID: 78db95ee-2d51-45de-8378-6155656c5537
+Slug: marigio-menfi-contessa-entellina
+Nome: Marigiò Menfi
+Comune / Provincia: Contessa Entellina
+Indirizzo: Via Palermo, 8, 92013 Menfi AG
+Coordinate: Lat 37.602567, Lng 12.959844
+Website: —
+Email: 
+
+16309. Villa Salisà - Hotel Lido Fiori - Menfi
+ID: 21ff90d7-11e9-4ead-af19-f86f0d213c45
+Slug: villa-salisa-hotel-lido-fiori-menfi-contessa-entellina
+Nome: Villa Salisà - Hotel Lido Fiori - Menfi
+Comune / Provincia: Contessa Entellina
+Indirizzo: Via Dei Salici, n. 10, 92013 Menfi AG
+Coordinate: Lat 37.574093, Lng 12.956956
+Website: https://villasalisa.com/
+Email: 
+
+16310. Agrirelais Principe SPA
+ID: a027e637-5f99-476c-b730-2e8a102514b0
+Slug: agrirelais-principe-spa-corleone
+Nome: Agrirelais Principe SPA
+Comune / Provincia: Corleone
+Indirizzo: 252Q+68, 90046 Monreale PA
+Coordinate: Lat 38.00056, Lng 13.188354
+Website: http://www.agrirelaisprincipespa.it/
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+6616. Hotel Podere Conti
+ID: b2afa294-8b3d-4647-83a7-1714699eb913
+Slug: hotel-podere-conti-bagnone
+Nome: Hotel Podere Conti
+Comune / Provincia: Bagnone
+Indirizzo: Via Dobbiana Macerie, 3, 54023 Filattiera MS
+Coordinate: Lat 44.371663, Lng 9.923864
+Website: http://www.podereconti.com/
+Email: 
+
+6617. Il Mulino Del Tempo Perduto
+ID: 976d39ed-dfc4-473c-881d-919ae2e037b6
+Slug: il-mulino-del-tempo-perduto-bagnone
+Nome: Il Mulino Del Tempo Perduto
+Comune / Provincia: Bagnone
+Indirizzo: Piazza Roma (Via Francigena) Località Tre Fontane, 54021 Bagnone MS
+Coordinate: Lat 44.314074, Lng 9.994142
+Website: —
+Email: 
+
+6618. La Cascina dei Chicchi
+ID: aa3049d6-0ff0-4ccc-8ae8-cfbb24cfbb5a
+Slug: la-cascina-dei-chicchi-bagnone
+Nome: La Cascina dei Chicchi
+Comune / Provincia: Bagnone
+Indirizzo: LOC, Località Leugio, 8, 54021 Bagnone MS
+Coordinate: Lat 44.324644, Lng 9.994499
+Website: https://www.lacascinadeichicchi.it/
+Email: 
+
+6619. La Pineta Cravilla
+ID: 886444fd-0faf-4afa-8b72-e05fa88df623
+Slug: la-pineta-cravilla-bagnone
+Nome: La Pineta Cravilla
+Comune / Provincia: Bagnone
+Indirizzo: Via Cravilla, 50, 54026 Arionzo-cravilla MS
+Coordinate: Lat 44.313231, Lng 9.912182
+Website: http://www.lapinetacravilla.com/
+Email: 
+
+6620. Locanda Il Rustichello
+ID: 00914530-d781-429a-912d-786a479d5f57
+Slug: locanda-il-rustichello-bagnone
+Nome: Locanda Il Rustichello
+Comune / Provincia: Bagnone
+Indirizzo: Via Crocetta, 2, 54026 Mulazzo MS
+Coordinate: Lat 44.319231, Lng 9.859885
+Website: http://www.locandailrustichello.it/
+Email: 
+
+6621. Locanda Ristorante Gavarini
+ID: 4546d5d5-b17f-4fa6-ab7f-e8f0266eaba5
+Slug: locanda-ristorante-gavarini-bagnone
+Nome: Locanda Ristorante Gavarini
+Comune / Provincia: Bagnone
+Indirizzo: Via A. Benedicenti, 50, 54028 Mocrone MS
+Coordinate: Lat 44.315478, Lng 9.960404
+Website: http://locandagavarini.it/
+Email: 
+
+6622. Ristorante Locanda Fermento
+ID: f889a2de-3e18-46d6-ad9d-3eb0781b7611
+Slug: ristorante-locanda-fermento-bagnone
+Nome: Ristorante Locanda Fermento
+Comune / Provincia: Bagnone
+Indirizzo: Località Mochignano di Sotto, via Scroce, 1, 54021 Bagnone MS
+Coordinate: Lat 44.322969, Lng 9.999619
+Website: https://www.locandafermento.it/
+Email: 
+
+6623. ...."dopo il settimo cielo"
+ID: 18ec6f51-03fb-4b8a-bc74-6a4f4e84aacf
+Slug: dopo-il-settimo-cielo-bagnoregio
+Nome: ...."dopo il settimo cielo"
+Comune / Provincia: Bagnoregio
+Indirizzo: Località Santa Caterina, 40, 01020 Lubriano VT
+Coordinate: Lat 42.643537, Lng 12.14677
+Website: http://www.dopoilsettimocielo.com/
+Email: 
+
+6624. Acqua di Civita Beauty & Rooms in Mercatello
+ID: 274326b3-1ce3-4950-ab6c-1a7da739ee1f
+Slug: acqua-di-civita-beauty-rooms-in-mercatello-bagnoregio
+Nome: Acqua di Civita Beauty & Rooms in Mercatello
+Comune / Provincia: Bagnoregio
+Indirizzo: Via Bonaventura Tecchi, 8, 01022 Bagnoregio VT
+Coordinate: Lat 42.625852, Lng 12.108848
+Website: https://www.acquadicivitarooms.com/rooms-in-mercatello/
+Email: 
+
+6625. Agriturismo La Peonia
+ID: 11201c66-9644-4bc5-85b5-966c1f571eac
+Slug: agriturismo-la-peonia-bagnoregio
+Nome: Agriturismo La Peonia
+Comune / Provincia: Bagnoregio
+Indirizzo: Via Roma, 51, 01022 Bagnoregio VT
+Coordinate: Lat 42.62682, Lng 12.093102
+Website: https://purestay.eu/agriturismo-la-peonia-bagnoregio
+Email: 
+
+6626. B&B Butterfly
+ID: 60c0e0cb-0cfb-4923-b6be-408327d7820f
+Slug: b-b-butterfly-bagnoregio
+Nome: B&B Butterfly
+Comune / Provincia: Bagnoregio
+Indirizzo: Via Antonio Diviziani, snc, 01022 Bagnoregio VT
+Coordinate: Lat 42.628757, Lng 12.08331
+Website: http://butterfly.vt.it/
+Email: 
+
+6627. B&B Civita Nova
+ID: 84417fb7-68a5-4a1e-9b71-e78509b00a0c
+Slug: b-b-civita-nova-bagnoregio
+Nome: B&B Civita Nova
+Comune / Provincia: Bagnoregio
+Indirizzo: Via Don S. Nello Ponziani, 19, 01022 Bagnoregio VT
+Coordinate: Lat 42.629124, Lng 12.091616
+Website: —
+Email: 
+
+6628. B&B Il Cardellino
+ID: e3bfe724-586c-42cb-8a73-467ded28566d
+Slug: b-b-il-cardellino-bagnoregio
+Nome: B&B Il Cardellino
+Comune / Provincia: Bagnoregio
+Indirizzo: Località Colle Ombroso, 17, 05010 Porano TR
+Coordinate: Lat 42.693029, Lng 12.073628
+Website: http://bbilcardellino.it/
+Email: 
+
+6629. B&B Il Soffio di Eolo
+ID: ba9d24ed-268a-4467-ae61-85c51a2f06cf
+Slug: b-b-il-soffio-di-eolo-bagnoregio
+Nome: B&B Il Soffio di Eolo
+Comune / Provincia: Bagnoregio
+Indirizzo: Via Ponterado snc, 01022 Loc. Salci, Bagnoregio VT
+Coordinate: Lat 42.625703, Lng 12.067896
+Website: —
+Email: 
+
+6630. B&B La Polinnia
+ID: 2fe37143-567b-4d97-978b-e7e8d03e9a0b
+Slug: b-b-la-polinnia-bagnoregio
+Nome: B&B La Polinnia
+Comune / Provincia: Bagnoregio
+Indirizzo: di Paola, Piazza S. Francesco, 7, 01022 Bagnoregio VT
+Coordinate: Lat 42.626274, Lng 12.096317
+Website: http://bb-la-polinnia.italia-centro.it/
+Email: 
+
+6631. B&B Le Camere del Bocconcino
+ID: ca9fc922-676e-4010-a450-03a30d7dec9e
+Slug: b-b-le-camere-del-bocconcino-bagnoregio
+Nome: B&B Le Camere del Bocconcino
+Comune / Provincia: Bagnoregio
+Indirizzo: Via Giacomo Matteotti, 1, 01022 Bagnoregio VT
+Coordinate: Lat 42.62721, Lng 12.09115
+Website: —
+Email: 
+
+6632. B&B Podere Ospedaletto
+ID: 501c2dd9-4c72-4146-83ea-3c0544ddec65
+Slug: b-b-podere-ospedaletto-bagnoregio
+Nome: B&B Podere Ospedaletto
+Comune / Provincia: Bagnoregio
+Indirizzo: Loc. Podere Ospedaletto, 01023 Bolsena VT
+Coordinate: Lat 42.644374, Lng 12.024799
+Website: http://www.bebpodereospedaletto.it/
+Email: 
+
+6633. Bed and Breakfast del Prato
+ID: 4984bb50-055b-4c41-b7e8-601a0810f789
+Slug: bed-and-breakfast-del-prato-bagnoregio
+Nome: Bed and Breakfast del Prato
+Comune / Provincia: Bagnoregio
+Indirizzo: Via della Cassa, 5, 01022 Bagnoregio VT
+Coordinate: Lat 42.626749, Lng 12.094384
+Website: http://www.bedandbreakfastbagnoregio.it/
+Email: 
+
+6634. Bellavista
+ID: 7054f7f5-8e06-4cf5-9f4a-2d1d7e18b09c
+Slug: bellavista-bagnoregio
+Nome: Bellavista
+Comune / Provincia: Bagnoregio
+Indirizzo: Via Francalancia, 22, 01022 Bagnoregio VT
+Coordinate: Lat 42.626484, Lng 12.091133
+Website: https://bb-bellavista.bedsandhotels.com/
+Email: 
+
+6635. CORTE DELLA MAESTA' - ANTICA RESIDENZA
+ID: 6f12b57b-67ee-4e67-a5cd-f55bf4dae90a
+Slug: corte-della-maesta-antica-residenza-bagnoregio
+Nome: CORTE DELLA MAESTA' - ANTICA RESIDENZA
+Comune / Provincia: Bagnoregio
+Indirizzo: Vicolo della Maestà, 01022 Civita VT
+Coordinate: Lat 42.627835, Lng 12.113888
+Website: http://www.cortedellamaesta.com/
+Email: 
+
+6636. Hotel Divino Amore
+ID: 73310de3-225b-4241-af19-e24d09fde4fd
+Slug: hotel-divino-amore-bagnoregio
+Nome: Hotel Divino Amore
+Comune / Provincia: Bagnoregio
+Indirizzo: Via Fidanza, 25, 01022 Bagnoregio VT
+Coordinate: Lat 42.627271, Lng 12.096345
+Website: http://www.hoteldivinoamore.com/
+Email: 
+
+6637. Hotel Ristorante Romantica Pucci
+ID: ca3fff87-be56-4209-8c98-dacea5f57775
+Slug: hotel-ristorante-romantica-pucci-bagnoregio
+Nome: Hotel Ristorante Romantica Pucci
+Comune / Provincia: Bagnoregio
+Indirizzo: Piazza Cavour, 1, 01022 Bagnoregio VT
+Coordinate: Lat 42.626697, Lng 12.09428
+Website: http://www.hotelromanticapucci.it/
+Email: 
+
+6638. Il giardino di Elena
+ID: 9378039d-df48-422c-a026-93ba87ac3288
+Slug: il-giardino-di-elena-bagnoregio
+Nome: Il giardino di Elena
+Comune / Provincia: Bagnoregio
+Indirizzo: Via Cesare Mangioli, 52, 01022 Bagnoregio VT
+Coordinate: Lat 42.627134, Lng 12.095536
+Website: —
+Email: 
+
+6639. Il Palazzetto Affittacamere
+ID: 09a309f4-ffd4-4477-9e8f-8ea3409d4e2e
+Slug: il-palazzetto-affittacamere-bagnoregio
+Nome: Il Palazzetto Affittacamere
+Comune / Provincia: Bagnoregio
+Indirizzo: Corso Giuseppe Mazzini, 113, 01022 Bagnoregio VT
+Coordinate: Lat 42.626076, Lng 12.09816
+Website: http://il-palazzetto.italia-centro.it/
+Email: 
+
+6640. La Dimora del Principe
+ID: 5479a28d-b5a4-41c5-8628-a7b20153a87e
+Slug: la-dimora-del-principe-bagnoregio
+Nome: La Dimora del Principe
+Comune / Provincia: Bagnoregio
+Indirizzo: Via F. Monaldeschi, 13, 01022 Bagnoregio VT
+Coordinate: Lat 42.626336, Lng 12.096008
+Website: —
+Email: 
+
+6641. Palazzo Mazzini
+ID: 78cfe61f-16a7-4ea6-ba43-d642f1ea458f
+Slug: palazzo-mazzini-bagnoregio
+Nome: Palazzo Mazzini
+Comune / Provincia: Bagnoregio
+Indirizzo: Corso Giuseppe Mazzini, 71, 01022 Bagnoregio VT
+Coordinate: Lat 42.626319, Lng 12.096907
+Website: https://www.palazzomazzini.net/
+Email: 
+
+6642. Albergo Al Ponte
+ID: 0b5c2537-0049-43d8-a0df-acd70c7f1a96
+Slug: albergo-al-ponte-bagolino
+Nome: Albergo Al Ponte
+Comune / Provincia: Bagolino
+Indirizzo: Via Maniva, 37, 25060 Collio BS
+Coordinate: Lat 45.810321, Lng 10.367364
+Website: https://albergo-al-ponte-di-bruni-ermes.italyforever.top/
+Email: 
+
+6643. Albergo Ristorante Bar Gelateria "Al Tempo Perduto"
+ID: df6a8284-e39a-4a5a-bd11-489f5d368260
+Slug: albergo-ristorante-bar-gelateria-al-tempo-perdut-bagolino
+Nome: Albergo Ristorante Bar Gelateria "Al Tempo Perduto"
+Comune / Provincia: Bagolino
+Indirizzo: Via S. Rocco, 46, 25072 Bagolino BS
+Coordinate: Lat 45.82405, Lng 10.461627
+Website: http://www.altempoperduto.it/
+Email: 
+
+6644. B&B COCCINELLA
+ID: 5a9ffa25-078d-46a3-a8cd-f19c58c86dd2
+Slug: b-b-coccinella-bagolino
+Nome: B&B COCCINELLA
+Comune / Provincia: Bagolino
+Indirizzo: Via Caduti, 136, 25072 Ponte Caffaro BS
+Coordinate: Lat 45.823144, Lng 10.528959
+Website: http://bbcoccinella.it/
+Email: 
+
+6645. B&B La Vittoria
+ID: 3b5634d4-1594-41f2-b858-b64739e7fcb6
+Slug: b-b-la-vittoria-bagolino
+Nome: B&B La Vittoria
+Comune / Provincia: Bagolino
+Indirizzo: Via Roma, 7, 25070 Treviso Bresciano BS
+Coordinate: Lat 45.713394, Lng 10.46545
+Website: https://bnblavittoria.com/
+Email: 
+
+6646. B&B le rose località coste 2 idro bs
+ID: 86e31020-360e-48d1-82f1-229a39f18b7e
+Slug: b-b-le-rose-localita-coste-2-idro-bs-bagolino
+Nome: B&B le rose località coste 2 idro bs
+Comune / Provincia: Bagolino
+Indirizzo: Località Coste, 2, 25074 Idro BS
+Coordinate: Lat 45.737171, Lng 10.481884
+Website: —
+Email: 
+
+6647. Bed And Breakfast El Piastrol
+ID: a0657609-6310-4434-82fb-0bd545919064
+Slug: bed-and-breakfast-el-piastrol-bagolino
+Nome: Bed And Breakfast El Piastrol
+Comune / Provincia: Bagolino
+Indirizzo: Via Fioravante Moreschi, 42, 25072 Bagolino BS
+Coordinate: Lat 45.824106, Lng 10.463236
+Website: https://bed-and-breakfast-el-piastrol.italyfun.top/
+Email: 
+
+6648. Hotel Tiziana Garnì
+ID: 0a2aa269-6bd5-409a-9c8e-299946917e3a
+Slug: hotel-tiziana-garni-bagolino
+Nome: Hotel Tiziana Garnì
+Comune / Provincia: Bagolino
+Indirizzo: Via Dosso, 51, 25084 Gargnano BS
+Coordinate: Lat 45.689081, Lng 10.66265
+Website: http://www.albergotiziana.com/
+Email: 
+
+6649. Ostello
+ID: 4e5c74ce-90c0-4035-b955-1797f6e5bb34
+Slug: ostello-bagolino
+Nome: Ostello
+Comune / Provincia: Bagolino
+Indirizzo: Via dei Quadri Ⅱ, 2, 25072 Ponte Caffaro BS
+Coordinate: Lat 45.810037, Lng 10.525564
+Website: https://www.ostellosullago.com/
+Email: 
+
+6650. Affittacamere Le Nonne
+ID: 76eb7a9f-f847-4196-a70f-7f7a19291e54
+Slug: affittacamere-le-nonne-baia-e-latina
+Nome: Affittacamere Le Nonne
+Comune / Provincia: Baia e Latina
+Indirizzo: Vico Borrelli, 81051 Statigliano CE
+Coordinate: Lat 41.278365, Lng 14.241462
+Website: https://affittacamere-le-nonne.tipsitaly.top/
+Email: 

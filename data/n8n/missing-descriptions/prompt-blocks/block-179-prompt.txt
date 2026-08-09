@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+6231. B&B Sweet Home
+ID: ba62e38a-3402-4689-a8de-c5f94b71ff59
+Slug: b-b-sweet-home-badia-polesine
+Nome: B&B Sweet Home
+Comune / Provincia: Badia Polesine
+Indirizzo: Via G. Ghirardini, 100, 45021 Badia Polesine RO
+Coordinate: Lat 45.093509, Lng 11.488014
+Website: —
+Email: 
+
+6232. Hotel Alla Nave
+ID: 459da69a-05e5-409e-92a0-e0e7b4314cc7
+Slug: hotel-alla-nave-badia-polesine
+Nome: Hotel Alla Nave
+Comune / Provincia: Badia Polesine
+Indirizzo: Via Garibaldi, N°2, 35040 Masi PD
+Coordinate: Lat 45.109759, Lng 11.487987
+Website: http://www.allanave-dal1916.it/hotel/
+Email: 
+
+6233. HOTEL LORY FICAROLO
+ID: d1175486-64ea-4116-a5bb-9a43dbe8c5c0
+Slug: hotel-lory-ficarolo-badia-polesine
+Nome: HOTEL LORY FICAROLO
+Comune / Provincia: Badia Polesine
+Indirizzo: Via delle Regioni, 880/a, 45036 Ficarolo RO
+Coordinate: Lat 44.948935, Lng 11.442729
+Website: http://www.hotel-lory.it/
+Email: 
+
+6234. La Bussola Badia Polesine - Camere & Appartamenti
+ID: ffa4d178-d48e-4cd8-92df-adc61b362f21
+Slug: la-bussola-badia-polesine-camere-appartamenti-badia-polesine
+Nome: La Bussola Badia Polesine - Camere & Appartamenti
+Comune / Provincia: Badia Polesine
+Indirizzo: Via Leonardo Da Vinci, 185, 45021 Badia Polesine RO
+Coordinate: Lat 45.074031, Lng 11.485555
+Website: http://www.labussola-badia.com/
+Email: 
+
+6235. Relax a Badia Polesine
+ID: 9508bf48-f1d5-4868-8c69-6fb574987482
+Slug: relax-a-badia-polesine-badia-polesine
+Nome: Relax a Badia Polesine
+Comune / Provincia: Badia Polesine
+Indirizzo: V. Fratelli Rosselli, 72, 45021 Badia Polesine RO
+Coordinate: Lat 45.100616, Lng 11.487652
+Website: —
+Email: 
+
+6236. Santa Sofia Suite Lendinara Hotel
+ID: d83e8073-9153-4818-a1b2-94f2f2c2670d
+Slug: santa-sofia-suite-lendinara-hotel-badia-polesine
+Nome: Santa Sofia Suite Lendinara Hotel
+Comune / Provincia: Badia Polesine
+Indirizzo: Via Baccari, 1, 45026 Lendinara RO
+Coordinate: Lat 45.085237, Lng 11.60003
+Website: https://www.santasofiasuite.it/
+Email: 
+
+6237. Agriturismo Il Casalone
+ID: 0b5bf57c-4787-4b8e-a57d-275070101b44
+Slug: agriturismo-il-casalone-badia-tedalda
+Nome: Agriturismo Il Casalone
+Comune / Provincia: Badia Tedalda
+Indirizzo: Località San Patrignano, 53, 52032 Badia Tedalda AR
+Coordinate: Lat 43.724404, Lng 12.17638
+Website: http://www.selviturismo.it/
+Email: 
+
+6238. Agriturismo Il Falco
+ID: 37744e7a-60d8-4c0f-936b-d6c372d94002
+Slug: agriturismo-il-falco-badia-tedalda
+Nome: Agriturismo Il Falco
+Comune / Provincia: Badia Tedalda
+Indirizzo: Località Trappola, 7, 47028 Alfero FC
+Coordinate: Lat 43.828453, Lng 12.07989
+Website: http://www.agriturismoilfalco.it/
+Email: 
+
+6239. Agriturismo Pian di Botta
+ID: d88d782b-d714-42e8-a172-3517f635c2fc
+Slug: agriturismo-pian-di-botta-badia-tedalda
+Nome: Agriturismo Pian di Botta
+Comune / Provincia: Badia Tedalda
+Indirizzo: Strada Comunale Pian di Botta, 13, 52032 Badia Tedalda AR
+Coordinate: Lat 43.708193, Lng 12.182223
+Website: http://www.agriturismo-piandibotta.com/
+Email: 
+
+6240. Agriturismo Segalare
+ID: a606b0cb-467b-407f-98f9-224a28f6e1de
+Slug: agriturismo-segalare-badia-tedalda
+Nome: Agriturismo Segalare
+Comune / Provincia: Badia Tedalda
+Indirizzo: Unnamed Road 52036, 52036 Pieve Santo Stefano AR
+Coordinate: Lat 43.688861, Lng 11.998861
+Website: —
+Email: 
+
+6241. Agriturismo Villaggio Eden
+ID: 41f09d0e-d773-4621-96c7-14f54cfa2e90
+Slug: agriturismo-villaggio-eden-badia-tedalda
+Nome: Agriturismo Villaggio Eden
+Comune / Provincia: Badia Tedalda
+Indirizzo: Località Sant'Apollinare, 17, 52036 Pieve Santo Stefano AR
+Coordinate: Lat 43.711301, Lng 12.017202
+Website: https://www.villaggioeden.eu/
+Email: 
+
+6242. Al Podere Del Nonno Romolo
+ID: f24907b0-8bee-44c1-9f75-9f65dbdaf637
+Slug: al-podere-del-nonno-romolo-badia-tedalda
+Nome: Al Podere Del Nonno Romolo
+Comune / Provincia: Badia Tedalda
+Indirizzo: Via Case Al Vento, 65, 52037 Sansepolcro AR
+Coordinate: Lat 43.596844, Lng 12.108833
+Website: https://www.facebook.com/p/Agriturismo-Al-Podere-del-Nonno-Romolo-100057200479394/
+Email: 
+
+6243. Albergo Bellavista - Monte Fumaiolo
+ID: dacb9a7e-0fa7-4c71-8501-8e03c73255db
+Slug: albergo-bellavista-monte-fumaiolo-badia-tedalda
+Nome: Albergo Bellavista - Monte Fumaiolo
+Comune / Provincia: Badia Tedalda
+Indirizzo: Via Campo Madonna, 3, 47020 Balze FC
+Coordinate: Lat 43.777256, Lng 12.088881
+Website: http://www.albergobellavistabalze.com/
+Email: 
+
+6244. Antiqua Camere
+ID: 48d77c49-7642-45a0-b22d-ec1aa5582d73
+Slug: antiqua-camere-badia-tedalda
+Nome: Antiqua Camere
+Comune / Provincia: Badia Tedalda
+Indirizzo: Località S. Donato, 12, 52038 Sestino AR
+Coordinate: Lat 43.718338, Lng 12.269238
+Website: https://www.instagram.com/antiqua_camere_sestino/
+Email: 
+
+6245. B&B fam. ACCIAI
+ID: a290e22d-e1f0-4c96-ae59-e6adac8dca0d
+Slug: b-b-fam-acciai-badia-tedalda
+Nome: B&B fam. ACCIAI
+Comune / Provincia: Badia Tedalda
+Indirizzo: forlì, cesena, di, Via Campo Madonna, 5, 47028 Balze FC
+Coordinate: Lat 43.777328, Lng 12.089426
+Website: http://www.montefumaiolo.it/
+Email: 
+
+6246. B&B Il Gelso
+ID: 6a2a3b72-5d36-4680-b4aa-61810ea5cf9b
+Slug: b-b-il-gelso-badia-tedalda
+Nome: B&B Il Gelso
+Comune / Provincia: Badia Tedalda
+Indirizzo: Via Serra di Sotto, 57, 47864 Maciano, Pennabilli RN
+Coordinate: Lat 43.839201, Lng 12.28672
+Website: —
+Email: 
+
+6247. Il Borgo Casteldelci
+ID: 801d398f-1d30-4e59-8a70-2af8889f965b
+Slug: il-borgo-casteldelci-badia-tedalda
+Nome: Il Borgo Casteldelci
+Comune / Provincia: Badia Tedalda
+Indirizzo: Via Castello, 6, 47861 Casteldelci RN
+Coordinate: Lat 43.791668, Lng 12.154837
+Website: https://www.ilborgocasteldelci.com/
+Email: 
+
+6248. Monastero di Sant'Alberico Relais
+ID: 582aa6a3-3508-40d0-bb84-736951d553dd
+Slug: monastero-di-sant-alberico-relais-badia-tedalda
+Nome: Monastero di Sant'Alberico Relais
+Comune / Provincia: Badia Tedalda
+Indirizzo: Località Sant'Alberico, 47028 Balze FC
+Coordinate: Lat 43.800941, Lng 12.096015
+Website: https://www.monasterosantalberico.com/?utm_source=googlemaps&utm_medium=mybusiness&utm_campaign=mybusiness
+Email: 
+
+6249. Oasi Cocchiola S.r.l.
+ID: c72770d1-73b5-4315-b2c3-f1731d649fc4
+Slug: oasi-cocchiola-s-r-l-badia-tedalda
+Nome: Oasi Cocchiola S.r.l.
+Comune / Provincia: Badia Tedalda
+Indirizzo: Strada vecchia di Cocchiola, Loca.ità Cocchiola, 52032 Badia Tedalda AR
+Coordinate: Lat 43.711212, Lng 12.144525
+Website: http://www.oasicocchiola.it/
+Email: 
+
+6250. Relais Palazzo Di Luglio
+ID: 32e04708-c6aa-4418-b5ce-da051fa1876b
+Slug: relais-palazzo-di-luglio-badia-tedalda
+Nome: Relais Palazzo Di Luglio
+Comune / Provincia: Badia Tedalda
+Indirizzo: Via Marecchiese, Frazione Cignano, 35, 52037 Sansepolcro AR
+Coordinate: Lat 43.588403, Lng 12.123522
+Website: http://www.relaispalazzodiluglio.com/
+Email: 
+
+6251. Ristorante Albergo Lago Verde
+ID: 350b336c-fff4-4770-8ee6-5c6a927827b3
+Slug: ristorante-albergo-lago-verde-badia-tedalda
+Nome: Ristorante Albergo Lago Verde
+Comune / Provincia: Badia Tedalda
+Indirizzo: Via Strada per Soanne, 1, 47864 Soanne RN
+Coordinate: Lat 43.836738, Lng 12.299986
+Website: http://www.albergolagoverde.it/
+Email: 
+
+6252. Albergo Dolomia
+ID: 05fe28ad-f1ca-4dab-b692-9e27970a832e
+Slug: albergo-dolomia-badia-abtei
+Nome: Albergo Dolomia
+Comune / Provincia: Badia/Abtei
+Indirizzo: Str. Pedraces, 25, 39036 Badia BZ
+Coordinate: Lat 46.610854, Lng 11.893922
+Website: https://www.albergodolomia.it/index_it.html
+Email: 
+
+6253. Garnì Ciadinat
+ID: f586bb8e-b799-47d3-ab74-96a68a2f4846
+Slug: garni-ciadinat-badia-abtei
+Nome: Garnì Ciadinat
+Comune / Provincia: Badia/Abtei
+Indirizzo: Str. Pantansarè, 19, 39036 Badia BZ
+Coordinate: Lat 46.607666, Lng 11.892329
+Website: http://www.garniciadinat.it/
+Email: 
+
+6254. Garni Ciasa Urban
+ID: 372da010-5221-4d2d-b55a-71c82d1d9654
+Slug: garni-ciasa-urban-badia-abtei
+Nome: Garni Ciasa Urban
+Comune / Provincia: Badia/Abtei
+Indirizzo: Str. Pantansarè, 35, 39036 Badia BZ
+Coordinate: Lat 46.607914, Lng 11.891342
+Website: http://www.ciasaurban.it/
+Email: 
+
+6255. Hotel Cavallino
+ID: 849f66d7-124d-4744-a224-c36ebb3fc6b0
+Slug: hotel-cavallino-badia-abtei
+Nome: Hotel Cavallino
+Comune / Provincia: Badia/Abtei
+Indirizzo: Str. S. Linert, 52, 39036 San Leonardo BZ
+Coordinate: Lat 46.611364, Lng 11.90024
+Website: https://www.cavallino-altabadia.it/
+Email: 
+
+6256. Hotel Gardenazza
+ID: 3c0ce489-a117-4242-b1a5-1815f8705ce6
+Slug: hotel-gardenazza-badia-abtei
+Nome: Hotel Gardenazza
+Comune / Provincia: Badia/Abtei
+Indirizzo: Str. Damez, 55, 39036 Badia BZ
+Coordinate: Lat 46.60406, Lng 11.896534
+Website: https://hotelgardenazza.it/
+Email: 
+
+6257. Hotel Gran Ander
+ID: a055f022-fa2d-46ef-9b18-4a91b6a5eb18
+Slug: hotel-gran-ander-badia-abtei
+Nome: Hotel Gran Ander
+Comune / Provincia: Badia/Abtei
+Indirizzo: Str. Runcac, 29, 39036 Badia BZ
+Coordinate: Lat 46.609008, Lng 11.893269
+Website: http://www.granander.it/
+Email: 
+
+6258. Hotel Italia Corvara
+ID: fc2d339d-7671-4174-8e32-16512567f060
+Slug: hotel-italia-corvara-badia-abtei
+Nome: Hotel Italia Corvara
+Comune / Provincia: Badia/Abtei
+Indirizzo: Str. Col Alt, 20, 39033 Corvara in Badia BZ
+Coordinate: Lat 46.551479, Lng 11.874046
+Website: http://www.hotelitaliacorvara.it/
+Email: 
+
+6259. Hotel La Müda
+ID: 16d5f8ab-fb5b-4846-aefd-ec5a4dd07fb2
+Slug: hotel-la-muda-badia-abtei
+Nome: Hotel La Müda
+Comune / Provincia: Badia/Abtei
+Indirizzo: Strada la Müda, 13, 39036 Badia BZ
+Coordinate: Lat 46.607695, Lng 11.896745
+Website: https://www.lamuda.it/
+Email: 
+
+6260. Hotel Melodia del Bosco
+ID: 8231b857-b7d4-4634-bb58-fc51aa55b236
+Slug: hotel-melodia-del-bosco-badia-abtei
+Nome: Hotel Melodia del Bosco
+Comune / Provincia: Badia/Abtei
+Indirizzo: Str. Runcac, 8, 39036 Badia BZ
+Coordinate: Lat 46.610554, Lng 11.891636
+Website: http://www.melodiadelbosco.it/
+Email: 
+
+6261. Hotel Miramonti
+ID: b17c6c3b-7b2c-4620-9de5-934bf0071e22
+Slug: hotel-miramonti-badia-abtei
+Nome: Hotel Miramonti
+Comune / Provincia: Badia/Abtei
+Indirizzo: Str. Damez, 42, 39036 Badia BZ
+Coordinate: Lat 46.603623, Lng 11.895844
+Website: https://miramontihotel.it/
+Email: 
+
+6262. Hotel San Leonardo
+ID: 6828e7c9-c41a-4909-9277-7609c67e930a
+Slug: hotel-san-leonardo-badia-abtei
+Nome: Hotel San Leonardo
+Comune / Provincia: Badia/Abtei
+Indirizzo: Str. S. Linert, 23, 39036 Badia BZ
+Coordinate: Lat 46.611136, Lng 11.899713
+Website: http://www.albergo-sanleonardo.it/
+Email: 
+
+6263. Hotel Serena Badia
+ID: 5b4d3c59-857a-41a0-87a5-fc1db2c4c26f
+Slug: hotel-serena-badia-badia-abtei
+Nome: Hotel Serena Badia
+Comune / Provincia: Badia/Abtei
+Indirizzo: Str. Pedraces, 32, 39036 Pedraces BZ
+Coordinate: Lat 46.611522, Lng 11.892487
+Website: http://www.hotel-serena.com/
+Email: 
+
+6264. Naturhotel Miraval
+ID: 787632bf-e2a7-4aab-9d5b-c82480984908
+Slug: naturhotel-miraval-badia-abtei
+Nome: Naturhotel Miraval
+Comune / Provincia: Badia/Abtei
+Indirizzo: Str. Sompunt, 19, 39036 Badia BZ
+Coordinate: Lat 46.596328, Lng 11.900996
+Website: http://www.naturhotelmiraval.com/
+Email: 
+
+6265. Pension Atlantic
+ID: 57aeac8c-b3df-4e82-837c-9286a647dabd
+Slug: pension-atlantic-badia-abtei
+Nome: Pension Atlantic
+Comune / Provincia: Badia/Abtei
+Indirizzo: Str. Pedraces, 5, 39036 Badia BZ
+Coordinate: Lat 46.611748, Lng 11.894035
+Website: https://www.pensionatlantic.com/
+Email: 

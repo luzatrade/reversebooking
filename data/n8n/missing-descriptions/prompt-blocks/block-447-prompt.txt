@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+15611. Pistillo
+ID: 7dda1346-8613-469b-83f0-4d3e383768cc
+Slug: pistillo-casalvieri
+Nome: Pistillo
+Comune / Provincia: Casalvieri
+Indirizzo: PistilloCASALVIERI, 03034 Casalvieri FR
+Coordinate: Lat 41.638262, Lng 13.709922
+Website: —
+Email: 
+
+15612. B&B Castelcicala
+ID: e3292890-1e2c-48c7-b779-8732153aef12
+Slug: b-b-castelcicala-casamarciano
+Nome: B&B Castelcicala
+Comune / Provincia: Casamarciano
+Indirizzo: Via S. Francesco, 192, 80035 Nola NA
+Coordinate: Lat 40.92258, Lng 14.545307
+Website: http://www.castelcicala.com/
+Email: 
+
+15613. B&B Adrian’s
+ID: 6d70755a-e00d-40c7-84d1-974827262dd5
+Slug: b-b-adrian-s-casamassima
+Nome: B&B Adrian’s
+Comune / Provincia: Casamassima
+Indirizzo: Via V.Grisanzio di Pinto, 17, 70010 Turi BA
+Coordinate: Lat 40.9168, Lng 17.024877
+Website: https://adrians-bb.percorsiitaliani.top/
+Email: 
+
+15614. B&B Guarini
+ID: bd1d1056-f09e-4fe8-90ab-101d9bda9754
+Slug: b-b-guarini-casamassima
+Nome: B&B Guarini
+Comune / Provincia: Casamassima
+Indirizzo: area residenziale Barialto, via Guarino Guarini, 2, 70010 Casamassima BA
+Coordinate: Lat 40.978374, Lng 16.908588
+Website: http://bnbguarini.it/
+Email: 
+
+15615. B&B Le Tre Rose
+ID: 994669f8-da09-4a5d-834f-072e52460e12
+Slug: b-b-le-tre-rose-casamassima
+Nome: B&B Le Tre Rose
+Comune / Provincia: Casamassima
+Indirizzo: Via Imbriani, 27, 70010 Casamassima BA
+Coordinate: Lat 40.955797, Lng 16.922163
+Website: —
+Email: 
+
+15616. B&B Relais del Marchese
+ID: 3c1286f0-05ea-41cf-9fd5-124a83470657
+Slug: b-b-relais-del-marchese-casamassima
+Nome: B&B Relais del Marchese
+Comune / Provincia: Casamassima
+Indirizzo: Via Forno D'Addante, 16, 70010 Turi BA
+Coordinate: Lat 40.916272, Lng 17.021211
+Website: http://www.relaisdelmarchese.it/
+Email: 
+
+15617. Bed & Breakfast Via Roma 15
+ID: f553cef3-b926-4d8c-bbc0-c695893e72d3
+Slug: bed-breakfast-via-roma-15-casamassima
+Nome: Bed & Breakfast Via Roma 15
+Comune / Provincia: Casamassima
+Indirizzo: Via Roma, 15, 70021 Acquaviva delle Fonti BA
+Coordinate: Lat 40.895689, Lng 16.84238
+Website: http://www.bb-viaroma.it/
+Email: 
+
+15618. Bed and Breakfast Gaia
+ID: 81fad166-2f11-4a47-9949-9d765aef0196
+Slug: bed-and-breakfast-gaia-casamassima
+Nome: Bed and Breakfast Gaia
+Comune / Provincia: Casamassima
+Indirizzo: Via Cellamare, 59, 70010 Casamassima BA
+Coordinate: Lat 40.963665, Lng 16.922783
+Website: https://www.airbnb.com/h/bebgaia
+Email: 
+
+15619. Dimora Rossi
+ID: 1cdb51f2-09c6-4bf2-be24-9dfc6554e756
+Slug: dimora-rossi-casamassima
+Nome: Dimora Rossi
+Comune / Provincia: Casamassima
+Indirizzo: Via Sedile, 8, 70010 Turi BA
+Coordinate: Lat 40.91604, Lng 17.0211
+Website: http://www.dimorarossi.it/it/
+Email: 
+
+15620. Dimora Storica Palazzo Didonna
+ID: ff313017-436e-403b-9cd5-1af23affc2f4
+Slug: dimora-storica-palazzo-didonna-casamassima
+Nome: Dimora Storica Palazzo Didonna
+Comune / Provincia: Casamassima
+Indirizzo: Via Diego Martinelli, 24, 70018 Rutigliano BA
+Coordinate: Lat 41.010032, Lng 17.006727
+Website: http://www.palazzodidonna.it/
+Email: 
+
+15621. Dimore Chialè
+ID: 9e485317-2c17-442f-abef-08287f3592ec
+Slug: dimore-chiale-casamassima
+Nome: Dimore Chialè
+Comune / Provincia: Casamassima
+Indirizzo: Viale Angelo Pende, 44, 70010 Casamassima BA
+Coordinate: Lat 40.957307, Lng 16.921957
+Website: —
+Email: 
+
+15622. Domus Klara
+ID: 694d067e-4ff1-4cc4-910c-424774c05e25
+Slug: domus-klara-casamassima
+Nome: Domus Klara
+Comune / Provincia: Casamassima
+Indirizzo: Via S. Paolo, 5, 70010 Turi BA
+Coordinate: Lat 40.916516, Lng 17.021951
+Website: https://danielstravelexperience.eu/domus-klara-italy
+Email: 
+
+15623. Holiday Residence di Michele Lucente
+ID: 7192e261-b892-42b9-a450-132340c6c968
+Slug: holiday-residence-di-michele-lucente-casamassima
+Nome: Holiday Residence di Michele Lucente
+Comune / Provincia: Casamassima
+Indirizzo: SP 65 Casamassima/ Conversano km3, 70010 Turi BA
+Coordinate: Lat 40.943941, Lng 16.979368
+Website: http://www.holidayresidence.it/
+Email: 
+
+15624. Hotel Esperia
+ID: b9f0da55-4163-4699-b844-961774c0edbe
+Slug: hotel-esperia-casamassima
+Nome: Hotel Esperia
+Comune / Provincia: Casamassima
+Indirizzo: Via Giovanni Verga, 18, 70010 Sammichele di Bari BA
+Coordinate: Lat 40.892571, Lng 16.95138
+Website: http://www.hotel-esperia.it/index_file/bari.htm
+Email: 
+
+15625. La Casetta B&B
+ID: 15135149-4131-4ff9-bd70-d47982b60229
+Slug: la-casetta-b-b-casamassima
+Nome: La Casetta B&B
+Comune / Provincia: Casamassima
+Indirizzo: Via Palombaro, 80, 70010 Turi BA
+Coordinate: Lat 40.916213, Lng 17.02277
+Website: —
+Email: 
+
+15626. La Maison
+ID: 378693bf-429e-4a5d-bd70-dd97a9397585
+Slug: la-maison-casamassima
+Nome: La Maison
+Comune / Provincia: Casamassima
+Indirizzo: Via Antonio De Marinis, 2, 70021 Acquaviva delle Fonti BA
+Coordinate: Lat 40.896713, Lng 16.847763
+Website: https://www.lamaison-acquaviva.it/
+Email: 
+
+15627. La Torre del Tempo
+ID: 137e2a13-8da4-405d-9be4-0ac4c28cfb5f
+Slug: la-torre-del-tempo-casamassima
+Nome: La Torre del Tempo
+Comune / Provincia: Casamassima
+Indirizzo: Via Giuseppe Massari, 14, 70010 Turi BA
+Coordinate: Lat 40.917464, Lng 17.021064
+Website: http://www.latorredeltempo.it/
+Email: 
+
+15628. Albergo l'Approdo
+ID: 8585244f-a23e-40bf-bf19-c64ecbc79ece
+Slug: albergo-l-approdo-casamicciola-terme
+Nome: Albergo l'Approdo
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Via Eddomade, 29, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.74968, Lng 13.900987
+Website: http://albergolapprodo.it/
+Email: 
+
+15629. B&B Verde
+ID: 95ebb019-aa41-4926-85bb-4e6bac1e5718
+Slug: b-b-verde-casamicciola-terme
+Nome: B&B Verde
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Via Fundera, 8, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.748363, Lng 13.897625
+Website: https://bnbverdeischia.com/
+Email: 
+
+15630. ELMA Park Hotel Terme & Spa
+ID: 59b8f620-5cb9-4f38-b931-60d1e22a632e
+Slug: elma-park-hotel-terme-spa-casamicciola-terme
+Nome: ELMA Park Hotel Terme & Spa
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Corso Vittorio Emanuele, 57, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.747233, Lng 13.91148
+Website: https://www.hotelscheck-in.com/hotelelmaischia/it/
+Email: 
+
+15631. Excelsior Mare Suites
+ID: 84109547-33a5-4ddc-af8b-66978a12fd46
+Slug: excelsior-mare-suites-casamicciola-terme
+Nome: Excelsior Mare Suites
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Corso Luigi Manzi, 12, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.748597, Lng 13.913542
+Website: https://www.excelsiormare.it/
+Email: 
+
+15632. GRIFO HOTEL CHARME & SPA
+ID: 5aeeaf33-b39e-4556-931f-a7700078db26
+Slug: grifo-hotel-charme-spa-casamicciola-terme
+Nome: GRIFO HOTEL CHARME & SPA
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Parnaso dello Spalatriello, 28, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.746906, Lng 13.921568
+Website: http://grifohotel.it/
+Email: 
+
+15633. Hotel Bel Tramonto
+ID: 17791859-a7fc-4f76-8291-6f9697f6dded
+Slug: hotel-bel-tramonto-casamicciola-terme
+Nome: Hotel Bel Tramonto
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Via Castanito, 124A, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.745697, Lng 13.897836
+Website: http://www.hotelbeltramonto.it/
+Email: 
+
+15634. Hotel Casa Di Meglio
+ID: 62aa6ec6-2a00-4df9-8b57-cdae2b208804
+Slug: hotel-casa-di-meglio-casamicciola-terme
+Nome: Hotel Casa Di Meglio
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Corso Vittorio Emanuele, 46, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.745783, Lng 13.913387
+Website: http://www.casadimeglio.it/
+Email: 
+
+15635. Hotel e B&b Parco Conte Ischia
+ID: 91c3d5a4-2308-46b5-b777-a0c1d56d3c25
+Slug: hotel-e-b-b-parco-conte-ischia-casamicciola-terme
+Nome: Hotel e B&b Parco Conte Ischia
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Via Eddomade, 42, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.748669, Lng 13.901842
+Website: http://www.parcoconteischia.it/
+Email: 
+
+15636. Hotel La Madonnina
+ID: df4bf833-c269-4a03-846a-831bb83db12e
+Slug: hotel-la-madonnina-casamicciola-terme
+Nome: Hotel La Madonnina
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Via Salvatore Girardi, 8, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.750385, Lng 13.919543
+Website: http://www.hotellamadonnina.it/
+Email: 
+
+15637. Hotel La Maggioressa
+ID: dfcc6629-5389-4c60-9218-8f71fb204836
+Slug: hotel-la-maggioressa-casamicciola-terme
+Nome: Hotel La Maggioressa
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Via Giuseppe Garibaldi, 29, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.744364, Lng 13.908107
+Website: http://www.hotellamaggioressa.com/it/
+Email: 
+
+15638. Hotel Pensione Monti
+ID: c6bc66ef-a433-48e0-ae9f-48e71a830d7e
+Slug: hotel-pensione-monti-casamicciola-terme
+Nome: Hotel Pensione Monti
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Calata Sant'Antonio, 7, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.74541, Lng 13.897094
+Website: http://www.hotelpensionemonti.com/
+Email: 
+
+15639. Hotel Terme Gran Paradiso
+ID: 918d54f1-c25f-40b6-8644-1c2932c61b9e
+Slug: hotel-terme-gran-paradiso-casamicciola-terme
+Nome: Hotel Terme Gran Paradiso
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Via Principessa Margherita, 20, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.748079, Lng 13.90506
+Website: https://www.hotelgranparadisoischia.it/
+Email: 
+
+15640. Hotel Terme La Pergola & Villa Flavio
+ID: b323c09d-599d-4e8a-8911-3b08cc0dc6e2
+Slug: hotel-terme-la-pergola-villa-flavio-casamicciola-terme
+Nome: Hotel Terme La Pergola & Villa Flavio
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Via Casa Mennella, 1, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.744809, Lng 13.896386
+Website: https://www.lapergola-ischia.it/
+Email: 
+
+15641. Hotel Villa D’Orta
+ID: 5fc9661f-a3ba-413d-8e6e-67755f0e7870
+Slug: hotel-villa-d-orta-casamicciola-terme
+Nome: Hotel Villa D’Orta
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Via Vicinale Castanito, 1, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.745479, Lng 13.904079
+Website: http://www.hotelvilladorta.it/
+Email: 
+
+15642. Hotel Villa Fiorentina
+ID: f7fb7120-6f68-4267-bee4-9fbdcf201731
+Slug: hotel-villa-fiorentina-casamicciola-terme
+Nome: Hotel Villa Fiorentina
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Via Rotaro, 38, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.741817, Lng 13.918357
+Website: http://www.villafiorentinaischia.com/
+Email: 
+
+15643. Marina 10 design hotel&SPA
+ID: 74dcbda5-33b1-4f5f-bc81-8b21e99532af
+Slug: marina-10-design-hotel-spa-casamicciola-terme
+Nome: Marina 10 design hotel&SPA
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Piazza Marina, 35, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.748326, Lng 13.906175
+Website: https://www.marina10.it/
+Email: 
+
+15644. Palazzo Manzi Terme & Spa
+ID: 74ebd9cd-bce5-461a-baf3-ddcd956a0ee6
+Slug: palazzo-manzi-terme-spa-casamicciola-terme
+Nome: Palazzo Manzi Terme & Spa
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Piazza Bagni di Gurgitello, 4, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.743263, Lng 13.908384
+Website: https://www.palazzomanzi.com/
+Email: 
+
+15645. Paradise Relais Villa Jantò
+ID: e949b586-2bee-4f6a-a748-28f05aab9c8c
+Slug: paradise-relais-villa-janto-casamicciola-terme
+Nome: Paradise Relais Villa Jantò
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Via Grande Sentinella, 32, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.747046, Lng 13.901555
+Website: http://www.villajanto.com/
+Email: 

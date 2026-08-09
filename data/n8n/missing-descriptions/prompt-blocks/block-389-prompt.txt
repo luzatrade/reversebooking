@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+13581. La Corte dei Signoretti
+ID: eb4ecc54-9ef9-4791-a70c-73287bf85dea
+Slug: la-corte-dei-signoretti-canale-monterano
+Nome: La Corte dei Signoretti
+Comune / Provincia: Canale Monterano
+Indirizzo: Via Monterano, 5, 00060 Canale Monterano RM
+Coordinate: Lat 42.135993, Lng 12.10176
+Website: https://it.cortesignoretti.com/
+Email: 
+
+13582. La Torretta
+ID: feb4cb6d-a0bc-4aa4-a39a-9ac2adebe5ce
+Slug: la-torretta-canale-monterano
+Nome: La Torretta
+Comune / Provincia: Canale Monterano
+Indirizzo: S.S. 493 km 32,600, 00060 Canale Monterano RM
+Coordinate: Lat 42.145523, Lng 12.130525
+Website: https://www.tenutalatorretta.it/
+Email: 
+
+13583. Terme di Stigliano - Hotel & Spa
+ID: 72126e24-7b54-46da-9291-bf5c9cff4dd7
+Slug: terme-di-stigliano-hotel-spa-canale-monterano
+Nome: Terme di Stigliano - Hotel & Spa
+Comune / Provincia: Canale Monterano
+Indirizzo: Via Bagni di Stigliano, 2, 00060 Canale Monterano RM
+Coordinate: Lat 42.115422, Lng 12.041133
+Website: http://www.termedistigliano.it/
+Email: 
+
+13584. Villa Clodia Relais Weddings
+ID: 2fde0ce3-52f8-4255-9c92-f9b321e1c456
+Slug: villa-clodia-relais-weddings-canale-monterano
+Nome: Villa Clodia Relais Weddings
+Comune / Provincia: Canale Monterano
+Indirizzo: Via del Mattiolo, 3, 00066 Manziana RM
+Coordinate: Lat 42.128361, Lng 12.133535
+Website: http://www.villaclodia.com/
+Email: 
+
+13585. Villa TOJI
+ID: fa4fb62a-79fb-4335-91ec-626251f3befc
+Slug: villa-toji-canale-monterano
+Nome: Villa TOJI
+Comune / Provincia: Canale Monterano
+Indirizzo: Via del Pero, 1, 00062 Bracciano RM
+Coordinate: Lat 42.094261, Lng 12.169129
+Website: https://www.villatoji.com/
+Email: 
+
+13586. Al Saraceno - Antica Dimora
+ID: c72e4e15-b2b6-43ea-b89b-ab8bfb89a887
+Slug: al-saraceno-antica-dimora-canaro
+Nome: Al Saraceno - Antica Dimora
+Comune / Provincia: Canaro
+Indirizzo: Via della Paglia, 26/A, 44121 Ferrara FE
+Coordinate: Lat 44.832378, Lng 11.624478
+Website: https://www.alsaracenoferrara.com/
+Email: 
+
+13587. Casaforte La Bastide
+ID: dfa16f21-5ab4-44ef-a817-d73a8038f666
+Slug: casaforte-la-bastide-canaro
+Nome: Casaforte La Bastide
+Comune / Provincia: Canaro
+Indirizzo: Via dei Calzolai, 457, 44123 Ferrara FE
+Coordinate: Lat 44.895959, Lng 11.655846
+Website: https://www.casafortelabastide.com/
+Email: 
+
+13588. Dimora della Ghiara
+ID: 273c4660-ccd0-453f-9a43-92bc1e1febd9
+Slug: dimora-della-ghiara-canaro
+Nome: Dimora della Ghiara
+Comune / Provincia: Canaro
+Indirizzo: Via Formignana, 21, 44121 Ferrara FE
+Coordinate: Lat 44.827974, Lng 11.631039
+Website: https://www.bedandbreakfastferraracentro.it/
+Email: 
+
+13589. Eco Rooms Ferrara - Affittacamere
+ID: 47864dd4-589e-4475-ab54-31b7eb650f7a
+Slug: eco-rooms-ferrara-affittacamere-canaro
+Nome: Eco Rooms Ferrara - Affittacamere
+Comune / Provincia: Canaro
+Indirizzo: Via del Gambero, 10, 44121 Ferrara FE
+Coordinate: Lat 44.836044, Lng 11.62315
+Website: http://www.ecoroomsferrara.it/
+Email: 
+
+13590. Albergo Azola
+ID: cd5b72aa-94a5-4874-9bac-bec174848e3b
+Slug: albergo-azola-canazei
+Nome: Albergo Azola
+Comune / Provincia: Canazei
+Indirizzo: Via de Piè, 7, 38032 Canazei TN
+Coordinate: Lat 46.479202, Lng 11.763211
+Website: http://www.azola.it/
+Email: 
+
+13591. Albergo Canazei
+ID: 3a714d7e-c529-45ff-af50-fa52a8523fbb
+Slug: albergo-canazei-canazei
+Nome: Albergo Canazei
+Comune / Provincia: Canazei
+Indirizzo: Via di Parèda, 34, 38032 Canazei TN
+Coordinate: Lat 46.474705, Lng 11.773016
+Website: http://www.albergocanazei.it/
+Email: 
+
+13592. Albergo Majorka
+ID: 1c3d71a6-914f-4c08-8272-33d2fed185a1
+Slug: albergo-majorka-canazei
+Nome: Albergo Majorka
+Comune / Provincia: Canazei
+Indirizzo: Via di Soraperra, 67, 38032 Alba TN
+Coordinate: Lat 46.4664, Lng 11.776367
+Website: http://www.albergomajorka.com/
+Email: 
+
+13593. Croce Bianca Leisure & Spa
+ID: 3fc6cb64-011e-4181-8677-a3be81c797a4
+Slug: croce-bianca-leisure-spa-canazei
+Nome: Croce Bianca Leisure & Spa
+Comune / Provincia: Canazei
+Indirizzo: Via Roma, 3, 38032 Canazei TN
+Coordinate: Lat 46.476448, Lng 11.77039
+Website: https://www.hotelcrocebianca.com/
+Email: 
+
+13594. Hotel Bellavista
+ID: ab0efda5-88f9-4b49-92c3-d321599a77bd
+Slug: hotel-bellavista-canazei
+Nome: Hotel Bellavista
+Comune / Provincia: Canazei
+Indirizzo: Str. Pordoi, 12, 38032 Canazei TN
+Coordinate: Lat 46.481531, Lng 11.787933
+Website: http://www.bellavistahotel.it/
+Email: 
+
+13595. Hotel Cesa Tyrol
+ID: 3b8c90fd-65e7-4666-a705-01e072bee4be
+Slug: hotel-cesa-tyrol-canazei
+Nome: Hotel Cesa Tyrol
+Comune / Provincia: Canazei
+Indirizzo: strada de la via della cascata, 2, 38032 Canazei TN
+Coordinate: Lat 46.478783, Lng 11.765207
+Website: https://www.hotelcesatyrol.com/
+Email: 
+
+13596. Hotel Cirelle
+ID: 5e418253-9da8-48ac-b5af-93539e62f5a1
+Slug: hotel-cirelle-canazei
+Nome: Hotel Cirelle
+Comune / Provincia: Canazei
+Indirizzo: Via Costa, 129, 38032 Canazei TN
+Coordinate: Lat 46.460626, Lng 11.784371
+Website: http://www.cirelle.it/
+Email: 
+
+13597. Hotel Dolomiti Canazei
+ID: 364091ad-66ce-4f69-8069-be5514b5521e
+Slug: hotel-dolomiti-canazei-canazei
+Nome: Hotel Dolomiti Canazei
+Comune / Provincia: Canazei
+Indirizzo: Strada Dolomites, 80, 38032 Canazei TN
+Coordinate: Lat 46.477036, Lng 11.769634
+Website: https://hoteldolomiticanazei.it/
+Email: 
+
+13598. Hotel El Ciasel
+ID: 4872ed65-5e53-4bcd-88d3-bdce6b82b7e0
+Slug: hotel-el-ciasel-canazei
+Nome: Hotel El Ciasel
+Comune / Provincia: Canazei
+Indirizzo: Streda de Col de Pin, 2/4, 38032 Canazei TN
+Coordinate: Lat 46.472345, Lng 11.777447
+Website: http://www.hotelelciasel.it/
+Email: 
+
+13599. Hotel Gries
+ID: 90705cb0-6c25-4d8c-9e34-5efc00c6a392
+Slug: hotel-gries-canazei
+Nome: Hotel Gries
+Comune / Provincia: Canazei
+Indirizzo: Strèda dò Ruf de Soracrepa, 24, 38032 Canazei TN
+Coordinate: Lat 46.476933, Lng 11.763562
+Website: http://www.hotelgries.it/
+Email: 
+
+13600. Hotel Il Caminetto Canazei
+ID: cf8ec17a-6199-410d-8656-ceb00fd74b1a
+Slug: hotel-il-caminetto-canazei-canazei
+Nome: Hotel Il Caminetto Canazei
+Comune / Provincia: Canazei
+Indirizzo: Strada Dolomites, 3, 38032 Canazei TN
+Coordinate: Lat 46.479391, Lng 11.758147
+Website: https://hotelcaminettocanazei.it/
+Email: 
+
+13601. Hotel Italia
+ID: c0354311-b51f-4f86-8476-7b9f86ec5de6
+Slug: hotel-italia-canazei
+Nome: Hotel Italia
+Comune / Provincia: Canazei
+Indirizzo: Via Dolomites, 120, 38032 Canazei TN
+Coordinate: Lat 46.476567, Lng 11.773343
+Website: https://www.hotelitalia.eu/
+Email: 
+
+13602. Hotel La Perla Wellness & Beauty
+ID: 1fd94769-bec2-48c5-b79d-fb9f5cee3b73
+Slug: hotel-la-perla-wellness-beauty-canazei
+Nome: Hotel La Perla Wellness & Beauty
+Comune / Provincia: Canazei
+Indirizzo: Strèda de, Via di Parèda, 22, 38032 Canazei TN
+Coordinate: Lat 46.47517, Lng 11.772408
+Website: https://hotellaperla.net/
+Email: 
+
+13603. Hotel Lupo Bianco
+ID: c38b0e04-9c2d-468c-9731-0dcfaea5d81f
+Slug: hotel-lupo-bianco-canazei
+Nome: Hotel Lupo Bianco
+Comune / Provincia: Canazei
+Indirizzo: Strada Dolomites, 5, 38032 Canazei TN
+Coordinate: Lat 46.490827, Lng 11.781372
+Website: https://www.hotellupobianco.it/
+Email: 
+
+13604. Hotel Pordoi
+ID: 69d4d718-4065-4bf6-9671-2d9ae153f69c
+Slug: hotel-pordoi-canazei
+Nome: Hotel Pordoi
+Comune / Provincia: Canazei
+Indirizzo: Passo Pordoi, 1, 38032 Canazei TN
+Coordinate: Lat 46.486389, Lng 11.800278
+Website: http://www.pordoi.com/
+Email: 
+
+13605. Hotel Villa Rosella
+ID: 9e1707d6-d6fd-40d2-bdfc-9ca691798706
+Slug: hotel-villa-rosella-canazei
+Nome: Hotel Villa Rosella
+Comune / Provincia: Canazei
+Indirizzo: Str. Pian Trevisan, 6, 38032 Canazei TN
+Coordinate: Lat 46.457544, Lng 11.791195
+Website: http://www.hotelvillarosella.it/
+Email: 
+
+13606. Hotel Villetta Maria Canazei
+ID: 716c75d1-1e1f-4adf-b57d-710ab608ba7e
+Slug: hotel-villetta-maria-canazei-canazei
+Nome: Hotel Villetta Maria Canazei
+Comune / Provincia: Canazei
+Indirizzo: Loc, Str. Pian Trevisan, 44, 38032 Penia TN
+Coordinate: Lat 46.462985, Lng 11.837012
+Website: https://hotelvillettamariacanazei.it/
+Email: 
+
+13607. Locanda degli Artisti Art Hotel Canazei
+ID: c71bc00c-8979-446f-91dd-5c30996fcee2
+Slug: locanda-degli-artisti-art-hotel-canazei-canazei
+Nome: Locanda degli Artisti Art Hotel Canazei
+Comune / Provincia: Canazei
+Indirizzo: Via Roma, 23, 38032 Canazei TN
+Coordinate: Lat 46.476292, Lng 11.767306
+Website: https://www.locandadegliartisti.art/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+13608. Stella Alpina
+ID: 244035e8-5fc6-43b1-af4a-9c539ea8d0f9
+Slug: stella-alpina-canazei
+Nome: Stella Alpina
+Comune / Provincia: Canazei
+Indirizzo: Lungo Rio di Antermont, 6, 38032 Canazei TN
+Coordinate: Lat 46.476926, Lng 11.774211
+Website: http://www.stella-alpina.net/
+Email: 
+
+13609. Aparthotel ParKHo
+ID: 74a1c2ad-d9a8-4cf8-8ec3-54cd35433391
+Slug: aparthotel-parkho-cancellara
+Nome: Aparthotel ParKHo
+Comune / Provincia: Cancellara
+Indirizzo: 4° piano Parcheggio Multipiano Ospedale San Carlo, Via dell'Ateneo Lucano, 85100 Potenza PZ
+Coordinate: Lat 40.649992, Lng 15.804798
+Website: http://www.hotelparkho.it/
+Email: 
+
+13610. Arizona Motel
+ID: ea53f064-c069-4360-a036-247851fe7388
+Slug: arizona-motel-cancello-ed-arnone
+Nome: Arizona Motel
+Comune / Provincia: Cancello ed Arnone
+Indirizzo: Via Macedonio, 81030 Castel Volturno CE
+Coordinate: Lat 41.015163, Lng 13.983593
+Website: https://www.arizonamotel.it/
+Email: 
+
+13611. Dama suites teverola
+ID: 1a559812-1701-411d-ad2e-de9ca289db74
+Slug: dama-suites-teverola-cancello-ed-arnone
+Nome: Dama suites teverola
+Comune / Provincia: Cancello ed Arnone
+Indirizzo: Strada nazionale Appia, 7bis 11.200, 81030 Teverola CE
+Coordinate: Lat 41.007398, Lng 14.213728
+Website: http://www.damasuites.it/
+Email: 
+
+13612. HOTEL 2000
+ID: 78dfc2c7-b75c-4e0e-933c-a1907228e9b4
+Slug: hotel-2000-cancello-ed-arnone
+Nome: HOTEL 2000
+Comune / Provincia: Cancello ed Arnone
+Indirizzo: Via, SP1, 384, 80014 Giugliano in Campania NA
+Coordinate: Lat 40.934091, Lng 14.061256
+Website: https://www.hotelsitaloweb.com/hotel-2000/
+Email: 
+
+13613. Hotel Ginepro 4 Stelle
+ID: b9550631-8e57-4895-b14a-8f9fbc776799
+Slug: hotel-ginepro-4-stelle-cancello-ed-arnone
+Nome: Hotel Ginepro 4 Stelle
+Comune / Provincia: Cancello ed Arnone
+Indirizzo: SP1, 102, 80019 Qualiano NA
+Coordinate: Lat 40.930976, Lng 14.127126
+Website: https://www.hotelgineproqualiano.it/
+Email: 
+
+13614. Hotel Joy
+ID: 56107c5f-246d-4777-bb6f-677315dd0699
+Slug: hotel-joy-cancello-ed-arnone
+Nome: Hotel Joy
+Comune / Provincia: Cancello ed Arnone
+Indirizzo: Via Napoli, 10, 81030 Castel Volturno CE
+Coordinate: Lat 40.987269, Lng 13.982353
+Website: http://www.hoteljoy.it/
+Email: 
+
+13615. Hotel Le Dune
+ID: 45721503-3983-4978-8372-edbdd7065310
+Slug: hotel-le-dune-cancello-ed-arnone
+Nome: Hotel Le Dune
+Comune / Provincia: Cancello ed Arnone
+Indirizzo: Via Domiziana, 973, 81030 Castel Volturno CE
+Coordinate: Lat 40.941557, Lng 14.017343
+Website: https://www.ledunehotel.com/
+Email: 

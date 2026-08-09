@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16906. Lilium Hotel Santorini
+ID: 02b54a42-72ca-492e-8e48-e9b7723f50ad
+Slug: lilium-hotel-santorini-santorini
+Nome: Lilium Hotel Santorini
+Comune / Provincia: Santorini
+Indirizzo: Fira, Φηρά 847 00
+Coordinate: Lat 36.39441, Lng 25.438231
+Website: https://www.liliumsantorini.com/
+Email: info@liliumsantorini.com
+
+16907. Petit Palace Suites
+ID: de9c5842-73d2-4411-85d1-79638f8c772b
+Slug: petit-palace-suites-santorini
+Nome: Petit Palace Suites
+Comune / Provincia: Santorini
+Indirizzo: Fira 847 00
+Coordinate: Lat 36.392255, Lng 25.438684
+Website: https://www.petitpalacesuites.gr/
+Email: info@petitpalace.gr
+
+16908. Santorini Luxury Suites - EXO
+ID: 92bf1c6d-c8b3-4abf-bf54-5e2ded82f89e
+Slug: santorini-luxury-suites-exo-santorini
+Nome: Santorini Luxury Suites - EXO
+Comune / Provincia: Santorini
+Indirizzo: Exo Gonia 847 00
+Coordinate: Lat 36.386796, Lng 25.461899
+Website: https://exosantorini.com/
+Email: 
+
+16909. Santorini Vinery Mansion
+ID: 80bfffd4-2c49-4664-b8b3-45d94d8283fc
+Slug: santorini-vinery-mansion-santorini
+Nome: Santorini Vinery Mansion
+Comune / Provincia: Santorini
+Indirizzo: Exo Gonia 847 00
+Coordinate: Lat 36.391138, Lng 25.470854
+Website: https://santorini-vinery-mansion.gr/
+Email: 
+
+16910. Smy Santorini Suites & Villas
+ID: 4294bf7e-84f8-451c-97a5-21dc1c1782ad
+Slug: smy-santorini-suites-villas-santorini
+Nome: Smy Santorini Suites & Villas
+Comune / Provincia: Santorini
+Indirizzo: Pyrgos Kallistis 847 00
+Coordinate: Lat 36.384091, Lng 25.44202
+Website: https://www.smyhotels.com/smy-santorini-suites--villas.html?utm_source=google&utm_medium=organic&utm_campaign=google-my-business&utm_term=google-local&utm_id=smy-santorini-suites
+Email: 
+
+16911. Villa Danezis
+ID: 30fc73be-f780-4382-bac3-a6c3baee6301
+Slug: villa-danezis-santorini
+Nome: Villa Danezis
+Comune / Provincia: Santorini
+Indirizzo: Epar.Od. Mesarias-Archeas Thiras, Thira 847 00
+Coordinate: Lat 36.394404, Lng 25.445919
+Website: https://hotelscheck-in.com/villadanezis/en/
+Email: 
+
+16912. Villa Manos
+ID: 907fd71a-17f7-4b1d-b783-34d94dbaee9e
+Slug: villa-manos-santorini
+Nome: Villa Manos
+Comune / Provincia: Santorini
+Indirizzo: Karterádos 847 00
+Coordinate: Lat 36.406946, Lng 25.447168
+Website: http://www.villamanos.gr/
+Email: 
+
+16913. 14bnb
+ID: e3624a2a-7ab9-40e5-a61e-edff440a6a41
+Slug: 14bnb-sassari
+Nome: 14bnb
+Comune / Provincia: Sassari
+Indirizzo: Via Giorgio Asproni, 14b, 07100 Sassari SS, Italia
+Coordinate: Lat 40.721401, Lng 8.565683
+Website: http://14bnb.it/
+Email: raimondo.rizzu@14bnb.it
+
+16914. B.I.C. (bnb in centro)
+ID: 0d92eb6e-e9aa-4f09-ad92-8b9299ba7460
+Slug: b-i-c-bnb-in-centro-sassari
+Nome: B.I.C. (bnb in centro)
+Comune / Provincia: Sassari
+Indirizzo: Via Usai, 19, 07100 Sassari SS, Italia
+Coordinate: Lat 40.727072, Lng 8.562983
+Website: https://checkrooms.eu/bic-bnb-in-centro-sassari
+Email: 
+
+16915. B&B 2000 - Bed and Breakfast
+ID: d467b84f-5e91-4df6-b59b-61f41528c2ef
+Slug: b-b-2000-bed-and-breakfast-sassari
+Nome: B&B 2000 - Bed and Breakfast
+Comune / Provincia: Sassari
+Indirizzo: V. Giovanni Maria Angioy, 55, 07100 Sassari SS, Italia
+Coordinate: Lat 40.723759, Lng 8.554442
+Website: http://www.beb2000.it/
+Email: 
+
+16916. B&B Dell' Abbaddu
+ID: ae2902d2-773c-43fd-9bd0-0b9bee4bce7b
+Slug: b-b-dell-abbaddu-sassari
+Nome: B&B Dell' Abbaddu
+Comune / Provincia: Sassari
+Indirizzo: Via Abbadu, 13, 07100 Sassari SS, Italia
+Coordinate: Lat 40.730302, Lng 8.558813
+Website: https://www.hotelsitaloweb.com/bb-dell-abbaddu/
+Email: 
+
+16917. B&B HOTEL Sassari
+ID: d93793f5-9cc6-4e62-861f-edc8dc83f2a1
+Slug: b-b-hotel-sassari-sassari
+Nome: B&B HOTEL Sassari
+Comune / Provincia: Sassari
+Indirizzo: Via Padre Zirano, 5, 07100 Sassari SS, Italia
+Coordinate: Lat 40.726462, Lng 8.553142
+Website: https://www.hotel-bb.com/it/hotel/sassari?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext
+Email: 
+
+16918. B&B La Terrazza di Anna
+ID: b8a61f47-3fb3-4248-9b80-78f9d076078f
+Slug: b-b-la-terrazza-di-anna-sassari
+Nome: B&B La Terrazza di Anna
+Comune / Provincia: Sassari
+Indirizzo: Viale Italia, 3, 07100 Sassari SS, Italia
+Coordinate: Lat 40.722212, Lng 8.559294
+Website: https://guestcentre.eu/la-terrazza-di-anna-sassari-italy
+Email: support@localsmalltour.com
+
+16919. B&B Viale Italia Boutique Rooms
+ID: 9001b2ed-b72b-4503-9dcb-28a2d1d49d8e
+Slug: b-b-viale-italia-boutique-rooms-sassari
+Nome: B&B Viale Italia Boutique Rooms
+Comune / Provincia: Sassari
+Indirizzo: Viale Italia, 50b, 07100 Sassari SS, Italia
+Coordinate: Lat 40.718714, Lng 8.556205
+Website: —
+Email: 
+
+16920. Bed and Breakfast la casa di Atena
+ID: 483c4dcb-2d62-4fd6-a42d-42f51ad9dd0d
+Slug: bed-and-breakfast-la-casa-di-atena-sassari
+Nome: Bed and Breakfast la casa di Atena
+Comune / Provincia: Sassari
+Indirizzo: Via Paolo Bentivoglio, 2, 07100 Sassari SS, Italia
+Coordinate: Lat 40.716527, Lng 8.567174
+Website: —
+Email: 
+
+16921. Bed and Breakfast Sogno Allegro a Sassari
+ID: 1e6012c6-54f9-4e6e-8096-f26af08ea8df
+Slug: bed-and-breakfast-sogno-allegro-a-sassari-sassari
+Nome: Bed and Breakfast Sogno Allegro a Sassari
+Comune / Provincia: Sassari
+Indirizzo: Via Gorizia, 3, 07100 Sassari SS, Italia
+Coordinate: Lat 40.727466, Lng 8.570278
+Website: http://www.sognoallegro.it/
+Email: infosognoallegro@gmail.com
+
+16922. Bed And Breakfast Torre Tonda
+ID: 537b6780-d313-4b2e-91bd-a5752a5639fc
+Slug: bed-and-breakfast-torre-tonda-sassari
+Nome: Bed And Breakfast Torre Tonda
+Comune / Provincia: Sassari
+Indirizzo: Via Arborea, 6/A, 07100 Sassari SS, Italia
+Coordinate: Lat 40.725571, Lng 8.561661
+Website: http://wwe.bedandbreakfastsassari.com/
+Email: 
+
+16923. Bed&Breakfast Sassari-in
+ID: 1fcd99ee-714f-4c0d-9a20-f52b88f3aa89
+Slug: bed-breakfast-sassari-in-sassari
+Nome: Bed&Breakfast Sassari-in
+Comune / Provincia: Sassari
+Indirizzo: Via Insinuazione, 20, 07100 Sassari SS, Italia
+Coordinate: Lat 40.72681, Lng 8.560462
+Website: http://www.sassari-in.it/
+Email: 
+
+16924. Casa Ariston
+ID: 06d8c019-2b05-48bf-99ab-6ebaadcc231d
+Slug: casa-ariston-sassari
+Nome: Casa Ariston
+Comune / Provincia: Sassari
+Indirizzo: Viale Trento, 5, 07100 Sassari SS, Italia
+Coordinate: Lat 40.726464, Lng 8.568106
+Website: https://casaariston.com/it_it/
+Email: 
+
+16925. Hotel Marini
+ID: 0d6e789c-8063-407c-8559-9502b2d70b67
+Slug: hotel-marini-sassari
+Nome: Hotel Marini
+Comune / Provincia: Sassari
+Indirizzo: Via Pietro Nenni, 2, 07100 Sassari SS, Italia
+Coordinate: Lat 40.715781, Lng 8.58353
+Website: http://www.hotelmarini.com/
+Email: info@hotelmarini.com
+
+16926. Locanda Carra Manna
+ID: b444a1f2-f834-493b-b45b-9981bb5107aa
+Slug: locanda-carra-manna-sassari
+Nome: Locanda Carra Manna
+Comune / Provincia: Sassari
+Indirizzo: Via Cetti, 10, Vicolo Palazzo Civico, 16, 07100 Sassari SS, Italia
+Coordinate: Lat 40.728303, Lng 8.560554
+Website: http://www.locandacarramanna.com/
+Email: 
+
+16927. Morfeo Bed and Breakfast
+ID: 20a107f3-e39b-41fc-bc10-7739475807f9
+Slug: morfeo-bed-and-breakfast-sassari
+Nome: Morfeo Bed and Breakfast
+Comune / Provincia: Sassari
+Indirizzo: Viale Pasquale Stanislao Mancini, 17, 07100 Sassari SS, Italia
+Coordinate: Lat 40.723111, Lng 8.559131
+Website: https://www.morfeobedandbreakfast.com/
+Email: 
+
+16928. Parco delle Valli
+ID: e03979f0-142b-4950-b7d4-d4e22149486c
+Slug: parco-delle-valli-sassari
+Nome: Parco delle Valli
+Comune / Provincia: Sassari
+Indirizzo: Via Valle Gardona, 16, 07100 Sassari SS, Italia
+Coordinate: Lat 40.711008, Lng 8.562577
+Website: http://parco-delle-valli.com.es/
+Email: 
+
+16929. Piazza Azuni 18 Guest House a Sassari
+ID: db56267c-5276-49c4-813d-c3b9821609e1
+Slug: piazza-azuni-18-guest-house-a-sassari-sassari
+Nome: Piazza Azuni 18 Guest House a Sassari
+Comune / Provincia: Sassari
+Indirizzo: Piazza Domenico Alberto Azuni, 18, 07100 Sassari SS, Italia
+Coordinate: Lat 40.727262, Lng 8.561257
+Website: http://piazzaazuni18.octosite.net/
+Email: 
+
+16930. Santa Elisabetta1 appartamento
+ID: 18d1d9e3-3272-4eea-bd31-f68bea34d4aa
+Slug: santa-elisabetta1-appartamento-sassari
+Nome: Santa Elisabetta1 appartamento
+Comune / Provincia: Sassari
+Indirizzo: Via Sant'Elisabetta, 1, 07100 Sassari SS, Italia
+Coordinate: Lat 40.726276, Lng 8.555759
+Website: —
+Email: 
+
+16931. Umberto 28 Guest House
+ID: b6a158bb-0475-4855-82b2-b6ad75047478
+Slug: umberto-28-guest-house-sassari
+Nome: Umberto 28 Guest House
+Comune / Provincia: Sassari
+Indirizzo: Viale Umberto I, 28, 07100 Sassari SS, Italia
+Coordinate: Lat 40.726861, Lng 8.564637
+Website: —
+Email: 
+
+16932. APA Hotel Nishi Shinjuku Gochome Eki Tower
+ID: 055c2071-7a39-42d5-866b-8195dafa2520
+Slug: apa-hotel-nishi-shinjuku-gochome-eki-tower-tokyo
+Nome: APA Hotel Nishi Shinjuku Gochome Eki Tower
+Comune / Provincia: Tokyo
+Indirizzo: 3-chōme-14-1 Honmachi, Shibuya, Tokyo 151-0071
+Coordinate: Lat 35.68975, Lng 139.683484
+Website: https://www.apahotel.com/resort/nishishinjuku-tower/?utm_source=google&utm_medium=maps
+Email: 
+
+16933. Cerulean Tower Tokyu Hotel
+ID: 8aaa1b21-e844-4785-8d6f-770395c629dd
+Slug: cerulean-tower-tokyu-hotel-tokyo
+Nome: Cerulean Tower Tokyu Hotel
+Comune / Provincia: Tokyo
+Indirizzo: 26-1 Sakuragaokachō, Shibuya, Tokyo 150-8512
+Coordinate: Lat 35.656409, Lng 139.699354
+Website: https://www.tokyuhotels.co.jp/cerulean-h/
+Email: 
+
+16934. Daiwa Roynet Hotel Nishi-Shinjuku Premier
+ID: 3f850acc-46cd-4557-a153-708aa7b38997
+Slug: daiwa-roynet-hotel-nishi-shinjuku-premier-tokyo
+Nome: Daiwa Roynet Hotel Nishi-Shinjuku Premier
+Comune / Provincia: Tokyo
+Indirizzo: 6-chōme-12-39 Nishishinjuku, Shinjuku City, Tokyo 160-0023
+Coordinate: Lat 35.694311, Lng 139.689374
+Website: https://www.daiwaroynet.jp/nishi-shinjuku/
+Email: 
+
+16935. Himalaya Cloud Hotel
+ID: f0e133bf-4198-415b-b351-b9262d54ef77
+Slug: himalaya-cloud-hotel-tokyo
+Nome: Himalaya Cloud Hotel
+Comune / Provincia: Tokyo
+Indirizzo: 2-chōme-30-2 Hatagaya, Shibuya, Tokyo 151-0072
+Coordinate: Lat 35.675905, Lng 139.671346
+Website: https://himalaya-cloud-hotel.com/
+Email: 
+
+16936. Hotel Bougainvillea Shinjuku
+ID: cbc167ab-3df1-477d-a0a5-76d08605817b
+Slug: hotel-bougainvillea-shinjuku-tokyo
+Nome: Hotel Bougainvillea Shinjuku
+Comune / Provincia: Tokyo
+Indirizzo: 1-chōme-61-8 Sasazuka, Shibuya, Tokyo 151-0073
+Coordinate: Lat 35.673057, Lng 139.663416
+Website: https://hpdsp.jp/bougain-shinjuku/
+Email: 
+
+16937. Hotel Indigo Tokyo Shibuya by IHG
+ID: ee5b2fb4-eb52-4edf-9797-1fe1f171fbae
+Slug: hotel-indigo-tokyo-shibuya-by-ihg-tokyo
+Nome: Hotel Indigo Tokyo Shibuya by IHG
+Comune / Provincia: Tokyo
+Indirizzo: 2-chōme-25-12 Dōgenzaka, Shibuya, Tokyo 150-0043
+Coordinate: Lat 35.660076, Lng 139.697184
+Website: https://www.ihg.com/hotelindigo/hotels/us/en/shibuyaku/hndsh/hoteldetail?cm_mmc=GoogleMaps-_-IN-_-JP-_-HNDSH
+Email: 
+
+16938. HOTEL MYSTAYS Nishi Shinjuku
+ID: f5b8123c-098a-4802-9a92-b3ad7cda84c8
+Slug: hotel-mystays-nishi-shinjuku-tokyo
+Nome: HOTEL MYSTAYS Nishi Shinjuku
+Comune / Provincia: Tokyo
+Indirizzo: 7-chōme-14-14 Nishishinjuku, Shinjuku City, Tokyo 160-0023
+Coordinate: Lat 35.694925, Lng 139.69732
+Website: https://iconia.co.jp/hotel-mystays-nishi-shinjuku-tokyo/?utm_source=google&utm_medium=GBP&utm_campaign=MSNishiShinjuku
+Email: 
+
+16939. Hotel Rose Garden Shinjuku
+ID: 0496c549-e835-4891-bd8d-20f455c9b3f0
+Slug: hotel-rose-garden-shinjuku-tokyo
+Nome: Hotel Rose Garden Shinjuku
+Comune / Provincia: Tokyo
+Indirizzo: 8-chōme-1-3 Nishishinjuku, Shinjuku City, Tokyo 160-0023
+Coordinate: Lat 35.694452, Lng 139.693706
+Website: http://www.hotel-rosegarden.jp/
+Email: 
+
+16940. Hotel Route Inn Tokyo Asagaya
+ID: 760e87a1-5547-4a8c-999f-6618ddce8df6
+Slug: hotel-route-inn-tokyo-asagaya-tokyo
+Nome: Hotel Route Inn Tokyo Asagaya
+Comune / Provincia: Tokyo
+Indirizzo: 5-chōme-35-14 Naritahigashi, Suginami City, Tokyo 166-0015
+Coordinate: Lat 35.699983, Lng 139.633413
+Website: https://www.route-inn.co.jp/hotel_list/tokyo/index_hotel_id_599/?utm_source=google&utm_medium=gbp&utm_campaign=web
+Email: 

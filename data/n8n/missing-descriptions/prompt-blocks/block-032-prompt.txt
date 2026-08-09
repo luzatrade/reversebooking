@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+1086. Pietre Gemelle Resort
+ID: 1c9bdc56-fe0e-4db5-9495-ccadb2bab8a0
+Slug: pietre-gemelle-resort-alagna
+Nome: Pietre Gemelle Resort
+Comune / Provincia: Alagna
+Indirizzo: Località, Via Pietre Gemelle, 13021 Riva Valdobbia VC
+Coordinate: Lat 45.837186, Lng 7.948544
+Website: http://www.pietregemelle.it/
+Email: 
+
+1087. Residence Indren Hus
+ID: 9245ba64-3e1c-4fd9-b325-f69a49f04805
+Slug: residence-indren-hus-alagna
+Nome: Residence Indren Hus
+Comune / Provincia: Alagna
+Indirizzo: Via dei Walser, 18, 13021 Alagna Valsesia VC
+Coordinate: Lat 45.850903, Lng 7.93751
+Website: https://www.indrenhus.it/
+Email: 
+
+1088. Residence Kalipe
+ID: 3439e652-c899-45aa-9cb9-58af63506de2
+Slug: residence-kalipe-alagna
+Nome: Residence Kalipe
+Comune / Provincia: Alagna
+Indirizzo: Via dei Walser, 14, 13021 Alagna Valsesia VC
+Coordinate: Lat 45.851611, Lng 7.937544
+Website: —
+Email: 
+
+1089. Residence Mary di Ferraris Stefania
+ID: 3fc831ab-ac9a-4cd1-97d6-40ce07729104
+Slug: residence-mary-di-ferraris-stefania-alagna
+Nome: Residence Mary di Ferraris Stefania
+Comune / Provincia: Alagna
+Indirizzo: Frazione alla Chiesa, 1, 13021 Alagna Valsesia VC
+Coordinate: Lat 45.854149, Lng 7.937442
+Website: http://www.residencemary.it/privacy.html
+Email: 
+
+1090. Rifugio Casa Lobietti
+ID: 8e15153c-50e0-43b6-b770-8652e4560226
+Slug: rifugio-casa-lobietti-alagna
+Nome: Rifugio Casa Lobietti
+Comune / Provincia: Alagna
+Indirizzo: Otra Sesia, 4, 13020 Mollia VC
+Coordinate: Lat 45.818302, Lng 8.000714
+Website: https://casalobietti.com/
+Email: 
+
+1091. Tre Alberi Liberi
+ID: 862b05fe-2930-490c-8668-e09f63028e44
+Slug: tre-alberi-liberi-alagna
+Nome: Tre Alberi Liberi
+Comune / Provincia: Alagna
+Indirizzo: Via Nicolao Sottile, 7, 13021 Riva Valdobbia VC
+Coordinate: Lat 45.832915, Lng 7.954333
+Website: http://www.trealberiliberi.it/
+Email: 
+
+1092. Zimmer Casa Prati di Marisa Castagnola
+ID: ccc7341e-0356-41dc-afb7-e94d1e2b83cf
+Slug: zimmer-casa-prati-di-marisa-castagnola-alagna
+Nome: Zimmer Casa Prati di Marisa Castagnola
+Comune / Provincia: Alagna
+Indirizzo: 13021 Alagna Valsesia VC
+Coordinate: Lat 45.85652, Lng 7.936041
+Website: http://www.zimmercasaprati.com/
+Email: 
+
+1093. Appartamenti Baita Reale
+ID: 6164f0a5-eb0e-43f9-b8c0-20746674361a
+Slug: appartamenti-baita-reale-alagna-valsesia
+Nome: Appartamenti Baita Reale
+Comune / Provincia: Alagna Valsesia
+Indirizzo: Frazione reale inferiore, 6, 13021 Alagna Valsesia VC
+Coordinate: Lat 45.851097, Lng 7.936685
+Website: http://www.baitemonterosa.com/
+Email: 
+
+1094. B&B La posa sul lago
+ID: 1fd36310-8cb7-453f-a568-a548a4572ef6
+Slug: b-b-la-posa-sul-lago-alagna-valsesia
+Nome: B&B La posa sul lago
+Comune / Provincia: Alagna Valsesia
+Indirizzo: Regione Santa Croce, 4, SP11, 13029 Rimasco VC
+Coordinate: Lat 45.859871, Lng 8.06358
+Website: http://la-posa-sul-lago.com.es/
+Email: 
+
+1095. Chalet du Lys
+ID: f374f580-e337-4a3b-a814-ffeb78ea9099
+Slug: chalet-du-lys-alagna-valsesia
+Nome: Chalet du Lys
+Comune / Provincia: Alagna Valsesia
+Indirizzo: Località Staffal, 14, 11020 Tache AO
+Coordinate: Lat 45.859383, Lng 7.811704
+Website: https://chaletdulys.it/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+1096. Ellex
+ID: 492f9480-24bb-4d2a-a223-b2b04530f1e6
+Slug: ellex-alagna-valsesia
+Nome: Ellex
+Comune / Provincia: Alagna Valsesia
+Indirizzo: Localita' Tschaval, 6, 11020 Gressoney-La-Trinité AO
+Coordinate: Lat 45.859707, Lng 7.813514
+Website: http://www.ellexhotel.it/
+Email: 
+
+1097. Hotel Dufour
+ID: 8048c43b-3bc2-4a9e-989f-ebcd7c828f48
+Slug: hotel-dufour-alagna-valsesia
+Nome: Hotel Dufour
+Comune / Provincia: Alagna Valsesia
+Indirizzo: Località Edelboden Superiore, 34, 11020 Tache AO
+Coordinate: Lat 45.831246, Lng 7.822919
+Website: http://www.hoteldufour.it/
+Email: 
+
+1098. Hotel Lo Scoiattolo
+ID: 0ad1c319-1031-492c-bb3c-6bd80e01a86a
+Slug: hotel-lo-scoiattolo-alagna-valsesia
+Nome: Hotel Lo Scoiattolo
+Comune / Provincia: Alagna Valsesia
+Indirizzo: Località Tache, 6, 11020 Gressoney-La-Trinité AO
+Coordinate: Lat 45.826702, Lng 7.823449
+Website: http://www.htlscoiattolo.com/
+Email: 
+
+1099. Hotel Lysjoch
+ID: 30753380-6d52-4112-b81e-13eff28f6c3d
+Slug: hotel-lysjoch-alagna-valsesia
+Nome: Hotel Lysjoch
+Comune / Provincia: Alagna Valsesia
+Indirizzo: Loc. Fohre 4, Localita' Fohre, 4, 11020 Tache AO
+Coordinate: Lat 45.840445, Lng 7.816
+Website: http://www.lysjoch.it/
+Email: 
+
+1100. Hotel Residence Valverde
+ID: 812cc72f-faa2-48ea-a9b2-a0493bdaecd0
+Slug: hotel-residence-valverde-alagna-valsesia
+Nome: Hotel Residence Valverde
+Comune / Provincia: Alagna Valsesia
+Indirizzo: Località Edelboden Superiore, 30, 11020 Gressoney-La-Trinité AO
+Coordinate: Lat 45.831607, Lng 7.823791
+Website: https://www.hotelresidencevalverde.it/
+Email: 
+
+1101. Residence Walsertal
+ID: cc2632af-f7f8-4a99-bff0-ceaf7536a16e
+Slug: residence-walsertal-alagna-valsesia
+Nome: Residence Walsertal
+Comune / Provincia: Alagna Valsesia
+Indirizzo: 1 , Gressoney-La-Trinité Aosta Valley, Italia, 11020 Tschaval AO
+Coordinate: Lat 45.860238, Lng 7.81273
+Website: http://www.residence-walsertal.com/
+Email: 
+
+1102. Abruzzo Borgo
+ID: 5610312a-4328-45b2-86e1-e57db2c10ec6
+Slug: abruzzo-borgo-alanno
+Nome: Abruzzo Borgo
+Comune / Provincia: Alanno
+Indirizzo: Via Piccianesi, 75, 65020 Alanno PE
+Coordinate: Lat 42.28981, Lng 13.949461
+Website: http://abruzzoborgo.com/
+Email: 
+
+1103. Agriturismo La Masseria
+ID: 3bac337a-03a2-4935-aadf-eaf3508dfb30
+Slug: agriturismo-la-masseria-alanno
+Nome: Agriturismo La Masseria
+Comune / Provincia: Alanno
+Indirizzo: Via Prati, 56, 65020 Alanno PE
+Coordinate: Lat 42.293557, Lng 13.943455
+Website: http://www.agriturismolamasseria.com/
+Email: 
+
+1104. Aron Only Suites B&B Pescara
+ID: 8f2a6772-6692-4388-87c2-4f8f7e91134c
+Slug: aron-only-suites-b-b-pescara-alanno
+Nome: Aron Only Suites B&B Pescara
+Comune / Provincia: Alanno
+Indirizzo: Viale Regina Elena, 20, 65122 Piano Primo PE
+Coordinate: Lat 42.473219, Lng 14.209961
+Website: http://www.arononlysuitespescara.it/
+Email: 
+
+1105. B&B Cuore Verde
+ID: c0f35dfd-1d95-4a9b-bb9c-29cd939b9d30
+Slug: b-b-cuore-verde-alanno
+Nome: B&B Cuore Verde
+Comune / Provincia: Alanno
+Indirizzo: Via Prati, 51, 65020, CIN:IT068002C1LT09UQLQ Alanno PE
+Coordinate: Lat 42.292356, Lng 13.942905
+Website: https://bbcuoreverde.altervista.org/
+Email: 
+
+1106. B&B Il Sogno
+ID: bbf97365-69b3-434d-baa1-aa9f6de3865f
+Slug: b-b-il-sogno-alanno
+Nome: B&B Il Sogno
+Comune / Provincia: Alanno
+Indirizzo: Via Sopportico, Via Educandato, 8, 66100 Chieti CH
+Coordinate: Lat 42.351617, Lng 14.169668
+Website: https://beb.it/ilsognochieti
+Email: 
+
+1107. Casa Aurora B&B
+ID: 804ddf72-cfad-4541-b8fa-11811905fa18
+Slug: casa-aurora-b-b-alanno
+Nome: Casa Aurora B&B
+Comune / Provincia: Alanno
+Indirizzo: Viale B. Croce, 180, 66100 Scalo, CH
+Coordinate: Lat 42.362869, Lng 14.140993
+Website: https://www.casaaurora.it/
+Email: 
+
+1108. Halanus Agriexperience
+ID: d7ce19c9-ec21-4b9f-b0f5-0fe1c3dee5a7
+Slug: halanus-agriexperience-alanno
+Nome: Halanus Agriexperience
+Comune / Provincia: Alanno
+Indirizzo: Via Gabriele d'Annunzio, 54A, 65020 Alanno PE
+Coordinate: Lat 42.296423, Lng 13.978765
+Website: https://agriexperience.halanus.com/
+Email: 
+
+1109. Halanus Hotel & Resort
+ID: 267bd860-12eb-492b-89ef-ac3457a934e6
+Slug: halanus-hotel-resort-alanno
+Nome: Halanus Hotel & Resort
+Comune / Provincia: Alanno
+Indirizzo: Via Paolo Borsellino, 16, 65020 Alanno Scalo PE
+Coordinate: Lat 42.290603, Lng 14.004073
+Website: http://www.halanus.com/
+Email: 
+
+1110. Hotel Villa Alessandra
+ID: de02a176-5810-4ee1-a191-3b9e6dc33036
+Slug: hotel-villa-alessandra-alanno
+Nome: Hotel Villa Alessandra
+Comune / Provincia: Alanno
+Indirizzo: Via Gabriele d'Annunzio, 15, 65020 Alanno PE
+Coordinate: Lat 42.295853, Lng 13.974328
+Website: https://hotel-villa-alessandra.mipiacelitalia.top/
+Email: 
+
+1111. La Piccola Oasi
+ID: d6d8dd2c-bbe0-4819-b24f-8a53a58b9a9f
+Slug: la-piccola-oasi-alanno
+Nome: La Piccola Oasi
+Comune / Provincia: Alanno
+Indirizzo: Via dei Vestini, 70/b, 66100 Chieti CH
+Coordinate: Lat 42.366736, Lng 14.154693
+Website: https://www.bblapiccolaoasi.it/
+Email: 
+
+1112. Mary's Dream
+ID: f749c23b-769e-4fa6-b962-826edc3ba06b
+Slug: mary-s-dream-alanno
+Nome: Mary's Dream
+Comune / Provincia: Alanno
+Indirizzo: Via Circonvallazione, 24, 65020 Lettomanoppello PE
+Coordinate: Lat 42.235982, Lng 14.03766
+Website: https://www.marysdream.it/
+Email: 
+
+1113. Oasi Macerina
+ID: df1776d8-16d1-441c-9ff3-1f7146ca583e
+Slug: oasi-macerina-alanno
+Nome: Oasi Macerina
+Comune / Provincia: Alanno
+Indirizzo: Via Macerino, 16, 65020 Alanno PE
+Coordinate: Lat 42.297725, Lng 13.971834
+Website: https://liveit.cyou/oasi-macerina-79cqif
+Email: 
+
+1114. resort regis
+ID: adc04880-3f2f-45db-b604-7d6c46b262c9
+Slug: resort-regis-alanno
+Nome: resort regis
+Comune / Provincia: Alanno
+Indirizzo: Via Pescarina, 1, 65020 Turrivalignani PE
+Coordinate: Lat 42.267113, Lng 14.012272
+Website: —
+Email: 
+
+1115. Villa Tra Mare e Monti
+ID: 0f801c2f-195c-4322-9aa7-0366b4cb21f2
+Slug: villa-tra-mare-e-monti-alanno
+Nome: Villa Tra Mare e Monti
+Comune / Provincia: Alanno
+Indirizzo: Via Sant'Agata, 39, 65020 Alanno PE
+Coordinate: Lat 42.307475, Lng 13.974952
+Website: —
+Email: 
+
+1116. Albergo Primula
+ID: 0b681d9f-9bc4-4977-be16-beccd8eab03e
+Slug: albergo-primula-alassio
+Nome: Albergo Primula
+Comune / Provincia: Alassio
+Indirizzo: Vico Sant'Erasmo, 4, 17021 Alassio SV
+Coordinate: Lat 44.014328, Lng 8.180857
+Website: https://www.hotelprimulaalassio.it/
+Email: 
+
+1117. Allegroitalia Alassio Rosa
+ID: c1b35bec-52c2-4894-a3a0-ee6b7f598d38
+Slug: allegroitalia-alassio-rosa-alassio
+Nome: Allegroitalia Alassio Rosa
+Comune / Provincia: Alassio
+Indirizzo: Via Privata Maddalena Conti, 10, 17021 Alassio SV
+Coordinate: Lat 44.002139, Lng 8.168366
+Website: https://www.allegroitalia.it/allegroitalia-alassio-rosa/
+Email: 
+
+1118. B&B Hotel Bel Sit
+ID: d9024f90-bb20-428b-9d12-80c93e9f76cd
+Slug: b-b-hotel-bel-sit-alassio
+Nome: B&B Hotel Bel Sit
+Comune / Provincia: Alassio
+Indirizzo: Via Don Boselli, 28, 17021 Alassio SV
+Coordinate: Lat 44.000499, Lng 8.167904
+Website: https://www.belsitalassio.it/
+Email: 
+
+1119. Hotel Adler
+ID: 62870b21-b0b6-451b-bf4d-65594a6de02f
+Slug: hotel-adler-alassio
+Nome: Hotel Adler
+Comune / Provincia: Alassio
+Indirizzo: Via P. Ferreri, 77, 17021 Alassio SV
+Coordinate: Lat 44.002431, Lng 8.16537
+Website: —
+Email: 
+
+1120. Hotel Aida
+ID: 8c007db7-846c-4470-bba4-697f9684c352
+Slug: hotel-aida-alassio
+Nome: Hotel Aida
+Comune / Provincia: Alassio
+Indirizzo: Via Flavio Gioia, 25, 17021 Alassio SV
+Coordinate: Lat 44.003661, Lng 8.168233
+Website: http://www.hotelaida.it/
+Email: 

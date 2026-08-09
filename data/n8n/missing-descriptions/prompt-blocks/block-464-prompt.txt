@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16206. TENUTA CESARINA
+ID: b5feff94-115e-4b9e-8a26-47fbee948d79
+Slug: tenuta-cesarina-cesar
+Nome: TENUTA CESARINA
+Comune / Provincia: Cesar�
+Indirizzo: Contrada Trappeti, 73031 Alessano LE
+Coordinate: Lat 39.888889, Lng 18.317568
+Website: https://tenutacesarina.it/
+Email: 
+
+16207. Albergo Villa Nobile
+ID: 7251b20e-e9a5-4a5b-9192-20cca6acbe23
+Slug: albergo-villa-nobile-chiaramonte-gulfi
+Nome: Albergo Villa Nobile
+Comune / Provincia: Chiaramonte Gulfi
+Indirizzo: Corso Umberto I, 168, 97012 Chiaramonte Gulfi RG
+Coordinate: Lat 37.031278, Lng 14.697745
+Website: http://www.albergovillanobile.com/
+Email: 
+
+16208. Casa filu’
+ID: ec44cf22-090b-457a-a1a7-dd2870074516
+Slug: casa-filu-chiaramonte-gulfi
+Nome: Casa filu’
+Comune / Provincia: Chiaramonte Gulfi
+Indirizzo: C.da Giglia -Francesco, 2, 97012 Chiaramonte Gulfi RG
+Coordinate: Lat 37.04316, Lng 14.679752
+Website: —
+Email: 
+
+16209. Casavacanze Cappuccini
+ID: 581d0e8b-d61c-49cc-9fd5-a3a99aebd5df
+Slug: casavacanze-cappuccini-chiaramonte-gulfi
+Nome: Casavacanze Cappuccini
+Comune / Provincia: Chiaramonte Gulfi
+Indirizzo: Via Vincenzo Picardi, 7, 97100 Ragusa RG
+Coordinate: Lat 36.921844, Lng 14.729565
+Website: —
+Email: 
+
+16210. CATANIA - Historic B&B | Apartments | Home
+ID: b89a5ef0-322e-430c-936a-f7b289ee2bfc
+Slug: catania-historic-b-b-apartments-home-chiaramonte-gulfi
+Nome: CATANIA - Historic B&B | Apartments | Home
+Comune / Provincia: Chiaramonte Gulfi
+Indirizzo: Piazzetta Cutello, 18, 97012 Chiaramonte Gulfi RG
+Coordinate: Lat 37.031247, Lng 14.701812
+Website: —
+Email: 
+
+16211. De Stefano Palace Luxury Hotel
+ID: b1eb94f7-06e8-48c6-a8d1-4f4ab2bb73e9
+Slug: de-stefano-palace-luxury-hotel-chiaramonte-gulfi
+Nome: De Stefano Palace Luxury Hotel
+Comune / Provincia: Chiaramonte Gulfi
+Indirizzo: Via Cavalier Francesco Destefano, 15, 97100 Ragusa RG
+Coordinate: Lat 36.926655, Lng 14.732953
+Website: http://www.destefanopalace.com/
+Email: 
+
+16212. Hotel - Agriturismo: Relais Chiaramonte
+ID: 568e66e5-a4ee-4531-aa13-76a11656df77
+Slug: hotel-agriturismo-relais-chiaramonte-chiaramonte-gulfi
+Nome: Hotel - Agriturismo: Relais Chiaramonte
+Comune / Provincia: Chiaramonte Gulfi
+Indirizzo: Contrada Gisolfo, SP81, Km 7, 97100 Ragusa RG
+Coordinate: Lat 36.837688, Lng 14.641606
+Website: https://www.relaischiaramonte.com/
+Email: 
+
+16213. Hotel Antica Stazione
+ID: e9dda335-5792-4aa7-b923-18c20e8e4814
+Slug: hotel-antica-stazione-chiaramonte-gulfi
+Nome: Hotel Antica Stazione
+Comune / Provincia: Chiaramonte Gulfi
+Indirizzo: SP8, 97012 Chiaramonte Gulfi RG
+Coordinate: Lat 37.017862, Lng 14.713497
+Website: https://www.anticastazione.com/
+Email: 
+
+16214. Hotel Grel
+ID: a52fc590-876b-4274-b1bf-5cdea2505b3a
+Slug: hotel-grel-chiaramonte-gulfi
+Nome: Hotel Grel
+Comune / Provincia: Chiaramonte Gulfi
+Indirizzo: Contrada Pezze, 97012 Chiaramonte Gulfi RG
+Coordinate: Lat 37.033795, Lng 14.676024
+Website: http://www.hotelgrel.com/
+Email: 
+
+16215. Il Vespro
+ID: 1839cffe-6f2b-4cb3-81be-1427943faf3f
+Slug: il-vespro-chiaramonte-gulfi
+Nome: Il Vespro
+Comune / Provincia: Chiaramonte Gulfi
+Indirizzo: Via Puglie, Viale della Resistenza, 43, 97013 Comiso RG
+Coordinate: Lat 36.948763, Lng 14.604922
+Website: https://il-vespro.italiapaesaggiviaggi.top/
+Email: 
+
+16216. only for two giumbabulla home and spa
+ID: b75b59ce-ef4f-4e8c-8084-8dcca26f2e5b
+Slug: only-for-two-giumbabulla-home-and-spa-chiaramonte-gulfi
+Nome: only for two giumbabulla home and spa
+Comune / Provincia: Chiaramonte Gulfi
+Indirizzo: Via Sant'Alberto, 1, 97100 Ragusa RG
+Coordinate: Lat 36.924666, Lng 14.733653
+Website: http://www.onlyfortwogiumbabulla.it/
+Email: 
+
+16217. Ta' Marie B&B
+ID: 534e36e2-d8e0-4166-90a7-2040098eaa2b
+Slug: ta-marie-b-b-chiaramonte-gulfi
+Nome: Ta' Marie B&B
+Comune / Provincia: Chiaramonte Gulfi
+Indirizzo: Ta' Marie, Contrada Piante, 27, 97012 Roccazzo RG
+Coordinate: Lat 37.036129, Lng 14.633824
+Website: —
+Email: 
+
+16218. Terrazzani Suite
+ID: d21c06ae-20c1-45ea-81be-b0e808c3ae30
+Slug: terrazzani-suite-chiaramonte-gulfi
+Nome: Terrazzani Suite
+Comune / Provincia: Chiaramonte Gulfi
+Indirizzo: Via Matrice, 24, 97013 Comiso RG
+Coordinate: Lat 36.946253, Lng 14.603143
+Website: http://www.terrazzanisuite.com/
+Email: 
+
+16219. Agriturismo Casa Balata - Realmonte - Agrigento Valle dei Templi - Scala dei Turchi
+ID: d2e18a3d-c3c4-48b8-bb2c-a026a0af14e2
+Slug: agriturismo-casa-balata-realmonte-agrigento-vall-chiusa-sclafani
+Nome: Agriturismo Casa Balata - Realmonte - Agrigento Valle dei Templi - Scala dei Turchi
+Comune / Provincia: Chiusa Sclafani
+Indirizzo: Contrada Rina Cannameli 57, 92010 Realmonte AG
+Coordinate: Lat 37.32789, Lng 13.46092
+Website: https://www.casabalata.it/
+Email: 
+
+16220. Agriturismo Masseria Rossella
+ID: c9c0e0ea-8c28-4cb7-9e60-4198cb5f3e95
+Slug: agriturismo-masseria-rossella-chiusa-sclafani
+Nome: Agriturismo Masseria Rossella
+Comune / Provincia: Chiusa Sclafani
+Indirizzo: S.P. 5, Km 28,900, 90037 Rossella, PA
+Coordinate: Lat 37.947868, Lng 13.350711
+Website: http://www.masseria-rossella.com/
+Email: 
+
+16221. Fattoria Manostalla - Villa Chiarelli
+ID: 12663de5-b46f-40d6-9a05-2701748ff036
+Slug: fattoria-manostalla-villa-chiarelli-chiusa-sclafani
+Nome: Fattoria Manostalla - Villa Chiarelli
+Comune / Provincia: Chiusa Sclafani
+Indirizzo: Via Manostalla, snc, 90047, 90047 Partinico PA
+Coordinate: Lat 38.021507, Lng 12.987621
+Website: —
+Email: 
+
+16222. Il Ciliegio Locazione Turistica
+ID: c775f594-51bd-484d-a1a7-30e75d972a20
+Slug: il-ciliegio-locazione-turistica-chiusa-sclafani
+Nome: Il Ciliegio Locazione Turistica
+Comune / Provincia: Chiusa Sclafani
+Indirizzo: Via Ungheria, 99, 90033 Chiusa Sclafani PA
+Coordinate: Lat 37.680063, Lng 13.269465
+Website: https://www.ilciliegio-bandb.it/
+Email: 
+
+16223. Le Case di Cardellino - AgriSpa
+ID: e7d29ad5-84a2-48b6-9aeb-5b665ddb56e6
+Slug: le-case-di-cardellino-agrispa-chiusa-sclafani
+Nome: Le Case di Cardellino - AgriSpa
+Comune / Provincia: Chiusa Sclafani
+Indirizzo: Statale SS 120, KM 18+700, 90020 Sclafani Bagni PA
+Coordinate: Lat 37.847273, Lng 13.846567
+Website: http://www.lecasedicardellino.it/
+Email: 
+
+16224. Oscar dei Sapori
+ID: 4a99280e-3f61-4764-9b8e-e02172cd710b
+Slug: oscar-dei-sapori-chiusa-sclafani
+Nome: Oscar dei Sapori
+Comune / Provincia: Chiusa Sclafani
+Indirizzo: Contrada Calcara, 90033, 90030 Chiusa Sclafani PA
+Coordinate: Lat 37.684537, Lng 13.273792
+Website: —
+Email: 
+
+16225. B&B D'ALTRITEMPI - elegance in Cianciana
+ID: 47f3b3df-365d-48e4-bd91-713030b6b93c
+Slug: b-b-d-altritempi-elegance-in-cianciana-cianciana
+Nome: B&B D'ALTRITEMPI - elegance in Cianciana
+Comune / Provincia: Cianciana
+Indirizzo: Via Gioacchino Rossini, 28, 92012 Cianciana AG
+Coordinate: Lat 37.517055, Lng 13.435858
+Website: https://www.daltritempi.it/
+Email: 
+
+16226. Affittacamere
+ID: e44b3346-cda8-4d54-922e-25cd2971740a
+Slug: affittacamere-ciminna
+Nome: Affittacamere
+Comune / Provincia: Ciminna
+Indirizzo: Piazza Terme, 11, 90018 Termini Imerese PA
+Coordinate: Lat 37.986642, Lng 13.699857
+Website: —
+Email: 
+
+16227. Affittacamere Azzarello
+ID: f3424c03-2779-4934-8625-1781c4e9f0aa
+Slug: affittacamere-azzarello-ciminna
+Nome: Affittacamere Azzarello
+Comune / Provincia: Ciminna
+Indirizzo: Via Piani 32, 90019 Trabia PA
+Coordinate: Lat 38.009078, Lng 13.624703
+Website: https://homeit.cyou/affittacamere-azzarello-8doc6b
+Email: 
+
+16228. Casa Ennio by Villa Paola Ciminna
+ID: 16c30864-2c6e-4c00-8096-6e077bdc9ab9
+Slug: casa-ennio-by-villa-paola-ciminna-ciminna
+Nome: Casa Ennio by Villa Paola Ciminna
+Comune / Provincia: Ciminna
+Indirizzo: Corso Umberto I, 75, 90023 Ciminna PA
+Coordinate: Lat 37.896174, Lng 13.560558
+Website: https://www.airbnb.it/rooms/45554824?viralityEntryPoint=1&s=76
+Email: 
+
+16229. Elipa
+ID: c27ac41f-0ce0-432c-865a-c679a685f365
+Slug: elipa-ciminna
+Nome: Elipa
+Comune / Provincia: Ciminna
+Indirizzo: Via Alloro, 1, 90019 Trabia PA
+Coordinate: Lat 38.016385, Lng 13.612453
+Website: —
+Email: 
+
+16230. Fast Room
+ID: dd4e559a-d272-4c59-ad7c-ae9d1ccd526b
+Slug: fast-room-ciminna
+Nome: Fast Room
+Comune / Provincia: Ciminna
+Indirizzo: Corso Umberto I, 182, 90023 Ciminna PA
+Coordinate: Lat 37.897524, Lng 13.558446
+Website: https://ourstayexperience.eu/fast-room-italy
+Email: 
+
+16231. B&B Il Mare di Terrasini
+ID: fae12a17-a1d9-4c6e-ad4e-0c4be71d2371
+Slug: b-b-il-mare-di-terrasini-cinisi
+Nome: B&B Il Mare di Terrasini
+Comune / Provincia: Cinisi
+Indirizzo: Via Giuseppe Mazzini, 4, 90049 Terrasini PA
+Coordinate: Lat 38.152619, Lng 13.086185
+Website: http://www.bnbilmarediterrasini.com/
+Email: 
+
+16232. B&B Torre Pozzillo Beach
+ID: 42549e00-06b1-4981-a007-05b0a22e8fca
+Slug: b-b-torre-pozzillo-beach-cinisi
+Nome: B&B Torre Pozzillo Beach
+Comune / Provincia: Cinisi
+Indirizzo: Via Piraineto, 127, 90045 Cinisi PA
+Coordinate: Lat 38.183099, Lng 13.140342
+Website: —
+Email: 
+
+16233. Capo Rama Suites & Rooms
+ID: c9e52f2f-d7b5-440c-9fa0-8cf9b0aa0634
+Slug: capo-rama-suites-rooms-cinisi
+Nome: Capo Rama Suites & Rooms
+Comune / Provincia: Cinisi
+Indirizzo: Via Ruggero Settimo, 22, 90049 Terrasini PA
+Coordinate: Lat 38.152116, Lng 13.084398
+Website: https://caporamasuitesicily.com/
+Email: 
+
+16234. Cinisi 89 B&B
+ID: 97e91ad3-de52-40fe-a57f-038e648deb33
+Slug: cinisi-89-b-b-cinisi
+Nome: Cinisi 89 B&B
+Comune / Provincia: Cinisi
+Indirizzo: Via Luigi Einaudi, 89, 90045 Cinisi PA
+Coordinate: Lat 38.166806, Lng 13.109942
+Website: http://cinisi89bandb.wix.com/cinisi-89
+Email: 
+
+16235. Domus Livi
+ID: 973fd2ea-feef-4a2d-af56-b2f7666aeb8d
+Slug: domus-livi-cinisi
+Nome: Domus Livi
+Comune / Provincia: Cinisi
+Indirizzo: Via Venuti, 41, 90045 Cinisi PA
+Coordinate: Lat 38.155858, Lng 13.108492
+Website: https://domuslivi.weebly.com/
+Email: 
+
+16236. Kunesias B&B Cinisi
+ID: 029276a3-2179-45b8-9f9d-d6e33c09723f
+Slug: kunesias-b-b-cinisi-cinisi
+Nome: Kunesias B&B Cinisi
+Comune / Provincia: Cinisi
+Indirizzo: Via Salvatore Badalamenti, 246, 90045 Cinisi PA
+Coordinate: Lat 38.159301, Lng 13.103291
+Website: http://www.kunesias.com/
+Email: 
+
+16237. Le tre ninfe Cinisi
+ID: aa82c235-0264-46cd-8c64-98431958d0fd
+Slug: le-tre-ninfe-cinisi-cinisi
+Nome: Le tre ninfe Cinisi
+Comune / Provincia: Cinisi
+Indirizzo: Via Gorizia, 3, 90045 Cinisi PA
+Coordinate: Lat 38.155666, Lng 13.107815
+Website: http://cinisi.com.es/
+Email: 
+
+16238. Lucy's Cottage Cinisi
+ID: b1f0fba2-9caa-4e87-9dc7-98c4de39dd01
+Slug: lucy-s-cottage-cinisi-cinisi
+Nome: Lucy's Cottage Cinisi
+Comune / Provincia: Cinisi
+Indirizzo: Via Guglielmo Marconi, 21 M, 90045 Cinisi PA
+Coordinate: Lat 38.156195, Lng 13.095658
+Website: https://www.booking.com/hotel/it/lucy-39-s-cottage.it.html?aid=356934&label=metagha-link-LUIT-hotel-1371746_dev-desktop_los-1_bw-12_dow-Wednesday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-14530481938_mcid-50_ppa-1_clrid-0_ad-1_gstkid-0_checkin-20230222__lp-1008587_r-12340174371881484580&sid=3b5a65192c6c08d01c727fa5eac53724&all_sr_blocks=182290001_329727036_5_0_0;checkin=2023-02-22;checkout=2023-02-27;dest_id=-115569;dest_type=city;dist=0;group_adults=5;group_children=0;hapos=2;highlighted_blocks=182290001_329727036_5_0_0;hpos=2;matching_block_id=182290001_329727036_5_0_0;no_rooms=1;req_adults=5;req_children=0;room1=A%2CA%2CA%2CA%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=182290001_329727036_5_0_0__70000;srepoch=1676053679;srpvid=49fa81d7083e00de;type=total;ucfs=1&#hotelTmpl
+Email: 
+
+16239. Ma Gra Vi
+ID: e0654b39-ba2f-4f8d-adc0-b6e6cb07dd07
+Slug: ma-gra-vi-cinisi
+Nome: Ma Gra Vi
+Comune / Provincia: Cinisi
+Indirizzo: Via Santa Rosalia, 111, 90049 Terrasini PA
+Coordinate: Lat 38.152962, Lng 13.084823
+Website: http://www.magraviterrasini.com/
+Email: 
+
+16240. Magaggiari Hotel Resort
+ID: cc9a919c-cc94-4a1f-9b68-e2a4ded39e8e
+Slug: magaggiari-hotel-resort-cinisi
+Nome: Magaggiari Hotel Resort
+Comune / Provincia: Cinisi
+Indirizzo: Via Impastato Peppino, 7, 90045 Cinisi PA
+Coordinate: Lat 38.166944, Lng 13.094722
+Website: http://www.hotelmagaggiari.com/
+Email: 

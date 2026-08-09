@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+9696. Maripetra B&B
+ID: ac3790d9-2c60-4cdd-9e61-25a71171ca89
+Slug: maripetra-b-b-bonifati
+Nome: Maripetra B&B
+Comune / Provincia: Bonifati
+Indirizzo: Via Giacomo Matteotti, 87020 Sangineto CS
+Coordinate: Lat 39.604434, Lng 15.914232
+Website: https://www.maripetra.com/
+Email: 
+
+9697. Palazzo del Capo
+ID: bfd86589-1d64-4d04-a5ac-008e6531dceb
+Slug: palazzo-del-capo-bonifati
+Nome: Palazzo del Capo
+Comune / Provincia: Bonifati
+Indirizzo: Via Cristoforo Colombo, 5, 87020 Cittadella del Capo CS
+Coordinate: Lat 39.55415, Lng 15.875198
+Website: https://www.palazzodelcapo.com/
+Email: 
+
+9698. Residence club sangineto
+ID: bd3deeff-141b-455c-a43d-0208c4545fb9
+Slug: residence-club-sangineto-bonifati
+Nome: Residence club sangineto
+Comune / Provincia: Bonifati
+Indirizzo: Viale della liberta', 44, 87020 Sangineto CS
+Coordinate: Lat 39.58836, Lng 15.865379
+Website: http://www.residenceclubsangineto.it/
+Email: 
+
+9699. Agriturismo Il Borgo
+ID: 047b93d3-6555-45b0-8990-b0ce5af6bc5a
+Slug: agriturismo-il-borgo-bonito
+Nome: Agriturismo Il Borgo
+Comune / Provincia: Bonito
+Indirizzo: SS303, 83036 Arenara AV
+Coordinate: Lat 41.046683, Lng 15.032372
+Website: http://agriturismo-il-borgo.org.es/
+Email: 
+
+9700. Balneum Rooms & Spa
+ID: 5d814622-2292-4a8a-a7e1-80a549ad65d1
+Slug: balneum-rooms-spa-bonito
+Nome: Balneum Rooms & Spa
+Comune / Provincia: Bonito
+Indirizzo: Via Capuozzo Pianopantano, 41, 83036 Mirabella Eclano AV
+Coordinate: Lat 41.058063, Lng 14.98997
+Website: https://balneumitalia.it/
+Email: 
+
+9701. Bed and Breakfast La Maddalena
+ID: f627ef18-8327-4c14-9005-25dbf0d11427
+Slug: bed-and-breakfast-la-maddalena-bonito
+Nome: Bed and Breakfast La Maddalena
+Comune / Provincia: Bonito
+Indirizzo: Via Sommito, 83036 Mirabella Eclano AV
+Coordinate: Lat 41.047221, Lng 15.014054
+Website: —
+Email: 
+
+9702. Bonito B&B
+ID: c6695f12-89df-46f7-bada-c54feba94199
+Slug: bonito-b-b-bonito
+Nome: Bonito B&B
+Comune / Provincia: Bonito
+Indirizzo: Via Vespucci, 18, 83032 Bonito AV
+Coordinate: Lat 41.099588, Lng 15.002821
+Website: —
+Email: 
+
+9703. Mirabella Hotel Ristorante
+ID: 4cc28bae-1f4c-412e-9404-59ae1c285256
+Slug: mirabella-hotel-ristorante-bonito
+Nome: Mirabella Hotel Ristorante
+Comune / Provincia: Bonito
+Indirizzo: Via Bosco S. Prisco, 83036 Mirabella Eclano AV
+Coordinate: Lat 41.060139, Lng 15.01269
+Website: https://www.mirabellahotel.it/
+Email: 
+
+9704. Radici Resort
+ID: ed651eb0-26ed-42eb-8a5e-2020bc2665cd
+Slug: radici-resort-bonito
+Nome: Radici Resort
+Comune / Provincia: Bonito
+Indirizzo: Contrada Corpo di Cristo, 83036 Mirabella Eclano AV
+Coordinate: Lat 41.06169, Lng 14.980573
+Website: http://www.radiciresort.com/
+Email: 
+
+9705. Skyline Rooms & Suites
+ID: b393b31a-faab-4635-b5d1-8cc0b089ed24
+Slug: skyline-rooms-suites-bonito
+Nome: Skyline Rooms & Suites
+Comune / Provincia: Bonito
+Indirizzo: Contrada Ruvitiello, 83035 Grottaminarda AV
+Coordinate: Lat 41.068101, Lng 15.087265
+Website: https://www.skylineroomsandsuites.it/
+Email: 
+
+9706. Affittacamere Monteinni
+ID: c08a7c50-bce8-4241-99b8-484372d8e5fe
+Slug: affittacamere-monteinni-bonnanaro
+Nome: Affittacamere Monteinni
+Comune / Provincia: Bonnanaro
+Indirizzo: Via Mercato, 3, 07014 Ozieri SS
+Coordinate: Lat 40.583811, Lng 9.002905
+Website: —
+Email: 
+
+9707. B & B La Grotta delle Fate
+ID: 4db7d594-6303-412d-96cb-ab7d4dbde9d6
+Slug: b-b-la-grotta-delle-fate-bonnanaro
+Nome: B & B La Grotta delle Fate
+Comune / Provincia: Bonnanaro
+Indirizzo: SP3, 07045 Ossi SS
+Coordinate: Lat 40.693128, Lng 8.586755
+Website: https://lagrottadellefateossi.it/
+Email: 
+
+9708. B&B Attico25
+ID: 0e2f68ff-a883-48f5-b55d-37c5f7427c8a
+Slug: b-b-attico25-bonnanaro
+Nome: B&B Attico25
+Comune / Provincia: Bonnanaro
+Indirizzo: Viale Italia, 25, 07100 Sassari SS
+Coordinate: Lat 40.719187, Lng 8.556329
+Website: —
+Email: 
+
+9709. B&B Monte Arana di Fernanda Puggioni
+ID: cc397b8d-d164-4949-b469-0c4c083f9ada
+Slug: b-b-monte-arana-di-fernanda-puggioni-bonnanaro
+Nome: B&B Monte Arana di Fernanda Puggioni
+Comune / Provincia: Bonnanaro
+Indirizzo: Via Monte Arana, 16, 07043 Bonnanaro SS
+Coordinate: Lat 40.533175, Lng 8.770183
+Website: —
+Email: 
+
+9710. Azienda Agricola Serranello
+ID: 628da15b-9061-4e4d-a9a0-cc0853b38799
+Slug: azienda-agricola-serranello-bono
+Nome: Azienda Agricola Serranello
+Comune / Provincia: Bono
+Indirizzo: Via Cesare Battisti, 26A, 07011 Bono SS
+Coordinate: Lat 40.41617, Lng 9.035307
+Website: http://www.serranello.it/
+Email: 
+
+9711. Carru de Ammentos
+ID: 02f0c2f0-cab5-4778-8559-353c00a6e73c
+Slug: carru-de-ammentos-bono
+Nome: Carru de Ammentos
+Comune / Provincia: Bono
+Indirizzo: Via Roma, 24, 07014 Ozieri SS
+Coordinate: Lat 40.584687, Lng 9.001092
+Website: http://carrudeammentos.com.es/
+Email: 
+
+9712. Le Ortensie
+ID: c4da43ad-9bcc-44ec-a912-029408c85354
+Slug: le-ortensie-bono
+Nome: Le Ortensie
+Comune / Provincia: Bono
+Indirizzo: Via Giosuè Carducci, 17, 07011 Bono SS
+Coordinate: Lat 40.413427, Lng 9.02642
+Website: —
+Email: 
+
+9713. Arcu de Chelu B&B
+ID: 90119796-e611-4fe1-8c91-9f80219b0549
+Slug: arcu-de-chelu-b-b-bonorva
+Nome: Arcu de Chelu B&B
+Comune / Provincia: Bonorva
+Indirizzo: Via Roma, 42, 09090 Modolo OR
+Coordinate: Lat 40.274777, Lng 8.528886
+Website: https://arcudechelu.info/
+Email: 
+
+9714. B&B Fiori di Fiori Andreina
+ID: ebbd69e3-bec8-46df-9be4-7fa28bb2b258
+Slug: b-b-fiori-di-fiori-andreina-bonorva
+Nome: B&B Fiori di Fiori Andreina
+Comune / Provincia: Bonorva
+Indirizzo: Via Giacomo Matteotti, 14, 07012 Bonorva SS
+Coordinate: Lat 40.419588, Lng 8.767702
+Website: —
+Email: 
+
+9715. B&B SAS Coltes
+ID: 9a6651f1-1450-4059-816b-4867588a0f8e
+Slug: b-b-sas-coltes-bonorva
+Nome: B&B SAS Coltes
+Comune / Provincia: Bonorva
+Indirizzo: Via Leopardi, 8, 07012 Bonorva SS
+Coordinate: Lat 40.419847, Lng 8.770399
+Website: —
+Email: 
+
+9716. Badde Amena - Affittacamere (no colazione)
+ID: 55f96413-1682-45e1-9623-d2c6bdbe8c82
+Slug: badde-amena-affittacamere-no-colazione-bonorva
+Nome: Badde Amena - Affittacamere (no colazione)
+Comune / Provincia: Bonorva
+Indirizzo: Via S. Pancrazio, 24, 09090 Suni OR
+Coordinate: Lat 40.280559, Lng 8.546492
+Website: https://baddeamena.it/
+Email: 
+
+9717. Civico 9 Affittacamere
+ID: 6593bad9-1e71-4699-bb0c-db2c40b25723
+Slug: civico-9-affittacamere-bonorva
+Nome: Civico 9 Affittacamere
+Comune / Provincia: Bonorva
+Indirizzo: Corso Vittorio Emanuele II, 9, 07012 Bonorva SS
+Coordinate: Lat 40.417355, Lng 8.768708
+Website: https://www.civico9.com/
+Email: 
+
+9718. S'istella Affittacamere
+ID: 722d86f9-aa3b-4baa-afd1-88f3d9b5f481
+Slug: s-istella-affittacamere-bonorva
+Nome: S'istella Affittacamere
+Comune / Provincia: Bonorva
+Indirizzo: Via Nazionale, 56, 09090 Tinnura OR
+Coordinate: Lat 40.269136, Lng 8.548069
+Website: https://www.affittacameresistella.it/
+Email: 
+
+9719. SA Domo Tua
+ID: 06b428ac-23d0-43e2-8c29-ee9ae665bcfb
+Slug: sa-domo-tua-bonorva
+Nome: SA Domo Tua
+Comune / Provincia: Bonorva
+Indirizzo: Via Roma, 77, 07012 Bonorva SS
+Coordinate: Lat 40.418459, Lng 8.762428
+Website: http://sadomotua.com.es/
+Email: 
+
+9720. Agriturismo Da Davide
+ID: 90cc1a18-381f-400f-8880-e9a41da81a0a
+Slug: agriturismo-da-davide-bonvicino
+Nome: Agriturismo Da Davide
+Comune / Provincia: Bonvicino
+Indirizzo: Borgata Curine, Località Sotto, 9, 12060 Somano CN
+Coordinate: Lat 44.526863, Lng 8.019505
+Website: https://www.agriturismo-davide.it/
+Email: 
+
+9721. Agriturismo La Pieve
+ID: c2c5476e-0cef-4775-b910-c0d52006ddae
+Slug: agriturismo-la-pieve-bonvicino
+Nome: Agriturismo La Pieve
+Comune / Provincia: Bonvicino
+Indirizzo: Via Torino, 353, 12063 Dogliani CN
+Coordinate: Lat 44.542999, Lng 7.92683
+Website: https://www.agriturismolapieve.it/
+Email: 
+
+9722. B & B Montisclari Monchiero Langhe
+ID: d0d52c9b-6511-4f13-b9e6-1e5dcc099d25
+Slug: b-b-montisclari-monchiero-langhe-bonvicino
+Nome: B & B Montisclari Monchiero Langhe
+Comune / Provincia: Bonvicino
+Indirizzo: Località Borgonuovo B, 101, 12060 Monchiero CN
+Coordinate: Lat 44.56763, Lng 7.918976
+Website: https://montisclari-monchiero-langhe.com/
+Email: 
+
+9723. B&B Abbadia
+ID: ac1af246-32a6-494c-8506-c7bd0a98123f
+Slug: b-b-abbadia-bonvicino
+Nome: B&B Abbadia
+Comune / Provincia: Bonvicino
+Indirizzo: Via G. Galliano, 7, 12077 Monesiglio CN
+Coordinate: Lat 44.464052, Lng 8.12061
+Website: https://abbadia.italiadestinazioni.top/
+Email: 
+
+9724. Casa Baricalino Cantina
+ID: 9e52d518-3c13-4b0d-9930-ab8110acfdc3
+Slug: casa-baricalino-cantina-bonvicino
+Nome: Casa Baricalino Cantina
+Comune / Provincia: Bonvicino
+Indirizzo: Località Baricalino, 7, 12060 Novello CN
+Coordinate: Lat 44.583845, Lng 7.916185
+Website: http://www.casabaricalino.com/
+Email: 
+
+9725. Cascina Stralla
+ID: 960d9bed-cc44-45eb-8c29-ca41471b3f21
+Slug: cascina-stralla-bonvicino
+Nome: Cascina Stralla
+Comune / Provincia: Bonvicino
+Indirizzo: Località Piancerreto, 12060 Farigliano CN
+Coordinate: Lat 44.520942, Lng 7.917166
+Website: http://www.cascinastralla.it/
+Email: 
+
+9726. Cascina Zan
+ID: 8a338ab2-85ad-40c2-b496-dc08b9a75236
+Slug: cascina-zan-bonvicino
+Nome: Cascina Zan
+Comune / Provincia: Bonvicino
+Indirizzo: Loc, Località Viora, 26, 12070 Paroldo CN
+Coordinate: Lat 44.439389, Lng 8.06228
+Website: https://www.facebook.com/Cascinazan
+Email: 
+
+9727. I Muri - Piemonte
+ID: cafd8818-f57a-460e-a73c-11ac07d8b119
+Slug: i-muri-piemonte-bonvicino
+Nome: I Muri - Piemonte
+Comune / Provincia: Bonvicino
+Indirizzo: Via Muri, 2, 12060 Bonvicino CN
+Coordinate: Lat 44.503287, Lng 8.019069
+Website: https://imuri-piemonte.com/
+Email: 
+
+9728. Il Sartù
+ID: 7f3a9f2b-e191-493a-b625-df4d7ae687b2
+Slug: il-sartu-bonvicino
+Nome: Il Sartù
+Comune / Provincia: Bonvicino
+Indirizzo: Frazione Rossi, 43, 12060 Cuneo CN
+Coordinate: Lat 44.508401, Lng 8.016995
+Website: —
+Email: 
+
+9729. La casa di Talin
+ID: 2b7bcf3d-4cbc-4ee4-b531-c700ea594a8e
+Slug: la-casa-di-talin-bonvicino
+Nome: La casa di Talin
+Comune / Provincia: Bonvicino
+Indirizzo: località baraccone, 4, 12050 Serravalle Langhe CN
+Coordinate: Lat 44.559707, Lng 8.046786
+Website: http://lacasaditalin.it/
+Email: 
+
+9730. La Corte di San Rocco
+ID: 4c9deaf8-ce13-46c2-b2c8-3c9069835026
+Slug: la-corte-di-san-rocco-bonvicino
+Nome: La Corte di San Rocco
+Comune / Provincia: Bonvicino
+Indirizzo: Via Roma, 88, 12060 Murazzano CN
+Coordinate: Lat 44.473592, Lng 8.017942
+Website: —
+Email: 

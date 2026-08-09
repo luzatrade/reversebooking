@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+4306. Le Cune Country House and Farm
+ID: 8222d321-549b-4326-af66-cae6e8b026ec
+Slug: le-cune-country-house-and-farm-arcevia
+Nome: Le Cune Country House and Farm
+Comune / Provincia: Arcevia
+Indirizzo: Via Palazzo, 260, 60011 Arcevia AN
+Coordinate: Lat 43.540285, Lng 12.924386
+Website: https://www.lecunecountryhouse.com/
+Email: 
+
+4307. Park Hotel
+ID: a52fb27e-2710-44e0-8646-61ea6743230f
+Slug: park-hotel-arcevia
+Nome: Park Hotel
+Comune / Provincia: Arcevia
+Indirizzo: Via Roma, 5, 60011 Arcevia AN
+Coordinate: Lat 43.49843, Lng 12.937894
+Website: http://www.parkhotelarcevia.it/
+Email: 
+
+4308. Riserva Privata San Settimio
+ID: f2b06338-a7e4-4644-aee7-fe3f9fe0ab82
+Slug: riserva-privata-san-settimio-arcevia
+Nome: Riserva Privata San Settimio
+Comune / Provincia: Arcevia
+Indirizzo: Frazione Palazzo, 274, 60011 Arcevia AN
+Coordinate: Lat 43.537166, Lng 12.913558
+Website: https://www.sansettimio.it/
+Email: 
+
+4309. Ristorante Pizzeria Agriturismo Piccolo Ranch
+ID: cdf78fff-7387-452f-9fcd-3b577189f6da
+Slug: ristorante-pizzeria-agriturismo-piccolo-ranch-arcevia
+Nome: Ristorante Pizzeria Agriturismo Piccolo Ranch
+Comune / Provincia: Arcevia
+Indirizzo: Frazione S. Pietro, 48, 60011 Arcevia AN
+Coordinate: Lat 43.56373, Lng 12.927286
+Website: http://www.ristorantepiccoloranch.com/
+Email: 
+
+4310. Rocca Contrada
+ID: f29b25c9-ce31-4c78-af67-819e0c810e2f
+Slug: rocca-contrada-arcevia
+Nome: Rocca Contrada
+Comune / Provincia: Arcevia
+Indirizzo: Piazza Giuseppe Garibaldi, 11, 60011 Arcevia AN
+Coordinate: Lat 43.499738, Lng 12.940107
+Website: https://www.roccacontrada.com/
+Email: 
+
+4311. Sogno diVino B&B
+ID: cc3a5713-85f8-4130-8f62-32b96b4536dd
+Slug: sogno-divino-b-b-arcevia
+Nome: Sogno diVino B&B
+Comune / Provincia: Arcevia
+Indirizzo: Frazione Montale, 190, 60011 Montale AN
+Coordinate: Lat 43.542869, Lng 12.992269
+Website: https://www.sognodivinobb.it/
+Email: 
+
+4312. VisitArcevia
+ID: b8038bb8-f5a3-4738-a357-727751402f1e
+Slug: visitarcevia-arcevia
+Nome: VisitArcevia
+Comune / Provincia: Arcevia
+Indirizzo: Corso Giuseppe Mazzini, 57, 60011 Arcevia AN
+Coordinate: Lat 43.499702, Lng 12.939367
+Website: http://www.visitarcevia.com/
+Email: 
+
+4313. B&B La Nuova Stella
+ID: 8aac2750-5b2d-407f-84f9-0ad6d0b7d1e0
+Slug: b-b-la-nuova-stella-archi
+Nome: B&B La Nuova Stella
+Comune / Provincia: Archi
+Indirizzo: Via Quadroni, 160, 66040 Perano CH
+Coordinate: Lat 42.109733, Lng 14.371179
+Website: https://m.facebook.com/lanuovastella/
+Email: 
+
+4314. Casa Vistaverde · B&B
+ID: 2e150328-2b9a-4ff2-8762-e853e8a2712f
+Slug: casa-vistaverde-b-b-archi
+Nome: Casa Vistaverde · B&B
+Comune / Provincia: Archi
+Indirizzo: Contrada Rascitti, 66044 Archi CH
+Coordinate: Lat 42.096703, Lng 14.384166
+Website: http://www.casavistaverde.it/
+Email: 
+
+4315. Hotel Ristorante Al Duca
+ID: 045be9f7-b5bf-40a9-af0c-1129e9dad13b
+Slug: hotel-ristorante-al-duca-archi
+Nome: Hotel Ristorante Al Duca
+Comune / Provincia: Archi
+Indirizzo: Viale Duca degli Abruzzi, 26, 66041 Atessa CH
+Coordinate: Lat 42.067034, Lng 14.445186
+Website: http://www.hotelalduca.it/
+Email: 
+
+4316. Hotel Ristorante L'anfora
+ID: 430b4896-0e8d-46c1-b293-cebb3cf3207b
+Slug: hotel-ristorante-l-anfora-archi
+Nome: Hotel Ristorante L'anfora
+Comune / Provincia: Archi
+Indirizzo: Via Monte Marcone, 40, 66041 Atessa CH
+Coordinate: Lat 42.125833, Lng 14.4325
+Website: http://www.hotellanfora.com/
+Email: 
+
+4317. Hotel Ristorante La Castellana
+ID: 0808b34b-f50c-4ad2-88d9-1ad97d3fbe46
+Slug: hotel-ristorante-la-castellana-archi
+Nome: Hotel Ristorante La Castellana
+Comune / Provincia: Archi
+Indirizzo: Via Piana La Fara, 18, 66041 Atessa CH
+Coordinate: Lat 42.124552, Lng 14.406088
+Website: http://www.lacastellana.org/
+Email: 
+
+4318. Hotel Ristorante Leon D'Oro
+ID: decfb35f-3e55-451f-bccb-3102a60e64c1
+Slug: hotel-ristorante-leon-d-oro-archi
+Nome: Hotel Ristorante Leon D'Oro
+Comune / Provincia: Archi
+Indirizzo: Via Giacomo Matteotti, 3, 66032 Castel Frentano CH
+Coordinate: Lat 42.199057, Lng 14.352953
+Website: —
+Email: 
+
+4319. Hotel Ristorante Val di Sangro
+ID: 72e3c742-78f0-4ca4-bae7-de3870e935cf
+Slug: hotel-ristorante-val-di-sangro-archi
+Nome: Hotel Ristorante Val di Sangro
+Comune / Provincia: Archi
+Indirizzo: c.da san tommaso, 121, 66040 Perano CH
+Coordinate: Lat 42.116192, Lng 14.393037
+Website: https://hotelvaldisangro.com/
+Email: 
+
+4320. Hotel Select Wellness & Spa
+ID: ab3ff532-b206-4c77-8365-3a8ef2ecba0c
+Slug: hotel-select-wellness-spa-archi
+Nome: Hotel Select Wellness & Spa
+Comune / Provincia: Archi
+Indirizzo: Via Piazzano, 90, 66041 Atessa CH
+Coordinate: Lat 42.135628, Lng 14.426265
+Website: http://www.select-hotel.eu/
+Email: 
+
+4321. Il Castello di Perano
+ID: 62b43da1-8cda-413f-b8d3-39fe33e89d61
+Slug: il-castello-di-perano-archi
+Nome: Il Castello di Perano
+Comune / Provincia: Archi
+Indirizzo: Piane d'Archi-Quadroni, 66040 Perano CH
+Coordinate: Lat 42.10772, Lng 14.37464
+Website: https://www.ilcastellodiperano.it/
+Email: 
+
+4322. Ristorante Hotel La Masseria
+ID: b069dcf0-9b93-48c5-a4cf-f70245975302
+Slug: ristorante-hotel-la-masseria-archi
+Nome: Ristorante Hotel La Masseria
+Comune / Provincia: Archi
+Indirizzo: Via Piazzano, 69, 66041 Atessa CH
+Coordinate: Lat 42.131276, Lng 14.420315
+Website: http://www.lamasseria.eu/
+Email: 
+
+4323. Affittacamere Le Fonti
+ID: 789f46dc-8bd5-436d-9572-9e1847f55f5f
+Slug: affittacamere-le-fonti-arcidosso
+Nome: Affittacamere Le Fonti
+Comune / Provincia: Arcidosso
+Indirizzo: Corso Toscana, 22, 58031 Arcidosso GR
+Coordinate: Lat 42.871936, Lng 11.538102
+Website: http://affittacamere-le-fonti.alloggiotoscana.it/
+Email: 
+
+4324. Agriturismo Antico Casale Pozzuolo
+ID: 72faf1ed-deb1-4da9-86fd-0a4551d6ced3
+Slug: agriturismo-antico-casale-pozzuolo-arcidosso
+Nome: Agriturismo Antico Casale Pozzuolo
+Comune / Provincia: Arcidosso
+Indirizzo: Pod. Pozzuolo, 1, 58038 Seggiano GR
+Coordinate: Lat 42.921952, Lng 11.5661
+Website: http://www.anticocasalepozzuolo.it/
+Email: 
+
+4325. Agriturismo Le Casaline - Val d'Orcia
+ID: 21f91b20-2317-45dd-aea6-5bf5e3bc97ae
+Slug: agriturismo-le-casaline-val-d-orcia-arcidosso
+Nome: Agriturismo Le Casaline - Val d'Orcia
+Comune / Provincia: Arcidosso
+Indirizzo: Località Le Casaline, 58038 Seggiano GR
+Coordinate: Lat 42.928339, Lng 11.591911
+Website: http://www.lecasaline.com/
+Email: 
+
+4326. Agriturismo Molino del Ponte
+ID: 64a21341-8d1f-440e-ab34-85d78a1098cd
+Slug: agriturismo-molino-del-ponte-arcidosso
+Nome: Agriturismo Molino del Ponte
+Comune / Provincia: Arcidosso
+Indirizzo: Strada Provinciale Cipressino, 58031 Arcidosso GR
+Coordinate: Lat 42.885513, Lng 11.524226
+Website: https://www.molinodelponte.it/
+Email: 
+
+4327. Albergo Generale Cantore - Monte Amiata -
+ID: 16122841-ba3c-4182-a521-5b30a26a0fc2
+Slug: albergo-generale-cantore-monte-amiata-arcidosso
+Nome: Albergo Generale Cantore - Monte Amiata -
+Comune / Provincia: Arcidosso
+Indirizzo: Località secondo rifugio Cantore,70, 53021 Abbadia San Salvatore SI
+Coordinate: Lat 42.898622, Lng 11.626989
+Website: http://www.albergogeneralecantore.it/
+Email: 
+
+4328. Albergo Le Macinaie
+ID: add55d67-7d5e-4f96-8364-c04295ab6591
+Slug: albergo-le-macinaie-arcidosso
+Nome: Albergo Le Macinaie
+Comune / Provincia: Arcidosso
+Indirizzo: Prato Delle Macinaie, 58033 Castel del Piano GR
+Coordinate: Lat 42.891421, Lng 11.605988
+Website: https://www.lemacinaie.it/
+Email: 
+
+4329. Albergo Ristorante Sella Monte Amiata
+ID: 0224ce55-068e-4e79-a9bc-b8c4f221d186
+Slug: albergo-ristorante-sella-monte-amiata-arcidosso
+Nome: Albergo Ristorante Sella Monte Amiata
+Comune / Provincia: Arcidosso
+Indirizzo: Località Vetta Amiata, 53021 Abbadia San Salvatore SI
+Coordinate: Lat 42.891162, Lng 11.627018
+Website: http://www.albergosella.it/
+Email: 
+
+4330. Bed & Breakfast Amiata Grosseto
+ID: c7be6aa8-0e9a-4dd1-8e74-b75e97529ac7
+Slug: bed-breakfast-amiata-grosseto-arcidosso
+Nome: Bed & Breakfast Amiata Grosseto
+Comune / Provincia: Arcidosso
+Indirizzo: Piazza Indipendenza, 12A, 58031 Arcidosso GR
+Coordinate: Lat 42.871821, Lng 11.53956
+Website: http://www.bebamiata.it/
+Email: 
+
+4331. Grand Hotel Impero - Wellness & Exclusive SPA
+ID: 840b3521-5ae2-43f3-b9ea-f058e9938b75
+Slug: grand-hotel-impero-wellness-exclusive-spa-arcidosso
+Nome: Grand Hotel Impero - Wellness & Exclusive SPA
+Comune / Provincia: Arcidosso
+Indirizzo: Via Roma, 7, 58033 Castel del Piano GR
+Coordinate: Lat 42.88719, Lng 11.535627
+Website: https://www.imperoresort.com/
+Email: 
+
+4332. Hotel Eden
+ID: a5bf580b-5bd3-418c-8130-f8ddf90af470
+Slug: hotel-eden-arcidosso
+Nome: Hotel Eden
+Comune / Provincia: Arcidosso
+Indirizzo: Via roma, 1, 58037 Santa Fiora GR
+Coordinate: Lat 42.832013, Lng 11.586595
+Website: https://www.hoteledensantafiora.it/
+Email: 
+
+4333. Hotel Parco dei Faggi - Monte Amiata
+ID: fadb4d17-de3c-49e9-bc66-7e3547eee788
+Slug: hotel-parco-dei-faggi-monte-amiata-arcidosso
+Nome: Hotel Parco dei Faggi - Monte Amiata
+Comune / Provincia: Arcidosso
+Indirizzo: 58038 Rifugio Cantore GR
+Coordinate: Lat 42.898635, Lng 11.624406
+Website: https://www.scidoo.com/preventivov2/?cod=1203
+Email: 
+
+4334. La Baita -M. Amiata - Appartamenti B&B
+ID: 28cd4832-7f13-406e-b719-954ca7186946
+Slug: la-baita-m-amiata-appartamenti-b-b-arcidosso
+Nome: La Baita -M. Amiata - Appartamenti B&B
+Comune / Provincia: Arcidosso
+Indirizzo: Via Pozzo Stella, 52, 58033 Castel del Piano GR
+Coordinate: Lat 42.890986, Lng 11.60695
+Website: https://www.labaitamonteamiata.com/
+Email: 
+
+4335. La Colombaia Amiata
+ID: 87898ede-71b9-4955-a4be-44318e347083
+Slug: la-colombaia-amiata-arcidosso
+Nome: La Colombaia Amiata
+Comune / Provincia: Arcidosso
+Indirizzo: Fonte Canale, 3, 58031 Salaiola GR
+Coordinate: Lat 42.857112, Lng 11.507249
+Website: http://www.lacolombaia.eu/
+Email: 
+
+4336. La corteccia del faggio
+ID: c53acc5a-5f9d-43f7-864e-8673a08652d1
+Slug: la-corteccia-del-faggio-arcidosso
+Nome: La corteccia del faggio
+Comune / Provincia: Arcidosso
+Indirizzo: Primo rifugio amiatino 33, 53021 Abbadia San Salvatore SI
+Coordinate: Lat 42.902153, Lng 11.635941
+Website: http://www.lacortecciadelfaggio.it/
+Email: 
+
+4337. La Fuga Luxury Experience
+ID: 34bac03a-329a-4877-84c5-957f8a37fbcc
+Slug: la-fuga-luxury-experience-arcidosso
+Nome: La Fuga Luxury Experience
+Comune / Provincia: Arcidosso
+Indirizzo: V. delle Mura, 27, 58037 Santa Fiora GR
+Coordinate: Lat 42.831696, Lng 11.587058
+Website: http://www.lafugaluxuryexperience.it/
+Email: 
+
+4338. Locanda La Scottiglia
+ID: 97275b30-9a80-4e0b-8e1f-64a4c7fca431
+Slug: locanda-la-scottiglia-arcidosso
+Nome: Locanda La Scottiglia
+Comune / Provincia: Arcidosso
+Indirizzo: Località Pescina, 29, 58038 Seggiano GR
+Coordinate: Lat 42.916909, Lng 11.586126
+Website: http://www.lascottiglia.it/
+Email: 
+
+4339. Ostello Portabene
+ID: 2ac42fae-e69b-4f6d-887a-21d73f0d0be7
+Slug: ostello-portabene-arcidosso
+Nome: Ostello Portabene
+Comune / Provincia: Arcidosso
+Indirizzo: Via del Popolo, 34, 58031 Montelaterone GR
+Coordinate: Lat 42.887485, Lng 11.513169
+Website: https://www.hotelsitalic.com/ostello-portabene/
+Email: 
+
+4340. Thalassa Locanda B&B e appartamento
+ID: a769735f-9ace-42c5-994a-ceb5acea3bb4
+Slug: thalassa-locanda-b-b-e-appartamento-arcidosso
+Nome: Thalassa Locanda B&B e appartamento
+Comune / Provincia: Arcidosso
+Indirizzo: Via Talassese, 94, 58031 Arcidosso GR
+Coordinate: Lat 42.871742, Lng 11.535012
+Website: http://www.thalassabeb.com/
+Email: 

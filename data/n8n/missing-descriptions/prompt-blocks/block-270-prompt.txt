@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+9416. Loano 2 Village
+ID: cd6ef7e2-6855-4d46-b356-2434849a8502
+Slug: loano-2-village-boissano
+Nome: Loano 2 Village
+Comune / Provincia: Boissano
+Indirizzo: Via degli Alpini, 6, 17025 Loano SV
+Coordinate: Lat 44.133153, Lng 8.242138
+Website: https://www.loano2village.it/
+Email: 
+
+9417. Peter Pan
+ID: f0da0697-98a3-4652-8db3-43dee72c876f
+Slug: peter-pan-boissano
+Nome: Peter Pan
+Comune / Provincia: Boissano
+Indirizzo: Via Coste Rosse, 8, 17020 Boissano SV
+Coordinate: Lat 44.13717, Lng 8.22894
+Website: https://rafaelstravelexperience.com/agriturismo-peterpan-italy
+Email: 
+
+9418. Villa Rosea
+ID: 626fb0c8-4696-4fd5-a2de-bf03c799f383
+Slug: villa-rosea-boissano
+Nome: Villa Rosea
+Comune / Provincia: Boissano
+Indirizzo: Via Piave, 13, 17025 Loano SV
+Coordinate: Lat 44.128267, Lng 8.247607
+Website: http://villa-rosea.org.es/
+Email: 
+
+9419. Antica Fonte
+ID: f8b13233-3740-4c8e-ab49-6452985cfa22
+Slug: antica-fonte-bojano
+Nome: Antica Fonte
+Comune / Provincia: Bojano
+Indirizzo: Via S. Bartolomeo, 330, 86021 Bojano CB
+Coordinate: Lat 41.488157, Lng 14.465432
+Website: —
+Email: 
+
+9420. B&B Bovianum
+ID: 44d3657f-690b-481d-8901-5c84edf6a311
+Slug: b-b-bovianum-bojano
+Nome: B&B Bovianum
+Comune / Provincia: Bojano
+Indirizzo: Corso F. Amatuzio, 155, 86021 Bojano CB
+Coordinate: Lat 41.4877, Lng 14.474021
+Website: https://amandastraveltips.com/b-amp-b-bovianum-italy
+Email: 
+
+9421. B&B La Piazzetta, Bojano (CB)
+ID: 64e277b2-532a-4f48-b26b-5353a6c649aa
+Slug: b-b-la-piazzetta-bojano-cb-bojano
+Nome: B&B La Piazzetta, Bojano (CB)
+Comune / Provincia: Bojano
+Indirizzo: Piazza Roma, 27, 86021 Bojano CB
+Coordinate: Lat 41.483256, Lng 14.470859
+Website: http://www.bojano-beb.it/
+Email: 
+
+9422. B&B MR Living
+ID: 9cc23b71-9771-4a4c-b91b-c17d9c4de1e0
+Slug: b-b-mr-living-bojano
+Nome: B&B MR Living
+Comune / Provincia: Bojano
+Indirizzo: Via Colonno, 90, 86021 Bojano CB
+Coordinate: Lat 41.484034, Lng 14.474921
+Website: https://mrlivingbeb.wixsite.com/mrlivingbeb
+Email: 
+
+9423. B&B Nelle stanze del Matese
+ID: d7c5a433-e442-4fc0-9d91-a8044061dd85
+Slug: b-b-nelle-stanze-del-matese-bojano
+Nome: B&B Nelle stanze del Matese
+Comune / Provincia: Bojano
+Indirizzo: via Taddeo, 50, 86021 Bojano CB
+Coordinate: Lat 41.484569, Lng 14.464388
+Website: http://www.nellestanzedelmatese.com/
+Email: 
+
+9424. B&B Santo Stefano
+ID: 814d2923-1a45-4f7b-af4b-08deaad5056b
+Slug: b-b-santo-stefano-bojano
+Nome: B&B Santo Stefano
+Comune / Provincia: Bojano
+Indirizzo: Via Moscatelli, 38, 86100 Santo Stefano CB
+Coordinate: Lat 41.612705, Lng 14.612465
+Website: http://bandbsantostefano.it/
+Email: 
+
+9425. B&B Sul Corso
+ID: 71f73e78-3965-4ea9-b577-39cb2d4b0956
+Slug: b-b-sul-corso-bojano
+Nome: B&B Sul Corso
+Comune / Provincia: Bojano
+Indirizzo: Corso F. Amatuzio, 86021 Bojano CB
+Coordinate: Lat 41.48656, Lng 14.473667
+Website: https://www.booking.com/hotel/it/al-corso-bojano.it.html?label=gen173nr-1FCAsocUIPYWwtY29yc28tYm9qYW5vSBRYBGhxiAEBmAEUuAEYyAEP2AEB6AEB-AEDiAIBqAIEuAKh1eCgBsACAdICJDNjMmM0ZWFmLTAzMDItNDJhZC1hNTlmLTc3NGY4Mzg4MzNmZdgCBeACAQ&sid=4118758783f0816288a185f25de6563d&dist=0&group_adults=2&group_children=0&keep_landing=1&no_rooms=1&sb_price_type=total&type=total&
+Email: 
+
+9426. Bed & Breakfast L'Antica Dimora
+ID: 929ad8ff-1e17-4d9f-a388-819bf72dd16c
+Slug: bed-breakfast-l-antica-dimora-bojano
+Nome: Bed & Breakfast L'Antica Dimora
+Comune / Provincia: Bojano
+Indirizzo: Via Francesco Jovine, 2, 86096 Macchiagodena IS
+Coordinate: Lat 41.558012, Lng 14.405499
+Website: http://www.anticadimoramolise.com/
+Email: 
+
+9427. Boutique Hotel Palazzo Corso Umberto
+ID: 76534017-0d42-4964-b080-586629afe0a3
+Slug: boutique-hotel-palazzo-corso-umberto-bojano
+Nome: Boutique Hotel Palazzo Corso Umberto
+Comune / Provincia: Bojano
+Indirizzo: Corso Umberto I, 19, 86021 Bojano CB
+Coordinate: Lat 41.482411, Lng 14.470684
+Website: http://www.palazzocorsoumberto.it/
+Email: 
+
+9428. I Malatesta casa vacanze
+ID: ce80a4d1-acdc-4d4d-a3da-577835328d28
+Slug: i-malatesta-casa-vacanze-bojano
+Nome: I Malatesta casa vacanze
+Comune / Provincia: Bojano
+Indirizzo: Localitá Malatesta, 60/68, 86021 Bojano CB
+Coordinate: Lat 41.482073, Lng 14.473694
+Website: https://www.booking.com/hotel/it/castellone.it.html?aid=318615;label=New_Italian_IT_IT_21439071025-UNZN0NGydu*b2jBBcXOAlgS99511281385:pl:ta:p1:p2:ac:ap1t2:neg:fi:tiaud-146342136070:dsa-211194216505:lp9050674:li:dec:dm;sid=6ea39c356440e1a8ec30a0f95bdb0803;age=12;all_sr_blocks=360062001_118606822_3_1_0;bhgwe_bhr=1;bhgwe_cep=1;checkin=2019-06-23;checkout=2019-06-30;dest_id=-111731;dest_type=city;dist=0;group_adults=2;group_children=1;hapos=1;highlighted_blocks=360062001_118606822_3_1_0;hpos=1;req_adults=2;req_age=12;req_children=1;room1=A,A,12;sb_price_type=total;sr_order=popularity;srepoch=1556719003;srpvid=8e73620def190016;type=total;ucfs=1&#hotelTmpl
+Email: 
+
+9429. Il campanile
+ID: 54e6b1a9-2bfc-46f9-ad10-b94e1cf4b0db
+Slug: il-campanile-bojano
+Nome: Il campanile
+Comune / Provincia: Bojano
+Indirizzo: Via Guglielmo Marconi, 3, 86096 Santa Maria del Molise IS
+Coordinate: Lat 41.562174, Lng 14.373163
+Website: https://stayoly.eu/il-campanile-santa-maria-molise/
+Email: 
+
+9430. Le Finestre sulla Piazza
+ID: 43d06db4-c2e6-4e2c-b556-8deef8bbce0d
+Slug: le-finestre-sulla-piazza-bojano
+Nome: Le Finestre sulla Piazza
+Comune / Provincia: Bojano
+Indirizzo: Corso F. Amatuzio, 6, 86021 Bojano CB
+Coordinate: Lat 41.483141, Lng 14.472177
+Website: https://sullapiazza.tripcombined.com/
+Email: 
+
+9431. Agriturismo La Villa
+ID: 1d98ec29-2af0-48cf-a7fe-dc58e2e99a32
+Slug: agriturismo-la-villa-bolano
+Nome: Agriturismo La Villa
+Comune / Provincia: Bolano
+Indirizzo: Villa Località, 30, 19020 Bolano SP
+Coordinate: Lat 44.179943, Lng 9.892071
+Website: https://www.hotelsitalic.com/agriturismo-la-villa/
+Email: 
+
+9432. Agriturismo Paradiso di San Prospero
+ID: d1b97cdf-c4e3-4a11-b2bd-afae72387697
+Slug: agriturismo-paradiso-di-san-prospero-bolano
+Nome: Agriturismo Paradiso di San Prospero
+Comune / Provincia: Bolano
+Indirizzo: Via Meretta, 17, 19020 Bottagna SP
+Coordinate: Lat 44.151946, Lng 9.882598
+Website: —
+Email: 
+
+9433. B&B Alla Fortezza
+ID: 7aa08f0f-8cd6-4fcb-9c63-e67e4a96e3e8
+Slug: b-b-alla-fortezza-bolano
+Nome: B&B Alla Fortezza
+Comune / Provincia: Bolano
+Indirizzo: Via fusicchio, 18, 19038 Sarzana SP
+Coordinate: Lat 44.120237, Lng 9.976047
+Website: —
+Email: 
+
+9434. B&B Amici - Bed and Breakfast La Spezia
+ID: 39c75e92-3b27-4b13-9c69-b8ce108ca705
+Slug: b-b-amici-bed-and-breakfast-la-spezia-bolano
+Nome: B&B Amici - Bed and Breakfast La Spezia
+Comune / Provincia: Bolano
+Indirizzo: Via Provinciale Spezia, 116, 19020 Piano di Valeriano-bottagna SP
+Coordinate: Lat 44.148438, Lng 9.868577
+Website: https://www.bnbamici.it/
+Email: 
+
+9435. B&B Buio Pesto IT011004C1ZMS2M9OQ
+ID: b8ed99d9-57e7-48ba-bf3b-ea3789c12cfa
+Slug: b-b-buio-pesto-it011004c1zms2m9oq-bolano
+Nome: B&B Buio Pesto IT011004C1ZMS2M9OQ
+Comune / Provincia: Bolano
+Indirizzo: Via Feletta, 22, 19020 Ceparana SP
+Coordinate: Lat 44.165105, Lng 9.880387
+Website: http://beb.it/buiopesto
+Email: 
+
+9436. B&B Gli Oleandri
+ID: 351278ce-69e3-4e89-9346-285b7a37baee
+Slug: b-b-gli-oleandri-bolano
+Nome: B&B Gli Oleandri
+Comune / Provincia: Bolano
+Indirizzo: Via Nuova, 47, 19020 Bolano SP
+Coordinate: Lat 44.184811, Lng 9.893967
+Website: —
+Email: 
+
+9437. Borgovecchio
+ID: c61c27fc-ebad-4883-b2a4-6ba848c271f4
+Slug: borgovecchio-bolano
+Nome: Borgovecchio
+Comune / Provincia: Bolano
+Indirizzo: Via Borgovecchio, 10, 19020 Bolano SP
+Coordinate: Lat 44.187376, Lng 9.895833
+Website: —
+Email: 
+
+9438. Elicrim
+ID: 3dc802d1-36b1-494a-81c0-d34899653371
+Slug: elicrim-bolano
+Nome: Elicrim
+Comune / Provincia: Bolano
+Indirizzo: Via Alessandro Volta, 23, 19037 Santo Stefano di Magra SP
+Coordinate: Lat 44.153011, Lng 9.921946
+Website: http://www.elicrim.it/
+Email: 
+
+9439. Hotel Mirador
+ID: 773f6594-7dca-4a85-9f7d-33dfdc813de2
+Slug: hotel-mirador-bolano
+Nome: Hotel Mirador
+Comune / Provincia: Bolano
+Indirizzo: Via del Gaggio, 22, 54010 Podenzana MS
+Coordinate: Lat 44.20816, Lng 9.946726
+Website: https://www.albergoristorantemirador.com/
+Email: 
+
+9440. Il Borgo Di Pegui
+ID: 0f6574d6-f42b-4f53-a266-15566a94b1f1
+Slug: il-borgo-di-pegui-bolano
+Nome: Il Borgo Di Pegui
+Comune / Provincia: Bolano
+Indirizzo: Frazione Pegui, 23, 19020 Calice al Cornoviglio SP
+Coordinate: Lat 44.211245, Lng 9.86111
+Website: https://www.booking.com/hotel/it/il-borgo-di-pegui.html?aid=7954519&label=bedbreakfasthtl
+Email: 
+
+9441. La Rosa del Golfo dei Poeti
+ID: 3c93307b-939b-44b2-a515-0a21b7b57b78
+Slug: la-rosa-del-golfo-dei-poeti-bolano
+Nome: La Rosa del Golfo dei Poeti
+Comune / Provincia: Bolano
+Indirizzo: Corso Nazionale, 320, 19125 La Spezia SP
+Coordinate: Lat 44.117945, Lng 9.842214
+Website: https://larosadelgolfodeipoeti.eu/
+Email: 
+
+9442. Relax nella natura
+ID: 35383e26-ac5c-41c1-b525-b5a9e9b913b3
+Slug: relax-nella-natura-bolano
+Nome: Relax nella natura
+Comune / Provincia: Bolano
+Indirizzo: Via Lavaggia, 8, 19020 Bolano SP
+Coordinate: Lat 44.188042, Lng 9.893209
+Website: https://www.youtube.com/watch?v=zrLNYgFA5lk
+Email: 
+
+9443. Residence Monte Bello
+ID: 95b0ca5f-d71b-44f0-abe6-bb8510398aa7
+Slug: residence-monte-bello-bolano
+Nome: Residence Monte Bello
+Comune / Provincia: Bolano
+Indirizzo: via Monte Bello di Fondo, 19020 Bolano SP
+Coordinate: Lat 44.191462, Lng 9.878495
+Website: http://www.residencemontebello.it/
+Email: 
+
+9444. Villa Altar
+ID: 1fb51cbc-dd35-48a2-9623-01124c9d405a
+Slug: villa-altar-bolano
+Nome: Villa Altar
+Comune / Provincia: Bolano
+Indirizzo: Via Nuova, 26, 19020 Bolano SP
+Coordinate: Lat 44.184042, Lng 9.889561
+Website: —
+Email: 
+
+9445. Casa Gaia - CIN IT016084C2RJ6U6TQH
+ID: f2afa46d-23c3-433f-a15a-aac736a19d80
+Slug: casa-gaia-cin-it016084c2rj6u6tqh-bolgare
+Nome: Casa Gaia - CIN IT016084C2RJ6U6TQH
+Comune / Provincia: Bolgare
+Indirizzo: Via Rasetto, 6, 24060 Costa di Mezzate BG
+Coordinate: Lat 45.663141, Lng 9.791415
+Website: —
+Email: 
+
+9446. Hotel Fontana Santa
+ID: 948e9d3e-6afe-4a3e-9e4a-65a95ddce4cd
+Slug: hotel-fontana-santa-bolgare
+Nome: Hotel Fontana Santa
+Comune / Provincia: Bolgare
+Indirizzo: Via Fontana Santa, 2, 24064 Grumello del Monte BG
+Coordinate: Lat 45.64002, Lng 9.862836
+Website: http://www.fontanasanta.it/
+Email: 
+
+9447. Hotel Motel Gold
+ID: fe7487cb-0bee-4dda-87c0-9ccdd934cdfb
+Slug: hotel-motel-gold-bolgare
+Nome: Hotel Motel Gold
+Comune / Provincia: Bolgare
+Indirizzo: Strada Statale 573 Ogliese, 24050 Calcinate BG
+Coordinate: Lat 45.606113, Lng 9.799795
+Website: http://www.motelgold.it/
+Email: 
+
+9448. Hotel Ristorante Ponte Autostrada
+ID: b4c728b4-8e29-44d3-9449-df2d5bcb819e
+Slug: hotel-ristorante-ponte-autostrada-bolgare
+Nome: Hotel Ristorante Ponte Autostrada
+Comune / Provincia: Bolgare
+Indirizzo: Via Cassinone, 46, 24068 Seriate BG
+Coordinate: Lat 45.655366, Lng 9.745388
+Website: http://www.hotelponteautostrada.it/
+Email: 
+
+9449. Motel Prince
+ID: 2aad9fb6-8ebe-4897-a6c8-5de34f9971ba
+Slug: motel-prince-bolgare
+Nome: Motel Prince
+Comune / Provincia: Bolgare
+Indirizzo: Via Ninola, 16, 24050 Calcinate BG
+Coordinate: Lat 45.616272, Lng 9.808982
+Website: https://www.motelprince.com/
+Email: 
+
+9450. Nippon Tranquillity
+ID: 8dcca66a-195f-40e7-8c45-cc22746e64b9
+Slug: nippon-tranquillity-bolgare
+Nome: Nippon Tranquillity
+Comune / Provincia: Bolgare
+Indirizzo: Via G. Pascoli, 10, 24060 Gorlago BG
+Coordinate: Lat 45.668648, Lng 9.819881
+Website: —
+Email: 

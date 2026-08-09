@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+10011. B&B Felix House
+ID: ca946aea-3db7-4891-9e33-3baf6a9991f1
+Slug: b-b-felix-house-borgo-priolo
+Nome: B&B Felix House
+Comune / Provincia: Borgo Priolo
+Indirizzo: Via L. Negrotto, 40, 27050 Codevilla PV
+Coordinate: Lat 44.965345, Lng 9.058917
+Website: https://francescarecommends.eu/felix-house-italy
+Email: 
+
+10012. B&B la Mafalda in Oltrepo
+ID: f60c510e-30a8-4cdf-82fc-d3a7399f3a15
+Slug: b-b-la-mafalda-in-oltrepo-borgo-priolo
+Nome: B&B la Mafalda in Oltrepo
+Comune / Provincia: Borgo Priolo
+Indirizzo: Frazione Piana, 5, 27050 Codevilla PV
+Coordinate: Lat 44.958024, Lng 9.071964
+Website: https://www.lamafaldainoltrepo.it/
+Email: 
+
+10013. Castello di Stefanago Organic Winery
+ID: 079508db-0ea6-41b0-83f1-4a6a9d6a374e
+Slug: castello-di-stefanago-organic-winery-borgo-priolo
+Nome: Castello di Stefanago Organic Winery
+Comune / Provincia: Borgo Priolo
+Indirizzo: Località Castello di Stefanago, 27040, 27040 Fortunago PV
+Coordinate: Lat 44.930564, Lng 9.169922
+Website: https://www.castellodistefanago.it/
+Email: 
+
+10014. Cowboys' Guest Ranch
+ID: c28b6d57-2423-418c-aecf-2ffcc9b42e02
+Slug: cowboys-guest-ranch-borgo-priolo
+Nome: Cowboys' Guest Ranch
+Comune / Provincia: Borgo Priolo
+Indirizzo: Via Tullio Morato, 18, 27058 Voghera PV
+Coordinate: Lat 44.968714, Lng 9.014636
+Website: http://www.cowboys.it/
+Email: 
+
+10015. Tenuta Il Fienile
+ID: 2bda6b4d-c111-4cb9-a8a5-0daa73b877b9
+Slug: tenuta-il-fienile-borgo-priolo
+Nome: Tenuta Il Fienile
+Comune / Provincia: Borgo Priolo
+Indirizzo: Via Pieve, 1, 15050 Momperone AL
+Coordinate: Lat 44.847333, Lng 9.030089
+Website: https://www.tenutailfienile.it/
+Email: 
+
+10016. Torrazzetta Natural Winery Agriturismo
+ID: 3e0f4424-f1db-4e01-a106-e37213c14694
+Slug: torrazzetta-natural-winery-agriturismo-borgo-priolo
+Nome: Torrazzetta Natural Winery Agriturismo
+Comune / Provincia: Borgo Priolo
+Indirizzo: Loc. Torrazzetta, 1, 27040 Borgo Priolo PV
+Coordinate: Lat 44.978627, Lng 9.109712
+Website: http://www.torrazzetta.com/
+Email: 
+
+10017. Albergo Trieste Boves
+ID: 83428f33-bd62-46e1-8674-afed84f63112
+Slug: albergo-trieste-boves-borgo-san-dalmazzo
+Nome: Albergo Trieste Boves
+Comune / Provincia: Borgo San Dalmazzo
+Indirizzo: Corso Trieste, 33, 12012 Boves CN
+Coordinate: Lat 44.331138, Lng 7.548898
+Website: http://www.albergotrieste-boves.eu/
+Email: 
+
+10018. B & B La Ca' Di Massuc
+ID: 379ce66d-0b73-4286-9871-7e1519e9af6a
+Slug: b-b-la-ca-di-massuc-borgo-san-dalmazzo
+Nome: B & B La Ca' Di Massuc
+Comune / Provincia: Borgo San Dalmazzo
+Indirizzo: Fraz, c v, Strada Bassa, 12a, 12016 San Lorenzo CN
+Coordinate: Lat 44.344008, Lng 7.580667
+Website: http://b-b-la-ca-di-massuc.com.es/
+Email: 
+
+10019. B&B La Piazzetta Del Borgo
+ID: 92a1f3f7-005f-4bd4-9782-e8a4215aaa31
+Slug: b-b-la-piazzetta-del-borgo-borgo-san-dalmazzo
+Nome: B&B La Piazzetta Del Borgo
+Comune / Provincia: Borgo San Dalmazzo
+Indirizzo: Piazza Falcone e Borsellino, 2, 12011 Borgo San Dalmazzo CN
+Coordinate: Lat 44.330173, Lng 7.488954
+Website: http://www.lapiazzettadelborgo.com/
+Email: 
+
+10020. B&B SanRock
+ID: d28367e5-e4f3-461a-92e9-ea50b73c7f1f
+Slug: b-b-sanrock-borgo-san-dalmazzo
+Nome: B&B SanRock
+Comune / Provincia: Borgo San Dalmazzo
+Indirizzo: Piazzale della Repubblica, 6, 12100 Cuneo CN
+Coordinate: Lat 44.365348, Lng 7.522284
+Website: http://www.bedandbreakfastcuneosanrock.it/
+Email: 
+
+10021. B&B Villa Rina
+ID: 68e70e51-b212-4c5e-8e2c-854595a3161f
+Slug: b-b-villa-rina-borgo-san-dalmazzo
+Nome: B&B Villa Rina
+Comune / Provincia: Borgo San Dalmazzo
+Indirizzo: Via Madonna del Campo, 19, 12011 Borgo San Dalmazzo CN
+Coordinate: Lat 44.33221, Lng 7.487005
+Website: —
+Email: 
+
+10022. Hotel Ligure
+ID: c8d39b0d-4169-48fa-bc4a-a47f77d22161
+Slug: hotel-ligure-borgo-san-dalmazzo
+Nome: Hotel Ligure
+Comune / Provincia: Borgo San Dalmazzo
+Indirizzo: Via Savigliano, 11, 12100 Cuneo CN
+Coordinate: Lat 44.39274, Lng 7.552084
+Website: http://www.ligurehotel.com/
+Email: 
+
+10023. Hotel Torrismondi
+ID: 91beacd1-5023-4eef-a620-be9a43e90a1a
+Slug: hotel-torrismondi-borgo-san-dalmazzo
+Nome: Hotel Torrismondi
+Comune / Provincia: Borgo San Dalmazzo
+Indirizzo: Via Michele Coppino, 33, 12100 Cuneo CN
+Coordinate: Lat 44.384833, Lng 7.53579
+Website: https://www.hoteltorrismondi.it/
+Email: 
+
+10024. Il melograno
+ID: 9dfbefe9-7c2b-411c-8d2a-e0d30044fe44
+Slug: il-melograno-borgo-san-dalmazzo
+Nome: Il melograno
+Comune / Provincia: Borgo San Dalmazzo
+Indirizzo: Via Dalmazzo Grasso, 6, 12011 Borgo San Dalmazzo CN
+Coordinate: Lat 44.340066, Lng 7.490417
+Website: https://www.ilmelograno.cuneo.it/
+Email: 
+
+10025. Le Lanterne
+ID: 6dc371e7-204d-4774-a9fa-0538d3f0a39c
+Slug: le-lanterne-borgo-san-dalmazzo
+Nome: Le Lanterne
+Comune / Provincia: Borgo San Dalmazzo
+Indirizzo: S.da Beguda, 105, 12011 Borgo San Dalmazzo CN
+Coordinate: Lat 44.334315, Lng 7.456677
+Website: http://www.lelanternehotel.com/
+Email: 
+
+10026. Hotel Cristallo
+ID: 761c16ef-0e78-415c-875f-12061ec77411
+Slug: hotel-cristallo-borgo-san-giacomo
+Nome: Hotel Cristallo
+Comune / Provincia: Borgo San Giacomo
+Indirizzo: Viale della Stazione, 12A, 25122 Brescia BS
+Coordinate: Lat 45.533603, Lng 10.211657
+Website: http://www.hotelcristallobrescia.com/
+Email: 
+
+10027. Lenotel
+ID: 81ef7906-a036-4ab7-a70f-a5f182505db5
+Slug: lenotel-borgo-san-giacomo
+Nome: Lenotel
+Comune / Provincia: Borgo San Giacomo
+Indirizzo: Via Amerigo Vespucci, 10, 25024 Leno BS
+Coordinate: Lat 45.378228, Lng 10.226036
+Website: http://www.lenotel.it/
+Email: 
+
+10028. Affittacamere Vittoria
+ID: a2ae33c9-8803-4715-b712-2123fbf64ca4
+Slug: affittacamere-vittoria-borgo-san-giovanni
+Nome: Affittacamere Vittoria
+Comune / Provincia: Borgo San Giovanni
+Indirizzo: Via della Vittoria, 15, 20098 Sesto Ulteriano MI
+Coordinate: Lat 45.394819, Lng 9.244698
+Website: https://affittacamere-vittoria.italiacongusto.top/
+Email: 
+
+10029. Agriturismo Rosita
+ID: b8c3c563-608d-47c3-9432-695f8750d66b
+Slug: agriturismo-rosita-borgo-san-giovanni
+Nome: Agriturismo Rosita
+Comune / Provincia: Borgo San Giovanni
+Indirizzo: Via XX Settembre, nr.11, 26838 Tavazzano con Villavesco LO
+Coordinate: Lat 45.347376, Lng 9.390771
+Website: http://www.agriturismorosita.it/
+Email: 
+
+10030. Agriturismo San Bruno
+ID: f5ac7a2b-95f0-4e51-97ea-356e43643c93
+Slug: agriturismo-san-bruno-borgo-san-giovanni
+Nome: Agriturismo San Bruno
+Comune / Provincia: Borgo San Giovanni
+Indirizzo: Cascina S.Bruno, 20078 San Colombano al Lambro MI
+Coordinate: Lat 45.1703, Lng 9.509155
+Website: http://www.bedandbreakfastsanbruno.it/
+Email: 
+
+10031. Albergo Liguria
+ID: 296d8961-c86d-4e3d-9b74-af5a265f9a3f
+Slug: albergo-liguria-borgo-san-giovanni
+Nome: Albergo Liguria
+Comune / Provincia: Borgo San Giovanni
+Indirizzo: Via Giuseppe Ripamonti, 134, 20141 Milano MI
+Coordinate: Lat 45.437895, Lng 9.200164
+Website: http://www.hotelliguriamilano.it/
+Email: 
+
+10032. Boutique Hotel Borgo Nuovo
+ID: de70044b-a3eb-4029-9f40-9afed51f8906
+Slug: boutique-hotel-borgo-nuovo-borgo-san-giovanni
+Nome: Boutique Hotel Borgo Nuovo
+Comune / Provincia: Borgo San Giovanni
+Indirizzo: Via S. Bernardo, 16/7, 20139 Milano MI
+Coordinate: Lat 45.41672, Lng 9.23875
+Website: http://www.borgo-nuovo.it/
+Email: 
+
+10033. Cascina Sesmones Hotel & Restaurant
+ID: e8e4db17-cc83-420b-a60b-f2cc13b94b5a
+Slug: cascina-sesmones-hotel-restaurant-borgo-san-giovanni
+Nome: Cascina Sesmones Hotel & Restaurant
+Comune / Provincia: Borgo San Giovanni
+Indirizzo: Cascina Sesmones, 26854 Cornegliano Laudense LO
+Coordinate: Lat 45.284955, Lng 9.46653
+Website: https://cascinasesmones.it/
+Email: 
+
+10034. Cattleya Rooms & Breakfast
+ID: 9d333a33-f42d-4870-919f-01000a965916
+Slug: cattleya-rooms-breakfast-borgo-san-giovanni
+Nome: Cattleya Rooms & Breakfast
+Comune / Provincia: Borgo San Giovanni
+Indirizzo: Via Milano, 30, 26025 Pandino CR
+Coordinate: Lat 45.405088, Lng 9.550641
+Website: https://www.cattleya-rooms.it/
+Email: 
+
+10035. Hotel Alessander
+ID: 8f941476-fdfc-431f-a1af-4fc427fb2d93
+Slug: hotel-alessander-borgo-san-giovanni
+Nome: Hotel Alessander
+Comune / Provincia: Borgo San Giovanni
+Indirizzo: Via Cortina d'Ampezzo, 17, 20139 Milano MI
+Coordinate: Lat 45.435559, Lng 9.208355
+Website: https://alessander.worhot.com/
+Email: 
+
+10036. Hotel San Giorgio Lodi
+ID: ca835e2a-4b99-4675-a0be-3fc81ea39d21
+Slug: hotel-san-giorgio-lodi-borgo-san-giovanni
+Nome: Hotel San Giorgio Lodi
+Comune / Provincia: Borgo San Giovanni
+Indirizzo: Strada Statale 9 Via Emilia, 58, 26838 Tavazzano con Villavesco LO
+Coordinate: Lat 45.329229, Lng 9.40342
+Website: https://hotelsangiorgio.lodi.it/
+Email: 
+
+10037. Locanda La Cascina
+ID: addc2ed0-6e24-4609-9adf-56198d1443f5
+Slug: locanda-la-cascina-borgo-san-giovanni
+Nome: Locanda La Cascina
+Comune / Provincia: Borgo San Giovanni
+Indirizzo: Viale Lombardia, 5, 20098 San Giuliano Milanese MI
+Coordinate: Lat 45.392864, Lng 9.256685
+Website: —
+Email: 
+
+10038. New Inn Apartments Srl
+ID: 5e64bea9-01a5-4495-bc24-67ce8cf140c8
+Slug: new-inn-apartments-srl-borgo-san-giovanni
+Nome: New Inn Apartments Srl
+Comune / Provincia: Borgo San Giovanni
+Indirizzo: Via Parini ang.via Manzoni , 10, 20060, 20076 Mediglia MI
+Coordinate: Lat 45.392002, Lng 9.33219
+Website: http://www.newinnresidence.com/
+Email: 
+
+10039. Agriturismo Borgo Scaffaia
+ID: fecc4269-3500-4053-9462-ed9b328ce197
+Slug: agriturismo-borgo-scaffaia-borgo-san-lorenzo
+Nome: Agriturismo Borgo Scaffaia
+Comune / Provincia: Borgo San Lorenzo
+Indirizzo: Località S. Giusto a Fortuna, 27, 50037 San Piero a Sieve FI
+Coordinate: Lat 43.969878, Lng 11.317663
+Website: https://schifanoia.farm/borgo-scaffaia
+Email: 
+
+10040. Agriturismo Palazzo Vecchio
+ID: fd199427-6377-43bb-ad4d-56a966bc58a1
+Slug: agriturismo-palazzo-vecchio-borgo-san-lorenzo
+Nome: Agriturismo Palazzo Vecchio
+Comune / Provincia: Borgo San Lorenzo
+Indirizzo: Località Piazzano, 41, 50032 Borgo San Lorenzo FI
+Coordinate: Lat 43.963308, Lng 11.41746
+Website: http://www.palazzovecchio.eu/
+Email: 
+
+10041. Agriturismo Podere Badia ValDrago
+ID: a9aa67c4-6fd8-4ce3-89f3-c8975556518b
+Slug: agriturismo-podere-badia-valdrago-borgo-san-lorenzo
+Nome: Agriturismo Podere Badia ValDrago
+Comune / Provincia: Borgo San Lorenzo
+Indirizzo: Podere Badia, via di Grezzano, 113, 50032 Borgo San Lorenzo FI
+Coordinate: Lat 44.019187, Lng 11.39053
+Website: https://poderebadia.com/
+Email: 
+
+10042. Agriturismo Ristorante Stazione di Monta
+ID: 7ba7355c-1437-4322-b992-0857a03d5bcc
+Slug: agriturismo-ristorante-stazione-di-monta-borgo-san-lorenzo
+Nome: Agriturismo Ristorante Stazione di Monta
+Comune / Provincia: Borgo San Lorenzo
+Indirizzo: Località Rupecanina, 32, 50039 Vicchio FI
+Coordinate: Lat 43.944534, Lng 11.474905
+Website: https://www.agriturismostazionedimonta.net/
+Email: 
+
+10043. Albergo La Rosa
+ID: e11035fc-9a0e-4ee9-aba1-f92218534c71
+Slug: albergo-la-rosa-borgo-san-lorenzo
+Nome: Albergo La Rosa
+Comune / Provincia: Borgo San Lorenzo
+Indirizzo: Via Faentina, 105, 50032 Ronta FI
+Coordinate: Lat 44.007948, Lng 11.434913
+Website: https://www.hotellarosamugello.it/
+Email: 
+
+10044. Albergo Ristorante Tre Fiumi
+ID: 7efb6be4-ae29-409f-9f31-a5d40085a7d6
+Slug: albergo-ristorante-tre-fiumi-borgo-san-lorenzo
+Nome: Albergo Ristorante Tre Fiumi
+Comune / Provincia: Borgo San Lorenzo
+Indirizzo: Via Madonna dei Tre Fiumi, 16, 50032 Borgo San Lorenzo FI
+Coordinate: Lat 44.01471, Lng 11.443218
+Website: https://www.albergoristorantetrefiumi.it/
+Email: 
+
+10045. B&B Figura Apartaments CIN: IT048004B4DUJ2WWGU
+ID: be4b85f5-6b99-4c48-ad5b-c0367a13546a
+Slug: b-b-figura-apartaments-cin-it048004b4duj2wwgu-borgo-san-lorenzo
+Nome: B&B Figura Apartaments CIN: IT048004B4DUJ2WWGU
+Comune / Provincia: Borgo San Lorenzo
+Indirizzo: Via Benedetto Croce, 35, 50032 Borgo San Lorenzo FI
+Coordinate: Lat 43.951573, Lng 11.395877
+Website: —
+Email: 

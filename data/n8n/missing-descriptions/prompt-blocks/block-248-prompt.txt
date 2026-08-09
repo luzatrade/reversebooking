@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+8646. Bed and breakfast Ma.Gi.A
+ID: 5e5b6ac6-d12b-4b0a-af0d-995e8a080d89
+Slug: bed-and-breakfast-ma-gi-a-bernezzo
+Nome: Bed and breakfast Ma.Gi.A
+Comune / Provincia: Bernezzo
+Indirizzo: Via Cristoforo Colombo, 20 A/Primo piano, 12010 San Rocco CN
+Coordinate: Lat 44.396886, Lng 7.479683
+Website: http://www.bedandbreakfastmagia.it/
+Email: 
+
+8647. Ca’ Mea room wellness food
+ID: f39110f4-438a-4472-8a9f-28b65e4d1a81
+Slug: ca-mea-room-wellness-food-bernezzo
+Nome: Ca’ Mea room wellness food
+Comune / Provincia: Bernezzo
+Indirizzo: Via Mistral, 34, 12020 Saretto CN
+Coordinate: Lat 44.394874, Lng 7.30754
+Website: http://camea.it/
+Email: 
+
+8648. Clarín Rooms
+ID: 3f4e3c0f-ded0-46c7-a734-a34ed8b3676d
+Slug: clarin-rooms-bernezzo
+Nome: Clarín Rooms
+Comune / Provincia: Bernezzo
+Indirizzo: Via Mellana, 5, 12100 Cuneo CN
+Coordinate: Lat 44.365174, Lng 7.523463
+Website: —
+Email: 
+
+8649. Hotel Ristorante Da Politano
+ID: 4d1055f2-ce2a-4ade-9d6a-3b31ba2b3190
+Slug: hotel-ristorante-da-politano-bernezzo
+Nome: Hotel Ristorante Da Politano
+Comune / Provincia: Bernezzo
+Indirizzo: Via Santuario, 125, 12012 Boves CN
+Coordinate: Lat 44.332749, Lng 7.523793
+Website: https://www.hotelpolitano.it/
+Email: 
+
+8650. La Cà ët Mec C.I.N. IT004185C17YCH
+ID: 85945b2d-e3d0-462c-80b9-67a3826ca662
+Slug: la-ca-et-mec-c-i-n-it004185c17ych-bernezzo
+Nome: La Cà ët Mec C.I.N. IT004185C17YCH
+Comune / Provincia: Bernezzo
+Indirizzo: Str. Santa Margherita, 14, 12017 Robilante CN
+Coordinate: Lat 44.296265, Lng 7.514174
+Website: http://la-ca-et-mec.com.es//
+Email: 
+
+8651. La Locanda del Bistrot dei Vinai
+ID: 6feafc1b-2545-495f-8e9a-59867a3c1362
+Slug: la-locanda-del-bistrot-dei-vinai-bernezzo
+Nome: La Locanda del Bistrot dei Vinai
+Comune / Provincia: Bernezzo
+Indirizzo: Via Vittorio Amedeo Secondo, 11, 12100 Cuneo CN
+Coordinate: Lat 44.388859, Lng 7.544587
+Website: http://albistrotdeivinai.it/le-camere/
+Email: 
+
+8652. Locanda dei Gelsi
+ID: 96355be8-2ade-4a6d-8239-3700777fcafa
+Slug: locanda-dei-gelsi-bernezzo
+Nome: Locanda dei Gelsi
+Comune / Provincia: Bernezzo
+Indirizzo: Via della Resistenza, 22, 12020 Villar San Costanzo CN
+Coordinate: Lat 44.471745, Lng 7.3938
+Website: http://www.locandadeigelsi.it/
+Email: 
+
+8653. Senza Fretta Osteria con Camere
+ID: cd268cf7-bd3b-4e0a-aada-86d63a325763
+Slug: senza-fretta-osteria-con-camere-bernezzo
+Nome: Senza Fretta Osteria con Camere
+Comune / Provincia: Bernezzo
+Indirizzo: Via Dronero, 3bis, 12100 Cuneo CN
+Coordinate: Lat 44.392696, Lng 7.549626
+Website: http://osteriasenzafretta.it/
+Email: 
+
+8654. Stare Bene B&B
+ID: 320f799b-382a-4f78-9731-c30a35e6d690
+Slug: stare-bene-b-b-bernezzo
+Nome: Stare Bene B&B
+Comune / Provincia: Bernezzo
+Indirizzo: Via Alpi, 24, 12010 Bernezzo CN
+Coordinate: Lat 44.389812, Lng 7.431885
+Website: https://g.co/kgs/f8KNEM
+Email: 
+
+8655. Agricola - Casa, Cucina, Bottega
+ID: 6c793ce4-602b-418d-9801-b358a98a9e38
+Slug: agricola-casa-cucina-bottega-bertinoro
+Nome: Agricola - Casa, Cucina, Bottega
+Comune / Provincia: Bertinoro
+Indirizzo: Via Cesuola, 901, 47521 Cesena FC
+Coordinate: Lat 44.087835, Lng 12.239759
+Website: http://www.agricolacasacucinabottega.it/
+Email: 
+
+8656. Agriturismo 7 Colonne
+ID: 8a8a3d23-d2ab-4fd3-96e2-07b45dae364f
+Slug: agriturismo-7-colonne-bertinoro
+Nome: Agriturismo 7 Colonne
+Comune / Provincia: Bertinoro
+Indirizzo: Via Cantalupo, 47032 Bertinoro FC
+Coordinate: Lat 44.148979, Lng 12.147908
+Website: https://agriturismo7colonne.it/
+Email: 
+
+8657. Air Hotel
+ID: cbfc2956-7985-4d41-8a5e-99c16c67e187
+Slug: air-hotel-bertinoro
+Nome: Air Hotel
+Comune / Provincia: Bertinoro
+Indirizzo: Via Nereo Morandi, 7, 47121 Forlì FC
+Coordinate: Lat 44.206464, Lng 12.076209
+Website: https://www.hotelair.it/
+Email: 
+
+8658. All'Ovile
+ID: 1f2ac5f7-1ab5-4f96-b5cf-c05aba97b341
+Slug: all-ovile-bertinoro
+Nome: All'Ovile
+Comune / Provincia: Bertinoro
+Indirizzo: Str. Vernacchia Montevescovo, 29, 47014 Meldola FC
+Coordinate: Lat 44.088468, Lng 12.058395
+Website: https://cittait.cyou/all-ovile-as38k0
+Email: 
+
+8659. B&B del Borgo Bertinoro
+ID: f48ddc0d-92f8-489e-8d52-cc4052b2354a
+Slug: b-b-del-borgo-bertinoro-bertinoro
+Nome: B&B del Borgo Bertinoro
+Comune / Provincia: Bertinoro
+Indirizzo: Via Giuseppe Mazzini, 35, 47032 Bertinoro FC
+Coordinate: Lat 44.14792, Lng 12.13494
+Website: https://www.bbdelborgobertinoro.it/
+Email: 
+
+8660. Casa delle ginestre
+ID: a8c53b8d-ad43-46f4-b956-e1ef0b74b74a
+Slug: casa-delle-ginestre-bertinoro
+Nome: Casa delle ginestre
+Comune / Provincia: Bertinoro
+Indirizzo: Via Tomba di Casetto, 736, 47522 Cesena FC
+Coordinate: Lat 44.07487, Lng 12.211608
+Website: http://casadelleginestre.com/
+Email: 
+
+8661. Giardino34
+ID: 87b1d592-4762-4296-bfb3-fdd8410d4bd7
+Slug: giardino34-bertinoro
+Nome: Giardino34
+Comune / Provincia: Bertinoro
+Indirizzo: Via S. Pellegrino Laziosi, 34, 47121 Forlì FC
+Coordinate: Lat 44.219814, Lng 12.043144
+Website: http://www.giardino34.it/
+Email: 
+
+8662. Grand Hotel Forlì
+ID: 178b7c40-0425-44d2-8e8d-0225297a7268
+Slug: grand-hotel-forli-bertinoro
+Nome: Grand Hotel Forlì
+Comune / Provincia: Bertinoro
+Indirizzo: Via Del Partigiano, 12/bis, 47121 Forlì FC
+Coordinate: Lat 44.197308, Lng 11.997199
+Website: https://www.grandhotelforli.com/
+Email: 
+
+8663. Hotel Fontanelle
+ID: 59eb2246-9218-4d79-b16d-7ecda549c1ec
+Slug: hotel-fontanelle-bertinoro
+Nome: Hotel Fontanelle
+Comune / Provincia: Bertinoro
+Indirizzo: Via Loreta, 271, 47032 Bertinoro FC
+Coordinate: Lat 44.141457, Lng 12.100747
+Website: http://www.hotelfontanelle.it/
+Email: 
+
+8664. Hotel La Colonna
+ID: 8256aa6c-ba37-4c4c-a830-33938a1f3f01
+Slug: hotel-la-colonna-bertinoro
+Nome: Hotel La Colonna
+Comune / Provincia: Bertinoro
+Indirizzo: Piazza della Libertà, 8, 47032 Bertinoro FC
+Coordinate: Lat 44.149489, Lng 12.133147
+Website: http://www.hotellacolonna.it/
+Email: 
+
+8665. Hotel Marta
+ID: a2b559d1-0d52-4089-bf23-12745aae772d
+Slug: hotel-marta-bertinoro
+Nome: Hotel Marta
+Comune / Provincia: Bertinoro
+Indirizzo: Via Carlo Cignani, 11, 47121 Forlì FC
+Coordinate: Lat 44.221207, Lng 12.04368
+Website: http://www.hotelmartaforli.it/
+Email: 
+
+8666. Hotel Masini
+ID: 12af8f1b-f179-4fe0-9d51-8474f9df600f
+Slug: hotel-masini-bertinoro
+Nome: Hotel Masini
+Comune / Provincia: Bertinoro
+Indirizzo: Corso Giuseppe Garibaldi, 28, 47121 Forlì FC
+Coordinate: Lat 44.222729, Lng 12.038595
+Website: http://www.hotelmasini.it/
+Email: 
+
+8667. Hotel Michelangelo Forlì
+ID: 1be6d512-3154-4deb-b04c-cc56093ce5ef
+Slug: hotel-michelangelo-forli-bertinoro
+Nome: Hotel Michelangelo Forlì
+Comune / Provincia: Bertinoro
+Indirizzo: Via Michelangelo Buonarroti, 4/6, 47122 Forlì FC
+Coordinate: Lat 44.217246, Lng 12.053129
+Website: http://www.hotelmichelangelo.fc.it/
+Email: 
+
+8668. Hotel Panorama Bertinoro
+ID: eb00eeb0-c1e8-4acd-b62d-05a69aba7133
+Slug: hotel-panorama-bertinoro-bertinoro
+Nome: Hotel Panorama Bertinoro
+Comune / Provincia: Bertinoro
+Indirizzo: Piazza della Libertà, 11, 47032 Bertinoro FC
+Coordinate: Lat 44.149233, Lng 12.134048
+Website: http://www.hotelpanoramabertinoro.it/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+8669. la cana dolce
+ID: c8cf7b65-a0cc-4c76-904f-cf5a687081eb
+Slug: la-cana-dolce-bertinoro
+Nome: la cana dolce
+Comune / Provincia: Bertinoro
+Indirizzo: Viale Carducci, 151, 47032 Bertinoro FC
+Coordinate: Lat 44.145783, Lng 12.141805
+Website: http://www.lacanadolce.com/
+Email: 
+
+8670. Mondo Antico B&B E VICOLETTO Appartamento Vacanza centro storico
+ID: e0672223-263f-451a-82f7-a44d883a857a
+Slug: mondo-antico-b-b-e-vicoletto-appartamento-vacanz-bertinoro
+Nome: Mondo Antico B&B E VICOLETTO Appartamento Vacanza centro storico
+Comune / Provincia: Bertinoro
+Indirizzo: Via Paiuncolo, 9, 47521 Cesena FC
+Coordinate: Lat 44.137345, Lng 12.24706
+Website: http://www.mondoanticocesena.it/
+Email: 
+
+8671. Respiro Glamping
+ID: 32b0d662-b0a5-444d-b83f-8ec4f0dc8b05
+Slug: respiro-glamping-bertinoro
+Nome: Respiro Glamping
+Comune / Provincia: Bertinoro
+Indirizzo: Via Pianazze, 1879, 47522 Cesena FC
+Coordinate: Lat 44.078484, Lng 12.137826
+Website: https://www.respiroglamping.com/
+Email: 
+
+8672. Romea Aparthotel Residence
+ID: d85fbefd-d83a-4631-8b08-2b19a46ce51b
+Slug: romea-aparthotel-residence-bertinoro
+Nome: Romea Aparthotel Residence
+Comune / Provincia: Bertinoro
+Indirizzo: Via Romea, 605, 47522 Cesena FC
+Coordinate: Lat 44.139975, Lng 12.218377
+Website: https://romeabikeaparthotel.it/
+Email: 
+
+8673. affittacamere All'Antico Borgo
+ID: 986e394d-c9d9-404b-b1a9-fe8fcdba8415
+Slug: affittacamere-all-antico-borgo-bertiolo
+Nome: affittacamere All'Antico Borgo
+Comune / Provincia: Bertiolo
+Indirizzo: Via Tagliamento, 16, 33030 Camino Al Tagliamento UD
+Coordinate: Lat 45.926144, Lng 12.94109
+Website: http://www.bed-and-breakfast.it/
+Email: 
+
+8674. ALBERTA
+ID: 9ef2075c-63dd-4b30-8b2c-69f1b300a811
+Slug: alberta-bertiolo
+Nome: ALBERTA
+Comune / Provincia: Bertiolo
+Indirizzo: Via Latisana, 12, 33032 Bertiolo UD
+Coordinate: Lat 45.94218, Lng 13.049625
+Website: https://hotelstays.eu/alberta-bertiolo-italy
+Email: 
+
+8675. B&B Dreon
+ID: c88cea7a-e4a6-471a-989a-60c5dad2b7f7
+Slug: b-b-dreon-bertiolo
+Nome: B&B Dreon
+Comune / Provincia: Bertiolo
+Indirizzo: Via Giuseppe Mazzini, 11, 30025 Fossalta di Portogruaro VE
+Coordinate: Lat 45.792511, Lng 12.907986
+Website: http://www.italiaholidays.info
+Email: 
+
+8676. B&B Gildo
+ID: 133f7dec-8a87-4f39-9f95-12201048fe1b
+Slug: b-b-gildo-bertiolo
+Nome: B&B Gildo
+Comune / Provincia: Bertiolo
+Indirizzo: Via Margherita, 12, 33032 Bertiolo UD
+Coordinate: Lat 45.941622, Lng 13.052399
+Website: http://www.bebgildo.it/
+Email: 
+
+8677. B&B Salvia e Rosmarino
+ID: 45ecd3c8-97bd-4029-980d-428c0d100e61
+Slug: b-b-salvia-e-rosmarino-bertiolo
+Nome: B&B Salvia e Rosmarino
+Comune / Provincia: Bertiolo
+Indirizzo: Piazza Mercato, 7, 33032 Bertiolo UD
+Coordinate: Lat 45.942572, Lng 13.048246
+Website: https://bb-salvia-e-rosmarino.italytrip.top/
+Email: 
+
+8678. Bar Oasi Trattoria Affittacamere
+ID: 73372b1c-ce53-43af-8973-334ef26697ed
+Slug: bar-oasi-trattoria-affittacamere-bertiolo
+Nome: Bar Oasi Trattoria Affittacamere
+Comune / Provincia: Bertiolo
+Indirizzo: Via Roma, 107, 33050 Pocenia UD
+Coordinate: Lat 45.836735, Lng 13.09847
+Website: https://bar-oasi-trattoria-affittacamere.vederelitalia.top/
+Email: 
+
+8679. da Gastone
+ID: 71932ab3-faa4-4eb0-abb9-35bd8c5552ba
+Slug: da-gastone-bertiolo
+Nome: da Gastone
+Comune / Provincia: Bertiolo
+Indirizzo: Via Gabriele D'Annunzio, 48, 33050 Flambruzzo UD
+Coordinate: Lat 45.879108, Lng 13.072621
+Website: http://www.agriturismodagastone.it/
+Email: 
+
+8680. EDERA dei Guatto
+ID: 2a3d1faf-f772-48ad-bfb7-6f5e16879880
+Slug: edera-dei-guatto-bertiolo
+Nome: EDERA dei Guatto
+Comune / Provincia: Bertiolo
+Indirizzo: Via Latisana, 32, 33032 Bertiolo UD
+Coordinate: Lat 45.941246, Lng 13.048986
+Website: https://ederadeiguatto.wixsite.com/ilmiosito
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+8716. PerBaccoBar Bed and Breakfast Brescia
+ID: b91ff990-2ff4-4741-9ade-8f21239543be
+Slug: perbaccobar-bed-and-breakfast-brescia-berzo-demo
+Nome: PerBaccoBar Bed and Breakfast Brescia
+Comune / Provincia: Berzo Demo
+Indirizzo: Via Nuova, 2, 25040 Ono San Pietro BS
+Coordinate: Lat 46.01711, Lng 10.32586
+Website: http://bbperbaccobar.altervista.org/it_IT/
+Email: 
+
+8717. Apartment Suite Oasi Verde
+ID: ddee78ed-e613-48a9-bfb4-f71c46ec16b7
+Slug: apartment-suite-oasi-verde-berzo-inferiore
+Nome: Apartment Suite Oasi Verde
+Comune / Provincia: Berzo Inferiore
+Indirizzo: Via dei Tornanti, 4, 25040 Bienno BS
+Coordinate: Lat 45.930663, Lng 10.309107
+Website: https://www.oasi-verde-apartment-suite-prestine.com/
+Email: 
+
+8718. B & B "La Casa di Clara"
+ID: 56bb50d2-95c1-4b7c-9308-90b002c0fcaf
+Slug: b-b-la-casa-di-clara-berzo-inferiore
+Nome: B & B "La Casa di Clara"
+Comune / Provincia: Berzo Inferiore
+Indirizzo: Via Alessandro Manzoni, 38, 25040 Esine BS
+Coordinate: Lat 45.925617, Lng 10.253763
+Website: http://www.lacasadiclara.net/
+Email: 
+
+8719. B&B a la Ria
+ID: 35f9d405-028b-42c3-9feb-95acac40d7cd
+Slug: b-b-a-la-ria-berzo-inferiore
+Nome: B&B a la Ria
+Comune / Provincia: Berzo Inferiore
+Indirizzo: Via Ripa, 117, 25040 Bienno BS
+Coordinate: Lat 45.93389, Lng 10.29562
+Website: http://www.bbalaria.it/
+Email: 
+
+8720. Eremo di Bienno
+ID: a7b19e5a-dd61-402b-9ee6-c83f57816b36
+Slug: eremo-di-bienno-berzo-inferiore
+Nome: Eremo di Bienno
+Comune / Provincia: Berzo Inferiore
+Indirizzo: Via San Pietro, 11, 25040 Bienno BS
+Coordinate: Lat 45.944327, Lng 10.285699
+Website: https://www.eremobienno.it/
+Email: 
+
+8721. Graffitipark Hotel Ristorante
+ID: 3133280f-523d-415b-b1c8-4dabe660b10b
+Slug: graffitipark-hotel-ristorante-berzo-inferiore
+Nome: Graffitipark Hotel Ristorante
+Comune / Provincia: Berzo Inferiore
+Indirizzo: Via Sebastiano Briscioli, 42, 25044 Capo di Ponte BS
+Coordinate: Lat 46.027134, Lng 10.34556
+Website: https://graffitipark.eu/
+Email: 
+
+8722. Hotel Giardino Breno
+ID: 732fb496-f13a-4a90-ae84-2364a12336d8
+Slug: hotel-giardino-breno-berzo-inferiore
+Nome: Hotel Giardino Breno
+Comune / Provincia: Berzo Inferiore
+Indirizzo: Viale 28 Aprile, 7, 25043 Breno BS
+Coordinate: Lat 45.958099, Lng 10.303936
+Website: http://www.hotelgiardinobreno.com/
+Email: 
+
+8723. Hotel Ristorante Oasi Verde
+ID: e5994177-6edd-4e20-85c8-353793de883a
+Slug: hotel-ristorante-oasi-verde-berzo-inferiore
+Nome: Hotel Ristorante Oasi Verde
+Comune / Provincia: Berzo Inferiore
+Indirizzo: Via dei Tornanti, 4, 25040 Bienno BS
+Coordinate: Lat 45.930538, Lng 10.309578
+Website: http://www.hoteloasiverde.it/?utm_source=GoogleMyBusiness&utm_medium=organic
+Email: 
+
+8724. La Torre a Colori B&B
+ID: e84004a8-a50d-45df-ad7b-c425f4cbc11b
+Slug: la-torre-a-colori-b-b-berzo-inferiore
+Nome: La Torre a Colori B&B
+Comune / Provincia: Berzo Inferiore
+Indirizzo: Via Torre, 21, 25040 Esine BS
+Coordinate: Lat 45.923406, Lng 10.256188
+Website: https://latorreacolori.it/
+Email: 
+
+8725. Manzoni 124
+ID: 9dcc51ec-7b88-47f6-befc-6696f940d625
+Slug: manzoni-124-berzo-inferiore
+Nome: Manzoni 124
+Comune / Provincia: Berzo Inferiore
+Indirizzo: Via Alessandro Manzoni, 124, 25040 Esine BS
+Coordinate: Lat 45.926445, Lng 10.246168
+Website: http://www.manzoni124.it/
+Email: 
+
+8726. Pasticceria Caffetteria Bed and Breakfast Quadretto
+ID: d5a15dcd-660f-485f-a95b-e840b45f1873
+Slug: pasticceria-caffetteria-bed-and-breakfast-quadre-berzo-inferiore
+Nome: Pasticceria Caffetteria Bed and Breakfast Quadretto
+Comune / Provincia: Berzo Inferiore
+Indirizzo: Via Contrizio, 32, 25040 Bienno BS
+Coordinate: Lat 45.934569, Lng 10.295869
+Website: http://www.quadrettobienno.it/
+Email: 
+
+8727. Quader nidi nel verde
+ID: fa27b75e-1575-47ed-85aa-1821a878eec9
+Slug: quader-nidi-nel-verde-berzo-inferiore
+Nome: Quader nidi nel verde
+Comune / Provincia: Berzo Inferiore
+Indirizzo: Via Quadro, 25040 Bienno BS
+Coordinate: Lat 45.926176, Lng 10.313296
+Website: https://www.quader.it/
+Email: 
+
+8728. RoccaVerde Hotel
+ID: 3078bac8-3713-4029-9448-3715351e8521
+Slug: roccaverde-hotel-berzo-inferiore
+Nome: RoccaVerde Hotel
+Comune / Provincia: Berzo Inferiore
+Indirizzo: Via Follo, 1, 25043 Breno BS
+Coordinate: Lat 45.956686, Lng 10.294513
+Website: https://roccaverde.com/
+Email: 
+
+8729. Agriturismo Cà del Manét
+ID: ba53768e-eedd-492b-b821-dc16c3dad081
+Slug: agriturismo-ca-del-manet-berzo-san-fermo
+Nome: Agriturismo Cà del Manét
+Comune / Provincia: Berzo San Fermo
+Indirizzo: Via dei Roncati, 13, 24060 San Paolo d'Argon BG
+Coordinate: Lat 45.691224, Lng 9.792877
+Website: http://www.cadelmanet.it/
+Email: 
+
+8730. Agriturismo con camere Green Valley
+ID: ef208c17-85c4-4208-839d-255e3fc50596
+Slug: agriturismo-con-camere-green-valley-berzo-san-fermo
+Nome: Agriturismo con camere Green Valley
+Comune / Provincia: Berzo San Fermo
+Indirizzo: Via Valle Rossa, 73, 24020 Cene BG
+Coordinate: Lat 45.779048, Lng 9.872625
+Website: —
+Email: 
+
+8731. Agriturismo Ippolita Lucchetti
+ID: b8ab53b9-edd9-4e00-83a2-cbe1e0cf45d4
+Slug: agriturismo-ippolita-lucchetti-berzo-san-fermo
+Nome: Agriturismo Ippolita Lucchetti
+Comune / Provincia: Berzo San Fermo
+Indirizzo: Localita, Via Valle Rossa, 24020 Cene BG
+Coordinate: Lat 45.775542, Lng 9.864951
+Website: http://www.martinicoldipaste.com/
+Email: 
+
+8732. Agriturismo Terra e Lago
+ID: 307dedc4-c9c7-41d0-a018-c7f82a6300a4
+Slug: agriturismo-terra-e-lago-berzo-san-fermo
+Nome: Agriturismo Terra e Lago
+Comune / Provincia: Berzo San Fermo
+Indirizzo: Via Giuseppe Garibaldi, 40, 25030 Paratico BS
+Coordinate: Lat 45.653598, Lng 9.949326
+Website: https://www.terraelago.it/
+Email: 
+
+8733. Albergo Ristorante della Torre - Wine bar, Enoteca in Val Cavallina
+ID: 4d047559-5bd2-4073-b118-bd9503b2e0cf
+Slug: albergo-ristorante-della-torre-wine-bar-enoteca-berzo-san-fermo
+Nome: Albergo Ristorante della Torre - Wine bar, Enoteca in Val Cavallina
+Comune / Provincia: Berzo San Fermo
+Indirizzo: Piazza Cavour, 26, 24069 Trescore Balneario BG
+Coordinate: Lat 45.695216, Lng 9.840273
+Website: http://www.albergotorre.it/
+Email: 
+
+8734. B&B Gledizia
+ID: 5c0edf9d-e8ec-49ca-aebb-97f3c8e1430c
+Slug: b-b-gledizia-berzo-san-fermo
+Nome: B&B Gledizia
+Comune / Provincia: Berzo San Fermo
+Indirizzo: Via Pietra di Credaro, 27, 24060 Credaro BG
+Coordinate: Lat 45.656472, Lng 9.93145
+Website: http://www.bbgledizia.it/contatti.htm
+Email: 
+
+8735. B&B Vinea Prisca Family Resort 1998
+ID: 5a8ff373-d264-4386-bf02-ecc0c4424bb7
+Slug: b-b-vinea-prisca-family-resort-1998-berzo-san-fermo
+Nome: B&B Vinea Prisca Family Resort 1998
+Comune / Provincia: Berzo San Fermo
+Indirizzo: Via S. Bernardo, 1A, 24069 Cenate Sotto BG
+Coordinate: Lat 45.701067, Lng 9.814501
+Website: —
+Email: 
+
+8736. Boutique Hotel Roma 30
+ID: cb5e2251-406d-4488-88f1-ff33e57d207d
+Slug: boutique-hotel-roma-30-berzo-san-fermo
+Nome: Boutique Hotel Roma 30
+Comune / Provincia: Berzo San Fermo
+Indirizzo: Via Roma, 30, 24069 Trescore Balneario BG
+Coordinate: Lat 45.690299, Lng 9.843257
+Website: https://hotelroma30.it/
+Email: 
+
+8737. B&B Circuito
+ID: 30c29bc2-fb0b-4d80-a319-a4c000b0fb63
+Slug: b-b-circuito-besana-in-brianza
+Nome: B&B Circuito
+Comune / Provincia: Besana in Brianza
+Indirizzo: Via Roma, 21, 20853 Biassono MB
+Coordinate: Lat 45.630632, Lng 9.276683
+Website: http://www.bed-and-breakfast-circuito.it/
+Email: 
+
+8738. Birabiro b&b - CIN IT108015C13TGU7TEW
+ID: 196032af-cd37-4551-9c9e-ef50f045c2aa
+Slug: birabiro-b-b-cin-it108015c13tgu7tew-besana-in-brianza
+Nome: Birabiro b&b - CIN IT108015C13TGU7TEW
+Comune / Provincia: Besana in Brianza
+Indirizzo: Via Goito, 29, 20841 Carate Brianza MB
+Coordinate: Lat 45.67141, Lng 9.224914
+Website: http://www.bbmonza.it/
+Email: 
+
+8739. B&b Il Pioppo Antico
+ID: 37597c52-19a5-4931-a31d-b8fc8b83519e
+Slug: b-b-il-pioppo-antico-besano
+Nome: B&b Il Pioppo Antico
+Comune / Provincia: Besano
+Indirizzo: Via dei Tigli, 4, 21059 Viggiù VA
+Coordinate: Lat 45.872456, Lng 8.915521
+Website: https://bb-il-pioppo-antico.italiacongusto.top/
+Email: 
+
+8740. Caroline Hotel
+ID: 5a565bd1-73df-4029-a71b-3422cd3bc526
+Slug: caroline-hotel-besano
+Nome: Caroline Hotel
+Comune / Provincia: Besano
+Indirizzo: Via Federico Motta, 4, 21050 Brusimpiano VA
+Coordinate: Lat 45.945228, Lng 8.889283
+Website: https://www.carolinehotel.it/
+Email: 
+
+8741. L’Helleboro
+ID: 9ed8f04e-c1fc-44d9-880c-1e1220143558
+Slug: l-helleboro-besano
+Nome: L’Helleboro
+Comune / Provincia: Besano
+Indirizzo: Via S. Elia, 88, 21059 Viggiu' VA
+Coordinate: Lat 45.87668, Lng 8.904522
+Website: https://lhelleboro.italiatips.top/
+Email: 
+
+8742. Villa Rina
+ID: 585115b7-8fc3-4bda-b03c-d86c9ca1d844
+Slug: villa-rina-besano
+Nome: Villa Rina
+Comune / Provincia: Besano
+Indirizzo: Via Roma, 106, 21050 Porto Ceresio VA
+Coordinate: Lat 45.910593, Lng 8.910669
+Website: https://rina.tripcombined.com/
+Email: 
+
+8743. Aquarius
+ID: 025cb70f-fae4-4850-8584-53c4789864bf
+Slug: aquarius-besate
+Nome: Aquarius
+Comune / Provincia: Besate
+Indirizzo: Via Morona, 73, 20090 Trezzano sul Naviglio MI
+Coordinate: Lat 45.42726, Lng 9.051709
+Website: —
+Email: 
+
+8744. B&B Magnolia
+ID: 9cfe4e7d-3ece-40c7-b3b2-b9a226b2ddfc
+Slug: b-b-magnolia-besate
+Nome: B&B Magnolia
+Comune / Provincia: Besate
+Indirizzo: Via De Capitani, 35/2, 20080 Besate MI
+Coordinate: Lat 45.312458, Lng 8.971187
+Website: http://www.bbmagnolia.net/
+Email: 
+
+8745. Hotel del Parco
+ID: 6b70ee39-21d5-4e97-a87d-21144aee2653
+Slug: hotel-del-parco-besate
+Nome: Hotel del Parco
+Comune / Provincia: Besate
+Indirizzo: Corso Milano, 95, 27029 Vigevano PV
+Coordinate: Lat 45.330227, Lng 8.881545
+Website: http://www.delparcohotel.it/
+Email: 
+
+8746. Hotel Morimondo
+ID: 6c1907e7-5c15-45d1-b7bb-ba1544d58f7f
+Slug: hotel-morimondo-besate
+Nome: Hotel Morimondo
+Comune / Provincia: Besate
+Indirizzo: Corte dei Cistercensi, 6, 20081 Morimondo MI
+Coordinate: Lat 45.353119, Lng 8.955721
+Website: http://www.hotelmorimondo.com/
+Email: 
+
+8747. Hotel Motel 2000
+ID: 4494c6fe-5f57-42c0-bfd4-b1e4a289986d
+Slug: hotel-motel-2000-besate
+Nome: Hotel Motel 2000
+Comune / Provincia: Besate
+Indirizzo: Viale Cristoforo Colombo, 55, 20090 Trezzano sul Naviglio MI
+Coordinate: Lat 45.428324, Lng 9.074884
+Website: http://www.motel2000.it/
+Email: 
+
+8748. Agritur Il Granello
+ID: f2d47fd2-56d9-4084-a90f-227fb81adf42
+Slug: agritur-il-granello-besenello
+Nome: Agritur Il Granello
+Comune / Provincia: Besenello
+Indirizzo: Via Stradone Vecchio, 13, 38019 Ville d'Anaunia TN
+Coordinate: Lat 46.33077, Lng 11.023959
+Website: https://www.agriturilgranello.it/
+Email: 
+
+8749. Agritur Maso Nello
+ID: 0f581130-0d52-43f6-9f9f-633ebce0fc35
+Slug: agritur-maso-nello-besenello
+Nome: Agritur Maso Nello
+Comune / Provincia: Besenello
+Indirizzo: Via Pineta, 3 - loc. Maso Nello Faedo, 38098 S. Michele a/A TN
+Coordinate: Lat 46.195433, Lng 11.166355
+Website: http://www.masonello.it/
+Email: 
+
+8750. Agritur Renetta
+ID: 9fd5f943-c763-425e-aad4-db03b7cedb93
+Slug: agritur-renetta-besenello
+Nome: Agritur Renetta
+Comune / Provincia: Besenello
+Indirizzo: Via di Campo, 12, 38019 Ville d'Anaunia TN
+Coordinate: Lat 46.332748, Lng 11.052468
+Website: http://www.agritur-renetta.it/
+Email: 

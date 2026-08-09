@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+11306. Agriturismo A'Cunziria
+ID: c12239c5-d8f4-497e-bf66-0995b729a342
+Slug: agriturismo-a-cunziria-buccheri
+Nome: Agriturismo A'Cunziria
+Comune / Provincia: Buccheri
+Indirizzo: Contrada, Via Masera, 95049 Vizzini CT
+Coordinate: Lat 37.164949, Lng 14.752607
+Website: https://www.cunziria.com/
+Email: 
+
+11307. Agriturismo Casmene
+ID: 7d7d86db-f2f0-49c4-a7ff-e521d8f87a4a
+Slug: agriturismo-casmene-buccheri
+Nome: Agriturismo Casmene
+Comune / Provincia: Buccheri
+Indirizzo: Contrada Guffari s.n, 96010 Buscemi SR
+Coordinate: Lat 37.107421, Lng 14.828883
+Website: http://www.casmene.it/
+Email: 
+
+11308. Agriturismo Giannavi'
+ID: aecc1983-54fd-49dc-950f-80de14a1a7d7
+Slug: agriturismo-giannavi-buccheri
+Nome: Agriturismo Giannavi'
+Comune / Provincia: Buccheri
+Indirizzo: Contrada Giannavi' sp 23, 96010 Palazzolo Acreide SR
+Coordinate: Lat 37.036704, Lng 14.861499
+Website: http://www.giannavi.it/
+Email: 
+
+11309. Agriturismo Roccadia
+ID: a3f2538a-24f2-4603-b6ac-6d6a4500af7a
+Slug: agriturismo-roccadia-buccheri
+Nome: Agriturismo Roccadia
+Comune / Provincia: Buccheri
+Indirizzo: C.Da Roccadia Sn, 96013 Carlentini SR
+Coordinate: Lat 37.262702, Lng 15.032105
+Website: https://www.roccadia.com/
+Email: 
+
+11310. Agriturismo Valle Di Chiaramonte
+ID: 470bd125-a978-4e1f-912f-f0935720ba0e
+Slug: agriturismo-valle-di-chiaramonte-buccheri
+Nome: Agriturismo Valle Di Chiaramonte
+Comune / Provincia: Buccheri
+Indirizzo: Contrada Piano Zacchi Pantanelli, 97012 Chiaramonte Gulfi RG
+Coordinate: Lat 37.054884, Lng 14.666217
+Website: https://www.valledichiaramonte.it/
+Email: 
+
+11311. Amecasa accoglienza diffusa
+ID: e688b015-7d00-49d8-ab64-1485c02e875d
+Slug: amecasa-accoglienza-diffusa-buccheri
+Nome: Amecasa accoglienza diffusa
+Comune / Provincia: Buccheri
+Indirizzo: Corso Umberto I, 127, 95040 Licodia Eubea CT
+Coordinate: Lat 37.156877, Lng 14.705041
+Website: —
+Email: 
+
+11312. Borgo degli Ulivi
+ID: 14b7d03b-71d3-4730-8e8e-127d5930236b
+Slug: borgo-degli-ulivi-buccheri
+Nome: Borgo degli Ulivi
+Comune / Provincia: Buccheri
+Indirizzo: C.da Bibbia, 96010 Palazzolo Acreide SR
+Coordinate: Lat 37.079948, Lng 15.029291
+Website: https://www.borgodegliulivi.com/
+Email: 
+
+11313. Dimore Hyblon
+ID: 8d4bdff4-e71b-4ace-bfa2-4b81ffdf6a5e
+Slug: dimore-hyblon-buccheri
+Nome: Dimore Hyblon
+Comune / Provincia: Buccheri
+Indirizzo: Piazza Matrice, 2, 96010 Cassaro SR
+Coordinate: Lat 37.10603, Lng 14.949555
+Website: https://dimorehyblonpantalica.com/
+Email: 
+
+11314. Domus Hyblaea Resort
+ID: 56232100-9598-4843-80d4-8f839af17c63
+Slug: domus-hyblaea-resort-buccheri
+Nome: Domus Hyblaea Resort
+Comune / Provincia: Buccheri
+Indirizzo: Via Giuseppe Campailla, snc, 96010 Palazzolo Acreide SR
+Coordinate: Lat 37.07159, Lng 14.916802
+Website: http://www.domushyblaea.it/
+Email: 
+
+11315. Feudo Bauly - Ristorante, Hotel, Ricevimenti
+ID: 5b943072-5537-4e89-b5f3-76417ac58562
+Slug: feudo-bauly-ristorante-hotel-ricevimenti-buccheri
+Nome: Feudo Bauly - Ristorante, Hotel, Ricevimenti
+Comune / Provincia: Buccheri
+Indirizzo: C/da Bauly, 96017 Noto SR
+Coordinate: Lat 37.035968, Lng 14.933967
+Website: http://www.feudobauly.com/
+Email: 
+
+11316. Il Borghetto di Santa Lucia
+ID: 9f17c7b9-7379-40ea-ab9d-9d345d394f3a
+Slug: il-borghetto-di-santa-lucia-buccheri
+Nome: Il Borghetto di Santa Lucia
+Comune / Provincia: Buccheri
+Indirizzo: Contrada Santa Lucia, 96017, 96017 Noto SR
+Coordinate: Lat 37.03957, Lng 14.906282
+Website: http://ilborghettodisantalucia.flazio.com/
+Email: 
+
+11317. La Bella Vita Agriturismo
+ID: ffd0b9c1-6095-45fe-9907-695b19b3f444
+Slug: la-bella-vita-agriturismo-buccheri
+Nome: La Bella Vita Agriturismo
+Comune / Provincia: Buccheri
+Indirizzo: Contrada Pantanelle, 97012 Chiaramonte Gulfi RG
+Coordinate: Lat 37.051461, Lng 14.667454
+Website: http://www.labellavita.online/
+Email: 
+
+11318. La Mela di Venere Agriturismo
+ID: 14594242-01a0-45eb-80eb-8384170bf3f8
+Slug: la-mela-di-venere-agriturismo-buccheri
+Nome: La Mela di Venere Agriturismo
+Comune / Provincia: Buccheri
+Indirizzo: contrada fondi vecchi, Contrada Famelio, 96010 Palazzolo Acreide SR
+Coordinate: Lat 37.056016, Lng 14.973907
+Website: http://www.agriturismolameladivenere.com/
+Email: 
+
+11319. Le case di Sant'Andrea - no swimming pool
+ID: 02eda74a-68e0-4847-8cf1-46a7b104569b
+Slug: le-case-di-sant-andrea-no-swimming-pool-buccheri
+Nome: Le case di Sant'Andrea - no swimming pool
+Comune / Provincia: Buccheri
+Indirizzo: Strada Provinciale 5 Lentini, 96010 Buccheri SR
+Coordinate: Lat 37.155453, Lng 14.900437
+Website: http://www.casedisantandrea.it/
+Email: 
+
+11320. Lo Zafferaneto hotel, ristorante & spa
+ID: f58847bb-c5f6-40cb-b743-ec3320baf500
+Slug: lo-zafferaneto-hotel-ristorante-spa-buccheri
+Nome: Lo Zafferaneto hotel, ristorante & spa
+Comune / Provincia: Buccheri
+Indirizzo: SP5 Buccheri-San Giovanni, 96015 Buccheri SR
+Coordinate: Lat 37.152155, Lng 14.889679
+Website: https://www.lozafferaneto.it/
+Email: 
+
+11321. Locanda Gulfi
+ID: 06a8b889-3336-472a-89bc-7ea832efeb4e
+Slug: locanda-gulfi-buccheri
+Nome: Locanda Gulfi
+Comune / Provincia: Buccheri
+Indirizzo: Contrada Patrìa, sn, 97012 Chiaramonte Gulfi RG
+Coordinate: Lat 37.067654, Lng 14.681028
+Website: http://www.gulfi.it/
+Email: 
+
+11322. Southeast Hotel
+ID: 2c6088e8-4b98-4943-a6ea-f3f5faa4186d
+Slug: southeast-hotel-buccheri
+Nome: Southeast Hotel
+Comune / Provincia: Buccheri
+Indirizzo: s/n, 97012 Coffa RG
+Coordinate: Lat 37.029363, Lng 14.662854
+Website: http://southeasthotel.it/
+Email: 
+
+11323. Tenuta Sorìa - Az. Agricola Baroni di Ramursura
+ID: b774808f-47f3-472b-8292-f4dfaaf9a667
+Slug: tenuta-soria-az-agricola-baroni-di-ramursura-buccheri
+Nome: Tenuta Sorìa - Az. Agricola Baroni di Ramursura
+Comune / Provincia: Buccheri
+Indirizzo: S.P. 5 per Buccheri, 96015 Francofonte SR
+Coordinate: Lat 37.184794, Lng 14.912961
+Website: http://www.arancedifrancofonte.it/
+Email: 
+
+11324. Vento del Sud
+ID: c48cd452-aff3-4981-9b06-6cb0d129e150
+Slug: vento-del-sud-buccheri
+Nome: Vento del Sud
+Comune / Provincia: Buccheri
+Indirizzo: S.S 514, km 8, 97012 Chiaramonte Gulfi RG
+Coordinate: Lat 37.000657, Lng 14.666916
+Website: https://vento-del-sud.amolitalia.top/
+Email: 
+
+11325. Villaggio Agrituristico Campanio
+ID: 4a2e7c4b-0acb-4bda-af11-dc94f9837b7b
+Slug: villaggio-agrituristico-campanio-buccheri
+Nome: Villaggio Agrituristico Campanio
+Comune / Provincia: Buccheri
+Indirizzo: Contrada Campanio sn, 96010 Ferla SR
+Coordinate: Lat 37.130148, Lng 14.950049
+Website: —
+Email: 
+
+11326. B&B Abruzzo Mare e Monti Chieti
+ID: 8ca6a32b-2349-4848-9327-baf2fd36389c
+Slug: b-b-abruzzo-mare-e-monti-chieti-bucchianico
+Nome: B&B Abruzzo Mare e Monti Chieti
+Comune / Provincia: Bucchianico
+Indirizzo: Str. di Colle Marconi, 66100 Chieti CH
+Coordinate: Lat 42.325791, Lng 14.151877
+Website: https://mare-monti.bedsandhotels.com/
+Email: 
+
+11327. B&B Villa Angela Vallemare
+ID: fe5c0be5-a9a1-4bd5-bcee-16415a2587ea
+Slug: b-b-villa-angela-vallemare-bucchianico
+Nome: B&B Villa Angela Vallemare
+Comune / Provincia: Bucchianico
+Indirizzo: 65012 Cepagatti PE
+Coordinate: Lat 42.357618, Lng 14.114954
+Website: http://villa-angela-vallemare.com.es/
+Email: 
+
+11328. B&B Villa dei Desideri - Bed and Breakfast Chieti
+ID: 08ef32d9-8b42-4bc4-a05e-c03294aedd17
+Slug: b-b-villa-dei-desideri-bed-and-breakfast-chieti-bucchianico
+Nome: B&B Villa dei Desideri - Bed and Breakfast Chieti
+Comune / Provincia: Bucchianico
+Indirizzo: Strada Pila, 1, 66100 Chieti CH
+Coordinate: Lat 42.347793, Lng 14.145487
+Website: https://villadesideri.it/
+Email: 
+
+11329. Frapippo B&B
+ID: 6c3ffae5-3c14-4fc6-ba71-6194bd2d91b4
+Slug: frapippo-b-b-bucchianico
+Nome: Frapippo B&B
+Comune / Provincia: Bucchianico
+Indirizzo: Str. Peschiera, 102, 66100 Chieti CH
+Coordinate: Lat 42.343816, Lng 14.193233
+Website: http://it.bookinghotel.site/
+Email: 
+
+11330. Galè Suite Apartment
+ID: 91d6ad04-7ec1-4f4e-91c0-bee3a641332e
+Slug: gale-suite-apartment-bucchianico
+Nome: Galè Suite Apartment
+Comune / Provincia: Bucchianico
+Indirizzo: Viale Abruzzo, 70, 66100 Chieti CH
+Coordinate: Lat 42.355635, Lng 14.138356
+Website: https://www.galesuiteapartment.it/
+Email: 
+
+11331. La locanda degli asinelli
+ID: 7a17a83c-0140-4db2-845b-7f67ad15f265
+Slug: la-locanda-degli-asinelli-bucchianico
+Nome: La locanda degli asinelli
+Comune / Provincia: Bucchianico
+Indirizzo: Contrada Cese, 39, 66011 Bucchianico CH
+Coordinate: Lat 42.291037, Lng 14.180509
+Website: —
+Email: 
+
+11332. LACASETTADILINA
+ID: 0b07a387-0c5d-4132-9bb3-d4057b16b766
+Slug: lacasettadilina-bucchianico
+Nome: LACASETTADILINA
+Comune / Provincia: Bucchianico
+Indirizzo: Via Grazia Deledda, 24, 65012 Villareia PE
+Coordinate: Lat 42.345918, Lng 14.11321
+Website: —
+Email: 
+
+11333. Villa Costanza
+ID: 79935728-4df5-4f7a-8674-03bdac5f55bd
+Slug: villa-costanza-bucchianico
+Nome: Villa Costanza
+Comune / Provincia: Bucchianico
+Indirizzo: Via Iconicella, 19, 66010 Ripa Teatina CH
+Coordinate: Lat 42.365612, Lng 14.243875
+Website: —
+Email: 
+
+11334. Agriturismo A Casa di Samuele
+ID: edea347e-ae5b-4a7b-b85a-24111c6dbde6
+Slug: agriturismo-a-casa-di-samuele-bucciano
+Nome: Agriturismo A Casa di Samuele
+Comune / Provincia: Bucciano
+Indirizzo: Via Rotabile, 48, 81010 Squille CE
+Coordinate: Lat 41.156634, Lng 14.439118
+Website: https://agriturismoacasadisamuele.com/
+Email: 
+
+11335. B&b A Casa di Rut
+ID: 02e569eb-b8e5-4596-bc50-50b38e70f828
+Slug: b-b-a-casa-di-rut-bucciano
+Nome: B&b A Casa di Rut
+Comune / Provincia: Bucciano
+Indirizzo: Via Vignali, 5, 82010 Moiano BN
+Coordinate: Lat 41.076966, Lng 14.541079
+Website: —
+Email: 
+
+11336. Il Bambù - Ospitalità Rurale
+ID: 9c66f361-705c-4ff8-9f8e-952174aea2ac
+Slug: il-bambu-ospitalita-rurale-bucciano
+Nome: Il Bambù - Ospitalità Rurale
+Comune / Provincia: Bucciano
+Indirizzo: Via Cocola, 27, 82030 Dugenta BN
+Coordinate: Lat 41.142793, Lng 14.472455
+Website: https://www.facebook.com/ospitalitailbambu/
+Email: 
+
+11337. Casa Giulia Navigli Affittacamere
+ID: 027be738-b9b1-4962-8a21-fc39a3ff08e0
+Slug: casa-giulia-navigli-affittacamere-buccinasco
+Nome: Casa Giulia Navigli Affittacamere
+Comune / Provincia: Buccinasco
+Indirizzo: Via IV Novembre, 39/A, 20094 Corsico MI
+Coordinate: Lat 45.428562, Lng 9.104716
+Website: http://www.navigliaffittacamere.it/
+Email: 
+
+11338. DANDT HOME
+ID: 3965eaa8-1276-4180-ace5-f5697aa35296
+Slug: dandt-home-buccinasco
+Nome: DANDT HOME
+Comune / Provincia: Buccinasco
+Indirizzo: Via Enrico Fermi, 2, 20090 Trezzano sul Naviglio MI
+Coordinate: Lat 45.426303, Lng 9.070167
+Website: http://www.dandt-home.it/
+Email: 
+
+11339. Hostal D'Annunzio house
+ID: 2177c9bd-c423-49ac-953d-c7634bcc8156
+Slug: hostal-d-annunzio-house-buccinasco
+Nome: Hostal D'Annunzio house
+Comune / Provincia: Buccinasco
+Indirizzo: Via G. D'Annunzio, 6, 20090 Cesano Boscone MI
+Coordinate: Lat 45.44193, Lng 9.095312
+Website: —
+Email: 
+
+11340. Hotel Gambara
+ID: af0eb9f8-0a59-41ff-8643-0160809353b1
+Slug: hotel-gambara-buccinasco
+Nome: Hotel Gambara
+Comune / Provincia: Buccinasco
+Indirizzo: Via Fra Galgario, 4, 20146 Milano MI
+Coordinate: Lat 45.464525, Lng 9.139553
+Website: https://gambara.worhot.com/
+Email: 

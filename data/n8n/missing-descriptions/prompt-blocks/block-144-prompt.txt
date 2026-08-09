@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+5006. Motel Karibe
+ID: 0cb0b855-8d0c-46df-8e39-a8466677328e
+Slug: motel-karibe-arqu-polesine
+Nome: Motel Karibe
+Comune / Provincia: Arqu� Polesine
+Indirizzo: Via G. Monti, 241/1, 45025 Fratta Polesine RO
+Coordinate: Lat 45.028959, Lng 11.647845
+Website: http://www.motelkaribe.it/
+Email: 
+
+5007. Torre del Po
+ID: 600cfade-59c5-48cb-8d0b-d58e7456be5d
+Slug: torre-del-po-arqu-polesine
+Nome: Torre del Po
+Comune / Provincia: Arqu� Polesine
+Indirizzo: Via Novi, 140, 45030 Guarda Veneta RO
+Coordinate: Lat 44.979035, Lng 11.795755
+Website: https://www.torredelpo.it/
+Email: 
+
+5008. UNA Hotels Occhiobello
+ID: 57fd15af-3aec-4360-a062-01a430e9bf78
+Slug: una-hotels-occhiobello-arqu-polesine
+Nome: UNA Hotels Occhiobello
+Comune / Provincia: Arqu� Polesine
+Indirizzo: Via Eridania, 36, 45030 Santa Maria Maddalena RO
+Coordinate: Lat 44.918846, Lng 11.59364
+Website: https://www.unaitalianhospitality.com/it/soggiorni/una-hotels-occhiobello
+Email: 
+
+5009. Villa Saraceni
+ID: 22cf48a0-6cfb-4e53-ad89-355b0c78856f
+Slug: villa-saraceni-arqu-polesine
+Nome: Villa Saraceni
+Comune / Provincia: Arqu� Polesine
+Indirizzo: Via Giuseppe Mazzini, 78, 45030 Chiesa RO
+Coordinate: Lat 44.984493, Lng 11.673237
+Website: —
+Email: 
+
+5010. agriturismo Corte Zecchina
+ID: 5a246d9e-0488-4c3b-9abd-eadd161f3302
+Slug: agriturismo-corte-zecchina-arre
+Nome: agriturismo Corte Zecchina
+Comune / Provincia: Arre
+Indirizzo: Via Beverare, 59, 35028 Piove di Sacco PD
+Coordinate: Lat 45.306442, Lng 12.110093
+Website: https://cortezecchina.weebly.com/
+Email: 
+
+5011. B&B Dora e Flavio
+ID: a494a14e-c2ea-4c78-af20-6f572f17d9f1
+Slug: b-b-dora-e-flavio-arre
+Nome: B&B Dora e Flavio
+Comune / Provincia: Arre
+Indirizzo: Via Pesare, 9/A, 35036 Montegrotto Terme PD
+Coordinate: Lat 45.340355, Lng 11.801303
+Website: —
+Email: 
+
+5012. B&B Il Centralino
+ID: f5f89a04-ded9-4405-a32e-c75453831855
+Slug: b-b-il-centralino-arre
+Nome: B&B Il Centralino
+Comune / Provincia: Arre
+Indirizzo: Via Gioacchino Rossini, 39, 35020 Legnaro PD
+Coordinate: Lat 45.347237, Lng 11.965016
+Website: https://www.ilcentralino.com/
+Email: 
+
+5013. Cà Sagredo Alloggi
+ID: 6d3509f6-1cac-48e2-9ec1-00e9188ffaad
+Slug: ca-sagredo-alloggi-arre
+Nome: Cà Sagredo Alloggi
+Comune / Provincia: Arre
+Indirizzo: Via Matteotti, 179, 35026 Conselve PD
+Coordinate: Lat 45.227978, Lng 11.881353
+Website: http://www.ca-sagredo.it/
+Email: 
+
+5014. Ca' delle Rose
+ID: 4eadc340-55f2-44f1-a70c-7025f60eb66a
+Slug: ca-delle-rose-arre
+Nome: Ca' delle Rose
+Comune / Provincia: Arre
+Indirizzo: Via Canaletta Inferiore, 1, 35040 Pozzonovo PD
+Coordinate: Lat 45.148105, Lng 11.815156
+Website: —
+Email: 
+
+5015. Hotel Lanterna
+ID: 63173737-153f-4c2b-aa8f-a57ba891adb4
+Slug: hotel-lanterna-arre
+Nome: Hotel Lanterna
+Comune / Provincia: Arre
+Indirizzo: Via A. Volta, 10, 35031 Abano Terme PD
+Coordinate: Lat 45.349474, Lng 11.783757
+Website: http://www.albergolanterna.it/
+Email: 
+
+5016. Hotel Majestic - Galzignano Resort Terme & Golf
+ID: 6d74dfcd-5aa2-40cb-98e6-2e2f90c09050
+Slug: hotel-majestic-galzignano-resort-terme-golf-arre
+Nome: Hotel Majestic - Galzignano Resort Terme & Golf
+Comune / Provincia: Arre
+Indirizzo: Viale delle Terme, 84, 35030 Galzignano Terme PD
+Coordinate: Lat 45.290245, Lng 11.767848
+Website: http://www.galzignano.it/
+Email: 
+
+5017. Il giardino di Camilla
+ID: 64103e6f-1354-42a2-9842-b706ddcd6e5e
+Slug: il-giardino-di-camilla-arre
+Nome: Il giardino di Camilla
+Comune / Provincia: Arre
+Indirizzo: Via G. Marconi, 6, 35026 Conselve PD
+Coordinate: Lat 45.232714, Lng 11.874467
+Website: https://directstayer.eu/il-giardino-di-camilla-conselve
+Email: 
+
+5018. Agriturismo "Il Borgo"
+ID: c024be11-e489-4f60-8cc1-6fc42f2ec739
+Slug: agriturismo-il-borgo-arrone
+Nome: Agriturismo "Il Borgo"
+Comune / Provincia: Arrone
+Indirizzo: Vicolo Sant Anselmo, 1, 05034 Ferentillo TR
+Coordinate: Lat 42.619111, Lng 12.793435
+Website: https://ilborgoagriturismo.com/
+Email: 
+
+5019. Borgo San Valentino
+ID: 20f7f130-a3aa-4f82-a685-99ac8e56f93e
+Slug: borgo-san-valentino-arrone
+Nome: Borgo San Valentino
+Comune / Provincia: Arrone
+Indirizzo: Via dello Sportello, 2, 05031 Casteldilago TR
+Coordinate: Lat 42.579058, Lng 12.758875
+Website: http://www.borgosanvalentino.it/
+Email: 
+
+5020. Casa Argenti
+ID: 88031fb9-a467-40c8-af9a-14b34979c7c1
+Slug: casa-argenti-arrone
+Nome: Casa Argenti
+Comune / Provincia: Arrone
+Indirizzo: Via degli Olivi, n° 1, 05031 Arrone TR
+Coordinate: Lat 42.583208, Lng 12.767143
+Website: https://www.casaargenti.it/
+Email: 
+
+5021. Case Vacanza Fiocchi
+ID: 89e1bbd7-0e87-497a-898a-300a7a92cde6
+Slug: case-vacanza-fiocchi-arrone
+Nome: Case Vacanza Fiocchi
+Comune / Provincia: Arrone
+Indirizzo: SP17, 05031 Arrone TR
+Coordinate: Lat 42.582379, Lng 12.765519
+Website: http://www.residencefiocchi.com/
+Email: 
+
+5022. Convento San Bernardino
+ID: db063ca3-51a2-4d25-9200-ea8103ecaefb
+Slug: convento-san-bernardino-arrone
+Nome: Convento San Bernardino
+Comune / Provincia: Arrone
+Indirizzo: Loc. Monzano, 05030 Montefranco TR
+Coordinate: Lat 42.592622, Lng 12.756689
+Website: http://www.casaperferiesanbernardino.it/
+Email: 
+
+5023. Guesthouse Runcini
+ID: bec2ae7d-d997-46ac-adca-fcf0de2df7e0
+Slug: guesthouse-runcini-arrone
+Nome: Guesthouse Runcini
+Comune / Provincia: Arrone
+Indirizzo: località Gabbio, Via Ugo la Malfa, 4, 05034 Ferentillo TR
+Coordinate: Lat 42.628691, Lng 12.782308
+Website: https://www.guesthouseruncini.com/
+Email: 
+
+5024. Hotel del Lago 1934 & SPA Piediluco- il Bosco nel Bosco
+ID: a489397e-fd5c-42b7-a00e-cb29e54624cd
+Slug: hotel-del-lago-1934-spa-piediluco-il-bosco-nel-b-arrone
+Nome: Hotel del Lago 1934 & SPA Piediluco- il Bosco nel Bosco
+Comune / Provincia: Arrone
+Indirizzo: Strada del Porto, 71, 05100 Terni TR
+Coordinate: Lat 42.53744, Lng 12.749176
+Website: https://www.hoteldellago.com/
+Email: 
+
+5025. Hotel Michelangelo Palace & SPA
+ID: 2ddd98cf-5125-4148-9728-3926cb1817de
+Slug: hotel-michelangelo-palace-spa-arrone
+Nome: Hotel Michelangelo Palace & SPA
+Comune / Provincia: Arrone
+Indirizzo: Viale della Stazione, 63, 05100 Terni TR
+Coordinate: Lat 42.569567, Lng 12.650733
+Website: http://www.michelangelohotelumbria.it/
+Email: 
+
+5026. Hotel Miralago - Piediluco (TR)
+ID: 3a12c4a6-46e7-44c2-8199-4f2be7402dca
+Slug: hotel-miralago-piediluco-tr-arrone
+Nome: Hotel Miralago - Piediluco (TR)
+Comune / Provincia: Arrone
+Indirizzo: Viale Vincenzo Noceta, 2, 05100 Piediluco TR
+Coordinate: Lat 42.534988, Lng 12.760819
+Website: https://www.miralagohotel.net/
+Email: 
+
+5027. Hotel Turrita
+ID: 6cfc2327-7286-4227-b93d-dc33db31948f
+Slug: hotel-turrita-arrone
+Nome: Hotel Turrita
+Comune / Provincia: Arrone
+Indirizzo: Vocabolo Isola, 5, 05031 Arrone TR
+Coordinate: Lat 42.580929, Lng 12.751004
+Website: https://www.hotelspretorian.com/hotel-turrita/
+Email: 
+
+5028. Hotel Villa De Santis
+ID: 5299ebcc-d7b0-4ab6-96c0-3e9791a36bd3
+Slug: hotel-villa-de-santis-arrone
+Nome: Hotel Villa De Santis
+Comune / Provincia: Arrone
+Indirizzo: Via de Santis, Dionino, 56, 05030 Montefranco TR
+Coordinate: Lat 42.593382, Lng 12.762008
+Website: http://www.hotelvilladesantis.it/
+Email: 
+
+5029. Il Casolare della Cascata
+ID: 87430ce6-4424-4e01-b463-1f07e234c8df
+Slug: il-casolare-della-cascata-arrone
+Nome: Il Casolare della Cascata
+Comune / Provincia: Arrone
+Indirizzo: Via Strada Statale Valnerina, 72, 05100 Terni TR
+Coordinate: Lat 42.556456, Lng 12.718073
+Website: http://www.ilcasolaredellacascata.com/
+Email: 
+
+5030. L'Antico Casale
+ID: b371be37-b895-45b8-a798-006352e47dad
+Slug: l-antico-casale-arrone
+Nome: L'Antico Casale
+Comune / Provincia: Arrone
+Indirizzo: Strada di Moggio, 10, 05100 Marmore TR
+Coordinate: Lat 42.537168, Lng 12.731632
+Website: https://anticocasalemarmore.weebly.com/
+Email: 
+
+5031. la casa dei nonni
+ID: a5c3de93-1fd1-4738-ad40-cb3c9f38cfae
+Slug: la-casa-dei-nonni-arrone
+Nome: la casa dei nonni
+Comune / Provincia: Arrone
+Indirizzo: Via Collestatte, 1, 05100 Terni TR
+Coordinate: Lat 42.563598, Lng 12.726911
+Website: https://www.hotelspretorian.com/la-casa-dei-nonni/
+Email: 
+
+5032. La Magnolia b&b come a casa tua
+ID: 6c84c36d-a3c4-4676-86b7-e5e34bd0e166
+Slug: la-magnolia-b-b-come-a-casa-tua-arrone
+Nome: La Magnolia b&b come a casa tua
+Comune / Provincia: Arrone
+Indirizzo: Via Guglielmo Marconi, 35, 05031 Arrone TR
+Coordinate: Lat 42.583293, Lng 12.773307
+Website: https://www.lamagnoliabedandbreakfast.com/
+Email: 
+
+5033. Loggia sul Nera
+ID: 34312d9a-a1f0-4988-ad51-f2115c46f8d2
+Slug: loggia-sul-nera-arrone
+Nome: Loggia sul Nera
+Comune / Provincia: Arrone
+Indirizzo: Via Mezza Costa, 14, 05031 Arrone TR
+Coordinate: Lat 42.583653, Lng 12.767649
+Website: http://www.loggiasulnera.com/
+Email: 
+
+5034. Oasi la Cascata
+ID: baec8c7b-14ef-4ed9-9a87-f2decf475141
+Slug: oasi-la-cascata-arrone
+Nome: Oasi la Cascata
+Comune / Provincia: Arrone
+Indirizzo: Via Strada Statale Valnerina, 28, 05100 Terni TR
+Coordinate: Lat 42.555303, Lng 12.706731
+Website: http://www.oasilacascata.it/
+Email: 
+
+5035. Ristorante Locanda Mulino Nera
+ID: 147d364b-d342-48f7-854f-41180e268e46
+Slug: ristorante-locanda-mulino-nera-arrone
+Nome: Ristorante Locanda Mulino Nera
+Comune / Provincia: Arrone
+Indirizzo: Strada Statale Valnerina 209, Località Mola Moretti, 2A, 05030 Montefranco TR
+Coordinate: Lat 42.595807, Lng 12.770474
+Website: https://www.mulinonera.it/
+Email: 
+
+5036. Rossi Ristorante Trattoria
+ID: e3d5116c-f9f9-456f-a26a-07b8e4577db0
+Slug: rossi-ristorante-trattoria-arrone
+Nome: Rossi Ristorante Trattoria
+Comune / Provincia: Arrone
+Indirizzo: Vocabolo Isola, 7, 05031 Arrone TR
+Coordinate: Lat 42.580458, Lng 12.751709
+Website: https://www.ristorantetrattoriarossi.com/
+Email: 
+
+5037. Torre del Nera Albergo Diffuso & Spa
+ID: eea76af3-3495-4a83-a9af-4299a05ac1e0
+Slug: torre-del-nera-albergo-diffuso-spa-arrone
+Nome: Torre del Nera Albergo Diffuso & Spa
+Comune / Provincia: Arrone
+Indirizzo: Via di Borgo, 72, 06040 Scheggino PG
+Coordinate: Lat 42.712399, Lng 12.831588
+Website: http://torredelnera.it/
+Email: 
+
+5038. B&B campagnoli CIN IT012123C1GP3K8AET
+ID: 6cb257f6-5158-40b9-a749-b9422918e205
+Slug: b-b-campagnoli-cin-it012123c1gp3k8aet-arsago-seprio
+Nome: B&B campagnoli CIN IT012123C1GP3K8AET
+Comune / Provincia: Arsago Seprio
+Indirizzo: Via Donizetti Gaetano, 27 A, 21019 Somma Lombardo VA
+Coordinate: Lat 45.695179, Lng 8.698526
+Website: http://www.campagnolibnb.org/
+Email: 
+
+5039. B&B Panperduto
+ID: 2a25ce65-0929-4f00-be8e-184dafbed6c5
+Slug: b-b-panperduto-arsago-seprio
+Nome: B&B Panperduto
+Comune / Provincia: Arsago Seprio
+Indirizzo: via Lungo Canale Villoresi, 4, 21019 Somma Lombardo VA
+Coordinate: Lat 45.670765, Lng 8.683129
+Website: http://www.panperduto.it/
+Email: 
+
+5040. B&B Parco Antico
+ID: 905a8634-bbc3-475c-9e09-d49eb9684916
+Slug: b-b-parco-antico-arsago-seprio
+Nome: B&B Parco Antico
+Comune / Provincia: Arsago Seprio
+Indirizzo: Via Privata del Parco, 11, 21019 Somma Lombardo VA
+Coordinate: Lat 45.680865, Lng 8.708405
+Website: https://www.booking.com/Share-umsE7V
+Email: 

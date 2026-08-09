@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+9066. Dimora Nina
+ID: 247fadf6-099a-4de8-88a6-871eeefdd3de
+Slug: dimora-nina-binetto
+Nome: Dimora Nina
+Comune / Provincia: Binetto
+Indirizzo: Via Torre, 36, 70028 Sannicandro di Bari BA
+Coordinate: Lat 40.99794, Lng 16.803791
+Website: https://danielstravelexperience.eu/dimora-nina-sannicandro-di-bari12-italy
+Email: 
+
+9067. Hotel Giardino
+ID: 6d589aef-a2d1-4090-86fc-5fb6b99cadf9
+Slug: hotel-giardino-binetto
+Nome: Hotel Giardino
+Comune / Provincia: Binetto
+Indirizzo: Strada Statale 96, Km 118, 70026 Modugno BA
+Coordinate: Lat 41.095997, Lng 16.792315
+Website: http://www.hotelgiardinobari.it/
+Email: 
+
+9068. La Torre Storica
+ID: 610e33b3-bebd-4ab3-8704-ec690c6342f3
+Slug: la-torre-storica-binetto
+Nome: La Torre Storica
+Comune / Provincia: Binetto
+Indirizzo: Piazza Santa Croce, 18, 70027 Palo del Colle BA
+Coordinate: Lat 41.058721, Lng 16.704385
+Website: http://www.latorrestorica.it/
+Email: 
+
+9069. San Vito Apartment
+ID: 24f00dc0-86ba-4297-b192-13090a596c93
+Slug: san-vito-apartment-binetto
+Nome: San Vito Apartment
+Comune / Provincia: Binetto
+Indirizzo: Via Forges Davanzati, 70, 70027 Palo del Colle BA
+Coordinate: Lat 41.058215, Lng 16.697973
+Website: —
+Email: 
+
+9070. Santalò Bed & Breakfast
+ID: f3a090ed-f19f-4b26-b9af-93b2a913161f
+Slug: santalo-bed-breakfast-binetto
+Nome: Santalò Bed & Breakfast
+Comune / Provincia: Binetto
+Indirizzo: Corte San Eligio, Vico Storto Sant'Eligio, 9/10, 70032 Bitonto BA
+Coordinate: Lat 41.107655, Lng 16.687933
+Website: https://santalobeb.kross.travel/
+Email: 
+
+9071. Tenuta Giannini Piscine
+ID: 9518a437-5de2-41c5-b80f-44cb1834087b
+Slug: tenuta-giannini-piscine-binetto
+Nome: Tenuta Giannini Piscine
+Comune / Provincia: Binetto
+Indirizzo: SP17, km 5, 70020 Binetto BA
+Coordinate: Lat 40.994777, Lng 16.752089
+Website: https://www.agriturismotenutagiannini.it/
+Email: 
+
+9072. Terrazza Romanelli Suites
+ID: 368204e4-8d2a-4304-8c48-aa900e720a08
+Slug: terrazza-romanelli-suites-binetto
+Nome: Terrazza Romanelli Suites
+Comune / Provincia: Binetto
+Indirizzo: Corte Romanelli, 7, 70032 Bitonto BA
+Coordinate: Lat 41.106711, Lng 16.68925
+Website: —
+Email: 
+
+9073. Villa delle Querce Resort – Hotel - Wedding – Meeting
+ID: e456c261-2e6a-4c7f-b1e7-77abbf6a93a4
+Slug: villa-delle-querce-resort-hotel-wedding-meeting-binetto
+Nome: Villa delle Querce Resort – Hotel - Wedding – Meeting
+Comune / Provincia: Binetto
+Indirizzo: Contrada Auricarro, Snc, 70027 Palo del Colle BA
+Coordinate: Lat 41.03454, Lng 16.678543
+Website: http://www.villadellequerce.it/
+Email: 
+
+9074. Vuelo
+ID: 4da8d32a-c448-4863-8818-fc430ed43876
+Slug: vuelo-binetto
+Nome: Vuelo
+Comune / Provincia: Binetto
+Indirizzo: Via Cagliari, 19, 70026 Modugno BA
+Coordinate: Lat 41.081568, Lng 16.787507
+Website: —
+Email: 
+
+9075. B&B Balcone del Biellese Pettinengo
+ID: 8378abf3-37a6-4dca-8052-fc728184a5d3
+Slug: b-b-balcone-del-biellese-pettinengo-bioglio
+Nome: B&B Balcone del Biellese Pettinengo
+Comune / Provincia: Bioglio
+Indirizzo: Via Ennio Carando, 16, 13843 Pettinengo BI
+Coordinate: Lat 45.618022, Lng 8.111758
+Website: http://www.balconedelbiellese.com/
+Email: 
+
+9076. Casa Borio bed and breakfast e noleggio ebike
+ID: 4324aa53-9540-4d89-919d-0b857a898816
+Slug: casa-borio-bed-and-breakfast-e-noleggio-ebike-bioglio
+Nome: Casa Borio bed and breakfast e noleggio ebike
+Comune / Provincia: Bioglio
+Indirizzo: Via Capitano Fiorio Belletti, 73, 13841 Mornengo BI
+Coordinate: Lat 45.613598, Lng 8.118309
+Website: http://www.casaboriobioglio.com/
+Email: 
+
+9077. Albergo Ristorante Valentino
+ID: 825675c9-55f4-4af4-ba39-e604fbe8b5e8
+Slug: albergo-ristorante-valentino-bionaz
+Nome: Albergo Ristorante Valentino
+Comune / Provincia: Bionaz
+Indirizzo: Frazione Lexert, 5, 11010 Bionaz AO
+Coordinate: Lat 45.865792, Lng 7.400471
+Website: http://www.hotelvalentinobionaz.com/
+Email: 
+
+9078. Appartamenti Vacanze Luseney
+ID: 44aeeee7-0fd5-4e3d-8c25-0d4f28c5c745
+Slug: appartamenti-vacanze-luseney-bionaz
+Nome: Appartamenti Vacanze Luseney
+Comune / Provincia: Bionaz
+Indirizzo: Frazione Plan de Veyne Chef Lieu, 13, 11010 Bionaz AO
+Coordinate: Lat 45.873711, Lng 7.422751
+Website: http://www.luseney.com/
+Email: 
+
+9079. B&B Clé du Paradis
+ID: 5becb090-0b54-4a8a-a98f-c09272bfff1e
+Slug: b-b-cle-du-paradis-bionaz
+Nome: B&B Clé du Paradis
+Comune / Provincia: Bionaz
+Indirizzo: 11010 Bionaz AO
+Coordinate: Lat 45.870857, Lng 7.40928
+Website: http://cleduparadis.it/
+Email: 
+
+9080. B&B La Maison d'Antan
+ID: 50df47cc-c65b-4077-b1d7-e47744e24baa
+Slug: b-b-la-maison-d-antan-bionaz
+Nome: B&B La Maison d'Antan
+Comune / Provincia: Bionaz
+Indirizzo: Fraz, Balmes, 11010 Bionaz AO
+Coordinate: Lat 45.862494, Lng 7.392038
+Website: http://www.valdaostabedandbreakfast.it/
+Email: 
+
+9081. Camping Bar Ristorante Lac Lexert
+ID: f378522c-f3c6-4636-97f1-f827447e8095
+Slug: camping-bar-ristorante-lac-lexert-bionaz
+Nome: Camping Bar Ristorante Lac Lexert
+Comune / Provincia: Bionaz
+Indirizzo: Frazione Lexert, 14, 11010 Bionaz AO
+Coordinate: Lat 45.863535, Lng 7.395997
+Website: http://www.campinglaclexert.it/
+Email: 
+
+9082. Hotel Cristina
+ID: c68c952e-d6dd-4ffa-b4fd-decb30a47e1f
+Slug: hotel-cristina-bionaz
+Nome: Hotel Cristina
+Comune / Provincia: Bionaz
+Indirizzo: Frazione Champagne, 1, 11020 Verrayes AO
+Coordinate: Lat 45.743491, Lng 7.518212
+Website: https://www.hotel-cristina.it/
+Email: 
+
+9083. Hotel Rendez-Vous
+ID: cfc6ba13-229b-42ac-bd36-d22aaa798b53
+Slug: hotel-rendez-vous-bionaz
+Nome: Hotel Rendez-Vous
+Comune / Provincia: Bionaz
+Indirizzo: Località Soleil, 3, 11024 Châtillon AO
+Coordinate: Lat 45.750334, Lng 7.620914
+Website: https://www.hotel-rendezvous.com/
+Email: 
+
+9084. La Batise
+ID: 8bf7495a-5cd8-4213-8fcd-d38dadcc86a1
+Slug: la-batise-bionaz
+Nome: La Batise
+Comune / Provincia: Bionaz
+Indirizzo: Località, Frazione Plan de Veyne Chef Lieu, 11010 Bionaz AO
+Coordinate: Lat 45.873716, Lng 7.422972
+Website: —
+Email: 
+
+9085. La Tour
+ID: 130498a3-86e6-4a57-aadf-a9096118c52d
+Slug: la-tour-bionaz
+Nome: La Tour
+Comune / Provincia: Bionaz
+Indirizzo: loc, Les Gallians, 1, 11010 Oyace AO
+Coordinate: Lat 45.850969, Lng 7.38258
+Website: https://www.latouroyace.it/it
+Email: 
+
+9086. Les Vrais Rayons
+ID: 0da571a5-a248-4d8e-8677-5215f0fd4210
+Slug: les-vrais-rayons-bionaz
+Nome: Les Vrais Rayons
+Comune / Provincia: Bionaz
+Indirizzo: Località Capoluogo, 31, 11020 Verrayes AO
+Coordinate: Lat 45.762206, Lng 7.534577
+Website: http://www.lesvraisrayons.it/
+Email: 
+
+9087. Locanda Lac Place Moulin
+ID: 66889d7a-6dce-4385-b956-8015e0d40fbc
+Slug: locanda-lac-place-moulin-bionaz
+Nome: Locanda Lac Place Moulin
+Comune / Provincia: Bionaz
+Indirizzo: localita place moulin, 11010 Bionaz AO
+Coordinate: Lat 45.898098, Lng 7.484652
+Website: http://www.locanda-lacplacemoulin.it/
+Email: 
+
+9088. Maison Constance B&B
+ID: 7218dd52-118f-406f-b3ab-986c59d7cf41
+Slug: maison-constance-b-b-bionaz
+Nome: Maison Constance B&B
+Comune / Provincia: Bionaz
+Indirizzo: Dzovennoz, 12, 11010 Bionaz AO
+Coordinate: Lat 45.866826, Lng 7.401652
+Website: https://www.maisonconstance.eu/
+Email: 
+
+9089. Restaurant e B&B Alpe Rebelle Mountain Lodge
+ID: 7df34f4b-dd2b-4619-a77f-1e9784403698
+Slug: restaurant-e-b-b-alpe-rebelle-mountain-lodge-bionaz
+Nome: Restaurant e B&B Alpe Rebelle Mountain Lodge
+Comune / Provincia: Bionaz
+Indirizzo: Fraz. Loc. Chez-Chenoux, 1, 11010 Bionaz AO
+Coordinate: Lat 45.877319, Lng 7.429765
+Website: http://www.alperebelle.com/
+Email: 
+
+9090. Albergo Trattoria Dazze
+ID: 7e8ba1c8-7073-46c5-851e-0ae177ccb55a
+Slug: albergo-trattoria-dazze-bione
+Nome: Albergo Trattoria Dazze
+Comune / Provincia: Bione
+Indirizzo: Via Angelo Gitti, 25060 Marcheno BS
+Coordinate: Lat 45.698424, Lng 10.211878
+Website: https://www.albergotrattoriadazze.com/
+Email: 
+
+9091. Hotel Trattoria Marcheno
+ID: 2edb572c-c5f2-4dff-ad0d-d0afc5a15a11
+Slug: hotel-trattoria-marcheno-bione
+Nome: Hotel Trattoria Marcheno
+Comune / Provincia: Bione
+Indirizzo: Viale Martiri d'Indipendenza, 98, 25060 Marcheno BS
+Coordinate: Lat 45.71335, Lng 10.221278
+Website: https://www.hotelmarcheno.it/
+Email: 
+
+9092. Agriturismo Bonu Suile
+ID: 8702f009-b23f-4dc5-963f-a9c17ef64c2b
+Slug: agriturismo-bonu-suile-birori
+Nome: Agriturismo Bonu Suile
+Comune / Provincia: Birori
+Indirizzo: Località Caramarzos, 08017 Silanus NU
+Coordinate: Lat 40.282473, Lng 8.887221
+Website: —
+Email: 
+
+9093. B&B La Casa Antica
+ID: 27724bf6-3390-428d-9c76-52ac737320f2
+Slug: b-b-la-casa-antica-birori
+Nome: B&B La Casa Antica
+Comune / Provincia: Birori
+Indirizzo: Corso Umberto I, 142, 08015 Macomer NU
+Coordinate: Lat 40.265739, Lng 8.77813
+Website: https://www.instagram.com/la_casa_antica_bb?igsh=MWk2NHl1aDd4djl1MA==
+Email: 
+
+9094. Casa Castori
+ID: 11449323-fc26-4fd1-9d6d-9f4b7c0f8877
+Slug: casa-castori-birori
+Nome: Casa Castori
+Comune / Provincia: Birori
+Indirizzo: Via Eleonora D'Arborea, 16, 08015 Macomer NU
+Coordinate: Lat 40.265731, Lng 8.783003
+Website: https://francescastraveltips.com/casa-castori-italy
+Email: 
+
+9095. Hotel Ristorante Marghine di Mura Luigi & C. S.N.C.
+ID: a6719516-d352-49df-936b-070e8e2fffc0
+Slug: hotel-ristorante-marghine-di-mura-luigi-c-s-n-c-birori
+Nome: Hotel Ristorante Marghine di Mura Luigi & C. S.N.C.
+Comune / Provincia: Birori
+Indirizzo: Via Vittorio Emanuele II, 3, 08015 Macomer NU
+Coordinate: Lat 40.265861, Lng 8.778958
+Website: http://www.hotelmarghine.it/
+Email: 
+
+9096. Agriturismo Bozzone
+ID: 2c2c8a41-ffe3-4cdf-ba2e-df8e1858954f
+Slug: agriturismo-bozzone-bisaccia
+Nome: Agriturismo Bozzone
+Comune / Provincia: Bisaccia
+Indirizzo: SS303, 83046 Lacedonia AV
+Coordinate: Lat 41.044392, Lng 15.412506
+Website: https://agriturismo-bozzone.jimdosite.com/
+Email: 
+
+9097. B&B Giulimà
+ID: fe6f13d0-4645-488d-b341-84af3ca2f788
+Slug: b-b-giulima-bisaccia
+Nome: B&B Giulimà
+Comune / Provincia: Bisaccia
+Indirizzo: Via A. Pertini, 35, 71020 Rocchetta Sant'Antonio FG
+Coordinate: Lat 41.106396, Lng 15.459239
+Website: http://www.giulima.it/
+Email: 
+
+9098. Hotel Caputo
+ID: 9f924d4a-bfce-4fef-9ff4-7eafef5af779
+Slug: hotel-caputo-bisaccia
+Nome: Hotel Caputo
+Comune / Provincia: Bisaccia
+Indirizzo: Via Torino, 23, 83047 Lioni AV
+Coordinate: Lat 40.876928, Lng 15.193309
+Website: https://www.hotel-caputo.com/
+Email: 
+
+9099. Il Piccolo Principe
+ID: 5f1e036b-eac8-4244-8d51-372d64057d02
+Slug: il-piccolo-principe-bisaccia
+Nome: Il Piccolo Principe
+Comune / Provincia: Bisaccia
+Indirizzo: Via Cupa, 107, 83040 Cairano AV
+Coordinate: Lat 40.895611, Lng 15.370898
+Website: —
+Email: 
+
+9100. Agriturismo Montalbano
+ID: fda1dda7-e170-49b6-aafd-ea34ce0d2ed6
+Slug: agriturismo-montalbano-bisacquino
+Nome: Agriturismo Montalbano
+Comune / Provincia: Bisacquino
+Indirizzo: 92019 Località Scunchipani I AG
+Coordinate: Lat 37.573038, Lng 13.059042
+Website: http://www.aziendamontalbano.com/
+Email: 

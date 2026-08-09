@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+351. Residence Fontanelle
+ID: 0c5f76c0-00f8-4344-b1fe-3fb5fea41e89
+Slug: residence-fontanelle-affi
+Nome: Residence Fontanelle
+Comune / Provincia: Affi
+Indirizzo: Località Fontanelle, 2A, 37010 Cavaion Veronese VR
+Coordinate: Lat 45.525046, Lng 10.794173
+Website: https://www.residencefontanelle.it/it/
+Email: 
+
+352. Affittacamere Le Ginestre Colleferro
+ID: 5ecf71f7-666f-4dd8-86ab-1bccefb2895a
+Slug: affittacamere-le-ginestre-colleferro-affile
+Nome: Affittacamere Le Ginestre Colleferro
+Comune / Provincia: Affile
+Indirizzo: Via Casilina, km 48, 00034 Colleferro RM
+Coordinate: Lat 41.75471, Lng 12.987787
+Website: https://bb-le-ginestre.albergo.top/
+Email: 
+
+353. Agriturismo Colle Tocci Subiaco
+ID: 8fa039a7-fd9d-4df6-a3a7-78d9421d083e
+Slug: agriturismo-colle-tocci-subiaco-affile
+Nome: Agriturismo Colle Tocci Subiaco
+Comune / Provincia: Affile
+Indirizzo: Contrada Castagnola, 8, 00028 Subiaco RM
+Coordinate: Lat 41.911813, Lng 13.094338
+Website: http://www.agriturismocolletocci.it/
+Email: 
+
+354. Atlantic Park Hotel - Spa - Ristorante - Centro benessere - Piscina - Sala convegni
+ID: 8d3112fe-74ca-4aea-9202-f83e6dffa743
+Slug: atlantic-park-hotel-spa-ristorante-centro-beness-affile
+Nome: Atlantic Park Hotel - Spa - Ristorante - Centro benessere - Piscina - Sala convegni
+Comune / Provincia: Affile
+Indirizzo: Via Prenestina Sud, 37, 03014 Fiuggi FR
+Coordinate: Lat 41.784993, Lng 13.230915
+Website: https://www.atlanticparkhotel.it/
+Email: 
+
+355. B&B Valmontone MagicLand - Casa del Girasole
+ID: cb52fd52-0113-4529-bd38-def9d1b445e8
+Slug: b-b-valmontone-magicland-casa-del-girasole-affile
+Nome: B&B Valmontone MagicLand - Casa del Girasole
+Comune / Provincia: Affile
+Indirizzo: Via Luigi Petroselli, 50/int.2, 00030 Genazzano RM
+Coordinate: Lat 41.818605, Lng 12.972534
+Website: http://www.casadelgirasole.com/
+Email: 
+
+356. Bed and Breakfast - La Panarda
+ID: 70fbd2dc-6760-41c3-afa2-1c80b5b35e16
+Slug: bed-and-breakfast-la-panarda-affile
+Nome: Bed and Breakfast - La Panarda
+Comune / Provincia: Affile
+Indirizzo: W3FV+QV, 00028 Subiaco RM
+Coordinate: Lat 41.924437, Lng 13.094688
+Website: https://www.lapanardasubiaco.it/
+Email: 
+
+357. Bed and Breakfast Casa Rosella - Country House
+ID: 27ca39aa-d98d-42df-abb0-77d968e362ff
+Slug: bed-and-breakfast-casa-rosella-country-house-affile
+Nome: Bed and Breakfast Casa Rosella - Country House
+Comune / Provincia: Affile
+Indirizzo: Via Fontana Fresca, n° 25, 00030 Bellegra RM
+Coordinate: Lat 41.882276, Lng 13.041968
+Website: http://www.casarosella.it/
+Email: 
+
+358. Belvedere Ristorante B&B
+ID: b18109f7-9ab4-487d-bf30-72734c357291
+Slug: belvedere-ristorante-b-b-affile
+Nome: Belvedere Ristorante B&B
+Comune / Provincia: Affile
+Indirizzo: Via dei Monasteri, 33, 00028 Subiaco RM
+Coordinate: Lat 41.923695, Lng 13.106011
+Website: http://www.belvederesubiaco.com/
+Email: 
+
+359. Civico69 - Bar Pasticceria Bed&Breakfast
+ID: ffd4ae09-152c-4ef8-8daa-217381b89f61
+Slug: civico69-bar-pasticceria-bed-breakfast-affile
+Nome: Civico69 - Bar Pasticceria Bed&Breakfast
+Comune / Provincia: Affile
+Indirizzo: Corso Cesare Battisti, 69, 00028 Subiaco RM
+Coordinate: Lat 41.924738, Lng 13.085696
+Website: http://www.civico69.com/
+Email: 
+
+360. Foresteria del Monastero di S. Scolastica
+ID: 6b044175-c81e-4698-bbea-43ab27ab3999
+Slug: foresteria-del-monastero-di-s-scolastica-affile
+Nome: Foresteria del Monastero di S. Scolastica
+Comune / Provincia: Affile
+Indirizzo: Piazzale Santa Scolastica, 1, 00028 Subiaco RM
+Coordinate: Lat 41.919064, Lng 13.109564
+Website: https://www.foresteria-subiaco.com/
+Email: 
+
+361. Hotel Cremona Ristorante Bar
+ID: 32d8581d-a9ad-44c3-8aa6-2963dd717af8
+Slug: hotel-cremona-ristorante-bar-affile
+Nome: Hotel Cremona Ristorante Bar
+Comune / Provincia: Affile
+Indirizzo: Via Palmiro Togliatti, 19, 00030 Genazzano RM
+Coordinate: Lat 41.824295, Lng 12.967582
+Website: http://www.hotelcremona.com/
+Email: 
+
+362. L'Antico Granaio
+ID: dd3763ce-5cd5-433a-a9df-bda1788e32c9
+Slug: l-antico-granaio-affile
+Nome: L'Antico Granaio
+Comune / Provincia: Affile
+Indirizzo: Via Palianese Sud, 03018 Paliano FR
+Coordinate: Lat 41.790231, Lng 13.026406
+Website: http://linktree.com/anticogranaio
+Email: 
+
+363. Nido del Nibbio
+ID: 84261b17-70ff-4d49-888a-e215cc530f61
+Slug: nido-del-nibbio-affile
+Nome: Nido del Nibbio
+Comune / Provincia: Affile
+Indirizzo: SP44b, 00028 Livata, Subiaco RM
+Coordinate: Lat 41.938133, Lng 13.128986
+Website: http://nidodelnibbio.com/
+Email: 
+
+364. Storico Hotel Italia
+ID: cd3b0967-1527-4428-ac3c-6aa5459cfaad
+Slug: storico-hotel-italia-affile
+Nome: Storico Hotel Italia
+Comune / Provincia: Affile
+Indirizzo: Viale dei Boschi, 28, 00028 Livata RM
+Coordinate: Lat 41.936986, Lng 13.152069
+Website: https://visitit.cyou/italy-monte-livata-r023ea
+Email: 
+
+365. Barbato
+ID: 7fac8fa8-4028-441a-acbe-dc3c29fcb128
+Slug: barbato-afragola
+Nome: Barbato
+Comune / Provincia: Afragola
+Indirizzo: Corso Secondigliano, 498/500, 80144 Napoli NA
+Coordinate: Lat 40.894804, Lng 14.258993
+Website: https://direct-book.com/properties/hotelbarbatodirect
+Email: 
+
+366. Capri SPA Hotel
+ID: ed8cd9cb-1e3e-48af-9c96-0ac07fb3ff48
+Slug: capri-spa-hotel-afragola
+Nome: Capri SPA Hotel
+Comune / Provincia: Afragola
+Indirizzo: Via Lipari, 12, 80026 Casoria NA
+Coordinate: Lat 40.900842, Lng 14.327057
+Website: http://www.caprispahotel.it/
+Email: 
+
+367. Hotel Blanc
+ID: 9fc42f53-46bc-44eb-a671-cedd20b56f31
+Slug: hotel-blanc-afragola
+Nome: Hotel Blanc
+Comune / Provincia: Afragola
+Indirizzo: Via S. Salvatore, 20, 80026 Casoria NA
+Coordinate: Lat 40.897508, Lng 14.314424
+Website: https://sites.google.com/view/hotel-blanc/
+Email: 
+
+368. Hotel Business
+ID: 86d8684f-8a51-4ec2-8070-d901b9844f1f
+Slug: hotel-business-afragola
+Nome: Hotel Business
+Comune / Provincia: Afragola
+Indirizzo: Strada Statale Sannitica 87 Km. 7.800, Strada Statale Sannitica 87, Km. 7.350, 80026 Casoria NA
+Coordinate: Lat 40.917234, Lng 14.291506
+Website: http://hotelbusinesscafe.it/
+Email: 
+
+369. Hotel Daytona
+ID: 4daae8ad-2554-4e7b-99de-8e465f86db71
+Slug: hotel-daytona-afragola
+Nome: Hotel Daytona
+Comune / Provincia: Afragola
+Indirizzo: Via Romeo Nicola, 10, 80026 Casoria NA
+Coordinate: Lat 40.896118, Lng 14.303757
+Website: http://www.hoteldaytona.it/
+Email: 
+
+370. Hotel Fly
+ID: 805d1131-54ee-452c-a5df-53326f182bb4
+Slug: hotel-fly-afragola
+Nome: Hotel Fly
+Comune / Provincia: Afragola
+Indirizzo: Via Giovanni Amato, 14, 80026 Casoria NA
+Coordinate: Lat 40.898364, Lng 14.298615
+Website: https://hotel-fly.albergatore.top/
+Email: 
+
+371. Hotel Masaniello
+ID: 86f2320c-4325-4f94-b748-82442c8f4e65
+Slug: hotel-masaniello-afragola
+Nome: Hotel Masaniello
+Comune / Provincia: Afragola
+Indirizzo: Via Circumvallazione Esterna, Via Vincenzo Gemito, snc, 80026 Casoria NA
+Coordinate: Lat 40.895877, Lng 14.296811
+Website: http://www.hotelmasaniello.com/
+Email: 
+
+372. Hotel Meeting
+ID: 7ebafe6d-1f95-4763-9526-669da239b9af
+Slug: hotel-meeting-afragola
+Nome: Hotel Meeting
+Comune / Provincia: Afragola
+Indirizzo: Via Circumvallazione Esterna, 85, 80026 Casoria NA
+Coordinate: Lat 40.896965, Lng 14.304476
+Website: http://www.hotelmeeting-na.com/
+Email: 
+
+373. Hotel Sannita
+ID: 2729ff3f-b0c5-4551-9bb2-2a89ca89d104
+Slug: hotel-sannita-afragola
+Nome: Hotel Sannita
+Comune / Provincia: Afragola
+Indirizzo: Via Indipendenza, 23, 80026 Casoria NA
+Coordinate: Lat 40.918364, Lng 14.290043
+Website: https://hotelsannita.top/
+Email: 
+
+374. Life Hotel
+ID: 1f958650-c459-41b8-bcc4-6e6c3a576daf
+Slug: life-hotel-afragola
+Nome: Life Hotel
+Comune / Provincia: Afragola
+Indirizzo: Via Salice, 20, 80021 Casalnuovo di Napoli NA
+Coordinate: Lat 40.899215, Lng 14.334841
+Website: http://life-hotel.org.es/
+Email: 
+
+375. Pietrabianca Resort
+ID: 9a508406-b45a-4f3b-9617-a6d1414b8f2c
+Slug: pietrabianca-resort-afragola
+Nome: Pietrabianca Resort
+Comune / Provincia: Afragola
+Indirizzo: Via Pratola, 80, 80038 Pomigliano d'Arco NA
+Coordinate: Lat 40.920334, Lng 14.375244
+Website: https://www.resortpietrabianca.it/
+Email: 
+
+376. Residence Hotel Felix
+ID: ba880f38-287a-4fef-bc01-cad489bfb8fb
+Slug: residence-hotel-felix-afragola
+Nome: Residence Hotel Felix
+Comune / Provincia: Afragola
+Indirizzo: Vico V Via Vittorio Emanuele III, 89867 Arzano NA
+Coordinate: Lat 40.908379, Lng 14.268157
+Website: https://www.residencehotelfelix.com/
+Email: 
+
+377. SUITE CELESTIA CASORIA BY SUITE
+ID: a135990a-ca87-4de3-9e57-62ce0a84f149
+Slug: suite-celestia-casoria-by-suite-afragola
+Nome: SUITE CELESTIA CASORIA BY SUITE
+Comune / Provincia: Afragola
+Indirizzo: Via Armando Diaz, 32, 80026 Casoria NA
+Coordinate: Lat 40.905147, Lng 14.293764
+Website: http://suiteconceptitaly.it/
+Email: 
+
+378. Suite concept Italy
+ID: 614abfae-93c4-44d2-af70-abf6d4304cb1
+Slug: suite-concept-italy-afragola
+Nome: Suite concept Italy
+Comune / Provincia: Afragola
+Indirizzo: Via Armando Diaz, 32, 80026 Casoria NA
+Coordinate: Lat 40.905147, Lng 14.293764
+Website: https://www.suiteconceptitaly.it/
+Email: 
+
+379. Vama House
+ID: 6a1a7066-9df6-44f9-bdf4-354b11cdd303
+Slug: vama-house-afragola
+Nome: Vama House
+Comune / Provincia: Afragola
+Indirizzo: Traversa II di Corso Secondigliano, 80144 Napoli NA
+Coordinate: Lat 40.896435, Lng 14.25592
+Website: https://directystay.eu/vama-house-napoli-italy
+Email: 
+
+380. Afrodite Boutique Hotel
+ID: ff3f0eb4-d120-4464-a5ea-77be6272d7fc
+Slug: afrodite-boutique-hotel-africo
+Nome: Afrodite Boutique Hotel
+Comune / Provincia: Africo
+Indirizzo: Via Aldo Moro, 89034 Bovalino RC
+Coordinate: Lat 38.152967, Lng 16.182876
+Website: https://www.afroditeboutiquehotel.it/
+Email: 
+
+381. B & B Donna Beatrice
+ID: 198893bb-100c-4b49-af9e-858516c80d3b
+Slug: b-b-donna-beatrice-africo
+Nome: B & B Donna Beatrice
+Comune / Provincia: Africo
+Indirizzo: cda vescovado, 89032 Bianco RC
+Coordinate: Lat 38.083588, Lng 16.138674
+Website: http://agriturismo-donna-beatrice.com.es/
+Email: 
+
+382. B&B Casa Cosmano
+ID: c50392b4-8bd0-4f2c-bd4a-f1162fcb071d
+Slug: b-b-casa-cosmano-africo
+Nome: B&B Casa Cosmano
+Comune / Provincia: Africo
+Indirizzo: Traversa IV Contrada Caldara, 13, 89036 Brancaleone Marina RC
+Coordinate: Lat 37.945908, Lng 16.084525
+Website: http://www.casacosmano.it/
+Email: 
+
+383. B&B Il Mulino Locri
+ID: d1039f2a-a656-40bd-9be2-b674b3432196
+Slug: b-b-il-mulino-locri-africo
+Nome: B&B Il Mulino Locri
+Comune / Provincia: Africo
+Indirizzo: Via Taranto, 4, 89044 Locri RC
+Coordinate: Lat 38.23646, Lng 16.257412
+Website: https://www.facebook.com/BB-Il-Mulino-Locri-626723347357034/
+Email: 
+
+384. B&B Villa delle Rose - Bova Marina - Reggio Calabria
+ID: 9b2826af-e01b-4dc7-b30c-fef2cf99b1a7
+Slug: b-b-villa-delle-rose-bova-marina-reggio-calabria-africo
+Nome: B&B Villa delle Rose - Bova Marina - Reggio Calabria
+Comune / Provincia: Africo
+Indirizzo: Contrada Monoscalco, 89035 Bova Marina RC
+Coordinate: Lat 37.937362, Lng 15.914523
+Website: —
+Email: 
+
+385. Bed & Breakfast Kalinikta
+ID: 8fe063fd-a64f-4da5-94d3-67ad95ee4708
+Slug: bed-breakfast-kalinikta-africo
+Nome: Bed & Breakfast Kalinikta
+Comune / Provincia: Africo
+Indirizzo: V. Oliverio, 19, 89044 Locri RC
+Coordinate: Lat 38.228922, Lng 16.258566
+Website: http://www.kalinikta.com/
+Email: 

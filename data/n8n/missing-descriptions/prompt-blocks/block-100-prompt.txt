@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+3466. Hotel Salieri SRL
+ID: 0c72d832-8467-44d2-a870-d4a98500fe1b
+Slug: hotel-salieri-srl-angiari
+Nome: Hotel Salieri SRL
+Comune / Provincia: Angiari
+Indirizzo: Viale dei Caduti, 64, 37045 Legnago VR
+Coordinate: Lat 45.192423, Lng 11.307221
+Website: http://www.hotelsalieri.it/
+Email: 
+
+3467. La Campagnola 1926 Ristorante Hotel
+ID: 81770d05-9107-412a-801c-96cfaeead173
+Slug: la-campagnola-1926-ristorante-hotel-angiari
+Nome: La Campagnola 1926 Ristorante Hotel
+Comune / Provincia: Angiari
+Indirizzo: A. Manzoni 28 37059, 37059 Campagnola VR
+Coordinate: Lat 45.350116, Lng 11.053413
+Website: http://www.lacampagnola1926.com/
+Email: 
+
+3468. Soave Country House
+ID: d7a08928-4903-4b8d-9d22-2217f7fd11e3
+Slug: soave-country-house-angiari
+Nome: Soave Country House
+Comune / Provincia: Angiari
+Indirizzo: Via Dr. Guglielmo, Via Dr. G. Soave, 15, 37050 Angiari VR
+Coordinate: Lat 45.222282, Lng 11.281123
+Website: https://it.soavecountryhouse.com/
+Email: 
+
+3469. Villa Brama
+ID: 5580c938-539b-4371-b35a-b49b6e149ae3
+Slug: villa-brama-angiari
+Nome: Villa Brama
+Comune / Provincia: Angiari
+Indirizzo: Via Santa Eurosia, 21, 37045 Legnago VR
+Coordinate: Lat 45.200836, Lng 11.2941
+Website: http://www.bramaverona.it/
+Email: 
+
+3470. Agriturismo Il Moro
+ID: 21a18ae9-6038-4aa5-bb8d-3965cf8a52d0
+Slug: agriturismo-il-moro-angolo-terme
+Nome: Agriturismo Il Moro
+Comune / Provincia: Angolo Terme
+Indirizzo: Località Sorline, 25040 Angolo BS
+Coordinate: Lat 45.882702, Lng 10.157899
+Website: https://www.ilmoroagriturismo.it/
+Email: 
+
+3471. Agriturismo Le Frise
+ID: 105e388a-6dfc-4e6a-9609-fa25e12b071a
+Slug: agriturismo-le-frise-angolo-terme
+Nome: Agriturismo Le Frise
+Comune / Provincia: Angolo Terme
+Indirizzo: Via Plagne, 12, 25040 Rive Dei Balti BS
+Coordinate: Lat 45.857009, Lng 10.176123
+Website: http://www.lefrise.it/
+Email: 
+
+3472. Agriturismo Ruc del Lac
+ID: 25a66bc9-9c98-4332-af43-dfbceb6e67fb
+Slug: agriturismo-ruc-del-lac-angolo-terme
+Nome: Agriturismo Ruc del Lac
+Comune / Provincia: Angolo Terme
+Indirizzo: Via Lago Moro, 25047 Darfo Boario Terme BS
+Coordinate: Lat 45.882055, Lng 10.165617
+Website: http://www.rucdellac.it/
+Email: 
+
+3473. Agriturismo Scraleca
+ID: 98792044-1664-41cc-b5ab-c2716fb6a23b
+Slug: agriturismo-scraleca-angolo-terme
+Nome: Agriturismo Scraleca
+Comune / Provincia: Angolo Terme
+Indirizzo: Località, Via Rodino, 25040 Angolo Terme BS
+Coordinate: Lat 45.878119, Lng 10.151795
+Website: https://www.scraleca.it/
+Email: 
+
+3474. Agriturismo Serec | Ristorante e B&B
+ID: e97bbc50-ed6a-45fc-b819-399c45f7f099
+Slug: agriturismo-serec-ristorante-e-b-b-angolo-terme
+Nome: Agriturismo Serec | Ristorante e B&B
+Comune / Provincia: Angolo Terme
+Indirizzo: Via Serec, 25040 Angolo Terme BS
+Coordinate: Lat 45.892445, Lng 10.139631
+Website: https://www.agriturismoserec.it/
+Email: 
+
+3475. Albergo Legazzuolo
+ID: c8a5b3f5-d0f1-4f73-9ed3-06351b91f016
+Slug: albergo-legazzuolo-angolo-terme
+Nome: Albergo Legazzuolo
+Comune / Provincia: Angolo Terme
+Indirizzo: Via Legazzuolo di Montecampione, 1, 25050 Artogne BS
+Coordinate: Lat 45.827239, Lng 10.182871
+Website: http://www.albergolegazzuolo.it/
+Email: 
+
+3476. Albergo Rusen
+ID: 2df07734-cf5e-468e-a487-a3d04d56a2f0
+Slug: albergo-rusen-angolo-terme
+Nome: Albergo Rusen
+Comune / Provincia: Angolo Terme
+Indirizzo: Via Vittorio Veneto, 114, 25042 Borno BS
+Coordinate: Lat 45.94682, Lng 10.198618
+Website: https://albergorusen.it/
+Email: 
+
+3477. Albergo Sole
+ID: c3090131-640a-4f22-98e4-fe1629960314
+Slug: albergo-sole-angolo-terme
+Nome: Albergo Sole
+Comune / Provincia: Angolo Terme
+Indirizzo: Via Silvio Pellico, 10, 24020 Bratto BG
+Coordinate: Lat 45.919889, Lng 10.056841
+Website: http://www.hotelsole-bratto.it/
+Email: 
+
+3478. Albergo Sorriso
+ID: 731676f5-07cc-42e9-b8a9-dd1b3358ad9c
+Slug: albergo-sorriso-angolo-terme
+Nome: Albergo Sorriso
+Comune / Provincia: Angolo Terme
+Indirizzo: Via Roccole, 1/3, 25041 Darfo Boario Terme BS
+Coordinate: Lat 45.892921, Lng 10.188235
+Website: http://www.albergosorriso.it/
+Email: 
+
+3479. Casa Amalia B&B
+ID: 60a0886b-75f1-43fa-8c52-7e26a4cc96aa
+Slug: casa-amalia-b-b-angolo-terme
+Nome: Casa Amalia B&B
+Comune / Provincia: Angolo Terme
+Indirizzo: Via Roma, 8, 25047 Darfo Boario Terme BS
+Coordinate: Lat 45.879821, Lng 10.18191
+Website: http://www.bbamalia.jimdo.com/
+Email: 
+
+3480. Hotel Brescia
+ID: 6ffbeed5-3700-4812-b867-4d6072f1e9ca
+Slug: hotel-brescia-angolo-terme
+Nome: Hotel Brescia
+Comune / Provincia: Angolo Terme
+Indirizzo: Via Giuseppe Zanardelli, 6, 25047 Darfo Boario Terme BS
+Coordinate: Lat 45.88953, Lng 10.185284
+Website: http://www.hotelbrescia.it/
+Email: 
+
+3481. Hotel Diana
+ID: ec0f4a09-5e95-4690-a322-8194fec0fe51
+Slug: hotel-diana-angolo-terme
+Nome: Hotel Diana
+Comune / Provincia: Angolo Terme
+Indirizzo: V. Manifattura Vittorio Olcese, 12, 25047 Darfo Boario Terme BS
+Coordinate: Lat 45.890129, Lng 10.186967
+Website: http://www.hoteldianadarfoboarioterme.com/
+Email: 
+
+3482. Hotel Franini
+ID: 13201882-e1fd-4501-828e-7042dbf65ca6
+Slug: hotel-franini-angolo-terme
+Nome: Hotel Franini
+Comune / Provincia: Angolo Terme
+Indirizzo: Via Nazionale, 242, 24062 Costa Volpino BG
+Coordinate: Lat 45.832015, Lng 10.101604
+Website: http://www.hotelfranini.it/
+Email: 
+
+3483. Hotel PIzzeria Dovina
+ID: 5c51eb8f-5f43-48c0-9dc6-bd6e0b80aed8
+Slug: hotel-pizzeria-dovina-angolo-terme
+Nome: Hotel PIzzeria Dovina
+Comune / Provincia: Angolo Terme
+Indirizzo: Via Regina Elena, 6, 25040 Angolo Terme BS
+Coordinate: Lat 45.891754, Lng 10.150713
+Website: https://www.hoteldovina.com/
+Email: 
+
+3484. Hotel San Marco BB Boario Terme
+ID: efff3e63-23ee-41b9-b2e4-889ea7015158
+Slug: hotel-san-marco-bb-boario-terme-angolo-terme
+Nome: Hotel San Marco BB Boario Terme
+Comune / Provincia: Angolo Terme
+Indirizzo: Via Don Guido Turla, 4, 25041 Boario Terme BS
+Coordinate: Lat 45.890659, Lng 10.187728
+Website: http://www.hotelsanmarcoboario.it/
+Email: 
+
+3485. Il rifugio del Risol
+ID: 35e0f9df-0c42-4d7b-bf5b-938e45c677b1
+Slug: il-rifugio-del-risol-angolo-terme
+Nome: Il rifugio del Risol
+Comune / Provincia: Angolo Terme
+Indirizzo: Via Foppi, 24020 Castione della Presolana BG
+Coordinate: Lat 45.913635, Lng 10.064945
+Website: http://ilrifugiodelrisol.octosite.net/
+Email: 
+
+3486. Ostello Angolo Verde
+ID: 282af70b-3585-442b-82b1-62f2ecd95cba
+Slug: ostello-angolo-verde-angolo-terme
+Nome: Ostello Angolo Verde
+Comune / Provincia: Angolo Terme
+Indirizzo: Via Bregno, 1, 25040 Angolo Terme BS
+Coordinate: Lat 45.896171, Lng 10.147574
+Website: https://www.ostelloangoloverde.it/contatti/
+Email: 
+
+3487. Osteria Carlì - Pisogne
+ID: 9211baff-ff2a-4a3e-a4bb-b65be84d2593
+Slug: osteria-carli-pisogne-angolo-terme
+Nome: Osteria Carlì - Pisogne
+Comune / Provincia: Angolo Terme
+Indirizzo: Via Don Andrea Boldini, 20/A, 25055 Fraine BS
+Coordinate: Lat 45.817639, Lng 10.151342
+Website: http://www.osteria-bb-carli.de/
+Email: 
+
+3488. Rizzi Aquacharme Hotel & SPA
+ID: c8e5cfb4-1b99-4a73-890f-e96d2a650b93
+Slug: rizzi-aquacharme-hotel-spa-angolo-terme
+Nome: Rizzi Aquacharme Hotel & SPA
+Comune / Provincia: Angolo Terme
+Indirizzo: Viale Giosuè Carducci, 11, 25047 Darfo Boario Terme BS
+Coordinate: Lat 45.892023, Lng 10.188212
+Website: http://www.rizziaquacharme.it/
+Email: 
+
+3489. B&B Al Castello di Lettere
+ID: dc542712-9cc9-42b1-91bb-2cd9b195f1f1
+Slug: b-b-al-castello-di-lettere-angri
+Nome: B&B Al Castello di Lettere
+Comune / Provincia: Angri
+Indirizzo: Via Casa Sabatino, 25, 80050 Lettere NA
+Coordinate: Lat 40.709907, Lng 14.54845
+Website: https://securestay.eu/bnb-al-castello-di-lettere
+Email: 
+
+3490. B&B Del Corso Scafati
+ID: e3c72206-3489-430c-af9e-0a6ae77b33c0
+Slug: b-b-del-corso-scafati-angri
+Nome: B&B Del Corso Scafati
+Comune / Provincia: Angri
+Indirizzo: Cortile Rioles, n° 5, 84018 Scafati SA
+Coordinate: Lat 40.750486, Lng 14.523599
+Website: —
+Email: 
+
+3491. B&b Le Maioliche
+ID: b7b6300a-a3cd-4022-979a-531d1e4f16c3
+Slug: b-b-le-maioliche-angri
+Nome: B&b Le Maioliche
+Comune / Provincia: Angri
+Indirizzo: Via Nazionale, 110, 84016 Sant'Egidio del Monte Albino SA
+Coordinate: Lat 40.748161, Lng 14.590947
+Website: —
+Email: 
+
+3492. B&B Rispoli
+ID: c579b937-7dc3-4b2f-9009-e8ebe850c756
+Slug: b-b-rispoli-angri
+Nome: B&B Rispoli
+Comune / Provincia: Angri
+Indirizzo: Via Satriano, 12, 84012 Angri SA
+Coordinate: Lat 40.732679, Lng 14.566843
+Website: —
+Email: 
+
+3493. Bed & Breakfast Vesuvio
+ID: ba778a32-7659-4b4e-b789-e295b5ce038a
+Slug: bed-breakfast-vesuvio-angri
+Nome: Bed & Breakfast Vesuvio
+Comune / Provincia: Angri
+Indirizzo: Via Della Resistenza, 99, 84018 Scafati SA
+Coordinate: Lat 40.759808, Lng 14.526757
+Website: http://www.bbvesuvio.com/bed-and-breakfast-vicino-scavi-di-pompei-e-sorrento/
+Email: 
+
+3494. Casa Anselmo Guest House (cinIT065088C2WJGMK8T6)
+ID: 556a828d-1fba-4755-ae14-86dfeea9f641
+Slug: casa-anselmo-guest-house-cinit065088c2wjgmk8t6-angri
+Nome: Casa Anselmo Guest House (cinIT065088C2WJGMK8T6)
+Comune / Provincia: Angri
+Indirizzo: Via Ferrante, 13, 84016 Pagani SA
+Coordinate: Lat 40.73908, Lng 14.60956
+Website: https://www.facebook.com/profile.php?id=61557001628450
+Email: 
+
+3495. COAST TO COAST ROOMS And POOL
+ID: 79b4368c-80ea-43eb-b94d-f631ea0edf2a
+Slug: coast-to-coast-rooms-and-pool-angri
+Nome: COAST TO COAST ROOMS And POOL
+Comune / Provincia: Angri
+Indirizzo: Via Dante Alighieri, 28, 84010 Sant'Egidio del Monte Albino SA
+Coordinate: Lat 40.740299, Lng 14.58572
+Website: https://www.bbcoasttocoastsuite.com/
+Email: 
+
+3496. Corte San Lorenzo
+ID: a88697d3-d57b-4102-a560-d2d65b5f241e
+Slug: corte-san-lorenzo-angri
+Nome: Corte San Lorenzo
+Comune / Provincia: Angri
+Indirizzo: Via Ugo Foscolo, 28, 84010 Sant'Egidio del Monte Albino SA
+Coordinate: Lat 40.740635, Lng 14.597126
+Website: http://www.cortesanlorenzo.it/
+Email: 
+
+3497. Domus Monasteire - B&B Guesthouse
+ID: bff203ac-abd1-4a64-9731-419424bdf27f
+Slug: domus-monasteire-b-b-guesthouse-angri
+Nome: Domus Monasteire - B&B Guesthouse
+Comune / Provincia: Angri
+Indirizzo: V.Arcivescovo Carmine Cesarano, 14, 84016 Pagani SA
+Coordinate: Lat 40.743094, Lng 14.610913
+Website: https://www.domusbnb.com/
+Email: 
+
+3498. Grand Hotel La Sonrisa
+ID: cdeb06a6-e3ff-4f7c-a6a5-1dca21eded78
+Slug: grand-hotel-la-sonrisa-angri
+Nome: Grand Hotel La Sonrisa
+Comune / Provincia: Angri
+Indirizzo: Via Stabia, 500, 80057 Sant'Antonio Abate NA
+Coordinate: Lat 40.71187, Lng 14.526956
+Website: https://www.lasonrisa.it/
+Email: 
+
+3499. Hotel Due Pini Conte S.R.L.
+ID: e7f699f8-1459-4da1-855b-047e92789563
+Slug: hotel-due-pini-conte-s-r-l-angri
+Nome: Hotel Due Pini Conte S.R.L.
+Comune / Provincia: Angri
+Indirizzo: Via del Monte, 40, 84012 Angri SA
+Coordinate: Lat 40.730898, Lng 14.570898
+Website: —
+Email: 
+
+3500. Hotel Scalinatella
+ID: 15d739d1-56b1-4b7f-bba3-a65631c0104c
+Slug: hotel-scalinatella-angri
+Nome: Hotel Scalinatella
+Comune / Provincia: Angri
+Indirizzo: Via di Mezzo Ovest, 14, 84012 Angri SA
+Coordinate: Lat 40.738931, Lng 14.571422
+Website: http://www.hotelscalinatella.com/
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+7421. Hotel La Valle dell'Aquila
+ID: 60e1df5d-dbf5-4040-8275-bdee7924bbff
+Slug: hotel-la-valle-dell-aquila-barisciano
+Nome: Hotel La Valle dell'Aquila
+Comune / Provincia: Barisciano
+Indirizzo: Via Fura, 25, 67100 L'Aquila AQ
+Coordinate: Lat 42.312428, Lng 13.453277
+Website: http://valleaquila.it/
+Email: 
+
+7422. La Bifora e Le Lune
+ID: b0616652-3d26-462a-bca6-399b6c0699b5
+Slug: la-bifora-e-le-lune-barisciano
+Nome: La Bifora e Le Lune
+Comune / Provincia: Barisciano
+Indirizzo: Vico sotto gli archi, Parcheggio, Piazza della Giudea, 5, 67020 Santo Stefano di Sessanio AQ
+Coordinate: Lat 42.343762, Lng 13.643729
+Website: https://labiforalelune.com/
+Email: 
+
+7423. La Dimora di Ziella
+ID: bc79c525-4f10-4a60-82de-74066d9e67ce
+Slug: la-dimora-di-ziella-barisciano
+Nome: La Dimora di Ziella
+Comune / Provincia: Barisciano
+Indirizzo: Via Parisse, 3, 67021 Barisciano AQ
+Coordinate: Lat 42.33058, Lng 13.536247
+Website: —
+Email: 
+
+7424. La Villetta - Food & Drink - Rooms for Rent
+ID: 335e3a3a-6129-4715-bae6-eeb3f572f7c7
+Slug: la-villetta-food-drink-rooms-for-rent-barisciano
+Nome: La Villetta - Food & Drink - Rooms for Rent
+Comune / Provincia: Barisciano
+Indirizzo: Fonte Cerreto, 67100 Assergi AQ
+Coordinate: Lat 42.425859, Lng 13.526535
+Website: http://www.lavillettaaq.it/
+Email: 
+
+7425. Natour l'Ostello per i camminatori
+ID: 80c70a95-777a-4f41-93a1-d40061cc8d68
+Slug: natour-l-ostello-per-i-camminatori-barisciano
+Nome: Natour l'Ostello per i camminatori
+Comune / Provincia: Barisciano
+Indirizzo: Via Provinciale, 67021 Barisciano AQ
+Coordinate: Lat 42.323403, Lng 13.589719
+Website: —
+Email: 
+
+7426. "IL PICCOLO GOLF" - Foresteria Lombarda
+ID: 8c466db5-c79d-4f68-b2ed-dab200a3a361
+Slug: il-piccolo-golf-foresteria-lombarda-barlassina
+Nome: "IL PICCOLO GOLF" - Foresteria Lombarda
+Comune / Provincia: Barlassina
+Indirizzo: Via Pavia, 32, 20835 Muggiò MB
+Coordinate: Lat 45.583306, Lng 9.233449
+Website: http://www.ilpiccologolf.it/
+Email: 
+
+7427. Albergo Golf Barlassina
+ID: bf8d68a8-2ba2-4ec6-a13c-33f603e7304a
+Slug: albergo-golf-barlassina-barlassina
+Nome: Albergo Golf Barlassina
+Comune / Provincia: Barlassina
+Indirizzo: Via Privata Golf, 42, 20823 Barlassina MB
+Coordinate: Lat 45.659344, Lng 9.119052
+Website: —
+Email: 
+
+7428. B&B Casa Emma
+ID: 1836667a-0bf0-4206-9dcc-8946df4c0623
+Slug: b-b-casa-emma-barlassina
+Nome: B&B Casa Emma
+Comune / Provincia: Barlassina
+Indirizzo: Via Giovanni Randaccio, 10, 21047 Saronno VA
+Coordinate: Lat 45.631182, Lng 9.03204
+Website: https://www.airbnb.it/users/show/164684377
+Email: 
+
+7429. B&B Elisa
+ID: 3b132989-b031-4e46-a012-9171dacbc81a
+Slug: b-b-elisa-barlassina
+Nome: B&B Elisa
+Comune / Provincia: Barlassina
+Indirizzo: Via Bainsizza, 773, 21042 Caronno Pertusella VA
+Coordinate: Lat 45.591797, Lng 9.060328
+Website: https://bedandbreakfast-elisa-fieramilano.com/b-b-elisa
+Email: 
+
+7430. B&B Honey Rooms
+ID: e91d046b-f248-46e3-bd91-5bd0e69dcff4
+Slug: b-b-honey-rooms-barlassina
+Nome: B&B Honey Rooms
+Comune / Provincia: Barlassina
+Indirizzo: Via S. Solutore, 34, 21047 Saronno VA
+Coordinate: Lat 45.618182, Lng 9.044145
+Website: —
+Email: 
+
+7431. Hotel Cyrano
+ID: 0c379427-6545-42e9-b7e4-c4bcba900a19
+Slug: hotel-cyrano-barlassina
+Nome: Hotel Cyrano
+Comune / Provincia: Barlassina
+Indirizzo: Via IV Novembre, 11/13, 21047 Saronno VA
+Coordinate: Lat 45.622552, Lng 9.036477
+Website: https://www.hotelcyranosaronno.com/
+Email: 
+
+7432. Hotel della Rotonda
+ID: a97ac9ea-1405-49bd-ba46-a8ff81e8fb74
+Slug: hotel-della-rotonda-barlassina
+Nome: Hotel della Rotonda
+Comune / Provincia: Barlassina
+Indirizzo: Via Novara, 53, 21047 Saronno VA
+Coordinate: Lat 45.622349, Lng 9.01699
+Website: http://www.hoteldellarotonda.it/
+Email: 
+
+7433. Hotel Lombardia
+ID: a5bfb58e-fe7a-4a4c-9727-74847c0ed1d1
+Slug: hotel-lombardia-barlassina
+Nome: Hotel Lombardia
+Comune / Provincia: Barlassina
+Indirizzo: Corso Giuseppe Garibaldi, 5, 20030 Seveso MB
+Coordinate: Lat 45.64233, Lng 9.136337
+Website: http://www.hotel-lombardia.it/
+Email: 
+
+7434. Hotel Motel Futura
+ID: 8146f3c0-07d6-495f-831b-aa0e9f7aafd5
+Slug: hotel-motel-futura-barlassina
+Nome: Hotel Motel Futura
+Comune / Provincia: Barlassina
+Indirizzo: Via Valassina, 97, 20037 Paderno Dugnano MI
+Coordinate: Lat 45.580081, Lng 9.173643
+Website: http://www.futuramotel.it/
+Email: 
+
+7435. Hotel Parco Borromeo Cesano Maderno
+ID: 0e87bb31-5b8b-43e1-bd61-9f6f887144f3
+Slug: hotel-parco-borromeo-cesano-maderno-barlassina
+Nome: Hotel Parco Borromeo Cesano Maderno
+Comune / Provincia: Barlassina
+Indirizzo: Piazza Ercole Procaccini, 20811 Cesano Maderno MB
+Coordinate: Lat 45.629429, Lng 9.147542
+Website: https://www.hotelparcoborromeo.it/
+Email: 
+
+7436. Residence Principe
+ID: e9165a63-38e2-4816-a3bf-a1bc6e4efd4b
+Slug: residence-principe-barlassina
+Nome: Residence Principe
+Comune / Provincia: Barlassina
+Indirizzo: Via Caduti della Liberazione, 18, 21047 Saronno VA
+Coordinate: Lat 45.624391, Lng 9.034439
+Website: http://residenceprincipedisaronno.com/
+Email: 
+
+7437. B&B Chiaro di Luna
+ID: a5287580-626b-4995-8a64-68fe22185edf
+Slug: b-b-chiaro-di-luna-barletta
+Nome: B&B Chiaro di Luna
+Comune / Provincia: Barletta
+Indirizzo: Vico Miale da Troia, 32, 76121 Barletta BT
+Coordinate: Lat 41.321221, Lng 16.285751
+Website: —
+Email: 
+
+7438. B&B De Nittis - Meridia Collection
+ID: d54b77a8-58b4-409f-86ad-13cde3a17cc3
+Slug: b-b-de-nittis-meridia-collection-barletta
+Nome: B&B De Nittis - Meridia Collection
+Comune / Provincia: Barletta
+Indirizzo: Vicolo del Lupo, 9, 76121 Barletta BT
+Coordinate: Lat 41.320033, Lng 16.276521
+Website: https://www.bbdenittis.com/
+Email: 
+
+7439. B&B Il Campanile Barletta
+ID: 4480ec9c-2885-4358-a09c-cd7fb5a0d8e5
+Slug: b-b-il-campanile-barletta-barletta
+Nome: B&B Il Campanile Barletta
+Comune / Provincia: Barletta
+Indirizzo: Campanile Gotico, Via M. Abignenti, 2, 76121 Barletta BT
+Coordinate: Lat 41.320723, Lng 16.28612
+Website: https://www.hotelsitalic.com/bb-il-campanile/
+Email: 
+
+7440. B&B La Disfida di Barletta
+ID: 90026661-de6a-4520-a126-955f030e4c6b
+Slug: b-b-la-disfida-di-barletta-barletta
+Nome: B&B La Disfida di Barletta
+Comune / Provincia: Barletta
+Indirizzo: Via del Duomo, 1, 76121 Barletta BT
+Coordinate: Lat 41.320821, Lng 16.284632
+Website: http://www.ladisfidadibarletta.it/
+Email: 
+
+7441. B&b le muse
+ID: 3de828bd-3371-458d-9de5-62f01011fefc
+Slug: b-b-le-muse-barletta
+Nome: B&b le muse
+Comune / Provincia: Barletta
+Indirizzo: Via Cavour, 62, 76121 Barletta BT
+Coordinate: Lat 41.319267, Lng 16.285635
+Website: http://www.bblemuse.it/
+Email: 
+
+7442. b&b Nazareth
+ID: d2712212-ee2b-4c6f-a7cc-3d098790cdbc
+Slug: b-b-nazareth-barletta
+Nome: b&b Nazareth
+Comune / Provincia: Barletta
+Indirizzo: Via Nazareth, 60, 76121 Barletta BT
+Coordinate: Lat 41.320414, Lng 16.28258
+Website: https://bb-nazareth.business.site/
+Email: 
+
+7443. B&B Saint Patrick
+ID: ac5d7f95-29ad-4cec-9b5c-4ba45a0c1a37
+Slug: b-b-saint-patrick-barletta
+Nome: B&B Saint Patrick
+Comune / Provincia: Barletta
+Indirizzo: Corso Giuseppe Garibaldi, 145, 76121 Barletta BT
+Coordinate: Lat 41.320554, Lng 16.284058
+Website: http://www.saint-patrick.it/
+Email: 
+
+7444. Best Western Hotel Dei Cavalieri
+ID: 826f745d-29ad-42f6-8bb3-39cf5c310fab
+Slug: best-western-hotel-dei-cavalieri-barletta
+Nome: Best Western Hotel Dei Cavalieri
+Comune / Provincia: Barletta
+Indirizzo: Via Foggia, 40, 76121 Barletta BT
+Coordinate: Lat 41.320031, Lng 16.25746
+Website: http://www.hoteldeicavalieri.net/
+Email: 
+
+7445. Binario 1 Rooms | B&B a Barletta
+ID: 7e58ea73-a03a-44c4-8d26-bb8bce03baad
+Slug: binario-1-rooms-b-b-a-barletta-barletta
+Nome: Binario 1 Rooms | B&B a Barletta
+Comune / Provincia: Barletta
+Indirizzo: Via Torino, 4, 76121 Barletta BT
+Coordinate: Lat 41.3157, Lng 16.278036
+Website: http://www.binario1rooms.it/
+Email: 
+
+7446. Desideri di Puglia
+ID: 9ac380d6-29f6-4f05-9cc2-0658689c3a5c
+Slug: desideri-di-puglia-barletta
+Nome: Desideri di Puglia
+Comune / Provincia: Barletta
+Indirizzo: Via Borgo Vecchio, 65, Vico Lepanto, 1, 76121 Barletta BT
+Coordinate: Lat 41.319478, Lng 16.27875
+Website: —
+Email: 
+
+7447. Domatia Bed and Breakfast
+ID: 7837bbfe-6488-408b-b15b-bd09b474016a
+Slug: domatia-bed-and-breakfast-barletta
+Nome: Domatia Bed and Breakfast
+Comune / Provincia: Barletta
+Indirizzo: Vico Pietro Riczio, 20, 76121 Barletta BT
+Coordinate: Lat 41.321072, Lng 16.285533
+Website: http://www.bbdomatiabarletta.it/
+Email: 
+
+7448. Guest House Al Centro Storico
+ID: bcc4a56e-f239-46b2-a4d7-157ac689118e
+Slug: guest-house-al-centro-storico-barletta
+Nome: Guest House Al Centro Storico
+Comune / Provincia: Barletta
+Indirizzo: Via Samuelli, 83, 76121 Barletta BT
+Coordinate: Lat 41.320637, Lng 16.282138
+Website: http://www.bbcentrostoricobarletta.com/
+Email: 
+
+7449. La Cattedrale Barletta Guest House; Camere ; casa vacanza ;struttura bike friendly
+ID: f7f9d670-bc2e-4b7e-b5d0-5386aea68800
+Slug: la-cattedrale-barletta-guest-house-camere-casa-v-barletta
+Nome: La Cattedrale Barletta Guest House; Camere ; casa vacanza ;struttura bike friendly
+Comune / Provincia: Barletta
+Indirizzo: Via Santa Marta, 55, 76121 Barletta BT
+Coordinate: Lat 41.321083, Lng 16.280427
+Website: http://www.bbcattedrale.it/
+Email: 
+
+7450. La Luna e il Sole
+ID: 639e1938-1529-421f-85ef-8249bba17b61
+Slug: la-luna-e-il-sole-barletta
+Nome: La Luna e il Sole
+Comune / Provincia: Barletta
+Indirizzo: Via Samuelli, 79, 76121 Barletta BT
+Coordinate: Lat 41.320564, Lng 16.282149
+Website: https://beb.it/lalunaeilsole
+Email: 
+
+7451. La Terrazza
+ID: 72e21f6b-5c35-4f81-8ecb-b24e9dd732dd
+Slug: la-terrazza-barletta
+Nome: La Terrazza
+Comune / Provincia: Barletta
+Indirizzo: Via della Misericordia, 78, 76121 Barletta BT
+Coordinate: Lat 41.319115, Lng 16.299561
+Website: https://hotel-laterrazza.com/hotel/
+Email: 
+
+7452. Liddo Boutique Hotel Barletta
+ID: b9b2f905-05a3-4dc7-97fc-027d43871b6f
+Slug: liddo-boutique-hotel-barletta-barletta
+Nome: Liddo Boutique Hotel Barletta
+Comune / Provincia: Barletta
+Indirizzo: Via III Novembre, 16/18, 76121 Barletta BT
+Coordinate: Lat 41.317961, Lng 16.28718
+Website: https://www.bbliddo.it/?utm_source=google&utm_medium=organic&utm_campaign=googlemybusiness
+Email: 
+
+7453. Nicotel Barletta Hotel
+ID: eb8bdca5-a9a0-41fd-bbb4-97123afeeb27
+Slug: nicotel-barletta-hotel-barletta
+Nome: Nicotel Barletta Hotel
+Comune / Provincia: Barletta
+Indirizzo: Viale Regina Elena, 76121 Barletta BT
+Coordinate: Lat 41.320625, Lng 16.295538
+Website: http://www.nicotelhotels.com/
+Email: 
+
+7454. StArt Guest House
+ID: 5a274b29-b48d-466a-8fcd-72bb27cbecc7
+Slug: start-guest-house-barletta
+Nome: StArt Guest House
+Comune / Provincia: Barletta
+Indirizzo: Via Andrea Bonello, 80, 76121 Barletta BT
+Coordinate: Lat 41.321526, Lng 16.276667
+Website: https://www.hotelsitalic.com/start-guesthouse/
+Email: 
+
+7455. Villa helios
+ID: 52742aad-7c79-4ada-aecb-e10729ab07aa
+Slug: villa-helios-barletta
+Nome: Villa helios
+Comune / Provincia: Barletta
+Indirizzo: Via Ammiragli Ferdinando e Mario Casardi, 27, 76121 Barletta BT
+Coordinate: Lat 41.319452, Lng 16.292593
+Website: https://www.hotelspretorian.com/villa-helios/
+Email: 

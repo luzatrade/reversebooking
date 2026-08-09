@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+106. Interno 4 - Maselli
+ID: cd884227-fd21-4c58-9e4e-df37a0e2527f
+Slug: interno-4-maselli-acquaviva-delle-fonti
+Nome: Interno 4 - Maselli
+Comune / Provincia: Acquaviva delle Fonti
+Indirizzo: Via Sebastiano di Chio, 12, 70021 Acquaviva delle Fonti BA
+Coordinate: Lat 40.895782, Lng 16.844763
+Website: —
+Email: 
+
+107. Italians B&B Luxury Suite
+ID: 2f55f546-d75d-4bbb-be6c-2a7c649310e5
+Slug: italians-b-b-luxury-suite-acquaviva-delle-fonti
+Nome: Italians B&B Luxury Suite
+Comune / Provincia: Acquaviva delle Fonti
+Indirizzo: Via Arco Tampoia, 9, 70021 Acquaviva delle Fonti BA
+Coordinate: Lat 40.895836, Lng 16.841709
+Website: https://timothylovestotravel.com/italians-b-amp-b-luxury-suite-italy
+Email: 
+
+108. Mirò B&B
+ID: 19d2e176-c2ae-423b-b53c-efe1aa4157e4
+Slug: miro-b-b-acquaviva-delle-fonti
+Nome: Mirò B&B
+Comune / Provincia: Acquaviva delle Fonti
+Indirizzo: Via Martiri delle Foibe, 1, 70021 Acquaviva delle Fonti BA
+Coordinate: Lat 40.895781, Lng 16.837977
+Website: —
+Email: 
+
+109. Nel Vicoletto
+ID: bbcd934d-af6b-4b7a-b43b-e4c02141b6f2
+Slug: nel-vicoletto-acquaviva-delle-fonti
+Nome: Nel Vicoletto
+Comune / Provincia: Acquaviva delle Fonti
+Indirizzo: Via Ugo Foscolo, 1, 70020 Cassano delle Murge BA
+Coordinate: Lat 40.888357, Lng 16.771749
+Website: https://nelvicolettobb.it/
+Email: 
+
+110. Palace B&B
+ID: 3c6d6655-8101-4d9b-b8c4-6258da6daf29
+Slug: palace-b-b-acquaviva-delle-fonti
+Nome: Palace B&B
+Comune / Provincia: Acquaviva delle Fonti
+Indirizzo: Via Roma, 7, 70021 Acquaviva delle Fonti BA
+Coordinate: Lat 40.895859, Lng 16.842496
+Website: https://palace-bb.alberghiinitalia.top/
+Email: 
+
+111. Pumo Home - Apulian Luxury Rooms
+ID: 5d309400-f9e0-48e3-a104-c24738ec2d69
+Slug: pumo-home-apulian-luxury-rooms-acquaviva-delle-fonti
+Nome: Pumo Home - Apulian Luxury Rooms
+Comune / Provincia: Acquaviva delle Fonti
+Indirizzo: Via Francesco Cirillo, 20, 70021 Acquaviva delle Fonti BA
+Coordinate: Lat 40.893963, Lng 16.845286
+Website: —
+Email: 
+
+112. Supriani Luxury Bed & Breakfast
+ID: e5116a06-c3b5-4956-b85b-5f23d1c5e22f
+Slug: supriani-luxury-bed-breakfast-acquaviva-delle-fonti
+Nome: Supriani Luxury Bed & Breakfast
+Comune / Provincia: Acquaviva delle Fonti
+Indirizzo: Via Francesco, Via Supriani, 42, 70021 Acquaviva delle Fonti BA
+Coordinate: Lat 40.897912, Lng 16.840794
+Website: —
+Email: 
+
+113. Tenuta Gentile Resort & Spa
+ID: 83f596a7-fc83-4b8d-b7f9-267ff9abc771
+Slug: tenuta-gentile-resort-spa-acquaviva-delle-fonti
+Nome: Tenuta Gentile Resort & Spa
+Comune / Provincia: Acquaviva delle Fonti
+Indirizzo: Via S. Antonio Abate, 2, 70020 Cassano delle Murge BA
+Coordinate: Lat 40.884252, Lng 16.769586
+Website: https://tenutagentile.com/
+Email: 
+
+114. AFFITTACAMERE VILLA SANTA LUCIA
+ID: 4233d16f-f568-44d4-8927-8bcfa68a5440
+Slug: affittacamere-villa-santa-lucia-acquaviva-picena
+Nome: AFFITTACAMERE VILLA SANTA LUCIA
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Via Santa Lucia, 6, 63074 San Benedetto del Tronto AP
+Coordinate: Lat 42.941484, Lng 13.879332
+Website: https://beb.it/santaluciasbt
+Email: 
+
+115. Agriturismo Aqua Viva
+ID: 0f8a513a-9cc7-4aa9-a864-cc1dd8445d16
+Slug: agriturismo-aqua-viva-acquaviva-picena
+Nome: Agriturismo Aqua Viva
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Via Santa Caterina, 8, 63075 Acquaviva Picena AP
+Coordinate: Lat 42.943157, Lng 13.799077
+Website: http://www.agriturismoaquaviva.net/
+Email: 
+
+116. B&B Il Giardino Mediterraneo
+ID: b439235e-cb11-4b82-985c-a075fb4aef3c
+Slug: b-b-il-giardino-mediterraneo-acquaviva-picena
+Nome: B&B Il Giardino Mediterraneo
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Via Carlo Alberto Dalla Chiesa, 58, 63075 Acquaviva Picena AP
+Coordinate: Lat 42.941345, Lng 13.832489
+Website: https://www.bbilgiardinomediterraneo.com/
+Email: 
+
+117. B&B La Fontanella
+ID: 598fabf2-2ef1-4360-9b2c-7eed2f0796e6
+Slug: b-b-la-fontanella-acquaviva-picena
+Nome: B&B La Fontanella
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Via Santa Lucia, 16, 63074 San Benedetto del Tronto AP
+Coordinate: Lat 42.94082, Lng 13.878943
+Website: https://www.bblafontanella.it/
+Email: 
+
+118. B&B Verdemare
+ID: 8b852e53-d9fa-4626-8a80-7e2f28739c27
+Slug: b-b-verdemare-acquaviva-picena
+Nome: B&B Verdemare
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Contrada Casarica, 29, 63075 Acquaviva Picena AP
+Coordinate: Lat 42.926351, Lng 13.806922
+Website: https://www.bb-verdemare.com/
+Email: 
+
+119. Bed & breakfast geco
+ID: 9bcd3a0f-d4b6-4200-aca1-7aa9dcba0b49
+Slug: bed-breakfast-geco-acquaviva-picena
+Nome: Bed & breakfast geco
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Contrada Cabiano, 32, 63038 Ripatransone AP
+Coordinate: Lat 42.977215, Lng 13.781298
+Website: https://www.bebgeco.com/
+Email: 
+
+120. Colle Serrano Relais Resort
+ID: 01355036-2ff5-49a0-8400-3aa5c2d2cd02
+Slug: colle-serrano-relais-resort-acquaviva-picena
+Nome: Colle Serrano Relais Resort
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Contrada Colle di Guardia, 63065 Ripatransone AP
+Coordinate: Lat 42.972651, Lng 13.789071
+Website: https://colleserrano.com/
+Email: 
+
+121. Country Hotel & Resort I Calanchi
+ID: a111370a-721b-41ac-bcc8-bf7cd4724ff9
+Slug: country-hotel-resort-i-calanchi-acquaviva-picena
+Nome: Country Hotel & Resort I Calanchi
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Contrada Verrame, 1, 63035 Ripatransone AP
+Coordinate: Lat 42.964292, Lng 13.779893
+Website: https://www.i-calanchi.com/
+Email: 
+
+122. Country house Una
+ID: 7efa27db-99d8-4b8d-9284-6e5e05cf7376
+Slug: country-house-una-acquaviva-picena
+Nome: Country house Una
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Contrada Sant'Andrea, 66, 63064 Cupra Marittima AP
+Coordinate: Lat 42.995499, Lng 13.827475
+Website: http://www.countryhouseuna.com/
+Email: 
+
+123. Hotel La Palazzina
+ID: 302b027e-b6e4-42fe-abde-c8192e71ae59
+Slug: hotel-la-palazzina-acquaviva-picena
+Nome: Hotel La Palazzina
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Via Premuda, 7, 63074 San Benedetto del Tronto AP
+Coordinate: Lat 42.948985, Lng 13.885402
+Website: https://www.palazzinahotel.it/
+Email: 
+
+124. Hotel Oviv • La dimora del Borgo
+ID: f924bcbe-ed1b-4041-bc18-d2a6b6509421
+Slug: hotel-oviv-la-dimora-del-borgo-acquaviva-picena
+Nome: Hotel Oviv • La dimora del Borgo
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Via Marziale, 43, 63075 Acquaviva Picena AP
+Coordinate: Lat 42.944942, Lng 13.814038
+Website: https://www.hoteloviv.it/
+Email: 
+
+125. Hotel San Giacomo
+ID: 62173dd3-4447-4da4-a5a1-569fe55981c7
+Slug: hotel-san-giacomo-acquaviva-picena
+Nome: Hotel San Giacomo
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Via Giacomo Leopardi, 4, 63076 Monteprandone AP
+Coordinate: Lat 42.92048, Lng 13.835694
+Website: http://www.hotel-sangiacomo.it/
+Email: 
+
+126. La Panoramica Country House
+ID: 7185b0a6-e0d9-4066-8cc9-4d063de989b7
+Slug: la-panoramica-country-house-acquaviva-picena
+Nome: La Panoramica Country House
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Via Panoramica, 20, 63074 San Benedetto del Tronto AP
+Coordinate: Lat 42.938817, Lng 13.869508
+Website: http://www.la-panoramica.it/
+Email: 
+
+127. Pensione Vagnozzi Nazario
+ID: ba12b1e5-7b5d-4c2a-9b02-bbdc7b180e70
+Slug: pensione-vagnozzi-nazario-acquaviva-picena
+Nome: Pensione Vagnozzi Nazario
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Via Cilea, 113, 63066 Grottammare AP
+Coordinate: Lat 42.987456, Lng 13.864916
+Website: http://www.pensionevagnozzi.com/
+Email: 
+
+128. Relais Concorde
+ID: 739f6bc4-3557-41f2-b375-745dc249f2f2
+Slug: relais-concorde-acquaviva-picena
+Nome: Relais Concorde
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Via Parini, n. 34, 63066 Grottammare AP
+Coordinate: Lat 42.964035, Lng 13.877345
+Website: https://www.relaisconcorde.it/
+Email: 
+
+129. Residence Borgo da Mare
+ID: 064ff25b-e60a-4e22-9eb1-66ddf6bdb516
+Slug: residence-borgo-da-mare-acquaviva-picena
+Nome: Residence Borgo da Mare
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Via Allegretti, 13, 63030 Monteprandone AP
+Coordinate: Lat 42.920731, Lng 13.834193
+Website: http://www.borgodamare.it/
+Email: 
+
+130. Residence Club Hotel Le Terrazze
+ID: 720a70fc-ff3a-40f6-bd9a-306b06b9d38a
+Slug: residence-club-hotel-le-terrazze-acquaviva-picena
+Nome: Residence Club Hotel Le Terrazze
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Lungomare Alcide de Gasperi, 70, 63066 Grottammare AP
+Coordinate: Lat 42.981341, Lng 13.873827
+Website: http://www.residencehotelleterrazze.it
+Email: 
+
+131. Tenute Il Crinale Agriturismo e Ristorante
+ID: a66fd2f8-ad26-4ecc-95a6-f128c520bdff
+Slug: tenute-il-crinale-agriturismo-e-ristorante-acquaviva-picena
+Nome: Tenute Il Crinale Agriturismo e Ristorante
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Via Ferretti, 31, 63081 Castorano AP
+Coordinate: Lat 42.903314, Lng 13.757238
+Website: http://www.ilcrinale.it/
+Email: 
+
+132. Villa Angela
+ID: f078b3a4-3733-4a7a-910c-862332ac655a
+Slug: villa-angela-acquaviva-picena
+Nome: Villa Angela
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Via Santa Lucia, 40, 63074 San Benedetto del Tronto AP
+Coordinate: Lat 42.938491, Lng 13.878074
+Website: https://villaangela.tripcombined.com/
+Email: 
+
+133. Villa Francesca Luxury
+ID: 5aacee4b-b6da-4ed3-841c-d6039b319620
+Slug: villa-francesca-luxury-acquaviva-picena
+Nome: Villa Francesca Luxury
+Comune / Provincia: Acquaviva Picena
+Indirizzo: Via Ischia, 19, 63066 Grottammare AP
+Coordinate: Lat 42.976691, Lng 13.870897
+Website: —
+Email: 
+
+134. Agriturismo Casalicchio
+ID: ef7866e7-b21b-40b7-9031-7a077d665826
+Slug: agriturismo-casalicchio-acquaviva-platani
+Nome: Agriturismo Casalicchio
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Contrada Casalicchio, 92022 Cammarata AG
+Coordinate: Lat 37.618987, Lng 13.731146
+Website: https://www.agriturismocasalicchio.it/
+Email: 
+
+135. Agriturismo Monticelli
+ID: 6e106279-6068-4706-9cc1-2b060bc4ed98
+Slug: agriturismo-monticelli-acquaviva-platani
+Nome: Agriturismo Monticelli
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Contrada Monticelli, 93014 Mussomeli CL
+Coordinate: Lat 37.580215, Lng 13.723999
+Website: http://www.agriturismomonticelli.it/
+Email: 
+
+136. Archi di San Giacomo
+ID: 2a706d4a-c63c-45ac-b063-9c78e4e91332
+Slug: archi-di-san-giacomo-acquaviva-platani
+Nome: Archi di San Giacomo
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Via San Giacomo, 3, 92022 Cammarata AG
+Coordinate: Lat 37.637033, Lng 13.643121
+Website: https://www.facebook.com/Gli-Archi-di-San-Giacomo-105797285495255
+Email: 
+
+137. B&B Acquaviva
+ID: c2c5ebe4-6d80-4688-979c-358531cc8a18
+Slug: b-b-acquaviva-acquaviva-platani
+Nome: B&B Acquaviva
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Via Umberto I, n137, 93010 Acquaviva Platani CL
+Coordinate: Lat 37.572391, Lng 13.702415
+Website: https://timothylovestotravel.com/room-amp-breakfast-acquaviva-italy
+Email: 
+
+138. B&B La Terrazza degli Scrittori
+ID: 76560788-1a53-4c99-848c-1a660f5c996b
+Slug: b-b-la-terrazza-degli-scrittori-acquaviva-platani
+Nome: B&B La Terrazza degli Scrittori
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Contrada Bovo, 92020 Racalmuto AG
+Coordinate: Lat 37.391557, Lng 13.715811
+Website: https://laterrazzadegliscrittori.it/
+Email: 
+
+139. B&B Troisi
+ID: dabc4fd7-28e6-4f02-bbca-c2d58dd01a8b
+Slug: b-b-troisi-acquaviva-platani
+Nome: B&B Troisi
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Contrada Casalvecchio, snc, 92020 Racalmuto AG
+Coordinate: Lat 37.40429, Lng 13.745838
+Website: http://bebtroisi.com/
+Email: 
+
+140. Bed and breakfast Agrumi in terrazza
+ID: 35d58ff8-de5d-43c1-89e8-cbc0d7f136c6
+Slug: bed-and-breakfast-agrumi-in-terrazza-acquaviva-platani
+Nome: Bed and breakfast Agrumi in terrazza
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Via Rosario Livatino, 19, 92021 Aragona AG
+Coordinate: Lat 37.394597, Lng 13.621186
+Website: http://agrumi-in-terrazza.com.es//
+Email: 

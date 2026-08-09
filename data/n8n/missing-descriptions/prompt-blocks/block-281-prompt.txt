@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+9801. Soc. Agr. La Pervinca s.s.
+ID: 8db786ac-720a-4b91-80c9-81cac17e38ad
+Slug: soc-agr-la-pervinca-s-s-boretto
+Nome: Soc. Agr. La Pervinca s.s.
+Comune / Provincia: Boretto
+Indirizzo: Via delle Ville, n° 54, 42016 San Girolamo RE
+Coordinate: Lat 44.924678, Lng 10.709597
+Website: http://www.lapervinca.it/
+Email: 
+
+9802. Trattoria Del Pesce Albergo del Po Osteria al Ponte museo dei pontieri
+ID: ed7d5513-b4e3-446e-9b77-685b3c0dfc44
+Slug: trattoria-del-pesce-albergo-del-po-osteria-al-po-boretto
+Nome: Trattoria Del Pesce Albergo del Po Osteria al Ponte museo dei pontieri
+Comune / Provincia: Boretto
+Indirizzo: Via Argine, 5, 42022 Boretto RE
+Coordinate: Lat 44.908087, Lng 10.53826
+Website: http://www.albergodelpo.it/
+Email: 
+
+9803. Agriturismo Fornace Certosa
+ID: c9885e5d-6e3f-44e1-b3ae-d5c1f8b02d98
+Slug: agriturismo-fornace-certosa-borgarello
+Nome: Agriturismo Fornace Certosa
+Comune / Provincia: Borgarello
+Indirizzo: Via Fratelli Cervi, 2/4, 27010 Giussago PV
+Coordinate: Lat 45.253169, Lng 9.151809
+Website: http://www.agriturismofornacecertosa.com/
+Email: 
+
+9804. Agriturismo Maiocchi
+ID: 5328215e-6a06-4ebe-b63d-026b66087d6d
+Slug: agriturismo-maiocchi-borgarello
+Nome: Agriturismo Maiocchi
+Comune / Provincia: Borgarello
+Indirizzo: strada provinciale per San Genesio, 2, 27010 Borgarello PV
+Coordinate: Lat 45.238194, Lng 9.156387
+Website: http://www.laramaiocchi.it/
+Email: 
+
+9805. B&B Borgo Tre Case (sulla Via Francigena a 2 passi da Pavia)
+ID: fa4b531a-298e-42df-b316-f3bd83788b50
+Slug: b-b-borgo-tre-case-sulla-via-francigena-a-2-pass-borgarello
+Nome: B&B Borgo Tre Case (sulla Via Francigena a 2 passi da Pavia)
+Comune / Provincia: Borgarello
+Indirizzo: Strada Canarazzo - cascina Casoni 6, 27020 Carbonara al Ticino PV
+Coordinate: Lat 45.196187, Lng 9.091927
+Website: https://bbborgotrecase.it/
+Email: 
+
+9806. B&B One Million
+ID: 7dbc18ff-a95b-47bd-9a26-dd7cc7ee4acd
+Slug: b-b-one-million-borgarello
+Nome: B&B One Million
+Comune / Provincia: Borgarello
+Indirizzo: Via Giovanni Verga, 33, 27010 Borgarello PV
+Coordinate: Lat 45.242458, Lng 9.136975
+Website: http://one-million.org.es/
+Email: 
+
+9807. Abba Camere B&B
+ID: e51a5487-c60b-4481-9354-e0feda3b1856
+Slug: abba-camere-b-b-borgaro-torinese
+Nome: Abba Camere B&B
+Comune / Provincia: Borgaro Torinese
+Indirizzo: Via Lanzo, 125, 10071 Borgaro Torinese TO
+Coordinate: Lat 45.150072, Lng 7.654555
+Website: http://www.abbacamere.com/
+Email: 
+
+9808. Agriturismo Cascina Argentera
+ID: bd389785-be50-4436-af54-d137113bcd9d
+Slug: agriturismo-cascina-argentera-borgaro-torinese
+Nome: Agriturismo Cascina Argentera
+Comune / Provincia: Borgaro Torinese
+Indirizzo: Via Argentera, 35, 10079 Mappano TO
+Coordinate: Lat 45.149484, Lng 7.712764
+Website: http://www.cascinargentera.it/
+Email: 
+
+9809. Agriturismo Cascina Domina
+ID: ba32e441-9192-4519-81fe-61e1a71d0853
+Slug: agriturismo-cascina-domina-borgaro-torinese
+Nome: Agriturismo Cascina Domina
+Comune / Provincia: Borgaro Torinese
+Indirizzo: Str. della Trinita', 42, 10090 Gassino Torinese TO
+Coordinate: Lat 45.112468, Lng 7.827277
+Website: http://www.cascinadomina.com/
+Email: 
+
+9810. Agriturismo I Camini
+ID: 81f3c9fa-4d8e-4060-96e2-a98dd3aab9ed
+Slug: agriturismo-i-camini-borgaro-torinese
+Nome: Agriturismo I Camini
+Comune / Provincia: Borgaro Torinese
+Indirizzo: Str. Fornacino, 95, 10040 Leini TO
+Coordinate: Lat 45.159861, Lng 7.72094
+Website: http://www.agriturismoicamini.com/
+Email: 
+
+9811. Agriturismo Il Ristoro dei Folletti - Ristorazione, Azienda Agricola e Bed&Breakfast
+ID: f091b1e4-f30f-4f3c-94a4-12d7762c2d4b
+Slug: agriturismo-il-ristoro-dei-folletti-ristorazione-borgaro-torinese
+Nome: Agriturismo Il Ristoro dei Folletti - Ristorazione, Azienda Agricola e Bed&Breakfast
+Comune / Provincia: Borgaro Torinese
+Indirizzo: Str. Ceriaglio, 7, 10020 Casalborgone TO
+Coordinate: Lat 45.133383, Lng 7.946057
+Website: https://www.agriturismoristorodeifolletti.it/
+Email: 
+
+9812. Agriturismo La Longa
+ID: 1c017252-5b44-4b3d-9ecd-77eab76c8d92
+Slug: agriturismo-la-longa-borgaro-torinese
+Nome: Agriturismo La Longa
+Comune / Provincia: Borgaro Torinese
+Indirizzo: Via Lunga, 78, 10046 Poirino TO
+Coordinate: Lat 44.88102, Lng 7.84614
+Website: —
+Email: 
+
+9813. Agriturismo Parco Campofelice
+ID: 9d0f7219-f9c0-4e1b-88ab-425e0216bdfd
+Slug: agriturismo-parco-campofelice-borgaro-torinese
+Nome: Agriturismo Parco Campofelice
+Comune / Provincia: Borgaro Torinese
+Indirizzo: 85, Via Torino Poligono, 10040 Lombardore TO
+Coordinate: Lat 45.219463, Lng 7.738358
+Website: http://www.parcocampofelice.it/
+Email: 
+
+9814. Agriturismo Perla
+ID: 9cc70727-1045-4406-9c18-6392827ab44f
+Slug: agriturismo-perla-borgaro-torinese
+Nome: Agriturismo Perla
+Comune / Provincia: Borgaro Torinese
+Indirizzo: 10 Localita, Moncucco torinese, 14024 Pogliano AT
+Coordinate: Lat 45.079169, Lng 7.945275
+Website: http://www.agriturismoperla.com/
+Email: 
+
+9815. Agriturismo San Felice
+ID: 9277ff5a-70d1-4686-bd6a-61acac6caf10
+Slug: agriturismo-san-felice-borgaro-torinese
+Nome: Agriturismo San Felice
+Comune / Provincia: Borgaro Torinese
+Indirizzo: Via S. Felice, 185, 10025 Pino Torinese TO
+Coordinate: Lat 45.014527, Lng 7.781743
+Website: —
+Email: 
+
+9816. B&B HOTEL Borgaro Torinese
+ID: e81ad96a-26f7-4d0e-b5e3-8ab6f811adb3
+Slug: b-b-hotel-borgaro-torinese-borgaro-torinese
+Nome: B&B HOTEL Borgaro Torinese
+Comune / Provincia: Borgaro Torinese
+Indirizzo: Via Lanzo, 163, 10071 Borgaro Torinese TO
+Coordinate: Lat 45.15268, Lng 7.654308
+Website: https://www.hotel-bb.com/it/hotel/borgaro-torinese?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext
+Email: 
+
+9817. Agriturismo "Casale del Principe"
+ID: e92847da-0bf4-4b0e-b751-df93b20556ff
+Slug: agriturismo-casale-del-principe-borgetto
+Nome: Agriturismo "Casale del Principe"
+Comune / Provincia: Borgetto
+Indirizzo: 90046 Dammusi PA
+Coordinate: Lat 38.000831, Lng 13.187681
+Website: https://www.casaledelprincipe.it/
+Email: 
+
+9818. Agriturismo Masseria La Chiusa
+ID: 15ff33b9-eaea-482b-b347-5cfd5fea5b26
+Slug: agriturismo-masseria-la-chiusa-borgetto
+Nome: Agriturismo Masseria La Chiusa
+Comune / Provincia: Borgetto
+Indirizzo: Contrada Chiusa, 90048 San Giuseppe Jato PA
+Coordinate: Lat 37.99741, Lng 13.216221
+Website: http://www.masserialachiusa.it/
+Email: 
+
+9819. al baglio apartments
+ID: 75b42197-d669-432c-8149-a47449d881b2
+Slug: al-baglio-apartments-borgetto
+Nome: al baglio apartments
+Comune / Provincia: Borgetto
+Indirizzo: Vicolo Manganelli, 4, 90047 Partinico PA
+Coordinate: Lat 38.046985, Lng 13.117935
+Website: —
+Email: 
+
+9820. B&B Alba
+ID: 8c29596d-4ac1-413d-aa95-e29799980aea
+Slug: b-b-alba-borgetto
+Nome: B&B Alba
+Comune / Provincia: Borgetto
+Indirizzo: SS 113 Settentrionale Sicula, 209, 90049 Terrasini PA
+Coordinate: Lat 38.091989, Lng 13.080637
+Website: http://www.bebalba.com/
+Email: 
+
+9821. B&B e SPA Del Centro
+ID: c80ac7d6-e3b6-4b85-90ac-8e14a6e07113
+Slug: b-b-e-spa-del-centro-borgetto
+Nome: B&B e SPA Del Centro
+Comune / Provincia: Borgetto
+Indirizzo: Via Crupi, 37, 90047 Partinico PA
+Coordinate: Lat 38.044576, Lng 13.114189
+Website: http://www.bbdelcentro.eu/
+Email: 
+
+9822. B&B Rose Antiche Sicily
+ID: fbd8bfb3-23a9-4a44-9227-324e6a2caf70
+Slug: b-b-rose-antiche-sicily-borgetto
+Nome: B&B Rose Antiche Sicily
+Comune / Provincia: Borgetto
+Indirizzo: Via dei Mulini, snc/Pianoterra, 90047 Partinico PA
+Coordinate: Lat 38.056135, Lng 13.117023
+Website: —
+Email: 
+
+9823. B&B Torre Turrisi
+ID: d7748a36-ceaa-4ea8-a8ea-9c581d4f1e69
+Slug: b-b-torre-turrisi-borgetto
+Nome: B&B Torre Turrisi
+Comune / Provincia: Borgetto
+Indirizzo: Contrada Turrisi, 90047 Partinico PA
+Coordinate: Lat 38.032892, Lng 13.109288
+Website: —
+Email: 
+
+9824. Baglio Carta
+ID: ae327961-ad96-4df0-9f4c-8ee56bef8a81
+Slug: baglio-carta-borgetto
+Nome: Baglio Carta
+Comune / Provincia: Borgetto
+Indirizzo: C.da bosco Falconeria, SP17, 90047 Partinico PA
+Coordinate: Lat 38.013558, Lng 13.039824
+Website: http://www.bagliocartaruffino.it/
+Email: 
+
+9825. Bed and Breakfast Federico II
+ID: 24d5933a-5704-4488-b11e-81a8fdfd3363
+Slug: bed-and-breakfast-federico-ii-borgetto
+Nome: Bed and Breakfast Federico II
+Comune / Provincia: Borgetto
+Indirizzo: Via Enrico Berlinguer, 1, 90088 San Cipirello PA
+Coordinate: Lat 37.959619, Lng 13.176405
+Website: http://bnb-federico-ii.com.es/
+Email: 
+
+9826. Calajo Resort
+ID: 22317bf8-e3fe-4d6e-b0da-3088a9d5b784
+Slug: calajo-resort-borgetto
+Nome: Calajo Resort
+Comune / Provincia: Borgetto
+Indirizzo: SS113, Contrada S. Cataldo, 90040 Trappeto PA
+Coordinate: Lat 38.07885, Lng 13.081173
+Website: https://www.instagram.com/calajo_resort
+Email: 
+
+9827. CDSHotels Terrasini - Città del Mare
+ID: 169c2c7f-7ad4-45bc-ae5e-1b3e118ea8a7
+Slug: cdshotels-terrasini-citta-del-mare-borgetto
+Nome: CDSHotels Terrasini - Città del Mare
+Comune / Provincia: Borgetto
+Indirizzo: SS 113, Km 301.100, 90049 Terrasini PA
+Coordinate: Lat 38.097664, Lng 13.080972
+Website: https://cdshotels.it/cdshotels-terrasini-citta-del-mare/
+Email: 
+
+9828. ciuri ciuri b&b - via livatino 16
+ID: df90b0e2-0045-42ca-b69f-b8a5cf1695cf
+Slug: ciuri-ciuri-b-b-via-livatino-16-borgetto
+Nome: ciuri ciuri b&b - via livatino 16
+Comune / Provincia: Borgetto
+Indirizzo: Via Livatino, 16, 90047 Partinico PA
+Coordinate: Lat 38.045807, Lng 13.131337
+Website: —
+Email: 
+
+9829. Da rosy
+ID: 57b88fcd-44be-47b0-a025-53abb3976ee6
+Slug: da-rosy-borgetto
+Nome: Da rosy
+Comune / Provincia: Borgetto
+Indirizzo: Via Frisella, 57/57, 90047 Partinico PA
+Coordinate: Lat 38.046075, Lng 13.121696
+Website: https://da-rosy.bedsandhotels.com/
+Email: 
+
+9830. Esmaralda's House of Love
+ID: d4fe2f53-74a4-4977-a2ab-0bc17286b988
+Slug: esmaralda-s-house-of-love-borgetto
+Nome: Esmaralda's House of Love
+Comune / Provincia: Borgetto
+Indirizzo: Via Seneca, 3, 90049 Terrasini PA
+Coordinate: Lat 38.107007, Lng 13.077163
+Website: https://www.facebook.com/profile.php?id=100065431091667
+Email: 
+
+9831. Hotel Ristorante Castello di Giuliano
+ID: 4ecab3eb-a425-4d35-9a91-d9aa68df0375
+Slug: hotel-ristorante-castello-di-giuliano-borgetto
+Nome: Hotel Ristorante Castello di Giuliano
+Comune / Provincia: Borgetto
+Indirizzo: Via Pietro Merra, 50, 90040 Montelepre PA
+Coordinate: Lat 38.089247, Lng 13.175593
+Website: https://www.hotelcastellodigiuliano.it/
+Email: 
+
+9832. Il Baglio della Luna
+ID: e240eaac-981e-453a-a18e-b3fdc608824a
+Slug: il-baglio-della-luna-borgetto
+Nome: Il Baglio della Luna
+Comune / Provincia: Borgetto
+Indirizzo: SS 113 Settentrionale Sicula, 90047 Partinico PA
+Coordinate: Lat 37.996648, Lng 13.030236
+Website: http://www.ilbagliodellaluna.it/
+Email: 
+
+9833. Kalsa sicilian rooms
+ID: 236b99c6-6175-4257-9bc8-5b0e1ad49a5d
+Slug: kalsa-sicilian-rooms-borgetto
+Nome: Kalsa sicilian rooms
+Comune / Provincia: Borgetto
+Indirizzo: Via Vittorio Emanuele Orlando, 7, 90047 Partinico PA
+Coordinate: Lat 38.046231, Lng 13.118831
+Website: http://kalsasicilianrooms.com/
+Email: 
+
+9834. New River Hotel
+ID: 235e24b5-1602-4886-aa0b-bc2c9a34b65a
+Slug: new-river-hotel-borgetto
+Nome: New River Hotel
+Comune / Provincia: Borgetto
+Indirizzo: SS 186, Km 24, 90042 Borgetto PA
+Coordinate: Lat 38.045424, Lng 13.145748
+Website: https://www.newriverhotel.it/
+Email: 
+
+9835. Perla del Golfo Resort
+ID: 08c4d4a1-6990-410d-8bd5-8555b8653737
+Slug: perla-del-golfo-resort-borgetto
+Nome: Perla del Golfo Resort
+Comune / Provincia: Borgetto
+Indirizzo: Via Omero, 90049 Terrasini PA
+Coordinate: Lat 38.104273, Lng 13.072916
+Website: http://www.perladelgolforesort.it/
+Email: 

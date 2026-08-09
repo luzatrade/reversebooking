@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+6931. La Fonte B&B
+ID: f115869d-b670-4066-82bb-16184186048d
+Slug: la-fonte-b-b-baranello
+Nome: La Fonte B&B
+Comune / Provincia: Baranello
+Indirizzo: Contrada Terranova, 25, 86011 Baranello CB
+Coordinate: Lat 41.515424, Lng 14.576077
+Website: https://www.lafontebnb.it/
+Email: 
+
+6932. La Piana dei Mulini
+ID: 0d354975-e4f9-4f5b-a83f-409c8161c042
+Slug: la-piana-dei-mulini-baranello
+Nome: La Piana dei Mulini
+Comune / Provincia: Baranello
+Indirizzo: Strada Statale 647 Fondo Valle del Biferno, km 7, 86020 Colle d'Anchise CB
+Coordinate: Lat 41.5228, Lng 14.524744
+Website: http://www.lapianadeimulini.it/
+Email: 
+
+6933. Le Cupolette
+ID: ddb190ca-f2c7-4502-9018-2310416d3853
+Slug: le-cupolette-baranello
+Nome: Le Cupolette
+Comune / Provincia: Baranello
+Indirizzo: 86019 Zona Industriale Campobasso-Bojano CB, Italia
+Coordinate: Lat 41.471648, Lng 14.559945
+Website: https://resvit.cyou/cupolette-retreat-od153z
+Email: 
+
+6934. Le tre cime
+ID: 2c3b97b6-9cd1-48d5-8d2f-8d58e0928fa4
+Slug: le-tre-cime-baranello
+Nome: Le tre cime
+Comune / Provincia: Baranello
+Indirizzo: SP49, 37-39, 86011, 86011 Largo Zullo-Sterparo CB
+Coordinate: Lat 41.518853, Lng 14.590887
+Website: http://www.letrecime.com/
+Email: 
+
+6935. Residenza Sant'Andrea
+ID: df057053-2bcc-411d-84e7-bfeec4973ae3
+Slug: residenza-sant-andrea-baranello
+Nome: Residenza Sant'Andrea
+Comune / Provincia: Baranello
+Indirizzo: Vico II Sant'Andrea, 7, 86100 Campobasso CB
+Coordinate: Lat 41.562277, Lng 14.659235
+Website: http://residenzasantandrea-campobasso.it/
+Email: 
+
+6936. Tenuta Dafne
+ID: 1086bb7e-8ed7-4236-a68a-a26caf7d243a
+Slug: tenuta-dafne-baranello
+Nome: Tenuta Dafne
+Comune / Provincia: Baranello
+Indirizzo: 86019 Aia Vecchia CB
+Coordinate: Lat 41.479629, Lng 14.592166
+Website: http://www.tenutadafne.it/
+Email: 
+
+6937. Tenuta San Nicola
+ID: 328e1895-d32e-412f-bef6-ffd08326c592
+Slug: tenuta-san-nicola-baranello
+Nome: Tenuta San Nicola
+Comune / Provincia: Baranello
+Indirizzo: Via Sant'Antonio Abate, 264, 86100 Campobasso CB
+Coordinate: Lat 41.565675, Lng 14.649104
+Website: —
+Email: 
+
+6938. Albergo Villa Giusto
+ID: 890e4874-fe38-4a7c-a83e-d8b6fdcd928d
+Slug: albergo-villa-giusto-barano-d-ischia
+Nome: Albergo Villa Giusto
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Maronti, 11, 80072 Barano d'Ischia NA
+Coordinate: Lat 40.703964, Lng 13.918012
+Website: http://www.villagiusto.it/
+Email: 
+
+6939. Hotel Angelino
+ID: 87c98ea2-bd70-4837-ad4d-318d5d77ba8f
+Slug: hotel-angelino-barano-d-ischia
+Nome: Hotel Angelino
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Maronti, 69, 80072 Barano d'Ischia NA
+Coordinate: Lat 40.701685, Lng 13.903321
+Website: https://hotelscheck-in.com/hotelangelinoischia/it/
+Email: 
+
+6940. Hotel Internazionale Ischia
+ID: c3d3e760-18e7-4c81-b5e4-c8a137731e48
+Slug: hotel-internazionale-ischia-barano-d-ischia
+Nome: Hotel Internazionale Ischia
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Acquedotto, 33, 80072 Barano dʼIschia NA
+Coordinate: Lat 40.72507, Lng 13.931138
+Website: https://www.hotelinternazionaleischia.it/
+Email: 
+
+6941. Hotel Ischia
+ID: bf4ffa1a-95da-4ba4-9a2a-c7498e5dca5d
+Slug: hotel-ischia-barano-d-ischia
+Nome: Hotel Ischia
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Cavaliere Leonardo Impagliazzo, 389, 80075 Forio NA
+Coordinate: Lat 40.71167, Lng 13.871479
+Website: —
+Email: 
+
+6942. Hotel Italia Ischia - Beach hotel
+ID: a658740f-301c-4808-bcea-7977f5706eb5
+Slug: hotel-italia-ischia-beach-hotel-barano-d-ischia
+Nome: Hotel Italia Ischia - Beach hotel
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Salvatore Girardi, 59, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.750172, Lng 13.918319
+Website: https://www.hotelitaliaischia.com/
+Email: 
+
+6943. Hotel La Gondola
+ID: 693b677e-bd35-4a66-bfdc-a8c6ab956156
+Slug: hotel-la-gondola-barano-d-ischia
+Nome: Hotel La Gondola
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Maronti, 57, 80072 Barano D'ischia NA
+Coordinate: Lat 40.701742, Lng 13.906248
+Website: http://www.hotellagondola.it/
+Email: 
+
+6944. Hotel La Luna
+ID: a04b7856-6b56-46dc-a6fb-1763ed87a7d3
+Slug: hotel-la-luna-barano-d-ischia
+Nome: Hotel La Luna
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Provinciale, Via Croce Testaccio, 27, 80072 Barano D'ischia NA
+Coordinate: Lat 40.708779, Lng 13.921734
+Website: http://www.hotellalunaischia.it/
+Email: 
+
+6945. Hotel la Mandorla
+ID: 19e5ca97-fa28-4172-a093-31d6411e4661
+Slug: hotel-la-mandorla-barano-d-ischia
+Nome: Hotel la Mandorla
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Provinciale Maronti, 57, 80072 Barano d'Ischia NA
+Coordinate: Lat 40.701619, Lng 13.912264
+Website: https://www.hotel-lamandorla.it/
+Email: 
+
+6946. Hotel Maronti
+ID: 040a9ddd-a0e3-4cdc-8e20-44b6bae54842
+Slug: hotel-maronti-barano-d-ischia
+Nome: Hotel Maronti
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Maronti, 18, 80072 Barano d'Ischia NA
+Coordinate: Lat 40.701055, Lng 13.914478
+Website: https://www.hotelmaronti.it/
+Email: 
+
+6947. Hotel Olmitello
+ID: 89a916d3-0e7a-4b5f-b736-b80186f16a27
+Slug: hotel-olmitello-barano-d-ischia
+Nome: Hotel Olmitello
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Spiaggia dei Maronti - Ischia, 80072 Barano D'ischia NA
+Coordinate: Lat 40.702682, Lng 13.907284
+Website: http://www.hotelolmitello.it/
+Email: 
+
+6948. Hotel Parco Smeraldo Terme and Residence
+ID: 63a78ea5-5610-4ec8-bfd6-06eef3cb4bda
+Slug: hotel-parco-smeraldo-terme-and-residence-barano-d-ischia
+Nome: Hotel Parco Smeraldo Terme and Residence
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Maronti, 42, 80072 Barano d'Ischia NA
+Coordinate: Lat 40.700982, Lng 13.913021
+Website: http://www.hotelparcosmeraldo.com/
+Email: 
+
+6949. Hotel Poggio del Sole
+ID: a7873cc4-f40a-43b6-b83e-cb340efe49cf
+Slug: hotel-poggio-del-sole-barano-d-ischia
+Nome: Hotel Poggio del Sole
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Baiola, 269, 80075 Forio NA
+Coordinate: Lat 40.740439, Lng 13.879803
+Website: https://www.poggiodelsoleischia.it/
+Email: 
+
+6950. Hotel Regina Del Mare
+ID: e989040f-1969-433d-b5e5-97b2317d5146
+Slug: hotel-regina-del-mare-barano-d-ischia
+Nome: Hotel Regina Del Mare
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Maronti, 70, 80070 Barano d'Ischia NA
+Coordinate: Lat 40.701687, Lng 13.903791
+Website: http://www.reginadelmare.com/
+Email: 
+
+6951. Hotel San Giorgio Terme
+ID: 85c76fde-f001-46e9-bb27-210190a2cf7b
+Slug: hotel-san-giorgio-terme-barano-d-ischia
+Nome: Hotel San Giorgio Terme
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Maronti, 42, 80077 Barano d'Ischia NA
+Coordinate: Lat 40.701833, Lng 13.911272
+Website: https://www.hotelsangiorgio.com/
+Email: 
+
+6952. Hotel Sunset Green Ischia
+ID: 30ad9dfd-2ee8-4e07-9984-9e49df54acbd
+Slug: hotel-sunset-green-ischia-barano-d-ischia
+Nome: Hotel Sunset Green Ischia
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Maronti, 58, 80072 Barano d'Ischia NA
+Coordinate: Lat 40.701835, Lng 13.918407
+Website: https://www.hotelsunsetgreen.it/
+Email: 
+
+6953. Hotel Terme Saint Raphael, Dimhotels
+ID: 8cdf29b9-1c1a-45ff-a289-f4603c9dcfe3
+Slug: hotel-terme-saint-raphael-dimhotels-barano-d-ischia
+Nome: Hotel Terme Saint Raphael, Dimhotels
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Maronti, 5, 80072 Barano D'ischia NA
+Coordinate: Lat 40.704401, Lng 13.917735
+Website: https://www.hotelsaintraphaelischia.it/
+Email: 
+
+6954. Hotel Villa al Mare
+ID: faf05d82-4f45-4da3-85e0-04d6c4903f2a
+Slug: hotel-villa-al-mare-barano-d-ischia
+Nome: Hotel Villa al Mare
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Maronti, 66, 80072 Barano d'Ischia NA
+Coordinate: Lat 40.701694, Lng 13.918061
+Website: http://www.hotelvillaalmare.it/
+Email: 
+
+6955. Hotel Villa Maria Sant'Angelo d'Ischia
+ID: 5ff544ed-4db7-4091-8cec-97fc5c68a1a5
+Slug: hotel-villa-maria-sant-angelo-d-ischia-barano-d-ischia
+Nome: Hotel Villa Maria Sant'Angelo d'Ischia
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Quadro, 29, 80081 Sant'Angelo NA
+Coordinate: Lat 40.699395, Lng 13.891718
+Website: https://www.villamariasantangelo.it/
+Email: 
+
+6956. Hotel Vittorio
+ID: 5666b163-5a19-48ce-afc7-65db4d843bae
+Slug: hotel-vittorio-barano-d-ischia
+Nome: Hotel Vittorio
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Via Maronti, 166, 80072 Barano d'Ischia NA
+Coordinate: Lat 40.701724, Lng 13.902823
+Website: https://www.hotelvittorio.com/
+Email: 
+
+6957. Lemon Tree Rooms
+ID: 79c39360-31f8-4f5c-b793-43e38a4b2aa4
+Slug: lemon-tree-rooms-barano-d-ischia
+Nome: Lemon Tree Rooms
+Comune / Provincia: Barano d'Ischia
+Indirizzo: Corsa Regina Elena, 77, 80072 Barano d'Ischia NA
+Coordinate: Lat 40.707885, Lng 13.922624
+Website: —
+Email: 
+
+6958. ALEXA CASA VACANZE
+ID: 2638a7c2-093b-41be-8f23-d0a2e5d9662e
+Slug: alexa-casa-vacanze-baranzate
+Nome: ALEXA CASA VACANZE
+Comune / Provincia: Baranzate
+Indirizzo: Strada Statale del Sempione, 61, 20016 Pero MI
+Coordinate: Lat 45.509313, Lng 9.088813
+Website: http://alexa-casa-vacanze.com.es/
+Email: 
+
+6959. Appartamenti Antica Corte Milanese
+ID: d1f58c60-7b35-4d44-b2e4-1c804104786a
+Slug: appartamenti-antica-corte-milanese-baranzate
+Nome: Appartamenti Antica Corte Milanese
+Comune / Provincia: Baranzate
+Indirizzo: Via Repubblica, 86, 20026 Novate Milanese MI
+Coordinate: Lat 45.531533, Lng 9.13666
+Website: https://www.anticacortemilanese.it/
+Email: 
+
+6960. B&B Cort di Quèla
+ID: 1a6c19e8-703c-4e2b-b022-971a3ba69841
+Slug: b-b-cort-di-quela-baranzate
+Nome: B&B Cort di Quèla
+Comune / Provincia: Baranzate
+Indirizzo: Via Alessandro Manzoni, 7, 20021 Baranzate MI
+Coordinate: Lat 45.52915, Lng 9.118002
+Website: https://beb.it/cortdiquela/it/
+Email: 
+
+6961. Best Western Plus The Hub Hotel
+ID: 651112f7-690c-494e-851d-983abd6229fe
+Slug: best-western-plus-the-hub-hotel-baranzate
+Nome: Best Western Plus The Hub Hotel
+Comune / Provincia: Baranzate
+Indirizzo: Via Privata Polonia, 10, 20157 Milano MI
+Coordinate: Lat 45.513979, Lng 9.11944
+Website: https://www.thehubhotel.com/?utm_source=gbp&utm_medium=organic
+Email: 
+
+6962. CXMilan | NoM Campus & Hotel
+ID: 7ad57397-00cf-47df-955b-c9ca5392e50e
+Slug: cxmilan-nom-campus-hotel-baranzate
+Nome: CXMilan | NoM Campus & Hotel
+Comune / Provincia: Baranzate
+Indirizzo: V. Alda Merini, 2, 20026 Novate Milanese MI
+Coordinate: Lat 45.522455, Lng 9.1407
+Website: https://www.cx-place.com/it/cx-north-of-milan.html
+Email: 
+
+6963. Domina Milano Fiera
+ID: e19cb492-cb38-4d53-bf43-1a82bceb9903
+Slug: domina-milano-fiera-baranzate
+Nome: Domina Milano Fiera
+Comune / Provincia: Baranzate
+Indirizzo: Via Don Orione, 20026 Novate Milanese MI
+Coordinate: Lat 45.534622, Lng 9.124559
+Website: http://www.dominamilanofiera.com/
+Email: 
+
+6964. FrenzHouse Baranzate
+ID: a0cfefee-5718-4e8f-8df5-47dc0915733a
+Slug: frenzhouse-baranzate-baranzate
+Nome: FrenzHouse Baranzate
+Comune / Provincia: Baranzate
+Indirizzo: Via Nazario Sauro, 132, 20021 Baranzate MI
+Coordinate: Lat 45.532409, Lng 9.115537
+Website: https://www.booking.com/hotel/it/frenzhouse-baranzate.it.html?label=gen173nr-1FCAsocUIUZnJlbnpob3VzZS1iYXJhbnphdGVIFFgEaHGIAQGYARS4ARjIAQzYAQHoAQH4AQOIAgGoAgS4Atu7l6AGwAIB0gIkNDA1ZDdjM2EtZDUyNC00NDQ4LWI2YjctMTNhYzk1YjAzOThi2AIF4AIB&sid=c37b9cd8b174baf48b907f53e20929ad&dist=0&keep_landing=1&sb_price_type=total&type=total&
+Email: 
+
+6965. Hotel Accursio
+ID: 397c5991-1f49-45ca-a072-05ff13e69f44
+Slug: hotel-accursio-baranzate
+Nome: Hotel Accursio
+Comune / Provincia: Baranzate
+Indirizzo: Viale Certosa, 88, 20156 Milano MI
+Coordinate: Lat 45.493646, Lng 9.144121
+Website: http://www.accursiohotel.it/
+Email: 

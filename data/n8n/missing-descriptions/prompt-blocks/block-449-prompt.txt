@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+15681. Bed And Breakfast - Conte Spencer
+ID: b807760a-c417-4c0c-a936-3810bde311a5
+Slug: bed-and-breakfast-conte-spencer-caserta
+Nome: Bed And Breakfast - Conte Spencer
+Comune / Provincia: Caserta
+Indirizzo: Via S. Michele Arcangelo, 15, 81100 Caserta Vecchia CE
+Coordinate: Lat 41.097094, Lng 14.365896
+Website: http://www.contespencer.it/
+Email: 
+
+15682. Hotel Royal Caserta
+ID: 31dad8f0-5242-44bc-a022-29ffe36c8a2a
+Slug: hotel-royal-caserta-caserta
+Nome: Hotel Royal Caserta
+Comune / Provincia: Caserta
+Indirizzo: Viale Vittorio Veneto, 13, 81020 Caserta CE
+Coordinate: Lat 41.070052, Lng 14.329693
+Website: http://www.royalcaserta.it/
+Email: 
+
+15683. Little Sweet Escape
+ID: a17abb1a-4dfa-47bf-b8b9-5eae2c9c0df5
+Slug: little-sweet-escape-caserta
+Nome: Little Sweet Escape
+Comune / Provincia: Caserta
+Indirizzo: Via Guglielmo Marconi, 31, 81100 Caserta CE
+Coordinate: Lat 41.072492, Lng 14.350543
+Website: —
+Email: 
+
+15684. Real Borbone
+ID: 3f22e47a-ab5f-4428-857d-334b0424c5ac
+Slug: real-borbone-caserta
+Nome: Real Borbone
+Comune / Provincia: Caserta
+Indirizzo: Via A.S. Mazzocchi, 1, 81100 Caserta CE
+Coordinate: Lat 41.072649, Lng 14.33037
+Website: http://www.realborbone.it/
+Email: 
+
+15685. Sweet Dream
+ID: b0cf0117-eb72-464e-96f5-6f8b42d74551
+Slug: sweet-dream-caserta
+Nome: Sweet Dream
+Comune / Provincia: Caserta
+Indirizzo: Via Roma, 105, 81100 Caserta CE
+Coordinate: Lat 41.069969, Lng 14.337574
+Website: https://bb-sweetdream.bedsandhotels.com/
+Email: 
+
+15686. The Essential
+ID: 1ad9261e-a376-498e-ab3e-0be6becc1ccc
+Slug: the-essential-caserta
+Nome: The Essential
+Comune / Provincia: Caserta
+Indirizzo: Via Fulvio Renella, 103, 81100 Caserta CE
+Coordinate: Lat 41.069313, Lng 14.339871
+Website: https://www.instagram.com/theessential_caserta?igsh=MW82Zzh1d3UydTlocQ==
+Email: 
+
+15687. Alloggi Turistici Daniel
+ID: 1e16716a-668a-469c-968b-e9724d3bd56b
+Slug: alloggi-turistici-daniel-casier
+Nome: Alloggi Turistici Daniel
+Comune / Provincia: Casier
+Indirizzo: Strada Regionale Treviso-Mare 89, Via Treviso Mare, 4, 31057 Silea TV
+Coordinate: Lat 45.644794, Lng 12.329638
+Website: https://alloggi-turistici-daniel.hotelperiviaggi.top/
+Email: 
+
+15688. Antica Dimora Stucky
+ID: 4aab0ae8-60ce-4cad-a761-38500e795f8a
+Slug: antica-dimora-stucky-casier
+Nome: Antica Dimora Stucky
+Comune / Provincia: Casier
+Indirizzo: Via Sant'Antonino, 335, 31100 Treviso TV
+Coordinate: Lat 45.645734, Lng 12.270781
+Website: http://anticadimorastucky.com/
+Email: 
+
+15689. B&B Ca' Rina
+ID: abf6e425-14e7-4555-8f4e-1750545f0fb4
+Slug: b-b-ca-rina-casier
+Nome: B&B Ca' Rina
+Comune / Provincia: Casier
+Indirizzo: Via Tagliamento, 2F, 31022 Preganziol TV
+Coordinate: Lat 45.602339, Lng 12.255102
+Website: http://www.bebcarina.it/
+Email: 
+
+15690. Civico 26
+ID: 85af8e81-251d-4233-b91c-5217965d5388
+Slug: civico-26-casier
+Nome: Civico 26
+Comune / Provincia: Casier
+Indirizzo: V. Nascimben, 26, 31100 Treviso TV
+Coordinate: Lat 45.648716, Lng 12.233457
+Website: https://www.civico26.com/
+Email: 
+
+15691. Dafne Bnb
+ID: 71916834-b41c-420c-b983-bcb17d6f7261
+Slug: dafne-bnb-casier
+Nome: Dafne Bnb
+Comune / Provincia: Casier
+Indirizzo: Via G. Zompini, 4, 31100 Treviso TV
+Coordinate: Lat 45.657709, Lng 12.246309
+Website: https://www.facebook.com/Dafne.Bnb.Treviso
+Email: 
+
+15692. Infinity House
+ID: b63c6ffa-cf8b-40fb-839d-0cf36c446573
+Slug: infinity-house-casier
+Nome: Infinity House
+Comune / Provincia: Casier
+Indirizzo: Via Principale, 105, 31030 Casier TV
+Coordinate: Lat 45.642086, Lng 12.295373
+Website: https://infinityhouse.eatbu.com/
+Email: 
+
+15693. Agriturismo Terre di Casalia
+ID: 17a346da-a37f-4525-ab44-e217b954f976
+Slug: agriturismo-terre-di-casalia-casina
+Nome: Agriturismo Terre di Casalia
+Comune / Provincia: Casina
+Indirizzo: Località Casalia – Paullo di Casina – 42034, 42034 Casina RE
+Coordinate: Lat 44.545821, Lng 10.522359
+Website: https://www.terredicasalia.it/
+Email: 
+
+15694. Albergo Sara
+ID: 7d1f495c-a5c5-4b62-82cc-84a88107698c
+Slug: albergo-sara-casina
+Nome: Albergo Sara
+Comune / Provincia: Casina
+Indirizzo: Via Foina, 8, 42034 Casina RE
+Coordinate: Lat 44.511834, Lng 10.497748
+Website: http://sararesidence.it/
+Email: 
+
+15695. Azienda Agrituristica Riserva del Re
+ID: 93d48a8e-a385-4530-a615-0a8fc5fe906d
+Slug: azienda-agrituristica-riserva-del-re-casina
+Nome: Azienda Agrituristica Riserva del Re
+Comune / Provincia: Casina
+Indirizzo: Via della Braglia, 1/A, 42034 Casina RE
+Coordinate: Lat 44.517156, Lng 10.506061
+Website: —
+Email: 
+
+15696. B&B Borgo del Folletto
+ID: 46e6f58c-d07e-4bec-a809-947f4feefdbb
+Slug: b-b-borgo-del-folletto-casina
+Nome: B&B Borgo del Folletto
+Comune / Provincia: Casina
+Indirizzo: Via Crocicchio, 9/1, 42034 Casina RE
+Coordinate: Lat 44.544612, Lng 10.495537
+Website: http://www.borgodelfolletto.it/
+Email: 
+
+15697. B&B Casa della Musica
+ID: f5e38d17-f62d-41e6-a439-940bedc6cc79
+Slug: b-b-casa-della-musica-casina
+Nome: B&B Casa della Musica
+Comune / Provincia: Casina
+Indirizzo: Via Monte, Loc.Casola di Mezzo, 30, 42030 Vezzano sul Crostolo RE
+Coordinate: Lat 44.584753, Lng 10.496343
+Website: —
+Email: 
+
+15698. B&B La Costa
+ID: 2f2c2035-ed62-483c-a91e-d32ffea27a0c
+Slug: b-b-la-costa-casina
+Nome: B&B La Costa
+Comune / Provincia: Casina
+Indirizzo: Via Mulino di Cortogno, 21, 42034 Casina RE
+Coordinate: Lat 44.532886, Lng 10.474736
+Website: —
+Email: 
+
+15699. Bed & Breakfast L'Uva Fragolina
+ID: d2d2001c-0ae0-4d2a-9219-03d800607d44
+Slug: bed-breakfast-l-uva-fragolina-casina
+Nome: Bed & Breakfast L'Uva Fragolina
+Comune / Provincia: Casina
+Indirizzo: Via Leguigno Faggeto, 15, 42034 Casina RE
+Coordinate: Lat 44.516973, Lng 10.461004
+Website: http://www.bebluvafragolina.com/
+Email: 
+
+15700. Madonna della Corte
+ID: 807613e3-cdd9-4d41-87a8-5e57c54cdf90
+Slug: madonna-della-corte-casina
+Nome: Madonna della Corte
+Comune / Provincia: Casina
+Indirizzo: Via il Crocicchio, 13, 42034 Crocicchio RE
+Coordinate: Lat 44.545136, Lng 10.495541
+Website: https://www.madonnadellacorte.com/
+Email: 
+
+15701. Home4you Treviglio
+ID: 88794a7b-5d94-43e3-885b-f9cfb0cc6d2d
+Slug: home4you-treviglio-casirate-d-adda
+Nome: Home4you Treviglio
+Comune / Provincia: Casirate d'Adda
+Indirizzo: Via Milano, 65, 24047 Treviglio BG
+Coordinate: Lat 45.52353, Lng 9.556885
+Website: https://home4you.it/
+Email: 
+
+15702. B&B ARCOBALENO
+ID: 6e0e71c4-8f5d-44db-8e82-8c0320eee26b
+Slug: b-b-arcobaleno-caslino-d-erba
+Nome: B&B ARCOBALENO
+Comune / Provincia: Caslino d'Erba
+Indirizzo: Via S. Carlo, 2, 22030 Longone Al Segrino CO
+Coordinate: Lat 45.818886, Lng 9.25137
+Website: https://b-b-arcobaleno1.webnode.it/
+Email: 
+
+15703. B&B Bell'Ulivo
+ID: 6b8def2a-ce3e-4d40-98f7-cb251a17abe7
+Slug: b-b-bell-ulivo-caslino-d-erba
+Nome: B&B Bell'Ulivo
+Comune / Provincia: Caslino d'Erba
+Indirizzo: Via Dalmazia, 25, 22037 Ponte Lambro CO
+Coordinate: Lat 45.819639, Lng 9.224353
+Website: http://www.bandbbellulivo.com/
+Email: 
+
+15704. B&B Erba
+ID: 96025e61-e971-4fe5-a7e4-d7b4679f2d31
+Slug: b-b-erba-caslino-d-erba
+Nome: B&B Erba
+Comune / Provincia: Caslino d'Erba
+Indirizzo: Viale Resegone, 19, 22036 Erba CO
+Coordinate: Lat 45.807872, Lng 9.245302
+Website: https://www.beberba.it/
+Email: 
+
+15705. Agriturismo Ca del Lago
+ID: 7fc36b58-af0c-4b83-82d1-e4a71ac1e293
+Slug: agriturismo-ca-del-lago-casnate-con-bernate
+Nome: Agriturismo Ca del Lago
+Comune / Provincia: Casnate con Bernate
+Indirizzo: Via alla Poncia, 12, 22015 Gravedona CO
+Coordinate: Lat 46.138928, Lng 9.293506
+Website: http://www.agriturismocadellago.com/
+Email: 
+
+15706. Agriturismo Shakei
+ID: 6cab319f-0b7c-4402-a2dd-f7e23a62031c
+Slug: agriturismo-shakei-casnate-con-bernate
+Nome: Agriturismo Shakei
+Comune / Provincia: Casnate con Bernate
+Indirizzo: Via Monte Rosa, 1, 22070 Zappa CO
+Coordinate: Lat 45.772918, Lng 9.064673
+Website: http://agriturismo-como.com/
+Email: 
+
+15707. AGRITURISMO ZERTIN
+ID: 0fed5756-e5b1-4ff4-9fe0-19500fbc8488
+Slug: agriturismo-zertin-casnate-con-bernate
+Nome: AGRITURISMO ZERTIN
+Comune / Provincia: Casnate con Bernate
+Indirizzo: Via Ai Monti, 22010 Peglio CO
+Coordinate: Lat 46.165791, Lng 9.290318
+Website: http://www.agriturismozertin.com/
+Email: 
+
+15708. B&B Alciliegio
+ID: e945514e-4a57-4f5d-8c57-5e8733fd4079
+Slug: b-b-alciliegio-casnate-con-bernate
+Nome: B&B Alciliegio
+Comune / Provincia: Casnate con Bernate
+Indirizzo: Via Caio Plinio, 30, 22070 Casnate Con Bernate CO
+Coordinate: Lat 45.75093, Lng 9.065539
+Website: http://www.alciliegio.com/
+Email: 
+
+15709. Casa vacanze CASA PLINIO
+ID: 6b0c4106-5fe0-43a9-92d9-28e47741e6b5
+Slug: casa-vacanze-casa-plinio-casnate-con-bernate
+Nome: Casa vacanze CASA PLINIO
+Comune / Provincia: Casnate con Bernate
+Indirizzo: Via Caio Plinio, 10, 22070 Casnate con Bernate CO
+Coordinate: Lat 45.752098, Lng 9.06883
+Website: —
+Email: 
+
+15710. Il Nespolo Del Nonno
+ID: 3a00bd2b-f30c-4616-91ff-c161e2c4b6a5
+Slug: il-nespolo-del-nonno-casnate-con-bernate
+Nome: Il Nespolo Del Nonno
+Comune / Provincia: Casnate con Bernate
+Indirizzo: Via Andrate Vecchia, 26, 22073 Fino Mornasco CO
+Coordinate: Lat 45.747031, Lng 9.07811
+Website: https://il-nespolo-del-nonno.loveitalia.top/
+Email: 
+
+15711. Tenuta Ronco Regio
+ID: 112ce294-bf1e-4c84-aef6-5ee4d3b4cdb0
+Slug: tenuta-ronco-regio-casnate-con-bernate
+Nome: Tenuta Ronco Regio
+Comune / Provincia: Casnate con Bernate
+Indirizzo: solo 8 Km da Como Centro, Via Roncoreggio, 1, 22042 San Fermo della Battaglia CO
+Coordinate: Lat 45.815299, Lng 9.027368
+Website: http://www.tenutaroncoregio.it/
+Email: 
+
+15712. Treterre
+ID: 557d7265-f1f3-4c68-a67f-1e15829c5c55
+Slug: treterre-casnate-con-bernate
+Nome: Treterre
+Comune / Provincia: Casnate con Bernate
+Indirizzo: Via Tre Terre, 911, 22010 Pianello del Lario CO
+Coordinate: Lat 46.104969, Lng 9.269964
+Website: http://www.treterre.it/
+Email: 
+
+15713. Villa Mirella
+ID: b5fd882c-8808-4aea-a36b-d97f704a2427
+Slug: villa-mirella-casnate-con-bernate
+Nome: Villa Mirella
+Comune / Provincia: Casnate con Bernate
+Indirizzo: Via Monte Grappa, 3, 22070 Casnate con Bernate CO
+Coordinate: Lat 45.766678, Lng 9.073375
+Website: https://sites.google.com/view/villa-mirella/home
+Email: 
+
+15714. Villa Patrizia B&B
+ID: d6b3d198-b718-4f83-9281-2842dbeadcba
+Slug: villa-patrizia-b-b-casnate-con-bernate
+Nome: Villa Patrizia B&B
+Comune / Provincia: Casnate con Bernate
+Indirizzo: Via L. Manara, 12A, 22070 Casnate Con Bernate CO
+Coordinate: Lat 45.757707, Lng 9.078418
+Website: https://www.booking.com/hotel/it/villa-patrizia-b.it.html?aid=334359
+Email: 
+
+15715. Albergo Belvedere
+ID: 9b7b64f1-2fe5-439d-bbe7-eaa6684a2885
+Slug: albergo-belvedere-casnigo
+Nome: Albergo Belvedere
+Comune / Provincia: Casnigo
+Indirizzo: Via Don Luigi Sturzo, 1, 24025 Orezzo BG
+Coordinate: Lat 45.805293, Lng 9.822359
+Website: —
+Email: 

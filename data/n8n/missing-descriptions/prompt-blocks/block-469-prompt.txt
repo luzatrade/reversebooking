@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16381. La Casa Du Barone
+ID: 43b5fd0e-cf97-437c-ba23-116f37c241a2
+Slug: la-casa-du-barone-falcone
+Nome: La Casa Du Barone
+Comune / Provincia: Falcone
+Indirizzo: Via Nazionale, 168, 98060 Falcone ME
+Coordinate: Lat 38.117383, Lng 15.080098
+Website: https://romeit.cyou/casa-barone-rha822
+Email: 
+
+16382. La Ruota
+ID: 0cfcbf2e-4162-4d9a-8294-55ae4a3bb166
+Slug: la-ruota-falcone
+Nome: La Ruota
+Comune / Provincia: Falcone
+Indirizzo: Via Cristoforo Colombo, 17, 98060 Oliveri ME
+Coordinate: Lat 38.130885, Lng 15.055684
+Website: https://www.laruotadioliveri.it/
+Email: 
+
+16383. Le Stelle Del Tirreno
+ID: b69a547c-870e-4e1e-94ff-82665ba9b03d
+Slug: le-stelle-del-tirreno-falcone
+Nome: Le Stelle Del Tirreno
+Comune / Provincia: Falcone
+Indirizzo: Via Giuseppe Mazzini, 13, 98060 Falcone ME
+Coordinate: Lat 38.118484, Lng 15.080287
+Website: https://le-stelle-del-tirreno.alberghiinitalia.top/
+Email: 
+
+16384. Sea Elegance Home Holiday
+ID: 650387d4-c780-40f7-b198-f7ce2ef19fab
+Slug: sea-elegance-home-holiday-falcone
+Nome: Sea Elegance Home Holiday
+Comune / Provincia: Falcone
+Indirizzo: Via Diodoro, 16, 98060 Oliveri ME
+Coordinate: Lat 38.123724, Lng 15.060084
+Website: —
+Email: 
+
+16385. B&B Aurora
+ID: 61013558-0d61-4789-8e84-3bb204580470
+Slug: b-b-aurora-favara
+Nome: B&B Aurora
+Comune / Provincia: Favara
+Indirizzo: Via Roma, 90, 92026 Favara AG
+Coordinate: Lat 37.311564, Lng 13.657998
+Website: http://b-b-aurora.org.es/
+Email: 
+
+16386. Diodorus Luxury Experience
+ID: ff87108e-09d7-4291-a651-5574aa569e82
+Slug: diodorus-luxury-experience-favara
+Nome: Diodorus Luxury Experience
+Comune / Provincia: Favara
+Indirizzo: Contrada Esa Chimento S/N, Via Chimento, 92100 Favara AG
+Coordinate: Lat 37.299874, Lng 13.642505
+Website: http://www.diodorusresort.com/
+Email: 
+
+16387. Il Giardino Dei Templi
+ID: 6d31e945-4666-4d86-8298-0ae0c7503130
+Slug: il-giardino-dei-templi-favara
+Nome: Il Giardino Dei Templi
+Comune / Provincia: Favara
+Indirizzo: Via Panoramica Valle dei Templi, 5, 92100 Agrigento AG
+Coordinate: Lat 37.3, Lng 13.596475
+Website: —
+Email: 
+
+16388. Le Suite Di Via Veneto
+ID: a01e537a-9b4e-4741-bd8d-8fc5365fe9fe
+Slug: le-suite-di-via-veneto-favara
+Nome: Le Suite Di Via Veneto
+Comune / Provincia: Favara
+Indirizzo: Corso Vittorio Veneto, 365, 92026 Favara AG
+Coordinate: Lat 37.316589, Lng 13.662585
+Website: http://www.lesuitediviaveneto.it/dove-siamo/
+Email: 
+
+16389. SCIABICA SUITE - Sicilian Experience
+ID: 4c0d0a78-04fb-4b81-aa3c-bc84401faac2
+Slug: sciabica-suite-sicilian-experience-favara
+Nome: SCIABICA SUITE - Sicilian Experience
+Comune / Provincia: Favara
+Indirizzo: Cortile Bentivegna, 24, 92026 Favara AG
+Coordinate: Lat 37.313378, Lng 13.658276
+Website: —
+Email: 
+
+16390. URBAN RELAX B&B
+ID: 191b5bdf-e351-49c6-9eb7-36095d23e221
+Slug: urban-relax-b-b-favara
+Nome: URBAN RELAX B&B
+Comune / Provincia: Favara
+Indirizzo: Viale Aldo Moro, 234/AF, 92026 Favara AG
+Coordinate: Lat 37.309034, Lng 13.645287
+Website: http://www.beburbanrelax.it/
+Email: 
+
+16391. Affittacamere Al Gattopardo
+ID: 932ae28e-da29-4e5e-9c14-8aa782602824
+Slug: affittacamere-al-gattopardo-favignana
+Nome: Affittacamere Al Gattopardo
+Comune / Provincia: Favignana
+Indirizzo: Via Arturo di Vita, 4, 91023 Favignana TP
+Coordinate: Lat 37.929563, Lng 12.327133
+Website: http://www.algattopardo.eu/
+Email: 
+
+16392. Affittacamere Al Giardino dei limoni
+ID: 7243a282-2522-44f5-b1dc-0774b089174a
+Slug: affittacamere-al-giardino-dei-limoni-favignana
+Nome: Affittacamere Al Giardino dei limoni
+Comune / Provincia: Favignana
+Indirizzo: Vicolo Domenico Cimarosa, 12, 91023 Favignana TP
+Coordinate: Lat 37.930929, Lng 12.332521
+Website: http://www.algiardinodeilimoni.it/
+Email: 
+
+16393. Ajamola '800
+ID: ece619ca-a184-4b50-a333-cc6da364efa9
+Slug: ajamola-800-favignana
+Nome: Ajamola '800
+Comune / Provincia: Favignana
+Indirizzo: Via C. Colombo, 50, 91023 Favignana TP
+Coordinate: Lat 37.933071, Lng 12.329812
+Website: https://www.ajamola800.it/
+Email: 
+
+16394. Albergo Egadi
+ID: e514f216-f8fe-48b7-b22e-892d1402b20c
+Slug: albergo-egadi-favignana
+Nome: Albergo Egadi
+Comune / Provincia: Favignana
+Indirizzo: Via C. Colombo, 17, 91023 Favignana TP
+Coordinate: Lat 37.932809, Lng 12.329454
+Website: http://www.albergoegadi.it/
+Email: 
+
+16395. B&B Scalo Vecchio
+ID: c93d7726-5e4c-49b1-b39c-980b3b14aa1f
+Slug: b-b-scalo-vecchio-favignana
+Nome: B&B Scalo Vecchio
+Comune / Provincia: Favignana
+Indirizzo: Via San Giuseppe, 9, 91023 Marettimo TP
+Coordinate: Lat 37.969032, Lng 12.071989
+Website: http://www.bebmarettimo.it/
+Email: 
+
+16396. Bed & Breakfast Sulmare Marettimo
+ID: d22dcadf-ef2d-4a96-bfa3-8a8425f613a6
+Slug: bed-breakfast-sulmare-marettimo-favignana
+Nome: Bed & Breakfast Sulmare Marettimo
+Comune / Provincia: Favignana
+Indirizzo: Via Campi, 22, 91023 Marettimo TP
+Coordinate: Lat 37.969752, Lng 12.071328
+Website: http://www.bebsulmare.com/
+Email: 
+
+16397. Cave Bianche Hotel
+ID: a9b18e90-1e51-4001-8212-8fb94fc503df
+Slug: cave-bianche-hotel-favignana
+Nome: Cave Bianche Hotel
+Comune / Provincia: Favignana
+Indirizzo: SC Fanfalo, 91023 Favignana TP
+Coordinate: Lat 37.912254, Lng 12.35518
+Website: http://www.cavebianchehotel.it/
+Email: 
+
+16398. Dimora La Torre Room
+ID: 19d61a13-dd10-41c5-8d0b-c348a556bc0a
+Slug: dimora-la-torre-room-favignana
+Nome: Dimora La Torre Room
+Comune / Provincia: Favignana
+Indirizzo: Via Vittorio Emanuele, 31, 91023 Favignana TP
+Coordinate: Lat 37.931065, Lng 12.327897
+Website: https://dimoralatorre.it/
+Email: 
+
+16399. FAVIGNANA HOTEL Concept Holiday
+ID: a92d9984-4cc8-4ffa-a283-d099a8bbaa3b
+Slug: favignana-hotel-concept-holiday-favignana
+Nome: FAVIGNANA HOTEL Concept Holiday
+Comune / Provincia: Favignana
+Indirizzo: via circonvallazione, 91023 Favignana TP
+Coordinate: Lat 37.929218, Lng 12.33393
+Website: http://www.favignanahotel.com/
+Email: 
+
+16400. Hotel Aegusa
+ID: 7b397b62-deee-45ca-8228-4dff00530bb2
+Slug: hotel-aegusa-favignana
+Nome: Hotel Aegusa
+Comune / Provincia: Favignana
+Indirizzo: Via Giuseppe Garibaldi, 11/17, 91023 Favignana TP
+Coordinate: Lat 37.930647, Lng 12.328124
+Website: http://www.aegusahotel.it/
+Email: 
+
+16401. Hotel Il Portico
+ID: 5e8a3dca-424d-486f-bf5c-34dd87b11196
+Slug: hotel-il-portico-favignana
+Nome: Hotel Il Portico
+Comune / Provincia: Favignana
+Indirizzo: Via Meucci, 3, 91023 Favignana TP
+Coordinate: Lat 37.931895, Lng 12.328268
+Website: http://www.hotelilportico.it/
+Email: 
+
+16402. Hotel Tempo di Mare
+ID: 1f405833-17ec-42c2-a810-1c4107876a3b
+Slug: hotel-tempo-di-mare-favignana
+Nome: Hotel Tempo di Mare
+Comune / Provincia: Favignana
+Indirizzo: Via Frascia, 6, 91023 Favignana TP
+Coordinate: Lat 37.933864, Lng 12.331501
+Website: http://www.hoteltempodimare.it/
+Email: 
+
+16403. Il Corallo Rosso
+ID: e6829f6e-1c2a-4730-82d2-d4260cdfa064
+Slug: il-corallo-rosso-favignana
+Nome: Il Corallo Rosso
+Comune / Provincia: Favignana
+Indirizzo: Contrada Setteminne, Snc, 91023 Favignana TP
+Coordinate: Lat 37.92023, Lng 12.356648
+Website: https://www.ilcorallorosso.it/
+Email: 
+
+16404. Il Mulino
+ID: d438aa39-1d53-431a-a4c9-2e60ab13b113
+Slug: il-mulino-favignana
+Nome: Il Mulino
+Comune / Provincia: Favignana
+Indirizzo: Via Alessandro Manzoni, 38, 91023 Favignana TP
+Coordinate: Lat 37.931036, Lng 12.332204
+Website: https://www.ilmulinofavignana.it/
+Email: 
+
+16405. Insula Hotel
+ID: 373b691c-742b-4194-afb8-3a356fb30c4a
+Slug: insula-hotel-favignana
+Nome: Insula Hotel
+Comune / Provincia: Favignana
+Indirizzo: Via Daniele Manin, 2, 91023 Favignana TP
+Coordinate: Lat 37.928686, Lng 12.327702
+Website: http://www.insulahotel.it/
+Email: 
+
+16406. Isola del Miele Affitta camere
+ID: 003b724d-b20b-4d96-9a5e-ba2b1d3d94a0
+Slug: isola-del-miele-affitta-camere-favignana
+Nome: Isola del Miele Affitta camere
+Comune / Provincia: Favignana
+Indirizzo: Via Chiesella, 91010 Marettimo TP
+Coordinate: Lat 37.968307, Lng 12.07202
+Website: http://www.isoladelmiele.it/
+Email: 
+
+16407. L'Oasi di Favignana
+ID: 4cc66472-760b-4ae0-b055-cf2ff0e6b933
+Slug: l-oasi-di-favignana-favignana
+Nome: L'Oasi di Favignana
+Comune / Provincia: Favignana
+Indirizzo: Via Vincenzo Fardella, 49, 91023 Favignana TP
+Coordinate: Lat 37.932824, Lng 12.330987
+Website: https://loasidifavignana.com/
+Email: 
+
+16408. Mangia's Favignana Resort
+ID: a3bd2419-0e97-4af2-92d5-f521f6b2ccad
+Slug: mangia-s-favignana-resort-favignana
+Nome: Mangia's Favignana Resort
+Comune / Provincia: Favignana
+Indirizzo: Punta Fanfalo, Str. Costiera di Mezzogiorno, 91023 Favignana TP
+Coordinate: Lat 37.906357, Lng 12.352948
+Website: https://www.mangias.com/it/resort/mangias-favignana-resort-sicily?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=gbp
+Email: 
+
+16409. Miramare Residence
+ID: ad4fe62b-0070-4c85-bd12-d1b14b052198
+Slug: miramare-residence-favignana
+Nome: Miramare Residence
+Comune / Provincia: Favignana
+Indirizzo: Strada Provinciale Punta Sottile, 10, 91023 Favignana TP
+Coordinate: Lat 37.921413, Lng 12.319564
+Website: http://www.miramareresidence.it/
+Email: 
+
+16410. Borgo del Carato Case Sollima
+ID: aa8bfc10-289c-4bbc-a569-ccde74fecd86
+Slug: borgo-del-carato-case-sollima-ferla
+Nome: Borgo del Carato Case Sollima
+Comune / Provincia: Ferla
+Indirizzo: S.S. 124, Km 97.100, 96010 Palazzolo Acreide SR
+Coordinate: Lat 37.109142, Lng 15.055159
+Website: http://www.borgodelcarato.com/
+Email: 
+
+16411. Ficodindia rooms Sortino Pantalica
+ID: fbb9ba31-74de-4c6d-b6ab-5cc5868afcf8
+Slug: ficodindia-rooms-sortino-pantalica-ferla
+Nome: Ficodindia rooms Sortino Pantalica
+Comune / Provincia: Ferla
+Indirizzo: Ronco II di Via S. Francesco, 96010 Sortino SR
+Coordinate: Lat 37.158431, Lng 15.027166
+Website: https://ficodindiarooms.it/
+Email: 
+
+16412. Zaiera Resort 4 stelle
+ID: 16db3e08-677d-4fbc-93d2-4435e168ed8d
+Slug: zaiera-resort-4-stelle-ferla
+Nome: Zaiera Resort 4 stelle
+Comune / Provincia: Ferla
+Indirizzo: SS124, CONTRADA ZAIERA, SNC, 96010 Solarino SR
+Coordinate: Lat 37.100117, Lng 15.096677
+Website: https://www.zaieraresort.it/
+Email: 
+
+16413. B&B HOTEL Ferrara
+ID: d8348867-6906-4c98-99fb-ea75fd062005
+Slug: b-b-hotel-ferrara-ferrara
+Nome: B&B HOTEL Ferrara
+Comune / Provincia: Ferrara
+Indirizzo: Via Giovan Battista Pigna, 5/7, 44100 Ferrara FE, Italia
+Coordinate: Lat 44.817665, Lng 11.604089
+Website: https://www.hotel-bb.com/it/hotel/ferrara?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext
+Email: 
+
+16414. B&B Casa Degli Artisti
+ID: 6fdd6829-a55e-4dc5-8655-421ef6e1ee74
+Slug: b-b-casa-degli-artisti-ficarazzi
+Nome: B&B Casa Degli Artisti
+Comune / Provincia: Ficarazzi
+Indirizzo: Via Lincoln, 101, 90133 Palermo PA
+Coordinate: Lat 38.11264, Lng 13.369998
+Website: http://www.casaartisti.it/
+Email: 
+
+16415. B&B La Scivola Rooms
+ID: 4ad6f98c-c6a1-498e-bdd1-8a634a33b2de
+Slug: b-b-la-scivola-rooms-ficarazzi
+Nome: B&B La Scivola Rooms
+Comune / Provincia: Ficarazzi
+Indirizzo: Via Provinciale, 38, 95021 Aci Castello CT
+Coordinate: Lat 37.560534, Lng 15.158792
+Website: http://www.lascivolarooms.it/
+Email: 

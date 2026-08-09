@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+10711. B&B Cà Breganze
+ID: fe1fc224-63e9-4f29-b988-68fe86da6225
+Slug: b-b-ca-breganze-breganze
+Nome: B&B Cà Breganze
+Comune / Provincia: Breganze
+Indirizzo: Via San Felice, 84, 36042 Breganze VI
+Coordinate: Lat 45.68649, Lng 11.59809
+Website: https://www.cabreganze.com/
+Email: 
+
+10712. B&B La Ferrata
+ID: e752c531-cf78-434a-b201-fe9f9c3f2393
+Slug: b-b-la-ferrata-breganze
+Nome: B&B La Ferrata
+Comune / Provincia: Breganze
+Indirizzo: Via San Gaetano, 6, 36042 Breganze VI
+Coordinate: Lat 45.701554, Lng 11.576795
+Website: —
+Email: 
+
+10713. BANATIUM, Bar, Cucina, B&B
+ID: 257b9f1c-73d6-4748-a57c-f854db9d0038
+Slug: banatium-bar-cucina-b-b-breganze
+Nome: BANATIUM, Bar, Cucina, B&B
+Comune / Provincia: Breganze
+Indirizzo: Viale Brenta, 2, 36056 Tezze sul Brenta VI
+Coordinate: Lat 45.683045, Lng 11.702606
+Website: https://www.facebook.com/profile.php?id=100094500924368
+Email: 
+
+10714. bed and breakfast da Michela
+ID: 691d48b5-6e7f-4e73-9c30-f36bc0ffaa9d
+Slug: bed-and-breakfast-da-michela-breganze
+Nome: bed and breakfast da Michela
+Comune / Provincia: Breganze
+Indirizzo: Via Santa Eurosia, 57, 36042 Breganze VI
+Coordinate: Lat 45.702738, Lng 11.569152
+Website: https://www.facebook.com/BedBreakfastDaMichela/
+Email: 
+
+10715. Borghetto San Biagio
+ID: 469beb35-a631-4f1b-ad27-82486bdcf8a9
+Slug: borghetto-san-biagio-breganze
+Nome: Borghetto San Biagio
+Comune / Provincia: Breganze
+Indirizzo: Via S. Biagio, 7, 36030 Grumolo Pedemonte VI
+Coordinate: Lat 45.733394, Lng 11.499444
+Website: http://www.borghettosanbiagio.com/
+Email: 
+
+10716. Casa di Campagna Castello
+ID: 8634290b-6b3b-4ce9-8c0f-78664135a2d2
+Slug: casa-di-campagna-castello-breganze
+Nome: Casa di Campagna Castello
+Comune / Provincia: Breganze
+Indirizzo: Via Belmonte, 13, 36030 Sarcedo VI
+Coordinate: Lat 45.710131, Lng 11.532543
+Website: http://www.casadicampagnacastello.it/
+Email: 
+
+10717. Casa Lidia
+ID: 830dc424-123f-4008-a836-3fa5f38f98d5
+Slug: casa-lidia-breganze
+Nome: Casa Lidia
+Comune / Provincia: Breganze
+Indirizzo: Via San Gaetano, 50, 36042 Breganze VI
+Coordinate: Lat 45.702576, Lng 11.59463
+Website: http://www.casalidia.it/
+Email: 
+
+10718. Fattoria Sociale La Costa
+ID: 33e8ac96-3d89-4025-9f60-645180ca3883
+Slug: fattoria-sociale-la-costa-breganze
+Nome: Fattoria Sociale La Costa
+Comune / Provincia: Breganze
+Indirizzo: Via S. Giuseppe, 25, 36030 Sarcedo VI
+Coordinate: Lat 45.704894, Lng 11.530792
+Website: http://lacosta.wine/
+Email: 
+
+10719. K-Farm Resort
+ID: d41f084e-12b9-443d-8e5b-01a70eacac08
+Slug: k-farm-resort-breganze
+Nome: K-Farm Resort
+Comune / Provincia: Breganze
+Indirizzo: Via Marchiori, 16, 36034 Fondo Muri VI
+Coordinate: Lat 45.634887, Lng 11.420739
+Website: http://www.k-farmresort.com/
+Email: 
+
+10720. Locanda la Corte dei Galli
+ID: aa0c0a3c-86b1-46f1-a68d-783abcd58103
+Slug: locanda-la-corte-dei-galli-breganze
+Nome: Locanda la Corte dei Galli
+Comune / Provincia: Breganze
+Indirizzo: Località Pra' Secco, 1, 36010 Carrè VI
+Coordinate: Lat 45.743497, Lng 11.459128
+Website: https://www.lacortedeigalli.it/
+Email: 
+
+10721. Ristorante Hotel Pedrocchi
+ID: 16c975e8-0a93-467a-bb3f-d8960939155d
+Slug: ristorante-hotel-pedrocchi-breganze
+Nome: Ristorante Hotel Pedrocchi
+Comune / Provincia: Breganze
+Indirizzo: Via Perlena, 63, 36030 San Giorgio di Perlena VI
+Coordinate: Lat 45.731795, Lng 11.582706
+Website: https://hotelpedrocchi.it/
+Email: 
+
+10722. Sweet Hotel
+ID: 09da7307-0dec-409a-894b-6ce95488d9b6
+Slug: sweet-hotel-breganze
+Nome: Sweet Hotel
+Comune / Provincia: Breganze
+Indirizzo: P.zza Libertà, 11, 36060 Longa VI
+Coordinate: Lat 45.680524, Lng 11.640472
+Website: https://www.sweetworld.it/
+Email: 
+
+10723. Villa San Biagio
+ID: 069052e2-a56d-4e3d-8ec0-380840dd6f97
+Slug: villa-san-biagio-breganze
+Nome: Villa San Biagio
+Comune / Provincia: Breganze
+Indirizzo: Via S. Biagio, 29, 36064 Colceresa VI
+Coordinate: Lat 45.71118, Lng 11.603451
+Website: http://www.villasanbiagio.it/
+Email: 
+
+10724. Ai 4 soli
+ID: db832d53-c208-4a1f-91cc-2bfccd8cd5ab
+Slug: ai-4-soli-bregnano
+Nome: Ai 4 soli
+Comune / Provincia: Bregnano
+Indirizzo: Via P. Togliatti, 1, 22072 Cermenate CO
+Coordinate: Lat 45.697714, Lng 9.074267
+Website: http://4soli.it/
+Email: 
+
+10725. B&B Les Fleurettes
+ID: 6394a262-10a0-48c7-9856-18e6765673a8
+Slug: b-b-les-fleurettes-bregnano
+Nome: B&B Les Fleurettes
+Comune / Provincia: Bregnano
+Indirizzo: Vicolo Privato Appennini, 22074 Lomazzo CO
+Coordinate: Lat 45.694858, Lng 9.026454
+Website: https://www.lesfleurettes.com/
+Email: 
+
+10726. Foresteria La Torretta
+ID: 4468add5-f001-41cf-a702-c5ff0be93f5b
+Slug: foresteria-la-torretta-bregnano
+Nome: Foresteria La Torretta
+Comune / Provincia: Bregnano
+Indirizzo: Piazza Concordia, 2, 22073 Fino Mornasco CO
+Coordinate: Lat 45.732442, Lng 9.056864
+Website: https://www.foresterialatorretta.it/
+Email: 
+
+10727. Hotel Gardenia FIERA
+ID: fbe38169-2f75-4576-9d37-d1bc4e666538
+Slug: hotel-gardenia-fiera-bregnano
+Nome: Hotel Gardenia FIERA
+Comune / Provincia: Bregnano
+Indirizzo: Via Maestri Comacini, 22, 22072 Cermenate CO
+Coordinate: Lat 45.694511, Lng 9.072486
+Website: http://www.hotelgardeniafiera.com/
+Email: 
+
+10728. Just Hotel Saronno
+ID: 256ef42d-9bee-4a64-82bb-a3cfe69f9d82
+Slug: just-hotel-saronno-bregnano
+Nome: Just Hotel Saronno
+Comune / Provincia: Bregnano
+Indirizzo: Via Strà Madonna, 15, 21047 Saronno VA
+Coordinate: Lat 45.623919, Lng 9.016242
+Website: http://www.justhotelgroup.it/
+Email: 
+
+10729. La Macina Agriturismo
+ID: 5cecdc78-0173-422d-bb7e-4002e8cc71ce
+Slug: la-macina-agriturismo-bregnano
+Nome: La Macina Agriturismo
+Comune / Provincia: Bregnano
+Indirizzo: Via Beato Michele Carcano, 1, 22070 Bregnano CO
+Coordinate: Lat 45.689925, Lng 9.062958
+Website: https://lamacinacomo.it/
+Email: 
+
+10730. B&B Casa Lulù
+ID: 094e4426-6e57-4298-9ec1-17be92d49abd
+Slug: b-b-casa-lulu-brembate
+Nome: B&B Casa Lulù
+Comune / Provincia: Brembate
+Indirizzo: Via Pista Crespi, 44, 24041 Brembate BG
+Coordinate: Lat 45.599984, Lng 9.540059
+Website: http://www.bbcasalulu.it/
+Email: 
+
+10731. B&B Lolly
+ID: 03e16097-2f98-4f01-a808-9510a8bee7f1
+Slug: b-b-lolly-brembate
+Nome: B&B Lolly
+Comune / Provincia: Brembate
+Indirizzo: VIA Antonio Locatelli, 64, 24041 Brembate BG
+Coordinate: Lat 45.600438, Lng 9.551803
+Website: http://lollybed.it/
+Email: 
+
+10732. B&B Oasi Brembate
+ID: 339accf8-aa05-4752-beef-907e7e0be250
+Slug: b-b-oasi-brembate-brembate
+Nome: B&B Oasi Brembate
+Comune / Provincia: Brembate
+Indirizzo: Via Grignano, 31, 24041 Brembate BG
+Coordinate: Lat 45.607234, Lng 9.551815
+Website: https://www.booking.com/hotel/it/oasi-brembate-bed-and-breakfast.it.html
+Email: 
+
+10733. B&B Pontevecchio
+ID: 58bad804-a4dc-4f00-b015-433303ef4ae2
+Slug: b-b-pontevecchio-brembate
+Nome: B&B Pontevecchio
+Comune / Provincia: Brembate
+Indirizzo: Via San Vittore, 18, 24041 Brembate BG
+Coordinate: Lat 45.606542, Lng 9.560166
+Website: http://www.pontevecchiobb.it/
+Email: 
+
+10734. Golden Teal & Silver Birch apartments
+ID: 22463bd4-92d6-42e9-bee5-f54a7a6a07e0
+Slug: golden-teal-silver-birch-apartments-brembate
+Nome: Golden Teal & Silver Birch apartments
+Comune / Provincia: Brembate
+Indirizzo: Via Palma Il Vecchio, 4, 24128 Bergamo BG
+Coordinate: Lat 45.689585, Lng 9.660902
+Website: http://www.quarenghi16.com/
+Email: 
+
+10735. Hotel Tech
+ID: c565a82e-52fc-461d-9ec7-cbdf1d611f32
+Slug: hotel-tech-brembate
+Nome: Hotel Tech
+Comune / Provincia: Brembate
+Indirizzo: Via Vittorio Veneto, 31, 24041 Brembate BG
+Coordinate: Lat 45.605985, Lng 9.546242
+Website: http://www.hotel-tech.it/
+Email: 
+
+10736. B&B Il Borghetto
+ID: 596a537f-0e5a-4597-8ad5-8d7845703863
+Slug: b-b-il-borghetto-brembate-di-sopra
+Nome: B&B Il Borghetto
+Comune / Provincia: Brembate di Sopra
+Indirizzo: Via Monte dei Gobbi, 10, 24030 Mozzo BG
+Coordinate: Lat 45.698559, Lng 9.611198
+Website: —
+Email: 
+
+10737. Green Stay - Foresteria Bergamo
+ID: 6ffa4a02-4cec-4419-9a64-c0e46829aff5
+Slug: green-stay-foresteria-bergamo-brembate-di-sopra
+Nome: Green Stay - Foresteria Bergamo
+Comune / Provincia: Brembate di Sopra
+Indirizzo: Via Pietro Mascagni, 81, 24129 Bergamo BG
+Coordinate: Lat 45.695975, Lng 9.63001
+Website: https://www.facebook.com/GreenstayBG
+Email: 
+
+10738. Le Lanterne BnB Jacuzzi Suite
+ID: 67e588ba-50b8-43d5-acb3-b14f3fd7c364
+Slug: le-lanterne-bnb-jacuzzi-suite-brembate-di-sopra
+Nome: Le Lanterne BnB Jacuzzi Suite
+Comune / Provincia: Brembate di Sopra
+Indirizzo: Via Cà Frerì, 5, 24018 Villa d'Almè BG
+Coordinate: Lat 45.755586, Lng 9.617544
+Website: http://le-lanterne-bnb-guest-house.org.es/
+Email: 
+
+10739. Locanda Scotti
+ID: c1bd1f2f-4d68-468d-8ff5-99ea6871b40b
+Slug: locanda-scotti-brembate-di-sopra
+Nome: Locanda Scotti
+Comune / Provincia: Brembate di Sopra
+Indirizzo: Via Bergamo, 12, 24030 Paladina BG
+Coordinate: Lat 45.727153, Lng 9.612101
+Website: https://www.locandascotti.it/
+Email: 
+
+10740. Grande Albergo Roma
+ID: 6dbc2e2f-af2f-45dc-a476-2c64bce2ad26
+Slug: grande-albergo-roma-brembio
+Nome: Grande Albergo Roma
+Comune / Provincia: Brembio
+Indirizzo: Via Cittadella, 14, 29121 Piacenza PC
+Coordinate: Lat 45.053603, Lng 9.693306
+Website: http://www.grandealbergoroma.it/
+Email: 
+
+10741. B&B Castello Sannazzaro - Per soggiorni romantici, vicino Casale Monferrato
+ID: fcdae0a4-557a-4ce1-9c50-4d7415d29752
+Slug: b-b-castello-sannazzaro-per-soggiorni-romantici-breme
+Nome: B&B Castello Sannazzaro - Per soggiorni romantici, vicino Casale Monferrato
+Comune / Provincia: Breme
+Indirizzo: Via Roma, 5, 15036 Giarole AL
+Coordinate: Lat 45.061594, Lng 8.566102
+Website: http://www.castellosannazzaro.it/
+Email: 
+
+10742. B&B Mezzaluna - Ca' d'la Tonilla
+ID: 082d206d-549f-41f0-94f9-1622aa4e30f3
+Slug: b-b-mezzaluna-ca-d-la-tonilla-breme
+Nome: B&B Mezzaluna - Ca' d'la Tonilla
+Comune / Provincia: Breme
+Indirizzo: Via Mezzaluna, 12, 27020 Breme PV
+Coordinate: Lat 45.125728, Lng 8.623813
+Website: https://www.tonilla.com/
+Email: 
+
+10743. Bed & Breakfast L'Infernot
+ID: a2a76a13-5d3d-4824-8414-c00e0ddd44de
+Slug: bed-breakfast-l-infernot-breme
+Nome: Bed & Breakfast L'Infernot
+Comune / Provincia: Breme
+Indirizzo: Strada Madonna delle Grazie, 4, 15030 Rosignano Monferrato AL
+Coordinate: Lat 45.081837, Lng 8.397595
+Website: http://www.linfernot.it/
+Email: 
+
+10744. Il Cortile di Greta
+ID: dd8bf999-59da-4b5e-8449-39579ccdfce3
+Slug: il-cortile-di-greta-breme
+Nome: Il Cortile di Greta
+Comune / Provincia: Breme
+Indirizzo: Frazione Trisogli 5 Cuccaro Monferrato AL IT, e, 15037 Lu e Cuccaro Monferrato AL
+Coordinate: Lat 44.995728, Lng 8.506468
+Website: https://www.hotelsitalic.com/il-cortile-di-greta/
+Email: 
+
+10745. Locanda Trento
+ID: af817430-bda5-4ab2-8a11-a956ee8b0ee7
+Slug: locanda-trento-breme
+Nome: Locanda Trento
+Comune / Provincia: Breme
+Indirizzo: Via Trento, 12, 27036 Mortara PV
+Coordinate: Lat 45.254231, Lng 8.743104
+Website: http://www.alloggiotrento.it/
+Email: 

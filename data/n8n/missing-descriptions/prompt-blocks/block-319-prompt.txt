@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+11131. Boutique Hotel Stresa
+ID: 7be0cf6f-dbbc-4340-b3e3-9533b0607980
+Slug: boutique-hotel-stresa-brovello-carpugnino
+Nome: Boutique Hotel Stresa
+Comune / Provincia: Brovello-Carpugnino
+Indirizzo: Corso Umberto I, 21, 28838 Stresa VB
+Coordinate: Lat 45.884681, Lng 8.538059
+Website: https://www.boutiquehotelstresa.com/
+Email: 
+
+11132. Hotel Brisino
+ID: 4e6e24c2-77ad-4a30-ba2a-2c4e43674ff2
+Slug: hotel-brisino-brovello-carpugnino
+Nome: Hotel Brisino
+Comune / Provincia: Brovello-Carpugnino
+Indirizzo: Via per Magognino, 2, 28838 Stresa VB
+Coordinate: Lat 45.872222, Lng 8.555
+Website: http://www.hotelbrisino.com/
+Email: 
+
+11133. Hotel Luina
+ID: e3bedb96-fc14-4a79-8143-06f31b2e134c
+Slug: hotel-luina-brovello-carpugnino
+Nome: Hotel Luina
+Comune / Provincia: Brovello-Carpugnino
+Indirizzo: Via Giuseppe Garibaldi, 21, 28838 Stresa VB
+Coordinate: Lat 45.883534, Lng 8.541483
+Website: https://www.hotelluinastresa.it/
+Email: 
+
+11134. Hotel Ristorante La Capannina
+ID: a627201a-8735-4f17-927b-05cc6841f122
+Slug: hotel-ristorante-la-capannina-brovello-carpugnino
+Nome: Hotel Ristorante La Capannina
+Comune / Provincia: Brovello-Carpugnino
+Indirizzo: Via Crose, 57, 28040 Massino Visconti NO
+Coordinate: Lat 45.821125, Lng 8.529887
+Website: https://www.hotellacapannina.net/
+Email: 
+
+11135. SEMPIONE BOUTIQUE HOTEL
+ID: 8badaa68-6baf-4160-86c1-4246edebdc8b
+Slug: sempione-boutique-hotel-brovello-carpugnino
+Nome: SEMPIONE BOUTIQUE HOTEL
+Comune / Provincia: Brovello-Carpugnino
+Indirizzo: Corso Italia, 46, 28838 Stresa VB
+Coordinate: Lat 45.883476, Lng 8.542342
+Website: https://www.sempioneboutiquehotel.it/
+Email: 
+
+11136. agriturismo Come una volta
+ID: ef1896e4-ae8b-4ac4-8c78-cc918ac3ea17
+Slug: agriturismo-come-una-volta-brozolo
+Nome: agriturismo Come una volta
+Comune / Provincia: Brozolo
+Indirizzo: Via Braia, 2, 10020 Brozolo TO
+Coordinate: Lat 45.108355, Lng 8.06551
+Website: http://www.agriturismocomeunavolta.com/
+Email: 
+
+11137. Agriturismo Il Giardino Del Ciliegi
+ID: 9cdf1f0a-754d-4a10-aa4f-5e171849bcc1
+Slug: agriturismo-il-giardino-del-ciliegi-brozolo
+Nome: Agriturismo Il Giardino Del Ciliegi
+Comune / Provincia: Brozolo
+Indirizzo: Via Peile, 15, 10020 Brozolo TO
+Coordinate: Lat 45.118932, Lng 8.057098
+Website: http://www.giardinociliegi.it/
+Email: 
+
+11138. La Casa Della Lavanda B&B
+ID: 100523f6-2009-41b1-81a1-0c19b4785cf4
+Slug: la-casa-della-lavanda-b-b-brozolo
+Nome: La Casa Della Lavanda B&B
+Comune / Provincia: Brozolo
+Indirizzo: Via Braia, 16, 10020 Brozolo TO
+Coordinate: Lat 45.103893, Lng 8.068354
+Website: https://www.airbnb.com/rooms/636082712709174728?guests=1&adults=1&s=67&unique_share_id=1a24d02d-9d18-4a1f-863f-29c50801880f&source_impression_id=p3_1653830528_xOoYJ%2FL29EbxF8lA
+Email: 
+
+11139. Nutrilamente
+ID: b0851f18-3a55-4355-8f61-d28be70188f2
+Slug: nutrilamente-brozolo
+Nome: Nutrilamente
+Comune / Provincia: Brozolo
+Indirizzo: Via Montenero, 14, 14020 Robella AT
+Coordinate: Lat 45.120369, Lng 8.118457
+Website: http://www.nutrilamente.com/
+Email: 
+
+11140. Sotto la Luna Bruna B&B
+ID: 548346a7-32dc-49f1-8fe6-856d3752e437
+Slug: sotto-la-luna-bruna-b-b-brozolo
+Nome: Sotto la Luna Bruna B&B
+Comune / Provincia: Brozolo
+Indirizzo: Fraz. Cocconito, Str. Cocconito, 18, 14023 Cocconato AT
+Coordinate: Lat 45.103148, Lng 8.044565
+Website: —
+Email: 
+
+11141. AFFITTACAMERE Top Suit Centro
+ID: e86f3b4c-ed91-4b3a-84af-1e77745688b0
+Slug: affittacamere-top-suit-centro-brugherio
+Nome: AFFITTACAMERE Top Suit Centro
+Comune / Provincia: Brugherio
+Indirizzo: Via Antonio Gramsci, 18/20, 20861 Brugherio MB
+Coordinate: Lat 45.552625, Lng 9.301427
+Website: https://www.tripadvisor.it/Hotel_Review-g1598976-d7199469-Reviews-Top_Suit_Uno-Brugherio_Province_of_Monza_and_Brianza_Lombardy.html
+Email: 
+
+11142. Agriturismo & Azienda Agricola "Il Granaio"
+ID: d23e0ae7-3dcd-4b5d-be35-e1d7d7b5ce2b
+Slug: agriturismo-azienda-agricola-il-granaio-brugherio
+Nome: Agriturismo & Azienda Agricola "Il Granaio"
+Comune / Provincia: Brugherio
+Indirizzo: Via Arcangelo Corelli, 15, 20037 Paderno Dugnano MI
+Coordinate: Lat 45.568934, Lng 9.195615
+Website: http://www.agriturismoilgranaio.eu/
+Email: 
+
+11143. Agriturismo Cascina Fogliana
+ID: e74923f4-f591-4a84-8e8a-fc42a398c130
+Slug: agriturismo-cascina-fogliana-brugherio
+Nome: Agriturismo Cascina Fogliana
+Comune / Provincia: Brugherio
+Indirizzo: Via Cascina Fogliana, 20060 Cassina de' Pecchi MI
+Coordinate: Lat 45.510156, Lng 9.404036
+Website: http://www.agriturismocascinafogliana.com/
+Email: 
+
+11144. Agriturismo Cascina Nibai
+ID: ad941914-dc71-4b20-adce-cd3f26cba7db
+Slug: agriturismo-cascina-nibai-brugherio
+Nome: Agriturismo Cascina Nibai
+Comune / Provincia: Brugherio
+Indirizzo: Via Al Cavarott, 11, 20063 Cernusco sul Naviglio MI
+Coordinate: Lat 45.538004, Lng 9.343701
+Website: https://www.cascinanibai.it/
+Email: 
+
+11145. Agriturismo da Pippo
+ID: c325ade2-b513-49dd-b06b-f445331f53c4
+Slug: agriturismo-da-pippo-brugherio
+Nome: Agriturismo da Pippo
+Comune / Provincia: Brugherio
+Indirizzo: Piazza Grassi, 3, 20090 Cassignanica MI
+Coordinate: Lat 45.455839, Lng 9.346078
+Website: https://www.agriturismodapippo.it/
+Email: 
+
+11146. Agriturismo La Torrazza
+ID: 9f0d5bba-c103-412a-ae22-853c3217a63c
+Slug: agriturismo-la-torrazza-brugherio
+Nome: Agriturismo La Torrazza
+Comune / Provincia: Brugherio
+Indirizzo: Via G. Matteotti, 2C, 20040 Cambiago MI
+Coordinate: Lat 45.568535, Lng 9.408722
+Website: https://www.agriturismolatorrazza.com/
+Email: 
+
+11147. B&B La Casa dei Sogni
+ID: 79c75359-368b-4157-ae2d-cd8d32fb0cd1
+Slug: b-b-la-casa-dei-sogni-brugherio
+Nome: B&B La Casa dei Sogni
+Comune / Provincia: Brugherio
+Indirizzo: Via Marmolada, 15, 20861 Brugherio MB
+Coordinate: Lat 45.547023, Lng 9.283147
+Website: http://lacasadeisogni.one/
+Email: 
+
+11148. B&B Villa Aurora
+ID: b1f0d77a-afcd-4ae9-b9de-1b1b28304232
+Slug: b-b-villa-aurora-brugherio
+Nome: B&B Villa Aurora
+Comune / Provincia: Brugherio
+Indirizzo: Via Carlo Cattaneo, 18, 20861 Brugherio MB
+Coordinate: Lat 45.545556, Lng 9.295833
+Website: http://www.beb-villaaurora.com/
+Email: 
+
+11149. B&B Villa Lodigiana
+ID: 4b6a4a75-fb6e-41cb-984f-4b49f0befad3
+Slug: b-b-villa-lodigiana-brugherio
+Nome: B&B Villa Lodigiana
+Comune / Provincia: Brugherio
+Indirizzo: Via Lodigiana, 83, 20861 Brugherio MB
+Coordinate: Lat 45.556462, Lng 9.286461
+Website: http://www.villalodigiana.it/
+Email: 
+
+11150. B&B Villa Luisa
+ID: b57ee19d-5e47-4f73-af30-ef06d16a7ebb
+Slug: b-b-villa-luisa-brugherio
+Nome: B&B Villa Luisa
+Comune / Provincia: Brugherio
+Indirizzo: Via Moia, 30, 20861 Brugherio MB
+Coordinate: Lat 45.557047, Lng 9.284998
+Website: https://beb.it/villaluisa
+Email: 
+
+11151. Co.A.Fra. (Società Agricola Cooperativa Sociale ) Agriturismo biologico spaccio
+ID: 3e49c0f2-7aba-4fec-ab4a-26ab1bc9556e
+Slug: co-a-fra-societa-agricola-cooperativa-sociale-ag-brugherio
+Nome: Co.A.Fra. (Società Agricola Cooperativa Sociale ) Agriturismo biologico spaccio
+Comune / Provincia: Brugherio
+Indirizzo: Cascina Nibai, 5, 20063 Cernusco sul Naviglio MI
+Coordinate: Lat 45.53786, Lng 9.3439
+Website: http://www.nibai.it/
+Email: 
+
+11152. GUEST HOUSE Top Suit Uno
+ID: e8bd6e23-af8e-4bed-9e21-31eb8398c57e
+Slug: guest-house-top-suit-uno-brugherio
+Nome: GUEST HOUSE Top Suit Uno
+Comune / Provincia: Brugherio
+Indirizzo: Via S. Maurizio Al Lambro, 3, 20861 Brugherio MB
+Coordinate: Lat 45.547422, Lng 9.292454
+Website: https://beb.it/topsuituno
+Email: 
+
+11153. Hotel Sporting Brugherio
+ID: 4657c987-cbe4-4103-b3b9-3307d4ac0f16
+Slug: hotel-sporting-brugherio-brugherio
+Nome: Hotel Sporting Brugherio
+Comune / Provincia: Brugherio
+Indirizzo: Via Santa Caterina da Siena, 35, 20861 Brugherio MB
+Coordinate: Lat 45.555676, Lng 9.304296
+Website: https://www.hotelsportingbrugherio.com/
+Email: 
+
+11154. La rondine B&B
+ID: 5bedf2ee-184f-482a-878c-e5527b875182
+Slug: la-rondine-b-b-brugherio
+Nome: La rondine B&B
+Comune / Provincia: Brugherio
+Indirizzo: Via Vittorio Veneto, 14, 20861 Brugherio MB
+Coordinate: Lat 45.551827, Lng 9.300237
+Website: https://www.larondinebeb.it/
+Email: 
+
+11155. Hotel Da Regina
+ID: 415a977b-51bc-48f5-adc3-f9570887ebd0
+Slug: hotel-da-regina-brugine
+Nome: Hotel Da Regina
+Comune / Provincia: Brugine
+Indirizzo: Via Alto Adige, 73, 30010 Campolongo Maggiore VE
+Coordinate: Lat 45.325357, Lng 12.026239
+Website: http://www.daregina.com/
+Email: 
+
+11156. Point Hotel
+ID: 8c5360a0-c8ec-4448-b2c8-8bd0f7be8b61
+Slug: point-hotel-brugine
+Nome: Point Hotel
+Comune / Provincia: Brugine
+Indirizzo: Via Adige, 2/A, 35028 Piove di Sacco PD
+Coordinate: Lat 45.303043, Lng 12.021044
+Website: http://www.pointhotel.it/
+Email: 
+
+11157. TokiTakai
+ID: 95685847-3c57-44c5-a71f-45d8057e64e7
+Slug: tokitakai-brugine
+Nome: TokiTakai
+Comune / Provincia: Brugine
+Indirizzo: Piazza A. de Gasperi, 32a/scala b piano 1, 35131 Padova PD
+Coordinate: Lat 45.415917, Lng 11.877576
+Website: https://tokitakai.top/
+Email: 
+
+11158. Affittacamere La Valle Fiorita
+ID: f9f3c0ff-ef5f-4003-81de-654956fe92d9
+Slug: affittacamere-la-valle-fiorita-brugnato
+Nome: Affittacamere La Valle Fiorita
+Comune / Provincia: Brugnato
+Indirizzo: Via Gaggiola, 518/B, 19020 Pignone SP
+Coordinate: Lat 44.153336, Lng 9.682017
+Website: https://la-valle-fiorita.italiatravelandtours.top/
+Email: 
+
+11159. Affittacamere SveMilla
+ID: f0610518-20a0-48dc-856e-9fcf06a7a01c
+Slug: affittacamere-svemilla-brugnato
+Nome: Affittacamere SveMilla
+Comune / Provincia: Brugnato
+Indirizzo: Via Borgo San Bernardo, n° 11, 19020 Brugnato SP
+Coordinate: Lat 44.23733, Lng 9.722546
+Website: —
+Email: 
+
+11160. Albergo dei Tigli
+ID: 2ed3313f-af19-47fa-a0e1-e7fa4e184248
+Slug: albergo-dei-tigli-brugnato
+Nome: Albergo dei Tigli
+Comune / Provincia: Brugnato
+Indirizzo: Via S. Lazzaro, 23, 19020 Brugnato SP
+Coordinate: Lat 44.236481, Lng 9.720804
+Website: https://albergo-dei-tigli.italiadestinazioni.top/
+Email: 
+
+11161. Ca’ Da Flora
+ID: 53e4830f-a707-44cc-8cfc-2a0d5a96fe65
+Slug: ca-da-flora-brugnato
+Nome: Ca’ Da Flora
+Comune / Provincia: Brugnato
+Indirizzo: Via Costantini, 3, 19020 Brugnato SP
+Coordinate: Lat 44.236834, Lng 9.724291
+Website: —
+Email: 
+
+11162. Il Vecchio Noce
+ID: ddf6f5ef-ddb2-476c-84bb-bdb49692362f
+Slug: il-vecchio-noce-brugnato
+Nome: Il Vecchio Noce
+Comune / Provincia: Brugnato
+Indirizzo: Via Bionda, 1, 19020 Brugnato SP
+Coordinate: Lat 44.238521, Lng 9.722608
+Website: https://ilvecchionoce-brugnato.it/
+Email: 
+
+11163. La Bordigona . CIN IT01101013LJW8LWR
+ID: c8b63c85-a747-467b-bc7f-7c9714edae8e
+Slug: la-bordigona-cin-it01101013ljw8lwr-brugnato
+Nome: La Bordigona . CIN IT01101013LJW8LWR
+Comune / Provincia: Brugnato
+Indirizzo: Località Bordigona, 19020 Località Bordigona SP
+Coordinate: Lat 44.234212, Lng 9.660183
+Website: http://www.labordigona.it/
+Email: 
+
+11164. La Casa Torre
+ID: cd030459-2ac6-4255-8ff7-a6d30c909056
+Slug: la-casa-torre-brugnato
+Nome: La Casa Torre
+Comune / Provincia: Brugnato
+Indirizzo: Via Piaggio S, n.c, 19020 Pignone SP
+Coordinate: Lat 44.177976, Lng 9.721952
+Website: —
+Email: 
+
+11165. Agriturismo El Sesterzio
+ID: 9ea4144e-1cb4-4e60-8114-8f90edfa023a
+Slug: agriturismo-el-sesterzio-brugnera
+Nome: Agriturismo El Sesterzio
+Comune / Provincia: Brugnera
+Indirizzo: Via Masotti, 21/C, 31046 Oderzo TV
+Coordinate: Lat 45.797286, Lng 12.486554
+Website: https://facebook.com/sesterzio/
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+911. B&B La Libellula
+ID: 586f1368-11e0-4a3e-ac2b-0f459021c9bd
+Slug: b-b-la-libellula-ailano
+Nome: B&B La Libellula
+Comune / Provincia: Ailano
+Indirizzo: SP207, 1, 81010 Pratella CE
+Coordinate: Lat 41.394784, Lng 14.171311
+Website: http://bnb-la-libellula.com.es/
+Email: 
+
+912. Chalet Vista Lago
+ID: 2c7dcec9-9891-4193-a858-53e5842999f8
+Slug: chalet-vista-lago-ailano
+Nome: Chalet Vista Lago
+Comune / Provincia: Ailano
+Indirizzo: 81010 San Gregorio Matese CE
+Coordinate: Lat 41.423219, Lng 14.361402
+Website: —
+Email: 
+
+913. Da Nonna Pasqualina
+ID: 174128e8-94ed-4e68-ad02-0835a8c02ec4
+Slug: da-nonna-pasqualina-ailano
+Nome: Da Nonna Pasqualina
+Comune / Provincia: Ailano
+Indirizzo: Via Chiesa, 81010 Ciorlano CE
+Coordinate: Lat 41.450425, Lng 14.158718
+Website: http://da-nonna-pasqualina.com.es/
+Email: 
+
+914. Hotel Ascot
+ID: aa873f32-8a16-4eea-b16b-fe23ca7fa095
+Slug: hotel-ascot-ailano
+Nome: Hotel Ascot
+Comune / Provincia: Ailano
+Indirizzo: Via Ceraselle, 55, 81059 Montano CE
+Coordinate: Lat 41.3075, Lng 14.106944
+Website: https://direct-book.com/properties/HotelAscotCaianelloDirect
+Email: 
+
+915. Jenny's House
+ID: f8e18bca-e5df-48c5-a940-d964923cfe0c
+Slug: jenny-s-house-ailano
+Nome: Jenny's House
+Comune / Provincia: Ailano
+Indirizzo: Via Casilina, 167, 81050 Presenzano CE
+Coordinate: Lat 41.345341, Lng 14.065002
+Website: —
+Email: 
+
+916. L'angolo fiorito
+ID: 306651de-f996-415d-8bbb-c8bdaf6d81b0
+Slug: l-angolo-fiorito-ailano
+Nome: L'angolo fiorito
+Comune / Provincia: Ailano
+Indirizzo: Via Nazionale dei Pentri, 47, 86090 Castelpetroso IS
+Coordinate: Lat 41.547335, Lng 14.338901
+Website: https://fiorito.tripcombined.com/
+Email: 
+
+917. La Caveja
+ID: 28856e4e-45b1-42f3-a248-e569dbe7774d
+Slug: la-caveja-ailano
+Nome: La Caveja
+Comune / Provincia: Ailano
+Indirizzo: Via Santissima Annunziata, 10, 81040 Pietravairano CE
+Coordinate: Lat 41.322882, Lng 14.16459
+Website: http://lacaveja.com/
+Email: 
+
+918. La Quercia di Aorivola
+ID: 34d341a4-2059-47f5-abdb-9e80aae1eaec
+Slug: la-quercia-di-aorivola-ailano
+Nome: La Quercia di Aorivola
+Comune / Provincia: Ailano
+Indirizzo: Via Teano, 3, 81059 Aorivola CE
+Coordinate: Lat 41.294311, Lng 14.058364
+Website: https://checkcalendar.eu/la-quercia-di-aorivola-caianello
+Email: 
+
+919. La Rossa Fantastica
+ID: c47ad4a8-5bc6-469f-99d2-477ab6c2b2a4
+Slug: la-rossa-fantastica-ailano
+Nome: La Rossa Fantastica
+Comune / Provincia: Ailano
+Indirizzo: Via Madonna delle Grazie, 14, 81016 Piedimonte Matese CE
+Coordinate: Lat 41.359635, Lng 14.373823
+Website: https://www.larossafantastica.it/
+Email: 
+
+920. Le Sale Resort
+ID: b5ed828b-be9e-43f1-96b7-25b8aa7e49c1
+Slug: le-sale-resort-ailano
+Nome: Le Sale Resort
+Comune / Provincia: Ailano
+Indirizzo: Via Francesco Landi, 47, 81100 Caserta CE
+Coordinate: Lat 41.092382, Lng 14.324344
+Website: https://www.lesaleresort.it/
+Email: 
+
+921. TENUTA D'AUSILIO Event MIGLIORE HOTEL 4 STELLE VAIRANO PATENORA CAIANELLO
+ID: 2e815843-de6d-4f9f-be1a-e232722a66ac
+Slug: tenuta-d-ausilio-event-migliore-hotel-4-stelle-v-ailano
+Nome: TENUTA D'AUSILIO Event MIGLIORE HOTEL 4 STELLE VAIRANO PATENORA CAIANELLO
+Comune / Provincia: Ailano
+Indirizzo: SS 85 Venafrana, 81058 Vairano Patenora CE
+Coordinate: Lat 41.347689, Lng 14.10505
+Website: http://www.tenutadausilio.it/
+Email: 
+
+922. Villa Rosanna b&b
+ID: 7973ff45-b8c4-44e3-b1ab-a824ed6619cd
+Slug: villa-rosanna-b-b-ailano
+Nome: Villa Rosanna b&b
+Comune / Provincia: Ailano
+Indirizzo: Via Santo Spirito, 2, 81058 Caianello CE
+Coordinate: Lat 41.310395, Lng 14.098256
+Website: —
+Email: 
+
+923. Ai 4 Gatti B&B
+ID: 01a046ff-f050-4b43-a716-310da77f7e88
+Slug: ai-4-gatti-b-b-ailoche
+Nome: Ai 4 Gatti B&B
+Comune / Provincia: Ailoche
+Indirizzo: Frazione Vacchiero, 21, 13821 Camandona BI
+Coordinate: Lat 45.638358, Lng 8.095175
+Website: —
+Email: 
+
+924. Albergo & Ristorante della Posta
+ID: 42c1a052-d52e-4998-b1a2-a0ee7fd2f7a4
+Slug: albergo-ristorante-della-posta-ailoche
+Nome: Albergo & Ristorante della Posta
+Comune / Provincia: Ailoche
+Indirizzo: Via Provinciale, 235, 13835 Trivero BI
+Coordinate: Lat 45.652315, Lng 8.182875
+Website: —
+Email: 
+
+925. Albergo Italia
+ID: bc0940ea-1b2d-4878-926c-3a04f321b529
+Slug: albergo-italia-ailoche
+Nome: Albergo Italia
+Comune / Provincia: Ailoche
+Indirizzo: Corso Roma, 6, 13019 Varallo VC
+Coordinate: Lat 45.814008, Lng 8.254546
+Website: http://www.albergoitalia.net/
+Email: 
+
+926. Antico Affittacamere di Tollegno
+ID: d9fcaa0b-8ffa-40ed-8b13-d8bcf19ea078
+Slug: antico-affittacamere-di-tollegno-ailoche
+Nome: Antico Affittacamere di Tollegno
+Comune / Provincia: Ailoche
+Indirizzo: Via Garibaldi, 49, 13818 Tollegno BI
+Coordinate: Lat 45.593806, Lng 8.050905
+Website: https://www.booking.com/hotel/it/antico-affittacamere-di-tollegno.it.html?aid=334359
+Email: 
+
+927. Azienda Agricola con Agriturismo Ca' nel Bosco
+ID: e8620e86-6969-4fc4-945c-f0a41f9cd40d
+Slug: azienda-agricola-con-agriturismo-ca-nel-bosco-ailoche
+Nome: Azienda Agricola con Agriturismo Ca' nel Bosco
+Comune / Provincia: Ailoche
+Indirizzo: 13833, Frazione Gila, 25/b, 13833 Portula BI
+Coordinate: Lat 45.682675, Lng 8.172094
+Website: http://www.agricanelbosco.it/
+Email: 
+
+928. B&B Il Cortile
+ID: 2949ddad-bbb4-40ab-a946-0512d066bcc8
+Slug: b-b-il-cortile-ailoche
+Nome: B&B Il Cortile
+Comune / Provincia: Ailoche
+Indirizzo: Via Pietro Bora, 22, 13900 Biella BI
+Coordinate: Lat 45.566105, Lng 8.066155
+Website: https://www.bbilcortile.it/
+Email: 
+
+929. B&B Il Gomitolo - Soggiorno di charme
+ID: cac0fece-9c1f-451c-8429-6fc42cda4210
+Slug: b-b-il-gomitolo-soggiorno-di-charme-ailoche
+Nome: B&B Il Gomitolo - Soggiorno di charme
+Comune / Provincia: Ailoche
+Indirizzo: Via XX Settembre, 32, 13818 Tollegno BI
+Coordinate: Lat 45.59208, Lng 8.05445
+Website: http://www.benvenutialgomitolo.it/
+Email: 
+
+930. B&B La Biulla
+ID: eb60e5f6-5e2d-4a89-bc78-33b63e16ada0
+Slug: b-b-la-biulla-ailoche
+Nome: B&B La Biulla
+Comune / Provincia: Ailoche
+Indirizzo: Via G. Porta, 39, 13863 Biolla BI
+Coordinate: Lat 45.701083, Lng 8.18317
+Website: https://beb.it/labiulla
+Email: 
+
+931. B&B La Colombera
+ID: 1f6a9128-27ad-4bfb-a52a-b9c4c173a267
+Slug: b-b-la-colombera-ailoche
+Nome: B&B La Colombera
+Comune / Provincia: Ailoche
+Indirizzo: Via IV Novembre, 49, 13853 Lessona BI
+Coordinate: Lat 45.582884, Lng 8.198165
+Website: http://marina-colombera8.webnode.it/
+Email: 
+
+932. B&B Residence Ianua Coeli
+ID: 5cf4e8ef-f87c-4888-acde-2b175e8cd8fe
+Slug: b-b-residence-ianua-coeli-ailoche
+Nome: B&B Residence Ianua Coeli
+Comune / Provincia: Ailoche
+Indirizzo: Localita' Caudana, 62, 13835 Pistolesa BI
+Coordinate: Lat 45.648277, Lng 8.117385
+Website: http://www.ianuacoeli.com/
+Email: 
+
+933. Camere Camillo
+ID: 6d669cf6-d7c2-4384-9bad-a48fc02a31f4
+Slug: camere-camillo-ailoche
+Nome: Camere Camillo
+Comune / Provincia: Ailoche
+Indirizzo: Via Noche, 21, 13864 Crevacuore BI
+Coordinate: Lat 45.684412, Lng 8.240163
+Website: https://camere-camillo.com/
+Email: 
+
+934. Casa Valduggia
+ID: 69611c03-d084-4a34-98e5-3dabc59f9dfd
+Slug: casa-valduggia-ailoche
+Nome: Casa Valduggia
+Comune / Provincia: Ailoche
+Indirizzo: Via Roma, 27, 13018 Valduggia VC
+Coordinate: Lat 45.730059, Lng 8.330322
+Website: http://casavalduggia.it/
+Email: 
+
+935. CasAda
+ID: 909be2a5-7bc8-42ee-8c1c-9dacfc52c7a6
+Slug: casada-ailoche
+Nome: CasAda
+Comune / Provincia: Ailoche
+Indirizzo: Via A. Cerruti, 19, 13853 Lessona BI
+Coordinate: Lat 45.590328, Lng 8.200771
+Website: —
+Email: 
+
+936. La Burla
+ID: 1766699e-63dd-4ae2-9936-21fba71482b0
+Slug: la-burla-ailoche
+Nome: La Burla
+Comune / Provincia: Ailoche
+Indirizzo: Località La Burla, 13010 Guardabosone VC
+Coordinate: Lat 45.6971, Lng 8.25972
+Website: http://www.agriturismolaburla.it/
+Email: 
+
+937. La Casa Verde B&B
+ID: d2492087-196a-4082-a25f-3792aea17560
+Slug: la-casa-verde-b-b-ailoche
+Nome: La Casa Verde B&B
+Comune / Provincia: Ailoche
+Indirizzo: Frazione Pratrivero, 274, 13835 Pratrivero BI
+Coordinate: Lat 45.665541, Lng 8.180854
+Website: https://www.lacasaverdeitalia.com/
+Email: 
+
+938. Locanda dei Mercanti
+ID: e54f9d4d-321b-412a-b7f8-cc12714161ed
+Slug: locanda-dei-mercanti-ailoche
+Nome: Locanda dei Mercanti
+Comune / Provincia: Ailoche
+Indirizzo: piazza Vittorio Emanuele III, 3, 13864 Crevacuore BI
+Coordinate: Lat 45.685966, Lng 8.248968
+Website: http://fb.me/LocandaMercanti
+Email: 
+
+939. Locanda di Campagna Guardabosone
+ID: a47d341f-fece-4934-90d6-6d45bdeb46cc
+Slug: locanda-di-campagna-guardabosone-ailoche
+Nome: Locanda di Campagna Guardabosone
+Comune / Provincia: Ailoche
+Indirizzo: Via Roma, 37G, 13010 Guardabosone VC
+Coordinate: Lat 45.702165, Lng 8.251498
+Website: —
+Email: 
+
+940. Ristorante Albergo bar Noveis
+ID: 89585274-d039-46ff-87a4-7a7396caa560
+Slug: ristorante-albergo-bar-noveis-ailoche
+Nome: Ristorante Albergo bar Noveis
+Comune / Provincia: Ailoche
+Indirizzo: Frazione Noveis, 20, 13864 Caprile BI
+Coordinate: Lat 45.713718, Lng 8.190455
+Website: https://m.facebook.com/p/Ristorante-Noveis-100083087842648/
+Email: 
+
+941. THE HORSE - GUEST HOUSE
+ID: bf60e003-d031-461c-b854-bc18a37f519c
+Slug: the-horse-guest-house-ailoche
+Nome: THE HORSE - GUEST HOUSE
+Comune / Provincia: Ailoche
+Indirizzo: VIA ENRICO FERMI, 2, 28076 Pogno NO
+Coordinate: Lat 45.757754, Lng 8.380781
+Website: —
+Email: 
+
+942. Villa Erbetta Home Restaurant+B&B
+ID: 8dd512f7-fe59-4b56-bc98-5cf6a81c6367
+Slug: villa-erbetta-home-restaurant-b-b-ailoche
+Nome: Villa Erbetta Home Restaurant+B&B
+Comune / Provincia: Ailoche
+Indirizzo: Via Torchio, 13010 Guardabosone VC
+Coordinate: Lat 45.701291, Lng 8.251868
+Website: —
+Email: 
+
+943. Apparta hotel
+ID: 05f7b076-4426-4788-b8bb-16018fb0e2b0
+Slug: apparta-hotel-airasca
+Nome: Apparta hotel
+Comune / Provincia: Airasca
+Indirizzo: Via Bellezia, 2, 10043 Orbassano TO
+Coordinate: Lat 45.028208, Lng 7.578472
+Website: http://www.appartahotel.eu/
+Email: 
+
+944. b&b D'or dublè
+ID: 165c4565-00f7-4160-a1d9-baeb368eed93
+Slug: b-b-d-or-duble-airasca
+Nome: b&b D'or dublè
+Comune / Provincia: Airasca
+Indirizzo: Via Garavella, 12, 10041 Carignano TO
+Coordinate: Lat 44.906858, Lng 7.682162
+Website: —
+Email: 
+
+945. B&B Le Mimose
+ID: 1b0a65ef-fc2b-45a0-b7b7-4f6750784ec4
+Slug: b-b-le-mimose-airasca
+Nome: B&B Le Mimose
+Comune / Provincia: Airasca
+Indirizzo: Str. Cesani Sardegna, 52, 10060 Bricherasio TO
+Coordinate: Lat 44.836269, Lng 7.290309
+Website: —
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16766. Best Western Plus Hotel Fino Osaka Kitahama
+ID: 8ef192ea-7296-4c08-80f8-bf761fe0b8a4
+Slug: best-western-plus-hotel-fino-osaka-kitahama-osaka
+Nome: Best Western Plus Hotel Fino Osaka Kitahama
+Comune / Provincia: Osaka
+Indirizzo: 1-chōme-7-17 Imabashi, Chuo Ward, Osaka, 541-0042
+Coordinate: Lat 34.690288, Lng 135.506905
+Website: https://bwhotels.jp/osaka-kitahama
+Email: 
+
+16767. Hotel Cordia Osaka Hommachi
+ID: e2b84701-a89e-4dcb-86a6-d125c5b5ae83
+Slug: hotel-cordia-osaka-hommachi-osaka
+Nome: Hotel Cordia Osaka Hommachi
+Comune / Provincia: Osaka
+Indirizzo: 4-chōme-6-14 Honmachi, Chuo Ward, Osaka, 541-0053
+Coordinate: Lat 34.684575, Lng 135.498569
+Website: https://cordia-osaka.com/hommachi/
+Email: 
+
+16768. HOTEL FORZA OSAKA KITAHAMA
+ID: e7076ccc-e4d8-4e3a-9643-665fa65eed1f
+Slug: hotel-forza-osaka-kitahama-osaka
+Nome: HOTEL FORZA OSAKA KITAHAMA
+Comune / Provincia: Osaka
+Indirizzo: 2-chōme-2-21 Imabashi, Chuo Ward, Osaka, 541-0042
+Coordinate: Lat 34.690275, Lng 135.506194
+Website: https://www.hotelforza.jp/osakakitahama
+Email: 
+
+16769. Hotel Hillarys Shinsaibashi
+ID: 2024da0c-e119-4b70-baa3-2c4237f2a347
+Slug: hotel-hillarys-shinsaibashi-osaka
+Nome: Hotel Hillarys Shinsaibashi
+Comune / Provincia: Osaka
+Indirizzo: 1-chōme-17-11 Higashishinsaibashi, Chuo Ward, Osaka, 542-0083
+Coordinate: Lat 34.672949, Lng 135.503054
+Website: https://www.hotel-hillarys.com/shinsaibashi/
+Email: shinsaibashi@hotel-hillarys.com
+
+16770. Hotel Kansai
+ID: c2539f18-89f5-4686-8872-e5b45ff19723
+Slug: hotel-kansai-osaka
+Nome: Hotel Kansai
+Comune / Provincia: Osaka
+Indirizzo: 9-15 Toganochō, Kita Ward, Osaka, 530-0056
+Coordinate: Lat 34.700569, Lng 135.503386
+Website: http://www.hotel-kansai.co.jp/
+Email: 
+
+16771. Hotel Livemax Osaka-Yodoyabashi
+ID: d022ccf7-e1cb-4c8a-8bd5-16aef067857b
+Slug: hotel-livemax-osaka-yodoyabashi-osaka
+Nome: Hotel Livemax Osaka-Yodoyabashi
+Comune / Provincia: Osaka
+Indirizzo: 2-chōme-6-9 Awajimachi, Chuo Ward, Osaka, 541-0047
+Coordinate: Lat 34.686758, Lng 135.504229
+Website: https://www.hotel-livemax.com/osaka/yodoyabashi/
+Email: 
+
+16772. HOTEL LiVEMAX Umeda Central
+ID: 058a190a-f3fe-4bf2-9f79-bf25678e7bc9
+Slug: hotel-livemax-umeda-central-osaka
+Nome: HOTEL LiVEMAX Umeda Central
+Comune / Provincia: Osaka
+Indirizzo: 1-chōme-5-23 Sonezaki, Kita Ward, Osaka, 530-0057
+Coordinate: Lat 34.699047, Lng 135.5033
+Website: https://www.hotel-livemax.com/osaka/umeda-central/
+Email: 
+
+16773. Hotel Lore Shinsaibashi
+ID: dfd7f7b7-6379-4bb5-ad7c-fdffede9be95
+Slug: hotel-lore-shinsaibashi-osaka
+Nome: Hotel Lore Shinsaibashi
+Comune / Provincia: Osaka
+Indirizzo: 〒542-0082 Osaka, Chuo Ward, Shimanouchi, 1-chōme−18−８ 4F
+Coordinate: Lat 34.674841, Lng 135.50667
+Website: https://hpdsp.jp/hotel-ekichika/
+Email: hotel.ekichika.sns@gmail.com
+
+16774. Hotel Meldia Osaka Higobashi
+ID: 2b32a0da-8979-46bd-9ea7-e2f8b8dbe2a9
+Slug: hotel-meldia-osaka-higobashi-osaka
+Nome: Hotel Meldia Osaka Higobashi
+Comune / Provincia: Osaka
+Indirizzo: 1-chōme-16-28 Edobori, Nishi Ward, Osaka, 550-0002
+Coordinate: Lat 34.690603, Lng 135.495135
+Website: https://stay.rakuten.co.jp/urban/osaka-higobashi/
+Email: rsu.higobashi@mail.rakutenstay.co.jp
+
+16775. HOTEL RESOL TRINITY OSAKA
+ID: bd529ac4-45ac-49d3-a9b5-7329e508209b
+Slug: hotel-resol-trinity-osaka-osaka
+Nome: HOTEL RESOL TRINITY OSAKA
+Comune / Provincia: Osaka
+Indirizzo: 2-chōme-6-6 Kōraibashi, Chuo Ward, Osaka, 541-0043
+Coordinate: Lat 34.689617, Lng 135.503959
+Website: https://www.resol-hotel.jp/trinity-osaka/
+Email: 
+
+16776. HOTEL VINE OSAKA KITAHAMA
+ID: 8e9312f2-519f-4925-b090-462b10b2d59d
+Slug: hotel-vine-osaka-kitahama-osaka
+Nome: HOTEL VINE OSAKA KITAHAMA
+Comune / Provincia: Osaka
+Indirizzo: 1-chōme-6-6 Hiranomachi, Chuo Ward, Osaka, 541-0046
+Coordinate: Lat 34.687432, Lng 135.507794
+Website: https://hotelvine.jp/
+Email: 
+
+16777. Premier Hotel -CABIN PRESIDENT- Osaka
+ID: 21b7ac94-0cdf-4a58-8511-f9909c8e8417
+Slug: premier-hotel-cabin-president-osaka-osaka
+Nome: Premier Hotel -CABIN PRESIDENT- Osaka
+Comune / Provincia: Osaka
+Indirizzo: 1-chōme-3-19 Minamimorimachi, Kita Ward, Osaka, 530-0054
+Coordinate: Lat 34.697246, Lng 135.510672
+Website: https://cabin.kenhotels.com/osaka/
+Email: 
+
+16778. Smile Hotel Osaka Yotsubashi
+ID: 07cc3207-3ec1-4a7d-9b00-b915e3293a21
+Slug: smile-hotel-osaka-yotsubashi-osaka
+Nome: Smile Hotel Osaka Yotsubashi
+Comune / Provincia: Osaka
+Indirizzo: 1-chōme-4-12 Shinmachi, Nishi Ward, Osaka, 550-0013
+Coordinate: Lat 34.675696, Lng 135.497263
+Website: https://smile-hotels.com/hotels/show/osakayotsubashi
+Email: 
+
+16779. The Royal Park Hotel Iconic Osaka-Midosuji
+ID: ac07bd72-af06-4f53-9613-c76e7ef62dd9
+Slug: the-royal-park-hotel-iconic-osaka-midosuji-osaka
+Nome: The Royal Park Hotel Iconic Osaka-Midosuji
+Comune / Provincia: Osaka
+Indirizzo: 〒541-0046 Osaka, Chuo Ward, Hiranomachi, 4-chōme−2−３ 15F
+Coordinate: Lat 34.687176, Lng 135.499941
+Website: https://www.royalparkhotels.co.jp/ic/osakamidosuji/
+Email: 
+
+16780. Britannique Hotel - Paris Centre
+ID: cd983152-20a2-452f-8d2d-8a106fccd1e3
+Slug: britannique-hotel-paris-centre-paris
+Nome: Britannique Hotel - Paris Centre
+Comune / Provincia: Paris
+Indirizzo: 20 Av. Victoria, 75001 Paris
+Coordinate: Lat 48.85829, Lng 2.346381
+Website: https://hotel-britannique.fr/
+Email: 
+
+16781. Europe Saint Séverin Hotel - Paris Centre
+ID: cb31e49e-4ce4-4e99-a8e4-e87e0862410d
+Slug: europe-saint-severin-hotel-paris-centre-paris
+Nome: Europe Saint Séverin Hotel - Paris Centre
+Comune / Provincia: Paris
+Indirizzo: 38-40 Rue Saint-Séverin, 75005 Paris
+Coordinate: Lat 48.852752, Lng 2.344313
+Website: http://www.hoteleurope.net/
+Email: 
+
+16782. Grand Hôtel de Paris
+ID: 87fb5586-1eb0-4800-9acf-6a7e9b199fab
+Slug: grand-hotel-de-paris-paris
+Nome: Grand Hôtel de Paris
+Comune / Provincia: Paris
+Indirizzo: 72 Bd de Strasbourg, 75010 Paris
+Coordinate: Lat 48.87535, Lng 2.357966
+Website: https://www.grand-hotel-paris.com/
+Email: 
+
+16783. Hôtel du Centre
+ID: 8019ee0d-02dc-459f-8694-219d2bfe763c
+Slug: hotel-du-centre-paris
+Nome: Hôtel du Centre
+Comune / Provincia: Paris
+Indirizzo: 112 Rue de Charenton, 75012 Paris
+Coordinate: Lat 48.847067, Lng 2.377973
+Website: —
+Email: 
+
+16784. Hôtel du Centre - hôtel Paris Amore
+ID: 8547e24f-24d9-44b3-9033-3ad1b9fe7bea
+Slug: hotel-du-centre-hotel-paris-amore-paris
+Nome: Hôtel du Centre - hôtel Paris Amore
+Comune / Provincia: Paris
+Indirizzo: 63 Rue du Faubourg du Temple, 75010 Paris
+Coordinate: Lat 48.86995, Lng 2.370398
+Website: —
+Email: 
+
+16785. Hotel du Sentier
+ID: 8a4f1e60-792b-4f16-b31d-acf70386e965
+Slug: hotel-du-sentier-paris
+Nome: Hotel du Sentier
+Comune / Provincia: Paris
+Indirizzo: 48 Rue du Caire, 75002 Paris
+Coordinate: Lat 48.868113, Lng 2.348818
+Website: https://hoteldusentier.com/
+Email: reservation@hoteldusentier.com
+
+16786. Hôtel Duo
+ID: be2d8bf2-d1b4-4f8b-987e-c07c7ab648d3
+Slug: hotel-duo-paris
+Nome: Hôtel Duo
+Comune / Provincia: Paris
+Indirizzo: 11 Rue du Temple, 75004 Paris
+Coordinate: Lat 48.858113, Lng 2.352928
+Website: http://www.duo-paris.com/
+Email: 
+
+16787. Hôtel Elixir Paris
+ID: cab73391-c4f9-466a-a25f-2e9de8920c53
+Slug: hotel-elixir-paris-paris
+Nome: Hôtel Elixir Paris
+Comune / Provincia: Paris
+Indirizzo: 7 Rue Jean Lantier, 75001 Paris
+Coordinate: Lat 48.858425, Lng 2.346502
+Website: http://hotelelixir.com/
+Email: contact@hotelelixir.com
+
+16788. Hotel La Ville
+ID: 11a37dd7-7256-4bcd-b6db-7691793f71b4
+Slug: hotel-la-ville-paris
+Nome: Hotel La Ville
+Comune / Provincia: Paris
+Indirizzo: 70 Rue de Rivoli, 75004 Paris
+Coordinate: Lat 48.857589, Lng 2.351748
+Website: —
+Email: 
+
+16789. Hôtel Le 123 Sébastopol - Astotel
+ID: 5f5c182e-114c-430a-b1f9-bd8e01c16ff8
+Slug: hotel-le-123-sebastopol-astotel-paris
+Nome: Hôtel Le 123 Sébastopol - Astotel
+Comune / Provincia: Paris
+Indirizzo: 123 Bd de Sébastopol, 75002 Paris
+Coordinate: Lat 48.867717, Lng 2.352924
+Website: https://www.astotel.com/hotel/hotel-le-123-sebastopol/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness_123sebastopol
+Email: 
+
+16790. Hôtel Les Rives Oceanik
+ID: 093d9e11-6748-493b-b56a-c3fb1f249231
+Slug: hotel-les-rives-oceanik-paris
+Nome: Hôtel Les Rives Oceanik
+Comune / Provincia: Paris
+Indirizzo: 29 Rue Gay-Lussac, 75005 Paris
+Coordinate: Lat 48.844244, Lng 2.342281
+Website: https://www.lesrivesoceanik.com/fr/
+Email: hello@lesrivesoceanik.com
+
+16791. Hôtel Maison Mère
+ID: 2c906f08-197e-4408-b254-3764c150c6d7
+Slug: hotel-maison-mere-paris
+Nome: Hôtel Maison Mère
+Comune / Provincia: Paris
+Indirizzo: 7 Rue Mayran, 75009 Paris
+Coordinate: Lat 48.877132, Lng 2.345137
+Website: https://www.maisonmere.co/
+Email: hello@maisonmere.co
+
+16792. Hôtel Malte - Astotel
+ID: 0f992735-4e32-44b9-87fc-b6a02c158346
+Slug: hotel-malte-astotel-paris
+Nome: Hôtel Malte - Astotel
+Comune / Provincia: Paris
+Indirizzo: 63 Rue de Richelieu, 75002 Paris
+Coordinate: Lat 48.8672, Lng 2.337575
+Website: https://www.astotel.com/hotel/hotel-malte/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness_malte
+Email: 
+
+16793. Hôtel National des Arts et Métiers
+ID: c272d066-e8f9-41b9-9f63-aa7505d7d369
+Slug: hotel-national-des-arts-et-metiers-paris
+Nome: Hôtel National des Arts et Métiers
+Comune / Provincia: Paris
+Indirizzo: 243 Rue Saint-Martin, 75003 Paris
+Coordinate: Lat 48.865717, Lng 2.353225
+Website: http://www.hotelnational.paris/
+Email: 
+
+16794. Hôtel Novotel Paris les Halles
+ID: 574b2c32-cac7-4a35-bddf-ad5212239f41
+Slug: hotel-novotel-paris-les-halles-paris
+Nome: Hôtel Novotel Paris les Halles
+Comune / Provincia: Paris
+Indirizzo: 8 Pl. Marguerite de Navarre, 75001 Paris
+Coordinate: Lat 48.860766, Lng 2.346532
+Website: https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=0785&merchantid=seo-maps-FR-0785&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps
+Email: h0785@accor.com
+
+16795. SO/ Paris Hotel
+ID: 697f29c9-8926-4ed7-8ce9-9c5a283f6d12
+Slug: so-paris-hotel-paris
+Nome: SO/ Paris Hotel
+Comune / Provincia: Paris
+Indirizzo: 10 Rue Agrippa d'Aubigné, 75004 Paris
+Coordinate: Lat 48.850007, Lng 2.362457
+Website: https://so-hotels.com/en/paris/?utm_source=google&utm_medium=organic&utm_campaign=gmb-website&utm_content=website_button
+Email: h6835@so-hotels.com
+
+16796. Arco Hotel Phuket Town
+ID: bb9e269b-0e15-4b2d-a2d1-ab6bdc508e8e
+Slug: arco-hotel-phuket-town-phuket
+Nome: Arco Hotel Phuket Town
+Comune / Provincia: Phuket
+Indirizzo: 3, 51 Soi Talingchan, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000
+Coordinate: Lat 7.879929, Lng 98.391366
+Website: http://www.arcophukettown.com/
+Email: info@hoteliers.guru
+
+16797. B2 Phuket Boutique & Budget Hotel
+ID: 44c1f5dd-3db9-45fe-91ed-f23dd7ecd390
+Slug: b2-phuket-boutique-budget-hotel-phuket
+Nome: B2 Phuket Boutique & Budget Hotel
+Comune / Provincia: Phuket
+Indirizzo: 9, 45 Thep Krasattri Rd, Tambon Ratsada, Amphoe Mueang Phuket, Chang Wat Phuket 83000
+Coordinate: Lat 7.902432, Lng 98.38809
+Website: http://www.b2hotel.com/phuket/b2-phuket-boutique-budget-hotel/
+Email: 
+
+16798. Courtyard by Marriott Phuket Town
+ID: 684b88eb-0fd6-4bba-93c8-465312c0b931
+Slug: courtyard-by-marriott-phuket-town-phuket
+Nome: Courtyard by Marriott Phuket Town
+Comune / Provincia: Phuket
+Indirizzo: 1 Soi Surin, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000
+Coordinate: Lat 7.880653, Lng 98.39293
+Website: https://www.marriott.com/en-us/hotels/hktct-courtyard-phuket-town/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0
+Email: 
+
+16799. Dara Hotel
+ID: 4ff6a8ce-fbcf-4c09-b517-536d62f3643f
+Slug: dara-hotel-phuket
+Nome: Dara Hotel
+Comune / Provincia: Phuket
+Indirizzo: 14/18,14/21 ถนน เจ้าฟ้าตะวันออก Tambon Wichit, Amphoe Mueang Phuket, Chang Wat Phuket 83000
+Coordinate: Lat 7.887604, Lng 98.368096
+Website: http://www.daraphuket.com/
+Email: 
+
+16800. Horange Phuket Town
+ID: 710ce5a5-fe92-4872-8f50-481f1154fee1
+Slug: horange-phuket-town-phuket
+Nome: Horange Phuket Town
+Comune / Provincia: Phuket
+Indirizzo: 57/3-9, Phuket Rd, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000
+Coordinate: Lat 7.882392, Lng 98.391556
+Website: http://horange.getguest.co/
+Email: rsvn.horange@gmail.com

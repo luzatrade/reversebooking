@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+11341. Hotel GF S.r.l.
+ID: dc01eeca-44eb-44c5-ba50-761897fdfe2c
+Slug: hotel-gf-s-r-l-buccinasco
+Nome: Hotel GF S.r.l.
+Comune / Provincia: Buccinasco
+Indirizzo: Via Donizetti, 3, 20094 Cesano Boscone MI
+Coordinate: Lat 45.440816, Lng 9.091739
+Website: https://gf.worhot.com/
+Email: 
+
+11342. iH Hotels Milano Eur - Trezzano sul Naviglio
+ID: f70e1fb8-3dc0-4fdf-a0d7-04e840eee49e
+Slug: ih-hotels-milano-eur-trezzano-sul-naviglio-buccinasco
+Nome: iH Hotels Milano Eur - Trezzano sul Naviglio
+Comune / Provincia: Buccinasco
+Indirizzo: Viale Leonardo da Vinci, 36 A, 20090 Trezzano sul Naviglio MI
+Coordinate: Lat 45.423499, Lng 9.063693
+Website: https://ih-hotels.com/city-hotel/milano/ih-hotels-milano-eur/
+Email: 
+
+11343. il Sole di Baggio - Rooms
+ID: 9a25178c-5cc6-4abb-8d21-cc31ecb6d6e3
+Slug: il-sole-di-baggio-rooms-buccinasco
+Nome: il Sole di Baggio - Rooms
+Comune / Provincia: Buccinasco
+Indirizzo: Via delle Forze Armate, 376, 20152 Milano MI
+Coordinate: Lat 45.460841, Lng 9.093496
+Website: http://www.ilsoledibaggio.it/
+Email: 
+
+11344. Navigli Suites
+ID: 2629ed5b-86b7-447e-878f-1d7713750fe8
+Slug: navigli-suites-buccinasco
+Nome: Navigli Suites
+Comune / Provincia: Buccinasco
+Indirizzo: Via Mortara, 2, 20144 Milano MI
+Coordinate: Lat 45.454344, Lng 9.172896
+Website: https://www.naviglisuites.com/
+Email: 
+
+11345. Affittacamere “La Maison”
+ID: d026cb42-e1c5-46ed-a7ab-9e512275643c
+Slug: affittacamere-la-maison-buccino
+Nome: Affittacamere “La Maison”
+Comune / Provincia: Buccino
+Indirizzo: Via delle Grotte, 22, 84035 Polla SA
+Coordinate: Lat 40.51066, Lng 15.49183
+Website: https://www.affittacamerelamaison.it/
+Email: 
+
+11346. Agriturismo Antica Quercia
+ID: fa5d3081-6c1f-41ce-aa53-37d751c3b1d5
+Slug: agriturismo-antica-quercia-buccino
+Nome: Agriturismo Antica Quercia
+Comune / Provincia: Buccino
+Indirizzo: Contrada Portola, 1, 84020 San Gregorio Magno SA
+Coordinate: Lat 40.6535, Lng 15.367335
+Website: —
+Email: 
+
+11347. Agriturismo La Sfruscià Resort
+ID: 94ff1f8c-9fa6-42e1-bee5-b75ad4094b19
+Slug: agriturismo-la-sfruscia-resort-buccino
+Nome: Agriturismo La Sfruscià Resort
+Comune / Provincia: Buccino
+Indirizzo: SP10b, 84020 San Gregorio Magno SA
+Coordinate: Lat 40.666603, Lng 15.41443
+Website: https://www.agriturismolasfruscia.com/
+Email: 
+
+11348. B&B - Casa Vacanze il Vicolo - Oliveto Citra
+ID: db4d04b8-800f-4e93-9095-93325d49338d
+Slug: b-b-casa-vacanze-il-vicolo-oliveto-citra-buccino
+Nome: B&B - Casa Vacanze il Vicolo - Oliveto Citra
+Comune / Provincia: Buccino
+Indirizzo: Via Plebiscito, 84020 Oliveto Citra SA
+Coordinate: Lat 40.69067, Lng 15.234366
+Website: https://completedstay.com/bnb-il-vicolo-oliveto-citra/
+Email: 
+
+11349. Bed & Breakfast Miraville
+ID: 2691eccc-e55c-4fb6-b298-e7aca6a8340e
+Slug: bed-breakfast-miraville-buccino
+Nome: Bed & Breakfast Miraville
+Comune / Provincia: Buccino
+Indirizzo: Corso Umberto I, 84020 Valva SA
+Coordinate: Lat 40.740302, Lng 15.270416
+Website: https://www.booking.com/Share-iZi1uN
+Email: 
+
+11350. Eliceto Resort & SPA
+ID: 04dd0fb3-0e0b-40f4-a654-053e45b5905c
+Slug: eliceto-resort-spa-buccino
+Nome: Eliceto Resort & SPA
+Comune / Provincia: Buccino
+Indirizzo: Località Eliceto, 84021 Buccino SA
+Coordinate: Lat 40.632868, Lng 15.325981
+Website: https://www.elicetoresort.it/
+Email: 
+
+11351. Hotel Valle Verde
+ID: b711c023-6727-408f-816b-14b07ddf2d54
+Slug: hotel-valle-verde-buccino
+Nome: Hotel Valle Verde
+Comune / Provincia: Buccino
+Indirizzo: Piazza Aldo Moro, 3, 84020 San Gregorio Magno SA
+Coordinate: Lat 40.661116, Lng 15.400872
+Website: https://www.hotelvalleverde.it/
+Email: 
+
+11352. La Cantina di Bacco + Casa Vacanze Franco ed Enza
+ID: ee5fb495-0e54-41e1-a042-c72388725883
+Slug: la-cantina-di-bacco-casa-vacanze-franco-ed-enza-buccino
+Nome: La Cantina di Bacco + Casa Vacanze Franco ed Enza
+Comune / Provincia: Buccino
+Indirizzo: Piazza, 84020 San Gregorio Magno SA
+Coordinate: Lat 40.656117, Lng 15.404959
+Website: https://fastit.cyou/cantina-di-bacco-wpsw8t
+Email: 
+
+11353. Agriturismo Antiche Dimore di Poggianto
+ID: 206467da-11f6-41fb-97fc-e4601402e154
+Slug: agriturismo-antiche-dimore-di-poggianto-bucine
+Nome: Agriturismo Antiche Dimore di Poggianto
+Comune / Provincia: Bucine
+Indirizzo: Pergine Valdarno (Arezzo), Località Poggiauto, 52019 Pergine Valdarno AR
+Coordinate: Lat 43.494898, Lng 11.687457
+Website: http://www.dimoredipoggianto.it/
+Email: 
+
+11354. Agriturismo Le Mura
+ID: c6998a14-11d4-46d2-b62f-97978a8d0c9e
+Slug: agriturismo-le-mura-bucine
+Nome: Agriturismo Le Mura
+Comune / Provincia: Bucine
+Indirizzo: località Le Mura, 31, 52021 Bucine AR
+Coordinate: Lat 43.456986, Lng 11.593344
+Website: http://www.agrilemura.it/
+Email: 
+
+11355. Agriturismo Podere Luisa
+ID: 46895282-a272-4180-83b7-9d0200df7948
+Slug: agriturismo-podere-luisa-bucine
+Nome: Agriturismo Podere Luisa
+Comune / Provincia: Bucine
+Indirizzo: Via Di Rendola, 152, 52025 Montevarchi AR
+Coordinate: Lat 43.492148, Lng 11.552642
+Website: http://www.podereluisa.it/
+Email: 
+
+11356. Agriturismo Relais Campiglioni
+ID: f8646e67-ac10-42a0-8daa-cf3429685234
+Slug: agriturismo-relais-campiglioni-bucine
+Nome: Agriturismo Relais Campiglioni
+Comune / Provincia: Bucine
+Indirizzo: Via Campiglioni Le Selici, 31, 52025 Montevarchi AR
+Coordinate: Lat 43.495107, Lng 11.549038
+Website: http://www.campiglioni.it/
+Email: 
+
+11357. Agriturismo Tenuta Lupinari
+ID: 423a1633-7caa-485b-a24a-db7ba67378fa
+Slug: agriturismo-tenuta-lupinari-bucine
+Nome: Agriturismo Tenuta Lupinari
+Comune / Provincia: Bucine
+Indirizzo: Località i Lupinari, 52021 Bucine AR
+Coordinate: Lat 43.449398, Lng 11.592078
+Website: https://www.lupinari.com/
+Email: 
+
+11358. Agriturismo Tontenano
+ID: 8ff5e6f3-e4ba-49ca-91d8-87dbcc4a1b52
+Slug: agriturismo-tontenano-bucine
+Nome: Agriturismo Tontenano
+Comune / Provincia: Bucine
+Indirizzo: Tontenano, 52021 Bucine AR
+Coordinate: Lat 43.462863, Lng 11.593502
+Website: https://www.agriturismotontenano.com/
+Email: 
+
+11359. Agriturismo Villa Le Vigne
+ID: 71989f0c-28fa-456f-b07c-aa876cd00afe
+Slug: agriturismo-villa-le-vigne-bucine
+Nome: Agriturismo Villa Le Vigne
+Comune / Provincia: Bucine
+Indirizzo: Via di Caposelvi, 178, 52025 Montevarchi AR
+Coordinate: Lat 43.497685, Lng 11.59094
+Website: http://www.villalevigne.it/
+Email: 
+
+11360. Belvedere
+ID: 76d4d00d-7b33-4608-ac9c-235d279135e6
+Slug: belvedere-bucine
+Nome: Belvedere
+Comune / Provincia: Bucine
+Indirizzo: Località Frosini, 14, 52020 Bucine AR
+Coordinate: Lat 43.472657, Lng 11.617692
+Website: —
+Email: 
+
+11361. BnB Casa le Rondini Toscana
+ID: c25e71fd-dfb0-4239-aef3-575c7820fa3b
+Slug: bnb-casa-le-rondini-toscana-bucine
+Nome: BnB Casa le Rondini Toscana
+Comune / Provincia: Bucine
+Indirizzo: Localita Migliarina, 109, 52021 Bucine AR
+Coordinate: Lat 43.489271, Lng 11.631181
+Website: https://www.casalerondinitoscana.com/
+Email: 
+
+11362. Chianti La Collina
+ID: a5595e73-60db-4476-bc02-8b4eae6c2cdd
+Slug: chianti-la-collina-bucine
+Nome: Chianti La Collina
+Comune / Provincia: Bucine
+Indirizzo: Vepri, 52021 Bucine AR
+Coordinate: Lat 43.436101, Lng 11.607147
+Website: http://www.chiantilacollina.it/
+Email: 
+
+11363. FATTORIA CASABIANCA di Liquori Aldo
+ID: f28c6403-e680-4b22-a113-25033a7a4b1c
+Slug: fattoria-casabianca-di-liquori-aldo-bucine
+Nome: FATTORIA CASABIANCA di Liquori Aldo
+Comune / Provincia: Bucine
+Indirizzo: Località Frosini, 14, 52021 Bucine AR
+Coordinate: Lat 43.472767, Lng 11.618745
+Website: http://www.fattoria-casabianca.it/
+Email: 
+
+11364. Hotel Delta
+ID: deff7611-84aa-4954-b12c-551124fd3de8
+Slug: hotel-delta-bucine
+Nome: Hotel Delta
+Comune / Provincia: Bucine
+Indirizzo: Via G. Puccini, 30, 52025 Montevarchi AR
+Coordinate: Lat 43.528268, Lng 11.566674
+Website: https://www.hoteldelta.it/
+Email: 
+
+11365. I Salici Agriturismo
+ID: 0573e30d-4247-4738-a750-72dede71fd0e
+Slug: i-salici-agriturismo-bucine
+Nome: I Salici Agriturismo
+Comune / Provincia: Bucine
+Indirizzo: via presciano, 17, 52020 Pergine Valdarno AR
+Coordinate: Lat 43.439865, Lng 11.660738
+Website: https://isaliciagriturismo.com/
+Email: 
+
+11366. Poggio Ugo
+ID: 39f101a0-5b6b-4ac2-98a8-4f4ab67ec194
+Slug: poggio-ugo-bucine
+Nome: Poggio Ugo
+Comune / Provincia: Bucine
+Indirizzo: Via per Cennina, 12, 52021 Bucine AR
+Coordinate: Lat 43.443576, Lng 11.600931
+Website: http://www.poggiougo.it/
+Email: 
+
+11367. Relais La Martina
+ID: 639c1058-5317-49d3-86c8-371903fe140e
+Slug: relais-la-martina-bucine
+Nome: Relais La Martina
+Comune / Provincia: Bucine
+Indirizzo: Loc. Ripaltella, 52021 Pietraviva AR
+Coordinate: Lat 43.387148, Lng 11.561411
+Website: http://www.relaislamartina.it/
+Email: 
+
+11368. Salceta, a Tuscany Country House
+ID: a3f9d591-cafa-42a3-ad08-3903fde6bbc4
+Slug: salceta-a-tuscany-country-house-bucine
+Nome: Salceta, a Tuscany Country House
+Comune / Provincia: Bucine
+Indirizzo: Via Pian di Chena, 2, 52028 Campogialli AR
+Coordinate: Lat 43.52988, Lng 11.666709
+Website: http://www.salcetatuscanyhouse.com/
+Email: 
+
+11369. Vepri B4
+ID: 5ff992b5-25ea-4247-a07c-54bf40512389
+Slug: vepri-b4-bucine
+Nome: Vepri B4
+Comune / Provincia: Bucine
+Indirizzo: Strada Comunale D'ambra B4 Bucine, 52021 Bucine AR
+Coordinate: Lat 43.432279, Lng 11.607111
+Website: http://vepri-b4.alloggiotoscana.it/
+Email: 
+
+11370. Villa di Capannole
+ID: 86263b53-76ea-4e3e-b6a9-233928d1c9ca
+Slug: villa-di-capannole-bucine
+Nome: Villa di Capannole
+Comune / Provincia: Bucine
+Indirizzo: 23, Località, 52021 Bucine AR
+Coordinate: Lat 43.462056, Lng 11.593199
+Website: —
+Email: 
+
+11371. Villa Petrea
+ID: bd25e1b1-b9fd-47d2-a21f-7f6c909a1c54
+Slug: villa-petrea-bucine
+Nome: Villa Petrea
+Comune / Provincia: Bucine
+Indirizzo: Via S. Donato, 3, 52021 Bucine AR
+Coordinate: Lat 43.470938, Lng 11.620905
+Website: http://villapetrea.it/
+Email: 
+
+11372. Agriturismo F.lli Muzzu
+ID: 707a6731-2c6c-4e6a-b574-47de28bfc75d
+Slug: agriturismo-f-lli-muzzu-buddus
+Nome: Agriturismo F.lli Muzzu
+Comune / Provincia: Buddus�
+Indirizzo: Via A. Moro, 6, 07020 Sa Serra SS
+Coordinate: Lat 40.702627, Lng 9.474755
+Website: https://www.agriturismomuzzuolbia.com/
+Email: 
+
+11373. AGRITURISMO MURGIA
+ID: 925cad92-774a-4f87-9a17-0443109f8796
+Slug: agriturismo-murgia-buddus
+Nome: AGRITURISMO MURGIA
+Comune / Provincia: Buddus�
+Indirizzo: 07020 Su Tirialzu OT
+Coordinate: Lat 40.720202, Lng 9.474986
+Website: —
+Email: 
+
+11374. Sa Corte Nova
+ID: f989064e-538a-4c55-ad09-d5dc8fcfe78b
+Slug: sa-corte-nova-buddus
+Nome: Sa Corte Nova
+Comune / Provincia: Buddus�
+Indirizzo: Via Karl Marx, 10, 08020 Lula NU
+Coordinate: Lat 40.469231, Lng 9.48512
+Website: http://www.sacortenova-it.it/
+Email: 
+
+11375. Agriturismo al Ranch
+ID: 802c11e1-0d4b-4f62-9188-5abab4c46e53
+Slug: agriturismo-al-ranch-budoia
+Nome: Agriturismo al Ranch
+Comune / Provincia: Budoia
+Indirizzo: Via Pedemontana Occidentale, 40, 33070 Budoia PN
+Coordinate: Lat 46.053524, Lng 12.547409
+Website: http://www.agriturismoalranch.it/
+Email: 

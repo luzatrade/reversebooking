@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+14876. i Santuzzi BeB
+ID: 9ae038d4-44f7-4131-892a-8f89c79672ba
+Slug: i-santuzzi-beb-carlentini
+Nome: i Santuzzi BeB
+Comune / Provincia: Carlentini
+Indirizzo: V. Antonio Gramsci, 52, 96013 Carlentini Nord SR
+Coordinate: Lat 37.295975, Lng 15.007839
+Website: http://www.isantuzzi.com/
+Email: 
+
+14877. Il Giardino del Sole
+ID: 65c8ed15-a8d2-40d6-8173-9d1d2298207f
+Slug: il-giardino-del-sole-carlentini
+Nome: Il Giardino del Sole
+Comune / Provincia: Carlentini
+Indirizzo: Contrada San Demetrio, sn, 96013 Carlentini SR
+Coordinate: Lat 37.349659, Lng 15.042506
+Website: http://www.ilgiardinodelsole.it/
+Email: 
+
+14878. La Terrazza di Cirico'
+ID: 32d34b7a-176d-4f19-be40-3ae7518f7f08
+Slug: la-terrazza-di-cirico-carlentini
+Nome: La Terrazza di Cirico'
+Comune / Provincia: Carlentini
+Indirizzo: Contrada "Ciricò, snc, 96013 Carlentini SR
+Coordinate: Lat 37.273311, Lng 14.992668
+Website: https://laterrazzadicirico.com/
+Email: 
+
+14879. Le Terre Di San Domenico
+ID: 0b7556b7-4403-465f-ab60-93db48c82548
+Slug: le-terre-di-san-domenico-carlentini
+Nome: Le Terre Di San Domenico
+Comune / Provincia: Carlentini
+Indirizzo: contrada san domenico sp.57 km 4 Carlentini, 96010 Brucoli SR
+Coordinate: Lat 37.273002, Lng 15.079846
+Website: —
+Email: 
+
+14880. Villa Rea Comfort & Relax
+ID: ff7df23c-5758-41c0-be6e-e6c6ded49770
+Slug: villa-rea-comfort-relax-carlentini
+Nome: Villa Rea Comfort & Relax
+Comune / Provincia: Carlentini
+Indirizzo: Via Padre Luciano Aletta, 6, 96013 Carlentini SR
+Coordinate: Lat 37.267898, Lng 15.005764
+Website: —
+Email: 
+
+14881. Villa Sant'Antonio
+ID: 67ba04fd-214e-4633-92dc-716898d0c394
+Slug: villa-sant-antonio-carlentini
+Nome: Villa Sant'Antonio
+Comune / Provincia: Carlentini
+Indirizzo: 96011 Augusta SR
+Coordinate: Lat 37.262569, Lng 15.158157
+Website: https://sant-antonio.bedsandhotels.com/
+Email: 
+
+14882. Agriturismo I Guardiani
+ID: 07c288f4-5215-4686-9920-0caf6c9fa420
+Slug: agriturismo-i-guardiani-carlino
+Nome: Agriturismo I Guardiani
+Comune / Provincia: Carlino
+Indirizzo: Via Levaduzza, 30, 33050 Carlino UD
+Coordinate: Lat 45.809437, Lng 13.186022
+Website: http://www.iguardiani.it/
+Email: 
+
+14883. Agriturismo il Picchio - Az.vinicola CASALI AURELIA
+ID: 4c81036e-a108-4f2e-902b-1a908a2febd7
+Slug: agriturismo-il-picchio-az-vinicola-casali-aureli-carlino
+Nome: Agriturismo il Picchio - Az.vinicola CASALI AURELIA
+Comune / Provincia: Carlino
+Indirizzo: Via Nazionale, 3, 33050 Castions di Strada UD
+Coordinate: Lat 45.828055, Lng 13.164879
+Website: http://www.agriturismoilpicchio.it/
+Email: 
+
+14884. Alla Posta - Albergo - Camere - Affittacamere
+ID: 26e00473-fc2a-48d6-9308-4b3d1ffc7adf
+Slug: alla-posta-albergo-camere-affittacamere-carlino
+Nome: Alla Posta - Albergo - Camere - Affittacamere
+Comune / Provincia: Carlino
+Indirizzo: Via Roma, 30, 33058 San Giorgio di Nogaro UD
+Coordinate: Lat 45.831962, Lng 13.20929
+Website: http://www.allapostabeb.com/
+Email: 
+
+14885. Hotel Adria
+ID: 8c861d0a-2553-4529-8ac1-1cce5cea91e2
+Slug: hotel-adria-carlino
+Nome: Hotel Adria
+Comune / Provincia: Carlino
+Indirizzo: Viale Centrale, 23, 33054 Lignano Sabbiadoro UD
+Coordinate: Lat 45.68559, Lng 13.135193
+Website: http://www.adrialignano.it/
+Email: 
+
+14886. Hotel Ambra (FRONTE MARE)
+ID: 4e08658a-3f2b-4dee-8eb7-dc2c74d11e76
+Slug: hotel-ambra-fronte-mare-carlino
+Nome: Hotel Ambra (FRONTE MARE)
+Comune / Provincia: Carlino
+Indirizzo: Lungomare Trieste, 124/A, 33054 Lignano Sabbiadoro UD
+Coordinate: Lat 45.684726, Lng 13.137775
+Website: https://www.hotelambralignano.com/
+Email: 
+
+14887. Hotel Castiglione
+ID: 57f9fdb7-1453-401a-a79d-f3d5c676d17c
+Slug: hotel-castiglione-carlino
+Nome: Hotel Castiglione
+Comune / Provincia: Carlino
+Indirizzo: Lungomare Trieste, 126, 33054 Lignano Sabbiadoro UD
+Coordinate: Lat 45.68507, Lng 13.13757
+Website: https://www.castiglionehotel.it/
+Email: 
+
+14888. Hotel Elvia
+ID: 6701bb3e-ed6a-42f8-8a6a-2e93babe3474
+Slug: hotel-elvia-carlino
+Nome: Hotel Elvia
+Comune / Provincia: Carlino
+Indirizzo: Via Miramare, 2, 33054 Lignano Sabbiadoro UD
+Coordinate: Lat 45.688017, Lng 13.135781
+Website: http://www.hotelelvia.it/
+Email: 
+
+14889. Hotel Italia Palace
+ID: 7fc6ff1e-0d76-4c40-b977-b729097afa6a
+Slug: hotel-italia-palace-carlino
+Nome: Hotel Italia Palace
+Comune / Provincia: Carlino
+Indirizzo: Viale Italia, 7, 33054 Lignano Sabbiadoro UD
+Coordinate: Lat 45.692713, Lng 13.148586
+Website: http://www.hotelitaliapalace.it/
+Email: 
+
+14890. Hotel Miramare
+ID: 9ccaa9e5-d0ea-48f5-9d69-f01139660fc2
+Slug: hotel-miramare-carlino
+Nome: Hotel Miramare
+Comune / Provincia: Carlino
+Indirizzo: Via Aquileia, 49, 33054 Lignano Sabbiadoro UD
+Coordinate: Lat 45.688547, Lng 13.143333
+Website: http://www.miramare.com/
+Email: 
+
+14891. Hotel Regina
+ID: fd05a7e0-defd-485d-8d79-a8d888141db8
+Slug: hotel-regina-carlino
+Nome: Hotel Regina
+Comune / Provincia: Carlino
+Indirizzo: Via Lilienfeld, 4, 33054 Lignano Sabbiadoro UD
+Coordinate: Lat 45.684975, Lng 13.134355
+Website: https://www.hotelreginalignano.it/
+Email: 
+
+14892. Hotel Trieste
+ID: f76ceb82-aee1-46c3-9c0d-dcb4908d03e3
+Slug: hotel-trieste-carlino
+Nome: Hotel Trieste
+Comune / Provincia: Carlino
+Indirizzo: Via Terza Armata, 40, 33058 San Giorgio di Nogaro UD
+Coordinate: Lat 45.8348, Lng 13.193854
+Website: http://www.hoteltrieste.biz/
+Email: 
+
+14893. Hotel Villa Franca
+ID: f9807164-cebc-426b-8423-ba68f9f116c2
+Slug: hotel-villa-franca-carlino
+Nome: Hotel Villa Franca
+Comune / Provincia: Carlino
+Indirizzo: Lungomare Trieste, 118, 33054 Lignano Sabbiadoro UD
+Coordinate: Lat 45.68538, Lng 13.138984
+Website: https://www.hotelvillafranca.it/
+Email: 
+
+14894. JO Hotel Wellness & Spa
+ID: b2e0d00c-ba4e-462a-b50a-ee12d9800ce2
+Slug: jo-hotel-wellness-spa-carlino
+Nome: JO Hotel Wellness & Spa
+Comune / Provincia: Carlino
+Indirizzo: Via Udine, 7/9, 33050 Marano Lagunare UD
+Coordinate: Lat 45.766267, Lng 13.167865
+Website: https://www.johotel.it/
+Email: 
+
+14895. Pensione Imperia
+ID: 89825011-ef90-4aeb-8e71-76c087abd6e6
+Slug: pensione-imperia-carlino
+Nome: Pensione Imperia
+Comune / Provincia: Carlino
+Indirizzo: Viale dei Platani, 80, 33054 Lignano Sabbiadoro UD
+Coordinate: Lat 45.690976, Lng 13.13824
+Website: http://www.pensioneimperia.it/
+Email: 
+
+14896. AQUAMADRE Suites
+ID: cec5aa41-723e-4961-984d-3104d9799e9d
+Slug: aquamadre-suites-carloforte
+Nome: AQUAMADRE Suites
+Comune / Provincia: Carloforte
+Indirizzo: Via Armando Diaz, 34, 09014 Carloforte CI
+Coordinate: Lat 39.142383, Lng 8.30643
+Website: https://carlofortesuites.kross.travel/
+Email: 
+
+14897. B&B Mencin
+ID: 5bbb5ab7-70f7-4af9-8501-9015c830a1a1
+Slug: b-b-mencin-carloforte
+Nome: B&B Mencin
+Comune / Provincia: Carloforte
+Indirizzo: Via Porta Leone, 24, 09014 Carloforte CI
+Coordinate: Lat 39.147555, Lng 8.306899
+Website: —
+Email: 
+
+14898. Domo Cicindela Boutique Rooms Centro Carloforte
+ID: 5ee5dc56-7505-4e0b-b2e9-14181c4c225f
+Slug: domo-cicindela-boutique-rooms-centro-carloforte-carloforte
+Nome: Domo Cicindela Boutique Rooms Centro Carloforte
+Comune / Provincia: Carloforte
+Indirizzo: Piazza Carlo Emanuele III, 17, 09014 Carloforte CI
+Coordinate: Lat 39.145211, Lng 8.307239
+Website: https://domocicindela.it/
+Email: 
+
+14899. Garden Rooms
+ID: 7a32ab8c-3478-4b1c-b99f-2264d7877482
+Slug: garden-rooms-carloforte
+Nome: Garden Rooms
+Comune / Provincia: Carloforte
+Indirizzo: Strada Provinciale 102, Km 2/3, 09014 Carloforte CI
+Coordinate: Lat 39.123345, Lng 8.291804
+Website: https://gardenroomscarloforte.top/
+Email: 
+
+14900. Guardia dei Mori
+ID: 59e5e973-e671-4713-85c6-7770d53a95ec
+Slug: guardia-dei-mori-carloforte
+Nome: Guardia dei Mori
+Comune / Provincia: Carloforte
+Indirizzo: Localita' Nassetta, 09014 Carloforte CI
+Coordinate: Lat 39.157538, Lng 8.29058
+Website: —
+Email: 
+
+14901. Hotel California
+ID: 0a5457de-3441-4f9c-ab36-023fa332637f
+Slug: hotel-california-carloforte
+Nome: Hotel California
+Comune / Provincia: Carloforte
+Indirizzo: Via Giuseppe Cavallera, 15, 09014 Carloforte CI
+Coordinate: Lat 39.142212, Lng 8.302979
+Website: https://www.hotelcaliforniacarloforte.com/
+Email: 
+
+14902. Hotel Galman
+ID: e8be2d6a-2d05-40bd-8677-dbcf03c40e57
+Slug: hotel-galman-carloforte
+Nome: Hotel Galman
+Comune / Provincia: Carloforte
+Indirizzo: località Bellavista, 09014 Carloforte CI
+Coordinate: Lat 39.109032, Lng 8.282239
+Website: http://www.hotelgalman.it/
+Email: 
+
+14903. Hotel Hieracon
+ID: d7baf299-807a-4246-b90e-b4edf3e426ad
+Slug: hotel-hieracon-carloforte
+Nome: Hotel Hieracon
+Comune / Provincia: Carloforte
+Indirizzo: Corso C. Cavour, 62, 09014 Carloforte CI
+Coordinate: Lat 39.147839, Lng 8.308726
+Website: http://www.hotelhieracon.com/
+Email: 
+
+14904. Hotel Lido degli Spagnoli
+ID: 62065875-b9d2-47bf-bbee-759912e0cbab
+Slug: hotel-lido-degli-spagnoli-carloforte
+Nome: Hotel Lido degli Spagnoli
+Comune / Provincia: Carloforte
+Indirizzo: Viale Adriatico, 32, 09010 Portoscuso CI
+Coordinate: Lat 39.211167, Lng 8.37154
+Website: https://www.lidodeglispagnoli.com/
+Email: 
+
+14905. Hotel Villa Pimpina
+ID: 42f7aeff-da7f-495e-8d21-8a5d9749a1da
+Slug: hotel-villa-pimpina-carloforte
+Nome: Hotel Villa Pimpina
+Comune / Provincia: Carloforte
+Indirizzo: Via Genova, 106/108, 09014 Carloforte CI
+Coordinate: Lat 39.146121, Lng 8.305076
+Website: https://www.villapimpina.it/
+Email: 
+
+14906. Le Saline Suites
+ID: 22e6c06d-a750-49ab-90b5-f1ec21877d76
+Slug: le-saline-suites-carloforte
+Nome: Le Saline Suites
+Comune / Provincia: Carloforte
+Indirizzo: Via Berlinguer, 12, 09014 Carloforte CI
+Coordinate: Lat 39.140871, Lng 8.303505
+Website: https://carlofortesuites.kross.travel/
+Email: 
+
+14907. Lu' Hotel Carloforte
+ID: 4aa4eb36-0218-4d5c-8e2c-0985a44f0d5b
+Slug: lu-hotel-carloforte-carloforte
+Nome: Lu' Hotel Carloforte
+Comune / Provincia: Carloforte
+Indirizzo: Corso Battellieri, 26, 09014 Carloforte CI
+Coordinate: Lat 39.143208, Lng 8.307261
+Website: https://www.luhotel-riviera.it/
+Email: 
+
+14908. Nichotel
+ID: fa26ff86-eccc-439e-9090-ce0dc8b3faf1
+Slug: nichotel-carloforte
+Nome: Nichotel
+Comune / Provincia: Carloforte
+Indirizzo: Via Garibaldi, 7, 09014 Carloforte CI
+Coordinate: Lat 39.145841, Lng 8.307353
+Website: http://www.nichotel.it/
+Email: 
+
+14909. Panoramic Studio Carloforte
+ID: 6ad9d630-1d27-43b3-a2cc-589bf790964c
+Slug: panoramic-studio-carloforte-carloforte
+Nome: Panoramic Studio Carloforte
+Comune / Provincia: Carloforte
+Indirizzo: Via Enrico Berlinguer, 14, 09014 Carloforte CI
+Coordinate: Lat 39.140925, Lng 8.30356
+Website: https://carlofortesuites.kross.travel/
+Email: 
+
+14910. Residenza Cuntin Carloforte
+ID: 9074fd53-8207-4941-b32f-342d5a0634ee
+Slug: residenza-cuntin-carloforte-carloforte
+Nome: Residenza Cuntin Carloforte
+Comune / Provincia: Carloforte
+Indirizzo: Via Cesare Battisti, 11, 09014 Carloforte CI
+Coordinate: Lat 39.143161, Lng 8.304885
+Website: http://www.residenzacuntin.it/
+Email: 

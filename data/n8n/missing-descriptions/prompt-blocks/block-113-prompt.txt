@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+3921. Casa Zelia
+ID: 740b805c-bb30-4e39-9ca1-b50632c0339c
+Slug: casa-zelia-apollosa
+Nome: Casa Zelia
+Comune / Provincia: Apollosa
+Indirizzo: Via Giovanni della Casa, 20, 82100 Benevento BN
+Coordinate: Lat 41.13656, Lng 14.771167
+Website: http://casa-zelia.com.es/
+Email: 
+
+3922. Dimora del Duomo
+ID: 0300dd89-e002-49d8-bbf0-8bbaf8a0a19a
+Slug: dimora-del-duomo-apollosa
+Nome: Dimora del Duomo
+Comune / Provincia: Apollosa
+Indirizzo: Via Carlo Torre, 2, 82100 Benevento BN
+Coordinate: Lat 41.13198, Lng 14.77413
+Website: https://directreservation.eu/bb-dimora-del-duomo-benevento
+Email: 
+
+3923. Gaya resort
+ID: 87abdd45-5b13-424e-8fc8-4fcedae2508b
+Slug: gaya-resort-apollosa
+Nome: Gaya resort
+Comune / Provincia: Apollosa
+Indirizzo: Via Ennio Goduti, 10, 82100 Benevento BN
+Coordinate: Lat 41.132084, Lng 14.775298
+Website: https://www.allogi-campania.it/gaya-resort/
+Email: 
+
+3924. Hotel Costarama Di Caporaso Luigi
+ID: e1d4e487-f85e-4e81-b35e-1b7eccd6b16e
+Slug: hotel-costarama-di-caporaso-luigi-apollosa
+Nome: Hotel Costarama Di Caporaso Luigi
+Comune / Provincia: Apollosa
+Indirizzo: Loc. Costa Rama, 82030 Cautano BN
+Coordinate: Lat 41.132633, Lng 14.640181
+Website: https://hotel-costarama-caporaso-di-luigi.hotelpreferito.top/
+Email: 
+
+3925. Hotel Ristorante Il Castello
+ID: 92dae736-9b9e-49ac-a4e1-054454017738
+Slug: hotel-ristorante-il-castello-apollosa
+Nome: Hotel Ristorante Il Castello
+Comune / Provincia: Apollosa
+Indirizzo: Via Vitulanese, 188, 82016 Montesarchio BN
+Coordinate: Lat 41.066802, Lng 14.646628
+Website: https://hotel-il-castello-srl.migliorhotel.top/
+Email: 
+
+3926. Janara - Santa Sofia
+ID: 231f95f2-bfbb-43e9-9a97-5b0323a2a2a7
+Slug: janara-santa-sofia-apollosa
+Nome: Janara - Santa Sofia
+Comune / Provincia: Apollosa
+Indirizzo: Via Annunziata, 48, 82100 Benevento BN
+Coordinate: Lat 41.129152, Lng 14.781574
+Website: https://www.janara.net/
+Email: 
+
+3927. Parva Vinea
+ID: 9e4b6a13-1a41-4a3b-803d-773e07cfb15c
+Slug: parva-vinea-apollosa
+Nome: Parva Vinea
+Comune / Provincia: Apollosa
+Indirizzo: Via Filippo Serino, 26, 82100 Benevento BN
+Coordinate: Lat 41.116787, Lng 14.789898
+Website: http://www.parvavinea.it/
+Email: 
+
+3928. Relais Il Feudo
+ID: 6cd9c45c-a481-4b9c-973c-f768a419b3ad
+Slug: relais-il-feudo-apollosa
+Nome: Relais Il Feudo
+Comune / Provincia: Apollosa
+Indirizzo: Via Trocchia, 82010 Trocchia BN
+Coordinate: Lat 41.070923, Lng 14.740833
+Website: http://www.relaisilfeudo.com/
+Email: 
+
+3929. Traiano Rooms
+ID: 95780bef-c4c0-4b43-a0f7-d891874d7eec
+Slug: traiano-rooms-apollosa
+Nome: Traiano Rooms
+Comune / Provincia: Apollosa
+Indirizzo: Via Cupa Santa Lucia, 66, 82100 Benevento BN
+Coordinate: Lat 41.132751, Lng 14.781791
+Website: https://www.booking.com/hotel/it/traiano-rooms.it.html?label=gen173nr-10CAsocUINdHJhaWFuby1yb29tc0gzWARocYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCxc-HyQbAAgHSAiQ5ZWMyODNmNy1kMWIzLTRlNzAtYmI2Yy00NGU2Y2Y4NzM4ZTbYAgHgAgE&sid=727384532eb10a746664ba5d2d80a97b&dist=0&keep_landing=1&sb_price_type=total&type=total&
+Email: 
+
+3930. Albergo La Collina
+ID: c23bf7d0-7316-4452-84cf-6c2d954bad99
+Slug: albergo-la-collina-appiano-gentile
+Nome: Albergo La Collina
+Comune / Provincia: Appiano Gentile
+Indirizzo: Via S. Elia, 5, 22070 Casnate con Bernate CO
+Coordinate: Lat 45.751372, Lng 9.068733
+Website: http://www.albergolacollinacomo.it/
+Email: 
+
+3931. B&B La Darsena
+ID: 0dcabae6-d809-4541-b29b-fc5ea9a17444
+Slug: b-b-la-darsena-appiano-gentile
+Nome: B&B La Darsena
+Comune / Provincia: Appiano Gentile
+Indirizzo: Piazza Roma, 14, 22100 Como CO
+Coordinate: Lat 45.813795, Lng 9.083762
+Website: https://www.bed-and-breakfast.it/it/booking/lombardia/la-darsena-como/7248?utm_source=google&hotelid=6104&checkin=2024-03-01&checkout=2024-03-03&ospiti=2&roomid=31436
+Email: 
+
+3932. B&B Le Palme
+ID: 8fa8ead7-6ee5-41b3-92f5-9eb9270d4d5c
+Slug: b-b-le-palme-appiano-gentile
+Nome: B&B Le Palme
+Comune / Provincia: Appiano Gentile
+Indirizzo: Via Ferloni, 33, 22070 Bulgarograsso CO
+Coordinate: Lat 45.754208, Lng 9.007894
+Website: http://www.bblepalme33.it/
+Email: 
+
+3933. Bed & Breakfast Indi Thelar
+ID: 3e102e67-dea9-4d42-be45-f9aff846a4fb
+Slug: bed-breakfast-indi-thelar-appiano-gentile
+Nome: Bed & Breakfast Indi Thelar
+Comune / Provincia: Appiano Gentile
+Indirizzo: Via San Francesco d'Assisi, 40, 22079 Villa Guardia CO
+Coordinate: Lat 45.781048, Lng 9.032769
+Website: https://www.booking.com/hotel/it/hindi-thelar.it.html?label=gen173nr-1DCAsocUIMaGluZGktdGhlbGFySBRYBGhxiAEBmAEUuAEYyAEM2AED6AEB-AEDiAIBqAIEuAKJm4bnBcACAQ;sid=d073b422dd9ec26fa81b4dd194ae679a;dist=0&keep_landing=1&sb_price_type=total&type=total&
+Email: 
+
+3934. Convo Al Lago
+ID: 0790a1d3-689a-4b49-89f6-b18dae192236
+Slug: convo-al-lago-appiano-gentile
+Nome: Convo Al Lago
+Comune / Provincia: Appiano Gentile
+Indirizzo: Via Benedetto e Antonio Maria Crespi, 4, 22100 Como CO
+Coordinate: Lat 45.815402, Lng 9.084063
+Website: https://hotels.cloudbeds.com/reservation/7tvNmb
+Email: 
+
+3935. Dreamhotel
+ID: 2370186a-0c7e-432e-bfc8-0998047adab6
+Slug: dreamhotel-appiano-gentile
+Nome: Dreamhotel
+Comune / Provincia: Appiano Gentile
+Indirizzo: Via Vignetta, 22070 Appiano Gentile CO
+Coordinate: Lat 45.734233, Lng 8.990137
+Website: http://www.dreamhotelcomo.com/
+Email: 
+
+3936. Hotel Cruise
+ID: 2579e712-6413-47ed-a51c-7028ee91c381
+Slug: hotel-cruise-appiano-gentile
+Nome: Hotel Cruise
+Comune / Provincia: Appiano Gentile
+Indirizzo: Via Carducci, 3, 22070 Montano Lucino CO
+Coordinate: Lat 45.783115, Lng 9.04865
+Website: http://www.hotelcruise.it/
+Email: 
+
+3937. Hotel delle Fiere
+ID: 796faf6e-2822-44b0-a16c-cc06b313027b
+Slug: hotel-delle-fiere-appiano-gentile
+Nome: Hotel delle Fiere
+Comune / Provincia: Appiano Gentile
+Indirizzo: Via Trieste, Via Piccinelli, 29, 22076 Mozzate CO
+Coordinate: Lat 45.682607, Lng 8.951246
+Website: http://www.hoteldellefiere.com/
+Email: 
+
+3938. Hotel ibis Como - Grandate
+ID: 9d61776d-516b-4b58-a79d-86688c5ce16c
+Slug: hotel-ibis-como-grandate-appiano-gentile
+Nome: Hotel ibis Como - Grandate
+Comune / Provincia: Appiano Gentile
+Indirizzo: Via Tornese, 7, 22070 Grandate CO
+Coordinate: Lat 45.764871, Lng 9.056527
+Website: https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=5604&merchantid=seo-maps-IT-5604&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps
+Email: 
+
+3939. Hotel Ristorante Marinoni
+ID: ca57ca08-bee1-4b01-b539-44c8fc0a44da
+Slug: hotel-ristorante-marinoni-appiano-gentile
+Nome: Hotel Ristorante Marinoni
+Comune / Provincia: Appiano Gentile
+Indirizzo: Via Cavour, 3, 22074 Lomazzo CO
+Coordinate: Lat 45.697688, Lng 9.03635
+Website: http://www.hotelmarinoni.it/
+Email: 
+
+3940. Hotel RossoVino
+ID: 3e5e6857-2bc7-46ba-8edb-1e2a4ab6d789
+Slug: hotel-rossovino-appiano-gentile
+Nome: Hotel RossoVino
+Comune / Provincia: Appiano Gentile
+Indirizzo: V.le Risorgimento, 18/A, 22100 Como CO
+Coordinate: Lat 45.792447, Lng 9.065999
+Website: http://www.hotelrossovino.it/
+Email: 
+
+3941. Il Faggio Rosso
+ID: f8e5066c-b901-4000-ae0a-1a0d33659a2c
+Slug: il-faggio-rosso-appiano-gentile
+Nome: Il Faggio Rosso
+Comune / Provincia: Appiano Gentile
+Indirizzo: Via Petagna, 22A, 22070 Appiano Gentile CO
+Coordinate: Lat 45.733978, Lng 8.98653
+Website: https://myhotelinspect.com/il-faggio-rosso-appiano-gentile-italy
+Email: 
+
+3942. Just Hotel Lomazzo
+ID: aca3e5a1-a6e2-4a19-b4a5-e84c6ac03a3e
+Slug: just-hotel-lomazzo-appiano-gentile
+Nome: Just Hotel Lomazzo
+Comune / Provincia: Appiano Gentile
+Indirizzo: Via Ceresio, 49, 22074 Lomazzo CO
+Coordinate: Lat 45.7099, Lng 9.024958
+Website: https://www.justhotelgroup.it/just-hotel-lomazzo/
+Email: 
+
+3943. Saso’ - Casa di charme e relax
+ID: 39a536ef-7690-4b70-9685-38fd1371c866
+Slug: saso-casa-di-charme-e-relax-appiano-gentile
+Nome: Saso’ - Casa di charme e relax
+Comune / Provincia: Appiano Gentile
+Indirizzo: Via Sinigaglia, 33, 22075 Lurate Caccivio CO
+Coordinate: Lat 45.758326, Lng 8.987031
+Website: https://sasocasadicharmeerelax.holiduhost.com/
+Email: 
+
+3944. Victoria Rooms
+ID: f45b8218-6381-4f7f-a818-339d33ca5a4c
+Slug: victoria-rooms-appiano-gentile
+Nome: Victoria Rooms
+Comune / Provincia: Appiano Gentile
+Indirizzo: V.le Innocenzo XI, 75, 22100 Como CO
+Coordinate: Lat 45.805721, Lng 9.079955
+Website: https://www.booking.com/hotel/it/victoria-royal-garden-holiday-home.it.html
+Email: 
+
+3945. Villa Scalabrini Como
+ID: 51967427-32a0-47f6-94ef-76a2c0484f09
+Slug: villa-scalabrini-como-appiano-gentile
+Nome: Villa Scalabrini Como
+Comune / Provincia: Appiano Gentile
+Indirizzo: Via G. B. Scalabrini, 19, 22100 Como CO
+Coordinate: Lat 45.78763, Lng 9.082003
+Website: https://www.villascalabrinicomo.it/
+Email: 
+
+3946. Appiano Sulla Strada Del vino
+ID: 0dfdc0b6-3d77-4599-a276-9dee35661cea
+Slug: appiano-sulla-strada-del-vino-appiano-sulla-strada-del-vino-ep
+Nome: Appiano Sulla Strada Del vino
+Comune / Provincia: Appiano sulla strada del vino/Eppan an der Weinstra�e
+Indirizzo: 39057 Appiano Sulla Strada del Vino BZ
+Coordinate: Lat 46.455305, Lng 11.258686
+Website: —
+Email: 
+
+3947. APPIUS DESIGN SUITES - your place to enjoy
+ID: f91414b7-21e8-474d-87f0-5d8b5ef9a94b
+Slug: appius-design-suites-your-place-to-enjoy-appiano-sulla-strada-del-vino-ep
+Nome: APPIUS DESIGN SUITES - your place to enjoy
+Comune / Provincia: Appiano sulla strada del vino/Eppan an der Weinstra�e
+Indirizzo: Via delle Castagne, 10, 39057 Appiano sulla strada del vino BZ
+Coordinate: Lat 46.446722, Lng 11.258667
+Website: http://www.appius-suites.com/
+Email: 
+
+3948. Hotel Weinberg
+ID: a6c54a35-ad63-42c2-b55e-571a3e5c5890
+Slug: hotel-weinberg-appiano-sulla-strada-del-vino-ep
+Nome: Hotel Weinberg
+Comune / Provincia: Appiano sulla strada del vino/Eppan an der Weinstra�e
+Indirizzo: Via Luziafeld, 3, 39050 San Paolo BZ
+Coordinate: Lat 46.468277, Lng 11.26506
+Website: http://www.hotelweinberg.eu/
+Email: 
+
+3949. Kreuzstein - Bar - Bed&Breakfast
+ID: fa79b66c-4d6a-400e-a10f-f1311c66e81d
+Slug: kreuzstein-bar-bed-breakfast-appiano-sulla-strada-del-vino-ep
+Nome: Kreuzstein - Bar - Bed&Breakfast
+Comune / Provincia: Appiano sulla strada del vino/Eppan an der Weinstra�e
+Indirizzo: Bergweg, 60, 39057 Appiano sulla strada del vino BZ
+Coordinate: Lat 46.470646, Lng 11.242476
+Website: http://www.kreuzstein.com/de/allgemein/index/1-0.html?utm_source=google&utm_medium=organic&utm_campaign=google_mybusiness&utm_term=hotel
+Email: 
+
+3950. Agriturismo i Mori
+ID: 1d8b1bfa-5502-4f0a-9522-b91b4bda24f5
+Slug: agriturismo-i-mori-appignano
+Nome: Agriturismo i Mori
+Comune / Provincia: Appignano
+Indirizzo: Via Pettovallone, 1, 62011 Cingoli MC
+Coordinate: Lat 43.415057, Lng 13.265341
+Website: http://www.imori.net/
+Email: 
+
+3951. AGRITURISMO IL CONFINE - Treia - Marche
+ID: 290ae2fb-3836-4f3e-8947-09e630940ca1
+Slug: agriturismo-il-confine-treia-marche-appignano
+Nome: AGRITURISMO IL CONFINE - Treia - Marche
+Comune / Provincia: Appignano
+Indirizzo: Contrada Schito, 85A, 62010 Treia MC
+Coordinate: Lat 43.367577, Lng 13.318977
+Website: http://www.agriturismoilconfine.it/
+Email: 
+
+3952. Arcadia Hotel Macerata
+ID: f4376b31-d442-439d-a71d-06c701f2c48e
+Slug: arcadia-hotel-macerata-appignano
+Nome: Arcadia Hotel Macerata
+Comune / Provincia: Appignano
+Indirizzo: Via Padre Matteo Ricci, 134, 62100 Macerata MC
+Coordinate: Lat 43.299897, Lng 13.455226
+Website: http://www.arcadiahotelmacerata.it/
+Email: 
+
+3953. Best Western Hotel I Colli Macerata
+ID: 25d7cf77-ab36-4bd9-b976-a67637478409
+Slug: best-western-hotel-i-colli-macerata-appignano
+Nome: Best Western Hotel I Colli Macerata
+Comune / Provincia: Appignano
+Indirizzo: Via Roma, 151, 62100 Macerata MC
+Coordinate: Lat 43.295641, Lng 13.437502
+Website: http://www.hotelicolli.com/
+Email: 
+
+3954. Country House Binnella
+ID: f285d0e4-7249-4fe8-9913-6ebd40b7f359
+Slug: country-house-binnella-appignano
+Nome: Country House Binnella
+Comune / Provincia: Appignano
+Indirizzo: Via Saltregna, 3, 62011 Cingoli MC
+Coordinate: Lat 43.402776, Lng 13.293593
+Website: http://www.countryhousebinnella.com/
+Email: 
+
+3955. Domus San Giuliano
+ID: 98d1d94f-b19c-42f3-a528-1a47a5c5c57a
+Slug: domus-san-giuliano-appignano
+Nome: Domus San Giuliano
+Comune / Provincia: Appignano
+Indirizzo: Via Cincinelli, 4, 62100 Macerata MC
+Coordinate: Lat 43.292458, Lng 13.457915
+Website: http://www.domusmacerata.it/
+Email: 

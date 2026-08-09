@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+141. Bed and Breakfast Arcobaleno
+ID: c7f2c646-c38b-49c5-afe1-0567aca28cd1
+Slug: bed-and-breakfast-arcobaleno-acquaviva-platani
+Nome: Bed and Breakfast Arcobaleno
+Comune / Provincia: Acquaviva Platani
+Indirizzo: c.da santa cecilia, 92025 Casteltermini AG
+Coordinate: Lat 37.54296, Lng 13.675606
+Website: https://bbarcobaleno.altervista.org/bb-arcobaleno/
+Email: 
+
+142. Bio Resort Fontes Episcopi
+ID: 3c69a000-756b-4578-b2b0-4eba46fe7be9
+Slug: bio-resort-fontes-episcopi-acquaviva-platani
+Nome: Bio Resort Fontes Episcopi
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Contrada Fontes Episcopi, 92021 Aragona AG
+Coordinate: Lat 37.385375, Lng 13.618702
+Website: http://www.fontesepiscopi.it/
+Email: 
+
+143. Casa Paradiso - Ospitalità Diffusa
+ID: 19e00bcd-2b3f-4f4f-8c05-17963917c481
+Slug: casa-paradiso-ospitalita-diffusa-acquaviva-platani
+Nome: Casa Paradiso - Ospitalità Diffusa
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Via Carracchia di Sopra, 24, 90030 Castronovo di Sicilia PA
+Coordinate: Lat 37.676913, Lng 13.603022
+Website: http://casaparadiso.cloud/
+Email: 
+
+144. Casale Margherita
+ID: c98d1cf8-b2f6-4eff-b3f0-4c5d20c169bf
+Slug: casale-margherita-acquaviva-platani
+Nome: Casale Margherita
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Contrada Malandrino, 92022 Cammarata AG
+Coordinate: Lat 37.605972, Lng 13.683338
+Website: https://www.casalemargherita.eu/
+Email: 
+
+145. Halykos S.R.L.
+ID: 15e5a4a2-9c40-41ac-afd6-080044e08e5b
+Slug: halykos-s-r-l-acquaviva-platani
+Nome: Halykos S.R.L.
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Via Bonfiglio, 20, 92022 Cammarata AG
+Coordinate: Lat 37.629549, Lng 13.634905
+Website: http://www.hotelhalykos.com/
+Email: 
+
+146. Luna d'Arte
+ID: 543c6e5f-cff0-461f-ae03-047638f5aa2f
+Slug: luna-d-arte-acquaviva-platani
+Nome: Luna d'Arte
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Via Corsica, 9, 93014 Mussomeli CL
+Coordinate: Lat 37.584159, Lng 13.747954
+Website: —
+Email: 
+
+147. Manfredomus
+ID: 3b665bbf-d28f-40a7-bd6f-7a35d23f282d
+Slug: manfredomus-acquaviva-platani
+Nome: Manfredomus
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Viale del Castello, Snc, 93014 Mussomeli CL
+Coordinate: Lat 37.580048, Lng 13.770572
+Website: http://www.manfredomus.it/
+Email: 
+
+148. Musmelia Rooms
+ID: 20ec1813-a09f-47f2-944e-6815f5330b5f
+Slug: musmelia-rooms-acquaviva-platani
+Nome: Musmelia Rooms
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Piazza Umberto 1°, 26, 93014 Mussomeli CL
+Coordinate: Lat 37.579446, Lng 13.752167
+Website: http://www.bbmusmelia.it/
+Email: 
+
+149. Regalpetra Hotel
+ID: ba64dc92-c52c-43d0-a4be-e24a5f61ff27
+Slug: regalpetra-hotel-acquaviva-platani
+Nome: Regalpetra Hotel
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Via Garibaldi, 208, 92020 Racalmuto AG
+Coordinate: Lat 37.407972, Lng 13.733125
+Website: https://www.regalpetrahotel.it/
+Email: 
+
+150. Sorge Palace Room and Breakfast
+ID: 57fc49df-f89a-4e3f-b136-4d0006d455db
+Slug: sorge-palace-room-and-breakfast-acquaviva-platani
+Nome: Sorge Palace Room and Breakfast
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Via Andrea Chiaramonte, 20, 93014 Mussomeli CL
+Coordinate: Lat 37.578993, Lng 13.752526
+Website: http://www.sorgepalace.it/
+Email: 
+
+151. Susafa | A Member of Small Luxury Hotels of the World
+ID: d8d7ee3f-dc0f-410d-9f14-60bee2a69227
+Slug: susafa-a-member-of-small-luxury-hotels-of-the-wo-acquaviva-platani
+Nome: Susafa | A Member of Small Luxury Hotels of the World
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Contrada Susafa, 90028 Polizzi Generosa PA
+Coordinate: Lat 37.721899, Lng 13.934342
+Website: https://www.susafa.com/
+Email: 
+
+152. Tenuta Lanza Il Mulino
+ID: 9ae93fd6-beef-4fcc-b776-4c88942dea54
+Slug: tenuta-lanza-il-mulino-acquaviva-platani
+Nome: Tenuta Lanza Il Mulino
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Contrada Mulino, 93010 Acquaviva Platani CL
+Coordinate: Lat 37.580009, Lng 13.671845
+Website: http://agriturismosicilianoilmulino.it/
+Email: 
+
+153. Viola Bed & Breakfast
+ID: 072d68d8-8cc9-44e4-bbe8-3de548747eac
+Slug: viola-bed-breakfast-acquaviva-platani
+Nome: Viola Bed & Breakfast
+Comune / Provincia: Acquaviva Platani
+Indirizzo: Via Boccaccio, 7, 93014 Mussomeli CL
+Coordinate: Lat 37.581147, Lng 13.751862
+Website: http://www.viola-bedandbreakfast-sicily.com/
+Email: 
+
+154. Agriturismo Antico Frantoio Salmeri
+ID: c1f5a28d-3704-43ec-87df-b884b75c9f4e
+Slug: agriturismo-antico-frantoio-salmeri-acquedolci
+Nome: Agriturismo Antico Frantoio Salmeri
+Comune / Provincia: Acquedolci
+Indirizzo: Contrada Nicetta, Snc, 98070 Acquedolci ME
+Coordinate: Lat 38.044097, Lng 14.572566
+Website: https://agriturismo-villa-nicetta-di-salmeri-salvatore.hotelperiviaggi.top/
+Email: 
+
+155. Agriturismo La Valle degli Ulivi | Nebrodi
+ID: 86f75fb4-bf78-4d25-949d-42e76abdd9c8
+Slug: agriturismo-la-valle-degli-ulivi-nebrodi-acquedolci
+Nome: Agriturismo La Valle degli Ulivi | Nebrodi
+Comune / Provincia: Acquedolci
+Indirizzo: SS 113 Settentrionale Sicula, 98070 Acquedolci ME
+Coordinate: Lat 38.048997, Lng 14.544856
+Website: https://lavalledegliuliviagriturismo.com/
+Email: 
+
+156. Agriturismo Villa Ortoleva
+ID: edef9ec9-8827-4168-b2a2-b6c5c8519e78
+Slug: agriturismo-villa-ortoleva-acquedolci
+Nome: Agriturismo Villa Ortoleva
+Comune / Provincia: Acquedolci
+Indirizzo: Contrada oliveto, 98070 Acquedolci ME
+Coordinate: Lat 38.061878, Lng 14.604532
+Website: —
+Email: 
+
+157. Assabinirica
+ID: 5b79b297-d6cc-47a8-99d4-30b51c14f2c6
+Slug: assabinirica-acquedolci
+Nome: Assabinirica
+Comune / Provincia: Acquedolci
+Indirizzo: Contrada oliveto, 98070 Acquedolci ME
+Coordinate: Lat 38.057151, Lng 14.602335
+Website: —
+Email: 
+
+158. B&B Il Girasole
+ID: 05454ec9-c375-49ce-bcf7-f7507363c664
+Slug: b-b-il-girasole-acquedolci
+Nome: B&B Il Girasole
+Comune / Provincia: Acquedolci
+Indirizzo: Contrada Tavola Grande, 90, 98071 Capo d'Orlando ME
+Coordinate: Lat 38.130924, Lng 14.716703
+Website: http://www.ilgirasolecapodorlando.com/
+Email: 
+
+159. B&B Serena
+ID: 7b2454d4-8ef2-4591-8357-e4c9ed70e7c0
+Slug: b-b-serena-acquedolci
+Nome: B&B Serena
+Comune / Provincia: Acquedolci
+Indirizzo: Via Sardini, 2, 98071 Longi ME
+Coordinate: Lat 38.028993, Lng 14.750635
+Website: http://www.bbserena.eu/
+Email: 
+
+160. BeB Nonna Sicilia
+ID: f7716862-005c-432f-a3c7-562ce9b28ac5
+Slug: beb-nonna-sicilia-acquedolci
+Nome: BeB Nonna Sicilia
+Comune / Provincia: Acquedolci
+Indirizzo: Via Beato Felice, 98070 Rocca di Capri Leone ME
+Coordinate: Lat 38.109009, Lng 14.710082
+Website: https://beb-nonna-sicilia.vederelitalia.top/
+Email: 
+
+161. Bed & Breakfast "A due Passi dal Mare"
+ID: c71ae7f6-ac8e-4e4b-a3eb-53641d9638dd
+Slug: bed-breakfast-a-due-passi-dal-mare-acquedolci
+Nome: Bed & Breakfast "A due Passi dal Mare"
+Comune / Provincia: Acquedolci
+Indirizzo: Via Trazzera Marina, 105, 98071 Capo d'Orlando ME
+Coordinate: Lat 38.151722, Lng 14.734757
+Website: http://www.aduepassidalmare.net/
+Email: 
+
+162. Bed and Breakfast Bellavista
+ID: f89676ec-1095-4e07-ad34-f9612f435942
+Slug: bed-and-breakfast-bellavista-acquedolci
+Nome: Bed and Breakfast Bellavista
+Comune / Provincia: Acquedolci
+Indirizzo: Contrada Vina, 14, 98071 Capo d'Orlando ME
+Coordinate: Lat 38.137689, Lng 14.723851
+Website: http://www.bellavistabb.net/
+Email: 
+
+163. Capo Nettuno Hotel
+ID: 4c1ce91e-5cd1-4047-8442-9197c15fb9ba
+Slug: capo-nettuno-hotel-acquedolci
+Nome: Capo Nettuno Hotel
+Comune / Provincia: Acquedolci
+Indirizzo: Via Trazzera Marina, 352, 98071 Capo d'Orlando ME
+Coordinate: Lat 38.137184, Lng 14.718668
+Website: http://www.caponettuno.it/
+Email: 
+
+164. Casa Giada
+ID: c4b07718-1e85-44d0-989a-6cd66c16e259
+Slug: casa-giada-acquedolci
+Nome: Casa Giada
+Comune / Provincia: Acquedolci
+Indirizzo: Via Alessandro Manzoni, 20, 98070 Torrenova ME
+Coordinate: Lat 38.0887, Lng 14.664156
+Website: http://www.casagiada.it/
+Email: 
+
+165. Hotel Bed and Breakfast "Il Geranio"
+ID: 3bddeeb4-3413-4654-9c02-d81959621531
+Slug: hotel-bed-and-breakfast-il-geranio-acquedolci
+Nome: Hotel Bed and Breakfast "Il Geranio"
+Comune / Provincia: Acquedolci
+Indirizzo: Contrada S. Marina, 98070 Acquedolci ME
+Coordinate: Lat 38.05911, Lng 14.588502
+Website: —
+Email: 
+
+166. Il Fiore Bianco
+ID: 59b8c5f7-3a36-464f-97b6-2d411d5c7ec9
+Slug: il-fiore-bianco-acquedolci
+Nome: Il Fiore Bianco
+Comune / Provincia: Acquedolci
+Indirizzo: Contrada S. Martino, 46, 98071 Capo d'Orlando ME
+Coordinate: Lat 38.155325, Lng 14.749797
+Website: http://ilfiorebianco.it/
+Email: 
+
+167. La Collina B&B
+ID: b24a924c-a49b-49bd-9dfe-6f32453e077f
+Slug: la-collina-b-b-acquedolci
+Nome: La Collina B&B
+Comune / Provincia: Acquedolci
+Indirizzo: Contrada Certari Catutè, 85f, 98071 Capo d'Orlando ME
+Coordinate: Lat 38.150507, Lng 14.752816
+Website: http://www.lacollinabb.it/
+Email: 
+
+168. Le Tre Stelle Marine
+ID: 42417ae3-5a6f-49e2-a09a-2ff8e993a3cc
+Slug: le-tre-stelle-marine-acquedolci
+Nome: Le Tre Stelle Marine
+Comune / Provincia: Acquedolci
+Indirizzo: Via Ricca Salerno, 57, 98070 Acquedolci ME
+Coordinate: Lat 38.055806, Lng 14.584874
+Website: https://www.hotelscheck-in.com/letrestellemarinemessina/it/
+Email: 
+
+169. Palazzo Fortunato S.R.L.
+ID: 2f124001-530c-42bf-b5e0-7f5484ce53a8
+Slug: palazzo-fortunato-s-r-l-acquedolci
+Nome: Palazzo Fortunato S.R.L.
+Comune / Provincia: Acquedolci
+Indirizzo: Via Peschiera, 16, 98076 Sant'Agata di Militello ME
+Coordinate: Lat 38.069354, Lng 14.63238
+Website: http://www.hotelpalazzofortunato.com/
+Email: 
+
+170. Syfar Palace Hotel
+ID: d415a429-a5fb-4423-b7a0-f0b729308ffa
+Slug: syfar-palace-hotel-acquedolci
+Nome: Syfar Palace Hotel
+Comune / Provincia: Acquedolci
+Indirizzo: Contrada Buffone, 98070 Acquedolci ME
+Coordinate: Lat 38.060459, Lng 14.596936
+Website: —
+Email: 
+
+171. Thea B&B
+ID: 58e924ac-2c3c-487d-b9fa-9155e99265e7
+Slug: thea-b-b-acquedolci
+Nome: Thea B&B
+Comune / Provincia: Acquedolci
+Indirizzo: Via Cirino Scaglione, 7, 98070 Acquedolci ME
+Coordinate: Lat 38.056046, Lng 14.587291
+Website: http://www.bbthea.it/
+Email: 
+
+172. Villa dei Principi
+ID: 61c90309-195b-4270-9df5-482312a642b5
+Slug: villa-dei-principi-acquedolci
+Nome: Villa dei Principi
+Comune / Provincia: Acquedolci
+Indirizzo: Vicolo II Via Rosmarino, 98070 Torrenova ME
+Coordinate: Lat 38.089556, Lng 14.668471
+Website: http://www.villadeiprincipi.it/
+Email: 
+
+173. Villa Mancuso De Gaetani & SPA
+ID: f02ebfad-0985-4285-a056-ce5e89fccf7b
+Slug: villa-mancuso-de-gaetani-spa-acquedolci
+Nome: Villa Mancuso De Gaetani & SPA
+Comune / Provincia: Acquedolci
+Indirizzo: Via Trazzera Marina, 685, 98071 Capo d'Orlando ME
+Coordinate: Lat 38.132264, Lng 14.714107
+Website: http://www.villamancusodegaetani.it/
+Email: 
+
+174. B&B Borgo Inferiore 24
+ID: 9d4ff7eb-2f3c-4c09-984a-9acfe0db0037
+Slug: b-b-borgo-inferiore-24-acqui-terme
+Nome: B&B Borgo Inferiore 24
+Comune / Provincia: Acqui Terme
+Indirizzo: Borgo Inferiore Lussito, 24, 15011 Acqui Terme AL
+Coordinate: Lat 44.658174, Lng 8.473962
+Website: http://www.borgoinferiore24.it/
+Email: 
+
+175. B&B Cascina Galla
+ID: d9adef8e-500e-4496-8c1a-746345178721
+Slug: b-b-cascina-galla-acqui-terme
+Nome: B&B Cascina Galla
+Comune / Provincia: Acqui Terme
+Indirizzo: Str. S. Bernardo, 8, 15076 Ovada AL
+Coordinate: Lat 44.641452, Lng 8.624715
+Website: http://www.cascinagalla.it/
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16521. Villa Seta Bed & Breakfast
+ID: aa328edf-f5c3-40dc-8d21-0271e5c25e65
+Slug: villa-seta-bed-breakfast-gaggi
+Nome: Villa Seta Bed & Breakfast
+Comune / Provincia: Gaggi
+Indirizzo: Via della Seta, 2, 98035 Chianchitta-pallio ME
+Coordinate: Lat 37.825876, Lng 15.258933
+Website: https://www.villaseta.com/
+Email: 
+
+16522. A-MURI b&b
+ID: f66a9990-6d09-48e9-8cee-ebcec6b24485
+Slug: a-muri-b-b-gangi
+Nome: A-MURI b&b
+Comune / Provincia: Gangi
+Indirizzo: Via Termini F. Paolo, 23, 90024 Gangi PA
+Coordinate: Lat 37.794628, Lng 14.208123
+Website: http://www.a-muri.com/
+Email: 
+
+16523. Antico Borgo Buonanotte
+ID: b8a50be0-756b-4fd0-b4e8-9fa675df4bac
+Slug: antico-borgo-buonanotte-gangi
+Nome: Antico Borgo Buonanotte
+Comune / Provincia: Gangi
+Indirizzo: Contrada Buonanotte, 90010 San Mauro Castelverde PA
+Coordinate: Lat 37.948429, Lng 14.187767
+Website: http://www.anticoborgobuonanotte.it/
+Email: 
+
+16524. Hotel Gangi
+ID: 65238b86-223d-485b-8246-a47d95f331d4
+Slug: hotel-gangi-gangi
+Nome: Hotel Gangi
+Comune / Provincia: Gangi
+Indirizzo: Viale Generale Ciancio, 68, 94015 Piazza Armerina EN
+Coordinate: Lat 37.388434, Lng 14.371641
+Website: http://www.hotelgangi.eu/
+Email: 
+
+16525. Santa Lucia B&B
+ID: 557b28e8-d08b-4b11-9806-145838c96ec3
+Slug: santa-lucia-b-b-gangi
+Nome: Santa Lucia B&B
+Comune / Provincia: Gangi
+Indirizzo: Via S. Lucia, 5, 90024 Gangi PA
+Coordinate: Lat 37.796549, Lng 14.206482
+Website: http://www.bebsantaluciagangi.it/
+Email: 
+
+16526. Terrematte - Turismo Rurale
+ID: df99d3a8-32a5-4f8d-ba12-33964835ca77
+Slug: terrematte-turismo-rurale-gangi
+Nome: Terrematte - Turismo Rurale
+Comune / Provincia: Gangi
+Indirizzo: C/da Chiaretta, 90028 Polizzi Generosa PA
+Coordinate: Lat 37.829581, Lng 13.998659
+Website: https://terrematte.com/
+Email: 
+
+16527. B&B HOTEL Ischia San Nicola
+ID: 37610c0f-deca-421b-b1dc-bfc134547a56
+Slug: b-b-hotel-ischia-san-nicola-ischia
+Nome: B&B HOTEL Ischia San Nicola
+Comune / Provincia: Ischia
+Indirizzo: Via Parroco d'Abundo 69 80075 Forio, d Ischia, NA, Italia
+Coordinate: Lat 40.709289, Lng 13.879373
+Website: https://www.hotel-bb.com/it/hotel/ischia-san-nicola?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext
+Email: 
+
+16528. B&B La Piazzetta
+ID: 6943cddb-3710-4df8-88e1-999348d9e644
+Slug: b-b-la-piazzetta-ischia
+Nome: B&B La Piazzetta
+Comune / Provincia: Ischia
+Indirizzo: Corso Vittoria Colonna, 122/1° Piano, 80077 Ischia NA, Italia
+Coordinate: Lat 40.740382, Lng 13.950447
+Website: https://www.bblapiazzettaischia.it/
+Email: info@bblapiazzettaischia.it
+
+16529. Bed and Breakfast Ischia Villa al Porto
+ID: 7992df7c-d756-4a72-a3d3-a11021c89ae8
+Slug: bed-and-breakfast-ischia-villa-al-porto-ischia
+Nome: Bed and Breakfast Ischia Villa al Porto
+Comune / Provincia: Ischia
+Indirizzo: Via Iasolino, 146B, 80077 Ischia NA, Italia
+Coordinate: Lat 40.746031, Lng 13.938673
+Website: https://www.villaalporto.it/
+Email: bbischiaporto@gmail.com
+
+16530. Bed and Breakfast Napoli Plebiscito
+ID: 882c05dd-01d0-4170-bcae-e6a8bd5eeaa0
+Slug: bed-and-breakfast-napoli-plebiscito-ischia
+Nome: Bed and Breakfast Napoli Plebiscito
+Comune / Provincia: Ischia
+Indirizzo: Via Chiaia, 216/2º piano, 80121 Napoli NA, Italia
+Coordinate: Lat 40.836655, Lng 14.246407
+Website: https://www.bed-and-breakfast.it/it/campania/bb-napoli-plebiscito/51629
+Email: 
+
+16531. Bed and Breakfast Sweet Home Ischia
+ID: 65997554-59fe-4468-8af4-954683513167
+Slug: bed-and-breakfast-sweet-home-ischia-ischia
+Nome: Bed and Breakfast Sweet Home Ischia
+Comune / Provincia: Ischia
+Indirizzo: Via Circonvallazione, 155, 80076 Lacco Ameno NA, Italia
+Coordinate: Lat 40.752557, Lng 13.881224
+Website: https://sweet-home.italyhotels.top/
+Email: 
+
+16532. Black Market Hotel
+ID: 4b1b2355-705d-4793-aadf-8bc3892f47dd
+Slug: black-market-hotel-ischia
+Nome: Black Market Hotel
+Comune / Provincia: Ischia
+Indirizzo: Via Baldassarre Cossa, 48, 80077 Ischia NA, Italia
+Coordinate: Lat 40.741561, Lng 13.936005
+Website: http://www.blackmarkethotel.com/
+Email: 
+
+16533. Blu D’Alia Exclusive Rooms
+ID: 32c31963-3d73-467e-835f-4af5761f72ba
+Slug: blu-d-alia-exclusive-rooms-ischia
+Nome: Blu D’Alia Exclusive Rooms
+Comune / Provincia: Ischia
+Indirizzo: Via Michele Mazzella, 82, 80077 Ischia NA, Italia
+Coordinate: Lat 40.730623, Lng 13.944385
+Website: http://www.bludalia.it/
+Email: 
+
+16534. Grand Hotel Ischia & Lido - Aurum Hotels
+ID: d0cfaa78-7df5-4a3a-8d7d-36bd53af3b8f
+Slug: grand-hotel-ischia-lido-aurum-hotels-ischia
+Nome: Grand Hotel Ischia & Lido - Aurum Hotels
+Comune / Provincia: Ischia
+Indirizzo: Via Emanuele Gianturco, 33, 80077 Ischia NA, Italia
+Coordinate: Lat 40.742518, Lng 13.950676
+Website: http://www.aurumhotels.it/grand-hotel-ischia-lido-ischia-campania/dati-hotel.html
+Email: info@aurumhotels.it
+
+16535. Hotel Annabelle Ischia
+ID: df6b1c60-547d-4e10-9bff-83c9266fea18
+Slug: hotel-annabelle-ischia-ischia
+Nome: Hotel Annabelle Ischia
+Comune / Provincia: Ischia
+Indirizzo: Via Federico Variopinto, 6, 80077 Ischia NA, Italia
+Coordinate: Lat 40.737512, Lng 13.947688
+Website: https://www.annabelle.it/
+Email: 
+
+16536. Hotel Atlantic
+ID: c13a2ba5-cde0-4107-b3be-704609d7791b
+Slug: hotel-atlantic-ischia
+Nome: Hotel Atlantic
+Comune / Provincia: Ischia
+Indirizzo: Via Leonardo Mazzella, 40, 80077 Ischia NA, Italia
+Coordinate: Lat 40.73456, Lng 13.951632
+Website: https://www.albergoatlantic.it/
+Email: info@albergoatlantic.it
+
+16537. Hotel Europa
+ID: 089c6570-126e-4890-94d9-274624f4fb3e
+Slug: hotel-europa-ischia
+Nome: Hotel Europa
+Comune / Provincia: Ischia
+Indirizzo: Via Antonio Sogliuzzo, 25, 80077 Ischia NA, Italia
+Coordinate: Lat 40.734531, Lng 13.95384
+Website: http://www.hoteleuropaischia.it/
+Email: info@hoteleuropaischia.it
+
+16538. Hotel Myage
+ID: 35cdef32-d06b-47d2-9ac2-809596055149
+Slug: hotel-myage-ischia
+Nome: Hotel Myage
+Comune / Provincia: Ischia
+Indirizzo: Via Castiglione, 70, 80074 Ischia NA, Italia
+Coordinate: Lat 40.746313, Lng 13.928025
+Website: http://www.hotelmyage.it/
+Email: info@hotelmyage.it
+
+16539. Hotel Ristorante Da Maria
+ID: 155b693b-1279-47ff-831a-b5068055f54a
+Slug: hotel-ristorante-da-maria-ischia
+Nome: Hotel Ristorante Da Maria
+Comune / Provincia: Ischia
+Indirizzo: Via Cartaromana, 79, 80077 Ischia NA, Italia
+Coordinate: Lat 40.723313, Lng 13.958738
+Website: http://www.albergodamaria.it/
+Email: info@damariaischia.it
+
+16540. Hotel Rivamare
+ID: 82d737e3-9c69-417d-908d-6fc6f15b8f83
+Slug: hotel-rivamare-ischia
+Nome: Hotel Rivamare
+Comune / Provincia: Ischia
+Indirizzo: Via Enea, 26, 80077 Ischia NA, Italia
+Coordinate: Lat 40.742294, Lng 13.948609
+Website: http://www.rivamareischia.it/
+Email: 
+
+16541. Hotel Villa Cecilia
+ID: bee8aaf7-e0d9-483b-b1db-34254d4d0068
+Slug: hotel-villa-cecilia-ischia
+Nome: Hotel Villa Cecilia
+Comune / Provincia: Ischia
+Indirizzo: Via Vincenzo, Traversa Mirabella, 36, 80077 Ischia NA, Italia
+Coordinate: Lat 40.735812, Lng 13.953063
+Website: http://www.villaceciliaischia.it/
+Email: 
+
+16542. Hotel Villa Ireos
+ID: 77d08960-a831-47d4-aeec-7bc6b5d8657a
+Slug: hotel-villa-ireos-ischia
+Nome: Hotel Villa Ireos
+Comune / Provincia: Ischia
+Indirizzo: Via Quercia, 26, 80074 Casamicciola Terme NA, Italia
+Coordinate: Lat 40.744499, Lng 13.930474
+Website: https://www.hotelireosischia.it/
+Email: 
+
+16543. Liferooms
+ID: f1837283-563d-4bae-8d10-189400422576
+Slug: liferooms-ischia
+Nome: Liferooms
+Comune / Provincia: Ischia
+Indirizzo: Corso Vittoria Colonna, 212, 80077 Ischia NA, Italia
+Coordinate: Lat 40.741271, Lng 13.948174
+Website: https://www.liferooms.it/
+Email: liferooms212@gmail.com
+
+16544. Relais Bijoux Bed and Breakfast - Isola d'Ischia
+ID: 41b2954b-8998-447a-b5d4-1da348293464
+Slug: relais-bijoux-bed-and-breakfast-isola-d-ischia-ischia
+Nome: Relais Bijoux Bed and Breakfast - Isola d'Ischia
+Comune / Provincia: Ischia
+Indirizzo: Via Pendio di Lapillo, 1b, 80077 Ischia NA, Italia
+Coordinate: Lat 40.733028, Lng 13.938188
+Website: http://www.relaisbijouxischia.it/
+Email: info@relaisbijouxischia.it
+
+16545. Villa Bina Sea Hotel
+ID: b2b75274-c98d-4191-a9dd-2aedb57d5ec1
+Slug: villa-bina-sea-hotel-ischia
+Nome: Villa Bina Sea Hotel
+Comune / Provincia: Ischia
+Indirizzo: Via Succhivo, 55, 80081 Sant'Angelo NA, Italia
+Coordinate: Lat 40.700961, Lng 13.88752
+Website: http://www.villabinaischia.it/
+Email: 
+
+16546. Villa Lieta
+ID: 34bc9102-64d9-4c99-82db-86dce93a7e1f
+Slug: villa-lieta-ischia
+Nome: Villa Lieta
+Comune / Provincia: Ischia
+Indirizzo: Via Luigi Mazzella, 25, 80077 Ischia NA, Italia
+Coordinate: Lat 40.732175, Lng 13.959523
+Website: http://www.villalieta.it/
+Email: villalietaischia@gmail.com
+
+16547. AHC Grand Bazaar Hotel
+ID: 461adc24-85a9-4ad5-9da9-faac971c82c8
+Slug: ahc-grand-bazaar-hotel-istanbul
+Nome: AHC Grand Bazaar Hotel
+Comune / Provincia: Istanbul
+Indirizzo: Mimar Kemalettin, Abıhayat Sok. No:1, 34490 Fatih/İstanbul
+Coordinate: Lat 41.008235, Lng 28.963581
+Website: https://grandbazaar.ahchotels.com/
+Email: grandbazaar@ahchotels.com
+
+16548. Blue Ottoman Hotel
+ID: 663e0a9e-9fc0-45c8-9677-697b91659044
+Slug: blue-ottoman-hotel-istanbul
+Nome: Blue Ottoman Hotel
+Comune / Provincia: Istanbul
+Indirizzo: Sultan Ahmet, Tavukhane Sk. NO:13, 34122 Fatih/İstanbul
+Coordinate: Lat 41.004883, Lng 28.975763
+Website: —
+Email: 
+
+16549. City Center Hotel
+ID: 18b154f6-b7f0-40b7-8a5a-0de564da3d3b
+Slug: city-center-hotel-istanbul
+Nome: City Center Hotel
+Comune / Provincia: Istanbul
+Indirizzo: Katip Mustafa Çelebi, Sıraselviler Caddesi & Billurcu Çıkmazı No:1, 34433 Beyoğlu/İstanbul
+Coordinate: Lat 41.034436, Lng 28.984038
+Website: https://www.citycenterhotel.com.tr/
+Email: 
+
+16550. Crowne Plaza Istanbul - Old City, an IHG Hotel
+ID: c54d3bf4-c6b7-4c1d-a7db-7143877a5696
+Slug: crowne-plaza-istanbul-old-city-an-ihg-hotel-istanbul
+Nome: Crowne Plaza Istanbul - Old City, an IHG Hotel
+Comune / Provincia: Istanbul
+Indirizzo: Balabanağa, Fethibey Cd. Laleli, 34134 Fatih/İstanbul
+Coordinate: Lat 41.009808, Lng 28.957602
+Website: https://www.ihg.com/crowneplaza/hotels/gb/en//istanbul/istbm/hoteldetail
+Email: 
+
+16551. Grand Bazaar Hotel
+ID: 2bf592c0-a42f-4231-a4a8-e86e0ac9bf06
+Slug: grand-bazaar-hotel-istanbul
+Nome: Grand Bazaar Hotel
+Comune / Provincia: Istanbul
+Indirizzo: Mimar Kemalettin, Beyazıt Karakol Sk., 34126 Fatih/İstanbul
+Coordinate: Lat 41.00695, Lng 28.966239
+Website: http://www.grandbazaarhotel.com/
+Email: 
+
+16552. Grand Hyatt Istanbul
+ID: 60abdf90-e5c7-4d99-89ca-87665458f1c4
+Slug: grand-hyatt-istanbul-istanbul
+Nome: Grand Hyatt Istanbul
+Comune / Provincia: Istanbul
+Indirizzo: Harbiye, Taşkışla Cd. No:1, 34367 Şişli/İstanbul
+Coordinate: Lat 41.040627, Lng 28.988631
+Website: https://www.hyatt.com/grand-hyatt/en-US/istan-grand-hyatt-istanbul?src=corp_lclb_google_seo_istan&utm_source=google&utm_medium=organic&utm_campaign=lmr
+Email: 
+
+16553. Hotel Saba, İstanbul
+ID: c3b37ca6-488d-4173-8290-8efedee5ed90
+Slug: hotel-saba-istanbul-istanbul
+Nome: Hotel Saba, İstanbul
+Comune / Provincia: Istanbul
+Indirizzo: Binbirdirek, Şht. Mehmetpaşa Ykş. No:6, 34122 Fatih/İstanbul
+Coordinate: Lat 41.005129, Lng 28.973938
+Website: https://www.rezervasyonal.info/saba.html
+Email: 
+
+16554. İmagine İstanbul Hotel - Sultanahmet
+ID: 4035b933-79f4-4669-9030-678520f41759
+Slug: imagine-istanbul-hotel-sultanahmet-istanbul
+Nome: İmagine İstanbul Hotel - Sultanahmet
+Comune / Provincia: Istanbul
+Indirizzo: Emin Sinan, Pertevpaşa Sok. No: 57, 34126 Fatih/İstanbul
+Coordinate: Lat 41.005468, Lng 28.969673
+Website: https://www.imagineistanbul.com.tr/
+Email: 
+
+16555. Radisson Hotel Istanbul Sultanahmet
+ID: 25a05f24-086f-489c-bde3-2a568020bf1f
+Slug: radisson-hotel-istanbul-sultanahmet-istanbul
+Nome: Radisson Hotel Istanbul Sultanahmet
+Comune / Provincia: Istanbul
+Indirizzo: Sultanahmet TR, Sultanahmet Mah, Kennedy Cad. No:12, 34122 Fatih/İstanbul
+Coordinate: Lat 41.003539, Lng 28.981793
+Website: https://www.radissonhotels.com/en-us/hotels/radisson-istanbul-sultanahmet?cid=a:se+b:gmb+c:emea+i:local+e:rad+d:eerut+h:TRISTSUK
+Email: 

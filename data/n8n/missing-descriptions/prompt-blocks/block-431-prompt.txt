@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+15051. B&B Cascina Bartameloni
+ID: 591ae439-6ec8-461c-8c65-24a9126af1fa
+Slug: b-b-cascina-bartameloni-carpeneto
+Nome: B&B Cascina Bartameloni
+Comune / Provincia: Carpeneto
+Indirizzo: Cascina Bartameloni, 45, 15010 Montaldo Bormida AL
+Coordinate: Lat 44.695514, Lng 8.591211
+Website: —
+Email: 
+
+15052. B&B Cascina Olmo
+ID: 6c09c163-228f-426e-b04c-845f36effd63
+Slug: b-b-cascina-olmo-carpeneto
+Nome: B&B Cascina Olmo
+Comune / Provincia: Carpeneto
+Indirizzo: Via della Costa, 32, 15071 Carpeneto AL
+Coordinate: Lat 44.665108, Lng 8.604106
+Website: —
+Email: 
+
+15053. B&B Cascina Rosa Camilla
+ID: a1321626-36ec-4fcc-8171-b705c3c5beb2
+Slug: b-b-cascina-rosa-camilla-carpeneto
+Nome: B&B Cascina Rosa Camilla
+Comune / Provincia: Carpeneto
+Indirizzo: Str. Vicinale Orsecco, 450, 15071 Carpeneto AL
+Coordinate: Lat 44.708511, Lng 8.63863
+Website: https://www.cascinarosacamilla.it/
+Email: 
+
+15054. B&B è chiuso definitivamente
+ID: 300ef6ff-057b-440d-bae0-d4e5e33e1992
+Slug: b-b-e-chiuso-definitivamente-carpeneto
+Nome: B&B è chiuso definitivamente
+Comune / Provincia: Carpeneto
+Indirizzo: Via Italia, 7, 15070 Trisobbio AL
+Coordinate: Lat 44.661284, Lng 8.586761
+Website: —
+Email: 
+
+15055. B&B Tre Querce
+ID: 7c009900-8f81-4dc5-9270-e70e73ab5e20
+Slug: b-b-tre-querce-carpeneto
+Nome: B&B Tre Querce
+Comune / Provincia: Carpeneto
+Indirizzo: regione caldana, 71, 15010 Montaldo Bormida AL
+Coordinate: Lat 44.688937, Lng 8.58326
+Website: https://journeyjivey.eu/bb-tre-querce-italy
+Email: 
+
+15056. Cascina Madonnina
+ID: a65f6f33-261c-488d-b8ed-745691f2dde9
+Slug: cascina-madonnina-carpeneto
+Nome: Cascina Madonnina
+Comune / Provincia: Carpeneto
+Indirizzo: Cascina Madonnina, 55, 15070 Trisobbio AL
+Coordinate: Lat 44.657069, Lng 8.591999
+Website: —
+Email: 
+
+15057. Guest House Il Borgo del Castello
+ID: 484e25de-d689-47ee-b5e1-6e8f085f7b94
+Slug: guest-house-il-borgo-del-castello-carpeneto
+Nome: Guest House Il Borgo del Castello
+Comune / Provincia: Carpeneto
+Indirizzo: Via Amorina, 16, 15010 Cremolino AL
+Coordinate: Lat 44.636015, Lng 8.585614
+Website: https://www.ilborgodelcastello.it/
+Email: 
+
+15058. Hotel Ristorante La Bruceta
+ID: 9724cd85-6c1e-462e-87b1-7aea5870e7dc
+Slug: hotel-ristorante-la-bruceta-carpeneto
+Nome: Hotel Ristorante La Bruceta
+Comune / Provincia: Carpeneto
+Indirizzo: Via Bruceta, 2, 15010 Cremolino AL
+Coordinate: Lat 44.63054, Lng 8.584063
+Website: http://www.labruceta.it/
+Email: 
+
+15059. WineBikeHostel
+ID: 74ce0465-805f-4028-b74b-01e530c2d577
+Slug: winebikehostel-carpeneto
+Nome: WineBikeHostel
+Comune / Provincia: Carpeneto
+Indirizzo: Piazza Senatore Borgatta, 4, 15078 Rocca Grimalda AL
+Coordinate: Lat 44.670849, Lng 8.647272
+Website: http://www.roccarondinaria.com/
+Email: 
+
+15060. Affittacamere Ventisettembre
+ID: 50264e7c-9f5a-4f1c-8cce-e262400dc807
+Slug: affittacamere-ventisettembre-carpi
+Nome: Affittacamere Ventisettembre
+Comune / Provincia: Carpi
+Indirizzo: Via XX Settembre, 23, 41012 Carpi MO
+Coordinate: Lat 44.784921, Lng 10.887732
+Website: https://www.facebook.com/ventisettembrecarpi/
+Email: 
+
+15061. Agriturismo Ca' Marsiglia
+ID: 9308504b-d8d6-4420-90ee-bdf61d6615b6
+Slug: agriturismo-ca-marsiglia-carpi
+Nome: Agriturismo Ca' Marsiglia
+Comune / Provincia: Carpi
+Indirizzo: Via Provinciale Motta, 468 109, 41012 Carpi MO
+Coordinate: Lat 44.81847, Lng 10.965638
+Website: https://agriturismo-ca-marsiglia.camerainitalia.top/
+Email: 
+
+15062. Agriturismo La Stumina
+ID: e35f780b-decb-46d2-9c9a-e47e78c3f3cf
+Slug: agriturismo-la-stumina-carpi
+Nome: Agriturismo La Stumina
+Comune / Provincia: Carpi
+Indirizzo: Via Ascari 6 A Cortile di, 41012 Carpi MO
+Coordinate: Lat 44.819911, Lng 10.982029
+Website: https://lastumina.it/
+Email: 
+
+15063. al civico 73 Bed & Breakfast
+ID: 65dc8156-c4eb-4d23-927c-0e9baee189ee
+Slug: al-civico-73-bed-breakfast-carpi
+Nome: al civico 73 Bed & Breakfast
+Comune / Provincia: Carpi
+Indirizzo: strada statale 413 romana sud, 73, 41012 Carpi MO
+Coordinate: Lat 44.749979, Lng 10.878741
+Website: https://www.facebook.com/share/FWY18g73oH7NadDc/
+Email: 
+
+15064. B&B La Francesa
+ID: 09c2a4d6-4a83-443e-8426-37a93ca46175
+Slug: b-b-la-francesa-carpi
+Nome: B&B La Francesa
+Comune / Provincia: Carpi
+Indirizzo: Stradello Fassi, 3, 41012 Carpi MO
+Coordinate: Lat 44.820381, Lng 10.900507
+Website: http://www.lafrancesa.it/
+Email: 
+
+15065. B&B Villa dei Cigni Reali
+ID: a8cf7e57-0cdd-42b0-9f76-0a6e9638a87b
+Slug: b-b-villa-dei-cigni-reali-carpi
+Nome: B&B Villa dei Cigni Reali
+Comune / Provincia: Carpi
+Indirizzo: Via Marchiona, 10a, 41012 Carpi MO
+Coordinate: Lat 44.75865, Lng 10.890406
+Website: https://beb.it/villadeicignireali
+Email: 
+
+15066. Bed & Breakfast Villa delle Palme
+ID: 272e2255-5e21-464f-b3ad-18a7afe17751
+Slug: bed-breakfast-villa-delle-palme-carpi
+Nome: Bed & Breakfast Villa delle Palme
+Comune / Provincia: Carpi
+Indirizzo: Via Pola Esterna, 13, 41012 Carpi MO
+Coordinate: Lat 44.809569, Lng 10.897195
+Website: https://recommendedbyjiri.eu/b-amp-b-villa-delle-palme-italy
+Email: 
+
+15067. Borgo CASE NUOVE Bed and Breakfast
+ID: 5a3b3d3f-1114-45e3-9643-6fab03039d12
+Slug: borgo-case-nuove-bed-and-breakfast-carpi
+Nome: Borgo CASE NUOVE Bed and Breakfast
+Comune / Provincia: Carpi
+Indirizzo: Stradello Donella, 10A, 41012 Carpi MO
+Coordinate: Lat 44.792451, Lng 10.918762
+Website: https://www.facebook.com/borgocasenuove/
+Email: 
+
+15068. Carpi Suite – Appartamenti Minghetti
+ID: ece273c2-4395-4732-a3f5-f6cce2dd9f78
+Slug: carpi-suite-appartamenti-minghetti-carpi
+Nome: Carpi Suite – Appartamenti Minghetti
+Comune / Provincia: Carpi
+Indirizzo: Via Marco Minghetti, 23, 41012 Carpi MO
+Coordinate: Lat 44.769372, Lng 10.883953
+Website: https://carpisuite.it/
+Email: 
+
+15069. Carpi Suite – Appartamento B&B a Carpi
+ID: eed2a7df-4d04-4fa2-a68f-7b7fd3a1907d
+Slug: carpi-suite-appartamento-b-b-a-carpi-carpi
+Nome: Carpi Suite – Appartamento B&B a Carpi
+Comune / Provincia: Carpi
+Indirizzo: Via Federico Garcia Lorca, 1, 41012 Carpi MO
+Coordinate: Lat 44.776236, Lng 10.882715
+Website: https://www.carpisuite.it/
+Email: 
+
+15070. Da Maxim affittacamere
+ID: 78d29de9-ef3a-4a8f-babd-1af33085a8a7
+Slug: da-maxim-affittacamere-carpi
+Nome: Da Maxim affittacamere
+Comune / Provincia: Carpi
+Indirizzo: Via Della Rosa Parte Est, 35, 41012 Carpi MO
+Coordinate: Lat 44.751064, Lng 10.850549
+Website: https://staycentral.eu/da-maxim-carpi/
+Email: 
+
+15071. Hotel Carpi
+ID: 3cd1f259-ae5c-4794-a833-3870c5c8380e
+Slug: hotel-carpi-carpi
+Nome: Hotel Carpi
+Comune / Provincia: Carpi
+Indirizzo: Via delle Magliaie, 2/4, 41012 Carpi MO
+Coordinate: Lat 44.776943, Lng 10.861105
+Website: http://www.hotelcarpi.it/
+Email: 
+
+15072. L'Andito
+ID: d63c274e-d83b-48fe-bc5c-722164ea4312
+Slug: l-andito-carpi
+Nome: L'Andito
+Comune / Provincia: Carpi
+Indirizzo: Svoto Cattania, 9, 41012 Carpi MO
+Coordinate: Lat 44.753708, Lng 10.890139
+Website: https://www.landito.it/
+Email: 
+
+15073. Lanterna R&B
+ID: 7052aaf9-4ec0-4e61-b620-696d3db490b3
+Slug: lanterna-r-b-carpi
+Nome: Lanterna R&B
+Comune / Provincia: Carpi
+Indirizzo: Via Giordano Bruno, 31, 41012 Carpi MO
+Coordinate: Lat 44.784705, Lng 10.888667
+Website: https://www.lanternacarpi.it/
+Email: 
+
+15074. Maison Rebecca
+ID: 12d1208b-9617-4bc2-a174-3a87963f4679
+Slug: maison-rebecca-carpi
+Nome: Maison Rebecca
+Comune / Provincia: Carpi
+Indirizzo: Via Curta Santa Chiara, 7, 41012 Carpi MO
+Coordinate: Lat 44.786718, Lng 10.882962
+Website: —
+Email: 
+
+15075. Suite Cecilia
+ID: dac6002f-2f2d-4dd4-a2a2-063d57bfde1d
+Slug: suite-cecilia-carpi
+Nome: Suite Cecilia
+Comune / Provincia: Carpi
+Indirizzo: Corso Sandro Cabassi, 14 a, 41012 Carpi MO
+Coordinate: Lat 44.784298, Lng 10.887105
+Website: http://suitececilia.it/
+Email: 
+
+15076. Acca Sporting Milano
+ID: f9cf5580-06e1-4cfb-aa56-de36fe81a782
+Slug: acca-sporting-milano-carpiano
+Nome: Acca Sporting Milano
+Comune / Provincia: Carpiano
+Indirizzo: Via Sporting Mirasole, 56, 20090 Opera MI
+Coordinate: Lat 45.395572, Lng 9.211361
+Website: http://www.accasporting.com/
+Email: 
+
+15077. AN Hotel Dépendance Milano Melegnano
+ID: 06876e41-08b2-477e-9a46-681bd1b266ec
+Slug: an-hotel-dependance-milano-melegnano-carpiano
+Nome: AN Hotel Dépendance Milano Melegnano
+Comune / Provincia: Carpiano
+Indirizzo: Via Don Giuseppe Dossetti, 4 20074, 20074 Francolino MI
+Coordinate: Lat 45.349223, Lng 9.282672
+Website: https://an-hotels.com/
+Email: 
+
+15078. Golf Hotel Milano
+ID: f832c1e3-daba-4be0-98b2-ada940f7ef89
+Slug: golf-hotel-milano-carpiano
+Nome: Golf Hotel Milano
+Comune / Provincia: Carpiano
+Indirizzo: Via Abruzzo, snc, 20073 Opera MI
+Coordinate: Lat 45.370487, Lng 9.212227
+Website: https://www.golfhotelmilano.com/
+Email: 
+
+15079. Suite Carpiano
+ID: e52480fc-3a15-4c9b-b699-378ad098cc74
+Slug: suite-carpiano-carpiano
+Nome: Suite Carpiano
+Comune / Provincia: Carpiano
+Indirizzo: Via per Carpiano, 2/C, 20077 Melegnano MI
+Coordinate: Lat 45.354941, Lng 9.317621
+Website: https://thetravelstay.eu/suite-carpiano-italy
+Email: 
+
+15080. AGRITURISMO TENUTA KYRIOS
+ID: 42118161-7630-47cd-b90f-e2b237b172b9
+Slug: agriturismo-tenuta-kyrios-carpignano-salentino
+Nome: AGRITURISMO TENUTA KYRIOS
+Comune / Provincia: Carpignano Salentino
+Indirizzo: S.P. 147 Borgagne, 73020 Carpignano Salentino LE
+Coordinate: Lat 40.230251, Lng 18.355798
+Website: http://www.tenutakyrios.it/
+Email: 
+
+15081. Calura Residence
+ID: 200f0ae4-483d-4288-8b1d-9617e8defb35
+Slug: calura-residence-carpignano-salentino
+Nome: Calura Residence
+Comune / Provincia: Carpignano Salentino
+Indirizzo: Via U. Foscolo, 92, 73020 Carpignano Salentino LE
+Coordinate: Lat 40.192709, Lng 18.34005
+Website: http://www.caluraresidence.com/
+Email: 
+
+15082. Corte dei Salentini B&B
+ID: 53d58f5a-0d29-44d6-bfb0-87905b81bb5b
+Slug: corte-dei-salentini-b-b-carpignano-salentino
+Nome: Corte dei Salentini B&B
+Comune / Provincia: Carpignano Salentino
+Indirizzo: Via Provinciale Martano - Otranto, 54, 73020 Carpignano Salentino LE
+Coordinate: Lat 40.194069, Lng 18.327722
+Website: http://www.cortedeisalentini.it/
+Email: 
+
+15083. Furnirussi Tenuta
+ID: e787277c-2892-4d2d-981b-d9201cc823db
+Slug: furnirussi-tenuta-carpignano-salentino
+Nome: Furnirussi Tenuta
+Comune / Provincia: Carpignano Salentino
+Indirizzo: Strada Comunale Scine 29, frazione di Carpignano Salentino LE IT, 73020 Serrano LE
+Coordinate: Lat 40.171798, Lng 18.344736
+Website: http://www.furnirussi.com/
+Email: 
+
+15084. Mamma Assunta B&B
+ID: b3ed327c-5bc1-45cc-a393-66aa24cfd028
+Slug: mamma-assunta-b-b-carpignano-salentino
+Nome: Mamma Assunta B&B
+Comune / Provincia: Carpignano Salentino
+Indirizzo: Via Edmondo de Amicis, 46, 73026 Borgagne LE
+Coordinate: Lat 40.238908, Lng 18.3779
+Website: https://beb.it/mammaassunta
+Email: 
+
+15085. Masseria Giamarra
+ID: 74a2b7fa-0e90-4beb-96f5-3051088f9156
+Slug: masseria-giamarra-carpignano-salentino
+Nome: Masseria Giamarra
+Comune / Provincia: Carpignano Salentino
+Indirizzo: Strada Provinciale 48 Martano-Otranto 130, 73020 Carpignano Salentino LE
+Coordinate: Lat 40.190811, Lng 18.342266
+Website: http://www.masseriagiamarra.it/
+Email: 

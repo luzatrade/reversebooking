@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+1331. Hotel Milano
+ID: 39e018b6-97e2-45b6-b8a1-b0c6249d047f
+Slug: hotel-milano-albaredo-per-san-marco
+Nome: Hotel Milano
+Comune / Provincia: Albaredo per San Marco
+Indirizzo: Via Centro, 19, 24010 Piazzatorre BG
+Coordinate: Lat 45.989547, Lng 9.681299
+Website: http://www.hotelmilano.bg.it/
+Email: 
+
+1332. Hotel Miramonti
+ID: 0bb34cfd-b04c-48e9-abff-9f861291574e
+Slug: hotel-miramonti-albaredo-per-san-marco
+Nome: Hotel Miramonti
+Comune / Provincia: Albaredo per San Marco
+Indirizzo: V. Zocca, 12, 23010 Val Masino SO
+Coordinate: Lat 46.220575, Lng 9.637445
+Website: http://www.miramontivalmasino.com/
+Email: 
+
+1333. Hotel Ristorante Maloia
+ID: d94629eb-faf1-48f9-aced-4a5082e5bb1b
+Slug: hotel-ristorante-maloia-albaredo-per-san-marco
+Nome: Hotel Ristorante Maloia
+Comune / Provincia: Albaredo per San Marco
+Indirizzo: Via Spluga, 43, 23015 Dubino SO
+Coordinate: Lat 46.167696, Lng 9.428343
+Website: https://hotelmaloia.it/
+Email: 
+
+1334. Hotel Ristorante Pizzeria Culmine
+ID: 4b72f121-4419-4835-a659-b2c981daaaad
+Slug: hotel-ristorante-pizzeria-culmine-albaredo-per-san-marco
+Nome: Hotel Ristorante Pizzeria Culmine
+Comune / Provincia: Albaredo per San Marco
+Indirizzo: Via Merlina, 50, 23011 Ardenno SO
+Coordinate: Lat 46.168662, Lng 9.643173
+Website: https://www.albergoculmine.it/
+Email: 
+
+1335. Hotel Ristorante Stelvio
+ID: 4248f45e-6dc8-41b6-8a72-5c9487ef97b3
+Slug: hotel-ristorante-stelvio-albaredo-per-san-marco
+Nome: Hotel Ristorante Stelvio
+Comune / Provincia: Albaredo per San Marco
+Indirizzo: Via Stelvio, 111, 23014 Delebio SO
+Coordinate: Lat 46.137927, Lng 9.465728
+Website: http://www.stelviohotel.com/
+Email: 
+
+1336. Hotel Rustichella
+ID: ecceb90f-ec15-4ef7-9e4c-eb89002ea0ae
+Slug: hotel-rustichella-albaredo-per-san-marco
+Nome: Hotel Rustichella
+Comune / Provincia: Albaredo per San Marco
+Indirizzo: Via Moss, 5, 23010 Val Masino SO
+Coordinate: Lat 46.21868, Lng 9.641488
+Website: https://www.albergorustichellavalmasino.com/
+Email: 
+
+1337. Hotel Saligari
+ID: f5d44c5f-28bb-4030-9f47-bf49b1911ae6
+Slug: hotel-saligari-albaredo-per-san-marco
+Nome: Hotel Saligari
+Comune / Provincia: Albaredo per San Marco
+Indirizzo: Via Mario Copes, 397, 23020 Verceia SO
+Coordinate: Lat 46.197497, Lng 9.456829
+Website: http://www.hotelsaligari.com/
+Email: 
+
+1338. Hotel Sasso Remenno
+ID: fd73e41c-fd35-4990-a5ee-53ec06108d0b
+Slug: hotel-sasso-remenno-albaredo-per-san-marco
+Nome: Hotel Sasso Remenno
+Comune / Provincia: Albaredo per San Marco
+Indirizzo: 21, V. Zocca, 23010 Val Masino SO
+Coordinate: Lat 46.221104, Lng 9.636353
+Website: http://www.hotelsassoremenno.it/
+Email: 
+
+1339. La Brace - Hotel Ristorante Bar
+ID: 6ec2bf50-46dd-48bf-9971-585e3c4f18e1
+Slug: la-brace-hotel-ristorante-bar-albaredo-per-san-marco
+Nome: La Brace - Hotel Ristorante Bar
+Comune / Provincia: Albaredo per San Marco
+Indirizzo: Via Piani, 1, 23010 Forcola SO
+Coordinate: Lat 46.164506, Lng 9.676442
+Website: http://www.labrace.it/
+Email: 
+
+1340. La Casa di Anna
+ID: 055f38d3-3739-4b73-8d08-103fbccf5b21
+Slug: la-casa-di-anna-albaredo-per-san-marco
+Nome: La Casa di Anna
+Comune / Provincia: Albaredo per San Marco
+Indirizzo: Via Valeriana, 10/a, 23014 Delebio SO
+Coordinate: Lat 46.134326, Lng 9.452416
+Website: —
+Email: 
+
+1341. La Ruota Hotel
+ID: 1884ffa4-20d7-40b6-b956-29e6ab7c0d69
+Slug: la-ruota-hotel-albaredo-per-san-marco
+Nome: La Ruota Hotel
+Comune / Provincia: Albaredo per San Marco
+Indirizzo: Viale Stelvio, 180, 23017 Morbegno SO
+Coordinate: Lat 46.134386, Lng 9.578478
+Website: http://www.hotellaruota.com/
+Email: 
+
+1342. Sotto al bosco B&B
+ID: be8afaee-1980-4ead-a829-21fd8468a231
+Slug: sotto-al-bosco-b-b-albaredo-per-san-marco
+Nome: Sotto al bosco B&B
+Comune / Provincia: Albaredo per San Marco
+Indirizzo: Via Monastero, 13, 23015 Dubino SO
+Coordinate: Lat 46.157092, Lng 9.450622
+Website: —
+Email: 
+
+1343. TERRA BUONA Rooms & Lounge Bar
+ID: 61c44d00-7c1e-4589-a2ec-ad91934d041c
+Slug: terra-buona-rooms-lounge-bar-albaredo-per-san-marco
+Nome: TERRA BUONA Rooms & Lounge Bar
+Comune / Provincia: Albaredo per San Marco
+Indirizzo: Piazza Caduti, 4, 23019 Traona SO
+Coordinate: Lat 46.149939, Lng 9.526277
+Website: https://terrabuonatraona.beddy.io/?lang=it
+Email: 
+
+1344. Una Finestra sulle Alpi
+ID: 946c7e74-1fb9-45cc-8066-bc3a4abaa8d2
+Slug: una-finestra-sulle-alpi-albaredo-per-san-marco
+Nome: Una Finestra sulle Alpi
+Comune / Provincia: Albaredo per San Marco
+Indirizzo: Via Lissi, 2, 23010 Bema SO
+Coordinate: Lat 46.108669, Lng 9.563883
+Website: https://una-finestra-sulle-alpi.alberghiinitalia.top/
+Email: 
+
+1345. Agriturismo Casa Delle Erbe
+ID: 8f35c4ed-7f6e-4c1e-b87b-c9ff30f040ea
+Slug: agriturismo-casa-delle-erbe-albareto
+Nome: Agriturismo Casa Delle Erbe
+Comune / Provincia: Albareto
+Indirizzo: Località Pieve di Campi, 60A, 43051 Albareto PR
+Coordinate: Lat 44.480597, Lng 9.687116
+Website: https://www.casadelleerbe.it/
+Email: 
+
+1346. Agriturismo Costa d'Orsola
+ID: f01158ec-f546-4a98-b331-981637c62b08
+Slug: agriturismo-costa-d-orsola-albareto
+Nome: Agriturismo Costa d'Orsola
+Comune / Provincia: Albareto
+Indirizzo: Località Orsola, 54027, 54027 Pontremoli MS
+Coordinate: Lat 44.356193, Lng 9.883196
+Website: http://www.costadorsola.it/
+Email: 
+
+1347. Agriturismo Mulino Marghen
+ID: a4d975ed-34cd-4852-9b8c-fe6a228f5c29
+Slug: agriturismo-mulino-marghen-albareto
+Nome: Agriturismo Mulino Marghen
+Comune / Provincia: Albareto
+Indirizzo: Località Noce, 54029 Zeri MS
+Coordinate: Lat 44.34657, Lng 9.773948
+Website: https://booking.inreception.com/agriturismomulinomarghen
+Email: 
+
+1348. Albergo Belvedere
+ID: a891657b-a608-4051-926f-7525d3347163
+Slug: albergo-belvedere-albareto
+Nome: Albergo Belvedere
+Comune / Provincia: Albareto
+Indirizzo: SP52, 1, 19010 Ossegna SP
+Coordinate: Lat 44.35699, Lng 9.557629
+Website: http://hotel-belvedere.org.es/
+Email: 
+
+1349. Albergo Ristorante La Veranda
+ID: 354b2252-efde-4c54-b251-564bed414aa7
+Slug: albergo-ristorante-la-veranda-albareto
+Nome: Albergo Ristorante La Veranda
+Comune / Provincia: Albareto
+Indirizzo: Via Mario Padovani, 26, 19010 Tavarone SP
+Coordinate: Lat 44.313436, Lng 9.54937
+Website: http://www.albergolaveranda.it/
+Email: 
+
+1350. B&B Ca' d'Andrea
+ID: 06526fa4-21c6-4b0b-844c-9b7bd516006b
+Slug: b-b-ca-d-andrea-albareto
+Nome: B&B Ca' d'Andrea
+Comune / Provincia: Albareto
+Indirizzo: Via Provinciale, 48, 43050 Valmozzola PR
+Coordinate: Lat 44.568615, Lng 9.881576
+Website: —
+Email: 
+
+1351. B&B Ca' Del Duca
+ID: d1aa115f-d44e-473f-bb20-eaafef07a438
+Slug: b-b-ca-del-duca-albareto
+Nome: B&B Ca' Del Duca
+Comune / Provincia: Albareto
+Indirizzo: Località Barbigarezza, 2, 43053 Compiano PR
+Coordinate: Lat 44.490012, Lng 9.683303
+Website: https://www.bedandbreakfastcadelduca.it/
+Email: 
+
+1352. B&B Costalta
+ID: c3ed1206-aec5-4ad1-b4e9-d029a59029d5
+Slug: b-b-costalta-albareto
+Nome: B&B Costalta
+Comune / Provincia: Albareto
+Indirizzo: Loc. Costalta, 67, Località Costalta, 67, 43053 Strela, Compiano PR
+Coordinate: Lat 44.505365, Lng 9.686348
+Website: http://www.costalta.com/
+Email: 
+
+1353. B&B Il Casolare Bioenergetico : Seminari olistici, soggiorni per famiglie e gruppi.
+ID: e7528f49-1bbc-4a08-afc4-efb57de5b0f5
+Slug: b-b-il-casolare-bioenergetico-seminari-olistici-albareto
+Nome: B&B Il Casolare Bioenergetico : Seminari olistici, soggiorni per famiglie e gruppi.
+Comune / Provincia: Albareto
+Indirizzo: Via Albareto, 402, 43051 Le Moie PR
+Coordinate: Lat 44.457208, Lng 9.706939
+Website: http://www.ilcasolarebioenergetico.it/
+Email: 
+
+1354. B&B Il Poggio di Traverde
+ID: 2593796f-7448-4bab-921a-413d284e4ccd
+Slug: b-b-il-poggio-di-traverde-albareto
+Nome: B&B Il Poggio di Traverde
+Comune / Provincia: Albareto
+Indirizzo: Località Traverde, 15, 54027 Traverde MS
+Coordinate: Lat 44.394014, Lng 9.874855
+Website: https://ilpoggio-ditraverde.it/
+Email: 
+
+1355. B&B New Arcobaleno Ossegna
+ID: 72a09831-14c4-4dfb-b5c1-91c49a58dc9c
+Slug: b-b-new-arcobaleno-ossegna-albareto
+Nome: B&B New Arcobaleno Ossegna
+Comune / Provincia: Albareto
+Indirizzo: Via XXIV Maggio, 5, 19010 Ossegna SP
+Coordinate: Lat 44.356398, Lng 9.556377
+Website: https://bb-new-arcobaleno-ossegna.mondoinviaggio.top/
+Email: 
+
+1356. Borgo Casale
+ID: 11e9b6cb-c33a-4dda-bf5d-198868d6aab4
+Slug: borgo-casale-albareto
+Nome: Borgo Casale
+Comune / Provincia: Albareto
+Indirizzo: Località Casale, 43051 Albareto PR
+Coordinate: Lat 44.445971, Lng 9.718539
+Website: http://www.borgocasale.it/
+Email: 
+
+1357. Casa del Gigi BnB
+ID: 6ea9c25e-0eca-4a06-88fc-25ab117c2cf5
+Slug: casa-del-gigi-bnb-albareto
+Nome: Casa del Gigi BnB
+Comune / Provincia: Albareto
+Indirizzo: Località Pieve di Campi, 41, 43051 Albareto PR
+Coordinate: Lat 44.470338, Lng 9.683664
+Website: —
+Email: 
+
+1358. Funghi e Fate
+ID: f079fef0-55f1-4415-9f7e-61ef434bfee9
+Slug: funghi-e-fate-albareto
+Nome: Funghi e Fate
+Comune / Provincia: Albareto
+Indirizzo: Gotra, 76, 43051 Albareto PR
+Coordinate: Lat 44.458701, Lng 9.72961
+Website: http://www.funghiefate.com/
+Email: 
+
+1359. Hotel Mistrello
+ID: e1866d3a-d59d-4764-b41f-9e89173ab4fc
+Slug: hotel-mistrello-albareto
+Nome: Hotel Mistrello
+Comune / Provincia: Albareto
+Indirizzo: Via Europa, 2, 43043 Borgo Val di Taro PR
+Coordinate: Lat 44.49033, Lng 9.768751
+Website: https://www.hotelmistrello.it/
+Email: 
+
+1360. Hotel Residence Sant'Anna
+ID: 2701e05d-4b2e-47c6-aa28-13615b6e7d86
+Slug: hotel-residence-sant-anna-albareto
+Nome: Hotel Residence Sant'Anna
+Comune / Provincia: Albareto
+Indirizzo: Via Roma, 3-5, 43041 Bedonia PR
+Coordinate: Lat 44.502527, Lng 9.63233
+Website: https://www.albergosantanna.it/
+Email: 
+
+1361. La Ca' Verde - Azienda Agricola e Bed and Breakfast Rurale
+ID: 6c82bb02-8ac9-44c8-92d8-deb8aacad560
+Slug: la-ca-verde-azienda-agricola-e-bed-and-breakfast-albareto
+Nome: La Ca' Verde - Azienda Agricola e Bed and Breakfast Rurale
+Comune / Provincia: Albareto
+Indirizzo: Via San Quirico, 65, 43051 Albareto PR
+Coordinate: Lat 44.454901, Lng 9.675623
+Website: https://www.facebook.com/people/Azienda-Agricola-La-C%C3%A0-Verde/100070207481063/?paipv=0&eav=AfaDtcYk4NeZvuYYqhBqf8hMb--ecA6ERpbbBwaxseoLLrRKuHsWSWq6hqwOywR_lMU&_rdr
+Email: 
+
+1362. La Casa del Sarto - FedericoFarm
+ID: f2bb80af-8456-49f5-b8b8-9bff11214a08
+Slug: la-casa-del-sarto-federicofarm-albareto
+Nome: La Casa del Sarto - FedericoFarm
+Comune / Provincia: Albareto
+Indirizzo: Località Grondola Strada Provinciale del Brattello km 8, 54027 Pontremoli MS
+Coordinate: Lat 44.422724, Lng 9.854162
+Website: http://www.federicofarm.com/
+Email: 
+
+1363. La Castagna Matta
+ID: 2e74437b-81a8-4637-b4b2-c9170a5384b5
+Slug: la-castagna-matta-albareto
+Nome: La Castagna Matta
+Comune / Provincia: Albareto
+Indirizzo: Località Case Mazzetta, 415/A, 43051 Case Mazzetta PR
+Coordinate: Lat 44.45979, Lng 9.712054
+Website: http://www.castagnamatta.it/
+Email: 
+
+1364. La Vecchia Colonia e La Castagna Matta
+ID: abe1765f-0253-4e6a-beba-d3a77d5ca3da
+Slug: la-vecchia-colonia-e-la-castagna-matta-albareto
+Nome: La Vecchia Colonia e La Castagna Matta
+Comune / Provincia: Albareto
+Indirizzo: Località Case Mazzetta, 416, 43051 Case Mazzetta PR
+Coordinate: Lat 44.459912, Lng 9.712655
+Website: http://www.castagnamatta.it/
+Email: 
+
+1365. Agriturismo 'd Raine'
+ID: 4ab76a89-81d8-4612-8f26-18a5259b03e0
+Slug: agriturismo-d-raine-albaretto-della-torre
+Nome: Agriturismo 'd Raine'
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Via Brantegna, 41, 12050 Montelupo Albese CN
+Coordinate: Lat 44.616941, Lng 8.042888
+Website: http://www.giachinovini.it/
+Email: 

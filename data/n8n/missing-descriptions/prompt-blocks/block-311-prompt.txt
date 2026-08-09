@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+10851. Hotel Löwenhof
+ID: 3f2d3c23-ca6b-417f-9f0b-6e1a1667fd0b
+Slug: hotel-lowenhof-bressanone-brixen
+Nome: Hotel Löwenhof
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Via Brennero, 60, 39040 Bressanone BZ
+Coordinate: Lat 46.734589, Lng 11.647241
+Website: https://www.loewenhof.it/
+Email: 
+
+10852. Hotel Torgglerhof bei Brixen
+ID: bf7aafcb-cd7e-489a-ac01-67bf0fde73df
+Slug: hotel-torgglerhof-bei-brixen-bressanone-brixen
+Nome: Hotel Torgglerhof bei Brixen
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Via Cornale di Sopra 25, 39042 Bressanone BZ
+Coordinate: Lat 46.716175, Lng 11.681367
+Website: https://www.torgglerhof.com/
+Email: 
+
+10853. Hotel Traube
+ID: 5eba17ff-0b55-4553-a836-454cfcf8febb
+Slug: hotel-traube-bressanone-brixen
+Nome: Hotel Traube
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Via Roncato, 24, 39042 Bressanone BZ
+Coordinate: Lat 46.712781, Lng 11.658715
+Website: https://www.hotelbrixen.it/it/hotel-bressanone/1-0.html
+Email: 
+
+10854. Lasserhaus
+ID: 0727e965-8329-42a6-a626-c197376e0b5a
+Slug: lasserhaus-bressanone-brixen
+Nome: Lasserhaus
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Via Stufles, 10, 39042 Bressanone BZ
+Coordinate: Lat 46.71701, Lng 11.659317
+Website: https://www.lasserhaus.it/
+Email: 
+
+10855. My Arbor - Dolomites
+ID: 96827cff-28de-4430-8cd2-41e9605c473e
+Slug: my-arbor-dolomites-bressanone-brixen
+Nome: My Arbor - Dolomites
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Leonharder Str., 26, 39042 Brixen, Autonome Provinz Bozen - Südtirol
+Coordinate: Lat 46.703362, Lng 11.683668
+Website: https://www.my-arbor.com/
+Email: 
+
+10856. Ostello della Gioventù Kassianeum
+ID: 328f6c1e-8977-4678-97b8-b9f41ab69713
+Slug: ostello-della-gioventu-kassianeum-bressanone-brixen
+Nome: Ostello della Gioventù Kassianeum
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Brunogasse, 2, 39042 Bressanone BZ
+Coordinate: Lat 46.71501, Lng 11.658161
+Website: http://www.jugendherberge.bz/
+Email: 
+
+10857. Residence Nives
+ID: fe0fa11f-bf84-40cb-905e-cd6b45360e53
+Slug: residence-nives-bressanone-brixen
+Nome: Residence Nives
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Via Cesare Battisti, 48, 39042 Bressanone BZ
+Coordinate: Lat 46.722266, Lng 11.658487
+Website: http://www.residence-nives.com/
+Email: 
+
+10858. Santre - dolomythic home
+ID: e0a1b819-fff3-4e88-a962-df8a73762ac8
+Slug: santre-dolomythic-home-bressanone-brixen
+Nome: Santre - dolomythic home
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Via Centrale, 19, 39042 Brixen, Autonome Provinz Bozen - Südtirol
+Coordinate: Lat 46.699393, Lng 11.673734
+Website: https://www.santre.it/?utm_source=GoogleMyBusiness&utm_medium=KlickWebsite&utm_campaign=GoogleMyBusiness
+Email: 
+
+10859. B&B Dal Viceré (Villa Mezzalira)
+ID: 340b0601-bc56-49a3-b295-5466c07d4e13
+Slug: b-b-dal-vicere-villa-mezzalira-bressanvido
+Nome: B&B Dal Viceré (Villa Mezzalira)
+Comune / Provincia: Bressanvido
+Indirizzo: Via S. Benedetto, 78 A, 36050 Bressanvido VI
+Coordinate: Lat 45.649685, Lng 11.650054
+Website: —
+Email: 
+
+10860. Hotel Europa
+ID: c271a1f7-d21c-46ac-b531-11d98b239dd5
+Slug: hotel-europa-bressanvido
+Nome: Hotel Europa
+Comune / Provincia: Bressanvido
+Indirizzo: Viale Stazione, 5, 36063 Marostica VI
+Coordinate: Lat 45.746339, Lng 11.658703
+Website: https://www.hoteleuropa.biz/
+Email: 
+
+10861. Il Camino Rosso - The Red Chimney
+ID: 52b29975-cf08-4224-b9e3-cf17de6b0c8d
+Slug: il-camino-rosso-the-red-chimney-bressanvido
+Nome: Il Camino Rosso - The Red Chimney
+Comune / Provincia: Bressanvido
+Indirizzo: Via Guarniere, 26/28, 36066 Ancignano VI
+Coordinate: Lat 45.6579, Lng 11.642111
+Website: —
+Email: 
+
+10862. PARK HOTEL ITALIA
+ID: e42dc8a9-1f43-46c7-a928-1c25b6863f2b
+Slug: park-hotel-italia-bressanvido
+Nome: PARK HOTEL ITALIA
+Comune / Provincia: Bressanvido
+Indirizzo: Via Villa, 89, 36056 Tezze sul Brenta VI
+Coordinate: Lat 45.682583, Lng 11.708943
+Website: https://www.parkhotelitalia.it/
+Email: 
+
+10863. Affittacamere Pone
+ID: ef26852b-27a8-42d4-80cd-6f23aad8bec4
+Slug: affittacamere-pone-bresso
+Nome: Affittacamere Pone
+Comune / Provincia: Bresso
+Indirizzo: Via Cadore, 54, 20099 Sesto San Giovanni MI
+Coordinate: Lat 45.548115, Lng 9.259119
+Website: https://www.hotelsitaloweb.com/affittacamere-pone/
+Email: 
+
+10864. B&B Casa Pucci Milano
+ID: 28807bc8-53f1-4255-b6d2-3000109bafc9
+Slug: b-b-casa-pucci-milano-bresso
+Nome: B&B Casa Pucci Milano
+Comune / Provincia: Bresso
+Indirizzo: Via Dante Alighieri, 14a, 20091 Bresso MI
+Coordinate: Lat 45.531517, Lng 9.194598
+Website: https://casapuccimilano.it/
+Email: 
+
+10865. B&B De I Bravi - Charming guest house
+ID: 3d6ef00b-eafc-42e9-bf92-4cbf3a8882c9
+Slug: b-b-de-i-bravi-charming-guest-house-bresso
+Nome: B&B De I Bravi - Charming guest house
+Comune / Provincia: Bresso
+Indirizzo: V. Angelo Bizzozero, 1F, 20032 Cormano MI
+Coordinate: Lat 45.537747, Lng 9.176621
+Website: http://www.bnbmilano.it/
+Email: 
+
+10866. B&b Eros casa
+ID: 2597b7ed-1212-4b61-8df2-dc955e9c386b
+Slug: b-b-eros-casa-bresso
+Nome: B&b Eros casa
+Comune / Provincia: Bresso
+Indirizzo: Via Luigi Pastro, 10, 20161 Milano MI
+Coordinate: Lat 45.512162, Lng 9.175991
+Website: https://www.eroscasamilano.com/
+Email: 
+
+10867. B&B HOTEL Milano Ornato
+ID: f1bd82ab-edab-41c9-9c92-2ae3f8feb3a0
+Slug: b-b-hotel-milano-ornato-bresso
+Nome: B&B HOTEL Milano Ornato
+Comune / Provincia: Bresso
+Indirizzo: Via Luigi Ornato, 64, 20162 Milano MI
+Coordinate: Lat 45.520021, Lng 9.192311
+Website: https://www.hotel-bb.com/it/hotel/milano-ornato?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext
+Email: 
+
+10868. B&B La Casa del Nespolo di... Niguarda
+ID: d2a51e95-cf69-4980-bd4b-5e82b657ba59
+Slug: b-b-la-casa-del-nespolo-di-niguarda-bresso
+Nome: B&B La Casa del Nespolo di... Niguarda
+Comune / Provincia: Bresso
+Indirizzo: Via Paulucci di Calboli Fulcieri, 32, 20162 Milano MI
+Coordinate: Lat 45.517419, Lng 9.191637
+Website: http://www.bblacasadelnespolo.com/
+Email: 
+
+10869. B&b La Corte di Brusuglio
+ID: 83d91587-a09a-4711-a9ed-3b3e41482b28
+Slug: b-b-la-corte-di-brusuglio-bresso
+Nome: B&b La Corte di Brusuglio
+Comune / Provincia: Bresso
+Indirizzo: Via Renzo Villa, 3, 20032 Cormano MI
+Coordinate: Lat 45.53943, Lng 9.177419
+Website: https://www.hotels-italiano.com/bb-la-corte-di-brusuglio/
+Email: 
+
+10870. Breda Suites Hotel Milano
+ID: f07cd079-b933-4b85-a15b-ad0b0b78f550
+Slug: breda-suites-hotel-milano-bresso
+Nome: Breda Suites Hotel Milano
+Comune / Provincia: Bresso
+Indirizzo: Viale Sarca, 336, 20126 Milano MI
+Coordinate: Lat 45.526153, Lng 9.215594
+Website: https://bredasuiteshotelmilano.it/
+Email: 
+
+10871. Casa Alice Guest House
+ID: 387a9f1b-656c-4918-afca-54d03a167307
+Slug: casa-alice-guest-house-bresso
+Nome: Casa Alice Guest House
+Comune / Provincia: Bresso
+Indirizzo: Via Edmondo De Amicis, 10, 20091 Bresso MI
+Coordinate: Lat 45.53947, Lng 9.186192
+Website: http://www.casaalice.it/
+Email: 
+
+10872. CasaTitta Bed & Breakfast
+ID: 26104b10-6043-4b9b-b0bc-3b117948d167
+Slug: casatitta-bed-breakfast-bresso
+Nome: CasaTitta Bed & Breakfast
+Comune / Provincia: Bresso
+Indirizzo: Via Giulio Belinzaghi, 21, 20159 Milano MI
+Coordinate: Lat 45.496752, Lng 9.188226
+Website: https://www.casatitta.it/
+Email: 
+
+10873. CiaoMi Long & Short Stay - Training & Events - Niguarda Bicocca
+ID: dbdb02cf-e65b-4992-855c-3c4f635081e0
+Slug: ciaomi-long-short-stay-training-events-niguarda-bresso
+Nome: CiaoMi Long & Short Stay - Training & Events - Niguarda Bicocca
+Comune / Provincia: Bresso
+Indirizzo: Via Adriatico, 8, 20162 Milano MI
+Coordinate: Lat 45.518126, Lng 9.196537
+Website: https://www.ciaomilanohostel.it/
+Email: 
+
+10874. Guest House Pirelli
+ID: 0568b8ed-fd80-406f-bd0f-5a0709946216
+Slug: guest-house-pirelli-bresso
+Nome: Guest House Pirelli
+Comune / Provincia: Bresso
+Indirizzo: Via Giovanni Battista Pirelli, 26, 20100 Milano MI
+Coordinate: Lat 45.48397, Lng 9.19794
+Website: http://www.guesthousepirellimilano.it/
+Email: 
+
+10875. La Casa Nel Parco Affittacamere
+ID: 975e9220-38ca-40fa-adc9-bb60bb1d1f05
+Slug: la-casa-nel-parco-affittacamere-bresso
+Nome: La Casa Nel Parco Affittacamere
+Comune / Provincia: Bresso
+Indirizzo: Via Gian Carlo Clerici, 342, 20099 Sesto San Giovanni MI
+Coordinate: Lat 45.533307, Lng 9.209033
+Website: —
+Email: 
+
+10876. milano affittacamere stazione centrale metropolitana
+ID: fda28b41-1fae-4e25-851d-d538ab39f35a
+Slug: milano-affittacamere-stazione-centrale-metropoli-bresso
+Nome: milano affittacamere stazione centrale metropolitana
+Comune / Provincia: Bresso
+Indirizzo: Viale Monza, 38, 20125 Milano MI
+Coordinate: Lat 45.491692, Lng 9.218729
+Website: http://www.milanoaffittacamere.it/
+Email: 
+
+10877. Neo Hotel
+ID: a09fe448-0ee1-4f64-b850-ef24cfcbf5d6
+Slug: neo-hotel-bresso
+Nome: Neo Hotel
+Comune / Provincia: Bresso
+Indirizzo: Via XXV Aprile, 49/51, 20091 Bresso MI
+Coordinate: Lat 45.535766, Lng 9.197255
+Website: https://www.neohotel.it/?utm_source=google&utm_medium=organic&utm_campaign=GMB
+Email: 
+
+10878. Ora Hotels City Milano
+ID: 9ee8ff07-8e5f-44bc-b6d6-a5d1b3698f20
+Slug: ora-hotels-city-milano-bresso
+Nome: Ora Hotels City Milano
+Comune / Provincia: Bresso
+Indirizzo: Via XXV Aprile, 49, 20091 Milano MI
+Coordinate: Lat 45.53576, Lng 9.197263
+Website: —
+Email: 
+
+10879. Residenze Niguarda
+ID: e14fe27d-2da3-4f88-bf3b-4a3568b63aeb
+Slug: residenze-niguarda-bresso
+Nome: Residenze Niguarda
+Comune / Provincia: Bresso
+Indirizzo: Via Luigi Ornato, 18, 20162 Milano MI
+Coordinate: Lat 45.516317, Lng 9.191191
+Website: http://residenzeniguarda.com/?utm_source=gmb&utm_medium=referral
+Email: 
+
+10880. Agriturismo La Betulla
+ID: a223fc33-e426-4b1b-85e6-1da354361d21
+Slug: agriturismo-la-betulla-brezzo-di-bedero
+Nome: Agriturismo La Betulla
+Comune / Provincia: Brezzo di Bedero
+Indirizzo: Via Belmonte, 50, 21010 Brezzo di Bedero VA
+Coordinate: Lat 45.971666, Lng 8.708748
+Website: http://www.agriturismobetulla.com/
+Email: 
+
+10881. Agriturismo Tschang Wilma
+ID: e2e2df25-9208-430c-bcde-94113c06ad97
+Slug: agriturismo-tschang-wilma-brezzo-di-bedero
+Nome: Agriturismo Tschang Wilma
+Comune / Provincia: Brezzo di Bedero
+Indirizzo: 9, via Pira Pianeggi, 21010 Caldè VA
+Coordinate: Lat 45.941474, Lng 8.680256
+Website: —
+Email: 
+
+10882. B&B Le Camelie
+ID: 15cf91fd-54cf-4cc6-ae1d-f1e796c376b5
+Slug: b-b-le-camelie-brezzo-di-bedero
+Nome: B&B Le Camelie
+Comune / Provincia: Brezzo di Bedero
+Indirizzo: Via XXV Aprile, 2, 21030 Brissago-Valtravaglia VA
+Coordinate: Lat 45.948622, Lng 8.746892
+Website: http://www.bblecamelie.it/
+Email: 
+
+10883. B&B Tana del ghiro-Ligurno-Porto Valtravaglia-Lago Maggiore-Varese
+ID: 3378f2d2-3b14-42d5-99ba-41f1bc20aa6e
+Slug: b-b-tana-del-ghiro-ligurno-porto-valtravaglia-la-brezzo-di-bedero
+Nome: B&B Tana del ghiro-Ligurno-Porto Valtravaglia-Lago Maggiore-Varese
+Comune / Provincia: Brezzo di Bedero
+Indirizzo: Via San Rocco, 18, 21010 Porto Valtravaglia VA
+Coordinate: Lat 45.949337, Lng 8.696998
+Website: http://www.tanadelghiroligurno.it/
+Email: 
+
+10884. La Corte Antica
+ID: 929ab903-0220-4dc0-92ce-afc0837c9812
+Slug: la-corte-antica-brezzo-di-bedero
+Nome: La Corte Antica
+Comune / Provincia: Brezzo di Bedero
+Indirizzo: Via Alessandro Manzoni, 34, 21016 Luino VA
+Coordinate: Lat 46.002069, Lng 8.743976
+Website: https://bnblacorteantica.it/
+Email: 
+
+10885. Luino Casa Amatissima
+ID: 8b79533b-4fe0-40d9-aab9-b6aefb4e7129
+Slug: luino-casa-amatissima-brezzo-di-bedero
+Nome: Luino Casa Amatissima
+Comune / Provincia: Brezzo di Bedero
+Indirizzo: Via Portovaltravaglia, 16, 21010 Brezzo di Bedero VA
+Coordinate: Lat 45.987202, Lng 8.711997
+Website: https://stayedhotel.com/casa-amatissima-italy
+Email: 

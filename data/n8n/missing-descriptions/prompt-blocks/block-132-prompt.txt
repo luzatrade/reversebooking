@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+4586. Hotel Continentale
+ID: e4022038-0349-4643-a688-80a22dd66f8c
+Slug: hotel-continentale-arezzo
+Nome: Hotel Continentale
+Comune / Provincia: Arezzo
+Indirizzo: Piazza Guido Monaco, 7, 52100 Arezzo AR
+Coordinate: Lat 43.462893, Lng 11.877655
+Website: https://www.hotelcontinentale.com/
+Email: 
+
+4587. Hotel Il Gentiluomo
+ID: c75a5eef-afc5-4f2d-ab50-b4b604d5a608
+Slug: hotel-il-gentiluomo-arezzo
+Nome: Hotel Il Gentiluomo
+Comune / Provincia: Arezzo
+Indirizzo: Via Raccordo Autostradale, Accesso dal distributore Beyfin, Località S. Giuliano, 1/A, 52100 Arezzo AR
+Coordinate: Lat 43.444951, Lng 11.797896
+Website: http://www.hotelgentiluomo.com/
+Email: 
+
+4588. Hotel l'Aretino
+ID: d48f2086-fa1c-4cc8-b2d8-8865b32161f7
+Slug: hotel-l-aretino-arezzo
+Nome: Hotel l'Aretino
+Comune / Provincia: Arezzo
+Indirizzo: Via della Madonna del Prato, 83, 52100 Arezzo AR
+Coordinate: Lat 43.462467, Lng 11.878635
+Website: http://www.laretinohotel.com/
+Email: 
+
+4589. Hotel Planet International
+ID: 3183d4a6-49d5-4c95-b09e-4e97ee2ce727
+Slug: hotel-planet-international-arezzo
+Nome: Hotel Planet International
+Comune / Provincia: Arezzo
+Indirizzo: Località Rigutino Est, 161/162, 52100 Arezzo AR
+Coordinate: Lat 43.371454, Lng 11.876249
+Website: http://www.hotelplanetinternational.com/
+Email: 
+
+4590. I Portici Hotel - - residenza D'epoca-Arezzo
+ID: a549bdd8-1b5e-45d1-95dd-a3d398746a46
+Slug: i-portici-hotel-residenza-d-epoca-arezzo-arezzo
+Nome: I Portici Hotel - - residenza D'epoca-Arezzo
+Comune / Provincia: Arezzo
+Indirizzo: Via Roma, 18, 52100 Arezzo AR
+Coordinate: Lat 43.46266, Lng 11.87929
+Website: https://www.iporticiboutiquehotel.com/
+Email: 
+
+4591. Minerva Hotel Arezzo
+ID: 2e737356-2ef6-4483-bff7-32573c427968
+Slug: minerva-hotel-arezzo-arezzo
+Nome: Minerva Hotel Arezzo
+Comune / Provincia: Arezzo
+Indirizzo: Via Fiorentina, 4, 52100 Arezzo AR
+Coordinate: Lat 43.470696, Lng 11.864771
+Website: https://www.hotel-minerva.it/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+4592. Terra d'Arezzo
+ID: 66852eee-8051-4288-8d81-c1fb6c454300
+Slug: terra-d-arezzo-arezzo
+Nome: Terra d'Arezzo
+Comune / Provincia: Arezzo
+Indirizzo: Piazza di Murello, 4, 52100 Arezzo AR
+Coordinate: Lat 43.466916, Lng 11.880856
+Website: https://terra-darezzo.dreaminginrome.com/
+Email: 
+
+4593. THE HOMESTAY - Arezzo
+ID: f019b07a-2248-422d-81d6-cca2abe7618b
+Slug: the-homestay-arezzo-arezzo
+Nome: THE HOMESTAY - Arezzo
+Comune / Provincia: Arezzo
+Indirizzo: Via Marco Perennio, 23/c, 52100 Arezzo AR
+Coordinate: Lat 43.468866, Lng 11.873673
+Website: https://chimerahostel.wixsite.com/thehomestayarezzo
+Email: 
+
+4594. B&B Cherry en Rose
+ID: f0f41f1e-a5ab-480e-a42c-24741981df7a
+Slug: b-b-cherry-en-rose-argegno
+Nome: B&B Cherry en Rose
+Comune / Provincia: Argegno
+Indirizzo: Località Cendraro Monte, 89, 22025 Lezzeno CO
+Coordinate: Lat 45.947993, Lng 9.204531
+Website: http://www.cherryenrose.com/
+Email: 
+
+4595. B&B Garzola
+ID: 4902b653-e2ef-4c69-80cb-81dd13e1a41a
+Slug: b-b-garzola-argegno
+Nome: B&B Garzola
+Comune / Provincia: Argegno
+Indirizzo: V. Pasquale Castelli, 24, 22010 Ossuccio CO
+Coordinate: Lat 45.972868, Lng 9.181761
+Website: http://www.locandagarzola.it/
+Email: 
+
+4596. B&B Il Nido dello Svasso
+ID: 79b0743a-4873-45d1-b6d6-50390acef899
+Slug: b-b-il-nido-dello-svasso-argegno
+Nome: B&B Il Nido dello Svasso
+Comune / Provincia: Argegno
+Indirizzo: Via Vittorio Emanuele, 41A, 22010 Sorico CO
+Coordinate: Lat 46.171922, Lng 9.377077
+Website: http://www.ilnidodellosvasso.com/
+Email: 
+
+4597. B&B Nest On The Lake
+ID: 9039806e-9ad2-4c08-8eea-c2558d677664
+Slug: b-b-nest-on-the-lake-argegno
+Nome: B&B Nest On The Lake
+Comune / Provincia: Argegno
+Indirizzo: Località Sostra, 19/17, 22025 Lezzeno CO
+Coordinate: Lat 45.948166, Lng 9.203666
+Website: http://www.nestonthelake.com/
+Email: 
+
+4598. B&B Sosta Sul Lago
+ID: 1d45bdfc-deb3-499f-b746-d320b2fbc7a8
+Slug: b-b-sosta-sul-lago-argegno
+Nome: B&B Sosta Sul Lago
+Comune / Provincia: Argegno
+Indirizzo: Località Bagnana, 99, 22025 Lezzeno CO
+Coordinate: Lat 45.944968, Lng 9.187723
+Website: http://www.sostasullago.it/
+Email: 
+
+4599. Bed and Breakfast Casa Pini
+ID: 1215d818-bd4c-4f09-b3f5-6b930b12e409
+Slug: bed-and-breakfast-casa-pini-argegno
+Nome: Bed and Breakfast Casa Pini
+Comune / Provincia: Argegno
+Indirizzo: Via Brentano, 12 F, 22011 Griante CO
+Coordinate: Lat 45.995661, Lng 9.233691
+Website: http://www.casapini.com/
+Email: 
+
+4600. Casa Vostra
+ID: 28e1ffb4-69ca-471a-bd55-f22a46cf1db2
+Slug: casa-vostra-argegno
+Nome: Casa Vostra
+Comune / Provincia: Argegno
+Indirizzo: Via Schignano, 3, 22010 Argegno CO
+Coordinate: Lat 45.939453, Lng 9.127508
+Website: —
+Email: 
+
+4601. Fattoria dei Castagni
+ID: c3154395-c793-4ff8-9ad0-6698e1807b5d
+Slug: fattoria-dei-castagni-argegno
+Nome: Fattoria dei Castagni
+Comune / Provincia: Argegno
+Indirizzo: Via Schignano, 22010 Argegno CO
+Coordinate: Lat 45.937349, Lng 9.110699
+Website: http://www.fattoriadeicastagni.com/
+Email: 
+
+4602. Hotel Argegno
+ID: 194e9e38-b003-4330-b581-6e55c344ce40
+Slug: hotel-argegno-argegno
+Nome: Hotel Argegno
+Comune / Provincia: Argegno
+Indirizzo: Via Milano, 4, 22010 Argegno CO
+Coordinate: Lat 45.942841, Lng 9.128069
+Website: http://www.hotelargegno.it/
+Email: 
+
+4603. Hotel Ristorante La Griglia Lago Di Como
+ID: ee5f9a42-58bc-4eff-b8e6-553d28295dcc
+Slug: hotel-ristorante-la-griglia-lago-di-como-argegno
+Nome: Hotel Ristorante La Griglia Lago Di Como
+Comune / Provincia: Argegno
+Indirizzo: Via Schignano, 1, 22010 Sant'Anna CO
+Coordinate: Lat 45.940156, Lng 9.110585
+Website: http://www.lagriglia.it/
+Email: 
+
+4604. Larioview suites
+ID: 20588c4d-4e4a-4daa-9c52-ce168dab1e15
+Slug: larioview-suites-argegno
+Nome: Larioview suites
+Comune / Provincia: Argegno
+Indirizzo: Via Pizzo Gordona, 33, 22010 Argegno CO
+Coordinate: Lat 45.9424, Lng 9.12585
+Website: https://www.larioview.com/
+Email: 
+
+4605. Locanda Posta
+ID: 714495e3-4335-4346-b029-f17b10f174bc
+Slug: locanda-posta-argegno
+Nome: Locanda Posta
+Comune / Provincia: Argegno
+Indirizzo: Via Cacciatori delle Alpi, 32, 22010 Argegno CO
+Coordinate: Lat 45.943976, Lng 9.127487
+Website: https://www.laposteria1817.it/
+Email: 
+
+4606. Locanda Sant'Anna
+ID: 4b3b80b2-9c9d-4bf2-8222-07b1cf8adfcf
+Slug: locanda-sant-anna-argegno
+Nome: Locanda Sant'Anna
+Comune / Provincia: Argegno
+Indirizzo: Via Schignano, 22010 Sant'Anna CO
+Coordinate: Lat 45.940559, Lng 9.110286
+Website: http://www.locandasantanna.it/
+Email: 
+
+4607. Terrazza Del Borgo Argegno
+ID: d7acbf60-8a63-4547-9c60-3e6e6b856fe3
+Slug: terrazza-del-borgo-argegno-argegno
+Nome: Terrazza Del Borgo Argegno
+Comune / Provincia: Argegno
+Indirizzo: Via Giuseppe Garibaldi, 35, 22010 Argegno CO
+Coordinate: Lat 45.942376, Lng 9.127886
+Website: http://www.cometocomo.it/terrazzadelborgo
+Email: 
+
+4608. Una finestra sul lago
+ID: bddd95f1-0c1e-4684-a533-b408a5da2ceb
+Slug: una-finestra-sul-lago-argegno
+Nome: Una finestra sul lago
+Comune / Provincia: Argegno
+Indirizzo: Via Cacciatori delle Alpi, 22 2nd Floor, 22010 Argegno CO
+Coordinate: Lat 45.94356, Lng 9.127722
+Website: https://www.booking.com/hotel/it/una-finestra-sul-lago-argegno.it.html?aid=356980&label=gog235jc-1DCAsoFUIVdW5hLWZpbmVzdHJhLXN1bC1sYWdvSBRYA2j7AYgBAZgBFLgBGMgBDdgBA-gBAfgBAogCAagCBLgCuLb0swbAAgHSAiQxOTRiMWI3Ni01M2ZmLTRlMjktYmQyOS03NjgyZjI2OGFmM2bYAgTgAgE&sid=165b178a2ede99ed902816a534a5d6e7&checkin=2024-07-08&checkout=2024-07-10&dest_id=-110640&dest_type=city&dist=0&do_availability_check=1&group_adults=2&group_children=0&hp_avform=1&hp_group_set=0&no_rooms=1&origin=hp&sb_price_type=total&src=hotel&type=total&#availability_target
+Email: 
+
+4609. Villa Belvedere Como lake Relais e Le Restaurant in Villa
+ID: dae537f7-44fe-4378-a035-35906bbe26aa
+Slug: villa-belvedere-como-lake-relais-e-le-restaurant-argegno
+Nome: Villa Belvedere Como lake Relais e Le Restaurant in Villa
+Comune / Provincia: Argegno
+Indirizzo: Via Milano, 1, 22010 Argegno CO
+Coordinate: Lat 45.941822, Lng 9.128258
+Website: http://www.villabelvedererelais.it/
+Email: 
+
+4610. Vista Dolce Isola
+ID: 92fe33a4-f404-49b0-8c42-d47ea2257eb7
+Slug: vista-dolce-isola-argegno
+Nome: Vista Dolce Isola
+Comune / Provincia: Argegno
+Indirizzo: Via Carlo Dotti, 1, 22010 Argegno CO
+Coordinate: Lat 45.94173, Lng 9.120394
+Website: https://www.cometocomo.it/vistadolceisola
+Email: 
+
+4611. Affittacamere levante
+ID: 2291263a-1ad3-43b7-949d-b0da4f77551b
+Slug: affittacamere-levante-argelato
+Nome: Affittacamere levante
+Comune / Provincia: Argelato
+Indirizzo: Via Stelloni Levante, 23, 40012 Calderara di Reno BO
+Coordinate: Lat 44.565962, Lng 11.296096
+Website: https://www.affittacamerelevante.com/
+Email: 
+
+4612. Affittacamere Villa Tigli
+ID: 72942207-c719-4407-bd4a-9acb17578ace
+Slug: affittacamere-villa-tigli-argelato
+Nome: Affittacamere Villa Tigli
+Comune / Provincia: Argelato
+Indirizzo: Via dei Tigli, 42, 40050 Argelato BO
+Coordinate: Lat 44.637833, Lng 11.343609
+Website: https://www.villatigliargelato.it/
+Email: 
+
+4613. Antica Locanda Il Sole Hotel
+ID: f64fd040-bdf7-48c6-b414-f6474b350dd0
+Slug: antica-locanda-il-sole-hotel-argelato
+Nome: Antica Locanda Il Sole Hotel
+Comune / Provincia: Argelato
+Indirizzo: Via Lame, 65, 40013 Trebbo BO
+Coordinate: Lat 44.554077, Lng 11.318327
+Website: —
+Email: 
+
+4614. B&B i Casali (IT037050C1C59QKUUA)
+ID: 1b32c0c2-5ce0-458b-957f-04aadc534805
+Slug: b-b-i-casali-it037050c1c59qkuua-argelato
+Nome: B&B i Casali (IT037050C1C59QKUUA)
+Comune / Provincia: Argelato
+Indirizzo: Via Longarola, 42, 40010 Sala Bolognese BO
+Coordinate: Lat 44.600983, Lng 11.297034
+Website: https://icasalibologna.webnode.it/
+Email: 
+
+4615. B&B OASI
+ID: d1276caa-fc97-44f9-b2e9-fc3c5467bee7
+Slug: b-b-oasi-argelato
+Nome: B&B OASI
+Comune / Provincia: Argelato
+Indirizzo: Via Centese, 8, 40016 San Giorgio di Piano BO
+Coordinate: Lat 44.638927, Lng 11.368093
+Website: https://bb-oasi.dormireinitalia.top/
+Email: 
+
+4616. B&B Villa Pace D'Oro
+ID: da8ef13e-a7ed-4432-940b-6c757e6ce137
+Slug: b-b-villa-pace-d-oro-argelato
+Nome: B&B Villa Pace D'Oro
+Comune / Provincia: Argelato
+Indirizzo: Via Centese, 209, 40050 Argelato BO
+Coordinate: Lat 44.651097, Lng 11.332049
+Website: https://www.villapacedoro.it/
+Email: 
+
+4617. Bentivoglio hotel congress
+ID: 3d5769ee-6d2a-48f6-80ca-c40c47036b48
+Slug: bentivoglio-hotel-congress-argelato
+Nome: Bentivoglio hotel congress
+Comune / Provincia: Argelato
+Indirizzo: A13, 40010 Padova BO
+Coordinate: Lat 44.586988, Lng 11.389511
+Website: https://www.zanhotel.it/hotel-meeting-centergross-bologna
+Email: 
+
+4618. CASA PAOLA
+ID: f1b20834-66c9-4446-8836-57b53ee81138
+Slug: casa-paola-argelato
+Nome: CASA PAOLA
+Comune / Provincia: Argelato
+Indirizzo: Via A. Gramsci, 7, 40010 Sala Bolognese BO
+Coordinate: Lat 44.62045, Lng 11.259164
+Website: —
+Email: 
+
+4619. CASTELLO D'ARGILE HOTEL
+ID: 41975bb3-d899-43ef-90f2-4841a0add826
+Slug: castello-d-argile-hotel-argelato
+Nome: CASTELLO D'ARGILE HOTEL
+Comune / Provincia: Argelato
+Indirizzo: Via dei Falegnami, 3, 40050 Castello d'Argile BO
+Coordinate: Lat 44.693129, Lng 11.306506
+Website: https://www.hotelcastellodargile.it/
+Email: 
+
+4620. Hotel & Ristorante sushi Oro
+ID: 866e0b88-1068-4a9d-a814-a77af957ed60
+Slug: hotel-ristorante-sushi-oro-argelato
+Nome: Hotel & Ristorante sushi Oro
+Comune / Provincia: Argelato
+Indirizzo: Via Giovannina, 57, 44042 Cento FE
+Coordinate: Lat 44.7345, Lng 11.267152
+Website: https://emenu-global.sandypos.com/?rid=12228&tid=-1&ver=5
+Email: 

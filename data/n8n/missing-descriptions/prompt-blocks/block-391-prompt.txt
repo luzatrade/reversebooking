@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+13651. B&B Il Girasole
+ID: b169b4a3-3000-4477-b617-5dc6ed734d8f
+Slug: b-b-il-girasole-candidoni
+Nome: B&B Il Girasole
+Comune / Provincia: Candidoni
+Indirizzo: Via Firenze, 89023 Laureana di Borrello RC
+Coordinate: Lat 38.488398, Lng 16.07998
+Website: https://www.facebook.com/girasole.beb/
+Email: 
+
+13652. I due Leoni bed and breakfast
+ID: ae412f61-af44-493a-b5b6-d0a95efb21c4
+Slug: i-due-leoni-bed-and-breakfast-candidoni
+Nome: I due Leoni bed and breakfast
+Comune / Provincia: Candidoni
+Indirizzo: Via Prazza, 6, 89023 Laureana di Borrello RC
+Coordinate: Lat 38.496669, Lng 16.090862
+Website: —
+Email: 
+
+13653. Sopra le Laure B&B
+ID: 071960ab-662c-40f5-a363-8141b7f87b37
+Slug: sopra-le-laure-b-b-candidoni
+Nome: Sopra le Laure B&B
+Comune / Provincia: Candidoni
+Indirizzo: Via Sant'Anna, 116, 89023 Laureana di Borrello RC
+Coordinate: Lat 38.497151, Lng 16.089659
+Website: http://www.sopralelaure.it/
+Email: 
+
+13654. Agriturismo Cascina Duc
+ID: 233ed437-ba63-4629-9d33-7a43fc65ae89
+Slug: agriturismo-cascina-duc-candiolo
+Nome: Agriturismo Cascina Duc
+Comune / Provincia: Candiolo
+Indirizzo: Str. del Portone, 197, 10095 Grugliasco TO
+Coordinate: Lat 45.038625, Lng 7.603177
+Website: http://www.cascinaduc.it/
+Email: 
+
+13655. Agriturismo Cascina Gai
+ID: 6ef4dea4-218b-4423-937c-6dac7c5c5c6b
+Slug: agriturismo-cascina-gai-candiolo
+Nome: Agriturismo Cascina Gai
+Comune / Provincia: Candiolo
+Indirizzo: Regione Ponte Po, 22, 10041 Carignano TO
+Coordinate: Lat 44.90345, Lng 7.698581
+Website: https://www.agriturismocascinagai.it/
+Email: 
+
+13656. Agriturismo Cascina Gorgia
+ID: e5db8f26-feae-4649-ae71-7b5e1cf43cf2
+Slug: agriturismo-cascina-gorgia-candiolo
+Nome: Agriturismo Cascina Gorgia
+Comune / Provincia: Candiolo
+Indirizzo: Str. Stupinigi, 80, 10043 Orbassano TO
+Coordinate: Lat 44.992371, Lng 7.565325
+Website: https://www.cascinagorgia.it/
+Email: 
+
+13657. Agriturismo Cascina Ollera Aurelio Ceresa
+ID: 198d46e9-2af3-479c-bbe3-de4d909101ba
+Slug: agriturismo-cascina-ollera-aurelio-ceresa-candiolo
+Nome: Agriturismo Cascina Ollera Aurelio Ceresa
+Comune / Provincia: Candiolo
+Indirizzo: Cascina Ollera, 10, 10060 None TO
+Coordinate: Lat 44.916174, Lng 7.524891
+Website: http://www.ollera.it/
+Email: 
+
+13658. Agriturismo Cascina Teitòt
+ID: de692bb9-dd4a-4e22-af48-b2a56d503b7c
+Slug: agriturismo-cascina-teitot-candiolo
+Nome: Agriturismo Cascina Teitòt
+Comune / Provincia: Candiolo
+Indirizzo: Cascina Teitotto, 1, 10060 Scalenghe TO
+Coordinate: Lat 44.886718, Lng 7.516126
+Website: https://www.facebook.com/cascinateitot
+Email: 
+
+13659. Agriturismo L'antico Pioppo
+ID: 4ae3a4f1-59bb-4f3f-8156-e48d4c4acad4
+Slug: agriturismo-l-antico-pioppo-candiolo
+Nome: Agriturismo L'antico Pioppo
+Comune / Provincia: Candiolo
+Indirizzo: Via Badini Confalonieri, 28, 10026 Santena TO
+Coordinate: Lat 44.947096, Lng 7.774942
+Website: http://www.anticopioppo.it/
+Email: 
+
+13660. Agriturismo Medialuna
+ID: 8ea694da-eb4a-485b-82a2-bea6ac8097f7
+Slug: agriturismo-medialuna-candiolo
+Nome: Agriturismo Medialuna
+Comune / Provincia: Candiolo
+Indirizzo: Str. dei Ronchi, 38, 10048 Vinovo TO
+Coordinate: Lat 44.937839, Lng 7.642986
+Website: https://medialunavinovo.wordpress.com/
+Email: 
+
+13661. Agriturismo Sandrone
+ID: c8106ad6-e271-4c92-b4f5-9e8df9680e68
+Slug: agriturismo-sandrone-candiolo
+Nome: Agriturismo Sandrone
+Comune / Provincia: Candiolo
+Indirizzo: Via Sestriere, 154, 10048 Vinovo TO
+Coordinate: Lat 44.964387, Lng 7.607856
+Website: http://www.agriturismosandrone.it/
+Email: 
+
+13662. B&B La Corte
+ID: 00d7baba-8234-479b-ab25-47e1faa516db
+Slug: b-b-la-corte-candiolo
+Nome: B&B La Corte
+Comune / Provincia: Candiolo
+Indirizzo: Via Roma, 5, 10060 Candiolo TO
+Coordinate: Lat 44.958532, Lng 7.599888
+Website: http://www.lacortecandiolo.com/
+Email: 
+
+13663. Cascina La Villa
+ID: 98275fbe-5c11-4235-a1ea-c89c4328cc96
+Slug: cascina-la-villa-candiolo
+Nome: Cascina La Villa
+Comune / Provincia: Candiolo
+Indirizzo: Corso Vinovo, 191, 10041 Carignano TO
+Coordinate: Lat 44.928318, Lng 7.659618
+Website: https://www.facebook.com/cascinalavilla/
+Email: 
+
+13664. La Locanda del Nocciolo
+ID: 41de6014-5c9a-47f3-8ace-e7360d8696ad
+Slug: la-locanda-del-nocciolo-candiolo
+Nome: La Locanda del Nocciolo
+Comune / Provincia: Candiolo
+Indirizzo: Località Chiarene, 4, 12060 Novello CN
+Coordinate: Lat 44.595619, Lng 7.904002
+Website: http://www.lalocandadelnocciolo.it/
+Email: 
+
+13665. AS Hotel Sempione Fiera
+ID: 8b05e820-0f21-491e-a2bf-022b0299766e
+Slug: as-hotel-sempione-fiera-canegrate
+Nome: AS Hotel Sempione Fiera
+Comune / Provincia: Canegrate
+Indirizzo: SS33 del Sempione, 320, 20028 San Vittore Olona MI
+Coordinate: Lat 45.575242, Lng 8.95321
+Website: http://www.ashotelsempionefiera.it/
+Email: 
+
+13666. B&B Ca' dell'Angelo
+ID: 7cf90794-9dff-4d58-963d-d50cfc9458c7
+Slug: b-b-ca-dell-angelo-canegrate
+Nome: B&B Ca' dell'Angelo
+Comune / Provincia: Canegrate
+Indirizzo: Largo S. Angelo, 9, 20039 Canegrate MI
+Coordinate: Lat 45.570442, Lng 8.931123
+Website: —
+Email: 
+
+13667. B&B Corte dei Fratus
+ID: de0036b0-010b-4e17-9535-55cf2e73f2ed
+Slug: b-b-corte-dei-fratus-canegrate
+Nome: B&B Corte dei Fratus
+Comune / Provincia: Canegrate
+Indirizzo: Via S. Gaetano, 3, 20025 Legnano MI
+Coordinate: Lat 45.575438, Lng 8.9242
+Website: http://www.cortedeifratus.it/
+Email: 
+
+13668. Expo Hotel Milan
+ID: 198edede-adc2-4d6b-a906-fd09246d99fb
+Slug: expo-hotel-milan-canegrate
+Nome: Expo Hotel Milan
+Comune / Provincia: Canegrate
+Indirizzo: Via Achille Grandi, 4, 20015 Parabiago MI
+Coordinate: Lat 45.57206, Lng 8.960325
+Website: http://www.expohotelmilan.it/
+Email: 
+
+13669. Hotel del Riale
+ID: c087886b-f074-442c-aaaf-f079c9fd06d1
+Slug: hotel-del-riale-canegrate
+Nome: Hotel del Riale
+Comune / Provincia: Canegrate
+Indirizzo: Via S. Giuseppe, 1, 20015 Parabiago MI
+Coordinate: Lat 45.557915, Lng 8.947625
+Website: http://www.hotelriale.it/
+Email: 
+
+13670. Ristorante e Hotel Locanda del Villoresi
+ID: 549d3d06-b700-494f-a68f-0b2c078ae55d
+Slug: ristorante-e-hotel-locanda-del-villoresi-canegrate
+Nome: Ristorante e Hotel Locanda del Villoresi
+Comune / Provincia: Canegrate
+Indirizzo: SS33 del Sempione, 4, 20014 Nerviano MI
+Coordinate: Lat 45.561854, Lng 8.969455
+Website: https://locandavilloresi.com/
+Email: 
+
+13671. Agriturismo La Luna E I Falo
+ID: cc2d8a3d-abb8-41d8-abe0-f7b0f8d1322b
+Slug: agriturismo-la-luna-e-i-falo-canelli
+Nome: Agriturismo La Luna E I Falo
+Comune / Provincia: Canelli
+Indirizzo: Regione Aie, 37, 14053 Canelli AT
+Coordinate: Lat 44.730213, Lng 8.280575
+Website: —
+Email: 
+
+13672. B&B Ca 'nsel Bric
+ID: 273b13f4-e5d9-43bb-bc6b-d61f64cf6aa2
+Slug: b-b-ca-nsel-bric-canelli
+Nome: B&B Ca 'nsel Bric
+Comune / Provincia: Canelli
+Indirizzo: Str. Castellero, 34, 14053 Canelli AT
+Coordinate: Lat 44.741942, Lng 8.298409
+Website: https://completedstay.com/ca-nsel-bric-canelli/
+Email: 
+
+13673. B&B Cascina Frati
+ID: 95be6689-a908-4b05-bfbe-f3050766823c
+Slug: b-b-cascina-frati-canelli
+Nome: B&B Cascina Frati
+Comune / Provincia: Canelli
+Indirizzo: Via Commendatore Lazzaro Bocchino, 23, 14053 Canelli AT
+Coordinate: Lat 44.729756, Lng 8.271894
+Website: —
+Email: 
+
+13674. Bed and Breakfast View & Wine Asti
+ID: b9893157-5254-4c3c-b64f-cc6fbd0aeb60
+Slug: bed-and-breakfast-view-wine-asti-canelli
+Nome: Bed and Breakfast View & Wine Asti
+Comune / Provincia: Canelli
+Indirizzo: Costa Belvedere, 14053 Canelli AT
+Coordinate: Lat 44.721957, Lng 8.286575
+Website: https://view-wine.com/
+Email: 
+
+13675. Camere Centro Storico
+ID: 52b5eb8f-ee26-4bc1-8a55-9b1809f1db10
+Slug: camere-centro-storico-canelli
+Nome: Camere Centro Storico
+Comune / Provincia: Canelli
+Indirizzo: Via XX Settembre, 14, piazza Amedeo d'Aosta, 26, 14053 Canelli AT
+Coordinate: Lat 44.719581, Lng 8.286432
+Website: https://camerecentrostorico.it/
+Email: 
+
+13676. Hotel Ristorante Grappolo d'Oro
+ID: b6483d45-5772-4cd4-9355-c90108c2ff49
+Slug: hotel-ristorante-grappolo-d-oro-canelli
+Nome: Hotel Ristorante Grappolo d'Oro
+Comune / Provincia: Canelli
+Indirizzo: Viale Risorgimento, 59/61, 14053 Canelli AT
+Coordinate: Lat 44.718057, Lng 8.2825
+Website: http://www.grappolodorocanelli.it/
+Email: 
+
+13677. L'aja della Mirusina - Piedmont Resort Monferrato Langhe
+ID: 96f2f632-e7f8-4dec-adce-b7aed428e775
+Slug: l-aja-della-mirusina-piedmont-resort-monferrato-canelli
+Nome: L'aja della Mirusina - Piedmont Resort Monferrato Langhe
+Comune / Provincia: Canelli
+Indirizzo: Regione S. Giovanni, 110, 14053 Canelli AT
+Coordinate: Lat 44.741337, Lng 8.286544
+Website: https://www.mirusina.it/
+Email: 
+
+13678. Relais Villa Del Borgo
+ID: d7336b30-b3db-4f24-a859-442cba95b37e
+Slug: relais-villa-del-borgo-canelli
+Nome: Relais Villa Del Borgo
+Comune / Provincia: Canelli
+Indirizzo: Via Castello, 1, 14053 Canelli AT
+Coordinate: Lat 44.721711, Lng 8.288056
+Website: https://relaisvilladelborgo.com/
+Email: 
+
+13679. Agriturismo Casal Grande
+ID: be93f6a3-778a-4cd0-97a7-6255d058b654
+Slug: agriturismo-casal-grande-canepina
+Nome: Agriturismo Casal Grande
+Comune / Provincia: Canepina
+Indirizzo: Strada Canepina - Soriano, 2, 01030 Canepina VT
+Coordinate: Lat 42.390088, Lng 12.235277
+Website: http://www.agriturismocasalgrande.com/
+Email: 
+
+13680. Agriturismo Villa Amerina
+ID: 9fe0d1e9-a295-43c1-9ec2-74de493a074c
+Slug: agriturismo-villa-amerina-canepina
+Nome: Agriturismo Villa Amerina
+Comune / Provincia: Canepina
+Indirizzo: Contrada Cardelli, 01030 Corchiano VT
+Coordinate: Lat 42.362592, Lng 12.341803
+Website: https://agriturismovillaamerina.it/
+Email: 
+
+13681. B&B All’Ombra della Torre
+ID: 99548c96-be1a-4cd3-9ec8-0679de271c0a
+Slug: b-b-all-ombra-della-torre-canepina
+Nome: B&B All’Ombra della Torre
+Comune / Provincia: Canepina
+Indirizzo: Via Alberto Cencelli, 21, 01034 Fabrica di Roma VT
+Coordinate: Lat 42.334836, Lng 12.295264
+Website: http://allombradellatorre.info/
+Email: 
+
+13682. Balletti Park Hotel
+ID: 77713210-5df3-4bef-841d-9e33eb8e3b17
+Slug: balletti-park-hotel-canepina
+Nome: Balletti Park Hotel
+Comune / Provincia: Canepina
+Indirizzo: Via Umbria, 2/a, 01100 San Martino Al Cimino VT
+Coordinate: Lat 42.370247, Lng 12.125434
+Website: https://www.balletti.com/
+Email: 
+
+13683. Bed & Breakfast LA ROCCA
+ID: 5f8c88e1-d88f-4ef9-80f7-5a1fe4e24f66
+Slug: bed-breakfast-la-rocca-canepina
+Nome: Bed & Breakfast LA ROCCA
+Comune / Provincia: Canepina
+Indirizzo: Piazza Romeo Romei, 8, 01032 Caprarola VT
+Coordinate: Lat 42.32759, Lng 12.237663
+Website: http://www.bblarocca.it/
+Email: 
+
+13684. Hotel Mini Palace
+ID: b1bdefe6-30bd-4b50-b0e8-e3b3b20101e7
+Slug: hotel-mini-palace-canepina
+Nome: Hotel Mini Palace
+Comune / Provincia: Canepina
+Indirizzo: Via Santa Maria della Grotticella, 2b, 01100 Viterbo VT
+Coordinate: Lat 42.411914, Lng 12.113285
+Website: https://sites.google.com/view/hotel-mini-palace/
+Email: 
+
+13685. il Caravaggio b&b
+ID: 785c74aa-31a0-4ed6-88e9-1c9c4c5a4950
+Slug: il-caravaggio-b-b-canepina
+Nome: il Caravaggio b&b
+Comune / Provincia: Canepina
+Indirizzo: Via Nino Bixio, 4, 01032 Caprarola VT
+Coordinate: Lat 42.325672, Lng 12.240524
+Website: —
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+14316. B&B Clarentia
+ID: 0bd768b6-b65e-459b-ab79-ed3e381df9df
+Slug: b-b-clarentia-capracotta
+Nome: B&B Clarentia
+Comune / Provincia: Capracotta
+Indirizzo: Via Roma, 66040 Pizzoferrato CH
+Coordinate: Lat 41.92194, Lng 14.23669
+Website: https://www.facebook.com/profile.php?id=61564403195080
+Email: 
+
+14317. B&B La Camia
+ID: 5ac82fd0-fdcc-4b9d-a556-6dc2ffb7399a
+Slug: b-b-la-camia-capracotta
+Nome: B&B La Camia
+Comune / Provincia: Capracotta
+Indirizzo: Via Del Lavoro, 40, 67031 Castel di Sangro AQ
+Coordinate: Lat 41.774261, Lng 14.099956
+Website: https://www.lacamia.com/
+Email: 
+
+14318. B&b Masseria Cerasella
+ID: 1446ebba-8e7b-40ea-a2f2-e24892d16edc
+Slug: b-b-masseria-cerasella-capracotta
+Nome: B&b Masseria Cerasella
+Comune / Provincia: Capracotta
+Indirizzo: SS84, Km 5/900, 67033 Pescocostanzo AQ
+Coordinate: Lat 41.895989, Lng 14.101267
+Website: https://beb.it/masseriacerasella
+Email: 
+
+14319. Bed & Breakfast 1421
+ID: 35fc9fec-81f8-492c-a902-fe1416340f77
+Slug: bed-breakfast-1421-capracotta
+Nome: Bed & Breakfast 1421
+Comune / Provincia: Capracotta
+Indirizzo: Via Nicola Mosca, 2, 86082 Capracotta IS
+Coordinate: Lat 41.835579, Lng 14.266688
+Website: http://1421.it/
+Email: 
+
+14320. DIMORAME CAPRACOTTA
+ID: 1af9096f-b166-4188-8bd8-4b052e178d7d
+Slug: dimorame-capracotta-capracotta
+Nome: DIMORAME CAPRACOTTA
+Comune / Provincia: Capracotta
+Indirizzo: Via Carfagna, 7, 86082 Capracotta IS
+Coordinate: Lat 41.834168, Lng 14.264625
+Website: https://www.dimorame.it/
+Email: 
+
+14321. Affittacamere La Terrazza
+ID: 22b85465-baa5-48ad-b194-a51fee4b9052
+Slug: affittacamere-la-terrazza-capraia-e-limite
+Nome: Affittacamere La Terrazza
+Comune / Provincia: Capraia e Limite
+Indirizzo: Via Domenico Bartoloni, 55, 50053 Empoli FI
+Coordinate: Lat 43.713143, Lng 10.944144
+Website: https://www.affittacamerelaterrazza.it/
+Email: 
+
+14322. Agriturismo Podere Dell'Anselmo
+ID: a942c74c-1579-40bc-8756-98e284f540f3
+Slug: agriturismo-podere-dell-anselmo-capraia-e-limite
+Nome: Agriturismo Podere Dell'Anselmo
+Comune / Provincia: Capraia e Limite
+Indirizzo: Via Panfi Anselmo, 12, 50025 Montespertoli FI
+Coordinate: Lat 43.688101, Lng 11.064622
+Website: http://www.poderedellanselmo.it/
+Email: 
+
+14323. Agriturismo Tenuta Cantagallo
+ID: 51f8b487-0e65-45a3-8753-1d702c23638f
+Slug: agriturismo-tenuta-cantagallo-capraia-e-limite
+Nome: Agriturismo Tenuta Cantagallo
+Comune / Provincia: Capraia e Limite
+Indirizzo: Via Valicarda, 35/A, 50050 Capraia e Limite FI
+Coordinate: Lat 43.751535, Lng 11.015723
+Website: https://www.cantagallolefarnete.it/
+Email: 
+
+14324. B&B Casa Fei
+ID: 541c0a68-23ae-46da-bdb1-c639e59f3a4f
+Slug: b-b-casa-fei-capraia-e-limite
+Nome: B&B Casa Fei
+Comune / Provincia: Capraia e Limite
+Indirizzo: Via Manlio Romoli, 21, 50058 Signa FI
+Coordinate: Lat 43.778334, Lng 11.094077
+Website: https://bb-casa-fei.mondoinviaggio.top/
+Email: 
+
+14325. B&B In Torre
+ID: 2edb7f21-8436-4da5-a2f4-0da9b5edb219
+Slug: b-b-in-torre-capraia-e-limite
+Nome: B&B In Torre
+Comune / Provincia: Capraia e Limite
+Indirizzo: Via del Castello, 76/B, 50058 Signa FI
+Coordinate: Lat 43.778305, Lng 11.093598
+Website: http://in-torre.com.es/
+Email: 
+
+14326. B&B La Casa di Zefiro
+ID: 5208f4fe-ede5-4c9f-850b-902e3dd0e007
+Slug: b-b-la-casa-di-zefiro-capraia-e-limite
+Nome: B&B La Casa di Zefiro
+Comune / Provincia: Capraia e Limite
+Indirizzo: Via Castra, 58/A, 50050 Limite Sull'Arno FI
+Coordinate: Lat 43.771522, Lng 10.991078
+Website: http://www.lacasadizefiro.it/
+Email: 
+
+14327. Bed and Breakfast Borgo San Giusto
+ID: 28b9fb80-3ad8-416a-a519-2a48a58cd854
+Slug: bed-and-breakfast-borgo-san-giusto-capraia-e-limite
+Nome: Bed and Breakfast Borgo San Giusto
+Comune / Provincia: Capraia e Limite
+Indirizzo: Via Salaiola, 151, 50053 Empoli FI
+Coordinate: Lat 43.696972, Lng 10.942389
+Website: https://www.borgosangiusto.it/
+Email: 
+
+14328. Casa Ercoli - B&B VINCI
+ID: b33a7121-c4c6-409c-a6df-7d82e503a993
+Slug: casa-ercoli-b-b-vinci-capraia-e-limite
+Nome: Casa Ercoli - B&B VINCI
+Comune / Provincia: Capraia e Limite
+Indirizzo: Via g. Verdi, 20, 50059 Spicchio-Sovigliana FI
+Coordinate: Lat 43.729503, Lng 10.936076
+Website: https://www.casaercoli.it/
+Email: 
+
+14329. Country Hotel Borgo Sant'Ippolito - Ginestra Fiorentina
+ID: f28f2efe-63ec-48ef-9f1f-3bd8f5864b63
+Slug: country-hotel-borgo-sant-ippolito-ginestra-fiore-capraia-e-limite
+Nome: Country Hotel Borgo Sant'Ippolito - Ginestra Fiorentina
+Comune / Provincia: Capraia e Limite
+Indirizzo: Via Chiantigiana, 268, 50055 Ginestra Fiorentina FI
+Coordinate: Lat 43.720048, Lng 11.040221
+Website: http://www.borgosantippolito.it/
+Email: 
+
+14330. Empoli Rooms
+ID: 4f0b3867-04a0-4ade-8847-e3f508dcf1f7
+Slug: empoli-rooms-capraia-e-limite
+Nome: Empoli Rooms
+Comune / Provincia: Capraia e Limite
+Indirizzo: Via dei Cappuccini, 38, 50053 Empoli FI
+Coordinate: Lat 43.713886, Lng 10.947611
+Website: https://www.empolirooms.it/
+Email: 
+
+14331. Hall Suites
+ID: f88a89a5-236f-4242-8d31-0835dad74969
+Slug: hall-suites-capraia-e-limite
+Nome: Hall Suites
+Comune / Provincia: Capraia e Limite
+Indirizzo: Via Giuseppe del Papa, 76, 50053 Empoli FI
+Coordinate: Lat 43.719155, Lng 10.946565
+Website: https://myhall.kross.travel/
+Email: 
+
+14332. Hotel Granducato
+ID: e55e0e36-8f25-4617-a3cd-f70f877103b7
+Slug: hotel-granducato-capraia-e-limite
+Nome: Hotel Granducato
+Comune / Provincia: Capraia e Limite
+Indirizzo: Piazza Dell'Unione Europea, 33/34, 50056 Montelupo Fiorentino FI
+Coordinate: Lat 43.73129, Lng 11.021251
+Website: http://granducatohotel.it/
+Email: 
+
+14333. Hotel I'Fiorino
+ID: 46522624-e9ea-4845-91f6-d95baef7fac6
+Slug: hotel-i-fiorino-capraia-e-limite
+Nome: Hotel I'Fiorino
+Comune / Provincia: Capraia e Limite
+Indirizzo: S. Allende, 97 A/B, 50050 Capraia E Limite FI
+Coordinate: Lat 43.736853, Lng 11.013787
+Website: http://www.hotelifiorino.it/
+Email: 
+
+14334. Hotel Il Sole
+ID: 5cd200dc-c132-410f-8948-dc6ed9b78219
+Slug: hotel-il-sole-capraia-e-limite
+Nome: Hotel Il Sole
+Comune / Provincia: Capraia e Limite
+Indirizzo: P.za don Giovanni Minzoni, 18, 50053 Empoli FI
+Coordinate: Lat 43.716383, Lng 10.948786
+Website: http://www.hotelilsole.eu/
+Email: 
+
+14335. Hotel Ristorante Molo 73
+ID: 495ac3e1-8eb4-4825-a727-afeed4b37371
+Slug: hotel-ristorante-molo-73-capraia-e-limite
+Nome: Hotel Ristorante Molo 73
+Comune / Provincia: Capraia e Limite
+Indirizzo: Via Tosco Romagnola Sud, 112, 50053 Empoli FI
+Coordinate: Lat 43.720768, Lng 10.977008
+Website: http://www.molo73.it/
+Email: 
+
+14336. Stil Hotel
+ID: 46dd4443-1eec-41a1-ab70-f0a727982aa8
+Slug: stil-hotel-capraia-e-limite
+Nome: Stil Hotel
+Comune / Provincia: Capraia e Limite
+Indirizzo: Via dei Macelli, 22, 50058 Signa FI
+Coordinate: Lat 43.786184, Lng 11.097746
+Website: http://www.stilhotel.it/
+Email: 
+
+14337. Sweet Emily Bed & Breakfast
+ID: be839ab4-e3b6-4caa-99ad-b97c181003f4
+Slug: sweet-emily-bed-breakfast-capraia-e-limite
+Nome: Sweet Emily Bed & Breakfast
+Comune / Provincia: Capraia e Limite
+Indirizzo: Via Eugenio Curiel, 2, 50056 Montelupo Fiorentino FI
+Coordinate: Lat 43.736319, Lng 11.025751
+Website: —
+Email: 
+
+14338. Villa la Malva
+ID: 78f02896-8dd2-4858-80e3-fd140536fc54
+Slug: villa-la-malva-capraia-e-limite
+Nome: Villa la Malva
+Comune / Provincia: Capraia e Limite
+Indirizzo: Via Fratelli Buricchi, 35, 59015 Carmignano PO
+Coordinate: Lat 43.77104, Lng 11.056302
+Website: http://www.villalamalva.it/
+Email: 
+
+14339. Villa Le Farnete - Relais and Events
+ID: f2c7e405-bae0-47e5-89de-a78656421748
+Slug: villa-le-farnete-relais-and-events-capraia-e-limite
+Nome: Villa Le Farnete - Relais and Events
+Comune / Provincia: Capraia e Limite
+Indirizzo: Via Macia, 140, 59015 Comeana PO
+Coordinate: Lat 43.796309, Lng 11.049445
+Website: http://www.villalefarnete.com/
+Email: 
+
+14340. Albergo Ristorante Beppone
+ID: c280380c-cb6c-4f89-abeb-2489fed87e2f
+Slug: albergo-ristorante-beppone-capraia-isola
+Nome: Albergo Ristorante Beppone
+Comune / Provincia: Capraia Isola
+Indirizzo: Via Assunzione, 78, 57032 Capraia Isola LI
+Coordinate: Lat 43.050669, Lng 9.835182
+Website: —
+Email: 
+
+14341. Azienda Agricola Biologica Valle Di Portovecchio
+ID: 22b00819-2372-4c7d-91d5-3d4f437dbfc6
+Slug: azienda-agricola-biologica-valle-di-portovecchio-capraia-isola
+Nome: Azienda Agricola Biologica Valle Di Portovecchio
+Comune / Provincia: Capraia Isola
+Indirizzo: Localita' Il Pollaio, 1, 57032 Capraia Isola LI
+Coordinate: Lat 43.054021, Lng 9.831913
+Website: https://www.isoladicapraia.it/vallediportovecchio/
+Email: 
+
+14342. Capraia isola
+ID: 2164e71d-4611-4ee5-ad10-59529143369a
+Slug: capraia-isola-capraia-isola
+Nome: Capraia isola
+Comune / Provincia: Capraia Isola
+Indirizzo: Via Vittorio Emanuele, 23, 57032 Capraia Isola LI
+Coordinate: Lat 43.048749, Lng 9.84236
+Website: https://youtu.be/4gWO_xLxaEI
+Email: 
+
+14343. Caratteristica Casa Isola Capraia
+ID: cb13ffc9-7d9a-47e3-b9ea-b946701680cd
+Slug: caratteristica-casa-isola-capraia-capraia-isola
+Nome: Caratteristica Casa Isola Capraia
+Comune / Provincia: Capraia Isola
+Indirizzo: Casa, Via Carlo Alberto, 70, 57032 Capraia Isola LI
+Coordinate: Lat 43.047837, Lng 9.843745
+Website: —
+Email: 
+
+14344. eco-locazione turistica affitti brevi
+ID: 8b463d7b-01b7-4815-80af-7760ac85a1fd
+Slug: eco-locazione-turistica-affitti-brevi-capraia-isola
+Nome: eco-locazione turistica affitti brevi
+Comune / Provincia: Capraia Isola
+Indirizzo: Via Carlo Alberto, 6, 57032 Capraia Isola LI
+Coordinate: Lat 43.047749, Lng 9.840653
+Website: https://www.casamia-capraia.com/
+Email: 
+
+14345. Gamberino
+ID: c1629a1b-fef8-4e6d-a2ae-3534b6164375
+Slug: gamberino-capraia-isola
+Nome: Gamberino
+Comune / Provincia: Capraia Isola
+Indirizzo: Via Cavo Nero, SNC, 57032 Capraia Isola LI
+Coordinate: Lat 43.048686, Lng 9.843464
+Website: https://review-hotel-stay.eu/gamberino-italy
+Email: 
+
+14346. Il Campo di Margherita Azienda Agricola
+ID: b4eda232-fad7-49c1-a035-b579ffe48740
+Slug: il-campo-di-margherita-azienda-agricola-capraia-isola
+Nome: Il Campo di Margherita Azienda Agricola
+Comune / Provincia: Capraia Isola
+Indirizzo: Loc Semaforo, 57032 Capraia Isola LI
+Coordinate: Lat 43.045127, Lng 9.843509
+Website: —
+Email: 
+
+14347. Il Saracino boutique suites
+ID: 1112f754-9044-49b6-99d7-f71281313fd7
+Slug: il-saracino-boutique-suites-capraia-isola
+Nome: Il Saracino boutique suites
+Comune / Provincia: Capraia Isola
+Indirizzo: Via Lamberto Cibo, 30, 57032 Capraia Isola LI
+Coordinate: Lat 43.048711, Lng 9.84432
+Website: —
+Email: 
+
+14348. La Mandola eco Hostel
+ID: 3f70bf6e-1518-48c8-91be-e8187825fa12
+Slug: la-mandola-eco-hostel-capraia-isola
+Nome: La Mandola eco Hostel
+Comune / Provincia: Capraia Isola
+Indirizzo: Via della Mandola, 57032 Capraia Isola LI
+Coordinate: Lat 43.048775, Lng 9.841629
+Website: http://www.lamandolacapraia.com/
+Email: 
+
+14349. Maisonette Tommy
+ID: c757968d-55b3-4c90-8a5f-0e4aac5cd291
+Slug: maisonette-tommy-capraia-isola
+Nome: Maisonette Tommy
+Comune / Provincia: Capraia Isola
+Indirizzo: Via Vittorio Emanuele, 15, 57032 Capraia Isola LI
+Coordinate: Lat 43.048979, Lng 9.842354
+Website: https://thehoteinspect.com/maisonette-tommy-italy
+Email: 
+
+14350. Palazzo Renzi
+ID: c44c80ad-ff55-4e6b-9363-1a8ab02e7af3
+Slug: palazzo-renzi-capraia-isola
+Nome: Palazzo Renzi
+Comune / Provincia: Capraia Isola
+Indirizzo: Via Genova, 46, 57032 Capraia Isola LI
+Coordinate: Lat 43.047935, Lng 9.844665
+Website: https://palazzorenzi.it/
+Email: 

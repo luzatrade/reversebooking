@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+15436. B&B La Magnolia
+ID: 88a2d565-8f30-4d0b-8288-61244eda3343
+Slug: b-b-la-magnolia-casalecchio-di-reno
+Nome: B&B La Magnolia
+Comune / Provincia: Casalecchio di Reno
+Indirizzo: Via Andrea Costa, 45, 40134 Bologna BO
+Coordinate: Lat 44.495293, Lng 11.324804
+Website: http://www.lamagnolia-bologna.com/
+Email: 
+
+15437. B&B La Terrazza sul Reno
+ID: 097b7078-6531-4e8d-9712-b7df21ba6fa5
+Slug: b-b-la-terrazza-sul-reno-casalecchio-di-reno
+Nome: B&B La Terrazza sul Reno
+Comune / Provincia: Casalecchio di Reno
+Indirizzo: Via G. Mazzini, 6, 40033 Casalecchio di Reno BO
+Coordinate: Lat 44.478483, Lng 11.278233
+Website: https://www.facebook.com/profile.php?id=100092909144841
+Email: 
+
+15438. B&B Le Stanze di Erika
+ID: ab4e0913-773d-49b1-8083-839510cd772c
+Slug: b-b-le-stanze-di-erika-casalecchio-di-reno
+Nome: B&B Le Stanze di Erika
+Comune / Provincia: Casalecchio di Reno
+Indirizzo: Via del Francia, 7, 40033 Casalecchio di Reno BO
+Coordinate: Lat 44.485736, Lng 11.289332
+Website: http://www.lestanzedierika.it/default.html
+Email: 
+
+15439. B&B Maison Magnani
+ID: 9ca3b710-1c51-4151-8a15-3a1caf3d111c
+Slug: b-b-maison-magnani-casalecchio-di-reno
+Nome: B&B Maison Magnani
+Comune / Provincia: Casalecchio di Reno
+Indirizzo: Via Amerigo Vespucci, 8, 40033 Casalecchio di Reno BO
+Coordinate: Lat 44.483131, Lng 11.279312
+Website: —
+Email: 
+
+15440. Bed & Breakfast Chalet i Colli
+ID: f26dc778-91c9-4a74-99de-052dc4ca7ede
+Slug: bed-breakfast-chalet-i-colli-casalecchio-di-reno
+Nome: Bed & Breakfast Chalet i Colli
+Comune / Provincia: Casalecchio di Reno
+Indirizzo: Via di Monte Albano, 25, 40135 Bologna BO
+Coordinate: Lat 44.467193, Lng 11.299848
+Website: https://bed-breakfast-chalet-i-colli.italyforever.top/
+Email: 
+
+15441. Bed & Breakfast Chiusa di Casalecchio
+ID: 1b247244-ddc6-41d9-b899-0d835db8c9e5
+Slug: bed-breakfast-chiusa-di-casalecchio-casalecchio-di-reno
+Nome: Bed & Breakfast Chiusa di Casalecchio
+Comune / Provincia: Casalecchio di Reno
+Indirizzo: Via Filippo Turati, 3/piano terra, 40033 Casalecchio di Reno BO
+Coordinate: Lat 44.477888, Lng 11.280957
+Website: https://beb.it/chiusadicasalecchio/it/
+Email: 
+
+15442. Boutique Hotel Calzavecchio
+ID: 30059b17-103b-407f-9c48-1657239a53fe
+Slug: boutique-hotel-calzavecchio-casalecchio-di-reno
+Nome: Boutique Hotel Calzavecchio
+Comune / Provincia: Casalecchio di Reno
+Indirizzo: Via Calzavecchio, 1, 40033 Casalecchio di Reno BO
+Coordinate: Lat 44.473495, Lng 11.273307
+Website: http://www.hotelcalzavecchio.eu/
+Email: 
+
+15443. Casa Gardel Appartamento per brevi periodi Bed and breakfast
+ID: ce3d8808-5d4b-4dba-97a1-fe14d33b6637
+Slug: casa-gardel-appartamento-per-brevi-periodi-bed-a-casalecchio-di-reno
+Nome: Casa Gardel Appartamento per brevi periodi Bed and breakfast
+Comune / Provincia: Casalecchio di Reno
+Indirizzo: Via I Maggio, 7, 40033 Casalecchio di Reno BO
+Coordinate: Lat 44.479453, Lng 11.274405
+Website: https://casa-gardel1.webnode.it/
+Email: 
+
+15444. Continental Urban Art Hotel
+ID: 54f79334-15ed-4476-b7ae-bd57a48fbc8a
+Slug: continental-urban-art-hotel-casalecchio-di-reno
+Nome: Continental Urban Art Hotel
+Comune / Provincia: Casalecchio di Reno
+Indirizzo: Via G. Garibaldi, 8, 40069 Zola Predosa BO
+Coordinate: Lat 44.485733, Lng 11.225093
+Website: http://www.hotelcontinentalbologna.com/
+Email: 
+
+15445. hotel naxos
+ID: 6d6223bf-3f27-4d14-ae0d-23a1984fd889
+Slug: hotel-naxos-casalecchio-di-reno
+Nome: hotel naxos
+Comune / Provincia: Casalecchio di Reno
+Indirizzo: Via Bazzanese, 95/3, 40033 Casalecchio di Reno BO
+Coordinate: Lat 44.481091, Lng 11.257315
+Website: https://www.taorminaristorante.it/hotel/
+Email: 
+
+15446. Hotel San Martino Bologna
+ID: 8432e3db-4469-4494-bf21-bf692a643ace
+Slug: hotel-san-martino-bologna-casalecchio-di-reno
+Nome: Hotel San Martino Bologna
+Comune / Provincia: Casalecchio di Reno
+Indirizzo: Via Bazzanese, 7, 40033 Casalecchio di Reno BO
+Coordinate: Lat 44.479444, Lng 11.27
+Website: https://nuovohotelsanmartino.it/
+Email: 
+
+15447. L'arte dell'accoglienza - B&B
+ID: 3a6cc3c3-7673-497f-892f-c11d40f20517
+Slug: l-arte-dell-accoglienza-b-b-casalecchio-di-reno
+Nome: L'arte dell'accoglienza - B&B
+Comune / Provincia: Casalecchio di Reno
+Indirizzo: Via G. Garibaldi, 45, 40033 Casalecchio di Reno BO
+Coordinate: Lat 44.48312, Lng 11.280352
+Website: http://www.casalecchiobnb.it/
+Email: 
+
+15448. Podere Boschetto R&B
+ID: 305783a0-f7e5-4245-bb58-477785ca48d0
+Slug: podere-boschetto-r-b-casalecchio-di-reno
+Nome: Podere Boschetto R&B
+Comune / Provincia: Casalecchio di Reno
+Indirizzo: 22 /2Via, di Monte Albano, 40135 Bologna BO
+Coordinate: Lat 44.469408, Lng 11.292757
+Website: https://www.bookitalyhotels.com/it/hotel/podere-boschetto-r-b.html
+Email: 
+
+15449. SHG Hotel Bologna
+ID: 69837fbe-0ff5-4861-8a24-2efff82c1fca
+Slug: shg-hotel-bologna-casalecchio-di-reno
+Nome: SHG Hotel Bologna
+Comune / Provincia: Casalecchio di Reno
+Indirizzo: Via Risorgimento, 186, 40069 Zola Predosa BO
+Coordinate: Lat 44.487939, Lng 11.228647
+Website: https://www.shghotelbologna.com/?utm_source=GB&utm_medium=organic
+Email: 
+
+15450. Villa Aretusi
+ID: 17d4af09-39e8-49c4-a3c6-893ed1dc2be5
+Slug: villa-aretusi-casalecchio-di-reno
+Nome: Villa Aretusi
+Comune / Provincia: Casalecchio di Reno
+Indirizzo: Via Aretusi, 5, 40132 Bologna BO
+Coordinate: Lat 44.507598, Lng 11.28477
+Website: http://www.villa-aretusi.it/
+Email: 
+
+15451. Agriturismo “Veritas” Bed & Wine
+ID: 746018a8-628a-4ba2-b988-020116e52215
+Slug: agriturismo-veritas-bed-wine-casaleggio-boiro
+Nome: Agriturismo “Veritas” Bed & Wine
+Comune / Provincia: Casaleggio Boiro
+Indirizzo: Circonvallazione Alfio Lamanna, 15075 Mornese AL
+Coordinate: Lat 44.639013, Lng 8.747672
+Website: —
+Email: 
+
+15452. Cascina Burroni Azienda agricola di Alessia Parodi
+ID: 9af3f60f-33d1-4c86-8500-2da39ea70858
+Slug: cascina-burroni-azienda-agricola-di-alessia-paro-casaleggio-boiro
+Nome: Cascina Burroni Azienda agricola di Alessia Parodi
+Comune / Provincia: Casaleggio Boiro
+Indirizzo: Cascina Burroni, 15, 15070 Lerma AL
+Coordinate: Lat 44.647692, Lng 8.716223
+Website: http://www.cascinaburroni.it/
+Email: 
+
+15453. Cascina Galata
+ID: 2dc33207-7199-4ad5-a27f-d6256925dfa0
+Slug: cascina-galata-casaleggio-boiro
+Nome: Cascina Galata
+Comune / Provincia: Casaleggio Boiro
+Indirizzo: 15070 Casaleggio Boiro AL
+Coordinate: Lat 44.637823, Lng 8.736255
+Website: https://coastit.cyou/cascina-galata-nygxsu
+Email: 
+
+15454. Nel Caruggio - B&B
+ID: 2cc41d25-bb5a-4845-9810-4448eff5ae1b
+Slug: nel-caruggio-b-b-casaleggio-boiro
+Nome: Nel Caruggio - B&B
+Comune / Provincia: Casaleggio Boiro
+Indirizzo: Via Benso Domenico, 19, 15075 Mornese AL
+Coordinate: Lat 44.640062, Lng 8.756565
+Website: —
+Email: 
+
+15455. Oasi Castello di Lerma
+ID: 0f9f05f8-e760-4e63-8534-0fbf476081db
+Slug: oasi-castello-di-lerma-casaleggio-boiro
+Nome: Oasi Castello di Lerma
+Comune / Provincia: Casaleggio Boiro
+Indirizzo: Piazza Roma, 5, 15070 Lerma AL
+Coordinate: Lat 44.63399, Lng 8.709289
+Website: https://www.booking.com/hotel/it/oasi-castello-di-lerma.it.html
+Email: 
+
+15456. B&B Ametista Affittacamere
+ID: 1575cd6c-f6d6-4a7a-8d69-66fe9e3bb647
+Slug: b-b-ametista-affittacamere-casaleggio-novara
+Nome: B&B Ametista Affittacamere
+Comune / Provincia: Casaleggio Novara
+Indirizzo: Via Mameli, 2/o, 28060 Casaleggio Novara NO
+Coordinate: Lat 45.491389, Lng 8.495833
+Website: http://ametistabnb.altervista.org/
+Email: 
+
+15457. Villa Cometa
+ID: e5ccd2e9-55c4-473e-876d-49371c35bfee
+Slug: villa-cometa-casaleggio-novara
+Nome: Villa Cometa
+Comune / Provincia: Casaleggio Novara
+Indirizzo: Via Mameli, 28060 Casaleggio Novara NO
+Coordinate: Lat 45.490882, Lng 8.496014
+Website: http://www.villacometa.com/
+Email: 
+
+15458. Agriturismo Le Cadabese
+ID: 071fb386-2606-4e24-a753-bd72cea3cf0b
+Slug: agriturismo-le-cadabese-casaleone
+Nome: Agriturismo Le Cadabese
+Comune / Provincia: Casaleone
+Indirizzo: Via Cadabese, 57, 37053 Asparetto VR
+Coordinate: Lat 45.201288, Lng 11.171361
+Website: —
+Email: 
+
+15459. Ai Tigli e La Casa Grande di Corte Italia
+ID: 42938f1a-6481-4f36-9f03-910b42a02bc7
+Slug: ai-tigli-e-la-casa-grande-di-corte-italia-casaleone
+Nome: Ai Tigli e La Casa Grande di Corte Italia
+Comune / Provincia: Casaleone
+Indirizzo: Via Roma, 3, 37060 Sorgà VR
+Coordinate: Lat 45.214827, Lng 10.980309
+Website: http://www.aitigli.com/
+Email: 
+
+15460. Albergo Romagnolo
+ID: 4e1c7f8a-9044-432c-a5bc-3c8260e80cba
+Slug: albergo-romagnolo-casaleone
+Nome: Albergo Romagnolo
+Comune / Provincia: Casaleone
+Indirizzo: Via Vittorio Veneto, 105, 37053 Cerea VR
+Coordinate: Lat 45.187819, Lng 11.222143
+Website: http://www.hotelromagnolo.it/
+Email: 
+
+15461. Bo Casa - Affittacamere B&B
+ID: 57bfa7fa-00b9-4f8f-af26-490ff7addbc8
+Slug: bo-casa-affittacamere-b-b-casaleone
+Nome: Bo Casa - Affittacamere B&B
+Comune / Provincia: Casaleone
+Indirizzo: Via Venera, 1, 37052 Casaleone VR
+Coordinate: Lat 45.182033, Lng 11.182325
+Website: —
+Email: 
+
+15462. Casa Antica Rossato
+ID: b8f85a4d-a99f-475e-82fe-f228cc13f370
+Slug: casa-antica-rossato-casaleone
+Nome: Casa Antica Rossato
+Comune / Provincia: Casaleone
+Indirizzo: Via Mantova, 99, 37053 Cerea VR
+Coordinate: Lat 45.187453, Lng 11.200052
+Website: http://www.casanticarossato.it/
+Email: 
+
+15463. Mulino Delle Valli - Hotel
+ID: ed364ead-2947-4a04-bcc7-31da865adeeb
+Slug: mulino-delle-valli-hotel-casaleone
+Nome: Mulino Delle Valli - Hotel
+Comune / Provincia: Casaleone
+Indirizzo: Via Boldiere, 4, 37052 Casaleone VR
+Coordinate: Lat 45.147822, Lng 11.221169
+Website: http://www.mulinodellevalli.it/
+Email: 
+
+15464. Residenza Stazione
+ID: 3acdbd74-03f5-4e8e-9620-20793abb8d18
+Slug: residenza-stazione-casaleone
+Nome: Residenza Stazione
+Comune / Provincia: Casaleone
+Indirizzo: Via G. Oberdan, 30, 37060 Verona, VR
+Coordinate: Lat 45.185262, Lng 11.009589
+Website: http://residenzastazione.weebly.com/
+Email: 
+
+15465. Rooster Hotel
+ID: 3b8fa9e5-0651-4e97-a3c7-201d717fd49a
+Slug: rooster-hotel-casaleone
+Nome: Rooster Hotel
+Comune / Provincia: Casaleone
+Indirizzo: Corso V. Emanuele II, 18, 37058 Sanguinetto VR
+Coordinate: Lat 45.184222, Lng 11.151382
+Website: —
+Email: 
+
+15466. Agriturismo Cascina Pezzolo
+ID: eb659f45-80b3-41a9-83eb-7958788f8372
+Slug: agriturismo-cascina-pezzolo-casaletto-lodigiano
+Nome: Agriturismo Cascina Pezzolo
+Comune / Provincia: Casaletto Lodigiano
+Indirizzo: Via Pezzolo, 2b, 26854 Pieve Fissiraga LO
+Coordinate: Lat 45.280936, Lng 9.451987
+Website: http://www.agriturismopezzolo.it/
+Email: 
+
+15467. Air Bag
+ID: c32c8743-fb02-4da4-8546-fe838399a949
+Slug: air-bag-casaletto-lodigiano
+Nome: Air Bag
+Comune / Provincia: Casaletto Lodigiano
+Indirizzo: SS 9 Via Emilia, 26838 Tavazzano con Villavesco LO
+Coordinate: Lat 45.32915, Lng 9.434405
+Website: http://www.hotelmotelairbag.it/
+Email: 
+
+15468. Easy Room Italy Rogoredo
+ID: b059bcd8-9e8a-405f-92e0-69e15637c734
+Slug: easy-room-italy-rogoredo-casaletto-lodigiano
+Nome: Easy Room Italy Rogoredo
+Comune / Provincia: Casaletto Lodigiano
+Indirizzo: Via Monte Popera, 8, 20138 Milano MI
+Coordinate: Lat 45.430849, Lng 9.245819
+Website: http://easyroomitaly.com/
+Email: 
+
+15469. Il Cortile guesthouse Affitti brevi
+ID: 7a1e8346-5822-4c99-bfb0-d75798943bf8
+Slug: il-cortile-guesthouse-affitti-brevi-casaletto-lodigiano
+Nome: Il Cortile guesthouse Affitti brevi
+Comune / Provincia: Casaletto Lodigiano
+Indirizzo: Via Ceregallo, 3, 20070 San Zenone al Lambro MI
+Coordinate: Lat 45.33641, Lng 9.351985
+Website: https://www.ilcortileguesthouse.it/
+Email: 
+
+15470. Albergo Cavaliere
+ID: 0d0e928f-33a9-4587-b22c-7640287df317
+Slug: albergo-cavaliere-casaletto-spartano
+Nome: Albergo Cavaliere
+Comune / Provincia: Casaletto Spartano
+Indirizzo: Via Nazionale, 67, 84030 Caselle in Pittari SA
+Coordinate: Lat 40.17294, Lng 15.543191
+Website: http://www.casellehotelcavaliere.it/
+Email: 

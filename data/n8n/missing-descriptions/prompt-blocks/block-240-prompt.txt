@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+8366. Palazzo del Miglio
+ID: eef389c1-fe61-4363-8c9e-0cfc36d429f3
+Slug: palazzo-del-miglio-belvedere-marittimo
+Nome: Palazzo del Miglio
+Comune / Provincia: Belvedere Marittimo
+Indirizzo: Via Flavio Cassiodoro, 67, 87021 Belvedere Marittimo CS
+Coordinate: Lat 39.627459, Lng 15.855017
+Website: https://palazzo-del-miglio.italiabella.top/
+Email: 
+
+8367. Tenuta dei Biondi Ulivi B&B
+ID: 7641784c-03c3-4dff-9981-b032f68f9930
+Slug: tenuta-dei-biondi-ulivi-b-b-belvedere-marittimo
+Nome: Tenuta dei Biondi Ulivi B&B
+Comune / Provincia: Belvedere Marittimo
+Indirizzo: Contrada Olivella, 33, 87021 Belvedere Marittimo CS
+Coordinate: Lat 39.61033, Lng 15.873237
+Website: https://beb.it/tenutabiondiulivi
+Email: 
+
+8368. The Dream B&B
+ID: 5c2506a2-e752-4844-b1c2-388ac408cb0a
+Slug: the-dream-b-b-belvedere-marittimo
+Nome: The Dream B&B
+Comune / Provincia: Belvedere Marittimo
+Indirizzo: Contrada Olivella, 1, 87021 Belvedere Marittimo CS
+Coordinate: Lat 39.614424, Lng 15.864531
+Website: —
+Email: 
+
+8369. White Club Residence
+ID: c9ab94be-9850-4cd0-9c3a-8aaae032da7c
+Slug: white-club-residence-belvedere-marittimo
+Nome: White Club Residence
+Comune / Provincia: Belvedere Marittimo
+Indirizzo: Campo Minore, 87021 Belvedere Marittimo CS
+Coordinate: Lat 39.608917, Lng 15.870449
+Website: http://www.whiteclubresidence.it/
+Email: 
+
+8370. Agriturismo Al Rifugio DiVino
+ID: 6b66aeb1-4781-4524-8406-ba7357508d1b
+Slug: agriturismo-al-rifugio-divino-belvedere-ostrense
+Nome: Agriturismo Al Rifugio DiVino
+Comune / Provincia: Belvedere Ostrense
+Indirizzo: Via Gavigliano, 16, 60030 Belvedere Ostrense AN
+Coordinate: Lat 43.599934, Lng 13.180596
+Website: http://www.aziendalandi.it/
+Email: 
+
+8371. Agriturismo Campo Aperto
+ID: fb82e84a-f8b1-415b-824a-788ad0f87097
+Slug: agriturismo-campo-aperto-belvedere-ostrense
+Nome: Agriturismo Campo Aperto
+Comune / Provincia: Belvedere Ostrense
+Indirizzo: Via Orti, 18, 60030 Belvedere Ostrense AN
+Coordinate: Lat 43.580206, Lng 13.168923
+Website: —
+Email: 
+
+8372. AgriturismoTenuta Belvedere
+ID: 7578cff3-e5f1-40f3-ba4f-90bacf997603
+Slug: agriturismotenuta-belvedere-belvedere-ostrense
+Nome: AgriturismoTenuta Belvedere
+Comune / Provincia: Belvedere Ostrense
+Indirizzo: Via Ronco, 2, 60030 Belvedere Ostrense AN
+Coordinate: Lat 43.553758, Lng 13.14675
+Website: https://www.tenuta-belvedere.it/
+Email: 
+
+8373. Apis in tabula
+ID: 2246562b-1f28-416b-b186-93cbfffb26f5
+Slug: apis-in-tabula-belvedere-ostrense
+Nome: Apis in tabula
+Comune / Provincia: Belvedere Ostrense
+Indirizzo: V. San Bonaventura, 2, 60010 Ostra AN
+Coordinate: Lat 43.615183, Lng 13.188503
+Website: http://www.apisintabula.it/
+Email: 
+
+8374. Casa della Musica - Casali Marchigiani
+ID: 2928cde7-111c-454e-a730-80c8ef39802d
+Slug: casa-della-musica-casali-marchigiani-belvedere-ostrense
+Nome: Casa della Musica - Casali Marchigiani
+Comune / Provincia: Belvedere Ostrense
+Indirizzo: Via Loretello, 2, 60010 Ostra AN
+Coordinate: Lat 43.600621, Lng 13.160618
+Website: http://www.casalimarchigiani.com/
+Email: 
+
+8375. Hotel Dei Nani
+ID: 0e4b168e-5032-4f0e-bff0-6ac2c105ffe4
+Slug: hotel-dei-nani-belvedere-ostrense
+Nome: Hotel Dei Nani
+Comune / Provincia: Belvedere Ostrense
+Indirizzo: Viale del Lavoro, 34, 60035 Jesi AN
+Coordinate: Lat 43.532951, Lng 13.254057
+Website: http://www.hoteldeinani.it/
+Email: 
+
+8376. Hotel Federico II
+ID: 467d3834-7c26-4ac3-961a-594c3f504e09
+Slug: hotel-federico-ii-belvedere-ostrense
+Nome: Hotel Federico II
+Comune / Provincia: Belvedere Ostrense
+Indirizzo: Via Ancona, 92, 60035 Jesi AN
+Coordinate: Lat 43.539184, Lng 13.26092
+Website: http://www.hotelfederico2.it/
+Email: 
+
+8377. Hotel La Cantinella
+ID: 6d45455f-f806-406c-b1bd-96c63a9c4734
+Slug: hotel-la-cantinella-belvedere-ostrense
+Nome: Hotel La Cantinella
+Comune / Provincia: Belvedere Ostrense
+Indirizzo: Via G. Amendola, 5, 60010 Ostra AN
+Coordinate: Lat 43.611638, Lng 13.153352
+Website: https://fastit.cyou/cantinella-retreat-nkcdgs
+Email: 
+
+8378. La Cantinella Restaurant-Hotel
+ID: 1fb076a1-84b1-477c-b8b8-9ee9e3c15e7f
+Slug: la-cantinella-restaurant-hotel-belvedere-ostrense
+Nome: La Cantinella Restaurant-Hotel
+Comune / Provincia: Belvedere Ostrense
+Indirizzo: Via G. Amendola, 5, 60010 Ostra AN
+Coordinate: Lat 43.611412, Lng 13.153249
+Website: http://www.lacantinella.net/
+Email: 
+
+8379. La Collina dei Cavalieri
+ID: e1c18d7f-b7c3-4ec0-92a0-54aa39968b9f
+Slug: la-collina-dei-cavalieri-belvedere-ostrense
+Nome: La Collina dei Cavalieri
+Comune / Provincia: Belvedere Ostrense
+Indirizzo: Via Murello, 43, 60030 Belvedere Ostrense AN
+Coordinate: Lat 43.547759, Lng 13.131093
+Website: https://www.lacollinadeicavalieri.it/
+Email: 
+
+8380. LA PRINCIPESSA NERA B&B
+ID: 323bf705-3c49-4b5d-adf8-3a511f8101b9
+Slug: la-principessa-nera-b-b-belvedere-ostrense
+Nome: LA PRINCIPESSA NERA B&B
+Comune / Provincia: Belvedere Ostrense
+Indirizzo: Via Taddeo Taddei, 60010 Ostra AN
+Coordinate: Lat 43.625757, Lng 13.166797
+Website: https://beblaprincipessanera.it/
+Email: 
+
+8381. Mariani Hotel Jesi
+ID: 3f7f5ed4-b19e-48b2-8cdc-766d4c741838
+Slug: mariani-hotel-jesi-belvedere-ostrense
+Nome: Mariani Hotel Jesi
+Comune / Provincia: Belvedere Ostrense
+Indirizzo: Via dell'Orfanotrofio, 10, 60035 Jesi AN
+Coordinate: Lat 43.521992, Lng 13.240898
+Website: http://www.hotelmariani.com/
+Email: 
+
+8382. Ombra degli Ulivi B&B
+ID: c00c9a55-af66-4a70-819e-a1f155deb100
+Slug: ombra-degli-ulivi-b-b-belvedere-ostrense
+Nome: Ombra degli Ulivi B&B
+Comune / Provincia: Belvedere Ostrense
+Indirizzo: Via dell'Unione, 17, 60030 San Marcello AN
+Coordinate: Lat 43.579425, Lng 13.19246
+Website: —
+Email: 
+
+8383. Pineta Hotel
+ID: 49358952-e0e5-40ce-bbed-d9c04906e1c7
+Slug: pineta-hotel-belvedere-ostrense
+Nome: Pineta Hotel
+Comune / Provincia: Belvedere Ostrense
+Indirizzo: Via Cassolo, 6, 60030 Monsano AN
+Coordinate: Lat 43.563119, Lng 13.276809
+Website: https://www.pinetahotel.net/
+Email: 
+
+8384. Tenuta San Marcello Cantina con Cucina
+ID: ec399b2c-23b9-4c01-ac64-13cac81c7e53
+Slug: tenuta-san-marcello-cantina-con-cucina-belvedere-ostrense
+Nome: Tenuta San Marcello Cantina con Cucina
+Comune / Provincia: Belvedere Ostrense
+Indirizzo: Via Melano, 30, 60030 San Marcello AN
+Coordinate: Lat 43.567571, Lng 13.185397
+Website: http://www.tenutasanmarcello.net/
+Email: 
+
+8385. Tenuta Tredici Ulivi
+ID: 5ec6f66e-703a-4531-97d4-2269bef71c22
+Slug: tenuta-tredici-ulivi-belvedere-ostrense
+Nome: Tenuta Tredici Ulivi
+Comune / Provincia: Belvedere Ostrense
+Indirizzo: Via Fabbrici e Ville, 70, 60019 Senigallia AN
+Coordinate: Lat 43.645535, Lng 13.241326
+Website: https://offers.trediciulivi.com/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+8386. Agriturismo San Michele
+ID: 60110263-4a91-430b-aec0-bdddeb1a9aa8
+Slug: agriturismo-san-michele-belveglio
+Nome: Agriturismo San Michele
+Comune / Provincia: Belveglio
+Indirizzo: Via San Michele, 14, 14040 Vinchio AT
+Coordinate: Lat 44.805548, Lng 8.308322
+Website: http://www.agriturismosanmichele.com/
+Email: 
+
+8387. Albergo Fattoria Della Roceta
+ID: 3fe37bdb-c806-4dbf-b078-460245e3e643
+Slug: albergo-fattoria-della-roceta-belveglio
+Nome: Albergo Fattoria Della Roceta
+Comune / Provincia: Belveglio
+Indirizzo: Piazza Italia, 11, 14030 Rocchetta Tanaro AT
+Coordinate: Lat 44.858659, Lng 8.344424
+Website: —
+Email: 
+
+8388. B&B Bricco delle Rose
+ID: beccbe4c-8d6e-45b0-8d49-c1f10c203854
+Slug: b-b-bricco-delle-rose-belveglio
+Nome: B&B Bricco delle Rose
+Comune / Provincia: Belveglio
+Indirizzo: Via Bricco, 13, 14040 Bricco AT
+Coordinate: Lat 44.837598, Lng 8.326057
+Website: —
+Email: 
+
+8389. Bed and breakfast dog and Friends
+ID: 3e863383-a21e-42b2-9119-e66b40437e6d
+Slug: bed-and-breakfast-dog-and-friends-belveglio
+Nome: Bed and breakfast dog and Friends
+Comune / Provincia: Belveglio
+Indirizzo: Frazione Gatti, 17, 14030 Rocchetta Tanaro AT
+Coordinate: Lat 44.854485, Lng 8.324705
+Website: https://dogandfriend.jimdofree.com/
+Email: 
+
+8390. Casa Del Roseto
+ID: 57aa3eef-bb3e-4b9d-90ed-bd149076d3ff
+Slug: casa-del-roseto-belveglio
+Nome: Casa Del Roseto
+Comune / Provincia: Belveglio
+Indirizzo: Via Alessandria, 15-17, 14040 Belveglio AT
+Coordinate: Lat 44.833316, Lng 8.341028
+Website: http://www.casadelroseto.com/
+Email: 
+
+8391. Cascina REGGIO
+ID: 2ee066bb-0d60-4dea-9dfc-c4e7301d0f86
+Slug: cascina-reggio-belveglio
+Nome: Cascina REGGIO
+Comune / Provincia: Belveglio
+Indirizzo: Via Momparone, 2/B, 14040 Castelnuovo Calcea AT
+Coordinate: Lat 44.788754, Lng 8.293779
+Website: https://www.cascinareggio.it/
+Email: 
+
+8392. Corte dell'uva holiday apartments
+ID: 77b5c8cf-67d4-4aa1-b105-84d2deeb3ffb
+Slug: corte-dell-uva-holiday-apartments-belveglio
+Nome: Corte dell'uva holiday apartments
+Comune / Provincia: Belveglio
+Indirizzo: Via Vittorio Alfieri, 1, 14040 Belveglio AT
+Coordinate: Lat 44.830367, Lng 8.329864
+Website: https://www.cortedelluva.com/
+Email: 
+
+8393. La Rosa tra le Vigne
+ID: 1d38eecf-283c-4117-9684-805e5e40a544
+Slug: la-rosa-tra-le-vigne-belveglio
+Nome: La Rosa tra le Vigne
+Comune / Provincia: Belveglio
+Indirizzo: Via Altina, 4, 14040 Belveglio AT
+Coordinate: Lat 44.84403, Lng 8.327483
+Website: —
+Email: 
+
+8394. La Villa Hotel
+ID: 9de935aa-7f87-4fee-94d3-b737d9396860
+Slug: la-villa-hotel-belveglio
+Nome: La Villa Hotel
+Comune / Provincia: Belveglio
+Indirizzo: Via Torino, 7, 14046 Mombaruzzo AT
+Coordinate: Lat 44.762576, Lng 8.410318
+Website: https://lavillahotel.net/?utm_source=GmBHotel&utm_medium=GmB&utm_campaign=GmBHotel
+Email: 
+
+8395. OttoQuadri
+ID: ef3b81ff-6cea-485d-8cf0-de3a5de050e1
+Slug: ottoquadri-belveglio
+Nome: OttoQuadri
+Comune / Provincia: Belveglio
+Indirizzo: Via Tapparone, 1, 15028 Quattordio AL
+Coordinate: Lat 44.897358, Lng 8.403554
+Website: http://www.ottoquadri.it/
+Email: 
+
+8396. Agriturismo Aradoni' di Antonello Manca Mameli - Agriturismo Aritzo
+ID: 9104512a-a0a7-4ed6-8e2f-99addd908727
+Slug: agriturismo-aradoni-di-antonello-manca-mameli-ag-belv
+Nome: Agriturismo Aradoni' di Antonello Manca Mameli - Agriturismo Aritzo
+Comune / Provincia: Belv�
+Indirizzo: SS295, Snc, 08031 Aritzo NU
+Coordinate: Lat 39.973605, Lng 9.18736
+Website: https://www.facebook.com/aritzo/
+Email: 
+
+8397. Agriturismo da Ysy
+ID: d63ab62c-f797-4000-823a-2024876e7f67
+Slug: agriturismo-da-ysy-bema
+Nome: Agriturismo da Ysy
+Comune / Provincia: Bema
+Indirizzo: Frazione Serone, 23010 Civo SO
+Coordinate: Lat 46.155289, Lng 9.583186
+Website: https://www.tenutavecchiotorchio-civo.it/
+Email: 
+
+8398. Agriturismo l'Eco
+ID: 98684a79-aa65-4ac3-b55b-8d56e658fe3a
+Slug: agriturismo-l-eco-bema
+Nome: Agriturismo l'Eco
+Comune / Provincia: Bema
+Indirizzo: località Dossa, Via Biella, snc, 23013 Cosio Valtellino SO
+Coordinate: Lat 46.12931, Lng 9.515884
+Website: https://www.agriturismoeco.it/
+Email: 
+
+8399. Agriturismo Volpe Golosa
+ID: 4736db17-a82e-420a-a7d7-a70dece2728c
+Slug: agriturismo-volpe-golosa-bema
+Nome: Agriturismo Volpe Golosa
+Comune / Provincia: Bema
+Indirizzo: Localita' Dossa, 180, 23013 Cosio Valtellino SO
+Coordinate: Lat 46.125972, Lng 9.53173
+Website: https://www.volpegolosa.com/
+Email: 
+
+8400. Antica Trattoria Pizzo Tre Signori
+ID: 2e7efe61-f85c-4d51-b2c3-89b65b9a80c4
+Slug: antica-trattoria-pizzo-tre-signori-bema
+Nome: Antica Trattoria Pizzo Tre Signori
+Comune / Provincia: Bema
+Indirizzo: Piazza Pizzo Tre Signori, 2, 23010 Gerola Alta SO
+Coordinate: Lat 46.0593, Lng 9.551403
+Website: http://www.albergopizzotresignori.com/
+Email: 

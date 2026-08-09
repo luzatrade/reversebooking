@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+15331. Agriturismo La Costa dei Trabocchi
+ID: 661fb1bd-2e8c-469a-9b36-c93406114f8a
+Slug: agriturismo-la-costa-dei-trabocchi-casalbordino
+Nome: Agriturismo La Costa dei Trabocchi
+Comune / Provincia: Casalbordino
+Indirizzo: Contrada Piana S. Tommaso, 66020 Torino di Sangro CH
+Coordinate: Lat 42.21032, Lng 14.58155
+Website: http://lacostadeitrabocchi.it/
+Email: 
+
+15332. Agriturismo Santo Stefano in Rivo Maris Casalbordino lido
+ID: 14c24b26-b7a9-4d46-8120-40ff39ce96de
+Slug: agriturismo-santo-stefano-in-rivo-maris-casalbor-casalbordino
+Nome: Agriturismo Santo Stefano in Rivo Maris Casalbordino lido
+Comune / Provincia: Casalbordino
+Indirizzo: Contrada Santo Stefano, 8, 66021 Casalbordino CH
+Coordinate: Lat 42.19453, Lng 14.610277
+Website: http://www.agriturismosantostefanoinrivomaris.it/
+Email: 
+
+15333. B&B Corte Rossetti Relax Assoluto | Luxury Urban Spa
+ID: 9ae065cf-bfbd-414c-bae5-054b244bbf64
+Slug: b-b-corte-rossetti-relax-assoluto-luxury-urban-s-casalbordino
+Nome: B&B Corte Rossetti Relax Assoluto | Luxury Urban Spa
+Comune / Provincia: Casalbordino
+Indirizzo: Vicolo III Roma, 1, 66021 Casalbordino CH
+Coordinate: Lat 42.150477, Lng 14.583717
+Website: https://www.relaxassoluto.it/
+Email: 
+
+15334. B&B Dimora Portanuova
+ID: 8f82ca51-7386-420a-a229-cf1a2b44dcde
+Slug: b-b-dimora-portanuova-casalbordino
+Nome: B&B Dimora Portanuova
+Comune / Provincia: Casalbordino
+Indirizzo: Via Porta Nuova, 16, 66021 Casalbordino CH
+Coordinate: Lat 42.149371, Lng 14.585744
+Website: http://dimoraportanuova.it/
+Email: 
+
+15335. B&B Il respiro del mare
+ID: fa9de2fd-6489-439c-8dca-d82143a7df26
+Slug: b-b-il-respiro-del-mare-casalbordino
+Nome: B&B Il respiro del mare
+Comune / Provincia: Casalbordino
+Indirizzo: via Emilio Alessandrini, 63, 66021 Lido di Casalbordino CH
+Coordinate: Lat 42.199066, Lng 14.618868
+Website: https://www.facebook.com/ilrespirodelmarebb
+Email: 
+
+15336. Borgo Sabelli
+ID: d274aed4-f696-489a-9182-4b0e69a58f2e
+Slug: borgo-sabelli-casalbordino
+Nome: Borgo Sabelli
+Comune / Provincia: Casalbordino
+Indirizzo: Contrada Piana Sabelli, 22, 66021 Casalbordino CH
+Coordinate: Lat 42.182083, Lng 14.604228
+Website: https://borgosabelli.wixsite.com/borgosabelli
+Email: 
+
+15337. Hotel Calgary
+ID: 1faf94f0-539a-4c33-b88b-1d11ec6d0303
+Slug: hotel-calgary-casalbordino
+Nome: Hotel Calgary
+Comune / Provincia: Casalbordino
+Indirizzo: Via Vittorio Bachelet, 70, 66021 Casalbordino CH
+Coordinate: Lat 42.194722, Lng 14.6325
+Website: http://www.hotelcalgary.it/
+Email: 
+
+15338. Hotel Rio
+ID: 62318035-10b0-4670-8dba-e27a18e582bb
+Slug: hotel-rio-casalbordino
+Nome: Hotel Rio
+Comune / Provincia: Casalbordino
+Indirizzo: Via Scirocco, 5, 66054 Vasto CH
+Coordinate: Lat 42.088754, Lng 14.733851
+Website: http://www.hotelriovasto.it/
+Email: 
+
+15339. Hotel Ristorante Le Morge
+ID: c208ba1d-e17c-4914-97d8-caff2a9b2717
+Slug: hotel-ristorante-le-morge-casalbordino
+Nome: Hotel Ristorante Le Morge
+Comune / Provincia: Casalbordino
+Indirizzo: Contrada Palude, 54, 66020 Torino di Sangro CH
+Coordinate: Lat 42.203861, Lng 14.597426
+Website: http://www.hotelemorge.com/
+Email: 
+
+15340. Hotel Solaris
+ID: d0bfd001-8246-41dd-aff1-a1f44239d778
+Slug: hotel-solaris-casalbordino
+Nome: Hotel Solaris
+Comune / Provincia: Casalbordino
+Indirizzo: Contrada Termine, 1, 66021 Casalbordino CH
+Coordinate: Lat 42.192919, Lng 14.633297
+Website: http://www.hotelsolaris.it/
+Email: 
+
+15341. Hotel Sporting Casalbordino
+ID: e340d5d6-87d8-41b0-8a25-94da437d4712
+Slug: hotel-sporting-casalbordino-casalbordino
+Nome: Hotel Sporting Casalbordino
+Comune / Provincia: Casalbordino
+Indirizzo: Via Alessandrini, 55, 66021 Casalbordino CH
+Coordinate: Lat 42.198925, Lng 14.619413
+Website: https://www.hotelsportingcasalbordino.it/
+Email: 
+
+15342. Il Tremolar della Marina
+ID: 2fa4e1f0-67c0-4a51-b16e-dc2a701b7c25
+Slug: il-tremolar-della-marina-casalbordino
+Nome: Il Tremolar della Marina
+Comune / Provincia: Casalbordino
+Indirizzo: Contrada Termini, 40, 66021 Casalbordino CH
+Coordinate: Lat 42.190082, Lng 14.632082
+Website: https://www.iltremolardellamarina.it/
+Email: 
+
+15343. Selene B&B
+ID: 34202cb6-2476-4e22-90c7-2d5b1cb5d86b
+Slug: selene-b-b-casalbordino
+Nome: Selene B&B
+Comune / Provincia: Casalbordino
+Indirizzo: Via Raffaello, 1, 66021 Casalbordino CH
+Coordinate: Lat 42.151288, Lng 14.587927
+Website: http://www.selenebeb.it/
+Email: 
+
+15344. Affitta camere Bellavista
+ID: abcb130d-c8de-43c7-a51e-2d409db61a21
+Slug: affitta-camere-bellavista-casalbore
+Nome: Affitta camere Bellavista
+Comune / Provincia: Casalbore
+Indirizzo: Via Calisi, 21, 82029 San Marco dei Cavoti BN
+Coordinate: Lat 41.304557, Lng 14.879648
+Website: —
+Email: 
+
+15345. I due piccioncini
+ID: a24d6be7-497b-49ee-ac42-985c9bbb908b
+Slug: i-due-piccioncini-casalbore
+Nome: I due piccioncini
+Comune / Provincia: Casalbore
+Indirizzo: SS90, 83035 Grottaminarda AV
+Coordinate: Lat 41.093404, Lng 15.064451
+Website: —
+Email: 
+
+15346. Oasi Masseria Sant'Elia eco agriturismo Casalbore Cucina Contadina
+ID: bddf6d7b-820c-4b0a-af61-070ff642bb67
+Slug: oasi-masseria-sant-elia-eco-agriturismo-casalbor-casalbore
+Nome: Oasi Masseria Sant'Elia eco agriturismo Casalbore Cucina Contadina
+Comune / Provincia: Casalbore
+Indirizzo: Contrada Sant'Elia Necropoli, 24, 83034 Casalbore AV
+Coordinate: Lat 41.240019, Lng 14.998566
+Website: http://www.agrisantelia.it/%20-%20email%20info@agrisantelia.it
+Email: 
+
+15347. B&B Il Quadrifoglio
+ID: f4e579d1-b9ae-4ef5-9c0a-9ef13125a2f1
+Slug: b-b-il-quadrifoglio-casalborgone
+Nome: B&B Il Quadrifoglio
+Comune / Provincia: Casalborgone
+Indirizzo: Regione Montariolo, 24, 10090 Sciolze TO
+Coordinate: Lat 45.108767, Lng 7.89894
+Website: —
+Email: 
+
+15348. Bed and breakfast - b&b Viavai
+ID: 51265066-f4e5-4838-84f7-f378b5c776f1
+Slug: bed-and-breakfast-b-b-viavai-casalborgone
+Nome: Bed and breakfast - b&b Viavai
+Comune / Provincia: Casalborgone
+Indirizzo: Via Valfrè, 7, 10020 Casalborgone TO
+Coordinate: Lat 45.130853, Lng 7.938108
+Website: https://www.viavai.to.it/
+Email: 
+
+15349. Ca'diFra b&b
+ID: ddeb4071-ef48-4f70-83a4-fe79ae3092f9
+Slug: ca-difra-b-b-casalborgone
+Nome: Ca'diFra b&b
+Comune / Provincia: Casalborgone
+Indirizzo: Via Regina Elena, 3, 10020 Casalborgone TO
+Coordinate: Lat 45.131006, Lng 7.937333
+Website: https://ca-di-fra.webnode.it/
+Email: 
+
+15350. Castello di Casalborgone
+ID: 9ba06f14-9336-4747-bed2-c9224367a198
+Slug: castello-di-casalborgone-casalborgone
+Nome: Castello di Casalborgone
+Comune / Provincia: Casalborgone
+Indirizzo: Via Broglia, 3, 10020 Casalborgone TO
+Coordinate: Lat 45.13154, Lng 7.936831
+Website: https://www.castellodicasalborgone.com/
+Email: 
+
+15351. Emeroteca del 900
+ID: 089e744e-2adf-4add-800d-0d34a63e0b07
+Slug: emeroteca-del-900-casalborgone
+Nome: Emeroteca del 900
+Comune / Provincia: Casalborgone
+Indirizzo: Strada Cerro, 35, 10020 Casalborgone TO
+Coordinate: Lat 45.122985, Lng 7.930896
+Website: http://www.emerotecadelnovecento.com/
+Email: 
+
+15352. Freedom Reins fattoria e B&B
+ID: 98fdfa03-1a3f-42e9-ba02-49878ba6cd04
+Slug: freedom-reins-fattoria-e-b-b-casalborgone
+Nome: Freedom Reins fattoria e B&B
+Comune / Provincia: Casalborgone
+Indirizzo: Str. Nin, 18, 10020 Casalborgone TO
+Coordinate: Lat 45.141391, Lng 7.959938
+Website: —
+Email: 
+
+15353. Villa Giordana
+ID: 71deacdf-39a9-4d40-ac12-6fae16a24094
+Slug: villa-giordana-casalborgone
+Nome: Villa Giordana
+Comune / Provincia: Casalborgone
+Indirizzo: Str. Ceriaglio, 13, 10020 Casalborgone TO
+Coordinate: Lat 45.133085, Lng 7.947189
+Website: http://www.villagiordana.com/
+Email: 
+
+15354. Agriturismo Murikè
+ID: 11e3ee0e-1741-44b9-b65e-0b3bc522d1e6
+Slug: agriturismo-murike-casalbuono
+Nome: Agriturismo Murikè
+Comune / Provincia: Casalbuono
+Indirizzo: 84067 Santa Marina SA, Italia
+Coordinate: Lat 40.127598, Lng 15.532606
+Website: http://www.murike.it/
+Email: 
+
+15355. B&B L'Arco Antico
+ID: 8714e19d-5ec6-49e3-836c-3c59b0e5663d
+Slug: b-b-l-arco-antico-casalbuono
+Nome: B&B L'Arco Antico
+Comune / Provincia: Casalbuono
+Indirizzo: Via Papa Giovanni XXIII, 84030 Casalbuono SA
+Coordinate: Lat 40.215788, Lng 15.680109
+Website: —
+Email: 
+
+15356. Hotel Caimo
+ID: 04672d65-a379-4bb3-9ee3-45313a5fe4a6
+Slug: hotel-caimo-casalbuono
+Nome: Hotel Caimo
+Comune / Provincia: Casalbuono
+Indirizzo: Via dei Gladioli, 3, 85042 Lagonegro PZ
+Coordinate: Lat 40.129425, Lng 15.761372
+Website: http://www.hotelcaimo.com/
+Email: 
+
+15357. Hotel Palazzo Cestari
+ID: 62c5ffff-da4f-4831-bf99-759843f0b975
+Slug: hotel-palazzo-cestari-casalbuono
+Nome: Hotel Palazzo Cestari
+Comune / Provincia: Casalbuono
+Indirizzo: Via Dottor Nicola Cestari, 60, 84033 Montesano sulla Marcellana SA
+Coordinate: Lat 40.273223, Lng 15.700683
+Website: https://www.palazzocestarihotel.it/
+Email: 
+
+15358. Il Tiglio Bed & Breakfast rural house
+ID: 9092bf11-5bf5-4ffe-9602-e9072c08a1a6
+Slug: il-tiglio-bed-breakfast-rural-house-casalbuono
+Nome: Il Tiglio Bed & Breakfast rural house
+Comune / Provincia: Casalbuono
+Indirizzo: Contrada S. Maria la Mattina, 27, 84034 Padula SA
+Coordinate: Lat 40.323838, Lng 15.625033
+Website: https://il-tiglio-bed-breakfast-rural-house.hotelpreferito.top/
+Email: 
+
+15359. Tenuta Le Cascine agriturismo di Petrosino Teresa
+ID: da0afcc4-0569-4ec1-b19e-6f0d3f7ce514
+Slug: tenuta-le-cascine-agriturismo-di-petrosino-teres-casalbuono
+Nome: Tenuta Le Cascine agriturismo di Petrosino Teresa
+Comune / Provincia: Casalbuono
+Indirizzo: 84030 Vallonsecco SA
+Coordinate: Lat 40.186217, Lng 15.702909
+Website: http://www.tenutalecascine.it/
+Email: 
+
+15360. B&B La Stazione
+ID: 77bd3b7f-c36e-4672-891e-1bfafe13aa7a
+Slug: b-b-la-stazione-casalbuttano-ed-uniti
+Nome: B&B La Stazione
+Comune / Provincia: Casalbuttano ed Uniti
+Indirizzo: Via Ferruccio Ghinaglia, 29, 26100 Cremona CR
+Coordinate: Lat 45.142405, Lng 10.013698
+Website: https://www.facebook.com/Bed-e-Breakfast-La-Stazione-Cremona-102276354790705/
+Email: 
+
+15361. B&B Sole e Luna
+ID: 3dcac596-72bd-45d5-8139-84acf32a7963
+Slug: b-b-sole-e-luna-casalbuttano-ed-uniti
+Nome: B&B Sole e Luna
+Comune / Provincia: Casalbuttano ed Uniti
+Indirizzo: Via Manini, 87, 26100 Cremona CR
+Coordinate: Lat 45.129326, Lng 10.03035
+Website: http://www.soleelunacremona.it/
+Email: 
+
+15362. Pensione S.Giorgio
+ID: 6e9661c4-15ff-48a5-b409-4a39f469650e
+Slug: pensione-s-giorgio-casalbuttano-ed-uniti
+Nome: Pensione S.Giorgio
+Comune / Provincia: Casalbuttano ed Uniti
+Indirizzo: Via Felice Cavallotti, 44, 26011 Casalbuttano CR
+Coordinate: Lat 45.253018, Lng 9.963903
+Website: —
+Email: 
+
+15363. Residenza La Torre camere e appartamenti
+ID: cbbc3263-893e-449d-8a90-c12b903946fb
+Slug: residenza-la-torre-camere-e-appartamenti-casalbuttano-ed-uniti
+Nome: Residenza La Torre camere e appartamenti
+Comune / Provincia: Casalbuttano ed Uniti
+Indirizzo: Via Sortita, 5, 26026 Pizzighettone CR
+Coordinate: Lat 45.185987, Lng 9.778453
+Website: —
+Email: 
+
+15364. B&B Campobasso Il girasole - A casa di Ale
+ID: e9be80fc-8fdb-4cdf-85f6-e617d83f5fe9
+Slug: b-b-campobasso-il-girasole-a-casa-di-ale-casalciprano
+Nome: B&B Campobasso Il girasole - A casa di Ale
+Comune / Provincia: Casalciprano
+Indirizzo: Contrada Peschiatura n, 29, 86010 Oratino CB
+Coordinate: Lat 41.574727, Lng 14.609427
+Website: https://www.booking.com/searchresults.it.html?aid=1288221&label=metagha-link-mapresultsIT-hotel-4152030_dev-desktop_los-1_bw-2_dow-Sunday_defdate-1_room-0_lang-it_curr-EUR_gstadt-2_rateid-0_aud-102523614_cid-75&sid=5dc8b167fa7b22f586185110a3cad8aa&checkin_monthday=28&checkin_year_month=2018-10&checkout_monthday=29&checkout_year_month=2018-10&class_interval=1&dest_id=-123367&dest_type=city&do_availability_check=1&dtdisc=0&group_adults=1&group_children=0&highlighted_hotels=4152030&hp_avform=1&inac=0&index_postcard=0&label_click=undef&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A&sb_price_type=total&slp_r_match=0&src=hotel&ss_all=0&ssb=empty&sshis=0&track_hp_back_button=1#hotel_4152030-back
+Email: 
+
+15365. B&B Il Vigneto
+ID: 87f9df2c-0bcf-4231-a1c1-9c4b2daea37e
+Slug: b-b-il-vigneto-casalciprano
+Nome: B&B Il Vigneto
+Comune / Provincia: Casalciprano
+Indirizzo: Strada Comunale, Contrada Lenze, 6, 86010 Oratino CB
+Coordinate: Lat 41.58175, Lng 14.589768
+Website: —
+Email: 

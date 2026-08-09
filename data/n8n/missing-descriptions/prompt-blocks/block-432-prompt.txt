@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+15086. Masseria San Cosimo Agriresort
+ID: 694953f5-86a0-4be4-98ce-8e745f9de598
+Slug: masseria-san-cosimo-agriresort-carpignano-salentino
+Nome: Masseria San Cosimo Agriresort
+Comune / Provincia: Carpignano Salentino
+Indirizzo: contrada San Cosimo, 73020 Carpignano Salentino LE
+Coordinate: Lat 40.195188, Lng 18.328509
+Website: http://www.masseriasancosimo.it/
+Email: 
+
+15087. SALENTO GUESTHOUSE
+ID: 61f708ba-7a26-452c-a50c-c4b6c888cfc1
+Slug: salento-guesthouse-carpignano-salentino
+Nome: SALENTO GUESTHOUSE
+Comune / Provincia: Carpignano Salentino
+Indirizzo: Via Roma, 26, 73020 Carpignano Salentino LE
+Coordinate: Lat 40.196912, Lng 18.340005
+Website: http://www.salentoguesthouse.com/
+Email: 
+
+15088. Vico Sant'Antonio
+ID: 7113c231-907a-45a6-a4f9-022e24a50e64
+Slug: vico-sant-antonio-carpignano-salentino
+Nome: Vico Sant'Antonio
+Comune / Provincia: Carpignano Salentino
+Indirizzo: Vico S. Antonio, 73020 Carpignano Salentino LE
+Coordinate: Lat 40.196542, Lng 18.340574
+Website: http://www.vicosantantonio.it/
+Email: 
+
+15089. B&B Carpignano
+ID: 83a20da4-b283-44a8-a3f8-4863e5867955
+Slug: b-b-carpignano-carpignano-sesia
+Nome: B&B Carpignano
+Comune / Provincia: Carpignano Sesia
+Indirizzo: Via Cristoforo Colombo, 18, 74018 Palagianello TA
+Coordinate: Lat 40.61433, Lng 16.978948
+Website: —
+Email: 
+
+15090. La Sesia Beauty Vice
+ID: 39f47166-8d1b-4eea-a6f0-5b5354c984c0
+Slug: la-sesia-beauty-vice-carpignano-sesia
+Nome: La Sesia Beauty Vice
+Comune / Provincia: Carpignano Sesia
+Indirizzo: Via Torino, 37, 28064 Carpignano Sesia NO
+Coordinate: Lat 45.531475, Lng 8.407877
+Website: —
+Email: 
+
+15091. La Sesia Hotel Srl
+ID: 4a8066de-b5a0-4ad9-8aad-748f03e2ca71
+Slug: la-sesia-hotel-srl-carpignano-sesia
+Nome: La Sesia Hotel Srl
+Comune / Provincia: Carpignano Sesia
+Indirizzo: Via Torino, 37, 28064 Carpignano Sesia NO
+Coordinate: Lat 45.531483, Lng 8.407782
+Website: http://www.lasesiahotel.it/
+Email: 
+
+15092. Albergo Ristorante Marola
+ID: 2cc07e15-34c0-4c8f-862d-66bd269293df
+Slug: albergo-ristorante-marola-carpineti
+Nome: Albergo Ristorante Marola
+Comune / Provincia: Carpineti
+Indirizzo: di, Viale Bismantova, 2, 42033 Marola RE
+Coordinate: Lat 44.477032, Lng 10.48851
+Website: https://albergo-ristorante-marola.migliorhotel.top/
+Email: 
+
+15093. B&B Villa Rossana
+ID: 220b8d72-0c2e-4ae4-8331-b12cb6f2788f
+Slug: b-b-villa-rossana-carpineti
+Nome: B&B Villa Rossana
+Comune / Provincia: Carpineti
+Indirizzo: Via Monchio di Mulazzano, 6, 43037 Lesignano de' Bagni PR
+Coordinate: Lat 44.613556, Lng 10.327604
+Website: http://b-b-villa-rossana.com.es/
+Email: 
+
+15094. Boiardo Hotel
+ID: dce0e35d-cc6f-455a-854b-e3a8e937cd83
+Slug: boiardo-hotel-carpineti
+Nome: Boiardo Hotel
+Comune / Provincia: Carpineti
+Indirizzo: Via Pedemontana, 6, 42019 Scandiano RE
+Coordinate: Lat 44.594254, Lng 10.677826
+Website: http://www.boiardohotel.com/
+Email: 
+
+15095. Camere del Castello Carpineti
+ID: 024add42-ed72-4060-b744-7803c885004e
+Slug: camere-del-castello-carpineti-carpineti
+Nome: Camere del Castello Carpineti
+Comune / Provincia: Carpineti
+Indirizzo: Via Castello delle Carpinete, 26, 42033 Carpineti RE
+Coordinate: Lat 44.448501, Lng 10.528008
+Website: http://www.castellodellecarpinete.it/
+Email: 
+
+15096. Hotel Ristorante Pizzeria Parco
+ID: 062e9ee1-5ca6-47c9-b285-712a146e7f4b
+Slug: hotel-ristorante-pizzeria-parco-carpineti
+Nome: Hotel Ristorante Pizzeria Parco
+Comune / Provincia: Carpineti
+Indirizzo: Via Aravecchia, 27, 41046 Palagano MO
+Coordinate: Lat 44.320274, Lng 10.646339
+Website: http://www.hotelristoranteparco.it/
+Email: 
+
+15097. Residence Albergo Tre Re
+ID: f8b48ad8-cb73-46e1-ab0e-fa3010a73895
+Slug: residence-albergo-tre-re-carpineti
+Nome: Residence Albergo Tre Re
+Comune / Provincia: Carpineti
+Indirizzo: Via Roma, 17, 42035 Castelnovo ne' Monti RE
+Coordinate: Lat 44.435089, Lng 10.405792
+Website: http://www.residencetrere.it/
+Email: 
+
+15098. Ristorante Al Ciocco
+ID: f6b970f1-3b35-429b-a5da-a9ad43ce3cba
+Slug: ristorante-al-ciocco-carpineti
+Nome: Ristorante Al Ciocco
+Comune / Provincia: Carpineti
+Indirizzo: Via Palloncino-tia, 2, 41045 Farneta MO
+Coordinate: Lat 44.346615, Lng 10.569828
+Website: https://m.facebook.com/pages/category/Restaurant/Ristorante-Al-Ciocco-Farneta-MO-95104597331/
+Email: 
+
+15099. Villa Clorè Hotel & Spa
+ID: 2729caf0-ece9-4f04-9efe-fc300ce79dd1
+Slug: villa-clore-hotel-spa-carpineti
+Nome: Villa Clorè Hotel & Spa
+Comune / Provincia: Carpineti
+Indirizzo: Via per Palagano, 9, 41023 Lama Mocogno MO
+Coordinate: Lat 44.308327, Lng 10.733366
+Website: https://www.villaclore.it/
+Email: 
+
+15100. Agriturismo Via Del Campo
+ID: 3bcfb6d2-a74d-4e3b-927a-199911eff26c
+Slug: agriturismo-via-del-campo-carpineto-della-nora
+Nome: Agriturismo Via Del Campo
+Comune / Provincia: Carpineto della Nora
+Indirizzo: Contrada Le Monache, 9, 65019 Pianella PE
+Coordinate: Lat 42.406877, Lng 14.060015
+Website: https://agriturismo-via-del-campo.hotelperiviaggi.top/
+Email: 
+
+15101. ALMOND B&B
+ID: 5599354e-130a-4298-aee3-80d890965fdf
+Slug: almond-b-b-carpineto-della-nora
+Nome: ALMOND B&B
+Comune / Provincia: Carpineto della Nora
+Indirizzo: Vico Fonte Umano, 12, 65013 Fonte Umano PE
+Coordinate: Lat 42.521701, Lng 14.116248
+Website: https://www.almondbb.it/
+Email: 
+
+15102. B&B Aterno
+ID: 476aee09-a119-44ea-8032-c3596cde492a
+Slug: b-b-aterno-carpineto-della-nora
+Nome: B&B Aterno
+Comune / Provincia: Carpineto della Nora
+Indirizzo: Via Aterno, 65015 Montesilvano PE
+Coordinate: Lat 42.509129, Lng 14.144431
+Website: https://www.booking.com/hotel/it/b-amp-b-aterno.it.html
+Email: 
+
+15103. B&B Don Pasquale
+ID: da2c2a40-3517-4771-be01-fa464d378b57
+Slug: b-b-don-pasquale-carpineto-della-nora
+Nome: B&B Don Pasquale
+Comune / Provincia: Carpineto della Nora
+Indirizzo: Piazza Duca Abruzzi, 18, 65010 Picciano PE
+Coordinate: Lat 42.47606, Lng 13.989131
+Website: https://www.fontartana.it/
+Email: 
+
+15104. B&B L'albero di Antonia
+ID: 952d0ff5-caaa-48ab-95dd-beb35f3df71f
+Slug: b-b-l-albero-di-antonia-carpineto-della-nora
+Nome: B&B L'albero di Antonia
+Comune / Provincia: Carpineto della Nora
+Indirizzo: Via Aristotele Pacini, 5, 64032 Atri TE
+Coordinate: Lat 42.573098, Lng 13.99476
+Website: http://www.lalberodiantonia.it/
+Email: 
+
+15105. B&b la Casa dei Nonni
+ID: 4d44e8e5-4565-4677-a6b4-61018f08d7cc
+Slug: b-b-la-casa-dei-nonni-carpineto-della-nora
+Nome: B&b la Casa dei Nonni
+Comune / Provincia: Carpineto della Nora
+Indirizzo: Contrada S. Silvestro, 97, 64028 Silvi TE
+Coordinate: Lat 42.550668, Lng 14.098993
+Website: https://bblacasadeinonni.top/
+Email: 
+
+15106. B&B La Casetta
+ID: 39da9d6e-45ab-482f-8599-0ec0b9cd6d13
+Slug: b-b-la-casetta-carpineto-della-nora
+Nome: B&B La Casetta
+Comune / Provincia: Carpineto della Nora
+Indirizzo: Via S. Martino, 67, 65013 San Martino Bassa PE
+Coordinate: Lat 42.514325, Lng 14.125491
+Website: https://www.bed-and-breakfast.it/it/abruzzo/la-casetta-citta-sant-angelo/16568
+Email: 
+
+15107. B&B La Colonna
+ID: c4428151-623b-4c37-bbcd-0929630d929b
+Slug: b-b-la-colonna-carpineto-della-nora
+Nome: B&B La Colonna
+Comune / Provincia: Carpineto della Nora
+Indirizzo: Contrada Scarangi, 00032 Carpineto Romano RM
+Coordinate: Lat 41.612192, Lng 13.070282
+Website: —
+Email: 
+
+15108. B&B La Peschiera
+ID: 27cd6ffe-f831-4484-9570-b20e4d743a33
+Slug: b-b-la-peschiera-carpineto-della-nora
+Nome: B&B La Peschiera
+Comune / Provincia: Carpineto della Nora
+Indirizzo: Via D. Alighieri, 113, 00032 Carpineto Romano RM
+Coordinate: Lat 41.608334, Lng 13.082891
+Website: http://www.bb-lapeschiera.it/
+Email: 
+
+15109. Bed & Breakfast OASI
+ID: b0adcdbd-5b30-4b1c-a74c-b75ae5505bde
+Slug: bed-breakfast-oasi-carpineto-della-nora
+Nome: Bed & Breakfast OASI
+Comune / Provincia: Carpineto della Nora
+Indirizzo: Via I Maggio, 16, 64025 Pineto TE
+Coordinate: Lat 42.612468, Lng 14.065085
+Website: http://www.pensioneoasi.it/
+Email: 
+
+15110. Bed and Breakfast La Casa del Casale
+ID: 8cb8f7bc-3cd4-4de0-b935-406d91d7821c
+Slug: bed-and-breakfast-la-casa-del-casale-carpineto-della-nora
+Nome: Bed and Breakfast La Casa del Casale
+Comune / Provincia: Carpineto della Nora
+Indirizzo: Via del Casale, 3, 64026 Casal Thaulero TE
+Coordinate: Lat 42.658309, Lng 13.97439
+Website: http://www.lacasadelcasale.com/
+Email: 
+
+15111. Bed and Breakfast La Casa di Rinaldo
+ID: 6782fb8c-352d-4669-b69b-d557efe18c7d
+Slug: bed-and-breakfast-la-casa-di-rinaldo-carpineto-della-nora
+Nome: Bed and Breakfast La Casa di Rinaldo
+Comune / Provincia: Carpineto della Nora
+Indirizzo: Via Vomano Vecchio, 18, 64025 Pineto TE
+Coordinate: Lat 42.646577, Lng 14.038331
+Website: http://www.lacasadirinaldo.it/
+Email: 
+
+15112. Bed and Breakfast Le Valli del Cerrano
+ID: 9798a252-6096-4868-bc0d-b00d74002c84
+Slug: bed-and-breakfast-le-valli-del-cerrano-carpineto-della-nora
+Nome: Bed and Breakfast Le Valli del Cerrano
+Comune / Provincia: Carpineto della Nora
+Indirizzo: Via Colle Cretone>via Arlini,52 64025, 64026 Pineto TE
+Coordinate: Lat 42.583737, Lng 14.071904
+Website: http://www.levallidelcerrano.com/
+Email: 
+
+15113. Casale Adriatico B&B
+ID: 33494604-4ae5-49aa-845f-6f7b1bd8ba81
+Slug: casale-adriatico-b-b-carpineto-della-nora
+Nome: Casale Adriatico B&B
+Comune / Provincia: Carpineto della Nora
+Indirizzo: Via Arlini, 34, 64025 Pineto TE
+Coordinate: Lat 42.588968, Lng 14.073912
+Website: http://www.casaleadriatico.it/
+Email: 
+
+15114. Sinilù B&B
+ID: 3fa2a08a-d68c-46a7-adf2-3fd70873d517
+Slug: sinilu-b-b-carpineto-della-nora
+Nome: Sinilù B&B
+Comune / Provincia: Carpineto della Nora
+Indirizzo: Via Indipendenza, 10, 64028 Pianacce TE
+Coordinate: Lat 42.554996, Lng 14.085628
+Website: —
+Email: 
+
+15115. B&B Villa Olimpia
+ID: ab928f1a-8aea-47ca-9265-8e93eae9ed5a
+Slug: b-b-villa-olimpia-carpineto-romano
+Nome: B&B Villa Olimpia
+Comune / Provincia: Carpineto Romano
+Indirizzo: Piazza Regina Margherita, 00032 Carpineto Romano RM
+Coordinate: Lat 41.605627, Lng 13.086097
+Website: http://www.villaolimpia.com/
+Email: 
+
+15116. Hotel Colosseo Colleferro roma
+ID: 514a8ae5-fd26-47a7-aea0-e00027490d7c
+Slug: hotel-colosseo-colleferro-roma-carpineto-romano
+Nome: Hotel Colosseo Colleferro roma
+Comune / Provincia: Carpineto Romano
+Indirizzo: Via Artigianato, 69, 00034 Colleferro RM
+Coordinate: Lat 41.734397, Lng 13.009893
+Website: http://hotelcolossecolleferro.it/
+Email: 
+
+15117. Il Colle Rentrooms
+ID: 602013d2-a753-4fad-b927-12d650fd5872
+Slug: il-colle-rentrooms-carpineto-romano
+Nome: Il Colle Rentrooms
+Comune / Provincia: Carpineto Romano
+Indirizzo: Via pietralata, 03013 Ferentino FR
+Coordinate: Lat 41.69007, Lng 13.267123
+Website: http://il-colle-rentrooms.org.es/
+Email: 
+
+15118. Il Paradiso
+ID: 8998158a-cade-4ca2-b688-913c42fbb5c9
+Slug: il-paradiso-carpineto-romano
+Nome: Il Paradiso
+Comune / Provincia: Carpineto Romano
+Indirizzo: Via Monti Appennini, 27, 04100 Latina LT
+Coordinate: Lat 41.48231, Lng 12.904057
+Website: https://www.hotelsitaloweb.com/il-paradiso/
+Email: 
+
+15119. Jo Sedio residenza
+ID: babfe8e5-7497-4fc0-b9d1-edf5c47e0ca6
+Slug: jo-sedio-residenza-carpineto-romano
+Nome: Jo Sedio residenza
+Comune / Provincia: Carpineto Romano
+Indirizzo: Via Cavour, 84, 00032 Carpineto Romano RM
+Coordinate: Lat 41.604069, Lng 13.088049
+Website: https://cantina-sartoriale.com/cantina-stanze/
+Email: 
+
+15120. La Tana Delle Lepri
+ID: 25f0c164-e72d-49c6-a3e8-e789691d99c7
+Slug: la-tana-delle-lepri-carpineto-romano
+Nome: La Tana Delle Lepri
+Comune / Provincia: Carpineto Romano
+Indirizzo: SP11, 71/B, 03017 Morolo FR
+Coordinate: Lat 41.647135, Lng 13.216376
+Website: https://elifrecommends.eu/la-tana-delle-lepri-italy
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+12811. Park Hotel Cilento
+ID: 6729f48c-28f5-4033-8922-0854add67f8a
+Slug: park-hotel-cilento-camerota
+Nome: Park Hotel Cilento
+Comune / Provincia: Camerota
+Indirizzo: Via Sirene, 32, 84059 Marina di Camerota SA
+Coordinate: Lat 40.003433, Lng 15.364351
+Website: http://www.parkhotelcilento.it/
+Email: 
+
+12812. Relais Pian delle Starze
+ID: 97274354-aab5-48ff-802e-2f396ac205bd
+Slug: relais-pian-delle-starze-camerota
+Nome: Relais Pian delle Starze
+Comune / Provincia: Camerota
+Indirizzo: Contrada Monte di Luna, Località Starza, snc, 84059 Marina di Camerota SA
+Coordinate: Lat 40.007176, Lng 15.395925
+Website: https://www.hotelrelaispiandellestarze.it/
+Email: 
+
+12813. Villaggio Blue Marine - Mini Parco Acquatico
+ID: eed14613-0521-4ff1-a335-36f4a90bf7a3
+Slug: villaggio-blue-marine-mini-parco-acquatico-camerota
+Nome: Villaggio Blue Marine - Mini Parco Acquatico
+Comune / Provincia: Camerota
+Indirizzo: Via Sirene, 44, 84059 Marina di Camerota SA
+Coordinate: Lat 40.002443, Lng 15.361169
+Website: https://www.bluemarine.it/
+Email: 
+
+12814. B&B Dimora dei Colli
+ID: e73c2952-3f67-4629-b066-73a593e130fc
+Slug: b-b-dimora-dei-colli-camigliano
+Nome: B&B Dimora dei Colli
+Comune / Provincia: Camigliano
+Indirizzo: Via Contrada del Vecchio, 28, 81052 Pignataro Maggiore CE
+Coordinate: Lat 41.187546, Lng 14.166743
+Website: https://www.booking.com/hotel/it/dimora-dei-colli-pignataro-maggiore.it.html?label=gen173nr-1BCAEoggI46AdIM1gEaHGIAQGYASO4ARjIAQzYAQHoAQGIAgGoAgS4Aoe9oLgGwAIB0gIkZjU4OWEwOGYtZGQ4ZC00ODVkLTkzYTYtZjI1NWViNGU5ZDVm2AIF4AIB&sid=ee01906a7169f039db99f38d2f72f2c4&aid=304142&ucfs=1&arphpl=1&checkin=2025-03-01&checkout=2025-03-02&dest_id=-124836&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=1&req_children=1&age=8&req_age=8&hpos=1&hapos=1&sr_order=popularity&srpvid=9a3a4cb11300039e&srepoch=1728730467&all_sr_blocks=1285531801_401491216_2_0_0&highlighted_blocks=1285531801_401491216_2_0_0&matching_block_id=1285531801_401491216_2_0_0&sr_pri_blocks=1285531801_401491216_2_0_0__9818&from=searchresults
+Email: 
+
+12815. Oliveto ristorante pizzeria Bed and Breakfast
+ID: d670cc7b-6805-4a79-a155-211701c76565
+Slug: oliveto-ristorante-pizzeria-bed-and-breakfast-camigliano
+Nome: Oliveto ristorante pizzeria Bed and Breakfast
+Comune / Provincia: Camigliano
+Indirizzo: Via S. Leucio, 30, 81100 Caserta CE
+Coordinate: Lat 41.091279, Lng 14.316743
+Website: https://www.olivetocaserta.com/
+Email: 
+
+12816. Hotel Mediterraneo
+ID: 28496af4-2015-4d4a-b205-cf3e69dbd7c5
+Slug: hotel-mediterraneo-camini
+Nome: Hotel Mediterraneo
+Comune / Provincia: Camini
+Indirizzo: Viale XXV Aprile, 5, 89047 Roccella Ionica RC
+Coordinate: Lat 38.322508, Lng 16.40499
+Website: http://www.mediterraneoroccella.it/
+Email: 
+
+12817. Il Partenone Resort Hotel Bronzi Holidays Srl
+ID: 7cbf9e20-f9d3-4b17-a27e-7def085966b6
+Slug: il-partenone-resort-hotel-bronzi-holidays-srl-camini
+Nome: Il Partenone Resort Hotel Bronzi Holidays Srl
+Comune / Provincia: Camini
+Indirizzo: Contrada Guardia, 1, 89040 Riace Marina RC
+Coordinate: Lat 38.396418, Lng 16.522477
+Website: http://www.ilpartenonehotel.it/
+Email: 
+
+12818. L'orto degli Ulivi
+ID: 19aa65b5-a57e-44b3-b544-199123b13ef5
+Slug: l-orto-degli-ulivi-camini
+Nome: L'orto degli Ulivi
+Comune / Provincia: Camini
+Indirizzo: Contrada Bordingiano snc, 89049 Stilo RC
+Coordinate: Lat 38.467112, Lng 16.490852
+Website: —
+Email: 
+
+12819. Ospitalità Diffusa Jungi Mundu
+ID: 47e1a107-e090-400c-9428-c0237e6bc214
+Slug: ospitalita-diffusa-jungi-mundu-camini
+Nome: Ospitalità Diffusa Jungi Mundu
+Comune / Provincia: Camini
+Indirizzo: Via Fontana, 89040 Camini RC
+Coordinate: Lat 38.431786, Lng 16.48103
+Website: —
+Email: 
+
+12820. Park Hotel Roccella
+ID: 298dc8e8-1ed6-4971-8f31-3d23a0b1d9ec
+Slug: park-hotel-roccella-camini
+Nome: Park Hotel Roccella
+Comune / Provincia: Camini
+Indirizzo: Contrada Lacchi, 30, 89047 Roccella Ionica RC
+Coordinate: Lat 38.316508, Lng 16.388784
+Website: https://park-gianfranco.calabriahotelspage.com/it/
+Email: 
+
+12821. Residence Regina
+ID: 8003087f-5db5-4890-838b-bb5dd05d6b6c
+Slug: residence-regina-camini
+Nome: Residence Regina
+Comune / Provincia: Camini
+Indirizzo: Via Cristoforo Colombo, snc, 89046 Marina di Gioiosa Ionica RC
+Coordinate: Lat 38.304137, Lng 16.344369
+Website: https://residence-regina.miglioriviaggi.top/
+Email: 
+
+12822. Sabbia D'oro Hotel
+ID: 59f43868-a980-4509-ba54-cad3359b47e5
+Slug: sabbia-d-oro-hotel-camini
+Nome: Sabbia D'oro Hotel
+Comune / Provincia: Camini
+Indirizzo: Via Europa, Lungomare Cristoforo Colombo, 20, 89046 Marina di Gioiosa Ionica RC
+Coordinate: Lat 38.301697, Lng 16.336934
+Website: http://www.hotelsabbiadoro.it/
+Email: 
+
+12823. Agriturismo Cà San Sebastiano
+ID: 058bf7ba-5b45-4051-a0e6-a91956877830
+Slug: agriturismo-ca-san-sebastiano-camino
+Nome: Agriturismo Cà San Sebastiano
+Comune / Provincia: Camino
+Indirizzo: Via Ombra, 10/12, 15020 Camino AL
+Coordinate: Lat 45.158633, Lng 8.27239
+Website: https://www.casansebastiano.it/
+Email: 
+
+12824. Bricco Bed&bike
+ID: f352279d-99d9-4572-bfde-89ec213ea1e0
+Slug: bricco-bed-bike-camino
+Nome: Bricco Bed&bike
+Comune / Provincia: Camino
+Indirizzo: Via Bricco, 10, 15020 Odalengo Grande AL
+Coordinate: Lat 45.107459, Lng 8.145798
+Website: —
+Email: 
+
+12825. Ca Villa Club Agriturismo
+ID: 850d3815-c39d-48aa-b012-520d3a99576c
+Slug: ca-villa-club-agriturismo-camino
+Nome: Ca Villa Club Agriturismo
+Comune / Provincia: Camino
+Indirizzo: Via Santo Stefano, 19, 15020 Gabiano AL
+Coordinate: Lat 45.151629, Lng 8.212148
+Website: http://www.ca-villa.it/
+Email: 
+
+12826. CA' MARTINA
+ID: 27bd33da-dbcb-4f0f-932b-62d4a03f181d
+Slug: ca-martina-camino
+Nome: CA' MARTINA
+Comune / Provincia: Camino
+Indirizzo: Via della Parrocchia, 21, 15020 Camino AL
+Coordinate: Lat 45.15795, Lng 8.268468
+Website: —
+Email: 
+
+12827. Canonica dei Templari
+ID: 002d2607-af6e-4d57-9d84-a7631992c28b
+Slug: canonica-dei-templari-camino
+Nome: Canonica dei Templari
+Comune / Provincia: Camino
+Indirizzo: Via Montesion, 63, 15020 Camino AL
+Coordinate: Lat 45.150876, Lng 8.253865
+Website: http://www.canonicadeitemplari.com/
+Email: 
+
+12828. Dubini
+ID: 1bb9bcff-8ce2-4afd-bef2-b99661f1669c
+Slug: dubini-camino
+Nome: Dubini
+Comune / Provincia: Camino
+Indirizzo: Via Roma, 34, 15020 Mombello Monferrato AL
+Coordinate: Lat 45.13147, Lng 8.249332
+Website: http://ristorantedubini.it/
+Email: 
+
+12829. Lilelo - Little Leisure Lodge
+ID: 02da8dca-7b29-491b-92e3-932bb464d07f
+Slug: lilelo-little-leisure-lodge-camino
+Nome: Lilelo - Little Leisure Lodge
+Comune / Provincia: Camino
+Indirizzo: Viale Pininfarina, 40, 14035 Grazzano Badoglio AT
+Coordinate: Lat 45.055282, Lng 8.30485
+Website: https://www.lilelo.it/
+Email: 
+
+12830. Palazzo Tornielli
+ID: 25fba938-f404-401a-96be-a62a0e5b5784
+Slug: palazzo-tornielli-camino
+Nome: Palazzo Tornielli
+Comune / Provincia: Camino
+Indirizzo: Via Roma, 79, 15020 Mombello Monferrato AL
+Coordinate: Lat 45.133215, Lng 8.251359
+Website: https://www.palazzotornielli.com/
+Email: 
+
+12831. Resort Castello di Gabiano
+ID: 4062e928-712e-4030-9a7b-312dac06490f
+Slug: resort-castello-di-gabiano-camino
+Nome: Resort Castello di Gabiano
+Comune / Provincia: Camino
+Indirizzo: Via S. Defendente, 15020 Gabiano AL
+Coordinate: Lat 45.159122, Lng 8.193162
+Website: https://www.castellodigabiano.it/
+Email: 
+
+12832. Tenuta Monvillone Country House & Restaurant
+ID: 26ec1eb8-0f3e-432a-a37d-8600f7f3f4cb
+Slug: tenuta-monvillone-country-house-restaurant-camino
+Nome: Tenuta Monvillone Country House & Restaurant
+Comune / Provincia: Camino
+Indirizzo: Via Alla Stazione, 32, 15020 Cereseto AL
+Coordinate: Lat 45.090313, Lng 8.316326
+Website: https://www.monvillone.it/
+Email: 
+
+12833. TORNOSUBITO MOLETO
+ID: 145d6f8e-9227-409f-a24a-ecb9c92f14b9
+Slug: tornosubito-moleto-camino
+Nome: TORNOSUBITO MOLETO
+Comune / Provincia: Camino
+Indirizzo: Frazione Moleto Basso, 8, 15038 Moleto AL
+Coordinate: Lat 45.052393, Lng 8.369894
+Website: http://tornosubitomoleto.it/
+Email: 
+
+12834. Torre Veglio
+ID: 84fd6867-d2fb-44e3-b4b8-ae6750ba9c0b
+Slug: torre-veglio-camino
+Nome: Torre Veglio
+Comune / Provincia: Camino
+Indirizzo: Strada Folegna, 15030 Terruggia AL
+Coordinate: Lat 45.091932, Lng 8.434016
+Website: https://hotelscompany.net/business/torre-veglio-imr0ow
+Email: 
+
+12835. Agriturismo Villa Mainardi
+ID: de922400-197d-45e0-89b8-097eefb86685
+Slug: agriturismo-villa-mainardi-camino-al-tagliamento
+Nome: Agriturismo Villa Mainardi
+Comune / Provincia: Camino al Tagliamento
+Indirizzo: Località Gorizzo, 31, 33030 Gorizzo UD
+Coordinate: Lat 45.930916, Lng 12.956386
+Website: —
+Email: 
+
+12836. B&B Villa Francesca
+ID: a2bf55bd-9a96-46f4-a107-3da738b6a6c0
+Slug: b-b-villa-francesca-camino-al-tagliamento
+Nome: B&B Villa Francesca
+Comune / Provincia: Camino al Tagliamento
+Indirizzo: Via Tagliamento, 34, 33030 Camino Al Tagliamento UD
+Coordinate: Lat 45.926214, Lng 12.940206
+Website: —
+Email: 
+
+12837. Borgo dei Conti della Torre
+ID: 9a0f7288-6221-4ed7-932b-f25338e7c195
+Slug: borgo-dei-conti-della-torre-camino-al-tagliamento
+Nome: Borgo dei Conti della Torre
+Comune / Provincia: Camino al Tagliamento
+Indirizzo: Via Ponte Madrisio, 13, 33075 Morsano al Tagliamento PN
+Coordinate: Lat 45.859096, Lng 12.963533
+Website: https://www.borgodeicontidellatorre.it/
+Email: 
+
+12838. Hotel Bella Venezia
+ID: fe6c26e7-e0df-4c5a-bb5e-80023a3169e8
+Slug: hotel-bella-venezia-camino-al-tagliamento
+Nome: Hotel Bella Venezia
+Comune / Provincia: Camino al Tagliamento
+Indirizzo: Via del Marinaio, 3, 33053 Latisana UD
+Coordinate: Lat 45.779659, Lng 12.99439
+Website: http://www.hotelbellavenezia.it/
+Email: 
+
+12839. La di Morson
+ID: a28f21e5-4b9c-4689-b477-a81458430638
+Slug: la-di-morson-camino-al-tagliamento
+Nome: La di Morson
+Comune / Provincia: Camino al Tagliamento
+Indirizzo: Via Molino, 27, 33030 Camino al Tagliamento UD
+Coordinate: Lat 45.923486, Lng 12.94916
+Website: https://www.ladimorson.com/
+Email: 
+
+12840. Locanda Forchir
+ID: 4d523076-eb35-4975-93f7-758b92221e76
+Slug: locanda-forchir-camino-al-tagliamento
+Nome: Locanda Forchir
+Comune / Provincia: Camino al Tagliamento
+Indirizzo: Località Gorizzo, 26, 33030 Camino al Tagliamento UD
+Coordinate: Lat 45.932, Lng 12.958561
+Website: https://www.locandaforchir.it/
+Email: 
+
+12841. Agriturismo La Moneghina
+ID: 6f5e971b-ba97-4585-baf8-58f252f17db2
+Slug: agriturismo-la-moneghina-camisano-vicentino
+Nome: Agriturismo La Moneghina
+Comune / Provincia: Camisano Vicentino
+Indirizzo: 36040, Via Monache, 7, 36040 Grumolo delle Abbadesse VI
+Coordinate: Lat 45.52922, Lng 11.658849
+Website: http://www.lamoneghina.it/
+Email: 
+
+12842. B&B Bagni di sole
+ID: 6e8b9728-3743-4863-87d7-3c2bb6bd4e62
+Slug: b-b-bagni-di-sole-camisano-vicentino
+Nome: B&B Bagni di sole
+Comune / Provincia: Camisano Vicentino
+Indirizzo: Via Moia, 1, 35010 Campo San Martino PD
+Coordinate: Lat 45.553083, Lng 11.806819
+Website: http://www.bbbagnidisole.it/
+Email: 
+
+12843. Bed and Breakfast Casarosa
+ID: 9543b6df-544b-4fe9-a254-3a7b288565a1
+Slug: bed-and-breakfast-casarosa-camisano-vicentino
+Nome: Bed and Breakfast Casarosa
+Comune / Provincia: Camisano Vicentino
+Indirizzo: Via Boschiera, 43, 35016 Piazzola sul Brenta PD
+Coordinate: Lat 45.523982, Lng 11.776962
+Website: http://www.bbcasarosa.it/
+Email: 
+
+12844. Casa Amigos 2
+ID: b3c173ed-ab6d-4e45-a591-0ffc6802568c
+Slug: casa-amigos-2-camisano-vicentino
+Nome: Casa Amigos 2
+Comune / Provincia: Camisano Vicentino
+Indirizzo: Via Torrossa, 20, 36043 Camisano Vicentino VI
+Coordinate: Lat 45.523889, Lng 11.716389
+Website: —
+Email: 
+
+12845. Fattoria Grimana
+ID: ef5f1e89-c5f4-4dcc-b6d8-b11488468e4b
+Slug: fattoria-grimana-camisano-vicentino
+Nome: Fattoria Grimana
+Comune / Provincia: Camisano Vicentino
+Indirizzo: Via Zocco, 101, 36047 Montegalda VI
+Coordinate: Lat 45.462603, Lng 11.693168
+Website: http://www.agriturismofattoriagrimana.it/
+Email: 

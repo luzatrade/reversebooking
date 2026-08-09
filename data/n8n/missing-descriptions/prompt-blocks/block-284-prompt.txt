@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+9906. Giardinidivale
+ID: 84899603-2def-412d-a3a6-b2a9428a77ff
+Slug: giardinidivale-borgio-verezzi
+Nome: Giardinidivale
+Comune / Provincia: Borgio Verezzi
+Indirizzo: piazza del commercio, 1, 17022 Borgio Verezzi SV
+Coordinate: Lat 44.159444, Lng 8.303231
+Website: https://www.giardinidivale.it/
+Email: 
+
+9907. Hotel Bacco
+ID: 12b3a3f6-f935-4c7f-afda-c9b8bdeef2af
+Slug: hotel-bacco-borgio-verezzi
+Nome: Hotel Bacco
+Comune / Provincia: Borgio Verezzi
+Indirizzo: Corso Italia, 153, 17027 Pietra Ligure SV
+Coordinate: Lat 44.152145, Lng 8.289833
+Website: http://www.baccohotel.com/
+Email: 
+
+9908. Hotel Principe
+ID: e51b9e26-faec-4714-93c4-724c12121823
+Slug: hotel-principe-borgio-verezzi
+Nome: Hotel Principe
+Comune / Provincia: Borgio Verezzi
+Indirizzo: 574V+5XP, Viale della Repubblica, 74/bis, 17027 Pietra Ligure SV
+Coordinate: Lat 44.155438, Lng 8.294938
+Website: http://www.albergoprincipe.it/
+Email: 
+
+9909. Hotel Villa delle Rose
+ID: 89ebf55a-dabc-4474-b1c6-5973b6b317ca
+Slug: hotel-villa-delle-rose-borgio-verezzi
+Nome: Hotel Villa delle Rose
+Comune / Provincia: Borgio Verezzi
+Indirizzo: Via Nazario Sauro, 1, 17022 Borgio SV
+Coordinate: Lat 44.158585, Lng 8.311641
+Website: http://www.villarose.it/
+Email: 
+
+9910. Hotel Villa Marina
+ID: a6b5ef2d-85e5-4cd5-bdd0-d5aa2cdaf03b
+Slug: hotel-villa-marina-borgio-verezzi
+Nome: Hotel Villa Marina
+Comune / Provincia: Borgio Verezzi
+Indirizzo: Corso Italia, 221, 17027 Pietra Ligure SV
+Coordinate: Lat 44.152905, Lng 8.292105
+Website: https://www.hcaldana.com/
+Email: 
+
+9911. Ideal
+ID: 399b8f44-f671-41e9-a7bd-5a09b7953796
+Slug: ideal-borgio-verezzi
+Nome: Ideal
+Comune / Provincia: Borgio Verezzi
+Indirizzo: Via XXV Aprile, 32, 17022 Borgio SV
+Coordinate: Lat 44.157919, Lng 8.308366
+Website: http://www.idealhotel.com/
+Email: 
+
+9912. Il Sogno di Jo
+ID: 1a0d650b-63ed-422d-bbc1-d30cc9ddc794
+Slug: il-sogno-di-jo-borgio-verezzi
+Nome: Il Sogno di Jo
+Comune / Provincia: Borgio Verezzi
+Indirizzo: Via XXV Aprile, 30, 17022 Borgio Verezzi SV
+Coordinate: Lat 44.158058, Lng 8.308602
+Website: https://www.ilsognodijo.com/
+Email: 
+
+9913. La Canonica - Svegliarsi a Verezzi
+ID: 6478ca2f-2ebb-4791-bd7d-52237c5d70ad
+Slug: la-canonica-svegliarsi-a-verezzi-borgio-verezzi
+Nome: La Canonica - Svegliarsi a Verezzi
+Comune / Provincia: Borgio Verezzi
+Indirizzo: Via alla Chiesa, 90, 17022 Borgio SV
+Coordinate: Lat 44.168473, Lng 8.314771
+Website: https://www.svegliarsiaverezzi.com/
+Email: 
+
+9914. Locanda del Bergallo
+ID: 388b8a4d-3042-4ab6-9aa7-f0f93ae452c3
+Slug: locanda-del-bergallo-borgio-verezzi
+Nome: Locanda del Bergallo
+Comune / Provincia: Borgio Verezzi
+Indirizzo: Via Roma, 17/a, 17022 Borgio SV
+Coordinate: Lat 44.167276, Lng 8.311278
+Website: https://anticaosteriasaracenadelbergallo.com/
+Email: 
+
+9915. Terrazza Felice Room & Breakfast
+ID: 00643ceb-56bf-4cc1-b86f-14758cf128ed
+Slug: terrazza-felice-room-breakfast-borgio-verezzi
+Nome: Terrazza Felice Room & Breakfast
+Comune / Provincia: Borgio Verezzi
+Indirizzo: Via Nazario Sauro, 148, 17022 Borgio Verezzi SV
+Coordinate: Lat 44.160642, Lng 8.315546
+Website: https://www.terrazzafelice.it/
+Email: 
+
+9916. Villa Ada
+ID: 9abe8a01-cf49-48ba-99ba-1636bf707d08
+Slug: villa-ada-borgio-verezzi
+Nome: Villa Ada
+Comune / Provincia: Borgio Verezzi
+Indirizzo: Via Vittorio Veneto, 4, 17022 Borgio SV
+Coordinate: Lat 44.159716, Lng 8.306823
+Website: http://www.villaada.net/
+Email: 
+
+9917. Villa Paradiso
+ID: f174a895-b35c-4cd5-98a0-3894ff2ddb85
+Slug: villa-paradiso-borgio-verezzi
+Nome: Villa Paradiso
+Comune / Provincia: Borgio Verezzi
+Indirizzo: Via Nazario Sauro, 172, 17022 Borgio SV
+Coordinate: Lat 44.160793, Lng 8.316731
+Website: http://villaparadiso.verezzi.it/
+Email: 
+
+9918. Villino Saraceno Rostain 1911
+ID: db534ca2-721e-490e-92e1-dd00b122f4f5
+Slug: villino-saraceno-rostain-1911-borgio-verezzi
+Nome: Villino Saraceno Rostain 1911
+Comune / Provincia: Borgio Verezzi
+Indirizzo: Via della Cornice, 20, 17022 Borgio Verezzi SV
+Coordinate: Lat 44.159209, Lng 8.314665
+Website: http://www.villinosaracenorostain.it/
+Email: 
+
+9919. Agriturismo Il Pino
+ID: 42b01dea-038b-4470-83bc-647d348f9c9a
+Slug: agriturismo-il-pino-borgo-a-mozzano
+Nome: Agriturismo Il Pino
+Comune / Provincia: Borgo a Mozzano
+Indirizzo: Località Al Pino, 3, 55064 San Martino in Freddana - Monsagrati LU
+Coordinate: Lat 43.913706, Lng 10.445441
+Website: https://www.agricolailpino.it/
+Email: 
+
+9920. Agriturismo la Casetta di Butia
+ID: 086d29d2-95ed-4698-a00f-21b378dd170c
+Slug: agriturismo-la-casetta-di-butia-borgo-a-mozzano
+Nome: Agriturismo la Casetta di Butia
+Comune / Provincia: Borgo a Mozzano
+Indirizzo: Località, 55023 Borgo a Mozzano LU
+Coordinate: Lat 43.989598, Lng 10.538255
+Website: http://www.casettadibutia.it/
+Email: 
+
+9921. Albergo Diffuso -I Borghi della Maddalena
+ID: 776e2e9c-1dd1-4e9e-97e6-fa190e32a142
+Slug: albergo-diffuso-i-borghi-della-maddalena-borgo-a-mozzano
+Nome: Albergo Diffuso -I Borghi della Maddalena
+Comune / Provincia: Borgo a Mozzano
+Indirizzo: Piazza Giuseppe Garibaldi, 6, 55023 Borgo a Mozzano LU
+Coordinate: Lat 43.97896, Lng 10.544615
+Website: http://www.iborghidellamaddalena.it/
+Email: 
+
+9922. Azienda Agricola Macea
+ID: 1c057758-ce5a-452b-aec5-eea170ac4464
+Slug: azienda-agricola-macea-borgo-a-mozzano
+Nome: Azienda Agricola Macea
+Comune / Provincia: Borgo a Mozzano
+Indirizzo: Loc. Macea, N 2, 55023 Borgo a Mozzano LU
+Coordinate: Lat 43.979612, Lng 10.537204
+Website: http://www.macea.it/
+Email: 
+
+9923. B & B Via di Mezzo
+ID: 2dac4174-3b3c-482f-ac93-7e2863b556d7
+Slug: b-b-via-di-mezzo-borgo-a-mozzano
+Nome: B & B Via di Mezzo
+Comune / Provincia: Borgo a Mozzano
+Indirizzo: Via di Mezzo, 10, 55025 Calavorno LU
+Coordinate: Lat 44.021679, Lng 10.529622
+Website: —
+Email: 
+
+9924. Borgo Alfeo
+ID: 67834505-223a-453f-987d-962e80603c8e
+Slug: borgo-alfeo-borgo-a-mozzano
+Nome: Borgo Alfeo
+Comune / Provincia: Borgo a Mozzano
+Indirizzo: 55023 Borgo a Mozzano LU
+Coordinate: Lat 43.933509, Lng 10.491857
+Website: —
+Email: 
+
+9925. Borgo Giusto Tuscany
+ID: c81ae8b0-92b5-49b2-a40d-7687ea33ff69
+Slug: borgo-giusto-tuscany-borgo-a-mozzano
+Nome: Borgo Giusto Tuscany
+Comune / Provincia: Borgo a Mozzano
+Indirizzo: Loc. Soccolognora, 6, 55023 Partigliano LU
+Coordinate: Lat 43.948158, Lng 10.468017
+Website: https://www.borgogiustotuscany.com/
+Email: 
+
+9926. Hotel Sweet Borgo
+ID: 925cbf85-ea97-4d21-aef8-3a637ddf8711
+Slug: hotel-sweet-borgo-borgo-a-mozzano
+Nome: Hotel Sweet Borgo
+Comune / Provincia: Borgo a Mozzano
+Indirizzo: Str. Vicinale di Partigliano, 55023 Borgo a Mozzano LU
+Coordinate: Lat 43.94816, Lng 10.467954
+Website: https://hotel-sweet-borgo.camerainitalia.top/
+Email: 
+
+9927. Hotel Villa Volpi
+ID: 7ec162f0-41f9-4d56-b5ff-be2b9500a55f
+Slug: hotel-villa-volpi-borgo-a-mozzano
+Nome: Hotel Villa Volpi
+Comune / Provincia: Borgo a Mozzano
+Indirizzo: V. di Mastiano e Gugliano, 3597, 55100 Lucca LU
+Coordinate: Lat 43.904606, Lng 10.498228
+Website: http://www.hotelvillavolpi.com/
+Email: 
+
+9928. I Grocchi
+ID: fd311716-c971-45a8-9aee-160f74e0abff
+Slug: i-grocchi-borgo-a-mozzano
+Nome: I Grocchi
+Comune / Provincia: Borgo a Mozzano
+Indirizzo: Località Lappato di Sopra, Cerreto, 55023 Borgo a Mozzano LU
+Coordinate: Lat 43.98654, Lng 10.547468
+Website: http://www.igrocchi.com/
+Email: 
+
+9929. Le Casine del Borgo
+ID: 07705673-56c1-4e52-88be-ce91fb86cb08
+Slug: le-casine-del-borgo-borgo-a-mozzano
+Nome: Le Casine del Borgo
+Comune / Provincia: Borgo a Mozzano
+Indirizzo: Via della Repubblica, 55, 55023 Fabbriche di Vergemoli LU
+Coordinate: Lat 43.983851, Lng 10.550947
+Website: —
+Email: 
+
+9930. Morianese Residence
+ID: 6e236e2f-61c6-4894-a61a-aead8484dffe
+Slug: morianese-residence-borgo-a-mozzano
+Nome: Morianese Residence
+Comune / Provincia: Borgo a Mozzano
+Indirizzo: Via di Moriano, 5975, 55100 Lucca LU
+Coordinate: Lat 43.906682, Lng 10.527761
+Website: https://residenza-morianese.wixsite.com/morianeseresidence
+Email: 
+
+9931. VILLA GUINIGI EXCLUSIVE RESIDENCE & POOL
+ID: f573e7c0-aa57-4e93-b53f-b501368d5d2a
+Slug: villa-guinigi-exclusive-residence-pool-borgo-a-mozzano
+Nome: VILLA GUINIGI EXCLUSIVE RESIDENCE & POOL
+Comune / Provincia: Borgo a Mozzano
+Indirizzo: Via di Matraia, 22, 55018 Matraia LU
+Coordinate: Lat 43.911955, Lng 10.569413
+Website: https://www.villaguinigi.it/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+9932. Agritur Al Marter
+ID: 47be467b-af1a-4786-8b87-fff0c644712f
+Slug: agritur-al-marter-borgo-chiese
+Nome: Agritur Al Marter
+Comune / Provincia: Borgo Chiese
+Indirizzo: Strada per bisti, 2, 38067 Ledro TN
+Coordinate: Lat 45.875416, Lng 10.657803
+Website: http://www.agrituralmarter.it/
+Email: 
+
+9933. Agritur La Polentera
+ID: 9eba6ac1-c467-410a-b547-fc223e26afba
+Slug: agritur-la-polentera-borgo-chiese
+Nome: Agritur La Polentera
+Comune / Provincia: Borgo Chiese
+Indirizzo: Via del Sorino, 44, 38089 Storo TN
+Coordinate: Lat 45.859955, Lng 10.568206
+Website: http://www.lapolentera.it/
+Email: 
+
+9934. Albergo Hotel Castel Lodron
+ID: f7941655-ee40-4154-a997-b8244e681643
+Slug: albergo-hotel-castel-lodron-borgo-chiese
+Nome: Albergo Hotel Castel Lodron
+Comune / Provincia: Borgo Chiese
+Indirizzo: Via 24 Maggio, 41, 38089 Storo TN
+Coordinate: Lat 45.830784, Lng 10.539526
+Website: http://www.hotelcastellodron.it/
+Email: 
+
+9935. B&B LEDRO - Affittacamere
+ID: 1d6a78ee-5b42-4619-a76e-141532149fe0
+Slug: b-b-ledro-affittacamere-borgo-chiese
+Nome: B&B LEDRO - Affittacamere
+Comune / Provincia: Borgo Chiese
+Indirizzo: Via Dromaè, 5, 38067 Mezzolago TN
+Coordinate: Lat 45.885044, Lng 10.754723
+Website: http://www.bbledro.com/
+Email: 
+
+9936. Barambana Rooms & Restaurant
+ID: 60a96846-dfb7-4bb4-a625-41f7ae0f5347
+Slug: barambana-rooms-restaurant-borgo-chiese
+Nome: Barambana Rooms & Restaurant
+Comune / Provincia: Borgo Chiese
+Indirizzo: Via di Vil, 68, 38089 Storo TN
+Coordinate: Lat 45.849408, Lng 10.559348
+Website: https://www.barambana.it/
+Email: 
+
+9937. Borel Hotel
+ID: b1e317bd-c712-4de0-be30-e80cb2c4dcc0
+Slug: borel-hotel-borgo-chiese
+Nome: Borel Hotel
+Comune / Provincia: Borgo Chiese
+Indirizzo: Via Vittorio Emanuele III, 12, 38085 Creto TN
+Coordinate: Lat 45.936, Lng 10.638727
+Website: https://www.borelhotel.it/
+Email: 
+
+9938. Garnì Dal Mozat
+ID: b5beed9e-a4e9-4864-b15f-ca4a08bc952d
+Slug: garni-dal-mozat-borgo-chiese
+Nome: Garnì Dal Mozat
+Comune / Provincia: Borgo Chiese
+Indirizzo: Via Mario Bianchi, 26, 38067 Lenzumo TN
+Coordinate: Lat 45.914528, Lng 10.72621
+Website: http://www.dalmozat.it/
+Email: 
+
+9939. Garnì Enjoy Ledro
+ID: 7dc55eb5-4c87-40da-9de0-7a14b59fe86e
+Slug: garni-enjoy-ledro-borgo-chiese
+Nome: Garnì Enjoy Ledro
+Comune / Provincia: Borgo Chiese
+Indirizzo: Via Alzer, 36, 38067 Pieve di Ledro TN
+Coordinate: Lat 45.886879, Lng 10.730539
+Website: https://www.enjoyledro.it/
+Email: 
+
+9940. Hotel Cadria
+ID: 6178466d-4815-4d87-a9d0-c346e36b5c11
+Slug: hotel-cadria-borgo-chiese
+Nome: Hotel Cadria
+Comune / Provincia: Borgo Chiese
+Indirizzo: Via Unità D'Italia, 25, 38067 Lenzumo TN
+Coordinate: Lat 45.911489, Lng 10.7261
+Website: https://www.facebook.com/hotelcadriabike
+Email: 

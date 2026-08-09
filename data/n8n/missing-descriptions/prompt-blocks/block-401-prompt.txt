@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+14001. Hotel Marzia Holiday Queen
+ID: 5ffabd33-faae-4bae-9ae2-f1718715eae6
+Slug: hotel-marzia-holiday-queen-caorle
+Nome: Hotel Marzia Holiday Queen
+Comune / Provincia: Caorle
+Indirizzo: Viale Dante Alighieri, 2, 30021 Caorle VE
+Coordinate: Lat 45.595176, Lng 12.877032
+Website: http://www.hotelmarzia.it/
+Email: 
+
+14002. Hotel Monaco
+ID: 45233269-0bb0-4cb1-8fde-c2cc594ca667
+Slug: hotel-monaco-caorle
+Nome: Hotel Monaco
+Comune / Provincia: Caorle
+Indirizzo: Lungomare Trieste, 58, 30021 Caorle VE
+Coordinate: Lat 45.608009, Lng 12.89604
+Website: http://www.hotelmonacocaorle.it/
+Email: 
+
+14003. Hotel Sanremo & Residence La Serenissima
+ID: dc3d455a-bc7d-4c10-ac10-3f2b8cf54a39
+Slug: hotel-sanremo-residence-la-serenissima-caorle
+Nome: Hotel Sanremo & Residence La Serenissima
+Comune / Provincia: Caorle
+Indirizzo: Lungomare Trieste, 24, 30021 Caorle VE
+Coordinate: Lat 45.60564, Lng 12.891854
+Website: http://www.hotelsanremocaorle.it/
+Email: 
+
+14004. Hotel Splendid
+ID: 1e0d8442-b4cd-4abb-a97a-483937a49c5f
+Slug: hotel-splendid-caorle
+Nome: Hotel Splendid
+Comune / Provincia: Caorle
+Indirizzo: Viale Santa Margherita, 31, 30021 Caorle VE
+Coordinate: Lat 45.597171, Lng 12.881069
+Website: http://www.splendidhotel.it/
+Email: 
+
+14005. Hotel Tizian Beach
+ID: 051ba282-4208-4b15-b2cd-9a746dec4e50
+Slug: hotel-tizian-beach-caorle
+Nome: Hotel Tizian Beach
+Comune / Provincia: Caorle
+Indirizzo: +39 042181266, Piazza Marco Polo, 1, 30021 Caorle VE
+Coordinate: Lat 45.592745, Lng 12.871757
+Website: http://hotel.tizianbeach.com/
+Email: 
+
+14006. HOTEL VENUS BEST PRICE
+ID: b10df4a6-7f93-4d58-8c1a-94b66a44bb2d
+Slug: hotel-venus-best-price-caorle
+Nome: HOTEL VENUS BEST PRICE
+Comune / Provincia: Caorle
+Indirizzo: Corso G. Chiggiato, 28, 30021 Caorle VE
+Coordinate: Lat 45.603252, Lng 12.886622
+Website: http://www.venushotel.it/
+Email: 
+
+14007. HOTEL 5 RESIDENCE
+ID: 7e47e1e6-a1a1-4c9c-b350-8a3f68f77898
+Slug: hotel-5-residence-caorso
+Nome: HOTEL 5 RESIDENCE
+Comune / Provincia: Caorso
+Indirizzo: Via Luigi Pennazzi, 9, 29122 Piacenza PC
+Coordinate: Lat 45.042705, Lng 9.714741
+Website: —
+Email: 
+
+14008. Hotel Business Ristopub
+ID: e0331a97-f518-4abd-8d60-d832e1eeab2c
+Slug: hotel-business-ristopub-caorso
+Nome: Hotel Business Ristopub
+Comune / Provincia: Caorso
+Indirizzo: Piazza Tre Martiri, 9/10, 29010 Pontenure PC
+Coordinate: Lat 44.999608, Lng 9.789105
+Website: —
+Email: 
+
+14009. Hotel City
+ID: dc440907-781a-4962-9bc3-4c53753f1e1a
+Slug: hotel-city-caorso
+Nome: Hotel City
+Comune / Provincia: Caorso
+Indirizzo: Via Emilia Parmense, 54, 29100 Piacenza PC
+Coordinate: Lat 45.038593, Lng 9.723345
+Website: https://www.hotelcitypc.it/
+Email: 
+
+14010. The Central Rock Inn
+ID: 6373e8db-29b1-4801-ab39-7a292ca60417
+Slug: the-central-rock-inn-caorso
+Nome: The Central Rock Inn
+Comune / Provincia: Caorso
+Indirizzo: Via Torricella, 1, 29121 Piacenza PC
+Coordinate: Lat 45.051059, Lng 9.705241
+Website: https://thecentralrockinn.com/
+Email: 
+
+14011. B&B Antica Forneria
+ID: 378546f4-aed4-4855-a9ca-8e2de95d9710
+Slug: b-b-antica-forneria-capaccio-paestum
+Nome: B&B Antica Forneria
+Comune / Provincia: Capaccio Paestum
+Indirizzo: Via Ponte Marmoreo, 57, 84047 Capaccio Paestum SA
+Coordinate: Lat 40.422452, Lng 15.026268
+Website: http://bnb-antica-forneria.com.es/
+Email: 
+
+14012. Bed & Breakfast Villa Flora
+ID: 697a69cf-db8a-46c3-be8c-c32b1f9323f3
+Slug: bed-breakfast-villa-flora-capaccio-paestum
+Nome: Bed & Breakfast Villa Flora
+Comune / Provincia: Capaccio Paestum
+Indirizzo: Contrada Celso SS. 18 Tirrenia Inferiore, Km. 102+400, 84043 Agropoli SA
+Coordinate: Lat 40.374994, Lng 15.036336
+Website: http://www.bb-villaflora.it/
+Email: 
+
+14013. Casa Rubini
+ID: 078694b2-0d73-4961-a79e-03a6a15aebc7
+Slug: casa-rubini-capaccio-paestum
+Nome: Casa Rubini
+Comune / Provincia: Capaccio Paestum
+Indirizzo: Via Tavernelle, 5, 84047 Paestum SA
+Coordinate: Lat 40.426828, Lng 15.004888
+Website: http://www.casarubinipaestum.com/
+Email: 
+
+14014. Domus Hera
+ID: f103f0a7-91bf-4ed7-be73-6bf86f17886d
+Slug: domus-hera-capaccio-paestum
+Nome: Domus Hera
+Comune / Provincia: Capaccio Paestum
+Indirizzo: Via Fuscillo, 702, 84047 Paestum SA
+Coordinate: Lat 40.401208, Lng 15.018227
+Website: https://checkinstay.eu/domus-hera-paestum
+Email: 
+
+14015. Hotel Almas Paestum ***
+ID: 0d5e988c-b6c1-42f9-8031-d3e8eecbd847
+Slug: hotel-almas-paestum-capaccio-paestum
+Nome: Hotel Almas Paestum ***
+Comune / Provincia: Capaccio Paestum
+Indirizzo: Strada Statale, 18 km 90, 84047 Capaccio Paestum SA
+Coordinate: Lat 40.468354, Lng 15.014343
+Website: https://almashotelpaestum.com/
+Email: 
+
+14016. Hotel Dei Templi
+ID: d2150909-a594-49c8-b905-d42f8a65901b
+Slug: hotel-dei-templi-capaccio-paestum
+Nome: Hotel Dei Templi
+Comune / Provincia: Capaccio Paestum
+Indirizzo: Via Tavernelle, 64, 84047 Capaccio Paestum SA
+Coordinate: Lat 40.426809, Lng 15.003059
+Website: http://www.hoteldeitempli.it/
+Email: 
+
+14017. Hotel La Sorgente Paestum
+ID: 011ebb95-235d-4ff1-bda4-471147b3673f
+Slug: hotel-la-sorgente-paestum-capaccio-paestum
+Nome: Hotel La Sorgente Paestum
+Comune / Provincia: Capaccio Paestum
+Indirizzo: Via Licinella, 178/A, 84047 Licinella-Torre di Paestum SA
+Coordinate: Lat 40.402085, Lng 15.000216
+Website: https://www.lasorgentehotel.it/
+Email: 
+
+14018. Hotel Parco dei Principi Paestum
+ID: 4e776cce-8eba-4aa1-9a04-cf87bf4eb4e4
+Slug: hotel-parco-dei-principi-paestum-capaccio-paestum
+Nome: Hotel Parco dei Principi Paestum
+Comune / Provincia: Capaccio Paestum
+Indirizzo: via Poseidonia loc. Ponte di Ferro, 84047 Capaccio Paestum SA
+Coordinate: Lat 40.425284, Lng 14.9854
+Website: http://www.hotelparcodeiprincipipaestum.it/
+Email: 
+
+14019. Hotel Royal Paestum
+ID: d66ac84d-da72-4337-8c50-fa01060d16a3
+Slug: hotel-royal-paestum-capaccio-paestum
+Nome: Hotel Royal Paestum
+Comune / Provincia: Capaccio Paestum
+Indirizzo: Via Francesco Gregorio, 40, 84047 Capaccio Paestum SA
+Coordinate: Lat 40.451675, Lng 14.976037
+Website: http://www.hotelroyalpaestum.it/
+Email: 
+
+14020. Hotel Sogaris Paestum
+ID: 0f87316c-1679-4cc2-a3d5-41b8ed61548d
+Slug: hotel-sogaris-paestum-capaccio-paestum
+Nome: Hotel Sogaris Paestum
+Comune / Provincia: Capaccio Paestum
+Indirizzo: Via dell'Amore, 23, 84047 Licinella-Torre di Paestum SA
+Coordinate: Lat 40.399447, Lng 14.99857
+Website: http://www.hotelsogaris.it/
+Email: 
+
+14021. Hotel Villa Rita
+ID: 6752e2d6-e86a-4bf9-9302-bd6bac2ce7bb
+Slug: hotel-villa-rita-capaccio-paestum
+Nome: Hotel Villa Rita
+Comune / Provincia: Capaccio Paestum
+Indirizzo: Via Nettuno, 9, 84047 Paestum SA
+Coordinate: Lat 40.415428, Lng 15.002017
+Website: https://www.hotelvillarita.it/
+Email: 
+
+14022. L',incanto di Paestum
+ID: e787c600-3e38-4635-97a7-c4cb8948008e
+Slug: l-incanto-di-paestum-capaccio-paestum
+Nome: L',incanto di Paestum
+Comune / Provincia: Capaccio Paestum
+Indirizzo: Via Chiorbo, 63, 84047 Capaccio Paestum SA
+Coordinate: Lat 40.427223, Lng 15.042511
+Website: http://lincanto-dipaestum.com.es/
+Email: 
+
+14023. Paestum Inn Beach Resort
+ID: 0234e092-6fb3-426a-98e4-b0dc45572050
+Slug: paestum-inn-beach-resort-capaccio-paestum
+Nome: Paestum Inn Beach Resort
+Comune / Provincia: Capaccio Paestum
+Indirizzo: Via Litoranea Linora, 84047 Capaccio Paestum SA
+Coordinate: Lat 40.389419, Lng 15.001324
+Website: http://www.paestuminn.com/
+Email: 
+
+14024. Tafuri Hotel Ristorante
+ID: cf2b532e-66d1-446d-a796-8ad874b47aa9
+Slug: tafuri-hotel-ristorante-capaccio-paestum
+Nome: Tafuri Hotel Ristorante
+Comune / Provincia: Capaccio Paestum
+Indirizzo: Viale della Repubblica, 153, 84047 Capaccio Paestum SA
+Coordinate: Lat 40.450406, Lng 14.978236
+Website: https://www.tafurihotel.com/
+Email: 
+
+14025. Al tempio della pace
+ID: 4341e262-d081-40f2-8589-ca282ff28984
+Slug: al-tempio-della-pace-capaci
+Nome: Al tempio della pace
+Comune / Provincia: Capaci
+Indirizzo: Via Paride, 5, 90044 Parco degli Ulivi PA
+Coordinate: Lat 38.159935, Lng 13.224783
+Website: —
+Email: 
+
+14026. AR Palace Hotel - Palermo
+ID: 7f22c6d5-a294-4ac0-8191-ab952cf04967
+Slug: ar-palace-hotel-palermo-capaci
+Nome: AR Palace Hotel - Palermo
+Comune / Provincia: Capaci
+Indirizzo: Viale dei Saraceni, 75A, 90040 Isola delle Femmine PA
+Coordinate: Lat 38.186874, Lng 13.239679
+Website: http://www.argrouphotels.it/
+Email: 
+
+14027. Azzurro Mare
+ID: d555cce4-024d-46d8-bfc8-9fb8d42f75c6
+Slug: azzurro-mare-capaci
+Nome: Azzurro Mare
+Comune / Provincia: Capaci
+Indirizzo: Via Piano Ponente, 41, 90040 Isola delle Femmine PA
+Coordinate: Lat 38.198049, Lng 13.247098
+Website: —
+Email: 
+
+14028. B&B case vacanze House Orlando
+ID: 3d0b8b33-36d2-47c4-954e-b178d5066c1f
+Slug: b-b-case-vacanze-house-orlando-capaci
+Nome: B&B case vacanze House Orlando
+Comune / Provincia: Capaci
+Indirizzo: Via Dammuso, 21, 90147 Palermo PA
+Coordinate: Lat 38.198837, Lng 13.277012
+Website: https://www.houseorlando.net/
+Email: 
+
+14029. B&B Villa Salvatore
+ID: 105bf11f-6b33-4663-b263-1a88dbf183f4
+Slug: b-b-villa-salvatore-capaci
+Nome: B&B Villa Salvatore
+Comune / Provincia: Capaci
+Indirizzo: Via S. Giuseppe Maria Tomasi, 35, 90040 Torretta PA
+Coordinate: Lat 38.157122, Lng 13.231289
+Website: —
+Email: 
+
+14030. Baglio Delle Ninfee
+ID: c71912d6-1901-4747-aecd-17a9b49bfacf
+Slug: baglio-delle-ninfee-capaci
+Nome: Baglio Delle Ninfee
+Comune / Provincia: Capaci
+Indirizzo: Piazza Santa Rosalia, 90040 Torretta PA
+Coordinate: Lat 38.168202, Lng 13.238327
+Website: —
+Email: 
+
+14031. Bellevue del Golfo Hotel & Spa
+ID: 8216c9d8-5165-4070-a1f0-0cc17725dd5a
+Slug: bellevue-del-golfo-hotel-spa-capaci
+Nome: Bellevue del Golfo Hotel & Spa
+Comune / Provincia: Capaci
+Indirizzo: Via Plauto, 40, 90147 Palermo PA
+Coordinate: Lat 38.201133, Lng 13.268443
+Website: http://www.hotelbellevuepalermo.com/
+Email: 
+
+14032. Casa di Alice
+ID: 1a2e74a1-7cbc-4f5b-a6b0-383b86e167ac
+Slug: casa-di-alice-capaci
+Nome: Casa di Alice
+Comune / Provincia: Capaci
+Indirizzo: Via di Maggio, 50, 90040 Isola delle Femmine PA
+Coordinate: Lat 38.197634, Lng 13.248123
+Website: —
+Email: 
+
+14033. Casa di Lele
+ID: 7aa6f2da-9e47-4a8b-bc94-22cd2463a3c8
+Slug: casa-di-lele-capaci
+Nome: Casa di Lele
+Comune / Provincia: Capaci
+Indirizzo: Via Pastificio, 17, 90044 Carini PA
+Coordinate: Lat 38.149796, Lng 13.187008
+Website: —
+Email: 
+
+14034. Casa Di Mitri
+ID: 17ef7883-a25c-438d-80f1-03c55136d0f0
+Slug: casa-di-mitri-capaci
+Nome: Casa Di Mitri
+Comune / Provincia: Capaci
+Indirizzo: Via Nazionale, 335, 90044 Carini PA
+Coordinate: Lat 38.157966, Lng 13.179925
+Website: https://www.instagram.com/casadimitri_/?igsh=YzVrY3RhNmtmYW9y
+Email: 
+
+14035. Eufemia Hotel
+ID: 56d5b26b-60ed-4be2-a4f3-7ca671cc3d66
+Slug: eufemia-hotel-capaci
+Nome: Eufemia Hotel
+Comune / Provincia: Capaci
+Indirizzo: Via Nazionale, 30, 90040 Isola delle Femmine PA
+Coordinate: Lat 38.193441, Lng 13.251107
+Website: https://www.hoteleufemia.com/
+Email: 

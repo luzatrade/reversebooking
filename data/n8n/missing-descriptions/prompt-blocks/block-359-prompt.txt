@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+12531. Palazzo Cosentino
+ID: 1017b6f8-471e-4e10-becb-1127bb676172
+Slug: palazzo-cosentino-caltanissetta
+Nome: Palazzo Cosentino
+Comune / Provincia: Caltanissetta
+Indirizzo: Via Camillo Benso Conte di Cavour, 4, 93100 Caltanissetta CL
+Coordinate: Lat 37.490478, Lng 14.060198
+Website: http://www.palazzocosentino.it/
+Email: 
+
+12532. Qal’at Apart Hotel
+ID: 1d6a2ca9-8ba6-4f2b-b2b8-fa324255b696
+Slug: qal-at-apart-hotel-caltanissetta
+Nome: Qal’at Apart Hotel
+Comune / Provincia: Caltanissetta
+Indirizzo: Via John F. Kennedy, 16, 93100 Caltanissetta CL
+Coordinate: Lat 37.491199, Lng 14.058115
+Website: http://www.qalataparthotel.it/
+Email: 
+
+12533. A casa del Nonno
+ID: 6bd5fbe4-4ebb-4410-96fc-2b444a64bd0b
+Slug: a-casa-del-nonno-caltavuturo
+Nome: A casa del Nonno
+Comune / Provincia: Caltavuturo
+Indirizzo: Via 4 Novembre, 23/primo piano, 90010 Isnello PA
+Coordinate: Lat 37.941795, Lng 14.006252
+Website: http://acasadelnonnoisnello.com.es/
+Email: 
+
+12534. B&B Caltart
+ID: 90f0f49f-1b01-4889-a548-e7e96c16d1eb
+Slug: b-b-caltart-caltavuturo
+Nome: B&B Caltart
+Comune / Provincia: Caltavuturo
+Indirizzo: Via N. Machiavelli, 12, 90022 Caltavuturo PA
+Coordinate: Lat 37.822204, Lng 13.890714
+Website: http://bb-caltart.italianeisole.it/
+Email: 
+
+12535. B&B Panorama
+ID: 03bbe441-4642-4da3-9be7-c7e41094e3a8
+Slug: b-b-panorama-caltavuturo
+Nome: B&B Panorama
+Comune / Provincia: Caltavuturo
+Indirizzo: Via Isnello, 34, 90013 Castelbuono PA
+Coordinate: Lat 37.92953, Lng 14.084967
+Website: http://www.bbcastelbuono.com/
+Email: 
+
+12536. Casa della Nonna
+ID: 8c678f30-2e87-44b0-b578-83fe2b9772b1
+Slug: casa-della-nonna-caltavuturo
+Nome: Casa della Nonna
+Comune / Provincia: Caltavuturo
+Indirizzo: Via Stesicoro, 11, 90022 Caltavuturo PA
+Coordinate: Lat 37.821339, Lng 13.891068
+Website: http://casa-della-nonna-2.italianeisole.it/
+Email: 
+
+12537. Olinad rooms
+ID: d73a6b38-4b32-47ee-b20d-7807ca7b5dd8
+Slug: olinad-rooms-caltavuturo
+Nome: Olinad rooms
+Comune / Provincia: Caltavuturo
+Indirizzo: Via G. Guzzio, 36, 90013 Castelbuono PA
+Coordinate: Lat 37.927932, Lng 14.089081
+Website: —
+Email: 
+
+12538. Paradiso delle Madonie Hotel
+ID: 255bf5b7-c809-4d3f-b8dc-d9039a28df8e
+Slug: paradiso-delle-madonie-hotel-caltavuturo
+Nome: Paradiso delle Madonie Hotel
+Comune / Provincia: Caltavuturo
+Indirizzo: V. Dante Alighieri, 82, 90013 Castelbuono PA
+Coordinate: Lat 37.933943, Lng 14.089965
+Website: https://www.paradisodellemadonie.it/
+Email: 
+
+12539. VeraLuce Affittacamere
+ID: 373d4fe0-fd63-4806-9e08-320ca13b494f
+Slug: veraluce-affittacamere-caltavuturo
+Nome: VeraLuce Affittacamere
+Comune / Provincia: Caltavuturo
+Indirizzo: Via Vittorio Emanuele, 25, 90022 Caltavuturo PA
+Coordinate: Lat 37.821159, Lng 13.889944
+Website: https://www.veralucebb.it/
+Email: 
+
+12540. VILLAROSE
+ID: 34d47aa0-76b5-4fbf-aec3-0681956c9fe2
+Slug: villarose-caltavuturo
+Nome: VILLAROSE
+Comune / Provincia: Caltavuturo
+Indirizzo: CONTRADA CONIGLIERA SNC, 90013 Castelbuono PA
+Coordinate: Lat 37.94197, Lng 14.095819
+Website: https://review-hotel-stay.com/villarose-italy
+Email: 
+
+12541. Agriturismo Cascina Moretta
+ID: 4fcd230f-6f3b-488a-9a7c-270184442e67
+Slug: agriturismo-cascina-moretta-caltignaga
+Nome: Agriturismo Cascina Moretta
+Comune / Provincia: Caltignaga
+Indirizzo: Via Cascina Moretta, 1 Alzate di, 28015 Momo NO
+Coordinate: Lat 45.552692, Lng 8.58783
+Website: http://www.aziendaagricolacascinamoretta.com/
+Email: 
+
+12542. Hotel Residence Sogno
+ID: 5199cfb4-84fa-4258-a366-e114eb9cdabf
+Slug: hotel-residence-sogno-caltignaga
+Nome: Hotel Residence Sogno
+Comune / Provincia: Caltignaga
+Indirizzo: Via Enrico Tazzoli, 5, 28100 Novara NO
+Coordinate: Lat 45.462948, Lng 8.636951
+Website: https://www.hotelresidencesognonovara.it/
+Email: 
+
+12543. Albergo - Ristorante - Ricevimenti Villa Schiavi Di Sinz Federico
+ID: 8b5b240b-d3dd-4ac9-b7ee-c4379a90bd69
+Slug: albergo-ristorante-ricevimenti-villa-schiavi-di-calto
+Nome: Albergo - Ristorante - Ricevimenti Villa Schiavi Di Sinz Federico
+Comune / Provincia: Calto
+Indirizzo: 46028 Sermide MN, Italia
+Coordinate: Lat 44.995423, Lng 11.299715
+Website: —
+Email: 
+
+12544. SMART HOTEL FERRARA
+ID: 587a302a-239c-41b0-8819-2ccbf2257be3
+Slug: smart-hotel-ferrara-calto
+Nome: SMART HOTEL FERRARA
+Comune / Provincia: Calto
+Indirizzo: Via S. Romano, 120, 44121 Ferrara FE
+Coordinate: Lat 44.832775, Lng 11.6178
+Website: https://www.smarthotelferrara.com/
+Email: 
+
+12545. Stella De' Tolomei
+ID: aa5681b8-b354-4ceb-9b24-de99fe3cfda7
+Slug: stella-de-tolomei-calto
+Nome: Stella De' Tolomei
+Comune / Provincia: Calto
+Indirizzo: Via Cammello, 11, 44121 Ferrara FE
+Coordinate: Lat 44.832238, Lng 11.623051
+Website: http://stelladetolomei.it/
+Email: 
+
+12546. Hotel Belmonte
+ID: 8b3d20be-72b3-4ffa-8918-fa39e1df4d48
+Slug: hotel-belmonte-caltrano
+Nome: Hotel Belmonte
+Comune / Provincia: Caltrano
+Indirizzo: Via Fondi, 15, 36010 Roana VI
+Coordinate: Lat 45.839167, Lng 11.431389
+Website: https://www.hotelbelmonte.it/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness
+Email: 
+
+12547. Hotel Kristal
+ID: b10cd3a3-af9c-45a3-9354-fb5316268813
+Slug: hotel-kristal-caltrano
+Nome: Hotel Kristal
+Comune / Provincia: Caltrano
+Indirizzo: Via Pra' Bordoni, 36, 36010 Zanè VI
+Coordinate: Lat 45.721176, Lng 11.445059
+Website: https://hotelkristalzane.com/
+Email: 
+
+12548. Hotel Ristorante La Rua
+ID: d18d73cd-a698-4026-acde-b9ac9febccac
+Slug: hotel-ristorante-la-rua-caltrano
+Nome: Hotel Ristorante La Rua
+Comune / Provincia: Caltrano
+Indirizzo: Via Ca' Vecchia, 1, 36010 Carrè VI
+Coordinate: Lat 45.746928, Lng 11.489125
+Website: http://www.hotellarua.it/
+Email: 
+
+12549. La Casa di Alice
+ID: bed1b9b1-288b-4752-81a3-0a0636384488
+Slug: la-casa-di-alice-caltrano
+Nome: La Casa di Alice
+Comune / Provincia: Caltrano
+Indirizzo: Via Giovanni Pascoli, 6, 36010 Cogollo del Cengio VI
+Coordinate: Lat 45.783541, Lng 11.426667
+Website: http://www.alicehouse.it/
+Email: 
+
+12550. Zimmer Nadia
+ID: 6d0f30f8-14a8-4a1b-8dd2-83b2986fd13d
+Slug: zimmer-nadia-caltrano
+Nome: Zimmer Nadia
+Comune / Provincia: Caltrano
+Indirizzo: Via XXV Aprile Olim Serragli, 16, 36010 Chiuppano VI
+Coordinate: Lat 45.763361, Lng 11.460015
+Website: https://recommendedbyjiri.eu/affitacamere-zimmer-nadia-italy
+Email: 
+
+12551. Albergo Ristorante da Giovanni
+ID: 58dd97b2-ab58-4aaf-9fb5-d214d1850fd7
+Slug: albergo-ristorante-da-giovanni-calusco-d-adda
+Nome: Albergo Ristorante da Giovanni
+Comune / Provincia: Calusco d'Adda
+Indirizzo: Via Don Angelo Pedrinelli, 23/25, 24030 Carvico BG
+Coordinate: Lat 45.699868, Lng 9.49541
+Website: http://www.hoteldagiovanni.it/
+Email: 
+
+12552. Albergo Romani'
+ID: 0c200b93-7404-44cb-aff2-c41d1aad42ab
+Slug: albergo-romani-calusco-d-adda
+Nome: Albergo Romani'
+Comune / Provincia: Calusco d'Adda
+Indirizzo: Via Santa Maria, 73, 24033 Calusco d'Adda BG
+Coordinate: Lat 45.687239, Lng 9.474572
+Website: http://www.albergoromani.it/
+Email: 
+
+12553. Best Western Hotel Solaf
+ID: fecd09b2-cd8c-4b61-8cd6-09610bba7c3d
+Slug: best-western-hotel-solaf-calusco-d-adda
+Nome: Best Western Hotel Solaf
+Comune / Provincia: Calusco d'Adda
+Indirizzo: Via Enrico Mattei, 1/3, 24030 Medolago BG
+Coordinate: Lat 45.67448, Lng 9.496008
+Website: http://www.hotelsolaf.it/
+Email: 
+
+12554. Residence La Corte
+ID: 75991b9e-64fe-4407-9f79-5c68cb493253
+Slug: residence-la-corte-caluso
+Nome: Residence La Corte
+Comune / Provincia: Caluso
+Indirizzo: Via Ludovico Bretti, 3, 10014 Caluso TO
+Coordinate: Lat 45.301242, Lng 7.888146
+Website: https://residence-la-corte.comeviaggiare.top/
+Email: 
+
+12555. Agriturismo Mulino Bianco
+ID: 813e6ca5-d8e6-45cf-9aab-f66d3b67d461
+Slug: agriturismo-mulino-bianco-calvagese-della-riviera
+Nome: Agriturismo Mulino Bianco
+Comune / Provincia: Calvagese della Riviera
+Indirizzo: Via XXIV Maggio, 2, 25017 Sedena BS
+Coordinate: Lat 45.483483, Lng 10.474887
+Website: https://agriturismomulinobianco.it/
+Email: 
+
+12556. Agriturismo Nonna Bettina
+ID: c79318e6-b724-4630-b1df-4dafefa66230
+Slug: agriturismo-nonna-bettina-calvagese-della-riviera
+Nome: Agriturismo Nonna Bettina
+Comune / Provincia: Calvagese della Riviera
+Indirizzo: Via Monte Tapino, 2, 25080 Moniga del Garda BS
+Coordinate: Lat 45.522504, Lng 10.526465
+Website: http://www.agriturnonnabettina.com/
+Email: 
+
+12557. Art Gallery Rooms
+ID: 78da1f8e-75c7-4901-985f-f51151a974cb
+Slug: art-gallery-rooms-calvagese-della-riviera
+Nome: Art Gallery Rooms
+Comune / Provincia: Calvagese della Riviera
+Indirizzo: Via Santa Giulia, 2c, 25017 Lonato BS
+Coordinate: Lat 45.489299, Lng 10.510128
+Website: http://www.artgalleryb-and-b.com/
+Email: 
+
+12558. El Rincon del Artista
+ID: 6188cdaf-ab73-4012-8ead-e9a1567f8ac2
+Slug: el-rincon-del-artista-calvagese-della-riviera
+Nome: El Rincon del Artista
+Comune / Provincia: Calvagese della Riviera
+Indirizzo: Via Aldo Moro, 22, 25080 Soiano BS
+Coordinate: Lat 45.526804, Lng 10.518197
+Website: http://www.bedandbreakfast-elrincondelartista.it/
+Email: 
+
+12559. IL Curlo B&B
+ID: 4448647d-c348-4251-a195-a8c1c65aca23
+Slug: il-curlo-b-b-calvagese-della-riviera
+Nome: IL Curlo B&B
+Comune / Provincia: Calvagese della Riviera
+Indirizzo: Via Curlo, 10, 25080 Calvagese della Riviera BS
+Coordinate: Lat 45.540168, Lng 10.444291
+Website: https://gohotelinspect.com/il-curlo-italy
+Email: 
+
+12560. Il Ghetto agriturismo holiday farm
+ID: bd9b69d6-c6fc-4604-bda9-86c415e3ac52
+Slug: il-ghetto-agriturismo-holiday-farm-calvagese-della-riviera
+Nome: Il Ghetto agriturismo holiday farm
+Comune / Provincia: Calvagese della Riviera
+Indirizzo: Via Castellana, 46/C, 25080 Soiano del Lago BS
+Coordinate: Lat 45.530863, Lng 10.515411
+Website: http://www.agriturismoilghetto.it/
+Email: 
+
+12561. Lake Garda Resort
+ID: d49dcd96-4d42-49fe-a4ea-ca81df5012ed
+Slug: lake-garda-resort-calvagese-della-riviera
+Nome: Lake Garda Resort
+Comune / Provincia: Calvagese della Riviera
+Indirizzo: Via dei Canestrelli, 7, 25080 Moniga del Garda BS
+Coordinate: Lat 45.527289, Lng 10.523969
+Website: https://resortlakegarda.com/
+Email: 
+
+12562. Macesina Country House
+ID: 26c31523-f0b4-4a1c-8c65-8d695f6b631e
+Slug: macesina-country-house-calvagese-della-riviera
+Nome: Macesina Country House
+Comune / Provincia: Calvagese della Riviera
+Indirizzo: via Borghetto, 22, 25081 Bedizzole BS
+Coordinate: Lat 45.520329, Lng 10.438421
+Website: https://www.macesina.it/?utm_source=googlemybusiness&utm_medium=mybusiness
+Email: 
+
+12563. Maeva Guesthouse Lake Garda
+ID: 13136aa8-cc56-4e95-b34c-c764696ffb94
+Slug: maeva-guesthouse-lake-garda-calvagese-della-riviera
+Nome: Maeva Guesthouse Lake Garda
+Comune / Provincia: Calvagese della Riviera
+Indirizzo: Via Aldo Moro, 2, 25080 Puegnago del Garda BS
+Coordinate: Lat 45.573674, Lng 10.508655
+Website: https://maevagh.it/
+Email: 
+
+12564. Monastero Resort & SPA by Double Hospitality
+ID: da851088-f12d-414a-b151-5927b4283a83
+Slug: monastero-resort-spa-by-double-hospitality-calvagese-della-riviera
+Nome: Monastero Resort & SPA by Double Hospitality
+Comune / Provincia: Calvagese della Riviera
+Indirizzo: Via Aldo Moro, 1, 25080 Soiano BS
+Coordinate: Lat 45.52844, Lng 10.511193
+Website: https://www.monasteroresort.com/
+Email: 
+
+12565. Moniga Resort
+ID: 36c1ac1f-074a-47ff-9ad4-bc255fa568df
+Slug: moniga-resort-calvagese-della-riviera
+Nome: Moniga Resort
+Comune / Provincia: Calvagese della Riviera
+Indirizzo: Via dei Canestrelli, 9, 25080 Moniga del Garda BS
+Coordinate: Lat 45.527331, Lng 10.51973
+Website: https://www.monigaresort.com/
+Email: 

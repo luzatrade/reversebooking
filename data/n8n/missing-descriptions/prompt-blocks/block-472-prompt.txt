@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16486. Furrìa - bed & breakfast
+ID: c37c8806-205d-4bc9-a546-9beca59f1b39
+Slug: furria-bed-breakfast-francofonte
+Nome: Furrìa - bed & breakfast
+Comune / Provincia: Francofonte
+Indirizzo: Vizzini Scalo, 95049 Vizzini CT
+Coordinate: Lat 37.181351, Lng 14.730027
+Website: https://furrìa.it/
+Email: 
+
+16487. Serenity House di Valeria Favara
+ID: 80d316a0-8e94-4a05-8588-3f5118efb5a8
+Slug: serenity-house-di-valeria-favara-francofonte
+Nome: Serenity House di Valeria Favara
+Comune / Provincia: Francofonte
+Indirizzo: SP197, 95048 Scordia CT
+Coordinate: Lat 37.305573, Lng 14.84581
+Website: —
+Email: 
+
+16488. Terraeventi
+ID: 9a85abdd-14dd-40a6-8ae4-485ba0d6c61e
+Slug: terraeventi-francofonte
+Nome: Terraeventi
+Comune / Provincia: Francofonte
+Indirizzo: Contrada Patrìa, 6, 97012 Chiaramonte Gulfi RG
+Coordinate: Lat 37.062063, Lng 14.682093
+Website: —
+Email: 
+
+16489. Villa Cutrera
+ID: af443c31-fb8b-4265-bb26-0c48c850051e
+Slug: villa-cutrera-francofonte
+Nome: Villa Cutrera
+Comune / Provincia: Francofonte
+Indirizzo: Piano dell’Acqua, 4, 97012 Chiaramonte Gulfi RG
+Coordinate: Lat 37.074942, Lng 14.659411
+Website: —
+Email: 
+
+16490. B&B Corte dei Figuli
+ID: 21ad5667-1d76-4268-aa0b-784df1f32e28
+Slug: b-b-corte-dei-figuli-frazzan
+Nome: B&B Corte dei Figuli
+Comune / Provincia: Frazzan�
+Indirizzo: Via Roma, 32, 73010 San Pietro In Lama LE
+Coordinate: Lat 40.308262, Lng 18.129558
+Website: https://www.booking.com/hotel/it/b-amp-b-corte-dei-figuli.it.html?aid=397594&label=gog235jc-10CAEoggI46AdIFFgDaHGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArqL8scGwAIB0gIkNWQ3YTk1YzMtM2M3NC00ZmZiLWFlMDktZWFiNDYzNmJhZTZm2AIB4AIB&sid=3787b92132e757fed3532c200f83d3c2&dest_id=1438534&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1761379807&srpvid=8c85396c303e0221&type=total&ucfs=1&
+Email: 
+
+16491. B&B Il Giardino di Flora
+ID: e805934d-1d0d-428b-9afc-6f3490263379
+Slug: b-b-il-giardino-di-flora-frazzan
+Nome: B&B Il Giardino di Flora
+Comune / Provincia: Frazzan�
+Indirizzo: Via Bellini, 2, 73020 Castromediano LE
+Coordinate: Lat 40.33539, Lng 18.178314
+Website: https://www.ilgiardinodiflora.it/
+Email: 
+
+16492. B&B La Dimora delle Grazie
+ID: f716cbee-091e-439c-b87b-f4f49afbd17e
+Slug: b-b-la-dimora-delle-grazie-frazzan
+Nome: B&B La Dimora delle Grazie
+Comune / Provincia: Frazzan�
+Indirizzo: Via Duomo, 4, 73016 San Cesario di Lecce LE
+Coordinate: Lat 40.303444, Lng 18.159215
+Website: https://www.ladimoradellegrazie.it/
+Email: 
+
+16493. Corte Dei Taralli B&B
+ID: f24c3eaa-1fe0-460f-9206-b22bed757e7d
+Slug: corte-dei-taralli-b-b-frazzan
+Nome: Corte Dei Taralli B&B
+Comune / Provincia: Frazzan�
+Indirizzo: Corte dei Taralli, 1, 73100 Lecce LE
+Coordinate: Lat 40.354978, Lng 18.172354
+Website: —
+Email: 
+
+16494. Dimora Vico dei Nohi B&B
+ID: 4b2d2369-3a06-4c2b-92e6-4dbf4381029c
+Slug: dimora-vico-dei-nohi-b-b-frazzan
+Nome: Dimora Vico dei Nohi B&B
+Comune / Provincia: Frazzan�
+Indirizzo: Vico dei Nohi, 7, 73100 Lecce LE
+Coordinate: Lat 40.348521, Lng 18.170773
+Website: https://www.hotelsitalic.com/dimora-vico-dei-nohi/
+Email: 
+
+16495. La Dimora dei Professori DiffusHotel
+ID: 3d469593-7306-4f68-b578-ff2cce30ae73
+Slug: la-dimora-dei-professori-diffushotel-frazzan
+Nome: La Dimora dei Professori DiffusHotel
+Comune / Provincia: Frazzan�
+Indirizzo: Via Gioacchino Toma, 71, Via Gioacchino Toma, 65, 73100 Lecce LE
+Coordinate: Lat 40.354472, Lng 18.157813
+Website: http://www.bbleccedimoraprofessori.ea29.com/
+Email: 
+
+16496. Luxury B&B
+ID: b3a17cf3-97fb-42ac-a543-588721a4700e
+Slug: luxury-b-b-frazzan
+Nome: Luxury B&B
+Comune / Provincia: Frazzan�
+Indirizzo: Via Archimede, 16, 73100 Lecce LE
+Coordinate: Lat 40.366059, Lng 18.183159
+Website: http://www.bebluxurylecce.it/
+Email: 
+
+16497. White Suite B&B Lecce
+ID: cf6b126b-ad8b-499a-8a24-3016d97d4668
+Slug: white-suite-b-b-lecce-frazzan
+Nome: White Suite B&B Lecce
+Comune / Provincia: Frazzan�
+Indirizzo: Via Antonello Coniger, 5, 73100 Lecce LE
+Coordinate: Lat 40.354736, Lng 18.169592
+Website: http://www.whitesuitebnb.com/
+Email: 
+
+16498. Affittacamere ilsoleventiquattrore
+ID: d6695463-a901-472d-a6ca-34fccafba0b7
+Slug: affittacamere-ilsoleventiquattrore-furci-siculo
+Nome: Affittacamere ilsoleventiquattrore
+Comune / Provincia: Furci Siculo
+Indirizzo: Via Pasquale Simone Neri, 98023 Furci Siculo ME
+Coordinate: Lat 37.961956, Lng 15.36767
+Website: https://www.booking.com/hotel/it/il-sole-ventiquattrore.it.html?label=gen173nr-1FCAEoggJCAlhYSDNiBW5vcmVmaHGIAQGYARTCAQNhYm7IAQ7YAQHoAQH4AQuSAgF5qAIE;sid=c18096a481f9ad9392c6a846e194bbed;all_sr_blocks=173425211_106842635_2_0_0;checkin=2017-11-24;checkout=2017-11-25;dest_id=-118090;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=3;highlighted_blocks=173425211_106842635_2_0_0;hpos=3;no_rooms=1;room1=A,A;sb_price_type=total;srepoch=1511281350;srfid=208a7ed6287ca354bf94749de995b7c9412481f6X3;srpvid=f06a7322bf4a002a;type=total;ucfs=1&#hotelTmpl
+Email: 
+
+16499. La Zagara B&B
+ID: 835a9c02-c541-4c07-bbb6-72a68e6c9db8
+Slug: la-zagara-b-b-furci-siculo
+Nome: La Zagara B&B
+Comune / Provincia: Furci Siculo
+Indirizzo: Via Manzoni, 5, 98023 Furci Siculo ME
+Coordinate: Lat 37.961487, Lng 15.382618
+Website: http://www.lazagaraeco.it/
+Email: 
+
+16500. Quattro Venti
+ID: 961032ed-8bb2-4bc2-b93f-dc7ca5c994cc
+Slug: quattro-venti-furci-siculo
+Nome: Quattro Venti
+Comune / Provincia: Furci Siculo
+Indirizzo: Via Calatafimi, 6, 98023 Furci Siculo ME
+Coordinate: Lat 37.959107, Lng 15.380782
+Website: —
+Email: 
+
+16501. AGRITURISMO AGRI
+ID: b31ddb9b-0854-4cf2-900f-89a5b30c5d43
+Slug: agriturismo-agri-furnari
+Nome: AGRITURISMO AGRI
+Comune / Provincia: Furnari
+Indirizzo: Contrada carone, Snc, 98054 Furnari ME
+Coordinate: Lat 38.111328, Lng 15.101101
+Website: http://www.agri.me.it/
+Email: 
+
+16502. Borgo Abacena Country Resort
+ID: b394a600-ebe7-4bec-b723-00e02b719905
+Slug: borgo-abacena-country-resort-furnari
+Nome: Borgo Abacena Country Resort
+Comune / Provincia: Furnari
+Indirizzo: SP116, 98060 Tripi ME
+Coordinate: Lat 38.086116, Lng 15.114093
+Website: —
+Email: 
+
+16503. Corallo Residence Portorosa
+ID: df62ed06-5625-4760-bb93-6434d8912502
+Slug: corallo-residence-portorosa-furnari
+Nome: Corallo Residence Portorosa
+Comune / Provincia: Furnari
+Indirizzo: Complesso turistico Portorosa, Via Prestipaolo, 98054 Furnari ME
+Coordinate: Lat 38.122111, Lng 15.114989
+Website: http://www.coralloresidence.eu/
+Email: 
+
+16504. Home and Relax
+ID: 5e838472-423e-46af-b048-290172eced3c
+Slug: home-and-relax-furnari
+Nome: Home and Relax
+Comune / Provincia: Furnari
+Indirizzo: Via Risorgimento, 98054 Furnari ME
+Coordinate: Lat 38.107241, Lng 15.11826
+Website: —
+Email: 
+
+16505. Hotel Atlantis
+ID: 6af2ecdd-8cb6-429f-9e9c-056f3fe3fb90
+Slug: hotel-atlantis-furnari
+Nome: Hotel Atlantis
+Comune / Provincia: Furnari
+Indirizzo: Via Prestipaolo, 1, 98054 Furnari ME
+Coordinate: Lat 38.125692, Lng 15.113496
+Website: —
+Email: 
+
+16506. La Casa di Mariù
+ID: bf31791e-14bc-4fdf-8de7-84e1ed2e3911
+Slug: la-casa-di-mariu-furnari
+Nome: La Casa di Mariù
+Comune / Provincia: Furnari
+Indirizzo: Contrada S. Filippo, 1, 98054 Furnari ME
+Coordinate: Lat 38.111043, Lng 15.113332
+Website: https://la-casa-di-mariu.miglioriviaggi.top/
+Email: 
+
+16507. Laguna Azzurra Portorosa
+ID: 9778843e-1b13-4426-a0f9-cd3c2151cc4d
+Slug: laguna-azzurra-portorosa-furnari
+Nome: Laguna Azzurra Portorosa
+Comune / Provincia: Furnari
+Indirizzo: Via Prestipaolo, 98054 Porto Rosa, ME
+Coordinate: Lat 38.119688, Lng 15.111638
+Website: —
+Email: 
+
+16508. Portorosa Village
+ID: b95ce27f-9ff9-4b26-8617-776f97d16a31
+Slug: portorosa-village-furnari
+Nome: Portorosa Village
+Comune / Provincia: Furnari
+Indirizzo: Via Prestipaolo, 27, 98054 Tonnarella ME
+Coordinate: Lat 38.122194, Lng 15.10773
+Website: http://www.portorosavillage.com/
+Email: 
+
+16509. Residence Baia dei Delfini
+ID: e7a8543a-54da-4e99-bace-356b8290843a
+Slug: residence-baia-dei-delfini-furnari
+Nome: Residence Baia dei Delfini
+Comune / Provincia: Furnari
+Indirizzo: Via Prestipaolo, 98054 Tonnarella ME
+Coordinate: Lat 38.12139, Lng 15.108318
+Website: http://www.residencebaiadeidelfini.it/
+Email: 
+
+16510. Tindari Resort
+ID: 8cdeab70-29a0-4f9e-bde9-8971809e8056
+Slug: tindari-resort-furnari
+Nome: Tindari Resort
+Comune / Provincia: Furnari
+Indirizzo: Via Prestipaolo, 27, 98054 Furnari ME
+Coordinate: Lat 38.119069, Lng 15.112531
+Website: —
+Email: 
+
+16511. VOI Baia di Tindari Resort
+ID: 106a183e-1838-42c0-a99d-d43e531ee22e
+Slug: voi-baia-di-tindari-resort-furnari
+Nome: VOI Baia di Tindari Resort
+Comune / Provincia: Furnari
+Indirizzo: Via Vespri Siciliani, 98054 Furnari ME
+Coordinate: Lat 38.120329, Lng 15.103035
+Website: https://www.voihotels.com/resort/voi-baia-di-tindari?utm_source=google&utm_medium=organic&utm_campaign=google_business_profile&utm_content=baia_di_tindari
+Email: 
+
+16512. Albergo Sabbie D'oro
+ID: ac726dc1-8beb-4ab9-b06f-a2bc0664537b
+Slug: albergo-sabbie-d-oro-gaggi
+Nome: Albergo Sabbie D'oro
+Comune / Provincia: Gaggi
+Indirizzo: Via Schisò, 12, 98035 Giardini-Naxos ME
+Coordinate: Lat 37.824319, Lng 15.270334
+Website: http://www.hotelsabbiedoro.it/
+Email: 
+
+16513. B&B Civico 115 - Gaggi (ME)
+ID: ace064d4-4259-479b-96d3-de45659f8cb5
+Slug: b-b-civico-115-gaggi-me-gaggi
+Nome: B&B Civico 115 - Gaggi (ME)
+Comune / Provincia: Gaggi
+Indirizzo: Via Umberto, 115, 98030 Gaggi ME
+Coordinate: Lat 37.857676, Lng 15.222503
+Website: https://beb.it/civico115/it/
+Email: 
+
+16514. Bed and Breakfast Alcantara Natura
+ID: 7424bbc5-6b7a-44de-8d4f-18ebc6ca251b
+Slug: bed-and-breakfast-alcantara-natura-gaggi
+Nome: Bed and Breakfast Alcantara Natura
+Comune / Provincia: Gaggi
+Indirizzo: Contrada Cupparo, 10, 98036 Graniti ME
+Coordinate: Lat 37.872504, Lng 15.212599
+Website: https://www.alcantaranaturaresort.it/
+Email: 
+
+16515. Hotel Eliseo
+ID: da3fe432-4b71-42d9-a9c9-9ec54809565e
+Slug: hotel-eliseo-gaggi
+Nome: Hotel Eliseo
+Comune / Provincia: Gaggi
+Indirizzo: Via Consolare Valeria, 1, 98035 Giardini Naxos ME
+Coordinate: Lat 37.821298, Lng 15.262774
+Website: http://www.hoteleliseo.biz/
+Email: 
+
+16516. Hotel Villa Nefele
+ID: c2cfd473-a68c-4014-91ec-aac7cf068ff6
+Slug: hotel-villa-nefele-gaggi
+Nome: Hotel Villa Nefele
+Comune / Provincia: Gaggi
+Indirizzo: Via Vulcano, 2, 98035 Giardini-Naxos ME
+Coordinate: Lat 37.823715, Lng 15.270323
+Website: http://www.hotelvillanefele.com/
+Email: 
+
+16517. Il Borgo Alcantara
+ID: 5e5916f8-b242-460c-88a6-23eeb433a505
+Slug: il-borgo-alcantara-gaggi
+Nome: Il Borgo Alcantara
+Comune / Provincia: Gaggi
+Indirizzo: SP81, 95012 Mitogio CT
+Coordinate: Lat 37.867651, Lng 15.192306
+Website: https://www.ilborgoalcantara.it/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness
+Email: 
+
+16518. Lucia & Giovanni B&b
+ID: 32ff3cb9-c528-4f0f-a232-ac8a903779da
+Slug: lucia-giovanni-b-b-gaggi
+Nome: Lucia & Giovanni B&b
+Comune / Provincia: Gaggi
+Indirizzo: Via Montello,21 angolo, Via Regina Margherita, 98035 Giardini Naxos ME
+Coordinate: Lat 37.841809, Lng 15.279578
+Website: https://napolit.cyou/lucia-giovanni-qwklws
+Email: 
+
+16519. New Naxos Village
+ID: c639a76c-0947-47da-8c7f-2664d69e2ba9
+Slug: new-naxos-village-gaggi
+Nome: New Naxos Village
+Comune / Provincia: Gaggi
+Indirizzo: Via Consolare Valeria, 118/L, 98035 Giardini-Naxos ME
+Coordinate: Lat 37.82006, Lng 15.258361
+Website: https://www.newnaxosvillage.it/it/
+Email: 
+
+16520. Sicily in Love
+ID: 9fc736ee-843c-4672-8f77-9b316eba8e15
+Slug: sicily-in-love-gaggi
+Nome: Sicily in Love
+Comune / Provincia: Gaggi
+Indirizzo: Via degli Ulivi, 3, 98039 Taormina ME
+Coordinate: Lat 37.831462, Lng 15.247731
+Website: http://www.sicilyinlove.it/
+Email: 

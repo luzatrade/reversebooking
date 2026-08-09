@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+12006. Tannerhof Bed & Breakfast
+ID: 44107b76-d275-49a2-8fa3-fca982bbcbb8
+Slug: tannerhof-bed-breakfast-caines-kuens
+Nome: Tannerhof Bed & Breakfast
+Comune / Provincia: Caines/Kuens
+Indirizzo: Via Passo Giovo, 1, 39010 Caines BZ
+Coordinate: Lat 46.695276, Lng 11.169304
+Website: https://www.tannerhof.it/
+Email: 
+
+12007. Tiroler Kreuz Restaurant Hotel Dorf Tirol
+ID: 260689be-8212-4a34-a600-25fe7eecf8c6
+Slug: tiroler-kreuz-restaurant-hotel-dorf-tirol-caines-kuens
+Nome: Tiroler Kreuz Restaurant Hotel Dorf Tirol
+Comune / Provincia: Caines/Kuens
+Indirizzo: Haslachstrasse, 117, 39019 Tirolo BZ
+Coordinate: Lat 46.70242, Lng 11.158366
+Website: https://www.tirolerkreuz.com/
+Email: 
+
+12008. Agriturismo Dell'Altopiano Serle
+ID: bfcdba25-6e1e-4d54-9ba2-6a64c27c73c4
+Slug: agriturismo-dell-altopiano-serle-caino
+Nome: Agriturismo Dell'Altopiano Serle
+Comune / Provincia: Caino
+Indirizzo: Via Carnevale, 11, 25080 Serle BS
+Coordinate: Lat 45.591584, Lng 10.362947
+Website: http://www.agriturismoaltopiano.com/
+Email: 
+
+12009. Agriturismo B&B Caffè e Vino
+ID: e21cf87d-daeb-492e-af69-919213940306
+Slug: agriturismo-b-b-caffe-e-vino-caiolo
+Nome: Agriturismo B&B Caffè e Vino
+Comune / Provincia: Caiolo
+Indirizzo: Via Roi, 102, 23010 Caiolo SO
+Coordinate: Lat 46.154236, Lng 9.808203
+Website: http://www.agricaffevino.com/
+Email: 
+
+12010. Azienda Agrituristica Ribunta'
+ID: 5664971b-2030-48fa-9688-bbd5651116ee
+Slug: azienda-agrituristica-ribunta-caiolo
+Nome: Azienda Agrituristica Ribunta'
+Comune / Provincia: Caiolo
+Indirizzo: Località S. Bernardo, 52, 23010 Caiolo SO
+Coordinate: Lat 46.147459, Lng 9.796666
+Website: http://www.agriturismoribunta.it/
+Email: 
+
+12011. Balibà Ride & Relax
+ID: 34bd65de-95b8-461e-a7e4-0bd180016ec1
+Slug: baliba-ride-relax-caiolo
+Nome: Balibà Ride & Relax
+Comune / Provincia: Caiolo
+Indirizzo: Via Ezio Vanoni, 493, 23012 Castione Andevenno SO
+Coordinate: Lat 46.165831, Lng 9.801878
+Website: https://www.bbcastione.it/
+Email: 
+
+12012. Bed and Breakfast CARUNEI
+ID: 173e25c2-a65f-46ba-915d-40b1c455ddc7
+Slug: bed-and-breakfast-carunei-caiolo
+Nome: Bed and Breakfast CARUNEI
+Comune / Provincia: Caiolo
+Indirizzo: Via Sottomonte, 13, 23020 Poggiridenti SO
+Coordinate: Lat 46.171577, Lng 9.925695
+Website: http://bedandbreakfastcarunei.com/
+Email: 
+
+12013. Menegola Gabriele - Agriturismo Cavria
+ID: e95e6747-60cd-4ef6-9077-8183d59a75ee
+Slug: menegola-gabriele-agriturismo-cavria-caiolo
+Nome: Menegola Gabriele - Agriturismo Cavria
+Comune / Provincia: Caiolo
+Indirizzo: Via Piatta, 1/d, 23012 Castione Andevenno SO
+Coordinate: Lat 46.174629, Lng 9.806874
+Website: https://detailhotel.eu/agriturismo-cavria-italy
+Email: 
+
+12014. Residenza Sassella
+ID: 210973cf-890a-4082-bf38-1939d13f654d
+Slug: residenza-sassella-caiolo
+Nome: Residenza Sassella
+Comune / Provincia: Caiolo
+Indirizzo: Piazza del Santuario, 7, 23100 Sondrio SO
+Coordinate: Lat 46.162465, Lng 9.834821
+Website: https://www.residenzasassella.it/
+Email: 
+
+12015. Valtellina Mon Amour
+ID: d7252c6f-f606-40dd-a62d-1109738b9121
+Slug: valtellina-mon-amour-caiolo
+Nome: Valtellina Mon Amour
+Comune / Provincia: Caiolo
+Indirizzo: Via Fiorenza, 70, 23020 Piateda SO
+Coordinate: Lat 46.162502, Lng 9.949927
+Website: http://www.valtellinamonamour.it/
+Email: 
+
+12016. Hotel Happy Hour
+ID: 17cf9fa0-4ad5-44bb-ad3a-62f5735eda14
+Slug: hotel-happy-hour-cairano
+Nome: Hotel Happy Hour
+Comune / Provincia: Cairano
+Indirizzo: Via SS. Ofantina km6 + 300, 83040 Morra De Sanctis AV
+Coordinate: Lat 40.886886, Lng 15.261517
+Website: https://hotelhappyhour.it/
+Email: 
+
+12017. La Meridiana Country House
+ID: a8d566c5-1a5d-4a37-b543-15508f61b2f4
+Slug: la-meridiana-country-house-cairano
+Nome: La Meridiana Country House
+Comune / Provincia: Cairano
+Indirizzo: SP199, 83045 Calitri AV
+Coordinate: Lat 40.918677, Lng 15.411166
+Website: https://sophierecommends.eu/la-meridiana-calitri-italy
+Email: 
+
+12018. Ristorante Bike Hotel Gerardo Di Masi
+ID: 5f40dd8b-ffa9-4535-9e1d-812eaecf7abd
+Slug: ristorante-bike-hotel-gerardo-di-masi-cairano
+Nome: Ristorante Bike Hotel Gerardo Di Masi
+Comune / Provincia: Cairano
+Indirizzo: C.so S. Alfonso, 83040 Caposele AV
+Coordinate: Lat 40.818576, Lng 15.23688
+Website: https://www.albergodimasi.it/
+Email: 
+
+12019. Albergo Sant'Anna
+ID: fb1173ec-6b4e-4c61-88d7-461210f906f7
+Slug: albergo-sant-anna-cairate
+Nome: Albergo Sant'Anna
+Comune / Provincia: Cairate
+Indirizzo: Via Giuseppe Mazzini, 29, 21058 Solbiate Olona VA
+Coordinate: Lat 45.649722, Lng 8.888611
+Website: http://www.albergosantanna.eu/
+Email: 
+
+12020. B&B La Canonica
+ID: f0a2ff61-08af-4a59-9d0a-58242a617d96
+Slug: b-b-la-canonica-cairate
+Nome: B&B La Canonica
+Comune / Provincia: Cairate
+Indirizzo: Via Jesi, 3, 21050 Cairate VA
+Coordinate: Lat 45.690775, Lng 8.872887
+Website: https://www.beb-lacanonica.com/
+Email: 
+
+12021. Color House Malpensa B&B
+ID: df0858c4-4f0c-4b42-b208-b61481518bd1
+Slug: color-house-malpensa-b-b-cairate
+Nome: Color House Malpensa B&B
+Comune / Provincia: Cairate
+Indirizzo: Via Ugo Foscolo, 38 B, 21012 Cassano Magnago VA
+Coordinate: Lat 45.675638, Lng 8.837427
+Website: https://bbplanner.com/booking-engine-v3/?structureID=2018&bbpLanguage=it
+Email: 
+
+12022. DoubleTree by Hilton Milan Malpensa Solbiate Olona
+ID: 4a21c07e-3fb6-4928-941c-f85395e088a7
+Slug: doubletree-by-hilton-milan-malpensa-solbiate-olo-cairate
+Nome: DoubleTree by Hilton Milan Malpensa Solbiate Olona
+Comune / Provincia: Cairate
+Indirizzo: Via per Busto Arsizio, 7, 21058 Solbiate Olona VA
+Coordinate: Lat 45.643754, Lng 8.864746
+Website: https://www.hilton.com/en/hotels/mxpsodi-doubletree-milan-malpensa-solbiate-olona/?SEO_id=GMB-EMEA-DI-MXPSODI
+Email: 
+
+12023. Hotel Campo dei Fiori
+ID: 64fc7e7b-12f6-4afc-8c04-a12b9f4da18b
+Slug: hotel-campo-dei-fiori-cairate
+Nome: Hotel Campo dei Fiori
+Comune / Provincia: Cairate
+Indirizzo: Via Dante Alighieri, 215, 21054 Fagnano Olona VA
+Coordinate: Lat 45.666014, Lng 8.85079
+Website: https://residencearrighetti.it/
+Email: 
+
+12024. La Corte B&B
+ID: ae663b68-eb3c-4179-b296-bd5f15ff0151
+Slug: la-corte-b-b-cairate
+Nome: La Corte B&B
+Comune / Provincia: Cairate
+Indirizzo: Via Felice Cavallotti, 6, 21054 Fagnano Olona VA
+Coordinate: Lat 45.678665, Lng 8.868067
+Website: http://www.lacorteb-b.com/
+Email: 
+
+12025. Tommy Vitello B&B
+ID: 56345807-4fdb-4fba-8a98-585e336bcaea
+Slug: tommy-vitello-b-b-cairate
+Nome: Tommy Vitello B&B
+Comune / Provincia: Cairate
+Indirizzo: Via Mario Albino Bonicalza, 21012 Cassano Magnago VA
+Coordinate: Lat 45.65069, Lng 8.84977
+Website: http://tommyvitellobb.com/
+Email: 
+
+12026. Villa Terzaghi
+ID: 2c044b28-05e0-4c02-a879-29f2045aed60
+Slug: villa-terzaghi-cairate
+Nome: Villa Terzaghi
+Comune / Provincia: Cairate
+Indirizzo: Via S. Maurizio, 21055 Gorla Minore VA
+Coordinate: Lat 45.644807, Lng 8.896899
+Website: https://villa-terzaghi.touritaliani.top/
+Email: 
+
+12027. B&B Al giardino degli artisti
+ID: 5ea848da-0888-41a7-a701-3de0188f4cbe
+Slug: b-b-al-giardino-degli-artisti-cairo-montenotte
+Nome: B&B Al giardino degli artisti
+Comune / Provincia: Cairo Montenotte
+Indirizzo: Via Lavagna, 3, 17014 Cairo Montenotte SV
+Coordinate: Lat 44.400805, Lng 8.272307
+Website: https://www.algiardinodegliartisti.it/
+Email: 
+
+12028. Ca'Brichella
+ID: d1a8f535-355f-41d5-9bc7-fc738a7cce7e
+Slug: ca-brichella-cairo-montenotte
+Nome: Ca'Brichella
+Comune / Provincia: Cairo Montenotte
+Indirizzo: Via Recoaro, 17014 Cairo Montenotte SV
+Coordinate: Lat 44.391992, Lng 8.29197
+Website: http://www.cabrichella.it/
+Email: 
+
+12029. Casa Laiazzo Bed & Breakfast
+ID: bd160d6f-9fc0-45f9-915c-9df61418572d
+Slug: casa-laiazzo-bed-breakfast-cairo-montenotte
+Nome: Casa Laiazzo Bed & Breakfast
+Comune / Provincia: Cairo Montenotte
+Indirizzo: Unnamed road, 17014 Rocchetta Cairo SV
+Coordinate: Lat 44.419606, Lng 8.320903
+Website: http://www.laiazzo.com/
+Email: 
+
+12030. Cascina del Vai
+ID: 19630058-5fd6-4e07-8a21-0e77bc142ad2
+Slug: cascina-del-vai-cairo-montenotte
+Nome: Cascina del Vai
+Comune / Provincia: Cairo Montenotte
+Indirizzo: Strada Ville, 140, 17014 Cairo Montenotte SV
+Coordinate: Lat 44.431551, Lng 8.251003
+Website: http://www.agriturismocascinadelvai.it/
+Email: 
+
+12031. Hotel City
+ID: da659c1d-b014-4e8b-9302-73dc318c83d3
+Slug: hotel-city-cairo-montenotte
+Nome: Hotel City
+Comune / Provincia: Cairo Montenotte
+Indirizzo: Corso Brigate Partigiane, 5/M, 17014 Cairo Montenotte SV
+Coordinate: Lat 44.387383, Lng 8.281389
+Website: http://www.hotelcitycairo.it/
+Email: 
+
+12032. Hotel Ristorante La Torre Cairo Montenotte
+ID: 9848395a-fb04-4997-9ad6-2bb0a8e9ebb2
+Slug: hotel-ristorante-la-torre-cairo-montenotte-cairo-montenotte
+Nome: Hotel Ristorante La Torre Cairo Montenotte
+Comune / Provincia: Cairo Montenotte
+Indirizzo: Corso Italia, 29, 17014 Cairo Montenotte SV
+Coordinate: Lat 44.397601, Lng 8.277321
+Website: https://www.hotellatorre.eu/
+Email: 
+
+12033. La Celestina (Nuova Gestione)
+ID: 5f3c3969-e907-436d-b2f9-8c9b89307a36
+Slug: la-celestina-nuova-gestione-cairo-montenotte
+Nome: La Celestina (Nuova Gestione)
+Comune / Provincia: Cairo Montenotte
+Indirizzo: Località Gallareto, 16, 17010 Piana Crixia SV
+Coordinate: Lat 44.485337, Lng 8.310781
+Website: http://www.oconnellstreetpub.com/
+Email: 
+
+12034. Le Macine Relais
+ID: e6a00384-c28b-43dc-bba5-563ae67cf451
+Slug: le-macine-relais-cairo-montenotte
+Nome: Le Macine Relais
+Comune / Provincia: Cairo Montenotte
+Indirizzo: Strada Ferrere, 11, 17014 Cairo Montenotte SV
+Coordinate: Lat 44.405616, Lng 8.264146
+Website: http://lemacinerelais.it/
+Email: 
+
+12035. Moto Pareto B&B
+ID: 31985758-9c97-429d-976e-fa29c10c02b7
+Slug: moto-pareto-b-b-cairo-montenotte
+Nome: Moto Pareto B&B
+Comune / Provincia: Cairo Montenotte
+Indirizzo: Localita Zoppetti 8 Monteacuto 15010 Com, 15010 Pareto AL
+Coordinate: Lat 44.535465, Lng 8.439596
+Website: http://www.motopareto.com/
+Email: 
+
+12036. Pensione Alpi
+ID: 637eac7d-1075-468a-a677-7444316b99f4
+Slug: pensione-alpi-cairo-montenotte
+Nome: Pensione Alpi
+Comune / Provincia: Cairo Montenotte
+Indirizzo: Via Ville, 19, 17014 Cairo Montenotte SV
+Coordinate: Lat 44.422681, Lng 8.25723
+Website: https://pensione-alpi.hotelpreferito.top/
+Email: 
+
+12037. Villa Eugenia
+ID: 263cd8d1-dc22-4893-be66-a8cc12a1015f
+Slug: villa-eugenia-cairo-montenotte
+Nome: Villa Eugenia
+Comune / Provincia: Cairo Montenotte
+Indirizzo: Str. Santa Maria, 21, 17014 Cairo Montenotte SV
+Coordinate: Lat 44.410171, Lng 8.266149
+Website: https://eugeniabedandbreakfast.com/
+Email: 
+
+12038. albergo silverado
+ID: b461b5b6-103a-418b-89d1-7d9444c9bba8
+Slug: albergo-silverado-caivano
+Nome: albergo silverado
+Comune / Provincia: Caivano
+Indirizzo: Via Bugnano, 59, 81030 Orta di Atella CE
+Coordinate: Lat 40.978681, Lng 14.270917
+Website: —
+Email: 
+
+12039. Altamu' B&B Acerra AFFITTACAMERE
+ID: 51a3d8c9-1042-42ed-a76a-4c6aa0e03b8c
+Slug: altamu-b-b-acerra-affittacamere-caivano
+Nome: Altamu' B&B Acerra AFFITTACAMERE
+Comune / Provincia: Caivano
+Indirizzo: Via Gaetano Dublino, 49, 80011 Acerra NA
+Coordinate: Lat 40.944994, Lng 14.38788
+Website: http://www.altamuaffittacamere.it/
+Email: 
+
+12040. Amaranto Hotel
+ID: ffadcb0c-9ba3-4ed5-954c-753f140abc83
+Slug: amaranto-hotel-caivano
+Nome: Amaranto Hotel
+Comune / Provincia: Caivano
+Indirizzo: Traversa I Murillo di Cardito, 80021 Afragola NA
+Coordinate: Lat 40.939701, Lng 14.307483
+Website: http://www.hotelinapoli.it/home.html
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+3326. B&B il Gufo
+ID: 56d533bf-ba7e-48b3-91ec-5b644c07e972
+Slug: b-b-il-gufo-andreis
+Nome: B&B il Gufo
+Comune / Provincia: Andreis
+Indirizzo: Via Roma, 135, 33080 Erto e Casso PN
+Coordinate: Lat 46.275817, Lng 12.373578
+Website: https://beb.it/ilgufo/it/
+Email: 
+
+3327. B&B In Fattoria
+ID: 5f90902c-0938-4816-b133-278434cf0087
+Slug: b-b-in-fattoria-andreis
+Nome: B&B In Fattoria
+Comune / Provincia: Andreis
+Indirizzo: Borgo, Palazza, 3, 33080 Frisanco PN
+Coordinate: Lat 46.201883, Lng 12.718486
+Website: http://bnbinfattoria.com.es/
+Email: 
+
+3328. Cjasa Celeste Andreis
+ID: 542cf46a-ffdd-4ba2-84eb-7fe4603bec82
+Slug: cjasa-celeste-andreis-andreis
+Nome: Cjasa Celeste Andreis
+Comune / Provincia: Andreis
+Indirizzo: Via Centrale, 16, 33080 Andreis PN
+Coordinate: Lat 46.200755, Lng 12.613994
+Website: https://www.appartamenti.andreis.it/
+Email: 
+
+3329. Foresteria del Parco Naturale Regionale delle Dolomiti Friulane - Andreis
+ID: 33d3250e-70d0-41b9-8cdf-974d891d896d
+Slug: foresteria-del-parco-naturale-regionale-delle-do-andreis
+Nome: Foresteria del Parco Naturale Regionale delle Dolomiti Friulane - Andreis
+Comune / Provincia: Andreis
+Indirizzo: Via Acquedotto, 1, 33080 Andreis PN
+Coordinate: Lat 46.202388, Lng 12.613273
+Website: —
+Email: 
+
+3330. Affitta Camere La Casa di Ninna
+ID: a9584b11-1153-4d3d-bf73-c8ac2a228caa
+Slug: affitta-camere-la-casa-di-ninna-andretta
+Nome: Affitta Camere La Casa di Ninna
+Comune / Provincia: Andretta
+Indirizzo: Contrada Foresta, 33, 83031 Ariano Irpino AV
+Coordinate: Lat 41.112398, Lng 15.081785
+Website: http://lacasadi-ninna.com.es/
+Email: 
+
+3331. Agriturismo "A un tiro di schioppo"
+ID: 51afced0-037b-4d2b-99b2-5feef8be872e
+Slug: agriturismo-a-un-tiro-di-schioppo-andretta
+Nome: Agriturismo "A un tiro di schioppo"
+Comune / Provincia: Andretta
+Indirizzo: Contrada Valle Santa Maria, 83045 Calitri AV
+Coordinate: Lat 40.924971, Lng 15.460788
+Website: https://ruralis.com/
+Email: 
+
+3332. Agriturismo Caperroni
+ID: 71c3734b-6401-4485-836d-2a613b90632c
+Slug: agriturismo-caperroni-andretta
+Nome: Agriturismo Caperroni
+Comune / Provincia: Andretta
+Indirizzo: C.da Caperroni - Pescopagano S.S. Ofantina km 17+300, 85020 Pescopagano PZ
+Coordinate: Lat 40.872964, Lng 15.36598
+Website: http://www.agriturismocaperroni.com/
+Email: 
+
+3333. Al 17
+ID: da50d6b1-2875-42e5-b5ca-c7c7e10df0e6
+Slug: al-17-andretta
+Nome: Al 17
+Comune / Provincia: Andretta
+Indirizzo: Via Cesare Battisti, 17, 83055 Sturno AV
+Coordinate: Lat 41.018003, Lng 15.109292
+Website: —
+Email: 
+
+3334. B&B Il Tritone
+ID: 2c6a2ec1-88b0-4efd-8f9f-a0df1c2e17c3
+Slug: b-b-il-tritone-andretta
+Nome: B&B Il Tritone
+Comune / Provincia: Andretta
+Indirizzo: Piazza della Repubblica, 25, 84020 Laviano SA
+Coordinate: Lat 40.785652, Lng 15.306528
+Website: https://www.iltritonebeb.com/it/
+Email: 
+
+3335. Domus Romulea Albergo Locanda
+ID: 4618f13d-c9ac-45f1-950a-7e3eefc44e01
+Slug: domus-romulea-albergo-locanda-andretta
+Nome: Domus Romulea Albergo Locanda
+Comune / Provincia: Andretta
+Indirizzo: Via XXIII Luglio, 303, 83044 Bisaccia AV
+Coordinate: Lat 41.005922, Lng 15.380012
+Website: https://www.domusromulea.it/
+Email: 
+
+3336. Hotel Ambasciatori
+ID: f46f8cbf-44d2-4d83-9f85-4cb0702a3b39
+Slug: hotel-ambasciatori-andretta
+Nome: Hotel Ambasciatori
+Comune / Provincia: Andretta
+Indirizzo: Via E. Pitoli,, 83045 Calitri AV
+Coordinate: Lat 40.905187, Lng 15.429885
+Website: http://www.ambasciatorihotel-av.it/
+Email: 
+
+3337. HOTEL BELLA MORRA
+ID: d01fe3d5-c43f-47dc-8a09-07ec51f9245a
+Slug: hotel-bella-morra-andretta
+Nome: HOTEL BELLA MORRA
+Comune / Provincia: Andretta
+Indirizzo: Via Montecalvario, 83040 Morra De Sanctis AV
+Coordinate: Lat 40.932278, Lng 15.242789
+Website: https://hotel-bella-morra.touritaliani.top/
+Email: 
+
+3338. La dimora di Ipno
+ID: 2917011b-fbe8-485e-b722-0986b0dc9838
+Slug: la-dimora-di-ipno-andretta
+Nome: La dimora di Ipno
+Comune / Provincia: Andretta
+Indirizzo: Corso J. F. Kennedy, 145, 83059 Vallata AV
+Coordinate: Lat 41.03978, Lng 15.255892
+Website: https://www.ladimoradiipno.com/
+Email: 
+
+3339. Le Ali Del Vento
+ID: 9d665b9d-8ce5-40b7-b9d6-af215f016114
+Slug: le-ali-del-vento-andretta
+Nome: Le Ali Del Vento
+Comune / Provincia: Andretta
+Indirizzo: Via Santa Sofia, 9, 83040 Cairano AV
+Coordinate: Lat 40.895877, Lng 15.367075
+Website: https://hugorecommends.eu/le-ali-del-vento-italy
+Email: 
+
+3340. Le radici delle nuvole
+ID: e7a2a92f-cef3-4a1e-89e7-d1c6acdce6dc
+Slug: le-radici-delle-nuvole-andretta
+Nome: Le radici delle nuvole
+Comune / Provincia: Andretta
+Indirizzo: Via Irpinia, 83040 Cairano AV
+Coordinate: Lat 40.895216, Lng 15.367285
+Website: https://italyit.cyou/radici-delle-nuvole-zyfbav
+Email: 
+
+3341. Truni Farm Country House
+ID: bd9041ef-64b2-47c2-89e4-7b3ceb71d90d
+Slug: truni-farm-country-house-andretta
+Nome: Truni Farm Country House
+Comune / Provincia: Andretta
+Indirizzo: c.da Truni, 83044 Bisaccia AV
+Coordinate: Lat 40.996915, Lng 15.387898
+Website: —
+Email: 
+
+3342. Vicolo72
+ID: 5a18bbc0-383e-4245-932e-6bd13229c81b
+Slug: vicolo72-andretta
+Nome: Vicolo72
+Comune / Provincia: Andretta
+Indirizzo: Via Cipresso, 4-6, 83045 Calitri AV
+Coordinate: Lat 40.898725, Lng 15.439682
+Website: http://www.vicolo72.it/
+Email: 
+
+3343. Albergo dei Pini
+ID: c0561aa0-7204-4815-b8b1-30db57cfac81
+Slug: albergo-dei-pini-andria
+Nome: Albergo dei Pini
+Comune / Provincia: Andria
+Indirizzo: Via Brindisi, 3, 76013 Andria BT
+Coordinate: Lat 41.230542, Lng 16.302618
+Website: http://www.albergodeipini.it/
+Email: 
+
+3344. ARCHÈO B&B
+ID: 02f3cefd-b519-4857-a043-463cdd148916
+Slug: archeo-b-b-andria
+Nome: ARCHÈO B&B
+Comune / Provincia: Andria
+Indirizzo: Via Mulini, 7, 76123 Andria BT
+Coordinate: Lat 41.226078, Lng 16.297545
+Website: https://www.airbnb.it/rooms/814315596767948492?check_in=2023-03-22&check_out=2023-03-30&guests=1&adults=1&s=67&unique_share_id=1e568a9a-7fd5-4a43-a731-76003c6d7b8b&fbclid=PAAabk0anOLnHYB9eUVjZ1fkWDGW6JHySMNwAro0lzhHHEvzjbpvn5q5hknPQ&source_impression_id=p3_1679320173_eyBB+/yyN8xz8PrW
+Email: 
+
+3345. Artè Andria
+ID: bc2e60ca-25f4-4dc0-9d40-01f730be7bd6
+Slug: arte-andria-andria
+Nome: Artè Andria
+Comune / Provincia: Andria
+Indirizzo: Via Mura S. Francesco, 16, 76123 Andria BT
+Coordinate: Lat 41.227556, Lng 16.294946
+Website: http://www.arteandria.it/
+Email: 
+
+3346. B&B Novilunio
+ID: a7b5f0b4-9147-4ac0-8ab0-466a107f3775
+Slug: b-b-novilunio-andria
+Nome: B&B Novilunio
+Comune / Provincia: Andria
+Indirizzo: Via la Corte, Via de Maioribus, 14, 76123 Andria BT
+Coordinate: Lat 41.224843, Lng 16.296027
+Website: http://www.allogginovilunio.com/
+Email: 
+
+3347. B&B Palazzo Ducale
+ID: ef8f915a-0ff3-4531-802e-a154e19f1088
+Slug: b-b-palazzo-ducale-andria
+Nome: B&B Palazzo Ducale
+Comune / Provincia: Andria
+Indirizzo: V. Vaglio, 30, 76123 Andria BT
+Coordinate: Lat 41.225185, Lng 16.296998
+Website: http://www.bbpalazzoducale.com/
+Email: 
+
+3348. Blumoon
+ID: aa37b249-d90d-41d1-9ed5-2d436f52dc78
+Slug: blumoon-andria
+Nome: Blumoon
+Comune / Provincia: Andria
+Indirizzo: Via Ugo Foscolo, 24, 76123 Andria BT
+Coordinate: Lat 41.224152, Lng 16.300658
+Website: https://completedstay.com/blumoon-boutique-andria/
+Email: 
+
+3349. Borgomurgia
+ID: fd022aa9-4b9e-48eb-84e6-8e1bff940128
+Slug: borgomurgia-andria
+Nome: Borgomurgia
+Comune / Provincia: Andria
+Indirizzo: Via Corrado IV di Svevia, 9, 76123 Andria BT
+Coordinate: Lat 41.225256, Lng 16.295479
+Website: http://www.borgomurgia.it/
+Email: 
+
+3350. Club 64 Bed & Breakfast
+ID: 680c95d1-64a5-4f31-a68d-75fda5cdf7a4
+Slug: club-64-bed-breakfast-andria
+Nome: Club 64 Bed & Breakfast
+Comune / Provincia: Andria
+Indirizzo: Via Bologna, 85, 76123 Andria BT
+Coordinate: Lat 41.23094, Lng 16.300845
+Website: http://www.clubsessantaquattro.com/
+Email: 
+
+3351. Cristal Palace Hotel
+ID: b350e2e9-ca69-47e1-ae0b-fd1f9909d7a9
+Slug: cristal-palace-hotel-andria
+Nome: Cristal Palace Hotel
+Comune / Provincia: Andria
+Indirizzo: Via Firenze, 35, 76123 Andria BT
+Coordinate: Lat 41.229935, Lng 16.301243
+Website: http://www.cristalpalace.it/
+Email: 
+
+3352. Dimora Delle Vigne
+ID: c78215bf-2c08-4c82-bf3b-47a490948f08
+Slug: dimora-delle-vigne-andria
+Nome: Dimora Delle Vigne
+Comune / Provincia: Andria
+Indirizzo: Via Pier delle Vigne, 20/22, 76123 Andria BT
+Coordinate: Lat 41.225237, Lng 16.294657
+Website: https://www.booking.com/hotel/it/dimora-delle-vigne-andria.it.html
+Email: 
+
+3353. Fravina
+ID: d5d0b865-fc80-4e3f-bcec-ba03189e12ea
+Slug: fravina-andria
+Nome: Fravina
+Comune / Provincia: Andria
+Indirizzo: 2° Vicolo Antonio Giannotti, 3, 76123 Andria BT
+Coordinate: Lat 41.226367, Lng 16.293271
+Website: https://fravina.italyexperience.top/
+Email: 
+
+3354. Il cortile degli ulivi
+ID: 89fce56d-7440-42e7-96f0-4ffd5e42d4cd
+Slug: il-cortile-degli-ulivi-andria
+Nome: Il cortile degli ulivi
+Comune / Provincia: Andria
+Indirizzo: Vicolo III Tutino, 76123 Andria BT
+Coordinate: Lat 41.224258, Lng 16.293612
+Website: https://stayoly.eu/il-cortile-degli-ulivi-andria/
+Email: 
+
+3355. Netium B&B
+ID: d204fb78-d3d2-4676-bab1-66e3cb46b3ff
+Slug: netium-b-b-andria
+Nome: Netium B&B
+Comune / Provincia: Andria
+Indirizzo: Via arco marchese, 27, 76123 Andria BT
+Coordinate: Lat 41.224664, Lng 16.296641
+Website: https://aparthotelit.top/netiumbbpHB
+Email: 
+
+3356. Orizzonte MHotel
+ID: f8eb752f-7556-4705-9eb8-4d706cd1b539
+Slug: orizzonte-mhotel-andria
+Nome: Orizzonte MHotel
+Comune / Provincia: Andria
+Indirizzo: 76123 Andria BT
+Coordinate: Lat 41.247729, Lng 16.308428
+Website: https://www.orizzontemhotel.com/it/
+Email: 
+
+3357. Poggio della Guardia - Montegrosso Rooms
+ID: 4654ab4e-6790-4252-b51f-79bbc25fc2e6
+Slug: poggio-della-guardia-montegrosso-rooms-andria
+Nome: Poggio della Guardia - Montegrosso Rooms
+Comune / Provincia: Andria
+Indirizzo: Viale dei Combattenti, 31, 76123 Montegrosso BT
+Coordinate: Lat 41.174107, Lng 16.140336
+Website: https://www.booking.com/hotel/it/poggio-della-guardia-montegrosso-rooms.it.html
+Email: 
+
+3358. ROBERTO's Guest House
+ID: 4cd540bd-647c-4d68-ba76-0de97a085180
+Slug: roberto-s-guest-house-andria
+Nome: ROBERTO's Guest House
+Comune / Provincia: Andria
+Indirizzo: Via Sonnino, 8, 76123 Andria BT
+Coordinate: Lat 41.228235, Lng 16.295989
+Website: https://directroom.eu/robertos-guest-house-andria
+Email: 
+
+3359. Santa Maria Vetere
+ID: ab1634d6-3bf4-4450-bec9-2d6852a79412
+Slug: santa-maria-vetere-andria
+Nome: Santa Maria Vetere
+Comune / Provincia: Andria
+Indirizzo: Piazza Santa Maria Vetere, 37, 76123 Andria BT
+Coordinate: Lat 41.220047, Lng 16.292654
+Website: https://www.santamariavetere.it/
+Email: 
+
+3360. Terrazzini Cibele
+ID: feee85fb-f48a-4ff5-88fa-19a5ac578908
+Slug: terrazzini-cibele-andria
+Nome: Terrazzini Cibele
+Comune / Provincia: Andria
+Indirizzo: Piazza Balilla, 4, 76123 Andria BT
+Coordinate: Lat 41.225933, Lng 16.2979
+Website: https://terrazzinicibele.it/
+Email: 

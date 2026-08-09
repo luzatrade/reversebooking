@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+8401. B&B Portobello
+ID: 06b9c7ff-0a13-4b65-8d72-ee76337b4429
+Slug: b-b-portobello-bema
+Nome: B&B Portobello
+Comune / Provincia: Bema
+Indirizzo: Via Statale 285 Regoledo di, 23013 Cosio Valtellino SO
+Coordinate: Lat 46.133577, Lng 9.546913
+Website: http://bbportobello.com/
+Email: 
+
+8402. Bed And Breakfast In Cima Ai Cà
+ID: c27e4b66-09e0-4976-9117-2a5a0e68cbc0
+Slug: bed-and-breakfast-in-cima-ai-ca-bema
+Nome: Bed And Breakfast In Cima Ai Cà
+Comune / Provincia: Bema
+Indirizzo: Via S. Marco, 27, 23017 Morbegno SO
+Coordinate: Lat 46.130307, Lng 9.569692
+Website: —
+Email: 
+
+8403. Hotel Ristorante Trieste
+ID: bf9c5a95-425a-4564-83fc-8219236823d7
+Slug: hotel-ristorante-trieste-bema
+Nome: Hotel Ristorante Trieste
+Comune / Provincia: Bema
+Indirizzo: Via S. Rocco, 3, 23017 Morbegno SO
+Coordinate: Lat 46.130723, Lng 9.566919
+Website: http://www.hotel-trieste.com/
+Email: 
+
+8404. Locanda Via Priula - Wine Bar Bistrot & Rooms
+ID: 920c6691-6006-428f-bf83-8519e51cbd50
+Slug: locanda-via-priula-wine-bar-bistrot-rooms-bema
+Nome: Locanda Via Priula - Wine Bar Bistrot & Rooms
+Comune / Provincia: Bema
+Indirizzo: Via Ospital Vecchio, 17, 23017 Morbegno SO
+Coordinate: Lat 46.130561, Lng 9.570887
+Website: https://locandaviapriula.it/
+Email: 
+
+8405. Agriturismo Barcola
+ID: 886d7604-64ca-4d26-8af1-907c4d68de53
+Slug: agriturismo-barcola-bene-lario
+Nome: Agriturismo Barcola
+Comune / Provincia: Bene Lario
+Indirizzo: Via Barcola, 8, 22010 Grandola ed Uniti CO
+Coordinate: Lat 46.023171, Lng 9.219744
+Website: —
+Email: 
+
+8406. Albergo Breglia
+ID: aba39a04-04be-46c0-83d3-99ea086dc8e3
+Slug: albergo-breglia-bene-lario
+Nome: Albergo Breglia
+Comune / Provincia: Bene Lario
+Indirizzo: Via S. Gregorio, 2, 22010 Plesio CO
+Coordinate: Lat 46.052792, Lng 9.233435
+Website: http://www.breglia.it/
+Email: 
+
+8407. Albergo La Solitaria
+ID: e8e2d3bf-df48-4453-bfe2-af2bd339884b
+Slug: albergo-la-solitaria-bene-lario
+Nome: Albergo La Solitaria
+Comune / Provincia: Bene Lario
+Indirizzo: Via Statale Regina, 333, 22010 Carlazzo CO
+Coordinate: Lat 46.038932, Lng 9.175987
+Website: http://www.albergolasolitaria.it/
+Email: 
+
+8408. Albergo Ristorante Il Vapore
+ID: 5848e629-8030-4f6b-a550-33f014320eb2
+Slug: albergo-ristorante-il-vapore-bene-lario
+Nome: Albergo Ristorante Il Vapore
+Comune / Provincia: Bene Lario
+Indirizzo: Piazza Tommaso Grossi, 3, 22017 Menaggio CO
+Coordinate: Lat 46.0201, Lng 9.23944
+Website: —
+Email: 
+
+8409. B&B A Casa di Anna
+ID: a1ed9555-c2bd-4413-850d-62c558410e1c
+Slug: b-b-a-casa-di-anna-bene-lario
+Nome: B&B A Casa di Anna
+Comune / Provincia: Bene Lario
+Indirizzo: Via L. Cadorna, 9, 22017 Menaggio CO
+Coordinate: Lat 46.018909, Lng 9.235748
+Website: http://acasadianna.jimdofree.com/
+Email: 
+
+8410. B&B Balcone Fiorito
+ID: cdc89049-32f4-4765-a506-8658c9d53999
+Slug: b-b-balcone-fiorito-bene-lario
+Nome: B&B Balcone Fiorito
+Comune / Provincia: Bene Lario
+Indirizzo: Via A. Wyatt, 26, 22017 Menaggio CO
+Coordinate: Lat 46.017646, Lng 9.223688
+Website: http://www.bbbalconefiorito.it/
+Email: 
+
+8411. B&B By Lussy
+ID: e32f5cc6-9d2d-4e7f-a673-6c8bc6821dc2
+Slug: b-b-by-lussy-bene-lario
+Nome: B&B By Lussy
+Comune / Provincia: Bene Lario
+Indirizzo: Via per la Grona, 69, 22017 Menaggio CO
+Coordinate: Lat 46.028863, Lng 9.232028
+Website: https://samanthastraveltips.com/b-amp-b-by-lussy-camera-verde-italy
+Email: 
+
+8412. B&B Casa del Sole
+ID: 99b46e4e-2a0a-497b-acdf-5013e9f53fb0
+Slug: b-b-casa-del-sole-bene-lario
+Nome: B&B Casa del Sole
+Comune / Provincia: Bene Lario
+Indirizzo: Via G, Via Carlo Galbiati, 4, 22010 Grandola ed Uniti CO
+Coordinate: Lat 46.026203, Lng 9.21391
+Website: —
+Email: 
+
+8413. B&B La Marinella
+ID: 66202ce8-fcb9-4b6b-b3cc-c341f2f45255
+Slug: b-b-la-marinella-bene-lario
+Nome: B&B La Marinella
+Comune / Provincia: Bene Lario
+Indirizzo: Via Osteno, 29, 22018 Porlezza CO
+Coordinate: Lat 46.025059, Lng 9.126859
+Website: https://www.bblamarinella.com/
+Email: 
+
+8414. B&B Peonia
+ID: d15b160f-1abd-4757-9d8a-c4e638ca9a22
+Slug: b-b-peonia-bene-lario
+Nome: B&B Peonia
+Comune / Provincia: Bene Lario
+Indirizzo: Via Ghiacciaia, 5, 22018 Porlezza CO
+Coordinate: Lat 46.036387, Lng 9.124391
+Website: http://peonia.vacation-bookings.com/
+Email: 
+
+8415. Fiore Gottro
+ID: 91ca100b-7c38-4d4f-9baf-234bc13139c2
+Slug: fiore-gottro-bene-lario
+Nome: Fiore Gottro
+Comune / Provincia: Bene Lario
+Indirizzo: 143, Via S. Giorgio, 22010 Carlazzo CO
+Coordinate: Lat 46.047252, Lng 9.16871
+Website: https://romeit.cyou/fiore-gottro-t80sed
+Email: 
+
+8416. Foresteria BB Sul Lago
+ID: 4ab3ca72-dade-4008-8ef1-77e2c4d7ba4d
+Slug: foresteria-bb-sul-lago-bene-lario
+Nome: Foresteria BB Sul Lago
+Comune / Provincia: Bene Lario
+Indirizzo: Lungo Lago Giacomo Matteotti, 19a, 22018 Porlezza CO
+Coordinate: Lat 46.034193, Lng 9.119597
+Website: http://www.bbsullago.com/
+Email: 
+
+8417. Garden Rooms
+ID: ef88174d-9de3-420a-a80d-9ba282bbc591
+Slug: garden-rooms-bene-lario
+Nome: Garden Rooms
+Comune / Provincia: Bene Lario
+Indirizzo: Via Armando Diaz, 30, 22017 Menaggio CO
+Coordinate: Lat 46.031856, Lng 9.236807
+Website: http://www.gardenroomsmenaggio.it/
+Email: 
+
+8418. Hotel Bellavista
+ID: 51fd2b05-2ca5-46c8-b599-9e8d89c938ef
+Slug: hotel-bellavista-bene-lario
+Nome: Hotel Bellavista
+Comune / Provincia: Bene Lario
+Indirizzo: Via IV Novembre, 21, 22017 Menaggio CO
+Coordinate: Lat 46.019232, Lng 9.237529
+Website: http://www.hotel-bellavista.org/
+Email: 
+
+8419. Hotel Loveno 2 stars
+ID: 014182bf-7998-46e2-b937-72cc7aa77af9
+Slug: hotel-loveno-2-stars-bene-lario
+Nome: Hotel Loveno 2 stars
+Comune / Provincia: Bene Lario
+Indirizzo: Via N. Sauro, 55, 22017 Menaggio CO
+Coordinate: Lat 46.024251, Lng 9.235442
+Website: https://hotellovenolakecomoitaly.com/
+Email: 
+
+8420. Hotel Merloni
+ID: 6746be8b-840f-4762-b4d9-cfc0d44940a7
+Slug: hotel-merloni-bene-lario
+Nome: Hotel Merloni
+Comune / Provincia: Bene Lario
+Indirizzo: Via Re Magi, 10, 22010 Grandola ed Uniti CO
+Coordinate: Lat 46.025193, Lng 9.209741
+Website: https://hotelmerloni.com/
+Email: 
+
+8421. Hotel Ristorante Bar Pizzeria La Sorgente
+ID: 80db38ea-11ce-42e2-b0a6-e0991b8f3ee5
+Slug: hotel-ristorante-bar-pizzeria-la-sorgente-bene-lario
+Nome: Hotel Ristorante Bar Pizzeria La Sorgente
+Comune / Provincia: Bene Lario
+Indirizzo: Via per la Grona, 68, 22010 Ligomena CO
+Coordinate: Lat 46.041222, Lng 9.2288
+Website: http://www.hotelasorgente.com/
+Email: 
+
+8422. Hotel Ristorante Risorgimento
+ID: 9b52a7c6-ba7b-4209-85fd-5b3fe9bcdb36
+Slug: hotel-ristorante-risorgimento-bene-lario
+Nome: Hotel Ristorante Risorgimento
+Comune / Provincia: Bene Lario
+Indirizzo: Via Carlo Vanetti, 16, 22018 Porlezza CO
+Coordinate: Lat 46.038218, Lng 9.124764
+Website: http://www.hotelrisorgimento.com/
+Email: 
+
+8423. Lake Como Hostel La Primula, Menaggio
+ID: 59b8d953-a289-41d7-8b90-45ed13a01b17
+Slug: lake-como-hostel-la-primula-menaggio-bene-lario
+Nome: Lake Como Hostel La Primula, Menaggio
+Comune / Provincia: Bene Lario
+Indirizzo: Via IV Novembre, 106, 22017 Menaggio CO
+Coordinate: Lat 46.015694, Lng 9.236095
+Website: http://www.lakecomohostel.com/
+Email: 
+
+8424. Rustico Lago di Como
+ID: 9b964e0e-a8aa-4224-ad54-9b05ab1ae48c
+Slug: rustico-lago-di-como-bene-lario
+Nome: Rustico Lago di Como
+Comune / Provincia: Bene Lario
+Indirizzo: Via Colombera, 19, 22010 Barna CO
+Coordinate: Lat 46.03636, Lng 9.21469
+Website: http://www.rusticolagodicomo.eu/
+Email: 
+
+8425. Agriturismo La Tilia
+ID: 6895c418-0134-4435-a18a-d87adcb0b436
+Slug: agriturismo-la-tilia-bene-vagienna
+Nome: Agriturismo La Tilia
+Comune / Provincia: Bene Vagienna
+Indirizzo: Strada Cascina Bealessio, 3, 12060 Lequio Tanaro CN
+Coordinate: Lat 44.550104, Lng 7.890882
+Website: https://latilia.it/
+Email: 
+
+8426. Antica Dimora Gallo Basteris
+ID: 3335ca9e-d37b-4a3d-bf25-fcb801f9c0f2
+Slug: antica-dimora-gallo-basteris-bene-vagienna
+Nome: Antica Dimora Gallo Basteris
+Comune / Provincia: Bene Vagienna
+Indirizzo: Piazza V Luglio 1944, 37, 12060 Piozzo CN
+Coordinate: Lat 44.515594, Lng 7.892552
+Website: https://anticadimoragallobasteris.it/
+Email: 
+
+8427. B&B Amò le Langhe
+ID: 4ef16aaa-10cf-4f55-97f1-69baf24ebb84
+Slug: b-b-amo-le-langhe-bene-vagienna
+Nome: B&B Amò le Langhe
+Comune / Provincia: Bene Vagienna
+Indirizzo: Frazione Lucchi, 58, 12068 Narzole CN
+Coordinate: Lat 44.584412, Lng 7.826695
+Website: https://amolelanghe.com/
+Email: 
+
+8428. B&b Bene&breakfast
+ID: 72eb679d-a622-4e83-9d93-527ca220b896
+Slug: b-b-bene-breakfast-bene-vagienna
+Nome: B&b Bene&breakfast
+Comune / Provincia: Bene Vagienna
+Indirizzo: Via Carrù, 35/37, 12041 Bene Vagienna CN
+Coordinate: Lat 44.538217, Lng 7.826336
+Website: https://benebreakfast.it/
+Email: 
+
+8429. B&B Ca' Rino
+ID: 4963deff-8b56-46ef-b305-aeab12f6a2c0
+Slug: b-b-ca-rino-bene-vagienna
+Nome: B&B Ca' Rino
+Comune / Provincia: Bene Vagienna
+Indirizzo: Frazione Santo Stefano, 24, 12041 Bene Vagienna CN
+Coordinate: Lat 44.531094, Lng 7.839536
+Website: https://carinobnb.com/
+Email: 
+
+8430. B&B Il Forno Dal 1922
+ID: 0d17f60f-d73d-417e-9774-6aa297f0d0ea
+Slug: b-b-il-forno-dal-1922-bene-vagienna
+Nome: B&B Il Forno Dal 1922
+Comune / Provincia: Bene Vagienna
+Indirizzo: Via del Forno, 74, 12041 Bene Vagienna CN
+Coordinate: Lat 44.56165, Lng 7.837728
+Website: https://beb.it/ilfornodal1922
+Email: 
+
+8431. Bed and Breakfast Selisa
+ID: 67c67a51-a8ff-4ecf-bdd2-f7ac3ca40eb6
+Slug: bed-and-breakfast-selisa-bene-vagienna
+Nome: Bed and Breakfast Selisa
+Comune / Provincia: Bene Vagienna
+Indirizzo: SP206, 4, 12041 Bene Vagienna CN
+Coordinate: Lat 44.540083, Lng 7.804684
+Website: https://www.booking.com/hotel/it/b-amp-b-selisa-bene-vagienna.it.html?label=gen173nr-1DCAsocUIcYi1hbXAtYi1zZWxpc2EtYmVuZS12YWdpZW5uYUgUWARocYgBAZgBFMIBA2FibsgBDNgBA-gBAfgBA5ICAXmoAgQ;sid=4e5c0cf7b72d50854368b1d96dae456c;dist=0&group_adults=2&sb_price_type=total&type=total&
+Email: 
+
+8432. Ca' del Viaggiatore
+ID: ea554af3-63cc-4be0-b7f6-98d897776a00
+Slug: ca-del-viaggiatore-bene-vagienna
+Nome: Ca' del Viaggiatore
+Comune / Provincia: Bene Vagienna
+Indirizzo: Località Calcinera 48, 12060 Farigliano CN
+Coordinate: Lat 44.507515, Lng 7.907275
+Website: https://beb.it/cadelviaggiatore/it/?fbclid=IwAR0crj50G2u-3dIZEQh_ckLuFTmipKxjiPC5YVFJJcHmRwcq7mVfrnZKoo0
+Email: 
+
+8433. Cascina Belmonte B&B
+ID: 82f46539-56d9-439c-bdfb-ad718fd747be
+Slug: cascina-belmonte-b-b-bene-vagienna
+Nome: Cascina Belmonte B&B
+Comune / Provincia: Bene Vagienna
+Indirizzo: Via Belmonte, 32, 12045 Fossano CN
+Coordinate: Lat 44.569969, Lng 7.74393
+Website: http://www.cascinabelmonte.com/
+Email: 
+
+8434. Cortile Gancia Sweet House
+ID: 5d92cd60-cc21-4732-894f-86dc4f1d7776
+Slug: cortile-gancia-sweet-house-bene-vagienna
+Nome: Cortile Gancia Sweet House
+Comune / Provincia: Bene Vagienna
+Indirizzo: Via Pace, 25, 12068 Narzole CN
+Coordinate: Lat 44.593746, Lng 7.871954
+Website: https://www.cortilegancia.it/
+Email: 
+
+8435. Hotel Romanisio
+ID: 22a9363a-ac48-46aa-9df9-5201c58707d4
+Slug: hotel-romanisio-bene-vagienna
+Nome: Hotel Romanisio
+Comune / Provincia: Bene Vagienna
+Indirizzo: Via Monsignor Angelo Soracco, 1, 12045 Fossano CN
+Coordinate: Lat 44.559132, Lng 7.728477
+Website: http://www.hotelromanisio.it/
+Email: 

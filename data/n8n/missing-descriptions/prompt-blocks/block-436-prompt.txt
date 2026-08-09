@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+15226. Castello Montegiove Country House
+ID: bfb45cd2-631e-49ca-892d-5e2a1f3cd7c8
+Slug: castello-montegiove-country-house-cartoceto
+Nome: Castello Montegiove Country House
+Comune / Provincia: Cartoceto
+Indirizzo: Via Forcolo, 26/28/30, 61032 Fano PU
+Coordinate: Lat 43.825499, Lng 12.991231
+Website: http://www.castellomontegiove.it/
+Email: 
+
+15227. Eden Lilli B&B
+ID: 843a35be-e275-4441-9775-5378a6dcf12a
+Slug: eden-lilli-b-b-cartoceto
+Nome: Eden Lilli B&B
+Comune / Provincia: Cartoceto
+Indirizzo: Via Pieve, 51, 61030 Salomone PU
+Coordinate: Lat 43.766302, Lng 12.900908
+Website: http://www.edenlilli.it/
+Email: 
+
+15228. Hotel Flaminio
+ID: 70ce0050-9313-4eac-97ae-807bb01b3765
+Slug: hotel-flaminio-cartoceto
+Nome: Hotel Flaminio
+Comune / Provincia: Cartoceto
+Indirizzo: Via Flaminia, 196/200, 61036 Colli al Metauro, PU
+Coordinate: Lat 43.738124, Lng 12.897344
+Website: http://www.hotelflaminiotavernelle.com/
+Email: 
+
+15229. Il Castagno Albergo Ristorante Pizzeria
+ID: c01b8ddc-934f-41ca-b2bd-e83e8e9df331
+Slug: il-castagno-albergo-ristorante-pizzeria-cartoceto
+Nome: Il Castagno Albergo Ristorante Pizzeria
+Comune / Provincia: Cartoceto
+Indirizzo: Via Giacomo Matteotti, 72, 61038 Orciano di Pesaro PU
+Coordinate: Lat 43.686966, Lng 12.963704
+Website: http://www.hotelcastagno.com/
+Email: 
+
+15230. Le Fontanelle Country House
+ID: 5dbac9ca-3632-44da-b595-27bb237b6a5b
+Slug: le-fontanelle-country-house-cartoceto
+Nome: Le Fontanelle Country House
+Comune / Provincia: Cartoceto
+Indirizzo: Via Fontanelle, 11, 61040 Sant'Ippolito PU
+Coordinate: Lat 43.682221, Lng 12.862131
+Website: https://lefontanelle.eu/
+Email: 
+
+15231. Locanda Borgognina
+ID: 54baa3aa-5c96-4c64-8e2e-0bcc81d220ea
+Slug: locanda-borgognina-cartoceto
+Nome: Locanda Borgognina
+Comune / Provincia: Cartoceto
+Indirizzo: Via Borgognina, 31, 61030 Cartoceto PU
+Coordinate: Lat 43.770809, Lng 12.964406
+Website: http://www.locandaborgognina.it/
+Email: 
+
+15232. Villa Cartoceto
+ID: 95fab430-3ce8-4973-b2e1-ac738d04d09f
+Slug: villa-cartoceto-cartoceto
+Nome: Villa Cartoceto
+Comune / Provincia: Cartoceto
+Indirizzo: Via Umberto I, 11, 61030 Cartoceto PU
+Coordinate: Lat 43.767114, Lng 12.881928
+Website: http://www.villacartoceto.eu/
+Email: 
+
+15233. Agriturismo b&b Valcrosa
+ID: 693b3721-4eed-49b1-838a-7fc39ea8ae45
+Slug: agriturismo-b-b-valcrosa-cartosio
+Nome: Agriturismo b&b Valcrosa
+Comune / Provincia: Cartosio
+Indirizzo: Localita, Regione Caliogna, 50, 15010 Melazzo AL
+Coordinate: Lat 44.615551, Lng 8.441226
+Website: https://valcrosa.com/
+Email: 
+
+15234. Agriturismo borghetto la radice
+ID: 0764f910-502c-4af3-b96d-d99fc7d080b2
+Slug: agriturismo-borghetto-la-radice-cartosio
+Nome: Agriturismo borghetto la radice
+Comune / Provincia: Cartosio
+Indirizzo: Regione piandonne, 23, 14050 Roccaverano AT
+Coordinate: Lat 44.606775, Lng 8.294254
+Website: https://www.borghettolaradice.it/
+Email: 
+
+15235. Agriturismo Le Piagge - Via dei Cascinali, 257 - 15010 PONZONE AL
+ID: 7c174dfe-691e-4ccb-bca5-a477c7c1869e
+Slug: agriturismo-le-piagge-via-dei-cascinali-257-1501-cartosio
+Nome: Agriturismo Le Piagge - Via dei Cascinali, 257 - 15010 PONZONE AL
+Comune / Provincia: Cartosio
+Indirizzo: Via Cascinali, 257, 15010 Ponzone AL
+Coordinate: Lat 44.605587, Lng 8.458615
+Website: http://www.agriturismo-lepiagge.com/
+Email: 
+
+15236. Agriturismo Luna di Miele
+ID: 5d3b0463-3349-4504-9675-97ec6caaf5dd
+Slug: agriturismo-luna-di-miele-cartosio
+Nome: Agriturismo Luna di Miele
+Comune / Provincia: Cartosio
+Indirizzo: Regione S. Desiderio, 48, 14058 Monastero Bormida AT
+Coordinate: Lat 44.641652, Lng 8.329707
+Website: http://www.agriturismolalunadimiele.com/
+Email: 
+
+15237. B&B La Civetta
+ID: 8220d4ee-dce2-439e-9000-98c3ecd23010
+Slug: b-b-la-civetta-cartosio
+Nome: B&B La Civetta
+Comune / Provincia: Cartosio
+Indirizzo: Via Cascinali, 209, 15010 Ponzone AL
+Coordinate: Lat 44.588744, Lng 8.449429
+Website: http://www.bblacivetta.com/
+Email: 
+
+15238. B&B La Volpe e la Luna
+ID: 96f6bcfa-7949-426f-adee-2d6e87d098bf
+Slug: b-b-la-volpe-e-la-luna-cartosio
+Nome: B&B La Volpe e la Luna
+Comune / Provincia: Cartosio
+Indirizzo: Via Dogli, 26 c, 17040 Mioglia SV
+Coordinate: Lat 44.501846, Lng 8.408158
+Website: https://francescastraveltips.com/la-volpe-e-la-luna-italy
+Email: 
+
+15239. B&B Santa Libera
+ID: dccc2a69-9576-4e0c-94a0-44bbae74b546
+Slug: b-b-santa-libera-cartosio
+Nome: B&B Santa Libera
+Comune / Provincia: Cartosio
+Indirizzo: Regione Santa Libera, 27, 14058 Monastero Bormida AT
+Coordinate: Lat 44.64259, Lng 8.323893
+Website: https://www.bbsantalibera.com/
+Email: 
+
+15240. Casa Modero
+ID: 04429133-5de3-4afd-a449-d85bda9d7062
+Slug: casa-modero-cartosio
+Nome: Casa Modero
+Comune / Provincia: Cartosio
+Indirizzo: Località Chiazze, 3, 15015 Cartosio AL
+Coordinate: Lat 44.579919, Lng 8.42675
+Website: http://modero.xyz/
+Email: 
+
+15241. Cascina Ciosse
+ID: a1be56e5-fdd1-47b0-8c1a-8e9758139a4b
+Slug: cascina-ciosse-cartosio
+Nome: Cascina Ciosse
+Comune / Provincia: Cartosio
+Indirizzo: Località Ciosse, 1, 15010 Grognardo AL
+Coordinate: Lat 44.631044, Lng 8.495317
+Website: http://www.cascinaciosse.it/
+Email: 
+
+15242. Hotel Pian del Sole
+ID: 78f966e8-e207-4735-b187-d2642d3ec1bd
+Slug: hotel-pian-del-sole-cartosio
+Nome: Hotel Pian del Sole
+Comune / Provincia: Cartosio
+Indirizzo: Localita' Pianferioso, 23, 17046 Sassello SV
+Coordinate: Lat 44.482081, Lng 8.490508
+Website: https://www.hotelpiandelsolesassello.it/?utm_source=gbp&utm_medium=organic
+Email: 
+
+15243. La Casa dei Pensanti
+ID: 8cfde6f2-70f9-4aa1-bdc9-336f5ef9fde3
+Slug: la-casa-dei-pensanti-cartosio
+Nome: La Casa dei Pensanti
+Comune / Provincia: Cartosio
+Indirizzo: Str. Valle Berrino, 237, 15010 Ponzone AL
+Coordinate: Lat 44.597335, Lng 8.448498
+Website: —
+Email: 
+
+15244. Ristorante Cacciatori di Milano Massimo
+ID: 275caa9f-04e3-4d60-9a99-588b9355c777
+Slug: ristorante-cacciatori-di-milano-massimo-cartosio
+Nome: Ristorante Cacciatori di Milano Massimo
+Comune / Provincia: Cartosio
+Indirizzo: Via Moreno, 30, 15015 Cartosio AL
+Coordinate: Lat 44.593892, Lng 8.420809
+Website: https://www.cacciatoricartosio.com/
+Email: 
+
+15245. Bed & Breakfast - La Via dell'Ambra - Due Carrare, Padova
+ID: 3c94ae23-00ab-440d-bd4c-5dee9407b5fd
+Slug: bed-breakfast-la-via-dell-ambra-due-carrare-pado-cartura
+Nome: Bed & Breakfast - La Via dell'Ambra - Due Carrare, Padova
+Comune / Provincia: Cartura
+Indirizzo: Via Chiodare, 130, 35020 Due Carrare PD
+Coordinate: Lat 45.287377, Lng 11.79411
+Website: —
+Email: 
+
+15246. Bed & Breakfast La Casa del Mulino
+ID: 4aa2c204-3acb-40c6-bd64-27c275bfd148
+Slug: bed-breakfast-la-casa-del-mulino-cartura
+Nome: Bed & Breakfast La Casa del Mulino
+Comune / Provincia: Cartura
+Indirizzo: Via Pontemanco, 98, 35020 Due Carrare PD
+Coordinate: Lat 45.293538, Lng 11.836957
+Website: http://www.lacasadelmulino.com/
+Email: 
+
+15247. Ca' Murà, Natura e Resort
+ID: 9627bbfd-650f-450b-b46b-08e170232667
+Slug: ca-mura-natura-e-resort-cartura
+Nome: Ca' Murà, Natura e Resort
+Comune / Provincia: Cartura
+Indirizzo: Via Ca' Mura', 21/B, 35020 Maserà di Padova PD
+Coordinate: Lat 45.304402, Lng 11.885475
+Website: http://www.ca-mura.com/
+Email: 
+
+15248. B&B HOTEL Milano Cologno Studios
+ID: 89f210c5-b0ef-4e95-afd1-e01fe0ff3216
+Slug: b-b-hotel-milano-cologno-studios-carugate
+Nome: B&B HOTEL Milano Cologno Studios
+Comune / Provincia: Carugate
+Indirizzo: Corso Europa, 56, 20093 Cologno Monzese MI
+Coordinate: Lat 45.521084, Lng 9.263377
+Website: https://www.hotel-bb.com/it/hotel/milano-cologno-studios
+Email: 
+
+15249. B&B La Castellana
+ID: 1da08b62-be8f-4517-860d-f1aadbb39d5c
+Slug: b-b-la-castellana-carugate
+Nome: B&B La Castellana
+Comune / Provincia: Carugate
+Indirizzo: Via Gaetano Donizetti, 10, 20061 Carugate MI
+Coordinate: Lat 45.548725, Lng 9.346605
+Website: http://www.bblacastellana.com/
+Email: 
+
+15250. Hotel NH Milano 2
+ID: df631514-c257-46ed-9ca4-4cbe5f28c567
+Slug: hotel-nh-milano-2-carugate
+Nome: Hotel NH Milano 2
+Comune / Provincia: Carugate
+Indirizzo: Strada di Olgia Nuova, 20090 Segrate MI
+Coordinate: Lat 45.501727, Lng 9.268039
+Website: https://www.nh-hotels.com/en/hotel/nh-milano-2?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb
+Email: 
+
+15251. Hotel Pone
+ID: 92309546-16b0-4741-bc95-fe874b800539
+Slug: hotel-pone-carugate
+Nome: Hotel Pone
+Comune / Provincia: Carugate
+Indirizzo: Via Mincio, 2, 20099 Sesto San Giovanni MI
+Coordinate: Lat 45.552068, Lng 9.25949
+Website: https://www.hotelsitaloweb.com/hotel-pone/
+Email: 
+
+15252. Hotel Sporting
+ID: 2548bab2-c636-42b2-8fbb-9e53f1145547
+Slug: hotel-sporting-carugate
+Nome: Hotel Sporting
+Comune / Provincia: Carugate
+Indirizzo: Via Felice Cavallotti, 141, 20093 Cologno Monzese MI
+Coordinate: Lat 45.527723, Lng 9.267432
+Website: https://www.hotelsportingcologno.it/
+Email: 
+
+15253. NH Milano 2 Residence
+ID: ba705949-40aa-4634-a56a-a7f7ac7350e5
+Slug: nh-milano-2-residence-carugate
+Nome: NH Milano 2 Residence
+Comune / Provincia: Carugate
+Indirizzo: Strada di Olgia Vecchia, 20090 Segrate MI
+Coordinate: Lat 45.500572, Lng 9.266678
+Website: https://www.nh-hotels.com/en/hotel/nh-milano-2-residence?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb
+Email: 
+
+15254. Residenza Isabella
+ID: ede071e0-460e-434e-9804-660165c1de19
+Slug: residenza-isabella-carugate
+Nome: Residenza Isabella
+Comune / Provincia: Carugate
+Indirizzo: Via Cesare Battisti, 90/92, 20061 Carugate MI
+Coordinate: Lat 45.549343, Lng 9.345461
+Website: http://www.hotelrocco.it/residence_isabella.html
+Email: 
+
+15255. Welcome Milano Guest House
+ID: 5562d1b7-1c70-4953-abb7-7099b6fe70ec
+Slug: welcome-milano-guest-house-carugate
+Nome: Welcome Milano Guest House
+Comune / Provincia: Carugate
+Indirizzo: Via Padova, 370, 20132 Milano MI
+Coordinate: Lat 45.51179, Lng 9.257778
+Website: https://www.welcomemilanoguesthouse.it/it
+Email: 
+
+15256. Albergo Nardini s.a.s.
+ID: f4921993-2e4c-435f-8176-091e53413317
+Slug: albergo-nardini-s-a-s-carugo
+Nome: Albergo Nardini s.a.s.
+Comune / Provincia: Carugo
+Indirizzo: Via Nazionale dei Giovi, 202, 20823 Lentate sul Seveso MB
+Coordinate: Lat 45.683859, Lng 9.11185
+Website: http://www.hotelnardini.com/
+Email: 
+
+15257. Albergo Ristorante Giudici Sas
+ID: cb1996ba-456d-4ac3-a21d-9a1404fd55b4
+Slug: albergo-ristorante-giudici-sas-carugo
+Nome: Albergo Ristorante Giudici Sas
+Comune / Provincia: Carugo
+Indirizzo: Via Liberta', 7, 20823 Lentate sul Seveso MB
+Coordinate: Lat 45.683724, Lng 9.119535
+Website: https://www.giudicicamere.it/
+Email: 
+
+15258. B & B Casa di Lia
+ID: 8582c0e2-2638-4810-9008-6fbb321fe84b
+Slug: b-b-casa-di-lia-carugo
+Nome: B & B Casa di Lia
+Comune / Provincia: Carugo
+Indirizzo: Via Vittorio Veneto, 23, 22060 Carugo CO
+Coordinate: Lat 45.710475, Lng 9.19052
+Website: http://casa-di-lia.org.es/
+Email: 
+
+15259. Hotel Biffi Srl
+ID: b640a8bd-8986-4b51-9a24-1143bec9727e
+Slug: hotel-biffi-srl-carugo
+Nome: Hotel Biffi Srl
+Comune / Provincia: Carugo
+Indirizzo: Via Papa Giovanni XXIII, 16, 20831 Seregno MB
+Coordinate: Lat 45.647088, Lng 9.202904
+Website: http://www.hotelbiffi.it/
+Email: 
+
+15260. AR San Salvo B&B
+ID: ec9f5c7d-88d1-4f6c-8656-374ef0f6c603
+Slug: ar-san-salvo-b-b-carunchio
+Nome: AR San Salvo B&B
+Comune / Provincia: Carunchio
+Indirizzo: Str. Trignina, 3, 66050 San Salvo CH
+Coordinate: Lat 42.046588, Lng 14.732675
+Website: —
+Email: 

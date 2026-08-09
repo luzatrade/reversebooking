@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+15821. B&B Il Vicoletto
+ID: 49305edf-cad6-4bb7-ba8e-cb85c08f0217
+Slug: b-b-il-vicoletto-cassano-all-ionio
+Nome: B&B Il Vicoletto
+Comune / Provincia: Cassano all'Ionio
+Indirizzo: Via Pietro Pompilio Rodotà, 87010 Frascineto CS
+Coordinate: Lat 39.835496, Lng 16.260896
+Website: https://recommendedbygeorge.eu/il-vicoletto-frascineto-italy
+Email: 
+
+15822. B&B La Casata del Prof
+ID: 32f9b16c-4664-44e3-b9b9-e76bf9cb58d9
+Slug: b-b-la-casata-del-prof-cassano-all-ionio
+Nome: B&B La Casata del Prof
+Comune / Provincia: Cassano all'Ionio
+Indirizzo: Corso Giuseppe Garibaldi, 35, 87011 Cassano all'Ionio CS
+Coordinate: Lat 39.784812, Lng 16.31862
+Website: https://bblacasatadelprof.it/
+Email: 
+
+15823. B&B La Castellana
+ID: d2a2f91a-f324-4fd3-a72a-99deaf384510
+Slug: b-b-la-castellana-cassano-all-ionio
+Nome: B&B La Castellana
+Comune / Provincia: Cassano all'Ionio
+Indirizzo: Vicolo II Garibaldi, 87010 Civita CS
+Coordinate: Lat 39.828002, Lng 16.314054
+Website: https://www.lacastellanacivita.it/
+Email: 
+
+15824. B&B La Stazione
+ID: 72d3de55-99e6-4296-ad21-04af86a1e360
+Slug: b-b-la-stazione-cassano-all-ionio
+Nome: B&B La Stazione
+Comune / Provincia: Cassano all'Ionio
+Indirizzo: Piazza XV Agosto, 87011 Sibari CS
+Coordinate: Lat 39.749333, Lng 16.455415
+Website: —
+Email: 
+
+15825. B&B Le Terrazze
+ID: 0d9f1e51-f8b8-4962-9518-73e02caee898
+Slug: b-b-le-terrazze-cassano-all-ionio
+Nome: B&B Le Terrazze
+Comune / Provincia: Cassano all'Ionio
+Indirizzo: Via S. Martino, 6, 87010 Civita CS
+Coordinate: Lat 39.826517, Lng 16.314201
+Website: http://www.leterrazze.org/
+Email: 
+
+15826. B&B Oasi del Raganello
+ID: 967235f6-eef8-4f56-9355-238bcdbeb685
+Slug: b-b-oasi-del-raganello-cassano-all-ionio
+Nome: B&B Oasi del Raganello
+Comune / Provincia: Cassano all'Ionio
+Indirizzo: Via Discesa, Via del Ponte del Diavolo, 87010 Civita CS
+Coordinate: Lat 39.829187, Lng 16.31473
+Website: https://beboasidelraganello.it/
+Email: 
+
+15827. Hotel Club Maregolf
+ID: 9cb5d08e-6f72-4a47-922b-a9005352e995
+Slug: hotel-club-maregolf-cassano-all-ionio
+Nome: Hotel Club Maregolf
+Comune / Provincia: Cassano all'Ionio
+Indirizzo: Loc, Via Salicetta, 87011 Sibari CS
+Coordinate: Lat 39.744423, Lng 16.47959
+Website: https://www.minervaclubresort.it/resort/maregolf/?utm_source=google-business&utm_campaign=PromozioneLocalMaregolf&utm_medium=scheda-local
+Email: 
+
+15828. Il Belvedere
+ID: 71e6f399-60ee-4ae2-9ac4-351785a7844f
+Slug: il-belvedere-cassano-all-ionio
+Nome: Il Belvedere
+Comune / Provincia: Cassano all'Ionio
+Indirizzo: Corso Cavallotti, 27, 87010 Civita CS
+Coordinate: Lat 39.826527, Lng 16.316367
+Website: http://belvederepollino.com/
+Email: 
+
+15829. Laghi Room Only
+ID: 240f6b23-84d9-4dfd-8eef-3798fcac9183
+Slug: laghi-room-only-cassano-all-ionio
+Nome: Laghi Room Only
+Comune / Provincia: Cassano all'Ionio
+Indirizzo: Località Laghi di Sibari, Snc, 87011 Cassano all'Ionio CS
+Coordinate: Lat 39.7253, Lng 16.513775
+Website: https://www.laghiroom.it/
+Email: 
+
+15830. Terme Sibarite
+ID: b9c316a3-850e-46c2-b50c-794c0687e894
+Slug: terme-sibarite-cassano-all-ionio
+Nome: Terme Sibarite
+Comune / Provincia: Cassano all'Ionio
+Indirizzo: Via delle Terme, 2, 87011 Cassano All’Ionio CS
+Coordinate: Lat 39.782796, Lng 16.320407
+Website: https://www.termesibarite.it/
+Email: 
+
+15831. Villaggio Costa Sybaris
+ID: 8cf1782a-57fe-4d96-bc1f-51496f37f810
+Slug: villaggio-costa-sybaris-cassano-all-ionio
+Nome: Villaggio Costa Sybaris
+Comune / Provincia: Cassano all'Ionio
+Indirizzo: S.da Statale 106 Jonica, 98, 87011 Cassano all'Ionio CS
+Coordinate: Lat 39.752885, Lng 16.465361
+Website: http://costasybaris.com/
+Email: 
+
+15832. Park Hotel Cassano
+ID: c5b0e8c4-61b1-4191-a604-8e43c58d94b0
+Slug: park-hotel-cassano-cassano-d-adda
+Nome: Park Hotel Cassano
+Comune / Provincia: Cassano d'Adda
+Indirizzo: Via SP, 20062 Cassano d'Adda MI
+Coordinate: Lat 45.531545, Lng 9.507878
+Website: —
+Email: 
+
+15833. Agriturismo Tre Pini Cassano delle murge di Plantamura Felicia Antonia
+ID: 49067812-37d8-43e0-b588-196426a2efdf
+Slug: agriturismo-tre-pini-cassano-delle-murge-di-plan-cassano-delle-murge
+Nome: Agriturismo Tre Pini Cassano delle murge di Plantamura Felicia Antonia
+Comune / Provincia: Cassano delle Murge
+Indirizzo: Via Vecchia per Altamura, SP79, km 16, 70020 Cassano delle Murge BA
+Coordinate: Lat 40.868007, Lng 16.740972
+Website: http://www.agriturismotrepini.com/
+Email: 
+
+15834. ARACOELI 20
+ID: e17b3177-051e-46b4-aa69-9a4c925f69e0
+Slug: aracoeli-20-cassano-delle-murge
+Nome: ARACOELI 20
+Comune / Provincia: Cassano delle Murge
+Indirizzo: Via Aracoeli, 20, 70020 Cassano delle Murge BA
+Coordinate: Lat 40.890893, Lng 16.77108
+Website: http://www.aracoeli20.it/
+Email: 
+
+15835. B&B Corte Campanile
+ID: 08587ac0-449e-494d-9850-4e451e3f35e6
+Slug: b-b-corte-campanile-cassano-delle-murge
+Nome: B&B Corte Campanile
+Comune / Provincia: Cassano delle Murge
+Indirizzo: Viale Unità D'Italia, 37, 70020 Cassano delle Murge BA
+Coordinate: Lat 40.891344, Lng 16.765679
+Website: https://bb-corte-campanile.alberghiinitalia.top/
+Email: 
+
+15836. B&B L’altramurgia
+ID: 8f15ef62-81c3-4dbb-8efe-9f89cd5f0c26
+Slug: b-b-l-altramurgia-cassano-delle-murge
+Nome: B&B L’altramurgia
+Comune / Provincia: Cassano delle Murge
+Indirizzo: Via Beato Giacomo da Bitetto, 18, 70020 Cassano delle Murge BA
+Coordinate: Lat 40.891647, Lng 16.760994
+Website: https://www.facebook.com/p/BB-Laltramurgia-100076181053428/
+Email: 
+
+15837. B&B L’incontro
+ID: be431b66-572c-493f-be10-bdd53be5b828
+Slug: b-b-l-incontro-cassano-delle-murge
+Nome: B&B L’incontro
+Comune / Provincia: Cassano delle Murge
+Indirizzo: Via Antonio Meucci, 1, 70029 Santeramo In Colle BA
+Coordinate: Lat 40.801328, Lng 16.763268
+Website: —
+Email: 
+
+15838. Cinquanta Sfumature B&b Luxury Suites
+ID: 589d3241-0dd2-49d7-9e9c-2680e8798d74
+Slug: cinquanta-sfumature-b-b-luxury-suites-cassano-delle-murge
+Nome: Cinquanta Sfumature B&b Luxury Suites
+Comune / Provincia: Cassano delle Murge
+Indirizzo: Via Ruffo Vincenzo, 1, 70020 Cassano delle Murge BA
+Coordinate: Lat 40.890024, Lng 16.771708
+Website: http://cinquanta-sfumature-luxury.com.es/
+Email: 
+
+15839. Finestre sul Borgo
+ID: 4d1f575d-9e08-42b4-bf9a-e964efa67d24
+Slug: finestre-sul-borgo-cassano-delle-murge
+Nome: Finestre sul Borgo
+Comune / Provincia: Cassano delle Murge
+Indirizzo: Corso Vittorio Emanuele III, 20, 70020 Cassano delle Murge BA
+Coordinate: Lat 40.890034, Lng 16.768649
+Website: http://finestresulborgo.it/
+Email: 
+
+15840. Hotel Dell'Ulivo Di Cice Antonia
+ID: e8dcd4f7-57dc-4fc7-8bee-0d4a34191668
+Slug: hotel-dell-ulivo-di-cice-antonia-cassano-delle-murge
+Nome: Hotel Dell'Ulivo Di Cice Antonia
+Comune / Provincia: Cassano delle Murge
+Indirizzo: Via Convento, 270, 70020 Cassano delle Murge BA
+Coordinate: Lat 40.891019, Lng 16.753611
+Website: http://www.reggiadigiano.it/
+Email: 
+
+15841. Il Cantuccio
+ID: ae196ec8-0129-44ef-a990-c4cc4d5c4df2
+Slug: il-cantuccio-cassano-delle-murge
+Nome: Il Cantuccio
+Comune / Provincia: Cassano delle Murge
+Indirizzo: Via Cesare Cantu', 21, 70029 Santeramo in Colle BA
+Coordinate: Lat 40.794929, Lng 16.758301
+Website: http://www.ilcantuccio.eu/
+Email: 
+
+15842. Il Portico Hotel Resort B&B Luxury
+ID: 9df70bea-49b7-4f2b-aec9-32cacac6e565
+Slug: il-portico-hotel-resort-b-b-luxury-cassano-delle-murge
+Nome: Il Portico Hotel Resort B&B Luxury
+Comune / Provincia: Cassano delle Murge
+Indirizzo: Contrada Lagogemolo, 70020 Cassano delle Murge BA
+Coordinate: Lat 40.894348, Lng 16.715496
+Website: https://alistraveltips.com/il-portico-luxury-b-and-b-italy
+Email: 
+
+15843. La Rosa Blu 2
+ID: d3f42e9e-135b-4035-8b20-b1139f264ab6
+Slug: la-rosa-blu-2-cassano-delle-murge
+Nome: La Rosa Blu 2
+Comune / Provincia: Cassano delle Murge
+Indirizzo: Via Undici Febbraio, 8, 70029 Santeramo in Colle BA
+Coordinate: Lat 40.792535, Lng 16.754217
+Website: https://larosablu2.traveleto.com/
+Email: 
+
+15844. Le Dimore del Garibaldi
+ID: 54796132-313b-4fab-aa48-862ec38fafd0
+Slug: le-dimore-del-garibaldi-cassano-delle-murge
+Nome: Le Dimore del Garibaldi
+Comune / Provincia: Cassano delle Murge
+Indirizzo: Via Maggior Turitto, 59, 70020 Cassano delle Murge BA
+Coordinate: Lat 40.889775, Lng 16.769385
+Website: http://www.dimoredelgaribaldi.it/
+Email: 
+
+15845. Palazzo Novecento B&B
+ID: 383f8e97-2b89-4b49-afc7-f00425757935
+Slug: palazzo-novecento-b-b-cassano-delle-murge
+Nome: Palazzo Novecento B&B
+Comune / Provincia: Cassano delle Murge
+Indirizzo: Piazza Giuseppe Garibaldi, 54, 70020 Cassano delle Murge BA
+Coordinate: Lat 40.88866, Lng 16.769517
+Website: https://palazzo-novecento.com/
+Email: 
+
+15846. Run House 07 Rooms & Apartments
+ID: baaa2292-0af1-4533-9340-af05ac0a36dc
+Slug: run-house-07-rooms-apartments-cassano-delle-murge
+Nome: Run House 07 Rooms & Apartments
+Comune / Provincia: Cassano delle Murge
+Indirizzo: Via Marcantonio Fiore, 7, 70020 Cassano delle Murge BA
+Coordinate: Lat 40.89151, Lng 16.76702
+Website: http://www.runhouse07.it/
+Email: 
+
+15847. Agriturismo Agrihouse Da Marisa
+ID: 1468ce17-2954-41d6-a68f-c7be8b2b630a
+Slug: agriturismo-agrihouse-da-marisa-cassano-irpino
+Nome: Agriturismo Agrihouse Da Marisa
+Comune / Provincia: Cassano Irpino
+Indirizzo: SP164, 3, 83040 Cassano Irpino AV
+Coordinate: Lat 40.880733, Lng 15.032375
+Website: https://agrihousedamarisa.it/
+Email: 
+
+15848. Agriturismo La Follonella
+ID: 4155c4c1-fb97-4efa-a87a-844e0a9a7c61
+Slug: agriturismo-la-follonella-cassano-irpino
+Nome: Agriturismo La Follonella
+Comune / Provincia: Cassano Irpino
+Indirizzo: Via S. Francesco, 83048 Montella AV
+Coordinate: Lat 40.84688, Lng 15.047302
+Website: https://lafollonella.it/
+Email: 
+
+15849. Agriturismo Torre Gialluise
+ID: af38ff27-8172-4cdb-a105-339f55e0ebe8
+Slug: agriturismo-torre-gialluise-cassano-irpino
+Nome: Agriturismo Torre Gialluise
+Comune / Provincia: Cassano Irpino
+Indirizzo: Via Cupa del Paradiso, SS428, 83040 Gesualdo AV
+Coordinate: Lat 40.997895, Lng 15.082528
+Website: —
+Email: 
+
+15850. Sanbarto la casa del borgo
+ID: 35b0c50b-7f23-4f15-afcd-22567c2a0222
+Slug: sanbarto-la-casa-del-borgo-cassano-irpino
+Nome: Sanbarto la casa del borgo
+Comune / Provincia: Cassano Irpino
+Indirizzo: Contrada Acquoleila, 12, 83040 Cassano Irpino AV
+Coordinate: Lat 40.875336, Lng 15.028349
+Website: https://www.sanbarto.it/
+Email: 
+
+15851. Vinea del Selvatico Cascina Agricola
+ID: 47abef0e-4689-4337-80ae-d4d6babc4f24
+Slug: vinea-del-selvatico-cascina-agricola-cassano-irpino
+Nome: Vinea del Selvatico Cascina Agricola
+Comune / Provincia: Cassano Irpino
+Indirizzo: Contrada Selvatico, 83054 Sant'Angelo dei Lombardi AV
+Coordinate: Lat 40.914196, Lng 15.165296
+Website: https://go2stay.eu/vinea-del-selvatico-cascina-agricola-santangelo-de-lombardi/
+Email: 
+
+15852. Capriccio Art Hotel
+ID: de16e929-8b4d-4cd9-b20e-ea4d3c6ded13
+Slug: capriccio-art-hotel-cassano-spinola
+Nome: Capriccio Art Hotel
+Comune / Provincia: Cassano Spinola
+Indirizzo: Via Novi, 20, 15069 Serravalle Scrivia AL
+Coordinate: Lat 44.731751, Lng 8.842011
+Website: http://www.capriccioserravalleoutlet.com/
+Email: 
+
+15853. Relais Villa Pomela
+ID: 5859a7c8-65e0-422f-9a16-0f90990e7f31
+Slug: relais-villa-pomela-cassano-spinola
+Nome: Relais Villa Pomela
+Comune / Provincia: Cassano Spinola
+Indirizzo: Strada Serravalle, 69, 15067 Novi Ligure AL
+Coordinate: Lat 44.743576, Lng 8.810905
+Website: https://www.pomela.it/
+Email: 
+
+15854. Tenuta San Giorgio
+ID: 8b53f194-429c-4b65-8819-8cf45111704c
+Slug: tenuta-san-giorgio-cassano-spinola
+Nome: Tenuta San Giorgio
+Comune / Provincia: Cassano Spinola
+Indirizzo: SP35ter, 15069 Serravalle Scrivia AL
+Coordinate: Lat 44.744325, Lng 8.839763
+Website: https://tenutasangiorgioserravalle.it/
+Email: 
+
+15855. Villa Girardengo
+ID: a67e71fc-7dae-4f2d-9666-d09465409b3b
+Slug: villa-girardengo-cassano-spinola
+Nome: Villa Girardengo
+Comune / Provincia: Cassano Spinola
+Indirizzo: Via Trieste, 2, 15067 Novi Ligure AL
+Coordinate: Lat 44.763079, Lng 8.790371
+Website: https://broglia.it/
+Email: 

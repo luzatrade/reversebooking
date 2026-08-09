@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+4621. Hotel Bentivoglio
+ID: 7ee5ea0a-fe8f-4369-bbc0-90d2fb4bc115
+Slug: hotel-bentivoglio-argelato
+Nome: Hotel Bentivoglio
+Comune / Provincia: Argelato
+Indirizzo: Piazza Carlo Alberto Pizzardi, 1, 40010 Bentivoglio BO
+Coordinate: Lat 44.635137, Lng 11.420902
+Website: https://www.hotelbentivoglio.it/
+Email: 
+
+4622. Hotel Galliera
+ID: beb15bfa-2069-4b5d-bb98-4aad29ca8a2e
+Slug: hotel-galliera-argelato
+Nome: Hotel Galliera
+Comune / Provincia: Argelato
+Indirizzo: di Galliera, Via Dante Alighieri, 2A, 40015 San Vincenzo BO
+Coordinate: Lat 44.734816, Lng 11.439307
+Website: https://www.hotelgalliera.it/
+Email: 
+
+4623. Hotel Marconi
+ID: b9c846b9-26da-42ea-b953-d62a1fcab70d
+Slug: hotel-marconi-argelato
+Nome: Hotel Marconi
+Comune / Provincia: Argelato
+Indirizzo: SP3, Trasversale di Pianura, 2/c, 40010 Bentivoglio BO
+Coordinate: Lat 44.594293, Lng 11.383209
+Website: http://www.marconi-hotel.com/
+Email: 
+
+4624. Hotel Olimpic Bologna
+ID: a9192910-d340-4245-9578-440ee6b05d9d
+Slug: hotel-olimpic-bologna-argelato
+Nome: Hotel Olimpic Bologna
+Comune / Provincia: Argelato
+Indirizzo: Via Galliera, 23, 40013 Castel Maggiore BO
+Coordinate: Lat 44.558847, Lng 11.356225
+Website: http://www.hotelolimpicbologna.com/
+Email: 
+
+4625. Hotel Pamela
+ID: ba885040-8dfb-45f5-85a1-5851d878ded8
+Slug: hotel-pamela-argelato
+Nome: Hotel Pamela
+Comune / Provincia: Argelato
+Indirizzo: Via Galliera Sud, 74, 40018 San Pietro In Casale BO
+Coordinate: Lat 44.691962, Lng 11.398284
+Website: http://www.hotelpamela.it/
+Email: 
+
+4626. Hotel SABO'
+ID: 7439eacd-c199-401c-9b37-29fe47d4b748
+Slug: hotel-sabo-argelato
+Nome: Hotel SABO'
+Comune / Provincia: Argelato
+Indirizzo: Via Galliera, 80, 40050 Funo BO
+Coordinate: Lat 44.587799, Lng 11.368911
+Website: http://www.hotelsabo.it/
+Email: 
+
+4627. JR Hotel Gate7
+ID: a6915269-0c94-4e2a-a2d5-1eed56593fd1
+Slug: jr-hotel-gate7-argelato
+Nome: JR Hotel Gate7
+Comune / Provincia: Argelato
+Indirizzo: Via G. Garibaldi, 4, 40012 Calderara di Reno BO
+Coordinate: Lat 44.554318, Lng 11.281325
+Website: https://www.jr-hotels.com/it/collection/jr-hotels-gate-7-bologna
+Email: 
+
+4628. Melograno Hotel
+ID: e30793dd-306e-4ff8-9f4f-c2a836a31ee3
+Slug: melograno-hotel-argelato
+Nome: Melograno Hotel
+Comune / Provincia: Argelato
+Indirizzo: Via Altedo, 4419, 40018 San Pietro in Casale BO
+Coordinate: Lat 44.690765, Lng 11.463974
+Website: http://www.melograno-hotel.com/
+Email: 
+
+4629. Mitico Hotel & Natural Spa
+ID: 41a21fb4-22fe-4ede-b297-f4812d77ce6d
+Slug: mitico-hotel-natural-spa-argelato
+Nome: Mitico Hotel & Natural Spa
+Comune / Provincia: Argelato
+Indirizzo: Via Ferrarese, 164, 40128 Bologna BO
+Coordinate: Lat 44.533158, Lng 11.366826
+Website: https://www.miticohotel.it/
+Email: 
+
+4630. R&B Dalla Licia
+ID: 5da4f316-67b1-48a2-b62f-fb6f3009060f
+Slug: r-b-dalla-licia-argelato
+Nome: R&B Dalla Licia
+Comune / Provincia: Argelato
+Indirizzo: Via Boves, 2, 40016 San Giorgio di Piano BO
+Coordinate: Lat 44.649896, Lng 11.370473
+Website: —
+Email: 
+
+4631. Agrilocanda Val Campotto
+ID: 49845af4-45f8-498d-b808-a33bcbe8acfe
+Slug: agrilocanda-val-campotto-argenta
+Nome: Agrilocanda Val Campotto
+Comune / Provincia: Argenta
+Indirizzo: Via Maria Margotti, 2, 44011 Argenta FE
+Coordinate: Lat 44.601086, Lng 11.810134
+Website: http://www.agrilocandavalcampotto.it/
+Email: 
+
+4632. Agriturismo Ai Due Laghi del Verginese
+ID: 19ca2ca2-7dc5-4374-9339-fe0c1ed3f589
+Slug: agriturismo-ai-due-laghi-del-verginese-argenta
+Nome: Agriturismo Ai Due Laghi del Verginese
+Comune / Provincia: Argenta
+Indirizzo: Via Bargellesi, 2, 44015 Gambulaga FE
+Coordinate: Lat 44.747913, Lng 11.830767
+Website: http://www.duelaghi.com/
+Email: 
+
+4633. Agriturismo Bassara Le Capanne
+ID: 0c096dc6-6fc7-476e-a788-a6cca6762046
+Slug: agriturismo-bassara-le-capanne-argenta
+Nome: Agriturismo Bassara Le Capanne
+Comune / Provincia: Argenta
+Indirizzo: Via Cardinala, 2, 44011 Argenta FE
+Coordinate: Lat 44.613514, Lng 11.81531
+Website: http://www.agriturismobassara.com/
+Email: 
+
+4634. B&B La Salghè
+ID: 65d2582f-4d07-4993-b336-c553b11e5ca5
+Slug: b-b-la-salghe-argenta
+Nome: B&B La Salghè
+Comune / Provincia: Argenta
+Indirizzo: Via Borgo Seliciata, 1, 44011 Argenta FE
+Coordinate: Lat 44.61537, Lng 11.840266
+Website: https://directstayer.eu/bnb-la-salghe-argenta
+Email: 
+
+4635. Bed & Breakfast Ciliegio Felice Argenta
+ID: acd06509-d2f0-44a8-a9aa-66cbcb6458bc
+Slug: bed-breakfast-ciliegio-felice-argenta-argenta
+Nome: Bed & Breakfast Ciliegio Felice Argenta
+Comune / Provincia: Argenta
+Indirizzo: Str. Valletta, 31, 44011 Traghetto FE
+Coordinate: Lat 44.640318, Lng 11.688367
+Website: https://fernandostraveltips.com/b-b-ciliegio-felice-italy
+Email: 
+
+4636. Boni Room & Breakfast/SMART ROOMS ARGENTA
+ID: deb16159-1576-474d-891a-913f08da1326
+Slug: boni-room-breakfast-smart-rooms-argenta-argenta
+Nome: Boni Room & Breakfast/SMART ROOMS ARGENTA
+Comune / Provincia: Argenta
+Indirizzo: Via Imperiale, 8/B, 44011 Traghetto FE
+Coordinate: Lat 44.632748, Lng 11.674742
+Website: https://smartroomsargenta.icalu.com/
+Email: 
+
+4637. Cà Morari
+ID: a85c0281-8051-4b9a-82c8-081880fd17fa
+Slug: ca-morari-argenta
+Nome: Cà Morari
+Comune / Provincia: Argenta
+Indirizzo: Via Morari, 18, 44011 San Biagio FE
+Coordinate: Lat 44.589142, Lng 11.865858
+Website: https://providerstay.com/ca-morari-san-biagio
+Email: 
+
+4638. Corte Dossello Ristorante - Albergo
+ID: 3c97b3c7-206e-4fa7-85c0-2a21a7625ad4
+Slug: corte-dossello-ristorante-albergo-argenta
+Nome: Corte Dossello Ristorante - Albergo
+Comune / Provincia: Argenta
+Indirizzo: Via Briccola, 7, 44027 Massa Fiscaglia FE
+Coordinate: Lat 44.778582, Lng 12.044007
+Website: https://www.cortedossello.it/
+Email: 
+
+4639. Hotel Centrale
+ID: dda1fd9b-dc5c-485c-a647-863fc00b2282
+Slug: hotel-centrale-argenta
+Nome: Hotel Centrale
+Comune / Provincia: Argenta
+Indirizzo: Via Gustavo Bianchi, 1, 44011 Argenta FE
+Coordinate: Lat 44.614227, Lng 11.836281
+Website: https://directstayer.eu/hotel-centrale-argenta
+Email: 
+
+4640. Hotel la candela
+ID: 167eff82-4187-4a3e-84e7-bce5e5e9671c
+Slug: hotel-la-candela-argenta
+Nome: Hotel la candela
+Comune / Provincia: Argenta
+Indirizzo: Via San Vitale, 175, 40026 Sesto Imolese BO
+Coordinate: Lat 44.468849, Lng 11.768261
+Website: https://hotel-la-candela.solealbergo.top/
+Email: 
+
+4641. Hotel Villa Reale
+ID: 39c03fb9-6c7a-4aaa-944f-7a8885c6417b
+Slug: hotel-villa-reale-argenta
+Nome: Hotel Villa Reale
+Comune / Provincia: Argenta
+Indirizzo: Viale Antonio Roiti, 16/A, 44011 Argenta FE
+Coordinate: Lat 44.612355, Lng 11.836725
+Website: http://www.hotelvillarealeargenta.net/
+Email: 
+
+4642. I Due Orfici
+ID: 1e15cfa6-7bad-4a8f-b67e-f2d56e6b27f8
+Slug: i-due-orfici-argenta
+Nome: I Due Orfici
+Comune / Provincia: Argenta
+Indirizzo: Via Comacchio, 1051, 44123 Cona FE
+Coordinate: Lat 44.805392, Lng 11.711638
+Website: http://www.i2orficicona.it/
+Email: 
+
+4643. Il Correggiolo
+ID: eea02b0c-3fe3-46c2-8ee0-70c65a72af32
+Slug: il-correggiolo-argenta
+Nome: Il Correggiolo
+Comune / Provincia: Argenta
+Indirizzo: JRFX+J5, 44011 Argenta FE
+Coordinate: Lat 44.624063, Lng 11.847937
+Website: http://correggiolo.it/
+Email: 
+
+4644. Locanda Al Cavaliere
+ID: cde7ec05-d9fe-446f-a0b7-9cf44fe7f5ce
+Slug: locanda-al-cavaliere-argenta
+Nome: Locanda Al Cavaliere
+Comune / Provincia: Argenta
+Indirizzo: Via Fascinata, 2, 40062 San Pietro Capofiume BO
+Coordinate: Lat 44.656815, Lng 11.64238
+Website: https://amalfit.cyou/locanda-al-cavaliere-dk0y2k
+Email: 
+
+4645. Residence Appartamenti Villa Masi
+ID: fca664ca-a37c-45db-a625-7033af9f44c2
+Slug: residence-appartamenti-villa-masi-argenta
+Nome: Residence Appartamenti Villa Masi
+Comune / Provincia: Argenta
+Indirizzo: Viale Adriatico, 2, 44124 Masi Torello FE
+Coordinate: Lat 44.800644, Lng 11.777088
+Website: https://www.residencevillamasi.it/
+Email: 
+
+4646. Sacripante
+ID: 682067a5-eff2-4807-b44c-c71d2e03e888
+Slug: sacripante-argenta
+Nome: Sacripante
+Comune / Provincia: Argenta
+Indirizzo: Str. Bordocchia, 160, 44020 Ostellato FE
+Coordinate: Lat 44.727041, Lng 11.88258
+Website: http://www.ilsacripante.it/
+Email: 
+
+4647. Affittacamere L'Abrì
+ID: 3e79a424-6968-4329-8260-3f53f0e9b375
+Slug: affittacamere-l-abri-argentera
+Nome: Affittacamere L'Abrì
+Comune / Provincia: Argentera
+Indirizzo: Via Francia, 3, 12010 Pontebernardo CN
+Coordinate: Lat 44.350517, Lng 7.017471
+Website: https://www.labri.it/
+Email: 
+
+4648. B&B del Villaggio
+ID: a0e6c781-abbc-4af0-8ad7-4bebbfea5f5b
+Slug: b-b-del-villaggio-argentera
+Nome: B&B del Villaggio
+Comune / Provincia: Argentera
+Indirizzo: Via Nazionale, 1, 12010 Villaggio Primavera CN
+Coordinate: Lat 44.367529, Lng 6.985998
+Website: https://passaggioalpino.it/alloggi/bnb-del-villaggio/
+Email: 
+
+4649. La Barmo Affittacamere
+ID: c9b7a603-9607-4ac7-8325-725d743d1d87
+Slug: la-barmo-affittacamere-argentera
+Nome: La Barmo Affittacamere
+Comune / Provincia: Argentera
+Indirizzo: Via Longa, 9, 12010 Pietraporzio CN
+Coordinate: Lat 44.349975, Lng 7.018397
+Website: https://la-barmo-affittacamere.worhot.com/
+Email: 
+
+4650. Locanda La Marmu e Osteria della Croce bianca Marmora
+ID: d6cd5aae-c28f-461c-a6c3-8d85503a4076
+Slug: locanda-la-marmu-e-osteria-della-croce-bianca-ma-argentera
+Nome: Locanda La Marmu e Osteria della Croce bianca Marmora
+Comune / Provincia: Argentera
+Indirizzo: Borgata Vernetti, 18, 12020 Marmora CN
+Coordinate: Lat 44.457878, Lng 7.094271
+Website: https://la-marmu.it/
+Email: 
+
+4651. Lou Loop
+ID: 6d5934fa-5669-4491-ad5d-41011eeb02c5
+Slug: lou-loop-argentera
+Nome: Lou Loop
+Comune / Provincia: Argentera
+Indirizzo: Frazione Bagni , 59, 12010 Vinadio CN
+Coordinate: Lat 44.289305, Lng 7.074534
+Website: http://www.louloop.it/
+Email: 
+
+4652. Rifugio Becchi Rossi
+ID: d37f4039-e216-48fe-8195-9d35d50b240a
+Slug: rifugio-becchi-rossi-argentera
+Nome: Rifugio Becchi Rossi
+Comune / Provincia: Argentera
+Indirizzo: 12010 Ferrere CN
+Coordinate: Lat 44.358643, Lng 6.954941
+Website: http://www.rifugiobecchirossi.com/
+Email: 
+
+4653. Rifugio della Pace
+ID: 55167e85-277f-4031-a5a0-97560b3a2a06
+Slug: rifugio-della-pace-argentera
+Nome: Rifugio della Pace
+Comune / Provincia: Argentera
+Indirizzo: SS21 - Colle della maddalena, 12010 Val d'Oronaye, Francia
+Coordinate: Lat 44.421588, Lng 6.898049
+Website: http://www.rifugivallestura.it/i-rifugi/rifugio-della-pace
+Email: 
+
+4654. A Casa di Anna
+ID: 0e8d94ce-2075-4495-8753-09a37ff10137
+Slug: a-casa-di-anna-arguello
+Nome: A Casa di Anna
+Comune / Provincia: Arguello
+Indirizzo: Via Roma, 3, 12070 Pezzolo Valle Uzzone CN
+Coordinate: Lat 44.540935, Lng 8.193455
+Website: https://hotel-stay.eu/a-casa-di-anna-pezzolo-valle-uzzone-italy
+Email: 
+
+4655. Agriturismo Cascina Prato
+ID: bd5aebbd-06a7-46e5-8d10-8c246ef00cd6
+Slug: agriturismo-cascina-prato-arguello
+Nome: Agriturismo Cascina Prato
+Comune / Provincia: Arguello
+Indirizzo: Cascina Prato, 1, 12050 Cravanzana CN
+Coordinate: Lat 44.580375, Lng 8.13184
+Website: http://www.cascinaprato.it/
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+981. Agriturismo Vecchio Frantoio
+ID: ecfadd4f-0b3b-4727-9ffb-748c9b589953
+Slug: agriturismo-vecchio-frantoio-airole
+Nome: Agriturismo Vecchio Frantoio
+Comune / Provincia: Airole
+Indirizzo: Via Tenente Anfosso, 226, 18039 Villatella IM
+Coordinate: Lat 43.829384, Lng 7.535589
+Website: http://www.bbvecchiofrantoio.com/
+Email: 
+
+982. Albergo Varase
+ID: 437cf6ad-e570-41e5-b67b-103f79c143c3
+Slug: albergo-varase-airole
+Nome: Albergo Varase
+Comune / Provincia: Airole
+Indirizzo: Via Comunale di Varase, 4c, 18039 Varase IM
+Coordinate: Lat 43.839974, Lng 7.582439
+Website: http://www.albergovarase.it/
+Email: 
+
+983. B&B casa KaRa
+ID: 8019c9ad-7205-4c03-8be8-52251359a89f
+Slug: b-b-casa-kara-airole
+Nome: B&B casa KaRa
+Comune / Provincia: Airole
+Indirizzo: Via corsi, 18035 Dolceacqua IM
+Coordinate: Lat 43.870055, Lng 7.620343
+Website: http://www.casakara.it/
+Email: 
+
+984. B&B La Villetta
+ID: 3c9975bb-bc39-4870-aea4-10ac9d5afe3f
+Slug: b-b-la-villetta-airole
+Nome: B&B La Villetta
+Comune / Provincia: Airole
+Indirizzo: Via San Bernardo, 17, 18035 Dolceacqua IM
+Coordinate: Lat 43.851351, Lng 7.621913
+Website: —
+Email: 
+
+985. Camping Delle Rose
+ID: b7514d3d-3fd3-4fdc-8f42-121cf357b831
+Slug: camping-delle-rose-airole
+Nome: Camping Delle Rose
+Comune / Provincia: Airole
+Indirizzo: SS64, 18030 Isolabona IM
+Coordinate: Lat 43.894661, Lng 7.647027
+Website: http://www.campingdellerose.eu/
+Email: 
+
+986. Da Giua' Bed and Breakfast
+ID: 4d048ab9-7e7f-4f4e-a98f-19d97125db81
+Slug: da-giua-bed-and-breakfast-airole
+Nome: Da Giua' Bed and Breakfast
+Comune / Provincia: Airole
+Indirizzo: Piazza Vittorio Emanuele, II, 7, 18030 Apricale IM
+Coordinate: Lat 43.880454, Lng 7.660427
+Website: http://www.dagiua.it/
+Email: 
+
+987. Ecovillaggio Torri Superiore
+ID: 8981ac2f-ec0e-47f6-9676-eee5c56ec76e
+Slug: ecovillaggio-torri-superiore-airole
+Nome: Ecovillaggio Torri Superiore
+Comune / Provincia: Airole
+Indirizzo: Via Torri Superiore, 5, 18039 Ventimiglia IM
+Coordinate: Lat 43.840398, Lng 7.551104
+Website: http://www.torri-superiore.org/
+Email: 
+
+988. Hotel Giuseppe
+ID: 97ad0622-7091-4eed-975c-f96b571b0670
+Slug: hotel-giuseppe-airole
+Nome: Hotel Giuseppe
+Comune / Provincia: Airole
+Indirizzo: Piazza Cesare Battisti, A Ferroviaria, Via della Stazione, 31, 18039 Ventimiglia IM
+Coordinate: Lat 43.791781, Lng 7.610384
+Website: https://www.hotelscheck-in.com/hotel-giuseppe-imperia/it/
+Email: 
+
+989. Hotel Provenza Srl
+ID: 44727aa5-5bc6-48d3-b4ad-5329bed33b79
+Slug: hotel-provenza-srl-airole
+Nome: Hotel Provenza Srl
+Comune / Provincia: Airole
+Indirizzo: Via Cornelio Tacito, 4, 18039 Ventimiglia IM
+Coordinate: Lat 43.788136, Lng 7.620511
+Website: http://www.hotelprovenza.it/
+Email: 
+
+990. Il Giardino Degli Ulivi
+ID: 28a543dc-2318-4450-8689-99da569ec265
+Slug: il-giardino-degli-ulivi-airole
+Nome: Il Giardino Degli Ulivi
+Comune / Provincia: Airole
+Indirizzo: Via corsi, 18035 Dolceacqua IM
+Coordinate: Lat 43.866897, Lng 7.620892
+Website: —
+Email: 
+
+991. L'Oasi del Rossese
+ID: 98148781-f027-4e91-9512-3b3da512da06
+Slug: l-oasi-del-rossese-airole
+Nome: L'Oasi del Rossese
+Comune / Provincia: Airole
+Indirizzo: Regione morghe, 18035 Dolceacqua IM
+Coordinate: Lat 43.865339, Lng 7.643723
+Website: http://www.oasidelrossese.it/
+Email: 
+
+992. La Beverita
+ID: 602cf9f7-1648-40cd-b3bc-e51a18b3f689
+Slug: la-beverita-airole
+Nome: La Beverita
+Comune / Provincia: Airole
+Indirizzo: Via dell'Opera, 10, 18039 Ventimiglia IM
+Coordinate: Lat 43.818218, Lng 7.582629
+Website: http://labaverita.com.es/
+Email: 
+
+993. La Favorita Apricale
+ID: 2aa59639-7dd6-4d8c-b603-95771f280b65
+Slug: la-favorita-apricale-airole
+Nome: La Favorita Apricale
+Comune / Provincia: Airole
+Indirizzo: Strada S. Pietro, 1, 18030 Apricale IM
+Coordinate: Lat 43.881365, Lng 7.650982
+Website: http://www.lafavoritaapricale.com/
+Email: 
+
+994. Lago Bin
+ID: 78639f70-c7e8-464e-a51c-a860871493c8
+Slug: lago-bin-airole
+Nome: Lago Bin
+Comune / Provincia: Airole
+Indirizzo: Regione Morga, 18030 Rocchetta Nervina IM
+Coordinate: Lat 43.883399, Lng 7.603785
+Website: http://www.lagobin.it/
+Email: 
+
+995. Lo Scoiattolo
+ID: d3414837-7601-48be-81d8-5ecc752419ed
+Slug: lo-scoiattolo-airole
+Nome: Lo Scoiattolo
+Comune / Provincia: Airole
+Indirizzo: Frazione Verrandi, 1, 18039 Ventimiglia IM
+Coordinate: Lat 43.84661, Lng 7.599514
+Website: http://www.agriturismo-loscoiattolo.it/
+Email: 
+
+996. Osteria e Camere La Pecora Nera
+ID: 6b41cd33-a30f-4759-9403-8fa389cf7af9
+Slug: osteria-e-camere-la-pecora-nera-airole
+Nome: Osteria e Camere La Pecora Nera
+Comune / Provincia: Airole
+Indirizzo: Via degli Ulivi, 18, 18030 Rocchetta Nervina IM
+Coordinate: Lat 43.890366, Lng 7.602169
+Website: https://www.lapecoranera.eu/
+Email: 
+
+997. Talking Stones
+ID: ac192d42-a9c7-49c0-b863-344a6910d43d
+Slug: talking-stones-airole
+Nome: Talking Stones
+Comune / Provincia: Airole
+Indirizzo: Via San Bernardo, 5, 18035 Dolceacqua IM
+Coordinate: Lat 43.85164, Lng 7.622169
+Website: http://www.talkingstones.it/
+Email: 
+
+998. Terre Bianche
+ID: a248962f-c181-4584-be8d-90f9cfaaa31d
+Slug: terre-bianche-airole
+Nome: Terre Bianche
+Comune / Provincia: Airole
+Indirizzo: Loc. Arcagna snc, 18035 Dolceacqua IM
+Coordinate: Lat 43.843596, Lng 7.611399
+Website: http://www.terrebianche.com/
+Email: 
+
+999. Un Mare di Fiori
+ID: 354f96f5-4e3e-42f3-9860-e8546f36ab04
+Slug: un-mare-di-fiori-airole
+Nome: Un Mare di Fiori
+Comune / Provincia: Airole
+Indirizzo: Corso Nizza, 162, 18039 Ventimiglia IM
+Coordinate: Lat 43.791438, Lng 7.56076
+Website: http://www.agriturismounmaredifiori.com/
+Email: 
+
+1000. "LA TAVERNA" B&B
+ID: e2723034-f93a-4fd9-8f6d-ae845a44faa2
+Slug: la-taverna-b-b-airuno
+Nome: "LA TAVERNA" B&B
+Comune / Provincia: Airuno
+Indirizzo: Via S. Francesco, 11, 23881 Airuno LC
+Coordinate: Lat 45.757216, Lng 9.424108
+Website: —
+Email: 
+
+1001. Agriturismo Prisma
+ID: f9b0e0a2-bec5-4f0e-b785-9c5d16130a06
+Slug: agriturismo-prisma-airuno
+Nome: Agriturismo Prisma
+Comune / Provincia: Airuno
+Indirizzo: Campo Novo, 1, 23851 Villa Vergano LC
+Coordinate: Lat 45.791896, Lng 9.377308
+Website: https://www.instagram.com/agriturismoprisma_?igsh=eXZkaXk5eWRoOGdo
+Email: 
+
+1002. Albergo Ristorante Costa
+ID: 318da1a4-2d23-42a0-b307-957e963dc0ac
+Slug: albergo-ristorante-costa-airuno
+Nome: Albergo Ristorante Costa
+Comune / Provincia: Airuno
+Indirizzo: Via Roma, 3/5, 24030 Costa Valle Imagna BG
+Coordinate: Lat 45.80254, Lng 9.503463
+Website: http://www.hotelcosta.com/
+Email: 
+
+1003. Albergo Rosa
+ID: 749453be-3775-4ada-9710-fe1d71c9bb69
+Slug: albergo-rosa-airuno
+Nome: Albergo Rosa
+Comune / Provincia: Airuno
+Indirizzo: Via Calolzio, 6, 23802 Carenno LC
+Coordinate: Lat 45.801564, Lng 9.461252
+Website: https://veniit.cyou/albergo-rosa-1oan45
+Email: 
+
+1004. B & B Villa Paradis
+ID: 348feaf6-58c7-4177-9904-63a0de0c6b3c
+Slug: b-b-villa-paradis-airuno
+Nome: B & B Villa Paradis
+Comune / Provincia: Airuno
+Indirizzo: Via Postale Vecchia, 23881 Airuno LC
+Coordinate: Lat 45.752426, Lng 9.425346
+Website: https://villaparadis.it/
+Email: 
+
+1005. B&B Al Roncaccio
+ID: e211e823-c1e9-49ab-8288-d32f8f83d8b5
+Slug: b-b-al-roncaccio-airuno
+Nome: B&B Al Roncaccio
+Comune / Provincia: Airuno
+Indirizzo: Via per Roncaccio, 11, 23885 Calco LC
+Coordinate: Lat 45.726081, Lng 9.429895
+Website: https://bb-al-roncaccio.miglioriviaggi.top/
+Email: 
+
+1006. B&B La Poesia del Lago
+ID: 54dd7df6-14c7-44e9-a0bc-dfe67e71700b
+Slug: b-b-la-poesia-del-lago-airuno
+Nome: B&B La Poesia del Lago
+Comune / Provincia: Airuno
+Indirizzo: Via Bagnolo, 6, 23848 Oggiono LC
+Coordinate: Lat 45.79526, Lng 9.349264
+Website: https://sofierecommends.eu/la-poesia-del-lago-italy
+Email: 
+
+1007. BlueLake Inn
+ID: ab9977c7-dde8-4698-aa09-6406fe5abe8b
+Slug: bluelake-inn-airuno
+Nome: BlueLake Inn
+Comune / Provincia: Airuno
+Indirizzo: Via Cesare Cantù, lato sinistro, 7, 23854 Olginate LC
+Coordinate: Lat 45.797764, Lng 9.414956
+Website: —
+Email: 
+
+1008. casa airuno
+ID: 406da08b-c862-401a-a030-ed6e0df6db57
+Slug: casa-airuno-airuno
+Nome: casa airuno
+Comune / Provincia: Airuno
+Indirizzo: Via Statale, 22, 23881 Airuno LC
+Coordinate: Lat 45.755087, Lng 9.426558
+Website: —
+Email: 
+
+1009. Hotel Locanda del Mel
+ID: b5565459-ae4d-4edd-8c03-8e8b5e7c6aab
+Slug: hotel-locanda-del-mel-airuno
+Nome: Hotel Locanda del Mel
+Comune / Provincia: Airuno
+Indirizzo: Piazza Vittorio Veneto, 2, 23801 Calolziocorte LC
+Coordinate: Lat 45.801376, Lng 9.432215
+Website: http://www.locandamel.com/
+Email: 
+
+1010. Hotel Ristorante Due Platani
+ID: ea30fd2b-fad8-4321-91c3-2a01dcb28b0c
+Slug: hotel-ristorante-due-platani-airuno
+Nome: Hotel Ristorante Due Platani
+Comune / Provincia: Airuno
+Indirizzo: Via Statale, 18, 23881 Airuno LC
+Coordinate: Lat 45.756216, Lng 9.426567
+Website: http://www.hoteldueplatani.it/
+Email: 
+
+1011. Hotel Ristorante Fatur Srl
+ID: 83786be0-001a-407f-8913-77c6f5d6fb8b
+Slug: hotel-ristorante-fatur-srl-airuno
+Nome: Hotel Ristorante Fatur Srl
+Comune / Provincia: Airuno
+Indirizzo: Via Roma, 2, 24034 Cisano Bergamasco BG
+Coordinate: Lat 45.740112, Lng 9.480001
+Website: http://www.fatur.it/
+Email: 
+
+1012. Locanda Blue Airuno
+ID: 0ed77283-4a99-49c2-8921-c0be9962ce25
+Slug: locanda-blue-airuno-airuno
+Nome: Locanda Blue Airuno
+Comune / Provincia: Airuno
+Indirizzo: Via Statale, 33, 23881 Airuno LC
+Coordinate: Lat 45.754346, Lng 9.426769
+Website: https://locandaairuno.it/
+Email: 
+
+1013. Maggioni 039 Ristorante B&B
+ID: c3687ec1-023c-4e93-b130-a642cc8243e4
+Slug: maggioni-039-ristorante-b-b-airuno
+Nome: Maggioni 039 Ristorante B&B
+Comune / Provincia: Airuno
+Indirizzo: Via Belvedere, 28, 23874 Montevecchia LC
+Coordinate: Lat 45.705218, Lng 9.38142
+Website: https://www.maggioni039.it/
+Email: 
+
+1014. Teresa Delle Fragole - Azienda agricola e agriturismo vegetariano/vegano
+ID: 9eedc8e6-3244-4503-947f-28fb8598e263
+Slug: teresa-delle-fragole-azienda-agricola-e-agrituri-airuno
+Nome: Teresa Delle Fragole - Azienda agricola e agriturismo vegetariano/vegano
+Comune / Provincia: Airuno
+Indirizzo: Via Piave, 16, 23897 Viganò LC
+Coordinate: Lat 45.727036, Lng 9.328769
+Website: http://www.teresadellefragole.it/
+Email: 
+
+1015. Villa Fiesta
+ID: 5e6c1278-2a9b-4517-a70e-ea4266fefae1
+Slug: villa-fiesta-airuno
+Nome: Villa Fiesta
+Comune / Provincia: Airuno
+Indirizzo: Via Piave, 43/4, 23848 Oggiono LC
+Coordinate: Lat 45.792828, Lng 9.36346
+Website: http://www.villafiesta.it/
+Email: 

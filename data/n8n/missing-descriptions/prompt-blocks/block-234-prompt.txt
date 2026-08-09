@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+8156. Villa Monaco
+ID: 2ee4985c-a25a-4cfd-b384-226b5bf54942
+Slug: villa-monaco-bellante
+Nome: Villa Monaco
+Comune / Provincia: Bellante
+Indirizzo: Via S. Pertini, 34, 64023 Mosciano Sant'Angelo TE
+Coordinate: Lat 42.756334, Lng 13.888189
+Website: https://villamonaco.it/
+Email: 
+
+8157. Villa Natura affittacamere & glampingdome
+ID: 434d19ff-0ba2-4545-bb55-b3d2a866b07a
+Slug: villa-natura-affittacamere-glampingdome-bellante
+Nome: Villa Natura affittacamere & glampingdome
+Comune / Provincia: Bellante
+Indirizzo: via G. Falcone, 5, 64013 Corropoli TE
+Coordinate: Lat 42.814332, Lng 13.837317
+Website: http://www.villanaturaglampingdome.it/
+Email: 
+
+8158. Albergo La Conchiglia
+ID: 9d0c2d6a-a49a-4267-8875-1e267ed5e26a
+Slug: albergo-la-conchiglia-bellaria-igea-marina
+Nome: Albergo La Conchiglia
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Dalmazia, 12, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.150398, Lng 12.462523
+Website: http://www.laconchigliahotel.it/
+Email: 
+
+8159. B&B Hotel Villa Nora
+ID: d90687e3-752d-473e-b73a-0a2757c77084
+Slug: b-b-hotel-villa-nora-bellaria-igea-marina
+Nome: B&B Hotel Villa Nora
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Italia, 25, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.157927, Lng 12.454377
+Website: https://villanora.it/
+Email: 
+
+8160. Hotel Bellaria
+ID: bfcb7423-c62c-46e2-93f9-ba51f02435b7
+Slug: hotel-bellaria-bellaria-igea-marina
+Nome: Hotel Bellaria
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Gradisca, 12, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.157428, Lng 12.455778
+Website: http://www.hotelbellariamare.it/
+Email: 
+
+8161. Hotel Capanni
+ID: c183b1f5-d4ad-4cd2-93f0-90e88e560a1f
+Slug: hotel-capanni-bellaria-igea-marina
+Nome: Hotel Capanni
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Italia, 20, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.157629, Lng 12.455278
+Website: http://www.hotelcapanni.com/
+Email: 
+
+8162. Hotel Gardenia Igea Marina
+ID: d7e55674-e663-42ad-ad24-cadf999e6b74
+Slug: hotel-gardenia-igea-marina-bellaria-igea-marina
+Nome: Hotel Gardenia Igea Marina
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Alfonso Pinzon, 128, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.137912, Lng 12.478711
+Website: https://www.hotelgardeniaigeamarina.it/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+8163. Hotel Gradara
+ID: 73099096-8c99-4d00-88b8-d3cbbcf76cf8
+Slug: hotel-gradara-bellaria-igea-marina
+Nome: Hotel Gradara
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Italia, 31, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.157891, Lng 12.455072
+Website: http://www.hotelgradara.com/
+Email: 
+
+8164. Hotel Grado
+ID: 55382d9f-7ff2-4b4b-86f5-30b4b41fb65d
+Slug: hotel-grado-bellaria-igea-marina
+Nome: Hotel Grado
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Quinto Pittore, 30, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.139897, Lng 12.471975
+Website: http://www.hotelgrado.it/
+Email: 
+
+8165. Hotel Italia
+ID: d8d408fd-515d-4cfa-8571-1e48a3f7641f
+Slug: hotel-italia-bellaria-igea-marina
+Nome: Hotel Italia
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Alfonso Pinzon, 214, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.132886, Lng 12.483865
+Website: http://www.h-italia.com/
+Email: 
+
+8166. Hotel Mexico
+ID: 9e07903d-c45f-4409-8cf4-727a5259d82c
+Slug: hotel-mexico-bellaria-igea-marina
+Nome: Hotel Mexico
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via dei Pioppi, 15, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.15837, Lng 12.454329
+Website: https://www.hotelmexico.net/?utm_source=google&utm_medium=organic&utm_campaign=googlemybusiness
+Email: 
+
+8167. Hotel Milano Resort
+ID: e71f7a05-52e3-42d7-bcaa-f0fd892e9649
+Slug: hotel-milano-resort-bellaria-igea-marina
+Nome: Hotel Milano Resort
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Lungomare Cristoforo Colombo, 40, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.147443, Lng 12.46676
+Website: https://www.milanoresort.it/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+8168. Hotel Miranda
+ID: ed99fd4c-57d4-4e7f-9903-edadcbb91e96
+Slug: hotel-miranda-bellaria-igea-marina
+Nome: Hotel Miranda
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Italia, 23, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.157657, Lng 12.454525
+Website: http://www.albergomiranda.com/
+Email: 
+
+8169. Hotel Nettuno Igea Marina
+ID: 607d5a30-73e3-427f-b1a1-a7f72be75cde
+Slug: hotel-nettuno-igea-marina-bellaria-igea-marina
+Nome: Hotel Nettuno Igea Marina
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Quinto Ennio, 2, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.13324, Lng 12.483182
+Website: https://www.hotelnettunoigea.it/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+8170. Hotel Ornella Bellaria Igea Marina.
+ID: 84c0e688-acba-4757-be4b-d175d4c0de66
+Slug: hotel-ornella-bellaria-igea-marina-bellaria-igea-marina
+Nome: Hotel Ornella Bellaria Igea Marina.
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Tito Maccio Plauto, 23, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.138889, Lng 12.475278
+Website: https://hotel-ornella.com/
+Email: 
+
+8171. Hotel San Salvador Bellaria Igea Marina
+ID: 5bb2e289-c4b4-43ef-bbc9-026cc4514858
+Slug: hotel-san-salvador-bellaria-igea-marina-bellaria-igea-marina
+Nome: Hotel San Salvador Bellaria Igea Marina
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via G. Lucilio, 8, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.132218, Lng 12.482974
+Website: https://www.hotelsansalvador.com/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+8172. Hotel Savini
+ID: 3a00ea3f-64d2-466c-b323-0d7871706336
+Slug: hotel-savini-bellaria-igea-marina
+Nome: Hotel Savini
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Alfonso Pinzon, 80, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.14034, Lng 12.476272
+Website: https://www.hotelsavini.it/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+8173. Hotel Sorriso
+ID: b4453dd1-acff-40b2-80b0-222e100c60a4
+Slug: hotel-sorriso-bellaria-igea-marina
+Nome: Hotel Sorriso
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Ala, 5, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.152531, Lng 12.46002
+Website: http://www.hotel-sorriso.eu/
+Email: 
+
+8174. Hotel Teti | Igea Marina - Bellaria
+ID: c5fb2d38-b3fe-4704-b056-a0625c905bb9
+Slug: hotel-teti-igea-marina-bellaria-bellaria-igea-marina
+Nome: Hotel Teti | Igea Marina - Bellaria
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Alfonso Pinzon, 191, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.131812, Lng 12.485465
+Website: http://www.hotelteti.info/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+8175. Hotel Thea
+ID: 602ab58e-9971-4cb7-95f3-38db57542ba7
+Slug: hotel-thea-bellaria-igea-marina
+Nome: Hotel Thea
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Gaio Valerio Catullo, 10, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.133686, Lng 12.48141
+Website: https://www.hotelthea.com/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+8176. Hotel Villa Saba
+ID: 1da07e6b-19ce-4a17-9926-d376fba000ce
+Slug: hotel-villa-saba-bellaria-igea-marina
+Nome: Hotel Villa Saba
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Asiago, 15, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.156738, Lng 12.456222
+Website: https://www.villasaba.it/
+Email: 
+
+8177. Hotel Villa Sole
+ID: 2c288acd-0edb-4637-8da9-5c6a19ccb61b
+Slug: hotel-villa-sole-bellaria-igea-marina
+Nome: Hotel Villa Sole
+Comune / Provincia: Bellaria-Igea Marina
+Indirizzo: Via Plava, 13, 47814 Bellaria-Igea Marina RN
+Coordinate: Lat 44.153515, Lng 12.460013
+Website: https://www.hotelvillasole.com/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+8178. B&B Rainbow Sweet Rooms Valmontone
+ID: 99e6e1fe-2438-49ab-bcdd-fa148cd4a44a
+Slug: b-b-rainbow-sweet-rooms-valmontone-bellegra
+Nome: B&B Rainbow Sweet Rooms Valmontone
+Comune / Provincia: Bellegra
+Indirizzo: Via Molino S. Giovanni, 57, 00038 Valmontone RM
+Coordinate: Lat 41.776914, Lng 12.914845
+Website: https://suristravelexperience.eu/rainbow-sweet-rooms-italy
+Email: 
+
+8179. B&B Stazione Valmontone
+ID: c9bc23c8-6840-4f7e-884b-c2437e7f655a
+Slug: b-b-stazione-valmontone-bellegra
+Nome: B&B Stazione Valmontone
+Comune / Provincia: Bellegra
+Indirizzo: Via Casilina, 421/a, 00038 Valmontone RM
+Coordinate: Lat 41.774536, Lng 12.931985
+Website: http://www.bedstazionevalmontone.it/
+Email: 
+
+8180. Bed and Breakfast VITELLIA
+ID: d6bec336-3ff8-4f56-85f2-ad0846bee57a
+Slug: bed-and-breakfast-vitellia-bellegra
+Nome: Bed and Breakfast VITELLIA
+Comune / Provincia: Bellegra
+Indirizzo: Borgo San Nicola, 44, 00030 Bellegra RM
+Coordinate: Lat 41.885395, Lng 13.02666
+Website: —
+Email: 
+
+8181. Hotel Belvedere
+ID: 6e91d5a7-2ff5-476d-8298-e18d7b3bfed5
+Slug: hotel-belvedere-bellegra
+Nome: Hotel Belvedere
+Comune / Provincia: Bellegra
+Indirizzo: Via Maremmana km2.200, 00030 Roma RM
+Coordinate: Lat 41.819801, Lng 12.772031
+Website: https://hotel-belvedere.vederelitalia.top/
+Email: 
+
+8182. La Fonte
+ID: b44f2a3f-ecd4-4026-8ba3-f2cdf5c18a52
+Slug: la-fonte-bellegra
+Nome: La Fonte
+Comune / Provincia: Bellegra
+Indirizzo: Piazza Giulio Venzi, 6/3, 00033 Cave RM
+Coordinate: Lat 41.821697, Lng 12.928766
+Website: http://hotellafonte.net/
+Email: 
+
+8183. Le Rocce Degli Equi
+ID: 618a1aa5-62c1-41bc-9042-3c9e11095b60
+Slug: le-rocce-degli-equi-bellegra
+Nome: Le Rocce Degli Equi
+Comune / Provincia: Bellegra
+Indirizzo: Viale Ungheria, 6, 00030 Bellegra RM
+Coordinate: Lat 41.882934, Lng 13.028291
+Website: https://timothyrecommends.com/leroccedegliequi-italy
+Email: 
+
+8184. Le Stanze dei Doria
+ID: 932bfb98-ca63-4680-92eb-46c19c7a891a
+Slug: le-stanze-dei-doria-bellegra
+Nome: Le Stanze dei Doria
+Comune / Provincia: Bellegra
+Indirizzo: Via Molino S. Giovanni, 69/primo e secondo piano, 00038 Valmontone RM
+Coordinate: Lat 41.777209, Lng 12.915733
+Website: https://www.lestanzedeidoria.it/
+Email: 
+
+8185. Palestrina-Valmontone B&B
+ID: e0cf4408-cd19-4d26-93e6-41207dd4a724
+Slug: palestrina-valmontone-b-b-bellegra
+Nome: Palestrina-Valmontone B&B
+Comune / Provincia: Bellegra
+Indirizzo: Via Prenestina Nuova, 57, 00036 Palestrina RM
+Coordinate: Lat 41.83307, Lng 12.885783
+Website: https://palestrina-valmontone-bb.italiabella.top/
+Email: 
+
+8186. Agriturismo Lou Saret
+ID: 8ebd7a8e-9b82-43b9-a56f-6cbcf39240ff
+Slug: agriturismo-lou-saret-bellino
+Nome: Agriturismo Lou Saret
+Comune / Provincia: Bellino
+Indirizzo: Borgata Chiazale, 27, 12020 Chiazale CN
+Coordinate: Lat 44.57748, Lng 6.999072
+Website: http://www.agriturismolousaret.it/
+Email: 
+
+8187. B&B La Guiette
+ID: b4ee67e6-2b24-46b2-8a5d-461e4adff43e
+Slug: b-b-la-guiette-bellino
+Nome: B&B La Guiette
+Comune / Provincia: Bellino
+Indirizzo: 12020 Puy CN
+Coordinate: Lat 44.590246, Lng 7.058507
+Website: http://www.laguiette.it/
+Email: 
+
+8188. Hotel Chalet Seggiovia
+ID: 7e04f0da-3a5c-4695-9dd8-53420500fc2a
+Slug: hotel-chalet-seggiovia-bellino
+Nome: Hotel Chalet Seggiovia
+Comune / Provincia: Bellino
+Indirizzo: Frazione Maddalena, 70, 12020 Pontechianale CN
+Coordinate: Lat 44.623314, Lng 7.029091
+Website: http://www.chaletseggiovia.com/
+Email: 
+
+8189. Il Mulino Delle Fucine' Di Giordanino Katia
+ID: 6936d5b1-3ea6-437d-928a-fe4a8786ab88
+Slug: il-mulino-delle-fucine-di-giordanino-katia-bellino
+Nome: Il Mulino Delle Fucine' Di Giordanino Katia
+Comune / Provincia: Bellino
+Indirizzo: Via Bellino, 20, 12020 Casteldelfino CN
+Coordinate: Lat 44.589674, Lng 7.067864
+Website: https://www.ilmulinodellefucine.it/
+Email: 
+
+8190. La Locanda di Elva
+ID: 59465be4-7015-4269-9cc8-bd8ee215de73
+Slug: la-locanda-di-elva-bellino
+Nome: La Locanda di Elva
+Comune / Provincia: Bellino
+Indirizzo: Borgata Serre, Capoluogo, 6, 12020 Elva CN
+Coordinate: Lat 44.539915, Lng 7.089868
+Website: http://www.lalocandadielva.it/
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+3396. Ristorante Hotel La Pineta
+ID: 6b3e0276-6fa7-4563-b073-f04247e6de66
+Slug: ristorante-hotel-la-pineta-anela
+Nome: Ristorante Hotel La Pineta
+Comune / Provincia: Anela
+Indirizzo: Via Belvedere, 1, 07016 Pattada SS
+Coordinate: Lat 40.578984, Lng 9.104637
+Website: https://ristorante-accogliente-de6771.webnode.it/chi-siamo/
+Email: 
+
+3397. S'apposentu 'e Santa Ruche
+ID: bf05b7ea-5f6f-41d0-80d9-df9d48e09383
+Slug: s-apposentu-e-santa-ruche-anela
+Nome: S'apposentu 'e Santa Ruche
+Comune / Provincia: Anela
+Indirizzo: Via Fratelli Cambosu, 18, 08020 Oniferi NU
+Coordinate: Lat 40.272697, Lng 9.171238
+Website: —
+Email: 
+
+3398. Sanctuary Armony
+ID: 10ee68a0-f638-49ea-961a-7f7aada6b9ae
+Slug: sanctuary-armony-anela
+Nome: Sanctuary Armony
+Comune / Provincia: Anela
+Indirizzo: Via Parrocchia, 29, 07011 Bono SS
+Coordinate: Lat 40.41422, Lng 9.026734
+Website: http://sanctuaryarmony.com/
+Email: 
+
+3399. Terme Aurora
+ID: 5fa87914-3f3e-4731-9bb0-cd315e1b998e
+Slug: terme-aurora-anela
+Nome: Terme Aurora
+Comune / Provincia: Anela
+Indirizzo: Località San Saturnino, 07010 Benetutti SS
+Coordinate: Lat 40.425883, Lng 9.123362
+Website: https://www.termeaurora.it/
+Email: 
+
+3400. Albergo Ampola
+ID: 64cc73cb-1dce-484c-8cfb-0684372902f7
+Slug: albergo-ampola-anfo
+Nome: Albergo Ampola
+Comune / Provincia: Anfo
+Indirizzo: Via Str. per Tremalzo, 6, 38067 Tiarno di Sopra TN
+Coordinate: Lat 45.864242, Lng 10.646229
+Website: http://www.locandaampola.it/
+Email: 
+
+3401. Albergo Piccolo Hotel
+ID: 86de13a0-30cb-4ba6-b2d0-474351fe7640
+Slug: albergo-piccolo-hotel-anfo
+Nome: Albergo Piccolo Hotel
+Comune / Provincia: Anfo
+Indirizzo: Via Cerreto, 6, 25072 Bagolino BS
+Coordinate: Lat 45.824201, Lng 10.490767
+Website: https://www.piccolohotelbagolino.it/
+Email: 
+
+3402. Albergo Ristorante Belvedere
+ID: 9be00c62-b126-4531-ae9c-126cb4141fd0
+Slug: albergo-ristorante-belvedere-anfo
+Nome: Albergo Ristorante Belvedere
+Comune / Provincia: Anfo
+Indirizzo: Via Maniva, 75, 25060 Collio BS
+Coordinate: Lat 45.811713, Lng 10.367498
+Website: https://albergobelvederecollio.webnode.it/
+Email: 
+
+3403. B&B Re' Perone
+ID: 4d91df0a-2514-42d4-8cbd-229744179da0
+Slug: b-b-re-perone-anfo
+Nome: B&B Re' Perone
+Comune / Provincia: Anfo
+Indirizzo: Via S. Antonio, 48, 25070 Anfo BS
+Coordinate: Lat 45.792415, Lng 10.500948
+Website: http://www.reperone.com/
+Email: 
+
+3404. Bed & Breakfast Fiore
+ID: 9a379c05-fcac-4138-8ec6-79a95b5a6bc3
+Slug: bed-breakfast-fiore-anfo
+Nome: Bed & Breakfast Fiore
+Comune / Provincia: Anfo
+Indirizzo: Via Castello, 10, 25074 Crone BS
+Coordinate: Lat 45.734687, Lng 10.467019
+Website: http://www.bbfiore-idro.com/
+Email: 
+
+3405. Bed and Breakfast "Porto Vecchio"
+ID: a4c3d684-02dd-4ad4-88b5-08c4c36351c1
+Slug: bed-and-breakfast-porto-vecchio-anfo
+Nome: Bed and Breakfast "Porto Vecchio"
+Comune / Provincia: Anfo
+Indirizzo: Via Lago, 13, 25070 Anfo BS
+Coordinate: Lat 45.768143, Lng 10.495907
+Website: http://www.portovecchioanfo.it/
+Email: 
+
+3406. Ca' del Ri
+ID: 339ef9b0-c75d-4ba5-b32f-a76a3829f297
+Slug: ca-del-ri-anfo
+Nome: Ca' del Ri
+Comune / Provincia: Anfo
+Indirizzo: Via Costa, 97/99, 25084 Gargnano BS
+Coordinate: Lat 45.725603, Lng 10.64705
+Website: http://ca-del-ri.org.es/
+Email: 
+
+3407. Camere Zimmer al lago
+ID: 6d854134-81f2-4b58-a75b-05b06e231975
+Slug: camere-zimmer-al-lago-anfo
+Nome: Camere Zimmer al lago
+Comune / Provincia: Anfo
+Indirizzo: Via Lago, 12, 25070 Anfo BS
+Coordinate: Lat 45.767389, Lng 10.495798
+Website: http://www.mabellini.it/
+Email: 
+
+3408. Hotel Adria Resort
+ID: e2eb8abd-6c4f-43e1-83eb-5964744c6a3f
+Slug: hotel-adria-resort-anfo
+Nome: Hotel Adria Resort
+Comune / Provincia: Anfo
+Indirizzo: Piazza Caduti, 4, 25088 Toscolano Maderno BS
+Coordinate: Lat 45.645035, Lng 10.616283
+Website: http://www.adriaresort.it/
+Email: 
+
+3409. Hotel Bonardi
+ID: 50ec5a38-30a4-4cfb-ba41-6a492d6474c2
+Slug: hotel-bonardi-anfo
+Nome: Hotel Bonardi
+Comune / Provincia: Anfo
+Indirizzo: Via Maniva, 256, 25060 Collio BS
+Coordinate: Lat 45.831218, Lng 10.398781
+Website: https://www.hotelbonardi.it/
+Email: 
+
+3410. Hotel Lido
+ID: fd084496-568d-4145-a244-b53fe2e4fd46
+Slug: hotel-lido-anfo
+Nome: Hotel Lido
+Comune / Provincia: Anfo
+Indirizzo: Via Colletta, 64, 25084 Gargnano BS
+Coordinate: Lat 45.68046, Lng 10.654407
+Website: http://www.hotellidogargnano.com/
+Email: 
+
+3411. Hotel Mariano
+ID: 88ae52b2-20d9-4328-bd20-b241c333603a
+Slug: hotel-mariano-anfo
+Nome: Hotel Mariano
+Comune / Provincia: Anfo
+Indirizzo: Via Sasso, 8, 25084 Gargnano BS
+Coordinate: Lat 45.687006, Lng 10.643219
+Website: http://www.hotelmariano.it/
+Email: 
+
+3412. Hotel Ristorante da Rita
+ID: a03ddb8e-68fc-45da-90a4-4e17a6928fbf
+Slug: hotel-ristorante-da-rita-anfo
+Nome: Hotel Ristorante da Rita
+Comune / Provincia: Anfo
+Indirizzo: Via Roma, 140, 38083 Borgo Chiese TN
+Coordinate: Lat 45.8793, Lng 10.591496
+Website: http://www.hoteldarita.it/
+Email: 
+
+3413. Hotel Sorriso
+ID: 013dac90-1018-422a-b8f8-48646062a662
+Slug: hotel-sorriso-anfo
+Nome: Hotel Sorriso
+Comune / Provincia: Anfo
+Indirizzo: Via Religione, 5, 25088 Toscolano Maderno BS
+Coordinate: Lat 45.640635, Lng 10.61119
+Website: http://www.hotelsorriso.de/?utm_source=googlemybusiness&utm_medium=mybusiness
+Email: 
+
+3414. Il Giardino degli Elfi
+ID: ab1963bb-0b3f-4b2e-9509-03c225bdeb92
+Slug: il-giardino-degli-elfi-anfo
+Nome: Il Giardino degli Elfi
+Comune / Provincia: Anfo
+Indirizzo: Via Roma, 100, 25078 Pertica Bassa BS
+Coordinate: Lat 45.75336, Lng 10.371501
+Website: https://www.giardinoelfi.com/
+Email: 
+
+3415. Lago Idro Glamping Boutique by Vacanze col cuore
+ID: cb52dec5-f03a-4a81-ab3f-784d981c2f2a
+Slug: lago-idro-glamping-boutique-by-vacanze-col-cuore-anfo
+Nome: Lago Idro Glamping Boutique by Vacanze col cuore
+Comune / Provincia: Anfo
+Indirizzo: Via Carlo Alberto dalla Chiesa, 7, 25070 Anfo BS
+Coordinate: Lat 45.763752, Lng 10.49462
+Website: https://www.vacanzecolcuore.com/it/resort/lago-idro-glamping-boutique
+Email: 
+
+3416. Locanda Genzianella
+ID: dcf9e8b2-e426-49b1-8d01-dc3bcd58eaf2
+Slug: locanda-genzianella-anfo
+Nome: Locanda Genzianella
+Comune / Provincia: Anfo
+Indirizzo: Via dei Patrioti, 40, 25084 Costa BS
+Coordinate: Lat 45.733374, Lng 10.640013
+Website: https://www.locandagenzianella.it/
+Email: 
+
+3417. Villa delle Palme
+ID: c997c08d-390a-45f2-8339-1fca87a0c4e7
+Slug: villa-delle-palme-anfo
+Nome: Villa delle Palme
+Comune / Provincia: Anfo
+Indirizzo: Via Ponte, 3, 25084 Gargnano BS
+Coordinate: Lat 45.683688, Lng 10.658852
+Website: https://www.villapalme.it/it/villa-delle-palme-gargnano/
+Email: 
+
+3418. Agriturismo La Camelia
+ID: fb677d20-ac19-4694-8b78-1b38a6880eeb
+Slug: agriturismo-la-camelia-angera
+Nome: Agriturismo La Camelia
+Comune / Provincia: Angera
+Indirizzo: Via Prati Bassi, 62, 21020 Taino VA
+Coordinate: Lat 45.764683, Lng 8.606441
+Website: https://www.lacamelialagomaggiore.com/
+Email: 
+
+3419. Arona Palace
+ID: 5092b58e-7281-442f-a202-f88dff052a5d
+Slug: arona-palace-angera
+Nome: Arona Palace
+Comune / Provincia: Angera
+Indirizzo: Piazza S. Graziano, 31, 28041 Arona NO
+Coordinate: Lat 45.760409, Lng 8.560831
+Website: https://www.aronapalace.com/
+Email: 
+
+3420. Cascina Armonia
+ID: 12b5f3aa-34f7-4550-aad8-7cdc47b91143
+Slug: cascina-armonia-angera
+Nome: Cascina Armonia
+Comune / Provincia: Angera
+Indirizzo: Via Milano, 84, 21021 Angera VA
+Coordinate: Lat 45.765382, Lng 8.595695
+Website: —
+Email: 
+
+3421. Cascina Canée
+ID: 3b42da1c-1e8b-41ba-be43-afcfad853f97
+Slug: cascina-canee-angera
+Nome: Cascina Canée
+Comune / Provincia: Angera
+Indirizzo: Via Prato Chiuso, 36, 21021 Angera VA
+Coordinate: Lat 45.780608, Lng 8.579058
+Website: http://www.cascinacanee.com/
+Email: 
+
+3422. Hotel Aries
+ID: e1b722ee-aa36-4bd0-8fbf-0f4e3fffddd2
+Slug: hotel-aries-angera
+Nome: Hotel Aries
+Comune / Provincia: Angera
+Indirizzo: Via Sempione, 37, 28040 Lesa NO
+Coordinate: Lat 45.824227, Lng 8.560558
+Website: https://www.arieshotel.net/
+Email: 
+
+3423. Hotel Capri
+ID: b7f82cdc-6d27-4a25-9153-0bd31229aca3
+Slug: hotel-capri-angera
+Nome: Hotel Capri
+Comune / Provincia: Angera
+Indirizzo: Via Sempione, 131, 28040 Lesa NO
+Coordinate: Lat 45.816231, Lng 8.547963
+Website: http://www.hotelcaprisolcio.com/
+Email: 
+
+3424. Hotel Concorde
+ID: 3e3d0d41-b38b-4b46-bb62-3fa221fc3074
+Slug: hotel-concorde-angera
+Nome: Hotel Concorde
+Comune / Provincia: Angera
+Indirizzo: Via Verbano, 1, 28041 Arona NO
+Coordinate: Lat 45.765572, Lng 8.554101
+Website: http://www.concordearona.com/
+Email: 
+
+3425. Hotel dei Tigli - Angera
+ID: 9b8f0446-2b74-451a-8172-11d0458321b5
+Slug: hotel-dei-tigli-angera-angera
+Nome: Hotel dei Tigli - Angera
+Comune / Provincia: Angera
+Indirizzo: Via Paletta, 20, 21021 Angera VA
+Coordinate: Lat 45.771937, Lng 8.573623
+Website: https://www.hoteldeitigli.com/
+Email: 
+
+3426. Hotel Florida
+ID: 0c90e7db-0d95-450c-a846-57e71b7d5243
+Slug: hotel-florida-angera
+Nome: Hotel Florida
+Comune / Provincia: Angera
+Indirizzo: Piazza del Popolo, 32, 28041 Arona NO
+Coordinate: Lat 45.763619, Lng 8.558415
+Website: https://hotel-florida.hotelperiviaggi.top/
+Email: 
+
+3427. Hotel Giardino
+ID: 7fcb43e7-ef6e-472f-9930-6ab78ac17caf
+Slug: hotel-giardino-angera
+Nome: Hotel Giardino
+Comune / Provincia: Angera
+Indirizzo: Corso Repubblica, 1, 28041 Arona NO
+Coordinate: Lat 45.760041, Lng 8.561779
+Website: https://www.giardinoarona.com/
+Email: 
+
+3428. Hotel Pavone
+ID: 00229aef-5ef4-4685-9674-4458fcee2386
+Slug: hotel-pavone-angera
+Nome: Hotel Pavone
+Comune / Provincia: Angera
+Indirizzo: Via Borromeo Federico, 10, 21021 Angera VA
+Coordinate: Lat 45.771984, Lng 8.574994
+Website: http://www.hotelpavone.it/
+Email: 
+
+3429. Hotel Ponti Angera
+ID: 682ac2ba-326a-4b3f-8321-bf946b4ed6f1
+Slug: hotel-ponti-angera-angera
+Nome: Hotel Ponti Angera
+Comune / Provincia: Angera
+Indirizzo: Piazza Garibaldi, 21, 21021 Angera VA
+Coordinate: Lat 45.772068, Lng 8.575359
+Website: https://www.hotelponti.it/
+Email: 
+
+3430. Il Sole di Ranco
+ID: 099a4b90-573a-462b-8d57-50885e9711e9
+Slug: il-sole-di-ranco-angera
+Nome: Il Sole di Ranco
+Comune / Provincia: Angera
+Indirizzo: Indirizzo Commerciale:, Piazza Venezia, 5, 21020 Ranco VA
+Coordinate: Lat 45.798201, Lng 8.569682
+Website: http://www.ilsolediranco.it/
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+3886. La Tavola Marche
+ID: fc4d3485-84ef-412e-8595-99381fe36437
+Slug: la-tavola-marche-apecchio
+Nome: La Tavola Marche
+Comune / Provincia: Apecchio
+Indirizzo: Via Candigliano, Localita Ca'Camone, 61048 Sant'Angelo in Vado PU
+Coordinate: Lat 43.606052, Lng 12.412819
+Website: http://www.latavolamarche.com/
+Email: 
+
+3887. Monte Paradiso Agriturismo
+ID: 02cf927f-c311-423f-ab70-beb5195291e9
+Slug: monte-paradiso-agriturismo-apecchio
+Nome: Monte Paradiso Agriturismo
+Comune / Provincia: Apecchio
+Indirizzo: vocal. Gorghe, 21, 06026 Perugia PG
+Coordinate: Lat 43.490832, Lng 12.427449
+Website: http://monteparadiso.net/
+Email: 
+
+3888. Palazzo Donati
+ID: c3af687f-a3cd-469b-b1b1-b27dfaca0e01
+Slug: palazzo-donati-apecchio
+Nome: Palazzo Donati
+Comune / Provincia: Apecchio
+Indirizzo: Corso Bencivenni, 29, 61040 Mercatello sul Metauro PU
+Coordinate: Lat 43.646889, Lng 12.337014
+Website: http://www.palazzodonati.it/
+Email: 
+
+3889. Relais Valguerriera
+ID: fe80c7cb-9566-4964-8eb0-d8ad65bf932e
+Slug: relais-valguerriera-apecchio
+Nome: Relais Valguerriera
+Comune / Provincia: Apecchio
+Indirizzo: Località Valguerriera, 61042 Apecchio PU
+Coordinate: Lat 43.607831, Lng 12.434157
+Website: http://www.valguerriera.it/
+Email: 
+
+3890. AFFITTACAMERE L'ANGELICA
+ID: 925c5a6a-fb11-4150-b012-f9dbf7b4aa72
+Slug: affittacamere-l-angelica-apice
+Nome: AFFITTACAMERE L'ANGELICA
+Comune / Provincia: Apice
+Indirizzo: Contrada Schivito, 68, 83035 Grottaminarda AV
+Coordinate: Lat 41.039961, Lng 15.046585
+Website: https://www.booking.com/hotel/it/l-39-angelica-affittacamere.it.html?label=gen173nr-1DCAEoggI46AdIM1gEaHGIAQGYARS4ARjIAQzYAQPoAQGIAgGoAgS4AvHJzPcFwAIB0gIkYzE2ZDg5YWYtYmY0MS00MmRiLTkxNjQtMWU2ZjljNTk0ZjAz2AIE4AIB;sid=be7dbf68b3916a3883aa4fcbe53e04f4;dest_id=-118948;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=2;hpos=2;no_rooms=1;room1=A,A;sb_price_type=total;sr_order=popularity;srepoch=1592993014;srpvid=ce5846ba759c01cc;type=total;ucfs=1&#hotelTmpl
+Email: 
+
+3891. Agriturismo "Al Castello del Principe"
+ID: 9ef796bf-57f1-4ca5-a25f-2068de766a5f
+Slug: agriturismo-al-castello-del-principe-apice
+Nome: Agriturismo "Al Castello del Principe"
+Comune / Provincia: Apice
+Indirizzo: Via Federico II, 82018 Località Cubante BN
+Coordinate: Lat 41.099038, Lng 14.929202
+Website: http://alcastello.wixsite.com/sito
+Email: 
+
+3892. Agriturismo Tenuta della Madama
+ID: b6b3110f-8954-4153-8777-e6cd153ae2c2
+Slug: agriturismo-tenuta-della-madama-apice
+Nome: Agriturismo Tenuta della Madama
+Comune / Provincia: Apice
+Indirizzo: Contrada Festola, 83030 Venticano AV
+Coordinate: Lat 41.056245, Lng 14.921322
+Website: —
+Email: 
+
+3893. Agriturismo Villa Luisa
+ID: 8b134f35-8d80-464f-9b71-d3fd01c59e52
+Slug: agriturismo-villa-luisa-apice
+Nome: Agriturismo Villa Luisa
+Comune / Provincia: Apice
+Indirizzo: Via Federico II, 28, 82018 Calvi BN
+Coordinate: Lat 41.100429, Lng 14.93508
+Website: http://www.agriturismovillaluisa.com/
+Email: 
+
+3894. B&B Artistico Relax
+ID: d7835e6a-79be-4fde-814f-1a52c803bfab
+Slug: b-b-artistico-relax-apice
+Nome: B&B Artistico Relax
+Comune / Provincia: Apice
+Indirizzo: Via Appia, 130, 83030 Castello del Lago AV
+Coordinate: Lat 41.076566, Lng 14.925357
+Website: https://artisticorelax.com/
+Email: 
+
+3895. B&B Domus D'Italia
+ID: ff265c28-d811-44ba-83b6-6bfecbc0d3f2
+Slug: b-b-domus-d-italia-apice
+Nome: B&B Domus D'Italia
+Comune / Provincia: Apice
+Indirizzo: Contrada Pozzillo, 16, 83036 Mirabella Eclano AV
+Coordinate: Lat 41.048253, Lng 15.028664
+Website: http://b-b-domus-d-italia.org.es/
+Email: 
+
+3896. B&B Domus Tua
+ID: 4f1b7e9a-4d8d-409d-9346-4db4a3b83d50
+Slug: b-b-domus-tua-apice
+Nome: B&B Domus Tua
+Comune / Provincia: Apice
+Indirizzo: Via S. Giuseppe, 82020 Pietrelcina BN
+Coordinate: Lat 41.199284, Lng 14.847969
+Website: https://bb-domus-tua.comeviaggiare.top/
+Email: 
+
+3897. B&B Genti Delle Alture
+ID: 0b1f61b2-9f64-4077-95b3-7a40dc9a404a
+Slug: b-b-genti-delle-alture-apice
+Nome: B&B Genti Delle Alture
+Comune / Provincia: Apice
+Indirizzo: Piazza Carbonari, snc, 82021 Apice Vecchio BN
+Coordinate: Lat 41.120137, Lng 14.93138
+Website: https://gentidellealture.com/
+Email: 
+
+3898. B&B Relais Aeclanum
+ID: e13aa927-60c4-4c20-a9fa-ffeb11be3f9b
+Slug: b-b-relais-aeclanum-apice
+Nome: B&B Relais Aeclanum
+Comune / Provincia: Apice
+Indirizzo: Via Bosco, 53, 83036 Mirabella Eclano AV
+Coordinate: Lat 41.059271, Lng 15.021264
+Website: https://relaisaeclanum.it/
+Email: 
+
+3899. Bombrelais
+ID: 91442798-875d-4088-9a63-79baae412031
+Slug: bombrelais-apice
+Nome: Bombrelais
+Comune / Provincia: Apice
+Indirizzo: Via Federico II, 82021 Apice BN
+Coordinate: Lat 41.104457, Lng 14.929094
+Website: https://sites.google.com/view/bombrelais/home?fbclid=PAZXh0bgNhZW0CMTEAAab2UKsbqVZsSyaYf2y0pgynuIR8z_pWdrLRxTbu0gqBA8divUJIgHGXG5c_aem_UHgbos9U7aveZY9H8Ve1gw
+Email: 
+
+3900. Country Relais La Torretta Baronale
+ID: 65380a26-6929-4858-aaba-6e702c1dc5a8
+Slug: country-relais-la-torretta-baronale-apice
+Nome: Country Relais La Torretta Baronale
+Comune / Provincia: Apice
+Indirizzo: a Morcopio, Via San Vito, 37, 82018 San Giovanni BN
+Coordinate: Lat 41.12097, Lng 14.885258
+Website: https://www.residenzeboscolucarelli.it/torretta-baronale/
+Email: 
+
+3901. Giardini Hurz®
+ID: 14982e10-56bc-4576-8052-250169347825
+Slug: giardini-hurz-apice
+Nome: Giardini Hurz®
+Comune / Provincia: Apice
+Indirizzo: Via Piana Romana, 46, 82020 Pietrelcina BN
+Coordinate: Lat 41.20536, Lng 14.870067
+Website: https://www.hurz.it/
+Email: 
+
+3902. Hotel Incontro
+ID: 2c2dfc82-c1f9-4d60-8890-37650087eebb
+Slug: hotel-incontro-apice
+Nome: Hotel Incontro
+Comune / Provincia: Apice
+Indirizzo: Via Nazionale Manna, 83031 Ariano Irpino AV
+Coordinate: Lat 41.117185, Lng 15.081729
+Website: http://www.hotelincontro.it/
+Email: 
+
+3903. Hotel l'Ulivo
+ID: 09ab236f-c013-4784-b012-40af8c5edcc3
+Slug: hotel-l-ulivo-apice
+Nome: Hotel l'Ulivo
+Comune / Provincia: Apice
+Indirizzo: Via Santa Caterina, 85, 83036 Mirabella Eclano AV
+Coordinate: Lat 41.038302, Lng 15.015948
+Website: http://www.hotellulivo.it/
+Email: 
+
+3904. Hotel Lemi
+ID: 7b3d7122-1627-4dfa-9b09-c7de417b4806
+Slug: hotel-lemi-apice
+Nome: Hotel Lemi
+Comune / Provincia: Apice
+Indirizzo: Contrada Collepiano, 82030 Benevento BN
+Coordinate: Lat 41.205847, Lng 14.697306
+Website: http://www.hotellemi.com/
+Email: 
+
+3905. Hotel Ristorante Aeclanum
+ID: bb37b681-8d2a-4a28-82ea-17b8d7053336
+Slug: hotel-ristorante-aeclanum-apice
+Nome: Hotel Ristorante Aeclanum
+Comune / Provincia: Apice
+Indirizzo: Via Nazionale, 32, 83036 Mirabella Eclano AV
+Coordinate: Lat 41.054708, Lng 15.016668
+Website: https://www.hotelristoranteaeclanum.it/
+Email: 
+
+3906. Hotel Ristorante Europa
+ID: e8458c92-8b2d-441a-8852-920a84aa6524
+Slug: hotel-ristorante-europa-apice
+Nome: Hotel Ristorante Europa
+Comune / Provincia: Apice
+Indirizzo: Via Campoceraso, 83030 Venticano AV
+Coordinate: Lat 41.046494, Lng 14.928406
+Website: http://www.hotelristoranteeuropa.com/
+Email: 
+
+3907. Il Fortilizio Di Padre Pio S.A.S. Di Mazza I. & C.
+ID: 35ae9fd2-6935-464a-912d-c9788adfd8ba
+Slug: il-fortilizio-di-padre-pio-s-a-s-di-mazza-i-c-apice
+Nome: Il Fortilizio Di Padre Pio S.A.S. Di Mazza I. & C.
+Comune / Provincia: Apice
+Indirizzo: Via Fontana dei Fieri, 113, 82020 Pietrelcina BN
+Coordinate: Lat 41.191343, Lng 14.83698
+Website: https://il-fortilizio-di-padre-pio-sas-di-mazza.italiabella.top/
+Email: 
+
+3908. Soggiorno - Il Sentiero degli Ulivi
+ID: 2a6e1519-ee0d-4eec-8421-fbf5f560917e
+Slug: soggiorno-il-sentiero-degli-ulivi-apice
+Nome: Soggiorno - Il Sentiero degli Ulivi
+Comune / Provincia: Apice
+Indirizzo: Via Campoceraso, 44, 83030 Venticano AV
+Coordinate: Lat 41.045346, Lng 14.937346
+Website: —
+Email: 
+
+3909. Agriturismo L'Orizzonte
+ID: 5b25b540-f49b-4ca1-82a6-00e4838324af
+Slug: agriturismo-l-orizzonte-apiro
+Nome: Agriturismo L'Orizzonte
+Comune / Provincia: Apiro
+Indirizzo: Contrada Montalvello, 38, 62021 Apiro MC
+Coordinate: Lat 43.404899, Lng 13.140416
+Website: —
+Email: 
+
+3910. Agriturismo La Casa del Sole
+ID: ec660df9-0146-417b-969e-87b298acc609
+Slug: agriturismo-la-casa-del-sole-apiro
+Nome: Agriturismo La Casa del Sole
+Comune / Provincia: Apiro
+Indirizzo: Via S. Salvatore, 22, 62021 Apiro MC
+Coordinate: Lat 43.388011, Lng 13.133741
+Website: http://www.casadelsolepineta.it/
+Email: 
+
+3911. Agriturismo Ristorante Colleverde
+ID: 0d4c2b8c-38b7-404c-b5eb-2debe23dd1ee
+Slug: agriturismo-ristorante-colleverde-apiro
+Nome: Agriturismo Ristorante Colleverde
+Comune / Provincia: Apiro
+Indirizzo: Contrada Cozzi, 1, 62021 Apiro MC
+Coordinate: Lat 43.37955, Lng 13.13653
+Website: https://www.agriturismocolleverde.eu/
+Email: 
+
+3912. Agriturismo Santa Maria del Gallo
+ID: c4e59083-408f-44cc-b691-b7dfbef2d7b3
+Slug: agriturismo-santa-maria-del-gallo-apiro
+Nome: Agriturismo Santa Maria del Gallo
+Comune / Provincia: Apiro
+Indirizzo: Contrada Santa Maria, 7, 62021 Apiro MC
+Coordinate: Lat 43.353431, Lng 13.118196
+Website: http://www.santamariadelgallo.com/
+Email: 
+
+3913. Horti del Baio
+ID: cc7b7c47-9f2f-4167-8f0f-b895944f06ab
+Slug: horti-del-baio-apiro
+Nome: Horti del Baio
+Comune / Provincia: Apiro
+Indirizzo: Castreccioni 13/a a 2 km dal chiosco Da Rosanna e li Monelli, 62011 Cingoli MC
+Coordinate: Lat 43.364123, Lng 13.138662
+Website: —
+Email: 
+
+3914. Hotel Eldorado
+ID: e11adf27-e2eb-4bfa-9e2a-26bfa97b42b4
+Slug: hotel-eldorado-apiro
+Nome: Hotel Eldorado
+Comune / Provincia: Apiro
+Indirizzo: Piazza Cesare Battisti, 12, 62021 Apiro MC
+Coordinate: Lat 43.391364, Lng 13.132487
+Website: https://www.eldoradohotel.it/
+Email: 
+
+3915. Juliette Rooms Jesi affittacamere
+ID: 890e608a-838e-457c-b444-33b359ba99df
+Slug: juliette-rooms-jesi-affittacamere-apiro
+Nome: Juliette Rooms Jesi affittacamere
+Comune / Provincia: Apiro
+Indirizzo: Mura Occidentali, 10 bis, 60035 Jesi AN
+Coordinate: Lat 43.521296, Lng 13.240609
+Website: https://www.juliettejesi.com/
+Email: 
+
+3916. B&B Benevento
+ID: 94c4d5a6-7c1d-4c43-9781-10c363969991
+Slug: b-b-benevento-apollosa
+Nome: B&B Benevento
+Comune / Provincia: Apollosa
+Indirizzo: Via Ferdinando Bozza, 22, 82100 Benevento BN
+Coordinate: Lat 41.115864, Lng 14.795533
+Website: https://www.allogi-campania.it/bb-benevento/
+Email: 
+
+3917. B&B La Ferrovia
+ID: 99149d8e-7ef7-4ff2-8a87-c74a18d3e7ba
+Slug: b-b-la-ferrovia-apollosa
+Nome: B&B La Ferrovia
+Comune / Provincia: Apollosa
+Indirizzo: Viale Principe di Napoli, 179, 82100 Benevento BN
+Coordinate: Lat 41.140615, Lng 14.770542
+Website: —
+Email: 
+
+3918. B&B Le Vecchie Cantine
+ID: 86e209d4-beaa-424d-8f8c-adef6ff25986
+Slug: b-b-le-vecchie-cantine-apollosa
+Nome: B&B Le Vecchie Cantine
+Comune / Provincia: Apollosa
+Indirizzo: Via Aurilli, 82030 Campoli del Monte Taburno BN
+Coordinate: Lat 41.132251, Lng 14.649106
+Website: —
+Email: 
+
+3919. B&B SMERALDO
+ID: 650f1047-dd85-4387-9790-dfc4942e608e
+Slug: b-b-smeraldo-apollosa
+Nome: B&B SMERALDO
+Comune / Provincia: Apollosa
+Indirizzo: Contrada Montecalvo, 82100 Benevento BN
+Coordinate: Lat 41.107654, Lng 14.772824
+Website: https://www.facebook.com/SmeraldoBedAndBreakfast/?ref=br_rs
+Email: 
+
+3920. B&B Tre Passi dalla Torre
+ID: 3cbdf980-1eeb-4d9b-85bb-ee78398c7fee
+Slug: b-b-tre-passi-dalla-torre-apollosa
+Nome: B&B Tre Passi dalla Torre
+Comune / Provincia: Apollosa
+Indirizzo: SS7, 60, 82016 Montesarchio BN
+Coordinate: Lat 41.054693, Lng 14.686505
+Website: https://trepassidallatorre.it/
+Email: 

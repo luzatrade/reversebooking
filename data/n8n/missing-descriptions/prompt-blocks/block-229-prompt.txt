@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+7981. Boston Art Hotel Torino
+ID: daeb18eb-ea2a-447c-aab9-07aea521089a
+Slug: boston-art-hotel-torino-beinasco
+Nome: Boston Art Hotel Torino
+Comune / Provincia: Beinasco
+Indirizzo: Via Massena, 70, 10128 Torino TO
+Coordinate: Lat 45.056299, Lng 7.669321
+Website: https://hotelbostontorino.it/
+Email: 
+
+7982. Casa Stefania
+ID: 48b529b5-b82b-4b69-80f1-a22ecce065aa
+Slug: casa-stefania-beinasco
+Nome: Casa Stefania
+Comune / Provincia: Beinasco
+Indirizzo: Via Bernardino Drovetti, 6, 10138 Torino TO
+Coordinate: Lat 45.075588, Lng 7.666464
+Website: https://www.booking.com/hotel/it/casa-stefania-torino.it.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaHGIAQKYARS4AQfIAQ3YAQHoAQH4AQuIAgGoAgO4AoWj4Z0GwAIB0gIkMWQ0MWU0NzQtOWM2OC00OGUzLWJkMGMtYjYzMzlkYWYwOWM22AIG4AIB&sid=1e526565aa93d9e0e5cc73c13d25fddf&all_sr_blocks=945023501_366949347_2_0_0;checkin=2023-01-13;checkout=2023-01-15;dist=0;group_adults=2;group_children=0;hapos=2;highlighted_blocks=945023501_366949347_2_0_0;hpos=2;matching_block_id=945023501_366949347_2_0_0;no_rooms=1;req_adults=2;req_children=0;room1=A,A;sb_price_type=total;sr_order=distance_from_search;sr_pri_blocks=945023501_366949347_2_0_0__14543;srepoch=1673024009;srpvid=b81b76c421270078;type=total;ucfs=1&
+Email: 
+
+7983. Duca's Guest House
+ID: 8f33e054-fbe1-407b-9936-7b75e25bf74d
+Slug: duca-s-guest-house-beinasco
+Nome: Duca's Guest House
+Comune / Provincia: Beinasco
+Indirizzo: Corso Duca degli Abruzzi, 94, 10129 Torino TO
+Coordinate: Lat 45.054416, Lng 7.656659
+Website: https://www.ducasguesthousetorino.com/
+Email: 
+
+7984. Eco Art Hotel Torino
+ID: cce2e8bc-03f2-44ba-ba03-2cc7825e67de
+Slug: eco-art-hotel-torino-beinasco
+Nome: Eco Art Hotel Torino
+Comune / Provincia: Beinasco
+Indirizzo: Via Principi d'Acaja, 17, 10138 Torino TO
+Coordinate: Lat 45.075809, Lng 7.664254
+Website: https://www.facebook.com/share/1B24MEAMAh/
+Email: 
+
+7985. Hotel Astor
+ID: 76f8c9c2-8241-4775-814d-9f85a2e210f3
+Slug: hotel-astor-beinasco
+Nome: Hotel Astor
+Comune / Provincia: Beinasco
+Indirizzo: Piazza Tancredi Galimberti, 12, 10134 Torino TO
+Coordinate: Lat 45.032646, Lng 7.654276
+Website: http://www.hotelastortorino.it/
+Email: 
+
+7986. Hotel Bengasi
+ID: 75e2502b-bae2-4149-b52e-a43044464301
+Slug: hotel-bengasi-beinasco
+Nome: Hotel Bengasi
+Comune / Provincia: Beinasco
+Indirizzo: Via Cimabue, 6, 10124 Moncalieri TO
+Coordinate: Lat 45.01618, Lng 7.66249
+Website: https://www.hotelsitalian.com/hotel-bengasi/
+Email: 
+
+7987. Hotel Montevecchio
+ID: 505d9968-de4c-4988-9a04-25a1592b08ff
+Slug: hotel-montevecchio-beinasco
+Nome: Hotel Montevecchio
+Comune / Provincia: Beinasco
+Indirizzo: Via Rodolfo Montevecchio, 13 Bis, 10128 Torino TO
+Coordinate: Lat 45.060781, Lng 7.672843
+Website: https://www.hotelmontevecchio.com/
+Email: 
+
+7988. Hotel San Luigi
+ID: ca858cae-a0ed-4596-b530-cfee4535b08d
+Slug: hotel-san-luigi-beinasco
+Nome: Hotel San Luigi
+Comune / Provincia: Beinasco
+Indirizzo: Via S. Luigi, 5, 10092 Beinasco TO
+Coordinate: Lat 45.028028, Lng 7.58397
+Website: http://www.hotelsanluigi.it/ita/home.php
+Email: 
+
+7989. HOTEL TOURIST
+ID: 7ac572a5-15ee-4618-814d-092c760a6142
+Slug: hotel-tourist-beinasco
+Nome: HOTEL TOURIST
+Comune / Provincia: Beinasco
+Indirizzo: Via Alpignano, 3, 10143 Torino TO
+Coordinate: Lat 45.076278, Lng 7.651934
+Website: —
+Email: 
+
+7990. Hotel Vinzaglio
+ID: 4f695ae5-8cd1-4814-846f-d830ae1c138d
+Slug: hotel-vinzaglio-beinasco
+Nome: Hotel Vinzaglio
+Comune / Provincia: Beinasco
+Indirizzo: Corso Vinzaglio, 12, 10121 Torino TO
+Coordinate: Lat 45.06998, Lng 7.667778
+Website: https://www.albergovinzaglio.it/
+Email: 
+
+7991. Idea Hotel Torino Mirafiori
+ID: a9b772c0-ad28-48fb-81c8-c79f57166e64
+Slug: idea-hotel-torino-mirafiori-beinasco
+Nome: Idea Hotel Torino Mirafiori
+Comune / Provincia: Beinasco
+Indirizzo: Via Paolo Gaidano, 113, 10137 Torino TO
+Coordinate: Lat 45.041504, Lng 7.622374
+Website: https://torino.ideahotel.it/
+Email: 
+
+7992. Metro Station Mini Van CAPSULA House
+ID: 7140ef5d-917f-4e64-a5f5-bd081d819556
+Slug: metro-station-mini-van-capsula-house-beinasco
+Nome: Metro Station Mini Van CAPSULA House
+Comune / Provincia: Beinasco
+Indirizzo: Via Rochemolles, 15, 10146 Torino TO
+Coordinate: Lat 45.075179, Lng 7.621115
+Website: https://metro-station-mini-van-capsula-house.italygetaway.top/
+Email: 
+
+7993. Turin Metro Young - Hostel
+ID: b5813163-d54a-49fe-a9b3-4d6cb16c5366
+Slug: turin-metro-young-hostel-beinasco
+Nome: Turin Metro Young - Hostel
+Comune / Provincia: Beinasco
+Indirizzo: Via Brione, 20, 10143 Torino TO
+Coordinate: Lat 45.077204, Lng 7.646751
+Website: https://stayly.it/hoteles/hostel-turin-metro-young
+Email: 
+
+7994. Affittacamere Santino's house - CIN: IT004163B4IOUF7XOX
+ID: b98028f5-eed4-4524-81cb-11651c6d5448
+Slug: affittacamere-santino-s-house-cin-it004163b4iouf-beinette
+Nome: Affittacamere Santino's house - CIN: IT004163B4IOUF7XOX
+Comune / Provincia: Beinette
+Indirizzo: Via del Lazzaretto, 14, 12016 Peveragno CN
+Coordinate: Lat 44.326022, Lng 7.618218
+Website: https://www.santinoshouse.it/
+Email: 
+
+7995. Agriturismo B&B Ciabot Besimauda
+ID: 9fbe7c5f-5bd5-4228-8b8f-fe3c43a6a36f
+Slug: agriturismo-b-b-ciabot-besimauda-beinette
+Nome: Agriturismo B&B Ciabot Besimauda
+Comune / Provincia: Beinette
+Indirizzo: Via Brard 58 fraz.San Giovenale - Peveragno (CN), 12016 Peveragno CN
+Coordinate: Lat 44.320071, Lng 7.601573
+Website: http://www.ciabotbesimauda.it/
+Email: 
+
+7996. Agriturismo Cascina Veja
+ID: 12a7a8f5-48a8-484a-bebb-f4e609a46b08
+Slug: agriturismo-cascina-veja-beinette
+Nome: Agriturismo Cascina Veja
+Comune / Provincia: Beinette
+Indirizzo: Fraz, Frazione Vigna, 4, 12013 Chiusa di Pesio CN
+Coordinate: Lat 44.292698, Lng 7.673469
+Website: http://www.cascinaveja.com/
+Email: 
+
+7997. Agriturismo La Dimora del Contadino
+ID: 2916c718-8d5f-4008-84ac-52b130edcb58
+Slug: agriturismo-la-dimora-del-contadino-beinette
+Nome: Agriturismo La Dimora del Contadino
+Comune / Provincia: Beinette
+Indirizzo: Strada del Merlo, 121, 12084 Mondovì CN
+Coordinate: Lat 44.38434, Lng 7.76719
+Website: http://www.agriturismoladimoradelcontadino.com/
+Email: 
+
+7998. Albergo Ristorante Bacco Beinette
+ID: 0bcb8a8e-81ef-4442-a02e-18eacab96e78
+Slug: albergo-ristorante-bacco-beinette-beinette
+Nome: Albergo Ristorante Bacco Beinette
+Comune / Provincia: Beinette
+Indirizzo: Via XXIV Maggio, 37, 12081 Beinette CN
+Coordinate: Lat 44.364552, Lng 7.645955
+Website: http://albergo-bacco.com/
+Email: 
+
+7999. Alpuntogiusto
+ID: ba02b49d-4b1f-4b4e-8e7d-3af5bf3b59a1
+Slug: alpuntogiusto-beinette
+Nome: Alpuntogiusto
+Comune / Provincia: Beinette
+Indirizzo: Via Colletto, 9, 12016 Peveragno CN
+Coordinate: Lat 44.31672, Lng 7.599726
+Website: https://www.alpuntogiusto.eu/
+Email: 
+
+8000. B&B Alla Borgata
+ID: c72a94b9-8283-4d9d-b8d5-2bb60c7313c0
+Slug: b-b-alla-borgata-beinette
+Nome: B&B Alla Borgata
+Comune / Provincia: Beinette
+Indirizzo: Via Rosbella, 9, 12012 Boves CN
+Coordinate: Lat 44.309145, Lng 7.564379
+Website: http://www.allaborgata.it/
+Email: 
+
+8001. B&B antiche radici
+ID: 0d8596d1-094b-419d-ae04-b299998ed0a4
+Slug: b-b-antiche-radici-beinette
+Nome: B&B antiche radici
+Comune / Provincia: Beinette
+Indirizzo: 8M36+V9, 12013 Chiusa di Pesio CN
+Coordinate: Lat 44.304887, Lng 7.661058
+Website: https://antiche-radici.it/page/2
+Email: 
+
+8002. B&B Giravento
+ID: 28fed7d2-c65e-441b-b1c3-913508b1c40b
+Slug: b-b-giravento-beinette
+Nome: B&B Giravento
+Comune / Provincia: Beinette
+Indirizzo: Via Monte Carbonet, 39, 12011 Borgo San Dalmazzo CN
+Coordinate: Lat 44.333674, Lng 7.480753
+Website: https://www.giraventobsd.com/
+Email: 
+
+8003. B&B L'Abric
+ID: 3718bca9-5c3c-4ae4-ae22-5cb49d3650ae
+Slug: b-b-l-abric-beinette
+Nome: B&B L'Abric
+Comune / Provincia: Beinette
+Indirizzo: Via Maestra, 16, 12015 Limonetto CN
+Coordinate: Lat 44.173808, Lng 7.555712
+Website: http://www.bbabric.it/
+Email: 
+
+8004. B&B La Bisimauda
+ID: e0238d1e-c726-4611-91c1-492bda7165e7
+Slug: b-b-la-bisimauda-beinette
+Nome: B&B La Bisimauda
+Comune / Provincia: Beinette
+Indirizzo: Via Cuneo, 87, 12012 Boves CN
+Coordinate: Lat 44.340378, Lng 7.557108
+Website: http://www.labisimauda.it/
+Email: 
+
+8005. B&B La Casa Arancione - Camere & Charme CIN IT004028C2S6F8UZHQ
+ID: da17a1c7-715f-4a7d-b199-19d061458d0f
+Slug: b-b-la-casa-arancione-camere-charme-cin-it004028-beinette
+Nome: B&B La Casa Arancione - Camere & Charme CIN IT004028C2S6F8UZHQ
+Comune / Provincia: Beinette
+Indirizzo: Via Peveragno, 13, 12012 Boves CN
+Coordinate: Lat 44.3298, Lng 7.55368
+Website: http://www.lacasaarancione.it/
+Email: 
+
+8006. B&B La Coccinella
+ID: a34f9b71-bef6-41e8-9674-c33180e32331
+Slug: b-b-la-coccinella-beinette
+Nome: B&B La Coccinella
+Comune / Provincia: Beinette
+Indirizzo: Via Tetti Vittorio, 10, 12012 Rivoira CN
+Coordinate: Lat 44.322379, Lng 7.567251
+Website: http://lacoccinella-boves.com.es/
+Email: 
+
+8007. B&B Milú
+ID: e4eaf445-b82e-4d69-b4f1-2debd745eed1
+Slug: b-b-milu-beinette
+Nome: B&B Milú
+Comune / Provincia: Beinette
+Indirizzo: Via Panin, 18, 12010 Cuneo CN
+Coordinate: Lat 44.382892, Lng 7.503979
+Website: http://www.milucuneo.it/
+Email: 
+
+8008. B&B Villa Antilia
+ID: c5a987af-52b0-426d-9432-b1866053e8df
+Slug: b-b-villa-antilia-beinette
+Nome: B&B Villa Antilia
+Comune / Provincia: Beinette
+Indirizzo: Via Vigne, 20, 12022 Busca CN
+Coordinate: Lat 44.530582, Lng 7.472682
+Website: https://recommendedbyjiri.com/b-amp-b-villa-antilia-italy
+Email: 
+
+8009. B&B Virgula
+ID: b6805e35-20cf-4551-ac8c-8e86498317c5
+Slug: b-b-virgula-beinette
+Nome: B&B Virgula
+Comune / Provincia: Beinette
+Indirizzo: Via Carlo Pascal, 1, 12100 Cuneo CN
+Coordinate: Lat 44.390532, Lng 7.547813
+Website: http://www.virgulabb.it/
+Email: 
+
+8010. Cascina La Commenda
+ID: caf2e4f7-c2ef-4dbb-8984-11fd81b78890
+Slug: cascina-la-commenda-beinette
+Nome: Cascina La Commenda
+Comune / Provincia: Beinette
+Indirizzo: Via Vecchia di Santa Margherita, 5, 12016 Santa Margherita CN
+Coordinate: Lat 44.35239, Lng 7.623179
+Website: http://www.cascinalacommenda.it/
+Email: 
+
+8011. Cuneo Guest House
+ID: 9c696fee-2593-4421-b220-e68cf5bed4cb
+Slug: cuneo-guest-house-beinette
+Nome: Cuneo Guest House
+Comune / Provincia: Beinette
+Indirizzo: Corso Giovanni Giolitti, 34, 12100 Cuneo CN
+Coordinate: Lat 44.386644, Lng 7.538835
+Website: https://www.cuneoguesthouse.it/
+Email: 
+
+8012. ROSBed & Breakfast
+ID: 6a8ad4de-6941-4314-ab82-38ea07722e96
+Slug: rosbed-breakfast-beinette
+Nome: ROSBed & Breakfast
+Comune / Provincia: Beinette
+Indirizzo: Via Rosbella, 36, 12012 Boves CN
+Coordinate: Lat 44.297926, Lng 7.558005
+Website: https://rosbed-breakfast.alberghiinitalia.top/
+Email: 
+
+8013. Seguendo L'Oca
+ID: 11ddcfdd-e8a8-4b87-b379-5ccf8d0ab592
+Slug: seguendo-l-oca-beinette
+Nome: Seguendo L'Oca
+Comune / Provincia: Beinette
+Indirizzo: Via Passatore, 87, 12010 Cervasca CN
+Coordinate: Lat 44.423544, Lng 7.49171
+Website: —
+Email: 
+
+8014. AGRITURISMO BORGO SANTA LUCIA - AGRITURISMO CROPANI
+ID: 7fd99401-9a40-4950-adc9-49f1185a08c9
+Slug: agriturismo-borgo-santa-lucia-agriturismo-cropan-belcastro
+Nome: AGRITURISMO BORGO SANTA LUCIA - AGRITURISMO CROPANI
+Comune / Provincia: Belcastro
+Indirizzo: Contrada Santa Lucia, snc, 88051 Cropani CZ
+Coordinate: Lat 38.947522, Lng 16.784816
+Website: http://www.agriturismoborgosantalucia.it/
+Email: 
+
+8015. B&B FONTANA GIULIA
+ID: ffb30d3c-ca6d-4203-826b-8ae233b82373
+Slug: b-b-fontana-giulia-belcastro
+Nome: B&B FONTANA GIULIA
+Comune / Provincia: Belcastro
+Indirizzo: Via della Concordia, 88054 Sersale CZ
+Coordinate: Lat 39.013271, Lng 16.726765
+Website: https://www.bbfontanagiulia.it/
+Email: 

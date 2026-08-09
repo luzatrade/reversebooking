@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+8436. La Cascina di Villa Due
+ID: 8d4b38eb-e784-4725-ad8f-d7d17f21b2fd
+Slug: la-cascina-di-villa-due-bene-vagienna
+Nome: La Cascina di Villa Due
+Comune / Provincia: Bene Vagienna
+Indirizzo: Strada Fondovalle, 16, 12068 Narzole CN
+Coordinate: Lat 44.596745, Lng 7.893241
+Website: https://www.cascinadivilladue.it/index.php/it/
+Email: 
+
+8437. La Vigna Del Maestro
+ID: 078d4168-92de-45e4-8e6e-a78ccf357f05
+Slug: la-vigna-del-maestro-bene-vagienna
+Nome: La Vigna Del Maestro
+Comune / Provincia: Bene Vagienna
+Indirizzo: Frazione Santo Stefano, 55, 12041 Bene Vagienna CN
+Coordinate: Lat 44.528645, Lng 7.843177
+Website: http://www.lavignadelmaestro.com/
+Email: 
+
+8438. Villa Amai
+ID: e66086c4-b05d-4253-ac6e-bb7e12aaa706
+Slug: villa-amai-bene-vagienna
+Nome: Villa Amai
+Comune / Provincia: Bene Vagienna
+Indirizzo: SP159, 12041 Bene Vagienna CN
+Coordinate: Lat 44.545932, Lng 7.861998
+Website: —
+Email: 
+
+8439. Carrales Guest•House
+ID: e55cf684-6fd2-4270-a246-613c4e641e54
+Slug: carrales-guest-house-benetutti
+Nome: Carrales Guest•House
+Comune / Provincia: Benetutti
+Indirizzo: Via Giampiero Chironi, 84, 08100 Nuoro NU
+Coordinate: Lat 40.325364, Lng 9.337053
+Website: http://www.carrales.it/
+Email: 
+
+8440. Domo Peonia Bianca
+ID: 53f62551-4b59-4a44-9f68-b1cf4c16a1e3
+Slug: domo-peonia-bianca-benetutti
+Nome: Domo Peonia Bianca
+Comune / Provincia: Benetutti
+Indirizzo: Via Roma, 4, 08100 Nuoro NU
+Coordinate: Lat 40.322331, Lng 9.335771
+Website: https://www.peoniabianca.it/
+Email: 
+
+8441. DOMO Silvia e Paolo
+ID: b9eb75ea-01dc-487e-be44-89e6f4a861d2
+Slug: domo-silvia-e-paolo-benetutti
+Nome: DOMO Silvia e Paolo
+Comune / Provincia: Benetutti
+Indirizzo: Corso Giuseppe Garibaldi, 58, 08100 Nuoro NU
+Coordinate: Lat 40.321323, Lng 9.334228
+Website: http://www.silviaepaolo.it/
+Email: 
+
+8442. EuroHotel
+ID: 6bdc953c-2ada-46a0-a4c8-215f20c413ef
+Slug: eurohotel-benetutti
+Nome: EuroHotel
+Comune / Provincia: Benetutti
+Indirizzo: Via Trieste, 62, 08100 Nuoro NU
+Coordinate: Lat 40.321974, Lng 9.324069
+Website: http://www.eurohotelnuoro.it/
+Email: 
+
+8443. Felix Hotels – Residence Hotel Grandi Magazzini
+ID: 0fcb7952-77f3-4218-93f3-2b8b5738c6e7
+Slug: felix-hotels-residence-hotel-grandi-magazzini-benetutti
+Nome: Felix Hotels – Residence Hotel Grandi Magazzini
+Comune / Provincia: Benetutti
+Indirizzo: Via Dalmazia, 5, 08100 Nuoro NU
+Coordinate: Lat 40.324599, Lng 9.329361
+Website: https://www.felixhotels.it/residence-grandi-magazzini-nuoro/
+Email: 
+
+8444. Gli olivi
+ID: 0ec8d58e-e087-4aba-9dc6-170cd767ae66
+Slug: gli-olivi-benetutti
+Nome: Gli olivi
+Comune / Provincia: Benetutti
+Indirizzo: Via Alghero, 6, 08025 Oliena NU
+Coordinate: Lat 40.274701, Lng 9.403783
+Website: —
+Email: 
+
+8445. Hotel Ristorante Grillo
+ID: 12fda830-c265-42c2-9a52-d34eb993c69c
+Slug: hotel-ristorante-grillo-benetutti
+Nome: Hotel Ristorante Grillo
+Comune / Provincia: Benetutti
+Indirizzo: Via Monsignor Giuseppe Melas, 14, 08100 Nuoro NU
+Coordinate: Lat 40.317771, Lng 9.33261
+Website: http://www.grillohotel.it/
+Email: 
+
+8446. Hotel Ristorante su Lithu
+ID: 91173d90-5a6d-4690-8e64-eee34e2d3a12
+Slug: hotel-ristorante-su-lithu-benetutti
+Nome: Hotel Ristorante su Lithu
+Comune / Provincia: Benetutti
+Indirizzo: Strada Statale 389 di Buddusò e del Correboi, 08021 Bitti NU
+Coordinate: Lat 40.476307, Lng 9.380243
+Website: http://www.sulithu.it/
+Email: 
+
+8447. Hotel Sandalia
+ID: a2c375e4-7456-4ae5-abe9-916a4dcabe12
+Slug: hotel-sandalia-benetutti
+Nome: Hotel Sandalia
+Comune / Provincia: Benetutti
+Indirizzo: Via Luigi Einaudi, 12/14, 08100 Nuoro NU
+Coordinate: Lat 40.323244, Lng 9.318574
+Website: http://www.hotelsandalia.com/
+Email: 
+
+8448. Locanda Tipica Sa Corte
+ID: 7a4c852c-572c-445d-83f9-f5011b788674
+Slug: locanda-tipica-sa-corte-benetutti
+Nome: Locanda Tipica Sa Corte
+Comune / Provincia: Benetutti
+Indirizzo: Via Nuoro, 138, 08025 Oliena NU
+Coordinate: Lat 40.282616, Lng 9.398405
+Website: http://www.sacorte.it/
+Email: 
+
+8449. Nicolhaus
+ID: 667ddab8-9c13-4cc4-9788-e9f879320cce
+Slug: nicolhaus-benetutti
+Nome: Nicolhaus
+Comune / Provincia: Benetutti
+Indirizzo: C/so bar Mario, Corso Cocco Ortu, 07010 Benetutti SS
+Coordinate: Lat 40.455581, Lng 9.168776
+Website: —
+Email: 
+
+8450. Paghe Eco Luxury Experience
+ID: be1b1db3-c94f-45ad-89d4-db1ac9e0e8d0
+Slug: paghe-eco-luxury-experience-benetutti
+Nome: Paghe Eco Luxury Experience
+Comune / Provincia: Benetutti
+Indirizzo: Strada Statale 389 di Buddusò e del Correboi, 07020 Buddusò OT
+Coordinate: Lat 40.614179, Lng 9.274098
+Website: https://www.pagheexperience.it/
+Email: 
+
+8451. Agriturismo Cascina Rabalot
+ID: a12eaad8-b6a7-4e51-a828-ed99d3ebd7eb
+Slug: agriturismo-cascina-rabalot-benevello
+Nome: Agriturismo Cascina Rabalot
+Comune / Provincia: Benevello
+Indirizzo: SP32, 12055 Diano d'Alba CN
+Coordinate: Lat 44.643356, Lng 8.033937
+Website: https://www.cascinarabalot.it/
+Email: 
+
+8452. B&B Le Stanze della Musica
+ID: 6f22991f-87fb-4e48-afbd-44c442e581bf
+Slug: b-b-le-stanze-della-musica-benevello
+Nome: B&B Le Stanze della Musica
+Comune / Provincia: Benevello
+Indirizzo: Via Berria, 14, 12050 Borgomale CN
+Coordinate: Lat 44.621479, Lng 8.125425
+Website: http://www.lestanzedellamusica.com/
+Email: 
+
+8453. Casa Remussi
+ID: a89b74e4-f14a-4eab-a9a0-f7d8805a1de9
+Slug: casa-remussi-benevello
+Nome: Casa Remussi
+Comune / Provincia: Benevello
+Indirizzo: Via Meruzzano, 8, 12050 Treiso CN
+Coordinate: Lat 44.67755, Lng 8.091529
+Website: http://www.casaremussi.it/
+Email: 
+
+8454. Cit Ni
+ID: 9ef80d7b-38fd-495c-9e57-fbe3c6998760
+Slug: cit-ni-benevello
+Nome: Cit Ni
+Comune / Provincia: Benevello
+Indirizzo: SP31, 62, 12050 Bosia CN
+Coordinate: Lat 44.597233, Lng 8.144951
+Website: http://www.citnibandb.com/
+Email: 
+
+8455. Hotel Relais Montemarino
+ID: 6bd38627-2536-4f22-a129-c276af9a7eee
+Slug: hotel-relais-montemarino-benevello
+Nome: Hotel Relais Montemarino
+Comune / Provincia: Benevello
+Indirizzo: Via Alba, 66, 12050 Borgomale CN
+Coordinate: Lat 44.638983, Lng 8.109444
+Website: http://www.relaismontemarino.it/
+Email: 
+
+8456. La Sismonda B&B
+ID: 9329aafe-0988-45a7-8fab-a830bb31c0eb
+Slug: la-sismonda-b-b-benevello
+Nome: La Sismonda B&B
+Comune / Provincia: Benevello
+Indirizzo: Str. Tagliata, 8, 12050 Rodello CN
+Coordinate: Lat 44.627872, Lng 8.056578
+Website: http://www.lasismonda.it/
+Email: 
+
+8457. Locanda San Lorenzo
+ID: 1d2966af-6744-4d25-87ac-d7df58f431c3
+Slug: locanda-san-lorenzo-benevello
+Nome: Locanda San Lorenzo
+Comune / Provincia: Benevello
+Indirizzo: frazione S.Lorenzo, 9, 12050 Roddino CN
+Coordinate: Lat 44.580228, Lng 8.034445
+Website: https://locandasanlorenzo.eu/
+Email: 
+
+8458. Moncrivel Rooms & Relax
+ID: 0cea0227-9b41-44a4-a345-4cfa28c5c0e4
+Slug: moncrivel-rooms-relax-benevello
+Nome: Moncrivel Rooms & Relax
+Comune / Provincia: Benevello
+Indirizzo: Via Palazzo Vecchio, 2, 12050 Benevello CN
+Coordinate: Lat 44.627249, Lng 8.105763
+Website: http://www.moncrivelrooms.it/
+Email: 
+
+8459. Relais Villa d'Amelia
+ID: 8ce6f896-75b0-4bdc-9796-a2b6effb8f7c
+Slug: relais-villa-d-amelia-benevello
+Nome: Relais Villa d'Amelia
+Comune / Provincia: Benevello
+Indirizzo: Località Manera, 1, 12050 Benevello CN
+Coordinate: Lat 44.634421, Lng 8.109822
+Website: http://www.villadamelia.com/
+Email: 
+
+8460. ALBERGO DELLA CORTE LUBAN S.R.L.
+ID: 988943c7-c87b-4548-a85f-971498743f4b
+Slug: albergo-della-corte-luban-s-r-l-benevento
+Nome: ALBERGO DELLA CORTE LUBAN S.R.L.
+Comune / Provincia: Benevento
+Indirizzo: Piazza Piano di Corte, 11, 82100 Benevento BN
+Coordinate: Lat 41.13158, Lng 14.780945
+Website: https://www.albergodellacorte.com/
+Email: 
+
+8461. Antum Hotel
+ID: 170cac87-121c-4a5e-8011-e6e665ed0bc0
+Slug: antum-hotel-benevento
+Nome: Antum Hotel
+Comune / Provincia: Benevento
+Indirizzo: Viale Principe di Napoli, 137, 82100 Benevento BN
+Coordinate: Lat 41.139617, Lng 14.770859
+Website: https://www.antumhotel.it/
+Email: 
+
+8462. B&B Domus Traiani
+ID: 1d7ad8ce-be72-4dff-b7bd-6edb3a599119
+Slug: b-b-domus-traiani-benevento
+Nome: B&B Domus Traiani
+Comune / Provincia: Benevento
+Indirizzo: Via Cupa Santa Lucia, 7, 82100 Benevento BN
+Coordinate: Lat 41.133001, Lng 14.781012
+Website: http://www.domustraiani.it/
+Email: 
+
+8463. Hotel Antiche Terme
+ID: ad8382fb-cd82-46fa-975a-6b6c8c33ecc1
+Slug: hotel-antiche-terme-benevento
+Nome: Hotel Antiche Terme
+Comune / Provincia: Benevento
+Indirizzo: Via Posillipo, 82100 Benevento BN
+Coordinate: Lat 41.133126, Lng 14.772663
+Website: http://www.hotelanticheterme.com/
+Email: 
+
+8464. Hotel DG Garden
+ID: 82d823d3-494c-4bb0-ae14-d40d3117a049
+Slug: hotel-dg-garden-benevento
+Nome: Hotel DG Garden
+Comune / Provincia: Benevento
+Indirizzo: Via dei Liguri Bebiani, 82100 Benevento BN
+Coordinate: Lat 41.152617, Lng 14.781455
+Website: http://www.dggarden.com/
+Email: 
+
+8465. Hotel il Molino
+ID: e8bfeb34-47b8-4307-a00f-813eafb7d768
+Slug: hotel-il-molino-benevento
+Nome: Hotel il Molino
+Comune / Provincia: Benevento
+Indirizzo: Via dei Mulini, 48, 82100 Benevento BN
+Coordinate: Lat 41.126132, Lng 14.779986
+Website: https://hotel-il-molino.albergatore.top/
+Email: 
+
+8466. Hotel Villa Traiano
+ID: f9ac3b07-f08b-4089-9435-7b1119249eda
+Slug: hotel-villa-traiano-benevento
+Nome: Hotel Villa Traiano
+Comune / Provincia: Benevento
+Indirizzo: Viale dei Rettori, 9, 82100 Benevento BN
+Coordinate: Lat 41.13267, Lng 14.780582
+Website: https://www.villatraiano.com/
+Email: 
+
+8467. La Corte degli Archi
+ID: 856ad4d9-a719-459a-bdf3-dbb04574afe2
+Slug: la-corte-degli-archi-benevento
+Nome: La Corte degli Archi
+Comune / Provincia: Benevento
+Indirizzo: Via Carlo Torre, 14, 82100 Benevento BN
+Coordinate: Lat 41.130772, Lng 14.7732
+Website: http://cortedegliarchi.it/
+Email: 
+
+8468. La Fara B&B
+ID: 74838713-ec73-42e9-b7dd-52b1824871cc
+Slug: la-fara-b-b-benevento
+Nome: La Fara B&B
+Comune / Provincia: Benevento
+Indirizzo: Via Capitano Salvatore Rampone, 53, 82100 Benevento BN
+Coordinate: Lat 41.130638, Lng 14.775743
+Website: http://www.lafarabb.com/
+Email: 
+
+8469. Palazzo dei Catenielli 63 B&B
+ID: 46926e49-62ef-4c67-a7dc-291664da391b
+Slug: palazzo-dei-catenielli-63-b-b-benevento
+Nome: Palazzo dei Catenielli 63 B&B
+Comune / Provincia: Benevento
+Indirizzo: Viale Principe di Napoli, 63, 82100 Benevento BN
+Coordinate: Lat 41.136426, Lng 14.772245
+Website: https://roomconnecter.eu/palazzo-dei-catinelli-63-benevento
+Email: 
+
+8470. SOTTARCO B&Benevento
+ID: be33b822-088c-4254-9208-0732a416d690
+Slug: sottarco-b-benevento-benevento
+Nome: SOTTARCO B&Benevento
+Comune / Provincia: Benevento
+Indirizzo: Via S. Pasquale, 22, 82100 Benevento BN
+Coordinate: Lat 41.13305, Lng 14.780168
+Website: https://www.booking.com/hotel/it/sottarco-b-amp-benevento.it.html
+Email: 

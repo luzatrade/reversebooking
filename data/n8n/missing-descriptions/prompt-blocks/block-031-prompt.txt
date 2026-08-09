@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+1051. Locanda Alpina - Albergo
+ID: d82dbf81-9d45-4556-9d5a-f38eb9326976
+Slug: locanda-alpina-albergo-ala
+Nome: Locanda Alpina - Albergo
+Comune / Provincia: Ala
+Indirizzo: Sega di Ala, 37020 Ala TN
+Coordinate: Lat 45.695919, Lng 10.975083
+Website: http://www.locandaalpina.it/
+Email: 
+
+1052. Rifugio Fos-ce
+ID: 9a0069e6-b2b2-4579-8cd8-ac2f43105ec2
+Slug: rifugio-fos-ce-ala
+Nome: Rifugio Fos-ce
+Comune / Provincia: Ala
+Indirizzo: 38060 San Valentino TN
+Coordinate: Lat 45.78594, Lng 10.88644
+Website: —
+Email: 
+
+1053. Agriturismo Al pra di Muriet
+ID: be5b85db-8b3f-43bc-963b-ba1cda5dd1c8
+Slug: agriturismo-al-pra-di-muriet-ala-di-stura
+Nome: Agriturismo Al pra di Muriet
+Comune / Provincia: Ala di Stura
+Indirizzo: Fraz.Berno, 5, 10050 Venaus TO
+Coordinate: Lat 45.150278, Lng 7.032114
+Website: https://alpradimuriet.it/
+Email: 
+
+1054. AGRITURISMO EDELWEISS PRALI
+ID: 1f091bee-c1fd-48d1-9d27-2712320a9f93
+Slug: agriturismo-edelweiss-prali-ala-di-stura
+Nome: AGRITURISMO EDELWEISS PRALI
+Comune / Provincia: Ala di Stura
+Indirizzo: 10060 Pomieri TO
+Coordinate: Lat 44.878119, Lng 7.037738
+Website: http://agriturismo-edelweiss-prali.jimdosite.com/
+Email: 
+
+1055. Agriturismo La ferme du Grand Paradis
+ID: 34073987-bf82-4d76-9f8d-a9dca8bde209
+Slug: agriturismo-la-ferme-du-grand-paradis-ala-di-stura
+Nome: Agriturismo La ferme du Grand Paradis
+Comune / Provincia: Ala di Stura
+Indirizzo: Frazione Valnontey, 32, 11012 Cogne AO
+Coordinate: Lat 45.585374, Lng 7.338985
+Website: http://www.lafermedugrandparadis.it/
+Email: 
+
+1056. Agriturismo La Sforzata - Da Dormire
+ID: 818d7791-613b-4011-89f4-2c3b9d5e4e05
+Slug: agriturismo-la-sforzata-da-dormire-ala-di-stura
+Nome: Agriturismo La Sforzata - Da Dormire
+Comune / Provincia: Ala di Stura
+Indirizzo: Via Torino Pianezza, 69, 10093 Collegno TO
+Coordinate: Lat 45.095896, Lng 7.603476
+Website: https://www.lasforzata.com/
+Email: 
+
+1057. Agriturismo la Viggni de Crest
+ID: 3cdbd144-f474-41c1-8d88-095eb2f92631
+Slug: agriturismo-la-viggni-de-crest-ala-di-stura
+Nome: Agriturismo la Viggni de Crest
+Comune / Provincia: Ala di Stura
+Indirizzo: Via de Beauregard, 29, 11100 Aosta AO
+Coordinate: Lat 45.744609, Lng 7.339521
+Website: http://www.agricrest.com/
+Email: 
+
+1058. Agriturismo Plan de la Tour
+ID: 7022a91d-3f0c-4518-acc3-3983047d2516
+Slug: agriturismo-plan-de-la-tour-ala-di-stura
+Nome: Agriturismo Plan de la Tour
+Comune / Provincia: Ala di Stura
+Indirizzo: Frazione Epinel, 198, 11012 Cogne AO
+Coordinate: Lat 45.625434, Lng 7.332012
+Website: http://www.agriturismoplandelatour.com/
+Email: 
+
+1059. Agriturismo Serras D'ala
+ID: 537d852c-251a-42e3-bebc-b14f4b515306
+Slug: agriturismo-serras-d-ala-ala-di-stura
+Nome: Agriturismo Serras D'ala
+Comune / Provincia: Ala di Stura
+Indirizzo: Localita Tanca Liandro, 09070 Siamaggiore OR
+Coordinate: Lat 39.968503, Lng 8.647527
+Website: http://www.serrasdala.com/
+Email: 
+
+1060. Agriturismo Usurtala
+ID: a5b0ab1f-6a7b-4fa1-91f3-d07fec622646
+Slug: agriturismo-usurtala-ala-di-stura
+Nome: Agriturismo Usurtala
+Comune / Provincia: Ala di Stura
+Indirizzo: Località Usurtala, 08026 Orani NU
+Coordinate: Lat 40.254144, Lng 9.198937
+Website: http://www.usurtala.com/
+Email: 
+
+1061. ALBERGO RISTORANTE ALA DA SILLA DI CASTAGNERI
+ID: 3765f26c-3954-4455-9422-e2839999487f
+Slug: albergo-ristorante-ala-da-silla-di-castagneri-ala-di-stura
+Nome: ALBERGO RISTORANTE ALA DA SILLA DI CASTAGNERI
+Comune / Provincia: Ala di Stura
+Indirizzo: Via Villar, 10, 10070 Ala di Stura TO
+Coordinate: Lat 45.31541, Lng 7.300606
+Website: http://www.albergoristoranteala.it/
+Email: 
+
+1062. B&B Ca' D'ambra
+ID: f08a77b4-6488-46ae-b602-7fdfe8b60590
+Slug: b-b-ca-d-ambra-ala-di-stura
+Nome: B&B Ca' D'ambra
+Comune / Provincia: Ala di Stura
+Indirizzo: Via Monti, 1, 10070 Bonzo TO
+Coordinate: Lat 45.368173, Lng 7.304991
+Website: http://www.cadambra.com/
+Email: 
+
+1063. B&B La Crestolina - CIN IT001003C1VBAR23UF
+ID: a290988e-a081-46ee-b042-846971b88274
+Slug: b-b-la-crestolina-cin-it001003c1vbar23uf-ala-di-stura
+Nome: B&B La Crestolina - CIN IT001003C1VBAR23UF
+Comune / Provincia: Ala di Stura
+Indirizzo: Frazione Cresto, 49, 10070 Ala di Stura TO
+Coordinate: Lat 45.314453, Lng 7.289485
+Website: http://www.lacrestolina.it/
+Email: 
+
+1064. baite del baus
+ID: 13c4e859-1f21-437c-947d-4c3131c1e77c
+Slug: baite-del-baus-ala-di-stura
+Nome: baite del baus
+Comune / Provincia: Ala di Stura
+Indirizzo: Frazione Martassina, 33, 10070 Ala di Stura TO
+Coordinate: Lat 45.31449, Lng 7.277305
+Website: http://www.baitapanoramica.it/
+Email: 
+
+1065. bnbuja
+ID: 95a66755-0bbc-418a-ad09-811c10b5eb70
+Slug: bnbuja-ala-di-stura
+Nome: bnbuja
+Comune / Provincia: Ala di Stura
+Indirizzo: Frazione Mondrone, 10070 Ala di Stura TO
+Coordinate: Lat 45.31208, Lng 7.259628
+Website: http://www.bnbuja.com/
+Email: 
+
+1066. Casa Curnet
+ID: 9f392210-73aa-4bb6-aaa3-98cd1889cdf5
+Slug: casa-curnet-ala-di-stura
+Nome: Casa Curnet
+Comune / Provincia: Ala di Stura
+Indirizzo: Frazione Cornetti, 61, 10070 Balme TO
+Coordinate: Lat 45.300682, Lng 7.21993
+Website: https://www.casacurnet.it/
+Email: 
+
+1067. Grand Hotel Ala di Stura
+ID: 1d813451-414e-424a-abbc-af2b70445587
+Slug: grand-hotel-ala-di-stura-ala-di-stura
+Nome: Grand Hotel Ala di Stura
+Comune / Provincia: Ala di Stura
+Indirizzo: Via Pian del Tetto, 2, 10070 Ala di Stura TO
+Coordinate: Lat 45.316091, Lng 7.306342
+Website: http://www.grandhotelaladistura.it/
+Email: 
+
+1068. Hotel Raggio di Sole
+ID: c4f85651-805a-46c1-a324-5875cf4b919a
+Slug: hotel-raggio-di-sole-ala-di-stura
+Nome: Hotel Raggio di Sole
+Comune / Provincia: Ala di Stura
+Indirizzo: Via Ceres, 7, 10070 Ala di Stura TO
+Coordinate: Lat 45.315296, Lng 7.306417
+Website: http://www.hotelraggiodisole.it/
+Email: 
+
+1069. il nido d'Ala
+ID: 7f6e294b-e896-4e71-9af8-9f237d845251
+Slug: il-nido-d-ala-ala-di-stura
+Nome: il nido d'Ala
+Comune / Provincia: Ala di Stura
+Indirizzo: Via Ceres, 15, 10070 Ala di Stura TO
+Coordinate: Lat 45.314687, Lng 7.308057
+Website: https://www.booking.com/hotel/it/il-nido-d-ala.it.html?aid=356980&label=gog235jc-1FCAsocUINaWwtbmlkby1kLWFsYUgUWANocYgBAZgBFLgBGMgBDdgBAegBAfgBAogCAagCBLgCjIuGvwbAAgHSAiQyOTc4OTNhZS03YzM3LTQ5NjgtYWY1MS1kODQ1ZjhmYjI5YmLYAgXgAgE&sid=67adad4e688317022e7155805d0b4d54&dest_id=-110066&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1742833061&srpvid=a6f17286ed600605&type=total&ucfs=1&
+Email: 
+
+1070. Les Montagnards
+ID: 21e6fc43-3bdb-4e44-805e-2cf0b6216655
+Slug: les-montagnards-ala-di-stura
+Nome: Les Montagnards
+Comune / Provincia: Ala di Stura
+Indirizzo: Frazione Cornetti, 73, 10070 Balme TO
+Coordinate: Lat 45.301121, Lng 7.220459
+Website: http://www.lesmontagnards.it/
+Email: 
+
+1071. Rifugio Lungimala
+ID: e5be9820-5ff3-422b-8564-b2bdb56e3783
+Slug: rifugio-lungimala-ala-di-stura
+Nome: Rifugio Lungimala
+Comune / Provincia: Ala di Stura
+Indirizzo: 10070 Ala di Stura TO
+Coordinate: Lat 45.296977, Lng 7.317655
+Website: —
+Email: 
+
+1072. Villa Biino 200s
+ID: e9e3bfa7-95c4-4ef7-b0de-fa0e192d5dc3
+Slug: villa-biino-200s-ala-di-stura
+Nome: Villa Biino 200s
+Comune / Provincia: Ala di Stura
+Indirizzo: Via Balme, 19, 10070 Ala di Stura TO
+Coordinate: Lat 45.315224, Lng 7.296959
+Website: —
+Email: 
+
+1073. Agriturismo Alagna
+ID: 39c38f76-bf10-4462-ab3d-1594cd29755a
+Slug: agriturismo-alagna-alagna
+Nome: Agriturismo Alagna
+Comune / Provincia: Alagna
+Indirizzo: Frazione Rusa, 13021 Alagna Valsesia VC
+Coordinate: Lat 45.859684, Lng 7.931823
+Website: http://www.agriturismoalagna.com/
+Email: 
+
+1074. Albergo Montagna di Luce
+ID: 4ac2e9df-a3e9-4ee5-a88d-6b28c95f456d
+Slug: albergo-montagna-di-luce-alagna
+Nome: Albergo Montagna di Luce
+Comune / Provincia: Alagna
+Indirizzo: Frazione Pedemonte, 19, 13021 Alagna Valsesia VC
+Coordinate: Lat 45.860817, Lng 7.937933
+Website: https://www.montagnadiluce.it/
+Email: 
+
+1075. Albergo Monte Rosa
+ID: 9c65f1fe-819a-4c77-a75a-4522cbad43b7
+Slug: albergo-monte-rosa-alagna
+Nome: Albergo Monte Rosa
+Comune / Provincia: Alagna
+Indirizzo: Piazza degli alberghi, 12, 13021 Alagna Valsesia VC
+Coordinate: Lat 45.854481, Lng 7.936849
+Website: http://www.hotelmonterosa-alagna.it/
+Email: 
+
+1076. B & B Slapiana
+ID: e067e034-f899-44f8-9b8b-5feabab487dc
+Slug: b-b-slapiana-alagna
+Nome: B & B Slapiana
+Comune / Provincia: Alagna
+Indirizzo: Frazione Piana Fontana 12, 13020 Mollia VC
+Coordinate: Lat 45.82056, Lng 8.029349
+Website: —
+Email: 
+
+1077. B&B Alpe Sattal
+ID: 309b3b64-5797-4d70-ae64-a2e21d5017ff
+Slug: b-b-alpe-sattal-alagna
+Nome: B&B Alpe Sattal
+Comune / Provincia: Alagna
+Indirizzo: Loc. Alpe Sattal, 13021 Alagna Valsesia VC
+Coordinate: Lat 45.856636, Lng 7.952344
+Website: http://www.alpesattal.com/
+Email: 
+
+1078. Casa dei Fiori
+ID: 521fad9e-ec0b-4f9c-84a0-c0c76838024d
+Slug: casa-dei-fiori-alagna
+Nome: Casa dei Fiori
+Comune / Provincia: Alagna
+Indirizzo: Frazione Bonda, 28, 13021 Alagna Valsesia VC
+Coordinate: Lat 45.854208, Lng 7.935851
+Website: https://www.facebook.com/residencecasadeifiori/
+Email: 
+
+1079. Hotel Cristallo Alagna Valsesia
+ID: 6feed949-a956-4f65-bec8-4874c8ec8125
+Slug: hotel-cristallo-alagna-valsesia-alagna
+Nome: Hotel Cristallo Alagna Valsesia
+Comune / Provincia: Alagna
+Indirizzo: Piazza Degli Alberghi, 7, 13021 Alagna Valsesia VC
+Coordinate: Lat 45.854701, Lng 7.937323
+Website: https://www.cristalloalagna.it/
+Email: 
+
+1080. Hotel NH Collection Alagna Mirtillo Rosso
+ID: 371ef3f0-d3cf-4d63-b20a-ecbaa608db7b
+Slug: hotel-nh-collection-alagna-mirtillo-rosso-alagna
+Nome: Hotel NH Collection Alagna Mirtillo Rosso
+Comune / Provincia: Alagna
+Indirizzo: Strada della Barriera, 8, 13021 Riva Valdobbia VC
+Coordinate: Lat 45.831277, Lng 7.956816
+Website: https://www.nh-hotels.com/en/hotel/nh-collection-alagna-mirtillo-rosso?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb
+Email: 
+
+1081. L'aria di Casa
+ID: 57760c82-3045-4e12-a07c-74665a6e0df6
+Slug: l-aria-di-casa-alagna
+Nome: L'aria di Casa
+Comune / Provincia: Alagna
+Indirizzo: Via Martiri della Libertà incrocio, Via dei Walser, 39, 13021 Alagna Valsesia VC
+Coordinate: Lat 45.850494, Lng 7.938412
+Website: http://www.alagnabb.it/
+Email: 
+
+1082. LE MIE RADICI
+ID: f8de3b67-2469-4748-b386-6a741fc70e3b
+Slug: le-mie-radici-alagna
+Nome: LE MIE RADICI
+Comune / Provincia: Alagna
+Indirizzo: Frazione Failungo, 45, 13020 Pila VC
+Coordinate: Lat 45.770835, Lng 8.071681
+Website: https://www.affittacamerepila.it/
+Email: 
+
+1083. Mh Olen Hotel
+ID: e9fe7d05-1bc9-480a-94ce-0f199081a541
+Slug: mh-olen-hotel-alagna
+Nome: Mh Olen Hotel
+Comune / Provincia: Alagna
+Indirizzo: Frazione Bonda, 17, 13021 Alagna Valsesia VC
+Coordinate: Lat 45.85324, Lng 7.935574
+Website: https://olen.mhhotels.it/
+Email: 
+
+1084. MIRA Alagna Mountain Resort & SPA
+ID: b5ee4577-f166-4fce-a4ea-906e9d5c2afd
+Slug: mira-alagna-mountain-resort-spa-alagna
+Nome: MIRA Alagna Mountain Resort & SPA
+Comune / Provincia: Alagna
+Indirizzo: Via Martiri della Libertà, 1, 13021 Alagna Valsesia VC
+Coordinate: Lat 45.850667, Lng 7.939315
+Website: https://www.alagnaresort.com/
+Email: 
+
+1085. Pensione Genzianella
+ID: 7500616a-4fd1-4dc0-a9e3-a6a2619f65b5
+Slug: pensione-genzianella-alagna
+Nome: Pensione Genzianella
+Comune / Provincia: Alagna
+Indirizzo: 13021 Alagna Valsesia VC
+Coordinate: Lat 45.854551, Lng 7.935981
+Website: http://www.pensionegenzianella.com/
+Email: 

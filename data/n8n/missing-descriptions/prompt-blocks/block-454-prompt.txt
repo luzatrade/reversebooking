@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+15856. Agriturismo Porta Pantalica
+ID: 92809449-ce75-4202-8f67-97745fc31514
+Slug: agriturismo-porta-pantalica-cassaro
+Nome: Agriturismo Porta Pantalica
+Comune / Provincia: Cassaro
+Indirizzo: c.da Mascà, 96010 Cassaro SR
+Coordinate: Lat 37.115953, Lng 14.970937
+Website: http://www.agriturismoportapantalica.eu/
+Email: 
+
+15857. Casa Vendicari Boutique Hotel
+ID: fc6891e3-0107-4965-989f-f1cecfee9c6d
+Slug: casa-vendicari-boutique-hotel-cassaro
+Nome: Casa Vendicari Boutique Hotel
+Comune / Provincia: Cassaro
+Indirizzo: Contrada Vendicari, 96017 Noto SR
+Coordinate: Lat 36.812344, Lng 15.087724
+Website: http://www.casavendicari.it/
+Email: 
+
+15858. Ciclamino Siracusa（仙客来华夏旅馆）
+ID: c7cb1f81-b640-4198-aa64-2bc6565aaf8e
+Slug: ciclamino-siracusa-cassaro
+Nome: Ciclamino Siracusa（仙客来华夏旅馆）
+Comune / Provincia: Cassaro
+Indirizzo: Via Tagliamento, 7/Scala C FLOOR A, 96100 Siracusa SR
+Coordinate: Lat 37.070915, Lng 15.282065
+Website: http://www.ciclaminosiracusa.it/?utm_source=gmb
+Email: 
+
+15859. FICOPALA SUITES
+ID: 299b96c1-030d-4a00-9f6f-46ff249ee049
+Slug: ficopala-suites-cassaro
+Nome: FICOPALA SUITES
+Comune / Provincia: Cassaro
+Indirizzo: Viale Luigi Cadorna, 12, 96100 Siracusa SR
+Coordinate: Lat 37.069988, Lng 15.287732
+Website: https://it.ficopalasuites.it/
+Email: 
+
+15860. Hotel Casale Milocca
+ID: 263dbe45-464f-435d-87a5-b16548a7c925
+Slug: hotel-casale-milocca-cassaro
+Nome: Hotel Casale Milocca
+Comune / Provincia: Cassaro
+Indirizzo: Traversa Case Troia, 13, 96100 Siracusa SR
+Coordinate: Lat 37.01047, Lng 15.267885
+Website: http://www.casalemilocca.it/
+Email: 
+
+15861. Hotel Dei Coloniali - Siracusa
+ID: ffd8f5a8-b03d-4434-bcb2-2923f3b83bd5
+Slug: hotel-dei-coloniali-siracusa-cassaro
+Nome: Hotel Dei Coloniali - Siracusa
+Comune / Provincia: Cassaro
+Indirizzo: Via del Porto Grande, 46, 96100 Siracusa SR
+Coordinate: Lat 37.065768, Lng 15.283052
+Website: http://www.hoteldeicoloniali.com/
+Email: 
+
+15862. Hotel Palazzo Cavalieri
+ID: 1f1daec9-3d0a-41d1-83e3-4b4c8b87e2b6
+Slug: hotel-palazzo-cavalieri-cassaro
+Nome: Hotel Palazzo Cavalieri
+Comune / Provincia: Cassaro
+Indirizzo: Via Malta, 42, 96100 Siracusa SR
+Coordinate: Lat 37.065072, Lng 15.287879
+Website: https://www.hotelpalazzocavalieri.com/
+Email: 
+
+15863. MIRA Borgo di Luce I Monasteri
+ID: 25dc73c0-45fe-4313-9cc1-27ccd89303a8
+Slug: mira-borgo-di-luce-i-monasteri-cassaro
+Nome: MIRA Borgo di Luce I Monasteri
+Comune / Provincia: Cassaro
+Indirizzo: Traversa Monasteri di Sotto, 3, 96100 Siracusa SR
+Coordinate: Lat 37.051098, Lng 15.147658
+Website: https://miraborgodiluceimonasteri.top/
+Email: 
+
+15864. Villa delle Stelle
+ID: 526b93ff-211f-4908-8726-5bbc19767b9b
+Slug: villa-delle-stelle-cassaro
+Nome: Villa delle Stelle
+Comune / Provincia: Cassaro
+Indirizzo: Strada Provinciale 45, 96010 Cassaro SR
+Coordinate: Lat 37.097453, Lng 14.974785
+Website: —
+Email: 
+
+15865. Agriturismo al Maso
+ID: ad308085-3f7b-4683-8e63-6c6157581ed3
+Slug: agriturismo-al-maso-cassiglio
+Nome: Agriturismo al Maso
+Comune / Provincia: Cassiglio
+Indirizzo: Via Bretto, 16, 24010 Camerata Cornello BG
+Coordinate: Lat 45.899607, Lng 9.640594
+Website: —
+Email: 
+
+15866. Agriturismo Al Sass
+ID: 13e18138-4971-4e93-9872-d3e57dd6d75c
+Slug: agriturismo-al-sass-cassiglio
+Nome: Agriturismo Al Sass
+Comune / Provincia: Cassiglio
+Indirizzo: Via Provinciale, 20, 24010 Dossena BG
+Coordinate: Lat 45.875758, Lng 9.693216
+Website: https://agriturismoalsass.it/
+Email: 
+
+15867. AGRITURISMO CA' DI FRANCHI'
+ID: bdf30610-a066-4e1f-be3f-02a8ad4febd7
+Slug: agriturismo-ca-di-franchi-cassiglio
+Nome: AGRITURISMO CA' DI FRANCHI'
+Comune / Provincia: Cassiglio
+Indirizzo: Via Cima Prato di Mezzo, 24010 Cornalta BG
+Coordinate: Lat 45.812066, Lng 9.711334
+Website: https://agriturismocadifranchi.it/default.asp
+Email: 
+
+15868. Agriturismo Ca' di Racc
+ID: 791f32a0-b412-42a8-96f0-4074c1610af6
+Slug: agriturismo-ca-di-racc-cassiglio
+Nome: Agriturismo Ca' di Racc
+Comune / Provincia: Cassiglio
+Indirizzo: Loc. Selvadagnone, snc, 24020 Valgoglio BG
+Coordinate: Lat 45.980419, Lng 9.910444
+Website: http://www.agriturismocadiracc.it/
+Email: 
+
+15869. Agriturismo Grabbia
+ID: 5fe1a8da-17fa-46d4-86a7-73139359560a
+Slug: agriturismo-grabbia-cassiglio
+Nome: Agriturismo Grabbia
+Comune / Provincia: Cassiglio
+Indirizzo: Via Grabbia, 7, 24015 San Giovanni Bianco BG
+Coordinate: Lat 45.882534, Lng 9.657606
+Website: http://www.agriturismograbbia.it/
+Email: 
+
+15870. Agriturismo I Larici
+ID: 6cbf8f88-1e66-47fa-ac25-f51e3219d2f8
+Slug: agriturismo-i-larici-cassiglio
+Nome: Agriturismo I Larici
+Comune / Provincia: Cassiglio
+Indirizzo: Via Foppo, 14, 24015 San Giovanni Bianco BG
+Coordinate: Lat 45.892829, Lng 9.635951
+Website: —
+Email: 
+
+15871. Agriturismo I Pascoli -Azienda Agricola Al Casot- cucina casalinga
+ID: ecd77a67-65d4-4aa3-9f1c-9e3f0fcaf180
+Slug: agriturismo-i-pascoli-azienda-agricola-al-casot-cassiglio
+Nome: Agriturismo I Pascoli -Azienda Agricola Al Casot- cucina casalinga
+Comune / Provincia: Cassiglio
+Indirizzo: Via Treviglio, 986, 24045 Fara Gera d'Adda BG
+Coordinate: Lat 45.553841, Lng 9.546855
+Website: https://www.agriturismoipascoli.com/
+Email: 
+
+15872. AGRITURISMO LA FRUSLINA
+ID: 966f9db5-7bad-4d8f-8620-774e65cfb1ed
+Slug: agriturismo-la-fruslina-cassiglio
+Nome: AGRITURISMO LA FRUSLINA
+Comune / Provincia: Cassiglio
+Indirizzo: Frazione, 24016 Santa Croce BG
+Coordinate: Lat 45.845443, Lng 9.683139
+Website: —
+Email: 
+
+15873. B&B Adelché
+ID: e718e023-770b-46d6-8687-8ecf24a192c4
+Slug: b-b-adelche-cassiglio
+Nome: B&B Adelché
+Comune / Provincia: Cassiglio
+Indirizzo: Via Costa San Gallo, Località, 3, 24015 Costa San Gallo-Santuario BG
+Coordinate: Lat 45.876822, Lng 9.665856
+Website: http://www.adelche.it/
+Email: 
+
+15874. Albergo Ristorante Il Griso
+ID: 16c10b70-3a64-491a-8a10-16fc0b88d95b
+Slug: albergo-ristorante-il-griso-cassina-de-pecchi
+Nome: Albergo Ristorante Il Griso
+Comune / Provincia: Cassina de' Pecchi
+Indirizzo: Via Nuova Cassanese, 94, 20052 Vignate MI
+Coordinate: Lat 45.505791, Lng 9.380184
+Website: https://www.albergoristoranteilgriso.it/
+Email: 
+
+15875. Hotel Arcobaleno
+ID: ea4fdb90-0834-4d35-bb5d-b4e76803bda7
+Slug: hotel-arcobaleno-cassina-de-pecchi
+Nome: Hotel Arcobaleno
+Comune / Provincia: Cassina de' Pecchi
+Indirizzo: Via Giuseppe di Vittorio, 5, 20055 Vimodrone MI
+Coordinate: Lat 45.514078, Lng 9.298884
+Website: http://hotel-arcobaleno.it/
+Email: 
+
+15876. Hotel EL Paso
+ID: d9e22b5d-46e0-4045-8c68-7300b8ca9350
+Slug: hotel-el-paso-cassina-de-pecchi
+Nome: Hotel EL Paso
+Comune / Provincia: Cassina de' Pecchi
+Indirizzo: SP13, 20060 Liscate MI
+Coordinate: Lat 45.48131, Lng 9.427003
+Website: http://www.hotelelpasomilano.it/
+Email: 
+
+15877. Hotel Riviera
+ID: 0579e5a2-8e70-4aa6-975e-dd3a249f9802
+Slug: hotel-riviera-cassina-de-pecchi
+Nome: Hotel Riviera
+Comune / Provincia: Cassina de' Pecchi
+Indirizzo: Via Rivoltana, 2, 20054 Segrate MI
+Coordinate: Lat 45.477398, Lng 9.298245
+Website: https://www.rivierasegrate.it/it/
+Email: 
+
+15878. In Giardino B&B
+ID: 9832f104-4bbc-4bea-b7b8-9c6ad9aa7578
+Slug: in-giardino-b-b-cassina-de-pecchi
+Nome: In Giardino B&B
+Comune / Provincia: Cassina de' Pecchi
+Indirizzo: Via Centauro, 3, 20051 Cassina De' Pecchi MI
+Coordinate: Lat 45.511589, Lng 9.360689
+Website: http://www.ingiardinobnb.it/
+Email: 
+
+15879. Residence Le Querce
+ID: 11c3cb26-58e4-42bd-aab2-1d1cec601408
+Slug: residence-le-querce-cassina-de-pecchi
+Nome: Residence Le Querce
+Comune / Provincia: Cassina de' Pecchi
+Indirizzo: Via Giuseppe Verdi, 2, 20063 Cernusco sul Naviglio MI
+Coordinate: Lat 45.523646, Lng 9.337923
+Website: http://www.residencelequerce.it/
+Email: 
+
+15880. Albergo Da Angela
+ID: dec0de35-5453-4e35-a486-d15e704379b2
+Slug: albergo-da-angela-cassina-rizzardi
+Nome: Albergo Da Angela
+Comune / Provincia: Cassina Rizzardi
+Indirizzo: Via Risorgimento, 28, 22070 Luisago CO
+Coordinate: Lat 45.759804, Lng 9.051846
+Website: http://www.albergodaangela.com/
+Email: 
+
+15881. B&B Casa Rosa
+ID: b769beb6-2d3b-4ac3-80c7-ac6247590aa3
+Slug: b-b-casa-rosa-cassina-rizzardi
+Nome: B&B Casa Rosa
+Comune / Provincia: Cassina Rizzardi
+Indirizzo: Via Parini, 8, 22070 Luisago CO
+Coordinate: Lat 45.756502, Lng 9.048899
+Website: https://www.casarosacomo.com/
+Email: 
+
+15882. Drive Motel
+ID: 264e1ee2-130f-407e-b18b-e58b3c6efbcf
+Slug: drive-motel-cassina-rizzardi
+Nome: Drive Motel
+Comune / Provincia: Cassina Rizzardi
+Indirizzo: Via Manzoni, 22070 Montano CO
+Coordinate: Lat 45.782772, Lng 9.048609
+Website: http://www.drivemotel.it/
+Email: 
+
+15883. Appartamenti LECCO per brevi periodi
+ID: 20b4b76e-a92c-4f9a-bec4-bd696ba53de0
+Slug: appartamenti-lecco-per-brevi-periodi-cassina-valsassina
+Nome: Appartamenti LECCO per brevi periodi
+Comune / Provincia: Cassina Valsassina
+Indirizzo: Via Gorizia, 54, 23900 Lecco LC
+Coordinate: Lat 45.866755, Lng 9.398668
+Website: https://casaideale.rent/
+Email: 
+
+15884. B&B CASCINA CORNELLA CIN: IT097029C1OAXEL54H
+ID: f2adb959-724e-48c8-9396-9995f66ee5ae
+Slug: b-b-cascina-cornella-cin-it097029c1oaxel54h-cassina-valsassina
+Nome: B&B CASCINA CORNELLA CIN: IT097029C1OAXEL54H
+Comune / Provincia: Cassina Valsassina
+Indirizzo: LOC, Via Giovanni Pascoli, 16, 23814 Cremeno LC
+Coordinate: Lat 45.928655, Lng 9.474221
+Website: https://cascinacornella.it/
+Email: 
+
+15885. B&b del bosco e del lago Elimar
+ID: c8d26f1d-3d53-4c92-be3e-1238b4d91714
+Slug: b-b-del-bosco-e-del-lago-elimar-cassina-valsassina
+Nome: B&b del bosco e del lago Elimar
+Comune / Provincia: Cassina Valsassina
+Indirizzo: Corso Promessi Sposi, 20, 23900 Lecco LC
+Coordinate: Lat 45.853517, Lng 9.401561
+Website: https://radekstravelexperience.eu/b-amp-b-del-bosco-e-del-lago-elimar-italy
+Email: 
+
+15886. Borgo Dei Pescatori
+ID: 0f7b7a4a-61d1-4c5b-9445-8bf2c50b7edf
+Slug: borgo-dei-pescatori-cassina-valsassina
+Nome: Borgo Dei Pescatori
+Comune / Provincia: Cassina Valsassina
+Indirizzo: Via Plava, 11, 23900 Lecco LC
+Coordinate: Lat 45.843944, Lng 9.39938
+Website: https://www.borgodeipescatorilecco.com/
+Email: 
+
+15887. Casa al Lago
+ID: 0e792ae7-8775-4a31-8be9-6153827b8864
+Slug: casa-al-lago-cassina-valsassina
+Nome: Casa al Lago
+Comune / Provincia: Cassina Valsassina
+Indirizzo: Via Battisti, 6, 23900 Lecco LC
+Coordinate: Lat 45.85617, Lng 9.386675
+Website: http://www.casaorestino.com/
+Email: 
+
+15888. Da Gigi Crandola Ristorante Albergo
+ID: ec90f3ce-daa9-4d0d-b0d8-70dbeb60dbbf
+Slug: da-gigi-crandola-ristorante-albergo-cassina-valsassina
+Nome: Da Gigi Crandola Ristorante Albergo
+Comune / Provincia: Cassina Valsassina
+Indirizzo: P.za IV Novembre, 4, 23832 Crandola Valsassina LC
+Coordinate: Lat 46.022447, Lng 9.378918
+Website: http://www.dagigicrandola.it/
+Email: 
+
+15889. La Tana del Luppolo
+ID: 08f7827a-2c87-4a58-9d77-c3094b78c618
+Slug: la-tana-del-luppolo-cassina-valsassina
+Nome: La Tana del Luppolo
+Comune / Provincia: Cassina Valsassina
+Indirizzo: Via Lecco, 5, 23868 Valmadrera LC
+Coordinate: Lat 45.846986, Lng 9.36788
+Website: http://www.beblatanadelluppolo.it/
+Email: 
+
+15890. Maso Zambo - Mountain Lodge and Restaurant
+ID: eb1c21e3-b421-4f7e-953f-25dfdbb2f324
+Slug: maso-zambo-mountain-lodge-and-restaurant-cassina-valsassina
+Nome: Maso Zambo - Mountain Lodge and Restaurant
+Comune / Provincia: Cassina Valsassina
+Indirizzo: Via per, Via Mezzacca, 6, 23817 Cassina Valsassina LC
+Coordinate: Lat 45.927938, Lng 9.480954
+Website: https://www.masozambo.it/
+Email: 

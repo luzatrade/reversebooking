@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16941. Hotel Sunroute Plaza Shinjuku
+ID: 28e35b56-3821-486f-bd73-b70449a11684
+Slug: hotel-sunroute-plaza-shinjuku-tokyo
+Nome: Hotel Sunroute Plaza Shinjuku
+Comune / Provincia: Tokyo
+Indirizzo: 2-chōme-3-1 Yoyogi, Shibuya, Tokyo 151-0053
+Coordinate: Lat 35.687065, Lng 139.698818
+Website: https://sotetsu-hotels.com/sunroute/plazashinjuku/
+Email: 
+
+16942. Hyatt Regency Tokyo
+ID: 08f89f89-a330-43a9-9d31-f949c215fa6d
+Slug: hyatt-regency-tokyo-tokyo
+Nome: Hyatt Regency Tokyo
+Comune / Provincia: Tokyo
+Indirizzo: 2-chōme-7-2 Nishishinjuku, Shinjuku City, Tokyo 160-0023
+Coordinate: Lat 35.691246, Lng 139.69126
+Website: https://www.hyatt.com/hyatt-regency/en-US/tyoty-hyatt-regency-tokyo?src=corp_lclb_google_seo_tyoty&utm_source=google&utm_medium=organic&utm_campaign=lmr
+Email: 
+
+16943. JR KYUSHU HOTEL Blossom Shinjuku
+ID: 4e62aebc-1c4f-4034-8171-07c8ec176d11
+Slug: jr-kyushu-hotel-blossom-shinjuku-tokyo
+Nome: JR KYUSHU HOTEL Blossom Shinjuku
+Comune / Provincia: Tokyo
+Indirizzo: 〒151-0053 Tokyo, Shibuya, Yoyogi, 2-chōme−6−２ ＪＲ九州ホテルブラッサム新宿 １階
+Coordinate: Lat 35.687835, Lng 139.698494
+Website: https://www.jrk-hotels.co.jp/Shinjuku/
+Email: 
+
+16944. Kadoya Hotel
+ID: 8d46f6a7-a0c5-4f86-b5b9-273628d64a38
+Slug: kadoya-hotel-tokyo
+Nome: Kadoya Hotel
+Comune / Provincia: Tokyo
+Indirizzo: 1-chōme-23-1 Nishishinjuku, Shinjuku City, Tokyo 160-0023
+Coordinate: Lat 35.68981, Lng 139.69619
+Website: https://www.kadoya-hotel.co.jp/?utm_source=GBP&utm_medium=google&utm_campaign=cpc&utm_id=GBP
+Email: 
+
+16945. Kario Sasazuka Terrace
+ID: 824245b4-2c4e-49fd-b724-72f0c24a91b8
+Slug: kario-sasazuka-terrace-tokyo
+Nome: Kario Sasazuka Terrace
+Comune / Provincia: Tokyo
+Indirizzo: 1-chōme-56-7 Sasazuka, Shibuya, Tokyo 151-0073
+Coordinate: Lat 35.67424, Lng 139.667722
+Website: https://staytuned.asia/brands/kario/
+Email: 
+
+16946. Keio Plaza Hotel Tokyo
+ID: 3247866b-79ff-4dcb-8e4a-2be99878bd84
+Slug: keio-plaza-hotel-tokyo-tokyo
+Nome: Keio Plaza Hotel Tokyo
+Comune / Provincia: Tokyo
+Indirizzo: 2-chōme-2-1 Nishishinjuku, Shinjuku City, Tokyo 160-8330
+Coordinate: Lat 35.690254, Lng 139.694252
+Website: https://www.keioplaza.co.jp/
+Email: 
+
+16947. Mustard Hotel Shimokitazawa
+ID: 9363dc3c-0dc0-4027-8475-fb0ae7d4c469
+Slug: mustard-hotel-shimokitazawa-tokyo
+Nome: Mustard Hotel Shimokitazawa
+Comune / Provincia: Tokyo
+Indirizzo: 3-chōme-9-19 Kitazawa, Setagaya City, Tokyo 155-0031
+Coordinate: Lat 35.664281, Lng 139.671285
+Website: https://mustardhotel.com/shimokitazawa/
+Email: info_shimokita@mustardhotel.com
+
+16948. Nishi-Shinjuku Green Hotel
+ID: c951d0ec-9131-4a40-b8a0-12eb3f57a14d
+Slug: nishi-shinjuku-green-hotel-tokyo
+Nome: Nishi-Shinjuku Green Hotel
+Comune / Provincia: Tokyo
+Indirizzo: 2-chōme-18-1 Hatagaya, Shibuya, Tokyo 151-0072
+Coordinate: Lat 35.677036, Lng 139.67524
+Website: https://green-hotels.co.jp/
+Email: info@green-hotels.co.jp
+
+16949. Park Hyatt Tokyo
+ID: fec46335-eb25-4304-a245-da232cd4320d
+Slug: park-hyatt-tokyo-tokyo
+Nome: Park Hyatt Tokyo
+Comune / Provincia: Tokyo
+Indirizzo: 2, 3-chōme-7-1 Nishishinjuku, Shinjuku City, Tokyo 163-1055
+Coordinate: Lat 35.686213, Lng 139.690483
+Website: https://www.hyatt.com/park-hyatt/en-US/tyoph-park-hyatt-tokyo?src=corp_lclb_google_seo_tyoph&utm_source=google&utm_medium=organic&utm_campaign=lmr
+Email: 
+
+16950. Sakura Hotel Hatagaya
+ID: 7d9ceef6-464c-452a-aad9-a8fe5ee99d10
+Slug: sakura-hotel-hatagaya-tokyo
+Nome: Sakura Hotel Hatagaya
+Comune / Provincia: Tokyo
+Indirizzo: 1-chōme-32-3 Hatagaya, Shibuya, Tokyo 151-0072
+Coordinate: Lat 35.676178, Lng 139.676669
+Website: https://www.sakura-hotel.co.jp/hatagaya
+Email: 
+
+16951. Satellite Hotel Yoyogi Sangubashi
+ID: ab9d6ee1-25fe-47f7-8772-e992392b5439
+Slug: satellite-hotel-yoyogi-sangubashi-tokyo
+Nome: Satellite Hotel Yoyogi Sangubashi
+Comune / Provincia: Tokyo
+Indirizzo: 5-chōme-56-3 Yoyogi, Shibuya, Tokyo 151-0053
+Coordinate: Lat 35.67745, Lng 139.692304
+Website: https://satellitehotel.airhost.co/ja/houses/795245
+Email: message.stltokyo@gmail.com
+
+16952. Shimokita Stay シモキタステイ
+ID: f98f1372-2fe1-4fa2-9592-6bb3b4d774c6
+Slug: shimokita-stay-tokyo
+Nome: Shimokita Stay シモキタステイ
+Comune / Provincia: Tokyo
+Indirizzo: 2-chōme-27-2 Kitazawa, Setagaya City, Tokyo 155-0031
+Coordinate: Lat 35.662738, Lng 139.665969
+Website: https://www.airbnb.jp/users/154517762/listings
+Email: 
+
+16953. Shinjuku Washington Hotel
+ID: f5408f6c-f9d1-418e-9ba9-d59c2b164d65
+Slug: shinjuku-washington-hotel-tokyo
+Nome: Shinjuku Washington Hotel
+Comune / Provincia: Tokyo
+Indirizzo: 3-chōme-2-9 Nishishinjuku, Shinjuku City, Tokyo 160-8336
+Coordinate: Lat 35.686915, Lng 139.693276
+Website: https://www.shinjyuku-wh.com/
+Email: 
+
+16954. Smile Hotel Tokyo Asagaya
+ID: 7109dbb0-f113-468e-a797-914a520a982b
+Slug: smile-hotel-tokyo-asagaya-tokyo
+Nome: Smile Hotel Tokyo Asagaya
+Comune / Provincia: Tokyo
+Indirizzo: 3-chōme-37-11 Asagayaminami, Suginami City, Tokyo 166-0004
+Coordinate: Lat 35.704635, Lng 139.634868
+Website: https://smile-hotels.com/hotels/show/tokyoasagaya
+Email: 
+
+16955. The Knot Tokyo Shinjuku
+ID: ac7650ad-d29e-41ef-a3af-01f182130a64
+Slug: the-knot-tokyo-shinjuku-tokyo
+Nome: The Knot Tokyo Shinjuku
+Comune / Provincia: Tokyo
+Indirizzo: 4-chōme-31-1 Nishishinjuku, Shinjuku City, Tokyo 160-0023
+Coordinate: Lat 35.688534, Lng 139.688477
+Website: https://hotel-the-knot.jp/tokyoshinjuku/
+Email: 
+
+16956. WPÜ HOTEL
+ID: daa86a7a-26b7-4d07-b644-73280db77bc8
+Slug: wpu-hotel-tokyo
+Nome: WPÜ HOTEL
+Comune / Provincia: Tokyo
+Indirizzo: 7-chōme-10-5 Nishishinjuku, Shinjuku City, Tokyo 160-0023
+Coordinate: Lat 35.69387, Lng 139.698277
+Website: https://hotel.wpu.co/shinjuku/
+Email: 
+
+16957. Albergo Maccotta
+ID: 3aa618ee-1ec0-4eff-8ad7-fbfe002cfeac
+Slug: albergo-maccotta-trapani
+Nome: Albergo Maccotta
+Comune / Provincia: Trapani
+Indirizzo: Via Argentieri, 4, 91100 Trapani TP, Italia
+Coordinate: Lat 38.015182, Lng 12.509816
+Website: https://www.albergomaccotta.it/
+Email: albergomaccotta@virgilio.it
+
+16958. Albergo Room of Andrea - Palazzo Platamone
+ID: cda98dab-9404-484a-88f4-1e978a5a1e22
+Slug: albergo-room-of-andrea-palazzo-platamone-trapani
+Nome: Albergo Room of Andrea - Palazzo Platamone
+Comune / Provincia: Trapani
+Indirizzo: Viale Regina Margherita, 31, 91100 Trapani TP, Italia
+Coordinate: Lat 38.018763, Lng 12.516185
+Website: https://www.roomofandrea.it/
+Email: 
+
+16959. Albergo Russo
+ID: 0a7396ee-314a-42e8-ba77-9b088d2c5644
+Slug: albergo-russo-trapani
+Nome: Albergo Russo
+Comune / Provincia: Trapani
+Indirizzo: Via Tintori, 4, 91100 Trapani TP, Italia
+Coordinate: Lat 38.015404, Lng 12.508241
+Website: http://www.albergorusso.it/
+Email: 
+
+16960. Albergo Tiziano
+ID: 7ecc731c-6084-4552-944c-1e2a8ebf4972
+Slug: albergo-tiziano-trapani
+Nome: Albergo Tiziano
+Comune / Provincia: Trapani
+Indirizzo: Via Giuseppe Rubino, 4, 91100 Trapani TP, Italia
+Coordinate: Lat 38.015373, Lng 12.522403
+Website: http://hoteltizianotrapani.it/
+Email: info@hoteltizianotrapani.it
+
+16961. Albergo Vittoria
+ID: 8d3c062f-58f9-406b-bd2a-71c7b802203b
+Slug: albergo-vittoria-trapani
+Nome: Albergo Vittoria
+Comune / Provincia: Trapani
+Indirizzo: Via Francesco Crispi, 4, 91100 Trapani TP, Italia
+Coordinate: Lat 38.019438, Lng 12.517575
+Website: http://www.hotelvittoriatrapani.it
+Email: info@hotelvittoriatrapani.it
+
+16962. ALLA MARINA - BED AND BREAKFAST
+ID: d383574d-5127-42ae-954e-3368f6caceb8
+Slug: alla-marina-bed-and-breakfast-trapani
+Nome: ALLA MARINA - BED AND BREAKFAST
+Comune / Provincia: Trapani
+Indirizzo: Viale Regina Elena, 4, 91100 Trapani TP, Italia
+Coordinate: Lat 38.014486, Lng 12.509166
+Website: https://www.beballamarina.it/
+Email: info@beballamarina.it
+
+16963. B&B Il profumo del porto
+ID: d412bb20-8d6e-4472-ac10-66f485793be3
+Slug: b-b-il-profumo-del-porto-trapani
+Nome: B&B Il profumo del porto
+Comune / Provincia: Trapani
+Indirizzo: Via Ammiraglio Staiti, 15, 91100 Trapani TP, Italia
+Coordinate: Lat 38.013871, Lng 12.510808
+Website: https://www.ilprofumodelporto.it/
+Email: info@ilprofumodelporto.it
+
+16964. Bed & Breakfast Terrazze Villanova
+ID: 250924f5-2a7c-4cfa-a624-1dcd8218e3e5
+Slug: bed-breakfast-terrazze-villanova-trapani
+Nome: Bed & Breakfast Terrazze Villanova
+Comune / Provincia: Trapani
+Indirizzo: Vicolo Villanova, 33, 91100 Trapani TP, Italia
+Coordinate: Lat 38.020449, Lng 12.531108
+Website: http://www.terrazzevillanova.it/
+Email: 
+
+16965. Bed and Breakfast "Le 5 Torri"
+ID: 5be28566-8b0b-474a-ac16-20ed0403655e
+Slug: bed-and-breakfast-le-5-torri-trapani
+Nome: Bed and Breakfast "Le 5 Torri"
+Comune / Provincia: Trapani
+Indirizzo: Via Fiscale, 4, 91100 Trapani TP, Italia
+Coordinate: Lat 38.014471, Lng 12.514096
+Website: https://www.bb5torri.it/
+Email: 
+
+16966. Bed And Breakfast Il Cavaliere
+ID: 981f4c13-cbaa-4084-abe8-42bcde6ea5b2
+Slug: bed-and-breakfast-il-cavaliere-trapani
+Nome: Bed And Breakfast Il Cavaliere
+Comune / Provincia: Trapani
+Indirizzo: Via Pompeo Zuccalà, 19, 91100 Trapani TP, Italia
+Coordinate: Lat 38.017636, Lng 12.542946
+Website: http://www.bebilcavaliere.com/
+Email: info@bebilcavaliere.com
+
+16967. Bed and Breakfast Il Quadrifoglio a Trapani - Casa Vacanze Trapani
+ID: 9d22d315-7e4c-4f69-8837-2c8cb80ba4a9
+Slug: bed-and-breakfast-il-quadrifoglio-a-trapani-casa-trapani
+Nome: Bed and Breakfast Il Quadrifoglio a Trapani - Casa Vacanze Trapani
+Comune / Provincia: Trapani
+Indirizzo: Via Nettuno, 26, 91100 Trapani TP, Italia
+Coordinate: Lat 38.006828, Lng 12.56419
+Website: http://www.ilquadrifogliobb.it/
+Email: info@ilquadrifogliobb.it
+
+16968. Bed And Breakfast Ligny
+ID: ac29102d-9807-477b-880d-46ffd69679ce
+Slug: bed-and-breakfast-ligny-trapani
+Nome: Bed And Breakfast Ligny
+Comune / Provincia: Trapani
+Indirizzo: Via Torre di Ligny, 14, 91100 Trapani TP, Italia
+Coordinate: Lat 38.018186, Lng 12.498666
+Website: —
+Email: 
+
+16969. Bed and Breakfast Via Spalti 52
+ID: 51f79afb-11bd-418b-9160-9127300f4f84
+Slug: bed-and-breakfast-via-spalti-52-trapani
+Nome: Bed and Breakfast Via Spalti 52
+Comune / Provincia: Trapani
+Indirizzo: Via Spalti, 52, 91100 Trapani TP, Italia
+Coordinate: Lat 38.015114, Lng 12.516994
+Website: https://beb.it/viaspalti52trapani
+Email: bebspalti52@gmail.com
+
+16970. Central Gallery Rooms | Palazzo D'Alì Staiti XIX
+ID: e76b7f42-1b4e-4efe-b52d-0acd33c7d549
+Slug: central-gallery-rooms-palazzo-d-ali-staiti-xix-trapani
+Nome: Central Gallery Rooms | Palazzo D'Alì Staiti XIX
+Comune / Provincia: Trapani
+Indirizzo: Lungomare Dante Alighieri, 28, 91100 Trapani TP, Italia
+Coordinate: Lat 38.017679, Lng 12.511946
+Website: https://www.centralgalleryrooms.com/
+Email: centralgalleryrooms@gmail.com
+
+16971. Drepanon, prospettive sul mediterraneo B&B
+ID: 8b3e2f39-b8b0-45ff-8161-dbf8bad5e4f1
+Slug: drepanon-prospettive-sul-mediterraneo-b-b-trapani
+Nome: Drepanon, prospettive sul mediterraneo B&B
+Comune / Provincia: Trapani
+Indirizzo: Viale Regina Elena, 24, 91100 Trapani TP, Italia
+Coordinate: Lat 38.014557, Lng 12.508383
+Website: https://drepanon.tripcombined.com/
+Email: 
+
+16972. Giardini Mon Plaisir
+ID: b6ca348e-c05c-4ce0-ad31-7f7d13c8ba33
+Slug: giardini-mon-plaisir-trapani
+Nome: Giardini Mon Plaisir
+Comune / Provincia: Trapani
+Indirizzo: Via Giacomo Mistretta, 13, 91100 Trapani TP, Italia
+Coordinate: Lat 38.020589, Lng 12.542663
+Website: https://www.giardinimonplaisir.it/
+Email: info@giardinimonplaisir.it
+
+16973. La Casa sul Mare - Bed & Breakfast
+ID: 1ebaa426-3772-45fe-a323-9013e653325a
+Slug: la-casa-sul-mare-bed-breakfast-trapani
+Nome: La Casa sul Mare - Bed & Breakfast
+Comune / Provincia: Trapani
+Indirizzo: Via Torre di Ligny, 30, 91100 Trapani TP, Italia
+Coordinate: Lat 38.018567, Lng 12.498189
+Website: http://www.lacasasulmaretrapani.it/
+Email: 
+
+16974. La Trinacria Rooms
+ID: a6d6f2c6-c1b6-4a83-a8c2-49248a2b5d70
+Slug: la-trinacria-rooms-trapani
+Nome: La Trinacria Rooms
+Comune / Provincia: Trapani
+Indirizzo: Via Corallai, 49, 91100 Trapani TP, Italia
+Coordinate: Lat 38.015822, Lng 12.503531
+Website: http://www.latrinacriarooms.com/
+Email: latrinacriarooms@gmail.com
+
+16975. Teti Sea View Rooms & Apts. Trapani City Center
+ID: a7e00da6-ba87-423a-afbc-9986f37f14c3
+Slug: teti-sea-view-rooms-apts-trapani-city-center-trapani
+Nome: Teti Sea View Rooms & Apts. Trapani City Center
+Comune / Provincia: Trapani
+Indirizzo: Via Scudaniglio, 30, 91100 Trapani TP, Italia
+Coordinate: Lat 38.020248, Lng 12.518592
+Website: http://tetivacanze.com/
+Email: 

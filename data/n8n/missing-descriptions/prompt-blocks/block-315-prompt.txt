@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+10991. Hotel Rivalago
+ID: 6f8244d4-5833-4282-9ec3-402da7035965
+Slug: hotel-rivalago-brione
+Nome: Hotel Rivalago
+Comune / Provincia: Brione
+Indirizzo: Via L. Cadorna, 7, 25058 Sulzano BS
+Coordinate: Lat 45.68879, Lng 10.098548
+Website: http://www.rivalago.it/
+Email: 
+
+10992. Hotel Villa San Giuseppe
+ID: 8ae6f1c1-1cbd-46aa-ae31-13fd9efae370
+Slug: hotel-villa-san-giuseppe-brione
+Nome: Hotel Villa San Giuseppe
+Comune / Provincia: Brione
+Indirizzo: Via Nobile Osvaldo Fenaroli, 1, 25050 Provaglio d'Iseo BS
+Coordinate: Lat 45.617123, Lng 10.059842
+Website: http://www.hotelvillasangiuseppe.it/
+Email: 
+
+10993. Hotel-Ristorante San Michele
+ID: c7c24547-31e2-46dc-90c8-c32f858ab13c
+Slug: hotel-ristorante-san-michele-brione
+Nome: Hotel-Ristorante San Michele
+Comune / Provincia: Brione
+Indirizzo: Via S. Michele, 5, 25050 Ome BS
+Coordinate: Lat 45.627797, Lng 10.121806
+Website: https://ristorantesanmiche9.wixstudio.com/my-site-2
+Email: 
+
+10994. Ome sweet Ome
+ID: 605eea85-eb34-4336-878d-8e5b562c531e
+Slug: ome-sweet-ome-brione
+Nome: Ome sweet Ome
+Comune / Provincia: Brione
+Indirizzo: Via Cerezzata, 19, 25050 Ome BS
+Coordinate: Lat 45.621244, Lng 10.112728
+Website: http://www.omesweetomefranciacorta.com/
+Email: 
+
+10995. Al Vecchio Lavatoio
+ID: f7d28030-2462-404e-b068-9a8ac6ee6bc6
+Slug: al-vecchio-lavatoio-briosco
+Nome: Al Vecchio Lavatoio
+Comune / Provincia: Briosco
+Indirizzo: Via Como, 27, 23886 Nava LC
+Coordinate: Lat 45.763268, Lng 9.358036
+Website: —
+Email: 
+
+10996. Bala Dream House
+ID: 197b138a-4c82-4cb4-aa87-a8308f7d1634
+Slug: bala-dream-house-briosco
+Nome: Bala Dream House
+Comune / Provincia: Briosco
+Indirizzo: Via Alessandro Volta, 2, 20843 Verano Brianza MB
+Coordinate: Lat 45.690332, Lng 9.22464
+Website: http://www.baladreamhouse.it/
+Email: 
+
+10997. Agriturismo e Cantina La Sabbiona
+ID: fa4ae1ce-39ea-4db7-8689-be807ba303a1
+Slug: agriturismo-e-cantina-la-sabbiona-brisighella
+Nome: Agriturismo e Cantina La Sabbiona
+Comune / Provincia: Brisighella
+Indirizzo: Via di Oriolo, 10, 48018 Faenza RA
+Coordinate: Lat 44.233624, Lng 11.917768
+Website: http://www.lasabbiona.it/
+Email: 
+
+10998. Albergo La Meridiana
+ID: 38d3c857-6bd2-4a64-8403-6887eff501ad
+Slug: albergo-la-meridiana-brisighella
+Nome: Albergo La Meridiana
+Comune / Provincia: Brisighella
+Indirizzo: Viale delle Terme, 19, 48013 Brisighella RA
+Coordinate: Lat 44.22217, Lng 11.782655
+Website: https://lameridianahotel.it/
+Email: 
+
+10999. Albergo Ristorante La Rocca
+ID: ca87a255-932d-4cb2-9411-55ac4c92a853
+Slug: albergo-ristorante-la-rocca-brisighella
+Nome: Albergo Ristorante La Rocca
+Comune / Provincia: Brisighella
+Indirizzo: Via delle Volte, 10, 48013 Brisighella RA
+Coordinate: Lat 44.223611, Lng 11.771667
+Website: http://www.albergo-larocca.it/
+Email: 
+
+11000. Antico Borgo Hotel-Ristorante
+ID: b7527378-f16c-4d6f-a0b8-d5a5263103fe
+Slug: antico-borgo-hotel-ristorante-brisighella
+Nome: Antico Borgo Hotel-Ristorante
+Comune / Provincia: Brisighella
+Indirizzo: Via Belvedere, 6, 48025 Riolo Terme RA
+Coordinate: Lat 44.274686, Lng 11.722242
+Website: http://www.anticoborgoriolo.it/
+Email: 
+
+11001. B&B Portico di Paola
+ID: 661ecd5e-02fc-4009-8d50-7571458d07ca
+Slug: b-b-portico-di-paola-brisighella
+Nome: B&B Portico di Paola
+Comune / Provincia: Brisighella
+Indirizzo: Via Zolle, 27, 48013 Brisighella RA
+Coordinate: Lat 44.206576, Lng 11.756818
+Website: —
+Email: 
+
+11002. Baccagnano
+ID: 32499f62-15e0-4450-8f9a-2007cb8e3713
+Slug: baccagnano-brisighella
+Nome: Baccagnano
+Comune / Provincia: Brisighella
+Indirizzo: Via Baccagnano, 24, 48013 Brisighella RA
+Coordinate: Lat 44.215765, Lng 11.773234
+Website: http://www.baccagnano.it/
+Email: 
+
+11003. Bed&Wine
+ID: 66a92d11-8649-45b0-81dd-43abae6056c2
+Slug: bed-wine-brisighella
+Nome: Bed&Wine
+Comune / Provincia: Brisighella
+Indirizzo: Via XXIV Maggio, 18, 48013 Brisighella RA
+Coordinate: Lat 44.223935, Lng 11.777358
+Website: http://www.bedwine.com/
+Email: 
+
+11004. Borgo Rossi - Agriturismo Relais
+ID: 542d74a0-f486-403f-aee8-8c8430ab4d6e
+Slug: borgo-rossi-agriturismo-relais-brisighella
+Nome: Borgo Rossi - Agriturismo Relais
+Comune / Provincia: Brisighella
+Indirizzo: Via Purocielo, 3, 48013 Brisighella RA
+Coordinate: Lat 44.170681, Lng 11.688373
+Website: http://www.borgorossi.it/
+Email: 
+
+11005. Brisighella GreenWellness
+ID: 174c21ee-3dd8-4010-9023-906b51aa6d62
+Slug: brisighella-greenwellness-brisighella
+Nome: Brisighella GreenWellness
+Comune / Provincia: Brisighella
+Indirizzo: Via Corte, 86, 48013 Brisighella RA
+Coordinate: Lat 44.195594, Lng 11.715821
+Website: http://www.brisighellagreenwellness.com/
+Email: 
+
+11006. Casa Maghinardo
+ID: c7b6446d-bd13-46ad-9530-167a9f9c011f
+Slug: casa-maghinardo-brisighella
+Nome: Casa Maghinardo
+Comune / Provincia: Brisighella
+Indirizzo: Via Porta Fiorentina, 15, 48013 Brisighella RA
+Coordinate: Lat 44.223281, Lng 11.771896
+Website: https://casamaghinardo.it/
+Email: 
+
+11007. Contea Di Val D'Amone
+ID: 159a6c7c-eee0-4adb-a7e9-205fdc044290
+Slug: contea-di-val-d-amone-brisighella
+Nome: Contea Di Val D'Amone
+Comune / Provincia: Brisighella
+Indirizzo: Via Molino del Rosso, 18, 48013 Brisighella RA
+Coordinate: Lat 44.24279, Lng 11.811436
+Website: http://www.contea-agriturismo.it/
+Email: 
+
+11008. Hotel Albergo Locanda la Cavallina ***
+ID: d7caeef6-b96b-4429-beb3-a7eab5291df9
+Slug: hotel-albergo-locanda-la-cavallina-brisighella
+Nome: Hotel Albergo Locanda la Cavallina ***
+Comune / Provincia: Brisighella
+Indirizzo: Via Moreda, 6, 48013 Brisighella RA
+Coordinate: Lat 44.218855, Lng 11.76947
+Website: http://www.locandalacavallina.it/locanda/it/listino-prezzi
+Email: 
+
+11009. Hotel Cristallo
+ID: 5a8d3feb-0175-4c4f-9d16-584691d99bcc
+Slug: hotel-cristallo-brisighella
+Nome: Hotel Cristallo
+Comune / Provincia: Brisighella
+Indirizzo: Via Firenze, 7, 48025 Riolo Terme RA
+Coordinate: Lat 44.272718, Lng 11.72192
+Website: http://www.cristallohotel.eu/
+Email: 
+
+11010. Hotel Serena
+ID: 57481260-820d-47a4-b656-81db2166cc56
+Slug: hotel-serena-brisighella
+Nome: Hotel Serena
+Comune / Provincia: Brisighella
+Indirizzo: Via Firenze, 16, 48025 Riolo Terme RA
+Coordinate: Lat 44.274769, Lng 11.723389
+Website: http://www.serenahotel.it/
+Email: 
+
+11011. Modus Aquae
+ID: e1ae3172-2307-4070-96fc-881bfd9f0250
+Slug: modus-aquae-brisighella
+Nome: Modus Aquae
+Comune / Provincia: Brisighella
+Indirizzo: Via Bacello, 29, 48013 Brisighella RA
+Coordinate: Lat 44.22649, Lng 11.781544
+Website: http://www.modus-vivendi.it/
+Email: 
+
+11012. Modus Vivendi Hotel & Spa
+ID: f7007ff1-eac9-4662-b13a-9621ff79d2fd
+Slug: modus-vivendi-hotel-spa-brisighella
+Nome: Modus Vivendi Hotel & Spa
+Comune / Provincia: Brisighella
+Indirizzo: Via Roma, 5D, 48013 Brisighella RA
+Coordinate: Lat 44.222589, Lng 11.771082
+Website: http://www.modus-vivendi.it/
+Email: 
+
+11013. Relais Varnello
+ID: cc8bd412-1793-4cd6-b80e-8691863802a8
+Slug: relais-varnello-brisighella
+Nome: Relais Varnello
+Comune / Provincia: Brisighella
+Indirizzo: Via Rontana, 34, 48013 Brisighella RA
+Coordinate: Lat 44.22608, Lng 11.749765
+Website: http://www.varnello.it/
+Email: 
+
+11014. Trerè Agriturismo e Vini a Faenza
+ID: c5b58721-ee48-47d2-ae90-33e2fecde0b8
+Slug: trere-agriturismo-e-vini-a-faenza-brisighella
+Nome: Trerè Agriturismo e Vini a Faenza
+Comune / Provincia: Brisighella
+Indirizzo: Via Casale, 19, 48018 Faenza RA
+Coordinate: Lat 44.300007, Lng 11.805033
+Website: https://trere.com/
+Email: 
+
+11015. Villa Liverzano - Boutique Eco-Agriturismo
+ID: 9d2e45c6-5495-44e8-a10e-0bb43668b2bf
+Slug: villa-liverzano-boutique-eco-agriturismo-brisighella
+Nome: Villa Liverzano - Boutique Eco-Agriturismo
+Comune / Provincia: Brisighella
+Indirizzo: V. Chiesa di Rontana, 10, 48013 Brisighella RA
+Coordinate: Lat 44.21714, Lng 11.740841
+Website: http://www.liverzano.it/
+Email: 
+
+11016. Albergo La Perla
+ID: d43b40c6-4654-47d0-b46c-0e74ffb41684
+Slug: albergo-la-perla-brissago-valtravaglia
+Nome: Albergo La Perla
+Comune / Provincia: Brissago-Valtravaglia
+Indirizzo: Via Passo Piazza, 6, 28826 Trarego VB
+Coordinate: Lat 46.0339, Lng 8.663171
+Website: https://www.laperlatrarego.it/
+Email: 
+
+11017. Bed & Breakfast "La Casa del Borgo"
+ID: 1707213d-a294-446a-8557-b378f5b8e177
+Slug: bed-breakfast-la-casa-del-borgo-brissago-valtravaglia
+Nome: Bed & Breakfast "La Casa del Borgo"
+Comune / Provincia: Brissago-Valtravaglia
+Indirizzo: Via Basso, 10\D, 21030 Brissago-Valtravaglia VA
+Coordinate: Lat 45.949676, Lng 8.748772
+Website: https://beb.it/lacasadelborgo
+Email: 
+
+11018. Affittacamere Le Clocher du Mont Blanc
+ID: e866f437-9273-4572-b364-c20ecd404525
+Slug: affittacamere-le-clocher-du-mont-blanc-brissogne
+Nome: Affittacamere Le Clocher du Mont Blanc
+Comune / Provincia: Brissogne
+Indirizzo: Località Pallù, 140, 11020 Brissogne AO
+Coordinate: Lat 45.73137, Lng 7.38564
+Website: —
+Email: 
+
+11019. Chambres d'Amis • L'Antico Fienile
+ID: 51be9cff-864d-40e6-bbb7-0572eae082f3
+Slug: chambres-d-amis-l-antico-fienile-brissogne
+Nome: Chambres d'Amis • L'Antico Fienile
+Comune / Provincia: Brissogne
+Indirizzo: Frazione Bondina, 11020 Brissogne AO
+Coordinate: Lat 45.721579, Lng 7.42389
+Website: http://www.chambresdamis.eu/
+Email: 
+
+11020. Hotel Biancaneve
+ID: 91a5092a-5d22-4f0a-a778-f8c533c0ddb1
+Slug: hotel-biancaneve-brissogne
+Nome: Hotel Biancaneve
+Comune / Provincia: Brissogne
+Indirizzo: Frazione Neyran Dessus, 70, 11020 Brissogne AO
+Coordinate: Lat 45.729727, Lng 7.413713
+Website: http://www.hotelvalledaosta.com/
+Email: 
+
+11021. Lo Stambecco Bianco B&B - Camere immerse nella natura vicino piste da sci
+ID: c6ef81fc-16d2-4786-9f59-8adc54f27221
+Slug: lo-stambecco-bianco-b-b-camere-immerse-nella-nat-brissogne
+Nome: Lo Stambecco Bianco B&B - Camere immerse nella natura vicino piste da sci
+Comune / Provincia: Brissogne
+Indirizzo: Frazione Grand-Brissogne 72, 11020 Brissogne AO
+Coordinate: Lat 45.724857, Lng 7.392846
+Website: —
+Email: 
+
+11022. AgriRelais San Giovanni
+ID: 6aace6c9-75d4-446a-9865-4cf1fc63e108
+Slug: agrirelais-san-giovanni-brittoli
+Nome: AgriRelais San Giovanni
+Comune / Provincia: Brittoli
+Indirizzo: NUCLEO CAPODACQUA, 36, 67022 Capestrano AQ
+Coordinate: Lat 42.285721, Lng 13.794589
+Website: https://www.agrirelaisangiovanni.com/
+Email: 
+
+11023. Agriturismo La Fara
+ID: df0048d7-0aa8-46f9-be44-bdbee87a836a
+Slug: agriturismo-la-fara-brittoli
+Nome: Agriturismo La Fara
+Comune / Provincia: Brittoli
+Indirizzo: Contrada Fara, 23, 65010 Carpineto della Nora PE
+Coordinate: Lat 42.32957, Lng 13.85515
+Website: —
+Email: 
+
+11024. Agriturismo La Fattoria Di Maria Donata
+ID: 5bd2904d-90f6-4b73-96ac-acd6639985f9
+Slug: agriturismo-la-fattoria-di-maria-donata-brittoli
+Nome: Agriturismo La Fattoria Di Maria Donata
+Comune / Provincia: Brittoli
+Indirizzo: Contrada Cesura, 65020 Cugnoli PE
+Coordinate: Lat 42.313445, Lng 13.96189
+Website: https://agriturismolafattoriadimariadonata.com/
+Email: 
+
+11025. AGRITURISMO LA LINDERA
+ID: 7b81eb39-a128-4ae4-ad2d-3b01fde1f265
+Slug: agriturismo-la-lindera-brittoli
+Nome: AGRITURISMO LA LINDERA
+Comune / Provincia: Brittoli
+Indirizzo: VIA LINDERA, 7, 65020 Corvara PE
+Coordinate: Lat 42.288652, Lng 13.89572
+Website: —
+Email: 

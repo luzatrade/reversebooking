@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+1681. Vittoria
+ID: 923de1a2-6228-4347-8a05-8dba97fb7a7f
+Slug: vittoria-albisola-superiore
+Nome: Vittoria
+Comune / Provincia: Albisola Superiore
+Indirizzo: Viale Giovanni Battista Perata, 17012 Albissola Marina SV
+Coordinate: Lat 44.332718, Lng 8.504817
+Website: https://www.booking.com/hotel/it/vittoria-albissola.it.html?aid=334359
+Email: 
+
+1682. Albergo Belvedere
+ID: fc667626-157a-40d3-a517-ef7386d442b9
+Slug: albergo-belvedere-albissola-marina
+Nome: Albergo Belvedere
+Comune / Provincia: Albissola Marina
+Indirizzo: Via F. Gentile, 62, 17012 Albissola Marina SV
+Coordinate: Lat 44.325162, Lng 8.494795
+Website: http://www.belvederealbissola.it/
+Email: 
+
+1683. B&B HOTEL Riviera Celle Ligure
+ID: 5c06dc24-592e-4068-9401-19716686ecb6
+Slug: b-b-hotel-riviera-celle-ligure-albissola-marina
+Nome: B&B HOTEL Riviera Celle Ligure
+Comune / Provincia: Albissola Marina
+Indirizzo: Via Federico Colla, 55, 17015 Celle Ligure SV
+Coordinate: Lat 44.343062, Lng 8.544384
+Website: https://www.hotel-bb.com/it/hotel/celle-ligure
+Email: 
+
+1684. B&B HOTEL Savona
+ID: bf60baf0-1e98-44bd-bedb-016e7ac20126
+Slug: b-b-hotel-savona-albissola-marina
+Nome: B&B HOTEL Savona
+Comune / Provincia: Albissola Marina
+Indirizzo: Via Nizza, 62, 17100 Savona SV
+Coordinate: Lat 44.290779, Lng 8.452842
+Website: https://www.hotel-bb.com/it/hotel/savona?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext
+Email: 
+
+1685. Bed & Breakfast Gioiello
+ID: fdc9e745-0179-4e24-87c6-7fc41b7643e7
+Slug: bed-breakfast-gioiello-albissola-marina
+Nome: Bed & Breakfast Gioiello
+Comune / Provincia: Albissola Marina
+Indirizzo: Via Monte Tabor, 65, 17015 Celle Ligure SV
+Coordinate: Lat 44.346034, Lng 8.552441
+Website: https://www.hotelbbgioiello.it/
+Email: 
+
+1686. Camera Asia
+ID: d4db39cd-acbe-4fe7-9b41-af237da7544d
+Slug: camera-asia-albissola-marina
+Nome: Camera Asia
+Comune / Provincia: Albissola Marina
+Indirizzo: Via Poggio dell'Orizzonte, 63, 17012 Albissola Marina SV
+Coordinate: Lat 44.329301, Lng 8.493718
+Website: https://www.booking.com/hotel/it/camera-asia.it.html?aid=334359
+Email: 
+
+1687. Hotel Nuovo Metropol
+ID: f1ddf9dc-e33d-4707-b31b-b95915077b7f
+Slug: hotel-nuovo-metropol-albissola-marina
+Nome: Hotel Nuovo Metropol
+Comune / Provincia: Albissola Marina
+Indirizzo: Via Filippo Gentile, 1, 17012 Albissola Marina SV
+Coordinate: Lat 44.325228, Lng 8.499383
+Website: http://www.nuovometropol.it/
+Email: 
+
+1688. Joy bandb
+ID: f592d721-5b6e-44ca-90cb-9365fe9f87a5
+Slug: joy-bandb-albissola-marina
+Nome: Joy bandb
+Comune / Provincia: Albissola Marina
+Indirizzo: Via Barrili, 6, 17012 Albissola Marina SV
+Coordinate: Lat 44.327154, Lng 8.496535
+Website: https://joy-bandb.alberghiinitalia.top/
+Email: 
+
+1689. Ostello "Le Stuoie"
+ID: a06b7dfa-a564-4a6c-9dbc-4578dd7b7fd0
+Slug: ostello-le-stuoie-albissola-marina
+Nome: Ostello "Le Stuoie"
+Comune / Provincia: Albissola Marina
+Indirizzo: Via Italia, 49, 17012 Albissola Marina SV
+Coordinate: Lat 44.327952, Lng 8.503849
+Website: http://www.lestuoiehostel.it/
+Email: 
+
+1690. Agriturismo Laghi d'Insubria Albizzate.
+ID: 7ea1cf20-289b-4f3b-95cd-d4271567b4e6
+Slug: agriturismo-laghi-d-insubria-albizzate-albizzate
+Nome: Agriturismo Laghi d'Insubria Albizzate.
+Comune / Provincia: Albizzate
+Indirizzo: Via Cascina Bertolina, 5, 21041 Albizzate VA
+Coordinate: Lat 45.720431, Lng 8.786781
+Website: http://www.vitinsubria.it/
+Email: 
+
+1691. B&B il Cortile
+ID: 5e817a3b-92bd-43c0-86ee-078aaf2e0d0f
+Slug: b-b-il-cortile-albizzate
+Nome: B&B il Cortile
+Comune / Provincia: Albizzate
+Indirizzo: Via Torino, 63, 21011 Casorate Sempione VA
+Coordinate: Lat 45.673485, Lng 8.739192
+Website: https://www.bebilcortilemalpensa.it/
+Email: 
+
+1692. B&B Il Pozzo Malpensa
+ID: 0df2bf6e-068b-4655-8557-8ea80dd5cebb
+Slug: b-b-il-pozzo-malpensa-albizzate
+Nome: B&B Il Pozzo Malpensa
+Comune / Provincia: Albizzate
+Indirizzo: Via Piave, 17, 21011 Casorate Sempione VA
+Coordinate: Lat 45.67001, Lng 8.740894
+Website: http://www.bebmalpensa.it/
+Email: 
+
+1693. B&B Le Magnolie
+ID: 135f4f2e-29d2-4b34-ba65-461dc59c9605
+Slug: b-b-le-magnolie-albizzate
+Nome: B&B Le Magnolie
+Comune / Provincia: Albizzate
+Indirizzo: Via Giovanni Segantini, 2, 21013 Gallarate VA
+Coordinate: Lat 45.67633, Lng 8.797915
+Website: http://www.bblemagnolie.com/
+Email: 
+
+1694. Epicuro Guest House
+ID: da0a3a05-843a-45bb-a598-612392cf11c4
+Slug: epicuro-guest-house-albizzate
+Nome: Epicuro Guest House
+Comune / Provincia: Albizzate
+Indirizzo: Via L Melzi, 12, 21019 Somma Lombardo VA
+Coordinate: Lat 45.684942, Lng 8.707903
+Website: https://luisstravelexperience.eu/epicuro-guest-house-italy
+Email: 
+
+1695. Hilton Garden Inn Milan Malpensa
+ID: d8d9826b-6aae-4e95-8f21-840e0521361b
+Slug: hilton-garden-inn-milan-malpensa-albizzate
+Nome: Hilton Garden Inn Milan Malpensa
+Comune / Provincia: Albizzate
+Indirizzo: Via Lazzaretto, 1, 21019 Somma Lombardo VA
+Coordinate: Lat 45.695517, Lng 8.70176
+Website: https://www.hilton.com/en/hotels/mxpangi-hilton-garden-inn-milan-malpensa/?SEO_id=GMB-EMEA-GI-MXPANGI
+Email: 
+
+1696. Home Sweet Home Milano Malpensa Airport
+ID: 53489588-336f-496d-ab29-1f160afe0aac
+Slug: home-sweet-home-milano-malpensa-airport-albizzate
+Nome: Home Sweet Home Milano Malpensa Airport
+Comune / Provincia: Albizzate
+Indirizzo: Via Giovanni XXIII, 108, 21010 Cardano al Campo VA
+Coordinate: Lat 45.653613, Lng 8.766917
+Website: https://staying-at.life/home-sweet-home-cardano-al-campo-italy
+Email: 
+
+1697. Hotel Italia
+ID: 4874e49e-805f-4bcb-ba6b-4bc489aa7dd7
+Slug: hotel-italia-albizzate
+Nome: Hotel Italia
+Comune / Provincia: Albizzate
+Indirizzo: Via Corgeno, 42, 21029 Vergiate VA
+Coordinate: Lat 45.72793, Lng 8.688358
+Website: http://italiaalbergo.it/
+Email: 
+
+1698. Hotel Osteria della Pista
+ID: 0efe321c-910f-41b6-b29f-f56d2bcc28e1
+Slug: hotel-osteria-della-pista-albizzate
+Nome: Hotel Osteria della Pista
+Comune / Provincia: Albizzate
+Indirizzo: Via Verbano, 1, 21011 Casorate Sempione VA
+Coordinate: Lat 45.674284, Lng 8.739958
+Website: http://www.osteriadellapista.com/
+Email: 
+
+1699. Hotel Residence Montelago
+ID: 741d07aa-59a3-465c-98eb-f0ea42cde039
+Slug: hotel-residence-montelago-albizzate
+Nome: Hotel Residence Montelago
+Comune / Provincia: Albizzate
+Indirizzo: Via Roma, 32/34, 21020 Ternate VA
+Coordinate: Lat 45.779578, Lng 8.698155
+Website: http://www.hotelmontelago.com/
+Email: 
+
+1700. Hotel Roma
+ID: ddbb7f94-eb86-4694-90f4-b5ad6f37ac3f
+Slug: hotel-roma-albizzate
+Nome: Hotel Roma
+Comune / Provincia: Albizzate
+Indirizzo: Via IV Novembre, 37, 21012 Cassano Magnago VA
+Coordinate: Lat 45.672455, Lng 8.823633
+Website: http://www.hotelromacassano.com/
+Email: 
+
+1701. Il Casolare del Medio Olona
+ID: ff0539ee-4471-490a-91e9-98461f3f0959
+Slug: il-casolare-del-medio-olona-albizzate
+Nome: Il Casolare del Medio Olona
+Comune / Provincia: Albizzate
+Indirizzo: Via Balzarine, 87, 21054 Fagnano Olona VA
+Coordinate: Lat 45.677816, Lng 8.879982
+Website: http://www.ilcasolaredelmedioolona.eu/
+Email: 
+
+1702. La Casa nel Bosco
+ID: 3c3c885b-0321-4362-a501-93c791f3db6d
+Slug: la-casa-nel-bosco-albizzate
+Nome: La Casa nel Bosco
+Comune / Provincia: Albizzate
+Indirizzo: Via I. Bianco, 52, 21019 Somma Lombardo VA
+Coordinate: Lat 45.6945, Lng 8.704683
+Website: http://www.lacasanelbosco.it/
+Email: 
+
+1703. Orange Motel
+ID: 40232911-667f-4ff6-b38f-4b5f46071745
+Slug: orange-motel-albizzate
+Nome: Orange Motel
+Comune / Provincia: Albizzate
+Indirizzo: Via Corgeno, 46, 21029 Vergiate VA
+Coordinate: Lat 45.72813, Lng 8.688831
+Website: http://www.orangemotel.it/
+Email: 
+
+1704. Residence Mxp rooms
+ID: 25215719-938e-41df-bc64-f01991c20d7a
+Slug: residence-mxp-rooms-albizzate
+Nome: Residence Mxp rooms
+Comune / Provincia: Albizzate
+Indirizzo: Via dell'Ongaro, 8, 21010 Cardano al Campo VA
+Coordinate: Lat 45.645301, Lng 8.76359
+Website: http://www.mxp-rooms.it/
+Email: 
+
+1705. Stay Hotel
+ID: 10fc6baa-273d-4017-8273-2f5e5b0b77d8
+Slug: stay-hotel-albizzate
+Nome: Stay Hotel
+Comune / Provincia: Albizzate
+Indirizzo: Via Gallarate, 2, 21020 Brunello VA
+Coordinate: Lat 45.766676, Lng 8.812269
+Website: https://www.stay-hotel.it/
+Email: 
+
+1706. The Dreamers B&B
+ID: 13a3d691-5eaa-4e3a-aff2-b669cfb79c79
+Slug: the-dreamers-b-b-albizzate
+Nome: The Dreamers B&B
+Comune / Provincia: Albizzate
+Indirizzo: Via Daniele Manin, 19, 21010 Cardano Al Campo VA
+Coordinate: Lat 45.644442, Lng 8.776778
+Website: https://thedreamersbandb.top/
+Email: 
+
+1707. Villa le Rondini
+ID: 2f0214b7-6977-47b9-91dd-12d9fd4535f5
+Slug: villa-le-rondini-albizzate
+Nome: Villa le Rondini
+Comune / Provincia: Albizzate
+Indirizzo: Via Cavour, 22, 21040 Castronno VA
+Coordinate: Lat 45.745396, Lng 8.812639
+Website: https://www.facebook.com/bbvillalerondini2014
+Email: 
+
+1708. ZEUS Essence Dolce by Wyndham MIlan Malpensa
+ID: 6923c543-870d-4699-8e7f-1f9ea3e0679c
+Slug: zeus-essence-dolce-by-wyndham-milan-malpensa-albizzate
+Nome: ZEUS Essence Dolce by Wyndham MIlan Malpensa
+Comune / Provincia: Albizzate
+Indirizzo: Via Giuseppe Mazzini, 63, 21019 Somma Lombardo VA
+Coordinate: Lat 45.692249, Lng 8.702048
+Website: https://www.zeusintl.com/zeus-essence-dolce-milan-malpensa
+Email: 
+
+1709. B&B La Castellana
+ID: e3d00a4c-a3f6-4cd4-ae4e-243b8e17a685
+Slug: b-b-la-castellana-albonese
+Nome: B&B La Castellana
+Comune / Provincia: Albonese
+Indirizzo: Via Castellana, 4, 28071 Borgolavezzaro NO
+Coordinate: Lat 45.324454, Lng 8.697117
+Website: http://bblacastellananovara.com/
+Email: 
+
+1710. Cascina Mora Bassa
+ID: e33a4d11-7243-4d9f-833a-a6b5b35e9dea
+Slug: cascina-mora-bassa-albonese
+Nome: Cascina Mora Bassa
+Comune / Provincia: Albonese
+Indirizzo: Str. Morabassa, 18, 27029 Vigevano PV
+Coordinate: Lat 45.329188, Lng 8.860172
+Website: http://www.morabassa.it/
+Email: 
+
+1711. Croce di Malta
+ID: ffea4326-4514-49e1-b168-ae30566949d2
+Slug: croce-di-malta-albonese
+Nome: Croce di Malta
+Comune / Provincia: Albonese
+Indirizzo: Via Giulio Biglieri, 2a, 28100 Novara NO
+Coordinate: Lat 45.446389, Lng 8.613333
+Website: http://www.crocedimaltanovara.it/
+Email: 
+
+1712. Hotel Cristallo
+ID: 426e9856-ae4d-43a0-a6a0-df8d49603b7e
+Slug: hotel-cristallo-albonese
+Nome: Hotel Cristallo
+Comune / Provincia: Albonese
+Indirizzo: Corso Milano, 60D, 28100 Novara NO
+Coordinate: Lat 45.444281, Lng 8.646812
+Website: https://hotelcristallonovara.it/it/
+Email: 
+
+1713. Hotel Ducale
+ID: 21c4a4e5-5ddc-4b46-b16d-17b37d63d454
+Slug: hotel-ducale-albonese
+Nome: Hotel Ducale
+Comune / Provincia: Albonese
+Indirizzo: Via G. G. Trivulzio, 8, 27029 Vigevano PV
+Coordinate: Lat 45.31839, Lng 8.853187
+Website: http://hotel-ducale.org.es/
+Email: 
+
+1714. Hotel Ristorante Pizzeria Cavallo Bianco
+ID: fb76e4f1-a25e-47fe-ac8d-00ab5f4ff6bb
+Slug: hotel-ristorante-pizzeria-cavallo-bianco-albonese
+Nome: Hotel Ristorante Pizzeria Cavallo Bianco
+Comune / Provincia: Albonese
+Indirizzo: Corso della Vittoria, 6/B, 28100 Novara NO
+Coordinate: Lat 45.451163, Lng 8.622603
+Website: https://www.hotelcavallobianco.com/
+Email: 
+
+1715. Hotel Stazione
+ID: 0466dedc-bc2e-4dde-bf77-4aecc2791a4a
+Slug: hotel-stazione-albonese
+Nome: Hotel Stazione
+Comune / Provincia: Albonese
+Indirizzo: Viale Alessandro Manzoni, 4C, 28100 Novara NO
+Coordinate: Lat 45.450452, Lng 8.624711
+Website: http://www.hotelstazionenovara.it/
+Email: 

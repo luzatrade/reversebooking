@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+14246. B&B Casa Delfina
+ID: 1d4a8b9b-2089-4f74-911d-c0d702d2224d
+Slug: b-b-casa-delfina-capoterra
+Nome: B&B Casa Delfina
+Comune / Provincia: Capoterra
+Indirizzo: Via Trento, 45, 09012 Capoterra CA
+Coordinate: Lat 39.176144, Lng 8.97318
+Website: —
+Email: 
+
+14247. B&B Il Fenicottero
+ID: 732150eb-88ab-4648-b268-d5a8697a5477
+Slug: b-b-il-fenicottero-capoterra
+Nome: B&B Il Fenicottero
+Comune / Provincia: Capoterra
+Indirizzo: Via Lombardia, 71, 09012 Capoterra CA
+Coordinate: Lat 39.181851, Lng 8.965235
+Website: http://bnb-il-fenicottero-cagliari.com.es/
+Email: 
+
+14248. B&B Montrabu
+ID: e9be622d-ad05-4827-aef3-3ffdcfb2a7f2
+Slug: b-b-montrabu-capoterra
+Nome: B&B Montrabu
+Comune / Provincia: Capoterra
+Indirizzo: Traversa di Via della Vittoria, 09, 09012 Capoterra CA
+Coordinate: Lat 39.177315, Lng 8.965137
+Website: http://www.bnbmontrabu.it/
+Email: 
+
+14249. B&B Villa Chederina
+ID: e659410a-b4cb-4ccf-ba5f-609923ac0184
+Slug: b-b-villa-chederina-capoterra
+Nome: B&B Villa Chederina
+Comune / Provincia: Capoterra
+Indirizzo: Via Regina Margherita, 54, 09012 Capoterra CA
+Coordinate: Lat 39.176639, Lng 8.973041
+Website: —
+Email: 
+
+14250. Bed and breakfast SU PRESCIU
+ID: e363678c-26fb-42c7-a579-eb575e3cfd6a
+Slug: bed-and-breakfast-su-presciu-capoterra
+Nome: Bed and breakfast SU PRESCIU
+Comune / Provincia: Capoterra
+Indirizzo: Via Armando Diaz, 25, 09012 Capoterra CA
+Coordinate: Lat 39.173713, Lng 8.971617
+Website: https://www.booking.com/Share-k0uEBQ
+Email: 
+
+14251. Casa Corona
+ID: 48ed8bc1-5fc0-43fa-86e2-a45887b9905a
+Slug: casa-corona-capoterra
+Nome: Casa Corona
+Comune / Provincia: Capoterra
+Indirizzo: Via Matteotti, 20, 09012 Capoterra CA
+Coordinate: Lat 39.172674, Lng 8.971247
+Website: http://capoterra.com.es/
+Email: 
+
+14252. Corte Maddalena
+ID: c1f01db2-2834-45e2-b4d5-00961a4c27ed
+Slug: corte-maddalena-capoterra
+Nome: Corte Maddalena
+Comune / Provincia: Capoterra
+Indirizzo: S.da Statale 195 Sulcitana, 09012 Capoterra CA
+Coordinate: Lat 39.15639, Lng 9.024747
+Website: http://www.cortemaddalena.com/
+Email: 
+
+14253. Gentarrubia B&B
+ID: 7b5f2fbc-3ee8-4dda-a23d-1ad500dbe89e
+Slug: gentarrubia-b-b-capoterra
+Nome: Gentarrubia B&B
+Comune / Provincia: Capoterra
+Indirizzo: Via Berna, 8, 09012 La Maddalena CA
+Coordinate: Lat 39.141462, Lng 9.002832
+Website: https://www.gentarrubia.com/
+Email: 
+
+14254. Holiday Inn Cagliari
+ID: cdd95fe5-0c9d-4ead-8e8a-3874bc1bdaff
+Slug: holiday-inn-cagliari-capoterra
+Nome: Holiday Inn Cagliari
+Comune / Provincia: Capoterra
+Indirizzo: Viale Umberto Ticca, 23, 09122 Cagliari CA
+Coordinate: Lat 39.258652, Lng 9.092639
+Website: https://www.hicagliari.com/
+Email: 
+
+14255. Hotel Santa Gilla
+ID: 602aef01-123d-426f-8998-622ae4df3628
+Slug: hotel-santa-gilla-capoterra
+Nome: Hotel Santa Gilla
+Comune / Provincia: Capoterra
+Indirizzo: Via Ustica, 13, 09012 Capoterra CA
+Coordinate: Lat 39.156246, Lng 9.019224
+Website: http://www.hotelsantagilla.it/
+Email: 
+
+14256. Hotel Tanca Irde
+ID: 8405b4d3-856a-46f7-8675-7246c457c089
+Slug: hotel-tanca-irde-capoterra
+Nome: Hotel Tanca Irde
+Comune / Provincia: Capoterra
+Indirizzo: Località Fra Giuanni, 09012 Capoterra CA
+Coordinate: Lat 39.151567, Lng 8.994398
+Website: http://www.tancairde.it/
+Email: 
+
+14257. S'Imbragu B&B
+ID: 9b7e0c02-db60-4964-95d9-09667436f596
+Slug: s-imbragu-b-b-capoterra
+Nome: S'Imbragu B&B
+Comune / Provincia: Capoterra
+Indirizzo: Via Santa Barbara, 13, 09012 Capoterra CA
+Coordinate: Lat 39.174732, Lng 8.969182
+Website: —
+Email: 
+
+14258. Sa Sindria - Cagliari
+ID: 43dd0e68-0174-4aa0-a1d6-6477dffc0cc3
+Slug: sa-sindria-cagliari-capoterra
+Nome: Sa Sindria - Cagliari
+Comune / Provincia: Capoterra
+Indirizzo: Viale Sant'Avendrace, 351, 09122 Cagliari CA
+Coordinate: Lat 39.233693, Lng 9.097625
+Website: https://bbsasindria.wixsite.com/cagliari
+Email: 
+
+14259. Villa Donna Maria
+ID: 74e25aa8-8bd7-4bf0-af62-20e2a4dfc432
+Slug: villa-donna-maria-capoterra
+Nome: Villa Donna Maria
+Comune / Provincia: Capoterra
+Indirizzo: Corso A.Gramsci, 23, 09012 Capoterra CA
+Coordinate: Lat 39.177223, Lng 8.97077
+Website: http://www.villadonnamaria.it/
+Email: 
+
+14260. B&B Il castello di Denisa
+ID: b410b139-8b5b-49b6-9ea7-d964aa31e790
+Slug: b-b-il-castello-di-denisa-capovalle
+Nome: B&B Il castello di Denisa
+Comune / Provincia: Capovalle
+Indirizzo: Via Castello, 4, 25074 Idro BS
+Coordinate: Lat 45.73471, Lng 10.46702
+Website: —
+Email: 
+
+14261. B&B La Casa di Barbara
+ID: 596544bf-dd13-4a8a-879b-7bba62bada79
+Slug: b-b-la-casa-di-barbara-capovalle
+Nome: B&B La Casa di Barbara
+Comune / Provincia: Capovalle
+Indirizzo: Via Balotello, 3, 25074 Crone BS
+Coordinate: Lat 45.740359, Lng 10.484307
+Website: https://beblacasadibarbaraidro.it/
+Email: 
+
+14262. Casa Paola
+ID: 29e3b5c8-af48-4fb8-a6db-7b940915742f
+Slug: casa-paola-capovalle
+Nome: Casa Paola
+Comune / Provincia: Capovalle
+Indirizzo: CRV s.r.l, Via Sasse, 40, 25074 Idro BS
+Coordinate: Lat 45.78033, Lng 10.523591
+Website: https://www.lakeidro.com/
+Email: 
+
+14263. Hotel, Bar, Gelateria Alpino
+ID: 652ff200-f57b-4b5c-83ca-f51786b2d5a5
+Slug: hotel-bar-gelateria-alpino-capovalle
+Nome: Hotel, Bar, Gelateria Alpino
+Comune / Provincia: Capovalle
+Indirizzo: Via Lungo Lago Vittoria, 14, 25074 Crone BS
+Coordinate: Lat 45.740376, Lng 10.480753
+Website: http://www.hotelalpino.net/
+Email: 
+
+14264. Sportcamping & Glamping Resort Rio Vantone
+ID: af078415-feb7-4c6c-87e3-28279713f3f7
+Slug: sportcamping-glamping-resort-rio-vantone-capovalle
+Nome: Sportcamping & Glamping Resort Rio Vantone
+Comune / Provincia: Capovalle
+Indirizzo: Via Vantone, 45, 25074 Idro BS
+Coordinate: Lat 45.754041, Lng 10.497649
+Website: https://www.lakeidro.com/
+Email: 
+
+14265. Albergo Ristorante La Lucciola
+ID: 00d0fd4b-24c6-487f-90fb-bf15b37d9460
+Slug: albergo-ristorante-la-lucciola-cappadocia
+Nome: Albergo Ristorante La Lucciola
+Comune / Provincia: Cappadocia
+Indirizzo: Via Giorgina, 4, 67069 Tagliacozzo AQ
+Coordinate: Lat 42.07128, Lng 13.256112
+Website: https://www.facebook.com/albergo.lalucciola.7
+Email: 
+
+14266. Azienda Agrituristica La Giarda
+ID: 3b04c7af-9c31-4868-8d17-96a2ed515ffc
+Slug: azienda-agrituristica-la-giarda-cappadocia
+Nome: Azienda Agrituristica La Giarda
+Comune / Provincia: Cappadocia
+Indirizzo: Via Valeria, km 102/200, 67069 Tagliacozzo AQ
+Coordinate: Lat 42.052601, Lng 13.305477
+Website: https://www.lagiarda.it/
+Email: 
+
+14267. Europing Di Marsia
+ID: 0067b784-0aee-4cdf-a7bb-7846cd6b36fc
+Slug: europing-di-marsia-cappadocia
+Nome: Europing Di Marsia
+Comune / Provincia: Cappadocia
+Indirizzo: 67069 Tagliacozzo AQ
+Coordinate: Lat 42.056208, Lng 13.195113
+Website: https://europing-di-marsia.amolitalia.top/
+Email: 
+
+14268. Hotel Park
+ID: 7042cb61-9755-40f4-987f-a23000156848
+Slug: hotel-park-cappadocia
+Nome: Hotel Park
+Comune / Provincia: Cappadocia
+Indirizzo: Via Tiburtina Valeria, Km 99, 67069 Tagliacozzo AQ
+Coordinate: Lat 42.06882, Lng 13.275592
+Website: http://www.hotelparktagliacozzo.it/
+Email: 
+
+14269. Hotel ristorante pizzeria MIRAMONTI
+ID: e5c78848-0b8c-4b6c-992c-a73cc476395b
+Slug: hotel-ristorante-pizzeria-miramonti-cappadocia
+Nome: Hotel ristorante pizzeria MIRAMONTI
+Comune / Provincia: Cappadocia
+Indirizzo: SS 5 Tiburtina Valeria var, 87, 67069 Tagliacozzo AQ
+Coordinate: Lat 42.071129, Lng 13.258081
+Website: http://miramontitagliacozzo.it/
+Email: 
+
+14270. La Rondine
+ID: 6ce56cc0-1ec6-4805-a975-4925f9c28de9
+Slug: la-rondine-cappadocia
+Nome: La Rondine
+Comune / Provincia: Cappadocia
+Indirizzo: Via Borgo Nuovo, 22, 67069 Tagliacozzo AQ
+Coordinate: Lat 42.068026, Lng 13.252509
+Website: https://larondine.tripcombined.com/
+Email: 
+
+14271. Dellearti Design Hotel
+ID: 10dc090b-b447-4e0e-8dcc-e5663c7d00be
+Slug: dellearti-design-hotel-cappella-cantone
+Nome: Dellearti Design Hotel
+Comune / Provincia: Cappella Cantone
+Indirizzo: Via Geremia Bonomelli, 8, 26100 Cremona CR
+Coordinate: Lat 45.132873, Lng 10.026998
+Website: https://www.dellearti.com/
+Email: 
+
+14272. Foresteria La Vista
+ID: 60b67411-77a9-42cb-9d07-0359b7d525e8
+Slug: foresteria-la-vista-cappella-cantone
+Nome: Foresteria La Vista
+Comune / Provincia: Cappella Cantone
+Indirizzo: Piazza Sant'Antonio Maria Zaccaria, 7, 26100 Cremona CR
+Coordinate: Lat 45.132907, Lng 10.025033
+Website: http://www.foresterialavista.com/
+Email: 
+
+14273. Hotel Astoria Cremona
+ID: 27e7e0df-0282-4dfa-b4f4-9385c5f09c50
+Slug: hotel-astoria-cremona-cappella-cantone
+Nome: Hotel Astoria Cremona
+Comune / Provincia: Cappella Cantone
+Indirizzo: Via Solferino, 9, 26100 Cremona CR
+Coordinate: Lat 45.134626, Lng 10.024318
+Website: http://www.hotelastoriacremona.com/
+Email: 
+
+14274. Hotel Duomo
+ID: 6b995202-ae6b-4d9b-b838-e7a0b923ad6f
+Slug: hotel-duomo-cappella-cantone
+Nome: Hotel Duomo
+Comune / Provincia: Cappella Cantone
+Indirizzo: Via dei Gonfalonieri, 13, 26100 Cremona CR
+Coordinate: Lat 45.13309, Lng 10.024298
+Website: https://hotelduomocremona.com/
+Email: 
+
+14275. Hotel impero
+ID: 6f6d5b8d-e1ac-48a3-a77f-408af69e1cda
+Slug: hotel-impero-cappella-cantone
+Nome: Hotel impero
+Comune / Provincia: Cappella Cantone
+Indirizzo: Piazza Della Pace, 21, 26100 Cremona CR
+Coordinate: Lat 45.132957, Lng 10.023216
+Website: http://hotelimpero.cr.it/
+Email: 
+
+14276. Palazzo Guazzoni Zaccaria
+ID: 3d560ada-175c-4a23-87f0-75afdb8b6464
+Slug: palazzo-guazzoni-zaccaria-cappella-cantone
+Nome: Palazzo Guazzoni Zaccaria
+Comune / Provincia: Cappella Cantone
+Indirizzo: Corso Pietro Vacchelli, 60, 26100 Cremona CR
+Coordinate: Lat 45.134103, Lng 10.032652
+Website: https://www.palazzoguazzoni.com/
+Email: 
+
+14277. Agriturismo San Carlo
+ID: ba8f8cb3-e4db-4e19-81e3-f07c5eb0dfa5
+Slug: agriturismo-san-carlo-cappella-de-picenardi
+Nome: Agriturismo San Carlo
+Comune / Provincia: Cappella de' Picenardi
+Indirizzo: Piazza Martiri della Libertà, 22, 26033 Cremona CR
+Coordinate: Lat 45.184722, Lng 10.223333
+Website: —
+Email: 
+
+14278. Hotel Ristorante Palazzo Quaranta
+ID: 112d73a2-4cc9-410d-8ca1-fa1ad7e234bb
+Slug: hotel-ristorante-palazzo-quaranta-cappella-de-picenardi
+Nome: Hotel Ristorante Palazzo Quaranta
+Comune / Provincia: Cappella de' Picenardi
+Indirizzo: Via Largo della Vittoria, Snc, 26031 Isola Dovarese CR
+Coordinate: Lat 45.175348, Lng 10.312718
+Website: https://www.palazzoquaranta.it/
+Email: 
+
+14279. Agriturismo Il Bosco
+ID: abce192f-5cf5-4f8f-8678-c6b11572c0f1
+Slug: agriturismo-il-bosco-cappella-maggiore
+Nome: Agriturismo Il Bosco
+Comune / Provincia: Cappella Maggiore
+Indirizzo: Via Maren, 7, 31029 Vittorio Veneto TV
+Coordinate: Lat 46.023375, Lng 12.306013
+Website: http://www.agriturismoilbosco.com/
+Email: 
+
+14280. Agriturismo Lemire
+ID: 4436af9d-5a60-452c-97a2-1cbd9c3bbe9d
+Slug: agriturismo-lemire-cappella-maggiore
+Nome: Agriturismo Lemire
+Comune / Provincia: Cappella Maggiore
+Indirizzo: Via Maset, 55, 31020 San Pietro di Feletto TV
+Coordinate: Lat 45.935072, Lng 12.247791
+Website: https://www.lemire.it/
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+13021. Amaranto B&B
+ID: dfce526c-21fa-4c8c-97a1-fe0878815376
+Slug: amaranto-b-b-campiglione-fenile
+Nome: Amaranto B&B
+Comune / Provincia: Campiglione Fenile
+Indirizzo: Via Cavour, 51, 10060 Campiglione Fenile TO
+Coordinate: Lat 44.795047, Lng 7.343922
+Website: http://www.amarantobeb.it/
+Email: 
+
+13022. Azienda Agrituristica Cascina Nuova
+ID: 4287a74a-1f15-4737-9c7e-114fba8606ca
+Slug: azienda-agrituristica-cascina-nuova-campiglione-fenile
+Nome: Azienda Agrituristica Cascina Nuova
+Comune / Provincia: Campiglione Fenile
+Indirizzo: Via Soleabò, 27, 12032 Barge CN
+Coordinate: Lat 44.730663, Lng 7.408115
+Website: http://www.agriturismocascinanuova.com/
+Email: 
+
+13023. Le 5 Frecce
+ID: 4841ab2f-0e2f-4a11-9f93-ba8c330114eb
+Slug: le-5-frecce-campiglione-fenile
+Nome: Le 5 Frecce
+Comune / Provincia: Campiglione Fenile
+Indirizzo: Strada Vecchia di Pinerolo, 6, 10060 Campiglione Fenile TO
+Coordinate: Lat 44.800704, Lng 7.327103
+Website: http://www.5frecce.com/
+Email: 
+
+13024. Agriturismo "Pri Cirili"
+ID: e8581dc9-c331-4cc5-ac0f-666f635bbe2e
+Slug: agriturismo-pri-cirili-campione-d-italia
+Nome: Agriturismo "Pri Cirili"
+Comune / Provincia: Campione d'Italia
+Indirizzo: Via L. Bratuz, 6, 34070 Doberdò del Lago GO
+Coordinate: Lat 45.84701, Lng 13.536729
+Website: http://www.matej.it/
+Email: 
+
+13025. Agriturismo ai Feudi
+ID: 3ca2b7ff-c671-42b3-a6ea-9b4c0df0a6a9
+Slug: agriturismo-ai-feudi-campione-d-italia
+Nome: Agriturismo ai Feudi
+Comune / Provincia: Campione d'Italia
+Indirizzo: Via Venuti, 11, 34072 Gradisca d'Isonzo GO
+Coordinate: Lat 45.89233, Lng 13.468276
+Website: http://www.agriturismoaifeudi.it/
+Email: 
+
+13026. Agriturismo alla Madonna Azienda agricola Paolo Vidoz
+ID: 75ac1f3d-36af-4cc2-a473-a0dbbaa13eb3
+Slug: agriturismo-alla-madonna-azienda-agricola-paolo-campione-d-italia
+Nome: Agriturismo alla Madonna Azienda agricola Paolo Vidoz
+Comune / Provincia: Campione d'Italia
+Indirizzo: Stradone della Mainizza, 424, 34170 Gorizia GO
+Coordinate: Lat 45.91193, Lng 13.555906
+Website: https://www.facebook.com/AgriturismoAllaMadonna
+Email: 
+
+13027. Agriturismo Casa Campione
+ID: 2f4f574a-cf1c-4330-ac93-f26d93961a2b
+Slug: agriturismo-casa-campione-campione-d-italia
+Nome: Agriturismo Casa Campione
+Comune / Provincia: Campione d'Italia
+Indirizzo: Località Il Paduletto Frazione, Vicino Vivaio Forestale Le Venaie, 58036 Sticciano Scalo GR
+Coordinate: Lat 42.974479, Lng 11.152232
+Website: —
+Email: 
+
+13028. Azienda Agricola Campion
+ID: 335bf3db-8982-46b9-99e7-a9768c3feafe
+Slug: azienda-agricola-campion-campione-d-italia
+Nome: Azienda Agricola Campion
+Comune / Provincia: Campione d'Italia
+Indirizzo: Via Campion, 2, 31049 Valdobbiadene TV
+Coordinate: Lat 45.884489, Lng 12.026685
+Website: https://www.campionspumanti.it/?utm_source=google&utm_medium=organic&utm_campaign=gm_website
+Email: 
+
+13029. B&B Il giardino botanico
+ID: 45426a40-80bb-482b-9949-58fc977d4bb4
+Slug: b-b-il-giardino-botanico-campione-d-italia
+Nome: B&B Il giardino botanico
+Comune / Provincia: Campione d'Italia
+Indirizzo: Via Mazzini, 21, 22026 Maslianico CO
+Coordinate: Lat 45.84432, Lng 9.04836
+Website: http://www.ilgiardinobotanico.com/
+Email: 
+
+13030. Campione 5
+ID: 245981d9-a5c2-4363-90c9-304b64a2b703
+Slug: campione-5-campione-d-italia
+Nome: Campione 5
+Comune / Provincia: Campione d'Italia
+Indirizzo: Via Francesco Campione, 5, 70124 Bari BA
+Coordinate: Lat 41.112341, Lng 16.864075
+Website: —
+Email: 
+
+13031. Casa sul lago
+ID: 79f3fdb3-7e72-474a-9226-655c683839d8
+Slug: casa-sul-lago-campione-d-italia
+Nome: Casa sul lago
+Comune / Provincia: Campione d'Italia
+Indirizzo: Via Campione 65, 6816 Bissone, Svizzera
+Coordinate: Lat 45.961494, Lng 8.967804
+Website: —
+Email: 
+
+13032. Corte Colombarola
+ID: 88ba2f56-bef1-4935-a10a-4dce332328ae
+Slug: corte-colombarola-campione-d-italia
+Nome: Corte Colombarola
+Comune / Provincia: Campione d'Italia
+Indirizzo: Via Campione, 12, 46031 Campione MN
+Coordinate: Lat 45.076444, Lng 10.824658
+Website: —
+Email: 
+
+13033. Gatto in Vigna
+ID: bdaf5a42-d72c-464f-8d5f-04953e059ca3
+Slug: gatto-in-vigna-campione-d-italia
+Nome: Gatto in Vigna
+Comune / Provincia: Campione d'Italia
+Indirizzo: Via Cucco, 1, 31058 Susegana TV
+Coordinate: Lat 45.875, Lng 12.207995
+Website: https://campionspumanti.it/
+Email: 
+
+13034. Grand Hotel Campione
+ID: 65da031c-c03e-4780-9fd7-696a2ac74e2c
+Slug: grand-hotel-campione-campione-d-italia
+Nome: Grand Hotel Campione
+Comune / Provincia: Campione d'Italia
+Indirizzo: Via Matteo da Campione, 2, 22061 Campione d'Italia CO
+Coordinate: Lat 45.971975, Lng 8.97187
+Website: https://www.ghcampione.com/
+Email: 
+
+13035. Hotel Campione
+ID: 2d2ea157-b6a0-44cb-9eb2-7f93b7fed9c0
+Slug: hotel-campione-campione-d-italia
+Nome: Hotel Campione
+Comune / Provincia: Campione d'Italia
+Indirizzo: Via Campione 62, 6816 Bissone, Svizzera
+Coordinate: Lat 45.961331, Lng 8.968838
+Website: http://www.hotel-campione.ch/
+Email: 
+
+13036. Masseria Camarda
+ID: 9087657c-f373-4e70-8105-85b7cc86230c
+Slug: masseria-camarda-campione-d-italia
+Nome: Masseria Camarda
+Comune / Provincia: Campione d'Italia
+Indirizzo: Via Turco Camarda, 31, 72013 Ceglie Messapica BR
+Coordinate: Lat 40.665771, Lng 17.551554
+Website: http://www.masseriacamarda.it/
+Email: 
+
+13037. My Italy Selection | Agriturismo Italy | Agriturismo Tuscany
+ID: 59f068dc-71a3-4db3-a884-763ee21e439f
+Slug: my-italy-selection-agriturismo-italy-agriturismo-campione-d-italia
+Nome: My Italy Selection | Agriturismo Italy | Agriturismo Tuscany
+Comune / Provincia: Campione d'Italia
+Indirizzo: P.za Cacciatori delle Alpi, 2, 22100 Como CO
+Coordinate: Lat 45.81048, Lng 9.076926
+Website: https://www.myitalyselection.com/
+Email: 
+
+13038. Residenza Lago di Lugano - Appartamenti in affitto a Bissone
+ID: f816c535-d9a6-4f7b-8d84-ad775384772a
+Slug: residenza-lago-di-lugano-appartamenti-in-affitto-campione-d-italia
+Nome: Residenza Lago di Lugano - Appartamenti in affitto a Bissone
+Comune / Provincia: Campione d'Italia
+Indirizzo: Via Campione 65, 6816 Bissone, Svizzera
+Coordinate: Lat 45.961391, Lng 8.968125
+Website: https://www.homyrent.ch/
+Email: 
+
+13039. Suite Lago & Relax
+ID: d4b8dd71-a3fc-4cf2-a117-631c6832f9c3
+Slug: suite-lago-relax-campione-d-italia
+Nome: Suite Lago & Relax
+Comune / Provincia: Campione d'Italia
+Indirizzo: Via Totone, 36, 22061 Campione d'Italia CO
+Coordinate: Lat 45.969455, Lng 8.973698
+Website: https://www.booking.com/hotel/it/appartamento-con-bellissima-vista-campione-d-italia.it.html?aid=2311236&label=it-ch-booking-mobile-jekxHuzPJFYnKsmD*ijogQSM652828999630:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-65526620:lp1003174:li:dem:dm&sid=adb5d29a4f7819304dffdc45519df8ec&all_sr_blocks=534012401_188961563_3_0_0&checkin=2026-07-06&checkout=2026-07-11&dest_id=-112780&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=5&highlighted_blocks=534012401_188961563_3_0_0&hpos=5&matching_block_id=534012401_188961563_3_0_0&no_rooms=1&req_adults=2&req_children=0&room1=A,A&sb_price_type=total&sr_order=popularity&sr_pri_blocks=534012401_188961563_3_0_0__103500&srepoch=1779609333&srpvid=3fbf37b80d950437&type=total&ucfs=1&
+Email: 
+
+13040. Albergo Verda Val
+ID: 478c775e-9730-4dd7-97b9-45f9b08dc172
+Slug: albergo-verda-val-campitello-di-fassa
+Nome: Albergo Verda Val
+Comune / Provincia: Campitello di Fassa
+Indirizzo: Strada, Strèda de Greva, 37, 38031 Campitello di Fassa TN
+Coordinate: Lat 46.474978, Lng 11.740796
+Website: http://www.albergoverdaval.it/
+Email: 
+
+13041. Alpenhotel Panorama
+ID: ca34d428-4487-441c-983f-8f99e9180392
+Slug: alpenhotel-panorama-campitello-di-fassa
+Nome: Alpenhotel Panorama
+Comune / Provincia: Campitello di Fassa
+Indirizzo: Str. Ciadenac, 7, 38031 Campitello di Fassa TN
+Coordinate: Lat 46.472612, Lng 11.735996
+Website: http://www.alpenhotelpanorama.com/?utm_source=GoogleMyBusiness&utm_medium=KlickWebsite&utm_campaign=GoogleMyBusiness
+Email: 
+
+13042. Aritz Garni B&B
+ID: 787c0104-77b7-472f-8592-33dfcadbb30d
+Slug: aritz-garni-b-b-campitello-di-fassa
+Nome: Aritz Garni B&B
+Comune / Provincia: Campitello di Fassa
+Indirizzo: Strèda sot Ciapiaa, 6, 38031 Campitello di Fassa TN
+Coordinate: Lat 46.474643, Lng 11.74246
+Website: https://www.residencehotels.com/aritz/
+Email: 
+
+13043. B&B Garnì Villa Campitello
+ID: 38bd672c-1513-4d2a-9427-a93ab98be056
+Slug: b-b-garni-villa-campitello-campitello-di-fassa
+Nome: B&B Garnì Villa Campitello
+Comune / Provincia: Campitello di Fassa
+Indirizzo: Strèda Roma, 2, 38032 Campitello di Fassa TN
+Coordinate: Lat 46.475594, Lng 11.738516
+Website: https://www.villacampitello.com/
+Email: 
+
+13044. Chalet MARCORA
+ID: 36457c7c-0833-4a2b-a4a7-ae44419aef75
+Slug: chalet-marcora-campitello-di-fassa
+Nome: Chalet MARCORA
+Comune / Provincia: Campitello di Fassa
+Indirizzo: Streda Dolomites, 99/101, 38031 Campitello di Fassa TN
+Coordinate: Lat 46.477195, Lng 11.744273
+Website: http://www.chalet-marcora.com/
+Email: 
+
+13045. Golden Park Resort
+ID: 3c8fbe30-5052-466c-94b2-8eb6ac1350e9
+Slug: golden-park-resort-campitello-di-fassa
+Nome: Golden Park Resort
+Comune / Provincia: Campitello di Fassa
+Indirizzo: Strèda del Mèsc de Novacela, 341, 38030 Fontanazzo TN
+Coordinate: Lat 46.471407, Lng 11.733551
+Website: https://www.goldenparkresort.com/
+Email: 
+
+13046. Hotel Alpi
+ID: 2022732b-b49c-40f4-afbe-bf804f31540f
+Slug: hotel-alpi-campitello-di-fassa
+Nome: Hotel Alpi
+Comune / Provincia: Campitello di Fassa
+Indirizzo: Dolomites, 24, 38031 Campitello di Fassa TN
+Coordinate: Lat 46.47493, Lng 11.73947
+Website: https://www.hotelalpi.it/
+Email: 
+
+13047. Hotel Crepes De Sela
+ID: d30e2f48-6dca-4c30-aa0e-d0236eb6228f
+Slug: hotel-crepes-de-sela-campitello-di-fassa
+Nome: Hotel Crepes De Sela
+Comune / Provincia: Campitello di Fassa
+Indirizzo: Dolomites, 22, 38031 Campitello di Fassa TN
+Coordinate: Lat 46.474558, Lng 11.739383
+Website: http://www.crepesdesela.it/
+Email: 
+
+13048. Hotel Diamant Campitello
+ID: d26adb62-e6fd-4a7a-8563-7fe24d3c004b
+Slug: hotel-diamant-campitello-campitello-di-fassa
+Nome: Hotel Diamant Campitello
+Comune / Provincia: Campitello di Fassa
+Indirizzo: Strèda sot Ciapiaa, 5, 38031 Campitello di Fassa TN
+Coordinate: Lat 46.474224, Lng 11.742136
+Website: https://hoteldiamantcampitellodifassa.it/
+Email: 
+
+13049. Hotel Flora Alpina
+ID: 01f0ca99-4ab4-48c4-af72-fdcd4fc70759
+Slug: hotel-flora-alpina-campitello-di-fassa
+Nome: Hotel Flora Alpina
+Comune / Provincia: Campitello di Fassa
+Indirizzo: Streda Dolomites, 8, 38031 Campitello di Fassa TN
+Coordinate: Lat 46.473106, Lng 11.73598
+Website: http://www.hotelfloraalpina.it/
+Email: 
+
+13050. Hotel Gran Chalet Soreghes
+ID: 869c62f2-0ace-4c64-9387-60fc2358fdcf
+Slug: hotel-gran-chalet-soreghes-campitello-di-fassa
+Nome: Hotel Gran Chalet Soreghes
+Comune / Provincia: Campitello di Fassa
+Indirizzo: Strada De, Via Pent de Sera, 18, 38031 Campitello di Fassa TN
+Coordinate: Lat 46.475354, Lng 11.74323
+Website: http://www.hotelsoreghes.com/
+Email: 
+
+13051. Hotel Gran Paradis
+ID: d23cfb3e-36e7-49d1-9401-e1e9152e2a51
+Slug: hotel-gran-paradis-campitello-di-fassa
+Nome: Hotel Gran Paradis
+Comune / Provincia: Campitello di Fassa
+Indirizzo: Streda Dolomites, 6, 38031 Campitello di Fassa TN
+Coordinate: Lat 46.473216, Lng 11.735007
+Website: http://www.granparadis.com/
+Email: 
+
+13052. Hotel LADINA HOLIDAY
+ID: b8369765-e757-4759-8815-bd4d1a1674c3
+Slug: hotel-ladina-holiday-campitello-di-fassa
+Nome: Hotel LADINA HOLIDAY
+Comune / Provincia: Campitello di Fassa
+Indirizzo: Strèda de Pecei, 3, 38031 Campitello di Fassa TN
+Coordinate: Lat 46.476156, Lng 11.741974
+Website: http://www.hotelladina.it/
+Email: 
+
+13053. Hotel Medil
+ID: 19f8a400-f182-4b5d-b637-d49492815828
+Slug: hotel-medil-campitello-di-fassa
+Nome: Hotel Medil
+Comune / Provincia: Campitello di Fassa
+Indirizzo: Via Pent de Sera, 16, 38031 Campitello di Fassa TN
+Coordinate: Lat 46.475016, Lng 11.742818
+Website: http://www.hotelmedil.it/
+Email: 
+
+13054. Hotel Ramon
+ID: bae37668-e921-45c4-93d7-deed2d5590b8
+Slug: hotel-ramon-campitello-di-fassa
+Nome: Hotel Ramon
+Comune / Provincia: Campitello di Fassa
+Indirizzo: Strèda sot Ciapiaa, 4, 38031 Campitello di Fassa TN
+Coordinate: Lat 46.474717, Lng 11.743564
+Website: http://www.hotelramon.it/
+Email: 
+
+13055. Hotel Salvan con spa e piscina
+ID: b51aea5a-e12f-4b14-94b3-800f354ad01a
+Slug: hotel-salvan-con-spa-e-piscina-campitello-di-fassa
+Nome: Hotel Salvan con spa e piscina
+Comune / Provincia: Campitello di Fassa
+Indirizzo: Streda Dolomites, 10, 38031 Campitello di Fassa TN
+Coordinate: Lat 46.473948, Lng 11.738005
+Website: http://www.hotelsalvan.it/
+Email: 

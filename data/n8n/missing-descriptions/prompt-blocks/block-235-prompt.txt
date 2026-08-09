@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+8191. Le Colonne Resort
+ID: 83c1b45d-7e60-4d6b-8645-f80b5dbbe159
+Slug: le-colonne-resort-bellino
+Nome: Le Colonne Resort
+Comune / Provincia: Bellino
+Indirizzo: Borgata Serre, 2, 12020 Serre CN
+Coordinate: Lat 44.540098, Lng 7.090182
+Website: http://www.lecolonneresort.it/
+Email: 
+
+8192. Locanda Alboin La Misun de Ciafrè
+ID: dd38a8fb-3277-4d56-b540-5277ebd85cc9
+Slug: locanda-alboin-la-misun-de-ciafre-bellino
+Nome: Locanda Alboin La Misun de Ciafrè
+Comune / Provincia: Bellino
+Indirizzo: 12020 Alboin CN
+Coordinate: Lat 44.590044, Lng 7.084305
+Website: http://www.lalocandadialboin.com/
+Email: 
+
+8193. Locanda Alpina L'iero d'Eimà
+ID: 791beaf2-570a-44e7-94b2-97bc4333967d
+Slug: locanda-alpina-l-iero-d-eima-bellino
+Nome: Locanda Alpina L'iero d'Eimà
+Comune / Provincia: Bellino
+Indirizzo: Borgata Celle, 19/A, 12020 Bellino CN
+Coordinate: Lat 44.579954, Lng 7.007082
+Website: —
+Email: 
+
+8194. Locanda Del Silenzio S.a.s.
+ID: 93e2c43e-4aeb-4ca1-b309-19822056d12b
+Slug: locanda-del-silenzio-s-a-s-bellino
+Nome: Locanda Del Silenzio S.a.s.
+Comune / Provincia: Bellino
+Indirizzo: Localita Camoglieres, 33, 12020 Macra CN
+Coordinate: Lat 44.502639, Lng 7.195741
+Website: http://www.locandadelsilenzio.com/
+Email: 
+
+8195. Locanda Garzino
+ID: bcf089a6-03fc-4dc8-b5d1-e52b32ac4c89
+Slug: locanda-garzino-bellino
+Nome: Locanda Garzino
+Comune / Provincia: Bellino
+Indirizzo: Via Vittorio Emanuele II°, 37/a-b, 12020 Sampeyre CN
+Coordinate: Lat 44.579275, Lng 7.186067
+Website: https://albergo-ristorante-locanda-garzino.bellaitaliatrips.top/
+Email: 
+
+8196. Locanda La Peiro Groso
+ID: 2370a2ff-dead-4e3d-b4ef-d8365333c544
+Slug: locanda-la-peiro-groso-bellino
+Nome: Locanda La Peiro Groso
+Comune / Provincia: Bellino
+Indirizzo: Frazione Chianale, 3, 12020 Chianale CN
+Coordinate: Lat 44.646163, Lng 7.000197
+Website: http://www.lapeirogroso.com/
+Email: 
+
+8197. Locanda Lou Subric Osteria e Camere
+ID: fb2ea84a-c68b-40fb-b6a0-d601ed428b05
+Slug: locanda-lou-subric-osteria-e-camere-bellino
+Nome: Locanda Lou Subric Osteria e Camere
+Comune / Provincia: Bellino
+Indirizzo: Borgata San MARTINO superiore 109, 12020 Stroppo CN
+Coordinate: Lat 44.506974, Lng 7.108096
+Website: http://www.lousubric.it/
+Email: 
+
+8198. AS Hotel Cambiago
+ID: a2724646-0f6b-4a00-bc10-0f249107c865
+Slug: as-hotel-cambiago-bellinzago-lombardo
+Nome: AS Hotel Cambiago
+Comune / Provincia: Bellinzago Lombardo
+Indirizzo: Vle delle Industrie, 20040 Cambiago MI
+Coordinate: Lat 45.576505, Lng 9.417959
+Website: http://www.ashotelcambiago.it/
+Email: 
+
+8199. B&B Casa Sara
+ID: efc005a8-2e19-40a7-b4cf-ba1299ad35cd
+Slug: b-b-casa-sara-bellinzago-lombardo
+Nome: B&B Casa Sara
+Comune / Provincia: Bellinzago Lombardo
+Indirizzo: Via Bologna, 26, 20062 Cassano d'Adda MI
+Coordinate: Lat 45.532268, Lng 9.515515
+Website: http://www.bnbcasasara.com/
+Email: 
+
+8200. B&B Il Mulino di Gorgonzola (CIR: H00298)
+ID: f4e25bca-8242-4fb8-8036-0ddb39393f4e
+Slug: b-b-il-mulino-di-gorgonzola-cir-h00298-bellinzago-lombardo
+Nome: B&B Il Mulino di Gorgonzola (CIR: H00298)
+Comune / Provincia: Bellinzago Lombardo
+Indirizzo: Via Molino Vecchio, 10, 20064 Gorgonzola MI
+Coordinate: Lat 45.529917, Lng 9.409745
+Website: https://bb-il-mulino-di-gorgonzola-cir-h00298.italydreams.top/
+Email: 
+
+8201. B&B Le camere di Aladino
+ID: a592f4de-b4e2-42a0-8d35-7982695298b0
+Slug: b-b-le-camere-di-aladino-bellinzago-lombardo
+Nome: B&B Le camere di Aladino
+Comune / Provincia: Bellinzago Lombardo
+Indirizzo: Via Cesare Battisti, 121, 20061 Carugate MI
+Coordinate: Lat 45.549293, Lng 9.344239
+Website: http://www.lecameredialadino.com/
+Email: 
+
+8202. CAMISI QH
+ID: 2fabfd67-7d43-48de-8f0c-5a5847f5a5b0
+Slug: camisi-qh-bellinzago-lombardo
+Nome: CAMISI QH
+Comune / Provincia: Bellinzago Lombardo
+Indirizzo: Via della Orombella, 33, 20040 Cascina Orombella MI
+Coordinate: Lat 45.564731, Lng 9.422303
+Website: http://www.camisiqh.it/
+Email: 
+
+8203. Cascina Cappelletta by Mesa
+ID: 49dbed0b-651a-4221-b55c-2cef89847f72
+Slug: cascina-cappelletta-by-mesa-bellinzago-lombardo
+Nome: Cascina Cappelletta by Mesa
+Comune / Provincia: Bellinzago Lombardo
+Indirizzo: Via Roma, 18, 20060 Masate MI
+Coordinate: Lat 45.56441, Lng 9.469403
+Website: https://www.locandamesa.com/
+Email: 
+
+8204. Foresteria Sirio
+ID: f8e91e5c-0cbb-4580-963f-6f4dd2adbfa2
+Slug: foresteria-sirio-bellinzago-lombardo
+Nome: Foresteria Sirio
+Comune / Provincia: Bellinzago Lombardo
+Indirizzo: Via Trento, 19/C, 20064 Gorgonzola MI
+Coordinate: Lat 45.536357, Lng 9.417951
+Website: https://www.foresteriasirio.com/
+Email: 
+
+8205. Hotel Visconti
+ID: 45ef807b-af35-46dc-972d-4dbad2ddd291
+Slug: hotel-visconti-bellinzago-lombardo
+Nome: Hotel Visconti
+Comune / Provincia: Bellinzago Lombardo
+Indirizzo: Via C. Colombo, 3, 20066 Melzo MI
+Coordinate: Lat 45.49431, Lng 9.412377
+Website: http://www.hotelviscontimelzo.it/
+Email: 
+
+8206. Il Boschetto Societa Agricola Srl
+ID: 218b0e25-aabe-4157-93e5-0db9ce07a1c8
+Slug: il-boschetto-societa-agricola-srl-bellinzago-lombardo
+Nome: Il Boschetto Societa Agricola Srl
+Comune / Provincia: Bellinzago Lombardo
+Indirizzo: Via G. Banfi, 4, 20876 Ornago MB
+Coordinate: Lat 45.594112, Lng 9.430671
+Website: https://www.agriturismoilboschetto.net/
+Email: 
+
+8207. La casa di Amos
+ID: fad421b6-91f6-46e4-b5e5-eab75af221db
+Slug: la-casa-di-amos-bellinzago-lombardo
+Nome: La casa di Amos
+Comune / Provincia: Bellinzago Lombardo
+Indirizzo: Via XX Settembre, 19, 20069 Vaprio d'Adda MI
+Coordinate: Lat 45.575631, Lng 9.530392
+Website: —
+Email: 
+
+8208. La locanda della Torre
+ID: ff508935-b7b5-467c-8f52-fa015880d7be
+Slug: la-locanda-della-torre-bellinzago-lombardo
+Nome: La locanda della Torre
+Comune / Provincia: Bellinzago Lombardo
+Indirizzo: Via Vittorio Emanuele, 9, 24040 Filago BG
+Coordinate: Lat 45.622584, Lng 9.558027
+Website: http://www.locandadellatorre.it/
+Email: 
+
+8209. Società Agricola Oriolo
+ID: 1f68ea11-50a3-4aa7-9e92-7ab6dc04c458
+Slug: societa-agricola-oriolo-bellinzago-lombardo
+Nome: Società Agricola Oriolo
+Comune / Provincia: Bellinzago Lombardo
+Indirizzo: Via Quattro Vie, 16, 20066 Melzo MI
+Coordinate: Lat 45.51231, Lng 9.429565
+Website: http://www.agricolaoriolo.com/
+Email: 
+
+8210. Agriturismo "La Farazzina"
+ID: 2cf18c19-3c27-4487-8f87-a33c0bf2e643
+Slug: agriturismo-la-farazzina-bellinzago-novarese
+Nome: Agriturismo "La Farazzina"
+Comune / Provincia: Bellinzago Novarese
+Indirizzo: Via Farazzina n.6, 28047 Oleggio NO
+Coordinate: Lat 45.590491, Lng 8.689257
+Website: https://chiaracmpo.wixsite.com/lafarazzina
+Email: 
+
+8211. Agriturismo Helianthus
+ID: eb961b91-32a4-41a6-8446-60bcd601f214
+Slug: agriturismo-helianthus-bellinzago-novarese
+Nome: Agriturismo Helianthus
+Comune / Provincia: Bellinzago Novarese
+Indirizzo: Via Vallata Ticino, 7, Via Sant'Eusebio, FRAZ, 28047 LOC NO
+Coordinate: Lat 45.608366, Lng 8.680063
+Website: http://www.helianthus-agriturismo.it/
+Email: 
+
+8212. B&B Affittacamere Lively
+ID: 06a91ff6-6843-4c68-bceb-667894025a83
+Slug: b-b-affittacamere-lively-bellinzago-novarese
+Nome: B&B Affittacamere Lively
+Comune / Provincia: Bellinzago Novarese
+Indirizzo: Corso Risorgimento, 147/a, 28100 Novara NO
+Coordinate: Lat 45.465887, Lng 8.615077
+Website: https://www.booking.com/Share-IgCJAUY
+Email: 
+
+8213. B&B Il Gelsomino
+ID: d73f46c3-f630-40ee-87d6-4fcaf2444b08
+Slug: b-b-il-gelsomino-bellinzago-novarese
+Nome: B&B Il Gelsomino
+Comune / Provincia: Bellinzago Novarese
+Indirizzo: Via Giuseppe Verdi, 9, 21010 Ferno VA
+Coordinate: Lat 45.615971, Lng 8.755421
+Website: https://bb-il-gelsomino.albergo.top/
+Email: 
+
+8214. B&B KB
+ID: 43eeef94-646e-477b-aefd-d3c301c38229
+Slug: b-b-kb-bellinzago-novarese
+Nome: B&B KB
+Comune / Provincia: Bellinzago Novarese
+Indirizzo: Via Raspagna, 93, 28047 Oleggio NO
+Coordinate: Lat 45.610025, Lng 8.654865
+Website: —
+Email: 
+
+8215. B&B London 2010
+ID: 1a842f8e-1263-43c2-9d5c-3430f2fc8e12
+Slug: b-b-london-2010-bellinzago-novarese
+Nome: B&B London 2010
+Comune / Provincia: Bellinzago Novarese
+Indirizzo: Via Don G. Zosi, 1, 21010 Castelnovate VA
+Coordinate: Lat 45.630632, Lng 8.68147
+Website: —
+Email: 
+
+8216. B&B Via Mazzini Mxp
+ID: a670d4e8-f5b0-4fc0-a934-c03f1636b16c
+Slug: b-b-via-mazzini-mxp-bellinzago-novarese
+Nome: B&B Via Mazzini Mxp
+Comune / Provincia: Bellinzago Novarese
+Indirizzo: Via Giuseppe Mazzini, 8, 21010 Castelnovate VA
+Coordinate: Lat 45.633156, Lng 8.67203
+Website: —
+Email: 
+
+8217. Bed&Breakfast Milano Malpensa 1
+ID: 38da9566-e0cb-4590-9817-40cc4b4843e3
+Slug: bed-breakfast-milano-malpensa-1-bellinzago-novarese
+Nome: Bed&Breakfast Milano Malpensa 1
+Comune / Provincia: Bellinzago Novarese
+Indirizzo: Via Lonate Pozzolo, 1, 20022 Castano Primo MI
+Coordinate: Lat 45.55454, Lng 8.775576
+Website: —
+Email: 
+
+8218. La Bottega del Falegname
+ID: abbacf68-c693-4d05-be18-91903463789c
+Slug: la-bottega-del-falegname-bellinzago-novarese
+Nome: La Bottega del Falegname
+Comune / Provincia: Bellinzago Novarese
+Indirizzo: Via Repubblica, 20, 20020 Vanzaghello MI
+Coordinate: Lat 45.576467, Lng 8.780417
+Website: http://affittacamerevanzaghello.it/
+Email: 
+
+8219. B&B Costa D’Amalfi
+ID: 839e11ed-042d-42da-b5e1-65a41ec43611
+Slug: b-b-costa-d-amalfi-bellizzi
+Nome: B&B Costa D’Amalfi
+Comune / Provincia: Bellizzi
+Indirizzo: Via Campo Eminente, 14, 84092 Battipaglia SA
+Coordinate: Lat 40.615781, Lng 14.938428
+Website: —
+Email: 
+
+8220. B&B Esterina
+ID: 86b3b65b-059f-4728-902f-9bf77b029663
+Slug: b-b-esterina-bellizzi
+Nome: B&B Esterina
+Comune / Provincia: Bellizzi
+Indirizzo: 84098 Sant'Antonio SA
+Coordinate: Lat 40.63996, Lng 14.892154
+Website: —
+Email: 
+
+8221. B&B La Villetta Salerno Airport
+ID: a991a041-db8a-4405-9090-f0d12ee30a99
+Slug: b-b-la-villetta-salerno-airport-bellizzi
+Nome: B&B La Villetta Salerno Airport
+Comune / Provincia: Bellizzi
+Indirizzo: Via Monte Terminillo, 4, 84090 Pratole SA
+Coordinate: Lat 40.624774, Lng 14.926848
+Website: http://www.lavillettasalerno.com/
+Email: 
+
+8222. B&B The Princess | Vicino Aeroporto Salerno-Costa D'Amalfi
+ID: 46a12a07-aa14-4d29-8643-e2b5d0badbe7
+Slug: b-b-the-princess-vicino-aeroporto-salerno-costa-bellizzi
+Nome: B&B The Princess | Vicino Aeroporto Salerno-Costa D'Amalfi
+Comune / Provincia: Bellizzi
+Indirizzo: Via Papa Pio XI, 21, 84090 Bivio-pratole SA
+Coordinate: Lat 40.623928, Lng 14.929147
+Website: https://www.bbtheprincess.it/
+Email: 
+
+8223. B&B Villa Napoli
+ID: 0dd059ca-e3d3-48f2-b7f6-3231e3543e69
+Slug: b-b-villa-napoli-bellizzi
+Nome: B&B Villa Napoli
+Comune / Provincia: Bellizzi
+Indirizzo: Via Guglielmo Noschese, 7, 84091 Battipaglia SA
+Coordinate: Lat 40.585565, Lng 14.954738
+Website: https://bebvillanapolibattipaglia.netlify.app/
+Email: 
+
+8224. Radici 24
+ID: 36c91079-7261-41ac-87c0-c2fadbc2d368
+Slug: radici-24-bellizzi
+Nome: Radici 24
+Comune / Provincia: Bellizzi
+Indirizzo: Via Fosso Pioppo, 18Q, 84091 Battipaglia SA
+Coordinate: Lat 40.607669, Lng 14.953661
+Website: http://www.radici24.it/
+Email: 
+
+8225. Toc Toc Bed & Breakfast Pontecagnano
+ID: 51385fa2-ea83-4953-a0c6-8e4f17f7e305
+Slug: toc-toc-bed-breakfast-pontecagnano-bellizzi
+Nome: Toc Toc Bed & Breakfast Pontecagnano
+Comune / Provincia: Bellizzi
+Indirizzo: Corso Umberto I, 113, 84098 Pontecagnano Faiano SA
+Coordinate: Lat 40.645416, Lng 14.874456
+Website: https://www.bebtoctoc.it/
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+2311. Hotel Ventolosa VaL Brembana
+ID: 03079ebb-14b6-4c45-9fff-cb22ec315223
+Slug: hotel-ventolosa-val-brembana-almenno-san-bartolomeo
+Nome: Hotel Ventolosa VaL Brembana
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Ventolosa, 23, 24018 Villa d'Almè BG
+Coordinate: Lat 45.75394, Lng 9.610764
+Website: http://www.hotelventolosa.com/
+Email: 
+
+2312. Il Posto delle Rose
+ID: ee6177d9-24c1-4898-9db3-f775ca967528
+Slug: il-posto-delle-rose-almenno-san-bartolomeo
+Nome: Il Posto delle Rose
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Masconzano, 2, 24031 Masconzano BG
+Coordinate: Lat 45.743983, Lng 9.591805
+Website: http://www.ilpostodellerose.it/
+Email: 
+
+2313. Niji Hotel & Restaurant
+ID: 3bbc6312-e3a4-49c5-99a4-def7d6cc20b9
+Slug: niji-hotel-restaurant-almenno-san-bartolomeo
+Nome: Niji Hotel & Restaurant
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Dante Alighieri, 22, 24030 Mapello BG
+Coordinate: Lat 45.723375, Lng 9.554079
+Website: https://nijisushi.it/
+Email: 
+
+2314. Aldeia Bianca
+ID: 10a2009e-57b8-4efe-a4c9-1c72efb6781a
+Slug: aldeia-bianca-almenno-san-salvatore
+Nome: Aldeia Bianca
+Comune / Provincia: Almenno San Salvatore
+Indirizzo: Via Regina Teodolinda, 2, 24031 Almenno San Salvatore BG
+Coordinate: Lat 45.754578, Lng 9.604701
+Website: https://www.aldeiabianca.it/
+Email: 
+
+2315. B&B Santa Lucia
+ID: d48cf14e-9ab5-48ea-8e69-d935c11618e5
+Slug: b-b-santa-lucia-almenno-san-salvatore
+Nome: B&B Santa Lucia
+Comune / Provincia: Almenno San Salvatore
+Indirizzo: Via Giuseppe Garibaldi, 16, 24122 Bergamo BG
+Coordinate: Lat 45.69559, Lng 9.662343
+Website: http://www.bbsantaluciabergamo.com/
+Email: 
+
+2316. BnB La Casa di Anna
+ID: 3f650430-eb5a-4c09-82a6-c4803fb15e6c
+Slug: bnb-la-casa-di-anna-almenno-san-salvatore
+Nome: BnB La Casa di Anna
+Comune / Provincia: Almenno San Salvatore
+Indirizzo: Via Fogazzaro, 9, 24018 Villa d'Almè BG
+Coordinate: Lat 45.747752, Lng 9.612571
+Website: http://www.bnblacasadianna.com/
+Email: 
+
+2317. Hotel Relais San Vigilio
+ID: 3d1f8130-aab4-49b1-8438-f54f42ed4115
+Slug: hotel-relais-san-vigilio-almenno-san-salvatore
+Nome: Hotel Relais San Vigilio
+Comune / Provincia: Almenno San Salvatore
+Indirizzo: Via al Castello, 7, 24129 Bergamo BG
+Coordinate: Lat 45.709024, Lng 9.651269
+Website: http://www.relaissanvigilio.it/
+Email: 
+
+2318. Il Sole
+ID: eeeaf2d5-509b-47bf-baae-41b8ac0e8722
+Slug: il-sole-almenno-san-salvatore
+Nome: Il Sole
+Comune / Provincia: Almenno San Salvatore
+Indirizzo: Via Bartolomeo Colleoni, 1, 24129 Bergamo BG
+Coordinate: Lat 45.70449, Lng 9.66288
+Website: http://www.ilsolebergamo.com/
+Email: 
+
+2319. B&B 503 di Alessio e Orsola
+ID: 9a5d37e9-8a60-490d-a2ee-6bef2d147865
+Slug: b-b-503-di-alessio-e-orsola-almese
+Nome: B&B 503 di Alessio e Orsola
+Comune / Provincia: Almese
+Indirizzo: Via Roma, 20, 10050 Chiusa di San Michele TO
+Coordinate: Lat 45.101186, Lng 7.327187
+Website: http://di-alessio-e-orsola.org.es/
+Email: 
+
+2320. B&B Caterina.c
+ID: 0ad97ece-aca5-4743-a8c8-c1ffcca9e032
+Slug: b-b-caterina-c-almese
+Nome: B&B Caterina.c
+Comune / Provincia: Almese
+Indirizzo: Via Betulle, 35, 10040 Val della Torre TO
+Coordinate: Lat 45.128967, Lng 7.472111
+Website: http://www.caterinapuntoc.it/
+Email: 
+
+2321. B&B Certosa 1515
+ID: 3941821c-16cb-4bcf-b97c-fde85a0587fb
+Slug: b-b-certosa-1515-almese
+Nome: B&B Certosa 1515
+Comune / Provincia: Almese
+Indirizzo: Via Sacra di San Michele, 51, 10051 Avigliana TO
+Coordinate: Lat 45.074344, Lng 7.358453
+Website: http://www.certosa1515.org/
+Email: 
+
+2322. B&B In Riva al Lago
+ID: f0e80d4a-7a27-4709-81cc-a5088eef6a54
+Slug: b-b-in-riva-al-lago-almese
+Nome: B&B In Riva al Lago
+Comune / Provincia: Almese
+Indirizzo: Via Monginevro, 2, 10051 Avigliana TO
+Coordinate: Lat 45.060699, Lng 7.388986
+Website: http://bnbinrivaallago.it/
+Email: 
+
+2323. B&B La Curandera
+ID: 1e4b3ce2-cc47-4255-a430-72573d8f208a
+Slug: b-b-la-curandera-almese
+Nome: B&B La Curandera
+Comune / Provincia: Almese
+Indirizzo: Piazza S. Michele, 1, 10090 Rosta TO
+Coordinate: Lat 45.069744, Lng 7.464898
+Website: http://www.lacurandera-bb.it/
+Email: 
+
+2324. B&B La Magnolia
+ID: d5fa1234-7c6a-47e1-8313-54c506f0bb43
+Slug: b-b-la-magnolia-almese
+Nome: B&B La Magnolia
+Comune / Provincia: Almese
+Indirizzo: Via Bruere, 24, 10098 Rivoli TO
+Coordinate: Lat 45.072455, Lng 7.539758
+Website: http://www.bedandbreakfastrivoli.com/
+Email: 
+
+2325. B&B La Marmotta
+ID: aff03513-41ed-4f8b-b990-0c60aea4ed33
+Slug: b-b-la-marmotta-almese
+Nome: B&B La Marmotta
+Comune / Provincia: Almese
+Indirizzo: borgata, Via Ruffinera, 28, 10050 Coazze TO
+Coordinate: Lat 45.056198, Lng 7.292697
+Website: https://lamarmottacoazze-it7.webnode.it/
+Email: 
+
+2326. B&B Sanpancrazio
+ID: 8a7bab0e-3a96-4e2c-87b2-28f535fde2f5
+Slug: b-b-sanpancrazio-almese
+Nome: B&B Sanpancrazio
+Comune / Provincia: Almese
+Indirizzo: Via San Pancrazio, Passare da via Torino, Via S. Rocco, 24, 10050 Vaie TO
+Coordinate: Lat 45.10087, Lng 7.287427
+Website: http://www.sanpancrazio.net/
+Email: 
+
+2327. Casa Conte Rosso
+ID: fdd9cb48-f62e-48bd-94ed-8cfcaf90fd30
+Slug: casa-conte-rosso-almese
+Nome: Casa Conte Rosso
+Comune / Provincia: Almese
+Indirizzo: Piazza Conte Rosso, 20, 10051 Avigliana TO
+Coordinate: Lat 45.079716, Lng 7.396173
+Website: https://www.casaconterosso.it/
+Email: 
+
+2328. Casa dei Nonni - Bed & Breakfast
+ID: 2750be3a-38ea-49f6-88a5-5ea48a4250fb
+Slug: casa-dei-nonni-bed-breakfast-almese
+Nome: Casa dei Nonni - Bed & Breakfast
+Comune / Provincia: Almese
+Indirizzo: Via G. Puccini, 28, 10044 Pianezza TO
+Coordinate: Lat 45.09991, Lng 7.553106
+Website: http://www.bed-and-breakfast-casadeinonni.com/
+Email: 
+
+2329. Casa Didé Hotel Location
+ID: c89feaa8-8d6b-4ced-b3c8-6abbec11a3b0
+Slug: casa-dide-hotel-location-almese
+Nome: Casa Didé Hotel Location
+Comune / Provincia: Almese
+Indirizzo: Via A. Abegg, 16, 10050 San Didero TO
+Coordinate: Lat 45.134127, Lng 7.215594
+Website: http://www.casadide.it/
+Email: 
+
+2330. Cascina Bucolica
+ID: abb5a7a4-f143-4b3a-87bc-830bd33e4f70
+Slug: cascina-bucolica-almese
+Nome: Cascina Bucolica
+Comune / Provincia: Almese
+Indirizzo: Via Colgiansesco, 12, 10091 Alpignano TO
+Coordinate: Lat 45.093506, Lng 7.516365
+Website: http://www.cascinabucolica.it/
+Email: 
+
+2331. Hotel Caprice
+ID: 08bd1017-18f8-4058-8444-e3b6f00037db
+Slug: hotel-caprice-almese
+Nome: Hotel Caprice
+Comune / Provincia: Almese
+Indirizzo: Via Pinerolo, 1, 10051 Avigliana TO
+Coordinate: Lat 45.060936, Lng 7.391923
+Website: http://www.capricehotel.it/
+Email: 
+
+2332. Hotel Davide
+ID: 21e1b84a-c3d4-40b2-874c-a464f16faa67
+Slug: hotel-davide-almese
+Nome: Hotel Davide
+Comune / Provincia: Almese
+Indirizzo: Via Legnano, 21, 10098 Rivoli TO
+Coordinate: Lat 45.0775, Lng 7.511111
+Website: https://www.hoteldaviderivoli.com/it/
+Email: 
+
+2333. Hotel Garden Rivoli
+ID: e6f9364d-de03-4ffe-aa5e-0eb1f8712290
+Slug: hotel-garden-rivoli-almese
+Nome: Hotel Garden Rivoli
+Comune / Provincia: Almese
+Indirizzo: Corso Susa, 381, 10098 Rivoli TO
+Coordinate: Lat 45.084567, Lng 7.486159
+Website: http://www.gardenrivoli.it/
+Email: 
+
+2334. La Rosseria B&B
+ID: 47053da7-a722-48e9-8f41-ed8c5c644726
+Slug: la-rosseria-b-b-almese
+Nome: La Rosseria B&B
+Comune / Provincia: Almese
+Indirizzo: Via Umberto I, 79, 10057 Sant'Ambrogio di Torino TO
+Coordinate: Lat 45.098755, Lng 7.358221
+Website: https://www.booking.com/hotel/it/la-rosseria-b-amp-b.it.html?aid=304142&label=gen173bo-1FCAEoggI46AdIFFgDaHGIAQGYARS4ARjIAQzYAQHoAQH4AQOIAgGYAgKoAgS4Apbhg7IGwAIB0gIkNDQ3ZDM5YWYtNDY2NS00NjZhLWI4NzMtYjI3NGI5YmVmM2Nm2AIF4AIB&sid=66441e4191fa704c4da4f600196cce37&all_sr_blocks=1205471101_392763347_3_1_0;checkin=2024-06-07;checkout=2024-06-08;dest_id=-128534;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=3;highlighted_blocks=1205471101_392763347_3_1_0;hpos=3;matching_block_id=1205471101_392763347_3_1_0;no_rooms=1;req_adults=2;req_children=0;room1=A,A;sb_price_type=total;sr_order=popularity;sr_pri_blocks=1205471101_392763347_3_1_0__8000;srepoch=1715532129;srpvid=72197514a64b0128;type=total;ucfs=1&
+Email: 
+
+2335. Rivoli Hotel
+ID: 47acd687-5e95-4452-9085-e6f4533de396
+Slug: rivoli-hotel-almese
+Nome: Rivoli Hotel
+Comune / Provincia: Almese
+Indirizzo: C.so Primo Levi, 150, 10098 Rivoli TO
+Coordinate: Lat 45.062492, Lng 7.526118
+Website: https://www.rivolihotel.it/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+2336. Tulip Inn Turin West Hotel
+ID: 958dfe43-c3b7-4313-8286-60cccdc946c7
+Slug: tulip-inn-turin-west-hotel-almese
+Nome: Tulip Inn Turin West Hotel
+Comune / Provincia: Almese
+Indirizzo: Corso C. G. Allamano, 153, 10098 Rivoli TO
+Coordinate: Lat 45.057707, Lng 7.559496
+Website: https://tulip-inn-turin-west.goldentulip.com/?utm_source=google&utm_medium=maps&utm_content=ITA15115&utm_campaign=GoldenTulip
+Email: 
+
+2337. Active Alm Hotel Moena
+ID: 438e0028-e6cf-467a-bc90-36a2a49dca90
+Slug: active-alm-hotel-moena-alm
+Nome: Active Alm Hotel Moena
+Comune / Provincia: Alm�
+Indirizzo: Via de S. Pellegrino, 11, 38035 Moena TN
+Coordinate: Lat 46.372622, Lng 11.65783
+Website: http://www.almhotel.it/
+Email: 
+
+2338. Almare' B&b
+ID: f9b7c6a1-fa5d-4710-bd61-1b24f8d66dc7
+Slug: almare-b-b-alm
+Nome: Almare' B&b
+Comune / Provincia: Alm�
+Indirizzo: V.Lago di Bracciano, 36, 72012 Torre Santa Sabina BR
+Coordinate: Lat 40.757216, Lng 17.707655
+Website: http://www.almarebb.it/
+Email: 
+
+2339. B&B Alalama
+ID: 5f9c8e82-73d1-42fc-acb7-2c6602cdf32d
+Slug: b-b-alalama-alm
+Nome: B&B Alalama
+Comune / Provincia: Alm�
+Indirizzo: Via S. Vito, 103, 70044 Polignano a Mare BA
+Coordinate: Lat 40.998162, Lng 17.211674
+Website: http://www.alalama.it/
+Email: 
+
+2340. B&B AlMaré
+ID: 7b57e987-4028-43c8-b70d-14ee2cda47c4
+Slug: b-b-almare-alm
+Nome: B&B AlMaré
+Comune / Provincia: Alm�
+Indirizzo: Via dei Bougainvillea 6^ Traversa Contrada, Via Misti Quota 13, 74024 Manduria TA
+Coordinate: Lat 40.306689, Lng 17.704194
+Website: http://www.bbalmare.it/
+Email: 
+
+2341. B&B Atelier della Montagna
+ID: d89b3b80-2bef-44da-afa7-f30b28400a8a
+Slug: b-b-atelier-della-montagna-alm
+Nome: B&B Atelier della Montagna
+Comune / Provincia: Alm�
+Indirizzo: Via Bertulli, 64, 24013 Zambla Alta BG
+Coordinate: Lat 45.89285, Lng 9.79487
+Website: https://www.atelierdellamontagna.it/
+Email: 
+
+2342. Bed & Breakfast Aia Grande Puglia / Apulien
+ID: 7a6662b5-d334-473f-a520-cc1a5ad33e43
+Slug: bed-breakfast-aia-grande-puglia-apulien-alm
+Nome: Bed & Breakfast Aia Grande Puglia / Apulien
+Comune / Provincia: Alm�
+Indirizzo: Via Uggiano, 73020 Uggiano la Chiesa LE
+Coordinate: Lat 40.108978, Lng 18.449969
+Website: http://www.aiagrande.it/
+Email: 
+
+2343. Bed breakfast "Albero del Miglio"
+ID: debaf2cb-0c98-4380-b7b3-130b1abf23e8
+Slug: bed-breakfast-albero-del-miglio-alm
+Nome: Bed breakfast "Albero del Miglio"
+Comune / Provincia: Alm�
+Indirizzo: Contrada Scizzo, 28, 70016 Noicattaro BA
+Coordinate: Lat 41.076031, Lng 16.987343
+Website: http://www.alberodelmiglio.it/
+Email: 
+
+2344. Lamapulia | Eventi & Suite con SPA Privata
+ID: 460c83dc-55fa-4db1-9352-1a417e8b9606
+Slug: lamapulia-eventi-suite-con-spa-privata-alm
+Nome: Lamapulia | Eventi & Suite con SPA Privata
+Comune / Provincia: Alm�
+Indirizzo: SP57, 65, 70016 Noicattaro BA
+Coordinate: Lat 41.073907, Lng 16.990021
+Website: https://lamapulia.it/
+Email: 
+
+2345. Agriturismo Ca' D'oro
+ID: be9a95ac-8911-4935-b717-0d447f69f48e
+Slug: agriturismo-ca-d-oro-alonte
+Nome: Agriturismo Ca' D'oro
+Comune / Provincia: Alonte
+Indirizzo: Via Ingegnere Guido Salvagnini, 60, 36040 Monticello di Fara VI
+Coordinate: Lat 45.424117, Lng 11.392941
+Website: http://www.agriturismocadoro.it/
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+11271. Villa Mia Lugano Lake
+ID: d35483b1-1bc1-49bf-961a-ce2492e7b1df
+Slug: villa-mia-lugano-lake-brusimpiano
+Nome: Villa Mia Lugano Lake
+Comune / Provincia: Brusimpiano
+Indirizzo: Via Federico Motta, 8, 21050 Brusimpiano VA
+Coordinate: Lat 45.944781, Lng 8.889502
+Website: —
+Email: 
+
+11272. Cascina Cottignano
+ID: 63a5070b-2e9f-413c-8723-d30febfed22a
+Slug: cascina-cottignano-brusnengo
+Nome: Cascina Cottignano
+Comune / Provincia: Brusnengo
+Indirizzo: Località Cascina Cottignano, 1, 13866 Masserano BI
+Coordinate: Lat 45.579044, Lng 8.229691
+Website: http://www.cottignano.com/
+Email: 
+
+11273. StarsBOX Le Moline
+ID: df4b2182-9886-4bd1-b6d7-be14349671af
+Slug: starsbox-le-moline-brusnengo
+Nome: StarsBOX Le Moline
+Comune / Provincia: Brusnengo
+Indirizzo: frazione bozzone 3, 13866 Masserano BI
+Coordinate: Lat 45.6, Lng 8.225614
+Website: http://www.starsboxlemoline.it/
+Email: 
+
+11274. Affittacamere Ciampian
+ID: 457892b1-44a8-4e79-af81-e10633135e64
+Slug: affittacamere-ciampian-brusson
+Nome: Affittacamere Ciampian
+Comune / Provincia: Brusson
+Indirizzo: Rue Col de Joux, 11022 Brusson AO
+Coordinate: Lat 45.758049, Lng 7.718421
+Website: —
+Email: 
+
+11275. Affittacamere La Luge D'Antan
+ID: ce9a45bc-782a-4e9a-af8e-f66f3a0a083d
+Slug: affittacamere-la-luge-d-antan-brusson
+Nome: Affittacamere La Luge D'Antan
+Comune / Provincia: Brusson
+Indirizzo: Rue Col de Joux, 71, 11022 Brusson AO
+Coordinate: Lat 45.757394, Lng 7.725553
+Website: http://www.lalugedantan.com/
+Email: 
+
+11276. Albergo Croce Bianca
+ID: bdb3161a-1f17-46ca-b07c-4255c1392584
+Slug: albergo-croce-bianca-brusson
+Nome: Albergo Croce Bianca
+Comune / Provincia: Brusson
+Indirizzo: Rue Arcesaz 70, 11022 Brusson AO
+Coordinate: Lat 45.73906, Lng 7.746591
+Website: http://www.lacrocebianca.it/
+Email: 
+
+11277. Albergo Nord
+ID: a192ec43-aeea-42c5-9673-9aa12ef31174
+Slug: albergo-nord-brusson
+Nome: Albergo Nord
+Comune / Provincia: Brusson
+Indirizzo: Rue Trois Villages, 98, 11022 Brusson AO
+Coordinate: Lat 45.758116, Lng 7.729874
+Website: http://www.albergonord.it/
+Email: 
+
+11278. AU RASCARD - CHALET D'HOTES
+ID: 33367529-1808-4ffb-b6c9-2a9ac00f2ffe
+Slug: au-rascard-chalet-d-hotes-brusson
+Nome: AU RASCARD - CHALET D'HOTES
+Comune / Provincia: Brusson
+Indirizzo: Hameau Crêtes, 18, 11022 Brusson AO
+Coordinate: Lat 45.759551, Lng 7.715548
+Website: http://www.aurascard.it/
+Email: 
+
+11279. B&B L'Abreny
+ID: 5a9b5d60-aaad-4f5a-b0ed-996a1ef2cd96
+Slug: b-b-l-abreny-brusson
+Nome: B&B L'Abreny
+Comune / Provincia: Brusson
+Indirizzo: Loc. Les Cretes, 5, Brusson, 11022 Brusson AO
+Coordinate: Lat 45.759342, Lng 7.715814
+Website: https://labreny.com/
+Email: 
+
+11280. Brusson
+ID: 6aa80fc4-00a2-4c4a-84c4-73cb6dea560e
+Slug: brusson-brusson
+Nome: Brusson
+Comune / Provincia: Brusson
+Indirizzo: Hameau Ponteil, 24, 11022 Brusson AO
+Coordinate: Lat 45.758056, Lng 7.729516
+Website: —
+Email: 
+
+11281. brusson alloggi vacanze
+ID: 147bbaa8-9da9-4c6b-b5fa-183c7fde750d
+Slug: brusson-alloggi-vacanze-brusson
+Nome: brusson alloggi vacanze
+Comune / Provincia: Brusson
+Indirizzo: Rue Trois Villages, 39, 11020 Brusson AO
+Coordinate: Lat 45.757704, Lng 7.732456
+Website: https://www.brussonalloggivacanze.it/
+Email: 
+
+11282. Chambres d'hotes A Barma Drola
+ID: 0f06c9d1-cae8-4497-81ba-9c603d6c9ca0
+Slug: chambres-d-hotes-a-barma-drola-brusson
+Nome: Chambres d'hotes A Barma Drola
+Comune / Provincia: Brusson
+Indirizzo: Frazione Estoul 18, 11022 Brusson AO
+Coordinate: Lat 45.756808, Lng 7.7616
+Website: http://www.abarmadrola.it/
+Email: 
+
+11283. Chambres d'Hòtes" Le Coin Des Mélèzes"
+ID: a26bca2d-a412-4dda-a8a8-2a84e368cc68
+Slug: chambres-d-hotes-le-coin-des-melezes-brusson
+Nome: Chambres d'Hòtes" Le Coin Des Mélèzes"
+Comune / Provincia: Brusson
+Indirizzo: Località Fenilliettaz, 31, 11022 Estoul AO
+Coordinate: Lat 45.760585, Lng 7.766359
+Website: http://www.lecoindesmelezes.it/
+Email: 
+
+11284. Hotel Beau Site
+ID: 132dcfc6-e36f-4a20-91e2-717efda02c18
+Slug: hotel-beau-site-brusson
+Nome: Hotel Beau Site
+Comune / Provincia: Brusson
+Indirizzo: Rue Trois Villages, 4, 11022 Brusson AO
+Coordinate: Lat 45.756463, Lng 7.734454
+Website: http://www.beausite.it/
+Email: 
+
+11285. La Maison de Dolphe - Chalet de Charme a Brusson
+ID: fa3c0928-e797-4c5a-b9f0-920c781a248a
+Slug: la-maison-de-dolphe-chalet-de-charme-a-brusson-brusson
+Nome: La Maison de Dolphe - Chalet de Charme a Brusson
+Comune / Provincia: Brusson
+Indirizzo: Loc, 11022 Brusson AO
+Coordinate: Lat 45.759398, Lng 7.71606
+Website: http://www.lamaisondedolphe.com/
+Email: 
+
+11286. Laghetto
+ID: 4d82a5dc-7173-43aa-80b9-ebbdbe7990b2
+Slug: laghetto-brusson
+Nome: Laghetto
+Comune / Provincia: Brusson
+Indirizzo: Rue Trois Villages, 291, 11022 Brusson AO
+Coordinate: Lat 45.760814, Lng 7.721395
+Website: http://www.hotellaghetto.it/
+Email: 
+
+11287. Les Hiboux
+ID: 2999b6b6-fec9-479b-8473-2ae9447df8f1
+Slug: les-hiboux-brusson
+Nome: Les Hiboux
+Comune / Provincia: Brusson
+Indirizzo: Hameau Ponteil, 24, 11022 Brusson AO
+Coordinate: Lat 45.751924, Lng 7.738724
+Website: http://www.leshiboux.it/
+Email: 
+
+11288. Mi casa tu casa
+ID: 4d6dfc5e-0c27-413a-aa15-42602a686fbe
+Slug: mi-casa-tu-casa-brusson
+Nome: Mi casa tu casa
+Comune / Provincia: Brusson
+Indirizzo: Rue de l'Eglise, 79, 11022 Brusson AO
+Coordinate: Lat 45.780131, Lng 7.697996
+Website: http://www.micasatucasa.info/
+Email: 
+
+11289. Residence Aquila
+ID: 1c41da38-46bb-441b-b7af-0c030e4abb4c
+Slug: residence-aquila-brusson
+Nome: Residence Aquila
+Comune / Provincia: Brusson
+Indirizzo: Rue Trois Villages, 63, 11022 Brusson AO
+Coordinate: Lat 45.758207, Lng 7.731523
+Website: https://www.residenceaquila.it/
+Email: 
+
+11290. Valley Vacanze
+ID: a9d46b5a-9785-4eb2-b594-d28a80a5ba9f
+Slug: valley-vacanze-brusson
+Nome: Valley Vacanze
+Comune / Provincia: Brusson
+Indirizzo: Rue Valley, 38, 11022 Brusson AO
+Coordinate: Lat 45.759831, Lng 7.734603
+Website: https://www.abc-vacanze.com/appartamenti-valley-vacanze/
+Email: 
+
+11291. B&B La Petite Maison Coazze
+ID: f0be10c4-fb98-40f4-8921-077c27b093e5
+Slug: b-b-la-petite-maison-coazze-bruzolo
+Nome: B&B La Petite Maison Coazze
+Comune / Provincia: Bruzolo
+Indirizzo: Via Matteotti, 130, 10050 Coazze TO
+Coordinate: Lat 45.051187, Lng 7.300949
+Website: https://lapetitemaisoncoazze.beddy.io/
+Email: 
+
+11292. B&B Terra di confine
+ID: 1c2a3d73-05e4-4555-b177-e3d43f7a9c0b
+Slug: b-b-terra-di-confine-bruzolo
+Nome: B&B Terra di confine
+Comune / Provincia: Bruzolo
+Indirizzo: Via Roma, 89, 10050 Venaus TO
+Coordinate: Lat 45.152529, Lng 7.012118
+Website: https://bb-terra-di-confine.mipiacelitalia.top/
+Email: 
+
+11293. La Meizoun Blancho
+ID: 6ed59179-38ed-46e7-84f6-e3c46f225c92
+Slug: la-meizoun-blancho-bruzolo
+Nome: La Meizoun Blancho
+Comune / Provincia: Bruzolo
+Indirizzo: Via Grange, 10, 10060 Fenestrelle TO
+Coordinate: Lat 45.024263, Lng 7.083923
+Website: https://lameizounblancho.top/
+Email: 
+
+11294. Relais des Alpes
+ID: 03ae3f97-604e-4459-829a-c6bfa61f51fa
+Slug: relais-des-alpes-bruzolo
+Nome: Relais des Alpes
+Comune / Provincia: Bruzolo
+Indirizzo: Frazione S. Lorenzo, 82, 10050 Giaglione TO
+Coordinate: Lat 45.136682, Lng 7.01277
+Website: —
+Email: 
+
+11295. Yamabushi Bed & Breakfast
+ID: 44aa5735-abc3-4f66-a36b-40a3f6e41d31
+Slug: yamabushi-bed-breakfast-bruzolo
+Nome: Yamabushi Bed & Breakfast
+Comune / Provincia: Bruzolo
+Indirizzo: Via Cresta Fiorita, 10, 10050 Gravere TO
+Coordinate: Lat 45.121025, Lng 7.023902
+Website: http://yamabushibedandbreakfast.it/
+Email: 
+
+11296. Villa francesca e cristina
+ID: 7de9f05f-a34c-4cad-9f3b-71028bbf5896
+Slug: villa-francesca-e-cristina-bruzzano-zeffirio
+Nome: Villa francesca e cristina
+Comune / Provincia: Bruzzano Zeffirio
+Indirizzo: 89030 Ferruzzano RC
+Coordinate: Lat 38.008782, Lng 16.129902
+Website: https://francesca.tripcombined.com/
+Email: 
+
+11297. B&B La Corte
+ID: 6e2e9866-cc3e-4743-bc57-48da075f8fc6
+Slug: b-b-la-corte-bubbiano
+Nome: B&B La Corte
+Comune / Provincia: Bubbiano
+Indirizzo: Via Battisti, 48, 27022 Casorate Primo PV
+Coordinate: Lat 45.311399, Lng 9.013308
+Website: http://www.beblacorte.eu/
+Email: 
+
+11298. Agriturismo Mondo
+ID: 37cc817b-b04f-452d-b870-0778509e9aec
+Slug: agriturismo-mondo-bubbio
+Nome: Agriturismo Mondo
+Comune / Provincia: Bubbio
+Indirizzo: Regione Stropeta, 100, 14051 Bubbio AT
+Coordinate: Lat 44.661756, Lng 8.28574
+Website: https://stayedhotel.com/agriturismo-mondo-italy
+Email: 
+
+11299. Agriturismo Tre colline in langa
+ID: 5c7214d3-a379-404d-be1b-8447529bc9c8
+Slug: agriturismo-tre-colline-in-langa-bubbio
+Nome: Agriturismo Tre colline in langa
+Comune / Provincia: Bubbio
+Indirizzo: SP25, 157, 14051 Bubbio AT
+Coordinate: Lat 44.669862, Lng 8.289737
+Website: —
+Email: 
+
+11300. B&B Cascina Sant'Elena
+ID: 8d4883bc-5686-4cc5-afca-a7ce336fca12
+Slug: b-b-cascina-sant-elena-bubbio
+Nome: B&B Cascina Sant'Elena
+Comune / Provincia: Bubbio
+Indirizzo: Regione Tatorba, 70, 14051 Bubbio AT
+Coordinate: Lat 44.62916, Lng 8.294865
+Website: https://www.cascinasantelena.it/
+Email: 
+
+11301. Ca d' Becon di Cresta Rita
+ID: 46f09830-b3e6-444b-a4b9-b1825cadccb3
+Slug: ca-d-becon-di-cresta-rita-bubbio
+Nome: Ca d' Becon di Cresta Rita
+Comune / Provincia: Bubbio
+Indirizzo: Via Giarone, N. 11, 14051 Bubbio AT
+Coordinate: Lat 44.663237, Lng 8.301024
+Website: https://www.dormireinpiemonte.com/
+Email: 
+
+11302. Il Castello di Bubbio Hotel Ristorante
+ID: c65cad22-4c32-47f7-bfcf-abc5c9d6575f
+Slug: il-castello-di-bubbio-hotel-ristorante-bubbio
+Nome: Il Castello di Bubbio Hotel Ristorante
+Comune / Provincia: Bubbio
+Indirizzo: Piazza del Castello, 1, 14051 Bubbio AT
+Coordinate: Lat 44.661991, Lng 8.295141
+Website: https://www.castellobubbio.com/
+Email: 
+
+11303. La Casa dei Caprioli
+ID: d3750cc3-e4b3-43cc-8d36-f17f78d7b817
+Slug: la-casa-dei-caprioli-bubbio
+Nome: La Casa dei Caprioli
+Comune / Provincia: Bubbio
+Indirizzo: Regione Sant Antonio, 83, 14051 Bubbio AT
+Coordinate: Lat 44.646886, Lng 8.289811
+Website: https://casacaprioli.com/
+Email: 
+
+11304. Ristorante hotel "La Magnolia"
+ID: d8ce1283-6ac9-4271-9944-5c65ffebc3f0
+Slug: ristorante-hotel-la-magnolia-bubbio
+Nome: Ristorante hotel "La Magnolia"
+Comune / Provincia: Bubbio
+Indirizzo: Regione grassi, 48, 14051 Bubbio AT
+Coordinate: Lat 44.636462, Lng 8.288872
+Website: —
+Email: 
+
+11305. Villa Sibilla - Agriturismo di Charme
+ID: f2a106aa-96d1-430b-bcaa-46e09a1bc023
+Slug: villa-sibilla-agriturismo-di-charme-bubbio
+Nome: Villa Sibilla - Agriturismo di Charme
+Comune / Provincia: Bubbio
+Indirizzo: Via S. Giuseppe, 12, 14051 Bubbio AT
+Coordinate: Lat 44.663197, Lng 8.295221
+Website: https://francescastraveltips.com/villa-sibilla-bubbio1-italy
+Email: 

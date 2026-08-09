@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+8541. Locanda Cossetti Ranch Winery
+ID: 86f3c7ff-ed61-4551-a308-5a83362780d8
+Slug: locanda-cossetti-ranch-winery-bergamasco
+Nome: Locanda Cossetti Ranch Winery
+Comune / Provincia: Bergamasco
+Indirizzo: Regione Zucca, 1, 14045 Incisa Scapaccino AT
+Coordinate: Lat 44.836201, Lng 8.421567
+Website: https://www.locandacossetti.com/it/index.html
+Email: 
+
+8542. Monferrato Guest House - Il Murôn
+ID: dd9f2e23-5591-48f8-adf6-3d5dfdc76438
+Slug: monferrato-guest-house-il-muron-bergamasco
+Nome: Monferrato Guest House - Il Murôn
+Comune / Provincia: Bergamasco
+Indirizzo: Via Cavour, 56, 15026 Carentino AL
+Coordinate: Lat 44.829264, Lng 8.473677
+Website: https://www.monferratoguesthouse.it/il-muron-guest-house/
+Email: 
+
+8543. Agriturismo Corte Matiola
+ID: 498620f2-7d3b-4806-91a4-f9e53d98851a
+Slug: agriturismo-corte-matiola-bergantino
+Nome: Agriturismo Corte Matiola
+Comune / Provincia: Bergantino
+Indirizzo: Strada Libioli, 15, 46020 Libioli MN
+Coordinate: Lat 45.03616, Lng 11.060309
+Website: —
+Email: 
+
+8544. Agriturismo Olianina
+ID: 188981e3-5315-4564-a613-855297a9640d
+Slug: agriturismo-olianina-bergantino
+Nome: Agriturismo Olianina
+Comune / Provincia: Bergantino
+Indirizzo: Via Gaiardina, 4, 46036 Borgo Mantovano MN
+Coordinate: Lat 45.010167, Lng 11.115986
+Website: http://www.agriturismolianina.it/
+Email: 
+
+8545. Albergo Cavallucci
+ID: 550bcccd-3511-4af8-907d-08551a4e101f
+Slug: albergo-cavallucci-bergantino
+Nome: Albergo Cavallucci
+Comune / Provincia: Bergantino
+Indirizzo: Via XXIX Luglio 1848, 29, 46028 Sermide MN
+Coordinate: Lat 45.00497, Lng 11.298059
+Website: https://irenelovestotravel.eu/albergo-quot-cavallucci-quot-italy
+Email: 
+
+8546. Albergo Hotel La Gardenia
+ID: 6d8b0e04-5c63-4848-bc49-39330b3cc233
+Slug: albergo-hotel-la-gardenia-bergantino
+Nome: Albergo Hotel La Gardenia
+Comune / Provincia: Bergantino
+Indirizzo: Via Arginino, 4304, 45032 Bergantino RO
+Coordinate: Lat 45.060278, Lng 11.273889
+Website: http://www.lagardeniabergantino.it/
+Email: 
+
+8547. B&B da Mary
+ID: 6c373489-c619-4bf7-b503-188062cb21fa
+Slug: b-b-da-mary-bergantino
+Nome: B&B da Mary
+Comune / Provincia: Bergantino
+Indirizzo: Via Santo, 2, 37060 Pampuro VR
+Coordinate: Lat 45.17083, Lng 11.006539
+Website: https://www.bebdamary.it/
+Email: 
+
+8548. B&B Le Tortore
+ID: 889c336e-c853-4a3b-a930-04eecf6b65a4
+Slug: b-b-le-tortore-bergantino
+Nome: B&B Le Tortore
+Comune / Provincia: Bergantino
+Indirizzo: Via Gilseppe Sani, 27, 45037 Melara RO
+Coordinate: Lat 45.061621, Lng 11.202299
+Website: —
+Email: 
+
+8549. Green House in Campagna
+ID: 3adc2127-437e-43b5-8dfd-a2695d9c2987
+Slug: green-house-in-campagna-bergantino
+Nome: Green House in Campagna
+Comune / Provincia: Bergantino
+Indirizzo: Via Dell'Artigianato, 7, 45037 Melara RO
+Coordinate: Lat 45.065209, Lng 11.204169
+Website: https://alisastraveltips.com/green-house-in-campagna-italy
+Email: 
+
+8550. Hotel Doria Ristorante
+ID: 46789320-d886-4184-a427-ce5a6f0677a3
+Slug: hotel-doria-ristorante-bergantino
+Nome: Hotel Doria Ristorante
+Comune / Provincia: Bergantino
+Indirizzo: Str. Abetone Brennero Est, 63, 46035 Ostiglia MN
+Coordinate: Lat 45.066933, Lng 11.141742
+Website: http://www.hoteldoriaostiglia.it/
+Email: 
+
+8551. Hotel Meridiana
+ID: dcb91179-8b54-43bd-bf82-a86f680f5e56
+Slug: hotel-meridiana-bergantino
+Nome: Hotel Meridiana
+Comune / Provincia: Bergantino
+Indirizzo: Via prov. Eridania 2 ( Interno Via Saba ), 45035 Castelmassa RO
+Coordinate: Lat 45.012979, Lng 11.336247
+Website: http://spazioinwind.libero.it/hotelmeridiana/
+Email: 
+
+8552. Hotel Passacor
+ID: 6a81a955-733c-497c-a52e-6afe6e1eadca
+Slug: hotel-passacor-bergantino
+Nome: Hotel Passacor
+Comune / Provincia: Bergantino
+Indirizzo: Str. Prov. Ferrarese, 4, 46021 Carbonara di Po MN
+Coordinate: Lat 45.037948, Lng 11.226465
+Website: https://www.hotelpassacor.it/
+Email: 
+
+8553. La Luce della Luna
+ID: 8fb5797c-a6a2-47ac-8bd6-e80f0c6371b1
+Slug: la-luce-della-luna-bergantino
+Nome: La Luce della Luna
+Comune / Provincia: Bergantino
+Indirizzo: Via Spinea, 996, 45030 Castelnovo Bariano RO
+Coordinate: Lat 45.027338, Lng 11.280825
+Website: http://la-luce-della-luna.com.es//
+Email: 
+
+8554. Locanda Bepa
+ID: 01f9eacc-127b-485c-88cf-825594ed0848
+Slug: locanda-bepa-bergantino
+Nome: Locanda Bepa
+Comune / Provincia: Bergantino
+Indirizzo: Via Tartaro, 10, 46035 Loc. Bastion San Michele, MN
+Coordinate: Lat 45.110189, Lng 11.204781
+Website: http://www.locandabepa.com/
+Email: 
+
+8555. Sold Out Locazione Turistica
+ID: 173b4d63-eb0f-43a4-a808-16d443dada71
+Slug: sold-out-locazione-turistica-bergantino
+Nome: Sold Out Locazione Turistica
+Comune / Provincia: Bergantino
+Indirizzo: Via Cantarane, 19, 37060 Gazzo Veronese VR
+Coordinate: Lat 45.135455, Lng 11.084292
+Website: http://www.soldoutvr.it/
+Email: 
+
+8556. B&B Casa dell'ancora codice CIN: IT009010B4X85AVHXI
+ID: 6f5d05db-5226-453b-bba8-49acb3f2a1d0
+Slug: b-b-casa-dell-ancora-codice-cin-it009010b4x85avh-bergeggi
+Nome: B&B Casa dell'ancora codice CIN: IT009010B4X85AVHXI
+Comune / Provincia: Bergeggi
+Indirizzo: Via XXV Aprile, 29, 17042 Bergeggi SV
+Coordinate: Lat 44.252655, Lng 8.446293
+Website: https://www.bbcasadellancora.it/
+Email: 
+
+8557. Best Western Hotel Acqua Novella
+ID: 02c26f50-3db5-498e-adb2-9852f58e01de
+Slug: best-western-hotel-acqua-novella-bergeggi
+Nome: Best Western Hotel Acqua Novella
+Comune / Provincia: Bergeggi
+Indirizzo: Via Acqua Novella, 1, 17028 Spotorno SV
+Coordinate: Lat 44.236789, Lng 8.432825
+Website: http://www.acquanovella.it/
+Email: 
+
+8558. Casale Coreallo
+ID: ba61f96a-2b7f-45f3-9caf-8e0c51d72954
+Slug: casale-coreallo-bergeggi
+Nome: Casale Coreallo
+Comune / Provincia: Bergeggi
+Indirizzo: Via Coreallo, 26, 17028 Spotorno SV
+Coordinate: Lat 44.22285, Lng 8.403895
+Website: https://beb.it/casalecoreallospotorno
+Email: 
+
+8559. Dominio Mare Resort
+ID: 44c75c6a-f51a-4f82-a0bc-8205cc64c3bd
+Slug: dominio-mare-resort-bergeggi
+Nome: Dominio Mare Resort
+Comune / Provincia: Bergeggi
+Indirizzo: Via XXV Aprile, 64, 17042 Bergeggi SV
+Coordinate: Lat 44.254054, Lng 8.447065
+Website: http://www.dominiomarebergeggi.it/
+Email: 
+
+8560. Guest house Berzefi
+ID: a3e99325-86f7-43b9-8b4a-0e6cfd07a526
+Slug: guest-house-berzefi-bergeggi
+Nome: Guest house Berzefi
+Comune / Provincia: Bergeggi
+Indirizzo: Via Torre d'Ere, 40/1e, 17042 Bergeggi SV
+Coordinate: Lat 44.240715, Lng 8.441674
+Website: http://www.berzefi.it/
+Email: 
+
+8561. Hotel Costa Azzurra - Free Parking - Easy Stay
+ID: 2e9d75b0-c136-4b2b-9f53-4344455718ff
+Slug: hotel-costa-azzurra-free-parking-easy-stay-bergeggi
+Nome: Hotel Costa Azzurra - Free Parking - Easy Stay
+Comune / Provincia: Bergeggi
+Indirizzo: Via Lombardia, 2, 17028 Spotorno SV
+Coordinate: Lat 44.225905, Lng 8.41518
+Website: https://beb.it/spotorno/it/
+Email: 
+
+8562. Hotel Italia
+ID: f2c6cd20-6c51-4945-b751-28098fc9047c
+Slug: hotel-italia-bergeggi
+Nome: Hotel Italia
+Comune / Provincia: Bergeggi
+Indirizzo: Corso Italia, 23, 17026 Noli SV
+Coordinate: Lat 44.205151, Lng 8.416193
+Website: http://www.hotelitalianoli.com/
+Email: 
+
+8563. Hotel Melograno
+ID: 6a030829-2d55-4e49-a1da-c47b571e9307
+Slug: hotel-melograno-bergeggi
+Nome: Hotel Melograno
+Comune / Provincia: Bergeggi
+Indirizzo: Via G. Garibaldi, 21, 17028 Spotorno SV
+Coordinate: Lat 44.226602, Lng 8.417397
+Website: http://www.hotelmelograno.com/
+Email: 
+
+8564. Hotel Ristorante Casa Vacanze Claudio
+ID: 381ac393-2ed5-40e1-8c60-2d9441626127
+Slug: hotel-ristorante-casa-vacanze-claudio-bergeggi
+Nome: Hotel Ristorante Casa Vacanze Claudio
+Comune / Provincia: Bergeggi
+Indirizzo: Via XXV Aprile, 37, 17028 Bergeggi SV
+Coordinate: Lat 44.253337, Lng 8.44727
+Website: https://www.hotelclaudiobergeggi.it/
+Email: 
+
+8565. Hotel Villa Rina
+ID: 26baec0c-ae62-4f19-8f33-37fb9459af7a
+Slug: hotel-villa-rina-bergeggi
+Nome: Hotel Villa Rina
+Comune / Provincia: Bergeggi
+Indirizzo: Via T. Berninzoni, 38, 17028 Spotorno SV
+Coordinate: Lat 44.22908, Lng 8.419249
+Website: http://www.villarinahotel.it/
+Email: 
+
+8566. Miramare
+ID: 088bea89-8793-4823-8071-9c882d09f63c
+Slug: miramare-bergeggi
+Nome: Miramare
+Comune / Provincia: Bergeggi
+Indirizzo: Corso Italia, 2, 17026 Noli SV
+Coordinate: Lat 44.20407, Lng 8.415858
+Website: http://www.hotelmiramarenoli.it/
+Email: 
+
+8567. OroVerde
+ID: 627f663d-02d6-49d7-8bc3-bcb26e5d4a3a
+Slug: oroverde-bergeggi
+Nome: OroVerde
+Comune / Provincia: Bergeggi
+Indirizzo: Str. Com. Alla Gola di S. Elena, 11, 17042 Bergeggi SV
+Coordinate: Lat 44.244259, Lng 8.435313
+Website: http://www.hoteloroverde.it/
+Email: 
+
+8568. Residence Borgo San Sebastiano
+ID: 3701b252-b3b1-449d-9fef-dd730df3a99a
+Slug: residence-borgo-san-sebastiano-bergeggi
+Nome: Residence Borgo San Sebastiano
+Comune / Provincia: Bergeggi
+Indirizzo: Via XXV Aprile, 37, 17042 Bergeggi SV
+Coordinate: Lat 44.253836, Lng 8.448038
+Website: http://www.residenceborgosansebastiano.it/
+Email: 
+
+8569. Riviera Hotel
+ID: ed958d8f-e7f6-474a-90fe-e863367d4e8b
+Slug: riviera-hotel-bergeggi
+Nome: Riviera Hotel
+Comune / Provincia: Bergeggi
+Indirizzo: Via T. Berninzoni, 24, 17028 Spotorno SV
+Coordinate: Lat 44.228419, Lng 8.418157
+Website: http://www.rivierahotel.it/
+Email: 
+
+8570. Sea Art Hotel
+ID: a883d4c2-757d-4d32-9ceb-6977a6aa7651
+Slug: sea-art-hotel-bergeggi
+Nome: Sea Art Hotel
+Comune / Provincia: Bergeggi
+Indirizzo: SS1, Via Aurelia, 454, 17047 Vado Ligure SV
+Coordinate: Lat 44.261664, Lng 8.447013
+Website: https://seaarthotel.com/
+Email: 
+
+8571. Villa Bice
+ID: d7973dba-0984-44fb-9b57-a94ad345a9e4
+Slug: villa-bice-bergeggi
+Nome: Villa Bice
+Comune / Provincia: Bergeggi
+Indirizzo: Via Ademaro de Mari, 7, 17042 Bergeggi SV
+Coordinate: Lat 44.247338, Lng 8.443191
+Website: http://www.villabice.com/
+Email: 
+
+8572. B&B Blue Dragonfly
+ID: 8490c761-0037-43f8-829f-f59de8f20745
+Slug: b-b-blue-dragonfly-bergolo
+Nome: B&B Blue Dragonfly
+Comune / Provincia: Bergolo
+Indirizzo: Frazione Ghisola, 44, 12034 Paesana CN
+Coordinate: Lat 44.686213, Lng 7.253768
+Website: —
+Email: 
+
+8573. B&B Casa Lilla
+ID: 0b6fb095-dca2-47fe-8ec4-52ecfc0146fb
+Slug: b-b-casa-lilla-bergolo
+Nome: B&B Casa Lilla
+Comune / Provincia: Bergolo
+Indirizzo: Via Falicetto, 56, 12039 Verzuolo CN
+Coordinate: Lat 44.597469, Lng 7.504092
+Website: —
+Email: 
+
+8574. B&B Villa Cardellini - Dimora storica , Struttura di Charme, Oasi di Relax, Vicino alle Langhe
+ID: 088ef42f-21e2-48bc-a1ee-3c204725422b
+Slug: b-b-villa-cardellini-dimora-storica-struttura-di-bergolo
+Nome: B&B Villa Cardellini - Dimora storica , Struttura di Charme, Oasi di Relax, Vicino alle Langhe
+Comune / Provincia: Bergolo
+Indirizzo: Via della Morina, 16, 12038 Savigliano CN
+Coordinate: Lat 44.644764, Lng 7.636222
+Website: http://www.villacardellini.it/
+Email: 
+
+8575. Bed & Breakfast Cascina la Barona
+ID: db2a0e92-cb28-4224-859b-d1dd2957fbef
+Slug: bed-breakfast-cascina-la-barona-bergolo
+Nome: Bed & Breakfast Cascina la Barona
+Comune / Provincia: Bergolo
+Indirizzo: Strada Provinciale Villafalletto, 12038 Savigliano CN
+Coordinate: Lat 44.617916, Lng 7.654427
+Website: https://www.booking.com/hotel/it/cascina-la-barona.en-gb.html?label=gen173nr-1FCAsocUIRY2FzY2luYS1sYS1iYXJvbmFILlgEaHGIAQGYAS7CAQNhYm7IAQ_YAQHoAQH4AQOSAgF5qAIE;sid=063c91b197e74c852e726b5540a529fd;dist=0&sb_price_type=total&type=total&
+Email: 

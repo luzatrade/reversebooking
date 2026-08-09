@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+9871. Idea Hotel Piacenza
+ID: f3f90612-40ab-4089-a6ea-27e50872c29f
+Slug: idea-hotel-piacenza-borghetto-lodigiano
+Nome: Idea Hotel Piacenza
+Comune / Provincia: Borghetto Lodigiano
+Indirizzo: Via Emilia Pavese, 114A, 29121 Piacenza PC
+Coordinate: Lat 45.054286, Lng 9.660922
+Website: https://piacenza.ideahotel.it/
+Email: 
+
+9872. Il cortiletto
+ID: 18f74ce0-dd98-4dd5-a179-8a3e1d7b01ed
+Slug: il-cortiletto-borghetto-lodigiano
+Nome: Il cortiletto
+Comune / Provincia: Borghetto Lodigiano
+Indirizzo: Via Roma, 155, 29121 Piacenza PC
+Coordinate: Lat 45.04966, Lng 9.701607
+Website: http://ilcortilettopiacenza.com/
+Email: 
+
+9873. LOCANDA IL PORTONE TEMPORANEAMENTE CHIUSO
+ID: 7d1d9c81-b46b-4183-9f7b-7a861de0742f
+Slug: locanda-il-portone-temporaneamente-chiuso-borghetto-lodigiano
+Nome: LOCANDA IL PORTONE TEMPORANEAMENTE CHIUSO
+Comune / Provincia: Borghetto Lodigiano
+Indirizzo: Via della Vittoria, 18, 20078 San Colombano al Lambro MI
+Coordinate: Lat 45.184709, Lng 9.489787
+Website: https://www.facebook.com/Locandailportone
+Email: 
+
+9874. Residence Corso Europa
+ID: 38bab437-f6e6-493a-bed7-a6a4cf94ead6
+Slug: residence-corso-europa-borghetto-lodigiano
+Nome: Residence Corso Europa
+Comune / Provincia: Borghetto Lodigiano
+Indirizzo: Via Alessandro Vaciago, 12, 29122 Piacenza PC
+Coordinate: Lat 45.027473, Lng 9.692195
+Website: https://www.residencecorsoeuropa.it/
+Email: 
+
+9875. Affittacamere L'Aurora
+ID: 28abc175-a4b1-444a-a266-d9415f8c22d6
+Slug: affittacamere-l-aurora-borghetto-santo-spirito
+Nome: Affittacamere L'Aurora
+Comune / Provincia: Borghetto Santo Spirito
+Indirizzo: Via del Borgo, 13, 17023 Ceriale SV
+Coordinate: Lat 44.096692, Lng 8.230937
+Website: https://affittacamere-laurora.touritaliani.top/
+Email: 
+
+9876. Albergo Glory
+ID: 891ccad4-89aa-4adc-84db-988999aba1a8
+Slug: albergo-glory-borghetto-santo-spirito
+Nome: Albergo Glory
+Comune / Provincia: Borghetto Santo Spirito
+Indirizzo: Corso Europa, 37, 17020 Borghetto Santo Spirito SV
+Coordinate: Lat 44.114444, Lng 8.246111
+Website: http://www.hotelglory.it/
+Email: 
+
+9877. Albergo Tiffany
+ID: 9a3ea820-3496-4fc8-8f7c-2bcc8d80580f
+Slug: albergo-tiffany-borghetto-santo-spirito
+Nome: Albergo Tiffany
+Comune / Provincia: Borghetto Santo Spirito
+Indirizzo: SS 1, 78, 17023 Ceriale SV
+Coordinate: Lat 44.096147, Lng 8.231376
+Website: https://hoteltiffanyceriale.ovh/
+Email: 
+
+9878. B&B Il Tulipano
+ID: f5109f3c-2077-4aca-b99f-bdf5ad38bad3
+Slug: b-b-il-tulipano-borghetto-santo-spirito
+Nome: B&B Il Tulipano
+Comune / Provincia: Borghetto Santo Spirito
+Indirizzo: Via Giuseppe Garibaldi, 19, 17020 Borghetto Santo Spirito SV
+Coordinate: Lat 44.109301, Lng 8.240446
+Website: https://www.bed-and-breakfast.it/it/liguria/il-tulipano-borghetto-santo-spirito/26902
+Email: 
+
+9879. Hotel Claudia
+ID: 3e9f119c-677a-4d16-b715-c5d4a6b6b5fe
+Slug: hotel-claudia-borghetto-santo-spirito
+Nome: Hotel Claudia
+Comune / Provincia: Borghetto Santo Spirito
+Indirizzo: Via Genova, 44, 17025 Loano SV
+Coordinate: Lat 44.122, Lng 8.252567
+Website: http://www.hotelclaudialoano.it/
+Email: 
+
+9880. Hotel Garden Lido
+ID: f9fbe8f8-c87c-4111-be38-eacad5a79268
+Slug: hotel-garden-lido-borghetto-santo-spirito
+Nome: Hotel Garden Lido
+Comune / Provincia: Borghetto Santo Spirito
+Indirizzo: Lungomare Nazario Sauro, 17025 Loano SV
+Coordinate: Lat 44.130136, Lng 8.262587
+Website: http://www.gardenlido.com/
+Email: 
+
+9881. Hotel La Caravella
+ID: eb15ddd8-cb28-4faf-ac4d-df7e76a55289
+Slug: hotel-la-caravella-borghetto-santo-spirito
+Nome: Hotel La Caravella
+Comune / Provincia: Borghetto Santo Spirito
+Indirizzo: Via Aurelia, 315, 17025 Loano SV
+Coordinate: Lat 44.118424, Lng 8.248867
+Website: http://www.hotelcaravella-loano.com/
+Email: 
+
+9882. Hotel Villa Danci
+ID: 84c97b8e-a8ca-4c25-adaf-7a3b1c831347
+Slug: hotel-villa-danci-borghetto-santo-spirito
+Nome: Hotel Villa Danci
+Comune / Provincia: Borghetto Santo Spirito
+Indirizzo: Via IV Novembre, 1r, 17020 Borghetto Santo Spirito SV
+Coordinate: Lat 44.110286, Lng 8.242231
+Website: https://www.hotelvilladanci.com/
+Email: 
+
+9883. L'11 affittacamere
+ID: c0dd221b-7fdf-4ae8-8b46-73acb93cc5d4
+Slug: l-11-affittacamere-borghetto-santo-spirito
+Nome: L'11 affittacamere
+Comune / Provincia: Borghetto Santo Spirito
+Indirizzo: Via Madonna degli Angeli, 17, 17020 Borghetto Santo Spirito SV
+Coordinate: Lat 44.123215, Lng 8.239854
+Website: https://www.booking.com/hotel/it/11-affittacamere.it.html?label=gen173bo-10CAsocUIQMTEtYWZmaXR0YWNhbWVyZUgzWANocYgBAZgBM7gBB8gBDNgBA-gBAfgBAYgCAZgCBqgCAbgCnZaixQbAAgHSAiQzMDI1ZjhkNC0yZjM0LTQyMWItOWQxNS1jYWNkZDMxM2MxMTXYAgHgAgE&sid=20c742f7d808e0db37aa1575d79d531e&dist=0&sb_price_type=total&type=total&
+Email: 
+
+9884. MILAeNAN B&B
+ID: e2eb9788-543d-430f-9610-8298b5e469ee
+Slug: milaenan-b-b-borghetto-santo-spirito
+Nome: MILAeNAN B&B
+Comune / Provincia: Borghetto Santo Spirito
+Indirizzo: Via . Petrarca, 2A, 17020 Borghetto Santo Spirito SV
+Coordinate: Lat 44.111948, Lng 8.240601
+Website: http://milaenan.it/
+Email: 
+
+9885. Residenza degli Aranci
+ID: f19fcfd4-f52d-4dc0-890a-8576f359c931
+Slug: residenza-degli-aranci-borghetto-santo-spirito
+Nome: Residenza degli Aranci
+Comune / Provincia: Borghetto Santo Spirito
+Indirizzo: Via Cremona, 10, 17025 Loano SV
+Coordinate: Lat 44.121243, Lng 8.244398
+Website: http://www.residenzadegliaranci.it/
+Email: 
+
+9886. B&B Concaverde
+ID: 2d171e61-fee3-4a90-81ef-12e40ca5383f
+Slug: b-b-concaverde-borghi
+Nome: B&B Concaverde
+Comune / Provincia: Borghi
+Indirizzo: Via Canfurlo, 6, 47030 Borghi FC
+Coordinate: Lat 44.005642, Lng 12.324488
+Website: http://bbconcaverde.com/
+Email: 
+
+9887. B&B Svegliarsi nei Borghi
+ID: 42d363e9-1e39-49d3-a640-ede42eb638e2
+Slug: b-b-svegliarsi-nei-borghi-borghi
+Nome: B&B Svegliarsi nei Borghi
+Comune / Provincia: Borghi
+Indirizzo: Via M. Iamele, 12, 71029 Troia FG
+Coordinate: Lat 41.361695, Lng 15.308766
+Website: http://www.svegliarsineiborghi.com/
+Email: 
+
+9888. Palazzo Gessi - Room & Breakfast
+ID: 9d1fd6a3-4237-4d4c-b906-db8851a280e1
+Slug: palazzo-gessi-room-breakfast-borghi
+Nome: Palazzo Gessi - Room & Breakfast
+Comune / Provincia: Borghi
+Indirizzo: Via G. Brodolini, 33, 47030 Tribola FC
+Coordinate: Lat 44.040558, Lng 12.369247
+Website: https://www.palazzogessi.it/
+Email: 
+
+9889. Ristorante Agriturismo Il Gallo Nero
+ID: a25fa8b6-2c95-411e-a3a4-a96709f64091
+Slug: ristorante-agriturismo-il-gallo-nero-borghi
+Nome: Ristorante Agriturismo Il Gallo Nero
+Comune / Provincia: Borghi
+Indirizzo: Via Buondi, 47030 Borghi FC
+Coordinate: Lat 44.031088, Lng 12.348279
+Website: https://www.agriturismo-ilgallonero.it/
+Email: 
+
+9890. Aura Club - Porto Rhoca
+ID: b08266a7-19ce-426b-82ff-debefcf39bd1
+Slug: aura-club-porto-rhoca-borgia
+Nome: Aura Club - Porto Rhoca
+Comune / Provincia: Borgia
+Indirizzo: 88069 Villaggio Gebiola Porto Rhoca CZ
+Coordinate: Lat 38.785503, Lng 16.56654
+Website: https://www.portorhoca.io/
+Email: 
+
+9891. BORGO SANTA ROSA
+ID: 5cf5c160-8236-40d3-ba91-89ef3b59ba9f
+Slug: borgo-santa-rosa-borgia
+Nome: BORGO SANTA ROSA
+Comune / Provincia: Borgia
+Indirizzo: STRADA PROVINCIALE 46 CDA PROFETA, 88050 Caraffa di Catanzaro CZ
+Coordinate: Lat 38.869148, Lng 16.551282
+Website: —
+Email: 
+
+9892. Grand Hotel Paradiso
+ID: 555890b8-584d-4eae-93a3-70397955b082
+Slug: grand-hotel-paradiso-borgia
+Nome: Grand Hotel Paradiso
+Comune / Provincia: Borgia
+Indirizzo: Viale Europa, 2, 88100 Catanzaro CZ
+Coordinate: Lat 38.824988, Lng 16.605599
+Website: https://www.grandhotelparadiso.it/
+Email: 
+
+9893. Hotel Cala Longa
+ID: 3571438a-e03b-4a93-ab88-6516de2a2388
+Slug: hotel-cala-longa-borgia
+Nome: Hotel Cala Longa
+Comune / Provincia: Borgia
+Indirizzo: Via dei Marinai, 2, 88060 Montauro CZ
+Coordinate: Lat 38.736521, Lng 16.547026
+Website: http://www.hotelcalalonga.it/
+Email: 
+
+9894. Hotel La Giara
+ID: d8aa8e7f-52f7-44cb-93ce-d00e0a468202
+Slug: hotel-la-giara-borgia
+Nome: Hotel La Giara
+Comune / Provincia: Borgia
+Indirizzo: Via Marina di Pietragrande, 1, 88060 Loc. Pietragrande, CZ
+Coordinate: Lat 38.740915, Lng 16.55661
+Website: https://www.hotelscheck-in.com/lagiarahotel/it/
+Email: 
+
+9895. Hotel Palace
+ID: 6b0219a9-55ba-477a-a15e-1e030767b88b
+Slug: hotel-palace-borgia
+Nome: Hotel Palace
+Comune / Provincia: Borgia
+Indirizzo: Via Lungomare Stefano Pugliese, 221, 88063 Catanzaro CZ
+Coordinate: Lat 38.825432, Lng 16.623026
+Website: https://www.hotel-palace.it/
+Email: 
+
+9896. Hotel Torre Del Duca (Nuova Gestione)
+ID: 93e46248-87e0-44c8-868b-1780a8d3c437
+Slug: hotel-torre-del-duca-nuova-gestione-borgia
+Nome: Hotel Torre Del Duca (Nuova Gestione)
+Comune / Provincia: Borgia
+Indirizzo: Viale della Legalità, 52, 88021 San Floro CZ
+Coordinate: Lat 38.853839, Lng 16.536521
+Website: —
+Email: 
+
+9897. Antica Dimora del Portico B&B
+ID: ed719dbe-70ec-4f00-a896-67121fd51476
+Slug: antica-dimora-del-portico-b-b-borgiallo
+Nome: Antica Dimora del Portico B&B
+Comune / Provincia: Borgiallo
+Indirizzo: Via A. e G. Trucano, 7, 10080 Borgiallo TO
+Coordinate: Lat 45.419587, Lng 7.662838
+Website: http://antica-dimora-del-portico-b-b.org.es/
+Email: 
+
+9898. Hotel Astoria
+ID: db3d702d-160e-479b-85c8-98748ef6d0cb
+Slug: hotel-astoria-borgiallo
+Nome: Hotel Astoria
+Comune / Provincia: Borgiallo
+Indirizzo: Don, Via Don Giovanni Minzoni, 5, 10082 Cuorgnè TO
+Coordinate: Lat 45.389981, Lng 7.649706
+Website: https://damauro.it/
+Email: 
+
+9899. Le Moie
+ID: ef36ff5e-a204-4023-a42d-edf64f556cb2
+Slug: le-moie-borgiallo
+Nome: Le Moie
+Comune / Provincia: Borgiallo
+Indirizzo: Via Belvedere, 18, 10080 Borgiallo TO
+Coordinate: Lat 45.425788, Lng 7.661157
+Website: https://lemoie.it/
+Email: 
+
+9900. A Carubba du bungiurnu
+ID: f090fbb4-34c8-4df9-b120-76c628da1d5b
+Slug: a-carubba-du-bungiurnu-borgio-verezzi
+Nome: A Carubba du bungiurnu
+Comune / Provincia: Borgio Verezzi
+Indirizzo: Via Acquedotto, 3, 17022 Borgio Verezzi SV
+Coordinate: Lat 44.161172, Lng 8.303118
+Website: http://www.bungiurnu.it/
+Email: 
+
+9901. Albergo Rivamare
+ID: 021e2580-dcb3-4a9f-94fd-450f852fec47
+Slug: albergo-rivamare-borgio-verezzi
+Nome: Albergo Rivamare
+Comune / Provincia: Borgio Verezzi
+Indirizzo: SS 1, 27, 17022 Borgio SV
+Coordinate: Lat 44.157227, Lng 8.307372
+Website: http://www.rivamareborgio.com/
+Email: 
+
+9902. Antico Pozzo Bistrot
+ID: 29395aa9-7f59-46a8-b9dc-c2498177e514
+Slug: antico-pozzo-bistrot-borgio-verezzi
+Nome: Antico Pozzo Bistrot
+Comune / Provincia: Borgio Verezzi
+Indirizzo: Piazza S. Biagio, 8, 17024 Finale Ligure SV
+Coordinate: Lat 44.175999, Lng 8.328157
+Website: https://walkinto.in/tour/bkbL2iFpoM-1x-Lhotpsz
+Email: 
+
+9903. Borgo degli Ulivi Resort
+ID: 863d78fc-2e88-4954-96fe-43248814c80a
+Slug: borgo-degli-ulivi-resort-borgio-verezzi
+Nome: Borgo degli Ulivi Resort
+Comune / Provincia: Borgio Verezzi
+Indirizzo: Via Soccorso, 45, 17027 Pietra Ligure SV
+Coordinate: Lat 44.156272, Lng 8.292548
+Website: https://www.borgodegliuliviresort.it/
+Email: 
+
+9904. Calcagno
+ID: 9fd5f904-9633-4b96-baed-42c12bb0b40e
+Slug: calcagno-borgio-verezzi
+Nome: Calcagno
+Comune / Provincia: Borgio Verezzi
+Indirizzo: Via Vittorio Veneto, 50, 17022 Borgio SV
+Coordinate: Lat 44.159458, Lng 8.311904
+Website: http://www.albergocalcagnoborgio.it/
+Email: 
+
+9905. Casa Valdese Pietra Ligure - IT009049A1DEJKUTXD
+ID: 16fc757b-f613-4d44-bb6f-0ddec737251e
+Slug: casa-valdese-pietra-ligure-it009049a1dejkutxd-borgio-verezzi
+Nome: Casa Valdese Pietra Ligure - IT009049A1DEJKUTXD
+Comune / Provincia: Borgio Verezzi
+Indirizzo: Lungomare Falcone Borsellino, 24, 17027 Pietra Ligure SV
+Coordinate: Lat 44.156355, Lng 8.303482
+Website: http://www.casapietraligure.it/
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16241. Marina Bay
+ID: 1fb422f4-2385-42e6-9ebf-c00a7224df68
+Slug: marina-bay-cinisi
+Nome: Marina Bay
+Comune / Provincia: Cinisi
+Indirizzo: Via Leonardo da Vinci, 47, 90049 Terrasini PA
+Coordinate: Lat 38.155342, Lng 13.082916
+Website: —
+Email: 
+
+16242. Residence Villa Rosa dei Venti
+ID: e5cdf5cd-e419-4244-adb3-f6f7a6ee3ab7
+Slug: residence-villa-rosa-dei-venti-cinisi
+Nome: Residence Villa Rosa dei Venti
+Comune / Provincia: Cinisi
+Indirizzo: Via Paolo Borsellino, 107, 90045 Cinisi PA
+Coordinate: Lat 38.182465, Lng 13.121124
+Website: http://www.villarosadeiventi.eu/
+Email: 
+
+16243. Sea Life Terrasini
+ID: 48a0f7af-2533-4153-b5f2-c6665154bec4
+Slug: sea-life-terrasini-cinisi
+Nome: Sea Life Terrasini
+Comune / Provincia: Cinisi
+Indirizzo: Via G. Meli, 1, 90049 Terrasini PA
+Coordinate: Lat 38.15306, Lng 13.08731
+Website: —
+Email: 
+
+16244. Settegrana
+ID: 96e35b07-724d-4a0f-b524-604d7565d8bd
+Slug: settegrana-cinisi
+Nome: Settegrana
+Comune / Provincia: Cinisi
+Indirizzo: Via Salvatore Badalamenti, 26, 90045 Cinisi PA
+Coordinate: Lat 38.15522, Lng 13.10804
+Website: http://www.settegrana.it/
+Email: 
+
+16245. TerraSole Bakery B&B
+ID: 05409281-c702-4eb5-a708-744535d7da20
+Slug: terrasole-bakery-b-b-cinisi
+Nome: TerraSole Bakery B&B
+Comune / Provincia: Cinisi
+Indirizzo: Via Francesco Crispi, 90, 90049 Terrasini PA
+Coordinate: Lat 38.149516, Lng 13.08478
+Website: http://www.terrasolebb.it/
+Email: 
+
+16246. VOI Florio Resort
+ID: 142aad71-3132-4864-bf8a-596d5d988551
+Slug: voi-florio-resort-cinisi
+Nome: VOI Florio Resort
+Comune / Provincia: Cinisi
+Indirizzo: Via Impastato Peppino, 41, 90045 Cinisi PA
+Coordinate: Lat 38.162332, Lng 13.085693
+Website: https://www.voihotels.com/resort/voi-florio-resort
+Email: 
+
+16247. Albergo Al Carugio (CIN:IT011019A1F9RJLJHZ)
+ID: 3c07ffa4-7b29-4a24-89ee-20a02c38122f
+Slug: albergo-al-carugio-cin-it011019a1f9rjljhz-cinque-terre
+Nome: Albergo Al Carugio (CIN:IT011019A1F9RJLJHZ)
+Comune / Provincia: Cinque Terre
+Indirizzo: Via Roma, 100, 19016 Monterosso al Mare SP
+Coordinate: Lat 44.148997, Lng 9.655148
+Website: https://www.alcarugio.it/
+Email: 
+
+16248. Albergo Baia
+ID: 8f277cee-2df7-44b8-a2cb-1b5a02dccfbd
+Slug: albergo-baia-cinque-terre
+Nome: Albergo Baia
+Comune / Provincia: Cinque Terre
+Indirizzo: Via Fegina, 88, 19016 Monterosso al Mare SP
+Coordinate: Lat 44.145353, Lng 9.647255
+Website: http://www.baiahotel.it/
+Email: info@baiahotel.it
+
+16249. Albergo la Colonnina
+ID: 9502f5f1-6f1c-4953-9d64-7d1de9e7fffd
+Slug: albergo-la-colonnina-cinque-terre
+Nome: Albergo la Colonnina
+Comune / Provincia: Cinque Terre
+Indirizzo: Via Zuecca, 6, 19016 Monterosso al Mare SP
+Coordinate: Lat 44.147244, Lng 9.65555
+Website: http://www.lacolonninacinqueterre.it/
+Email: 
+
+16250. Albergo Punta Mesco
+ID: 3d6476f7-8a6b-4051-889c-2c2d16e56c36
+Slug: albergo-punta-mesco-cinque-terre
+Nome: Albergo Punta Mesco
+Comune / Provincia: Cinque Terre
+Indirizzo: Via Molinelli, 35, 19016 Monterosso al Mare SP
+Coordinate: Lat 44.146386, Lng 9.646353
+Website: https://www.hotelpuntamesco.it/it/hotel.php
+Email: info@hotelpuntamesco.it
+
+16251. Albergo Stella della Marina
+ID: a6314755-8573-4cbc-854c-7487adf11f28
+Slug: albergo-stella-della-marina-cinque-terre
+Nome: Albergo Stella della Marina
+Comune / Provincia: Cinque Terre
+Indirizzo: Via XX Settembre, 11, 19016 Monterosso al Mare SP
+Coordinate: Lat 44.14707, Lng 9.655169
+Website: http://www.stelladellamarina.com/
+Email: info@stelladellamarina.com
+
+16252. Hotel 5 Terre
+ID: ad8ed544-32b3-48a8-956f-11f66730ed69
+Slug: hotel-5-terre-cinque-terre
+Nome: Hotel 5 Terre
+Comune / Provincia: Cinque Terre
+Indirizzo: Via IV Novembre, 21, 19016 Monterosso al Mare SP
+Coordinate: Lat 44.145788, Lng 9.64377
+Website: https://www.hotel5terre-monterossoalmare.it/
+Email: info@hotelcinqueterre.com
+
+16253. Hotel la Spiaggia
+ID: 26df755b-726d-49e6-9166-246f6cd49024
+Slug: hotel-la-spiaggia-cinque-terre
+Nome: Hotel la Spiaggia
+Comune / Provincia: Cinque Terre
+Indirizzo: Via Fegina, 96, 19016 Monterosso al Mare SP
+Coordinate: Lat 44.14533, Lng 9.646936
+Website: https://www.laspiaggiamonterosso.com/?utm_source=gbp&utm_medium=organic
+Email: info@laspiaggiamonterosso.com
+
+16254. Hotel Margherita
+ID: 0eb36933-3604-40af-a6cb-708f62b5cb7a
+Slug: hotel-margherita-cinque-terre
+Nome: Hotel Margherita
+Comune / Provincia: Cinque Terre
+Indirizzo: Via Roma, 72, 19016 Monterosso al Mare SP
+Coordinate: Lat 44.148186, Lng 9.655083
+Website: http://www.hotelmonterosso.it/
+Email: 
+
+16255. Hotel Marina
+ID: ab9b7209-97c2-4304-925f-efb4340d66ce
+Slug: hotel-marina-cinque-terre
+Nome: Hotel Marina
+Comune / Provincia: Cinque Terre
+Indirizzo: zona traffico limitato, parcheggio su prenotazione, https://maps.app.goo.gl/YUHSc3yBjd2KFGh67?g_st=com.google.maps.preview, Via Buranco, 40, 19016 Monterosso al Mare SP
+Coordinate: Lat 44.147263, Lng 9.653794
+Website: http://www.hotelmarina5terre.com/
+Email: 
+
+16256. Hotel Palme
+ID: 6a83dcb1-79d4-4810-bd8a-d366b05fe948
+Slug: hotel-palme-cinque-terre
+Nome: Hotel Palme
+Comune / Provincia: Cinque Terre
+Indirizzo: Via IV Novembre, 18, 19016 Monterosso al Mare SP
+Coordinate: Lat 44.145456, Lng 9.644688
+Website: https://www.hotelpalme.eu/
+Email: info@hotelpalme.it
+
+16257. Hotel Pasquale
+ID: e27fecb1-9b7f-4f51-a7c9-121b25735773
+Slug: hotel-pasquale-cinque-terre
+Nome: Hotel Pasquale
+Comune / Provincia: Cinque Terre
+Indirizzo: Via Fegina, 4, 19016 Monterosso al Mare SP
+Coordinate: Lat 44.14604, Lng 9.654648
+Website: http://www.hotelpasquale.it/
+Email: 
+
+16258. Hotel Ristorante Porto Roca
+ID: 000b011f-2e09-481b-ab61-2b945ed19392
+Slug: hotel-ristorante-porto-roca-cinque-terre
+Nome: Hotel Ristorante Porto Roca
+Comune / Provincia: Cinque Terre
+Indirizzo: Via Corone, 1, 19016 Monterosso al Mare SP
+Coordinate: Lat 44.14499, Lng 9.658416
+Website: http://www.portoroca.it/
+Email: portoroca@portoroca.it
+
+16259. Hotel Souvenir
+ID: 8af4d720-aa04-4e8f-9eb8-304bb69417ab
+Slug: hotel-souvenir-cinque-terre
+Nome: Hotel Souvenir
+Comune / Provincia: Cinque Terre
+Indirizzo: Via Vincenzo Gioberti, 24, 19016 Monterosso al Mare SP
+Coordinate: Lat 44.148174, Lng 9.656133
+Website: https://www.hotelsouvenirmonterosso.it/
+Email: %20info@hotelsouvenirmonterosso.it
+
+16260. La Cabana Rooms
+ID: 517d5cea-9363-4cc8-8524-c135f9ceffa5
+Slug: la-cabana-rooms-cinque-terre
+Nome: La Cabana Rooms
+Comune / Provincia: Cinque Terre
+Indirizzo: Loc. La Cabana, 2, 19016 Monterosso al Mare SP
+Coordinate: Lat 44.14928, Lng 9.648611
+Website: https://www.lacabanacinqueterre.com/
+Email: 
+
+16261. Villino Wanda
+ID: 82f20e92-1fdd-4eb3-b33f-93a400f24a2e
+Slug: villino-wanda-cinque-terre
+Nome: Villino Wanda
+Comune / Provincia: Cinque Terre
+Indirizzo: Via IV Novembre, 72, 19016 Monterosso al Mare SP
+Coordinate: Lat 44.146184, Lng 9.643983
+Website: https://www.villinowanda.it/
+Email: utente@dominio.com
+
+16262. Agriturismo Case Tabarani
+ID: 84b69a0f-0f8c-4c2b-884e-a6fd352be3fe
+Slug: agriturismo-case-tabarani-collesano
+Nome: Agriturismo Case Tabarani
+Comune / Provincia: Collesano
+Indirizzo: C/da Tabarani, 90016 Collesano PA
+Coordinate: Lat 37.928108, Lng 13.873441
+Website: http://www.tabarani.it/
+Email: 
+
+16263. Agriturismo Dispenza
+ID: d6bdc580-1f1f-4ef1-b140-a352d855b67c
+Slug: agriturismo-dispenza-collesano
+Nome: Agriturismo Dispenza
+Comune / Provincia: Collesano
+Indirizzo: SP9, 90016 Collesano PA
+Coordinate: Lat 37.920301, Lng 13.927596
+Website: https://www.agriturismodispenza.com/
+Email: 
+
+16264. Agriturismo Ilardo
+ID: ded5b4be-419c-42f4-99a0-647857db9c98
+Slug: agriturismo-ilardo-collesano
+Nome: Agriturismo Ilardo
+Comune / Provincia: Collesano
+Indirizzo: c/da favara, 90016 Collesano PA
+Coordinate: Lat 37.927822, Lng 13.922852
+Website: http://agriturismoilardo.com.es/
+Email: 
+
+16265. Agriturismo Volpignano
+ID: 20b56e5e-14df-4f93-af72-a339a3392101
+Slug: agriturismo-volpignano-collesano
+Nome: Agriturismo Volpignano
+Comune / Provincia: Collesano
+Indirizzo: Contrada Volpignano, 90016 Collesano PA
+Coordinate: Lat 37.910499, Lng 13.958486
+Website: https://www.agriturismovolpignano.com/
+Email: 
+
+16266. AZIENDA AGRICOLA ROCCA DI MEZZOGIORNO
+ID: 21fd2de4-a870-408a-99cd-b375c5464683
+Slug: azienda-agricola-rocca-di-mezzogiorno-collesano
+Nome: AZIENDA AGRICOLA ROCCA DI MEZZOGIORNO
+Comune / Provincia: Collesano
+Indirizzo: Contrada, 90020 Scillato PA
+Coordinate: Lat 37.829547, Lng 13.92786
+Website: http://www.roccadimezzogiorno.it/
+Email: 
+
+16267. Bed & Breakfast Arcobaleno Cefalù
+ID: 3efed05a-be6f-46e4-801d-060af0709f19
+Slug: bed-breakfast-arcobaleno-cefalu-collesano
+Nome: Bed & Breakfast Arcobaleno Cefalù
+Comune / Provincia: Collesano
+Indirizzo: Via dei Francescani, 90015 Cefalù PA
+Coordinate: Lat 38.006435, Lng 13.994722
+Website: https://www.arcobalenocefalu.it/
+Email: 
+
+16268. Casena Mongerrati
+ID: f8e12350-0262-4f8b-9e05-073b81dcc2a2
+Slug: casena-mongerrati-collesano
+Nome: Casena Mongerrati
+Comune / Provincia: Collesano
+Indirizzo: 90016 Mongerrati PA
+Coordinate: Lat 37.919634, Lng 13.964139
+Website: https://www.casenamongerrati.it/
+Email: 
+
+16269. Da Concettina
+ID: 3a972b3b-6fc4-43ba-a733-f997ff5f081e
+Slug: da-concettina-collesano
+Nome: Da Concettina
+Comune / Provincia: Collesano
+Indirizzo: Salita Orologio, 6, 90010 Gratteri PA
+Coordinate: Lat 37.965144, Lng 13.971468
+Website: —
+Email: 
+
+16270. Piano Torre Park Hotel
+ID: cd64e787-d9f7-43cb-94f8-3ea12f99172b
+Slug: piano-torre-park-hotel-collesano
+Nome: Piano Torre Park Hotel
+Comune / Provincia: Collesano
+Indirizzo: Contrada Piano Torre, 90010 Isnello PA
+Coordinate: Lat 37.910255, Lng 13.989087
+Website: https://piano-torre-park-hotel.italiabella.top/
+Email: 
+
+16271. Abraxia B&B
+ID: 9e0d47c7-f97e-471b-8024-972443d6a0dd
+Slug: abraxia-b-b-comiso
+Nome: Abraxia B&B
+Comune / Provincia: Comiso
+Indirizzo: Piazza S. Biagio, 15, 97013 Comiso RG
+Coordinate: Lat 36.94697, Lng 14.603368
+Website: https://www.abraxia.it/
+Email: 
+
+16272. Abraxia Guest House
+ID: 9cd41f55-495d-442b-ae2f-9582425e6db3
+Slug: abraxia-guest-house-comiso
+Nome: Abraxia Guest House
+Comune / Provincia: Comiso
+Indirizzo: Viale Europa, 3, 97013 Comiso RG
+Coordinate: Lat 36.954465, Lng 14.599303
+Website: https://www.abraxia.it/
+Email: 
+
+16273. Antares
+ID: f8c6720b-9a39-49cb-90b7-e26f095ef314
+Slug: antares-comiso
+Nome: Antares
+Comune / Provincia: Comiso
+Indirizzo: Via Imbriani, 10, 97013 Comiso RG
+Coordinate: Lat 36.946749, Lng 14.602758
+Website: https://www.bella-sicilia.it/antares/
+Email: 
+
+16274. Artemisia Resort, Hotel Ragusa
+ID: 52727942-6f76-4373-99b2-19bddbb0c20b
+Slug: artemisia-resort-hotel-ragusa-comiso
+Nome: Artemisia Resort, Hotel Ragusa
+Comune / Provincia: Comiso
+Indirizzo: Via Enrico Caruso, 13, 97100 Ragusa RG
+Coordinate: Lat 36.903887, Lng 14.663786
+Website: https://artemisiaresort.com/
+Email: 
+
+16275. Hotel Poggio Del Sole
+ID: c39cf7f4-b5be-443b-9fc0-a5f0a691c5b9
+Slug: hotel-poggio-del-sole-comiso
+Nome: Hotel Poggio Del Sole
+Comune / Provincia: Comiso
+Indirizzo: SP25, Km 5,7, 97100 Ragusa RG
+Coordinate: Lat 36.869677, Lng 14.657491
+Website: http://www.poggiodelsolehotel.it/
+Email: 

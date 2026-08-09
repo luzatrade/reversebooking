@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16661. Amada Hotel Siracusa
+ID: d617cf4b-5367-46a4-b378-ae36aca9cc3d
+Slug: amada-hotel-siracusa-melilli
+Nome: Amada Hotel Siracusa
+Comune / Provincia: Melilli
+Indirizzo: Via Parma, 15, 96010 Città Giardino SR
+Coordinate: Lat 37.104245, Lng 15.216453
+Website: https://amadahotelsiracusa.com/
+Email: 
+
+16662. B&B MELIBLEO
+ID: 2d513f31-77ec-4ed3-a19a-a06e02903a40
+Slug: b-b-melibleo-melilli
+Nome: B&B MELIBLEO
+Comune / Provincia: Melilli
+Indirizzo: Via Prazio, 9, 96010 Melilli SR
+Coordinate: Lat 37.177842, Lng 15.135728
+Website: https://bb-melibleo.camerainitalia.top/
+Email: 
+
+16663. Grand Hotel Villa Politi
+ID: 02a0e29f-0ae8-43f5-bce7-3693506c74ca
+Slug: grand-hotel-villa-politi-melilli
+Nome: Grand Hotel Villa Politi
+Comune / Provincia: Melilli
+Indirizzo: Via Maria Politi Laudien, 2, 96100 Siracusa SR
+Coordinate: Lat 37.078812, Lng 15.2935
+Website: http://www.villapoliti.com/
+Email: 
+
+16664. La Casa Dei Mori a Melilli
+ID: b2e2a50f-fa6a-49d1-b1a4-98295c2b0d91
+Slug: la-casa-dei-mori-a-melilli-melilli
+Nome: La Casa Dei Mori a Melilli
+Comune / Provincia: Melilli
+Indirizzo: Via Iblea, 32, 96010 Melilli SR
+Coordinate: Lat 37.179069, Lng 15.125362
+Website: https://alistraveltips.com/la-casa-dei-mori-melilli1-italy
+Email: 
+
+16665. Venti di Brucoli
+ID: c5a760ca-f157-4248-954e-17f587fabeaf
+Slug: venti-di-brucoli-melilli
+Nome: Venti di Brucoli
+Comune / Provincia: Melilli
+Indirizzo: Via Canale, 99, 96011 Brucoli SR
+Coordinate: Lat 37.282262, Lng 15.187723
+Website: https://vacation-stays.com/venti-di-brucoli-italy
+Email: 
+
+16666. Wonderful Italy Suites
+ID: 4f9e2b94-64e2-481a-9cc4-72bec93c088c
+Slug: wonderful-italy-suites-melilli
+Nome: Wonderful Italy Suites
+Comune / Provincia: Melilli
+Indirizzo: Via Francesco Crispi, 66, 96100 Siracusa SR
+Coordinate: Lat 37.067833, Lng 15.282406
+Website: https://wonderfulitaly.eu/it/case/studio/dioniso-smart-suite-with-balcony-279746?utm_source=google&utm_medium=mybusiness&utm_campaign=96100
+Email: 
+
+16667. Boutique & Design Hotel ImperialArt
+ID: 72c2138a-e5a4-4645-ac5d-b4507e1d1810
+Slug: boutique-design-hotel-imperialart-merano
+Nome: Boutique & Design Hotel ImperialArt
+Comune / Provincia: Merano
+Indirizzo: C.so della Libertà, 110, 39012 Merano BZ
+Coordinate: Lat 46.67086, Lng 11.162352
+Website: http://www.imperialart.it/
+Email: info@imperialart.it
+
+16668. City Hotel Merano
+ID: c098476c-39ff-4685-85c1-13bfc72fd001
+Slug: city-hotel-merano-merano
+Nome: City Hotel Merano
+Comune / Provincia: Merano
+Indirizzo: Via Mainardo 41 (Parking:, Via degli Alpini, 23, 39012 Merano BZ
+Coordinate: Lat 46.672835, Lng 11.154245
+Website: https://www.hotelsmerano.it/city-hotel-merano
+Email: info@hotelsmerano.it
+
+16669. Garni Villa Betty
+ID: 7f0e30d7-20c1-42a0-ae09-9fe87d1e9cb1
+Slug: garni-villa-betty-merano
+Nome: Garni Villa Betty
+Comune / Provincia: Merano
+Indirizzo: Via Petrarca, 51, 39012 Merano BZ
+Coordinate: Lat 46.667057, Lng 11.155078
+Website: https://www.villemerano.com/
+Email: villabetty1@gmail.com
+
+16670. Grand Hotel Bellevue
+ID: 302b2d3e-a4fd-4c14-b8bb-16b7cebfa88b
+Slug: grand-hotel-bellevue-merano
+Nome: Grand Hotel Bellevue
+Comune / Provincia: Merano
+Indirizzo: C.so della Libertà, 194, 39012 Merano BZ
+Coordinate: Lat 46.671394, Lng 11.153403
+Website: http://www.hotel-bellevue-meran.it/
+Email: info@hotel-bellevue-meran.it
+
+16671. Hotel Aurora
+ID: 4449e71d-9171-48b2-8eba-96ab77ca1720
+Slug: hotel-aurora-merano
+Nome: Hotel Aurora
+Comune / Provincia: Merano
+Indirizzo: Passeggiata Lungo Passirio, 38, 39012 Merano BZ
+Coordinate: Lat 46.67034, Lng 11.159639
+Website: http://www.hotel-aurora-meran.com/
+Email: info@hotelaurora.bz
+
+16672. Hotel Brunner - Merano
+ID: 17d49555-de60-4228-b740-b979e126a229
+Slug: hotel-brunner-merano-merano
+Nome: Hotel Brunner - Merano
+Comune / Provincia: Merano
+Indirizzo: Via Giuseppe Verdi, 31/A, 39012 Merano BZ
+Coordinate: Lat 46.680041, Lng 11.155351
+Website: https://www.hotel-brunner.it/
+Email: info@hotel-brunner.it
+
+16673. Hotel Europa Splendid
+ID: 27f0e108-26ce-485f-88f4-3656b60fdd6a
+Slug: hotel-europa-splendid-merano
+Nome: Hotel Europa Splendid
+Comune / Provincia: Merano
+Indirizzo: C.so della Libertà, 178, 39012 Merano BZ
+Coordinate: Lat 46.670923, Lng 11.159688
+Website: https://www.europa-splendid.com/it/
+Email: info@europa.bz
+
+16674. Hotel Meranerhof
+ID: 9dd9f521-66eb-4022-9780-42695f73ece8
+Slug: hotel-meranerhof-merano
+Nome: Hotel Meranerhof
+Comune / Provincia: Merano
+Indirizzo: Via A. Manzoni, 1, 39012 Merano BZ
+Coordinate: Lat 46.669412, Lng 11.159073
+Website: https://www.meranerhof.com/
+Email: 
+
+16675. Hotel Ristorante Pizzeria Cavallino - S' Rössl
+ID: 539b39d0-c273-47c9-829e-295ee077e201
+Slug: hotel-ristorante-pizzeria-cavallino-s-rossl-merano
+Nome: Hotel Ristorante Pizzeria Cavallino - S' Rössl
+Comune / Provincia: Merano
+Indirizzo: Via delle Palade, 105, 39012 Merano BZ
+Coordinate: Lat 46.656447, Lng 11.148832
+Website: https://www.cavallino.bz/it/
+Email: info@cavallino.bz
+
+16676. Hotel Sittnerhof Meran
+ID: a90fc5d9-7392-441c-8d29-ca829e46cef0
+Slug: hotel-sittnerhof-meran-merano
+Nome: Hotel Sittnerhof Meran
+Comune / Provincia: Merano
+Indirizzo: Giuseppe-Verdi-Straße, 58, 39012 Merano BZ
+Coordinate: Lat 46.680259, Lng 11.1558
+Website: https://www.sittnerhof.it/index.php?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=GMB
+Email: info@sittnerhof.it
+
+16677. Hotel Terme Merano
+ID: cac29830-1eea-4bae-b1ce-13d29682e97c
+Slug: hotel-terme-merano-merano
+Nome: Hotel Terme Merano
+Comune / Provincia: Merano
+Indirizzo: Piazza Terme, 1, 39012 Merano BZ
+Coordinate: Lat 46.669219, Lng 11.161817
+Website: http://www.hoteltermemerano.it/
+Email: 
+
+16678. Hotel Villa Westend
+ID: e4fc31e2-5198-44c0-9c27-a50099ac1a4a
+Slug: hotel-villa-westend-merano
+Nome: Hotel Villa Westend
+Comune / Provincia: Merano
+Indirizzo: Via Josef Speckbacher, 9, 39012 Merano BZ
+Coordinate: Lat 46.668674, Lng 11.1513
+Website: http://www.westend.it/
+Email: 
+
+16679. Manzoni Rooms
+ID: 125f5d64-d619-4bdc-9387-dea2ac092bed
+Slug: manzoni-rooms-merano
+Nome: Manzoni Rooms
+Comune / Provincia: Merano
+Indirizzo: -Manzoni-Straße, Via A. Manzoni, 41, 39012 Merano BZ
+Coordinate: Lat 46.669318, Lng 11.157926
+Website: https://www.rosengartenbz.com/
+Email: info@rosengartenbz.com
+
+16680. Villa Bavaria & Residenz Palma
+ID: f328cc7f-6fec-4eb9-83b7-66abccda0761
+Slug: villa-bavaria-residenz-palma-merano
+Nome: Villa Bavaria & Residenz Palma
+Comune / Provincia: Merano
+Indirizzo: Via Salita Alla Chiesa, 15, 39012 Merano BZ
+Coordinate: Lat 46.670047, Lng 11.1705
+Website: https://www.bavaria.it/
+Email: 
+
+16681. Windsor Merano Hotel & Suites
+ID: 8fbccd7f-4a80-4bbe-938b-82251c3e8c21
+Slug: windsor-merano-hotel-suites-merano
+Nome: Windsor Merano Hotel & Suites
+Comune / Provincia: Merano
+Indirizzo: Via Rezia, 2, 39012 Merano BZ
+Coordinate: Lat 46.669325, Lng 11.153138
+Website: https://www.windsormerano.com/
+Email: info@windsormerano.com
+
+16682. Garibaldi R&B Messina
+ID: 9dc9973f-6fa4-45ee-83b3-e29dd29b32a7
+Slug: garibaldi-r-b-messina-messina
+Nome: Garibaldi R&B Messina
+Comune / Provincia: Messina
+Indirizzo: Via G. Garibaldi, 108, 98122 Messina ME
+Coordinate: Lat 38.190937, Lng 15.556778
+Website: http://www.garibaldimessina.it/
+Email: info@garibaldimessina.it
+
+16683. Hotel La Residenza
+ID: 5d55da9c-ee2d-4953-8592-615cf798fb5f
+Slug: hotel-la-residenza-messina
+Nome: Hotel La Residenza
+Comune / Provincia: Messina
+Indirizzo: Via XXVII Luglio, 115, 98123 Messina ME
+Coordinate: Lat 38.186578, Lng 15.553013
+Website: http://www.laresidenzahotel.net/
+Email: reception@laresidenzahotel.net
+
+16684. Hotel Messenion
+ID: 62623184-0f15-4181-9448-36752fd85180
+Slug: hotel-messenion-messina
+Nome: Hotel Messenion
+Comune / Provincia: Messina
+Indirizzo: Via Francesco Faranda, 7, 98123 Messina ME
+Coordinate: Lat 38.186747, Lng 15.551638
+Website: https://www.hotelscheck-in.com/hotelmessenionmessina/it/
+Email: 
+
+16685. Hotel Residence CineApollo
+ID: b6ca9dd0-701a-436f-8f80-a76afa5df150
+Slug: hotel-residence-cineapollo-messina
+Nome: Hotel Residence CineApollo
+Comune / Provincia: Messina
+Indirizzo: Via S. Filippo Bianchi, 23, 98121 Messina ME
+Coordinate: Lat 38.189662, Lng 15.555191
+Website: https://www.hotelapollomessina.com/
+Email: info@hotelapollomessina.com
+
+16686. Hotel Sant'Elia
+ID: c8d7e1b2-5fc8-4957-b157-6a4296f6cf3e
+Slug: hotel-sant-elia-messina
+Nome: Hotel Sant'Elia
+Comune / Provincia: Messina
+Indirizzo: Via I Settembre, 67, 98122 Messina ME
+Coordinate: Lat 38.188635, Lng 15.557608
+Website: http://www.hotelsantelia.com/
+Email: info@hotelsantelia.com
+
+16687. Hotel Touring
+ID: 8d60da02-cbb0-4f1a-86a4-76d018cb8f7b
+Slug: hotel-touring-messina
+Nome: Hotel Touring
+Comune / Provincia: Messina
+Indirizzo: Via Nicola Scotto, 17, 98122 Messina ME
+Coordinate: Lat 38.184383, Lng 15.55923
+Website: http://www.hoteltouring-me.it/
+Email: info@hoteltouring-me.it
+
+16688. ISOLA - Smart Accomodation
+ID: 1e71c190-c84d-4df8-be5f-9dd5f72d9be7
+Slug: isola-smart-accomodation-messina
+Nome: ISOLA - Smart Accomodation
+Comune / Provincia: Messina
+Indirizzo: Via Cesare Battisti, 155, 98122 Messina ME
+Coordinate: Lat 38.188444, Lng 15.553884
+Website: https://isolamessina.com/
+Email: info@isolamessina.com
+
+16689. Jolly Charme Suite
+ID: 9345f252-a4e5-48a6-a41d-2e436573fed9
+Slug: jolly-charme-suite-messina
+Nome: Jolly Charme Suite
+Comune / Provincia: Messina
+Indirizzo: Via G. Garibaldi, 126, 98122 Messina ME
+Coordinate: Lat 38.19599, Lng 15.557389
+Website: http://www.jollymessina.it/
+Email: info@jollymessina.it
+
+16690. Messina 41 CondHotel
+ID: f15fa11c-4b51-4335-b95e-6763d760a42d
+Slug: messina-41-condhotel-messina
+Nome: Messina 41 CondHotel
+Comune / Provincia: Messina
+Indirizzo: Viale Boccetta, 24, 98122 Messina ME
+Coordinate: Lat 38.197847, Lng 15.554797
+Website: http://www.messina41.it/
+Email: info@messina41.it
+
+16691. Opera Relais 85
+ID: 67e4b913-938e-48b1-ade9-0e4e69e63130
+Slug: opera-relais-85-messina
+Nome: Opera Relais 85
+Comune / Provincia: Messina
+Indirizzo: Via I Settembre, 85, 98122 Messina ME
+Coordinate: Lat 38.189034, Lng 15.55724
+Website: —
+Email: 
+
+16692. Opera Relais R&B
+ID: ca0e55d6-51f3-4d98-b720-f8c3d19bbd78
+Slug: opera-relais-r-b-messina
+Nome: Opera Relais R&B
+Comune / Provincia: Messina
+Indirizzo: Via I Settembre, 111, 98122 Messina ME
+Coordinate: Lat 38.189394, Lng 15.556911
+Website: http://www.operabnb.com/
+Email: info@operabnb.com
+
+16693. Residence Acqua del Conte
+ID: ebd49956-b8f3-4fc5-bf73-b1e2d166372f
+Slug: residence-acqua-del-conte-messina
+Nome: Residence Acqua del Conte
+Comune / Provincia: Messina
+Indirizzo: Viale Italia, 44, 98124 Messina ME
+Coordinate: Lat 38.189561, Lng 15.545885
+Website: https://www.hotelscheck-in.com/residenceacquadelconte/it/
+Email: 
+
+16694. Residence San Martino
+ID: bb61d437-c04b-49e0-bf9f-e73dd827b473
+Slug: residence-san-martino-messina
+Nome: Residence San Martino
+Comune / Provincia: Messina
+Indirizzo: Via Crema, 2, 98124 Messina ME
+Coordinate: Lat 38.177916, Lng 15.548324
+Website: http://www.residencesanmartino.it/
+Email: info@residencesanmartino.it
+
+16695. Royal Palace Hotel Messina
+ID: 38307218-0aaf-4c9f-9529-cc66461f6990
+Slug: royal-palace-hotel-messina-messina
+Nome: Royal Palace Hotel Messina
+Comune / Provincia: Messina
+Indirizzo: Via T. Cannizzaro, 3, 98123 Messina ME
+Coordinate: Lat 38.184999, Lng 15.558377
+Website: https://www.royalpalacemessina.it/?utm_source=Google-My-Business&utm_medium=scheda-GMB&utm_campaign=sito%20web
+Email: reservation.rph@framon-hotels.it

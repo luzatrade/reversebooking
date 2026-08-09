@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16696. VMaison Hotel Messina
+ID: f613354c-8956-4ea2-aad7-4844d51a86d5
+Slug: vmaison-hotel-messina-messina
+Nome: VMaison Hotel Messina
+Comune / Provincia: Messina
+Indirizzo: V.le Europa, 59, 98100 Messina ME
+Coordinate: Lat 38.179421, Lng 15.549807
+Website: https://www.vmaison.it/hotel-messina/
+Email: hotelmilano@vmaison.it
+
+16697. B&B "Caramelle"
+ID: 4bab9ffa-aa00-4be8-9392-4215971eadee
+Slug: b-b-caramelle-modena
+Nome: B&B "Caramelle"
+Comune / Provincia: Modena
+Indirizzo: Via Luigi Poletti, 76, 41121 Modena MO, Italia
+Coordinate: Lat 44.648757, Lng 10.937345
+Website: —
+Email: 
+
+16698. B&B Casagrande CIN IT036023C1YNPPRJLF
+ID: b35dac68-89ca-4362-afda-feb5e331e587
+Slug: b-b-casagrande-cin-it036023c1ynpprjlf-modena
+Nome: B&B Casagrande CIN IT036023C1YNPPRJLF
+Comune / Provincia: Modena
+Indirizzo: Str. Sant'Anna, 229, 41122 Modena MO, Italia
+Coordinate: Lat 44.667334, Lng 10.915322
+Website: —
+Email: 
+
+16699. B&B HOTEL Modena
+ID: 10fd6e4d-d299-4ed4-af8b-59928ecfc7c4
+Slug: b-b-hotel-modena-modena
+Nome: B&B HOTEL Modena
+Comune / Provincia: Modena
+Indirizzo: Via Emilia Est, 441, 41122 Modena MO, Italia
+Coordinate: Lat 44.639075, Lng 10.943607
+Website: https://www.hotel-bb.com/it/hotel/modena?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext
+Email: 
+
+16700. B&B Igea.50
+ID: 36a59cd0-b7d2-4aa3-b7fc-394743ed4811
+Slug: b-b-igea-50-modena
+Nome: B&B Igea.50
+Comune / Provincia: Modena
+Indirizzo: Via Igea, 50, 41126 Modena MO, Italia
+Coordinate: Lat 44.614055, Lng 10.887604
+Website: http://www.bbigeamodena.it/
+Email: info@bbigeamodena.it
+
+16701. B&B Le Noci di Feo
+ID: 53214bcc-c4ec-497e-ae36-5bd656875a07
+Slug: b-b-le-noci-di-feo-modena
+Nome: B&B Le Noci di Feo
+Comune / Provincia: Modena
+Indirizzo: Strada​ Albareto, 422, 41122 Modena MO, Italia
+Coordinate: Lat 44.666826, Lng 10.946943
+Website: https://www.lenocidifeo.com/
+Email: info@lenocidifeo.com
+
+16702. B&B Modena Sant'Eufemia 30
+ID: 9ea70f6c-ac0a-4c2c-b241-98af41e77903
+Slug: b-b-modena-sant-eufemia-30-modena
+Nome: B&B Modena Sant'Eufemia 30
+Comune / Provincia: Modena
+Indirizzo: Largo Sant'eufemia, 41121 Modena MO, Italia
+Coordinate: Lat 44.64678, Lng 10.924162
+Website: https://santeufemia30.com/
+Email: info@santeufemia30.com
+
+16703. B&B ViaEmilia
+ID: e97f64f0-5aba-4397-8fe1-6f486d72b801
+Slug: b-b-viaemilia-modena
+Nome: B&B ViaEmilia
+Comune / Provincia: Modena
+Indirizzo: Via Emilia Est, 1561, 41122 Modena MO, Italia
+Coordinate: Lat 44.625522, Lng 10.97645
+Website: —
+Email: 
+
+16704. B&B Villa Firefly
+ID: 995e6b47-5a9e-486d-9515-9997575dda32
+Slug: b-b-villa-firefly-modena
+Nome: B&B Villa Firefly
+Comune / Provincia: Modena
+Indirizzo: Stradello Camurri, 11, 41122 Modena MO, Italia
+Coordinate: Lat 44.671672, Lng 10.957171
+Website: —
+Email: 
+
+16705. Casa Mappamondo
+ID: 57a5682a-7446-4d09-9184-0420b3ef89cb
+Slug: casa-mappamondo-modena
+Nome: Casa Mappamondo
+Comune / Provincia: Modena
+Indirizzo: Via Luigi Albinelli, 7, 41121 Modena MO, Italia
+Coordinate: Lat 44.645144, Lng 10.925464
+Website: https://www.hotelsandiamo.com/casa-mappamondo/
+Email: 
+
+16706. Country Resort Modena
+ID: 629b81e4-6372-460c-b9bc-c0c60dbebe21
+Slug: country-resort-modena-modena
+Nome: Country Resort Modena
+Comune / Provincia: Modena
+Indirizzo: Str. Fossa Monda Nord, 163, 41122 Modena MO, Italia
+Coordinate: Lat 44.653514, Lng 10.971085
+Website: http://www.countryroomsmodena.com/
+Email: info@countryroomsmodena.com
+
+16707. La Casa del Viandante
+ID: b2378ea9-047e-49fe-8f5c-16b3bb08a71c
+Slug: la-casa-del-viandante-modena
+Nome: La Casa del Viandante
+Comune / Provincia: Modena
+Indirizzo: Via Emilia Ovest, 500, 41123 Modena MO, Italia
+Coordinate: Lat 44.657523, Lng 10.899649
+Website: http://www.lacasadelviandante.it/
+Email: lacasadelviandante@gmail.com
+
+16708. La Corte Dei Sogni
+ID: 4d8beb67-b49d-4154-bebd-8e9c952c4af3
+Slug: la-corte-dei-sogni-modena
+Nome: La Corte Dei Sogni
+Comune / Provincia: Modena
+Indirizzo: Stradello Romano, 8, 41122 Modena MO, Italia
+Coordinate: Lat 44.625918, Lng 10.977899
+Website: http://www.lacortedeisogni.it/
+Email: info@lacortedeisogni.it
+
+16709. Loft Albinelli
+ID: 33c071c8-0f08-476f-a3e1-261cfca1b837
+Slug: loft-albinelli-modena
+Nome: Loft Albinelli
+Comune / Provincia: Modena
+Indirizzo: Via Luigi Albinelli, 40, 41121 Modena MO, Italia
+Coordinate: Lat 44.644673, Lng 10.924993
+Website: https://protexstay.eu/loft-albinelli-modena
+Email: 
+
+16710. Pisacane61
+ID: 34a726a0-44a2-4733-9944-2794063640de
+Slug: pisacane61-modena
+Nome: Pisacane61
+Comune / Provincia: Modena
+Indirizzo: Via Carlo Pisacane, 61, 41122 Modena MO, Italia
+Coordinate: Lat 44.65629, Lng 10.943173
+Website: http://www.pisacane61.it/
+Email: 
+
+16711. Residence Da Giò - B&B a Modena vicino all'Hesperia e al centro storico-Case Vacanze A Modena
+ID: acf3d01b-1fd0-44f5-ab39-3cb5cea7c67e
+Slug: residence-da-gio-b-b-a-modena-vicino-all-hesperi-modena
+Nome: Residence Da Giò - B&B a Modena vicino all'Hesperia e al centro storico-Case Vacanze A Modena
+Comune / Provincia: Modena
+Indirizzo: Via Archirola, 29, 41124 Modena MO, Italia
+Coordinate: Lat 44.638354, Lng 10.930434
+Website: http://www.residencedagio.it/
+Email: 
+
+16712. Room & breakfast canalino 21
+ID: d840e457-1929-43c2-bba8-183d080a3bdc
+Slug: room-breakfast-canalino-21-modena
+Nome: Room & breakfast canalino 21
+Comune / Provincia: Modena
+Indirizzo: Via Canalino, 21, 41121 Modena MO, Italia
+Coordinate: Lat 44.644784, Lng 10.927
+Website: http://www.bbcanalino21.com/
+Email: 
+
+16713. Salotto delle Arti
+ID: 4cc1e1ee-b896-47ba-ac26-ce5aba19d103
+Slug: salotto-delle-arti-modena
+Nome: Salotto delle Arti
+Comune / Provincia: Modena
+Indirizzo: Rua del Muro, 86, 41121 Modena MO, Italia
+Coordinate: Lat 44.644917, Lng 10.92071
+Website: http://www.salottodellearti.it/
+Email: 
+
+16714. Villa Argiolas Bed & Breakfast
+ID: eddb106c-c740-442a-93ca-6fe1c0835945
+Slug: villa-argiolas-bed-breakfast-modena
+Nome: Villa Argiolas Bed & Breakfast
+Comune / Provincia: Modena
+Indirizzo: Via Alessandro Argiolas, 34, 41126 Modena MO, Italia
+Coordinate: Lat 44.612455, Lng 10.920892
+Website: https://villargiolas.it/
+Email: support@readymag.com
+
+16715. villa sofia b&b
+ID: 4048e6bf-d55f-479e-8491-08f2093f0217
+Slug: villa-sofia-b-b-modena
+Nome: villa sofia b&b
+Comune / Provincia: Modena
+Indirizzo: Via M. Bonacini, 6, 41121 Modena MO, Italia
+Coordinate: Lat 44.640811, Lng 10.939853
+Website: —
+Email: 
+
+16716. Bold Hotel München Zentrum
+ID: 6eaff9b4-e719-4458-be2e-44c07aa02fe1
+Slug: bold-hotel-munchen-zentrum-munich
+Nome: Bold Hotel München Zentrum
+Comune / Provincia: Munich
+Indirizzo: Lindwurmstraße 70A, 80337 München-Ludwigsvorstadt-Isarvorstadt
+Coordinate: Lat 48.126351, Lng 11.551576
+Website: https://bold-hotels.com/de/hotels/bold-muenchen-zentrum/
+Email: 
+
+16717. Hotel Brack
+ID: 4b73c8c7-ec39-402a-8de5-8b776c087169
+Slug: hotel-brack-munich
+Nome: Hotel Brack
+Comune / Provincia: Munich
+Indirizzo: Lindwurmstraße 153, 80337 München
+Coordinate: Lat 48.125814, Lng 11.551295
+Website: http://www.hotel-brack.de/
+Email: 
+
+16718. Hotel Eder
+ID: e696a537-1732-4bf9-8ec3-ebac201958ce
+Slug: hotel-eder-munich
+Nome: Hotel Eder
+Comune / Provincia: Munich
+Indirizzo: Zweigstraße 8, 80336 München-Ludwigsvorstadt-Isarvorstadt
+Coordinate: Lat 48.138645, Lng 11.562335
+Website: http://www.hotel-eder.de/
+Email: 
+
+16719. Hotel Europäischer Hof
+ID: 54f91dee-a1e5-4b4a-9776-b1912b9a338e
+Slug: hotel-europaischer-hof-munich
+Nome: Hotel Europäischer Hof
+Comune / Provincia: Munich
+Indirizzo: Bayerstraße 31, 80335 München-Ludwigsvorstadt-Isarvorstadt
+Coordinate: Lat 48.139019, Lng 11.559926
+Website: https://heh.de/
+Email: 
+
+16720. Hotel Excelsior Munich
+ID: dbbf31ce-2e9e-4853-9b3a-4681944c9f57
+Slug: hotel-excelsior-munich-munich
+Nome: Hotel Excelsior Munich
+Comune / Provincia: Munich
+Indirizzo: Schützenstr 11, 80335 München-Ludwigsvorstadt-Isarvorstadt
+Coordinate: Lat 48.139801, Lng 11.562207
+Website: https://excelsior-hotel.de/
+Email: 
+
+16721. Hotel Gio
+ID: cb329bf0-5f1b-426c-817c-611d973bf115
+Slug: hotel-gio-munich
+Nome: Hotel Gio
+Comune / Provincia: Munich
+Indirizzo: Häberlstraße 9, 80337 München-Ludwigsvorstadt-Isarvorstadt
+Coordinate: Lat 48.128239, Lng 11.558609
+Website: https://www.hotel-gio.de/
+Email: 
+
+16722. Hotel Italia
+ID: 4c2da709-657e-48ae-819c-8383a85e7227
+Slug: hotel-italia-munich
+Nome: Hotel Italia
+Comune / Provincia: Munich
+Indirizzo: Schillerstraße 19, 80336 München
+Coordinate: Lat 48.137032, Lng 11.561166
+Website: http://www.hotelitalia.de/
+Email: 
+
+16723. Hotel Mariandl
+ID: 942dbf09-cadc-402e-bfe8-a14826299c49
+Slug: hotel-mariandl-munich
+Nome: Hotel Mariandl
+Comune / Provincia: Munich
+Indirizzo: Goethestraße 51, 80336 München-Ludwigsvorstadt-Isarvorstadt
+Coordinate: Lat 48.133291, Lng 11.558839
+Website: http://www.mariandl.com/
+Email: 
+
+16724. Hotel S16
+ID: e497f6ff-0a06-4718-84da-bdd0f1fd9a37
+Slug: hotel-s16-munich
+Nome: Hotel S16
+Comune / Provincia: Munich
+Indirizzo: Schillerstraße 16, 80336 München
+Coordinate: Lat 48.137917, Lng 11.560869
+Website: http://munichhotels16.com/
+Email: 
+
+16725. Hotel Wallis
+ID: df892261-ca1d-461c-ac9e-c75d17a4976e
+Slug: hotel-wallis-munich
+Nome: Hotel Wallis
+Comune / Provincia: Munich
+Indirizzo: Schwanthalerstraße 8, 80336 München
+Coordinate: Lat 48.137552, Lng 11.563381
+Website: http://www.hotel-wallis.de/
+Email: 
+
+16726. Hotel Westend - München
+ID: ba1953c9-7bec-4a3b-9b34-2a04d8069751
+Slug: hotel-westend-munchen-munich
+Nome: Hotel Westend - München
+Comune / Provincia: Munich
+Indirizzo: Schwanthalerstraße 121, 80339 München
+Coordinate: Lat 48.137809, Lng 11.545219
+Website: https://www.westend-hotel.de/
+Email: 
+
+16727. Koenigshof, a Luxury Collection Hotel, Munich
+ID: 1fa12a3b-3cd9-4058-a2dd-32a65b1f21da
+Slug: koenigshof-a-luxury-collection-hotel-munich-munich
+Nome: Koenigshof, a Luxury Collection Hotel, Munich
+Comune / Provincia: Munich
+Indirizzo: Karlsplatz 25, 80335 München
+Coordinate: Lat 48.139696, Lng 11.564613
+Website: https://www.marriott.com/en-us/hotels/muclk-koenigshof-a-luxury-collection-hotel-munich/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0
+Email: 
+
+16728. Munich Deluxe Hotel
+ID: b3ba23d5-5eb7-446a-bdda-23e002c31104
+Slug: munich-deluxe-hotel-munich
+Nome: Munich Deluxe Hotel
+Comune / Provincia: Munich
+Indirizzo: Schwanthalerstraße 116, 80339 München-Schwanthalerhöhe
+Coordinate: Lat 48.137865, Lng 11.547884
+Website: http://hotelmunichdeluxe.de/
+Email: 
+
+16729. Platzl Hotel
+ID: e969a077-3de1-457c-b7b3-37921c8d5447
+Slug: platzl-hotel-munich
+Nome: Platzl Hotel
+Comune / Provincia: Munich
+Indirizzo: Sparkassenstraße 10, 80331 München-Altstadt-Lehel
+Coordinate: Lat 48.137956, Lng 11.578887
+Website: https://www.platzl.de/
+Email: servus@platzl.de
+
+16730. Schmellergarten
+ID: b170eec5-479d-4d13-ba98-4a5e5b1a40e8
+Slug: schmellergarten-munich
+Nome: Schmellergarten
+Comune / Provincia: Munich
+Indirizzo: Schmellerstraße 20, 80337 München-Ludwigsvorstadt-Isarvorstadt
+Coordinate: Lat 48.125001, Lng 11.553036
+Website: http://www.schmellergarten.de/
+Email: mail@schmellergarten.de

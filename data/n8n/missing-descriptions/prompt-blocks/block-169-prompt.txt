@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+5881. Palazzo Mancini
+ID: 0c83cd86-7337-4688-92f2-ac0e8b26e624
+Slug: palazzo-mancini-avetrana
+Nome: Palazzo Mancini
+Comune / Provincia: Avetrana
+Indirizzo: Via Langellotti, 4, 74020 Avetrana TA
+Coordinate: Lat 40.350339, Lng 17.727171
+Website: https://www.palazzomancini.it/
+Email: 
+
+5882. Samana' Bed and Breakfast
+ID: f84e6240-dc81-40e5-a6e3-04b09cf19089
+Slug: samana-bed-and-breakfast-avetrana
+Nome: Samana' Bed and Breakfast
+Comune / Provincia: Avetrana
+Indirizzo: Via Lago di Varano, Snc, 73010 Porto Cesareo LE
+Coordinate: Lat 40.295348, Lng 17.805302
+Website: http://www.samanaportocesareo.it/
+Email: 
+
+5883. Vento del Salento
+ID: 09822299-0224-417b-bf50-3f1ac02f6ab0
+Slug: vento-del-salento-avetrana
+Nome: Vento del Salento
+Comune / Provincia: Avetrana
+Indirizzo: Via A. De Gasperi, 128, 74020 Avetrana TA
+Coordinate: Lat 40.346262, Lng 17.731714
+Website: https://hotelsit.cyou/vento-del-salento-b1ztgf
+Email: 
+
+5884. Albergo Motel Belvedere
+ID: be0afccd-af0d-4b67-ba5f-c38ef65151e8
+Slug: albergo-motel-belvedere-avezzano
+Nome: Albergo Motel Belvedere
+Comune / Provincia: Avezzano
+Indirizzo: Via XX Settembre, 484, 67051 Avezzano AQ
+Coordinate: Lat 42.045902, Lng 13.452748
+Website: —
+Email: 
+
+5885. ALBERGO RIO
+ID: 995234e4-11e2-4a94-b955-7e149c98dae6
+Slug: albergo-rio-avezzano
+Nome: ALBERGO RIO
+Comune / Provincia: Avezzano
+Indirizzo: Via Santa Croce, n. 18, 67050 Canistro AQ
+Coordinate: Lat 41.940399, Lng 13.411204
+Website: https://www.facebook.com/pages/category/Hotel---Lodging/Albergo-Rio-606027146399304/
+Email: 
+
+5886. B&B Relais Marlene
+ID: 1723bd4d-e8d9-48ab-8cd1-929d93ad3cc5
+Slug: b-b-relais-marlene-avezzano
+Nome: B&B Relais Marlene
+Comune / Provincia: Avezzano
+Indirizzo: Via Cardinale Mazzarino, 46, 67051 Avezzano AQ
+Coordinate: Lat 42.026677, Lng 13.429078
+Website: http://www.relaismarlene.it/
+Email: 
+
+5887. B&B' Tra i due Parchi'
+ID: 50f647d7-8183-4d41-b098-476c2c51bf66
+Slug: b-b-tra-i-due-parchi-avezzano
+Nome: B&B' Tra i due Parchi'
+Comune / Provincia: Avezzano
+Indirizzo: Via Celano, 28, 67051 Avezzano AQ
+Coordinate: Lat 42.035716, Lng 13.433301
+Website: https://sites.google.com/view/bb-tra-i-due-parchi/home-page
+Email: 
+
+5888. Hotel De Meis
+ID: 060fc0c3-4ad4-4647-9acb-77c76920ae14
+Slug: hotel-de-meis-avezzano
+Nome: Hotel De Meis
+Comune / Provincia: Avezzano
+Indirizzo: Via Roma, 202, 67053 Capistrello AQ
+Coordinate: Lat 41.966182, Lng 13.391666
+Website: http://www.hoteldemeis.com/
+Email: 
+
+5889. Hotel Olimpia
+ID: f1ab3ff4-06c6-4b24-850c-7dd4e686c366
+Slug: hotel-olimpia-avezzano
+Nome: Hotel Olimpia
+Comune / Provincia: Avezzano
+Indirizzo: Via Avezzano, 91, 67068 Cappelle AQ
+Coordinate: Lat 42.053348, Lng 13.399171
+Website: http://www.hotelolimpia.it/
+Email: 
+
+5890. Hotel Velino
+ID: d9988417-30ae-435a-aff9-a1eaa6393196
+Slug: hotel-velino-avezzano
+Nome: Hotel Velino
+Comune / Provincia: Avezzano
+Indirizzo: Via Montello, 9, 67051 Avezzano AQ
+Coordinate: Lat 42.038816, Lng 13.427913
+Website: http://www.hotelvelino.it/
+Email: 
+
+5891. Il Risorgimento Avezzano
+ID: d73e2102-0728-4a95-a9bc-f06bebf5e1af
+Slug: il-risorgimento-avezzano-avezzano
+Nome: Il Risorgimento Avezzano
+Comune / Provincia: Avezzano
+Indirizzo: Via Guglielmo Marconi, 46, 67051 Avezzano AQ
+Coordinate: Lat 42.032406, Lng 13.426771
+Website: https://directy.eu/risorgimento-avezzano
+Email: 
+
+5892. La Chimera dei Marsi
+ID: 81fbe825-0a8c-4668-8c3d-9d9d6ae67bd4
+Slug: la-chimera-dei-marsi-avezzano
+Nome: La Chimera dei Marsi
+Comune / Provincia: Avezzano
+Indirizzo: Via Guglielmo Marconi, 46, 67051 Avezzano AQ
+Coordinate: Lat 42.032407, Lng 13.426771
+Website: —
+Email: 
+
+5893. Locanda Corte Dé Guasconi
+ID: 73cc74bb-fe84-4b73-a11a-d42979a51345
+Slug: locanda-corte-de-guasconi-avezzano
+Nome: Locanda Corte Dé Guasconi
+Comune / Provincia: Avezzano
+Indirizzo: Via da Monte, 23, 67051 Antrosano AQ
+Coordinate: Lat 42.068833, Lng 13.40428
+Website: http://www.ristorantecortedeguasconi.com/
+Email: 
+
+5894. Residenza Avezzano
+ID: 12666199-2867-454c-9e33-4233423a3bdc
+Slug: residenza-avezzano-avezzano
+Nome: Residenza Avezzano
+Comune / Provincia: Avezzano
+Indirizzo: Via Garibaldi, 26, 67051 Avezzano AQ
+Coordinate: Lat 42.038207, Lng 13.426896
+Website: http://residenzaavezzano.it/
+Email: 
+
+5895. Albergo La Locanda
+ID: 8368c27f-902a-4cff-9eca-be77c07c04aa
+Slug: albergo-la-locanda-aviano
+Nome: Albergo La Locanda
+Comune / Provincia: Aviano
+Indirizzo: Via Pordenone, 10, 33081 Aviano PN
+Coordinate: Lat 46.066201, Lng 12.594745
+Website: http://la-locanda-aviano.com.es/
+Email: 
+
+5896. Albergo Residence Italia Vintage Hotel
+ID: 16f90887-3e7e-464a-94c0-c946654a30b4
+Slug: albergo-residence-italia-vintage-hotel-aviano
+Nome: Albergo Residence Italia Vintage Hotel
+Comune / Provincia: Aviano
+Indirizzo: Piazzetta Costantini, 6, 33170 Pordenone PN
+Coordinate: Lat 45.960315, Lng 12.661682
+Website: http://www.hotelresidenceitalia.com/
+Email: 
+
+5897. Aviano Palace Hotel
+ID: eaeaad07-ff4e-42e8-8d4e-8ba61232269a
+Slug: aviano-palace-hotel-aviano
+Nome: Aviano Palace Hotel
+Comune / Provincia: Aviano
+Indirizzo: Via Sacile, 21, 33081 Aviano PN
+Coordinate: Lat 46.066239, Lng 12.58436
+Website: http://aviano-palace-hotel.com.es/
+Email: 
+
+5898. Avianresidenze
+ID: 5a8e7bce-f1ab-4ad9-8282-304fd3afb0a0
+Slug: avianresidenze-aviano
+Nome: Avianresidenze
+Comune / Provincia: Aviano
+Indirizzo: Via Dante Alighieri, 30, 33081 Aviano PN
+Coordinate: Lat 46.07077, Lng 12.581592
+Website: http://avianresidenze.com/
+Email: 
+
+5899. Bed & Breakfast Ligont
+ID: b6aee5e9-72e7-465e-894c-4614e4fac6c0
+Slug: bed-breakfast-ligont-aviano
+Nome: Bed & Breakfast Ligont
+Comune / Provincia: Aviano
+Indirizzo: Via Rivetta, 22B, 33070 Budoia PN
+Coordinate: Lat 46.055399, Lng 12.535817
+Website: http://www.facebook.com/BBligont
+Email: 
+
+5900. Bed & Breakfast Villa Orsolina
+ID: 6e522aad-df65-49aa-9387-b9ffb457c380
+Slug: bed-breakfast-villa-orsolina-aviano
+Nome: Bed & Breakfast Villa Orsolina
+Comune / Provincia: Aviano
+Indirizzo: Viale per Costa, 32, 33081 Aviano PN
+Coordinate: Lat 46.08137, Lng 12.583646
+Website: http://villaorsolina.com/
+Email: 
+
+5901. cà livenza sacile b&b
+ID: c002368f-c835-43be-a8c6-dff9d60d2ff7
+Slug: ca-livenza-sacile-b-b-aviano
+Nome: cà livenza sacile b&b
+Comune / Provincia: Aviano
+Indirizzo: Via Ronche, 72, 33077 Sacile PN
+Coordinate: Lat 45.969519, Lng 12.48875
+Website: http://www.calivenza.it/
+Email: 
+
+5902. Ca' del Bosco
+ID: ff67fb1c-cf3b-449b-9f02-2515482d5f98
+Slug: ca-del-bosco-aviano
+Nome: Ca' del Bosco
+Comune / Provincia: Aviano
+Indirizzo: Via Bianco, 34, 33070 Budoia PN
+Coordinate: Lat 46.042885, Lng 12.528838
+Website: https://cadelbosco.top/
+Email: 
+
+5903. Ciasa De Gahja
+ID: 6a29d488-08a6-491b-9347-2c09c9d884b1
+Slug: ciasa-de-gahja-aviano
+Nome: Ciasa De Gahja
+Comune / Provincia: Aviano
+Indirizzo: Via Anzolet, 13, 33070 Budoia PN
+Coordinate: Lat 46.045987, Lng 12.533516
+Website: https://ciasadegahja.it/
+Email: 
+
+5904. Hotel Italia
+ID: f217ab7f-80c0-458b-824c-eba316fa2f9b
+Slug: hotel-italia-aviano
+Nome: Hotel Italia
+Comune / Provincia: Aviano
+Indirizzo: Vicolo dal Fabbro Mario, 1, 33077 Sacile PN
+Coordinate: Lat 45.953833, Lng 12.496959
+Website: https://hotelsacile.it/it/
+Email: 
+
+5905. Hotel Residence Desiree
+ID: 86022e83-364b-4067-b61a-0b4b3e7f4e0e
+Slug: hotel-residence-desiree-aviano
+Nome: Hotel Residence Desiree
+Comune / Provincia: Aviano
+Indirizzo: V. Roma, 73, 33081 Aviano PN
+Coordinate: Lat 46.06611, Lng 12.587173
+Website: http://www.desiree-aviano.eu/
+Email: 
+
+5906. Hotel Residence Tower
+ID: 5c253669-7724-4950-94a4-b6a4d32019f3
+Slug: hotel-residence-tower-aviano
+Nome: Hotel Residence Tower
+Comune / Provincia: Aviano
+Indirizzo: Via Giuseppe Garibaldi, 1/a, 33081 Aviano PN
+Coordinate: Lat 46.064562, Lng 12.585852
+Website: https://hotel-residence-tower.italiadestinazioni.top/
+Email: 
+
+5907. Palazzo Policreti Negrelli
+ID: 0de169ec-c8bf-4e11-af7b-ff6a97c4b851
+Slug: palazzo-policreti-negrelli-aviano
+Nome: Palazzo Policreti Negrelli
+Comune / Provincia: Aviano
+Indirizzo: Piazza Duomo, 15, 33081 Aviano PN
+Coordinate: Lat 46.068664, Lng 12.58896
+Website: https://www.airbnb.it/manage-your-space/20921037/details
+Email: 
+
+5908. Residence Elite
+ID: 9ce2f50a-ffae-431a-930b-7e81073ee217
+Slug: residence-elite-aviano
+Nome: Residence Elite
+Comune / Provincia: Aviano
+Indirizzo: Via Riccardo Pitteri, 1/A, 33081 Aviano PN
+Coordinate: Lat 46.069569, Lng 12.585819
+Website: http://www.residenceelite.it/
+Email: 
+
+5909. Residence Magnolia
+ID: f98bccdb-eea6-449f-b374-0dc68dd6f492
+Slug: residence-magnolia-aviano
+Nome: Residence Magnolia
+Comune / Provincia: Aviano
+Indirizzo: Via Dante Alighieri, 9, 33081 Aviano PN
+Coordinate: Lat 46.06919, Lng 12.584704
+Website: http://www.residencemagnolia.com/
+Email: 
+
+5910. Smart Residence Aviano
+ID: fa5b843b-70f8-4696-8ada-522f5fbe3735
+Slug: smart-residence-aviano-aviano
+Nome: Smart Residence Aviano
+Comune / Provincia: Aviano
+Indirizzo: Via Stretta, 9, 33081 Aviano PN
+Coordinate: Lat 46.070235, Lng 12.591242
+Website: http://www.smartresidenceaviano.it/
+Email: 
+
+5911. Villa Marini Trevisan Hotel
+ID: 26e54845-92fc-4a94-85d5-24349fcabd71
+Slug: villa-marini-trevisan-hotel-aviano
+Nome: Villa Marini Trevisan Hotel
+Comune / Provincia: Aviano
+Indirizzo: Viale Guglielmo Marconi, 8, 33081 Castello d'Aviano PN
+Coordinate: Lat 46.065748, Lng 12.586145
+Website: http://www.villamarinitrevisan.it/
+Email: 
+
+5912. Villa Policreti
+ID: 96a70139-73ae-496e-9e60-d4af25f783cd
+Slug: villa-policreti-aviano
+Nome: Villa Policreti
+Comune / Provincia: Aviano
+Indirizzo: Via IV Novembre, 13, 33081 Castello d'Aviano PN
+Coordinate: Lat 46.050045, Lng 12.564692
+Website: http://www.villapolicreti.com/
+Email: 
+
+5913. Agriturismo La Fontana
+ID: f0d4549e-2295-4619-b913-159a19601925
+Slug: agriturismo-la-fontana-aviatico
+Nome: Agriturismo La Fontana
+Comune / Provincia: Aviatico
+Indirizzo: Via S. Salvatore, 35, 24019 Frazione Miragolo San Salvatore, Zogno BG
+Coordinate: Lat 45.809029, Lng 9.718008
+Website: http://www.agriturismolafontanabg.it/
+Email: 
+
+5914. Albergo Centrale - Hotel e Ristorante
+ID: a597fb21-d671-4bb6-9449-c70960efdb2a
+Slug: albergo-centrale-hotel-e-ristorante-aviatico
+Nome: Albergo Centrale - Hotel e Ristorante
+Comune / Provincia: Aviatico
+Indirizzo: Viale Papa Giovanni XXIII, 63, 24016 San Pellegrino Terme BG
+Coordinate: Lat 45.840582, Lng 9.665775
+Website: http://www.albergo-centrale.it/
+Email: 
+
+5915. Albergo Relax di Razzetti C. Sas
+ID: 77a87fca-04b8-46fe-9e96-7d6c2624726a
+Slug: albergo-relax-di-razzetti-c-sas-aviatico
+Nome: Albergo Relax di Razzetti C. Sas
+Comune / Provincia: Aviatico
+Indirizzo: Viale Passeggio, 50, 24020 Selvino BG
+Coordinate: Lat 45.781223, Lng 9.750191
+Website: http://www.albergorelax.it/
+Email: 

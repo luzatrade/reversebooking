@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+11201. Ristorante - Hotel Locanda Milano 1873
+ID: 1cb0da77-702d-4434-8097-5f77c9a55582
+Slug: ristorante-hotel-locanda-milano-1873-brunate
+Nome: Ristorante - Hotel Locanda Milano 1873
+Comune / Provincia: Brunate
+Indirizzo: Via Alessandro Volta, 62, 22034 Brunate CO
+Coordinate: Lat 45.81835, Lng 9.09627
+Website: http://www.locandamilano.com/
+Email: 
+
+11202. SunsetLake
+ID: 09647275-0157-481f-897c-5a52d22217e7
+Slug: sunsetlake-brunate
+Nome: SunsetLake
+Comune / Provincia: Brunate
+Indirizzo: Via Parco Nidrino, 20, 22034 Brunate CO
+Coordinate: Lat 45.822955, Lng 9.091758
+Website: —
+Email: 
+
+11203. Agriturismo Barsentello
+ID: a932c3b5-5c16-41bf-9783-0f23294e526b
+Slug: agriturismo-barsentello-brunello
+Nome: Agriturismo Barsentello
+Comune / Provincia: Brunello
+Indirizzo: Strada Comunale Chiancarosa, 73, 70017 Putignano BA
+Coordinate: Lat 40.808171, Lng 17.176597
+Website: http://agriturismobarsentello.wordpress.com/
+Email: 
+
+11204. Agriturismo Conte Brunello
+ID: ef069183-3248-4d73-8d1b-cf4053fafd51
+Slug: agriturismo-conte-brunello-brunello
+Nome: Agriturismo Conte Brunello
+Comune / Provincia: Brunello
+Indirizzo: Via Panoramica, 13, 25087 Salò BS
+Coordinate: Lat 45.617021, Lng 10.543233
+Website: http://contebrunello.org/
+Email: 
+
+11205. Agriturismo Il Monterosso
+ID: 02de6def-3dab-4a24-804c-0c66c6909a13
+Slug: agriturismo-il-monterosso-brunello
+Nome: Agriturismo Il Monterosso
+Comune / Provincia: Brunello
+Indirizzo: Via Al Monte Rosso 6 unica strada aperta: parte da, Viale Giuseppe Azari, n. 127, 28925 Verbania VB
+Coordinate: Lat 45.944629, Lng 8.537264
+Website: http://www.ilmonterosso.it/
+Email: 
+
+11206. Agriturismo La Quercia, Camere, Ristorante, Pranzo Tutti I Giorni, Day Use Hotel
+ID: 00071f07-c609-4314-92a4-3d5dfb29c169
+Slug: agriturismo-la-quercia-camere-ristorante-pranzo-brunello
+Nome: Agriturismo La Quercia, Camere, Ristorante, Pranzo Tutti I Giorni, Day Use Hotel
+Comune / Provincia: Brunello
+Indirizzo: Via Angelo, 1, 83010 Grottolella AV
+Coordinate: Lat 40.976662, Lng 14.792639
+Website: https://www.agriturismo-la-quercia.com/
+Email: 
+
+11207. Azienda Agricola Corte Merina
+ID: 3307c287-4064-4a6f-8bdf-779fe7227533
+Slug: azienda-agricola-corte-merina-brunello
+Nome: Azienda Agricola Corte Merina
+Comune / Provincia: Brunello
+Indirizzo: Località Merina, 28801 Cossogno VB
+Coordinate: Lat 46.00054, Lng 8.486592
+Website: http://www.cortemerina.it/
+Email: 
+
+11208. Baita Eleonora
+ID: 100b1889-fb21-4806-b0aa-2710ecff42c0
+Slug: baita-eleonora-brunello
+Nome: Baita Eleonora
+Comune / Provincia: Brunello
+Indirizzo: via per, Vicolo Schignano, snc, 22010 Argegno CO
+Coordinate: Lat 45.934033, Lng 9.102867
+Website: http://www.baitaeleonora.it/
+Email: 
+
+11209. Goccia d'oro Ranch
+ID: 9cde7520-0f39-432e-8195-6538ec3a5d10
+Slug: goccia-d-oro-ranch-brunello
+Nome: Goccia d'oro Ranch
+Comune / Provincia: Brunello
+Indirizzo: Via Cervinia, 21100 Varese VA
+Coordinate: Lat 45.794928, Lng 8.859221
+Website: http://www.agriturismovarese.it/
+Email: 
+
+11210. Il Rifugio degli Artisti B&B
+ID: c913062f-5fc3-4b73-b507-0a616846b0b6
+Slug: il-rifugio-degli-artisti-b-b-brunello
+Nome: Il Rifugio degli Artisti B&B
+Comune / Provincia: Brunello
+Indirizzo: Viale S. Pedrino, 21, 21100 Varese VA
+Coordinate: Lat 45.812265, Lng 8.832198
+Website: https://www.facebook.com/ilRifugioDegliArtistiVarese/
+Email: 
+
+11211. Agalma
+ID: 5665e2f4-da8e-4523-b7b2-e2bde921c60f
+Slug: agalma-brunico-bruneck
+Nome: Agalma
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Centrale, 8, 39031 Brunico BZ
+Coordinate: Lat 46.795515, Lng 11.9399
+Website: https://agalmabrunico.com/
+Email: 
+
+11212. Albergo Oberraut Ristorante
+ID: 12d472b2-c220-4c0a-837d-ba0920eca6ee
+Slug: albergo-oberraut-ristorante-brunico-bruneck
+Nome: Albergo Oberraut Ristorante
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Ameto, 1, 39031 Brunico BZ
+Coordinate: Lat 46.812282, Lng 11.96309
+Website: http://www.oberraut.it/
+Email: 
+
+11213. Aparthotel Panorama
+ID: 37006421-3357-4579-a0ec-e1b3548f538b
+Slug: aparthotel-panorama-brunico-bruneck
+Nome: Aparthotel Panorama
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Gisse, 36, 39030 Gais BZ
+Coordinate: Lat 46.837155, Lng 11.953116
+Website: https://www.aparthotel-panorama.com/?utm_source=google&utm_medium=organic&utm_campaign=google_mybusiness
+Email: 
+
+11214. B&B Apartment Obermair
+ID: 41c6d7c1-b1c2-414c-bb6b-5e68716d1899
+Slug: b-b-apartment-obermair-brunico-bruneck
+Nome: B&B Apartment Obermair
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via In der Sandgrube, 16, 39031 Riscone BZ
+Coordinate: Lat 46.780952, Lng 11.940484
+Website: https://www.obermair.biz/
+Email: 
+
+11215. B&B Niedermairhof
+ID: 8f2a72df-2b8f-48f4-884a-0b472be42589
+Slug: b-b-niedermairhof-brunico-bruneck
+Nome: B&B Niedermairhof
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Duca Teodone, 1, 39031 Brunico BZ
+Coordinate: Lat 46.802853, Lng 11.948496
+Website: https://www.nmhof.it/
+Email: 
+
+11216. Garni Hattlerhof B&B
+ID: 1945eb67-b66e-48c2-b524-3f94ac0738b5
+Slug: garni-hattlerhof-b-b-brunico-bruneck
+Nome: Garni Hattlerhof B&B
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Pipen, 2, 39031 Brunico BZ
+Coordinate: Lat 46.818772, Lng 11.93107
+Website: http://www.hattlerhof.com/
+Email: 
+
+11217. Garni Schorneck
+ID: 5b696aaa-fbc7-4fdd-9c3b-71c8c1e53498
+Slug: garni-schorneck-brunico-bruneck
+Nome: Garni Schorneck
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Funivia, 11/a, 39031 Riscone BZ
+Coordinate: Lat 46.771116, Lng 11.943662
+Website: https://www.schorneck.com/
+Email: 
+
+11218. Gasthof Sonne
+ID: 7e79136f-6a6b-4ecf-87ce-5421d1036116
+Slug: gasthof-sonne-brunico-bruneck
+Nome: Gasthof Sonne
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Josef Renzler, 24, 39030 San Lorenzo di Sebato BZ
+Coordinate: Lat 46.783445, Lng 11.900984
+Website: http://www.gasthof-sonne.it/
+Email: 
+
+11219. Hotel ANDER
+ID: 43516153-75bb-49b9-94cf-38b83307c1fb
+Slug: hotel-ander-brunico-bruneck
+Nome: Hotel ANDER
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Campo Tures, 1, 39031 Brunico BZ
+Coordinate: Lat 46.801258, Lng 11.938123
+Website: http://www.hotelander.com/
+Email: 
+
+11220. Hotel Bologna Brunico (BZ)
+ID: d5bd77e5-eb10-43fa-bf81-86c87931f7c9
+Slug: hotel-bologna-brunico-bz-brunico-bruneck
+Nome: Hotel Bologna Brunico (BZ)
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Leonardo Da Vinci, 1, 39031 Brunico BZ
+Coordinate: Lat 46.794647, Lng 11.935331
+Website: http://www.hotel-bologna.it/
+Email: 
+
+11221. Hotel Garni Hochgruber
+ID: a1794ad8-c716-4f3b-b686-6bea10c4f0a1
+Slug: hotel-garni-hochgruber-brunico-bruneck
+Nome: Hotel Garni Hochgruber
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Funivia, 5, 39031 Brunico BZ
+Coordinate: Lat 46.771466, Lng 11.94389
+Website: https://www.hochgruber.com/
+Email: 
+
+11222. Hotel Gissbach
+ID: d01e22dc-766d-43ec-b21c-35e0d0219e25
+Slug: hotel-gissbach-brunico-bruneck
+Nome: Hotel Gissbach
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Gissbach, 27, 39031 Brunico BZ
+Coordinate: Lat 46.816935, Lng 11.929799
+Website: http://www.gissbach.com/
+Email: 
+
+11223. Hotel Krondlhof
+ID: 7c5c3456-6887-472d-a48e-c859e3c0a970
+Slug: hotel-krondlhof-brunico-bruneck
+Nome: Hotel Krondlhof
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Riscone, 35, 39031 Brunico BZ
+Coordinate: Lat 46.779018, Lng 11.944995
+Website: https://www.krondlhof.com/
+Email: 
+
+11224. Hotel Krone
+ID: 171f2640-d3e4-48cd-9fca-da76fc28d7ab
+Slug: hotel-krone-brunico-bruneck
+Nome: Hotel Krone
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Ragen di Sopra, 8, 39031 Brunico BZ
+Coordinate: Lat 46.794881, Lng 11.940843
+Website: https://hotelkrone-arc.com/
+Email: 
+
+11225. Hotel Lindnerhof
+ID: cdc8e19c-bda2-449a-97ea-c0e74400580c
+Slug: hotel-lindnerhof-brunico-bruneck
+Nome: Hotel Lindnerhof
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Santo Stefano, 40A, 39030 Brunico BZ
+Coordinate: Lat 46.768561, Lng 11.921653
+Website: http://www.lindnerhof.it/
+Email: 
+
+11226. Hotel Martha
+ID: 1fcd4aeb-ed04-4e73-bfd4-223214db4125
+Slug: hotel-martha-brunico-bruneck
+Nome: Hotel Martha
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Harrasser, 11, 39031 Riscone BZ
+Coordinate: Lat 46.781977, Lng 11.940412
+Website: http://www.hotel-martha.it/
+Email: 
+
+11227. Hotel Post
+ID: 989bfa16-9ced-4538-afe6-c75c62ff57b2
+Slug: hotel-post-brunico-bruneck
+Nome: Hotel Post
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Bastioni, 9, 39031 Brunico BZ
+Coordinate: Lat 46.796351, Lng 11.936887
+Website: http://www.hotelpost-bruneck.com/
+Email: 
+
+11228. Hotel Reischach
+ID: 43f45847-e44a-4705-ab61-83b82a5eece7
+Slug: hotel-reischach-brunico-bruneck
+Nome: Hotel Reischach
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Prack Zu Asch, 10, 39031 Riscone BZ
+Coordinate: Lat 46.776258, Lng 11.94874
+Website: http://www.hotelreischach.com/
+Email: 
+
+11229. Hotel Restaurant Blitzburg
+ID: 2e53e41c-30e6-4921-9c84-24e2d29ea4b0
+Slug: hotel-restaurant-blitzburg-brunico-bruneck
+Nome: Hotel Restaurant Blitzburg
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Europa, 10, 39031 Brunico BZ
+Coordinate: Lat 46.795414, Lng 11.931996
+Website: https://www.blitzburg.it/
+Email: 
+
+11230. Hotel Waldhof
+ID: 88a8776f-d0b4-4d03-a91e-7d098ca57eb7
+Slug: hotel-waldhof-brunico-bruneck
+Nome: Hotel Waldhof
+Comune / Provincia: Brunico/Bruneck
+Indirizzo: Via Sonnberg, 7, 39030 Perca BZ
+Coordinate: Lat 46.794981, Lng 11.980647
+Website: https://www.waldhof.bz.it/?utm_source=GMB&utm_medium=Website&utm_campaign=GoogleMyBusiness
+Email: 
+
+11231. Affittacamere la Chicca di Sartoris Lorenzo Giovanni
+ID: a833d85e-5fd4-48e7-bac1-a1e1a1dae229
+Slug: affittacamere-la-chicca-di-sartoris-lorenzo-giov-bruno
+Nome: Affittacamere la Chicca di Sartoris Lorenzo Giovanni
+Comune / Provincia: Bruno
+Indirizzo: Via Sticca, 16, 15016 Cassine AL
+Coordinate: Lat 44.752254, Lng 8.525992
+Website: http://www.chiccahotel.it/
+Email: 
+
+11232. Azienda Agricola I Vigneti del Mandorlo di Mottura Stefano
+ID: 7562163e-1d52-43ef-9550-3298bde88277
+Slug: azienda-agricola-i-vigneti-del-mandorlo-di-mottu-bruno
+Nome: Azienda Agricola I Vigneti del Mandorlo di Mottura Stefano
+Comune / Provincia: Bruno
+Indirizzo: Via Bella Parancone, 7, 14046 Mombaruzzo AT
+Coordinate: Lat 44.782251, Lng 8.458689
+Website: http://www.ivignetidelmandorlo.it/
+Email: 
+
+11233. B&B Casa Allineri
+ID: d6b48025-c7c0-4098-9973-65ac3f539994
+Slug: b-b-casa-allineri-bruno
+Nome: B&B Casa Allineri
+Comune / Provincia: Bruno
+Indirizzo: Via Giovanni Maraldi, 37, 14043 Castelnuovo Belbo AT
+Coordinate: Lat 44.802418, Lng 8.411918
+Website: —
+Email: 
+
+11234. B&B Profumi
+ID: 3a820e8b-dddf-4974-bfc3-c4825219aeb1
+Slug: b-b-profumi-bruno
+Nome: B&B Profumi
+Comune / Provincia: Bruno
+Indirizzo: Via Nizza, 15, 14040 Noche AT
+Coordinate: Lat 44.797433, Lng 8.318318
+Website: http://www.bedandbreakfastprofumi.com/
+Email: 
+
+11235. Cascina Scoviglio
+ID: 8614e1ce-a596-4fd4-a92c-ab83c9d7620e
+Slug: cascina-scoviglio-bruno
+Nome: Cascina Scoviglio
+Comune / Provincia: Bruno
+Indirizzo: Via Bordina, 18, 14046 Mombaruzzo AT
+Coordinate: Lat 44.780924, Lng 8.433712
+Website: —
+Email: 

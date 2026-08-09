@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+6861. Affittacamere Chiaro di Luna
+ID: 33fa7a96-8b63-4825-a13c-e83626e2a256
+Slug: affittacamere-chiaro-di-luna-banari
+Nome: Affittacamere Chiaro di Luna
+Comune / Provincia: Banari
+Indirizzo: Viale Italia, 5, 07100 Sassari SS
+Coordinate: Lat 40.722106, Lng 8.559427
+Website: https://www.bbchiarodiluna.com/
+Email: 
+
+6862. Agriturismo Sas Abbilas
+ID: 73667752-041b-4805-a368-84605263decc
+Slug: agriturismo-sas-abbilas-banari
+Nome: Agriturismo Sas Abbilas
+Comune / Provincia: Banari
+Indirizzo: località Mariani, 07012 Bonorva SS
+Coordinate: Lat 40.412376, Lng 8.860729
+Website: https://www.sasabbilas.it/
+Email: 
+
+6863. B&B Antas
+ID: 36c0bf39-b161-4761-9f1c-3e668a1b922d
+Slug: b-b-antas-banari
+Nome: B&B Antas
+Comune / Provincia: Banari
+Indirizzo: Via Roma, 98, 07010 Mara SS
+Coordinate: Lat 40.407925, Lng 8.640837
+Website: https://antas.donhotel.net/
+Email: 
+
+6864. B&B Ferdinando' s House
+ID: e1fd5261-bede-4360-bc9d-fa927d69c12a
+Slug: b-b-ferdinando-s-house-banari
+Nome: B&B Ferdinando' s House
+Comune / Provincia: Banari
+Indirizzo: Via Concordia, 19/e, 07018 Pozzomaggiore SS
+Coordinate: Lat 40.399246, Lng 8.660165
+Website: —
+Email: 
+
+6865. B&B La Perla Bianca
+ID: 1ee36402-9b20-46d3-91ac-c7772e366000
+Slug: b-b-la-perla-bianca-banari
+Nome: B&B La Perla Bianca
+Comune / Provincia: Banari
+Indirizzo: Via Salvo D'Acquisto, 10, 07100 Li Punti SS
+Coordinate: Lat 40.750539, Lng 8.511458
+Website: http://www.bblaperlabianca.it/
+Email: 
+
+6866. Bed and Breakfast S'Asilo
+ID: e6069a00-6c65-48e0-9762-995afa652063
+Slug: bed-and-breakfast-s-asilo-banari
+Nome: Bed and Breakfast S'Asilo
+Comune / Provincia: Banari
+Indirizzo: Via Marongiu, 28, 07040 Banari SS
+Coordinate: Lat 40.572658, Lng 8.697271
+Website: http://bbsasilo.it/
+Email: 
+
+6867. Hotel Leonardo Da Vinci
+ID: 3a81c2bd-b69b-419c-b1aa-cd2c599ff307
+Slug: hotel-leonardo-da-vinci-banari
+Nome: Hotel Leonardo Da Vinci
+Comune / Provincia: Banari
+Indirizzo: Via Roma, 79, 07100 Sassari SS
+Coordinate: Lat 40.72065, Lng 8.568628
+Website: https://www.leonardodavinci-hotel.it/
+Email: 
+
+6868. Hotel Locanda Minerva
+ID: c3450c7f-0c05-4662-9608-3cc840a4dc83
+Slug: hotel-locanda-minerva-banari
+Nome: Hotel Locanda Minerva
+Comune / Provincia: Banari
+Indirizzo: SP88, 07019 Villanova Monteleone SS
+Coordinate: Lat 40.441965, Lng 8.529577
+Website: http://www.monteminervaexperience.com/
+Email: 
+
+6869. Pegasus Hotel
+ID: 0beb8f4b-7afa-4406-8bfb-86d12da3a0a5
+Slug: pegasus-hotel-banari
+Nome: Pegasus Hotel
+Comune / Provincia: Banari
+Indirizzo: Via Predda Niedda, 37/L, 07100 Sassari SS
+Coordinate: Lat 40.730918, Lng 8.54169
+Website: https://www.pegasushotel.it/
+Email: 
+
+6870. Sa domo de su re
+ID: d1bf2544-ad82-4c3b-9877-237954127c46
+Slug: sa-domo-de-su-re-banari
+Nome: Sa domo de su re
+Comune / Provincia: Banari
+Indirizzo: Via Carlo Felice, 55, 07048 Torralba SS
+Coordinate: Lat 40.514983, Lng 8.762029
+Website: —
+Email: 
+
+6871. Sa Mariposa
+ID: a93b0228-af8a-48ee-9b52-98a2e7e0986e
+Slug: sa-mariposa-banari
+Nome: Sa Mariposa
+Comune / Provincia: Banari
+Indirizzo: Via Aldo Moro, 29, 07044 Ittiri SS
+Coordinate: Lat 40.596415, Lng 8.562506
+Website: http://www.bebsamariposa.it/
+Email: 
+
+6872. B&P La Gusteria
+ID: 2acb34e2-6e3c-4956-a784-6862d800848c
+Slug: b-p-la-gusteria-banchette
+Nome: B&P La Gusteria
+Comune / Provincia: Banchette
+Indirizzo: Via Quattro Martiri, 5, 10015 Ivrea TO
+Coordinate: Lat 45.46685, Lng 7.87453
+Website: http://la-gusteria.com.es//
+Email: 
+
+6873. Bed and Breakfast Il Tuchino
+ID: b0c05b57-e370-4292-9631-4516f54b25b8
+Slug: bed-and-breakfast-il-tuchino-banchette
+Nome: Bed and Breakfast Il Tuchino
+Comune / Provincia: Banchette
+Indirizzo: Piazza Lamarmora, 20, 10015 Ivrea TO
+Coordinate: Lat 45.46367, Lng 7.872118
+Website: https://iltuchino.com/
+Email: 
+
+6874. Guest house "Borgo Yporegia"
+ID: 6d6fc28c-acae-4461-8951-c103444da96b
+Slug: guest-house-borgo-yporegia-banchette
+Nome: Guest house "Borgo Yporegia"
+Comune / Provincia: Banchette
+Indirizzo: Via Corte D'Assise, 6, 10015 Ivrea TO
+Coordinate: Lat 45.466543, Lng 7.87777
+Website: —
+Email: 
+
+6875. Villa Silvia Olivetti Ivrea (Torino)
+ID: ea661961-f2c4-4068-8fbf-e3e93198b2a3
+Slug: villa-silvia-olivetti-ivrea-torino-banchette
+Nome: Villa Silvia Olivetti Ivrea (Torino)
+Comune / Provincia: Banchette
+Indirizzo: Via Castellamonte, 46/1, 10010 Banchette TO
+Coordinate: Lat 45.454958, Lng 7.857388
+Website: https://www.villasilviaolivetti.eu/
+Email: 
+
+6876. Asia Hotel Bangkok
+ID: 3f24ebdc-f8f1-4b07-9f0b-44edab141533
+Slug: asia-hotel-bangkok-bangkok
+Nome: Asia Hotel Bangkok
+Comune / Provincia: Bangkok
+Indirizzo: 296 Phaya Thai Rd, Khwaeng Thanon Phetchaburi, Khet Ratchathewi, Krung Thep Maha Nakhon 10400
+Coordinate: Lat 13.751346, Lng 100.5311
+Website: http://www.asiahotel.co.th/asia_bangkok/
+Email: booking@asiahotel.co.th
+
+6877. Bangkok City Hotel
+ID: e2b9a57d-07db-447c-89a7-7c3a1724bd7e
+Slug: bangkok-city-hotel-bangkok
+Nome: Bangkok City Hotel
+Comune / Provincia: Bangkok
+Indirizzo: 268 Thanon Phetchaburi, Khwaeng Thanon Phetchaburi, Khet Ratchathewi, Krung Thep Maha Nakhon 10400
+Coordinate: Lat 13.754057, Lng 100.528702
+Website: https://www.bangkokcityhotel.com/
+Email: 
+
+6878. Bangkok City Suite Hotel
+ID: af1ca109-517d-4cc5-982f-72180fd03e4b
+Slug: bangkok-city-suite-hotel-bangkok
+Nome: Bangkok City Suite Hotel
+Comune / Provincia: Bangkok
+Indirizzo: 1 Thanon Phetchaburi, Khwaeng Thung Phaya Thai, Khet Ratchathewi, Krung Thep Maha Nakhon 10400
+Coordinate: Lat 13.757128, Lng 100.521912
+Website: https://www.bangkoksuite.com/
+Email: 
+
+6879. Centara Life Hotel Bangkok Phra Nakhon
+ID: 30dde603-78d3-4eb4-9f65-f94cb7306774
+Slug: centara-life-hotel-bangkok-phra-nakhon-bangkok
+Nome: Centara Life Hotel Bangkok Phra Nakhon
+Comune / Provincia: Bangkok
+Indirizzo: 78, Khwaeng Ban Phan Thom, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200
+Coordinate: Lat 13.761654, Lng 100.504121
+Website: https://www.centarahotelsresorts.com/centra/cbp
+Email: cbp@chr.co.th
+
+6880. Dinso Home Boutique Hotel
+ID: 04a659bd-7b6a-4387-aa0d-988c85d85c10
+Slug: dinso-home-boutique-hotel-bangkok
+Nome: Dinso Home Boutique Hotel
+Comune / Provincia: Bangkok
+Indirizzo: 78 Parinayok Soi 3, Khwaeng Wat Bowon Niwet, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200
+Coordinate: Lat 13.756034, Lng 100.501806
+Website: —
+Email: 
+
+6881. Hotel Royal Bangkok
+ID: 5ed2fd75-e4b2-4652-8f3e-79c656b8fe7b
+Slug: hotel-royal-bangkok-bangkok
+Nome: Hotel Royal Bangkok
+Comune / Provincia: Bangkok
+Indirizzo: 3 Floor, Room 302, 421/4 Yaowarat Rd, Khwaeng Samphanthawong, Khet Samphanthawong, Krung Thep Maha Nakhon 10100
+Coordinate: Lat 13.740464, Lng 100.509917
+Website: http://www.hotelroyalbangkok.com/
+Email: info@hotelroyalbangkok.com
+
+6882. Nouvo City Hotel - โรงแรมนูโว ซิตี
+ID: 38b01b2b-ca07-4b06-ab8d-aaa73d9e4fa7
+Slug: nouvo-city-hotel-bangkok
+Nome: Nouvo City Hotel - โรงแรมนูโว ซิตี
+Comune / Provincia: Bangkok
+Indirizzo: 2 Soi Samsen 2, Khwaeng Ban Phan Thom, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200
+Coordinate: Lat 13.762788, Lng 100.49943
+Website: https://www.nouvocityhotel.com/
+Email: info@nouvocityhotel.com
+
+6883. Pathumwan Princess Hotel
+ID: bd18cb07-c4be-498c-a45c-8c6ec83f5972
+Slug: pathumwan-princess-hotel-bangkok
+Nome: Pathumwan Princess Hotel
+Comune / Provincia: Bangkok
+Indirizzo: 444 Phaya Thai Rd, Khwaeng Wang Mai, Pathum Wan, Krung Thep Maha Nakhon 10330
+Coordinate: Lat 13.743197, Lng 100.530139
+Website: https://www.pprincess.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp
+Email: 
+
+6884. Prince Palace Hotel Bangkok
+ID: 71551f05-4aed-4cdf-a528-aaf8aaa3e4a3
+Slug: prince-palace-hotel-bangkok-bangkok
+Nome: Prince Palace Hotel Bangkok
+Comune / Provincia: Bangkok
+Indirizzo: 488/800 Thanon Damrong Rak, Khwaeng Khlong Maha Nak, Khet Pom Prap Sattru Phai, Krung Thep Maha Nakhon 10100
+Coordinate: Lat 13.754197, Lng 100.515936
+Website: https://www.princepalace.co.th/
+Email: 
+
+6885. Rambuttri Village Hotel
+ID: d06cbd26-a6cb-4a8c-a05c-eba95f024714
+Slug: rambuttri-village-hotel-bangkok
+Nome: Rambuttri Village Hotel
+Comune / Provincia: Bangkok
+Indirizzo: 95 Soi Ram Buttri, Khwaeng Chana Songkhram, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200
+Coordinate: Lat 13.761476, Lng 100.496034
+Website: http://www.rambuttrivillage.com/
+Email: info@khaosan-hotels.com
+
+6886. Riva Surya Bangkok
+ID: e9f05fcd-085e-4371-b107-9870d9762142
+Slug: riva-surya-bangkok-bangkok
+Nome: Riva Surya Bangkok
+Comune / Provincia: Bangkok
+Indirizzo: 23 Thanon Phra Athit, Khwaeng Chana Songkhram, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200
+Coordinate: Lat 13.762144, Lng 100.493128
+Website: https://www.rivasuryabangkok.com/en/?partner=6212&utm_source=google&utm_medium=gmb&utm_campaign=web_link
+Email: stay@rivasuryabangkok.com
+
+6887. Royal Rattanakosin Hotel
+ID: e4d18b31-daa8-415c-92a8-7c203c486cfa
+Slug: royal-rattanakosin-hotel-bangkok
+Nome: Royal Rattanakosin Hotel
+Comune / Provincia: Bangkok
+Indirizzo: 2 Thanon Ratchadamnoen Klang, Khwaeng Wat Bowon Niwet, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200
+Coordinate: Lat 13.757082, Lng 100.495626
+Website: http://www.rattanakosinhotel.com/
+Email: 
+
+6888. Siam@Siam Design Hotel Bangkok
+ID: c78f8ac9-d0c2-4111-a536-25f8ac5064b3
+Slug: siam-siam-design-hotel-bangkok-bangkok
+Nome: Siam@Siam Design Hotel Bangkok
+Comune / Provincia: Bangkok
+Indirizzo: Opposite National Stadium 865 Rama I Rd, Khwaeng Wang Mai, Pathum Wan, Krung Thep Maha Nakhon 10330
+Coordinate: Lat 13.747436, Lng 100.526972
+Website: https://www.siamatsiam.com/bangkok/?utm_content_GMB
+Email: central.rsvn@siamatsiam.com
+
+6889. Siri Grand Bangkok Hotel
+ID: 2a0cbcfe-6f6f-41fa-9bcd-1c098a84ed1c
+Slug: siri-grand-bangkok-hotel-bangkok
+Nome: Siri Grand Bangkok Hotel
+Comune / Provincia: Bangkok
+Indirizzo: 98 Soi Damnoen Klang Tai, Khwaeng Wat Bowon Niwet, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200
+Coordinate: Lat 13.756293, Lng 100.500125
+Website: https://ibe.hoteliers.guru/ibe/en/Siri-Grand-Bangkok-Hotel-Phanakorn-Bangkok-TH?tid=be4c856a6fd3af6e7e40f18ff01a7c87
+Email: info@hoteliers.guru
+
+6890. Siri Ratchadamnoen Bangkok Hotel
+ID: ed0973df-77fc-4a43-8673-b5d17d1d56f4
+Slug: siri-ratchadamnoen-bangkok-hotel-bangkok
+Nome: Siri Ratchadamnoen Bangkok Hotel
+Comune / Provincia: Bangkok
+Indirizzo: 104 Soi Ratchadamnoen Klang Tai, Khwaeng Wat Bowon Niwet, Khet Phra Nakhon, Krung Thep Maha Nakhon 10200
+Coordinate: Lat 13.756338, Lng 100.500186
+Website: https://ibe.hoteliers.guru/ibe/en/Siri-Ratchadamnoen-Bangkok-hotel-Phra-Nakhon-Bangkok-TH?tid=71681ecb9e0f77696ea75a32f6a64774&
+Email: info@hoteliers.guru
+
+6891. Albergo Bar Ristorante PASSO BARANCA
+ID: b41d23ed-daf7-438a-802a-bc07229729e4
+Slug: albergo-bar-ristorante-passo-baranca-bannio-anzino
+Nome: Albergo Bar Ristorante PASSO BARANCA
+Comune / Provincia: Bannio Anzino
+Indirizzo: Piazza monsignor Cocchinetti, 2, 28871 Bannio VB
+Coordinate: Lat 45.984036, Lng 8.145627
+Website: —
+Email: 
+
+6892. B&B Via Romita / Romita House
+ID: 36dd39ff-1225-4a43-9eff-59dad3597e91
+Slug: b-b-via-romita-romita-house-bannio-anzino
+Nome: B&B Via Romita / Romita House
+Comune / Provincia: Bannio Anzino
+Indirizzo: Via Giuseppe Romita, 18b, 28845 Domodossola VB
+Coordinate: Lat 46.118483, Lng 8.28723
+Website: http://www.domodossolebeb.com/
+Email: 
+
+6893. B&B Villa Rosa
+ID: 32a1bb1e-6412-4092-a779-653bf56f0156
+Slug: b-b-villa-rosa-bannio-anzino
+Nome: B&B Villa Rosa
+Comune / Provincia: Bannio Anzino
+Indirizzo: Via Monte Rosa, 34, 28871 Bannio Anzino VB
+Coordinate: Lat 45.990577, Lng 8.145943
+Website: https://www.distrettolaghi.it/en/accomodation/villa-rosa
+Email: 
+
+6894. La Residenza dello Scoiattolo Bed And Breakfast
+ID: 1a6c909c-b2f2-49e6-8d2c-77a674b529c3
+Slug: la-residenza-dello-scoiattolo-bed-and-breakfast-bannio-anzino
+Nome: La Residenza dello Scoiattolo Bed And Breakfast
+Comune / Provincia: Bannio Anzino
+Indirizzo: Via S. Pietro, 21, 28871 Pontegrande VB
+Coordinate: Lat 45.989228, Lng 8.148248
+Website: —
+Email: 
+
+6895. Walser House Albergo Diffuso
+ID: 4c7432b1-e103-4512-ac2f-72f188d993a7
+Slug: walser-house-albergo-diffuso-bannio-anzino
+Nome: Walser House Albergo Diffuso
+Comune / Provincia: Bannio Anzino
+Indirizzo: Via per San Gottardo, 13020 Rimella VC
+Coordinate: Lat 45.906312, Lng 8.187181
+Website: https://www.walserhouse.com/
+Email: 

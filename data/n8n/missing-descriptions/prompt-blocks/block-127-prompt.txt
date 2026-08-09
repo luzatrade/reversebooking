@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+4411. Albergo Al Corso
+ID: 9ebb48aa-98c2-40a9-96a2-5aca1a724110
+Slug: albergo-al-corso-arconate
+Nome: Albergo Al Corso
+Comune / Provincia: Arconate
+Indirizzo: Corso Magenta, 137, 20025 Legnano MI
+Coordinate: Lat 45.590621, Lng 8.919314
+Website: https://www.albergoalcorso.it/
+Email: 
+
+4412. Albergo Ristorante Brera
+ID: 14b3f385-fcc3-403b-b8ac-e3f8c366b79a
+Slug: albergo-ristorante-brera-arconate
+Nome: Albergo Ristorante Brera
+Comune / Provincia: Arconate
+Indirizzo: Via Brera, 11, 20010 Inveruno MI
+Coordinate: Lat 45.516028, Lng 8.852793
+Website: https://albergoristorantebrera.metro.bar/
+Email: 
+
+4413. Antico Albergo Madonna
+ID: dd6efaa5-aa4c-4e62-a9c9-60cd2b969f5a
+Slug: antico-albergo-madonna-arconate
+Nome: Antico Albergo Madonna
+Comune / Provincia: Arconate
+Indirizzo: C.so Sempione, 125, 20025 Legnano MI
+Coordinate: Lat 45.596668, Lng 8.922656
+Website: http://www.albergomadonna.it/
+Email: 
+
+4414. B&B VillAlbero
+ID: 4023ff94-af04-485a-ba5f-9d59e6a85b87
+Slug: b-b-villalbero-arconate
+Nome: B&B VillAlbero
+Comune / Provincia: Arconate
+Indirizzo: Via Francesco Petrarca, 6, 20001 Inveruno MI
+Coordinate: Lat 45.518456, Lng 8.846217
+Website: http://www.villalbero.it/
+Email: 
+
+4415. Ca’Melia B&B
+ID: 80a19c26-80c6-4f36-b396-b3a45c33e1e0
+Slug: ca-melia-b-b-arconate
+Nome: Ca’Melia B&B
+Comune / Provincia: Arconate
+Indirizzo: Via Giovanni Boccaccio, 2, 20020 Arconate MI
+Coordinate: Lat 45.543151, Lng 8.852454
+Website: http://www.casadiamelia.it/
+Email: 
+
+4416. Hotel 2C
+ID: c5f7b7f1-445f-4386-84c5-a11facc12993
+Slug: hotel-2c-arconate
+Nome: Hotel 2C
+Comune / Provincia: Arconate
+Indirizzo: Via Colli di S. Erasmo, 51, 20025 Legnano MI
+Coordinate: Lat 45.596001, Lng 8.933254
+Website: https://www.hotel2c.it/
+Email: 
+
+4417. Hotel Legnano
+ID: cb813a1b-b335-4cc8-8cc5-ee710b6da8da
+Slug: hotel-legnano-arconate
+Nome: Hotel Legnano
+Comune / Provincia: Arconate
+Indirizzo: Via Luigi Galvani, 15, 20025 Legnano MI
+Coordinate: Lat 45.601925, Lng 8.920599
+Website: http://www.legnanohotel.com/
+Email: 
+
+4418. Hotel Montecarlo 3 Stelle
+ID: 95caeb75-80cc-445e-affd-37bfe572ac9f
+Slug: hotel-montecarlo-3-stelle-arconate
+Nome: Hotel Montecarlo 3 Stelle
+Comune / Provincia: Arconate
+Indirizzo: Via Saronno, 4, 21053 Castellanza VA
+Coordinate: Lat 45.607516, Lng 8.909951
+Website: https://www.montecarlohotel.it/
+Email: 
+
+4419. Hotel Motel Mediterraneo
+ID: 0f36e12e-ba91-4271-8da2-443c94950d18
+Slug: hotel-motel-mediterraneo-arconate
+Nome: Hotel Motel Mediterraneo
+Comune / Provincia: Arconate
+Indirizzo: Via Augusto Righi, 35, 20035 Villa Cortese MI
+Coordinate: Lat 45.560395, Lng 8.886644
+Website: http://www.hmmediterraneo.it/
+Email: 
+
+4420. Hotel Ristorante Scià on Martin
+ID: edd4f611-4ea7-4fba-aa79-c06044fe67e6
+Slug: hotel-ristorante-scia-on-martin-arconate
+Nome: Hotel Ristorante Scià on Martin
+Comune / Provincia: Arconate
+Indirizzo: V.le 2 Giugno, 1, 20010 Buscate MI
+Coordinate: Lat 45.540855, Lng 8.812502
+Website: http://www.sciaonmartin.it/
+Email: 
+
+4421. In Curti 1913
+ID: 3b56f534-82cf-4c21-bf21-6322f9f9e0ba
+Slug: in-curti-1913-arconate
+Nome: In Curti 1913
+Comune / Provincia: Arconate
+Indirizzo: Via Paolo Castelnovo, 28, 20015 Parabiago MI
+Coordinate: Lat 45.555696, Lng 8.944514
+Website: http://www.incurti1913.it/it
+Email: 
+
+4422. Lo Stallone Rent a Room
+ID: ad3bad91-f6f7-4ca7-a124-ae13b36f4741
+Slug: lo-stallone-rent-a-room-arconate
+Nome: Lo Stallone Rent a Room
+Comune / Provincia: Arconate
+Indirizzo: Via per Cuggiono, 2, 20010 Buscate MI
+Coordinate: Lat 45.540157, Lng 8.811766
+Website: http://www.lostallone.com/
+Email: 
+
+4423. Moulin de la galette
+ID: 6c8b723a-fb74-4acc-83d9-1d3d49d03d9f
+Slug: moulin-de-la-galette-arconate
+Nome: Moulin de la galette
+Comune / Provincia: Arconate
+Indirizzo: Via Mulino Galletto, 20039 Canegrate MI
+Coordinate: Lat 45.578454, Lng 8.934707
+Website: —
+Email: 
+
+4424. Pizzeria/hotel Don Carlos
+ID: 9d1c929f-f80a-417c-bc3b-1637188795c7
+Slug: pizzeria-hotel-don-carlos-arconate
+Nome: Pizzeria/hotel Don Carlos
+Comune / Provincia: Arconate
+Indirizzo: Via Guglielmo Marconi, 58, 20010 Buscate MI
+Coordinate: Lat 45.541294, Lng 8.812217
+Website: https://pizzeria-hotel-don-carlos.hotelperiviaggi.top/
+Email: 
+
+4425. Tower hotel Busto Arsizio - Malpensa
+ID: be1afa4b-2674-4a13-9ba5-9908ca73506a
+Slug: tower-hotel-busto-arsizio-malpensa-arconate
+Nome: Tower hotel Busto Arsizio - Malpensa
+Comune / Provincia: Arconate
+Indirizzo: Via Magenta, 14, 21052 Busto Arsizio VA
+Coordinate: Lat 45.60768, Lng 8.845804
+Website: http://www.towerhotelbustoarsizio.it/
+Email: 
+
+4426. Villa Verganti Veronesi
+ID: c125d85e-9dc8-40fb-96a5-28012bf1075c
+Slug: villa-verganti-veronesi-arconate
+Nome: Villa Verganti Veronesi
+Comune / Provincia: Arconate
+Indirizzo: Viale Lombardia, 33, 20001 Inveruno MI
+Coordinate: Lat 45.510486, Lng 8.851262
+Website: http://www.villavergantiveronesi.com/
+Email: 
+
+4427. Al Giardino Segreto
+ID: 9c4a2f06-6c20-43f1-bf14-9561115e5081
+Slug: al-giardino-segreto-arcore
+Nome: Al Giardino Segreto
+Comune / Provincia: Arcore
+Indirizzo: Via Luciano Manara, 21, 20900 Monza MB
+Coordinate: Lat 45.588908, Lng 9.263014
+Website: https://www.giardinosegretobb.it/
+Email: 
+
+4428. Albergo Platani
+ID: f995d70e-9a74-4a5a-9977-b7d3b0e401dc
+Slug: albergo-platani-arcore
+Nome: Albergo Platani
+Comune / Provincia: Arcore
+Indirizzo: Via A. Casati, 49, 20862 Arcore MB
+Coordinate: Lat 45.625724, Lng 9.324489
+Website: —
+Email: 
+
+4429. B&B dell'olmo
+ID: 562de864-5476-43d6-86e0-05dc705b6163
+Slug: b-b-dell-olmo-arcore
+Nome: B&B dell'olmo
+Comune / Provincia: Arcore
+Indirizzo: Via dell'Olmo, 55, 20853 Biassono MB
+Coordinate: Lat 45.623271, Lng 9.272217
+Website: —
+Email: 
+
+4430. BEST WESTERN Plus BorgoLecco Hotel
+ID: 11d53651-eb51-486c-a01b-9d28d3aba559
+Slug: best-western-plus-borgolecco-hotel-arcore
+Nome: BEST WESTERN Plus BorgoLecco Hotel
+Comune / Provincia: Arcore
+Indirizzo: Via Giacomo Matteotti, 2, 20862 Arcore MB
+Coordinate: Lat 45.630214, Lng 9.331015
+Website: http://www.borgoleccohotel.it/
+Email: 
+
+4431. Conte Durini Apartments & Rooms
+ID: 2a05b6a0-d149-4033-bd50-5f847063e3a1
+Slug: conte-durini-apartments-rooms-arcore
+Nome: Conte Durini Apartments & Rooms
+Comune / Provincia: Arcore
+Indirizzo: P.zza Durini Conte, 1, 20862 Arcore MB
+Coordinate: Lat 45.638957, Lng 9.33214
+Website: http://www.contedurini.it/
+Email: 
+
+4432. Cosmo Hotel Torri
+ID: c116b129-f2da-4a3e-87e0-5aabd69ddac8
+Slug: cosmo-hotel-torri-arcore
+Nome: Cosmo Hotel Torri
+Comune / Provincia: Arcore
+Indirizzo: Via Torri Bianche, 4, 20871 Vimercate MB
+Coordinate: Lat 45.600736, Lng 9.362219
+Website: https://www.cosmohoteltorri.it/
+Email: 
+
+4433. Il Colombee
+ID: de9e680c-6c09-4af2-8570-e55fef06bdd5
+Slug: il-colombee-arcore
+Nome: Il Colombee
+Comune / Provincia: Arcore
+Indirizzo: Via Colombe´, 14, 23874 Montevecchia LC
+Coordinate: Lat 45.698781, Lng 9.3835
+Website: —
+Email: 
+
+4434. La Casa di Elena
+ID: 63e277dd-ac38-4082-b98d-4433ecf4e333
+Slug: la-casa-di-elena-arcore
+Nome: La Casa di Elena
+Comune / Provincia: Arcore
+Indirizzo: Viale Brianza, 80, 20862 Cacciatori MB
+Coordinate: Lat 45.639895, Lng 9.325761
+Website: http://www.lacasadielena.com/
+Email: 
+
+4435. La Raffa House - Location per eventi privati e Casa Vacanze
+ID: 8ff4dd0f-7c7d-4a92-a5be-49966e41f2ba
+Slug: la-raffa-house-location-per-eventi-privati-e-cas-arcore
+Nome: La Raffa House - Location per eventi privati e Casa Vacanze
+Comune / Provincia: Arcore
+Indirizzo: Via Gran Sasso, 46, 20862 Arcore MB
+Coordinate: Lat 45.633707, Lng 9.313162
+Website: http://www.laraffahouse.com/
+Email: 
+
+4436. Privilege Apartments
+ID: 3490de2a-50b7-4ca7-8716-bdea29d18190
+Slug: privilege-apartments-arcore
+Nome: Privilege Apartments
+Comune / Provincia: Arcore
+Indirizzo: Via Rossino, 3, 20871 Vimercate MB
+Coordinate: Lat 45.609726, Lng 9.388129
+Website: https://www.privilegeapartments.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness
+Email: 
+
+4437. Ramona B&B
+ID: 13eb773e-eb5d-4358-baf8-fdd32e25e66e
+Slug: ramona-b-b-arcore
+Nome: Ramona B&B
+Comune / Provincia: Arcore
+Indirizzo: Via Casiraghi e Riboldi, 17, 20853 Biassono MB
+Coordinate: Lat 45.626633, Lng 9.268743
+Website: http://www.ramonabnb.it/
+Email: 
+
+4438. Residence Cascina San Giovanni
+ID: 3f5c8f44-c3e1-4771-be55-5c899e0c012d
+Slug: residence-cascina-san-giovanni-arcore
+Nome: Residence Cascina San Giovanni
+Comune / Provincia: Arcore
+Indirizzo: Via Michelangelo Buonarroti, 40/b, 20043 Arcore MB
+Coordinate: Lat 45.619994, Lng 9.324198
+Website: http://www.cascinasangiovanni.it/
+Email: 
+
+4439. Ristorante Sant' Eustorgio
+ID: 784636b5-b49d-4333-8931-0d4bc4c79ab7
+Slug: ristorante-sant-eustorgio-arcore
+Nome: Ristorante Sant' Eustorgio
+Comune / Provincia: Arcore
+Indirizzo: Via F. Gilera, 1, 20862 Arcore MB
+Coordinate: Lat 45.627677, Lng 9.32613
+Website: http://www.santeustorgio.com/
+Email: 
+
+4440. Agriturismo San Michele
+ID: 39f28120-e031-48d3-af7f-e02f2111a01f
+Slug: agriturismo-san-michele-arcugnano
+Nome: Agriturismo San Michele
+Comune / Provincia: Arcugnano
+Indirizzo: Str. Pergoletta, 118, 36100 Vicenza VI
+Coordinate: Lat 45.525946, Lng 11.557708
+Website: https://agrismichele.it/
+Email: 
+
+4441. Agriturismo Valchegozzo
+ID: 33fca34d-01f3-4f3e-95a3-fc00c954371d
+Slug: agriturismo-valchegozzo-arcugnano
+Nome: Agriturismo Valchegozzo
+Comune / Provincia: Arcugnano
+Indirizzo: Via Lago di Fimon, 137, 36057 Arcugnano VI
+Coordinate: Lat 45.45171, Lng 11.540571
+Website: —
+Email: 
+
+4442. Alloggio alla Collina
+ID: 1023defa-bb23-465a-a90d-3da3a8d358bb
+Slug: alloggio-alla-collina-arcugnano
+Nome: Alloggio alla Collina
+Comune / Provincia: Arcugnano
+Indirizzo: Via Umberto I, n 50/52, 36057 Arcugnano VI
+Coordinate: Lat 45.501548, Lng 11.535636
+Website: —
+Email: 
+
+4443. B&B Il Suono del Bosco
+ID: aa852ce3-e9d7-4904-a039-a7d7c4150d3f
+Slug: b-b-il-suono-del-bosco-arcugnano
+Nome: B&B Il Suono del Bosco
+Comune / Provincia: Arcugnano
+Indirizzo: Via S. Bernardino, 19, 36057 Arcugnano VI
+Coordinate: Lat 45.479622, Lng 11.507467
+Website: https://www.bebilsuonodelbosco.it/
+Email: 
+
+4444. B&B La Quiete
+ID: 9cf43f75-bae1-4e81-a4fa-03da8ad5eb35
+Slug: b-b-la-quiete-arcugnano
+Nome: B&B La Quiete
+Comune / Provincia: Arcugnano
+Indirizzo: Via S. Felice, 7\a, 36057 Arcugnano VI
+Coordinate: Lat 45.473883, Lng 11.559887
+Website: http://www.beb-laquiete.it/
+Email: 
+
+4445. Bob And Jenny's B&B
+ID: 50de7c2d-2490-4a9e-aa4b-3a1ee44b6caf
+Slug: bob-and-jenny-s-b-b-arcugnano
+Nome: Bob And Jenny's B&B
+Comune / Provincia: Arcugnano
+Indirizzo: Borgo Berga, 140, 36100 Vicenza VI
+Coordinate: Lat 45.538591, Lng 11.555983
+Website: http://www.bed-breakfast-italy.com/
+Email: 

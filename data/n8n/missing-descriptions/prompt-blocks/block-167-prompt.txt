@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+5811. Crazy Suites
+ID: 788658d0-9372-4768-b3c0-194a482c061d
+Slug: crazy-suites-avella
+Nome: Crazy Suites
+Comune / Provincia: Avella
+Indirizzo: Via M. De Sena, 181, 80035 Nola NA
+Coordinate: Lat 40.931014, Lng 14.525935
+Website: https://www.crazysuites.it/
+Email: 
+
+5812. Favorite room
+ID: a08df847-4497-416b-8fcc-982852a7642b
+Slug: favorite-room-avella
+Nome: Favorite room
+Comune / Provincia: Avella
+Indirizzo: Via dei Mille, 168, 80035 Nola NA
+Coordinate: Lat 40.929688, Lng 14.535819
+Website: http://www.favoriteroominnola.com/
+Email: 
+
+5813. Ghe Kale' Resort
+ID: 9fe52000-dae4-43bc-b846-5afba1009bf7
+Slug: ghe-kale-resort-avella
+Nome: Ghe Kale' Resort
+Comune / Provincia: Avella
+Indirizzo: Via Tommaso Vitale, 35, 80030 San Paolo Bel Sito NA
+Coordinate: Lat 40.913351, Lng 14.549482
+Website: http://www.ghekale.it/
+Email: 
+
+5814. Heritage Room
+ID: e8be34c5-6ff6-4681-aae3-9c87cba99424
+Slug: heritage-room-avella
+Nome: Heritage Room
+Comune / Provincia: Avella
+Indirizzo: Via On. Francesco Napolitano, 229, 80035 Nola NA
+Coordinate: Lat 40.933144, Lng 14.528215
+Website: —
+Email: 
+
+5815. Hotel Privacy
+ID: e9eadc60-bd06-4ba2-bfd7-d229edcc98a7
+Slug: hotel-privacy-avella
+Nome: Hotel Privacy
+Comune / Provincia: Avella
+Indirizzo: Via de Siervo, 4, 80035 Nola NA
+Coordinate: Lat 40.879046, Lng 14.486023
+Website: http://www.hotelprivacy.it/
+Email: 
+
+5816. Hotel XBusiness
+ID: 75a3024c-dc9a-4d21-b5d1-6106f171bd0c
+Slug: hotel-xbusiness-avella
+Nome: Hotel XBusiness
+Comune / Provincia: Avella
+Indirizzo: V. Polveriera, 80035 Nola NA
+Coordinate: Lat 40.928381, Lng 14.508551
+Website: https://www.hotelxb.com/
+Email: 
+
+5817. Il Giardino delle Ninfee
+ID: 5254f3b0-1d10-488c-bc62-a717beb0a9d3
+Slug: il-giardino-delle-ninfee-avella
+Nome: Il Giardino delle Ninfee
+Comune / Provincia: Avella
+Indirizzo: Via Giacomo Imbroda, 1, 80035 Nola NA
+Coordinate: Lat 40.922749, Lng 14.528442
+Website: http://ilgiardino-delleninfee.com.es/
+Email: 
+
+5818. Nola Boutique Hotel
+ID: 0fa8bed5-fff3-4c9b-9819-acca37f066b5
+Slug: nola-boutique-hotel-avella
+Nome: Nola Boutique Hotel
+Comune / Provincia: Avella
+Indirizzo: Via Taranto, 36, 80035 Nola NA
+Coordinate: Lat 40.932215, Lng 14.509284
+Website: http://www.nolaboutiquehotel.it/
+Email: 
+
+5819. Villa Palma - Appartamenti per Soggiorni
+ID: 2d4a7a51-bf77-48a4-b08e-0ddf7a842acc
+Slug: villa-palma-appartamenti-per-soggiorni-avella
+Nome: Villa Palma - Appartamenti per Soggiorni
+Comune / Provincia: Avella
+Indirizzo: Via Alcide De Gasperi, 3, 83021 Avella AV
+Coordinate: Lat 40.958076, Lng 14.601669
+Website: http://www.lavillapalma.com/
+Email: 
+
+5820. Villa Vetrano
+ID: 120d974a-80fc-48f8-87b0-b7a34f1eb62c
+Slug: villa-vetrano-avella
+Nome: Villa Vetrano
+Comune / Provincia: Avella
+Indirizzo: Via S. Donato, 8, 80030 Cimitile NA
+Coordinate: Lat 40.948025, Lng 14.522253
+Website: http://villavetrano.holiduhost.com/
+Email: 
+
+5821. X Hotel
+ID: 278d8769-045e-4521-a0d8-64e37417be9f
+Slug: x-hotel-avella
+Nome: X Hotel
+Comune / Provincia: Avella
+Indirizzo: Via Crocefisso, 25, 80039 Saviano NA
+Coordinate: Lat 40.900802, Lng 14.513344
+Website: https://www.xhotelnapoli.it/
+Email: 
+
+5822. Affittacamera Da Felice
+ID: 59aca6a2-365b-45d7-baa1-681a80ec3123
+Slug: affittacamera-da-felice-avellino
+Nome: Affittacamera Da Felice
+Comune / Provincia: Avellino
+Indirizzo: Via Ferrari Canale, 13, 83028 Canale AV
+Coordinate: Lat 40.858138, Lng 14.849526
+Website: http://affittacamera-da-felice.com.es/
+Email: 
+
+5823. B&b Casicarillo 800
+ID: ed7c73bb-4e0a-4ead-89d6-6cc7198872cb
+Slug: b-b-casicarillo-800-avellino
+Nome: B&b Casicarillo 800
+Comune / Provincia: Avellino
+Indirizzo: Vicolo Casicarillo, 34, 83028 Serino AV
+Coordinate: Lat 40.854429, Lng 14.871918
+Website: —
+Email: 
+
+5824. B&B Torrette
+ID: 2a0b89d6-4382-4b10-a60f-00946aff549f
+Slug: b-b-torrette-avellino
+Nome: B&B Torrette
+Comune / Provincia: Avellino
+Indirizzo: Via Nazionale, 148, 83013 Mercogliano AV
+Coordinate: Lat 40.906729, Lng 14.759609
+Website: https://www.lacontessahotel.com/
+Email: 
+
+5825. Bed & Breakfast Villa Antinea
+ID: d7ed52e1-61fe-4e28-bf02-79ef53c3fd4f
+Slug: bed-breakfast-villa-antinea-avellino
+Nome: Bed & Breakfast Villa Antinea
+Comune / Provincia: Avellino
+Indirizzo: Via dei Due Principati, 36, 83100 Avellino AV
+Coordinate: Lat 40.905854, Lng 14.798495
+Website: http://www.villaantinea.it/
+Email: 
+
+5826. Il Posto Accanto
+ID: 07b5999a-5d16-4eb8-9634-80794fc49d6f
+Slug: il-posto-accanto-avellino
+Nome: Il Posto Accanto
+Comune / Provincia: Avellino
+Indirizzo: Via Brigata Avellino, 21, 83100 Avellino AV
+Coordinate: Lat 40.91074, Lng 14.774735
+Website: https://ilpostoaccanto.it/
+Email: 
+
+5827. Vea Resort Hotel
+ID: 44107cc1-1a6d-4372-a160-9eb8045b58c0
+Slug: vea-resort-hotel-avellino
+Nome: Vea Resort Hotel
+Comune / Provincia: Avellino
+Indirizzo: Via S. Gerardo Maiella, 84085 Ciorani SA
+Coordinate: Lat 40.80612, Lng 14.734786
+Website: https://www.vearesort.it/
+Email: 
+
+5828. Villa Masullo Bed & Breakfast
+ID: cd5e0411-caee-419f-a5c0-d2976f30a0c7
+Slug: villa-masullo-bed-breakfast-avellino
+Nome: Villa Masullo Bed & Breakfast
+Comune / Provincia: Avellino
+Indirizzo: Via Sala, 77, 83013 Torelli-torrette AV
+Coordinate: Lat 40.906441, Lng 14.742368
+Website: http://villa-masullo.com.es/
+Email: 
+
+5829. Albergo Piazzatorre
+ID: 65ad6de6-c972-4107-8c1b-c2375847d6c8
+Slug: albergo-piazzatorre-averara
+Nome: Albergo Piazzatorre
+Comune / Provincia: Averara
+Indirizzo: Via Centro, 21, 24010 Piazzatorre BG
+Coordinate: Lat 45.990011, Lng 9.681004
+Website: http://www.albergopiazzatorre.it/
+Email: 
+
+5830. Albergo Ristorante Coira
+ID: f9c3f3ef-5431-4bfc-a90a-36cac6daa864
+Slug: albergo-ristorante-coira-averara
+Nome: Albergo Ristorante Coira
+Comune / Provincia: Averara
+Indirizzo: Via Muggiasca, 9, 24010 Colla-muggiasca BG
+Coordinate: Lat 45.983241, Lng 9.623495
+Website: http://www.albergocoira.com/
+Email: 
+
+5831. Albergo Ristorante Luisella
+ID: e07ce90b-2967-4cd1-a3c0-a57bd4291cdc
+Slug: albergo-ristorante-luisella-averara
+Nome: Albergo Ristorante Luisella
+Comune / Provincia: Averara
+Indirizzo: Viale Europa, 12, 24017 Serina BG
+Coordinate: Lat 45.884304, Lng 9.741625
+Website: https://www.albergoristoranteluisella.com/
+Email: 
+
+5832. Albergo Ristorante Pizzo Tre Signori
+ID: e98d1fdb-71ec-4d14-ac9e-6bd351af7cf8
+Slug: albergo-ristorante-pizzo-tre-signori-averara
+Nome: Albergo Ristorante Pizzo Tre Signori
+Comune / Provincia: Averara
+Indirizzo: Via Comm Pietro Busi, 25, 24010 Valtorta BG
+Coordinate: Lat 45.97729, Lng 9.53556
+Website: https://www.albergotresignori.it/
+Email: 
+
+5833. Albergo Ristorante Sole
+ID: 22a1ca77-1ef5-462d-aabd-5e3f8014717f
+Slug: albergo-ristorante-sole-averara
+Nome: Albergo Ristorante Sole
+Comune / Provincia: Averara
+Indirizzo: Via Dottore Giuseppe Bonandrini, 4, 24010 Mezzoldo BG
+Coordinate: Lat 46.012896, Lng 9.664857
+Website: https://www.albergosolemezzoldo.com/
+Email: 
+
+5834. B&B 22 - Santa Brigida
+ID: 9ad684b5-9fed-4ea7-ad6e-5d6f986237e6
+Slug: b-b-22-santa-brigida-averara
+Nome: B&B 22 - Santa Brigida
+Comune / Provincia: Averara
+Indirizzo: Via Taleggio, 22, 24010 Santa Brigida BG
+Coordinate: Lat 45.991793, Lng 9.625026
+Website: http://www.beb22santabrigida.com/
+Email: 
+
+5835. B&B Luna
+ID: e84f0968-37ef-44aa-b533-ce2f2c95b358
+Slug: b-b-luna-averara
+Nome: B&B Luna
+Comune / Provincia: Averara
+Indirizzo: Via P. Boselli, 48, 24015 San Giovanni Bianco BG
+Coordinate: Lat 45.870356, Lng 9.652047
+Website: —
+Email: 
+
+5836. Bed and Breakfast - Santa Brigida
+ID: 481a83c9-9d07-4659-b812-db4e93369734
+Slug: bed-and-breakfast-santa-brigida-averara
+Nome: Bed and Breakfast - Santa Brigida
+Comune / Provincia: Averara
+Indirizzo: Via Monticello, 4, 24010 Colla-muggiasca BG
+Coordinate: Lat 45.984164, Lng 9.619988
+Website: http://www.bed-santabrigida.it/
+Email: 
+
+5837. Hotel Adler
+ID: e5858cdf-8595-4b6e-89f0-c870c14f071b
+Slug: hotel-adler-averara
+Nome: Hotel Adler
+Comune / Provincia: Averara
+Indirizzo: Via Ronchi, 65, 24010 Foppolo BG
+Coordinate: Lat 46.042742, Lng 9.757881
+Website: https://www.hoteladler-foppolo.it/
+Email: 
+
+5838. Hotel Corona
+ID: 9b2eb17d-0e6c-4b96-b6b0-817b81b04b54
+Slug: hotel-corona-averara
+Nome: Hotel Corona
+Comune / Provincia: Averara
+Indirizzo: Via S. Rocco, 8, 24010 Branzi BG
+Coordinate: Lat 46.00076, Lng 9.758241
+Website: http://www.hotel-corona.info/
+Email: 
+
+5839. HOTEL CRISTALLO di VENFRA srl
+ID: 28b0db95-2066-40e8-9190-9e524126a9ee
+Slug: hotel-cristallo-di-venfra-srl-averara
+Nome: HOTEL CRISTALLO di VENFRA srl
+Comune / Provincia: Averara
+Indirizzo: 53, V. Ronchi, 24010 Foppolo BG
+Coordinate: Lat 46.042341, Lng 9.757282
+Website: http://www.htlcristallo.com/
+Email: 
+
+5840. Hotel Miramonti
+ID: aca81bbc-c6f6-4e65-b8e8-4789c9eda3f7
+Slug: hotel-miramonti-averara
+Nome: Hotel Miramonti
+Comune / Provincia: Averara
+Indirizzo: Via Giuseppe Verdi, 2, 24017 Serina BG
+Coordinate: Lat 45.874041, Lng 9.718095
+Website: https://hotel-miramonti.migliorhotel.top/
+Email: 
+
+5841. Hotel Ristorante Pedretti
+ID: 263cc5f6-3793-414a-8d6c-9e997192f68f
+Slug: hotel-ristorante-pedretti-averara
+Nome: Hotel Ristorante Pedretti
+Comune / Provincia: Averara
+Indirizzo: Via Umberto I, 23, 24010 Branzi BG
+Coordinate: Lat 46.002778, Lng 9.759167
+Website: http://www.hotelpedretti.com/
+Email: 
+
+5842. Hotel Ristorante Pizzeria Molinari
+ID: 745fcc96-3680-4681-b20c-76fc69c43c3f
+Slug: hotel-ristorante-pizzeria-molinari-averara
+Nome: Hotel Ristorante Pizzeria Molinari
+Comune / Provincia: Averara
+Indirizzo: z, Via Cari a Tutti, 34, 24010 Piazzolo BG
+Coordinate: Lat 45.980103, Lng 9.670804
+Website: http://www.albergoristorantemolinari.it/contatti.html
+Email: 
+
+5843. Locanda al Lago
+ID: 592dd37d-6d73-42ac-b4ec-31a6a2b6a1f3
+Slug: locanda-al-lago-averara
+Nome: Locanda al Lago
+Comune / Provincia: Averara
+Indirizzo: Via del Ponte, 1, 24010 Cassiglio BG
+Coordinate: Lat 45.966636, Lng 9.610824
+Website: https://locanda-al-lago.migliorhotel.top/
+Email: 
+
+5844. Ostello Brembo - Camere e relax
+ID: 7cff75a7-761c-4482-85e9-634321dc118c
+Slug: ostello-brembo-camere-e-relax-averara
+Nome: Ostello Brembo - Camere e relax
+Comune / Provincia: Averara
+Indirizzo: Via Orbrembo, 20, 24010 Camerata Cornello BG
+Coordinate: Lat 45.896473, Lng 9.656383
+Website: https://www.ostellobrembo.com/camere
+Email: 
+
+5845. Ristorante Albergo Pierino Di Stracchi Daniela
+ID: 05a3af0c-dcd7-4f76-8008-bb24af46b47d
+Slug: ristorante-albergo-pierino-di-stracchi-daniela-averara
+Nome: Ristorante Albergo Pierino Di Stracchi Daniela
+Comune / Provincia: Averara
+Indirizzo: Via Roma, 16, 24010 Cusio BG
+Coordinate: Lat 45.990843, Lng 9.60267
+Website: https://ristorante-albergo-pierino-di-stracchi-daniela.camerainitalia.top/
+Email: 

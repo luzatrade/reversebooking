@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+12251. Cascina Vedu
+ID: c16b7116-0d96-44f4-83c7-1aba4acf83b6
+Slug: cascina-vedu-calco
+Nome: Cascina Vedu
+Comune / Provincia: Calco
+Indirizzo: Via Salvador Allende, 10, 23807 Merate LC
+Coordinate: Lat 45.703926, Lng 9.419299
+Website: https://italyit.cyou/cascina-vedu-dh7f50
+Email: 
+
+12252. Hotel Locanda Leonardo
+ID: 7d6c42a9-5a3e-4b18-8747-991137cf7133
+Slug: hotel-locanda-leonardo-calco
+Nome: Hotel Locanda Leonardo
+Comune / Provincia: Calco
+Indirizzo: Via Padri Serviti, 1, 23801 Calolziocorte LC
+Coordinate: Lat 45.790638, Lng 9.431093
+Website: http://www.locandaleonardo.it/
+Email: 
+
+12253. Locanda Al Bersò
+ID: b5bc29ca-7893-4e62-888b-ced2aba2954d
+Slug: locanda-al-berso-calco
+Nome: Locanda Al Bersò
+Comune / Provincia: Calco
+Indirizzo: Via Nazionale, 25, 23885 Calco LC
+Coordinate: Lat 45.721986, Lng 9.412768
+Website: https://www.alberso.it/
+Email: 
+
+12254. Das Badl Smart Retreat
+ID: aaf6d028-7c4b-41b5-afe2-cf9210c3d389
+Slug: das-badl-smart-retreat-caldaro-sulla-strada-del-vino-ka
+Nome: Das Badl Smart Retreat
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Pozzo, 34, 39052 Caldaro BZ
+Coordinate: Lat 46.413056, Lng 11.231944
+Website: http://www.hotelbadl.com/
+Email: 
+
+12255. Das Kaltern
+ID: a09ae2c0-150d-44ae-90bb-bd674ee0e6bb
+Slug: das-kaltern-caldaro-sulla-strada-del-vino-ka
+Nome: Das Kaltern
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Pianizza di Sopra, 65, 39052 Caldaro BZ
+Coordinate: Lat 46.434944, Lng 11.247145
+Website: https://easyit.cyou/das-kaltern-wr76xk
+Email: 
+
+12256. Das Wanda - 4 Sterne B&B Adults Only Hotel
+ID: bff1a79f-f073-4dba-9729-b05eb92494b7
+Slug: das-wanda-4-sterne-b-b-adults-only-hotel-caldaro-sulla-strada-del-vino-ka
+Nome: Das Wanda - 4 Sterne B&B Adults Only Hotel
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Via Garnellen, 18, 39052 Caldaro BZ
+Coordinate: Lat 46.427436, Lng 11.243887
+Website: http://www.das-wanda.com/
+Email: 
+
+12257. Designhotel Gius la Residenza
+ID: 6dc779ad-0e9b-438c-9dfe-019fdb0e21b4
+Slug: designhotel-gius-la-residenza-caldaro-sulla-strada-del-vino-ka
+Nome: Designhotel Gius la Residenza
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Trutsch, 01, 39052 Caldaro BZ
+Coordinate: Lat 46.409505, Lng 11.247663
+Website: http://www.designhotel-kaltern.com/
+Email: 
+
+12258. Frühstückspension Roter Adler
+ID: 2d92601a-72b1-4029-a6e6-20bd9466f8b8
+Slug: fruhstuckspension-roter-adler-caldaro-sulla-strada-del-vino-ka
+Nome: Frühstückspension Roter Adler
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Via dell Oro, 4, 39052 Caldaro BZ
+Coordinate: Lat 46.412762, Lng 11.245929
+Website: http://www.roter-adler.com/
+Email: 
+
+12259. Haus Marlene
+ID: 0816376f-6f5d-47f2-8a02-914b0f2dca4c
+Slug: haus-marlene-caldaro-sulla-strada-del-vino-ka
+Nome: Haus Marlene
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Via Heppenheim, 42, 39052 Caldaro sulla strada del Vino BZ
+Coordinate: Lat 46.421611, Lng 11.230149
+Website: https://www.hausmarlene.it/de/kontakt.php
+Email: 
+
+12260. Hotel Goldener Stern
+ID: a0734908-050d-4204-a9aa-158dc94b8704
+Slug: hotel-goldener-stern-caldaro-sulla-strada-del-vino-ka
+Nome: Hotel Goldener Stern
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Via Andreas Hofer Strasse, 28, 39052 Caldaro sulla strada del Vino BZ
+Coordinate: Lat 46.414031, Lng 11.246006
+Website: http://www.goldener-stern.it/
+Email: 
+
+12261. Hotel Malga
+ID: c24b8e44-2b29-4cf5-b173-140613e763a8
+Slug: hotel-malga-caldaro-sulla-strada-del-vino-ka
+Nome: Hotel Malga
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Malga, 7/c, 39052 Caldaro BZ
+Coordinate: Lat 46.4055, Lng 11.23212
+Website: https://www.hotel-malga.com/
+Email: 
+
+12262. Hotel Seegarten
+ID: 2a63855c-c8f2-4e44-9eb4-fd50e0df7327
+Slug: hotel-seegarten-caldaro-sulla-strada-del-vino-ka
+Nome: Hotel Seegarten
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: St. Josef am See 17, 39052 Caldaro BZ
+Coordinate: Lat 46.383909, Lng 11.258738
+Website: https://www.seegarten.it/en/hotel
+Email: 
+
+12263. Hotel Torgglhof Kaltern
+ID: b653864d-432d-4de0-8268-c363debc10f3
+Slug: hotel-torgglhof-kaltern-caldaro-sulla-strada-del-vino-ka
+Nome: Hotel Torgglhof Kaltern
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Via Saltner, 30, 39052 Caldaro sulla strada del Vino BZ
+Coordinate: Lat 46.420422, Lng 11.244828
+Website: https://www.torgglhof.it/?utm_source=google&utm_medium=organic&utm_campaign=MyBusiness_Torgglhof
+Email: 
+
+12264. Hotel Weingarten
+ID: 65586f88-29f6-4096-9a41-a2add284220a
+Slug: hotel-weingarten-caldaro-sulla-strada-del-vino-ka
+Nome: Hotel Weingarten
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Località Pianizza di Sotto, 9, 39052 Caldaro BZ
+Coordinate: Lat 46.425215, Lng 11.252691
+Website: http://www.hotel-weingarten.it/
+Email: 
+
+12265. Im Zeitlauf - life with nature
+ID: 4bd2f752-62d3-425e-821e-46e2206ec17a
+Slug: im-zeitlauf-life-with-nature-caldaro-sulla-strada-del-vino-ka
+Nome: Im Zeitlauf - life with nature
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Via Santa Maria, 6D, 39052 Caldaro sulla strada del Vino BZ
+Coordinate: Lat 46.418594, Lng 11.230319
+Website: https://imzeitlauf.com/
+Email: 
+
+12266. Kalterer See Hof
+ID: f9d49c5d-f8e2-40f8-acbf-aaec0030bfd9
+Slug: kalterer-see-hof-caldaro-sulla-strada-del-vino-ka
+Nome: Kalterer See Hof
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: St. Josef am See 32b, S. Giuseppe al Lago, 32/b, 39052 Caldaro sulla strada del Vino BZ
+Coordinate: Lat 46.384825, Lng 11.252846
+Website: http://www.kaltererseehof.com/
+Email: 
+
+12267. Kaltern am See
+ID: 75a1fbc5-eefa-427d-a06c-1d3d15948b81
+Slug: kaltern-am-see-caldaro-sulla-strada-del-vino-ka
+Nome: Kaltern am See
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Piazza Principale, 10, 39052 Caldaro sulla strada del Vino BZ
+Coordinate: Lat 46.414251, Lng 11.245485
+Website: —
+Email: 
+
+12268. Pensione Latemar
+ID: 88d18afd-4011-4fa2-8e64-b8720f83e1ed
+Slug: pensione-latemar-caldaro-sulla-strada-del-vino-ka
+Nome: Pensione Latemar
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Via Europa, 18, 39052 Caldaro BZ
+Coordinate: Lat 46.408966, Lng 11.238016
+Website: http://www.pensionlatemar.com/
+Email: 
+
+12269. Residence La Terrazza
+ID: 58a5cc4f-8953-44d5-9bd6-11c8c6816884
+Slug: residence-la-terrazza-caldaro-sulla-strada-del-vino-ka
+Nome: Residence La Terrazza
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Barleiter Weg, 14/1. Stock, 39052 Kaltern an der Weinstraße., Autonome Provinz Bozen - Südtirol
+Coordinate: Lat 46.40969, Lng 11.241283
+Website: https://www.apartment-laterrazza.com/
+Email: 
+
+12270. Villa Weingarten
+ID: 598c6ba6-4619-462b-816c-9cc68dffc5d7
+Slug: villa-weingarten-caldaro-sulla-strada-del-vino-ka
+Nome: Villa Weingarten
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Vicolo di Sotto, 24, 39052 Caldaro sulla strada del Vino BZ
+Coordinate: Lat 46.415932, Lng 11.241948
+Website: https://www.villaweingarten.it/
+Email: 
+
+12271. WEINGUT GARNI HOTEL KLOSTERHOF@
+ID: 2e536c3f-1b4a-43ab-a0c8-dc8d44bf0ab8
+Slug: weingut-garni-hotel-klosterhof-caldaro-sulla-strada-del-vino-ka
+Nome: WEINGUT GARNI HOTEL KLOSTERHOF@
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Via Klavenz, 40, 39052 Caldaro sulla strada del Vino BZ
+Coordinate: Lat 46.420328, Lng 11.246619
+Website: http://www.klosterhof.it/
+Email: 
+
+12272. Weisses Rössl Kaltern
+ID: d49a613b-90b5-40e8-ad15-9f01dd07f4e6
+Slug: weisses-rossl-kaltern-caldaro-sulla-strada-del-vino-ka
+Nome: Weisses Rössl Kaltern
+Comune / Provincia: Caldaro sulla strada del vino/Kaltern an der Weinstra�e
+Indirizzo: Piazza Principale, 11, 39052 Caldaro sulla strada del Vino BZ
+Coordinate: Lat 46.413064, Lng 11.245926
+Website: http://www.weisses-roessl-kaltern.com/
+Email: 
+
+12273. A Casa Del Contadino
+ID: 3e3b6931-61a4-41b0-a404-d04f21982740
+Slug: a-casa-del-contadino-caldarola
+Nome: A Casa Del Contadino
+Comune / Provincia: Caldarola
+Indirizzo: Contrada San, Via Domenico Sbardellati, 62020 Caldarola MC
+Coordinate: Lat 43.127018, Lng 13.216992
+Website: http://www.acasadelcontadino.it/
+Email: 
+
+12274. B&B Sole e Luna
+ID: c064e524-64cb-4a3c-a08f-f594dadb1faa
+Slug: b-b-sole-e-luna-caldarola
+Nome: B&B Sole e Luna
+Comune / Provincia: Caldarola
+Indirizzo: Via Case Sparse, 25, 62020 Caccamo sul Lago, MC
+Coordinate: Lat 43.151939, Lng 13.219574
+Website: —
+Email: 
+
+12275. Casa Tre Querce Italy
+ID: a815b94d-6328-4783-913e-aad3946259f7
+Slug: casa-tre-querce-italy-caldarola
+Nome: Casa Tre Querce Italy
+Comune / Provincia: Caldarola
+Indirizzo: Contrada Cete, 37, 62020 Colmurano MC
+Coordinate: Lat 43.172004, Lng 13.34783
+Website: http://www.casatrequerceitaly.com/
+Email: 
+
+12276. La Locanda della Rocca
+ID: 0087527b-23b3-452e-90d8-81beb048fd4f
+Slug: la-locanda-della-rocca-caldarola
+Nome: La Locanda della Rocca
+Comune / Provincia: Caldarola
+Indirizzo: 62026 Rocca Colonnalta MC
+Coordinate: Lat 43.063467, Lng 13.259249
+Website: https://www.facebook.com/LocandaDellaRocca
+Email: 
+
+12277. Mazzamurello B&B
+ID: d5d253fb-551f-43e5-a700-89ac88c59559
+Slug: mazzamurello-b-b-caldarola
+Nome: Mazzamurello B&B
+Comune / Provincia: Caldarola
+Indirizzo: Contrada Acquaviva, 62020 Caldarola MC
+Coordinate: Lat 43.128608, Lng 13.236265
+Website: http://www.mazzamurello.it/
+Email: 
+
+12278. Ristorante HotelTesoro
+ID: 55880f2e-547e-443e-a690-f8b3456b6a1e
+Slug: ristorante-hoteltesoro-caldarola
+Nome: Ristorante HotelTesoro
+Comune / Provincia: Caldarola
+Indirizzo: Via Annibal Caro, 62020 Caldarola MC
+Coordinate: Lat 43.142529, Lng 13.220896
+Website: —
+Email: 
+
+12279. B&B Il Borghetto di DURAZZO Paola Calderara di Reno (Bo)
+ID: 7a5c5899-43fc-4398-9552-69c68f1819d2
+Slug: b-b-il-borghetto-di-durazzo-paola-calderara-di-r-calderara-di-reno
+Nome: B&B Il Borghetto di DURAZZO Paola Calderara di Reno (Bo)
+Comune / Provincia: Calderara di Reno
+Indirizzo: Via Longarola, 84, 40012 Calderara di Reno BO
+Coordinate: Lat 44.57524, Lng 11.306042
+Website: —
+Email: 
+
+12280. B&B Il Giardino
+ID: 533c0ccd-e33a-4db9-8f7c-4a2ec64cf5a6
+Slug: b-b-il-giardino-calderara-di-reno
+Nome: B&B Il Giardino
+Comune / Provincia: Calderara di Reno
+Indirizzo: Via Aldina, 45, 40012 San Vitale Grande BO
+Coordinate: Lat 44.545468, Lng 11.306752
+Website: http://beb.it/ilgiardinolippo
+Email: 
+
+12281. B&B SANTA CECILIA
+ID: efc7816f-a6a0-4edb-873b-a3e57b954158
+Slug: b-b-santa-cecilia-calderara-di-reno
+Nome: B&B SANTA CECILIA
+Comune / Provincia: Calderara di Reno
+Indirizzo: Via Prati, 23, 40012 Calderara di Reno BO
+Coordinate: Lat 44.594673, Lng 11.276467
+Website: https://bb-santa-cecilia.camerainitalia.top/
+Email: 
+
+12282. Bianca Room&Breakfast
+ID: 7c4f6892-bce2-4057-abd0-6052cf59f6da
+Slug: bianca-room-breakfast-calderara-di-reno
+Nome: Bianca Room&Breakfast
+Comune / Provincia: Calderara di Reno
+Indirizzo: Via Surrogazione, 52, 40012 Lippo BO
+Coordinate: Lat 44.534538, Lng 11.300984
+Website: https://beb.it/p.cfm?s=5-69866
+Email: 
+
+12283. Giardino di Mia
+ID: 99a5d303-be91-4238-95c4-0e0d8f218b2c
+Slug: giardino-di-mia-calderara-di-reno
+Nome: Giardino di Mia
+Comune / Provincia: Calderara di Reno
+Indirizzo: Via Roma, 108, 40012 Calderara di Reno BO
+Coordinate: Lat 44.554478, Lng 11.266423
+Website: http://www.giardinodimia.com/
+Email: 
+
+12284. Hotel Brianza
+ID: a451dde8-a135-4284-8e5a-5c2b456cf40e
+Slug: hotel-brianza-calderara-di-reno
+Nome: Hotel Brianza
+Comune / Provincia: Calderara di Reno
+Indirizzo: Via Don Minzoni, 16, 40012 Calderara di Reno BO
+Coordinate: Lat 44.537978, Lng 11.304807
+Website: https://www.hotel-brianza.it/
+Email: 
+
+12285. Hotel del Borgo
+ID: ea4fb7f9-89b2-40f9-afdb-7888d7c5fabf
+Slug: hotel-del-borgo-calderara-di-reno
+Nome: Hotel del Borgo
+Comune / Provincia: Calderara di Reno
+Indirizzo: V. Marco Emilio Lepido, 195, 40132 Bologna BO
+Coordinate: Lat 44.520468, Lng 11.266775
+Website: http://www.hoteldelborgo.it/
+Email: 

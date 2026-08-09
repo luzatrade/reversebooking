@@ -1,0 +1,251 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+17011. Tropea Boutique Hotel
+ID: dc84aac0-a3d2-4e86-83d9-402a9c9daa1a
+Slug: tropea-boutique-hotel-tropea
+Nome: Tropea Boutique Hotel
+Comune / Provincia: Tropea
+Indirizzo: Via Libertà, 52, 89861 Tropea VV, Italia
+Coordinate: Lat 38.676603, Lng 15.89346
+Website: https://www.tropeaboutiquehotel.com/
+Email: info@tropeaboutiquehotel.com
+
+17012. Tropea Casa Scirocco CIN IT102044B4EECW6KF8
+ID: e1c9ad49-e713-4209-acc0-7dbce3f1ee9f
+Slug: tropea-casa-scirocco-cin-it102044b4eecw6kf8-tropea
+Nome: Tropea Casa Scirocco CIN IT102044B4EECW6KF8
+Comune / Provincia: Tropea
+Indirizzo: contrada barricello snc, 89861 Tropea VV, Italia
+Coordinate: Lat 38.665861, Lng 15.885842
+Website: http://tropeacasascirocco.it/
+Email: tropeacasascirocco@gmail.com
+
+17013. Villa Antica Tropea
+ID: 9ae47b4a-a75a-435d-9b28-78535c6cb89e
+Slug: villa-antica-tropea-tropea
+Nome: Villa Antica Tropea
+Comune / Provincia: Tropea
+Indirizzo: Via Pietro Ruffo di Calabria, 37, 89861 Tropea VV, Italia
+Coordinate: Lat 38.676067, Lng 15.897408
+Website: http://www.villaanticatropea.it/
+Email: info@villaanticatropea.it
+
+17014. Villa Garden Tropea
+ID: 6a85b917-47ea-4327-821c-e791fb4f8807
+Slug: villa-garden-tropea-tropea
+Nome: Villa Garden Tropea
+Comune / Provincia: Tropea
+Indirizzo: Via Cesare Battisti, 110, 89862 Gasponi VV, Italia
+Coordinate: Lat 38.66284, Lng 15.904983
+Website: http://www.villagarden.eu/
+Email: info@villagarden.eu
+
+17015. Albergo S. Domenico
+ID: 73a4ae80-9c06-439e-8729-e283449551a1
+Slug: albergo-s-domenico-urbino
+Nome: Albergo S. Domenico
+Comune / Provincia: Urbino
+Indirizzo: Piazza Rinascimento, 3, 61029 Urbino PU
+Coordinate: Lat 43.724053, Lng 12.637225
+Website: http://www.viphotels.it/
+Email: 
+
+17016. Domus Urbino
+ID: 5a72b300-f599-4d82-90b7-4c38532c6df1
+Slug: domus-urbino-urbino
+Nome: Domus Urbino
+Comune / Provincia: Urbino
+Indirizzo: Piazza Rinascimento, 2, 61029 Urbino PU
+Coordinate: Lat 43.723903, Lng 12.637127
+Website: https://domus-urbino.bedsandhotels.com/
+Email: 
+
+17017. Hotel Bonconte
+ID: db36a275-04ff-46e5-828c-ed3a332a4ea2
+Slug: hotel-bonconte-urbino
+Nome: Hotel Bonconte
+Comune / Provincia: Urbino
+Indirizzo: Via delle Mura, 28, 61029 Urbino PU
+Coordinate: Lat 43.726642, Lng 12.638396
+Website: http://www.viphotels.it/ita/hotel-pesaro_bonconte.asp
+Email: bonconte@viphotels.it
+
+17018. Hotel Raffaello - Temporaneamente chiuso
+ID: 1128f297-c7ec-4e47-b2bb-4052eed2a654
+Slug: hotel-raffaello-temporaneamente-chiuso-urbino
+Nome: Hotel Raffaello - Temporaneamente chiuso
+Comune / Provincia: Urbino
+Indirizzo: Via Santa Margherita, 40, 61029 Urbino PU
+Coordinate: Lat 43.72672, Lng 12.63501
+Website: http://www.albergoraffaello.com/
+Email: 
+
+17019. Palazzo Giusti Suites and Spa Urbino
+ID: af8429d7-60d1-483c-8fa3-e2fbafa00812
+Slug: palazzo-giusti-suites-and-spa-urbino-urbino
+Nome: Palazzo Giusti Suites and Spa Urbino
+Comune / Provincia: Urbino
+Indirizzo: Via Vittorio Veneto, 37, 61029 Urbino PU
+Coordinate: Lat 43.725706, Lng 12.637122
+Website: https://www.palazzogiustiurbino.com/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness
+Email: info@palazzogiustiurbino.com
+
+17020. Villa Liberty Urbino
+ID: d0428917-bec6-40a3-a864-63f11c9a406b
+Slug: villa-liberty-urbino-urbino
+Nome: Villa Liberty Urbino
+Comune / Provincia: Urbino
+Indirizzo: Viale Antonio Gramsci, 22, 61029 Urbino PU
+Coordinate: Lat 43.729356, Lng 12.632712
+Website: http://www.villalibertyurbino.com/
+Email: 
+
+17021. BoutiqueHOTEL Donauwalzer
+ID: 95b9f3a4-11de-4e8a-98b8-192643deef35
+Slug: boutiquehotel-donauwalzer-vienna
+Nome: BoutiqueHOTEL Donauwalzer
+Comune / Provincia: Vienna
+Indirizzo: Hernalser Gürtel 27, 1170 Wien
+Coordinate: Lat 48.215, Lng 16.340278
+Website: https://www.donauwalzer.at/?utm_source=google&utm_medium=organic&utm_campaign=Knowledge_Graph
+Email: 
+
+17022. Flemings Selection Hotel Wien-City
+ID: aae27123-696a-4677-bb37-d8264be04f7b
+Slug: flemings-selection-hotel-wien-city-vienna
+Nome: Flemings Selection Hotel Wien-City
+Comune / Provincia: Vienna
+Indirizzo: Josefstädter Str. 10-12, 1080 Wien
+Coordinate: Lat 48.209402, Lng 16.353446
+Website: https://www.flemings-hotels.com/wien-city-selection-hotel
+Email: info@flemings-hotels.com
+
+17023. Holiday Inn - the niu, Franz Vienna, an IHG Hotel
+ID: dea36fb3-d8a2-475e-a66a-30455c571058
+Slug: holiday-inn-the-niu-franz-vienna-an-ihg-hotel-vienna
+Nome: Holiday Inn - the niu, Franz Vienna, an IHG Hotel
+Comune / Provincia: Vienna
+Indirizzo: Dresdner Str. 111, 1200 Wien
+Coordinate: Lat 48.231159, Lng 16.386495
+Website: https://www.ihg.com/holiday-inn-the-niu/hotels/gb/en/vienna/viefa/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-AT-_-VIEFA
+Email: 
+
+17024. Hotel Am Parkring
+ID: 60fb4227-5f8f-4901-964d-e011b972bd65
+Slug: hotel-am-parkring-vienna
+Nome: Hotel Am Parkring
+Comune / Provincia: Vienna
+Indirizzo: Parkring 12, 1010 Wien
+Coordinate: Lat 48.205346, Lng 16.377945
+Website: https://www.hotelamparkring.wien/
+Email: 
+
+17025. Hotel Astoria Vienna, Curio Collection by Hilton
+ID: 728c14d0-fb3c-494e-a6b7-86cc6f794b19
+Slug: hotel-astoria-vienna-curio-collection-by-hilton-vienna
+Nome: Hotel Astoria Vienna, Curio Collection by Hilton
+Comune / Provincia: Vienna
+Indirizzo: Kärntner Strasse 32-34, Führichgasse 1, 1010 Wien
+Coordinate: Lat 48.204674, Lng 16.370351
+Website: https://www.hilton.com/en/hotels/vieasqq-hotel-astoria-vienna/?SEO_id=GMB-EMEA-QQ-VIEASQQ
+Email: 
+
+17026. Hotel Das Tigra
+ID: 5014ac42-9e0e-412f-8b6f-53b919096a74
+Slug: hotel-das-tigra-vienna
+Nome: Hotel Das Tigra
+Comune / Provincia: Vienna
+Indirizzo: Tiefer Graben 14-20, 1010 Wien
+Coordinate: Lat 48.212344, Lng 16.368236
+Website: https://www.hotel-tigra.at/?utm_source=google&utm_medium=organic&utm_campaign=Knowledge_Graph
+Email: info@hotel-tigra.at
+
+17027. Hotel Grand Ferdinand Wien
+ID: 9490f469-3517-4e2b-a188-ca0dbd9869fb
+Slug: hotel-grand-ferdinand-wien-vienna
+Nome: Hotel Grand Ferdinand Wien
+Comune / Provincia: Vienna
+Indirizzo: Schubertring 10-12, 1010 Wien
+Coordinate: Lat 48.20231, Lng 16.375022
+Website: https://grandferdinand.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb
+Email: 
+
+17028. Hotel Royal
+ID: 9201c31d-1dd9-42f4-84fc-454d74abae39
+Slug: hotel-royal-vienna
+Nome: Hotel Royal
+Comune / Provincia: Vienna
+Indirizzo: Singerstraße 3/10 Stock, 1010 Wien
+Coordinate: Lat 48.207944, Lng 16.372372
+Website: http://www.hotelroyal.at/
+Email: 
+
+17029. Hotel Sans Souci Wien
+ID: 48d465f9-90d0-4a00-9edc-32827198f9fa
+Slug: hotel-sans-souci-wien-vienna
+Nome: Hotel Sans Souci Wien
+Comune / Provincia: Vienna
+Indirizzo: Burggasse 2, 1070 Wien
+Coordinate: Lat 48.20472, Lng 16.356525
+Website: http://www.sanssouci-wien.com/
+Email: 
+
+17030. Jaz in the City Vienna
+ID: 99c192f9-a6aa-42a4-928c-712967d1ad3c
+Slug: jaz-in-the-city-vienna-vienna
+Nome: Jaz in the City Vienna
+Comune / Provincia: Vienna
+Indirizzo: Windmühlgasse 28, 1060 Wien
+Coordinate: Lat 48.198468, Lng 16.355509
+Website: https://hrewards.com/de/jaz-in-the-city-vienna?wt_mc=seo_listing.jaz.yext.wien.hotel_link.text_cta
+Email: service@hrewards.com
+
+17031. Le Méridien Vienna
+ID: 46e206cd-c0a0-4420-a6c2-904e2ae6a82a
+Slug: le-meridien-vienna-vienna
+Nome: Le Méridien Vienna
+Comune / Provincia: Vienna
+Indirizzo: Robert-Stolz-Platz 1, 1010 Wien
+Coordinate: Lat 48.20263, Lng 16.365992
+Website: https://www.marriott.com/en-us/hotels/viemd-le-meridien-vienna/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0
+Email: 
+
+17032. Leonardo Hotel Vienna Hauptbahnhof
+ID: 681c20bd-1276-4ed7-8caa-af4f92059ddb
+Slug: leonardo-hotel-vienna-hauptbahnhof-vienna
+Nome: Leonardo Hotel Vienna Hauptbahnhof
+Comune / Provincia: Vienna
+Indirizzo: Gerhard-Bronner-Straße 5, 1100 Wien
+Coordinate: Lat 48.183549, Lng 16.379249
+Website: https://www.leonardo-hotels.de/vienna/leonardo-hotel-vienna-hauptbahnhof?utm_source=gmb&utm_medium=link_site_gmb&utm_campaign=leonardo-hotel-vienna-hauptbahnhof
+Email: 
+
+17033. Rosewood Vienna
+ID: a6f8583f-9371-4607-9353-9211e13d6b51
+Slug: rosewood-vienna-vienna
+Nome: Rosewood Vienna
+Comune / Provincia: Vienna
+Indirizzo: Peterspl. 7, 1010 Wien
+Coordinate: Lat 48.209673, Lng 16.369602
+Website: https://www.rosewoodhotels.com/en/vienna
+Email: %20vienna.neuehoheit@rosewoodhotels.com
+
+17034. The Guesthouse Vienna
+ID: e6c7b936-2885-499a-b302-d1eaebb4ea2b
+Slug: the-guesthouse-vienna-vienna
+Nome: The Guesthouse Vienna
+Comune / Provincia: Vienna
+Indirizzo: Führichgasse 10, 1010 Wien
+Coordinate: Lat 48.205128, Lng 16.36911
+Website: http://www.theguesthouse.at/
+Email: brasserie@theguesthouse.at
+
+17035. The Ritz-Carlton, Vienna
+ID: b3971104-5b6d-4130-adb6-8fd2b709b8f5
+Slug: the-ritz-carlton-vienna-vienna
+Nome: The Ritz-Carlton, Vienna
+Comune / Provincia: Vienna
+Indirizzo: Schubertring 5-7, 1010 Wien
+Coordinate: Lat 48.202196, Lng 16.376353
+Website: https://www.ritzcarlton.com/en/hotels/vierz-the-ritz-carlton-vienna/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+4761. B&B La Locanda del Cinghiale
+ID: 2d803e7e-0f6a-42a4-91f9-4e5008d458df
+Slug: b-b-la-locanda-del-cinghiale-arizzano
+Nome: B&B La Locanda del Cinghiale
+Comune / Provincia: Arizzano
+Indirizzo: Via Roma, 11, 28812 Aurano VB
+Coordinate: Lat 45.998291, Lng 8.587923
+Website: https://www.lalocandadelcinghiale.it/
+Email: 
+
+4762. B&B Villa Arancio
+ID: 53f14702-cb84-4c51-8b54-0ccb3ae8c9ce
+Slug: b-b-villa-arancio-arizzano
+Nome: B&B Villa Arancio
+Comune / Provincia: Arizzano
+Indirizzo: Via Santa Croce, 7, 28823 Ghiffa VB
+Coordinate: Lat 45.958606, Lng 8.61963
+Website: http://www.villaarancio.com/
+Email: 
+
+4763. cherry home casa vacanza CIN IT103003C2R4YJFYD4
+ID: ed400bce-8283-4c9d-a0ac-63d580cb5ee6
+Slug: cherry-home-casa-vacanza-cin-it103003c2r4yjfyd4-arizzano
+Nome: cherry home casa vacanza CIN IT103003C2R4YJFYD4
+Comune / Provincia: Arizzano
+Indirizzo: Corso Roma, 8, 28811 Arizzano VB
+Coordinate: Lat 45.955313, Lng 8.584302
+Website: https://cherryhome.italygetaway.top/
+Email: 
+
+4764. Chi Ghinn
+ID: 3716cd30-a7d6-4c71-954f-1ff827f2c92e
+Slug: chi-ghinn-arizzano
+Nome: Chi Ghinn
+Comune / Provincia: Arizzano
+Indirizzo: Via Maggiore, 21, 28813 Bee VB
+Coordinate: Lat 45.960281, Lng 8.581398
+Website: http://www.chighinn.com/
+Email: 
+
+4765. Frankie’s House
+ID: eae653fc-8579-4fd2-82b6-e26c3f62b090
+Slug: frankie-s-house-arizzano
+Nome: Frankie’s House
+Comune / Provincia: Arizzano
+Indirizzo: Corso Risorgimento, 247, 28823 Ghiffa VB
+Coordinate: Lat 45.959399, Lng 8.617899
+Website: https://frankies-house.italiacongusto.top/
+Email: 
+
+4766. Holy Lake
+ID: bbce709b-f6dc-457e-9160-7e185a5b3406
+Slug: holy-lake-arizzano
+Nome: Holy Lake
+Comune / Provincia: Arizzano
+Indirizzo: Via De Amicis, 4, 28823 Ghiffa VB
+Coordinate: Lat 45.956059, Lng 8.615707
+Website: https://francescorecommends.eu/holy-lake-italy
+Email: 
+
+4767. Hotel Ancora
+ID: 78936187-e4ce-4194-bc57-08afbf9bdf7f
+Slug: hotel-ancora-arizzano
+Nome: Hotel Ancora
+Comune / Provincia: Arizzano
+Indirizzo: Corso Goffredo Mameli, 65, 28921 Verbania VB
+Coordinate: Lat 45.93508, Lng 8.573606
+Website: https://www.hotelancora.it/
+Email: 
+
+4768. Hotel del Conte
+ID: 52ceb635-9c3e-48f1-829c-362213b0db47
+Slug: hotel-del-conte-arizzano
+Nome: Hotel del Conte
+Comune / Provincia: Arizzano
+Indirizzo: Viale G. Garibaldi, 15, 21014 Laveno-Mombello VA
+Coordinate: Lat 45.90854, Lng 8.61952
+Website: https://hotelcontelaveno.it/
+Email: 
+
+4769. Hotel Moderno
+ID: 8021285f-7dc2-42ca-8dce-dccefe0f8656
+Slug: hotel-moderno-arizzano
+Nome: Hotel Moderno
+Comune / Provincia: Arizzano
+Indirizzo: Via Cesira Tresoldi Lorini, 1, 28818 Premeno VB
+Coordinate: Lat 45.975546, Lng 8.591491
+Website: http://www.hotelmoderno.biz/
+Email: 
+
+4770. Hotel Pesce d'Oro
+ID: 61268f73-a45a-48ff-ae4c-220ad49e4a24
+Slug: hotel-pesce-d-oro-arizzano
+Nome: Hotel Pesce d'Oro
+Comune / Provincia: Arizzano
+Indirizzo: Via Paolo Troubetzkoy, 136, 28925 Verbania VB
+Coordinate: Lat 45.931268, Lng 8.539892
+Website: https://hotelpescedoro.it/
+Email: 
+
+4771. Hotel Pian Nava
+ID: 882146ff-6a84-4104-bf8a-88ca04c9b4c5
+Slug: hotel-pian-nava-arizzano
+Nome: Hotel Pian Nava
+Comune / Provincia: Arizzano
+Indirizzo: Via Milano, 21, 28813 Pian Nava VB
+Coordinate: Lat 45.975211, Lng 8.582791
+Website: http://www.hotelpiannava.com/
+Email: 
+
+4772. Hotel Residence Zust
+ID: 975530d7-1925-44ed-b463-5a2376a6efa5
+Slug: hotel-residence-zust-arizzano
+Nome: Hotel Residence Zust
+Comune / Provincia: Arizzano
+Indirizzo: Via Ticino, 39, 28921 Verbania VB
+Coordinate: Lat 45.943081, Lng 8.592717
+Website: http://www.hotelzust.com/
+Email: 
+
+4773. la casa nel bosco BeB
+ID: 2ae2a0c0-6b50-4839-919a-db55727e0ef5
+Slug: la-casa-nel-bosco-beb-arizzano
+Nome: la casa nel bosco BeB
+Comune / Provincia: Arizzano
+Indirizzo: Via per Esio, 3, 28813 Bee VB
+Coordinate: Lat 45.979005, Lng 8.584146
+Website: https://www.lacasanelboscobeb.it/
+Email: 
+
+4774. La Gatéra Guest House (Cin IT103003B4YX3PZM4B CIR 103003-AFF-00002)
+ID: caed26a9-ac7d-4a92-b089-2ce28f8479b8
+Slug: la-gatera-guest-house-cin-it103003b4yx3pzm4b-cir-arizzano
+Nome: La Gatéra Guest House (Cin IT103003B4YX3PZM4B CIR 103003-AFF-00002)
+Comune / Provincia: Arizzano
+Indirizzo: Via Arizzano, 20, 28811 Cissano VB
+Coordinate: Lat 45.953309, Lng 8.583305
+Website: https://airbnb.com/h/lagateraguesthouse
+Email: 
+
+4775. Ostello di Verbania
+ID: b00faafc-3835-4672-90ef-65997dfd5311
+Slug: ostello-di-verbania-arizzano
+Nome: Ostello di Verbania
+Comune / Provincia: Arizzano
+Indirizzo: Salita Edmondo Borri, 7, 28922 Verbania VB
+Coordinate: Lat 45.920208, Lng 8.557855
+Website: http://www.ostelloverbania.com/
+Email: 
+
+4776. Residenza Lisy Rooms Affittacamere
+ID: 40a051b2-ca3b-4147-8664-3a1a29aadfb6
+Slug: residenza-lisy-rooms-affittacamere-arizzano
+Nome: Residenza Lisy Rooms Affittacamere
+Comune / Provincia: Arizzano
+Indirizzo: Via S. Martino, 8, 28923 Verbania VB
+Coordinate: Lat 45.952714, Lng 8.549944
+Website: —
+Email: 
+
+4777. Tra Lago e Stelle
+ID: 7ed42d92-c205-400c-96a4-d30922edc89f
+Slug: tra-lago-e-stelle-arizzano
+Nome: Tra Lago e Stelle
+Comune / Provincia: Arizzano
+Indirizzo: Via Arizzano, 11, 28811 Cissano VB
+Coordinate: Lat 45.952847, Lng 8.582718
+Website: —
+Email: 
+
+4778. Agriturismo "Cerrosughero"
+ID: e070a53d-8ea1-42bc-8e38-57563b34c166
+Slug: agriturismo-cerrosughero-arlena-di-castro
+Nome: Agriturismo "Cerrosughero"
+Comune / Provincia: Arlena di Castro
+Indirizzo: Strada regionale 312, località Cerrosughero, km 22.600, 01011 Canino VT
+Coordinate: Lat 42.492518, Lng 11.767524
+Website: https://www.agriturismocerrosughero.it/
+Email: 
+
+4779. Agriturismo Bisenzio - Braceria-Pizzeria-Camere
+ID: 9d015923-1ec5-41e6-b212-88bbe7ba2311
+Slug: agriturismo-bisenzio-braceria-pizzeria-camere-arlena-di-castro
+Nome: Agriturismo Bisenzio - Braceria-Pizzeria-Camere
+Comune / Provincia: Arlena di Castro
+Indirizzo: Strada Provinciale Verentana, 60, 01010 Capodimonte VT
+Coordinate: Lat 42.562026, Lng 11.879738
+Website: http://www.agriturismobisenzio.it/
+Email: 
+
+4780. Agriturismo Casale Bonaparte
+ID: 61bb9e24-d3ed-4564-8100-b7145c687c24
+Slug: agriturismo-casale-bonaparte-arlena-di-castro
+Nome: Agriturismo Casale Bonaparte
+Comune / Provincia: Arlena di Castro
+Indirizzo: Strada Provinciale Doganella, km 17.00, 01010 Cellere VT
+Coordinate: Lat 42.506188, Lng 11.736177
+Website: http://www.casalebonaparte.it/
+Email: 
+
+4781. Agriturismo Le Ginestre
+ID: 840d410f-acc8-44eb-b25a-5e3c92626ade
+Slug: agriturismo-le-ginestre-arlena-di-castro
+Nome: Agriturismo Le Ginestre
+Comune / Provincia: Arlena di Castro
+Indirizzo: Strada Verentana, km.16/700, 01010 Loc. Ginestreto, VT
+Coordinate: Lat 42.559203, Lng 11.866054
+Website: http://www.agriturismoleginestre.it/
+Email: 
+
+4782. Agriturismo Prataccio
+ID: d74514fa-47c9-420a-bef4-ea7bdbfd118b
+Slug: agriturismo-prataccio-arlena-di-castro
+Nome: Agriturismo Prataccio
+Comune / Provincia: Arlena di Castro
+Indirizzo: SP Lamone, 36, 01010 Ischia di Castro VT
+Coordinate: Lat 42.544284, Lng 11.776565
+Website: http://www.agriturismoprataccio.it/
+Email: 
+
+4783. Agriturismo Santa Maria
+ID: 0f03ac96-0382-4a67-8d16-5536f896907c
+Slug: agriturismo-santa-maria-arlena-di-castro
+Nome: Agriturismo Santa Maria
+Comune / Provincia: Arlena di Castro
+Indirizzo: Via Santa Maria, 01010 Marta VT
+Coordinate: Lat 42.542316, Lng 11.905849
+Website: https://www.agriturismosantamaria.info/
+Email: 
+
+4784. Alloggio turistico 103
+ID: fb3dc215-011e-4f7d-92c3-86a0b40f8e5c
+Slug: alloggio-turistico-103-arlena-di-castro
+Nome: Alloggio turistico 103
+Comune / Provincia: Arlena di Castro
+Indirizzo: Via Guglielmo Marconi, 77, 01010 Capodimonte VT
+Coordinate: Lat 42.549534, Lng 11.910238
+Website: —
+Email: 
+
+4785. Arcipelago di Arte et Agricoltura
+ID: 562cca20-119c-43cf-90e6-827a30e62b71
+Slug: arcipelago-di-arte-et-agricoltura-arlena-di-castro
+Nome: Arcipelago di Arte et Agricoltura
+Comune / Provincia: Arlena di Castro
+Indirizzo: Str. Poggio della Ginestra, km 3.700, 01017 Tuscania VT
+Coordinate: Lat 42.400613, Lng 11.809318
+Website: http://www.arteagricoltura.com/
+Email: 
+
+4786. B&b La Barabbata
+ID: a68d0c87-7489-4c43-a67c-240d98535a55
+Slug: b-b-la-barabbata-arlena-di-castro
+Nome: B&b La Barabbata
+Comune / Provincia: Arlena di Castro
+Indirizzo: Via Papa Callisto III, 48, 01010 Marta VT
+Coordinate: Lat 42.534514, Lng 11.922349
+Website: https://labarabbata.it/
+Email: 
+
+4787. B&B Vallecupa
+ID: cad42b88-0bf5-4f1f-8e97-2b63b81849cc
+Slug: b-b-vallecupa-arlena-di-castro
+Nome: B&B Vallecupa
+Comune / Provincia: Arlena di Castro
+Indirizzo: Località Vallecupa, snc, 01010 Farnese VT
+Coordinate: Lat 42.542018, Lng 11.702215
+Website: —
+Email: 
+
+4788. BED & BREAKFAST AL PORTO
+ID: 8b5360b0-1122-4b45-a040-95bd6840806a
+Slug: bed-breakfast-al-porto-arlena-di-castro
+Nome: BED & BREAKFAST AL PORTO
+Comune / Provincia: Arlena di Castro
+Indirizzo: Via Antonio Gramsci, 8, 01010 Marta VT
+Coordinate: Lat 42.533611, Lng 11.93
+Website: https://beb.it/alportomarta
+Email: 
+
+4789. Il Poggio di Musignano
+ID: 09e0f30a-96cb-4a4e-9e9e-b91ffea38795
+Slug: il-poggio-di-musignano-arlena-di-castro
+Nome: Il Poggio di Musignano
+Comune / Provincia: Arlena di Castro
+Indirizzo: S.da Vicinale del Pidocchio, 15, 01011 Canino VT
+Coordinate: Lat 42.440938, Lng 11.699167
+Website: https://www.ilpoggiodimusignano.com/
+Email: 
+
+4790. La Mela Rosa
+ID: d1c5c490-aac5-45a1-9b36-cbd3ce8f4320
+Slug: la-mela-rosa-arlena-di-castro
+Nome: La Mela Rosa
+Comune / Provincia: Arlena di Castro
+Indirizzo: Via Roma, 33, 01018 Valentano VT
+Coordinate: Lat 42.568126, Lng 11.817993
+Website: http://www.lamelarosa.eu/
+Email: 
+
+4791. La Stalla
+ID: d2a94424-bc2f-4380-a6b7-844a0bf67441
+Slug: la-stalla-arlena-di-castro
+Nome: La Stalla
+Comune / Provincia: Arlena di Castro
+Indirizzo: Via dell'Olivo, 63/1, 01017 Tuscania VT
+Coordinate: Lat 42.415142, Lng 11.870175
+Website: https://la-stalla.italiavacanzeindimenticabili.top/
+Email: 
+
+4792. La Torretta
+ID: aceef514-ac36-4735-9789-755b1d1c6fa8
+Slug: la-torretta-arlena-di-castro
+Nome: La Torretta
+Comune / Provincia: Arlena di Castro
+Indirizzo: Via della Torretta, 11, 01017 Tuscania VT
+Coordinate: Lat 42.417298, Lng 11.872768
+Website: https://www.latorretta.biz/
+Email: 
+
+4793. Locanda Di Mirandolina B&B Ristorante
+ID: 99cc7cc3-6429-4296-a67f-012a040b633f
+Slug: locanda-di-mirandolina-b-b-ristorante-arlena-di-castro
+Nome: Locanda Di Mirandolina B&B Ristorante
+Comune / Provincia: Arlena di Castro
+Indirizzo: Via Pozzo Bianco, 40, 01017 Tuscania VT
+Coordinate: Lat 42.416205, Lng 11.871891
+Website: http://www.mirandolina.it/
+Email: 
+
+4794. Qui Dormì l'Etrusco
+ID: 59a3bfad-36f6-4b9b-bf16-ba625601626e
+Slug: qui-dormi-l-etrusco-arlena-di-castro
+Nome: Qui Dormì l'Etrusco
+Comune / Provincia: Arlena di Castro
+Indirizzo: Via Goffredo Mameli, 37, 01011 Canino VT
+Coordinate: Lat 42.471852, Lng 11.756895
+Website: http://www.quidormiletrusco.it/
+Email: 
+
+4795. Residenze del Bosco
+ID: 73f1d012-cc66-4400-ba05-800749020888
+Slug: residenze-del-bosco-arlena-di-castro
+Nome: Residenze del Bosco
+Comune / Provincia: Arlena di Castro
+Indirizzo: Via Della Annessione, 33-35, 01017 Tuscania VT
+Coordinate: Lat 42.419553, Lng 11.874582
+Website: https://www.storiediterraedidolcezza.it/residenze-del-bosco/
+Email: 

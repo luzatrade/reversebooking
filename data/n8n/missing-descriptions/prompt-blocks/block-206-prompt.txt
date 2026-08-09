@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+7176. Hotel Barcelona Center
+ID: 913ec241-70d7-44ae-a7b9-4674ad3a8234
+Slug: hotel-barcelona-center-barcelona
+Nome: Hotel Barcelona Center
+Comune / Provincia: Barcelona
+Indirizzo: Calle de Balmes, 103, floor 7, Eixample, 08008 Barcelona
+Coordinate: Lat 41.391724, Lng 2.159261
+Website: http://www.hotelescenter.es/hotel-barcelona-center/
+Email: barcelona@hotelescenter.com
+
+7177. Hotel Barcelona Universal
+ID: 56a59b8e-a076-468b-a620-a1f93f6f19c7
+Slug: hotel-barcelona-universal-barcelona
+Nome: Hotel Barcelona Universal
+Comune / Provincia: Barcelona
+Indirizzo: Avinguda del Paral·lel, 76-80, Ciutat Vella, 08001 Barcelona
+Coordinate: Lat 41.375238, Lng 2.168329
+Website: https://www.hotelbarcelonauniversal.com/
+Email: bcnuniversal@nnhotels.com
+
+7178. Hotel Casa Sagnier
+ID: c4c4f953-3db2-41cd-b270-8451ad2eb17f
+Slug: hotel-casa-sagnier-barcelona
+Nome: Hotel Casa Sagnier
+Comune / Provincia: Barcelona
+Indirizzo: Rambla de Catalunya, 104, Eixample, 08008 Barcelona
+Coordinate: Lat 41.39411, Lng 2.159642
+Website: https://hotelcasasagnier.com/
+Email: 
+
+7179. Hotel Ginebra
+ID: 65cc53a4-a412-4da9-ad8b-97b59767c1a0
+Slug: hotel-ginebra-barcelona
+Nome: Hotel Ginebra
+Comune / Provincia: Barcelona
+Indirizzo: Rambla de Catalunya, 1, 3 - 1, Eixample, 08007 Barcelona
+Coordinate: Lat 41.387439, Lng 2.168065
+Website: http://www.hotelginebra.com.es/
+Email: 
+
+7180. Hotel Granvia
+ID: 1c598c2c-3dbc-4b6c-9d6f-50457ed836e9
+Slug: hotel-granvia-barcelona
+Nome: Hotel Granvia
+Comune / Provincia: Barcelona
+Indirizzo: Gran Via de les Corts Catalanes, 642, Eixample, 08007 Barcelona
+Coordinate: Lat 41.389972, Lng 2.169574
+Website: https://www.hotelgranvia.com/en
+Email: hgranvia@nnhotels.com
+
+7181. Hotel Jazz
+ID: 0b8d8503-8c8c-4896-9e94-ebd81e73c9c1
+Slug: hotel-jazz-barcelona
+Nome: Hotel Jazz
+Comune / Provincia: Barcelona
+Indirizzo: Carrer de Pelai, 3 Parking:, Ronda de la Univ., 4, Eixample, 08001 Barcelona
+Coordinate: Lat 41.38602, Lng 2.165887
+Website: https://www.hoteljazz.com/
+Email: 
+
+7182. Hotel Praktik Rambla
+ID: df2634dc-5b84-4f5c-914d-d4f243949e41
+Slug: hotel-praktik-rambla-barcelona
+Nome: Hotel Praktik Rambla
+Comune / Provincia: Barcelona
+Indirizzo: Rambla de Catalunya, 27, Eixample, 08007 Barcelona
+Coordinate: Lat 41.389005, Lng 2.165804
+Website: http://hotelpraktikrambla.com/es/?utm_source=google&utm_medium=gbp&utm_campaign=google_business_profile&utm_content=pratik_rambla_listing
+Email: 
+
+7183. Hotel SERHS Rivoli Rambla Barcelona
+ID: faf7f42e-f086-4f6b-a8fa-ae180416d34d
+Slug: hotel-serhs-rivoli-rambla-barcelona-barcelona
+Nome: Hotel SERHS Rivoli Rambla Barcelona
+Comune / Provincia: Barcelona
+Indirizzo: La Rambla, 128, Ciutat Vella, 08002 Barcelona
+Coordinate: Lat 41.384309, Lng 2.171242
+Website: https://www.hotelserhsrivolirambla.com/
+Email: info.rivolirambla@grupserhs.com
+
+7184. Hotel Sixties
+ID: a0d7dace-2de8-412b-a4d7-cf65d074c455
+Slug: hotel-sixties-barcelona
+Nome: Hotel Sixties
+Comune / Provincia: Barcelona
+Indirizzo: Passatge de Gutenberg, 7, Ciutat Vella, 08001 Barcelona
+Coordinate: Lat 41.376867, Lng 2.174893
+Website: https://www.hotelsixties.com/
+Email: 
+
+7185. Lamaro Hotel Barcelona
+ID: 354238ae-873b-40a1-92eb-4592d1070600
+Slug: lamaro-hotel-barcelona-barcelona
+Nome: Lamaro Hotel Barcelona
+Comune / Provincia: Barcelona
+Indirizzo: Av. de la Catedral, 7, Ciutat Vella, 08002 Barcelona
+Coordinate: Lat 41.385002, Lng 2.175834
+Website: https://lamarohotel.com/?utm_source=google&utm_medium=organic&utm_campaign=google-my-business-lamaro
+Email: info@lamarohotel.com
+
+7186. Musik Boutique Hotel
+ID: 6083fc83-401b-4dcb-9984-0ab91cd66e12
+Slug: musik-boutique-hotel-barcelona
+Nome: Musik Boutique Hotel
+Comune / Provincia: Barcelona
+Indirizzo: Carrer de Sant Pere Més Baix, 62, Ciutat Vella, 08003 Barcelona
+Coordinate: Lat 41.388008, Lng 2.178397
+Website: https://musikboutiquehotel.com/?utm_source=mybusiness&utm_medium=organic&utm_campaign=perfilgmb
+Email: 
+
+7187. Olivia Balmes Hotel
+ID: b41ad6c0-ed49-44a2-ae26-894dfcf199b1
+Slug: olivia-balmes-hotel-barcelona
+Nome: Olivia Balmes Hotel
+Comune / Provincia: Barcelona
+Indirizzo: Carrer de Balmes, 117, 99, Eixample, 08008 Barcelona
+Coordinate: Lat 41.392198, Lng 2.158494
+Website: http://www.oliviabalmeshotel.com/
+Email: recepcion.balmes@oliviahotels.es
+
+7188. Oriente Atiram Hotels Barcelona
+ID: 9b11d479-3f83-4609-9729-bc09b2ab8756
+Slug: oriente-atiram-hotels-barcelona-barcelona
+Nome: Oriente Atiram Hotels Barcelona
+Comune / Provincia: Barcelona
+Indirizzo: Rambla dels Caputxins, 45, Ciutat Vella, 08002 Barcelona
+Coordinate: Lat 41.379727, Lng 2.174221
+Website: https://www.atiramhotels.com/ca/hotels/barcelona/hotel-oriente-atiram-ramblas/
+Email: 
+
+7189. Agriturismo Ai Monti
+ID: e7149643-6972-4b16-8e0b-f76a9c3c7912
+Slug: agriturismo-ai-monti-barcis
+Nome: Agriturismo Ai Monti
+Comune / Provincia: Barcis
+Indirizzo: Località Roppe, 8, 33080 Barcis PN
+Coordinate: Lat 46.195477, Lng 12.569949
+Website: http://www.aimonti.it/
+Email: 
+
+7190. Albergo Diffuso Lago di Barcis e Dolomiti Friulane
+ID: 307f05e1-b60b-41b6-afc2-370b62df511a
+Slug: albergo-diffuso-lago-di-barcis-e-dolomiti-friula-barcis
+Nome: Albergo Diffuso Lago di Barcis e Dolomiti Friulane
+Comune / Provincia: Barcis
+Indirizzo: Via Giuseppe Garibaldi, 13, 33080 Barcis PN
+Coordinate: Lat 46.190484, Lng 12.557901
+Website: http://www.albergodiffusobarcis.it/
+Email: 
+
+7191. Albergo Regina
+ID: 57221979-876a-413c-a69b-daff1b45fb71
+Slug: albergo-regina-barcis
+Nome: Albergo Regina
+Comune / Provincia: Barcis
+Indirizzo: Piazzale della Puppa, 2, 33081 Piancavallo PN
+Coordinate: Lat 46.10752, Lng 12.51673
+Website: https://www.foxytravel.it/piancavallo-hotel-regina.html
+Email: 
+
+7192. Albergo ristorante Alla Rosa
+ID: 2673df0a-7dea-4119-bbd0-1a4a63079d26
+Slug: albergo-ristorante-alla-rosa-barcis
+Nome: Albergo ristorante Alla Rosa
+Comune / Provincia: Barcis
+Indirizzo: Via Cavour, 1, 33080 Cimolais PN
+Coordinate: Lat 46.288557, Lng 12.437512
+Website: https://albergo-ristorante-alla-rosa.italiavacanzeindimenticabili.top/
+Email: 
+
+7193. Albergo Ristorante Dolomiti Claut
+ID: e1dcd18c-4091-4f11-b785-8dc78c92c362
+Slug: albergo-ristorante-dolomiti-claut-barcis
+Nome: Albergo Ristorante Dolomiti Claut
+Comune / Provincia: Barcis
+Indirizzo: Via A. Giordani, 17, 33080 Claut PN
+Coordinate: Lat 46.2678, Lng 12.513816
+Website: https://www.albergodolomiticlaut.it/
+Email: 
+
+7194. La voce del tempo
+ID: ce4aa19a-6e3a-4345-b40b-327b55fc4cc1
+Slug: la-voce-del-tempo-barcis
+Nome: La voce del tempo
+Comune / Provincia: Barcis
+Indirizzo: Via Roma, 135, 33080 Erto e Casso PN
+Coordinate: Lat 46.275817, Lng 12.373578
+Website: https://yusufrecommends.com/la-voce-del-tempo-italy
+Email: 
+
+7195. Residence Belvedere - Barcis Holiday Rooms
+ID: dde863f5-03da-46c8-a97b-d014c6165762
+Slug: residence-belvedere-barcis-holiday-rooms-barcis
+Nome: Residence Belvedere - Barcis Holiday Rooms
+Comune / Provincia: Barcis
+Indirizzo: Via Tofane, 4, 33080 Barcis PN
+Coordinate: Lat 46.190942, Lng 12.556312
+Website: https://www.barcisholidayrooms.com/
+Email: 
+
+7196. B&B Jasmyn Donnaz
+ID: d20ba3c8-cefb-4a22-86ed-443cc3b3f1a0
+Slug: b-b-jasmyn-donnaz-bard
+Nome: B&B Jasmyn Donnaz
+Comune / Provincia: Bard
+Indirizzo: de-Vaccaz 122, Località Ronc, 11020 Donnas AO
+Coordinate: Lat 45.604216, Lng 7.777605
+Website: http://jasminbeb.it/
+Email: 
+
+7197. B&B Vecchio Torchio
+ID: 3c844a87-b8dd-4072-887b-e5667669a41e
+Slug: b-b-vecchio-torchio-bard
+Nome: B&B Vecchio Torchio
+Comune / Provincia: Bard
+Indirizzo: Via Vittorio Emanuele II, 28, 11020 Bard AO
+Coordinate: Lat 45.60951, Lng 7.745602
+Website: http://www.vecchiotorchio.it/
+Email: 
+
+7198. Chambres d'Hôtes casa Margherita
+ID: 4b031d39-3d3c-467a-91ad-a3b71ef5508f
+Slug: chambres-d-hotes-casa-margherita-bard
+Nome: Chambres d'Hôtes casa Margherita
+Comune / Provincia: Bard
+Indirizzo: Frazione Tilly, 131, 11020 Tilly AO
+Coordinate: Lat 45.705337, Lng 7.730716
+Website: http://www.casamargheritavda.com/
+Email: 
+
+7199. Dimora Gilles
+ID: 0ae84505-f253-40c4-8f90-713f9ac6bee8
+Slug: dimora-gilles-bard
+Nome: Dimora Gilles
+Comune / Provincia: Bard
+Indirizzo: Via Vittorio Emanuele II, 81, 11020 Bard AO
+Coordinate: Lat 45.60857, Lng 7.74613
+Website: https://www.dimoragilles.com/
+Email: 
+
+7200. Hotel Ad Gallias
+ID: 28e0fe17-567c-4092-8d53-8846617b8eb4
+Slug: hotel-ad-gallias-bard
+Nome: Hotel Ad Gallias
+Comune / Provincia: Bard
+Indirizzo: Via Vittorio Emanuele II, 5/7, 11020 Bard AO
+Coordinate: Lat 45.611791, Lng 7.745024
+Website: http://www.hoteladgallias.com/
+Email: 
+
+7201. Hôtel Cavour et des Officiers
+ID: 7416c86b-f067-459a-b114-12901b27d38d
+Slug: hotel-cavour-et-des-officiers-bard
+Nome: Hôtel Cavour et des Officiers
+Comune / Provincia: Bard
+Indirizzo: Via Vittorio Emanuele II, 85, 11020 Bard AO
+Coordinate: Lat 45.608015, Lng 7.745385
+Website: https://hotelcavour.fortedibard.it/
+Email: 
+
+7202. Hotel Crabun
+ID: 635d28ab-816d-414a-b6d4-3f39c62dc32f
+Slug: hotel-crabun-bard
+Nome: Hotel Crabun
+Comune / Provincia: Bard
+Indirizzo: Via Nazionale per Donnas, 3, 11026 Pont-Saint-Martin AO
+Coordinate: Lat 45.601292, Lng 7.793372
+Website: http://www.crabunhotel.it/
+Email: 
+
+7203. Hotel Posta
+ID: c99ededa-86e3-4aee-9916-a089fa6a0293
+Slug: hotel-posta-bard
+Nome: Hotel Posta
+Comune / Provincia: Bard
+Indirizzo: Duarf, 29, 11020 Issime AO
+Coordinate: Lat 45.6859, Lng 7.85375
+Website: http://www.hotelpostaissime.com/
+Email: 
+
+7204. La maison des vignerons b&b chambres d'hôtes
+ID: 84b8ac86-6d13-4bdb-825f-dea14d8d4c20
+Slug: la-maison-des-vignerons-b-b-chambres-d-hotes-bard
+Nome: La maison des vignerons b&b chambres d'hôtes
+Comune / Provincia: Bard
+Indirizzo: Via Grand Vert, 224, 11020 Donnas AO
+Coordinate: Lat 45.594876, Lng 7.772297
+Website: http://www.lamaisondesvignerons.it/
+Email: 
+
+7205. Le Cœur du Pont
+ID: 5dc9d00d-5d31-482d-93e2-1ff2f02303e2
+Slug: le-c-ur-du-pont-bard
+Nome: Le Cœur du Pont
+Comune / Provincia: Bard
+Indirizzo: Via Principe Tommaso, 104, 11020 Donnas AO
+Coordinate: Lat 45.603245, Lng 7.765291
+Website: https://www.lecoeurdupont.com/
+Email: 
+
+7206. Le Soleil
+ID: fe37ef45-ae32-4337-9872-afba075bec59
+Slug: le-soleil-bard
+Nome: Le Soleil
+Comune / Provincia: Bard
+Indirizzo: Frazione Corliod, 9, 11020 Challand-Saint-Anselme AO
+Coordinate: Lat 45.702249, Lng 7.727043
+Website: http://www.hotellesoleil.net/
+Email: 
+
+7207. Li Tzatagni
+ID: 06438eb6-5f3d-49d5-97e3-4cef6d979a6f
+Slug: li-tzatagni-bard
+Nome: Li Tzatagni
+Comune / Provincia: Bard
+Indirizzo: Frazione Chateigne, 11020 Pontboset AO
+Coordinate: Lat 45.61327, Lng 7.680291
+Website: https://www.litzatagni.it/
+Email: 
+
+7208. Lo Sougnet
+ID: 9cf944bc-eced-488e-8d90-cd5dd2e9e1c4
+Slug: lo-sougnet-bard
+Nome: Lo Sougnet
+Comune / Provincia: Bard
+Indirizzo: Fraz, Borgata Charvaz, 6, 11020 Hône AO
+Coordinate: Lat 45.61272, Lng 7.724003
+Website: https://www.lo-sougnet.com/
+Email: 
+
+7209. MAB - Maison des Artistes Bard
+ID: d356df0e-4dbb-44bc-b9d1-81faa63fd5ef
+Slug: mab-maison-des-artistes-bard-bard
+Nome: MAB - Maison des Artistes Bard
+Comune / Provincia: Bard
+Indirizzo: Piazza Cavour, 3, 11020 Bard AO
+Coordinate: Lat 45.607918, Lng 7.746567
+Website: https://maisondesartistesbard.it/
+Email: 
+
+7210. Ostello "Ou Crierel"
+ID: b8c09607-e7bc-48aa-b5a9-58b48de7b055
+Slug: ostello-ou-crierel-bard
+Nome: Ostello "Ou Crierel"
+Comune / Provincia: Bard
+Indirizzo: Località Fey, 2, 11020 Lillianes AO
+Coordinate: Lat 45.633331, Lng 7.843757
+Website: https://www.oucrierel.com/
+Email: 

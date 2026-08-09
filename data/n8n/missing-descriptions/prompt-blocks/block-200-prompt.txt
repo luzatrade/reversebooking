@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+6966. Hotel Bel Sit
+ID: d056e69f-3289-40d3-9335-47bec3a6de6e
+Slug: hotel-bel-sit-baranzate
+Nome: Hotel Bel Sit
+Comune / Provincia: Baranzate
+Indirizzo: Via Gallarate, 2, 20151 Milano MI
+Coordinate: Lat 45.493333, Lng 9.143843
+Website: http://www.hotelbelsit.net/
+Email: 
+
+6967. Hotel Bonola
+ID: e674521b-9c53-437e-b6bb-2e36e08cb4eb
+Slug: hotel-bonola-baranzate
+Nome: Hotel Bonola
+Comune / Provincia: Baranzate
+Indirizzo: Via Torrazza, 15, 20151 Milano MI
+Coordinate: Lat 45.504061, Lng 9.105589
+Website: https://www.hotelbonola.com/
+Email: 
+
+6968. Hotel bulà
+ID: 5d119d14-409d-41e2-a748-78b85ee670b8
+Slug: hotel-bula-baranzate
+Nome: Hotel bulà
+Comune / Provincia: Baranzate
+Indirizzo: Via Caduti Bollatesi, Via XI Febbraio, 38, 20021 Bollate MI
+Coordinate: Lat 45.544151, Lng 9.126032
+Website: http://hotelbula.it/
+Email: 
+
+6969. Hotel Forum
+ID: f2653840-9e0d-4b79-88a6-693a72359992
+Slug: hotel-forum-baranzate
+Nome: Hotel Forum
+Comune / Provincia: Baranzate
+Indirizzo: Via Fiume, 7, 20021 Baranzate MI
+Coordinate: Lat 45.523412, Lng 9.12076
+Website: http://www.hotelforummilano.it/
+Email: 
+
+6970. HOTEL MIRAGE Sure Hotel Collection by Best Western
+ID: 9f8419ff-6a74-4d6f-a281-859da61a9c81
+Slug: hotel-mirage-sure-hotel-collection-by-best-weste-baranzate
+Nome: HOTEL MIRAGE Sure Hotel Collection by Best Western
+Comune / Provincia: Baranzate
+Indirizzo: Viale Certosa, 104/106, 20156 Milano MI
+Coordinate: Lat 45.494715, Lng 9.141885
+Website: https://hotelmirage-milano.com/
+Email: 
+
+6971. Hotel Raffaello
+ID: 4da03996-b5de-4629-a40a-f70525591444
+Slug: hotel-raffaello-baranzate
+Nome: Hotel Raffaello
+Comune / Provincia: Baranzate
+Indirizzo: Viale Certosa, 108, 20156 Milano MI
+Coordinate: Lat 45.495013, Lng 9.141737
+Website: https://www.hotel-raffaello.it/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness&partner=6616
+Email: 
+
+6972. Klima Hotel Milano Fiere
+ID: 3916a0b8-6aa3-4c8d-ab9a-bb79db415715
+Slug: klima-hotel-milano-fiere-baranzate
+Nome: Klima Hotel Milano Fiere
+Comune / Provincia: Baranzate
+Indirizzo: Via Privata Venezia Giulia, 8, 20157 Milano MI
+Coordinate: Lat 45.514922, Lng 9.116285
+Website: http://www.klimahotelmilano.com/
+Email: 
+
+6973. Phi Hotel Milano
+ID: eb81d08d-d4bd-4334-ba84-d285c61186bf
+Slug: phi-hotel-milano-baranzate
+Nome: Phi Hotel Milano
+Comune / Provincia: Baranzate
+Indirizzo: Via Falzarego, 1, 20021 Baranzate MI
+Coordinate: Lat 45.53432, Lng 9.105683
+Website: http://www.phihotelmilano.com/
+Email: 
+
+6974. Villa Rosina
+ID: 3728ddc7-da8b-4d15-a889-e39dfceb5539
+Slug: villa-rosina-baranzate
+Nome: Villa Rosina
+Comune / Provincia: Baranzate
+Indirizzo: Via S. Pietro, 36, 20017 Rho MI
+Coordinate: Lat 45.529819, Lng 9.065761
+Website: https://www.villarosinafiera.it/
+Email: 
+
+6975. Albergo Crystal
+ID: 6f762073-ae28-427e-b34e-f534edeee775
+Slug: albergo-crystal-barasso
+Nome: Albergo Crystal
+Comune / Provincia: Barasso
+Indirizzo: Via Giuseppe Speroni, 10, 21100 Varese VA
+Coordinate: Lat 45.820612, Lng 8.829005
+Website: http://www.crystalvarese.it/
+Email: 
+
+6976. B&B Il Nido Al Lago
+ID: 0d5075e3-22cb-4f9c-af78-03c4b19cd30b
+Slug: b-b-il-nido-al-lago-barasso
+Nome: B&B Il Nido Al Lago
+Comune / Provincia: Barasso
+Indirizzo: Via Preja, 17, 21026 Gavirate VA
+Coordinate: Lat 45.821705, Lng 8.753177
+Website: http://www.ilnidoallago.it/
+Email: 
+
+6977. B&B il Sasso Bianco IT012055C16CJVBT5T
+ID: 4501e0d1-42f5-4e01-8cc5-d03734ff03d5
+Slug: b-b-il-sasso-bianco-it012055c16cjvbt5t-barasso
+Nome: B&B il Sasso Bianco IT012055C16CJVBT5T
+Comune / Provincia: Barasso
+Indirizzo: Via Streccione, 3, 21025 Comerio VA
+Coordinate: Lat 45.837662, Lng 8.744315
+Website: http://www.ilsassobianco.it/
+Email: 
+
+6978. B&B TraMonti e Laghi
+ID: c9d96287-8f0e-4310-830b-ccb3737605bb
+Slug: b-b-tramonti-e-laghi-barasso
+Nome: B&B TraMonti e Laghi
+Comune / Provincia: Barasso
+Indirizzo: Via Stazione, 3, 21025 Comerio VA
+Coordinate: Lat 45.839404, Lng 8.747042
+Website: https://www.facebook.com/profile.php?id=61577362673928
+Email: 
+
+6979. CASALE DEL CANTICO
+ID: 1e40cd61-a3ae-442f-bf88-395f4d5c2198
+Slug: casale-del-cantico-barasso
+Nome: CASALE DEL CANTICO
+Comune / Provincia: Barasso
+Indirizzo: Via Valcuvia, 2, 21030 Brenta VA
+Coordinate: Lat 45.893472, Lng 8.681138
+Website: —
+Email: 
+
+6980. Los Perros Hermanos
+ID: 6cc19368-cb43-404a-a6e3-25258e431c65
+Slug: los-perros-hermanos-barasso
+Nome: Los Perros Hermanos
+Comune / Provincia: Barasso
+Indirizzo: Via Luigi Galvani, 16, 21028 Villaggio Ignis VA
+Coordinate: Lat 45.801324, Lng 8.695329
+Website: —
+Email: 
+
+6981. "Via dei Mari" Guest House
+ID: 479b5a58-9d1c-4bcb-94b8-7570f53bf371
+Slug: via-dei-mari-guest-house-baratili-san-pietro
+Nome: "Via dei Mari" Guest House
+Comune / Provincia: Baratili San Pietro
+Indirizzo: Via Case Sparse, 09170 Oristano OR
+Coordinate: Lat 39.930612, Lng 8.578865
+Website: https://www.viadeimari.it/
+Email: 
+
+6982. 40º Parallelo Affittacamere/GuestHouse
+ID: a4b88177-565b-4dc8-b712-990e43014192
+Slug: 40-parallelo-affittacamere-guesthouse-baratili-san-pietro
+Nome: 40º Parallelo Affittacamere/GuestHouse
+Comune / Provincia: Baratili San Pietro
+Indirizzo: Via Tiziano Vecellio, 11, 09070 Riola Sardo OR
+Coordinate: Lat 39.990244, Lng 8.544055
+Website: https://quarantesimoparalleloguesthouse.holiduhost.com/
+Email: 
+
+6983. Affittacamere Shardana
+ID: 8b76dc61-dfb6-493d-974e-6e07126e399b
+Slug: affittacamere-shardana-baratili-san-pietro
+Nome: Affittacamere Shardana
+Comune / Provincia: Baratili San Pietro
+Indirizzo: Via Sassari, 21, 09072 Cabras OR
+Coordinate: Lat 39.927879, Lng 8.530843
+Website: http://www.vacanzeneltramonto.it/
+Email: 
+
+6984. Agriturismo Il Melograno
+ID: a0c5476f-9719-4f62-a516-9b5c2b034c94
+Slug: agriturismo-il-melograno-baratili-san-pietro
+Nome: Agriturismo Il Melograno
+Comune / Provincia: Baratili San Pietro
+Indirizzo: Via G. Leopardi, 13, 09070 Riola Sardo OR
+Coordinate: Lat 39.992685, Lng 8.53959
+Website: https://www.hotelscheck-in.com/agriturismoilmelogranosardegna/it/
+Email: 
+
+6985. Agriturismo La Cantina
+ID: 015a3ee2-797b-4a66-b298-01faf03c4094
+Slug: agriturismo-la-cantina-baratili-san-pietro
+Nome: Agriturismo La Cantina
+Comune / Provincia: Baratili San Pietro
+Indirizzo: Via Chiesa, 54, 09070 Baratili San Pietro OR
+Coordinate: Lat 39.994421, Lng 8.553279
+Website: —
+Email: 
+
+6986. Agriturismo S'Omu
+ID: 6e9db698-be15-4fc4-b110-a315cd6a2719
+Slug: agriturismo-s-omu-baratili-san-pietro
+Nome: Agriturismo S'Omu
+Comune / Provincia: Baratili San Pietro
+Indirizzo: Via Roma, 49-51, 09070 Baratili San Pietro OR
+Coordinate: Lat 39.992964, Lng 8.554213
+Website: https://www.agriturismosomu.com/
+Email: 
+
+6987. Agriturismo Sa Crannaccia
+ID: c54f8d56-c589-4f21-8de8-c5c66c8e3596
+Slug: agriturismo-sa-crannaccia-baratili-san-pietro
+Nome: Agriturismo Sa Crannaccia
+Comune / Provincia: Baratili San Pietro
+Indirizzo: Corso Amerigo Vespucci, 32, 09072 Cabras OR
+Coordinate: Lat 39.929064, Lng 8.553099
+Website: http://www.sacrannaccia.com/
+Email: 
+
+6988. B&B Al Rimedio
+ID: b85cbae1-08aa-4b0c-91bf-f6a87a3cd6be
+Slug: b-b-al-rimedio-baratili-san-pietro
+Nome: B&B Al Rimedio
+Comune / Provincia: Baratili San Pietro
+Indirizzo: Via delle Grazie, 2, 09170 Oristano OR
+Coordinate: Lat 39.92776, Lng 8.576587
+Website: http://www.alrimedio.it/
+Email: 
+
+6989. B&B Marino E Lily
+ID: 0f67f95f-ad32-44b4-97b0-b1ed018d6931
+Slug: b-b-marino-e-lily-baratili-san-pietro
+Nome: B&B Marino E Lily
+Comune / Provincia: Baratili San Pietro
+Indirizzo: Via Grazia Deledda, 26, 09070 Baratili San Pietro OR
+Coordinate: Lat 39.991144, Lng 8.551631
+Website: http://bnbmarinoelily.com.es/
+Email: 
+
+6990. B&B Rita & Renzo
+ID: de7ff295-db71-4b3a-a658-7f9f6dcfeccd
+Slug: b-b-rita-renzo-baratili-san-pietro
+Nome: B&B Rita & Renzo
+Comune / Provincia: Baratili San Pietro
+Indirizzo: Via Roma, 11A, 09070 Riola Sardo OR
+Coordinate: Lat 39.996055, Lng 8.53955
+Website: http://www.bebritaerenzo.it/
+Email: 
+
+6991. Gavino
+ID: 0d8bb94b-29d3-4d58-8d2e-56b4667076a0
+Slug: gavino-baratili-san-pietro
+Nome: Gavino
+Comune / Provincia: Baratili San Pietro
+Indirizzo: Via Roma, 104, 09070 Riola Sardo OR
+Coordinate: Lat 39.993884, Lng 8.548087
+Website: http://gavinoriolasardo.com.es/
+Email: 
+
+6992. Gioia Guest House
+ID: 2067a785-edc9-408f-a078-330b36d61677
+Slug: gioia-guest-house-baratili-san-pietro
+Nome: Gioia Guest House
+Comune / Provincia: Baratili San Pietro
+Indirizzo: 6/A Via Salvator Anjelo de Castro, Via Regina Elena, 28, 09072 Cabras OR
+Coordinate: Lat 39.93116, Lng 8.530689
+Website: http://www.gioiaguesthouse.it/
+Email: 
+
+6993. Hotel Lucrezia
+ID: 1c9a2007-3119-43dd-8071-26b2eda6e206
+Slug: hotel-lucrezia-baratili-san-pietro
+Nome: Hotel Lucrezia
+Comune / Provincia: Baratili San Pietro
+Indirizzo: Via Roma, 14, 09070 Riola Sardo OR
+Coordinate: Lat 39.995414, Lng 8.540286
+Website: http://www.hotellucrezia.com/
+Email: 
+
+6994. Hotel Villa Canu
+ID: ed0535f1-82ee-4af4-ae61-0e2c36bd695c
+Slug: hotel-villa-canu-baratili-san-pietro
+Nome: Hotel Villa Canu
+Comune / Provincia: Baratili San Pietro
+Indirizzo: Via Firenze, 9, 09072 Cabras OR
+Coordinate: Lat 39.92913, Lng 8.529582
+Website: http://www.hotelvillacanu.com/
+Email: 
+
+6995. Il Giglio
+ID: 55b498d6-2f5b-4dd0-bd65-a0db6bed44a4
+Slug: il-giglio-baratili-san-pietro
+Nome: Il Giglio
+Comune / Provincia: Baratili San Pietro
+Indirizzo: SP9, 09170 Massama OR
+Coordinate: Lat 39.945319, Lng 8.614917
+Website: https://www.agriturismoilgiglio.com/
+Email: 
+
+6996. La Casa di Desideria
+ID: f78ee816-c06d-48e5-842b-fc5cd0be6af3
+Slug: la-casa-di-desideria-baratili-san-pietro
+Nome: La Casa di Desideria
+Comune / Provincia: Baratili San Pietro
+Indirizzo: Via S. Pietro, 6, 09070 Baratili San Pietro OR
+Coordinate: Lat 39.992052, Lng 8.559835
+Website: https://www.hotel-sardegna24.it/la-casa-di-desideria/
+Email: 
+
+6997. S'Apprigu
+ID: c92c19b6-fb02-47aa-8782-fc2d6236feef
+Slug: s-apprigu-baratili-san-pietro
+Nome: S'Apprigu
+Comune / Provincia: Baratili San Pietro
+Indirizzo: Via Roma, 34, 09072 Cabras OR
+Coordinate: Lat 39.930398, Lng 8.528822
+Website: https://www.hotelscheck-in.com/bbsapprigucabras/it/
+Email: 
+
+6998. S'Ommu Ezza
+ID: 7898426f-0161-4a19-9b38-8c6094338c69
+Slug: s-ommu-ezza-baratili-san-pietro
+Nome: S'Ommu Ezza
+Comune / Provincia: Baratili San Pietro
+Indirizzo: Via Vittorio Emanuele III, 31, 09070 Narbolia OR
+Coordinate: Lat 40.048645, Lng 8.576769
+Website: —
+Email: 
+
+6999. Sa Doa
+ID: 58b856bf-49c3-4fbf-bd36-e4b238780b87
+Slug: sa-doa-baratili-san-pietro
+Nome: Sa Doa
+Comune / Provincia: Baratili San Pietro
+Indirizzo: via Sebastiano Satta, Via Alessandro Manzoni, 3, 09070 Baratili San Pietro OR
+Coordinate: Lat 39.992253, Lng 8.549766
+Website: https://www.hotel-sardegna24.it/sa-doa/
+Email: 
+
+7000. Agriturismo Cascina Del Peso
+ID: 6e462a1a-15ae-46e4-bad8-93aa3b25bb22
+Slug: agriturismo-cascina-del-peso-barbania
+Nome: Agriturismo Cascina Del Peso
+Comune / Provincia: Barbania
+Indirizzo: Via Lombardore, 306, 10040 Leini TO
+Coordinate: Lat 45.215154, Lng 7.730647
+Website: —
+Email: 

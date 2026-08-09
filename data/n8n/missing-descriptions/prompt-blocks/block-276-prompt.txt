@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+9626. Garden Residence
+ID: 0f9922da-8db5-4cb4-92e6-7cfd63887cca
+Slug: garden-residence-bonate-sotto
+Nome: Garden Residence
+Comune / Provincia: Bonate Sotto
+Indirizzo: Via Bastone, 24, 24044 Dalmine BG
+Coordinate: Lat 45.656342, Lng 9.600738
+Website: https://www.gardenresidence.it/
+Email: 
+
+9627. Mercure Bergamo Aeroporto
+ID: 8dbcd557-1362-4fbe-bafc-2bd68edd5888
+Slug: mercure-bergamo-aeroporto-bonate-sotto
+Nome: Mercure Bergamo Aeroporto
+Comune / Provincia: Bonate Sotto
+Indirizzo: Via Boito, 12, 24040 Stezzano BG
+Coordinate: Lat 45.651154, Lng 9.631751
+Website: https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=8894&merchantid=seo-maps-IT-8894&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps
+Email: 
+
+9628. Villa Giulia
+ID: 53d4ca3c-65c1-4706-bf0f-fd73cb446613
+Slug: villa-giulia-bonate-sotto
+Nome: Villa Giulia
+Comune / Provincia: Bonate Sotto
+Indirizzo: Via Vittorio Veneto, 86, 24040 Bonate Sotto BG
+Coordinate: Lat 45.659568, Lng 9.55413
+Website: https://villagiuliabonate.it/
+Email: 
+
+9629. Agriturismo La Corte di Anna
+ID: b1552384-7cf5-4872-a1f9-3df4eaefd15f
+Slug: agriturismo-la-corte-di-anna-bonavigo
+Nome: Agriturismo La Corte di Anna
+Comune / Provincia: Bonavigo
+Indirizzo: Via Pontoncello, 9, 37059 Santa Maria VR
+Coordinate: Lat 45.378994, Lng 11.074529
+Website: http://www.lacortedianna.com/home/
+Email: 
+
+9630. Albergo Le 4 Camere
+ID: edf33bc1-2346-48bd-b895-43fbae08d231
+Slug: albergo-le-4-camere-bonavigo
+Nome: Albergo Le 4 Camere
+Comune / Provincia: Bonavigo
+Indirizzo: Via Vittorio Veneto, 2, 37050 Roverchiara VR
+Coordinate: Lat 45.272357, Lng 11.247756
+Website: https://le4camere.com/
+Email: 
+
+9631. B&B Villa Brenzoni
+ID: 721e2bcc-4844-43d0-9776-567bce3d04a9
+Slug: b-b-villa-brenzoni-bonavigo
+Nome: B&B Villa Brenzoni
+Comune / Provincia: Bonavigo
+Indirizzo: Via Martiri di Belfiore, 1, 37040 Bonavigo VR
+Coordinate: Lat 45.257438, Lng 11.27643
+Website: http://www.villabrenzoni.it/
+Email: 
+
+9632. Residence 3 Nidi
+ID: f12e8dc8-e973-4480-bc1f-2862d27f3a78
+Slug: residence-3-nidi-bonavigo
+Nome: Residence 3 Nidi
+Comune / Provincia: Bonavigo
+Indirizzo: Via Pavarano, 15, 36045 Lonigo VI
+Coordinate: Lat 45.394032, Lng 11.351215
+Website: http://www.residence3nidi.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=2922394172208186589
+Email: 
+
+9633. Albergo New Napoleonico
+ID: a7cab406-080e-404c-b0e2-a37d20deada3
+Slug: albergo-new-napoleonico-bondeno
+Nome: Albergo New Napoleonico
+Comune / Provincia: Bondeno
+Indirizzo: Via Virgiliana, 129, 44012 Bondeno FE
+Coordinate: Lat 44.876037, Lng 11.434623
+Website: https://albergo-new-napoleonico.migliorhotel.top/
+Email: 
+
+9634. Bed and Breakfast Al Fluviale
+ID: c313a713-50cb-4ced-934d-700411161696
+Slug: bed-and-breakfast-al-fluviale-bondeno
+Nome: Bed and Breakfast Al Fluviale
+Comune / Provincia: Bondeno
+Indirizzo: Via Darsena, 4, 44121 Ferrara FE
+Coordinate: Lat 44.830897, Lng 11.614646
+Website: https://www.hotelsandiamo.com/al-fluviale/
+Email: 
+
+9635. Borgo dei sensi
+ID: 75a467cc-1de6-42f7-bde0-1e54dad088ae
+Slug: borgo-dei-sensi-bondeno
+Nome: Borgo dei sensi
+Comune / Provincia: Bondeno
+Indirizzo: Via Ex Dogana, 131, 44041 Casumaro FE
+Coordinate: Lat 44.833492, Lng 11.375482
+Website: http://borgodeisensi.it/
+Email: 
+
+9636. Casa Madonna Boschi
+ID: 6e84ee7e-4f07-44b4-b5dc-8e01981d2a29
+Slug: casa-madonna-boschi-bondeno
+Nome: Casa Madonna Boschi
+Comune / Provincia: Bondeno
+Indirizzo: Via Madonna Boschi, 14, 44028 Poggio Renatico FE
+Coordinate: Lat 44.809529, Lng 11.478798
+Website: https://staidhotel.eu/casa-madonna-boschi-italy
+Email: 
+
+9637. Country Club La Tortiola
+ID: b427a0bf-8b66-402e-8e58-4baf6507ca69
+Slug: country-club-la-tortiola-bondeno
+Nome: Country Club La Tortiola
+Comune / Provincia: Bondeno
+Indirizzo: Via Tortiola, 15, 44049 Vigarano Mainarda FE
+Coordinate: Lat 44.85898, Lng 11.473248
+Website: https://mareeit.cyou/country-club-tortiola-g2xf78
+Email: 
+
+9638. Hotel Daniela
+ID: 51ba3246-3305-44d1-a282-0a60b8d61b00
+Slug: hotel-daniela-bondeno
+Nome: Hotel Daniela
+Comune / Provincia: Bondeno
+Indirizzo: Via Arginone, 198, 44122 Ferrara FE
+Coordinate: Lat 44.841381, Lng 11.585847
+Website: https://hotel-daniela.amolitalia.top/
+Email: 
+
+9639. Hotel Luna Blu - Hotel 3 Stelle a Cento - frazione Casumaro
+ID: ffa95b07-c10e-4e2e-a38a-4905e9c74543
+Slug: hotel-luna-blu-hotel-3-stelle-a-cento-frazione-c-bondeno
+Nome: Hotel Luna Blu - Hotel 3 Stelle a Cento - frazione Casumaro
+Comune / Provincia: Bondeno
+Indirizzo: Via del Lavoro, 1b, 44042 Casumaro FE
+Coordinate: Lat 44.819677, Lng 11.352691
+Website: http://www.hotellunablu.it/
+Email: 
+
+9640. Ristorante Hotel La Perla
+ID: c73f1243-a6d9-4349-a6c5-2b2e04f0219a
+Slug: ristorante-hotel-la-perla-bondeno
+Nome: Ristorante Hotel La Perla
+Comune / Provincia: Bondeno
+Indirizzo: Via per Zerbinate, 30, 44012 Bondeno FE
+Coordinate: Lat 44.900917, Lng 11.404586
+Website: —
+Email: 
+
+9641. Ristorante Hotel Tassi
+ID: 75fa1a8d-b78e-4507-9278-5bff04e5e458
+Slug: ristorante-hotel-tassi-bondeno
+Nome: Ristorante Hotel Tassi
+Comune / Provincia: Bondeno
+Indirizzo: Viale della Repubblica, 23, 44012 Bondeno FE
+Coordinate: Lat 44.886244, Lng 11.414991
+Website: http://www.ristorantetassi.it/
+Email: 
+
+9642. Agritur Ai Masi Pisoni Germano
+ID: 47fda1ee-dd15-4f12-aed3-20e7facdc369
+Slug: agritur-ai-masi-pisoni-germano-bondone
+Nome: Agritur Ai Masi Pisoni Germano
+Comune / Provincia: Bondone
+Indirizzo: Via Guà, 3/a, 38076 Pergolese TN
+Coordinate: Lat 46.024596, Lng 10.960105
+Website: http://www.aimasi.it/
+Email: 
+
+9643. Agriturismo La Corte dei Ciliegi
+ID: 91c6bb44-f2f2-449c-bbe4-c98436a56f08
+Slug: agriturismo-la-corte-dei-ciliegi-bondone
+Nome: Agriturismo La Corte dei Ciliegi
+Comune / Provincia: Bondone
+Indirizzo: strada di Mur, 10, 38100 Vigolo Baselga TN
+Coordinate: Lat 46.083944, Lng 11.041961
+Website: https://cortedeiciliegi.it/
+Email: 
+
+9644. Agriturismo malga candriai
+ID: 6cb915f7-7672-475d-9cd2-b9b02ffeb913
+Slug: agriturismo-malga-candriai-bondone
+Nome: Agriturismo malga candriai
+Comune / Provincia: Bondone
+Indirizzo: Str. di Candriai, 2, 38123 Candriai TN
+Coordinate: Lat 46.067058, Lng 11.082094
+Website: https://sites.google.com/site/aziendaagricoladanilafrizzi/?fbclid=PAAaZy9zZJT2twJvoCRnDBQ4cpA-EdJP5eyq52V-_wizB5_xlyEaDhXo3ZSjU
+Email: 
+
+9645. Agriturismo Maso Lizzone
+ID: 55db435d-7fe0-4471-9132-72f456829953
+Slug: agriturismo-maso-lizzone-bondone
+Nome: Agriturismo Maso Lizzone
+Comune / Provincia: Bondone
+Indirizzo: Loc. Lizzone, 3, 38074 Dro TN
+Coordinate: Lat 45.954807, Lng 10.897041
+Website: https://www.masolizzone.com/
+Email: 
+
+9646. Albergo - Bar - Ristorante Alpina Bondone
+ID: c3372fb4-ee8c-4075-9988-4e6b7d05ff29
+Slug: albergo-bar-ristorante-alpina-bondone-bondone
+Nome: Albergo - Bar - Ristorante Alpina Bondone
+Comune / Provincia: Bondone
+Indirizzo: Via Giuseppe Giusti, 28, 38080 Bondone TN
+Coordinate: Lat 45.806509, Lng 10.550535
+Website: http://www.albergoalpinabondone.it/
+Email: 
+
+9647. B&B al Capitello
+ID: c5f97354-b446-4c51-8e0b-11b48f33dbed
+Slug: b-b-al-capitello-bondone
+Nome: B&B al Capitello
+Comune / Provincia: Bondone
+Indirizzo: Via del Capitello, 9, 38123 Trento TN
+Coordinate: Lat 46.086436, Lng 11.063106
+Website: http://www.bebalcapitello.it/
+Email: 
+
+9648. Bed & Breakfast - Chalet Nicolussi
+ID: 40842c29-9deb-4c7a-b1c3-a118783655f2
+Slug: bed-breakfast-chalet-nicolussi-bondone
+Nome: Bed & Breakfast - Chalet Nicolussi
+Comune / Provincia: Bondone
+Indirizzo: Strada di Vason, 78, 38123 Monte, TN
+Coordinate: Lat 46.040254, Lng 11.058223
+Website: http://www.sportnicolussi.it/
+Email: 
+
+9649. Chalet Caminetto
+ID: 211deb94-b4b0-43da-a21c-5c2d14cabdd0
+Slug: chalet-caminetto-bondone
+Nome: Chalet Caminetto
+Comune / Provincia: Bondone
+Indirizzo: Strada di Vason, 139, 38123 Vason TN
+Coordinate: Lat 46.03837, Lng 11.055355
+Website: http://www.chaletcaminetto.it/
+Email: 
+
+9650. Club Hotel Zodiaco & Residence Orizzonte
+ID: 6fbf2102-2d10-41b5-a2fa-ac3520fb709f
+Slug: club-hotel-zodiaco-residence-orizzonte-bondone
+Nome: Club Hotel Zodiaco & Residence Orizzonte
+Comune / Provincia: Bondone
+Indirizzo: Strada di Vaneze, 23/24 Fraz. VANEZE, I, 38123 Monte Bondone, TN
+Coordinate: Lat 46.051183, Lng 11.072329
+Website: https://www.hotelzodiacoski.it/
+Email: 
+
+9651. Hotel Alpine Mugon
+ID: 7591ed7d-ae51-4880-bef4-265e22b661b4
+Slug: hotel-alpine-mugon-bondone
+Nome: Hotel Alpine Mugon
+Comune / Provincia: Bondone
+Indirizzo: Strada di Vason, 118, 38123 Trento TN
+Coordinate: Lat 46.039474, Lng 11.056636
+Website: http://www.mugon.it/
+Email: 
+
+9652. Hotel Dolomiti Chalet
+ID: 1ce431fd-435f-4a16-9534-28bb71f84985
+Slug: hotel-dolomiti-chalet-bondone
+Nome: Hotel Dolomiti Chalet
+Comune / Provincia: Bondone
+Indirizzo: Strada per Vason, 88 °, 38123 Trento TN
+Coordinate: Lat 46.040045, Lng 11.058033
+Website: http://www.dolomitichalet.it/
+Email: 
+
+9653. Idroblu
+ID: 06afc35f-eba8-44ff-a8c8-1bc601edbe29
+Slug: idroblu-bondone
+Nome: Idroblu
+Comune / Provincia: Bondone
+Indirizzo: Via G. Verdi, 17, 38080 Bondone TN
+Coordinate: Lat 45.805573, Lng 10.550375
+Website: —
+Email: 
+
+9654. Residence Cielo Aperto
+ID: 61bb39b7-9e5a-4156-9504-9770443a31a1
+Slug: residence-cielo-aperto-bondone
+Nome: Residence Cielo Aperto
+Comune / Provincia: Bondone
+Indirizzo: Strada di Vason, 117, 38040 Vason TN
+Coordinate: Lat 46.037921, Lng 11.056574
+Website: http://www.residencecieloaperto.it/
+Email: 
+
+9655. Residence e Ristobar Prada
+ID: 9747c791-8a94-423b-9224-9a1f37286c0d
+Slug: residence-e-ristobar-prada-bondone
+Nome: Residence e Ristobar Prada
+Comune / Provincia: Bondone
+Indirizzo: Strada di Vason, 87, 38123 Trento TN
+Coordinate: Lat 46.038718, Lng 11.058146
+Website: http://www.pradasport.tn.it/
+Email: 
+
+9656. Affittacamere la Dormiente
+ID: 8b38f27b-2156-4a4f-9070-9003ababf857
+Slug: affittacamere-la-dormiente-bonea
+Nome: Affittacamere la Dormiente
+Comune / Provincia: Bonea
+Indirizzo: Via Convento, 7, 82030 Torrecuso BN
+Coordinate: Lat 41.188523, Lng 14.679969
+Website: —
+Email: 
+
+9657. Affittacamere Le Viole D'oro
+ID: 6e457460-bec4-4494-98e5-d0a942242029
+Slug: affittacamere-le-viole-d-oro-bonea
+Nome: Affittacamere Le Viole D'oro
+Comune / Provincia: Bonea
+Indirizzo: Via Roma, 13, 82030 Torrecuso BN
+Coordinate: Lat 41.190371, Lng 14.679307
+Website: https://fernandostravelexperience.eu/le-viole-d-39-oro-italy
+Email: 
+
+9658. Affittacamere simona
+ID: 66cea96e-6d53-43dc-b53b-7a393975d58e
+Slug: affittacamere-simona-bonea
+Nome: Affittacamere simona
+Comune / Provincia: Bonea
+Indirizzo: Via S. Giuseppe, 24, 82016 Montesarchio BN
+Coordinate: Lat 41.065708, Lng 14.637445
+Website: —
+Email: 
+
+9659. Agriturismo Bed and Breakfast La Vista Del Taburno
+ID: d6f317e2-5d2d-433c-88f0-8e4d2afc83af
+Slug: agriturismo-bed-and-breakfast-la-vista-del-tabur-bonea
+Nome: Agriturismo Bed and Breakfast La Vista Del Taburno
+Comune / Provincia: Bonea
+Indirizzo: Via Cirignano, 82016 Montesarchio BN
+Coordinate: Lat 41.07747, Lng 14.642947
+Website: http://www.lavistadeltaburno.it/
+Email: 
+
+9660. B&B Dietro l'Angolo
+ID: 6ff8c1c0-a65b-4461-ad64-820feeec65e3
+Slug: b-b-dietro-l-angolo-bonea
+Nome: B&B Dietro l'Angolo
+Comune / Provincia: Bonea
+Indirizzo: Via Tommaso Bucciano, 43, 82100 Benevento BN
+Coordinate: Lat 41.124623, Lng 14.799779
+Website: http://www.bbdietrolangolo.it/website/
+Email: 

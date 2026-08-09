@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+12636. Agriturismo i Gessi
+ID: 11484623-14a5-4908-9482-e1eb4ff89047
+Slug: agriturismo-i-gessi-calvignano
+Nome: Agriturismo i Gessi
+Comune / Provincia: Calvignano
+Indirizzo: Via Oratorio, 38, 27050 Corvino San Quirico PV
+Coordinate: Lat 45.005355, Lng 9.162363
+Website: http://www.cantineigessi.it/
+Email: 
+
+12637. B&B Il Pozzo
+ID: 11bbee5f-d400-4df7-9b8c-39c8fd48e869
+Slug: b-b-il-pozzo-calvignano
+Nome: B&B Il Pozzo
+Comune / Provincia: Calvignano
+Indirizzo: Via V. Emanuele, 60, 27040 Montalto Pavese PV
+Coordinate: Lat 44.979668, Lng 9.207022
+Website: https://www.ilpozzodimontalto.com/
+Email: 
+
+12638. Castello di Mornico Losana
+ID: b3e6f423-58e5-4212-b2f3-e6af31008ec5
+Slug: castello-di-mornico-losana-calvignano
+Nome: Castello di Mornico Losana
+Comune / Provincia: Calvignano
+Indirizzo: Via Cesare Bevilacqua, 2, 27040 Mornico PV
+Coordinate: Lat 45.011458, Lng 9.202429
+Website: http://www.castellodimornico.it/
+Email: 
+
+12639. HOTEL LE VIGNE DI CORVINO - Ristorante Pizzeria
+ID: e4eee0e0-c2e9-4d9d-b29b-5d7fcc3821b7
+Slug: hotel-le-vigne-di-corvino-ristorante-pizzeria-calvignano
+Nome: HOTEL LE VIGNE DI CORVINO - Ristorante Pizzeria
+Comune / Provincia: Calvignano
+Indirizzo: Via Emilia, 42, 27050 Fumo, Corvino San Quirico PV
+Coordinate: Lat 45.023644, Lng 9.151729
+Website: https://levignedicorvino.it/
+Email: 
+
+12640. B&B Villa in Campagna
+ID: 65ea0732-25a4-4195-9d7f-39d10b82794b
+Slug: b-b-villa-in-campagna-calvisano
+Nome: B&B Villa in Campagna
+Comune / Provincia: Calvisano
+Indirizzo: di, Via J.F. Kennedy, 74/b, 25012 Viadana Bresciana BS
+Coordinate: Lat 45.375227, Lng 10.331577
+Website: http://www.villaincampagna.it/
+Email: 
+
+12641. Hotel Primavera
+ID: 9a4dade3-d5f0-440a-aaf0-87804db333e2
+Slug: hotel-primavera-calvisano
+Nome: Hotel Primavera
+Comune / Provincia: Calvisano
+Indirizzo: Viale Cavour, 36, 25015 Desenzano del Garda BS
+Coordinate: Lat 45.46436, Lng 10.536617
+Website: https://www.hotelsandiamo.com/hotel-primavera/
+Email: 
+
+12642. Locanda La Torre B&B
+ID: 942d04ea-c712-4d9d-950a-15886133c732
+Slug: locanda-la-torre-b-b-calvisano
+Nome: Locanda La Torre B&B
+Comune / Provincia: Calvisano
+Indirizzo: Via Dante, 6, 25012 Calvisano BS
+Coordinate: Lat 45.348038, Lng 10.341986
+Website: https://www.latorrebedandbreakfast.it/
+Email: 
+
+12643. Agriturismo Antica Masseria Fioretti
+ID: 9deea1b2-132a-46f0-a4f0-3508650a01e3
+Slug: agriturismo-antica-masseria-fioretti-calvizzano
+Nome: Agriturismo Antica Masseria Fioretti
+Comune / Provincia: Calvizzano
+Indirizzo: V. Tirone, 13, 80145 Napoli NA
+Coordinate: Lat 40.890171, Lng 14.207767
+Website: —
+Email: 
+
+12644. Agriturismo Balestrieri
+ID: c254d95a-2bc0-4022-a867-46b7debe5267
+Slug: agriturismo-balestrieri-calvizzano
+Nome: Agriturismo Balestrieri
+Comune / Provincia: Calvizzano
+Indirizzo: Via Parroco Giustino Russolillo, 110, 80126 Napoli NA
+Coordinate: Lat 40.862408, Lng 14.166313
+Website: https://agriturismobalestrieri.eatbu.com/?lang=it
+Email: 
+
+12645. Agriturismo Country House "Rifugio Degli Dei"
+ID: e90acfce-adf6-4769-a41d-d1ad9bcddb78
+Slug: agriturismo-country-house-rifugio-degli-dei-calvizzano
+Nome: Agriturismo Country House "Rifugio Degli Dei"
+Comune / Provincia: Calvizzano
+Indirizzo: Via Arienzo, 43, 84017 Positano SA
+Coordinate: Lat 40.626669, Lng 14.500172
+Website: http://www.rifugiodeglidei.it/
+Email: 
+
+12646. Agriturismo il Turuziello
+ID: fe2012b5-f0cf-4853-9afe-4caa4e0c21a7
+Slug: agriturismo-il-turuziello-calvizzano
+Nome: Agriturismo il Turuziello
+Comune / Provincia: Calvizzano
+Indirizzo: Via Turiello, 5, 80061 Massa Lubrense NA
+Coordinate: Lat 40.598243, Lng 14.34325
+Website: http://www.agriturismoturuziello.com/
+Email: 
+
+12647. Agriturismo La Casa Del Ghiro
+ID: 47987aeb-1c53-49e9-bff6-b812f05f4ce7
+Slug: agriturismo-la-casa-del-ghiro-calvizzano
+Nome: Agriturismo La Casa Del Ghiro
+Comune / Provincia: Calvizzano
+Indirizzo: Via S. Nicola, 15, 80050 Franche NA
+Coordinate: Lat 40.673047, Lng 14.526392
+Website: https://www.lacasadelghiro.it/
+Email: 
+
+12648. Agriturismo La Lobra
+ID: 8b608fcf-2b1c-45ce-bca1-95c013fb2762
+Slug: agriturismo-la-lobra-calvizzano
+Nome: Agriturismo La Lobra
+Comune / Provincia: Calvizzano
+Indirizzo: Via Fontanella, 17, 80061 Massa Lubrense NA
+Coordinate: Lat 40.60741, Lng 14.33644
+Website: http://www.lalobra.it/
+Email: 
+
+12649. Agriturismo La Montagna
+ID: 113c125c-a483-4afc-a296-a25865e294b7
+Slug: agriturismo-la-montagna-calvizzano
+Nome: Agriturismo La Montagna
+Comune / Provincia: Calvizzano
+Indirizzo: Via Rossi, 60, 80030 Scisciano NA
+Coordinate: Lat 40.900199, Lng 14.471197
+Website: https://www.facebook.com/agriturismolamontagna/
+Email: 
+
+12650. Agriturismo Le Grotte
+ID: 69dc8382-067c-4645-a0d7-da67155db441
+Slug: agriturismo-le-grotte-calvizzano
+Nome: Agriturismo Le Grotte
+Comune / Provincia: Calvizzano
+Indirizzo: Via Circumvallazione Esterna, 223, 80019 Qualiano NA
+Coordinate: Lat 40.926333, Lng 14.118515
+Website: —
+Email: 
+
+12651. Agriturismo Primaluce Sorrento
+ID: ec0926d6-4766-4518-ba0e-f7237269e838
+Slug: agriturismo-primaluce-sorrento-calvizzano
+Nome: Agriturismo Primaluce Sorrento
+Comune / Provincia: Calvizzano
+Indirizzo: Via Rivezzoli, 9, 80067 Sorrento NA
+Coordinate: Lat 40.612007, Lng 14.395353
+Website: http://primalucesorrento.com/
+Email: 
+
+12652. Agriturismo Restaurant Fattoria Terranova
+ID: e91b2e9f-283c-4a11-bd27-4113669f81e6
+Slug: agriturismo-restaurant-fattoria-terranova-calvizzano
+Nome: Agriturismo Restaurant Fattoria Terranova
+Comune / Provincia: Calvizzano
+Indirizzo: Via Pontone, 10, 80061 Sant'Agata sui Due Golfi NA
+Coordinate: Lat 40.60331, Lng 14.385386
+Website: http://fattoriaterranova.it/
+Email: 
+
+12653. Agriturismo San Martino
+ID: 9e1f9dd5-90d1-4ad5-9550-539140316789
+Slug: agriturismo-san-martino-calvizzano
+Nome: Agriturismo San Martino
+Comune / Provincia: Calvizzano
+Indirizzo: Via Pietrarsa, 17, 80078 Pozzuoli NA
+Coordinate: Lat 40.85555, Lng 14.127933
+Website: http://www.agriturismosmartino.com/
+Email: 
+
+12654. Antico Casale Colli Di San Pietro
+ID: ab18cd19-fa87-4edb-af04-c19ee0901c6d
+Slug: antico-casale-colli-di-san-pietro-calvizzano
+Nome: Antico Casale Colli Di San Pietro
+Comune / Provincia: Calvizzano
+Indirizzo: Via Cermenna, 47, 80063 Piano di Sorrento NA
+Coordinate: Lat 40.620506, Lng 14.430149
+Website: http://www.ilcasaleantico.com/
+Email: 
+
+12655. B&B La casa di Vale
+ID: 9ccdc162-f952-4753-8a9f-9ea122478626
+Slug: b-b-la-casa-di-vale-calvizzano
+Nome: B&B La casa di Vale
+Comune / Provincia: Calvizzano
+Indirizzo: Corso Umberto I, 90, 80034 Marigliano NA
+Coordinate: Lat 40.926155, Lng 14.449969
+Website: https://www.booking.com/Share-tY9KlJ
+Email: 
+
+12656. Hotel Ristorante Donato S.R.L.
+ID: f11e56e4-7ef9-42b2-a6a4-91305adf0045
+Slug: hotel-ristorante-donato-s-r-l-calvizzano
+Nome: Hotel Ristorante Donato S.R.L.
+Comune / Provincia: Calvizzano
+Indirizzo: Viale della Resistenza, 73, 80012 Calvizzano NA
+Coordinate: Lat 40.90453, Lng 14.179072
+Website: http://www.hotelristorantedonato.com/
+Email: 
+
+12657. Il Giardino dell'Orco
+ID: e0c264dc-470c-4549-ab13-3391dc15c50c
+Slug: il-giardino-dell-orco-calvizzano
+Nome: Il Giardino dell'Orco
+Comune / Provincia: Calvizzano
+Indirizzo: Via Lago Averno, Lato Sinistro, 6, 80078 Pozzuoli NA
+Coordinate: Lat 40.835212, Lng 14.072881
+Website: http://www.ilgiardinodellorco.it/
+Email: 
+
+12658. Il Giglio della Valle
+ID: 0d27bab6-bbbb-4171-8625-5e03afb58296
+Slug: il-giglio-della-valle-calvizzano
+Nome: Il Giglio della Valle
+Comune / Provincia: Calvizzano
+Indirizzo: Viale privato Monsignor Vito Moio, 80016 Marano di Napoli NA
+Coordinate: Lat 40.903494, Lng 14.129927
+Website: http://www.ilgigliodellavalle.it/
+Email: 
+
+12659. Il Quarto Miglio
+ID: 2d727e1e-8006-4a36-a02b-1a3015b535af
+Slug: il-quarto-miglio-calvizzano
+Nome: Il Quarto Miglio
+Comune / Provincia: Calvizzano
+Indirizzo: Via Cesare Pavese, 17A, 80010 Quarto NA
+Coordinate: Lat 40.893176, Lng 14.14578
+Website: http://www.ilquartomiglio.it/
+Email: 
+
+12660. La Colombaia
+ID: 9d7dada1-b89d-4860-b615-4c279113952c
+Slug: la-colombaia-calvizzano
+Nome: La Colombaia
+Comune / Provincia: Calvizzano
+Indirizzo: Via Grotte S. Lazzaro, 9, 81043 Capua CE
+Coordinate: Lat 41.101766, Lng 14.238785
+Website: https://www.lacolombaia.it/
+Email: 
+
+12661. Tenuta Monte Sant'Angelo
+ID: 91556e5a-743e-4b80-9988-22e22a0a716b
+Slug: tenuta-monte-sant-angelo-calvizzano
+Nome: Tenuta Monte Sant'Angelo
+Comune / Provincia: Calvizzano
+Indirizzo: Via Ventilabro, 67, 80126 Napoli NA
+Coordinate: Lat 40.841301, Lng 14.179591
+Website: http://www.tenutamontesantangelo.it/
+Email: 
+
+12662. B&B Ca' Poggio
+ID: dce5cb46-24c9-4305-9794-a91f6314ad7a
+Slug: b-b-ca-poggio-camagna-monferrato
+Nome: B&B Ca' Poggio
+Comune / Provincia: Camagna Monferrato
+Indirizzo: Via Ca' Poggio, 17, 15049 Vignale Monferrato AL
+Coordinate: Lat 45.022013, Lng 8.412498
+Website: http://www.feldenkraismovimento.it/
+Email: 
+
+12663. Ca’ Magna
+ID: 2abc6eb6-cd0a-478e-b8a6-f47d6b83072f
+Slug: ca-magna-camagna-monferrato
+Nome: Ca’ Magna
+Comune / Provincia: Camagna Monferrato
+Indirizzo: Via Sotto Orti, 19, 15030 Camagna Monferrato AL
+Coordinate: Lat 45.018345, Lng 8.428359
+Website: http://www.dapaola.it/
+Email: 
+
+12664. Domus Amica
+ID: 3e909fc7-ffcd-4f87-a849-fe006354b478
+Slug: domus-amica-camagna-monferrato
+Nome: Domus Amica
+Comune / Provincia: Camagna Monferrato
+Indirizzo: Via Marconi, 101, 15037 Lu e Cuccaro Monferrato AL
+Coordinate: Lat 44.998885, Lng 8.484397
+Website: http://www.domusamica.it/
+Email: 
+
+12665. Hotel Ariotto Village
+ID: dfbc18c9-ec90-4d63-a2e5-2719c2722eda
+Slug: hotel-ariotto-village-camagna-monferrato
+Nome: Hotel Ariotto Village
+Comune / Provincia: Camagna Monferrato
+Indirizzo: Strada Cappelletta, 3, 15030 Terruggia AL
+Coordinate: Lat 45.084054, Lng 8.43915
+Website: http://www.ariotto.it/
+Email: 
+
+12666. Locanda degli Ultimi
+ID: ca701bef-3f55-42d6-a397-83abb7e0166a
+Slug: locanda-degli-ultimi-camagna-monferrato
+Nome: Locanda degli Ultimi
+Comune / Provincia: Camagna Monferrato
+Indirizzo: Via S. Rocco, 15, 15049 San Rocco AL
+Coordinate: Lat 45.004589, Lng 8.401783
+Website: https://roomsit.top/locandadegliazBNl
+Email: 
+
+12667. Villa Rocco Country House
+ID: 01b7e91e-920c-4c7b-b608-c2d637734c5b
+Slug: villa-rocco-country-house-camagna-monferrato
+Nome: Villa Rocco Country House
+Comune / Provincia: Camagna Monferrato
+Indirizzo: Strada per Rosignano, 11, 15039 Ozzano Monferrato AL
+Coordinate: Lat 45.087605, Lng 8.388181
+Website: http://www.villarocco.com/
+Email: 
+
+12668. B&B La Casa Di Alice
+ID: 76e4283c-c86e-4bfa-9c0c-38ce8e33e4eb
+Slug: b-b-la-casa-di-alice-camaiore
+Nome: B&B La Casa Di Alice
+Comune / Provincia: Camaiore
+Indirizzo: Via del Leccio, 49, 55041 Montemagno LU
+Coordinate: Lat 43.910669, Lng 10.338086
+Website: https://www.la-casa-di-alice.it/
+Email: 
+
+12669. B&B Relais dell'Angelo
+ID: a6ac39f1-ee19-4635-9083-9dcb6838f005
+Slug: b-b-relais-dell-angelo-camaiore
+Nome: B&B Relais dell'Angelo
+Comune / Provincia: Camaiore
+Indirizzo: Via XX Settembre, 146, 55041 Camaiore LU
+Coordinate: Lat 43.937577, Lng 10.305948
+Website: —
+Email: 
+
+12670. Bed & Breakfast Antica Fattoria La Verdina
+ID: c13de2b6-b843-49d2-b864-b1c9c8cc66b4
+Slug: bed-breakfast-antica-fattoria-la-verdina-camaiore
+Nome: Bed & Breakfast Antica Fattoria La Verdina
+Comune / Provincia: Camaiore
+Indirizzo: Via della Verdina, 36, 55041 Camaiore LU
+Coordinate: Lat 43.940893, Lng 10.306613
+Website: http://www.laverdina.it/
+Email: 

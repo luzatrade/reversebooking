@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+13546. Hotel Plank
+ID: ac76b663-041f-40e8-ba6a-80008c39785e
+Slug: hotel-plank-canal-san-bovo
+Nome: Hotel Plank
+Comune / Provincia: Canal San Bovo
+Indirizzo: Via Laghetto, 35, 38054 San Martino di Castrozza TN
+Coordinate: Lat 46.260977, Lng 11.794259
+Website: http://www.hotelplank.it/
+Email: 
+
+13547. Hotel Salgetti
+ID: dce5d400-7304-43be-8322-fefd218d8de1
+Slug: hotel-salgetti-canal-san-bovo
+Nome: Hotel Salgetti
+Comune / Provincia: Canal San Bovo
+Indirizzo: Via Roma, 149, 38050 Mezzano TN
+Coordinate: Lat 46.156574, Lng 11.814761
+Website: http://www.hotelsalgetti.it/
+Email: 
+
+13548. Park Hotel Miramonti
+ID: 833f6317-401b-437a-bc44-39865bc88827
+Slug: park-hotel-miramonti-canal-san-bovo
+Nome: Park Hotel Miramonti
+Comune / Provincia: Canal San Bovo
+Indirizzo: V. Hermann Panzer, 2, 38054 San Martino di Castrozza TN
+Coordinate: Lat 46.261797, Lng 11.798697
+Website: http://www.parkhotelmiramonti.com/
+Email: 
+
+13549. Residence Lastei
+ID: afd4ce8a-724b-4a51-a563-1665f921b65c
+Slug: residence-lastei-canal-san-bovo
+Nome: Residence Lastei
+Comune / Provincia: Canal San Bovo
+Indirizzo: V. Hermann Panzer, 3, 38054 San Martino di Castrozza TN
+Coordinate: Lat 46.261074, Lng 11.797983
+Website: https://www.residencehotels.com/lastei/
+Email: 
+
+13550. Stella d'Oro Lamon
+ID: 616340de-a734-41c9-8065-8b938c8961fa
+Slug: stella-d-oro-lamon-canal-san-bovo
+Nome: Stella d'Oro Lamon
+Comune / Provincia: Canal San Bovo
+Indirizzo: Via Roma, 7, 32033 Lamon BL
+Coordinate: Lat 46.046486, Lng 11.748431
+Website: http://www.stelladorolamon.com/
+Email: 
+
+13551. Agrisuite Le Querce del Vareglio
+ID: 77ce5773-bb95-46b7-89e1-ca4c47103c8f
+Slug: agrisuite-le-querce-del-vareglio-canale
+Nome: Agrisuite Le Querce del Vareglio
+Comune / Provincia: Canale
+Indirizzo: Cascina Vareglio, 12043 Canale CN
+Coordinate: Lat 44.812411, Lng 7.988962
+Website: http://www.lequercedelvareglio.com/
+Email: 
+
+13552. Agriturismo dei Magi
+ID: fa1eef25-8c95-4725-9f8a-d23fa3877159
+Slug: agriturismo-dei-magi-canale
+Nome: Agriturismo dei Magi
+Comune / Provincia: Canale
+Indirizzo: Via Magliano, 3, 12040 Priocca CN
+Coordinate: Lat 44.783288, Lng 8.066064
+Website: http://www.agrimagi.it/
+Email: 
+
+13553. Cantina Franco Giacinto e Agriturismo Cà Colomba
+ID: a279d265-0e1f-4604-bfb6-334195c7836b
+Slug: cantina-franco-giacinto-e-agriturismo-ca-colomba-canale
+Nome: Cantina Franco Giacinto e Agriturismo Cà Colomba
+Comune / Provincia: Canale
+Indirizzo: Borgata Valmolina, 60, 14015 San Damiano d'Asti AT
+Coordinate: Lat 44.828858, Lng 8.039959
+Website: http://cantinafrancogiacinto.it/
+Email: 
+
+13554. Casalora Camere di Charme - La Madernassa Resort
+ID: bf5ac4d2-30dc-4c3a-9691-921479d0a391
+Slug: casalora-camere-di-charme-la-madernassa-resort-canale
+Nome: Casalora Camere di Charme - La Madernassa Resort
+Comune / Provincia: Canale
+Indirizzo: Loc. Lora, 3, 12050 Guarene CN
+Coordinate: Lat 44.733935, Lng 8.012072
+Website: https://www.lamadernassa.it/camere/
+Email: 
+
+13555. Il Borgo B&B
+ID: 0ad41d7f-c461-48c4-8f15-449256705304
+Slug: il-borgo-b-b-canale
+Nome: Il Borgo B&B
+Comune / Provincia: Canale
+Indirizzo: Via Trento, 2, 12050 Castellinaldo d'Alba CN
+Coordinate: Lat 44.775739, Lng 8.031626
+Website: https://www.ilborgobeb.com/
+Email: 
+
+13556. La Madernassa Resort
+ID: c80ca43f-abfa-456e-8e20-b5c7c2b4d0be
+Slug: la-madernassa-resort-canale
+Nome: La Madernassa Resort
+Comune / Provincia: Canale
+Indirizzo: Reg. Lora, 2, 12050 Guarene CN
+Coordinate: Lat 44.734801, Lng 8.011651
+Website: http://www.lamadernassa.it/
+Email: 
+
+13557. La vispa ceresa
+ID: 20b74747-5e33-4fbe-b2de-5d09605701db
+Slug: la-vispa-ceresa-canale
+Nome: La vispa ceresa
+Comune / Provincia: Canale
+Indirizzo: Via Regina Elena, 7, 12050 Castellinaldo d'Alba CN
+Coordinate: Lat 44.773422, Lng 8.033069
+Website: http://www.lavispaceresa.com/
+Email: 
+
+13558. Lange Priocca B&B
+ID: 1b8cb857-cc51-4f22-8c5e-f11d608b1190
+Slug: lange-priocca-b-b-canale
+Nome: Lange Priocca B&B
+Comune / Provincia: Canale
+Indirizzo: Strada Sabbione, 20, 12040 Priocca CN
+Coordinate: Lat 44.792626, Lng 8.053883
+Website: http://www.langepriocca.com/
+Email: 
+
+13559. Spa Roero Relax Resort
+ID: ae4c913e-b6de-4754-90ae-04b9c2abf0e5
+Slug: spa-roero-relax-resort-canale
+Nome: Spa Roero Relax Resort
+Comune / Provincia: Canale
+Indirizzo: Via Valentino, 16, 12043 Canale CN
+Coordinate: Lat 44.789618, Lng 7.983041
+Website: http://www.sparoerorelaxresort.com/index.php/it/
+Email: 
+
+13560. Villa Cornarea
+ID: d39b41db-07d0-4618-b5df-6baf246324d3
+Slug: villa-cornarea-canale
+Nome: Villa Cornarea
+Comune / Provincia: Canale
+Indirizzo: Via Valentino, 12043 Canale CN
+Coordinate: Lat 44.788638, Lng 7.978955
+Website: http://www.villacornarea.com/
+Email: 
+
+13561. Villa Tiboldi
+ID: 06b6b0ff-2a43-4a77-8b28-8cd9cf1a4993
+Slug: villa-tiboldi-canale
+Nome: Villa Tiboldi
+Comune / Provincia: Canale
+Indirizzo: Località Tiboldi, 127, 12043 Canale CN
+Coordinate: Lat 44.795477, Lng 7.975567
+Website: http://www.villatiboldi.com/
+Email: 
+
+13562. Albergo Felice - Hotel Falcade
+ID: dfdd189a-76df-4fdb-af7c-cabe5057a335
+Slug: albergo-felice-hotel-falcade-canale-d-agordo
+Nome: Albergo Felice - Hotel Falcade
+Comune / Provincia: Canale d'Agordo
+Indirizzo: Lungo Tegosa, 43, 32020 Caviola BL
+Coordinate: Lat 46.363938, Lng 11.899231
+Website: http://www.albergofelice.it/it/
+Email: 
+
+13563. Albergo Ristorante Alle Codole
+ID: 27690941-c2a9-444d-a2e1-1e4d0ade24c5
+Slug: albergo-ristorante-alle-codole-canale-d-agordo
+Nome: Albergo Ristorante Alle Codole
+Comune / Provincia: Canale d'Agordo
+Indirizzo: Via XX Agosto, 29, 32020 Canale d'Agordo BL
+Coordinate: Lat 46.356729, Lng 11.913571
+Website: http://www.allecodole.eu/
+Email: 
+
+13564. Albergo Rondinella
+ID: c7f103cc-9af9-43d7-b676-39beffe5a554
+Slug: albergo-rondinella-canale-d-agordo
+Nome: Albergo Rondinella
+Comune / Provincia: Canale d'Agordo
+Indirizzo: Frazione Feder, 64/66, 32020 Canale d'Agordo BL
+Coordinate: Lat 46.37415, Lng 11.89853
+Website: http://rondinellahotelfeder.com/
+Email: 
+
+13565. B&B Dolomites
+ID: f0b774f8-9904-465e-85ff-1d39c2440910
+Slug: b-b-dolomites-canale-d-agordo
+Nome: B&B Dolomites
+Comune / Provincia: Canale d'Agordo
+Indirizzo: Via al Forn, 1, 32020 Canale d'Agordo BL
+Coordinate: Lat 46.361192, Lng 11.91463
+Website: http://bbdolomites.com/
+Email: 
+
+13566. B&B El Lares | B&B L'avez
+ID: 31c92db0-5efd-424b-983d-fd85573ea7bd
+Slug: b-b-el-lares-b-b-l-avez-canale-d-agordo
+Nome: B&B El Lares | B&B L'avez
+Comune / Provincia: Canale d'Agordo
+Indirizzo: Via Lotta, 34, 32020 Canale d'Agordo BL
+Coordinate: Lat 46.357987, Lng 11.915721
+Website: https://www.dolomitirentals.com/
+Email: 
+
+13567. Garnì Costa
+ID: c37e9fd6-e23a-4bf8-aa7d-849538c37089
+Slug: garni-costa-canale-d-agordo
+Nome: Garnì Costa
+Comune / Provincia: Canale d'Agordo
+Indirizzo: Piazza Serafini, 6, 32020 Canale d'Agordo BL
+Coordinate: Lat 46.360307, Lng 11.91598
+Website: http://www.garnicosta.com/
+Email: 
+
+13568. Hotel Belvedere
+ID: 8a3b11dd-b4f9-452e-8cee-b1f6c924032b
+Slug: hotel-belvedere-canale-d-agordo
+Nome: Hotel Belvedere
+Comune / Provincia: Canale d'Agordo
+Indirizzo: Via Giuseppe Garibaldi, 28, 32020 Piè Falcade BL
+Coordinate: Lat 46.354524, Lng 11.861463
+Website: http://www.belvederehotel.info/
+Email: 
+
+13569. Hotel Centrale
+ID: 63b9af96-5973-478f-8fe2-0569ee551b02
+Slug: hotel-centrale-canale-d-agordo
+Nome: Hotel Centrale
+Comune / Provincia: Canale d'Agordo
+Indirizzo: Piazza Kennedy, 1, 32022 Alleghe BL
+Coordinate: Lat 46.406224, Lng 12.020748
+Website: https://hotelcentralealleghe.com/
+Email: 
+
+13570. Hotel Cristallo
+ID: b7ac795d-3468-4293-85fc-1bc01bc112c9
+Slug: hotel-cristallo-canale-d-agordo
+Nome: Hotel Cristallo
+Comune / Provincia: Canale d'Agordo
+Indirizzo: Strada Statale 346 del Passo di S. Pellegrino, 22, 38035 Moena TN
+Coordinate: Lat 46.377998, Lng 11.790312
+Website: http://www.hotel-cristallo.com/
+Email: 
+
+13571. Hotel Marianna
+ID: b28769af-6844-4dfd-b0ed-84cf7da23aee
+Slug: hotel-marianna-canale-d-agordo
+Nome: Hotel Marianna
+Comune / Provincia: Canale d'Agordo
+Indirizzo: Via Pian, 28, 32020 Rocca Pietore BL
+Coordinate: Lat 46.425646, Lng 11.944866
+Website: http://www.hotelmarianna.it/
+Email: 
+
+13572. Hotel Orsa Maggiore
+ID: 534cd1a8-a53e-47f2-87a3-38f8407e6c64
+Slug: hotel-orsa-maggiore-canale-d-agordo
+Nome: Hotel Orsa Maggiore
+Comune / Provincia: Canale d'Agordo
+Indirizzo: Corso Italia, 57, 32020 Piè Falcade BL
+Coordinate: Lat 46.360523, Lng 11.885812
+Website: http://www.hotelorsamaggiore.net/
+Email: 
+
+13573. Hotel Tyrolia Valverde
+ID: b4d8a432-7404-4545-8a3e-7e489a952f30
+Slug: hotel-tyrolia-valverde-canale-d-agordo
+Nome: Hotel Tyrolia Valverde
+Comune / Provincia: Canale d'Agordo
+Indirizzo: Snc, Località Malga Ciapela, 32020 Rocca Pietore BL
+Coordinate: Lat 46.427319, Lng 11.90925
+Website: http://www.tyroliahotel.com/
+Email: 
+
+13574. Residence Panorama
+ID: f5411609-92dc-4449-8eee-f38d33cb99ef
+Slug: residence-panorama-canale-d-agordo
+Nome: Residence Panorama
+Comune / Provincia: Canale d'Agordo
+Indirizzo: Localita' Caverson, 2, 32020 Falcade BL
+Coordinate: Lat 46.350151, Lng 11.848352
+Website: http://www.panoramafalcade.it/
+Email: 
+
+13575. TEA San Pellegrino
+ID: 3514c0bf-32d1-475d-92f1-445b0a7cda10
+Slug: tea-san-pellegrino-canale-d-agordo
+Nome: TEA San Pellegrino
+Comune / Provincia: Canale d'Agordo
+Indirizzo: Località la Mora, 9, 32020 Falcade BL
+Coordinate: Lat 46.363515, Lng 11.900762
+Website: http://www.teasanpellegrino.com/
+Email: 
+
+13576. Agriturismo Casale Sasso
+ID: 140ceafa-4c70-4c7a-8743-a78cf85c7552
+Slug: agriturismo-casale-sasso-canale-monterano
+Nome: Agriturismo Casale Sasso
+Comune / Provincia: Canale Monterano
+Indirizzo: Via Monte li Pozzi, 17, 00052 Cerveteri RM
+Coordinate: Lat 42.038221, Lng 12.020761
+Website: https://www.casalesasso.it/
+Email: 
+
+13577. Agriturismo Fontelupo
+ID: 2ba0b968-f146-4e4a-9107-ee29ad788d03
+Slug: agriturismo-fontelupo-canale-monterano
+Nome: Agriturismo Fontelupo
+Comune / Provincia: Canale Monterano
+Indirizzo: Via della Selciatella, 8, 00062 Bracciano RM
+Coordinate: Lat 42.081453, Lng 12.206165
+Website: http://www.agriturismofontelupo.com/
+Email: 
+
+13578. Agriturismo Voltarina
+ID: e34a423f-52c7-49cb-a993-5dece44364bd
+Slug: agriturismo-voltarina-canale-monterano
+Nome: Agriturismo Voltarina
+Comune / Provincia: Canale Monterano
+Indirizzo: Via del tostino, 2, 00062 Bracciano RM
+Coordinate: Lat 42.120492, Lng 12.142961
+Website: http://www.voltarina.com/
+Email: 
+
+13579. Casacocò
+ID: 7d837ba3-f76d-49d4-a1be-6d461451f631
+Slug: casacoco-canale-monterano
+Nome: Casacocò
+Comune / Provincia: Canale Monterano
+Indirizzo: Via Fonte del Gatto, 00066 Manziana RM
+Coordinate: Lat 42.136111, Lng 12.129448
+Website: https://www.casacoco.it/
+Email: 
+
+13580. Il Casale della Merenda
+ID: 75fc7a2b-18e8-4ce9-b3f5-fd74c1ef6af3
+Slug: il-casale-della-merenda-canale-monterano
+Nome: Il Casale della Merenda
+Comune / Provincia: Canale Monterano
+Indirizzo: di merenda 7,, Via Casale, 00060 Canale Monterano RM
+Coordinate: Lat 42.135737, Lng 12.093655
+Website: https://il-casale-della-merenda.hotelpreferito.top/
+Email: 

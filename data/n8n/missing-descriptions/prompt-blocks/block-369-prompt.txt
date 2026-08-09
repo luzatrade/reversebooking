@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+12881. Hotel Ristorante Magia del Brenta - Riviera del Brenta
+ID: 8461f88c-ecdc-44cd-b130-eebed0de9fd6
+Slug: hotel-ristorante-magia-del-brenta-riviera-del-br-campagna-lupia
+Nome: Hotel Ristorante Magia del Brenta - Riviera del Brenta
+Comune / Provincia: Campagna Lupia
+Indirizzo: Via Naviglio, 17, 30039 Fiesso d'Artico VE
+Coordinate: Lat 45.414239, Lng 12.019913
+Website: https://www.magiadelbrenta.com/
+Email: 
+
+12882. Hotel Ristorante Poppi Di Poppi Adriano & C. S.N.C.
+ID: e179d326-7284-4f2e-a0af-11adbaba34c5
+Slug: hotel-ristorante-poppi-di-poppi-adriano-c-s-n-c-campagna-lupia
+Nome: Hotel Ristorante Poppi Di Poppi Adriano & C. S.N.C.
+Comune / Provincia: Campagna Lupia
+Indirizzo: Strada Statale 309 Romea, 80, 30034 Mira VE
+Coordinate: Lat 45.418693, Lng 12.166863
+Website: http://hotelpoppi.com/
+Email: 
+
+12883. Hotel Riviera dei Dogi
+ID: 40c61aae-990c-4e06-9791-9d32a7de2f81
+Slug: hotel-riviera-dei-dogi-campagna-lupia
+Nome: Hotel Riviera dei Dogi
+Comune / Provincia: Campagna Lupia
+Indirizzo: Via Don G. Minzoni, 33, 30034 Mira VE
+Coordinate: Lat 45.438286, Lng 12.137508
+Website: http://www.rivieradeidogi.com/
+Email: 
+
+12884. Villa Goetzen Ristorante Hotel
+ID: 1eb9cd95-6116-4ef8-b221-739d18a2853e
+Slug: villa-goetzen-ristorante-hotel-campagna-lupia
+Nome: Villa Goetzen Ristorante Hotel
+Comune / Provincia: Campagna Lupia
+Indirizzo: Via G. Matteotti, 2c, 30031 Dolo VE
+Coordinate: Lat 45.424992, Lng 12.079294
+Website: http://www.villagoetzen.it/
+Email: 
+
+12885. Villa Martin Hotel
+ID: d7739ea1-d54e-4be1-be18-a5cec3dfe406
+Slug: villa-martin-hotel-campagna-lupia
+Nome: Villa Martin Hotel
+Comune / Provincia: Campagna Lupia
+Indirizzo: Via Argine Sinistro, 105, 30031 Dolo VE
+Coordinate: Lat 45.41478, Lng 12.097715
+Website: https://www.villamartinhotel.com/
+Email: 
+
+12886. Autohotel Roma
+ID: f9738245-2818-4a33-9f97-ee80b510e006
+Slug: autohotel-roma-campagnano-di-roma
+Nome: Autohotel Roma
+Comune / Provincia: Campagnano di Roma
+Indirizzo: Via Cassia, Km 24.300, 00060 Formello RM
+Coordinate: Lat 42.074391, Lng 12.373329
+Website: http://www.autohotel.it/roma/
+Email: 
+
+12887. B&B Nonna Loreta Cod CIN IT058038C1ULTC5PRG
+ID: 40dacab2-d8f1-48c6-aab6-aed254ca1f45
+Slug: b-b-nonna-loreta-cod-cin-it058038c1ultc5prg-campagnano-di-roma
+Nome: B&B Nonna Loreta Cod CIN IT058038C1ULTC5PRG
+Comune / Provincia: Campagnano di Roma
+Indirizzo: Via Delle Nocette, 6, 00060 Formello RM
+Coordinate: Lat 42.066433, Lng 12.398328
+Website: https://sites.google.com/view/bb-nonna-loreta/
+Email: 
+
+12888. Hotel Riesco
+ID: 430a569f-71fe-44b2-9231-1d077e1901bf
+Slug: hotel-riesco-campagnano-di-roma
+Nome: Hotel Riesco
+Comune / Provincia: Campagnano di Roma
+Indirizzo: Via della Stazione di Cesano, 340, 00123 Roma RM
+Coordinate: Lat 42.06216, Lng 12.327125
+Website: https://www.hotelriesco.it/
+Email: 
+
+12889. La Meridiana Relais
+ID: 16993081-9c8a-4b26-a063-f815571eacb2
+Slug: la-meridiana-relais-campagnano-di-roma
+Nome: La Meridiana Relais
+Comune / Provincia: Campagnano di Roma
+Indirizzo: Via Nazario Sauro, 42c, 00060 Formello RM
+Coordinate: Lat 42.080955, Lng 12.401909
+Website: http://www.meridianarelais.it/
+Email: 
+
+12890. Agriturismo - Podere Scopicci
+ID: b403d69d-4255-4749-aabb-46cca00f07b7
+Slug: agriturismo-podere-scopicci-campagnatico
+Nome: Agriturismo - Podere Scopicci
+Comune / Provincia: Campagnatico
+Indirizzo: Via Fontemarina, località Scopicci, frazione 52, 58042 Campagnatico GR
+Coordinate: Lat 42.861527, Lng 11.23352
+Website: https://www.podere-scopicci.com/
+Email: 
+
+12891. Agriturismo Casa Olivo
+ID: d752aa36-f7a7-4072-acee-5bb54c284f75
+Slug: agriturismo-casa-olivo-campagnatico
+Nome: Agriturismo Casa Olivo
+Comune / Provincia: Campagnatico
+Indirizzo: SP44 delle Via delle Conce, 35, 58042 Campagnatico GR
+Coordinate: Lat 42.872232, Lng 11.275102
+Website: https://www.casaolivo.com/
+Email: 
+
+12892. AGRITURISMO FONTE DI BRACA
+ID: 4a08e427-ea51-4e52-b5cb-8fdf5ee007fa
+Slug: agriturismo-fonte-di-braca-campagnatico
+Nome: AGRITURISMO FONTE DI BRACA
+Comune / Provincia: Campagnatico
+Indirizzo: LOCALITA POGGIO CAIANO76, 58042 Campagnatico GR
+Coordinate: Lat 42.885599, Lng 11.247082
+Website: —
+Email: 
+
+12893. Agriturismo in Toscana con Piscina - Fonte Marina Alta
+ID: 25cfe804-6c9b-4c45-9c5d-088f1fcf3fda
+Slug: agriturismo-in-toscana-con-piscina-fonte-marina-campagnatico
+Nome: Agriturismo in Toscana con Piscina - Fonte Marina Alta
+Comune / Provincia: Campagnatico
+Indirizzo: Unnamed Road, 58042, 58042, 58042 Campagnatico GR
+Coordinate: Lat 42.876724, Lng 11.224868
+Website: http://www.fontemarinaalta.it/
+Email: 
+
+12894. Agriturismo Podere Il Sorbo
+ID: 8b1edea1-02bb-47c2-93ab-88f71d4b7549
+Slug: agriturismo-podere-il-sorbo-campagnatico
+Nome: Agriturismo Podere Il Sorbo
+Comune / Provincia: Campagnatico
+Indirizzo: Località Granaione, 50, 58042 Granaione GR
+Coordinate: Lat 42.831219, Lng 11.355948
+Website: https://podereilsorbo.it/
+Email: 
+
+12895. AGRITURISMO TAMANTINO
+ID: f8a0a4a4-7258-415b-9305-933e471ff473
+Slug: agriturismo-tamantino-campagnatico
+Nome: AGRITURISMO TAMANTINO
+Comune / Provincia: Campagnatico
+Indirizzo: PODERE TAMANTINO, 58042, 58042 Campagnatico GR
+Coordinate: Lat 42.867386, Lng 11.238457
+Website: —
+Email: 
+
+12896. Agriturismo Villa Bellaria
+ID: da568acc-d737-4194-a458-b39ab6a947bd
+Slug: agriturismo-villa-bellaria-campagnatico
+Nome: Agriturismo Villa Bellaria
+Comune / Provincia: Campagnatico
+Indirizzo: Via dei Granai, 1, 58042 Campagnatico GR
+Coordinate: Lat 42.882498, Lng 11.274489
+Website: http://www.villabellaria.it/
+Email: 
+
+12897. BioAgriturismo CORTE DEGLI ULIVI - Maremma Toscana
+ID: 13363f20-73c9-45f6-91c4-07b601bd59c9
+Slug: bioagriturismo-corte-degli-ulivi-maremma-toscana-campagnatico
+Nome: BioAgriturismo CORTE DEGLI ULIVI - Maremma Toscana
+Comune / Provincia: Campagnatico
+Indirizzo: Strada Provinciale dello Sbirro, 58100 Roselle GR
+Coordinate: Lat 42.846036, Lng 11.120431
+Website: https://www.cortedegliulivi.net/
+Email: 
+
+12898. Castello Di Vicarello
+ID: c013ed90-88cb-47f5-be9a-c70ec47d5baf
+Slug: castello-di-vicarello-campagnatico
+Nome: Castello Di Vicarello
+Comune / Provincia: Campagnatico
+Indirizzo: Loc, Via Vicarello, 1, 58044 Poggi del Sasso GR
+Coordinate: Lat 42.906757, Lng 11.322386
+Website: http://castellodivicarello.com/
+Email: 
+
+12899. Glamping Le Dune
+ID: 8de9d6fb-e24b-4eeb-91c5-fbd9fc3d7265
+Slug: glamping-le-dune-campagnatico
+Nome: Glamping Le Dune
+Comune / Provincia: Campagnatico
+Indirizzo: Località Ficari, SNC, 58044 Cinigiano GR
+Coordinate: Lat 42.880032, Lng 11.386916
+Website: https://www.glampingledune.it/
+Email: 
+
+12900. Guest House
+ID: cb13d07a-b94a-4a0f-8e7f-beebec760576
+Slug: guest-house-campagnatico
+Nome: Guest House
+Comune / Provincia: Campagnatico
+Indirizzo: Via Mazzini, 19, 58042 Campagnatico GR
+Coordinate: Lat 42.881793, Lng 11.277673
+Website: —
+Email: 
+
+12901. HOTEL ALBERGO LEA
+ID: f77a3dc1-f8ce-4e8b-9e27-128407d58d3f
+Slug: hotel-albergo-lea-campagnatico
+Nome: HOTEL ALBERGO LEA
+Comune / Provincia: Campagnatico
+Indirizzo: Via Batignanese, 113, 58100 Grosseto GR
+Coordinate: Lat 42.817115, Lng 11.135297
+Website: http://www.albergolea.it/
+Email: 
+
+12902. Hotel Relais Santa Genoveffa
+ID: f13dd136-d49e-4e1c-a42d-b4e86f82d88b
+Slug: hotel-relais-santa-genoveffa-campagnatico
+Nome: Hotel Relais Santa Genoveffa
+Comune / Provincia: Campagnatico
+Indirizzo: Podere Santa Genoveffa, 29, 58045 Civitella Paganico GR
+Coordinate: Lat 42.944175, Lng 11.277239
+Website: http://www.santagenoveffa.it/
+Email: 
+
+12903. Hotel Rifugio da Giulia
+ID: 87349ee5-8bc8-4b24-bb14-b4367972b157
+Slug: hotel-rifugio-da-giulia-campagnatico
+Nome: Hotel Rifugio da Giulia
+Comune / Provincia: Campagnatico
+Indirizzo: SP64, Km 2/00, 58045 Paganico GR
+Coordinate: Lat 42.938456, Lng 11.284006
+Website: https://rifugiodagiulia.it/
+Email: 
+
+12904. Locanda del glicine
+ID: ee829b81-d051-4668-a3fb-9eea7849b601
+Slug: locanda-del-glicine-campagnatico
+Nome: Locanda del glicine
+Comune / Provincia: Campagnatico
+Indirizzo: Piazza Garibaldi, 6, 58042 Campagnatico GR
+Coordinate: Lat 42.882989, Lng 11.27528
+Website: —
+Email: 
+
+12905. Locanda nel Cassero Camere
+ID: 8a927b8b-a458-42b3-b017-2bfce81da3a5
+Slug: locanda-nel-cassero-camere-campagnatico
+Nome: Locanda nel Cassero Camere
+Comune / Provincia: Campagnatico
+Indirizzo: Via del Cassero, 29, 58045 Civitella Marittima GR
+Coordinate: Lat 42.99434, Lng 11.280165
+Website: https://www.locandanelcassero.com/
+Email: 
+
+12906. Locanda nel Cassero ristorante
+ID: 77bb8365-e700-47b2-ada5-9a7264c05390
+Slug: locanda-nel-cassero-ristorante-campagnatico
+Nome: Locanda nel Cassero ristorante
+Comune / Provincia: Campagnatico
+Indirizzo: Via del Cassero, 29, 58045 Civitella Paganico GR
+Coordinate: Lat 42.994336, Lng 11.280128
+Website: http://www.locandanelcassero.com/
+Email: 
+
+12907. Monte di Bù affittacamere
+ID: e037b270-4ad8-4371-9e78-aba166916611
+Slug: monte-di-bu-affittacamere-campagnatico
+Nome: Monte di Bù affittacamere
+Comune / Provincia: Campagnatico
+Indirizzo: Loc.marrucheti, Podere Monte di Bù, 76, 58042 Bagno Roselle GR
+Coordinate: Lat 42.822919, Lng 11.206974
+Website: http://www.montedibu.it/
+Email: 
+
+12908. Paradise Agricamp
+ID: 7c081926-93f9-4cd7-b556-88d9ed976d12
+Slug: paradise-agricamp-campagnatico
+Nome: Paradise Agricamp
+Comune / Provincia: Campagnatico
+Indirizzo: Localita' Poggio Sasso S.N.C, 58036 Roccastrada GR
+Coordinate: Lat 42.987578, Lng 11.188831
+Website: https://www.paradiseagricamp.com/
+Email: 
+
+12909. PIERINIeBRUGI/AGRITURISMO BELVEDERE
+ID: 9f52948c-3548-4312-aa28-d5d39c0905cb
+Slug: pieriniebrugi-agriturismo-belvedere-campagnatico
+Nome: PIERINIeBRUGI/AGRITURISMO BELVEDERE
+Comune / Provincia: Campagnatico
+Indirizzo: Podere Belvedere, 12, 58042 Campagnatico GR
+Coordinate: Lat 42.895744, Lng 11.226192
+Website: http://www.pieriniebrugi.it/
+Email: 
+
+12910. Albergo Antica Hostelleria
+ID: a025e08c-c4ec-4d3e-9c53-efa106122391
+Slug: albergo-antica-hostelleria-campagnola-cremasca
+Nome: Albergo Antica Hostelleria
+Comune / Provincia: Campagnola Cremasca
+Indirizzo: Via Izano, 2a, 26013 Crema CR
+Coordinate: Lat 45.36384, Lng 9.711945
+Website: http://www.anticahostelleria.it/
+Email: 
+
+12911. B&B San Clemente - Crema
+ID: a97e2db8-dba4-4bbd-8f42-a4c147f8d280
+Slug: b-b-san-clemente-crema-campagnola-cremasca
+Nome: B&B San Clemente - Crema
+Comune / Provincia: Campagnola Cremasca
+Indirizzo: Via Suor Maria Crocefissa di Rosa, 3, 26013 Crema CR
+Coordinate: Lat 45.361211, Lng 9.684274
+Website: http://www.sanclementecrema.com/
+Email: 
+
+12912. B&B Sangiligio
+ID: 3f433988-1290-4819-b303-1c0aae5faa3b
+Slug: b-b-sangiligio-campagnola-cremasca
+Nome: B&B Sangiligio
+Comune / Provincia: Campagnola Cremasca
+Indirizzo: Via Donati Pietro, 50, 26013 Crema CR
+Coordinate: Lat 45.386588, Lng 9.702335
+Website: —
+Email: 
+
+12913. Hotel Il Ponte di Rialto
+ID: ea8721eb-c223-4928-8f3c-f21cff1fe467
+Slug: hotel-il-ponte-di-rialto-campagnola-cremasca
+Nome: Hotel Il Ponte di Rialto
+Comune / Provincia: Campagnola Cremasca
+Indirizzo: Via Luigi Cadorna, 7, 26013 Crema CR
+Coordinate: Lat 45.363766, Lng 9.69598
+Website: http://www.pontedirialto.it/
+Email: 
+
+12914. Agriturismo Lucchetta
+ID: 5a01518e-29fe-4f04-89a3-7dcb81e86173
+Slug: agriturismo-lucchetta-campagnola-emilia
+Nome: Agriturismo Lucchetta
+Comune / Provincia: Campagnola Emilia
+Indirizzo: Str. S. Venerio, n°86, 42046 Reggiolo RE
+Coordinate: Lat 44.892671, Lng 10.770961
+Website: —
+Email: 
+
+12915. B&B Primavera
+ID: 358ef493-133b-45bb-8730-c3c108b991a9
+Slug: b-b-primavera-campagnola-emilia
+Nome: B&B Primavera
+Comune / Provincia: Campagnola Emilia
+Indirizzo: Via Chiesa di Santa Croce, 9, 41012 Carpi MO
+Coordinate: Lat 44.760632, Lng 10.851236
+Website: —
+Email: 

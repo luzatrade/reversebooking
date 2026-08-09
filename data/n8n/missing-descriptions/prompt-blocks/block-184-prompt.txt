@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+6406. B&B Dimora delle Donnole
+ID: 0b83b5e8-e45b-4cae-af5d-0e1c2039b061
+Slug: b-b-dimora-delle-donnole-bagnatica
+Nome: B&B Dimora delle Donnole
+Comune / Provincia: Bagnatica
+Indirizzo: Via Castagneta, 37, 24129 Bergamo BG
+Coordinate: Lat 45.715973, Lng 9.651837
+Website: http://dimoradelledonnole.it/
+Email: 
+
+6407. Guesthouse La Rocca
+ID: 930dbaff-2f7a-4bdf-9b04-ea8bcafddf82
+Slug: guesthouse-la-rocca-bagnatica
+Nome: Guesthouse La Rocca
+Comune / Provincia: Bagnatica
+Indirizzo: Via Azzano S. Paolo, 47A, 24050 Grassobbio BG
+Coordinate: Lat 45.659214, Lng 9.716204
+Website: http://www.guesthouselarocca.com/
+Email: 
+
+6408. Polisena L'Altro Agriturismo
+ID: fe075a96-7028-4c1d-a6e2-ed768a233720
+Slug: polisena-l-altro-agriturismo-bagnatica
+Nome: Polisena L'Altro Agriturismo
+Comune / Provincia: Bagnatica
+Indirizzo: via Ca' di Maggio, 333, 24030 Pontida BG
+Coordinate: Lat 45.7435, Lng 9.510373
+Website: https://www.agriturismopolisena.it/
+Email: 
+
+6409. Sadira Agriturismo e Az. Agricola
+ID: 09fe12c3-02e2-4a29-8bd9-e84c3dd76757
+Slug: sadira-agriturismo-e-az-agricola-bagnatica
+Nome: Sadira Agriturismo e Az. Agricola
+Comune / Provincia: Bagnatica
+Indirizzo: Via alle Cascine, 525, 24033 Calusco d'Adda BG
+Coordinate: Lat 45.686812, Lng 9.494672
+Website: https://www.agriturismosadira.it/
+Email: 
+
+6410. Agriturismo La Torre
+ID: 94f3676f-a9e1-49d3-9c2f-f6f6178aeb9f
+Slug: agriturismo-la-torre-bagni-di-lucca
+Nome: Agriturismo La Torre
+Comune / Provincia: Bagni di Lucca
+Indirizzo: località La Torre, Fornoli, 55022 Bagni di Lucca LU
+Coordinate: Lat 44.010957, Lng 10.565886
+Website: http://www.latorreagriturismo.com/
+Email: 
+
+6411. Agriturismo Pian di Fiume
+ID: 724b0067-0134-4705-84e5-2dba98924d34
+Slug: agriturismo-pian-di-fiume-bagni-di-lucca
+Nome: Agriturismo Pian di Fiume
+Comune / Provincia: Bagni di Lucca
+Indirizzo: Località Pian di Fiume, 20, 55022 Bagni di Lucca LU
+Coordinate: Lat 44.01115, Lng 10.615121
+Website: http://www.piandifiume.it/
+Email: 
+
+6412. Albergo Bridge
+ID: aac05cee-d820-4fdc-abb6-53ee296d53da
+Slug: albergo-bridge-bagni-di-lucca
+Nome: Albergo Bridge
+Comune / Provincia: Bagni di Lucca
+Indirizzo: Piazza Ponte a Serraglio, 5, 55022 Bagni di Lucca LU
+Coordinate: Lat 44.008272, Lng 10.579264
+Website: http://www.bridge-hotel.it/
+Email: 
+
+6413. Burlamacchi Villas
+ID: beae5090-61a3-47e7-900b-6fd0b9527c87
+Slug: burlamacchi-villas-bagni-di-lucca
+Nome: Burlamacchi Villas
+Comune / Provincia: Bagni di Lucca
+Indirizzo: Via S. Francesco, 6, 55022 Bagni di Lucca LU
+Coordinate: Lat 44.008342, Lng 10.587265
+Website: http://www.burlamacchivillas.it/
+Email: 
+
+6414. Hotel La Pergola Barga Chat sul Sito (CircuitoLuccaTurismo)
+ID: 86104995-1caf-4f9d-bc57-0957cb876190
+Slug: hotel-la-pergola-barga-chat-sul-sito-circuitoluc-bagni-di-lucca
+Nome: Hotel La Pergola Barga Chat sul Sito (CircuitoLuccaTurismo)
+Comune / Provincia: Bagni di Lucca
+Indirizzo: Via Sant'Antonio, 1, 55051 Barga LU
+Coordinate: Lat 44.074102, Lng 10.480269
+Website: https://www.hotel-lapergola.eu/
+Email: 
+
+6415. Hotel Pio X
+ID: d926a251-b713-4943-9417-f5e8aecb285c
+Slug: hotel-pio-x-bagni-di-lucca
+Nome: Hotel Pio X
+Comune / Provincia: Bagni di Lucca
+Indirizzo: 55022 Bagni di Lucca LU, Italia
+Coordinate: Lat 44.0131, Lng 10.582336
+Website: http://hotelpioxbagnidilucca.com.es/
+Email: 
+
+6416. Hotel Ristorante Milano
+ID: ed8df5d1-1f3b-45c3-b918-70a34d3f7936
+Slug: hotel-ristorante-milano-bagni-di-lucca
+Nome: Hotel Ristorante Milano
+Comune / Provincia: Bagni di Lucca
+Indirizzo: Via del Brennero, 8, 55023 Socciglia LU
+Coordinate: Lat 43.971047, Lng 10.543057
+Website: http://www.hotelmilanolucca.it/
+Email: 
+
+6417. Hotel Terme Bagni di Lucca
+ID: d32ab7f9-1130-4ed5-a0e5-6369cf954b1d
+Slug: hotel-terme-bagni-di-lucca-bagni-di-lucca
+Nome: Hotel Terme Bagni di Lucca
+Comune / Provincia: Bagni di Lucca
+Indirizzo: Via del Paretaio, 1, 55021 Bagni di Lucca LU
+Coordinate: Lat 44.011849, Lng 10.581161
+Website: https://www.terme-bagnidilucca.it/
+Email: 
+
+6418. La Locanda Di Pio Di Leseanu Daniela C. S.A.S.
+ID: 7aa6b536-4f0e-497a-84f3-f334de12a098
+Slug: la-locanda-di-pio-di-leseanu-daniela-c-s-a-s-bagni-di-lucca
+Nome: La Locanda Di Pio Di Leseanu Daniela C. S.A.S.
+Comune / Provincia: Bagni di Lucca
+Indirizzo: Via Selve, 15, 55022 Bagni di Lucca LU
+Coordinate: Lat 44.013107, Lng 10.582804
+Website: —
+Email: 
+
+6419. La Ninfa • Hotel & Ristorante
+ID: a7373e47-053e-4e99-a861-3eb977d2ee88
+Slug: la-ninfa-hotel-ristorante-bagni-di-lucca
+Nome: La Ninfa • Hotel & Ristorante
+Comune / Provincia: Bagni di Lucca
+Indirizzo: Via di Serraglia, 78, 55022 Bagni di Lucca LU
+Coordinate: Lat 44.009574, Lng 10.578176
+Website: https://www.laninfahotelristorante.com/
+Email: 
+
+6420. Park Hotel Regina - Piscine riscaldate
+ID: 7fb0de9a-0682-4ef1-b5c7-1c134c55747e
+Slug: park-hotel-regina-piscine-riscaldate-bagni-di-lucca
+Nome: Park Hotel Regina - Piscine riscaldate
+Comune / Provincia: Bagni di Lucca
+Indirizzo: Viale Umberto I', 157, 55022 Bagni di Lucca LU
+Coordinate: Lat 44.009143, Lng 10.58991
+Website: https://www.parkhotelregina.it/
+Email: 
+
+6421. Tenuta la Fratta
+ID: 03dd2d9b-6af0-453c-8a26-84e0dcdad544
+Slug: tenuta-la-fratta-bagni-di-lucca
+Nome: Tenuta la Fratta
+Comune / Provincia: Bagni di Lucca
+Indirizzo: Loc.la Fratta, 55022 Fornoli LU
+Coordinate: Lat 44.011246, Lng 10.555694
+Website: http://www.tenuta-lafratta.com/
+Email: 
+
+6422. Villa Debora Bed & Breakfast
+ID: 99a34228-3447-4578-9d0d-21c8c5a33553
+Slug: villa-debora-bed-breakfast-bagni-di-lucca
+Nome: Villa Debora Bed & Breakfast
+Comune / Provincia: Bagni di Lucca
+Indirizzo: Via Controneria, 1, 55022 Bagni di Lucca LU
+Coordinate: Lat 44.014787, Lng 10.590536
+Website: https://villa-debora-bed-breakfast.mipiacelitalia.top/
+Email: 
+
+6423. Villa Lucchesi
+ID: 73b66213-2f36-49d6-93c8-90dde5597e2c
+Slug: villa-lucchesi-bagni-di-lucca
+Nome: Villa Lucchesi
+Comune / Provincia: Bagni di Lucca
+Indirizzo: Viale Roma, 24, 55022 Bagni di Lucca LU
+Coordinate: Lat 44.006713, Lng 10.586855
+Website: http://www.villalucchesi.com/
+Email: 
+
+6424. Villa Rosalena
+ID: c836f5a9-02e1-4ea4-8d5e-5f9b544f2730
+Slug: villa-rosalena-bagni-di-lucca
+Nome: Villa Rosalena
+Comune / Provincia: Bagni di Lucca
+Indirizzo: loc. Camaione di sotto 21Ponte a Serraglio, 55022 Bagni di Lucca LU
+Coordinate: Lat 44.012075, Lng 10.578165
+Website: http://www.villarosalena.com/
+Email: 
+
+6425. Agriturismo Villa Dauphiné
+ID: 77a8a2e0-c091-4f14-b401-8cd1bb530aae
+Slug: agriturismo-villa-dauphine-bagno-a-ripoli
+Nome: Agriturismo Villa Dauphiné
+Comune / Provincia: Bagno a Ripoli
+Indirizzo: Via Roma, 563, 50012 Bagno A Ripoli FI
+Coordinate: Lat 43.730825, Lng 11.355068
+Website: http://agriturismovilladauphine.com/
+Email: 
+
+6426. Antella Residence
+ID: 161e1333-e07c-45a1-9b01-694e734c296a
+Slug: antella-residence-bagno-a-ripoli
+Nome: Antella Residence
+Comune / Provincia: Bagno a Ripoli
+Indirizzo: Bagno a Ripoli FI IT, Via Romanelli, 37/B, 50012 Antella FI
+Coordinate: Lat 43.72858, Lng 11.322953
+Website: https://www.antellaresidence.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness
+Email: 
+
+6427. B&B Dolce Miele
+ID: 0fbb8b11-c39f-4edc-9713-36bb95be895d
+Slug: b-b-dolce-miele-bagno-a-ripoli
+Nome: B&B Dolce Miele
+Comune / Provincia: Bagno a Ripoli
+Indirizzo: Via della Martellina, 40E, 50012 Bagno A Ripoli FI
+Coordinate: Lat 43.749744, Lng 11.328046
+Website: https://www.bebmiele.com/
+Email: 
+
+6428. b&b i due cipressi
+ID: cfaef8ff-ef9f-4d0e-b968-f4bdb17db7cf
+Slug: b-b-i-due-cipressi-bagno-a-ripoli
+Nome: b&b i due cipressi
+Comune / Provincia: Bagno a Ripoli
+Indirizzo: Via di Vacciano, 26, 50012 Grassina FI
+Coordinate: Lat 43.736195, Lng 11.275346
+Website: http://www.iduecipressi.com/
+Email: 
+
+6429. B&B Il Tabernacolo
+ID: a0716dcb-0e94-4b10-b86c-de3c85533743
+Slug: b-b-il-tabernacolo-bagno-a-ripoli
+Nome: B&B Il Tabernacolo
+Comune / Provincia: Bagno a Ripoli
+Indirizzo: Via Aretina, 45, 50136 Firenze FI
+Coordinate: Lat 43.769342, Lng 11.284682
+Website: https://beb.it/iltabernacolo
+Email: 
+
+6430. Casa Martellina - Holiday Home
+ID: b0b28dfb-4bdf-49c1-ac31-312cf67a075b
+Slug: casa-martellina-holiday-home-bagno-a-ripoli
+Nome: Casa Martellina - Holiday Home
+Comune / Provincia: Bagno a Ripoli
+Indirizzo: Via della Martellina, 15, 50012 Bagno A Ripoli FI
+Coordinate: Lat 43.75169, Lng 11.322366
+Website: http://casa-martellina-holiday-home.alloggiotoscana.it/
+Email: 
+
+6431. Florence Country Relais
+ID: 5bd6f0c6-1454-4655-9544-c9faeb3d8496
+Slug: florence-country-relais-bagno-a-ripoli
+Nome: Florence Country Relais
+Comune / Provincia: Bagno a Ripoli
+Indirizzo: Pian di Mugnone, 2, 50014 Fiesole FI
+Coordinate: Lat 43.816175, Lng 11.316539
+Website: https://florencecountryrelais.vetrina-digitale.com/
+Email: 
+
+6432. Hotel Bologna
+ID: a025fc2c-e821-449e-8323-4c81c28290de
+Slug: hotel-bologna-bagno-a-ripoli
+Nome: Hotel Bologna
+Comune / Provincia: Bagno a Ripoli
+Indirizzo: Via Orcagna, 50, 50121 Firenze FI
+Coordinate: Lat 43.769127, Lng 11.275068
+Website: http://www.hotelbolognafirenze.it/
+Email: 
+
+6433. Hotel Grifone Firenze
+ID: a613cba9-ccdf-4899-8ee9-b8e807f39312
+Slug: hotel-grifone-firenze-bagno-a-ripoli
+Nome: Hotel Grifone Firenze
+Comune / Provincia: Bagno a Ripoli
+Indirizzo: Via Gaetano Pilati, 20/22, 50136 Firenze FI
+Coordinate: Lat 43.768673, Lng 11.285559
+Website: https://www.hotelgrifonefirenze.it/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness
+Email: 
+
+6434. Hotel Villa Olmi Firenze
+ID: ee52ebe7-585d-4dbd-9988-8b10262ff003
+Slug: hotel-villa-olmi-firenze-bagno-a-ripoli
+Nome: Hotel Villa Olmi Firenze
+Comune / Provincia: Bagno a Ripoli
+Indirizzo: Via Del Crocifisso Del Lume, 18, 50126 Firenze FI
+Coordinate: Lat 43.757018, Lng 11.312317
+Website: http://www.villaolmifirenze.com/
+Email: 
+
+6435. hu Firenze camping in town
+ID: 5807d3d6-3aaf-4176-aa7d-3faf535b2290
+Slug: hu-firenze-camping-in-town-bagno-a-ripoli
+Nome: hu Firenze camping in town
+Comune / Provincia: Bagno a Ripoli
+Indirizzo: Via Generale C. A. dalla Chiesa, 1/3, 50136 Firenze FI
+Coordinate: Lat 43.764643, Lng 11.316149
+Website: https://firenze.huopenair.com/
+Email: 
+
+6436. Il porto relais b&b
+ID: 2ed9aeb7-16d8-45d7-be3a-a6ef7ed8e085
+Slug: il-porto-relais-b-b-bagno-a-ripoli
+Nome: Il porto relais b&b
+Comune / Provincia: Bagno a Ripoli
+Indirizzo: Via Alessandro Sinigaglia, 50012 Bagno a Ripoli FI
+Coordinate: Lat 43.752019, Lng 11.317494
+Website: https://www.ilportorelais.it/
+Email: 
+
+6437. Italiana Hotels
+ID: eadf4eef-565f-4d51-8bed-c590c3ea9972
+Slug: italiana-hotels-bagno-a-ripoli
+Nome: Italiana Hotels
+Comune / Provincia: Bagno a Ripoli
+Indirizzo: Viale Europa, 205, 50126 Firenze FI
+Coordinate: Lat 43.757663, Lng 11.298592
+Website: http://www.hiflorence.it/
+Email: 
+
+6438. La Corte di Ripoli
+ID: 28848bbc-9b31-4208-981f-b64883495f4d
+Slug: la-corte-di-ripoli-bagno-a-ripoli
+Nome: La Corte di Ripoli
+Comune / Provincia: Bagno a Ripoli
+Indirizzo: Via della Nave A Rovezzano, 16, 50012 Bagno a Ripoli FI
+Coordinate: Lat 43.752791, Lng 11.319116
+Website: http://www.lacortediripoli.it/
+Email: 
+
+6439. Le Civette Country Resort
+ID: 1d2df8df-aad5-4897-876d-2961ca355242
+Slug: le-civette-country-resort-bagno-a-ripoli
+Nome: Le Civette Country Resort
+Comune / Provincia: Bagno a Ripoli
+Indirizzo: Via del Carota, 3, 50012 Bagno a Ripoli FI
+Coordinate: Lat 43.742596, Lng 11.334922
+Website: https://lecivetteresort.it/
+Email: 
+
+6440. Poggio Baronti B&B
+ID: efc17534-ce3c-4a57-9e52-88fa51533810
+Slug: poggio-baronti-b-b-bagno-a-ripoli
+Nome: Poggio Baronti B&B
+Comune / Provincia: Bagno a Ripoli
+Indirizzo: Via dell'Eremo, 3, 50012 Bagno a Ripoli FI
+Coordinate: Lat 43.74676, Lng 11.31729
+Website: https://www.poggiobaronti.com/
+Email: 

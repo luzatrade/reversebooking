@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+2696. Room & Breakfast Della Torre
+ID: 3aba9dc6-3f0a-4b3c-b5cc-7f2581d97401
+Slug: room-breakfast-della-torre-alto-reno-terme
+Nome: Room & Breakfast Della Torre
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Via Mazzini, 30, 40046 Porretta Terme BO
+Coordinate: Lat 44.15645, Lng 10.976125
+Website: —
+Email: 
+
+2697. Affittacamere Tagliaferro
+ID: c9da09ff-bd43-4eb6-878f-0d1a42d0c1e6
+Slug: affittacamere-tagliaferro-alto-sermenza
+Nome: Affittacamere Tagliaferro
+Comune / Provincia: Alto Sermenza
+Indirizzo: SP10, 3, 13029 Rima VC
+Coordinate: Lat 45.885448, Lng 7.998621
+Website: http://www.tagliaferrocamere.it/
+Email: 
+
+2698. Albergo Ristorante Fontana
+ID: 708a5017-b69d-4f24-aa2e-45a7601998ad
+Slug: albergo-ristorante-fontana-alto-sermenza
+Nome: Albergo Ristorante Fontana
+Comune / Provincia: Alto Sermenza
+Indirizzo: Localita' Centro 15, 13020 Rimella VC
+Coordinate: Lat 45.908134, Lng 8.181756
+Website: http://www.rimellawalser.it/albergo_fontana.htm
+Email: 
+
+2699. Albergo Ristorante La Torre
+ID: c4f90dcd-3afe-4e0b-819f-fb5a8fe87ffc
+Slug: albergo-ristorante-la-torre-alto-sermenza
+Nome: Albergo Ristorante La Torre
+Comune / Provincia: Alto Sermenza
+Indirizzo: Via Roma, 28, 13022 Boccioleto VC
+Coordinate: Lat 45.829909, Lng 8.114182
+Website: —
+Email: 
+
+2700. Albergo Rosetta
+ID: c2a992d6-aabd-4d4c-964f-8d8a0584d820
+Slug: albergo-rosetta-alto-sermenza
+Nome: Albergo Rosetta
+Comune / Provincia: Alto Sermenza
+Indirizzo: Via Statale, 24, 13028 Scopello VC
+Coordinate: Lat 45.774409, Lng 8.09456
+Website: http://www.albergorosetta.eu/
+Email: 
+
+2701. Ca dal Cros
+ID: 086667ac-be73-403f-9c6f-710a2f4a95c0
+Slug: ca-dal-cros-alto-sermenza
+Nome: Ca dal Cros
+Comune / Provincia: Alto Sermenza
+Indirizzo: Localita' Gabbio, 13023 Campertogno VC
+Coordinate: Lat 45.797008, Lng 8.032045
+Website: https://www.cadalcros.it/
+Email: 
+
+2702. Casa Bastucchi
+ID: 90c9fb68-f59b-40ef-b604-a01941fdd495
+Slug: casa-bastucchi-alto-sermenza
+Nome: Casa Bastucchi
+Comune / Provincia: Alto Sermenza
+Indirizzo: Loc. Rima, 11, 13029 Alto Sermenza VC
+Coordinate: Lat 45.885932, Lng 7.998928
+Website: http://www.casabastucchi.it/
+Email: 
+
+2703. Foresteria Valsesia
+ID: 617e42b2-3ae0-4a06-81fd-b14d8e3d0b1b
+Slug: foresteria-valsesia-alto-sermenza
+Nome: Foresteria Valsesia
+Comune / Provincia: Alto Sermenza
+Indirizzo: Via Val Sermenza, 4, 13020 Cerva VC
+Coordinate: Lat 45.824279, Lng 8.134757
+Website: http://foresteriavalsesia.com/
+Email: 
+
+2704. Hotel Nuovo Pecetto
+ID: a14c3cda-b38f-41ae-8330-c62a29df2078
+Slug: hotel-nuovo-pecetto-alto-sermenza
+Nome: Hotel Nuovo Pecetto
+Comune / Provincia: Alto Sermenza
+Indirizzo: Frazione Pecetto, 50, 28876 Macugnaga VB
+Coordinate: Lat 45.972351, Lng 7.95344
+Website: http://www.hotelnuovopecetto.com/
+Email: 
+
+2705. Hotel Signal
+ID: 97877342-4d06-4b83-bc91-0b831a037d2c
+Slug: hotel-signal-alto-sermenza
+Nome: Hotel Signal
+Comune / Provincia: Alto Sermenza
+Indirizzo: Via Pecetto, 118, 28876 Macugnaga VB
+Coordinate: Lat 45.971432, Lng 7.956433
+Website: http://www.hotelsignal.it/
+Email: 
+
+2706. Mondo d'Oro
+ID: 3fd40b90-96af-4624-a7d3-522fe7324b92
+Slug: mondo-d-oro-alto-sermenza
+Nome: Mondo d'Oro
+Comune / Provincia: Alto Sermenza
+Indirizzo: Via Martino Trabucati, 11, 28875 Ceppo Morelli VB
+Coordinate: Lat 45.97111, Lng 8.069643
+Website: http://www.hotelmondodoro.com/
+Email: 
+
+2707. Rifugio Alpenrose
+ID: 4b994e2e-af9e-4023-bc7c-ad221c889781
+Slug: rifugio-alpenrose-alto-sermenza
+Nome: Rifugio Alpenrose
+Comune / Provincia: Alto Sermenza
+Indirizzo: Località Tetto Minocco, 12, 13026 Carcoforo VC
+Coordinate: Lat 45.907798, Lng 8.050652
+Website: http://rifugioalpenrosegta.com/
+Email: 
+
+2708. Ristorante Dei Pescatori
+ID: bb2bc8e4-bb3b-4ede-b2f0-29ea35140b92
+Slug: ristorante-dei-pescatori-alto-sermenza
+Nome: Ristorante Dei Pescatori
+Comune / Provincia: Alto Sermenza
+Indirizzo: Via Ponte, 6, 13020 Piode VC
+Coordinate: Lat 45.770942, Lng 8.050067
+Website: https://pescatoripiode.eu/
+Email: 
+
+2709. "A casa di Simona"
+ID: 83a21f82-0931-450e-ae6a-c93cc188fc5f
+Slug: a-casa-di-simona-altofonte
+Nome: "A casa di Simona"
+Comune / Provincia: Altofonte
+Indirizzo: Circonvallazione Di Monreale, 30, 90131 Palermo PA
+Coordinate: Lat 38.082928, Lng 13.300364
+Website: http://bebacasadisimona.it/
+Email: 
+
+2710. ABT L'AURA
+ID: ffb309d8-a1d0-433f-8d7e-5529a9a31e56
+Slug: abt-l-aura-altofonte
+Nome: ABT L'AURA
+Comune / Provincia: Altofonte
+Indirizzo: Piazza S. Francesco Saverio, 4, 90134 Palermo PA
+Coordinate: Lat 38.109724, Lng 13.358798
+Website: http://www.abt-laura.it/
+Email: 
+
+2711. Affittacamere Vivere la Ciambra
+ID: 1266caf2-568b-4391-af32-112e8cc4c3cc
+Slug: affittacamere-vivere-la-ciambra-altofonte
+Nome: Affittacamere Vivere la Ciambra
+Comune / Provincia: Altofonte
+Indirizzo: Via G. Millunzi, 4, 90046 Monreale PA
+Coordinate: Lat 38.082303, Lng 13.292974
+Website: http://mosaicoarte.altervista.org/
+Email: 
+
+2712. Agriturismo Argomesi
+ID: dab42241-c664-4b59-b89a-76bd6974b71e
+Slug: agriturismo-argomesi-altofonte
+Nome: Agriturismo Argomesi
+Comune / Provincia: Altofonte
+Indirizzo: Contrada Dingoli, 90037 Piana degli Albanesi PA
+Coordinate: Lat 38.01511, Lng 13.293504
+Website: https://www.agriturismoargomesi.it/
+Email: 
+
+2713. Al Balhara Resort
+ID: 6eccf64e-b736-4066-9e81-5f5893c88beb
+Slug: al-balhara-resort-altofonte
+Nome: Al Balhara Resort
+Comune / Provincia: Altofonte
+Indirizzo: Via Aquino, 126, 90046 Monreale PA
+Coordinate: Lat 38.075869, Lng 13.311198
+Website: http://albalhararesort.com/
+Email: 
+
+2714. B&B A Casa di Simona
+ID: 9aee47dc-c288-44a4-b1c2-b8120a48b7d4
+Slug: b-b-a-casa-di-simona-altofonte
+Nome: B&B A Casa di Simona
+Comune / Provincia: Altofonte
+Indirizzo: Via Fecatello Pantuso, 6, 90046 Monreale PA
+Coordinate: Lat 38.082385, Lng 13.300748
+Website: https://www.bebacasadisimona.it/
+Email: 
+
+2715. B&B al Giardino
+ID: 072400cd-7ccc-4928-bba5-1956decc36e1
+Slug: b-b-al-giardino-altofonte
+Nome: B&B al Giardino
+Comune / Provincia: Altofonte
+Indirizzo: Via Frassinelli e Mulini, 75, 90046 Monreale PA
+Coordinate: Lat 38.077259, Lng 13.298923
+Website: http://www.bebalgiardino.it/
+Email: 
+
+2716. B&B Casa Lilla
+ID: 4c86ce23-d4a0-4d9f-803f-fa54fe693d0a
+Slug: b-b-casa-lilla-altofonte
+Nome: B&B Casa Lilla
+Comune / Provincia: Altofonte
+Indirizzo: Via A. Veneziano, 112, 90046 Monreale PA
+Coordinate: Lat 38.081941, Lng 13.289931
+Website: https://instagram.com/beb_casalilla?igshid=YmMyMTA2M2Y=
+Email: 
+
+2717. B&B Casa Normanna
+ID: 3b5a3aba-062e-4ffd-977f-cfd6d4cd2ab0
+Slug: b-b-casa-normanna-altofonte
+Nome: B&B Casa Normanna
+Comune / Provincia: Altofonte
+Indirizzo: Via Venero, 186, 90046 Monreale PA
+Coordinate: Lat 38.078306, Lng 13.283898
+Website: https://bb-casa-normanna.alberghiinitalia.top/
+Email: 
+
+2718. B&b Casa Rossa di Matri srl
+ID: 685cda80-42c4-44b5-8d22-8c8ecc032e3e
+Slug: b-b-casa-rossa-di-matri-srl-altofonte
+Nome: B&b Casa Rossa di Matri srl
+Comune / Provincia: Altofonte
+Indirizzo: Via Pietro Novelli, 297, 90046 Monreale PA
+Coordinate: Lat 38.075527, Lng 13.277997
+Website: http://www.bbcasarossa.com/
+Email: 
+
+2719. B&B Monreale Locanda Re Ruggero
+ID: 903e25be-45e7-408e-a880-b98b051cb4f1
+Slug: b-b-monreale-locanda-re-ruggero-altofonte
+Nome: B&B Monreale Locanda Re Ruggero
+Comune / Provincia: Altofonte
+Indirizzo: Via Arcivescovado, 9, 90046 Monreale PA
+Coordinate: Lat 38.082576, Lng 13.29266
+Website: http://www.locandareruggero.it/
+Email: 
+
+2720. Due Cani Luxury Rooms
+ID: 7858f18e-23cf-4857-8ca9-f34696b05f63
+Slug: due-cani-luxury-rooms-altofonte
+Nome: Due Cani Luxury Rooms
+Comune / Provincia: Altofonte
+Indirizzo: Roma - Palazzo Ganci, Via Roma, 118, 90133 Palermo PA
+Coordinate: Lat 38.114034, Lng 13.364778
+Website: https://due-cani.goitaly.top/
+Email: 
+
+2721. Fuddia Room & Suite
+ID: 7f8d967b-1baa-4da6-85a7-fe83a5ff79bd
+Slug: fuddia-room-suite-altofonte
+Nome: Fuddia Room & Suite
+Comune / Provincia: Altofonte
+Indirizzo: Via Cuba, 29, 90129 Palermo PA
+Coordinate: Lat 38.106612, Lng 13.340673
+Website: —
+Email: 
+
+2722. GUEST HOUSE PIANA DEGLI ALBANESI
+ID: 603747ee-0085-49d9-b71c-91fbbef574b0
+Slug: guest-house-piana-degli-albanesi-altofonte
+Nome: GUEST HOUSE PIANA DEGLI ALBANESI
+Comune / Provincia: Altofonte
+Indirizzo: Via Umberto I, 37, 90037 Piana degli Albanesi PA
+Coordinate: Lat 37.996959, Lng 13.282512
+Website: —
+Email: 
+
+2723. Hotel Italia
+ID: 46080724-aa14-4361-ad71-f32ceba48839
+Slug: hotel-italia-altofonte
+Nome: Hotel Italia
+Comune / Provincia: Altofonte
+Indirizzo: Via Roma, 62, 90133 Palermo PA
+Coordinate: Lat 38.112636, Lng 13.365413
+Website: http://www.hotelitalia.eurorentals.info/
+Email: 
+
+2724. La Cubba
+ID: 6a8d7e1b-523a-4b6d-8af0-fce5cfe2a547
+Slug: la-cubba-altofonte
+Nome: La Cubba
+Comune / Provincia: Altofonte
+Indirizzo: Via Cuba, 63, 90129 Palermo PA
+Coordinate: Lat 38.105791, Lng 13.340875
+Website: http://www.lacubba.it/
+Email: 
+
+2725. Palazzo Ducale Suites - Bed and Breakfast
+ID: d4a61a8b-8b8b-480b-b286-c0c9eea252d9
+Slug: palazzo-ducale-suites-bed-and-breakfast-altofonte
+Nome: Palazzo Ducale Suites - Bed and Breakfast
+Comune / Provincia: Altofonte
+Indirizzo: Via Duca degli Abruzzi, 8, 90046 Monreale PA
+Coordinate: Lat 38.080843, Lng 13.289269
+Website: http://www.palazzoducalesuites.it/
+Email: 
+
+2726. Residence Hotel Gloria
+ID: 36a607f8-e7cc-454d-a56b-8b8e140a7b33
+Slug: residence-hotel-gloria-altofonte
+Nome: Residence Hotel Gloria
+Comune / Provincia: Altofonte
+Indirizzo: Via Enrico Toti, 30, 90128 Palermo PA
+Coordinate: Lat 38.10433, Lng 13.353249
+Website: https://www.albergogloria.it/
+Email: 
+
+2727. Villa Tiziana
+ID: 6df9beab-c7a7-4e07-a0e7-85013063560b
+Slug: villa-tiziana-altofonte
+Nome: Villa Tiziana
+Comune / Provincia: Altofonte
+Indirizzo: Via Ponte Parco, 17, 90046 Monreale PA
+Coordinate: Lat 38.071355, Lng 13.304324
+Website: https://www.villa-tiziana.it/
+Email: 
+
+2728. B&B ANTICA BALBIA
+ID: cddca4bd-bb55-4e2a-ae84-324f36590002
+Slug: b-b-antica-balbia-altomonte
+Nome: B&B ANTICA BALBIA
+Comune / Provincia: Altomonte
+Indirizzo: Via Paladino, 10, 87042 Altomonte CS
+Coordinate: Lat 39.698733, Lng 16.131441
+Website: http://guestcheckin.eu/bnb-antica-balbia-altomonte
+Email: 
+
+2729. B&B del Castagneto
+ID: 230eb1c6-d518-48a3-b297-79dd05269853
+Slug: b-b-del-castagneto-altomonte
+Nome: B&B del Castagneto
+Comune / Provincia: Altomonte
+Indirizzo: Via Don Vincenzo Balsano, 40, 87018 San Marco Argentano CS
+Coordinate: Lat 39.552704, Lng 16.120344
+Website: http://bnb-del-castagneto.com.es/
+Email: 
+
+2730. B&B del Cavaliere
+ID: bd1243b3-3394-4504-ac0b-242a443c6913
+Slug: b-b-del-cavaliere-altomonte
+Nome: B&B del Cavaliere
+Comune / Provincia: Altomonte
+Indirizzo: Via D. Camporota, 20, 87012 Castrovillari CS
+Coordinate: Lat 39.813787, Lng 16.201445
+Website: https://bb-del-cavaliere.alberghiinitalia.top/
+Email: 

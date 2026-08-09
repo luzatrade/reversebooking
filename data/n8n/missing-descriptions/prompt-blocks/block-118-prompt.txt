@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+4096. Albergo ristorante Ragno D'oro
+ID: a15a7555-1031-4912-8a78-4efdc4e50a50
+Slug: albergo-ristorante-ragno-d-oro-aquileia
+Nome: Albergo ristorante Ragno D'oro
+Comune / Provincia: Aquileia
+Indirizzo: SS 14 Trieste /venezia, 33059 Villa Vicentina UD
+Coordinate: Lat 45.805899, Lng 13.399435
+Website: —
+Email: 
+
+4097. Albergo Villa Reale
+ID: a7e581ae-82a8-4c60-b024-eea8ccbc2a98
+Slug: albergo-villa-reale-aquileia
+Nome: Albergo Villa Reale
+Comune / Provincia: Aquileia
+Indirizzo: Via Colombo, 11, 34073 Grado GO
+Coordinate: Lat 45.677025, Lng 13.392681
+Website: http://www.hotelvillareale.com/
+Email: 
+
+4098. Alla Basilica
+ID: 15c9a841-7290-4ce0-8d18-60519f8d96fb
+Slug: alla-basilica-aquileia
+Nome: Alla Basilica
+Comune / Provincia: Aquileia
+Indirizzo: Viale Stazione, 2, 33051 Aquileia UD
+Coordinate: Lat 45.770658, Lng 13.368706
+Website: https://www.hotelitaliaweb.com/alla-basilica/
+Email: 
+
+4099. Casa Delneri Boutique Hotel Adults Only
+ID: cd49dbd6-2eeb-4d37-8b21-a67cb806a430
+Slug: casa-delneri-boutique-hotel-adults-only-aquileia
+Nome: Casa Delneri Boutique Hotel Adults Only
+Comune / Provincia: Aquileia
+Indirizzo: Via XXIV Maggio, 18, Via XXIV Maggio, 16, 33051 Aquileia UD
+Coordinate: Lat 45.768386, Lng 13.364086
+Website: http://www.casadelneri.it/
+Email: 
+
+4100. Holiday Grado
+ID: b78959d8-134b-4790-8e67-44c5a68fd92a
+Slug: holiday-grado-aquileia
+Nome: Holiday Grado
+Comune / Provincia: Aquileia
+Indirizzo: Via S. Pellico, 6, 34073 Grado GO
+Coordinate: Lat 45.679532, Lng 13.403861
+Website: http://www.holiday-grado.com/
+Email: 
+
+4101. Hotel Abbazia
+ID: 936477ba-601d-432c-a0d5-2c72fbbd014c
+Slug: hotel-abbazia-aquileia
+Nome: Hotel Abbazia
+Comune / Provincia: Aquileia
+Indirizzo: Via Colombo, 12, 34073 Grado GO
+Coordinate: Lat 45.677204, Lng 13.392118
+Website: http://www.hotel-abbazia-grado.com/
+Email: 
+
+4102. Hotel Bellavista
+ID: d08bbd88-e3c6-425d-a4b1-12ad995daa43
+Slug: hotel-bellavista-aquileia
+Nome: Hotel Bellavista
+Comune / Provincia: Aquileia
+Indirizzo: Viale Italia, 48, 34073 Grado GO
+Coordinate: Lat 45.679277, Lng 13.405407
+Website: https://www.hotelbellavistagrado.com/
+Email: 
+
+4103. Hotel Carol Grado
+ID: 41013603-5d59-4d8a-9265-99dc671e62d7
+Slug: hotel-carol-grado-aquileia
+Nome: Hotel Carol Grado
+Comune / Provincia: Aquileia
+Indirizzo: Riva Ugo. Foscolo, 13, 34073 Grado GO
+Coordinate: Lat 45.678835, Lng 13.396286
+Website: http://www.hotelcarolgrado.com/
+Email: 
+
+4104. Hotel Eden Grado
+ID: bb339554-0eff-4b21-a4be-2c15d21bb9ec
+Slug: hotel-eden-grado-aquileia
+Nome: Hotel Eden Grado
+Comune / Provincia: Aquileia
+Indirizzo: Via Marco Polo, 2, 34073 Grado GO
+Coordinate: Lat 45.679253, Lng 13.396952
+Website: http://www.hoteledengrado.it/
+Email: 
+
+4105. Hotel Eldorado, Depandance & Apartments
+ID: 4e516eb7-d9f6-481e-9bff-1d3c1c0e666b
+Slug: hotel-eldorado-depandance-apartments-aquileia
+Nome: Hotel Eldorado, Depandance & Apartments
+Comune / Provincia: Aquileia
+Indirizzo: Viale Argine Moreri, 81, 34073 Grado GO
+Coordinate: Lat 45.680182, Lng 13.400672
+Website: https://www.hoteleldorado.it/
+Email: 
+
+4106. Hotel Lido
+ID: d95c218c-9a6a-49b9-a36e-7ce4f1174a93
+Slug: hotel-lido-aquileia
+Nome: Hotel Lido
+Comune / Provincia: Aquileia
+Indirizzo: Via Francesco Morosini, 12, 34073 Grado GO
+Coordinate: Lat 45.677157, Lng 13.387894
+Website: https://www.hotelscheck-in.com/hotellidogrado/it/
+Email: 
+
+4107. Hotel Merano Grado
+ID: a76d64ad-3ffa-48a1-8587-5cf594bd54b0
+Slug: hotel-merano-grado-aquileia
+Nome: Hotel Merano Grado
+Comune / Provincia: Aquileia
+Indirizzo: Via A. Vespucci, 3, 34073 Grado GO
+Coordinate: Lat 45.680228, Lng 13.399821
+Website: http://www.hotelmeranogrado.it/
+Email: 
+
+4108. Hotel Patriarchi
+ID: 06612005-59a2-4545-8e7a-ab76d4858869
+Slug: hotel-patriarchi-aquileia
+Nome: Hotel Patriarchi
+Comune / Provincia: Aquileia
+Indirizzo: Via Giulia Augusta, 12, 33051 Aquileia UD
+Coordinate: Lat 45.768871, Lng 13.368764
+Website: https://visitaquileia.com/it/hotel-patriarchi
+Email: 
+
+4109. Hotel Rialto
+ID: 5954c5fb-8d07-4d7c-8587-a61b2cf8ef93
+Slug: hotel-rialto-aquileia
+Nome: Hotel Rialto
+Comune / Provincia: Aquileia
+Indirizzo: Viale del Turismo, 2, 34073 Grado GO
+Coordinate: Lat 45.678927, Lng 13.404301
+Website: http://www.hotelrialto.it/
+Email: 
+
+4110. Hotel Stella Maris, Grado
+ID: 0b45f638-11e1-42aa-a424-d0fe0a7aa9b7
+Slug: hotel-stella-maris-grado-aquileia
+Nome: Hotel Stella Maris, Grado
+Comune / Provincia: Aquileia
+Indirizzo: Via dei Provveditori, 12, 34073 Grado GO
+Coordinate: Lat 45.676918, Lng 13.382831
+Website: http://www.stellamarisgrado.it/
+Email: 
+
+4111. Hotel Villa ai Fiori
+ID: a18d9614-4cb5-43ce-a6c1-6601c8cef856
+Slug: hotel-villa-ai-fiori-aquileia
+Nome: Hotel Villa ai Fiori
+Comune / Provincia: Aquileia
+Indirizzo: Via Giovanni Papini, 4, 34073 Grado GO
+Coordinate: Lat 45.678836, Lng 13.404688
+Website: http://hotelaifiori.it/
+Email: 
+
+4112. Hotel Villa Bernt
+ID: 37eb0dc7-b1af-4e10-b4be-efb08487482a
+Slug: hotel-villa-bernt-aquileia
+Nome: Hotel Villa Bernt
+Comune / Provincia: Aquileia
+Indirizzo: Via C. Colombo, 5, 34073 Grado GO
+Coordinate: Lat 45.677589, Lng 13.39257
+Website: https://www.hotelvillabernt.com/
+Email: 
+
+4113. Hotel Villa Erica
+ID: 027c6db1-0788-4862-b533-521b132edb38
+Slug: hotel-villa-erica-aquileia
+Nome: Hotel Villa Erica
+Comune / Provincia: Aquileia
+Indirizzo: Viale Dante Alighieri, 69, 34073 Grado GO
+Coordinate: Lat 45.676937, Lng 13.391351
+Website: http://www.hotelvillaerica.com/
+Email: 
+
+4114. Le Palme
+ID: d27cbb0d-d61c-48c4-a90a-244f03819c43
+Slug: le-palme-aquileia
+Nome: Le Palme
+Comune / Provincia: Aquileia
+Indirizzo: Viale del Sole, 35, 34073 Grado GO
+Coordinate: Lat 45.678466, Lng 13.405305
+Website: https://www.hotellepalmegrado.it/
+Email: 
+
+4115. Agriturismo Il Riccio
+ID: 02cba6f9-3f5e-465a-8a92-4595d7cebc72
+Slug: agriturismo-il-riccio-aquilonia
+Nome: Agriturismo Il Riccio
+Comune / Provincia: Aquilonia
+Indirizzo: SP167, 85028 Rionero In Vulture PZ
+Coordinate: Lat 40.93994, Lng 15.583507
+Website: http://www.agriturismoilriccio.it/
+Email: 
+
+4116. B&B Il rifugio del viandante
+ID: e5ec5ea5-8a62-4e8e-8c75-a787c9091906
+Slug: b-b-il-rifugio-del-viandante-aquilonia
+Nome: B&B Il rifugio del viandante
+Comune / Provincia: Aquilonia
+Indirizzo: Via Matteotti 6, Via Dante Alighieri, 60, 83049 Monteverde AV
+Coordinate: Lat 40.997776, Lng 15.534812
+Website: —
+Email: 
+
+4117. B&B Monte Vulture
+ID: b18d705a-2739-4e2e-bf92-d799bd5d0788
+Slug: b-b-monte-vulture-aquilonia
+Nome: B&B Monte Vulture
+Comune / Provincia: Aquilonia
+Indirizzo: Via Marconi, 1, 85028 Rionero In Vulture PZ
+Coordinate: Lat 40.927514, Lng 15.671893
+Website: http://www.bbmontevulture.it/
+Email: 
+
+4118. B&B Relais Villa Patrizia
+ID: 15c21ce8-b508-4a28-a3cf-acaa7dc67d47
+Slug: b-b-relais-villa-patrizia-aquilonia
+Nome: B&B Relais Villa Patrizia
+Comune / Provincia: Aquilonia
+Indirizzo: Corso Europa, 13, 83049 Monteverde AV
+Coordinate: Lat 40.997728, Lng 15.532703
+Website: http://www.bbamonteverde.blogspot.com/
+Email: 
+
+4119. B&B Via Roma 205
+ID: ec140f20-85d1-477c-a5b6-756f12c6bd3c
+Slug: b-b-via-roma-205-aquilonia
+Nome: B&B Via Roma 205
+Comune / Provincia: Aquilonia
+Indirizzo: Via Roma, 205, 85028 Rionero In Vulture PZ
+Coordinate: Lat 40.923745, Lng 15.677808
+Website: https://bb-via-roma-205.dormireinitalia.top/
+Email: 
+
+4120. BeB L'altra casa 1933
+ID: e8118a62-b491-4e92-84b1-7f1d7721f5ae
+Slug: beb-l-altra-casa-1933-aquilonia
+Nome: BeB L'altra casa 1933
+Comune / Provincia: Aquilonia
+Indirizzo: Vico III Pisacani, 85028 Rionero in Vulture PZ
+Coordinate: Lat 40.925958, Lng 15.676741
+Website: —
+Email: 
+
+4121. Hotel La Pergola di Spadola Maddalena
+ID: 9e426071-026f-4e0e-a30a-895d98b04c0d
+Slug: hotel-la-pergola-di-spadola-maddalena-aquilonia
+Nome: Hotel La Pergola di Spadola Maddalena
+Comune / Provincia: Aquilonia
+Indirizzo: Via Luigi la Vista, 37, 85028 Rionero in Vulture PZ
+Coordinate: Lat 40.928456, Lng 15.675094
+Website: https://hotelitalia.top/
+Email: 
+
+4122. Hotel Ristorante San Marco
+ID: 584aba2e-fdf4-4790-adff-b1bab20a005d
+Slug: hotel-ristorante-san-marco-aquilonia
+Nome: Hotel Ristorante San Marco
+Comune / Provincia: Aquilonia
+Indirizzo: Largo Fiera, 16, 85028 Rionero In Vulture PZ
+Coordinate: Lat 40.928287, Lng 15.676163
+Website: http://www.hotelsanmarcorionero.it/
+Email: 
+
+4123. Il Melograno Country House
+ID: 3f16dcb0-1c4a-4ff3-9622-730c434bd460
+Slug: il-melograno-country-house-aquilonia
+Nome: Il Melograno Country House
+Comune / Provincia: Aquilonia
+Indirizzo: Via delle Nazioni Unite, snc, 83045 Calitri AV
+Coordinate: Lat 40.913566, Lng 15.417101
+Website: http://www.countryhouseilmelograno.it/
+Email: 
+
+4124. La Stazione Affittacamere
+ID: ea7d1cdf-b708-4c38-9384-bca93ed05ce7
+Slug: la-stazione-affittacamere-aquilonia
+Nome: La Stazione Affittacamere
+Comune / Provincia: Aquilonia
+Indirizzo: Contrada Lama Guarnieri, 1, 71024 Candela FG
+Coordinate: Lat 41.151476, Lng 15.532912
+Website: —
+Email: 
+
+4125. Le stanze di Giulia
+ID: 97a708cf-74cf-49e3-8c78-9f3d878b2207
+Slug: le-stanze-di-giulia-aquilonia
+Nome: Le stanze di Giulia
+Comune / Provincia: Aquilonia
+Indirizzo: Vico S. Biagio, 40, 85025 Melfi PZ
+Coordinate: Lat 40.995911, Lng 15.656509
+Website: —
+Email: 
+
+4126. Vulcano Monticchio
+ID: 11f464c4-ff9d-41de-9ac0-f5a58a1c72b7
+Slug: vulcano-monticchio-aquilonia
+Nome: Vulcano Monticchio
+Comune / Provincia: Aquilonia
+Indirizzo: contrada piano delle nocelle, 85028 Monticchio Bagni PZ
+Coordinate: Lat 40.924609, Lng 15.577289
+Website: https://www.vulcanomonticchio.it/
+Email: 
+
+4127. Agriturismo Le Ravicelle
+ID: 20565335-cf09-4718-bbe1-bec62365ef3b
+Slug: agriturismo-le-ravicelle-aquino
+Nome: Agriturismo Le Ravicelle
+Comune / Provincia: Aquino
+Indirizzo: Via Ravicelle, 1, 03031 Aquino FR
+Coordinate: Lat 41.486544, Lng 13.702471
+Website: —
+Email: 
+
+4128. Antico Casale Spezia·Pelagalli
+ID: 5ac6bf6c-034e-45aa-a022-ec38b585fc19
+Slug: antico-casale-spezia-pelagalli-aquino
+Nome: Antico Casale Spezia·Pelagalli
+Comune / Provincia: Aquino
+Indirizzo: via Canapine Inf. 55 bis, 03031 Aquino FR
+Coordinate: Lat 41.489351, Lng 13.703843
+Website: http://www.anticocasalepelagalli.com/
+Email: 
+
+4129. Armonia B&B
+ID: 31fa43f8-52a7-4f4c-b865-dc292a6eec7a
+Slug: armonia-b-b-aquino
+Nome: Armonia B&B
+Comune / Provincia: Aquino
+Indirizzo: Via Rinaldo D'Aquino, 13, 03031 Aquino FR
+Coordinate: Lat 41.495947, Lng 13.70713
+Website: https://lglasheva.wixsite.com/armonia
+Email: 
+
+4130. Azienda Agrituristica La Vecchia Quercia
+ID: a8875e6c-9182-4161-bf07-7acb5585805b
+Slug: azienda-agrituristica-la-vecchia-quercia-aquino
+Nome: Azienda Agrituristica La Vecchia Quercia
+Comune / Provincia: Aquino
+Indirizzo: Via Filetti Superiore, 70, 03031 Aquino FR
+Coordinate: Lat 41.483866, Lng 13.725415
+Website: https://www.tuttocassino.com/agriturismo-la-vecchia-quercia/
+Email: 

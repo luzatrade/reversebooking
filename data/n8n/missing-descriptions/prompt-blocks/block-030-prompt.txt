@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+1016. Villa Puccini - Bed and breakfast
+ID: 3ef26c2f-4b43-471f-842b-4fab781dcdbe
+Slug: villa-puccini-bed-and-breakfast-airuno
+Nome: Villa Puccini - Bed and breakfast
+Comune / Provincia: Airuno
+Indirizzo: Via Giacomo Puccini, 8, 23900 Lecco LC
+Coordinate: Lat 45.827688, Lng 9.418278
+Website: http://www.villapuccini.eu/
+Email: 
+
+1017. 'L Calié
+ID: 6396c92d-092e-4426-b3b6-057d36973bd3
+Slug: l-calie-aisone
+Nome: 'L Calié
+Comune / Provincia: Aisone
+Indirizzo: V. Massimo Barale, 27, 12010 Roaschia CN
+Coordinate: Lat 44.269164, Lng 7.457068
+Website: http://www.calie.it/
+Email: 
+
+1018. Agriturismo Fior Di Campo
+ID: ef7e3177-545d-4b8e-a31a-ca51271e3371
+Slug: agriturismo-fior-di-campo-aisone
+Nome: Agriturismo Fior Di Campo
+Comune / Provincia: Aisone
+Indirizzo: Via Prese, 1/A, 12025 Dronero CN
+Coordinate: Lat 44.452093, Lng 7.404321
+Website: http://www.agriturismofiordicampo.it/
+Email: 
+
+1019. Albergo Miramonti
+ID: e3d2dbb0-6ae3-42bb-a702-6b7a6016c2ba
+Slug: albergo-miramonti-aisone
+Nome: Albergo Miramonti
+Comune / Provincia: Aisone
+Indirizzo: Viale J. F. Kennedy, 2, 12010 Entracque CN
+Coordinate: Lat 44.243573, Lng 7.398176
+Website: https://albergo-miramonti.italiabella.top/
+Email: 
+
+1020. Albergo Nasi
+ID: c4120f5f-a639-4918-bb3a-3fc3a7430dac
+Slug: albergo-nasi-aisone
+Nome: Albergo Nasi
+Comune / Provincia: Aisone
+Indirizzo: Via Maestra, 35, 12010 Vinadio CN
+Coordinate: Lat 44.289111, Lng 7.074512
+Website: https://albergo-nasi.italiavacanzeindimenticabili.top/
+Email: 
+
+1021. Albergo Regina delle Alpi
+ID: bd89ed96-aaca-4551-9ce2-f7b83224590c
+Slug: albergo-regina-delle-alpi-aisone
+Nome: Albergo Regina delle Alpi
+Comune / Provincia: Aisone
+Indirizzo: Via Nazionale, 3, 12010 Pietraporzio CN
+Coordinate: Lat 44.343822, Lng 7.034651
+Website: http://lnx.reginadellealpi.com/2017/
+Email: 
+
+1022. Albergo Ristorante Strepeis
+ID: 9d32b6f6-6db1-4aa1-99a5-382026c2e7fa
+Slug: albergo-ristorante-strepeis-aisone
+Nome: Albergo Ristorante Strepeis
+Comune / Provincia: Aisone
+Indirizzo: Frazione Strepeis, 16, 12010 Vinadio CN
+Coordinate: Lat 44.285264, Lng 7.069615
+Website: https://albergo-strepeis.italiavacanzeindimenticabili.top/
+Email: 
+
+1023. B&B La Rocca Bianca
+ID: 19217b4a-136e-47cd-940b-0bb175528bd2
+Slug: b-b-la-rocca-bianca-aisone
+Nome: B&B La Rocca Bianca
+Comune / Provincia: Aisone
+Indirizzo: Via Suor Benigna, 18, 12014 Festiona CN
+Coordinate: Lat 44.300774, Lng 7.343525
+Website: http://www.laroccabianca.com/
+Email: 
+
+1024. B&B Spada Reale
+ID: bccbde33-2b34-4162-8ed9-0cba93cf2bb4
+Slug: b-b-spada-reale-aisone
+Nome: B&B Spada Reale
+Comune / Provincia: Aisone
+Indirizzo: V. Massimo Barale, 11, 12010 Roaschia CN
+Coordinate: Lat 44.269556, Lng 7.456539
+Website: http://www.spadareale.com/
+Email: 
+
+1025. Bed e Breakfast da Nonna Lucia
+ID: 9cd61376-ab63-445c-85e7-7c17d34bf12f
+Slug: bed-e-breakfast-da-nonna-lucia-aisone
+Nome: Bed e Breakfast da Nonna Lucia
+Comune / Provincia: Aisone
+Indirizzo: Via Molini, 4, 12014 Demonte CN
+Coordinate: Lat 44.316097, Lng 7.298028
+Website: —
+Email: 
+
+1026. Bed&Book "L'elefantino"
+ID: 2ab60123-9bee-42bc-86ba-782a680387ca
+Slug: bed-book-l-elefantino-aisone
+Nome: Bed&Book "L'elefantino"
+Comune / Provincia: Aisone
+Indirizzo: SP121, 8, 12010 Roccasparvera CN
+Coordinate: Lat 44.344972, Lng 7.418631
+Website: —
+Email: 
+
+1027. Hotel Corborant
+ID: bdbb5220-6b59-4124-86a7-53f38be83897
+Slug: hotel-corborant-aisone
+Nome: Hotel Corborant
+Comune / Provincia: Aisone
+Indirizzo: Frazione Bagni di Vinadio, 1, Bagni di Vinadio, 1, 12010 Vinadio CN
+Coordinate: Lat 44.288601, Lng 7.075903
+Website: http://www.hotelcorborant.com/
+Email: 
+
+1028. Hotel Quadrifoglio
+ID: 4ca46b86-8328-4bab-a706-0526530cee17
+Slug: hotel-quadrifoglio-aisone
+Nome: Hotel Quadrifoglio
+Comune / Provincia: Aisone
+Indirizzo: Via C L N, 20, 12023 Caraglio CN
+Coordinate: Lat 44.414716, Lng 7.433784
+Website: http://www.hotel-quadrifoglio.com/
+Email: 
+
+1029. Hotel Ristorante Moderno
+ID: 5082336d-eb0b-406a-9fc9-1d35a0261a15
+Slug: hotel-ristorante-moderno-aisone
+Nome: Hotel Ristorante Moderno
+Comune / Provincia: Aisone
+Indirizzo: Largo Mistral, 7, 12014 Demonte CN
+Coordinate: Lat 44.316271, Lng 7.298096
+Website: —
+Email: 
+
+1030. Il Nocciolo
+ID: 39bb74f9-7a1f-4a79-80e7-2c35a9cf7f2c
+Slug: il-nocciolo-aisone
+Nome: Il Nocciolo
+Comune / Provincia: Aisone
+Indirizzo: frazione Bedoira, 17, 12010 Gaiola CN
+Coordinate: Lat 44.331597, Lng 7.422376
+Website: —
+Email: 
+
+1031. Residenza Tre Corone
+ID: 80b15814-c9ea-4d59-9b1c-deb043e54ba1
+Slug: residenza-tre-corone-aisone
+Nome: Residenza Tre Corone
+Comune / Provincia: Aisone
+Indirizzo: Via Vittorio Emanuele III, 10, 12010 Vinadio CN
+Coordinate: Lat 44.307315, Lng 7.174813
+Website: https://www.booking.com/hotel/it/residenza-tre-corone.it.html
+Email: 
+
+1032. Stura River Village RAFTING
+ID: 823ac1ff-6ff3-441a-9700-1ced84966fe4
+Slug: stura-river-village-rafting-aisone
+Nome: Stura River Village RAFTING
+Comune / Provincia: Aisone
+Indirizzo: Regione, Via Stiera, 6, 12010 Gaiola CN
+Coordinate: Lat 44.327976, Lng 7.401439
+Website: https://www.sturarivervillage.it/
+Email: 
+
+1033. Ai Vellutai
+ID: 8cc5754e-b495-4c40-abdd-e92968baaf92
+Slug: ai-vellutai-ala
+Nome: Ai Vellutai
+Comune / Provincia: Ala
+Indirizzo: Via Mario Soini, 34, 38061 Ala TN
+Coordinate: Lat 45.758142, Lng 11.005752
+Website: https://aivellutai.it/
+Email: 
+
+1034. Albergo Garnì Toresela
+ID: fe58943e-875a-4717-b66b-57322f77534f
+Slug: albergo-garni-toresela-ala
+Nome: Albergo Garnì Toresela
+Comune / Provincia: Ala
+Indirizzo: Strada Rivana, 5, 38060 Nago-Torbole TN
+Coordinate: Lat 45.878619, Lng 10.890969
+Website: http://www.hoteltoresela.it/
+Email: 
+
+1035. Aparthotel Bellavista
+ID: 17a9ee89-7282-440c-8c3d-99be5fde8f8a
+Slug: aparthotel-bellavista-ala
+Nome: Aparthotel Bellavista
+Comune / Provincia: Ala
+Indirizzo: Via Monte Vignola, 9, 38060 Polsa TN
+Coordinate: Lat 45.780404, Lng 10.943988
+Website: https://bellavista.polsavacanze.it/
+Email: 
+
+1036. Azienda vitivinicola Alessandro Secchi
+ID: 1e59e4b4-0b17-47df-af25-8ff29dba2671
+Slug: azienda-vitivinicola-alessandro-secchi-ala
+Nome: Azienda vitivinicola Alessandro Secchi
+Comune / Provincia: Ala
+Indirizzo: Località Coleri, 10, 38061 Ala TN
+Coordinate: Lat 45.803246, Lng 11.020495
+Website: http://secchivini.it/
+Email: 
+
+1037. B&b Cà Ulivi
+ID: a60af478-0ec5-4390-a220-d5c02095c03f
+Slug: b-b-ca-ulivi-ala
+Nome: B&b Cà Ulivi
+Comune / Provincia: Ala
+Indirizzo: Località Sgardaiolo, 20, 38061 Ala TN
+Coordinate: Lat 45.791376, Lng 11.030574
+Website: https://caulivibedandbreakfast.it/
+Email: 
+
+1038. Bar Pizzeria Etrusca B&B
+ID: 9d2a18bb-0cd8-470f-bcad-41feb49f1da1
+Slug: bar-pizzeria-etrusca-b-b-ala
+Nome: Bar Pizzeria Etrusca B&B
+Comune / Provincia: Ala
+Indirizzo: P.zza Polsa, Piazza Polsa, 38060 Brentonico TN
+Coordinate: Lat 45.780955, Lng 10.941118
+Website: —
+Email: 
+
+1039. Camping Polsa **
+ID: a18f2410-ae32-47b8-b714-4bf3a5658d7d
+Slug: camping-polsa-ala
+Nome: Camping Polsa **
+Comune / Provincia: Ala
+Indirizzo: Via Monte Vignola, 11, 38060 Polsa TN
+Coordinate: Lat 45.780646, Lng 10.94609
+Website: https://polsavacanze.it/campeggio-polsa/
+Email: 
+
+1040. Casa alla Fontana
+ID: d8a94454-2b46-4e6a-aac9-aac66b969b98
+Slug: casa-alla-fontana-ala
+Nome: Casa alla Fontana
+Comune / Provincia: Ala
+Indirizzo: Via Gubert, 7, 38061 Ala TN
+Coordinate: Lat 45.798046, Lng 11.025613
+Website: https://lacadalora.com/accoglienza
+Email: 
+
+1041. Giulio Mountain B&B
+ID: 22fb9f87-bade-44ef-a0f5-cd0f15be6e30
+Slug: giulio-mountain-b-b-ala
+Nome: Giulio Mountain B&B
+Comune / Provincia: Ala
+Indirizzo: Le Ville, 51, 38061 Sega di Ala TN
+Coordinate: Lat 45.697982, Lng 10.974753
+Website: https://giuliobb.it/
+Email: 
+
+1042. Hotel Baldo
+ID: b62b4974-a60c-49fe-ad76-7bb34a48aba3
+Slug: hotel-baldo-ala
+Nome: Hotel Baldo
+Comune / Provincia: Ala
+Indirizzo: Strada Provinciale 8, 4, 37020 Ferrara di Monte Baldo VR
+Coordinate: Lat 45.676739, Lng 10.853957
+Website: https://www.hotelbaldo.it/
+Email: 
+
+1043. Hotel Benaco Torbole
+ID: 175abd7d-1a7c-42eb-80d4-20f4c706047f
+Slug: hotel-benaco-torbole-ala
+Nome: Hotel Benaco Torbole
+Comune / Provincia: Ala
+Indirizzo: Via Benaco, 7, 38069 Nago-Torbole TN
+Coordinate: Lat 45.869198, Lng 10.875716
+Website: http://www.onbenaco.com/
+Email: 
+
+1044. Hotel Dolomiti - Azzurro Club Vacanze
+ID: 31448a54-2453-479a-89a4-21807f978098
+Slug: hotel-dolomiti-azzurro-club-vacanze-ala
+Nome: Hotel Dolomiti - Azzurro Club Vacanze
+Comune / Provincia: Ala
+Indirizzo: Via Lucciole, 2, 38060 Polsa TN
+Coordinate: Lat 45.781124, Lng 10.942418
+Website: https://www.hoteldolomitiski.it/
+Email: 
+
+1045. Hotel Polsa
+ID: 25a72da8-051f-47ef-b0e8-11cae51bd4e9
+Slug: hotel-polsa-ala
+Nome: Hotel Polsa
+Comune / Provincia: Ala
+Indirizzo: Piazza Polsa, 1, 38060 Brentonico TN
+Coordinate: Lat 45.781562, Lng 10.941427
+Website: https://hotelpolsa.it/
+Email: 
+
+1046. Hotel Shangri-La
+ID: a615383d-2ba6-4122-b0f9-1a1e961ae088
+Slug: hotel-shangri-la-ala
+Nome: Hotel Shangri-La
+Comune / Provincia: Ala
+Indirizzo: C.so Passo Buole, 13, 38061 Ala TN
+Coordinate: Lat 45.759127, Lng 11.002132
+Website: https://www.hotelshangri-la.it/
+Email: 
+
+1047. hotel sole del baldo
+ID: 64c0ebf0-39c9-4d7c-952e-59194cd7dc53
+Slug: hotel-sole-del-baldo-ala
+Nome: hotel sole del baldo
+Comune / Provincia: Ala
+Indirizzo: Via de la Pizzagrola, 38060 San Valentino TN
+Coordinate: Lat 45.781557, Lng 10.91377
+Website: http://www.hotelsoledelbaldo.com/
+Email: 
+
+1048. Hotel Vela
+ID: be717f97-8635-42cb-9bdd-bdaaaef91695
+Slug: hotel-vela-ala
+Nome: Hotel Vela
+Comune / Provincia: Ala
+Indirizzo: Via Str. Granda, 2, 38062 Nago-Torbole TN
+Coordinate: Lat 45.871911, Lng 10.875492
+Website: https://www.lavelahoteltorbole.it/
+Email: 
+
+1049. Il Sogno
+ID: e5f0842e-f109-4849-b9c7-bc353db0ca0d
+Slug: il-sogno-ala
+Nome: Il Sogno
+Comune / Provincia: Ala
+Indirizzo: Via Castelbarco, 10, 38063 Sabbionara TN
+Coordinate: Lat 45.74007, Lng 10.952742
+Website: http://www.ilsogno-avio.it/
+Email: 
+
+1050. La Pineta
+ID: 801d41f0-17c9-42e1-a0db-71122993dbae
+Slug: la-pineta-ala
+Nome: La Pineta
+Comune / Provincia: Ala
+Indirizzo: C.so Passo Buole, 38, 38061 Ala TN
+Coordinate: Lat 45.756267, Lng 10.998392
+Website: —
+Email: 

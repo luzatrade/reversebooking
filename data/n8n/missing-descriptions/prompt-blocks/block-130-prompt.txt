@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+4516. Agriturismo Pirara
+ID: ac162a54-1313-4746-8a9d-02b14c0e97ee
+Slug: agriturismo-pirara-arena
+Nome: Agriturismo Pirara
+Comune / Provincia: Arena
+Indirizzo: Contrada Pirara, 16, 89831 Gerocarne VV
+Coordinate: Lat 38.565094, Lng 16.25294
+Website: http://www.agriturismopirara.com/
+Email: 
+
+4517. b&b il Maggiolino
+ID: 67eedf92-4663-4ae9-8d13-f21fe4e28ea0
+Slug: b-b-il-maggiolino-arena
+Nome: b&b il Maggiolino
+Comune / Provincia: Arena
+Indirizzo: Via Toscana, località, 89900 San Pietro di Bivona VV
+Coordinate: Lat 38.703165, Lng 16.10712
+Website: —
+Email: 
+
+4518. Bed And Breakfast Coral Blue
+ID: d9fb1aec-528a-4eda-96cc-2e31dab8f4a3
+Slug: bed-and-breakfast-coral-blue-arena
+Nome: Bed And Breakfast Coral Blue
+Comune / Provincia: Arena
+Indirizzo: S.p.Triparni Portosalvo, 89900 Briatico VV
+Coordinate: Lat 38.702034, Lng 16.072214
+Website: http://www.coral-blue.it/
+Email: 
+
+4519. Hotel Barbieri
+ID: 9dd5876c-3316-4a18-b22c-bb90439464c6
+Slug: hotel-barbieri-arena
+Nome: Hotel Barbieri
+Comune / Provincia: Arena
+Indirizzo: Via del Pescatore, 29, 89900 Vibo Marina VV
+Coordinate: Lat 38.711075, Lng 16.099527
+Website: http://www.hotelbarbieri.com/
+Email: 
+
+4520. Hotel Certosa
+ID: 69892f18-276f-45c7-a276-b0632019d769
+Slug: hotel-certosa-arena
+Nome: Hotel Certosa
+Comune / Provincia: Arena
+Indirizzo: Via Alfonso Scrivo, 4, 89822 Serra San Bruno VV
+Coordinate: Lat 38.576944, Lng 16.325833
+Website: http://www.hotelristorantecertosa.com/
+Email: 
+
+4521. Hotel Diavin
+ID: c1b38dbb-e966-4265-8c3f-ac90f2212456
+Slug: hotel-diavin-arena
+Nome: Hotel Diavin
+Comune / Provincia: Arena
+Indirizzo: Via Palermo, 11, 89900 Vibo Marina VV
+Coordinate: Lat 38.710979, Lng 16.102778
+Website: —
+Email: 
+
+4522. Hotel Ristorante Villa Rosa
+ID: 5c3720be-ab32-498c-9fac-fb39c40d4066
+Slug: hotel-ristorante-villa-rosa-arena
+Nome: Hotel Ristorante Villa Rosa
+Comune / Provincia: Arena
+Indirizzo: Via Stretto di Pietro, 89822 Spadola VV
+Coordinate: Lat 38.597342, Lng 16.334974
+Website: https://hotel-ristorante-villa-rosa.bellaitaliatrips.top/
+Email: 
+
+4523. Residenza Arena
+ID: 5569423c-c6c5-420f-bc3e-86bcac8e6ac9
+Slug: residenza-arena-arena
+Nome: Residenza Arena
+Comune / Provincia: Arena
+Indirizzo: Contrada Paola, 89861 Tropea VV
+Coordinate: Lat 38.675079, Lng 15.904014
+Website: https://guestarea.eu/residenza-arena-tropea
+Email: 
+
+4524. The Maze
+ID: d9222bf1-4ad0-453e-8ff1-8de0ae74e251
+Slug: the-maze-arena
+Nome: The Maze
+Comune / Provincia: Arena
+Indirizzo: Via Scesa del Gesù, 89900 Vibo Valentia VV
+Coordinate: Lat 38.672188, Lng 16.103021
+Website: https://beb.it/preview/index.cfm?ids=63021&tipos=bbit&lingua=it
+Email: 
+
+4525. 700 Enolocanda
+ID: 7b78a093-a699-4b1b-bf08-5193a674b45a
+Slug: 700-enolocanda-arena-po
+Nome: 700 Enolocanda
+Comune / Provincia: Arena Po
+Indirizzo: Via Castello, 31, 27046 Santa Giuletta PV
+Coordinate: Lat 45.022411, Lng 9.186246
+Website: https://www.700enolocanda.it/
+Email: 
+
+4526. Agriturismo Il Casale del Sapere e del Sapore
+ID: 158dc863-5c6d-4819-bdf5-14d2b42ea0ac
+Slug: agriturismo-il-casale-del-sapere-e-del-sapore-arena-po
+Nome: Agriturismo Il Casale del Sapere e del Sapore
+Comune / Provincia: Arena Po
+Indirizzo: Via Bruno Armani, 6, 29015 Castel San Giovanni PC
+Coordinate: Lat 45.048059, Lng 9.383442
+Website: http://www.saperesapore.it/
+Email: 
+
+4527. Antica Cascina di Borghetto
+ID: 0ed16e21-d9c0-4fe2-b05c-30cb7f44723f
+Slug: antica-cascina-di-borghetto-arena-po
+Nome: Antica Cascina di Borghetto
+Comune / Provincia: Arena Po
+Indirizzo: Frazione Fornaci, 27, 26812 Fornaci LO
+Coordinate: Lat 45.194175, Lng 9.519904
+Website: http://anticacascina-ostello.com.es/
+Email: 
+
+4528. B&B La torre
+ID: 938d7b30-791a-4c14-8cd8-48f70c269384
+Slug: b-b-la-torre-arena-po
+Nome: B&B La torre
+Comune / Provincia: Arena Po
+Indirizzo: Via Carlo Achilli, 2, 27049 Stradella PV
+Coordinate: Lat 45.07817, Lng 9.28731
+Website: —
+Email: 
+
+4529. B&B Miele Millefiori
+ID: 87424e82-fff2-4ee9-accd-6eef788d054a
+Slug: b-b-miele-millefiori-arena-po
+Nome: B&B Miele Millefiori
+Comune / Provincia: Arena Po
+Indirizzo: località Schiaffinata 26, 27017 Pieve Porto Morone PV
+Coordinate: Lat 45.105655, Lng 9.467064
+Website: http://www.instagram.com/bbmielemillefiori
+Email: 
+
+4530. B&B Monteguzzo
+ID: eb539c67-1290-4ee7-983b-580caffe8593
+Slug: b-b-monteguzzo-arena-po
+Nome: B&B Monteguzzo
+Comune / Provincia: Arena Po
+Indirizzo: Strada per Monteguzzo, 6, 27040 Cigognola PV
+Coordinate: Lat 45.031511, Lng 9.262746
+Website: http://www.bbmonteguzzo.it/
+Email: 
+
+4531. Hotel Flamingo - Stradella
+ID: d4a2628a-5486-4b22-8490-b20424bc9214
+Slug: hotel-flamingo-stradella-arena-po
+Nome: Hotel Flamingo - Stradella
+Comune / Provincia: Arena Po
+Indirizzo: Via Giuseppe di Vittorio, 56, 27049 Stradella PV
+Coordinate: Lat 45.071588, Lng 9.305877
+Website: —
+Email: 
+
+4532. Hotel Motel 2 Castel San Giovanni
+ID: 5363403e-beae-45be-bbdd-d42ed975baef
+Slug: hotel-motel-2-castel-san-giovanni-arena-po
+Nome: Hotel Motel 2 Castel San Giovanni
+Comune / Provincia: Arena Po
+Indirizzo: Strada Dogana Po, 15/A, 29015 Castel San Giovanni PC
+Coordinate: Lat 45.080023, Lng 9.448448
+Website: https://www.motel2.it/
+Email: 
+
+4533. Hotel Rizzi
+ID: f16dd001-fe45-48ab-8b51-71dea8eb4fbc
+Slug: hotel-rizzi-arena-po
+Nome: Hotel Rizzi
+Comune / Provincia: Arena Po
+Indirizzo: Via Borgonovo, 46, 29015 Castel San Giovanni PC
+Coordinate: Lat 45.047108, Lng 9.446487
+Website: http://www.hotel-rizzi.it/
+Email: 
+
+4534. M-Hotel Don Carlo
+ID: 45a04989-c67a-4451-9553-e19471466b1c
+Slug: m-hotel-don-carlo-arena-po
+Nome: M-Hotel Don Carlo
+Comune / Provincia: Arena Po
+Indirizzo: Strada Bronese, SP617, 37, 27043 Broni PV
+Coordinate: Lat 45.084393, Lng 9.256028
+Website: https://www.mhoteldoncarlo.com/
+Email: 
+
+4535. Museo Grillo Camere d'Arte
+ID: f11a22fe-322e-4ab6-aee3-d3e36c0b2a14
+Slug: museo-grillo-camere-d-arte-arena-po
+Nome: Museo Grillo Camere d'Arte
+Comune / Provincia: Arena Po
+Indirizzo: Via G. Marconi, 4, 27040 Arena Po PV
+Coordinate: Lat 45.097218, Lng 9.363089
+Website: https://www.gaetanogrillo.com/cameredarte
+Email: 
+
+4536. RISTORANTE DELL'ANGELO
+ID: df5bbba3-d4d2-44eb-9f76-89f8a2d1dc0f
+Slug: ristorante-dell-angelo-arena-po
+Nome: RISTORANTE DELL'ANGELO
+Comune / Provincia: Arena Po
+Indirizzo: Via Tornello, 94, 27040 Mezzanino PV
+Coordinate: Lat 45.127865, Lng 9.228384
+Website: https://ristorantedellangelo.it/
+Email: 
+
+4537. Affittacamere Onda Chiara
+ID: dab5d064-8fe2-4381-8362-5c95dc8f0a03
+Slug: affittacamere-onda-chiara-arenzano
+Nome: Affittacamere Onda Chiara
+Comune / Provincia: Arenzano
+Indirizzo: Piazza Zembi, 3, 16011 Arenzano GE
+Coordinate: Lat 44.404239, Lng 8.683211
+Website: https://ondachiara.com/
+Email: 
+
+4538. Câ da Muntà
+ID: fd342e92-1cd2-4d40-a3be-e1ded5024957
+Slug: ca-da-munta-arenzano
+Nome: Câ da Muntà
+Comune / Provincia: Arenzano
+Indirizzo: Via Montà, 2, 16011 Arenzano GE
+Coordinate: Lat 44.408466, Lng 8.691088
+Website: http://www.cadamunta.com/
+Email: 
+
+4539. Dimore di Mare affittacamere
+ID: d06a9089-c68d-4d36-922a-035e4d174c8e
+Slug: dimore-di-mare-affittacamere-arenzano
+Nome: Dimore di Mare affittacamere
+Comune / Provincia: Arenzano
+Indirizzo: Corso Giacomo Matteotti, 104, 16011 Arenzano GE
+Coordinate: Lat 44.404178, Lng 8.685671
+Website: http://dimoremare.com/
+Email: 
+
+4540. Ena Hotel
+ID: 7b565a59-3280-454b-8df6-879305928cff
+Slug: ena-hotel-arenzano
+Nome: Ena Hotel
+Comune / Provincia: Arenzano
+Indirizzo: Corso Giacomo Matteotti, 12, 16011 Arenzano GE
+Coordinate: Lat 44.405458, Lng 8.687412
+Website: http://www.enahotel.it/
+Email: 
+
+4541. Glem Rooms and Breakfast
+ID: 25ac060b-1cfe-4041-b22c-8f89170307f9
+Slug: glem-rooms-and-breakfast-arenzano
+Nome: Glem Rooms and Breakfast
+Comune / Provincia: Arenzano
+Indirizzo: Via Sauli Pallavicino, 27/4, 16011 Arenzano GE
+Coordinate: Lat 44.403259, Lng 8.684268
+Website: https://www.glemrooms.com/
+Email: 
+
+4542. Grand Hotel Arenzano
+ID: 9145e15c-3e96-4ec4-ba48-5c844238a3d7
+Slug: grand-hotel-arenzano-arenzano
+Nome: Grand Hotel Arenzano
+Comune / Provincia: Arenzano
+Indirizzo: Lungomare Stati Uniti, 2, 16011 Arenzano GE
+Coordinate: Lat 44.402051, Lng 8.685228
+Website: https://www.grandhotelarenzano.it/it/Home?utm_source=google&utm_medium=organic&utm_campaign=googlemybusiness
+Email: 
+
+4543. Hotel Eden Di Iovine Patrizia
+ID: c7a94306-9bda-4131-bba3-b0b5a8cb6bc1
+Slug: hotel-eden-di-iovine-patrizia-arenzano
+Nome: Hotel Eden Di Iovine Patrizia
+Comune / Provincia: Arenzano
+Indirizzo: Via Trieste, 15, 16011 Arenzano GE
+Coordinate: Lat 44.406087, Lng 8.683761
+Website: http://hotel-eden-arenzano.com.es/
+Email: 
+
+4544. Hotel Poggio
+ID: 775dc82f-f269-45fa-90c9-c0b35e23949d
+Slug: hotel-poggio-arenzano
+Nome: Hotel Poggio
+Comune / Provincia: Arenzano
+Indirizzo: Via Francia, 24, 16011 Arenzano GE
+Coordinate: Lat 44.401269, Lng 8.671103
+Website: http://www.poggiohotel.it/
+Email: 
+
+4545. Hotel Punta San Martino
+ID: 4e620208-7682-4e4a-98d6-587673145355
+Slug: hotel-punta-san-martino-arenzano
+Nome: Hotel Punta San Martino
+Comune / Provincia: Arenzano
+Indirizzo: Via Punta S. Martino, 4, 16011 Arenzano GE
+Coordinate: Lat 44.397839, Lng 8.685192
+Website: https://www.hotelpsm.it/it/Home?utm_source=google&utm_medium=organic&utm_campaign=googlemybusiness
+Email: 
+
+4546. Hotel Riviera
+ID: f1236c93-02cc-4e48-ab31-c38988998d77
+Slug: hotel-riviera-arenzano
+Nome: Hotel Riviera
+Comune / Provincia: Arenzano
+Indirizzo: Piazza Antonio Gramsci, 10, 16011 Arenzano GE
+Coordinate: Lat 44.402868, Lng 8.685342
+Website: http://www.hotelriviera-arenzano.it/
+Email: 
+
+4547. Hotel Serena
+ID: b7d1521f-1702-4f02-8b69-2c08ac95931e
+Slug: hotel-serena-arenzano
+Nome: Hotel Serena
+Comune / Provincia: Arenzano
+Indirizzo: Corso Giacomo Matteotti, 146/1, 16011 Arenzano GE
+Coordinate: Lat 44.403382, Lng 8.685485
+Website: https://www.hotelserena-ge.it/
+Email: 
+
+4548. Hotel Ulivi
+ID: 1406c691-1e3e-4265-b57d-4cf8ca8eb5c9
+Slug: hotel-ulivi-arenzano
+Nome: Hotel Ulivi
+Comune / Provincia: Arenzano
+Indirizzo: Via Olivete, 12, 16011 Arenzano GE
+Coordinate: Lat 44.405335, Lng 8.686151
+Website: http://www.hoteluliviarenzano.it/
+Email: 
+
+4549. Hotel Vittoria
+ID: f095a339-42be-4d6c-a084-4f2d29206b70
+Slug: hotel-vittoria-arenzano
+Nome: Hotel Vittoria
+Comune / Provincia: Arenzano
+Indirizzo: Via Sauli Pallavicino, 84, 16011 Arenzano GE
+Coordinate: Lat 44.403908, Lng 8.683208
+Website: —
+Email: 
+
+4550. Hotiday Arenzano Pineta
+ID: a89bc7d8-c401-4f9f-acd5-5d5001eb83f8
+Slug: hotiday-arenzano-pineta-arenzano
+Nome: Hotiday Arenzano Pineta
+Comune / Provincia: Arenzano
+Indirizzo: Via Punta S. Martino, 4, 16011 Arenzano GE
+Coordinate: Lat 44.397769, Lng 8.685216
+Website: https://hotiday.com/hotels/hotiday-arenzano-pineta
+Email: 

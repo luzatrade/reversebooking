@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+9836. Agriturismo "Il glicine e la lucerna"
+ID: d93829dd-29a7-4a0b-bb0d-8361669b0104
+Slug: agriturismo-il-glicine-e-la-lucerna-borghetto-d-arroscia
+Nome: Agriturismo "Il glicine e la lucerna"
+Comune / Provincia: Borghetto d'Arroscia
+Indirizzo: Via Principale, 4, 18028 Ranzo IM
+Coordinate: Lat 44.068349, Lng 8.03093
+Website: https://oliorudasso.it/
+Email: 
+
+9837. Agriturismo Borgo del Canto
+ID: efac0558-2882-4a7c-aeb0-c8cfc04440bc
+Slug: agriturismo-borgo-del-canto-borghetto-d-arroscia
+Nome: Agriturismo Borgo del Canto
+Comune / Provincia: Borghetto d'Arroscia
+Indirizzo: Borgata Canto, 14, 18028 Aquila d'Arroscia IM
+Coordinate: Lat 44.084461, Lng 8.004829
+Website: https://www.booking.com/hotel/it/borgo-del-canto-aquila-di-arroscia.it.html?label=gen173nr-10CAsocUIiYm9yZ28tZGVsLWNhbnRvLWFxdWlsYS1kaS1hcnJvc2NpYUgzWARocYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCr-acxQbAAgHSAiRjMDY0MjhjOC04MDI0LTQ5MDAtOGMwYS0xNDg5Yzk0MDY5NDDYAgHgAgE&sid=6eb7cd61b5e3989fabd1170e4c0c4b4a&dist=0&group_adults=2&group_children=0&keep_landing=1&no_rooms=1&sb_price_type=total&type=total&
+Email: 
+
+9838. Agriturismo La Chouette
+ID: 2569fd69-6f9a-4cdf-b604-6c74464d5fb6
+Slug: agriturismo-la-chouette-borghetto-d-arroscia
+Nome: Agriturismo La Chouette
+Comune / Provincia: Borghetto d'Arroscia
+Indirizzo: Via San Sebastiano 4, Nirasca, 18026 Pieve di Teco IM
+Coordinate: Lat 44.060591, Lng 7.918293
+Website: http://www.agriturismolachouette.it/
+Email: 
+
+9839. AGRITURISMO LA FATTORIA
+ID: 02a2f38a-7cf5-4d15-b805-638c746200d6
+Slug: agriturismo-la-fattoria-borghetto-d-arroscia
+Nome: AGRITURISMO LA FATTORIA
+Comune / Provincia: Borghetto d'Arroscia
+Indirizzo: 18028 Costa Bacelega IM
+Coordinate: Lat 44.069898, Lng 8.031765
+Website: http://www.agriturismolafattoria.com/
+Email: 
+
+9840. Albergo Negro
+ID: b52a03e0-f901-4099-ac83-2e0acc555822
+Slug: albergo-negro-borghetto-d-arroscia
+Nome: Albergo Negro
+Comune / Provincia: Borghetto d'Arroscia
+Indirizzo: Via Canadà, 10, 18020 Cenova IM
+Coordinate: Lat 44.03135, Lng 7.895712
+Website: https://hotel-negro.italiapaesaggiviaggi.top/
+Email: 
+
+9841. aMaccia
+ID: 69d5a4be-a9ce-49c1-a8e4-940d35470364
+Slug: amaccia-borghetto-d-arroscia
+Nome: aMaccia
+Comune / Provincia: Borghetto d'Arroscia
+Indirizzo: Via Umberto I, n 54, 18028 Ranzo IM
+Coordinate: Lat 44.05948, Lng 8.014055
+Website: https://www.amaccia.it/
+Email: 
+
+9842. Bala Perdua
+ID: 370aeb96-d13e-4a22-bd97-de72a508d599
+Slug: bala-perdua-borghetto-d-arroscia
+Nome: Bala Perdua
+Comune / Provincia: Borghetto d'Arroscia
+Indirizzo: Via Sant'Antonio, 25, Fraz. Lovegno, 18026 Pieve di Teco IM
+Coordinate: Lat 44.055353, Lng 7.936634
+Website: —
+Email: 
+
+9843. B&B Cascina Delle Signore
+ID: a4e1f00a-11e8-4b3a-9a51-c8a009493f99
+Slug: b-b-cascina-delle-signore-borghetto-di-borbera
+Nome: B&B Cascina Delle Signore
+Comune / Provincia: Borghetto di Borbera
+Indirizzo: Via Dante Alighieri, 13, 15060 Vignole Borbera AL
+Coordinate: Lat 44.71534, Lng 8.921018
+Website: https://www.instagram.com/cascina_delle_signore/
+Email: 
+
+9844. Cascina Formighezzo
+ID: 22a0fca5-1b1e-4f35-a9b9-0f4e7d557e88
+Slug: cascina-formighezzo-borghetto-di-borbera
+Nome: Cascina Formighezzo
+Comune / Provincia: Borghetto di Borbera
+Indirizzo: Località Formighezzo, 5, 15060 Grondona AL
+Coordinate: Lat 44.694731, Lng 8.923349
+Website: http://www.cascinaformighezzo.it/
+Email: 
+
+9845. Il Poggiolo in Val borbera
+ID: 7a5fd76d-160e-48e3-8224-892fe7cccbd4
+Slug: il-poggiolo-in-val-borbera-borghetto-di-borbera
+Nome: Il Poggiolo in Val borbera
+Comune / Provincia: Borghetto di Borbera
+Indirizzo: Strada Provinciale Cantalupo Dernice, 7, 15056 Vigoponzo AL
+Coordinate: Lat 44.754456, Lng 9.040271
+Website: https://il-poggiolo-in-val-borbera.italyexperience.top/
+Email: 
+
+9846. La Traversina Agriturismo di Charme
+ID: 0be7e2f5-31f1-49f7-a172-99c4f964f5e0
+Slug: la-traversina-agriturismo-di-charme-borghetto-di-borbera
+Nome: La Traversina Agriturismo di Charme
+Comune / Provincia: Borghetto di Borbera
+Indirizzo: La Traversina Agriturismo di Charme 109, 15060 Stazzano AL
+Coordinate: Lat 44.731293, Lng 8.900714
+Website: http://it.latraversina.com/
+Email: 
+
+9847. Affittacamere Bel Sole
+ID: 9627c80b-aa9e-4e33-a74b-f97719fe7663
+Slug: affittacamere-bel-sole-borghetto-di-vara
+Nome: Affittacamere Bel Sole
+Comune / Provincia: Borghetto di Vara
+Indirizzo: SS 1, 1, 19020 Borghetto di Vara SP
+Coordinate: Lat 44.222853, Lng 9.720968
+Website: —
+Email: 
+
+9848. Affittacamere Nel paese di Alice
+ID: f6f075bd-3d92-4ae5-a254-6717f79d54f8
+Slug: affittacamere-nel-paese-di-alice-borghetto-di-vara
+Nome: Affittacamere Nel paese di Alice
+Comune / Provincia: Borghetto di Vara
+Indirizzo: Piazza Umberto I°, n° 10, 19020 Borghetto di Vara SP
+Coordinate: Lat 44.223724, Lng 9.72177
+Website: —
+Email: 
+
+9849. Agriturismo Giumin
+ID: 03841d7b-fa7b-4268-a268-50f9399792a6
+Slug: agriturismo-giumin-borghetto-di-vara
+Nome: Agriturismo Giumin
+Comune / Provincia: Borghetto di Vara
+Indirizzo: Via Piazza, 19, 19020 Rocchetta di Vara SP
+Coordinate: Lat 44.258618, Lng 9.785389
+Website: https://agriturismo-giumin.italiavacanzeindimenticabili.top/
+Email: 
+
+9850. Agriturismo Riomaggiore Mare Monti
+ID: 0bde4901-f90b-4e0f-92bd-d0f307c07a0a
+Slug: agriturismo-riomaggiore-mare-monti-borghetto-di-vara
+Nome: Agriturismo Riomaggiore Mare Monti
+Comune / Provincia: Borghetto di Vara
+Indirizzo: LOCALITA' SALDINO -VEPPO- ROCCHETTA DI VARA, 19020 Rocchetta di Vara SP
+Coordinate: Lat 44.24322, Lng 9.80277
+Website: https://rafaelstravelexperience.com/agriturismo-riomaggiore-mare-monti-italy
+Email: 
+
+9851. Albergo Belvedere
+ID: 733eba31-5c23-4b45-8cf3-decb5bf642d9
+Slug: albergo-belvedere-borghetto-di-vara
+Nome: Albergo Belvedere
+Comune / Provincia: Borghetto di Vara
+Indirizzo: SS 1, 17, 19020 Borghetto di Vara SP
+Coordinate: Lat 44.22303, Lng 9.721953
+Website: https://www.albergobelvedere.info/it/index.html
+Email: 
+
+9852. Antica Locanda Luigina
+ID: c6ea83b3-0135-4e9d-95fe-54c329efb356
+Slug: antica-locanda-luigina-borghetto-di-vara
+Nome: Antica Locanda Luigina
+Comune / Provincia: Borghetto di Vara
+Indirizzo: SS 1, 182, 19020 Mattarana SP
+Coordinate: Lat 44.247222, Lng 9.621389
+Website: http://www.anticalocandaluigina.com/
+Email: 
+
+9853. Antiche Terre Hotel & Relax
+ID: 8dddb0a9-6d2b-4e9d-a80c-3d5ab0c70003
+Slug: antiche-terre-hotel-relax-borghetto-di-vara
+Nome: Antiche Terre Hotel & Relax
+Comune / Provincia: Borghetto di Vara
+Indirizzo: Via delle Fonti, 197, 19020 Faggiona SP
+Coordinate: Lat 44.199011, Lng 9.699569
+Website: http://www.anticheterrehotel.com/
+Email: 
+
+9854. B&B La Luna nel Borgo
+ID: 13398880-5dda-4f25-bf9b-1d704c4dca38
+Slug: b-b-la-luna-nel-borgo-borghetto-di-vara
+Nome: B&B La Luna nel Borgo
+Comune / Provincia: Borghetto di Vara
+Indirizzo: Piazza Brosini, 10, 19020 Brugnato SP
+Coordinate: Lat 44.23726, Lng 9.723627
+Website: http://www.lalunanelborgo.biz/
+Email: 
+
+9855. Casa Ivana
+ID: 5d177427-25b5-455c-83f9-74b8289d6912
+Slug: casa-ivana-borghetto-di-vara
+Nome: Casa Ivana
+Comune / Provincia: Borghetto di Vara
+Indirizzo: V. Pian delle Capanne, 6, 19020 Borghetto di Vara SP
+Coordinate: Lat 44.222434, Lng 9.723189
+Website: —
+Email: 
+
+9856. Cuccaro Club
+ID: 877f7026-671c-449b-acf8-3dc2edad046a
+Slug: cuccaro-club-borghetto-di-vara
+Nome: Cuccaro Club
+Comune / Provincia: Borghetto di Vara
+Indirizzo: V. Campo Picchiara, 150, 19020 Rocchetta di Vara SP
+Coordinate: Lat 44.278509, Lng 9.799403
+Website: http://www.cuccaroclub.it/
+Email: 
+
+9857. Hotel "Al Terra di Mare"
+ID: 746e7aa1-3644-421f-aabd-877299cc53c6
+Slug: hotel-al-terra-di-mare-borghetto-di-vara
+Nome: Hotel "Al Terra di Mare"
+Comune / Provincia: Borghetto di Vara
+Indirizzo: Località Gallona, 19015 Levanto SP
+Coordinate: Lat 44.177581, Lng 9.632484
+Website: http://www.alterradimare.it/
+Email: 
+
+9858. Hotel il Colle
+ID: 84c0adbe-f309-4c36-8681-33df593f2037
+Slug: hotel-il-colle-borghetto-di-vara
+Nome: Hotel il Colle
+Comune / Provincia: Borghetto di Vara
+Indirizzo: Localita' Colle Di Gritta, 19015 Levanto SP
+Coordinate: Lat 44.163022, Lng 9.648949
+Website: https://www.hotelilcollemonterosso.it/
+Email: 
+
+9859. Hotel Paese Corvara
+ID: a6f46457-1281-461f-95cd-260b3b0d8709
+Slug: hotel-paese-corvara-borghetto-di-vara
+Nome: Hotel Paese Corvara
+Comune / Provincia: Borghetto di Vara
+Indirizzo: Piazza Ildebrando, 9, 19020 Corvara SP
+Coordinate: Lat 44.169968, Lng 9.731605
+Website: http://www.hotelpaesecorvara.it/
+Email: 
+
+9860. Hotel Sonno d'Autore
+ID: fd22439a-d5f4-4ad8-b169-c0c9507c4954
+Slug: hotel-sonno-d-autore-borghetto-di-vara
+Nome: Hotel Sonno d'Autore
+Comune / Provincia: Borghetto di Vara
+Indirizzo: Via Ronchetto, 13, 19020 Borghetto di Vara SP
+Coordinate: Lat 44.226389, Lng 9.719167
+Website: http://www.sonnodautore.it/
+Email: 
+
+9861. Il Nido nella Bionda
+ID: a421f734-3d29-41af-9875-5106f49f21b8
+Slug: il-nido-nella-bionda-borghetto-di-vara
+Nome: Il Nido nella Bionda
+Comune / Provincia: Borghetto di Vara
+Indirizzo: Via Bionda, 4, 19020 Brugnato SP
+Coordinate: Lat 44.23797, Lng 9.722734
+Website: http://www.ilnidonellabionda.com/
+Email: 
+
+9862. L'Antico Borgo
+ID: b8fad9c7-4fb4-47ad-84d5-c30dca6ea22c
+Slug: l-antico-borgo-borghetto-di-vara
+Nome: L'Antico Borgo
+Comune / Provincia: Borghetto di Vara
+Indirizzo: Località, 19015 Dosso SP
+Coordinate: Lat 44.192568, Lng 9.6219
+Website: http://www.anticoborgo.net/
+Email: 
+
+9863. Locanda da Marco
+ID: bd9c7084-d86a-4d7d-b4da-936fff43a3a8
+Slug: locanda-da-marco-borghetto-di-vara
+Nome: Locanda da Marco
+Comune / Provincia: Borghetto di Vara
+Indirizzo: Via Levanto, 376, 19020 Pignone SP
+Coordinate: Lat 44.176684, Lng 9.721535
+Website: http://www.locandadamarco.it/
+Email: 
+
+9864. Park Hotel Argento
+ID: 6c1b6533-5f72-4273-bef0-04ded3bdbb30
+Slug: park-hotel-argento-borghetto-di-vara
+Nome: Park Hotel Argento
+Comune / Provincia: Borghetto di Vara
+Indirizzo: Via per Sant'anna, 1, 19015 Levanto SP
+Coordinate: Lat 44.176252, Lng 9.613474
+Website: https://www.parkhotelargento.com/
+Email: 
+
+9865. Affittacamere La Meridiana di Francesco Casali
+ID: 6f2d324c-a7db-43b5-9044-84c7acbb6e5f
+Slug: affittacamere-la-meridiana-di-francesco-casali-borghetto-lodigiano
+Nome: Affittacamere La Meridiana di Francesco Casali
+Comune / Provincia: Borghetto Lodigiano
+Indirizzo: Via Roma, 64, 29121 Piacenza PC
+Coordinate: Lat 45.0522, Lng 9.697651
+Website: https://www.bb-lameridianapiacenza.it/
+Email: 
+
+9866. B&B Il Piccolo
+ID: 18b05735-6f25-4110-b023-9227d3d5bea9
+Slug: b-b-il-piccolo-borghetto-lodigiano
+Nome: B&B Il Piccolo
+Comune / Provincia: Borghetto Lodigiano
+Indirizzo: Via Paolo Bozzini, 2, 29121 Piacenza PC
+Coordinate: Lat 45.045922, Lng 9.678318
+Website: http://www.bbpiacenza.it/
+Email: 
+
+9867. B&B Palazzo Malaspina
+ID: b0f2c346-f71a-4457-8f4b-d4aa1d182879
+Slug: b-b-palazzo-malaspina-borghetto-lodigiano
+Nome: B&B Palazzo Malaspina
+Comune / Provincia: Borghetto Lodigiano
+Indirizzo: Via Borghetto, 7, 29121 Piacenza PC
+Coordinate: Lat 45.054728, Lng 9.693579
+Website: https://www.hotelspretorian.com/bb-palazzo-malaspina/
+Email: 
+
+9868. Hotel Astor
+ID: 8dea7754-8bdf-45b5-8333-5807447f69f0
+Slug: hotel-astor-borghetto-lodigiano
+Nome: Hotel Astor
+Comune / Provincia: Borghetto Lodigiano
+Indirizzo: Via Tibini, 29, 29121 Piacenza PC
+Coordinate: Lat 45.049819, Lng 9.703703
+Website: https://www.astorhotelpc.it/
+Email: 
+
+9869. Hotel Euro
+ID: 72893a77-c663-425a-a76c-d82a27b3f2a7
+Slug: hotel-euro-borghetto-lodigiano
+Nome: Hotel Euro
+Comune / Provincia: Borghetto Lodigiano
+Indirizzo: Via Cristoforo Colombo, 29F, 29100 Piacenza PC
+Coordinate: Lat 45.045292, Lng 9.709881
+Website: http://www.hoteleuropiacenza.it/
+Email: 
+
+9870. Hotel Stadio
+ID: cebfa175-bf97-4419-855f-4fd80fbe6e04
+Slug: hotel-stadio-borghetto-lodigiano
+Nome: Hotel Stadio
+Comune / Provincia: Borghetto Lodigiano
+Indirizzo: Str. Val Nure, 20, 29122 Piacenza PC
+Coordinate: Lat 45.025261, Lng 9.68855
+Website: http://www.piacenzahotels.com/
+Email: 

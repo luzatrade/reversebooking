@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+15646. Stella Maris Terme
+ID: c21f59ca-a291-4872-909f-28ee1653c935
+Slug: stella-maris-terme-casamicciola-terme
+Nome: Stella Maris Terme
+Comune / Provincia: Casamicciola Terme
+Indirizzo: Via Salvatore Girardi, 21, 80074 Casamicciola Terme NA
+Coordinate: Lat 40.749407, Lng 13.915764
+Website: http://hoteltermestellamaris.com/
+Email: 
+
+15647. B&B La Corte
+ID: 2bec2fa0-f8f0-4a46-8ca3-9fd890bee1d9
+Slug: b-b-la-corte-casandrino
+Nome: B&B La Corte
+Comune / Provincia: Casandrino
+Indirizzo: Via Cesare Battisti, 30, 80029 Sant'Antimo NA
+Coordinate: Lat 40.942176, Lng 14.234561
+Website: http://www.bblacorte.com/
+Email: 
+
+15648. Hotel El Pamas
+ID: 9ec954e7-4d95-423f-8df3-010f5b1190d1
+Slug: hotel-el-pamas-casandrino
+Nome: Hotel El Pamas
+Comune / Provincia: Casandrino
+Indirizzo: Via Pietro Nenni, 29, 80018 Mugnano di Napoli NA
+Coordinate: Lat 40.916373, Lng 14.214297
+Website: https://elpamas.com/
+Email: 
+
+15649. Hotel Lento
+ID: ea111043-6c00-4653-b6f7-5b17122520c2
+Slug: hotel-lento-casandrino
+Nome: Hotel Lento
+Comune / Provincia: Casandrino
+Indirizzo: Via Roma, 193, 80017 Melito di Napoli NA
+Coordinate: Lat 40.919506, Lng 14.232629
+Website: https://hotellento.it/
+Email: 
+
+15650. Hotel Runa
+ID: 8a931383-5652-40f9-b143-d744709b0653
+Slug: hotel-runa-casandrino
+Nome: Hotel Runa
+Comune / Provincia: Casandrino
+Indirizzo: Via Pietro Nenni, 26, 80018 Mugnano di Napoli NA
+Coordinate: Lat 40.914948, Lng 14.215858
+Website: https://hotelruna.com/
+Email: 
+
+15651. Hotel Stefano a Melito
+ID: 507e22fa-e8a6-4973-87a2-c32eb2878d1e
+Slug: hotel-stefano-a-melito-casandrino
+Nome: Hotel Stefano a Melito
+Comune / Provincia: Casandrino
+Indirizzo: Via Cristoforo Colombo, 12, 80017 Melito di Napoli NA
+Coordinate: Lat 40.918549, Lng 14.239568
+Website: http://www.hotelstefanoamelito.it/
+Email: 
+
+15652. Maison Comì
+ID: 57a1c7f8-69b3-4da7-9a7f-b311f614db37
+Slug: maison-comi-casandrino
+Nome: Maison Comì
+Comune / Provincia: Casandrino
+Indirizzo: Via Riscatto, 4, 80027 Frattamaggiore NA
+Coordinate: Lat 40.941979, Lng 14.275159
+Website: —
+Email: 
+
+15653. SAVIOR DELUXE ROOMS
+ID: 90069d06-f08c-4d10-99e2-0276898fbfe0
+Slug: savior-deluxe-rooms-casandrino
+Nome: SAVIOR DELUXE ROOMS
+Comune / Provincia: Casandrino
+Indirizzo: Via Umberto Zanotti Bianco, 3, 80144 Napoli NA
+Coordinate: Lat 40.883484, Lng 14.260981
+Website: https://saviordeluxerooms.it/
+Email: 
+
+15654. Terra Mia Residence
+ID: 4a7469ba-8959-4ef8-be68-6ed298c71fd6
+Slug: terra-mia-residence-casandrino
+Nome: Terra Mia Residence
+Comune / Provincia: Casandrino
+Indirizzo: Via Volpe, 6, 80018 Mugnano di Napoli NA
+Coordinate: Lat 40.909933, Lng 14.213085
+Website: —
+Email: 
+
+15655. Villa Chianese
+ID: aa575c3e-ac1e-4a11-89d6-672db342fe19
+Slug: villa-chianese-casandrino
+Nome: Villa Chianese
+Comune / Provincia: Casandrino
+Indirizzo: Via XX Settembre, 24, 80145 Napoli NA
+Coordinate: Lat 40.891472, Lng 14.216338
+Website: —
+Email: 
+
+15656. Agriturismo A Canonica
+ID: 0eb672a9-c7a3-4b01-9f82-6a3122e77910
+Slug: agriturismo-a-canonica-casanova-lerrone
+Nome: Agriturismo A Canonica
+Comune / Provincia: Casanova Lerrone
+Indirizzo: Borgata Benecci, 24, 17033 Casanova Lerrone SV
+Coordinate: Lat 44.033547, Lng 8.063011
+Website: http://www.agriturismo-acanonica.com/
+Email: 
+
+15657. Agriturismo A Veggia Vigna
+ID: a25993af-0fe1-48c6-8ad1-cd6f66917eab
+Slug: agriturismo-a-veggia-vigna-casanova-lerrone
+Nome: Agriturismo A Veggia Vigna
+Comune / Provincia: Casanova Lerrone
+Indirizzo: Borgata Villa, 36, 17033 Garlenda SV
+Coordinate: Lat 44.031398, Lng 8.100391
+Website: http://aveggiavigna.it/
+Email: 
+
+15658. Agriturismo Il Mulino del Castello
+ID: 8713fd97-fd0f-482a-8484-1f73ecbb63db
+Slug: agriturismo-il-mulino-del-castello-casanova-lerrone
+Nome: Agriturismo Il Mulino del Castello
+Comune / Provincia: Casanova Lerrone
+Indirizzo: SP6, 67, 17033 Garlenda SV
+Coordinate: Lat 44.033165, Lng 8.103485
+Website: http://www.agriturismomulinodelcastello.it/
+Email: 
+
+15659. Agriturismo Le 3 Case
+ID: c78a4108-5882-439d-b08c-1bfe97a01bdf
+Slug: agriturismo-le-3-case-casanova-lerrone
+Nome: Agriturismo Le 3 Case
+Comune / Provincia: Casanova Lerrone
+Indirizzo: Frazione Paravenna, 15, 17033 Garlenda SV
+Coordinate: Lat 44.025518, Lng 8.081032
+Website: http://www.agriturismole3case.com/
+Email: 
+
+15660. Agriturismo U' Spigu Paravenna - Garlenda
+ID: 8996a6ee-b27b-482c-9cc5-48460fbeb1e0
+Slug: agriturismo-u-spigu-paravenna-garlenda-casanova-lerrone
+Nome: Agriturismo U' Spigu Paravenna - Garlenda
+Comune / Provincia: Casanova Lerrone
+Indirizzo: Frazione Paravenna, 14, 17033 Garlenda SV
+Coordinate: Lat 44.025421, Lng 8.080892
+Website: http://www.agriturismouspigu.it/
+Email: 
+
+15661. Borgata Cantone Country House B&B
+ID: b77a4878-5567-4932-ac6c-972fe9d099b7
+Slug: borgata-cantone-country-house-b-b-casanova-lerrone
+Nome: Borgata Cantone Country House B&B
+Comune / Provincia: Casanova Lerrone
+Indirizzo: Borgata Cantone, 15, 17033 Garlenda SV
+Coordinate: Lat 44.029631, Lng 8.102376
+Website: http://www.borgatacantone.it/
+Email: 
+
+15662. Borgoameno
+ID: 14be6270-7cf5-44ec-8b53-75602febc524
+Slug: borgoameno-casanova-lerrone
+Nome: Borgoameno
+Comune / Provincia: Casanova Lerrone
+Indirizzo: Via Case Soprane, 2, 17033 Casanova Lerrone SV
+Coordinate: Lat 44.032945, Lng 8.048971
+Website: http://www.agriturismoborgoameno.it/
+Email: 
+
+15663. VILLA BARCA (Casa Carpe Diem)
+ID: 4ba19017-063b-411c-b1a2-37be27490314
+Slug: villa-barca-casa-carpe-diem-casanova-lerrone
+Nome: VILLA BARCA (Casa Carpe Diem)
+Comune / Provincia: Casanova Lerrone
+Indirizzo: Frazione, Via Case Soprane, 25, 17033 Casanova Lerrone SV
+Coordinate: Lat 44.035709, Lng 8.046339
+Website: https://www.villabarca.com/
+Email: 
+
+15664. B&B Caselle Cascina Della Rocca
+ID: 8f49e5a7-c862-4310-aff2-c38c1b53f5ad
+Slug: b-b-caselle-cascina-della-rocca-caselle-torinese
+Nome: B&B Caselle Cascina Della Rocca
+Comune / Provincia: Caselle Torinese
+Indirizzo: Via del Lazzaretto, 10, 10072 Caselle Torinese TO
+Coordinate: Lat 45.164259, Lng 7.643997
+Website: https://www.facebook.com/profile.php?id=61564478357244
+Email: 
+
+15665. B&B La Bilancia
+ID: 0cfff4dd-f94f-4797-b086-896b1291a1ab
+Slug: b-b-la-bilancia-caselle-torinese
+Nome: B&B La Bilancia
+Comune / Provincia: Caselle Torinese
+Indirizzo: Via Vernone, 20/D, 10072 Caselle Torinese TO
+Coordinate: Lat 45.173338, Lng 7.64351
+Website: —
+Email: 
+
+15666. Hotel Flying
+ID: 982d5bd8-8e0e-46a5-9fe5-322aaccff37d
+Slug: hotel-flying-caselle-torinese
+Nome: Hotel Flying
+Comune / Provincia: Caselle Torinese
+Indirizzo: Via Torino, 34, 10077 San Maurizio Canavese TO
+Coordinate: Lat 45.203758, Lng 7.619966
+Website: http://www.hotelflying.com/
+Email: 
+
+15667. Hotel Niagara
+ID: 518a2d70-0189-4c1b-8286-da69d115c3b9
+Slug: hotel-niagara-caselle-torinese
+Nome: Hotel Niagara
+Comune / Provincia: Caselle Torinese
+Indirizzo: Via Carlo, Via C. Cravero, 70, 10072 Caselle Torinese TO
+Coordinate: Lat 45.179597, Lng 7.646442
+Website: http://hotel-niagara.com.es/
+Email: 
+
+15668. Hotel Ristorante Ruatta
+ID: 804220e4-e7a5-457b-b881-df8133ba58f8
+Slug: hotel-ristorante-ruatta-caselle-torinese
+Nome: Hotel Ristorante Ruatta
+Comune / Provincia: Caselle Torinese
+Indirizzo: via Devietti Goggia 80, Malanghero, San Maurizio Canavese - Caselle, 10077 Malanghero TO
+Coordinate: Lat 45.201275, Lng 7.654624
+Website: https://www.ruatta.it/
+Email: 
+
+15669. Il Sole caselle apartment B&B Bed & Breakfast
+ID: 8342b690-001f-4bfa-be3e-33d730ce7f38
+Slug: il-sole-caselle-apartment-b-b-bed-breakfast-caselle-torinese
+Nome: Il Sole caselle apartment B&B Bed & Breakfast
+Comune / Provincia: Caselle Torinese
+Indirizzo: Via alle Fabbriche, 66, 10072 Caselle Torinese TO
+Coordinate: Lat 45.167088, Lng 7.638695
+Website: https://instagram.com/il_sole_caselle_apartment?igshid=OGQ5ZDc2ODk2ZA==
+Email: 
+
+15670. Jet Hotel
+ID: 8a6bce34-8e16-4448-9764-36d135c5a9c8
+Slug: jet-hotel-caselle-torinese
+Nome: Jet Hotel
+Comune / Provincia: Caselle Torinese
+Indirizzo: Via della Zecca, 9, 10072 Caselle Torinese TO
+Coordinate: Lat 45.187687, Lng 7.638955
+Website: http://jet-hotel.com/
+Email: 
+
+15671. La Boheme SMART Hotel
+ID: 2e5251d4-15ff-4508-b916-4a0ec1f437c6
+Slug: la-boheme-smart-hotel-caselle-torinese
+Nome: La Boheme SMART Hotel
+Comune / Provincia: Caselle Torinese
+Indirizzo: Str. delle Vallette, 52, 10151 Torino TO
+Coordinate: Lat 45.10565, Lng 7.63863
+Website: —
+Email: 
+
+15672. le Ginestre Bed And Breakfast
+ID: 0ec6834b-6313-4141-9110-792e7a350c78
+Slug: le-ginestre-bed-and-breakfast-caselle-torinese
+Nome: le Ginestre Bed And Breakfast
+Comune / Provincia: Caselle Torinese
+Indirizzo: Via Vietta, 5, 10072 Caselle Torinese TO
+Coordinate: Lat 45.178027, Lng 7.643493
+Website: https://tomrecommends.eu/le-ginestre-caselle-torinese-italy
+Email: 
+
+15673. Max Motel - Art Gallery Room | Suite con Jacuzzi & Camere a Tema
+ID: 2ed9c07c-7ae7-40bc-ac50-59063ee01818
+Slug: max-motel-art-gallery-room-suite-con-jacuzzi-cam-caselle-torinese
+Nome: Max Motel - Art Gallery Room | Suite con Jacuzzi & Camere a Tema
+Comune / Provincia: Caselle Torinese
+Indirizzo: Viale Giacomo Medici del Vascello, 18, 10040 Druento TO
+Coordinate: Lat 45.144201, Lng 7.570084
+Website: https://maxmotel.it/
+Email: 
+
+15674. Residence Mirage
+ID: 48dec313-9f64-4625-91d4-6e2dc3c57b3a
+Slug: residence-mirage-caselle-torinese
+Nome: Residence Mirage
+Comune / Provincia: Caselle Torinese
+Indirizzo: Via degli Alpini, 1/1/C, 10072 Caselle Torinese TO
+Coordinate: Lat 45.168346, Lng 7.651713
+Website: https://www.residencemiragesas.it/
+Email: 
+
+15675. ROSA VERDE
+ID: 7242d82e-74be-4455-b174-af2e7a835a6c
+Slug: rosa-verde-caselle-torinese
+Nome: ROSA VERDE
+Comune / Provincia: Caselle Torinese
+Indirizzo: Strada S. Maurizio, 23, 10072 Caselle Torinese TO
+Coordinate: Lat 45.183371, Lng 7.644527
+Website: https://rosaverdecaselletorinese.top/
+Email: 
+
+15676. Artistic Charming House
+ID: cc8b01ad-9b29-499c-9ca7-c63c74323d5e
+Slug: artistic-charming-house-caserta
+Nome: Artistic Charming House
+Comune / Provincia: Caserta
+Indirizzo: Corso Trieste, 11, 81100 Caserta CE
+Coordinate: Lat 41.072291, Lng 14.330066
+Website: http://www.artisticcharminghouse.com/
+Email: 
+
+15677. B & B a Casa di Adele
+ID: 46d1863d-1318-4f40-a9eb-358f0e7ce574
+Slug: b-b-a-casa-di-adele-caserta
+Nome: B & B a Casa di Adele
+Comune / Provincia: Caserta
+Indirizzo: Viale Alberto Beneduce, 11, 81100 Caserta CE
+Coordinate: Lat 41.07537, Lng 14.341314
+Website: —
+Email: 
+
+15678. B&B Roof Garden House
+ID: a1c85367-a219-48c7-8dcf-486ea9e80689
+Slug: b-b-roof-garden-house-caserta
+Nome: B&B Roof Garden House
+Comune / Provincia: Caserta
+Indirizzo: Corso Trieste, 19, 81100 Caserta CE
+Coordinate: Lat 41.072212, Lng 14.330275
+Website: —
+Email: 
+
+15679. B&b Terrazza Filangiò
+ID: d3639d66-93c7-4b7b-85b2-39c1496784cf
+Slug: b-b-terrazza-filangio-caserta
+Nome: B&b Terrazza Filangiò
+Comune / Provincia: Caserta
+Indirizzo: Via Roma, 162, 81100 Caserta CE
+Coordinate: Lat 41.069733, Lng 14.339312
+Website: —
+Email: 
+
+15680. B&B Vanvitelli
+ID: 50d9c1d3-0b51-4ebe-b722-c9d39e342291
+Slug: b-b-vanvitelli-caserta
+Nome: B&B Vanvitelli
+Comune / Provincia: Caserta
+Indirizzo: Via Alessandro de Franciscis, 50, 81100 Caserta CE
+Coordinate: Lat 41.078276, Lng 14.340921
+Website: https://www.bbvanvitelli.it/
+Email: 

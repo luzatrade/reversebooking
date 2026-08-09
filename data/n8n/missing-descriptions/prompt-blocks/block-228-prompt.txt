@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+7946. Ristorante Hotel Rustichello Lonato del Garda
+ID: f8e88ac5-6965-4340-8143-a2d33eb5cc9f
+Slug: ristorante-hotel-rustichello-lonato-del-garda-bedizzole
+Nome: Ristorante Hotel Rustichello Lonato del Garda
+Comune / Provincia: Bedizzole
+Indirizzo: 92, Viale Roma, 90, 25017 Lonato BS
+Coordinate: Lat 45.463501, Lng 10.471953
+Website: http://www.ristorantehotelrustichello.it/
+Email: 
+
+7947. Splendido Bay
+ID: 70287038-6b52-49c6-a308-966492e75136
+Slug: splendido-bay-bedizzole
+Nome: Splendido Bay
+Comune / Provincia: Bedizzole
+Indirizzo: Viale Guglielmo Marconi, 99, 25080 Padenghe Sul Garda BS
+Coordinate: Lat 45.492572, Lng 10.513185
+Website: https://www.splendidobay.com/
+Email: 
+
+7948. Agritur E-Cinque
+ID: 2c1ba6c3-a5ad-4256-9337-c5a1ad8a9aa7
+Slug: agritur-e-cinque-bedollo
+Nome: Agritur E-Cinque
+Comune / Provincia: Bedollo
+Indirizzo: Via Molini, 6/primo piano, 39040 Salorno sulla Strada del Vino BZ
+Coordinate: Lat 46.239206, Lng 11.217979
+Website: —
+Email: 
+
+7949. Agriturismo Malga Stramaiolo Bedollo
+ID: 1825d788-053b-42ce-a798-66c88f5d3494
+Slug: agriturismo-malga-stramaiolo-bedollo-bedollo
+Nome: Agriturismo Malga Stramaiolo Bedollo
+Comune / Provincia: Bedollo
+Indirizzo: Loc. Stramaiolo, 38043 Bedollo TN
+Coordinate: Lat 46.158957, Lng 11.327947
+Website: http://www.malgastramaiolo.it/
+Email: 
+
+7950. Albergo Monte Croce
+ID: d11f6eb4-c95c-4912-8b90-81ee800a78a7
+Slug: albergo-monte-croce-bedollo
+Nome: Albergo Monte Croce
+Comune / Provincia: Bedollo
+Indirizzo: Piazza Antonio Rosmini, 6, 38043 Bedollo TN
+Coordinate: Lat 46.182449, Lng 11.325665
+Website: http://www.hotelmontecroce.it/
+Email: 
+
+7951. B&B La Balbina- bed and breakfast Piné
+ID: 4a71facf-29cb-4575-9da9-bfa43ab8b47b
+Slug: b-b-la-balbina-bed-and-breakfast-pine-bedollo
+Nome: B&B La Balbina- bed and breakfast Piné
+Comune / Provincia: Bedollo
+Indirizzo: Via Santissima Trinità, 19, 38043 Varda TN
+Coordinate: Lat 46.15977, Lng 11.296462
+Website: https://www.labalbina.net/
+Email: 
+
+7952. B&B La Locanda di Geppetto
+ID: 7a893d6b-7beb-461a-8828-1afbb7f38e69
+Slug: b-b-la-locanda-di-geppetto-bedollo
+Nome: B&B La Locanda di Geppetto
+Comune / Provincia: Bedollo
+Indirizzo: Via Ceramont, 11, 38043 Bedollo TN
+Coordinate: Lat 46.158602, Lng 11.282249
+Website: https://lalocandadigeppetto.it/
+Email: 
+
+7953. B&B Le Molinare Home Relax
+ID: 0d42a869-9176-4d4e-8693-5189674dfce7
+Slug: b-b-le-molinare-home-relax-bedollo
+Nome: B&B Le Molinare Home Relax
+Comune / Provincia: Bedollo
+Indirizzo: Via Santa Maria, 28, 38043 Bedollo TN
+Coordinate: Lat 46.158524, Lng 11.290664
+Website: https://www.lemolinarehomerelax.it/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+7954. BIO HOTEL BRUSAGO VITAL & WELLNESS
+ID: ef8e1348-e732-4761-ae09-e7d922306afd
+Slug: bio-hotel-brusago-vital-wellness-bedollo
+Nome: BIO HOTEL BRUSAGO VITAL & WELLNESS
+Comune / Provincia: Bedollo
+Indirizzo: Piazza Rosmini, 2, 38043 Brusago TN
+Coordinate: Lat 46.182663, Lng 11.325587
+Website: https://www.hotelbrusago.it/
+Email: 
+
+7955. Gasthof Salurn
+ID: 7ba5a893-804b-4003-8eb6-f835528b26ea
+Slug: gasthof-salurn-bedollo
+Nome: Gasthof Salurn
+Comune / Provincia: Bedollo
+Indirizzo: Via Dr. Josef Noldin, 2, 39040 Salorno BZ
+Coordinate: Lat 46.239635, Lng 11.211966
+Website: http://www.gasthofsalurn.it/
+Email: 
+
+7956. Hotel Tirol Natural Idyll
+ID: 98460dd0-eb87-4243-887f-82881b79802b
+Slug: hotel-tirol-natural-idyll-bedollo
+Nome: Hotel Tirol Natural Idyll
+Comune / Provincia: Bedollo
+Indirizzo: C.D.Santuari, 3, 38048 Montesover TN
+Coordinate: Lat 46.217105, Lng 11.32604
+Website: http://www.hotel-tirol.it/
+Email: 
+
+7957. Relais Dolomiti
+ID: c455c63e-1416-44f5-8e2c-ce9041a9e796
+Slug: relais-dolomiti-bedollo
+Nome: Relais Dolomiti
+Comune / Provincia: Bedollo
+Indirizzo: Via Guglielmo Marconi, 95, 38043 Cialini TN
+Coordinate: Lat 46.156575, Lng 11.279996
+Website: https://www.relaisdolomiti.it/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+7958. Agriturismo Agricampeggio Società Agricola Cacigolara
+ID: 0cec6640-1003-4367-88e2-9de2427aa001
+Slug: agriturismo-agricampeggio-societa-agricola-cacig-bedonia
+Nome: Agriturismo Agricampeggio Società Agricola Cacigolara
+Comune / Provincia: Bedonia
+Indirizzo: Località Cacigolara, 8, 500 meters on the right after passing Breia (Compiano), 43043 Borgo Val di Taro PR
+Coordinate: Lat 44.514996, Lng 9.706416
+Website: http://cacigolara.it/
+Email: 
+
+7959. Agriturismo La Tempestosa, Agriturismo, Ristorante, Ristorazione Tipica Bedonia (PR)
+ID: 174a49f1-f2c1-4c20-bcba-b1521a86319b
+Slug: agriturismo-la-tempestosa-agriturismo-ristorante-bedonia
+Nome: Agriturismo La Tempestosa, Agriturismo, Ristorante, Ristorazione Tipica Bedonia (PR)
+Comune / Provincia: Bedonia
+Indirizzo: Località Momarola, 33, 43041 Bedonia PR
+Coordinate: Lat 44.509215, Lng 9.606313
+Website: https://agriturismo-la-tempestosa-agriturismo-ristorante.amolitalia.top/
+Email: 
+
+7960. Albergo Ristorante Amici
+ID: d1b1de7d-4f3b-478d-8eea-427613fd9f06
+Slug: albergo-ristorante-amici-bedonia
+Nome: Albergo Ristorante Amici
+Comune / Provincia: Bedonia
+Indirizzo: Via Maurizio Caranza, 33, 19028 Varese Ligure SP
+Coordinate: Lat 44.378198, Lng 9.595514
+Website: http://www.albergoamici.it/
+Email: 
+
+7961. B&B Celeste
+ID: 2ca9861c-da2a-4861-8d14-16af0ab02a30
+Slug: b-b-celeste-bedonia
+Nome: B&B Celeste
+Comune / Provincia: Bedonia
+Indirizzo: SP359R, 14, 43041 Bedonia PR
+Coordinate: Lat 44.513148, Lng 9.634957
+Website: https://g.page/b-b-celeste
+Email: 
+
+7962. B&B La Provenzale
+ID: fe5e7880-a45e-43f9-8c37-2b93c1e73a84
+Slug: b-b-la-provenzale-bedonia
+Nome: B&B La Provenzale
+Comune / Provincia: Bedonia
+Indirizzo: Via Lusardi, 13, 43059 Tornolo PR
+Coordinate: Lat 44.484177, Lng 9.630783
+Website: https://www.booking.com/hotel/it/la-provenzale.it.html
+Email: 
+
+7963. Casale delle farfalle
+ID: 19614b8c-b5a8-40ec-b060-1f130c677961
+Slug: casale-delle-farfalle-bedonia
+Nome: Casale delle farfalle
+Comune / Provincia: Bedonia
+Indirizzo: 43059 Tornolo PR
+Coordinate: Lat 44.48937, Lng 9.626773
+Website: http://casaledellefarfalle.nl/
+Email: 
+
+7964. Hotel - Albergo - Casa per ferie del Seminario Vescovile di Bedonia
+ID: 69925c2b-8632-4a55-9edd-1bc2a3b9dfee
+Slug: hotel-albergo-casa-per-ferie-del-seminario-vesco-bedonia
+Nome: Hotel - Albergo - Casa per ferie del Seminario Vescovile di Bedonia
+Comune / Provincia: Bedonia
+Indirizzo: Via Don S.Raffi, 30, 43041 Bedonia PR
+Coordinate: Lat 44.507893, Lng 9.631662
+Website: https://www.seminariobedonia.it/accoglienza/
+Email: 
+
+7965. Villa Tre Angeli
+ID: 67d3b156-4357-4c39-b6ea-52f3c4332fbd
+Slug: villa-tre-angeli-bedonia
+Nome: Villa Tre Angeli
+Comune / Provincia: Bedonia
+Indirizzo: Via Roma, 37, 43041 Bedonia PR
+Coordinate: Lat 44.5012, Lng 9.633824
+Website: http://villatreangeli.com/
+Email: 
+
+7966. ALBERGHI PER ANZIANI ROTA D'IMAGNA HOTEL POSTA
+ID: e6cc74bf-54b4-404d-bcd4-a72c22a58eb8
+Slug: alberghi-per-anziani-rota-d-imagna-hotel-posta-bedulita
+Nome: ALBERGHI PER ANZIANI ROTA D'IMAGNA HOTEL POSTA
+Comune / Provincia: Bedulita
+Indirizzo: Via Calchera, 4, 24037 Rota d'Imagna BG
+Coordinate: Lat 45.829895, Lng 9.514755
+Website: http://www.hotelristoranteposta.it/
+Email: 
+
+7967. B&B Oltre Il Bosco
+ID: f5b3c3ac-05cf-4fd0-b4ed-121ed68da5f2
+Slug: b-b-oltre-il-bosco-bedulita
+Nome: B&B Oltre Il Bosco
+Comune / Provincia: Bedulita
+Indirizzo: Via Ca' Moschè, 20, 24030 Roncola BG
+Coordinate: Lat 45.77334, Lng 9.56319
+Website: http://www.oltreilbosco.com/
+Email: 
+
+7968. Hotel Aurora
+ID: 82ddf947-b9ea-4dcb-aa20-178f16a4152c
+Slug: hotel-aurora-bedulita
+Nome: Hotel Aurora
+Comune / Provincia: Bedulita
+Indirizzo: Piazza Guglielmo Marconi, 7, 24030 Roncola BG
+Coordinate: Lat 45.768007, Lng 9.562126
+Website: —
+Email: 
+
+7969. Hotel Miramonti | Resort & SPA
+ID: cab062ec-e39d-48b7-9b1f-28a0b22553df
+Slug: hotel-miramonti-resort-spa-bedulita
+Nome: Hotel Miramonti | Resort & SPA
+Comune / Provincia: Bedulita
+Indirizzo: Via alle Fonti, 5/6, 24037 Rota d'Imagna BG
+Coordinate: Lat 45.83027, Lng 9.513111
+Website: http://www.hotelmiramontibergamo.com/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+7970. Hotel Ristorante Posta
+ID: 25dd1f2b-01cb-48a2-b6a5-78c8bbcd8d93
+Slug: hotel-ristorante-posta-bedulita
+Nome: Hotel Ristorante Posta
+Comune / Provincia: Bedulita
+Indirizzo: Località Calchera, 4, 24037 Rota d'Imagna BG
+Coordinate: Lat 45.830058, Lng 9.515013
+Website: http://www.hotelristoranteposta.it/
+Email: 
+
+7971. Il Borgo Del Castello-Foresteria Lombarda
+ID: 740b120c-9ae7-4bcd-b997-19711ec1171e
+Slug: il-borgo-del-castello-foresteria-lombarda-bedulita
+Nome: Il Borgo Del Castello-Foresteria Lombarda
+Comune / Provincia: Bedulita
+Indirizzo: Via Giacomo Quarenghi, 50, 24037 Rota d'Imagna BG
+Coordinate: Lat 45.835782, Lng 9.510954
+Website: https://ilcastellodivenere.com/il-borgo-del-castello/
+Email: 
+
+7972. Il Castello Di Venere - Foresteria Lombarda
+ID: b1ea91a6-b79b-47a0-9091-144ee90f7ef0
+Slug: il-castello-di-venere-foresteria-lombarda-bedulita
+Nome: Il Castello Di Venere - Foresteria Lombarda
+Comune / Provincia: Bedulita
+Indirizzo: Via Giacomo Quarenghi, 50, 24037 Calchera-frontale BG
+Coordinate: Lat 45.835809, Lng 9.510917
+Website: https://ilcastellodivenere.com/il-castello-di-venere/
+Email: 
+
+7973. Ristorante Bar Albergo da Elia
+ID: be946cf1-3361-4f9d-8d2c-45f8c8c782b4
+Slug: ristorante-bar-albergo-da-elia-bedulita
+Nome: Ristorante Bar Albergo da Elia
+Comune / Provincia: Bedulita
+Indirizzo: Viale V. Veneto, 176, 24038 Selino Basso BG
+Coordinate: Lat 45.814976, Lng 9.533043
+Website: https://www.daelia.it/
+Email: 
+
+7974. Albergo Canetta
+ID: 08f6b3f2-0dd2-4aea-8614-934e5dd581b9
+Slug: albergo-canetta-bee
+Nome: Albergo Canetta
+Comune / Provincia: Bee
+Indirizzo: Via Belvedere, 23, 28818 Pollino VB
+Coordinate: Lat 45.976341, Lng 8.61406
+Website: —
+Email: 
+
+7975. Hotel Ghiffa
+ID: 8e049900-2140-4ac6-a0c1-875147369ca8
+Slug: hotel-ghiffa-bee
+Nome: Hotel Ghiffa
+Comune / Provincia: Bee
+Indirizzo: Corso Belvedere, 88, 28823 Ghiffa VB
+Coordinate: Lat 45.956119, Lng 8.616897
+Website: http://www.hotelghiffa.com/
+Email: 
+
+7976. Hotel Sant'Anna
+ID: 17e48437-b45d-459a-8b29-805163ac8bf7
+Slug: hotel-sant-anna-bee
+Nome: Hotel Sant'Anna
+Comune / Provincia: Bee
+Indirizzo: Viale Sant'Anna, 65, 28922 Verbania VB
+Coordinate: Lat 45.929051, Lng 8.560909
+Website: http://www.hotelsantanna.it/
+Email: 
+
+7977. Kimyô Exclusive House, SPA e Wellness
+ID: 400f2ace-626d-41da-8793-1e29a5008db6
+Slug: kimyo-exclusive-house-spa-e-wellness-bee
+Nome: Kimyô Exclusive House, SPA e Wellness
+Comune / Provincia: Bee
+Indirizzo: Via Farinet, 34, 28813 Bee VB
+Coordinate: Lat 45.962243, Lng 8.572352
+Website: https://kimyo.it/
+Email: 
+
+7978. La Casa degli Aceri
+ID: e34a758e-55dc-43ee-982b-0fddaa5146d5
+Slug: la-casa-degli-aceri-bee
+Nome: La Casa degli Aceri
+Comune / Provincia: Bee
+Indirizzo: Via Riva, 2, 28813 Pian Nava VB
+Coordinate: Lat 45.973795, Lng 8.58363
+Website: —
+Email: 
+
+7979. Affittacamere B&Biscuit
+ID: 98314216-dd4f-4a33-ba9d-7b30ff3ec071
+Slug: affittacamere-b-biscuit-beinasco
+Nome: Affittacamere B&Biscuit
+Comune / Provincia: Beinasco
+Indirizzo: Via Ellero, 31, 10126 Torino TO
+Coordinate: Lat 45.034681, Lng 7.669787
+Website: http://www.bbiscuit.com/
+Email: 
+
+7980. BnB Muriaglio - affitto appartamenti brevi periodi
+ID: e52be15f-e9a4-419d-9aad-685a6c641382
+Slug: bnb-muriaglio-affitto-appartamenti-brevi-periodi-beinasco
+Nome: BnB Muriaglio - affitto appartamenti brevi periodi
+Comune / Provincia: Beinasco
+Indirizzo: Via Muriaglio, 10, 10141 Torino TO
+Coordinate: Lat 45.063805, Lng 7.6496
+Website: https://affitto.torinocitta.eu/
+Email: 

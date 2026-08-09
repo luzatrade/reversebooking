@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+2661. Albergo Ristorante Payarin
+ID: 1deb5dbd-31ad-4e68-883e-07a5c7ee33be
+Slug: albergo-ristorante-payarin-alto
+Nome: Albergo Ristorante Payarin
+Comune / Provincia: Alto
+Indirizzo: Ormea, 12078 Aimoni CN
+Coordinate: Lat 44.138813, Lng 7.890341
+Website: https://www.payarin.it/
+Email: 
+
+2662. Albergo Ristorante San Carlo
+ID: ea1fa8cc-2c02-4b3b-a9e7-fc8fd654cd2f
+Slug: albergo-ristorante-san-carlo-alto
+Nome: Albergo Ristorante San Carlo
+Comune / Provincia: Alto
+Indirizzo: SS28, 23, 12078 Ormea CN
+Coordinate: Lat 44.119569, Lng 7.881724
+Website: http://www.albergosancarlo.com/
+Email: 
+
+2663. Antico Convento
+ID: e4a34dfb-e4da-48db-aa0f-ea0d26324070
+Slug: antico-convento-alto
+Nome: Antico Convento
+Comune / Provincia: Alto
+Indirizzo: Frazione Mindino, 4, 12075 Garessio CN
+Coordinate: Lat 44.220283, Lng 7.988738
+Website: http://www.antico-convento.it/
+Email: 
+
+2664. B&B Ligo
+ID: 12972b69-4e2c-47fb-a1e2-bf82158983a5
+Slug: b-b-ligo-alto
+Nome: B&B Ligo
+Comune / Provincia: Alto
+Indirizzo: Frazione Ligo, 24, 17038 Villanova d'Albenga SV
+Coordinate: Lat 44.042394, Lng 8.093847
+Website: http://bebligo.com/
+Email: 
+
+2665. B&B Rossociliegia
+ID: 41d004a0-a4da-4a20-b6fc-170072c5771b
+Slug: b-b-rossociliegia-alto
+Nome: B&B Rossociliegia
+Comune / Provincia: Alto
+Indirizzo: Via Pennavaire, 53, 17030 Magliocca SV
+Coordinate: Lat 44.109945, Lng 8.072768
+Website: http://www.rossociliegia.it/
+Email: 
+
+2666. Hotel L'Alpino
+ID: 66b64ef1-f9ad-42e2-a11a-d964732054a5
+Slug: hotel-l-alpino-alto
+Nome: Hotel L'Alpino
+Comune / Provincia: Alto
+Indirizzo: Via Nazionale, 114, 18020 Pornassio IM
+Coordinate: Lat 44.101366, Lng 7.871193
+Website: —
+Email: 
+
+2667. Hotel Maria nella Ristorante
+ID: 9cb7fbca-8631-4be1-8f2d-7bb8688556eb
+Slug: hotel-maria-nella-ristorante-alto
+Nome: Hotel Maria nella Ristorante
+Comune / Provincia: Alto
+Indirizzo: Via Cave, 1, 17057 Bardineto SV
+Coordinate: Lat 44.192863, Lng 8.128815
+Website: https://www.hotelmarianella.com/
+Email: 
+
+2668. Hotel Momora
+ID: a4b6ff9c-21e4-48df-be5d-ff25fe234adb
+Slug: hotel-momora-alto
+Nome: Hotel Momora
+Comune / Provincia: Alto
+Indirizzo: Piazza vittorio veneto, 17020 Bardineto SV
+Coordinate: Lat 44.190269, Lng 8.134956
+Website: https://www.hotelmomora.com/
+Email: 
+
+2669. Hotel Ponte di Nava
+ID: 97dbbbda-510f-4017-b0cb-f7d592f6a77d
+Slug: hotel-ponte-di-nava-alto
+Nome: Hotel Ponte di Nava
+Comune / Provincia: Alto
+Indirizzo: SS28, 28, 12078 Ormea CN
+Coordinate: Lat 44.118017, Lng 7.868553
+Website: http://www.hotelpontedinava.it/
+Email: 
+
+2670. I TRE LADRONI
+ID: d465783c-2a63-4789-a20a-e3b400ab356b
+Slug: i-tre-ladroni-alto
+Nome: I TRE LADRONI
+Comune / Provincia: Alto
+Indirizzo: Via Roma, 22, 17030 Nasino SV
+Coordinate: Lat 44.113726, Lng 8.031353
+Website: https://vacationinspect.com/i-tre-ladroni-italy
+Email: 
+
+2671. Kalimera
+ID: dac1ed86-23f9-4d80-89f2-fb413b63e1c6
+Slug: kalimera-alto
+Nome: Kalimera
+Comune / Provincia: Alto
+Indirizzo: Via Tembien, 1, 17020 Bardineto SV
+Coordinate: Lat 44.192483, Lng 8.12917
+Website: http://www.kalimerabardineto.it/
+Email: 
+
+2672. La Fornace di Garessio
+ID: d4ad94e1-e9c1-4c62-b854-c5230100e30f
+Slug: la-fornace-di-garessio-alto
+Nome: La Fornace di Garessio
+Comune / Provincia: Alto
+Indirizzo: Via Armando Diaz 74, Via Dott. Professor Attilio Odasso, 35, 12075 Garessio CN
+Coordinate: Lat 44.207005, Lng 8.009507
+Website: http://www.lafornace-garessio.it/
+Email: 
+
+2673. Locanda Albergo Ristorante Da Lisetta
+ID: 44a7b2f4-93d3-40db-9dd8-fa40344e74ae
+Slug: locanda-albergo-ristorante-da-lisetta-alto
+Nome: Locanda Albergo Ristorante Da Lisetta
+Comune / Provincia: Alto
+Indirizzo: Via Piemonte, 21, 17039 Erli SV
+Coordinate: Lat 44.137264, Lng 8.10397
+Website: http://www.dalisetta.it/
+Email: 
+
+2674. Locanda da Teresa
+ID: a037ec08-01ef-45f4-8ff9-6612634ec6c1
+Slug: locanda-da-teresa-alto
+Nome: Locanda da Teresa
+Comune / Provincia: Alto
+Indirizzo: Piazza Milite Ignoto, 4, 17057 Bardineto SV
+Coordinate: Lat 44.192193, Lng 8.130045
+Website: https://locanda-da-teresa.jimdosite.com/
+Email: 
+
+2675. NonnAmelia
+ID: c95334d6-a498-443c-94a8-02a6ec85a830
+Slug: nonnamelia-alto
+Nome: NonnAmelia
+Comune / Provincia: Alto
+Indirizzo: Via Libertà, 2/b, 17030 Nasino SV
+Coordinate: Lat 44.115948, Lng 8.018129
+Website: https://www.agriturismononnamelia.it/it/
+Email: 
+
+2676. Sotto Le Stelle Guesthouse
+ID: 2c796db0-9b86-4bc7-883d-5477b0e02f71
+Slug: sotto-le-stelle-guesthouse-alto
+Nome: Sotto Le Stelle Guesthouse
+Comune / Provincia: Alto
+Indirizzo: Via Oberto Manfredi, 6, 18026 Pieve di Teco IM
+Coordinate: Lat 44.045541, Lng 7.917742
+Website: https://our-stay-experience.eu/sotto-le-stelle-pieve-di-teco-italy
+Email: 
+
+2677. Albergo Ristorante ITALIA
+ID: a3b2f0c1-9621-4002-aebd-6caf0619dc69
+Slug: albergo-ristorante-italia-alto-reno-terme
+Nome: Albergo Ristorante ITALIA
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Bacino del Brasimone, Via Bacino, 89, 40032 Camugnano BO
+Coordinate: Lat 44.130002, Lng 11.115369
+Website: https://www.facebook.com/Albergo-Ristorante-Italia-251191508296993/?ref=bookmarks
+Email: 
+
+2678. ANTICA LOCANDA LA POSTA
+ID: c126f59f-4c3a-4aa3-9040-7b09245af230
+Slug: antica-locanda-la-posta-alto-reno-terme
+Nome: ANTICA LOCANDA LA POSTA
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Via Roma, 95, 40041 Gaggio Montano BO
+Coordinate: Lat 44.198193, Lng 10.936251
+Website: http://www.lapostagaggio.it/
+Email: 
+
+2679. B&B La Presa
+ID: 1a61878a-7113-4abe-95d9-19564592d5aa
+Slug: b-b-la-presa-alto-reno-terme
+Nome: B&B La Presa
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Località casa Moschini, 40046 Granaglione BO
+Coordinate: Lat 44.094597, Lng 10.902244
+Website: https://www.lapresabb.com/
+Email: 
+
+2680. B&B Le Limentre
+ID: 682cd15a-1882-4a22-82ee-d2b47bac056d
+Slug: b-b-le-limentre-alto-reno-terme
+Nome: B&B Le Limentre
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Località S. Pellegrino al Cassero, 10, 51020 San Pellegrino PT
+Coordinate: Lat 44.063101, Lng 10.96876
+Website: http://www.limentre.flazio.com/
+Email: 
+
+2681. Cà Gennara Agri B&B
+ID: fd303f9c-0dac-4a82-b4ba-b3708519bd7b
+Slug: ca-gennara-agri-b-b-alto-reno-terme
+Nome: Cà Gennara Agri B&B
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Località Cà Gennara, 18, 40046 Capugnano BO
+Coordinate: Lat 44.146519, Lng 10.944192
+Website: http://www.cagennara.com/
+Email: 
+
+2682. Ecochiocciola
+ID: 9973fe07-45e5-4b10-b6a5-347b91d440a5
+Slug: ecochiocciola-alto-reno-terme
+Nome: Ecochiocciola
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Via Testa, 80, 41055 Maserno MO
+Coordinate: Lat 44.256016, Lng 10.933513
+Website: http://www.ecochiocciola.com/
+Email: 
+
+2683. Hotel Bertusi
+ID: 870be917-8f52-488b-877d-c0a721289a2b
+Slug: hotel-bertusi-alto-reno-terme
+Nome: Hotel Bertusi
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Via Mazzini, 105, 40046 Porretta Terme BO
+Coordinate: Lat 44.157913, Lng 10.975787
+Website: http://www.hotelbertusi.it/
+Email: 
+
+2684. Hotel Capriolo
+ID: 44453d53-d351-4152-b8fa-6884375e7124
+Slug: hotel-capriolo-alto-reno-terme
+Nome: Hotel Capriolo
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Piazza XXVII Settembre, 14, 40042 Vidiciatico BO
+Coordinate: Lat 44.170887, Lng 10.873632
+Website: https://www.hotelcapriolo.it/
+Email: 
+
+2685. Hotel Delle Acque & Natural Spa
+ID: a7fc6bdd-e0ca-4e77-92fd-4b14392bb9e6
+Slug: hotel-delle-acque-natural-spa-alto-reno-terme
+Nome: Hotel Delle Acque & Natural Spa
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Via Roma, 9, 40046 Porretta Terme BO
+Coordinate: Lat 44.15361, Lng 10.977215
+Website: —
+Email: 
+
+2686. Hotel Helvetia Thermal SPA
+ID: f5f01014-7167-4c96-b313-8a25731691b9
+Slug: hotel-helvetia-thermal-spa-alto-reno-terme
+Nome: Hotel Helvetia Thermal SPA
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Piazza Vittorio Veneto, 11, 40046 Porretta Terme BO
+Coordinate: Lat 44.155721, Lng 10.975848
+Website: https://www.helvetiabenessere.it/?utm_source=gbp&utm_medium=organic
+Email: 
+
+2687. Hotel Il Crinale
+ID: 8faaae85-2a1d-4821-968c-bb34cf9b152f
+Slug: hotel-il-crinale-alto-reno-terme
+Nome: Hotel Il Crinale
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Via Pietrafitta, 28, 40030 Grizzana Morandi BO
+Coordinate: Lat 44.256785, Lng 11.151701
+Website: http://www.ilcrinalehotel.com/
+Email: 
+
+2688. Hotel Il Fondaccio
+ID: 419cac37-009a-492d-8ff2-4906ce3e8a1f
+Slug: hotel-il-fondaccio-alto-reno-terme
+Nome: Hotel Il Fondaccio
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Via Gasperini, 22, 40042 Lizzano In Belvedere BO
+Coordinate: Lat 44.160683, Lng 10.894503
+Website: https://www.hotelilfondaccio.com/
+Email: 
+
+2689. Hotel Italia
+ID: 58ef96df-2e06-4fda-a777-0437b6072b80
+Slug: hotel-italia-alto-reno-terme
+Nome: Hotel Italia
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Piazza della Libertà, 2, 40046 Porretta Terme BO
+Coordinate: Lat 44.155002, Lng 10.976084
+Website: https://porrettahotelitalia.it/
+Email: 
+
+2690. Hotel Montegrande
+ID: 0fc97967-a847-43df-9977-bc00531df8d5
+Slug: hotel-montegrande-alto-reno-terme
+Nome: Hotel Montegrande
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Via Guglielmo Marconi 27 Frazione Vidiciatico, 40042 Comune di, BO
+Coordinate: Lat 44.170328, Lng 10.874498
+Website: https://hotelmontegrande.it/
+Email: 
+
+2691. Hotel Roma
+ID: 0dc6a0f8-93d0-420b-8550-13146db7cdce
+Slug: hotel-roma-alto-reno-terme
+Nome: Hotel Roma
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Piazza Vittorio Veneto, 4, 40046 Porretta Terme BO
+Coordinate: Lat 44.155494, Lng 10.975794
+Website: http://www.hotelromaporretta.com/
+Email: 
+
+2692. Hotel Santoli
+ID: f61852f0-501c-4852-97ff-0ed9f159fca4
+Slug: hotel-santoli-alto-reno-terme
+Nome: Hotel Santoli
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Via Roma, 3, 40046 Porretta Terme BO
+Coordinate: Lat 44.151757, Lng 10.981363
+Website: https://www.hotelsantoli.com/
+Email: 
+
+2693. L'OCA GIULIVA RELAIS
+ID: c7561f79-1726-4b93-a039-6033258c6a73
+Slug: l-oca-giuliva-relais-alto-reno-terme
+Nome: L'OCA GIULIVA RELAIS
+Comune / Provincia: Alto Reno Terme
+Indirizzo: via serra, 474, 40041 Masonte BO
+Coordinate: Lat 44.18554, Lng 10.936531
+Website: http://www.ocagiulivarelais.it/
+Email: 
+
+2694. La rosa dei Pepoli
+ID: 707cbf35-6d34-465e-bc75-99e958a22b38
+Slug: la-rosa-dei-pepoli-alto-reno-terme
+Nome: La rosa dei Pepoli
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Piazza Libertà, 28, 40035 Castiglione dei Pepoli BO
+Coordinate: Lat 44.141333, Lng 11.153889
+Website: https://www.larosadeipepoli.it/
+Email: 
+
+2695. Locanda del Sole
+ID: 113c7b60-04eb-4ebc-bd2f-e3e26a3cd8c4
+Slug: locanda-del-sole-alto-reno-terme
+Nome: Locanda del Sole
+Comune / Provincia: Alto Reno Terme
+Indirizzo: Piazza Spuntiglia, 1-2-3, 41055 Maserno MO
+Coordinate: Lat 44.253861, Lng 10.931316
+Website: —
+Email: 

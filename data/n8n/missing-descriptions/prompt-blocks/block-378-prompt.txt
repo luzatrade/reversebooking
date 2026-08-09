@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+13196. Centro - Archimede Rooms
+ID: cbb863eb-f9c1-4daa-95ba-684f86d40f14
+Slug: centro-archimede-rooms-campobello-di-mazara
+Nome: Centro - Archimede Rooms
+Comune / Provincia: Campobello di Mazara
+Indirizzo: Via Ciullo D'Alcamo, 11, 91022 Castelvetrano TP
+Coordinate: Lat 37.681804, Lng 12.792356
+Website: —
+Email: 
+
+13197. Fratelli Clemente
+ID: 78e6a20b-16a0-4761-9f8e-ce20bb245d30
+Slug: fratelli-clemente-campobello-di-mazara
+Nome: Fratelli Clemente
+Comune / Provincia: Campobello di Mazara
+Indirizzo: Via Milazzo, 55, 91022 Castelvetrano TP
+Coordinate: Lat 37.677659, Lng 12.794587
+Website: https://www.fratelliclemente.net/
+Email: 
+
+13198. Hotel Admeto
+ID: add7f4eb-41a2-48de-ad72-70b0888766c5
+Slug: hotel-admeto-campobello-di-mazara
+Nome: Hotel Admeto
+Comune / Provincia: Campobello di Mazara
+Indirizzo: Via Palinuro, 3, 91022 Marinella TP
+Coordinate: Lat 37.582924, Lng 12.840431
+Website: http://www.hoteladmeto.it/
+Email: 
+
+13199. Hotel Club Ramuxara
+ID: 9913027e-24b6-4fe6-9ae4-2b531ea8ecdc
+Slug: hotel-club-ramuxara-campobello-di-mazara
+Nome: Hotel Club Ramuxara
+Comune / Provincia: Campobello di Mazara
+Indirizzo: Via Tonnara Fontana, 180, 91021 Campobello di Mazara TP
+Coordinate: Lat 37.580264, Lng 12.74869
+Website: http://www.zahiraresort.it/
+Email: 
+
+13200. Hotel La Rosa
+ID: f361c96d-27ce-4b9d-b017-824129756bbf
+Slug: hotel-la-rosa-campobello-di-mazara
+Nome: Hotel La Rosa
+Comune / Provincia: Campobello di Mazara
+Indirizzo: Via Pigafetta, 2, 91022 Marinella TP
+Coordinate: Lat 37.582552, Lng 12.83262
+Website: https://larosahotel.eu/
+Email: 
+
+13201. Hotel Miramare Garzia - Albergo vista mare, Parco Archeologico Selinunte, Castelvetrano Trapani Sicilia
+ID: 4f4bdd14-2ffe-4fa9-a7c0-1f4f5e0aa8c2
+Slug: hotel-miramare-garzia-albergo-vista-mare-parco-a-campobello-di-mazara
+Nome: Hotel Miramare Garzia - Albergo vista mare, Parco Archeologico Selinunte, Castelvetrano Trapani Sicilia
+Comune / Provincia: Campobello di Mazara
+Indirizzo: Via Pigafetta, 2, 91022 Selinunte, Castelvetrano TP
+Coordinate: Lat 37.582514, Lng 12.832889
+Website: https://www.hotelmiramaregarzia.it/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=10199604321011489648
+Email: 
+
+13202. La Terrazza Sul Mar Mediterraneo
+ID: 9e060716-caa6-46f6-86c3-14f56179fff1
+Slug: la-terrazza-sul-mar-mediterraneo-campobello-di-mazara
+Nome: La Terrazza Sul Mar Mediterraneo
+Comune / Provincia: Campobello di Mazara
+Indirizzo: Via degli Argonauti, 24, 91022 Marinella TP
+Coordinate: Lat 37.585118, Lng 12.839749
+Website: https://staid-hotel.eu/apartment-gli-argonauti-di-selinunte-italy
+Email: 
+
+13203. Lu mé
+ID: 60f9e39d-b950-460f-9504-9a005d3a7012
+Slug: lu-me-campobello-di-mazara
+Nome: Lu mé
+Comune / Provincia: Campobello di Mazara
+Indirizzo: Via Paolo Borsellino, 5, 91026 Mazara del Vallo TP
+Coordinate: Lat 37.648627, Lng 12.612903
+Website: —
+Email: 
+
+13204. Mangia's Selinunte Resort
+ID: cdb94167-217b-4fbd-8d11-2241a11a17bd
+Slug: mangia-s-selinunte-resort-campobello-di-mazara
+Nome: Mangia's Selinunte Resort
+Comune / Provincia: Campobello di Mazara
+Indirizzo: Contrada Belice di Mare, 91022 Selinunte TP
+Coordinate: Lat 37.591808, Lng 12.861439
+Website: https://www.mangias.com/it/resort/mangias-selinunte-resort-sicily?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=gbp
+Email: 
+
+13205. Selinunte Boutique Hotel
+ID: 878073a2-d54a-4bc6-a3ce-ceefc458bfd1
+Slug: selinunte-boutique-hotel-campobello-di-mazara
+Nome: Selinunte Boutique Hotel
+Comune / Provincia: Campobello di Mazara
+Indirizzo: Via Giovanni Caboto, 118, 91022 Marinella TP
+Coordinate: Lat 37.583752, Lng 12.838813
+Website: https://selinunteboutiquehotel.it/
+Email: 
+
+13206. Triscinamare
+ID: 52f5b451-ac64-4230-8a5e-1d4345559aaa
+Slug: triscinamare-campobello-di-mazara
+Nome: Triscinamare
+Comune / Provincia: Campobello di Mazara
+Indirizzo: Via del Mediterraneo, 233, 91022 Castelvetrano TP
+Coordinate: Lat 37.583966, Lng 12.777698
+Website: http://www.triscinamare.it/
+Email: 
+
+13207. Villa Medusa - Camper Sicilia
+ID: ee2bf7e8-020d-4fff-ad2a-7583eefc08d1
+Slug: villa-medusa-camper-sicilia-campobello-di-mazara
+Nome: Villa Medusa - Camper Sicilia
+Comune / Provincia: Campobello di Mazara
+Indirizzo: Bosco Vecchio, 1/2, 91021 Campobello di Mazara TP
+Coordinate: Lat 37.585505, Lng 12.725509
+Website: https://camper-sicilia.com/
+Email: 
+
+13208. Wind Resort
+ID: 9923d70a-1b36-4916-90bd-f5f9362492b9
+Slug: wind-resort-campobello-di-mazara
+Nome: Wind Resort
+Comune / Provincia: Campobello di Mazara
+Indirizzo: Contrada Puzziteddu, 91021 Campobello di Mazara TP
+Coordinate: Lat 37.561079, Lng 12.679026
+Website: https://www.windresort.it/
+Email: 
+
+13209. Zahira Resort
+ID: b5f97870-9172-40f2-b083-eab887edd80c
+Slug: zahira-resort-campobello-di-mazara
+Nome: Zahira Resort
+Comune / Provincia: Campobello di Mazara
+Indirizzo: Via Tonnara Fontana, 180, 91021 Campobello di Mazara TP
+Coordinate: Lat 37.5803, Lng 12.74865
+Website: http://www.zahiraresort.it/
+Email: 
+
+13210. Hotel Lo Sciatore
+ID: 74259238-ec68-4fe7-b5e4-5220c4636ab5
+Slug: hotel-lo-sciatore-campochiaro
+Nome: Hotel Lo Sciatore
+Comune / Provincia: Campochiaro
+Indirizzo: KM 388, KM 388,71, 86027 Campitello Matese CB
+Coordinate: Lat 41.463151, Lng 14.389992
+Website: http://www.hotellosciatore.eu/
+Email: 
+
+13211. Hotel Miletto & Spa
+ID: 1d7de199-3408-455e-848e-d743ec39d27e
+Slug: hotel-miletto-spa-campochiaro
+Nome: Hotel Miletto & Spa
+Comune / Provincia: Campochiaro
+Indirizzo: Via, 86027 Campitello Matese CB
+Coordinate: Lat 41.461906, Lng 14.393185
+Website: https://www.hotelmiletto.it/
+Email: 
+
+13212. Il Palazzetto dei Briganti
+ID: 089b9493-60af-4253-9394-31c812476500
+Slug: il-palazzetto-dei-briganti-campochiaro
+Nome: Il Palazzetto dei Briganti
+Comune / Provincia: Campochiaro
+Indirizzo: Via Roma, 10, 86014 Guardiaregia CB
+Coordinate: Lat 41.434991, Lng 14.542766
+Website: https://stayvia.eu/the-palace-of-briganti-guardiaregia
+Email: 
+
+13213. Locanda Arcari
+ID: 68d6bace-f08a-4a4b-969f-777a1c4cd483
+Slug: locanda-arcari-campochiaro
+Nome: Locanda Arcari
+Comune / Provincia: Campochiaro
+Indirizzo: Via Colle Croce, 1, 86014 Guardiaregia CB
+Coordinate: Lat 41.434686, Lng 14.541558
+Website: http://www.agriturismoilgrifone.it/
+Email: 
+
+13214. MoMa Roof Garden
+ID: c4549c1b-9936-459f-8cda-4887108e0862
+Slug: moma-roof-garden-campochiaro
+Nome: MoMa Roof Garden
+Comune / Provincia: Campochiaro
+Indirizzo: Località Rio Freddo, 2, 86020 San Polo Matese CB
+Coordinate: Lat 41.474688, Lng 14.499145
+Website: https://momaroofgarden.it/
+Email: 
+
+13215. VittoNico
+ID: 1ec85f0f-c9a9-44fb-8bf3-9475a24ed350
+Slug: vittonico-campochiaro
+Nome: VittoNico
+Comune / Provincia: Campochiaro
+Indirizzo: Via dei Mugnai, 2, 82026 Morcone BN
+Coordinate: Lat 41.341903, Lng 14.661717
+Website: https://www.vittonico.it/
+Email: 
+
+13216. Why Not B&B
+ID: 16d3e3c1-ca4b-4b2d-8a16-99fb6b37f31a
+Slug: why-not-b-b-campochiaro
+Nome: Why Not B&B
+Comune / Provincia: Campochiaro
+Indirizzo: Contrada Fonteiaova 38bis, 86020 San Polo Matese CB
+Coordinate: Lat 41.473504, Lng 14.513747
+Website: —
+Email: 
+
+13217. Agriturismo Villa Selvatico
+ID: 533d059f-ef7e-4f69-9c46-b7d195837c15
+Slug: agriturismo-villa-selvatico-campodarsego
+Nome: Agriturismo Villa Selvatico
+Comune / Provincia: Campodarsego
+Indirizzo: Via Pietro Selvatico, 1, 35010 Vigonza PD
+Coordinate: Lat 45.489541, Lng 11.947769
+Website: http://www.villa-selvatico.com/
+Email: 
+
+13218. Casa di Accoglienza Lucia Valentini Terrani
+ID: a14086e3-55d6-442e-8108-85caee61ff91
+Slug: casa-di-accoglienza-lucia-valentini-terrani-campodarsego
+Nome: Casa di Accoglienza Lucia Valentini Terrani
+Comune / Provincia: Campodarsego
+Indirizzo: Via Giusto de' Menabuoi, 64, 35132 Padova PD
+Coordinate: Lat 45.420822, Lng 11.886617
+Website: http://www.casavalentiniterrani.org/
+Email: 
+
+13219. Il Viaggiatore B&B
+ID: 19fcc16e-27b9-470c-a1e8-c3671d9c3146
+Slug: il-viaggiatore-b-b-campodarsego
+Nome: Il Viaggiatore B&B
+Comune / Provincia: Campodarsego
+Indirizzo: Via Anconetta, 56/A, 35010 San Giorgio delle Pertiche PD
+Coordinate: Lat 45.535776, Lng 11.902536
+Website: http://www.ilviaggiatore.cloud/
+Email: 
+
+13220. Rosalimone B&B
+ID: 1d190c92-1381-4f50-96e6-971ea3aa14cf
+Slug: rosalimone-b-b-campodarsego
+Nome: Rosalimone B&B
+Comune / Provincia: Campodarsego
+Indirizzo: Via P. Massimiliano Kolbe, 38, 35011 Campodarsego PD
+Coordinate: Lat 45.504561, Lng 11.953025
+Website: http://www.rosalimone.it/
+Email: 
+
+13221. Villa Da Ponte
+ID: e8ef5f44-5890-4571-b930-2320e7122f61
+Slug: villa-da-ponte-campodarsego
+Nome: Villa Da Ponte
+Comune / Provincia: Campodarsego
+Indirizzo: Via Roma, 72, 35010 Cadoneghe PD
+Coordinate: Lat 45.472369, Lng 11.924011
+Website: http://www.villadaponte.it/
+Email: 
+
+13222. Agritur Agrihouse - Val di Non, Trentino
+ID: 9249a592-e88e-4fd2-a1ea-68b1adf527e5
+Slug: agritur-agrihouse-val-di-non-trentino-campodenno
+Nome: Agritur Agrihouse - Val di Non, Trentino
+Comune / Provincia: Campodenno
+Indirizzo: Vicolo della Rotonda, 3, 38010 Campodenno TN
+Coordinate: Lat 46.248774, Lng 11.048111
+Website: https://www.airbnb.it/rooms/4636190?adults=1&children=0&infants=0&check_in=2023-05-02&check_out=2023-05-09&source_impression_id=p3_1682934005_cz9R9ExHu20vUE1k
+Email: 
+
+13223. Agritur Casamela
+ID: f3f4fe0a-e4f0-4952-960c-0e4e11c6c364
+Slug: agritur-casamela-campodenno
+Nome: Agritur Casamela
+Comune / Provincia: Campodenno
+Indirizzo: Via alle Tovare, 16, 38012 Taio TN
+Coordinate: Lat 46.315841, Lng 11.067698
+Website: https://www.agriturcasamela.it/
+Email: 
+
+13224. Agritur La Pieve
+ID: 9ed799fa-428b-4237-a217-9ab4ea50ea23
+Slug: agritur-la-pieve-campodenno
+Nome: Agritur La Pieve
+Comune / Provincia: Campodenno
+Indirizzo: Via di Sant'Eusebio, 4, 38012 Torra TN
+Coordinate: Lat 46.301995, Lng 11.079923
+Website: http://www.agriturlapieve.it/
+Email: 
+
+13225. Agritur Piccolo Fiore
+ID: 70a54d91-34da-4c7e-abff-da4e6819ae4e
+Slug: agritur-piccolo-fiore-campodenno
+Nome: Agritur Piccolo Fiore
+Comune / Provincia: Campodenno
+Indirizzo: Via S. Marcello, 40, 38012 Dardine TN
+Coordinate: Lat 46.286287, Lng 11.082812
+Website: http://www.agriturpiccolofiore.it/
+Email: 
+
+13226. Albergo Al Borghetto
+ID: 22d4b3ef-1e4d-4f00-bcff-aaa7d7145865
+Slug: albergo-al-borghetto-campodenno
+Nome: Albergo Al Borghetto
+Comune / Provincia: Campodenno
+Indirizzo: Via Emanuele de Varda, 10, 38017 Mezzolombardo TN
+Coordinate: Lat 46.216162, Lng 11.088405
+Website: https://www.albergoborghetto.it/
+Email: 
+
+13227. Albergo Nardelli
+ID: 7778adaa-ef67-429b-8aaf-2228d488f1aa
+Slug: albergo-nardelli-campodenno
+Nome: Albergo Nardelli
+Comune / Provincia: Campodenno
+Indirizzo: Via Lovernatico, 40, 38010 Sporminore TN
+Coordinate: Lat 46.2379, Lng 11.030026
+Website: http://www.albergonardelli.it/
+Email: 
+
+13228. Albergo Ristorante Scoiattolo
+ID: 167138a1-e159-4c5a-8503-4686f226388d
+Slug: albergo-ristorante-scoiattolo-campodenno
+Nome: Albergo Ristorante Scoiattolo
+Comune / Provincia: Campodenno
+Indirizzo: 38010 Pineta TN, Italia
+Coordinate: Lat 46.23957, Lng 11.022235
+Website: http://www.ristorante-scoiattolo.it/
+Email: 
+
+13229. ALPS LOVER
+ID: 22b0dffe-2759-4dc5-b54d-b0d3914b4e1a
+Slug: alps-lover-campodenno
+Nome: ALPS LOVER
+Comune / Provincia: Campodenno
+Indirizzo: Via Luc, 6, 38010 Lover TN
+Coordinate: Lat 46.248465, Lng 11.023993
+Website: http://www.alpslover.it/
+Email: 
+
+13230. B&b Al Trifoglio
+ID: 8a99648f-4d49-422e-a6e9-07344a24bd23
+Slug: b-b-al-trifoglio-campodenno
+Nome: B&b Al Trifoglio
+Comune / Provincia: Campodenno
+Indirizzo: Via Castel Belasi, 8, 38010 Campodenno TN
+Coordinate: Lat 46.248867, Lng 11.033295
+Website: —
+Email: 

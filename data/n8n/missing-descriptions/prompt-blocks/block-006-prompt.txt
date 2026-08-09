@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+176. B&B Cascina Luvot
+ID: fd52907b-9e41-46c5-bd80-2b9f7ac3a615
+Slug: b-b-cascina-luvot-acqui-terme
+Nome: B&B Cascina Luvot
+Comune / Provincia: Acqui Terme
+Indirizzo: Località Bano, 14, 15010 Melazzo AL
+Coordinate: Lat 44.650484, Lng 8.438181
+Website: https://cascinaluvot.wixsite.com/cascinaluvot
+Email: 
+
+177. B&B Dei Cappuccini
+ID: 77f2a7c1-d53c-4ca5-b07b-0abb4fdcd25c
+Slug: b-b-dei-cappuccini-acqui-terme
+Nome: B&B Dei Cappuccini
+Comune / Provincia: Acqui Terme
+Indirizzo: Via Ferdinando Magellano, 10, 15011 Acqui Terme AL
+Coordinate: Lat 44.675612, Lng 8.475459
+Website: http://www.deicappuccini.it/
+Email: 
+
+178. B&B La Lacia
+ID: 4d4206bb-6510-465e-8425-44885b4ef380
+Slug: b-b-la-lacia-acqui-terme
+Nome: B&B La Lacia
+Comune / Provincia: Acqui Terme
+Indirizzo: Regione Lacia, 7, 15011 Acqui Terme AL
+Coordinate: Lat 44.656259, Lng 8.472125
+Website: http://www.lalacia.it/?lang=en
+Email: 
+
+179. B&B Maggiora 131
+ID: bacf1931-7612-49ed-8ab6-21b29791fbd7
+Slug: b-b-maggiora-131-acqui-terme
+Nome: B&B Maggiora 131
+Comune / Provincia: Acqui Terme
+Indirizzo: Strada della Maggiora, 131, 15011 Acqui Terme AL
+Coordinate: Lat 44.69808, Lng 8.49423
+Website: https://www.bbmaggiora131.it/
+Email: 
+
+180. B&B Molino di Lancin
+ID: 08413116-87b8-41d1-8bdf-ea7fc432d5d2
+Slug: b-b-molino-di-lancin-acqui-terme
+Nome: B&B Molino di Lancin
+Comune / Provincia: Acqui Terme
+Indirizzo: Località Gallareto, 8, 15018 Spigno Monferrato AL
+Coordinate: Lat 44.525745, Lng 8.3463
+Website: https://beb.it/molinodilancin/en/
+Email: 
+
+181. B&B Villa Curte Nicia
+ID: b9cd9c6a-f4f7-4c1a-9556-c25e9f1c8f28
+Slug: b-b-villa-curte-nicia-acqui-terme
+Nome: B&B Villa Curte Nicia
+Comune / Provincia: Acqui Terme
+Indirizzo: Strada Vecchia d'Asti, 96, 14049 Nizza Monferrato AT
+Coordinate: Lat 44.772072, Lng 8.333755
+Website: http://www.villacurtenicia.com/
+Email: 
+
+182. Bed & Breakfast Casa Bolla
+ID: 10333279-9b8c-4a14-b723-81e7b4424375
+Slug: bed-breakfast-casa-bolla-acqui-terme
+Nome: Bed & Breakfast Casa Bolla
+Comune / Provincia: Acqui Terme
+Indirizzo: Str. Moirano, 11, 15011 Acqui Terme AL
+Coordinate: Lat 44.680804, Lng 8.4665
+Website: http://www.casabolla.it/
+Email: 
+
+183. Habilita Villa Igea Residence Artemisia
+ID: 226728c4-3dfb-42e4-a1a7-e6f487ce0d29
+Slug: habilita-villa-igea-residence-artemisia-acqui-terme
+Nome: Habilita Villa Igea Residence Artemisia
+Comune / Provincia: Acqui Terme
+Indirizzo: Regione Valloria, 1, 15011 Acqui Terme AL
+Coordinate: Lat 44.682263, Lng 8.46692
+Website: https://habilita.it/acqui-terme-residence-artemisia/
+Email: 
+
+184. Hotel Acqui
+ID: ce937f8d-367d-4290-809a-e9a85531b46f
+Slug: hotel-acqui-acqui-terme
+Nome: Hotel Acqui
+Comune / Provincia: Acqui Terme
+Indirizzo: Corso Bagni, 46, 15011 Acqui Terme AL
+Coordinate: Lat 44.672071, Lng 8.468177
+Website: http://www.hotelacqui.it/
+Email: 
+
+185. Hotel La Meridiana
+ID: 98e8d967-11ce-4ae6-bb41-0cee57dae0d1
+Slug: hotel-la-meridiana-acqui-terme
+Nome: Hotel La Meridiana
+Comune / Provincia: Acqui Terme
+Indirizzo: Piazza Duomo, 4, 15011 Acqui Terme AL
+Coordinate: Lat 44.674351, Lng 8.470576
+Website: http://lameridianahotel.net/galleria/
+Email: 
+
+186. Hotel Valentino Acqui Terme
+ID: 4f502174-3734-4c18-8fc3-724801a31606
+Slug: hotel-valentino-acqui-terme-acqui-terme
+Nome: Hotel Valentino Acqui Terme
+Comune / Provincia: Acqui Terme
+Indirizzo: Passeggiata Fonte Fredda, 20, 15011 Acqui Terme AL
+Coordinate: Lat 44.660248, Lng 8.469362
+Website: http://www.hotel-valentino.com/
+Email: 
+
+187. Il Sambuco innamorato country house
+ID: 69f344ab-f9a1-4fb5-b2f3-442d87089ede
+Slug: il-sambuco-innamorato-country-house-acqui-terme
+Nome: Il Sambuco innamorato country house
+Comune / Provincia: Acqui Terme
+Indirizzo: Via Luigi Ivaldi 34, 15011 Acqui Terme AL
+Coordinate: Lat 44.661576, Lng 8.491059
+Website: http://www.sambucoinnamorato.it/
+Email: 
+
+188. L'Alloro
+ID: db2fce4c-5ed3-47be-bbbc-c679bfc8a953
+Slug: l-alloro-acqui-terme
+Nome: L'Alloro
+Comune / Provincia: Acqui Terme
+Indirizzo: Via Belletti, 53, 15010 Alessandria AL
+Coordinate: Lat 44.635181, Lng 8.606546
+Website: http://www.bballoro.it/
+Email: 
+
+189. La Contea B&B
+ID: d96e575f-5bca-452b-93f7-c9932cc0e9cb
+Slug: la-contea-b-b-acqui-terme
+Nome: La Contea B&B
+Comune / Provincia: Acqui Terme
+Indirizzo: Str. Moirano, 140/A, 15011 Acqui Terme AL
+Coordinate: Lat 44.692697, Lng 8.466152
+Website: https://instagram.com/la_contea_acqui_terme2023?igshid=YmMyMTA2M2Y=
+Email: 
+
+190. Relais Borgo Del Gallo
+ID: 058b6e8a-037a-4b8c-9027-208b3e954a71
+Slug: relais-borgo-del-gallo-acqui-terme
+Nome: Relais Borgo Del Gallo
+Comune / Provincia: Acqui Terme
+Indirizzo: Località Valle Prati 1, Valle Prati, 1, 15010 Cavatore AL
+Coordinate: Lat 44.634151, Lng 8.451812
+Website: http://www.relaisborgodelgallo.com/en
+Email: 
+
+191. Verdmont
+ID: 28fad73c-adfa-47c1-a44d-44f94e6235a2
+Slug: verdmont-acqui-terme
+Nome: Verdmont
+Comune / Provincia: Acqui Terme
+Indirizzo: Italia, Regione Faetta, 19/21, 15011 Acqui Terme AL
+Coordinate: Lat 44.691936, Lng 8.483525
+Website: http://www.verdmont.co/
+Email: 
+
+192. Villa Gioia Country House
+ID: 474015eb-1e35-4819-a44a-51d6227ad48e
+Slug: villa-gioia-country-house-acqui-terme
+Nome: Villa Gioia Country House
+Comune / Provincia: Acqui Terme
+Indirizzo: Passeggiata Fonte Fredda, 36b, 15011 Acqui Terme AL
+Coordinate: Lat 44.65915, Lng 8.466949
+Website: http://www.villagioiacountryhouse.com/
+Email: 
+
+193. Villa Scati
+ID: 93128a57-5c12-4a83-a096-aebc1138558e
+Slug: villa-scati-acqui-terme
+Nome: Villa Scati
+Comune / Provincia: Acqui Terme
+Indirizzo: Località Quartino, 1, 15010 Melazzo AL
+Coordinate: Lat 44.653885, Lng 8.426979
+Website: https://www.villascati.it/
+Email: 
+
+194. Agriturismo 3 Elle Blues of Rivers
+ID: 75571ab8-b3bf-424b-8547-70fd43593d21
+Slug: agriturismo-3-elle-blues-of-rivers-acri
+Nome: Agriturismo 3 Elle Blues of Rivers
+Comune / Provincia: Acri
+Indirizzo: Contrada Duglia, 60, 87041 Acri CS
+Coordinate: Lat 39.511161, Lng 16.385576
+Website: https://timothylovestotravel.com/agriturismo-tre-elle-italy
+Email: 
+
+195. B&B Sandro Pertini
+ID: d3dff0c1-d933-4d00-a764-ae5527e0f35e
+Slug: b-b-sandro-pertini-acri
+Nome: B&B Sandro Pertini
+Comune / Provincia: Acri
+Indirizzo: Corso Sandro Pertini, 55, 87041 Acri CS
+Coordinate: Lat 39.491063, Lng 16.38468
+Website: https://www.bbsandropertini.it/
+Email: 
+
+196. Domus Grand Hotel
+ID: 8b95d04d-8b9c-40ef-ba4c-3522f20ced78
+Slug: domus-grand-hotel-acri
+Nome: Domus Grand Hotel
+Comune / Provincia: Acri
+Indirizzo: Via G. L. Bernini, 6, 87036 Rende CS
+Coordinate: Lat 39.352946, Lng 16.240976
+Website: http://www.grandhoteldomus.it/
+Email: 
+
+197. Floris Hotel
+ID: 9535cc13-518c-4483-b721-1f67a5f36b41
+Slug: floris-hotel-acri
+Nome: Floris Hotel
+Comune / Provincia: Acri
+Indirizzo: Via E. Maiorana, 22, 87036 Rende CS
+Coordinate: Lat 39.357917, Lng 16.235517
+Website: https://hotelflorisrende.com/
+Email: 
+
+198. Hotel 660
+ID: af6ea00b-fe06-431c-857f-522a459b40bf
+Slug: hotel-660-acri
+Nome: Hotel 660
+Comune / Provincia: Acri
+Indirizzo: Contrada Cocozello, 96, 87041 Acri CS
+Coordinate: Lat 39.49038, Lng 16.301121
+Website: https://www.hotel660.it/
+Email: 
+
+199. Hotel Ausonia
+ID: 8c427b3f-2187-4b9b-b9c1-d3008098e6a6
+Slug: hotel-ausonia-acri
+Nome: Hotel Ausonia
+Comune / Provincia: Acri
+Indirizzo: Contrada Chiubica, snc, 87064 Corigliano CS
+Coordinate: Lat 39.628374, Lng 16.532655
+Website: https://hotel-ausonia.vacanzeinitalia.top/
+Email: 
+
+200. Hotel Europa
+ID: 690ca5c9-2e43-4375-821f-7743fc1855a4
+Slug: hotel-europa-acri
+Nome: Hotel Europa
+Comune / Provincia: Acri
+Indirizzo: Via Kennedy, 29L, 87036 Rende CS
+Coordinate: Lat 39.326496, Lng 16.242941
+Website: https://www.europahotelcosenza.it/
+Email: 
+
+201. Hotel San Francesco
+ID: c169d657-807d-416f-a28e-89ad34d46806
+Slug: hotel-san-francesco-acri
+Nome: Hotel San Francesco
+Comune / Provincia: Acri
+Indirizzo: Via Giuseppe Ungaretti, 2, 87036 Rende CS
+Coordinate: Lat 39.332764, Lng 16.245059
+Website: https://www.hsf.it/
+Email: 
+
+202. Hotel Tania
+ID: e8eaaeb8-8a87-4573-a8d3-6475c69137d8
+Slug: hotel-tania-acri
+Nome: Hotel Tania
+Comune / Provincia: Acri
+Indirizzo: Contrada Mezzofato, 18, 87064 Cantinella CS
+Coordinate: Lat 39.654167, Lng 16.448832
+Website: https://hotel-tania.comeviaggiare.top/
+Email: 
+
+203. La Locanda dei Cocomeri
+ID: 774f22c2-71d3-42da-a6a6-9c87fd65507a
+Slug: la-locanda-dei-cocomeri-acri
+Nome: La Locanda dei Cocomeri
+Comune / Provincia: Acri
+Indirizzo: Via Coretta, 53, 87040 Montalto Uffugo CS
+Coordinate: Lat 39.417748, Lng 16.250423
+Website: http://www.locandadeicocomeri.it/
+Email: 
+
+204. La Rosa dei Venti
+ID: 4b27f153-65ca-4405-9226-916d520c612f
+Slug: la-rosa-dei-venti-acri
+Nome: La Rosa dei Venti
+Comune / Provincia: Acri
+Indirizzo: Via Don Giovanni Minzoni, 2, 87041 Acri CS
+Coordinate: Lat 39.492661, Lng 16.38822
+Website: https://guestcheckin.eu/la-rosa-dei-venti-acri
+Email: 
+
+205. Le Stanze Di Nu Café
+ID: 0cb90788-08cc-439a-8b26-5676da0ce32e
+Slug: le-stanze-di-nu-cafe-acri
+Nome: Le Stanze Di Nu Café
+Comune / Provincia: Acri
+Indirizzo: Via Primavera di Praga, 87041 Acri CS
+Coordinate: Lat 39.49133, Lng 16.383176
+Website: https://www.instagram.com/nucafe_acri?igsh=MWV6aWRwZDY3ZmJtdA==
+Email: 
+
+206. Motel Kratos
+ID: 7e8b2c39-85b8-4a6b-9126-51a04d134980
+Slug: motel-kratos-acri
+Nome: Motel Kratos
+Comune / Provincia: Acri
+Indirizzo: Via Torre Grande, 87043 Bisignano CS
+Coordinate: Lat 39.490232, Lng 16.243276
+Website: http://www.motelkratos.it/
+Email: 
+
+207. Nunù Bed and Breakfast
+ID: c40d3754-ea7d-4ea1-b4f4-078a295ebfd8
+Slug: nunu-bed-and-breakfast-acri
+Nome: Nunù Bed and Breakfast
+Comune / Provincia: Acri
+Indirizzo: Via Carlo Alberto Dalla Chiesa, 24/A, 87041 Acri CS
+Coordinate: Lat 39.494153, Lng 16.387106
+Website: https://nunuacri.it/
+Email: 
+
+208. Piazza Salotto
+ID: 4788a514-6aa1-484b-819c-216b927d931b
+Slug: piazza-salotto-acri
+Nome: Piazza Salotto
+Comune / Provincia: Acri
+Indirizzo: Via F. Maradea, 14, 87064 Corigliano-Rossano CS
+Coordinate: Lat 39.626934, Lng 16.511656
+Website: https://www.piazzasalottocorigliano.it/
+Email: 
+
+209. Relais Il Mulino
+ID: 0694e6bf-c3a7-4b8d-b713-eeb88b7c0d38
+Slug: relais-il-mulino-acri
+Nome: Relais Il Mulino
+Comune / Provincia: Acri
+Indirizzo: Contrada Santa Domenica, Contrada Chiubbica, 87064 Corigliano CS
+Coordinate: Lat 39.622298, Lng 16.528977
+Website: https://relaisilmulinocorigliano.top/
+Email: 
+
+210. Residence Vittoria
+ID: 2cbe1f59-5615-4eb3-9d29-d94084943503
+Slug: residence-vittoria-acri
+Nome: Residence Vittoria
+Comune / Provincia: Acri
+Indirizzo: Via Alcide de Gasperi, 375, 87041 Acri CS
+Coordinate: Lat 39.501491, Lng 16.392227
+Website: http://www.residence-vittoria.it/
+Email: 

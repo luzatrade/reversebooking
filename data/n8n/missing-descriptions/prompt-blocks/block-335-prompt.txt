@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+11691. Agriturismo Corte Ghiara
+ID: 9c725d28-8b5c-47ab-801a-f742a5030e09
+Slug: agriturismo-corte-ghiara-busseto
+Nome: Agriturismo Corte Ghiara
+Comune / Provincia: Busseto
+Indirizzo: Str. Ghiara-Sabbioni, 68, 43012 Fontanellato PR
+Coordinate: Lat 44.883837, Lng 10.181675
+Website: —
+Email: 
+
+11692. Agriturismo Mascudiera
+ID: 2eabf8e9-6a91-4f7c-8fb5-1b0b8691aa15
+Slug: agriturismo-mascudiera-busseto
+Nome: Agriturismo Mascudiera
+Comune / Provincia: Busseto
+Indirizzo: Mascudiera, 29017 Fiorenzuola d'Arda PC
+Coordinate: Lat 44.92576, Lng 9.952062
+Website: http://www.mascudiera.com/
+Email: 
+
+11693. Alle Roncole - Ristorante Con Locanda Busseto
+ID: dcf9d346-9d4b-4f10-a8af-2e7e710e08b5
+Slug: alle-roncole-ristorante-con-locanda-busseto-busseto
+Nome: Alle Roncole - Ristorante Con Locanda Busseto
+Comune / Provincia: Busseto
+Indirizzo: Strada Processione, 179, 43011 Busseto PR
+Coordinate: Lat 44.951125, Lng 10.071601
+Website: http://www.alleroncole.it/
+Email: 
+
+11694. B&B L'Albero della Gioia
+ID: 7542ef96-7c8c-48c2-8291-24fb92ac4419
+Slug: b-b-l-albero-della-gioia-busseto
+Nome: B&B L'Albero della Gioia
+Comune / Provincia: Busseto
+Indirizzo: Via XXV Aprile, 145, 29010 Forno PC
+Coordinate: Lat 45.039044, Lng 10.013535
+Website: http://www.bed-and-breakfast.it/mobile/it/emilia-romagna/bb-lalbero-della-gioia-villanova-sull-arda/39836
+Email: 
+
+11695. Bed & Breakfast "Il Pavone"
+ID: ef1d0e55-01fb-48bb-9bb4-b2726621cce9
+Slug: bed-breakfast-il-pavone-busseto
+Nome: Bed & Breakfast "Il Pavone"
+Comune / Provincia: Busseto
+Indirizzo: Str. Bianca, 39, 43011 Busseto PR
+Coordinate: Lat 44.969824, Lng 10.034191
+Website: https://bb-il-pavone-di-marco-quarantelli.bellaitaliatrips.top/
+Email: 
+
+11696. Bed & Breakfast Il Trovatore Busseto
+ID: 1a90d470-59e0-4628-a69e-0c56caa05ab3
+Slug: bed-breakfast-il-trovatore-busseto-busseto
+Nome: Bed & Breakfast Il Trovatore Busseto
+Comune / Provincia: Busseto
+Indirizzo: Via Musini, 36, 43011 Busseto PR
+Coordinate: Lat 44.975984, Lng 10.049152
+Website: https://beb.it/iltrovatorebusseto
+Email: 
+
+11697. Hotel Arda - Ristorante - Pizzeria
+ID: e1c7da87-c048-4be5-9549-e88323af196d
+Slug: hotel-arda-ristorante-pizzeria-busseto
+Nome: Hotel Arda - Ristorante - Pizzeria
+Comune / Provincia: Busseto
+Indirizzo: Via Luigi Scapuzzi, 35, 29017 Fiorenzuola d'Arda PC
+Coordinate: Lat 44.922741, Lng 9.922659
+Website: https://www.hotelardafiorenzuola.it/
+Email: 
+
+11698. Hotel La Voglia
+ID: 078e36b9-50f7-407d-910d-aaa494ff6fd7
+Slug: hotel-la-voglia-busseto
+Nome: Hotel La Voglia
+Comune / Provincia: Busseto
+Indirizzo: Via Repubblica, 50, 29010 Villanova sull'Arda PC
+Coordinate: Lat 45.02683, Lng 9.997806
+Website: https://lalbergolavoglia.webnode.it/
+Email: 
+
+11699. La Corte del Mulino
+ID: d8fdbe75-8aa5-448d-89cb-539535197fef
+Slug: la-corte-del-mulino-busseto
+Nome: La Corte del Mulino
+Comune / Provincia: Busseto
+Indirizzo: Via Nazionale Emilia, 70, 43015 Sanguinaro PR
+Coordinate: Lat 44.841813, Lng 10.147113
+Website: http://www.lacortedelmulino.it/
+Email: 
+
+11700. Le Colombaie - Maison de Charme
+ID: f3879a7b-e868-4d08-a023-f55bb3cf07be
+Slug: le-colombaie-maison-de-charme-busseto
+Nome: Le Colombaie - Maison de Charme
+Comune / Provincia: Busseto
+Indirizzo: Presso cascina "Le Colombaie", Via Bersano, 32, 29010 Bersano di Besenzone PC
+Coordinate: Lat 44.976648, Lng 10.014043
+Website: http://www.lecolombaie.net/
+Email: 
+
+11701. Locanda del Lupo
+ID: 5ed16493-2873-4a8d-b076-5e305b85c863
+Slug: locanda-del-lupo-busseto
+Nome: Locanda del Lupo
+Comune / Provincia: Busseto
+Indirizzo: Via Garibaldi, 64, 43019 Soragna PR
+Coordinate: Lat 44.92737, Lng 10.126318
+Website: http://www.locandadellupo.it/
+Email: 
+
+11702. The Green House
+ID: 354eb66a-77ce-453c-b2e7-5d1434bea345
+Slug: the-green-house-busseto
+Nome: The Green House
+Comune / Provincia: Busseto
+Indirizzo: Via Roma, 111, 43011 Busseto PR
+Coordinate: Lat 44.980702, Lng 10.042618
+Website: https://www.thegreenhousebusseto.it/
+Email: 
+
+11703. Azienda agrituristica "la torretta "
+ID: 67447ad3-5c97-40e5-9dc0-27dc251842c3
+Slug: azienda-agrituristica-la-torretta-bussi-sul-tirino
+Nome: Azienda agrituristica "la torretta "
+Comune / Provincia: Bussi sul Tirino
+Indirizzo: Via, 65028 Pretara PE
+Coordinate: Lat 42.206405, Lng 13.899003
+Website: https://azienda-agrituristica-la-torretta.italyfun.top/
+Email: 
+
+11704. Azienda Agrituristica Il Fortino
+ID: c111acff-1002-4619-8a3b-96b1f37d6552
+Slug: azienda-agrituristica-il-fortino-bussi-sul-tirino
+Nome: Azienda Agrituristica Il Fortino
+Comune / Provincia: Bussi sul Tirino
+Indirizzo: 1 Localita' Forca Di Penne, Capestrano, AQ 67022, 67022 Capestrano AQ
+Coordinate: Lat 42.283342, Lng 13.835928
+Website: http://www.agriturismoilfortino.it/
+Email: 
+
+11705. B&B Popoli Terme
+ID: a8d09303-9519-4b15-871c-6529c8362263
+Slug: b-b-popoli-terme-bussi-sul-tirino
+Nome: B&B Popoli Terme
+Comune / Provincia: Bussi sul Tirino
+Indirizzo: Via Capponi, 2, 65026 Popoli PE
+Coordinate: Lat 42.173533, Lng 13.832694
+Website: https://www.aptsitalia.it/
+Email: 
+
+11706. B&B Radici
+ID: 229572ae-0502-4995-a322-21438caaba98
+Slug: b-b-radici-bussi-sul-tirino
+Nome: B&B Radici
+Comune / Provincia: Bussi sul Tirino
+Indirizzo: Via Progresso, 50, 65022 Bussi sul Tirino PE
+Coordinate: Lat 42.210872, Lng 13.827976
+Website: —
+Email: 
+
+11707. B&B Tirino
+ID: 4e7c9f5b-e2eb-40b1-8e9f-579075a3784a
+Slug: b-b-tirino-bussi-sul-tirino
+Nome: B&B Tirino
+Comune / Provincia: Bussi sul Tirino
+Indirizzo: Via della Repubblica, 126, 65022 Bussi sul Tirino PE
+Coordinate: Lat 42.212758, Lng 13.822623
+Website: https://www.bebtirino.it/
+Email: 
+
+11708. Baron's Estate/Tenuta del Barone
+ID: 69c76fde-fcf7-4fe6-bbe9-591782797952
+Slug: baron-s-estate-tenuta-del-barone-bussi-sul-tirino
+Nome: Baron's Estate/Tenuta del Barone
+Comune / Provincia: Bussi sul Tirino
+Indirizzo: Viale della Repubblica, 80, 65029 Torre de' Passeri PE
+Coordinate: Lat 42.243203, Lng 13.938395
+Website: https://www.amazingabruzzotours.com/
+Email: 
+
+11709. La Trita Dimore di Charme
+ID: 366358e6-6d3c-4050-b633-26a0c2e1509b
+Slug: la-trita-dimore-di-charme-bussi-sul-tirino
+Nome: La Trita Dimore di Charme
+Comune / Provincia: Bussi sul Tirino
+Indirizzo: Piazza Commercio, 16, 65022 Bussi sul Tirino PE
+Coordinate: Lat 42.210218, Lng 13.827805
+Website: —
+Email: 
+
+11710. B&B Campobasso 30E
+ID: b86aa167-c9f8-4108-a86d-a6e738c6c90f
+Slug: b-b-campobasso-30e-busso
+Nome: B&B Campobasso 30E
+Comune / Provincia: Busso
+Indirizzo: Viale Duca d'Aosta, 30E, 86100 Campobasso CB
+Coordinate: Lat 41.551888, Lng 14.657718
+Website: http://campobasso30e.com.es/
+Email: 
+
+11711. B&B Pagliarelle
+ID: d7df08c5-688e-4c8e-967a-437fa738c451
+Slug: b-b-pagliarelle-busso
+Nome: B&B Pagliarelle
+Comune / Provincia: Busso
+Indirizzo: Via Circonvallazione San Bonifacio, 1, 86010 Oratino CB
+Coordinate: Lat 41.582142, Lng 14.584473
+Website: http://www.bed-and-breakfast.it/pagina.cfm?ID=4468&IDregione=11
+Email: 
+
+11712. Essential Rooms
+ID: ff488a88-c388-4cc0-a37f-74f6204c7378
+Slug: essential-rooms-busso
+Nome: Essential Rooms
+Comune / Provincia: Busso
+Indirizzo: Viale del Castello, 3, 86100 Campobasso CB
+Coordinate: Lat 41.562856, Lng 14.659736
+Website: https://bit.ly/3TgYHwd
+Email: 
+
+11713. Hotel Palma Costa Gioiosa
+ID: 878867d1-232a-45d0-9bda-a0bf26b20d35
+Slug: hotel-palma-costa-gioiosa-busso
+Nome: Hotel Palma Costa Gioiosa
+Comune / Provincia: Busso
+Indirizzo: SS618, 86010 Castropignano CB
+Coordinate: Lat 41.613233, Lng 14.558767
+Website: https://rentit.cyou/palma-costa-gioiosa-v00o7l
+Email: 
+
+11714. Agriturismo San Salvar
+ID: 8fc1c05b-532a-4f98-b299-bf74c585529d
+Slug: agriturismo-san-salvar-bussolengo
+Nome: Agriturismo San Salvar
+Comune / Provincia: Bussolengo
+Indirizzo: Via S. Salvar, 33, 37012 Bussolengo VR
+Coordinate: Lat 45.466029, Lng 10.828747
+Website: —
+Email: 
+
+11715. Albergo La Carica
+ID: ea4e0fc9-1436-4789-98fa-48b0a877023a
+Slug: albergo-la-carica-bussolengo
+Nome: Albergo La Carica
+Comune / Provincia: Bussolengo
+Indirizzo: Via Rovereto, 42, 37010 Pastrengo VR
+Coordinate: Lat 45.495465, Lng 10.800199
+Website: https://www.lacarica.com/
+Email: 
+
+11716. Albergo Ristorante Roma
+ID: 1490122e-626b-4674-8ce1-d4cb0609a5b5
+Slug: albergo-ristorante-roma-bussolengo
+Nome: Albergo Ristorante Roma
+Comune / Provincia: Bussolengo
+Indirizzo: Via Giacomo Matteotti, 8, 37012 Bussolengo VR
+Coordinate: Lat 45.473003, Lng 10.846877
+Website: https://www.albergoromavr.it/
+Email: 
+
+11717. Albergo Trattoria Ai Perseghi
+ID: e8bce28e-02a2-475f-bb58-d2722c6644ae
+Slug: albergo-trattoria-ai-perseghi-bussolengo
+Nome: Albergo Trattoria Ai Perseghi
+Comune / Provincia: Bussolengo
+Indirizzo: Piazzale Vittorio Veneto, 11, 37012 Bussolengo VR
+Coordinate: Lat 45.470447, Lng 10.850578
+Website: http://www.albergoaiperseghi.it/
+Email: 
+
+11718. B&B Girelli Sorelle - Bed and Breakfast Bussolengo
+ID: 9f085e94-4e73-4adb-92a7-aa9cbe8ff283
+Slug: b-b-girelli-sorelle-bed-and-breakfast-bussolengo-bussolengo
+Nome: B&B Girelli Sorelle - Bed and Breakfast Bussolengo
+Comune / Provincia: Bussolengo
+Indirizzo: Località Zamboni, 120, 37012 Bussolengo VR
+Coordinate: Lat 45.458259, Lng 10.85787
+Website: https://www.girellisorelle.it/?utm_source=GoogleMyBusiness&utm_medium=organic&utm_campaign=sito_web
+Email: 
+
+11719. B&B Milù
+ID: 5b774f6a-fd2b-4c33-8000-04eb27ae63ba
+Slug: b-b-milu-bussolengo
+Nome: B&B Milù
+Comune / Provincia: Bussolengo
+Indirizzo: Via Rovereto, 12, 37012 Bussolengo VR
+Coordinate: Lat 45.474196, Lng 10.856968
+Website: https://beb.it/milubussolengo
+Email: 
+
+11720. B&B Santa Lucia
+ID: 93ff8fff-5478-47ad-9241-30424b609a2b
+Slug: b-b-santa-lucia-bussolengo
+Nome: B&B Santa Lucia
+Comune / Provincia: Bussolengo
+Indirizzo: Via Chiesa Vecchia, 7A, 37026 Santa Lucia VR
+Coordinate: Lat 45.499367, Lng 10.818508
+Website: http://www.alloggiosantalucia.it/
+Email: 
+
+11721. Casa Citella "Alloggio Turistico" - 37012 Bussolengo Verona
+ID: b6359f53-7ce7-4502-88c2-d8bd52be9203
+Slug: casa-citella-alloggio-turistico-37012-bussolengo-bussolengo
+Nome: Casa Citella "Alloggio Turistico" - 37012 Bussolengo Verona
+Comune / Provincia: Bussolengo
+Indirizzo: Rivendicato, Via Citella, 19, 37012 Bussolengo VR
+Coordinate: Lat 45.473757, Lng 10.851317
+Website: http://www.casacitella.it/
+Email: 
+
+11722. Del Falco Agricamp
+ID: bbef0c85-f9a1-4472-ba6d-2a53e74eebe1
+Slug: del-falco-agricamp-bussolengo
+Nome: Del Falco Agricamp
+Comune / Provincia: Bussolengo
+Indirizzo: Via delle Penezie, 37012 Bussolengo VR
+Coordinate: Lat 45.457752, Lng 10.846958
+Website: https://www.delfalcoagricamp.com/
+Email: 
+
+11723. Hotel Al Bosco
+ID: 6ff926a1-e1c5-43bd-9292-197fb21b9120
+Slug: hotel-al-bosco-bussolengo
+Nome: Hotel Al Bosco
+Comune / Provincia: Bussolengo
+Indirizzo: Via Bosco, 1c, 37060 Sona VR
+Coordinate: Lat 45.44306, Lng 10.820278
+Website: https://www.facebook.com/hotelalboscodisona
+Email: 
+
+11724. Hotel Centro Turistico Gardesano
+ID: be0f7857-6141-48bc-b9be-02c6e29a721b
+Slug: hotel-centro-turistico-gardesano-bussolengo
+Nome: Hotel Centro Turistico Gardesano
+Comune / Provincia: Bussolengo
+Indirizzo: Via Pastrengo, 69, 37012 Bussolengo VR
+Coordinate: Lat 45.48187, Lng 10.814854
+Website: http://www.hotelgardesano.it/
+Email: 
+
+11725. Hotel Krystal
+ID: 223b6b9e-4685-4350-b219-d69001c5350a
+Slug: hotel-krystal-bussolengo
+Nome: Hotel Krystal
+Comune / Provincia: Bussolengo
+Indirizzo: Via Dante Alighieri, 8, 37012 Bussolengo VR
+Coordinate: Lat 45.470761, Lng 10.846555
+Website: https://www.hotelkrystal.com/
+Email: 

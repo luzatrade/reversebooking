@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+7211. Riverside rooms
+ID: aac0276f-402b-4c0f-aaf3-7e5684dd47cb
+Slug: riverside-rooms-bard
+Nome: Riverside rooms
+Comune / Provincia: Bard
+Indirizzo: località Trambesere, 11020 Pontboset AO
+Coordinate: Lat 45.616487, Lng 7.674262
+Website: http://www.riversiderooms.it/
+Email: 
+
+7212. Villa Sardino
+ID: f0430554-f566-487f-88f0-313ccb422a22
+Slug: villa-sardino-bard
+Nome: Villa Sardino
+Comune / Provincia: Bard
+Indirizzo: Via Castello, 1, 10010 Settimo Vittone TO
+Coordinate: Lat 45.549064, Lng 7.832114
+Website: https://www.villasardino.it/
+Email: 
+
+7213. B&B I due Tigli
+ID: ebefa202-cac8-4ceb-8327-129fcf899bc1
+Slug: b-b-i-due-tigli-bardello-con-malgesso-e-bregano
+Nome: B&B I due Tigli
+Comune / Provincia: Bardello con Malgesso e Bregano
+Indirizzo: Via Agostino Maretti, 39, 21028 Travedona-Monate VA
+Coordinate: Lat 45.803013, Lng 8.669668
+Website: https://www.facebook.com/bbiduetigli
+Email: 
+
+7214. B&B La Casa Rossa
+ID: fa511ec0-e230-494c-8086-e441d26896b5
+Slug: b-b-la-casa-rossa-bardello-con-malgesso-e-bregano
+Nome: B&B La Casa Rossa
+Comune / Provincia: Bardello con Malgesso e Bregano
+Indirizzo: Via Vignacce, 24, 21026 Gavirate VA
+Coordinate: Lat 45.83983, Lng 8.71315
+Website: https://www.lacasarossagavirate.it/
+Email: 
+
+7215. Bed & Breakfast La Folaga
+ID: 2e0235b9-68d6-4008-be59-4d7c456b723e
+Slug: bed-breakfast-la-folaga-bardello-con-malgesso-e-bregano
+Nome: Bed & Breakfast La Folaga
+Comune / Provincia: Bardello con Malgesso e Bregano
+Indirizzo: Via Vignacce, 42/a, 21026 Gavirate VA
+Coordinate: Lat 45.838948, Lng 8.710246
+Website: https://www.lafolaga-gavirate.it/
+Email: 
+
+7216. Hotel Ristorante La Locanda
+ID: 45adcb11-3816-4166-ac3c-55140049d075
+Slug: hotel-ristorante-la-locanda-bardello-con-malgesso-e-bregano
+Nome: Hotel Ristorante La Locanda
+Comune / Provincia: Bardello con Malgesso e Bregano
+Indirizzo: Piazza Garibaldi, 61, 21062 Cadrezzate con Osmate VA
+Coordinate: Lat 45.797158, Lng 8.643611
+Website: https://hotellocanda.it/
+Email: 
+
+7217. LA VIGNA - Agriturismo
+ID: d09e39b6-1a6d-433f-b796-0a7b7442cc8a
+Slug: la-vigna-agriturismo-bardello-con-malgesso-e-bregano
+Nome: LA VIGNA - Agriturismo
+Comune / Provincia: Bardello con Malgesso e Bregano
+Indirizzo: Via Campeggio, 257, 21009 Malgesso VA
+Coordinate: Lat 45.825694, Lng 8.667517
+Website: http://www.lavignalagomaggiore.it/
+Email: 
+
+7218. Marconi 11
+ID: 9bf87bb6-0eac-4628-917b-a72b23e448a9
+Slug: marconi-11-bardello-con-malgesso-e-bregano
+Nome: Marconi 11
+Comune / Provincia: Bardello con Malgesso e Bregano
+Indirizzo: Via Marconi, 11, 21009 Bardello VA
+Coordinate: Lat 45.841227, Lng 8.696213
+Website: —
+Email: 
+
+7219. Sunset Hotel
+ID: 7ae8bd00-9895-4169-ad7e-bd374f0214b8
+Slug: sunset-hotel-bardello-con-malgesso-e-bregano
+Nome: Sunset Hotel
+Comune / Provincia: Bardello con Malgesso e Bregano
+Indirizzo: Via al Lido, 7, 21026 Gavirate VA
+Coordinate: Lat 45.839698, Lng 8.716596
+Website: http://www.hotelsunset.it/
+Email: 
+
+7220. Agriturismo Cergallina
+ID: 41d3c39d-ee00-4351-9318-0db33f04cd86
+Slug: agriturismo-cergallina-bardi
+Nome: Agriturismo Cergallina
+Comune / Provincia: Bardi
+Indirizzo: Località Cergallina, 1, 29010 Vernasca PC
+Coordinate: Lat 44.793683, Lng 9.855147
+Website: https://www.cergallina.it/
+Email: 
+
+7221. Agriturismo e Ristorante Ca’ d’Alfieri
+ID: 7be650f6-d5d4-4973-bef6-20f330f77a1b
+Slug: agriturismo-e-ristorante-ca-d-alfieri-bardi
+Nome: Agriturismo e Ristorante Ca’ d’Alfieri
+Comune / Provincia: Bardi
+Indirizzo: Località Predario, 29, 43032 Bardi PR
+Coordinate: Lat 44.604883, Lng 9.759102
+Website: http://www.cadalfieri.it/
+Email: 
+
+7222. Agriturismo Le Carovane
+ID: e43efb1e-8761-4bb8-a127-4520ca600f1d
+Slug: agriturismo-le-carovane-bardi
+Nome: Agriturismo Le Carovane
+Comune / Provincia: Bardi
+Indirizzo: Loc. Bertoli, 43053 Compiano PR
+Coordinate: Lat 44.504137, Lng 9.658427
+Website: http://www.carovane.com/
+Email: 
+
+7223. Agriturismo Podere Barzia
+ID: 8bea1144-5bbf-42a4-9bc0-01ff634e82a4
+Slug: agriturismo-podere-barzia-bardi
+Nome: Agriturismo Podere Barzia
+Comune / Provincia: Bardi
+Indirizzo: loc.Barzia, 226, 43032 Bardi PR
+Coordinate: Lat 44.62765, Lng 9.742444
+Website: https://www.poderebarzia.it/
+Email: 
+
+7224. Agriturismo Poggio d'incanto
+ID: b837f6c7-6771-49a3-b98a-4474887d7263
+Slug: agriturismo-poggio-d-incanto-bardi
+Nome: Agriturismo Poggio d'incanto
+Comune / Provincia: Bardi
+Indirizzo: Strada del Poggio di San Bernardino, 12, 29021 Bettola PC
+Coordinate: Lat 44.775486, Lng 9.61828
+Website: http://www.poggiodincanto.it/
+Email: 
+
+7225. Antica Osteria La Colomba
+ID: 39d79f15-73d0-45e7-930c-4f95e5824408
+Slug: antica-osteria-la-colomba-bardi
+Nome: Antica Osteria La Colomba
+Comune / Provincia: Bardi
+Indirizzo: Località Tolarolo, 206, 43049 Varsi PR
+Coordinate: Lat 44.622856, Lng 9.748672
+Website: https://www.lacolombahotel.it/
+Email: 
+
+7226. B & B Le Sei Dame
+ID: c6739fa8-e6f7-439d-84bc-eb36442b1848
+Slug: b-b-le-sei-dame-bardi
+Nome: B & B Le Sei Dame
+Comune / Provincia: Bardi
+Indirizzo: Via Giordani, 18, 43032 Bardi PR
+Coordinate: Lat 44.62996, Lng 9.730971
+Website: http://www.leseidame.it/
+Email: 
+
+7227. Ca' del Grano
+ID: d8c10da2-7e1d-47d8-9e2a-d2b16e06edc4
+Slug: ca-del-grano-bardi
+Nome: Ca' del Grano
+Comune / Provincia: Bardi
+Indirizzo: Via S. Francesco, 5, 43032 Bardi PR
+Coordinate: Lat 44.629751, Lng 9.73099
+Website: https://www.cadelgrano.it/
+Email: 
+
+7228. Hotel Ristorante San Marco
+ID: da882942-abc2-43cd-9a80-0a574ad920c5
+Slug: hotel-ristorante-san-marco-bardi
+Nome: Hotel Ristorante San Marco
+Comune / Provincia: Bardi
+Indirizzo: Via Monsignor Checchi, 2, 43041 Bedonia PR
+Coordinate: Lat 44.502923, Lng 9.628511
+Website: http://www.hotelsanmarcobedonia.com/
+Email: 
+
+7229. Il pozzo e la macina romantic country-chic b&b
+ID: a200a131-afcd-49db-a50e-eff11240f4cc
+Slug: il-pozzo-e-la-macina-romantic-country-chic-b-b-bardi
+Nome: Il pozzo e la macina romantic country-chic b&b
+Comune / Provincia: Bardi
+Indirizzo: Località Fornace, 194, 43032 Bardi PR
+Coordinate: Lat 44.61513, Lng 9.712123
+Website: https://www.bbilpozzoelamacina.it/
+Email: 
+
+7230. La Locanda dei 2
+ID: 07c95998-d4a2-4f62-9d37-2449c2e3dfe0
+Slug: la-locanda-dei-2-bardi
+Nome: La Locanda dei 2
+Comune / Provincia: Bardi
+Indirizzo: Via Pione, 2, 29010 Vernasca PC
+Coordinate: Lat 44.757027, Lng 9.812416
+Website: http://www.lalocandadei2.it/
+Email: 
+
+7231. Prati dei Campassi
+ID: 4ab278bf-b1a4-49ea-b56c-8504d7a86af5
+Slug: prati-dei-campassi-bardi
+Nome: Prati dei Campassi
+Comune / Provincia: Bardi
+Indirizzo: Loc. Predario, 26, 43032 Bardi PR
+Coordinate: Lat 44.603799, Lng 9.753766
+Website: —
+Email: 
+
+7232. Ristorante - Hotel Stella Azzurra
+ID: 106543be-bf1c-4a88-a707-67e86bc04005
+Slug: ristorante-hotel-stella-azzurra-bardi
+Nome: Ristorante - Hotel Stella Azzurra
+Comune / Provincia: Bardi
+Indirizzo: Località Cavignaga, 100, 43041 Bedonia PR
+Coordinate: Lat 44.514481, Lng 9.647052
+Website: https://www.stellaazzurrabedonia.com/
+Email: 
+
+7233. Tolasudolsa Rooms, Breakfast & Mountain Bike
+ID: cbf23293-5540-463d-9952-824b920440ee
+Slug: tolasudolsa-rooms-breakfast-mountain-bike-bardi
+Nome: Tolasudolsa Rooms, Breakfast & Mountain Bike
+Comune / Provincia: Bardi
+Indirizzo: Località Sambuceto, 208, 43053 Compiano PR
+Coordinate: Lat 44.527551, Lng 9.678125
+Website: https://roomsbreakfastmtb.it/
+Email: 
+
+7234. Villaggio Turistico Il Falco
+ID: 7676e2f9-c4dd-46c8-b9cb-a685b57c6364
+Slug: villaggio-turistico-il-falco-bardi
+Nome: Villaggio Turistico Il Falco
+Comune / Provincia: Bardi
+Indirizzo: Località Pessola, 110, 43049 Pessola PR
+Coordinate: Lat 44.62499, Lng 9.863743
+Website: http://www.villaggioturisticoilfalco.com/
+Email: 
+
+7235. Ca di Voi
+ID: f98e90f1-ea4e-48b1-b491-8a51733c9f26
+Slug: ca-di-voi-bardineto
+Nome: Ca di Voi
+Comune / Provincia: Bardineto
+Indirizzo: Frazione Caragna, 17020 Calizzano SV
+Coordinate: Lat 44.255294, Lng 8.120788
+Website: http://www.agriturismocadivoi.com/
+Email: 
+
+7236. Ca du 5°
+ID: 182516da-b76a-4a43-bf52-91bc76f7f795
+Slug: ca-du-5-bardineto
+Nome: Ca du 5°
+Comune / Provincia: Bardineto
+Indirizzo: Via Lavrio, 89, 17020 Bardino Nuovo SV
+Coordinate: Lat 44.193905, Lng 8.261561
+Website: —
+Email: 
+
+7237. Fratelli Oddone
+ID: d1a2b6f0-02f6-47f0-83eb-062b5bfd7fa6
+Slug: fratelli-oddone-bardineto
+Nome: Fratelli Oddone
+Comune / Provincia: Bardineto
+Indirizzo: Via Martino, 13, 17020 Bardineto SV
+Coordinate: Lat 44.192934, Lng 8.130867
+Website: http://agriturismooddone.com/
+Email: 
+
+7238. Tra cielo e mare
+ID: 68cbd5ff-31f8-4814-baa2-dae446a80b68
+Slug: tra-cielo-e-mare-bardineto
+Nome: Tra cielo e mare
+Comune / Provincia: Bardineto
+Indirizzo: Via S. Sebastiano, 20, 17027 Pietra Ligure SV
+Coordinate: Lat 44.154058, Lng 8.263762
+Website: —
+Email: 
+
+7239. Un Coccodrillo a Frassino
+ID: 43b308d9-4936-4fde-be4b-fff2f3101a00
+Slug: un-coccodrillo-a-frassino-bardineto
+Nome: Un Coccodrillo a Frassino
+Comune / Provincia: Bardineto
+Indirizzo: Via frassino, 22, 17020 Calizzano SV
+Coordinate: Lat 44.234911, Lng 8.13048
+Website: https://un-coccodrillo-a-frassino.italiabella.top/
+Email: 
+
+7240. Amaris Hotel - feeling Lake Garda
+ID: f4ca368d-db96-4d35-b10f-99490b0bc767
+Slug: amaris-hotel-feeling-lake-garda-bardolino
+Nome: Amaris Hotel - feeling Lake Garda
+Comune / Provincia: Bardolino
+Indirizzo: Via della Pace, 18, 37016 Garda VR
+Coordinate: Lat 45.580283, Lng 10.722021
+Website: http://www.amarishotel.it/?utm_source=GoogleMyBusiness&utm_medium=KlickWebsite&utm_campaign=GoogleMyBusiness
+Email: 
+
+7241. Art Hotel Ventaglio
+ID: c984cc59-1f89-40e3-9796-24634a433c8b
+Slug: art-hotel-ventaglio-bardolino
+Nome: Art Hotel Ventaglio
+Comune / Provincia: Bardolino
+Indirizzo: Via Campagnola, 52, 37011 Bardolino VR
+Coordinate: Lat 45.533866, Lng 10.729259
+Website: https://hventaglio.it/
+Email: 
+
+7242. B&B Lucy Bardolino
+ID: 5e12fada-e902-493a-8083-c305e9563c84
+Slug: b-b-lucy-bardolino-bardolino
+Nome: B&B Lucy Bardolino
+Comune / Provincia: Bardolino
+Indirizzo: Via Marconi, 28/1, 37011 Bardolino VR
+Coordinate: Lat 45.548768, Lng 10.723518
+Website: http://bblucybardolino.it/
+Email: 
+
+7243. Hotel Al Sole Bardolino
+ID: 8cf98802-1f0f-4014-814a-d6a73ae3c5ba
+Slug: hotel-al-sole-bardolino-bardolino
+Nome: Hotel Al Sole Bardolino
+Comune / Provincia: Bardolino
+Indirizzo: Via S. Colombano, 5, 37011 Bardolino VR
+Coordinate: Lat 45.553078, Lng 10.721756
+Website: http://www.alsole.it/
+Email: 
+
+7244. Hotel Bardolino
+ID: 820c912e-b4fe-4a99-a6e7-217f2f74f0aa
+Slug: hotel-bardolino-bardolino
+Nome: Hotel Bardolino
+Comune / Provincia: Bardolino
+Indirizzo: Via Santa Cristina, 19, 37011 Bardolino VR
+Coordinate: Lat 45.539171, Lng 10.726947
+Website: http://www.hbardolino.it/
+Email: 
+
+7245. Hotel Campagnola
+ID: 57544439-4349-4bf5-887f-15474e23d73b
+Slug: hotel-campagnola-bardolino
+Nome: Hotel Campagnola
+Comune / Provincia: Bardolino
+Indirizzo: Via Santa Cristina, 30, 37011 Bardolino VR
+Coordinate: Lat 45.539268, Lng 10.726236
+Website: http://www.hcampagnola.com/
+Email: 

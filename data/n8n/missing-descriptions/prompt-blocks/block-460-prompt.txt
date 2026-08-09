@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16066. Sicitaly Taormina
+ID: b6dec97c-e97a-4584-bb46-cd0f5d638539
+Slug: sicitaly-taormina-castelmola
+Nome: Sicitaly Taormina
+Comune / Provincia: Castelmola
+Indirizzo: Via Roberto Rimini, 98039 Taormina ME
+Coordinate: Lat 37.85324, Lng 15.279649
+Website: —
+Email: 
+
+16067. Splendid Hotel Taormina
+ID: d05d1de9-4cd0-4ce2-8ef9-30e2fb08cc2d
+Slug: splendid-hotel-taormina-castelmola
+Nome: Splendid Hotel Taormina
+Comune / Provincia: Castelmola
+Indirizzo: Via Dietro Cappuccini, 10, 98039 Taormina ME
+Coordinate: Lat 37.855923, Lng 15.287029
+Website: http://splendidhoteltaormina.com/
+Email: 
+
+16068. The View Luxury Apartments Taormina
+ID: 83a42658-6c25-4582-a331-17c0b8cbd4b1
+Slug: the-view-luxury-apartments-taormina-castelmola
+Nome: The View Luxury Apartments Taormina
+Comune / Provincia: Castelmola
+Indirizzo: Via Leonardo Da Vinci, 97c, 98039 Taormina ME
+Coordinate: Lat 37.85598, Lng 15.280912
+Website: https://theviewtaormina.it/
+Email: 
+
+16069. U Palmentu
+ID: 4f5f61ce-2fe7-4030-92a8-637ee03f30d5
+Slug: u-palmentu-castelmola
+Nome: U Palmentu
+Comune / Provincia: Castelmola
+Indirizzo: Tra l'Hotel Sole Castello e il Ristorante Al Saraceno, Via Madonna della Rocca, 14, 98039 Taormina ME
+Coordinate: Lat 37.854861, Lng 15.283483
+Website: http://www.bbpalmentu.com/
+Email: 
+
+16070. Villa Mabel Boutique Hotel
+ID: 4e9f9a5e-8698-4bf2-adc6-a1466833d5a3
+Slug: villa-mabel-boutique-hotel-castelmola
+Nome: Villa Mabel Boutique Hotel
+Comune / Provincia: Castelmola
+Indirizzo: Salita Acropoli, 11, 98039 Taormina ME
+Coordinate: Lat 37.851931, Lng 15.285911
+Website: https://villamabel.com/
+Email: 
+
+16071. Villa Regina Castelmola
+ID: f002fa2c-2bec-40d1-9639-9a5d7c914b0c
+Slug: villa-regina-castelmola-castelmola
+Nome: Villa Regina Castelmola
+Comune / Provincia: Castelmola
+Indirizzo: Via San Giorgio, 98030 Castelmola ME
+Coordinate: Lat 37.858709, Lng 15.278576
+Website: https://www.camerevillareginataormina.com/
+Email: 
+
+16072. B&B Rose Rosse - Sicily Holiday House
+ID: f20dca19-0cb8-4d62-a99e-38458b78e82a
+Slug: b-b-rose-rosse-sicily-holiday-house-casteltermini
+Nome: B&B Rose Rosse - Sicily Holiday House
+Comune / Provincia: Casteltermini
+Indirizzo: Via Manzoni, 32, 92020 Racalmuto AG
+Coordinate: Lat 37.409264, Lng 13.732407
+Website: https://www.roserosseracalmuto.it/
+Email: 
+
+16073. B&B Sogno e Luce
+ID: bb1d6f51-2cce-46c5-b1d3-3b2dbc74ec8a
+Slug: b-b-sogno-e-luce-casteltermini
+Nome: B&B Sogno e Luce
+Comune / Provincia: Casteltermini
+Indirizzo: Via Camillo Benso Conte di Cavour, 55, 92020 Racalmuto AG
+Coordinate: Lat 37.407231, Lng 13.735782
+Website: https://bbsogno7jfv.guesthouseit.top/
+Email: 
+
+16074. Agrisicilia
+ID: 4bd9a542-b43e-465b-a25a-d2d318f4f109
+Slug: agrisicilia-castelvetrano
+Nome: Agrisicilia
+Comune / Provincia: Castelvetrano
+Indirizzo: Via Leandro, Marinella di Selinunte, 91022 Castelvetrano TP
+Coordinate: Lat 37.605232, Lng 12.838631
+Website: http://agrisicilia.it/
+Email: 
+
+16075. B&B Camagna Country House
+ID: 078a5e6a-65eb-4e92-a04e-b15607b759fd
+Slug: b-b-camagna-country-house-castelvetrano
+Nome: B&B Camagna Country House
+Comune / Provincia: Castelvetrano
+Indirizzo: camagna country house, Strada Provinciale Partanna - Gibellina, 91028 Partanna TP
+Coordinate: Lat 37.74543, Lng 12.906231
+Website: http://www.camagnacountryhouse.it/
+Email: 
+
+16076. B&B del Corso
+ID: c43c2340-06d0-4b49-8365-8d76f48df2f9
+Slug: b-b-del-corso-castelvetrano
+Nome: B&B del Corso
+Comune / Provincia: Castelvetrano
+Indirizzo: Via Alessandro Manzoni, 4, 91029 Santa Ninfa TP
+Coordinate: Lat 37.771312, Lng 12.876176
+Website: —
+Email: 
+
+16077. B&B Il Tempio di Hera
+ID: b3a3236f-ecf5-4d73-b257-4684ab6e6003
+Slug: b-b-il-tempio-di-hera-castelvetrano
+Nome: B&B Il Tempio di Hera
+Comune / Provincia: Castelvetrano
+Indirizzo: S.S. 115, C/Da Garraffo, 16, 91022 Castelvetrano TP
+Coordinate: Lat 37.587253, Lng 12.838191
+Website: http://www.iltempiodihera.com/
+Email: 
+
+16078. Baitan - Custom Experience Hotel
+ID: 3dcf1ff2-80c8-4090-ae0f-f2e041691e54
+Slug: baitan-custom-experience-hotel-castelvetrano
+Nome: Baitan - Custom Experience Hotel
+Comune / Provincia: Castelvetrano
+Indirizzo: Contrada Spagnola, 337/D Bis, 91025 Marsala TP
+Coordinate: Lat 37.841645, Lng 12.479561
+Website: https://www.baitanhotel.com/
+Email: 
+
+16079. Bed and Breakfast San Giovanni
+ID: 6a19abc9-1cb5-47f4-a3d2-6e5a0048a45c
+Slug: bed-and-breakfast-san-giovanni-castelvetrano
+Nome: Bed and Breakfast San Giovanni
+Comune / Provincia: Castelvetrano
+Indirizzo: Via XXIV Maggio, 91022 Castelvetrano TP
+Coordinate: Lat 37.676453, Lng 12.793476
+Website: http://www.bbsangiovanni.it/
+Email: 
+
+16080. HOME DOLCE LUNA
+ID: 5a21d4a9-5594-4fda-96bb-1d8fe70835b0
+Slug: home-dolce-luna-castelvetrano
+Nome: HOME DOLCE LUNA
+Comune / Provincia: Castelvetrano
+Indirizzo: Via Pietro Luna, 91022 Castelvetrano TP
+Coordinate: Lat 37.682408, Lng 12.789697
+Website: http://castelvetrano-selinunte.com.es/
+Email: 
+
+16081. Hotel Alceste
+ID: 091d4ceb-58bc-4f6d-ad3e-dbac45ff6207
+Slug: hotel-alceste-castelvetrano
+Nome: Hotel Alceste
+Comune / Provincia: Castelvetrano
+Indirizzo: Via Alceste, 21, 91022 Marinella TP
+Coordinate: Lat 37.583598, Lng 12.84081
+Website: http://www.hotelalceste.it/
+Email: 
+
+16082. La Terrazza di Harmakhis
+ID: be1928c7-e12d-4ae8-a287-03c5d3c8f177
+Slug: la-terrazza-di-harmakhis-castelvetrano
+Nome: La Terrazza di Harmakhis
+Comune / Provincia: Castelvetrano
+Indirizzo: Bivio Cappuccini, Snc, 91028 Partanna TP
+Coordinate: Lat 37.716551, Lng 12.88766
+Website: —
+Email: 
+
+16083. Mahara Hotel
+ID: af3ba10c-4111-4cd8-b44d-e44f1dda0f3c
+Slug: mahara-hotel-castelvetrano
+Nome: Mahara Hotel
+Comune / Provincia: Castelvetrano
+Indirizzo: Lungomare S. Vito, 3, 91026 Mazara del Vallo TP
+Coordinate: Lat 37.647595, Lng 12.597218
+Website: http://maharahotelwellness.com/
+Email: 
+
+16084. Palazzo al Carmine Dimora Storica
+ID: 8c0e52a2-56f7-4a3e-b9ac-ced17622f2e0
+Slug: palazzo-al-carmine-dimora-storica-castelvetrano
+Nome: Palazzo al Carmine Dimora Storica
+Comune / Provincia: Castelvetrano
+Indirizzo: Via Giacomo Leopardi, 25, 91022 Castelvetrano TP
+Coordinate: Lat 37.681328, Lng 12.791332
+Website: http://www.palazzoalcarmine.it/
+Email: 
+
+16085. Affittacamere Bellavista
+ID: 3b42a950-50a4-4a4f-a444-545d1cc7e4fe
+Slug: affittacamere-bellavista-castiglione-di-sicilia
+Nome: Affittacamere Bellavista
+Comune / Provincia: Castiglione di Sicilia
+Indirizzo: Via S. Francesco, 95012 Castiglione di Sicilia CT
+Coordinate: Lat 37.879756, Lng 15.11868
+Website: —
+Email: 
+
+16086. Agriturismo, Bedandbreakfast, Ghiritina
+ID: 774883e8-58a2-4d0c-8c17-52d49f727e66
+Slug: agriturismo-bedandbreakfast-ghiritina-castiglione-di-sicilia
+Nome: Agriturismo, Bedandbreakfast, Ghiritina
+Comune / Provincia: Castiglione di Sicilia
+Indirizzo: Contrada Ghiritina, 98034 Francavilla di Sicilia ME
+Coordinate: Lat 37.90031, Lng 15.159566
+Website: https://ghiritina.albergatore.top/
+Email: 
+
+16087. Animosa Suites
+ID: 7fdddf3c-d422-4909-823a-37ccf77c854b
+Slug: animosa-suites-castiglione-di-sicilia
+Nome: Animosa Suites
+Comune / Provincia: Castiglione di Sicilia
+Indirizzo: Via Guglielmo Marconi, 95012 Castiglione di Sicilia CT
+Coordinate: Lat 37.879726, Lng 15.12307
+Website: http://animosasuites.webnode.it/
+Email: 
+
+16088. B&B - Country house- Il Tanaceto
+ID: d8840418-861a-421a-8e0d-1c573ce7426f
+Slug: b-b-country-house-il-tanaceto-castiglione-di-sicilia
+Nome: B&B - Country house- Il Tanaceto
+Comune / Provincia: Castiglione di Sicilia
+Indirizzo: Contrada Nemmi, 95012 Castiglione di Sicilia CT
+Coordinate: Lat 37.890611, Lng 15.080532
+Website: http://www.iltanaceto.it/
+Email: 
+
+16089. B&B Le Vie del Borgo
+ID: 9ab1c6f2-2b60-401b-8907-a1988bcb74c3
+Slug: b-b-le-vie-del-borgo-castiglione-di-sicilia
+Nome: B&B Le Vie del Borgo
+Comune / Provincia: Castiglione di Sicilia
+Indirizzo: via maggiore baracca, 5, 95012 Castiglione di Sicilia CT
+Coordinate: Lat 37.883274, Lng 15.122724
+Website: https://www.bella-sicilia.it/bb-le-vie-del-borgo/
+Email: 
+
+16090. CarMa Luxury Rooms
+ID: a2ca0872-eab2-48b3-9d49-2e4db51e4c78
+Slug: carma-luxury-rooms-castiglione-di-sicilia
+Nome: CarMa Luxury Rooms
+Comune / Provincia: Castiglione di Sicilia
+Indirizzo: Via Gorizia, 6, 95015 Linguaglossa CT
+Coordinate: Lat 37.84144, Lng 15.142896
+Website: https://www.carmarooms.it/
+Email: 
+
+16091. Casa Fiore del Borgo
+ID: 5f9372fa-3d1c-4a61-8ef9-2d62152bc796
+Slug: casa-fiore-del-borgo-castiglione-di-sicilia
+Nome: Casa Fiore del Borgo
+Comune / Provincia: Castiglione di Sicilia
+Indirizzo: Via Dante Alighieri, 8, 95012 Castiglione di Sicilia CT
+Coordinate: Lat 37.882964, Lng 15.122083
+Website: https://www.casafioredelborgo.it/
+Email: 
+
+16092. Casa Fiore nella Roccia
+ID: db2c5102-45b2-485d-9afc-f364317377a2
+Slug: casa-fiore-nella-roccia-castiglione-di-sicilia
+Nome: Casa Fiore nella Roccia
+Comune / Provincia: Castiglione di Sicilia
+Indirizzo: Via Madonna della Catena, 82, 95012 Castiglione di Sicilia CT
+Coordinate: Lat 37.883681, Lng 15.12262
+Website: https://www.sognidiroccia.it/
+Email: 
+
+16093. Casale Romano eco hotel
+ID: 641449f7-8a93-4065-8699-a65abcaa4a1f
+Slug: casale-romano-eco-hotel-castiglione-di-sicilia
+Nome: Casale Romano eco hotel
+Comune / Provincia: Castiglione di Sicilia
+Indirizzo: ss 185 km 55, 6, 98030 Motta Camastra ME
+Coordinate: Lat 37.876138, Lng 15.182832
+Website: https://www.casaleromano.it/
+Email: 
+
+16094. Cento Tarì Guest House
+ID: 46ef620d-7cf8-408b-888f-358e8983d470
+Slug: cento-tari-guest-house-castiglione-di-sicilia
+Nome: Cento Tarì Guest House
+Comune / Provincia: Castiglione di Sicilia
+Indirizzo: Via Regina Margherita, 28, 95012 Castiglione di Sicilia CT
+Coordinate: Lat 37.882221, Lng 15.121701
+Website: http://www.centotari.com/
+Email: 
+
+16095. Hotel Federico II
+ID: 5496f1e5-7dfa-464c-9acf-c8e305fa436d
+Slug: hotel-federico-ii-castiglione-di-sicilia
+Nome: Hotel Federico II
+Comune / Provincia: Castiglione di Sicilia
+Indirizzo: Via Maggiore Baracca, 2, 95012 Castiglione di Sicilia CT
+Coordinate: Lat 37.88315, Lng 15.122771
+Website: http://www.hotelfedericosecondo.com/
+Email: 
+
+16096. Hotel Florio
+ID: 8c35601c-2955-413f-8c92-64d89d1eda2b
+Slug: hotel-florio-castiglione-di-sicilia
+Nome: Hotel Florio
+Comune / Provincia: Castiglione di Sicilia
+Indirizzo: Via Biblioteca Villadicanense, 10, 95012 Castiglione di Sicilia CT
+Coordinate: Lat 37.882917, Lng 15.122534
+Website: https://hotel-florio.italyforever.top/
+Email: 
+
+16097. Il Glicine
+ID: 40f87d18-e470-413a-89fe-88cb1f36b6e6
+Slug: il-glicine-castiglione-di-sicilia
+Nome: Il Glicine
+Comune / Provincia: Castiglione di Sicilia
+Indirizzo: Via S. Giuseppe, 8, 95017 Piedimonte Etneo CT
+Coordinate: Lat 37.81381, Lng 15.16041
+Website: http://www.etnaglicine.it/
+Email: 
+
+16098. L’ Arco dei Sogni
+ID: a8b9e0fc-1d22-4663-bd03-0aae081baed4
+Slug: l-arco-dei-sogni-castiglione-di-sicilia
+Nome: L’ Arco dei Sogni
+Comune / Provincia: Castiglione di Sicilia
+Indirizzo: Via Posta Vecchia, 1, 98030 Malvagna ME
+Coordinate: Lat 37.918028, Lng 15.055831
+Website: http://www.arcodeisogni.com/
+Email: 
+
+16099. Mareneve Resort
+ID: 9eca89a5-5d39-476b-b724-827ee75eba86
+Slug: mareneve-resort-castiglione-di-sicilia
+Nome: Mareneve Resort
+Comune / Provincia: Castiglione di Sicilia
+Indirizzo: Via Mareneve, 63, 95015 Linguaglossa CT
+Coordinate: Lat 37.839392, Lng 15.131693
+Website: https://www.mareneveresort.it/it/
+Email: 
+
+16100. Terralcantara la Casa delle Monache
+ID: 0263e109-9ddb-4fbc-934e-83fecaf4c0eb
+Slug: terralcantara-la-casa-delle-monache-castiglione-di-sicilia
+Nome: Terralcantara la Casa delle Monache
+Comune / Provincia: Castiglione di Sicilia
+Indirizzo: Contrada Finaita, 98034 Graniti ME
+Coordinate: Lat 37.870434, Lng 15.200248
+Website: https://www.casadellemonache.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness
+Email: 

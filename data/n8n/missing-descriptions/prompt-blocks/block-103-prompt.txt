@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+3571. Hotel Bellavista
+ID: 857e467e-1d2e-4767-bb25-6483bc65e2bb
+Slug: hotel-bellavista-annone-di-brianza
+Nome: Hotel Bellavista
+Comune / Provincia: Annone di Brianza
+Indirizzo: Frazione Parè, 87, 23868 Valmadrera LC
+Coordinate: Lat 45.863433, Lng 9.365759
+Website: http://www.hbvl.it/
+Email: 
+
+3572. Hotel Griso Collection
+ID: 19d09195-4aee-484b-a5c8-3fc714826591
+Slug: hotel-griso-collection-annone-di-brianza
+Nome: Hotel Griso Collection
+Comune / Provincia: Annone di Brianza
+Indirizzo: Viale Italia, 24, 23864 Malgrate LC
+Coordinate: Lat 45.849461, Lng 9.381945
+Website: http://www.griso.info/
+Email: 
+
+3573. Hotel Moderno
+ID: 75c15120-d264-409c-9f86-f38496099672
+Slug: hotel-moderno-annone-di-brianza
+Nome: Hotel Moderno
+Comune / Provincia: Annone di Brianza
+Indirizzo: Piazza Armando Diaz, 5, 23900 Lecco LC
+Coordinate: Lat 45.85541, Lng 9.3928
+Website: https://www.hotelmodernolecco.com/
+Email: 
+
+3574. Hotel Nuovo
+ID: 17e9dc77-3373-44db-8bd9-724348dbad49
+Slug: hotel-nuovo-annone-di-brianza
+Nome: Hotel Nuovo
+Comune / Provincia: Annone di Brianza
+Indirizzo: Via Statale, 1122, 23852 Lecco LC
+Coordinate: Lat 45.811416, Lng 9.400365
+Website: http://www.hotelnuovo.com/
+Email: 
+
+3575. Hotel Ristorante Parco Belvedere
+ID: efb6f7bc-f792-4afe-8392-37f1e69d6310
+Slug: hotel-ristorante-parco-belvedere-annone-di-brianza
+Nome: Hotel Ristorante Parco Belvedere
+Comune / Provincia: Annone di Brianza
+Indirizzo: Via Belvedere, 50, 23855 Pescate LC
+Coordinate: Lat 45.823345, Lng 9.392488
+Website: http://www.parcobelvedere.it/
+Email: 
+
+3576. Hotel Ristorante Pizzeria Caviate
+ID: 3af42e4b-a182-4722-939c-0ac84c80396e
+Slug: hotel-ristorante-pizzeria-caviate-annone-di-brianza
+Nome: Hotel Ristorante Pizzeria Caviate
+Comune / Provincia: Annone di Brianza
+Indirizzo: Lungolario Piave, 17, 23900 Lecco LC
+Coordinate: Lat 45.867549, Lng 9.379824
+Website: http://www.caviate.it/
+Email: 
+
+3577. HSM - Hotel San Martino
+ID: 42491b33-8140-470c-b41a-3c4d4bdb6f7c
+Slug: hsm-hotel-san-martino-annone-di-brianza
+Nome: HSM - Hotel San Martino
+Comune / Provincia: Annone di Brianza
+Indirizzo: Via Europa, 4, 23846 Garbagnate Monastero LC
+Coordinate: Lat 45.771076, Lng 9.289076
+Website: https://www.hotelsmartino.it/
+Email: 
+
+3578. Parini Hotel
+ID: d54ef809-f584-42de-8cc3-659060a27ea8
+Slug: parini-hotel-annone-di-brianza
+Nome: Parini Hotel
+Comune / Provincia: Annone di Brianza
+Indirizzo: Piazza Ospedale, 4, 23842 Bosisio Parini LC
+Coordinate: Lat 45.802581, Lng 9.290564
+Website: http://www.parinihotel.it/
+Email: 
+
+3579. Red's Redaelli Hotel
+ID: a0ef3ce9-c5a7-422b-bdf4-a7a2253012b9
+Slug: red-s-redaelli-hotel-annone-di-brianza
+Nome: Red's Redaelli Hotel
+Comune / Provincia: Annone di Brianza
+Indirizzo: Via Don Rinaldo Beretta, 24, 23891 Barzanò LC
+Coordinate: Lat 45.738252, Lng 9.3192
+Website: http://www.redshotel.com/
+Email: 
+
+3580. Agriturismo Quadrifoglio Relax
+ID: 89655c05-50eb-46f2-9822-c9a442fd060c
+Slug: agriturismo-quadrifoglio-relax-annone-veneto
+Nome: Agriturismo Quadrifoglio Relax
+Comune / Provincia: Annone Veneto
+Indirizzo: Via G. B. Giustinian, 7, 30027 San Donà di Piave VE
+Coordinate: Lat 45.671698, Lng 12.622416
+Website: https://www.agriturismoquadrifogliorelax.com/
+Email: 
+
+3581. Albergo Leon D'Oro
+ID: 1ade94d9-cdc5-43ff-90b8-2feecf2cdc32
+Slug: albergo-leon-d-oro-annone-veneto
+Nome: Albergo Leon D'Oro
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Roma, 2, 30020 Noventa di Piave VE
+Coordinate: Lat 45.660947, Lng 12.529334
+Website: http://www.leondorohotel.com/
+Email: 
+
+3582. Albergo Ristorante Disarò
+ID: 544766c0-6186-49c8-a8aa-b3df2bf7073a
+Slug: albergo-ristorante-disaro-annone-veneto
+Nome: Albergo Ristorante Disarò
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Riviera Antonio Scarpa, 1, 31045 Motta di Livenza TV
+Coordinate: Lat 45.777208, Lng 12.612298
+Website: —
+Email: 
+
+3583. Base Hotel
+ID: 2e717a8e-6976-4e23-92b3-3729c09f06c8
+Slug: base-hotel-annone-veneto
+Nome: Base Hotel
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Rialto, 8, 30020 Noventa di Piave VE
+Coordinate: Lat 45.66695, Lng 12.536465
+Website: http://www.basehotel.it/
+Email: 
+
+3584. Borgo Stalis Resort
+ID: 9109aa56-30c5-4f3d-9efe-e7fe19d31456
+Slug: borgo-stalis-resort-annone-veneto
+Nome: Borgo Stalis Resort
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Stalis, 11, 33079 Sesto al Reghena PN
+Coordinate: Lat 45.85048, Lng 12.861768
+Website: https://borgostalis.com/
+Email: 
+
+3585. Cavallo Hotel
+ID: 5e8ff0da-eeca-4ed5-9d25-4c08392bfdfe
+Slug: cavallo-hotel-annone-veneto
+Nome: Cavallo Hotel
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Rialto, 24, 30020 Noventa di Piave VE
+Coordinate: Lat 45.66588, Lng 12.535641
+Website: https://noventa.cavallohotels.com/
+Email: 
+
+3586. Hotel Al Barco
+ID: 345983ba-1d26-4eb3-a228-139aba34c140
+Slug: hotel-al-barco-annone-veneto
+Nome: Hotel Al Barco
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Morer delle Anime, 4, 30029 Corbolone VE
+Coordinate: Lat 45.744396, Lng 12.672568
+Website: http://www.hotelalbarco.it/
+Email: 
+
+3587. Hotel Noventa
+ID: 90665bc7-1542-41a1-93d7-cca1eaa20488
+Slug: hotel-noventa-annone-veneto
+Nome: Hotel Noventa
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Calnova, 124, 30020 Noventa di Piave VE
+Coordinate: Lat 45.666359, Lng 12.534897
+Website: http://www.noventahotel.it/
+Email: 
+
+3588. Hotel Patriarca Wellness - Ristorante La Piramide
+ID: 7cb766f5-afbe-4a90-b914-7fa3b05f4ddc
+Slug: hotel-patriarca-wellness-ristorante-la-piramide-annone-veneto
+Nome: Hotel Patriarca Wellness - Ristorante La Piramide
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Antonio Pascatti, 6, 33078 San Vito al Tagliamento PN
+Coordinate: Lat 45.915335, Lng 12.854698
+Website: http://www.hotelpatriarca.it/
+Email: 
+
+3589. Hotel Ristorante Al Gabbiano
+ID: 49eb12cf-3956-4e41-9daf-92c65eae26c0
+Slug: hotel-ristorante-al-gabbiano-annone-veneto
+Nome: Hotel Ristorante Al Gabbiano
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Vittoria, 45, 31047 Levada TV
+Coordinate: Lat 45.740979, Lng 12.483975
+Website: http://www.algabbiano.it/
+Email: 
+
+3590. Hotel Ristorante Casalta
+ID: c32d9fa3-062c-4651-9208-f7648b9bb581
+Slug: hotel-ristorante-casalta-annone-veneto
+Nome: Hotel Ristorante Casalta
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Calnova, 170, 30020 Noventa di Piave VE
+Coordinate: Lat 45.680022, Lng 12.552341
+Website: http://www.hotelcasalta.eu/
+Email: 
+
+3591. Hotel Ristorante da Gigi
+ID: a53d7964-2eaf-457a-9e33-7acd777b31e4
+Slug: hotel-ristorante-da-gigi-annone-veneto
+Nome: Hotel Ristorante da Gigi
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Fosson, 30, 30029 San Stino di Livenza VE
+Coordinate: Lat 45.73324, Lng 12.687934
+Website: https://www.hoteldagigi.it/it/
+Email: 
+
+3592. Hotel Ristorante Villa Monica
+ID: b0a10737-8ac2-4415-b3c5-a5908bd3a63c
+Slug: hotel-ristorante-villa-monica-annone-veneto
+Nome: Hotel Ristorante Villa Monica
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Angelo Dino de Carli, 26, 33080 Prata di Pordenone PN
+Coordinate: Lat 45.89929, Lng 12.60118
+Website: https://www.hotelvillamonica.com/
+Email: 
+
+3593. Hotel Spessotto
+ID: 686f80dd-a417-4929-87da-948ae37575b5
+Slug: hotel-spessotto-annone-veneto
+Nome: Hotel Spessotto
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Roma, 2, 30026 Portogruaro VE
+Coordinate: Lat 45.776633, Lng 12.836769
+Website: http://www.hotelspessotto.it/?utm_source=googlemaps&utm_medium=mybusiness&utm_campaign=mybusiness
+Email: 
+
+3594. Hotel Sport Portogruaro
+ID: d1df5b4b-f057-4ed3-85d4-55cab7534f02
+Slug: hotel-sport-portogruaro-annone-veneto
+Nome: Hotel Sport Portogruaro
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Stadio, 4, 30026 Portogruaro VE
+Coordinate: Lat 45.774212, Lng 12.833279
+Website: http://www.hotelsportportogruaro.it/
+Email: 
+
+3595. Il Cecchini Hotel
+ID: 4ad6f0db-d836-4c9e-a997-c2843c4c8541
+Slug: il-cecchini-hotel-annone-veneto
+Nome: Il Cecchini Hotel
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Sant' Antonio, 9, 33087 Pasiano di Pordenone PN
+Coordinate: Lat 45.877651, Lng 12.611342
+Website: http://www.ilcecchini.it/
+Email: 
+
+3596. Omnia Hotel
+ID: 4e807c47-3080-4a7a-87c4-e0945ffa5721
+Slug: omnia-hotel-annone-veneto
+Nome: Omnia Hotel
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Rialto, 1, 30020 Noventa di Piave VE
+Coordinate: Lat 45.667413, Lng 12.537498
+Website: https://omniahotel.com/?utm_source=google&utm_medium=mybusiness&utm_campaign=mybusiness
+Email: 
+
+3597. Palazzo Paradiso Hotel
+ID: 89c5e425-d6ba-4a33-8ed2-95c90e58de10
+Slug: palazzo-paradiso-hotel-annone-veneto
+Nome: Palazzo Paradiso Hotel
+Comune / Provincia: Annone Veneto
+Indirizzo: Piazza Umberto I, 39, 31040 Meduna di Livenza TV
+Coordinate: Lat 45.806551, Lng 12.612612
+Website: https://www.palazzoparadiso.it/
+Email: 
+
+3598. Park Hotel Villa Leon d'Oro
+ID: 62c65b82-17c3-4f91-9367-28e0bf958ccf
+Slug: park-hotel-villa-leon-d-oro-annone-veneto
+Nome: Park Hotel Villa Leon d'Oro
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Romanziol, 5/7, 30020 Venezia - Noventa di Piave VE
+Coordinate: Lat 45.662628, Lng 12.528058
+Website: http://www.leondorohotel.com/
+Email: 
+
+3599. Villa Foscarini Cornaro
+ID: 22b74bd6-1342-4f9f-a2ac-fceee9755f12
+Slug: villa-foscarini-cornaro-annone-veneto
+Nome: Villa Foscarini Cornaro
+Comune / Provincia: Annone Veneto
+Indirizzo: Via Palazzi, 10, 31040 Gorgo al Monticano TV
+Coordinate: Lat 45.779514, Lng 12.552364
+Website: https://www.villafoscarinicornaro.net/
+Email: 
+
+3600. B&B Antares
+ID: d9b5bdf4-7b2b-4942-8ac4-6c5dacce5867
+Slug: b-b-antares-anoia
+Nome: B&B Antares
+Comune / Provincia: Anoia
+Indirizzo: Via Giuseppe Mazzini, 46, 89022 Cittanova RC
+Coordinate: Lat 38.351951, Lng 16.076658
+Website: https://sherenstravelexperience.com/b-amp-b-antares-cittanova-italy
+Email: 
+
+3601. B&B Bed and breakfast Campo Sportivo
+ID: b3c0b6b7-a211-4b2f-9226-73e64d12eeb4
+Slug: b-b-bed-and-breakfast-campo-sportivo-anoia
+Nome: B&B Bed and breakfast Campo Sportivo
+Comune / Provincia: Anoia
+Indirizzo: V. Giacomo Matteotti, 27, 89029 Taurianova RC
+Coordinate: Lat 38.353194, Lng 16.020504
+Website: https://www.bebcamposportivo.it/
+Email: 
+
+3602. B&B La Villa Cittanova
+ID: 19201503-9a3a-4754-970f-cf81ed78b818
+Slug: b-b-la-villa-cittanova-anoia
+Nome: B&B La Villa Cittanova
+Comune / Provincia: Anoia
+Indirizzo: Via Vincenzo Zito, 66, 89022 Cittanova RC
+Coordinate: Lat 38.353945, Lng 16.084859
+Website: https://www.lavilla.academy/accoglienza/
+Email: 
+
+3603. Casa Matilde b&b
+ID: c5134306-3e66-4cff-9e49-ea5e6457b27d
+Slug: casa-matilde-b-b-anoia
+Nome: Casa Matilde b&b
+Comune / Provincia: Anoia
+Indirizzo: Corso Giuseppe Mazzini, 18, 89024 Polistena RC
+Coordinate: Lat 38.405024, Lng 16.079808
+Website: http://www.casamatildebb.it/
+Email: 
+
+3604. Elpidios Galatro Terme
+ID: b93b2395-b66a-41e6-b950-105bcdcd8a64
+Slug: elpidios-galatro-terme-anoia
+Nome: Elpidios Galatro Terme
+Comune / Provincia: Anoia
+Indirizzo: Via Madonna, 77, 89054 Galatro RC
+Coordinate: Lat 38.459569, Lng 16.111167
+Website: https://www.elpidios.it/
+Email: 
+
+3605. Hotel & Village La Porta Del Sole
+ID: 501878bf-01b5-40a1-8f60-55abb4193efb
+Slug: hotel-village-la-porta-del-sole-anoia
+Nome: Hotel & Village La Porta Del Sole
+Comune / Provincia: Anoia
+Indirizzo: Via Boccaccio, 89026 San Ferdinando RC
+Coordinate: Lat 38.494231, Lng 15.919498
+Website: https://www.laportadelsole.it/
+Email: 

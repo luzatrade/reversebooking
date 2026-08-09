@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+2276. Tenuta dell'Argento
+ID: 0d14048b-50f1-4abe-b775-0754a47f9c4d
+Slug: tenuta-dell-argento-allumiere
+Nome: Tenuta dell'Argento
+Comune / Provincia: Allumiere
+Indirizzo: Via Colline dell'Argento, 00053 Civitavecchia RM
+Coordinate: Lat 42.105331, Lng 11.850147
+Website: https://tenutadellargento.com/
+Email: 
+
+2277. Agriturismo Castello Beccaria
+ID: 7675790e-b38d-4ac3-a6e9-38fae1ba88cc
+Slug: agriturismo-castello-beccaria-alluvioni-piovera
+Nome: Agriturismo Castello Beccaria
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: Piazza Paltineri, 12, 27037 Pieve del Cairo PV
+Coordinate: Lat 45.050381, Lng 8.805332
+Website: http://www.castellobeccaria.it/
+Email: 
+
+2278. Albergo La Chiocciola. Pizzeria Ristorante
+ID: 5ce431fe-ccd8-421c-886e-e3598ace49f7
+Slug: albergo-la-chiocciola-pizzeria-ristorante-alluvioni-piovera
+Nome: Albergo La Chiocciola. Pizzeria Ristorante
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: Via Dante Alighieri, 35, 15045 Sale AL
+Coordinate: Lat 44.979428, Lng 8.809223
+Website: http://booking.com/
+Email: 
+
+2279. Albergo Ristorante Cannone D'Oro
+ID: 0b3b82d3-a963-42e5-b6e1-ed0c08a16b53
+Slug: albergo-ristorante-cannone-d-oro-alluvioni-piovera
+Nome: Albergo Ristorante Cannone D'Oro
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: Via Dante Alighieri, 6, 15045 Sale AL
+Coordinate: Lat 44.980799, Lng 8.80837
+Website: http://www.albergoristorantecannonedoro.it/
+Email: 
+
+2280. Albergo Ristorante Dal Furlan
+ID: d4f36154-fc3e-4f76-a45c-e770820d9772
+Slug: albergo-ristorante-dal-furlan-alluvioni-piovera
+Nome: Albergo Ristorante Dal Furlan
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: Piazza Cesare Battisti, 16, 15122 San Giuliano AL
+Coordinate: Lat 44.889252, Lng 8.761818
+Website: http://www.hoteldalfurlanalessandria.com/
+Email: 
+
+2281. Antica Casa Santa Maria Giardino
+ID: 5d4c1abb-a4df-4438-8c80-cb9cbaf74e94
+Slug: antica-casa-santa-maria-giardino-alluvioni-piovera
+Nome: Antica Casa Santa Maria Giardino
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: Str. Monte Valenza, 6, 15040 Pomaro Monferrato AL
+Coordinate: Lat 45.060439, Lng 8.597613
+Website: https://www.booking.com/hotel/it/antica-casa-santa-maria-pomaro-monferrato.it.html
+Email: 
+
+2282. B&B Antico Pioppo
+ID: ca7b87ba-793f-48ff-8aa4-e148deffbb33
+Slug: b-b-antico-pioppo-alluvioni-piovera
+Nome: B&B Antico Pioppo
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: Via Orti Grandi, 21, 15045 Sale AL
+Coordinate: Lat 44.987221, Lng 8.796083
+Website: http://www.anticopioppo.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=13143922205798222791
+Email: 
+
+2283. B&B LA CASCINA
+ID: fdef89c9-4e05-4d46-8ec5-c62058652ab6
+Slug: b-b-la-cascina-alluvioni-piovera
+Nome: B&B LA CASCINA
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: Via S. Giuliano Nuovo, 97, 15122 Alessandria AL
+Coordinate: Lat 44.915304, Lng 8.703118
+Website: —
+Email: 
+
+2284. B&B La Corte dei Samidagi
+ID: 7362d635-3f35-4c82-9cbf-efb54fdffa54
+Slug: b-b-la-corte-dei-samidagi-alluvioni-piovera
+Nome: B&B La Corte dei Samidagi
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: Str. per Montecastello, 3, 15040 Pietra Marazzi AL
+Coordinate: Lat 44.946963, Lng 8.67364
+Website: https://alisastraveltips.com/abba-italy
+Email: 
+
+2285. B&B La Cortevecchia
+ID: d7d4e415-0dc9-424e-8b8e-67a301a348ab
+Slug: b-b-la-cortevecchia-alluvioni-piovera
+Nome: B&B La Cortevecchia
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: via Giovanni Poggio, 2, 15122 Lobbi AL
+Coordinate: Lat 44.928926, Lng 8.716825
+Website: http://www.lacortevecchiabandb.it/
+Email: 
+
+2286. B&B Le Piote
+ID: c0310eb4-e630-407e-9d86-c7b31e327390
+Slug: b-b-le-piote-alluvioni-piovera
+Nome: B&B Le Piote
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: SCENDERE IN V. VALMIGLIARO, Via Valmigliaro, 8R, 15122 Valle San Bartolomeo AL
+Coordinate: Lat 44.972181, Lng 8.639424
+Website: http://lepiote.it/
+Email: 
+
+2287. Bed & Breakfast “All’Angolo” Sale
+ID: 2b4f4308-3609-43f7-b1ae-c10200c65427
+Slug: bed-breakfast-all-angolo-sale-alluvioni-piovera
+Nome: Bed & Breakfast “All’Angolo” Sale
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: Piazza Giuseppe Garibaldi, 19, 15045 Sale AL
+Coordinate: Lat 44.980976, Lng 8.808148
+Website: https://www.booking.com/hotel/it/all-angolo.it.html
+Email: 
+
+2288. Cà degli Ovi
+ID: 8eb5426a-87d8-4bae-b46c-f6e9a7a33765
+Slug: ca-degli-ovi-alluvioni-piovera
+Nome: Cà degli Ovi
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: STRADA DELLE ROCCHE, 4, 15048 Valenza AL
+Coordinate: Lat 45.053859, Lng 8.610358
+Website: https://www.cadegliovi.com/
+Email: 
+
+2289. Cascina dei Gelsi
+ID: dee51222-3037-4aa8-a28b-dc0e14492d5a
+Slug: cascina-dei-gelsi-alluvioni-piovera
+Nome: Cascina dei Gelsi
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: Via Cerchetta, 12, 15045 Gerbidi AL
+Coordinate: Lat 44.95386, Lng 8.808196
+Website: —
+Email: 
+
+2290. La Fornace | agriturismo | holiday farmhouse
+ID: feec3abc-039a-443a-8721-68ef2ed9d528
+Slug: la-fornace-agriturismo-holiday-farmhouse-alluvioni-piovera
+Nome: La Fornace | agriturismo | holiday farmhouse
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: V.le Teresa Michel, 52, 15121 Alessandria AL
+Coordinate: Lat 44.92001, Lng 8.634418
+Website: http://www.lafornacedialessandria.it/
+Email: 
+
+2291. La Residenza Del Vescovo
+ID: 15a4a495-35d8-4a50-9c70-45edfa6d1377
+Slug: la-residenza-del-vescovo-alluvioni-piovera
+Nome: La Residenza Del Vescovo
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: Via M. A. Corti, 79, 27030 Gambarana PV
+Coordinate: Lat 45.028093, Lng 8.760413
+Website: —
+Email: 
+
+2292. Marinella G.H.
+ID: 93991889-bd3e-4576-8d62-9c7b6b1d9bd3
+Slug: marinella-g-h-alluvioni-piovera
+Nome: Marinella G.H.
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: Via Cavour, 103, 27056 Cornale PV
+Coordinate: Lat 45.042291, Lng 8.916201
+Website: https://www.marinellagh.it/
+Email: 
+
+2293. Monferrato Inn
+ID: a893848c-090a-4985-bfd6-b859bb4261b8
+Slug: monferrato-inn-alluvioni-piovera
+Nome: Monferrato Inn
+Comune / Provincia: Alluvioni Piovera
+Indirizzo: Via degli Orti, 9, 15040 Rivarone AL
+Coordinate: Lat 44.976274, Lng 8.71535
+Website: —
+Email: 
+
+2294. Agriturismo Al Robale
+ID: bc177969-7c35-4bf8-9cb3-fdc0f34240c2
+Slug: agriturismo-al-robale-almenno-san-bartolomeo
+Nome: Agriturismo Al Robale
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Cabinetti, 2, 24030 Almenno San Bartolomeo BG
+Coordinate: Lat 45.757297, Lng 9.556388
+Website: https://agriturismo-al-robale.albergo.top/
+Email: 
+
+2295. b&b Al vecchio Molino
+ID: 60c2c296-947f-47dc-b178-8917987115c4
+Slug: b-b-al-vecchio-molino-almenno-san-bartolomeo
+Nome: b&b Al vecchio Molino
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Guglielmo Marconi, 16, 24030 Valbrembo BG
+Coordinate: Lat 45.713827, Lng 9.595524
+Website: —
+Email: 
+
+2296. B&B da Isa di Pesenti Isabella
+ID: c28a89ac-3aac-4380-b99f-4dff7658f522
+Slug: b-b-da-isa-di-pesenti-isabella-almenno-san-bartolomeo
+Nome: B&B da Isa di Pesenti Isabella
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Roma, 87/A, 24010 Sedrina BG
+Coordinate: Lat 45.781274, Lng 9.622444
+Website: https://beb.it/daisasedrina
+Email: 
+
+2297. Bed and Breakfast Cascina Valgrande
+ID: e39ccf48-8096-4de5-8043-e1b5f81935d9
+Slug: bed-and-breakfast-cascina-valgrande-almenno-san-bartolomeo
+Nome: Bed and Breakfast Cascina Valgrande
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Secchia 50, Via Secchia, 46, 24030 Palazzago BG
+Coordinate: Lat 45.739262, Lng 9.549098
+Website: https://it-it.facebook.com/BBvalgrand/
+Email: 
+
+2298. Bergamum F.L.
+ID: 898c303e-6490-490d-ae52-c61cb2bd21af
+Slug: bergamum-f-l-almenno-san-bartolomeo
+Nome: Bergamum F.L.
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Burattini, 5, 24123 Bergamo BG
+Coordinate: Lat 45.717689, Lng 9.661954
+Website: http://www.bergamum.it/
+Email: 
+
+2299. Bio&B Cascina Montebello
+ID: 94fcc15e-1cf8-4930-9641-8e5deb4d7197
+Slug: bio-b-cascina-montebello-almenno-san-bartolomeo
+Nome: Bio&B Cascina Montebello
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Montebello, 4, 24030 Palazzago BG
+Coordinate: Lat 45.740585, Lng 9.559882
+Website: https://mariarecommends.eu/bio-amp-b-cascina-montebello-italy
+Email: 
+
+2300. Cà Baetti L’antica Corte Foresteria
+ID: 3ab77cb1-49ec-4108-aa83-9ce14e54e965
+Slug: ca-baetti-l-antica-corte-foresteria-almenno-san-bartolomeo
+Nome: Cà Baetti L’antica Corte Foresteria
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Ca' Baetti, 8, 24030 Roncola BG
+Coordinate: Lat 45.779488, Lng 9.562384
+Website: http://www.roncolabeb.it/
+Email: 
+
+2301. Ca' del Cuco
+ID: f2291588-e301-4b00-8e98-ab3924b7656b
+Slug: ca-del-cuco-almenno-san-bartolomeo
+Nome: Ca' del Cuco
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Salvano, 24, 24030 Palazzago BG
+Coordinate: Lat 45.741755, Lng 9.553538
+Website: http://www.cadelcuco.it/
+Email: 
+
+2302. Casa di Giuly BnB Guest House
+ID: 6f481fba-e126-427d-a39a-e6e5328ce6f0
+Slug: casa-di-giuly-bnb-guest-house-almenno-san-bartolomeo
+Nome: Casa di Giuly BnB Guest House
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Sigismondi, 40B, 24018 Villa d'Almè BG
+Coordinate: Lat 45.749582, Lng 9.613427
+Website: https://www.tripadvisor.it/Hotel_Review-g1509126-d4472600-Reviews-Casa_Giuly-Villa_d_Alme_Province_of_Bergamo_Lombardy.html
+Email: 
+
+2303. Cascina Belvedì Ristorante Albergo
+ID: edf615b8-7df5-4812-9d29-30feb3f84d7d
+Slug: cascina-belvedi-ristorante-albergo-almenno-san-bartolomeo
+Nome: Cascina Belvedì Ristorante Albergo
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Belvedere, 4, 24010 Ubiale Clanezzo BG
+Coordinate: Lat 45.763609, Lng 9.597372
+Website: http://www.cascinabelvedi.it/
+Email: 
+
+2304. Due Lune B&B
+ID: bd0a5e88-65ca-4134-87a8-9f007b26d57a
+Slug: due-lune-b-b-almenno-san-bartolomeo
+Nome: Due Lune B&B
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via S. Giorgio, 11, 24031 Almenno San Salvatore BG
+Coordinate: Lat 45.74574, Lng 9.593634
+Website: —
+Email: 
+
+2305. Hotel 5 Vie
+ID: fe8d3013-f0d7-4744-b571-cf318cb2fd55
+Slug: hotel-5-vie-almenno-san-bartolomeo
+Nome: Hotel 5 Vie
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Garibaldi, 14, 24031 Almenno San Salvatore BG
+Coordinate: Lat 45.751165, Lng 9.59925
+Website: http://www.hotel5vie.it/
+Email: 
+
+2306. Hotel Camoretti
+ID: b0ceab0a-940f-48d1-96c6-11ca85874435
+Slug: hotel-camoretti-almenno-san-bartolomeo
+Nome: Hotel Camoretti
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Camoretti, 2-2/A, 24030 Almenno San Bartolomeo BG
+Coordinate: Lat 45.751903, Lng 9.552288
+Website: http://www.camoretti.it/
+Email: 
+
+2307. Hotel La Quercia
+ID: 2eac2fd6-50d3-4007-b587-0e4c1e8ecb69
+Slug: hotel-la-quercia-almenno-san-bartolomeo
+Nome: Hotel La Quercia
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Dorotina, 11, 24030 Mozzo BG
+Coordinate: Lat 45.695794, Lng 9.59776
+Website: http://www.hotellaquercia.com/
+Email: 
+
+2308. Hotel Le Cornelle
+ID: 16f9d851-ac86-45e9-a6e9-d7a28865f8ce
+Slug: hotel-le-cornelle-almenno-san-bartolomeo
+Nome: Hotel Le Cornelle
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Cornelle, 18, 24030 Valbrembo BG
+Coordinate: Lat 45.717758, Lng 9.59573
+Website: https://www.hotellecornelle.it/
+Email: 
+
+2309. Hotel Mazzoleni
+ID: 7595be1f-1987-4d9c-b6a8-9bb5619158c7
+Slug: hotel-mazzoleni-almenno-san-bartolomeo
+Nome: Hotel Mazzoleni
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Piazza Guglielmo Marconi, 5, 24030 Roncola BG
+Coordinate: Lat 45.768128, Lng 9.561538
+Website: http://www.hotelmazzoleni.it/
+Email: 
+
+2310. Hotel Ristorante Dei Pini
+ID: 4a080013-1aae-4c14-8466-b95649520309
+Slug: hotel-ristorante-dei-pini-almenno-san-bartolomeo
+Nome: Hotel Ristorante Dei Pini
+Comune / Provincia: Almenno San Bartolomeo
+Indirizzo: Via Alcide De Gasperi, 47, 24030 Mapello BG
+Coordinate: Lat 45.717713, Lng 9.556817
+Website: https://www.hotelristorantedeipini.com/
+Email: 

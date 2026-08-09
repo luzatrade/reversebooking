@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+12146. Hotel Le Sabbie Calasetta
+ID: 63ba3a1b-5c4e-41d0-893e-4844f4938181
+Slug: hotel-le-sabbie-calasetta-calasetta
+Nome: Hotel Le Sabbie Calasetta
+Comune / Provincia: Calasetta
+Indirizzo: Vico Secondo delle Sabbie, 4, 09011 Calasetta CI
+Coordinate: Lat 39.104439, Lng 8.365244
+Website: http://www.lesabbie.com/
+Email: 
+
+12147. Hotel Luci del Faro
+ID: c2fbb356-5303-4c64-9d6c-46aaad1d4d10
+Slug: hotel-luci-del-faro-calasetta
+Nome: Hotel Luci del Faro
+Comune / Provincia: Calasetta
+Indirizzo: Località Spiaggia Grande, 09011 Calasetta CI
+Coordinate: Lat 39.075811, Lng 8.353242
+Website: https://www.hotelucidelfaro.com/
+Email: 
+
+12148. Hotel Stella del sud
+ID: c75e2355-a00b-445a-8e87-cbef81c02a2f
+Slug: hotel-stella-del-sud-calasetta
+Nome: Hotel Stella del sud
+Comune / Provincia: Calasetta
+Indirizzo: Loc. Spiaggia grande, 09011 Calasetta CI
+Coordinate: Lat 39.085155, Lng 8.359714
+Website: http://www.hotelstelladelsud.com/
+Email: 
+
+12149. I Tre Schen - Albergo Rurale
+ID: 1c227f02-71f6-4766-93d4-932da955b070
+Slug: i-tre-schen-albergo-rurale-calasetta
+Nome: I Tre Schen - Albergo Rurale
+Comune / Provincia: Calasetta
+Indirizzo: Strada Sisineddu, 14, 09011 Calasetta CI
+Coordinate: Lat 39.08319, Lng 8.395404
+Website: https://www.itreschen.com/
+Email: 
+
+12150. Oasi Blu
+ID: 5ed3302d-8a05-4334-bd7c-58014dde7183
+Slug: oasi-blu-calasetta
+Nome: Oasi Blu
+Comune / Provincia: Calasetta
+Indirizzo: 09011 Calasetta CI
+Coordinate: Lat 39.091157, Lng 8.370261
+Website: http://www.oasiblucalasetta.it/
+Email: 
+
+12151. Ristorante 1° Maggio hotel paola
+ID: afa79dda-2a5a-46ce-8ec9-1a401c67bcbb
+Slug: ristorante-1-maggio-hotel-paola-calasetta
+Nome: Ristorante 1° Maggio hotel paola
+Comune / Provincia: Calasetta
+Indirizzo: strada Punta, km 2, 09014 Tonnare CI
+Coordinate: Lat 39.165669, Lng 8.301613
+Website: https://www.hotelpaolacarloforte.it/ristorante-1-maggio/
+Email: 
+
+12152. Antico Borgo Country Hotel
+ID: fbd992e2-2d1b-48ff-9562-755bd11da9b3
+Slug: antico-borgo-country-hotel-calatabiano
+Nome: Antico Borgo Country Hotel
+Comune / Provincia: Calatabiano
+Indirizzo: Traversa I Calatabiano Pasteria, 8, 95011 Calatabiano CT
+Coordinate: Lat 37.814339, Lng 15.224745
+Website: http://www.borgoetneo.com/
+Email: 
+
+12153. Arcobaleno dell'Etna
+ID: 5f4e235f-df9b-40bd-8008-77517df181be
+Slug: arcobaleno-dell-etna-calatabiano
+Nome: Arcobaleno dell'Etna
+Comune / Provincia: Calatabiano
+Indirizzo: Contrada, Via S. Giorgio, 95011 Calatabiano CT
+Coordinate: Lat 37.811547, Lng 15.198623
+Website: http://www.arcobalenodelletna.com/
+Email: 
+
+12154. Assinos Palace Hotel
+ID: ceae02a8-8964-4378-a567-05802f814009
+Slug: assinos-palace-hotel-calatabiano
+Nome: Assinos Palace Hotel
+Comune / Provincia: Calatabiano
+Indirizzo: Via Consolare Valeria, 33, 98035 Giardini Naxos ME
+Coordinate: Lat 37.818904, Lng 15.248258
+Website: http://www.assinospalacehotel.com/
+Email: 
+
+12155. B&B Domus Candida
+ID: de4fe269-4059-412a-a9a4-38b93ff444cc
+Slug: b-b-domus-candida-calatabiano
+Nome: B&B Domus Candida
+Comune / Provincia: Calatabiano
+Indirizzo: V. Umberto I, 122, 95011 Calatabiano CT
+Coordinate: Lat 37.820239, Lng 15.227217
+Website: http://www.domuscandida.com/
+Email: 
+
+12156. B&B I Colori Del Sole
+ID: 43d0c941-6ae8-42f2-a599-75fba590c2a2
+Slug: b-b-i-colori-del-sole-calatabiano
+Nome: B&B I Colori Del Sole
+Comune / Provincia: Calatabiano
+Indirizzo: Via Giuseppe La Farina, 15, 95013 Fiumefreddo Sicilia CT
+Coordinate: Lat 37.790706, Lng 15.207824
+Website: —
+Email: 
+
+12157. B&B Il Siriaco
+ID: 4d9c8e96-652c-45db-ac2b-ed7582d0d1b0
+Slug: b-b-il-siriaco-calatabiano
+Nome: B&B Il Siriaco
+Comune / Provincia: Calatabiano
+Indirizzo: Via Crujllas, 95011 Calatabiano CT
+Coordinate: Lat 37.826093, Lng 15.227228
+Website: http://il-siriaco.com.es/
+Email: 
+
+12158. B&B Villa Magnolia Taormina
+ID: e32d0311-6b41-4cce-ba86-c075c0e6552e
+Slug: b-b-villa-magnolia-taormina-calatabiano
+Nome: B&B Villa Magnolia Taormina
+Comune / Provincia: Calatabiano
+Indirizzo: V.le dei Giardini, 15, 98039 Taormina ME
+Coordinate: Lat 37.835659, Lng 15.239836
+Website: https://beb.it/villamagnolia/it/
+Email: 
+
+12159. BellaLimone
+ID: f681f336-bf40-4538-a70f-2e65b8c176a9
+Slug: bellalimone-calatabiano
+Nome: BellaLimone
+Comune / Provincia: Calatabiano
+Indirizzo: Strada pegno quaderaro 26, 95011 Calatabiano CT
+Coordinate: Lat 37.807276, Lng 15.233889
+Website: http://bellalimone.com.es/
+Email: 
+
+12160. Castello San Marco charming resort & spa
+ID: 93eae202-b80b-41a8-9729-61d972cd595d
+Slug: castello-san-marco-charming-resort-spa-calatabiano
+Nome: Castello San Marco charming resort & spa
+Comune / Provincia: Calatabiano
+Indirizzo: Via S. Marco, 40, 95011 Calatabiano CT
+Coordinate: Lat 37.802082, Lng 15.247478
+Website: http://www.castellosanmarco.it/
+Email: 
+
+12161. I TRE CUORI
+ID: 22fd10f0-d497-404b-a7ce-aa94ee218cab
+Slug: i-tre-cuori-calatabiano
+Nome: I TRE CUORI
+Comune / Provincia: Calatabiano
+Indirizzo: Contrada Feo Coniglio, 98039 Trappitello ME
+Coordinate: Lat 37.840393, Lng 15.232392
+Website: http://www.itrecuori.netsons.org/
+Email: 
+
+12162. Il Maniero
+ID: 11ee79e2-102d-4e10-b57b-8d26b3f3cdee
+Slug: il-maniero-calatabiano
+Nome: Il Maniero
+Comune / Provincia: Calatabiano
+Indirizzo: Piazza di Gesù e Maria, 2, 95011 Calatabiano CT
+Coordinate: Lat 37.823948, Lng 15.227173
+Website: http://ilmaniero.com.es/
+Email: 
+
+12163. La Terra Dei Sogni Country Hotel
+ID: e350caf1-74ff-4a8b-a7e3-9b8f0d75e68f
+Slug: la-terra-dei-sogni-country-hotel-calatabiano
+Nome: La Terra Dei Sogni Country Hotel
+Comune / Provincia: Calatabiano
+Indirizzo: Via Catania Messina, 14, 95013 Fiumefreddo di Sicilia CT
+Coordinate: Lat 37.778005, Lng 15.193113
+Website: https://www.laterradeisogni.com/
+Email: 
+
+12164. Laboratorio Gourmet presso Agriturismo Terrenia
+ID: 00468165-ce5b-48d6-b129-f8cbb40f57ba
+Slug: laboratorio-gourmet-presso-agriturismo-terrenia-calatabiano
+Nome: Laboratorio Gourmet presso Agriturismo Terrenia
+Comune / Provincia: Calatabiano
+Indirizzo: Via Santa Filomena, 28/30, 98039 Taormina ME
+Coordinate: Lat 37.832531, Lng 15.238097
+Website: https://www.agriturismoterrenia.it/it/
+Email: 
+
+12165. Marty Luxury B&B
+ID: e7611bcd-b92a-4539-b0ef-3c12509cc233
+Slug: marty-luxury-b-b-calatabiano
+Nome: Marty Luxury B&B
+Comune / Provincia: Calatabiano
+Indirizzo: Via Caduti di Nassiria, 23, 95011 Calatabiano CT
+Coordinate: Lat 37.810439, Lng 15.229943
+Website: http://www.martyluxurybb.com/
+Email: 
+
+12166. Minissale Farmhouse
+ID: 77b263eb-f739-4c4d-8123-acd4f56bc69e
+Slug: minissale-farmhouse-calatabiano
+Nome: Minissale Farmhouse
+Comune / Provincia: Calatabiano
+Indirizzo: Strada Pegno Quaderaro SN, 95011 Calatabiano CT
+Coordinate: Lat 37.802313, Lng 15.233572
+Website: http://www.minissalefarmhouse.it/
+Email: 
+
+12167. PARADISE SICILY ROOMS LICENZA:IT087010C25WIUB6FL
+ID: fa802a87-51a5-4bcc-a142-c34d5cd56472
+Slug: paradise-sicily-rooms-licenza-it087010c25wiub6fl-calatabiano
+Nome: PARADISE SICILY ROOMS LICENZA:IT087010C25WIUB6FL
+Comune / Provincia: Calatabiano
+Indirizzo: Via S. Marco, 15, 95011 Calatabiano CT
+Coordinate: Lat 37.804586, Lng 15.244122
+Website: http://www.paradisesicilyrooms.com/
+Email: 
+
+12168. Serra San Biagio
+ID: 993d0933-e4c6-4c8a-8711-193e8cc60450
+Slug: serra-san-biagio-calatabiano
+Nome: Serra San Biagio
+Comune / Provincia: Calatabiano
+Indirizzo: Via Angelo d'Arrigo, 13, 95011 Calatabiano CT
+Coordinate: Lat 37.801392, Lng 15.226935
+Website: http://serra-san-biagio.italianeisole.it/
+Email: 
+
+12169. Stella & Luna
+ID: 24dad922-ab15-4053-8746-26c0e6dfd9e0
+Slug: stella-luna-calatabiano
+Nome: Stella & Luna
+Comune / Provincia: Calatabiano
+Indirizzo: Via Garibaldi, 136, 95011 Calatabiano CT
+Coordinate: Lat 37.821967, Lng 15.2317
+Website: —
+Email: 
+
+12170. Villa delle Vacanze
+ID: 8434f64f-6028-4e99-94a6-7b3d9d382f09
+Slug: villa-delle-vacanze-calatabiano
+Nome: Villa delle Vacanze
+Comune / Provincia: Calatabiano
+Indirizzo: Via Salvatore Calandruccio, 2, 95013 Fiumefreddo Sicilia CT
+Coordinate: Lat 37.80055, Lng 15.216476
+Website: http://www.villadellevacanze.com/
+Email: 
+
+12171. villa liliya
+ID: 8b9c638a-625e-47b1-8e3c-e9f459dbc8fd
+Slug: villa-liliya-calatabiano
+Nome: villa liliya
+Comune / Provincia: Calatabiano
+Indirizzo: Via Ponte Boria, 19/21, 95013 Fiumefreddo Sicilia CT
+Coordinate: Lat 37.803233, Lng 15.196331
+Website: https://g.page/r/CXcdx0zky3YLEB0/review
+Email: 
+
+12172. Agriturismo L' Olivo
+ID: 50127418-46e9-4d68-99eb-aae45b2d14ed
+Slug: agriturismo-l-olivo-calatafimi-segesta
+Nome: Agriturismo L' Olivo
+Comune / Provincia: Calatafimi-Segesta
+Indirizzo: Contrada Piraino, 91013 Calatafimi-Segesta TP
+Coordinate: Lat 37.91206, Lng 12.905836
+Website: https://www.agriturismololivo.it/
+Email: 
+
+12173. Angimbè Relais
+ID: 0457f6f7-0df3-450f-997c-4468c1e72ca6
+Slug: angimbe-relais-calatafimi-segesta
+Nome: Angimbè Relais
+Comune / Provincia: Calatafimi-Segesta
+Indirizzo: S.s. 113 Km 338, 4, 91013 Calatafimi TP
+Coordinate: Lat 37.963825, Lng 12.889871
+Website: http://www.angimbe.it/
+Email: 
+
+12174. Baglio Fastuchera
+ID: d9ef5fcc-9788-4874-a99b-e3496b38146c
+Slug: baglio-fastuchera-calatafimi-segesta
+Nome: Baglio Fastuchera
+Comune / Provincia: Calatafimi-Segesta
+Indirizzo: 91011 Alcamo TP, Italia
+Coordinate: Lat 37.945422, Lng 12.943974
+Website: http://www.bagliofastuchera.it/
+Email: 
+
+12175. Baglio Segesta
+ID: 5f97ff8d-31e5-4989-a0d9-ab27b06c211c
+Slug: baglio-segesta-calatafimi-segesta
+Nome: Baglio Segesta
+Comune / Provincia: Calatafimi-Segesta
+Indirizzo: Contrada Segesta, 91013 Segesta, Calatafimi Segesta TP
+Coordinate: Lat 37.935184, Lng 12.817025
+Website: http://www.bagliosegesta.com/
+Email: 
+
+12176. Hotel MillePini
+ID: d086f903-150c-4a21-b8cf-108a3d485958
+Slug: hotel-millepini-calatafimi-segesta
+Nome: Hotel MillePini
+Comune / Provincia: Calatafimi-Segesta
+Indirizzo: Belvedere Francesco Vivona, 4, 91013 Calatafimi TP
+Coordinate: Lat 37.911946, Lng 12.854926
+Website: http://www.millepini.com/
+Email: 
+
+12177. La Corte del Sole Segesta
+ID: 1cf718c4-399b-4eae-9c6f-1cd4ff862621
+Slug: la-corte-del-sole-segesta-calatafimi-segesta
+Nome: La Corte del Sole Segesta
+Comune / Provincia: Calatafimi-Segesta
+Indirizzo: SP57, 91014 Castellammare del Golfo TP
+Coordinate: Lat 37.951183, Lng 12.8157
+Website: http://www.lacortedelsolesegesta.it/
+Email: 
+
+12178. La Suite di Segesta
+ID: 215b1bff-e535-411c-ab5b-716a8521b0bf
+Slug: la-suite-di-segesta-calatafimi-segesta
+Nome: La Suite di Segesta
+Comune / Provincia: Calatafimi-Segesta
+Indirizzo: Contrada Segesta Barbaro snc Strada Provinciale Segesta Tempio, gps: nord.37.943000 est.12.851600, 91013 Calatafimi TP
+Coordinate: Lat 37.943032, Lng 12.851823
+Website: https://lasuitedisegesta.com/
+Email: 
+
+12179. Le Palme b&b
+ID: f1eb7af1-e6bf-4461-8b53-9f54624d0e46
+Slug: le-palme-b-b-calatafimi-segesta
+Nome: Le Palme b&b
+Comune / Provincia: Calatafimi-Segesta
+Indirizzo: Contrada Sinagia, 1312, 91018 Salemi TP
+Coordinate: Lat 37.842133, Lng 12.782821
+Website: https://www.facebook.com/share/14GMXjnrRef/
+Email: 
+
+12180. Locanda Scirocco
+ID: a696466d-7b6f-42b6-ac52-325128b7a1b4
+Slug: locanda-scirocco-calatafimi-segesta
+Nome: Locanda Scirocco
+Comune / Provincia: Calatafimi-Segesta
+Indirizzo: Corso Giuseppe Garibaldi, 117, 91014 Castellammare del Golfo TP
+Coordinate: Lat 38.025633, Lng 12.881023
+Website: http://www.locandascirocco.it/
+Email: 

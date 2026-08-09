@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+1716. I Diamanti Hotel
+ID: 4378f5d3-5707-4957-871d-7900efc1fe23
+Slug: i-diamanti-hotel-albonese
+Nome: I Diamanti Hotel
+Comune / Provincia: Albonese
+Indirizzo: Via Leonardo Da Vinci, 59, 27026 Garlasco PV
+Coordinate: Lat 45.190983, Lng 8.921413
+Website: —
+Email: 
+
+1717. I Tre Merli
+ID: 07e00d4f-c454-478c-9f3a-fb3277bf6b03
+Slug: i-tre-merli-albonese
+Nome: I Tre Merli
+Comune / Provincia: Albonese
+Indirizzo: Via Maestra, 36, 27036 Madonna del Campo PV
+Coordinate: Lat 45.267641, Lng 8.715115
+Website: —
+Email: 
+
+1718. Il Cottage
+ID: 42dec0ea-3097-4b96-a2c7-af9d83e812b2
+Slug: il-cottage-albonese
+Nome: Il Cottage
+Comune / Provincia: Albonese
+Indirizzo: Corso Torino, 118/25, 27029 Vigevano PV
+Coordinate: Lat 45.300686, Lng 8.833436
+Website: http://bnbvigevano.com/
+Email: 
+
+1719. Locanda La Castellana
+ID: cdf04ccf-ade7-4cf1-ba0b-3783a751904b
+Slug: locanda-la-castellana-albonese
+Nome: Locanda La Castellana
+Comune / Provincia: Albonese
+Indirizzo: Via Milano, 1, 27030 Castello d'Agogna PV
+Coordinate: Lat 45.232012, Lng 8.684991
+Website: http://locandalacastellana.it/
+Email: 
+
+1720. Nuovo Hotel
+ID: f412d926-206f-4fd4-88b6-1cac8fbcb318
+Slug: nuovo-hotel-albonese
+Nome: Nuovo Hotel
+Comune / Provincia: Albonese
+Indirizzo: Corso P. Togliatti, 21, 27029 Vigevano PV
+Coordinate: Lat 45.308787, Lng 8.844177
+Website: http://www.nuovohotelvigevano.com/
+Email: 
+
+1721. Residence Matteotti
+ID: 8db3e958-7b45-4366-989c-87c9f3cd7358
+Slug: residence-matteotti-albonese
+Nome: Residence Matteotti
+Comune / Provincia: Albonese
+Indirizzo: Largo Buscaglia Carlo, 11A, 28100 Novara NO
+Coordinate: Lat 45.452054, Lng 8.622396
+Website: http://www.residencematteotti.it/
+Email: 
+
+1722. Ristorante Locanda Milano
+ID: 52dc423e-121d-41d2-95c4-fdf52a229792
+Slug: ristorante-locanda-milano-albonese
+Nome: Ristorante Locanda Milano
+Comune / Provincia: Albonese
+Indirizzo: Via Roma, 18, 27025 Gambolo' PV
+Coordinate: Lat 45.255794, Lng 8.861257
+Website: http://www.ristorantemilano.it/
+Email: 
+
+1723. Società Agricola Isola di Carlalberto Marchetti e C. S.A.S.
+ID: 412232b3-e572-4a65-b6a9-7b1b12fe4a01
+Slug: societa-agricola-isola-di-carlalberto-marchetti-albonese
+Nome: Società Agricola Isola di Carlalberto Marchetti e C. S.A.S.
+Comune / Provincia: Albonese
+Indirizzo: SC Caresana, 6, 27030 Langosco PV
+Coordinate: Lat 45.223038, Lng 8.541568
+Website: https://isola-di-carlalberto.alberghiinitalia.top/
+Email: 
+
+1724. Ventitrémarzo
+ID: 3bfdb985-be74-46af-bf2c-b972baaf97ed
+Slug: ventitremarzo-albonese
+Nome: Ventitrémarzo
+Comune / Provincia: Albonese
+Indirizzo: Corso XXIII Marzo, 118, 28100 Novara NO
+Coordinate: Lat 45.439083, Lng 8.625347
+Website: http://www.ventitremarzo.com/
+Email: 
+
+1725. "La Stufa Rossa"
+ID: 660f1236-a95a-46e7-8993-e366ff89ea1d
+Slug: la-stufa-rossa-albosaggia
+Nome: "La Stufa Rossa"
+Comune / Provincia: Albosaggia
+Indirizzo: Via Parravicini, 5, 23100 Sondrio SO
+Coordinate: Lat 46.171493, Lng 9.872329
+Website: http://lastufarossa.it/
+Email: 
+
+1726. Affittacamere Stelvio
+ID: 0ec23238-ff9b-4276-86fd-1296b1e44c77
+Slug: affittacamere-stelvio-albosaggia
+Nome: Affittacamere Stelvio
+Comune / Provincia: Albosaggia
+Indirizzo: Via Stelvio, 23, 23100 Sondrio SO
+Coordinate: Lat 46.171025, Lng 9.878785
+Website: https://affittacamere-stelvio.camerainitalia.top/
+Email: 
+
+1727. Agriturismo Il Sorbo
+ID: 54abf230-17db-4494-aae1-bb30b21f6f9d
+Slug: agriturismo-il-sorbo-albosaggia
+Nome: Agriturismo Il Sorbo
+Comune / Provincia: Albosaggia
+Indirizzo: Località Campelli snc, 23010 Albosaggia SO
+Coordinate: Lat 46.133686, Lng 9.868335
+Website: https://www.facebook.com/IlSorbodiAlbosaggia
+Email: 
+
+1728. Agriturismo Stella Orobica
+ID: 0603400c-f825-4fce-8dec-824457f9bb9e
+Slug: agriturismo-stella-orobica-albosaggia
+Nome: Agriturismo Stella Orobica
+Comune / Provincia: Albosaggia
+Indirizzo: V. Torchione, 32, 23010 Albosaggia SO
+Coordinate: Lat 46.151276, Lng 9.844519
+Website: http://www.stellaorobica.it/
+Email: 
+
+1729. Agriturismo Terra del Sole
+ID: 4040d4a8-0e06-4445-bd76-712444daeac0
+Slug: agriturismo-terra-del-sole-albosaggia
+Nome: Agriturismo Terra del Sole
+Comune / Provincia: Albosaggia
+Indirizzo: V. Adda, 2624, 23010 Albosaggia SO
+Coordinate: Lat 46.157501, Lng 9.836287
+Website: http://www.alloggiterradelsole.it/
+Email: 
+
+1730. B&B Ca' Murada
+ID: 5e67116a-806b-4ec8-ab96-b249abcd418e
+Slug: b-b-ca-murada-albosaggia
+Nome: B&B Ca' Murada
+Comune / Provincia: Albosaggia
+Indirizzo: V. Donadelli, 20, 23100 Albosaggia SO
+Coordinate: Lat 46.150813, Lng 9.840151
+Website: http://www.camurada.it/
+Email: 
+
+1731. B&B Ca' Virò
+ID: 4651a073-1b35-4174-a612-83ffba52a507
+Slug: b-b-ca-viro-albosaggia
+Nome: B&B Ca' Virò
+Comune / Provincia: Albosaggia
+Indirizzo: Via Coltra, 21 A, 23010 Torchione SO
+Coordinate: Lat 46.160035, Lng 9.85218
+Website: http://www.bbcaviro.it/
+Email: 
+
+1732. B&B Il Germoglio
+ID: 9c8c1d4e-42ec-4687-b6a1-e4c00dc75e06
+Slug: b-b-il-germoglio-albosaggia
+Nome: B&B Il Germoglio
+Comune / Provincia: Albosaggia
+Indirizzo: Via Balzarro, 21 C, 23012 Castione Andevenno SO
+Coordinate: Lat 46.167665, Lng 9.791612
+Website: https://bb-il-germoglio.amolitalia.top/
+Email: 
+
+1733. B&B Il Grappolo Valtellina
+ID: 767ef0f2-724a-47f7-941b-b06c30e98b52
+Slug: b-b-il-grappolo-valtellina-albosaggia
+Nome: B&B Il Grappolo Valtellina
+Comune / Provincia: Albosaggia
+Indirizzo: Via Stelvio, 34, 23030 Bianzone SO
+Coordinate: Lat 46.188901, Lng 10.114034
+Website: http://www.bbilgrappolovaltellina.it/
+Email: 
+
+1734. B&B Panemiele
+ID: ed4f1855-7487-4375-bc59-0582b2627ad6
+Slug: b-b-panemiele-albosaggia
+Nome: B&B Panemiele
+Comune / Provincia: Albosaggia
+Indirizzo: Via Bonfadini, 23, 23100 Sondrio SO
+Coordinate: Lat 46.166303, Lng 9.870338
+Website: https://panemielebb.altervista.org/
+Email: 
+
+1735. B&B Sopralapanca
+ID: c09e6fc0-5900-4ef7-90ef-8974d7d12987
+Slug: b-b-sopralapanca-albosaggia
+Nome: B&B Sopralapanca
+Comune / Provincia: Albosaggia
+Indirizzo: Via Roma, 4, 23010 Postalesio SO
+Coordinate: Lat 46.173389, Lng 9.775608
+Website: http://www.formaggiocaprino.com/
+Email: 
+
+1736. Cà ROSSA - B&B
+ID: 2f105d31-9a08-4c75-9966-9fdf754f431d
+Slug: ca-rossa-b-b-albosaggia
+Nome: Cà ROSSA - B&B
+Comune / Provincia: Albosaggia
+Indirizzo: Via Cà Rossa, 336, 23020 Montagna In Valtellina SO
+Coordinate: Lat 46.1738, Lng 9.89211
+Website: http://www.carossa.eu/
+Email: 
+
+1737. Ca' Dottori
+ID: ee61d1e3-0ee2-4240-88c9-07789b388e6f
+Slug: ca-dottori-albosaggia
+Nome: Ca' Dottori
+Comune / Provincia: Albosaggia
+Indirizzo: Via Dottori, 16, 23010 valtellina SO
+Coordinate: Lat 46.155106, Lng 9.83643
+Website: —
+Email: 
+
+1738. Chalet Monaci Alla Fontana
+ID: 2b265b4a-e7c6-45b0-bc6b-c3fe2eb13502
+Slug: chalet-monaci-alla-fontana-albosaggia
+Nome: Chalet Monaci Alla Fontana
+Comune / Provincia: Albosaggia
+Indirizzo: Via Monaci, 12/C, 23010 Albosaggia SO
+Coordinate: Lat 46.149689, Lng 9.859465
+Website: https://www.allogi-lombardia.it/chalet-monaci-alla-fontana-junior-suite/
+Email: 
+
+1739. Fiada Holiday Home
+ID: 6f33e51e-b77b-4433-af77-22a2d6c45c22
+Slug: fiada-holiday-home-albosaggia
+Nome: Fiada Holiday Home
+Comune / Provincia: Albosaggia
+Indirizzo: Via Torre, 10, 23010 Albosaggia SO
+Coordinate: Lat 46.148307, Lng 9.850218
+Website: —
+Email: 
+
+1740. Guest House Le Cassandre
+ID: 39c973ee-c49b-47d7-b0b2-38af691dc207
+Slug: guest-house-le-cassandre-albosaggia
+Nome: Guest House Le Cassandre
+Comune / Provincia: Albosaggia
+Indirizzo: Località Tarchi, 80, 23100 Sondrio SO
+Coordinate: Lat 46.182169, Lng 9.866364
+Website: http://www.lecassandre.com/
+Email: 
+
+1741. Hotel Campelli
+ID: 6fe9be72-2db1-4941-b411-9d272c1586a9
+Slug: hotel-campelli-albosaggia
+Nome: Hotel Campelli
+Comune / Provincia: Albosaggia
+Indirizzo: Via Moia, 6, 23010 Albosaggia SO
+Coordinate: Lat 46.154473, Lng 9.877878
+Website: https://www.campelli.it/?utm_source=gmb&utm_medium=organic&utm_campaign=maps
+Email: 
+
+1742. Luna di miele
+ID: 424b93fc-171c-4ea6-8b04-4d33afc385de
+Slug: luna-di-miele-albosaggia
+Nome: Luna di miele
+Comune / Provincia: Albosaggia
+Indirizzo: Via Monaci, 165, 23010 Albosaggia SO
+Coordinate: Lat 46.149111, Lng 9.859071
+Website: https://luna-di-miele1.webnode.it/contatti/
+Email: 
+
+1743. Orobie Holiday Apartments
+ID: c637c79f-2d97-4739-b71b-dbbbc854cdbb
+Slug: orobie-holiday-apartments-albosaggia
+Nome: Orobie Holiday Apartments
+Comune / Provincia: Albosaggia
+Indirizzo: Vicolo Cà Pedruzzi, 7, 23010 Albosaggia SO
+Coordinate: Lat 46.150013, Lng 9.852668
+Website: —
+Email: 
+
+1744. 'l piasì
+ID: 095d8b95-8503-46bb-9b3c-7874f7e957a6
+Slug: l-piasi-albugnano
+Nome: 'l piasì
+Comune / Provincia: Albugnano
+Indirizzo: Via Boranco, 2, 14020 Cortanze AT
+Coordinate: Lat 45.011229, Lng 8.090525
+Website: https://lpiasi.it/
+Email: 
+
+1745. Agriturismo Arcobaleno fattoria Didattica
+ID: e1747b76-6d23-409a-b8a2-d994d7b40fe9
+Slug: agriturismo-arcobaleno-fattoria-didattica-albugnano
+Nome: Agriturismo Arcobaleno fattoria Didattica
+Comune / Provincia: Albugnano
+Indirizzo: Borgata Pratorotondo, 65, 14020 Aramengo AT
+Coordinate: Lat 45.095131, Lng 7.981371
+Website: https://sites.google.com/view/agriturismo-arcobaleno
+Email: 
+
+1746. Agriturismo la Luna Nera
+ID: 5f63b580-f9ab-4192-86b4-9d20f32ba214
+Slug: agriturismo-la-luna-nera-albugnano
+Nome: Agriturismo la Luna Nera
+Comune / Provincia: Albugnano
+Indirizzo: Via Cascinetta, 25, 14010 Cortazzone AT
+Coordinate: Lat 44.993201, Lng 8.054802
+Website: http://www.agriturismolalunanera.com/
+Email: 
+
+1747. Albergo Ristorante Ciocca
+ID: 3d7ac3ec-f621-4c0d-b8ad-dcce6b76e53f
+Slug: albergo-ristorante-ciocca-albugnano
+Nome: Albergo Ristorante Ciocca
+Comune / Provincia: Albugnano
+Indirizzo: Piazza Dante, 10, 14022 Castelnuovo Don Bosco AT
+Coordinate: Lat 45.040815, Lng 7.964875
+Website: http://www.albergociocca.it/
+Email: 
+
+1748. Alle Tre Colline Agriturismo e Cantina - Albugnano
+ID: b88fdba4-b12a-412d-8369-d68e7a74aeab
+Slug: alle-tre-colline-agriturismo-e-cantina-albugnano-albugnano
+Nome: Alle Tre Colline Agriturismo e Cantina - Albugnano
+Comune / Provincia: Albugnano
+Indirizzo: Località Vezzolano, 60, 14022 Albugnano AT
+Coordinate: Lat 45.080507, Lng 7.96831
+Website: http://www.alletrecolline.com/
+Email: 
+
+1749. B&B Al Bric
+ID: 2678d188-728f-42ea-9b2b-d2eb9bd241c0
+Slug: b-b-al-bric-albugnano
+Nome: B&B Al Bric
+Comune / Provincia: Albugnano
+Indirizzo: Via Trotta, 3, 10090 San Raffaele Cimena TO
+Coordinate: Lat 45.15064, Lng 7.860781
+Website: https://bbalbric.com/
+Email: 
+
+1750. B&B I colori del Monferrato
+ID: 9a07805c-e40d-41c1-aae9-f72f46c0bd4d
+Slug: b-b-i-colori-del-monferrato-albugnano
+Nome: B&B I colori del Monferrato
+Comune / Provincia: Albugnano
+Indirizzo: Via Asti, 10, 14026 Montiglio AT
+Coordinate: Lat 45.063918, Lng 8.098205
+Website: —
+Email: 

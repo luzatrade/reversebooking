@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+2486. Albergo Miravalle Fai della Paganella
+ID: a739f79e-f571-40f2-ab66-626357da7255
+Slug: albergo-miravalle-fai-della-paganella-altavalle
+Nome: Albergo Miravalle Fai della Paganella
+Comune / Provincia: Altavalle
+Indirizzo: Via Cembran 9-11, 38010 Fai della Paganella TN
+Coordinate: Lat 46.175134, Lng 11.058589
+Website: http://www.miravallefai.it/
+Email: 
+
+2487. BeB Trattoria Miravalle
+ID: 9d5a19b7-64c7-4df0-ad1e-cb510f0e4a69
+Slug: beb-trattoria-miravalle-altavalle
+Nome: BeB Trattoria Miravalle
+Comune / Provincia: Altavalle
+Indirizzo: Localita, Zona Artigianale Polina, 6, 38087 Roncone TN
+Coordinate: Lat 45.991108, Lng 10.687166
+Website: —
+Email: 
+
+2488. Bed & Breakfast "Casa delle fate"
+ID: cb00f293-9923-4fe6-9410-c154f1662d87
+Slug: bed-breakfast-casa-delle-fate-altavalle
+Nome: Bed & Breakfast "Casa delle fate"
+Comune / Provincia: Altavalle
+Indirizzo: Via Castel la Santa 04 Termon Termon di, Via Castel la Santa, 4, 38010 Termon TN
+Coordinate: Lat 46.269409, Lng 11.034532
+Website: http://www.casadellefate.it/
+Email: 
+
+2489. Hotel Garní Alta Valle
+ID: feb96fea-18e4-49c2-a996-c9284cc346f1
+Slug: hotel-garni-alta-valle-altavalle
+Nome: Hotel Garní Alta Valle
+Comune / Provincia: Altavalle
+Indirizzo: Via Nazionale, 1, 25050 Vione BS
+Coordinate: Lat 46.246993, Lng 10.453662
+Website: http://www.hotelaltavalle.it/
+Email: 
+
+2490. Hotel Miravalle
+ID: 2327f589-6027-4838-bdba-e155387addd4
+Slug: hotel-miravalle-altavalle
+Nome: Hotel Miravalle
+Comune / Provincia: Altavalle
+Indirizzo: Strada Nòa, 22, 38078 San Lorenzo Dorsino TN
+Coordinate: Lat 46.078345, Lng 10.904671
+Website: http://www.hotelmiravalle.info/
+Email: 
+
+2491. Locanda Del Passatore - Home Restaurant - B&B
+ID: a167e494-bdb9-4e05-96b9-a19e518b5878
+Slug: locanda-del-passatore-home-restaurant-b-b-altavalle
+Nome: Locanda Del Passatore - Home Restaurant - B&B
+Comune / Provincia: Altavalle
+Indirizzo: Via Campagna, 16, 38092 Faver TN
+Coordinate: Lat 46.180296, Lng 11.234904
+Website: http://www.locandadelpassatore.com/
+Email: 
+
+2492. "LE RIVE"
+ID: 47df918f-c223-40ef-bba6-33f125084e97
+Slug: le-rive-altavilla-irpina
+Nome: "LE RIVE"
+Comune / Provincia: Altavilla Irpina
+Indirizzo: Unnamed Road,83010, 83010 Tufo AV
+Coordinate: Lat 41.015824, Lng 14.810684
+Website: —
+Email: 
+
+2493. Agriturismo e Winery FEUDO DI CASTELMOZZO
+ID: 49df16fa-eee4-4e44-a316-421552fd74d0
+Slug: agriturismo-e-winery-feudo-di-castelmozzo-altavilla-irpina
+Nome: Agriturismo e Winery FEUDO DI CASTELMOZZO
+Comune / Provincia: Altavilla Irpina
+Indirizzo: Via Tuori, 23, 83030 Santa Paolina AV
+Coordinate: Lat 41.015674, Lng 14.844308
+Website: https://www.feudodicastelmozzo.it/
+Email: 
+
+2494. B&B - VILLA NOEMI EVENTI
+ID: 81e7e7a7-2d82-46f0-9ff6-160d3435dcd6
+Slug: b-b-villa-noemi-eventi-altavilla-irpina
+Nome: B&B - VILLA NOEMI EVENTI
+Comune / Provincia: Altavilla Irpina
+Indirizzo: Contrada Bosco della Corte, 1, 83030 Prata di Principato Ultra AV
+Coordinate: Lat 40.977938, Lng 14.805897
+Website: —
+Email: 
+
+2495. B&B "La casa della Nonna"
+ID: fe9dbdd9-1b63-4363-9b94-e8ce423ed1ef
+Slug: b-b-la-casa-della-nonna-altavilla-irpina
+Nome: B&B "La casa della Nonna"
+Comune / Provincia: Altavilla Irpina
+Indirizzo: Via Provinciale 56 n.23, Passo Serra, 83038 Montemiletto AV
+Coordinate: Lat 41.02449, Lng 14.881106
+Website: https://instagram.com/lacasadellanonna_bb?igshid=NmZiMzY2Mjc=
+Email: 
+
+2496. B&B Le Colonne
+ID: 07aa45e1-7979-40b6-ac28-8f35d1ef6059
+Slug: b-b-le-colonne-altavilla-irpina
+Nome: B&B Le Colonne
+Comune / Provincia: Altavilla Irpina
+Indirizzo: Via Dante, 14/12, 83030 Montefusco AV
+Coordinate: Lat 41.036707, Lng 14.854024
+Website: —
+Email: 
+
+2497. Blu Hotel
+ID: 015c2770-eea1-4870-b138-caf7dfbf0b06
+Slug: blu-hotel-altavilla-irpina
+Nome: Blu Hotel
+Comune / Provincia: Altavilla Irpina
+Indirizzo: Contrada Iannassi, 82010 San Nicola Manfredi BN
+Coordinate: Lat 41.092759, Lng 14.832104
+Website: https://www.bluhotelbenevento.it/
+Email: 
+
+2498. Coccinella B&B
+ID: b6724813-3823-41c2-b3af-4f93d134ed2b
+Slug: coccinella-b-b-altavilla-irpina
+Nome: Coccinella B&B
+Comune / Provincia: Altavilla Irpina
+Indirizzo: Via Angelo l', 29, 83010 Tufo AV
+Coordinate: Lat 41.012021, Lng 14.819197
+Website: —
+Email: 
+
+2499. Domus Felix a Summonte
+ID: a8bfa2c4-b4bf-410b-bec3-d6b3477471e6
+Slug: domus-felix-a-summonte-altavilla-irpina
+Nome: Domus Felix a Summonte
+Comune / Provincia: Altavilla Irpina
+Indirizzo: SS374, 9, 83010 Summonte AV
+Coordinate: Lat 40.94752, Lng 14.743226
+Website: https://www.domusfelix.it/
+Email: 
+
+2500. Hotel Al Palazzetto
+ID: 5de81961-1013-48e0-ba1f-98dd496b58a9
+Slug: hotel-al-palazzetto-altavilla-irpina
+Nome: Hotel Al Palazzetto
+Comune / Provincia: Altavilla Irpina
+Indirizzo: Via Piana, 12, 83010 Summonte AV
+Coordinate: Lat 40.948056, Lng 14.743772
+Website: http://hotel-al-palazzetto.com.es/
+Email: 
+
+2501. Hotel Hypnos
+ID: cffbd5cb-e39f-4fb9-a068-2cecf9aa431e
+Slug: hotel-hypnos-altavilla-irpina
+Nome: Hotel Hypnos
+Comune / Provincia: Altavilla Irpina
+Indirizzo: Via dei Sanniti, 77, 82018 San Giorgio del Sannio BN
+Coordinate: Lat 41.078843, Lng 14.850895
+Website: https://www.hotelhypnos.it/
+Email: 
+
+2502. Ristorante Hotel Urciuolo
+ID: 4f7735bf-ce9a-4eb6-b80d-840683f2299c
+Slug: ristorante-hotel-urciuolo-altavilla-irpina
+Nome: Ristorante Hotel Urciuolo
+Comune / Provincia: Altavilla Irpina
+Indirizzo: Via Due Strade, 1, 83015 Pietrastornina AV
+Coordinate: Lat 40.987973, Lng 14.737548
+Website: http://www.ristorantehotelurciuolo.it/
+Email: 
+
+2503. Rossi&Nero Resort
+ID: 68b36202-ebca-41c8-941e-98e92e65a2a9
+Slug: rossi-nero-resort-altavilla-irpina
+Nome: Rossi&Nero Resort
+Comune / Provincia: Altavilla Irpina
+Indirizzo: Via Aria Miranda, 1, 82010 Arpaise BN
+Coordinate: Lat 41.020481, Lng 14.75787
+Website: http://www.rossienero.com/
+Email: 
+
+2504. Villa Verde Agriturismo
+ID: 95746983-e55c-471e-b1e5-c4ee5a24033c
+Slug: villa-verde-agriturismo-altavilla-irpina
+Nome: Villa Verde Agriturismo
+Comune / Provincia: Altavilla Irpina
+Indirizzo: Contrada Agliano, 83030 Prata di Principato Ultra AV
+Coordinate: Lat 41.000744, Lng 14.817817
+Website: https://villa-verde-agriturismo.italiabella.top/
+Email: 
+
+2505. Agriturismo Villa Cefalà
+ID: 3e264350-a131-4238-b3d0-27d97b982549
+Slug: agriturismo-villa-cefala-altavilla-milicia
+Nome: Agriturismo Villa Cefalà
+Comune / Provincia: Altavilla Milicia
+Indirizzo: SS 113 Settentrionale Sicula, 48, 90017 Santa Flavia PA
+Coordinate: Lat 38.066395, Lng 13.533457
+Website: http://www.tenutacefala.it/
+Email: 
+
+2506. Allegroitalia Torre Artale Palermo
+ID: f2b72e3f-37c7-4f68-bf7d-7e4efbc40c2d
+Slug: allegroitalia-torre-artale-palermo-altavilla-milicia
+Nome: Allegroitalia Torre Artale Palermo
+Comune / Provincia: Altavilla Milicia
+Indirizzo: Contrada Sant'Onofrio, 1, 90019 Palermo PA
+Coordinate: Lat 37.99845, Lng 13.6114
+Website: https://www.allegroitalia.it/torreartalepalermo/
+Email: 
+
+2507. Antico Casale Formica
+ID: 6dca5c2c-dce7-47c7-a8d3-facc5fed1cbb
+Slug: antico-casale-formica-altavilla-milicia
+Nome: Antico Casale Formica
+Comune / Provincia: Altavilla Milicia
+Indirizzo: Via Primo Consona, 3, 90011 Consona 1 PA
+Coordinate: Lat 38.063021, Lng 13.500744
+Website: https://casaleformica.it/
+Email: 
+
+2508. B&B Benvenuti al Sud
+ID: fe0c8695-3005-40a3-854e-565c4f5e5f27
+Slug: b-b-benvenuti-al-sud-altavilla-milicia
+Nome: B&B Benvenuti al Sud
+Comune / Provincia: Altavilla Milicia
+Indirizzo: Via Roccazzo, 11, 90019 Trabia PA
+Coordinate: Lat 38.012684, Lng 13.615202
+Website: —
+Email: 
+
+2509. B&B LA CALETTA
+ID: 3d856620-35a5-4763-b35e-2dd865ebbc5d
+Slug: b-b-la-caletta-altavilla-milicia
+Nome: B&B LA CALETTA
+Comune / Provincia: Altavilla Milicia
+Indirizzo: Piano Torre, 17, 90017 Santa Flavia PA
+Coordinate: Lat 38.097037, Lng 13.538526
+Website: http://www.lacalettabb.eu/
+Email: 
+
+2510. Casa Giardinetto
+ID: b8c3d0b2-2a27-456b-b238-e88d06231e72
+Slug: casa-giardinetto-altavilla-milicia
+Nome: Casa Giardinetto
+Comune / Provincia: Altavilla Milicia
+Indirizzo: Via S. Michele, 34, 90010 Altavilla Milicia PA
+Coordinate: Lat 38.044692, Lng 13.549633
+Website: —
+Email: 
+
+2511. Domina Zagarella Sicily - Santa Flavia
+ID: eac2f8a1-a40d-482e-880c-6f114f86288f
+Slug: domina-zagarella-sicily-santa-flavia-altavilla-milicia
+Nome: Domina Zagarella Sicily - Santa Flavia
+Comune / Provincia: Altavilla Milicia
+Indirizzo: SS 113 Settentrionale Sicula, 77, 90017 Santa Flavia PA
+Coordinate: Lat 38.076658, Lng 13.540913
+Website: http://www.dominasicily.com/
+Email: 
+
+2512. Donna Concetta
+ID: 7e3a0af6-251e-4d06-b279-58da3c391084
+Slug: donna-concetta-altavilla-milicia
+Nome: Donna Concetta
+Comune / Provincia: Altavilla Milicia
+Indirizzo: Via Roma, 113, 90017 Santa Flavia PA
+Coordinate: Lat 38.091205, Lng 13.539512
+Website: https://saveit.cyou/donna-concetta-87bgd4
+Email: 
+
+2513. Hotel Borgo di Ciàula
+ID: 74f7f9da-948b-4437-b711-d2355fdc07d8
+Slug: hotel-borgo-di-ciaula-altavilla-milicia
+Nome: Hotel Borgo di Ciàula
+Comune / Provincia: Altavilla Milicia
+Indirizzo: Via Roma, 113, 90017 Santa Flavia PA
+Coordinate: Lat 38.091214, Lng 13.53946
+Website: https://borgodiciaula.com/
+Email: 
+
+2514. Hotel Sporting Club
+ID: 8eb938d7-61e9-431d-897f-c80b8585ec3f
+Slug: hotel-sporting-club-altavilla-milicia
+Nome: Hotel Sporting Club
+Comune / Provincia: Altavilla Milicia
+Indirizzo: Via Consolare, 16, 90010 Altavilla Milicia PA
+Coordinate: Lat 38.032755, Lng 13.58125
+Website: https://hotelsportingclub.it/
+Email: 
+
+2515. Hotel Torre Normanna
+ID: ef983388-cec9-4766-9c73-edb2334d8a88
+Slug: hotel-torre-normanna-altavilla-milicia
+Nome: Hotel Torre Normanna
+Comune / Provincia: Altavilla Milicia
+Indirizzo: Strada Comunale Piano Torre, 90010 Altavilla Milicia PA
+Coordinate: Lat 38.024828, Lng 13.597995
+Website: http://www.torrenormanna.it/
+Email: 
+
+2516. Hotel Villa Mare
+ID: d1d6302d-55bc-4dd6-951c-49143002975f
+Slug: hotel-villa-mare-altavilla-milicia
+Nome: Hotel Villa Mare
+Comune / Provincia: Altavilla Milicia
+Indirizzo: Via Vittorio Veneto, 45, 90010 Altavilla Milicia PA
+Coordinate: Lat 38.045111, Lng 13.55093
+Website: http://altavilla-milicia.com.es/
+Email: 
+
+2517. La Dimora dei Paladini
+ID: 1dca3a78-ca26-4f63-bd76-b55ff63a9ec8
+Slug: la-dimora-dei-paladini-altavilla-milicia
+Nome: La Dimora dei Paladini
+Comune / Provincia: Altavilla Milicia
+Indirizzo: Corso Butera, 232, 90011 Bagheria PA
+Coordinate: Lat 38.083905, Lng 13.50606
+Website: https://www.ladimoradeipaladini.com/
+Email: 
+
+2518. Luxury Boutique Hotel Blue Island Villa Caterina
+ID: 0a17a775-f01d-4ea7-b6f2-dedbd6e79eb8
+Slug: luxury-boutique-hotel-blue-island-villa-caterina-altavilla-milicia
+Nome: Luxury Boutique Hotel Blue Island Villa Caterina
+Comune / Provincia: Altavilla Milicia
+Indirizzo: Viale Kennedy, 40, 90014 Casteldaccia PA
+Coordinate: Lat 38.056703, Lng 13.538953
+Website: http://www.blueislandvillacaterina.com/
+Email: 
+
+2519. Principe Alogna Hotel & SPA
+ID: 1d13cfe4-9874-42eb-b3c0-b7b92268224d
+Slug: principe-alogna-hotel-spa-altavilla-milicia
+Nome: Principe Alogna Hotel & SPA
+Comune / Provincia: Altavilla Milicia
+Indirizzo: Str. Vicinale S. Nicola, 19, 90010 Altavilla Milicia PA
+Coordinate: Lat 38.009699, Lng 13.599855
+Website: http://www.principealogna.it/
+Email: 
+
+2520. Suite le palme
+ID: 8d3f55e5-78c8-47a3-8325-09253cbd03c5
+Slug: suite-le-palme-altavilla-milicia
+Nome: Suite le palme
+Comune / Provincia: Altavilla Milicia
+Indirizzo: Corso Italia, 45, 90011 Aspra PA
+Coordinate: Lat 38.10159, Lng 13.491105
+Website: http://suitelepalme.com/
+Email: 

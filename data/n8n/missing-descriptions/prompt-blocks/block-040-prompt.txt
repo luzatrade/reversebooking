@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+1366. Agriturismo Casa del principe
+ID: ace3f6af-870b-44b8-943e-cfbf47ea8d6b
+Slug: agriturismo-casa-del-principe-albaretto-della-torre
+Nome: Agriturismo Casa del principe
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Località Fontane, 15, 12050 Torre Bormida CN
+Coordinate: Lat 44.55842, Lng 8.13405
+Website: https://www.agriturismocasadelprincipe.it/
+Email: 
+
+1367. Agriturismo Cascina Pajanòt
+ID: 8ee212b6-ff67-47af-8171-106159ba4762
+Slug: agriturismo-cascina-pajanot-albaretto-della-torre
+Nome: Agriturismo Cascina Pajanòt
+Comune / Provincia: Albaretto della Torre
+Indirizzo: via Alba, 12050 Borgomale CN
+Coordinate: Lat 44.645584, Lng 8.09833
+Website: https://cascinapajanot.com/
+Email: 
+
+1368. Agriturismo Le Arcate
+ID: 9e747bf3-c822-4479-be4f-7e931b4d3dea
+Slug: agriturismo-le-arcate-albaretto-della-torre
+Nome: Agriturismo Le Arcate
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Via Montelupo, 52, 12050 Sinio CN
+Coordinate: Lat 44.60767, Lng 8.028411
+Website: http://www.agriturismolearcate.it/
+Email: 
+
+1369. Agriturismo Rihane
+ID: a31686af-586b-466e-ac07-79c494b1fda2
+Slug: agriturismo-rihane-albaretto-della-torre
+Nome: Agriturismo Rihane
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Località Assiè, 3, 12050 Sinio CN
+Coordinate: Lat 44.593292, Lng 8.022363
+Website: https://www.agriturismorihane.com/
+Email: 
+
+1370. Al Brich
+ID: db9e18d5-7ba4-4391-97c8-f06ea68d25eb
+Slug: al-brich-albaretto-della-torre
+Nome: Al Brich
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Via S. Antonino, 1/A, 12050 Albaretto della Torre CN
+Coordinate: Lat 44.598141, Lng 8.059086
+Website: http://www.agriturismoalbrich.it/
+Email: 
+
+1371. B&B Il Sole Delle Rive
+ID: d7e2aa39-e90c-4244-8c5f-81243b9b0448
+Slug: b-b-il-sole-delle-rive-albaretto-della-torre
+Nome: B&B Il Sole Delle Rive
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Via Borine, 29, 12050 Sinio CN
+Coordinate: Lat 44.604216, Lng 8.041354
+Website: —
+Email: 
+
+1372. B&B La Buonora
+ID: 0feb68db-fb94-4f42-b056-168cca34e85a
+Slug: b-b-la-buonora-albaretto-della-torre
+Nome: B&B La Buonora
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Via Montelupo, 59, 12050 Sinio CN
+Coordinate: Lat 44.606663, Lng 8.032671
+Website: https://www.allabuonora.com/
+Email: 
+
+1373. B&B La Fontana nelle Langhe
+ID: 1f864d63-39e5-4acc-9457-c69fb6cd5996
+Slug: b-b-la-fontana-nelle-langhe-albaretto-della-torre
+Nome: B&B La Fontana nelle Langhe
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Via della Fontana, 4, 12050 Rodello CN
+Coordinate: Lat 44.630698, Lng 8.056829
+Website: https://lafontananellelanghe.it/
+Email: 
+
+1374. B&B La Rola
+ID: 02739ee6-9723-4590-a097-5140f09a0b7a
+Slug: b-b-la-rola-albaretto-della-torre
+Nome: B&B La Rola
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Via Umberto, 4, 12050 Albaretto della Torre CN
+Coordinate: Lat 44.595715, Lng 8.064499
+Website: http://bblarola.it/
+Email: 
+
+1375. Casa di Langa
+ID: 7efa1662-33b6-47ac-8ac1-469cd97be741
+Slug: casa-di-langa-albaretto-della-torre
+Nome: Casa di Langa
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Località Talloria 1, 12050 Cerretto Langhe CN
+Coordinate: Lat 44.589909, Lng 8.046309
+Website: http://www.casadilanga.com/
+Email: 
+
+1376. Hotel Ca' del Lupo
+ID: 8d217386-be61-4dc4-8610-19d871e704b9
+Slug: hotel-ca-del-lupo-albaretto-della-torre
+Nome: Hotel Ca' del Lupo
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Via Ballerina, 14, 12050 Montelupo Albese CN
+Coordinate: Lat 44.617127, Lng 8.051396
+Website: https://www.cadellupo.it/
+Email: 
+
+1377. Hotel Castello di Sinio
+ID: de151977-6464-48e2-8f32-dfdcce39457f
+Slug: hotel-castello-di-sinio-albaretto-della-torre
+Nome: Hotel Castello di Sinio
+Comune / Provincia: Albaretto della Torre
+Indirizzo: vicolo del castello, 1, 12050 Sinio CN
+Coordinate: Lat 44.600069, Lng 8.021718
+Website: http://www.hotelcastellodisinio.com/
+Email: 
+
+1378. Il Boscareto Resort & Spa
+ID: 5dc740d1-f3b9-41a7-8e0e-363a1d6f5496
+Slug: il-boscareto-resort-spa-albaretto-della-torre
+Nome: Il Boscareto Resort & Spa
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Via Roddino, 21, 12050 Serralunga d'Alba CN
+Coordinate: Lat 44.594339, Lng 7.999865
+Website: http://www.ilboscaretoresort.it/
+Email: 
+
+1379. Orchidea selvatica
+ID: 05b01e13-70a3-45a0-9055-0dec4bea5c97
+Slug: orchidea-selvatica-albaretto-della-torre
+Nome: Orchidea selvatica
+Comune / Provincia: Albaretto della Torre
+Indirizzo: 12070 Levice CN
+Coordinate: Lat 44.543071, Lng 8.155477
+Website: —
+Email: 
+
+1380. Relais La Corte di Lequio
+ID: 09d10b5d-d36a-42c8-99e1-6aa65e393060
+Slug: relais-la-corte-di-lequio-albaretto-della-torre
+Nome: Relais La Corte di Lequio
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Via Langa, 19, 12050 Lequio Berria CN
+Coordinate: Lat 44.599835, Lng 8.093739
+Website: http://www.corte-di-lequio.com/
+Email: 
+
+1381. Sogni di Langa
+ID: 0449efa9-726f-4ba2-a413-89f77d54762c
+Slug: sogni-di-langa-albaretto-della-torre
+Nome: Sogni di Langa
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Loc. Pedaggera, 5, 12050 Cerretto Langhe CN
+Coordinate: Lat 44.576851, Lng 8.071157
+Website: https://www.booking.com/hotel/it/sogni-di-langa.it.html
+Email: 
+
+1382. Tenuta Bricchi
+ID: 32d20ff0-e9fd-4a1c-945a-2b968d5b9c1b
+Slug: tenuta-bricchi-albaretto-della-torre
+Nome: Tenuta Bricchi
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Via Montelupo, 45, 12050 Sinio CN
+Coordinate: Lat 44.607514, Lng 8.02698
+Website: http://www.tenutabricchi.it/
+Email: 
+
+1383. Trattoria Del Bivio
+ID: 473f7687-d888-4787-a8c2-7d9317ce601f
+Slug: trattoria-del-bivio-albaretto-della-torre
+Nome: Trattoria Del Bivio
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Loc Cavallotti, 9, 12050 Cerretto Langhe CN
+Coordinate: Lat 44.588045, Lng 8.074768
+Website: http://www.trattoriadelbivio.it/
+Email: 
+
+1384. Villa Moglietta Host in Langhe
+ID: bcd94a78-b12b-40d8-8076-f60733560e07
+Slug: villa-moglietta-host-in-langhe-albaretto-della-torre
+Nome: Villa Moglietta Host in Langhe
+Comune / Provincia: Albaretto della Torre
+Indirizzo: Via S. Antonino, 9 a, 12050 Albaretto della Torre CN
+Coordinate: Lat 44.59995, Lng 8.05242
+Website: https://www.villamoglietta.it/
+Email: 
+
+1385. Affitta camere Foresteria San Giuseppe
+ID: 9cdd6ccd-a9f1-4f68-a388-7c5de74f0042
+Slug: affitta-camere-foresteria-san-giuseppe-albavilla
+Nome: Affitta camere Foresteria San Giuseppe
+Comune / Provincia: Albavilla
+Indirizzo: Via Como, 19, 22036 Erba CO
+Coordinate: Lat 45.804496, Lng 9.202193
+Website: http://www.trattoriasangiuseppe.it/
+Email: 
+
+1386. Agriturismo Alpe di Lemna
+ID: 4d9ad0fa-3edb-4c4c-8b39-43e73bfb4561
+Slug: agriturismo-alpe-di-lemna-albavilla
+Nome: Agriturismo Alpe di Lemna
+Comune / Provincia: Albavilla
+Indirizzo: Alpe di Lemna - Fraz, 22020 Lemna CO
+Coordinate: Lat 45.845107, Lng 9.175056
+Website: https://www.facebook.com/Alpe-di-Lemna-524851077640548/
+Email: 
+
+1387. Agriturismo Cascina Mirandola
+ID: a77fbf9e-70e3-4732-acb3-54991d823858
+Slug: agriturismo-cascina-mirandola-albavilla
+Nome: Agriturismo Cascina Mirandola
+Comune / Provincia: Albavilla
+Indirizzo: Via B.Menni, 22032 Albese Con Cassano CO
+Coordinate: Lat 45.801145, Lng 9.166145
+Website: http://www.agriturismocomo.eu/
+Email: 
+
+1388. Agriturismo Il Talento Nella Quiete Lago di Como
+ID: f2ad7639-6ff3-4fae-9b5c-f3b6fa7d5027
+Slug: agriturismo-il-talento-nella-quiete-lago-di-como-albavilla
+Nome: Agriturismo Il Talento Nella Quiete Lago di Como
+Comune / Provincia: Albavilla
+Indirizzo: Via al Fareè, 16, 22023 Centro Valle Intelvi CO
+Coordinate: Lat 45.961061, Lng 9.079992
+Website: https://iltalentonellaquiete.com/
+Email: 
+
+1389. Agriturismo La Roggia
+ID: 76d663fd-29da-4d8f-8112-9c772600396b
+Slug: agriturismo-la-roggia-albavilla
+Nome: Agriturismo La Roggia
+Comune / Provincia: Albavilla
+Indirizzo: Via Alserio 29, 22036 Erba CO
+Coordinate: Lat 45.798191, Lng 9.214915
+Website: https://veniit.cyou/agriturismo-roggia-qp3ixi
+Email: 
+
+1390. Albavilla Hotel & Co.
+ID: 2c719b8a-2295-49c5-8230-94dd02b9b3fa
+Slug: albavilla-hotel-co-albavilla
+Nome: Albavilla Hotel & Co.
+Comune / Provincia: Albavilla
+Indirizzo: Via per Carcano, 6, 22031 Albavilla CO
+Coordinate: Lat 45.795827, Lng 9.1898
+Website: http://www.albavillahotel.it/
+Email: 
+
+1391. AQUARELLE Bed and Breakfast
+ID: 34870155-44c9-4207-bff6-86da4e40026b
+Slug: aquarelle-bed-and-breakfast-albavilla
+Nome: AQUARELLE Bed and Breakfast
+Comune / Provincia: Albavilla
+Indirizzo: Via Pisciola, 16, 22020 Palanzo CO
+Coordinate: Lat 45.865546, Lng 9.162656
+Website: http://www.aquarellebeb.it/
+Email: 
+
+1392. ARMONIA B & B
+ID: 9ae8f784-fe58-4b46-9af6-845add9564e2
+Slug: armonia-b-b-albavilla
+Nome: ARMONIA B & B
+Comune / Provincia: Albavilla
+Indirizzo: Via XXV Aprile, 13, 22031 Albavilla CO
+Coordinate: Lat 45.798601, Lng 9.183438
+Website: —
+Email: 
+
+1393. B&B CA' MONETA
+ID: e35df1c9-e511-47c1-bc71-b8c9c9f092d5
+Slug: b-b-ca-moneta-albavilla
+Nome: B&B CA' MONETA
+Comune / Provincia: Albavilla
+Indirizzo: Via P. Porro, 8, 22031 Albavilla CO
+Coordinate: Lat 45.80273, Lng 9.191965
+Website: —
+Email: 
+
+1394. B&B Cristalli di Luce
+ID: a21c7d1c-0023-42fe-a1d5-1f8c41cd3df2
+Slug: b-b-cristalli-di-luce-albavilla
+Nome: B&B Cristalli di Luce
+Comune / Provincia: Albavilla
+Indirizzo: Piazza Comunale, 7/15, 22031 Albavilla CO
+Coordinate: Lat 45.789751, Lng 9.201102
+Website: http://www.cristallidilucecomo.com/
+Email: 
+
+1395. B&B Il Castellaccio - Albavilla
+ID: 99473467-3c71-4a02-848c-ad4e1547a3e3
+Slug: b-b-il-castellaccio-albavilla-albavilla
+Nome: B&B Il Castellaccio - Albavilla
+Comune / Provincia: Albavilla
+Indirizzo: 50mt a destra dopo il tornante n.1 salendo verso l’Alpe del Viceré In collina a circa 2km dal paese, Via Partigiana, 10, 22031 Albavilla CO
+Coordinate: Lat 45.801328, Lng 9.179131
+Website: http://www.ilcastellaccioalbavilla.com/
+Email: 
+
+1396. B&B Il Coniglio Sulla Luna
+ID: 327a7f2d-f58e-43e2-bd9f-488497623613
+Slug: b-b-il-coniglio-sulla-luna-albavilla
+Nome: B&B Il Coniglio Sulla Luna
+Comune / Provincia: Albavilla
+Indirizzo: Via Vincenzo Bellini, 15, 22036 Erba CO
+Coordinate: Lat 45.817323, Lng 9.241754
+Website: http://www.ilconigliosullaluna.it/
+Email: 
+
+1397. B&B Le Lanterne
+ID: 31d23b74-dd4d-4418-880b-f5a8adf68906
+Slug: b-b-le-lanterne-albavilla
+Nome: B&B Le Lanterne
+Comune / Provincia: Albavilla
+Indirizzo: Via Stretta, 8, 22031 Albavilla CO
+Coordinate: Lat 45.8039, Lng 9.18904
+Website: https://www.allogi-lombardia.it/le-lanterne/
+Email: 
+
+1398. B&B Margot
+ID: a5a61beb-da25-404d-8564-35807e89baff
+Slug: b-b-margot-albavilla
+Nome: B&B Margot
+Comune / Provincia: Albavilla
+Indirizzo: Via Cesare Cantù, 42, 22031 Albavilla CO
+Coordinate: Lat 45.799225, Lng 9.1889
+Website: https://www.allogi-lombardia.it/bb-margot/
+Email: 
+
+1399. B&B Shabby Chic
+ID: f80d5609-e4ae-4dcb-aee1-b1bbd999c3fd
+Slug: b-b-shabby-chic-albavilla
+Nome: B&B Shabby Chic
+Comune / Provincia: Albavilla
+Indirizzo: Piazza Roma, 9, 22031 Albavilla CO
+Coordinate: Lat 45.802893, Lng 9.18835
+Website: https://www.allogi-lombardia.it/shabby-chic/
+Email: 
+
+1400. Cucina Delle Agridee - Azienda Agricola
+ID: c08f9043-b7bb-435c-bdee-e94efdab5438
+Slug: cucina-delle-agridee-azienda-agricola-albavilla
+Nome: Cucina Delle Agridee - Azienda Agricola
+Comune / Provincia: Albavilla
+Indirizzo: Via Urago, 13b, 22038 Tavernerio CO
+Coordinate: Lat 45.792996, Lng 9.145685
+Website: http://www.cucinadelleidee.it/
+Email: 

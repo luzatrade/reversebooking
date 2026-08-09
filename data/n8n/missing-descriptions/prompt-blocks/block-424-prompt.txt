@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+14806. Hotel Carignano
+ID: 155b2369-19d2-4cea-9f12-95ce814ca56d
+Slug: hotel-carignano-carignano-2
+Nome: Hotel Carignano
+Comune / Provincia: Carignano
+Indirizzo: Via di Sant'Alessio, 3680, 55100 Lucca LU
+Coordinate: Lat 43.861563, Lng 10.463692
+Website: http://www.carignanohotel.it/
+Email: 
+
+14807. Hotel Carignano
+ID: e16a62a1-6324-453a-a6aa-e02dc9eeb8fd
+Slug: hotel-carignano-carignano
+Nome: Hotel Carignano
+Comune / Provincia: Carignano
+Indirizzo: Viale Guglielmo Oberdan, 9, 47838 Riccione RN
+Coordinate: Lat 44.00024, Lng 12.66277
+Website: https://www.hotelcarignanoriccione.com/
+Email: 
+
+14808. Il Trattore Bed & Breakfast
+ID: 96699690-9a1f-4937-b640-8f0cf99d8265
+Slug: il-trattore-bed-breakfast-carignano
+Nome: Il Trattore Bed & Breakfast
+Comune / Provincia: Carignano
+Indirizzo: Frazione Gorra, 29, 10024 Carignano TO
+Coordinate: Lat 44.930008, Lng 7.698903
+Website: http://www.iltrattorebeb.com/
+Email: 
+
+14809. b&b le magnolie
+ID: be2ec7b1-1628-4535-a00a-449f111f9f7b
+Slug: b-b-le-magnolie-carimate
+Nome: b&b le magnolie
+Comune / Provincia: Carimate
+Indirizzo: Via del Golf, 51, 22060 Carimate CO
+Coordinate: Lat 45.710321, Lng 9.102539
+Website: http://b-b-le-magnolie.org.es/
+Email: 
+
+14810. Bed and Breakfast. ViadelGolf41
+ID: 21727397-7081-4d36-bd5f-87df3240a2f1
+Slug: bed-and-breakfast-viadelgolf41-carimate
+Nome: Bed and Breakfast. ViadelGolf41
+Comune / Provincia: Carimate
+Indirizzo: Strada Privata del Golf, 41, 22060 Carimate CO
+Coordinate: Lat 45.711781, Lng 9.103848
+Website: —
+Email: 
+
+14811. Castello di Carimate
+ID: 0b0818dd-38c9-49cb-a303-2f8e3df5cb12
+Slug: castello-di-carimate-carimate
+Nome: Castello di Carimate
+Comune / Provincia: Carimate
+Indirizzo: Piazza Castello, 1, 22060 Carimate CO
+Coordinate: Lat 45.702701, Lng 9.115314
+Website: https://www.icastelli.net/it/castello-di-carimate-hotel-spa
+Email: 
+
+14812. Lake Como Golf Hotel
+ID: ea493816-0c8e-4ffe-9935-4c637047c0cd
+Slug: lake-como-golf-hotel-carimate
+Nome: Lake Como Golf Hotel
+Comune / Provincia: Carimate
+Indirizzo: Piazza Spallino, 2, 22060 Montesolaro CO
+Coordinate: Lat 45.71809, Lng 9.117474
+Website: http://www.lakecomogolfhotel.com/
+Email: 
+
+14813. Benjoy Hotel
+ID: 936f4fd7-8374-4393-b5e3-a370f120ecc8
+Slug: benjoy-hotel-carinaro
+Nome: Benjoy Hotel
+Comune / Provincia: Carinaro
+Indirizzo: Via Martiri Atellani, 6, 81030 Sant'Arpino CE
+Coordinate: Lat 40.966357, Lng 14.236413
+Website: —
+Email: 
+
+14814. Building Hotel Caserta
+ID: 04ba3b45-500f-43a8-bcac-1b483582f65e
+Slug: building-hotel-caserta-carinaro
+Nome: Building Hotel Caserta
+Comune / Provincia: Carinaro
+Indirizzo: Zona Industriale, 81032 Carinaro CE
+Coordinate: Lat 41.002299, Lng 14.224596
+Website: https://www.buildinghotelcaserta.it/
+Email: 
+
+14815. Hangar Hotel
+ID: d9dcd082-707d-4f36-881a-73debf3b7090
+Slug: hangar-hotel-carinaro
+Nome: Hangar Hotel
+Comune / Provincia: Carinaro
+Indirizzo: Aversa Nord, Str. Consortile, 81031 Asi CE
+Coordinate: Lat 41.00451, Lng 14.215019
+Website: http://www.hangarhotel.it/
+Email: 
+
+14816. Hotel Briganti
+ID: 7326c9f1-0298-4f18-a071-57ef3ff0ab05
+Slug: hotel-briganti-carinaro
+Nome: Hotel Briganti
+Comune / Provincia: Carinaro
+Indirizzo: SP1, 40, 80019 Qualiano NA
+Coordinate: Lat 40.928078, Lng 14.156154
+Website: https://www.brigantihotel.it/
+Email: 
+
+14817. Hotel Cappuccetto Rosso
+ID: 3123735a-a9d0-4e51-b2c6-33e04a6898b5
+Slug: hotel-cappuccetto-rosso-carinaro
+Nome: Hotel Cappuccetto Rosso
+Comune / Provincia: Carinaro
+Indirizzo: Via Gramsci, 5, 81030 Lusciano CE
+Coordinate: Lat 40.964034, Lng 14.172751
+Website: https://www.solocaserta.it/hotel/75-Hotel-Cappuccetto-Rosso-citta-Lusciano
+Email: 
+
+14818. Hotel Plana
+ID: 99466502-59d3-42df-a1ec-e557e1b54c39
+Slug: hotel-plana-carinaro
+Nome: Hotel Plana
+Comune / Provincia: Carinaro
+Indirizzo: Via Domenico Mondo, 81100 Caserta CE
+Coordinate: Lat 41.067823, Lng 14.316332
+Website: http://planahotel.it/
+Email: 
+
+14819. Inn Naples Airport
+ID: 0c5efbc0-86f4-41a7-bbb3-de7eb03c9896
+Slug: inn-naples-airport-carinaro
+Nome: Inn Naples Airport
+Comune / Provincia: Carinaro
+Indirizzo: Via Boscariello, 81030 Gricignano di Aversa CE
+Coordinate: Lat 40.988268, Lng 14.241942
+Website: https://www.marriott.com/en-us/hotels/napnn-inn-naples-airport/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0
+Email: 
+
+14820. MOTEL 24H
+ID: e6e756a0-3233-4494-a85f-12c8465b96f0
+Slug: motel-24h-carinaro
+Nome: MOTEL 24H
+Comune / Provincia: Carinaro
+Indirizzo: Viale della Libertà, 100, 81030 Lusciano CE
+Coordinate: Lat 40.964396, Lng 14.177029
+Website: https://www.hotelsitaloweb.com/motel-24h/
+Email: 
+
+14821. B&B La Trinacria
+ID: 62429ffd-bfbd-4f03-b8cb-1e3efdf10853
+Slug: b-b-la-trinacria-carini
+Nome: B&B La Trinacria
+Comune / Provincia: Carini
+Indirizzo: Via Giuseppe Pitrè, 146, 90049 Terrasini PA
+Coordinate: Lat 38.146483, Lng 13.084496
+Website: —
+Email: 
+
+14822. Camera 81 Homestay
+ID: c494b27d-7df3-4c2d-938e-9821c6747667
+Slug: camera-81-homestay-carini
+Nome: Camera 81 Homestay
+Comune / Provincia: Carini
+Indirizzo: Via Enrico Berlinguer, 81, 90044 Carini PA
+Coordinate: Lat 38.155662, Lng 13.154806
+Website: https://depandance.bedsandhotels.com/
+Email: 
+
+14823. Cappuccini Green Relax
+ID: 849930c3-1ff2-4a45-ad55-01ca5fae191e
+Slug: cappuccini-green-relax-carini
+Nome: Cappuccini Green Relax
+Comune / Provincia: Carini
+Indirizzo: Via Antonino Curreri, 144, 90044 Carini PA
+Coordinate: Lat 38.130852, Lng 13.177329
+Website: https://www.cappuccinigreenrelax.com/
+Email: 
+
+14824. Dojo Idro rooms
+ID: 66d163d4-6709-405d-be3f-02708a3c9bdc
+Slug: dojo-idro-rooms-carini
+Nome: Dojo Idro rooms
+Comune / Provincia: Carini
+Indirizzo: SS 113 Settentrionale Sicula, 241, 90044 Carini PA
+Coordinate: Lat 38.157973, Lng 13.198329
+Website: https://www.dojoespa.com/
+Email: 
+
+14825. Fiori di quercia
+ID: 486db5c3-a3c0-4f17-b0b4-f42aeb6b692f
+Slug: fiori-di-quercia-carini
+Nome: Fiori di quercia
+Comune / Provincia: Carini
+Indirizzo: Via Lazio, 25, 90044 Carini PA
+Coordinate: Lat 38.135373, Lng 13.186524
+Website: —
+Email: 
+
+14826. HUB Rooms
+ID: e79fcc47-df96-4786-8e3d-186a256cd744
+Slug: hub-rooms-carini
+Nome: HUB Rooms
+Comune / Provincia: Carini
+Indirizzo: Corso Italia, 198, 90044 Carini PA
+Coordinate: Lat 38.146744, Lng 13.188178
+Website: https://www.hubcoworkingandrooms.com/
+Email: 
+
+14827. Il melograno
+ID: 792bd2fb-9a7b-43a7-82c1-ecffe8039c1e
+Slug: il-melograno-carini
+Nome: Il melograno
+Comune / Provincia: Carini
+Indirizzo: Via Padre Pietro Migliore, 11, 90044 Carini PA
+Coordinate: Lat 38.144217, Lng 13.188898
+Website: —
+Email: 
+
+14828. Kristal
+ID: 86300df1-842f-4334-b48a-87509a6951fd
+Slug: kristal-carini
+Nome: Kristal
+Comune / Provincia: Carini
+Indirizzo: Corso Umberto I, 204A, 90045 Cinisi PA
+Coordinate: Lat 38.158273, Lng 13.105453
+Website: https://kristal.alberghiinitalia.top/
+Email: 
+
+14829. Le Métro
+ID: f713d3f1-b4d4-4e68-8479-1eff7ae1649b
+Slug: le-metro-carini
+Nome: Le Métro
+Comune / Provincia: Carini
+Indirizzo: Piazza Stazione, 32, 90044 Carini PA
+Coordinate: Lat 38.147474, Lng 13.18716
+Website: —
+Email: 
+
+14830. Piano Monaco
+ID: 3f224f10-85eb-4d69-bb6f-a97e0c231523
+Slug: piano-monaco-carini
+Nome: Piano Monaco
+Comune / Provincia: Carini
+Indirizzo: Via Madonna delle Grazie, 41/43, 90044 Carini PA
+Coordinate: Lat 38.163235, Lng 13.174156
+Website: http://www.pianomonaco.it/
+Email: 
+
+14831. Sicily rooms
+ID: 24523662-2faa-48e4-9c0a-4798cd2fabb7
+Slug: sicily-rooms-carini
+Nome: Sicily rooms
+Comune / Provincia: Carini
+Indirizzo: Unnamed Road, 90044, 90044 Carini PA
+Coordinate: Lat 38.166678, Lng 13.221471
+Website: —
+Email: 
+
+14832. Vecchia Carrucola
+ID: e58776d8-36e4-454f-b5ba-88990146a069
+Slug: vecchia-carrucola-carini
+Nome: Vecchia Carrucola
+Comune / Provincia: Carini
+Indirizzo: P.za San Francesco, 2, 90044 Carini PA
+Coordinate: Lat 38.133099, Lng 13.183899
+Website: —
+Email: 
+
+14833. Villa Sul Mare Palermo
+ID: 0409ff94-c775-4caa-9a24-3c168a321816
+Slug: villa-sul-mare-palermo-carini
+Nome: Villa Sul Mare Palermo
+Comune / Provincia: Carini
+Indirizzo: via Portulaca, 36, 90044 Carini PA
+Coordinate: Lat 38.167598, Lng 13.159343
+Website: —
+Email: 
+
+14834. Agriturismo La Caffettiera
+ID: b664543f-3592-4f61-815b-09cddf13b40e
+Slug: agriturismo-la-caffettiera-carinola
+Nome: Agriturismo La Caffettiera
+Comune / Provincia: Carinola
+Indirizzo: Via masseria Caffettiera, 54, 81040 Francolise CE
+Coordinate: Lat 41.16636, Lng 14.066275
+Website: https://www.agriturismolacaffettiera.com/
+Email: 
+
+14835. Agriturismo La Molara San Martino
+ID: 28a027a5-0c6c-4f97-854f-53d75e9b0b8b
+Slug: agriturismo-la-molara-san-martino-carinola
+Nome: Agriturismo La Molara San Martino
+Comune / Provincia: Carinola
+Indirizzo: Via Sessa Mignano, 81030 San Martino CE
+Coordinate: Lat 41.296902, Lng 13.92299
+Website: http://www.agriturismolamolara.it/
+Email: 
+
+14836. Agriturismo Masseria Campierti
+ID: cec297a5-0689-4e12-b1a0-4a42f9371c0c
+Slug: agriturismo-masseria-campierti-carinola
+Nome: Agriturismo Masseria Campierti
+Comune / Provincia: Carinola
+Indirizzo: Strada Falciano, 81030 Casanova CE
+Coordinate: Lat 41.177225, Lng 13.960571
+Website: https://www.masseriacampierti.it/
+Email: 
+
+14837. Cascine e Dintorni
+ID: 64c5791c-2a16-47e2-b3a5-89a86cddeb4b
+Slug: cascine-e-dintorni-carinola
+Nome: Cascine e Dintorni
+Comune / Provincia: Carinola
+Indirizzo: Viale dei Ciliegi, 81057 Casale CE
+Coordinate: Lat 41.235172, Lng 13.989587
+Website: http://www.cascineedintorni.it/
+Email: 
+
+14838. Consoli Crispino
+ID: 4902364f-e52f-481b-8399-d74d7ba3c6a3
+Slug: consoli-crispino-carinola
+Nome: Consoli Crispino
+Comune / Provincia: Carinola
+Indirizzo: Via Circumvallazione, 11, 81050 Francolise CE
+Coordinate: Lat 41.187006, Lng 14.052969
+Website: https://amalfit.cyou/consoli-crispino-06c1ri
+Email: 
+
+14839. Hotel Sinuessa Terme
+ID: aabea0e3-fd61-4c1f-9e14-e20202e8f07b
+Slug: hotel-sinuessa-terme-carinola
+Nome: Hotel Sinuessa Terme
+Comune / Provincia: Carinola
+Indirizzo: presso Hotel Sinuessa, Via Domiziana, Km 14.600, 81037 Mondragone CE
+Coordinate: Lat 41.141407, Lng 13.856294
+Website: https://www.hotelsinuessaterme.com/
+Email: 
+
+14840. LA CAVELLA | Ristorante & Country House | Sessa Aurunca
+ID: bb6fcc83-b2d2-4979-a504-3cb5a694e282
+Slug: la-cavella-ristorante-country-house-sessa-aurunc-carinola
+Nome: LA CAVELLA | Ristorante & Country House | Sessa Aurunca
+Comune / Provincia: Carinola
+Indirizzo: Via Pasquale, Via P. Tuozzi, 42, 81037 Sessa Aurunca CE
+Coordinate: Lat 41.216329, Lng 13.930323
+Website: —
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+1226. Aia Resort
+ID: ec7c311c-fcee-42c1-97e5-4ebc98ac6eb3
+Slug: aia-resort-albanella
+Nome: Aia Resort
+Comune / Provincia: Albanella
+Indirizzo: 84070 Trentinara SA
+Coordinate: Lat 40.412807, Lng 15.106208
+Website: http://www.aiaresort.it/
+Email: 
+
+1227. B&B Il Giardino dei Pini
+ID: 7e324abf-0c84-4ffe-94c5-71a83d6e1603
+Slug: b-b-il-giardino-dei-pini-albanella
+Nome: B&B Il Giardino dei Pini
+Comune / Provincia: Albanella
+Indirizzo: Via Filette, 11, 84047 Capaccio Paestum SA
+Coordinate: Lat 40.460602, Lng 15.023658
+Website: https://ilgiardinodeipini.it/
+Email: 
+
+1228. B&B La Mortella
+ID: 3b5243ad-1176-4cd2-9343-f5e1b129ec90
+Slug: b-b-la-mortella-albanella
+Nome: B&B La Mortella
+Comune / Provincia: Albanella
+Indirizzo: Via Doglie, 44, 84069 Roccadaspide SA
+Coordinate: Lat 40.481917, Lng 15.144785
+Website: http://www.la-mortella.it/
+Email: 
+
+1229. B&B Nonna Angela
+ID: 989cb384-04af-4b98-b0d4-a0e146d7f7c8
+Slug: b-b-nonna-angela-albanella
+Nome: B&B Nonna Angela
+Comune / Provincia: Albanella
+Indirizzo: Via Difesa Ciglio, 24, 84044 Albanella SA
+Coordinate: Lat 40.479001, Lng 15.118149
+Website: https://www.facebook.com/BbNonnaAngela/
+Email: 
+
+1230. B&b Palazzo Albini
+ID: 4288e38b-5d10-43db-bae1-581150be0a78
+Slug: b-b-palazzo-albini-albanella
+Nome: B&b Palazzo Albini
+Comune / Provincia: Albanella
+Indirizzo: Via Marconi, 4, 84044 Albanella SA
+Coordinate: Lat 40.479421, Lng 15.114037
+Website: http://www.palazzoalbini.it/
+Email: 
+
+1231. Casa degli Ulivi
+ID: 284d533a-9796-4352-8c46-c80dec2337c4
+Slug: casa-degli-ulivi-albanella
+Nome: Casa degli Ulivi
+Comune / Provincia: Albanella
+Indirizzo: Via Feudo Vignone, 32, 84047 Capaccio Paestum SA
+Coordinate: Lat 40.462842, Lng 15.03044
+Website: http://bbcasadegliulivi.it/
+Email: 
+
+1232. CASALE DEGLI ULIVI
+ID: 433f22ba-1f17-4238-a2dc-c15555fd2e0e
+Slug: casale-degli-ulivi-albanella
+Nome: CASALE DEGLI ULIVI
+Comune / Provincia: Albanella
+Indirizzo: Via Carretiello, 31, 84069 Roccadaspide SA
+Coordinate: Lat 40.452935, Lng 15.196153
+Website: https://relait.cyou/casale-degli-ulivi-mbn6vs
+Email: 
+
+1233. Country House L'ippocastano
+ID: 4ea7f07c-ebf7-4402-b69f-af7378630966
+Slug: country-house-l-ippocastano-albanella
+Nome: Country House L'ippocastano
+Comune / Provincia: Albanella
+Indirizzo: Località Campoluongo, 9, 84045 Altavilla Silentina SA
+Coordinate: Lat 40.524819, Lng 15.096741
+Website: http://www.bed-and-breakfast.it/pagina.cfm?ID=7712&IDregione=4
+Email: 
+
+1234. Hotel Baia del Sole
+ID: 6a2b5c7d-1a39-4e4f-be6d-78133d9d71b7
+Slug: hotel-baia-del-sole-albanella
+Nome: Hotel Baia del Sole
+Comune / Provincia: Albanella
+Indirizzo: Via Urano, 23, 84047 Capaccio Paestum SA
+Coordinate: Lat 40.412897, Lng 14.99079
+Website: —
+Email: 
+
+1235. Hotel Paradiso
+ID: e70a5aaa-6ec8-4e7f-932f-fc7889581c42
+Slug: hotel-paradiso-albanella
+Nome: Hotel Paradiso
+Comune / Provincia: Albanella
+Indirizzo: Via Monteverde, 31, 84044 Albanella SA
+Coordinate: Lat 40.50277, Lng 15.071829
+Website: —
+Email: 
+
+1236. Il Casolare degli Alburni
+ID: 5f6bc4f9-c41d-43cf-8219-339e402b3394
+Slug: il-casolare-degli-alburni-albanella
+Nome: Il Casolare degli Alburni
+Comune / Provincia: Albanella
+Indirizzo: Contrada Serra, 84020 Castelcivita SA
+Coordinate: Lat 40.48188, Lng 15.180704
+Website: http://www.ilcasolaredeglialburni.it/
+Email: 
+
+1237. L'Antico Casolare
+ID: 9a013708-9d37-4a03-975c-ccee5045835e
+Slug: l-antico-casolare-albanella
+Nome: L'Antico Casolare
+Comune / Provincia: Albanella
+Indirizzo: contrada suvero, 84020 Castelcivita SA
+Coordinate: Lat 40.47685, Lng 15.18122
+Website: https://travellingmark.com/agriturismo-l-39-antico-casolare-italy
+Email: 
+
+1238. L'Araba Fenice Hotel & Resort
+ID: 2083b3c4-cbc6-4aa7-a3c0-b0e0f5d811bd
+Slug: l-araba-fenice-hotel-resort-albanella
+Nome: L'Araba Fenice Hotel & Resort
+Comune / Provincia: Albanella
+Indirizzo: Contrada Falagato, 39, 84045 Altavilla Silentina SA
+Coordinate: Lat 40.522202, Lng 15.074115
+Website: http://www.arabafenicespa.com/
+Email: 
+
+1239. Pietra del Colle Agriturismo
+ID: c42af4b3-f7a8-495d-8a8a-5848c6b8675a
+Slug: pietra-del-colle-agriturismo-albanella
+Nome: Pietra del Colle Agriturismo
+Comune / Provincia: Albanella
+Indirizzo: via cassile, 24, 84045 Altavilla Silentina SA
+Coordinate: Lat 40.517066, Lng 15.152086
+Website: —
+Email: 
+
+1240. San Nicola il sole Counrty House
+ID: f5c4c2dd-a7c0-4711-8268-f4f84dcda9a9
+Slug: san-nicola-il-sole-counrty-house-albanella
+Nome: San Nicola il sole Counrty House
+Comune / Provincia: Albanella
+Indirizzo: Via San Nicola, 17, 84044 Albanella SA SA
+Coordinate: Lat 40.49914, Lng 15.10062
+Website: —
+Email: 
+
+1241. Tenuta il Giardino di Eros
+ID: ab302837-088a-4190-9a09-258cd3bb430f
+Slug: tenuta-il-giardino-di-eros-albanella
+Nome: Tenuta il Giardino di Eros
+Comune / Provincia: Albanella
+Indirizzo: Via Chiazzino, 5, 84069 Roccadaspide SA
+Coordinate: Lat 40.462358, Lng 15.140309
+Website: —
+Email: 
+
+1242. Villa di Bartolomeo
+ID: 546c213c-1e1c-48d8-af22-a65355fe6807
+Slug: villa-di-bartolomeo-albanella
+Nome: Villa di Bartolomeo
+Comune / Provincia: Albanella
+Indirizzo: SS166, n° 324, 84069 Capaccio Paestum SA
+Coordinate: Lat 40.462514, Lng 15.088729
+Website: https://hugorecommends.eu/villa-di-bartolomeo-italy
+Email: 
+
+1243. Agriturismo Il Molino Della Contessa
+ID: 5c97b47b-6bef-455f-b1f5-66e0806706f8
+Slug: agriturismo-il-molino-della-contessa-albano-di-lucania
+Nome: Agriturismo Il Molino Della Contessa
+Comune / Provincia: Albano di Lucania
+Indirizzo: Località, Str. Interpoderale Santa Croce Camastra, 85010 Castelmezzano PZ
+Coordinate: Lat 40.56278, Lng 16.01307
+Website: http://www.molinodellacontessa.com/
+Email: 
+
+1244. B&B Il Patriarca
+ID: 90b24190-4de7-4724-920f-135d0e538101
+Slug: b-b-il-patriarca-albano-di-lucania
+Nome: B&B Il Patriarca
+Comune / Provincia: Albano di Lucania
+Indirizzo: Via Gioberti, 4, 85010 Albano di Lucania PZ
+Coordinate: Lat 40.585163, Lng 16.035932
+Website: http://www.ilpatriarca.com/
+Email: 
+
+1245. B&B La Bella Vista
+ID: 772798a0-5668-467c-bc00-175e89dfa355
+Slug: b-b-la-bella-vista-albano-di-lucania
+Nome: B&B La Bella Vista
+Comune / Provincia: Albano di Lucania
+Indirizzo: Via Bellini, 3, 85010 Albano di Lucania PZ
+Coordinate: Lat 40.584363, Lng 16.037199
+Website: —
+Email: 
+
+1246. B&B La casa di Giulietta
+ID: e41765d6-007f-4514-8c77-b35841189990
+Slug: b-b-la-casa-di-giulietta-albano-di-lucania
+Nome: B&B La casa di Giulietta
+Comune / Provincia: Albano di Lucania
+Indirizzo: Via Giuseppe Garibaldi, 18, 85010 Castelmezzano PZ
+Coordinate: Lat 40.530597, Lng 16.049135
+Website: http://www.lacasadigiulietta.net/
+Email: 
+
+1247. Hotel Dolomiti Castelmezzano
+ID: d67d844e-cdbf-4744-88ea-f5ff2f6fb101
+Slug: hotel-dolomiti-castelmezzano-albano-di-lucania
+Nome: Hotel Dolomiti Castelmezzano
+Comune / Provincia: Albano di Lucania
+Indirizzo: Via Michele Volini, 19, 85010 Castelmezzano PZ
+Coordinate: Lat 40.529767, Lng 16.045018
+Website: https://hoteldolomiticastelmezzano.com/
+Email: 
+
+1248. Il Nibbio Reale
+ID: 9077d259-17b5-4e3c-902b-39e146183a73
+Slug: il-nibbio-reale-albano-di-lucania
+Nome: Il Nibbio Reale
+Comune / Provincia: Albano di Lucania
+Indirizzo: Via Padre Pio, 2a, 85010 Albano di Lucania PZ
+Coordinate: Lat 40.582354, Lng 16.035188
+Website: —
+Email: 
+
+1249. La Locanda di Castromediano
+ID: 25575b87-8ee3-47cd-ac7f-7d3da31521b6
+Slug: la-locanda-di-castromediano-albano-di-lucania
+Nome: La Locanda di Castromediano
+Comune / Provincia: Albano di Lucania
+Indirizzo: Via Michele Volini, 50, 85010 Castelmezzano PZ
+Coordinate: Lat 40.529923, Lng 16.046162
+Website: http://www.beccodellacivetta.it/
+Email: 
+
+1250. Residenza Balios
+ID: 791ece83-715f-4e66-ab8c-119a5ed6facb
+Slug: residenza-balios-albano-di-lucania
+Nome: Residenza Balios
+Comune / Provincia: Albano di Lucania
+Indirizzo: Piazza dei Caduti, 12, 85010 Vaglio Basilicata PZ
+Coordinate: Lat 40.667883, Lng 15.919121
+Website: https://residenzabalios.it/
+Email: 
+
+1251. Agriturismo Casale degli Archi
+ID: 45c0c89d-c04b-4582-a276-c0c8d37596a3
+Slug: agriturismo-casale-degli-archi-albano-laziale
+Nome: Agriturismo Casale degli Archi
+Comune / Provincia: Albano Laziale
+Indirizzo: Via Appia Nuova, 3, 00073 Castel Gandolfo RM
+Coordinate: Lat 41.741708, Lng 12.644028
+Website: http://www.casaledegliarchi.it/
+Email: 
+
+1252. Ai Vecchi Tempi
+ID: 5c3365a5-f027-4caa-b299-26cd3c460c45
+Slug: ai-vecchi-tempi-albano-laziale
+Nome: Ai Vecchi Tempi
+Comune / Provincia: Albano Laziale
+Indirizzo: Via Nettunense, Km 3.200, 00047 Marino RM
+Coordinate: Lat 41.739239, Lng 12.616492
+Website: https://ai-vecchi-tempi.worhot.com/
+Email: 
+
+1253. Albano Station Rooms Bed & Breakfast Castelli Romani Castelgandolfo Marino Ciampino Ariccia Genzano
+ID: 801f96de-2381-4e2d-9f9d-cc48b8a7c9e7
+Slug: albano-station-rooms-bed-breakfast-castelli-roma-albano-laziale
+Nome: Albano Station Rooms Bed & Breakfast Castelli Romani Castelgandolfo Marino Ciampino Ariccia Genzano
+Comune / Provincia: Albano Laziale
+Indirizzo: Via del Mare 34 00041 Pavona, di Albano Laziale RM
+Coordinate: Lat 41.724406, Lng 12.610088
+Website: https://albano-station-rooms-bed.camerainitalia.top/
+Email: 
+
+1254. B&B La Casa di Milady
+ID: 757dc2fd-52e0-4206-b423-03be4a2e84e0
+Slug: b-b-la-casa-di-milady-albano-laziale
+Nome: B&B La Casa di Milady
+Comune / Provincia: Albano Laziale
+Indirizzo: Via Ettore Ronconi, 33, 00045 Genzano di Roma RM
+Coordinate: Lat 41.705979, Lng 12.691268
+Website: —
+Email: 
+
+1255. Bed and Breakfast 4 Rent Albano Laziale
+ID: 865f79b5-e24c-42cf-952d-ae6ecdfc9329
+Slug: bed-and-breakfast-4-rent-albano-laziale-albano-laziale
+Nome: Bed and Breakfast 4 Rent Albano Laziale
+Comune / Provincia: Albano Laziale
+Indirizzo: Via Parma, 3A/3B, 00041 Albano Laziale RM
+Coordinate: Lat 41.726448, Lng 12.609918
+Website: https://4-rent.percorsiitaliani.top/
+Email: 
+
+1256. Cape House
+ID: 9d225e0b-eac1-450e-a0fc-ba90fe71a51b
+Slug: cape-house-albano-laziale
+Nome: Cape House
+Comune / Provincia: Albano Laziale
+Indirizzo: Via Tenutella, 70 bis, 00041 Albano Laziale RM
+Coordinate: Lat 41.720862, Lng 12.637744
+Website: http://www.capehouse.it/
+Email: 
+
+1257. Casale della Certosa
+ID: 63d2560f-82b7-42c6-87fd-ca0ded029d49
+Slug: casale-della-certosa-albano-laziale
+Nome: Casale della Certosa
+Comune / Provincia: Albano Laziale
+Indirizzo: Via Pietrelcina, 6, 00134 Roma RM
+Coordinate: Lat 41.719984, Lng 12.584415
+Website: https://hotelcasalecertosa.com/
+Email: 
+
+1258. Casita Jolanda
+ID: c6313428-fa65-49e6-ad94-4072babbd304
+Slug: casita-jolanda-albano-laziale
+Nome: Casita Jolanda
+Comune / Provincia: Albano Laziale
+Indirizzo: VIA CAVOUR, 17, 00041 Albano Laziale RM
+Coordinate: Lat 41.72851, Lng 12.659907
+Website: —
+Email: 
+
+1259. Hotel California
+ID: 72d57973-fe69-4ab4-9893-e9524c1b725c
+Slug: hotel-california-albano-laziale
+Nome: Hotel California
+Comune / Provincia: Albano Laziale
+Indirizzo: Via Quarto Negroni, 46, 00072 Ariccia RM
+Coordinate: Lat 41.709855, Lng 12.627121
+Website: http://www.hcalifornia.com/
+Email: 
+
+1260. Hotel Castel Vecchio
+ID: d013fee1-acdc-4037-ac88-8efb299906e3
+Slug: hotel-castel-vecchio-albano-laziale
+Nome: Hotel Castel Vecchio
+Comune / Provincia: Albano Laziale
+Indirizzo: Viale Pio XI, 23, 00073 Castel Gandolfo RM
+Coordinate: Lat 41.741142, Lng 12.654726
+Website: http://www.hotelcastelvecchio.com/hotelcastelvecchio/
+Email: 

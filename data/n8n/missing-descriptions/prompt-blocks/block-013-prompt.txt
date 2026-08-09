@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+421. Rossy Palace - Amalficoast Suites
+ID: b8bd0fb6-dd4a-488f-92a5-42396639d0b1
+Slug: rossy-palace-amalficoast-suites-agerola
+Nome: Rossy Palace - Amalficoast Suites
+Comune / Provincia: Agerola
+Indirizzo: Via Belvedere, 13, 80051 Agerola NA
+Coordinate: Lat 40.62505, Lng 14.545853
+Website: —
+Email: 
+
+422. Silvana's House
+ID: cb327aba-7e6f-4417-ab4f-f74be62c77f3
+Slug: silvana-s-house-agerola
+Nome: Silvana's House
+Comune / Provincia: Agerola
+Indirizzo: Via Antonio Coppola, 61, 80051 San Lazzaro NA
+Coordinate: Lat 40.627292, Lng 14.565591
+Website: https://silvanashouse.vacation-bookings.com/
+Email: 
+
+423. Terrazza 72 Deluxe Room & Breakfast
+ID: 91380dcb-6a43-4179-b9eb-8618a95022a4
+Slug: terrazza-72-deluxe-room-breakfast-agerola
+Nome: Terrazza 72 Deluxe Room & Breakfast
+Comune / Provincia: Agerola
+Indirizzo: Via Miramare, 24/26, 80051 Agerola NA
+Coordinate: Lat 40.624293, Lng 14.567732
+Website: https://www.booking.com/hotel/it/terrazza-72.it.html?aid=318615&label=New_Italian_IT_IT_21439071025-UNZN0NGydu%2Ab2jBBcXOAlgS640938613103%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg&sid=7c9066d1bd0ceb6affca6b403dcc55d8&dest_id=-109981&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1774961717&srpvid=893b5ad6d57703cf&type=total&ucfs=1&
+Email: 
+
+424. Zia Adele
+ID: 588f0f12-69f6-43c4-85a6-b6f2184e0182
+Slug: zia-adele-agerola
+Nome: Zia Adele
+Comune / Provincia: Agerola
+Indirizzo: Via Antonio Coppola, 143, 80051 Pianillo NA
+Coordinate: Lat 40.629475, Lng 14.562729
+Website: http://da-zia-adele.sud-italia.it/
+Email: 
+
+425. Agriturismo Il Muto di Gallura
+ID: 622989ba-43d1-4b38-a5dd-fee7a8702f9f
+Slug: agriturismo-il-muto-di-gallura-aggius
+Nome: Agriturismo Il Muto di Gallura
+Comune / Provincia: Aggius
+Indirizzo: SP27, 07020 Aggius OT
+Coordinate: Lat 40.921651, Lng 9.067931
+Website: https://www.mutodigallura.com/
+Email: 
+
+426. Al Vecchio Corso Locanda (B&B e Ristorante)
+ID: 4e2093d4-542a-4ae6-ac00-5df881d77b42
+Slug: al-vecchio-corso-locanda-b-b-e-ristorante-aggius
+Nome: Al Vecchio Corso Locanda (B&B e Ristorante)
+Comune / Provincia: Aggius
+Indirizzo: Via Roma, 96, 07029 Tempio Pausania OT
+Coordinate: Lat 40.903718, Lng 9.103133
+Website: —
+Email: 
+
+427. B&B Camera & Caffè
+ID: c0c6f084-89e6-42ec-9f98-f98502a2cb8f
+Slug: b-b-camera-caffe-aggius
+Nome: B&B Camera & Caffè
+Comune / Provincia: Aggius
+Indirizzo: Via Mentana, 5, 07029 Tempio Pausania OT
+Coordinate: Lat 40.904579, Lng 9.105154
+Website: https://www.booking.com/hotel/it/b-b-camera-caffe.it.html
+Email: 
+
+428. B&b Da Silvestro
+ID: 400ff47f-0681-4d10-8cbc-41cf25ade5c1
+Slug: b-b-da-silvestro-aggius
+Nome: B&b Da Silvestro
+Comune / Provincia: Aggius
+Indirizzo: Via Belluno, 53, 07029 Tempio Pausania OT
+Coordinate: Lat 40.909187, Lng 9.098061
+Website: —
+Email: 
+
+429. B&B La Tasgia
+ID: d87827d3-783b-4ca6-bab8-d7a4d90e6d97
+Slug: b-b-la-tasgia-aggius
+Nome: B&B La Tasgia
+Comune / Provincia: Aggius
+Indirizzo: Loc, 07020 Bonaita OT
+Coordinate: Lat 40.929757, Lng 9.02323
+Website: https://beblatasgia.com/
+Email: 
+
+430. B&B Letto&Latte
+ID: c2b26757-20a7-48de-9ec8-955fce0a97db
+Slug: b-b-letto-latte-aggius
+Nome: B&B Letto&Latte
+Comune / Provincia: Aggius
+Indirizzo: Via Marsala, 11, 07029 Tempio Pausania OT
+Coordinate: Lat 40.905278, Lng 9.105204
+Website: https://www.bblettolatte.com/
+Email: 
+
+431. B&B Lo Stazzo
+ID: 5fd5eb55-593b-49af-a41c-b8ca34b88b69
+Slug: b-b-lo-stazzo-aggius
+Nome: B&B Lo Stazzo
+Comune / Provincia: Aggius
+Indirizzo: Località Bonaita, 11, 07020 Aggius OT
+Coordinate: Lat 40.945982, Lng 9.013087
+Website: https://timothylovestotravel.com/lo-stazzo-italy
+Email: 
+
+432. B&B Santu Chilgu
+ID: c6381e69-82ee-458e-a0ac-02c03463e1a4
+Slug: b-b-santu-chilgu-aggius
+Nome: B&B Santu Chilgu
+Comune / Provincia: Aggius
+Indirizzo: Via Risorgimento, 12, 07020 Aggius OT
+Coordinate: Lat 40.930234, Lng 9.063513
+Website: —
+Email: 
+
+433. Calycanto guest house
+ID: d4fe1f94-ab3d-4fff-983f-20047f2a20c7
+Slug: calycanto-guest-house-aggius
+Nome: Calycanto guest house
+Comune / Provincia: Aggius
+Indirizzo: Viale Valentino, 1, 07029 Tempio Pausania OT
+Coordinate: Lat 40.901816, Lng 9.101356
+Website: https://roomsit.cyou/calycanto-lodge-fsw289
+Email: 
+
+434. Conca Marina di Paolo Cuccu
+ID: cf936502-f79a-4c32-bb1e-d1a217a905ba
+Slug: conca-marina-di-paolo-cuccu-aggius
+Nome: Conca Marina di Paolo Cuccu
+Comune / Provincia: Aggius
+Indirizzo: Loc. Conca Marina S.S. 133, Km.2, 5, 07029 Tempio Pausania OT
+Coordinate: Lat 40.923188, Lng 9.092003
+Website: http://www.concamarina.it/
+Email: 
+
+435. Hotel Gabbiano
+ID: f1bd0cb4-2f50-464b-b9af-7911e9fb0c35
+Slug: hotel-gabbiano-aggius
+Nome: Hotel Gabbiano
+Comune / Provincia: Aggius
+Indirizzo: Via Vigna Veccia, 40, 07038 Isola Rossa OT
+Coordinate: Lat 41.013549, Lng 8.873712
+Website: https://www.booking.com/hotel/it/gabbiano-sas.it.html?aid=2434670
+Email: 
+
+436. Hotel Pausania Inn
+ID: abb68962-29ad-4e4b-93d2-fde3bc3b3b1f
+Slug: hotel-pausania-inn-aggius
+Nome: Hotel Pausania Inn
+Comune / Provincia: Aggius
+Indirizzo: Strada Statale 133 di Palau, 07029 Tempio Pausania OT
+Coordinate: Lat 40.911638, Lng 9.095465
+Website: http://www.hotelpausaniainn.com/
+Email: 
+
+437. Hotel Ristorante Golden Gate
+ID: 41e99fe8-c530-4cbd-9a9c-ee2ad6476ac7
+Slug: hotel-ristorante-golden-gate-aggius
+Nome: Hotel Ristorante Golden Gate
+Comune / Provincia: Aggius
+Indirizzo: Strada Statale 127 Settentrionale Sarda, 07030 Bortigiadas OT
+Coordinate: Lat 40.881529, Lng 9.053114
+Website: https://www.hotelristorantegoldengate.com/
+Email: 
+
+438. L'Agnata di De André
+ID: 85e67bc2-7ea6-4ccb-b2e7-72e9ab3c08ee
+Slug: l-agnata-di-de-andre-aggius
+Nome: L'Agnata di De André
+Comune / Provincia: Aggius
+Indirizzo: Località L'Agnata | San Bachisio, 07029 Tempio Pausania OT
+Coordinate: Lat 40.851284, Lng 9.066479
+Website: http://www.agnata.com/
+Email: 
+
+439. La Casa di Babbai
+ID: 31b433f4-1d8d-453e-b4e4-1796f01dd5a6
+Slug: la-casa-di-babbai-aggius
+Nome: La Casa di Babbai
+Comune / Provincia: Aggius
+Indirizzo: Via Canonico Pes, 12, 07029 Nuchis OT
+Coordinate: Lat 40.917206, Lng 9.151233
+Website: —
+Email: 
+
+440. La Vignaredda Residenza di Charme
+ID: 8f2ca847-586e-424e-b588-5a0411cfbb77
+Slug: la-vignaredda-residenza-di-charme-aggius
+Nome: La Vignaredda Residenza di Charme
+Comune / Provincia: Aggius
+Indirizzo: Via Gallura, 14, 07020 Aggius OT
+Coordinate: Lat 40.928756, Lng 9.066219
+Website: https://www.lavignaredda.it/
+Email: 
+
+441. Li Manni
+ID: 80bf258e-868f-4572-9ceb-de62d9101dfc
+Slug: li-manni-aggius
+Nome: Li Manni
+Comune / Provincia: Aggius
+Indirizzo: Via Pasquale Paoli, 10, 07020 Aggius OT
+Coordinate: Lat 40.929064, Lng 9.064231
+Website: http://www.limanni.it/
+Email: 
+
+442. New Petit Hotel
+ID: acb5421f-e67d-462f-a3be-cf2b6338c28b
+Slug: new-petit-hotel-aggius
+Nome: New Petit Hotel
+Comune / Provincia: Aggius
+Indirizzo: Largo Alcide De Gasperi, 11, 07029 Tempio Pausania OT
+Coordinate: Lat 40.901389, Lng 9.101389
+Website: http://www.newpetithotel.com/
+Email: 
+
+443. Stazzu Coiga
+ID: 16a3b3d8-b6cc-4e76-8531-4ff45b861c8e
+Slug: stazzu-coiga-aggius
+Nome: Stazzu Coiga
+Comune / Provincia: Aggius
+Indirizzo: Località Coiga, 1, 07020 Aggius OT
+Coordinate: Lat 40.957432, Lng 8.976879
+Website: http://www.stazzucoiga.it/
+Email: 
+
+444. Affittacamere Sikelìa
+ID: cf560eed-55b3-466d-9eb6-3ae2058c6a18
+Slug: affittacamere-sikelia-agira
+Nome: Affittacamere Sikelìa
+Comune / Provincia: Agira
+Indirizzo: Via Umberto I, 28, 94014 Nicosia EN
+Coordinate: Lat 37.745858, Lng 14.395847
+Website: http://www.grandipgroup.com/
+Email: 
+
+445. Agriturismo La Stragola
+ID: a58e4021-8718-4c7f-8b97-eddb3477615a
+Slug: agriturismo-la-stragola-agira
+Nome: Agriturismo La Stragola
+Comune / Provincia: Agira
+Indirizzo: Contrada Mercadante, 94014 Nicosia EN
+Coordinate: Lat 37.762555, Lng 14.449771
+Website: —
+Email: 
+
+446. B&B Al Centro Nicosia
+ID: eb8c3818-e14c-45e0-bb88-ed304b378cb2
+Slug: b-b-al-centro-nicosia-agira
+Nome: B&B Al Centro Nicosia
+Comune / Provincia: Agira
+Indirizzo: vicolo Li Destri, 3, 94014 Nicosia EN
+Coordinate: Lat 37.747705, Lng 14.397551
+Website: https://www.booking.com/Share-WabvqN
+Email: 
+
+447. B&B Casalbergo La Terza Stella
+ID: a5230eff-751f-49d3-aab3-3c33d191efdb
+Slug: b-b-casalbergo-la-terza-stella-agira
+Nome: B&B Casalbergo La Terza Stella
+Comune / Provincia: Agira
+Indirizzo: Via Palazzo, 16, 94011 Agira EN
+Coordinate: Lat 37.65744, Lng 14.526114
+Website: http://bebagira.it/
+Email: 
+
+448. B&B Priscilla Di Concetta Marletta
+ID: b55c236f-c944-4e36-bd03-fef9b0500b55
+Slug: b-b-priscilla-di-concetta-marletta-agira
+Nome: B&B Priscilla Di Concetta Marletta
+Comune / Provincia: Agira
+Indirizzo: Via Gian Filippo Ingrassia, 115, 94017 Regalbuto EN
+Coordinate: Lat 37.648934, Lng 14.641404
+Website: —
+Email: 
+
+449. B&B Villa Antonella
+ID: 5dd1a3a2-b351-484a-b2ec-fb270ab8f2de
+Slug: b-b-villa-antonella-agira
+Nome: B&B Villa Antonella
+Comune / Provincia: Agira
+Indirizzo: Contrada Castani, snc, 94015 Piazza Armerina EN
+Coordinate: Lat 37.487389, Lng 14.411418
+Website: https://villaantonellabb.com/
+Email: 
+
+450. Bed & Breakfast Via Venezia
+ID: 70cd938b-5794-4a82-a605-fd0dca6ed92e
+Slug: bed-breakfast-via-venezia-agira
+Nome: Bed & Breakfast Via Venezia
+Comune / Provincia: Agira
+Indirizzo: Via Venezia, 10, 94017 Regalbuto EN
+Coordinate: Lat 37.651592, Lng 14.6413
+Website: http://bed-breakfast-via-venezia.com.es/
+Email: 
+
+451. bed and breakfast la volpe rossa
+ID: 2fda98a6-fa46-4faa-99ff-70d3135076dc
+Slug: bed-and-breakfast-la-volpe-rossa-agira
+Nome: bed and breakfast la volpe rossa
+Comune / Provincia: Agira
+Indirizzo: Vico Giuseppe di Gregorio, 94017 Regalbuto EN
+Coordinate: Lat 37.650136, Lng 14.64417
+Website: https://bed-and-breakfast-la-volpe-rossa.percorsiitaliani.top/
+Email: 
+
+452. Casa al Duomo
+ID: faf6b929-0ce3-47fb-a688-20c389f1ec71
+Slug: casa-al-duomo-agira
+Nome: Casa al Duomo
+Comune / Provincia: Agira
+Indirizzo: Piazzetta Leone II, 7, 94014 Nicosia EN
+Coordinate: Lat 37.747838, Lng 14.398742
+Website: https://www.casaalduomo.it/
+Email: 
+
+453. Case al Borgo - Albergo Diffuso
+ID: 4275ff59-0ede-487e-adbf-624f4b087a8c
+Slug: case-al-borgo-albergo-diffuso-agira
+Nome: Case al Borgo - Albergo Diffuso
+Comune / Provincia: Agira
+Indirizzo: Via Diodorea, 316, 94011 Agira EN
+Coordinate: Lat 37.655695, Lng 14.53139
+Website: https://www.casealborgo.it/
+Email: 
+
+454. Case al Borgo Food & Beverage
+ID: 5cd83def-1bb6-47fe-9278-962b4d835ed9
+Slug: case-al-borgo-food-beverage-agira
+Nome: Case al Borgo Food & Beverage
+Comune / Provincia: Agira
+Indirizzo: Via S. Nicola, 1, 94011 Agira EN
+Coordinate: Lat 37.655346, Lng 14.531865
+Website: http://www.casealborgo.it/
+Email: 
+
+455. Fratelli Mazzurco
+ID: 207c3c82-f74a-49c2-af54-6148cb34ca65
+Slug: fratelli-mazzurco-agira
+Nome: Fratelli Mazzurco
+Comune / Provincia: Agira
+Indirizzo: S.S. 120, Via Conceria, 98033 Cesarò ME
+Coordinate: Lat 37.841861, Lng 14.71126
+Website: https://www.ristorantefratellimazzurco.it/
+Email: 

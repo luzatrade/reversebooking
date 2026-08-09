@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+7561. Hotel filippo
+ID: d48acb7b-5f59-4f09-bf49-aa6d048e2ed1
+Slug: hotel-filippo-barzago
+Nome: Hotel filippo
+Comune / Provincia: Barzago
+Indirizzo: Via M. Buonarroti, 3, 23845 Costa Masnaga LC
+Coordinate: Lat 45.763395, Lng 9.288086
+Website: —
+Email: 
+
+7562. Red House
+ID: f4f874e5-620d-4bd0-b817-f68e6c5f1aa1
+Slug: red-house-barzago
+Nome: Red House
+Comune / Provincia: Barzago
+Indirizzo: via antonio stoppani, 592, 23852 Garlate LC
+Coordinate: Lat 45.811858, Lng 9.398436
+Website: https://www.bebredhouse.it/
+Email: 
+
+7563. Albergo Canella
+ID: d7d85f90-2e8d-4e72-ace6-a63da9e25f06
+Slug: albergo-canella-barzana
+Nome: Albergo Canella
+Comune / Provincia: Barzana
+Indirizzo: Via Gaetano Donizetti, 13, 24030 Fuipiano Valle Imagna BG
+Coordinate: Lat 45.852046, Lng 9.527612
+Website: http://www.albergocanella.it/
+Email: 
+
+7564. Casa ATENA
+ID: 203483c8-0d16-4abc-a4fb-fc6e430e7acc
+Slug: casa-atena-barzana
+Nome: Casa ATENA
+Comune / Provincia: Barzana
+Indirizzo: Via Sigismondi, 40B, 24018 Villa d'Almè BG
+Coordinate: Lat 45.749266, Lng 9.613555
+Website: https://www.casaatena.it/
+Email: 
+
+7565. Residenza del Golf
+ID: d915db57-0286-4951-9942-258442688c30
+Slug: residenza-del-golf-barzana
+Nome: Residenza del Golf
+Comune / Provincia: Barzana
+Indirizzo: Via Alessandro Manzoni, 28, 24030 Barzana BG
+Coordinate: Lat 45.741035, Lng 9.564119
+Website: —
+Email: 
+
+7566. Roncola 2021
+ID: 5616971c-cc12-4856-a859-735d97d6e2a3
+Slug: roncola-2021-barzana
+Nome: Roncola 2021
+Comune / Provincia: Barzana
+Indirizzo: Via Portola, 27, 24030 Roncola BG
+Coordinate: Lat 45.771237, Lng 9.557987
+Website: http://www.roncola2021.it/
+Email: 
+
+7567. Agriturismo La Bannera
+ID: 79681a60-0050-4f2e-8e52-f5f48bdf4c78
+Slug: agriturismo-la-bannera-barzan
+Nome: Agriturismo La Bannera
+Comune / Provincia: Barzan�
+Indirizzo: Contrada la Bannera, 71020 Celle di San Vito FG
+Coordinate: Lat 41.318789, Lng 15.177745
+Website: https://www.facebook.com/profile.php?id=100054457720901
+Email: 
+
+7568. Agriturismo La Fornace di Ilenia Giovanna Perego Castello di Brianza(LC)
+ID: ffdfa304-b467-4393-8f50-95eb844e23f0
+Slug: agriturismo-la-fornace-di-ilenia-giovanna-perego-barzan
+Nome: Agriturismo La Fornace di Ilenia Giovanna Perego Castello di Brianza(LC)
+Comune / Provincia: Barzan�
+Indirizzo: Via del Molino, 9, 23884 Castello di Brianza LC
+Coordinate: Lat 45.756635, Lng 9.340948
+Website: https://www.agriturismolafornace.com/
+Email: 
+
+7569. Agriturismo La Possa
+ID: acc2f5e7-605b-41f0-965f-e39b24cef291
+Slug: agriturismo-la-possa-barzan
+Nome: Agriturismo La Possa
+Comune / Provincia: Barzan�
+Indirizzo: Via Privata Combi, 2, 23816 Concenedo LC
+Coordinate: Lat 45.940063, Lng 9.48202
+Website: http://www.agriturismolapossa.it/
+Email: 
+
+7570. Agriturismo La Tavola di Cherubino
+ID: 50d922af-96b4-477a-9c81-96c67e9a53ed
+Slug: agriturismo-la-tavola-di-cherubino-barzan
+Nome: Agriturismo La Tavola di Cherubino
+Comune / Provincia: Barzan�
+Indirizzo: Via Giovenigo, 4, 23880 Casatenovo LC
+Coordinate: Lat 45.68809, Lng 9.305647
+Website: https://www.agriturismolatavoladicherubino.it/
+Email: 
+
+7571. B&B da Marianna
+ID: 8d623c7c-2a40-4891-9078-a4916c1c92d0
+Slug: b-b-da-marianna-barzan
+Nome: B&B da Marianna
+Comune / Provincia: Barzan�
+Indirizzo: Via Luigi Cadorna, 1, 23891 Barzanò LC
+Coordinate: Lat 45.73697, Lng 9.313058
+Website: https://recommendedbyali.com/gastkhaus-italy
+Email: 
+
+7572. Hotel Barzano
+ID: 5de17e3c-2390-45a1-a0c6-c5c07333c86f
+Slug: hotel-barzano-barzan
+Nome: Hotel Barzano
+Comune / Provincia: Barzan�
+Indirizzo: Via Pirovano, 4, 23891 Barzanò LC
+Coordinate: Lat 45.734439, Lng 9.315188
+Website: —
+Email: 
+
+7573. Masseria Agrituristica Lama San Giorgio
+ID: 4816898f-7fc0-4610-89d8-ab978bb8f9f0
+Slug: masseria-agrituristica-lama-san-giorgio-barzan
+Nome: Masseria Agrituristica Lama San Giorgio
+Comune / Provincia: Barzan�
+Indirizzo: SP84, km 8.700, 70018 Rutigliano BA
+Coordinate: Lat 41.003033, Lng 16.986529
+Website: https://lamasangiorgio.it/
+Email: 
+
+7574. "Albergo Maggio"
+ID: fa5a6a84-49f1-4fae-96c9-aa97c46c3876
+Slug: albergo-maggio-barzio
+Nome: "Albergo Maggio"
+Comune / Provincia: Barzio
+Indirizzo: Piazza S. Maria, 20, 23814 Cremeno LC
+Coordinate: Lat 45.927367, Lng 9.460087
+Website: https://www.saliinvetta.com/mangi-qua-dormi-la/dove-dormire/3057-albergo-maggio-cremeno-lc
+Email: 
+
+7575. Albergo Ristorante Esposito
+ID: 0505a12a-58f0-4243-a806-43524b6df15f
+Slug: albergo-ristorante-esposito-barzio
+Nome: Albergo Ristorante Esposito
+Comune / Provincia: Barzio
+Indirizzo: Via Francesca Manzoni, 33, 23816 Barzio LC
+Coordinate: Lat 45.944797, Lng 9.469566
+Website: http://www.hotel-esposito.it/
+Email: 
+
+7576. B&B Rocca di Bajedo
+ID: e5ee0687-30cc-4dfc-b7b4-f2285c2f5375
+Slug: b-b-rocca-di-bajedo-barzio
+Nome: B&B Rocca di Bajedo
+Comune / Provincia: Barzio
+Indirizzo: Via Rocca, 14, 23818 Pasturo LC
+Coordinate: Lat 45.958976, Lng 9.442267
+Website: http://roccadibajedo.com/
+Email: 
+
+7577. B&B Villa Cavallier
+ID: 9b32fcde-7137-49a4-aa15-33dbe2014deb
+Slug: b-b-villa-cavallier-barzio
+Nome: B&B Villa Cavallier
+Comune / Provincia: Barzio
+Indirizzo: Via Arola, 1, 23816 Barzio LC
+Coordinate: Lat 45.948875, Lng 9.464844
+Website: https://villacavallier.it/
+Email: 
+
+7578. Bed and Breakfast La Cà di Sala
+ID: 76ecf59a-42f0-4b55-bc2c-5381cc257b8a
+Slug: bed-and-breakfast-la-ca-di-sala-barzio
+Nome: Bed and Breakfast La Cà di Sala
+Comune / Provincia: Barzio
+Indirizzo: Viale Vittorio Veneto, 41, 23832 Margno LC
+Coordinate: Lat 46.031256, Lng 9.380182
+Website: http://www.lacadisala.it/
+Email: 
+
+7579. Bianco Hotel
+ID: 2a96bbb9-ae83-44dd-99d0-027294770acc
+Slug: bianco-hotel-barzio
+Nome: Bianco Hotel
+Comune / Provincia: Barzio
+Indirizzo: Via Provinciale, 5, 23819 Primaluna LC
+Coordinate: Lat 45.980175, Lng 9.444467
+Website: http://www.biancohotel.it/
+Email: 
+
+7580. Como's Lake Mountains
+ID: a37ee907-e04e-46d7-af16-d2790a171b19
+Slug: como-s-lake-mountains-barzio
+Nome: Como's Lake Mountains
+Comune / Provincia: Barzio
+Indirizzo: Via Noccoli, 5, 23814 Cremeno LC
+Coordinate: Lat 45.935485, Lng 9.470986
+Website: http://www.comoslakemountains.it/
+Email: 
+
+7581. Foresteria Botton d'oro
+ID: b6e5bce5-5698-42b6-9d1a-36ad86a9e631
+Slug: foresteria-botton-d-oro-barzio
+Nome: Foresteria Botton d'oro
+Comune / Provincia: Barzio
+Indirizzo: Via Pagafone, 1, 24030 Fuipiano Valle Imagna BG
+Coordinate: Lat 45.850063, Lng 9.519423
+Website: http://www.bottondoro-valleimagna.it/
+Email: 
+
+7582. Garni Le Grigne
+ID: 6642c8b2-d7fe-4d6f-b034-fb649b12ce9a
+Slug: garni-le-grigne-barzio
+Nome: Garni Le Grigne
+Comune / Provincia: Barzio
+Indirizzo: Via ai Castagneti, 2, 23816 Barzio LC
+Coordinate: Lat 45.945465, Lng 9.471932
+Website: http://www.garnilegrigne.it/
+Email: 
+
+7583. Hotel Ballestrin
+ID: e7618136-dc5e-40a9-baa4-50d57798d108
+Slug: hotel-ballestrin-barzio
+Nome: Hotel Ballestrin
+Comune / Provincia: Barzio
+Indirizzo: Via Coldogna, 1, 23816 Barzio LC
+Coordinate: Lat 45.943393, Lng 9.464674
+Website: http://www.hotelballestrin.it/
+Email: 
+
+7584. Hotel Centrale
+ID: d04dc773-a2fa-4df7-a220-28187b93a991
+Slug: hotel-centrale-barzio
+Nome: Hotel Centrale
+Comune / Provincia: Barzio
+Indirizzo: Via Solferino, 11, 23825 Esino Lario LC
+Coordinate: Lat 45.995605, Lng 9.335985
+Website: http://www.hotelcentraleesinolario.it/
+Email: 
+
+7585. Hotel Ristorante Moderno & Spa
+ID: 96635977-e68e-4122-a5f9-6c2cb3b35e47
+Slug: hotel-ristorante-moderno-spa-barzio
+Nome: Hotel Ristorante Moderno & Spa
+Comune / Provincia: Barzio
+Indirizzo: Via Dante Alighieri, 2, 24030 Fuipiano Valle Imagna BG
+Coordinate: Lat 45.852321, Lng 9.529996
+Website: http://www.ristorantemoderno.it/
+Email: 
+
+7586. Hotel Ristorante Sassi Rossi
+ID: fc19f429-afbe-46ca-a556-8f6c61460ef2
+Slug: hotel-ristorante-sassi-rossi-barzio
+Nome: Hotel Ristorante Sassi Rossi
+Comune / Provincia: Barzio
+Indirizzo: SP67, 1, 23832 Crandola Valsassina LC
+Coordinate: Lat 46.024621, Lng 9.373181
+Website: http://www.sassirossi.it/
+Email: 
+
+7587. Hotel Vittoria
+ID: 846d122b-e0ab-4996-83a0-acdc8eeb4207
+Slug: hotel-vittoria-barzio
+Nome: Hotel Vittoria
+Comune / Provincia: Barzio
+Indirizzo: Via Roma, 31, 23816 Barzio LC
+Coordinate: Lat 45.945241, Lng 9.468484
+Website: http://www.hotelvittoriabarzio.it/
+Email: 
+
+7588. Agriturismo Il Vecchio Portico
+ID: 2228a4ee-4d5a-4d4e-9499-9f4ed8402055
+Slug: agriturismo-il-vecchio-portico-basaluzzo
+Nome: Agriturismo Il Vecchio Portico
+Comune / Provincia: Basaluzzo
+Indirizzo: Località San Bernardino, 5, 15060 Capriata d'Orba AL
+Coordinate: Lat 44.733341, Lng 8.70677
+Website: —
+Email: 
+
+7589. Agriturismo San Matteo
+ID: a6559b15-e806-404d-ba90-c5560a9ee7ac
+Slug: agriturismo-san-matteo-basaluzzo
+Nome: Agriturismo San Matteo
+Comune / Provincia: Basaluzzo
+Indirizzo: Cascina Roma, 15060 Francavilla Bisio AL
+Coordinate: Lat 44.726491, Lng 8.726731
+Website: http://www.sanmatteogavi.com/
+Email: 
+
+7590. Albergo Ristorante Italia
+ID: 2c462e4c-71d7-4a69-9f80-6bbea468089c
+Slug: albergo-ristorante-italia-basaluzzo
+Nome: Albergo Ristorante Italia
+Comune / Provincia: Basaluzzo
+Indirizzo: Via XX Settembre, 28, 15060 Silvano d'Orba AL
+Coordinate: Lat 44.686709, Lng 8.673693
+Website: http://albergoristoranteitalia.it/
+Email: 
+
+7591. B&B Le Strade del Gavi
+ID: 2a1fa3cc-2e0d-4070-9a24-1e448ff990d5
+Slug: b-b-le-strade-del-gavi-basaluzzo
+Nome: B&B Le Strade del Gavi
+Comune / Provincia: Basaluzzo
+Indirizzo: VIA 24 MAGGIO, 15060 Francavilla Bisio AL
+Coordinate: Lat 44.732029, Lng 8.737547
+Website: https://www.facebook.com/lestradedelgavi
+Email: 
+
+7592. B&B Pervinca
+ID: 74debd8f-286c-4ebc-893c-2aecde83e1a7
+Slug: b-b-pervinca-basaluzzo
+Nome: B&B Pervinca
+Comune / Provincia: Basaluzzo
+Indirizzo: Località Schierano, 182, 15078 Rocca Grimalda AL
+Coordinate: Lat 44.690641, Lng 8.663576
+Website: https://www.pervinca-bb.it/
+Email: 
+
+7593. Bed&Breakfast Ferriera 8
+ID: 87b816ed-b829-43c5-9a99-52352cfc13d0
+Slug: bed-breakfast-ferriera-8-basaluzzo
+Nome: Bed&Breakfast Ferriera 8
+Comune / Provincia: Basaluzzo
+Indirizzo: Via della Ferriera, 8, 15067 Novi Ligure AL
+Coordinate: Lat 44.765376, Lng 8.776217
+Website: https://beb.it/ferriera8
+Email: 
+
+7594. GD Hotels
+ID: 20327831-ec41-4120-8512-4a844dfcac0d
+Slug: gd-hotels-basaluzzo
+Nome: GD Hotels
+Comune / Provincia: Basaluzzo
+Indirizzo: Via Belvedere, 45, 15068 Pozzolo Formigaro AL
+Coordinate: Lat 44.796412, Lng 8.777535
+Website: —
+Email: 
+
+7595. L' Aurora
+ID: 82e9d59f-b876-49fa-b850-5fb676dd13cd
+Slug: l-aurora-basaluzzo
+Nome: L' Aurora
+Comune / Provincia: Basaluzzo
+Indirizzo: Via Francesco Crispi, 7, 15067 Novi Ligure AL
+Coordinate: Lat 44.766644, Lng 8.783098
+Website: —
+Email: 

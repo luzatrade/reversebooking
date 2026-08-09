@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+2206. Albergo Residence Mont Gelè
+ID: acf00de1-5d2a-4cd5-8758-2cca2d0db80d
+Slug: albergo-residence-mont-gele-allein
+Nome: Albergo Residence Mont Gelè
+Comune / Provincia: Allein
+Indirizzo: Frazione Voueces, 3, 11010 Ollomont AO
+Coordinate: Lat 45.858381, Lng 7.300962
+Website: http://www.montgele.it/
+Email: 
+
+2207. B&B EnChanté
+ID: 2de33504-20e5-4b16-9ba6-a1e78553f20e
+Slug: b-b-enchante-allein
+Nome: B&B EnChanté
+Comune / Provincia: Allein
+Indirizzo: Frazione Chanté, 12, 11010 Chanté AO
+Coordinate: Lat 45.80835, Lng 7.284037
+Website: —
+Email: 
+
+2208. B&B Maison Cerise
+ID: e486c833-a655-4a77-a544-45797b71ccc3
+Slug: b-b-maison-cerise-allein
+Nome: B&B Maison Cerise
+Comune / Provincia: Allein
+Indirizzo: 11010 Allein AO, Italia
+Coordinate: Lat 45.80729, Lng 7.273761
+Website: http://www.maisoncerise.eu/
+Email: 
+
+2209. Camping Tunnel International
+ID: b7ac1a78-715c-4152-a19d-0fe296842179
+Slug: camping-tunnel-international-allein
+Nome: Camping Tunnel International
+Comune / Provincia: Allein
+Indirizzo: Rue Chevrières, 4, 11014 Etroubles AO
+Coordinate: Lat 45.818345, Lng 7.228564
+Website: http://www.campingtunnel.it/
+Email: 
+
+2210. Chez Magan
+ID: 09a08961-cd8b-419a-bbbf-b606e7174c3f
+Slug: chez-magan-allein
+Nome: Chez Magan
+Comune / Provincia: Allein
+Indirizzo: Frazione Crè, 35, 11010 Gignod AO
+Coordinate: Lat 45.775814, Lng 7.299446
+Website: http://www.chezmagan.it/
+Email: 
+
+2211. CleMaison Antica Dimora - Appartamenti
+ID: 3c4acfc7-9ebe-4bfe-b510-f9f997a402eb
+Slug: clemaison-antica-dimora-appartamenti-allein
+Nome: CleMaison Antica Dimora - Appartamenti
+Comune / Provincia: Allein
+Indirizzo: Frazione Clémencey, 6, 11010 Gignod AO
+Coordinate: Lat 45.789416, Lng 7.269535
+Website: https://www.clemaison.it/
+Email: 
+
+2212. Hostellerie Du Cheval Blanc
+ID: 78f0325a-0a6c-4433-ba21-057df7f2235f
+Slug: hostellerie-du-cheval-blanc-allein
+Nome: Hostellerie Du Cheval Blanc
+Comune / Provincia: Allein
+Indirizzo: Rue, Via Clavalité, 20, 11100 Aosta AO
+Coordinate: Lat 45.738959, Lng 7.336732
+Website: http://www.chevalblanc.it/
+Email: 
+
+2213. Hôtel Beau Sejour
+ID: 4245fd10-4f93-4632-a862-86497718a464
+Slug: hotel-beau-sejour-allein
+Nome: Hôtel Beau Sejour
+Comune / Provincia: Allein
+Indirizzo: Route Nationale du Grand Saint Bernard, 3, 11014 Etroubles AO
+Coordinate: Lat 45.819075, Lng 7.229685
+Website: http://www.beausejour.it/
+Email: 
+
+2214. Hotel Bellevue
+ID: b16f8b94-3c21-4375-b199-2aabc2b34b9d
+Slug: hotel-bellevue-allein
+Nome: Hotel Bellevue
+Comune / Provincia: Allein
+Indirizzo: Frazione La Ressaz, 3, 11010 Gignod AO
+Coordinate: Lat 45.776906, Lng 7.298009
+Website: https://hotel-bellevue.amolitalia.top/
+Email: 
+
+2215. Hotel Miage
+ID: f069f986-d6f8-48e5-86d2-7a1e9fc6350d
+Slug: hotel-miage-allein
+Nome: Hotel Miage
+Comune / Provincia: Allein
+Indirizzo: loc, Frazione Pont Suaz, 252, 11020 Charvensod AO
+Coordinate: Lat 45.726925, Lng 7.32286
+Website: http://www.hotelmiage.it/miage/index_i.asp
+Email: 
+
+2216. La Maison du Bon Megnadzo
+ID: 2d8bcb45-8f1a-4dcc-8f1e-96b020c3edd9
+Slug: la-maison-du-bon-megnadzo-allein
+Nome: La Maison du Bon Megnadzo
+Comune / Provincia: Allein
+Indirizzo: Località Chanet, 11010 Doues AO
+Coordinate: Lat 45.79772, Lng 7.300076
+Website: http://www.maisondubonmegnadzo.com/
+Email: 
+
+2217. Locanda La Clusaz
+ID: ecafb06e-afb9-421e-af56-ed89d4eeb030
+Slug: locanda-la-clusaz-allein
+Nome: Locanda La Clusaz
+Comune / Provincia: Allein
+Indirizzo: SS27, 1/a, 11010 Gignod AO
+Coordinate: Lat 45.802986, Lng 7.262711
+Website: http://www.laclusaz.it/
+Email: 
+
+2218. Maien Piolet Milieu
+ID: 84ceb659-ebf7-4aaa-ab6d-f44c06749aed
+Slug: maien-piolet-milieu-allein
+Nome: Maien Piolet Milieu
+Comune / Provincia: Allein
+Indirizzo: Località Piolet, 11010 Doues AO
+Coordinate: Lat 45.827244, Lng 7.290471
+Website: —
+Email: 
+
+2219. Maison Bertin
+ID: 94bc9853-dbd5-4deb-9892-84bec42410e9
+Slug: maison-bertin-allein
+Nome: Maison Bertin
+Comune / Provincia: Allein
+Indirizzo: Ruelle Marcoz, 1, 11014 Etroubles AO
+Coordinate: Lat 45.820241, Lng 7.230903
+Website: http://www.maisonbertin.it/
+Email: 
+
+2220. Mochettaz
+ID: 67b8e833-5d16-4ba3-983c-0e251c65a327
+Slug: mochettaz-allein
+Nome: Mochettaz
+Comune / Provincia: Allein
+Indirizzo: Corso Ivrea, 107, 11100 Aosta AO
+Coordinate: Lat 45.740421, Lng 7.344238
+Website: http://www.hotelmochettaz.it/
+Email: 
+
+2221. SUISSE Hotel
+ID: 0de76063-173e-4f44-9d86-ff1a5d4832f8
+Slug: suisse-hotel-allein
+Nome: SUISSE Hotel
+Comune / Provincia: Allein
+Indirizzo: Via Roma, 26, 11010 Saint-Rhémy AO
+Coordinate: Lat 45.835055, Lng 7.184072
+Website: https://www.suissehotel.it/
+Email: 
+
+2222. Agriturismo Bardanella
+ID: 7664ee41-2a62-4a0b-b848-7da9ffc092c5
+Slug: agriturismo-bardanella-allerona
+Nome: Agriturismo Bardanella
+Comune / Provincia: Allerona
+Indirizzo: Voc Bardanella, 78, 05011 Allerona TR
+Coordinate: Lat 42.836109, Lng 11.993422
+Website: —
+Email: 
+
+2223. Agriturismo Belvedere Delle Crete
+ID: 815bcda7-091c-49f2-becb-90c3e6b386de
+Slug: agriturismo-belvedere-delle-crete-allerona
+Nome: Agriturismo Belvedere Delle Crete
+Comune / Provincia: Allerona
+Indirizzo: Vocabolo Belvedere, 44/a, 05011 Allerona TR
+Coordinate: Lat 42.830196, Lng 11.983276
+Website: http://www.belvederedellecrete.com/
+Email: 
+
+2224. Agriturismo Casale Mulinaccino
+ID: a8e0b3ea-045b-48bf-ab3b-4e8b8ddef1cc
+Slug: agriturismo-casale-mulinaccino-allerona
+Nome: Agriturismo Casale Mulinaccino
+Comune / Provincia: Allerona
+Indirizzo: della Montagna, 38, 05015 Fabro TR
+Coordinate: Lat 42.845253, Lng 11.982838
+Website: http://mulinaccino.it/
+Email: 
+
+2225. Agriturismo Il Colombaio
+ID: 826a066c-09ea-4429-bd34-7f1b9e78e4bc
+Slug: agriturismo-il-colombaio-allerona
+Nome: Agriturismo Il Colombaio
+Comune / Provincia: Allerona
+Indirizzo: Località Colombaiolo, Via di Parrano, Snc, 05010 Montegabbione TR
+Coordinate: Lat 42.87629, Lng 12.073193
+Website: https://agriturismoilcolombaio.it/
+Email: 
+
+2226. Agriturismo Pian di Frattina
+ID: bf5d4c48-43aa-4a88-a8f3-d79d43ce39a7
+Slug: agriturismo-pian-di-frattina-allerona
+Nome: Agriturismo Pian di Frattina
+Comune / Provincia: Allerona
+Indirizzo: Contrada della Montagna, 43, 05015 Fabro TR
+Coordinate: Lat 42.845258, Lng 11.973238
+Website: http://piandifrattina.com/
+Email: 
+
+2227. agriturismo riparossa
+ID: 19d072ad-d041-493c-b553-7512a8675b60
+Slug: agriturismo-riparossa-allerona
+Nome: agriturismo riparossa
+Comune / Provincia: Allerona
+Indirizzo: vocabolo villa crespi 6, 05011 Allerona TR
+Coordinate: Lat 42.789035, Lng 12.019077
+Website: http://www.agriturismoriparossa.it/
+Email: 
+
+2228. Agriturismo San Pietro Aquaeortus
+ID: f0bcbbc9-716e-4071-b0a0-7b0d83250dc4
+Slug: agriturismo-san-pietro-aquaeortus-allerona
+Nome: Agriturismo San Pietro Aquaeortus
+Comune / Provincia: Allerona
+Indirizzo: Via Vocabolo Leprara 24, 05011 Allerona TR
+Coordinate: Lat 42.842414, Lng 11.929046
+Website: https://sanpietro-agriturismo.com/
+Email: 
+
+2229. Agriturismo Selvella
+ID: e35b3217-6604-4ade-98f0-4de4c3b7d76a
+Slug: agriturismo-selvella-allerona
+Nome: Agriturismo Selvella
+Comune / Provincia: Allerona
+Indirizzo: Localita' Selvella, 5, 05011 Allerona TR
+Coordinate: Lat 42.815014, Lng 11.962538
+Website: https://www.agriturismoselvella.it/
+Email: 
+
+2230. B&B Campitelli
+ID: 75e2e3be-d0a6-470b-a08c-eecb25884f4c
+Slug: b-b-campitelli-allerona
+Nome: B&B Campitelli
+Comune / Provincia: Allerona
+Indirizzo: Via Campitelli, 114, 05011 Allerona TR
+Coordinate: Lat 42.800895, Lng 11.992224
+Website: —
+Email: 
+
+2231. B&B Locanda Toscanini
+ID: c31b54b3-755a-4e41-9e7a-75e950b93bac
+Slug: b-b-locanda-toscanini-allerona
+Nome: B&B Locanda Toscanini
+Comune / Provincia: Allerona
+Indirizzo: Piazza Arturo Toscanini, 3, 53040 Cetona SI
+Coordinate: Lat 42.907397, Lng 11.917813
+Website: http://www.locandatoscanini.it/
+Email: 
+
+2232. Casale Il Ventaglio
+ID: dc24bde1-3140-4b84-8c3b-289acd0eca7d
+Slug: casale-il-ventaglio-allerona
+Nome: Casale Il Ventaglio
+Comune / Provincia: Allerona
+Indirizzo: Strada Piani, 05016 Ficulle TR
+Coordinate: Lat 42.850508, Lng 12.043026
+Website: —
+Email: 
+
+2233. Hotel Il Focolare
+ID: ce65e928-9931-40ed-bcc3-1e3a08e69371
+Slug: hotel-il-focolare-allerona
+Nome: Hotel Il Focolare
+Comune / Provincia: Allerona
+Indirizzo: Contrada della Stazione, 57, 05015 Fabro TR
+Coordinate: Lat 42.875243, Lng 12.022197
+Website: http://www.hotelilfocolare.com/dove-siamo.html
+Email: 
+
+2234. Il Casale di Lavinia
+ID: 35bfe6b0-6245-497c-8350-90e69060d557
+Slug: il-casale-di-lavinia-allerona
+Nome: Il Casale di Lavinia
+Comune / Provincia: Allerona
+Indirizzo: Contrada della Piaggia, 2A, 05015 Fabro TR
+Coordinate: Lat 42.866619, Lng 12.016076
+Website: https://vacationrentalinspectors.com/il-casale-di-lavinia-italy
+Email: 
+
+2235. La Pergoletta a Castello, dal 1925
+ID: 8269d1db-3d81-4eb4-b942-9eed8907469e
+Slug: la-pergoletta-a-castello-dal-1925-allerona
+Nome: La Pergoletta a Castello, dal 1925
+Comune / Provincia: Allerona
+Indirizzo: Via Cairoli, 05014 Castel Viscardo TR
+Coordinate: Lat 42.754904, Lng 12.003112
+Website: http://www.pergoletta.it/
+Email: 
+
+2236. Six Keys Guesthouse
+ID: 961dd4c6-b2d1-40c2-b8dc-c7f1bac147cd
+Slug: six-keys-guesthouse-allerona
+Nome: Six Keys Guesthouse
+Comune / Provincia: Allerona
+Indirizzo: Via Nuova, 9, 05011 Allerona TR
+Coordinate: Lat 42.811885, Lng 11.972929
+Website: http://www.sixkeysumbria.com/
+Email: 
+
+2237. Albergo Vittoria 3 stelle
+ID: 8aff1b8c-f2a8-45f7-8d24-32bc220ab7ea
+Slug: albergo-vittoria-3-stelle-alliste
+Nome: Albergo Vittoria 3 stelle
+Comune / Provincia: Alliste
+Indirizzo: Piazza San Martino, 11, 73057 Taviano LE
+Coordinate: Lat 39.982502, Lng 18.087295
+Website: http://www.albergovittoriataviano.it/
+Email: 
+
+2238. Aurosa Vacanze Bed and Breakfast
+ID: e2793448-bc62-492b-a793-95f1537c313e
+Slug: aurosa-vacanze-bed-and-breakfast-alliste
+Nome: Aurosa Vacanze Bed and Breakfast
+Comune / Provincia: Alliste
+Indirizzo: Via Capitano Antonio Cutrupia, 23, 73040 Alliste LE
+Coordinate: Lat 39.946585, Lng 18.092035
+Website: http://www.aurosavacanze.it/
+Email: 
+
+2239. B&B Casa del Corso
+ID: 70f7456b-8482-4af9-aa46-65e641f34d3e
+Slug: b-b-casa-del-corso-alliste
+Nome: B&B Casa del Corso
+Comune / Provincia: Alliste
+Indirizzo: Corso Vittorio Emanuele II, 28, 73057 Taviano LE
+Coordinate: Lat 39.980936, Lng 18.085866
+Website: http://www.casadelcorso.com/
+Email: 
+
+2240. B&B MARESALENTO
+ID: ab22a651-3c84-42d1-961a-3238c6b6eb78
+Slug: b-b-maresalento-alliste
+Nome: B&B MARESALENTO
+Comune / Provincia: Alliste
+Indirizzo: Via Fiumi Marina, 71, 73055 Racale LE
+Coordinate: Lat 39.959098, Lng 18.090351
+Website: http://bnb-maresalento.com.es/
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+3221. Hotel Al Plan
+ID: a9d26094-558e-4599-9cd2-a3bc9b10a4bd
+Slug: hotel-al-plan-andalo
+Nome: Hotel Al Plan
+Comune / Provincia: Andalo
+Indirizzo: Viale Trento, 5, 38010 Andalo TN
+Coordinate: Lat 46.167125, Lng 11.003112
+Website: http://www.hotelalplan.com/
+Email: 
+
+3222. Hotel Andalo
+ID: 57eea874-4d82-4d27-aa88-1ce9cd7f7022
+Slug: hotel-andalo-andalo
+Nome: Hotel Andalo
+Comune / Provincia: Andalo
+Indirizzo: Piazzale Paganella, 7, 38010 Andalo TN
+Coordinate: Lat 46.164375, Lng 11.006187
+Website: https://www.hotel-andalo.info/?utm_source=google-my-business
+Email: 
+
+3223. Hotel Dal Bon
+ID: 382adfc7-6505-41fc-9783-45447ae238f2
+Slug: hotel-dal-bon-andalo
+Nome: Hotel Dal Bon
+Comune / Provincia: Andalo
+Indirizzo: Via Dossi, 4, 38010 Andalo TN
+Coordinate: Lat 46.165463, Lng 11.002053
+Website: https://www.hoteldalbon.com/
+Email: 
+
+3224. Hotel Dolce Avita
+ID: b33ff6ff-6f73-4c56-8392-f80ec1c99f63
+Slug: hotel-dolce-avita-andalo
+Nome: Hotel Dolce Avita
+Comune / Provincia: Andalo
+Indirizzo: Via del Moro, 1, 38010 Andalo TN
+Coordinate: Lat 46.167577, Lng 11.00141
+Website: https://www.hoteldolceavita.it/?utm_source=google&utm_medium=mybusiness&utm_campaign=mybusiness
+Email: 
+
+3225. Hotel Eden Andalo - Mountain Lifestyle
+ID: ad74602a-87fe-4c2d-9d38-3b3ffed594f7
+Slug: hotel-eden-andalo-mountain-lifestyle-andalo
+Nome: Hotel Eden Andalo - Mountain Lifestyle
+Comune / Provincia: Andalo
+Indirizzo: Via Paganella, 25, 38010 Andalo TN
+Coordinate: Lat 46.166822, Lng 11.007144
+Website: https://www.hoteledenandalo.it/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+3226. Hotel Garni La Roccia
+ID: 7e5fd6ff-bf40-47cb-9cc3-b64d3a003e3d
+Slug: hotel-garni-la-roccia-andalo
+Nome: Hotel Garni La Roccia
+Comune / Provincia: Andalo
+Indirizzo: Via Ponte Lambin, 38010 Andalo TN
+Coordinate: Lat 46.163512, Lng 11.001426
+Website: http://www.larocciaandalo.it/
+Email: 
+
+3227. Hotel Ghezzi
+ID: 6a5074ed-bfcb-480d-a459-b3217227de17
+Slug: hotel-ghezzi-andalo
+Nome: Hotel Ghezzi
+Comune / Provincia: Andalo
+Indirizzo: Viale Trento, 12, 38010 Andalo TN
+Coordinate: Lat 46.166692, Lng 11.003846
+Website: http://www.ghezzihotel.com/
+Email: 
+
+3228. Hotel K2
+ID: db1ec803-a620-4029-9a8a-abc0d0910acc
+Slug: hotel-k2-andalo
+Nome: Hotel K2
+Comune / Provincia: Andalo
+Indirizzo: Via Rindole, 2, 38010 Andalo TN
+Coordinate: Lat 46.163785, Lng 11.004915
+Website: http://www.k2andalo.it/
+Email: 
+
+3229. Hotel Negritella
+ID: d341ef13-ec80-49d1-bbbc-776435908ffc
+Slug: hotel-negritella-andalo
+Nome: Hotel Negritella
+Comune / Provincia: Andalo
+Indirizzo: Via Paganella, 32, 38010 Andalo TN
+Coordinate: Lat 46.166723, Lng 11.008212
+Website: https://www.negritella.it/
+Email: 
+
+3230. Hotel Nordik
+ID: 4276f50a-b923-4b03-ab4e-7a95f12c94af
+Slug: hotel-nordik-andalo
+Nome: Hotel Nordik
+Comune / Provincia: Andalo
+Indirizzo: Via Paganella, 11, 38010 Andalo TN
+Coordinate: Lat 46.164917, Lng 11.006211
+Website: http://www.hotelnordik.com/
+Email: 
+
+3231. Hotel Piancastello - Andalo
+ID: dfeaac34-5afe-462c-8bfb-480b09833e7a
+Slug: hotel-piancastello-andalo-andalo
+Nome: Hotel Piancastello - Andalo
+Comune / Provincia: Andalo
+Indirizzo: Via Strigole, 6, 38010 Andalo TN
+Coordinate: Lat 46.166288, Lng 11.009703
+Website: http://www.hotelpiancastello.com/
+Email: 
+
+3232. Sassdei Suite Hotel - Andalo
+ID: 373063c3-e878-4b7d-bda1-ae80918e0caf
+Slug: sassdei-suite-hotel-andalo-andalo
+Nome: Sassdei Suite Hotel - Andalo
+Comune / Provincia: Andalo
+Indirizzo: Via Rindole, 4, 38010 Andalo TN
+Coordinate: Lat 46.163495, Lng 11.005124
+Website: http://www.hotelsassdeiandalo.it/
+Email: 
+
+3233. B&B Al Carotin
+ID: 374b70f8-b344-4813-977a-02a7520fa035
+Slug: b-b-al-carotin-andalo-valtellino
+Nome: B&B Al Carotin
+Comune / Provincia: Andalo Valtellino
+Indirizzo: Via Superiore, 58, 23009 Andalo Valtellino SO
+Coordinate: Lat 46.132258, Lng 9.476185
+Website: http://bnb-alcarotin.com.es/
+Email: 
+
+3234. Cà Elsa B&B
+ID: 2b2cc215-44d4-45b8-a564-8d0f7fb64ff0
+Slug: ca-elsa-b-b-andalo-valtellino
+Nome: Cà Elsa B&B
+Comune / Provincia: Andalo Valtellino
+Indirizzo: Via Spluga, 115, 23015 Nuova Olonio SO
+Coordinate: Lat 46.171697, Lng 9.432593
+Website: https://caelsabb.it/
+Email: 
+
+3235. Hotel Berlinghera
+ID: 89620f0a-d9bc-4807-a94b-4b2d3bdf104d
+Slug: hotel-berlinghera-andalo-valtellino
+Nome: Hotel Berlinghera
+Comune / Provincia: Andalo Valtellino
+Indirizzo: Via Dascio, 25, 22010 Dascio CO
+Coordinate: Lat 46.187489, Lng 9.417647
+Website: http://www.hotelberlinghera.com/
+Email: 
+
+3236. Hotel del Mera
+ID: 511cbe26-b156-46e8-b908-d318d5ef5ba7
+Slug: hotel-del-mera-andalo-valtellino
+Nome: Hotel del Mera
+Comune / Provincia: Andalo Valtellino
+Indirizzo: Via Dascio, 11, 22010 Sorico CO
+Coordinate: Lat 46.187156, Lng 9.416913
+Website: https://www.hoteldelmera.com/
+Email: 
+
+3237. Hotel Europa
+ID: 787ab597-ddc9-4e8f-8436-56ef5071fc58
+Slug: hotel-europa-andalo-valtellino
+Nome: Hotel Europa
+Comune / Provincia: Andalo Valtellino
+Indirizzo: Via Cesare Battisti, 4, 22010 Sorico CO
+Coordinate: Lat 46.171578, Lng 9.380181
+Website: http://www.europasorico.com/
+Email: 
+
+3238. Hotel Lago di Como
+ID: 2ceda3a5-3b4e-49e6-81cd-18372e26680e
+Slug: hotel-lago-di-como-andalo-valtellino
+Nome: Hotel Lago di Como
+Comune / Provincia: Andalo Valtellino
+Indirizzo: Via Legnone, 4, 23823 Colico LC
+Coordinate: Lat 46.135795, Lng 9.372371
+Website: https://reservations.verticalbooking.com/premium/index.html?id_albergo=26397&dc=2122&id_stile=20076&lingua_int=ita
+Email: 
+
+3239. Hotel Rezia Valtellina
+ID: bd1f0207-13b5-4c62-846a-9ebaa3455dc4
+Slug: hotel-rezia-valtellina-andalo-valtellino
+Nome: Hotel Rezia Valtellina
+Comune / Provincia: Andalo Valtellino
+Indirizzo: Via Statale, 33, 23013 Cosio Valtellino SO
+Coordinate: Lat 46.133793, Lng 9.561334
+Website: http://www.reziavaltellina.eu/
+Email: 
+
+3240. Hotel Risi
+ID: 9bbbd356-2b26-4c6c-822c-5f2774e007c0
+Slug: hotel-risi-andalo-valtellino
+Nome: Hotel Risi
+Comune / Provincia: Andalo Valtellino
+Indirizzo: Via Lungolario Polti, 1, 23823 Colico LC
+Coordinate: Lat 46.137112, Lng 9.368196
+Website: https://hotelrisi.com/
+Email: 
+
+3241. Hotel Ristorante Baraglia
+ID: 45661eff-1459-4710-95cd-5fee8c927984
+Slug: hotel-ristorante-baraglia-andalo-valtellino
+Nome: Hotel Ristorante Baraglia
+Comune / Provincia: Andalo Valtellino
+Indirizzo: Via Bondo, 8, 23010 Mello SO
+Coordinate: Lat 46.15375, Lng 9.548916
+Website: http://www.hotelbaraglia.it/
+Email: 
+
+3242. Hotel Roma Colico
+ID: 9b753c50-eb91-4698-b566-1d6039791530
+Slug: hotel-roma-colico-andalo-valtellino
+Nome: Hotel Roma Colico
+Comune / Provincia: Andalo Valtellino
+Indirizzo: Via Laghetto, 8, 23823 Colico LC
+Coordinate: Lat 46.123611, Lng 9.354722
+Website: —
+Email: 
+
+3243. Residence I Fiori
+ID: b3811159-b054-44a1-b642-777c47b69ca8
+Slug: residence-i-fiori-andalo-valtellino
+Nome: Residence I Fiori
+Comune / Provincia: Andalo Valtellino
+Indirizzo: Via S. Giovanni Bosco, 40, 23010 Piantedo SO
+Coordinate: Lat 46.137715, Lng 9.425059
+Website: http://residence-i-fiori.org.es/
+Email: 
+
+3244. Residenza Conca Verde B&B
+ID: 23af7113-d533-4cee-bf07-de05f1884d7f
+Slug: residenza-conca-verde-b-b-andalo-valtellino
+Nome: Residenza Conca Verde B&B
+Comune / Provincia: Andalo Valtellino
+Indirizzo: Via Europa, 30, 23013 Cosio Valtellino SO
+Coordinate: Lat 46.137015, Lng 9.498168
+Website: https://recommendedbydavid.eu/residenza-conca-verde-b-amp-b-italy
+Email: 
+
+3245. Spluga Sosta & Hotel
+ID: b7d136e6-1679-4d48-9b79-8e91add4513a
+Slug: spluga-sosta-hotel-andalo-valtellino
+Nome: Spluga Sosta & Hotel
+Comune / Provincia: Andalo Valtellino
+Indirizzo: Via Spluga, 42, 23015 Dubino SO
+Coordinate: Lat 46.168915, Lng 9.429358
+Website: http://www.splugahotel.it/
+Email: 
+
+3246. Agriturismo del Florario
+ID: c81f89b6-1580-4e13-9f98-8652ffd84935
+Slug: agriturismo-del-florario-andezeno
+Nome: Agriturismo del Florario
+Comune / Provincia: Andezeno
+Indirizzo: Str. della Giardina, 10023 Chieri TO
+Coordinate: Lat 44.991192, Lng 7.792707
+Website: http://www.florario.it/
+Email: 
+
+3247. Agriturismo La Vijà
+ID: 85ed799d-12a4-4dd1-a65b-9dea03cbfbea
+Slug: agriturismo-la-vija-andezeno
+Nome: Agriturismo La Vijà
+Comune / Provincia: Andezeno
+Indirizzo: Str. Tetti Lusso, 8, 10023 Chieri TO
+Coordinate: Lat 45.021198, Lng 7.881835
+Website: —
+Email: 
+
+3248. Aston Hotel
+ID: 7d8b1c14-c14e-475c-9dc6-7ec6161fdc7f
+Slug: aston-hotel-andezeno
+Nome: Aston Hotel
+Comune / Provincia: Andezeno
+Indirizzo: Str. al Traforo di Pino, 23, 10025 Pino Torinese TO
+Coordinate: Lat 45.056801, Lng 7.764023
+Website: http://www.astonhotel.it/
+Email: 
+
+3249. B&B MadamaDorè
+ID: b4ffb781-4a0b-4715-b951-3b45c7eda834
+Slug: b-b-madamadore-andezeno
+Nome: B&B MadamaDorè
+Comune / Provincia: Andezeno
+Indirizzo: C.so Vittorio Emanuele II, 78, 10020 Andezeno TO
+Coordinate: Lat 45.033052, Lng 7.881375
+Website: —
+Email: 
+
+3250. Castello di Montaldo - Hotel Spa Wedding Congress
+ID: 57c5fbc8-0688-41f5-b01e-23ea98bd3e4f
+Slug: castello-di-montaldo-hotel-spa-wedding-congress-andezeno
+Nome: Castello di Montaldo - Hotel Spa Wedding Congress
+Comune / Provincia: Andezeno
+Indirizzo: Piazza Superga, 1, 10020 Montaldo Torinese TO
+Coordinate: Lat 45.066135, Lng 7.848701
+Website: https://www.castellomontaldotorino.it/
+Email: 
+
+3251. Cico e Mamasita
+ID: 709799ef-1294-4cd7-b097-4bdca08e1f49
+Slug: cico-e-mamasita-andezeno
+Nome: Cico e Mamasita
+Comune / Provincia: Andezeno
+Indirizzo: Via Cavour, 41, 10020 Andezeno TO
+Coordinate: Lat 45.038544, Lng 7.8667
+Website: https://www.cicoemamasita.com/
+Email: 
+
+3252. Hotel Cascina Speranza
+ID: 3a67415b-0576-42d8-a500-6025b0540a84
+Slug: hotel-cascina-speranza-andezeno
+Nome: Hotel Cascina Speranza
+Comune / Provincia: Andezeno
+Indirizzo: Via Alessandro Pertini, 25, 10020 Riva presso Chieri TO
+Coordinate: Lat 44.978597, Lng 7.879334
+Website: https://www.hotelcascinasperanza.com/it/index.html
+Email: 
+
+3253. Hotel Glis
+ID: df7d58fc-89a0-4746-9977-207714f02d65
+Slug: hotel-glis-andezeno
+Nome: Hotel Glis
+Comune / Provincia: Andezeno
+Indirizzo: Corso Lombardia, 42, 10099 San Mauro Torinese TO
+Coordinate: Lat 45.116271, Lng 7.744204
+Website: http://www.hotelglis.it/
+Email: 
+
+3254. Hotel La Maddalena
+ID: 4f037df5-641a-44f0-82c9-9f9f2c93fd1b
+Slug: hotel-la-maddalena-andezeno
+Nome: Hotel La Maddalena
+Comune / Provincia: Andezeno
+Indirizzo: Via Beppe Fenoglio, 4, 10023 Chieri TO
+Coordinate: Lat 44.999076, Lng 7.811051
+Website: —
+Email: 
+
+3255. Hotel Panorama
+ID: e8fb53f0-dc55-49d5-8112-1951cdafe476
+Slug: hotel-panorama-andezeno
+Nome: Hotel Panorama
+Comune / Provincia: Andezeno
+Indirizzo: Via Alessandro Volta, 2, 10020 Cambiano TO
+Coordinate: Lat 44.971284, Lng 7.763473
+Website: http://www.hotelpanorama.org/
+Email: 

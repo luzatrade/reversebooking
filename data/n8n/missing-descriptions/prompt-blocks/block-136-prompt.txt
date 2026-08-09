@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+4726. B&B Il Melograno
+ID: 9591df98-ffbc-44ba-b60c-1b4939db5e2f
+Slug: b-b-il-melograno-ariccia
+Nome: B&B Il Melograno
+Comune / Provincia: Ariccia
+Indirizzo: Via Appia Nuova, 7, 00072 Ariccia RM
+Coordinate: Lat 41.722402, Lng 12.677569
+Website: http://www.melogranobb.com/
+Email: 
+
+4727. GiGi
+ID: e39f6fdb-d58b-462c-9002-92a9787ad3c8
+Slug: gigi-ariccia
+Nome: GiGi
+Comune / Provincia: Ariccia
+Indirizzo: Via Rufelli, 75, 00072 Ariccia RM
+Coordinate: Lat 41.706514, Lng 12.651707
+Website: https://www.bed-and-breakfast.it/it/lazio/gigi-ariccia/13728?registrato=1
+Email: 
+
+4728. Hotel Ristorante Villa Robinia
+ID: b032af15-30da-46ae-8d99-ae373f5dea1b
+Slug: hotel-ristorante-villa-robinia-ariccia
+Nome: Hotel Ristorante Villa Robinia
+Comune / Provincia: Ariccia
+Indirizzo: Viale Fratelli Rosselli, 19, 00045 Genzano di Roma RM
+Coordinate: Lat 41.711797, Lng 12.68509
+Website: http://www.hotelvillarobinia.it/
+Email: 
+
+4729. La Vista Agriturismo Boutique
+ID: a9414a86-5974-4fd8-822f-30ee536e11d7
+Slug: la-vista-agriturismo-boutique-ariccia
+Nome: La Vista Agriturismo Boutique
+Comune / Provincia: Ariccia
+Indirizzo: Via Prelatura, 12, 00072 Ariccia RM
+Coordinate: Lat 41.7039, Lng 12.654183
+Website: http://www.lavistagriturismo.it/
+Email: 
+
+4730. Maison Martina
+ID: 63b67d89-6316-4f57-950e-1510767475b0
+Slug: maison-martina-ariccia
+Nome: Maison Martina
+Comune / Provincia: Ariccia
+Indirizzo: Via Quinto Labieno Partico, 7, 00072 Ariccia RM
+Coordinate: Lat 41.723015, Lng 12.691643
+Website: —
+Email: 
+
+4731. Maison3g
+ID: 0b76106f-ca48-4c11-b523-9a7e6bd3aec4
+Slug: maison3g-ariccia
+Nome: Maison3g
+Comune / Provincia: Ariccia
+Indirizzo: Via dell'Uccelliera, 102, 00072 Ariccia RM
+Coordinate: Lat 41.735432, Lng 12.694475
+Website: —
+Email: 
+
+4732. Mia Rooms Ariccia
+ID: 036ca393-4622-4bfa-80d6-33a7b82dc62a
+Slug: mia-rooms-ariccia-ariccia
+Nome: Mia Rooms Ariccia
+Comune / Provincia: Ariccia
+Indirizzo: Via Pagliarozza, 5-7, 00072 Ariccia RM
+Coordinate: Lat 41.69639, Lng 12.664013
+Website: https://miarooms.com/
+Email: 
+
+4733. Monte Due Torri Agriturismo
+ID: dfb1b568-5d8e-4dea-a674-d266b0ace49a
+Slug: monte-due-torri-agriturismo-ariccia
+Nome: Monte Due Torri Agriturismo
+Comune / Provincia: Ariccia
+Indirizzo: Via Montegiove Nuovo, 77, 00045 Genzano di Roma RM
+Coordinate: Lat 41.695971, Lng 12.682011
+Website: http://www.monteduetorri.it/
+Email: 
+
+4734. Ristorante e Albergo Diffuso Lo Specchio di Diana
+ID: 4df8ad5b-07d6-46db-966f-872387af848f
+Slug: ristorante-e-albergo-diffuso-lo-specchio-di-dian-ariccia
+Nome: Ristorante e Albergo Diffuso Lo Specchio di Diana
+Comune / Provincia: Ariccia
+Indirizzo: Corso Vittorio Emanuele, 11, 00074 Nemi RM
+Coordinate: Lat 41.719886, Lng 12.714077
+Website: https://www.specchiodidiana.it/
+Email: 
+
+4735. Agriturismo b&b La Cinciallegra
+ID: 78b4c364-f103-4443-a33e-5b131e678b95
+Slug: agriturismo-b-b-la-cinciallegra-arignano
+Nome: Agriturismo b&b La Cinciallegra
+Comune / Provincia: Arignano
+Indirizzo: Cascina Serramena Bassa, 25, 10020 Riva presso Chieri TO
+Coordinate: Lat 44.992981, Lng 7.923592
+Website: http://www.agriturismolacinciallegra.it/
+Email: 
+
+4736. B&B Fairy Castle
+ID: 32a22474-f76d-477e-bb6f-3c1d4f417e7c
+Slug: b-b-fairy-castle-arignano
+Nome: B&B Fairy Castle
+Comune / Provincia: Arignano
+Indirizzo: Via Pescarmona, 16, 14022 Castelnuovo Don Bosco AT
+Coordinate: Lat 45.043754, Lng 7.961516
+Website: https://www.fairycastle.it/
+Email: 
+
+4737. B&B Il Piccolo Leone
+ID: e4fc2663-6bad-419d-a661-6d51ef2fcf7f
+Slug: b-b-il-piccolo-leone-arignano
+Nome: B&B Il Piccolo Leone
+Comune / Provincia: Arignano
+Indirizzo: Via Tetti Chiaffredo, 14, 10020 Arignano TO
+Coordinate: Lat 45.060427, Lng 7.899437
+Website: http://www.piccololeone.it/
+Email: 
+
+4738. ConfineDeiSanti B&B
+ID: 293715bf-2fc6-4dbd-b011-12da1db7f591
+Slug: confinedeisanti-b-b-arignano
+Nome: ConfineDeiSanti B&B
+Comune / Provincia: Arignano
+Indirizzo: Via Lovencito, 6/a, 10020 Moriondo Torinese TO
+Coordinate: Lat 45.041771, Lng 7.954474
+Website: —
+Email: 
+
+4739. I Conti della Serva
+ID: 685bce13-5a3d-44fa-87b5-aa4ae30cb783
+Slug: i-conti-della-serva-arignano
+Nome: I Conti della Serva
+Comune / Provincia: Arignano
+Indirizzo: Via Regione Aprà, 7, 10090 Cinzano TO
+Coordinate: Lat 45.09436, Lng 7.911416
+Website: http://www.icontidellaserva.it/
+Email: 
+
+4740. Locanda del Centro
+ID: c497e2d5-3cdd-4931-9b4d-339a2b95c9fb
+Slug: locanda-del-centro-arignano
+Nome: Locanda del Centro
+Comune / Provincia: Arignano
+Indirizzo: Via Lorenzo Martini, 34, 10020 Cambiano TO
+Coordinate: Lat 44.973552, Lng 7.781007
+Website: https://www.locandadelcentrocambiano.com/
+Email: 
+
+4741. Amistade B&B
+ID: 8f37946c-4f0e-48bc-aa5b-382f8427eb00
+Slug: amistade-b-b-aritzo
+Nome: Amistade B&B
+Comune / Provincia: Aritzo
+Indirizzo: Via Ospitone, 7, 09065 Seulo NU
+Coordinate: Lat 39.871065, Lng 9.235323
+Website: —
+Email: 
+
+4742. Aurora Paba
+ID: 94f1bfb1-4744-4ed0-ab06-18870fba3fcc
+Slug: aurora-paba-aritzo
+Nome: Aurora Paba
+Comune / Provincia: Aritzo
+Indirizzo: Via Margherita, 16, 08031 Aritzo NU
+Coordinate: Lat 39.954933, Lng 9.196142
+Website: https://www.facebook.com/lagrifoglio.aritzo
+Email: 
+
+4743. B&B lugori di Murgia Stefania
+ID: bc28845d-ce87-49ab-bbc8-38bc0f74444d
+Slug: b-b-lugori-di-murgia-stefania-aritzo
+Nome: B&B lugori di Murgia Stefania
+Comune / Provincia: Aritzo
+Indirizzo: località Taccu, 09065 Seulo NU
+Coordinate: Lat 39.859505, Lng 9.225079
+Website: https://bb-lugori-di-murgia-stefania.italiavacanzeindimenticabili.top/
+Email: 
+
+4744. B&B Santu Giuvanni Un Tuffo nel Passato
+ID: 4c4a3f69-9fb9-4244-8d79-8533cc47fb43
+Slug: b-b-santu-giuvanni-un-tuffo-nel-passato-aritzo
+Nome: B&B Santu Giuvanni Un Tuffo nel Passato
+Comune / Provincia: Aritzo
+Indirizzo: Via Monte Spada, 18, Campanello in, Via Monte Spada, 16, 08023 Fonni NU
+Coordinate: Lat 40.116394, Lng 9.255041
+Website: http://santu-giuvanni-un-tuffo-nel-passato.com.es/
+Email: 
+
+4745. Bed and Breakfast - La Baita di Aritzo
+ID: bb00abf5-1acc-4c82-b4f6-29a04ea0db8a
+Slug: bed-and-breakfast-la-baita-di-aritzo-aritzo
+Nome: Bed and Breakfast - La Baita di Aritzo
+Comune / Provincia: Aritzo
+Indirizzo: Via Bigna e Mariccu, 4, 08031 Aritzo NU
+Coordinate: Lat 39.953393, Lng 9.194546
+Website: http://www.labaita.eu/
+Email: 
+
+4746. Bed and Breakfast "Al Rifugio"
+ID: b6ad48d8-e47b-43a9-8de6-eff570a3abf1
+Slug: bed-and-breakfast-al-rifugio-aritzo
+Nome: Bed and Breakfast "Al Rifugio"
+Comune / Provincia: Aritzo
+Indirizzo: Via Nuova, 2, 08031 Aritzo NU
+Coordinate: Lat 39.959701, Lng 9.196806
+Website: http://web.tiscali.it/alrifugio
+Email: 
+
+4747. Bed and Breakfast Casa Masini Fonni
+ID: 95d2ad72-3ba2-449d-9c25-7a746f68716d
+Slug: bed-and-breakfast-casa-masini-fonni-aritzo
+Nome: Bed and Breakfast Casa Masini Fonni
+Comune / Provincia: Aritzo
+Indirizzo: Via Alfonso Lamarmora, 4, 08023 Fonni NU
+Coordinate: Lat 40.118174, Lng 9.252473
+Website: http://www.casamasini.it/
+Email: 
+
+4748. bed breakfast sa jinta
+ID: 04d62625-54a6-4f60-a40d-173d43d23496
+Slug: bed-breakfast-sa-jinta-aritzo
+Nome: bed breakfast sa jinta
+Comune / Provincia: Aritzo
+Indirizzo: Via Alfonso Lamarmora, n8, 08030 Belvì NU
+Coordinate: Lat 39.960818, Lng 9.184925
+Website: —
+Email: 
+
+4749. Chalet su Foxile
+ID: fb827858-d646-4586-ab33-8e8c5ac47fa4
+Slug: chalet-su-foxile-aritzo
+Nome: Chalet su Foxile
+Comune / Provincia: Aritzo
+Indirizzo: Loc. Gidilau, 08031 Aritzo NU
+Coordinate: Lat 39.956417, Lng 9.191511
+Website: http://www.sufoxile.it/
+Email: 
+
+4750. Cucina Tipica Hotel Ristorante Edera di Cadau Marianna
+ID: 50b56e81-e958-4838-9429-dcaf1d15ce3a
+Slug: cucina-tipica-hotel-ristorante-edera-di-cadau-ma-aritzo
+Nome: Cucina Tipica Hotel Ristorante Edera di Cadau Marianna
+Comune / Provincia: Aritzo
+Indirizzo: Via Roma, 40, 08030 Belvì NU
+Coordinate: Lat 39.957673, Lng 9.1821
+Website: http://www.hotelederabelvi.it/
+Email: 
+
+4751. Hotel Belvedere
+ID: e382dbce-88c4-4be4-9d5b-4f21a34a0830
+Slug: hotel-belvedere-aritzo
+Nome: Hotel Belvedere
+Comune / Provincia: Aritzo
+Indirizzo: SS295, Via Monsignor Tore, 39, 08039 Tonara NU
+Coordinate: Lat 40.023887, Lng 9.169357
+Website: —
+Email: 
+
+4752. hotel la capannina
+ID: c131704e-a50a-4453-b7c1-2a3a030e6e2f
+Slug: hotel-la-capannina-aritzo
+Nome: hotel la capannina
+Comune / Provincia: Aritzo
+Indirizzo: Via Antonio Maxia, 78, 08031 Aritzo NU
+Coordinate: Lat 39.95129, Lng 9.191246
+Website: http://www.hotelcapanninaritzo.it/
+Email: 
+
+4753. Hotel Miramonti Seulo
+ID: 16b7d471-4704-4c21-9821-04d5d40b1bdb
+Slug: hotel-miramonti-seulo-aritzo
+Nome: Hotel Miramonti Seulo
+Comune / Provincia: Aritzo
+Indirizzo: Localita Genna e sa luna, 09065 Seulo NU
+Coordinate: Lat 39.870807, Lng 9.2245
+Website: http://www.hotelmiramontiseulo.it/
+Email: 
+
+4754. Hotel Moderno
+ID: baac2a3a-fc91-445d-a216-2915c0728119
+Slug: hotel-moderno-aritzo
+Nome: Hotel Moderno
+Comune / Provincia: Aritzo
+Indirizzo: Viale Kennedy, 6, 08031 Aritzo NU
+Coordinate: Lat 39.953561, Lng 9.197521
+Website: https://hotel-moderno.italiacongusto.top/
+Email: 
+
+4755. Hotel Ristorante Gusana
+ID: e8e7cb12-9176-41d0-aaec-88c662ba34cc
+Slug: hotel-ristorante-gusana-aritzo
+Nome: Hotel Ristorante Gusana
+Comune / Provincia: Aritzo
+Indirizzo: Localita' Lago Di Gusana, 08020 Gavoi NU
+Coordinate: Lat 40.135212, Lng 9.190388
+Website: —
+Email: 
+
+4756. Hotel Sa Muvara
+ID: ac98bc09-9a78-41af-b023-9256802f096c
+Slug: hotel-sa-muvara-aritzo
+Nome: Hotel Sa Muvara
+Comune / Provincia: Aritzo
+Indirizzo: Viale Kennedy, 33, 08031 Aritzo NU
+Coordinate: Lat 39.949226, Lng 9.1911
+Website: https://www.hotelsamuvara.it/
+Email: 
+
+4757. S'apposentu
+ID: f13594e2-9baf-4dbe-93eb-1ed1a325505e
+Slug: s-apposentu-aritzo
+Nome: S'apposentu
+Comune / Provincia: Aritzo
+Indirizzo: Via Bachisio Sulis, 1, 08031 Aritzo NU
+Coordinate: Lat 39.956373, Lng 9.196919
+Website: http://www.booking.com/hotel/it/s-39-apposentu.it.html?aid=311091;label=s-39-apposentu-WPhDVsgBcXV5mytWzMYkaQS161704455589:pl:ta:p1:p2:ac:ap1t1:neg:fi:tikwd-195657188957:lp1008202:li:dec:dm;sid=d2dd73a4fe64ae2fcb09c6a002ec9d57;dest_id=-110686;dest_type=city;dist=0;hpos=1;room1=A,A;sb_price_type=total;srfid=6d992cef07b33d4ed59698920ecf4fbe0965aa1eX1;type=total;ucfs=1&
+Email: 
+
+4758. S'Erbei Niedda Guesthouse
+ID: a82fe67d-94ab-4a9f-8517-beb0780bd07c
+Slug: s-erbei-niedda-guesthouse-aritzo
+Nome: S'Erbei Niedda Guesthouse
+Comune / Provincia: Aritzo
+Indirizzo: Via Amsicora, 4, 09065 Seulo NU
+Coordinate: Lat 39.868643, Lng 9.237406
+Website: https://www.serbeiniedda.com/it/
+Email: 
+
+4759. Sa Stiddiosa Guesthouse
+ID: fb9a133d-467f-41e1-bee0-867d577f108c
+Slug: sa-stiddiosa-guesthouse-aritzo
+Nome: Sa Stiddiosa Guesthouse
+Comune / Provincia: Aritzo
+Indirizzo: Via Umberto I, 17, 08030 Gadoni NU
+Coordinate: Lat 39.916066, Lng 9.185749
+Website: https://www.gadoniturismo.it/contattaci/
+Email: 
+
+4760. Agriturismo Al Motto
+ID: 31be1cc7-cff2-4fda-80e1-d0e2cd23b2ab
+Slug: agriturismo-al-motto-arizzano
+Nome: Agriturismo Al Motto
+Comune / Provincia: Arizzano
+Indirizzo: Via Sant'Anna, 7, 28814 Cambiasca VB
+Coordinate: Lat 45.966121, Lng 8.546741
+Website: http://www.agriturismoalmotto.it/
+Email: 

@@ -32,6 +32,7 @@
     "n8n:trigger": "node scripts/n8n-trigger-webhook.mjs",
     "n8n:list-pending": "node scripts/n8n-list-pending.mjs",
     "n8n:publish-approved": "node scripts/n8n-publish-approved.mjs",
+    "export:missing-descriptions": "node scripts/export-missing-descriptions.mjs",
     "lmstudio:probe": "node scripts/generate-block-descriptions-lmstudio.mjs --probe",
     "lmstudio:test": "node scripts/test-lmstudio-one-hotel.mjs",
     "setup:mac-lmstudio": "node scripts/setup-mac-lmstudio.mjs",

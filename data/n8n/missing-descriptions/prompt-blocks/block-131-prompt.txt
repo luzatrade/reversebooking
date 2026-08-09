@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+4551. Locanda Vittoria
+ID: 776279ea-89e1-475b-a920-7d56879c5b64
+Slug: locanda-vittoria-arenzano
+Nome: Locanda Vittoria
+Comune / Provincia: Arenzano
+Indirizzo: Via Raffaello Sanzio, 3, 16011 Arenzano GE
+Coordinate: Lat 44.403746, Lng 8.681849
+Website: http://locanda-vittoria.com.es/
+Email: 
+
+4552. Mirandola Suites
+ID: 3481f663-d35f-4fe2-b48e-922c57ab9977
+Slug: mirandola-suites-arenzano
+Nome: Mirandola Suites
+Comune / Provincia: Arenzano
+Indirizzo: Via Costa Frati, 10, 16011 Arenzano GE
+Coordinate: Lat 44.411961, Lng 8.680226
+Website: https://mirandolasuites.com/
+Email: 
+
+4553. Via di Francia Residence Arenzano
+ID: 275cfe3b-1066-405a-8f49-82d02379378d
+Slug: via-di-francia-residence-arenzano-arenzano
+Nome: Via di Francia Residence Arenzano
+Comune / Provincia: Arenzano
+Indirizzo: Via Francia, 5, 16011 Arenzano GE
+Coordinate: Lat 44.400241, Lng 8.684614
+Website: https://residencearenzano.com/
+Email: 
+
+4554. Villa Figoli Suites
+ID: b507680c-91df-4ba6-8981-218c442e6047
+Slug: villa-figoli-suites-arenzano
+Nome: Villa Figoli Suites
+Comune / Provincia: Arenzano
+Indirizzo: Via Grecia, 1, 16011 Arenzano GE
+Coordinate: Lat 44.406726, Lng 8.689082
+Website: https://www.villafigoli.it/
+Email: 
+
+4555. AdriroomsRho
+ID: b47e492b-5cb2-43d9-bcd5-482626d514d9
+Slug: adriroomsrho-arese
+Nome: AdriroomsRho
+Comune / Provincia: Arese
+Indirizzo: Via Bruno Buozzi, 31, 20017 Rho MI
+Coordinate: Lat 45.551147, Lng 9.043271
+Website: https://www.adriroomsrho.it/
+Email: 
+
+4556. Anjoy&Bleev Rooms - Rho Fiera
+ID: 90a96376-5fb6-41ae-9805-adf5db6dfe07
+Slug: anjoy-bleev-rooms-rho-fiera-arese
+Nome: Anjoy&Bleev Rooms - Rho Fiera
+Comune / Provincia: Arese
+Indirizzo: fronte Eni Station, Via Pace, 85, 20017 Rho MI
+Coordinate: Lat 45.529437, Lng 9.057133
+Website: https://www.abrooms.it/
+Email: 
+
+4557. ARESE B&B
+ID: c805f571-e425-422a-9467-79898f84a26a
+Slug: arese-b-b-arese
+Nome: ARESE B&B
+Comune / Provincia: Arese
+Indirizzo: Viale Alfa Romeo, 4a, 20044 Arese MI
+Coordinate: Lat 45.562752, Lng 9.066503
+Website: http://www.aresebb.it/
+Email: 
+
+4558. B&B Amelie
+ID: 91a7dd3f-ae8d-47fc-9d77-89376a8cfa38
+Slug: b-b-amelie-arese
+Nome: B&B Amelie
+Comune / Provincia: Arese
+Indirizzo: Via Bruno Buozzi, 27, 20017 Rho MI
+Coordinate: Lat 45.551052, Lng 9.042735
+Website: https://beb.it/amelierho
+Email: 
+
+4559. Bed
+ID: bf94c2aa-f67d-4d45-bc43-fa871ec7b865
+Slug: bed-arese
+Nome: Bed
+Comune / Provincia: Arese
+Indirizzo: Piazza della Libertà, 5, 20017 Rho MI
+Coordinate: Lat 45.52466, Lng 9.04406
+Website: https://www.bedgruppo.com/it
+Email: 
+
+4560. Bed Rho Fiera
+ID: e635dee0-b4c9-4d6b-8bd4-58a7c4818eb1
+Slug: bed-rho-fiera-arese
+Nome: Bed Rho Fiera
+Comune / Provincia: Arese
+Indirizzo: Via Enrico Toti, 18, 20017 Rho MI
+Coordinate: Lat 45.525587, Lng 9.049849
+Website: https://www.bedgruppo.com/it
+Email: 
+
+4561. Casagialla89
+ID: 2a26123c-244a-41f8-8122-22911fa6f39a
+Slug: casagialla89-arese
+Nome: Casagialla89
+Comune / Provincia: Arese
+Indirizzo: Via Peloritana, 93, 20024 Garbagnate Milanese MI
+Coordinate: Lat 45.577204, Lng 9.064551
+Website: —
+Email: 
+
+4562. Exclusive Passion
+ID: a804fbc5-807f-4fcc-b764-8e2e113b43ec
+Slug: exclusive-passion-arese
+Nome: Exclusive Passion
+Comune / Provincia: Arese
+Indirizzo: Via Magenta, 85, 20017 Rho MI
+Coordinate: Lat 45.520904, Lng 9.037014
+Website: https://www.oasipassionfiera.it/
+Email: 
+
+4563. Expo Residence Rho
+ID: a3c179e7-3a40-4e84-9581-d546326c1c81
+Slug: expo-residence-rho-arese
+Nome: Expo Residence Rho
+Comune / Provincia: Arese
+Indirizzo: Via Pace, 23, 20017 Rho MI
+Coordinate: Lat 45.528398, Lng 9.05147
+Website: https://www.exporesidencerho.com/
+Email: 
+
+4564. Fish Art Restaurant
+ID: fc826e65-4b1f-4bd4-8048-a022573c5868
+Slug: fish-art-restaurant-arese
+Nome: Fish Art Restaurant
+Comune / Provincia: Arese
+Indirizzo: Via Milano, 40, 20021 Bollate MI
+Coordinate: Lat 45.539799, Lng 9.102101
+Website: https://dngfishart.wixsite.com/bollate
+Email: 
+
+4565. Golf Hotel Resort
+ID: e90c4d4e-75e7-4cf2-b604-bb59fdcf7ae3
+Slug: golf-hotel-resort-arese
+Nome: Golf Hotel Resort
+Comune / Provincia: Arese
+Indirizzo: Via Alessandro Manzoni, 45, 20045 Lainate MI
+Coordinate: Lat 45.565131, Lng 9.030507
+Website: http://www.golfhotelresort.it/
+Email: 
+
+4566. Holiday Rooms Rho
+ID: 8cb751b5-9885-455a-a688-b23719c55eb1
+Slug: holiday-rooms-rho-arese
+Nome: Holiday Rooms Rho
+Comune / Provincia: Arese
+Indirizzo: Via Monfalcone, 5, 20017 Rho MI
+Coordinate: Lat 45.534362, Lng 9.052032
+Website: https://www.holidayroomsrho.com/
+Email: 
+
+4567. Hotel La Torretta
+ID: c5463f1c-777b-4bff-a06b-e1ce5bcc1dcb
+Slug: hotel-la-torretta-arese
+Nome: Hotel La Torretta
+Comune / Provincia: Arese
+Indirizzo: Via Trento, 111, 20021 Bollate MI
+Coordinate: Lat 45.551407, Lng 9.090147
+Website: http://www.hotellatorretta.it/
+Email: 
+
+4568. Hotel Litta Palace
+ID: dfa85882-400a-43c4-8e97-6804b25f4f41
+Slug: hotel-litta-palace-arese
+Nome: Hotel Litta Palace
+Comune / Provincia: Arese
+Indirizzo: Via Lepetit, 1, 20045 Lainate MI
+Coordinate: Lat 45.561945, Lng 9.027538
+Website: http://www.hotellittapalace.com/
+Email: 
+
+4569. Hotel Ristorante Pizzeria Al Mulino
+ID: 6e496d9e-5a11-40c1-95af-41d03304ba34
+Slug: hotel-ristorante-pizzeria-al-mulino-arese
+Nome: Hotel Ristorante Pizzeria Al Mulino
+Comune / Provincia: Arese
+Indirizzo: Via Repubblica, 75, 20021 Bollate MI
+Coordinate: Lat 45.540759, Lng 9.103073
+Website: http://hotel-ristorante-al-mulino.eatbu.com/
+Email: 
+
+4570. Infinity Passion
+ID: 3c71e2f5-e299-44df-9804-02a5092ef359
+Slug: infinity-passion-arese
+Nome: Infinity Passion
+Comune / Provincia: Arese
+Indirizzo: Via Magenta, 85 a, 20017 Rho MI
+Coordinate: Lat 45.520705, Lng 9.036726
+Website: —
+Email: 
+
+4571. Italiana Hotels Milano Rho Fiera
+ID: 95b27482-1497-437d-a48e-3f8ef169907e
+Slug: italiana-hotels-milano-rho-fiera-arese
+Nome: Italiana Hotels Milano Rho Fiera
+Comune / Provincia: Arese
+Indirizzo: Via Alessandro Volta, 54, 20017 Rho MI
+Coordinate: Lat 45.523662, Lng 9.037432
+Website: http://www.himilanrhofair.it/
+Email: 
+
+4572. Moon Palace
+ID: b06140a2-e1e6-4e6d-8da9-4044cd806c78
+Slug: moon-palace-arese
+Nome: Moon Palace
+Comune / Provincia: Arese
+Indirizzo: Giada • Centro Commerciale, Viale dei Platani, 16, 20040 Arese MI
+Coordinate: Lat 45.556472, Lng 9.075238
+Website: http://www.hotelmoonpalace.it/
+Email: 
+
+4573. OnlyRoomsRho
+ID: 7618a6be-bbf8-4505-8b09-3ed76ca268cd
+Slug: onlyroomsrho-arese
+Nome: OnlyRoomsRho
+Comune / Provincia: Arese
+Indirizzo: Via Bruno Buozzi, 31, 20017 Rho MI
+Coordinate: Lat 45.551161, Lng 9.04325
+Website: http://www.onlyroomsrho.it/
+Email: 
+
+4574. Placido's B&B
+ID: c0378a61-d8fc-4330-b163-7661966deecc
+Slug: placido-s-b-b-arese
+Nome: Placido's B&B
+Comune / Provincia: Arese
+Indirizzo: Via Confalonieri, 18, 20017 Rho MI
+Coordinate: Lat 45.527251, Lng 9.051572
+Website: —
+Email: 
+
+4575. A Point Arezzo Park Hotel
+ID: 608a67a7-242d-4711-a033-2e8a3c6a4753
+Slug: a-point-arezzo-park-hotel-arezzo
+Nome: A Point Arezzo Park Hotel
+Comune / Provincia: Arezzo
+Indirizzo: Località Battifolle, 36T, 52100 Arezzo AR
+Coordinate: Lat 43.436905, Lng 11.779001
+Website: https://www.arezzoparkhotel.com/
+Email: 
+
+4576. Aretium - B&B
+ID: 6b18cd7f-7f8b-4685-b8da-e9a9fcd522e1
+Slug: aretium-b-b-arezzo
+Nome: Aretium - B&B
+Comune / Provincia: Arezzo
+Indirizzo: Via Benedetto Varchi, 4, 52100 Arezzo AR
+Coordinate: Lat 43.468532, Lng 11.875205
+Website: https://www.booking.com/hotel/it/aretium-b-amp-b.it.html
+Email: 
+
+4577. B&B Arezzo Allegra Toscana - bed&breakfast Apartments & Short lets
+ID: 22c17b08-7bff-46a8-a699-b6a3516e49e1
+Slug: b-b-arezzo-allegra-toscana-bed-breakfast-apartme-arezzo
+Nome: B&B Arezzo Allegra Toscana - bed&breakfast Apartments & Short lets
+Comune / Provincia: Arezzo
+Indirizzo: Corso Italia, 108, 52100 Arezzo AR
+Coordinate: Lat 43.463846, Lng 11.881556
+Website: https://www.granducatocollection.com/allegratoscana/
+Email: 
+
+4578. B&B HOTEL Arezzo
+ID: baca38cc-a5ec-4647-a97c-76d258de7403
+Slug: b-b-hotel-arezzo-arezzo
+Nome: B&B HOTEL Arezzo
+Comune / Provincia: Arezzo
+Indirizzo: Via Einstein, 4, 52100 Arezzo AR
+Coordinate: Lat 43.469899, Lng 11.848851
+Website: https://www.hotel-bb.com/it/hotel/arezzo?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext
+Email: 
+
+4579. Bibi Boutique Arezzo
+ID: c9c3360f-c530-427a-93a9-6ac374e1a96f
+Slug: bibi-boutique-arezzo-arezzo
+Nome: Bibi Boutique Arezzo
+Comune / Provincia: Arezzo
+Indirizzo: Via Fontanella, 9, 52100 Arezzo AR
+Coordinate: Lat 43.462144, Lng 11.885623
+Website: https://www.bibiarezzo.com/
+Email: 
+
+4580. BioBenessere B&B
+ID: 19e8bf2f-ce70-4c97-be61-f57db22acd48
+Slug: biobenessere-b-b-arezzo
+Nome: BioBenessere B&B
+Comune / Provincia: Arezzo
+Indirizzo: Via Nazario Sauro, n.18, 52100 Arezzo AR
+Coordinate: Lat 43.457833, Lng 11.875261
+Website: https://www.biobenesserebnb.bio/
+Email: 
+
+4581. Casa Volpi
+ID: c1d6690f-fcad-4a00-85c6-23d64e9a5039
+Slug: casa-volpi-arezzo
+Nome: Casa Volpi
+Comune / Provincia: Arezzo
+Indirizzo: Via Simone Martini, 29, 52100 Arezzo AR
+Coordinate: Lat 43.44501, Lng 11.893766
+Website: http://www.residencecasavolpi.it/
+Email: 
+
+4582. Etrusco Arezzo Hotel, Sure Hotel Collection by Best Western
+ID: a5336bf2-8d4b-4c6e-805c-f61dd1b7fecb
+Slug: etrusco-arezzo-hotel-sure-hotel-collection-by-be-arezzo
+Nome: Etrusco Arezzo Hotel, Sure Hotel Collection by Best Western
+Comune / Provincia: Arezzo
+Indirizzo: Via Alessandro Fleming, 39, 52100 Arezzo AR
+Coordinate: Lat 43.469302, Lng 11.853486
+Website: http://www.etruscohotel.it/
+Email: 
+
+4583. Garden Hotel
+ID: ba024f63-2585-4e67-8ea1-05cbd1929a4b
+Slug: garden-hotel-arezzo
+Nome: Garden Hotel
+Comune / Provincia: Arezzo
+Indirizzo: Loc, SS679, 36/b, 52100 Arezzo AR
+Coordinate: Lat 43.439013, Lng 11.778263
+Website: http://www.gardenhotelarezzo.it/
+Email: 
+
+4584. Graziella Patio Hotel
+ID: 193bdc15-860f-46d6-abab-1598220a9b58
+Slug: graziella-patio-hotel-arezzo
+Nome: Graziella Patio Hotel
+Comune / Provincia: Arezzo
+Indirizzo: Via Cavour, 23, 52100 Arezzo AR
+Coordinate: Lat 43.464516, Lng 11.881513
+Website: https://www.hotelpatio.it/mobile/it/home.html
+Email: 
+
+4585. Hotel Cecco
+ID: 6c301795-bb80-4f64-b27b-50ba0f1b8258
+Slug: hotel-cecco-arezzo
+Nome: Hotel Cecco
+Comune / Provincia: Arezzo
+Indirizzo: Corso Italia, 215, 52100 Arezzo AR
+Coordinate: Lat 43.461667, Lng 11.879167
+Website: https://www.hotelcecco.com/index.php?lang=it
+Email: 

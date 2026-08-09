@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+12916. Hotel dei Gonzaga - Reggiolo, Reggio Emilia
+ID: eb7c43a8-1f74-4759-a7c1-08e4e0e12f4a
+Slug: hotel-dei-gonzaga-reggiolo-reggio-emilia-campagnola-emilia
+Nome: Hotel dei Gonzaga - Reggiolo, Reggio Emilia
+Comune / Provincia: Campagnola Emilia
+Indirizzo: Str. Malagoli, 5, 42046 Reggiolo RE
+Coordinate: Lat 44.916707, Lng 10.801683
+Website: https://www.hoteldeigonzaga.com/
+Email: 
+
+12917. Hotel Il Rifugio
+ID: 88337b0a-3a2a-4ffa-a4b6-53474b5bac68
+Slug: hotel-il-rifugio-campagnola-emilia
+Nome: Hotel Il Rifugio
+Comune / Provincia: Campagnola Emilia
+Indirizzo: Via Chiesa Matildica, 4, 46023 Gonzaga MN
+Coordinate: Lat 44.952268, Lng 10.823719
+Website: https://www.ilrifugiogonzaga.it/
+Email: 
+
+12918. Hotel Villa Nabila
+ID: 610063fd-3552-4e8c-b4f6-950bbe314c11
+Slug: hotel-villa-nabila-campagnola-emilia
+Nome: Hotel Villa Nabila
+Comune / Provincia: Campagnola Emilia
+Indirizzo: Viale Marconi, 4, 42046 Reggiolo RE
+Coordinate: Lat 44.919167, Lng 10.805
+Website: http://www.hotelvillanabila.it/
+Email: 
+
+12919. La Perla del Mercante B&B
+ID: a5faf6b1-9474-4c07-9274-afc1dac648b4
+Slug: la-perla-del-mercante-b-b-campagnola-emilia
+Nome: La Perla del Mercante B&B
+Comune / Provincia: Campagnola Emilia
+Indirizzo: Via Mercanti, 6, 42015 Correggio RE
+Coordinate: Lat 44.795057, Lng 10.813076
+Website: https://www.laperladelmercante.it/
+Email: 
+
+12920. Tenuta Santo Stefano - Hotel
+ID: 83d30c4a-b7e9-4998-afc5-55d177c04c84
+Slug: tenuta-santo-stefano-hotel-campagnola-emilia
+Nome: Tenuta Santo Stefano - Hotel
+Comune / Provincia: Campagnola Emilia
+Indirizzo: V. Vettigano, 26, 42012 Campagnola Emilia RE
+Coordinate: Lat 44.834444, Lng 10.774399
+Website: http://www.tenutasantostefano.eu/
+Email: 
+
+12921. Acquamarina B&B Deluxe
+ID: f973db9b-ce60-46c8-9be8-6dab70a7dd4d
+Slug: acquamarina-b-b-deluxe-campana
+Nome: Acquamarina B&B Deluxe
+Comune / Provincia: Campana
+Indirizzo: Via Cristoforo Colombo, 39, 87062 Cariati CS
+Coordinate: Lat 39.497042, Lng 16.954929
+Website: https://www.booking.com/hotel/it/acqua-marina-cariati-marina.it.html
+Email: 
+
+12922. agriturismo al grande gelso
+ID: 27de6d29-e94b-4085-9559-add810aeca16
+Slug: agriturismo-al-grande-gelso-campana
+Nome: agriturismo al grande gelso
+Comune / Provincia: Campana
+Indirizzo: c/da sant' angelo, 87062 Cariati CS
+Coordinate: Lat 39.476768, Lng 17.003717
+Website: http://www.algrandegelso.com/
+Email: 
+
+12923. Al Giglio
+ID: afd23ca8-a7a0-4128-b80d-c36fe9b05f59
+Slug: al-giglio-campana
+Nome: Al Giglio
+Comune / Provincia: Campana
+Indirizzo: Via Ieronimo, 12, 87062 Cariati CS
+Coordinate: Lat 39.496454, Lng 16.956182
+Website: http://algigliocariati.com.es/
+Email: 
+
+12924. B&B Birillo Cariati
+ID: 63f11260-ab78-43fe-877a-ce596f2a94b6
+Slug: b-b-birillo-cariati-campana
+Nome: B&B Birillo Cariati
+Comune / Provincia: Campana
+Indirizzo: Via A. de Gasperi, 139, 87062 Cariati CS
+Coordinate: Lat 39.499915, Lng 16.945275
+Website: http://www.birillobeb.it/
+Email: 
+
+12925. B&B Domus Purpurea
+ID: 5a17d72c-11f6-483e-b35f-8acf32974428
+Slug: b-b-domus-purpurea-campana
+Nome: B&B Domus Purpurea
+Comune / Provincia: Campana
+Indirizzo: Piazza Duomo, snc, 87064 Rossano CS
+Coordinate: Lat 39.574849, Lng 16.635079
+Website: —
+Email: 
+
+12926. B&B Fiore di Cappero by Calabria Stay
+ID: ac5dc9e1-5ef3-4f07-955d-dbc60d4acbda
+Slug: b-b-fiore-di-cappero-by-calabria-stay-campana
+Nome: B&B Fiore di Cappero by Calabria Stay
+Comune / Provincia: Campana
+Indirizzo: via 49° Fanteria, 20, 87062 Cariati CS
+Coordinate: Lat 39.496105, Lng 16.951762
+Website: https://aloisstraveltips.com/b-amp-b-fiore-di-cappero-italy
+Email: 
+
+12927. Palazzo Mascambruno
+ID: 6147bb0b-cbc2-4760-99a9-3a0d7df5f1a4
+Slug: palazzo-mascambruno-campana
+Nome: Palazzo Mascambruno
+Comune / Provincia: Campana
+Indirizzo: Via Giuseppe Garibaldi, 59, 87062 Cariati CS
+Coordinate: Lat 39.49687, Lng 16.945631
+Website: http://www.palazzomascambruno.it/
+Email: 
+
+12928. Policaretto Rooms
+ID: 33c6a3be-555c-4377-b2e3-acac05a967ef
+Slug: policaretto-rooms-campana
+Nome: Policaretto Rooms
+Comune / Provincia: Campana
+Indirizzo: contrada Policaretto snc, 88812 Torretta KR
+Coordinate: Lat 39.472608, Lng 17.01398
+Website: https://www.calabriastay.it/
+Email: 
+
+12929. San Pio Bed & Breakfast B&B
+ID: f0a10357-428b-45e0-a0e0-f436e98e6fe7
+Slug: san-pio-bed-breakfast-b-b-campana
+Nome: San Pio Bed & Breakfast B&B
+Comune / Provincia: Campana
+Indirizzo: Piazza Altiero Spinelli, 8, 87062 Cariati CS
+Coordinate: Lat 39.495237, Lng 16.94753
+Website: http://www.bebsanpio.it/
+Email: 
+
+12930. B&B Raggio di Sole
+ID: 45b8fac2-ce04-49c8-b0f4-55da81b45c93
+Slug: b-b-raggio-di-sole-camparada
+Nome: B&B Raggio di Sole
+Comune / Provincia: Camparada
+Indirizzo: Via Marina, 9, 20855 Lesmo MB
+Coordinate: Lat 45.648166, Lng 9.313328
+Website: —
+Email: 
+
+12931. HAPPY GARDEN B&B
+ID: e469c969-6bee-46f0-bdb7-f788e157c1fe
+Slug: happy-garden-b-b-camparada
+Nome: HAPPY GARDEN B&B
+Comune / Provincia: Camparada
+Indirizzo: Via Vincenzo Monti, 44, 20855 Lesmo MB
+Coordinate: Lat 45.646139, Lng 9.314085
+Website: —
+Email: 
+
+12932. Agriturismo Fattoria Marchesini
+ID: 9d4e7ed2-aa3e-405a-8d71-9553012e45e8
+Slug: agriturismo-fattoria-marchesini-campegine
+Nome: Agriturismo Fattoria Marchesini
+Comune / Provincia: Campegine
+Indirizzo: Via F.lli, Via Fratelli Gennaroli, 43, 42043 Praticello RE
+Coordinate: Lat 44.797881, Lng 10.478463
+Website: http://www.fattoriamarchesini.it/
+Email: 
+
+12933. Agriturismo La Brezza
+ID: 25c2f841-b781-419e-a6bf-1e16a85272bc
+Slug: agriturismo-la-brezza-campegine
+Nome: Agriturismo La Brezza
+Comune / Provincia: Campegine
+Indirizzo: Via Francesco Crispi, 7, 42043 Gattatico RE
+Coordinate: Lat 44.81606, Lng 10.519361
+Website: http://www.agriturismolabrezza.it/
+Email: 
+
+12934. Az.Ag. e Agriturismo L'Arco Antico di Rota Tullio
+ID: 1189de46-0003-4544-9ae1-e5c8a287dfa3
+Slug: az-ag-e-agriturismo-l-arco-antico-di-rota-tullio-campegine
+Nome: Az.Ag. e Agriturismo L'Arco Antico di Rota Tullio
+Comune / Provincia: Campegine
+Indirizzo: Via M. Tonelli, 32, 42043 Gattatico RE
+Coordinate: Lat 44.772993, Lng 10.469875
+Website: http://www.agriturismoarcoantico.com/
+Email: 
+
+12935. B&b Casa Pratina
+ID: 6270892e-18e1-4480-96ff-4f64878023f6
+Slug: b-b-casa-pratina-campegine
+Nome: B&b Casa Pratina
+Comune / Provincia: Campegine
+Indirizzo: Viottolo Basso, 42040 Campegine RE
+Coordinate: Lat 44.771636, Lng 10.497087
+Website: https://www.facebook.com/share/15w8Fhip1m/?mibextid=wwXIfr
+Email: 
+
+12936. CASCINA ANTICHE TERRE
+ID: 8f2ce140-d4d7-469c-b298-d7aab50b3e8b
+Slug: cascina-antiche-terre-campegine
+Nome: CASCINA ANTICHE TERRE
+Comune / Provincia: Campegine
+Indirizzo: Via Giacomo Matteotti, 47, 42040 Case Cocconi RE
+Coordinate: Lat 44.788394, Lng 10.524774
+Website: https://staycentral.eu/cascina-antiche-terre-campegine/
+Email: 
+
+12937. Valdenza Hotel
+ID: 22270a28-a548-4066-992d-ed838c4b8b77
+Slug: valdenza-hotel-campegine
+Nome: Valdenza Hotel
+Comune / Provincia: Campegine
+Indirizzo: Via P. Nenni, 2, 42040 Caprara RE
+Coordinate: Lat 44.781754, Lng 10.508461
+Website: http://www.valdenzahotel.it/
+Email: 
+
+12938. Agriturismo Ristorante Pettino
+ID: c651137f-33f4-4f24-ad5f-76c36d0ef96f
+Slug: agriturismo-ristorante-pettino-campello-sul-clitunno
+Nome: Agriturismo Ristorante Pettino
+Comune / Provincia: Campello sul Clitunno
+Indirizzo: Frazione Pettino, 1, 06042 Campello sul Clitunno PG
+Coordinate: Lat 42.863628, Lng 12.814371
+Website: https://www.facebook.com/agriturismoristorantepettino.it
+Email: 
+
+12939. Albergo Il Pescatore
+ID: 8039e4fb-dbe3-4d90-b275-8fcc94baad14
+Slug: albergo-il-pescatore-campello-sul-clitunno
+Nome: Albergo Il Pescatore
+Comune / Provincia: Campello sul Clitunno
+Indirizzo: Via Chiesa Tonda, 50, 06039 Trevi PG
+Coordinate: Lat 42.845617, Lng 12.754531
+Website: http://albergoilpescatore.blogspot.it/
+Email: 
+
+12940. Albergo Le Casaline
+ID: a3c79628-8173-422b-a1d3-c702ff84342f
+Slug: albergo-le-casaline-campello-sul-clitunno
+Nome: Albergo Le Casaline
+Comune / Provincia: Campello sul Clitunno
+Indirizzo: Campello sul Clitunno Localita' Casaline, 06042 Campello sul Clitunno PG
+Coordinate: Lat 42.818144, Lng 12.799125
+Website: —
+Email: 
+
+12941. Albergo Ristorante Benedetti
+ID: dae9160c-01dd-4307-98e6-6e228e8c8258
+Slug: albergo-ristorante-benedetti-campello-sul-clitunno
+Nome: Albergo Ristorante Benedetti
+Comune / Provincia: Campello sul Clitunno
+Indirizzo: Via Giuseppe Verdi, 32, 06042 Campello Sul Clitunno PG
+Coordinate: Lat 42.821041, Lng 12.766262
+Website: http://www.hotelbenedetti.it/
+Email: 
+
+12942. B&B Dimora Umbra al Civico 65
+ID: f3503361-11e3-4ebb-b52e-9dcdcffa7a20
+Slug: b-b-dimora-umbra-al-civico-65-campello-sul-clitunno
+Nome: B&B Dimora Umbra al Civico 65
+Comune / Provincia: Campello sul Clitunno
+Indirizzo: Via Filippo da Campello, 65, 06042 Campello Sul Clitunno PG
+Coordinate: Lat 42.818667, Lng 12.779195
+Website: https://www.alcivico65.it/
+Email: 
+
+12943. B&B La Terrazza
+ID: 6c1f1c77-f177-4da6-b1ab-7f2d525e0d78
+Slug: b-b-la-terrazza-campello-sul-clitunno
+Nome: B&B La Terrazza
+Comune / Provincia: Campello sul Clitunno
+Indirizzo: Via Fossatello, 16, 06039 Trevi PG
+Coordinate: Lat 42.876878, Lng 12.7418
+Website: —
+Email: 
+
+12944. B&B Palazzo Fontana
+ID: 453fe74b-79f0-4b42-91e6-ddc71475a0b5
+Slug: b-b-palazzo-fontana-campello-sul-clitunno
+Nome: B&B Palazzo Fontana
+Comune / Provincia: Campello sul Clitunno
+Indirizzo: Via delle Fonti, 2, 06039 Trevi PG
+Coordinate: Lat 42.877425, Lng 12.748531
+Website: https://www.vacanzetrevi.it/palazzo-fontana-trevi/
+Email: 
+
+12945. B&b piccola parigi
+ID: 1abc94a5-d177-4274-8665-d5ac86c12db0
+Slug: b-b-piccola-parigi-campello-sul-clitunno
+Nome: B&b piccola parigi
+Comune / Provincia: Campello sul Clitunno
+Indirizzo: Corso Flaminio, 53, 06049 San Giacomo PG
+Coordinate: Lat 42.791458, Lng 12.750502
+Website: https://www.bbpiccolaparigi.it/
+Email: 
+
+12946. Bed and Breakfast "Il Giovine"
+ID: 7c2c1adc-b70e-4823-9ad1-718c53858b85
+Slug: bed-and-breakfast-il-giovine-campello-sul-clitunno
+Nome: Bed and Breakfast "Il Giovine"
+Comune / Provincia: Campello sul Clitunno
+Indirizzo: Via Plinio il Giovane, 18, 06042 Campello Sul Clitunno PG
+Coordinate: Lat 42.837897, Lng 12.764049
+Website: —
+Email: 
+
+12947. Bed and Breakfast Le Torrette
+ID: f2e208a4-1173-4cd6-bfc4-ef82beafcaa3
+Slug: bed-and-breakfast-le-torrette-campello-sul-clitunno
+Nome: Bed and Breakfast Le Torrette
+Comune / Provincia: Campello sul Clitunno
+Indirizzo: Via delle Torrette, 85, 06042 Campello Sul Clitunno PG
+Coordinate: Lat 42.824047, Lng 12.787504
+Website: http://bed-and-breakfast-le-torrette.com/
+Email: 
+
+12948. Guest Art House Aurora GAHA
+ID: 4df8e1fe-8eef-4e3c-beec-5cf7fa91084f
+Slug: guest-art-house-aurora-gaha-campello-sul-clitunno
+Nome: Guest Art House Aurora GAHA
+Comune / Provincia: Campello sul Clitunno
+Indirizzo: via, Via Flaminia, 30, 06042 Campello Sul Clitunno PG
+Coordinate: Lat 42.836334, Lng 12.762066
+Website: http://www.guestarthouseaurora.eu/
+Email: 
+
+12949. HOTEL TREVI
+ID: eee200ea-73d3-4149-b52a-d87067d626d7
+Slug: hotel-trevi-campello-sul-clitunno
+Nome: HOTEL TREVI
+Comune / Provincia: Campello sul Clitunno
+Indirizzo: Via Antonino Fantosati, 2, 06039 Trevi PG
+Coordinate: Lat 42.876645, Lng 12.746924
+Website: http://www.hoteltrevipalazzonatalini.it/
+Email: 
+
+12950. Il Baio Ristorante, Relais & Natural SPA
+ID: 0baf7815-63b5-41f9-a698-d5e9d7e74f8a
+Slug: il-baio-ristorante-relais-natural-spa-campello-sul-clitunno
+Nome: Il Baio Ristorante, Relais & Natural SPA
+Comune / Provincia: Campello sul Clitunno
+Indirizzo: Frazione Camporoppolo, SNC, 06049 Camporoppolo PG
+Coordinate: Lat 42.803911, Lng 12.724354
+Website: https://www.ilbaio.com/
+Email: 

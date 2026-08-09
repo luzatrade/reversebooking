@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+3256. Il Bricco B&B
+ID: 2728acac-0946-48e7-8186-2c1397427f8e
+Slug: il-bricco-b-b-andezeno
+Nome: Il Bricco B&B
+Comune / Provincia: Andezeno
+Indirizzo: Bricco Ornesio, 10090 Sciolze TO
+Coordinate: Lat 45.09268, Lng 7.888656
+Website: http://www.ilbricco.it/
+Email: 
+
+3257. Marconi Apartment
+ID: 5b60c25e-920d-44a7-b8b6-8611947d1eb9
+Slug: marconi-apartment-andezeno
+Nome: Marconi Apartment
+Comune / Provincia: Andezeno
+Indirizzo: Via Guglielmo Marconi, 9, 10023 Chieri TO
+Coordinate: Lat 45.015085, Lng 7.826173
+Website: https://www.booking.com/Share-SDXmqs
+Email: 
+
+3258. PUNTO DI VISTA - Bed and Breakfast
+ID: cdeb55da-c408-4733-8857-8ee526e7a158
+Slug: punto-di-vista-bed-and-breakfast-andezeno
+Nome: PUNTO DI VISTA - Bed and Breakfast
+Comune / Provincia: Andezeno
+Indirizzo: Str. Turriglie, 33, 10023 Chieri TO
+Coordinate: Lat 45.024132, Lng 7.816297
+Website: http://www.puntodivista-bb.com/
+Email: 
+
+3259. Rocca di Arignano
+ID: 16330497-cf5d-46e1-8602-e56bfc8ea366
+Slug: rocca-di-arignano-andezeno
+Nome: Rocca di Arignano
+Comune / Provincia: Andezeno
+Indirizzo: Via Gino Lisa, 16, 10020 Arignano TO
+Coordinate: Lat 45.043918, Lng 7.90277
+Website: http://www.roccadiarignano.it/
+Email: 
+
+3260. Rosatea B&B
+ID: 523d59fd-1705-4e0f-af71-cb9c92a2dba9
+Slug: rosatea-b-b-andezeno
+Nome: Rosatea B&B
+Comune / Provincia: Andezeno
+Indirizzo: Str. della Rosa, 53, 10023 Chieri TO
+Coordinate: Lat 45.03743, Lng 7.840786
+Website: http://www.rosatea-bedandbreakfast.it/
+Email: 
+
+3261. Agriturismo Domus Serena
+ID: f92398fb-c28e-4d83-8595-1fb56386022c
+Slug: agriturismo-domus-serena-andora
+Nome: Agriturismo Domus Serena
+Comune / Provincia: Andora
+Indirizzo: 17051, Via Piangrande, 32, 17020 Andora SV
+Coordinate: Lat 43.975667, Lng 8.136683
+Website: https://www.bbdomuserena.it/
+Email: 
+
+3262. Agriturismo Gli Aromi
+ID: 6aab063b-5bbb-4174-b248-e2c7b8d0d70c
+Slug: agriturismo-gli-aromi-andora
+Nome: Agriturismo Gli Aromi
+Comune / Provincia: Andora
+Indirizzo: Via Piangrande, 31, 17020 Pian Grande SV
+Coordinate: Lat 43.97643, Lng 8.135835
+Website: https://alisastraveltips.com/agriturismo-gli-aromi-italy
+Email: 
+
+3263. Agriturismo Il Glicine
+ID: 8c4dcc86-1459-4622-9973-3e5f29adca98
+Slug: agriturismo-il-glicine-andora
+Nome: Agriturismo Il Glicine
+Comune / Provincia: Andora
+Indirizzo: Via A. Divizia, 29, 17020 Andora SV
+Coordinate: Lat 43.999599, Lng 8.107527
+Website: https://agriturismo-il-glicine.guideditalia.top/
+Email: 
+
+3264. Albergo Adriana
+ID: 241bc84c-136b-4d4d-8b78-ce5af60e31dc
+Slug: albergo-adriana-andora
+Nome: Albergo Adriana
+Comune / Provincia: Andora
+Indirizzo: Via Novara, 20, 17020 Laigueglia SV
+Coordinate: Lat 43.973561, Lng 8.157316
+Website: http://www.albergoadriana.it/
+Email: 
+
+3265. Albergo La Pineta
+ID: f2496577-8a02-4783-8811-f9724b371ced
+Slug: albergo-la-pineta-andora
+Nome: Albergo La Pineta
+Comune / Provincia: Andora
+Indirizzo: Str. della Pineta, 10, 17020 Andora SV
+Coordinate: Lat 43.953037, Lng 8.154556
+Website: —
+Email: 
+
+3266. B&B Andoramare
+ID: cc2d7e2e-9822-4c1c-a84e-dd1e3979fd09
+Slug: b-b-andoramare-andora
+Nome: B&B Andoramare
+Comune / Provincia: Andora
+Indirizzo: Via Rattalino, 13, 17020 Marina di Andora SV
+Coordinate: Lat 43.953756, Lng 8.144832
+Website: http://www.andoramare.it/
+Email: 
+
+3267. B&B SanPietro Andora
+ID: 2c7e7113-aa0d-456c-863f-75c9b1f04160
+Slug: b-b-sanpietro-andora-andora
+Nome: B&B SanPietro Andora
+Comune / Provincia: Andora
+Indirizzo: Località Metta, 1/A, 17020 Andora SV
+Coordinate: Lat 43.986078, Lng 8.131048
+Website: https://bbsanpietroandora.com/
+Email: 
+
+3268. B&B Villa Corsini
+ID: 096259d9-b1a4-41c4-91c3-9121c1ff8eec
+Slug: b-b-villa-corsini-andora
+Nome: B&B Villa Corsini
+Comune / Provincia: Andora
+Indirizzo: Via Vincenzo Maglione, 2, 17020 Laigueglia SV
+Coordinate: Lat 43.980825, Lng 8.157199
+Website: http://villacorsini.yolasite.com/
+Email: 
+
+3269. Dachi casa vacanze
+ID: ffcd215e-c6cd-4c20-b7db-5a9c2adf9131
+Slug: dachi-casa-vacanze-andora
+Nome: Dachi casa vacanze
+Comune / Provincia: Andora
+Indirizzo: Località Negri, 17020 Andora SV
+Coordinate: Lat 43.98413, Lng 8.134218
+Website: http://www.dachifarm.com/
+Email: 
+
+3270. Gli Ulivi Rooms and Breakfast
+ID: 42957b10-fccc-43d4-9738-254f5c6acb1e
+Slug: gli-ulivi-rooms-and-breakfast-andora
+Nome: Gli Ulivi Rooms and Breakfast
+Comune / Provincia: Andora
+Indirizzo: Località Piazza, 11, 17020 Andora SV
+Coordinate: Lat 43.99158, Lng 8.124707
+Website: http://www.gliuliviandora.it/
+Email: 
+
+3271. Hotel - Ristorante Jole Andora
+ID: a5871043-a4fa-4d50-8fcf-ddf6ecf6af5c
+Slug: hotel-ristorante-jole-andora-andora
+Nome: Hotel - Ristorante Jole Andora
+Comune / Provincia: Andora
+Indirizzo: Via Marco Polo, 16, 17051 Marina di Andora SV
+Coordinate: Lat 43.952307, Lng 8.147562
+Website: http://www.hoteliole.com/
+Email: 
+
+3272. Hotel Galleano 3 Stelle
+ID: 090f4aa8-00bd-4075-9b2a-0bba6c3cc243
+Slug: hotel-galleano-3-stelle-andora
+Nome: Hotel Galleano 3 Stelle
+Comune / Provincia: Andora
+Indirizzo: Via Angelo Fontana, 12, 17051 Marina di Andora SV
+Coordinate: Lat 43.948699, Lng 8.140169
+Website: http://www.hotelgalleano.com/
+Email: 
+
+3273. Hotel I Due Gabbiani
+ID: 708d4fdc-38c3-449c-b761-aeae5f8e8d77
+Slug: hotel-i-due-gabbiani-andora
+Nome: Hotel I Due Gabbiani
+Comune / Provincia: Andora
+Indirizzo: Via Mezzacqua, 2, 17020 Andora SV
+Coordinate: Lat 43.955, Lng 8.150833
+Website: http://www.duegabbianihp.com/
+Email: 
+
+3274. Hotel Lungomare
+ID: 65c73a53-8ee1-4dae-8272-967f585a4ff0
+Slug: hotel-lungomare-andora
+Nome: Hotel Lungomare
+Comune / Provincia: Andora
+Indirizzo: Via Capri, 10, 17020 Marina di Andora SV
+Coordinate: Lat 43.947304, Lng 8.139706
+Website: http://www.hotellungomare.it/
+Email: 
+
+3275. Hotel Mediterraneo
+ID: 9bb47364-b6aa-42c9-922b-7577b9565239
+Slug: hotel-mediterraneo-andora
+Nome: Hotel Mediterraneo
+Comune / Provincia: Andora
+Indirizzo: Via Andrea Doria, 18, 17020 Laigueglia SV
+Coordinate: Lat 43.981476, Lng 8.156216
+Website: http://www.hotelmedit.it/
+Email: 
+
+3276. Hotel Moresco
+ID: 74d1c362-4430-4868-aeb3-02ce0834d54c
+Slug: hotel-moresco-andora
+Nome: Hotel Moresco
+Comune / Provincia: Andora
+Indirizzo: Via Aurelia, 96, 17020 Marina di Andora SV
+Coordinate: Lat 43.951667, Lng 8.151667
+Website: http://www.hotelmoresco.com/
+Email: 
+
+3277. La Casita
+ID: a6a07100-e313-46cf-b6ec-3acaaf7cf3fe
+Slug: la-casita-andora
+Nome: La Casita
+Comune / Provincia: Andora
+Indirizzo: Via P. Ferreri, 75/Interno 13, 17021 Alassio SV
+Coordinate: Lat 44.002388, Lng 8.165489
+Website: —
+Email: 
+
+3278. Residence La Palma
+ID: 4fb60311-1dfe-4624-9deb-4c59e462a4d6
+Slug: residence-la-palma-andora
+Nome: Residence La Palma
+Comune / Provincia: Andora
+Indirizzo: Viale Giuseppe Mazzini, 36, 17020 Andora SV
+Coordinate: Lat 43.953499, Lng 8.150914
+Website: https://www.lapalmaresidence.it/it/home?utm_source=google&utm_medium=organic&utm_campaign=googlemybusiness
+Email: 
+
+3279. Villaggio Turistico Colombo
+ID: 7bb0847c-e809-440c-a0ee-854b3b653556
+Slug: villaggio-turistico-colombo-andora
+Nome: Villaggio Turistico Colombo
+Comune / Provincia: Andora
+Indirizzo: Via Marchese Maglioni, 17020 Marina di Andora SV
+Coordinate: Lat 43.959757, Lng 8.13423
+Website: http://www.villaggiocolombo.com/
+Email: 
+
+3280. Affittacamere Belvedere - da Renzo
+ID: 1b14a673-3c56-4fcf-97dd-46ec3e98864e
+Slug: affittacamere-belvedere-da-renzo-andorno-micca
+Nome: Affittacamere Belvedere - da Renzo
+Comune / Provincia: Andorno Micca
+Indirizzo: Via Camillo Vercellone, 44, 13817 Sordevolo BI
+Coordinate: Lat 45.575389, Lng 7.975011
+Website: http://www.affittacamere-sordevolo.it/
+Email: 
+
+3281. Agriturismo "Casa di Piero e Marilena"
+ID: ae79d976-fa90-49da-85e1-b61c3ef38121
+Slug: agriturismo-casa-di-piero-e-marilena-andorno-micca
+Nome: Agriturismo "Casa di Piero e Marilena"
+Comune / Provincia: Andorno Micca
+Indirizzo: Via Mulini, 64, 13878 Candelo BI
+Coordinate: Lat 45.5476, Lng 8.125898
+Website: https://www.aziendaagricolatibaldi.com/agriturismo
+Email: 
+
+3282. Agriturismo Borgo Cà del Becca
+ID: b52fccdc-3c2c-4175-9b03-7b4b454e61d1
+Slug: agriturismo-borgo-ca-del-becca-andorno-micca
+Nome: Agriturismo Borgo Cà del Becca
+Comune / Provincia: Andorno Micca
+Indirizzo: VIA AMBA ALAGI, 11, 13841 Bioglio BI
+Coordinate: Lat 45.606247, Lng 8.117043
+Website: http://www.borgocadelbecca.it/
+Email: 
+
+3283. Agriturismo La Fucina
+ID: c7b41b02-7612-4693-b82a-964bceb81d73
+Slug: agriturismo-la-fucina-andorno-micca
+Nome: Agriturismo La Fucina
+Comune / Provincia: Andorno Micca
+Indirizzo: Via alla Fucina, 1, 13856 Vigliano Biellese BI
+Coordinate: Lat 45.551343, Lng 8.134554
+Website: http://agriturismolafucina.it/
+Email: 
+
+3284. B&B Casa Dolce Casa
+ID: 811a06e2-70f2-4d63-a279-503602af6fe9
+Slug: b-b-casa-dolce-casa-andorno-micca
+Nome: B&B Casa Dolce Casa
+Comune / Provincia: Andorno Micca
+Indirizzo: Via Sandigliano, 89, 13878 Candelo BI
+Coordinate: Lat 45.533474, Lng 8.104281
+Website: http://www.casadolcecasacandelo.com/
+Email: 
+
+3285. B&B Gli Eremiti
+ID: 74fabe91-36ae-4f56-881e-196d23ab5322
+Slug: b-b-gli-eremiti-andorno-micca
+Nome: B&B Gli Eremiti
+Comune / Provincia: Andorno Micca
+Indirizzo: Str. degli Eremiti, 44, 13811 San Giuseppe di Casto, Andorno Micca BI
+Coordinate: Lat 45.620123, Lng 8.075648
+Website: http://bbglieremiti.wordpress.com/
+Email: 
+
+3286. B&B Sans égal
+ID: 9b3a4f62-4139-4293-a83d-dd59065406ab
+Slug: b-b-sans-egal-andorno-micca
+Nome: B&B Sans égal
+Comune / Provincia: Andorno Micca
+Indirizzo: Str. dei Campi, 14, 13900 Biella BI
+Coordinate: Lat 45.552889, Lng 8.065653
+Website: https://amandastraveltips.com/sans-egal-biella-italy
+Email: 
+
+3287. B&B Villa Maria
+ID: 0d9b7c2c-8fb3-4e0b-b565-bc985799bd73
+Slug: b-b-villa-maria-andorno-micca
+Nome: B&B Villa Maria
+Comune / Provincia: Andorno Micca
+Indirizzo: Via Martiri Libertà, 150, 13897 Occhieppo Inferiore BI
+Coordinate: Lat 45.553801, Lng 8.017875
+Website: https://www.bebvillamaria.it/
+Email: 
+
+3288. Cascina Serra Bed & Breakfast eco-house
+ID: e7205909-9c40-41da-9dc8-6eb0afdfc8f1
+Slug: cascina-serra-bed-breakfast-eco-house-andorno-micca
+Nome: Cascina Serra Bed & Breakfast eco-house
+Comune / Provincia: Andorno Micca
+Indirizzo: Str. Case Sparse, 7, 13895 Muzzano BI
+Coordinate: Lat 45.553909, Lng 7.98847
+Website: https://www.cascinaserrabedandbreakfast.it/
+Email: 
+
+3289. Il Talucco: Bed & Breakfast
+ID: 9797b817-bcc0-4f3a-9e4b-62066234a424
+Slug: il-talucco-bed-breakfast-andorno-micca
+Nome: Il Talucco: Bed & Breakfast
+Comune / Provincia: Andorno Micca
+Indirizzo: Via Raffaello Sanzio, 31, 13855 Valdengo BI
+Coordinate: Lat 45.576193, Lng 8.123714
+Website: http://www.iltalucco.com/
+Email: 
+
+3290. La Cà di Carol
+ID: d296707a-3b4e-4e08-8411-e3b4f6d1de20
+Slug: la-ca-di-carol-andorno-micca
+Nome: La Cà di Carol
+Comune / Provincia: Andorno Micca
+Indirizzo: Regione Ronco Tonone, 5, 13818 Tollegno BI
+Coordinate: Lat 45.599405, Lng 8.042941
+Website: http://lacadicarol.it/
+Email: 

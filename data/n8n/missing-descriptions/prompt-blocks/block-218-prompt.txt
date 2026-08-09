@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+7596. MANZONI37
+ID: e2e93a8a-4471-4bd6-9c6b-35dedd04b2c4
+Slug: manzoni37-basaluzzo
+Nome: MANZONI37
+Comune / Provincia: Basaluzzo
+Indirizzo: Via Alessandro Manzoni, 37, 15067 Novi Ligure AL
+Coordinate: Lat 44.768259, Lng 8.79792
+Website: —
+Email: 
+
+7597. Passaparola Due Di Giordano Alfredo
+ID: 449b5697-3aef-4ab2-88d0-110a8c584219
+Slug: passaparola-due-di-giordano-alfredo-basaluzzo
+Nome: Passaparola Due Di Giordano Alfredo
+Comune / Provincia: Basaluzzo
+Indirizzo: Via Novi, 26, 15060 Basaluzzo AL
+Coordinate: Lat 44.769035, Lng 8.715859
+Website: http://passaparoladue.it/
+Email: 
+
+7598. Ristorante Hotel Villa Magnolia Predosa
+ID: a9dd403a-d02a-438d-8c3b-6ac8024a1dcd
+Slug: ristorante-hotel-villa-magnolia-predosa-basaluzzo
+Nome: Ristorante Hotel Villa Magnolia Predosa
+Comune / Provincia: Basaluzzo
+Indirizzo: Via Ovada, 111, 15077 Predosa AL
+Coordinate: Lat 44.73766, Lng 8.662423
+Website: https://m.facebook.com/Hotel-Ristorante-Villa-Magnolia-162688277180529/
+Email: 
+
+7599. Villa Capannina
+ID: 20f5c808-275c-4ca9-a498-57580f5a03f1
+Slug: villa-capannina-basaluzzo
+Nome: Villa Capannina
+Comune / Provincia: Basaluzzo
+Indirizzo: Str. Sotto Belvedere, 1, 15067 Novi Ligure AL
+Coordinate: Lat 44.762953, Lng 8.77315
+Website: https://www.booking.com/hotel/it/apartment-garden.it.html?aid=334359
+Email: 
+
+7600. Agriturismo Borgo San Francesco
+ID: 8a89d31f-920c-47af-988a-ac8e0ec95df5
+Slug: agriturismo-borgo-san-francesco-bascap
+Nome: Agriturismo Borgo San Francesco
+Comune / Provincia: Bascap�
+Indirizzo: Via Borgo del Majno, 1, 20079 Cascina Colombaia MI
+Coordinate: Lat 45.355024, Lng 9.17018
+Website: https://www.agriturismosanfrancesco.net/
+Email: 
+
+7601. Agriturismo Tenuta Camillo
+ID: 0919b366-7fb8-4715-8f55-c74d664af5ce
+Slug: agriturismo-tenuta-camillo-bascap
+Nome: Agriturismo Tenuta Camillo
+Comune / Provincia: Bascap�
+Indirizzo: SP159, 27010 Bascapè PV
+Coordinate: Lat 45.320449, Lng 9.310352
+Website: http://www.tenutacamillo.com/
+Email: 
+
+7602. AN Hotel Milano Melegnano
+ID: 12e375ae-7d14-4e7e-a100-67c71a69f636
+Slug: an-hotel-milano-melegnano-bascap
+Nome: AN Hotel Milano Melegnano
+Comune / Provincia: Bascap�
+Indirizzo: Via Don Dossetti 2, 20074 Francolino MI
+Coordinate: Lat 45.348564, Lng 9.282271
+Website: https://an-hotels.com/
+Email: 
+
+7603. AN Hotel Milano San Donato
+ID: f7546b2e-6a53-4263-96a4-76f0db83a6dd
+Slug: an-hotel-milano-san-donato-bascap
+Nome: AN Hotel Milano San Donato
+Comune / Provincia: Bascap�
+Indirizzo: Via Milano, 2, 20097 San Donato Milanese MI
+Coordinate: Lat 45.43279, Lng 9.264889
+Website: https://an-hotels.com/strutture/an-hotel-milano-san-donato/
+Email: 
+
+7604. B&b Rozzano affittacamere
+ID: 920a5207-666b-4ae4-ad75-102792d60feb
+Slug: b-b-rozzano-affittacamere-bascap
+Nome: B&b Rozzano affittacamere
+Comune / Provincia: Bascap�
+Indirizzo: Viale Milano, 24, 20089 Rozzano MI
+Coordinate: Lat 45.385772, Lng 9.151291
+Website: https://www.rozzanoaffittacamere.it/
+Email: 
+
+7605. Hotel Majestic
+ID: 003017ab-1998-4023-b98f-2ba25c4d486d
+Slug: hotel-majestic-bascap
+Nome: Hotel Majestic
+Comune / Provincia: Bascap�
+Indirizzo: Viale Lombardia, 48, 20098 Area Industriale MI
+Coordinate: Lat 45.402967, Lng 9.249183
+Website: http://www.majestichotel.info/
+Email: 
+
+7606. Hotel Moonlight
+ID: 90240637-6847-453b-968c-e0a329146450
+Slug: hotel-moonlight-bascap
+Nome: Hotel Moonlight
+Comune / Provincia: Bascap�
+Indirizzo: Sp40, Km .10700, 27010 Siziano PV
+Coordinate: Lat 45.33147, Lng 9.231027
+Website: http://www.hotelmoonlight.it/home.htm
+Email: 
+
+7607. Hotel Nuova Orchidea
+ID: 3ef2bac0-f742-4431-81f0-27945826b015
+Slug: hotel-nuova-orchidea-bascap
+Nome: Hotel Nuova Orchidea
+Comune / Provincia: Bascap�
+Indirizzo: Via Milano, 1, 20070 Dresano MI
+Coordinate: Lat 45.365772, Lng 9.363154
+Website: http://www.hotelnuovaorchidea.com/
+Email: 
+
+7608. Hotel Sabrina
+ID: 99f44f6f-d843-4c75-851f-ebefd476b69f
+Slug: hotel-sabrina-bascap
+Nome: Hotel Sabrina
+Comune / Provincia: Bascap�
+Indirizzo: Via Emilia, 4, 26858 Sordio LO
+Coordinate: Lat 45.338886, Lng 9.364522
+Website: https://www.hotelsabrina.eu/
+Email: 
+
+7609. Palazzo Marignano Hotel
+ID: 5a4d5581-3d18-4ce3-997b-cc0d55217ea5
+Slug: palazzo-marignano-hotel-bascap
+Nome: Palazzo Marignano Hotel
+Comune / Provincia: Bascap�
+Indirizzo: Via Martiri della Libertà, 8, 20077 Melegnano MI
+Coordinate: Lat 45.357398, Lng 9.321655
+Website: https://www.palazzomarignano.com/
+Email: 
+
+7610. Poste Regie - Milan Guest House
+ID: 7cfb5fb7-0617-46a0-9489-b4d3dbd7a904
+Slug: poste-regie-milan-guest-house-bascap
+Nome: Poste Regie - Milan Guest House
+Comune / Provincia: Bascap�
+Indirizzo: Via Giovanni Battista Cassinis, 76, 20139 Milano MI
+Coordinate: Lat 45.432965, Lng 9.238662
+Website: https://www.posteregie.it/
+Email: 
+
+7611. Ripamonti Residence & Hotel Milano
+ID: 2fa53b9f-8403-4eef-9f1f-436540a79823
+Slug: ripamonti-residence-hotel-milano-bascap
+Nome: Ripamonti Residence & Hotel Milano
+Comune / Provincia: Bascap�
+Indirizzo: Via dei Pini, 3, 20072 Pieve Emanuele MI
+Coordinate: Lat 45.347807, Lng 9.199692
+Website: http://www.ripamontiresidencehotel.com/
+Email: 
+
+7612. Agriturismo Buriano by Bellaluce
+ID: 683d973f-e53d-4406-9871-8b9d8513a06b
+Slug: agriturismo-buriano-by-bellaluce-baschi
+Nome: Agriturismo Buriano by Bellaluce
+Comune / Provincia: Baschi
+Indirizzo: Localita' Camporena, 01020 Lubriano VT
+Coordinate: Lat 42.650822, Lng 12.129885
+Website: http://www.buriano.it/
+Email: 
+
+7613. Agriturismo La Quiete di Caiano
+ID: 124feebf-ae84-4c9d-a2c0-9eb1ef051bec
+Slug: agriturismo-la-quiete-di-caiano-baschi
+Nome: Agriturismo La Quiete di Caiano
+Comune / Provincia: Baschi
+Indirizzo: Vocabolo Caiano, 166, 05023 Baschi TR
+Coordinate: Lat 42.686138, Lng 12.212517
+Website: —
+Email: 
+
+7614. Agriturismo La Vite E L'ulivo
+ID: 549e8ffe-5c3b-4fcb-9dd9-73c5356098f2
+Slug: agriturismo-la-vite-e-l-ulivo-baschi
+Nome: Agriturismo La Vite E L'ulivo
+Comune / Provincia: Baschi
+Indirizzo: Vocabolo Montebello, 147, 05023 Baschi TR
+Coordinate: Lat 42.679817, Lng 12.213812
+Website: https://agriturismolaviteelulivo.it/sito/
+Email: 
+
+7615. Agriturismo Le Casette
+ID: 324420c5-477b-47e6-afcd-9d182b14629c
+Slug: agriturismo-le-casette-baschi
+Nome: Agriturismo Le Casette
+Comune / Provincia: Baschi
+Indirizzo: Le Casette, 05020 Montecchio TR
+Coordinate: Lat 42.677102, Lng 12.252872
+Website: https://www.lecasetteagriturismoumbria.com/
+Email: 
+
+7616. Agriturismo Pomonte
+ID: d316ff9d-0bc1-4d6a-a39a-851b85a9ae67
+Slug: agriturismo-pomonte-baschi
+Nome: Agriturismo Pomonte
+Comune / Provincia: Baschi
+Indirizzo: Loc. canino 1, 05019 Orvieto TR
+Coordinate: Lat 42.702885, Lng 12.186543
+Website: http://www.pomonte.it/
+Email: 
+
+7617. Agriturismo San Bartolomeo
+ID: 13a989b1-10dc-4e8c-b976-66b321e104e0
+Slug: agriturismo-san-bartolomeo-baschi
+Nome: Agriturismo San Bartolomeo
+Comune / Provincia: Baschi
+Indirizzo: via Caserlena, 1, 05020 Montecchio TR
+Coordinate: Lat 42.679879, Lng 12.254012
+Website: http://agriturismo-san-bartolomeo.com.es/
+Email: 
+
+7618. Alloggio turistico MiraCivita
+ID: 212c2a05-7944-4df2-a0de-919520e80ae4
+Slug: alloggio-turistico-miracivita-baschi
+Nome: Alloggio turistico MiraCivita
+Comune / Provincia: Baschi
+Indirizzo: Via G. Marconi, 17, 01020 Lubriano VT
+Coordinate: Lat 42.63598, Lng 12.109569
+Website: http://www.miracivita.com/
+Email: 
+
+7619. B&B Dimora Paolina
+ID: e3b52a55-6a6e-42ba-85d3-22ae6eea29dc
+Slug: b-b-dimora-paolina-baschi
+Nome: B&B Dimora Paolina
+Comune / Provincia: Baschi
+Indirizzo: Via Guglielmo Marconi, 5, 05023 Baschi TR
+Coordinate: Lat 42.671326, Lng 12.215836
+Website: http://www.dimorapaolina.it/
+Email: 
+
+7620. B&B Poggio Stallone
+ID: bccff9b6-0237-4297-bd50-92b23ed000fd
+Slug: b-b-poggio-stallone-baschi
+Nome: B&B Poggio Stallone
+Comune / Provincia: Baschi
+Indirizzo: Località Acquafredda, 15, 05018 Orvieto TR
+Coordinate: Lat 42.707943, Lng 12.153189
+Website: http://bed-and-breakfast-poggio-stallone.org.es/
+Email: 
+
+7621. Casale al lago
+ID: 5a10f38b-2bed-447b-b330-c91d23014cd7
+Slug: casale-al-lago-baschi
+Nome: Casale al lago
+Comune / Provincia: Baschi
+Indirizzo: vocabolo pomurlo nuovo 240, 05023 Baschi TR
+Coordinate: Lat 42.693087, Lng 12.239559
+Website: https://www.casaleallago.com/
+Email: 
+
+7622. Hotel Gialletti
+ID: 9b4a62fc-29d1-417b-8082-7f957f281395
+Slug: hotel-gialletti-baschi
+Nome: Hotel Gialletti
+Comune / Provincia: Baschi
+Indirizzo: Via Angelo Costanzi, 71, 05018 Orvieto TR
+Coordinate: Lat 42.717116, Lng 12.143315
+Website: https://www.hotelgialletti.it/
+Email: 
+
+7623. Il Borgo Affitacamere
+ID: 71ce706f-f6c6-4d3a-8774-cef5d5b3ea48
+Slug: il-borgo-affitacamere-baschi
+Nome: Il Borgo Affitacamere
+Comune / Provincia: Baschi
+Indirizzo: Via del Pericolo, 17, 01024 Castiglione In Teverina VT
+Coordinate: Lat 42.644462, Lng 12.204435
+Website: https://luigicappelloni.wixsite.com/affittacamereilborgo
+Email: 
+
+7624. L'OASI DEL RIPOSO - Affitta camere
+ID: 95ae626d-8e85-42b1-8ba1-efe824b9c9e4
+Slug: l-oasi-del-riposo-affitta-camere-baschi
+Nome: L'OASI DEL RIPOSO - Affitta camere
+Comune / Provincia: Baschi
+Indirizzo: Via Amelia, 46, 05023 Baschi TR
+Coordinate: Lat 42.672755, Lng 12.218575
+Website: —
+Email: 
+
+7625. La casa di Gioia
+ID: 88d71879-f002-4b0a-9539-511c318ab325
+Slug: la-casa-di-gioia-baschi
+Nome: La casa di Gioia
+Comune / Provincia: Baschi
+Indirizzo: Via 4 Novembre, 9, 01024 Castiglione In Teverina VT
+Coordinate: Lat 42.644499, Lng 12.204148
+Website: —
+Email: 
+
+7626. La Gallinella Rossa - CIN IT055007C23Z030941
+ID: 8a6b6114-572d-41a6-b239-34eb5ffbe897
+Slug: la-gallinella-rossa-cin-it055007c23z030941-baschi
+Nome: La Gallinella Rossa - CIN IT055007C23Z030941
+Comune / Provincia: Baschi
+Indirizzo: vocabolo casa delle monache, 84, 05023 Baschi TR
+Coordinate: Lat 42.674569, Lng 12.232659
+Website: http://la-gallinella-rossa.com.es/
+Email: 
+
+7627. Le Macchie
+ID: 160623ec-7ea2-4a7d-9696-119a679aed2f
+Slug: le-macchie-baschi
+Nome: Le Macchie
+Comune / Provincia: Baschi
+Indirizzo: Vocabolo Macchie, 143, 05023 Baschi TR
+Coordinate: Lat 42.689186, Lng 12.229181
+Website: —
+Email: 
+
+7628. PODERE BARBI (PODERE STUCCHIO)
+ID: 927f6c7e-8f1c-499a-8e67-8811ac00b998
+Slug: podere-barbi-podere-stucchio-baschi
+Nome: PODERE BARBI (PODERE STUCCHIO)
+Comune / Provincia: Baschi
+Indirizzo: Vocabolo Murotondo, 05023 Baschi TR
+Coordinate: Lat 42.692593, Lng 12.226015
+Website: http://www.poderebarbi.com/
+Email: 
+
+7629. Agriturismo Zà Beata
+ID: 709edb2b-01e5-425e-9be3-5c231d28effd
+Slug: agriturismo-za-beata-basciano
+Nome: Agriturismo Zà Beata
+Comune / Provincia: Basciano
+Indirizzo: 6 Contrada Centrella, Penna Sant'andrea, 64039 PENNA SANT_ANDREA TE
+Coordinate: Lat 42.604694, Lng 13.763916
+Website: —
+Email: 
+
+7630. Antica Interamnia
+ID: da855c68-367c-4e7e-bf91-5d38c26bf95b
+Slug: antica-interamnia-basciano
+Nome: Antica Interamnia
+Comune / Provincia: Basciano
+Indirizzo: Via dei Mosaici, 12, 64100 Teramo TE
+Coordinate: Lat 42.658804, Lng 13.7073
+Website: http://www.anticainteramnia.com/
+Email: 

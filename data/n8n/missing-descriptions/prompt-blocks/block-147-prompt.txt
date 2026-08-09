@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+5111. RG Maison
+ID: d45ccd16-722b-4dab-aad4-2b3333e92022
+Slug: rg-maison-arsoli
+Nome: RG Maison
+Comune / Provincia: Arsoli
+Indirizzo: Via della Vittoria, 67050 La Grancia AQ
+Coordinate: Lat 41.864072, Lng 13.442441
+Website: https://www.rgmaison.it/
+Email: 
+
+5112. Sole
+ID: 74386886-886e-4ccb-aaa7-6f5dcfab8ad8
+Slug: sole-arsoli
+Nome: Sole
+Comune / Provincia: Arsoli
+Indirizzo: Via dell'Alloro, 9/15, 00172 Roma RM
+Coordinate: Lat 41.874359, Lng 12.570544
+Website: —
+Email: 
+
+5113. Sole e Luna
+ID: 162e73dc-0800-4100-bd35-4b1dcb8a5559
+Slug: sole-e-luna-arsoli
+Nome: Sole e Luna
+Comune / Provincia: Arsoli
+Indirizzo: Via Merulana, 117, 00185 Roma RM
+Coordinate: Lat 41.890402, Lng 12.50301
+Website: https://www.soleelunaroma.com/
+Email: 
+
+5114. Al Fogolâr Rooms & Osteria
+ID: 25d6a13a-fa46-4e89-aa93-693550bf55fc
+Slug: al-fogolar-rooms-osteria-arta-terme
+Nome: Al Fogolâr Rooms & Osteria
+Comune / Provincia: Arta Terme
+Indirizzo: Via Udine, 15, 33020 Verzegnis UD
+Coordinate: Lat 46.388461, Lng 12.991242
+Website: http://alfogolarvillage.com/
+Email: 
+
+5115. Albergo Cristofoli
+ID: 7f96e87e-61ec-4ddf-a9a8-e3559258c0ef
+Slug: albergo-cristofoli-arta-terme
+Nome: Albergo Cristofoli
+Comune / Provincia: Arta Terme
+Indirizzo: Via Giacomo Matteotti, 10, 33014 Treppo Ligosullo UD
+Coordinate: Lat 46.533671, Lng 13.042937
+Website: https://www.albergocristofoli.it/it/home/
+Email: 
+
+5116. Albergo Hotel Park Oasi
+ID: 35411800-d7bf-49fa-aa5d-a6f7c9eab227
+Slug: albergo-hotel-park-oasi-arta-terme
+Nome: Albergo Hotel Park Oasi
+Comune / Provincia: Arta Terme
+Indirizzo: Viale delle Terme, 15, 33022 Piano D'arta UD
+Coordinate: Lat 46.481131, Lng 13.0183
+Website: http://www.hotelparkoasi.it/
+Email: 
+
+5117. Casa Zarabara
+ID: df15c88e-0f90-40b9-9d9e-fca49ea94d3c
+Slug: casa-zarabara-arta-terme
+Nome: Casa Zarabara
+Comune / Provincia: Arta Terme
+Indirizzo: Via Chiusini, 2, 33022 Arta Terme UD
+Coordinate: Lat 46.483133, Lng 13.01759
+Website: https://www.casazarabara.it/
+Email: 
+
+5118. Hotel Cella
+ID: 568ae050-ca99-4bee-a51c-e1c01ef148b5
+Slug: hotel-cella-arta-terme
+Nome: Hotel Cella
+Comune / Provincia: Arta Terme
+Indirizzo: Via Umberto I, 50, 33022 Arta Terme UD
+Coordinate: Lat 46.469965, Lng 13.025964
+Website: http://www.hotelcella.it/
+Email: 
+
+5119. Hotel La Perla - Restaurant&Wellness
+ID: 636dab7a-4859-4e71-9b17-b3a78928540d
+Slug: hotel-la-perla-restaurant-wellness-arta-terme
+Nome: Hotel La Perla - Restaurant&Wellness
+Comune / Provincia: Arta Terme
+Indirizzo: Via S. Spirito, 43, 33020 Ravascletto UD
+Coordinate: Lat 46.52326, Lng 12.920537
+Website: https://www.laperlahotel.eu/
+Email: 
+
+5120. Hotel Ristorante Del Negro
+ID: 5a2529cf-33f8-4057-aec4-a1bcf69cf027
+Slug: hotel-ristorante-del-negro-arta-terme
+Nome: Hotel Ristorante Del Negro
+Comune / Provincia: Arta Terme
+Indirizzo: Via Roma, 55, 33020 Sutrio UD
+Coordinate: Lat 46.51099, Lng 12.990461
+Website: http://www.hoteldelnegro.com/
+Email: 
+
+5121. Hotel Saustri
+ID: f7c869b4-9cad-4f47-835e-6ce4b2386cb1
+Slug: hotel-saustri-arta-terme
+Nome: Hotel Saustri
+Comune / Provincia: Arta Terme
+Indirizzo: Via Risorgimento, 21, 33020 Sutrio UD
+Coordinate: Lat 46.503286, Lng 12.990618
+Website: —
+Email: 
+
+5122. Ranuncolo
+ID: 9cab1b27-b8d7-4ccd-adf6-08e38bc20b55
+Slug: ranuncolo-arta-terme
+Nome: Ranuncolo
+Comune / Provincia: Arta Terme
+Indirizzo: Via Romano Linussio, 1, 33020 Sutrio UD
+Coordinate: Lat 46.512036, Lng 12.990113
+Website: https://www.albergodiffuso.org/alloggi/ranuncolo-1/
+Email: 
+
+5123. Residence Da Benito
+ID: a382b13c-b987-49e8-8f8a-0772ff67dcfd
+Slug: residence-da-benito-arta-terme
+Nome: Residence Da Benito
+Comune / Provincia: Arta Terme
+Indirizzo: Via Città di Noale, 9, 33022 Arta Terme UD
+Coordinate: Lat 46.476394, Lng 13.023031
+Website: —
+Email: 
+
+5124. Agriturismo Bressani
+ID: 56717c9b-8209-430d-8962-58b0315da3ea
+Slug: agriturismo-bressani-artegna
+Nome: Agriturismo Bressani
+Comune / Provincia: Artegna
+Indirizzo: Via dei Conti, 23, 33045 Nimis UD
+Coordinate: Lat 46.20489, Lng 13.269221
+Website: http://www.agriturismobressani.it/
+Email: 
+
+5125. Al Collio Ristorante Hotel Pizzeria
+ID: 4adad036-c760-4611-a13e-e3d5f527af41
+Slug: al-collio-ristorante-hotel-pizzeria-artegna
+Nome: Al Collio Ristorante Hotel Pizzeria
+Comune / Provincia: Artegna
+Indirizzo: Via Centrale, 22, 33010 Reana del Rojale UD
+Coordinate: Lat 46.148033, Lng 13.24346
+Website: https://www.alcollio.it/
+Email: 
+
+5126. Albergo Centrale
+ID: 756a3f4f-fbe2-4b0b-9781-a137a9d4b7e0
+Slug: albergo-centrale-artegna
+Nome: Albergo Centrale
+Comune / Provincia: Artegna
+Indirizzo: Via Giuseppe Garibaldi, 1, 33017 Tarcento UD
+Coordinate: Lat 46.215737, Lng 13.222692
+Website: —
+Email: 
+
+5127. Albergo Ristorante Belvedere
+ID: 5a8a7082-c5da-4ab9-9f0f-8d15dde4b45b
+Slug: albergo-ristorante-belvedere-artegna
+Nome: Albergo Ristorante Belvedere
+Comune / Provincia: Artegna
+Indirizzo: Via Belvedere, 21, 33019 Tricesimo UD
+Coordinate: Lat 46.155714, Lng 13.205964
+Website: https://www.belvederemorandini.it/
+Email: 
+
+5128. Albergo Ristorante Pizzeria Bar Sottocastello
+ID: 44cea514-ccb2-479f-99c2-f89ce7495681
+Slug: albergo-ristorante-pizzeria-bar-sottocastello-artegna
+Nome: Albergo Ristorante Pizzeria Bar Sottocastello
+Comune / Provincia: Artegna
+Indirizzo: Viale Udine, 15, 33010 Cassacco UD
+Coordinate: Lat 46.171866, Lng 13.196301
+Website: https://www.ristorantesottocastello.it/
+Email: 
+
+5129. Albergo Trattoria Al Castello
+ID: c3fc4f1f-17d3-487b-b6a7-e00eb23d3059
+Slug: albergo-trattoria-al-castello-artegna
+Nome: Albergo Trattoria Al Castello
+Comune / Provincia: Artegna
+Indirizzo: Via Sottocastello, 26, 33010 Artegna UD
+Coordinate: Lat 46.239661, Lng 13.150915
+Website: http://www.albergotrattoriaalcastello.it/
+Email: 
+
+5130. All'antico ulivo
+ID: d6f4442e-03c0-4ffa-abb7-12cdea948fb6
+Slug: all-antico-ulivo-artegna
+Nome: All'antico ulivo
+Comune / Provincia: Artegna
+Indirizzo: Via Aplia Inferiore, 33011 Artegna UD
+Coordinate: Lat 46.249492, Lng 13.150973
+Website: https://bedforyou2.kross.travel/
+Email: 
+
+5131. B&B PRETITE
+ID: c3026d91-d634-4e9d-90e3-f28e0e3d83c0
+Slug: b-b-pretite-artegna
+Nome: B&B PRETITE
+Comune / Provincia: Artegna
+Indirizzo: Via del Trovo, 27, 33011 Artegna UD
+Coordinate: Lat 46.237431, Lng 13.153823
+Website: —
+Email: 
+
+5132. Bihotel
+ID: ffad8dc5-5b3f-4012-a522-285bcf4401c3
+Slug: bihotel-artegna
+Nome: Bihotel
+Comune / Provincia: Artegna
+Indirizzo: Via Carnia, 22, Via Osoppo, 18, 33030 Majano UD
+Coordinate: Lat 46.189251, Lng 13.056306
+Website: https://www.bihotel.it/
+Email: 
+
+5133. Cajeta Di Salone Luca E Emiliano & C. Snc
+ID: 93a7b37a-9a45-4cb8-a926-ad113723cc92
+Slug: cajeta-di-salone-luca-e-emiliano-c-snc-artegna
+Nome: Cajeta Di Salone Luca E Emiliano & C. Snc
+Comune / Provincia: Artegna
+Indirizzo: Piazza Mercato, 2, 33030 Buia UD
+Coordinate: Lat 46.206874, Lng 13.125347
+Website: http://www.hotelcajeta.it/
+Email: 
+
+5134. Costantini Ristorante Albergo
+ID: 7a68d928-a6cb-457a-bfec-7b2bdd74a09a
+Slug: costantini-ristorante-albergo-artegna
+Nome: Costantini Ristorante Albergo
+Comune / Provincia: Artegna
+Indirizzo: Via Pontebbana, 12, 33017 Collalto UD
+Coordinate: Lat 46.193078, Lng 13.195563
+Website: http://www.albergocostantini.com/
+Email: 
+
+5135. Hotel & Caffé Pittini - Nuova gestione
+ID: 96bfe27f-4bbf-480c-ac7f-640f7dbcb6ca
+Slug: hotel-caffe-pittini-nuova-gestione-artegna
+Nome: Hotel & Caffé Pittini - Nuova gestione
+Comune / Provincia: Artegna
+Indirizzo: Piazzale della Stazione, 10, 33013 Gemona del Friuli UD
+Coordinate: Lat 46.274688, Lng 13.128727
+Website: http://www.hotelpittini.com/
+Email: 
+
+5136. Hotel Al Tarcentino
+ID: a0f0625d-7fc8-4839-a9a7-86f1e4071619
+Slug: hotel-al-tarcentino-artegna
+Nome: Hotel Al Tarcentino
+Comune / Provincia: Artegna
+Indirizzo: Via Dante Alighieri, 18, 33017 Tarcento UD
+Coordinate: Lat 46.213953, Lng 13.218951
+Website: http://www.altarcentino.com/
+Email: 
+
+5137. Hotel Da Si-Si
+ID: 164527d9-e5b5-44fa-aa2e-7da8cd6ca1c9
+Slug: hotel-da-si-si-artegna
+Nome: Hotel Da Si-Si
+Comune / Provincia: Artegna
+Indirizzo: Via Piovega, 19, 33013 Gemona del Friuli UD
+Coordinate: Lat 46.272366, Lng 13.133798
+Website: http://www.hotelsisi.it/
+Email: 
+
+5138. Hotel Pittis
+ID: 553002bb-bb15-48d4-8f86-f6c000e31e10
+Slug: hotel-pittis-artegna
+Nome: Hotel Pittis
+Comune / Provincia: Artegna
+Indirizzo: Via Andervolti, 2, 33010 Osoppo UD
+Coordinate: Lat 46.256944, Lng 13.080833
+Website: http://booking.hotelpittis.com/
+Email: 
+
+5139. L'Oro do Nonna Adele
+ID: fe741836-a0e3-433d-a7bb-262aa7a2f680
+Slug: l-oro-do-nonna-adele-artegna
+Nome: L'Oro do Nonna Adele
+Comune / Provincia: Artegna
+Indirizzo: 67CC+8M, 33045 Nimis UD
+Coordinate: Lat 46.220838, Lng 13.271879
+Website: —
+Email: 
+
+5140. La Vie en Rose B&B
+ID: 9a5d2f87-af53-4394-bb2c-bc951eb6d06a
+Slug: la-vie-en-rose-b-b-artegna
+Nome: La Vie en Rose B&B
+Comune / Provincia: Artegna
+Indirizzo: Via Tonzolano, 7, 33030 Buia UD
+Coordinate: Lat 46.197414, Lng 13.114578
+Website: https://www.lavieenrosebuja.it/
+Email: 
+
+5141. Albergo Chiocchiò
+ID: cd442c74-5d99-421e-b558-6706daee48cf
+Slug: albergo-chiocchio-artena
+Nome: Albergo Chiocchiò
+Comune / Provincia: Artena
+Indirizzo: Via Santa Maria, 40, 00031 Artena RM
+Coordinate: Lat 41.733688, Lng 12.915699
+Website: http://www.ristorantechiocchio.eu/
+Email: 
+
+5142. B&B Del Corso - Colleferro
+ID: d0983536-f543-4d78-8f2e-9c4b0e7c983e
+Slug: b-b-del-corso-colleferro-artena
+Nome: B&B Del Corso - Colleferro
+Comune / Provincia: Artena
+Indirizzo: Via Enrico Ferri, 8/10, 00034 Colleferro RM
+Coordinate: Lat 41.726123, Lng 13.004238
+Website: http://bnb-delcorso-colleferro.com.es/
+Email: 
+
+5143. B&B dell'Artista
+ID: 01a0a7bf-563c-41de-a753-22aef6cacd21
+Slug: b-b-dell-artista-artena
+Nome: B&B dell'Artista
+Comune / Provincia: Artena
+Indirizzo: Via Giuseppe Verdi, 12, 00031 Artena RM
+Coordinate: Lat 41.738284, Lng 12.916359
+Website: http://www.bbdellartista.it/
+Email: 
+
+5144. B&B IL Falco e l'Ulivo
+ID: 90072333-27cd-47af-bdac-8f34ca2b4147
+Slug: b-b-il-falco-e-l-ulivo-artena
+Nome: B&B IL Falco e l'Ulivo
+Comune / Provincia: Artena
+Indirizzo: Via Boschetto, 21, 04010 Rocca Massima LT
+Coordinate: Lat 41.680961, Lng 12.898649
+Website: http://www.falcoeulivo.it/
+Email: 
+
+5145. B&B Joy Country House
+ID: 784e666d-1f6f-4890-97b5-7a96170608f8
+Slug: b-b-joy-country-house-artena
+Nome: B&B Joy Country House
+Comune / Provincia: Artena
+Indirizzo: Via Palianese km 2 c.da Fontana degli Angeli, SP21, snc, 00034 Colleferro RM
+Coordinate: Lat 41.753322, Lng 13.014283
+Website: https://thehoteldetail.eu/b-amp-b-joy-country-house-italy
+Email: 

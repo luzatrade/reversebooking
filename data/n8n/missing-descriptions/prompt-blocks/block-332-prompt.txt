@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+11586. Phi Hotel Sighientu
+ID: 10ac0b39-6a42-4603-acc0-bc960dd5d046
+Slug: phi-hotel-sighientu-burcei
+Nome: Phi Hotel Sighientu
+Comune / Provincia: Burcei
+Indirizzo: Via Serchio, 139, 09045 Quartu Sant'Elena CA
+Coordinate: Lat 39.208695, Lng 9.303853
+Website: https://www.phihotelsighientu.com/
+Email: 
+
+11587. Relax tra Mare e Monti-Affittacamere Quartu Sant Elena- vicino Cagliari Villasimius CIN:IT092051C2000P1677
+ID: 215338c9-79d6-4dbe-9bd5-f87b68cd30fe
+Slug: relax-tra-mare-e-monti-affittacamere-quartu-sant-burcei
+Nome: Relax tra Mare e Monti-Affittacamere Quartu Sant Elena- vicino Cagliari Villasimius CIN:IT092051C2000P1677
+Comune / Provincia: Burcei
+Indirizzo: via Niu Crobu, 44/44a, 09045 Quartu Sant'Elena CA
+Coordinate: Lat 39.223043, Lng 9.304885
+Website: https://www.relax-tra-mare-e-monti.com/
+Email: 
+
+11588. Sa Dom'è Malloru
+ID: b0027af9-41bc-4c4b-91d8-c77f37090358
+Slug: sa-dom-e-malloru-burcei
+Nome: Sa Dom'è Malloru
+Comune / Provincia: Burcei
+Indirizzo: Via delle Ciliegie, SNC, 09040 Burcei CA
+Coordinate: Lat 39.346628, Lng 9.385426
+Website: —
+Email: 
+
+11589. Spacebility Beach
+ID: a4442bdf-9a4a-4339-b9a3-b9b8f9dca5ce
+Slug: spacebility-beach-burcei
+Nome: Spacebility Beach
+Comune / Provincia: Burcei
+Indirizzo: Via Neapolis, 12, 09045 Quartu Sant'Elena CA
+Coordinate: Lat 39.227966, Lng 9.232483
+Website: http://www.spacebility.com/
+Email: 
+
+11590. Villa Arya Holiday Rooms
+ID: ab2f2727-d8dc-4dd2-b446-c835bb50f825
+Slug: villa-arya-holiday-rooms-burcei
+Nome: Villa Arya Holiday Rooms
+Comune / Provincia: Burcei
+Indirizzo: Via Versilia, 33, 09045 Quartu Sant'Elena CA
+Coordinate: Lat 39.216462, Lng 9.273256
+Website: —
+Email: 
+
+11591. B&B Colibrì
+ID: 441f6806-f10a-4682-a9af-3e669a714c64
+Slug: b-b-colibri-burgio
+Nome: B&B Colibrì
+Comune / Provincia: Burgio
+Indirizzo: Via Olivella, 113, 92019 Sciacca AG
+Coordinate: Lat 37.511219, Lng 13.083042
+Website: http://www.colibribeb.com/
+Email: 
+
+11592. B&B Il Campanile
+ID: 016531ae-7414-4a6c-988e-35cc59793b31
+Slug: b-b-il-campanile-burgio
+Nome: B&B Il Campanile
+Comune / Provincia: Burgio
+Indirizzo: Piazza Inveges, 15, 92019 Sciacca AG
+Coordinate: Lat 37.507495, Lng 13.083379
+Website: http://www.bebilcampanile.it/
+Email: 
+
+11593. B&B Porta di Mare
+ID: 97d92453-7184-4096-950d-3935c2aa82bd
+Slug: b-b-porta-di-mare-burgio
+Nome: B&B Porta di Mare
+Comune / Provincia: Burgio
+Indirizzo: Vicolo I, Via Porta di Mare, 10, 92019 Sciacca AG
+Coordinate: Lat 37.505549, Lng 13.083656
+Website: http://re.com/
+Email: 
+
+11594. Beb casa anzelmo
+ID: c2e556f1-c82e-43cf-ad9e-1492eb0d5107
+Slug: beb-casa-anzelmo-burgio
+Nome: Beb casa anzelmo
+Comune / Provincia: Burgio
+Indirizzo: Via F. Crispi, 95, 92010 Burgio AG
+Coordinate: Lat 37.599118, Lng 13.290316
+Website: —
+Email: 
+
+11595. Casa Dei Sogni
+ID: b4d6a7e1-93aa-450d-9094-ccf7f6d42e88
+Slug: casa-dei-sogni-burgio
+Nome: Casa Dei Sogni
+Comune / Provincia: Burgio
+Indirizzo: 92010 Burgio AG, Italia
+Coordinate: Lat 37.601335, Lng 13.291677
+Website: —
+Email: 
+
+11596. Casa di Angela
+ID: c57b67d0-d5ff-4dd1-b0ae-f26096c610cf
+Slug: casa-di-angela-burgio
+Nome: Casa di Angela
+Comune / Provincia: Burgio
+Indirizzo: Rione Fratelli Bandiera, 14, 92019 Sciacca AG
+Coordinate: Lat 37.516984, Lng 13.07444
+Website: —
+Email: 
+
+11597. Casa Sunrise - The Guest House
+ID: 09792721-6dc8-421c-8ed8-70afe5380bb4
+Slug: casa-sunrise-the-guest-house-burgio
+Nome: Casa Sunrise - The Guest House
+Comune / Provincia: Burgio
+Indirizzo: Via Modigliani, 32, 92019 Sciacca AG
+Coordinate: Lat 37.509609, Lng 13.077037
+Website: https://www.casasunrisesciacca.it/
+Email: 
+
+11598. Hibrido Boutique Hotel & Spa
+ID: fbd9b729-4a9d-4862-89cf-1bf8b3011382
+Slug: hibrido-boutique-hotel-spa-burgio
+Nome: Hibrido Boutique Hotel & Spa
+Comune / Provincia: Burgio
+Indirizzo: Via Caricatore, 35, 92019 Sciacca AG
+Coordinate: Lat 37.505385, Lng 13.083773
+Website: https://www.hibridoboutiquehotel.com/
+Email: 
+
+11599. Hotel Melqart
+ID: 59776b7c-c121-467f-bc6e-9f544db91674
+Slug: hotel-melqart-burgio
+Nome: Hotel Melqart
+Comune / Provincia: Burgio
+Indirizzo: Via Mulini, 11/12/14, 92019 Sciacca AG
+Coordinate: Lat 37.505882, Lng 13.080176
+Website: http://www.melqarthotel.it/
+Email: 
+
+11600. La Paloma Blanca Hotel
+ID: ee4a96c9-d310-4ea4-85f4-6024e1a3e6ae
+Slug: la-paloma-blanca-hotel-burgio
+Nome: La Paloma Blanca Hotel
+Comune / Provincia: Burgio
+Indirizzo: Via Figuli, 5, 92019 Sciacca AG
+Coordinate: Lat 37.506423, Lng 13.088779
+Website: http://www.lapalomablancahotel.it/
+Email: 
+
+11601. Le Casette del Porto
+ID: e1195fd8-c47d-4b7c-9117-29089206e7e3
+Slug: le-casette-del-porto-burgio
+Nome: Le Casette del Porto
+Comune / Provincia: Burgio
+Indirizzo: Lungomare Cristoforo Colombo, 23, 92019 Sciacca AG
+Coordinate: Lat 37.504894, Lng 13.083173
+Website: https://www.casettedelporto.com/
+Email: 
+
+11602. Macramè Fazello
+ID: ddc69b29-e0fb-4e36-9eef-bbf44d3224be
+Slug: macrame-fazello-burgio
+Nome: Macramè Fazello
+Comune / Provincia: Burgio
+Indirizzo: Corso Tommaso Fazello, 97, 92019 Sciacca AG
+Coordinate: Lat 37.510916, Lng 13.082614
+Website: http://www.macramerelais.it/
+Email: 
+
+11603. NottInCentro Guest House
+ID: a8a7966d-e42d-4a56-b38f-b13f8db6e2bb
+Slug: nottincentro-guest-house-burgio
+Nome: NottInCentro Guest House
+Comune / Provincia: Burgio
+Indirizzo: Via Conzo, 45, 92019 Sciacca AG
+Coordinate: Lat 37.509341, Lng 13.078359
+Website: —
+Email: 
+
+11604. RoccaRegina Hotel
+ID: 959daf25-f867-4856-ade2-9122ab0db340
+Slug: roccaregina-hotel-burgio
+Nome: RoccaRegina Hotel
+Comune / Provincia: Burgio
+Indirizzo: Lungomare Cristoforo Colombo, 13, 92019 Sciacca AG
+Coordinate: Lat 37.504878, Lng 13.083704
+Website: https://roccareginahotel.it/
+Email: 
+
+11605. Bedroom da Zio Tore - Affitti Brevi
+ID: d43ba0a4-c64b-4c6a-b47f-29979bd9b168
+Slug: bedroom-da-zio-tore-affitti-brevi-burgos
+Nome: Bedroom da Zio Tore - Affitti Brevi
+Comune / Provincia: Burgos
+Indirizzo: Via Mattei, 08020 Ottana NU
+Coordinate: Lat 40.231922, Lng 9.035327
+Website: https://www.booking.com/hotel/it/bed-room-da-zio-tore.it.html
+Email: 
+
+11606. Agriturismo Il Torrione
+ID: a9451658-1fe9-4114-a5cc-1e8566d15ddb
+Slug: agriturismo-il-torrione-buriasco
+Nome: Agriturismo Il Torrione
+Comune / Provincia: Buriasco
+Indirizzo: Strada del, Strada Galoppatoio, 20, 10064 Pinerolo TO
+Coordinate: Lat 44.868762, Lng 7.350816
+Website: http://www.iltorrione.com/
+Email: 
+
+11607. Albergo Regina
+ID: 2edc2505-6d07-4bb5-b7e3-56db2e0cf2f8
+Slug: albergo-regina-buriasco
+Nome: Albergo Regina
+Comune / Provincia: Buriasco
+Indirizzo: Piazza Luigi Barbieri, 22, 10064 Pinerolo TO
+Coordinate: Lat 44.883797, Lng 7.330828
+Website: http://www.albergoregina.net/
+Email: 
+
+11608. Bed And Breakfast la Taupinière
+ID: d44b2c7a-e55b-4889-adb3-f5415e2bbf15
+Slug: bed-and-breakfast-la-taupiniere-buriasco
+Nome: Bed And Breakfast la Taupinière
+Comune / Provincia: Buriasco
+Indirizzo: Via Maestra Riva, 124, 10064 Riva TO
+Coordinate: Lat 44.892048, Lng 7.387416
+Website: http://www.bblataupiniere.it/
+Email: 
+
+11609. Green Class Hotel Candiolo
+ID: 4088456b-f0ac-4c8f-9e9c-b2e906ee20df
+Slug: green-class-hotel-candiolo-buriasco
+Nome: Green Class Hotel Candiolo
+Comune / Provincia: Buriasco
+Indirizzo: Via Sestriere, 12, 10060 Candiolo TO
+Coordinate: Lat 44.9603, Lng 7.56481
+Website: https://www.candiolohotel.it/
+Email: 
+
+11610. Hotel Residence VigOne
+ID: cbe9af80-818c-43d2-a2e4-5988bbc82668
+Slug: hotel-residence-vigone-buriasco
+Nome: Hotel Residence VigOne
+Comune / Provincia: Buriasco
+Indirizzo: Via Montagna, 3, 10067 Vigone TO
+Coordinate: Lat 44.836114, Lng 7.494559
+Website: http://www.vigone.com/
+Email: 
+
+11611. Residenza ...la beccata - Società Agricola BEA s.s.
+ID: 496312ba-2cd4-41ca-960b-b37480167e8e
+Slug: residenza-la-beccata-societa-agricola-bea-s-s-buriasco
+Nome: Residenza ...la beccata - Società Agricola BEA s.s.
+Comune / Provincia: Buriasco
+Indirizzo: Str. Santa Caterina, 8, 10064 Pinerolo TO
+Coordinate: Lat 44.896555, Lng 7.339294
+Website: http://www.merendaconcorvi.com/
+Email: 
+
+11612. Tenuta La Cascinetta
+ID: 5e575e8c-68d0-46a7-89bd-6f656a67bd82
+Slug: tenuta-la-cascinetta-buriasco
+Nome: Tenuta La Cascinetta
+Comune / Provincia: Buriasco
+Indirizzo: Regione Rena, 10060 Buriasco TO
+Coordinate: Lat 44.874589, Lng 7.389935
+Website: http://tenutalacascinetta.it/
+Email: 
+
+11613. Cascina Donda Agriturismo
+ID: f4f60bcf-4ef8-4a31-986f-1d426860a104
+Slug: cascina-donda-agriturismo-buronzo
+Nome: Cascina Donda Agriturismo
+Comune / Provincia: Buronzo
+Indirizzo: Str. Vicinale Battiana Corte, 13853 Lessona BI
+Coordinate: Lat 45.543743, Lng 8.22598
+Website: http://www.cascinadonda.it/
+Email: 
+
+11614. Agriturismo La Costa
+ID: ec294099-43e5-4119-a2e8-c4cc31925d14
+Slug: agriturismo-la-costa-busalla
+Nome: Agriturismo La Costa
+Comune / Provincia: Busalla
+Indirizzo: Via Monte Pasubio, 55, 16018 Mignanego GE
+Coordinate: Lat 44.545575, Lng 8.908431
+Website: https://lacosta-agriturismo.it/
+Email: 
+
+11615. Agriturismo Le Giare
+ID: 00a8383f-f20f-43dd-afd7-7ca8cbccdf4e
+Slug: agriturismo-le-giare-busalla
+Nome: Agriturismo Le Giare
+Comune / Provincia: Busalla
+Indirizzo: Via Carpeneli, 17, 16015 Casella GE
+Coordinate: Lat 44.54737, Lng 8.99668
+Website: http://agriturismo-le-giare.org.es/
+Email: 
+
+11616. Agriturismo Terra e Cielo
+ID: 09af6129-18b5-46bc-9e6a-fe535b7b4528
+Slug: agriturismo-terra-e-cielo-busalla
+Nome: Agriturismo Terra e Cielo
+Comune / Provincia: Busalla
+Indirizzo: Via Bellavista, 27, 16010 Serra Riccò GE
+Coordinate: Lat 44.524786, Lng 8.923408
+Website: http://www.agriturismoterraecielo.it/
+Email: 
+
+11617. Albergo Birra
+ID: 55dcdbda-9b24-44d4-8aed-4e6e50918a70
+Slug: albergo-birra-busalla
+Nome: Albergo Birra
+Comune / Provincia: Busalla
+Indirizzo: Località Birra, 3, 16010 Savignone GE
+Coordinate: Lat 44.5672, Lng 8.955236
+Website: http://www.albergobirra.it/
+Email: 
+
+11618. Albergo Garré
+ID: 409f7caf-8ef2-4ea2-a8f3-e7c58c01bf84
+Slug: albergo-garre-busalla
+Nome: Albergo Garré
+Comune / Provincia: Busalla
+Indirizzo: Località Prelo, 56/A, 16010 San Bartolomeo GE
+Coordinate: Lat 44.547924, Lng 8.975179
+Website: http://www.albergogarre.com/
+Email: 
+
+11619. Albergo Gelsomino
+ID: cffa2513-c028-4cc0-a811-442f565cc1b6
+Slug: albergo-gelsomino-busalla
+Nome: Albergo Gelsomino
+Comune / Provincia: Busalla
+Indirizzo: Piazza San Rocco, 4, 16010 Serra Riccò GE
+Coordinate: Lat 44.509249, Lng 8.938237
+Website: https://www.albergogelsomino.it/
+Email: 
+
+11620. Albergo Ristorante Vittoria
+ID: 8ab35be2-0f9b-4d4c-9fcf-d7cc3be32d44
+Slug: albergo-ristorante-vittoria-busalla
+Nome: Albergo Ristorante Vittoria
+Comune / Provincia: Busalla
+Indirizzo: Via Vittorio Veneto, 177, 16012 Busalla GE
+Coordinate: Lat 44.574749, Lng 8.94343
+Website: http://www.albergobarvittoria.it/
+Email: 

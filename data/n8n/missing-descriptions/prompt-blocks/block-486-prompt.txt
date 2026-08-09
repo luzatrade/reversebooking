@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16976. Vida Rooms
+ID: 4a69acf1-48c6-46d9-a15d-ccc6d8adedf7
+Slug: vida-rooms-trapani
+Nome: Vida Rooms
+Comune / Provincia: Trapani
+Indirizzo: Via Francesco Manzo, 17, 91100 Trapani TP, Italia
+Coordinate: Lat 38.015592, Lng 12.523603
+Website: https://www.vidarooms.com/
+Email: vidaroomstrapani@gmail.com
+
+16977. Albergo Trento
+ID: 3ef92077-1edb-4434-af02-03c395653076
+Slug: albergo-trento-trento
+Nome: Albergo Trento
+Comune / Provincia: Trento
+Indirizzo: Corso Porta Nuova, 36, 37122 Verona VR, Italia
+Coordinate: Lat 45.434404, Lng 10.989354
+Website: http://www.albergotrento.it/
+Email: info@albergotrento.it
+
+16978. B&B Eden
+ID: ccdbf192-9aeb-4dd6-b150-9f91c6f3413a
+Slug: b-b-eden-trento
+Nome: B&B Eden
+Comune / Provincia: Trento
+Indirizzo: Via Roma, 27, 38122 Trento TN, Italia
+Coordinate: Lat 46.069602, Lng 11.119424
+Website: http://bbeden.it/
+Email: info@bbeden.it
+
+16979. B&B HOTEL Trento
+ID: 9ca37543-9aa6-460f-b8bd-07c1c1f1c0d8
+Slug: b-b-hotel-trento-trento
+Nome: B&B HOTEL Trento
+Comune / Provincia: Trento
+Indirizzo: Via Innsbruck, 11, 38100 Trento TN, Italia
+Coordinate: Lat 46.111297, Lng 11.091853
+Website: https://www.hotel-bb.com/it/hotel/trento?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext
+Email: 
+
+16980. B&B la Malvasia
+ID: cb598fea-d977-4766-a79b-a03205806509
+Slug: b-b-la-malvasia-trento
+Nome: B&B la Malvasia
+Comune / Provincia: Trento
+Indirizzo: Via della Malvasia, 77, 38122 Trento TN, Italia
+Coordinate: Lat 46.075693, Lng 11.12511
+Website: http://www.bblamalvasia.it/
+Email: 
+
+16981. B&B Le Muse Trento
+ID: 30c8c20c-e02d-4c7f-82e0-6152042e9009
+Slug: b-b-le-muse-trento-trento
+Nome: B&B Le Muse Trento
+Comune / Provincia: Trento
+Indirizzo: Vicolo Cristoforo Madruzzo, 6, 38122 Trento TN, Italia
+Coordinate: Lat 46.063607, Lng 11.122305
+Website: https://bb-le-muse-trento.italytravelpro.top/
+Email: 
+
+16982. B&B Margot Trento
+ID: 66b9da02-66ab-4dce-88ab-de992acb70cd
+Slug: b-b-margot-trento-trento
+Nome: B&B Margot Trento
+Comune / Provincia: Trento
+Indirizzo: Via Andrea Maffei, 1, 38122 Trento TN, Italia
+Coordinate: Lat 46.066523, Lng 11.120417
+Website: http://www.bbmargot.com/
+Email: info@bbmargot.com
+
+16983. B&B Palazzo Malfatti
+ID: bd1ed725-68e3-49d3-bbd9-f90dea87b4be
+Slug: b-b-palazzo-malfatti-trento
+Nome: B&B Palazzo Malfatti
+Comune / Provincia: Trento
+Indirizzo: Via Rodolfo Belenzani, 47, 38122 Trento TN, Italia
+Coordinate: Lat 46.068073, Lng 11.121632
+Website: http://www.bbpalazzomalfatti.it/
+Email: bbelisatrento@gmail.com
+
+16984. B&B PIEDICASTELLO
+ID: e17619f6-8a39-4817-bccb-3e7664ab468e
+Slug: b-b-piedicastello-trento
+Nome: B&B PIEDICASTELLO
+Comune / Provincia: Trento
+Indirizzo: Via Dòs Trento, 70, 38121 Trento TN, Italia
+Coordinate: Lat 46.072626, Lng 11.114588
+Website: https://piedicastellobeb.it/
+Email: info@piedicastellobeb.it
+
+16985. B&B Trento nel Verde
+ID: 7666bd4f-f1b4-48e7-bd2e-bfd82f034626
+Slug: b-b-trento-nel-verde-trento
+Nome: B&B Trento nel Verde
+Comune / Provincia: Trento
+Indirizzo: Via Mesiano, 77/A, 38122 Trento TN, Italia
+Coordinate: Lat 46.067791, Lng 11.138959
+Website: http://www.trentonelverde.com/
+Email: trentonelverde@gmail.com
+
+16986. Bed and Breakfast Relax
+ID: da91763b-db44-46b5-9d12-f5ff5adfdae7
+Slug: bed-and-breakfast-relax-trento
+Nome: Bed and Breakfast Relax
+Comune / Provincia: Trento
+Indirizzo: Via Giacomo Matteotti, 85, 38122 Trento TN, Italia
+Coordinate: Lat 46.055669, Lng 11.121939
+Website: http://www.bb-relax.eu/
+Email: 
+
+16987. Bed E Breakfast Ai Tre Portoni
+ID: 0e1110de-f589-48b1-86b8-ba7a081297ff
+Slug: bed-e-breakfast-ai-tre-portoni-trento
+Nome: Bed E Breakfast Ai Tre Portoni
+Comune / Provincia: Trento
+Indirizzo: Vicolo Cristoforo Madruzzo, 8, 38122 Trento TN, Italia
+Coordinate: Lat 46.063579, Lng 11.122516
+Website: http://www.aitreportoni.com/
+Email: 
+
+16988. BnB Trento
+ID: d9493948-4b41-4684-941a-57c493360810
+Slug: bnb-trento-trento
+Nome: BnB Trento
+Comune / Provincia: Trento
+Indirizzo: Via Galassa, 45, 38123 Trento TN, Italia
+Coordinate: Lat 46.041272, Lng 11.143223
+Website: —
+Email: 
+
+16989. Casa Mia
+ID: 4de9742d-64dc-49ee-904f-1d19dbb37543
+Slug: casa-mia-trento
+Nome: Casa Mia
+Comune / Provincia: Trento
+Indirizzo: Via Torre Vanga, 14, 38122 Trento TN, Italia
+Coordinate: Lat 46.069871, Lng 11.119348
+Website: http://www.bbmia.it/
+Email: 
+
+16990. Hotel al Dos Trento - Breakfast & private SPA
+ID: 5574042f-df0d-4687-b4b8-4cd234246677
+Slug: hotel-al-dos-trento-breakfast-private-spa-trento
+Nome: Hotel al Dos Trento - Breakfast & private SPA
+Comune / Provincia: Trento
+Indirizzo: Via Brescia, 133, 38122 Trento TN, Italia
+Coordinate: Lat 46.073322, Lng 11.103631
+Website: https://hotelaldostrento.it/
+Email: info@hotelaldostrento.it
+
+16991. House of Trento
+ID: d0d4d472-e9ac-484e-ae69-318023785909
+Slug: house-of-trento-trento
+Nome: House of Trento
+Comune / Provincia: Trento
+Indirizzo: Via Torre Vanga, 14, 38122 Trento TN, Italia
+Coordinate: Lat 46.069876, Lng 11.119352
+Website: http://www.bbtrento.com/
+Email: 
+
+16992. I Dodici Mesi Rooms & Apartments
+ID: 62536b52-cee9-45c0-883c-c87ea1ca6891
+Slug: i-dodici-mesi-rooms-apartments-trento
+Nome: I Dodici Mesi Rooms & Apartments
+Comune / Provincia: Trento
+Indirizzo: Via della Saluga, 3/B, 38121 Trento TN, Italia
+Coordinate: Lat 46.070542, Lng 11.128419
+Website: http://www.12mesitrento.it/
+Email: info@12mesitrento.it
+
+16993. La Villa Luxury Guest House In Trento
+ID: baa0c52d-bf99-4518-875c-5622d73706bb
+Slug: la-villa-luxury-guest-house-in-trento-trento
+Nome: La Villa Luxury Guest House In Trento
+Comune / Provincia: Trento
+Indirizzo: Salita della Spalliera, 3, 38121 Trento TN, Italia
+Coordinate: Lat 46.073684, Lng 11.126346
+Website: http://www.lavillatrento.it/
+Email: lavilla@bookingtrento.com
+
+16994. Le Palme Rooms & Breakfast
+ID: 2d0404fd-2bf7-4810-b77d-3c55d263324f
+Slug: le-palme-rooms-breakfast-trento
+Nome: Le Palme Rooms & Breakfast
+Comune / Provincia: Trento
+Indirizzo: Via Torquato Taramelli, 5, 38121 Trento TN, Italia
+Coordinate: Lat 46.061483, Lng 11.117216
+Website: http://www.lepalmetrento.it/
+Email: lepalme@bookingtrento.com
+
+16995. Soul of Trento - Vicolo del Vo, 27
+ID: 4c08e2eb-6019-4b0c-8612-d4211294de5c
+Slug: soul-of-trento-vicolo-del-vo-27-trento
+Nome: Soul of Trento - Vicolo del Vo, 27
+Comune / Provincia: Trento
+Indirizzo: Vicolo del Vó, 27, 38122 Trento TN, Italia
+Coordinate: Lat 46.070198, Lng 11.12421
+Website: https://souloftrento.it/
+Email: info@souloftrento.it
+
+16996. 501 Hotel
+ID: 153a2a83-c914-460d-bc5b-2234684e2b19
+Slug: 501-hotel-tropea
+Nome: 501 Hotel
+Comune / Provincia: Tropea
+Indirizzo: Vle Emanuele Bucciarelli, 14, 89900 Vibo Valentia VV, Italia
+Coordinate: Lat 38.683557, Lng 16.102779
+Website: https://hotel501.com/
+Email: info@hotel501.com
+
+16997. B&B Al Vecchio Castello
+ID: b0f9be35-d851-473a-9629-4dedf1f43413
+Slug: b-b-al-vecchio-castello-tropea
+Nome: B&B Al Vecchio Castello
+Comune / Provincia: Tropea
+Indirizzo: Via Glorizio, 3, 89861 Tropea VV, Italia
+Coordinate: Lat 38.677865, Lng 15.897551
+Website: http://www.vecchiocastellotropea.it/
+Email: info@vecchiocastellotropea.it
+
+16998. B&B Casale Pietrantica Tropea
+ID: 6f7faf2a-5c4e-4b45-8e9b-803f73cec6e6
+Slug: b-b-casale-pietrantica-tropea-tropea
+Nome: B&B Casale Pietrantica Tropea
+Comune / Provincia: Tropea
+Indirizzo: Contrada Manna, 89866 Ciaramiti VV, Italia
+Coordinate: Lat 38.64734, Lng 15.868782
+Website: https://www.casalepietrantica.it/?utm_source=google&utm_medium=mybusiness
+Email: casalepietrantica@libero.it
+
+16999. B&B Donna Rosa Accommodation
+ID: c2b5be28-6965-4743-a48b-dbe638d456bd
+Slug: b-b-donna-rosa-accommodation-tropea
+Nome: B&B Donna Rosa Accommodation
+Comune / Provincia: Tropea
+Indirizzo: Via Carmine, 42, 89861 Tropea VV, Italia
+Coordinate: Lat 38.674957, Lng 15.899224
+Website: http://donnarosa-accommodation.com.es/
+Email: 
+
+17000. B&B ILary Tropea
+ID: 38d44498-0edc-408a-8f82-4eee0b0c9210
+Slug: b-b-ilary-tropea-tropea
+Nome: B&B ILary Tropea
+Comune / Provincia: Tropea
+Indirizzo: Via dei Bizantini, 16, 89861 Tropea VV, Italia
+Coordinate: Lat 38.672477, Lng 15.89259
+Website: https://linktr.ee/bbilarytropea
+Email: bbilarytropea@gmail.com
+
+17001. B&B Sunset Tropea
+ID: 45358ead-799b-426e-be6c-70577bd0976a
+Slug: b-b-sunset-tropea-tropea
+Nome: B&B Sunset Tropea
+Comune / Provincia: Tropea
+Indirizzo: Via Indipendenza, 54, 89861 Tropea VV, Italia
+Coordinate: Lat 38.678413, Lng 15.895943
+Website: https://www.sunset-tropea.com/
+Email: info@sunset-tropea.com
+
+17002. Bella Tropea Accommodation
+ID: 3a215995-cdb0-47f3-a6f1-e52ee6df9d4c
+Slug: bella-tropea-accommodation-tropea
+Nome: Bella Tropea Accommodation
+Comune / Provincia: Tropea
+Indirizzo: Via Libertà, 162, 89861 Tropea VV, Italia
+Coordinate: Lat 38.67488, Lng 15.89258
+Website: https://www.bellatropeaaccommodation.com/
+Email: bellatropeaaccommodation@gmail.com
+
+17003. Donnaciccina Accomodation
+ID: b0d160b6-8b39-41fe-af97-e3d498a35886
+Slug: donnaciccina-accomodation-tropea
+Nome: Donnaciccina Accomodation
+Comune / Provincia: Tropea
+Indirizzo: Via Pelliccia, 9, 89861 Tropea VV, Italia
+Coordinate: Lat 38.679243, Lng 15.897628
+Website: http://www.donnaciccina.com/
+Email: info@donnaciccina.com
+
+17004. Imperium
+ID: ebb327aa-ca09-4edb-bfa3-41bf56aa0783
+Slug: imperium-tropea
+Nome: Imperium
+Comune / Provincia: Tropea
+Indirizzo: Via Indipendenza, 54, 89861 Tropea VV, Italia
+Coordinate: Lat 38.678413, Lng 15.895943
+Website: —
+Email: 
+
+17005. Korello - B&B Tropea
+ID: be3eea2d-c73b-48ef-8a2c-ad2d421f230a
+Slug: korello-b-b-tropea-tropea
+Nome: Korello - B&B Tropea
+Comune / Provincia: Tropea
+Indirizzo: Via Che Guevara, 15, 89862 Gasponi VV, Italia
+Coordinate: Lat 38.660432, Lng 15.901571
+Website: http://www.korellobb.it/
+Email: 
+
+17006. L'Orchidea
+ID: 98d56850-fda7-4cbd-b048-ff70d02626fa
+Slug: l-orchidea-tropea
+Nome: L'Orchidea
+Comune / Provincia: Tropea
+Indirizzo: Viale Tondo, TRAVERSA IX N, 24, 89861 Tropea VV, Italia
+Coordinate: Lat 38.673317, Lng 15.8958
+Website: https://www.lorchideatropea.com/
+Email: 
+
+17007. Le Terrazze Tropea
+ID: 73391af2-f257-4401-bd14-6db5f4eb0ac8
+Slug: le-terrazze-tropea-tropea
+Nome: Le Terrazze Tropea
+Comune / Provincia: Tropea
+Indirizzo: Via Aragona, 9, 89861 Tropea VV, Italia
+Coordinate: Lat 38.678671, Lng 15.898935
+Website: http://www.leterrazzetropea.it/
+Email: 
+
+17008. Le Twins -Bed and Breakfast
+ID: 258a8fb9-5a4c-42e1-9c9e-4e4575cc2050
+Slug: le-twins-bed-and-breakfast-tropea
+Nome: Le Twins -Bed and Breakfast
+Comune / Provincia: Tropea
+Indirizzo: Via Leonida Repaci, 90 90, 89861 Tropea VV, Italia
+Coordinate: Lat 38.671667, Lng 15.892045
+Website: —
+Email: 
+
+17009. Pepè Accommodation Bed and breakfast
+ID: 2e752ee9-0ae7-4000-8d31-effff3731165
+Slug: pepe-accommodation-bed-and-breakfast-tropea
+Nome: Pepè Accommodation Bed and breakfast
+Comune / Provincia: Tropea
+Indirizzo: Via Trento, 4, 89861 Parghelia VV, Italia
+Coordinate: Lat 38.681787, Lng 15.924268
+Website: https://www.pepeaccommodation.it/
+Email: 
+
+17010. Solmaris Tropea - Rooms & Suites
+ID: 21996380-a683-4ef5-aeb6-9d4b6df708c6
+Slug: solmaris-tropea-rooms-suites-tropea
+Nome: Solmaris Tropea - Rooms & Suites
+Comune / Provincia: Tropea
+Indirizzo: Via Piave, 5, 89861 Tropea VV, Italia
+Coordinate: Lat 38.675941, Lng 15.89458
+Website: http://www.solmaristropea.com/
+Email: info@solmaristropea.com

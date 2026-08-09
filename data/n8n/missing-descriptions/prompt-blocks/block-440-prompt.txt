@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+15366. Tre Archi
+ID: 2fc18eba-466e-458f-8dd1-0b9008646e96
+Slug: tre-archi-casalciprano
+Nome: Tre Archi
+Comune / Provincia: Casalciprano
+Indirizzo: Contrada Vicenne, 34, 86010 Castropignano CB
+Coordinate: Lat 41.61755, Lng 14.575477
+Website: https://tre-archi.avventurainitalia.top/
+Email: 
+
+15367. Agriturismo Borgo Cerquelle
+ID: e1644a43-57b0-4a63-98be-b0d5499efa9d
+Slug: agriturismo-borgo-cerquelle-casalduni
+Nome: Agriturismo Borgo Cerquelle
+Comune / Provincia: Casalduni
+Indirizzo: C.da Cerquelle, 166, 82027 Pontelandolfo BN
+Coordinate: Lat 41.28152, Lng 14.671627
+Website: —
+Email: 
+
+15368. Agriturismo La Botte
+ID: ff79a44e-a20f-4357-a9a4-17b5f4ee427c
+Slug: agriturismo-la-botte-casalduni
+Nome: Agriturismo La Botte
+Comune / Provincia: Casalduni
+Indirizzo: Contrada Monterone, 14, 82020 Fragneto Monforte BN
+Coordinate: Lat 41.250988, Lng 14.727692
+Website: http://agriturismolabotte.it/
+Email: 
+
+15369. B&B Al Castello
+ID: 74020f80-8075-43d1-a482-c1ed6604350e
+Slug: b-b-al-castello-casalduni
+Nome: B&B Al Castello
+Comune / Provincia: Casalduni
+Indirizzo: Corso Vittorio Emanuele, 6, 82027 Pontelandolfo BN
+Coordinate: Lat 41.286055, Lng 14.692506
+Website: —
+Email: 
+
+15370. Bed and Breakfast Adriano
+ID: f4170edd-ce93-4836-aa06-9e15a5bef9a6
+Slug: bed-and-breakfast-adriano-casalduni
+Nome: Bed and Breakfast Adriano
+Comune / Provincia: Casalduni
+Indirizzo: Via G.U Domenico Ocone, 68, 82030 Ponte BN
+Coordinate: Lat 41.214879, Lng 14.697007
+Website: —
+Email: 
+
+15371. Grand Hotel Telese
+ID: 186f0b64-def1-4a59-9417-0bc69dc7a13d
+Slug: grand-hotel-telese-casalduni
+Nome: Grand Hotel Telese
+Comune / Provincia: Casalduni
+Indirizzo: Strada Provinciale 15, 1 82037 Telese Terme, 82037 09:00 - 17:00Telese BN
+Coordinate: Lat 41.230707, Lng 14.53344
+Website: http://www.grandhoteltelese.it/
+Email: 
+
+15372. A.D.R Holiday Home
+ID: b3f4f80c-c41e-4dce-a58a-4feedd6f8f84
+Slug: a-d-r-holiday-home-casale-corte-cerro
+Nome: A.D.R Holiday Home
+Comune / Provincia: Casale Corte Cerro
+Indirizzo: Via Roma, 1, 28881 Casale Corte Cerro VB
+Coordinate: Lat 45.91603, Lng 8.414134
+Website: https://www.booking.com/Share-cXapii
+Email: 
+
+15373. Albergo Ristorante Cicin
+ID: dde1172d-f392-4808-b2c2-28adc0a70d89
+Slug: albergo-ristorante-cicin-casale-corte-cerro
+Nome: Albergo Ristorante Cicin
+Comune / Provincia: Casale Corte Cerro
+Indirizzo: Via Novara, 1/31, 28881 Casale Corte Cerro VB
+Coordinate: Lat 45.913785, Lng 8.425848
+Website: http://www.hotelcicin.com/
+Email: 
+
+15374. B&B Al Mutpron
+ID: 3fad150c-f056-4235-9820-d9f974aa0fab
+Slug: b-b-al-mutpron-casale-corte-cerro
+Nome: B&B Al Mutpron
+Comune / Provincia: Casale Corte Cerro
+Indirizzo: Via Crebbia, 13, 28881 Casale Corte Cerro VB
+Coordinate: Lat 45.92071, Lng 8.416142
+Website: http://www.bbalmutpron.it/
+Email: 
+
+15375. B&B Tra i Laghi
+ID: e4f993ba-b3f5-43be-a108-43885303894a
+Slug: b-b-tra-i-laghi-casale-corte-cerro
+Nome: B&B Tra i Laghi
+Comune / Provincia: Casale Corte Cerro
+Indirizzo: Via Guglielmo Marconi, 53, 28881 Casale Corte Cerro VB
+Coordinate: Lat 45.910517, Lng 8.413528
+Website: http://bbtrailaghi.it/
+Email: 
+
+15376. BB Antica Corte di Omegna
+ID: 39eddf98-6ecd-457d-9785-80c3f3bef80a
+Slug: bb-antica-corte-di-omegna-casale-corte-cerro
+Nome: BB Antica Corte di Omegna
+Comune / Provincia: Casale Corte Cerro
+Indirizzo: Via Curotti, 74, 28887 Omegna VB
+Coordinate: Lat 45.866988, Lng 8.399159
+Website: http://bnb-anticacorte.com.es/
+Email: 
+
+15377. Hotel Azalea
+ID: 779c21b3-ee1e-42b6-9ccd-ae479cf7ab46
+Slug: hotel-azalea-casale-corte-cerro
+Nome: Hotel Azalea
+Comune / Provincia: Casale Corte Cerro
+Indirizzo: Via Domo, 6, 28831 Baveno VB
+Coordinate: Lat 45.907458, Lng 8.503869
+Website: http://www.azaleahotel.it/
+Email: 
+
+15378. Hotel Due Palme
+ID: b753e8d7-55db-4588-b5e5-69b2b3da4505
+Slug: hotel-due-palme-casale-corte-cerro
+Nome: Hotel Due Palme
+Comune / Provincia: Casale Corte Cerro
+Indirizzo: Via Pallanza, 1, 28802 Mergozzo VB
+Coordinate: Lat 45.960966, Lng 8.449863
+Website: https://www.hotelduepalme.it/
+Email: 
+
+15379. Hotel Simplon
+ID: 5475097e-9564-4f6f-8185-c5ccf7a0bbbc
+Slug: hotel-simplon-casale-corte-cerro
+Nome: Hotel Simplon
+Comune / Provincia: Casale Corte Cerro
+Indirizzo: Corso Giuseppe Garibaldi, 52, 28831 Baveno VB
+Coordinate: Lat 45.911682, Lng 8.503292
+Website: http://www.zaccherahotels.com/
+Email: 
+
+15380. Hotel Splendid
+ID: c7e3c423-efac-4155-8fb8-f2291797cbc1
+Slug: hotel-splendid-casale-corte-cerro
+Nome: Hotel Splendid
+Comune / Provincia: Casale Corte Cerro
+Indirizzo: Str. Nazionale del Sempione, 12, 28831 Baveno VB
+Coordinate: Lat 45.91574, Lng 8.50212
+Website: http://www.zaccherahotels.com/
+Email: 
+
+15381. Il riccio di Ricciano
+ID: e63b4434-6fec-4df6-8a2f-fcec2eef23df
+Slug: il-riccio-di-ricciano-casale-corte-cerro
+Nome: Il riccio di Ricciano
+Comune / Provincia: Casale Corte Cerro
+Indirizzo: Via Pedemonte, 1, 28881 Casale Corte Cerro VB
+Coordinate: Lat 45.926218, Lng 8.419179
+Website: http://www.ilricciodiricciano.it/
+Email: 
+
+15382. Ostello di Germagno
+ID: 39b0fd27-b4ab-4096-be9b-ecb32e579bdd
+Slug: ostello-di-germagno-casale-corte-cerro
+Nome: Ostello di Germagno
+Comune / Provincia: Casale Corte Cerro
+Indirizzo: Via Piero Sindico, 5, 28887 Germagno VB
+Coordinate: Lat 45.892545, Lng 8.388395
+Website: —
+Email: 
+
+15383. Ristorante Albergo La Quartina
+ID: 5444a6f5-4479-49c6-aa3a-6c2549cfcbb2
+Slug: ristorante-albergo-la-quartina-casale-corte-cerro
+Nome: Ristorante Albergo La Quartina
+Comune / Provincia: Casale Corte Cerro
+Indirizzo: Via Pallanza, 20, 28802 Mergozzo VB
+Coordinate: Lat 45.961277, Lng 8.455359
+Website: http://www.laquartina.com/
+Email: 
+
+15384. Albergo Ristorante Antica Tosca
+ID: e406b4c3-b3d1-4af7-af45-78e7ce2e030c
+Slug: albergo-ristorante-antica-tosca-casale-di-scodosia
+Nome: Albergo Ristorante Antica Tosca
+Comune / Provincia: Casale di Scodosia
+Indirizzo: Viale Trento, 36, 35044 Montagnana PD
+Coordinate: Lat 45.237863, Lng 11.471396
+Website: https://albergo-ristorante-antica-tosca.mipiacelitalia.top/
+Email: 
+
+15385. Az. Agr. Ponte al Masero
+ID: 45b5a0f9-4732-4ca0-ab32-2c9874f315d9
+Slug: az-agr-ponte-al-masero-casale-di-scodosia
+Nome: Az. Agr. Ponte al Masero
+Comune / Provincia: Casale di Scodosia
+Indirizzo: Via Malmercato, 67, 35040 Merlara PD
+Coordinate: Lat 45.161409, Lng 11.455248
+Website: http://www.pontealmasero.it/
+Email: 
+
+15386. B&B Ca' Gialla
+ID: 2700e606-a324-4322-8c53-9cfec41d8e5a
+Slug: b-b-ca-gialla-casale-di-scodosia
+Nome: B&B Ca' Gialla
+Comune / Provincia: Casale di Scodosia
+Indirizzo: Via Roma, 677, 35040 Urbana PD
+Coordinate: Lat 45.19255, Lng 11.444055
+Website: —
+Email: 
+
+15387. B&B Ca` del Sole
+ID: da59406e-b468-4d60-b514-5fca1ae2c3e5
+Slug: b-b-ca-del-sole-casale-di-scodosia
+Nome: B&B Ca` del Sole
+Comune / Provincia: Casale di Scodosia
+Indirizzo: Via Mure Sud, 8, 35044 Montagnana PD
+Coordinate: Lat 45.230799, Lng 11.467599
+Website: —
+Email: 
+
+15388. La Colombara Camp&Lodge
+ID: 4e90f201-c85b-42ad-8214-d184404a8ad4
+Slug: la-colombara-camp-lodge-casale-di-scodosia
+Nome: La Colombara Camp&Lodge
+Comune / Provincia: Casale di Scodosia
+Indirizzo: Via Crosare di Sotto, 50, 37040 Pressana VR
+Coordinate: Lat 45.259947, Lng 11.432083
+Website: http://www.lacolombaracampandlodge.it/
+Email: 
+
+15389. Leon d'Oro
+ID: 0d3f2e3b-8095-460d-a5fd-81fa5fba7dcc
+Slug: leon-d-oro-casale-di-scodosia
+Nome: Leon d'Oro
+Comune / Provincia: Casale di Scodosia
+Indirizzo: Viale Fiume, 20, 35042 Este PD
+Coordinate: Lat 45.226746, Lng 11.654367
+Website: https://www.leondoroeste.it/
+Email: 
+
+15390. Art Hotel
+ID: f2169656-6c16-4a4c-afae-40d2a6e4547e
+Slug: art-hotel-casale-litta
+Nome: Art Hotel
+Comune / Provincia: Casale Litta
+Indirizzo: Viale Padre G. B. Aguggiari, 26, 21100 Varese VA
+Coordinate: Lat 45.825282, Lng 8.824993
+Website: http://www.arthotelvarese.it/
+Email: 
+
+15391. Hotel Ristorante 3 Re Srl di Silvera Silvia e Raffaella & C.
+ID: 9deba773-abf6-40ac-bdfe-ad4c1c15709e
+Slug: hotel-ristorante-3-re-srl-di-silvera-silvia-e-ra-casale-litta
+Nome: Hotel Ristorante 3 Re Srl di Silvera Silvia e Raffaella & C.
+Comune / Provincia: Casale Litta
+Indirizzo: Piazza Giuseppe Garibaldi, 25, 21018 Sesto Calende VA
+Coordinate: Lat 45.723808, Lng 8.634384
+Website: http://www.hotel3re.it/
+Email: 
+
+15392. Malpensa BeB al Castello | Casale Litta Varese
+ID: 5307ccc1-9893-4ab6-8e25-871105aea0ad
+Slug: malpensa-beb-al-castello-casale-litta-varese-casale-litta
+Nome: Malpensa BeB al Castello | Casale Litta Varese
+Comune / Provincia: Casale Litta
+Indirizzo: Vicolo S. Francesco, 6, 21020 Casale Litta VA
+Coordinate: Lat 45.767878, Lng 8.738877
+Website: —
+Email: 
+
+15393. B&B Casa Cerboneschi
+ID: de89b001-3300-4538-9b45-8df8010e47f3
+Slug: b-b-casa-cerboneschi-casale-marittimo
+Nome: B&B Casa Cerboneschi
+Comune / Provincia: Casale Marittimo
+Indirizzo: Via Roma, 10, 56040 Casale Marittimo PI
+Coordinate: Lat 43.296585, Lng 10.615943
+Website: http://www.casacerboneschi.it/
+Email: 
+
+15394. B&B La Macina
+ID: 01b544cf-bbd5-4e01-9a5f-1b3b9f082238
+Slug: b-b-la-macina-casale-marittimo
+Nome: B&B La Macina
+Comune / Provincia: Casale Marittimo
+Indirizzo: S. P. dei tre comuni 62 Loc, Via Vallileggia, 56040 Montescudaio PI
+Coordinate: Lat 43.32648, Lng 10.602062
+Website: https://www.beblamacina.com/
+Email: 
+
+15395. Casale Vecchio
+ID: 366faa8a-8c28-415a-a432-376910ec1334
+Slug: casale-vecchio-casale-marittimo
+Nome: Casale Vecchio
+Comune / Provincia: Casale Marittimo
+Indirizzo: 56040 Casale Marittimo PI
+Coordinate: Lat 43.296656, Lng 10.635361
+Website: http://casalevecchio.it/
+Email: 
+
+15396. Fattoria Podere i Luoghi
+ID: 40dcff56-1af8-42b6-967b-34a92313574b
+Slug: fattoria-podere-i-luoghi-casale-marittimo
+Nome: Fattoria Podere i Luoghi
+Comune / Provincia: Casale Marittimo
+Indirizzo: Via dei Tre Comuni, 56040 Casale Marittimo PI
+Coordinate: Lat 43.294559, Lng 10.612287
+Website: https://beb.it/fattoriapodereiluoghi
+Email: 
+
+15397. Il Poggio
+ID: cc16fabc-e91b-4054-907a-208c3648050a
+Slug: il-poggio-casale-marittimo
+Nome: Il Poggio
+Comune / Provincia: Casale Marittimo
+Indirizzo: Via Vicinale Valicandoli, 56040 Casale Marittimo PI
+Coordinate: Lat 43.286597, Lng 10.602466
+Website: http://www.ilpoggioagriturismo.it/
+Email: 
+
+15398. Le Camere del Borgo
+ID: 43d3db7f-e3f2-4bf6-b1f8-87cf5be0b216
+Slug: le-camere-del-borgo-casale-marittimo
+Nome: Le Camere del Borgo
+Comune / Provincia: Casale Marittimo
+Indirizzo: Via della Madonna, 6, 56040 Montescudaio PI
+Coordinate: Lat 43.326331, Lng 10.626163
+Website: https://www.lecameredelborgo.it/
+Email: 
+
+15399. Le Camere di Nonna Mara
+ID: 352b112d-f227-4237-a081-41db875a62e8
+Slug: le-camere-di-nonna-mara-casale-marittimo
+Nome: Le Camere di Nonna Mara
+Comune / Provincia: Casale Marittimo
+Indirizzo: Via, Strada Provinciale dei Tre Comuni, 76, 56040 Montescudaio PI
+Coordinate: Lat 43.327582, Lng 10.611167
+Website: https://le-camere-di-nonna-mara.mondoinviaggio.top/
+Email: 
+
+15400. Le Conche Srl
+ID: 60769134-e8ad-42c9-91cf-11eb6ee83b97
+Slug: le-conche-srl-casale-marittimo
+Nome: Le Conche Srl
+Comune / Provincia: Casale Marittimo
+Indirizzo: Via Cecinese, 40, 56040 Casale Marittimo PI
+Coordinate: Lat 43.299406, Lng 10.58897
+Website: —
+Email: 

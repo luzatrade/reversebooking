@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+6721. Villa Soleil | Hotel Ivrea
+ID: 86bf1021-a8db-47d8-b83d-1c288a530d81
+Slug: villa-soleil-hotel-ivrea-baldissero-canavese
+Nome: Villa Soleil | Hotel Ivrea
+Comune / Provincia: Baldissero Canavese
+Indirizzo: Via della Cartiera, 13, 10010 Colleretto Giacosa TO
+Coordinate: Lat 45.429684, Lng 7.797949
+Website: https://www.villasoleil.it/
+Email: 
+
+6722. Agriturismo da Mamma
+ID: 5040ed3f-9218-4aac-99f1-1f08d5180943
+Slug: agriturismo-da-mamma-baldissero-d-alba
+Nome: Agriturismo da Mamma
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: Strada Scaparoni, 4, 12051 Alba CN
+Coordinate: Lat 44.717014, Lng 7.988849
+Website: http://www.damamma.it/
+Email: 
+
+6723. Albergo dell'Agenzia
+ID: 10c62bab-8412-431d-8cc1-73348f1d3f3d
+Slug: albergo-dell-agenzia-baldissero-d-alba
+Nome: Albergo dell'Agenzia
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: Via Fossano, 21, 12042 Pollenzo CN
+Coordinate: Lat 44.681662, Lng 7.893743
+Website: http://www.albergoagenzia.it/
+Email: 
+
+6724. AliseA Eco Residence
+ID: f85f1e67-b932-4738-aab0-31dbb90e2145
+Slug: alisea-eco-residence-baldissero-d-alba
+Nome: AliseA Eco Residence
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: Strada della Colla, 2, 12060 Pocapaglia CN
+Coordinate: Lat 44.716438, Lng 7.886321
+Website: http://www.alisea.cn.it/
+Email: 
+
+6725. Az. Agr. DEMARIE Giovanni di Demarie Aldo
+ID: 7936b2c5-5de8-4345-9566-295933161ed3
+Slug: az-agr-demarie-giovanni-di-demarie-aldo-baldissero-d-alba
+Nome: Az. Agr. DEMARIE Giovanni di Demarie Aldo
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: Via Castellinaldo, 16, 12040 Vezza d'Alba CN
+Coordinate: Lat 44.76461, Lng 8.019406
+Website: http://www.demarie.com/
+Email: 
+
+6726. Casa a Pollenzo
+ID: 43244815-94df-4f63-8769-6a4130c041f5
+Slug: casa-a-pollenzo-baldissero-d-alba
+Nome: Casa a Pollenzo
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: Strada Crociera Burdina, 5, 12060 Pollenzo CN
+Coordinate: Lat 44.687886, Lng 7.898982
+Website: https://www.portalanghe.com/
+Email: 
+
+6727. Casa Clara
+ID: a2adf666-3d78-4c63-b346-38acd35d5ce5
+Slug: casa-clara-baldissero-d-alba
+Nome: Casa Clara
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: Località Roreto, 7, 12040 Monteu Roero CN
+Coordinate: Lat 44.773616, Lng 7.931608
+Website: https://www.relaiscasaclara.com/
+Email: 
+
+6728. Casa degli Orti
+ID: 3341ae92-01c3-4c26-82ec-e3b32e67344e
+Slug: casa-degli-orti-baldissero-d-alba
+Nome: Casa degli Orti
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: Strada Orti, 22 L, 12042 Bra CN
+Coordinate: Lat 44.688664, Lng 7.87975
+Website: https://my-stay-experience.eu/b-amp-b-da-luisa-italy
+Email: 
+
+6729. Di Vin Roero
+ID: ec180e99-c1ef-4b4d-ae9b-44c417d7e898
+Slug: di-vin-roero-baldissero-d-alba
+Nome: Di Vin Roero
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: Piazza S. Bernardo, 11, 12040 Vezza d'Alba CN
+Coordinate: Lat 44.764183, Lng 7.995677
+Website: http://www.divinroero.com/
+Email: 
+
+6730. Hotel Albergo Borgo San Martino
+ID: c0567d3b-49e9-41ff-b1cf-3359fefbd6d2
+Slug: hotel-albergo-borgo-san-martino-baldissero-d-alba
+Nome: Hotel Albergo Borgo San Martino
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: Str. Borgo S. Martino, 7, 12060 Macellai CN
+Coordinate: Lat 44.697748, Lng 7.885907
+Website: http://borgo-san-martino.com.es/
+Email: 
+
+6731. Hotel Giardini
+ID: 198cc8c0-8128-46a0-91bc-de71ad6b1620
+Slug: hotel-giardini-baldissero-d-alba
+Nome: Hotel Giardini
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: P.za XX Settembre, 28, 12042 Bra CN
+Coordinate: Lat 44.695147, Lng 7.857666
+Website: https://www.nuovohotelgiardini.it/
+Email: 
+
+6732. Hotel Medea
+ID: 9fa1f347-8ef1-4cc1-a8a0-528eb72485b9
+Slug: hotel-medea-baldissero-d-alba
+Nome: Hotel Medea
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: Corso Unità d'Italia, 64d, 12051 Alba CN
+Coordinate: Lat 44.703921, Lng 7.981431
+Website: http://www.hotelmedea.com/
+Email: 
+
+6733. L'Ottavo Sapore - Ospitalità Rurale
+ID: 3ce59bef-625a-438e-8251-6d8d33838422
+Slug: l-ottavo-sapore-ospitalita-rurale-baldissero-d-alba
+Nome: L'Ottavo Sapore - Ospitalità Rurale
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: Località Avai, 44.789436009446526, 7.916596136795743, 12040 Monteu Roero CN
+Coordinate: Lat 44.789397, Lng 7.915955
+Website: https://www.lottavosaporeospitalita.com/
+Email: 
+
+6734. La collina dei Passeri
+ID: fb208a87-2147-41d9-bc34-b8b55c71c71f
+Slug: la-collina-dei-passeri-baldissero-d-alba
+Nome: La collina dei Passeri
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: Str. Meccia, 5, 12060 Pocapaglia CN
+Coordinate: Lat 44.71607, Lng 7.895226
+Website: http://www.lacollinadeipasseribnb.it/
+Email: 
+
+6735. La noisette B&B
+ID: d6d3ff0c-417b-469e-bc8e-93346aa1cfde
+Slug: la-noisette-b-b-baldissero-d-alba
+Nome: La noisette B&B
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: Via Stazione, 34, 12066 Monticello d'Alba CN
+Coordinate: Lat 44.714008, Lng 7.954491
+Website: http://lanoisette.it/
+Email: 
+
+6736. Parco Didattico Le Colline di Giuca C/O Agriturismo I Bageta
+ID: aef84b36-9845-450d-b201-380a8ff050c0
+Slug: parco-didattico-le-colline-di-giuca-c-o-agrituri-baldissero-d-alba
+Nome: Parco Didattico Le Colline di Giuca C/O Agriturismo I Bageta
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: Località Sigola, 36, 12040 Baldissero d'Alba CN
+Coordinate: Lat 44.766819, Lng 7.90359
+Website: http://www.lecollinedigiuca.com/
+Email: 
+
+6737. Pocoburro Ca' d'arte
+ID: d7f18b60-6efc-42c2-b982-d9d1b16ef7cd
+Slug: pocoburro-ca-d-arte-baldissero-d-alba
+Nome: Pocoburro Ca' d'arte
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: Via Castello, 2, 12040 Montaldo Roero CN
+Coordinate: Lat 44.768314, Lng 7.926182
+Website: https://www.pocoburro.it/
+Email: 
+
+6738. Villa Adriana
+ID: b9b9b98e-df3b-46f6-9025-3a1da0871880
+Slug: villa-adriana-baldissero-d-alba
+Nome: Villa Adriana
+Comune / Provincia: Baldissero d'Alba
+Indirizzo: Vicolo Fossaretto, 6, 12042 Bra CN
+Coordinate: Lat 44.70273, Lng 7.853132
+Website: http://www.villaadrianabra.com/
+Email: 
+
+6739. Agriturismo Ai Guiet
+ID: 09a9ea9a-7ad8-4ebb-9c62-c54ecdbc6d97
+Slug: agriturismo-ai-guiet-baldissero-torinese
+Nome: Agriturismo Ai Guiet
+Comune / Provincia: Baldissero Torinese
+Indirizzo: Via Superga, 48, 10020 Baldissero Torinese TO
+Coordinate: Lat 45.078004, Lng 7.776089
+Website: https://www.agriturismoaiguiet.it/
+Email: 
+
+6740. azienda agricola La Collina di Laura Bartolomeo
+ID: 090ff462-9876-4511-9a15-61c6579bcf11
+Slug: azienda-agricola-la-collina-di-laura-bartolomeo-baldissero-torinese
+Nome: azienda agricola La Collina di Laura Bartolomeo
+Comune / Provincia: Baldissero Torinese
+Indirizzo: Via Superga, 47/11, 10020 Baldissero Torinese TO
+Coordinate: Lat 45.071762, Lng 7.797275
+Website: https://www.agricola-lacollina.com/
+Email: 
+
+6741. B&B Il Sogno
+ID: 7849c583-6966-49a7-923b-49942a0ac5c1
+Slug: b-b-il-sogno-baldissero-torinese
+Nome: B&B Il Sogno
+Comune / Provincia: Baldissero Torinese
+Indirizzo: Corso Palermo, 46, 10152 Torino TO
+Coordinate: Lat 45.082748, Lng 7.693068
+Website: https://www.hotelsitalian.com/bb-il-sogno/
+Email: 
+
+6742. B&B Il Sussurro Della Collina
+ID: 0d274a8b-ddd2-4603-bf64-ad7d97d428dc
+Slug: b-b-il-sussurro-della-collina-baldissero-torinese
+Nome: B&B Il Sussurro Della Collina
+Comune / Provincia: Baldissero Torinese
+Indirizzo: Via Lunga, 74, 10099 San Mauro Torinese TO
+Coordinate: Lat 45.109347, Lng 7.790014
+Website: http://www.ilsussurrodellacollina.it/
+Email: 
+
+6743. CXTurin | Vanchiglia Campus & Hotel
+ID: 9b7cdfe0-f051-4ed6-ae17-405332a8f4b8
+Slug: cxturin-vanchiglia-campus-hotel-baldissero-torinese
+Nome: CXTurin | Vanchiglia Campus & Hotel
+Comune / Provincia: Baldissero Torinese
+Indirizzo: Corso Regina Margherita, 2, 10153 Torino TO
+Coordinate: Lat 45.069171, Lng 7.707161
+Website: http://www.cx-place.com/
+Email: 
+
+6744. Hotel Elite
+ID: 066fba25-4386-433b-8bad-363ee525716c
+Slug: hotel-elite-baldissero-torinese
+Nome: Hotel Elite
+Comune / Provincia: Baldissero Torinese
+Indirizzo: Via Trento, 35, 10099 San Mauro Torinese TO
+Coordinate: Lat 45.099839, Lng 7.751553
+Website: http://www.hotelelitepiscinadelsole.com/
+Email: 
+
+6745. Hotel La Pace Sas
+ID: 40c53e76-95c7-47fb-8701-531b48bd11be
+Slug: hotel-la-pace-sas-baldissero-torinese
+Nome: Hotel La Pace Sas
+Comune / Provincia: Baldissero Torinese
+Indirizzo: Via Roma, 36, 10099 San Mauro Torinese TO
+Coordinate: Lat 45.103811, Lng 7.759461
+Website: https://www.hotellapacetorino.com/
+Email: 
+
+6746. Hotel Miramonti
+ID: 0dcd64ec-13c2-4b0a-acbb-be9f67e41165
+Slug: hotel-miramonti-baldissero-torinese
+Nome: Hotel Miramonti
+Comune / Provincia: Baldissero Torinese
+Indirizzo: P.za Derna, 238, 10154 Torino TO
+Coordinate: Lat 45.101834, Lng 7.700669
+Website: http://www.hotelmiramontitorino.it/
+Email: 
+
+6747. Hotel Ponte Sassi
+ID: f6fd2833-071a-47ae-8762-2c3be1ca2819
+Slug: hotel-ponte-sassi-baldissero-torinese
+Nome: Hotel Ponte Sassi
+Comune / Provincia: Baldissero Torinese
+Indirizzo: Piazza Alberto Pasini, 3, 10132 Torino TO
+Coordinate: Lat 45.075726, Lng 7.729866
+Website: http://www.hotelpontesassi.com/
+Email: 
+
+6748. Hotel Residence
+ID: ce4508c0-9cf6-42f2-839e-58f1415b63ae
+Slug: hotel-residence-baldissero-torinese
+Nome: Hotel Residence
+Comune / Provincia: Baldissero Torinese
+Indirizzo: Via Ribordone, 12, 10156 Torino TO
+Coordinate: Lat 45.114452, Lng 7.706737
+Website: http://www.sharing.to.it/
+Email: 
+
+6749. Loft Regio Parco
+ID: 061191e3-2166-47c4-b835-9926a98e5fbf
+Slug: loft-regio-parco-baldissero-torinese
+Nome: Loft Regio Parco
+Comune / Provincia: Baldissero Torinese
+Indirizzo: Via Modena, 31, 10152 Torino TO
+Coordinate: Lat 45.077874, Lng 7.694778
+Website: https://staylio.eu/loft-regio-parco-torino
+Email: 
+
+6750. TRE MERLOT
+ID: ccf388e0-14d4-498a-be7b-36488c07b951
+Slug: tre-merlot-baldissero-torinese
+Nome: TRE MERLOT
+Comune / Provincia: Baldissero Torinese
+Indirizzo: Via Chieri, 66/2, 10020 Baldissero Torinese TO
+Coordinate: Lat 45.048379, Lng 7.816017
+Website: http://bondiolistudio.it/
+Email: 
+
+6751. AmarMare Bed & Breakfast
+ID: 205a4ad1-ffc2-4d5e-8626-74dc9e9d3310
+Slug: amarmare-bed-breakfast-balestrate
+Nome: AmarMare Bed & Breakfast
+Comune / Provincia: Balestrate
+Indirizzo: Via Panorama, 90047 Partinico PA
+Coordinate: Lat 38.068335, Lng 13.066731
+Website: https://www.amarmare.it/
+Email: 
+
+6752. b&b Casa Ruffino
+ID: 1b85b6cb-d26e-4e60-94de-41dc15ccdff7
+Slug: b-b-casa-ruffino-balestrate
+Nome: b&b Casa Ruffino
+Comune / Provincia: Balestrate
+Indirizzo: Via Madonna del Ponte, 49, 90041 Balestrate PA
+Coordinate: Lat 38.051088, Lng 13.006276
+Website: http://www.casaruffino.it/
+Email: 
+
+6753. B&B I TRAMONTI DEL GOLFO
+ID: ba43fb25-bcec-4b06-8af9-0368f8886031
+Slug: b-b-i-tramonti-del-golfo-balestrate
+Nome: B&B I TRAMONTI DEL GOLFO
+Comune / Provincia: Balestrate
+Indirizzo: Via Pio la Torre, 90041 Balestrate PA
+Coordinate: Lat 38.053116, Lng 13.011761
+Website: https://relait.cyou/tramonti-del-golfo-ie4t4v
+Email: 
+
+6754. B&B Stanze del Mare
+ID: f5d0c38b-026e-41a6-8701-1c67f5f5c555
+Slug: b-b-stanze-del-mare-balestrate
+Nome: B&B Stanze del Mare
+Comune / Provincia: Balestrate
+Indirizzo: Via Libertà, 38, 90041 Balestrate PA
+Coordinate: Lat 38.051934, Lng 13.005244
+Website: http://stanze-delmare.com.es/
+Email: 
+
+6755. Balestrate Center Rooms
+ID: c5d069b3-848f-4fa4-8d32-3adaf58e08a7
+Slug: balestrate-center-rooms-balestrate
+Nome: Balestrate Center Rooms
+Comune / Provincia: Balestrate
+Indirizzo: Via Pitrè, 17, 90041 Balestrate PA
+Coordinate: Lat 38.048923, Lng 13.000588
+Website: https://www.balestratecenterrooms.it/
+Email: 

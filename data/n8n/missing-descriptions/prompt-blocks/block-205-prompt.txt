@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+7141. Gasslitterhof
+ID: 012f2711-7ffd-49d1-bf3a-0862188b59b4
+Slug: gasslitterhof-barbiano-barbian
+Nome: Gasslitterhof
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: 12, Barbiano, Via Barbiano, 39040 Barbiano BZ
+Coordinate: Lat 46.599546, Lng 11.524511
+Website: https://www.gasslitterhof.it/
+Email: 
+
+7142. Gasthof Lamm
+ID: 643e7f6b-b524-439e-9896-716e5370cbc1
+Slug: gasthof-lamm-barbiano-barbian
+Nome: Gasthof Lamm
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: Via Paese, 8, 39040 Barbiano BZ
+Coordinate: Lat 46.602919, Lng 11.519442
+Website: http://www.gasthof-lamm-barbian.com/
+Email: 
+
+7143. Gasthof Messnerhof
+ID: fbb55517-bde6-485c-8f36-1d111faf5071
+Slug: gasthof-messnerhof-barbiano-barbian
+Nome: Gasthof Messnerhof
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: Via Dreikirchen, 8, 39040 Barbiano BZ
+Coordinate: Lat 46.618409, Lng 11.510156
+Website: http://www.messnerhof-dreikirchen.it/
+Email: 
+
+7144. Gasthof Traube
+ID: 15d07a38-85ee-4f7a-9811-c7db5a80ba10
+Slug: gasthof-traube-barbiano-barbian
+Nome: Gasthof Traube
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: Dorf Paese, 14, 39040 Barbiano BZ
+Coordinate: Lat 46.604204, Lng 11.519965
+Website: http://www.zurtraube.com/
+Email: 
+
+7145. Gasthof zum Englwirt
+ID: 908c2b2f-c06d-4fa5-a7ca-bd5ca97bdbd2
+Slug: gasthof-zum-englwirt-barbiano-barbian
+Nome: Gasthof zum Englwirt
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: Str. Dorf, 2, 39040 Barbiano BZ
+Coordinate: Lat 46.602517, Lng 11.519761
+Website: http://www.englwirt.com/
+Email: 
+
+7146. Gostnerhof
+ID: a68eb07a-c0f0-4e9b-9f92-93a197a33204
+Slug: gostnerhof-barbiano-barbian
+Nome: Gostnerhof
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: Via Barbiano, 9, 39040 Barbiano BZ
+Coordinate: Lat 46.601724, Lng 11.528004
+Website: https://www.gostnerhof.com/
+Email: 
+
+7147. haus urban Apartments
+ID: 165745cd-8026-4635-80ab-102a1020bc19
+Slug: haus-urban-apartments-barbiano-barbian
+Nome: haus urban Apartments
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: Via delle Cascate, 1, 39040 Barbiano BZ
+Coordinate: Lat 46.601139, Lng 11.518467
+Website: http://www.hausurban.it/
+Email: 
+
+7148. Hotel Barbianerhof
+ID: 1288d68e-2838-4ccf-a11a-b39b9d6a2269
+Slug: hotel-barbianerhof-barbiano-barbian
+Nome: Hotel Barbianerhof
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: Via dei Campi, 19, 39040 Barbiano BZ
+Coordinate: Lat 46.60601, Lng 11.521502
+Website: https://barbianerhof.com/
+Email: 
+
+7149. Hotel Briol
+ID: 1219c726-057f-4bd7-b960-a7ffd895aa3f
+Slug: hotel-briol-barbiano-barbian
+Nome: Hotel Briol
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: Via Briol, 1, 39040 Barbiano BZ
+Coordinate: Lat 46.613555, Lng 11.50773
+Website: http://www.briol.it/
+Email: 
+
+7150. Hotel Eismacherei Rösslwirt Barbian
+ID: 41de9696-02d6-4d9f-8eb1-6fe57100d21b
+Slug: hotel-eismacherei-rosslwirt-barbian-barbiano-barbian
+Nome: Hotel Eismacherei Rösslwirt Barbian
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: Via Paese, Dorf, 6, 39040 Barbiano BZ
+Coordinate: Lat 46.602729, Lng 11.519507
+Website: http://www.roesslwirt.com/
+Email: 
+
+7151. Hotel Haus an der Luck
+ID: ca49aa5f-6f22-47e8-a360-da8fd436e544
+Slug: hotel-haus-an-der-luck-barbiano-barbian
+Nome: Hotel Haus an der Luck
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: Via Rosengarten, 11, 39040 Barbiano BZ
+Coordinate: Lat 46.605995, Lng 11.521064
+Website: https://www.hausanderluck.it/
+Email: 
+
+7152. Hubertusstube
+ID: 62da1fe9-2b30-4714-bcd8-ed0981da97cc
+Slug: hubertusstube-barbiano-barbian
+Nome: Hubertusstube
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: S.Katherina/ Novale, 117 A, 39040 Laion BZ
+Coordinate: Lat 46.60162, Lng 11.562616
+Website: http://www.hubertus-stube.com/
+Email: 
+
+7153. Mair Josef
+ID: 5be15f05-13d9-4da5-a113-94b72931ee3b
+Slug: mair-josef-barbiano-barbian
+Nome: Mair Josef
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: Ganderbachstraße, Via Rio Gondo, 12, 39040 Barbiano BZ
+Coordinate: Lat 46.600379, Lng 11.5182
+Website: https://www.matronerhof.it/
+Email: 
+
+7154. Marxhof
+ID: ba271488-c131-4519-a9fe-1db2aec0aef7
+Slug: marxhof-barbiano-barbian
+Nome: Marxhof
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: Heiliggrab, Via Barbiano, 7, 39040 Barbiano BZ
+Coordinate: Lat 46.595821, Lng 11.5176
+Website: http://www.marxhof.it/
+Email: 
+
+7155. Oberpalwitterhof
+ID: d85cd650-c062-4d22-a057-9d25445bcb64
+Slug: oberpalwitterhof-barbiano-barbian
+Nome: Oberpalwitterhof
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: Via Rosengarten, 28, 39040 Barbiano BZ
+Coordinate: Lat 46.613156, Lng 11.524862
+Website: http://www.oberpalwitterhof.com/
+Email: 
+
+7156. Pensione Troglerhof
+ID: e603200b-fb2f-4dc4-a354-a3ab1f54c5fe
+Slug: pensione-troglerhof-barbiano-barbian
+Nome: Pensione Troglerhof
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: 39040 Laion BZ, Italia
+Coordinate: Lat 46.610729, Lng 11.541777
+Website: http://www.troglerhof.it/IT/Index_it.htm
+Email: 
+
+7157. Planatscherhof
+ID: 6632d7fe-192e-439f-8bc5-f2de9aafd5b4
+Slug: planatscherhof-barbiano-barbian
+Nome: Planatscherhof
+Comune / Provincia: Barbiano/Barbian
+Indirizzo: 39040 Barbiano BZ, Italia
+Coordinate: Lat 46.613508, Lng 11.530742
+Website: https://www.planatscherhof.it/
+Email: 
+
+7158. Agrodolce
+ID: 1272778c-f8db-43b8-9a25-487a811ee0f0
+Slug: agrodolce-barcellona-pozzo-di-gotto
+Nome: Agrodolce
+Comune / Provincia: Barcellona Pozzo di Gotto
+Indirizzo: Via Giuseppe Garibaldi, 367, 98051 Barcellona Pozzo di Gotto ME
+Coordinate: Lat 38.148589, Lng 15.220923
+Website: —
+Email: 
+
+7159. B&B Via Nazionale
+ID: c501e8e1-cd4c-4e6d-bdc3-ade826cd0efe
+Slug: b-b-via-nazionale-barcellona-pozzo-di-gotto
+Nome: B&B Via Nazionale
+Comune / Provincia: Barcellona Pozzo di Gotto
+Indirizzo: Via Archi Nazionale, 16, 98044 Olivarella-Corriolo ME
+Coordinate: Lat 38.18841, Lng 15.274317
+Website: http://bbvianazionale.it/
+Email: 
+
+7160. Bed and Breakfast Ro.Ma.
+ID: 9f5ed831-7f8e-4f5f-9f77-0887ba708cb2
+Slug: bed-and-breakfast-ro-ma-barcellona-pozzo-di-gotto
+Nome: Bed and Breakfast Ro.Ma.
+Comune / Provincia: Barcellona Pozzo di Gotto
+Indirizzo: Via Caldà, 52, 98051 Barcellona Pozzo di Gotto ME
+Coordinate: Lat 38.180443, Lng 15.207355
+Website: http://www.bed-and-breakfast.it/pagina.cfm?id=6086&idregione=15
+Email: 
+
+7161. Borgo San Giovanni
+ID: 10ece55b-0e97-482c-836f-88da39fe1533
+Slug: borgo-san-giovanni-barcellona-pozzo-di-gotto
+Nome: Borgo San Giovanni
+Comune / Provincia: Barcellona Pozzo di Gotto
+Indirizzo: Strada Statale S. Antonino, 7, 98057 Barcellona Pozzo di Gotto ME
+Coordinate: Lat 38.146201, Lng 15.207936
+Website: https://timothyrecommends.eu/borgo-san-giovanni-italy
+Email: 
+
+7162. Cinquecento B&B
+ID: b9f8b680-f20b-438d-a42e-742899dc87b1
+Slug: cinquecento-b-b-barcellona-pozzo-di-gotto
+Nome: Cinquecento B&B
+Comune / Provincia: Barcellona Pozzo di Gotto
+Indirizzo: Via Giosuè Carducci, 30, 98051 Barcellona Pozzo di Gotto ME
+Coordinate: Lat 38.14447, Lng 15.216783
+Website: http://www.tappedi5centobb.it/
+Email: 
+
+7163. Hotel Ristorante all'Antico Pozzo
+ID: 985db57d-555c-471d-b38b-4acb7e25dd65
+Slug: hotel-ristorante-all-antico-pozzo-barcellona-pozzo-di-gotto
+Nome: Hotel Ristorante all'Antico Pozzo
+Comune / Provincia: Barcellona Pozzo di Gotto
+Indirizzo: Via Milite Ignoto, 67, 98051 Barcellona Pozzo di Gotto ME
+Coordinate: Lat 38.162472, Lng 15.201821
+Website: http://www.anticopozzocompany.it/
+Email: 
+
+7164. I3Mori
+ID: 03b5144f-fb5d-4a1d-bcbb-7ea684d6ca3d
+Slug: i3mori-barcellona-pozzo-di-gotto
+Nome: I3Mori
+Comune / Provincia: Barcellona Pozzo di Gotto
+Indirizzo: Via Spiaggia Cantoni, N° 64, 98051 Barcellona Pozzo di Gotto ME
+Coordinate: Lat 38.15621, Lng 15.180114
+Website: https://i3mori.italiacongusto.top/
+Email: 
+
+7165. Idria B&B
+ID: fd364002-68c5-4e52-8cbf-ef900098ea54
+Slug: idria-b-b-barcellona-pozzo-di-gotto
+Nome: Idria B&B
+Comune / Provincia: Barcellona Pozzo di Gotto
+Indirizzo: Via Catili, 130, 98051 Barcellona Pozzo di Gotto ME
+Coordinate: Lat 38.17775, Lng 15.205205
+Website: http://idriabnb.it/
+Email: 
+
+7166. Il Casale Dei Conti B & B
+ID: cb83159b-1e5c-46b3-b0ba-74f021268d13
+Slug: il-casale-dei-conti-b-b-barcellona-pozzo-di-gotto
+Nome: Il Casale Dei Conti B & B
+Comune / Provincia: Barcellona Pozzo di Gotto
+Indirizzo: Via Giacomo Medici, 440, 98051 Barcellona Pozzo di Gotto ME
+Coordinate: Lat 38.149146, Lng 15.194732
+Website: http://www.ilcasaledeiconti.com/
+Email: 
+
+7167. La casa di Matilde Rooms di Roberta Cannarozzo
+ID: 3c6d7e88-fb21-432a-950d-84abcaa96469
+Slug: la-casa-di-matilde-rooms-di-roberta-cannarozzo-barcellona-pozzo-di-gotto
+Nome: La casa di Matilde Rooms di Roberta Cannarozzo
+Comune / Provincia: Barcellona Pozzo di Gotto
+Indirizzo: Via degli Studi, 46, 98051 Barcellona Pozzo di Gotto ME
+Coordinate: Lat 38.144576, Lng 15.219435
+Website: http://barcellona-pozzo-di-gotto.com.es/
+Email: 
+
+7168. LA FORESTERIA DI MAESTINA
+ID: 288dca3f-4942-49aa-b8bc-85b7976bacc4
+Slug: la-foresteria-di-maestina-barcellona-pozzo-di-gotto
+Nome: LA FORESTERIA DI MAESTINA
+Comune / Provincia: Barcellona Pozzo di Gotto
+Indirizzo: Via Spine Sante, 188, 98051 Barcellona Pozzo di Gotto ME
+Coordinate: Lat 38.16768, Lng 15.19217
+Website: https://www.laforesteriadimaestina.com/
+Email: 
+
+7169. My friend Umberto
+ID: 8f9fe5dc-ab9c-455d-bd12-3339ad500cd2
+Slug: my-friend-umberto-barcellona-pozzo-di-gotto
+Nome: My friend Umberto
+Comune / Provincia: Barcellona Pozzo di Gotto
+Indirizzo: Via Umberto I, 37, 98051 Barcellona Pozzo di Gotto ME
+Coordinate: Lat 38.141317, Lng 15.215892
+Website: https://myfriendexperience.com/my_friend_umberto/
+Email: 
+
+7170. Residence Mareblu
+ID: 2505178a-a53f-4a4d-96b2-c9bd19eb9bbf
+Slug: residence-mareblu-barcellona-pozzo-di-gotto
+Nome: Residence Mareblu
+Comune / Provincia: Barcellona Pozzo di Gotto
+Indirizzo: Stretto I Bartolella, 38, 98051 Barcellona Pozzo di Gotto ME
+Coordinate: Lat 38.152895, Lng 15.2254
+Website: —
+Email: 
+
+7171. Seme d'Arancia ::: Bed & Breakfast
+ID: febf5eaf-56ce-4448-b3bf-f3f09757835d
+Slug: seme-d-arancia-bed-breakfast-barcellona-pozzo-di-gotto
+Nome: Seme d'Arancia ::: Bed & Breakfast
+Comune / Provincia: Barcellona Pozzo di Gotto
+Indirizzo: Via Operai, 50, 98051 Barcellona Pozzo di Gotto ME
+Coordinate: Lat 38.146013, Lng 15.212963
+Website: https://hotelsit.cyou/seme-arancia-x2jf33
+Email: 
+
+7172. Unico Hotel
+ID: 2376b3e3-a59d-478e-94e4-5311b7696a21
+Slug: unico-hotel-barcellona-pozzo-di-gotto
+Nome: Unico Hotel
+Comune / Provincia: Barcellona Pozzo di Gotto
+Indirizzo: Via Operai, 193, 98051 Barcellona Pozzo di Gotto ME
+Coordinate: Lat 38.147613, Lng 15.216574
+Website: https://www.unicohotel191.com/
+Email: 
+
+7173. Villa Manno
+ID: 22179382-f03a-4818-bc07-c24df3b93dcb
+Slug: villa-manno-barcellona-pozzo-di-gotto
+Nome: Villa Manno
+Comune / Provincia: Barcellona Pozzo di Gotto
+Indirizzo: Via Ragusa, 31/2, 98051 Barcellona Pozzo di Gotto ME
+Coordinate: Lat 38.159575, Lng 15.232327
+Website: http://www.villamanno.it/
+Email: 
+
+7174. Andante Drassanes
+ID: ef509fdb-6b35-4ee0-895f-ad1103f54a34
+Slug: andante-drassanes-barcelona
+Nome: Andante Drassanes
+Comune / Provincia: Barcelona
+Indirizzo: Av. de les Drassanes, 23, Ciutat Vella, 08001 Barcelona
+Coordinate: Lat 41.376463, Lng 2.172613
+Website: http://www.andantehotel.com/
+Email: 
+
+7175. Dorma Plaza Catalunya
+ID: ddce8529-d077-430b-a372-e2bc5474b6d3
+Slug: dorma-plaza-catalunya-barcelona
+Nome: Dorma Plaza Catalunya
+Comune / Provincia: Barcelona
+Indirizzo: Ronda de la Univ., 18, Eixample, 08007 Barcelona
+Coordinate: Lat 41.38677, Lng 2.167515
+Website: https://www.eurostarshotels.com/dorma-plaza-catalunya.html?referer_code=lb0gg00yx&utm_source=google&utm_medium=business&utm_campaign=lb0gg00yx
+Email: 

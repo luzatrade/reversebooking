@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+7071. Relais Pqlin
+ID: 9edea9f6-78de-4021-936b-ab74f185c9c7
+Slug: relais-pqlin-barbaresco
+Nome: Relais Pqlin
+Comune / Provincia: Barbaresco
+Indirizzo: Str. Vietta, 2, 12050 Castagnito CN
+Coordinate: Lat 44.754693, Lng 8.036249
+Website: http://www.relaispqlin.it/
+Email: 
+
+7072. Ristorante Con Camere Cortiletto D'Alba
+ID: eca4a32f-78b4-4012-bcd8-f9ce35d5a564
+Slug: ristorante-con-camere-cortiletto-d-alba-barbaresco
+Nome: Ristorante Con Camere Cortiletto D'Alba
+Comune / Provincia: Barbaresco
+Indirizzo: Corso Michele Coppino, 27, 12051 Alba CN
+Coordinate: Lat 44.697481, Lng 8.037524
+Website: http://www.cortilettodalba.com/
+Email: 
+
+7073. Vin dell'Olmo
+ID: a05f9a98-1038-4160-ae4b-00396dd72729
+Slug: vin-dell-olmo-barbaresco
+Nome: Vin dell'Olmo
+Comune / Provincia: Barbaresco
+Indirizzo: Via Olmo, 30, 14054 Olmo AT
+Coordinate: Lat 44.757977, Lng 8.128527
+Website: https://www.vindellolmo.it/
+Email: 
+
+7074. Agriturismo Sangallo
+ID: f16905b4-80ff-48d1-9f46-0e9c82246884
+Slug: agriturismo-sangallo-barbariga
+Nome: Agriturismo Sangallo
+Comune / Provincia: Barbariga
+Indirizzo: Via Cogozzo di Sotto, 12, 25081 Bedizzole BS
+Coordinate: Lat 45.509547, Lng 10.43528
+Website: http://www.sangalloagriturismo.it/
+Email: 
+
+7075. B&B Desenzano Bellavista Exclusive
+ID: b6875d49-d60b-417d-aabe-8f613605e3ce
+Slug: b-b-desenzano-bellavista-exclusive-barbariga
+Nome: B&B Desenzano Bellavista Exclusive
+Comune / Provincia: Barbariga
+Indirizzo: Via S. Benedetto, 9, 25015 Desenzano del Garda BS
+Coordinate: Lat 45.474306, Lng 10.534486
+Website: http://www.bellavistadesenzano.com/
+Email: 
+
+7076. B&B Dolce Risveglio
+ID: 9f782c75-98ef-42b6-91a2-b35b79fd72ac
+Slug: b-b-dolce-risveglio-barbariga
+Nome: B&B Dolce Risveglio
+Comune / Provincia: Barbariga
+Indirizzo: Via G. la Pira, 11, 25080 Raffa BS
+Coordinate: Lat 45.572435, Lng 10.526226
+Website: http://www.bebdolcerisveglio.com/
+Email: 
+
+7077. B&B Il Glicine
+ID: d5b6b360-c3c6-4eb6-be06-530b1b78e9aa
+Slug: b-b-il-glicine-barbariga
+Nome: B&B Il Glicine
+Comune / Provincia: Barbariga
+Indirizzo: Via Ersone, 3, 25081 Bedizzole BS
+Coordinate: Lat 45.511097, Lng 10.431224
+Website: https://www.ilglicine.it/
+Email: 
+
+7078. B&B La Casarella
+ID: 577c81dc-2aa3-4add-bb77-4bb00063b10a
+Slug: b-b-la-casarella-barbariga
+Nome: B&B La Casarella
+Comune / Provincia: Barbariga
+Indirizzo: Via Brescia, 32, 25080 Soiano BS
+Coordinate: Lat 45.526226, Lng 10.500187
+Website: —
+Email: 
+
+7079. Barbarino Casa Appartamento Vacanze
+ID: 29e4b818-3984-494b-8178-9e29f5ee213b
+Slug: barbarino-casa-appartamento-vacanze-barbariga
+Nome: Barbarino Casa Appartamento Vacanze
+Comune / Provincia: Barbariga
+Indirizzo: Via S. Rocchino, 151, 25123 Brescia BS
+Coordinate: Lat 45.553382, Lng 10.230639
+Website: https://sites.google.com/view/barbarino/home?authuser=2
+Email: 
+
+7080. Corte al Lago Bed & Breakfast
+ID: fa484c27-472d-4e5c-8a0b-8e2f9482a59b
+Slug: corte-al-lago-bed-breakfast-barbariga
+Nome: Corte al Lago Bed & Breakfast
+Comune / Provincia: Barbariga
+Indirizzo: Via del Porto, 4, 25080 Moniga del Garda BS
+Coordinate: Lat 45.527236, Lng 10.536413
+Website: https://www.corteallago.it/
+Email: 
+
+7081. HC HOTEL MANERBIO LOFT
+ID: c8e0bbb0-f858-4653-bed6-a15cdd462ad8
+Slug: hc-hotel-manerbio-loft-barbariga
+Nome: HC HOTEL MANERBIO LOFT
+Comune / Provincia: Barbariga
+Indirizzo: Via S. Martino del Carso, 45, 25025 Manerbio BS
+Coordinate: Lat 45.361463, Lng 10.14959
+Website: https://www.hchotels.it/
+Email: 
+
+7082. Hotel Noce
+ID: 370a0fc5-0de9-4e53-9348-d6cc286425ab
+Slug: hotel-noce-barbariga
+Nome: Hotel Noce
+Comune / Provincia: Barbariga
+Indirizzo: Via dei Gelsi, 5, 25125 Brescia BS
+Coordinate: Lat 45.517886, Lng 10.178485
+Website: http://www.hotelnoce.com/
+Email: 
+
+7083. LA HOME
+ID: 3855a2ac-93b5-4d67-84d4-8296ee3bb451
+Slug: la-home-barbariga
+Nome: LA HOME
+Comune / Provincia: Barbariga
+Indirizzo: Via Dante Alighieri, 43, 25080 Moniga del Garda BS
+Coordinate: Lat 45.526736, Lng 10.535755
+Website: http://lahome.it/
+Email: 
+
+7084. Residence Barbara
+ID: 626d900e-4449-465c-849b-3f1d38028136
+Slug: residence-barbara-barbariga
+Nome: Residence Barbara
+Comune / Provincia: Barbariga
+Indirizzo: Via dei Riali, 14, 25080 Moniga del Garda BS
+Coordinate: Lat 45.531309, Lng 10.546632
+Website: http://www.residence-barbara.it/
+Email: 
+
+7085. Villa Valeria
+ID: c7ebec4c-f2ab-4437-802a-f724a6dc706c
+Slug: villa-valeria-barbariga
+Nome: Villa Valeria
+Comune / Provincia: Barbariga
+Indirizzo: Via Massimo d'Azeglio, 16, 25128 Brescia BS
+Coordinate: Lat 45.552213, Lng 10.218867
+Website: http://www.villav.it/
+Email: 
+
+7086. Due Lanterne
+ID: 2f030bea-1e57-4814-b0d8-af22f77e522c
+Slug: due-lanterne-barbata
+Nome: Due Lanterne
+Comune / Provincia: Barbata
+Indirizzo: Viale della Vittoria, 13, 24054 Calcio BG
+Coordinate: Lat 45.503128, Lng 9.843301
+Website: http://www.duelanterne.it/
+Email: 
+
+7087. Hotel La Rocca Di Pisoni & C. (S.N.C.)
+ID: f7a7cbab-b75f-418c-a484-33c533f35d95
+Slug: hotel-la-rocca-di-pisoni-c-s-n-c-barbata
+Nome: Hotel La Rocca Di Pisoni & C. (S.N.C.)
+Comune / Provincia: Barbata
+Indirizzo: Via del Commercio, 24, 24058 Romano di Lombardia BG
+Coordinate: Lat 45.521674, Lng 9.742664
+Website: http://www.hotellaroccaromano.it/
+Email: 
+
+7088. Hotel Regina 3.0
+ID: 9abd8a89-c1be-449c-a2db-3cb7787e7586
+Slug: hotel-regina-3-0-barbata
+Nome: Hotel Regina 3.0
+Comune / Provincia: Barbata
+Indirizzo: Via Provinciale, 35, 24058 Fara Olivana con Sola BG
+Coordinate: Lat 45.482466, Lng 9.72088
+Website: —
+Email: 
+
+7089. Hotel Ristorante Arpini
+ID: 77657676-5b99-4ec1-ac99-048b9cc8ecd3
+Slug: hotel-ristorante-arpini-barbata
+Nome: Hotel Ristorante Arpini
+Comune / Provincia: Barbata
+Indirizzo: Via Roma, 48, 26010 Casale Cremasco CR
+Coordinate: Lat 45.432552, Lng 9.713521
+Website: https://hotelarpini.it/
+Email: 
+
+7090. Hotel Ristorante Pizzeria Ponte Cherio
+ID: 11b14f4b-185d-49f1-b821-568f9bb0b4fc
+Slug: hotel-ristorante-pizzeria-ponte-cherio-barbata
+Nome: Hotel Ristorante Pizzeria Ponte Cherio
+Comune / Provincia: Barbata
+Indirizzo: Viale Papa Giovanni XXIII, 183, 24050 Palosco BG
+Coordinate: Lat 45.597443, Lng 9.83084
+Website: https://www.pontecherio.com/
+Email: 
+
+7091. Agriturismo Corzano in Toscana
+ID: 99ee32fd-8774-40f4-8066-edfaaee40bb8
+Slug: agriturismo-corzano-in-toscana-barberino-di-mugello
+Nome: Agriturismo Corzano in Toscana
+Comune / Provincia: Barberino di Mugello
+Indirizzo: Via Bolognese, 26C, 50031 Barberino di Mugello FI
+Coordinate: Lat 44.020725, Lng 11.243579
+Website: http://www.agriturismocorzano.com/farmhouse-corzano/
+Email: 
+
+7092. Agriturismo Il Castelluccio Country Resort - Restaurant & SPA
+ID: 718361d2-8588-4c58-b001-26d45ba54ade
+Slug: agriturismo-il-castelluccio-country-resort-resta-barberino-di-mugello
+Nome: Agriturismo Il Castelluccio Country Resort - Restaurant & SPA
+Comune / Provincia: Barberino di Mugello
+Indirizzo: Via Ariano, 19, 50031 Barberino di Mugello FI
+Coordinate: Lat 43.998223, Lng 11.205764
+Website: http://www.ilcastelluccio.it/
+Email: 
+
+7093. Agriturismo La Chiusuraccia
+ID: e5ec922d-3e39-4d2e-9a8b-1282ccf03ed0
+Slug: agriturismo-la-chiusuraccia-barberino-di-mugello
+Nome: Agriturismo La Chiusuraccia
+Comune / Provincia: Barberino di Mugello
+Indirizzo: Via Croci, 3, 50031 Galliano FI
+Coordinate: Lat 44.005377, Lng 11.278048
+Website: http://www.lachiusuraccia.it/
+Email: 
+
+7094. Agriturismo Poggio agli Ulivi
+ID: 3bb62629-ddcd-4faf-924c-ab5239180e07
+Slug: agriturismo-poggio-agli-ulivi-barberino-di-mugello
+Nome: Agriturismo Poggio agli Ulivi
+Comune / Provincia: Barberino di Mugello
+Indirizzo: Via Camoggiano, 2, 50031 Barberino di Mugello FI
+Coordinate: Lat 43.994614, Lng 11.217902
+Website: http://www.poggioagliulivi.it/
+Email: 
+
+7095. Albergo Mugello - Hotel Barberino
+ID: 9c164270-84bc-4870-a7ef-769e4b37e7eb
+Slug: albergo-mugello-hotel-barberino-barberino-di-mugello
+Nome: Albergo Mugello - Hotel Barberino
+Comune / Provincia: Barberino di Mugello
+Indirizzo: Via del Lago, 17, 50031 Barberino di Mugello FI
+Coordinate: Lat 43.981317, Lng 11.2163
+Website: https://www.hotelmugello.it/
+Email: 
+
+7096. B&B Colle Vignoni
+ID: 807338cc-d5f2-4b56-9c18-d31e4b1634dd
+Slug: b-b-colle-vignoni-barberino-di-mugello
+Nome: B&B Colle Vignoni
+Comune / Provincia: Barberino di Mugello
+Indirizzo: Via dei Vignoni, 50031 Barberino di Mugello FI
+Coordinate: Lat 43.997984, Lng 11.237717
+Website: —
+Email: 
+
+7097. Camping Village Mugello Verde
+ID: 30e280ec-47f9-4048-81e5-efed58dff5c8
+Slug: camping-village-mugello-verde-barberino-di-mugello
+Nome: Camping Village Mugello Verde
+Comune / Provincia: Barberino di Mugello
+Indirizzo: Via Massorondinaio, 39, 50038 Scarperia e San Piero FI
+Coordinate: Lat 43.961052, Lng 11.309925
+Website: https://www.campingmugelloverde.com/
+Email: 
+
+7098. Hotel il Cavallo
+ID: de43ed2a-74ef-44fe-a134-f89fa4c5b9d7
+Slug: hotel-il-cavallo-barberino-di-mugello
+Nome: Hotel il Cavallo
+Comune / Provincia: Barberino di Mugello
+Indirizzo: Viale della Repubblica, 7, 50031 Barberino di Mugello FI
+Coordinate: Lat 44.001236, Lng 11.23832
+Website: http://www.hotelilcavallo.it/
+Email: 
+
+7099. Il Casale di Santamettole
+ID: aa76af40-53a4-4a92-bda8-864bfbe91696
+Slug: il-casale-di-santamettole-barberino-di-mugello
+Nome: Il Casale di Santamettole
+Comune / Provincia: Barberino di Mugello
+Indirizzo: Via di Castello, 9, 50031 Barberino di Mugello FI
+Coordinate: Lat 44.009051, Lng 11.249389
+Website: https://www.ilcasaledisantamettole.it/
+Email: 
+
+7100. Il Marrondindo Bed & Breakfast
+ID: 87ea1ee6-d5e9-4d88-8462-3821f8243e1e
+Slug: il-marrondindo-bed-breakfast-barberino-di-mugello
+Nome: Il Marrondindo Bed & Breakfast
+Comune / Provincia: Barberino di Mugello
+Indirizzo: Via Sant'Agata, 35b, 50031 Galliano FI
+Coordinate: Lat 44.018401, Lng 11.297001
+Website: —
+Email: 
+
+7101. Il Paiolo
+ID: e3efa68d-c13c-4cd7-962e-c027111f5c01
+Slug: il-paiolo-barberino-di-mugello
+Nome: Il Paiolo
+Comune / Provincia: Barberino di Mugello
+Indirizzo: Via Cornocchio, 1, 50031 Barberino di Mugello FI
+Coordinate: Lat 43.976943, Lng 11.223222
+Website: http://www.ilpaioloristorantebedandbreakfast.it/
+Email: 
+
+7102. Il Vignolino Home Restaurant - Bed & Breakfast
+ID: a0dece9d-3188-4eb4-91a8-61e89e39466d
+Slug: il-vignolino-home-restaurant-bed-breakfast-barberino-di-mugello
+Nome: Il Vignolino Home Restaurant - Bed & Breakfast
+Comune / Provincia: Barberino di Mugello
+Indirizzo: Via di Castello, 13, 50031 Barberino di Mugello FI
+Coordinate: Lat 44.011503, Lng 11.247403
+Website: http://www.vignolinobedandbreakfast.com/
+Email: 
+
+7103. Inn Hotel
+ID: e0d9bd7f-aa7a-4044-a773-2b815571cdda
+Slug: inn-hotel-barberino-di-mugello
+Nome: Inn Hotel
+Comune / Provincia: Barberino di Mugello
+Indirizzo: Via Enrico Fermi, 4, 50031 Barberino di Mugello FI
+Coordinate: Lat 43.981257, Lng 11.219746
+Website: http://www.innhotel.it/
+Email: 
+
+7104. La Valle de Medici
+ID: f22eb62e-3d5e-4b6d-a0d3-9b7efa737eac
+Slug: la-valle-de-medici-barberino-di-mugello
+Nome: La Valle de Medici
+Comune / Provincia: Barberino di Mugello
+Indirizzo: Via S. Gavino, 57/A, 50031 Barberino di Mugello FI
+Coordinate: Lat 44.038612, Lng 11.25208
+Website: http://lavalledemedici.it/
+Email: 
+
+7105. Meridiana Country Hotel
+ID: 66e4e369-2161-4981-94ea-f32397b383dc
+Slug: meridiana-country-hotel-barberino-di-mugello
+Nome: Meridiana Country Hotel
+Comune / Provincia: Barberino di Mugello
+Indirizzo: Via di Barberino, 253, 50041 Calenzano FI
+Coordinate: Lat 43.922004, Lng 11.205398
+Website: http://www.meridianacountryhotel.it/
+Email: 

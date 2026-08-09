@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+5356. B&B Locanda Stella
+ID: fdeeab5c-ebc7-4ed9-b781-2fc1c990ea46
+Slug: b-b-locanda-stella-asiago
+Nome: B&B Locanda Stella
+Comune / Provincia: Asiago
+Indirizzo: Piazza S. Giovanni, 10, 36010 Camporovere VI
+Coordinate: Lat 45.879948, Lng 11.486097
+Website: https://www.locandaallastella.com/camere.html
+Email: 
+
+5357. B&B Stella Alpina
+ID: e8686a1d-e217-4564-a7d0-c5aa8109ff9c
+Slug: b-b-stella-alpina-asiago
+Nome: B&B Stella Alpina
+Comune / Provincia: Asiago
+Indirizzo: Contrada Ciscati, 29-92, 36046 Lusiana Conco VI
+Coordinate: Lat 45.802374, Lng 11.631838
+Website: https://stella-alpina-fontanelle.it/
+Email: 
+
+5358. Begale - Rifugio Urbano - Appartamenti
+ID: 6a2f4070-698b-4b1b-b715-ff70e7f9f5a2
+Slug: begale-rifugio-urbano-appartamenti-asiago
+Nome: Begale - Rifugio Urbano - Appartamenti
+Comune / Provincia: Asiago
+Indirizzo: Via Albaredo, 26, 36010 Rotzo VI
+Coordinate: Lat 45.866664, Lng 11.412961
+Website: https://www.begale.it/
+Email: 
+
+5359. Casa Ekharle - Guesthouse
+ID: 6459226d-19f7-4e7a-897a-bf6b32b8adf6
+Slug: casa-ekharle-guesthouse-asiago
+Nome: Casa Ekharle - Guesthouse
+Comune / Provincia: Asiago
+Indirizzo: Via Albaredo, 122, 36010 Rotzo VI
+Coordinate: Lat 45.866609, Lng 11.417553
+Website: —
+Email: 
+
+5360. Hotel Croce Bianca
+ID: 6744773b-d9d7-40a9-9f2d-e81386cdf0fc
+Slug: hotel-croce-bianca-asiago
+Nome: Hotel Croce Bianca
+Comune / Provincia: Asiago
+Indirizzo: Corso IV Novembre, 30, 36012 Asiago VI
+Coordinate: Lat 45.874634, Lng 11.509264
+Website: http://www.hotelcrocebianca.it/
+Email: 
+
+5361. Hotel Europa Residence
+ID: 0af62b4a-60b5-4dd5-a70e-ad57e31ddb6a
+Slug: hotel-europa-residence-asiago
+Nome: Hotel Europa Residence
+Comune / Provincia: Asiago
+Indirizzo: Corso IV Novembre, 65, 36012 Asiago VI
+Coordinate: Lat 45.87365, Lng 11.50992
+Website: https://www.hoteleuroparesidence.it/
+Email: 
+
+5362. Hotel Milano
+ID: 931276d6-e046-4d31-a715-91d742b11e41
+Slug: hotel-milano-asiago
+Nome: Hotel Milano
+Comune / Provincia: Asiago
+Indirizzo: Via Brigata Liguria, 15, 36012 Asiago VI
+Coordinate: Lat 45.87722, Lng 11.509378
+Website: http://www.albergomilano.com/
+Email: 
+
+5363. Hotel Paradiso
+ID: 812edb87-719d-47ed-9ad7-35bca988ec97
+Slug: hotel-paradiso-asiago
+Nome: Hotel Paradiso
+Comune / Provincia: Asiago
+Indirizzo: Via Monte Val Bella, 33, 36012 Asiago VI
+Coordinate: Lat 45.874751, Lng 11.510498
+Website: https://www.hotelparadisoasiago.it/
+Email: 
+
+5364. Hotel Ristorante Alpi - Foza
+ID: 21517026-c08a-4a1c-af8d-2c9ac4ed5912
+Slug: hotel-ristorante-alpi-foza-asiago
+Nome: Hotel Ristorante Alpi - Foza
+Comune / Provincia: Asiago
+Indirizzo: Via Roma, 14, 36010 Foza VI
+Coordinate: Lat 45.896969, Lng 11.630976
+Website: https://hotelalpifoza.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=10091502156956925336
+Email: 
+
+5365. La Locanda
+ID: c7d53f42-df3b-4d2a-9c59-c81e3ab6f010
+Slug: la-locanda-asiago
+Nome: La Locanda
+Comune / Provincia: Asiago
+Indirizzo: Via Monte Val Bella, 31, 36012 Asiago VI
+Coordinate: Lat 45.874818, Lng 11.510274
+Website: https://www.lalocandasiago.com/
+Email: 
+
+5366. Villa Bonomo Charme Hotel
+ID: 4f40cfa2-e549-4f0d-a596-c985a44873d8
+Slug: villa-bonomo-charme-hotel-asiago
+Nome: Villa Bonomo Charme Hotel
+Comune / Provincia: Asiago
+Indirizzo: Via Pennar, 322, 36012 Asiago VI
+Coordinate: Lat 45.859545, Lng 11.543405
+Website: http://www.hotelvillabonomo.it/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness
+Email: 
+
+5367. Wellness & Relax Hotel Erica
+ID: a033b39d-29af-4261-b8e7-33cc9e734f54
+Slug: wellness-relax-hotel-erica-asiago
+Nome: Wellness & Relax Hotel Erica
+Comune / Provincia: Asiago
+Indirizzo: Viale G. Garibaldi, 55, 36012 Asiago VI
+Coordinate: Lat 45.872183, Lng 11.509348
+Website: http://www.relaxhotelasiago.it/
+Email: 
+
+5368. Agriturismo Campanella
+ID: 1524b41c-a574-4c5b-a174-9894a33060b2
+Slug: agriturismo-campanella-asigliano-veneto
+Nome: Agriturismo Campanella
+Comune / Provincia: Asigliano Veneto
+Indirizzo: Via Campanella, 15, 36040 Sossano VI
+Coordinate: Lat 45.341797, Lng 11.497837
+Website: —
+Email: 
+
+5369. B&B al Doremi
+ID: f8b556a3-e8fe-44d6-8b1b-943e8ca7f185
+Slug: b-b-al-doremi-asigliano-veneto
+Nome: B&B al Doremi
+Comune / Provincia: Asigliano Veneto
+Indirizzo: Via Brigata Cadore, 53, 36020 Castegnero VI
+Coordinate: Lat 45.43987, Lng 11.58406
+Website: http://www.bbaldoremi.it/
+Email: 
+
+5370. CASA STEFY
+ID: 383d8025-0cb7-4035-80e8-e5576a388e25
+Slug: casa-stefy-asigliano-veneto
+Nome: CASA STEFY
+Comune / Provincia: Asigliano Veneto
+Indirizzo: Via Alberi, 34, 35044 Montagnana PD
+Coordinate: Lat 45.235111, Lng 11.460668
+Website: http://www.casastefybb.com/
+Email: 
+
+5371. Corte delle Giuggiole
+ID: 85c23b5c-5e37-4772-a2f3-3a26a8c37340
+Slug: corte-delle-giuggiole-asigliano-veneto
+Nome: Corte delle Giuggiole
+Comune / Provincia: Asigliano Veneto
+Indirizzo: Via Casino, 2/a, 37044 Cologna Veneta VR
+Coordinate: Lat 45.316508, Lng 11.411122
+Website: https://www.cortedellegiuggiole.com/
+Email: 
+
+5372. LA VILLA
+ID: 96d55400-151a-4d82-9670-f9434c1ba56d
+Slug: la-villa-asigliano-veneto
+Nome: LA VILLA
+Comune / Provincia: Asigliano Veneto
+Indirizzo: Via Alberi, 45, 35044 Montagnana PD
+Coordinate: Lat 45.234876, Lng 11.458748
+Website: http://www.affittacamerelavilla.com/
+Email: 
+
+5373. Quari Hotel Restaurant & Pizza
+ID: 391e60c3-4877-47a4-815a-050556b1db7a
+Slug: quari-hotel-restaurant-pizza-asigliano-veneto
+Nome: Quari Hotel Restaurant & Pizza
+Comune / Provincia: Asigliano Veneto
+Indirizzo: Via Quari Destra, 3, 37044 Quari Destra VR
+Coordinate: Lat 45.298829, Lng 11.396932
+Website: http://www.albergoquari.it/
+Email: 
+
+5374. B&B Gaietta
+ID: ab6d134f-766b-416e-ae54-c0d9675914ab
+Slug: b-b-gaietta-asigliano-vercellese
+Nome: B&B Gaietta
+Comune / Provincia: Asigliano Vercellese
+Indirizzo: Via Boschetti, 3, 15040 Frassineto Po AL
+Coordinate: Lat 45.13395, Lng 8.52799
+Website: https://francescarecommends.eu/gaietta-italy
+Email: 
+
+5375. B&B Sant'Andrea
+ID: 0cdd1ad6-36cf-4740-a7af-edf00dd1e2c6
+Slug: b-b-sant-andrea-asigliano-vercellese
+Nome: B&B Sant'Andrea
+Comune / Provincia: Asigliano Vercellese
+Indirizzo: Via Galileo Ferraris, 108, 13100 Vercelli VC
+Coordinate: Lat 45.328021, Lng 8.419744
+Website: —
+Email: 
+
+5376. Blue Ribbon Hotel, Ristorante e Pizzeria
+ID: 0270be02-7276-4b3e-9015-245c10d112bd
+Slug: blue-ribbon-hotel-ristorante-e-pizzeria-asigliano-vercellese
+Nome: Blue Ribbon Hotel, Ristorante e Pizzeria
+Comune / Provincia: Asigliano Vercellese
+Indirizzo: Corso Novara, 67, 13100 Vercelli VC
+Coordinate: Lat 45.336009, Lng 8.450036
+Website: https://blueribbonhotel.it/?utm_source=gbp&utm_medium=organic
+Email: 
+
+5377. Cerruti Hotel
+ID: 458d5b40-4d44-4962-97ec-4c777c7db53d
+Slug: cerruti-hotel-asigliano-vercellese
+Nome: Cerruti Hotel
+Comune / Provincia: Asigliano Vercellese
+Indirizzo: Corso Novara, 71, 13100 Vercelli VC
+Coordinate: Lat 45.336403, Lng 8.450113
+Website: http://www.cerrutihotel.it/
+Email: 
+
+5378. Hotel Garibaldi Vercelli
+ID: fcebea5e-024a-46a9-bfa5-8a16b1ee0fe9
+Slug: hotel-garibaldi-vercelli-asigliano-vercellese
+Nome: Hotel Garibaldi Vercelli
+Comune / Provincia: Asigliano Vercellese
+Indirizzo: Via Thaon de Revel, 87, 13100 Vercelli VC
+Coordinate: Lat 45.303759, Lng 8.446041
+Website: http://www.hotelristorantegaribaldi.it/
+Email: 
+
+5379. Hotel Il Convento
+ID: 83783dcd-003a-4221-9f04-b635c1d635c7
+Slug: hotel-il-convento-asigliano-vercellese
+Nome: Hotel Il Convento
+Comune / Provincia: Asigliano Vercellese
+Indirizzo: Via Hermada, 3/A, 13039 Trino VC
+Coordinate: Lat 45.197134, Lng 8.292148
+Website: https://www.ilconventoditrino.com/
+Email: 
+
+5380. Hotel Matteotti Vercelli
+ID: 13d9b076-befc-4331-83c5-d3b73e21ff83
+Slug: hotel-matteotti-vercelli-asigliano-vercellese
+Nome: Hotel Matteotti Vercelli
+Comune / Provincia: Asigliano Vercellese
+Indirizzo: Corso Giacomo Matteotti, 35, 13100 Vercelli VC
+Coordinate: Lat 45.325556, Lng 8.435278
+Website: https://www.hotelmatteotti.com/
+Email: 
+
+5381. La Mondina
+ID: 6b14c48c-ac95-4765-b102-e3e28f852198
+Slug: la-mondina-asigliano-vercellese
+Nome: La Mondina
+Comune / Provincia: Asigliano Vercellese
+Indirizzo: Via Cerretta, 13040 Palazzolo Vercellese VC
+Coordinate: Lat 45.188072, Lng 8.237772
+Website: https://www.sportingvillagemondina.it/
+Email: 
+
+5382. Tenuta del Vecchio Mulino
+ID: 8dff94c6-eee9-43e5-9d26-01fba4c0654f
+Slug: tenuta-del-vecchio-mulino-asigliano-vercellese
+Nome: Tenuta del Vecchio Mulino
+Comune / Provincia: Asigliano Vercellese
+Indirizzo: Via Roma, 119, 13010 Motta de' Conti VC
+Coordinate: Lat 45.195395, Lng 8.509932
+Website: https://www.tenutadelvecchiomulino.net/
+Email: 
+
+5383. Agriturismo Corte Fattori
+ID: 52c7992f-98db-468d-8670-7a99487964b6
+Slug: agriturismo-corte-fattori-asola
+Nome: Agriturismo Corte Fattori
+Comune / Provincia: Asola
+Indirizzo: Via Moscatello, 129, 46040 Castellaro Lagusello MN
+Coordinate: Lat 45.376288, Lng 10.636911
+Website: http://www.cortefattori.it/
+Email: 
+
+5384. Agriturismo Dondino
+ID: f655a836-2280-4ac5-84f3-f8e59c536748
+Slug: agriturismo-dondino-asola
+Nome: Agriturismo Dondino
+Comune / Provincia: Asola
+Indirizzo: Strada Cavallara, 4, 46040 Cavriana MN
+Coordinate: Lat 45.361727, Lng 10.636537
+Website: http://www.agriturismodondino.com/
+Email: 
+
+5385. Agriturismo le Fontanelle da Valente
+ID: b798b310-b219-4148-b11c-dc6961db5e75
+Slug: agriturismo-le-fontanelle-da-valente-asola
+Nome: Agriturismo le Fontanelle da Valente
+Comune / Provincia: Asola
+Indirizzo: Via Rampina di S. Giorgio, 20, 25018 Montichiari BS
+Coordinate: Lat 45.384839, Lng 10.395713
+Website: https://www.agrilefontanelle.it/
+Email: 
+
+5386. Agriturismo Scannaporco
+ID: 8fac018b-dc8c-4dbc-a9b6-993f220cc1a8
+Slug: agriturismo-scannaporco-asola
+Nome: Agriturismo Scannaporco
+Comune / Provincia: Asola
+Indirizzo: Via Cervo, 2c, 46040 Scannaporco MN
+Coordinate: Lat 45.364594, Lng 10.612542
+Website: http://agriturismoscannaporco.com/
+Email: 
+
+5387. B&B Al Tramonto
+ID: 7b9f5715-e6dc-4831-b758-48e4a2e303fb
+Slug: b-b-al-tramonto-asola
+Nome: B&B Al Tramonto
+Comune / Provincia: Asola
+Indirizzo: VIA NUOVA ITALIA, SP18, 22, 46040 Monzambano MN
+Coordinate: Lat 45.372829, Lng 10.641651
+Website: http://www.bbaltramonto.it/
+Email: 
+
+5388. B&B COCO
+ID: 548dc55b-bc88-482a-8ad3-250cbcef7692
+Slug: b-b-coco-asola
+Nome: B&B COCO
+Comune / Provincia: Asola
+Indirizzo: Via Giuseppe Garibaldi, 9, 25012 Calvisano BS
+Coordinate: Lat 45.349256, Lng 10.344327
+Website: https://bandbcoco.top/
+Email: 
+
+5389. B&B Conca Verde
+ID: d4e23535-5a2b-4b09-9a1d-5e893d2750fc
+Slug: b-b-conca-verde-asola
+Nome: B&B Conca Verde
+Comune / Provincia: Asola
+Indirizzo: Via Bagatino, 16, 46040 Cavriana MN
+Coordinate: Lat 45.370368, Lng 10.61394
+Website: http://www.bebconcaverde.com/
+Email: 
+
+5390. Casa Autunno
+ID: 50cc4c24-50a9-42af-8cb6-b771c4d80750
+Slug: casa-autunno-asola
+Nome: Casa Autunno
+Comune / Provincia: Asola
+Indirizzo: Strada Sale, 39, 46040 Monzambano MN
+Coordinate: Lat 45.383531, Lng 10.652104
+Website: https://casaautunno.com/
+Email: 

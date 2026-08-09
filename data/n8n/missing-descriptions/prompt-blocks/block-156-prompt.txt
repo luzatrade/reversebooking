@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+5426. Hotel Ristorante Sbranetta S.R.L.
+ID: 58d8fd97-e629-4cd3-86b0-72c2b35e624d
+Slug: hotel-ristorante-sbranetta-s-r-l-assago
+Nome: Hotel Ristorante Sbranetta S.R.L.
+Comune / Provincia: Assago
+Indirizzo: Via Mincio, 24/26, 20089 Rozzano MI
+Coordinate: Lat 45.396444, Lng 9.172018
+Website: http://www.hotelsbranetta.com/
+Email: 
+
+5427. Ristorante da Kico
+ID: 44fa8fd8-d949-4a63-ba5e-ed97ca69893c
+Slug: ristorante-da-kico-assago
+Nome: Ristorante da Kico
+Comune / Provincia: Assago
+Indirizzo: Via Cascina Bazzana, 4, 20057 Assago MI
+Coordinate: Lat 45.411023, Lng 9.143068
+Website: http://www.dakico.it/
+Email: 
+
+5428. Royal Garden Hotel
+ID: 44563c41-c0fc-47b4-bec5-78d486759120
+Slug: royal-garden-hotel-assago
+Nome: Royal Garden Hotel
+Comune / Provincia: Assago
+Indirizzo: CIN IT015011A1JYM3DXQ8, Via Giuseppe di Vittorio, 4, 20057 Assago MI
+Coordinate: Lat 45.402592, Lng 9.14027
+Website: https://www.rghotel.it/
+Email: 
+
+5429. Agriturismo Riu Sa Murta
+ID: b0eadd13-f066-49ef-a65d-7dd64b56ab3c
+Slug: agriturismo-riu-sa-murta-assemini
+Nome: Agriturismo Riu Sa Murta
+Comune / Provincia: Assemini
+Indirizzo: Località Riu Sa Murta, 09032 Assemini CA
+Coordinate: Lat 39.285902, Lng 9.044668
+Website: https://www.facebook.com/share/1Ad6Cp5nhs/?mibextid=wwXIfr
+Email: 
+
+5430. Antares Assemini
+ID: 5886c04c-58c2-4eff-a81a-ebacb743a3c2
+Slug: antares-assemini-assemini
+Nome: Antares Assemini
+Comune / Provincia: Assemini
+Indirizzo: Via Pio IX, 44, 09032 Assemini CA
+Coordinate: Lat 39.291428, Lng 9.01386
+Website: http://antares-assemini.com.es/
+Email: 
+
+5431. Appartamento Il Tulipano
+ID: d53ac8ed-56fd-4a09-a299-9b8d71fa36d7
+Slug: appartamento-il-tulipano-assemini
+Nome: Appartamento Il Tulipano
+Comune / Provincia: Assemini
+Indirizzo: Via Principe di Piemonte, 93, 09032 Assemini CA
+Coordinate: Lat 39.288708, Lng 9.001899
+Website: https://www.airbnb.it/rooms/44640012?s=4&unique_share_id=b1a53cd9-6bd4-48da-8330-3269a8439b2c&source_impression_id=p3_1598362002_lgfJtRo9s2gnmIW8
+Email: 
+
+5432. B&B Il Girasole
+ID: d9d80d88-aa58-46a2-9fb7-b30e92415e64
+Slug: b-b-il-girasole-assemini
+Nome: B&B Il Girasole
+Comune / Provincia: Assemini
+Indirizzo: Corso Africa, 35, 09032 Assemini CA
+Coordinate: Lat 39.298281, Lng 8.996849
+Website: http://bnbilgirasole.com.es/
+Email: 
+
+5433. B&B L' obiettivo
+ID: fbed2c68-f11e-4211-b57c-6c3559a03ff0
+Slug: b-b-l-obiettivo-assemini
+Nome: B&B L' obiettivo
+Comune / Provincia: Assemini
+Indirizzo: Via Cagliari, 172, 09032 Assemini CA
+Coordinate: Lat 39.28994, Lng 9.001089
+Website: —
+Email: 
+
+5434. B&B Maria Montis
+ID: f8fbd337-2853-44b5-bb8c-01c2640a6b41
+Slug: b-b-maria-montis-assemini
+Nome: B&B Maria Montis
+Comune / Provincia: Assemini
+Indirizzo: Via Kennedy, 18, 09032 Assemini CA
+Coordinate: Lat 39.290066, Lng 9.009015
+Website: http://bnbmariamontis.com.es/
+Email: 
+
+5435. B&B Martina - Assemini - vicino Aeroporto Cagliari
+ID: 5c2b7eea-c04d-417b-81dd-761b2f26a823
+Slug: b-b-martina-assemini-vicino-aeroporto-cagliari-assemini
+Nome: B&B Martina - Assemini - vicino Aeroporto Cagliari
+Comune / Provincia: Assemini
+Indirizzo: Via Oslo, 25, 09032 Assemini CA
+Coordinate: Lat 39.286487, Lng 9.014973
+Website: https://www.bebmartina.it/it
+Email: 
+
+5436. B&B Relaxing Spaces
+ID: 9b9ea35d-5fa6-4579-8d3a-69967b2f2a8b
+Slug: b-b-relaxing-spaces-assemini
+Nome: B&B Relaxing Spaces
+Comune / Provincia: Assemini
+Indirizzo: Via S. Cristoforo, 78, 09032 Assemini CA
+Coordinate: Lat 39.287035, Lng 9.003006
+Website: https://linko.page/sbir0ffcc0wm
+Email: 
+
+5437. Bed & Breakfast Il Vecchio Ginepro
+ID: 8e3667f5-de87-4676-9b12-a60a717d6eae
+Slug: bed-breakfast-il-vecchio-ginepro-assemini
+Nome: Bed & Breakfast Il Vecchio Ginepro
+Comune / Provincia: Assemini
+Indirizzo: Via Bologna, 78, 09012 Capoterra CA
+Coordinate: Lat 39.171519, Lng 8.967129
+Website: http://bnbilvecchiocapoterra.com.es/
+Email: 
+
+5438. Corte Boero Bed&Breakfast - Eventi
+ID: ea1a2ea5-efac-42c9-a2d2-e087553cafc4
+Slug: corte-boero-bed-breakfast-eventi-assemini
+Nome: Corte Boero Bed&Breakfast - Eventi
+Comune / Provincia: Assemini
+Indirizzo: SP 1 Località Santa Lucia Uta, 09010, 09068 Uta CA
+Coordinate: Lat 39.200331, Lng 8.936806
+Website: https://www.corteboero.com/
+Email: 
+
+5439. Hotel Grillo
+ID: 64740c37-ae15-40ce-9248-7134772b9cf2
+Slug: hotel-grillo-assemini
+Nome: Hotel Grillo
+Comune / Provincia: Assemini
+Indirizzo: Via Carmine, 132, 09032 Assemini CA
+Coordinate: Lat 39.283455, Lng 9.010633
+Website: http://www.hotelgrillo.net/
+Email: 
+
+5440. HOTEL ROSA
+ID: 9f04cfc5-8995-401c-82ec-acbfc265bf3e
+Slug: hotel-rosa-assemini
+Nome: HOTEL ROSA
+Comune / Provincia: Assemini
+Indirizzo: Via Venezia, 47, 09012 Capoterra CA
+Coordinate: Lat 39.177654, Lng 8.97211
+Website: http://www.rosahotel.com/
+Email: 
+
+5441. Il Roseto Affitti Brevi
+ID: 0df76f08-7ffb-43e4-9b14-f160d6139eb5
+Slug: il-roseto-affitti-brevi-assemini
+Nome: Il Roseto Affitti Brevi
+Comune / Provincia: Assemini
+Indirizzo: Via Campidano, 20, 09032 Assemini CA
+Coordinate: Lat 39.293272, Lng 9.001563
+Website: —
+Email: 
+
+5442. Mansio Airport Hotel & Residence
+ID: 85672ba3-93c6-43cb-bcab-814de822aab5
+Slug: mansio-airport-hotel-residence-assemini
+Nome: Mansio Airport Hotel & Residence
+Comune / Provincia: Assemini
+Indirizzo: Via Salvio Argiolas, 3, 09067 Elmas CA
+Coordinate: Lat 39.272857, Lng 9.049337
+Website: http://www.mansiohotel.com/
+Email: 
+
+5443. The Orange House
+ID: 7aed4e22-fd92-4ca6-be3a-350a1a3e78d5
+Slug: the-orange-house-assemini
+Nome: The Orange House
+Comune / Provincia: Assemini
+Indirizzo: Via Toscana, 3, 09032 Assemini CA
+Coordinate: Lat 39.288183, Lng 9.008234
+Website: —
+Email: 
+
+5444. Villa Mostallino Affittacamere
+ID: 9f726868-cb93-499a-a6d7-64fa54dedeb3
+Slug: villa-mostallino-affittacamere-assemini
+Nome: Villa Mostallino Affittacamere
+Comune / Provincia: Assemini
+Indirizzo: Via Principe di Piemonte, 6, 09032 Assemini CA
+Coordinate: Lat 39.289154, Lng 8.998353
+Website: http://www.villamostallino.com/
+Email: 
+
+5445. Agriturismo La Piaggia - Assisi
+ID: e816948e-024e-48da-82a5-74e0a4c6c150
+Slug: agriturismo-la-piaggia-assisi-assisi
+Nome: Agriturismo La Piaggia - Assisi
+Comune / Provincia: Assisi
+Indirizzo: Viale Giovanna di Savoia, 3, 06181 Assisi PG, Italia
+Coordinate: Lat 43.075833, Lng 12.601667
+Website: https://www.lapiaggia.it/
+Email: info@lapiaggia.it
+
+5446. Albergo Anna
+ID: 97f787f8-14e4-4737-b070-d694296a04e7
+Slug: albergo-anna-assisi
+Nome: Albergo Anna
+Comune / Provincia: Assisi
+Indirizzo: Via dei Priori, 48, 06123 Perugia PG, Italia
+Coordinate: Lat 43.112032, Lng 12.38658
+Website: https://www.hotelitaliaweb.com/albergo-anna/
+Email: 
+
+5447. Antico Borgo Assisi Bed and Breakfast
+ID: 40d8be73-3e58-4668-a97c-b481c3d1242b
+Slug: antico-borgo-assisi-bed-and-breakfast-assisi
+Nome: Antico Borgo Assisi Bed and Breakfast
+Comune / Provincia: Assisi
+Indirizzo: V. Petrata, 21, 06181 Assisi PG, Italia
+Coordinate: Lat 43.104974, Lng 12.628731
+Website: —
+Email: 
+
+5448. B&B Il Chiostro
+ID: 2af8f86b-fe5f-4b1f-a16d-0df394bc877f
+Slug: b-b-il-chiostro-assisi
+Nome: B&B Il Chiostro
+Comune / Provincia: Assisi
+Indirizzo: Via Borgo Aretino, 1, 06181 Assisi PG, Italia
+Coordinate: Lat 43.068451, Lng 12.617965
+Website: http://www.ilchiostroassisi.it/
+Email: info@ilchiostroassisi.it
+
+5449. B&B Il Rifugio
+ID: ae7353b9-3c5b-4c5b-b3a3-b83d60b992f0
+Slug: b-b-il-rifugio-assisi
+Nome: B&B Il Rifugio
+Comune / Provincia: Assisi
+Indirizzo: Via Mario Poletti, 34 (Loc.Ospedalicchio di, 06083 Bastia Umbra PG, Italia
+Coordinate: Lat 43.078636, Lng 12.512282
+Website: https://hotel-detail.eu/b-amp-b-il-rifugio-assisi-italy
+Email: 
+
+5450. B&B Lavanda e Rosmarino
+ID: 72a1e553-ac36-447b-b53b-69838c6bd5a7
+Slug: b-b-lavanda-e-rosmarino-assisi
+Nome: B&B Lavanda e Rosmarino
+Comune / Provincia: Assisi
+Indirizzo: Via di Mezzo, 8, 06181 Assisi PG, Italia
+Coordinate: Lat 43.06011, Lng 12.623497
+Website: https://www.lavandaerosmarinobb.it/
+Email: lavandaerosmarino@gmail.com
+
+5451. B&B New Day
+ID: d3a0d40d-e7cf-4cfb-9bbd-e9e81411fd57
+Slug: b-b-new-day-assisi
+Nome: B&B New Day
+Comune / Provincia: Assisi
+Indirizzo: Via S. Francesco, 18, 06181 Assisi PG, Italia
+Coordinate: Lat 43.073425, Lng 12.608443
+Website: http://www.bandbnewdayassisi.it/
+Email: 
+
+5452. B&B Raffiori
+ID: 1c1c7bdf-6eb1-436c-9414-733b61000e6c
+Slug: b-b-raffiori-assisi
+Nome: B&B Raffiori
+Comune / Provincia: Assisi
+Indirizzo: Via Protomartiri Francescani, 84, 06181 Assisi PG, Italia
+Coordinate: Lat 43.05264, Lng 12.590522
+Website: http://www.raffiori.com/
+Email: 
+
+5453. B&B Residenza La Corte Assisi
+ID: 3d591381-5504-48ab-9c87-8c9b733e6f3b
+Slug: b-b-residenza-la-corte-assisi-assisi
+Nome: B&B Residenza La Corte Assisi
+Comune / Provincia: Assisi
+Indirizzo: Via del Pozzo della Mensa, 27, 06181 Assisi PG, Italia
+Coordinate: Lat 43.070375, Lng 12.616993
+Website: http://www.residenzalacorteassisi.it/
+Email: 
+
+5454. Bed and Breakfast - La Via Francigena - Assisi
+ID: 276c3f54-7b1e-4d1f-a9f9-66f38b9c15c5
+Slug: bed-and-breakfast-la-via-francigena-assisi-assisi
+Nome: Bed and Breakfast - La Via Francigena - Assisi
+Comune / Provincia: Assisi
+Indirizzo: Via Romana, 82, 06181 Assisi PG, Italia
+Coordinate: Lat 43.022291, Lng 12.644167
+Website: http://www.laviafrancigena-assisi.it/
+Email: info@laviafrancigena-assisi.it
+
+5455. Bed And Breakfast Barbara Assisi
+ID: f7903197-4acd-422b-8646-466b33e3bb49
+Slug: bed-and-breakfast-barbara-assisi-assisi
+Nome: Bed And Breakfast Barbara Assisi
+Comune / Provincia: Assisi
+Indirizzo: Vocabolo Bevagna, 29, 06033 Cannara PG, Italia
+Coordinate: Lat 42.977779, Lng 12.569898
+Website: http://www.barbarabb.it/
+Email: 
+
+5456. Domus Mariae B&B Assisi
+ID: 16d2b80c-39b7-48c7-9f5d-aca710fa168e
+Slug: domus-mariae-b-b-assisi-assisi
+Nome: Domus Mariae B&B Assisi
+Comune / Provincia: Assisi
+Indirizzo: Viale Giovanni XXIII, 29, 06181 Assisi PG, Italia
+Coordinate: Lat 43.067452, Lng 12.624832
+Website: https://www.bebdomusmariaeassisi.it/
+Email: domusmariae.assisi@gmail.com
+
+5457. Hotel Lieto Soggiorno
+ID: 222acbe4-fba4-4205-a61b-904256800c8c
+Slug: hotel-lieto-soggiorno-assisi
+Nome: Hotel Lieto Soggiorno
+Comune / Provincia: Assisi
+Indirizzo: Via Arnaldo Fortini, 26, 06181 Assisi PG, Italia
+Coordinate: Lat 43.071553, Lng 12.613029
+Website: —
+Email: 
+
+5458. Hotel Pallotta Assisi
+ID: da9f1cf4-9925-407c-81c8-f0a62e1836c6
+Slug: hotel-pallotta-assisi-assisi
+Nome: Hotel Pallotta Assisi
+Comune / Provincia: Assisi
+Indirizzo: Via S. Rufino, 6, 06181 Assisi PG, Italia
+Coordinate: Lat 43.070885, Lng 12.616051
+Website: http://www.hotelpallotta.it/
+Email: pallotta@pallottaassisi.it
+
+5459. Hotel San Rufino
+ID: 63ac08c0-3a43-41ce-8b28-1edab1a7d756
+Slug: hotel-san-rufino-assisi
+Nome: Hotel San Rufino
+Comune / Provincia: Assisi
+Indirizzo: Via Porta Perlici, 7, 06181 Assisi PG, Italia
+Coordinate: Lat 43.071296, Lng 12.617513
+Website: http://www.hotelsanrufino.it/
+Email: info@hotelarocca.it
+
+5460. Il Fienile Di Assisi
+ID: a75b5603-9a2d-4fe9-95f0-8de67be83981
+Slug: il-fienile-di-assisi-assisi
+Nome: Il Fienile Di Assisi
+Comune / Provincia: Assisi
+Indirizzo: Via della Madonnina, 3., Castelnuovo di Assisi., 06181 Assisi PG, Italia
+Coordinate: Lat 43.035004, Lng 12.58963
+Website: http://www.ilfienilediassisi.com/
+Email: ilfienilediassisi@gmail.com

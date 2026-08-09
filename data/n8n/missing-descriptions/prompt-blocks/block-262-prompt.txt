@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+9136. Torrelama Room & Breakfast
+ID: e4e51e17-eafd-46c7-9ec2-0ddac4b0fa6f
+Slug: torrelama-room-breakfast-bisceglie
+Nome: Torrelama Room & Breakfast
+Comune / Provincia: Bisceglie
+Indirizzo: Str. Adriatica, 115, 76125 Trani BT
+Coordinate: Lat 41.252937, Lng 16.465199
+Website: http://www.torrelama.it/
+Email: 
+
+9137. Hotel Acquevive
+ID: ad77b857-de76-4ef2-ba0a-cdd375231537
+Slug: hotel-acquevive-bisegna
+Nome: Hotel Acquevive
+Comune / Provincia: Bisegna
+Indirizzo: Via Circumlacuale, 1, 67038 Scanno AQ
+Coordinate: Lat 41.915962, Lng 13.868459
+Website: —
+Email: 
+
+9138. Hotel gemma
+ID: e331b64d-24ad-4296-abf7-d59d7c6244af
+Slug: hotel-gemma-bisegna
+Nome: Hotel gemma
+Comune / Provincia: Bisegna
+Indirizzo: Via Giuseppe Garibaldi, 52, 67050 Bisegna AQ
+Coordinate: Lat 41.942902, Lng 13.759081
+Website: http://www.hotel-gemma.it/
+Email: 
+
+9139. Hotel Valle del Lupo
+ID: cddfd0f7-e86c-45e6-bf0d-9f8f8f6279ad
+Slug: hotel-valle-del-lupo-bisegna
+Nome: Hotel Valle del Lupo
+Comune / Provincia: Bisegna
+Indirizzo: Localita, Via Collacchi, 3, 67032 Pescasseroli AQ
+Coordinate: Lat 41.799919, Lng 13.780567
+Website: https://hotel-valle-del-lupo.italiacongusto.top/
+Email: 
+
+9140. Park Hotel
+ID: c4025848-53f8-4ced-875a-2a7ac303813d
+Slug: park-hotel-bisegna
+Nome: Park Hotel
+Comune / Provincia: Bisegna
+Indirizzo: Viale della Riviera, 6, 67030 Villalago AQ
+Coordinate: Lat 41.923977, Lng 13.866237
+Website: http://www.parkhotelscanno.it/
+Email: 
+
+9141. Trattoria Il Rifugio del Lupo - Scanno
+ID: 866922c2-8b3a-46bf-b291-5bd58af4c48c
+Slug: trattoria-il-rifugio-del-lupo-scanno-bisegna
+Nome: Trattoria Il Rifugio del Lupo - Scanno
+Comune / Provincia: Bisegna
+Indirizzo: SR479, 67038 Scanno AQ
+Coordinate: Lat 41.914604, Lng 13.878555
+Website: https://www.instagram.com/ilrifugiodelluposcanno
+Email: 
+
+9142. Panfilo Farmhouse
+ID: fcad5378-c9b6-49bb-ac1a-8769241fab9a
+Slug: panfilo-farmhouse-bisenti
+Nome: Panfilo Farmhouse
+Comune / Provincia: Bisenti
+Indirizzo: Via Astelina, 1, 64036 Cellino Attanasio TE
+Coordinate: Lat 42.574175, Lng 13.849719
+Website: https://www.panfilofarmhouse.com/
+Email: 
+
+9143. VILLA PENSIERI Bed & Brekfast
+ID: daf3f887-93c3-4ffa-9754-5a92f5980185
+Slug: villa-pensieri-bed-brekfast-bisenti
+Nome: VILLA PENSIERI Bed & Brekfast
+Comune / Provincia: Bisenti
+Indirizzo: strada, SP34b, 61, 64033 Bisenti TE
+Coordinate: Lat 42.536532, Lng 13.823331
+Website: —
+Email: 
+
+9144. Agriturismo Albachiara
+ID: ae15c711-d678-4130-b05f-9d22fc116a37
+Slug: agriturismo-albachiara-bisignano
+Nome: Agriturismo Albachiara
+Comune / Provincia: Bisignano
+Indirizzo: Contrada Arena, 87043 Bisignano CS
+Coordinate: Lat 39.499371, Lng 16.25697
+Website: https://www.facebook.com/agr.albachiara
+Email: 
+
+9145. Agriturismo Pingitore
+ID: 0d14f25a-23bb-4c27-9912-14d0933f1940
+Slug: agriturismo-pingitore-bisignano
+Nome: Agriturismo Pingitore
+Comune / Provincia: Bisignano
+Indirizzo: Contrada marzi, 3, 87040 Luzzi CS
+Coordinate: Lat 39.456309, Lng 16.286964
+Website: http://www.agriturismopingitore.com/
+Email: 
+
+9146. Best Western Premier Villa Fabiano Palace Hotel
+ID: 34e7b72c-1d1a-4c43-8fcb-6eac5fa09b1c
+Slug: best-western-premier-villa-fabiano-palace-hotel-bisignano
+Nome: Best Western Premier Villa Fabiano Palace Hotel
+Comune / Provincia: Bisignano
+Indirizzo: Via C. Colombo, 70, 87036 Quattromiglia CS
+Coordinate: Lat 39.36803, Lng 16.239399
+Website: https://www.villafabiano.it/
+Email: 
+
+9147. Foresteria di Serracavallo
+ID: 1597306d-ae4d-423e-97ed-b8787d225c74
+Slug: foresteria-di-serracavallo-bisignano
+Nome: Foresteria di Serracavallo
+Comune / Provincia: Bisignano
+Indirizzo: Contrada Serracavallo, 87043 Bisignano CS
+Coordinate: Lat 39.502685, Lng 16.309108
+Website: —
+Email: 
+
+9148. Gusto West
+ID: 6211ec77-d193-48ee-8780-cd5cd42b7e55
+Slug: gusto-west-bisignano
+Nome: Gusto West
+Comune / Provincia: Bisignano
+Indirizzo: Cittadella Mediocrati, Piazza C.A. Dalla Chiesa, 26, 87043 Bisignano CS
+Coordinate: Lat 39.503094, Lng 16.264507
+Website: https://www.gustowest.it/
+Email: 
+
+9149. kabbala club
+ID: b8f9bc39-90b4-47eb-a098-29e0cca5a1b0
+Slug: kabbala-club-bisignano
+Nome: kabbala club
+Comune / Provincia: Bisignano
+Indirizzo: Via, 87010 Campo di Fieno CS
+Coordinate: Lat 39.435577, Lng 16.175922
+Website: http://bb-kabbala-club.com.es/
+Email: 
+
+9150. la giara b&b
+ID: 294cfa39-919a-4811-9b78-fc7d993764c1
+Slug: la-giara-b-b-bisignano
+Nome: la giara b&b
+Comune / Provincia: Bisignano
+Indirizzo: Via Caminona, 70, 87069 San Demetrio Corone CS
+Coordinate: Lat 39.57122, Lng 16.357473
+Website: http://www.lagiarabb.it/la-struttura/
+Email: 
+
+9151. UNA HOTELS Tenuta Contessa Farm & SPA Cosenza
+ID: 277db819-c48a-4908-af78-03f2b07f829a
+Slug: una-hotels-tenuta-contessa-farm-spa-cosenza-bisignano
+Nome: UNA HOTELS Tenuta Contessa Farm & SPA Cosenza
+Comune / Provincia: Bisignano
+Indirizzo: Loc. Contessa Soprana, 87010 Montalto Uffugo CS
+Coordinate: Lat 39.44124, Lng 16.201667
+Website: https://www.tenutacontessa.com/
+Email: 
+
+9152. Villa "Santa Caterina"
+ID: a04e0bde-1e97-44fa-a63e-7e847de22eae
+Slug: villa-santa-caterina-bisignano
+Nome: Villa "Santa Caterina"
+Comune / Provincia: Bisignano
+Indirizzo: Via Cariglialto, 76, 87046 Montalto Uffugo CS
+Coordinate: Lat 39.418254, Lng 16.233074
+Website: http://www.villasantacaterina.net/
+Email: 
+
+9153. Villa Inkanto Resort & SPA
+ID: b81948ea-cc5b-4bc2-af7a-609617af5357
+Slug: villa-inkanto-resort-spa-bisignano
+Nome: Villa Inkanto Resort & SPA
+Comune / Provincia: Bisignano
+Indirizzo: G783+38, 87043 Bisignano CS
+Coordinate: Lat 39.51518, Lng 16.253309
+Website: —
+Email: 
+
+9154. Villa Piero
+ID: 738c9595-16bd-4048-939e-60e6096890b0
+Slug: villa-piero-bisignano
+Nome: Villa Piero
+Comune / Provincia: Bisignano
+Indirizzo: 87043 Bisignano CS
+Coordinate: Lat 39.5345, Lng 16.241156
+Website: https://villa-piero.italiavacanzeindimenticabili.top/
+Email: 
+
+9155. Abbadia Borgo Del Sole
+ID: 0bc6a53b-4973-4dd3-81f3-5dec658c0bf5
+Slug: abbadia-borgo-del-sole-bistagno
+Nome: Abbadia Borgo Del Sole
+Comune / Provincia: Bistagno
+Indirizzo: Strada Sant'Antonio 24 Località Abba, 12060 Marsaglia CN
+Coordinate: Lat 44.459699, Lng 8.004341
+Website: http://www.borgodelsole.it/
+Email: 
+
+9156. Agriturismo - Costa dei Platani
+ID: 566fc2f1-e138-42f5-aa90-f3edfdd81dd3
+Slug: agriturismo-costa-dei-platani-bistagno
+Nome: Agriturismo - Costa dei Platani
+Comune / Provincia: Bistagno
+Indirizzo: Strada Comunale della Maggiora, 89, 15011 Acqui Terme AL
+Coordinate: Lat 44.690419, Lng 8.485238
+Website: http://www.costadeiplatani.com/
+Email: 
+
+9157. Agriturismo San Desiderio
+ID: 777c9a9a-90aa-4eb2-9ec7-32f66dc00370
+Slug: agriturismo-san-desiderio-bistagno
+Nome: Agriturismo San Desiderio
+Comune / Provincia: Bistagno
+Indirizzo: Regione S. Desiderio, 40, 14058 Monastero Bormida AT
+Coordinate: Lat 44.639533, Lng 8.344283
+Website: https://www.san-desiderio.it/
+Email: 
+
+9158. AZIENDA AGRITURISTICA IL CAMPASSO
+ID: e4523898-860c-4d30-bf71-a7c11acdd278
+Slug: azienda-agrituristica-il-campasso-bistagno
+Nome: AZIENDA AGRITURISTICA IL CAMPASSO
+Comune / Provincia: Bistagno
+Indirizzo: Regione Carpeneta, 21, 15019 Strevi AL
+Coordinate: Lat 44.695564, Lng 8.514633
+Website: http://www.ilcampasso.jimbo.com/
+Email: 
+
+9159. B&B Al Sentiero
+ID: a0e2ea96-afa0-4df7-a33a-280dc04e52f2
+Slug: b-b-al-sentiero-bistagno
+Nome: B&B Al Sentiero
+Comune / Provincia: Bistagno
+Indirizzo: Regione Giovisio, 11, 15012 Bistagno AL
+Coordinate: Lat 44.68125, Lng 8.380729
+Website: https://www.alsentiero.net/
+Email: 
+
+9160. B&B Casa Fossello
+ID: 8ef34e7b-9399-4cf3-b565-dd5e820aa955
+Slug: b-b-casa-fossello-bistagno
+Nome: B&B Casa Fossello
+Comune / Provincia: Bistagno
+Indirizzo: Regione Fossello, 7, 14040 Montabone AT
+Coordinate: Lat 44.693907, Lng 8.404268
+Website: http://casafossello.it/
+Email: 
+
+9161. B&B Cascina Malinverni
+ID: c1681078-c95d-4395-93c2-34bd69968805
+Slug: b-b-cascina-malinverni-bistagno
+Nome: B&B Cascina Malinverni
+Comune / Provincia: Bistagno
+Indirizzo: Regione Marenco, 13, 14042 Rocchetta Palafea AT
+Coordinate: Lat 44.696045, Lng 8.347538
+Website: http://www.cascinamalinverni.com/
+Email: 
+
+9162. B&B Da Levi Piana del Sole
+ID: 722112d6-0116-412c-a6da-329878d03f17
+Slug: b-b-da-levi-piana-del-sole-bistagno
+Nome: B&B Da Levi Piana del Sole
+Comune / Provincia: Bistagno
+Indirizzo: Regione Presa, 71, 15010 Rivalta Bormida AL
+Coordinate: Lat 44.711943, Lng 8.579364
+Website: http://www.pianadelsole.eu/
+Email: 
+
+9163. Cascina Marcantonio
+ID: 6128cad1-3859-486d-b8d9-4b60f27da4ef
+Slug: cascina-marcantonio-bistagno
+Nome: Cascina Marcantonio
+Comune / Provincia: Bistagno
+Indirizzo: Strada Comunale della Maggiora, 140, 15011 Acqui Terme AL
+Coordinate: Lat 44.695206, Lng 8.500908
+Website: https://www.cascinamarcantonio.it/
+Email: 
+
+9164. HOTEL MONTEVERDE
+ID: bad967ee-0a1f-4da7-8db4-0152df42d2a1
+Slug: hotel-monteverde-bistagno
+Nome: HOTEL MONTEVERDE
+Comune / Provincia: Bistagno
+Indirizzo: Corso Italia, 17, 15012 Bistagno AL
+Coordinate: Lat 44.661215, Lng 8.369218
+Website: http://www.monteverde-hotel.it/
+Email: 
+
+9165. MONTEVERDE APPARTAMENTI
+ID: e5463320-b32b-44e7-8c31-df963591f5ba
+Slug: monteverde-appartamenti-bistagno
+Nome: MONTEVERDE APPARTAMENTI
+Comune / Provincia: Bistagno
+Indirizzo: Corso Italia, 16, 15012 Bistagno AL
+Coordinate: Lat 44.660769, Lng 8.369286
+Website: https://www.monteverdeappartamenti.it/
+Email: 
+
+9166. B&B Agorà
+ID: 4389bca7-b35b-450c-aced-c328e5f4c9db
+Slug: b-b-agora-bitetto
+Nome: B&B Agorà
+Comune / Provincia: Bitetto
+Indirizzo: Piazza Aldo Moro, 19, 70020 Bitetto BA
+Coordinate: Lat 41.039865, Lng 16.748276
+Website: http://www.agorabitetto.com/
+Email: 
+
+9167. B&B La Maison da Francy
+ID: 1837b142-86a2-4203-82cd-f73f2f88c3de
+Slug: b-b-la-maison-da-francy-bitetto
+Nome: B&B La Maison da Francy
+Comune / Provincia: Bitetto
+Indirizzo: Via Giannini, 34, 70020 Bitetto BA
+Coordinate: Lat 41.041973, Lng 16.748623
+Website: https://completedstay.com/bnb-la-maison-da-francy-bitetto/
+Email: 
+
+9168. B&B Palazzo 1906
+ID: 83bd2d73-7e90-4e5f-90cb-9fbe6cdedb9e
+Slug: b-b-palazzo-1906-bitetto
+Nome: B&B Palazzo 1906
+Comune / Provincia: Bitetto
+Indirizzo: Via Giuseppe Abbruzzese, 27, 70020 Bitetto BA
+Coordinate: Lat 41.043596, Lng 16.751417
+Website: https://www.facebook.com/profile.php?id=61552691669757&locale=it_IT
+Email: 
+
+9169. Dimora Barone
+ID: 5201639b-ba8c-488f-a5c1-4798f8df422f
+Slug: dimora-barone-bitetto
+Nome: Dimora Barone
+Comune / Provincia: Bitetto
+Indirizzo: Via Sant'Antonio, 4, 70020 Bitetto BA
+Coordinate: Lat 41.040706, Lng 16.749579
+Website: https://staycentral.eu/dimora-barone-bitetto/
+Email: 
+
+9170. EPOCA B&B
+ID: 0c308188-47b5-44fb-8ac4-6f93a84ce4d4
+Slug: epoca-b-b-bitetto
+Nome: EPOCA B&B
+Comune / Provincia: Bitetto
+Indirizzo: Via Gatti Francesco, 23, 70020 Bitetto BA
+Coordinate: Lat 41.041324, Lng 16.751056
+Website: —
+Email: 

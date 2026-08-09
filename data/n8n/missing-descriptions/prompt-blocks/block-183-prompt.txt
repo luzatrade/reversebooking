@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+6371. Albergo Leon Bianco
+ID: ed4bf6b3-5fd0-460e-bd9a-2762b474afbe
+Slug: albergo-leon-bianco-bagnaria-arsa
+Nome: Albergo Leon Bianco
+Comune / Provincia: Bagnaria Arsa
+Indirizzo: Via IV Novembre, 41, 33050 Gonars UD
+Coordinate: Lat 45.890407, Lng 13.259177
+Website: http://www.albergoleonbianco.it/
+Email: 
+
+6372. Albergo Ristorante alla Speranza
+ID: 1e88d824-f741-41a3-afa4-ce10b7d4a9a9
+Slug: albergo-ristorante-alla-speranza-bagnaria-arsa
+Nome: Albergo Ristorante alla Speranza
+Comune / Provincia: Bagnaria Arsa
+Indirizzo: Via del Porto, 8, 33058 San Giorgio di Nogaro UD
+Coordinate: Lat 45.81655, Lng 13.216905
+Website: https://www.allasperanza.com/
+Email: 
+
+6373. B&B 5 Palme
+ID: d30e5835-fb7f-4ff0-b58c-8f215a23fc69
+Slug: b-b-5-palme-bagnaria-arsa
+Nome: B&B 5 Palme
+Comune / Provincia: Bagnaria Arsa
+Indirizzo: Via Giuseppe Verdi, 16, 33050 Terzo d'Aquileia UD
+Coordinate: Lat 45.798685, Lng 13.329602
+Website: —
+Email: 
+
+6374. b&b alle agavi
+ID: 7a98f8b9-b1bd-4120-a8d4-4c0936ac3f88
+Slug: b-b-alle-agavi-bagnaria-arsa
+Nome: b&b alle agavi
+Comune / Provincia: Bagnaria Arsa
+Indirizzo: Via dei Molini, 1/1, 33050 Santa Maria la Longa UD
+Coordinate: Lat 45.920089, Lng 13.29391
+Website: https://alleagavi024.my.canva.site/b-b-alle-agavi
+Email: 
+
+6375. Camere Room Zimmer Palmanova
+ID: 73ebddaf-4416-4a43-8da6-3a4d19bfcb45
+Slug: camere-room-zimmer-palmanova-bagnaria-arsa
+Nome: Camere Room Zimmer Palmanova
+Comune / Provincia: Bagnaria Arsa
+Indirizzo: Via Bandiera Moro, 2, 33057 Palmanova UD
+Coordinate: Lat 45.903331, Lng 13.309865
+Website: —
+Email: 
+
+6376. Hotel Vittoria
+ID: 81cf3e85-1df1-4607-a69f-e257fd7cbbee
+Slug: hotel-vittoria-bagnaria-arsa
+Nome: Hotel Vittoria
+Comune / Provincia: Bagnaria Arsa
+Indirizzo: Piazza della Chiesa, 2, 33058 San Giorgio di Nogaro UD
+Coordinate: Lat 45.831874, Lng 13.211139
+Website: http://www.hotelvittoria-convivio.it/
+Email: 
+
+6377. La Selce Farmhouse
+ID: 5588fdf1-f714-45df-bc66-ac7823021d48
+Slug: la-selce-farmhouse-bagnaria-arsa
+Nome: La Selce Farmhouse
+Comune / Provincia: Bagnaria Arsa
+Indirizzo: Via XXIV Maggio, 15, 33050 Bagnaria Arsa UD
+Coordinate: Lat 45.878456, Lng 13.283889
+Website: https://www.laselcefarmhouse.it/
+Email: 
+
+6378. Mulino delle Tolle
+ID: cccf6085-9e2b-44be-8d1f-f79bfc2a662d
+Slug: mulino-delle-tolle-bagnaria-arsa
+Nome: Mulino delle Tolle
+Comune / Provincia: Bagnaria Arsa
+Indirizzo: Via Julia, 1, 33050 Bagnaria Arsa UD
+Coordinate: Lat 45.87696, Lng 13.309194
+Website: https://www.mulinodelletolle.it/
+Email: 
+
+6379. Palmamore
+ID: abf26d26-0280-4b70-86f5-6f716b09c220
+Slug: palmamore-bagnaria-arsa
+Nome: Palmamore
+Comune / Provincia: Bagnaria Arsa
+Indirizzo: Contrada Foscarini, 31, 33057 Palmanova UD
+Coordinate: Lat 45.902832, Lng 13.308186
+Website: —
+Email: 
+
+6380. Radetzky Rooms
+ID: 034cd08b-c861-4ead-9874-7ae0474bbbc6
+Slug: radetzky-rooms-bagnaria-arsa
+Nome: Radetzky Rooms
+Comune / Provincia: Bagnaria Arsa
+Indirizzo: Piazza Libertà, 5/Secondo piano, 33052 Cervignano del Friuli UD
+Coordinate: Lat 45.822201, Lng 13.333129
+Website: https://www.radetzkyrooms.it/it/
+Email: 
+
+6381. San Giorgio Hotel
+ID: d72dac1f-b0e6-4e80-8392-a35435e6293c
+Slug: san-giorgio-hotel-bagnaria-arsa
+Nome: San Giorgio Hotel
+Comune / Provincia: Bagnaria Arsa
+Indirizzo: Via Marittima, 69, 33058 San Giorgio di Nogaro UD
+Coordinate: Lat 45.823999, Lng 13.214129
+Website: http://www.sangiorgiohotel.net/
+Email: 
+
+6382. Trattoria Locanda Ai Tre Amici
+ID: 2b2b5140-1580-414f-afef-2619df7c1b77
+Slug: trattoria-locanda-ai-tre-amici-bagnaria-arsa
+Nome: Trattoria Locanda Ai Tre Amici
+Comune / Provincia: Bagnaria Arsa
+Indirizzo: Via Cavour, 23, 33050 Mortegliano UD
+Coordinate: Lat 45.946123, Lng 13.171956
+Website: http://www.aitreamici.com/
+Email: 
+
+6383. Villa Felcaro - Relais, Lodge & Restaurant
+ID: 2b8bc48f-3614-4aed-b7c2-de029638d5e3
+Slug: villa-felcaro-relais-lodge-restaurant-bagnaria-arsa
+Nome: Villa Felcaro - Relais, Lodge & Restaurant
+Comune / Provincia: Bagnaria Arsa
+Indirizzo: Via S. Giovanni, 45, 34071 Cormons GO
+Coordinate: Lat 45.965546, Lng 13.468058
+Website: http://www.hotelfelcaro.it/
+Email: 
+
+6384. Albergo Alpino Cardini
+ID: 753b33b4-5ed1-42cb-984c-68b1ed7b94f2
+Slug: albergo-alpino-cardini-bagnasco
+Nome: Albergo Alpino Cardini
+Comune / Provincia: Bagnasco
+Indirizzo: Frazione Cardini 33, 12080 Roburent CN
+Coordinate: Lat 44.275061, Lng 7.885071
+Website: http://www.albergoalpinocardini.it/
+Email: 
+
+6385. B&B Il Borgo
+ID: c58dd938-3734-47f1-87a0-63ce7d663d11
+Slug: b-b-il-borgo-bagnasco
+Nome: B&B Il Borgo
+Comune / Provincia: Bagnasco
+Indirizzo: Corso Giuseppe Garibaldi, 125, 12073 Ceva CN
+Coordinate: Lat 44.388063, Lng 8.03153
+Website: https://bb-il-borgo.comeviaggiare.top/
+Email: 
+
+6386. B&B L'Isola D'la Cerrea
+ID: 222d3448-f937-41b9-b6ee-e8477b4b4613
+Slug: b-b-l-isola-d-la-cerrea-bagnasco
+Nome: B&B L'Isola D'la Cerrea
+Comune / Provincia: Bagnasco
+Indirizzo: SP101, 50B, 12070 Mombasiglio CN
+Coordinate: Lat 44.362905, Lng 7.989442
+Website: https://lisoladlacerrea.it/
+Email: 
+
+6387. B&B Locanda Montecarlo
+ID: c5835d7c-1996-494b-bf35-e93c973b98af
+Slug: b-b-locanda-montecarlo-bagnasco
+Nome: B&B Locanda Montecarlo
+Comune / Provincia: Bagnasco
+Indirizzo: Via Nazionale, 5, 12076 Lesegno CN
+Coordinate: Lat 44.401515, Lng 7.95905
+Website: http://www.locandamontecarlo.it/
+Email: 
+
+6388. B&B Per Sognare "Per Sugné"
+ID: db311f13-19a3-4528-aaf9-92cf35112511
+Slug: b-b-per-sognare-per-sugne-bagnasco
+Nome: B&B Per Sognare "Per Sugné"
+Comune / Provincia: Bagnasco
+Indirizzo: Via Filippo pettiti, 74, 12076 Lesegno CN
+Coordinate: Lat 44.404375, Lng 7.965552
+Website: https://instagram.com/bbpersognare?igshid=YmMyMTA2M2Y=
+Email: 
+
+6389. Camping Yoghi e Bubu
+ID: 6dced02c-ab97-4761-a14a-cefbaf0e8348
+Slug: camping-yoghi-e-bubu-bagnasco
+Nome: Camping Yoghi e Bubu
+Comune / Provincia: Bagnasco
+Indirizzo: Strada Provinciale 183, 12080 Roburent CN
+Coordinate: Lat 44.283993, Lng 7.885713
+Website: http://www.campingyoghiebubu.it/
+Email: 
+
+6390. Da Dodo'
+ID: f8f632a2-9839-488c-8c25-1005762c9627
+Slug: da-dodo-bagnasco
+Nome: Da Dodo'
+Comune / Provincia: Bagnasco
+Indirizzo: SP490, 18, 17020 Calizzano SV
+Coordinate: Lat 44.267611, Lng 8.112091
+Website: —
+Email: 
+
+6391. Del Peso Ristorante Hotel
+ID: 08534806-0501-453b-a7c8-6bc4a71366d3
+Slug: del-peso-ristorante-hotel-bagnasco
+Nome: Del Peso Ristorante Hotel
+Comune / Provincia: Bagnasco
+Indirizzo: Via Angelo Nielli, N°12, 12080 San Michele Mondovì CN
+Coordinate: Lat 44.373179, Lng 7.901798
+Website: http://www.hoteldelpeso.it/
+Email: 
+
+6392. Fattoria Cebon
+ID: 73195b77-9e00-4a93-bd2b-ef4066eadae9
+Slug: fattoria-cebon-bagnasco
+Nome: Fattoria Cebon
+Comune / Provincia: Bagnasco
+Indirizzo: Regione Bovina Strella, 30, 12073 Ceva CN
+Coordinate: Lat 44.410508, Lng 8.046906
+Website: https://cebon.it/
+Email: 
+
+6393. Il giardino di San Martino
+ID: 711a8211-9faa-4e51-9fda-d6f82238f7f1
+Slug: il-giardino-di-san-martino-bagnasco
+Nome: Il giardino di San Martino
+Comune / Provincia: Bagnasco
+Indirizzo: Fraz. Lignera Soprana 4, San Martino in, 12079 Lignera CN
+Coordinate: Lat 44.425909, Lng 8.175078
+Website: http://www.ilgiardinodisanmartino.com/
+Email: 
+
+6394. Le Ghie
+ID: 5148356a-21ee-47bb-88e8-e8abe3d49da0
+Slug: le-ghie-bagnasco
+Nome: Le Ghie
+Comune / Provincia: Bagnasco
+Indirizzo: 12084 San Quintino CN
+Coordinate: Lat 44.435803, Lng 7.867866
+Website: http://leghie.it/
+Email: 
+
+6395. Miramonti
+ID: cd24955a-150c-4596-9032-1d98e6e67ccd
+Slug: miramonti-bagnasco
+Nome: Miramonti
+Comune / Provincia: Bagnasco
+Indirizzo: Via 5 Martiri, 6, 17020 Calizzano SV
+Coordinate: Lat 44.236245, Lng 8.115337
+Website: https://www.miramonticalizzano.it/
+Email: 
+
+6396. Ristorante e Hotel Castagneto
+ID: 150f06fc-3ee1-4fa6-8275-4217befbd4b8
+Slug: ristorante-e-hotel-castagneto-bagnasco
+Nome: Ristorante e Hotel Castagneto
+Comune / Provincia: Bagnasco
+Indirizzo: Via Nazionale, 69, 12070 Pievetta CN
+Coordinate: Lat 44.263535, Lng 8.025467
+Website: https://m.facebook.com/AlbergoRistoranteAlCastagneto/?locale2=it_IT
+Email: 
+
+6397. Taverna del Dolmen
+ID: 06a872ff-ea28-4593-99f7-be2631653603
+Slug: taverna-del-dolmen-bagnasco
+Nome: Taverna del Dolmen
+Comune / Provincia: Bagnasco
+Indirizzo: Località Le Gere, Snc, 17017 Roccavignale SV
+Coordinate: Lat 44.358494, Lng 8.178521
+Website: https://tavernadeldolmen.top/
+Email: 
+
+6398. Villa Èlia
+ID: 96ed6809-d4aa-4dc9-8b9f-93ca3e41dd44
+Slug: villa-elia-bagnasco
+Nome: Villa Èlia
+Comune / Provincia: Bagnasco
+Indirizzo: Via Valle, 26, 17020 Calizzano SV
+Coordinate: Lat 44.239326, Lng 8.110373
+Website: https://hotelvillaelia.it/
+Email: 
+
+6399. AgriSpace LaTordela - Agriturismo La Tordela
+ID: 7eee6aff-7a89-4714-806f-e7e277e34de8
+Slug: agrispace-latordela-agriturismo-la-tordela-bagnatica
+Nome: AgriSpace LaTordela - Agriturismo La Tordela
+Comune / Provincia: Bagnatica
+Indirizzo: Via alla Torricella, 1, 24060 Torre de' Roveri BG
+Coordinate: Lat 45.700154, Lng 9.766492
+Website: http://www.agrispacelatordela.net/
+Email: 
+
+6400. Agriturismo Alle Baite Branzi
+ID: 6d581bed-9a3a-42d4-9d09-b9889bf07cb3
+Slug: agriturismo-alle-baite-branzi-bagnatica
+Nome: Agriturismo Alle Baite Branzi
+Comune / Provincia: Bagnatica
+Indirizzo: Via Rivioni, 66, 24010 Branzi BG
+Coordinate: Lat 45.990051, Lng 9.752529
+Website: http://www.agriturismoallebaite.com/
+Email: 
+
+6401. Agriturismo Cascina San Fermo Calcio
+ID: 432e81cb-28c8-40a2-abf1-ae1aebcd8133
+Slug: agriturismo-cascina-san-fermo-calcio-bagnatica
+Nome: Agriturismo Cascina San Fermo Calcio
+Comune / Provincia: Bagnatica
+Indirizzo: Via S. Fermo, 1, 24054 Calcio BG
+Coordinate: Lat 45.512664, Lng 9.851285
+Website: https://agriturismosanfermo.it/
+Email: 
+
+6402. Agriturismo Incanto Grumello del Monte
+ID: 3792b854-14ed-4c1c-9291-7c1f82a5d964
+Slug: agriturismo-incanto-grumello-del-monte-bagnatica
+Nome: Agriturismo Incanto Grumello del Monte
+Comune / Provincia: Bagnatica
+Indirizzo: Località Codera, 3, 24064 Grumello del Monte BG
+Coordinate: Lat 45.654839, Lng 9.876599
+Website: http://www.agriturismoincanto.it/
+Email: 
+
+6403. Agriturismo L'Incanto
+ID: 2804401a-833c-4d18-b567-02c59c958026
+Slug: agriturismo-l-incanto-bagnatica
+Nome: Agriturismo L'Incanto
+Comune / Provincia: Bagnatica
+Indirizzo: Via Castello, 79/a, 24010 Ponteranica BG
+Coordinate: Lat 45.742758, Lng 9.676547
+Website: https://agriturismolincanto.it/
+Email: 
+
+6404. Agriturismo Scuderia Della Valle
+ID: 0977b6e4-110a-464e-a53c-a9f4254c67ee
+Slug: agriturismo-scuderia-della-valle-bagnatica
+Nome: Agriturismo Scuderia Della Valle
+Comune / Provincia: Bagnatica
+Indirizzo: Via Prabutè, 2, 24038 Sant'Omobono Terme BG
+Coordinate: Lat 45.830389, Lng 9.500247
+Website: http://www.scuderiadellavalle.it/
+Email: 
+
+6405. Airport Hotel Bergamo
+ID: a1a15249-b1a9-47da-aaf2-8cc06f82774d
+Slug: airport-hotel-bergamo-bagnatica
+Nome: Airport Hotel Bergamo
+Comune / Provincia: Bagnatica
+Indirizzo: Via Don Ubiali, 1, 24060 Bagnatica BG
+Coordinate: Lat 45.654982, Lng 9.746733
+Website: https://www.airporthotelbg.it/it/home/
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+13616. Hotel Marcantonio
+ID: da5f480f-3ffc-4420-b0e3-a1e43f1f1987
+Slug: hotel-marcantonio-cancello-ed-arnone
+Nome: Hotel Marcantonio
+Comune / Provincia: Cancello ed Arnone
+Indirizzo: Via Madonna del Pantano Nord, 11/1, 80014 Cavone NA
+Coordinate: Lat 40.943038, Lng 14.057323
+Website: http://www.hotelmarcantonio.it/
+Email: 
+
+13617. Hotel Mediterraneo
+ID: 9f9de2df-9f9d-4c4b-8c0a-edf3c39ccf35
+Slug: hotel-mediterraneo-cancello-ed-arnone
+Nome: Hotel Mediterraneo
+Comune / Provincia: Cancello ed Arnone
+Indirizzo: Via S.Francesco a patria, loc. ponte riccio, 80014 Giugliano in Campania NA
+Coordinate: Lat 40.931514, Lng 14.107692
+Website: http://www.hotel-mediterraneo.it/
+Email: 
+
+13618. Hotel Paradiso
+ID: de49f2f5-aad1-49b1-8185-7f5de26d43f8
+Slug: hotel-paradiso-cancello-ed-arnone
+Nome: Hotel Paradiso
+Comune / Provincia: Cancello ed Arnone
+Indirizzo: Via Domiziana, 612, 81030 Castel Volturno CE
+Coordinate: Lat 40.947104, Lng 14.012088
+Website: https://app-prenotazione.netlify.app/
+Email: 
+
+13619. Hotel Piè D'or
+ID: 8785fefa-521c-4fd7-a71a-adc6106682fa
+Slug: hotel-pie-d-or-cancello-ed-arnone
+Nome: Hotel Piè D'or
+Comune / Provincia: Cancello ed Arnone
+Indirizzo: 80014 Giugliano in Campania NA
+Coordinate: Lat 40.965792, Lng 14.140965
+Website: https://hotelpiedor.top/
+Email: 
+
+13620. Hotel United
+ID: a17afd7d-0644-4f1e-bd63-bea69b613bc3
+Slug: hotel-united-cancello-ed-arnone
+Nome: Hotel United
+Comune / Provincia: Cancello ed Arnone
+Indirizzo: Via Ruggero Leoncavallo, 2, 81030 Castel Volturno CE
+Coordinate: Lat 40.948085, Lng 14.009524
+Website: https://hotel-united.hotelpreferito.top/
+Email: 
+
+13621. International Resort
+ID: a7a2d1d1-e3b5-4f72-9e0e-8d6556700ab7
+Slug: international-resort-cancello-ed-arnone
+Nome: International Resort
+Comune / Provincia: Cancello ed Arnone
+Indirizzo: SS7qtr, 591, 81034 Mondragone CE
+Coordinate: Lat 41.135911, Lng 13.858766
+Website: https://www.internationalresort.it/
+Email: 
+
+13622. La Meta Motel
+ID: bf76b79a-e10e-4f49-bd9c-0d3510e3e3dc
+Slug: la-meta-motel-cancello-ed-arnone
+Nome: La Meta Motel
+Comune / Provincia: Cancello ed Arnone
+Indirizzo: Via Santa Maria a Cubito, 81039 Villa Literno CE
+Coordinate: Lat 40.967616, Lng 14.068373
+Website: http://www.lametamotel.com/
+Email: 
+
+13623. Laghi Nabi
+ID: 1b2ed275-982d-4262-ac85-7689c6249977
+Slug: laghi-nabi-cancello-ed-arnone
+Nome: Laghi Nabi
+Comune / Provincia: Cancello ed Arnone
+Indirizzo: Via Occidentale, 81030 Castel Volturno CE
+Coordinate: Lat 41.011436, Lng 13.974701
+Website: http://laghinabi.it/
+Email: 
+
+13624. Motel Annalisa Trentola Ducenta
+ID: c16ec925-45d8-4d61-b689-9bb773a7f197
+Slug: motel-annalisa-trentola-ducenta-cancello-ed-arnone
+Nome: Motel Annalisa Trentola Ducenta
+Comune / Provincia: Cancello ed Arnone
+Indirizzo: Via IV Novembre, 240, 81038 Trentola Ducenta CE
+Coordinate: Lat 40.975356, Lng 14.156662
+Website: —
+Email: 
+
+13625. Thairè Resort
+ID: a7d8a53e-52d0-46e9-b164-0f55361d1f1d
+Slug: thaire-resort-cancello-ed-arnone
+Nome: Thairè Resort
+Comune / Provincia: Cancello ed Arnone
+Indirizzo: Via Domiziana, 615, 81030 Castel Volturno CE
+Coordinate: Lat 40.980495, Lng 13.985828
+Website: https://thaire-resort.albergo.top/
+Email: 
+
+13626. Albergo Palladio
+ID: 6ac514d9-34de-45e6-a191-2d2d0a6340a2
+Slug: albergo-palladio-canda
+Nome: Albergo Palladio
+Comune / Provincia: Canda
+Indirizzo: Via Giovanni Tasso, 29, 45025 Fratta Polesine RO
+Coordinate: Lat 45.031205, Lng 11.640923
+Website: http://www.albergoristorantepalladio.it/
+Email: 
+
+13627. Antica masseria “Il Casone” - Candela
+ID: fd7624a6-ccd6-4410-ab4c-319453493162
+Slug: antica-masseria-il-casone-candela-candela
+Nome: Antica masseria “Il Casone” - Candela
+Comune / Provincia: Candela
+Indirizzo: Il Casone, 71024 Candela FG
+Coordinate: Lat 41.12527, Lng 15.543756
+Website: http://www.anticamasseriailcasone.it/
+Email: 
+
+13628. B&B Colli Ameni
+ID: b0aee2bf-5212-4203-a327-d4d774286ca2
+Slug: b-b-colli-ameni-candela
+Nome: B&B Colli Ameni
+Comune / Provincia: Candela
+Indirizzo: Strada Provinciale Ferrovia, 71024 Candela FG
+Coordinate: Lat 41.146751, Lng 15.521516
+Website: —
+Email: 
+
+13629. La Casina Residenza rurale 1865
+ID: 849f9ef8-9c6b-4cc5-b5dc-608e2e9b4c0f
+Slug: la-casina-residenza-rurale-1865-candela
+Nome: La Casina Residenza rurale 1865
+Comune / Provincia: Candela
+Indirizzo: Contrada Borranico, 71026 Deliceto FG
+Coordinate: Lat 41.230964, Lng 15.400148
+Website: http://www.lacasinadeliceto.it/
+Email: 
+
+13630. La Piazzetta
+ID: d376cec4-6648-4bd4-a5d3-8c9ac221e6cf
+Slug: la-piazzetta-candela
+Nome: La Piazzetta
+Comune / Provincia: Candela
+Indirizzo: Piazza Giacomo Matteotti, 34, 71024 Candela FG
+Coordinate: Lat 41.134816, Lng 15.514595
+Website: —
+Email: 
+
+13631. Masseria Spinale Wine Resort
+ID: e63d19a3-e7a1-4af5-86b7-53170ea8d4b6
+Slug: masseria-spinale-wine-resort-candela
+Nome: Masseria Spinale Wine Resort
+Comune / Provincia: Candela
+Indirizzo: Contrada Camarda, 85025 Melfi PZ
+Coordinate: Lat 41.075602, Lng 15.629891
+Website: https://www.masseriaspinale.it/
+Email: 
+
+13632. RistoMuseo l'Orecchietta B&b da Ercole all'Orecchietta
+ID: e18e3feb-9bd5-4239-a506-9eebf0043d0b
+Slug: ristomuseo-l-orecchietta-b-b-da-ercole-all-orecc-candela
+Nome: RistoMuseo l'Orecchietta B&b da Ercole all'Orecchietta
+Comune / Provincia: Candela
+Indirizzo: Localita casone la pescara, snc, 71024 Candela FG
+Coordinate: Lat 41.144585, Lng 15.527012
+Website: https://www.ristomuseolorecchietta-bb.it/
+Email: 
+
+13633. Villa Di Miscio
+ID: f6dc7397-4b84-449b-aa62-14098f7bb411
+Slug: villa-di-miscio-candela
+Nome: Villa Di Miscio
+Comune / Provincia: Candela
+Indirizzo: Viale S. Rocco, 2, 71028 Sant'Agata di Puglia FG
+Coordinate: Lat 41.152625, Lng 15.38089
+Website: https://www.hotelsandiamo.com/villa-di-miscio/
+Email: 
+
+13634. BB • Borgo Biella - Candelo
+ID: b226bddf-0d24-43f4-b429-68a51ac5b7c2
+Slug: bb-borgo-biella-candelo-candelo
+Nome: BB • Borgo Biella - Candelo
+Comune / Provincia: Candelo
+Indirizzo: Via Pietro Micca, n° 1, 13878 Candelo BI
+Coordinate: Lat 45.547814, Lng 8.101343
+Website: http://www.borgobiella.com/
+Email: 
+
+13635. BB • Borgo Biella Bis - Soggiorni turistici
+ID: 18228ab6-e447-4c1b-9fea-4ff8c6cda295
+Slug: bb-borgo-biella-bis-soggiorni-turistici-candelo
+Nome: BB • Borgo Biella Bis - Soggiorni turistici
+Comune / Provincia: Candelo
+Indirizzo: Via Moglia, 2, 13878 Candelo BI
+Coordinate: Lat 45.545674, Lng 8.112571
+Website: http://borgobiella.com/
+Email: 
+
+13636. BB • Borgo Biella Tree
+ID: ec7bb6d1-9c1c-4357-97ce-2242fb083eb6
+Slug: bb-borgo-biella-tree-candelo
+Nome: BB • Borgo Biella Tree
+Comune / Provincia: Candelo
+Indirizzo: Via Moglia, 2, 13878 Candelo BI
+Coordinate: Lat 45.545624, Lng 8.11264
+Website: https://www.borgobiella.com/
+Email: 
+
+13637. La terrazza sul Ricetto GuestHouse
+ID: e3333676-d612-40f7-83b0-9d9438ce9b9e
+Slug: la-terrazza-sul-ricetto-guesthouse-candelo
+Nome: La terrazza sul Ricetto GuestHouse
+Comune / Provincia: Candelo
+Indirizzo: Via Roma, 13, 13878 Candelo BI
+Coordinate: Lat 45.545405, Lng 8.114008
+Website: http://www.laterrazzasulricetto.it/
+Email: 
+
+13638. Atene del Canavese
+ID: f5305fa0-8e57-41c3-91f4-429258fafa59
+Slug: atene-del-canavese-candia-canavese
+Nome: Atene del Canavese
+Comune / Provincia: Candia Canavese
+Indirizzo: Via B. Biandrate, 1, 10090 San Giorgio Canavese TO
+Coordinate: Lat 45.336737, Lng 7.79832
+Website: https://atenedelcanavese.com/
+Email: 
+
+13639. B&B Lacasagialladiluca di Fabio Comazzi
+ID: 0e0e3084-00c7-442a-95d0-828e69215575
+Slug: b-b-lacasagialladiluca-di-fabio-comazzi-candia-canavese
+Nome: B&B Lacasagialladiluca di Fabio Comazzi
+Comune / Provincia: Candia Canavese
+Indirizzo: Via Cairelli, 2, 10035 Mazzè TO
+Coordinate: Lat 45.300498, Lng 7.931951
+Website: http://www.lacasagialladiluca.it/
+Email: 
+
+13640. Stella Bianca
+ID: 75b10738-abf4-4acd-a0cf-dde95ed8ba09
+Slug: stella-bianca-candia-canavese
+Nome: Stella Bianca
+Comune / Provincia: Candia Canavese
+Indirizzo: Via Scarmagno, 7, 10010 Bessolo TO
+Coordinate: Lat 45.365761, Lng 7.839775
+Website: https://hotel-stella-bianca.albergatore.top/
+Email: 
+
+13641. FLU Bed & Breakfast
+ID: af74755c-ac0e-4f53-a525-57be2b6fe30d
+Slug: flu-bed-breakfast-candia-lomellina
+Nome: FLU Bed & Breakfast
+Comune / Provincia: Candia Lomellina
+Indirizzo: Via Roma, 27, 27020 San Giorgio di Lomellina PV
+Coordinate: Lat 45.175915, Lng 8.788891
+Website: https://www.bedandbreakfastlomellina.it/
+Email: 
+
+13642. Il Portico
+ID: ff51c4ad-6eb6-4542-82f1-350e4ee0a92f
+Slug: il-portico-candia-lomellina
+Nome: Il Portico
+Comune / Provincia: Candia Lomellina
+Indirizzo: Strada Valenza, 2, 15033 Casale Monferrato AL
+Coordinate: Lat 45.130489, Lng 8.47395
+Website: http://ilporticodisorrentino.com/
+Email: 
+
+13643. Locanda Ca' Novelli
+ID: 3459af28-5466-4ddc-b21d-07dba5f78bf7
+Slug: locanda-ca-novelli-candia-lomellina
+Nome: Locanda Ca' Novelli
+Comune / Provincia: Candia Lomellina
+Indirizzo: Via Cesare Balbo, 14, 15040 Frassineto Po AL
+Coordinate: Lat 45.133646, Lng 8.536159
+Website: http://www.locandacanovelli.com/
+Email: 
+
+13644. Azienda Agricola Fondo san Benedetto
+ID: 998e41ba-ff95-4374-969f-2ed676def1e6
+Slug: azienda-agricola-fondo-san-benedetto-candiana
+Nome: Azienda Agricola Fondo san Benedetto
+Comune / Provincia: Candiana
+Indirizzo: Via Pegolotte, 2, 35020 Correzzola PD
+Coordinate: Lat 45.211288, Lng 12.038704
+Website: https://agriturismo-fondo-san-benedetto.touritaliani.top/
+Email: 
+
+13645. Villabruna
+ID: 888e318d-66ec-4725-a722-35c51f008ff0
+Slug: villabruna-candiana
+Nome: Villabruna
+Comune / Provincia: Candiana
+Indirizzo: Via Frapiero, 3, 35020 Correzzola PD
+Coordinate: Lat 45.208486, Lng 12.023117
+Website: —
+Email: 
+
+13646. Green Resort De Marco
+ID: 6319bca5-45bc-4698-9065-9d70822c5a46
+Slug: green-resort-de-marco-candida
+Nome: Green Resort De Marco
+Comune / Provincia: Candida
+Indirizzo: contrada campore, 83040 Chiusano di San Domenico AV
+Coordinate: Lat 40.951946, Lng 14.910339
+Website: http://www.greenresortdemarco.it/
+Email: 
+
+13647. Il Cavaliere
+ID: 358f1b41-0e43-4570-80cb-50b46b7263f6
+Slug: il-cavaliere-candida
+Nome: Il Cavaliere
+Comune / Provincia: Candida
+Indirizzo: Via Panoramica, 20, 83030 Manocalzati AV
+Coordinate: Lat 40.936222, Lng 14.83669
+Website: https://www.facebook.com/ilcavaliere.avellino
+Email: 
+
+13648. Le camere di corte
+ID: c4197c21-5dd6-4d3f-8224-931bcd425531
+Slug: le-camere-di-corte-candida
+Nome: Le camere di corte
+Comune / Provincia: Candida
+Indirizzo: Piazza Michele Capozzi, Via Roma, 2, 83050 Salza Irpina AV
+Coordinate: Lat 40.919389, Lng 14.890297
+Website: https://homeit.cyou/camere-di-corte-qt8ogi
+Email: 
+
+13649. Stanze Don Gesualdo Alloggio Turistico
+ID: 2d06c76a-2541-4b5e-86a0-ffaa922327c2
+Slug: stanze-don-gesualdo-alloggio-turistico-candida
+Nome: Stanze Don Gesualdo Alloggio Turistico
+Comune / Provincia: Candida
+Indirizzo: Via Italia, 8, 83030 Taurasi AV
+Coordinate: Lat 41.008331, Lng 14.955334
+Website: https://stayoly.eu/stanze-don-gesualdo-alloggio-turistico-taurasi/
+Email: 
+
+13650. B&b il baglio
+ID: ff610003-31c0-4f98-a8a2-917b690ac0e7
+Slug: b-b-il-baglio-candidoni
+Nome: B&b il baglio
+Comune / Provincia: Candidoni
+Indirizzo: Via Baglio, 7, 89844 Nicotera VV
+Coordinate: Lat 38.552251, Lng 15.938092
+Website: https://www.booking.com/hotel/it/b-amp-b-il-baglio.it.html?aid=376372;label=it-5Srxg0e1twJI_ryrey2UnQS267778030993:pl:ta:p1:p22.563.000:ac:ap:neg:fi:tikwd-65526620:lp21233:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YVcLb15uXY9drDRMbmnr9EE;sid=431058c1e9cdf768f24e4c16ce44c092;dest_id=-123047;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;room1=A,A;sb_price_type=total;sr_order=popularity;srepoch=1591890332;srpvid=5aa66ecdc179003a;type=total;ucfs=1&#hotelTmpl
+Email: 

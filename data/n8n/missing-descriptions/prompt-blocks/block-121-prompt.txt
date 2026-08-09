@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+4201. Residence Stefania
+ID: ca4b7c97-019b-4f43-abc7-b0d84e000474
+Slug: residence-stefania-arba
+Nome: Residence Stefania
+Comune / Provincia: Arba
+Indirizzo: Via Roma, 17, 33092 Cavasso Nuovo PN
+Coordinate: Lat 46.194959, Lng 12.769413
+Website: —
+Email: 
+
+4202. Agriturismo Le Mimose
+ID: 5da7cccc-341a-4c02-8db9-43deaf920995
+Slug: agriturismo-le-mimose-arborea
+Nome: Agriturismo Le Mimose
+Comune / Provincia: Arborea
+Indirizzo: Str. 24 Ovest, 09092 Arborea OR
+Coordinate: Lat 39.793523, Lng 8.573416
+Website: https://www.hotelscheck-in.com/agriturismolemimoseitaly/it/
+Email: 
+
+4203. Agriturismo S'Aranada
+ID: b637bb1e-4595-4d59-9a62-b8d9b66b131e
+Slug: agriturismo-s-aranada-arborea
+Nome: Agriturismo S'Aranada
+Comune / Provincia: Arborea
+Indirizzo: Via Gioberti, 09094 Marrubiu OR
+Coordinate: Lat 39.751215, Lng 8.627192
+Website: http://saranadamarrubiu.com.es//
+Email: 
+
+4204. B&B FraeFe
+ID: 352a5b93-f5c4-4d8f-9542-2808e0701558
+Slug: b-b-fraefe-arborea
+Nome: B&B FraeFe
+Comune / Provincia: Arborea
+Indirizzo: Str. 18Bis Est, 6, 09092 Arborea OR
+Coordinate: Lat 39.773187, Lng 8.592858
+Website: https://it-it.facebook.com/bbfraefe
+Email: 
+
+4205. Capo Frasca resort
+ID: b80008e5-86fb-4d1f-9c19-5a2e0e69cfd9
+Slug: capo-frasca-resort-arborea
+Nome: Capo Frasca resort
+Comune / Provincia: Arborea
+Indirizzo: Via Mare Mediterraneo, 23, 09031 Sant'Antonio di Santadi VS
+Coordinate: Lat 39.71336, Lng 8.486233
+Website: https://sites.google.com/view/capo-frasca-resort/
+Email: 
+
+4206. Dal tramonto all'alba
+ID: 7aa4e9d8-e48f-431a-bb4c-7fbfc5f725ad
+Slug: dal-tramonto-all-alba-arborea
+Nome: Dal tramonto all'alba
+Comune / Provincia: Arborea
+Indirizzo: Str. 18 Ovest, 11, 09092 Arborea OR
+Coordinate: Lat 39.771927, Lng 8.567143
+Website: —
+Email: 
+
+4207. Horse Country Resort Congress & SPA
+ID: a0fb4a5e-9166-4f2b-b0c0-54492de08061
+Slug: horse-country-resort-congress-spa-arborea
+Nome: Horse Country Resort Congress & SPA
+Comune / Provincia: Arborea
+Indirizzo: Str. 24 Ovest, 09092 Arborea OR
+Coordinate: Lat 39.793251, Lng 8.551783
+Website: https://www.horsecountry.it/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+4208. Hotel Gran Torre
+ID: 8e77d2ff-23b2-4e62-bd24-6844b77f3996
+Slug: hotel-gran-torre-arborea
+Nome: Hotel Gran Torre
+Comune / Provincia: Arborea
+Indirizzo: strada Torregrande Pontile, 09072 Cabras OR
+Coordinate: Lat 39.906826, Lng 8.532636
+Website: http://www.hotelgrantorre.it/
+Email: 
+
+4209. Hotel Le Torri
+ID: 27eb443b-523b-4270-8b22-b1cd345a9fdf
+Slug: hotel-le-torri-arborea
+Nome: Hotel Le Torri
+Comune / Provincia: Arborea
+Indirizzo: Via Sardegna, 23, 09092 Arborea OR
+Coordinate: Lat 39.773653, Lng 8.585609
+Website: http://www.letorrihotelsardegna.it/
+Email: 
+
+4210. Hotel Lido Beach
+ID: b05db6cf-f887-4255-ad9e-71fd5d8fe6aa
+Slug: hotel-lido-beach-arborea
+Nome: Hotel Lido Beach
+Comune / Provincia: Arborea
+Indirizzo: Via Vittorio Bottego, 77, 09170 Torre Grande OR
+Coordinate: Lat 39.903521, Lng 8.524682
+Website: http://www.hotellido.org/
+Email: 
+
+4211. Il Vecchio Oliveto Bed & Breakfast
+ID: 22612c1c-1ca4-4797-a7fa-110aba509882
+Slug: il-vecchio-oliveto-bed-breakfast-arborea
+Nome: Il Vecchio Oliveto Bed & Breakfast
+Comune / Provincia: Arborea
+Indirizzo: Is Bangius, 09094 Marrubiu OR
+Coordinate: Lat 39.78124, Lng 8.663964
+Website: https://www.hotelscheck-in.com/ilvecchioolivetobnbitaly/it/
+Email: 
+
+4212. Le Sei Palme
+ID: 9172f385-0991-41d8-83b9-f90c2e6d75f6
+Slug: le-sei-palme-arborea
+Nome: Le Sei Palme
+Comune / Provincia: Arborea
+Indirizzo: Strada a Mare, 6, 09092 Arborea OR
+Coordinate: Lat 39.773553, Lng 8.582464
+Website: —
+Email: 
+
+4213. Locanda del Gallo Bianco
+ID: 36905ad6-4763-4abb-9b27-926368aea41b
+Slug: locanda-del-gallo-bianco-arborea
+Nome: Locanda del Gallo Bianco
+Comune / Provincia: Arborea
+Indirizzo: Piazza Maria Ausiliatrice, 8/10, 09092 Arborea OR
+Coordinate: Lat 39.77409, Lng 8.583183
+Website: https://www.locandadelgallobianco.it/
+Email: 
+
+4214. Memo's Affittacamere - Room & Breakfast-
+ID: f3f4d214-0a5b-4b8e-98c9-68ea4b28270c
+Slug: memo-s-affittacamere-room-breakfast-arborea
+Nome: Memo's Affittacamere - Room & Breakfast-
+Comune / Provincia: Arborea
+Indirizzo: Strada 26 est, 09092 Arborea OR
+Coordinate: Lat 39.801764, Lng 8.587135
+Website: http://www.memosaffittacamere.it/
+Email: 
+
+4215. Mistral 2 Hotel
+ID: dee31042-3cdb-4af0-a668-4573428370e2
+Slug: mistral-2-hotel-arborea
+Nome: Mistral 2 Hotel
+Comune / Provincia: Arborea
+Indirizzo: Via XX Settembre, 34, 09170 Oristano OR
+Coordinate: Lat 39.904474, Lng 8.586027
+Website: http://www.hotelmistral2oristano.it/
+Email: 
+
+4216. Agriturismo La Biandrina
+ID: 93f4cdc6-2487-42fd-81cc-ce5aa70c6131
+Slug: agriturismo-la-biandrina-arborio
+Nome: Agriturismo La Biandrina
+Comune / Provincia: Arborio
+Indirizzo: Via Cascina Massara, 1, 28064 Carpignano Sesia NO
+Coordinate: Lat 45.5597, Lng 8.411763
+Website: https://www.labiandrina.it/
+Email: 
+
+4217. Albergo L'Angolo
+ID: 4cf78878-20d7-44c3-8fa1-bd3af77ae143
+Slug: albergo-l-angolo-arborio
+Nome: Albergo L'Angolo
+Comune / Provincia: Arborio
+Indirizzo: via torino, 3, 13040 Carisio VC
+Coordinate: Lat 45.446213, Lng 8.231835
+Website: http://www.hotelangolo.com/HOTELANGOLO/hotel.html
+Email: 
+
+4218. Albergo ristorante Vittoria
+ID: 0ff95949-928c-43ae-994b-f37e809e614a
+Slug: albergo-ristorante-vittoria-arborio
+Nome: Albergo ristorante Vittoria
+Comune / Provincia: Arborio
+Indirizzo: Piazza Verdi, 1, 13048 Santhià VC
+Coordinate: Lat 45.364206, Lng 8.17985
+Website: —
+Email: 
+
+4219. Albergo Tina
+ID: 0af44e7d-0ee5-4dd1-ac24-72e204a08d51
+Slug: albergo-tina-arborio
+Nome: Albergo Tina
+Comune / Provincia: Arborio
+Indirizzo: Via G. Matteotti, 21, 13836 Cossato BI
+Coordinate: Lat 45.570555, Lng 8.176177
+Website: http://www.albergotina.it/
+Email: 
+
+4220. B&b Villa Sofia CIN IT003065B4KE2KB9YH
+ID: f993edbf-c22e-473c-b72a-df6637f7ad64
+Slug: b-b-villa-sofia-cin-it003065b4ke2kb9yh-arborio
+Nome: B&b Villa Sofia CIN IT003065B4KE2KB9YH
+Comune / Provincia: Arborio
+Indirizzo: Via Don Giovanni Francione, 28073 Fara Novarese NO
+Coordinate: Lat 45.55106, Lng 8.463188
+Website: http://www.villasofiafaranovarese.it/
+Email: 
+
+4221. Casa Il Grappolo
+ID: ab95c62a-4fd4-4adc-a3cb-e1c9d06ae1c7
+Slug: casa-il-grappolo-arborio
+Nome: Casa Il Grappolo
+Comune / Provincia: Arborio
+Indirizzo: Piazza Umberto 1°, 2, 28015 Agnellengo NO
+Coordinate: Lat 45.568223, Lng 8.542126
+Website: https://www.casailgrappolo.com/
+Email: 
+
+4222. Cravero Osteria Contemporanea - Rooms
+ID: 236dedab-58fc-412a-b5d8-a57d7801ba58
+Slug: cravero-osteria-contemporanea-rooms-arborio
+Nome: Cravero Osteria Contemporanea - Rooms
+Comune / Provincia: Arborio
+Indirizzo: Via Novara, 8, 28010 Caltignaga NO
+Coordinate: Lat 45.515997, Lng 8.590702
+Website: https://www.gianpierocravero.it/
+Email: 
+
+4223. Hotel Ristorante Paladini
+ID: 9bc7b3b1-9721-48b0-a72a-43365d273882
+Slug: hotel-ristorante-paladini-arborio
+Nome: Hotel Ristorante Paladini
+Comune / Provincia: Arborio
+Indirizzo: Str. Complanare, 16, 13040 Carisio VC
+Coordinate: Lat 45.433954, Lng 8.218329
+Website: https://www.hotelpaladini.com/
+Email: 
+
+4224. La Bettola
+ID: 8dc3e525-62a8-4e14-9149-590d9a552bf7
+Slug: la-bettola-arborio
+Nome: La Bettola
+Comune / Provincia: Arborio
+Indirizzo: SS Vercelli-Biella, 4, 13040 Carisio VC
+Coordinate: Lat 45.444939, Lng 8.233047
+Website: http://www.labettolahotel.com/LABETTOLAHOTEL/
+Email: 
+
+4225. Locanda dei Tigli
+ID: 77ea15fa-619e-43e7-9151-8267e194f85b
+Slug: locanda-dei-tigli-arborio
+Nome: Locanda dei Tigli
+Comune / Provincia: Arborio
+Indirizzo: Frazione Ponzone, 260, 13835 Valdilana BI
+Coordinate: Lat 45.651979, Lng 8.179947
+Website: https://locanda-dei-tigli.migliorhotel.top/
+Email: 
+
+4226. Locanda della Stazione
+ID: 2aeafe85-883f-4efd-baa8-240c6226b8ca
+Slug: locanda-della-stazione-arborio
+Nome: Locanda della Stazione
+Comune / Provincia: Arborio
+Indirizzo: Via Francesco Cesone, 12, 13853 Lessona BI
+Coordinate: Lat 45.591546, Lng 8.188677
+Website: http://www.locandadellastazione.com/
+Email: 
+
+4227. Resort Al Castello - Hibou Bistrot
+ID: 4b55382f-ceb6-4db8-9e16-d973f2ab3611
+Slug: resort-al-castello-hibou-bistrot-arborio
+Nome: Resort Al Castello - Hibou Bistrot
+Comune / Provincia: Arborio
+Indirizzo: Via S. Giuseppe, 15, 28064 Sillavengo NO
+Coordinate: Lat 45.52044, Lng 8.438913
+Website: https://www.alcastello.it/?utm_source=gbp&utm_medium=organic%20%20%20%20%20%20%20%20%20%20https://hiboubistrot.plateform.app/welcome
+Email: 
+
+4228. Sole
+ID: 3911a93d-8d75-4ddd-855b-661b2fe87a3c
+Slug: sole-arborio
+Nome: Sole
+Comune / Provincia: Arborio
+Indirizzo: Via Borgosesia, 13045 Gattinara VC
+Coordinate: Lat 45.612411, Lng 8.347108
+Website: https://sole.italiatips.top/
+Email: 
+
+4229. Tenuta Valtoppa
+ID: d6bb788c-2f6d-4c31-97e1-119b5b6e6ab7
+Slug: tenuta-valtoppa-arborio
+Nome: Tenuta Valtoppa
+Comune / Provincia: Arborio
+Indirizzo: /B, Via Fiume Sesia, 1, 28064 Sillavengo NO
+Coordinate: Lat 45.513588, Lng 8.410158
+Website: http://www.tenutavaltoppa.it/
+Email: 
+
+4230. VICOLUNGO Glamour Lodge & Spa
+ID: 8f704a29-3ed4-4c2e-a403-c82826a255f3
+Slug: vicolungo-glamour-lodge-spa-arborio
+Nome: VICOLUNGO Glamour Lodge & Spa
+Comune / Provincia: Arborio
+Indirizzo: Via Case Sparse, 1, 28060 Vicolungo NO
+Coordinate: Lat 45.47921, Lng 8.427481
+Website: https://vicolungolodge.ondaland.it/
+Email: 
+
+4231. Agriturismo Costa Verde
+ID: 3652b1b8-ffda-435f-b489-089546057f52
+Slug: agriturismo-costa-verde-arbus
+Nome: Agriturismo Costa Verde
+Comune / Provincia: Arbus
+Indirizzo: Località Pitzuamu, 09031 Arbus VS
+Coordinate: Lat 39.571772, Lng 8.50829
+Website: http://www.agriturismocostaverde.com/
+Email: 
+
+4232. Agriturismo l'Aquila Arbus
+ID: ab5e97ad-4a3d-4e02-bc38-22cbd8160467
+Slug: agriturismo-l-aquila-arbus-arbus
+Nome: Agriturismo l'Aquila Arbus
+Comune / Provincia: Arbus
+Indirizzo: Loc. Punta Is Gennas, 09031 Arbus VS
+Coordinate: Lat 39.584272, Lng 8.513527
+Website: https://www.agriturismolaquila.com/
+Email: 
+
+4233. Agriturismo Rocce Bianche
+ID: b19bdb0a-70ff-46de-94d4-b3d080766dc6
+Slug: agriturismo-rocce-bianche-arbus
+Nome: Agriturismo Rocce Bianche
+Comune / Provincia: Arbus
+Indirizzo: Loc. Bidderdi, 09031 Arbus VS
+Coordinate: Lat 39.494984, Lng 8.523233
+Website: http://www.roccebianche.it/
+Email: 
+
+4234. Anima Sardinia
+ID: 04b40500-bce0-4843-9ff3-6b7b66d3d729
+Slug: anima-sardinia-arbus
+Nome: Anima Sardinia
+Comune / Provincia: Arbus
+Indirizzo: LOC. Gutturu Mandara S.P. 83 33,840 km 09010 Fluminimaggiore, 09010 fluminimnaggiore CI
+Coordinate: Lat 39.44667, Lng 8.448196
+Website: http://animahotel.it/
+Email: 
+
+4235. b&b antoclo
+ID: ce955b24-3072-40bc-8950-0326f628c20f
+Slug: b-b-antoclo-arbus
+Nome: b&b antoclo
+Comune / Provincia: Arbus
+Indirizzo: Via Sassari, 103, 09039 Villacidro VS
+Coordinate: Lat 39.455896, Lng 8.736793
+Website: —
+Email: 

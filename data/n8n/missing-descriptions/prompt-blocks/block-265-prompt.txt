@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+9241. Az. Agricola Agritur Maso Pra' Cavai
+ID: 35f37690-c333-4f22-ab75-70e2be59e9ed
+Slug: az-agricola-agritur-maso-pra-cavai-bleggio-superiore
+Nome: Az. Agricola Agritur Maso Pra' Cavai
+Comune / Provincia: Bleggio Superiore
+Indirizzo: Località Maton, 1, 38071 Madice TN
+Coordinate: Lat 46.021021, Lng 10.827215
+Website: http://www.masopracavai.com/
+Email: 
+
+9242. B&B Cappeler
+ID: 9ca38055-7865-459b-a02c-00d8823117c0
+Slug: b-b-cappeler-bleggio-superiore
+Nome: B&B Cappeler
+Comune / Provincia: Bleggio Superiore
+Indirizzo: Localita' Cappeler, 38079 Tione di Trento TN
+Coordinate: Lat 46.045099, Lng 10.716466
+Website: https://www.bbcappeler.it/
+Email: 
+
+9243. B&B Casa Gori
+ID: 871dd887-ef8a-43f4-94f2-354170dd7702
+Slug: b-b-casa-gori-bleggio-superiore
+Nome: B&B Casa Gori
+Comune / Provincia: Bleggio Superiore
+Indirizzo: Frazione Madice, 11, 38071 Madice TN
+Coordinate: Lat 46.023274, Lng 10.832458
+Website: http://www.casa-gori.it/
+Email: 
+
+9244. B&B da Erica
+ID: ade003a3-d26d-49b2-a702-73001e0f11e9
+Slug: b-b-da-erica-bleggio-superiore
+Nome: B&B da Erica
+Comune / Provincia: Bleggio Superiore
+Indirizzo: Frazione Madice, 15, 38071 Bleggio Superiore TN
+Coordinate: Lat 46.022734, Lng 10.832503
+Website: https://www.bbdaerica.com/
+Email: 
+
+9245. Hotel Carlone
+ID: d4161f68-9e0f-4c60-bf09-a68c6ebdd6d5
+Slug: hotel-carlone-bleggio-superiore
+Nome: Hotel Carlone
+Comune / Provincia: Bleggio Superiore
+Indirizzo: Via Roma, 40, 38087 Breguzzo TN
+Coordinate: Lat 46.006466, Lng 10.697698
+Website: http://www.hotelcarlone.it/
+Email: 
+
+9246. Hotel Delle Rose
+ID: a985b6a9-e68f-459f-9d6a-17e14c1ec10e
+Slug: hotel-delle-rose-bleggio-superiore
+Nome: Hotel Delle Rose
+Comune / Provincia: Bleggio Superiore
+Indirizzo: Via Arco, 34, 38074 Ceniga TN
+Coordinate: Lat 45.950855, Lng 10.900905
+Website: http://www.hotelgarnidellerose.com/
+Email: 
+
+9247. Hotel Posta
+ID: bf3cd34c-4fe1-42ca-bcfe-036a32ef5b8e
+Slug: hotel-posta-bleggio-superiore
+Nome: Hotel Posta
+Comune / Provincia: Bleggio Superiore
+Indirizzo: Via Cesare Battisti, 8, 38077 Ponte Arche TN
+Coordinate: Lat 46.034875, Lng 10.872161
+Website: http://www.postahotel.com/
+Email: 
+
+9248. Hotel Ristorante Bel Sit
+ID: b469540a-eac4-41a6-a2c9-988327387c95
+Slug: hotel-ristorante-bel-sit-bleggio-superiore
+Nome: Hotel Ristorante Bel Sit
+Comune / Provincia: Bleggio Superiore
+Indirizzo: Via G. Marconi, 34, 38077 Comano Terme TN
+Coordinate: Lat 46.036643, Lng 10.864661
+Website: http://www.hotelbelsit.eu/
+Email: 
+
+9249. Il Moleta Affittacamere
+ID: c664b28c-62b3-4d37-8c00-2cadc869f237
+Slug: il-moleta-affittacamere-bleggio-superiore
+Nome: Il Moleta Affittacamere
+Comune / Provincia: Bleggio Superiore
+Indirizzo: Frazione Rango, 37, 38071 Bleggio Superiore TN
+Coordinate: Lat 46.019026, Lng 10.81114
+Website: —
+Email: 
+
+9250. Piccolo Hotel Orlandi
+ID: 8b599971-acd9-47db-a548-08a59939cefd
+Slug: piccolo-hotel-orlandi-bleggio-superiore
+Nome: Piccolo Hotel Orlandi
+Comune / Provincia: Bleggio Superiore
+Indirizzo: Via Cesare Battisti, 198, 38077 Comano Terme TN
+Coordinate: Lat 46.039802, Lng 10.878598
+Website: http://www.piccolohotelorlandi.it/
+Email: 
+
+9251. Ristorante Albergo Dolomiti
+ID: 2b4405ca-c87d-4153-b8ac-31f80eec895c
+Slug: ristorante-albergo-dolomiti-bleggio-superiore
+Nome: Ristorante Albergo Dolomiti
+Comune / Provincia: Bleggio Superiore
+Indirizzo: Via 4 Novembre, 35, 38079 Tione di Trento TN
+Coordinate: Lat 46.042936, Lng 10.768137
+Website: http://hoteldolomitisaone.it/
+Email: 
+
+9252. Vital Hotel Flora
+ID: c353f79e-bb37-4717-bda6-f830415dc45f
+Slug: vital-hotel-flora-bleggio-superiore
+Nome: Vital Hotel Flora
+Comune / Provincia: Bleggio Superiore
+Indirizzo: Località Maso da Pont, 1, 38070 Stenico TN
+Coordinate: Lat 46.039447, Lng 10.866752
+Website: http://www.hotelfloracomano.it/
+Email: 
+
+9253. Albergo Ristorante Bigiù
+ID: a9747d6f-bba6-49f5-afa2-368de08f4e97
+Slug: albergo-ristorante-bigiu-blello
+Nome: Albergo Ristorante Bigiù
+Comune / Provincia: Blello
+Indirizzo: Via alle Fonti, 109, 24038 Sant'Omobono Terme BG
+Coordinate: Lat 45.820093, Lng 9.514007
+Website: http://www.bigiu.it/
+Email: 
+
+9254. Antica Locanda Roncaglia
+ID: 9f91e028-1a4a-4f8c-9d63-3984bdd5481e
+Slug: antica-locanda-roncaglia-blello
+Nome: Antica Locanda Roncaglia
+Comune / Provincia: Blello
+Indirizzo: Via Roncaglia, 21, 24030 Corna Imagna BG
+Coordinate: Lat 45.837498, Lng 9.542796
+Website: https://www.instagram.com/locandaroncaglia
+Email: 
+
+9255. Sole Agriturismo
+ID: d75f8d4c-5bcb-4242-b113-9878870cee0b
+Slug: sole-agriturismo-blello
+Nome: Sole Agriturismo
+Comune / Provincia: Blello
+Indirizzo: Via Cà Persico, 2, 24030 Locatello BG
+Coordinate: Lat 45.837674, Lng 9.527744
+Website: http://www.soleagriturismo.it/
+Email: 
+
+9256. Agriturismo Il Marrugio
+ID: 4cdb10ad-27b8-4bb5-b23e-69d6f65e62c5
+Slug: agriturismo-il-marrugio-blera
+Nome: Agriturismo Il Marrugio
+Comune / Provincia: Blera
+Indirizzo: Str. Borgherolo, 4, 01100 Viterbo VT
+Coordinate: Lat 42.358818, Lng 11.979011
+Website: http://www.ilmarrugio.com/
+Email: 
+
+9257. Agriturismo Le Quattro Stagioni
+ID: 8d9891e1-d0c7-418a-aa15-c39d8125fa13
+Slug: agriturismo-le-quattro-stagioni-blera
+Nome: Agriturismo Le Quattro Stagioni
+Comune / Provincia: Blera
+Indirizzo: Via Due Casali, 1g, 01100 Viterbo VT
+Coordinate: Lat 42.376142, Lng 12.077841
+Website: https://beb.it/quattrostagioni
+Email: 
+
+9258. Albatros Accommodations
+ID: d13dc690-8ca7-4928-9c45-e760410cd568
+Slug: albatros-accommodations-blera
+Nome: Albatros Accommodations
+Comune / Provincia: Blera
+Indirizzo: Str. S. Vivenzio, 51, 01100 Viterbo VT
+Coordinate: Lat 42.332883, Lng 11.965242
+Website: https://www.albatrosaccommodations.com/
+Email: 
+
+9259. B&B La Casetta di Ben
+ID: 78317260-daef-43e5-93ee-5ecffe412807
+Slug: b-b-la-casetta-di-ben-blera
+Nome: B&B La Casetta di Ben
+Comune / Provincia: Blera
+Indirizzo: Str. Tarallo, 01100 Viterbo VT
+Coordinate: Lat 42.346128, Lng 12.086207
+Website: https://bbcasettadiben.it/
+Email: 
+
+9260. B&b La Locanda Cistercense
+ID: ff91483d-40ab-4663-8f36-01cbcbc1bd67
+Slug: b-b-la-locanda-cistercense-blera
+Nome: B&b La Locanda Cistercense
+Comune / Provincia: Blera
+Indirizzo: Piazza del Duomo, 3, 01100 San Martino Al Cimino VT
+Coordinate: Lat 42.367616, Lng 12.127123
+Website: http://www.lalocandacistercense.com/
+Email: 
+
+9261. Forum Cassii
+ID: 7b8c8438-13cb-44cd-911b-616ce0ac8055
+Slug: forum-cassii-blera
+Nome: Forum Cassii
+Comune / Provincia: Blera
+Indirizzo: Strada Foro Cassio, snc, 01019 Vetralla VT
+Coordinate: Lat 42.329713, Lng 12.064158
+Website: —
+Email: 
+
+9262. Il Giardino dei Desideri
+ID: 3f332eb9-8a13-44d5-aece-ee763b9b843b
+Slug: il-giardino-dei-desideri-blera
+Nome: Il Giardino dei Desideri
+Comune / Provincia: Blera
+Indirizzo: Strada Cassia Sud, 57/C, 01100 Viterbo VT
+Coordinate: Lat 42.388478, Lng 12.089287
+Website: —
+Email: 
+
+9263. Il Giardino nell'Orto
+ID: 44b28395-4a91-4a87-928b-baf58041e967
+Slug: il-giardino-nell-orto-blera
+Nome: Il Giardino nell'Orto
+Comune / Provincia: Blera
+Indirizzo: località formale 11 VT 01019 Vetralla, 01019 Vetralla VT
+Coordinate: Lat 42.296619, Lng 11.986304
+Website: https://ilgiardinonellorto.com/
+Email: 
+
+9264. la staccionata bianca
+ID: 8fb47f89-2bf6-44e5-99d1-9218ea168287
+Slug: la-staccionata-bianca-blera
+Nome: la staccionata bianca
+Comune / Provincia: Blera
+Indirizzo: Str. Valle Legaccia, 13, 01100 Viterbo VT
+Coordinate: Lat 42.370741, Lng 12.06383
+Website: —
+Email: 
+
+9265. Le Pozze Terme
+ID: 10e52be4-f6bc-4225-90a1-5cfc01bfaa57
+Slug: le-pozze-terme-blera
+Nome: Le Pozze Terme
+Comune / Provincia: Blera
+Indirizzo: Strada Gavazzano, 18, 01100 Viterbo VT
+Coordinate: Lat 42.361648, Lng 12.069971
+Website: http://www.lepozze.it/
+Email: 
+
+9266. Agriturismo Al-Marnich - Lago di Como
+ID: 6c70bfc4-25ad-4f10-909a-0586943379dd
+Slug: agriturismo-al-marnich-lago-di-como-blessagno
+Nome: Agriturismo Al-Marnich - Lago di Como
+Comune / Provincia: Blessagno
+Indirizzo: Località Marnico, 8, 22020 Schignano CO
+Coordinate: Lat 45.920594, Lng 9.102743
+Website: https://www.agriturismo-como.bio/
+Email: 
+
+9267. Agriturismo La Cascina
+ID: 9e64201b-75fd-4597-8b1c-0241132ac53f
+Slug: agriturismo-la-cascina-blessagno
+Nome: Agriturismo La Cascina
+Comune / Provincia: Blessagno
+Indirizzo: Piazzo Sotto, 22023 San Fedele Intelvi CO
+Coordinate: Lat 45.963787, Lng 9.072903
+Website: http://www.lacascinagriturismo.it/
+Email: 
+
+9268. Albergo Ristorante Lavedo
+ID: 7a4ec478-9dcc-4324-83ed-d5d33a3e410c
+Slug: albergo-ristorante-lavedo-blessagno
+Nome: Albergo Ristorante Lavedo
+Comune / Provincia: Blessagno
+Indirizzo: Via Lavedo, 1, 22016 Tremezzina CO
+Coordinate: Lat 45.969115, Lng 9.193583
+Website: http://www.albergolavedo.com/
+Email: 
+
+9269. Casa Gianna
+ID: 8ee4ff49-e1ec-47de-ac9b-6fef6e784313
+Slug: casa-gianna-blessagno
+Nome: Casa Gianna
+Comune / Provincia: Blessagno
+Indirizzo: Via alla Chiesa, 6, 22023 Castiglione D'intelvi CO
+Coordinate: Lat 45.955406, Lng 9.090598
+Website: https://www.libro24.it/casa-gianna/
+Email: 
+
+9270. EDERAROOMS DI PEDUZZI AMALIO
+ID: 2bda4962-10f6-4eca-856b-c7894382e7f7
+Slug: ederarooms-di-peduzzi-amalio-blessagno
+Nome: EDERAROOMS DI PEDUZZI AMALIO
+Comune / Provincia: Blessagno
+Indirizzo: Via Roma, 41, 22020 Cerano D'intelvi CO
+Coordinate: Lat 45.944526, Lng 9.087583
+Website: —
+Email: 
+
+9271. Giardino tra i laghi
+ID: c2ce4de9-2e2c-46c0-9c3c-4fa44eba3785
+Slug: giardino-tra-i-laghi-blessagno
+Nome: Giardino tra i laghi
+Comune / Provincia: Blessagno
+Indirizzo: Via Tenente Rigamonti, 26A, 22023 Centro Valle Intelvi CO
+Coordinate: Lat 45.965554, Lng 9.083904
+Website: —
+Email: 
+
+9272. Hotel La Torre - Valle d'Intelvi, vicino al LAGO DI COMO e di LUGANO Castiglione d'Intelvi
+ID: f66fa91a-7afe-4d17-a78f-72494dd926cf
+Slug: hotel-la-torre-valle-d-intelvi-vicino-al-lago-di-blessagno
+Nome: Hotel La Torre - Valle d'Intelvi, vicino al LAGO DI COMO e di LUGANO Castiglione d'Intelvi
+Comune / Provincia: Blessagno
+Indirizzo: Via Roma, località Castiglione, 53, 22023 Centro Valle Intelvi CO
+Coordinate: Lat 45.955647, Lng 9.089169
+Website: https://www.albergolatorre.net/
+Email: 
+
+9273. Albergo Milano
+ID: af467e5a-6659-4830-8a07-2eead2b14f32
+Slug: albergo-milano-blevio
+Nome: Albergo Milano
+Comune / Provincia: Blevio
+Indirizzo: Via E. Caronti, 48, 22020 Blevio CO
+Coordinate: Lat 45.838619, Lng 9.103078
+Website: http://www.albergomilano1920.it/
+Email: 
+
+9274. B&B 104
+ID: e0279a92-f859-48b1-bd0c-d3a564959ffa
+Slug: b-b-104-blevio
+Nome: B&B 104
+Comune / Provincia: Blevio
+Indirizzo: Via E. Caronti, 104, 22020 Blevio CO
+Coordinate: Lat 45.846181, Lng 9.106575
+Website: http://www.bb104.it/
+Email: 
+
+9275. B&B Como A casa di Maria
+ID: 38e03185-202b-4494-a078-afb2db2f0c8b
+Slug: b-b-como-a-casa-di-maria-blevio
+Nome: B&B Como A casa di Maria
+Comune / Provincia: Blevio
+Indirizzo: Largo G. Silo, 15, 22100 Como CO
+Coordinate: Lat 45.794127, Lng 9.098202
+Website: http://caclerici.it/
+Email: 

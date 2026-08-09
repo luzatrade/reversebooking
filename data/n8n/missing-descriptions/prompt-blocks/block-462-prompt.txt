@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16136. Bed and Breakfast La Torre
+ID: 7604b15f-5552-4400-ad9f-78bae10f9551
+Slug: bed-and-breakfast-la-torre-cattolica-eraclea
+Nome: Bed and Breakfast La Torre
+Comune / Provincia: Cattolica Eraclea
+Indirizzo: Via Pergola, 1, 92010 Realmonte AG
+Coordinate: Lat 37.308879, Lng 13.433945
+Website: —
+Email: 
+
+16137. Eraclea Minoa Village S.R.L.
+ID: 7ef2a57e-4dc8-432f-8f2d-a4a651f72d4f
+Slug: eraclea-minoa-village-s-r-l-cattolica-eraclea
+Nome: Eraclea Minoa Village S.R.L.
+Comune / Provincia: Cattolica Eraclea
+Indirizzo: Viale Eracle, 2, 92011 Eraclea Minoa AG
+Coordinate: Lat 37.393251, Lng 13.285857
+Website: https://www.eracleaminoavillage.it/
+Email: 
+
+16138. LUMIE DI SICILIA
+ID: a3891a5a-2ba4-4ae9-b94b-6773ce00567f
+Slug: lumie-di-sicilia-cattolica-eraclea
+Nome: LUMIE DI SICILIA
+Comune / Provincia: Cattolica Eraclea
+Indirizzo: Via Platani PIANO, TERRA, 92014 Porto Empedocle AG
+Coordinate: Lat 37.301446, Lng 13.487087
+Website: https://evelynstravelexperience.eu/lumie-di-sicilia-porto-empedocle-italy
+Email: 
+
+16139. Scaturchi
+ID: 93b96726-fe3d-458a-a40f-c8ac9b6e2c36
+Slug: scaturchi-cattolica-eraclea
+Nome: Scaturchi
+Comune / Provincia: Cattolica Eraclea
+Indirizzo: Via Linosa, 92010 Punta Grande AG
+Coordinate: Lat 37.289755, Lng 13.484135
+Website: —
+Email: 
+
+16140. Torre Letus
+ID: 2e390c22-4b85-4652-9fd2-efdcb8d74b54
+Slug: torre-letus-cattolica-eraclea
+Nome: Torre Letus
+Comune / Provincia: Cattolica Eraclea
+Indirizzo: Via Volturno, 2, 92010 Montallegro AG
+Coordinate: Lat 37.391638, Lng 13.3499
+Website: https://torreletus.com/
+Email: 
+
+16141. Villa Maria Sofia scala dei turchi Realmonte Agrigento
+ID: fd13f7e5-8253-41d6-8947-2c50128842bf
+Slug: villa-maria-sofia-scala-dei-turchi-realmonte-agr-cattolica-eraclea
+Nome: Villa Maria Sofia scala dei turchi Realmonte Agrigento
+Comune / Provincia: Cattolica Eraclea
+Indirizzo: SP68, 169, 92010 Realmonte AG
+Coordinate: Lat 37.290288, Lng 13.475623
+Website: —
+Email: 
+
+16142. Amber Hotel - Cebu
+ID: 0e24a00a-ee5b-4769-94fd-e63ff18c6210
+Slug: amber-hotel-cebu-cebu
+Nome: Amber Hotel - Cebu
+Comune / Provincia: Cebu
+Indirizzo: Don Julio Llorente St, Cebu City, 6000 Cebu
+Coordinate: Lat 10.311117, Lng 123.891939
+Website: https://amberhotelcebu.com/
+Email: 
+
+16143. Bayfront Hotel Cebu - Capitol Site
+ID: ad2397dc-7748-4454-89fa-35dd92f553f2
+Slug: bayfront-hotel-cebu-capitol-site-cebu
+Nome: Bayfront Hotel Cebu - Capitol Site
+Comune / Provincia: Cebu
+Indirizzo: M.P. Yap, Corner F. Ramos Ext, Cebu City, 6000 Cebu
+Coordinate: Lat 10.313421, Lng 123.892964
+Website: https://www.bayfronthotelcebu.com/
+Email: 
+
+16144. Cebu Parklane International Hotel
+ID: 61eb1b81-00f5-48bb-97d1-890e3b117120
+Slug: cebu-parklane-international-hotel-cebu
+Nome: Cebu Parklane International Hotel
+Comune / Provincia: Cebu
+Indirizzo: N Escario St, Cebu City, 6000 Cebu
+Coordinate: Lat 10.320261, Lng 123.903079
+Website: https://www.parklanehotels.com.ph/cebu-parklane-international-hotel/
+Email: 
+
+16145. Cebu R Hotel
+ID: e5099fb2-d461-4c07-85c3-087ccfb6f614
+Slug: cebu-r-hotel-cebu
+Nome: Cebu R Hotel
+Comune / Provincia: Cebu
+Indirizzo: 101 Don Mariano Cui St, Cebu City, 6000 Cebu
+Coordinate: Lat 10.315408, Lng 123.890096
+Website: —
+Email: 
+
+16146. Crown Regency Hotel & Towers
+ID: 54359a69-1520-48d1-9d64-f191c61be274
+Slug: crown-regency-hotel-towers-cebu
+Nome: Crown Regency Hotel & Towers
+Comune / Provincia: Cebu
+Indirizzo: Osmeña Blvd, Cebu City, 6000 Cebu
+Coordinate: Lat 10.308013, Lng 123.894077
+Website: https://crownregencyhotelandtowers.top/
+Email: 
+
+16147. Cuarto Hotel Cebu
+ID: e4adcdb8-573d-46e4-80df-ee030bf104ca
+Slug: cuarto-hotel-cebu-cebu
+Nome: Cuarto Hotel Cebu
+Comune / Provincia: Cebu
+Indirizzo: Corner J.Llorente, and G, Don Gil Garcia St, Cebu City, 6000 Cebu
+Coordinate: Lat 10.311299, Lng 123.892052
+Website: https://www.facebook.com/cuartohotels/
+Email: 
+
+16148. Escario Central Hotel
+ID: 4336ed75-7b7d-41ab-8554-3439e34ef165
+Slug: escario-central-hotel-cebu
+Nome: Escario Central Hotel
+Comune / Provincia: Cebu
+Indirizzo: 8V9V+7JQ, N Escario St, Cebu City, 6000 Cebu
+Coordinate: Lat 10.317904, Lng 123.893527
+Website: —
+Email: 
+
+16149. Hamersons Hotel Cebu
+ID: d195cee6-ed37-4dc4-a89e-acc1d66f95cf
+Slug: hamersons-hotel-cebu-cebu
+Nome: Hamersons Hotel Cebu
+Comune / Provincia: Cebu
+Indirizzo: 0337 Don Mariano Cui St, Cebu City, 6000 Cebu
+Coordinate: Lat 10.313449, Lng 123.890813
+Website: https://cebu-hamersonshotels.com/
+Email: reservations@cebu-hamersonshotels.com
+
+16150. Holiday Plaza Hotel - Cebu City
+ID: 1985c412-85cc-4d7d-93e3-d40a76863dc6
+Slug: holiday-plaza-hotel-cebu-city-cebu
+Nome: Holiday Plaza Hotel - Cebu City
+Comune / Provincia: Cebu
+Indirizzo: F. Ramos St, Cebu City, 6000 Cebu
+Coordinate: Lat 10.308887, Lng 123.895293
+Website: http://www.holidayplazahotel.com/
+Email: 
+
+16151. Hotel Elizabeth Cebu
+ID: 98cc51cb-dd42-4c5f-b607-ce5b7f472485
+Slug: hotel-elizabeth-cebu-cebu
+Nome: Hotel Elizabeth Cebu
+Comune / Provincia: Cebu
+Indirizzo: 8W82+GVJ, Archbishop Reyes Ave, Cebu City, 6000 Cebu
+Coordinate: Lat 10.316629, Lng 123.902236
+Website: http://hotelelizabethincebu.com/
+Email: 
+
+16152. Lex Hotel Cebu
+ID: 0381a71c-45c2-4067-a868-dafc6d8d7464
+Slug: lex-hotel-cebu-cebu
+Nome: Lex Hotel Cebu
+Comune / Provincia: Cebu
+Indirizzo: Escario St., cor. Juana Osmena, Ext Juana Osmeña Extension Rd, Cebu City, 6000 Cebu
+Coordinate: Lat 10.317319, Lng 123.893422
+Website: https://www.lexhotels.ph/
+Email: reservations@lexhotels.ph
+
+16153. NS Royal Hotel
+ID: d70c79fd-6660-41a7-91b4-8be3d45752f0
+Slug: ns-royal-hotel-cebu
+Nome: NS Royal Hotel
+Comune / Provincia: Cebu
+Indirizzo: 8V6W+R3P Uptown Business District, Juana Osmeña St, Cebu City, 6000 Cebu
+Coordinate: Lat 10.312174, Lng 123.895262
+Website: https://nsroyalhotel.com/
+Email: nsroyalhotel@gmail.com
+
+16154. Pacific Pensionne House
+ID: cf07c77f-6efb-450c-b679-cc288d3dd465
+Slug: pacific-pensionne-house-cebu
+Nome: Pacific Pensionne House
+Comune / Provincia: Cebu
+Indirizzo: 313-A Jones Avenue, Osmeña Blvd, Cebu City, 6000 Cebu
+Coordinate: Lat 10.305495, Lng 123.895443
+Website: —
+Email: 
+
+16155. Primeway Suites Cebu
+ID: b835f1bb-0e1f-4cb8-83e4-7c46522bddb4
+Slug: primeway-suites-cebu-cebu
+Nome: Primeway Suites Cebu
+Comune / Provincia: Cebu
+Indirizzo: 3rd Floor, Primeway Plaza, G/F Space #3 and #4A, 176 F. Ramos St, Cebu City, 6000 Cebu
+Coordinate: Lat 10.308971, Lng 123.894884
+Website: http://www.primewaysuitescebu.com/
+Email: 
+
+16156. Rajah Park Hotel
+ID: 3b21f097-a99b-4bc3-83cf-a8c93f984104
+Slug: rajah-park-hotel-cebu
+Nome: Rajah Park Hotel
+Comune / Provincia: Cebu
+Indirizzo: Benigno DU Building, Fuente Osmeña Cir, Cebu City, 6000 Cebu
+Coordinate: Lat 10.310368, Lng 123.893791
+Website: http://www.rajahparkhotelcebu.com/
+Email: 
+
+16157. Artemis Hotel Cefalù
+ID: ea740fc7-fea1-4aa0-8dbb-7d4028237180
+Slug: artemis-hotel-cefalu-cefal
+Nome: Artemis Hotel Cefalù
+Comune / Provincia: Cefal�
+Indirizzo: Via Roma, 101, 90015 Cefalù PA
+Coordinate: Lat 38.033081, Lng 14.016067
+Website: https://www.artemiscefalu.it/it/artemis-hotel/
+Email: 
+
+16158. Astro Suite Hotel RTA 4 stelle
+ID: 0886c5da-5c73-435e-868a-d06606051c89
+Slug: astro-suite-hotel-rta-4-stelle-cefal
+Nome: Astro Suite Hotel RTA 4 stelle
+Comune / Provincia: Cefal�
+Indirizzo: Lungomare Giuseppe Giardina, 90015 Cefalù PA
+Coordinate: Lat 38.035085, Lng 14.015666
+Website: https://www.astrohotel.it/
+Email: 
+
+16159. Blue Bay
+ID: 0d9d594f-b52c-45e3-9a6c-895f1cc1e537
+Slug: blue-bay-cefal
+Nome: Blue Bay
+Comune / Provincia: Cefal�
+Indirizzo: Via Cavallaro, 18, 90015 Cefalù PA
+Coordinate: Lat 38.033014, Lng 14.038599
+Website: http://www.bluebaycefalu.it/
+Email: 
+
+16160. Cefalù Sea Palace
+ID: c9857c73-9171-4be2-ba61-6bf9c2ef4f84
+Slug: cefalu-sea-palace-cefal
+Nome: Cefalù Sea Palace
+Comune / Provincia: Cefal�
+Indirizzo: Lungomare Giuseppe Giardina, snc, 90015 Cefalù PA
+Coordinate: Lat 38.033952, Lng 14.013049
+Website: http://www.cefaluseapalace.it/
+Email: 
+
+16161. Emerald Hotel Residence Cefalu
+ID: 98db48de-e79c-4ff1-83e8-a62f0e8bdc52
+Slug: emerald-hotel-residence-cefalu-cefal
+Nome: Emerald Hotel Residence Cefalu
+Comune / Provincia: Cefal�
+Indirizzo: Via Cefalù, 90015 Sant'Ambrogio PA
+Coordinate: Lat 38.01784, Lng 14.081681
+Website: https://www.emeraldcefalu.com/
+Email: 
+
+16162. Hotel - Residence Calanica
+ID: 2987b61e-d494-4545-9395-48ba47833b14
+Slug: hotel-residence-calanica-cefal
+Nome: Hotel - Residence Calanica
+Comune / Provincia: Cefal�
+Indirizzo: Via della, Via della Calagrande, 90015 Cefalù PA
+Coordinate: Lat 38.030247, Lng 13.993546
+Website: http://www.calanica.it/
+Email: 
+
+16163. Hotel Alberi del Paradiso - Cefalù
+ID: 8d183a39-4bfe-4985-8ac3-9f68ea82dc6b
+Slug: hotel-alberi-del-paradiso-cefalu-cefal
+Nome: Hotel Alberi del Paradiso - Cefalù
+Comune / Provincia: Cefal�
+Indirizzo: Via dei Mulini, 18/20, 90015 Cefalù PA
+Coordinate: Lat 38.028873, Lng 14.014853
+Website: http://www.alberidelparadiso.it/
+Email: 
+
+16164. Hotel Kalura
+ID: 67121f96-4ec3-49b6-bda3-db30a5aba883
+Slug: hotel-kalura-cefal
+Nome: Hotel Kalura
+Comune / Provincia: Cefal�
+Indirizzo: Via Cavallaro, 13, 90015 Cefalù PA
+Coordinate: Lat 38.03397, Lng 14.038234
+Website: http://www.hotelkalura.com/
+Email: 
+
+16165. Hotel Le Calette
+ID: 6c10bf50-8dcd-4a9c-a4a9-7205bd799944
+Slug: hotel-le-calette-cefal
+Nome: Hotel Le Calette
+Comune / Provincia: Cefal�
+Indirizzo: V. Angela di Francesca, 1, 90015 Cefalù PA
+Coordinate: Lat 38.034242, Lng 14.036359
+Website: https://www.lecalette.it/
+Email: 
+
+16166. Hotel Mediterraneo
+ID: 9b47a5f5-f6dd-466a-8b0a-8e1ff102ef55
+Slug: hotel-mediterraneo-cefal
+Nome: Hotel Mediterraneo
+Comune / Provincia: Cefal�
+Indirizzo: Via Antonio Gramsci, 2, 90015 Cefalù PA
+Coordinate: Lat 38.033189, Lng 14.018492
+Website: https://htlmediterraneo.it/it/
+Email: 
+
+16167. HOTEL RIVA DEL SOLE CEFALU'
+ID: 0d215679-b816-4457-a0d8-3f210ebc6bb9
+Slug: hotel-riva-del-sole-cefalu-cefal
+Nome: HOTEL RIVA DEL SOLE CEFALU'
+Comune / Provincia: Cefal�
+Indirizzo: Viale, Lungomare Giuseppe Giardina, n.25, 90015 Cefalù PA
+Coordinate: Lat 38.036232, Lng 14.017935
+Website: http://www.rivadelsole.com/
+Email: 
+
+16168. Hotel Santa Lucia Le Sabbie D'Oro
+ID: 53a1f76b-2af7-42f2-8be4-26595cd0e65d
+Slug: hotel-santa-lucia-le-sabbie-d-oro-cefal
+Nome: Hotel Santa Lucia Le Sabbie D'Oro
+Comune / Provincia: Cefal�
+Indirizzo: Contrada Santa Lucia, SS 113 Settentrionale Sicula, 90015 Cefalù PA
+Coordinate: Lat 38.031317, Lng 14.001593
+Website: http://lesabbiedoro.it/
+Email: 
+
+16169. Hotel Tourist
+ID: d2566679-559f-4e76-9e93-6befc30281de
+Slug: hotel-tourist-cefal
+Nome: Hotel Tourist
+Comune / Provincia: Cefal�
+Indirizzo: Lungomare Giuseppe Giardina, 145, 90015 Cefalù PA
+Coordinate: Lat 38.032349, Lng 14.007683
+Website: https://www.touristhotel.it/
+Email: 
+
+16170. Hotel Vallegrande Nature Resort Cefalù by Geocharme - CIN IT082027A1N5RHY3WD
+ID: 06bccd8b-6ec1-48a3-8f6e-2cba11ceb8bf
+Slug: hotel-vallegrande-nature-resort-cefalu-by-geocha-cefal
+Nome: Hotel Vallegrande Nature Resort Cefalù by Geocharme - CIN IT082027A1N5RHY3WD
+Comune / Provincia: Cefal�
+Indirizzo: Contrada Vallegrande, 90015 Cefalù PA
+Coordinate: Lat 38.001974, Lng 14.072591
+Website: http://www.vallegrande.it/
+Email: 

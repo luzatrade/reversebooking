@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+596. B&B Al Caseificio
+ID: 0de83791-88f2-4232-83c7-584f3827e8d8
+Slug: b-b-al-caseificio-agnosine
+Nome: B&B Al Caseificio
+Comune / Provincia: Agnosine
+Indirizzo: Via Nazionale, 70, 25070 Barghe BS
+Coordinate: Lat 45.679032, Lng 10.406804
+Website: https://roomsit.cyou/al-caseificio-2lz6bp
+Email: 
+
+597. B&B L' Acero
+ID: ad55dd8f-64e0-4574-a865-8e1ee5634a89
+Slug: b-b-l-acero-agnosine
+Nome: B&B L' Acero
+Comune / Provincia: Agnosine
+Indirizzo: Via S. Giovanni, 9, 25070 Casto BS
+Coordinate: Lat 45.694446, Lng 10.319268
+Website: http://www.bnb-acero.it/
+Email: 
+
+598. B&B Settesette6
+ID: 231a201c-1808-44a3-9d24-33653fd36548
+Slug: b-b-settesette6-agnosine
+Nome: B&B Settesette6
+Comune / Provincia: Agnosine
+Indirizzo: Via Fossane, 15, 25070 Barghe BS
+Coordinate: Lat 45.6821, Lng 10.41334
+Website: https://settesette6.it/
+Email: 
+
+599. Bed & breakfast Isola Verde
+ID: c2721c37-d507-44c6-aae6-768e06cdae31
+Slug: bed-breakfast-isola-verde-agnosine
+Nome: Bed & breakfast Isola Verde
+Comune / Provincia: Agnosine
+Indirizzo: Via Resolvino, 4, 25060 Lodrino BS
+Coordinate: Lat 45.715995, Lng 10.281824
+Website: http://www.bebisolaverde.it/
+Email: 
+
+600. Borgo alla Sorgente, Lago di Garda, antica dimora
+ID: 0d60ec9c-450e-4caa-acdd-9a4bc249a865
+Slug: borgo-alla-sorgente-lago-di-garda-antica-dimora-agnosine
+Nome: Borgo alla Sorgente, Lago di Garda, antica dimora
+Comune / Provincia: Agnosine
+Indirizzo: Via Sopranico, 51, 25080 Vallio Terme BS
+Coordinate: Lat 45.611285, Lng 10.405471
+Website: http://www.borgoallasorgente.it/
+Email: 
+
+601. Corte Torchio B&B
+ID: c773a60c-7839-4f5e-8f26-aed8496fb4ac
+Slug: corte-torchio-b-b-agnosine
+Nome: Corte Torchio B&B
+Comune / Provincia: Agnosine
+Indirizzo: Via Odorici, 21, 25077 Trobiolo BS
+Coordinate: Lat 45.614927, Lng 10.504077
+Website: http://cortetorchio.com/
+Email: 
+
+602. DiVino Rooms Deluxe
+ID: bd8ab4f0-9168-438e-8909-829f6c656def
+Slug: divino-rooms-deluxe-agnosine
+Nome: DiVino Rooms Deluxe
+Comune / Provincia: Agnosine
+Indirizzo: Via Parrocchiale, 22/B, 25070 Sabbio Chiese BS
+Coordinate: Lat 45.656203, Lng 10.419874
+Website: http://www.piccolomondo1977.it/
+Email: 
+
+603. Hotel al Vecchio Palazzo
+ID: 1e4063c0-9857-4cc0-bcf3-c6f0daca3e4f
+Slug: hotel-al-vecchio-palazzo-agnosine
+Nome: Hotel al Vecchio Palazzo
+Comune / Provincia: Agnosine
+Indirizzo: Piazza A. Passerini, 5, 25070 Casto BS
+Coordinate: Lat 45.69429, Lng 10.319427
+Website: http://www.vecchiopalazzo.it/
+Email: 
+
+604. Hotel Igea
+ID: 8ea0d130-9d37-45ed-992f-29262555adff
+Slug: hotel-igea-agnosine
+Nome: Hotel Igea
+Comune / Provincia: Agnosine
+Indirizzo: Viale della Stazione, 15, 25122 Brescia BS
+Coordinate: Lat 45.533611, Lng 10.2125
+Website: http://www.hoteligea.net/
+Email: 
+
+605. La Sosta di Nozza Ristorante Hotel e Catering
+ID: d201d5e1-9ebc-4fa2-a6b7-91ba71d6dfd8
+Slug: la-sosta-di-nozza-ristorante-hotel-e-catering-agnosine
+Nome: La Sosta di Nozza Ristorante Hotel e Catering
+Comune / Provincia: Agnosine
+Indirizzo: Via T. Secchi, 117, 25078 Vestone BS
+Coordinate: Lat 45.697222, Lng 10.389444
+Website: http://www.lasostadinozza.it/
+Email: 
+
+606. Locanda Ferandi
+ID: 5f46c257-8afd-4da9-abb7-613242791ff4
+Slug: locanda-ferandi-agnosine
+Nome: Locanda Ferandi
+Comune / Provincia: Agnosine
+Indirizzo: Via Roma, 22, 25080 Vallio Terme BS
+Coordinate: Lat 45.610278, Lng 10.3925
+Website: —
+Email: 
+
+607. Ristorante Hotel Centrale
+ID: 14e56cbc-79db-4dc5-ba39-a375fe199fd6
+Slug: ristorante-hotel-centrale-agnosine
+Nome: Ristorante Hotel Centrale
+Comune / Provincia: Agnosine
+Indirizzo: Via Casimiro Bonomi, 2, 25078 Vestone BS
+Coordinate: Lat 45.71065, Lng 10.404539
+Website: https://www.hotelcentralevestone.it/
+Email: 
+
+608. Villa Cesarina
+ID: 26ee59fd-0269-4ca2-8275-a74c5dbf3f13
+Slug: villa-cesarina-agnosine
+Nome: Villa Cesarina
+Comune / Provincia: Agnosine
+Indirizzo: Via Roma, 63, 25080 Vallio Terme BS
+Coordinate: Lat 45.610384, Lng 10.394353
+Website: http://www.villacesarina.it/
+Email: 
+
+609. Agordo Cerbiatto
+ID: b28470b4-3405-434e-9967-f01cdcb12dbc
+Slug: agordo-cerbiatto-agordo
+Nome: Agordo Cerbiatto
+Comune / Provincia: Agordo
+Indirizzo: Via Campo dei Fiori, 11, 32021 Agordo BL
+Coordinate: Lat 46.282118, Lng 12.040666
+Website: http://www.bbdolomiti.it/
+Email: 
+
+610. Agordo Suite
+ID: 6f4fbe0b-7c42-41de-b236-6a2bb388a871
+Slug: agordo-suite-agordo
+Nome: Agordo Suite
+Comune / Provincia: Agordo
+Indirizzo: Viale Sommariva, 28, 32021 Agordo BL
+Coordinate: Lat 46.283756, Lng 12.033236
+Website: http://www.agordosuite.it/
+Email: 
+
+611. Agriturismo Busa dei Sbrase
+ID: 78ebc4df-b07a-465c-a144-3195749bec67
+Slug: agriturismo-busa-dei-sbrase-agordo
+Nome: Agriturismo Busa dei Sbrase
+Comune / Provincia: Agordo
+Indirizzo: via busa dei sbrase, 1, 32027 Taibon Agordino BL
+Coordinate: Lat 46.289856, Lng 12.01654
+Website: https://busadeisbrase.it/
+Email: 
+
+612. Albergo Dolomiti
+ID: bd2436ef-3865-4a25-b60f-c6375cdad1cd
+Slug: albergo-dolomiti-agordo
+Nome: Albergo Dolomiti
+Comune / Provincia: Agordo
+Indirizzo: Localita' Caverson, 1, 32020 Falcade BL
+Coordinate: Lat 46.350216, Lng 11.848948
+Website: http://www.caverson.it/
+Email: 
+
+613. Albergo Pensione 2 Angeli
+ID: 52768e84-4f27-4d3a-ad58-ef1e3365adb4
+Slug: albergo-pensione-2-angeli-agordo
+Nome: Albergo Pensione 2 Angeli
+Comune / Provincia: Agordo
+Indirizzo: Via Carrera, 6, 32021 Agordo BL
+Coordinate: Lat 46.28132, Lng 12.036634
+Website: https://albergo-pensione-2-angeli.metadaesplorare.top/
+Email: 
+
+614. Albergo Ristorante Monte Civetta
+ID: 833bde28-d3e4-459a-ada7-f94c3afe39df
+Slug: albergo-ristorante-monte-civetta-agordo
+Nome: Albergo Ristorante Monte Civetta
+Comune / Provincia: Agordo
+Indirizzo: Località Listolade, 44, 32027 Taibon Agordino BL
+Coordinate: Lat 46.315208, Lng 12.007366
+Website: https://albergo-ristorante-monte-civetta.avventurainitalia.top/
+Email: 
+
+615. Bed and Breakfast Montagna Antica
+ID: bd9da4f7-f497-4acd-823e-0d46d186bde8
+Slug: bed-and-breakfast-montagna-antica-agordo
+Nome: Bed and Breakfast Montagna Antica
+Comune / Provincia: Agordo
+Indirizzo: vicolo San Pietro, 2, 32021 Agordo BL
+Coordinate: Lat 46.280923, Lng 12.035563
+Website: http://www.montagnaantica.it/
+Email: 
+
+616. Bed and Breakfast Sól Fiorì
+ID: 9f63edb2-3a5d-44c7-bee0-80da5d08537e
+Slug: bed-and-breakfast-sol-fiori-agordo
+Nome: Bed and Breakfast Sól Fiorì
+Comune / Provincia: Agordo
+Indirizzo: Via Campo dei Fiori, 11, 32021 Agordo BL
+Coordinate: Lat 46.282155, Lng 12.040774
+Website: http://www.bbdolomiti.it/
+Email: 
+
+617. Hotel Alle Alpi
+ID: 3cf9dda9-25ee-46c6-babe-99b28b8c772c
+Slug: hotel-alle-alpi-agordo
+Nome: Hotel Alle Alpi
+Comune / Provincia: Agordo
+Indirizzo: Piazza Kennedy, 26, 32022 Alleghe BL
+Coordinate: Lat 46.406326, Lng 12.020422
+Website: http://www.allealpihotel.com/
+Email: 
+
+618. Hotel Alpenrose
+ID: 6312530b-3d60-4439-a9fb-46324b632fa0
+Slug: hotel-alpenrose-agordo
+Nome: Hotel Alpenrose
+Comune / Provincia: Agordo
+Indirizzo: Via Coldai, 85, 32022 Alleghe BL
+Coordinate: Lat 46.405739, Lng 12.026472
+Website: http://www.hotelalpenrosedolomiti.it/
+Email: 
+
+619. Hotel Chalet Giasenei - Dolomitic Experience
+ID: cfe9f20b-a8b1-4fb4-9648-9cb8d22f19b9
+Slug: hotel-chalet-giasenei-dolomitic-experience-agordo
+Nome: Hotel Chalet Giasenei - Dolomitic Experience
+Comune / Provincia: Agordo
+Indirizzo: Via Prà di Là, 4, 38050 Sagron Mis TN
+Coordinate: Lat 46.191743, Lng 11.942264
+Website: http://www.chaletgiasenei.com/
+Email: 
+
+620. Hotel Erice Agordo
+ID: 319f2374-968a-47df-88a4-2a71e295e0cd
+Slug: hotel-erice-agordo-agordo
+Nome: Hotel Erice Agordo
+Comune / Provincia: Agordo
+Indirizzo: Via IV Novembre, 13, 32021 Agordo BL
+Coordinate: Lat 46.285883, Lng 12.030703
+Website: https://www.hotelerice.it/
+Email: 
+
+621. Hotel Garni Roberta
+ID: 4aed6653-0b9e-4da1-94eb-209d29b823a5
+Slug: hotel-garni-roberta-agordo
+Nome: Hotel Garni Roberta
+Comune / Provincia: Agordo
+Indirizzo: Località Malga Ciapela, 68, 32023 Rocca Pietore BL
+Coordinate: Lat 46.431822, Lng 11.908875
+Website: https://www.garniroberta.com/?utm_source=googlelocal&utm_medium=organic&utm_campaign=localtab
+Email: 
+
+622. Hotel Pineta
+ID: 9f4a5d85-11ce-47bf-9b26-5a86179ad21f
+Slug: hotel-pineta-agordo
+Nome: Hotel Pineta
+Comune / Provincia: Agordo
+Indirizzo: Via Salpian, 18, 32020 Piè Falcade BL
+Coordinate: Lat 46.363333, Lng 11.894167
+Website: http://www.hotelpinetafalcade.it/
+Email: 
+
+623. Hotel Ristorante Pasticceria Stella Alpina
+ID: 3948558f-1adb-4369-a42d-7e89ee2e840c
+Slug: hotel-ristorante-pasticceria-stella-alpina-agordo
+Nome: Hotel Ristorante Pasticceria Stella Alpina
+Comune / Provincia: Agordo
+Indirizzo: Piazza Municipio, 7, 32020 Piè Falcade BL
+Coordinate: Lat 46.357954, Lng 11.873493
+Website: http://www.hotelstellalpina.com/
+Email: 
+
+624. Hotel San Giusto
+ID: 7895f5d5-0e11-47c7-902a-9b1f2455f329
+Slug: hotel-san-giusto-agordo
+Nome: Hotel San Giusto
+Comune / Provincia: Agordo
+Indirizzo: Via Fiòita, 2, 32020 Falcade BL
+Coordinate: Lat 46.354381, Lng 11.867968
+Website: https://www.hotelfalcadesangiusto.com/?utm_source=google-my-business
+Email: 
+
+625. Hotel Scoiattolo
+ID: 77c5401d-a0ce-4d97-9011-4538b43a7faf
+Slug: hotel-scoiattolo-agordo
+Nome: Hotel Scoiattolo
+Comune / Provincia: Agordo
+Indirizzo: Via Pineta, 23, 32020 Falcade BL
+Coordinate: Lat 46.362329, Lng 11.894266
+Website: http://www.hotelscoiattolo.net/
+Email: 
+
+626. Hotel Sporting
+ID: c7da5187-25c7-411a-8470-bfe55d3eda80
+Slug: hotel-sporting-agordo
+Nome: Hotel Sporting
+Comune / Provincia: Agordo
+Indirizzo: Via Pecol, 7, 32012 Val di Zoldo BL
+Coordinate: Lat 46.391771, Lng 12.105314
+Website: http://www.hotelsporting.net/
+Email: 
+
+627. HOTEL STELLA ALPINA
+ID: a50ace35-1726-4a62-8e09-b70e3dae0cfc
+Slug: hotel-stella-alpina-agordo
+Nome: HOTEL STELLA ALPINA
+Comune / Provincia: Agordo
+Indirizzo: Via Roma, 1, 32020 Voltago Agordino BL
+Coordinate: Lat 46.272276, Lng 12.006172
+Website: http://www.hotelstellaalpina.org/
+Email: 
+
+628. Hotel Villa Imperina
+ID: 63d91309-4647-4063-9831-6cb4d6c8855d
+Slug: hotel-villa-imperina-agordo
+Nome: Hotel Villa Imperina
+Comune / Provincia: Agordo
+Indirizzo: Via Pragrande, 5, 32021 Agordo BL
+Coordinate: Lat 46.275953, Lng 12.036628
+Website: http://villaimperina.it/
+Email: 
+
+629. Affittacamere L'Aurora
+ID: ab035f33-7c8e-4810-92cb-25cbc3dacbdc
+Slug: affittacamere-l-aurora-agosta
+Nome: Affittacamere L'Aurora
+Comune / Provincia: Agosta
+Indirizzo: V.le Ungheria, 84, 00039 Zagarolo RM
+Coordinate: Lat 41.8317, Lng 12.837005
+Website: —
+Email: 
+
+630. Agriturismo Le Cannucceta
+ID: cd8b22bb-f6d0-43d7-8af0-c3978420c7c5
+Slug: agriturismo-le-cannucceta-agosta
+Nome: Agriturismo Le Cannucceta
+Comune / Provincia: Agosta
+Indirizzo: str. Prov, 58a/km 6.600, 00030 Castel San Pietro Romano RM
+Coordinate: Lat 41.862522, Lng 12.915478
+Website: http://www.lecannucceta.it/
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+10816. Hotel Rely
+ID: 86a74a01-e81c-4906-b763-2aabfb4a1172
+Slug: hotel-rely-brenzone-sul-garda
+Nome: Hotel Rely
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via Cristoforo Colombo, 36, 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.712248, Lng 10.769468
+Website: http://www.hotelrely.com/
+Email: 
+
+10817. Hotel Residence Merano
+ID: 956cd9b7-da4d-45a5-9098-a3f0ae602f0a
+Slug: hotel-residence-merano-brenzone-sul-garda
+Nome: Hotel Residence Merano
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via D. Alighieri, 29, 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.663079, Lng 10.7287
+Website: http://www.hotelmerano.eu/
+Email: 
+
+10818. Hotel Sorriso
+ID: edaa1f7b-673a-4d48-b239-2ac68ca7abe2
+Slug: hotel-sorriso-brenzone-sul-garda
+Nome: Hotel Sorriso
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via G. Zanardelli, 26, 37010 Porto VR
+Coordinate: Lat 45.717708, Lng 10.774581
+Website: https://hotelsorrisobrenzone.com/
+Email: 
+
+10819. June Stay Lake Garda
+ID: 41dc1bb0-12e4-40f2-846b-6c42b02634c9
+Slug: june-stay-lake-garda-brenzone-sul-garda
+Nome: June Stay Lake Garda
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via Gardesana, 56, 37010 Assenza VR
+Coordinate: Lat 45.728013, Lng 10.781456
+Website: https://june-six-hotels.com/en/hotels/june-stay-lake-garda/
+Email: 
+
+10820. Lake Front Hotel Brenzone
+ID: 5a6c9d63-c78d-4f81-b9f3-137e4b12fde5
+Slug: lake-front-hotel-brenzone-brenzone-sul-garda
+Nome: Lake Front Hotel Brenzone
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via XX Settembre, 26, 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.707564, Lng 10.766518
+Website: https://www.hotelbrenzone.eu/?utm_source=GoogleMyBusiness&utm_medium=KlickWebsite&utm_campaign=GoogleMyBusiness
+Email: 
+
+10821. Piccolo Hotel
+ID: 5c58ff2a-bc44-497e-bd6a-213312446a42
+Slug: piccolo-hotel-brenzone-sul-garda
+Nome: Piccolo Hotel
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via Lavesino, 12, 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.710643, Lng 10.768038
+Website: https://www.piccolohotel.eu/
+Email: 
+
+10822. Villa Isabella
+ID: 7c969d62-9d2f-40d6-b9dc-7d061eba02a5
+Slug: villa-isabella-brenzone-sul-garda
+Nome: Villa Isabella
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via Vecchia, 10 Fraz. Assenza, 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.727125, Lng 10.781584
+Website: http://www.villaisabella.com/
+Email: 
+
+10823. Albergo Ristorante Leon d'Oro
+ID: 283f6699-cc4d-48e1-8556-eedda95d2e95
+Slug: albergo-ristorante-leon-d-oro-brescello
+Nome: Albergo Ristorante Leon d'Oro
+Comune / Provincia: Brescello
+Indirizzo: Viale Antonio Fratti, 4, 43121 Parma PR
+Coordinate: Lat 44.808538, Lng 10.330303
+Website: http://www.leondoroparma.com/
+Email: 
+
+10824. Antica Grancia Benedettina
+ID: 55291efc-7ae2-4d67-ac98-e040bea39c39
+Slug: antica-grancia-benedettina-brescello
+Nome: Antica Grancia Benedettina
+Comune / Provincia: Brescello
+Indirizzo: Corte di Sanguigna Sanguigna, 136, 43052 Colorno PR
+Coordinate: Lat 44.951532, Lng 10.352215
+Website: https://www.anticagrancia.it/
+Email: 
+
+10825. Antico Casale Caroli
+ID: 2880a82a-cd14-4ba8-9bd2-3a24b19fbe11
+Slug: antico-casale-caroli-brescello
+Nome: Antico Casale Caroli
+Comune / Provincia: Brescello
+Indirizzo: Via Canalino, 1, 42043 Gattatico RE
+Coordinate: Lat 44.799443, Lng 10.491707
+Website: http://www.anticocasalecaroli.it/
+Email: 
+
+10826. Hotel Brixellum
+ID: 425566b3-65b2-4a76-a267-684f7764b942
+Slug: hotel-brixellum-brescello
+Nome: Hotel Brixellum
+Comune / Provincia: Brescello
+Indirizzo: Via F. Cavallotti, 58, 42041 Brescello RE
+Coordinate: Lat 44.900827, Lng 10.5123
+Website: https://brixellum.top/
+Email: 
+
+10827. Hotel Don Camillo
+ID: 304a3e6d-0515-46cf-8555-087289c32d84
+Slug: hotel-don-camillo-brescello
+Nome: Hotel Don Camillo
+Comune / Provincia: Brescello
+Indirizzo: Via Strada della Cisa, 60, 42041 Brescello RE
+Coordinate: Lat 44.887843, Lng 10.499585
+Website: https://hoteldoncamillobrescello.top/
+Email: 
+
+10828. Rooms Don Alfonso
+ID: b2b44796-55a1-4350-9e12-1b054180bbfb
+Slug: rooms-don-alfonso-brescello
+Nome: Rooms Don Alfonso
+Comune / Provincia: Brescello
+Indirizzo: Via Emilia Est, 1/A, 43121 Parma PR
+Coordinate: Lat 44.798498, Lng 10.339843
+Website: https://www.roomsdonalfonso.it/
+Email: 
+
+10829. Villino della Duchessa
+ID: 4164bed8-b55c-4d18-aaba-a28d4e83a970
+Slug: villino-della-duchessa-brescello
+Nome: Villino della Duchessa
+Comune / Provincia: Brescello
+Indirizzo: Via Cagliari, 7, 43122 Parma PR
+Coordinate: Lat 44.814503, Lng 10.330168
+Website: https://www.villinodelladuchessa.com/
+Email: 
+
+10830. Affittacamere Bellafiora
+ID: 9401d87c-a28e-4cea-a74f-cd59c7752311
+Slug: affittacamere-bellafiora-bresimo
+Nome: Affittacamere Bellafiora
+Comune / Provincia: Bresimo
+Indirizzo: Via Bellafiora, 18, 60027 Osimo AN
+Coordinate: Lat 43.505977, Lng 13.492624
+Website: http://www.bellafiora.it/
+Email: 
+
+10831. Agriroom
+ID: 08d31513-5494-4a59-8895-9c0eeade3f4b
+Slug: agriroom-bresimo
+Nome: Agriroom
+Comune / Provincia: Bresimo
+Indirizzo: Mocenigo di Rumo, via san Vigilio 12 Via san Vigilio 12, Mocenigo di, 38020 Rumo TN
+Coordinate: Lat 46.451709, Lng 11.009808
+Website: http://www.agriroom.it/
+Email: 
+
+10832. Agritur Malga Bordolona Trento – Agriturismo Trento, Punto Ristoro Trento, Prodotti Tipici Trento
+ID: 277a3933-3c4a-4127-92af-e83a5df53ccb
+Slug: agritur-malga-bordolona-trento-agriturismo-trent-bresimo
+Nome: Agritur Malga Bordolona Trento – Agriturismo Trento, Punto Ristoro Trento, Prodotti Tipici Trento
+Comune / Provincia: Bresimo
+Indirizzo: Località Bresimo snc, 38020 Bresimo TN
+Coordinate: Lat 46.432346, Lng 10.889189
+Website: —
+Email: 
+
+10833. B&B Butterfly
+ID: 2d6a2a4d-80cd-4afb-a07f-3e506e7349ed
+Slug: b-b-butterfly-bresimo
+Nome: B&B Butterfly
+Comune / Provincia: Bresimo
+Indirizzo: Località Baselga, 17, 38020 Bresimo TN
+Coordinate: Lat 46.415673, Lng 10.985285
+Website: —
+Email: 
+
+10834. Dimora la Meridiana
+ID: 6545a6e7-c19a-4364-bc0a-40be4ced1991
+Slug: dimora-la-meridiana-bresimo
+Nome: Dimora la Meridiana
+Comune / Provincia: Bresimo
+Indirizzo: Via Stenico, 5, 38095 Coltura TN
+Coordinate: Lat 46.058473, Lng 10.793845
+Website: http://visittrentino.info/it
+Email: 
+
+10835. Hotel Terme
+ID: c25ac20f-bbbb-4b19-b747-13895d13f626
+Slug: hotel-terme-bresimo
+Nome: Hotel Terme
+Comune / Provincia: Bresimo
+Indirizzo: Localita' Le Acque, 38020 Bresimo TN
+Coordinate: Lat 46.411553, Lng 10.957242
+Website: http://www.villagehotel.it/
+Email: 
+
+10836. Trattoria “Il Contadino” di Lorenza Pozzatti
+ID: 67c7c868-7f10-4ec0-a6ef-93b961662d5c
+Slug: trattoria-il-contadino-di-lorenza-pozzatti-bresimo
+Nome: Trattoria “Il Contadino” di Lorenza Pozzatti
+Comune / Provincia: Bresimo
+Indirizzo: Via Bevia, 7, 38020 Bresimo TN
+Coordinate: Lat 46.411859, Lng 10.969269
+Website: —
+Email: 
+
+10837. Atelier Guest House
+ID: 595f3b11-5e33-4ba5-ae37-cd637c531f46
+Slug: atelier-guest-house-bressana-bottarone
+Nome: Atelier Guest House
+Comune / Provincia: Bressana Bottarone
+Indirizzo: Viale Carlo Marx, 15, 27058 Voghera PV
+Coordinate: Lat 44.989402, Lng 9.007948
+Website: https://staynow.eu/atelier-voghera/
+Email: 
+
+10838. Suite Vogue Sforza
+ID: 8c3bbe5e-6d78-49c9-8437-2601b08d3be1
+Slug: suite-vogue-sforza-bressana-bottarone
+Nome: Suite Vogue Sforza
+Comune / Provincia: Bressana Bottarone
+Indirizzo: Via Carolina Agata Bellocchio, 28, 27058 Voghera PV
+Coordinate: Lat 44.991181, Lng 9.007128
+Website: http://www.suitevogue.com/
+Email: 
+
+10839. Albergo Garni' Cremona
+ID: 9fac4678-f135-4221-8b9e-27a92a9dcfc3
+Slug: albergo-garni-cremona-bressanone-brixen
+Nome: Albergo Garni' Cremona
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Viale Mozart, 2/C, 39042 Bressanone BZ
+Coordinate: Lat 46.709986, Lng 11.65144
+Website: http://www.garnicremona.it/
+Email: 
+
+10840. Albergo Millanderhof
+ID: 734d2e9e-773b-4727-83f6-15e82e9940ca
+Slug: albergo-millanderhof-bressanone-brixen
+Nome: Albergo Millanderhof
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Via Plose, 58, 39042 Bressanone BZ
+Coordinate: Lat 46.705687, Lng 11.659875
+Website: http://www.millanderhof.com/
+Email: 
+
+10841. Boutique Hotel Badhaus
+ID: eeb99865-dbc2-40c5-85a8-82a76ee6b2eb
+Slug: boutique-hotel-badhaus-bressanone-brixen
+Nome: Boutique Hotel Badhaus
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Via Ponte Aquila, 5, 39042 Bressanone BZ
+Coordinate: Lat 46.716772, Lng 11.658302
+Website: https://www.badhaus.it/
+Email: 
+
+10842. Cavallino d'Oro
+ID: 0e533435-e93e-4d67-a322-713329279200
+Slug: cavallino-d-oro-bressanone-brixen
+Nome: Cavallino d'Oro
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Via Brennero, 3, 39042 Bressanone BZ
+Coordinate: Lat 46.719637, Lng 11.655791
+Website: https://www.goldenesroessl.com/?utm_source=google&utm_medium=organic&utm_campaign=my_business
+Email: 
+
+10843. Dominik Alpine City Wellness Hotel Brixen - Adults only
+ID: eb2ce2c7-842e-4187-91b2-ba6b1603f705
+Slug: dominik-alpine-city-wellness-hotel-brixen-adults-bressanone-brixen
+Nome: Dominik Alpine City Wellness Hotel Brixen - Adults only
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Via Terzo di Sotto, 13, 39042 Bressanone BZ
+Coordinate: Lat 46.716711, Lng 11.661602
+Website: https://www.hoteldominik.com/
+Email: 
+
+10844. Forestis Dolomites
+ID: a827dcb8-47c5-4f08-bef0-0e990c4a5d43
+Slug: forestis-dolomites-bressanone-brixen
+Nome: Forestis Dolomites
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Palmschoß 22, 39042 Bressanone BZ
+Coordinate: Lat 46.675756, Lng 11.710031
+Website: http://www.forestis.it/
+Email: 
+
+10845. Grüner Baum
+ID: 3ea02d47-cf27-4b78-b7c2-0b0dba1088f1
+Slug: gruner-baum-bressanone-brixen
+Nome: Grüner Baum
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Via Stufles, 11, 39042 Bressanone BZ
+Coordinate: Lat 46.717261, Lng 11.659395
+Website: http://www.gruenerbaum.it/
+Email: 
+
+10846. Hotel Fernblick
+ID: c78d89f4-c6f4-4d57-a096-1997cfe4b549
+Slug: hotel-fernblick-bressanone-brixen
+Nome: Hotel Fernblick
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Via Obergasse 22 Fraz, Via San Leonardo, 39042 S. Andrea BZ
+Coordinate: Lat 46.718405, Lng 11.691814
+Website: http://www.fernblick.com/
+Email: 
+
+10847. Hotel Garni Heiseler
+ID: 0516ff5b-415a-452f-9c90-df6be1ea6a03
+Slug: hotel-garni-heiseler-bressanone-brixen
+Nome: Hotel Garni Heiseler
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Via degli Alpini, 8, 39042 Bressanone BZ
+Coordinate: Lat 46.712246, Lng 11.651939
+Website: http://www.heiseler.it/
+Email: 
+
+10848. Hotel Gasserhof
+ID: c412f33f-e03d-4545-a9fb-73aea6629590
+Slug: hotel-gasserhof-bressanone-brixen
+Nome: Hotel Gasserhof
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Dorfstraße, 31, 39042 St. Andrä, Autonome Provinz Bozen - Südtirol
+Coordinate: Lat 46.699599, Lng 11.676924
+Website: https://www.gasserhof.com/?utm_source=GoogleMyBusiness&utm_medium=KlickWebsite&utm_campaign=GoogleMyBusiness
+Email: 
+
+10849. Hotel Jarolim
+ID: b4569e7d-c531-4445-b256-b4cb2d749e44
+Slug: hotel-jarolim-bressanone-brixen
+Nome: Hotel Jarolim
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Bahnhofplatz, 1, 39042 Bressanone BZ
+Coordinate: Lat 46.71051, Lng 11.650574
+Website: http://www.hotel-jarolim.it/
+Email: 
+
+10850. Hotel Krone
+ID: d582c31b-054f-43aa-b379-a0f9c75ae7e3
+Slug: hotel-krone-bressanone-brixen
+Nome: Hotel Krone
+Comune / Provincia: Bressanone/Brixen
+Indirizzo: Via Fienili, 4, 39042 Bressanone BZ
+Coordinate: Lat 46.717527, Lng 11.655063
+Website: https://www.krone.bz/?utm_source=googlemybusiness&utm_campaign=GoogleMyBusiness
+Email: 

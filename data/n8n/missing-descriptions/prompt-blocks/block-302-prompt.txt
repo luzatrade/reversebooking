@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+10536. Hotel Bristol
+ID: 1a7e5304-3f2b-43cb-8ea1-81f2c5019de2
+Slug: hotel-bristol-bovisio-masciago
+Nome: Hotel Bristol
+Comune / Provincia: Bovisio-Masciago
+Indirizzo: Via Fratelli Bandiera, 100, 20099 Sesto San Giovanni MI
+Coordinate: Lat 45.534804, Lng 9.226695
+Website: http://www.hotelbristolsestomilano.com/
+Email: 
+
+10537. Hotel San Carlo
+ID: 81921c0e-983a-43ff-9f96-dbedf77795b0
+Slug: hotel-san-carlo-bovisio-masciago
+Nome: Hotel San Carlo
+Comune / Provincia: Bovisio-Masciago
+Indirizzo: Via Friuli, 41, 20031 Cesano Maderno MB
+Coordinate: Lat 45.631536, Lng 9.130565
+Website: http://www.sancarlohotel.net/
+Email: 
+
+10538. Hotel Victoria
+ID: 339a137e-037a-4f12-83e7-8c0146c31c32
+Slug: hotel-victoria-bovisio-masciago
+Nome: Hotel Victoria
+Comune / Provincia: Bovisio-Masciago
+Indirizzo: Via Como, 7, 20039 Varedo MB
+Coordinate: Lat 45.597678, Lng 9.145482
+Website: https://dishabrap.pw/hotel-victoria-zlvnh1g
+Email: 
+
+10539. Hotel York
+ID: 4e1a3e48-485e-41ce-be38-e66c4eee8b97
+Slug: hotel-york-bovisio-masciago
+Nome: Hotel York
+Comune / Provincia: Bovisio-Masciago
+Indirizzo: Viale Marche, 19, 20092 Cinisello Balsamo MI
+Coordinate: Lat 45.548701, Lng 9.226742
+Website: http://www.hotelyorkcinisello.it/
+Email: 
+
+10540. Pensione Paradiso
+ID: 071a437f-d900-4d97-bae6-48e0ef870628
+Slug: pensione-paradiso-bovisio-masciago
+Nome: Pensione Paradiso
+Comune / Provincia: Bovisio-Masciago
+Indirizzo: Via Magenta, 13, 20024 Garbagnate Milanese MI
+Coordinate: Lat 45.571923, Lng 9.080052
+Website: http://www.pensioneparadiso.com/
+Email: 
+
+10541. Agriturismo Villa Greggio Di Greggio Liana & C. S.S. Agricola
+ID: e3bb69fa-fbdb-4dfe-8bf8-8650b5b44226
+Slug: agriturismo-villa-greggio-di-greggio-liana-c-s-s-bovolenta
+Nome: Agriturismo Villa Greggio Di Greggio Liana & C. S.S. Agricola
+Comune / Provincia: Bovolenta
+Indirizzo: Via S. Martino, 9, 35020 Casalserugo PD
+Coordinate: Lat 45.307856, Lng 11.906958
+Website: http://www.agriturismovillagreggio.com/
+Email: 
+
+10542. Hotel Diana
+ID: 757d4ad1-7cf6-4282-bafb-010b3896ac73
+Slug: hotel-diana-bovolenta
+Nome: Hotel Diana
+Comune / Provincia: Bovolenta
+Indirizzo: Via Romea, 136, 35020 Legnaro PD
+Coordinate: Lat 45.341282, Lng 11.969885
+Website: https://www.hoteldianalegnaro.it/
+Email: 
+
+10543. Va Oltre - La Tenuta
+ID: b7d4b04a-7b8a-430d-bc0d-fe9dfe590207
+Slug: va-oltre-la-tenuta-bovolenta
+Nome: Va Oltre - La Tenuta
+Comune / Provincia: Bovolenta
+Indirizzo: Via Candiana, 2, 35024 Bovolenta PD
+Coordinate: Lat 45.261033, Lng 11.969343
+Website: https://www.vaoltrelatenuta.it/
+Email: 
+
+10544. Villa Casa Country
+ID: 8d7aca84-de19-41a8-a606-61ce26278b30
+Slug: villa-casa-country-bovolenta
+Nome: Villa Casa Country
+Comune / Provincia: Bovolenta
+Indirizzo: Via Gorgo, 35024 Bovolenta PD
+Coordinate: Lat 45.273738, Lng 11.914151
+Website: http://www.casa-country.it/
+Email: 
+
+10545. Best Western CTC Hotel Verona
+ID: d395dcb5-df3f-454a-9a5a-59a8475556f7
+Slug: best-western-ctc-hotel-verona-bovolone
+Nome: Best Western CTC Hotel Verona
+Comune / Provincia: Bovolone
+Indirizzo: Via Monte Pastello, 28, 37057 San Giovanni Lupatoto VR
+Coordinate: Lat 45.398833, Lng 11.015974
+Website: https://www.ctchotelverona.com/?utm_source=GoogleMyBusiness&utm_medium=organic&utm_campaign=mybusiness
+Email: 
+
+10546. Borgocinquanta
+ID: 01b8d5fe-1655-400f-94d8-136462ec5bda
+Slug: borgocinquanta-bovolone
+Nome: Borgocinquanta
+Comune / Provincia: Bovolone
+Indirizzo: Via Doltra, 50, 37063 Isola della Scala VR
+Coordinate: Lat 45.280472, Lng 10.99966
+Website: http://www.borgocinquanta.it/
+Email: 
+
+10547. Hotel Edelweiss Mantova
+ID: 86453de9-5948-4709-a6b4-57229530c352
+Slug: hotel-edelweiss-mantova-bovolone
+Nome: Hotel Edelweiss Mantova
+Comune / Provincia: Bovolone
+Indirizzo: Via Roma, 109, 46033 Castel d'Ario MN
+Coordinate: Lat 45.195064, Lng 10.962472
+Website: http://www.hoteledelweissmantova.com/#/(beddy:home)
+Email: 
+
+10548. Hotel Gelmini
+ID: c7213193-8766-44f8-a7f5-926011a132a0
+Slug: hotel-gelmini-bovolone
+Nome: Hotel Gelmini
+Comune / Provincia: Bovolone
+Indirizzo: Via Belfiore, 54, 37135 Verona VR
+Coordinate: Lat 45.383956, Lng 10.994722
+Website: http://www.hotelgelmini.it/
+Email: 
+
+10549. HOTEL RISTORANTE SASSO
+ID: ea22f7e3-46e5-494e-9f1d-08030a4609c1
+Slug: hotel-ristorante-sasso-bovolone
+Nome: HOTEL RISTORANTE SASSO
+Comune / Provincia: Bovolone
+Indirizzo: Via S. Pierino, 318, 37051 Bovolone VR
+Coordinate: Lat 45.239031, Lng 11.154772
+Website: http://www.hotelsasso.com/
+Email: 
+
+10550. Hotel-Residence Il Chiostro
+ID: c7663ac9-3590-4d67-8bd9-4e920b1dbd43
+Slug: hotel-residence-il-chiostro-bovolone
+Nome: Hotel-Residence Il Chiostro
+Comune / Provincia: Bovolone
+Indirizzo: Via Roma, 85, 37050 Oppeano VR
+Coordinate: Lat 45.306854, Lng 11.180026
+Website: http://www.hotelilchiostro.it/
+Email: 
+
+10551. Muraless Art Hotel Verona - World Hotels Crafted
+ID: 289c605a-3311-49c8-bcc7-e4e3eeca96a4
+Slug: muraless-art-hotel-verona-world-hotels-crafted-bovolone
+Nome: Muraless Art Hotel Verona - World Hotels Crafted
+Comune / Provincia: Bovolone
+Indirizzo: Via Scuderlando, 122, 37060 Castel d'Azzano VR
+Coordinate: Lat 45.373015, Lng 10.965386
+Website: http://www.muralessarthotel.com/
+Email: 
+
+10552. Tenuta Molino dei Sassi | Ristorante - Matrimoni - Eventi - Hotel
+ID: 4e163524-9adc-4b56-be47-d2fb12b0a3d5
+Slug: tenuta-molino-dei-sassi-ristorante-matrimoni-eve-bovolone
+Nome: Tenuta Molino dei Sassi | Ristorante - Matrimoni - Eventi - Hotel
+Comune / Provincia: Bovolone
+Indirizzo: Via Ronchesana, 2, 37059 Zevio VR
+Coordinate: Lat 45.372053, Lng 11.076703
+Website: http://www.tenutamolinodeisassi.it/
+Email: 
+
+10553. B&B Casa Mortarino in 15040 Bozzole (Alessandria)
+ID: e5e0307b-d22c-4507-963f-c03dd0704e66
+Slug: b-b-casa-mortarino-in-15040-bozzole-alessandria-bozzole
+Nome: B&B Casa Mortarino in 15040 Bozzole (Alessandria)
+Comune / Provincia: Bozzole
+Indirizzo: Via Vittorio Emanuele, 8, 15040 Bozzole AL
+Coordinate: Lat 45.06963, Lng 8.606087
+Website: http://www.casa-mortarino.com/
+Email: 
+
+10554. B&B La Corte delle Rose
+ID: 5f5310bb-c481-4f49-92b6-4c07a0ff9608
+Slug: b-b-la-corte-delle-rose-bozzole
+Nome: B&B La Corte delle Rose
+Comune / Provincia: Bozzole
+Indirizzo: Viale Marchesi della Valle, 17, 15040 Bozzole AL
+Coordinate: Lat 45.067889, Lng 8.6069
+Website: https://beb.it/lacortedellerosebozzole
+Email: 
+
+10555. Hotel Bozzole
+ID: 6c4ed0ae-4fbc-440f-99ef-530ab27c21ff
+Slug: hotel-bozzole-bozzole
+Nome: Hotel Bozzole
+Comune / Provincia: Bozzole
+Indirizzo: Vicolo Bonacossa, 1/11, 15040 Bozzole AL
+Coordinate: Lat 45.070132, Lng 8.605155
+Website: —
+Email: 
+
+10556. Agriturismo Corte Palazzo
+ID: 353e499b-f63e-4e4f-99bd-8b26dcfe1551
+Slug: agriturismo-corte-palazzo-bozzolo
+Nome: Agriturismo Corte Palazzo
+Comune / Provincia: Bozzolo
+Indirizzo: Str. Mosio, 14, 46010 Marcaria MN
+Coordinate: Lat 45.129454, Lng 10.510954
+Website: http://agriturismo-corte-palazzo.org.es/
+Email: 
+
+10557. Albergo Ristorante Al Duca Sabbioneta
+ID: 1e132aa0-e50c-4ef5-b936-ff6dd2766fe2
+Slug: albergo-ristorante-al-duca-sabbioneta-bozzolo
+Nome: Albergo Ristorante Al Duca Sabbioneta
+Comune / Provincia: Bozzolo
+Indirizzo: Via della Stamperia, 18, 46018 Sabbioneta MN
+Coordinate: Lat 44.996751, Lng 10.490792
+Website: http://www.albergoalduca.com/
+Email: 
+
+10558. B&B Il Glicine
+ID: a25f7ff0-e3a0-4cbe-9c55-249e8debd0ae
+Slug: b-b-il-glicine-bozzolo
+Nome: B&B Il Glicine
+Comune / Provincia: Bozzolo
+Indirizzo: Via Isole, 7 bis/A, 46010 San Martino Dall'argine MN
+Coordinate: Lat 45.098545, Lng 10.519092
+Website: http://ilglicinesanmartino.it/
+Email: 
+
+10559. BeB da Nina
+ID: 3c30976e-9624-44ee-9a12-e7e6293bbced
+Slug: beb-da-nina-bozzolo
+Nome: BeB da Nina
+Comune / Provincia: Bozzolo
+Indirizzo: Via Pesenti, 40, 46018 Sabbioneta MN
+Coordinate: Lat 45.001224, Lng 10.491817
+Website: —
+Email: 
+
+10560. Bed and breakfast-Borgo dei Duchi
+ID: 0bddad02-cf7c-40bc-8a2f-fc88798f0b79
+Slug: bed-and-breakfast-borgo-dei-duchi-bozzolo
+Nome: Bed and breakfast-Borgo dei Duchi
+Comune / Provincia: Bozzolo
+Indirizzo: Via Guglielmo Marconi, 88, 46017 Rivarolo Mantovano MN
+Coordinate: Lat 45.071094, Lng 10.43672
+Website: https://beb.it/borgodeiduchi/it/
+Email: 
+
+10561. CONFIDENCE HOTEL VIADANA (Ex Motel Giglio)
+ID: 59848e33-304f-408f-9f22-d43379c67139
+Slug: confidence-hotel-viadana-ex-motel-giglio-bozzolo
+Nome: CONFIDENCE HOTEL VIADANA (Ex Motel Giglio)
+Comune / Provincia: Bozzolo
+Indirizzo: Via Gerbolina, 1/H, 46019 Viadana MN
+Coordinate: Lat 44.942094, Lng 10.538515
+Website: https://confidencehotelviadana.it/
+Email: 
+
+10562. Hotel Il Duca Barbablù
+ID: 0f244704-eef6-4413-8d0b-8b83a57ea228
+Slug: hotel-il-duca-barbablu-bozzolo
+Nome: Hotel Il Duca Barbablù
+Comune / Provincia: Bozzolo
+Indirizzo: Via della Stamperia, 18, 46018 Sabbioneta MN
+Coordinate: Lat 44.996784, Lng 10.490726
+Website: http://www.ilducabarbablu.it/
+Email: 
+
+10563. Turismo Rurale "La Garzaga"
+ID: ad93d673-9860-4800-8ff7-5fdd1bbaec7c
+Slug: turismo-rurale-la-garzaga-bozzolo
+Nome: Turismo Rurale "La Garzaga"
+Comune / Provincia: Bozzolo
+Indirizzo: Via Garzaga, 8, 46040 Ceresara MN
+Coordinate: Lat 45.247623, Lng 10.511121
+Website: http://www.garzaga.com/
+Email: 
+
+10564. Villa Dei Tigli
+ID: 844ebe8a-fcc9-4f3f-b8b6-f4a2a0377086
+Slug: villa-dei-tigli-bozzolo
+Nome: Villa Dei Tigli
+Comune / Provincia: Bozzolo
+Indirizzo: Via Cantarana, 20, 46040 Rodigo MN
+Coordinate: Lat 45.198134, Lng 10.621571
+Website: https://www.allinsolutions.it/hotelvilladeitigli
+Email: 
+
+10565. Albergo Cantine Ascheri
+ID: 5fe2c5d3-d973-4633-a801-aeac56570416
+Slug: albergo-cantine-ascheri-bra
+Nome: Albergo Cantine Ascheri
+Comune / Provincia: Bra
+Indirizzo: Via G. Piumati, 25, 12042 Bra CN
+Coordinate: Lat 44.692469, Lng 7.848015
+Website: http://www.ascherihotel.it/
+Email: 
+
+10566. B&B Asfodelo Rooms e Camere
+ID: 250b0e59-903c-49cc-a5cb-48e6dd34522a
+Slug: b-b-asfodelo-rooms-e-camere-bra
+Nome: B&B Asfodelo Rooms e Camere
+Comune / Provincia: Bra
+Indirizzo: Via Vittorio Emanuele II, 23, 12042 Bra CN
+Coordinate: Lat 44.700867, Lng 7.848299
+Website: http://www.asfodelorooms.it/
+Email: 
+
+10567. B&B HOTEL Cherasco Langhe
+ID: a3239b78-9e46-4194-aac6-794e6687aba0
+Slug: b-b-hotel-cherasco-langhe-bra
+Nome: B&B HOTEL Cherasco Langhe
+Comune / Provincia: Bra
+Indirizzo: Via Savigliano, 116, 12062 Cherasco CN
+Coordinate: Lat 44.663248, Lng 7.779748
+Website: https://www.hotel-bb.com/it/hotel/cherasco-langhe?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext
+Email: 
+
+10568. Bed&Bra
+ID: 63383023-4fd9-4a97-a3b6-336d313555fe
+Slug: bed-bra-bra
+Nome: Bed&Bra
+Comune / Provincia: Bra
+Indirizzo: Via Tagliamento, 13, 12042 Bra CN
+Coordinate: Lat 44.690917, Lng 7.857424
+Website: http://www.bedandbra.it/
+Email: 
+
+10569. Bra Inn
+ID: 723c7a7e-9918-47b5-856f-ceadae0d2cea
+Slug: bra-inn-bra
+Nome: Bra Inn
+Comune / Provincia: Bra
+Indirizzo: Via Provvidenza, 8, 12042 Bra CN
+Coordinate: Lat 44.700089, Lng 7.849595
+Website: —
+Email: 
+
+10570. Guest house LangAmore
+ID: 44f565f2-e9d3-4a39-8e51-5927fd4803c8
+Slug: guest-house-langamore-bra
+Nome: Guest house LangAmore
+Comune / Provincia: Bra
+Indirizzo: Via Regina Margherita, 6, 12042 Pollenzo CN
+Coordinate: Lat 44.686001, Lng 7.895637
+Website: http://www.langamorepollenzo.it/
+Email: 

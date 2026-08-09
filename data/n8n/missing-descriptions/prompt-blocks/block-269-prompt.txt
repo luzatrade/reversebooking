@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+9381. La Mansarda B&B
+ID: 921ca988-f705-4f5f-a209-484f395c861a
+Slug: la-mansarda-b-b-boffalora-d-adda
+Nome: La Mansarda B&B
+Comune / Provincia: Boffalora d'Adda
+Indirizzo: Via Sant'Antonio, 5, 20066 Melzo MI
+Coordinate: Lat 45.498459, Lng 9.425517
+Website: https://www.bebmelzo.com/it/camera/la-mansarda?info[arrival_date]=31/01/2025&info[departure_date]=02/02/2025&info[total_adult]=2
+Email: 
+
+9382. B&B da Mary
+ID: dd9eb4ac-93fd-4cd9-8ce8-a643f1bbc479
+Slug: b-b-da-mary-boffalora-sopra-ticino
+Nome: B&B da Mary
+Comune / Provincia: Boffalora sopra Ticino
+Indirizzo: Via Camillo Benso Cavour, 17, 20013 Magenta MI
+Coordinate: Lat 45.470113, Lng 8.89016
+Website: http://www.bedandbreakfastdamary.it/
+Email: 
+
+9383. B&B La Corte Sul Naviglio
+ID: d040e4f4-d2de-48af-aec2-b5a3cb05bf1d
+Slug: b-b-la-corte-sul-naviglio-boffalora-sopra-ticino
+Nome: B&B La Corte Sul Naviglio
+Comune / Provincia: Boffalora sopra Ticino
+Indirizzo: Via Calderari, 4, 20010 Boffalora sopra Ticino MI
+Coordinate: Lat 45.466749, Lng 8.830928
+Website: https://www.lacortesulnaviglio.com/
+Email: 
+
+9384. B&B NIK900
+ID: cdaa9f4b-4365-4896-a5b7-9a9896ebde83
+Slug: b-b-nik900-boffalora-sopra-ticino
+Nome: B&B NIK900
+Comune / Provincia: Boffalora sopra Ticino
+Indirizzo: Via G. Garibaldi, 77, 20010 Boffalora Sopra Ticino MI
+Coordinate: Lat 45.472114, Lng 8.832459
+Website: http://www.bb-nik900.it/
+Email: 
+
+9385. Al Piccolo Scoglio - Room & Breakfast
+ID: 6cb3f266-6f26-4299-bbfc-d5ed9ef13b0d
+Slug: al-piccolo-scoglio-room-breakfast-bogliasco
+Nome: Al Piccolo Scoglio - Room & Breakfast
+Comune / Provincia: Bogliasco
+Indirizzo: Via Piero Schiaffino, 118, 16032 Camogli GE
+Coordinate: Lat 44.352218, Lng 9.151113
+Website: http://www.alpiccoloscoglio.it/
+Email: 
+
+9386. Albergo Diana
+ID: 24b01643-b04a-4c36-aea2-ba78ed5b3dea
+Slug: albergo-diana-bogliasco
+Nome: Albergo Diana
+Comune / Provincia: Bogliasco
+Indirizzo: Salita Inferiore di Santa Tecla, 20A, 16132 Genova GE
+Coordinate: Lat 44.408104, Lng 8.975444
+Website: http://locandadiana.com/
+Email: 
+
+9387. Albergo Novecento 1 stella
+ID: 88666959-7d16-4a00-bbfd-fa23b51d1cac
+Slug: albergo-novecento-1-stella-bogliasco
+Nome: Albergo Novecento 1 stella
+Comune / Provincia: Bogliasco
+Indirizzo: Via Gropallo, 4/interno 12, 16122 Genova GE
+Coordinate: Lat 44.409824, Lng 8.943867
+Website: http://www.albergonovecento.com/
+Email: 
+
+9388. B&B Gaslini & Mare
+ID: 7f9c8319-ffb9-49c3-b625-b2209578dda9
+Slug: b-b-gaslini-mare-bogliasco
+Nome: B&B Gaslini & Mare
+Comune / Provincia: Bogliasco
+Indirizzo: Via Redipuglia, 5, 16147 Genova GE
+Coordinate: Lat 44.392748, Lng 8.985382
+Website: https://sites.google.com/view/bbgaslini
+Email: 
+
+9389. B&B Villa Shiverty
+ID: 28677790-71f9-4608-8cc6-8d765e70f946
+Slug: b-b-villa-shiverty-bogliasco
+Nome: B&B Villa Shiverty
+Comune / Provincia: Bogliasco
+Indirizzo: Via XXV Aprile, 19, 16030 Pieve Ligure GE
+Coordinate: Lat 44.376973, Lng 9.080546
+Website: —
+Email: 
+
+9390. Bosmi Bed&Language Liguria
+ID: 5e85f81f-a2da-4fa9-817a-d0c698ce430f
+Slug: bosmi-bed-language-liguria-bogliasco
+Nome: Bosmi Bed&Language Liguria
+Comune / Provincia: Bogliasco
+Indirizzo: Via B. Cairoli, 44, 16030 Sori GE
+Coordinate: Lat 44.374486, Lng 9.106626
+Website: https://www.bedandlanguage.com/
+Email: 
+
+9391. Camping Genova Est
+ID: b39884e4-2263-47e4-b4ca-cff994ff2d53
+Slug: camping-genova-est-bogliasco
+Nome: Camping Genova Est
+Comune / Provincia: Bogliasco
+Indirizzo: Via Guglielmo Marconi, 16031 Località Cassa, Bogliasco GE
+Coordinate: Lat 44.380809, Lng 9.072078
+Website: https://www.camping-genova-est.it/
+Email: 
+
+9392. Guesthouse La Briosa Nicole
+ID: 02d3a3f7-e9da-44e9-9dbf-52acfbc3cbed
+Slug: guesthouse-la-briosa-nicole-bogliasco
+Nome: Guesthouse La Briosa Nicole
+Comune / Provincia: Bogliasco
+Indirizzo: Via XX Settembre, 36 nero/interno 7, 16121 Genova GE
+Coordinate: Lat 44.406338, Lng 8.936641
+Website: https://guesthouselabriosanicole.italia-it.info/it/
+Email: 
+
+9393. Hotel Esperia
+ID: c9bf9b4a-b09b-42c4-b2b3-18b115708604
+Slug: hotel-esperia-bogliasco
+Nome: Hotel Esperia
+Comune / Provincia: Bogliasco
+Indirizzo: Via Val Cismon, 1, 16167 Genova GE
+Coordinate: Lat 44.381782, Lng 9.040797
+Website: https://www.hotelesperia.it/
+Email: 
+
+9394. Locanda Göghin
+ID: 9e73c6a6-f8fd-4f48-8b0c-d3f7a876106b
+Slug: locanda-goghin-bogliasco
+Nome: Locanda Göghin
+Comune / Provincia: Bogliasco
+Indirizzo: Via Michele Massone, 1, 16030 Pieve Ligure GE
+Coordinate: Lat 44.375673, Lng 9.095149
+Website: https://www.locandagoghin.com/
+Email: 
+
+9395. RED AND BLUES MUSIC HOTEL GENOVA
+ID: 76611af3-a268-4ad6-a2c4-79253dce3471
+Slug: red-and-blues-music-hotel-genova-bogliasco
+Nome: RED AND BLUES MUSIC HOTEL GENOVA
+Comune / Provincia: Bogliasco
+Indirizzo: via A. Gramsci, 13, Via di Prè, 46r, 16126 Genova GE
+Coordinate: Lat 44.413778, Lng 8.926346
+Website: https://www.redandblues.it/
+Email: 
+
+9396. St. Martin House
+ID: 63b2cabc-55e7-40b2-a317-ab454c9fee31
+Slug: st-martin-house-bogliasco
+Nome: St. Martin House
+Comune / Provincia: Bogliasco
+Indirizzo: C.so Europa, 44/int 1, 16132 Genova GE
+Coordinate: Lat 44.406497, Lng 8.970789
+Website: https://stmartinhouse.it/
+Email: 
+
+9397. B&B Alpe Veglia
+ID: fffe03f9-649b-428d-9b31-558f077179df
+Slug: b-b-alpe-veglia-bognanco
+Nome: B&B Alpe Veglia
+Comune / Provincia: Bognanco
+Indirizzo: Via Colla, 57, 28868 Varzo VB
+Coordinate: Lat 46.208683, Lng 8.256461
+Website: http://alpe-veglia.org.es/
+Email: 
+
+9398. Bognanco Birra & Distillery
+ID: 9b2e3b91-82d6-40db-831e-28d84935af96
+Slug: bognanco-birra-distillery-bognanco
+Nome: Bognanco Birra & Distillery
+Comune / Provincia: Bognanco
+Indirizzo: Via Guglielmo Marconi, 1, 28842 Bognanco VB
+Coordinate: Lat 46.12305, Lng 8.20376
+Website: http://www.bognanco.shop/
+Email: 
+
+9399. Hotel Belvedere Wellness & SPA
+ID: cb824854-66f4-4f50-b7c0-6d8b2bd7d632
+Slug: hotel-belvedere-wellness-spa-bognanco
+Nome: Hotel Belvedere Wellness & SPA
+Comune / Provincia: Bognanco
+Indirizzo: Frazione Mozzio, 37, 28862 Crodo VB
+Coordinate: Lat 46.222602, Lng 8.307149
+Website: http://www.belvederemozzio.it/
+Email: 
+
+9400. La Cà Rustica
+ID: 4796a42d-6ae1-4742-8a4f-2eddd240928f
+Slug: la-ca-rustica-bognanco
+Nome: La Cà Rustica
+Comune / Provincia: Bognanco
+Indirizzo: Via Guglielmo Marconi, 25, 28842 Fonti VB
+Coordinate: Lat 46.122796, Lng 8.204978
+Website: https://www.facebook.com/lacarusticabognancofonti/
+Email: 
+
+9401. YolkiPalki CAMPING VILLAGE
+ID: 95a29062-3815-4bf4-b6b3-fe9f1f6a4c7c
+Slug: yolkipalki-camping-village-bognanco
+Nome: YolkiPalki CAMPING VILLAGE
+Comune / Provincia: Bognanco
+Indirizzo: Localita' Alpe Gomba, 21, 28842 Bognanco VB
+Coordinate: Lat 46.133761, Lng 8.194157
+Website: https://yolkipalki.it/
+Email: 
+
+9402. B&B La Cascina di Monia e Mario
+ID: 1e086a62-229f-4fff-ad5a-2e02c40a46d9
+Slug: b-b-la-cascina-di-monia-e-mario-bogogno
+Nome: B&B La Cascina di Monia e Mario
+Comune / Provincia: Bogogno
+Indirizzo: Via dei Cesari, 23, 28040 Borgo Ticino NO
+Coordinate: Lat 45.678141, Lng 8.59294
+Website: http://www.lacascinadimoniaemario.it/
+Email: 
+
+9403. B&B Villa Giardini Susanna
+ID: 9c19f607-8c41-4f6a-b65b-56fddd78198b
+Slug: b-b-villa-giardini-susanna-bogogno
+Nome: B&B Villa Giardini Susanna
+Comune / Provincia: Bogogno
+Indirizzo: Via Bogogno, 6/Veurno, 28013 Gattico-Veruno NO
+Coordinate: Lat 45.685914, Lng 8.528032
+Website: http://www.villagiardinisusanna.it/
+Email: 
+
+9404. Cascina Del Tempo Sospeso
+ID: acebfd25-cf39-41cf-8a08-ffa9e851461f
+Slug: cascina-del-tempo-sospeso-bogogno
+Nome: Cascina Del Tempo Sospeso
+Comune / Provincia: Bogogno
+Indirizzo: Via Casale Montecchio, 11, 28010 Bogogno NO
+Coordinate: Lat 45.651336, Lng 8.547539
+Website: http://cascinadeltemposospeso.com/
+Email: 
+
+9405. Il Glicine Centenario
+ID: 830b38a4-d35a-4eaf-832d-9f04f2ac8a8f
+Slug: il-glicine-centenario-bogogno
+Nome: Il Glicine Centenario
+Comune / Provincia: Bogogno
+Indirizzo: Via Casale Montecchio, 24/A, 28010 Bogogno NO
+Coordinate: Lat 45.65065, Lng 8.547601
+Website: http://ilglicinecentenario.it/
+Email: 
+
+9406. Relais Cà Nova
+ID: 0cb5fc55-c875-4aa3-9263-6fe2886dc4cf
+Slug: relais-ca-nova-bogogno
+Nome: Relais Cà Nova
+Comune / Provincia: Bogogno
+Indirizzo: Via IV Novembre, 31, 28010 Bogogno NO
+Coordinate: Lat 45.659342, Lng 8.529853
+Website: —
+Email: 
+
+9407. Agrodolce
+ID: e37871c1-6f04-49c2-bd94-f85decf4f8f6
+Slug: agrodolce-boissano
+Nome: Agrodolce
+Comune / Provincia: Boissano
+Indirizzo: Via Marici, 143, 17020 Boissano SV
+Coordinate: Lat 44.127768, Lng 8.222861
+Website: https://agrodolce.mystrikingly.com/
+Email: 
+
+9408. Albergo Excelsior
+ID: 6b1f195c-355e-4717-9bf5-b7a80ef54e00
+Slug: albergo-excelsior-boissano
+Nome: Albergo Excelsior
+Comune / Provincia: Boissano
+Indirizzo: Via Aurelia, 57, 17025 Loano SV
+Coordinate: Lat 44.13204, Lng 8.26109
+Website: http://www.hotelexcelsiorloano.it/
+Email: 
+
+9409. Albergo Villa Lina
+ID: 0677ae23-8f7e-456f-898c-82beffb1f7b5
+Slug: albergo-villa-lina-boissano
+Nome: Albergo Villa Lina
+Comune / Provincia: Boissano
+Indirizzo: Corso Europa, 11/13, 17025 Loano SV
+Coordinate: Lat 44.126674, Lng 8.25836
+Website: http://www.villalinaloano.it/
+Email: 
+
+9410. B&B La Casa dei Gelsi
+ID: 267b631e-8971-4d02-ac39-c66a5f8f5a64
+Slug: b-b-la-casa-dei-gelsi-boissano
+Nome: B&B La Casa dei Gelsi
+Comune / Provincia: Boissano
+Indirizzo: via Montocchio, 1, 17025 Loano SV
+Coordinate: Lat 44.131622, Lng 8.241176
+Website: https://beb.it/casadeigelsiloano
+Email: 
+
+9411. B&B Nostromo.Loano
+ID: 9327cc17-0ae2-4eb6-ae5d-07b4ae2d30ea
+Slug: b-b-nostromo-loano-boissano
+Nome: B&B Nostromo.Loano
+Comune / Provincia: Boissano
+Indirizzo: Via Giacomo Matteotti, 100, 17025 Loano SV
+Coordinate: Lat 44.134462, Lng 8.245863
+Website: https://www.bed-and-breakfast.it/it/liguria/casa-del-nostromo-loano/21919
+Email: 
+
+9412. Cà da Franca
+ID: 6b844768-9927-4b0f-8a8e-12f42713e8fb
+Slug: ca-da-franca-boissano
+Nome: Cà da Franca
+Comune / Provincia: Boissano
+Indirizzo: Via Tricolore d' Italia, 17020 Boissano SV
+Coordinate: Lat 44.134621, Lng 8.219834
+Website: https://www.bbcadafranca.it/
+Email: 
+
+9413. Hotel Concordia
+ID: dafea1e6-90eb-473e-8bde-3e10b23a9b4a
+Slug: hotel-concordia-boissano
+Nome: Hotel Concordia
+Comune / Provincia: Boissano
+Indirizzo: Corso Europa, 44, 17025 Loano SV
+Coordinate: Lat 44.124868, Lng 8.25621
+Website: http://www.concordialoano.it/
+Email: 
+
+9414. La torretta
+ID: ca8b564a-a551-4367-98b7-f3c9fa72f46c
+Slug: la-torretta-boissano
+Nome: La torretta
+Comune / Provincia: Boissano
+Indirizzo: 16, Via degli Alpini, 16 a/interno 1, 17025 Loano SV
+Coordinate: Lat 44.134464, Lng 8.241447
+Website: https://francescorecommends.eu/la-torretta-loano-italy
+Email: 
+
+9415. Lido Mazzini
+ID: ae2bb7b5-18d7-4ed9-8dd8-9b3e4b07c082
+Slug: lido-mazzini-boissano
+Nome: Lido Mazzini
+Comune / Provincia: Boissano
+Indirizzo: Piazzale Giuseppe Mazzini, 19, 17025 Loano SV
+Coordinate: Lat 44.123176, Lng 8.255454
+Website: —
+Email: 

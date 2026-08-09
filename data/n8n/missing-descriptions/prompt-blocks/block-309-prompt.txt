@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+10781. Ristorante Hotel Colonne
+ID: 83cdade3-b7ce-4f05-811b-93a08d2f07bd
+Slug: ristorante-hotel-colonne-brenta
+Nome: Ristorante Hotel Colonne
+Comune / Provincia: Brenta
+Indirizzo: Via Fincarà, 37, 21100 Varese VA
+Coordinate: Lat 45.860491, Lng 8.791209
+Website: http://www.albergocolonne.it/
+Email: 
+
+10782. AFFITTACAMERE CORTE VALDADIGE GUEST HOUSE
+ID: 9f8e254a-384f-4c57-840f-a5d448ba7b81
+Slug: affittacamere-corte-valdadige-guest-house-brentino-belluno
+Nome: AFFITTACAMERE CORTE VALDADIGE GUEST HOUSE
+Comune / Provincia: Brentino Belluno
+Indirizzo: Via Santuario, 9, 37020 Brentino Belluno VR
+Coordinate: Lat 45.641997, Lng 10.871793
+Website: http://www.valdadige360.com/
+Email: 
+
+10783. Agriturismo Revena farm guest house wine holiday
+ID: fd03e55e-9685-4826-9327-c041d32e8f8b
+Slug: agriturismo-revena-farm-guest-house-wine-holiday-brentino-belluno
+Nome: Agriturismo Revena farm guest house wine holiday
+Comune / Provincia: Brentino Belluno
+Indirizzo: Località Revena, 3, 37020 Brentino Belluno VR
+Coordinate: Lat 45.632624, Lng 10.875789
+Website: http://www.revena.it/
+Email: 
+
+10784. Agriturismo Tre Forti
+ID: e3b28380-08c7-4bd6-b0bd-f7036ae983ad
+Slug: agriturismo-tre-forti-brentino-belluno
+Nome: Agriturismo Tre Forti
+Comune / Provincia: Brentino Belluno
+Indirizzo: Località Canova Tessari, 37010 Rivoli Veronese VR
+Coordinate: Lat 45.594672, Lng 10.841031
+Website: http://www.agriturismotreforti.com/
+Email: 
+
+10785. b&benantio
+ID: 0930b81e-38fa-4a67-a930-bc14b8df44e6
+Slug: b-benantio-brentino-belluno
+Nome: b&benantio
+Comune / Provincia: Brentino Belluno
+Indirizzo: Piazza della Vittoria, 10, 37020 Belluno Veronese VR
+Coordinate: Lat 45.686254, Lng 10.899395
+Website: http://www.bbenantio.it/
+Email: 
+
+10786. Casa Gianchia B&B
+ID: de7fb8dc-76ef-4a54-8452-a17e4ab093fb
+Slug: casa-gianchia-b-b-brentino-belluno
+Nome: Casa Gianchia B&B
+Comune / Provincia: Brentino Belluno
+Indirizzo: Via Casalini, 1, 37020 Brentino VR
+Coordinate: Lat 45.64242, Lng 10.87334
+Website: https://www.booking.com/hotel/it/casa-gianchia.it.html?label=gen173nr-1BCAsocUINY2FzYS1naWFuY2hpYUgzWARocYgBAZgBFLgBGMgBDdgBAegBAYgCAagCBLgC0uDTsgbAAgHSAiQwZjljMzQwZC04YmU1LTQ0NmEtOTU2My05MzZhZGMzNDdiNzbYAgXgAgE&sid=66471523d389ecb2b62ac66ae948898d&dist=0&keep_landing=1&sb_price_type=total&type=total&
+Email: 
+
+10787. Hotel Belvedere
+ID: 4acedf1b-b969-4045-b3e0-ac8e2dae150a
+Slug: hotel-belvedere-brentino-belluno
+Nome: Hotel Belvedere
+Comune / Provincia: Brentino Belluno
+Indirizzo: Via Graziani, 12, 37013 Spiazzi VR
+Coordinate: Lat 45.648185, Lng 10.851354
+Website: —
+Email: 
+
+10788. Hotel Monte Baldo
+ID: 4a00ef9b-49c2-4682-b0c8-77a163609a22
+Slug: hotel-monte-baldo-brentino-belluno
+Nome: Hotel Monte Baldo
+Comune / Provincia: Brentino Belluno
+Indirizzo: Via Prada, 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.678538, Lng 10.780544
+Website: —
+Email: 
+
+10789. Hotel Ristorante Bar Olivo
+ID: 4f013f4e-a319-4b7e-8af5-7da906a10d71
+Slug: hotel-ristorante-bar-olivo-brentino-belluno
+Nome: Hotel Ristorante Bar Olivo
+Comune / Provincia: Brentino Belluno
+Indirizzo: Via Don Cesare Scala, 35, 37020 Brentino Belluno VR
+Coordinate: Lat 45.65908, Lng 10.894472
+Website: http://www.hotelolivo.com/
+Email: 
+
+10790. Parc Hotel San Pietro
+ID: b4672d1b-3332-40e3-9cb5-11b9e5a1cb5a
+Slug: parc-hotel-san-pietro-brentino-belluno
+Nome: Parc Hotel San Pietro
+Comune / Provincia: Brentino Belluno
+Indirizzo: Via Centro, 2, 37013 Spiazzi VR
+Coordinate: Lat 45.645546, Lng 10.852976
+Website: https://parchotelsanpietro.it/
+Email: 
+
+10791. Stella Alpina Hotel
+ID: 8eb6a355-a99c-4618-bb22-03120bb1d13d
+Slug: stella-alpina-hotel-brentino-belluno
+Nome: Stella Alpina Hotel
+Comune / Provincia: Brentino Belluno
+Indirizzo: Piazzale Giovanni Paolo Secondo, 2, 37020 Ferrara di Monte Baldo VR
+Coordinate: Lat 45.650646, Lng 10.854762
+Website: https://stellaalpinahotel.eu/
+Email: 
+
+10792. Albergo Ristorante Da Neni
+ID: 177d3b7e-4833-456d-81a0-5a2821a1f7a3
+Slug: albergo-ristorante-da-neni-brentonico
+Nome: Albergo Ristorante Da Neni
+Comune / Provincia: Brentonico
+Indirizzo: Via F. Filzi, 46, 38065 Mori TN
+Coordinate: Lat 45.854094, Lng 10.968105
+Website: http://www.daneni.it/
+Email: 
+
+10793. Hotel Continental - Tonelli Hotels
+ID: 14e27425-bbb1-469b-a40d-70b9d28cf60b
+Slug: hotel-continental-tonelli-hotels-brentonico
+Nome: Hotel Continental - Tonelli Hotels
+Comune / Provincia: Brentonico
+Indirizzo: Via Stazione, 21, 38069 Nago-Torbole TN
+Coordinate: Lat 45.879669, Lng 10.892493
+Website: https://www.hotelcontinental-lagodigarda.it/?utm_source=google&utm_medium=organic&utm_campaign=googlemybusiness
+Email: 
+
+10794. Hotel De Nac
+ID: ec51ccd2-5ac3-4acf-863c-b00c68b1cd3f
+Slug: hotel-de-nac-brentonico
+Nome: Hotel De Nac
+Comune / Provincia: Brentonico
+Indirizzo: Strada Rivana, 10, 38069 Nago-Torbole TN
+Coordinate: Lat 45.878304, Lng 10.890145
+Website: https://www.hoteldenac.com/
+Email: 
+
+10795. Hotel Leon D'Oro
+ID: 0c422e55-f29c-4b2d-aa95-aa3932c7f4c9
+Slug: hotel-leon-d-oro-brentonico
+Nome: Hotel Leon D'Oro
+Comune / Provincia: Brentonico
+Indirizzo: Via G. Tacchi, 2, 38068 Rovereto TN
+Coordinate: Lat 45.890018, Lng 11.037323
+Website: http://www.hotelleondoro.it/
+Email: 
+
+10796. Hotel Mercure Nerocubo Rovereto
+ID: 1d8f665d-0645-4220-acb7-13fb42d27413
+Slug: hotel-mercure-nerocubo-rovereto-brentonico
+Nome: Hotel Mercure Nerocubo Rovereto
+Comune / Provincia: Brentonico
+Indirizzo: Mori Stazione, Via Per Marco, 16, 38068 Rovereto TN
+Coordinate: Lat 45.856541, Lng 11.002046
+Website: https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=8089&merchantid=seo-maps-IT-8089&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps
+Email: 
+
+10797. Hotel Neni
+ID: af9d1301-a2ec-474f-93eb-ced018c3bf9b
+Slug: hotel-neni-brentonico
+Nome: Hotel Neni
+Comune / Provincia: Brentonico
+Indirizzo: Via G. Garibaldi, 4, 38060 Brentonico TN
+Coordinate: Lat 45.817235, Lng 10.955918
+Website: http://www.hotelneni.it/
+Email: 
+
+10798. Hotel New Garden
+ID: a91a3fc6-0f2c-49bd-b33b-5ee18b01ffb6
+Slug: hotel-new-garden-brentonico
+Nome: Hotel New Garden
+Comune / Provincia: Brentonico
+Indirizzo: Via Giacomo Matteotti, 100, 38069 Nago-Torbole TN
+Coordinate: Lat 45.873345, Lng 10.874441
+Website: http://www.hotelnewgarden.it/
+Email: 
+
+10799. HOTEL RISTORANTE PIZZERIA MARTINELLI
+ID: 0480fef8-8e57-47ac-a72e-0c19b52a24ba
+Slug: hotel-ristorante-pizzeria-martinelli-brentonico
+Nome: HOTEL RISTORANTE PIZZERIA MARTINELLI
+Comune / Provincia: Brentonico
+Indirizzo: Via del Càr, 4, 38060 Ronzo-Chienis TN
+Coordinate: Lat 45.891213, Lng 10.951973
+Website: http://www.hotelmartinelli.it/
+Email: 
+
+10800. Hotel San Giacomo • Spa & Gourmet
+ID: 81040447-1e63-4113-b542-6af9d754244c
+Slug: hotel-san-giacomo-spa-gourmet-brentonico
+Nome: Hotel San Giacomo • Spa & Gourmet
+Comune / Provincia: Brentonico
+Indirizzo: SP3, 8, 38060 Brentonico TN
+Coordinate: Lat 45.798984, Lng 10.919886
+Website: https://www.hotelsgiacomo.it/
+Email: 
+
+10801. Hotel Villa Magnolia, hotel Torbole am Gardasee
+ID: 7ec70571-a177-4a2f-91b3-38fb3fbe34d5
+Slug: hotel-villa-magnolia-hotel-torbole-am-gardasee-brentonico
+Nome: Hotel Villa Magnolia, hotel Torbole am Gardasee
+Comune / Provincia: Brentonico
+Indirizzo: Via della Lòva, 8, 38069 Nago-Torbole TN
+Coordinate: Lat 45.871053, Lng 10.874345
+Website: http://www.hotelvillamagnolia.it/
+Email: 
+
+10802. Ristorante Pizzeria Lake Hotel Benaco Torbole sul Garda
+ID: 5c7912c6-88a7-4c30-bd25-a596c7d7ba42
+Slug: ristorante-pizzeria-lake-hotel-benaco-torbole-su-brentonico
+Nome: Ristorante Pizzeria Lake Hotel Benaco Torbole sul Garda
+Comune / Provincia: Brentonico
+Indirizzo: Via Benaco, 35, 38069 Nago-Torbole TN
+Coordinate: Lat 45.869145, Lng 10.875932
+Website: http://www.onbenaco.com/
+Email: 
+
+10803. Albergo Casa Este
+ID: 373a82f0-7ad6-483d-942e-087bda29d7d4
+Slug: albergo-casa-este-brenzone-sul-garda
+Nome: Albergo Casa Este
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Piazza S. Nicolò, 6, 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.726429, Lng 10.781701
+Website: http://www.casaeste.it/
+Email: 
+
+10804. Albergo Casa Gagliardi
+ID: 24d8d63c-e88a-4314-89c2-2178fbaa0aee
+Slug: albergo-casa-gagliardi-brenzone-sul-garda
+Nome: Albergo Casa Gagliardi
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via del Loc, 11, 37010 Assenza VR
+Coordinate: Lat 45.728267, Lng 10.783362
+Website: http://www.casagagliardi.com/
+Email: 
+
+10805. Bed and Breakfast Lil
+ID: 7a00fef1-1012-414b-acbc-7b67ea33c3aa
+Slug: bed-and-breakfast-lil-brenzone-sul-garda
+Nome: Bed and Breakfast Lil
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via Boccino, 13, 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.714288, Lng 10.77202
+Website: http://www.bblil.it/
+Email: 
+
+10806. Brenzone sul Garda
+ID: 94825fc6-2ff9-40ef-a4b0-13e795eab88f
+Slug: brenzone-sul-garda-brenzone-sul-garda
+Nome: Brenzone sul Garda
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.709072, Lng 10.767793
+Website: —
+Email: 
+
+10807. Brenzone-Sommavilla
+ID: 6f3aa525-8047-4aac-946b-0b85c2166157
+Slug: brenzone-sommavilla-brenzone-sul-garda
+Nome: Brenzone-Sommavilla
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via Madonna Degli Ulivi, 13, 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.72587, Lng 10.785562
+Website: https://rentit.cyou/brenzone-sommavilla-mo5e3z
+Email: 
+
+10808. Casa Bianca
+ID: 36b3479c-91fb-4d35-adb8-a1af0c2a2deb
+Slug: casa-bianca-brenzone-sul-garda
+Nome: Casa Bianca
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via S. Vito, 6, 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.716617, Lng 10.774096
+Website: https://it.gardadoma.com/
+Email: 
+
+10809. Garda Doma
+ID: dec104da-bc0a-495c-9c00-4613cccead73
+Slug: garda-doma-brenzone-sul-garda
+Nome: Garda Doma
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via Monteccio, 6, 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.724696, Lng 10.78585
+Website: https://en.gardadoma.com/
+Email: 
+
+10810. Hotel Danieli la Castellana - Lago di Garda
+ID: b192bd3a-e04a-4c1c-ad4b-a6794461950d
+Slug: hotel-danieli-la-castellana-lago-di-garda-brenzone-sul-garda
+Nome: Hotel Danieli la Castellana - Lago di Garda
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via Don Francesco Angeleri, Via Angeleri, 13/17, 37010 Castelletto di VR
+Coordinate: Lat 45.687015, Lng 10.750142
+Website: https://www.danielilacastellana.it/
+Email: 
+
+10811. Hotel Eden Gardasee - Lago di garda - Lake Garda
+ID: 83d15fdf-2b3b-4433-ac32-6d30568f681b
+Slug: hotel-eden-gardasee-lago-di-garda-lake-garda-brenzone-sul-garda
+Nome: Hotel Eden Gardasee - Lago di garda - Lake Garda
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via G. Zanardelli, 6, 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.714785, Lng 10.771945
+Website: https://www.hoteleden.info/
+Email: 
+
+10812. Hotel Garni Rosmari
+ID: b2e2a745-5bc7-4dc7-89fa-c31979a49867
+Slug: hotel-garni-rosmari-brenzone-sul-garda
+Nome: Hotel Garni Rosmari
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via Beato Giuseppe Nascimbeni, 66, 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.694954, Lng 10.756254
+Website: https://hotelrosmari.beddy.io/
+Email: 
+
+10813. Hotel Luisa
+ID: 235a56d1-0da6-4381-acb5-67e8579ac049
+Slug: hotel-luisa-brenzone-sul-garda
+Nome: Hotel Luisa
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via Vecchia, 6, 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.726898, Lng 10.781623
+Website: —
+Email: 
+
+10814. Hotel Pace
+ID: ca200dfe-46ef-4e39-8189-ce4e57888915
+Slug: hotel-pace-brenzone-sul-garda
+Nome: Hotel Pace
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via Marniga, 10, 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.70286, Lng 10.76354
+Website: http://www.hotelpacebrenzone.it/
+Email: 
+
+10815. Hotel Rabay
+ID: 3261197c-be79-4451-87a9-2d6159571ddc
+Slug: hotel-rabay-brenzone-sul-garda
+Nome: Hotel Rabay
+Comune / Provincia: Brenzone sul Garda
+Indirizzo: Via Amerigo Vespucci, 93-89, 37010 Brenzone sul Garda VR
+Coordinate: Lat 45.678616, Lng 10.741617
+Website: http://www.rabay.it/
+Email: 

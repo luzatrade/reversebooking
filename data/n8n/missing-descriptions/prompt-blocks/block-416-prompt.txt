@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+14526. B&B Catanzaro Russo Rooms
+ID: 611cee2e-4ee0-47fc-9a46-c1027922b7d1
+Slug: b-b-catanzaro-russo-rooms-caraffa-di-catanzaro
+Nome: B&B Catanzaro Russo Rooms
+Comune / Provincia: Caraffa di Catanzaro
+Indirizzo: Via Luigi Rossi, 5, 88100 Catanzaro CZ
+Coordinate: Lat 38.920643, Lng 16.583567
+Website: https://www.russoroomscatanzaro.com/
+Email: 
+
+14527. B&B La Collina Dei Poeti
+ID: 06efcc9c-fa31-4d3d-a363-2522ca24ee4b
+Slug: b-b-la-collina-dei-poeti-caraffa-di-catanzaro
+Nome: B&B La Collina Dei Poeti
+Comune / Provincia: Caraffa di Catanzaro
+Indirizzo: Traversa VIII Viale Crotone, 25, 88100 Catanzaro CZ
+Coordinate: Lat 38.833733, Lng 16.628389
+Website: https://www.googaia.it/bb-catanzaro-lido-vista-mare/
+Email: 
+
+14528. B&B Melina Catanzaro Settingiano
+ID: 09aa31a1-7355-4bf1-9dc1-52adfeb70af3
+Slug: b-b-melina-catanzaro-settingiano-caraffa-di-catanzaro
+Nome: B&B Melina Catanzaro Settingiano
+Comune / Provincia: Caraffa di Catanzaro
+Indirizzo: Corso Telesio, 6/8, 88040 Settingiano CZ
+Coordinate: Lat 38.893262, Lng 16.534424
+Website: http://www.bbmelina.it/
+Email: 
+
+14529. Blu Marine
+ID: 0aba7f84-db5a-4030-8071-5066cd08f276
+Slug: blu-marine-caraffa-di-catanzaro
+Nome: Blu Marine
+Comune / Provincia: Caraffa di Catanzaro
+Indirizzo: Via Lungomare Stefano Pugliese, 29, 88100 Catanzaro CZ
+Coordinate: Lat 38.817496, Lng 16.611182
+Website: https://www.blu-marine.it/
+Email: 
+
+14530. Borgo piazza Catanzaro
+ID: a60481c7-ff6b-4bbf-bfeb-b3d853a79f68
+Slug: borgo-piazza-catanzaro-caraffa-di-catanzaro
+Nome: Borgo piazza Catanzaro
+Comune / Provincia: Caraffa di Catanzaro
+Indirizzo: QHXJ+X5, 88021 Borgia CZ
+Coordinate: Lat 38.799894, Lng 16.580481
+Website: —
+Email: 
+
+14531. Chalet n5 Guest House a Catanzaro con camere Deluxe e Comfort minibar incluso e pulizia giornaliera spiaggia inclusa estate
+ID: c4f00d3d-86b6-4ddd-9d97-3d59c79a2a8f
+Slug: chalet-n5-guest-house-a-catanzaro-con-camere-del-caraffa-di-catanzaro
+Nome: Chalet n5 Guest House a Catanzaro con camere Deluxe e Comfort minibar incluso e pulizia giornaliera spiaggia inclusa estate
+Comune / Provincia: Caraffa di Catanzaro
+Indirizzo: Via Ferdinandea, 5, 88100 Siano CZ
+Coordinate: Lat 38.913934, Lng 16.600338
+Website: https://www.instagram.com/guesthousechaletn5
+Email: 
+
+14532. Villa Maria Bed & Breakfast
+ID: 7e1c63fe-3636-4ea4-85b4-0139f87f9261
+Slug: villa-maria-bed-breakfast-caraffa-di-catanzaro
+Nome: Villa Maria Bed & Breakfast
+Comune / Provincia: Caraffa di Catanzaro
+Indirizzo: Via Tommaso Campanella, 10, 88040 Settingiano CZ
+Coordinate: Lat 38.891442, Lng 16.537255
+Website: https://villamariabb.com/
+Email: 
+
+14533. B&B Dolce Caraglio
+ID: e0ffc1af-fe35-443f-8ada-4c0d7a67b3a6
+Slug: b-b-dolce-caraglio-caraglio
+Nome: B&B Dolce Caraglio
+Comune / Provincia: Caraglio
+Indirizzo: Via Roma, 207, 12023 Caraglio CN
+Coordinate: Lat 44.418984, Lng 7.432031
+Website: —
+Email: 
+
+14534. Cascina Rosa
+ID: 2b51e1cb-9fd9-4c58-90de-74cab76d8b16
+Slug: cascina-rosa-caraglio
+Nome: Cascina Rosa
+Comune / Provincia: Caraglio
+Indirizzo: Via Bottonasco, 28, 12023 Caraglio CN
+Coordinate: Lat 44.42511, Lng 7.399231
+Website: http://www.cascinarosa.it/
+Email: 
+
+14535. Virasol B&B
+ID: 397e3339-e8c8-405c-b72b-7260a975d17f
+Slug: virasol-b-b-caraglio
+Nome: Virasol B&B
+Comune / Provincia: Caraglio
+Indirizzo: Via Addolorata, 8/a, 12025 Dronero CN
+Coordinate: Lat 44.45694, Lng 7.431247
+Website: http://virasol.it/
+Email: 
+
+14536. Affittacamere Casamatta
+ID: 9d541071-5f93-43c7-83ac-e55d121a1394
+Slug: affittacamere-casamatta-caramagna-piemonte
+Nome: Affittacamere Casamatta
+Comune / Provincia: Caramagna Piemonte
+Indirizzo: Borgata Castagni, 5, 12064 La Morra CN
+Coordinate: Lat 44.65615, Lng 7.927231
+Website: —
+Email: 
+
+14537. Affittacamere Famiglia Do
+ID: 8e9e27ed-0e21-4951-a974-8030ad004d07
+Slug: affittacamere-famiglia-do-caramagna-piemonte
+Nome: Affittacamere Famiglia Do
+Comune / Provincia: Caramagna Piemonte
+Indirizzo: Via Umberto I, 10, 12035 Racconigi CN
+Coordinate: Lat 44.769041, Lng 7.676818
+Website: https://www.affittacamerefamigliado.it/
+Email: 
+
+14538. Al Calar della Sera
+ID: 49b74594-5cda-4662-8498-ad895b0bdbbe
+Slug: al-calar-della-sera-caramagna-piemonte
+Nome: Al Calar della Sera
+Comune / Provincia: Caramagna Piemonte
+Indirizzo: Vicolo Magenta, 4, 12048 Sommariva del Bosco CN
+Coordinate: Lat 44.768677, Lng 7.785712
+Website: http://www.alcalardellasera.it/
+Email: 
+
+14539. All'Imperatore
+ID: c6e14f18-198b-40c3-8719-8f7e3a5dce2a
+Slug: all-imperatore-caramagna-piemonte
+Nome: All'Imperatore
+Comune / Provincia: Caramagna Piemonte
+Indirizzo: Via S. Pietro, 29, 12062 Cherasco CN
+Coordinate: Lat 44.652292, Lng 7.859008
+Website: https://allimperatorecherasco.top/
+Email: 
+
+14540. B&B binot
+ID: 5fa27ad9-c429-4160-9b94-bef7cc76546b
+Slug: b-b-binot-caramagna-piemonte
+Nome: B&B binot
+Comune / Provincia: Caramagna Piemonte
+Indirizzo: Via Dominici E, 8, 10022 Carmagnola TO
+Coordinate: Lat 44.863112, Lng 7.719036
+Website: https://binotbinot.weebly.com/
+Email: 
+
+14541. B&B Rozafa
+ID: 2000579e-eec0-4dcf-bfd7-33a4c781b1b2
+Slug: b-b-rozafa-caramagna-piemonte
+Nome: B&B Rozafa
+Comune / Provincia: Caramagna Piemonte
+Indirizzo: strada della grassa, 2, 12030 Caramagna Piemonte CN
+Coordinate: Lat 44.794436, Lng 7.732633
+Website: —
+Email: 
+
+14542. Fattoria Sociale Paideia - Caramagna Piemonte
+ID: a81b4626-2c3d-4b2d-b501-e9aec44a82c4
+Slug: fattoria-sociale-paideia-caramagna-piemonte-caramagna-piemonte
+Nome: Fattoria Sociale Paideia - Caramagna Piemonte
+Comune / Provincia: Caramagna Piemonte
+Indirizzo: Strada Vicinale Oia, 20, 12030 Caramagna Piemonte CN
+Coordinate: Lat 44.807744, Lng 7.71004
+Website: http://www.fattoriasocialepaideia.it/
+Email: 
+
+14543. Hotel Ristorante Italia
+ID: eaf8703c-cf66-4c8e-a2b9-894d66fb84cd
+Slug: hotel-ristorante-italia-caramagna-piemonte
+Nome: Hotel Ristorante Italia
+Comune / Provincia: Caramagna Piemonte
+Indirizzo: Via Torino, 23, 10022 Carmagnola TO
+Coordinate: Lat 44.852962, Lng 7.724189
+Website: —
+Email: 
+
+14544. Stea loft monolocale
+ID: 41a2d776-2f6b-49b3-bca1-88b1a2b45166
+Slug: stea-loft-monolocale-caramagna-piemonte
+Nome: Stea loft monolocale
+Comune / Provincia: Caramagna Piemonte
+Indirizzo: V.cl Barletta, 3, 12048 Sommariva del Bosco CN
+Coordinate: Lat 44.769513, Lng 7.779623
+Website: —
+Email: 
+
+14545. Villa La Quercia Country House
+ID: 078d9b4b-f3a7-4244-8e26-4b2af5cc661d
+Slug: villa-la-quercia-country-house-caramagna-piemonte
+Nome: Villa La Quercia Country House
+Comune / Provincia: Caramagna Piemonte
+Indirizzo: Via Torino, 164, 12048 Sommariva del Bosco CN
+Coordinate: Lat 44.781376, Lng 7.77762
+Website: https://villalaquercia-countryhouse.it/
+Email: 
+
+14546. Agriturismo La Pagliarella
+ID: 0e1eed1e-5ab0-4564-ad0e-69b5400a5446
+Slug: agriturismo-la-pagliarella-caramanico-terme
+Nome: Agriturismo La Pagliarella
+Comune / Provincia: Caramanico Terme
+Indirizzo: Via Sant'Elia, 3, 65023 Caramanico Terme PE
+Coordinate: Lat 42.196821, Lng 13.995046
+Website: —
+Email: 
+
+14547. Agriturismo Pietrantica
+ID: 93f52967-5004-4b50-8c6b-4d3f1c6c60b8
+Slug: agriturismo-pietrantica-caramanico-terme
+Nome: Agriturismo Pietrantica
+Comune / Provincia: Caramanico Terme
+Indirizzo: 65023 Decontra PE
+Coordinate: Lat 42.168246, Lng 14.031101
+Website: http://www.decontra.it/
+Email: 
+
+14548. Albergo Di Fiore
+ID: 42371685-571b-4b5e-aa02-6e2bb22d3974
+Slug: albergo-di-fiore-caramanico-terme
+Nome: Albergo Di Fiore
+Comune / Provincia: Caramanico Terme
+Indirizzo: Viale Roma, 15, 65023 Caramanico Terme PE
+Coordinate: Lat 42.159117, Lng 14.005027
+Website: —
+Email: 
+
+14549. Albergo Di Piero Di Antonio Di Piero & C. Sas
+ID: a542602e-9487-4c39-bb20-16ba27ea659a
+Slug: albergo-di-piero-di-antonio-di-piero-c-sas-caramanico-terme
+Nome: Albergo Di Piero Di Antonio Di Piero & C. Sas
+Comune / Provincia: Caramanico Terme
+Indirizzo: Viale Roma, 64, 65023 Caramanico Terme PE
+Coordinate: Lat 42.158988, Lng 14.007915
+Website: http://www.albergodipiero.it/
+Email: 
+
+14550. Antico Borgo Bed & Breakfast
+ID: 7798a634-b055-4b9b-8147-60d0c465e6a6
+Slug: antico-borgo-bed-breakfast-caramanico-terme
+Nome: Antico Borgo Bed & Breakfast
+Comune / Provincia: Caramanico Terme
+Indirizzo: Via S. Maurizio, 7, 65022 Caramanico Terme PE
+Coordinate: Lat 42.158415, Lng 13.999157
+Website: http://www.anticoborgobb.it/
+Email: 
+
+14551. Hotel Arimannia
+ID: 5812f0b0-db45-4fe3-8036-39ec2e4530c2
+Slug: hotel-arimannia-caramanico-terme
+Nome: Hotel Arimannia
+Comune / Provincia: Caramanico Terme
+Indirizzo: Via Cappuccini, 65023 Caramanico Terme PE
+Coordinate: Lat 42.158324, Lng 14.005508
+Website: http://www.hotelarimannia.it/
+Email: 
+
+14552. Hotel Cercone
+ID: 6b476688-db67-4281-8a2d-c5c4ce6d2e34
+Slug: hotel-cercone-caramanico-terme
+Nome: Hotel Cercone
+Comune / Provincia: Caramanico Terme
+Indirizzo: Via Torre Alta, 19, 65023 Caramanico Terme PE
+Coordinate: Lat 42.159167, Lng 14.004167
+Website: http://www.hotelcercone.it/
+Email: 
+
+14553. Hotel La Maielletta
+ID: 39072710-491a-4bb0-9061-3a2297382530
+Slug: hotel-la-maielletta-caramanico-terme
+Nome: Hotel La Maielletta
+Comune / Provincia: Caramanico Terme
+Indirizzo: Via Passo Lanciano, 1, 66010 Pretoro CH
+Coordinate: Lat 42.188284, Lng 14.107745
+Website: http://www.lamaielletta.it/
+Email: 
+
+14554. Hotel le Ginestre CIR066079ALB001
+ID: 7125fb5e-789f-4198-ab6c-eeb0aeb1200d
+Slug: hotel-le-ginestre-cir066079alb001-caramanico-terme
+Nome: Hotel le Ginestre CIR066079ALB001
+Comune / Provincia: Caramanico Terme
+Indirizzo: Via Tavernola, 1, 67030 Roccacasale AQ
+Coordinate: Lat 42.118574, Lng 13.876579
+Website: http://www.hotel-leginestre.it/
+Email: 
+
+14555. Hotel Pescofalcone
+ID: 2bdba711-a9a8-4024-ba9d-a3c495c742b9
+Slug: hotel-pescofalcone-caramanico-terme
+Nome: Hotel Pescofalcone
+Comune / Provincia: Caramanico Terme
+Indirizzo: Viale Roma, 50, 65023 Caramanico Terme PE
+Coordinate: Lat 42.158914, Lng 14.005346
+Website: http://www.hotelpescofalcone.it/
+Email: 
+
+14556. HOTEL VIOLA & PIZZERIA "DAI VIOLA"
+ID: 0cac1f8c-fcd7-4ac7-80e0-22387d0823b7
+Slug: hotel-viola-pizzeria-dai-viola-caramanico-terme
+Nome: HOTEL VIOLA & PIZZERIA "DAI VIOLA"
+Comune / Provincia: Caramanico Terme
+Indirizzo: Via della Libertà, 9, 65023 Caramanico Terme PE
+Coordinate: Lat 42.159693, Lng 14.005285
+Website: http://www.violahotel.it/
+Email: 
+
+14557. Hotel Viola Sas Di Viola Carlo E C.
+ID: 95623518-95d8-48ef-92a4-6d8118d9447b
+Slug: hotel-viola-sas-di-viola-carlo-e-c-caramanico-terme
+Nome: Hotel Viola Sas Di Viola Carlo E C.
+Comune / Provincia: Caramanico Terme
+Indirizzo: Via Duca degli Abruzzi, 1, 65023 Caramanico Terme PE
+Coordinate: Lat 42.159613, Lng 14.005304
+Website: —
+Email: 
+
+14558. Ristorante Albergo Villa Pardi
+ID: e445ce71-1cf4-484a-a6c7-1406640dd95a
+Slug: ristorante-albergo-villa-pardi-caramanico-terme
+Nome: Ristorante Albergo Villa Pardi
+Comune / Provincia: Caramanico Terme
+Indirizzo: Via Cappuccini, 65024 Manoppello PE
+Coordinate: Lat 42.252205, Lng 14.062266
+Website: http://www.villapardi.it/
+Email: 
+
+14559. Albergo Ristorante Conca d'Oro
+ID: 5374bc9a-087c-4daa-aaa7-4a3808732009
+Slug: albergo-ristorante-conca-d-oro-carapelle
+Nome: Albergo Ristorante Conca d'Oro
+Comune / Provincia: Carapelle
+Indirizzo: Strada Statale 16, km.683, 71122 Foggia FG
+Coordinate: Lat 41.416839, Lng 15.6196
+Website: https://www.hotelconcadorofoggia.it/
+Email: 
+
+14560. Altopiano Rooms
+ID: c09e6166-d136-4d5e-90d0-5cf2af4c8e8d
+Slug: altopiano-rooms-carapelle
+Nome: Altopiano Rooms
+Comune / Provincia: Carapelle
+Indirizzo: Via Bainsizza, 1, 71121 Foggia FG
+Coordinate: Lat 41.464848, Lng 15.554044
+Website: https://altopianorooms.top/
+Email: 

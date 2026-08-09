@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+15506. CASA EMANUELA 'Il nostro nido d'amore "
+ID: 2f78fc26-5b50-47b0-92fd-a0976af3fd7e
+Slug: casa-emanuela-il-nostro-nido-d-amore-casalgrande
+Nome: CASA EMANUELA 'Il nostro nido d'amore "
+Comune / Provincia: Casalgrande
+Indirizzo: Via Canale, 44, 42013 Casalgrande RE
+Coordinate: Lat 44.587662, Lng 10.74213
+Website: —
+Email: 
+
+15507. Casalgrande Hotel
+ID: a5263a52-a0d5-4ff2-9f00-6328b54a99ba
+Slug: casalgrande-hotel-casalgrande
+Nome: Casalgrande Hotel
+Comune / Provincia: Casalgrande
+Indirizzo: Via XXV Aprile, 27, 42013 Casalgrande RE
+Coordinate: Lat 44.607054, Lng 10.776351
+Website: http://www.casalgrandehotel.it/
+Email: 
+
+15508. La Riserva
+ID: b8a2609e-9444-4bc8-8b8d-dbde7854dd36
+Slug: la-riserva-casalgrande
+Nome: La Riserva
+Comune / Provincia: Casalgrande
+Indirizzo: Via Colatore, 36, 42013 Casalgrande RE
+Coordinate: Lat 44.565266, Lng 10.72914
+Website: http://www.lariserva.org/
+Email: 
+
+15509. La Ruota Rooms
+ID: 93e5121d-1e13-4a87-8b38-af04541d3e75
+Slug: la-ruota-rooms-casalgrande
+Nome: La Ruota Rooms
+Comune / Provincia: Casalgrande
+Indirizzo: Via Livatino Rosario, 8, 42013 Casalgrande RE
+Coordinate: Lat 44.571943, Lng 10.743383
+Website: https://laruotarooms.it/
+Email: 
+
+15510. B&B Villa Albina
+ID: fcd0546c-71d9-4452-9592-2fb2c941c263
+Slug: b-b-villa-albina-casalgrasso
+Nome: B&B Villa Albina
+Comune / Provincia: Casalgrasso
+Indirizzo: Via Piave, 91, 10040 La Loggia TO
+Coordinate: Lat 44.955052, Lng 7.68043
+Website: https://bbvillaalbina.com/
+Email: 
+
+15511. Boulevard 900
+ID: 2305ce98-f669-488c-8663-8a11a814cdee
+Slug: boulevard-900-casalgrasso
+Nome: Boulevard 900
+Comune / Provincia: Casalgrasso
+Indirizzo: Viale Umberto I, nr.41, 12036 Revello CN
+Coordinate: Lat 44.653265, Lng 7.387873
+Website: http://www.boulevard900.it/
+Email: 
+
+15512. Cascina Lai - Camere private in affitto
+ID: 8f688152-1458-402d-ba91-45d5745accda
+Slug: cascina-lai-camere-private-in-affitto-casalgrasso
+Nome: Cascina Lai - Camere private in affitto
+Comune / Provincia: Casalgrasso
+Indirizzo: Via Luserna, 7, 10026 Santena TO
+Coordinate: Lat 44.933184, Lng 7.788803
+Website: —
+Email: 
+
+15513. Agriturismo Camigliatello "La Corte dei Pini"
+ID: 42907e73-7d68-4e22-aeee-2a752a9f2817
+Slug: agriturismo-camigliatello-la-corte-dei-pini-casali-del-manco
+Nome: Agriturismo Camigliatello "La Corte dei Pini"
+Comune / Provincia: Casali del Manco
+Indirizzo: Contrada Colle Lungo snc, 87058 Colle Lungo CS
+Coordinate: Lat 39.340971, Lng 16.488756
+Website: https://www.lacortedeipini.it/
+Email: 
+
+15514. B&B Morelli Home
+ID: 837ef03f-b290-41ec-853a-48cf895e8bdf
+Slug: b-b-morelli-home-casali-del-manco
+Nome: B&B Morelli Home
+Comune / Provincia: Casali del Manco
+Indirizzo: Piazza Europa, 14, 87100 Cosenza CS
+Coordinate: Lat 39.307181, Lng 16.247768
+Website: http://www.morellihome.it/
+Email: 
+
+15515. B&B Svevo
+ID: 74577f25-71de-4e2c-a50d-735fab02918f
+Slug: b-b-svevo-casali-del-manco
+Nome: B&B Svevo
+Comune / Provincia: Casali del Manco
+Indirizzo: Piazza Santa Teresa, 10, 87100 Cosenza CS
+Coordinate: Lat 39.298466, Lng 16.25139
+Website: http://www.svevocosenza.it/
+Email: 
+
+15516. Centro Sportivo lorica, B&BForesteria, Canoe, Pedalò, Bar Ristorante, Sala eventi, Terrazza panoramica.
+ID: 52507d06-8c53-47d9-9d5d-0d5b0ddb5324
+Slug: centro-sportivo-lorica-b-bforesteria-canoe-pedal-casali-del-manco
+Nome: Centro Sportivo lorica, B&BForesteria, Canoe, Pedalò, Bar Ristorante, Sala eventi, Terrazza panoramica.
+Comune / Provincia: Casali del Manco
+Indirizzo: Lungolago, 87055 San Giovanni in Fiore CS
+Coordinate: Lat 39.248196, Lng 16.51404
+Website: http://www.centrosportivolorica.it/
+Email: 
+
+15517. Dimora "De Matera"
+ID: 679faaa1-7446-4d45-98c9-b942fd87448d
+Slug: dimora-de-matera-casali-del-manco
+Nome: Dimora "De Matera"
+Comune / Provincia: Casali del Manco
+Indirizzo: Via Antonio Serra, 24, 87100 Cosenza CS
+Coordinate: Lat 39.28707, Lng 16.260668
+Website: http://www.dimoradematera.com/
+Email: 
+
+15518. Dimora Storica Giostra Vecchia - Palazzo Grisolia 1809
+ID: eb9c0c83-4aa7-4aa8-9ed5-38c3c2970fbe
+Slug: dimora-storica-giostra-vecchia-palazzo-grisolia-casali-del-manco
+Nome: Dimora Storica Giostra Vecchia - Palazzo Grisolia 1809
+Comune / Provincia: Casali del Manco
+Indirizzo: Via Giostra Vecchia, 2, 87100 Cosenza CS
+Coordinate: Lat 39.287827, Lng 16.259643
+Website: https://www.booking.com/hotel/it/dimora-storica-giostra-vecchia-palazzo-grisolia-1809-cosenza.it.html
+Email: 
+
+15519. Hotel Casa del Maestro - Lorica
+ID: 079d04d5-3680-4c83-8bfa-119e40a106f7
+Slug: hotel-casa-del-maestro-lorica-casali-del-manco
+Nome: Hotel Casa del Maestro - Lorica
+Comune / Provincia: Casali del Manco
+Indirizzo: Via Nazionale, 14, 87050 Lorica CS
+Coordinate: Lat 39.251924, Lng 16.505509
+Website: https://www.facebook.com/profile.php?id=61588602233901
+Email: 
+
+15520. HOTEL PARK 108 - SPA - Centro Benessere - Palestra - Ristorante in Sila
+ID: 8585958d-ecb6-4d25-9db4-bd61f52d7560
+Slug: hotel-park-108-spa-centro-benessere-palestra-ris-casali-del-manco
+Nome: HOTEL PARK 108 - SPA - Centro Benessere - Palestra - Ristorante in Sila
+Comune / Provincia: Casali del Manco
+Indirizzo: Via Nazionale, 86, 87055 Lorica CS
+Coordinate: Lat 39.250192, Lng 16.506671
+Website: http://www.hotelpark108.it/
+Email: 
+
+15521. Hotel Ristorante Aquila & Edelweiss
+ID: 3fab6925-558d-4135-b660-c0d6be88f000
+Slug: hotel-ristorante-aquila-edelweiss-casali-del-manco
+Nome: Hotel Ristorante Aquila & Edelweiss
+Comune / Provincia: Casali del Manco
+Indirizzo: Via Stazione, 15, 87052 Camigliatello Silano CS
+Coordinate: Lat 39.339865, Lng 16.446105
+Website: http://www.hotelaquilaedelweiss.com/
+Email: 
+
+15522. Hotel Ruscello
+ID: 02b32d87-d699-4887-b51b-f23cddf80b02
+Slug: hotel-ruscello-casali-del-manco
+Nome: Hotel Ruscello
+Comune / Provincia: Casali del Manco
+Indirizzo: Galleria Cavaliere, 87053 Spezzano della Sila CS
+Coordinate: Lat 39.251395, Lng 16.498408
+Website: https://alicestraveltips.com/ruscello-lorica-italy
+Email: 
+
+15523. Lorica Suite Lago
+ID: aadb8060-93e2-4ddb-9f28-c619e133cf2e
+Slug: lorica-suite-lago-casali-del-manco
+Nome: Lorica Suite Lago
+Comune / Provincia: Casali del Manco
+Indirizzo: SP245, 87059 Lorica CS
+Coordinate: Lat 39.25094, Lng 16.505858
+Website: http://www.loricasuitelago.it/
+Email: 
+
+15524. LorichiAmo B&b
+ID: 32b15965-91cd-4e6b-85ba-b17e6b723015
+Slug: lorichiamo-b-b-casali-del-manco
+Nome: LorichiAmo B&b
+Comune / Provincia: Casali del Manco
+Indirizzo: Via Nazionale, 62, 87055 Lorica CS
+Coordinate: Lat 39.251569, Lng 16.510687
+Website: https://www.lorichiamo.com/
+Email: 
+
+15525. Old Calabria Torre Camigliati
+ID: a1b8ae57-a865-4c00-b731-fd150e4af1ce
+Slug: old-calabria-torre-camigliati-casali-del-manco
+Nome: Old Calabria Torre Camigliati
+Comune / Provincia: Casali del Manco
+Indirizzo: Via dei Camigliati, 18, 87052 Camigliatello Silano CS
+Coordinate: Lat 39.341602, Lng 16.467981
+Website: http://www.torrecamigliati.com/
+Email: 
+
+15526. Palazzo Lupinacci Dimora Storica
+ID: 5ca930dd-b8e5-4947-ad19-54b14e3f1ad8
+Slug: palazzo-lupinacci-dimora-storica-casali-del-manco
+Nome: Palazzo Lupinacci Dimora Storica
+Comune / Provincia: Casali del Manco
+Indirizzo: Piazza Tommaso Ortale, 20, 87100 Cosenza CS
+Coordinate: Lat 39.290729, Lng 16.260555
+Website: —
+Email: 
+
+15527. Residenza Lorica - Prenota Hotel in Sila, sul lago Arvo - Parco Nazionale della Sila - Ristorante - Pizzeria
+ID: c4371a62-887d-4e34-9fa6-3ce361f748ef
+Slug: residenza-lorica-prenota-hotel-in-sila-sul-lago-casali-del-manco
+Nome: Residenza Lorica - Prenota Hotel in Sila, sul lago Arvo - Parco Nazionale della Sila - Ristorante - Pizzeria
+Comune / Provincia: Casali del Manco
+Indirizzo: SS108bis, 87055 Lorica CS
+Coordinate: Lat 39.251844, Lng 16.513151
+Website: https://www.residenzalorica.it/
+Email: 
+
+15528. Ristorante Albergo Rifugio Montescuro
+ID: 17f35f46-f0b4-4b6d-96dc-11332c65649c
+Slug: ristorante-albergo-rifugio-montescuro-casali-del-manco
+Nome: Ristorante Albergo Rifugio Montescuro
+Comune / Provincia: Casali del Manco
+Indirizzo: V. Valico Montescuro, 87053 Celico CS
+Coordinate: Lat 39.3331, Lng 16.397962
+Website: https://www.rifugiomontescuro.com/
+Email: 
+
+15529. Affittacamere Borgocapo
+ID: f742a119-24e0-49f8-bafe-8a7ce926e4cf
+Slug: affittacamere-borgocapo-casalincontrada
+Nome: Affittacamere Borgocapo
+Comune / Provincia: Casalincontrada
+Indirizzo: Via Maiella, 151, 66012 Casalincontrada CH
+Coordinate: Lat 42.280588, Lng 14.131637
+Website: http://www.borgocapo.it/
+Email: 
+
+15530. Agriturismo Ciuccunit
+ID: 22902567-0f7f-4a5d-93fd-9db43589c097
+Slug: agriturismo-ciuccunit-casalincontrada
+Nome: Agriturismo Ciuccunit
+Comune / Provincia: Casalincontrada
+Indirizzo: Via Alento Strada Conunale, 107, 66012 Casalincontrada CH
+Coordinate: Lat 42.287716, Lng 14.145297
+Website: http://www.agriturismociuccunit.it/
+Email: 
+
+15531. CASALE DEL SOLE
+ID: 6621868f-9f08-4ce0-96ca-2f6440ee7ad8
+Slug: casale-del-sole-casalincontrada
+Nome: CASALE DEL SOLE
+Comune / Provincia: Casalincontrada
+Indirizzo: Contrada Piano di Coccia, 26, 65020 Rosciano PE
+Coordinate: Lat 42.358973, Lng 14.057343
+Website: https://casale.bedsandhotels.com/
+Email: 
+
+15532. Desy B&B
+ID: 4c092229-04df-42ac-ae34-125fd2162c99
+Slug: desy-b-b-casalincontrada
+Nome: Desy B&B
+Comune / Provincia: Casalincontrada
+Indirizzo: Via dei Vestini, 70/A, 66100 Chieti CH
+Coordinate: Lat 42.366416, Lng 14.154645
+Website: —
+Email: 
+
+15533. Le Mirage
+ID: 3303129c-c577-4b78-aecc-f99a5cefc6dc
+Slug: le-mirage-casalincontrada
+Nome: Le Mirage
+Comune / Provincia: Casalincontrada
+Indirizzo: Via dei Vestini, 70b, 66100 Chieti CH
+Coordinate: Lat 42.366728, Lng 14.154572
+Website: http://booking.com/
+Email: 
+
+15534. Agriturismo Cascina Graziosa AGMA
+ID: 9b7ab95a-7f3d-4b66-bd60-0ca7bf07f2f3
+Slug: agriturismo-cascina-graziosa-agma-casalino
+Nome: Agriturismo Cascina Graziosa AGMA
+Comune / Provincia: Casalino
+Indirizzo: Cascina Graziosa, 1, 28060 Casalino NO
+Coordinate: Lat 45.403122, Lng 8.56063
+Website: http://agriturismograziosa.it/
+Email: 
+
+15535. Il Giarolo Bed & Breakfast cameriano casalino novara
+ID: f93c8808-4eaa-49b8-8cec-031061488174
+Slug: il-giarolo-bed-breakfast-cameriano-casalino-nova-casalino
+Nome: Il Giarolo Bed & Breakfast cameriano casalino novara
+Comune / Provincia: Casalino
+Indirizzo: Via Giarolo, 9, 28060 Cameriano NO
+Coordinate: Lat 45.395067, Lng 8.536958
+Website: http://www.ilgiarolo.it/
+Email: 
+
+15536. Al Torrione - Foresteria
+ID: 96254c2a-4d8b-4a45-b120-697795ac360a
+Slug: al-torrione-foresteria-casalmaggiore
+Nome: Al Torrione - Foresteria
+Comune / Provincia: Casalmaggiore
+Indirizzo: Via Vaghi, 13, 26041 Casalmaggiore CR
+Coordinate: Lat 44.984323, Lng 10.415619
+Website: http://www.altorrione.it/
+Email: 
+
+15537. Albergo Il Gufo
+ID: 65d506d9-ae6d-4a18-b822-0dd831f734c8
+Slug: albergo-il-gufo-casalmaggiore
+Nome: Albergo Il Gufo
+Comune / Provincia: Casalmaggiore
+Indirizzo: Str. Chiesa di Roncopascolo, 35, 43126 Parma PR
+Coordinate: Lat 44.845437, Lng 10.278043
+Website: http://www.albergoilgufo.it/
+Email: 
+
+15538. Alla Curva del Fiume
+ID: 4d0e2f23-009d-406e-b880-b2f0038b2e32
+Slug: alla-curva-del-fiume-casalmaggiore
+Nome: Alla Curva del Fiume
+Comune / Provincia: Casalmaggiore
+Indirizzo: Strada Del Porto Vecchio, 1, 43017 San Secondo Parmense PR
+Coordinate: Lat 44.91526, Lng 10.247294
+Website: http://www.allacurvadelfiume.it/
+Email: 
+
+15539. B&B A Casa Mia
+ID: 0975ff75-84d0-4874-9eca-a143f86adbc8
+Slug: b-b-a-casa-mia-casalmaggiore
+Nome: B&B A Casa Mia
+Comune / Provincia: Casalmaggiore
+Indirizzo: Via Maria Callas, 15, 43122 Parma PR
+Coordinate: Lat 44.832767, Lng 10.340481
+Website: https://www.instagram.com/bnb_a_casa_mia_parma?igsh=NWRpODQ2NHVubHZt
+Email: 
+
+15540. B&B il Bijou
+ID: 7fceff4c-b9b2-49bd-bd21-c32fc79ad03e
+Slug: b-b-il-bijou-casalmaggiore
+Nome: B&B il Bijou
+Comune / Provincia: Casalmaggiore
+Indirizzo: Via Azzo Porzio, 59, 26041 Casalmaggiore CR
+Coordinate: Lat 44.98444, Lng 10.417329
+Website: https://bb-bijou.camerainitalia.top/
+Email: 

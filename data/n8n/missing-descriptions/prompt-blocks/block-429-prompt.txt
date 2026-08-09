@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+14981. Starhotels Grand Milan
+ID: a20906b4-f02b-4cd0-b79e-30dbdac112a4
+Slug: starhotels-grand-milan-caronno-pertusella
+Nome: Starhotels Grand Milan
+Comune / Provincia: Caronno Pertusella
+Indirizzo: Via Varese, 23, 21047 Saronno VA
+Coordinate: Lat 45.622634, Lng 9.028381
+Website: https://www.starhotels.com/it/i-nostri-hotel/grand-milan-saronno/
+Email: 
+
+14982. Virginia Palace Hotel
+ID: e22d53f8-9f5f-4fcf-97e2-56d4e8c0ba54
+Slug: virginia-palace-hotel-caronno-pertusella
+Nome: Virginia Palace Hotel
+Comune / Provincia: Caronno Pertusella
+Indirizzo: Via Monte Nero, 127, 20024 Garbagnate Milanese MI
+Coordinate: Lat 45.573094, Lng 9.060278
+Website: http://www.virginiapalace.it/
+Email: 
+
+14983. B&B Ghe Sem Morazzone Storia e Tradizione
+ID: 43b85e33-dc3c-435d-bb04-9edbabd4a20e
+Slug: b-b-ghe-sem-morazzone-storia-e-tradizione-caronno-varesino
+Nome: B&B Ghe Sem Morazzone Storia e Tradizione
+Comune / Provincia: Caronno Varesino
+Indirizzo: Via G. Mameli, 47, 21040 Morazzone VA
+Coordinate: Lat 45.767597, Lng 8.828577
+Website: https://www.ghesem.it/
+Email: 
+
+14984. B&B Villa Emilia
+ID: 112b7e15-2a5f-4e86-9e17-3dad978ac53b
+Slug: b-b-villa-emilia-caronno-varesino
+Nome: B&B Villa Emilia
+Comune / Provincia: Caronno Varesino
+Indirizzo: Via Mottarone, 7, 21040 Castronno VA
+Coordinate: Lat 45.748845, Lng 8.814089
+Website: —
+Email: 
+
+14985. B&B VillaMonterosa
+ID: 1ab4ece7-78c2-4f2a-94a7-263fcc298708
+Slug: b-b-villamonterosa-caronno-varesino
+Nome: B&B VillaMonterosa
+Comune / Provincia: Caronno Varesino
+Indirizzo: Via Gioacchino Rossini, 4, 21040 Castronno VA
+Coordinate: Lat 45.750905, Lng 8.821088
+Website: http://www.villamonterosa.eu/
+Email: 
+
+14986. A CASA DI ALICE
+ID: e6f0c9d1-6aa7-4597-9b81-755e2cbc30e7
+Slug: a-casa-di-alice-carosino
+Nome: A CASA DI ALICE
+Comune / Provincia: Carosino
+Indirizzo: Via Roma, 33, 74026 Pulsano TA
+Coordinate: Lat 40.385645, Lng 17.355019
+Website: https://hotel-detail.com/a-casa-di-alice-pulsano-italy
+Email: 
+
+14987. Ara Solis Hotel
+ID: b079cb20-d83c-4d0b-a2bd-ffdc03e26b03
+Slug: ara-solis-hotel-carosino
+Nome: Ara Solis Hotel
+Comune / Provincia: Carosino
+Indirizzo: Via Calata Penna Dritta, 2, 74123 Taranto TA
+Coordinate: Lat 40.51304, Lng 17.141415
+Website: http://www.arasolishotel.com/
+Email: 
+
+14988. B&B Casa MarFe
+ID: 7f7c2372-7451-4500-8a68-1cd8788bdaa5
+Slug: b-b-casa-marfe-carosino
+Nome: B&B Casa MarFe
+Comune / Provincia: Carosino
+Indirizzo: Via Pitagora, 1, 74023 Grottaglie TA
+Coordinate: Lat 40.536019, Lng 17.435172
+Website: https://www.booking.com/Share-HwKEiRy
+Email: 
+
+14989. B&B Corte Mopps - SPA Elysium
+ID: 55f546b6-a3fd-464c-9f0d-30d5dae05497
+Slug: b-b-corte-mopps-spa-elysium-carosino
+Nome: B&B Corte Mopps - SPA Elysium
+Comune / Provincia: Carosino
+Indirizzo: Via la Sorte, 26, 74023 Grottaglie TA
+Coordinate: Lat 40.539433, Lng 17.436978
+Website: http://cortemopps.it/
+Email: 
+
+14990. B&B La Casa Di Tella
+ID: 2189f2d6-c18b-4e06-b440-cd23e8d83132
+Slug: b-b-la-casa-di-tella-carosino
+Nome: B&B La Casa Di Tella
+Comune / Provincia: Carosino
+Indirizzo: Viale Risorgimento, 73, 74021 Carosino TA
+Coordinate: Lat 40.463868, Lng 17.403042
+Website: —
+Email: 
+
+14991. B&B Le Stanze di Nonna Cecè
+ID: 9fe2024a-779e-4bcd-816a-59c4bc80aa86
+Slug: b-b-le-stanze-di-nonna-cece-carosino
+Nome: B&B Le Stanze di Nonna Cecè
+Comune / Provincia: Carosino
+Indirizzo: via Vittorio Veneto, Piazza Maria Immacolata, 118, 74026 Pulsano TA
+Coordinate: Lat 40.382277, Lng 17.355564
+Website: https://www.bblestanzedinonnacece.com/
+Email: 
+
+14992. B&B miccoli
+ID: 1df92d23-ec40-4c94-80d3-dc4454422627
+Slug: b-b-miccoli-carosino
+Nome: B&B miccoli
+Comune / Provincia: Carosino
+Indirizzo: Via Armando Diaz, 4, 74023 Grottaglie TA
+Coordinate: Lat 40.538155, Lng 17.432211
+Website: https://bbmiccoli.traveleto.com/
+Email: 
+
+14993. B&B Nanze' e Rete' - Esperienze Pugliesi
+ID: a2bab1e7-2c39-4720-a5b1-7b7348c6dde0
+Slug: b-b-nanze-e-rete-esperienze-pugliesi-carosino
+Nome: B&B Nanze' e Rete' - Esperienze Pugliesi
+Comune / Provincia: Carosino
+Indirizzo: Via Dandolo, 4, 74021 Carosino TA
+Coordinate: Lat 40.464482, Lng 17.398446
+Website: http://www.bebnanzeerete.it/
+Email: 
+
+14994. B&B Nuova Salento
+ID: cd313c2f-4774-4296-af42-49d4ea1b5f29
+Slug: b-b-nuova-salento-carosino
+Nome: B&B Nuova Salento
+Comune / Provincia: Carosino
+Indirizzo: Via Ennio, 158, 74023 Grottaglie TA
+Coordinate: Lat 40.538147, Lng 17.431185
+Website: —
+Email: 
+
+14995. Domus 0143
+ID: 826f61e4-b359-4d82-808d-d244803ee10b
+Slug: domus-0143-carosino
+Nome: Domus 0143
+Comune / Provincia: Carosino
+Indirizzo: Via Grazia Deledda, 43, 74027 San Giorgio Ionico TA
+Coordinate: Lat 40.462799, Lng 17.376706
+Website: https://www.domus0143.it/
+Email: 
+
+14996. Gm Le Palme
+ID: e545a1cb-0056-4d74-a9ef-4f37e27b6717
+Slug: gm-le-palme-carosino
+Nome: Gm Le Palme
+Comune / Provincia: Carosino
+Indirizzo: Via Giuseppe Toniolo, 2, 74021 Carosino TA
+Coordinate: Lat 40.468005, Lng 17.39628
+Website: —
+Email: 
+
+14997. Hotel La Tana Del Lupo
+ID: ea9aa6e8-6462-4234-bf15-ba774538fe74
+Slug: hotel-la-tana-del-lupo-carosino
+Nome: Hotel La Tana Del Lupo
+Comune / Provincia: Carosino
+Indirizzo: Via Roma, 229, 74020 Monteiasi TA
+Coordinate: Lat 40.497822, Lng 17.383392
+Website: https://sites.google.com/view/hotel-la-tana-del-lupo/
+Email: 
+
+14998. La Locanda al Castello
+ID: c0db387c-c67e-4cc0-8e9f-2c43c4ffa000
+Slug: la-locanda-al-castello-carosino
+Nome: La Locanda al Castello
+Comune / Provincia: Carosino
+Indirizzo: Piazza Castello, 3, 74026 Pulsano TA
+Coordinate: Lat 40.383964, Lng 17.355006
+Website: https://www.hotelitalian.com/la-locanda-al-castello/
+Email: 
+
+14999. Le Terrazze b&b
+ID: edc6e0e9-fc2a-498d-8736-00894e303374
+Slug: le-terrazze-b-b-carosino
+Nome: Le Terrazze b&b
+Comune / Provincia: Carosino
+Indirizzo: Via Roma, 16, 74026 Pulsano TA
+Coordinate: Lat 40.385918, Lng 17.355469
+Website: https://joshuarecommends.eu/le-terrazze-pulsano-italy
+Email: 
+
+15000. LeTagghjate - Exclusive Rooms and Suites
+ID: 87c8c5c1-c3c1-4b22-9e2d-5862e0113a7c
+Slug: letagghjate-exclusive-rooms-and-suites-carosino
+Nome: LeTagghjate - Exclusive Rooms and Suites
+Comune / Provincia: Carosino
+Indirizzo: Via Giovanni Pascoli, 32, 74027 San Giorgio Ionico TA
+Coordinate: Lat 40.455185, Lng 17.374354
+Website: https://www.letagghjate.it/
+Email: 
+
+15001. Ristorante b&b NONNA LUCIA
+ID: 449aae0a-4b6d-4ec6-a3ae-140196630073
+Slug: ristorante-b-b-nonna-lucia-carosino
+Nome: Ristorante b&b NONNA LUCIA
+Comune / Provincia: Carosino
+Indirizzo: Via P. G. Zingaropoli, 12, 74027 San Giorgio Ionico TA
+Coordinate: Lat 40.457585, Lng 17.376159
+Website: https://bb-locanda-nonna-lucia.hotelpreferito.top/
+Email: 
+
+15002. San Cataldo Hotel
+ID: 5f9b6283-7f95-4dcc-9c1c-30b314806e90
+Slug: san-cataldo-hotel-carosino
+Nome: San Cataldo Hotel
+Comune / Provincia: Carosino
+Indirizzo: Zona Industriale Faggiano (TA) - Complanare SP 109 - n° 4, 74020 Faggiano TA
+Coordinate: Lat 40.436496, Lng 17.364304
+Website: http://www.sancataldohotel.it/
+Email: 
+
+15003. up
+ID: 74f954d4-9f81-49fd-bc05-5f4199c2419e
+Slug: up-carosino
+Nome: up
+Comune / Provincia: Carosino
+Indirizzo: Via Dandolo, 63, 74021 Carosino TA
+Coordinate: Lat 40.465447, Lng 17.397804
+Website: https://up.alberghiinitalia.top/
+Email: 
+
+15004. Arya Nobile Dimora
+ID: 83306e3e-2f08-46de-ab0d-520ab6302fac
+Slug: arya-nobile-dimora-carovigno
+Nome: Arya Nobile Dimora
+Comune / Provincia: Carovigno
+Indirizzo: Corso Vittorio Emanuele, 23, 72012 Carovigno BR
+Coordinate: Lat 40.706289, Lng 17.658482
+Website: https://www.resortarya.com/
+Email: 
+
+15005. B&B Coppularossa
+ID: 7f3005d0-2920-456b-81e7-0ca4796fbc1f
+Slug: b-b-coppularossa-carovigno
+Nome: B&B Coppularossa
+Comune / Provincia: Carovigno
+Indirizzo: Via Aldo Palazzeschi, 1, 72012 Carovigno BR
+Coordinate: Lat 40.702019, Lng 17.654491
+Website: http://coppulaross.it/
+Email: 
+
+15006. B&B da LEO
+ID: 798d0d8c-7e9d-47d0-9cef-8516a56cf011
+Slug: b-b-da-leo-carovigno
+Nome: B&B da LEO
+Comune / Provincia: Carovigno
+Indirizzo: Via Isaia Pagliara, 30, 72012 Carovigno BR
+Coordinate: Lat 40.704693, Lng 17.657801
+Website: —
+Email: 
+
+15007. B&B Delfinia
+ID: 090a7e32-67c4-4f53-bd27-69b1070ed9a6
+Slug: b-b-delfinia-carovigno
+Nome: B&B Delfinia
+Comune / Provincia: Carovigno
+Indirizzo: Via Francesco Conforti, 4, 72012 Carovigno BR
+Coordinate: Lat 40.704334, Lng 17.6663
+Website: https://roomit.cyou/delfinia-retreat-2nkm59
+Email: 
+
+15008. B&B L'Antico Ortale
+ID: da3ff63f-7da4-4d15-a891-473b0e2039a2
+Slug: b-b-l-antico-ortale-carovigno
+Nome: B&B L'Antico Ortale
+Comune / Provincia: Carovigno
+Indirizzo: Via V. Veneto, 21, 72012 Carovigno BR
+Coordinate: Lat 40.704981, Lng 17.659266
+Website: —
+Email: 
+
+15009. B&B LUCERTOLA
+ID: b4aa697b-97fc-4ee7-995e-0d0ff960d8f0
+Slug: b-b-lucertola-carovigno
+Nome: B&B LUCERTOLA
+Comune / Provincia: Carovigno
+Indirizzo: Via Vittorio Alfieri, 3, 72012 Carovigno BR
+Coordinate: Lat 40.704115, Lng 17.656108
+Website: —
+Email: 
+
+15010. Bed and Breakfast Demetra
+ID: f443598e-78ed-4544-88da-b4be8dd391ea
+Slug: bed-and-breakfast-demetra-carovigno
+Nome: Bed and Breakfast Demetra
+Comune / Provincia: Carovigno
+Indirizzo: C.da Malavera sn, 72012 Carovigno BR
+Coordinate: Lat 40.708806, Lng 17.672317
+Website: http://www.bebdemetracarovigno.it/
+Email: 
+
+15011. BED&BREAD Piazza 'Nzegna
+ID: 022a7153-d682-4949-abbd-6a5126540716
+Slug: bed-bread-piazza-nzegna-carovigno
+Nome: BED&BREAD Piazza 'Nzegna
+Comune / Provincia: Carovigno
+Indirizzo: Corso Vittorio Emanuele, 99, 72012 Carovigno BR
+Coordinate: Lat 40.707574, Lng 17.659173
+Website: http://www.bbpiazzanzegna.com/
+Email: 
+
+15012. Belvedere | Bed & Breakfast
+ID: 1e2621e9-f5e3-4bf2-8ad9-b44fbd5b9c71
+Slug: belvedere-bed-breakfast-carovigno
+Nome: Belvedere | Bed & Breakfast
+Comune / Provincia: Carovigno
+Indirizzo: Via Mario Pagano, 3, 72012 Carovigno BR
+Coordinate: Lat 40.711162, Lng 17.664325
+Website: —
+Email: 
+
+15013. Carovigno
+ID: a26d375d-35ec-4490-8319-a4dc2b579cc9
+Slug: carovigno-carovigno
+Nome: Carovigno
+Comune / Provincia: Carovigno
+Indirizzo: Corso Umberto I, 72012 Carovigno BR
+Coordinate: Lat 40.702705, Lng 17.660663
+Website: —
+Email: 
+
+15014. Casa Angela Rosa
+ID: 297b7d5f-1ffd-4ffa-924c-d6113328d742
+Slug: casa-angela-rosa-carovigno
+Nome: Casa Angela Rosa
+Comune / Provincia: Carovigno
+Indirizzo: Via V. Veneto, 95, 72012 Carovigno BR
+Coordinate: Lat 40.703058, Lng 17.660991
+Website: http://www.angelarosa.it/
+Email: 
+
+15015. CASA PASTEUR a due passi da Ostuni
+ID: afded872-5428-4f3d-9bf8-ec5f4718af3a
+Slug: casa-pasteur-a-due-passi-da-ostuni-carovigno
+Nome: CASA PASTEUR a due passi da Ostuni
+Comune / Provincia: Carovigno
+Indirizzo: Via Luigi Pasteur, 9, 72012 Carovigno BR
+Coordinate: Lat 40.712168, Lng 17.6576
+Website: —
+Email: 

@@ -1,0 +1,351 @@
+ELENCO STRUTTURE (genera scheda per ogni riga):
+
+16556. Ring Stone Hotels Bosphorus
+ID: a3712f94-9a02-4596-a6aa-15b75e418d66
+Slug: ring-stone-hotels-bosphorus-istanbul
+Nome: Ring Stone Hotels Bosphorus
+Comune / Provincia: Istanbul
+Indirizzo: Asmalı Mescit, İstiklal Cd. No:182, 34430 Beyoğlu/İstanbul
+Coordinate: Lat 41.028938, Lng 28.974724
+Website: https://www.ringstonehotels.com/
+Email: 
+
+16557. Rixos Pera İstanbul
+ID: 639316a1-fcb6-4b36-8d4e-ff99696e9f7c
+Slug: rixos-pera-istanbul-istanbul
+Nome: Rixos Pera İstanbul
+Comune / Provincia: Istanbul
+Indirizzo: Kamer Hatun, Meşrutiyet Cd. No:44, 34435 Beyoğlu/İstanbul
+Coordinate: Lat 41.033353, Lng 28.97512
+Website: https://www.rixos.com/en/hotel-resort/rixos-pera-istanbul
+Email: 
+
+16558. Sheraton Istanbul City Center
+ID: cdb429c9-99a9-4995-9fcf-6a88216c987a
+Slug: sheraton-istanbul-city-center-istanbul
+Nome: Sheraton Istanbul City Center
+Comune / Provincia: Istanbul
+Indirizzo: Hacıahmet, Kurtuluş Deresi Cd. No:23, 34440 Beyoğlu/İstanbul
+Coordinate: Lat 41.039266, Lng 28.97456
+Website: https://www.marriott.com/en-us/hotels/istsd-sheraton-istanbul-city-center/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0
+Email: 
+
+16559. Sura Hagia Sophia Hotel İstanbul
+ID: b6a949f6-8bdd-4345-aa27-12f3ed83502a
+Slug: sura-hagia-sophia-hotel-istanbul-istanbul
+Nome: Sura Hagia Sophia Hotel İstanbul
+Comune / Provincia: Istanbul
+Indirizzo: Alemdar, Ticarethane Sk. No:10, 34122 Fatih/İstanbul
+Coordinate: Lat 41.008744, Lng 28.976244
+Website: https://surahotels.com/sura-hagia-sophia-hotel
+Email: 
+
+16560. The Elysium Taksim
+ID: e0f1810e-81aa-474e-92b3-e4367d92ef81
+Slug: the-elysium-taksim-istanbul
+Nome: The Elysium Taksim
+Comune / Provincia: Istanbul
+Indirizzo: İnönü, Harbiye Çayırı Sk. No:1, 34373 Şişli/İstanbul
+Coordinate: Lat 41.041609, Lng 28.984199
+Website: https://theelysiumtaksim.com/
+Email: info@theelysiumhotels.com
+
+16561. The Story Hotel Pera
+ID: fe727df6-857d-4235-81cd-10dedc6e8d62
+Slug: the-story-hotel-pera-istanbul
+Nome: The Story Hotel Pera
+Comune / Provincia: Istanbul
+Indirizzo: Tomtom, Kumbaracı Yokuşu Sok. No:66, 34435 Beyoğlu/İstanbul
+Coordinate: Lat 41.029458, Lng 28.975562
+Website: http://www.thestoryhotelpera.com/
+Email: 
+
+16562. 138 Liberdade Hotel
+ID: d78cbfd9-2170-4802-800d-6a69e76100aa
+Slug: 138-liberdade-hotel-lisbon
+Nome: 138 Liberdade Hotel
+Comune / Provincia: Lisbon
+Indirizzo: Av. da Liberdade 138 142, 1250-001 Lisboa
+Coordinate: Lat 38.719172, Lng -9.143864
+Website: https://www.138liberdadehotel.com/
+Email: reception@138liberdadehotel.com
+
+16563. BessaHotel Liberdade
+ID: 16a58876-6eb3-4ad3-afbf-189c90b51d6e
+Slug: bessahotel-liberdade-lisbon
+Nome: BessaHotel Liberdade
+Comune / Provincia: Lisbon
+Indirizzo: Av. da Liberdade 29, 1250-139 Lisboa
+Coordinate: Lat 38.716858, Lng -9.14345
+Website: https://liberdade.bessahotel.com/
+Email: reservations.liberdade@bessahotel.com
+
+16564. Brown's Central Hotel
+ID: fa54c83b-c560-49a3-a2a9-e3783cec0b60
+Slug: brown-s-central-hotel-lisbon
+Nome: Brown's Central Hotel
+Comune / Provincia: Lisbon
+Indirizzo: R. da Assunção 75, 1100-042 Lisboa
+Coordinate: Lat 38.711546, Lng -9.13832
+Website: https://www.brownshotelgroup.com/browns-central/
+Email: 
+
+16565. Czar Lisbon Hotel
+ID: a3977bb5-fd4a-472b-b87d-244286a4a417
+Slug: czar-lisbon-hotel-lisbon
+Nome: Czar Lisbon Hotel
+Comune / Provincia: Lisbon
+Indirizzo: Av. Alm. Reis 103, 1150-020 Lisboa
+Coordinate: Lat 38.729328, Lng -9.134849
+Website: http://www.czarlisbonhotel.com/
+Email: reservas@czarlisbonhotel.com
+
+16566. Holiday Inn Express Lisbon - Ave. Liberdade by IHG
+ID: a91f4bfe-2056-490b-8ba6-8e6b133a86b6
+Slug: holiday-inn-express-lisbon-ave-liberdade-by-ihg-lisbon
+Nome: Holiday Inn Express Lisbon - Ave. Liberdade by IHG
+Comune / Provincia: Lisbon
+Indirizzo: R. Alexandre Herculano 40, 1250-011 Lisboa
+Coordinate: Lat 38.72246, Lng -9.150507
+Website: https://www.ihg.com/holidayinnexpress/hotels/gb/en/lisbon/lisal/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-PT-_-LISAL
+Email: 
+
+16567. Hotel Borges Chiado
+ID: 2d087595-e443-4625-99d9-f7c0f808ed04
+Slug: hotel-borges-chiado-lisbon
+Nome: Hotel Borges Chiado
+Comune / Provincia: Lisbon
+Indirizzo: R. Garrett 108, 1200-205 Lisboa
+Coordinate: Lat 38.710711, Lng -9.141892
+Website: http://www.hotelborges.com/
+Email: reservas@hotelborges.com
+
+16568. Hotel Britania Art Deco Lisboa
+ID: 7ee9a634-f12a-4780-8002-c9d491b69d05
+Slug: hotel-britania-art-deco-lisboa-lisbon
+Nome: Hotel Britania Art Deco Lisboa
+Comune / Provincia: Lisbon
+Indirizzo: Rua Rodrigues Sampaio, 17, 1150-278 Lisboa
+Coordinate: Lat 38.721539, Lng -9.145554
+Website: http://www.britanialisboa.com/
+Email: fo@britanialisboa.com
+
+16569. Hotel Marquês de Pombal
+ID: 1f56c6ea-c532-4335-9452-b7f35859737c
+Slug: hotel-marques-de-pombal-lisbon
+Nome: Hotel Marquês de Pombal
+Comune / Provincia: Lisbon
+Indirizzo: Av. da Liberdade 243, 1250-143 Lisboa
+Coordinate: Lat 38.723298, Lng -9.148929
+Website: http://www.hotel-marquesdepombal.pt/?partner=7649utm_source=google&utm_medium=organic&utm_campaign=MyBusiness&utm
+Email: info@hotel-marquesdepombal.pt
+
+16570. Hotel Mundial
+ID: 5682d7e7-f53d-42ff-9efe-6ed2dc6f99b1
+Slug: hotel-mundial-lisbon
+Nome: Hotel Mundial
+Comune / Provincia: Lisbon
+Indirizzo: Praça Martim Moniz 2, 1100-341 Lisboa
+Coordinate: Lat 38.715047, Lng -9.136983
+Website: https://www.hotel-mundial.pt/
+Email: reservations1@phchotels.pt
+
+16571. Hotel Santa Justa Lisboa
+ID: 26ecca0c-16fd-45cb-883b-7f873113a31b
+Slug: hotel-santa-justa-lisboa-lisbon
+Nome: Hotel Santa Justa Lisboa
+Comune / Provincia: Lisbon
+Indirizzo: R. dos Correeiros 204, 1100-170 Lisboa
+Coordinate: Lat 38.712681, Lng -9.137865
+Website: https://www.hotelsantajustalisboa.com/
+Email: info@hotelsantajustalisboa.com
+
+16572. Hotel Vincci Baixa
+ID: a637d678-a38e-4467-b08b-2456749c330b
+Slug: hotel-vincci-baixa-lisbon
+Nome: Hotel Vincci Baixa
+Comune / Provincia: Lisbon
+Indirizzo: R. do Comércio 32 38, 1100-150 Lisboa
+Coordinate: Lat 38.709253, Lng -9.135645
+Website: https://www.vinccibaixa.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness&partner=8221
+Email: baixa@vinccihoteles.com
+
+16573. Inspira Liberdade Boutique Hotel
+ID: 4990d692-0e28-4f7a-8fe6-65d54368c37b
+Slug: inspira-liberdade-boutique-hotel-lisbon
+Nome: Inspira Liberdade Boutique Hotel
+Comune / Provincia: Lisbon
+Indirizzo: R. de Santa Marta 48, 1150-297 Lisboa
+Coordinate: Lat 38.723176, Lng -9.145611
+Website: https://inspirahotels.com/?partner=8797&utm_source=googlebusinesslisting&utm_medium=gmb_liberdade
+Email: 
+
+16574. Internacional Design Hotel
+ID: e9a3b8ce-87fd-4c37-960a-d3a5a909df5b
+Slug: internacional-design-hotel-lisbon
+Nome: Internacional Design Hotel
+Comune / Provincia: Lisbon
+Indirizzo: Rua da Betesga 3, 1100-090 Lisboa
+Coordinate: Lat 38.713033, Lng -9.138397
+Website: http://www.idesignhotel.com/
+Email: 
+
+16575. Lisbon City Hotel by City Hotels
+ID: 92c67901-5956-450d-9bc9-4550b9395a39
+Slug: lisbon-city-hotel-by-city-hotels-lisbon
+Nome: Lisbon City Hotel by City Hotels
+Comune / Provincia: Lisbon
+Indirizzo: Av. Alm. Reis 49, 1150-010 Lisboa
+Coordinate: Lat 38.724746, Lng -9.135309
+Website: http://www.lisboncityhotel.com/
+Email: 
+
+16576. Central Hotel London
+ID: e9f5adbe-3aeb-44d8-bac7-0da5b7bf2843
+Slug: central-hotel-london-london
+Nome: Central Hotel London
+Comune / Provincia: London
+Indirizzo: 16-18 Argyle St, London WC1H 8EG
+Coordinate: Lat 51.529177, Lng -0.123907
+Website: http://www.centralhotellondon.com/
+Email: 
+
+16577. City London Hotel
+ID: 45f55edd-60c1-4289-88b7-9cacdc8c5993
+Slug: city-london-hotel-london
+Nome: City London Hotel
+Comune / Provincia: London
+Indirizzo: 30 Borough Rd, London SE1 0AJ
+Coordinate: Lat 51.499086, Lng -0.101968
+Website: http://www.citylondonhotel.com/
+Email: info@citylondonhotel.com
+
+16578. Holiday Inn Express London - Southwark by IHG
+ID: f00252b3-2ec3-42c0-a231-6aa159998f66
+Slug: holiday-inn-express-london-southwark-by-ihg-london
+Nome: Holiday Inn Express London - Southwark by IHG
+Comune / Provincia: London
+Indirizzo: 103-109 Southwark St, London SE1 0JQ
+Coordinate: Lat 51.506127, Lng -0.10218
+Website: https://www.ihg.com/holidayinnexpress/hotels/gb/en/london/lonsw/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-GB-_-LONSW
+Email: 
+
+16579. Hotel Indigo London - 1 Leicester Square by IHG
+ID: feb04db4-9feb-4b01-8bb9-c9ee03b51687
+Slug: hotel-indigo-london-1-leicester-square-by-ihg-london
+Nome: Hotel Indigo London - 1 Leicester Square by IHG
+Comune / Provincia: London
+Indirizzo: 1 Leicester Square, London WC2H 7NA
+Coordinate: Lat 51.510822, Lng -0.130746
+Website: https://www.ihg.com/hotelindigo/hotels/gb/en/london/lonls/hoteldetail?cm_mmc=GoogleMaps-_-IN-_-GB-_-LONLS
+Email: 
+
+16580. Hyde London City
+ID: c54f6121-7f7f-43de-b3e8-e63a30f9c20e
+Slug: hyde-london-city-london
+Nome: Hyde London City
+Comune / Provincia: London
+Indirizzo: 15 Old Bailey, London EC4M 7EF
+Coordinate: Lat 51.51626, Lng -0.102424
+Website: https://hydehotels.com/london-city/?utm_source=google&utm_medium=organic&utm_campaign=gmb-website&utm_content=website_button
+Email: events.londoncity@hydehotels.com
+
+16581. Leonardo Royal London St Paul's
+ID: 0f922e54-d07e-4694-a159-faa9184c89cc
+Slug: leonardo-royal-london-st-paul-s-london
+Nome: Leonardo Royal London St Paul's
+Comune / Provincia: London
+Indirizzo: 10 Godliman St, London EC4V 5AJ
+Coordinate: Lat 51.512781, Lng -0.099665
+Website: https://www.leonardo-hotels.com/london/leonardo-royal-hotel-london-st-pauls
+Email: 
+
+16582. London Hotel
+ID: 0b495cfa-66f3-4f1d-ab4c-1c765e63e759
+Slug: london-hotel-london
+Nome: London Hotel
+Comune / Provincia: London
+Indirizzo: London SW1V 2BB
+Coordinate: Lat 51.50724, Lng -0.124327
+Website: https://www.oyorooms.com/gb/hotels-in-london/
+Email: 
+
+16583. Lost Property St Paul's London - Curio Collection by Hilton
+ID: 7a41ac4f-1b77-4fa2-8d2a-6488a641e2f6
+Slug: lost-property-st-paul-s-london-curio-collection-london
+Nome: Lost Property St Paul's London - Curio Collection by Hilton
+Comune / Provincia: London
+Indirizzo: 3-5 Ludgate Hill, London EC4M 7AA
+Coordinate: Lat 51.513716, Lng -0.101067
+Website: https://www.hilton.com/en/hotels/lonccqq-lost-property-st-pauls-london/?SEO_id=GMB-EMEA-QQ-LONCCQQ
+Email: 
+
+16584. master St. Paul's Serviced Apartments
+ID: 51fea45f-0ec1-4eac-adb3-6865dc1feb03
+Slug: master-st-paul-s-serviced-apartments-london
+Nome: master St. Paul's Serviced Apartments
+Comune / Provincia: London
+Indirizzo: 9 Creed Ln, London EC4V 5BR
+Coordinate: Lat 51.513322, Lng -0.101055
+Website: https://www.stay-master.com/london/master-st-pauls?utm_source=GMB
+Email: 
+
+16585. ME London
+ID: 7e0c0871-2f14-48a8-987f-6d6e61647e6d
+Slug: me-london-london
+Nome: ME London
+Comune / Provincia: London
+Indirizzo: 336-337 Strand, London WC2R 1HA
+Coordinate: Lat 51.511818, Lng -0.118898
+Website: https://www.melia.com/en/hotels/united-kingdom/london/me-london?utm_campaign=google&utm_content=6328&utm_medium=organic&utm_source=directories
+Email: 
+
+16586. Novotel London Blackfriars
+ID: 88c6d604-6c02-4096-9a20-3a05afcb8700
+Slug: novotel-london-blackfriars-london
+Nome: Novotel London Blackfriars
+Comune / Provincia: London
+Indirizzo: Novotel, 46 Blackfriars Rd, London SE1 8NZ
+Coordinate: Lat 51.505139, Lng -0.104835
+Website: https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=7942&merchantid=seo-maps-GB-7942&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps
+Email: h7942@accor.com
+
+16587. Premier Inn London Holborn hotel
+ID: f555bc2b-a7da-4e31-8c92-cb802836e1fd
+Slug: premier-inn-london-holborn-hotel-london
+Nome: Premier Inn London Holborn hotel
+Comune / Provincia: London
+Indirizzo: 27-29 Red Lion St, London WC1R 4PS
+Coordinate: Lat 51.520134, Lng -0.117321
+Website: https://www.premierinn.com/gb/en/hotels/england/greater-london/london/london-holborn.html?cid=GLBC_LONHOL
+Email: 
+
+16588. Strand Palace
+ID: db11ef19-9a85-4865-b698-d39360637785
+Slug: strand-palace-london
+Nome: Strand Palace
+Comune / Provincia: London
+Indirizzo: 372 Strand, London WC2R 0JJ
+Coordinate: Lat 51.510892, Lng -0.120843
+Website: https://www.strandpalacehotel.co.uk/?utm_source=google&utm_medium=local&utm_campaign=hotel-strandpalace
+Email: meetings@strandpalacehotel.co.uk
+
+16589. The Londoner Hotel
+ID: 9699d519-d210-48ee-8321-aa818d8bef72
+Slug: the-londoner-hotel-london
+Nome: The Londoner Hotel
+Comune / Provincia: London
+Indirizzo: 38 Leicester Square, London WC2H 7DX
+Coordinate: Lat 51.509862, Lng -0.130213
+Website: https://www.thelondoner.com/?utm_source=Yext&utm_medium=Organic&utm_campaign=Londoner
+Email: reservations@thelondoner.com
+
+16590. The Westin London City
+ID: 0c707a34-0775-425a-9dab-5517b209ec64
+Slug: the-westin-london-city-london
+Nome: The Westin London City
+Comune / Provincia: London
+Indirizzo: 60 Upper Thames St., London EC4V 3AD
+Coordinate: Lat 51.510816, Lng -0.095302
+Website: https://www.marriott.com/en-us/hotels/lonwi-the-westin-london-city/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0
+Email: 
