@@ -35,6 +35,7 @@
     "export:missing-descriptions": "node scripts/export-missing-descriptions.mjs",
     "lmstudio:probe": "node scripts/generate-block-descriptions-lmstudio.mjs --probe",
     "lmstudio:test": "node scripts/test-lmstudio-one-hotel.mjs",
+    "lmstudio:scrape-test": "node scripts/test-lmstudio-scrape-one-hotel.mjs",
     "setup:mac-lmstudio": "node scripts/setup-mac-lmstudio.mjs",
     "audit:new-request-notifications": "npx tsx scripts/audit-new-request-notifications.ts",
     "replay:new-request-notifications": "npx tsx scripts/replay-new-request-notifications.ts",
