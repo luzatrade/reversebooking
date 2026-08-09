@@ -71,16 +71,25 @@ function extractHeadings(html) {
 }
 
 async function fetchPage(url) {
-  const res = await fetch(url, {
-    redirect: "follow",
-    headers: {
-      "User-Agent": "Mozilla/5.0 (compatible; HotelsDrop/1.0)",
-      "Accept-Language": "it-IT,it;q=0.9,en;q=0.8",
-    },
-    signal: AbortSignal.timeout(15000),
-  });
-  if (!res.ok) return null;
-  return { url: res.url, html: await res.text() };
+  try {
+    const res = await fetch(url, {
+      redirect: "follow",
+      headers: {
+        "User-Agent": "Mozilla/5.0 (compatible; HotelsDrop/1.0)",
+        "Accept-Language": "it-IT,it;q=0.9,en;q=0.8",
+      },
+      signal: AbortSignal.timeout(15000),
+    });
+    if (!res.ok) return null;
+    const finalUrl = res.url;
+    // Skip obvious aggregator redirects (spam booking funnels)
+    if (/booking\.com|searchresults\.html/i.test(finalUrl) && !/booking\.com\/hotel\//i.test(finalUrl)) {
+      return null;
+    }
+    return { url: finalUrl, html: await res.text() };
+  } catch {
+    return null;
+  }
 }
 
 /**
