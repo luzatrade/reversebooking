@@ -14,15 +14,24 @@ import dotenv from "dotenv";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: resolve(__dirname, "../.env.local"), override: true });
 
+const { normalizePublicEmail, isSuspiciousOnboardingEmail } = await import("./lib/onboarding-email.mjs");
+
 const AGGREGATOR_FRAGMENTS = [
   "booking.com",
+  "airbnb.com",
+  "all.accor.com",
+  "accor.com",
   "romeit.cyou",
   "facebook.com",
   "m.facebook.com",
   "staycentral",
   "roomsit.cyou",
   "directy.eu",
+  "beb.it/",
+  "gctravel.it",
+  "agrigento-templi.it",
   ".org.es/",
+  ".com.es/",
   "prolocomaccagno.it/albergo",
 ];
 
@@ -89,6 +98,22 @@ async function main() {
     } else if (h.website) {
       websiteSkipped++;
       console.log(`  ~ website aggregatore ignorato: ${h.website.slice(0, 50)}…`);
+    }
+
+    if (h.email) {
+      const email = normalizePublicEmail(h.email);
+      const websiteForCheck = patch.website ?? row.website ?? h.website;
+      const websiteIsAggregator = h.website && isSuspiciousWebsite(h.website);
+      if (
+        email &&
+        !websiteIsAggregator &&
+        !isSuspiciousOnboardingEmail(email, websiteForCheck) &&
+        !row.email?.trim()
+      ) {
+        patch.email = email;
+      } else if (email && (websiteIsAggregator || isSuspiciousOnboardingEmail(email, websiteForCheck))) {
+        console.log(`  ~ email sospetta ignorata: ${email}`);
+      }
     }
 
     if (Object.keys(patch).length === 0) {
