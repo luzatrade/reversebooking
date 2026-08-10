@@ -36,6 +36,35 @@ const BLOCKED_DOMAIN_FRAGMENTS = [
   "hosthero",
   "italyhotels",
   "ourdomain",
+  "housity",
+  "dicurziohospitality",
+  "piramedia",
+];
+
+/** Siti aggregatori (non ufficiali) — email scrapata quasi sempre non è della struttura */
+const AGGREGATOR_WEBSITE_FRAGMENTS = [
+  "booking.com",
+  "tripadvisor",
+  "staycentral",
+  "staytrip",
+  "globostay",
+  "roomstay",
+  "go2stay",
+  "tripstay",
+  "stayo.eu",
+  "completedstay",
+  "smarthotelstay",
+  "securestay",
+  "hotelprovider",
+  "itahotel",
+  "roomsit.cyou",
+  "lakesit.cyou",
+  "hotelsit.cyou",
+  "staylio.eu",
+  "migliorhotel",
+  "hotelperiviaggi",
+  "benitalia.com",
+  "bedandbreakfast.eu",
 ];
 
 const FREEMAIL_DOMAINS = new Set([
@@ -51,6 +80,10 @@ const FREEMAIL_DOMAINS = new Set([
   "tiscali.it",
   "libero.it",
   "icloud.com",
+  "virgilio.it",
+  "email.it",
+  "proton.me",
+  "protonmail.com",
 ]);
 
 const PREFERRED_LOCAL_PARTS = [
@@ -118,12 +151,23 @@ export function emailDomainMatchesWebsite(email, websiteUrl) {
   if (host.endsWith(`.${domain}`) || domain.endsWith(`.${host}`)) return true;
   const hostBase = host.split(".").slice(-2).join(".");
   const domainBase = domain.split(".").slice(-2).join(".");
-  return hostBase === domainBase;
+  if (hostBase === domainBase) return true;
+  const hostStem = host.split(".")[0] ?? "";
+  const emailStem = domain.split(".")[0] ?? "";
+  if (hostStem.length >= 5 && emailStem.includes(hostStem)) return true;
+  if (emailStem.length >= 5 && hostStem.includes(emailStem)) return true;
+  return false;
+}
+
+function isAggregatorWebsite(websiteUrl) {
+  if (!websiteUrl?.trim()) return false;
+  const host = hostFromUrl(websiteUrl) ?? "";
+  return AGGREGATOR_WEBSITE_FRAGMENTS.some((frag) => host.includes(frag));
 }
 
 /**
- * Email da rimuovere: aggregatori, placeholder, portali su dominio diverso dal sito.
- * Mantiene: dominio = sito, PEC, freemail (gmail/alice/…).
+ * Email non verificabile / da rimuovere.
+ * Mantiene solo: dominio = sito ufficiale, PEC, freemail del gestore.
  */
 export function isSuspiciousOnboardingEmail(email, websiteUrl) {
   const norm = normalizePublicEmail(email);
@@ -133,19 +177,14 @@ export function isSuspiciousOnboardingEmail(email, websiteUrl) {
   if (BLOCKED_DOMAINS.has(domain)) return true;
   if (BLOCKED_DOMAIN_FRAGMENTS.some((frag) => domain.includes(frag))) return true;
 
-  const local = norm.split("@")[0] ?? "";
-  if (/^(support|contact|booking|prenotazioni|reservations)@/i.test(norm) && websiteUrl) {
-    if (!emailDomainMatchesWebsite(norm, websiteUrl) && !FREEMAIL_DOMAINS.has(domain)) {
-      return true;
-    }
-  }
+  if (isAggregatorWebsite(websiteUrl)) return true;
 
   if (domain.endsWith(".pec.it") || domain.endsWith(".pec.eu")) return false;
   if (FREEMAIL_DOMAINS.has(domain)) return false;
 
-  if (websiteUrl?.trim() && !emailDomainMatchesWebsite(norm, websiteUrl)) {
-    if (/^(webmaster|admin|noreply)@/i.test(norm)) return true;
-    if (domain.includes("piramedia") || domain.includes("dicurziohospitality")) return true;
+  if (websiteUrl?.trim()) {
+    if (emailDomainMatchesWebsite(norm, websiteUrl)) return false;
+    return true;
   }
 
   return false;
