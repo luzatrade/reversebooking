@@ -1,0 +1,124 @@
+{
+  "removed": [
+    {
+      "id": "e54f5894-a39b-470c-a5b7-70f323312a3a",
+      "slug": "agriturismo-coop-grisciano-accumoli",
+      "nome": "Agriturismo 'Coop. Grisciano'",
+      "email": "contact@ourdomain.com",
+      "website": "http://www.grisciano.it/"
+    },
+    {
+      "id": "46e7159c-021a-4fa6-91c4-75796289d35f",
+      "slug": "albergo-le-dodici-lune-di-alessandra-e-paola-cor-acerno",
+      "nome": "Albergo Le Dodici Lune Di Alessandra E Paola Coralluzzo S.N.C.",
+      "email": "contact@globostay.com",
+      "website": "https://securestay.eu/albergo-le-dodici-lune-montecorvino-rovella"
+    },
+    {
+      "id": "dfd36fdd-e76f-4a2b-9253-a69e7df4c74b",
+      "slug": "albergo-ristorante-la-villa-abetone-cutigliano-abetone-cutigliano",
+      "nome": "Albergo Ristorante La Villa - Abetone Cutigliano",
+      "email": "webmaster@piramedia.it",
+      "website": "http://www.albergolavilla.it/"
+    },
+    {
+      "id": "8744722b-c8f4-4264-9ad4-b06c35297003",
+      "slug": "alloggio-turistico-san-pietro-acquapendente",
+      "nome": "Alloggio Turistico San Pietro",
+      "email": "support@centralstay.eu",
+      "website": "https://staycentral.eu/alloggio-turistico-san-pietro-acquapendente/"
+    },
+    {
+      "id": "0dfcf4b9-7358-4d27-a43d-43e0b163f400",
+      "slug": "antica-dimora-del-drengot-acerenza",
+      "nome": "Antica Dimora del Drengot",
+      "email": "support@centralstay.eu",
+      "website": "https://staytrip.eu/antica-dimora-del-drengot-acerenza/"
+    },
+    {
+      "id": "f179da94-e886-42d6-8d26-e75f43b895d3",
+      "slug": "b-b-bellini-appartamento-acquaviva-delle-fonti",
+      "nome": "B&B Bellini Appartamento",
+      "email": "support@centralstay.eu",
+      "website": "https://smarthotelstay.com/b-n-b-bellini-appartamento-acquaviva-delle-fonti/"
+    },
+    {
+      "id": "993100f7-ea74-4b5c-ac5a-d4c435db8474",
+      "slug": "b-b-i-relais-acquaviva-collecroce",
+      "nome": "B&B I-relais",
+      "email": "contact@globostay.com",
+      "website": "https://staylio.eu/i-relais-bb-montefalcone-del-sannio"
+    },
+    {
+      "id": "598fabf2-2ef1-4360-9b2c-7eed2f0796e6",
+      "slug": "b-b-la-fontanella-acquaviva-picena",
+      "nome": "B&B La Fontanella",
+      "email": "prenotazioni@hosthero.it",
+      "website": "https://www.bblafontanella.it/"
+    },
+    {
+      "id": "ca99ca75-5ccb-4e0d-90b2-0093e2665a8a",
+      "slug": "b-b-la-torre-dell-orologio-acquaviva-d-isernia",
+      "nome": "B&B La Torre dell'Orologio",
+      "email": "contact@globostay.com",
+      "website": "https://roomstay.eu/bnb-la-torre-dell-orologio-roccasicura"
+    },
+    {
+      "id": "4dc40a7a-fd19-4088-9155-aa30905a99f5",
+      "slug": "b-b-ospiti-a-corte-acerno",
+      "nome": "B&B Ospiti a Corte",
+      "email": "support@centralstay.eu",
+      "website": "https://go2stay.eu/bed-breakfast-ospiti-a-corte-giffoni-valle-piana/"
+    },
+    {
+      "id": "7c31f0bc-f81f-40a3-9765-3ceb1f988868",
+      "slug": "country-house-il-vecchio-ippocastano-accumoli",
+      "nome": "Country House il Vecchio Ippocastano",
+      "email": "frontoffice.ippocastano@dicurziohospitality.com",
+      "website": "http://www.ilvecchioippocastano.it/"
+    },
+    {
+      "id": "690bc7b8-c1b7-4745-8f3a-314f741d63c5",
+      "slug": "country-house-mafalda-acquaviva-collecroce",
+      "nome": "Country House Mafalda",
+      "email": "support@centralstay.eu",
+      "website": "https://completedstay.com/country-house-mafalda/"
+    },
+    {
+      "id": "61973fad-2b26-4cae-86be-2ff214fbf763",
+      "slug": "la-finestra-sul-fiume-acqualagna",
+      "nome": "La Finestra Sul Fiume",
+      "email": "contact@globostay.com",
+      "website": "https://hotelprovider.eu/la-finestra-sul-fiume-fossombrone"
+    },
+    {
+      "id": "574bc258-b9fb-452e-abbe-876f5e3dafae",
+      "slug": "la-villa-resort-abriola",
+      "nome": "La Villa Resort.",
+      "email": "contact@housity.net",
+      "website": "https://itahotel.top/"
+    },
+    {
+      "id": "b31cfb5a-5ede-4bc4-8dac-612bf8a7ff63",
+      "slug": "maison-464-acerra",
+      "nome": "MAISON 464",
+      "email": "support@centralstay.eu",
+      "website": "https://stayo.eu/maison-464-san-felice-a-cancello/"
+    },
+    {
+      "id": "720a70fc-ff3a-40f6-bd9a-306b06b9d38a",
+      "slug": "residence-club-hotel-le-terrazze-acquaviva-picena",
+      "nome": "Residence Club Hotel Le Terrazze",
+      "email": "booking@italyhotels.it",
+      "website": "http://www.residencehotelleterrazze.it"
+    },
+    {
+      "id": "31d2c198-ba6d-4930-a74c-9059660de2b1",
+      "slug": "villa-giovannozzi-acquasanta-terme",
+      "nome": "Villa Giovannozzi",
+      "email": "support@centralstay.eu",
+      "website": "https://tripstay.eu/villa-giovannozzi-ascoli-piceno/"
+    }
+  ],
+  "applied": true
+}
