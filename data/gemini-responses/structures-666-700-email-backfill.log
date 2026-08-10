@@ -1,0 +1,27 @@
+◇ injected env (8) from .env.local // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+=== Strutture 666-700 (35 hotel) ===
+
+  #667 azienda-agricola-bio-e-agriturismo-brusignone-agrate-brianza — non trovata (https://agricolabrusignone.com/)
+  #670 bervius-agrate-brianza — non trovata (https://www.bervius.com/)
+  #678 casa-violetta-b-b-agrate-conturbia — non trovata (http://www.casavioletta.it/)
+  #680 emotional-grand-motel-agrate-conturbia — non trovata (https://www.emotionalgrandmotel.it/)
+  #681 golf-hotel-castelconturbia-agrate-conturbia — non trovata (https://www.golfhotelcastelconturbia.it/)
+  #685 hotel-ramoverde-agrate-conturbia — non trovata (https://www.hotelramoverde.it/)
+  #689 les-arcs-agrate-conturbia — non trovata (https://www.lesarcscountryhouse.com/)
+  ✓ #691 ritratto-sul-lago-bed-breakfast-agrate-conturbia → magdaoliver197@gmail.com
+  #696 b-b-agrigento-gioeniventidue-agrigento — non trovata (http://www.gioeniventidue.it/)
+
+=== TOTALE ===
+{
+  "range": "666-700",
+  "dryRun": false,
+  "total": 35,
+  "alreadyHadEmail": 16,
+  "noWebsite": 4,
+  "aggregatorSkipped": 6,
+  "scrapedFound": 1,
+  "dbUpdated": 1,
+  "notFound": 8,
+  "errors": 0
+}
+Report: /workspace/data/gemini-responses/structures-666-700-email-backfill-report.json
