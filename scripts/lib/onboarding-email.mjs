@@ -100,9 +100,14 @@ const PREFERRED_LOCAL_PARTS = [
 
 export function normalizePublicEmail(raw) {
   if (!raw) return null;
-  const cleaned = String(raw)
-    .trim()
-    .toLowerCase()
+  let s = String(raw).trim().toLowerCase();
+  try {
+    s = decodeURIComponent(s);
+  } catch {
+    /* ignore */
+  }
+  const embedded = s.match(/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/i);
+  const cleaned = (embedded?.[0] ?? s)
     .replace(/^mailto:/i, "")
     .split("?")[0]
     ?.trim()
