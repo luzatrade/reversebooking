@@ -1,7 +1,7 @@
 import { createServiceRoleClient } from "@/lib/supabase/admin";
 import { cityHeroImages } from "@/data/cityHeroImages";
 import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
-import { buildDestinationSlug, canonicalCityKey, cityLookupNames } from "@/lib/seo/city-canonical";
+import { buildDestinationSlug, cityLookupNames } from "@/lib/seo/city-canonical";
 import {
   filterIndexableDestinationHubs,
   isDestinationHubIndexable,
@@ -123,8 +123,10 @@ async function loadDestinationIndex(): Promise<DestinationIndex> {
   function addStructure(cityName: string, item: DestinationStructureItem) {
     if (!structureHasMainPhoto(item)) return;
 
-    const hubKey = canonicalCityKey(cityName);
+    // Merge by canonical destination slug so Rome/Roma (and IT/EN aliases) share one hub.
     const hubSlug = buildDestinationSlug(cityName);
+    if (!hubSlug) return;
+    const hubKey = hubSlug;
     const bucket = structuresByHubKey.get(hubKey) ?? {
       slug: hubSlug,
       displayName: cityName,
@@ -168,11 +170,6 @@ async function loadDestinationIndex(): Promise<DestinationIndex> {
   return value;
 }
 
-export async function fetchDestinationHubBySlug(slug: string): Promise<DestinationHub | null> {
-  const index = await loadDestinationIndex();
-  return index.hubs.get(slug) ?? null;
-}
-
 export async function listDestinationHubSlugs(): Promise<string[]> {
   const index = await loadDestinationIndex();
   return [...index.hubs.values()]
@@ -212,14 +209,138 @@ export async function listPopularDestinations(): Promise<DestinationHub[]> {
   return results;
 }
 
+/**
+ * Carica un hub "soft" on-demand quando la città ha strutture con foto
+ * ma non raggiunge DESTINATION_MIN_STRUCTURES (evita 404 dal CTA homepage).
+ * Non entra in sitemap / listAll — solo fetchDestinationStructures / BySlug.
+ */
+async function loadSoftDestinationHub(slug: string): Promise<{
+  hub: DestinationHub;
+  items: DestinationStructureItem[];
+} | null> {
+  const admin = createServiceRoleClient();
+  if (!admin || !slug) return null;
+
+  const displayGuess = slug.replace(/-/g, " ");
+  const names = cityLookupNames(displayGuess);
+  if (!names.length) return null;
+
+  const itemsBySlug = new Map<string, DestinationStructureItem>();
+
+  const nameFilter = names
+    .map((name) => `city_name.ilike."${name.replace(/"/g, '""')}"`)
+    .join(",");
+
+  const [{ data: onboarding, error: onboardingError }, { data: hotels, error: hotelsError }] =
+    await Promise.all([
+      admin
+        .from("onboarding_hotels")
+        .select("slug, seo_indexable, city_name, nome, indirizzo, main_photo_url")
+        .eq("seo_indexable", true)
+        .not("slug", "is", null)
+        .not("main_photo_url", "is", null)
+        .or(nameFilter)
+        .limit(200),
+      admin
+        .from("hotel_accounts")
+        .select("slug, seo_indexable, city_name, property_name, full_address, main_photo_url, provider_kind")
+        .eq("seo_indexable", true)
+        .not("slug", "is", null)
+        .not("main_photo_url", "is", null)
+        .or(nameFilter)
+        .limit(200),
+    ]);
+
+  if (onboardingError) {
+    console.error("[destination] soft hub onboarding query failed:", onboardingError.message);
+  }
+  if (hotelsError) {
+    console.error("[destination] soft hub hotel_accounts query failed:", hotelsError.message);
+  }
+
+  for (const row of onboarding ?? []) {
+    const itemSlug = String(row.slug ?? "");
+    if (!itemSlug) continue;
+    const item: DestinationStructureItem = {
+      slug: itemSlug,
+      name: String(row.nome ?? ""),
+      address: row.indirizzo ?? null,
+      mainPhotoUrl: row.main_photo_url ?? null,
+    };
+    if (!structureHasMainPhoto(item)) continue;
+    if (buildDestinationSlug(String(row.city_name ?? "")) !== slug) continue;
+    itemsBySlug.set(itemSlug, item);
+  }
+
+  for (const row of hotels ?? []) {
+    if (row.provider_kind === "agency") continue;
+    const itemSlug = String(row.slug ?? "");
+    if (!itemSlug) continue;
+    const item: DestinationStructureItem = {
+      slug: itemSlug,
+      name: String(row.property_name ?? ""),
+      address: row.full_address ?? null,
+      mainPhotoUrl: row.main_photo_url ?? null,
+    };
+    if (!structureHasMainPhoto(item)) continue;
+    if (buildDestinationSlug(String(row.city_name ?? "")) !== slug) continue;
+    itemsBySlug.set(itemSlug, item);
+  }
+
+  const items = [...itemsBySlug.values()].sort((a, b) => a.name.localeCompare(b.name, "it"));
+  if (!items.length) return null;
+
+  const displayName =
+    names.find((n) => /^[A-ZÀ-ÖØ-Ý]/.test(n) && buildDestinationSlug(n) === slug) ??
+    titleCaseSlug(slug);
+
+  const cityId =
+    resolveCanonicalCityId({ cityName: displayName }) ??
+    resolveCanonicalCityId({ cityName: displayName, countryCode: "IT" });
+  const countryCode = cityId?.split("-")[0] ?? null;
+
+  const hub: DestinationHub = {
+    slug,
+    displayName,
+    structureCount: items.length,
+    tier: items.length >= 10 ? "premium" : "standard",
+    cityId,
+    countryCode,
+  };
+
+  return { hub, items };
+}
+
+function titleCaseSlug(slug: string) {
+  return slug
+    .split("-")
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
+export async function fetchDestinationHubBySlug(slug: string): Promise<DestinationHub | null> {
+  const index = await loadDestinationIndex();
+  const cached = index.hubs.get(slug);
+  if (cached) return cached;
+  const soft = await loadSoftDestinationHub(slug);
+  return soft?.hub ?? null;
+}
+
 export async function fetchDestinationStructures(
   slug: string,
   page = 1,
 ): Promise<{ hub: DestinationHub; items: DestinationStructureItem[]; totalPages: number } | null> {
   const index = await loadDestinationIndex();
-  const hub = index.hubs.get(slug);
-  const allItems = index.structuresBySlug.get(slug);
-  if (!hub || !allItems) return null;
+  let hub = index.hubs.get(slug) ?? null;
+  let allItems = index.structuresBySlug.get(slug) ?? null;
+
+  if (!hub || !allItems) {
+    const soft = await loadSoftDestinationHub(slug);
+    if (!soft) return null;
+    hub = soft.hub;
+    allItems = soft.items;
+  }
 
   const totalPages = Math.max(1, Math.ceil(allItems.length / DESTINATION_PAGE_SIZE));
   const safePage = Math.min(Math.max(page, 1), totalPages);

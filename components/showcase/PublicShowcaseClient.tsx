@@ -28,14 +28,14 @@ import { destinationPublicPath, localizedPath } from "@/lib/i18n/routing";
 import { getStructureTypeLabels } from "@/lib/i18n/labels";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import type { CatalogStructureHit } from "@/lib/catalog/searchStructures";
-import { createWorldCity, findCityById, cityFromInput, resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
+import { createWorldCity, findCityById, cityFromInput, resolveCanonicalCityId, normalizeWorldCitySelection } from "@/lib/constants/world-city-helpers";
 import { cn } from "@/lib/utils";
 import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
 import { mealPlanLabels, type MealPlan, type StructureType, type UserRole } from "@/types/app";
 import type { CatalogOfferListItem } from "@/types/catalog-offers";
 import type { ShowcaseHomeInitialData, ShowcaseHomeHotel } from "@/lib/showcase/homeData";
 import { structureProfileHref } from "@/lib/showcase/structureExploreLinks";
-import { resolveDestinationHubSlug } from "@/lib/seo/city-canonical";
+import { buildDestinationSlug } from "@/lib/seo/city-canonical";
 
 function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date()) {
   const until = new Date(acceptedAtIso).getTime() + 24 * 60 * 60 * 1000;
@@ -653,7 +653,10 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
         total: structureCatalogCount.toLocaleString(locale === "en" ? "en-GB" : "it-IT"),
       });
   const structuresCatalogHref = hasSelectedCity
-    ? destinationPublicPath(resolveDestinationHubSlug(selectedCity.city_name), locale)
+    ? destinationPublicPath(
+        buildDestinationSlug(normalizeWorldCitySelection(selectedCity).city_name || selectedCity.city_name),
+        locale,
+      )
     : localizedPath(locale, "/destinazioni");
 
   function renderHotelCard(hotel: HotelAccount, layout: "compact" | "dense" = "compact") {
