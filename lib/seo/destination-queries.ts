@@ -1,6 +1,7 @@
 import { createServiceRoleClient } from "@/lib/supabase/admin";
 import { cityHeroImages } from "@/data/cityHeroImages";
 import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
+import { onboardingCitySearchNames, supabaseCityNameOrFilter } from "@/lib/onboarding/city-match";
 import { buildDestinationSlug, cityLookupNames } from "@/lib/seo/city-canonical";
 import {
   filterIndexableDestinationHubs,
@@ -9,7 +10,9 @@ import {
 } from "@/lib/seo/destination-quality";
 import { POPULAR_DESTINATION_CITIES } from "@/lib/seo/popular-destinations";
 
-export const DESTINATION_MIN_STRUCTURES = 3;
+/** Min structures with photo to materialize a destination hub page (serving).
+ * Sitemap/index still gated by isDestinationHubIndexable (hero or ≥10). */
+export const DESTINATION_MIN_STRUCTURES = 1;
 export const DESTINATION_PAGE_SIZE = 48;
 export const POPULAR_DESTINATIONS_LIMIT = 20;
 
@@ -222,14 +225,16 @@ async function loadSoftDestinationHub(slug: string): Promise<{
   if (!admin || !slug) return null;
 
   const displayGuess = slug.replace(/-/g, " ");
-  const names = cityLookupNames(displayGuess);
+  const names = [
+    ...new Set([
+      ...cityLookupNames(displayGuess),
+      ...onboardingCitySearchNames({ cityName: displayGuess, countryCode: "IT" }),
+    ]),
+  ];
   if (!names.length) return null;
 
   const itemsBySlug = new Map<string, DestinationStructureItem>();
-
-  const nameFilter = names
-    .map((name) => `city_name.ilike."${name.replace(/"/g, '""')}"`)
-    .join(",");
+  const nameFilter = supabaseCityNameOrFilter(names);
 
   const [{ data: onboarding, error: onboardingError }, { data: hotels, error: hotelsError }] =
     await Promise.all([
