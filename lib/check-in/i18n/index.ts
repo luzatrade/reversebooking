@@ -9,8 +9,8 @@ const STORAGE_KEY = 'fastcheckin_locale';
 function getInitialLocale(): Locale {
   if (typeof window === "undefined") return "it";
   const stored = localStorage.getItem(STORAGE_KEY);
-  if (stored === "it" || stored === "en") return stored;
-  return navigator.language.startsWith("it") ? "it" : "en";
+  if (stored === 'it' || stored === 'en') return stored;
+  return navigator.language.startsWith('it') ? 'it' : 'en';
 }
 
 void i18n.use(initReactI18next).init({
