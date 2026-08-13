@@ -26,7 +26,7 @@ const OCR_OPTS = {
   corePath: '/tesseract/',
   langPath: '/model/',
   gzip: true,
-  cachePath: 'fastcheckin-mrz-v5',
+  cachePath: 'hotelsdrop-mrz-v2',
   cacheMethod: 'write' as const,
 };
 
@@ -94,14 +94,19 @@ function normalizeLine(text: string): string {
     .replace(/[^A-Z0-9<]/g, '');
 }
 
+let lastRawOcr = '';
+
 function collectFromText(text: string, out: MrzParseCandidate[]): void {
   if (!text) return;
+  lastRawOcr = text.slice(0, 240);
   out.push(...parseMrzCandidates(text));
 }
 
 function pickBest(candidates: MrzParseCandidate[]): MrzExtractedData | null {
   if (candidates.length === 0) {
-    lastOcrDebug = '(OCR vuoto — controlla luce, fuoco e inquadratura MRZ)';
+    lastOcrDebug = lastRawOcr
+      ? `(OCR senza MRZ valida) ${lastRawOcr.replace(/\s+/g, ' ').slice(0, 120)}`
+      : '(OCR vuoto — controlla luce, fuoco e inquadratura MRZ)';
     return null;
   }
 
@@ -112,7 +117,11 @@ function pickBest(candidates: MrzParseCandidate[]): MrzExtractedData | null {
     .join(' | ');
 
   const best = sorted[0]!;
-  return best.score >= MIN_ACCEPT_SCORE ? best.data : null;
+  if (best.score < MIN_ACCEPT_SCORE) {
+    lastOcrDebug += ` | score basso (${best.score}<${MIN_ACCEPT_SCORE})`;
+    return null;
+  }
+  return best.data;
 }
 
 function pickEarly(candidates: MrzParseCandidate[]): MrzExtractedData | null {
