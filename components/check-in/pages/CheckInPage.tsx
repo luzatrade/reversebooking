@@ -41,6 +41,7 @@ export function CheckInPage() {
           </>
         ) : (
           <GuestForm
+            key={mrzData?.rawMrz ?? 'manual'}
             initialData={mrzData}
             onSubmit={handleConfirm}
             onBack={() => setView('scan')}
