@@ -1,0 +1,10 @@
+[
+  { "code": "IDENT", "name": "CARTA DI IDENTITA" },
+  { "code": "PASOR", "name": "PASSAPORTO ORDINARIO" },
+  { "code": "PASDI", "name": "PASSAPORTO DIPLOMATICO" },
+  { "code": "PATEN", "name": "PATENTE DI GUIDA" },
+  { "code": "PATNA", "name": "PATENTE NAUTICA" },
+  { "code": "PORMI", "name": "PORTO D ARMI" },
+  { "code": "TENAV", "name": "TESSERA NAVALE" },
+  { "code": "ALTRO", "name": "ALTRO DOCUMENTO" }
+]

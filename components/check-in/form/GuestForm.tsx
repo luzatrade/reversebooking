@@ -1,0 +1,282 @@
+import { useEffect, useMemo, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import { SearchSelect } from '@/components/check-in/ui/SearchSelect';
+import {
+  ITALY_CODE,
+  findNationByIso3,
+  loadComuni,
+  loadDocumentTypes,
+  loadNations,
+  searchComuni,
+  searchNations,
+  type ComuneEntry,
+  type DocumentTypeEntry,
+  type NationEntry,
+} from '@/lib/check-in/lookup/alloggiatiTables';
+import { guestNeedsDocumentFields } from '@/lib/check-in/export/guestMapper';
+import type { GuestRecord, GuestType, MrzExtractedData } from '@/types/check-in';
+import styles from './GuestForm.module.css';
+
+interface GuestFormProps {
+  initialData?: Partial<MrzExtractedData>;
+  onSubmit: (guest: Omit<GuestRecord, 'id' | 'hotelAccountId'>) => void;
+  onBack: () => void;
+  saving?: boolean;
+}
+
+const GUEST_TYPES: GuestType[] = ['single', 'head_family', 'family', 'head_group', 'group'];
+
+export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormProps) {
+  const { t } = useTranslation();
+  const today = new Date().toISOString().slice(0, 10);
+
+  const [nations, setNations] = useState<NationEntry[]>([]);
+  const [comuni, setComuni] = useState<ComuneEntry[]>([]);
+  const [documentTypes, setDocumentTypes] = useState<DocumentTypeEntry[]>([]);
+
+  const [nationQuery, setNationQuery] = useState('');
+  const [comuneQuery, setComuneQuery] = useState('');
+  const [citizenshipQuery, setCitizenshipQuery] = useState('');
+  const [docPlaceQuery, setDocPlaceQuery] = useState('');
+
+  const [form, setForm] = useState({
+    guestType: 'single' as GuestType,
+    arrivalDate: today,
+    stayDays: 1,
+    surname: initialData?.surname ?? '',
+    givenNames: initialData?.givenNames ?? '',
+    sex: (initialData?.sex === 'F' ? 'F' : 'M') as 'M' | 'F',
+    birthDate: initialData?.birthDate ?? '',
+    birthMunicipalityCode: '',
+    birthProvinceCode: '',
+    birthCountryCode: '',
+    citizenshipCode: '',
+    documentTypeCode: initialData?.documentType === 'TD3' ? 'PASOR' : 'IDENT',
+    documentNumber: initialData?.documentNumber ?? '',
+    documentIssuePlaceCode: ITALY_CODE,
+  });
+
+  useEffect(() => {
+    void Promise.all([loadNations(), loadComuni(), loadDocumentTypes()]).then(
+      ([n, c, d]) => {
+        setNations(n);
+        setComuni(c);
+        setDocumentTypes(d);
+
+        if (initialData?.nationality) {
+          const nation = findNationByIso3(n, initialData.nationality);
+          if (nation) {
+            setForm((prev) => ({
+              ...prev,
+              birthCountryCode: nation.code,
+              citizenshipCode: nation.code,
+            }));
+          }
+        }
+      },
+    );
+  }, [initialData?.nationality]);
+
+  const needsDocument = guestNeedsDocumentFields(form.guestType);
+  const isItalianBirth = form.birthCountryCode === ITALY_CODE;
+
+  const nationOptions = useMemo(
+    () => searchNations(nations, nationQuery).map((n) => ({
+      value: n.code,
+      label: n.name,
+      meta: n.iso3,
+    })),
+    [nations, nationQuery],
+  );
+
+  const citizenshipOptions = useMemo(
+    () => searchNations(nations, citizenshipQuery).map((n) => ({
+      value: n.code,
+      label: n.name,
+      meta: n.iso3,
+    })),
+    [nations, citizenshipQuery],
+  );
+
+  const comuneOptions = useMemo(
+    () => searchComuni(comuni, comuneQuery).map((c) => ({
+      value: c.code,
+      label: c.name,
+      meta: c.province,
+    })),
+    [comuni, comuneQuery],
+  );
+
+  const docPlaceOptions = useMemo(
+    () => searchNations(nations, docPlaceQuery).map((n) => ({
+      value: n.code,
+      label: n.name,
+      meta: n.iso3,
+    })),
+    [nations, docPlaceQuery],
+  );
+
+  const docTypeOptions = documentTypes.map((d) => ({
+    value: d.code,
+    label: d.name,
+  }));
+
+  function handleChange(field: string, value: string | number) {
+    setForm((prev) => ({ ...prev, [field]: value }));
+  }
+
+  function handleComuneSelect(code: string) {
+    const comune = comuni.find((c) => c.code === code);
+    setForm((prev) => ({
+      ...prev,
+      birthMunicipalityCode: code,
+      birthProvinceCode: comune?.province ?? '',
+      birthCountryCode: ITALY_CODE,
+    }));
+  }
+
+  function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    onSubmit(form);
+  }
+
+  return (
+    <form className={styles.form} onSubmit={handleSubmit}>
+      <h2>{t('form.title')}</h2>
+
+      <label>
+        {t('form.guestType')}
+        <select
+          value={form.guestType}
+          onChange={(e) => handleChange('guestType', e.target.value)}
+        >
+          {GUEST_TYPES.map((gt) => (
+            <option key={gt} value={gt}>{t(`form.guestTypes.${gt}`)}</option>
+          ))}
+        </select>
+      </label>
+
+      <label>
+        {t('form.surname')}
+        <input required value={form.surname} onChange={(e) => handleChange('surname', e.target.value)} />
+      </label>
+
+      <label>
+        {t('form.givenNames')}
+        <input required value={form.givenNames} onChange={(e) => handleChange('givenNames', e.target.value)} />
+      </label>
+
+      <label>
+        {t('form.birthDate')}
+        <input required type="date" value={form.birthDate} onChange={(e) => handleChange('birthDate', e.target.value)} />
+      </label>
+
+      <label>
+        {t('form.sex')}
+        <select value={form.sex} onChange={(e) => handleChange('sex', e.target.value)}>
+          <option value="M">{t('form.sexM')}</option>
+          <option value="F">{t('form.sexF')}</option>
+        </select>
+      </label>
+
+      <SearchSelect
+        label={t('form.birthCountry')}
+        value={form.birthCountryCode}
+        onChange={(code) => handleChange('birthCountryCode', code)}
+        options={nationOptions}
+        onSearch={setNationQuery}
+        placeholder={t('form.searchPlaceholder')}
+        required
+      />
+
+      {isItalianBirth && (
+        <>
+          {initialData && (
+            <p className={styles.fieldHint}>{t('form.birthMunicipalityMrzHint')}</p>
+          )}
+          <SearchSelect
+            label={t('form.birthMunicipality')}
+            value={form.birthMunicipalityCode}
+            onChange={(code) => handleComuneSelect(code)}
+            options={comuneOptions}
+            onSearch={setComuneQuery}
+            placeholder={t('form.searchComune')}
+            required
+          />
+        </>
+      )}
+
+      <SearchSelect
+        label={t('form.citizenship')}
+        value={form.citizenshipCode}
+        onChange={(code) => handleChange('citizenshipCode', code)}
+        options={citizenshipOptions}
+        onSearch={setCitizenshipQuery}
+        placeholder={t('form.searchPlaceholder')}
+        required
+      />
+
+      {needsDocument && (
+        <>
+          <label>
+            {t('form.documentType')}
+            <select
+              required
+              value={form.documentTypeCode}
+              onChange={(e) => handleChange('documentTypeCode', e.target.value)}
+            >
+              {docTypeOptions.map((d) => (
+                <option key={d.value} value={d.value}>{d.label}</option>
+              ))}
+            </select>
+          </label>
+
+          <label>
+            {t('form.documentNumber')}
+            <input
+              required
+              value={form.documentNumber}
+              onChange={(e) => handleChange('documentNumber', e.target.value)}
+            />
+          </label>
+
+          <SearchSelect
+            label={t('form.documentIssuePlace')}
+            value={form.documentIssuePlaceCode}
+            onChange={(code) => handleChange('documentIssuePlaceCode', code)}
+            options={docPlaceOptions}
+            onSearch={setDocPlaceQuery}
+            placeholder={t('form.searchPlaceholder')}
+            required
+          />
+        </>
+      )}
+
+      <label>
+        {t('form.arrivalDate')}
+        <input required type="date" value={form.arrivalDate} onChange={(e) => handleChange('arrivalDate', e.target.value)} />
+      </label>
+
+      <label>
+        {t('form.stayDays')}
+        <input
+          required
+          type="number"
+          min={1}
+          max={30}
+          value={form.stayDays}
+          onChange={(e) => handleChange('stayDays', parseInt(e.target.value, 10))}
+        />
+      </label>
+
+      <div className={styles.actions}>
+        <button type="button" className={styles.backBtn} onClick={onBack} disabled={saving}>
+          {t('form.backToScan')}
+        </button>
+        <button type="submit" className={styles.saveBtn} disabled={saving}>
+          {saving ? t('form.saving') : t('form.save')}
+        </button>
+      </div>
+    </form>
+  );
+}

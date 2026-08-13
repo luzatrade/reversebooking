@@ -1,0 +1,126 @@
+{
+  "app": {
+    "name": "FastCheckin"
+  },
+  "nav": {
+    "checkin": "Check-in",
+    "guests": "Guests",
+    "export": "Export"
+  },
+  "header": {
+    "credits": "{{count}} credits",
+    "credits_one": "{{count}} credit",
+    "buyCredits": "Buy credits"
+  },
+  "auth": {
+    "subtitle": "Fast hotel check-in for public authorities",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "signOut": "Sign out",
+    "email": "Email",
+    "password": "Password",
+    "loading": "Loading…",
+    "signInSuccess": "Signed in",
+    "signUpSuccess": "Account created — check email if confirmation required",
+    "error": "Authentication error",
+    "enterDemo": "🚀 Start local demo",
+    "demoHint": "No Supabase required. Data stays in your browser."
+  },
+  "setup": {
+    "title": "Set up property",
+    "subtitle": "Enter your accommodation details",
+    "structureName": "Property name",
+    "structureNamePlaceholder": "e.g. Hotel Bella Vista",
+    "region": "Region",
+    "continue": "Continue",
+    "success": "Property configured",
+    "error": "Setup failed"
+  },
+  "capture": {
+    "title": "Scan document",
+    "modePortrait": "ID vertical",
+    "modeLandscape": "ID horizontal / Passport",
+    "hintPortrait": "ID back vertical: align white MRZ strip (right) in the blue guide.",
+    "hintLandscape": "Rotate ID 90° or passport open: MRZ lines in the bottom blue strip.",
+    "guidePortraitShort": "MRZ on right",
+    "guideLandscapeShort": "MRZ at bottom",
+    "showGuide": "📖 How to shoot / upload photo",
+    "hideGuide": "Hide guide",
+    "guidePhotoTitle": "Upload photo — orientation",
+    "guidePhotoPortrait": "Vertical (natural hold): ID back, white MRZ strip on the right visible.",
+    "guidePhotoLandscape": "Horizontal: ID rotated 90° or passport — MRZ at bottom.",
+    "guidePhotoLight": "Even light, no direct flash, sharp focus.",
+    "guideCameraTitle": "Camera capture",
+    "guideCameraFocus": "Tap screen on MRZ to focus, then Capture.",
+    "guideCameraBurst": "We capture 3 frames automatically to reduce errors.",
+    "preparing": "Preparing document reader…",
+    "cameraLoading": "Starting camera…",
+    "shoot": "Capture",
+    "ocrInitFailed": "Could not start the reader. Retry or use manual entry.",
+    "stabilizing": "Hold steady…",
+    "processing": "Reading…",
+    "success": "Document read",
+    "failed": "Read failed — retry with more light and MRZ in blue strip",
+    "failedPhoto": "Photo not read — try vertical (MRZ right) or horizontal (MRZ bottom)",
+    "manualEntry": "Manual entry",
+    "retry": "Retry",
+    "uploadPhoto": "Upload photo"
+  },
+  "form": {
+    "title": "Guest details",
+    "surname": "Surname",
+    "givenNames": "Given names",
+    "birthDate": "Date of birth",
+    "sex": "Sex",
+    "sexM": "Male",
+    "sexF": "Female",
+    "birthCountry": "Country of birth",
+    "birthMunicipality": "Municipality of birth",
+    "birthMunicipalityMrzHint": "Not in MRZ — select municipality manually",
+    "citizenship": "Citizenship",
+    "documentType": "Document type",
+    "documentNumber": "Document number",
+    "documentIssuePlace": "Document issue place",
+    "arrivalDate": "Arrival date",
+    "stayDays": "Stay duration (days)",
+    "guestType": "Guest type",
+    "searchPlaceholder": "Search…",
+    "searchComune": "Search municipality…",
+    "save": "Save check-in",
+    "saving": "Saving…",
+    "saveSuccess": "Check-in saved",
+    "backToScan": "Back to scan",
+    "guestTypes": {
+      "single": "Single guest (16)",
+      "head_family": "Head of family (17)",
+      "family": "Family member (18)",
+      "head_group": "Group leader (19)",
+      "group": "Group member (20)"
+    }
+  },
+  "guests": {
+    "title": "Registered guests",
+    "empty": "No guests registered",
+    "days": "days",
+    "exported": "Exported",
+    "pending": "Pending"
+  },
+  "export": {
+    "title": "Questura export",
+    "hint": "Generate .txt file for Alloggiati Web portal (168 chars/line, UTF-8)",
+    "questura": "Download .txt ({{count}} guests)",
+    "selectAll": "Select all",
+    "exporting": "Generating file…",
+    "success": "File generated — {{count}} guests exported",
+    "error": "Export failed",
+    "noGuests": "No guests to export"
+  },
+  "common": {
+    "loading": "Loading…"
+  },
+  "errors": {
+    "cameraDenied": "Camera permission denied",
+    "network": "Connection error",
+    "saveFailed": "Save failed"
+  }
+}

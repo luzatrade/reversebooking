@@ -39,7 +39,9 @@
     "audit:new-request-notifications": "npx tsx scripts/audit-new-request-notifications.ts",
     "replay:new-request-notifications": "npx tsx scripts/replay-new-request-notifications.ts",
     "indexnow:submit-all": "npx tsx scripts/submit-indexnow-batch.ts",
-    "indexnow:dry-run": "npx tsx scripts/submit-indexnow-batch.ts --dry-run"
+    "indexnow:dry-run": "npx tsx scripts/submit-indexnow-batch.ts --dry-run",
+    "setup:ocr": "node scripts/setup-ocr-assets.mjs",
+    "postinstall": "node scripts/setup-ocr-assets.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.4.1",
@@ -52,14 +54,17 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
+    "i18next": "^24.2.2",
     "leaflet": "^1.9.4",
     "libphonenumber-js": "^1.13.1",
     "lucide-react": "^1.14.0",
+    "mrz": "^4.2.0",
     "next": "16.2.6",
     "next-themes": "^0.4.6",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-hook-form": "^7.75.0",
+    "react-i18next": "^15.4.1",
     "react-leaflet": "^5.0.0",
     "resend": "^6.12.3",
     "shadcn": "^4.7.0",
@@ -67,7 +72,9 @@
     "sonner": "^2.0.7",
     "stripe": "^22.1.1",
     "tailwind-merge": "^3.6.0",
+    "tesseract.js": "^5.1.1",
     "tw-animate-css": "^1.4.0",
+    "web-mrz-reader": "^2.0.1",
     "zod": "^4.4.3"
   },
   "devDependencies": {
