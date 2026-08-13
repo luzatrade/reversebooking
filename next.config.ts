@@ -10,11 +10,13 @@ const isDev = process.env.NODE_ENV === "development";
 // Next.js; un futuro hardening potrà introdurre i nonce per rimuoverlo.
 const contentSecurityPolicy = [
   "default-src 'self'",
-  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""} https://js.stripe.com`,
+  // wasm-unsafe-eval: Tesseract.js MRZ reader; worker-src blob: per Web Worker OCR
+  `script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval'${isDev ? " 'unsafe-eval'" : ""} https://js.stripe.com`,
+  "worker-src 'self' blob:",
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' blob: data: https:",
   "font-src 'self' data:",
-  "connect-src 'self' https://*.supabase.co wss://*.supabase.co https://api.resend.com https://places-api.foursquare.com https://nominatim.openstreetmap.org https://api.stripe.com",
+  "connect-src 'self' blob: data: https://*.supabase.co wss://*.supabase.co https://api.resend.com https://places-api.foursquare.com https://nominatim.openstreetmap.org https://api.stripe.com",
   "frame-src 'self' https://js.stripe.com https://hooks.stripe.com",
   "object-src 'none'",
   "base-uri 'self'",
@@ -34,7 +36,7 @@ const securityHeaders = [
   { key: "X-DNS-Prefetch-Control", value: "on" },
   {
     key: "Permissions-Policy",
-    value: "camera=(), microphone=(), geolocation=(self), browsing-topics=()",
+    value: "camera=(self), microphone=(), geolocation=(self), browsing-topics=()",
   },
   { key: "Content-Security-Policy", value: contentSecurityPolicy },
 ];
