@@ -1,6 +1,6 @@
 import { parse } from 'mrz';
 import { extractMRZData, type MRZResult } from 'web-mrz-reader';
-import type { MrzExtractedData } from '@/types/check-in';
+import type { MrzExtractedData, MrzReviewField } from '@/types/check-in';
 
 const MRZ_CHARS = /[^A-Z0-9<]/g;
 const MRZ_START = /[PIAC][A-Z<][A-Z]{3}[A-Z0-9<]+/;
@@ -30,6 +30,7 @@ export function pickBestMrzFromCandidates(candidates: MrzParseCandidate[]): MrzE
   const merged: MrzExtractedData = { ...best.data };
 
   for (const c of sorted.slice(1, 6)) {
+    if (c.score < best.score - 2) break;
     if (!merged.birthDate && c.data.birthDate) merged.birthDate = c.data.birthDate;
     if (!merged.expiryDate && c.data.expiryDate) merged.expiryDate = c.data.expiryDate;
     if (merged.sex === 'X' && c.data.sex !== 'X') merged.sex = c.data.sex;
@@ -127,8 +128,11 @@ function parseMrzBlobManual(raw: string): MrzExtractedData | null {
 function mapWebMrzResult(parsed: MRZResult, rawMrz: string): MrzExtractedData | null {
   const surname = parsed.Surname.trim();
   const givenNames = formatGivenNames(parsed['Given Names']);
+  const format = blobLengthToFormat(rawMrz.replace(/\s/g, '').length);
+  const fromLine = format === 'TD1' ? extractTd1DocumentNumber(rawMrz) : null;
   const documentNumber = (
-    'Document Number' in parsed ? parsed['Document Number'] : parsed['Passport Number']
+    fromLine ??
+    ('Document Number' in parsed ? parsed['Document Number'] : parsed['Passport Number'])
   ).trim();
 
   if (!surname || !documentNumber) return null;
@@ -221,7 +225,7 @@ function mapResult(
   const fields = result.fields;
   const surname = fields.lastName ?? '';
   const givenNames = formatGivenNames(fields.firstName ?? '');
-  const documentNumber = fields.documentNumber ?? result.documentNumber ?? '';
+  const documentNumber = formatDocumentNumber(result, fields, rawMrz);
 
   if (!surname || !documentNumber) return null;
 
@@ -236,6 +240,39 @@ function mapResult(
     documentType: result.format,
     rawMrz,
   };
+}
+
+/** TD1 (CIE): il numero stampato sulla carta include la check digit (es. CB19477AA9) */
+function formatDocumentNumber(
+  result: ReturnType<typeof parse>,
+  fields: ReturnType<typeof parse>['fields'],
+  rawMrz: string,
+): string {
+  if (result.format === 'TD1') {
+    const fromLine = extractTd1DocumentNumber(rawMrz);
+    if (fromLine) return fromLine;
+  }
+
+  let num = (fields.documentNumber ?? result.documentNumber ?? '').replace(/<+$/, '');
+  const checkDigit = fields.documentNumberCheckDigit;
+  if (
+    (result.format === 'TD1' || result.format === 'TD2') &&
+    checkDigit &&
+    /^[0-9A-Z]$/.test(checkDigit) &&
+    !num.endsWith(checkDigit)
+  ) {
+    num += checkDigit;
+  }
+  return num;
+}
+
+function extractTd1DocumentNumber(rawMrz: string): string | null {
+  const line1 = rawMrz.split(/\r?\n/)[0];
+  if (!line1) return null;
+  const l = padMrzLine(line1);
+  if (!/^[PIAC]/.test(l)) return null;
+  const num = l.slice(5, 15).replace(/<+$/, '');
+  return /^[A-Z0-9]{8,10}$/.test(num) ? num : null;
 }
 
 function formatMrzExpiryDate(mrzDate: string): string {
@@ -309,5 +346,173 @@ export function applyNameFixes(data: MrzExtractedData): MrzExtractedData {
   const surname = fromLine?.surname || sanitizeMrzSurname(data.surname);
   const givenNames = fromLine?.givenNames || sanitizeMrzGivenName(data.givenNames);
 
-  return { ...data, surname, givenNames };
+  return enrichMrzValidation({ ...data, surname, givenNames });
+}
+
+export type MrzLineIndex = 0 | 1 | 2;
+
+function padMrzLine(line: string, len = 30): string {
+  const cleaned = line.toUpperCase().replace(/\s+/g, '').replace(MRZ_CHARS, '');
+  if (cleaned.length >= len) return cleaned.slice(0, len);
+  return cleaned.padEnd(len, '<');
+}
+
+/** Punteggio euristico per singola riga TD1 (30 char) */
+export function scoreMrzLine(line: string, lineIndex: MrzLineIndex): number {
+  const l = padMrzLine(line);
+  let score = 0;
+
+  if (lineIndex === 0) {
+    if (/^[PIAC][A-Z<]/.test(l)) score += 4;
+    if (l.slice(2, 5) === 'ITA') score += 4;
+    if (/^[PIAC]<ITA[A-Z0-9]{9}/.test(l)) score += 6;
+    if (/[0-9]{5}/.test(l.slice(5, 14))) score += 2;
+  } else if (lineIndex === 1) {
+    if (/^\d{6}\d[MFHX<]\d\d{6}[A-Z]{3}/.test(l)) score += 10;
+    if (l.slice(15, 18) === 'ITA') score += 4;
+    if (/^\d{6}[0-9][MF][0-9]\d{6}ITA/.test(l)) score += 4;
+  } else {
+    if (/[A-Z]{3,}<<[A-Z]{2,}/.test(l)) score += 10;
+    if (l.includes('<<')) score += 2;
+    if (/^[A-Z]+<<[A-Z<]+/.test(l)) score += 4;
+  }
+
+  return score;
+}
+
+function fixLine2Sex(line: string): string {
+  const l = padMrzLine(line);
+  if (!/^\d{6}/.test(l)) return l;
+  const sex = l[7];
+  if (sex === 'H' || sex === 'N') {
+    return l.slice(0, 7) + 'M' + l.slice(8);
+  }
+  return l;
+}
+
+/** Classifica una riga TD1 per contenuto (non per posizione nel crop) */
+export function classifyMrzLine(line: string): MrzLineIndex | null {
+  const l = padMrzLine(line);
+  const scores: Array<{ index: MrzLineIndex; score: number }> = [
+    { index: 0 as MrzLineIndex, score: scoreMrzLine(l, 0) },
+    { index: 1 as MrzLineIndex, score: scoreMrzLine(l, 1) },
+    { index: 2 as MrzLineIndex, score: scoreMrzLine(l, 2) },
+  ].sort((a, b) => b.score - a.score);
+
+  const top = scores[0]!;
+  if (top.score < 6) return null;
+
+  // Nomi: preferisci riga 3 se contiene COGNOME<<NOME
+  if (/[A-Z]{3,}<<[A-Z]{2,}/.test(l) && !/^\d/.test(l)) return 2;
+  // Data di nascita + sesso + scadenza
+  if (/^\d{6}\d[MFHX<]\d/.test(l)) return 1;
+  // Documento + ITA
+  if (/^[PIAC]/.test(l) || (l.includes('ITA') && /[A-Z0-9]{6,}/.test(l.slice(5)))) return 0;
+
+  return top.index;
+}
+
+/** Combina la miglior riga 1/2/3 raccolte da crop/rotazioni diverse */
+export function assembleMrzFromLinePool(
+  pool: Array<{ line: string; lineIndex: MrzLineIndex }>,
+): MrzExtractedData | null {
+  const best: string[] = ['', '', ''];
+  const bestScore = [0, 0, 0];
+
+  for (const { line, lineIndex } of pool) {
+    const score = scoreMrzLine(line, lineIndex);
+    if (score > bestScore[lineIndex]!) {
+      bestScore[lineIndex] = score;
+      best[lineIndex] = lineIndex === 1 ? fixLine2Sex(line) : line;
+    }
+  }
+
+  if (bestScore[0]! < 8 || bestScore[1]! < 8 || bestScore[2]! < 8) return null;
+
+  const sized = best.map((l) => padMrzLine(l));
+  const parsed = tryParseGroup(sized);
+  if (!parsed) return null;
+
+  return applyNameFixes({ ...parsed, rawMrz: sized.join('\n'), documentType: parsed.documentType ?? 'TD1' });
+}
+
+const ITALIAN_CIE_DOC = /^[A-Z]{2}\d{5}[A-Z]{2}\d$/;
+
+/** Valida MRZ e marca i campi da ricontrollare se la lettura è incerta */
+export function enrichMrzValidation(data: MrzExtractedData): MrzExtractedData {
+  const reviewFields = new Set<MrzReviewField>();
+  const lines = data.rawMrz
+    .split(/\r?\n/)
+    .map((l) => l.trim())
+    .filter(Boolean);
+
+  let mrzValid = false;
+
+  try {
+    if (lines.length === 3) {
+      const sized = lines.map((l) => padMrzLine(l));
+      const result = parse(sized, { autocorrect: true });
+      mrzValid = result.valid === true;
+    } else if (lines.length === 2) {
+      const sized = lines.map((l) => padOrTrim(l, 44));
+      const result = parse(sized, { autocorrect: true });
+      mrzValid = result.valid === true;
+    }
+  } catch {
+    mrzValid = false;
+  }
+
+  if (!mrzValid) {
+    reviewFields.add('documentNumber');
+    reviewFields.add('birthDate');
+    reviewFields.add('surname');
+    reviewFields.add('givenNames');
+  }
+
+  if (data.sex === 'X') reviewFields.add('sex');
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(data.birthDate)) reviewFields.add('birthDate');
+  if (data.surname.length < 2) reviewFields.add('surname');
+  if (data.givenNames.length < 2) reviewFields.add('givenNames');
+
+  if (
+    (data.documentType === 'TD1' || data.nationality === 'ITA') &&
+    data.documentNumber &&
+    !ITALIAN_CIE_DOC.test(data.documentNumber)
+  ) {
+    reviewFields.add('documentNumber');
+  }
+
+  return {
+    ...data,
+    mrzValid,
+    reviewFields: reviewFields.size > 0 ? [...reviewFields] : undefined,
+  };
+}
+
+export function isStrongMrzHit(data: MrzExtractedData): boolean {
+  if (!data.surname || data.surname.length < 2) return false;
+  if (!data.givenNames || data.givenNames.length < 2) return false;
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(data.birthDate)) return false;
+  if (data.sex !== 'M' && data.sex !== 'F') return false;
+
+  const doc = data.documentNumber.replace(/<+$/, '');
+  if (!doc) return false;
+
+  if (data.documentType === 'TD1' || data.nationality === 'ITA') {
+    if (!ITALIAN_CIE_DOC.test(doc)) return false;
+  } else if (!/^[A-Z0-9]{6,12}$/.test(doc)) {
+    return false;
+  }
+
+  return data.mrzValid === true;
+}
+
+export function isPartialMrzHit(data: MrzExtractedData): boolean {
+  if (!data.surname || !data.givenNames || !data.birthDate || !data.documentNumber) return false;
+  return data.mrzValid === false && (data.reviewFields?.length ?? 0) > 0;
+}
+
+export function shouldAcceptMrzResult(data: MrzExtractedData | null): data is MrzExtractedData {
+  if (!data) return false;
+  return isStrongMrzHit(data) || isPartialMrzHit(data);
 }

@@ -14,7 +14,7 @@ import {
   type NationEntry,
 } from '@/lib/check-in/lookup/alloggiatiTables';
 import { guestNeedsDocumentFields } from '@/lib/check-in/guestFields';
-import type { GuestRecord, GuestType, MrzExtractedData } from '@/types/check-in';
+import type { GuestRecord, GuestType, MrzExtractedData, MrzReviewField } from '@/types/check-in';
 import styles from './GuestForm.module.css';
 
 interface GuestFormProps {
@@ -148,6 +148,12 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
     }));
   }
 
+  const needsReview = Boolean(initialData?.reviewFields?.length || initialData?.mrzValid === false);
+
+  function fieldClass(field: MrzReviewField): string | undefined {
+    return initialData?.reviewFields?.includes(field) ? styles.reviewField : undefined;
+  }
+
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     onSubmit(form);
@@ -156,6 +162,12 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
       <h2>{t('form.title')}</h2>
+
+      {needsReview && (
+        <p className={styles.reviewBanner} role="status">
+          {t('form.reviewBanner')}
+        </p>
+      )}
 
       <label>
         {t('form.guestType')}
@@ -169,23 +181,35 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
         </select>
       </label>
 
-      <label>
+      <label className={fieldClass('surname')}>
         {t('form.surname')}
+        {initialData?.reviewFields?.includes('surname') && (
+          <span className={styles.reviewTag}>{t('form.reviewFieldHint')}</span>
+        )}
         <input required value={form.surname} onChange={(e) => handleChange('surname', e.target.value)} />
       </label>
 
-      <label>
+      <label className={fieldClass('givenNames')}>
         {t('form.givenNames')}
+        {initialData?.reviewFields?.includes('givenNames') && (
+          <span className={styles.reviewTag}>{t('form.reviewFieldHint')}</span>
+        )}
         <input required value={form.givenNames} onChange={(e) => handleChange('givenNames', e.target.value)} />
       </label>
 
-      <label>
+      <label className={fieldClass('birthDate')}>
         {t('form.birthDate')}
+        {initialData?.reviewFields?.includes('birthDate') && (
+          <span className={styles.reviewTag}>{t('form.reviewFieldHint')}</span>
+        )}
         <input required type="date" value={form.birthDate} onChange={(e) => handleChange('birthDate', e.target.value)} />
       </label>
 
-      <label>
+      <label className={fieldClass('sex')}>
         {t('form.sex')}
+        {initialData?.reviewFields?.includes('sex') && (
+          <span className={styles.reviewTag}>{t('form.reviewFieldHint')}</span>
+        )}
         <select value={form.sex} onChange={(e) => handleChange('sex', e.target.value)}>
           <option value="M">{t('form.sexM')}</option>
           <option value="F">{t('form.sexF')}</option>
@@ -244,8 +268,11 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
             </select>
           </label>
 
-          <label>
+          <label className={fieldClass('documentNumber')}>
             {t('form.documentNumber')}
+            {initialData?.reviewFields?.includes('documentNumber') && (
+              <span className={styles.reviewTag}>{t('form.reviewFieldHint')}</span>
+            )}
             <input
               required
               value={form.documentNumber}

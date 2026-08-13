@@ -7,6 +7,8 @@ export type GuestType =
   | "head_group"
   | "group";
 
+export type MrzReviewField = 'documentNumber' | 'surname' | 'givenNames' | 'birthDate' | 'sex';
+
 export interface MrzExtractedData {
   documentNumber: string;
   surname: string;
@@ -17,6 +19,10 @@ export interface MrzExtractedData {
   expiryDate?: string;
   documentType?: string;
   rawMrz: string;
+  /** Check digit MRZ ICAO validi */
+  mrzValid?: boolean;
+  /** Campi da ricontrollare manualmente */
+  reviewFields?: MrzReviewField[];
 }
 
 export interface GuestRecord {

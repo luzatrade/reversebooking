@@ -72,7 +72,19 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
     setDebugText('');
 
     try {
-      for (let i = 0; i < 3; i++) {
+      for (let i = 0; i < 2; i++) {
+        const strip = captureOverlay(container, mrzStrip, 4);
+        if (strip) {
+          const result = await extractMrzFromFullFrame(strip, orientation);
+          destroyCanvas(strip);
+          if (result) {
+            setPhase('success');
+            playCaptureSound();
+            onResult(result);
+            return;
+          }
+        }
+
         const full = captureFullFrame(container);
         if (full) {
           const result = await extractMrzFromFullFrame(full, orientation);
@@ -87,19 +99,7 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
           setDebugText('(cattura video fallita — attendi che la camera sia pronta)');
         }
 
-        const strip = captureOverlay(container, mrzStrip, 4);
-        if (strip) {
-          const result = await extractMrzFromFullFrame(strip, orientation);
-          destroyCanvas(strip);
-          if (result) {
-            setPhase('success');
-            playCaptureSound();
-            onResult(result);
-            return;
-          }
-        }
-
-        if (i < 2) await sleep(250);
+        if (i < 1) await sleep(200);
       }
 
       setDebugText(getLastOcrDebug());

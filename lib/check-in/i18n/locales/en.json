@@ -60,6 +60,7 @@
     "stabilizing": "Hold steady…",
     "processing": "Reading…",
     "success": "Document read",
+    "successReview": "Partial read — verify details in the form",
     "failed": "Read failed — retry with more light and MRZ in blue strip",
     "failedPhoto": "Photo not read — try vertical (MRZ right) or horizontal (MRZ bottom)",
     "manualEntry": "Manual entry",
@@ -90,6 +91,8 @@
     "saving": "Saving…",
     "saveSuccess": "Details confirmed",
     "backToScan": "Back to scan",
+    "reviewBanner": "Check highlighted fields — automatic reading may be wrong.",
+    "reviewFieldHint": "Needs review",
     "guestTypes": {
       "single": "Single guest (16)",
       "head_family": "Head of family (17)",
