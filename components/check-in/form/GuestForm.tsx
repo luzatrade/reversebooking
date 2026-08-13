@@ -13,7 +13,7 @@ import {
   type DocumentTypeEntry,
   type NationEntry,
 } from '@/lib/check-in/lookup/alloggiatiTables';
-import { guestNeedsDocumentFields } from '@/lib/check-in/export/guestMapper';
+import { guestNeedsDocumentFields } from '@/lib/check-in/guestFields';
 import type { GuestRecord, GuestType, MrzExtractedData } from '@/types/check-in';
 import styles from './GuestForm.module.css';
 

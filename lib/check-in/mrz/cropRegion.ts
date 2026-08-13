@@ -52,6 +52,22 @@ export function mapOverlayToVideo(
   };
 }
 
+/** Cattura l'intero frame video visibile, normalizzato a ~888px larghezza */
+export function captureVisibleVideoFrame(
+  video: HTMLVideoElement,
+  container: HTMLElement,
+  targetWidth = 888,
+): HTMLCanvasElement | null {
+  if (!video.videoWidth || !container.clientWidth) return null;
+  const src = visibleVideoRect(video, container);
+  const scale = targetWidth / src.sw;
+  return captureVideoRegion(
+    video,
+    { x: src.sx, y: src.sy, w: src.sw, h: src.sh },
+    scale,
+  );
+}
+
 /** Ruota canvas per MRZ verticale (CIE retro in portrait) */
 export function rotateCanvas(
   source: HTMLCanvasElement,
@@ -130,6 +146,21 @@ export function upscaleForMrz(source: HTMLCanvasElement, minWidth = 1400): HTMLC
   const ctx = out.getContext('2d');
   if (!ctx) return source;
   ctx.imageSmoothingEnabled = false;
+  ctx.drawImage(source, 0, 0, out.width, out.height);
+  return out;
+}
+
+/** Normalizza larghezza ~888px come la demo web-mrz-reader */
+export function normalizeForOcr(source: HTMLCanvasElement, targetWidth = 888): HTMLCanvasElement {
+  if (Math.abs(source.width - targetWidth) < 4) return source;
+  const scale = targetWidth / source.width;
+  const out = document.createElement('canvas');
+  out.width = targetWidth;
+  out.height = Math.max(1, Math.round(source.height * scale));
+  const ctx = out.getContext('2d');
+  if (!ctx) return source;
+  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingQuality = 'high';
   ctx.drawImage(source, 0, 0, out.width, out.height);
   return out;
 }

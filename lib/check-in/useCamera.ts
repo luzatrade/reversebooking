@@ -1,11 +1,20 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { captureVideoRegion, mapOverlayToVideo } from '@/lib/check-in/mrz/cropRegion';
+import {
+  captureVisibleVideoFrame,
+  captureVideoRegion,
+  mapOverlayToVideo,
+} from '@/lib/check-in/mrz/cropRegion';
 
 export interface UseCameraResult {
   videoRef: React.RefObject<HTMLVideoElement | null>;
   error: string | null;
   isReady: boolean;
-  captureOverlay: (container: HTMLElement, overlay: HTMLElement) => HTMLCanvasElement | null;
+  captureFullFrame: (container: HTMLElement) => HTMLCanvasElement | null;
+  captureOverlay: (
+    container: HTMLElement,
+    overlay: HTMLElement,
+    scale?: number,
+  ) => HTMLCanvasElement | null;
 }
 
 export function useCamera(): UseCameraResult {
@@ -64,18 +73,24 @@ export function useCamera(): UseCameraResult {
     };
   }, []);
 
+  const captureFullFrame = useCallback((container: HTMLElement): HTMLCanvasElement | null => {
+    const video = videoRef.current;
+    if (!video) return null;
+    return captureVisibleVideoFrame(video, container, 888);
+  }, []);
+
   const captureOverlay = useCallback(
-    (container: HTMLElement, overlay: HTMLElement): HTMLCanvasElement | null => {
+    (container: HTMLElement, overlay: HTMLElement, scale = 6): HTMLCanvasElement | null => {
       const video = videoRef.current;
       if (!video || video.videoWidth === 0) return null;
 
       const region = mapOverlayToVideo(overlay, container, video);
       if (!region) return null;
 
-      return captureVideoRegion(video, region, 6);
+      return captureVideoRegion(video, region, scale);
     },
     [],
   );
 
-  return { videoRef, error, isReady, captureOverlay };
+  return { videoRef, error, isReady, captureFullFrame, captureOverlay };
 }

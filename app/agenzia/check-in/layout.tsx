@@ -5,7 +5,7 @@ import { canonicalUrl } from "@/lib/seo/canonical";
 
 export const metadata: Metadata = {
   title: "Check-in ospiti agenzia",
-  description: "Scan MRZ, registro Alloggiati ed export Questura.",
+  description: "Scansione MRZ e verifica dati documento per il check-in agenzia.",
   alternates: { canonical: canonicalUrl("/agenzia/check-in") },
   robots: { index: false, follow: false },
 };

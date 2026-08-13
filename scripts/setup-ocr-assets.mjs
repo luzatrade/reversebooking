@@ -48,9 +48,18 @@ if (!fs.existsSync(mrzReaderRoot)) {
 }
 
 console.log('Tesseract worker + WASM cores:');
-copyFile(path.join(tesseractDist, 'worker.min.js'), path.join(publicTesseract, 'worker.min.js'));
+const mrzTesseract = path.join(mrzReaderRoot, 'public', 'tesseract');
 
-// .wasm.js (loader) + .wasm (binario) — entrambi necessari in produzione
+for (const file of ['worker.min.js', 'tesseract-core-lstm.wasm.js', 'tesseract-core-simd-lstm.wasm.js', 'tesseract-core-simd.wasm.js', 'tesseract-core.wasm.js']) {
+  const src = path.join(mrzTesseract, file);
+  if (fs.existsSync(src)) {
+    copyFile(src, path.join(publicTesseract, file));
+  } else {
+    copyFile(path.join(tesseractDist, file), path.join(publicTesseract, file));
+  }
+}
+
+// Binari .wasm — da tesseract.js-core (web-mrz-reader non li include nel pacchetto npm)
 for (const file of [
   'tesseract-core-lstm.wasm.js',
   'tesseract-core-lstm.wasm',
@@ -62,6 +71,9 @@ for (const file of [
   'tesseract-core.wasm',
 ]) {
   const ok = copyFile(path.join(tesseractCore, file), path.join(publicTesseract, file));
+  if (!ok && file.endsWith('.wasm.js')) {
+    copyFile(path.join(mrzTesseract, file), path.join(publicTesseract, file));
+  }
   if (!ok) console.warn(`  ⚠ missing ${file}`);
 }
 
