@@ -1,0 +1,126 @@
+{
+  "app": {
+    "name": "FastCheckin"
+  },
+  "nav": {
+    "checkin": "Check-in",
+    "guests": "Ospiti",
+    "export": "Export"
+  },
+  "header": {
+    "credits": "{{count}} crediti",
+    "credits_one": "{{count}} credito",
+    "buyCredits": "Ricarica crediti"
+  },
+  "auth": {
+    "subtitle": "Check-in alberghiero rapido per la PA",
+    "signIn": "Accedi",
+    "signUp": "Registrati",
+    "signOut": "Esci",
+    "email": "Email",
+    "password": "Password",
+    "loading": "Caricamento…",
+    "signInSuccess": "Accesso effettuato",
+    "signUpSuccess": "Account creato — controlla l'email se richiesto",
+    "error": "Errore di autenticazione",
+    "enterDemo": "🚀 Avvia demo locale",
+    "demoHint": "Nessun Supabase richiesto. I dati restano nel browser."
+  },
+  "setup": {
+    "title": "Configura struttura",
+    "subtitle": "Inserisci i dati della tua struttura ricettiva",
+    "structureName": "Nome struttura",
+    "structureNamePlaceholder": "Es. Hotel Bella Vista",
+    "region": "Regione",
+    "continue": "Continua",
+    "success": "Struttura configurata",
+    "error": "Errore durante la configurazione"
+  },
+  "capture": {
+    "title": "Scansiona documento",
+    "modePortrait": "CI verticale",
+    "modeLandscape": "CI orizzontale / Passaporto",
+    "hintPortrait": "Retro CI in verticale: allinea la striscia bianca MRZ (destra) nella striscia blu.",
+    "hintLandscape": "Ruota la CI di 90° o passaporto aperto: 3 righe MRZ nella striscia blu in basso.",
+    "guidePortraitShort": "MRZ a destra",
+    "guideLandscapeShort": "MRZ in basso",
+    "showGuide": "📖 Come scattare / caricare foto",
+    "hideGuide": "Nascondi guida",
+    "guidePhotoTitle": "Carica foto — orientamento",
+    "guidePhotoPortrait": "Verticale (come la tieni in mano): retro CI, striscia MRZ bianca a destra visibile.",
+    "guidePhotoLandscape": "Orizzontale: CI ruotata 90° o passaporto — MRZ in basso (3 o 2 righe).",
+    "guidePhotoLight": "Luce uniforme, niente flash diretto, foto nitida a fuoco.",
+    "guideCameraTitle": "Scatta con camera",
+    "guideCameraFocus": "Tocca lo schermo sulla MRZ per mettere a fuoco, poi Scatta.",
+    "guideCameraBurst": "Scattiamo 3 frame automatici per ridurre errori.",
+    "preparing": "Preparazione lettore documenti…",
+    "cameraLoading": "Avvio fotocamera…",
+    "shoot": "Scatta",
+    "ocrInitFailed": "Impossibile avviare il lettore. Riprova o usa l'inserimento manuale.",
+    "stabilizing": "Tieni fermo…",
+    "processing": "Lettura in corso…",
+    "success": "Documento letto",
+    "failed": "Lettura non riuscita — riprova con più luce e MRZ nella striscia blu",
+    "failedPhoto": "Foto non letta — prova verticale (MRZ a destra) o orizzontale (MRZ in basso)",
+    "manualEntry": "Inserimento manuale",
+    "retry": "Riprova",
+    "uploadPhoto": "Carica foto"
+  },
+  "form": {
+    "title": "Dati ospite",
+    "surname": "Cognome",
+    "givenNames": "Nome",
+    "birthDate": "Data di nascita",
+    "sex": "Sesso",
+    "sexM": "Maschio",
+    "sexF": "Femmina",
+    "birthCountry": "Stato di nascita",
+    "birthMunicipality": "Comune di nascita",
+    "birthMunicipalityMrzHint": "Non presente nella MRZ — seleziona manualmente il comune",
+    "citizenship": "Cittadinanza",
+    "documentType": "Tipo documento",
+    "documentNumber": "Numero documento",
+    "documentIssuePlace": "Luogo rilascio documento",
+    "arrivalDate": "Data arrivo",
+    "stayDays": "Giorni permanenza",
+    "guestType": "Tipo alloggiato",
+    "searchPlaceholder": "Cerca…",
+    "searchComune": "Cerca comune…",
+    "save": "Salva check-in",
+    "saving": "Salvataggio…",
+    "saveSuccess": "Check-in salvato",
+    "backToScan": "Torna alla scansione",
+    "guestTypes": {
+      "single": "Ospite singolo (16)",
+      "head_family": "Capo famiglia (17)",
+      "family": "Familiare (18)",
+      "head_group": "Capo gruppo (19)",
+      "group": "Membro gruppo (20)"
+    }
+  },
+  "guests": {
+    "title": "Ospiti registrati",
+    "empty": "Nessun ospite registrato",
+    "days": "gg",
+    "exported": "Esportato",
+    "pending": "Da esportare"
+  },
+  "export": {
+    "title": "Export Questura",
+    "hint": "Genera il file .txt per il portale Alloggiati Web (168 caratteri/riga, UTF-8)",
+    "questura": "Scarica .txt ({{count}} ospiti)",
+    "selectAll": "Seleziona tutti",
+    "exporting": "Generazione file…",
+    "success": "File generato — {{count}} ospiti esportati",
+    "error": "Errore durante l'export",
+    "noGuests": "Nessun ospite da esportare"
+  },
+  "common": {
+    "loading": "Caricamento…"
+  },
+  "errors": {
+    "cameraDenied": "Permesso fotocamera negato",
+    "network": "Errore di connessione",
+    "saveFailed": "Salvataggio non riuscito"
+  }
+}
