@@ -3,12 +3,13 @@ import { useTranslation } from 'react-i18next';
 import { useCamera } from '@/lib/check-in/useCamera';
 import {
   destroyCanvas,
-  extractMrzFromCanvases,
   extractMrzFromFile,
+  extractMrzFromFullFrame,
   getLastOcrDebug,
   playCaptureSound,
   warmupOcr,
 } from '@/lib/check-in/mrz/ocrWorker';
+import i18n from '@/lib/check-in/i18n';
 import { toast } from '@/lib/check-in/useToast';
 import type { MrzExtractedData } from '@/types/check-in';
 import styles from './DocumentScanner.module.css';
@@ -25,7 +26,7 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProps) {
   const { t } = useTranslation();
-  const { videoRef, error: cameraError, isReady, captureOverlay } = useCamera();
+  const { videoRef, error: cameraError, isReady, captureFullFrame, captureOverlay } = useCamera();
   const containerRef = useRef<HTMLDivElement>(null);
   const mrzStripRef = useRef<HTMLDivElement>(null);
   const viewfinderRef = useRef<HTMLDivElement>(null);
@@ -46,14 +47,15 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
       .catch((err) => {
         console.error('[OCR] warmup failed', err);
         if (!cancelled) {
-          toast(t('capture.ocrInitFailed'), 'error');
+          toast(i18n.t('capture.ocrInitFailed'), 'error');
           setDebugText(err instanceof Error ? err.message : String(err));
+          setPhase('error');
         }
       });
     return () => {
       cancelled = true;
     };
-  }, [t]);
+  }, []);
 
   useEffect(() => {
     if (isReady && phase === 'loading') setPhase('preview');
@@ -70,25 +72,34 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
     setDebugText('');
 
     try {
-      // Burst progressivo: 1° frame subito, altri solo se serve
       for (let i = 0; i < 3; i++) {
-        const c = captureOverlay(container, mrzStrip);
-        if (!c) continue;
-
-        const result = await extractMrzFromCanvases([c], {
-          mode: 'camera',
-          orientation,
-        });
-        destroyCanvas(c);
-
-        if (result) {
-          setPhase('success');
-          playCaptureSound();
-          onResult(result);
-          return;
+        const full = captureFullFrame(container);
+        if (full) {
+          const result = await extractMrzFromFullFrame(full, orientation);
+          destroyCanvas(full);
+          if (result) {
+            setPhase('success');
+            playCaptureSound();
+            onResult(result);
+            return;
+          }
+        } else {
+          setDebugText('(cattura video fallita — attendi che la camera sia pronta)');
         }
 
-        if (i < 2) await sleep(180);
+        const strip = captureOverlay(container, mrzStrip, 4);
+        if (strip) {
+          const result = await extractMrzFromFullFrame(strip, orientation);
+          destroyCanvas(strip);
+          if (result) {
+            setPhase('success');
+            playCaptureSound();
+            onResult(result);
+            return;
+          }
+        }
+
+        if (i < 2) await sleep(250);
       }
 
       setDebugText(getLastOcrDebug());
@@ -101,7 +112,7 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
     } finally {
       processingRef.current = false;
     }
-  }, [captureOverlay, ocrReady, onResult, orientation, t]);
+  }, [captureFullFrame, captureOverlay, ocrReady, onResult, orientation, t]);
 
   const handlePhotoUpload = useCallback(
     async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -114,7 +125,7 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
       setDebugText('');
 
       try {
-        const result = await extractMrzFromFile(file, { mode: 'photo' });
+        const result = await extractMrzFromFile(file);
         if (result) {
           setPhase('success');
           playCaptureSound();

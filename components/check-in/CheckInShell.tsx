@@ -2,9 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { AppHeader } from "@/components/check-in/layout/AppHeader";
-import { BottomNav } from "@/components/check-in/layout/BottomNav";
 import { ToastContainer } from "@/components/check-in/ui/ToastContainer";
 import { registerToastHandler, useToastState } from "@/lib/check-in/useToast";
 import { getAuthUserFast } from "@/lib/auth/clientSession";
@@ -20,7 +18,6 @@ export function CheckInShell({
   expectedProviderKind: ProviderKind;
   children: React.ReactNode;
 }) {
-  const pathname = usePathname();
   const toastState = useToastState();
   const [propertyName, setPropertyName] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -51,12 +48,6 @@ export function CheckInShell({
     void load();
   }, [expectedProviderKind]);
 
-  const activeTab = pathname.endsWith("/export")
-    ? "export"
-    : pathname.endsWith("/ospiti")
-      ? "guests"
-      : "checkin";
-
   if (error) {
     return (
       <div className="fc-app mx-auto max-w-lg p-6">
@@ -71,8 +62,7 @@ export function CheckInShell({
   return (
     <div className="fc-app mx-auto flex min-h-[80vh] max-w-lg flex-col bg-[var(--fc-bg,#f4f6f8)]">
       <AppHeader structureName={propertyName ?? "…"} dashboardHref={`${basePath}/dashboard`} />
-      <div className="flex-1 overflow-y-auto px-4 pb-24 pt-2">{children}</div>
-      <BottomNav active={activeTab} basePath={basePath} />
+      <div className="flex-1 overflow-y-auto px-4 pb-8 pt-2">{children}</div>
       <ToastContainer toasts={toastState.toasts} onDismiss={toastState.dismiss} />
     </div>
   );

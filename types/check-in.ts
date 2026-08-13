@@ -38,22 +38,3 @@ export interface GuestRecord {
   documentIssuePlaceCode?: string;
   createdAt?: string;
 }
-
-export interface AlloggiatiRecord {
-  guestTypeCode: string;
-  arrivalDate: string;
-  stayDays: string;
-  surname: string;
-  givenNames: string;
-  sexCode: "1" | "2";
-  birthDate: string;
-  birthMunicipalityCode: string;
-  birthProvinceCode: string;
-  birthCountryCode: string;
-  citizenshipCode: string;
-  documentTypeCode: string;
-  documentNumber: string;
-  documentIssuePlaceCode: string;
-}
-
-export const ALLOGGIATI_RECORD_LENGTH = 168;

@@ -2,22 +2,16 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { DocumentScanner } from '@/components/check-in/capture/DocumentScanner';
 import { GuestForm } from '@/components/check-in/form/GuestForm';
-import { registerGuest } from '@/lib/check-in/guests';
 import { toast } from '@/lib/check-in/useToast';
 import type { GuestRecord, MrzExtractedData } from '@/types/check-in';
 import styles from './CheckInPage.module.css';
 
 type View = 'scan' | 'form';
 
-interface CheckInPageProps {
-  onSaved?: () => void;
-}
-
-export function CheckInPage({ onSaved }: CheckInPageProps) {
+export function CheckInPage() {
   const { t } = useTranslation();
   const [view, setView] = useState<View>('scan');
   const [mrzData, setMrzData] = useState<MrzExtractedData | undefined>();
-  const [saving, setSaving] = useState(false);
 
   function handleScanResult(data: MrzExtractedData) {
     setMrzData(data);
@@ -25,19 +19,10 @@ export function CheckInPage({ onSaved }: CheckInPageProps) {
     toast(t('capture.success'), 'success');
   }
 
-  async function handleSave(guest: Omit<GuestRecord, 'id' | 'hotelAccountId'>) {
-    setSaving(true);
-    try {
-      await registerGuest(guest);
-      toast(t('form.saveSuccess'), 'success');
-      setView('scan');
-      setMrzData(undefined);
-      onSaved?.();
-    } catch (err) {
-      toast(err instanceof Error ? err.message : t('errors.saveFailed'), 'error');
-    } finally {
-      setSaving(false);
-    }
+  function handleConfirm(_guest: Omit<GuestRecord, 'id' | 'hotelAccountId'>) {
+    toast(t('form.saveSuccess'), 'success');
+    setView('scan');
+    setMrzData(undefined);
   }
 
   return (
@@ -57,9 +42,8 @@ export function CheckInPage({ onSaved }: CheckInPageProps) {
         ) : (
           <GuestForm
             initialData={mrzData}
-            onSubmit={(g) => void handleSave(g)}
+            onSubmit={handleConfirm}
             onBack={() => setView('scan')}
-            saving={saving}
           />
         )}
       </main>

@@ -271,7 +271,7 @@ function sanitizeMrzGivenName(given: string): string {
   return name;
 }
 
-function applyNameFixes(data: MrzExtractedData): MrzExtractedData {
+export function applyNameFixes(data: MrzExtractedData): MrzExtractedData {
   const fromLine = extractNamesFromMrz(data.rawMrz);
   const surname = fromLine?.surname || sanitizeMrzSurname(data.surname);
   const givenNames = fromLine?.givenNames || sanitizeMrzGivenName(data.givenNames);
