@@ -16,7 +16,7 @@ export type OnboardingSeoRow = {
 function meetsDescriptionRule(row: OnboardingSeoRow) {
   const it = (row.description ?? "").trim();
   const en = (row.description_en ?? "").trim();
-  if (!it && !en) return true;
+  if (!it && !en) return false;
   return it.length >= MIN_DESCRIPTION_LENGTH || en.length >= MIN_DESCRIPTION_LENGTH;
 }
 
