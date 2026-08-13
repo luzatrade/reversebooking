@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Copia asset OCR in public/ — modello MRZ da web-mrz-reader + Tesseract WASM.
- * Esegue: npm run setup:ocr (anche in postinstall)
+ * Esegue: npm run setup:ocr (anche in postinstall / prebuild)
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -50,13 +50,19 @@ if (!fs.existsSync(mrzReaderRoot)) {
 console.log('Tesseract worker + WASM cores:');
 copyFile(path.join(tesseractDist, 'worker.min.js'), path.join(publicTesseract, 'worker.min.js'));
 
+// .wasm.js (loader) + .wasm (binario) — entrambi necessari in produzione
 for (const file of [
   'tesseract-core-lstm.wasm.js',
+  'tesseract-core-lstm.wasm',
   'tesseract-core-simd-lstm.wasm.js',
+  'tesseract-core-simd-lstm.wasm',
   'tesseract-core-simd.wasm.js',
+  'tesseract-core-simd.wasm',
   'tesseract-core.wasm.js',
+  'tesseract-core.wasm',
 ]) {
-  copyFile(path.join(tesseractCore, file), path.join(publicTesseract, file));
+  const ok = copyFile(path.join(tesseractCore, file), path.join(publicTesseract, file));
+  if (!ok) console.warn(`  ⚠ missing ${file}`);
 }
 
 console.log('\nMRZ model:');
@@ -83,5 +89,16 @@ if (!isValidGzip(mrzModelDest)) {
   process.exit(1);
 }
 
+const wasmBinaries = [
+  'tesseract-core-lstm.wasm',
+  'tesseract-core-simd-lstm.wasm',
+].filter((f) => fs.existsSync(path.join(publicTesseract, f)));
+
+if (wasmBinaries.length === 0) {
+  console.error('  ❌ Nessun binario .wasm copiato — OCR fallirà in produzione.');
+  process.exit(1);
+}
+
 console.log(`  ✓ mrz.traineddata.gz (${Math.round(fs.statSync(mrzModelDest).size / 1024)} KB, gzip OK)`);
+console.log(`  ✓ WASM binaries: ${wasmBinaries.join(', ')}`);
 console.log('\nDone.');

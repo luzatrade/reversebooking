@@ -125,13 +125,17 @@ function extractCandidateLines(raw: string): string[] {
     .toUpperCase()
     .replace(/[«»‹›]/g, '<')
     .split(/\r?\n/)
-    .map((line) =>
-      line
+    .map((line) => {
+      let cleaned = line
         .replace(/\s+/g, '')
         .replace(/[|]/g, 'I')
-        .replace(/O/g, '0')
-        .replace(MRZ_CHARS, ''),
-    )
+        .replace(MRZ_CHARS, '');
+      // O→0 solo sulle righe dati (non sulla riga nomi COGNOME<<NOME)
+      if (!cleaned.includes('<<')) {
+        cleaned = cleaned.replace(/O/g, '0');
+      }
+      return cleaned;
+    })
     .filter((line) => line.length >= 20 && line.includes('<'));
 }
 
@@ -166,8 +170,12 @@ function padOrTrim(line: string, length: number): string {
 function parseSized(lines: string[]): MrzExtractedData | null {
   try {
     const result = parse(lines, { autocorrect: true });
-    if (!result.valid) return null;
-    return mapResult(result, lines.join('\n'));
+    const mapped = mapResult(result, lines.join('\n'));
+    // Accetta anche check digit imperfect se cognome + n. documento sono presenti
+    // (scoreMrz preferisce comunque i risultati con Validation OK)
+    if (!result.valid && !mapped) return null;
+    if (!result.valid && mapped) return mapped;
+    return mapped;
   } catch {
     return null;
   }
