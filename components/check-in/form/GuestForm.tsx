@@ -26,9 +26,33 @@ interface GuestFormProps {
 
 const GUEST_TYPES: GuestType[] = ['single', 'head_family', 'family', 'head_group', 'group'];
 
+function documentTypeFromMrz(documentType?: string): string {
+  if (documentType === 'TD3') return 'PASOR';
+  return 'IDENT';
+}
+
+function buildFormState(initialData?: Partial<MrzExtractedData>) {
+  const today = new Date().toISOString().slice(0, 10);
+  return {
+    guestType: 'single' as GuestType,
+    arrivalDate: today,
+    stayDays: 1,
+    surname: initialData?.surname ?? '',
+    givenNames: initialData?.givenNames ?? '',
+    sex: (initialData?.sex === 'F' ? 'F' : initialData?.sex === 'M' ? 'M' : 'M') as 'M' | 'F',
+    birthDate: initialData?.birthDate ?? '',
+    birthMunicipalityCode: '',
+    birthProvinceCode: '',
+    birthCountryCode: '',
+    citizenshipCode: '',
+    documentTypeCode: documentTypeFromMrz(initialData?.documentType),
+    documentNumber: initialData?.documentNumber ?? '',
+    documentIssuePlaceCode: ITALY_CODE,
+  };
+}
+
 export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormProps) {
   const { t } = useTranslation();
-  const today = new Date().toISOString().slice(0, 10);
 
   const [nations, setNations] = useState<NationEntry[]>([]);
   const [comuni, setComuni] = useState<ComuneEntry[]>([]);
@@ -39,22 +63,11 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
   const [citizenshipQuery, setCitizenshipQuery] = useState('');
   const [docPlaceQuery, setDocPlaceQuery] = useState('');
 
-  const [form, setForm] = useState({
-    guestType: 'single' as GuestType,
-    arrivalDate: today,
-    stayDays: 1,
-    surname: initialData?.surname ?? '',
-    givenNames: initialData?.givenNames ?? '',
-    sex: (initialData?.sex === 'F' ? 'F' : 'M') as 'M' | 'F',
-    birthDate: initialData?.birthDate ?? '',
-    birthMunicipalityCode: '',
-    birthProvinceCode: '',
-    birthCountryCode: '',
-    citizenshipCode: '',
-    documentTypeCode: initialData?.documentType === 'TD3' ? 'PASOR' : 'IDENT',
-    documentNumber: initialData?.documentNumber ?? '',
-    documentIssuePlaceCode: ITALY_CODE,
-  });
+  const [form, setForm] = useState(() => buildFormState(initialData));
+
+  useEffect(() => {
+    setForm(buildFormState(initialData));
+  }, [initialData]);
 
   useEffect(() => {
     void Promise.all([loadNations(), loadComuni(), loadDocumentTypes()]).then(
@@ -63,16 +76,16 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
         setComuni(c);
         setDocumentTypes(d);
 
-        if (initialData?.nationality) {
-          const nation = findNationByIso3(n, initialData.nationality);
-          if (nation) {
-            setForm((prev) => ({
-              ...prev,
-              birthCountryCode: nation.code,
-              citizenshipCode: nation.code,
-            }));
-          }
-        }
+        if (!initialData?.nationality) return;
+        const nation = findNationByIso3(n, initialData.nationality);
+        if (!nation) return;
+
+        setForm((prev) => ({
+          ...prev,
+          birthCountryCode: prev.birthCountryCode || nation.code,
+          citizenshipCode: prev.citizenshipCode || nation.code,
+          documentIssuePlaceCode: prev.documentIssuePlaceCode || nation.code,
+        }));
       },
     );
   }, [initialData?.nationality]);

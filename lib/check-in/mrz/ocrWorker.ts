@@ -1,5 +1,4 @@
-import { extractMRZData, type MRZResult } from 'web-mrz-reader';
-import { createWorker, type Worker } from 'tesseract.js';
+import { createWorker, PSM, type Worker } from 'tesseract.js';
 import {
   binarizeForMrz,
   buildAllMrzCrops,
@@ -10,16 +9,21 @@ import {
 } from './cropRegion';
 import { clearTesseractModelCache } from './clearOcrCache';
 import { loadImageFileToCanvas } from './imageLoader';
-import { applyNameFixes } from './parseMrz';
+import {
+  parseMrzCandidates,
+  pickBestMrzFromCandidates,
+  type MrzParseCandidate,
+} from './parseMrz';
 import type { MrzExtractedData } from '@/types/check-in';
 
-/** Allineato a web-mrz-reader — niente PSM/whitelist custom sul modello MRZ */
+const MRZ_WHITELIST = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789<';
+
 const OCR_OPTS = {
   workerPath: '/tesseract/worker.min.js',
   corePath: '/tesseract/',
   langPath: '/model/',
   gzip: true,
-  cachePath: 'hotelsdrop-mrz-v4',
+  cachePath: 'hotelsdrop-mrz-v5',
   cacheMethod: 'write' as const,
 };
 
@@ -50,72 +54,66 @@ async function getWorker(): Promise<Worker> {
   return workerPromise;
 }
 
-function formatMrzDate(mrzDate: string): string {
-  if (!/^\d{6}$/.test(mrzDate)) return '';
-  const yy = parseInt(mrzDate.slice(0, 2), 10);
-  const mm = mrzDate.slice(2, 4);
-  const dd = mrzDate.slice(4, 6);
-  const month = parseInt(mm, 10);
-  const day = parseInt(dd, 10);
-  if (month < 1 || month > 12 || day < 1 || day > 31) return '';
-  const century = yy >= 30 ? 1900 : 2000;
-  return `${century + yy}-${mm}-${dd}`;
+function normalizeLine(text: string): string {
+  return text
+    .toUpperCase()
+    .replace(/\s+/g, '')
+    .replace(/[|]/g, 'I')
+    .replace(/[^A-Z0-9<]/g, '');
 }
 
-function formatMrzExpiryDate(mrzDate: string): string {
-  if (!/^\d{6}$/.test(mrzDate)) return '';
-  const yy = parseInt(mrzDate.slice(0, 2), 10);
-  const mm = mrzDate.slice(2, 4);
-  const dd = mrzDate.slice(4, 6);
-  const century = yy >= 80 ? 1900 : 2000;
-  return `${century + yy}-${mm}-${dd}`;
-}
-
-function normalizeSex(gender: string): 'M' | 'F' | 'X' {
-  const s = gender.toLowerCase();
-  if (s === 'male' || s === 'm') return 'M';
-  if (s === 'female' || s === 'f') return 'F';
-  return 'X';
-}
-
-function mapParsedToExtracted(raw: string, parsed: MRZResult): MrzExtractedData | null {
-  if (typeof parsed === 'string') return null;
-
-  const surname = parsed.Surname.trim();
-  const givenNames = parsed['Given Names'].trim();
-  const documentNumber = (
-    'Document Number' in parsed ? parsed['Document Number'] : parsed['Passport Number']
-  ).trim();
-
-  if (!surname || !documentNumber) return null;
-
-  const flatLen = raw.replace(/\s/g, '').length;
-  let documentType = 'MRZ';
-  if (flatLen >= 90) documentType = 'TD1';
-  else if (flatLen >= 88) documentType = 'TD3';
-  else if (flatLen >= 72) documentType = 'TD2';
-
-  return applyNameFixes({
-    documentNumber,
-    surname,
-    givenNames,
-    nationality: parsed.Nationality.trim(),
-    birthDate: formatMrzDate(parsed['Date of Birth']),
-    sex: normalizeSex(parsed.Gender),
-    expiryDate: formatMrzExpiryDate(parsed['Expiration Date']) || undefined,
-    documentType,
-    rawMrz: raw,
-  });
-}
-
-function parseOcrText(text: string): MrzExtractedData | null {
-  if (!text.trim()) return null;
-
+function collectFromText(text: string, out: MrzParseCandidate[]): void {
+  if (!text.trim()) return;
   lastRawOcr = text.slice(0, 240);
-  const extracted = extractMRZData(text);
-  if (!extracted || typeof extracted.parsed === 'string') return null;
+  out.push(...parseMrzCandidates(text));
+}
 
-  return mapParsedToExtracted(extracted.raw, extracted.parsed);
+function cropLine(source: HTMLCanvasElement, y: number, h: number): HTMLCanvasElement {
+  const out = document.createElement('canvas');
+  out.width = source.width;
+  out.height = h;
+  const ctx = out.getContext('2d');
+  ctx?.drawImage(source, 0, y, source.width, h, 0, 0, source.width, h);
+  return out;
+}
+
+async function recognizeLine(worker: Worker, canvas: HTMLCanvasElement): Promise<string> {
+  await worker.setParameters({
+    tessedit_char_whitelist: MRZ_WHITELIST,
+    tessedit_pageseg_mode: PSM.SINGLE_LINE,
+  });
+  const { data } = await worker.recognize(canvas);
+  return normalizeLine(data.text ?? '');
+}
+
+async function recognizeBlock(worker: Worker, canvas: HTMLCanvasElement): Promise<string> {
+  await worker.setParameters({
+    tessedit_char_whitelist: MRZ_WHITELIST,
+    tessedit_pageseg_mode: PSM.SINGLE_BLOCK,
+  });
+  const { data } = await worker.recognize(canvas);
+  return data.text?.trim() ?? '';
+}
+
+async function recognizeMrzByLines(
+  worker: Worker,
+  source: HTMLCanvasElement,
+  lineCount: 3 | 2,
+  lineLen: 30 | 44,
+): Promise<string> {
+  const lineH = Math.max(1, Math.floor(source.height / lineCount));
+  const lines: string[] = [];
+
+  for (let i = 0; i < lineCount; i++) {
+    const slice = cropLine(source, i * lineH, lineH);
+    let line = await recognizeLine(worker, slice);
+    destroyCanvas(slice);
+    if (line.length > lineLen) line = line.slice(0, lineLen);
+    if (line.length < lineLen) line = line.padEnd(lineLen, '<');
+    lines.push(line);
+  }
+
+  return lines.join('\n');
 }
 
 function prepVariants(source: HTMLCanvasElement): {
@@ -132,9 +130,8 @@ function prepVariants(source: HTMLCanvasElement): {
 
   const base = normalizeForOcr(source);
   add(base);
-  const enhanced = enhanceForOcr(base);
-  add(enhanced);
-  const upscaled = upscaleForMrz(enhanced);
+  add(enhanceForOcr(base));
+  const upscaled = upscaleForMrz(enhanceForOcr(base));
   add(upscaled);
   add(binarizeForMrz(upscaled));
 
@@ -146,23 +143,50 @@ function prepVariants(source: HTMLCanvasElement): {
   };
 }
 
-async function recognizeCanvas(worker: Worker, canvas: HTMLCanvasElement): Promise<string> {
+async function ocrCanvasToCandidates(
+  worker: Worker,
+  canvas: HTMLCanvasElement,
+): Promise<MrzParseCandidate[]> {
+  const all: MrzParseCandidate[] = [];
   const { variants, cleanup } = prepVariants(canvas);
+
   try {
     for (const variant of variants) {
-      const { data } = await worker.recognize(variant);
-      const text = data.text?.trim() ?? '';
-      if (text) return text;
+      collectFromText(await recognizeBlock(worker, variant), all);
     }
-    return '';
+
+    const upscaled = upscaleForMrz(enhanceForOcr(normalizeForOcr(canvas)));
+    collectFromText(await recognizeMrzByLines(worker, upscaled, 3, 30), all);
+    collectFromText(await recognizeMrzByLines(worker, upscaled, 2, 44), all);
+    if (upscaled !== canvas) destroyCanvas(upscaled);
   } finally {
     cleanup();
   }
+
+  return all;
+}
+
+function finalizeCandidates(candidates: MrzParseCandidate[], label: string): MrzExtractedData | null {
+  if (candidates.length === 0) return null;
+
+  const hit = pickBestMrzFromCandidates(candidates);
+  if (hit) {
+    lastOcrDebug = `[${label}] ${hit.surname}/${hit.givenNames}/${hit.documentNumber}`;
+    return hit;
+  }
+
+  const sorted = [...candidates].sort((a, b) => b.score - a.score);
+  lastOcrDebug =
+    sorted
+      .slice(0, 3)
+      .map((c) => `[${c.score}] ${c.data.surname}/${c.data.documentNumber}`)
+      .join(' | ') + ' | score basso';
+  return null;
 }
 
 async function tryCanvas(worker: Worker, canvas: HTMLCanvasElement): Promise<MrzExtractedData | null> {
-  const text = await recognizeCanvas(worker, canvas);
-  return parseOcrText(text);
+  const candidates = await ocrCanvasToCandidates(worker, canvas);
+  return finalizeCandidates(candidates, 'ok');
 }
 
 export async function warmupOcr(): Promise<void> {
@@ -176,62 +200,41 @@ export async function warmupOcr(): Promise<void> {
   destroyCanvas(canvas);
 }
 
-export async function extractMrzFromCanvases(
-  canvases: HTMLCanvasElement[],
-): Promise<MrzExtractedData | null> {
-  const worker = await getWorker();
-  for (const canvas of canvases) {
-    const hit = await tryCanvas(worker, canvas);
-    if (hit) {
-      lastOcrDebug = `[ok] ${hit.surname}/${hit.documentNumber}`;
-      return hit;
-    }
-  }
-  return null;
-}
-
 export async function extractMrzFromFullFrame(
   canvas: HTMLCanvasElement,
   orientation: 'portrait' | 'landscape' = 'portrait',
 ): Promise<MrzExtractedData | null> {
   const worker = await getWorker();
+  const all: MrzParseCandidate[] = [];
 
-  let hit = await tryCanvas(worker, canvas);
-  if (hit) {
-    lastOcrDebug = `[ok full] ${hit.surname}/${hit.documentNumber}`;
-    return hit;
-  }
+  all.push(...(await ocrCanvasToCandidates(worker, canvas)));
+  let hit = finalizeCandidates(all, 'full');
+  if (hit) return hit;
 
   if (orientation === 'portrait') {
     for (const deg of [90, -90] as const) {
       const rotated = rotateCanvas(canvas, deg);
-      hit = await tryCanvas(worker, rotated);
+      all.push(...(await ocrCanvasToCandidates(worker, rotated)));
       destroyCanvas(rotated);
-      if (hit) {
-        lastOcrDebug = `[ok rot${deg}] ${hit.surname}/${hit.documentNumber}`;
-        return hit;
-      }
+      hit = finalizeCandidates(all, `rot${deg}`);
+      if (hit) return hit;
     }
   }
 
   const crops = buildAllMrzCrops(canvas, orientation);
   try {
     for (const crop of crops) {
-      hit = await tryCanvas(worker, crop);
-      if (hit) {
-        lastOcrDebug = `[ok crop] ${hit.surname}/${hit.documentNumber}`;
-        return hit;
-      }
+      all.push(...(await ocrCanvasToCandidates(worker, crop)));
+      hit = finalizeCandidates(all, 'crop');
+      if (hit) return hit;
 
       if (orientation === 'portrait') {
         for (const deg of [90, -90] as const) {
           const rotated = rotateCanvas(crop, deg);
-          hit = await tryCanvas(worker, rotated);
+          all.push(...(await ocrCanvasToCandidates(worker, rotated)));
           destroyCanvas(rotated);
-          if (hit) {
-            lastOcrDebug = `[ok crop rot${deg}] ${hit.surname}/${hit.documentNumber}`;
-            return hit;
-          }
+          hit = finalizeCandidates(all, `crop-rot${deg}`);
+          if (hit) return hit;
         }
       }
     }
@@ -239,9 +242,11 @@ export async function extractMrzFromFullFrame(
     for (const c of crops) destroyCanvas(c);
   }
 
-  lastOcrDebug = lastRawOcr
-    ? `(OCR senza MRZ valida) ${lastRawOcr.replace(/\s+/g, ' ').slice(0, 120)}`
-    : '(OCR vuoto — controlla luce, fuoco e inquadratura MRZ)';
+  if (!lastOcrDebug && lastRawOcr) {
+    lastOcrDebug = `(OCR senza MRZ valida) ${lastRawOcr.replace(/\s+/g, ' ').slice(0, 120)}`;
+  } else if (!lastOcrDebug) {
+    lastOcrDebug = '(OCR vuoto — controlla luce, fuoco e inquadratura MRZ)';
+  }
   return null;
 }
 

@@ -13,9 +13,41 @@ export interface MrzParseCandidate {
 
 const MIN_ACCEPT_SCORE = 6;
 
-/**
- * Parser MRZ con punteggio — accetta solo risultati plausibili (check digit / campi minimi).
- */
+function formatGivenNames(raw: string): string {
+  return raw
+    .replace(/</g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+export function pickBestMrzFromCandidates(candidates: MrzParseCandidate[]): MrzExtractedData | null {
+  if (candidates.length === 0) return null;
+
+  const sorted = [...candidates].sort((a, b) => b.score - a.score);
+  const best = sorted[0]!;
+  if (best.score < MIN_ACCEPT_SCORE) return null;
+
+  const merged: MrzExtractedData = { ...best.data };
+
+  for (const c of sorted.slice(1, 6)) {
+    if (!merged.birthDate && c.data.birthDate) merged.birthDate = c.data.birthDate;
+    if (!merged.expiryDate && c.data.expiryDate) merged.expiryDate = c.data.expiryDate;
+    if (merged.sex === 'X' && c.data.sex !== 'X') merged.sex = c.data.sex;
+    if (!merged.nationality && c.data.nationality) merged.nationality = c.data.nationality;
+    if (
+      c.data.givenNames.length > merged.givenNames.length ||
+      (merged.givenNames.length < 3 && c.data.givenNames.length >= 3)
+    ) {
+      merged.givenNames = c.data.givenNames;
+    }
+    if (c.data.surname.length > merged.surname.length) merged.surname = c.data.surname;
+    if (c.data.documentNumber.length > merged.documentNumber.length) {
+      merged.documentNumber = c.data.documentNumber;
+    }
+  }
+
+  return applyNameFixes(merged);
+}
 export function parseMrzString(rawMrz: string): MrzExtractedData | null {
   const best = parseMrzCandidates(rawMrz)[0];
   return best && best.score >= MIN_ACCEPT_SCORE ? best.data : null;
@@ -63,6 +95,7 @@ function scoreMrz(data: MrzExtractedData, raw: string, validationOk: boolean): n
 
   if (data.surname.length >= 2) score += 3;
   if (data.givenNames.length >= 2) score += 2;
+  if (data.givenNames.length >= 6) score += 2;
   if (/^[A-Z0-9]{6,12}$/.test(data.documentNumber)) score += 3;
   if (/^\d{4}-\d{2}-\d{2}$/.test(data.birthDate)) score += 3;
   if (data.nationality.length === 3) score += 1;
@@ -93,7 +126,7 @@ function parseMrzBlobManual(raw: string): MrzExtractedData | null {
 
 function mapWebMrzResult(parsed: MRZResult, rawMrz: string): MrzExtractedData | null {
   const surname = parsed.Surname.trim();
-  const givenNames = parsed['Given Names'].trim();
+  const givenNames = formatGivenNames(parsed['Given Names']);
   const documentNumber = (
     'Document Number' in parsed ? parsed['Document Number'] : parsed['Passport Number']
   ).trim();
@@ -187,7 +220,7 @@ function mapResult(
 ): MrzExtractedData | null {
   const fields = result.fields;
   const surname = fields.lastName ?? '';
-  const givenNames = fields.firstName ?? '';
+  const givenNames = formatGivenNames(fields.firstName ?? '');
   const documentNumber = fields.documentNumber ?? result.documentNumber ?? '';
 
   if (!surname || !documentNumber) return null;
@@ -240,11 +273,11 @@ function extractNamesFromMrz(rawMrz: string): { surname: string; givenNames: str
 
   for (const line of lines) {
     if (!line.includes('<<')) continue;
-    const match = line.match(/([A-Z]+)<<([A-Z]+)/);
+    const match = line.match(/([A-Z]+)<<([A-Z<]+)/);
     if (!match?.[1] || !match[2]) continue;
 
     const surname = sanitizeMrzSurname(match[1]);
-    const givenNames = sanitizeMrzGivenName(match[2].replace(/</g, '').trim());
+    const givenNames = sanitizeMrzGivenName(formatGivenNames(match[2]));
     if (!best || givenNames.length > best.givenLen) {
       best = { surname, givenNames, givenLen: givenNames.length };
     }
