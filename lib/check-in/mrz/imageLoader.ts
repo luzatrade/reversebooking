@@ -1,6 +1,6 @@
 /** Carica foto in canvas — compatibile iOS (HEIC fallback via img) */
 export async function loadImageFileToCanvas(file: File): Promise<HTMLCanvasElement | null> {
-  const maxDim = 2400;
+  const maxDim = 3200;
 
   if (typeof createImageBitmap !== 'undefined') {
     try {

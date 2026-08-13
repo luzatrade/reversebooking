@@ -16,7 +16,11 @@ export function CheckInPage() {
   function handleScanResult(data: MrzExtractedData) {
     setMrzData(data);
     setView('form');
-    toast(t('capture.success'), 'success');
+    if (data.mrzValid === false || (data.reviewFields?.length ?? 0) > 0) {
+      toast(t('capture.successReview'), 'info');
+    } else {
+      toast(t('capture.success'), 'success');
+    }
   }
 
   function handleConfirm(_guest: Omit<GuestRecord, 'id' | 'hotelAccountId'>) {

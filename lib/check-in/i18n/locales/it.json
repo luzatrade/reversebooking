@@ -60,6 +60,7 @@
     "stabilizing": "Tieni fermo…",
     "processing": "Lettura in corso…",
     "success": "Documento letto",
+    "successReview": "Lettura parziale — controlla i dati nel form",
     "failed": "Lettura non riuscita — riprova con più luce e MRZ nella striscia blu",
     "failedPhoto": "Foto non letta — prova verticale (MRZ a destra) o orizzontale (MRZ in basso)",
     "manualEntry": "Inserimento manuale",
@@ -90,6 +91,8 @@
     "saving": "Salvataggio…",
     "saveSuccess": "Dati verificati",
     "backToScan": "Torna alla scansione",
+    "reviewBanner": "Controlla i campi evidenziati: la lettura automatica potrebbe aver sbagliato.",
+    "reviewFieldHint": "Da verificare",
     "guestTypes": {
       "single": "Ospite singolo (16)",
       "head_family": "Capo famiglia (17)",

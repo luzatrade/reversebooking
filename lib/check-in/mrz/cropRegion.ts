@@ -136,8 +136,8 @@ export function cropCanvasRegion(
   return out;
 }
 
-/** Porta la striscia MRZ ad almeno ~1400px larghezza per OCR-B */
-export function upscaleForMrz(source: HTMLCanvasElement, minWidth = 1400): HTMLCanvasElement {
+/** Porta la striscia MRZ ad alte risoluzione per OCR-B (mai downscale) */
+export function upscaleForMrz(source: HTMLCanvasElement, minWidth = 2000): HTMLCanvasElement {
   if (source.width >= minWidth) return source;
   const scale = minWidth / source.width;
   const out = document.createElement('canvas');
@@ -174,30 +174,32 @@ export function buildAllMrzCrops(
   const crops: HTMLCanvasElement[] = [];
   const isPortrait = orientation === 'portrait' || h > w * 1.05;
 
+  // Striscia MRZ in basso — priorità per foto verticali (CIE/passaporto in mano)
+  for (const top of [0.74, 0.68, 0.62, 0.55]) {
+    crops.push(
+      cropCanvasRegion(
+        source,
+        Math.floor(w * 0.01),
+        Math.floor(h * top),
+        Math.floor(w * 0.98),
+        Math.floor(h * (0.995 - top)),
+      ),
+    );
+  }
+
+  // MRZ verticale sul lato destro — fallback CIE in portrait
   if (isPortrait) {
-    for (const left of [0.6, 0.64]) {
+    for (const left of [0.58, 0.62, 0.66]) {
       crops.push(
         cropCanvasRegion(
           source,
           Math.floor(w * left),
-          Math.floor(h * 0.03),
+          Math.floor(h * 0.05),
           Math.floor(w * (0.99 - left)),
-          Math.floor(h * 0.94),
+          Math.floor(h * 0.92),
         ),
       );
     }
-  }
-
-  for (const top of [0.66, 0.7]) {
-    crops.push(
-      cropCanvasRegion(
-        source,
-        Math.floor(w * 0.02),
-        Math.floor(h * top),
-        Math.floor(w * 0.96),
-        Math.floor(h * (0.98 - top)),
-      ),
-    );
   }
 
   return crops;
