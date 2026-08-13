@@ -1,5 +1,6 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
+import { hotelMatchesTravelRequest } from "@/lib/matching/request-hotel-services";
 import { onboardingCitySearchNames, supabaseCityNameOrFilter } from "@/lib/onboarding/city-match";
 
 export type PartnerHotelNotifyRow = {
@@ -9,16 +10,18 @@ export type PartnerHotelNotifyRow = {
   public_email: string | null;
 };
 
-type TravelRequestCity = {
+type TravelRequestMatchInput = {
   city_id: string;
   city_name: string;
   country_code?: string | null;
+  preference_filters?: Record<string, boolean> | null;
+  preferred_structure_type?: string | null;
 };
 
-/** Partner attivi e abbonati nella zona della richiesta (city_id canonico + alias nome città). */
+/** Partner attivi e abbonati nella zona della richiesta, con servizi compatibili. */
 export async function fetchActivePartnerHotelsForRequest(
   admin: SupabaseClient,
-  travelRequest: TravelRequestCity,
+  travelRequest: TravelRequestMatchInput,
 ): Promise<PartnerHotelNotifyRow[]> {
   const canonicalId = resolveCanonicalCityId({
     cityName: travelRequest.city_name,
@@ -42,7 +45,7 @@ export async function fetchActivePartnerHotelsForRequest(
 
   const { data, error } = await admin
     .from("hotel_accounts")
-    .select("id, property_name, private_notification_email, public_email, city_id, city_name")
+    .select("id, property_name, private_notification_email, public_email, city_id, city_name, services, structure_type")
     .eq("account_status", "active")
     .eq("subscription_active", true)
     .or(orParts.join(","));
@@ -53,6 +56,7 @@ export async function fetchActivePartnerHotelsForRequest(
   return (data ?? []).filter((row) => {
     if (seen.has(row.id)) return false;
     seen.add(row.id);
+    if (!hotelMatchesTravelRequest(row, travelRequest)) return false;
     return true;
   }) as PartnerHotelNotifyRow[];
 }

@@ -1,4 +1,7 @@
 import { mealPlanLabels, structureTypeLabels, type MealPlan, type StructureType } from "@/types/app";
+import { activePreferenceFilterKeys } from "@/lib/matching/request-hotel-services";
+import { getServiceLabels } from "@/lib/i18n/labels";
+import { useLanguage } from "@/components/i18n/LanguageProvider";
 
 export type AcceptedBookingSummaryData = {
   audience: "advertiser" | "hotel";
@@ -36,6 +39,12 @@ function formatCurrency(value: number) {
 }
 
 export function AcceptedBookingSummary({ data }: { data: AcceptedBookingSummaryData }) {
+  const { locale } = useLanguage();
+  const serviceLabels = getServiceLabels(locale);
+  const activeFilters = activePreferenceFilterKeys(
+    data.preferenceFilters as Record<string, boolean> | null | undefined,
+  );
+
   return (
     <article
       id="accepted-booking-summary"
@@ -81,6 +90,23 @@ export function AcceptedBookingSummary({ data }: { data: AcceptedBookingSummaryD
           <dd className="font-medium">{mealPlanLabels[data.mealPlanOffer]}</dd>
         </div>
       </dl>
+      {activeFilters.length > 0 ? (
+        <div className="mt-4 flex flex-wrap gap-2">
+          {activeFilters.map((key) => (
+            <span
+              key={key}
+              className="rounded-full bg-emerald-50 px-3 py-1 text-xs font-medium text-emerald-800 ring-1 ring-emerald-200"
+            >
+              {serviceLabels[key] ?? key}
+            </span>
+          ))}
+        </div>
+      ) : null}
+      {data.notes ? (
+        <p className="mt-4 text-sm text-zinc-600 dark:text-zinc-400">
+          <strong>Note cliente:</strong> {data.notes}
+        </p>
+      ) : null}
       {data.description ? <p className="mt-4 text-sm text-zinc-600 dark:text-zinc-400">{data.description}</p> : null}
       {data.conditions ? (
         <p className="mt-2 text-sm text-zinc-500">
