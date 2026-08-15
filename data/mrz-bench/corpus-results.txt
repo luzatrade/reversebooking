@@ -1,0 +1,220 @@
+
+### CIE Zavaglia — foto verticale MRZ destra
+    768x1024 (portrait) · 1 varianti
+    atteso: ZAVAGLIA / LUCIANO / CB19477AA9 / 1983-05-26 / M
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     OK 2.4s                   OK 2.1s                   
+
+### CIE Zavaglia — tenuta in mano verticale
+    768x1024 (portrait) · 1 varianti
+    atteso: ZAVAGLIA / LUCIANO / CB19477AA9 / 1983-05-26 / M
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 2.2s                   -- 3.7s                   
+
+### CIE Zavaglia — variante simile
+    768x1024 (portrait) · 1 varianti
+    atteso: ZAVAGLIA / LUCIANO / CB19477AA9 / 1983-05-26 / M
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 2.1s                   -- 3.7s                   
+
+### CIE Gronchi — MRZ sinistra, piano scuro
+    576x1024 (portrait) · 1 varianti
+    atteso: GRONCHI / IMER / CA32060FA2 / 1986-02-27 / M
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 2.2s                   OK! 2.6s                  
+
+### CIE Bechini — orizzontale, mano
+    576x1024 (portrait) · 1 varianti
+    atteso: BECHINI / GABRIEL / CA88352YV9 / 1999-03-10 / M
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 2.1s                   nomi 1.6s nome=GARRIEL    
+
+### CIE Bechini — variante
+    576x1024 (portrait) · 1 varianti
+    atteso: BECHINI / GABRIEL / CA88352YV9 / 1999-03-10 / M
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 3.4s                   nomi 1.6s nome=GARRIEL    
+
+### CIE Muratore — verticale, sfondo tessuto
+    575x1024 (portrait) · 1 varianti
+    atteso: MURATORE / VANESSA / CA22338WH1 / 2003-06-05 / F
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 2.1s                   -- 2.4s                   
+
+### Passaporto Moretti — TD3
+    768x1024 (portrait) · 1 varianti
+    atteso: MORETTI / ANDREA / YB8037903 / 1969-03-26 / M
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 3.3s                   -- 5.6s                   
+
+### Passaporto Serrano — TD3
+    576x1024 (portrait) · 1 varianti
+    atteso: SERRANO / CRISTINA ELIZABETH / YB3099459 / 1990-07-12 / F
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 2.2s                   -- 5.5s                   
+
+### Cartão cidadão Portogallo — TD1
+    1024x665 (landscape) · 1 varianti
+    atteso: PEIXOTO RIBEIRO / CARLOS MIGUEL / 141559705 / 1992-11-02 / M
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 2.2s                   -- 4.5s                   
+
+### CIE Martinelli — scan bianco
+    768x1024 (portrait) · 1 varianti
+    atteso: MARTINELLI / PAOLO / CA67216XP2 / 1968-01-31 / M
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 1.7s                   nomi! 4.2s cognome=PARIEF 
+
+### CIE Bova — treno, orizzontale
+    576x1024 (portrait) · 1 varianti
+    atteso: BOVA / FELICE RAOUL / CA64134IZ1 / 2000-06-04 / M
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 1.8s                   -- 4.4s                   
+
+### CIE Palpa Zavala — peruano
+    1024x630 (landscape) · 1 varianti
+    atteso: PALPA ZAVALA / MARLON SAUL / CA85747EV4 / 1989-09-11 / M
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     OK 2.5s                   nomi 1.8s cognome=ZAVALA  
+
+### CIE Testa — due documenti in foto (solo CIE)
+    1024x576 (landscape) · 1 varianti
+    atteso: TESTA / SILVANA / CA66730SY4 / 1971-03-08 / F
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 1.9s                   -- 3.3s                   
+
+### CIE Leo — scan fronte+retro
+    576x1024 (portrait) · 1 varianti
+    atteso: LEO / FRANCESCA / CA64853LC3 / 1998-02-07 / F
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 2.3s                   -- 4.3s                   
+
+### CIE tedesca Gammerschmidt — TD1
+    1024x576 (landscape) · 1 varianti
+    atteso: GAMMERSCHMIDT / NIKITA / L3HM72N1F9 / 2001-09-01 / M
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 3.1s                   -- 3.9s                   
+
+### JPG test scan — Leo
+    900x1600 (portrait) · 1 varianti
+    atteso: LEO / FRANCESCA / CA64853LC3 / 1998-02-07 / F
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 2.7s                   -- 7.3s                   
+
+### JPG test scan — Zavaglia
+    1200x1600 (portrait) · 1 varianti
+    atteso: ZAVAGLIA / LUCIANO / CB19477AA9 / 1983-05-26 / M
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 2.8s                   -- 6.7s                   
+
+### JPG test scan — Bova
+    1080x1920 (portrait) · 1 varianti
+    atteso: BOVA / FELICE RAOUL / CA64134IZ1 / 2000-06-04 / M
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 3.2s                   -- 8.6s                   
+
+### JPG test scan — Palpa Zavala
+    1326x817 (landscape) · 1 varianti
+    atteso: PALPA ZAVALA / MARLON SAUL / CA85747EV4 / 1989-09-11 / M
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     nomi 3.0s cognome=IRE nom nomi! 4.0s cognome=ZAVALA 
+
+### JPG test scan — passaporto Serrano
+    1600x1040 (landscape) · 1 varianti
+    atteso: SERRANO / CRISTINA ELIZABETH / YB3099459 / 1990-07-12 / F
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 4.8s                   -- 9.4s                   
+
+### PDF Carta identità Sc
+    1487x2105 (portrait) · 1 varianti
+    atteso: (scoperta — annotare verità dal risultato)
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 3.3s                   -- 10.8s                  
+
+### PDF CIE Lucrezia (pag. 1)
+    3095x4380 (portrait) · 1 varianti
+    atteso: (scoperta — annotare verità dal risultato)
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 2.7s                   -- 17.6s                  
+
+### PDF CIE Lucrezia (pag. 2)
+    3095x4380 (portrait) · 1 varianti
+    atteso: (scoperta — annotare verità dal risultato)
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+    ↳ letto: DITRIA / LUCREZIA / CA53645PM4 / 2000-07-04 / F
+originale                     -- 2.7s                   -- 15.5s                  
+
+### PDF Scheda ID multi-pagina
+    1397x2045 (portrait) · 1 varianti
+    atteso: (scoperta — annotare verità dal risultato)
+
+variante                      A  nostro                 F  E + raddrizzamento     
+----------------------------------------------------------------------------------
+originale                     -- 1.7s                   --! 5.8s                  
+
+==================================================================================
+  TOTALE su 21 prove verificateA  nostro                 F  E + raddrizzamento     
+  ( + 4 pagine PDF in scoperta, esclusi dal punteggio )
+----------------------------------------------------------------------------------
+  tutto_corretto              2/21                      2/21                      
+  solo_nomi_errati            1/21                      5/21                      
+  campo_verificabile_errato   0/21                      0/21                      
+  non_letto                   18/21                     14/21                     
+----------------------------------------------------------------------------------
+  tempo medio                 3.1s                      6.7s                      
+  chiamate OCR totali         900                       678                       
+==================================================================================
+
+  tutto_corretto             nessun intervento necessario
+  solo_nomi_errati           cognome/nome da correggere a video (nessun check digit li protegge)
+  campo_verificabile_errato  GRAVE: numero documento o data errati accettati come validi
+  non_letto                  nessun dato precompilato, si passa al manuale
+  "!"                        il sistema avvisava di verificare i nomi

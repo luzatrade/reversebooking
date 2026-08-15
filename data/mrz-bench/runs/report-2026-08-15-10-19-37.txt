@@ -1,0 +1,28 @@
+MRZ Learning Report
+Source: corpus-results-v5.txt
+Generated: 2026-08-15T10:19:37.331Z
+
+ENGINE G (ottimizzato)
+  tutto_corretto:            8/35
+  solo_nomi_errati:          6/35
+  campo_verificabile_errato: 8/35
+  non_letto:                 13/35
+  utilizzabile:              14/35 (40%)
+
+Per tag failure-tags.json:
+  unknown                ok=8 nomi=6 err=8 no=13
+
+Campioni non letti (G):
+  - CIE Bechini — orizzontale, mano
+  - CIE Bechini — variante
+  - CIE Muratore — verticale, sfondo tessuto
+  - Cartão cidadão Portogallo — TD1
+  - CIE Martinelli — scan bianco
+  - CIE tedesca Gammerschmidt — TD1
+  - JPG test scan — passaporto Serrano
+  - WhatsApp 2026-07-12_at_14.23.40
+  - WhatsApp 2026-07-12_at_14.26.45
+  - WhatsApp 2026-07-20_at_14.11.40
+  - WhatsApp 2026-07-28_at_15.15.27
+  - WhatsApp 2026-07-28_at_15.15.55
+  - WhatsApp 2026-08-07_at_18.45.09

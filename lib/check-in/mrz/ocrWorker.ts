@@ -8,6 +8,7 @@ import {
 } from './cropRegion';
 import { clearTesseractModelCache } from './clearOcrCache';
 import { loadImageFileToCanvas } from './imageLoader';
+import { getEngineGDebug, runEngineG } from './engineG';
 import {
   applyNameFixes,
   assembleMrzFromLinePool,
@@ -30,7 +31,7 @@ const OCR_OPTS = {
   corePath: '/tesseract/',
   langPath: '/model/',
   gzip: true,
-  cachePath: 'hotelsdrop-mrz-v7',
+  cachePath: 'hotelsdrop-mrz-v8',
   cacheMethod: 'write' as const,
 };
 
@@ -205,7 +206,7 @@ async function ocrMrzCrop(
   }
 }
 
-async function scanSources(
+async function scanSourcesLegacy(
   worker: Worker,
   sources: HTMLCanvasElement[],
   label: string,
@@ -221,7 +222,7 @@ async function scanSources(
   return pickFromPool(allCandidates, linePool, label);
 }
 
-async function scanCanvasVariants(
+async function scanCanvasVariantsLegacy(
   worker: Worker,
   canvas: HTMLCanvasElement,
   orientation: 'portrait' | 'landscape',
@@ -231,20 +232,20 @@ async function scanCanvasVariants(
 ): Promise<MrzExtractedData | null> {
   const crops = buildAllMrzCrops(canvas, orientation);
   try {
-    return await scanSources(worker, crops, label, allCandidates, linePool);
+    return await scanSourcesLegacy(worker, crops, label, allCandidates, linePool);
   } finally {
     for (const c of crops) destroyCanvas(c);
   }
 }
 
-async function scanWithRotations(
+async function scanWithRotationsLegacy(
   worker: Worker,
   canvas: HTMLCanvasElement,
   orientation: 'portrait' | 'landscape',
   label: string,
-  allCandidates: MrzParseCandidate[],
-  linePool: Array<{ line: string; lineIndex: MrzLineIndex }>,
 ): Promise<MrzExtractedData | null> {
+  const allCandidates: MrzParseCandidate[] = [];
+  const linePool: Array<{ line: string; lineIndex: MrzLineIndex }> = [];
   const rotations: Array<{ canvas: HTMLCanvasElement; suffix: string; owned: boolean }> = [
     { canvas, suffix: 'base', owned: false },
   ];
@@ -257,7 +258,7 @@ async function scanWithRotations(
 
   try {
     for (const { canvas: variant, suffix } of rotations) {
-      const hit = await scanCanvasVariants(
+      const hit = await scanCanvasVariantsLegacy(
         worker,
         variant,
         orientation,
@@ -276,6 +277,33 @@ async function scanWithRotations(
   }
 }
 
+async function extractWithEngineG(
+  canvas: HTMLCanvasElement,
+  worker: Worker,
+  orientation: 'portrait' | 'landscape',
+): Promise<MrzExtractedData | null> {
+  let result = await runEngineG(canvas, worker, {
+    deskew: true,
+    expectItalian: orientation === 'portrait',
+  });
+
+  if (!result && orientation === 'landscape') {
+    result = await runEngineG(canvas, worker, {
+      deskew: true,
+      formatHint: 'TD3',
+      expectItalian: false,
+    });
+  }
+
+  if (result) {
+    lastOcrDebug = getEngineGDebug();
+    return result;
+  }
+
+  lastOcrDebug = getEngineGDebug() || 'Engine G: nessun risultato';
+  return null;
+}
+
 export async function warmupOcr(): Promise<void> {
   const worker = await getWorker();
   const canvas = document.createElement('canvas');
@@ -292,9 +320,10 @@ export async function extractMrzFromFullFrame(
   orientation: 'portrait' | 'landscape' = 'portrait',
 ): Promise<MrzExtractedData | null> {
   const worker = await getWorker();
-  const allCandidates: MrzParseCandidate[] = [];
-  const linePool: Array<{ line: string; lineIndex: MrzLineIndex }> = [];
-  return scanWithRotations(worker, canvas, orientation, 'frame', allCandidates, linePool);
+  const engineHit = await extractWithEngineG(canvas, worker, orientation);
+  if (engineHit) return engineHit;
+
+  return scanWithRotationsLegacy(worker, canvas, orientation, 'legacy-frame');
 }
 
 export async function extractMrzFromFile(file: File): Promise<MrzExtractedData | null> {
@@ -306,14 +335,15 @@ export async function extractMrzFromFile(file: File): Promise<MrzExtractedData |
 
   const orientation = canvas.height > canvas.width * 1.05 ? 'portrait' : 'landscape';
   const worker = await getWorker();
-  const allCandidates: MrzParseCandidate[] = [];
-  const linePool: Array<{ line: string; lineIndex: MrzLineIndex }> = [];
 
   try {
-    let hit = await scanWithRotations(worker, canvas, orientation, 'photo', allCandidates, linePool);
+    const engineHit = await extractWithEngineG(canvas, worker, orientation);
+    if (engineHit) return engineHit;
+
+    let hit = await scanWithRotationsLegacy(worker, canvas, orientation, 'legacy-photo');
     if (hit) return hit;
 
-    hit = await scanSources(worker, [canvas], 'photo-full', allCandidates, linePool);
+    hit = await scanSourcesLegacy(worker, [canvas], 'legacy-full', [], []);
     return hit;
   } finally {
     destroyCanvas(canvas);

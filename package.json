@@ -40,6 +40,11 @@
     "replay:new-request-notifications": "npx tsx scripts/replay-new-request-notifications.ts",
     "indexnow:submit-all": "npx tsx scripts/submit-indexnow-batch.ts",
     "indexnow:dry-run": "npx tsx scripts/submit-indexnow-batch.ts --dry-run",
+    "mrz:bench": "npx tsx scripts/mrz-bench/bench.ts --corpus --compact --engines G",
+    "mrz:bench:verified": "npx tsx scripts/mrz-bench/bench.ts --corpus --compact --engines G --verified",
+    "mrz:import": "node scripts/mrz-bench/import-batch2.mjs && node scripts/mrz-bench/prepare-corpus.mjs",
+    "mrz:probe": "npx tsx scripts/mrz-bench/probe-failure.ts",
+    "mrz:report": "node scripts/mrz-bench/learn-report.mjs",
     "setup:ocr": "node scripts/setup-ocr-assets.mjs",
     "postinstall": "node scripts/setup-ocr-assets.mjs"
   },
@@ -86,6 +91,7 @@
     "dotenv": "^17.4.2",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
+    "pdf-to-img": "^6.2.0",
     "supabase": "^2.98.2",
     "tailwindcss": "^4",
     "typescript": "^5"

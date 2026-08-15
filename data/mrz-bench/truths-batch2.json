@@ -1,0 +1,100 @@
+{
+  "wa-eb6a4643": {
+    "documentNumber": "CA07486ST8",
+    "surname": "SPADARO",
+    "givenNames": "MELISSA BEATRICE",
+    "birthDate": "2008-02-05",
+    "sex": "F"
+  },
+  "wa-ab6e02f5": {
+    "documentNumber": "CA91353IP4",
+    "surname": "ZAIA",
+    "givenNames": "ANDREA",
+    "birthDate": "1985-09-13",
+    "sex": "M"
+  },
+  "pdf-passport-ca": {
+    "documentNumber": "P522361NG",
+    "surname": "VILLA",
+    "givenNames": "SONIA RAILI",
+    "birthDate": "2003-08-03",
+    "sex": "F"
+  },
+  "wa-e1c89428": {
+    "documentNumber": "CA29829VL2",
+    "surname": "FICI",
+    "givenNames": "ALDO",
+    "birthDate": "1993-02-05",
+    "sex": "M"
+  },
+  "wa-054aa689": {
+    "documentNumber": "CA266480K8",
+    "surname": "NOTARO",
+    "givenNames": "MARIA",
+    "birthDate": "1981-03-06",
+    "sex": "F"
+  },
+  "wa-d73a94cb": {
+    "documentNumber": "CA62462LQ5",
+    "surname": "FACCIN",
+    "givenNames": "MARCO",
+    "birthDate": "2000-04-08",
+    "sex": "M"
+  },
+  "wa-a786c2c3": {
+    "documentNumber": "CA62267GK3",
+    "surname": "CELEBRE",
+    "givenNames": "DAVIDE",
+    "birthDate": "1994-12-09",
+    "sex": "M"
+  },
+  "wa-9822d88e": {
+    "documentNumber": "CA90022IY7",
+    "surname": "IOPPOLO",
+    "givenNames": "CARMELO",
+    "birthDate": "1991-02-19",
+    "sex": "M"
+  },
+  "wa-7043ee2d": {
+    "documentNumber": "CA83430XS5",
+    "surname": "MOLLICA",
+    "givenNames": "ROBERTA",
+    "birthDate": "1994-03-23",
+    "sex": "F"
+  },
+  "wa-5a34ada2": {
+    "documentNumber": "CA98955PA1",
+    "surname": "GARRA",
+    "givenNames": "VITO SANTI",
+    "birthDate": "2006-04-21",
+    "sex": "M"
+  },
+  "wa-9849afc0": {
+    "documentNumber": "CA63374MF6",
+    "surname": "IMBRIAGLIO",
+    "givenNames": "ARTURO GIOVANNI",
+    "birthDate": "1989-06-08",
+    "sex": "M"
+  },
+  "wa-ef7bd741": {
+    "documentNumber": "CA05242MT8",
+    "surname": "CRISTOFARO",
+    "givenNames": "GIULIA",
+    "birthDate": "1993-07-18",
+    "sex": "F"
+  },
+  "wa-60acdbc9": {
+    "documentNumber": "CA79251PY1",
+    "surname": "EVSTIGNEEVA",
+    "givenNames": "ELEONORA",
+    "birthDate": "1993-06-19",
+    "sex": "F"
+  },
+  "wa-bcb8c4aa": {
+    "documentNumber": "CA26409PP3",
+    "surname": "CABITINI",
+    "givenNames": "LEONARDO",
+    "birthDate": "2003-07-20",
+    "sex": "M"
+  }
+}

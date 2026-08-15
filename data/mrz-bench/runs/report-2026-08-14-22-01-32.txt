@@ -1,0 +1,35 @@
+MRZ Learning Report
+Source: corpus-results-v3.txt
+Generated: 2026-08-14T22:01:32.235Z
+
+ENGINE G (ottimizzato)
+  tutto_corretto:            0/0
+  solo_nomi_errati:          0/0
+  campo_verificabile_errato: 0/0
+  non_letto:                 0/0
+  utilizzabile:              0/0 (0%)
+
+Per tag failure-tags.json:
+
+Campioni non letti (G):
+  - CIE Zavaglia — foto verticale MRZ destra
+  - CIE Zavaglia — tenuta in mano verticale
+  - CIE Zavaglia — variante simile
+  - CIE Gronchi — MRZ sinistra, piano scuro
+  - CIE Bechini — orizzontale, mano
+  - CIE Bechini — variante
+  - CIE Muratore — verticale, sfondo tessuto
+  - Passaporto Moretti — TD3
+  - Passaporto Serrano — TD3
+  - Cartão cidadão Portogallo — TD1
+  - CIE Martinelli — scan bianco
+  - CIE Bova — treno, orizzontale
+  - CIE Palpa Zavala — peruano
+  - CIE Testa — due documenti in foto (solo CIE)
+  - CIE Leo — scan fronte+retro
+  - CIE tedesca Gammerschmidt — TD1
+  - JPG test scan — Leo
+  - JPG test scan — Zavaglia
+  - JPG test scan — Bova
+  - JPG test scan — Palpa Zavala
+  - JPG test scan — passaporto Serrano

@@ -52,3 +52,7 @@ node_modules
 
 # Log script operativi (harvest, seed batch)
 /logs/
+
+# MRZ bench: foto documenti reali (solo locale)
+/data/mrz-bench/corpus/
+/mrz.traineddata

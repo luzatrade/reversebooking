@@ -1,0 +1,74 @@
+MRZ Learning Report
+Source: corpus-results-v4.txt
+Generated: 2026-08-15T07:25:40.885Z
+
+ENGINE G (ottimizzato)
+  tutto_corretto:            9/103
+  solo_nomi_errati:          5/103
+  campo_verificabile_errato: 9/103
+  non_letto:                 80/103
+  utilizzabile:              14/103 (14%)
+
+Per tag failure-tags.json:
+  unknown                ok=9 nomi=5 err=9 no=80
+
+Campioni non letti (G):
+  - CIE Bechini — orizzontale, mano
+  - CIE Bechini — variante
+  - CIE Muratore — verticale, sfondo tessuto
+  - Cartão cidadão Portogallo — TD1
+  - CIE Martinelli — scan bianco
+  - CIE tedesca Gammerschmidt — TD1
+  - JPG test scan — passaporto Serrano
+  - WhatsApp 2026-05-13_at_14.12.03
+  - WhatsApp 2026-05-28_at_20.07.52
+  - WhatsApp 2026-05-31_at_19.57.06
+  - WhatsApp 2026-05-31_at_19.57.06__1_
+  - WhatsApp 2026-06-01_at_14.01.53
+  - WhatsApp 2026-06-01_at_14.02.29
+  - WhatsApp 2026-06-01_at_19.10.11
+  - WhatsApp 2026-06-04_at_13.48.04
+  - WhatsApp 2026-06-04_at_14.57.32
+  - WhatsApp 2026-06-04_at_14.57.32__1_
+  - WhatsApp 2026-06-06_at_17.31.17
+  - WhatsApp 2026-06-07_at_14.22.53
+  - WhatsApp 2026-06-08_at_14.18.58
+  - WhatsApp 2026-06-09_at_19.50.44
+  - WhatsApp 2026-06-09_at_19.53.47
+  - WhatsApp 2026-06-13_at_19.30.01
+  - WhatsApp 2026-06-17_at_13.59.08
+  - WhatsApp 2026-06-19_at_14.03.32
+  - WhatsApp 2026-06-19_at_14.05.01
+  - WhatsApp 2026-06-20_at_17.31.34
+  - WhatsApp 2026-06-21_at_10.58.20
+  - WhatsApp 2026-06-21_at_10.58.25
+  - WhatsApp 2026-06-22_at_20.29.33
+  - WhatsApp 2026-06-23_at_14.16.11
+  - WhatsApp 2026-06-23_at_17.13.55
+  - WhatsApp 2026-06-23_at_19.37.53
+  - WhatsApp 2026-06-24_at_22.21.53
+  - WhatsApp 2026-06-27_at_15.24.44
+  - WhatsApp 2026-06-29_at_20.11.25
+  - WhatsApp 2026-06-30_at_17.50.14
+  - WhatsApp 2026-07-02_at_15.31.37
+  - WhatsApp 2026-07-03_at_15.56.39
+  - WhatsApp 2026-07-04_at_14.24.12
+  - WhatsApp 2026-07-04_at_14.24.27
+  - WhatsApp 2026-07-05_at_14.14.26
+  - WhatsApp 2026-07-05_at_14.14.28
+  - WhatsApp 2026-07-06_at_17.03.32
+  - WhatsApp 2026-07-07_at_19.30.34
+  - WhatsApp 2026-07-08_at_14.00.56
+  - WhatsApp 2026-07-11_at_16.15.02
+  - WhatsApp 2026-07-12_at_14.23.40
+  - WhatsApp 2026-07-12_at_14.26.45
+  - WhatsApp 2026-07-16_at_17.11.13
+  - WhatsApp 2026-07-17_at_08.13.00
+  - WhatsApp 2026-07-19_at_14.05.17
+  - WhatsApp 2026-07-19_at_14.05.40
+  - WhatsApp 2026-07-20_at_14.11.40
+  - WhatsApp 2026-07-21_at_19.41.17
+  - WhatsApp 2026-07-21_at_21.14.42
+  - WhatsApp 2026-07-21_at_21.14.43
+  - WhatsApp 2026-07-28_at_15.15.55
+  - WhatsApp 2026-08-07_at_18.45.09
