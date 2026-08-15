@@ -14,6 +14,7 @@ dotenv.config({ path: resolve(__dirname, "../.env.local"), override: true });
 
 const { createClient } = await import("@supabase/supabase-js");
 const { isOnboardingSeoIndexable } = await import("./lib/seo-slug.mjs");
+const { buildHotelSeoLine } = await import("./lib/structure-seo-copy.mjs");
 
 const TOURIST_CITIES = [
   "Taormina",
@@ -72,38 +73,12 @@ const sb = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.SUPABA
   auth: { persistSession: false },
 });
 
-function inferKind(nome) {
-  const n = (nome ?? "").toLowerCase();
-  if (n.includes("b&b") || n.includes("bed and breakfast") || n.includes("bed & breakfast")) return "B&B";
-  if (n.includes("agriturismo")) return "agriturismo";
-  if (n.includes("guest house") || n.includes("guesthouse")) return "guest house";
-  if (n.includes("appartament")) return "appartamento";
-  if (n.includes("hotel")) return "hotel";
-  return "struttura ricettiva";
+function buildDescriptionIt(nome, city) {
+  return buildHotelSeoLine({ name: nome, cityName: city }, "it");
 }
 
-function inferKindEn(nome) {
-  const n = (nome ?? "").toLowerCase();
-  if (n.includes("b&b") || n.includes("bed and breakfast")) return "B&B";
-  if (n.includes("agriturismo")) return "farm stay";
-  if (n.includes("guest house")) return "guest house";
-  if (n.includes("appartament")) return "apartment";
-  if (n.includes("hotel")) return "hotel";
-  return "property";
-}
-
-function buildDescriptionIt(nome, city, indirizzo) {
-  const kind = inferKind(nome);
-  const addr = (indirizzo ?? "").trim();
-  const location = addr ? ` in ${addr}` : ` a ${city}`;
-  return `${nome} è un ${kind}${location}. Su HotelsDrop pubblichi una richiesta di soggiorno gratuita e ricevi offerte dirette dalla struttura, senza commissioni di prenotazione per chi viaggia.`;
-}
-
-function buildDescriptionEn(nome, city, indirizzo) {
-  const kind = inferKindEn(nome);
-  const addr = (indirizzo ?? "").trim();
-  const location = addr ? ` at ${addr}` : ` in ${city}`;
-  return `${nome} is a ${kind}${location}. On HotelsDrop you publish a free stay request and receive direct offers from the property with zero booking commission for travellers.`;
+function buildDescriptionEn(nome, city) {
+  return buildHotelSeoLine({ name: nome, cityName: city }, "en");
 }
 
 async function fetchCandidates(cityName) {
@@ -130,8 +105,8 @@ async function main() {
 
     for (const row of rows) {
       const patch = {
-        description: buildDescriptionIt(row.nome, row.city_name ?? city, row.indirizzo),
-        description_en: buildDescriptionEn(row.nome, row.city_name ?? city, row.indirizzo),
+        description: buildDescriptionIt(row.nome, row.city_name ?? city),
+        description_en: buildDescriptionEn(row.nome, row.city_name ?? city),
       };
       const seoRow = { ...row, ...patch };
       patch.seo_indexable = isOnboardingSeoIndexable(seoRow);

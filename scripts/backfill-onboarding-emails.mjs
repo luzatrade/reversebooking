@@ -68,22 +68,36 @@ function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
+async function fetchCandidateRows() {
+  const PAGE_SIZE = 1000;
+  const rows = [];
+
+  for (let from = 0; ; from += PAGE_SIZE) {
+    let query = sb
+      .from("onboarding_hotels")
+      .select("id, nome, city_name, website, email, lat, lng")
+      .is("email", null)
+      .not("website", "is", null)
+      .order("city_name", { ascending: true })
+      .range(from, from + PAGE_SIZE - 1);
+
+    if (comuneArg) query = query.ilike("city_name", comuneArg);
+
+    const { data, error } = await query;
+    if (error) throw error;
+    if (!data?.length) break;
+
+    rows.push(...data);
+    if (data.length < PAGE_SIZE) break;
+  }
+
+  return rows;
+}
+
 async function main() {
   console.log(`[backfill-emails] comune=${comuneArg ?? "all"} centro=${centroMode} limit=${limit ?? "none"}`);
 
-  let query = sb
-    .from("onboarding_hotels")
-    .select("id, nome, city_name, website, email, lat, lng")
-    .is("email", null)
-    .not("website", "is", null)
-    .order("city_name", { ascending: true });
-
-  if (comuneArg) query = query.ilike("city_name", comuneArg);
-
-  const { data, error } = await query;
-  if (error) throw error;
-
-  let rows = data ?? [];
+  let rows = await fetchCandidateRows();
   if (centroMode) rows = rows.filter(inCentro);
   if (limit && Number.isFinite(limit)) rows = rows.slice(0, limit);
 

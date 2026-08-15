@@ -6,6 +6,7 @@ import { canonicalUrl } from "@/lib/seo/canonical";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import { isDestinationHubIndexable } from "@/lib/seo/destination-quality";
 import { trimSeoDescription } from "@/lib/seo/serp-copy";
+import { buildDestinationSeoLine } from "@/lib/seo/structure-seo-copy";
 import type { DestinationHub } from "@/lib/seo/destination-queries";
 import type { Locale } from "@/lib/i18n/translations";
 
@@ -14,37 +15,22 @@ export function buildDestinationTitle(hub: DestinationHub, locale: Locale = "it"
   const count = hub.structureCount;
 
   if (locale === "en") {
-    return `Hotels in ${city}: ${count} properties — Get direct offers`;
+    return `Hotels in ${city}: ${count} properties — Direct booking`;
   }
-  return `Hotel a ${city}: ${count} strutture — Richiedi offerte dirette`;
+  return `Hotel a ${city}: ${count} strutture — Prenotazione diretta`;
 }
 
 export function buildDestinationDescription(hub: DestinationHub, locale: Locale) {
-  const city = hub.displayName;
-  const count = hub.structureCount;
-
-  if (locale === "en") {
-    return trimSeoDescription(
-      `Compare ${count} hotels and B&Bs in ${city}. Publish a free stay request on ${BRAND_NAME} and receive personalised direct offers from local properties. No booking commission for travellers.`,
-    );
-  }
   return trimSeoDescription(
-    `Confronta ${count} hotel e B&B a ${city}. Pubblica una richiesta di soggiorno gratuita su ${BRAND_NAME} e ricevi offerte personalizzate dalle strutture. Zero commissioni per chi viaggia.`,
+    buildDestinationSeoLine({ cityName: hub.displayName, structureCount: hub.structureCount }, locale),
   );
 }
 
 export function buildDestinationIntro(hub: DestinationHub, locale: Locale) {
-  if (hub.tier === "premium") {
-    if (locale === "en") {
-      return `Explore ${hub.structureCount} lodgings in ${hub.displayName}. On ${BRAND_NAME} you can compare properties and request tailored offers without browsing dozens of booking sites.`;
-    }
-    return `Esplora ${hub.structureCount} strutture ricettive a ${hub.displayName}. Su ${BRAND_NAME} puoi confrontare hotel, B&B e appartamenti e inviare una richiesta personalizzata per ricevere offerte dirette.`;
-  }
-
-  if (locale === "en") {
-    return `Find ${hub.structureCount} properties in ${hub.displayName} and request a personalized offer on ${BRAND_NAME}.`;
-  }
-  return `Trova ${hub.structureCount} strutture a ${hub.displayName} e richiedi un'offerta personalizzata su ${BRAND_NAME}.`;
+  return buildDestinationSeoLine(
+    { cityName: hub.displayName, structureCount: hub.structureCount },
+    locale,
+  );
 }
 
 function absoluteTitle(title: string): string {

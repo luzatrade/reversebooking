@@ -5,6 +5,7 @@ import { buildDestinationSlug } from "@/lib/seo/city-canonical";
 import { destinationPublicPath, homePath, localizedPath } from "@/lib/i18n/routing";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { buildStructureSeoDescription as buildOnPageDescription } from "@/lib/seo/structure-description";
+import { buildHotelMetaDescription, buildHotelSeoTitle } from "@/lib/seo/structure-seo-copy";
 import { trimSeoDescription, trimSeoTitleSegment } from "@/lib/seo/serp-copy";
 import type { Locale } from "@/lib/i18n/translations";
 import type { StructureSeoRecord } from "@/lib/seo/structure-queries";
@@ -20,40 +21,24 @@ function manualDescription(record: StructureSeoRecord, locale: Locale): string |
 export function buildStructureSeoTitle(record: StructureSeoRecord, locale: Locale = "it"): string {
   const city = record.cityName.trim();
   const name = record.name.trim();
-  const longSuffix =
-    locale === "en" ? " — Direct offers, no commission" : " — Offerte dirette senza commissioni";
-  const shortSuffix = locale === "en" ? " — Direct offers" : " — Offerte dirette";
+  const base = buildHotelSeoTitle({ name, cityName: city }, locale);
+  const maxLength = 72;
+
+  if (base.length <= maxLength) return base;
+
   const joiner = locale === "en" ? " in " : " a ";
-
-  const build = (propertyName: string, suffix: string) => `${propertyName}${joiner}${city}${suffix}`;
-
-  let title = build(name, longSuffix);
-  if (title.length <= 72) return title;
-
-  title = build(name, shortSuffix);
-  if (title.length <= 72) return title;
-
-  const maxNameLength = Math.max(18, 72 - shortSuffix.length - joiner.length - city.length);
+  const shortSuffix = locale === "en" ? " — direct booking" : " — prenotazione diretta";
+  const maxNameLength = Math.max(18, maxLength - shortSuffix.length - joiner.length - city.length - (locale === "en" ? 5 : 8));
   const trimmedName = trimSeoTitleSegment(name, maxNameLength);
-  return build(trimmedName, shortSuffix);
+  const prefix = locale === "en" ? "Book" : "Prenota";
+  return `${prefix} ${trimmedName}${joiner}${city}${shortSuffix}`;
 }
 
 export function buildStructureSeoDescription(record: StructureSeoRecord, locale: Locale = "it"): string {
   const manual = manualDescription(record, locale);
   if (manual) return trimSeoDescription(manual);
 
-  const city = record.cityName;
-  const name = record.name;
-
-  if (locale === "en") {
-    return trimSeoDescription(
-      `Book ${name} in ${city} with HotelsDrop reverse booking: publish a free stay request and get a direct offer from the property. No booking commission for travellers.`,
-    );
-  }
-
-  return trimSeoDescription(
-    `Prenota ${name} a ${city} con il reverse booking HotelsDrop: pubblica una richiesta di soggiorno gratuita e ricevi un'offerta diretta dalla struttura. Nessuna commissione per chi viaggia.`,
-  );
+  return buildHotelMetaDescription({ name: record.name, cityName: record.cityName }, locale);
 }
 
 /** On-page body copy (unchanged behaviour for hotel pages). */
