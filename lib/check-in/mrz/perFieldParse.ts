@@ -66,10 +66,26 @@ export function formatMrzDate(mrzDate: string): string {
 }
 
 function normalizeSex(sex: string | undefined): 'M' | 'F' | 'X' {
-  const s = (sex ?? '').toLowerCase();
-  if (s === 'male' || s === 'm') return 'M';
-  if (s === 'female' || s === 'f') return 'F';
+  const s = (sex ?? '').toUpperCase();
+  if (s === 'M' || s === 'MALE') return 'M';
+  if (s === 'F' || s === 'FEMALE') return 'F';
+  if (s === '<' || s === 'X' || s === '') return 'X';
   return 'X';
+}
+
+/** MRZ nationality field → ISO3 (DEU, ITA, …). */
+export function mrzNationalityToIso3(nat: string, rawMrz = ''): string {
+  const cleaned = nat.replace(/</g, '').trim();
+  const n = normalizeNationality(cleaned.length >= 3 ? cleaned : nat);
+  if (n === 'ITA' || n === 'IT') return 'ITA';
+  if (n === 'DEU' || n === 'D') return 'DEU';
+  if (n === 'FRA' || n === 'F') return 'FRA';
+  if (n === 'PRT' || n === 'P') return 'PRT';
+  const l1 = rawMrz.split('\n')[0] ?? '';
+  if (l1.startsWith('IDD') || l1.includes('IDD<<')) return 'DEU';
+  if (l1.slice(2, 5) === 'ITA' || l1.includes('<ITA')) return 'ITA';
+  if (/^[A-Z]{3}$/.test(n)) return n;
+  return n.length >= 3 ? n.slice(0, 3) : n;
 }
 
 function charValue(c: string): number {
@@ -101,7 +117,7 @@ export function realignLine(line: string, i: LineIndex): string {
   const l = fixOcrLine(line, i);
   const patterns: Record<LineIndex, RegExp> = {
     0: /[PIAC][A-Z<][A-Z]{3}[A-Z0-9<]{9}[0-9]/,
-    1: /\d{6}\d[MFHX<]\d{7}[A-Z]{3}/,
+    1: /\d{6}\d[MFHX<]\d{6}\d[A-Z0-9<]{3}/,
     2: /[A-Z<]{2,}<<[A-Z<]/,
   };
   const m = l.match(patterns[i]);
@@ -215,8 +231,11 @@ export function acceptPerField(
   const doc = r.data.documentNumber.replace(/<+$/, '');
   if (!doc || doc.includes('<') || !/^[A-Z0-9]{6,12}$/.test(doc)) return false;
   if (!r.docOk || !r.birthOk || !r.data.surname || r.data.surname.length < 2) return false;
-  if (!['M', 'F'].includes(r.data.sex)) return false;
-  if (opts.expectItalian) return looksItalianTd1(r);
+  if (opts.expectItalian) {
+    if (!['M', 'F'].includes(r.data.sex)) return false;
+    return looksItalianTd1(r);
+  }
+  if (!['M', 'F', 'X'].includes(r.data.sex)) return false;
   if (opts.allowForeign) return doc.length >= 6;
   return doc.length >= 6;
 }
@@ -368,7 +387,7 @@ export function toMrzExtractedData(
     documentNumber: picked.data.documentNumber,
     surname: picked.data.surname,
     givenNames: picked.data.givenNames,
-    nationality: picked.data.nationality,
+    nationality: mrzNationalityToIso3(picked.data.nationality, picked.data.rawMrz),
     birthDate: picked.data.birthDate,
     sex: picked.data.sex as 'M' | 'F' | 'X',
     documentType,

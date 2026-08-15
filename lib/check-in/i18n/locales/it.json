@@ -73,6 +73,7 @@
     "givenNames": "Nome",
     "birthDate": "Data di nascita",
     "sex": "Sesso",
+    "sexSelect": "Seleziona…",
     "sexM": "Maschio",
     "sexF": "Femmina",
     "birthCountry": "Stato di nascita",

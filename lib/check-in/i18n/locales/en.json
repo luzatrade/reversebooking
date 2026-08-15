@@ -73,6 +73,7 @@
     "givenNames": "Given names",
     "birthDate": "Date of birth",
     "sex": "Sex",
+    "sexSelect": "Select…",
     "sexM": "Male",
     "sexF": "Female",
     "birthCountry": "Country of birth",

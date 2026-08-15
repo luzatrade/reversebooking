@@ -33,13 +33,15 @@ function documentTypeFromMrz(documentType?: string): string {
 
 function buildFormState(initialData?: Partial<MrzExtractedData>) {
   const today = new Date().toISOString().slice(0, 10);
+  const sexFromMrz =
+    initialData?.sex === 'F' ? 'F' : initialData?.sex === 'M' ? 'M' : ('' as '' | 'M' | 'F');
   return {
     guestType: 'single' as GuestType,
     arrivalDate: today,
     stayDays: 1,
     surname: initialData?.surname ?? '',
     givenNames: initialData?.givenNames ?? '',
-    sex: (initialData?.sex === 'F' ? 'F' : initialData?.sex === 'M' ? 'M' : 'M') as 'M' | 'F',
+    sex: sexFromMrz,
     birthDate: initialData?.birthDate ?? '',
     birthMunicipalityCode: '',
     birthProvinceCode: '',
@@ -47,7 +49,7 @@ function buildFormState(initialData?: Partial<MrzExtractedData>) {
     citizenshipCode: '',
     documentTypeCode: documentTypeFromMrz(initialData?.documentType),
     documentNumber: initialData?.documentNumber ?? '',
-    documentIssuePlaceCode: ITALY_CODE,
+    documentIssuePlaceCode: '',
   };
 }
 
@@ -156,7 +158,8 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    onSubmit(form);
+    if (form.sex !== 'M' && form.sex !== 'F') return;
+    onSubmit({ ...form, sex: form.sex });
   }
 
   return (
@@ -210,7 +213,12 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
         {initialData?.reviewFields?.includes('sex') && (
           <span className={styles.reviewTag}>{t('form.reviewFieldHint')}</span>
         )}
-        <select value={form.sex} onChange={(e) => handleChange('sex', e.target.value)}>
+        <select
+          required
+          value={form.sex}
+          onChange={(e) => handleChange('sex', e.target.value)}
+        >
+          <option value="">{t('form.sexSelect')}</option>
           <option value="M">{t('form.sexM')}</option>
           <option value="F">{t('form.sexF')}</option>
         </select>

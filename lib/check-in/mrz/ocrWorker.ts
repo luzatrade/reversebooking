@@ -31,7 +31,7 @@ const OCR_OPTS = {
   corePath: '/tesseract/',
   langPath: '/model/',
   gzip: true,
-  cachePath: 'hotelsdrop-mrz-v8',
+  cachePath: 'hotelsdrop-mrz-v9',
   cacheMethod: 'write' as const,
 };
 
@@ -282,22 +282,31 @@ async function extractWithEngineG(
   worker: Worker,
   orientation: 'portrait' | 'landscape',
 ): Promise<MrzExtractedData | null> {
-  let result = await runEngineG(canvas, worker, {
-    deskew: true,
-    expectItalian: orientation === 'portrait',
-  });
+  const run = (opts: Parameters<typeof runEngineG>[2]) => runEngineG(canvas, worker, { deskew: true, ...opts });
 
-  if (!result && orientation === 'landscape') {
-    result = await runEngineG(canvas, worker, {
-      deskew: true,
-      formatHint: 'TD3',
-      expectItalian: false,
-    });
-  }
-
-  if (result) {
-    lastOcrDebug = getEngineGDebug();
-    return result;
+  // Portrait: prima CIE italiana, poi documenti esteri TD1 (es. carta tedesca)
+  if (orientation === 'portrait') {
+    const italian = await run({ expectItalian: true });
+    if (italian) {
+      lastOcrDebug = getEngineGDebug();
+      return italian;
+    }
+    const foreign = await run({ expectItalian: false });
+    if (foreign) {
+      lastOcrDebug = getEngineGDebug();
+      return foreign;
+    }
+  } else {
+    const td1 = await run({ expectItalian: false });
+    if (td1) {
+      lastOcrDebug = getEngineGDebug();
+      return td1;
+    }
+    const td3 = await run({ formatHint: 'TD3', expectItalian: false });
+    if (td3) {
+      lastOcrDebug = getEngineGDebug();
+      return td3;
+    }
   }
 
   lastOcrDebug = getEngineGDebug() || 'Engine G: nessun risultato';
