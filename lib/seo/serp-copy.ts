@@ -19,3 +19,12 @@ export function trimSeoTitleSegment(value: string, max: number): string {
   if (lastSpace > max * 0.6) return `${slice.slice(0, lastSpace).trim()}…`;
   return `${slice.trim()}…`;
 }
+
+/** Prefer the first candidate that fits without truncation. */
+export function pickFirstSeoDescription(candidates: string[], max = 160): string {
+  for (const candidate of candidates) {
+    const normalized = normalizeSeoText(candidate);
+    if (normalized.length <= max) return normalized;
+  }
+  return trimSeoDescription(candidates[0] ?? "", max);
+}

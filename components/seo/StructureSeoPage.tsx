@@ -16,7 +16,8 @@ import {
 } from "@/lib/hotels/publicContactLinks";
 import { buildDestinationSlug } from "@/lib/seo/city-canonical";
 import { destinationPublicPath, localizedPath } from "@/lib/i18n/routing";
-import { buildStructureSeoDescription as generateStructureDescription } from "@/lib/seo/structure-description";
+import { buildStructurePageParagraphs } from "@/lib/seo/structure-description";
+import { buildStructureGeoSubtitle } from "@/lib/seo/geo-context";
 import { fetchDestinationHubBySlug, fetchDestinationStructures } from "@/lib/seo/destination-queries";
 import { getHotelFaq, getMarketingLabels } from "@/lib/i18n/seo-marketing";
 import { buildFaqPageJsonLd } from "@/lib/seo/faq-jsonld";
@@ -58,7 +59,8 @@ export async function StructureSeoPage({ record }: Props) {
     howItWorks: t.hotel.reverseBookingHowItWorks,
   };
 
-  const seoDescription = generateStructureDescription(record, locale);
+  const seoParagraphs = buildStructurePageParagraphs(record, locale);
+  const geoSubtitle = buildStructureGeoSubtitle(record.cityName, record.countryName, locale);
   const pageUrl = canonicalUrl(localizedPath(locale, `/hotel/${record.slug}`));
 
   return (
@@ -102,6 +104,9 @@ export async function StructureSeoPage({ record }: Props) {
               <p className="mt-2 text-zinc-600 dark:text-zinc-400">
                 {kindLabel} · {record.cityName}, {record.countryName}
               </p>
+              {geoSubtitle ? (
+                <p className="mt-1 text-sm font-medium text-[#0f4c81]">{geoSubtitle}</p>
+              ) : null}
               <p className="mt-1 text-sm text-zinc-500">{addressLine}</p>
 
               <HotelReverseBookingCta
@@ -112,7 +117,11 @@ export async function StructureSeoPage({ record }: Props) {
                 className="mt-5 lg:hidden"
               />
 
-              <p className="mt-5 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300 sm:mt-6">{seoDescription}</p>
+              <div className="mt-5 space-y-3 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300 sm:mt-6">
+                {seoParagraphs.map((paragraph) => (
+                  <p key={paragraph.slice(0, 48)}>{paragraph}</p>
+                ))}
+              </div>
 
               {isOnboarding && !isClaimed && !isPendingVerification ? (
                 <div className="mt-5 rounded-2xl border border-amber-200 bg-amber-50 p-4 dark:border-amber-900/40 dark:bg-amber-950/30">

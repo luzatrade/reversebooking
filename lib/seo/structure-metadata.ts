@@ -4,8 +4,9 @@ import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib
 import { buildDestinationSlug } from "@/lib/seo/city-canonical";
 import { destinationPublicPath, homePath, localizedPath } from "@/lib/i18n/routing";
 import { canonicalUrl } from "@/lib/seo/canonical";
-import { buildStructureSeoDescription as buildOnPageDescription } from "@/lib/seo/structure-description";
-import { trimSeoDescription, trimSeoTitleSegment } from "@/lib/seo/serp-copy";
+import { buildStructurePageParagraphs, buildStructureMetaDescriptionCandidates } from "@/lib/seo/structure-description";
+import { resolveGeoContext } from "@/lib/seo/geo-context";
+import { pickFirstSeoDescription, trimSeoDescription, trimSeoTitleSegment } from "@/lib/seo/serp-copy";
 import type { Locale } from "@/lib/i18n/translations";
 import type { StructureSeoRecord } from "@/lib/seo/structure-queries";
 
@@ -42,23 +43,12 @@ export function buildStructureSeoDescription(record: StructureSeoRecord, locale:
   const manual = manualDescription(record, locale);
   if (manual) return trimSeoDescription(manual);
 
-  const city = record.cityName;
-  const name = record.name;
-
-  if (locale === "en") {
-    return trimSeoDescription(
-      `Book ${name} in ${city} with HotelsDrop reverse booking: publish a free stay request and get a direct offer from the property. No booking commission for travellers.`,
-    );
-  }
-
-  return trimSeoDescription(
-    `Prenota ${name} a ${city} con il reverse booking HotelsDrop: pubblica una richiesta di soggiorno gratuita e ricevi un'offerta diretta dalla struttura. Nessuna commissione per chi viaggia.`,
-  );
+  return pickFirstSeoDescription(buildStructureMetaDescriptionCandidates(record, locale));
 }
 
-/** On-page body copy (unchanged behaviour for hotel pages). */
-export function buildStructurePageDescription(record: StructureSeoRecord, locale: Locale = "it"): string {
-  return buildOnPageDescription(record, locale);
+/** On-page body copy paragraphs. */
+export function buildStructurePageDescription(record: StructureSeoRecord, locale: Locale = "it"): string[] {
+  return buildStructurePageParagraphs(record, locale);
 }
 
 function countryIsoCode(countryName: string) {
@@ -109,20 +99,30 @@ export function buildStructureJsonLd(record: StructureSeoRecord, pageUrl: string
   const images = [record.mainPhotoUrl, ...record.galleryPhotoUrls].filter(Boolean);
   const address = record.address || record.cityName;
   const citySlug = buildDestinationSlug(record.cityName);
+  const geo = resolveGeoContext(record.cityName, record.countryName);
 
   const hotelNode: Record<string, unknown> = {
     "@type": lodgingSchemaType(record),
     "@id": `${pageUrl}#hotel`,
     name: record.name,
     url: pageUrl,
-    description: buildStructureSeoDescription(record, locale),
+    description: buildStructurePageParagraphs(record, locale).join(" "),
     ...(images.length ? { image: images } : {}),
     address: {
       "@type": "PostalAddress",
       streetAddress: address,
       addressLocality: record.cityName,
       addressCountry: countryIsoCode(record.countryName),
+      ...(geo ? { addressRegion: geo.regionName } : {}),
     },
+    ...(geo
+      ? {
+          areaServed: {
+            "@type": "AdministrativeArea",
+            name: geo.regionName,
+          },
+        }
+      : {}),
     ...(record.phone ? { telephone: record.phone } : {}),
     ...(record.email ? { email: record.email } : {}),
   };
