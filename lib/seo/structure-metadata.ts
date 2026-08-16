@@ -24,9 +24,11 @@ export function buildStructureSeoTitle(record: StructureSeoRecord, locale: Local
   const longSuffix =
     locale === "en" ? " — Direct offers, no commission" : " — Offerte dirette senza commissioni";
   const shortSuffix = locale === "en" ? " — Direct offers" : " — Offerte dirette";
-  const joiner = locale === "en" ? " in " : " a ";
+  const booking = locale === "en" ? "BOOKING" : "BOOKING";
+  const joiner = locale === "en" ? " in " : " ";
 
-  const build = (propertyName: string, suffix: string) => `${propertyName}${joiner}${city}${suffix}`;
+  const build = (propertyName: string, suffix: string) =>
+    `${propertyName} ${booking}${joiner}${city}${suffix}`;
 
   let title = build(name, longSuffix);
   if (title.length <= 72) return title;
@@ -34,7 +36,7 @@ export function buildStructureSeoTitle(record: StructureSeoRecord, locale: Local
   title = build(name, shortSuffix);
   if (title.length <= 72) return title;
 
-  const maxNameLength = Math.max(18, 72 - shortSuffix.length - joiner.length - city.length);
+  const maxNameLength = Math.max(18, 72 - shortSuffix.length - joiner.length - booking.length - 1 - city.length);
   const trimmedName = trimSeoTitleSegment(name, maxNameLength);
   return build(trimmedName, shortSuffix);
 }

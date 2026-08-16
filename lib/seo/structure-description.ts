@@ -19,6 +19,7 @@ function structureKindLabel(
   const mapIt: Record<string, string> = {
     hotel: "hotel",
     bnb: "B&B",
+    bed_and_breakfast: "B&B",
     apartment: "appartamento",
     agriturismo: "agriturismo",
     resort: "resort",
@@ -26,12 +27,18 @@ function structureKindLabel(
   const mapEn: Record<string, string> = {
     hotel: "hotel",
     bnb: "B&B",
+    bed_and_breakfast: "B&B",
     apartment: "apartment",
     agriturismo: "farm stay",
     resort: "resort",
   };
   const table = locale === "en" ? mapEn : mapIt;
   return table[type] ?? (locale === "en" ? "property" : "struttura");
+}
+
+function italianLocatedPhrase(kind: string): string {
+  if (kind === "struttura ricettiva") return "situata";
+  return "situato";
 }
 
 function hashVariant(seed: string, count: number): number {
@@ -58,14 +65,14 @@ function buildItalianParagraphs(record: DescriptionInput): string[] {
   const cityContext = getCitySeoContext(cityName);
   const variant = hashVariant(`${name}|${cityName}`, 3);
 
-  let intro = `${name} è un ${kind} ${inCity}`;
+  let intro = `${name} è un ${kind} ${italianLocatedPhrase(kind)} ${inCity}`;
   if (geo) {
-    intro += `, in provincia di ${geo.provinceName} (${geo.regionName}), nel ${geo.macroAreaIt}. ${cityName} si trova in ${geo.regionName}, nel ${geo.macroAreaIt}.`;
+    intro += `, in ${geo.regionName}, nel ${geo.macroAreaIt}.`;
   } else {
     intro += `, ${countryName}.`;
   }
   if (cityContext) {
-    intro += ` Soluzione ideale per visitare ${cityContext.phraseIt}.`;
+    intro += ` Punto comodo per visitare ${cityContext.phraseIt}.`;
   }
 
   const transactional = [
@@ -91,7 +98,7 @@ function buildEnglishParagraphs(record: DescriptionInput): string[] {
 
   let intro = `${name} is a ${kind} in ${cityName}`;
   if (geo) {
-    intro += `, ${geo.regionName}, ${geo.macroAreaEn}. ${cityName} is located in ${geo.regionName}, in ${geo.macroAreaEn}.`;
+    intro += `, ${geo.regionName}, ${geo.macroAreaEn}.`;
   } else {
     intro += `, ${countryName}.`;
   }
