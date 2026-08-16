@@ -68,6 +68,10 @@ const nextConfig: NextConfig = {
       { source: "/register", destination: "/registrazione", permanent: true },
       { source: "/vetrina", destination: "/", permanent: true },
       { source: "/vetrina/:path*", destination: "/", permanent: true },
+      { source: "/en/destinazioni", destination: "/en/destinations", permanent: true },
+      { source: "/en/destinazioni/:slug", destination: "/en/destinations/:slug", permanent: true },
+      { source: "/it/destinations", destination: "/it/destinazioni", permanent: true },
+      { source: "/it/destinations/:slug", destination: "/it/destinazioni/:slug", permanent: true },
       {
         source: "/",
         has: [{ type: "host", value: apexHost }],

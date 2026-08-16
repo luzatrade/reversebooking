@@ -1,13 +1,19 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { RegisterForm } from "@/components/auth/RegisterForm";
-import { getServerTranslations } from "@/lib/i18n/get-translations";
+import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
+import { localizedPath } from "@/lib/i18n/routing";
+import { canonicalUrl } from "@/lib/seo/canonical";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getServerTranslations();
+  const locale = await getServerLocale();
   return {
     title: t.metadata.registrationTitle,
     description: t.metadata.registrationDescription,
+    alternates: {
+      canonical: canonicalUrl(localizedPath(locale, "/registrazione")),
+    },
     robots: { index: false, follow: true },
   };
 }
