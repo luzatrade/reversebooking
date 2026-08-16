@@ -1,163 +1,267 @@
 {
   "_comment": "Solo POI verificati. Se una città non è elencata, i template SEO omettono i luoghi d'interesse.",
   "Roma": {
-    "phraseIt": "Colosseo, Trastevere e Piazza di Spagna",
-    "phraseEn": "the Colosseum, Trastevere and the Spanish Steps"
+    "phraseIt": "Colosseo, Foro Romano, Vaticano e Basilica di San Pietro, Trastevere, Piazza di Spagna, Fontana di Trevi, Pantheon e Piazza Navona",
+    "phraseEn": "the Colosseum, Roman Forum, Vatican and St Peter's Basilica, Trastevere, the Spanish Steps, Trevi Fountain, the Pantheon and Piazza Navona"
   },
   "Milano": {
-    "phraseIt": "Duomo, Navigli e Galleria Vittorio Emanuele II",
-    "phraseEn": "the Duomo, Navigli and Galleria Vittorio Emanuele II"
+    "phraseIt": "Duomo, Galleria Vittorio Emanuele II, Teatro alla Scala, Navigli, Castello Sforzesco, Brera, Cenacolo Vinciano e Parco Sempione",
+    "phraseEn": "the Duomo, Galleria Vittorio Emanuele II, La Scala, Navigli, Sforza Castle, Brera, the Last Supper and Sempione Park"
   },
   "Napoli": {
-    "phraseIt": "Spaccanapoli, Piazza del Plebiscito e Castel dell'Ovo",
-    "phraseEn": "Spaccanapoli, Piazza del Plebiscito and Castel dell'Ovo"
+    "phraseIt": "Spaccanapoli, Piazza del Plebiscito, Castel dell'Ovo, Museo Archeologico Nazionale, Certosa di San Martino, lungomare Caracciolo e quartieri di Chiaia e Vomero",
+    "phraseEn": "Spaccanapoli, Piazza del Plebiscito, Castel dell'Ovo, the National Archaeological Museum, Certosa di San Martino, Caracciolo seafront and the Chiaia and Vomero districts"
   },
   "Firenze": {
-    "phraseIt": "Duomo, Ponte Vecchio e Piazza della Signoria",
-    "phraseEn": "the Duomo, Ponte Vecchio and Piazza della Signoria"
+    "phraseIt": "Duomo e Cupola del Brunelleschi, Galleria degli Uffizi, Ponte Vecchio, Piazza della Signoria, Palazzo Pitti, Boboli e Basilica di Santa Croce",
+    "phraseEn": "the Duomo and Brunelleschi's Dome, the Uffizi Gallery, Ponte Vecchio, Piazza della Signoria, Pitti Palace, Boboli Gardens and Basilica of Santa Croce"
   },
   "Venezia": {
-    "phraseIt": "Piazza San Marco, Ponte di Rialto e Murano",
-    "phraseEn": "St Mark's Square, the Rialto Bridge and Murano"
+    "phraseIt": "Piazza San Marco e Basilica, Palazzo Ducale, Ponte di Rialto, Canal Grande, Murano, Burano, Gallerie dell'Accademia e Ponte dei Sospiri",
+    "phraseEn": "St Mark's Square and Basilica, Doge's Palace, Rialto Bridge, Grand Canal, Murano, Burano, Accademia Galleries and Bridge of Sighs"
   },
   "Torino": {
-    "phraseIt": "Mole Antonelliana, Piazza Castello e Museo Egizio",
-    "phraseEn": "Mole Antonelliana, Piazza Castello and the Egyptian Museum"
+    "phraseIt": "Mole Antonelliana, Museo del Cinema, Piazza Castello, Palazzo Reale, Museo Egizio, Parco del Valentino, Basilica di Superga e Quadrilatero Romano",
+    "phraseEn": "Mole Antonelliana, Cinema Museum, Piazza Castello, Royal Palace, Egyptian Museum, Valentino Park, Superga Basilica and the Roman Quarter"
   },
   "Bologna": {
-    "phraseIt": "Piazza Maggiore, le Due Torri e le portici del centro",
-    "phraseEn": "Piazza Maggiore, the Two Towers and the historic porticoes"
+    "phraseIt": "Piazza Maggiore, le Due Torri, Basilica di San Petronio, portici del centro, Archiginnasio, Mercato di Mezzo, Santuario di San Luca e Museo Civico Archeologico",
+    "phraseEn": "Piazza Maggiore, the Two Towers, Basilica of San Petronio, historic porticoes, Archiginnasio, Mercato di Mezzo, Sanctuary of San Luca and the Archaeological Museum"
   },
   "Palermo": {
-    "phraseIt": "Cattedrale, Quattro Canti e Teatro Massimo",
-    "phraseEn": "the Cathedral, Quattro Canti and Teatro Massimo"
+    "phraseIt": "Cattedrale, Quattro Canti, Teatro Massimo, Palazzo dei Normanni e Cappella Palatina, mercati storici, Monte Pellegrino, Mondello e Cattedrale di Monreale",
+    "phraseEn": "the Cathedral, Quattro Canti, Teatro Massimo, Palazzo dei Normanni and Palatine Chapel, historic markets, Monte Pellegrino, Mondello and Monreale Cathedral"
   },
   "Genova": {
-    "phraseIt": "Porto Antico, Acquario di Genova e caruggi del centro storico",
-    "phraseEn": "Porto Antico, the Aquarium and the historic caruggi"
+    "phraseIt": "Porto Antico, Acquario di Genova, caruggi del centro storico, Palazzo Ducale, Via Garibaldi e Rolli, Boccadasse, Lanterna e Galata Museo del Mare",
+    "phraseEn": "Porto Antico, the Aquarium, historic caruggi, Palazzo Ducale, Via Garibaldi and the Rolli palaces, Boccadasse, the Lantern and Galata Sea Museum"
   },
   "Bari": {
-    "phraseIt": "Basilica di San Nicola e Bari Vecchia",
-    "phraseEn": "Basilica of San Nicola and Bari Vecchia"
+    "phraseIt": "Basilica di San Nicola, Bari Vecchia, lungomare Nazario Sauro, Cattedrale di San Sabino, Teatro Petruzzelli, Castello Normanno-Svevo e Murattiano",
+    "phraseEn": "Basilica of San Nicola, Bari Vecchia, Nazario Sauro seafront, San Sabino Cathedral, Teatro Petruzzelli, Norman-Swabian Castle and the Murattiano district"
   },
   "Catania": {
-    "phraseIt": "Piazza del Duomo, Via Etnea e l'Etna",
-    "phraseEn": "Piazza del Duomo, Via Etnea and Mount Etna"
+    "phraseIt": "Piazza del Duomo, Via Etnea, Pescheria, Castello Ursino, Teatro Romano, Villa Bellini, Etna e baroque del centro storico",
+    "phraseEn": "Piazza del Duomo, Via Etnea, the fish market, Castello Ursino, Roman Theatre, Villa Bellini, Mount Etna and the baroque historic centre"
   },
   "Verona": {
-    "phraseIt": "Arena di Verona, Piazza delle Erbe e Ponte Pietra",
-    "phraseEn": "Verona Arena, Piazza delle Erbe and Ponte Pietra"
+    "phraseIt": "Arena di Verona, Piazza delle Erbe, Casa di Giulietta, Ponte Pietra, Castelvecchio, Basilica di San Zeno, Ponte Scaligero e Adige",
+    "phraseEn": "Verona Arena, Piazza delle Erbe, Juliet's House, Ponte Pietra, Castelvecchio, Basilica of San Zeno, Scaliger Bridge and the Adige river"
   },
   "Rimini": {
-    "phraseIt": "Ponte di Tiberio, Borgo San Giuliano e Riviera romagnola",
-    "phraseEn": "Tiberius Bridge, Borgo San Giuliano and the Romagna Riviera"
+    "phraseIt": "Ponte di Tiberio, Arco d'Augusto, Tempio Malatestiano, Borgo San Giuliano, Marina Centro, Riviera romagnola e Fellini Museum",
+    "phraseEn": "Tiberius Bridge, Arch of Augustus, Tempio Malatestiano, Borgo San Giuliano, Marina Centro, the Romagna Riviera and Fellini Museum"
   },
   "Siena": {
-    "phraseIt": "Piazza del Campo e Duomo di Siena",
-    "phraseEn": "Piazza del Campo and Siena Cathedral"
+    "phraseIt": "Piazza del Campo, Palazzo Pubblico, Torre del Mangia, Duomo di Siena, Facciatone, Basilica di San Domenico, Contrada dell'Oca e Palio",
+    "phraseEn": "Piazza del Campo, Palazzo Pubblico, Torre del Mangia, Siena Cathedral, Facciatone, Basilica of San Domenico, Contrada dell'Oca and the Palio"
   },
   "Taormina": {
-    "phraseIt": "Teatro Antico di Taormina, Isola Bella e Corso Umberto",
-    "phraseEn": "the Ancient Theatre of Taormina, Isola Bella and Corso Umberto"
+    "phraseIt": "Teatro Antico di Taormina, Isola Bella, Corso Umberto, Piazza IX Aprile, Giardini della Villa Comunale, Castelmola e Etna",
+    "phraseEn": "the Ancient Theatre of Taormina, Isola Bella, Corso Umberto, Piazza IX Aprile, public gardens, Castelmola and Mount Etna"
   },
   "Como": {
-    "phraseIt": "Lago di Como, Duomo e funicolare Brunate",
-    "phraseEn": "Lake Como, the Cathedral and the Brunate funicular"
+    "phraseIt": "Lago di Como, Duomo, funicolare Brunate, Villa Olmo, Tempio Voltiano, Broletto, lungolago e borghi como Brunate",
+    "phraseEn": "Lake Como, the Cathedral, Brunate funicular, Villa Olmo, Tempio Voltiano, Broletto, the lakeside promenade and Brunate village"
   },
   "Padova": {
-    "phraseIt": "Basilica di Sant'Antonio, Prato della Valle e Cappella degli Scrovegni",
-    "phraseEn": "Basilica of St Anthony, Prato della Valle and Scrovegni Chapel"
+    "phraseIt": "Basilica di Sant'Antonio, Prato della Valle, Cappella degli Scrovegni, Palazzo della Ragione, Orto Botanico, Caffè Pedrocchi e Battistero del Duomo",
+    "phraseEn": "Basilica of St Anthony, Prato della Valle, Scrovegni Chapel, Palazzo della Ragione, Botanical Garden, Caffè Pedrocchi and the Baptistery"
   },
   "Trieste": {
-    "phraseIt": "Piazza Unità d'Italia, Castello di San Giusto e Molo Audace",
-    "phraseEn": "Piazza Unità d'Italia, San Giusto Castle and Molo Audace"
+    "phraseIt": "Piazza Unità d'Italia, Castello di San Giusto, Molo Audace, Canal Grande, Miramare, Caffè San Marco, Risiera di San Sabba e Carso",
+    "phraseEn": "Piazza Unità d'Italia, San Giusto Castle, Molo Audace, Grand Canal, Miramare, Caffè San Marco, Risiera di San Sabba and the Karst"
   },
   "Bergamo": {
-    "phraseIt": "Città Alta, Piazza Vecchia e Duomo di Bergamo",
-    "phraseEn": "Città Alta, Piazza Vecchia and Bergamo Cathedral"
+    "phraseIt": "Città Alta, Piazza Vecchia, Duomo di Bergamo, Basilica di Santa Maria Maggiore, Rocca, funicolare, Accademia Carrara e Città Bassa",
+    "phraseEn": "Città Alta, Piazza Vecchia, Bergamo Cathedral, Basilica of Santa Maria Maggiore, the Rocca, funicular, Accademia Carrara and Città Bassa"
   },
   "Salerno": {
-    "phraseIt": "Lungomare Trieste, Duomo di Salerno e Luci d'Artista",
-    "phraseEn": "Lungomare Trieste, Salerno Cathedral and the seafront"
+    "phraseIt": "Lungomare Trieste, Duomo di Salerno, Giardino della Minerva, Luci d'Artista, Castello di Arechi, centro storico e Costiera Amalfitana",
+    "phraseEn": "Lungomare Trieste, Salerno Cathedral, Giardino della Minerva, Luci d'Artista, Arechi Castle, the historic centre and the Amalfi Coast"
   },
   "Lecce": {
-    "phraseIt": "Piazza del Duomo, centro barocco e Basilica di Santa Croce",
-    "phraseEn": "Piazza del Duomo, the baroque centre and Basilica of Santa Croce"
+    "phraseIt": "Piazza del Duomo, Basilica di Santa Croce, centro barocco, Anfiteatro Romano, Porta Napoli, Castello Carlo V, Otranto e Salento",
+    "phraseEn": "Piazza del Duomo, Basilica of Santa Croce, the baroque centre, Roman Amphitheatre, Porta Napoli, Castello Carlo V, Otranto and Salento"
   },
   "Siracusa": {
-    "phraseIt": "Ortigia, Duomo e Teatro Greco",
-    "phraseEn": "Ortigia, the Cathedral and the Greek Theatre"
+    "phraseIt": "Ortigia, Duomo, Teatro Greco, Ear of Dionysius, Castello Maniace, Neapolis Archaeological Park, Fonte Aretusa e Museo Paolo Orsi",
+    "phraseEn": "Ortigia, the Cathedral, Greek Theatre, Ear of Dionysius, Castello Maniace, Neapolis Archaeological Park, Fonte Aretusa and Paolo Orsi Museum"
   },
   "Perugia": {
-    "phraseIt": "Rocca Paolina, Piazza IV Novembre e centro storico",
-    "phraseEn": "Rocca Paolina, Piazza IV Novembre and the historic centre"
+    "phraseIt": "Rocca Paolina, Piazza IV Novembre, Fontana Maggiore, Palazzo dei Priori, Galleria Nazionale dell'Umbria, Acquedotto e centro storico",
+    "phraseEn": "Rocca Paolina, Piazza IV Novembre, Fontana Maggiore, Palazzo dei Priori, National Gallery of Umbria, aqueduct and the historic centre"
   },
   "Bolzano": {
-    "phraseIt": "Piazza Walther, Duomo e Museo Archeologico dell'Alto Adige",
-    "phraseEn": "Walther Square, the Cathedral and the South Tyrol Museum of Archaeology"
+    "phraseIt": "Piazza Walther, Duomo, Museo Archeologico dell'Alto Adige con Ötzi, Castel Roncolo, Mercatini di Natale, Renon e Dolomiti",
+    "phraseEn": "Walther Square, the Cathedral, South Tyrol Museum of Archaeology with Ötzi, Roncolo Castle, Christmas markets, Renon and the Dolomites"
   },
   "Parma": {
-    "phraseIt": "Duomo, Battistero e Teatro Regio",
-    "phraseEn": "the Cathedral, Baptistery and Teatro Regio"
+    "phraseIt": "Duomo e Battistero, Teatro Regio, Palazzo della Pilotta, Galleria Nazionale, Parco Ducale, prodotti DOP e centro storico",
+    "phraseEn": "the Cathedral and Baptistery, Teatro Regio, Palazzo della Pilotta, National Gallery, Ducal Park, DOP specialities and the historic centre"
   },
   "Pisa": {
-    "phraseIt": "Piazza dei Miracoli e Torre di Pisa",
-    "phraseEn": "Piazza dei Miracoli and the Leaning Tower"
+    "phraseIt": "Piazza dei Miracoli, Torre di Pisa, Duomo, Battistero, Camposanto, Lungarno, Palazzo Blu e Orto botanico",
+    "phraseEn": "Piazza dei Miracoli, the Leaning Tower, Cathedral, Baptistery, Camposanto, Lungarno, Palazzo Blu and the botanical garden"
   },
   "Amalfi": {
-    "phraseIt": "Duomo di Amalfi, Costiera Amalfitana e Atrani",
-    "phraseEn": "Amalfi Cathedral, the Amalfi Coast and Atrani"
+    "phraseIt": "Duomo di Amalfi, Chiostro del Paradiso, Valle dei Mulini, Marina Grande, Sentiero dei Limoni, Atrani e Costiera Amalfitana",
+    "phraseEn": "Amalfi Cathedral, Chiostro del Paradiso, Valle dei Mulini, Marina Grande, Sentiero dei Limoni, Atrani and the Amalfi Coast"
   },
   "Sorrento": {
-    "phraseIt": "Piazza Tasso, Marina Grande e Penisola Sorrentina",
-    "phraseEn": "Piazza Tasso, Marina Grande and the Sorrento Peninsula"
+    "phraseIt": "Piazza Tasso, Marina Grande, Marina Piccola, Villa Comunale, Punta del Capo, Vallone dei Mulini, Penisola Sorrentina e Capri",
+    "phraseEn": "Piazza Tasso, Marina Grande, Marina Piccola, public gardens, Punta del Capo, Vallone dei Mulini, the Sorrento Peninsula and Capri"
   },
   "Positano": {
-    "phraseIt": "Spiaggia Grande, sentiero degli Dei e costiera amalfitana",
-    "phraseEn": "Spiaggia Grande, the Path of the Gods and the Amalfi Coast"
+    "phraseIt": "Spiaggia Grande, Chiesa di Santa Maria Assunta, sentiero degli Dei, Fornillo, Li Galli, costiera amalfitana e Path of the Gods",
+    "phraseEn": "Spiaggia Grande, Church of Santa Maria Assunta, Path of the Gods, Fornillo, Li Galli, the Amalfi Coast and coastal trails"
   },
   "Capri": {
-    "phraseIt": "Piazzetta, Faraglioni e Giardini di Augusto",
-    "phraseEn": "Piazzetta, the Faraglioni and the Gardens of Augustus"
+    "phraseIt": "Piazzetta, Faraglioni, Giardini di Augusto, Villa San Michele, Grotta Azzurra, Monte Solaro, Anacapri e sentieri panoramici",
+    "phraseEn": "Piazzetta, the Faraglioni, Gardens of Augustus, Villa San Michele, Blue Grotto, Monte Solaro, Anacapri and scenic trails"
   },
   "Matera": {
-    "phraseIt": "Sassi di Matera, Parco della Murgia e cripta del Peccato Originale",
-    "phraseEn": "the Sassi, Murgia Park and the Crypt of Original Sin"
+    "phraseIt": "Sassi di Matera, Parco della Murgia, cripta del Peccato Originale, Casa Grotta, Palombaro Lungo, MUSMA e chiese rupestri",
+    "phraseEn": "the Sassi, Murgia Park, Crypt of Original Sin, cave house, Palombaro Lungo, MUSMA and rock churches"
   },
   "Agerola": {
-    "phraseIt": "Sentiero degli Dei, Amalfi e borghi di San Lazzaro e Pianillo",
-    "phraseEn": "the Path of the Gods, Amalfi and the hamlets of San Lazzaro and Pianillo"
+    "phraseIt": "Sentiero degli Dei, Amalfi, Positano, borghi di San Lazzaro e Pianillo, Valle delle Ferriere e panorami sulla costiera",
+    "phraseEn": "the Path of the Gods, Amalfi, Positano, hamlets of San Lazzaro and Pianillo, Valle delle Ferriere and Amalfi Coast views"
   },
   "Pistoia": {
-    "phraseIt": "Piazza del Duomo, Ospedale del Ceppo e centro storico",
-    "phraseEn": "Piazza del Duomo, Ospedale del Ceppo and the historic centre"
+    "phraseIt": "Piazza del Duomo, Ospedale del Ceppo, Battistero, Palazzo Comunale, Zoo di Pistoia, Montecatini Terme e centro storico",
+    "phraseEn": "Piazza del Duomo, Ospedale del Ceppo, Baptistery, Town Hall, Pistoia Zoo, Montecatini Terme and the historic centre"
   },
   "Prato": {
-    "phraseIt": "Duomo di Prato, Castello dell'Imperatore e centro storico",
-    "phraseEn": "Prato Cathedral, Emperor's Castle and the historic centre"
+    "phraseIt": "Duomo di Prato, Castello dell'Imperatore, Museo di Palazzo Pretorio, centro storico, Cavalciotto e produzione tessile",
+    "phraseEn": "Prato Cathedral, Emperor's Castle, Palazzo Pretorio Museum, historic centre, Cavalciotto and textile heritage"
   },
   "Aggius": {
-    "phraseIt": "Valle della Luna, centro storico di Aggius e Museo del Banditismo",
-    "phraseEn": "Valle della Luna, Aggius historic centre and the Museum of Banditry"
+    "phraseIt": "Valle della Luna, centro storico di Aggius, Museo del Banditismo, chiese di Santa Vittoria e chiesa di San Giacomo, Gallura e Nuraghe Izzana",
+    "phraseEn": "Valle della Luna, Aggius historic centre, Museum of Banditry, Santa Vittoria and San Giacomo churches, Gallura and Nuraghe Izzana"
   },
   "Agira": {
-    "phraseIt": "centro storico di Agira, Lago di Pergusa e Villa Romana del Casale",
-    "phraseEn": "Agira historic centre, Lake Pergusa and Villa Romana del Casale"
+    "phraseIt": "centro storico di Agira, Lago di Pergusa, Castello di Lombardia, chiesa di San Filippo, Villa Romana del Casale e Enna",
+    "phraseEn": "Agira historic centre, Lake Pergusa, Lombardia Castle, San Filippo church, Villa Romana del Casale and Enna"
   },
   "Cagliari": {
-    "phraseIt": "Castello, Poetto e Basilica di Bonaria",
-    "phraseEn": "Castello district, Poetto beach and Basilica of Bonaria"
+    "phraseIt": "Castello, Poetto, Basilica di Bonaria, Bastione di Saint Remy, Marina, Anfiteatro Romano, Molentargius e Santuario di Nora",
+    "phraseEn": "Castello district, Poetto beach, Basilica of Bonaria, Bastione di Saint Remy, Marina, Roman Amphitheatre, Molentargius and Nora"
   },
   "Olbia": {
-    "phraseIt": "centro storico, Basilica di San Simplicio e Costa Smeralda",
-    "phraseEn": "the historic centre, Basilica of San Simplicio and the Costa Smeralda"
+    "phraseIt": "centro storico, Basilica di San Simplicio, Tomba dei Giganti, Costa Smeralda, Porto Rotondo, Tavolara e Golfo Aranci",
+    "phraseEn": "the historic centre, Basilica of San Simplicio, Tomba dei Giganti, Costa Smeralda, Porto Rotondo, Tavolara and Golfo Aranci"
   },
   "Sanremo": {
-    "phraseIt": "Casinò, Corso Imperatrice e Pista Ciclabile del Ponente",
-    "phraseEn": "the Casino, Corso Imperatrice and the Ponente cycle path"
+    "phraseIt": "Casinò, Corso Imperatrice, Pista Ciclabile del Ponente, Teatro Ariston, Villa Ormond, Bussana Vecchia e Festival di Sanremo",
+    "phraseEn": "the Casino, Corso Imperatrice, Ponente cycle path, Teatro Ariston, Villa Ormond, Bussana Vecchia and the Sanremo Festival"
   },
   "Cortina d'Ampezzo": {
-    "phraseIt": "Corso Italia, Tofane e Dolomiti",
-    "phraseEn": "Corso Italia, the Tofane and the Dolomites"
+    "phraseIt": "Corso Italia, Tofane, Cinque Torri, Lago di Misurina, Passo Giau, Dolomiti UNESCO e impianti sciistici",
+    "phraseEn": "Corso Italia, the Tofane, Cinque Torri, Lake Misurina, Passo Giau, UNESCO Dolomites and ski areas"
+  },
+  "Reggio Calabria": {
+    "phraseIt": "lo Stretto di Messina, il lungomare Falcomata — tra i km più belli d'Italia —, le Mura Greche, il centro storico, il Museo Archeologico Nazionale con i Bronzi di Riace e Villa San Giovanni",
+    "phraseEn": "the Strait of Messina, Falcomata seafront — among Italy's most scenic kilometres —, Greek Walls, the historic centre, the National Archaeological Museum with the Riace Bronzes and Villa San Giovanni"
+  },
+  "Messina": {
+    "phraseIt": "Duomo e campanile astronomico, Santuario di Montevergine, lungomare, Stretto di Messina, Ganzirri, Taormina e Reggio Calabria",
+    "phraseEn": "the Cathedral and astronomical clock, Montevergine Sanctuary, seafront, Strait of Messina, Ganzirri, Taormina and Reggio Calabria"
+  },
+  "Ferrara": {
+    "phraseIt": "Castello Estense, Duomo, Palazzo dei Diamanti, Via delle Volte, Mura Renaissance, Delta del Po e Mesola",
+    "phraseEn": "Estense Castle, Cathedral, Palazzo dei Diamanti, Via delle Volte, Renaissance walls, Po Delta and Mesola"
+  },
+  "Forlì": {
+    "phraseIt": "Piazza Aurelio Saffi, Rocca di Ravaldino, Basilica di San Mercuriale, Musei San Domenico, Parco Urbano Franco Agosto e Romagna",
+    "phraseEn": "Piazza Aurelio Saffi, Rocca di Ravaldino, Basilica of San Mercuriale, San Domenico museums, Franco Agosto park and Romagna"
+  },
+  "Ravenna": {
+    "phraseIt": "Basilica di San Vitale, Mausoleo di Galla Placidia, Battistero Neoniano, Tomba di Dante, mosaici bizantini e Pineta di San Vitale",
+    "phraseEn": "Basilica of San Vitale, Mausoleum of Galla Placidia, Neonian Baptistery, Dante's Tomb, Byzantine mosaics and Pineta di San Vitale"
+  },
+  "Trento": {
+    "phraseIt": "Piazza Duomo, Castello del Buonconsiglio, MUSE, Duomo di Trento, Palazzo Pretorio, Doss Trento e Dolomiti",
+    "phraseEn": "Cathedral Square, Buonconsiglio Castle, MUSE, Trento Cathedral, Palazzo Pretorio, Doss Trento and the Dolomites"
+  },
+  "Udine": {
+    "phraseIt": "Piazza Libertà, Castello di Udine, Loggia del Lionello, Duomo, Orto Botanico Friulano, Collio e Gorizia",
+    "phraseEn": "Piazza Libertà, Udine Castle, Loggia del Lionello, Cathedral, Friulian Botanical Garden, Collio and Gorizia"
+  },
+  "Livorno": {
+    "phraseIt": "Terrazza Mascagni, Quartiere Venezia, Fortezza Vecchia, Mercato Centrale, Museo Civico Giovanni Fattori, costa toscana e Elba",
+    "phraseEn": "Terrazza Mascagni, Venezia district, Fortezza Vecchia, Central Market, Giovanni Fattori Civic Museum, Tuscan coast and Elba"
+  },
+  "Ancona": {
+    "phraseIt": "Duomo di San Ciriaco, Mole Vanvitelliana, Passetto, Arco di Traiano, Teatro delle Muse, Conero e spiagge del Monte Conero",
+    "phraseEn": "San Ciriaco Cathedral, Mole Vanvitelliana, Passetto, Trajan's Arch, Teatro delle Muse, Conero and Monte Conero beaches"
+  },
+  "Pescara": {
+    "phraseIt": "Lungomare, Ponte del Mare, Museo delle Genti d'Abruzzo, Casa natale di Gabriele D'Annunzio, centro e Gran Sasso",
+    "phraseEn": "seafront, Ponte del Mare, Museum of the People of Abruzzo, Gabriele D'Annunzio birthplace, city centre and Gran Sasso"
+  },
+  "L'Aquila": {
+    "phraseIt": "Basilica di Collemaggio, Fontana delle 99 Cannelle, Forte Spagnolo, centro storico, Gran Sasso e Campo Imperatore",
+    "phraseEn": "Basilica of Collemaggio, Fountain of the 99 Spouts, Forte Spagnolo, historic centre, Gran Sasso and Campo Imperatore"
+  },
+  "Caserta": {
+    "phraseIt": "Reggia di Caserta, Parco Reale, Acquedotto Carolino, Belvedere di San Leucio, Anfiteatro Campano e centro storico",
+    "phraseEn": "Royal Palace of Caserta, Royal Park, Carolino Aqueduct, San Leucio Belvedere, Campano Amphitheatre and historic centre"
+  },
+  "Avellino": {
+    "phraseIt": "Centro storico, Castello Lombardo, Cattedrale, Irpinia, Partenio, Grotte di Pertosa-Auletta e Montevergine",
+    "phraseEn": "historic centre, Lombard Castle, Cathedral, Irpinia, Partenio, Pertosa-Auletta Caves and Montevergine"
+  },
+  "Benevento": {
+    "phraseIt": "Arco di Traiano, Teatro Romano, Duomo, Rocca dei Rettori, Santuario del Monte Taburno e Sannio",
+    "phraseEn": "Trajan's Arch, Roman Theatre, Cathedral, Rocca dei Rettori, Monte Taburno Sanctuary and Sannio"
+  },
+  "Potenza": {
+    "phraseIt": "Centro storico, Duomo di San Gerardo, Musmeci Bridge, Muro Lucano, Maratea e Appennino lucano",
+    "phraseEn": "historic centre, San Gerardo Cathedral, Musmeci Bridge, Muro Lucano, Maratea and the Lucanian Apennines"
+  },
+  "Catanzaro": {
+    "phraseIt": "Duomo, Parco della Biodiversità Mediterranea, Ponte Bisantis, Catanzaro Lido, Scolacium e Costa dei Saraceni",
+    "phraseEn": "Cathedral, Mediterranean Biodiversity Park, Bisantis Bridge, Catanzaro Lido, Scolacium and Costa dei Saraceni"
+  },
+  "Agrigento": {
+    "phraseIt": "Valle dei Templi, Scala dei Turchi, centro storico, Museo Archeologico, Eraclea Minoa e Sicilia sud-occidentale",
+    "phraseEn": "Valley of the Temples, Scala dei Turchi, historic centre, Archaeological Museum, Eraclea Minoa and south-west Sicily"
+  },
+  "Trapani": {
+    "phraseIt": "Centro storico, Saline, Erice, Riserva dello Zingaro, Egadi, Mozia e corso Vittorio Emanuele",
+    "phraseEn": "historic centre, salt pans, Erice, Zingaro Nature Reserve, Egadi Islands, Mozia and Corso Vittorio Emanuele"
+  },
+  "Sassari": {
+    "phraseIt": "Duomo di San Nicola, Palazzo Ducale, Museo Sanna, centro storico, Alghero, Castelsardo e Nuraghe di Palmavera",
+    "phraseEn": "San Nicola Cathedral, Palazzo Ducale, Sanna Museum, historic centre, Alghero, Castelsardo and Nuraghe Palmavera"
+  },
+  "Cremona": {
+    "phraseIt": "Duomo e Torrazzo, Battistero, Violin Museum, Piazza del Comune, Teatro Ponchielli e pianura padana",
+    "phraseEn": "Cathedral and Torrazzo, Baptistery, Violin Museum, Piazza del Comune, Teatro Ponchielli and the Po Valley"
+  },
+  "Varese": {
+    "phraseIt": "Sacro Monte di Varese, Villa Panza, Estense Palace, Lago di Varese, Campo dei Fiori e prealpi lombarde",
+    "phraseEn": "Sacro Monte di Varese, Villa Panza, Estense Palace, Lake Varese, Campo dei Fiori and the Lombard Prealps"
+  },
+  "Pavia": {
+    "phraseIt": "Certosa di Pavia, Basilica di San Michele Maggiore, Castello Visconteo, Ponte Coperto, Università e Oltrepò Pavese",
+    "phraseEn": "Certosa di Pavia, Basilica of San Michele Maggiore, Visconti Castle, Ponte Coperto, university and Oltrepò Pavese"
+  },
+  "Mantova": {
+    "phraseIt": "Palazzo Ducale, Basilica di Sant'Andrea, Piazza delle Erbe, Teatro Bibiena, Palazzo Te, Lago di Garda e Mincio",
+    "phraseEn": "Ducal Palace, Basilica of Sant'Andrea, Piazza delle Erbe, Teatro Bibiena, Palazzo Te, Lake Garda and the Mincio"
+  },
+  "Brescia": {
+    "phraseIt": "Piazza della Loggia, Capitolium, Duomo Nuovo, Castello, Museo di Santa Giulia, Lago di Garda e Franciacorta",
+    "phraseEn": "Piazza della Loggia, Capitolium, New Cathedral, Castle, Santa Giulia Museum, Lake Garda and Franciacorta"
+  },
+  "Vicenza": {
+    "phraseIt": "Basilica Palladiana, Teatro Olimpico, Villa La Rotonda, Corso Palladio, Monte Berico e Colli Berici",
+    "phraseEn": "Palladian Basilica, Teatro Olimpico, Villa La Rotonda, Corso Palladio, Monte Berico and Berici Hills"
+  },
+  "Treviso": {
+    "phraseIt": "Centro storico, Pescheria, Canali, Duomo, Piazza dei Signori, Prosecco hills e Villa Barbaro a Maser",
+    "phraseEn": "historic centre, fish market, canals, Cathedral, Piazza dei Signori, Prosecco hills and Villa Barbaro at Maser"
   }
 }

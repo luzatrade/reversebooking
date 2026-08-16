@@ -5,6 +5,7 @@ import { Building2, Euro, MapPin } from "lucide-react";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { pickLocalizedDescription } from "@/lib/i18n/localized-description";
 import { getStructureTypeLabels } from "@/lib/i18n/labels";
+import { getStructureCardSecondaryLine } from "@/lib/seo/structure-card-hint";
 import {
   structureMapsHref,
   structureProfileHref,
@@ -71,8 +72,10 @@ export function StructureExploreCard({ hotel, hideRequestButton = false, classNa
   const structureTypeLabels = getStructureTypeLabels(locale);
   const country = countryLabel(hotel.country_code, locale);
   const locationLine = `${structureTypeLabels[hotel.structure_type]} · ${hotel.city_name}${country ? `, ${country}` : ""}`;
-  const description = publicHotelDescription(
-    pickLocalizedDescription(hotel.description, hotel.description_en, locale),
+  const description = getStructureCardSecondaryLine(
+    hotel.city_name,
+    locale,
+    publicHotelDescription(pickLocalizedDescription(hotel.description, hotel.description_en, locale)),
   );
 
   return (
@@ -90,7 +93,7 @@ export function StructureExploreCard({ hotel, hideRequestButton = false, classNa
       <div className="flex flex-1 flex-col p-4">
         <p className="font-semibold">{hotel.property_name}</p>
         <p className="mt-1 line-clamp-1 text-xs text-zinc-500">{locationLine}</p>
-        {description ? <p className="mt-2 line-clamp-2 text-sm text-zinc-600">{description}</p> : null}
+        {description ? <p className="mt-2 line-clamp-2 text-xs leading-relaxed text-zinc-500 sm:text-sm">{description}</p> : null}
         <div className="mt-4 flex-1" />
         <div className="flex flex-wrap items-center gap-2">
           <a href={structureMapsHref(hotel)} target="_blank" rel="noreferrer" className={ctaMaps}>

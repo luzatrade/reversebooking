@@ -2,18 +2,22 @@ import Link from "next/link";
 import { Building2, MapPin } from "lucide-react";
 import { SeoImage } from "@/components/seo/SeoImage";
 import { structurePublicPath } from "@/lib/i18n/routing";
+import { getStructureCardAttractionHint } from "@/lib/seo/structure-card-hint";
 import type { DestinationStructureItem } from "@/lib/seo/destination-queries";
 
 type Props = {
   title: string;
   items: DestinationStructureItem[];
+  cityName: string;
   excludeSlug?: string;
   locale: "it" | "en";
 };
 
-export function OtherHotelsStrip({ title, items, excludeSlug, locale }: Props) {
+export function OtherHotelsStrip({ title, items, cityName, excludeSlug, locale }: Props) {
   const visible = items.filter((item) => item.slug !== excludeSlug).slice(0, 6);
   if (!visible.length) return null;
+
+  const attractionHint = getStructureCardAttractionHint(cityName, locale);
 
   return (
     <section aria-label={title} className="rounded-3xl border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900 sm:p-6">
@@ -39,6 +43,9 @@ export function OtherHotelsStrip({ title, items, excludeSlug, locale }: Props) {
                     <MapPin className="mr-1 inline h-3.5 w-3.5" aria-hidden="true" />
                     {item.address}
                   </p>
+                ) : null}
+                {attractionHint ? (
+                  <p className="mt-1 line-clamp-2 text-xs leading-relaxed text-zinc-500 sm:text-sm">{attractionHint}</p>
                 ) : null}
                 <span className="mt-3 text-xs font-semibold text-[#0f4c81] sm:text-sm">
                   {locale === "en" ? "View property" : "Vedi struttura"}
