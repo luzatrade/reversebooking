@@ -1,20 +1,34 @@
 # Tabelle lookup Alloggiati Web
 
-File JSON usati dal form e dall'export Questura.
+File JSON usati dal form check-in e dall'export Questura.
 
-| File | Contenuto |
-|------|-----------|
-| `nations.json` | Codici nazione (9 char) + mapping ISO-3 |
-| `document-types.json` | Tipi documento (5 char) |
-| `comuni.json` | Comuni principali (~50) — **sostituire con tabella completa** |
+| File | Contenuto | Rigenerazione |
+|------|-----------|---------------|
+| `nations.json` | Codici stato (9 char) + ISO-3 per MRZ | `npm run alloggiati:import-tables` |
+| `document-types.json` | Tipi documento (5 char) | idem |
+| `comuni.json` | Comuni italiani (~11k, ufficiali) | idem |
 
-## Tabella completa comuni
+## Aggiornamento tabelle
 
-Scaricare da Alloggiati Web → Tabelle → Comuni.
-
-Convertire in JSON con schema:
-```json
-{ "code": "058091001", "name": "ROMA", "province": "RM" }
+```bash
+npm run alloggiati:import-tables
 ```
 
-Salvare come `comuni.json` (o `comuni-full.json` e aggiornare il loader).
+Scarica da [Alloggiati Web → Tabelle](https://alloggiatiweb.poliziadistato.it/portalealloggiati/tabelle.aspx).
+
+**Nota:** i codici comune ufficiali (es. ROMA = `412058091`) differiscono dal campionario demo precedente.
+
+## SOAP Alloggiati (server)
+
+Variabili ambiente Vercel / `.env.local`:
+
+| Variabile | Uso |
+|-----------|-----|
+| `ALLOGGIATI_WS_USER` | Utente portale |
+| `ALLOGGIATI_WS_PASSWORD` | Password |
+| `ALLOGGIATI_WS_KEY` | Chiave WS |
+| `ALLOGGIATI_WS_ALLOW_SEND` | `true` solo per abilitare invio reale (`Send`) |
+
+Test CLI: `npm run alloggiati:soap-test`
+
+Ripristino export legacy: `npm run alloggiati:unmark-exported -- --dry-run`

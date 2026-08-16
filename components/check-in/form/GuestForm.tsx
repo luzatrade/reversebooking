@@ -8,6 +8,7 @@ import {
   loadDocumentTypes,
   loadNations,
   searchComuni,
+  searchIssuePlaces,
   searchNations,
   type ComuneEntry,
   type DocumentTypeEntry,
@@ -24,7 +25,7 @@ interface GuestFormProps {
   saving?: boolean;
 }
 
-const GUEST_TYPES: GuestType[] = ['single', 'head_family', 'family', 'head_group', 'group'];
+const GUEST_TYPES: GuestType[] = ['single', 'head_family', 'head_group', 'family', 'group'];
 
 function documentTypeFromMrz(documentType?: string): string {
   if (documentType === 'TD3') return 'PASOR';
@@ -86,7 +87,6 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
           ...prev,
           birthCountryCode: prev.birthCountryCode || nation.code,
           citizenshipCode: prev.citizenshipCode || nation.code,
-          documentIssuePlaceCode: prev.documentIssuePlaceCode || nation.code,
         }));
       },
     );
@@ -123,12 +123,12 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
   );
 
   const docPlaceOptions = useMemo(
-    () => searchNations(nations, docPlaceQuery).map((n) => ({
-      value: n.code,
-      label: n.name,
-      meta: n.iso3,
+    () => searchIssuePlaces(comuni, nations, docPlaceQuery).map((p) => ({
+      value: p.value,
+      label: p.label,
+      meta: p.kind === 'comune' ? p.meta : `${p.meta} · ${t('form.documentIssuePlaceHint')}`,
     })),
-    [nations, docPlaceQuery],
+    [comuni, nations, docPlaceQuery, t],
   );
 
   const docTypeOptions = documentTypes.map((d) => ({
@@ -138,6 +138,16 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
 
   function handleChange(field: string, value: string | number) {
     setForm((prev) => ({ ...prev, [field]: value }));
+  }
+
+  function handleBirthCountryChange(code: string) {
+    setForm((prev) => ({
+      ...prev,
+      birthCountryCode: code,
+      ...(code !== ITALY_CODE
+        ? { birthMunicipalityCode: '', birthProvinceCode: '' }
+        : {}),
+    }));
   }
 
   function handleComuneSelect(code: string) {
@@ -227,7 +237,7 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
       <SearchSelect
         label={t('form.birthCountry')}
         value={form.birthCountryCode}
-        onChange={(code) => handleChange('birthCountryCode', code)}
+        onChange={handleBirthCountryChange}
         options={nationOptions}
         onSearch={setNationQuery}
         placeholder={t('form.searchPlaceholder')}
@@ -288,13 +298,14 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
             />
           </label>
 
+          <p className={styles.fieldHint}>{t('form.documentIssuePlaceHint')}</p>
           <SearchSelect
             label={t('form.documentIssuePlace')}
             value={form.documentIssuePlaceCode}
             onChange={(code) => handleChange('documentIssuePlaceCode', code)}
             options={docPlaceOptions}
             onSearch={setDocPlaceQuery}
-            placeholder={t('form.searchPlaceholder')}
+            placeholder={t('form.searchComune')}
             required
           />
         </>

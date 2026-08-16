@@ -22,7 +22,7 @@ export function StrutturaSubNav() {
       <HardNavLink href="/struttura/offerte/crea" className={linkClass}>
         {t.catalogOffers.createOfferCta}
       </HardNavLink>
-      <HardNavLink href="/struttura/check-in" className={linkClass}>
+      <HardNavLink href="/struttura/check-in?tab=export" className={linkClass}>
         {t.dashboard.hotel.questuraExport}
       </HardNavLink>
     </nav>

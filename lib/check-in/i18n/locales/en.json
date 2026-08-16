@@ -83,6 +83,7 @@
     "documentType": "Document type",
     "documentNumber": "Document number",
     "documentIssuePlace": "Document issue place",
+    "documentIssuePlaceHint": "Municipality for ID card, country for passport",
     "arrivalDate": "Arrival date",
     "stayDays": "Stay duration (days)",
     "guestType": "Guest type",
@@ -90,34 +91,40 @@
     "searchComune": "Search municipality…",
     "save": "Save check-in",
     "saving": "Saving…",
-    "saveSuccess": "Details confirmed",
+    "saveSuccess": "Check-in saved — go to Export at end of day for the .txt file",
     "backToScan": "Back to scan",
     "reviewBanner": "Check highlighted fields — automatic reading may be wrong.",
     "reviewFieldHint": "Needs review",
     "guestTypes": {
       "single": "Single guest (16)",
       "head_family": "Head of family (17)",
-      "family": "Family member (18)",
-      "head_group": "Group leader (19)",
+      "head_group": "Group leader (18)",
+      "family": "Family member (19)",
       "group": "Group member (20)"
     }
   },
   "guests": {
     "title": "Registered guests",
+    "subtitle": "Grouped by arrival date",
     "empty": "No guests registered",
     "days": "days",
     "exported": "Exported",
     "pending": "Pending"
   },
   "export": {
-    "title": "Questura export",
-    "hint": "Generate .txt file for Alloggiati Web portal (168 chars/line, UTF-8)",
-    "questura": "Download .txt ({{count}} guests)",
+    "title": "Alloggiati export",
+    "hint": "Download the daily .txt file and upload it to the Alloggiati Web portal (168 chars/line, UTF-8)",
+    "dayTitle": "Guests arriving on {{date}}",
+    "dayEmpty": "No guests to export for this date",
+    "dateFilter": "Filter by arrival date",
+    "downloadDay": "Download file for {{date}} ({{count}} guests)",
+    "portalHint": "Open Alloggiati Web → File menu → upload this .txt → Process → Continue.",
+    "localStorageNotice": "Saved locally in the browser (DB unavailable). Export before switching devices.",
     "selectAll": "Select all",
     "exporting": "Generating file…",
-    "success": "File generated — {{count}} guests exported",
+    "success": "File for {{date}} generated — {{count}} guests exported",
     "error": "Export failed",
-    "noGuests": "No guests to export"
+    "noGuests": "No guests to export. Register arrivals from the Check-in tab."
   },
   "common": {
     "loading": "Loading…"

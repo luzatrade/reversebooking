@@ -83,6 +83,7 @@
     "documentType": "Tipo documento",
     "documentNumber": "Numero documento",
     "documentIssuePlace": "Luogo rilascio documento",
+    "documentIssuePlaceHint": "Comune per CIE, stato per passaporto",
     "arrivalDate": "Data arrivo",
     "stayDays": "Giorni permanenza",
     "guestType": "Tipo alloggiato",
@@ -90,34 +91,40 @@
     "searchComune": "Cerca comune…",
     "save": "Salva check-in",
     "saving": "Salvataggio…",
-    "saveSuccess": "Dati verificati",
+    "saveSuccess": "Check-in salvato — a fine giornata vai su Export per il file .txt",
     "backToScan": "Torna alla scansione",
     "reviewBanner": "Controlla i campi evidenziati: la lettura automatica potrebbe aver sbagliato.",
     "reviewFieldHint": "Da verificare",
     "guestTypes": {
       "single": "Ospite singolo (16)",
       "head_family": "Capo famiglia (17)",
-      "family": "Familiare (18)",
-      "head_group": "Capo gruppo (19)",
+      "head_group": "Capo gruppo (18)",
+      "family": "Familiare (19)",
       "group": "Membro gruppo (20)"
     }
   },
   "guests": {
     "title": "Ospiti registrati",
+    "subtitle": "Raggruppati per data di arrivo",
     "empty": "Nessun ospite registrato",
     "days": "gg",
     "exported": "Esportato",
     "pending": "Da esportare"
   },
   "export": {
-    "title": "Export Questura",
-    "hint": "Genera il file .txt per il portale Alloggiati Web (168 caratteri/riga, UTF-8)",
-    "questura": "Scarica .txt ({{count}} ospiti)",
+    "title": "Export Alloggiati",
+    "hint": "Scarica il file .txt del giorno e caricalo sul portale Alloggiati Web (168 caratteri/riga, UTF-8)",
+    "dayTitle": "Ospiti in arrivo il {{date}}",
+    "dayEmpty": "Nessun ospite da esportare per questa data",
+    "dateFilter": "Filtra per data arrivo",
+    "downloadDay": "Scarica file del {{date}} ({{count}} ospiti)",
+    "portalHint": "Apri Alloggiati Web → menu File → carica questo .txt → Elabora → Prosegui.",
+    "localStorageNotice": "Salvataggio locale nel browser (DB non disponibile). Esporta prima di cambiare dispositivo.",
     "selectAll": "Seleziona tutti",
     "exporting": "Generazione file…",
-    "success": "File generato — {{count}} ospiti esportati",
+    "success": "File del {{date}} generato — {{count}} ospiti esportati",
     "error": "Errore durante l'export",
-    "noGuests": "Nessun ospite da esportare"
+    "noGuests": "Nessun ospite da esportare. Registra gli arrivi dal tab Check-in."
   },
   "common": {
     "loading": "Caricamento…"
