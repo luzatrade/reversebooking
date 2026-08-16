@@ -416,7 +416,7 @@ export async function runEngineG(
 
   await tryBands(8, false);
   let picked = pickBestWithNameVote(allCandidates);
-  if (!picked || picked.score < 28) await tryBands(Math.min(16, bands.length), true);
+  if (!picked || picked.score < 28) await tryBands(Math.min(12, bands.length), true);
   picked = pickBestWithNameVote(allCandidates);
 
   if (!picked || picked.score < 28) {

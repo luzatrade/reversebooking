@@ -6,7 +6,6 @@ import {
   rotateCanvas,
   upscaleForMrz,
 } from './cropRegion';
-import { clearTesseractModelCache } from './clearOcrCache';
 import { loadImageFileToCanvas } from './imageLoader';
 import { getEngineGDebug, runEngineG } from './engineG';
 import {
@@ -36,22 +35,13 @@ const OCR_OPTS = {
 };
 
 let workerPromise: Promise<Worker> | null = null;
-let cacheCleared = false;
 let lastOcrDebug = '';
 
 export function getLastOcrDebug(): string {
   return lastOcrDebug;
 }
 
-async function ensureCacheClear(): Promise<void> {
-  if (!cacheCleared) {
-    await clearTesseractModelCache();
-    cacheCleared = true;
-  }
-}
-
 async function getWorker(): Promise<Worker> {
-  await ensureCacheClear();
   if (!workerPromise) {
     workerPromise = createWorker('mrz', 1, OCR_OPTS).catch((err) => {
       workerPromise = null;
@@ -327,10 +317,13 @@ export async function warmupOcr(): Promise<void> {
 export async function extractMrzFromFullFrame(
   canvas: HTMLCanvasElement,
   orientation: 'portrait' | 'landscape' = 'portrait',
+  options?: { allowLegacyFallback?: boolean },
 ): Promise<MrzExtractedData | null> {
   const worker = await getWorker();
   const engineHit = await extractWithEngineG(canvas, worker, orientation);
   if (engineHit) return engineHit;
+
+  if (options?.allowLegacyFallback === false) return null;
 
   return scanWithRotationsLegacy(worker, canvas, orientation, 'legacy-frame');
 }

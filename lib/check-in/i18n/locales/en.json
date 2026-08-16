@@ -52,7 +52,7 @@
     "guidePhotoLight": "Even light, no direct flash, sharp focus.",
     "guideCameraTitle": "Camera capture",
     "guideCameraFocus": "Tap screen on MRZ to focus, then Capture.",
-    "guideCameraBurst": "We capture 3 frames automatically to reduce errors.",
+    "guideCameraBurst": "MRZ strip first, then full document if needed — single capture.",
     "preparing": "Preparing document reader…",
     "cameraLoading": "Starting camera…",
     "shoot": "Capture",

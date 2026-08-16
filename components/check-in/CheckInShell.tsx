@@ -8,6 +8,7 @@ import { CheckInPage } from "@/components/check-in/pages/CheckInPage";
 import { ExportPage } from "@/components/check-in/pages/ExportPage";
 import { GuestsPage } from "@/components/check-in/pages/GuestsPage";
 import { ToastContainer } from "@/components/check-in/ui/ToastContainer";
+import { warmupOcr } from "@/lib/check-in/mrz/ocrWorker";
 import { registerToastHandler, useToastState } from "@/lib/check-in/useToast";
 import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
@@ -47,6 +48,10 @@ export function CheckInShell({
   useEffect(() => {
     registerToastHandler(toastState.push);
   }, [toastState.push]);
+
+  useEffect(() => {
+    void warmupOcr();
+  }, []);
 
   useEffect(() => {
     async function load() {

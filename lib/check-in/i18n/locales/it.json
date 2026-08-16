@@ -52,7 +52,7 @@
     "guidePhotoLight": "Luce uniforme, niente flash diretto, foto nitida a fuoco.",
     "guideCameraTitle": "Scatta con camera",
     "guideCameraFocus": "Tocca lo schermo sulla MRZ per mettere a fuoco, poi Scatta.",
-    "guideCameraBurst": "Scattiamo 3 frame automatici per ridurre errori.",
+    "guideCameraBurst": "Prima la striscia MRZ, poi l'intero documento se serve — un solo scatto.",
     "preparing": "Preparazione lettore documenti…",
     "cameraLoading": "Avvio fotocamera…",
     "shoot": "Scatta",

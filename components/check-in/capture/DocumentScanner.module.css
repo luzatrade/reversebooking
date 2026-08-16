@@ -9,7 +9,7 @@
   position: relative;
   width: 100%;
   aspect-ratio: 3 / 4;
-  max-height: min(62vh, 560px);
+  max-height: min(72vh, 640px);
   background: #000;
   border-radius: 12px;
   overflow: hidden;
@@ -35,9 +35,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 94%;
+  width: 98%;
   aspect-ratio: 1.586 / 1;
-  max-height: 78%;
+  max-height: 96%;
   height: auto;
   border: 3px dashed rgba(255, 255, 255, 0.9);
   border-radius: 12px;
@@ -50,9 +50,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 58%;
+  width: 96%;
   aspect-ratio: 1 / 1.586;
-  max-height: 82%;
+  max-height: 96%;
   height: auto;
   border: 3px dashed rgba(255, 255, 255, 0.9);
   border-radius: 12px;
@@ -62,10 +62,10 @@
 
 .mrzStripBottom {
   position: absolute;
-  bottom: 2%;
-  left: 2%;
-  right: 2%;
-  height: 30%;
+  bottom: 1%;
+  left: 1%;
+  right: 1%;
+  height: 32%;
   border: 3px dashed rgba(59, 130, 246, 0.95);
   border-radius: 6px;
   background: rgba(59, 130, 246, 0.15);
@@ -85,10 +85,10 @@
 
 .mrzStripRight {
   position: absolute;
-  top: 3%;
-  bottom: 3%;
-  right: 2%;
-  width: 32%;
+  top: 1%;
+  bottom: 1%;
+  right: 1%;
+  width: 34%;
   border: 3px dashed rgba(59, 130, 246, 0.95);
   border-radius: 6px;
   background: rgba(59, 130, 246, 0.15);

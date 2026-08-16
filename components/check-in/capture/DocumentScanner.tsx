@@ -22,8 +22,6 @@ interface DocumentScannerProps {
   onManualEntry: () => void;
 }
 
-const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
-
 export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProps) {
   const { t } = useTranslation();
   const { videoRef, error: cameraError, isReady, captureFullFrame, captureOverlay } = useCamera();
@@ -72,34 +70,32 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
     setDebugText('');
 
     try {
-      for (let i = 0; i < 2; i++) {
-        const strip = captureOverlay(container, mrzStrip, 4);
-        if (strip) {
-          const result = await extractMrzFromFullFrame(strip, orientation);
-          destroyCanvas(strip);
-          if (result) {
-            setPhase('success');
-            playCaptureSound();
-            onResult(result);
-            return;
-          }
+      const strip = captureOverlay(container, mrzStrip, 4);
+      if (strip) {
+        const stripResult = await extractMrzFromFullFrame(strip, orientation, {
+          allowLegacyFallback: false,
+        });
+        destroyCanvas(strip);
+        if (stripResult) {
+          setPhase('success');
+          playCaptureSound();
+          onResult(stripResult);
+          return;
         }
+      }
 
-        const full = captureFullFrame(container);
-        if (full) {
-          const result = await extractMrzFromFullFrame(full, orientation);
-          destroyCanvas(full);
-          if (result) {
-            setPhase('success');
-            playCaptureSound();
-            onResult(result);
-            return;
-          }
-        } else {
-          setDebugText('(cattura video fallita — attendi che la camera sia pronta)');
+      const full = captureFullFrame(container);
+      if (full) {
+        const result = await extractMrzFromFullFrame(full, orientation);
+        destroyCanvas(full);
+        if (result) {
+          setPhase('success');
+          playCaptureSound();
+          onResult(result);
+          return;
         }
-
-        if (i < 1) await sleep(200);
+      } else {
+        setDebugText('(cattura video fallita — attendi che la camera sia pronta)');
       }
 
       setDebugText(getLastOcrDebug());
