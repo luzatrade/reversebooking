@@ -250,6 +250,7 @@ export async function StructureSeoPage({ record }: Props) {
                   : `Altri hotel a ${destinationHub.displayName}`
               }
               items={destinationStructures}
+              cityName={record.cityName}
               excludeSlug={record.slug}
               locale={locale}
             />

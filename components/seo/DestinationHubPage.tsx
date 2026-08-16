@@ -14,6 +14,7 @@ import {
   getDestinationHowItWorks,
   getMarketingLabels,
 } from "@/lib/i18n/seo-marketing";
+import { getStructureCardAttractionHint } from "@/lib/seo/structure-card-hint";
 import { buildDestinationIntro } from "@/lib/seo/destination-metadata";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import {
@@ -52,6 +53,7 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
     locale === "en"
       ? `Hotels and properties in ${hub.displayName}`
       : `Hotel e strutture a ${hub.displayName}`;
+  const structureAttractionHint = getStructureCardAttractionHint(hub.displayName, locale);
 
   return (
     <div className="space-y-6">
@@ -121,6 +123,11 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
                         <p className="mt-1 line-clamp-2 text-sm text-zinc-500">
                           <MapPin className="mr-1 inline h-3.5 w-3.5" />
                           {item.address}
+                        </p>
+                      ) : null}
+                      {structureAttractionHint ? (
+                        <p className="mt-1 line-clamp-2 text-xs leading-relaxed text-zinc-500 sm:text-sm">
+                          {structureAttractionHint}
                         </p>
                       ) : null}
                       <span className="mt-4 text-sm font-semibold text-[#0f4c81]">

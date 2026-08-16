@@ -36,6 +36,7 @@ import type { CatalogOfferListItem } from "@/types/catalog-offers";
 import type { ShowcaseHomeInitialData, ShowcaseHomeHotel } from "@/lib/showcase/homeData";
 import { structureProfileHref } from "@/lib/showcase/structureExploreLinks";
 import { buildDestinationSlug } from "@/lib/seo/city-canonical";
+import { getStructureCardSecondaryLine } from "@/lib/seo/structure-card-hint";
 
 function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date()) {
   const until = new Date(acceptedAtIso).getTime() + 24 * 60 * 60 * 1000;
@@ -662,8 +663,10 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
   function renderHotelCard(hotel: HotelAccount, layout: "compact" | "dense" = "compact") {
     const country = countryLabel(hotel.country_code);
     const locationLine = `${structureTypeLabels[hotel.structure_type]} · ${hotel.city_name}${country ? `, ${country}` : ""}`;
-    const description = publicHotelDescription(
-      pickLocalizedDescription(hotel.description, hotel.description_en, locale),
+    const description = getStructureCardSecondaryLine(
+      hotel.city_name,
+      locale,
+      publicHotelDescription(pickLocalizedDescription(hotel.description, hotel.description_en, locale)),
     );
     const profileHref = structureProfileHref(
       { id: hotel.id, isOnboarding: hotel.isOnboarding ?? false, slug: hotel.slug ?? null },
@@ -694,6 +697,9 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
               {hotel.property_name}
             </Link>
             <p className="mt-1 line-clamp-1 text-[11px] text-zinc-500">{locationLine}</p>
+            {description ? (
+              <p className="mt-1.5 line-clamp-2 text-[10px] leading-relaxed text-zinc-500">{description}</p>
+            ) : null}
             <div className="mt-2.5 flex flex-wrap gap-1.5">
               <Link href={profileHref} className="rounded-full bg-[#e8f0f8] px-2.5 py-1 text-[10px] font-bold text-[#0f4c81]">
                 {t.showcase.cardProfile}
@@ -726,7 +732,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
         <div className="flex flex-1 flex-col p-4">
           <p className="font-semibold">{hotel.property_name}</p>
           <p className="mt-1 line-clamp-1 text-xs text-zinc-500">{locationLine}</p>
-          {description ? <p className="mt-2 line-clamp-2 text-sm text-zinc-600">{description}</p> : null}
+          {description ? <p className="mt-2 line-clamp-2 text-xs leading-relaxed text-zinc-500 sm:text-sm">{description}</p> : null}
           <div className="mt-4 flex-1" />
           <div className="flex flex-wrap items-center gap-2">
             <a href={mapsHref(hotel)} target="_blank" rel="noreferrer" className={ctaMaps}><MapPin className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardMap}</a>
