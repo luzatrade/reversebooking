@@ -6,6 +6,7 @@ import { useParams, useSearchParams } from "next/navigation";
 import { ArrowLeft, ExternalLink, Globe, Mail, MapPin, Phone, PhoneCall } from "lucide-react";
 import { pickLocalizedDescription } from "@/lib/i18n/localized-description";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
+import { localizedPath } from "@/lib/i18n/routing";
 import { formatMessage } from "@/lib/i18n/format";
 import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
 import { majorWorldCities } from "@/lib/constants/world-cities";
@@ -139,7 +140,7 @@ export function PublicOnboardingHotelProfile() {
               <div className="mt-5 rounded-2xl border border-amber-200 bg-amber-50 p-4 dark:border-amber-900/40 dark:bg-amber-950/30">
                 <p className="text-sm text-amber-950 dark:text-amber-100">{t.hotel.unclaimedBanner}</p>
                 <Link
-                  href={`/registrazione?mode=partner&onboarding=${encodeURIComponent(hotel.id)}`}
+                  href={localizedPath(locale, `/registrazione?mode=partner&onboarding=${encodeURIComponent(hotel.id)}`)}
                   className="mt-3 inline-flex items-center justify-center rounded-full bg-orange-500 px-4 py-2.5 text-sm font-bold text-white transition hover:bg-orange-600"
                 >
                   {t.hotel.claimThisProfile}

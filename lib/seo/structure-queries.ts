@@ -159,6 +159,17 @@ export async function resolveSlugByUuidAny(identifier: string): Promise<string |
   return resolveSlugRowByUuid(identifier, { indexableOnly: false });
 }
 
+export async function structureIdExists(identifier: string): Promise<boolean> {
+  const admin = createServiceRoleClient();
+  if (!admin) return false;
+
+  for (const table of ["hotel_accounts", "onboarding_hotels"] as const) {
+    const { data } = await admin.from(table).select("id").eq("id", identifier).maybeSingle();
+    if (data?.id) return true;
+  }
+  return false;
+}
+
 export async function fetchOnboardingSlugById(id: string): Promise<string | null> {
   const admin = createServiceRoleClient();
   if (!admin) return null;
