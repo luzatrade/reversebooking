@@ -25,6 +25,8 @@ import { topbarAuthLinkClass, topbarAuthPrimaryClass } from "@/components/naviga
 import { formatAdvertiserPublicName, oneAdvertiserProfile } from "@/lib/advertiser/publicName";
 import { formatMessage } from "@/lib/i18n/format";
 import { destinationPublicPath, localizedPath } from "@/lib/i18n/routing";
+import { POPULAR_DESTINATION_CITIES } from "@/lib/seo/popular-destinations";
+import { defaultDestinationCities } from "@/data/defaultDestinationCities";
 import { getStructureTypeLabels } from "@/lib/i18n/labels";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import type { CatalogStructureHit } from "@/lib/catalog/searchStructures";
@@ -249,6 +251,19 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
   const hasSelectedCity = Boolean(selectedCity.city_name.trim());
   const createRequestBase = hasSelectedCity ? `/inserzionista/crea-annuncio?city_id=${encodeURIComponent(selectedCity.city_id)}&city=${encodeURIComponent(selectedCity.city_name)}` : "/inserzionista/crea-annuncio";
   const createRequestHref = createRequestBase;
+  const selectedCityLabel = (() => {
+    const popular = POPULAR_DESTINATION_CITIES.find((city) => city.cityId === selectedCity.city_id);
+    if (popular) return locale === "en" ? popular.displayNameEn : popular.displayName;
+    const editorial = defaultDestinationCities.find((city) => city.cityId === selectedCity.city_id);
+    if (editorial) return locale === "en" ? editorial.cityNameEn : editorial.cityNameIt;
+    return selectedCity.city_name;
+  })();
+  const cityDestinationHref = hasSelectedCity
+    ? destinationPublicPath(
+        buildDestinationSlug(normalizeWorldCitySelection(selectedCity).city_name || selectedCity.city_name),
+        locale,
+      )
+    : localizedPath(locale, "/destinazioni");
 
   function handleCityChange(city: WorldCity) {
     setFocusedHotelId(null);
@@ -653,12 +668,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
     : formatMessage(t.showcase.featuredStructuresCatalogTitle, {
         total: structureCatalogCount.toLocaleString(locale === "en" ? "en-GB" : "it-IT"),
       });
-  const structuresCatalogHref = hasSelectedCity
-    ? destinationPublicPath(
-        buildDestinationSlug(normalizeWorldCitySelection(selectedCity).city_name || selectedCity.city_name),
-        locale,
-      )
-    : localizedPath(locale, "/destinazioni");
+  const structuresCatalogHref = cityDestinationHref;
 
   function renderHotelCard(hotel: HotelAccount, layout: "compact" | "dense" = "compact") {
     const country = countryLabel(hotel.country_code);
@@ -830,6 +840,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
             <CityAutocomplete
               value={selectedCity}
               onChange={handleCityChange}
+              onPick={handleCityChange}
               label={t.showcase.selectCity}
               hideLabel
               placeholder={t.showcase.citySearchPlaceholder}
@@ -841,6 +852,9 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
             </Link>
             {hasSelectedCity ? (
               <div className="flex flex-col gap-2.5 sm:gap-3">
+                <Link href={cityDestinationHref} className="hd-cta-orange hd-cta-drop-main w-full text-center">
+                  {formatMessage(t.showcase.discoverWhereToStayCta, { city: selectedCityLabel })}
+                </Link>
                 <button
                   type="button"
                   onClick={scrollToLastMinuteOffers}
