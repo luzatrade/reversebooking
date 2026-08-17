@@ -820,6 +820,9 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
                 </Link>
               </>
             )}
+            <Link href="/contatti" className={topbarAuthLinkClass}>
+              {t.site.contacts}
+            </Link>
           </TopbarControlsMenu>
         </div>
       </header>
