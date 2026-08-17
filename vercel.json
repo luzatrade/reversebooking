@@ -3,6 +3,10 @@
     {
       "path": "/api/cron/purge-expired",
       "schedule": "5 23 * * *"
+    },
+    {
+      "path": "/api/cron/indexnow",
+      "schedule": "0 4 * * 0"
     }
   ]
 }
