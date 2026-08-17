@@ -8,6 +8,7 @@ import { ConditionalSiteHeader } from "@/components/navigation/ConditionalSiteHe
 import { GlobalJsonLd } from "@/components/seo/GlobalJsonLd";
 import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
 import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
+import { buildSiteVerificationMetadata } from "@/lib/seo/site-verification";
 import { publicSiteOrigin } from "@/lib/seo/site-url";
 import "./globals.css";
 
@@ -44,6 +45,7 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: buildLanguageAlternates("/", locale),
     openGraph: buildOpenGraph({ title, description, path: "/", locale }),
     twitter: buildTwitterCard({ title, description }),
+    verification: buildSiteVerificationMetadata(),
   };
 }
 
