@@ -15,6 +15,7 @@ import { canonicalUrl } from "@/lib/seo/canonical";
 import { listPopularDestinations } from "@/lib/seo/destination-queries";
 import { buildHomePageJsonLd } from "@/lib/seo/home-jsonld";
 import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
+import { trimSeoDescription } from "@/lib/seo/serp-copy";
 import { fetchShowcaseHomeInitialData } from "@/lib/showcase/homeData";
 
 export const revalidate = 60;
@@ -23,7 +24,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const t = await getServerTranslations();
   const locale = await getServerLocale();
   const title = t.metadata.siteTitleDefault;
-  const description = t.metadata.siteDescription;
+  const description = trimSeoDescription(t.metadata.siteDescription);
 
   return {
     title,
