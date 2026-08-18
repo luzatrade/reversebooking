@@ -7,6 +7,7 @@ import type { Locale } from "@/lib/i18n/translations";
 /** Endpoint condiviso IndexNow (Bing, Yandex, Naver, Seznam, ecc.). */
 const INDEXNOW_ENDPOINT = "https://api.indexnow.org/indexnow";
 const BING_INDEXNOW_ENDPOINT = "https://www.bing.com/indexnow";
+const YANDEX_INDEXNOW_ENDPOINT = "https://yandex.com/indexnow";
 const LOCALES: Locale[] = ["it", "en"];
 const MAX_URLS_PER_REQUEST = 10_000;
 
@@ -114,6 +115,9 @@ export async function notifyIndexNow(urls: string[]): Promise<IndexNowResult> {
 
     const bing = await postIndexNowBatch(BING_INDEXNOW_ENDPOINT, key, keyLocation, batch);
     if (!bing.ok) return bing;
+
+    const yandex = await postIndexNowBatch(YANDEX_INDEXNOW_ENDPOINT, key, keyLocation, batch);
+    if (!yandex.ok) return yandex;
   }
 
   return { ok: true, submitted: unique.length, status: 202 };
