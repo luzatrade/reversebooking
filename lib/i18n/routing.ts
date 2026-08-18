@@ -241,7 +241,7 @@ export function allLocalizedPaths(internalPath = "/"): Record<string, string> {
     "x-default": localizedPath(DEFAULT_LOCALE, internalPath),
   };
 
-  for (const locale of listHubEnabledLocales()) {
+  for (const locale of listHubSeoLocales()) {
     if (hubAlternateInternalPath(locale, internalPath)) {
       paths[hreflangCode(locale)] = localizedPath(locale, internalPath);
     }
@@ -250,7 +250,9 @@ export function allLocalizedPaths(internalPath = "/"): Record<string, string> {
   return paths;
 }
 
-/** Hub-only locales whose homepage is published, for sitemap and IndexNow. */
-export function hubSeoHomepagePaths(): string[] {
-  return listHubSeoLocales().map((locale) => localizedPath(locale, "/"));
+/** Localized variants of a path across the hub-only locales that publish it. */
+export function hubSeoLocalizedPaths(internalPath: string): string[] {
+  return listHubSeoLocales()
+    .filter((locale) => hubAlternateInternalPath(locale, internalPath))
+    .map((locale) => localizedPath(locale, internalPath));
 }

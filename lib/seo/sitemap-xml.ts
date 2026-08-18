@@ -1,5 +1,4 @@
-import { hubSeoHomepagePaths, localizedPath } from "@/lib/i18n/routing";
-import { isHubSlug, listHubEnabledLocales } from "@/lib/seo/hub-locale-registry";
+import { hubSeoLocalizedPaths, localizedPath } from "@/lib/i18n/routing";
 import { publicSiteOrigin } from "@/lib/seo/site-url";
 import { listDestinationHubSlugs } from "@/lib/seo/destination-queries";
 import { listIndexableStructureSlugs } from "@/lib/seo/structure-queries";
@@ -72,15 +71,7 @@ function localePaths(internalPath: string): string[] {
 }
 
 function optionalHubSeoSitemapPaths(internalPath: string): string[] {
-  if (internalPath === "/") return hubSeoHomepagePaths();
-
-  const match = internalPath.match(/^\/destinazioni\/([^/]+)$/);
-  if (!match) return [];
-
-  const slug = match[1]!;
-  return listHubEnabledLocales()
-    .filter((locale) => isHubSlug(locale, slug))
-    .map((locale) => localizedPath(locale, internalPath));
+  return hubSeoLocalizedPaths(internalPath);
 }
 
 export async function buildSitemapEntries(id: number): Promise<SitemapEntry[]> {

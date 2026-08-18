@@ -107,6 +107,26 @@ async function checkHomepage({ locale, content }) {
   }
 }
 
+async function checkIndex({ locale, content }) {
+  const slugs = Object.keys(content.hubs ?? {});
+  if (!slugs.length) return;
+
+  const segment = DESTINATION_SEGMENT[locale] ?? "destinations";
+  const url = `${BASE}/${locale}/${segment}`;
+  const page = await get(url);
+
+  record(locale, `indice ${url} → 200`, page.status === 200, `HTTP ${page.status} ${page.location ?? ""}`);
+  if (page.status !== 200) return;
+
+  const linked = new Set(
+    [...page.body.matchAll(new RegExp(`/${locale}/${segment}/([a-z0-9-]+)`, "g"))].map((match) => match[1]),
+  );
+  const foreign = [...linked].filter((slug) => !slugs.includes(slug));
+
+  record(locale, `indice: solo hub tradotti (${linked.size} link)`, foreign.length === 0, foreign.join(", "));
+  record(locale, "indice: hub collegati", linked.size >= slugs.length - 1, `${linked.size}/${slugs.length}`);
+}
+
 async function checkHubs({ locale, content }) {
   const slugs = Object.keys(content.hubs ?? {});
   if (!slugs.length) {
@@ -193,6 +213,7 @@ async function main() {
   for (const entry of locales) {
     console.log(`\n== ${entry.locale.toUpperCase()} ==`);
     await checkHomepage(entry);
+    await checkIndex(entry);
     await checkHubs(entry);
   }
 

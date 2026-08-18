@@ -74,11 +74,19 @@ export type HubLocaleConfig = {
   content: HubLocaleContent;
   labels: {
     destinationEyebrow: string;
+    destinationsPlural: string;
     hubPageTitle: (city: string) => string;
     catalogCount: (count: number) => string;
+    propertiesCount: (count: number) => string;
     viewProperty: string;
     paginationSuffix: (page: number) => string;
     hubTitleFallback: (city: string, count: number) => string;
+    indexTitle: string;
+    indexDescription: string;
+    indexHeading: string;
+    indexSubtitle: string;
+    /** By ISO country code, with `default` for everything else. */
+    countryLabels: Record<string, string>;
   };
 };
 
@@ -93,11 +101,28 @@ const REGISTRY: Record<HubSeoLocale, HubLocaleConfig> = {
     content: deContent as HubLocaleContent,
     labels: {
       destinationEyebrow: "Reiseziel",
+      destinationsPlural: "Reiseziele",
       hubPageTitle: (city) => `Hotels und Unterkünfte in ${city}`,
       catalogCount: (count) => `${count} Unterkünfte im Katalog`,
+      propertiesCount: (count) => `${count} ${count === 1 ? "Unterkunft" : "Unterkünfte"}`,
       viewProperty: "Unterkunft ansehen",
       paginationSuffix: (page) => ` · Seite ${page}`,
       hubTitleFallback: (city, count) => `Hotels in ${city}: ${count} Unterkünfte — Direktangebote`,
+      indexTitle: "Alle Reiseziele · HotelsDrop",
+      indexDescription:
+        "Entdecke die HotelsDrop-Reiseziele. Stelle eine Anfrage und erhalte Direktangebote von Hotels und Unterkünften vor Ort — ohne Provision für Reisende.",
+      indexHeading: "Alle Reiseziele",
+      indexSubtitle:
+        "Hotels und Unterkünfte nach Stadt entdecken. Eine Anfrage stellen und Direktangebote erhalten, kostenlos für Reisende.",
+      countryLabels: {
+        IT: "Italien",
+        FR: "Frankreich",
+        GB: "Vereinigtes Königreich",
+        DE: "Deutschland",
+        ES: "Spanien",
+        CA: "Kanada",
+        default: "Weltweit",
+      },
     },
   },
   zh: {
@@ -110,11 +135,27 @@ const REGISTRY: Record<HubSeoLocale, HubLocaleConfig> = {
     content: zhContent as HubLocaleContent,
     labels: {
       destinationEyebrow: "目的地",
+      destinationsPlural: "目的地",
       hubPageTitle: (city) => `${city}的酒店与住宿`,
       catalogCount: (count) => `目录中有 ${count} 家房源`,
+      propertiesCount: (count) => `${count} 家房源`,
       viewProperty: "查看房源",
       paginationSuffix: (page) => ` · 第 ${page} 页`,
       hubTitleFallback: (city, count) => `${city}酒店：${count}家房源 — 获取直接报价`,
+      indexTitle: "全部目的地 · HotelsDrop",
+      indexDescription:
+        "浏览 HotelsDrop 的目的地。发布一次住宿需求，即可收到当地酒店与房源的直接报价，旅客零佣金。",
+      indexHeading: "全部目的地",
+      indexSubtitle: "按城市浏览酒店与住宿。发布一次需求即可收到直接报价，旅客无需支付佣金。",
+      countryLabels: {
+        IT: "意大利",
+        FR: "法国",
+        GB: "英国",
+        DE: "德国",
+        ES: "西班牙",
+        CA: "加拿大",
+        default: "全球",
+      },
     },
   },
   es: {
@@ -127,12 +168,29 @@ const REGISTRY: Record<HubSeoLocale, HubLocaleConfig> = {
     content: esContent as HubLocaleContent,
     labels: {
       destinationEyebrow: "Destino",
+      destinationsPlural: "Destinos",
       hubPageTitle: (city) => `Hoteles y alojamientos en ${city}`,
       catalogCount: (count) => `${count} alojamientos en el catálogo`,
+      propertiesCount: (count) => `${count} ${count === 1 ? "alojamiento" : "alojamientos"}`,
       viewProperty: "Ver alojamiento",
       paginationSuffix: (page) => ` · página ${page}`,
       hubTitleFallback: (city, count) =>
         `Hoteles en ${city}: ${count} alojamientos — Ofertas directas`,
+      indexTitle: "Todos los destinos · HotelsDrop",
+      indexDescription:
+        "Explora los destinos de HotelsDrop. Publica una solicitud de estancia y recibe ofertas directas de hoteles y alojamientos locales, sin comisiones.",
+      indexHeading: "Todos los destinos",
+      indexSubtitle:
+        "Explora hoteles y alojamientos por ciudad. Publica una solicitud y recibe ofertas directas, sin comisiones para quien viaja.",
+      countryLabels: {
+        IT: "Italia",
+        FR: "Francia",
+        GB: "Reino Unido",
+        DE: "Alemania",
+        ES: "España",
+        CA: "Canadá",
+        default: "Mundo",
+      },
     },
   },
 };
@@ -234,6 +292,9 @@ export function hubAlternateInternalPath(locale: Locale, internalPath: string): 
 
   const normalized = internalPath.replace(/\/+$/, "") || "/";
   if (normalized === "/") return "/";
+
+  /** The index only makes sense once the hubs it links to are published. */
+  if (normalized === "/destinazioni") return config.hubsEnabled ? normalized : null;
 
   const match = normalized.match(/^\/destinazioni\/([^/]+)$/);
   if (match && isHubSlug(locale, match[1]!)) return normalized;

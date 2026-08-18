@@ -2,6 +2,7 @@ import { DestinationCard } from "@/components/seo/DestinationCard";
 import { SeoBreadcrumb } from "@/components/seo/SeoBreadcrumb";
 import { getServerLocale } from "@/lib/i18n/get-translations";
 import { homePath, localizedPath } from "@/lib/i18n/routing";
+import { hubLocaleConfig, isHubSlug } from "@/lib/seo/hub-locale-registry";
 import type { DestinationHub } from "@/lib/seo/destination-queries";
 import type { Locale } from "@/lib/i18n/translations";
 import { uiLocale } from "@/lib/i18n/ui-locale";
@@ -12,20 +13,31 @@ type Props = {
 
 export async function DestinationsIndexPage({ destinations }: Props) {
   const locale = await getServerLocale();
-  const title = locale === "en" ? "All destinations" : "Tutte le destinazioni";
-  const subtitle =
-    locale === "en"
-      ? "Browse hotels and properties by city. Send one personalised request and receive direct offers."
-      : "Esplora hotel e strutture per città. Invia una richiesta personalizzata e ricevi offerte dirette.";
+  const hubLabels = hubLocaleConfig(locale)?.labels;
 
-  const grouped = groupByCountry(destinations, locale);
+  const title = hubLabels?.indexHeading ?? (locale === "en" ? "All destinations" : "Tutte le destinazioni");
+  const subtitle =
+    hubLabels?.indexSubtitle ??
+    (locale === "en"
+      ? "Browse hotels and properties by city. Send one personalised request and receive direct offers."
+      : "Esplora hotel e strutture per città. Invia una richiesta personalizzata e ricevi offerte dirette.");
+
+  /** Hub-only locales list just the destinations translated for them. */
+  const visible = hubLabels
+    ? destinations.filter((destination) => isHubSlug(locale, destination.slug))
+    : destinations;
+
+  const grouped = groupByCountry(visible, locale);
 
   return (
     <div className="mx-auto max-w-7xl space-y-8 px-4 py-10 sm:px-6 lg:px-8">
       <SeoBreadcrumb
         items={[
           { label: "Home", href: homePath(locale) },
-          { label: locale === "en" ? "Destinations" : "Destinazioni" },
+          {
+            label:
+              hubLabels?.destinationsPlural ?? (locale === "en" ? "Destinations" : "Destinazioni"),
+          },
         ]}
       />
 
@@ -65,6 +77,9 @@ function groupByCountry(destinations: DestinationHub[], locale: Locale): [string
 }
 
 function countryLabel(code: string | null, locale: Locale) {
+  const hubCountries = hubLocaleConfig(locale)?.labels.countryLabels;
+  if (hubCountries) return hubCountries[code ?? "default"] ?? hubCountries.default!;
+
   const ui = uiLocale(locale);
   if (code === "IT") return ui === "en" ? "Italy" : "Italia";
   if (code === "FR") return ui === "en" ? "France" : "Francia";
@@ -76,6 +91,15 @@ function countryLabel(code: string | null, locale: Locale) {
 }
 
 export function destinationsIndexMetadata(locale: Locale) {
+  const hubLabels = hubLocaleConfig(locale)?.labels;
+  if (hubLabels) {
+    return {
+      title: hubLabels.indexTitle,
+      description: hubLabels.indexDescription,
+      internalPath: "/destinazioni" as const,
+    };
+  }
+
   const ui = uiLocale(locale);
   const title =
     ui === "en" ? "All destinations · HotelsDrop" : "Tutte le destinazioni · HotelsDrop";

@@ -5,6 +5,7 @@ import { destinationPublicPath } from "@/lib/i18n/routing";
 import { getDestinationCardHint } from "@/lib/seo/destination-card-hint";
 import { getDestinationDisplayName } from "@/lib/seo/destination-display-name";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
+import { hubLocaleConfig } from "@/lib/seo/hub-locale-registry";
 import type { DestinationHub } from "@/lib/seo/destination-queries";
 import type { Locale } from "@/lib/i18n/translations";
 import { uiLocale } from "@/lib/i18n/ui-locale";
@@ -19,9 +20,13 @@ export function DestinationCard({ destination, locale, size = "default" }: Props
   const ui = uiLocale(locale);
   const image = getDestinationCityPhoto(destination);
   const label = getDestinationDisplayName(destination, locale);
-  const hint = getDestinationCardHint(destination, locale);
-  const countLabel =
-    ui === "en"
+  const hubLabels = hubLocaleConfig(locale)?.labels;
+
+  /** Card hints exist only in IT/EN: omit them rather than mixing languages. */
+  const hint = hubLabels ? null : getDestinationCardHint(destination, locale);
+  const countLabel = hubLabels
+    ? hubLabels.propertiesCount(destination.structureCount)
+    : ui === "en"
       ? `${destination.structureCount} ${destination.structureCount === 1 ? "property" : "properties"}`
       : `${destination.structureCount} ${destination.structureCount === 1 ? "struttura" : "strutture"}`;
 
@@ -52,7 +57,9 @@ export function DestinationCard({ destination, locale, size = "default" }: Props
         {destination.structureCount > 0 ? (
           <p className="mt-1 text-xs text-zinc-500 dark:text-zinc-400">{countLabel}</p>
         ) : null}
-        <p className="mt-1 line-clamp-2 text-xs leading-relaxed text-zinc-500 dark:text-zinc-400">{hint}</p>
+        {hint ? (
+          <p className="mt-1 line-clamp-2 text-xs leading-relaxed text-zinc-500 dark:text-zinc-400">{hint}</p>
+        ) : null}
       </div>
     </Link>
   );
