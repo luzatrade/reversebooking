@@ -1,6 +1,5 @@
 import { majorWorldCities } from "@/lib/constants/world-cities";
-import { getDeCityDisplayName } from "@/lib/seo/de-export-content";
-import { getZhCityDisplayName } from "@/lib/seo/zh-export-content";
+import { getHubCityDisplayName, isHubSeoLocale } from "@/lib/seo/hub-locale-registry";
 import type { DestinationHub } from "@/lib/seo/destination-queries";
 import type { Locale } from "@/lib/i18n/translations";
 
@@ -58,8 +57,7 @@ const englishNamesByDisplayName: Record<string, string> = {
 
 export function getDestinationDisplayName(hub: DestinationHub, locale: Locale): string {
   if (locale === "it") return hub.displayName;
-  if (locale === "de") return getDeCityDisplayName(hub.slug, hub.displayName);
-  if (locale === "zh") return getZhCityDisplayName(hub.slug, hub.displayName);
+  if (isHubSeoLocale(locale)) return getHubCityDisplayName(locale, hub.slug, hub.displayName);
   if (hub.cityId) {
     const canonical = cityNameById.get(hub.cityId);
     if (canonical) return canonical;

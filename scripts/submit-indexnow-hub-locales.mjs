@@ -15,7 +15,12 @@ import { fileURLToPath } from "node:url";
 const ROOT = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const ORIGIN = "https://www.hotelsdrop.com";
 const SITEMAP_CHUNKS = [0, 1];
-const LOCALE_PREFIXES = ["/de", "/zh"];
+
+/** Derived from data/seo/export/<locale>/, so a new locale needs no edit here. */
+const LOCALE_PREFIXES = fs
+  .readdirSync(path.join(ROOT, "data/seo/export"), { withFileTypes: true })
+  .filter((entry) => entry.isDirectory() && fs.existsSync(path.join(ROOT, "data/seo/export", entry.name, "content.json")))
+  .map((entry) => `/${entry.name}`);
 const ENDPOINTS = [
   "https://api.indexnow.org/indexnow",
   "https://www.bing.com/indexnow",

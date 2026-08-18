@@ -3,6 +3,7 @@ import { BRAND_NAME } from "@/lib/legal/company";
 import { guideSlugForLocale } from "@/lib/i18n/guides";
 import { allLocalizedPaths, localizedPath } from "@/lib/i18n/routing";
 import { canonicalUrl } from "@/lib/seo/canonical";
+import { hubLocaleConfig } from "@/lib/seo/hub-locale-registry";
 import { DEFAULT_OG_IMAGE } from "@/lib/seo/site-url";
 import type { Locale } from "@/lib/i18n/translations";
 
@@ -54,7 +55,7 @@ export function buildOpenGraph(params: {
     siteName: BRAND_NAME,
     title: params.title,
     description: params.description,
-    locale: locale === "en" ? "en_GB" : locale === "de" ? "de_DE" : locale === "zh" ? "zh_CN" : "it_IT",
+    locale: locale === "en" ? "en_GB" : (hubLocaleConfig(locale)?.ogLocale ?? "it_IT"),
     images,
   };
 }

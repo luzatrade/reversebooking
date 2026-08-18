@@ -18,6 +18,7 @@ import { buildDestinationIntro } from "@/lib/seo/destination-metadata";
 import { getDestinationDisplayName } from "@/lib/seo/destination-display-name";
 import { getStructureCardAttractionHint } from "@/lib/seo/structure-card-hint";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
+import { hubLocaleConfig } from "@/lib/seo/hub-locale-registry";
 import {
   buildDestinationTravelRequestHref,
   type DestinationHub,
@@ -53,12 +54,12 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
     trustOffers: t.hotel.reverseBookingTrustOffers,
     howItWorks: t.hotel.reverseBookingHowItWorks,
   };
-  const pageTitle =
-    locale === "de"
-      ? `Hotels und Unterkünfte in ${displayName}`
-      : ui === "en"
-        ? `Hotels and properties in ${displayName}`
-        : `Hotel e strutture a ${displayName}`;
+  const hubLabels = hubLocaleConfig(locale)?.labels;
+  const pageTitle = hubLabels
+    ? hubLabels.hubPageTitle(displayName)
+    : ui === "en"
+      ? `Hotels and properties in ${displayName}`
+      : `Hotel e strutture a ${displayName}`;
   const structureAttractionHint = getStructureCardAttractionHint(displayName, ui);
 
   return (
@@ -87,14 +88,14 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
             )}
             <div className="p-6 sm:p-8">
               <p className="text-xs font-medium uppercase tracking-wide text-[#0f4c81] sm:text-sm">
-                {locale === "de" ? "Reiseziel" : ui === "en" ? "Destination" : "Destinazione"}
+                {hubLabels?.destinationEyebrow ?? (ui === "en" ? "Destination" : "Destinazione")}
               </p>
               <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">{pageTitle}</h1>
               <p className="mt-4 max-w-3xl text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{intro}</p>
               <p className="mt-3 max-w-3xl text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{editorial}</p>
               <p className="mt-3 text-sm text-zinc-500">
-                {locale === "de"
-                  ? `${hub.structureCount} Unterkünfte im Katalog`
+                {hubLabels
+                  ? hubLabels.catalogCount(hub.structureCount)
                   : ui === "en"
                     ? `${hub.structureCount} indexed properties`
                     : `${hub.structureCount} strutture nel catalogo`}
@@ -139,7 +140,7 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
                         </p>
                       ) : null}
                       <span className="mt-4 text-sm font-semibold text-[#0f4c81]">
-                        {locale === "de" ? "Unterkunft ansehen" : ui === "en" ? "View property" : "Vedi struttura"}
+                        {hubLabels?.viewProperty ?? (ui === "en" ? "View property" : "Vedi struttura")}
                       </span>
                     </div>
                   </Link>
@@ -152,7 +153,7 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
             <>
               <DestinationHowItWorksBlock
                 title={labels.destinationHowItWorks}
-                bullets={getDestinationHowItWorks(locale === "de" ? "en" : locale, displayName)}
+                bullets={getDestinationHowItWorks(locale, displayName)}
               />
               <RelatedDestinationsStrip
                 title={labels.relatedDestinations}

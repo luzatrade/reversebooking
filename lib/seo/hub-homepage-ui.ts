@@ -1,35 +1,10 @@
 import type { Translations } from "@/lib/i18n/messages";
 import type { Locale } from "@/lib/i18n/translations";
-import { getDeHomepageContent } from "@/lib/seo/de-export-content";
-import { isHubSeoLocale } from "@/lib/seo/hub-seo-locale";
-import { getZhHomepageContent } from "@/lib/seo/zh-export-content";
+import { getHubHomepageUi, isHubSeoLocale } from "@/lib/seo/hub-locale-registry";
 
-type ShowcaseUiKey =
-  | "dropYourRequest"
-  | "discoverWhereToStayCta"
-  | "lastMinuteCta"
-  | "exploreMapCta"
-  | "citySearchPlaceholder"
-  | "selectCity"
-  | "clearSelectedCity"
-  | "dropYourRequestHintCta"
-  | "cardProfile"
-  | "cardRequest"
-  | "cardMap";
+export type { HubHomepageUi } from "@/lib/seo/hub-locale-registry";
 
-export type HubHomepageUi = {
-  showcase?: Partial<Record<ShowcaseUiKey, string>>;
-  common?: { login?: string };
-  site?: { contacts?: string; becomePartner?: string; registration?: string };
-};
-
-function getHubHomepageUi(locale: Locale): HubHomepageUi | null {
-  if (locale === "de") return getDeHomepageContent().ui ?? null;
-  if (locale === "zh") return getZhHomepageContent().ui ?? null;
-  return null;
-}
-
-/** Merge hub SEO export UI strings over English chrome for DE/ZH homepage showcase. */
+/** Merge hub SEO export UI strings over English chrome for hub-only locales. */
 export function mergeHubHomepageTranslations(t: Translations, locale: Locale): Translations {
   if (!isHubSeoLocale(locale)) return t;
 

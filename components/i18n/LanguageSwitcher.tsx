@@ -12,6 +12,7 @@ const localeFlags: Record<Locale, string> = {
   en: "🇬🇧",
   de: "🇩🇪",
   zh: "🇨🇳",
+  es: "🇪🇸",
 };
 
 type LanguageSwitcherProps = {

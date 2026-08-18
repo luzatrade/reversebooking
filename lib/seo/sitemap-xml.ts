@@ -1,6 +1,5 @@
-import { localizedPath } from "@/lib/i18n/routing";
-import { listDeHubSlugs } from "@/lib/seo/de-export-content";
-import { listZhHubSlugs } from "@/lib/seo/zh-export-content";
+import { hubSeoHomepagePaths, localizedPath } from "@/lib/i18n/routing";
+import { isHubSlug, listHubEnabledLocales } from "@/lib/seo/hub-locale-registry";
 import { publicSiteOrigin } from "@/lib/seo/site-url";
 import { listDestinationHubSlugs } from "@/lib/seo/destination-queries";
 import { listIndexableStructureSlugs } from "@/lib/seo/structure-queries";
@@ -73,17 +72,15 @@ function localePaths(internalPath: string): string[] {
 }
 
 function optionalHubSeoSitemapPaths(internalPath: string): string[] {
-  const paths: string[] = [];
-  if (internalPath === "/") {
-    paths.push(localizedPath("de", "/"), localizedPath("zh", "/"));
-    return paths;
-  }
+  if (internalPath === "/") return hubSeoHomepagePaths();
+
   const match = internalPath.match(/^\/destinazioni\/([^/]+)$/);
-  if (!match) return paths;
+  if (!match) return [];
+
   const slug = match[1]!;
-  if (listDeHubSlugs().includes(slug)) paths.push(localizedPath("de", internalPath));
-  if (listZhHubSlugs().includes(slug)) paths.push(localizedPath("zh", internalPath));
-  return paths;
+  return listHubEnabledLocales()
+    .filter((locale) => isHubSlug(locale, slug))
+    .map((locale) => localizedPath(locale, internalPath));
 }
 
 export async function buildSitemapEntries(id: number): Promise<SitemapEntry[]> {

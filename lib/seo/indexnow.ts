@@ -1,8 +1,7 @@
 import { buildDestinationSlug } from "@/lib/seo/city-canonical";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { localizedPath } from "@/lib/i18n/routing";
-import { listDeHubSlugs } from "@/lib/seo/de-export-content";
-import { listZhHubSlugs } from "@/lib/seo/zh-export-content";
+import { isHubSlug, listHubEnabledLocales } from "@/lib/seo/hub-locale-registry";
 import { publicSiteOrigin } from "@/lib/seo/site-url";
 import type { Locale } from "@/lib/i18n/translations";
 
@@ -53,11 +52,10 @@ export function destinationIndexNowUrls(cityNameOrSlug: string): string[] {
       ? cityNameOrSlug
       : buildDestinationSlug(cityNameOrSlug);
   const urls = localizedCanonicalUrls(`/destinazioni/${slug}`);
-  if (listDeHubSlugs().includes(slug)) {
-    urls.push(canonicalUrl(localizedPath("de", `/destinazioni/${slug}`)));
-  }
-  if (listZhHubSlugs().includes(slug)) {
-    urls.push(canonicalUrl(localizedPath("zh", `/destinazioni/${slug}`)));
+  for (const locale of listHubEnabledLocales()) {
+    if (isHubSlug(locale, slug)) {
+      urls.push(canonicalUrl(localizedPath(locale, `/destinazioni/${slug}`)));
+    }
   }
   return [...new Set(urls)];
 }

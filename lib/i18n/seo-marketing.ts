@@ -1,6 +1,10 @@
+import { uiLocale } from "@/lib/i18n/ui-locale";
 import type { Locale } from "@/lib/i18n/translations";
-import { getDeHubContent, getDeHubFaq, getDeHomepageContent, isDeSeoLocale } from "@/lib/seo/de-export-content";
-import { getZhHubContent, getZhHubFaq, getZhHomepageContent, isZhSeoLocale } from "@/lib/seo/zh-export-content";
+import {
+  getHubCityContent,
+  getHubFaq,
+  getHubHomepageContent,
+} from "@/lib/seo/hub-locale-registry";
 
 export type FaqItem = { question: string; answer: string };
 export type HowItWorksStep = { title: string; description: string };
@@ -509,14 +513,15 @@ function getPropertyFaq(locale: Locale): FaqItem[] {
 }
 
 export function getHomeFaqSections(locale: Locale): FaqSectionGroup[] {
-  if (locale === "de" || locale === "en" || locale === "zh") {
+  if (locale !== "it") {
+    const ui = uiLocale(locale);
     return [
-      { title: locale === "de" ? "Für Reisende" : "For travellers", items: getTravellerFaq(locale === "de" ? "en" : locale === "zh" ? "en" : locale) },
+      { title: locale === "de" ? "Für Reisende" : "For travellers", items: getTravellerFaq(ui) },
       {
         title: locale === "de" ? "Für Gruppen und Reisebüros" : "For groups and travel agencies",
-        items: getAgencyGroupFaq(locale === "de" ? "en" : locale === "zh" ? "en" : locale),
+        items: getAgencyGroupFaq(ui),
       },
-      { title: locale === "de" ? "Für Unterkünfte" : "For properties", items: getPropertyFaq(locale === "de" ? "en" : locale === "zh" ? "en" : locale) },
+      { title: locale === "de" ? "Für Unterkünfte" : "For properties", items: getPropertyFaq(ui) },
     ];
   }
   return [
@@ -528,19 +533,16 @@ export function getHomeFaqSections(locale: Locale): FaqSectionGroup[] {
 
 /** Flat list for JSON-LD FAQPage schema. */
 export function getHomeFaq(locale: Locale): FaqItem[] {
-  if (locale === "de") {
-    const deFaq = getDeHomepageContent().faq.filter((item) => item.question && item.answer);
-    if (deFaq.length) return deFaq;
-  }
-  if (locale === "zh") {
-    const zhFaq = getZhHomepageContent().faq.filter((item) => item.question && item.answer);
-    if (zhFaq.length) return zhFaq;
-  }
+  const hubFaq = (getHubHomepageContent(locale)?.faq ?? []).filter(
+    (item) => item.question && item.answer,
+  );
+  if (hubFaq.length) return hubFaq;
+
   return getHomeFaqSections(locale).flatMap((section) => section.items);
 }
 
 export function getDestinationHowItWorks(locale: Locale, cityName: string): string[] {
-  if (locale === "en" || locale === "zh") {
+  if (uiLocale(locale) === "en") {
     return [
       `Create a free request for ${cityName} with dates, budget and preferences.`,
       `Compare direct offers from properties in ${cityName}.`,
@@ -560,18 +562,11 @@ export function getDestinationEditorial(
   structureCount: number,
   locale: Locale,
 ): string {
-  if (isDeSeoLocale(locale)) {
-    const deHub = getDeHubContent(slug);
-    if (deHub?.editorial) return deHub.editorial.replaceAll("{count}", String(structureCount));
-  }
-
-  if (isZhSeoLocale(locale)) {
-    const zhHub = getZhHubContent(slug);
-    if (zhHub?.editorial) return zhHub.editorial.replaceAll("{count}", String(structureCount));
-  }
+  const hubEditorial = getHubCityContent(locale, slug)?.editorial;
+  if (hubEditorial) return hubEditorial.replaceAll("{count}", String(structureCount));
 
   const premium = PREMIUM_DESTINATION_INTROS[slug];
-  if (premium) return locale === "en" || locale === "zh" ? premium.en : premium.it;
+  if (premium) return uiLocale(locale) === "en" ? premium.en : premium.it;
 
   if (locale === "en") {
     return `Browse ${structureCount} indexed properties in ${displayName}. Send one personalised request on HotelsDrop and receive direct proposals from local hosts without browsing multiple booking sites.`;
@@ -580,17 +575,12 @@ export function getDestinationEditorial(
 }
 
 export function getDestinationFaq(locale: Locale, cityName: string, slug?: string): FaqItem[] {
-  if (isDeSeoLocale(locale) && slug) {
-    const deFaq = getDeHubFaq(slug);
-    if (deFaq.length) return deFaq;
+  if (slug) {
+    const hubFaq = getHubFaq(locale, slug);
+    if (hubFaq.length) return hubFaq;
   }
 
-  if (isZhSeoLocale(locale) && slug) {
-    const zhFaq = getZhHubFaq(slug);
-    if (zhFaq.length) return zhFaq;
-  }
-
-  if (locale === "en" || locale === "zh") {
+  if (uiLocale(locale) === "en") {
     return [
       {
         question: `How do I get hotel offers in ${cityName}?`,
@@ -715,7 +705,7 @@ export function getAboutAudienceBlocks(locale: Locale) {
 }
 
 export function getMarketingLabels(locale: Locale) {
-  if (locale === "de" || locale === "en" || locale === "zh") {
+  if (locale !== "it") {
     return {
       howItWorksTitle: locale === "de" ? "So funktioniert HotelsDrop" : "How HotelsDrop works",
       howItWorksSubtitle:

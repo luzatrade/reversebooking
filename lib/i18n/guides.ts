@@ -203,11 +203,13 @@ export function guideSlugForLocale(slug: string, locale: Locale): string {
 export function guideSlugAlternates(slug: string): Record<Locale, string> {
   const key = getGuideCanonicalKey(slug);
   const row = slugMap[key];
+  const english = row?.en ?? key;
   return {
     it: row?.it ?? key,
-    en: row?.en ?? key,
-    de: row?.en ?? key,
-    zh: row?.en ?? key,
+    en: english,
+    de: english,
+    zh: english,
+    es: english,
   };
 }
 

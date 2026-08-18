@@ -1,21 +1,22 @@
 import type { NextRequest } from "next/server";
 import { LOCALE_COOKIE, isLocale } from "@/lib/i18n/cookie";
-import type { Locale } from "@/lib/i18n/translations";
+import { supportedLocales, type Locale } from "@/lib/i18n/translations";
 
 /** Cookie first, then Accept-Language primary tag, default Italian. */
 export function preferredLocaleFromRequest(request: NextRequest): Locale {
   const cookieValue = request.cookies.get(LOCALE_COOKIE)?.value;
   if (isLocale(cookieValue)) return cookieValue;
 
-  const header = request.headers.get("accept-language") ?? "";
-  const primary = header.split(",")[0]?.trim().toLowerCase() ?? "";
-  if (primary.startsWith("en")) return "en";
-  if (primary.startsWith("de")) return "de";
-  if (primary.startsWith("zh")) return "zh";
-  if (primary.startsWith("it")) return "it";
+  const header = (request.headers.get("accept-language") ?? "").toLowerCase();
+  const primary = header.split(",")[0]?.trim() ?? "";
 
-  if (/\bde[-_;]|[-_;]de\b/.test(header.toLowerCase())) return "de";
-  if (/\bzh[-_;]|[-_;]zh\b/.test(header.toLowerCase())) return "zh";
-  if (/\ben[-_;]|[-_;]en\b/.test(header.toLowerCase())) return "en";
+  const fromPrimary = supportedLocales.find((locale) => primary.startsWith(locale));
+  if (fromPrimary) return fromPrimary;
+
+  const fromAnywhere = supportedLocales.find((locale) =>
+    new RegExp(`\\b${locale}[-_;]|[-_;]${locale}\\b`).test(header),
+  );
+  if (fromAnywhere) return fromAnywhere;
+
   return "it";
 }

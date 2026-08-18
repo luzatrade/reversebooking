@@ -4,18 +4,12 @@ import { localizedPath } from "@/lib/i18n/routing";
 import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import {
-  getDeHubContent,
-  getDeHubMetaDescription,
-  getDeHubTitle,
-  isDeSeoLocale,
-} from "@/lib/seo/de-export-content";
-import {
-  getZhHubContent,
-  getZhHubMetaDescription,
-  getZhHubTitle,
-  isZhSeoLocale,
-} from "@/lib/seo/zh-export-content";
-import { usesEnglishHotelCatalog } from "@/lib/seo/hub-seo-locale";
+  getHubCityContent,
+  getHubMetaDescription,
+  getHubTitle,
+  hubLocaleConfig,
+  usesEnglishHotelCatalog,
+} from "@/lib/seo/hub-locale-registry";
 import { getDestinationDisplayName } from "@/lib/seo/destination-display-name";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import { isDestinationHubIndexable } from "@/lib/seo/destination-quality";
@@ -27,12 +21,9 @@ export function buildDestinationTitle(hub: DestinationHub, locale: Locale = "it"
   const city = getDestinationDisplayName(hub, locale).trim();
   const count = hub.structureCount;
 
-  if (isDeSeoLocale(locale)) {
-    return getDeHubTitle(hub.slug, city, count) ?? `Hotels in ${city}: ${count} Unterkünfte — Direktangebote`;
-  }
-
-  if (isZhSeoLocale(locale)) {
-    return getZhHubTitle(hub.slug, city, count) ?? `${city}酒店：${count}家房源 — 获取直接报价`;
+  const hubConfig = hubLocaleConfig(locale);
+  if (hubConfig) {
+    return getHubTitle(locale, hub.slug, city, count) ?? hubConfig.labels.hubTitleFallback(city, count);
   }
 
   if (locale === "en") {
@@ -45,15 +36,8 @@ export function buildDestinationDescription(hub: DestinationHub, locale: Locale)
   const city = getDestinationDisplayName(hub, locale);
   const count = hub.structureCount;
 
-  if (isDeSeoLocale(locale)) {
-    const deDescription = getDeHubMetaDescription(hub.slug, city, count);
-    if (deDescription) return trimSeoDescription(deDescription);
-  }
-
-  if (isZhSeoLocale(locale)) {
-    const zhDescription = getZhHubMetaDescription(hub.slug, city, count);
-    if (zhDescription) return trimSeoDescription(zhDescription);
-  }
+  const hubDescription = getHubMetaDescription(locale, hub.slug, city, count);
+  if (hubDescription) return trimSeoDescription(hubDescription);
 
   if (locale === "en") {
     return trimSeoDescription(
@@ -66,18 +50,9 @@ export function buildDestinationDescription(hub: DestinationHub, locale: Locale)
 }
 
 export function buildDestinationIntro(hub: DestinationHub, locale: Locale) {
-  if (isDeSeoLocale(locale)) {
-    const deHub = getDeHubContent(hub.slug);
-    if (deHub?.intro) {
-      return deHub.intro.replaceAll("{count}", String(hub.structureCount));
-    }
-  }
-
-  if (isZhSeoLocale(locale)) {
-    const zhHub = getZhHubContent(hub.slug);
-    if (zhHub?.intro) {
-      return zhHub.intro.replaceAll("{count}", String(hub.structureCount));
-    }
+  const hubIntro = getHubCityContent(locale, hub.slug)?.intro;
+  if (hubIntro) {
+    return hubIntro.replaceAll("{count}", String(hub.structureCount));
   }
 
   if (hub.tier === "premium") {
@@ -99,12 +74,12 @@ function absoluteTitle(title: string): string {
 
 export function buildDestinationMetadata(hub: DestinationHub, locale: Locale, page = 1): Metadata {
   const baseTitle = buildDestinationTitle(hub, locale);
-  const paginatedSuffix =
-    locale === "en" || locale === "zh"
+  const hubLabels = hubLocaleConfig(locale)?.labels;
+  const paginatedSuffix = hubLabels
+    ? hubLabels.paginationSuffix(page)
+    : locale === "en"
       ? ` · page ${page}`
-      : locale === "de"
-        ? ` · Seite ${page}`
-        : ` · pag. ${page}`;
+      : ` · pag. ${page}`;
   const title = page > 1 ? `${baseTitle}${paginatedSuffix}` : baseTitle;
   const description = buildDestinationDescription(hub, locale);
   const absolute = absoluteTitle(title);

@@ -1,0 +1,114 @@
+{
+  "version": "1.0.0",
+  "locale": "es",
+  "importedAt": "2026-08-18T20:45:00.000Z",
+  "hubSlugs": [
+    "roma",
+    "milano",
+    "napoli",
+    "firenze",
+    "venezia",
+    "torino",
+    "bologna",
+    "palermo",
+    "genova",
+    "bari",
+    "catania",
+    "verona",
+    "padova",
+    "brescia",
+    "parma",
+    "modena",
+    "reggio-calabria",
+    "messina",
+    "catanzaro",
+    "lecce",
+    "salerno",
+    "sorrento",
+    "pisa",
+    "siena",
+    "perugia",
+    "rimini",
+    "trieste",
+    "bolzano",
+    "cagliari",
+    "taormina"
+  ],
+  "homepage": {
+    "title": "HotelsDrop — Reverse booking, hoteles sin comisiones",
+    "metaDescription": "Reverse booking para hoteles: publica una solicitud de alojamiento y recibe ofertas directas. Gratis para viajeros, grupos y agencias; los alojamientos pagan una suscripción.",
+    "heroHeadline": "Publica tu solicitud y recibe ofertas directas de los hoteles",
+    "heroSubheadline": "Gratis para viajeros. Sin comisiones de reserva.",
+    "heroEntityIntro": "En HotelsDrop los hoteles compiten por ti: una solicitud, propuestas personalizadas y cero comisiones para quien viaja.",
+    "ui": {
+      "showcase": {
+        "dropYourRequest": "Publica tu solicitud",
+        "discoverWhereToStayCta": "Descubre dónde alojarte en {city}",
+        "lastMinuteCta": "Última hora",
+        "exploreMapCta": "Explorar en el mapa",
+        "citySearchPlaceholder": "Ciudad o alojamiento del catálogo",
+        "selectCity": "Selecciona ciudad",
+        "clearSelectedCity": "Borrar ciudad seleccionada",
+        "dropYourRequestHintCta": "Descubre cómo funciona HotelsDrop",
+        "cardProfile": "Perfil",
+        "cardRequest": "Enviar solicitud",
+        "cardMap": "Mapa"
+      },
+      "common": {
+        "login": "Iniciar sesión"
+      },
+      "site": {
+        "contacts": "Contacto",
+        "becomePartner": "Hazte partner",
+        "registration": "Regístrate"
+      }
+    },
+    "faq": [
+      {
+        "question": "¿Qué es el reverse booking?",
+        "answer": "Publicas una solicitud con tus fechas y tu presupuesto, y los alojamientos te responden con ofertas directas."
+      },
+      {
+        "question": "¿HotelsDrop es gratis para los viajeros?",
+        "answer": "Sí. Publicar una solicitud y comparar las ofertas recibidas es gratuito para quien viaja."
+      },
+      {
+        "question": "¿Quién paga el servicio?",
+        "answer": "Los alojamientos participan con una suscripción mensual, sin comisiones sobre las reservas."
+      }
+    ]
+  },
+  "cityDisplayNames": {
+    "roma": "Roma",
+    "milano": "Milán",
+    "napoli": "Nápoles",
+    "firenze": "Florencia",
+    "venezia": "Venecia",
+    "torino": "Turín",
+    "bologna": "Bolonia",
+    "palermo": "Palermo",
+    "genova": "Génova",
+    "bari": "Bari",
+    "catania": "Catania",
+    "verona": "Verona",
+    "padova": "Padua",
+    "brescia": "Brescia",
+    "parma": "Parma",
+    "modena": "Módena",
+    "reggio-calabria": "Regio de Calabria",
+    "messina": "Mesina",
+    "catanzaro": "Catanzaro",
+    "lecce": "Lecce",
+    "salerno": "Salerno",
+    "sorrento": "Sorrento",
+    "pisa": "Pisa",
+    "siena": "Siena",
+    "perugia": "Perugia",
+    "rimini": "Rímini",
+    "trieste": "Trieste",
+    "bolzano": "Bolzano",
+    "cagliari": "Cagliari",
+    "taormina": "Taormina"
+  },
+  "hubs": {}
+}

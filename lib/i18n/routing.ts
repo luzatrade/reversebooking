@@ -1,10 +1,15 @@
 import { LOCALE_COOKIE } from "@/lib/i18n/cookie";
 import { guideSlugForLocale } from "@/lib/i18n/guides";
-import type { Locale } from "@/lib/i18n/translations";
+import { supportedLocales, type Locale } from "@/lib/i18n/translations";
 import { buildDestinationSlug, resolveDestinationHubSlug } from "@/lib/seo/city-canonical";
-import { deAlternateInternalPath } from "@/lib/seo/de-export-content";
-import { isHubSeoPublicInternalPath } from "@/lib/seo/hub-seo-locale";
-import { zhAlternateInternalPath } from "@/lib/seo/zh-export-content";
+import {
+  hubAlternateInternalPath,
+  hubLocaleConfig,
+  isHubSeoLocale,
+  isHubSeoPublicInternalPath,
+  listHubEnabledLocales,
+  listHubSeoLocales,
+} from "@/lib/seo/hub-locale-registry";
 
 export const LOCALE_HEADER = "x-next-locale";
 
@@ -16,22 +21,29 @@ export const DEFAULT_LOCALE: Locale = "it";
 
 export function isLocaleHomePath(pathname: string): boolean {
   const path = pathname.split("?")[0]?.replace(/\/+$/, "") || "/";
-  return path === "/" || path === "/it" || path === "/en" || path === "/de" || path === "/zh";
+  if (path === "/") return true;
+  return supportedLocales.some((locale) => path === `/${locale}`);
 }
 
 const DESTINATION_SEGMENT: Record<Locale, string> = {
   it: "destinazioni",
   en: "destinations",
-  de: "reiseziele",
-  zh: "destinations",
+  de: hubLocaleConfig("de")!.destinationSegment,
+  zh: hubLocaleConfig("zh")!.destinationSegment,
+  es: hubLocaleConfig("es")!.destinationSegment,
 };
+
+const DESTINATION_SEGMENTS = new Set<string>(Object.values(DESTINATION_SEGMENT));
 
 const GUIDE_SEGMENT: Record<Locale, string> = {
   it: "guide",
   en: "guides",
   de: "guides",
   zh: "guides",
+  es: "guides",
 };
+
+const LOCALE_PREFIX_PATTERN = new RegExp(`^/(${supportedLocales.join("|")})(/.*)?$`);
 
 const PUBLIC_SEO_PREFIXES = [
   "/destinazioni",
@@ -69,7 +81,7 @@ const LOCALE_SKIP_PREFIXES = [
 ];
 
 export function isLocale(value: string | null | undefined): value is Locale {
-  return value === "it" || value === "en" || value === "de" || value === "zh";
+  return !!value && (supportedLocales as string[]).includes(value);
 }
 
 export function destinationSegment(locale: Locale): string {
@@ -91,28 +103,11 @@ export function resolveDestinationPublicSlug(publicSlug: string): string {
 }
 
 function translateExternalSegment(segment: string, locale: Locale, toInternal: boolean): string {
-  if (toInternal) {
-    if (
-      segment === DESTINATION_SEGMENT.it ||
-      segment === DESTINATION_SEGMENT.en ||
-      segment === DESTINATION_SEGMENT.de ||
-      segment === DESTINATION_SEGMENT.zh
-    ) {
-      return DESTINATION_SEGMENT.it;
-    }
-    if (segment === GUIDE_SEGMENT.it || segment === GUIDE_SEGMENT.en) return GUIDE_SEGMENT.it;
-    return segment;
-  }
-  if (
-    segment === DESTINATION_SEGMENT.it ||
-    segment === DESTINATION_SEGMENT.en ||
-    segment === DESTINATION_SEGMENT.de ||
-    segment === DESTINATION_SEGMENT.zh
-  ) {
-    return DESTINATION_SEGMENT[locale];
+  if (DESTINATION_SEGMENTS.has(segment)) {
+    return toInternal ? DESTINATION_SEGMENT.it : DESTINATION_SEGMENT[locale];
   }
   if (segment === GUIDE_SEGMENT.it || segment === GUIDE_SEGMENT.en) {
-    return GUIDE_SEGMENT[locale];
+    return toInternal ? GUIDE_SEGMENT.it : GUIDE_SEGMENT[locale];
   }
   return segment;
 }
@@ -157,7 +152,7 @@ export function localizedCanonicalPath(locale: Locale, internalPath = "/"): stri
 }
 
 export function stripLocalePrefix(pathname: string): { locale: Locale | null; pathname: string } {
-  const match = pathname.match(/^\/(it|en|de|zh)(\/.*)?$/);
+  const match = pathname.match(LOCALE_PREFIX_PATTERN);
   if (!match) return { locale: null, pathname };
   const locale = match[1] as Locale;
   const rest = match[2] ?? "/";
@@ -190,14 +185,8 @@ export function shouldSkipLocaleMiddleware(pathname: string): boolean {
 
 /** Lightweight SEO export locales: homepage + whitelisted destination hubs only. */
 export function isHubSeoPublicInternalPathForLocale(internalPath: string, locale: Locale): boolean {
-  if (locale === "de") return isHubSeoPublicInternalPath(internalPath, "de");
-  if (locale === "zh") return isHubSeoPublicInternalPath(internalPath, "zh");
-  return true;
-}
-
-/** @deprecated Use isHubSeoPublicInternalPathForLocale */
-export function isDePublicInternalPath(internalPath: string): boolean {
-  return isHubSeoPublicInternalPath(internalPath, "de");
+  if (!isHubSeoLocale(locale)) return true;
+  return isHubSeoPublicInternalPath(internalPath, locale);
 }
 
 export function switchLocalePath(pathname: string, targetLocale: Locale): string {
@@ -216,7 +205,7 @@ export function destinationPublicPath(citySlugOrName: string, locale: Locale = D
 }
 
 export function structurePublicPath(slug: string, locale: Locale = DEFAULT_LOCALE): string {
-  if (locale === "de" || locale === "zh") return localizedPath("en", `/hotel/${slug}`);
+  if (isHubSeoLocale(locale)) return localizedPath("en", `/hotel/${slug}`);
   return localizedPath(locale, `/hotel/${slug}`);
 }
 
@@ -240,8 +229,8 @@ export function localeCookieOptions(locale: Locale) {
 
 export function hreflangCode(locale: Locale): string {
   if (locale === "en") return "en-GB";
-  if (locale === "de") return "de-DE";
-  if (locale === "zh") return "zh-CN";
+  const hubConfig = hubLocaleConfig(locale);
+  if (hubConfig) return hubConfig.hreflang;
   return "it-IT";
 }
 
@@ -252,13 +241,16 @@ export function allLocalizedPaths(internalPath = "/"): Record<string, string> {
     "x-default": localizedPath(DEFAULT_LOCALE, internalPath),
   };
 
-  if (deAlternateInternalPath(internalPath)) {
-    paths["de-DE"] = localizedPath("de", internalPath);
-  }
-
-  if (zhAlternateInternalPath(internalPath)) {
-    paths["zh-CN"] = localizedPath("zh", internalPath);
+  for (const locale of listHubEnabledLocales()) {
+    if (hubAlternateInternalPath(locale, internalPath)) {
+      paths[hreflangCode(locale)] = localizedPath(locale, internalPath);
+    }
   }
 
   return paths;
+}
+
+/** Hub-only locales whose homepage is published, for sitemap and IndexNow. */
+export function hubSeoHomepagePaths(): string[] {
+  return listHubSeoLocales().map((locale) => localizedPath(locale, "/"));
 }
