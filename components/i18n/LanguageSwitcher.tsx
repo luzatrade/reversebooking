@@ -23,11 +23,14 @@ export function LanguageSwitcher({ compact = false }: LanguageSwitcherProps) {
   const pathname = usePathname();
 
   const onChange = (nextLocale: Locale) => {
-    const target = switchLocalePath(pathname, nextLocale);
-    if (target === pathname) return;
-    // Full navigation so middleware rewrites + server hero/metadata refresh (DE/ZH SEO copy).
+    const browserPath = window.location.pathname || pathname;
+    const target = switchLocalePath(browserPath, nextLocale);
     persistLocaleClient(nextLocale);
-    window.location.assign(target);
+    if (target === browserPath) {
+      window.location.reload();
+      return;
+    }
+    window.location.assign(`${target}${window.location.search}`);
   };
 
   const options = supportedLocales.map((item) => (

@@ -18,7 +18,7 @@ import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib
 import { buildHomepageSeoCopy } from "@/lib/seo/homepage-metadata";
 import { fetchShowcaseHomeInitialData } from "@/lib/showcase/homeData";
 
-export const revalidate = 60;
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getServerTranslations();

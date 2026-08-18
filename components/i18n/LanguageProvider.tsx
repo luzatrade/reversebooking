@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { persistLocaleClient } from "@/lib/i18n/cookie";
 import { getTranslations, type Translations } from "@/lib/i18n/messages";
 import { parseLocalePath } from "@/lib/i18n/routing";
+import { mergeHubHomepageTranslations } from "@/lib/seo/hub-homepage-ui";
 import { Locale } from "@/lib/i18n/translations";
 
 type TranslationValue = Translations;
@@ -36,18 +37,18 @@ export function LanguageProvider({
     document.documentElement.lang = nextLocale;
   };
 
-  // URL prefix + middleware header are the source of truth for SSR copy.
   useEffect(() => {
-    setLocaleState(resolvedLocale);
-    persistLocaleClient(resolvedLocale);
-    document.documentElement.lang = resolvedLocale;
+    const fromBrowser = parseLocalePath(window.location.pathname)?.locale ?? resolvedLocale;
+    setLocaleState(fromBrowser);
+    persistLocaleClient(fromBrowser);
+    document.documentElement.lang = fromBrowser;
   }, [resolvedLocale]);
 
   const value = useMemo<LanguageContextValue>(
     () => ({
       locale,
       setLocale,
-      t: getTranslations(locale),
+      t: mergeHubHomepageTranslations(getTranslations(locale), locale),
     }),
     [locale],
   );

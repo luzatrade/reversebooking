@@ -5,6 +5,8 @@ import {
   isHubSeoPublicInternalPathForLocale,
   isPublicSeoPath,
   localeCookieOptions,
+  HD_LOCALE_HEADER,
+  HD_PATHNAME_HEADER,
   LOCALE_HEADER,
   localizedPath,
   parseLocalePath,
@@ -53,6 +55,8 @@ function handleLocale(request: NextRequest): NextResponse | null {
     url.pathname = parsed.internalPath;
     const requestHeaders = new Headers(request.headers);
     requestHeaders.set(LOCALE_HEADER, parsed.locale);
+    requestHeaders.set(HD_LOCALE_HEADER, parsed.locale);
+    requestHeaders.set(HD_PATHNAME_HEADER, pathname);
     const response = NextResponse.rewrite(url, {
       request: { headers: requestHeaders },
     });

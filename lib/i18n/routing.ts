@@ -8,7 +8,16 @@ import { zhAlternateInternalPath } from "@/lib/seo/zh-export-content";
 
 export const LOCALE_HEADER = "x-next-locale";
 
+/** Forwarded on rewrite. Avoid `x-next-*` so Next does not strip it from RSC `headers()`. */
+export const HD_LOCALE_HEADER = "x-hd-locale";
+export const HD_PATHNAME_HEADER = "x-hd-pathname";
+
 export const DEFAULT_LOCALE: Locale = "it";
+
+export function isLocaleHomePath(pathname: string): boolean {
+  const path = pathname.split("?")[0]?.replace(/\/+$/, "") || "/";
+  return path === "/" || path === "/it" || path === "/en" || path === "/de" || path === "/zh";
+}
 
 const DESTINATION_SEGMENT: Record<Locale, string> = {
   it: "destinazioni",
