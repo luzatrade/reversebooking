@@ -142,21 +142,36 @@ async function checkSitemap(locales) {
     for (const match of xml.matchAll(/<loc>([^<]+)<\/loc>/g)) urls.add(match[1]);
   }
 
+  const hubSlugsInSitemap = (prefix) =>
+    new Set(
+      [...urls]
+        .map((url) => new URL(url).pathname)
+        .filter((pathname) => pathname.startsWith(`${prefix}/`) && pathname.split("/").length === 4)
+        .map((pathname) => pathname.split("/").pop()),
+    );
+
+  /** Hubs failing the quality gate are absent for every locale, italian included. */
+  const indexableHubs = hubSlugsInSitemap("/it");
+
   for (const { locale, content } of locales) {
     const homepageListed = urls.has(`${BASE}/${locale}`) || urls.has(`${BASE}/${locale}/`);
     record(locale, "homepage in sitemap", homepageListed);
 
-    const expectedHubs = Object.keys(content.hubs ?? {}).length;
-    const listedHubs = [...urls].filter((url) => {
-      const { pathname } = new URL(url);
-      return pathname.startsWith(`/${locale}/`) && pathname.split("/").length === 4;
-    }).length;
+    const packSlugs = Object.keys(content.hubs ?? {});
+    const expected = packSlugs.filter((slug) => indexableHubs.has(slug));
+    const listed = hubSlugsInSitemap(`/${locale}`);
+    const missing = expected.filter((slug) => !listed.has(slug));
+    const skipped = packSlugs.filter((slug) => !indexableHubs.has(slug));
+
     record(
       locale,
-      `hub in sitemap: ${listedHubs}/${expectedHubs}`,
-      listedHubs === expectedHubs,
-      `attesi ${expectedHubs}, trovati ${listedHubs}`,
+      `hub in sitemap: ${expected.length - missing.length}/${expected.length}`,
+      missing.length === 0,
+      `mancanti: ${missing.join(", ")}`,
     );
+    if (skipped.length) {
+      console.log(`  [SKIP] fuori dal gate qualità (assenti anche in IT): ${skipped.join(", ")}`);
+    }
   }
 }
 

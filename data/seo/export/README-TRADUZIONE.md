@@ -45,13 +45,26 @@ L'agente leggerà i JSON da questa cartella.
 
 ## Lingue previste
 
-| Codice | Segmento hub | hreflang |
-|--------|----------------|----------|
-| `de` | `/de/reiseziele/` | `de-DE` |
-| `fr` | `/fr/destinations/` | `fr-FR` |
-| `es` | `/es/destinos/` | `es-ES` |
+| Codice | Segmento hub | hreflang | Stato |
+|--------|----------------|----------|-------|
+| `de` | `/de/reiseziele/` | `de-DE` | homepage + 30 hub |
+| `zh` | `/zh/destinations/` | `zh-CN` | homepage + 30 hub |
+| `es` | `/es/destinos/` | `es` | solo homepage (hub in attesa di copy) |
+| `fr` | `/fr/destinations/` | `fr-FR` | non attiva |
 
 Hotel: sempre canonical `/en/hotel/...` — **non tradurre** schede hotel.
+
+## Aggiungere una lingua
+
+Tutta la configurazione sta in `lib/seo/hub-locale-registry.ts`. Non serve toccare
+routing, sitemap, IndexNow o metadata: leggono dal registro.
+
+1. Aggiungi il file `data/seo/export/<locale>/content.json` (homepage, `ui`, `cityDisplayNames`, `hubs`).
+2. Aggiungi la voce nel registro: segmento URL, hreflang, OG locale, label hub.
+3. Aggiungi il locale in `supportedLocales` e `localeLabels` (`lib/i18n/translations.ts`) e la bandiera nel `LanguageSwitcher`.
+4. Tieni `hubsEnabled: false` fino a quando esiste copy unica per ogni città: evita 30 pagine template thin.
+5. Prima del push: `npm run verify` (typecheck + build). Un build rotto su Vercel lascia online la versione precedente senza errori visibili.
+6. Dopo il deploy: `npm run seo:check-locales` e poi `npm run seo:indexnow-hubs`.
 
 ## Rigenerare export da codice
 
