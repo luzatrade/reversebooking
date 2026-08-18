@@ -3,7 +3,7 @@
 import { createContext, ReactNode, useContext, useEffect, useMemo, useState } from "react";
 import { LOCALE_COOKIE } from "@/lib/i18n/cookie";
 import { getTranslations, type Translations } from "@/lib/i18n/messages";
-import { Locale, supportedLocales } from "@/lib/i18n/translations";
+import { Locale } from "@/lib/i18n/translations";
 
 type TranslationValue = Translations;
 
@@ -33,16 +33,14 @@ export function LanguageProvider({
     document.documentElement.lang = nextLocale;
   };
 
-  // Riconciliazione post-mount con eventuale preferenza salvata solo in
-  // localStorage (utenti precedenti senza cookie): avviene dopo l'hydration,
-  // quindi non genera mismatch, e riallinea anche il cookie.
+  // URL + cookie (middleware) are the source of truth for SSR copy. Keep client
+  // state and localStorage aligned so a stale preference cannot desync the UI.
   useEffect(() => {
-    const saved = window.localStorage.getItem(LOCALE_COOKIE);
-    if (saved && supportedLocales.includes(saved as Locale) && saved !== initialLocale) {
-      setLocale(saved as Locale);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+    setLocaleState(initialLocale);
+    window.localStorage.setItem(LOCALE_COOKIE, initialLocale);
+    document.cookie = `${LOCALE_COOKIE}=${initialLocale}; path=/; max-age=31536000; SameSite=Lax`;
+    document.documentElement.lang = initialLocale;
+  }, [initialLocale]);
 
   useEffect(() => {
     document.documentElement.lang = locale;
