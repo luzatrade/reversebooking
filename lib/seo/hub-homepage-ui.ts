@@ -4,25 +4,23 @@ import { getDeHomepageContent } from "@/lib/seo/de-export-content";
 import { isHubSeoLocale } from "@/lib/seo/hub-seo-locale";
 import { getZhHomepageContent } from "@/lib/seo/zh-export-content";
 
+type ShowcaseUiKey =
+  | "dropYourRequest"
+  | "discoverWhereToStayCta"
+  | "lastMinuteCta"
+  | "exploreMapCta"
+  | "citySearchPlaceholder"
+  | "selectCity"
+  | "clearSelectedCity"
+  | "dropYourRequestHintCta"
+  | "cardProfile"
+  | "cardRequest"
+  | "cardMap";
+
 export type HubHomepageUi = {
-  showcase?: Partial<
-    Pick<
-      Translations["showcase"],
-      | "dropYourRequest"
-      | "discoverWhereToStayCta"
-      | "lastMinuteCta"
-      | "exploreMapCta"
-      | "citySearchPlaceholder"
-      | "selectCity"
-      | "clearSelectedCity"
-      | "dropYourRequestHintCta"
-      | "cardProfile"
-      | "cardRequest"
-      | "cardMap"
-    >
-  >;
-  common?: Partial<Pick<Translations["common"], "login">>;
-  site?: Partial<Pick<Translations["site"], "contacts" | "becomePartner" | "registration">>;
+  showcase?: Partial<Record<ShowcaseUiKey, string>>;
+  common?: { login?: string };
+  site?: { contacts?: string; becomePartner?: string; registration?: string };
 };
 
 function getHubHomepageUi(locale: Locale): HubHomepageUi | null {
@@ -40,8 +38,8 @@ export function mergeHubHomepageTranslations(t: Translations, locale: Locale): T
 
   return {
     ...t,
-    common: ui.common ? { ...t.common, ...ui.common } : t.common,
-    site: ui.site ? { ...t.site, ...ui.site } : t.site,
-    showcase: ui.showcase ? { ...t.showcase, ...ui.showcase } : t.showcase,
-  };
+    common: { ...t.common, ...ui.common },
+    site: { ...t.site, ...ui.site },
+    showcase: { ...t.showcase, ...ui.showcase },
+  } as Translations;
 }
