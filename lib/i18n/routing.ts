@@ -1,8 +1,8 @@
 import { LOCALE_COOKIE } from "@/lib/i18n/cookie";
 import { guideSlugForLocale } from "@/lib/i18n/guides";
 import type { Locale } from "@/lib/i18n/translations";
-import { buildDestinationSlug, canonicalCityKey, resolveDestinationHubSlug } from "@/lib/seo/city-canonical";
-import { slugifySeo } from "@/lib/seo/slug";
+import { buildDestinationSlug, resolveDestinationHubSlug } from "@/lib/seo/city-canonical";
+import { deAlternateInternalPath, isDeHubSlug } from "@/lib/seo/de-export-content";
 
 export const LOCALE_HEADER = "x-next-locale";
 
@@ -11,11 +11,13 @@ export const DEFAULT_LOCALE: Locale = "it";
 const DESTINATION_SEGMENT: Record<Locale, string> = {
   it: "destinazioni",
   en: "destinations",
+  de: "reiseziele",
 };
 
 const GUIDE_SEGMENT: Record<Locale, string> = {
   it: "guide",
   en: "guides",
+  de: "guides",
 };
 
 const PUBLIC_SEO_PREFIXES = [
@@ -54,7 +56,7 @@ const LOCALE_SKIP_PREFIXES = [
 ];
 
 export function isLocale(value: string | null | undefined): value is Locale {
-  return value === "it" || value === "en";
+  return value === "it" || value === "en" || value === "de";
 }
 
 export function destinationSegment(locale: Locale): string {
@@ -77,11 +79,21 @@ export function resolveDestinationPublicSlug(publicSlug: string): string {
 
 function translateExternalSegment(segment: string, locale: Locale, toInternal: boolean): string {
   if (toInternal) {
-    if (segment === DESTINATION_SEGMENT.it || segment === DESTINATION_SEGMENT.en) return DESTINATION_SEGMENT.it;
+    if (
+      segment === DESTINATION_SEGMENT.it ||
+      segment === DESTINATION_SEGMENT.en ||
+      segment === DESTINATION_SEGMENT.de
+    ) {
+      return DESTINATION_SEGMENT.it;
+    }
     if (segment === GUIDE_SEGMENT.it || segment === GUIDE_SEGMENT.en) return GUIDE_SEGMENT.it;
     return segment;
   }
-  if (segment === DESTINATION_SEGMENT.it || segment === DESTINATION_SEGMENT.en) {
+  if (
+    segment === DESTINATION_SEGMENT.it ||
+    segment === DESTINATION_SEGMENT.en ||
+    segment === DESTINATION_SEGMENT.de
+  ) {
     return DESTINATION_SEGMENT[locale];
   }
   if (segment === GUIDE_SEGMENT.it || segment === GUIDE_SEGMENT.en) {
@@ -100,7 +112,7 @@ function externalPathFromInternal(internalPath: string, locale: Locale): string 
     if (parts[1]) parts[1] = resolveDestinationPublicSlug(parts[1]);
   } else if (parts[0] === "guide") {
     parts[0] = GUIDE_SEGMENT[locale];
-    if (parts[1]) parts[1] = guideSlugForLocale(parts[1], locale);
+    if (parts[1]) parts[1] = guideSlugForLocale(parts[1], locale === "de" ? "en" : locale);
   }
   return `/${parts.join("/")}`;
 }
@@ -130,7 +142,7 @@ export function localizedCanonicalPath(locale: Locale, internalPath = "/"): stri
 }
 
 export function stripLocalePrefix(pathname: string): { locale: Locale | null; pathname: string } {
-  const match = pathname.match(/^\/(it|en)(\/.*)?$/);
+  const match = pathname.match(/^\/(it|en|de)(\/.*)?$/);
   if (!match) return { locale: null, pathname };
   const locale = match[1] as Locale;
   const rest = match[2] ?? "/";
@@ -161,6 +173,14 @@ export function shouldSkipLocaleMiddleware(pathname: string): boolean {
   );
 }
 
+/** German SEO export: homepage + whitelisted destination hubs only. */
+export function isDePublicInternalPath(internalPath: string): boolean {
+  const normalized = normalizeInternalPath(internalPath);
+  if (normalized === "/") return true;
+  const match = normalized.match(/^\/destinazioni\/([^/]+)$/);
+  return Boolean(match && isDeHubSlug(match[1]!));
+}
+
 export function switchLocalePath(pathname: string, targetLocale: Locale): string {
   const parsed = parseLocalePath(pathname);
   if (parsed) return localizedPath(targetLocale, parsed.internalPath);
@@ -177,11 +197,12 @@ export function destinationPublicPath(citySlugOrName: string, locale: Locale = D
 }
 
 export function structurePublicPath(slug: string, locale: Locale = DEFAULT_LOCALE): string {
+  if (locale === "de") return localizedPath("en", `/hotel/${slug}`);
   return localizedPath(locale, `/hotel/${slug}`);
 }
 
 export function guidePublicPath(slug: string, locale: Locale = DEFAULT_LOCALE): string {
-  return localizedPath(locale, `/guide/${slug}`);
+  return localizedPath(locale === "de" ? "en" : locale, `/guide/${slug}`);
 }
 
 export function homePath(locale: Locale = DEFAULT_LOCALE): string {
@@ -199,13 +220,21 @@ export function localeCookieOptions(locale: Locale) {
 }
 
 export function hreflangCode(locale: Locale): string {
-  return locale === "en" ? "en-GB" : "it-IT";
+  if (locale === "en") return "en-GB";
+  if (locale === "de") return "de-DE";
+  return "it-IT";
 }
 
 export function allLocalizedPaths(internalPath = "/"): Record<string, string> {
-  return {
+  const paths: Record<string, string> = {
     "it-IT": localizedPath("it", internalPath),
     "en-GB": localizedPath("en", internalPath),
     "x-default": localizedPath(DEFAULT_LOCALE, internalPath),
   };
+
+  if (deAlternateInternalPath(internalPath)) {
+    paths["de-DE"] = localizedPath("de", internalPath);
+  }
+
+  return paths;
 }

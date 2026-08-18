@@ -4,6 +4,7 @@ import { SeoBreadcrumb } from "@/components/seo/SeoBreadcrumb";
 import { getServerLocale } from "@/lib/i18n/get-translations";
 import { getGuideBySlug } from "@/lib/i18n/guides";
 import { guidePublicPath, guideSegment, homePath, localizedPath } from "@/lib/i18n/routing";
+import type { Locale } from "@/lib/i18n/translations";
 
 type Props = {
   slug: string;
@@ -58,7 +59,7 @@ export async function GuideArticlePage({ slug }: Props) {
   );
 }
 
-export function guideArticleMetadata(guide: NonNullable<ReturnType<typeof getGuideBySlug>>, locale: "it" | "en") {
+export function guideArticleMetadata(guide: NonNullable<ReturnType<typeof getGuideBySlug>>, locale: Locale) {
   return {
     title: `${guide.title} · HotelsDrop`,
     description: guide.description,

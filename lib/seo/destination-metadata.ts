@@ -3,6 +3,13 @@ import { BRAND_NAME } from "@/lib/legal/company";
 import { localizedPath } from "@/lib/i18n/routing";
 import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
 import { canonicalUrl } from "@/lib/seo/canonical";
+import {
+  getDeHubContent,
+  getDeHubMetaDescription,
+  getDeHubTitle,
+  isDeSeoLocale,
+} from "@/lib/seo/de-export-content";
+import { getDestinationDisplayName } from "@/lib/seo/destination-display-name";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import { isDestinationHubIndexable } from "@/lib/seo/destination-quality";
 import { trimSeoDescription } from "@/lib/seo/serp-copy";
@@ -10,8 +17,12 @@ import type { DestinationHub } from "@/lib/seo/destination-queries";
 import type { Locale } from "@/lib/i18n/translations";
 
 export function buildDestinationTitle(hub: DestinationHub, locale: Locale = "it"): string {
-  const city = hub.displayName.trim();
+  const city = getDestinationDisplayName(hub, locale).trim();
   const count = hub.structureCount;
+
+  if (isDeSeoLocale(locale)) {
+    return getDeHubTitle(hub.slug, city, count) ?? `Hotels in ${city}: ${count} Unterkünfte — Direktangebote`;
+  }
 
   if (locale === "en") {
     return `Hotels in ${city}: ${count} properties — Get direct offers`;
@@ -20,8 +31,13 @@ export function buildDestinationTitle(hub: DestinationHub, locale: Locale = "it"
 }
 
 export function buildDestinationDescription(hub: DestinationHub, locale: Locale) {
-  const city = hub.displayName;
+  const city = getDestinationDisplayName(hub, locale);
   const count = hub.structureCount;
+
+  if (isDeSeoLocale(locale)) {
+    const deDescription = getDeHubMetaDescription(hub.slug, city, count);
+    if (deDescription) return trimSeoDescription(deDescription);
+  }
 
   if (locale === "en") {
     return trimSeoDescription(
@@ -34,6 +50,13 @@ export function buildDestinationDescription(hub: DestinationHub, locale: Locale)
 }
 
 export function buildDestinationIntro(hub: DestinationHub, locale: Locale) {
+  if (isDeSeoLocale(locale)) {
+    const deHub = getDeHubContent(hub.slug);
+    if (deHub?.intro) {
+      return deHub.intro.replaceAll("{count}", String(hub.structureCount));
+    }
+  }
+
   if (hub.tier === "premium") {
     if (locale === "en") {
       return `Explore ${hub.structureCount} lodgings in ${hub.displayName}. On ${BRAND_NAME} you can compare properties and request tailored offers without browsing dozens of booking sites.`;
@@ -53,7 +76,8 @@ function absoluteTitle(title: string): string {
 
 export function buildDestinationMetadata(hub: DestinationHub, locale: Locale, page = 1): Metadata {
   const baseTitle = buildDestinationTitle(hub, locale);
-  const paginatedSuffix = locale === "en" ? ` · page ${page}` : ` · pag. ${page}`;
+  const paginatedSuffix =
+    locale === "en" ? ` · page ${page}` : locale === "de" ? ` · Seite ${page}` : ` · pag. ${page}`;
   const title = page > 1 ? `${baseTitle}${paginatedSuffix}` : baseTitle;
   const description = buildDestinationDescription(hub, locale);
   const absolute = absoluteTitle(title);
@@ -89,7 +113,7 @@ export function buildDestinationJsonLd(
   locale: Locale = "it",
 ) {
   const heroUrl = getDestinationCityPhoto(hub);
-  const hotelPath = (slug: string) => localizedPath(locale, `/hotel/${slug}`);
+  const hotelPath = (slug: string) => localizedPath(locale === "de" ? "en" : locale, `/hotel/${slug}`);
 
   return {
     "@context": "https://schema.org",

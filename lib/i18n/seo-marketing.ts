@@ -1,4 +1,5 @@
 import type { Locale } from "@/lib/i18n/translations";
+import { getDeHubContent, getDeHubFaq, getDeHomepageContent, isDeSeoLocale } from "@/lib/seo/de-export-content";
 
 export type FaqItem = { question: string; answer: string };
 export type HowItWorksStep = { title: string; description: string };
@@ -507,11 +508,14 @@ function getPropertyFaq(locale: Locale): FaqItem[] {
 }
 
 export function getHomeFaqSections(locale: Locale): FaqSectionGroup[] {
-  if (locale === "en") {
+  if (locale === "de" || locale === "en") {
     return [
-      { title: "For travellers", items: getTravellerFaq(locale) },
-      { title: "For groups and travel agencies", items: getAgencyGroupFaq(locale) },
-      { title: "For properties", items: getPropertyFaq(locale) },
+      { title: locale === "de" ? "Für Reisende" : "For travellers", items: getTravellerFaq(locale === "de" ? "en" : locale) },
+      {
+        title: locale === "de" ? "Für Gruppen und Reisebüros" : "For groups and travel agencies",
+        items: getAgencyGroupFaq(locale === "de" ? "en" : locale),
+      },
+      { title: locale === "de" ? "Für Unterkünfte" : "For properties", items: getPropertyFaq(locale === "de" ? "en" : locale) },
     ];
   }
   return [
@@ -523,6 +527,10 @@ export function getHomeFaqSections(locale: Locale): FaqSectionGroup[] {
 
 /** Flat list for JSON-LD FAQPage schema. */
 export function getHomeFaq(locale: Locale): FaqItem[] {
+  if (locale === "de") {
+    const deFaq = getDeHomepageContent().faq.filter((item) => item.question && item.answer);
+    if (deFaq.length) return deFaq;
+  }
   return getHomeFaqSections(locale).flatMap((section) => section.items);
 }
 
@@ -547,6 +555,11 @@ export function getDestinationEditorial(
   structureCount: number,
   locale: Locale,
 ): string {
+  if (isDeSeoLocale(locale)) {
+    const deHub = getDeHubContent(slug);
+    if (deHub?.editorial) return deHub.editorial.replaceAll("{count}", String(structureCount));
+  }
+
   const premium = PREMIUM_DESTINATION_INTROS[slug];
   if (premium) return locale === "en" ? premium.en : premium.it;
 
@@ -556,7 +569,12 @@ export function getDestinationEditorial(
   return `Scopri ${structureCount} strutture indicizzate a ${displayName}. Invia una richiesta personalizzata su HotelsDrop e ricevi proposte dirette dalle strutture locali, senza cercare su decine di portali.`;
 }
 
-export function getDestinationFaq(locale: Locale, cityName: string): FaqItem[] {
+export function getDestinationFaq(locale: Locale, cityName: string, slug?: string): FaqItem[] {
+  if (isDeSeoLocale(locale) && slug) {
+    const deFaq = getDeHubFaq(slug);
+    if (deFaq.length) return deFaq;
+  }
+
   if (locale === "en") {
     return [
       {
@@ -682,17 +700,21 @@ export function getAboutAudienceBlocks(locale: Locale) {
 }
 
 export function getMarketingLabels(locale: Locale) {
-  if (locale === "en") {
+  if (locale === "de" || locale === "en") {
     return {
-      howItWorksTitle: "How HotelsDrop works",
-      howItWorksSubtitle: "Reverse booking in three steps",
-      faqTitle: "Frequently asked questions",
-      relatedDestinations: "Explore more destinations",
-      destinationHowItWorks: "How it works here",
-      otherHotels: "More properties in this area",
-      footerTagline: "Reverse booking: properties send you offers. Free for travellers.",
+      howItWorksTitle: locale === "de" ? "So funktioniert HotelsDrop" : "How HotelsDrop works",
+      howItWorksSubtitle:
+        locale === "de" ? "Reverse Booking in drei Schritten" : "Reverse booking in three steps",
+      faqTitle: locale === "de" ? "Häufig gestellte Fragen" : "Frequently asked questions",
+      relatedDestinations: locale === "de" ? "Weitere Reiseziele entdecken" : "Explore more destinations",
+      destinationHowItWorks: locale === "de" ? "So funktioniert es hier" : "How it works here",
+      otherHotels: locale === "de" ? "Weitere Unterkünfte in der Umgebung" : "More properties in this area",
+      footerTagline:
+        locale === "de"
+          ? "Reverse Booking: Unterkünfte senden Ihnen Angebote. Kostenlos für Reisende."
+          : "Reverse booking: properties send you offers. Free for travellers.",
       faqNav: "FAQ",
-      destinationsNav: "Destinations",
+      destinationsNav: locale === "de" ? "Reiseziele" : "Destinations",
     };
   }
   return {

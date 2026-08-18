@@ -9,6 +9,7 @@ import { useLanguage } from "@/components/i18n/LanguageProvider";
 const localeFlags: Record<Locale, string> = {
   it: "🇮🇹",
   en: "🇬🇧",
+  de: "🇩🇪",
 };
 
 type LanguageSwitcherProps = {

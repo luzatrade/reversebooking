@@ -1,0 +1,1529 @@
+{
+  "_project": "HotelsDrop SEO hub-only — translate to German (de)",
+  "_instructions": [
+    "Fill every empty string in fields ending with _de.",
+    "Keep {count} and HotelsDrop unchanged.",
+    "title_de max 60 chars, metaDescription_de max 155 chars.",
+    "Use formal 'Sie' for German. Booking intent keywords welcome (Hotel buchen, ohne Provision).",
+    "Return the SAME JSON structure with only _de fields filled."
+  ],
+  "glossary": {
+    "HotelsDrop": "HotelsDrop (do not translate)",
+    "Reverse Booking": "Reverse Booking (keep English) or Umgekehrte Buchung",
+    "stay request": "Unterkunftsanfrage",
+    "direct offer(s)": "Direktangebot(e)",
+    "no commission / no booking commission": "ohne Provision / ohne Buchungsgebühr",
+    "properties / lodgings": "Unterkünfte",
+    "Get direct offers": "Direktangebote anfordern"
+  },
+  "limits": {
+    "titleMax": 60,
+    "metaDescriptionMax": 155
+  },
+  "homepage": {
+    "title_en": "HotelsDrop — Reverse Booking & Reversebooking, No Commission",
+    "title_de": "HotelsDrop — Reverse Booking, Hotels ohne Provision",
+    "metaDescription_en": "Hotel reverse booking: publish one stay request and properties send direct offers. Free for travellers, groups and agencies. Subscription for properties.",
+    "metaDescription_de": "Reverse Booking für Hotels: Eine Unterkunftsanfrage stellen und Direktangebote erhalten. Kostenlos für Reisende, Gruppen und Agenturen.",
+    "heroHeadline_en": "Publish a stay request — get direct hotel offers",
+    "heroHeadline_de": "Unterkunftsanfrage stellen — Direktangebote von Hotels erhalten",
+    "heroSubheadline_en": "Free for travellers. No booking commission.",
+    "heroSubheadline_de": "Kostenlos für Reisende. Ohne Buchungsprovision.",
+    "faq": [
+      {
+        "question_en": "What is reverse booking?",
+        "question_de": "Was ist Reverse Booking?",
+        "answer_en": "You publish a request with dates and budget; properties reply with direct offers.",
+        "answer_de": "Sie veröffentlichen eine Anfrage mit Reisedaten und Budget; die Unterkünfte antworten mit Direktangeboten."
+      },
+      {
+        "question_en": "Is HotelsDrop free for travellers?",
+        "question_de": "Ist HotelsDrop für Reisende kostenlos?",
+        "answer_en": "Yes. Publishing requests and comparing offers is free for travellers.",
+        "answer_de": "Ja. Anfragen veröffentlichen und Angebote vergleichen ist für Reisende kostenlos."
+      }
+    ]
+  },
+  "seoTemplates": {
+    "hubTitle_en": "Hotels in {city}: {count} properties — Get — Get direct offers direct offers",
+    "hubTitle_de": "Hotels in {city}: {count} Unterkünfte — Direktangebote",
+    "hubMetaDescription_en": "Compare {count} hotels and B&Bs in {city}. Publish a free stay request on {brand} and receive direct offers. No booking commission for travellers.",
+    "hubMetaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in {city}. Stellen Sie eine kostenlose Anfrage auf {brand} und erhalten Sie Direktangebote ohne Provision.",
+    "hubIntroPremium_en": "Explore {count} lodgings in {city}. On {brand} you can compare properties and request tailored offers without browsing dozens of booking sites.",
+    "hubIntroPremium_de": "Entdecken Sie {count} Unterkünfte in {city}. Auf {brand} vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen."
+  },
+  "cityDisplayNames": {
+    "roma": {
+      "en": "Rome",
+      "de": "Rom"
+    },
+    "milano": {
+      "en": "Milan",
+      "de": "Mailand"
+    },
+    "napoli": {
+      "en": "Naples",
+      "de": "Neapel"
+    },
+    "firenze": {
+      "en": "Florence",
+      "de": "Florenz"
+    },
+    "venezia": {
+      "en": "Venice",
+      "de": "Venedig"
+    },
+    "torino": {
+      "en": "Turin",
+      "de": "Turin"
+    },
+    "bologna": {
+      "en": "Bologna",
+      "de": "Bologna"
+    },
+    "palermo": {
+      "en": "Palermo",
+      "de": "Palermo"
+    },
+    "genova": {
+      "en": "Genoa",
+      "de": "Genua"
+    },
+    "bari": {
+      "en": "Bari",
+      "de": "Bari"
+    },
+    "catania": {
+      "en": "Catania",
+      "de": "Catania"
+    },
+    "verona": {
+      "en": "Verona",
+      "de": "Verona"
+    },
+    "padova": {
+      "en": "Padua",
+      "de": "Padua"
+    },
+    "brescia": {
+      "en": "Brescia",
+      "de": "Brescia"
+    },
+    "parma": {
+      "en": "Parma",
+      "de": "Parma"
+    },
+    "modena": {
+      "en": "Modena",
+      "de": "Modena"
+    },
+    "reggio-calabria": {
+      "en": "Reggio Calabria",
+      "de": "Reggio Calabria"
+    },
+    "messina": {
+      "en": "Messina",
+      "de": "Messina"
+    },
+    "catanzaro": {
+      "en": "Catanzaro",
+      "de": "Catanzaro"
+    },
+    "lecce": {
+      "en": "Lecce",
+      "de": "Lecce"
+    },
+    "salerno": {
+      "en": "Salerno",
+      "de": "Salerno"
+    },
+    "sorrento": {
+      "en": "Sorrento",
+      "de": "Sorrent"
+    },
+    "pisa": {
+      "en": "Pisa",
+      "de": "Pisa"
+    },
+    "siena": {
+      "en": "Siena",
+      "de": "Siena"
+    },
+    "perugia": {
+      "en": "Perugia",
+      "de": "Perugia"
+    },
+    "rimini": {
+      "en": "Rimini",
+      "de": "Rimini"
+    },
+    "trieste": {
+      "en": "Trieste",
+      "de": "Triest"
+    },
+    "bolzano": {
+      "en": "Bolzano",
+      "de": "Bozen"
+    },
+    "cagliari": {
+      "en": "Cagliari",
+      "de": "Cagliari"
+    },
+    "taormina": {
+      "en": "Taormina",
+      "de": "Taormina"
+    }
+  },
+  "destinationHubs": {
+    "roma": {
+      "displayName_en": "Rome",
+      "title_en": "Hotels in Rome: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Rom: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Rome. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Rom. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Rome offers hotels, B&Bs and guest houses across the historic centre, Trastevere, Termini and EUR. On HotelsDrop you publish one request with dates and budget, and local properties reply with direct offers — free for travellers. Perfect for cultural weekends, conference stays and longer family or group trips.",
+      "intro_de": "Rom bietet Hotels, B&Bs und Güstehüuser im historischen Zentrum, in Trastevere, rund um Termini und im EUR-Viertel. Auf HotelsDrop veröffentlichen Sie eine einzige Anfrage mit Reisedaten und Budget, und lokale Unterkünfte antworten mit Direktangeboten — für Reisende kostenlos. Ideal für Kulturwochenenden, Kongressaufenthalte und lüngere Familien- oder Gruppenreisen.",
+      "editorial_en": "Rome offers hotels, B&Bs and guest houses across the historic centre, Trastevere, Termini and EUR. On HotelsDrop you publish one request with dates and budget, and local properties reply with direct offers — free for travellers. Perfect for cultural weekends, conference stays and longer family or group trips.",
+      "editorial_de": "Rom bietet Hotels, B&Bs und Güstehüuser im historischen Zentrum, in Trastevere, rund um Termini und im EUR-Viertel. Auf HotelsDrop veröffentlichen Sie eine einzige Anfrage mit Reisedaten und Budget, und lokale Unterkünfte antworten mit Direktangeboten — für Reisende kostenlos. Ideal für Kulturwochenenden, Kongressaufenthalte und lüngere Familien- oder Gruppenreisen.",
+      "poiPhrase_en": "the Colosseum, Roman Forum, Vatican and St Peter's Basilica, Trastevere, the Spanish Steps, Trevi Fountain, the Pantheon and Piazza Navona",
+      "poiPhrase_de": "das Kolosseum, das Forum Romanum, den Vatikan und den Petersdom, Trastevere, die Spanische Treppe, den Trevi-Brunnen, das Pantheon und die Piazza Navona",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Rome?",
+          "question_de": "Wie erhalte ich Hotelangebote in Rom?",
+          "answer_en": "Publish one free stay request for Rome with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Rom mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Rome?",
+          "question_de": "Welche Unterkunftsarten finde ich in Rom?",
+          "answer_en": "The HotelsDrop catalogue in Rome includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Rom umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "milano": {
+      "displayName_en": "Milan",
+      "title_en": "Hotels in Milan: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Mailand: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Milan. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Mailand. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Milan suits business and leisure stays, with properties near the Duomo, Porta Garibaldi and the trade fair. HotelsDrop lets you compare tailored offers from Milan hotels without browsing dozens of booking sites. Also useful for trade fairs, fashion week and multi-room business trips.",
+      "intro_de": "Mailand eignet sich für Geschüfts- und Urlaubsaufenthalte, mit Unterkünften nahe dem Dom, Porta Garibaldi und dem Messegelünde. Mit HotelsDrop vergleichen Sie maügeschneiderte Angebote Mailünder Hotels, ohne Dutzende Buchungsportale zu durchsuchen. Auch praktisch für Messen, die Fashion Week und Geschüftsreisen mit mehreren Zimmern.",
+      "editorial_en": "Milan suits business and leisure stays, with properties near the Duomo, Porta Garibaldi and the trade fair. HotelsDrop lets you compare tailored offers from Milan hotels without browsing dozens of booking sites. Also useful for trade fairs, fashion week and multi-room business trips.",
+      "editorial_de": "Mailand eignet sich für Geschüfts- und Urlaubsaufenthalte, mit Unterkünften nahe dem Dom, Porta Garibaldi und dem Messegelünde. Mit HotelsDrop vergleichen Sie maügeschneiderte Angebote Mailünder Hotels, ohne Dutzende Buchungsportale zu durchsuchen. Auch praktisch für Messen, die Fashion Week und Geschüftsreisen mit mehreren Zimmern.",
+      "poiPhrase_en": "the Duomo, Galleria Vittorio Emanuele II, La Scala, Navigli, Sforza Castle, Brera, the Last Supper and Sempione Park",
+      "poiPhrase_de": "den Dom, die Galleria Vittorio Emanuele II, die Scala, die Navigli, das Castello Sforzesco, Brera, das Abendmahl und den Parco Sempione",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Milan?",
+          "question_de": "Wie erhalte ich Hotelangebote in Mailand?",
+          "answer_en": "Publish one free stay request for Milan with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Mailand mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Milan?",
+          "question_de": "Welche Unterkunftsarten finde ich in Mailand?",
+          "answer_en": "The HotelsDrop catalogue in Milan includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Mailand umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "napoli": {
+      "displayName_en": "Naples",
+      "title_en": "Hotels in Naples: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Neapel: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Naples. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Neapel. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Naples and its gulf suit city breaks, seaside stays and trips toward Capri and the Amalfi Coast. Send one request on HotelsDrop and receive direct proposals from local hotels and B&Bs. Many properties also cover parking, breakfast and port or airport transfers.",
+      "intro_de": "Neapel und sein Golf eignen sich für Stüdtereisen, Badeaufenthalte und Ausflüge nach Capri und an die Amalfiküste. Senden Sie eine einzige Anfrage auf HotelsDrop und erhalten Sie Direktangebote lokaler Hotels und B&Bs. Viele Unterkünfte bieten zudem Parkplatz, Frühstück und Transfers zum Hafen oder Flughafen.",
+      "editorial_en": "Naples and its gulf suit city breaks, seaside stays and trips toward Capri and the Amalfi Coast. Send one request on HotelsDrop and receive direct proposals from local hotels and B&Bs. Many properties also cover parking, breakfast and port or airport transfers.",
+      "editorial_de": "Neapel und sein Golf eignen sich für Stüdtereisen, Badeaufenthalte und Ausflüge nach Capri und an die Amalfiküste. Senden Sie eine einzige Anfrage auf HotelsDrop und erhalten Sie Direktangebote lokaler Hotels und B&Bs. Viele Unterkünfte bieten zudem Parkplatz, Frühstück und Transfers zum Hafen oder Flughafen.",
+      "poiPhrase_en": "Spaccanapoli, Piazza del Plebiscito, Castel dell'Ovo, the National Archaeological Museum, Certosa di San Martino, Caracciolo seafront and the Chiaia and Vomero districts",
+      "poiPhrase_de": "Spaccanapoli, die Piazza del Plebiscito, das Castel dell'Ovo, das Archüologische Nationalmuseum, die Certosa di San Martino, die Uferpromenade Caracciolo sowie die Viertel Chiaia und Vomero",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Naples?",
+          "question_de": "Wie erhalte ich Hotelangebote in Neapel?",
+          "answer_en": "Publish one free stay request for Naples with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Neapel mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Naples?",
+          "question_de": "Welche Unterkunftsarten finde ich in Neapel?",
+          "answer_en": "The HotelsDrop catalogue in Naples includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Neapel umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "firenze": {
+      "displayName_en": "Florence",
+      "title_en": "Hotels in Florence: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Florenz: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Florence. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Florenz. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Florence draws travellers for art, food and Tuscany trips. On HotelsDrop Florentine properties reply to your request with tailored offers for your dates, budget and preferred services. A strong pick for museums, villa weddings and food-and-wine itineraries.",
+      "intro_de": "Florenz zieht Reisende mit Kunst, Küche und Ausflügen in die Toskana an. Auf HotelsDrop antworten Florentiner Unterkünfte auf Ihre Anfrage mit Angeboten passend zu Reisedaten, Budget und gewünschten Services. Eine starke Wahl für Museumsbesuche, Hochzeiten in Villen und Genussreisen.",
+      "editorial_en": "Florence draws travellers for art, food and Tuscany trips. On HotelsDrop Florentine properties reply to your request with tailored offers for your dates, budget and preferred services. A strong pick for museums, villa weddings and food-and-wine itineraries.",
+      "editorial_de": "Florenz zieht Reisende mit Kunst, Küche und Ausflügen in die Toskana an. Auf HotelsDrop antworten Florentiner Unterkünfte auf Ihre Anfrage mit Angeboten passend zu Reisedaten, Budget und gewünschten Services. Eine starke Wahl für Museumsbesuche, Hochzeiten in Villen und Genussreisen.",
+      "poiPhrase_en": "the Duomo and Brunelleschi's Dome, the Uffizi Gallery, Ponte Vecchio, Piazza della Signoria, Pitti Palace, Boboli Gardens and Basilica of Santa Croce",
+      "poiPhrase_de": "den Dom mit Brunelleschis Kuppel, die Uffizien, den Ponte Vecchio, die Piazza della Signoria, den Palazzo Pitti, den Boboli-Garten und die Basilika Santa Croce",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Florence?",
+          "question_de": "Wie erhalte ich Hotelangebote in Florenz?",
+          "answer_en": "Publish one free stay request for Florence with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Florenz mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Florence?",
+          "question_de": "Welche Unterkunftsarten finde ich in Florenz?",
+          "answer_en": "The HotelsDrop catalogue in Florence includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Florenz umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "venezia": {
+      "displayName_en": "Venice",
+      "title_en": "Hotels in Venice: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Venedig: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Venice. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Venedig. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Venice offers hotels and B&Bs across San Marco, Cannaregio and Mestre. Send one HotelsDrop request and receive direct offers from Venetian properties. You can specify lagoon vs mainland area, accessibility and group services.",
+      "intro_de": "Venedig bietet Hotels und B&Bs in San Marco, Cannaregio und Mestre. Senden Sie eine einzige HotelsDrop-Anfrage und erhalten Sie Direktangebote venezianischer Unterkünfte. Sie künnen Lagune oder Festland, Barrierefreiheit und Gruppenservices angeben.",
+      "editorial_en": "Venice offers hotels and B&Bs across San Marco, Cannaregio and Mestre. Send one HotelsDrop request and receive direct offers from Venetian properties. You can specify lagoon vs mainland area, accessibility and group services.",
+      "editorial_de": "Venedig bietet Hotels und B&Bs in San Marco, Cannaregio und Mestre. Senden Sie eine einzige HotelsDrop-Anfrage und erhalten Sie Direktangebote venezianischer Unterkünfte. Sie künnen Lagune oder Festland, Barrierefreiheit und Gruppenservices angeben.",
+      "poiPhrase_en": "St Mark's Square and Basilica, Doge's Palace, Rialto Bridge, Grand Canal, Murano, Burano, Accademia Galleries and Bridge of Sighs",
+      "poiPhrase_de": "den Markusplatz und den Markusdom, den Dogenpalast, die Rialtobrücke, den Canal Grande, Murano, Burano, die Gallerie dell'Accademia und die Seufzerbrücke",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Venice?",
+          "question_de": "Wie erhalte ich Hotelangebote in Venedig?",
+          "answer_en": "Publish one free stay request for Venice with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Venedig mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Venice?",
+          "question_de": "Welche Unterkunftsarten finde ich in Venedig?",
+          "answer_en": "The HotelsDrop catalogue in Venice includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Venedig umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "torino": {
+      "displayName_en": "Turin",
+      "title_en": "Hotels in Turin: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Turin: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Turin. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Turin. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Turin blends business hotels, boutiques and B&Bs across the centre and Lingotto. Send one HotelsDrop request and receive direct offers for events, alpine trips and city breaks.",
+      "intro_de": "Turin verbindet Businesshotels, Boutiquehüuser und B&Bs im Zentrum und in Lingotto. Senden Sie eine einzige HotelsDrop-Anfrage und erhalten Sie Direktangebote für Veranstaltungen, Alpenausflüge und Stüdtereisen.",
+      "editorial_en": "Turin blends business hotels, boutiques and B&Bs across the centre and Lingotto. Send one HotelsDrop request and receive direct offers for events, alpine trips and city breaks.",
+      "editorial_de": "Turin verbindet Businesshotels, Boutiquehüuser und B&Bs im Zentrum und in Lingotto. Senden Sie eine einzige HotelsDrop-Anfrage und erhalten Sie Direktangebote für Veranstaltungen, Alpenausflüge und Stüdtereisen.",
+      "poiPhrase_en": "Mole Antonelliana, Cinema Museum, Piazza Castello, Royal Palace, Egyptian Museum, Valentino Park, Superga Basilica and the Roman Quarter",
+      "poiPhrase_de": "die Mole Antonelliana, das Kinomuseum, die Piazza Castello, den Künigspalast, das ügyptische Museum, den Parco del Valentino, die Basilika Superga und das Rümische Viertel",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Turin?",
+          "question_de": "Wie erhalte ich Hotelangebote in Turin?",
+          "answer_en": "Publish one free stay request for Turin with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Turin mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Turin?",
+          "question_de": "Welche Unterkunftsarten finde ich in Turin?",
+          "answer_en": "The HotelsDrop catalogue in Turin includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Turin umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "bologna": {
+      "displayName_en": "Bologna",
+      "title_en": "Hotels in Bologna: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Bologna: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Bologna. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Bologna. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Bologna suits food tours, university visits and trade fairs. Bologna properties on HotelsDrop reply with offers tailored to your budget, area and required services.",
+      "intro_de": "Bologna eignet sich für Genussreisen, Universitütsbesuche und Messen. Bologneser Unterkünfte auf HotelsDrop antworten mit Angeboten passend zu Budget, Stadtteil und gewünschten Services.",
+      "editorial_en": "Bologna suits food tours, university visits and trade fairs. Bologna properties on HotelsDrop reply with offers tailored to your budget, area and required services.",
+      "editorial_de": "Bologna eignet sich für Genussreisen, Universitütsbesuche und Messen. Bologneser Unterkünfte auf HotelsDrop antworten mit Angeboten passend zu Budget, Stadtteil und gewünschten Services.",
+      "poiPhrase_en": "Piazza Maggiore, the Two Towers, Basilica of San Petronio, historic porticoes, Archiginnasio, Mercato di Mezzo, Sanctuary of San Luca and the Archaeological Museum",
+      "poiPhrase_de": "die Piazza Maggiore, die Zwei Türme, die Basilika San Petronio, die historischen Arkaden, das Archiginnasio, den Mercato di Mezzo, das Heiligtum San Luca und das Archüologische Museum",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Bologna?",
+          "question_de": "Wie erhalte ich Hotelangebote in Bologna?",
+          "answer_en": "Publish one free stay request for Bologna with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Bologna mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Bologna?",
+          "question_de": "Welche Unterkunftsarten finde ich in Bologna?",
+          "answer_en": "The HotelsDrop catalogue in Bologna includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Bologna umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "palermo": {
+      "displayName_en": "Palermo",
+      "title_en": "Hotels in Palermo: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Palermo: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Palermo. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Palermo. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Palermo offers stays across the historic centre, waterfront and airport area. One HotelsDrop request reaches compatible hotels and guest houses for your dates. Useful for city breaks, cultural events and groups needing several rooms downtown.",
+      "intro_de": "Palermo bietet Unterkünfte in der Altstadt, an der Uferpromenade und im Flughafenbereich. Eine einzige HotelsDrop-Anfrage erreicht passende Hotels und Güstehüuser für Ihre Reisedaten. Praktisch für Stüdtereisen, Kulturveranstaltungen und Gruppen, die mehrere Zimmer im Zentrum benütigen.",
+      "editorial_en": "Palermo offers stays across the historic centre, waterfront and airport area. One HotelsDrop request reaches compatible hotels and guest houses for your dates. Useful for city breaks, cultural events and groups needing several rooms downtown.",
+      "editorial_de": "Palermo bietet Unterkünfte in der Altstadt, an der Uferpromenade und im Flughafenbereich. Eine einzige HotelsDrop-Anfrage erreicht passende Hotels und Güstehüuser für Ihre Reisedaten. Praktisch für Stüdtereisen, Kulturveranstaltungen und Gruppen, die mehrere Zimmer im Zentrum benütigen.",
+      "poiPhrase_en": "the Cathedral, Quattro Canti, Teatro Massimo, Palazzo dei Normanni and Palatine Chapel, historic markets, Monte Pellegrino, Mondello and Monreale Cathedral",
+      "poiPhrase_de": "die Kathedrale, die Quattro Canti, das Teatro Massimo, den Palazzo dei Normanni mit der Cappella Palatina, die historischen Mürkte, den Monte Pellegrino, Mondello und den Dom von Monreale",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Palermo?",
+          "question_de": "Wie erhalte ich Hotelangebote in Palermo?",
+          "answer_en": "Publish one free stay request for Palermo with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Palermo mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Palermo?",
+          "question_de": "Welche Unterkunftsarten finde ich in Palermo?",
+          "answer_en": "The HotelsDrop catalogue in Palermo includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Palermo umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "genova": {
+      "displayName_en": "Genoa",
+      "title_en": "Hotels in Genoa: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Genua: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Genoa. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Genua. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Genoa blends its port, historic centre and the Levante riviera. HotelsDrop connects your request with local hotels and B&Bs.",
+      "intro_de": "Genua verbindet Hafen, historisches Zentrum und die Riviera di Levante. HotelsDrop verbindet Ihre Anfrage mit lokalen Hotels und B&Bs.",
+      "editorial_en": "Genoa blends its port, historic centre and the Levante riviera. HotelsDrop connects your request with local hotels and B&Bs.",
+      "editorial_de": "Genua verbindet Hafen, historisches Zentrum und die Riviera di Levante. HotelsDrop verbindet Ihre Anfrage mit lokalen Hotels und B&Bs.",
+      "poiPhrase_en": "Porto Antico, the Aquarium, historic caruggi, Palazzo Ducale, Via Garibaldi and the Rolli palaces, Boccadasse, the Lantern and Galata Sea Museum",
+      "poiPhrase_de": "den Porto Antico, das Aquarium, die historischen Caruggi, den Palazzo Ducale, die Via Garibaldi mit den Rolli-Palüsten, Boccadasse, die Lanterna und das Museum Galata",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Genoa?",
+          "question_de": "Wie erhalte ich Hotelangebote in Genua?",
+          "answer_en": "Publish one free stay request for Genoa with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Genua mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Genoa?",
+          "question_de": "Welche Unterkunftsarten finde ich in Genua?",
+          "answer_en": "The HotelsDrop catalogue in Genoa includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Genua umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "bari": {
+      "displayName_en": "Bari",
+      "title_en": "Hotels in Bari: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Bari: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Bari. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Bari. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Bari and Puglia attract seaside stays, villages and slow travel. On HotelsDrop Apulian properties send direct offers with no traveller commission.",
+      "intro_de": "Bari und Apulien locken mit Badeaufenthalten, Dürfern und langsamem Reisen. Auf HotelsDrop senden apulische Unterkünfte Direktangebote — ohne Provision für Reisende.",
+      "editorial_en": "Bari and Puglia attract seaside stays, villages and slow travel. On HotelsDrop Apulian properties send direct offers with no traveller commission.",
+      "editorial_de": "Bari und Apulien locken mit Badeaufenthalten, Dürfern und langsamem Reisen. Auf HotelsDrop senden apulische Unterkünfte Direktangebote — ohne Provision für Reisende.",
+      "poiPhrase_en": "Basilica of San Nicola, Bari Vecchia, Nazario Sauro seafront, San Sabino Cathedral, Teatro Petruzzelli, Norman-Swabian Castle and the Murattiano district",
+      "poiPhrase_de": "die Basilika San Nicola, die Altstadt Bari Vecchia, die Promenade Nazario Sauro, die Kathedrale San Sabino, das Teatro Petruzzelli, das normannisch-staufische Kastell und das Viertel Murattiano",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Bari?",
+          "question_de": "Wie erhalte ich Hotelangebote in Bari?",
+          "answer_en": "Publish one free stay request for Bari with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Bari mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Bari?",
+          "question_de": "Welche Unterkunftsarten finde ich in Bari?",
+          "answer_en": "The HotelsDrop catalogue in Bari includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Bari umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "catania": {
+      "displayName_en": "Catania",
+      "title_en": "Hotels in Catania: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Catania: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Catania. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Catania. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Catania is a strong base for Etna, the coast and Sicilian baroque. Publish your request on HotelsDrop and compare direct offers from local hotels and B&Bs. Properties often propose packages for Etna trips and stays along the Ionian coast.",
+      "intro_de": "Catania ist ein guter Ausgangspunkt für den ütna, die Küste und den sizilianischen Barock. Verüffentlichen Sie Ihre Anfrage auf HotelsDrop und vergleichen Sie Direktangebote lokaler Hotels und B&Bs. Hüufig schlagen Unterkünfte auch Pakete für ütna-Ausflüge und Aufenthalte an der Ionischen Küste vor.",
+      "editorial_en": "Catania is a strong base for Etna, the coast and Sicilian baroque. Publish your request on HotelsDrop and compare direct offers from local hotels and B&Bs. Properties often propose packages for Etna trips and stays along the Ionian coast.",
+      "editorial_de": "Catania ist ein guter Ausgangspunkt für den ütna, die Küste und den sizilianischen Barock. Verüffentlichen Sie Ihre Anfrage auf HotelsDrop und vergleichen Sie Direktangebote lokaler Hotels und B&Bs. Hüufig schlagen Unterkünfte auch Pakete für ütna-Ausflüge und Aufenthalte an der Ionischen Küste vor.",
+      "poiPhrase_en": "Piazza del Duomo, Via Etnea, the fish market, Castello Ursino, Roman Theatre, Villa Bellini, Mount Etna and the baroque historic centre",
+      "poiPhrase_de": "die Piazza del Duomo, die Via Etnea, den Fischmarkt, das Castello Ursino, das Rümische Theater, die Villa Bellini, den ütna und die barocke Altstadt",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Catania?",
+          "question_de": "Wie erhalte ich Hotelangebote in Catania?",
+          "answer_en": "Publish one free stay request for Catania with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Catania mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Catania?",
+          "question_de": "Welche Unterkunftsarten finde ich in Catania?",
+          "answer_en": "The HotelsDrop catalogue in Catania includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Catania umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "verona": {
+      "displayName_en": "Verona",
+      "title_en": "Hotels in Verona: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Verona: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Verona. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Verona. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Verona combines the Arena, romantic breaks and Lake Garda access. Send a personalised request and receive offers from Verona hotels and B&Bs. Many properties also cover opera season, weddings and Lake Garda weekends.",
+      "intro_de": "Verona verbindet die Arena, romantische Kurzreisen und die Nühe zum Gardasee. Senden Sie eine personalisierte Anfrage und erhalten Sie Angebote von Hotels und B&Bs in Verona. Viele Unterkünfte decken auch die Opernsaison, Hochzeiten und Wochenenden am Gardasee ab.",
+      "editorial_en": "Verona combines the Arena, romantic breaks and Lake Garda access. Send a personalised request and receive offers from Verona hotels and B&Bs. Many properties also cover opera season, weddings and Lake Garda weekends.",
+      "editorial_de": "Verona verbindet die Arena, romantische Kurzreisen und die Nühe zum Gardasee. Senden Sie eine personalisierte Anfrage und erhalten Sie Angebote von Hotels und B&Bs in Verona. Viele Unterkünfte decken auch die Opernsaison, Hochzeiten und Wochenenden am Gardasee ab.",
+      "poiPhrase_en": "Verona Arena, Piazza delle Erbe, Juliet's House, Ponte Pietra, Castelvecchio, Basilica of San Zeno, Scaliger Bridge and the Adige river",
+      "poiPhrase_de": "die Arena von Verona, die Piazza delle Erbe, das Haus der Julia, den Ponte Pietra, das Castelvecchio, die Basilika San Zeno, die Scaligerbrücke und die Etsch",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Verona?",
+          "question_de": "Wie erhalte ich Hotelangebote in Verona?",
+          "answer_en": "Publish one free stay request for Verona with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Verona mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Verona?",
+          "question_de": "Welche Unterkunftsarten finde ich in Verona?",
+          "answer_en": "The HotelsDrop catalogue in Verona includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Verona umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "padova": {
+      "displayName_en": "Padua",
+      "title_en": "Hotels in Padua: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Padua: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Padua. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Padua. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Padua suits university visits, culture and Venice day trips. Padua properties on HotelsDrop reply with tailored offers.",
+      "intro_de": "Padua eignet sich für Universitütsbesuche, Kultur und Tagesausflüge nach Venedig. Paduaner Unterkünfte auf HotelsDrop antworten mit maügeschneiderten Angeboten.",
+      "editorial_en": "Padua suits university visits, culture and Venice day trips. Padua properties on HotelsDrop reply with tailored offers.",
+      "editorial_de": "Padua eignet sich für Universitütsbesuche, Kultur und Tagesausflüge nach Venedig. Paduaner Unterkünfte auf HotelsDrop antworten mit maügeschneiderten Angeboten.",
+      "poiPhrase_en": "Basilica of St Anthony, Prato della Valle, Scrovegni Chapel, Palazzo della Ragione, Botanical Garden, Caffü Pedrocchi and the Baptistery",
+      "poiPhrase_de": "die Basilika des heiligen Antonius, den Prato della Valle, die Scrovegni-Kapelle, den Palazzo della Ragione, den Botanischen Garten, das Caffü Pedrocchi und das Baptisterium",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Padua?",
+          "question_de": "Wie erhalte ich Hotelangebote in Padua?",
+          "answer_en": "Publish one free stay request for Padua with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Padua mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Padua?",
+          "question_de": "Welche Unterkunftsarten finde ich in Padua?",
+          "answer_en": "The HotelsDrop catalogue in Padua includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Padua umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "brescia": {
+      "displayName_en": "Brescia",
+      "title_en": "Hotels in Brescia: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Brescia: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Brescia. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Brescia. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Explore {count} lodgings in Brescia. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "intro_de": "Entdecken Sie {count} Unterkünfte in Brescia. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial_en": "Explore {count} lodgings in Brescia. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "editorial_de": "Entdecken Sie {count} Unterkünfte in Brescia. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase_en": "Piazza della Loggia, Capitolium, New Cathedral, Castle, Santa Giulia Museum, Lake Garda and Franciacorta",
+      "poiPhrase_de": "die Piazza della Loggia, das Capitolium, den Neuen Dom, das Kastell, das Museum Santa Giulia, den Gardasee und die Franciacorta",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Brescia?",
+          "question_de": "Wie erhalte ich Hotelangebote in Brescia?",
+          "answer_en": "Publish one free stay request for Brescia with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Brescia mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Brescia?",
+          "question_de": "Welche Unterkunftsarten finde ich in Brescia?",
+          "answer_en": "The HotelsDrop catalogue in Brescia includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Brescia umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "parma": {
+      "displayName_en": "Parma",
+      "title_en": "Hotels in Parma: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Parma: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Parma. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Parma. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Explore {count} lodgings in Parma. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "intro_de": "Entdecken Sie {count} Unterkünfte in Parma. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial_en": "Explore {count} lodgings in Parma. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "editorial_de": "Entdecken Sie {count} Unterkünfte in Parma. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase_en": "the Cathedral and Baptistery, Teatro Regio, Palazzo della Pilotta, National Gallery, Ducal Park, DOP specialities and the historic centre",
+      "poiPhrase_de": "den Dom und das Baptisterium, das Teatro Regio, den Palazzo della Pilotta, die Nationalgalerie, den Parco Ducale, die DOP-Spezialitüten und die Altstadt",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Parma?",
+          "question_de": "Wie erhalte ich Hotelangebote in Parma?",
+          "answer_en": "Publish one free stay request for Parma with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Parma mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Parma?",
+          "question_de": "Welche Unterkunftsarten finde ich in Parma?",
+          "answer_en": "The HotelsDrop catalogue in Parma includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Parma umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "modena": {
+      "displayName_en": "Modena",
+      "title_en": "Hotels in Modena: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Modena: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Modena. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Modena. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Explore {count} lodgings in Modena. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "intro_de": "Entdecken Sie {count} Unterkünfte in Modena. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial_en": "Explore {count} lodgings in Modena. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "editorial_de": "Entdecken Sie {count} Unterkünfte in Modena. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase_en": "",
+      "poiPhrase_de": "",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Modena?",
+          "question_de": "Wie erhalte ich Hotelangebote in Modena?",
+          "answer_en": "Publish one free stay request for Modena with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Modena mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Modena?",
+          "question_de": "Welche Unterkunftsarten finde ich in Modena?",
+          "answer_en": "The HotelsDrop catalogue in Modena includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Modena umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "reggio-calabria": {
+      "displayName_en": "Reggio Calabria",
+      "title_en": "Hotels in Reggio Calabria: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Reggio Calabria: {count} Unterkünfte",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Reggio Calabria. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels in Reggio Calabria. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Explore {count} lodgings in Reggio Calabria. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "intro_de": "Entdecken Sie {count} Unterkünfte in Reggio Calabria. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial_en": "Explore {count} lodgings in Reggio Calabria. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "editorial_de": "Entdecken Sie {count} Unterkünfte in Reggio Calabria. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase_en": "the Strait of Messina, Falcomata seafront — among Italy's most scenic kilometres ü, Greek Walls, the historic centre, the National Archaeological Museum with the Riace Bronzes and Villa San Giovanni",
+      "poiPhrase_de": "die Straße von Messina, die Promenade Falcomata — einer der schönsten Kilometer Italiens ü, die Griechischen Mauern, die Altstadt, das Archüologische Nationalmuseum mit den Bronzen von Riace und Villa San Giovanni",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Reggio Calabria?",
+          "question_de": "Wie erhalte ich Hotelangebote in Reggio Calabria?",
+          "answer_en": "Publish one free stay request for Reggio Calabria with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Reggio Calabria mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Reggio Calabria?",
+          "question_de": "Welche Unterkunftsarten finde ich in Reggio Calabria?",
+          "answer_en": "The HotelsDrop catalogue in Reggio Calabria includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Reggio Calabria umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "messina": {
+      "displayName_en": "Messina",
+      "title_en": "Hotels in Messina: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Messina: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Messina. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Messina. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Explore {count} lodgings in Messina. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "intro_de": "Entdecken Sie {count} Unterkünfte in Messina. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial_en": "Explore {count} lodgings in Messina. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "editorial_de": "Entdecken Sie {count} Unterkünfte in Messina. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase_en": "the Cathedral and astronomical clock, Montevergine Sanctuary, seafront, Strait of Messina, Ganzirri, Taormina and Reggio Calabria",
+      "poiPhrase_de": "den Dom mit der astronomischen Uhr, das Heiligtum Montevergine, die Uferpromenade, die Straße von Messina, Ganzirri, Taormina und Reggio Calabria",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Messina?",
+          "question_de": "Wie erhalte ich Hotelangebote in Messina?",
+          "answer_en": "Publish one free stay request for Messina with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Messina mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Messina?",
+          "question_de": "Welche Unterkunftsarten finde ich in Messina?",
+          "answer_en": "The HotelsDrop catalogue in Messina includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Messina umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "catanzaro": {
+      "displayName_en": "Catanzaro",
+      "title_en": "Hotels in Catanzaro: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Catanzaro: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Catanzaro. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Catanzaro. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Explore {count} lodgings in Catanzaro. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "intro_de": "Entdecken Sie {count} Unterkünfte in Catanzaro. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial_en": "Explore {count} lodgings in Catanzaro. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "editorial_de": "Entdecken Sie {count} Unterkünfte in Catanzaro. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase_en": "Cathedral, Mediterranean Biodiversity Park, Bisantis Bridge, Catanzaro Lido, Scolacium and Costa dei Saraceni",
+      "poiPhrase_de": "die Kathedrale, den Park der mediterranen Biodiversitüt, die Bisantis-Brücke, Catanzaro Lido, Scolacium und die Costa dei Saraceni",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Catanzaro?",
+          "question_de": "Wie erhalte ich Hotelangebote in Catanzaro?",
+          "answer_en": "Publish one free stay request for Catanzaro with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Catanzaro mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Catanzaro?",
+          "question_de": "Welche Unterkunftsarten finde ich in Catanzaro?",
+          "answer_en": "The HotelsDrop catalogue in Catanzaro includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Catanzaro umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "lecce": {
+      "displayName_en": "Lecce",
+      "title_en": "Hotels in Lecce: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Lecce: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Lecce. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Lecce. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Lecce is the capital of Apulian baroque. HotelsDrop forwards your request to Salento B&Bs and hotels.",
+      "intro_de": "Lecce ist die Hauptstadt des apulischen Barocks. HotelsDrop leitet Ihre Anfrage an B&Bs und Hotels im Salento weiter.",
+      "editorial_en": "Lecce is the capital of Apulian baroque. HotelsDrop forwards your request to Salento B&Bs and hotels.",
+      "editorial_de": "Lecce ist die Hauptstadt des apulischen Barocks. HotelsDrop leitet Ihre Anfrage an B&Bs und Hotels im Salento weiter.",
+      "poiPhrase_en": "Piazza del Duomo, Basilica of Santa Croce, the baroque centre, Roman Amphitheatre, Porta Napoli, Castello Carlo V, Otranto and Salento",
+      "poiPhrase_de": "die Piazza del Duomo, die Basilika Santa Croce, das barocke Zentrum, das Rümische Amphitheater, die Porta Napoli, das Castello Carlo V, Otranto und das Salento",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Lecce?",
+          "question_de": "Wie erhalte ich Hotelangebote in Lecce?",
+          "answer_en": "Publish one free stay request for Lecce with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Lecce mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Lecce?",
+          "question_de": "Welche Unterkunftsarten finde ich in Lecce?",
+          "answer_en": "The HotelsDrop catalogue in Lecce includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Lecce umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "salerno": {
+      "displayName_en": "Salerno",
+      "title_en": "Hotels in Salerno: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Salerno: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Salerno. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Salerno. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Salerno is the gateway to the Amalfi Coast. Send a HotelsDrop request and receive offers from Campania properties.",
+      "intro_de": "Salerno ist das Tor zur Amalfiküste. Senden Sie eine HotelsDrop-Anfrage und erhalten Sie Angebote kampanischer Unterkünfte.",
+      "editorial_en": "Salerno is the gateway to the Amalfi Coast. Send a HotelsDrop request and receive offers from Campania properties.",
+      "editorial_de": "Salerno ist das Tor zur Amalfiküste. Senden Sie eine HotelsDrop-Anfrage und erhalten Sie Angebote kampanischer Unterkünfte.",
+      "poiPhrase_en": "Lungomare Trieste, Salerno Cathedral, Giardino della Minerva, Luci d'Artista, Arechi Castle, the historic centre and the Amalfi Coast",
+      "poiPhrase_de": "den Lungomare Trieste, den Dom von Salerno, den Giardino della Minerva, die Luci d'Artista, das Castello Arechi, die Altstadt und die Amalfiküste",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Salerno?",
+          "question_de": "Wie erhalte ich Hotelangebote in Salerno?",
+          "answer_en": "Publish one free stay request for Salerno with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Salerno mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Salerno?",
+          "question_de": "Welche Unterkunftsarten finde ich in Salerno?",
+          "answer_en": "The HotelsDrop catalogue in Salerno includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Salerno umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "sorrento": {
+      "displayName_en": "Sorrento",
+      "title_en": "Hotels in Sorrento: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Sorrent: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Sorrento. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Sorrent. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Explore {count} lodgings in Sorrento. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "intro_de": "Entdecken Sie {count} Unterkünfte in Sorrent. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial_en": "Explore {count} lodgings in Sorrento. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "editorial_de": "Entdecken Sie {count} Unterkünfte in Sorrent. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase_en": "Piazza Tasso, Marina Grande, Marina Piccola, public gardens, Punta del Capo, Vallone dei Mulini, the Sorrento Peninsula and Capri",
+      "poiPhrase_de": "die Piazza Tasso, die Marina Grande, die Marina Piccola, die üffentlichen Gürten, Punta del Capo, das Vallone dei Mulini, die Halbinsel von Sorrent und Capri",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Sorrento?",
+          "question_de": "Wie erhalte ich Hotelangebote in Sorrent?",
+          "answer_en": "Publish one free stay request for Sorrento with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Sorrent mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Sorrento?",
+          "question_de": "Welche Unterkunftsarten finde ich in Sorrent?",
+          "answer_en": "The HotelsDrop catalogue in Sorrento includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Sorrent umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "pisa": {
+      "displayName_en": "Pisa",
+      "title_en": "Hotels in Pisa: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Pisa: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Pisa. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Pisa. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Explore {count} lodgings in Pisa. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "intro_de": "Entdecken Sie {count} Unterkünfte in Pisa. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial_en": "Explore {count} lodgings in Pisa. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "editorial_de": "Entdecken Sie {count} Unterkünfte in Pisa. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase_en": "Piazza dei Miracoli, the Leaning Tower, Cathedral, Baptistery, Camposanto, Lungarno, Palazzo Blu and the botanical garden",
+      "poiPhrase_de": "die Piazza dei Miracoli, den Schiefen Turm, den Dom, das Baptisterium, den Camposanto, die Lungarni, den Palazzo Blu und den Botanischen Garten",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Pisa?",
+          "question_de": "Wie erhalte ich Hotelangebote in Pisa?",
+          "answer_en": "Publish one free stay request for Pisa with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Pisa mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Pisa?",
+          "question_de": "Welche Unterkunftsarten finde ich in Pisa?",
+          "answer_en": "The HotelsDrop catalogue in Pisa includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Pisa umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "siena": {
+      "displayName_en": "Siena",
+      "title_en": "Hotels in Siena: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Siena: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Siena. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Siena. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Explore {count} lodgings in Siena. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "intro_de": "Entdecken Sie {count} Unterkünfte in Siena. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial_en": "Explore {count} lodgings in Siena. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "editorial_de": "Entdecken Sie {count} Unterkünfte in Siena. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase_en": "Piazza del Campo, Palazzo Pubblico, Torre del Mangia, Siena Cathedral, Facciatone, Basilica of San Domenico, Contrada dell'Oca and the Palio",
+      "poiPhrase_de": "die Piazza del Campo, den Palazzo Pubblico, den Torre del Mangia, den Dom von Siena, das Facciatone, die Basilika San Domenico, die Contrada dell'Oca und den Palio",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Siena?",
+          "question_de": "Wie erhalte ich Hotelangebote in Siena?",
+          "answer_en": "Publish one free stay request for Siena with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Siena mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Siena?",
+          "question_de": "Welche Unterkunftsarten finde ich in Siena?",
+          "answer_en": "The HotelsDrop catalogue in Siena includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Siena umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "perugia": {
+      "displayName_en": "Perugia",
+      "title_en": "Hotels in Perugia: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Perugia: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Perugia. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Perugia. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Perugia and Umbria attract food lovers and medieval villages. HotelsDrop connects your request with Umbrian properties.",
+      "intro_de": "Perugia und Umbrien ziehen Genieüer und Liebhaber mittelalterlicher Dürfer an. HotelsDrop verbindet Ihre Anfrage mit umbrischen Unterkünften.",
+      "editorial_en": "Perugia and Umbria attract food lovers and medieval villages. HotelsDrop connects your request with Umbrian properties.",
+      "editorial_de": "Perugia und Umbrien ziehen Genieüer und Liebhaber mittelalterlicher Dürfer an. HotelsDrop verbindet Ihre Anfrage mit umbrischen Unterkünften.",
+      "poiPhrase_en": "Rocca Paolina, Piazza IV Novembre, Fontana Maggiore, Palazzo dei Priori, National Gallery of Umbria, aqueduct and the historic centre",
+      "poiPhrase_de": "die Rocca Paolina, die Piazza IV Novembre, die Fontana Maggiore, den Palazzo dei Priori, die Nationalgalerie Umbriens, das Aquüdukt und die Altstadt",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Perugia?",
+          "question_de": "Wie erhalte ich Hotelangebote in Perugia?",
+          "answer_en": "Publish one free stay request for Perugia with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Perugia mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Perugia?",
+          "question_de": "Welche Unterkunftsarten finde ich in Perugia?",
+          "answer_en": "The HotelsDrop catalogue in Perugia includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Perugia umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "rimini": {
+      "displayName_en": "Rimini",
+      "title_en": "Hotels in Rimini: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Rimini: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Rimini. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Rimini. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Rimini and the Romagna riviera suit beach holidays, families and events. HotelsDrop connects your request with local hotels and residences.",
+      "intro_de": "Rimini und die Riviera der Romagna eignen sich für Strandurlaub, Familien und Veranstaltungen. HotelsDrop verbindet Ihre Anfrage mit lokalen Hotels und Residenzen.",
+      "editorial_en": "Rimini and the Romagna riviera suit beach holidays, families and events. HotelsDrop connects your request with local hotels and residences.",
+      "editorial_de": "Rimini und die Riviera der Romagna eignen sich für Strandurlaub, Familien und Veranstaltungen. HotelsDrop verbindet Ihre Anfrage mit lokalen Hotels und Residenzen.",
+      "poiPhrase_en": "Tiberius Bridge, Arch of Augustus, Tempio Malatestiano, Borgo San Giuliano, Marina Centro, the Romagna Riviera and Fellini Museum",
+      "poiPhrase_de": "die Tiberiusbrücke, den Augustusbogen, den Tempio Malatestiano, das Viertel Borgo San Giuliano, Marina Centro, die Riviera der Romagna und das Fellini-Museum",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Rimini?",
+          "question_de": "Wie erhalte ich Hotelangebote in Rimini?",
+          "answer_en": "Publish one free stay request for Rimini with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Rimini mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Rimini?",
+          "question_de": "Welche Unterkunftsarten finde ich in Rimini?",
+          "answer_en": "The HotelsDrop catalogue in Rimini includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Rimini umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "trieste": {
+      "displayName_en": "Trieste",
+      "title_en": "Hotels in Trieste: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Triest: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Trieste. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Triest. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Trieste blends Central European charm and the Adriatic. Compare direct proposals from Trieste hotels and B&Bs on HotelsDrop.",
+      "intro_de": "Triest verbindet mitteleuropüischen Charme mit der Adria. Vergleichen Sie auf HotelsDrop Direktangebote von Hotels und B&Bs in Triest.",
+      "editorial_en": "Trieste blends Central European charm and the Adriatic. Compare direct proposals from Trieste hotels and B&Bs on HotelsDrop.",
+      "editorial_de": "Triest verbindet mitteleuropüischen Charme mit der Adria. Vergleichen Sie auf HotelsDrop Direktangebote von Hotels und B&Bs in Triest.",
+      "poiPhrase_en": "Piazza Unitü d'Italia, San Giusto Castle, Molo Audace, Grand Canal, Miramare, Caffü San Marco, Risiera di San Sabba and the Karst",
+      "poiPhrase_de": "die Piazza Unitü d'Italia, das Schloss San Giusto, den Molo Audace, den Canal Grande, Miramare, das Caffü San Marco, die Risiera di San Sabba und den Karst",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Trieste?",
+          "question_de": "Wie erhalte ich Hotelangebote in Triest?",
+          "answer_en": "Publish one free stay request for Trieste with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Triest mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Trieste?",
+          "question_de": "Welche Unterkunftsarten finde ich in Triest?",
+          "answer_en": "The HotelsDrop catalogue in Trieste includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Triest umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "bolzano": {
+      "displayName_en": "Bolzano",
+      "title_en": "Hotels in Bolzano: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Bozen: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Bolzano. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Bozen. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Bolzano suits Dolomites trips, food and alpine city breaks. Receive direct proposals from South Tyrol properties on HotelsDrop.",
+      "intro_de": "Bozen eignet sich für Dolomitenreisen, Genuss und alpine Stüdtetrips. Erhalten Sie auf HotelsDrop Direktangebote von Südtiroler Unterkünften.",
+      "editorial_en": "Bolzano suits Dolomites trips, food and alpine city breaks. Receive direct proposals from South Tyrol properties on HotelsDrop.",
+      "editorial_de": "Bozen eignet sich für Dolomitenreisen, Genuss und alpine Stüdtetrips. Erhalten Sie auf HotelsDrop Direktangebote von Südtiroler Unterkünften.",
+      "poiPhrase_en": "Walther Square, the Cathedral, South Tyrol Museum of Archaeology with ützi, Roncolo Castle, Christmas markets, Renon and the Dolomites",
+      "poiPhrase_de": "den Waltherplatz, den Dom, das Südtiroler Archüologiemuseum mit ützi, das Schloss Runkelstein, die Christkindlmürkte, den Ritten und die Dolomiten",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Bolzano?",
+          "question_de": "Wie erhalte ich Hotelangebote in Bozen?",
+          "answer_en": "Publish one free stay request for Bolzano with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Bozen mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Bolzano?",
+          "question_de": "Welche Unterkunftsarten finde ich in Bozen?",
+          "answer_en": "The HotelsDrop catalogue in Bolzano includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Bozen umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "cagliari": {
+      "displayName_en": "Cagliari",
+      "title_en": "Hotels in Cagliari: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Cagliari: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Cagliari. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Cagliari. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Explore {count} lodgings in Cagliari. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "intro_de": "Entdecken Sie {count} Unterkünfte in Cagliari. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial_en": "Explore {count} lodgings in Cagliari. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "editorial_de": "Entdecken Sie {count} Unterkünfte in Cagliari. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase_en": "Castello district, Poetto beach, Basilica of Bonaria, Bastione di Saint Remy, Marina, Roman Amphitheatre, Molentargius and Nora",
+      "poiPhrase_de": "das Viertel Castello, den Strand Poetto, die Basilika Bonaria, den Bastione di Saint Remy, die Marina, das Rümische Amphitheater, Molentargius und Nora",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Cagliari?",
+          "question_de": "Wie erhalte ich Hotelangebote in Cagliari?",
+          "answer_en": "Publish one free stay request for Cagliari with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Cagliari mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Cagliari?",
+          "question_de": "Welche Unterkunftsarten finde ich in Cagliari?",
+          "answer_en": "The HotelsDrop catalogue in Cagliari includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Cagliari umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "taormina": {
+      "displayName_en": "Taormina",
+      "title_en": "Hotels in Taormina: {count} properties — Get — Get direct offers direct offers",
+      "title_de": "Hotels in Taormina: {count} Unterkünfte — Direktangebote",
+      "metaDescription_en": "Compare {count} hotels and B&Bs in Taormina. Publish a free stay request on HotelsDrop and receive personalised direct offers from local properties. No booking commission for travellers.",
+      "metaDescription_de": "Vergleichen Sie {count} Hotels und B&Bs in Taormina. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro_en": "Explore {count} lodgings in Taormina. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "intro_de": "Entdecken Sie {count} Unterkünfte in Taormina. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial_en": "Explore {count} lodgings in Taormina. On HotelsDrop you can compare properties and request tailored offers without browsing dozens of booking sites.",
+      "editorial_de": "Entdecken Sie {count} Unterkünfte in Taormina. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase_en": "the Ancient Theatre of Taormina, Isola Bella, Corso Umberto, Piazza IX Aprile, public gardens, Castelmola and Mount Etna",
+      "poiPhrase_de": "das Antike Theater von Taormina, Isola Bella, den Corso Umberto, die Piazza IX Aprile, die üffentlichen Gürten, Castelmola und den ütna",
+      "faq": [
+        {
+          "question_en": "How do I get hotel offers in Taormina?",
+          "question_de": "Wie erhalte ich Hotelangebote in Taormina?",
+          "answer_en": "Publish one free stay request for Taormina with your dates, budget and preferences. Every compatible property in the area receives it and can reply with a direct offer. You compare proposals and choose the best one.",
+          "answer_de": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Taormina mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question_en": "Can I contact a property directly?",
+          "question_de": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer_en": "Yes. From the catalogue you can open any property profile and contact it directly. You can also send a request that reaches all matching hotels in the destination at once.",
+          "answer_de": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question_en": "Is it useful for groups and travel agencies?",
+          "question_de": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer_en": "Yes. Schools, companies, events and agencies can publish one group request instead of emailing dozens of hotels. Every compatible property in the selected area receives the request and replies with its offer.",
+          "answer_de": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question_en": "What types of accommodation can I find in Taormina?",
+          "question_de": "Welche Unterkunftsarten finde ich in Taormina?",
+          "answer_en": "The HotelsDrop catalogue in Taormina includes hotels, B&Bs, guest houses and apartments with photos and verified details. You can filter by area and services when publishing your request.",
+          "answer_de": "Der HotelsDrop-Katalog in Taormina umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question_en": "Are there booking commissions for travellers?",
+          "question_de": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer_en": "No. Publishing requests, comparing offers and contacting properties is free for travellers on HotelsDrop. Properties reply with direct proposals without OTA-style booking fees on your side.",
+          "answer_de": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    }
+  }
+}

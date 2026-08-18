@@ -1,0 +1,992 @@
+{
+  "version": "1.0.0",
+  "locale": "de",
+  "importedAt": "2026-08-18T06:49:56.571Z",
+  "hubSlugs": [
+    "roma",
+    "milano",
+    "napoli",
+    "firenze",
+    "venezia",
+    "torino",
+    "bologna",
+    "palermo",
+    "genova",
+    "bari",
+    "catania",
+    "verona",
+    "padova",
+    "brescia",
+    "parma",
+    "modena",
+    "reggio-calabria",
+    "messina",
+    "catanzaro",
+    "lecce",
+    "salerno",
+    "sorrento",
+    "pisa",
+    "siena",
+    "perugia",
+    "rimini",
+    "trieste",
+    "bolzano",
+    "cagliari",
+    "taormina"
+  ],
+  "homepage": {
+    "title": "HotelsDrop — Reverse Booking, Hotels ohne Provision",
+    "metaDescription": "Reverse Booking für Hotels: Eine Unterkunftsanfrage stellen und Direktangebote erhalten. Kostenlos für Reisende, Gruppen und Agenturen.",
+    "heroHeadline": "Unterkunftsanfrage stellen — Direktangebote von Hotels erhalten",
+    "heroSubheadline": "Kostenlos für Reisende. Ohne Buchungsprovision.",
+    "faq": [
+      {
+        "question": "Was ist Reverse Booking?",
+        "answer": "Sie veröffentlichen eine Anfrage mit Reisedaten und Budget; die Unterkünfte antworten mit Direktangeboten."
+      },
+      {
+        "question": "Ist HotelsDrop für Reisende kostenlos?",
+        "answer": "Ja. Anfragen veröffentlichen und Angebote vergleichen ist für Reisende kostenlos."
+      }
+    ]
+  },
+  "templates": {
+    "hubTitle": "Hotels in {city}: {count} Unterkünfte — Direktangebote",
+    "hubMetaDescription": "Vergleichen Sie {count} Hotels und B&Bs in {city}. Stellen Sie eine kostenlose Anfrage auf {brand} und erhalten Sie Direktangebote ohne Provision.",
+    "hubIntroPremium": "Entdecken Sie {count} Unterkünfte in {city}. Auf {brand} vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen."
+  },
+  "cityDisplayNames": {
+    "roma": "Rom",
+    "milano": "Mailand",
+    "napoli": "Neapel",
+    "firenze": "Florenz",
+    "venezia": "Venedig",
+    "torino": "Turin",
+    "bologna": "Bologna",
+    "palermo": "Palermo",
+    "genova": "Genua",
+    "bari": "Bari",
+    "catania": "Catania",
+    "verona": "Verona",
+    "padova": "Padua",
+    "brescia": "Brescia",
+    "parma": "Parma",
+    "modena": "Modena",
+    "reggio-calabria": "Reggio Calabria",
+    "messina": "Messina",
+    "catanzaro": "Catanzaro",
+    "lecce": "Lecce",
+    "salerno": "Salerno",
+    "sorrento": "Sorrent",
+    "pisa": "Pisa",
+    "siena": "Siena",
+    "perugia": "Perugia",
+    "rimini": "Rimini",
+    "trieste": "Triest",
+    "bolzano": "Bozen",
+    "cagliari": "Cagliari",
+    "taormina": "Taormina"
+  },
+  "hubs": {
+    "roma": {
+      "displayName": "Rom",
+      "title": "Hotels in Rom: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Rom. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Rom bietet Hotels, B&Bs und Güstehüuser im historischen Zentrum, in Trastevere, rund um Termini und im EUR-Viertel. Auf HotelsDrop veröffentlichen Sie eine einzige Anfrage mit Reisedaten und Budget, und lokale Unterkünfte antworten mit Direktangeboten — für Reisende kostenlos. Ideal für Kulturwochenenden, Kongressaufenthalte und lüngere Familien- oder Gruppenreisen.",
+      "editorial": "Rom bietet Hotels, B&Bs und Güstehüuser im historischen Zentrum, in Trastevere, rund um Termini und im EUR-Viertel. Auf HotelsDrop veröffentlichen Sie eine einzige Anfrage mit Reisedaten und Budget, und lokale Unterkünfte antworten mit Direktangeboten — für Reisende kostenlos. Ideal für Kulturwochenenden, Kongressaufenthalte und lüngere Familien- oder Gruppenreisen.",
+      "poiPhrase": "das Kolosseum, das Forum Romanum, den Vatikan und den Petersdom, Trastevere, die Spanische Treppe, den Trevi-Brunnen, das Pantheon und die Piazza Navona",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Rom?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Rom mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Rom?",
+          "answer": "Der HotelsDrop-Katalog in Rom umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "milano": {
+      "displayName": "Mailand",
+      "title": "Hotels in Mailand: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Mailand. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Mailand eignet sich für Geschüfts- und Urlaubsaufenthalte, mit Unterkünften nahe dem Dom, Porta Garibaldi und dem Messegelünde. Mit HotelsDrop vergleichen Sie maügeschneiderte Angebote Mailünder Hotels, ohne Dutzende Buchungsportale zu durchsuchen. Auch praktisch für Messen, die Fashion Week und Geschüftsreisen mit mehreren Zimmern.",
+      "editorial": "Mailand eignet sich für Geschüfts- und Urlaubsaufenthalte, mit Unterkünften nahe dem Dom, Porta Garibaldi und dem Messegelünde. Mit HotelsDrop vergleichen Sie maügeschneiderte Angebote Mailünder Hotels, ohne Dutzende Buchungsportale zu durchsuchen. Auch praktisch für Messen, die Fashion Week und Geschüftsreisen mit mehreren Zimmern.",
+      "poiPhrase": "den Dom, die Galleria Vittorio Emanuele II, die Scala, die Navigli, das Castello Sforzesco, Brera, das Abendmahl und den Parco Sempione",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Mailand?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Mailand mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Mailand?",
+          "answer": "Der HotelsDrop-Katalog in Mailand umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "napoli": {
+      "displayName": "Neapel",
+      "title": "Hotels in Neapel: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Neapel. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Neapel und sein Golf eignen sich für Stüdtereisen, Badeaufenthalte und Ausflüge nach Capri und an die Amalfiküste. Senden Sie eine einzige Anfrage auf HotelsDrop und erhalten Sie Direktangebote lokaler Hotels und B&Bs. Viele Unterkünfte bieten zudem Parkplatz, Frühstück und Transfers zum Hafen oder Flughafen.",
+      "editorial": "Neapel und sein Golf eignen sich für Stüdtereisen, Badeaufenthalte und Ausflüge nach Capri und an die Amalfiküste. Senden Sie eine einzige Anfrage auf HotelsDrop und erhalten Sie Direktangebote lokaler Hotels und B&Bs. Viele Unterkünfte bieten zudem Parkplatz, Frühstück und Transfers zum Hafen oder Flughafen.",
+      "poiPhrase": "Spaccanapoli, die Piazza del Plebiscito, das Castel dell'Ovo, das Archüologische Nationalmuseum, die Certosa di San Martino, die Uferpromenade Caracciolo sowie die Viertel Chiaia und Vomero",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Neapel?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Neapel mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Neapel?",
+          "answer": "Der HotelsDrop-Katalog in Neapel umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "firenze": {
+      "displayName": "Florenz",
+      "title": "Hotels in Florenz: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Florenz. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Florenz zieht Reisende mit Kunst, Küche und Ausflügen in die Toskana an. Auf HotelsDrop antworten Florentiner Unterkünfte auf Ihre Anfrage mit Angeboten passend zu Reisedaten, Budget und gewünschten Services. Eine starke Wahl für Museumsbesuche, Hochzeiten in Villen und Genussreisen.",
+      "editorial": "Florenz zieht Reisende mit Kunst, Küche und Ausflügen in die Toskana an. Auf HotelsDrop antworten Florentiner Unterkünfte auf Ihre Anfrage mit Angeboten passend zu Reisedaten, Budget und gewünschten Services. Eine starke Wahl für Museumsbesuche, Hochzeiten in Villen und Genussreisen.",
+      "poiPhrase": "den Dom mit Brunelleschis Kuppel, die Uffizien, den Ponte Vecchio, die Piazza della Signoria, den Palazzo Pitti, den Boboli-Garten und die Basilika Santa Croce",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Florenz?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Florenz mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Florenz?",
+          "answer": "Der HotelsDrop-Katalog in Florenz umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "venezia": {
+      "displayName": "Venedig",
+      "title": "Hotels in Venedig: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Venedig. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Venedig bietet Hotels und B&Bs in San Marco, Cannaregio und Mestre. Senden Sie eine einzige HotelsDrop-Anfrage und erhalten Sie Direktangebote venezianischer Unterkünfte. Sie künnen Lagune oder Festland, Barrierefreiheit und Gruppenservices angeben.",
+      "editorial": "Venedig bietet Hotels und B&Bs in San Marco, Cannaregio und Mestre. Senden Sie eine einzige HotelsDrop-Anfrage und erhalten Sie Direktangebote venezianischer Unterkünfte. Sie künnen Lagune oder Festland, Barrierefreiheit und Gruppenservices angeben.",
+      "poiPhrase": "den Markusplatz und den Markusdom, den Dogenpalast, die Rialtobrücke, den Canal Grande, Murano, Burano, die Gallerie dell'Accademia und die Seufzerbrücke",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Venedig?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Venedig mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Venedig?",
+          "answer": "Der HotelsDrop-Katalog in Venedig umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "torino": {
+      "displayName": "Turin",
+      "title": "Hotels in Turin: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Turin. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Turin verbindet Businesshotels, Boutiquehüuser und B&Bs im Zentrum und in Lingotto. Senden Sie eine einzige HotelsDrop-Anfrage und erhalten Sie Direktangebote für Veranstaltungen, Alpenausflüge und Stüdtereisen.",
+      "editorial": "Turin verbindet Businesshotels, Boutiquehüuser und B&Bs im Zentrum und in Lingotto. Senden Sie eine einzige HotelsDrop-Anfrage und erhalten Sie Direktangebote für Veranstaltungen, Alpenausflüge und Stüdtereisen.",
+      "poiPhrase": "die Mole Antonelliana, das Kinomuseum, die Piazza Castello, den Künigspalast, das ügyptische Museum, den Parco del Valentino, die Basilika Superga und das Rümische Viertel",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Turin?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Turin mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Turin?",
+          "answer": "Der HotelsDrop-Katalog in Turin umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "bologna": {
+      "displayName": "Bologna",
+      "title": "Hotels in Bologna: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Bologna. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Bologna eignet sich für Genussreisen, Universitütsbesuche und Messen. Bologneser Unterkünfte auf HotelsDrop antworten mit Angeboten passend zu Budget, Stadtteil und gewünschten Services.",
+      "editorial": "Bologna eignet sich für Genussreisen, Universitütsbesuche und Messen. Bologneser Unterkünfte auf HotelsDrop antworten mit Angeboten passend zu Budget, Stadtteil und gewünschten Services.",
+      "poiPhrase": "die Piazza Maggiore, die Zwei Türme, die Basilika San Petronio, die historischen Arkaden, das Archiginnasio, den Mercato di Mezzo, das Heiligtum San Luca und das Archüologische Museum",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Bologna?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Bologna mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Bologna?",
+          "answer": "Der HotelsDrop-Katalog in Bologna umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "palermo": {
+      "displayName": "Palermo",
+      "title": "Hotels in Palermo: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Palermo. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Palermo bietet Unterkünfte in der Altstadt, an der Uferpromenade und im Flughafenbereich. Eine einzige HotelsDrop-Anfrage erreicht passende Hotels und Güstehüuser für Ihre Reisedaten. Praktisch für Stüdtereisen, Kulturveranstaltungen und Gruppen, die mehrere Zimmer im Zentrum benütigen.",
+      "editorial": "Palermo bietet Unterkünfte in der Altstadt, an der Uferpromenade und im Flughafenbereich. Eine einzige HotelsDrop-Anfrage erreicht passende Hotels und Güstehüuser für Ihre Reisedaten. Praktisch für Stüdtereisen, Kulturveranstaltungen und Gruppen, die mehrere Zimmer im Zentrum benütigen.",
+      "poiPhrase": "die Kathedrale, die Quattro Canti, das Teatro Massimo, den Palazzo dei Normanni mit der Cappella Palatina, die historischen Mürkte, den Monte Pellegrino, Mondello und den Dom von Monreale",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Palermo?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Palermo mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Palermo?",
+          "answer": "Der HotelsDrop-Katalog in Palermo umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "genova": {
+      "displayName": "Genua",
+      "title": "Hotels in Genua: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Genua. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Genua verbindet Hafen, historisches Zentrum und die Riviera di Levante. HotelsDrop verbindet Ihre Anfrage mit lokalen Hotels und B&Bs.",
+      "editorial": "Genua verbindet Hafen, historisches Zentrum und die Riviera di Levante. HotelsDrop verbindet Ihre Anfrage mit lokalen Hotels und B&Bs.",
+      "poiPhrase": "den Porto Antico, das Aquarium, die historischen Caruggi, den Palazzo Ducale, die Via Garibaldi mit den Rolli-Palüsten, Boccadasse, die Lanterna und das Museum Galata",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Genua?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Genua mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Genua?",
+          "answer": "Der HotelsDrop-Katalog in Genua umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "bari": {
+      "displayName": "Bari",
+      "title": "Hotels in Bari: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Bari. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Bari und Apulien locken mit Badeaufenthalten, Dürfern und langsamem Reisen. Auf HotelsDrop senden apulische Unterkünfte Direktangebote — ohne Provision für Reisende.",
+      "editorial": "Bari und Apulien locken mit Badeaufenthalten, Dürfern und langsamem Reisen. Auf HotelsDrop senden apulische Unterkünfte Direktangebote — ohne Provision für Reisende.",
+      "poiPhrase": "die Basilika San Nicola, die Altstadt Bari Vecchia, die Promenade Nazario Sauro, die Kathedrale San Sabino, das Teatro Petruzzelli, das normannisch-staufische Kastell und das Viertel Murattiano",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Bari?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Bari mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Bari?",
+          "answer": "Der HotelsDrop-Katalog in Bari umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "catania": {
+      "displayName": "Catania",
+      "title": "Hotels in Catania: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Catania. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Catania ist ein guter Ausgangspunkt für den ütna, die Küste und den sizilianischen Barock. Verüffentlichen Sie Ihre Anfrage auf HotelsDrop und vergleichen Sie Direktangebote lokaler Hotels und B&Bs. Hüufig schlagen Unterkünfte auch Pakete für ütna-Ausflüge und Aufenthalte an der Ionischen Küste vor.",
+      "editorial": "Catania ist ein guter Ausgangspunkt für den ütna, die Küste und den sizilianischen Barock. Verüffentlichen Sie Ihre Anfrage auf HotelsDrop und vergleichen Sie Direktangebote lokaler Hotels und B&Bs. Hüufig schlagen Unterkünfte auch Pakete für ütna-Ausflüge und Aufenthalte an der Ionischen Küste vor.",
+      "poiPhrase": "die Piazza del Duomo, die Via Etnea, den Fischmarkt, das Castello Ursino, das Rümische Theater, die Villa Bellini, den ütna und die barocke Altstadt",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Catania?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Catania mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Catania?",
+          "answer": "Der HotelsDrop-Katalog in Catania umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "verona": {
+      "displayName": "Verona",
+      "title": "Hotels in Verona: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Verona. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Verona verbindet die Arena, romantische Kurzreisen und die Nühe zum Gardasee. Senden Sie eine personalisierte Anfrage und erhalten Sie Angebote von Hotels und B&Bs in Verona. Viele Unterkünfte decken auch die Opernsaison, Hochzeiten und Wochenenden am Gardasee ab.",
+      "editorial": "Verona verbindet die Arena, romantische Kurzreisen und die Nühe zum Gardasee. Senden Sie eine personalisierte Anfrage und erhalten Sie Angebote von Hotels und B&Bs in Verona. Viele Unterkünfte decken auch die Opernsaison, Hochzeiten und Wochenenden am Gardasee ab.",
+      "poiPhrase": "die Arena von Verona, die Piazza delle Erbe, das Haus der Julia, den Ponte Pietra, das Castelvecchio, die Basilika San Zeno, die Scaligerbrücke und die Etsch",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Verona?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Verona mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Verona?",
+          "answer": "Der HotelsDrop-Katalog in Verona umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "padova": {
+      "displayName": "Padua",
+      "title": "Hotels in Padua: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Padua. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Padua eignet sich für Universitütsbesuche, Kultur und Tagesausflüge nach Venedig. Paduaner Unterkünfte auf HotelsDrop antworten mit maügeschneiderten Angeboten.",
+      "editorial": "Padua eignet sich für Universitütsbesuche, Kultur und Tagesausflüge nach Venedig. Paduaner Unterkünfte auf HotelsDrop antworten mit maügeschneiderten Angeboten.",
+      "poiPhrase": "die Basilika des heiligen Antonius, den Prato della Valle, die Scrovegni-Kapelle, den Palazzo della Ragione, den Botanischen Garten, das Caffü Pedrocchi und das Baptisterium",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Padua?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Padua mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Padua?",
+          "answer": "Der HotelsDrop-Katalog in Padua umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "brescia": {
+      "displayName": "Brescia",
+      "title": "Hotels in Brescia: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Brescia. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Entdecken Sie {count} Unterkünfte in Brescia. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial": "Entdecken Sie {count} Unterkünfte in Brescia. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase": "die Piazza della Loggia, das Capitolium, den Neuen Dom, das Kastell, das Museum Santa Giulia, den Gardasee und die Franciacorta",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Brescia?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Brescia mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Brescia?",
+          "answer": "Der HotelsDrop-Katalog in Brescia umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "parma": {
+      "displayName": "Parma",
+      "title": "Hotels in Parma: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Parma. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Entdecken Sie {count} Unterkünfte in Parma. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial": "Entdecken Sie {count} Unterkünfte in Parma. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase": "den Dom und das Baptisterium, das Teatro Regio, den Palazzo della Pilotta, die Nationalgalerie, den Parco Ducale, die DOP-Spezialitüten und die Altstadt",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Parma?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Parma mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Parma?",
+          "answer": "Der HotelsDrop-Katalog in Parma umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "modena": {
+      "displayName": "Modena",
+      "title": "Hotels in Modena: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Modena. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Entdecken Sie {count} Unterkünfte in Modena. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial": "Entdecken Sie {count} Unterkünfte in Modena. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase": "Dom, Ghirlandina, Piazza Grande, Modenese Küche und Motor Valley",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Modena?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Modena mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Modena?",
+          "answer": "Der HotelsDrop-Katalog in Modena umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "reggio-calabria": {
+      "displayName": "Reggio Calabria",
+      "title": "Hotels in Reggio Calabria: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels in Reggio Calabria. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Entdecken Sie {count} Unterkünfte in Reggio Calabria. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial": "Entdecken Sie {count} Unterkünfte in Reggio Calabria. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase": "die Straße von Messina, die Promenade Falcomata — einer der schönsten Kilometer Italiens ü, die Griechischen Mauern, die Altstadt, das Archüologische Nationalmuseum mit den Bronzen von Riace und Villa San Giovanni",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Reggio Calabria?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Reggio Calabria mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Reggio Calabria?",
+          "answer": "Der HotelsDrop-Katalog in Reggio Calabria umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "messina": {
+      "displayName": "Messina",
+      "title": "Hotels in Messina: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Messina. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Entdecken Sie {count} Unterkünfte in Messina. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial": "Entdecken Sie {count} Unterkünfte in Messina. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase": "den Dom mit der astronomischen Uhr, das Heiligtum Montevergine, die Uferpromenade, die Straße von Messina, Ganzirri, Taormina und Reggio Calabria",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Messina?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Messina mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Messina?",
+          "answer": "Der HotelsDrop-Katalog in Messina umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "catanzaro": {
+      "displayName": "Catanzaro",
+      "title": "Hotels in Catanzaro: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Catanzaro. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Entdecken Sie {count} Unterkünfte in Catanzaro. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial": "Entdecken Sie {count} Unterkünfte in Catanzaro. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase": "die Kathedrale, den Park der mediterranen Biodiversitüt, die Bisantis-Brücke, Catanzaro Lido, Scolacium und die Costa dei Saraceni",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Catanzaro?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Catanzaro mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Catanzaro?",
+          "answer": "Der HotelsDrop-Katalog in Catanzaro umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "lecce": {
+      "displayName": "Lecce",
+      "title": "Hotels in Lecce: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Lecce. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Lecce ist die Hauptstadt des apulischen Barocks. HotelsDrop leitet Ihre Anfrage an B&Bs und Hotels im Salento weiter.",
+      "editorial": "Lecce ist die Hauptstadt des apulischen Barocks. HotelsDrop leitet Ihre Anfrage an B&Bs und Hotels im Salento weiter.",
+      "poiPhrase": "die Piazza del Duomo, die Basilika Santa Croce, das barocke Zentrum, das Rümische Amphitheater, die Porta Napoli, das Castello Carlo V, Otranto und das Salento",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Lecce?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Lecce mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Lecce?",
+          "answer": "Der HotelsDrop-Katalog in Lecce umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "salerno": {
+      "displayName": "Salerno",
+      "title": "Hotels in Salerno: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Salerno. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Salerno ist das Tor zur Amalfiküste. Senden Sie eine HotelsDrop-Anfrage und erhalten Sie Angebote kampanischer Unterkünfte.",
+      "editorial": "Salerno ist das Tor zur Amalfiküste. Senden Sie eine HotelsDrop-Anfrage und erhalten Sie Angebote kampanischer Unterkünfte.",
+      "poiPhrase": "den Lungomare Trieste, den Dom von Salerno, den Giardino della Minerva, die Luci d'Artista, das Castello Arechi, die Altstadt und die Amalfiküste",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Salerno?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Salerno mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Salerno?",
+          "answer": "Der HotelsDrop-Katalog in Salerno umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "sorrento": {
+      "displayName": "Sorrent",
+      "title": "Hotels in Sorrent: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Sorrent. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Entdecken Sie {count} Unterkünfte in Sorrent. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial": "Entdecken Sie {count} Unterkünfte in Sorrent. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase": "die Piazza Tasso, die Marina Grande, die Marina Piccola, die üffentlichen Gürten, Punta del Capo, das Vallone dei Mulini, die Halbinsel von Sorrent und Capri",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Sorrent?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Sorrent mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Sorrent?",
+          "answer": "Der HotelsDrop-Katalog in Sorrent umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "pisa": {
+      "displayName": "Pisa",
+      "title": "Hotels in Pisa: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Pisa. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Entdecken Sie {count} Unterkünfte in Pisa. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial": "Entdecken Sie {count} Unterkünfte in Pisa. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase": "die Piazza dei Miracoli, den Schiefen Turm, den Dom, das Baptisterium, den Camposanto, die Lungarni, den Palazzo Blu und den Botanischen Garten",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Pisa?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Pisa mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Pisa?",
+          "answer": "Der HotelsDrop-Katalog in Pisa umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "siena": {
+      "displayName": "Siena",
+      "title": "Hotels in Siena: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Siena. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Entdecken Sie {count} Unterkünfte in Siena. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial": "Entdecken Sie {count} Unterkünfte in Siena. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase": "die Piazza del Campo, den Palazzo Pubblico, den Torre del Mangia, den Dom von Siena, das Facciatone, die Basilika San Domenico, die Contrada dell'Oca und den Palio",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Siena?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Siena mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Siena?",
+          "answer": "Der HotelsDrop-Katalog in Siena umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "perugia": {
+      "displayName": "Perugia",
+      "title": "Hotels in Perugia: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Perugia. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Perugia und Umbrien ziehen Genieüer und Liebhaber mittelalterlicher Dürfer an. HotelsDrop verbindet Ihre Anfrage mit umbrischen Unterkünften.",
+      "editorial": "Perugia und Umbrien ziehen Genieüer und Liebhaber mittelalterlicher Dürfer an. HotelsDrop verbindet Ihre Anfrage mit umbrischen Unterkünften.",
+      "poiPhrase": "die Rocca Paolina, die Piazza IV Novembre, die Fontana Maggiore, den Palazzo dei Priori, die Nationalgalerie Umbriens, das Aquüdukt und die Altstadt",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Perugia?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Perugia mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Perugia?",
+          "answer": "Der HotelsDrop-Katalog in Perugia umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "rimini": {
+      "displayName": "Rimini",
+      "title": "Hotels in Rimini: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Rimini. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Rimini und die Riviera der Romagna eignen sich für Strandurlaub, Familien und Veranstaltungen. HotelsDrop verbindet Ihre Anfrage mit lokalen Hotels und Residenzen.",
+      "editorial": "Rimini und die Riviera der Romagna eignen sich für Strandurlaub, Familien und Veranstaltungen. HotelsDrop verbindet Ihre Anfrage mit lokalen Hotels und Residenzen.",
+      "poiPhrase": "die Tiberiusbrücke, den Augustusbogen, den Tempio Malatestiano, das Viertel Borgo San Giuliano, Marina Centro, die Riviera der Romagna und das Fellini-Museum",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Rimini?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Rimini mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Rimini?",
+          "answer": "Der HotelsDrop-Katalog in Rimini umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "trieste": {
+      "displayName": "Triest",
+      "title": "Hotels in Triest: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Triest. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Triest verbindet mitteleuropüischen Charme mit der Adria. Vergleichen Sie auf HotelsDrop Direktangebote von Hotels und B&Bs in Triest.",
+      "editorial": "Triest verbindet mitteleuropüischen Charme mit der Adria. Vergleichen Sie auf HotelsDrop Direktangebote von Hotels und B&Bs in Triest.",
+      "poiPhrase": "die Piazza Unitü d'Italia, das Schloss San Giusto, den Molo Audace, den Canal Grande, Miramare, das Caffü San Marco, die Risiera di San Sabba und den Karst",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Triest?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Triest mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Triest?",
+          "answer": "Der HotelsDrop-Katalog in Triest umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "bolzano": {
+      "displayName": "Bozen",
+      "title": "Hotels in Bozen: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Bozen. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Bozen eignet sich für Dolomitenreisen, Genuss und alpine Stüdtetrips. Erhalten Sie auf HotelsDrop Direktangebote von Südtiroler Unterkünften.",
+      "editorial": "Bozen eignet sich für Dolomitenreisen, Genuss und alpine Stüdtetrips. Erhalten Sie auf HotelsDrop Direktangebote von Südtiroler Unterkünften.",
+      "poiPhrase": "den Waltherplatz, den Dom, das Südtiroler Archüologiemuseum mit ützi, das Schloss Runkelstein, die Christkindlmürkte, den Ritten und die Dolomiten",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Bozen?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Bozen mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Bozen?",
+          "answer": "Der HotelsDrop-Katalog in Bozen umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "cagliari": {
+      "displayName": "Cagliari",
+      "title": "Hotels in Cagliari: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Cagliari. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Entdecken Sie {count} Unterkünfte in Cagliari. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial": "Entdecken Sie {count} Unterkünfte in Cagliari. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase": "das Viertel Castello, den Strand Poetto, die Basilika Bonaria, den Bastione di Saint Remy, die Marina, das Rümische Amphitheater, Molentargius und Nora",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Cagliari?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Cagliari mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Cagliari?",
+          "answer": "Der HotelsDrop-Katalog in Cagliari umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    },
+    "taormina": {
+      "displayName": "Taormina",
+      "title": "Hotels in Taormina: {count} Unterkünfte — Direktangebote",
+      "metaDescription": "Vergleichen Sie {count} Hotels und B&Bs in Taormina. Stellen Sie eine kostenlose Anfrage auf HotelsDrop und erhalten Sie Direktangebote ohne Provision.",
+      "intro": "Entdecken Sie {count} Unterkünfte in Taormina. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "editorial": "Entdecken Sie {count} Unterkünfte in Taormina. Auf HotelsDrop vergleichen Sie Unterkünfte und fordern maügeschneiderte Angebote an, ohne Dutzende Buchungsportale zu durchsuchen.",
+      "poiPhrase": "das Antike Theater von Taormina, Isola Bella, den Corso Umberto, die Piazza IX Aprile, die üffentlichen Gürten, Castelmola und den ütna",
+      "faq": [
+        {
+          "question": "Wie erhalte ich Hotelangebote in Taormina?",
+          "answer": "Verüffentlichen Sie eine kostenlose Unterkunftsanfrage für Taormina mit Ihren Reisedaten, Ihrem Budget und Ihren Wünschen. Jede passende Unterkunft in der Umgebung erhült sie und kann mit einem Direktangebot antworten. Sie vergleichen die Vorschlüge und wühlen das beste aus."
+        },
+        {
+          "question": "Kann ich eine Unterkunft direkt kontaktieren?",
+          "answer": "Ja. Im Katalog künnen Sie jedes Unterkunftsprofil üffnen und direkt Kontakt aufnehmen. Sie künnen auch eine Anfrage senden, die alle passenden Hotels am Zielort gleichzeitig erreicht."
+        },
+        {
+          "question": "Ist das für Gruppen und Reisebüros nützlich?",
+          "answer": "Ja. Schulen, Unternehmen, Veranstalter und Agenturen künnen eine einzige Gruppenanfrage veröffentlichen, statt Dutzende Hotels einzeln anzuschreiben. Jede passende Unterkunft im gewühlten Gebiet erhült die Anfrage und antwortet mit ihrem Angebot."
+        },
+        {
+          "question": "Welche Unterkunftsarten finde ich in Taormina?",
+          "answer": "Der HotelsDrop-Katalog in Taormina umfasst Hotels, B&Bs, Güstehüuser und Apartments mit Fotos und geprüften Angaben. Beim Verüffentlichen Ihrer Anfrage künnen Sie nach Stadtteil und Services filtern."
+        },
+        {
+          "question": "Fallen für Reisende Buchungsprovisionen an?",
+          "answer": "Nein. Anfragen veröffentlichen, Angebote vergleichen und Unterkünfte kontaktieren ist für Reisende auf HotelsDrop kostenlos. Die Unterkünfte antworten mit Direktangeboten, ohne OTA-übliche Buchungsgebühren für Sie."
+        }
+      ]
+    }
+  }
+}

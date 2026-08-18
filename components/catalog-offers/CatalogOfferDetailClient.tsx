@@ -8,6 +8,7 @@ import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { getMealPlanLabels } from "@/lib/i18n/labels";
 import {
   boardBasisShort,
+  catalogLabelsForLocale,
   catalogRoomTypeLabels,
   catalogTripTypeLabels,
   destinationLine,
@@ -191,12 +192,12 @@ export function CatalogOfferDetailClient({ offerCode }: { offerCode: string }) {
             <section className="mt-8 space-y-4">
               <h2 className="text-lg font-semibold">{t.catalogOffers.hotelSection}</h2>
               <p className="text-sm text-zinc-600">
-                {mealPlanLabels[offer.hotel_details_full.board_basis]} ({boardBasisShort[locale][offer.hotel_details_full.board_basis]})
+                {mealPlanLabels[offer.hotel_details_full.board_basis]} ({catalogLabelsForLocale(boardBasisShort, locale)[offer.hotel_details_full.board_basis]})
               </p>
               <ul className="grid gap-2 sm:grid-cols-2">
                 {offer.hotel_details_full.rooms.map((room) => (
                   <li key={room.id ?? room.room_type} className="rounded-2xl border border-zinc-200 p-3 text-sm">
-                    <strong>{catalogRoomTypeLabels[locale][room.room_type]}</strong>
+                    <strong>{catalogLabelsForLocale(catalogRoomTypeLabels, locale)[room.room_type]}</strong>
                     <span className="text-zinc-500"> · {room.rooms_available} {t.catalogOffers.roomsAvailable}</span>
                   </li>
                 ))}
@@ -219,16 +220,16 @@ export function CatalogOfferDetailClient({ offerCode }: { offerCode: string }) {
             <section className="mt-8 space-y-6">
               <h2 className="text-lg font-semibold">{t.catalogOffers.agencySection}</h2>
               <p className="text-sm text-zinc-600">
-                {catalogTripTypeLabels[locale][offer.agency_details_full.trip_type]} · {offer.agency_details_full.duration_days} {t.catalogOffers.days} / {offer.agency_details_full.duration_nights} {t.catalogOffers.nights}
+                {catalogLabelsForLocale(catalogTripTypeLabels, locale)[offer.agency_details_full.trip_type]} · {offer.agency_details_full.duration_days} {t.catalogOffers.days} / {offer.agency_details_full.duration_nights} {t.catalogOffers.nights}
               </p>
               <p className="text-sm text-zinc-600">
-                {mealPlanLabels[offer.agency_details_full.board_basis]} ({boardBasisShort[locale][offer.agency_details_full.board_basis]})
+                {mealPlanLabels[offer.agency_details_full.board_basis]} ({catalogLabelsForLocale(boardBasisShort, locale)[offer.agency_details_full.board_basis]})
               </p>
               {offer.agency_details_full.transport_modes.length ? (
                 <p className="text-sm text-zinc-600">
                   {offer.agency_details_full.transport_modes
                     .filter((m) => m !== "none")
-                    .map((m) => transportModeLabels[locale][m as TransportMode] ?? m)
+                    .map((m) => catalogLabelsForLocale(transportModeLabels, locale)[m as TransportMode] ?? m)
                     .join(" · ")}
                 </p>
               ) : null}

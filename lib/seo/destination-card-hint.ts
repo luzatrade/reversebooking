@@ -1,4 +1,5 @@
 import { getManualHighlightsForCity } from "@/data/cityHighlights";
+import { uiLocale } from "@/lib/i18n/ui-locale";
 import type { DestinationHub } from "@/lib/seo/destination-queries";
 import type { Locale } from "@/lib/i18n/translations";
 
@@ -81,8 +82,9 @@ function hintsFromHighlights(hub: DestinationHub, locale: Locale): string | null
   });
   if (!highlights.length) return null;
 
+  const ui = uiLocale(locale);
   const names = highlights
-    .map((item) => (locale === "en" ? item.nameEn : item.nameIt))
+    .map((item) => (ui === "en" ? item.nameEn : item.nameIt))
     .filter((name) => !isGenericHighlightName(name, hub.displayName));
 
   const unique: string[] = [];
@@ -97,11 +99,12 @@ function hintsFromHighlights(hub: DestinationHub, locale: Locale): string | null
 }
 
 export function getDestinationCardHint(hub: DestinationHub, locale: Locale): string {
+  const ui = uiLocale(locale);
   const slugHint = DESTINATION_CARD_HINTS[hub.slug];
-  if (slugHint) return locale === "en" ? slugHint.en : slugHint.it;
+  if (slugHint) return ui === "en" ? slugHint.en : slugHint.it;
 
   const highlightHint = hintsFromHighlights(hub, locale);
   if (highlightHint) return highlightHint;
 
-  return locale === "en" ? GENERIC_FALLBACK.en : GENERIC_FALLBACK.it;
+  return ui === "en" ? GENERIC_FALLBACK.en : GENERIC_FALLBACK.it;
 }

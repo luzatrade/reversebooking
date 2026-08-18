@@ -1,10 +1,11 @@
 import { DestinationCard } from "@/components/seo/DestinationCard";
 import type { DestinationHub } from "@/lib/seo/destination-queries";
+import type { Locale } from "@/lib/i18n/translations";
 
 type Props = {
   title: string;
   destinations: DestinationHub[];
-  locale: "it" | "en";
+  locale: Locale;
 };
 
 export function RelatedDestinationsStrip({ title, destinations, locale }: Props) {

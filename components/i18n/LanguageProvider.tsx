@@ -2,9 +2,10 @@
 
 import { createContext, ReactNode, useContext, useEffect, useMemo, useState } from "react";
 import { LOCALE_COOKIE } from "@/lib/i18n/cookie";
-import { Locale, supportedLocales, translations } from "@/lib/i18n/translations";
+import { getTranslations, type Translations } from "@/lib/i18n/messages";
+import { Locale, supportedLocales } from "@/lib/i18n/translations";
 
-type TranslationValue = (typeof translations)[Locale];
+type TranslationValue = Translations;
 
 type LanguageContextValue = {
   locale: Locale;
@@ -51,7 +52,7 @@ export function LanguageProvider({
     () => ({
       locale,
       setLocale,
-      t: translations[locale] as TranslationValue,
+      t: getTranslations(locale),
     }),
     [locale],
   );

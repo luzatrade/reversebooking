@@ -1,0 +1,64 @@
+# HotelsDrop — pacchetto traduzioni SEO hub
+
+Cartella per tradurre **homepage + 30 hub destinazione** senza tradurre tutto il sito.
+
+## File
+
+| File | Contenuto |
+|------|-----------|
+| `cities-v1.json` | Lista 30 città, slug, URL target, `displayNameDe/Fr/Es…` |
+| `homepage.json` | Title, meta, hero, FAQ homepage |
+| `destination-hubs.json` | Meta, intro, editorial, POI, FAQ per ogni hub |
+| `seo-templates.json` | Pattern title/description riutilizzabili |
+| `GLOSSARY.md` | Termini fissi (non tradurre liberamente) |
+
+## Come compilare
+
+1. Leggi `GLOSSARY.md` prima di tradurre.
+2. Compila solo le chiavi lingua vuote (`de`, `fr`, `es`, `nl`, `pl`) in ogni file.
+3. **Non cambiare** `slug`, `cityId`, `source.*` (riferimento IT/EN).
+4. Limiti SERP:
+   - **title** ≤ 60 caratteri
+   - **metaDescription** ≤ 155 caratteri
+5. `{count}` nei testi source = numero strutture; in traduzione usa `{count}` o equivalente naturale nella lingua.
+6. FAQ hub: traduci ogni `question` e `answer` sotto `faq[].question.translations.de` ecc.
+
+## Esempio (hub)
+
+```json
+"translations": {
+  "title": {
+    "de": "Hotels in Reggio Calabria: {count} Unterkünfte — Direktangebote"
+  }
+}
+```
+
+## Dopo la traduzione
+
+Quando hai finito (es. solo `de` compilato), scrivi in Cursor:
+
+```text
+Traduzioni SEO in data/seo/export/ — DE completato. Implementa hub-only /de, hreflang, sitemap.
+```
+
+L'agente leggerà i JSON da questa cartella.
+
+## Lingue previste
+
+| Codice | Segmento hub | hreflang |
+|--------|----------------|----------|
+| `de` | `/de/reiseziele/` | `de-DE` |
+| `fr` | `/fr/destinations/` | `fr-FR` |
+| `es` | `/es/destinos/` | `es-ES` |
+
+Hotel: sempre canonical `/en/hotel/...` — **non tradurre** schede hotel.
+
+## Rigenerare export da codice
+
+Se cambiano copy IT/EN in produzione:
+
+```bash
+node scripts/export-seo-translation-pack.mjs
+```
+
+⚠️ Sovrascrive i JSON: fai backup delle traduzioni già compilate.

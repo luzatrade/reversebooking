@@ -14,8 +14,9 @@ import {
   getDestinationHowItWorks,
   getMarketingLabels,
 } from "@/lib/i18n/seo-marketing";
-import { getStructureCardAttractionHint } from "@/lib/seo/structure-card-hint";
 import { buildDestinationIntro } from "@/lib/seo/destination-metadata";
+import { getDestinationDisplayName } from "@/lib/seo/destination-display-name";
+import { getStructureCardAttractionHint } from "@/lib/seo/structure-card-hint";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import {
   buildDestinationTravelRequestHref,
@@ -36,8 +37,9 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
   const t = await getServerTranslations();
   const locale = await getServerLocale();
   const labels = getMarketingLabels(locale);
+  const displayName = getDestinationDisplayName(hub, locale);
   const intro = buildDestinationIntro(hub, locale);
-  const editorial = getDestinationEditorial(hub.slug, hub.displayName, hub.structureCount, locale);
+  const editorial = getDestinationEditorial(hub.slug, displayName, hub.structureCount, locale);
   const heroUrl = getDestinationCityPhoto(hub);
   const travelRequestHref = localizedPath(locale, buildDestinationTravelRequestHref(hub));
   const reverseBookingCopy = {
@@ -50,10 +52,12 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
     howItWorks: t.hotel.reverseBookingHowItWorks,
   };
   const pageTitle =
-    locale === "en"
-      ? `Hotels and properties in ${hub.displayName}`
-      : `Hotel e strutture a ${hub.displayName}`;
-  const structureAttractionHint = getStructureCardAttractionHint(hub.displayName, locale);
+    locale === "de"
+      ? `Hotels und Unterkünfte in ${displayName}`
+      : locale === "en"
+        ? `Hotels and properties in ${displayName}`
+        : `Hotel e strutture a ${displayName}`;
+  const structureAttractionHint = getStructureCardAttractionHint(displayName, locale === "de" ? "en" : locale);
 
   return (
     <div className="space-y-6">
@@ -61,7 +65,7 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
         items={[
           { label: locale === "en" ? "Home" : "Home", href: homePath(locale) },
           { label: labels.destinationsNav, href: localizedPath(locale, "/destinazioni") },
-          { label: hub.displayName },
+          { label: displayName },
         ]}
       />
 
@@ -71,30 +75,32 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
             {heroUrl ? (
               <SeoImage
                 src={heroUrl}
-                alt={hub.displayName}
+                alt={displayName}
                 className="h-44 w-full object-cover sm:h-52 md:h-60"
                 priority
                 sizes="(max-width: 768px) 100vw, 1280px"
               />
             ) : (
-              <CityHeroPlaceholder cityName={hub.displayName} className="h-44 sm:h-52 md:h-60" />
+              <CityHeroPlaceholder cityName={displayName} className="h-44 sm:h-52 md:h-60" />
             )}
             <div className="p-6 sm:p-8">
               <p className="text-xs font-medium uppercase tracking-wide text-[#0f4c81] sm:text-sm">
-                {locale === "en" ? "Destination" : "Destinazione"}
+                {locale === "de" ? "Reiseziel" : locale === "en" ? "Destination" : "Destinazione"}
               </p>
               <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">{pageTitle}</h1>
               <p className="mt-4 max-w-3xl text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{intro}</p>
               <p className="mt-3 max-w-3xl text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{editorial}</p>
               <p className="mt-3 text-sm text-zinc-500">
-                {locale === "en"
-                  ? `${hub.structureCount} indexed properties`
-                  : `${hub.structureCount} strutture nel catalogo`}
+                {locale === "de"
+                  ? `${hub.structureCount} Unterkünfte im Katalog`
+                  : locale === "en"
+                    ? `${hub.structureCount} indexed properties`
+                    : `${hub.structureCount} strutture nel catalogo`}
               </p>
 
               <HotelReverseBookingCta
                 locale={locale}
-                cityName={hub.displayName}
+                cityName={displayName}
                 requestHref={travelRequestHref}
                 copy={reverseBookingCopy}
                 className="mt-5 lg:hidden"
@@ -131,7 +137,7 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
                         </p>
                       ) : null}
                       <span className="mt-4 text-sm font-semibold text-[#0f4c81]">
-                        {locale === "en" ? "View property" : "Vedi struttura"}
+                        {locale === "de" ? "Unterkunft ansehen" : locale === "en" ? "View property" : "Vedi struttura"}
                       </span>
                     </div>
                   </Link>
@@ -144,7 +150,7 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
             <>
               <DestinationHowItWorksBlock
                 title={labels.destinationHowItWorks}
-                bullets={getDestinationHowItWorks(locale, hub.displayName)}
+                bullets={getDestinationHowItWorks(locale === "de" ? "en" : locale, displayName)}
               />
               <RelatedDestinationsStrip
                 title={labels.relatedDestinations}
@@ -152,7 +158,7 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
                 locale={locale}
               />
               <FaqSection
-                items={getDestinationFaq(locale, hub.displayName)}
+                items={getDestinationFaq(locale, displayName, hub.slug)}
                 title={labels.faqTitle}
                 id={`destination-faq-${hub.slug}`}
               />

@@ -4,12 +4,13 @@ import { destinationPublicPath, localizedPath, structurePublicPath } from "@/lib
 import { fetchDestinationHubBySlug } from "@/lib/seo/destination-queries";
 import { resolveDestinationHubSlug } from "@/lib/seo/city-canonical";
 import type { ShowcaseHomeHotel, ShowcaseHomeInitialData } from "@/lib/showcase/homeData";
+import type { Locale } from "@/lib/i18n/translations";
 
 type Props = {
   initialData: ShowcaseHomeInitialData | null;
 };
 
-function inventoryStructureHref(hotel: ShowcaseHomeHotel, locale: "it" | "en") {
+function inventoryStructureHref(hotel: ShowcaseHomeHotel, locale: Locale) {
   if (hotel.slug) return structurePublicPath(hotel.slug, locale);
   if (hotel.isOnboarding) return localizedPath(locale, `/hotel/onboarding/${hotel.id}`);
   return localizedPath(locale, `/hotel/${hotel.id}`);

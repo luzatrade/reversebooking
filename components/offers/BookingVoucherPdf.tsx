@@ -2,8 +2,9 @@ import { Document, Page, StyleSheet, Text, View } from "@react-pdf/renderer";
 import type { AcceptedBookingSummaryData } from "@/components/offers/AcceptedBookingSummary";
 import type { MealPlan, StructureType } from "@/types/app";
 import type { Locale } from "@/lib/i18n/translations";
+import { uiLocale, type UiLocale } from "@/lib/i18n/ui-locale";
 
-const mealPlanLabelsByLocale: Record<Locale, Record<MealPlan, string>> = {
+const mealPlanLabelsByLocale: Record<UiLocale, Record<MealPlan, string>> = {
   it: {
     room_only: "Solo pernottamento",
     breakfast: "Colazione",
@@ -20,12 +21,12 @@ const mealPlanLabelsByLocale: Record<Locale, Record<MealPlan, string>> = {
   },
 };
 
-const structureTypeLabelsByLocale: Record<Locale, Record<StructureType, string>> = {
+const structureTypeLabelsByLocale: Record<UiLocale, Record<StructureType, string>> = {
   it: { hotel: "Hotel", bed_and_breakfast: "B&B", apartment: "Appartamento" },
   en: { hotel: "Hotel", bed_and_breakfast: "B&B", apartment: "Apartment" },
 };
 
-const copy: Record<Locale, Record<string, string>> = {
+const copy: Record<UiLocale, Record<string, string>> = {
   it: {
     brand: "HotelsDrop",
     voucher: "Riepilogo prenotazione",
@@ -67,9 +68,10 @@ const copy: Record<Locale, Record<string, string>> = {
 };
 
 function fmtDate(value: string, locale: Locale) {
+  const ui = uiLocale(locale);
   const parsed = new Date(value);
   if (Number.isNaN(parsed.getTime())) return value;
-  return new Intl.DateTimeFormat(locale === "en" ? "en-GB" : "it-IT", {
+  return new Intl.DateTimeFormat(ui === "en" ? "en-GB" : "it-IT", {
     day: "2-digit",
     month: "long",
     year: "numeric",
@@ -77,7 +79,8 @@ function fmtDate(value: string, locale: Locale) {
 }
 
 function fmtCurrency(value: number, locale: Locale) {
-  return new Intl.NumberFormat(locale === "en" ? "en-GB" : "it-IT", {
+  const ui = uiLocale(locale);
+  return new Intl.NumberFormat(ui === "en" ? "en-GB" : "it-IT", {
     style: "currency",
     currency: "EUR",
   }).format(value);
@@ -125,9 +128,10 @@ export function BookingVoucherPdf({
   data: AcceptedBookingSummaryData;
   locale: Locale;
 }) {
-  const c = copy[locale];
+  const ui = uiLocale(locale);
+  const c = copy[ui];
   const structure = data.hotelStructureType
-    ? structureTypeLabelsByLocale[locale][data.hotelStructureType]
+    ? structureTypeLabelsByLocale[ui][data.hotelStructureType]
     : c.structure;
 
   return (
@@ -176,11 +180,11 @@ export function BookingVoucherPdf({
           </View>
           <View style={styles.cell}>
             <Text style={styles.label}>{c.mealRequest}</Text>
-            <Text style={styles.value}>{mealPlanLabelsByLocale[locale][data.mealPlanRequest]}</Text>
+            <Text style={styles.value}>{mealPlanLabelsByLocale[ui][data.mealPlanRequest]}</Text>
           </View>
           <View style={styles.cell}>
             <Text style={styles.label}>{c.mealOffer}</Text>
-            <Text style={styles.value}>{mealPlanLabelsByLocale[locale][data.mealPlanOffer]}</Text>
+            <Text style={styles.value}>{mealPlanLabelsByLocale[ui][data.mealPlanOffer]}</Text>
           </View>
         </View>
 

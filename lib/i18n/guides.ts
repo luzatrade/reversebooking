@@ -1,4 +1,5 @@
 import type { Locale } from "@/lib/i18n/translations";
+import { uiLocale } from "@/lib/i18n/ui-locale";
 
 export type GuideArticle = {
   slug: string;
@@ -164,7 +165,7 @@ const guidesEn: GuideArticle[] = [
   },
 ];
 
-const slugMap: Record<string, Record<Locale, string>> = {
+const slugMap: Record<string, { it: string; en: string }> = {
   "reverse-booking": { it: "reverse-booking", en: "reverse-booking" },
   "viaggi-di-gruppo": { it: "viaggi-di-gruppo", en: "group-travel" },
   "group-travel": { it: "viaggi-di-gruppo", en: "group-travel" },
@@ -173,12 +174,12 @@ const slugMap: Record<string, Record<Locale, string>> = {
 };
 
 export function listGuides(locale: Locale): GuideArticle[] {
-  return locale === "en" ? guidesEn : guidesIt;
+  return uiLocale(locale) === "en" ? guidesEn : guidesIt;
 }
 
 export function getGuideBySlug(slug: string, locale: Locale): GuideArticle | null {
   const guides = listGuides(locale);
-  const canonical = slugMap[slug]?.[locale];
+  const canonical = slugMap[slug]?.[uiLocale(locale)];
   if (canonical) return guides.find((g) => g.slug === canonical) ?? null;
   return guides.find((g) => g.slug === slug) ?? null;
 }
@@ -196,14 +197,16 @@ export function getGuideCanonicalKey(slug: string): string {
 
 export function guideSlugForLocale(slug: string, locale: Locale): string {
   const key = getGuideCanonicalKey(slug);
-  return slugMap[key]?.[locale] ?? slug;
+  return slugMap[key]?.[uiLocale(locale)] ?? slug;
 }
 
 export function guideSlugAlternates(slug: string): Record<Locale, string> {
   const key = getGuideCanonicalKey(slug);
+  const row = slugMap[key];
   return {
-    it: slugMap[key]?.it ?? key,
-    en: slugMap[key]?.en ?? key,
+    it: row?.it ?? key,
+    en: row?.en ?? key,
+    de: row?.en ?? key,
   };
 }
 

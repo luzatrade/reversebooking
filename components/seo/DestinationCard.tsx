@@ -6,19 +6,22 @@ import { getDestinationCardHint } from "@/lib/seo/destination-card-hint";
 import { getDestinationDisplayName } from "@/lib/seo/destination-display-name";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import type { DestinationHub } from "@/lib/seo/destination-queries";
+import type { Locale } from "@/lib/i18n/translations";
+import { uiLocale } from "@/lib/i18n/ui-locale";
 
 type Props = {
   destination: DestinationHub;
-  locale: "it" | "en";
+  locale: Locale;
   size?: "default" | "compact";
 };
 
 export function DestinationCard({ destination, locale, size = "default" }: Props) {
+  const ui = uiLocale(locale);
   const image = getDestinationCityPhoto(destination);
   const label = getDestinationDisplayName(destination, locale);
   const hint = getDestinationCardHint(destination, locale);
   const countLabel =
-    locale === "en"
+    ui === "en"
       ? `${destination.structureCount} ${destination.structureCount === 1 ? "property" : "properties"}`
       : `${destination.structureCount} ${destination.structureCount === 1 ? "struttura" : "strutture"}`;
 

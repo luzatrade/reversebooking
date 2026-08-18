@@ -3,6 +3,8 @@ import { SeoBreadcrumb } from "@/components/seo/SeoBreadcrumb";
 import { getServerLocale } from "@/lib/i18n/get-translations";
 import { homePath, localizedPath } from "@/lib/i18n/routing";
 import type { DestinationHub } from "@/lib/seo/destination-queries";
+import type { Locale } from "@/lib/i18n/translations";
+import { uiLocale } from "@/lib/i18n/ui-locale";
 
 type Props = {
   destinations: DestinationHub[];
@@ -50,7 +52,8 @@ export async function DestinationsIndexPage({ destinations }: Props) {
   );
 }
 
-function groupByCountry(destinations: DestinationHub[], locale: "it" | "en"): [string, DestinationHub[]][] {
+function groupByCountry(destinations: DestinationHub[], locale: Locale): [string, DestinationHub[]][] {
+  const ui = uiLocale(locale);
   const map = new Map<string, DestinationHub[]>();
   for (const destination of destinations) {
     const country = countryLabel(destination.countryCode, locale);
@@ -58,24 +61,26 @@ function groupByCountry(destinations: DestinationHub[], locale: "it" | "en"): [s
     bucket.push(destination);
     map.set(country, bucket);
   }
-  return [...map.entries()].sort(([a], [b]) => a.localeCompare(b, locale));
+  return [...map.entries()].sort(([a], [b]) => a.localeCompare(b, ui));
 }
 
-function countryLabel(code: string | null, locale: "it" | "en") {
-  if (code === "IT") return locale === "en" ? "Italy" : "Italia";
-  if (code === "FR") return locale === "en" ? "France" : "Francia";
-  if (code === "GB") return locale === "en" ? "United Kingdom" : "Regno Unito";
-  if (code === "DE") return locale === "en" ? "Germany" : "Germania";
-  if (code === "ES") return locale === "en" ? "Spain" : "Spagna";
-  if (code === "CA") return locale === "en" ? "Canada" : "Canada";
-  return locale === "en" ? "Worldwide" : "Mondo";
+function countryLabel(code: string | null, locale: Locale) {
+  const ui = uiLocale(locale);
+  if (code === "IT") return ui === "en" ? "Italy" : "Italia";
+  if (code === "FR") return ui === "en" ? "France" : "Francia";
+  if (code === "GB") return ui === "en" ? "United Kingdom" : "Regno Unito";
+  if (code === "DE") return ui === "en" ? "Germany" : "Germania";
+  if (code === "ES") return ui === "en" ? "Spain" : "Spagna";
+  if (code === "CA") return ui === "en" ? "Canada" : "Canada";
+  return ui === "en" ? "Worldwide" : "Mondo";
 }
 
-export function destinationsIndexMetadata(locale: "it" | "en") {
+export function destinationsIndexMetadata(locale: Locale) {
+  const ui = uiLocale(locale);
   const title =
-    locale === "en" ? "All destinations · HotelsDrop" : "Tutte le destinazioni · HotelsDrop";
+    ui === "en" ? "All destinations · HotelsDrop" : "Tutte le destinazioni · HotelsDrop";
   const description =
-    locale === "en"
+    ui === "en"
       ? "Browse every HotelsDrop destination. Send one stay request and receive direct offers from local hotels and properties."
       : "Esplora tutte le destinazioni HotelsDrop. Invia una richiesta di soggiorno e ricevi offerte dirette da hotel e strutture locali.";
   return { title, description, internalPath: "/destinazioni" as const };

@@ -184,8 +184,8 @@ export const cityGalleries = [
     ],
   },
   {
-    cityId: "IT-BRI",
-    cityNameEn: "Puglia",
+    cityId: "IT-ABB",
+    cityNameEn: "Alberobello",
     countryCode: "IT",
     descriptionIt:
       "Trulli, città bianche e mare cristallino: il tacco d'Italia tra ulivi secolari, borghi barocchi e calette nascoste.",
@@ -783,6 +783,386 @@ export const cityGalleries = [
       { id: "etruscan-arch", titleIt: "Arco Etrusco", titleEn: "Etruscan Arch", query: "Etruscan Arch Perugia", captionIt: "Porta antica", captionEn: "Ancient gate" },
       { id: "rocca-paolina", titleIt: "Rocca Paolina", titleEn: "Rocca Paolina", query: "Rocca Paolina Perugia", captionIt: "Fortezze e vicoli", captionEn: "Fortress and alleys" },
       { id: "skyline", titleIt: "Perugia dall'alto", titleEn: "Perugia skyline", query: "Perugia Umbria hills panorama", captionIt: "Panorama umbro", captionEn: "Umbrian panorama" },
+    ],
+  },
+  {
+    cityId: "IT-BRI",
+    cityNameEn: "Bari",
+    countryCode: "IT",
+    descriptionIt:
+      "Capitale pugliese sul Adriatico: Bari Vecchia affacciata sul porto, basiliche romaniche e orecchiette fatte a mano.",
+    descriptionEn:
+      "Apulian capital on the Adriatic: old Bari overlooking the port, Romanesque basilicas and hand-made orecchiette.",
+    pois: [
+      { id: "san-nicola", titleIt: "Basilica di San Nicola", titleEn: "Basilica of San Nicola", query: "Basilica San Nicola Bari facade", captionIt: "Gioiello romanico", captionEn: "Romanesque jewel" },
+      { id: "bari-vecchia", titleIt: "Bari Vecchia", titleEn: "Old Bari", query: "Bari Vecchia old town", captionIt: "Labirinto sul mare", captionEn: "Maze by the sea" },
+      { id: "lungomare", titleIt: "Lungomare", titleEn: "Seafront", query: "Bari lungomare Adriatic", captionIt: "Passeggiata sul porto", captionEn: "Harbour promenade" },
+      { id: "castello-svevo", titleIt: "Castello Svevo", titleEn: "Swabian Castle", query: "Castello Svevo Bari", captionIt: "Fortezza medievale", captionEn: "Medieval fortress" },
+      { id: "cattedrale", titleIt: "Cattedrale di Bari", titleEn: "Bari Cathedral", query: "Bari Cathedral San Sabino", captionIt: "Duomo di San Sabino", captionEn: "San Sabino Cathedral" },
+      { id: "piazza-mercantile", titleIt: "Piazza Mercantile", titleEn: "Piazza Mercantile", query: "Piazza Mercantile Bari", captionIt: "Cuore della città", captionEn: "Heart of the city" },
+      { id: "teatro-margherita", titleIt: "Teatro Margherita", titleEn: "Teatro Margherita", query: "Teatro Margherita Bari", captionIt: "Teatro sul mare", captionEn: "Theatre on the sea" },
+      { id: "skyline", titleIt: "Bari dall'alto", titleEn: "Bari skyline", query: "Bari cityscape harbour aerial", captionIt: "Panorama sul porto", captionEn: "Harbour panorama" },
+    ],
+  },
+  {
+    cityId: "IT-MAT",
+    cityNameEn: "Matera",
+    countryCode: "IT",
+    descriptionIt:
+      "Città dei Sassi: abitazioni scavate nella roccia, chiese rupestri e panorami UNESCO tra Basilicata e Murgia.",
+    descriptionEn:
+      "City of the Sassi: rock-hewn dwellings, cave churches and UNESCO views between Basilicata and the Murgia.",
+    pois: [
+      { id: "sassi", titleIt: "Sassi di Matera", titleEn: "Sassi di Matera", query: "Sassi di Matera panorama", captionIt: "Patrimonio UNESCO", captionEn: "UNESCO heritage" },
+      { id: "casa-grotta", titleIt: "Casa Grotta", titleEn: "Cave house", query: "Matera cave house Sassi", captionIt: "Vita nella roccia", captionEn: "Life in the rock" },
+      { id: "duomo", titleIt: "Cattedrale di Matera", titleEn: "Matera Cathedral", query: "Matera Cathedral Apulia", captionIt: "Duomo sulla rupe", captionEn: "Cathedral on the cliff" },
+      { id: "piazza-venezia", titleIt: "Piazza Vittorio Veneto", titleEn: "Piazza Vittorio Veneto", query: "Piazza Vittorio Veneto Matera", captionIt: "Piazza panoramica", captionEn: "Panoramic square" },
+      { id: "murgia", titleIt: "Parco della Murgia", titleEn: "Murgia Park", query: "Murgia Matera view", captionIt: "Gravina e canyon", captionEn: "Ravine and canyon" },
+      { id: "chiese-rupestri", titleIt: "Chiese rupestri", titleEn: "Rock churches", query: "Matera rock church", captionIt: "Arte rupestre", captionEn: "Cave art" },
+      { id: "ponte", titleIt: "Ponte sulla Gravina", titleEn: "Bridge over Gravina", query: "Matera bridge Gravina", captionIt: "Vista sul burrone", captionEn: "View over the gorge" },
+      { id: "skyline", titleIt: "Matera dall'alto", titleEn: "Matera skyline", query: "Matera cityscape night", captionIt: "Luci sui Sassi", captionEn: "Lights on the Sassi" },
+    ],
+  },
+  {
+    cityId: "IT-SIE",
+    cityNameEn: "Siena",
+    countryCode: "IT",
+    descriptionIt:
+      "Medioevo in Toscana: Piazza del Campo a forma di conchiglia, il Palio e marmi del Duomo di Siena.",
+    descriptionEn:
+      "Medieval Tuscany: shell-shaped Piazza del Campo, the Palio and the marbles of Siena Cathedral.",
+    pois: [
+      { id: "piazza-campo", titleIt: "Piazza del Campo", titleEn: "Piazza del Campo", query: "Piazza del Campo Siena", captionIt: "Il cuore senese", captionEn: "Siena's heart" },
+      { id: "duomo", titleIt: "Duomo di Siena", titleEn: "Siena Cathedral", query: "Siena Cathedral facade marble", captionIt: "Facciata a marmo", captionEn: "Marble facade" },
+      { id: "torre-mangia", titleIt: "Torre del Mangia", titleEn: "Torre del Mangia", query: "Torre del Mangia Siena", captionIt: "Campanile civico", captionEn: "Civic tower" },
+      { id: "palazzo-pubblico", titleIt: "Palazzo Pubblico", titleEn: "Palazzo Pubblico", query: "Palazzo Pubblico Siena", captionIt: "Sede del Comune", captionEn: "Town hall" },
+      { id: "basilica-caterina", titleIt: "Basilica di San Domenico", titleEn: "Basilica of San Domenico", query: "San Domenico Siena basilica", captionIt: "Spiritualità senese", captionEn: "Sienese spirituality" },
+      { id: "fortezza", titleIt: "Fortezza Medicea", titleEn: "Medici Fortress", query: "Fortezza Medicea Siena", captionIt: "Mura panoramiche", captionEn: "Panoramic walls" },
+      { id: "contrade", titleIt: "Vicoli medievali", titleEn: "Medieval alleys", query: "Siena medieval alley", captionIt: "Le contrade", captionEn: "The contrade" },
+      { id: "skyline", titleIt: "Siena dall'alto", titleEn: "Siena skyline", query: "Siena Tuscany hills panorama", captionIt: "Panorama toscano", captionEn: "Tuscan panorama" },
+    ],
+  },
+  {
+    cityId: "IT-CAP",
+    cityNameEn: "Capri",
+    countryCode: "IT",
+    descriptionIt:
+      "Isola leggendaria nel golfo di Napoli: Faraglioni, Piazzetta, Giardini di Augusto e acque turchesi.",
+    descriptionEn:
+      "Legendary island in the Gulf of Naples: Faraglioni stacks, Piazzetta, Gardens of Augustus and turquoise waters.",
+    pois: [
+      { id: "faraglioni", titleIt: "Faraglioni", titleEn: "Faraglioni", query: "Faraglioni Capri sea stacks", captionIt: "Icona dell'isola", captionEn: "Island icon" },
+      { id: "piazzetta", titleIt: "Piazzetta", titleEn: "Piazzetta", query: "Piazzetta Capri square", captionIt: "Salotto del mondo", captionEn: "World's living room" },
+      { id: "giardini-augusto", titleIt: "Giardini di Augusto", titleEn: "Gardens of Augustus", query: "Giardini di Augusto Capri view", captionIt: "Vista sui Faraglioni", captionEn: "View of the Faraglioni" },
+      { id: "marina-grande", titleIt: "Marina Grande", titleEn: "Marina Grande", query: "Marina Grande Capri harbour", captionIt: "Porto dell'isola", captionEn: "Island harbour" },
+      { id: "via-krupp", titleIt: "Via Krupp", titleEn: "Via Krupp", query: "Via Krupp Capri", captionIt: "Scalinata panoramica", captionEn: "Scenic path" },
+      { id: "anacapri", titleIt: "Anacapri", titleEn: "Anacapri", query: "Anacapri Capri Monte Solaro", captionIt: "Parte alta dell'isola", captionEn: "Upper island" },
+      { id: "marina-piccola", titleIt: "Marina Piccola", titleEn: "Marina Piccola", query: "Marina Piccola Capri beach", captionIt: "Baia turchese", captionEn: "Turquoise bay" },
+      { id: "skyline", titleIt: "Capri dall'alto", titleEn: "Capri skyline", query: "Capri island aerial Tyrrhenian", captionIt: "Panorama sul golfo", captionEn: "Gulf panorama" },
+    ],
+  },
+  {
+    cityId: "IT-PMF",
+    cityNameEn: "Parma",
+    countryCode: "IT",
+    descriptionIt:
+      "Capitale del gusto in Emilia: Duomo romanico, Teatro Regio, prosciutto e formaggio tra portici eleganti.",
+    descriptionEn:
+      "Capital of taste in Emilia: Romanesque cathedral, Teatro Regio, ham and cheese among elegant porticoes.",
+    pois: [
+      { id: "duomo", titleIt: "Duomo di Parma", titleEn: "Parma Cathedral", query: "Parma Cathedral facade", captionIt: "Capolavoro romanico", captionEn: "Romanesque masterpiece" },
+      { id: "battistero", titleIt: "Battistero", titleEn: "Baptistery", query: "Parma Baptistery pink marble", captionIt: "Marmo rosa", captionEn: "Pink marble" },
+      { id: "teatro-regio", titleIt: "Teatro Regio", titleEn: "Teatro Regio", query: "Teatro Regio Parma", captionIt: "Tempio dell'opera", captionEn: "Opera temple" },
+      { id: "piazza-garibaldi", titleIt: "Piazza Garibaldi", titleEn: "Piazza Garibaldi", query: "Piazza Garibaldi Parma", captionIt: "Centro storico", captionEn: "Historic centre" },
+      { id: "pilotta", titleIt: "Palazzo della Pilotta", titleEn: "Palazzo della Pilotta", query: "Palazzo della Pilotta Parma", captionIt: "Complesso monumentale", captionEn: "Monumental complex" },
+      { id: "ponte-verdi", titleIt: "Parco Ducale", titleEn: "Ducal Park", query: "Parco Ducale Parma", captionIt: "Verde in città", captionEn: "Green in the city" },
+      { id: "portici", titleIt: "Portici", titleEn: "Porticoes", query: "Parma portico street", captionIt: "Architettura emiliana", captionEn: "Emilian architecture" },
+      { id: "skyline", titleIt: "Parma dall'alto", titleEn: "Parma skyline", query: "Parma Emilia cityscape", captionIt: "Panorama emiliano", captionEn: "Emilian panorama" },
+    ],
+  },
+  {
+    cityId: "IT-COR",
+    cityNameEn: "Cortina d'Ampezzo",
+    countryCode: "IT",
+    descriptionIt:
+      "Regina delle Dolomiti: montagne UNESCO, piste olimpiche, Corso Italia e rifugi panoramici.",
+    descriptionEn:
+      "Queen of the Dolomites: UNESCO mountains, Olympic slopes, Corso Italia and panoramic mountain huts.",
+    pois: [
+      { id: "corso-italia", titleIt: "Corso Italia", titleEn: "Corso Italia", query: "Corso Italia Cortina d Ampezzo", captionIt: "Viale dello shopping", captionEn: "Shopping boulevard" },
+      { id: "tre-cime-view", titleIt: "Tre Cime di Lavaredo", titleEn: "Tre Cime di Lavaredo", query: "Tre Cime di Lavaredo Dolomites", captionIt: "Icona dolomitica", captionEn: "Dolomite icon" },
+      { id: "basilica", titleIt: "Basilica di Cortina", titleEn: "Cortina basilica", query: "Cortina d Ampezzo church", captionIt: "Centro del paese", captionEn: "Town centre" },
+      { id: "lagazuoi", titleIt: "Lagazuoi", titleEn: "Lagazuoi", query: "Lagazuoi Cortina Dolomites", captionIt: "Alta montagna", captionEn: "High mountains" },
+      { id: "misurina", titleIt: "Lago di Misurina", titleEn: "Lake Misurina", query: "Lake Misurina Dolomites", captionIt: "Specchio delle Dolomiti", captionEn: "Dolomite mirror" },
+      { id: "piste", titleIt: "Piste da sci", titleEn: "Ski slopes", query: "Cortina d Ampezzo ski slopes", captionIt: "Olimpiadi 2026", captionEn: "2026 Olympics" },
+      { id: "rifugio", titleIt: "Rifugio panoramico", titleEn: "Mountain hut", query: "Cortina Dolomites mountain hut view", captionIt: "Vista sulle cime", captionEn: "Peak views" },
+      { id: "skyline", titleIt: "Cortina dall'alto", titleEn: "Cortina skyline", query: "Cortina d Ampezzo valley aerial", captionIt: "Conca ampezzana", captionEn: "Ampezzo basin" },
+    ],
+  },
+  {
+    cityId: "IT-LCC",
+    cityNameEn: "Lecce",
+    countryCode: "IT",
+    descriptionIt:
+      "Firenze del Sud: barocco leccese in pietra dorata, vicoli barocchi e profumo di Salento.",
+    descriptionEn:
+      "Florence of the South: Lecce baroque in golden stone, baroque alleys and the scent of Salento.",
+    pois: [
+      { id: "duomo", titleIt: "Duomo di Lecce", titleEn: "Lecce Cathedral", query: "Lecce Cathedral Piazza del Duomo", captionIt: "Piazza barocca", captionEn: "Baroque square" },
+      { id: "santa-croce", titleIt: "Basilica di Santa Croce", titleEn: "Basilica of Santa Croce", query: "Basilica Santa Croce Lecce facade", captionIt: "Barocco leccese", captionEn: "Lecce baroque" },
+      { id: "anfiteatro", titleIt: "Anfiteatro romano", titleEn: "Roman amphitheatre", query: "Roman amphitheatre Lecce", captionIt: "Resti romani", captionEn: "Roman remains" },
+      { id: "porta-napoli", titleIt: "Porta Napoli", titleEn: "Porta Napoli", query: "Porta Napoli Lecce", captionIt: "Porta monumentale", captionEn: "Monumental gate" },
+      { id: "piazza-sant-oronzo", titleIt: "Piazza Sant'Oronzo", titleEn: "Piazza Sant'Oronzo", query: "Piazza Sant Oronzo Lecce", captionIt: "Cuore della città", captionEn: "Heart of the city" },
+      { id: "castello", titleIt: "Castello Carlo V", titleEn: "Castello Carlo V", query: "Castello Carlo V Lecce", captionIt: "Fortezza rinascimentale", captionEn: "Renaissance fortress" },
+      { id: "vicoli", titleIt: "Vicoli barocchi", titleEn: "Baroque alleys", query: "Lecce baroque alley", captionIt: "Pietra leccese", captionEn: "Lecce stone" },
+      { id: "skyline", titleIt: "Lecce dall'alto", titleEn: "Lecce skyline", query: "Lecce Salento cityscape", captionIt: "Panorama salentino", captionEn: "Salento panorama" },
+    ],
+  },
+  {
+    cityId: "IT-PSA",
+    cityNameEn: "Pisa",
+    countryCode: "IT",
+    descriptionIt:
+      "Miracoli in marmo: Torre pendente, Duomo e Battistero in Piazza dei Miracoli, vicino al fiume Arno.",
+    descriptionEn:
+      "Marble miracles: Leaning Tower, Cathedral and Baptistery in Piazza dei Miracoli, near the Arno.",
+    pois: [
+      { id: "torre-pendente", titleIt: "Torre pendente", titleEn: "Leaning Tower", query: "Leaning Tower of Pisa", captionIt: "Simbolo universale", captionEn: "Universal symbol" },
+      { id: "duomo", titleIt: "Duomo di Pisa", titleEn: "Pisa Cathedral", query: "Pisa Cathedral Piazza dei Miracoli", captionIt: "Piazza dei Miracoli", captionEn: "Field of Miracles" },
+      { id: "battistero", titleIt: "Battistero", titleEn: "Baptistery", query: "Pisa Baptistery", captionIt: "Marmo romanico", captionEn: "Romanesque marble" },
+      { id: "camposanto", titleIt: "Camposanto", titleEn: "Camposanto", query: "Camposanto Pisa", captionIt: "Monumentale cimitero", captionEn: "Monumental cemetery" },
+      { id: "arno", titleIt: "Lungarno", titleEn: "Arno riverfront", query: "Pisa Arno river Ponte di Mezzo", captionIt: "Riflessi sull'Arno", captionEn: "Reflections on the Arno" },
+      { id: "piazza-cavalieri", titleIt: "Piazza dei Cavalieri", titleEn: "Knights' Square", query: "Piazza dei Cavalieri Pisa", captionIt: "Palazzo della Carovana", captionEn: "Palazzo della Carovana" },
+      { id: "borgo-stretto", titleIt: "Borgo Stretto", titleEn: "Borgo Stretto", query: "Borgo Stretto Pisa", captionIt: "Centro medievale", captionEn: "Medieval centre" },
+      { id: "skyline", titleIt: "Pisa dall'alto", titleEn: "Pisa skyline", query: "Pisa Tuscany cityscape", captionIt: "Panorama toscano", captionEn: "Tuscan panorama" },
+    ],
+  },
+  {
+    cityId: "IT-PAD",
+    cityNameEn: "Padua",
+    countryCode: "IT",
+    descriptionIt:
+      "Città universitaria del Veneto: Cappella degli Scrovegni, Basilica di Sant'Antonio e Prato della Valle.",
+    descriptionEn:
+      "Veneto university city: Scrovegni Chapel, Basilica of St Anthony and Prato della Valle.",
+    pois: [
+      { id: "prato-valle", titleIt: "Prato della Valle", titleEn: "Prato della Valle", query: "Prato della Valle Padua", captionIt: "Piazza ellittica", captionEn: "Elliptical square" },
+      { id: "sant-antonio", titleIt: "Basilica di Sant'Antonio", titleEn: "Basilica of St Anthony", query: "Basilica Sant Antonio Padua", captionIt: "Santuario antoniano", captionEn: "Anthony shrine" },
+      { id: "palazzo-bo", titleIt: "Palazzo Bo", titleEn: "Palazzo Bo", query: "Palazzo Bo Padua university", captionIt: "Università storica", captionEn: "Historic university" },
+      { id: "cappella-scrovegni", titleIt: "Cappella degli Scrovegni", titleEn: "Scrovegni Chapel", query: "Scrovegni Chapel Padua exterior", captionIt: "Giotto e il Trecento", captionEn: "Giotto and the 1300s" },
+      { id: "duomo", titleIt: "Duomo di Padova", titleEn: "Padua Cathedral", query: "Padua Cathedral Baptistery", captionIt: "Battistero romanico", captionEn: "Romanesque baptistery" },
+      { id: "orto-botanico", titleIt: "Orto Botanico", titleEn: "Botanical Garden", query: "Orto Botanico Padua", captionIt: "Il più antico d'Europa", captionEn: "Oldest in Europe" },
+      { id: "piazza-signori", titleIt: "Piazza dei Signori", titleEn: "Piazza dei Signori", query: "Piazza dei Signori Padua", captionIt: "Cuore civico", captionEn: "Civic heart" },
+      { id: "skyline", titleIt: "Padova dall'alto", titleEn: "Padua skyline", query: "Padua Veneto cityscape", captionIt: "Panorama veneto", captionEn: "Veneto panorama" },
+    ],
+  },
+  {
+    cityId: "IT-OLB",
+    cityNameEn: "Olbia",
+    countryCode: "IT",
+    descriptionIt:
+      "Porta della Costa Smeralda: mare smeraldino, nuraghi, molo storico e accesso alle spiagge dell'Arzachena.",
+    descriptionEn:
+      "Gateway to the Costa Smeralda: emerald sea, nuraghi, historic pier and access to Arzachena beaches.",
+    pois: [
+      { id: "costa-smeralda", titleIt: "Costa Smeralda", titleEn: "Costa Smeralda", query: "Costa Smeralda Sardinia beach", captionIt: "Acque smeraldine", captionEn: "Emerald waters" },
+      { id: "porto-olbia", titleIt: "Porto di Olbia", titleEn: "Olbia harbour", query: "Olbia harbour Sardinia", captionIt: "Porto turistico", captionEn: "Marina" },
+      { id: "basilica-san-simplicio", titleIt: "Basilica di San Simplicio", titleEn: "Basilica of San Simplicio", query: "San Simplicio Olbia church", captionIt: "Romanico sardo", captionEn: "Sardinian Romanesque" },
+      { id: "arzachena", titleIt: "Arzachena", titleEn: "Arzachena", query: "Arzachena Sardinia landscape", captionIt: "Granito e macchia", captionEn: "Granite and maquis" },
+      { id: "cannigione", titleIt: "Cannigione", titleEn: "Cannigione", query: "Cannigione Sardinia bay", captionIt: "Baia turchese", captionEn: "Turquoise bay" },
+      { id: "nuraghe", titleIt: "Nuraghe", titleEn: "Nuraghe", query: "Nuraghe Sardinia Olbia", captionIt: "Preistoria sarda", captionEn: "Sardinian prehistory" },
+      { id: "la-maddalena", titleIt: "Arcipelago", titleEn: "Archipelago", query: "La Maddalena archipelago Sardinia", captionIt: "Isola di La Maddalena", captionEn: "La Maddalena island" },
+      { id: "skyline", titleIt: "Olbia dall'alto", titleEn: "Olbia skyline", query: "Olbia Sardinia coast aerial", captionIt: "Panorama sardo", captionEn: "Sardinian panorama" },
+    ],
+  },
+  {
+    cityId: "IT-POL",
+    cityNameEn: "Polignano a Mare",
+    countryCode: "IT",
+    descriptionIt:
+      "Borgo sulla scogliera pugliese: Lama Monachile, centro storico a picco sul mare Adriatico.",
+    descriptionEn:
+      "Clifftop Apulian village: Lama Monachile, old town perched above the Adriatic.",
+    pois: [
+      { id: "lama-monachile", titleIt: "Lama Monachile", titleEn: "Lama Monachile", query: "Lama Monachile Polignano a Mare", captionIt: "Cala iconica", captionEn: "Iconic cove" },
+      { id: "centro-storico", titleIt: "Centro storico", titleEn: "Old town", query: "Polignano a Mare old town cliff", captionIt: "Case sulla roccia", captionEn: "Houses on the rock" },
+      { id: "ponte", titleIt: "Ponte Lama Monachile", titleEn: "Lama Monachile bridge", query: "Polignano a Mare bridge view", captionIt: "Vista sul mare", captionEn: "Sea view" },
+      { id: "porto", titleIt: "Porto", titleEn: "Harbour", query: "Polignano a Mare harbour", captionIt: "Approdo dei pescatori", captionEn: "Fishermen's landing" },
+      { id: "terrace", titleIt: "Terrazze", titleEn: "Terraces", query: "Polignano a Mare terrace sea", captionIt: "Balconi sul Adriatico", captionEn: "Balconies over the Adriatic" },
+      { id: "beach", titleIt: "Spiaggia", titleEn: "Beach", query: "Polignano a Mare beach", captionIt: "Mare cristallino", captionEn: "Crystal-clear sea" },
+      { id: "duomo", titleIt: "Chiesa Madre", titleEn: "Mother church", query: "Polignano a Mare church", captionIt: "Cuore del borgo", captionEn: "Heart of the village" },
+      { id: "skyline", titleIt: "Polignano dall'alto", titleEn: "Polignano skyline", query: "Polignano a Mare aerial coast", captionIt: "Scogliera pugliese", captionEn: "Apulian cliff" },
+    ],
+  },
+  {
+    cityId: "IT-SGI",
+    cityNameEn: "San Gimignano",
+    countryCode: "IT",
+    descriptionIt:
+      "Manhattan medievale in Toscana: torri medievali, mura, Vernaccia e colline del Chianti.",
+    descriptionEn:
+      "Medieval Manhattan in Tuscany: medieval towers, walls, Vernaccia wine and Chianti hills.",
+    pois: [
+      { id: "torri", titleIt: "Torri medievali", titleEn: "Medieval towers", query: "San Gimignano towers skyline", captionIt: "Silhouette medievale", captionEn: "Medieval silhouette" },
+      { id: "piazza-cisterna", titleIt: "Piazza della Cisterna", titleEn: "Piazza della Cisterna", query: "Piazza della Cisterna San Gimignano", captionIt: "Piazza storica", captionEn: "Historic square" },
+      { id: "piazza-duomo", titleIt: "Piazza del Duomo", titleEn: "Piazza del Duomo", query: "San Gimignano Piazza del Duomo", captionIt: "Collegiata romanica", captionEn: "Romanesque collegiate" },
+      { id: "mura", titleIt: "Mura medievali", titleEn: "Medieval walls", query: "San Gimignano walls Tuscany", captionIt: "Cinta muraria", captionEn: "City walls" },
+      { id: "campagna", titleIt: "Colline del Chianti", titleEn: "Chianti hills", query: "San Gimignano Tuscany hills", captionIt: "Campagna toscana", captionEn: "Tuscan countryside" },
+      { id: "rocca", titleIt: "Rocca", titleEn: "Rocca", query: "Rocca San Gimignano view", captionIt: "Vista panoramica", captionEn: "Panoramic view" },
+      { id: "vicoli", titleIt: "Vicoli", titleEn: "Alleys", query: "San Gimignano medieval alley", captionIt: "Borgo medievale", captionEn: "Medieval village" },
+      { id: "skyline", titleIt: "San Gimignano dall'alto", titleEn: "San Gimignano skyline", query: "San Gimignano aerial towers", captionIt: "Panorama toscano", captionEn: "Tuscan panorama" },
+    ],
+  },
+  {
+    cityId: "IT-VIA",
+    cityNameEn: "Viareggio",
+    countryCode: "IT",
+    descriptionIt:
+      "Versilia tra mare e Alpi Apuane: lungomare art nouveau, carnevale e spiagge della Toscana nord.",
+    descriptionEn:
+      "Versilia between sea and Apuan Alps: art nouveau promenade, carnival and beaches of northern Tuscany.",
+    pois: [
+      { id: "lungomare", titleIt: "Lungomare", titleEn: "Seafront", query: "Viareggio lungomare promenade", captionIt: "Passeggiata liberty", captionEn: "Art nouveau walk" },
+      { id: "passeggiata", titleIt: "Passeggiata Margherita", titleEn: "Passeggiata Margherita", query: "Passeggiata Margherita Viareggio", captionIt: "Architettura liberty", captionEn: "Art nouveau architecture" },
+      { id: "spiaggia", titleIt: "Spiaggia", titleEn: "Beach", query: "Viareggio beach Tuscany", captionIt: "Mare della Versilia", captionEn: "Versilia sea" },
+      { id: "porto", titleIt: "Porto", titleEn: "Harbour", query: "Viareggio harbour", captionIt: "Porto peschereccio", captionEn: "Fishing harbour" },
+      { id: "carnevale", titleIt: "Carnevale", titleEn: "Carnival", query: "Viareggio carnival float", captionIt: "Carri allegorici", captionEn: "Floats" },
+      { id: "apuane", titleIt: "Alpi Apuane", titleEn: "Apuan Alps", query: "Apuan Alps Viareggio view", captionIt: "Monti sullo sfondo", captionEn: "Mountains backdrop" },
+      { id: "camaiore", titleIt: "Camaiore", titleEn: "Camaiore", query: "Camaiore Versilia Tuscany", captionIt: "Borgo versiliese", captionEn: "Versilia village" },
+      { id: "skyline", titleIt: "Viareggio dall'alto", titleEn: "Viareggio skyline", query: "Viareggio coast aerial Tuscany", captionIt: "Panorama versiliese", captionEn: "Versilia panorama" },
+    ],
+  },
+  {
+    cityId: "IT-MOD",
+    cityNameEn: "Modena",
+    countryCode: "IT",
+    descriptionIt:
+      "Emilia del gusto: Duomo romanico UNESCO, Ghirlandina, aceto balsamico e motori Ferrari.",
+    descriptionEn:
+      "Emilia of taste: UNESCO Romanesque cathedral, Ghirlandina tower, balsamic vinegar and Ferrari engines.",
+    pois: [
+      { id: "duomo", titleIt: "Duomo di Modena", titleEn: "Modena Cathedral", query: "Modena Cathedral UNESCO facade", captionIt: "Patrimonio UNESCO", captionEn: "UNESCO heritage" },
+      { id: "ghirlandina", titleIt: "Torre Ghirlandina", titleEn: "Ghirlandina Tower", query: "Ghirlandina tower Modena", captionIt: "Simbolo modenese", captionEn: "Modena symbol" },
+      { id: "piazza-grande", titleIt: "Piazza Grande", titleEn: "Piazza Grande", query: "Piazza Grande Modena", captionIt: "Cuore medievale", captionEn: "Medieval heart" },
+      { id: "palazzo-duche", titleIt: "Palazzo Ducale", titleEn: "Ducal Palace", query: "Palazzo Ducale Modena", captionIt: "Sede militare", captionEn: "Military academy" },
+      { id: "mercato-albinelli", titleIt: "Mercato Albinelli", titleEn: "Albinelli Market", query: "Mercato Albinelli Modena", captionIt: "Sapori emiliani", captionEn: "Emilian flavours" },
+      { id: "portici", titleIt: "Portici", titleEn: "Porticoes", query: "Modena portico street", captionIt: "Architettura cittadina", captionEn: "Urban architecture" },
+      { id: "enzo-ferrari", titleIt: "Museo Ferrari", titleEn: "Ferrari Museum", query: "Museo Enzo Ferrari Modena", captionIt: "Motor Valley", captionEn: "Motor Valley" },
+      { id: "skyline", titleIt: "Modena dall'alto", titleEn: "Modena skyline", query: "Modena Emilia cityscape", captionIt: "Panorama emiliano", captionEn: "Emilian panorama" },
+    ],
+  },
+  {
+    cityId: "IT-RAV",
+    cityNameEn: "Ravenna",
+    countryCode: "IT",
+    descriptionIt:
+      "Capitale bizantina d'Occidente: mosaici UNESCO, mausolei di Galla Placidia e tombe di Dante.",
+    descriptionEn:
+      "Byzantine capital of the West: UNESCO mosaics, Mausoleum of Galla Placidia and Dante's tomb.",
+    pois: [
+      { id: "san-vitale", titleIt: "Basilica di San Vitale", titleEn: "Basilica of San Vitale", query: "Basilica San Vitale Ravenna exterior", captionIt: "Mosaici bizantini", captionEn: "Byzantine mosaics" },
+      { id: "galla-placidia", titleIt: "Mausoleo di Galla Placidia", titleEn: "Mausoleum of Galla Placidia", query: "Mausoleum Galla Placidia Ravenna", captionIt: "Tesoro paleocristiano", captionEn: "Early Christian treasure" },
+      { id: "dante", titleIt: "Tomba di Dante", titleEn: "Dante's tomb", query: "Dante tomb Ravenna", captionIt: "Riposo del Sommo Poeta", captionEn: "Resting place of the poet" },
+      { id: "battistero", titleIt: "Battistero Neoniano", titleEn: "Neonian Baptistery", query: "Neonian Baptistery Ravenna", captionIt: "Mosaici del V secolo", captionEn: "5th-century mosaics" },
+      { id: "sant-apollinare", titleIt: "Sant'Apollinare Nuovo", titleEn: "Sant'Apollinare Nuovo", query: "Sant Apollinare Nuovo Ravenna", captionIt: "Navata mosaica", captionEn: "Mosaic nave" },
+      { id: "piazza-popolo", titleIt: "Piazza del Popolo", titleEn: "Piazza del Popolo", query: "Piazza del Popolo Ravenna", captionIt: "Centro storico", captionEn: "Historic centre" },
+      { id: "molo", titleIt: "Marina di Ravenna", titleEn: "Marina di Ravenna", query: "Marina di Ravenna Adriatic", captionIt: "Costa romagnola", captionEn: "Romagna coast" },
+      { id: "skyline", titleIt: "Ravenna dall'alto", titleEn: "Ravenna skyline", query: "Ravenna Emilia Romagna cityscape", captionIt: "Panorama romagnolo", captionEn: "Romagna panorama" },
+    ],
+  },
+  {
+    cityId: "IT-LUC",
+    cityNameEn: "Lucca",
+    countryCode: "IT",
+    descriptionIt:
+      "Città murata in Toscana: mura rinascimentali percorribili, Piazza dell'Anfiteatro e torri medievali.",
+    descriptionEn:
+      "Walled city in Tuscany: walkable Renaissance walls, Piazza dell'Anfiteatro and medieval towers.",
+    pois: [
+      { id: "mura", titleIt: "Mura di Lucca", titleEn: "Walls of Lucca", query: "Lucca city walls Tuscany", captionIt: "Cinta muraria", captionEn: "City walls" },
+      { id: "anfiteatro", titleIt: "Piazza dell'Anfiteatro", titleEn: "Piazza dell'Anfiteatro", query: "Piazza dell Anfiteatro Lucca", captionIt: "Piazza ovale", captionEn: "Oval square" },
+      { id: "torre-guinigi", titleIt: "Torre Guinigi", titleEn: "Torre Guinigi", query: "Torre Guinigi Lucca holm oaks", captionIt: "Torre con le querce", captionEn: "Tower with oaks" },
+      { id: "duomo", titleIt: "Duomo di Lucca", titleEn: "Lucca Cathedral", query: "Lucca Cathedral San Martino", captionIt: "Facciata romanica", captionEn: "Romanesque facade" },
+      { id: "san-michele", titleIt: "San Michele in Foro", titleEn: "San Michele in Foro", query: "San Michele in Foro Lucca", captionIt: "Facciata a fiera", captionEn: "Fair facade" },
+      { id: "palazzo-pfanner", titleIt: "Palazzo Pfanner", titleEn: "Palazzo Pfanner", query: "Palazzo Pfanner Lucca garden", captionIt: "Giardino barocco", captionEn: "Baroque garden" },
+      { id: "via-fillungo", titleIt: "Via Fillungo", titleEn: "Via Fillungo", query: "Via Fillungo Lucca", captionIt: "Shopping storico", captionEn: "Historic shopping" },
+      { id: "skyline", titleIt: "Lucca dall'alto", titleEn: "Lucca skyline", query: "Lucca Tuscany aerial walls", captionIt: "Panorama toscano", captionEn: "Tuscan panorama" },
+    ],
+  },
+  {
+    cityId: "IT-ASS",
+    cityNameEn: "Assisi",
+    countryCode: "IT",
+    descriptionIt:
+      "Patrimonio francescano in Umbria: Basilica di San Francesco, Rocca Maggiore e colline dell'Umbria.",
+    descriptionEn:
+      "Franciscan heritage in Umbria: Basilica of St Francis, Rocca Maggiore and Umbrian hills.",
+    pois: [
+      { id: "san-francesco", titleIt: "Basilica di San Francesco", titleEn: "Basilica of St Francis", query: "Basilica San Francesco Assisi", captionIt: "Patrimonio UNESCO", captionEn: "UNESCO heritage" },
+      { id: "rocca", titleIt: "Rocca Maggiore", titleEn: "Rocca Maggiore", query: "Rocca Maggiore Assisi", captionIt: "Fortezza medievale", captionEn: "Medieval fortress" },
+      { id: "piazza-comune", titleIt: "Piazza del Comune", titleEn: "Piazza del Comune", query: "Piazza del Comune Assisi", captionIt: "Cuore del borgo", captionEn: "Heart of the town" },
+      { id: "santa-chiara", titleIt: "Basilica di Santa Chiara", titleEn: "Basilica of Santa Chiara", query: "Basilica Santa Chiara Assisi", captionIt: "Spiritualità francescana", captionEn: "Franciscan spirituality" },
+      { id: "basilica-santa-maria", titleIt: "Basilica di Santa Maria degli Angeli", titleEn: "Santa Maria degli Angeli", query: "Santa Maria degli Angeli Assisi", captionIt: "Porziuncola", captionEn: "Porziuncola" },
+      { id: "colline", titleIt: "Colline umbre", titleEn: "Umbrian hills", query: "Assisi Umbria hills panorama", captionIt: "Paesaggio verde", captionEn: "Green landscape" },
+      { id: "via-romea", titleIt: "Vicoli medievali", titleEn: "Medieval alleys", query: "Assisi medieval alley", captionIt: "Borgo in pietra", captionEn: "Stone village" },
+      { id: "skyline", titleIt: "Assisi dall'alto", titleEn: "Assisi skyline", query: "Assisi aerial Umbria", captionIt: "Panorama umbro", captionEn: "Umbrian panorama" },
+    ],
+  },
+  {
+    cityId: "IT-FER",
+    cityNameEn: "Ferrara",
+    countryCode: "IT",
+    descriptionIt:
+      "Rinascimento estense: Castello Estense, mura medievali e città ideale del Po.",
+    descriptionEn:
+      "Este Renaissance: Este Castle, medieval walls and the ideal city on the Po.",
+    pois: [
+      { id: "castello-estense", titleIt: "Castello Estense", titleEn: "Este Castle", query: "Castello Estense Ferrara moat", captionIt: "Fortezza rinascimentale", captionEn: "Renaissance fortress" },
+      { id: "duomo", titleIt: "Duomo di Ferrara", titleEn: "Ferrara Cathedral", query: "Ferrara Cathedral facade", captionIt: "Facciata romanica", captionEn: "Romanesque facade" },
+      { id: "diamond-palace", titleIt: "Palazzo dei Diamanti", titleEn: "Palazzo dei Diamanti", query: "Palazzo dei Diamanti Ferrara", captionIt: "Arte rinascimentale", captionEn: "Renaissance art" },
+      { id: "mura", titleIt: "Mura medievali", titleEn: "Medieval walls", query: "Ferrara city walls", captionIt: "Cinta estense", captionEn: "Este walls" },
+      { id: "piazza-trento", titleIt: "Piazza Trento e Trieste", titleEn: "Piazza Trento e Trieste", query: "Piazza Trento Trieste Ferrara", captionIt: "Centro storico", captionEn: "Historic centre" },
+      { id: "via-garibaldi", titleIt: "Via Garibaldi", titleEn: "Via Garibaldi", query: "Via Garibaldi Ferrara", captionIt: "Addizione Erculea", captionEn: "Herculean Addition" },
+      { id: "po", titleIt: "Fiume Po", titleEn: "River Po", query: "Po river Ferrara", captionIt: "Delta del Po", captionEn: "Po delta" },
+      { id: "skyline", titleIt: "Ferrara dall'alto", titleEn: "Ferrara skyline", query: "Ferrara Emilia cityscape aerial", captionIt: "Panorama emiliano", captionEn: "Emilian panorama" },
+    ],
+  },
+  {
+    cityId: "IT-CEF",
+    cityNameEn: "Cefalù",
+    countryCode: "IT",
+    descriptionIt:
+      "Perla siciliana: Duomo normanno, Rocca, spiaggia dorata e centro storico sul Tirreno.",
+    descriptionEn:
+      "Sicilian pearl: Norman cathedral, Rocca, golden beach and old town on the Tyrrhenian.",
+    pois: [
+      { id: "duomo", titleIt: "Duomo di Cefalù", titleEn: "Cefalù Cathedral", query: "Cefalu Cathedral Norman Sicily", captionIt: "Capolavoro normanno", captionEn: "Norman masterpiece" },
+      { id: "rocca", titleIt: "La Rocca", titleEn: "La Rocca", query: "La Rocca Cefalu Sicily", captionIt: "Vista panoramica", captionEn: "Panoramic view" },
+      { id: "spiaggia", titleIt: "Spiaggia", titleEn: "Beach", query: "Cefalu beach Sicily", captionIt: "Mare tirrenico", captionEn: "Tyrrhenian sea" },
+      { id: "porto", titleIt: "Porto", titleEn: "Harbour", query: "Cefalu harbour Sicily", captionIt: "Borgo marinaro", captionEn: "Seaside village" },
+      { id: "centro", titleIt: "Centro storico", titleEn: "Old town", query: "Cefalu old town Sicily", captionIt: "Vicoli medievali", captionEn: "Medieval alleys" },
+      { id: "lavatoio", titleIt: "Lavatoio medievale", titleEn: "Medieval washhouse", query: "Cefalu medieval washhouse", captionIt: "Storia quotidiana", captionEn: "Daily history" },
+      { id: "tempio", titleIt: "Tempio di Diana", titleEn: "Temple of Diana", query: "Temple Diana Cefalu", captionIt: "Resti antichi", captionEn: "Ancient remains" },
+      { id: "skyline", titleIt: "Cefalù dall'alto", titleEn: "Cefalù skyline", query: "Cefalu Sicily coast aerial", captionIt: "Panorama siciliano", captionEn: "Sicilian panorama" },
+    ],
+  },
+  {
+    cityId: "IT-MER",
+    cityNameEn: "Merano",
+    countryCode: "IT",
+    descriptionIt:
+      "Perla dell'Alto Adige: passeggiate termali, castelli tirolesi e frutteti tra montagne e clima mite.",
+    descriptionEn:
+      "Pearl of South Tyrol: spa promenades, Tyrolean castles and orchards between mountains and mild climate.",
+    pois: [
+      { id: "passerella", titleIt: "Passeggiata d'inverno", titleEn: "Winter promenade", query: "Merano Winter Promenade", captionIt: "Lungopassirio", captionEn: "River promenade" },
+      { id: "castel-trauttmansdorff", titleIt: "Castel Trauttmansdorff", titleEn: "Trauttmansdorff Castle", query: "Trauttmansdorff Gardens Merano", captionIt: "Giardini botanici", captionEn: "Botanical gardens" },
+      { id: "duomo", titleIt: "Duomo di Merano", titleEn: "Merano Cathedral", query: "Merano Cathedral South Tyrol", captionIt: "Gotico tirolese", captionEn: "Tyrolean Gothic" },
+      { id: "termali", titleIt: "Terme", titleEn: "Spa", query: "Merano spa thermal baths", captionIt: "Benessere alpino", captionEn: "Alpine wellness" },
+      { id: "monte", titleIt: "Montagne", titleEn: "Mountains", query: "Merano South Tyrol mountains", captionIt: "Dolomiti venete", captionEn: "Dolomites" },
+      { id: "frutteti", titleIt: "Frutteti", titleEn: "Orchards", query: "Merano apple orchards South Tyrol", captionIt: "Mele dell'Alto Adige", captionEn: "South Tyrol apples" },
+      { id: "ponte", titleIt: "Ponte romano", titleEn: "Roman bridge", query: "Merano Passirio river bridge", captionIt: "Sul fiume Passirio", captionEn: "On the Passirio" },
+      { id: "skyline", titleIt: "Merano dall'alto", titleEn: "Merano skyline", query: "Merano South Tyrol valley aerial", captionIt: "Panorama alpino", captionEn: "Alpine panorama" },
     ],
   },
 ];

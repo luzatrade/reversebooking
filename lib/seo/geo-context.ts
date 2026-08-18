@@ -1,4 +1,5 @@
 import comuniData from "@/public/data/comuni.json";
+import type { Locale } from "@/lib/i18n/translations";
 
 export type GeoContext = {
   provinceCode: string;
@@ -283,10 +284,10 @@ export function italianInCity(cityName: string): string {
   return `a ${trimmed}`;
 }
 
-export function buildStructureGeoSubtitle(cityName: string, countryName: string, locale: "it" | "en"): string | null {
+export function buildStructureGeoSubtitle(cityName: string, countryName: string, locale: Locale): string | null {
   const geo = resolveGeoContext(cityName, countryName);
   if (!geo) return null;
-  if (locale === "en") {
+  if (locale !== "it") {
     return `${geo.regionName} · ${geo.macroAreaEn}`;
   }
   return `${geo.regionName} · ${geo.macroAreaIt}`;

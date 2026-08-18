@@ -3,6 +3,8 @@ import { SeoBreadcrumb } from "@/components/seo/SeoBreadcrumb";
 import { getServerLocale } from "@/lib/i18n/get-translations";
 import { guidePublicPath, homePath, localizedPath } from "@/lib/i18n/routing";
 import { listGuides } from "@/lib/i18n/guides";
+import type { Locale } from "@/lib/i18n/translations";
+import { uiLocale } from "@/lib/i18n/ui-locale";
 
 export async function GuideIndexPage() {
   const locale = await getServerLocale();
@@ -42,11 +44,12 @@ export async function GuideIndexPage() {
   );
 }
 
-export function guideIndexMetadata(locale: "it" | "en") {
+export function guideIndexMetadata(locale: Locale) {
+  const ui = uiLocale(locale);
   return {
-    title: locale === "en" ? "Guides · HotelsDrop" : "Guide · HotelsDrop",
+    title: ui === "en" ? "Guides · HotelsDrop" : "Guide · HotelsDrop",
     description:
-      locale === "en"
+      ui === "en"
         ? "Guides on reverse booking, group travel and travel agencies on HotelsDrop."
         : "Guide su reverse booking, viaggi di gruppo e agenzie di viaggio su HotelsDrop.",
     internalPath: "/guide" as const,

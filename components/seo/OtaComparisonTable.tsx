@@ -1,5 +1,8 @@
+import type { Locale } from "@/lib/i18n/translations";
+import { uiLocale } from "@/lib/i18n/ui-locale";
+
 type Props = {
-  locale: "it" | "en";
+  locale: Locale;
 };
 
 type Row = {
@@ -9,14 +12,15 @@ type Row = {
 };
 
 export function OtaComparisonTable({ locale }: Props) {
-  const title = locale === "en" ? "HotelsDrop vs traditional OTAs" : "HotelsDrop vs portali OTA tradizionali";
+  const ui = uiLocale(locale);
+  const title = ui === "en" ? "HotelsDrop vs traditional OTAs" : "HotelsDrop vs portali OTA tradizionali";
   const headers =
-    locale === "en"
+    ui === "en"
       ? { feature: "Feature", hotelsdrop: "HotelsDrop", ota: "Traditional OTAs" }
       : { feature: "Aspetto", hotelsdrop: "HotelsDrop", ota: "Portali OTA tradizionali" };
 
   const rows: Row[] =
-    locale === "en"
+    ui === "en"
       ? [
           { feature: "Traveller booking commission", hotelsdrop: "None", ota: "Often included in price" },
           { feature: "Direct contact with property", hotelsdrop: "Yes — email, phone, WhatsApp", ota: "Limited or none" },

@@ -1,3 +1,6 @@
+import type { Locale } from "@/lib/i18n/translations";
+import { uiLocale } from "@/lib/i18n/ui-locale";
+
 /** Fine promozione gratuita per pubblicazione pacchetti agenzia (Europe/Rome). */
 export const AGENCY_PACKAGE_PROMO_END = new Date("2026-10-31T23:59:59+02:00");
 
@@ -19,8 +22,9 @@ export function canAgencyPublishCatalogPackage(
   return Boolean(agency.subscription_active);
 }
 
-export function getAgencyPackagePromoEndLabel(locale: "it" | "en"): string {
-  return new Intl.DateTimeFormat(locale === "en" ? "en-GB" : "it-IT", {
+export function getAgencyPackagePromoEndLabel(locale: Locale): string {
+  const ui = uiLocale(locale);
+  return new Intl.DateTimeFormat(ui === "en" ? "en-GB" : "it-IT", {
     day: "numeric",
     month: "long",
     year: "numeric",

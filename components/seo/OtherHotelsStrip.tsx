@@ -4,13 +4,14 @@ import { SeoImage } from "@/components/seo/SeoImage";
 import { structurePublicPath } from "@/lib/i18n/routing";
 import { getStructureCardAttractionHint } from "@/lib/seo/structure-card-hint";
 import type { DestinationStructureItem } from "@/lib/seo/destination-queries";
+import type { Locale } from "@/lib/i18n/translations";
 
 type Props = {
   title: string;
   items: DestinationStructureItem[];
   cityName: string;
   excludeSlug?: string;
-  locale: "it" | "en";
+  locale: Locale;
 };
 
 export function OtherHotelsStrip({ title, items, cityName, excludeSlug, locale }: Props) {

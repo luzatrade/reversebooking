@@ -1,4 +1,5 @@
-type Locale = "it" | "en";
+import type { Locale } from "@/lib/i18n/translations";
+import { uiLocale } from "@/lib/i18n/ui-locale";
 
 type Props = {
   totalPrice: number;
@@ -10,7 +11,8 @@ type Props = {
 const EPSILON = 0.01;
 
 function formatCurrency(value: number, locale: Locale) {
-  return new Intl.NumberFormat(locale === "en" ? "en-GB" : "it-IT", {
+  const ui = uiLocale(locale);
+  return new Intl.NumberFormat(ui === "en" ? "en-GB" : "it-IT", {
     style: "currency",
     currency: "EUR",
   }).format(value);
@@ -26,7 +28,7 @@ export function OfferBudgetComparison({ totalPrice, budgetTotal, locale = "it", 
   if (!(indicativeTotal > 0)) return null;
 
   const diff = Number(totalPrice) - indicativeTotal;
-  const en = locale === "en";
+  const en = uiLocale(locale) === "en";
   const budgetText = formatCurrency(indicativeTotal, locale);
 
   let tone: "over" | "ok";

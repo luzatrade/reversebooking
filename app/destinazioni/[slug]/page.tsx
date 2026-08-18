@@ -61,7 +61,7 @@ export default async function DestinationPage({ params, searchParams }: PageProp
     <>
       <DestinationJsonLd hub={result.hub} items={result.items} pageUrl={pageUrl} />
       {page === 1 ? (
-        <JsonLdScript data={buildFaqPageJsonLd(getDestinationFaq(locale, result.hub.displayName), pageUrl)} />
+        <JsonLdScript data={buildFaqPageJsonLd(getDestinationFaq(locale, result.hub.displayName, result.hub.slug), pageUrl)} />
       ) : null}
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <DestinationHubPage

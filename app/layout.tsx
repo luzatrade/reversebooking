@@ -8,6 +8,7 @@ import { ConditionalSiteHeader } from "@/components/navigation/ConditionalSiteHe
 import { GlobalJsonLd } from "@/components/seo/GlobalJsonLd";
 import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
 import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
+import { buildHomepageSeoCopy } from "@/lib/seo/homepage-metadata";
 import { buildSiteVerificationMetadata } from "@/lib/seo/site-verification";
 import { publicSiteOrigin } from "@/lib/seo/site-url";
 import "./globals.css";
@@ -31,8 +32,9 @@ export const viewport = {
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getServerTranslations();
   const locale = await getServerLocale();
-  const title = t.metadata.siteTitleDefault;
-  const description = t.metadata.siteDescription;
+  const seo = buildHomepageSeoCopy(locale, t);
+  const title = seo.title;
+  const description = seo.description;
   const siteUrl = publicSiteOrigin();
 
   return {

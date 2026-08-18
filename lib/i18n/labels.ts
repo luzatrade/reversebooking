@@ -1,9 +1,6 @@
 import type { AdvertiserType, MealPlan, StructureType } from "@/types/app";
-import { translations, type Locale } from "@/lib/i18n/translations";
-
-function getTranslations(locale: Locale) {
-  return translations[locale];
-}
+import { getTranslations } from "@/lib/i18n/messages";
+import type { Locale } from "@/lib/i18n/translations";
 
 export function getMealPlanLabels(locale: Locale): Record<MealPlan, string> {
   const t = getTranslations(locale);

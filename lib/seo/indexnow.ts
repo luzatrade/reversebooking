@@ -1,6 +1,7 @@
 import { buildDestinationSlug } from "@/lib/seo/city-canonical";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { localizedPath } from "@/lib/i18n/routing";
+import { listDeHubSlugs } from "@/lib/seo/de-export-content";
 import { publicSiteOrigin } from "@/lib/seo/site-url";
 import type { Locale } from "@/lib/i18n/translations";
 
@@ -50,7 +51,11 @@ export function destinationIndexNowUrls(cityNameOrSlug: string): string[] {
     cityNameOrSlug.includes("-") && !cityNameOrSlug.includes(" ")
       ? cityNameOrSlug
       : buildDestinationSlug(cityNameOrSlug);
-  return localizedCanonicalUrls(`/destinazioni/${slug}`);
+  const urls = localizedCanonicalUrls(`/destinazioni/${slug}`);
+  if (listDeHubSlugs().includes(slug)) {
+    urls.push(canonicalUrl(localizedPath("de", `/destinazioni/${slug}`)));
+  }
+  return [...new Set(urls)];
 }
 
 function indexNowHost(): string {
