@@ -137,6 +137,6 @@ export async function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     // Escludi statici OCR (wasm/js/gz) — altrimenti il middleware può 404-are Tesseract
-    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|txt|wasm|js|gz|json|css|map)$).*)",
+    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|txt|html|wasm|js|gz|json|css|map)$).*)",
   ],
 };
