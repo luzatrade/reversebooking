@@ -125,8 +125,15 @@ async function checkHubs({ locale, content }) {
     const city = content.cityDisplayNames?.[slug] || hub.displayName;
     if (city) record(locale, `hub ${slug}: nome città localizzato`, page.body.includes(city), city);
 
-    const introSample = (hub.intro || "").replace(/\{count\}/g, "").trim().slice(0, 40);
-    if (introSample) record(locale, `hub ${slug}: intro tradotta`, page.body.includes(introSample));
+    /** Split on placeholders: only literal fragments can be matched in the HTML. */
+    const introSample = (hub.intro || "")
+      .split(/\{[a-z]+\}/i)
+      .map((fragment) => fragment.trim())
+      .sort((a, b) => b.length - a.length)[0]
+      ?.slice(0, 40);
+    if (introSample && introSample.length > 10) {
+      record(locale, `hub ${slug}: intro tradotta`, page.body.includes(introSample), introSample);
+    }
   }
 }
 
