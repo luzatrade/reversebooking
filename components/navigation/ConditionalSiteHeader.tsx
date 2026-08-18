@@ -1,12 +1,11 @@
 "use client";
 
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { SiteHeader } from "@/components/legal/SiteHeader";
+import { stripLocalePrefix } from "@/lib/i18n/routing";
 
 function normalizePath(pathname: string) {
-  const stripped = pathname.replace(/^\/(it|en)(?=\/|$)/, "") || "/";
-  return stripped.replace(/\/+$/, "") || "/";
+  return stripLocalePrefix(pathname).pathname;
 }
 
 function shouldShowSiteHeader(pathname: string) {

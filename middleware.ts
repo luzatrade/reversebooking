@@ -51,7 +51,11 @@ function handleLocale(request: NextRequest): NextResponse | null {
 
     const url = request.nextUrl.clone();
     url.pathname = parsed.internalPath;
-    const response = NextResponse.rewrite(url);
+    const requestHeaders = new Headers(request.headers);
+    requestHeaders.set(LOCALE_HEADER, parsed.locale);
+    const response = NextResponse.rewrite(url, {
+      request: { headers: requestHeaders },
+    });
     const cookie = localeCookieOptions(parsed.locale);
     response.cookies.set(cookie.name, cookie.value, {
       path: cookie.path,
