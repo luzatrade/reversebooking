@@ -74,6 +74,74 @@
       }
     ]
   },
+  "guides": {
+    "reverse-booking": {
+      "title": "Was ist Reverse Booking und warum funktioniert es",
+      "description": "Reverse Booking dreht den üblichen Ablauf um: Statt Preise auf Dutzenden Portalen zu vergleichen, stellst du eine Anfrage und die Unterkünfte senden dir Direktangebote.",
+      "sections": [
+        {
+          "heading": "Definition",
+          "paragraphs": [
+            "Reverse Booking ist ein Modell, bei dem Reisende Ziel, Daten, Budget und Wünsche in einer einzigen Anfrage beschreiben. Passende Unterkünfte erhalten die Anfrage und antworten mit individuellen Angeboten.",
+            "Auf HotelsDrop ist das für Reisende kostenlos: keine Buchungsprovision für Reisende oder Reisebüros. Die Unterkünfte nehmen mit einem Abonnement teil."
+          ]
+        },
+        {
+          "heading": "Der Unterschied zu klassischen OTAs",
+          "paragraphs": [
+            "Auf klassischen Buchungsportalen suchst, vergleichst und buchst du, ohne je mit dem Hotel zu sprechen. Reisende bleiben anonym und die Unterkunft zahlt hohe Provisionen auf jede Buchung.",
+            "Beim Reverse Booking entsteht echter Kontakt zur Unterkunft, mit passgenauen Angeboten und der Möglichkeit, Leistungen und Preise vor der Entscheidung zu verhandeln."
+          ]
+        },
+        {
+          "heading": "So startest du auf HotelsDrop",
+          "paragraphs": [
+            "Stelle eine kostenlose Anfrage mit Ziel, Reisedaten, Zimmeranzahl und Budget. Innerhalb weniger Minuten erreicht sie alle aktiven Unterkünfte der gewählten Region, und die ersten Angebote kommen oft innerhalb von 24 Stunden."
+          ]
+        }
+      ]
+    },
+    "group-travel": {
+      "title": "Gruppenreisen, Schulen und Events auf HotelsDrop",
+      "description": "Eine Anfrage erreicht alle passenden Unterkünfte — ideal für Schulen, Unternehmen, Hochzeiten, Tagungen und organisierte Reisen.",
+      "sections": [
+        {
+          "heading": "Eine Anfrage, viele Antworten",
+          "paragraphs": [
+            "Eine Gruppenreise zu organisieren bedeutet meist, Dutzende Hotels einzeln anzuschreiben. Auf HotelsDrop stellst du eine detaillierte Anfrage mit Zimmeranzahl, Gästen, Verpflegung und besonderen Anforderungen.",
+            "Alle passenden Unterkünfte am Zielort erhalten sie und antworten mit vergleichbaren Angeboten. Das spart Zeit und verringert Fehler beim Zusammenstellen der Kostenübersicht."
+          ]
+        },
+        {
+          "heading": "Für Schulen und Reisebüros",
+          "paragraphs": [
+            "Reisebüros verwalten mehrere Kundenanfragen über das Dashboard, vergleichen die Angebote und wählen für jede Reise das beste Ergebnis.",
+            "Schulen, Sportvereine und Unternehmen können Barrierefreiheit, Parkplätze, Verpflegung und weitere Anforderungen angeben, sodass nur geeignete Unterkünfte antworten."
+          ]
+        }
+      ]
+    },
+    "travel-agencies": {
+      "title": "HotelsDrop für Reisebüros",
+      "description": "Eine Anfrage an alle Hotels am Zielort mit einem Klick. Strukturierte Angebote, schneller Vergleich und direkter Kontakt zu den Unterkünften.",
+      "sections": [
+        {
+          "heading": "Das Problem manueller E-Mails",
+          "paragraphs": [
+            "Ein Reisebüro, das einen Gruppenaufenthalt plant, verbringt schnell Stunden damit, Hotels einzeln zu kontaktieren, Antworten nachzufassen und Angebote in getrennten Tabellen neu zu erfassen.",
+            "HotelsDrop bündelt den Ablauf: eine Anfrage, viele Angebote, ein einziger Arbeitsfluss zum Vergleichen und Entscheiden."
+          ]
+        },
+        {
+          "heading": "Operative Vorteile",
+          "paragraphs": [
+            "Du erhältst strukturierte Angebote von Unterkünften, die echtes Interesse an deinem Kunden haben. Preise, Leistungen und Bedingungen sind vergleichbar, und für Rückfragen bleibt der direkte Kontakt zum Hotel.",
+            "Auch wenn heute keine Buchung zustande kommt, entstehen Kontakte zu Unterkünften und Partnern für künftige Zusammenarbeit — anders als bei anonymem OTA-Traffic."
+          ]
+        }
+      ]
+    }
+  },
   "templates": {
     "hubTitle": "Hotels in {city}: {count} Unterkünfte — Direktangebote",
     "hubMetaDescription": "Vergleichen Sie {count} Hotels und B&Bs in {city}. Stellen Sie eine kostenlose Anfrage auf {brand} und erhalten Sie Direktangebote ohne Provision.",

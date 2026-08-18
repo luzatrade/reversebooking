@@ -41,8 +41,16 @@ export type HubCityContent = {
   faq: HubFaqItem[];
 };
 
+export type HubGuideContent = {
+  title: string;
+  description: string;
+  sections: { heading: string; paragraphs: string[] }[];
+};
+
 export type HubLocaleContent = {
   hubSlugs: string[];
+  /** Keyed by english guide slug; absent means the locale falls back to english. */
+  guides?: Record<string, HubGuideContent>;
   homepage: {
     title: string;
     metaDescription: string;
@@ -85,6 +93,12 @@ export type HubLocaleConfig = {
     indexDescription: string;
     indexHeading: string;
     indexSubtitle: string;
+    guidesPlural: string;
+    guidesIndexTitle: string;
+    guidesIndexDescription: string;
+    guidesIndexSubtitle: string;
+    guidesCtaTitle: string;
+    guidesCtaButton: string;
     /** By ISO country code, with `default` for everything else. */
     countryLabels: Record<string, string>;
   };
@@ -114,6 +128,14 @@ const REGISTRY: Record<HubSeoLocale, HubLocaleConfig> = {
       indexHeading: "Alle Reiseziele",
       indexSubtitle:
         "Hotels und Unterkünfte nach Stadt entdecken. Eine Anfrage stellen und Direktangebote erhalten, kostenlos für Reisende.",
+      guidesPlural: "Guides",
+      guidesIndexTitle: "Guides · HotelsDrop",
+      guidesIndexDescription:
+        "Guides zu Reverse Booking, Gruppenreisen und Reisebüros auf HotelsDrop — Direktangebote ohne Provision für Reisende.",
+      guidesIndexSubtitle:
+        "So funktioniert Reverse Booking und so holst du das Meiste aus HotelsDrop heraus.",
+      guidesCtaTitle: "Bereit für Reverse Booking?",
+      guidesCtaButton: "Anfrage stellen",
       countryLabels: {
         IT: "Italien",
         FR: "Frankreich",
@@ -147,6 +169,12 @@ const REGISTRY: Record<HubSeoLocale, HubLocaleConfig> = {
         "浏览 HotelsDrop 的目的地。发布一次住宿需求，即可收到当地酒店与房源的直接报价，旅客零佣金。",
       indexHeading: "全部目的地",
       indexSubtitle: "按城市浏览酒店与住宿。发布一次需求即可收到直接报价，旅客无需支付佣金。",
+      guidesPlural: "指南",
+      guidesIndexTitle: "指南 · HotelsDrop",
+      guidesIndexDescription: "HotelsDrop 指南：反向预订、团队出行与旅行社合作，直接报价，旅客零佣金。",
+      guidesIndexSubtitle: "了解反向预订的运作方式，以及如何更好地使用 HotelsDrop。",
+      guidesCtaTitle: "想试试反向预订吗？",
+      guidesCtaButton: "发布住宿需求",
       countryLabels: {
         IT: "意大利",
         FR: "法国",
@@ -182,6 +210,14 @@ const REGISTRY: Record<HubSeoLocale, HubLocaleConfig> = {
       indexHeading: "Todos los destinos",
       indexSubtitle:
         "Explora hoteles y alojamientos por ciudad. Publica una solicitud y recibe ofertas directas, sin comisiones para quien viaja.",
+      guidesPlural: "Guías",
+      guidesIndexTitle: "Guías · HotelsDrop",
+      guidesIndexDescription:
+        "Guías sobre reverse booking, viajes de grupo y agencias de viajes en HotelsDrop: ofertas directas y sin comisiones para quien viaja.",
+      guidesIndexSubtitle:
+        "Descubre cómo funciona el reverse booking y cómo aprovechar HotelsDrop al máximo.",
+      guidesCtaTitle: "¿Listo para probar el reverse booking?",
+      guidesCtaButton: "Publica tu solicitud",
       countryLabels: {
         IT: "Italia",
         FR: "Francia",
@@ -285,6 +321,15 @@ export function getHubFaq(locale: Locale, slug: string): HubFaqItem[] {
   return getHubCityContent(locale, slug)?.faq ?? [];
 }
 
+export function getHubGuides(locale: Locale): Record<string, HubGuideContent> | null {
+  const guides = hubLocaleConfig(locale)?.content.guides;
+  return guides && Object.keys(guides).length ? guides : null;
+}
+
+export function getHubGuide(locale: Locale, englishSlug: string): HubGuideContent | null {
+  return getHubGuides(locale)?.[englishSlug] ?? null;
+}
+
 /** Internal path that also exists in this locale, or null when it must fall back to EN. */
 export function hubAlternateInternalPath(locale: Locale, internalPath: string): string | null {
   const config = hubLocaleConfig(locale);
@@ -296,9 +341,33 @@ export function hubAlternateInternalPath(locale: Locale, internalPath: string): 
   /** The index only makes sense once the hubs it links to are published. */
   if (normalized === "/destinazioni") return config.hubsEnabled ? normalized : null;
 
+  const guides = getHubGuides(locale);
+  if (normalized === "/guide") return guides ? normalized : null;
+  const guideMatch = normalized.match(/^\/guide\/([^/]+)$/);
+  if (guideMatch) {
+    return guides && guideKeyIsTranslated(guides, guideMatch[1]!) ? normalized : null;
+  }
+
   const match = normalized.match(/^\/destinazioni\/([^/]+)$/);
   if (match && isHubSlug(locale, match[1]!)) return normalized;
   return null;
+}
+
+/** Internal guide paths use italian slugs; packs are keyed by the english ones. */
+const GUIDE_SLUG_ALIASES: Record<string, string> = {
+  "reverse-booking": "reverse-booking",
+  "viaggi-di-gruppo": "group-travel",
+  "group-travel": "group-travel",
+  "agenzie-viaggio": "travel-agencies",
+  "travel-agencies": "travel-agencies",
+};
+
+export function hubGuideSlug(slug: string): string {
+  return GUIDE_SLUG_ALIASES[slug] ?? slug;
+}
+
+function guideKeyIsTranslated(guides: Record<string, HubGuideContent>, slug: string): boolean {
+  return Boolean(guides[hubGuideSlug(slug)]);
 }
 
 export function isHubSeoPublicInternalPath(internalPath: string, locale: Locale): boolean {

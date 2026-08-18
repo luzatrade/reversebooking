@@ -1,5 +1,6 @@
 import type { Locale } from "@/lib/i18n/translations";
 import { uiLocale } from "@/lib/i18n/ui-locale";
+import { getHubGuides } from "@/lib/seo/hub-locale-registry";
 
 export type GuideArticle = {
   slug: string;
@@ -174,6 +175,12 @@ const slugMap: Record<string, { it: string; en: string }> = {
 };
 
 export function listGuides(locale: Locale): GuideArticle[] {
+  const hubGuides = getHubGuides(locale);
+  if (hubGuides) {
+    return guidesEn
+      .filter((guide) => hubGuides[guide.slug])
+      .map((guide) => ({ ...guide, ...hubGuides[guide.slug]! }));
+  }
   return uiLocale(locale) === "en" ? guidesEn : guidesIt;
 }
 

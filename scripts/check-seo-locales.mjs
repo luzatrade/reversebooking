@@ -127,6 +127,33 @@ async function checkIndex({ locale, content }) {
   record(locale, "indice: hub collegati", linked.size >= slugs.length - 1, `${linked.size}/${slugs.length}`);
 }
 
+async function checkGuides({ locale, content }) {
+  const guides = content.guides ?? {};
+  const slugs = Object.keys(guides);
+  if (!slugs.length) {
+    console.log(`  [SKIP] guide non tradotte per ${locale}`);
+    return;
+  }
+
+  const index = await get(`${BASE}/${locale}/guides`);
+  record(locale, `guide ${BASE}/${locale}/guides → 200`, index.status === 200, `HTTP ${index.status}`);
+  if (index.status === 200) {
+    const listed = slugs.filter((slug) => index.body.includes(guides[slug].title));
+    record(locale, `indice guide: ${listed.length}/${slugs.length} titoli`, listed.length === slugs.length);
+  }
+
+  for (const slug of slugs) {
+    const url = `${BASE}/${locale}/guides/${slug}`;
+    const page = await get(url);
+    record(locale, `guida ${slug} → 200`, page.status === 200, `HTTP ${page.status} ${page.location ?? ""}`);
+    if (page.status !== 200) continue;
+
+    record(locale, `guida ${slug}: titolo tradotto`, page.body.includes(guides[slug].title));
+    const heading = guides[slug].sections?.[0]?.heading;
+    if (heading) record(locale, `guida ${slug}: sezioni tradotte`, page.body.includes(heading), heading);
+  }
+}
+
 async function checkHubs({ locale, content }) {
   const slugs = Object.keys(content.hubs ?? {});
   if (!slugs.length) {
@@ -214,6 +241,7 @@ async function main() {
     console.log(`\n== ${entry.locale.toUpperCase()} ==`);
     await checkHomepage(entry);
     await checkIndex(entry);
+    await checkGuides(entry);
     await checkHubs(entry);
   }
 

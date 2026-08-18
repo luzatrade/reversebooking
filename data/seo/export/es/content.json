@@ -78,6 +78,74 @@
       }
     ]
   },
+  "guides": {
+    "reverse-booking": {
+      "title": "Qué es el reverse booking y por qué funciona",
+      "description": "El reverse booking invierte el flujo tradicional: en lugar de buscar tarifas en decenas de portales, publicas una solicitud y los alojamientos te envían ofertas directas.",
+      "sections": [
+        {
+          "heading": "Definición",
+          "paragraphs": [
+            "El reverse booking, o reserva inversa, es un modelo en el que el viajero describe destino, fechas, presupuesto y preferencias en una sola solicitud. Los alojamientos compatibles la reciben y responden con propuestas personalizadas.",
+            "En HotelsDrop el proceso es gratuito para quien viaja: no hay comisión de reserva ni para el viajero ni para la agencia. Los alojamientos participan con una suscripción."
+          ]
+        },
+        {
+          "heading": "En qué se diferencia de las OTA tradicionales",
+          "paragraphs": [
+            "En los portales tradicionales buscas, comparas y reservas sin hablar nunca con el hotel. El viajero permanece anónimo y el alojamiento paga comisiones elevadas sobre cada reserva.",
+            "Con el reverse booking hay un contacto real con el alojamiento, ofertas hechas a medida y la posibilidad de negociar servicios, condiciones y tarifas antes de decidir."
+          ]
+        },
+        {
+          "heading": "Cómo empezar en HotelsDrop",
+          "paragraphs": [
+            "Crea una solicitud gratuita con destino, fechas, número de habitaciones y presupuesto. En pocos minutos llega a todos los alojamientos activos de la zona elegida, y suele recibirse la primera oferta en menos de 24 horas."
+          ]
+        }
+      ]
+    },
+    "group-travel": {
+      "title": "Viajes de grupo, colegios y eventos en HotelsDrop",
+      "description": "Una sola solicitud llega a todos los alojamientos compatibles: ideal para colegios, empresas, bodas, congresos y viajes organizados.",
+      "sections": [
+        {
+          "heading": "Una solicitud, muchas respuestas",
+          "paragraphs": [
+            "Organizar un viaje de grupo suele significar escribir decenas de correos a hoteles distintos. En HotelsDrop publicas una única solicitud detallada con número de habitaciones, huéspedes, régimen de comidas y requisitos especiales.",
+            "Todos los alojamientos compatibles del destino la reciben y responden con ofertas comparables entre sí. Ahorras tiempo y reduces el riesgo de errores al reconstruir presupuestos."
+          ]
+        },
+        {
+          "heading": "Para colegios y agencias",
+          "paragraphs": [
+            "Las agencias de viajes pueden gestionar varias solicitudes de clientes distintos desde el panel, comparar las ofertas recibidas y elegir la mejor propuesta para cada viaje.",
+            "Colegios, clubes deportivos y empresas pueden indicar accesibilidad, aparcamiento, comidas y otras necesidades en la solicitud, de modo que solo respondan los alojamientos realmente adecuados."
+          ]
+        }
+      ]
+    },
+    "travel-agencies": {
+      "title": "HotelsDrop para agencias de viajes",
+      "description": "Envía una solicitud a todos los hoteles del destino con un clic. Ofertas estructuradas, comparación rápida y contacto directo con los alojamientos.",
+      "sections": [
+        {
+          "heading": "El problema de los correos manuales",
+          "paragraphs": [
+            "Una agencia que organiza una estancia de grupo puede pasar horas contactando hoteles uno por uno, persiguiendo respuestas y rehaciendo presupuestos en hojas de cálculo separadas.",
+            "HotelsDrop centraliza el proceso: una solicitud, muchas propuestas y un solo flujo de trabajo para comparar y decidir."
+          ]
+        },
+        {
+          "heading": "Ventajas operativas",
+          "paragraphs": [
+            "Recibes ofertas estructuradas de alojamientos realmente interesados en tu cliente. Comparas precios, servicios y condiciones, y mantienes un diálogo directo con el hotel para aclaraciones o personalizaciones.",
+            "Aunque hoy no se cierre la reserva, construyes contactos con alojamientos y socios para colaboraciones futuras, a diferencia del tráfico anónimo de las OTA."
+          ]
+        }
+      ]
+    }
+  },
   "cityDisplayNames": {
     "roma": "Roma",
     "milano": "Milán",

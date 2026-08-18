@@ -3,17 +3,20 @@ import { SeoBreadcrumb } from "@/components/seo/SeoBreadcrumb";
 import { getServerLocale } from "@/lib/i18n/get-translations";
 import { guidePublicPath, homePath, localizedPath } from "@/lib/i18n/routing";
 import { listGuides } from "@/lib/i18n/guides";
+import { hubLocaleConfig } from "@/lib/seo/hub-locale-registry";
 import type { Locale } from "@/lib/i18n/translations";
 import { uiLocale } from "@/lib/i18n/ui-locale";
 
 export async function GuideIndexPage() {
   const locale = await getServerLocale();
   const guides = listGuides(locale);
-  const title = locale === "en" ? "Guides" : "Guide";
+  const hubLabels = hubLocaleConfig(locale)?.labels;
+  const title = hubLabels?.guidesPlural ?? (locale === "en" ? "Guides" : "Guide");
   const subtitle =
-    locale === "en"
+    hubLabels?.guidesIndexSubtitle ??
+    (locale === "en"
       ? "Learn how reverse booking works and how to get the most from HotelsDrop."
-      : "Scopri come funziona il reverse booking e come sfruttare al meglio HotelsDrop.";
+      : "Scopri come funziona il reverse booking e come sfruttare al meglio HotelsDrop.");
 
   return (
     <div className="mx-auto max-w-3xl space-y-8 px-4 py-10 sm:px-6 lg:px-8">
@@ -45,6 +48,15 @@ export async function GuideIndexPage() {
 }
 
 export function guideIndexMetadata(locale: Locale) {
+  const hubLabels = hubLocaleConfig(locale)?.labels;
+  if (hubLabels) {
+    return {
+      title: hubLabels.guidesIndexTitle,
+      description: hubLabels.guidesIndexDescription,
+      internalPath: "/guide" as const,
+    };
+  }
+
   const ui = uiLocale(locale);
   return {
     title: ui === "en" ? "Guides · HotelsDrop" : "Guide · HotelsDrop",
