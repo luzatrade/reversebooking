@@ -11,9 +11,11 @@ export function preferredLocaleFromRequest(request: NextRequest): Locale {
   const primary = header.split(",")[0]?.trim().toLowerCase() ?? "";
   if (primary.startsWith("en")) return "en";
   if (primary.startsWith("de")) return "de";
+  if (primary.startsWith("zh")) return "zh";
   if (primary.startsWith("it")) return "it";
 
   if (/\bde[-_;]|[-_;]de\b/.test(header.toLowerCase())) return "de";
+  if (/\bzh[-_;]|[-_;]zh\b/.test(header.toLowerCase())) return "zh";
   if (/\ben[-_;]|[-_;]en\b/.test(header.toLowerCase())) return "en";
   return "it";
 }

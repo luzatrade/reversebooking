@@ -1,5 +1,6 @@
 import { localizedPath } from "@/lib/i18n/routing";
 import { listDeHubSlugs } from "@/lib/seo/de-export-content";
+import { listZhHubSlugs } from "@/lib/seo/zh-export-content";
 import { publicSiteOrigin } from "@/lib/seo/site-url";
 import { listDestinationHubSlugs } from "@/lib/seo/destination-queries";
 import { listIndexableStructureSlugs } from "@/lib/seo/structure-queries";
@@ -71,13 +72,18 @@ function localePaths(internalPath: string): string[] {
   return (["it", "en"] as Locale[]).map((locale) => localizedPath(locale, internalPath));
 }
 
-function optionalDeSitemapPath(internalPath: string): string | null {
-  if (internalPath === "/") return localizedPath("de", "/");
-  const match = internalPath.match(/^\/destinazioni\/([^/]+)$/);
-  if (match && listDeHubSlugs().includes(match[1]!)) {
-    return localizedPath("de", internalPath);
+function optionalHubSeoSitemapPaths(internalPath: string): string[] {
+  const paths: string[] = [];
+  if (internalPath === "/") {
+    paths.push(localizedPath("de", "/"), localizedPath("zh", "/"));
+    return paths;
   }
-  return null;
+  const match = internalPath.match(/^\/destinazioni\/([^/]+)$/);
+  if (!match) return paths;
+  const slug = match[1]!;
+  if (listDeHubSlugs().includes(slug)) paths.push(localizedPath("de", internalPath));
+  if (listZhHubSlugs().includes(slug)) paths.push(localizedPath("zh", internalPath));
+  return paths;
 }
 
 export async function buildSitemapEntries(id: number): Promise<SitemapEntry[]> {
@@ -86,9 +92,7 @@ export async function buildSitemapEntries(id: number): Promise<SitemapEntry[]> {
 
   if (id === 0) {
     return staticInternalPaths.flatMap((path) => {
-      const locPaths = [...localePaths(path)];
-      const dePath = optionalDeSitemapPath(path);
-      if (dePath) locPaths.push(dePath);
+      const locPaths = [...localePaths(path), ...optionalHubSeoSitemapPaths(path)];
       return locPaths.map((locPath) => ({
         loc: `${base}${locPath}`,
         lastModified: staticPageLastmod(path),
@@ -103,9 +107,7 @@ export async function buildSitemapEntries(id: number): Promise<SitemapEntry[]> {
     const lastmods = await fetchDestinationSlugLastmods();
     return destinationSlugs.flatMap((slug) => {
       const internalPath = `/destinazioni/${slug}`;
-      const locPaths = [...localePaths(internalPath)];
-      const dePath = optionalDeSitemapPath(internalPath);
-      if (dePath) locPaths.push(dePath);
+      const locPaths = [...localePaths(internalPath), ...optionalHubSeoSitemapPaths(internalPath)];
       return locPaths.map((locPath) => ({
         loc: `${base}${locPath}`,
         lastModified: lastmods.get(slug) ?? fallback,

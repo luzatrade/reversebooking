@@ -207,6 +207,7 @@ export function guideSlugAlternates(slug: string): Record<Locale, string> {
     it: row?.it ?? key,
     en: row?.en ?? key,
     de: row?.en ?? key,
+    zh: row?.en ?? key,
   };
 }
 

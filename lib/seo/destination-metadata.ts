@@ -9,6 +9,13 @@ import {
   getDeHubTitle,
   isDeSeoLocale,
 } from "@/lib/seo/de-export-content";
+import {
+  getZhHubContent,
+  getZhHubMetaDescription,
+  getZhHubTitle,
+  isZhSeoLocale,
+} from "@/lib/seo/zh-export-content";
+import { usesEnglishHotelCatalog } from "@/lib/seo/hub-seo-locale";
 import { getDestinationDisplayName } from "@/lib/seo/destination-display-name";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import { isDestinationHubIndexable } from "@/lib/seo/destination-quality";
@@ -22,6 +29,10 @@ export function buildDestinationTitle(hub: DestinationHub, locale: Locale = "it"
 
   if (isDeSeoLocale(locale)) {
     return getDeHubTitle(hub.slug, city, count) ?? `Hotels in ${city}: ${count} Unterkünfte — Direktangebote`;
+  }
+
+  if (isZhSeoLocale(locale)) {
+    return getZhHubTitle(hub.slug, city, count) ?? `${city}酒店：${count}家房源 — 获取直接报价`;
   }
 
   if (locale === "en") {
@@ -39,6 +50,11 @@ export function buildDestinationDescription(hub: DestinationHub, locale: Locale)
     if (deDescription) return trimSeoDescription(deDescription);
   }
 
+  if (isZhSeoLocale(locale)) {
+    const zhDescription = getZhHubMetaDescription(hub.slug, city, count);
+    if (zhDescription) return trimSeoDescription(zhDescription);
+  }
+
   if (locale === "en") {
     return trimSeoDescription(
       `Compare ${count} hotels and B&Bs in ${city}. Publish a free stay request on ${BRAND_NAME} and receive personalised direct offers from local properties. No booking commission for travellers.`,
@@ -54,6 +70,13 @@ export function buildDestinationIntro(hub: DestinationHub, locale: Locale) {
     const deHub = getDeHubContent(hub.slug);
     if (deHub?.intro) {
       return deHub.intro.replaceAll("{count}", String(hub.structureCount));
+    }
+  }
+
+  if (isZhSeoLocale(locale)) {
+    const zhHub = getZhHubContent(hub.slug);
+    if (zhHub?.intro) {
+      return zhHub.intro.replaceAll("{count}", String(hub.structureCount));
     }
   }
 
@@ -77,7 +100,11 @@ function absoluteTitle(title: string): string {
 export function buildDestinationMetadata(hub: DestinationHub, locale: Locale, page = 1): Metadata {
   const baseTitle = buildDestinationTitle(hub, locale);
   const paginatedSuffix =
-    locale === "en" ? ` · page ${page}` : locale === "de" ? ` · Seite ${page}` : ` · pag. ${page}`;
+    locale === "en" || locale === "zh"
+      ? ` · page ${page}`
+      : locale === "de"
+        ? ` · Seite ${page}`
+        : ` · pag. ${page}`;
   const title = page > 1 ? `${baseTitle}${paginatedSuffix}` : baseTitle;
   const description = buildDestinationDescription(hub, locale);
   const absolute = absoluteTitle(title);
@@ -113,7 +140,8 @@ export function buildDestinationJsonLd(
   locale: Locale = "it",
 ) {
   const heroUrl = getDestinationCityPhoto(hub);
-  const hotelPath = (slug: string) => localizedPath(locale === "de" ? "en" : locale, `/hotel/${slug}`);
+  const hotelPath = (slug: string) =>
+    localizedPath(usesEnglishHotelCatalog(locale) ? "en" : locale, `/hotel/${slug}`);
 
   return {
     "@context": "https://schema.org",

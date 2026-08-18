@@ -24,6 +24,7 @@ import {
   type DestinationStructureItem,
 } from "@/lib/seo/destination-queries";
 import { destinationPublicPath, homePath, localizedPath, structurePublicPath } from "@/lib/i18n/routing";
+import { uiLocale } from "@/lib/i18n/ui-locale";
 
 type Props = {
   hub: DestinationHub;
@@ -36,6 +37,7 @@ type Props = {
 export async function DestinationHubPage({ hub, items, page, totalPages, relatedDestinations = [] }: Props) {
   const t = await getServerTranslations();
   const locale = await getServerLocale();
+  const ui = uiLocale(locale);
   const labels = getMarketingLabels(locale);
   const displayName = getDestinationDisplayName(hub, locale);
   const intro = buildDestinationIntro(hub, locale);
@@ -54,10 +56,10 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
   const pageTitle =
     locale === "de"
       ? `Hotels und Unterkünfte in ${displayName}`
-      : locale === "en"
+      : ui === "en"
         ? `Hotels and properties in ${displayName}`
         : `Hotel e strutture a ${displayName}`;
-  const structureAttractionHint = getStructureCardAttractionHint(displayName, locale === "de" ? "en" : locale);
+  const structureAttractionHint = getStructureCardAttractionHint(displayName, ui);
 
   return (
     <div className="space-y-6">
@@ -85,7 +87,7 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
             )}
             <div className="p-6 sm:p-8">
               <p className="text-xs font-medium uppercase tracking-wide text-[#0f4c81] sm:text-sm">
-                {locale === "de" ? "Reiseziel" : locale === "en" ? "Destination" : "Destinazione"}
+                {locale === "de" ? "Reiseziel" : ui === "en" ? "Destination" : "Destinazione"}
               </p>
               <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">{pageTitle}</h1>
               <p className="mt-4 max-w-3xl text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{intro}</p>
@@ -93,7 +95,7 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
               <p className="mt-3 text-sm text-zinc-500">
                 {locale === "de"
                   ? `${hub.structureCount} Unterkünfte im Katalog`
-                  : locale === "en"
+                  : ui === "en"
                     ? `${hub.structureCount} indexed properties`
                     : `${hub.structureCount} strutture nel catalogo`}
               </p>
@@ -137,7 +139,7 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
                         </p>
                       ) : null}
                       <span className="mt-4 text-sm font-semibold text-[#0f4c81]">
-                        {locale === "de" ? "Unterkunft ansehen" : locale === "en" ? "View property" : "Vedi struttura"}
+                        {locale === "de" ? "Unterkunft ansehen" : ui === "en" ? "View property" : "Vedi struttura"}
                       </span>
                     </div>
                   </Link>

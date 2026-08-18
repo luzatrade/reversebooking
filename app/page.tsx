@@ -34,7 +34,9 @@ export async function generateMetadata(): Promise<Metadata> {
       ? ["reverse booking", "reversebooking", "HotelsDrop", "hotel offers", "no commission"]
       : locale === "de"
         ? ["Reverse Booking", "HotelsDrop", "Hotel buchen", "Italien", "ohne Provision"]
-        : ["reverse booking", "reversebooking", "HotelsDrop", "offerte hotel", "senza commissioni"],
+        : locale === "zh"
+          ? ["反向预订", "HotelsDrop", "意大利酒店", "无佣金", "直接报价"]
+          : ["reverse booking", "reversebooking", "HotelsDrop", "offerte hotel", "senza commissioni"],
     alternates: buildLanguageAlternates("/", locale),
     openGraph: buildOpenGraph({ title, description, path: "/", locale }),
     twitter: buildTwitterCard({ title, description }),

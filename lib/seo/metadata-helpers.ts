@@ -54,7 +54,7 @@ export function buildOpenGraph(params: {
     siteName: BRAND_NAME,
     title: params.title,
     description: params.description,
-    locale: locale === "en" ? "en_GB" : locale === "de" ? "de_DE" : "it_IT",
+    locale: locale === "en" ? "en_GB" : locale === "de" ? "de_DE" : locale === "zh" ? "zh_CN" : "it_IT",
     images,
   };
 }

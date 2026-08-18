@@ -2,7 +2,7 @@ import type { Session } from "@supabase/supabase-js";
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 import {
-  isDePublicInternalPath,
+  isHubSeoPublicInternalPathForLocale,
   isPublicSeoPath,
   localeCookieOptions,
   LOCALE_HEADER,
@@ -36,13 +36,13 @@ function handleLocale(request: NextRequest): NextResponse | null {
 
   const parsed = parseLocalePath(pathname);
   if (parsed) {
-    if (parsed.locale === "de") {
+    if (parsed.locale === "de" || parsed.locale === "zh") {
       if (parsed.internalPath.startsWith("/hotel/")) {
         const url = request.nextUrl.clone();
         url.pathname = localizedPath("en", parsed.internalPath);
         return NextResponse.redirect(url, 301);
       }
-      if (parsed.internalPath !== "/" && !isDePublicInternalPath(parsed.internalPath)) {
+      if (parsed.internalPath !== "/" && !isHubSeoPublicInternalPathForLocale(parsed.internalPath, parsed.locale)) {
         const url = request.nextUrl.clone();
         url.pathname = localizedPath("en", parsed.internalPath);
         return NextResponse.redirect(url, 301);

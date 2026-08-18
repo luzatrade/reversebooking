@@ -1,11 +1,12 @@
-export type Locale = "it" | "en" | "de";
+export type Locale = "it" | "en" | "de" | "zh";
 
-export const supportedLocales: Locale[] = ["it", "en", "de"];
+export const supportedLocales: Locale[] = ["it", "en", "de", "zh"];
 
 export const localeLabels: Record<Locale, string> = {
   it: "Italiano",
   en: "English",
   de: "Deutsch",
+  zh: "中文",
 };
 
 export const translations = {
