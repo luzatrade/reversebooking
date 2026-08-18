@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "locale": "es",
-  "importedAt": "2026-08-18T20:45:00.000Z",
+  "importedAt": "2026-08-18T21:30:00.000Z",
   "hubSlugs": [
     "roma",
     "milano",
@@ -110,5 +110,517 @@
     "cagliari": "Cagliari",
     "taormina": "Taormina"
   },
-  "hubs": {}
+  "hubs": {
+    "roma": {
+      "displayName": "Roma",
+      "title": "Hoteles en Roma: {count} alojamientos con ofertas directas",
+      "metaDescription": "Compara {count} hoteles y B&B en Roma, del Centro Storico al EUR. Publica una solicitud gratuita y recibe ofertas directas, sin comisiones.",
+      "intro": "Explora {count} alojamientos en Roma: hoteles en el Centro Storico, B&B en Trastevere y opciones bien conectadas cerca de Termini y el EUR.",
+      "editorial": "Roma concentra {count} hoteles, B&B y guest houses entre el Centro Storico, Trastevere, Termini y el EUR. En HotelsDrop publicas una sola solicitud con fechas y presupuesto, y los alojamientos de la capital responden con propuestas directas y sin comisiones para quien viaja. Funciona bien para escapadas culturales al Coliseo y el Vaticano, estancias por congresos y viajes largos en familia o en grupo.",
+      "faq": [
+        {
+          "question": "¿En qué zona conviene alojarse en Roma?",
+          "answer": "El Centro Storico y Trastevere son los más cómodos para visitar la ciudad a pie. Termini ofrece la mejor conexión de transporte y precios más contenidos, mientras que Prati es práctico para el Vaticano y el EUR para viajes de negocios."
+        },
+        {
+          "question": "¿Cómo consigo ofertas de hoteles en Roma?",
+          "answer": "Publica una solicitud gratuita con tus fechas, tu presupuesto y el número de habitaciones. Los alojamientos romanos compatibles la reciben y responden con ofertas directas que puedes comparar antes de decidir."
+        }
+      ]
+    },
+    "milano": {
+      "displayName": "Milán",
+      "title": "Hoteles en Milán: {count} alojamientos, ofertas directas",
+      "metaDescription": "Compara {count} hoteles y B&B en Milán, del Duomo a la Fiera. Publica una solicitud gratuita y recibe ofertas directas, sin comisiones.",
+      "intro": "Descubre {count} alojamientos en Milán, entre el Duomo, Porta Garibaldi y la zona de la Fiera, con opciones para viajes de negocios y escapadas urbanas.",
+      "editorial": "Milán funciona igual de bien para negocios y para ocio, con {count} alojamientos cerca del Duomo, Porta Garibaldi, Navigli y el recinto ferial de Rho. Con HotelsDrop comparas ofertas personalizadas de los hoteles milaneses sin recorrer decenas de portales. Es especialmente útil en semanas de feria, durante la Fashion Week y para viajes de empresa que necesitan varias habitaciones.",
+      "faq": [
+        {
+          "question": "¿Cuál es la mejor zona para alojarse en Milán?",
+          "answer": "El centro y Brera son ideales para turismo, Porta Garibaldi e Isola para vida nocturna y transporte, y la zona de Rho Fiera para asistir a ferias. Cerca de la Estación Central encontrarás la mejor relación precio-conexión."
+        },
+        {
+          "question": "¿Puedo pedir varias habitaciones para un viaje de empresa?",
+          "answer": "Sí. Indica en la solicitud el número de habitaciones y las fechas, y los hoteles milaneses responderán con propuestas para el grupo completo, incluidas tarifas corporativas y salas de reuniones cuando estén disponibles."
+        }
+      ]
+    },
+    "napoli": {
+      "displayName": "Nápoles",
+      "title": "Hoteles en Nápoles: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Nápoles, base para Capri y la Costa Amalfitana. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Encuentra {count} alojamientos en Nápoles, entre el centro histórico, el Lungomare y las zonas cercanas al puerto para salir hacia Capri.",
+      "editorial": "Nápoles y su golfo reúnen {count} alojamientos para escapadas urbanas, playa y salidas hacia Capri, Ischia y la Costa Amalfitana. Envía una única solicitud en HotelsDrop y recibe propuestas directas de hoteles y B&B de la ciudad. Muchos alojamientos incluyen desayuno, aparcamiento y traslados al puerto o al aeropuerto, algo práctico si combinas la ciudad con las islas.",
+      "faq": [
+        {
+          "question": "¿Dónde alojarse en Nápoles para visitar la ciudad y las islas?",
+          "answer": "El centro histórico y Toledo te dejan cerca de los principales monumentos. Si vas a coger ferris hacia Capri o Ischia, la zona del puerto y Santa Lucía son más cómodas, mientras que Chiaia y el Lungomare ofrecen ambiente más tranquilo."
+        },
+        {
+          "question": "¿Los hoteles de Nápoles incluyen traslados al puerto?",
+          "answer": "Varios alojamientos ofrecen traslado al puerto o al aeropuerto de Capodichino. Pídelo en tu solicitud y los hoteles lo indicarán en la oferta junto con el precio final."
+        }
+      ]
+    },
+    "firenze": {
+      "displayName": "Florencia",
+      "title": "Hoteles en Florencia: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Florencia, del Duomo al Oltrarno. Publica una solicitud gratuita y recibe ofertas directas sin comisiones.",
+      "intro": "Explora {count} alojamientos en Florencia, cerca del Duomo, los Uffizi y el Oltrarno, y también como base para recorrer la Toscana.",
+      "editorial": "Florencia atrae por su arte, su gastronomía y su posición como base para la Toscana, con {count} alojamientos entre el Duomo, Santa Croce, San Lorenzo y el Oltrarno. En HotelsDrop los alojamientos florentinos responden a tu solicitud con ofertas ajustadas a tus fechas, tu presupuesto y los servicios que necesitas. Es una buena opción para visitas a museos, bodas en villas y rutas de vino por el Chianti.",
+      "faq": [
+        {
+          "question": "¿Qué zona de Florencia es mejor para visitar los museos?",
+          "answer": "El centro histórico, entre el Duomo y los Uffizi, permite recorrerlo todo caminando. El Oltrarno y San Frediano ofrecen ambiente más local y precios algo menores, sin alejarse del centro."
+        },
+        {
+          "question": "¿Puedo pedir ofertas para una estancia larga en Florencia?",
+          "answer": "Sí. Indica las fechas completas en la solicitud: para estancias de varias noches muchos alojamientos aplican tarifas mejores que las publicadas en los portales."
+        }
+      ]
+    },
+    "venezia": {
+      "displayName": "Venecia",
+      "title": "Hoteles en Venecia: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Venecia, de San Marcos a Cannaregio y Mestre. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Descubre {count} alojamientos en Venecia, entre San Marcos, Dorsoduro y Cannaregio, además de opciones más económicas en Mestre.",
+      "editorial": "Venecia ofrece {count} alojamientos repartidos entre San Marcos, Dorsoduro, Cannaregio, Castello y la zona de Mestre, mejor conectada y con precios más contenidos. Con una sola solicitud en HotelsDrop recibes ofertas directas de los alojamientos venecianos, con el precio final sin comisiones para quien viaja. Útil tanto para visitas a la Bienal y el Carnaval como para escapadas de dos o tres noches.",
+      "faq": [
+        {
+          "question": "¿Conviene alojarse en Venecia o en Mestre?",
+          "answer": "Alojarse en el centro histórico permite disfrutar de la ciudad al amanecer y al atardecer, cuando hay menos gente. Mestre resulta más económico y está a pocos minutos en tren, buena opción si viajas en coche o con presupuesto ajustado."
+        },
+        {
+          "question": "¿Los alojamientos venecianos ofrecen traslado con equipaje?",
+          "answer": "Algunos ofrecen servicio de porteo o traslado en barco, especialmente en las zonas con puentes. Indícalo en tu solicitud y los alojamientos lo incluirán en la oferta."
+        }
+      ]
+    },
+    "torino": {
+      "displayName": "Turín",
+      "title": "Hoteles en Turín: {count} alojamientos, ofertas directas",
+      "metaDescription": "Compara {count} hoteles y B&B en Turín, del centro al Lingotto. Publica una solicitud gratuita y recibe ofertas directas sin comisiones.",
+      "intro": "Encuentra {count} alojamientos en Turín, entre el centro histórico, San Salvario y el Lingotto, con buena base para esquiar en los Alpes.",
+      "editorial": "Turín combina hoteles de negocios, alojamientos boutique y B&B entre el centro, San Salvario y el Lingotto, con {count} opciones en total. En HotelsDrop envías una solicitud y recibes ofertas directas para congresos, escapadas culturales al Museo Egipcio y viajes de esquí hacia los valles alpinos. La ciudad funciona bien como base para combinar arte, gastronomía piamontesa y montaña.",
+      "faq": [
+        {
+          "question": "¿Dónde alojarse en Turín para visitar la ciudad?",
+          "answer": "El centro, entre Piazza Castello y Via Roma, deja todo a poca distancia. San Salvario es la zona más animada por la noche y el Lingotto resulta práctico para ferias y congresos."
+        },
+        {
+          "question": "¿Sirve Turín como base para esquiar?",
+          "answer": "Sí. Muchos alojamientos turineses reciben solicitudes de viajeros que esquían en los valles de Susa y Chisone, y pueden proponer estancias con aparcamiento y desayuno temprano."
+        }
+      ]
+    },
+    "bologna": {
+      "displayName": "Bolonia",
+      "title": "Hoteles en Bolonia: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Bolonia, del centro a la Fiera. Publica una solicitud gratuita y recibe ofertas directas sin comisiones.",
+      "intro": "Explora {count} alojamientos en Bolonia, entre los pórticos del centro, la zona universitaria y el recinto ferial.",
+      "editorial": "Bolonia reúne {count} alojamientos ideales para rutas gastronómicas, visitas universitarias y ferias profesionales. Los alojamientos boloñeses en HotelsDrop responden con propuestas adaptadas a tu presupuesto, la zona que prefieres y los servicios que necesitas. Su posición ferroviaria central la convierte además en una base cómoda para visitar Módena, Parma y Ferrara en el día.",
+      "faq": [
+        {
+          "question": "¿Qué zona de Bolonia conviene para una escapada gastronómica?",
+          "answer": "El Quadrilatero y la zona de Via Pescherie Vecchie concentran mercados y trattorias. Alojarse dentro de los pórticos del centro permite recorrerlo todo caminando."
+        },
+        {
+          "question": "¿Hay alojamientos cerca del recinto ferial de Bolonia?",
+          "answer": "Sí, en la zona de la Fiera y Bolognina. Indica las fechas de la feria en tu solicitud, porque en esos días la disponibilidad se reduce y conviene pedir ofertas con antelación."
+        }
+      ]
+    },
+    "palermo": {
+      "displayName": "Palermo",
+      "title": "Hoteles en Palermo: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Palermo, del centro histórico al aeropuerto. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Descubre {count} alojamientos en Palermo, entre el centro histórico, el paseo marítimo y las zonas cercanas al aeropuerto.",
+      "editorial": "Palermo ofrece {count} alojamientos repartidos entre el centro histórico, el waterfront y el eje hacia el aeropuerto de Punta Raisi. Una sola solicitud en HotelsDrop llega a los hoteles y guest houses compatibles con tus fechas. Resulta práctico para escapadas urbanas entre mercados y palacios, visitas a Monreale y grupos que necesitan varias habitaciones en zona céntrica.",
+      "faq": [
+        {
+          "question": "¿Dónde alojarse en Palermo por primera vez?",
+          "answer": "El centro histórico, entre Quattro Canti, Ballarò y la Kalsa, permite visitar mercados y monumentos a pie. La zona de Politeama y Libertà es más tranquila y con hoteles algo más nuevos."
+        },
+        {
+          "question": "¿Los hoteles de Palermo ofrecen aparcamiento?",
+          "answer": "Algunos disponen de garaje o acuerdo con aparcamientos cercanos, un detalle importante en el centro. Pídelo en la solicitud y lo verás indicado en la oferta."
+        }
+      ]
+    },
+    "genova": {
+      "displayName": "Génova",
+      "title": "Hoteles en Génova: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Génova, del Porto Antico al centro histórico. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Encuentra {count} alojamientos en Génova, cerca del Porto Antico, el centro histórico y la estación, con acceso fácil a las Cinque Terre.",
+      "editorial": "Génova cuenta con {count} alojamientos entre el Porto Antico, los callejones del centro histórico y los barrios de Albaro y Nervi, frente al mar. En HotelsDrop publicas una solicitud y los alojamientos genoveses responden con ofertas directas, sin comisiones para quien viaja. La ciudad funciona bien como base para el Acuario, la Riviera de Levante y excursiones de un día a Portofino y las Cinque Terre.",
+      "faq": [
+        {
+          "question": "¿Es Génova una buena base para visitar las Cinque Terre?",
+          "answer": "Sí. Desde la estación de Génova Brignole hay trenes directos hacia La Spezia y las Cinque Terre, por lo que muchos viajeros duermen en la ciudad y hacen excursiones de un día."
+        },
+        {
+          "question": "¿Qué zona de Génova es más cómoda?",
+          "answer": "El entorno del Porto Antico y Via Garibaldi deja los museos y el acuario a pie. Albaro y Nervi son más tranquilos y con vistas al mar, a pocos minutos en transporte público."
+        }
+      ]
+    },
+    "bari": {
+      "displayName": "Bari",
+      "title": "Hoteles en Bari: {count} alojamientos, ofertas directas",
+      "metaDescription": "Compara {count} hoteles y B&B en Bari, del casco antiguo al puerto. Publica una solicitud gratuita y recibe ofertas directas sin comisiones.",
+      "intro": "Explora {count} alojamientos en Bari, entre Bari Vecchia, el barrio Murat y la zona del puerto, base para recorrer Puglia.",
+      "editorial": "Bari reúne {count} alojamientos entre Bari Vecchia, el eje comercial del barrio Murat y las zonas próximas al puerto y al aeropuerto. En HotelsDrop los alojamientos pugliesos envían propuestas directas sin comisiones para quien viaja. Es una base práctica para visitar Polignano a Mare, Alberobello y el Valle de Itria, y también para quien embarca en ferris hacia Grecia, Albania y Croacia.",
+      "faq": [
+        {
+          "question": "¿Dónde alojarse en Bari si viajo en ferry?",
+          "answer": "La zona del puerto y el barrio Murat quedan a poca distancia de la terminal marítima. Si tu barco sale muy temprano, indícalo en la solicitud para que los hoteles propongan desayuno anticipado o traslado."
+        },
+        {
+          "question": "¿Sirve Bari como base para visitar Puglia?",
+          "answer": "Sí. Con tren o coche se llega en poco tiempo a Polignano a Mare, Alberobello, Matera y el Valle de Itria, por lo que muchos viajeros usan Bari como campamento base."
+        }
+      ]
+    },
+    "catania": {
+      "displayName": "Catania",
+      "title": "Hoteles en Catania: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Catania, base para el Etna y la costa jónica. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Descubre {count} alojamientos en Catania, entre el centro barroco, la zona del puerto y las salidas hacia el Etna.",
+      "editorial": "Catania es una base excelente para el Etna, la costa jónica y el barroco siciliano, con {count} alojamientos entre Via Etnea, el mercado de la Pescheria y el litoral. Publica tu solicitud en HotelsDrop y compara ofertas directas de hoteles y B&B de la zona. Muchos alojamientos proponen paquetes con excursiones al volcán y estancias combinadas con Taormina y Siracusa.",
+      "faq": [
+        {
+          "question": "¿Es Catania una buena base para subir al Etna?",
+          "answer": "Sí. Es la ciudad más cercana con buena oferta de alojamiento y salidas diarias hacia el refugio Sapienza. Varios hoteles pueden proponer excursión guiada junto a la estancia."
+        },
+        {
+          "question": "¿Qué zona de Catania conviene elegir?",
+          "answer": "El entorno de Via Etnea y Piazza Duomo concentra vida y monumentos. La zona de Ognina y el litoral es más tranquila, y los alojamientos cerca del aeropuerto de Fontanarossa resultan cómodos para vuelos tempranos."
+        }
+      ]
+    },
+    "verona": {
+      "displayName": "Verona",
+      "title": "Hoteles en Verona: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Verona, cerca de la Arena y el Lago de Garda. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Encuentra {count} alojamientos en Verona, cerca de la Arena, el centro histórico y las salidas hacia el Lago de Garda.",
+      "editorial": "Verona combina la Arena, las escapadas románticas y la cercanía al Lago de Garda, con {count} alojamientos entre el centro amurallado, Borgo Trento y Veronetta. Envía una solicitud personalizada y recibe ofertas de hoteles y B&B veroneses. Muchos alojamientos cubren también la temporada de ópera, bodas y fines de semana en el Garda, con aparcamiento incluido para quien llega en coche.",
+      "faq": [
+        {
+          "question": "¿Dónde alojarse en Verona durante la temporada de ópera?",
+          "answer": "El centro histórico, alrededor de Piazza Bra, permite volver caminando después de la función. En esas fechas la disponibilidad baja mucho, así que conviene pedir ofertas con antelación."
+        },
+        {
+          "question": "¿Es Verona buena base para el Lago de Garda?",
+          "answer": "Sí. Peschiera y Lazise están a unos 30 minutos, por lo que muchos viajeros combinan ciudad y lago desde el mismo alojamiento."
+        }
+      ]
+    },
+    "padova": {
+      "displayName": "Padua",
+      "title": "Hoteles en Padua: {count} alojamientos, ofertas directas",
+      "metaDescription": "Compara {count} hoteles y B&B en Padua, cerca de San Antonio y Prato della Valle. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Explora {count} alojamientos en Padua, entre la basílica de San Antonio, Prato della Valle y la zona universitaria.",
+      "editorial": "Padua ofrece {count} alojamientos entre la basílica de San Antonio, Prato della Valle y el centro universitario, además de opciones cerca de la estación y del recinto ferial. En HotelsDrop una sola solicitud llega a los alojamientos paduanos, que responden con ofertas directas. Es una base económica y bien conectada para visitar Venecia en tren, además de destino propio por la Capilla de los Scrovegni.",
+      "faq": [
+        {
+          "question": "¿Se puede visitar Venecia alojándose en Padua?",
+          "answer": "Sí. El tren tarda unos 25 minutos hasta Santa Lucía, por lo que Padua es una alternativa habitual y más económica para dormir cerca de Venecia."
+        },
+        {
+          "question": "¿Qué zona de Padua es más cómoda?",
+          "answer": "El centro histórico, entre Prato della Valle y Piazza delle Erbe, concentra monumentos y restaurantes. La zona de la estación resulta práctica si vas a moverte en tren cada día."
+        }
+      ]
+    },
+    "brescia": {
+      "displayName": "Brescia",
+      "title": "Hoteles en Brescia: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Brescia, cerca de Franciacorta y el Lago de Iseo. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Descubre {count} alojamientos en Brescia, entre el centro histórico, la zona de ferias y las salidas hacia Franciacorta.",
+      "editorial": "Brescia reúne {count} alojamientos entre el centro histórico, el castillo y las zonas de negocios y ferias. Publica una solicitud en HotelsDrop y recibe ofertas directas de los alojamientos brescianos, sin comisiones para quien viaja. Es una base cómoda para catas en Franciacorta, excursiones al Lago de Iseo y al Lago de Garda, y para viajes de trabajo en la zona industrial lombarda.",
+      "faq": [
+        {
+          "question": "¿Es Brescia buena base para Franciacorta y el Lago de Iseo?",
+          "answer": "Sí. Ambas zonas están a menos de media hora en coche o tren, por lo que muchos viajeros duermen en la ciudad y dedican el día a las bodegas o al lago."
+        },
+        {
+          "question": "¿Hay alojamientos para viajes de trabajo en Brescia?",
+          "answer": "Sí. Indica en la solicitud si necesitas aparcamiento, wifi de trabajo o factura de empresa, y los hoteles lo incluirán en su oferta."
+        }
+      ]
+    },
+    "parma": {
+      "displayName": "Parma",
+      "title": "Hoteles en Parma: {count} alojamientos, ofertas directas",
+      "metaDescription": "Compara {count} hoteles y B&B en Parma, ciudad del jamón y el parmesano. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Encuentra {count} alojamientos en Parma, entre el Duomo, el Palacio de la Pilotta y la zona de la Fiera.",
+      "editorial": "Parma ofrece {count} alojamientos entre el centro histórico, el Duomo y el barrio de Oltretorrente, además de opciones junto al recinto ferial. En HotelsDrop los alojamientos parmesanos responden a tu solicitud con ofertas directas. La ciudad es parada obligada para rutas gastronómicas del jamón y el parmesano, y también destino de temporada operística en el Teatro Regio.",
+      "faq": [
+        {
+          "question": "¿Conviene alojarse en el centro de Parma?",
+          "answer": "Sí, el centro es compacto y se recorre a pie, con el Duomo, la Pilotta y el Teatro Regio a pocos minutos. La zona de la estación es útil si llegas en tren."
+        },
+        {
+          "question": "¿Se pueden visitar productores de jamón y parmesano desde Parma?",
+          "answer": "Sí. Varias fábricas y bodegas de curación de la provincia ofrecen visitas guiadas; indícalo en la solicitud y algunos alojamientos propondrán la reserva junto a la estancia."
+        }
+      ]
+    },
+    "modena": {
+      "displayName": "Módena",
+      "title": "Hoteles en Módena: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Módena, entre el Duomo y la Motor Valley. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Explora {count} alojamientos en Módena, cerca del Duomo, la Ghirlandina y los museos de la Motor Valley.",
+      "editorial": "Módena cuenta con {count} alojamientos entre el Duomo, la Ghirlandina y Piazza Grande, además de opciones en las salidas hacia Maranello. Con una solicitud en HotelsDrop los alojamientos modeneses envían ofertas directas para tus fechas. La ciudad combina cocina emiliana y vinagre balsámico con el circuito de la Motor Valley, entre el Museo Ferrari y el Museo Enzo Ferrari.",
+      "poiPhrase": "Duomo, Ghirlandina, Piazza Grande, cocina modenesa y Motor Valley",
+      "faq": [
+        {
+          "question": "¿Es Módena buena base para visitar el Museo Ferrari?",
+          "answer": "Sí. Maranello está a unos 20 minutos en coche y hay autobuses desde la ciudad, por lo que muchos viajeros duermen en Módena y visitan ambos museos Ferrari."
+        },
+        {
+          "question": "¿Qué zona de Módena elegir?",
+          "answer": "El centro histórico permite recorrer a pie el Duomo, Piazza Grande y el mercado Albinelli. Las zonas próximas a la circunvalación son más prácticas si llegas en coche y necesitas aparcamiento."
+        }
+      ]
+    },
+    "reggio-calabria": {
+      "displayName": "Regio de Calabria",
+      "title": "Hoteles en Regio de Calabria: {count} alojamientos",
+      "metaDescription": "Compara {count} hoteles y B&B en Regio de Calabria, frente al estrecho de Mesina. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Descubre {count} alojamientos en Regio de Calabria, cerca del Lungomare Falcomatà y del puerto hacia Sicilia.",
+      "editorial": "Regio de Calabria ofrece {count} alojamientos entre el Lungomare Falcomatà, el centro y las zonas próximas al puerto y al aeropuerto. En HotelsDrop publicas una solicitud y los alojamientos calabreses responden con ofertas directas. La ciudad reúne los Bronces de Riace, vistas al estrecho y al Etna, y es punto de paso natural para quien cruza a Sicilia o baja hacia la Costa Viola.",
+      "faq": [
+        {
+          "question": "¿Dónde alojarse en Regio de Calabria?",
+          "answer": "La zona del Lungomare Falcomatà y el centro concentran hoteles con vistas al estrecho y acceso a pie al Museo Arqueológico. Cerca del puerto es más cómodo si vas a cruzar a Mesina."
+        },
+        {
+          "question": "¿Se puede cruzar a Sicilia desde la ciudad?",
+          "answer": "Sí. Hay ferris frecuentes hacia Mesina y Villa San Giovanni queda muy cerca. Indica tus horarios en la solicitud si necesitas salir temprano."
+        }
+      ]
+    },
+    "messina": {
+      "displayName": "Mesina",
+      "title": "Hoteles en Mesina: {count} alojamientos, ofertas directas",
+      "metaDescription": "Compara {count} hoteles y B&B en Mesina, puerta de entrada a Sicilia. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Encuentra {count} alojamientos en Mesina, entre el Duomo, la zona del puerto y las salidas hacia Taormina.",
+      "editorial": "Mesina reúne {count} alojamientos entre el Duomo con su campanario astronómico, el puerto y el litoral hacia Ganzirri. Publica tu solicitud en HotelsDrop y compara ofertas directas de los alojamientos mesineses. Es la puerta de entrada natural a Sicilia para quien llega en ferry, y una base práctica para Taormina, los montes Peloritanos y las playas de la costa jónica.",
+      "faq": [
+        {
+          "question": "¿Es Mesina una buena base para visitar Taormina?",
+          "answer": "Sí. Taormina está a unos 45 minutos en tren o coche, por lo que alojarse en Mesina suele resultar más económico en temporada alta."
+        },
+        {
+          "question": "¿Qué zona de Mesina es más cómoda si llego en ferry?",
+          "answer": "El entorno del puerto y del Duomo queda a pocos minutos de la terminal. Si viajas en coche, los alojamientos del litoral norte ofrecen aparcamiento con más facilidad."
+        }
+      ]
+    },
+    "catanzaro": {
+      "displayName": "Catanzaro",
+      "title": "Hoteles en Catanzaro: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Catanzaro, entre el centro y el golfo de Squillace. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Explora {count} alojamientos en Catanzaro, entre el centro histórico y la zona marina del golfo de Squillace.",
+      "editorial": "Catanzaro ofrece {count} alojamientos entre el centro en alto y Catanzaro Lido, junto al golfo de Squillace. Con una solicitud en HotelsDrop los alojamientos calabreses responden con ofertas directas para tus fechas. La ciudad combina playas jónicas, parques naturales de la Sila a poca distancia y estancias tranquilas fuera de los circuitos más masificados.",
+      "faq": [
+        {
+          "question": "¿Conviene alojarse en Catanzaro centro o en el Lido?",
+          "answer": "El centro es práctico para visitas y gestiones, mientras que Catanzaro Lido queda junto a la playa y suele preferirse en verano. Ambos están conectados en pocos minutos."
+        },
+        {
+          "question": "¿Qué se puede visitar desde Catanzaro?",
+          "answer": "Las playas del golfo de Squillace, el parque nacional de la Sila y pueblos del interior calabrés quedan a corta distancia en coche."
+        }
+      ]
+    },
+    "lecce": {
+      "displayName": "Lecce",
+      "title": "Hoteles en Lecce: {count} alojamientos, ofertas directas",
+      "metaDescription": "Compara {count} hoteles y B&B en Lecce, capital del barroco y puerta del Salento. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Descubre {count} alojamientos en Lecce, entre el centro barroco, la Piazza del Duomo y las salidas hacia las playas del Salento.",
+      "editorial": "Lecce reúne {count} alojamientos entre el centro barroco, la Basílica de Santa Cruz y las murallas, además de casas y masías en los alrededores. En HotelsDrop envías una solicitud y los alojamientos salentinos responden con ofertas directas, sin comisiones para quien viaja. Es la base habitual para recorrer Otranto, Gallipoli y las playas de las dos costas del Salento.",
+      "faq": [
+        {
+          "question": "¿Es Lecce una buena base para las playas del Salento?",
+          "answer": "Sí. Las playas del Adriático y del Jónico quedan a 30-45 minutos en coche, por lo que muchos viajeros duermen en la ciudad y se desplazan cada día."
+        },
+        {
+          "question": "¿Dónde alojarse en Lecce?",
+          "answer": "El centro histórico permite recorrer el barroco leccese a pie. Las zonas próximas a las murallas y a la estación ofrecen más facilidad de aparcamiento."
+        }
+      ]
+    },
+    "salerno": {
+      "displayName": "Salerno",
+      "title": "Hoteles en Salerno: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Salerno, puerta de la Costa Amalfitana. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Encuentra {count} alojamientos en Salerno, entre el Lungomare, el centro histórico y el puerto hacia Amalfi y Positano.",
+      "editorial": "Salerno ofrece {count} alojamientos entre el Lungomare Trieste, el centro histórico y la zona del puerto, desde donde salen los ferris hacia Amalfi y Positano. Publica una solicitud en HotelsDrop y recibe ofertas directas de los alojamientos salernitanos. La ciudad es la alternativa asequible para visitar la Costa Amalfitana, y una base cómoda también para Paestum y Pompeya.",
+      "faq": [
+        {
+          "question": "¿Se puede visitar la Costa Amalfitana desde Salerno?",
+          "answer": "Sí. Hay ferris y autobuses directos a Amalfi y Positano, y alojarse en Salerno suele costar bastante menos que en la costa."
+        },
+        {
+          "question": "¿Qué zona de Salerno elegir?",
+          "answer": "El Lungomare y el centro histórico dejan cerca el puerto y los restaurantes. Cerca de la estación es más práctico para trenes hacia Pompeya, Nápoles y Paestum."
+        }
+      ]
+    },
+    "sorrento": {
+      "displayName": "Sorrento",
+      "title": "Hoteles en Sorrento: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Sorrento, base para Capri, Pompeya y la Costa Amalfitana. Ofertas directas sin comisiones.",
+      "intro": "Explora {count} alojamientos en Sorrento, entre el centro, la zona del puerto de Marina Piccola y las colinas con vistas al golfo.",
+      "editorial": "Sorrento reúne {count} alojamientos entre el centro peatonal, Marina Grande y las colinas con vistas al Vesubio, muchos con terraza y piscina. Con una solicitud en HotelsDrop los alojamientos sorrentinos responden con ofertas directas para tus fechas. Es la base más cómoda para combinar Capri, Pompeya, el Vesubio y la Costa Amalfitana en un mismo viaje, con ferris y trenes de la Circumvesuviana a pocos minutos.",
+      "faq": [
+        {
+          "question": "¿Es Sorrento buena base para Capri y Pompeya?",
+          "answer": "Sí. Los ferris a Capri salen del puerto de Sorrento y la Circumvesuviana llega a Pompeya en unos 30 minutos, por lo que se pueden hacer ambas excursiones sin cambiar de hotel."
+        },
+        {
+          "question": "¿Los hoteles de Sorrento incluyen traslado desde Nápoles?",
+          "answer": "Varios ofrecen traslado privado desde el aeropuerto o la estación de Nápoles. Pídelo en la solicitud y lo verás detallado con precio en la oferta."
+        }
+      ]
+    },
+    "pisa": {
+      "displayName": "Pisa",
+      "title": "Hoteles en Pisa: {count} alojamientos, ofertas directas",
+      "metaDescription": "Compara {count} hoteles y B&B en Pisa, cerca de la Torre y del aeropuerto. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Descubre {count} alojamientos en Pisa, entre la Piazza dei Miracoli, el centro junto al Arno y la zona del aeropuerto.",
+      "editorial": "Pisa ofrece {count} alojamientos entre la Piazza dei Miracoli, el centro junto al Arno y las cercanías del aeropuerto de Galileo Galilei. En HotelsDrop publicas una solicitud y los alojamientos pisanos responden con ofertas directas, sin comisiones para quien viaja. Además de la Torre inclinada, la ciudad funciona como puerta de entrada económica a la Toscana, con trenes rápidos a Florencia y Lucca.",
+      "faq": [
+        {
+          "question": "¿Conviene alojarse en Pisa para visitar la Toscana?",
+          "answer": "Sí. Con su aeropuerto y trenes directos a Florencia, Lucca y la costa, Pisa suele ser una base económica para varios días en la región."
+        },
+        {
+          "question": "¿Hay hoteles cerca del aeropuerto de Pisa?",
+          "answer": "Sí, y están a pocos minutos del centro. Es una opción práctica para vuelos muy temprano; indícalo en la solicitud para que propongan desayuno anticipado o traslado."
+        }
+      ]
+    },
+    "siena": {
+      "displayName": "Siena",
+      "title": "Hoteles en Siena: {count} alojamientos, ofertas directas",
+      "metaDescription": "Compara {count} hoteles y B&B en Siena, cerca de Piazza del Campo y el Chianti. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Encuentra {count} alojamientos en Siena, entre Piazza del Campo, las contradas del centro y agroturismos de los alrededores.",
+      "editorial": "Siena cuenta con {count} alojamientos entre el centro medieval en torno a Piazza del Campo, las puertas de la muralla y los agroturismos del entorno. Envía una solicitud en HotelsDrop y recibe ofertas directas de los alojamientos sieneses. La ciudad es base ideal para el Chianti, Val d'Orcia y San Gimignano, y vive su momento más intenso durante el Palio de julio y agosto.",
+      "faq": [
+        {
+          "question": "¿Dónde alojarse en Siena?",
+          "answer": "Dentro de las murallas se disfruta del centro al atardecer, aunque el acceso en coche está restringido. Los alojamientos y agroturismos de los alrededores facilitan el aparcamiento y las excursiones por la Toscana."
+        },
+        {
+          "question": "¿Conviene reservar con antelación para el Palio?",
+          "answer": "Sí. En las fechas del Palio la disponibilidad se agota pronto, por lo que publicar la solicitud con semanas de margen mejora mucho las ofertas recibidas."
+        }
+      ]
+    },
+    "perugia": {
+      "displayName": "Perugia",
+      "title": "Hoteles en Perugia: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Perugia, centro de Umbría y cerca de Asís. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Explora {count} alojamientos en Perugia, entre el centro etrusco en alto, la zona universitaria y los alrededores hacia Asís.",
+      "editorial": "Perugia reúne {count} alojamientos entre el centro histórico en alto, Corso Vannucci y las zonas bajas mejor conectadas en coche. En HotelsDrop una solicitud llega a los alojamientos umbros, que responden con ofertas directas para tus fechas. La ciudad es base natural para Asís, Lago Trasimeno y Gubbio, y concentra eventos como Umbria Jazz y Eurochocolate.",
+      "faq": [
+        {
+          "question": "¿Es Perugia buena base para visitar Umbría?",
+          "answer": "Sí. Asís está a media hora y el Lago Trasimeno y Gubbio quedan cerca, por lo que muchos viajeros usan Perugia como punto fijo para varios días."
+        },
+        {
+          "question": "¿Cómo funciona el aparcamiento en Perugia?",
+          "answer": "El centro está en alto y con accesos restringidos, pero hay aparcamientos con escaleras mecánicas y minimetro. Indica si llegas en coche y los alojamientos te propondrán la mejor solución."
+        }
+      ]
+    },
+    "rimini": {
+      "displayName": "Rímini",
+      "title": "Hoteles en Rímini: {count} alojamientos, ofertas directas",
+      "metaDescription": "Compara {count} hoteles y B&B en Rímini, playa, familias y ferias. Publica una solicitud gratuita y recibe ofertas directas sin comisiones.",
+      "intro": "Descubre {count} alojamientos en Rímini, entre Marina Centro, la playa por zonas numeradas y el centro histórico.",
+      "editorial": "Rímini y la Riviera romañola ofrecen {count} alojamientos entre Marina Centro, las zonas de playa numeradas y el centro histórico con el Puente de Tiberio. HotelsDrop conecta tu solicitud con hoteles y residencias de la zona, que responden con ofertas directas. Es un destino cómodo para familias por sus playas equipadas y pensión completa, y también para ferias y congresos en el recinto de Rímini Fiera.",
+      "faq": [
+        {
+          "question": "¿Qué zona de Rímini es mejor para ir con niños?",
+          "answer": "Marina Centro y las zonas de playa con establecimientos equipados suelen ser las más prácticas, con hoteles que ofrecen media pensión o pensión completa y servicios para familias."
+        },
+        {
+          "question": "¿Se puede pedir pensión completa en Rímini?",
+          "answer": "Sí. Indica el régimen que buscas en la solicitud y los hoteles responderán con el precio final por persona y noche, incluyendo playa cuando esté disponible."
+        }
+      ]
+    },
+    "trieste": {
+      "displayName": "Trieste",
+      "title": "Hoteles en Trieste: {count} alojamientos, ofertas directas",
+      "metaDescription": "Compara {count} hoteles y B&B en Trieste, entre Piazza Unità y Miramar. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Encuentra {count} alojamientos en Trieste, cerca de Piazza Unità d'Italia, el puerto viejo y la costa hacia Miramar.",
+      "editorial": "Trieste ofrece {count} alojamientos entre Piazza Unità d'Italia, el Borgo Teresiano y la costa hacia el castillo de Miramar. Publica una solicitud en HotelsDrop y recibe ofertas directas de los alojamientos triestinos, sin comisiones para quien viaja. La ciudad combina cafés históricos, herencia centroeuropea y acceso rápido a Eslovenia y el Carso, buena elección para escapadas de fin de semana.",
+      "faq": [
+        {
+          "question": "¿Dónde alojarse en Trieste?",
+          "answer": "El entorno de Piazza Unità d'Italia y el Borgo Teresiano deja el paseo marítimo y los cafés históricos a pie. La costa hacia Barcola y Miramar es más tranquila y con vistas al golfo."
+        },
+        {
+          "question": "¿Se puede visitar Eslovenia desde Trieste?",
+          "answer": "Sí. Las cuevas de Postojna, Liubliana y la costa eslovena quedan a menos de dos horas en coche, por lo que Trieste funciona como base transfronteriza."
+        }
+      ]
+    },
+    "bolzano": {
+      "displayName": "Bolzano",
+      "title": "Hoteles en Bolzano: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Bolzano, puerta de los Dolomitas. Publica una solicitud gratuita y recibe ofertas directas sin comisiones.",
+      "intro": "Explora {count} alojamientos en Bolzano, entre el centro con sus pórticos, la zona de los teleféricos y los valles hacia los Dolomitas.",
+      "editorial": "Bolzano reúne {count} alojamientos entre los pórticos del centro, Gries y las salidas hacia los valles dolomíticos. Con una solicitud en HotelsDrop los alojamientos altoatesinos responden con ofertas directas para tus fechas. La ciudad es puerta de entrada a los Dolomitas para senderismo y esquí, sede del Museo Arqueológico con la momia Ötzi y destino muy solicitado durante los mercados de Navidad.",
+      "faq": [
+        {
+          "question": "¿Es Bolzano buena base para los Dolomitas?",
+          "answer": "Sí. Desde la ciudad se accede en poco tiempo al Alpe di Siusi, Val Gardena y Renon, con teleféricos que parten del propio centro."
+        },
+        {
+          "question": "¿Conviene reservar con antelación para los mercados de Navidad?",
+          "answer": "Sí. Entre finales de noviembre y diciembre la demanda es muy alta, por lo que publicar la solicitud con antelación mejora bastante las ofertas."
+        }
+      ]
+    },
+    "cagliari": {
+      "displayName": "Cagliari",
+      "title": "Hoteles en Cagliari: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Cagliari, del barrio Castello a la playa del Poetto. Ofertas directas, sin comisiones para viajeros.",
+      "intro": "Descubre {count} alojamientos en Cagliari, entre el barrio de Castello, la Marina y la playa del Poetto.",
+      "editorial": "Cagliari ofrece {count} alojamientos entre el barrio histórico de Castello, la Marina junto al puerto y la larga playa del Poetto. En HotelsDrop publicas una solicitud y los alojamientos sardos responden con ofertas directas para tus fechas. La ciudad combina playa urbana, centro histórico y aeropuerto muy cercano, y es base práctica para las calas del sur de Sardinia y Villasimius.",
+      "faq": [
+        {
+          "question": "¿Conviene alojarse en el centro de Cagliari o en el Poetto?",
+          "answer": "El centro, entre Castello y la Marina, es mejor para visitar la ciudad y salir a cenar. El Poetto conviene si buscas playa cada día, y está conectado con autobuses frecuentes."
+        },
+        {
+          "question": "¿Sirve Cagliari como base para las playas del sur?",
+          "answer": "Sí. Chia, Villasimius y las calas del sureste quedan a una hora en coche, por lo que muchos viajeros duermen en la ciudad y alquilan vehículo."
+        }
+      ]
+    },
+    "taormina": {
+      "displayName": "Taormina",
+      "title": "Hoteles en Taormina: {count} alojamientos directos",
+      "metaDescription": "Compara {count} hoteles y B&B en Taormina, entre el Teatro Antico y Isola Bella. Solicitud gratuita y ofertas directas, sin comisiones.",
+      "intro": "Encuentra {count} alojamientos en Taormina, entre el centro junto al Teatro Antico, Isola Bella y la playa de Mazzarò.",
+      "editorial": "Taormina reúne {count} alojamientos entre el centro peatonal junto al Teatro Antico, las terrazas con vistas al Etna y la zona costera de Mazzarò e Isola Bella. Con una solicitud en HotelsDrop los alojamientos taorminenses responden con ofertas directas, sin comisiones para quien viaja. Es un destino de temporada alta larga, con conciertos en el teatro griego y excursiones al Etna y a las gargantas de Alcántara.",
+      "faq": [
+        {
+          "question": "¿Conviene alojarse en el centro de Taormina o junto al mar?",
+          "answer": "El centro deja el Teatro Antico y las tiendas a pie, con las mejores vistas. Mazzarò e Isola Bella son preferibles si buscas playa, y el teleférico conecta ambas zonas en pocos minutos."
+        },
+        {
+          "question": "¿Se puede visitar el Etna desde Taormina?",
+          "answer": "Sí. Hay excursiones diarias al volcán y a las gargantas de Alcántara; indícalo en la solicitud y algunos alojamientos propondrán la actividad junto a la estancia."
+        }
+      ]
+    }
+  }
 }

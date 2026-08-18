@@ -123,7 +123,7 @@ const REGISTRY: Record<HubSeoLocale, HubLocaleConfig> = {
     hreflang: "es",
     ogLocale: "es_ES",
     languageTags: ["es"],
-    hubsEnabled: false,
+    hubsEnabled: true,
     content: esContent as HubLocaleContent,
     labels: {
       destinationEyebrow: "Destino",
