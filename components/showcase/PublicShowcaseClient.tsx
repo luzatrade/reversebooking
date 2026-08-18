@@ -38,6 +38,7 @@ import type { CatalogOfferListItem } from "@/types/catalog-offers";
 import type { ShowcaseHomeInitialData, ShowcaseHomeHotel } from "@/lib/showcase/homeData";
 import { structureProfileHref } from "@/lib/showcase/structureExploreLinks";
 import { buildDestinationSlug } from "@/lib/seo/city-canonical";
+import { mergeHubHomepageTranslations } from "@/lib/seo/hub-homepage-ui";
 import { getStructureCardSecondaryLine } from "@/lib/seo/structure-card-hint";
 
 function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date()) {
@@ -214,7 +215,8 @@ type PublicShowcaseClientProps = {
 };
 
 export function PublicShowcaseClient({ initialData = null, heroHeadings }: PublicShowcaseClientProps) {
-  const { locale, t } = useLanguage();
+  const { locale, t: baseT } = useLanguage();
+  const t = useMemo(() => mergeHubHomepageTranslations(baseT, locale), [baseT, locale]);
   const structureTypeLabels = getStructureTypeLabels(locale);
   const router = useRouter();
   const searchParams = useSearchParams();

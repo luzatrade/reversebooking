@@ -11,6 +11,7 @@ const OUT = path.join(OUT_DIR, "content.json");
 
 function main() {
   const src = JSON.parse(fs.readFileSync(SRC, "utf8"));
+  const existing = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, "utf8")) : null;
   const hubs = {};
 
   for (const [slug, hub] of Object.entries(src.destinationHubs ?? {})) {
@@ -45,6 +46,8 @@ function main() {
       metaDescription: src.homepage?.metaDescription_de || "",
       heroHeadline: src.homepage?.heroHeadline_de || "",
       heroSubheadline: src.homepage?.heroSubheadline_de || "",
+      heroEntityIntro: existing?.homepage?.heroEntityIntro || "",
+      ui: existing?.homepage?.ui,
       faq: (src.homepage?.faq ?? []).map((item) => ({
         question: item.question_de || "",
         answer: item.answer_de || "",

@@ -1,8 +1,10 @@
 "use client";
 
 import { createContext, ReactNode, useContext, useEffect, useMemo, useState } from "react";
-import { LOCALE_COOKIE } from "@/lib/i18n/cookie";
+import { usePathname } from "next/navigation";
+import { persistLocaleClient } from "@/lib/i18n/cookie";
 import { getTranslations, type Translations } from "@/lib/i18n/messages";
+import { parseLocalePath } from "@/lib/i18n/routing";
 import { Locale } from "@/lib/i18n/translations";
 
 type TranslationValue = Translations;
@@ -22,29 +24,24 @@ export function LanguageProvider({
   children: ReactNode;
   initialLocale?: Locale;
 }) {
-  // Parte dal valore deciso lato server (cookie): server e client renderizzano
-  // lo stesso locale al primo paint, quindi nessun mismatch di hydration.
-  const [locale, setLocaleState] = useState<Locale>(initialLocale);
+  const pathname = usePathname();
+  const pathLocale = parseLocalePath(pathname)?.locale;
+  const resolvedLocale = pathLocale ?? initialLocale;
+
+  const [locale, setLocaleState] = useState<Locale>(resolvedLocale);
 
   const setLocale = (nextLocale: Locale) => {
     setLocaleState(nextLocale);
-    window.localStorage.setItem(LOCALE_COOKIE, nextLocale);
-    document.cookie = `${LOCALE_COOKIE}=${nextLocale}; path=/; max-age=31536000; SameSite=Lax`;
+    persistLocaleClient(nextLocale);
     document.documentElement.lang = nextLocale;
   };
 
-  // URL + cookie (middleware) are the source of truth for SSR copy. Keep client
-  // state and localStorage aligned so a stale preference cannot desync the UI.
+  // URL prefix + middleware header are the source of truth for SSR copy.
   useEffect(() => {
-    setLocaleState(initialLocale);
-    window.localStorage.setItem(LOCALE_COOKIE, initialLocale);
-    document.cookie = `${LOCALE_COOKIE}=${initialLocale}; path=/; max-age=31536000; SameSite=Lax`;
-    document.documentElement.lang = initialLocale;
-  }, [initialLocale]);
-
-  useEffect(() => {
-    document.documentElement.lang = locale;
-  }, [locale]);
+    setLocaleState(resolvedLocale);
+    persistLocaleClient(resolvedLocale);
+    document.documentElement.lang = resolvedLocale;
+  }, [resolvedLocale]);
 
   const value = useMemo<LanguageContextValue>(
     () => ({

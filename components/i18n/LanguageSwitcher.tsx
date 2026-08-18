@@ -1,7 +1,8 @@
 "use client";
 
 import { Globe2 } from "lucide-react";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
+import { persistLocaleClient } from "@/lib/i18n/cookie";
 import { localeLabels, supportedLocales, type Locale } from "@/lib/i18n/translations";
 import { switchLocalePath } from "@/lib/i18n/routing";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
@@ -18,14 +19,15 @@ type LanguageSwitcherProps = {
 };
 
 export function LanguageSwitcher({ compact = false }: LanguageSwitcherProps) {
-  const { locale, setLocale, t } = useLanguage();
+  const { locale, t } = useLanguage();
   const pathname = usePathname();
-  const router = useRouter();
 
   const onChange = (nextLocale: Locale) => {
-    setLocale(nextLocale);
     const target = switchLocalePath(pathname, nextLocale);
-    if (target !== pathname) router.push(target);
+    if (target === pathname) return;
+    // Full navigation so middleware rewrites + server hero/metadata refresh (DE/ZH SEO copy).
+    persistLocaleClient(nextLocale);
+    window.location.assign(target);
   };
 
   const options = supportedLocales.map((item) => (

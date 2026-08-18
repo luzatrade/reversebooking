@@ -39,6 +39,30 @@
     "metaDescription": "Reverse Booking für Hotels: Eine Unterkunftsanfrage stellen und Direktangebote erhalten. Kostenlos für Reisende, Gruppen und Agenturen.",
     "heroHeadline": "Unterkunftsanfrage stellen — Direktangebote von Hotels erhalten",
     "heroSubheadline": "Kostenlos für Reisende. Ohne Buchungsprovision.",
+    "heroEntityIntro": "Auf HotelsDrop konkurrieren Hotels um Sie: eine Anfrage, personalisierte Angebote, null Provision für Reisende.",
+    "ui": {
+      "showcase": {
+        "dropYourRequest": "Anfrage stellen",
+        "discoverWhereToStayCta": "Unterkünfte in {city} entdecken",
+        "lastMinuteCta": "Last Minute",
+        "exploreMapCta": "Auf der Karte erkunden",
+        "citySearchPlaceholder": "Stadt oder Unterkunft im Katalog",
+        "selectCity": "Stadt auswählen",
+        "clearSelectedCity": "Ausgewählte Stadt löschen",
+        "dropYourRequestHintCta": "So funktioniert HotelsDrop",
+        "cardProfile": "Profil",
+        "cardRequest": "Anfrage senden",
+        "cardMap": "Karte"
+      },
+      "common": {
+        "login": "Anmelden"
+      },
+      "site": {
+        "contacts": "Kontakt",
+        "becomePartner": "Partner werden",
+        "registration": "Registrieren"
+      }
+    },
     "faq": [
       {
         "question": "Was ist Reverse Booking?",

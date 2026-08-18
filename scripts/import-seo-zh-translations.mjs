@@ -14,6 +14,7 @@ const MODENA_POI_ZH =
 
 function main() {
   const src = JSON.parse(fs.readFileSync(SRC, "utf8"));
+  const existing = fs.existsSync(OUT) ? JSON.parse(fs.readFileSync(OUT, "utf8")) : null;
   const hubs = {};
 
   for (const [slug, hub] of Object.entries(src.destinationHubs ?? {})) {
@@ -41,6 +42,8 @@ function main() {
       metaDescription: src.homepage?.metaDescription_zh || "",
       heroHeadline: src.homepage?.heroHeadline_zh || "",
       heroSubheadline: src.homepage?.heroSubheadline_zh || "",
+      heroEntityIntro: existing?.homepage?.heroEntityIntro || "",
+      ui: existing?.homepage?.ui,
       faq: (src.homepage?.faq ?? []).map((item) => ({
         question: item.question_zh || "",
         answer: item.answer_zh || "",

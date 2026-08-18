@@ -1,5 +1,6 @@
 import content from "@/data/seo/export/de/content.json";
 import type { FaqItem } from "@/lib/i18n/seo-marketing";
+import type { HubHomepageUi } from "@/lib/seo/hub-homepage-ui";
 import type { Locale } from "@/lib/i18n/translations";
 
 export type DeHubContent = {
@@ -19,7 +20,9 @@ type DeExportContent = {
     metaDescription: string;
     heroHeadline: string;
     heroSubheadline: string;
+    heroEntityIntro?: string;
     faq: FaqItem[];
+    ui?: HubHomepageUi;
   };
   cityDisplayNames: Record<string, string>;
   hubs: Record<string, DeHubContent>;

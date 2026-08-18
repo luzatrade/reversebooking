@@ -12,6 +12,7 @@ export function buildHomepageSeoCopy(locale: Locale, t: Translations) {
       description: trimSeoDescription(de.metaDescription || t.metadata.siteDescription),
       heroHeadline: de.heroHeadline || t.showcase.homeHeadline,
       heroSubheadline: de.heroSubheadline || t.showcase.homeSubtitle,
+      heroEntityIntro: de.heroEntityIntro || t.showcase.homeEntityIntro,
     };
   }
 
@@ -22,6 +23,7 @@ export function buildHomepageSeoCopy(locale: Locale, t: Translations) {
       description: trimSeoDescription(zh.metaDescription || t.metadata.siteDescription),
       heroHeadline: zh.heroHeadline || t.showcase.homeHeadline,
       heroSubheadline: zh.heroSubheadline || t.showcase.homeSubtitle,
+      heroEntityIntro: zh.heroEntityIntro || t.showcase.homeEntityIntro,
     };
   }
 
@@ -30,5 +32,6 @@ export function buildHomepageSeoCopy(locale: Locale, t: Translations) {
     description: trimSeoDescription(t.metadata.siteDescription),
     heroHeadline: t.showcase.homeHeadline,
     heroSubheadline: t.showcase.homeSubtitle,
+    heroEntityIntro: t.showcase.homeEntityIntro,
   };
 }

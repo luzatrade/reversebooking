@@ -39,6 +39,30 @@
     "metaDescription": "酒店反向预订：发布一个住宿需求，房源直接回复报价。旅客、团体和旅行社完全免费，房源采用订阅制。",
     "heroHeadline": "发布住宿需求，获取酒店直接报价",
     "heroSubheadline": "旅客免费使用，无预订佣金。",
+    "heroEntityIntro": "在 HotelsDrop，酒店为您竞争：一次需求，个性化报价，旅客零佣金。",
+    "ui": {
+      "showcase": {
+        "dropYourRequest": "发布住宿需求",
+        "discoverWhereToStayCta": "探索{city}住宿",
+        "lastMinuteCta": "最后时刻优惠",
+        "exploreMapCta": "地图探索",
+        "citySearchPlaceholder": "城市或目录中的酒店",
+        "selectCity": "选择城市",
+        "clearSelectedCity": "清除所选城市",
+        "dropYourRequestHintCta": "了解 HotelsDrop 如何运作",
+        "cardProfile": "详情",
+        "cardRequest": "发送需求",
+        "cardMap": "地图"
+      },
+      "common": {
+        "login": "登录"
+      },
+      "site": {
+        "contacts": "联系我们",
+        "becomePartner": "成为合作伙伴",
+        "registration": "注册"
+      }
+    },
     "faq": [
       {
         "question": "什么是反向预订？",
