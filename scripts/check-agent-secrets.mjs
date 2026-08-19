@@ -22,7 +22,7 @@ const RECOMMENDED = [
   {
     key: "GOOGLE_PLACES_API_KEY",
     why: "Import onboarding completi (foto Google, telefono, sito, mappa)",
-    alt: ["GOOGLE_PLACES_API_KEY_TEMP"],
+    alt: ["GOOGLE_PLACES_API_KEY_TEMP", "google"],
   },
   {
     key: "GEMINI_API_KEY",
