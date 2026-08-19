@@ -439,7 +439,7 @@ export function CreateOfferForm() {
         <div className={`space-y-5 ${acceptedOfferTheme.panel}`}>
           <div className="print-hide flex flex-wrap items-center gap-3">
             <PrintSummaryButton />
-            <DownloadVoucherButton data={acceptedSummary} />
+            <DownloadVoucherButton offerId={acceptedOffer.id} requestCode={acceptedSummary.requestCode} />
             <span className={acceptedOfferTheme.badgeLg}>
               🤝 Offerta {offerCode(acceptedOffer)} accettata · chat in basso a destra
             </span>

@@ -328,38 +328,9 @@ export function CatalogOfferDetailClient({ offerCode }: { offerCode: string }) {
               </p>
               <div className="mt-3">
                 <DownloadVoucherButton
-                  data={{
-                    audience: "advertiser",
-                    requestCode: offer.offer_code,
-                    offerCode: acceptanceCode,
-                    cityName: destinations || offer.provider.city_name,
-                    preferredArea: destinations || "—",
-                    checkIn: offer.check_in ?? "—",
-                    checkOut: offer.check_out ?? "—",
-                    guestsCount: 1,
-                    roomsCount: offer.hotel_details_full?.rooms.length ?? 1,
-                    roomDetails: offer.hotel_details_full?.rooms ?? null,
-                    mealPlanRequest: offer.hotel_details_full?.board_basis ?? "room_only",
-                    mealPlanOffer: offer.hotel_details_full?.board_basis ?? "room_only",
-                    budgetPerRoom: snapshot.total_price,
-                    totalPrice: snapshot.total_price,
-                    hotelName: offer.provider.property_name,
-                    hotelStructureType: offer.hotel_details_full?.accommodation_type ?? null,
-                    hotelCity: offer.provider.city_name,
-                    hotelArea: null,
-                    hotelCin: null,
-                    description: locale === "en" ? offer.title_en : offer.title_it,
-                    conditions: offer.hotel_details_full
-                      ? locale === "en"
-                        ? offer.hotel_details_full.cancellation_policy_en
-                        : offer.hotel_details_full.cancellation_policy_it
-                      : locale === "en"
-                        ? offer.agency_details_full?.cancellation_terms_en ?? null
-                        : offer.agency_details_full?.cancellation_terms_it ?? null,
-                    notes: null,
-                    preferenceFilters: null,
-                    acceptedAt: new Date().toISOString(),
-                  }}
+                  kind="catalog"
+                  catalogOfferId={offer.id}
+                  requestCode={offer.offer_code}
                 />
               </div>
             </div>

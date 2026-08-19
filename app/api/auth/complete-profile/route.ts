@@ -77,6 +77,10 @@ export async function POST(request: Request) {
       .maybeSingle(),
   ]);
 
+  if (existingProfile?.role === "admin") {
+    return NextResponse.json({ ok: true, alreadyComplete: true, role: "admin" });
+  }
+
   const role = resolveRegistrationRole({
     meta,
     existingProfileRole: existingProfile?.role,

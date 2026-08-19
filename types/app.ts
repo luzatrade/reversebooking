@@ -1,5 +1,8 @@
 export type UserRole = "advertiser" | "hotel" | "agency" | "admin";
 
+/** Ruoli assegnabili via registrazione / complete-profile (esclude admin). */
+export type AssignableRole = Exclude<UserRole, "admin">;
+
 /** Discrimina i fornitori in `hotel_accounts`: strutture ricettive vs agenzie viaggi. */
 export type ProviderKind = "structure" | "agency";
 

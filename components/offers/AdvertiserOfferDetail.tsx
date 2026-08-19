@@ -178,7 +178,7 @@ export function AdvertiserOfferDetail() {
         <div className="space-y-5">
           <div className="print-hide flex flex-wrap items-center gap-3">
             <PrintSummaryButton />
-            <DownloadVoucherButton data={summaryData} />
+            <DownloadVoucherButton offerId={offer.id} requestCode={summaryData.requestCode} />
             <button
               type="button"
               onClick={handleChatWithStructure}
