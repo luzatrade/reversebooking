@@ -1,7 +1,18 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { onboardingCitySearchNames, supabaseCityNameOrFilter } from "@/lib/onboarding/city-match";
 import { escapeHtml, sendEmailNotification } from "@/lib/notifications/email";
-import { appUrl } from "@/lib/utils/env";
+import {
+  COMPANY_EMAIL,
+  buttonHtml,
+  fineprintHtml,
+  footerImageHtml,
+  highlightHtml,
+  noteHtml,
+  requestCodeLabel,
+  requestSummaryHtml,
+  signatureHtml,
+  siteUrl,
+} from "@/lib/notifications/email-layout";
 
 export type TravelRequestNotifyPayload = {
   id: string;
@@ -23,26 +34,40 @@ export type OnboardingNotifyRow = {
   city_name: string;
 };
 
-function requestCode(value: string | null | undefined) {
-  return value || "RB------";
-}
+const requestCode = requestCodeLabel;
 
 function registerUrl(onboardingId: string) {
-  return `${appUrl()}/registrazione?mode=partner&onboarding=${encodeURIComponent(onboardingId)}`;
+  return `${siteUrl()}/registrazione?mode=partner&onboarding=${encodeURIComponent(onboardingId)}`;
 }
 
-function subscriptionNoteHtml() {
-  return `<p style="margin-top:16px;padding:12px 14px;background:#fff7ed;border-radius:12px;color:#9a3412;font-size:14px;line-height:1.5"><strong>Per rispondere al viaggiatore</strong> serve un abbonamento HotelsDrop attivo. L’email è solo informativa: senza abbonamento non puoi inviare offerte né interagire sulla piattaforma.</p>`;
+/** Pagina della richiesta lato partner: passa dal login e poi vi atterra. */
+function requestUrl(requestId: string) {
+  return `${siteUrl()}/struttura/annunci/${encodeURIComponent(requestId)}`;
 }
 
-function ctaHtml(onboardingId: string) {
-  const href = registerUrl(onboardingId);
-  return `<p style="margin-top:20px"><a href="${href}" style="display:inline-block;background:#0f4c81;color:#fff;text-decoration:none;font-weight:600;padding:12px 20px;border-radius:9999px">Attiva abbonamento e rispondi</a></p><p style="margin-top:8px;font-size:12px;color:#71717a">Se non hai ancora un account partner, la registrazione partirà dal profilo della tua struttura.</p>`;
+/** Disiscrizione via email: nessuna infrastruttura, gestita dal team. */
+export function unsubscribeMailto(onboardingId: string) {
+  const subject = encodeURIComponent("Cancellami dalle segnalazioni HotelsDrop");
+  const body = encodeURIComponent(
+    `Non desidero più ricevere segnalazioni di nuove richieste.\n\nRiferimento struttura: ${onboardingId}`,
+  );
+  return `mailto:${COMPANY_EMAIL}?subject=${subject}&body=${body}`;
 }
 
-function requestSummaryHtml(travelRequest: TravelRequestNotifyPayload) {
-  const code = requestCode(travelRequest.request_code);
-  return `<p><strong>Codice richiesta:</strong> ${escapeHtml(code)}</p><p><strong>Città:</strong> ${escapeHtml(travelRequest.city_name)}</p><p><strong>Zona:</strong> ${escapeHtml(travelRequest.preferred_area ?? "Non specificata")}</p><p><strong>Date:</strong> ${escapeHtml(travelRequest.check_in)} → ${escapeHtml(travelRequest.check_out)}</p><p><strong>Ospiti:</strong> ${travelRequest.guests_count} · <strong>Camere:</strong> ${travelRequest.rooms_count}</p>`;
+function freeLaunchHtml() {
+  return `<p style="margin-top:20px;padding:14px 16px;background:#ecfdf5;border-radius:12px;color:#065f46;font-size:14px;line-height:1.6"><strong>In fase di lancio: gratis per tutti.</strong> HotelsDrop è totalmente gratuito sia per le strutture che per i viaggiatori. Nessun abbonamento, nessuna carta di credito, nessuna commissione: il viaggiatore prenota direttamente da te.</p>`;
+}
+
+function ctaHtml(onboardingId: string, requestId: string, label: string) {
+  return `${buttonHtml(registerUrl(onboardingId), label)}${noteHtml(
+    `Il profilo della tua struttura è già nel nostro catalogo: ti bastano pochi minuti per completarlo e rispondere.<br />Hai già un account partner? <a href="${requestUrl(requestId)}" style="color:#0f4c81;font-weight:600">Vai alla richiesta</a>`,
+  )}`;
+}
+
+function footerHtml(onboardingId: string) {
+  return `${footerImageHtml()}${fineprintHtml(
+    `Ricevi questa email perché la tua struttura è presente nel catalogo HotelsDrop. Se non vuoi più ricevere segnalazioni di nuove richieste, <a href="${unsubscribeMailto(onboardingId)}" style="color:#71717a">cancellati qui</a>.`,
+  )}`;
 }
 
 export function buildOnboardingCityRequestHtml(
@@ -50,7 +75,7 @@ export function buildOnboardingCityRequestHtml(
   onboardingId: string,
   hotelName: string,
 ) {
-  return `<p>Ciao ${escapeHtml(hotelName)},</p><p>È stata pubblicata una <strong>nuova richiesta di soggiorno</strong> nella tua zona su HotelsDrop.</p>${requestSummaryHtml(travelRequest)}${subscriptionNoteHtml()}${ctaHtml(onboardingId)}`;
+  return `<p>Ciao ${escapeHtml(hotelName)},</p><p>è stata pubblicata una <strong>nuova richiesta di soggiorno</strong> su hotelsdrop.com nella tua zona. Ecco i dettagli:</p>${requestSummaryHtml(travelRequest)}${highlightHtml("Non perdere l’occasione di accogliere questi ospiti.")}${freeLaunchHtml()}${ctaHtml(onboardingId, travelRequest.id, "Registrati e invia la tua offerta")}${signatureHtml()}${footerHtml(onboardingId)}`;
 }
 
 export function buildOnboardingDirectRequestHtml(
@@ -58,7 +83,7 @@ export function buildOnboardingDirectRequestHtml(
   onboardingId: string,
   hotelName: string,
 ) {
-  return `<p>Ciao ${escapeHtml(hotelName)},</p><p>Un viaggiatore ha inviato una <strong>richiesta diretta</strong> alla tua struttura <strong>${escapeHtml(hotelName)}</strong> su HotelsDrop.</p>${requestSummaryHtml(travelRequest)}${subscriptionNoteHtml()}${ctaHtml(onboardingId)}`;
+  return `<p>Ciao ${escapeHtml(hotelName)},</p><p>un viaggiatore ha inviato una <strong>richiesta diretta</strong> alla tua struttura su hotelsdrop.com: non è una segnalazione generica sulla città, ha scelto proprio <strong>${escapeHtml(hotelName)}</strong>. Ecco i dettagli:</p>${requestSummaryHtml(travelRequest)}${highlightHtml("Non perdere l’occasione di accogliere questi ospiti.")}${freeLaunchHtml()}${ctaHtml(onboardingId, travelRequest.id, "Rispondi a questa richiesta")}${signatureHtml()}${footerHtml(onboardingId)}`;
 }
 
 async function activeSubscribedOnboardingIds(admin: SupabaseClient): Promise<Set<string>> {
@@ -147,24 +172,30 @@ export async function fetchOnboardingHotelById(
 export async function notifyOnboardingHotelsByEmail(
   admin: SupabaseClient,
   travelRequest: TravelRequestNotifyPayload,
-  options?: { directOnboardingId?: string | null },
-): Promise<{ emailed: number; directOnboardingId: string | null }> {
+  options?: { directOnboardingId?: string | null; dryRun?: boolean },
+): Promise<{ emailed: number; directOnboardingId: string | null; recipients: string[] }> {
+  const dryRun = options?.dryRun === true;
   const emailJobs: Array<Promise<unknown>> = [];
   const emailedIds = new Set<string>();
+  const recipients: string[] = [];
   let directOnboarding: OnboardingNotifyRow | null = null;
 
   if (options?.directOnboardingId) {
     directOnboarding = await fetchOnboardingHotelById(admin, options.directOnboardingId);
     if (directOnboarding) {
       emailedIds.add(directOnboarding.id);
+      recipients.push(directOnboarding.email);
       const code = requestCode(travelRequest.request_code);
-      emailJobs.push(
-        sendEmailNotification({
-          to: directOnboarding.email,
-          subject: `Richiesta diretta ${code} · ${directOnboarding.nome} — attiva l’abbonamento per rispondere`,
-          html: buildOnboardingDirectRequestHtml(travelRequest, directOnboarding.id, directOnboarding.nome),
-        }),
-      );
+      if (!dryRun) {
+        emailJobs.push(
+          sendEmailNotification({
+            to: directOnboarding.email,
+            subject: `Richiesta diretta ${code} — ${travelRequest.city_name}`,
+            html: buildOnboardingDirectRequestHtml(travelRequest, directOnboarding.id, directOnboarding.nome),
+            headers: { "List-Unsubscribe": `<${unsubscribeMailto(directOnboarding.id)}>` },
+          }),
+        );
+      }
     }
   }
 
@@ -172,12 +203,16 @@ export async function notifyOnboardingHotelsByEmail(
   for (const row of cityRows) {
     if (emailedIds.has(row.id)) continue;
     emailedIds.add(row.id);
+    recipients.push(row.email);
+    if (dryRun) continue;
+
     const code = requestCode(travelRequest.request_code);
     emailJobs.push(
       sendEmailNotification({
         to: row.email,
-        subject: `Nuova richiesta ${code} a ${travelRequest.city_name} — attiva l’abbonamento per rispondere`,
+        subject: `Nuova richiesta soggiorno ${code} — ${travelRequest.city_name}`,
         html: buildOnboardingCityRequestHtml(travelRequest, row.id, row.nome),
+        headers: { "List-Unsubscribe": `<${unsubscribeMailto(row.id)}>` },
       }),
     );
   }
@@ -186,5 +221,9 @@ export async function notifyOnboardingHotelsByEmail(
     await Promise.all(emailJobs);
   }
 
-  return { emailed: emailedIds.size, directOnboardingId: directOnboarding?.id ?? null };
+  return {
+    emailed: emailedIds.size,
+    directOnboardingId: directOnboarding?.id ?? null,
+    recipients,
+  };
 }

@@ -1,5 +1,16 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { escapeHtml, sendEmailNotification } from "@/lib/notifications/email";
+import {
+  buttonHtml,
+  fineprintHtml,
+  footerImageHtml,
+  highlightHtml,
+  noteHtml,
+  requestSummaryHtml,
+  signatureHtml,
+  siteUrl,
+  type RequestSummaryPayload,
+} from "@/lib/notifications/email-layout";
 import { notifyAdminAlertSafe } from "@/lib/notifications/admin-alert";
 import {
   fetchOnboardingHotelById,
@@ -21,34 +32,45 @@ function code(value: string | null | undefined) {
   return value || "RB------";
 }
 
-function buildCityRequestHtml(travelRequest: {
-  request_code: string | null;
-  city_name: string;
-  preferred_area: string | null;
-  check_in: string;
-  check_out: string;
-  guests_count: number;
-  rooms_count: number;
-}) {
-  const requestCode = code(travelRequest.request_code);
-  return `<p>È stata pubblicata una nuova richiesta nella tua zona.</p><p><strong>Codice richiesta:</strong> ${escapeHtml(requestCode)}</p><p><strong>Città:</strong> ${escapeHtml(travelRequest.city_name)}</p><p><strong>Zona:</strong> ${escapeHtml(travelRequest.preferred_area ?? "Non specificata")}</p><p><strong>Date:</strong> ${escapeHtml(travelRequest.check_in)} → ${escapeHtml(travelRequest.check_out)}</p><p><strong>Ospiti:</strong> ${travelRequest.guests_count} · <strong>Camere:</strong> ${travelRequest.rooms_count}</p>`;
+type PartnerRequestPayload = RequestSummaryPayload & { id: string };
+
+/** Pagina della richiesta lato struttura: il partner è già registrato. */
+function partnerRequestUrl(requestId: string) {
+  return `${siteUrl()}/struttura/annunci/${encodeURIComponent(requestId)}`;
 }
 
-function buildDirectRequestHtml(
-  travelRequest: {
-    request_code: string | null;
-    city_name: string;
-    preferred_area: string | null;
-    check_in: string;
-    check_out: string;
-    guests_count: number;
-    rooms_count: number;
-  },
-  hotelName: string,
-) {
-  const requestCode = code(travelRequest.request_code);
-  return `<p>Un viaggiatore ha inviato una <strong>richiesta diretta</strong> alla tua struttura <strong>${escapeHtml(hotelName)}</strong>.</p><p><strong>Codice richiesta:</strong> ${escapeHtml(requestCode)}</p><p><strong>Città:</strong> ${escapeHtml(travelRequest.city_name)}</p><p><strong>Zona:</strong> ${escapeHtml(travelRequest.preferred_area ?? "Non specificata")}</p><p><strong>Date:</strong> ${escapeHtml(travelRequest.check_in)} → ${escapeHtml(travelRequest.check_out)}</p><p><strong>Ospiti:</strong> ${travelRequest.guests_count} · <strong>Camere:</strong> ${travelRequest.rooms_count}</p>`;
+function partnerFooterHtml() {
+  return `${footerImageHtml()}${fineprintHtml(
+    "Ricevi questa email perché la tua struttura ha un account partner su HotelsDrop. Puoi gestire le notifiche dal tuo pannello struttura.",
+  )}`;
 }
+
+export function buildCityRequestHtml(travelRequest: PartnerRequestPayload) {
+  return `<p>Ciao,</p><p>è stata pubblicata una <strong>nuova richiesta di soggiorno</strong> su hotelsdrop.com nella tua zona. Ecco i dettagli:</p>${requestSummaryHtml(travelRequest)}${highlightHtml(
+    "Non perdere l’occasione di accogliere questi ospiti: rispondi prima delle altre strutture.",
+  )}${buttonHtml(partnerRequestUrl(travelRequest.id), "Vai alla richiesta e invia l’offerta")}${noteHtml(
+    "Il viaggiatore riceve la tua proposta in tempo reale e può accettarla direttamente dalla piattaforma.",
+  )}${signatureHtml()}${partnerFooterHtml()}`;
+}
+
+export function buildDirectRequestHtml(travelRequest: PartnerRequestPayload, hotelName: string) {
+  return `<p>Ciao ${escapeHtml(hotelName)},</p><p>un viaggiatore ha inviato una <strong>richiesta diretta</strong> alla tua struttura su hotelsdrop.com: non è una segnalazione generica sulla città, ha scelto proprio <strong>${escapeHtml(hotelName)}</strong>. Ecco i dettagli:</p>${requestSummaryHtml(travelRequest)}${highlightHtml(
+    "Rispondi il prima possibile: la richiesta è indirizzata a te.",
+  )}${buttonHtml(partnerRequestUrl(travelRequest.id), "Rispondi a questa richiesta")}${noteHtml(
+    "Il viaggiatore riceve la tua proposta in tempo reale e può accettarla direttamente dalla piattaforma.",
+  )}${signatureHtml()}${partnerFooterHtml()}`;
+}
+
+export type DispatchAudience = "all" | "partners" | "onboarding";
+
+export type DispatchNewRequestOptions = {
+  /** Non reinserisce le notifiche in-app: utile nei rinvii. */
+  emailsOnly?: boolean;
+  /** Limita i destinatari a partner registrati o strutture del catalogo. */
+  audience?: DispatchAudience;
+  /** Calcola i destinatari senza inviare nulla e senza scrivere sul database. */
+  dryRun?: boolean;
+};
 
 export type DispatchNewRequestResult = {
   notified: number;
@@ -56,13 +78,20 @@ export type DispatchNewRequestResult = {
   directHotel: string | null;
   directOnboarding: string | null;
   emailResults: unknown[];
+  partnerRecipients: string[];
+  onboardingRecipients: string[];
+  dryRun: boolean;
 };
 
 export async function dispatchNewTravelRequestNotifications(
   supabase: SupabaseClient,
   requestId: string,
-  options?: { emailsOnly?: boolean },
+  options?: DispatchNewRequestOptions,
 ): Promise<DispatchNewRequestResult> {
+  const audience: DispatchAudience = options?.audience ?? "all";
+  const dryRun = options?.dryRun === true;
+  const includePartners = audience === "all" || audience === "partners";
+  const includeOnboarding = audience === "all" || audience === "onboarding";
   const { data: travelRequest, error: requestError } = await supabase
     .from("travel_requests")
     .select(
@@ -96,52 +125,81 @@ export async function dispatchNewTravelRequestNotifications(
 
   const notificationRows: Array<Record<string, unknown>> = [];
   const emailJobs: Array<Promise<unknown>> = [];
+  const partnerRecipients: string[] = [];
 
-  for (const hotel of hotelRows) {
-    if (targetHotel && hotel.id === targetHotel.id) continue;
-    notificationRows.push({
-      recipient_type: "hotel",
-      recipient_id: hotel.id,
-      travel_request_id: travelRequest.id,
-      title: "Nuova richiesta nella tua zona",
-      message: `Codice ${requestCode} · Nuova richiesta a ${travelRequest.city_name}${travelRequest.preferred_area ? ` · ${travelRequest.preferred_area}` : ""}.`,
-      is_read: false,
-    });
-    emailJobs.push(
-      sendEmailNotification({
-        to: hotel.private_notification_email ?? hotel.public_email,
-        subject: `Nuova richiesta ${requestCode} a ${travelRequest.city_name}`,
-        html: buildCityRequestHtml(travelRequest),
-      }),
-    );
+  if (includePartners) {
+    for (const hotel of hotelRows) {
+      if (targetHotel && hotel.id === targetHotel.id) continue;
+      notificationRows.push({
+        recipient_type: "hotel",
+        recipient_id: hotel.id,
+        travel_request_id: travelRequest.id,
+        title: "Nuova richiesta nella tua zona",
+        message: `Codice ${requestCode} · Nuova richiesta a ${travelRequest.city_name}${travelRequest.preferred_area ? ` · ${travelRequest.preferred_area}` : ""}.`,
+        is_read: false,
+      });
+
+      const to = hotel.private_notification_email ?? hotel.public_email;
+      if (to?.trim()) partnerRecipients.push(to.trim());
+      if (dryRun) continue;
+
+      emailJobs.push(
+        sendEmailNotification({
+          to,
+          subject: `Nuova richiesta soggiorno ${requestCode} — ${travelRequest.city_name}`,
+          html: buildCityRequestHtml(travelRequest),
+        }),
+      );
+    }
+
+    if (targetHotel) {
+      notificationRows.push({
+        recipient_type: "hotel",
+        recipient_id: targetHotel.id,
+        travel_request_id: travelRequest.id,
+        title: "Richiesta diretta alla tua struttura",
+        message: `Codice ${requestCode} · Un viaggiatore ha inviato una richiesta direttamente a ${targetHotel.property_name}.`,
+        is_read: false,
+      });
+
+      const to = targetHotel.private_notification_email ?? targetHotel.public_email;
+      if (to?.trim()) partnerRecipients.push(to.trim());
+      if (!dryRun) {
+        emailJobs.push(
+          sendEmailNotification({
+            to,
+            subject: `Richiesta diretta ${requestCode} — ${travelRequest.city_name}`,
+            html: buildDirectRequestHtml(travelRequest, targetHotel.property_name),
+          }),
+        );
+      }
+    }
   }
 
-  if (targetHotel) {
-    notificationRows.push({
-      recipient_type: "hotel",
-      recipient_id: targetHotel.id,
-      travel_request_id: travelRequest.id,
-      title: "Richiesta diretta alla tua struttura",
-      message: `Codice ${requestCode} · Un viaggiatore ha inviato una richiesta direttamente a ${targetHotel.property_name}.`,
-      is_read: false,
-    });
-    emailJobs.push(
-      sendEmailNotification({
-        to: targetHotel.private_notification_email ?? targetHotel.public_email,
-        subject: `Richiesta diretta ${requestCode} · ${targetHotel.property_name}`,
-        html: buildDirectRequestHtml(travelRequest, targetHotel.property_name),
-      }),
-    );
-  }
-
-  if (!options?.emailsOnly && notificationRows.length) {
+  if (!dryRun && !options?.emailsOnly && notificationRows.length) {
     await supabase.from("notifications").insert(notificationRows);
   }
 
   const emailResults = await Promise.all(emailJobs);
-  const onboardingResult = await notifyOnboardingHotelsByEmail(supabase, travelRequest, {
-    directOnboardingId,
-  });
+  const onboardingResult = includeOnboarding
+    ? await notifyOnboardingHotelsByEmail(supabase, travelRequest, {
+        directOnboardingId,
+        dryRun,
+      })
+    : { emailed: 0, directOnboardingId: null, recipients: [] as string[] };
+
+  if (dryRun) {
+    return {
+      notified: notificationRows.length,
+      onboardingEmailed: onboardingResult.emailed,
+      directHotel: targetHotel?.id ?? null,
+      directOnboarding: onboardingResult.directOnboardingId,
+      emailResults: [],
+      partnerRecipients,
+      onboardingRecipients: onboardingResult.recipients,
+      dryRun: true,
+    };
+  }
 
   notifyAdminAlertSafe({
     subject: `[HotelsDrop] Nuovo annuncio · ${travelRequest.city_name}`,
@@ -171,5 +229,8 @@ export async function dispatchNewTravelRequestNotifications(
     directHotel: targetHotel?.id ?? null,
     directOnboarding: onboardingResult.directOnboardingId,
     emailResults,
+    partnerRecipients,
+    onboardingRecipients: onboardingResult.recipients,
+    dryRun: false,
   };
 }

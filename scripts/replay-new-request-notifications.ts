@@ -2,8 +2,14 @@
  * Rispedisce notifiche/email per una richiesta già creata (fix manuale o test).
  *
  * Usage:
- *   npx tsx scripts/replay-new-request-notifications.ts --code RBNT87WX
- *   npx tsx scripts/replay-new-request-notifications.ts --id <uuid>
+ *   npx tsx scripts/replay-new-request-notifications.ts --code RBNT87WX --dry-run
+ *   npx tsx scripts/replay-new-request-notifications.ts --code RBNT87WX --emails-only
+ *   npx tsx scripts/replay-new-request-notifications.ts --id <uuid> --only onboarding
+ *
+ * Flag:
+ *   --dry-run      elenca i destinatari senza inviare nulla
+ *   --emails-only  non reinserisce le notifiche in-app (evita duplicati)
+ *   --only         partners | onboarding | all (default: all)
  */
 
 import dotenv from "dotenv";
@@ -37,6 +43,22 @@ if (!requestCode && !requestId) {
 }
 
 const emailsOnly = process.argv.includes("--emails-only");
+const dryRun = process.argv.includes("--dry-run");
+
+const onlyArg = process.argv.find((a) => a.startsWith("--only="));
+const onlyFlag = process.argv.indexOf("--only");
+const onlyRaw =
+  onlyArg?.split("=")[1] ??
+  (onlyFlag !== -1 && process.argv[onlyFlag + 1] && !process.argv[onlyFlag + 1].startsWith("--")
+    ? process.argv[onlyFlag + 1]
+    : "all");
+
+if (!["all", "partners", "onboarding"].includes(onlyRaw)) {
+  console.error(`--only accetta: all | partners | onboarding (ricevuto: ${onlyRaw})`);
+  process.exit(1);
+}
+
+const audience = onlyRaw as "all" | "partners" | "onboarding";
 
 const sb = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.SUPABASE_SERVICE_ROLE_KEY!, {
   auth: { persistSession: false },
@@ -60,16 +82,44 @@ async function main() {
   });
 
   if (normalized.city_id !== row.city_id || normalized.city_name !== row.city_name) {
-    console.log(`Normalizzo città: ${row.city_name} (${row.city_id}) → ${normalized.city_name} (${normalized.city_id})`);
-    await sb
-      .from("travel_requests")
-      .update({ city_id: normalized.city_id, city_name: normalized.city_name })
-      .eq("id", row.id);
+    if (dryRun) {
+      console.log(
+        `[dry-run] Città da normalizzare: ${row.city_name} (${row.city_id}) → ${normalized.city_name} (${normalized.city_id})`,
+      );
+    } else {
+      console.log(`Normalizzo città: ${row.city_name} (${row.city_id}) → ${normalized.city_name} (${normalized.city_id})`);
+      await sb
+        .from("travel_requests")
+        .update({ city_id: normalized.city_id, city_name: normalized.city_name })
+        .eq("id", row.id);
+    }
   }
 
-  console.log(`Replay notifiche per ${row.request_code} (${row.id})…`);
-  const result = await dispatchNewTravelRequestNotifications(sb, row.id, { emailsOnly });
-  console.log(JSON.stringify(result, null, 2));
+  console.log(
+    `${dryRun ? "[dry-run] Simulazione" : "Replay"} notifiche per ${row.request_code} (${row.id}) · destinatari: ${audience}…`,
+  );
+
+  const result = await dispatchNewTravelRequestNotifications(sb, row.id, {
+    emailsOnly,
+    audience,
+    dryRun,
+  });
+
+  console.log(`\nPartner registrati: ${result.partnerRecipients.length}`);
+  for (const email of result.partnerRecipients) console.log(`  · ${email}`);
+
+  console.log(`\nStrutture del catalogo: ${result.onboardingRecipients.length}`);
+  for (const email of result.onboardingRecipients.slice(0, 15)) console.log(`  · ${email}`);
+  if (result.onboardingRecipients.length > 15) {
+    console.log(`  … +${result.onboardingRecipients.length - 15} altre`);
+  }
+
+  const total = result.partnerRecipients.length + result.onboardingRecipients.length;
+  console.log(
+    dryRun
+      ? `\n[dry-run] Nessuna email inviata. Verrebbero contattati ${total} destinatari.`
+      : `\nInvio completato verso ${total} destinatari.`,
+  );
 }
 
 main().catch((err) => {

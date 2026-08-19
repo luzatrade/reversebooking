@@ -5,6 +5,8 @@ type EmailPayload = {
   to: string | null | undefined;
   subject: string;
   html: string;
+  /** Header aggiuntivi, es. List-Unsubscribe sulle email al catalogo. */
+  headers?: Record<string, string>;
 };
 
 export async function sendEmailNotification(payload: EmailPayload) {
@@ -30,6 +32,7 @@ export async function sendEmailNotification(payload: EmailPayload) {
       to,
       subject: payload.subject,
       html: payload.html,
+      ...(payload.headers ? { headers: payload.headers } : {}),
    }),
  });
 
