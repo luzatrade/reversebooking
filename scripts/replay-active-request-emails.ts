@@ -16,7 +16,7 @@ import { dispatchNewTravelRequestNotifications, type DispatchAudience } from "@/
 import { getResendApiKey } from "@/lib/notifications/resend-env";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-dotenv.config({ path: resolve(__dirname, "../.env.local"), override: true });
+dotenv.config({ path: resolve(__dirname, "../.env.local"), override: false });
 
 const dryRun = process.argv.includes("--dry-run");
 const emailsOnly = !process.argv.includes("--with-notifications");
@@ -103,7 +103,11 @@ async function main() {
 
     const count = result.partnerRecipients.length + result.onboardingRecipients.length;
     totalRecipients += count;
-    console.log(`  partner=${result.partnerRecipients.length} onboarding=${result.onboardingRecipients.length}`);
+
+    const sent = result.emailResults.filter((r) => r && typeof r === "object" && "ok" in r && (r as { ok: boolean }).ok).length;
+    const failed = result.emailResults.length - sent;
+
+    console.log(`  partner=${result.partnerRecipients.length} onboarding=${result.onboardingRecipients.length} email_ok=${sent}${failed ? ` email_fail=${failed}` : ""}`);
 
     if (!dryRun && i < requests.length - 1 && pauseMs > 0) {
       await sleep(pauseMs);

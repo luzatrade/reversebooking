@@ -17,7 +17,7 @@ import { fetchOnboardingHotelsForCity } from "@/lib/notifications/onboarding-new
 import { fetchActivePartnerHotelsForRequest } from "@/lib/notifications/partner-hotels-for-request";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-dotenv.config({ path: resolve(__dirname, "../.env.local"), override: true });
+dotenv.config({ path: resolve(__dirname, "../.env.local"), override: false });
 
 const cityArg = process.argv.find((a) => a.startsWith("--city="));
 const cityFlag = process.argv.indexOf("--city");

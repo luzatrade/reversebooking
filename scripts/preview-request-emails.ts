@@ -26,7 +26,7 @@ import {
 import { resolveNotificationEmailFrom } from "@/lib/email/from";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-dotenv.config({ path: resolve(__dirname, "../.env.local"), override: true });
+dotenv.config({ path: resolve(__dirname, "../.env.local"), override: false });
 
 const outArg = process.argv.find((a) => a.startsWith("--out="));
 const outFlag = process.argv.indexOf("--out");

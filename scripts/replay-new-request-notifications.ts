@@ -20,7 +20,7 @@ import { dispatchNewTravelRequestNotifications } from "@/lib/notifications/dispa
 import { normalizeWorldCitySelection } from "@/lib/constants/world-city-helpers";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-dotenv.config({ path: resolve(__dirname, "../.env.local"), override: true });
+dotenv.config({ path: resolve(__dirname, "../.env.local"), override: false });
 
 const codeArg = process.argv.find((a) => a.startsWith("--code="));
 const idArg = process.argv.find((a) => a.startsWith("--id="));
