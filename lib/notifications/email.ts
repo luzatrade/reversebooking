@@ -52,3 +52,26 @@ export function escapeHtml(value: string) {
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
 }
+
+const RESEND_MIN_INTERVAL_MS = 120;
+
+let resendSendChain: Promise<void> = Promise.resolve();
+let lastResendSentAt = 0;
+
+/** Accoda gli invii Resend per restare sotto ~8 req/s (limite piano: 10/s). */
+export async function sendEmailNotificationQueued(payload: EmailPayload) {
+  const run = async () => {
+    const waitMs = Math.max(0, RESEND_MIN_INTERVAL_MS - (Date.now() - lastResendSentAt));
+    if (waitMs > 0) await new Promise((resolve) => setTimeout(resolve, waitMs));
+    const result = await sendEmailNotification(payload);
+    lastResendSentAt = Date.now();
+    return result;
+  };
+
+  const resultPromise = resendSendChain.then(run, run);
+  resendSendChain = resultPromise.then(
+    () => undefined,
+    () => undefined,
+  );
+  return resultPromise;
+}

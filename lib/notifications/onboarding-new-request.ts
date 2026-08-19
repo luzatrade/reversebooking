@@ -1,6 +1,6 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { onboardingCitySearchNames, supabaseCityNameOrFilter } from "@/lib/onboarding/city-match";
-import { escapeHtml, sendEmailNotification } from "@/lib/notifications/email";
+import { escapeHtml, sendEmailNotificationQueued } from "@/lib/notifications/email";
 import {
   COMPANY_EMAIL,
   buttonHtml,
@@ -173,9 +173,9 @@ export async function notifyOnboardingHotelsByEmail(
   admin: SupabaseClient,
   travelRequest: TravelRequestNotifyPayload,
   options?: { directOnboardingId?: string | null; dryRun?: boolean },
-): Promise<{ emailed: number; directOnboardingId: string | null; recipients: string[] }> {
+): Promise<{ emailed: number; directOnboardingId: string | null; recipients: string[]; emailResults: unknown[] }> {
   const dryRun = options?.dryRun === true;
-  const emailJobs: Array<Promise<unknown>> = [];
+  const emailResults: unknown[] = [];
   const emailedIds = new Set<string>();
   const recipients: string[] = [];
   let directOnboarding: OnboardingNotifyRow | null = null;
@@ -187,8 +187,8 @@ export async function notifyOnboardingHotelsByEmail(
       recipients.push(directOnboarding.email);
       const code = requestCode(travelRequest.request_code);
       if (!dryRun) {
-        emailJobs.push(
-          sendEmailNotification({
+        emailResults.push(
+          await sendEmailNotificationQueued({
             to: directOnboarding.email,
             subject: `Richiesta diretta ${code} — ${travelRequest.city_name}`,
             html: buildOnboardingDirectRequestHtml(travelRequest, directOnboarding.id, directOnboarding.nome),
@@ -207,8 +207,8 @@ export async function notifyOnboardingHotelsByEmail(
     if (dryRun) continue;
 
     const code = requestCode(travelRequest.request_code);
-    emailJobs.push(
-      sendEmailNotification({
+    emailResults.push(
+      await sendEmailNotificationQueued({
         to: row.email,
         subject: `Nuova richiesta soggiorno ${code} — ${travelRequest.city_name}`,
         html: buildOnboardingCityRequestHtml(travelRequest, row.id, row.nome),
@@ -217,13 +217,10 @@ export async function notifyOnboardingHotelsByEmail(
     );
   }
 
-  if (emailJobs.length) {
-    await Promise.all(emailJobs);
-  }
-
   return {
     emailed: emailedIds.size,
     directOnboardingId: directOnboarding?.id ?? null,
     recipients,
+    emailResults,
   };
 }

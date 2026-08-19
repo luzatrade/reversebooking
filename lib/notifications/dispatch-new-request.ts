@@ -1,5 +1,5 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { escapeHtml, sendEmailNotification } from "@/lib/notifications/email";
+import { sendEmailNotificationQueued } from "@/lib/notifications/email";
 import {
   buttonHtml,
   fineprintHtml,
@@ -124,7 +124,7 @@ export async function dispatchNewTravelRequestNotifications(
   }
 
   const notificationRows: Array<Record<string, unknown>> = [];
-  const emailJobs: Array<Promise<unknown>> = [];
+  const emailResults: unknown[] = [];
   const partnerRecipients: string[] = [];
 
   if (includePartners) {
@@ -143,8 +143,8 @@ export async function dispatchNewTravelRequestNotifications(
       if (to?.trim()) partnerRecipients.push(to.trim());
       if (dryRun) continue;
 
-      emailJobs.push(
-        sendEmailNotification({
+      emailResults.push(
+        await sendEmailNotificationQueued({
           to,
           subject: `Nuova richiesta soggiorno ${requestCode} — ${travelRequest.city_name}`,
           html: buildCityRequestHtml(travelRequest),
@@ -165,8 +165,8 @@ export async function dispatchNewTravelRequestNotifications(
       const to = targetHotel.private_notification_email ?? targetHotel.public_email;
       if (to?.trim()) partnerRecipients.push(to.trim());
       if (!dryRun) {
-        emailJobs.push(
-          sendEmailNotification({
+        emailResults.push(
+          await sendEmailNotificationQueued({
             to,
             subject: `Richiesta diretta ${requestCode} — ${travelRequest.city_name}`,
             html: buildDirectRequestHtml(travelRequest, targetHotel.property_name),
@@ -180,13 +180,14 @@ export async function dispatchNewTravelRequestNotifications(
     await supabase.from("notifications").insert(notificationRows);
   }
 
-  const emailResults = await Promise.all(emailJobs);
   const onboardingResult = includeOnboarding
     ? await notifyOnboardingHotelsByEmail(supabase, travelRequest, {
         directOnboardingId,
         dryRun,
       })
-    : { emailed: 0, directOnboardingId: null, recipients: [] as string[] };
+    : { emailed: 0, directOnboardingId: null, recipients: [] as string[], emailResults: [] as unknown[] };
+
+  const allEmailResults = [...emailResults, ...onboardingResult.emailResults];
 
   if (dryRun) {
     return {
@@ -194,7 +195,7 @@ export async function dispatchNewTravelRequestNotifications(
       onboardingEmailed: onboardingResult.emailed,
       directHotel: targetHotel?.id ?? null,
       directOnboarding: onboardingResult.directOnboardingId,
-      emailResults: [],
+      emailResults: allEmailResults,
       partnerRecipients,
       onboardingRecipients: onboardingResult.recipients,
       dryRun: true,
@@ -228,7 +229,7 @@ export async function dispatchNewTravelRequestNotifications(
     onboardingEmailed: onboardingResult.emailed,
     directHotel: targetHotel?.id ?? null,
     directOnboarding: onboardingResult.directOnboardingId,
-    emailResults,
+    emailResults: allEmailResults,
     partnerRecipients,
     onboardingRecipients: onboardingResult.recipients,
     dryRun: false,
