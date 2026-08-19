@@ -1,5 +1,5 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { sendEmailNotificationQueued } from "@/lib/notifications/email";
+import { escapeHtml, sendEmailNotificationQueued } from "@/lib/notifications/email";
 import {
   buttonHtml,
   fineprintHtml,
