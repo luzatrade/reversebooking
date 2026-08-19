@@ -80,6 +80,11 @@ export async function GET(request: Request) {
     totalRecipients += recipients;
     totalSent += sent;
 
+    const failures = result.emailResults
+      .filter((item) => !item || typeof item !== "object" || !("ok" in item) || !(item as { ok: boolean }).ok)
+      .slice(0, 3)
+      .map((item) => item);
+
     results.push({
       requestCode: row.request_code,
       cityName: row.city_name,
@@ -88,6 +93,7 @@ export async function GET(request: Request) {
       emailsSent: sent,
       partnerRecipients: result.partnerRecipients.length,
       onboardingRecipients: result.onboardingRecipients.length,
+      sampleFailures: failures,
     });
   }
 

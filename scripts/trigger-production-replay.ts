@@ -35,12 +35,19 @@ const url = `${baseUrl}/api/cron/replay-request-emails?${params.toString()}`;
 
 console.log(`${dryRun ? "[dry-run] " : ""}POST ${url}`);
 
-const response = await fetch(url, {
-  method: "POST",
-  headers: { Authorization: `Bearer ${serviceKey}` },
+async function main() {
+  const response = await fetch(url, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${serviceKey}` },
+  });
+
+  const body = await response.json().catch(() => ({}));
+  console.log(JSON.stringify(body, null, 2));
+
+  if (!response.ok) process.exit(1);
+}
+
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
 });
-
-const body = await response.json().catch(() => ({}));
-console.log(JSON.stringify(body, null, 2));
-
-if (!response.ok) process.exit(1);
