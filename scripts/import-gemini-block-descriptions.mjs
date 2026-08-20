@@ -66,6 +66,7 @@ async function updateHotel(hotel, { withContacts }) {
   if (withContacts) {
     if (hotel.phone) patch.phone = hotel.phone;
     if (hotel.email) patch.email = hotel.email;
+    if (hotel.website) patch.website = hotel.website;
   }
   if (cityName) patch.city_name = cityName;
   if (cityIstat) patch.city_istat = cityIstat;
