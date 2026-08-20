@@ -390,6 +390,21 @@ function searchQueries(comune) {
         "hotel Vernazza Cinque Terre",
       ];
     }
+    if (comune.nome === "Milano") {
+      return [
+        `hotel centro ${comune.nome}`,
+        `hotel ${comune.nome} centro storico`,
+        `hotel ${base} centro`,
+        "hotel Milano Duomo",
+        "hotel Milano Brera",
+        "hotel Milano Porta Nuova",
+        "hotel Milano Corso Buenos Aires",
+        "hotel Milano Navigli",
+        "hotel Milano Galleria",
+        "boutique hotel Milano centro",
+        "luxury hotel Milano centro",
+      ];
+    }
     return [
       `hotel centro ${comune.nome}`,
       `hotel ${comune.nome} centro storico`,
