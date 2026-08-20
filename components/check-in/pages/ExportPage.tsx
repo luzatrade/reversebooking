@@ -7,7 +7,10 @@ import {
   downloadAlloggiatiFile,
   formatItalianDateLabel,
 } from "@/lib/check-in/export/questura";
-import { guestsToAlloggiatiRecords } from "@/lib/check-in/export/guestMapper";
+import {
+  guestsToAlloggiatiRecords,
+  validateGuestForExport,
+} from "@/lib/check-in/export/guestMapper";
 import { markGuestsExported, useGuests } from "@/lib/check-in/useGuests";
 import { toast } from "@/lib/check-in/useToast";
 import styles from "./ExportPage.module.css";
@@ -22,6 +25,9 @@ interface ExportPageProps {
 function todayIso(): string {
   return new Date().toISOString().slice(0, 10);
 }
+
+/** Riferimento stabile per evitare loop in useEffect quando la data non ha ospiti. */
+const EMPTY_DATE_GUESTS: never[] = [];
 
 export function ExportPage({
   hotelAccountId,
@@ -54,8 +60,17 @@ export function ExportPage({
     [guestsByDate],
   );
 
-  const dateGuests = guestsByDate.get(selectedDate) ?? [];
-  const allSelected = dateGuests.length > 0 && selected.size === dateGuests.length;
+  const dateGuests = useMemo(
+    () => guestsByDate.get(selectedDate) ?? EMPTY_DATE_GUESTS,
+    [guestsByDate, selectedDate],
+  );
+
+  const dateGuestIds = useMemo(
+    () => dateGuests.map((g) => g.id).filter((id): id is string => Boolean(id)),
+    [dateGuests],
+  );
+
+  const allSelected = dateGuestIds.length > 0 && selected.size === dateGuestIds.length;
 
   const selectedGuests = useMemo(
     () => dateGuests.filter((g) => g.id && selected.has(g.id)),
@@ -70,8 +85,8 @@ export function ExportPage({
   }, [availableDates, selectedDate]);
 
   useEffect(() => {
-    setSelected(new Set(dateGuests.map((g) => g.id!).filter(Boolean)));
-  }, [selectedDate, dateGuests]);
+    setSelected(new Set(dateGuestIds));
+  }, [dateGuestIds]);
 
   function toggleAll() {
     if (allSelected) {
@@ -94,6 +109,9 @@ export function ExportPage({
     if (selectedGuests.length === 0) return;
     setExporting(true);
     try {
+      for (const guest of selectedGuests) {
+        validateGuestForExport(guest);
+      }
       const records = guestsToAlloggiatiRecords(selectedGuests);
       downloadAlloggiatiFile(records, alloggiatiExportFilename(selectedDate));
 
