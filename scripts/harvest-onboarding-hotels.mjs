@@ -405,6 +405,20 @@ function searchQueries(comune) {
         "luxury hotel Milano centro",
       ];
     }
+    if (comune.nome === "Venezia") {
+      return [
+        `hotel centro ${comune.nome}`,
+        `hotel ${comune.nome} centro storico`,
+        `hotel ${base} centro`,
+        "hotel Venezia San Marco",
+        "hotel Venezia Rialto",
+        "hotel Venezia Cannaregio",
+        "hotel Venezia Dorsoduro",
+        "hotel Venezia Santa Lucia",
+        "boutique hotel Venezia centro",
+        "luxury hotel Venezia",
+      ];
+    }
     return [
       `hotel centro ${comune.nome}`,
       `hotel ${comune.nome} centro storico`,
