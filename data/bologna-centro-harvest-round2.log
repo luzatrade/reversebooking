@@ -1,0 +1,6 @@
+◇ injected env (0) from .env.local // tip: ⌘ enable debugging { debug: true }
+[2026-08-21T19:58:22.867Z] HotelsDrop — harvest onboarding_hotels
+[2026-08-21T19:58:22.867Z] googleSearch=default googlePhotos=default force=true skipPhotos=false skipEmails=false centro=true zone=centro hotelOnly=false maxHotels=150 limit=none fillGaps=false italyPriority=false italyExtra=false city=none countries=none comune=Bologna region=all
+[2026-08-21T19:58:23.120Z] Comuni in coda: 1
+[2026-08-21T20:01:46.549Z] [1/1] Bologna (BO) — trovati 61, nuovi 61, skip 0, foto 59, email 25
+[2026-08-21T20:01:47.652Z] === FINE === inseriti/aggiornati in questa run: 61, foto caricate: 59, email trovate: 25, totale onboarding_hotels: 19724
