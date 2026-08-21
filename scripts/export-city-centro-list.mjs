@@ -25,6 +25,9 @@ const CITY_ZONES = {
   Padova: {
     centro: { lat: 45.4064, lng: 11.8768, radiusM: 7000 },
   },
+  Bologna: {
+    centro: { lat: 44.4949, lng: 11.3426, radiusM: 2500 },
+  },
 };
 
 const comuneFlag = process.argv.indexOf("--comune");

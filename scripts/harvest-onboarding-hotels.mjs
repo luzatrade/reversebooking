@@ -87,7 +87,7 @@ const CITY_CENTRO = {
   napoli: { lat: 40.8518, lng: 14.2681, radiusM: 2500 },
   torino: { lat: 45.0703, lng: 7.6869, radiusM: 2500 },
   genova: { lat: 44.4056, lng: 8.9463, radiusM: 2200 },
-  bologna: { lat: 44.4949, lng: 11.3426, radiusM: 2200 },
+  bologna: { lat: 44.4949, lng: 11.3426, radiusM: 2500 },
   firenze: { lat: 43.7696, lng: 11.2558, radiusM: 2500 },
   bari: { lat: 41.1171, lng: 16.8719, radiusM: 2200 },
   venezia: { lat: 45.4343, lng: 12.3388, radiusM: 2000 },
@@ -426,6 +426,26 @@ function searchQueries(comune) {
         "boutique hotel Firenze centro",
         "luxury hotel Firenze",
         "affittacamere Firenze centro",
+      ];
+    }
+    if (comune.nome === "Bologna") {
+      return [
+        `hotel centro ${comune.nome}`,
+        `hotel ${comune.nome} centro storico`,
+        `hotel ${base} centro`,
+        "hotel Bologna Piazza Maggiore",
+        "hotel Bologna Due Torri",
+        "hotel Bologna stazione",
+        "hotel Bologna Università",
+        "hotel Bologna Santo Stefano",
+        "hotel Bologna San Petronio",
+        "hotel Bologna Via Indipendenza",
+        "hotel Bologna Zona Universitaria",
+        "hotel Bologna Porta Saragozza",
+        "affittacamere Bologna centro",
+        "boutique hotel Bologna centro",
+        "bed and breakfast Bologna centro",
+        "luxury hotel Bologna",
       ];
     }
     if (comune.nome === "Padova") {

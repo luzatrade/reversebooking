@@ -32,6 +32,7 @@ const CITY_ZONES = {
   Verona: { centro: { lat: 45.4384, lng: 10.9916, radiusM: 2500 } },
   Firenze: { centro: { lat: 43.7696, lng: 11.2558, radiusM: 2500 } },
   Padova: { centro: { lat: 45.4064, lng: 11.8768, radiusM: 7000 } },
+  Bologna: { centro: { lat: 44.4949, lng: 11.3426, radiusM: 2500 } },
 };
 
 const comuneFlag = process.argv.indexOf("--comune");
