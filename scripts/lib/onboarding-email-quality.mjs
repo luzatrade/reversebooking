@@ -136,6 +136,13 @@ export function isRealOnboardingEmail(email, websiteUrl) {
     "bestwestern.com",
     "leonardo-hotels.com",
     "unahotels.com",
+    "venicecollection.com",
+    "evokcollection.com",
+    "sanmarcohotels.com",
+    "bzarhotels.it",
+    "baglionihotels.com",
+    "roccofortehotels.com",
+    "casualhoteles.com",
   ];
   if (knownChainDomains.some((d) => domain === d || domain.endsWith(`.${d}`))) return true;
 

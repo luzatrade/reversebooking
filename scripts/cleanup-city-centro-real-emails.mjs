@@ -1,9 +1,10 @@
 /**
- * Centro città: solo strutture con email reale. Scrapa siti, rimuove junk e cancella senza email.
+ * Centro città / zona: solo strutture con email reale.
  *
  * Usage:
  *   node scripts/cleanup-city-centro-real-emails.mjs --comune Venezia
- *   node scripts/cleanup-city-centro-real-emails.mjs --comune Milano --dry-run
+ *   node scripts/cleanup-city-centro-real-emails.mjs --comune Venezia --zone mestre
+ *   node scripts/cleanup-city-centro-real-emails.mjs --comune Venezia --zone all
  */
 
 import { resolve, dirname } from "path";
@@ -22,24 +23,40 @@ import { isRealOnboardingEmail } from "./lib/onboarding-email-quality.mjs";
 const dryRun = process.argv.includes("--dry-run");
 const DELAY_MS = 300;
 
-const CITY_CENTRO = {
-  Milano: { lat: 45.4642, lng: 9.19, radiusM: 2800 },
-  Venezia: { lat: 45.4343, lng: 12.3388, radiusM: 2000 },
+const CITY_ZONES = {
+  Milano: { centro: { lat: 45.4642, lng: 9.19, radiusM: 2800 } },
+  Venezia: {
+    centro: { lat: 45.4343, lng: 12.3388, radiusM: 2000 },
+    mestre: { lat: 45.488, lng: 12.255, radiusM: 3500 },
+  },
 };
 
 const comuneFlag = process.argv.indexOf("--comune");
+const zoneFlag = process.argv.indexOf("--zone");
 const comuneName =
   comuneFlag !== -1 && process.argv[comuneFlag + 1] && !process.argv[comuneFlag + 1].startsWith("--")
     ? process.argv[comuneFlag + 1]
     : null;
+const zoneName =
+  zoneFlag !== -1 && process.argv[zoneFlag + 1] && !process.argv[zoneFlag + 1].startsWith("--")
+    ? process.argv[zoneFlag + 1]
+    : "centro";
 
-if (!comuneName || !CITY_CENTRO[comuneName]) {
-  console.error(`Servono --comune con uno di: ${Object.keys(CITY_CENTRO).join(", ")}`);
+if (!comuneName || !CITY_ZONES[comuneName]) {
+  console.error(`Servono --comune con uno di: ${Object.keys(CITY_ZONES).join(", ")}`);
   process.exit(1);
 }
 
-const CENTRO = CITY_CENTRO[comuneName];
-const slugCity = comuneName.toLowerCase().replace(/\s+/g, "-");
+const zones = CITY_ZONES[comuneName];
+if (zoneName === "all") {
+  if (!zones.centro || !zones.mestre) {
+    console.error(`--zone all non disponibile per ${comuneName}`);
+    process.exit(1);
+  }
+} else if (!zones[zoneName]) {
+  console.error(`--zone deve essere uno di: ${Object.keys(zones).join(", ")}, all`);
+  process.exit(1);
+}
 
 function haversineMeters(lat1, lng1, lat2, lng2) {
   const toRad = (d) => (d * Math.PI) / 180;
@@ -52,9 +69,23 @@ function haversineMeters(lat1, lng1, lat2, lng2) {
   return 2 * R * Math.asin(Math.sqrt(a));
 }
 
-function inCentro(row) {
+function inZone(row, zone) {
   if (row.lat == null || row.lng == null) return false;
-  return haversineMeters(CENTRO.lat, CENTRO.lng, Number(row.lat), Number(row.lng)) <= CENTRO.radiusM;
+  return haversineMeters(zone.lat, zone.lng, Number(row.lat), Number(row.lng)) <= zone.radiusM;
+}
+
+function inSelectedZones(row) {
+  if (zoneName === "all") {
+    return inZone(row, zones.centro) || inZone(row, zones.mestre);
+  }
+  return inZone(row, zones[zoneName]);
+}
+
+function zoneLabel(row) {
+  if (zoneName !== "all") return zoneName;
+  if (inZone(row, zones.centro)) return "centro";
+  if (zones.mestre && inZone(row, zones.mestre)) return "mestre";
+  return "unknown";
 }
 
 async function resolveEmail(website, current) {
@@ -69,32 +100,15 @@ function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
-async function main() {
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
-  if (!url || !key) throw new Error("Supabase env missing");
+async function runZoneCleanup(sb, rows, report) {
+  const area = (rows ?? []).filter(inSelectedZones);
+  report.totalCentro += area.length;
 
-  const sb = createClient(url, key, { auth: { persistSession: false } });
-  const { data: rows, error } = await sb
-    .from("onboarding_hotels")
-    .select("id, slug, nome, email, website, phone, lat, lng, indirizzo, main_photo_url, place_id")
-    .ilike("city_name", comuneName);
-  if (error) throw error;
+  const label =
+    zoneName === "all" ? `${comuneName} (centro + Mestre)` : `${comuneName} ${zoneName}`;
+  console.log(`${label}: ${area.length} strutture (dryRun=${dryRun})\n`);
 
-  const centro = (rows ?? []).filter(inCentro);
-  const report = {
-    comune: comuneName,
-    dryRun,
-    totalCentro: centro.length,
-    kept: [],
-    updatedEmail: [],
-    deleted: [],
-    skippedClaimed: [],
-  };
-
-  console.log(`${comuneName} centro: ${centro.length} strutture (dryRun=${dryRun})\n`);
-
-  for (const row of centro) {
+  for (const row of area) {
     let email = normalizePublicEmail(row.email);
     const website = row.website?.trim() || null;
     let real = email && isRealOnboardingEmail(email, website);
@@ -110,7 +124,13 @@ async function main() {
             if (!dryRun) {
               await sb.from("onboarding_hotels").update({ email }).eq("id", row.id);
             }
-            report.updatedEmail.push({ slug: row.slug, nome: row.nome, email, website });
+            report.updatedEmail.push({
+              zone: zoneLabel(row),
+              slug: row.slug,
+              nome: row.nome,
+              email,
+              website,
+            });
             console.log(`  ✓ email ${email}`);
           }
         } catch (err) {
@@ -126,11 +146,15 @@ async function main() {
     }
 
     if (real && email) {
-      report.kept.push({ slug: row.slug, nome: row.nome, email, website });
+      report.kept.push({ zone: zoneLabel(row), slug: row.slug, nome: row.nome, email, website });
       continue;
     }
 
-    const { data: full } = await sb.from("onboarding_hotels").select("claimed_by, status").eq("id", row.id).maybeSingle();
+    const { data: full } = await sb
+      .from("onboarding_hotels")
+      .select("claimed_by, status")
+      .eq("id", row.id)
+      .maybeSingle();
     if (full?.claimed_by) {
       report.skippedClaimed.push({ slug: row.slug, nome: row.nome, reason: "claimed" });
       console.log(`  ~ skip delete (claimed): ${row.slug}`);
@@ -138,14 +162,48 @@ async function main() {
     }
 
     console.log(`  DELETE ${row.slug ?? "∅"} (${row.nome}) — no real email`);
-    report.deleted.push({ slug: row.slug, nome: row.nome, oldEmail: row.email, website });
+    report.deleted.push({
+      zone: zoneLabel(row),
+      slug: row.slug,
+      nome: row.nome,
+      oldEmail: row.email,
+      website,
+    });
     if (!dryRun) {
       const { error: delErr } = await sb.from("onboarding_hotels").delete().eq("id", row.id);
       if (delErr) console.log(`  ERR delete: ${delErr.message}`);
     }
   }
+}
 
-  const outPath = resolve(__dirname, `../data/${slugCity}-centro-real-emails-report.json`);
+async function main() {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!url || !key) throw new Error("Supabase env missing");
+
+  const sb = createClient(url, key, { auth: { persistSession: false } });
+  const { data: rows, error } = await sb
+    .from("onboarding_hotels")
+    .select("id, slug, nome, email, website, phone, lat, lng, indirizzo, main_photo_url, place_id")
+    .ilike("city_name", comuneName);
+  if (error) throw error;
+
+  const report = {
+    comune: comuneName,
+    zone: zoneName,
+    dryRun,
+    totalCentro: 0,
+    kept: [],
+    updatedEmail: [],
+    deleted: [],
+    skippedClaimed: [],
+  };
+
+  await runZoneCleanup(sb, rows, report);
+
+  const slugCity = comuneName.toLowerCase().replace(/\s+/g, "-");
+  const zoneSuffix = zoneName === "centro" ? "centro" : zoneName === "all" ? "centro-mestre" : zoneName;
+  const outPath = resolve(__dirname, `../data/${slugCity}-${zoneSuffix}-real-emails-report.json`);
   writeFileSync(outPath, JSON.stringify(report, null, 2) + "\n");
 
   console.log("\n=== TOTALE ===");

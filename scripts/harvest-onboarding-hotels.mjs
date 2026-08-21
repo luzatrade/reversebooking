@@ -91,6 +91,8 @@ const CITY_CENTRO = {
   firenze: { lat: 43.7696, lng: 11.2558, radiusM: 2000 },
   bari: { lat: 41.1171, lng: 16.8719, radiusM: 2200 },
   venezia: { lat: 45.4343, lng: 12.3388, radiusM: 2000 },
+  /** Terraferma veneziana (Mestre, Marghera, Tessera) */
+  mestre: { lat: 45.488, lng: 12.255, radiusM: 3500 },
   verona: { lat: 45.4384, lng: 10.9916, radiusM: 2000 },
   rimini: { lat: 44.0678, lng: 12.5695, radiusM: 2500 },
   siena: { lat: 43.3188, lng: 11.3308, radiusM: 1500 },
@@ -297,6 +299,9 @@ const italyPriority = args.includes("--italy-priority");
 const italyExtra = args.includes("--italy-extra");
 const fillGaps = args.includes("--fill-gaps");
 const regionArg = args.find((a, i) => args[i - 1] === "--region");
+const zoneArg = args.find((a, i) => args[i - 1] === "--zone");
+/** centro = laguna/isola (default); mestre = terraferma veneziana */
+const harvestZone = zoneArg && ["centro", "mestre"].includes(zoneArg) ? zoneArg : "centro";
 
 const logDir = resolve(__dirname, "../logs");
 mkdirSync(logDir, { recursive: true });
@@ -330,6 +335,7 @@ function isLodging(types) {
 
 function centroForComune(comune) {
   const key = slugify(comune.nome);
+  if (harvestZone === "mestre" && key === "venezia") return CITY_CENTRO.mestre;
   return CITY_CENTRO[key] ?? null;
 }
 
@@ -406,6 +412,18 @@ function searchQueries(comune) {
       ];
     }
     if (comune.nome === "Venezia") {
+      if (harvestZone === "mestre") {
+        return [
+          "hotel Mestre Venezia",
+          "hotel Mestre centro",
+          "hotel Mestre stazione",
+          "hotel Venezia Mestre",
+          "hotel Marghera Venezia",
+          "hotel Tessera aeroporto Venezia",
+          "hotel Porto Marghera",
+          "hotel Via Piave Mestre",
+        ];
+      }
       return [
         `hotel centro ${comune.nome}`,
         `hotel ${comune.nome} centro storico`,
@@ -415,6 +433,8 @@ function searchQueries(comune) {
         "hotel Venezia Cannaregio",
         "hotel Venezia Dorsoduro",
         "hotel Venezia Santa Lucia",
+        "hotel Venezia Giudecca",
+        "hotel Venezia Castello",
         "boutique hotel Venezia centro",
         "luxury hotel Venezia",
       ];
@@ -664,7 +684,10 @@ async function processComune(comune) {
     inserted += 1;
     existingPlaceIds.add(place.id);
 
-    if (hotelCap && existingCount + inserted >= hotelCap) break;
+    if (hotelCap) {
+      const capReached = force ? inserted >= hotelCap : existingCount + inserted >= hotelCap;
+      if (capReached) break;
+    }
   }
 
   if (!centroMode) {
@@ -836,7 +859,7 @@ async function loadComuni() {
 async function main() {
   log("HotelsDrop — harvest onboarding_hotels");
   log(
-    `googleSearch=${usingTempGoogleKey ? "TEMP" : "default"} googlePhotos=${usingProdPhotosKey ? "PHOTOS_KEY" : usingTempGoogleKey ? "TEMP" : "default"} force=${force} skipPhotos=${skipPhotos} skipEmails=${skipEmails} centro=${centroMode} hotelOnly=${hotelOnly} maxHotels=${maxHotels ?? "default"} limit=${limit ?? "none"} fillGaps=${fillGaps} italyPriority=${italyPriority} italyExtra=${italyExtra} city=${cityArg ?? "none"} countries=${countriesArg ?? "none"} comune=${comuneArg ?? "all"} region=${regionArg ?? "all"}`,
+    `googleSearch=${usingTempGoogleKey ? "TEMP" : "default"} googlePhotos=${usingProdPhotosKey ? "PHOTOS_KEY" : usingTempGoogleKey ? "TEMP" : "default"} force=${force} skipPhotos=${skipPhotos} skipEmails=${skipEmails} centro=${centroMode} zone=${harvestZone} hotelOnly=${hotelOnly} maxHotels=${maxHotels ?? "default"} limit=${limit ?? "none"} fillGaps=${fillGaps} italyPriority=${italyPriority} italyExtra=${italyExtra} city=${cityArg ?? "none"} countries=${countriesArg ?? "none"} comune=${comuneArg ?? "all"} region=${regionArg ?? "all"}`,
   );
 
   const comuni = await loadComuni();

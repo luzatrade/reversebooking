@@ -8,19 +8,29 @@ dotenv.config({ path: resolve(__dirname, "../.env.local"), override: true });
 
 import { createClient } from "@supabase/supabase-js";
 
-const CITY_CENTRO = {
-  Venezia: { lat: 45.4343, lng: 12.3388, radiusM: 2000 },
-  Milano: { lat: 45.4642, lng: 9.19, radiusM: 2800 },
+const CITY_ZONES = {
+  Venezia: {
+    centro: { lat: 45.4343, lng: 12.3388, radiusM: 2000 },
+    mestre: { lat: 45.488, lng: 12.255, radiusM: 3500 },
+  },
+  Milano: {
+    centro: { lat: 45.4642, lng: 9.19, radiusM: 2800 },
+  },
 };
 
 const comuneFlag = process.argv.indexOf("--comune");
+const zoneFlag = process.argv.indexOf("--zone");
 const comuneName =
   comuneFlag !== -1 && process.argv[comuneFlag + 1] && !process.argv[comuneFlag + 1].startsWith("--")
     ? process.argv[comuneFlag + 1]
     : "Venezia";
+const zoneName =
+  zoneFlag !== -1 && process.argv[zoneFlag + 1] && !process.argv[zoneFlag + 1].startsWith("--")
+    ? process.argv[zoneFlag + 1]
+    : "all";
 
-const CENTRO = CITY_CENTRO[comuneName];
-if (!CENTRO) throw new Error(`Comune non supportato: ${comuneName}`);
+const zones = CITY_ZONES[comuneName];
+if (!zones) throw new Error(`Comune non supportato: ${comuneName}`);
 
 function haversineMeters(lat1, lng1, lat2, lng2) {
   const toRad = (d) => (d * Math.PI) / 180;
@@ -33,9 +43,23 @@ function haversineMeters(lat1, lng1, lat2, lng2) {
   return 2 * R * Math.asin(Math.sqrt(a));
 }
 
-function inCentro(row) {
+function inZone(row, zone) {
   if (row.lat == null || row.lng == null) return false;
-  return haversineMeters(CENTRO.lat, CENTRO.lng, Number(row.lat), Number(row.lng)) <= CENTRO.radiusM;
+  return haversineMeters(zone.lat, zone.lng, Number(row.lat), Number(row.lng)) <= zone.radiusM;
+}
+
+function zoneLabel(row) {
+  if (zones.centro && inZone(row, zones.centro)) return "centro";
+  if (zones.mestre && inZone(row, zones.mestre)) return "mestre";
+  return null;
+}
+
+function inExport(row) {
+  if (zoneName === "all") {
+    return (zones.centro && inZone(row, zones.centro)) || (zones.mestre && inZone(row, zones.mestre));
+  }
+  if (!zones[zoneName]) return false;
+  return inZone(row, zones[zoneName]);
 }
 
 const sb = createClient(
@@ -54,9 +78,25 @@ const { data, error } = await sb
 
 if (error) throw error;
 
-const centro = (data ?? []).filter(inCentro);
+const exported = (data ?? [])
+  .filter(inExport)
+  .map((row) => ({ ...row, area: zoneLabel(row) }))
+  .sort((a, b) => a.nome.localeCompare(b.nome, "it"));
+
 const slugCity = comuneName.toLowerCase();
-const outPath = resolve(__dirname, `../data/${slugCity}-centro-full-export.json`);
-writeFileSync(outPath, JSON.stringify(centro, null, 2));
-console.log(`Exported ${centro.length} ${comuneName} centro structures to ${outPath}`);
-console.log(`seo_indexable: ${centro.filter((r) => r.seo_indexable).length}`);
+const zoneSuffix = zoneName === "all" ? "centro-mestre" : zoneName;
+const outPath = resolve(__dirname, `../data/${slugCity}-${zoneSuffix}-full-export.json`);
+writeFileSync(outPath, JSON.stringify(exported, null, 2));
+
+const byArea = exported.reduce(
+  (acc, r) => {
+    const k = r.area ?? "other";
+    acc[k] = (acc[k] ?? 0) + 1;
+    return acc;
+  },
+  {},
+);
+
+console.log(`Exported ${exported.length} ${comuneName} (${zoneName}) → ${outPath}`);
+console.log("Per area:", byArea);
+console.log(`seo_indexable: ${exported.filter((r) => r.seo_indexable).length}`);
