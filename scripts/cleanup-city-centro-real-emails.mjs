@@ -27,7 +27,7 @@ const CITY_ZONES = {
   Milano: { centro: { lat: 45.4642, lng: 9.19, radiusM: 2800 } },
   Venezia: {
     centro: { lat: 45.4343, lng: 12.3388, radiusM: 2000 },
-    mestre: { lat: 45.488, lng: 12.255, radiusM: 3500 },
+    mestre: { lat: 45.4935, lng: 12.2424, radiusM: 1800 },
   },
 };
 

@@ -91,8 +91,8 @@ const CITY_CENTRO = {
   firenze: { lat: 43.7696, lng: 11.2558, radiusM: 2000 },
   bari: { lat: 41.1171, lng: 16.8719, radiusM: 2200 },
   venezia: { lat: 45.4343, lng: 12.3388, radiusM: 2000 },
-  /** Terraferma veneziana (Mestre, Marghera, Tessera) */
-  mestre: { lat: 45.488, lng: 12.255, radiusM: 3500 },
+  /** Mestre centro (Piazza Ferretto, stazione, Via Piave) — non Marghera/Tessera */
+  mestre: { lat: 45.4935, lng: 12.2424, radiusM: 1800 },
   verona: { lat: 45.4384, lng: 10.9916, radiusM: 2000 },
   rimini: { lat: 44.0678, lng: 12.5695, radiusM: 2500 },
   siena: { lat: 43.3188, lng: 11.3308, radiusM: 1500 },
@@ -414,14 +414,12 @@ function searchQueries(comune) {
     if (comune.nome === "Venezia") {
       if (harvestZone === "mestre") {
         return [
-          "hotel Mestre Venezia",
           "hotel Mestre centro",
+          "hotel Mestre Piazza Ferretto",
           "hotel Mestre stazione",
-          "hotel Venezia Mestre",
-          "hotel Marghera Venezia",
-          "hotel Tessera aeroporto Venezia",
-          "hotel Porto Marghera",
           "hotel Via Piave Mestre",
+          "hotel Mestre Venezia centro",
+          "hotel Venezia Mestre",
         ];
       }
       return [
