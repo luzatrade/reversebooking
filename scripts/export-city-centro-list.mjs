@@ -23,7 +23,7 @@ const CITY_ZONES = {
     centro: { lat: 43.7696, lng: 11.2558, radiusM: 2500 },
   },
   Padova: {
-    centro: { lat: 45.4064, lng: 11.8768, radiusM: 4000 },
+    centro: { lat: 45.4064, lng: 11.8768, radiusM: 7000 },
   },
 };
 

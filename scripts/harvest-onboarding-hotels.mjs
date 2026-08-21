@@ -101,7 +101,7 @@ const CITY_CENTRO = {
   "reggio-di-calabria": { lat: 38.1113, lng: 15.6471, radiusM: 2200 },
   sorrento: { lat: 40.6263, lng: 14.3758, radiusM: 1500 },
   amalfi: { lat: 40.634, lng: 14.6027, radiusM: 1200 },
-  padova: { lat: 45.4064, lng: 11.8768, radiusM: 4000 },
+  padova: { lat: 45.4064, lng: 11.8768, radiusM: 7000 },
   trieste: { lat: 45.6495, lng: 13.7768, radiusM: 2000 },
   perugia: { lat: 43.1107, lng: 12.389, radiusM: 2000 },
   lecce: { lat: 40.3515, lng: 18.175, radiusM: 2000 },
