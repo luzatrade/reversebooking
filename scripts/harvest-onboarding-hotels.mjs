@@ -411,6 +411,20 @@ function searchQueries(comune) {
         "luxury hotel Milano centro",
       ];
     }
+    if (comune.nome === "Verona") {
+      return [
+        `hotel centro ${comune.nome}`,
+        `hotel ${comune.nome} centro storico`,
+        `hotel ${base} centro`,
+        "hotel Verona Arena",
+        "hotel Verona Piazza Bra",
+        "hotel Verona Porta Nuova",
+        "hotel Verona centro storico",
+        "hotel Verona Giulietta",
+        "boutique hotel Verona centro",
+        "luxury hotel Verona",
+      ];
+    }
     if (comune.nome === "Venezia") {
       if (harvestZone === "mestre") {
         return [
