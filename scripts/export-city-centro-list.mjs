@@ -17,7 +17,7 @@ const CITY_ZONES = {
     centro: { lat: 45.4642, lng: 9.19, radiusM: 2800 },
   },
   Verona: {
-    centro: { lat: 45.4384, lng: 10.9916, radiusM: 2000 },
+    centro: { lat: 45.4384, lng: 10.9916, radiusM: 2500 },
   },
 };
 

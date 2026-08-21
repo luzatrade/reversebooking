@@ -93,7 +93,7 @@ const CITY_CENTRO = {
   venezia: { lat: 45.4343, lng: 12.3388, radiusM: 2000 },
   /** Mestre centro (Piazza Ferretto, stazione, Via Piave) — non Marghera/Tessera */
   mestre: { lat: 45.4935, lng: 12.2424, radiusM: 1800 },
-  verona: { lat: 45.4384, lng: 10.9916, radiusM: 2000 },
+  verona: { lat: 45.4384, lng: 10.9916, radiusM: 2500 },
   rimini: { lat: 44.0678, lng: 12.5695, radiusM: 2500 },
   siena: { lat: 43.3188, lng: 11.3308, radiusM: 1500 },
   pisa: { lat: 43.7228, lng: 10.4017, radiusM: 1800 },
@@ -421,6 +421,16 @@ function searchQueries(comune) {
         "hotel Verona Porta Nuova",
         "hotel Verona centro storico",
         "hotel Verona Giulietta",
+        "hotel Verona Piazza Erbe",
+        "hotel Verona Castelvecchio",
+        "hotel Verona Veronetta",
+        "hotel Verona Borgo Trento",
+        "hotel Verona Corso Porta Nuova",
+        "hotel Verona Adige",
+        "hotel Verona stazione",
+        "hotel Verona San Zeno",
+        "hotel Verona Ponte Pietra",
+        "affittacamere Verona centro",
         "boutique hotel Verona centro",
         "luxury hotel Verona",
       ];
@@ -626,7 +636,8 @@ async function collectPlacesForComune(comune, existingPlaceIds) {
 
     let pageToken;
     let pages = 0;
-    while (byId.size < slotsNeeded && pages < 3) {
+    const maxPages = maxHotels && maxHotels >= 100 ? 5 : 3;
+    while (byId.size < slotsNeeded && pages < maxPages) {
       await sleep(SEARCH_DELAY_MS);
       const data = await searchPlaces(query, pageToken, comune);
       for (const place of data.places ?? []) {

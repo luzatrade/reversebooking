@@ -29,7 +29,7 @@ const CITY_ZONES = {
     centro: { lat: 45.4343, lng: 12.3388, radiusM: 2000 },
     mestre: { lat: 45.4935, lng: 12.2424, radiusM: 1800 },
   },
-  Verona: { centro: { lat: 45.4384, lng: 10.9916, radiusM: 2000 } },
+  Verona: { centro: { lat: 45.4384, lng: 10.9916, radiusM: 2500 } },
 };
 
 const comuneFlag = process.argv.indexOf("--comune");
