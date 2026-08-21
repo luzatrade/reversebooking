@@ -101,7 +101,7 @@ const CITY_CENTRO = {
   "reggio-di-calabria": { lat: 38.1113, lng: 15.6471, radiusM: 2200 },
   sorrento: { lat: 40.6263, lng: 14.3758, radiusM: 1500 },
   amalfi: { lat: 40.634, lng: 14.6027, radiusM: 1200 },
-  padova: { lat: 45.4064, lng: 11.8768, radiusM: 2500 },
+  padova: { lat: 45.4064, lng: 11.8768, radiusM: 4000 },
   trieste: { lat: 45.6495, lng: 13.7768, radiusM: 2000 },
   perugia: { lat: 43.1107, lng: 12.389, radiusM: 2000 },
   lecce: { lat: 40.3515, lng: 18.175, radiusM: 2000 },
@@ -445,6 +445,11 @@ function searchQueries(comune) {
         "affittacamere Padova centro",
         "boutique hotel Padova centro",
         "luxury hotel Padova",
+        "bed and breakfast Padova centro",
+        "guest house Padova centro",
+        "B&B Padova centro storico",
+        "hotel Padova Via Roma",
+        "hotel Padova Via San Fermo",
       ];
     }
     if (comune.nome === "Verona") {
@@ -504,7 +509,28 @@ function searchQueries(comune) {
     ];
   }
   if (hotelOnly) {
+    if (comune.nome === "Padova") {
+      return [
+        `hotel ${base} Italia`,
+        `hotel ${comune.nome} centro`,
+        "hotel Padova stazione",
+        "hotel Padova Prato della Valle",
+        "hotel Padova Basilica Sant'Antonio",
+      ];
+    }
     return [`hotel ${base} Italia`, `hotel ${comune.nome} centro`];
+  }
+  if (comune.nome === "Padova") {
+    return [
+      `hotel ${base} Italia`,
+      `bed and breakfast ${base}`,
+      `affittacamere ${base}`,
+      `hotel Padova centro storico`,
+      `hotel Padova stazione`,
+      `guest house Padova`,
+      `hotel Padova Università`,
+      `hotel Padova Prato della Valle`,
+    ];
   }
   return [
     `hotel ${base} Italia`,

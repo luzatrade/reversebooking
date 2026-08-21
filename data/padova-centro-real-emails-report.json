@@ -1,0 +1,501 @@
+{
+  "comune": "Padova",
+  "zone": "centro",
+  "dryRun": false,
+  "totalCentro": 70,
+  "kept": [
+    {
+      "zone": "centro",
+      "slug": "alloggi-turistici-diamantino-town-house-padova",
+      "nome": "Alloggi Turistici Diamantino Town House",
+      "email": "info@diamantino.it",
+      "website": "https://www.diamantino.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Grand'Italia \"Residenza d'Epoca\"",
+      "email": "grandcentral@bypillow.com",
+      "website": "https://www.bypillow.com/it/alloggi/padua/grand-central/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Europa",
+      "email": "info@hoteleuropapd.it",
+      "website": "http://www.hoteleuropapd.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Majestic Toscanelli",
+      "email": "majestic@toscanelli.com",
+      "website": "http://www.toscanelli.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "casa-del-pellegrino-cadoneghe",
+      "nome": "Casa del Pellegrino",
+      "email": "info@casadelpellegrino.com",
+      "website": "http://www.casadelpellegrino.com/it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Art Hotel Al Fagiano",
+      "email": "info@alfagiano.com",
+      "website": "https://www.alfagiano.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Padova Suites C20",
+      "email": "info@padovasuitesc20.it",
+      "website": "https://www.padovasuitesc20.it/?utm_source=gbp&utm_medium=organic"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Le Camp Suite & SPA",
+      "email": "info@lecampsuite.it",
+      "website": "http://www.lecampsuite.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Giotto",
+      "email": "info@hotelgiotto.com",
+      "website": "https://www.hotelgiotto.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Giovanni",
+      "email": "info@hotelgiovanni.it",
+      "website": "http://www.hotelgiovanni.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Camera Tua ®",
+      "email": "info@cameratua.com",
+      "website": "https://www.cameratua.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Erik Langer Pedrocchi Suites",
+      "email": "info@eriklanger.it",
+      "website": "https://www.eriklanger.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Serafino Hotel",
+      "email": "info@serafinohotel.it",
+      "website": "https://www.serafinohotel.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Junior",
+      "email": "info@hotel-junior.it",
+      "website": "http://www.hotel-junior.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Albergo Verdi",
+      "email": "info@albergoverdipadova.it",
+      "website": "http://www.albergoverdipadova.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "palazzo-gilberto-albignasego",
+      "nome": "Palazzo Gilberto",
+      "email": "palazzogilberto@gmail.com",
+      "website": "https://palazzogilberto.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Al Cason",
+      "email": "info@hotelalcason.com",
+      "website": "https://www.hotelalcason.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Canton del Gallo",
+      "email": "cantondelgallopadova@gmail.com",
+      "website": "https://www.cantondelgallo.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Casanova Padova",
+      "email": "info@hotel-casanova.it",
+      "website": "https://www.hotel-casanova.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Sure Hotel by Best Western Milano Hotel Padova",
+      "email": "info@milanohotelpadova.it",
+      "website": "http://www.milanohotelpadova.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Casa Santa Caterina",
+      "email": "santacaterinaesantantonio@gmail.com",
+      "website": "https://casasantacaterinapadova.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Camera Tua ® | Jappelli Rooms",
+      "email": "info@cameratua.com",
+      "website": "http://www.cameratua.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "ApartmentsPadova",
+      "email": "info@apartmentspadova.it",
+      "website": "http://www.apartmentspadova.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Camera Tua ® | Affittacamere Paccagnella",
+      "email": "info@cameratua.com",
+      "website": "https://www.cameratua.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Residence La Fenice",
+      "email": "info@residencelafenice.com",
+      "website": "https://residencelafenice.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Casa Genny",
+      "email": "casagennyhouse@gmail.com",
+      "website": "http://www.casagennypadova.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Palazzo Mantua Benavides",
+      "email": "suite@palazzomantuabenavides.com",
+      "website": "http://www.palazzomantuabenavides.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "casa-di-accoglienza-lucia-valentini-terrani-campodarsego",
+      "nome": "Casa di Accoglienza Lucia Valentini Terrani",
+      "email": "info@casavalentiniterrani.org",
+      "website": "http://www.casavalentiniterrani.org/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Villa Margherita | Luxury Rooms in Padua",
+      "email": "hello@villamargherita.padova.it",
+      "website": "https://www.villamargherita.padova.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Prato della Valle 34 Apartments",
+      "email": "pratodellavalle34@gmail.com",
+      "website": "https://pratodellavalle34.bbvillarosapadova.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Villa Rosa",
+      "email": "info@bbvillarosapadova.it",
+      "website": "http://bbvillarosapadova.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "CIVICO 57 Al Santo - PADOVA",
+      "email": "civico57.info@gmail.com",
+      "website": "https://padova-aicivici-locazionituristiche.lovable.app/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B 2 Palme",
+      "email": "2palme@2palme.it",
+      "website": "http://www.2palme.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B L'edera",
+      "email": "natalinabortolami@gmail.com",
+      "website": "https://beb.it/ederapadova"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "BedStudent - PadPad - The Best Rooms and Studios in Padova!",
+      "email": "info@bedstudent.it",
+      "website": "http://www.bedstudent.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Dadi Home",
+      "email": "info@dadihome.it",
+      "website": "http://www.dadihome.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Residenza SubitoSanto",
+      "email": "residenza@subitosanto.it",
+      "website": "https://subitosanto.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Residence dei Frutti",
+      "email": "%20residencedeifrutti@gmail.com",
+      "website": "https://residencedeifrutti.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Cà Trieste",
+      "email": "gdbufficio@gmail.com",
+      "website": "http://www.catriesteresidence.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Casa Locatelli",
+      "email": "info@casalocatelli.it",
+      "website": "http://www.casalocatelli.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B La stanza di Max Padova, via Sorio, Piazzale san giovanni",
+      "email": "maxchiria@gmail.com",
+      "website": "https://lastanzadimax.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Santa Lucia Suites",
+      "email": "info@santaluciasuites.it",
+      "website": "http://www.santaluciasuites.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Residence Eremitani",
+      "email": "info@eremitaniresidence.it",
+      "website": "http://www.eremitaniresidence.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "DIMORA IN PRATO | Affittacamere in Prato della Valle",
+      "email": "dimorainprato@bandj.it",
+      "website": "https://dimorainprato.bandj.it/contatti/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Palazzo Vittoria Locazione Turistica",
+      "email": "mail.ilmaestrale@gmail.com",
+      "website": "https://www.palazzo-vittoria.com/it"
+    },
+    {
+      "zone": "centro",
+      "slug": "suites-isola-memmia-padova",
+      "nome": "Suites Isola Memmia",
+      "email": "bbisolamemmia@gmail.com",
+      "website": "http://www.isolamemmia.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "casa-battisti-padova",
+      "nome": "Casa Battisti",
+      "email": "info@casabattisti.it",
+      "website": "https://www.casabattisti.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Best Western Plus Net Tower Hotel Padova",
+      "email": "info@towerhotelpadova.net",
+      "website": "http://www.towerhotelpadova.net/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B and b corinna",
+      "email": "bebcorinna@gmail.com",
+      "website": "https://www.bebcorinna.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Angelina",
+      "email": "info@bbangelina.com",
+      "website": "http://www.bbangelina.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Loft Padova Bed & Breakfast",
+      "email": "infoloftpadova@gmail.com",
+      "website": "http://www.loftpadova.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Casa a Colori Padova",
+      "email": "info@casaacoloripadova.org",
+      "website": "http://www.casaacoloripadova.org/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Angile' Miriam",
+      "email": "miriam2miriam3@hotmail.com",
+      "website": "http://www.casamiriam.eu/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Luxury Rooms Padova Station",
+      "email": "lrps@luxuryroomspd.com",
+      "website": "https://www.luxuryroomspd.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Grace House Padova",
+      "email": "info@gracehousepadova.it",
+      "website": "https://www.gracehousepadova.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Bsuites Scrovegni",
+      "email": "bsuitesb@gmail.com",
+      "website": "http://www.bsuites.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "m14-hotel-spa-albignasego",
+      "nome": "M14 Hotel & SPA",
+      "email": "info@hotelm14.it",
+      "website": "http://www.hotelm14.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "bread-and-butter-rooms-albignasego",
+      "nome": "Bread and Butter rooms",
+      "email": "info@breadandbutter-rooms.com",
+      "website": "https://www.breadandbutter-rooms.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "casa-patavina-padova",
+      "nome": "Casa Patavina",
+      "email": "casapatavina@gmail.com",
+      "website": "http://www.casapatavina.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "alloggi-pontecorvo-padova",
+      "nome": "Alloggi Pontecorvo",
+      "email": "info@hotelgiotto.com",
+      "website": "https://hotelgiotto.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "casa-al-carmine-padova",
+      "nome": "Casa al Carmine",
+      "email": "info@casaalcarmine.it",
+      "website": "https://www.casaalcarmine.it/it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "b-b-al-santo-padova",
+      "nome": "B&B al Santo",
+      "email": "info@bebalsantopadova.it",
+      "website": "http://www.bebalsantopadova.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "al-fiume-piovego-padova",
+      "nome": "Al Fiume Piovego",
+      "email": "info@alfiumepiovego.it",
+      "website": "http://www.alfiumepiovego.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "casa-giotto-urban-luxury-padova",
+      "nome": "Casa Giotto | Urban Luxury",
+      "email": "booking@casagiotto.it",
+      "website": "https://www.casagiotto.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-canton-dell-orto-padova",
+      "nome": "Hotel Canton dell Orto",
+      "email": "info@cantondellorto.com",
+      "website": "http://www.cantondellorto.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "b-b-chezelisabeth-bed-and-breakfast-padova-centr-padova",
+      "nome": "B&B Chezelisabeth - Bed and Breakfast Padova Centro",
+      "email": "chezelisabeth1952@libero.it",
+      "website": "https://www.bedchezelisabethpadova.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-al-prato-padova",
+      "nome": "Hotel al Prato",
+      "email": "info@hotelalpratopadova.it",
+      "website": "http://hotelalpratopadova.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "bed-and-breakfast-bio-salix-padova",
+      "nome": "Bed and Breakfast Bio Salix",
+      "email": "beb.biosalix@gmail.com",
+      "website": "http://www.bnbbiosalix.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotello-padova-hostel-more-cadoneghe",
+      "nome": "Hotello Padova - Hostel & More",
+      "email": "info@hotellopd.space",
+      "website": "https://www.hotellopd.space/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-patavium-cadoneghe",
+      "nome": "Hotel Patavium",
+      "email": "info@hotelpatavium.it",
+      "website": "https://www.hotelpatavium.it/"
+    }
+  ],
+  "updatedEmail": [],
+  "deleted": [],
+  "skippedClaimed": []
+}

@@ -143,6 +143,8 @@ export function isRealOnboardingEmail(email, websiteUrl) {
     "baglionihotels.com",
     "roccofortehotels.com",
     "casualhoteles.com",
+    "goldentulip.com",
+    "louvrehotels.com",
   ];
   if (knownChainDomains.some((d) => domain === d || domain.endsWith(`.${d}`))) return true;
 
