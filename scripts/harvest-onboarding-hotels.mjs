@@ -88,7 +88,7 @@ const CITY_CENTRO = {
   torino: { lat: 45.0703, lng: 7.6869, radiusM: 2500 },
   genova: { lat: 44.4056, lng: 8.9463, radiusM: 2200 },
   bologna: { lat: 44.4949, lng: 11.3426, radiusM: 2200 },
-  firenze: { lat: 43.7696, lng: 11.2558, radiusM: 2000 },
+  firenze: { lat: 43.7696, lng: 11.2558, radiusM: 2500 },
   bari: { lat: 41.1171, lng: 16.8719, radiusM: 2200 },
   venezia: { lat: 45.4343, lng: 12.3388, radiusM: 2000 },
   /** Mestre centro (Piazza Ferretto, stazione, Via Piave) — non Marghera/Tessera */
@@ -409,6 +409,23 @@ function searchQueries(comune) {
         "hotel Milano Galleria",
         "boutique hotel Milano centro",
         "luxury hotel Milano centro",
+      ];
+    }
+    if (comune.nome === "Firenze") {
+      return [
+        `hotel centro ${comune.nome}`,
+        `hotel ${comune.nome} centro storico`,
+        `hotel ${base} centro`,
+        "hotel Firenze Duomo",
+        "hotel Firenze Santa Maria Novella",
+        "hotel Firenze Oltrarno",
+        "hotel Firenze San Lorenzo",
+        "hotel Firenze Santa Croce",
+        "hotel Firenze Ponte Vecchio",
+        "hotel Firenze Repubblica",
+        "boutique hotel Firenze centro",
+        "luxury hotel Firenze",
+        "affittacamere Firenze centro",
       ];
     }
     if (comune.nome === "Verona") {
