@@ -45,6 +45,8 @@ const GENERIC_STRUCTURE_TOKENS = new Set([
 export type CatalogStructureHit = {
   id: string;
   name: string;
+  slug: string | null;
+  seoIndexable: boolean;
   cityName: string;
   cityId: string | null;
   countryCode: string;
@@ -94,7 +96,7 @@ async function queryOnboardingRows(
   dbTerms: string[],
   fetchLimit: number,
 ) {
-  const byId = new Map<string, { id: string; nome: string; city_name: string; indirizzo: string | null }>();
+  const byId = new Map<string, { id: string; nome: string; slug: string | null; seo_indexable: boolean; city_name: string; indirizzo: string | null }>();
 
   for (const dbTerm of dbTerms) {
     const filter = buildOrFilter(dbTerm, [...ONBOARDING_FIELDS], ["id"]);
@@ -102,7 +104,7 @@ async function queryOnboardingRows(
 
     const { data, error } = await supabase
       .from("onboarding_hotels")
-      .select("id, nome, city_name, indirizzo")
+      .select("id, nome, slug, seo_indexable, city_name, indirizzo")
       .or(filter)
       .order("nome", { ascending: true })
       .limit(fetchLimit);
@@ -126,6 +128,8 @@ async function queryRegisteredRows(
     {
       id: string;
       property_name: string;
+      slug: string | null;
+      seo_indexable: boolean;
       city_name: string;
       full_address: string | null;
       specific_area: string | null;
@@ -138,7 +142,7 @@ async function queryRegisteredRows(
 
     const { data, error } = await supabase
       .from("hotel_accounts")
-      .select("id, property_name, city_name, full_address, specific_area")
+      .select("id, property_name, slug, seo_indexable, city_name, full_address, specific_area")
       .eq("account_status", "active")
       .eq("subscription_active", true)
       .or(filter)
@@ -182,6 +186,8 @@ export async function searchCatalogStructures(query: string, limit = 6): Promise
       return {
         id: row.id,
         name: row.property_name,
+        slug: row.slug ?? null,
+        seoIndexable: Boolean(row.seo_indexable),
         cityName: row.city_name,
         cityId,
         countryCode,
@@ -197,6 +203,8 @@ export async function searchCatalogStructures(query: string, limit = 6): Promise
       return {
         id: row.id,
         name: row.nome,
+        slug: row.slug ?? null,
+        seoIndexable: Boolean(row.seo_indexable),
         cityName: row.city_name,
         cityId,
         countryCode,

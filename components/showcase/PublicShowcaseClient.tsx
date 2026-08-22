@@ -102,7 +102,8 @@ function catalogHitToHotelAccount(structure: CatalogStructureHit): HotelAccount 
     resolveCanonicalCityId({ cityName: structure.cityName, countryCode: structure.countryCode });
   return {
     id: structure.id,
-    slug: null,
+    slug: structure.slug,
+    seoIndexable: structure.seoIndexable,
     property_name: structure.name,
     structure_type: "hotel",
     provider_kind: "structure",
