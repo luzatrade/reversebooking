@@ -3,11 +3,11 @@ import type { Locale } from "@/lib/i18n/translations";
 import { localizedPath, structurePublicPath } from "@/lib/i18n/routing";
 
 export function structureProfileHref(
-  hotel: Pick<StructureExploreHotel, "id" | "isOnboarding" | "slug">,
+  hotel: Pick<StructureExploreHotel, "id" | "isOnboarding" | "slug" | "seoIndexable">,
   locale: Locale = "it",
 ) {
-  if (hotel.slug) return structurePublicPath(hotel.slug, locale);
   if (hotel.isOnboarding) return localizedPath(locale, `/hotel/onboarding/${hotel.id}`);
+  if (hotel.slug && hotel.seoIndexable) return structurePublicPath(hotel.slug, locale);
   return localizedPath(locale, `/hotel/${hotel.id}`);
 }
 

@@ -11,8 +11,8 @@ type Props = {
 };
 
 function inventoryStructureHref(hotel: ShowcaseHomeHotel, locale: Locale) {
-  if (hotel.slug) return structurePublicPath(hotel.slug, locale);
   if (hotel.isOnboarding) return localizedPath(locale, `/hotel/onboarding/${hotel.id}`);
+  if (hotel.slug && hotel.seoIndexable) return structurePublicPath(hotel.slug, locale);
   return localizedPath(locale, `/hotel/${hotel.id}`);
 }
 

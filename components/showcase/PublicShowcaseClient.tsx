@@ -49,7 +49,7 @@ function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date(
 type PreferenceFilters = { connecting_rooms?: boolean; disabled_access?: boolean; pool?: boolean; spa?: boolean; bathtub?: boolean; garage?: boolean; beach?: boolean; pets_allowed?: boolean };
 type AdvertiserPublic = { first_name: string | null; last_name: string | null; advertiser_type?: string | null };
 type TravelRequest = { id: string; country_code: string | null; city_name: string; city_id: string | null; preferred_area: string; check_in: string; check_out: string; guests_count: number; rooms_count: number; budget: number; meal_plan: MealPlan; preference_filters: PreferenceFilters | null; notes: string | null; expires_at: string; created_at: string; status: string; advertiser_profiles?: AdvertiserPublic | AdvertiserPublic[] | null };
-type HotelAccount = { id: string; slug?: string | null; property_name: string; structure_type: StructureType; provider_kind: "structure" | "agency"; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; description_en: string | null; public_email: string | null; public_phone: string | null; website: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null; latitude?: number | null; longitude?: number | null; isOnboarding?: boolean; google_maps_url?: string | null };
+type HotelAccount = { id: string; slug?: string | null; seoIndexable?: boolean; property_name: string; structure_type: StructureType; provider_kind: "structure" | "agency"; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; description_en: string | null; public_email: string | null; public_phone: string | null; website: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null; latitude?: number | null; longitude?: number | null; isOnboarding?: boolean; google_maps_url?: string | null };
 type Offer = { id: string; travel_request_id: string };
 type Viewer = {
   userId: string | null;
@@ -187,6 +187,7 @@ function mapInitialHotel(row: ShowcaseHomeHotel): HotelAccount {
   return {
     id: row.id,
     slug: row.slug,
+    seoIndexable: row.seoIndexable,
     property_name: row.property_name,
     structure_type: row.structure_type as StructureType,
     provider_kind: row.provider_kind,
@@ -681,7 +682,12 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
       publicHotelDescription(pickLocalizedDescription(hotel.description, hotel.description_en, locale)),
     );
     const profileHref = structureProfileHref(
-      { id: hotel.id, isOnboarding: hotel.isOnboarding ?? false, slug: hotel.slug ?? null },
+      {
+        id: hotel.id,
+        isOnboarding: hotel.isOnboarding ?? false,
+        slug: hotel.slug ?? null,
+        seoIndexable: hotel.seoIndexable,
+      },
       locale,
     );
 
@@ -749,9 +755,9 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
           <div className="flex flex-wrap items-center gap-2">
             <a href={mapsHref(hotel)} target="_blank" rel="noreferrer" className={ctaMaps}><MapPin className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardMap}</a>
             {hotel.isOnboarding ? (
-              <Link href={structureProfileHref({ id: hotel.id, isOnboarding: true, slug: hotel.slug ?? null }, locale)} className={ctaProfile}>{t.showcase.cardProfile}</Link>
+              <Link href={structureProfileHref({ id: hotel.id, isOnboarding: true, slug: hotel.slug ?? null, seoIndexable: hotel.seoIndexable }, locale)} className={ctaProfile}>{t.showcase.cardProfile}</Link>
             ) : (
-              <Link href={structureProfileHref({ id: hotel.id, isOnboarding: false, slug: hotel.slug ?? null }, locale)} className={ctaProfile}>{t.showcase.cardProfile}</Link>
+              <Link href={structureProfileHref({ id: hotel.id, isOnboarding: false, slug: hotel.slug ?? null, seoIndexable: hotel.seoIndexable }, locale)} className={ctaProfile}>{t.showcase.cardProfile}</Link>
             )}
             {viewer.role !== "hotel" ? (
               <Link href={createRequestHrefForHotel(hotel)} className={ctaRequest}><Euro className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardRequest}</Link>
@@ -780,7 +786,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
           <div className="mt-4 flex-1" />
           <div className="flex flex-wrap items-center gap-2">
             <a href={mapsHref(agency)} target="_blank" rel="noreferrer" className={ctaMaps}><MapPin className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardMap}</a>
-            <Link href={structureProfileHref({ id: agency.id, isOnboarding: false, slug: agency.slug ?? null }, locale)} className={ctaProfile}>{t.showcase.cardProfile}</Link>
+            <Link href={structureProfileHref({ id: agency.id, isOnboarding: false, slug: agency.slug ?? null, seoIndexable: agency.seoIndexable }, locale)} className={ctaProfile}>{t.showcase.cardProfile}</Link>
           </div>
         </div>
       </article>

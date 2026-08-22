@@ -28,20 +28,21 @@ const PUBLIC_ONBOARDING_STATUS_SET = new Set<string>([
 ]);
 
 const REGISTERED_SELECT =
-  "id, slug, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, description_en, public_email, public_phone, main_photo_url, latitude, longitude, onboarding_hotel_id";
+  "id, slug, seo_indexable, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, description_en, public_email, public_phone, main_photo_url, latitude, longitude, onboarding_hotel_id";
 
 const ONBOARDING_SELECT =
-  "id, slug, nome, city_name, indirizzo, description, description_en, email, phone, main_photo_url, lat, lng, status";
+  "id, slug, seo_indexable, nome, city_name, indirizzo, description, description_en, email, phone, main_photo_url, lat, lng, status";
 
 const ONBOARDING_SELECT_LEGACY =
-  "id, slug, nome, city_name, indirizzo, description, email, phone, main_photo_url, lat, lng, status";
+  "id, slug, seo_indexable, nome, city_name, indirizzo, description, email, phone, main_photo_url, lat, lng, status";
 
 const REGISTERED_SELECT_LEGACY =
-  "id, slug, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, latitude, longitude, onboarding_hotel_id";
+  "id, slug, seo_indexable, property_name, structure_type, provider_kind, country_code, city_name, city_id, specific_area, description, public_email, public_phone, main_photo_url, latitude, longitude, onboarding_hotel_id";
 
 export type ShowcaseHomeHotel = {
   id: string;
   slug: string | null;
+  seoIndexable: boolean;
   property_name: string;
   structure_type: string;
   provider_kind: "structure" | "agency";
@@ -112,6 +113,7 @@ function mapOnboardingRow(row: {
   return {
     id: String(row.id),
     slug: row.slug ?? null,
+    seoIndexable: Boolean((row as { seo_indexable?: boolean }).seo_indexable),
     property_name: String(row.nome ?? ""),
     structure_type: "hotel",
     provider_kind: "structure",
@@ -152,6 +154,7 @@ function mapRegisteredRow(row: {
   return {
     id: String(row.id),
     slug: row.slug ?? null,
+    seoIndexable: Boolean((row as { seo_indexable?: boolean }).seo_indexable),
     property_name: String(row.property_name ?? ""),
     structure_type: String(row.structure_type ?? "hotel"),
     provider_kind: (row.provider_kind ?? "structure") as "structure" | "agency",

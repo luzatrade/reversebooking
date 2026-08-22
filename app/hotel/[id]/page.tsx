@@ -11,7 +11,6 @@ import {
   fetchStructureBySlug,
   fetchStructureBySlugAny,
   resolveSlugByUuid,
-  resolveSlugByUuidAny,
   resolveSlugFromPrevious,
   structureIdExists,
 } from "@/lib/seo/structure-queries";
@@ -63,14 +62,6 @@ export default async function Page({ params }: PageProps) {
   if (isUuid(id)) {
     const slug = await resolveSlugByUuid(id);
     if (slug) permanentRedirect(structurePublicPath(slug, locale));
-
-    const legacySlug = await resolveSlugByUuidAny(id);
-    if (legacySlug) {
-      const legacyRecord = await fetchStructureBySlugAny(legacySlug);
-      if (legacyRecord && !legacyRecord.seoIndexable) {
-        redirectDeindexedStructure(legacyRecord, locale);
-      }
-    }
 
     if (!(await structureIdExists(id))) notFound();
 
