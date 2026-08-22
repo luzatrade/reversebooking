@@ -65,7 +65,10 @@
     "failedPhoto": "Foto non letta — prova verticale (MRZ a destra) o orizzontale (MRZ in basso)",
     "manualEntry": "Inserimento manuale",
     "retry": "Riprova",
-    "uploadPhoto": "Carica foto"
+    "uploadPhoto": "Carica foto",
+    "useCamera": "Usa fotocamera",
+    "chooserHint": "Scegli come registrare il documento. Su smartphone consigliamo di caricare una foto nitida della carta d'identità.",
+    "backToChooser": "Altri metodi"
   },
   "form": {
     "title": "Dati ospite",

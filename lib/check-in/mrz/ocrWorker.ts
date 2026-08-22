@@ -30,8 +30,10 @@ const OCR_OPTS = {
   corePath: '/tesseract/',
   langPath: '/model/',
   gzip: true,
-  cachePath: 'hotelsdrop-mrz-v9',
+  cachePath: 'hotelsdrop-mrz-v10',
   cacheMethod: 'write' as const,
+  // Su iOS Safari i Blob URL del worker possono far crashare il tab.
+  workerBlobURL: false,
 };
 
 let workerPromise: Promise<Worker> | null = null;

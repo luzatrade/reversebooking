@@ -5,6 +5,11 @@ import {
   mapOverlayToVideo,
 } from '@/lib/check-in/mrz/cropRegion';
 
+function isMobileDevice() {
+  if (typeof navigator === 'undefined') return false;
+  return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+}
+
 export interface UseCameraResult {
   videoRef: React.RefObject<HTMLVideoElement | null>;
   error: string | null;
@@ -17,24 +22,33 @@ export interface UseCameraResult {
   ) => HTMLCanvasElement | null;
 }
 
-export function useCamera(): UseCameraResult {
+export function useCamera(enabled = true): UseCameraResult {
   const videoRef = useRef<HTMLVideoElement>(null);
   const streamRef = useRef<MediaStream | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [isReady, setIsReady] = useState(false);
 
   useEffect(() => {
+    if (!enabled) {
+      streamRef.current?.getTracks().forEach((t) => t.stop());
+      streamRef.current = null;
+      setIsReady(false);
+      setError(null);
+      return;
+    }
+
     let cancelled = false;
 
     async function start() {
       try {
+        const mobile = isMobileDevice();
         let mediaStream: MediaStream;
         try {
           mediaStream = await navigator.mediaDevices.getUserMedia({
             video: {
               facingMode: { ideal: 'environment' },
-              width: { ideal: 1920 },
-              height: { ideal: 1080 },
+              width: { ideal: mobile ? 1280 : 1920 },
+              height: { ideal: mobile ? 720 : 1080 },
             },
             audio: false,
           });
@@ -71,12 +85,12 @@ export function useCamera(): UseCameraResult {
       streamRef.current = null;
       setIsReady(false);
     };
-  }, []);
+  }, [enabled]);
 
   const captureFullFrame = useCallback((container: HTMLElement): HTMLCanvasElement | null => {
     const video = videoRef.current;
     if (!video) return null;
-    return captureVisibleVideoFrame(video, container, 888);
+    return captureVisibleVideoFrame(video, container, isMobileDevice() ? 720 : 888);
   }, []);
 
   const captureOverlay = useCallback(
