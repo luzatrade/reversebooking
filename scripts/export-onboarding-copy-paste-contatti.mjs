@@ -1,6 +1,6 @@
 /**
  * Export tab-separated per copia/incolla (Excel, Google Sheets).
- * Colonne: Nome | Email | URL | Cellulare
+ * Colonne: Nome | Email | URL HotelsDrop | Cellulare
  * Solo numeri mobile italiani (+39 3xx); i fissi non vengono inseriti.
  * Solo strutture con email e cellulare valido.
  *
@@ -43,11 +43,10 @@ function formatMobile(phone) {
   return phone.trim();
 }
 
-function pickUrl(row) {
-  const website = norm(row.website);
-  if (website) return website;
-  if (row.slug) return `https://www.hotelsdrop.com/hotel/${row.slug}`;
-  return "";
+function hotelsdropUrl(row) {
+  const slug = norm(row.slug);
+  if (!slug) return null;
+  return `https://www.hotelsdrop.com/hotel/${slug}`;
 }
 
 function escCell(v) {
@@ -78,17 +77,19 @@ async function main() {
   for (const row of rows) {
     const email = norm(row.email);
     if (!email) continue;
+    const url = hotelsdropUrl(row);
+    if (!url) continue;
     const mobile = isMobilePhone(row.phone) ? formatMobile(row.phone) : null;
     if (!withEmailOnly && !mobile) continue;
     out.push({
       nome: norm(row.nome) ?? "",
       email,
-      url: pickUrl(row),
+      url,
       cellulare: mobile ?? "",
     });
   }
 
-  const header = ["Nome struttura", "Email", "URL", "Cellulare"];
+  const header = ["Nome struttura", "Email", "URL HotelsDrop", "Cellulare"];
   const lines = [
     header.join("\t"),
     ...out.map((r) => [escCell(r.nome), escCell(r.email), escCell(r.url), escCell(r.cellulare)].join("\t")),
