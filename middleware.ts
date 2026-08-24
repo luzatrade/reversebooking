@@ -13,6 +13,7 @@ import {
   shouldSkipLocaleMiddleware,
 } from "@/lib/i18n/routing";
 import { preferredLocaleFromRequest } from "@/lib/i18n/locale-detect";
+import { extractHotelSlugFromPathname, isRemovedHotelSlug } from "@/lib/seo/removed-hotel-slugs";
 
 const PROTECTED_PREFIXES = [
   "/struttura",
@@ -137,7 +138,20 @@ function mergeCookies(from: NextResponse, into: NextResponse) {
   });
 }
 
+function handleRemovedHotelSlug(request: NextRequest): NextResponse | null {
+  const slug = extractHotelSlugFromPathname(request.nextUrl.pathname);
+  if (!isRemovedHotelSlug(slug)) return null;
+
+  return new NextResponse("Gone", {
+    status: 410,
+    headers: { "Content-Type": "text/plain; charset=utf-8" },
+  });
+}
+
 export async function middleware(request: NextRequest) {
+  const removed = handleRemovedHotelSlug(request);
+  if (removed) return removed;
+
   const localeResponse = handleLocale(request);
   if (localeResponse && localeResponse.status >= 300 && localeResponse.status < 400) {
     return localeResponse;
