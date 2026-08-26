@@ -1,0 +1,53 @@
+HotelsDrop — lista BCC per Aruba Webmail
+=======================================
+
+Email valide uniche: 4681
+Batch: 32 (max 150 destinatari per messaggio — limite Aruba)
+Saltate / non valide: 0
+
+COME USARE
+----------
+1. Apri batch-01-bcc-virgola.txt
+2. Ctrl+A → Ctrl+C (copia tutto)
+3. In Aruba Webmail → Nuovo messaggio → campo BCC → incolla
+4. Ripeti per batch-02, batch-03, ... fino all'ultimo
+
+Formato: virgola + spazio (es. info@hotel.it, reception@bb.it)
+Alternativa: batch-XX-bcc-righe.txt se la webmail accetta una email per riga
+
+LIMITE ARUBA: max 150 destinatari per singolo messaggio.
+
+INDICE BATCH
+------------
+Batch 01: 150 email → batch-01-bcc-virgola.txt (copia tutto) oppure batch-01-bcc-righe.txt (una per riga)
+Batch 02: 150 email → batch-02-bcc-virgola.txt (copia tutto) oppure batch-02-bcc-righe.txt (una per riga)
+Batch 03: 150 email → batch-03-bcc-virgola.txt (copia tutto) oppure batch-03-bcc-righe.txt (una per riga)
+Batch 04: 150 email → batch-04-bcc-virgola.txt (copia tutto) oppure batch-04-bcc-righe.txt (una per riga)
+Batch 05: 150 email → batch-05-bcc-virgola.txt (copia tutto) oppure batch-05-bcc-righe.txt (una per riga)
+Batch 06: 150 email → batch-06-bcc-virgola.txt (copia tutto) oppure batch-06-bcc-righe.txt (una per riga)
+Batch 07: 150 email → batch-07-bcc-virgola.txt (copia tutto) oppure batch-07-bcc-righe.txt (una per riga)
+Batch 08: 150 email → batch-08-bcc-virgola.txt (copia tutto) oppure batch-08-bcc-righe.txt (una per riga)
+Batch 09: 150 email → batch-09-bcc-virgola.txt (copia tutto) oppure batch-09-bcc-righe.txt (una per riga)
+Batch 10: 150 email → batch-10-bcc-virgola.txt (copia tutto) oppure batch-10-bcc-righe.txt (una per riga)
+Batch 11: 150 email → batch-11-bcc-virgola.txt (copia tutto) oppure batch-11-bcc-righe.txt (una per riga)
+Batch 12: 150 email → batch-12-bcc-virgola.txt (copia tutto) oppure batch-12-bcc-righe.txt (una per riga)
+Batch 13: 150 email → batch-13-bcc-virgola.txt (copia tutto) oppure batch-13-bcc-righe.txt (una per riga)
+Batch 14: 150 email → batch-14-bcc-virgola.txt (copia tutto) oppure batch-14-bcc-righe.txt (una per riga)
+Batch 15: 150 email → batch-15-bcc-virgola.txt (copia tutto) oppure batch-15-bcc-righe.txt (una per riga)
+Batch 16: 150 email → batch-16-bcc-virgola.txt (copia tutto) oppure batch-16-bcc-righe.txt (una per riga)
+Batch 17: 150 email → batch-17-bcc-virgola.txt (copia tutto) oppure batch-17-bcc-righe.txt (una per riga)
+Batch 18: 150 email → batch-18-bcc-virgola.txt (copia tutto) oppure batch-18-bcc-righe.txt (una per riga)
+Batch 19: 150 email → batch-19-bcc-virgola.txt (copia tutto) oppure batch-19-bcc-righe.txt (una per riga)
+Batch 20: 150 email → batch-20-bcc-virgola.txt (copia tutto) oppure batch-20-bcc-righe.txt (una per riga)
+Batch 21: 150 email → batch-21-bcc-virgola.txt (copia tutto) oppure batch-21-bcc-righe.txt (una per riga)
+Batch 22: 150 email → batch-22-bcc-virgola.txt (copia tutto) oppure batch-22-bcc-righe.txt (una per riga)
+Batch 23: 150 email → batch-23-bcc-virgola.txt (copia tutto) oppure batch-23-bcc-righe.txt (una per riga)
+Batch 24: 150 email → batch-24-bcc-virgola.txt (copia tutto) oppure batch-24-bcc-righe.txt (una per riga)
+Batch 25: 150 email → batch-25-bcc-virgola.txt (copia tutto) oppure batch-25-bcc-righe.txt (una per riga)
+Batch 26: 150 email → batch-26-bcc-virgola.txt (copia tutto) oppure batch-26-bcc-righe.txt (una per riga)
+Batch 27: 150 email → batch-27-bcc-virgola.txt (copia tutto) oppure batch-27-bcc-righe.txt (una per riga)
+Batch 28: 150 email → batch-28-bcc-virgola.txt (copia tutto) oppure batch-28-bcc-righe.txt (una per riga)
+Batch 29: 150 email → batch-29-bcc-virgola.txt (copia tutto) oppure batch-29-bcc-righe.txt (una per riga)
+Batch 30: 150 email → batch-30-bcc-virgola.txt (copia tutto) oppure batch-30-bcc-righe.txt (una per riga)
+Batch 31: 150 email → batch-31-bcc-virgola.txt (copia tutto) oppure batch-31-bcc-righe.txt (una per riga)
+Batch 32: 31 email → batch-32-bcc-virgola.txt (copia tutto) oppure batch-32-bcc-righe.txt (una per riga)
