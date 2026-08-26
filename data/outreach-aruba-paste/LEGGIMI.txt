@@ -1,53 +1,120 @@
 HotelsDrop — lista BCC per Aruba Webmail
 =======================================
 
-Email valide uniche: 4681
-Batch: 32 (max 150 destinatari per messaggio — limite Aruba)
-Saltate / non valide: 0
+Email valide uniche: 4680
+Saltate / non valide: 1
+
+SE OTTIENI ERRORE 5601 / command unrecognized
+------------------------------------------------
+1. Prova PRIMA test-3-email.txt (3 destinatari) — se fallisce è la casella Aruba, non la lista
+2. Usa batch in safe-50/ (50 destinatari, più stabile in webmail)
+3. Controlla il testo COMPLETO dell'errore (SMTP disabilitato, dominio scaduto, spam...)
+4. Non superare ~250 invii ogni 20 minuti
+5. Mittente: usa la casella con cui sei loggato, o autorizza info@hotelsdrop.com da Webmail
 
 COME USARE
 ----------
-1. Apri batch-01-bcc-virgola.txt
-2. Ctrl+A → Ctrl+C (copia tutto)
-3. In Aruba Webmail → Nuovo messaggio → campo BCC → incolla
-4. Ripeti per batch-02, batch-03, ... fino all'ultimo
+1. Apri safe-50/batch-01-bcc-virgola.txt
+2. Ctrl+A → Ctrl+C
+3. Aruba Webmail → BCC → incolla
+4. Ripeti per batch-02, ...
 
-Formato: virgola + spazio (es. info@hotel.it, reception@bb.it)
-Alternativa: batch-XX-bcc-righe.txt se la webmail accetta una email per riga
+safe-50: 94 batch da max 50 (CONSIGLIATO)
+max-150: 32 batch da max 150 (limite legale Aruba)
 
-LIMITE ARUBA: max 150 destinatari per singolo messaggio.
-
-INDICE BATCH
-------------
-Batch 01: 150 email → batch-01-bcc-virgola.txt (copia tutto) oppure batch-01-bcc-righe.txt (una per riga)
-Batch 02: 150 email → batch-02-bcc-virgola.txt (copia tutto) oppure batch-02-bcc-righe.txt (una per riga)
-Batch 03: 150 email → batch-03-bcc-virgola.txt (copia tutto) oppure batch-03-bcc-righe.txt (una per riga)
-Batch 04: 150 email → batch-04-bcc-virgola.txt (copia tutto) oppure batch-04-bcc-righe.txt (una per riga)
-Batch 05: 150 email → batch-05-bcc-virgola.txt (copia tutto) oppure batch-05-bcc-righe.txt (una per riga)
-Batch 06: 150 email → batch-06-bcc-virgola.txt (copia tutto) oppure batch-06-bcc-righe.txt (una per riga)
-Batch 07: 150 email → batch-07-bcc-virgola.txt (copia tutto) oppure batch-07-bcc-righe.txt (una per riga)
-Batch 08: 150 email → batch-08-bcc-virgola.txt (copia tutto) oppure batch-08-bcc-righe.txt (una per riga)
-Batch 09: 150 email → batch-09-bcc-virgola.txt (copia tutto) oppure batch-09-bcc-righe.txt (una per riga)
-Batch 10: 150 email → batch-10-bcc-virgola.txt (copia tutto) oppure batch-10-bcc-righe.txt (una per riga)
-Batch 11: 150 email → batch-11-bcc-virgola.txt (copia tutto) oppure batch-11-bcc-righe.txt (una per riga)
-Batch 12: 150 email → batch-12-bcc-virgola.txt (copia tutto) oppure batch-12-bcc-righe.txt (una per riga)
-Batch 13: 150 email → batch-13-bcc-virgola.txt (copia tutto) oppure batch-13-bcc-righe.txt (una per riga)
-Batch 14: 150 email → batch-14-bcc-virgola.txt (copia tutto) oppure batch-14-bcc-righe.txt (una per riga)
-Batch 15: 150 email → batch-15-bcc-virgola.txt (copia tutto) oppure batch-15-bcc-righe.txt (una per riga)
-Batch 16: 150 email → batch-16-bcc-virgola.txt (copia tutto) oppure batch-16-bcc-righe.txt (una per riga)
-Batch 17: 150 email → batch-17-bcc-virgola.txt (copia tutto) oppure batch-17-bcc-righe.txt (una per riga)
-Batch 18: 150 email → batch-18-bcc-virgola.txt (copia tutto) oppure batch-18-bcc-righe.txt (una per riga)
-Batch 19: 150 email → batch-19-bcc-virgola.txt (copia tutto) oppure batch-19-bcc-righe.txt (una per riga)
-Batch 20: 150 email → batch-20-bcc-virgola.txt (copia tutto) oppure batch-20-bcc-righe.txt (una per riga)
-Batch 21: 150 email → batch-21-bcc-virgola.txt (copia tutto) oppure batch-21-bcc-righe.txt (una per riga)
-Batch 22: 150 email → batch-22-bcc-virgola.txt (copia tutto) oppure batch-22-bcc-righe.txt (una per riga)
-Batch 23: 150 email → batch-23-bcc-virgola.txt (copia tutto) oppure batch-23-bcc-righe.txt (una per riga)
-Batch 24: 150 email → batch-24-bcc-virgola.txt (copia tutto) oppure batch-24-bcc-righe.txt (una per riga)
-Batch 25: 150 email → batch-25-bcc-virgola.txt (copia tutto) oppure batch-25-bcc-righe.txt (una per riga)
-Batch 26: 150 email → batch-26-bcc-virgola.txt (copia tutto) oppure batch-26-bcc-righe.txt (una per riga)
-Batch 27: 150 email → batch-27-bcc-virgola.txt (copia tutto) oppure batch-27-bcc-righe.txt (una per riga)
-Batch 28: 150 email → batch-28-bcc-virgola.txt (copia tutto) oppure batch-28-bcc-righe.txt (una per riga)
-Batch 29: 150 email → batch-29-bcc-virgola.txt (copia tutto) oppure batch-29-bcc-righe.txt (una per riga)
-Batch 30: 150 email → batch-30-bcc-virgola.txt (copia tutto) oppure batch-30-bcc-righe.txt (una per riga)
-Batch 31: 150 email → batch-31-bcc-virgola.txt (copia tutto) oppure batch-31-bcc-righe.txt (una per riga)
-Batch 32: 31 email → batch-32-bcc-virgola.txt (copia tutto) oppure batch-32-bcc-righe.txt (una per riga)
+INDICE safe-50
+-------------
+Batch 01: 50 email
+Batch 02: 50 email
+Batch 03: 50 email
+Batch 04: 50 email
+Batch 05: 50 email
+Batch 06: 50 email
+Batch 07: 50 email
+Batch 08: 50 email
+Batch 09: 50 email
+Batch 10: 50 email
+Batch 11: 50 email
+Batch 12: 50 email
+Batch 13: 50 email
+Batch 14: 50 email
+Batch 15: 50 email
+Batch 16: 50 email
+Batch 17: 50 email
+Batch 18: 50 email
+Batch 19: 50 email
+Batch 20: 50 email
+Batch 21: 50 email
+Batch 22: 50 email
+Batch 23: 50 email
+Batch 24: 50 email
+Batch 25: 50 email
+Batch 26: 50 email
+Batch 27: 50 email
+Batch 28: 50 email
+Batch 29: 50 email
+Batch 30: 50 email
+Batch 31: 50 email
+Batch 32: 50 email
+Batch 33: 50 email
+Batch 34: 50 email
+Batch 35: 50 email
+Batch 36: 50 email
+Batch 37: 50 email
+Batch 38: 50 email
+Batch 39: 50 email
+Batch 40: 50 email
+Batch 41: 50 email
+Batch 42: 50 email
+Batch 43: 50 email
+Batch 44: 50 email
+Batch 45: 50 email
+Batch 46: 50 email
+Batch 47: 50 email
+Batch 48: 50 email
+Batch 49: 50 email
+Batch 50: 50 email
+Batch 51: 50 email
+Batch 52: 50 email
+Batch 53: 50 email
+Batch 54: 50 email
+Batch 55: 50 email
+Batch 56: 50 email
+Batch 57: 50 email
+Batch 58: 50 email
+Batch 59: 50 email
+Batch 60: 50 email
+Batch 61: 50 email
+Batch 62: 50 email
+Batch 63: 50 email
+Batch 64: 50 email
+Batch 65: 50 email
+Batch 66: 50 email
+Batch 67: 50 email
+Batch 68: 50 email
+Batch 69: 50 email
+Batch 70: 50 email
+Batch 71: 50 email
+Batch 72: 50 email
+Batch 73: 50 email
+Batch 74: 50 email
+Batch 75: 50 email
+Batch 76: 50 email
+Batch 77: 50 email
+Batch 78: 50 email
+Batch 79: 50 email
+Batch 80: 50 email
+Batch 81: 50 email
+Batch 82: 50 email
+Batch 83: 50 email
+Batch 84: 50 email
+Batch 85: 50 email
+Batch 86: 50 email
+Batch 87: 50 email
+Batch 88: 50 email
+Batch 89: 50 email
+Batch 90: 50 email
+Batch 91: 50 email
+Batch 92: 50 email
+Batch 93: 50 email
+Batch 94: 30 email
