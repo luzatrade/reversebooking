@@ -1,11 +1,11 @@
 ================================================================================
-HOTELSDROP — EMAIL RIVENDICA (email duplicata + allegato link)
+HOTELSDROP — EMAIL RIVENDICA (problema email duplicata + allegato link)
 ================================================================================
 
 DA: HotelsDrop <info@hotelsdrop.com>
-OGGETTO: HotelsDrop — attiva i profili della tua struttura (azione richiesta)
+OGGETTO: HotelsDrop — problema con il profilo della tua struttura (azione richiesta)
 
-ALLEGATO: outreach-allegato-link-[nome].txt (lista URL profili)
+ALLEGATO: outreach-allegato-link-[nome].txt
 
 --------------------------------------------------------------------------------
 TESTO EMAIL
@@ -13,26 +13,21 @@ TESTO EMAIL
 
 Gentile titolare,
 
-i profili delle tue strutture sono già online su HotelsDrop.com (Reverse Booking, prenotazione diretta senza commissioni per gli ospiti).
+pubblicando il catalogo HotelsDrop abbiamo riscontrato un problema con il profilo della tua struttura: la stessa email risulta collegata a più profili diversi nel nostro sistema.
 
-Abbiamo riscontrato che la stessa email risulta su più profili nel catalogo. In questi casi il sistema non può attivarli in automatico: serve completare la rivendica manualmente.
+Per questo motivo il profilo partner non si è attivato in automatico e serve un passaggio manuale da parte vostra.
 
-IN ALLEGATO trovi tutti i link dei profili collegati alla tua email.
+In allegato trovi tutti i link dei profili collegati alla tua email.
 
-COSA FARE (per ogni struttura che gestisci)
+COSA FARE (per ogni struttura che gestite)
 
-1. Apri il link del profilo in allegato (oppure cerca il nome della struttura su www.hotelsdrop.com).
-2. Sulla pagina del profilo, clicca «Rivendica questo profilo».
-3. Registra l’account solo da quel link (non dalla registrazione generica del sito).
-4. Usa un’email diversa per ogni profilo (una email = un account).
-5. Conferma l’email e completa la verifica telefono.
+1. Apri il link in allegato (oppure cercate il nome della struttura su www.hotelsdrop.com).
+2. Sulla pagina del profilo, cliccate «Rivendica questo profilo».
+3. Registrate l’account solo da quel link (non dalla registrazione generica del sito).
+4. Usate un’email diversa per ogni profilo (una email = un account).
+5. Confermate l’email e completate la verifica telefono.
 
-TELEFONO
-
-Il numero di telefono pubblico del profilo può essere lo stesso su entrambe le strutture (es. il cellulare della reception).
-Per la verifica iniziale riceverete il codice sullo stesso numero: completate una registrazione per volta.
-
-Se il secondo account dà errore alla verifica, scrivete a info@hotelsdrop.com: vi assistiamo.
+Telefono: il numero pubblico del profilo può essere lo stesso su più strutture; per la verifica riceverete il codice su quel numero — una registrazione per volta. In caso di errore: info@hotelsdrop.com.
 
 Se avete già provato a registrarsi senza «Rivendica», ignorate quel tentativo e ripartite dal link corretto.
 
@@ -41,10 +36,5 @@ Il team HotelsDrop
 https://www.hotelsdrop.com
 
 --------------------------------------------------------------------------------
-NOTE INTERNE (non inviare al cliente)
+ESEMPIO mind-milano — incolla allegato outreach-allegato-link-mind-milano.txt
 --------------------------------------------------------------------------------
-
-- profiles.phone_number è UNIQUE: secondo account con stesso numero può fallire alla
-  verifica → assistenza o fix DB.
-- Partner dashboard NON elenca il catalogo: i link sono sul sito pubblico / allegato.
-- Backend: eliminare account placeholder prima che il cliente riparta.
