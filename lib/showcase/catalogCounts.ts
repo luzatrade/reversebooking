@@ -1,4 +1,4 @@
-import { onboardingCitySearchNames, supabaseCityNameOrFilter } from "@/lib/onboarding/city-match";
+import { onboardingCitySearchNames, supabaseOnboardingLocationOrFilter } from "@/lib/onboarding/city-match";
 import { createServiceRoleClient } from "@/lib/supabase/admin";
 import type { FetchShowcaseStructuresOptions } from "@/lib/showcase/homeData";
 
@@ -20,7 +20,7 @@ async function countOnboardingStructures(
       cityName,
       countryCode: options.countryCode,
     });
-    query = query.or(supabaseCityNameOrFilter(names));
+    query = query.or(supabaseOnboardingLocationOrFilter(names));
   }
 
   const { count, error } = await query;

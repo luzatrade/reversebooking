@@ -3,7 +3,7 @@ import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
 import { majorWorldCities } from "@/lib/constants/world-cities";
 import {
   onboardingCitySearchNames,
-  supabaseCityNameOrFilter,
+  supabaseOnboardingLocationOrFilter,
 } from "@/lib/onboarding/city-match";
 import { createServiceRoleClient } from "@/lib/supabase/admin";
 import { isMissingColumnError } from "@/lib/supabase/schema-compat";
@@ -253,7 +253,7 @@ export async function fetchShowcaseStructures(
         cityName,
         countryCode: options.countryCode,
       });
-      query = query.or(supabaseCityNameOrFilter(names));
+      query = query.or(supabaseOnboardingLocationOrFilter(names));
     }
 
     const { data, error } = await query;

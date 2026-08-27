@@ -76,8 +76,19 @@ function resolveCityName(row) {
   const cityName = String(row.city_name ?? "").trim();
   const fromAddress = extractCityFromAddress(row.indirizzo);
 
-  if (cityName && !namesMatch(cityName, structureName)) return cityName;
-  if (fromAddress && !namesMatch(fromAddress, structureName)) return fromAddress;
+  if (cityName && namesMatch(cityName, structureName)) {
+    if (fromAddress && !namesMatch(fromAddress, structureName)) return fromAddress;
+    return null;
+  }
+
+  if (fromAddress && cityName && normalizeText(fromAddress) !== normalizeText(cityName)) {
+    const left = fromAddress.replace(/\s+[A-Z]{2}$/i, "").trim().toLowerCase();
+    const right = cityName.replace(/\s+[A-Z]{2}$/i, "").trim().toLowerCase();
+    if (left !== right && !left.startsWith(`${right} `) && !right.startsWith(`${left} `)) {
+      return fromAddress.replace(/\s+[A-Z]{2}$/i, "").trim();
+    }
+  }
+
   return null;
 }
 

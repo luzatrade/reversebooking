@@ -44,6 +44,17 @@ export function extractCityFromAddress(address: string | null | undefined): stri
   return null;
 }
 
+function stripProvinceSuffix(value: string) {
+  return value.replace(/\s+[A-Z]{2}$/i, "").trim();
+}
+
+function cityTokensMatch(a: string, b: string) {
+  const left = normalizeText(stripProvinceSuffix(a));
+  const right = normalizeText(stripProvinceSuffix(b));
+  if (!left || !right) return false;
+  return left === right || left.startsWith(`${right} `) || right.startsWith(`${left} `);
+}
+
 export function resolveStructureCityName(input: {
   structureName: string;
   cityName: string;
@@ -53,11 +64,21 @@ export function resolveStructureCityName(input: {
   const cityName = input.cityName.trim();
   const fromAddress = extractCityFromAddress(input.address);
 
+  if (cityName && namesMatch(cityName, structureName)) {
+    if (fromAddress && !namesMatch(fromAddress, structureName)) return fromAddress;
+    return cityName;
+  }
+
+  if (
+    fromAddress &&
+    cityName &&
+    !cityTokensMatch(fromAddress, cityName) &&
+    !namesMatch(fromAddress, structureName)
+  ) {
+    return fromAddress;
+  }
+
   if (cityName && !namesMatch(cityName, structureName)) {
-    const canonicalId = resolveCanonicalCityId({ cityName });
-    if (canonicalId && majorWorldCities.some((city) => city.city_id === canonicalId)) {
-      return cityName;
-    }
     return cityName;
   }
 

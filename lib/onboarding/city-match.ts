@@ -79,3 +79,17 @@ export function supabaseCityNameOrFilter(names: string[]): string {
   if (!unique.length) return "city_name.is.null";
   return unique.map((name) => `city_name.ilike."${name.replace(/"/g, '""')}"`).join(",");
 }
+
+/** Match onboarding rows by city_name or by municipality in indirizzo (CAP/comune). */
+export function supabaseOnboardingLocationOrFilter(names: string[]): string {
+  const unique = [...new Set(names.map((name) => name.trim()).filter(Boolean))];
+  if (!unique.length) return "city_name.is.null";
+
+  const clauses: string[] = [];
+  for (const name of unique) {
+    const escaped = name.replace(/"/g, '""');
+    clauses.push(`city_name.ilike."${escaped}"`);
+    clauses.push(`indirizzo.ilike."%${escaped}%"`);
+  }
+  return clauses.join(",");
+}

@@ -96,7 +96,16 @@ function formatCurrency(value: number, locale: string) {
 function totalBudget(request: TravelRequest) { return Number(request.budget); }
 function normalize(value: string | null | undefined) { return (value ?? "").trim().toLowerCase(); }
 const cityAliases: Record<string, string[]> = { rome: ["roma"], roma: ["rome"], florence: ["firenze"], firenze: ["florence"], milan: ["milano"], milano: ["milan"], naples: ["napoli"], napoli: ["naples"], venice: ["venezia"], venezia: ["venice"], turin: ["torino"], torino: ["turin"], genoa: ["genova"], genova: ["genoa"], padua: ["padova"], padova: ["padua"], syracuse: ["siracusa"], siracusa: ["syracuse"], capri: ["capri"], sardinia: ["sardegna"], sardegna: ["sardinia"], "reggio calabria": ["reggio di calabria"], "reggio di calabria": ["reggio calabria"], london: ["londra"], londra: ["london"] };
-function cityMatch(a: string | null | undefined, b: string | null | undefined) { const na = normalize(a); const nb = normalize(b); if (na === nb) return true; if (cityAliases[na]?.includes(nb)) return true; if (cityAliases[nb]?.includes(na)) return true; return false; }
+function cityMatch(a: string | null | undefined, b: string | null | undefined) { const na = normalize(a); const nb = normalize(b); if (na === nb) return true; if (cityAliases[na]?.includes(nb)) return true; if (cityAliases[nb]?.includes(na)) return true; if (na && nb && (na.startsWith(`${nb} `) || nb.startsWith(`${na} `))) return true; return false; }
+function locationMatchesSelectedCity(item: { city_id?: string | null; city_name?: string | null; country_code?: string | null; specific_area?: string | null }, selected: WorldCity) {
+  if (item.city_id && item.city_id === selected.city_id) return true;
+  const itemCountry = item.country_code?.trim().toUpperCase();
+  const selectedCountry = selected.country_code?.trim().toUpperCase();
+  if (itemCountry && selectedCountry && itemCountry !== selectedCountry) return false;
+  if (cityMatch(item.city_name, selected.city_name)) return true;
+  if (item.specific_area && cityMatch(item.specific_area, selected.city_name)) return true;
+  return false;
+}
 function catalogHitToHotelAccount(structure: CatalogStructureHit): HotelAccount {
   const city_name = resolveStructureCityName({
     structureName: structure.name,
@@ -252,6 +261,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
   const [mapExploreOpen, setMapExploreOpen] = useState(false);
   const [dropBenefitsOpen, setDropBenefitsOpen] = useState(false);
   const [focusedHotelId, setFocusedHotelId] = useState<string | null>(null);
+  const [pinnedStructure, setPinnedStructure] = useState<HotelAccount | null>(null);
   const [catalogTotalCount, setCatalogTotalCount] = useState(() => initialData?.catalogTotalCount ?? 0);
   const [activeRequestTotalCount, setActiveRequestTotalCount] = useState(() => initialData?.activeRequestTotalCount ?? 0);
   const [cityStructureCount, setCityStructureCount] = useState<number | null>(null);
@@ -277,6 +287,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
 
   function handleCityChange(city: WorldCity) {
     setFocusedHotelId(null);
+    setPinnedStructure(null);
     setSelectedCity(city);
   }
 
@@ -288,20 +299,19 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
       countryCode: structure.countryCode,
       address: structure.address,
     });
+    const hotel = catalogHitToHotelAccount(structure);
     setSelectedCity(city);
+    setPinnedStructure(hotel);
     setHotels((current) => {
-      if (current.some((hotel) => hotel.id === structure.id)) return current;
-      return [catalogHitToHotelAccount(structure), ...current];
+      if (current.some((item) => item.id === structure.id)) return current;
+      return [hotel, ...current];
     });
     setFocusedHotelId(structure.id);
   }
 
-  function matchesSelectedCity(item: { city_id?: string | null; city_name?: string | null; country_code?: string | null }) {
+  function matchesSelectedCity(item: { city_id?: string | null; city_name?: string | null; country_code?: string | null; specific_area?: string | null }) {
     if (!hasSelectedCity) return true;
-    if (item.city_id && item.city_id === selectedCity.city_id) return true;
-    const itemCountry = item.country_code?.trim().toUpperCase();
-    const selectedCountry = selectedCity.country_code?.trim().toUpperCase();
-    return cityMatch(item.city_name, selectedCity.city_name) && (!itemCountry || !selectedCountry || itemCountry === selectedCountry);
+    return locationMatchesSelectedCity(item, selectedCity);
   }
 
   useEffect(() => {
@@ -507,7 +517,12 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
         const json = (await res.json()) as { hotels?: ShowcaseHomeHotel[]; structureCount?: number };
         if (cancelled) return;
         const rows = Array.isArray(json.hotels) ? json.hotels : [];
-        setHotels(rows.map(mapInitialHotel));
+        const mapped = rows.map(mapInitialHotel);
+        const merged =
+          pinnedStructure && !mapped.some((hotel) => hotel.id === pinnedStructure.id)
+            ? [pinnedStructure, ...mapped]
+            : mapped;
+        setHotels(merged);
         if (hasSelectedCity) {
           setCityStructureCount(typeof json.structureCount === "number" ? json.structureCount : rows.length);
         } else {
@@ -524,7 +539,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
     return () => {
       cancelled = true;
     };
-  }, [hasSelectedCity, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code, initialData?.hotels.length]);
+  }, [hasSelectedCity, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code, initialData?.hotels.length, pinnedStructure]);
 
   useEffect(() => {
     let cancelled = false;
@@ -895,7 +910,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
             ) : null}
           </div>
           {hasSelectedCity ? (
-            <button type="button" onClick={() => { setFocusedHotelId(null); setSelectedCity(createWorldCity("IT", "")); }} className="hd-clear-city mt-3 text-xs">
+            <button type="button" onClick={() => { setFocusedHotelId(null); setPinnedStructure(null); setSelectedCity(createWorldCity("IT", "")); }} className="hd-clear-city mt-3 text-xs">
               {t.showcase.clearSelectedCity}
             </button>
           ) : null}
