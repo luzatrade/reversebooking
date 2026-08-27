@@ -1,6 +1,7 @@
 /**
  * Export email pulite in batch per Aruba Webmail (copia/incolla BCC).
- * Formato: virgola + spazio — standard webmail.
+ * Formato Aruba CCN: virgola + spazio su una riga
+ *   info@bbcontradalunga.it, casalarosaabbadialariana@gmail.com, info@villaonedo.com
  *
  * Usage:
  *   node scripts/export-aruba-email-paste.mjs
@@ -24,7 +25,11 @@ const sourcePath = sourceArg
   ? resolve(ROOT, sourceArg.slice("--source=".length))
   : resolve(ROOT, "data/onboarding-resend-outreach.csv");
 
-const outDir = resolve(ROOT, "data/outreach-aruba-paste");
+const TEST_THREE_CCN = [
+  "info@bbcontradalunga.it",
+  "casalarosaabbadialariana@gmail.com",
+  "info@villaonedo.com",
+];
 
 const EMAIL_RE = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/;
 
@@ -152,7 +157,7 @@ function main() {
 
   writeFileSync(
     resolve(outDir, "test-3-email.txt"),
-    `${clean.slice(0, 3).join(", ")}\n`,
+    `${TEST_THREE_CCN.join(", ")}\n`,
     "utf8"
   );
 
@@ -173,12 +178,16 @@ function main() {
       "4. Non superare ~250 invii ogni 20 minuti",
       "5. Mittente: usa la casella con cui sei loggato, o autorizza info@hotelsdrop.com da Webmail",
       "",
-      "COME USARE",
-      "----------",
+      "COME USARE (campo CCN)",
+      "----------------------",
+      "Formato OBBLIGATORIO — virgola + spazio, una riga:",
+      "  info@bbcontradalunga.it, casalarosaabbadialariana@gmail.com, info@villaonedo.com",
+      "",
       "1. Apri safe-50/batch-01-bcc-virgola.txt",
       "2. Ctrl+A → Ctrl+C",
-      "3. Aruba Webmail → BCC → incolla",
-      "4. Ripeti per batch-02, ...",
+      "3. Aruba Webmail → CCN → incolla",
+      "4. Usa solo file *-bcc-virgola.txt (NON *-bcc-righe.txt)",
+      "5. Ripeti per batch-02, ...",
       "",
       `safe-50: ${safe.batches} batch da max ${BATCH_SIZE} (CONSIGLIATO)`,
       `max-150: ${max.batches} batch da max 150 (limite legale Aruba)`,
