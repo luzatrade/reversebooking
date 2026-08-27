@@ -3,6 +3,7 @@ import {
   buildHotelFromOnboarding,
   completeOnboardingClaim,
   loadOnboardingHotel,
+  removePlaceholderHotelAccount,
   type OnboardingHotelRow,
 } from "@/lib/hotel/onboarding-claim";
 import { PRIVACY_VERSION, TERMS_VERSION } from "@/lib/legal/company";
@@ -130,29 +131,6 @@ export async function registerPartnerFromOnboarding(
   return { ok: true, userId, hotelAccountId: hotelAccount.id, email };
 }
 
-const PLACEHOLDER_HOTEL_NAMES = new Set(["Struttura test", "Struttura da completare", "Nuova struttura"]);
-
-async function removeAutoProvisionedPlaceholder(admin: SupabaseClient, userId: string) {
-  const { data: existing } = await admin
-    .from("hotel_accounts")
-    .select("id, city_id, property_name, onboarding_hotel_id")
-    .eq("user_id", userId)
-    .maybeSingle();
-
-  if (!existing?.id || existing.onboarding_hotel_id) return;
-
-  const propertyName = existing.property_name?.trim() ?? "";
-  const isPlaceholder =
-    PLACEHOLDER_HOTEL_NAMES.has(propertyName) ||
-    existing.city_id === "3164527" ||
-    existing.city_id === "IT-PENDING";
-
-  if (!isPlaceholder) return;
-
-  const { error } = await admin.from("hotel_accounts").delete().eq("user_id", userId);
-  if (error) throw new Error(error.message);
-}
-
 async function createPartnerRecords(
   admin: SupabaseClient,
   userId: string,
@@ -160,7 +138,7 @@ async function createPartnerRecords(
   onboarding: OnboardingHotelRow,
   structureType: string,
 ) {
-  await removeAutoProvisionedPlaceholder(admin, userId);
+  await removePlaceholderHotelAccount(admin, userId);
 
   const { error: profileError } = await admin.from("profiles").upsert(
     {

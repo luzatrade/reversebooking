@@ -1,11 +1,13 @@
 import { createClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
 import {
+  applyOnboardingClaimToHotelAccount,
   assertOnboardingClaimable,
-  buildHotelFromOnboarding,
+  findUnclaimedOnboardingByEmail,
+  isPlaceholderHotelAccount,
   loadOnboardingHotel,
   needsOnboardingHotelPrefill,
-  reserveOnboardingClaim,
+  syncUserOnboardingMetadata,
 } from "@/lib/hotel/onboarding-claim";
 import {
   isEmailConfirmed,
@@ -59,9 +61,14 @@ export async function POST(request: Request) {
   const adminClient = createClient(url, serviceKey, { auth: { persistSession: false } });
 
   let requestedRole: string | null = null;
+  let bodyOnboardingHotelId: string | null = null;
   try {
-    const body = (await request.json()) as { role?: string | null };
+    const body = (await request.json()) as { role?: string | null; onboardingHotelId?: string | null };
     requestedRole = typeof body?.role === "string" ? body.role : null;
+    bodyOnboardingHotelId =
+      typeof body?.onboardingHotelId === "string" && body.onboardingHotelId.trim()
+        ? body.onboardingHotelId.trim()
+        : null;
   } catch {
     // body opzionale
   }
@@ -82,10 +89,11 @@ export async function POST(request: Request) {
     existingProfileRole: existingProfile?.role,
     requestedRole,
   });
-  const onboardingHotelId =
+  const metaOnboardingHotelId =
     typeof meta.onboarding_hotel_id === "string" && meta.onboarding_hotel_id.trim()
       ? meta.onboarding_hotel_id.trim()
       : null;
+  const onboardingHotelId = bodyOnboardingHotelId ?? metaOnboardingHotelId;
 
   const pendingOnboardingPrefill =
     role === "hotel" && needsOnboardingHotelPrefill(existingHotel, onboardingHotelId);
@@ -134,6 +142,9 @@ export async function POST(request: Request) {
     { onConflict: "user_id" },
   );
 
+  let appliedOnboardingId: string | null = null;
+  let needsClaimLink = false;
+
   if (role === "hotel") {
     const structureType = meta.structure_type ?? "hotel";
 
@@ -144,25 +155,34 @@ export async function POST(request: Request) {
         return NextResponse.json({ error: claimError }, { status: 400 });
       }
 
-      const hotelData = buildHotelFromOnboarding(user.id, email, onboarding!, structureType);
-      const { error: hotelError } = await adminClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
-      if (hotelError) {
-        return NextResponse.json({ error: hotelError.message }, { status: 400 });
+      try {
+        await applyOnboardingClaimToHotelAccount(adminClient, user.id, email, onboarding!, structureType);
+        appliedOnboardingId = onboarding!.id;
+        await syncUserOnboardingMetadata(adminClient, user.id, onboarding!.id);
+      } catch (err) {
+        return NextResponse.json(
+          { error: err instanceof Error ? err.message : "Collegamento catalogo non riuscito." },
+          { status: 400 },
+        );
       }
-      await reserveOnboardingClaim(adminClient, onboarding!.id, user.id);
     } else {
-      const { data: matchData } = await adminClient
-        .from("onboarding_hotels")
-        .select("id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url, status, claimed_by")
-        .eq("email", email)
-        .eq("status", "unclaimed")
-        .maybeSingle();
+      const match = await findUnclaimedOnboardingByEmail(adminClient, email);
+      if (match.status === "found") {
+        try {
+          await applyOnboardingClaimToHotelAccount(adminClient, user.id, email, match.row, structureType);
+          appliedOnboardingId = match.row.id;
+          await syncUserOnboardingMetadata(adminClient, user.id, match.row.id);
+        } catch (err) {
+          return NextResponse.json(
+            { error: err instanceof Error ? err.message : "Collegamento catalogo non riuscito." },
+            { status: 400 },
+          );
+        }
+      } else if (match.status === "ambiguous") {
+        needsClaimLink = true;
+      }
 
-      if (matchData) {
-        const hotelData = buildHotelFromOnboarding(user.id, email, matchData, structureType);
-        await adminClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
-        await reserveOnboardingClaim(adminClient, matchData.id, user.id);
-      } else {
+      if (!appliedOnboardingId && !existingHotel) {
         await adminClient.from("hotel_accounts").upsert(
           {
             user_id: user.id,
@@ -188,6 +208,8 @@ export async function POST(request: Request) {
           },
           { onConflict: "user_id" },
         );
+      } else if (!appliedOnboardingId && isPlaceholderHotelAccount(existingHotel) && match.status === "ambiguous") {
+        needsClaimLink = true;
       }
     }
   } else if (role === "agency") {
@@ -277,12 +299,24 @@ export async function POST(request: Request) {
       { label: "User ID", value: user.id },
       {
         label: "Rivendica catalogo",
-        value: pendingOnboardingPrefill ? "Avviata (verifica telefono)" : onboardingHotelId ? "Sì" : "No",
+        value: appliedOnboardingId || pendingOnboardingPrefill
+          ? "Avviata (verifica telefono)"
+          : onboardingHotelId
+            ? "Sì"
+            : "No",
       },
-      { label: "Onboarding ID", value: onboardingHotelId },
+      { label: "Onboarding ID", value: appliedOnboardingId ?? onboardingHotelId },
     ],
-    consolePath: onboardingHotelId ? `/console/onboarding/${onboardingHotelId}` : "/console/utenti",
+    consolePath: (appliedOnboardingId ?? onboardingHotelId)
+      ? `/console/onboarding/${appliedOnboardingId ?? onboardingHotelId}`
+      : "/console/utenti",
   });
 
-  return NextResponse.json({ ok: true, role, onboardingApplied: pendingOnboardingPrefill });
+  return NextResponse.json({
+    ok: true,
+    role,
+    onboardingApplied: Boolean(appliedOnboardingId),
+    needsClaimLink,
+    onboardingHotelId: appliedOnboardingId ?? onboardingHotelId,
+  });
 }
