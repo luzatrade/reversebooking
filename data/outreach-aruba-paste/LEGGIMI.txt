@@ -12,12 +12,16 @@ SE OTTIENI ERRORE 5601 / command unrecognized
 4. Non superare ~250 invii ogni 20 minuti
 5. Mittente: usa la casella con cui sei loggato, o autorizza info@hotelsdrop.com da Webmail
 
-COME USARE
-----------
+COME USARE (campo CCN)
+----------------------
+Formato OBBLIGATORIO — virgola + spazio, una riga:
+  info@bbcontradalunga.it, casalarosaabbadialariana@gmail.com, info@villaonedo.com
+
 1. Apri safe-50/batch-01-bcc-virgola.txt
 2. Ctrl+A → Ctrl+C
-3. Aruba Webmail → BCC → incolla
-4. Ripeti per batch-02, ...
+3. Aruba Webmail → CCN → incolla
+4. Usa solo file *-bcc-virgola.txt (NON *-bcc-righe.txt)
+5. Ripeti per batch-02, ...
 
 safe-50: 94 batch da max 50 (CONSIGLIATO)
 max-150: 32 batch da max 150 (limite legale Aruba)

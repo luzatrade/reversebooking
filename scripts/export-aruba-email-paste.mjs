@@ -31,6 +31,8 @@ const TEST_THREE_CCN = [
   "info@villaonedo.com",
 ];
 
+const outDir = resolve(ROOT, "data/outreach-aruba-paste");
+
 const EMAIL_RE = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/;
 
 function decodeHtmlEntities(s) {
