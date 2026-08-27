@@ -1,4 +1,5 @@
 import { createServiceRoleClient } from "@/lib/supabase/admin";
+import { resolveStructureCityName } from "@/lib/showcase/resolveStructureCity";
 
 export type StructureSeoRecord = {
   source: "onboarding" | "hotel";
@@ -32,16 +33,23 @@ const HOTEL_SELECT =
   "id, slug, seo_indexable, onboarding_hotel_id, property_name, description, description_en, structure_type, full_address, country_name, city_name, public_email, public_phone, google_maps_url, main_photo_url, gallery_photo_urls, latitude, longitude, account_status, subscription_active, provider_kind";
 
 function mapOnboarding(row: Record<string, unknown>): StructureSeoRecord {
+  const name = String(row.nome);
+  const address = (row.indirizzo as string | null) ?? null;
+  const cityName = resolveStructureCityName({
+    structureName: name,
+    cityName: String(row.city_name),
+    address,
+  });
   return {
     source: "onboarding",
     id: String(row.id),
     slug: String(row.slug),
-    name: String(row.nome),
+    name,
     descriptionIt: (row.description as string | null) ?? null,
     descriptionEn: (row.description_en as string | null) ?? null,
     structureType: null,
-    address: (row.indirizzo as string | null) ?? null,
-    cityName: String(row.city_name),
+    address,
+    cityName,
     countryName: "Italia",
     email: (row.email as string | null) ?? null,
     phone: (row.phone as string | null) ?? null,
@@ -59,16 +67,23 @@ function mapOnboarding(row: Record<string, unknown>): StructureSeoRecord {
 }
 
 function mapHotel(row: Record<string, unknown>): StructureSeoRecord {
+  const name = String(row.property_name);
+  const address = (row.full_address as string | null) ?? null;
+  const cityName = resolveStructureCityName({
+    structureName: name,
+    cityName: String(row.city_name),
+    address,
+  });
   return {
     source: "hotel",
     id: String(row.id),
     slug: String(row.slug),
-    name: String(row.property_name),
+    name,
     descriptionIt: (row.description as string | null) ?? null,
     descriptionEn: (row.description_en as string | null) ?? null,
     structureType: (row.structure_type as string | null) ?? null,
-    address: (row.full_address as string | null) ?? null,
-    cityName: String(row.city_name),
+    address,
+    cityName,
     countryName: (row.country_name as string | null) ?? "Italia",
     email: (row.public_email as string | null) ?? null,
     phone: (row.public_phone as string | null) ?? null,

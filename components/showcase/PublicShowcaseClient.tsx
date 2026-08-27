@@ -30,7 +30,8 @@ import { defaultDestinationCities } from "@/data/defaultDestinationCities";
 import { getStructureTypeLabels } from "@/lib/i18n/labels";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import type { CatalogStructureHit } from "@/lib/catalog/searchStructures";
-import { createWorldCity, findCityById, cityFromInput, resolveCanonicalCityId, normalizeWorldCitySelection } from "@/lib/constants/world-city-helpers";
+import { createWorldCity, findCityById, resolveCanonicalCityId, normalizeWorldCitySelection } from "@/lib/constants/world-city-helpers";
+import { resolveStructureCityName, resolveStructureWorldCity } from "@/lib/showcase/resolveStructureCity";
 import { cn } from "@/lib/utils";
 import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
 import { mealPlanLabels, type MealPlan, type StructureType, type UserRole } from "@/types/app";
@@ -97,9 +98,14 @@ function normalize(value: string | null | undefined) { return (value ?? "").trim
 const cityAliases: Record<string, string[]> = { rome: ["roma"], roma: ["rome"], florence: ["firenze"], firenze: ["florence"], milan: ["milano"], milano: ["milan"], naples: ["napoli"], napoli: ["naples"], venice: ["venezia"], venezia: ["venice"], turin: ["torino"], torino: ["turin"], genoa: ["genova"], genova: ["genoa"], padua: ["padova"], padova: ["padua"], syracuse: ["siracusa"], siracusa: ["syracuse"], capri: ["capri"], sardinia: ["sardegna"], sardegna: ["sardinia"], "reggio calabria": ["reggio di calabria"], "reggio di calabria": ["reggio calabria"], london: ["londra"], londra: ["london"] };
 function cityMatch(a: string | null | undefined, b: string | null | undefined) { const na = normalize(a); const nb = normalize(b); if (na === nb) return true; if (cityAliases[na]?.includes(nb)) return true; if (cityAliases[nb]?.includes(na)) return true; return false; }
 function catalogHitToHotelAccount(structure: CatalogStructureHit): HotelAccount {
+  const city_name = resolveStructureCityName({
+    structureName: structure.name,
+    cityName: structure.cityName,
+    address: structure.address,
+  });
   const cityId =
     structure.cityId ??
-    resolveCanonicalCityId({ cityName: structure.cityName, countryCode: structure.countryCode });
+    resolveCanonicalCityId({ cityName: city_name, countryCode: structure.countryCode });
   return {
     id: structure.id,
     slug: structure.slug,
@@ -108,8 +114,8 @@ function catalogHitToHotelAccount(structure: CatalogStructureHit): HotelAccount 
     structure_type: "hotel",
     provider_kind: "structure",
     country_code: structure.countryCode,
-    city_name: structure.cityName,
-    city_id: cityId ?? `${structure.cityName.toLowerCase().replace(/ +/g, "-")}-it`,
+    city_name,
+    city_id: cityId ?? `${city_name.toLowerCase().replace(/ +/g, "-")}-it`,
     specific_area: structure.address,
     description: null,
     description_en: null,
@@ -275,9 +281,13 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
   }
 
   function handlePickStructure(structure: CatalogStructureHit) {
-    const city = structure.cityId
-      ? findCityById(structure.cityId)
-      : cityFromInput(structure.countryCode, structure.cityName);
+    const city = resolveStructureWorldCity({
+      structureName: structure.name,
+      cityName: structure.cityName,
+      cityId: structure.cityId,
+      countryCode: structure.countryCode,
+      address: structure.address,
+    });
     setSelectedCity(city);
     setHotels((current) => {
       if (current.some((hotel) => hotel.id === structure.id)) return current;

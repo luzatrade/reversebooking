@@ -15,6 +15,7 @@ import {
 import { fetchRandomCatalogOffers } from "@/lib/catalog-offers/queries";
 import { fetchActiveTravelRequestCount, fetchCatalogStructureCount } from "@/lib/showcase/catalogCounts";
 import { parseStoredCoords } from "@/lib/showcase/hotelMapCoords";
+import { resolveStructureCityName } from "@/lib/showcase/resolveStructureCity";
 
 export const RANDOM_ONBOARDING_POOL = 320;
 export const RANDOM_ONBOARDING_SHOW = 40;
@@ -108,7 +109,12 @@ function mapOnboardingRow(row: {
   lat: number | null;
   lng: number | null;
 }): ShowcaseHomeHotel {
-  const { country_code, city_id } = onboardingCityMeta(String(row.city_name ?? ""));
+  const city_name = resolveStructureCityName({
+    structureName: String(row.nome ?? ""),
+    cityName: String(row.city_name ?? ""),
+    address: row.indirizzo,
+  });
+  const { country_code, city_id } = onboardingCityMeta(city_name);
   const coords = parseStoredCoords(row.lat, row.lng);
   return {
     id: String(row.id),
@@ -118,7 +124,7 @@ function mapOnboardingRow(row: {
     structure_type: "hotel",
     provider_kind: "structure",
     country_code,
-    city_name: String(row.city_name ?? ""),
+    city_name,
     city_id,
     specific_area: row.indirizzo ?? null,
     description: row.description ?? null,

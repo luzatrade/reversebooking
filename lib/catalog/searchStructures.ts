@@ -9,6 +9,7 @@ import {
 } from "@/lib/admin/query";
 import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
 import { majorWorldCities } from "@/lib/constants/world-cities";
+import { resolveStructureCityName } from "@/lib/showcase/resolveStructureCity";
 
 const REGISTERED_FIELDS = ["property_name", "city_name", "full_address", "specific_area"] as const;
 const ONBOARDING_FIELDS = ["nome", "city_name", "indirizzo"] as const;
@@ -84,11 +85,12 @@ function dbSearchTerms(term: string): string[] {
   return terms;
 }
 
-function cityMeta(cityName: string) {
-  const cityId = resolveCanonicalCityId({ cityName });
+function cityMeta(structureName: string, cityName: string, address: string | null) {
+  const resolvedCityName = resolveStructureCityName({ structureName, cityName, address });
+  const cityId = resolveCanonicalCityId({ cityName: resolvedCityName });
   const catalogCity = cityId ? majorWorldCities.find((city) => city.city_id === cityId) : undefined;
   const countryCode = catalogCity?.country_code ?? (cityId?.includes("-") ? cityId.split("-")[0]! : "IT");
-  return { cityId: cityId ?? null, countryCode };
+  return { cityId: cityId ?? null, countryCode, cityName: resolvedCityName };
 }
 
 async function queryOnboardingRows(
@@ -182,16 +184,17 @@ export async function searchCatalogStructures(query: string, limit = 6): Promise
       matchesAllTokens([row.property_name, row.city_name, row.full_address, row.specific_area], tokenFilter),
     )
     .map((row) => {
-      const { cityId, countryCode } = cityMeta(row.city_name);
+      const address = row.full_address ?? row.specific_area ?? null;
+      const { cityId, countryCode, cityName } = cityMeta(row.property_name, row.city_name, address);
       return {
         id: row.id,
         name: row.property_name,
         slug: row.slug ?? null,
         seoIndexable: Boolean(row.seo_indexable),
-        cityName: row.city_name,
+        cityName,
         cityId,
         countryCode,
-        address: row.full_address ?? row.specific_area ?? null,
+        address,
         kind: "registered" as const,
       };
     });
@@ -199,13 +202,13 @@ export async function searchCatalogStructures(query: string, limit = 6): Promise
   const onboardingHits: CatalogStructureHit[] = onboardingRows
     .filter((row) => matchesAllTokens([row.nome, row.city_name, row.indirizzo], tokenFilter))
     .map((row) => {
-      const { cityId, countryCode } = cityMeta(row.city_name);
+      const { cityId, countryCode, cityName } = cityMeta(row.nome, row.city_name, row.indirizzo);
       return {
         id: row.id,
         name: row.nome,
         slug: row.slug ?? null,
         seoIndexable: Boolean(row.seo_indexable),
-        cityName: row.city_name,
+        cityName,
         cityId,
         countryCode,
         address: row.indirizzo,
