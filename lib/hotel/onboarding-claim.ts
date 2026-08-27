@@ -1,5 +1,5 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
+import { PENDING_CITY_ID, resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
 
 type AppSupabase = SupabaseClient;
@@ -32,6 +32,98 @@ const PLACEHOLDER_PROPERTY_NAMES = new Set([
   "Struttura da completare",
   "Struttura test",
 ]);
+
+/** Legacy auto-provision hook used Verona city_id for placeholder rows. */
+const LEGACY_PLACEHOLDER_CITY_IDS = new Set(["3164527", PENDING_CITY_ID]);
+
+export type PlaceholderHotelAccount = {
+  id?: string;
+  city_id?: string | null;
+  property_name?: string | null;
+  onboarding_hotel_id?: string | null;
+};
+
+export function isPlaceholderHotelAccount(hotel: PlaceholderHotelAccount | null | undefined): boolean {
+  if (!hotel) return false;
+  if (hotel.onboarding_hotel_id) return false;
+  const propertyName = hotel.property_name?.trim() ?? "";
+  return (
+    PLACEHOLDER_PROPERTY_NAMES.has(propertyName) ||
+    (hotel.city_id != null && LEGACY_PLACEHOLDER_CITY_IDS.has(hotel.city_id))
+  );
+}
+
+export async function removePlaceholderHotelAccount(admin: AppSupabase, userId: string): Promise<boolean> {
+  const { data: existing } = await admin
+    .from("hotel_accounts")
+    .select("id, city_id, property_name, onboarding_hotel_id")
+    .eq("user_id", userId)
+    .maybeSingle();
+
+  if (!isPlaceholderHotelAccount(existing)) return false;
+
+  const { error } = await admin.from("hotel_accounts").delete().eq("user_id", userId);
+  if (error) throw error;
+  return true;
+}
+
+export type FindUnclaimedOnboardingResult =
+  | { status: "found"; row: OnboardingHotelRow }
+  | { status: "none" }
+  | { status: "ambiguous"; count: number };
+
+export async function findUnclaimedOnboardingByEmail(
+  admin: AppSupabase,
+  email: string,
+): Promise<FindUnclaimedOnboardingResult> {
+  const normalized = email.trim().toLowerCase();
+  if (!normalized) return { status: "none" };
+
+  const { data, error } = await admin
+    .from("onboarding_hotels")
+    .select(ONBOARDING_SELECT)
+    .eq("email", normalized)
+    .eq("status", "unclaimed")
+    .limit(2);
+
+  if (error) throw error;
+  if (!data?.length) return { status: "none" };
+  if (data.length > 1) return { status: "ambiguous", count: data.length };
+  return { status: "found", row: data[0] as OnboardingHotelRow };
+}
+
+export async function applyOnboardingClaimToHotelAccount(
+  admin: AppSupabase,
+  userId: string,
+  email: string,
+  onboarding: OnboardingHotelRow,
+  structureType: string,
+): Promise<void> {
+  const claimError = assertOnboardingClaimable(onboarding, userId);
+  if (claimError) throw new Error(claimError);
+
+  await removePlaceholderHotelAccount(admin, userId);
+
+  const hotelData = buildHotelFromOnboarding(userId, email, onboarding, structureType);
+  const { error: hotelError } = await admin.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
+  if (hotelError) throw new Error(hotelError.message);
+
+  await reserveOnboardingClaim(admin, onboarding.id, userId);
+}
+
+export async function syncUserOnboardingMetadata(
+  admin: AppSupabase,
+  userId: string,
+  onboardingId: string,
+): Promise<void> {
+  const { data: authData } = await admin.auth.admin.getUserById(userId);
+  const meta = authData?.user?.user_metadata ?? {};
+  if (meta.onboarding_hotel_id === onboardingId) return;
+
+  await admin.auth.admin.updateUserById(userId, {
+    user_metadata: { ...meta, onboarding_hotel_id: onboardingId },
+  });
+}
 
 export function needsOnboardingHotelPrefill(
   hotel: { onboarding_hotel_id?: string | null; property_name?: string | null } | null | undefined,

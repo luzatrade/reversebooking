@@ -1,0 +1,40 @@
+================================================================================
+HOTELSDROP — EMAIL RIVENDICA (problema email duplicata + allegato link)
+================================================================================
+
+DA: HotelsDrop <info@hotelsdrop.com>
+OGGETTO: HotelsDrop — problema con il profilo della tua struttura (azione richiesta)
+
+ALLEGATO: outreach-allegato-link-[nome].txt
+
+--------------------------------------------------------------------------------
+TESTO EMAIL
+--------------------------------------------------------------------------------
+
+Gentile titolare,
+
+pubblicando il catalogo HotelsDrop abbiamo riscontrato un problema con il profilo della tua struttura: la stessa email risulta collegata a più profili diversi nel nostro sistema.
+
+Per questo motivo il profilo partner non si è attivato in automatico e serve un passaggio manuale da parte vostra.
+
+In allegato trovi tutti i link dei profili collegati alla tua email.
+
+COSA FARE (per ogni struttura che gestite)
+
+1. Apri il link in allegato (oppure cercate il nome della struttura su www.hotelsdrop.com).
+2. Sulla pagina del profilo, cliccate «Rivendica questo profilo».
+3. Registrate l’account solo da quel link (non dalla registrazione generica del sito).
+4. Usate un’email diversa per ogni profilo (una email = un account).
+5. Confermate l’email e completate la verifica telefono.
+
+Telefono: il numero pubblico del profilo può essere lo stesso su più strutture; per la verifica riceverete il codice su quel numero — una registrazione per volta. In caso di errore: info@hotelsdrop.com.
+
+Se avete già provato a registrarsi senza «Rivendica», ignorate quel tentativo e ripartite dal link corretto.
+
+Cordiali saluti,
+Il team HotelsDrop
+https://www.hotelsdrop.com
+
+--------------------------------------------------------------------------------
+ESEMPIO mind-milano — incolla allegato outreach-allegato-link-mind-milano.txt
+--------------------------------------------------------------------------------

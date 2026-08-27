@@ -95,7 +95,7 @@ export async function dispatchNewTravelRequestNotifications(
   const { data: travelRequest, error: requestError } = await supabase
     .from("travel_requests")
     .select(
-      "id, request_code, city_id, city_name, country_code, preferred_area, check_in, check_out, guests_count, rooms_count, budget, target_hotel_account_id",
+      "id, request_code, city_id, city_name, country_code, preferred_area, preferred_structure_type, preference_filters, check_in, check_out, guests_count, rooms_count, budget, target_hotel_account_id",
     )
     .eq("id", requestId)
     .single();
@@ -109,6 +109,8 @@ export async function dispatchNewTravelRequestNotifications(
     city_id: travelRequest.city_id,
     city_name: travelRequest.city_name,
     country_code: travelRequest.country_code,
+    preference_filters: travelRequest.preference_filters as Record<string, boolean> | null,
+    preferred_structure_type: travelRequest.preferred_structure_type as string | null,
   });
 
   const targetHotelId = travelRequest.target_hotel_account_id as string | null;

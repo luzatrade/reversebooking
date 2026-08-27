@@ -21,14 +21,17 @@ import {
 } from "@/lib/requests/travelRequestDraft";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { formatMessage } from "@/lib/i18n/format";
-import { getMealPlanLabels, getStructureTypeLabels } from "@/lib/i18n/labels";
+import { getMealPlanLabels, getServiceLabels, getStructureTypeLabels } from "@/lib/i18n/labels";
+import {
+  mergeTravelRequestFilters,
+  parseTravelRequestFiltersFromParam,
+  TRAVEL_REQUEST_FILTER_KEYS,
+  type TravelRequestFilters,
+} from "@/lib/constants/travel-request-filters";
 import type { MealPlan, PreferredStructureType } from "@/types/app";
 
 type RoomType = "double" | "twin" | "triple" | "quadruple";
 type RoomDetail = { room: number; room_type: RoomType; adults: number; children: number; children_ages: number[]; budget: number };
-type PreferenceFilters = { connecting_rooms: boolean; disabled_access: boolean; pool: boolean; spa: boolean; bathtub: boolean; garage: boolean; beach: boolean; pets_allowed: boolean };
-
-const emptyFilters: PreferenceFilters = { connecting_rooms: false, disabled_access: false, pool: false, spa: false, bathtub: false, garage: false, beach: false, pets_allowed: false };
 
 const formFieldLgLabel = "text-sm font-medium text-zinc-800 dark:text-zinc-200";
 const formFieldLgInput =
@@ -79,7 +82,9 @@ function initialRooms(searchParams: URLSearchParams) {
   }
   return [{ ...defaultRoom, budget: perRoomBudget }];
 }
-function filtersFromParam(value: string | null): PreferenceFilters { if (!value) return emptyFilters; const keys = new Set(value.split(",").map((item) => item.trim()).filter(Boolean)); return { ...emptyFilters, connecting_rooms: keys.has("connecting_rooms"), disabled_access: keys.has("disabled_access"), pool: keys.has("pool"), spa: keys.has("spa"), bathtub: keys.has("bathtub"), garage: keys.has("garage"), beach: keys.has("beach"), pets_allowed: keys.has("pets_allowed") }; }
+function filtersFromParam(value: string | null): TravelRequestFilters {
+  return parseTravelRequestFiltersFromParam(value);
+}
 function roomsFromParams(roomCountValue: string | null, adultsValue: string | null, childrenValue: string | null, perRoomBudget = 0): RoomDetail[] {
   const roomCount = Math.max(1, Math.min(10, positiveNumber(roomCountValue, 1)));
   let adults = Math.max(roomCount, positiveNumber(adultsValue, 2));
@@ -98,22 +103,20 @@ export function CreateTravelRequestForm() {
   const { locale, t } = useLanguage();
   const mealPlanLabels = getMealPlanLabels(locale);
   const structureTypeLabels = getStructureTypeLabels(locale);
+  const serviceLabels = getServiceLabels(locale);
   const roomTypeLabels: Record<RoomType, string> = {
     double: t.forms.travelRequest.roomTypeDouble,
     twin: t.forms.travelRequest.roomTypeTwin,
     triple: t.forms.travelRequest.roomTypeTriple,
     quadruple: t.forms.travelRequest.roomTypeQuadruple,
   };
-  const filterLabels: Array<{ key: keyof PreferenceFilters; label: string }> = [
-    { key: "connecting_rooms", label: t.request.connectingRooms },
-    { key: "disabled_access", label: t.request.disabledAccess },
-    { key: "pool", label: t.request.pool },
-    { key: "spa", label: t.request.spa },
-    { key: "bathtub", label: t.request.bathtub },
-    { key: "garage", label: t.request.garage },
-    { key: "beach", label: t.forms.travelRequest.filterBeachNear },
-    { key: "pets_allowed", label: t.request.petsAllowed },
-  ];
+  const filterLabels = TRAVEL_REQUEST_FILTER_KEYS.map((key) => ({
+    key,
+    label:
+      key === "beach"
+        ? t.forms.travelRequest.filterBeachNear
+        : serviceLabels[key] ?? key,
+  }));
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -125,7 +128,7 @@ export function CreateTravelRequestForm() {
   const [checkIn, setCheckIn] = useState(() => searchParams.get("check_in") ?? "");
   const [checkOut, setCheckOut] = useState(() => searchParams.get("check_out") ?? "");
   const [rooms, setRooms] = useState<RoomDetail[]>(() => initialRooms(searchParams));
-  const [filters, setFilters] = useState<PreferenceFilters>(() => filtersFromParam(searchParams.get("filters")));
+  const [filters, setFilters] = useState<TravelRequestFilters>(() => filtersFromParam(searchParams.get("filters")));
   const [mealPlan, setMealPlan] = useState<MealPlan>("breakfast");
   const [notes, setNotes] = useState("");
   const cloneFromId = searchParams.get("clone_from");
@@ -367,7 +370,7 @@ export function CreateTravelRequestForm() {
           ? (source.room_details as RoomDetail[]).map((room) => ({ ...room, budget: Number(room.budget) > 0 ? Number(room.budget) : fallbackPerRoom }))
           : roomsFromParams(String(source.rooms_count), String(source.guests_count), "0", fallbackPerRoom);
         setRooms(clonedRooms);
-        setFilters({ ...emptyFilters, ...(source.preference_filters as PreferenceFilters | null) });
+        setFilters(mergeTravelRequestFilters(source.preference_filters as TravelRequestFilters | null));
         setMealPlan(source.meal_plan as MealPlan);
         setNotes(source.notes ?? "");
       } catch (err) {
