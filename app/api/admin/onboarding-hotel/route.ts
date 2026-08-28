@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server";
 import { logAdminAction } from "@/lib/admin/audit";
+import { resolveOnboardingCityIstat } from "@/lib/admin/onboarding-city-istat";
 import { requireAdminApi } from "@/lib/admin/verify";
+import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
+import { majorWorldCities } from "@/lib/constants/world-cities";
 import { MAX_GALLERY_PHOTOS } from "@/lib/hotel/gallery-photos";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
 import { notifyOnboardingHotelIndexNow } from "@/lib/seo/indexnow-sync";
@@ -21,6 +24,8 @@ type Body = {
   gallery_photo_urls?: string[];
   description?: string | null;
   description_en?: string | null;
+  lat?: number | null;
+  lng?: number | null;
   status?: string;
   resetClaim?: boolean;
 };
@@ -29,6 +34,24 @@ function cleanOptionalText(value: string | null | undefined) {
   if (value === null) return null;
   const trimmed = value?.trim();
   return trimmed ? trimmed : null;
+}
+
+function parseCoord(value: number | null | undefined, label: string, min: number, max: number) {
+  if (value === null || value === undefined) return null;
+  const num = Number(value);
+  if (!Number.isFinite(num)) {
+    throw new Error(`${label} non valida`);
+  }
+  if (num < min || num > max) {
+    throw new Error(`${label} fuori range`);
+  }
+  return Math.round(num * 1e6) / 1e6;
+}
+
+function resolveCityId(cityName: string) {
+  const cityId = resolveCanonicalCityId({ cityName, countryCode: "IT" });
+  if (cityId && majorWorldCities.some((city) => city.city_id === cityId)) return cityId;
+  return `${cityName.trim().toLowerCase().replace(/ +/g, "-")}-it`;
 }
 
 function normalizeGalleryUrls(value: string[] | undefined) {
@@ -82,6 +105,15 @@ export async function POST(request: Request) {
     const cityName = body.city_name.trim();
     if (!cityName) return NextResponse.json({ error: "La città è obbligatoria" }, { status: 400 });
     updates.city_name = cityName;
+    const cityIstat = await resolveOnboardingCityIstat(admin, cityName);
+    updates.city_istat = cityIstat;
+  }
+
+  try {
+    if (body.lat !== undefined) updates.lat = parseCoord(body.lat, "Latitudine", -90, 90);
+    if (body.lng !== undefined) updates.lng = parseCoord(body.lng, "Longitudine", -180, 180);
+  } catch (err) {
+    return NextResponse.json({ error: err instanceof Error ? err.message : "Coordinate non valide" }, { status: 400 });
   }
   if (body.email !== undefined) updates.email = cleanOptionalText(body.email);
   if (body.website !== undefined) updates.website = cleanOptionalText(body.website);
@@ -150,7 +182,16 @@ export async function POST(request: Request) {
   if (updates.main_photo_url !== undefined) hotelSync.main_photo_url = updates.main_photo_url;
   if (updates.description !== undefined) hotelSync.description = updates.description;
   if (updates.description_en !== undefined) hotelSync.description_en = updates.description_en;
-  if (updates.gallery_photo_urls !== undefined) hotelSync.gallery_photo_urls = updates.gallery_photo_urls;
+  if (updates.city_name !== undefined) {
+    const cityName = String(updates.city_name);
+    hotelSync.city_name = cityName;
+    hotelSync.city_id = resolveCityId(cityName);
+    hotelSync.country_code = "IT";
+    hotelSync.country_name = "Italia";
+  }
+  if (updates.lat !== undefined) hotelSync.latitude = updates.lat;
+  if (updates.lng !== undefined) hotelSync.longitude = updates.lng;
+  if (updates.google_maps_url !== undefined) hotelSync.google_maps_url = updates.google_maps_url;
 
   if (Object.keys(hotelSync).length > 0) {
     let { error: syncError } = await admin.from("hotel_accounts").update(hotelSync).eq("onboarding_hotel_id", id);

@@ -9,10 +9,10 @@ import {
 import { isMissingColumnError } from "@/lib/supabase/schema-compat";
 
 const ONBOARDING_HOTEL_DETAIL_SELECT =
-  "id, place_id, nome, indirizzo, city_name, description, description_en, email, phone, website, google_maps_url, main_photo_url, gallery_photo_urls, status, claimed_by, created_at, updated_at";
+  "id, place_id, nome, indirizzo, city_name, lat, lng, description, description_en, email, phone, website, google_maps_url, main_photo_url, gallery_photo_urls, status, claimed_by, created_at, updated_at";
 
 const ONBOARDING_HOTEL_DETAIL_SELECT_LEGACY =
-  "id, place_id, nome, indirizzo, city_name, description, email, phone, website, google_maps_url, main_photo_url, gallery_photo_urls, status, claimed_by, created_at, updated_at";
+  "id, place_id, nome, indirizzo, city_name, lat, lng, description, email, phone, website, google_maps_url, main_photo_url, gallery_photo_urls, status, claimed_by, created_at, updated_at";
 
 const ONBOARDING_HOTEL_LIST_SELECT =
   "id, nome, city_name, indirizzo, description, description_en, email, phone, main_photo_url, status, claimed_by, created_at";

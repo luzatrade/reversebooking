@@ -5,6 +5,8 @@ import { useRouter } from "next/navigation";
 import { ChangeEvent, useState } from "react";
 import { ImagePlus, X } from "lucide-react";
 import { DeleteButton } from "@/components/console/DeleteButton";
+import { HotelLocationPicker } from "@/components/hotels/HotelLocationPicker";
+import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
 
 type OnboardingHotel = {
   id: string;
@@ -12,6 +14,8 @@ type OnboardingHotel = {
   nome: string;
   indirizzo: string | null;
   city_name: string;
+  lat: number | null;
+  lng: number | null;
   description: string | null;
   description_en: string | null;
   email: string | null;
@@ -50,6 +54,8 @@ export function OnboardingHotelEditor({
     nome: hotel.nome,
     indirizzo: hotel.indirizzo ?? "",
     city_name: hotel.city_name,
+    lat: hotel.lat != null ? String(hotel.lat) : "",
+    lng: hotel.lng != null ? String(hotel.lng) : "",
     description: hotel.description ?? "",
     description_en: hotel.description_en ?? "",
     email: hotel.email ?? "",
@@ -60,6 +66,7 @@ export function OnboardingHotelEditor({
   });
   const [saving, setSaving] = useState(false);
   const [uploadingPhoto, setUploadingPhoto] = useState(false);
+  const [geocoding, setGeocoding] = useState(false);
   const [mainPhotoUrl, setMainPhotoUrl] = useState(hotel.main_photo_url ?? "");
   const [galleryPhotoUrls, setGalleryPhotoUrls] = useState<string[]>(hotel.gallery_photo_urls ?? []);
   const [resettingClaim, setResettingClaim] = useState(false);
@@ -162,6 +169,47 @@ export function OnboardingHotelEditor({
     }
   }
 
+  async function geocodeLocation(mode: "address" | "link") {
+    setGeocoding(true);
+    setError(null);
+    setSuccess(null);
+    try {
+      const res = await fetch("/api/admin/onboarding-hotel/geocode", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(
+          mode === "link"
+            ? { googleMapsUrl: form.google_maps_url.trim() }
+            : {
+                address: form.indirizzo.trim(),
+                propertyName: form.nome.trim(),
+                cityName: form.city_name.trim(),
+              },
+        ),
+      });
+      const data = (await res.json()) as {
+        error?: string;
+        hint?: string;
+        latitude?: number;
+        longitude?: number;
+      };
+      if (!res.ok) throw new Error(data.hint ?? data.error ?? "Geocodifica non riuscita");
+      if (data.latitude == null || data.longitude == null) {
+        throw new Error("Coordinate non trovate");
+      }
+      setForm((current) => ({
+        ...current,
+        lat: String(data.latitude),
+        lng: String(data.longitude),
+      }));
+      setSuccess("Coordinate aggiornate. Salva per confermare.");
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Geocodifica non riuscita");
+    } finally {
+      setGeocoding(false);
+    }
+  }
+
   async function save(event: React.FormEvent) {
     event.preventDefault();
     setSaving(true);
@@ -177,6 +225,8 @@ export function OnboardingHotelEditor({
           nome: form.nome,
           indirizzo: form.indirizzo || null,
           city_name: form.city_name,
+          lat: form.lat.trim() ? Number(form.lat) : null,
+          lng: form.lng.trim() ? Number(form.lng) : null,
           description: form.description.trim() || null,
           description_en: form.description_en.trim() || null,
           email: form.email || null,
@@ -385,7 +435,7 @@ export function OnboardingHotelEditor({
               Sito web
               <input value={form.website} onChange={(e) => setForm({ ...form, website: e.target.value })} className={inputClass} />
             </label>
-            <label className="block text-sm font-medium">
+            <label className="block text-sm font-medium md:col-span-2">
               Google Maps URL
               <input
                 value={form.google_maps_url}
@@ -394,6 +444,70 @@ export function OnboardingHotelEditor({
               />
             </label>
           </div>
+
+          <section className="mt-6 space-y-4 rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
+            <div>
+              <h3 className="text-sm font-semibold text-zinc-900">Posizione e mappa</h3>
+              <p className="mt-1 text-sm text-zinc-600">
+                Correggi città, coordinate e segnaposto sulla mappa. Le modifiche si sincronizzano anche sull&apos;account
+                partner collegato.
+              </p>
+            </div>
+            <div className="grid gap-5 md:grid-cols-2">
+              <label className="block text-sm font-medium">
+                Latitudine
+                <input
+                  value={form.lat}
+                  onChange={(e) => setForm({ ...form, lat: e.target.value })}
+                  inputMode="decimal"
+                  placeholder="45.409198"
+                  className={inputClass}
+                />
+              </label>
+              <label className="block text-sm font-medium">
+                Longitudine
+                <input
+                  value={form.lng}
+                  onChange={(e) => setForm({ ...form, lng: e.target.value })}
+                  inputMode="decimal"
+                  placeholder="8.056268"
+                  className={inputClass}
+                />
+              </label>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              <button
+                type="button"
+                disabled={geocoding || !form.indirizzo.trim()}
+                onClick={() => void geocodeLocation("address")}
+                className="rounded-xl border border-[#0f4c81] bg-white px-4 py-2 text-sm font-semibold text-[#0f4c81] transition hover:bg-[#e8f0f8] disabled:opacity-50"
+              >
+                {geocoding ? "Calcolo..." : "Estrai coordinate da indirizzo"}
+              </button>
+              <button
+                type="button"
+                disabled={geocoding || !form.google_maps_url.trim()}
+                onClick={() => void geocodeLocation("link")}
+                className="rounded-xl border border-zinc-300 bg-white px-4 py-2 text-sm font-semibold text-zinc-700 transition hover:bg-zinc-100 disabled:opacity-50"
+              >
+                {geocoding ? "Calcolo..." : "Estrai da link Google Maps"}
+              </button>
+            </div>
+            <HotelLocationPicker
+              latitude={form.lat.trim() ? Number(form.lat) : null}
+              longitude={form.lng.trim() ? Number(form.lng) : null}
+              cityName={form.city_name}
+              cityId={resolveCanonicalCityId({ cityName: form.city_name, countryCode: "IT" }) ?? ""}
+              countryCode="IT"
+              onChange={(coords) => {
+                setForm((current) => ({
+                  ...current,
+                  lat: String(coords.latitude),
+                  lng: String(coords.longitude),
+                }));
+              }}
+            />
+          </section>
 
           <div className="mt-4 rounded-xl bg-zinc-50 px-4 py-3 text-xs text-zinc-600">
             <p>Place ID Google: {hotel.place_id}</p>
