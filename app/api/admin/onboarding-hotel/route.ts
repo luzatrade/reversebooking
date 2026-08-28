@@ -48,11 +48,6 @@ function parseCoord(value: number | null | undefined, label: string, min: number
   return Math.round(num * 1e6) / 1e6;
 }
 
-function resolveCityId(cityName: string) {
-  const cityId = resolveCanonicalCityId({ cityName, countryCode: "IT" });
-  if (cityId && majorWorldCities.some((city) => city.city_id === cityId)) return cityId;
-  return `${cityName.trim().toLowerCase().replace(/ +/g, "-")}-it`;
-}
 
 function normalizeGalleryUrls(value: string[] | undefined) {
   if (value === undefined) return undefined;
@@ -173,25 +168,53 @@ export async function POST(request: Request) {
 
   const hotelSync: Record<string, unknown> = {};
   if (updates.nome !== undefined) hotelSync.property_name = updates.nome;
-  if (updates.indirizzo !== undefined) {
-    hotelSync.full_address = updates.indirizzo ?? existing.nome;
-    hotelSync.specific_area = updates.indirizzo;
-  }
   if (updates.email !== undefined) hotelSync.public_email = updates.email;
   if (updates.phone !== undefined) hotelSync.public_phone = updates.phone;
   if (updates.main_photo_url !== undefined) hotelSync.main_photo_url = updates.main_photo_url;
   if (updates.description !== undefined) hotelSync.description = updates.description;
   if (updates.description_en !== undefined) hotelSync.description_en = updates.description_en;
-  if (updates.city_name !== undefined) {
-    const cityName = String(updates.city_name);
-    hotelSync.city_name = cityName;
-    hotelSync.city_id = resolveCityId(cityName);
-    hotelSync.country_code = "IT";
-    hotelSync.country_name = "Italia";
-  }
-  if (updates.lat !== undefined) hotelSync.latitude = updates.lat;
-  if (updates.lng !== undefined) hotelSync.longitude = updates.lng;
+  if (updates.gallery_photo_urls !== undefined) hotelSync.gallery_photo_urls = updates.gallery_photo_urls;
   if (updates.google_maps_url !== undefined) hotelSync.google_maps_url = updates.google_maps_url;
+
+  const locationChanged =
+    updates.city_name !== undefined ||
+    updates.indirizzo !== undefined ||
+    updates.lat !== undefined ||
+    updates.lng !== undefined;
+
+  if (locationChanged) {
+    const { error: rpcError } = await admin.rpc("admin_sync_hotel_location_from_onboarding", { p_onboarding_id: id });
+    if (rpcError && !rpcError.message.includes("Could not find the function")) {
+      const partialSync: Record<string, unknown> = {};
+      if (updates.city_name !== undefined) partialSync.city_name = updates.city_name;
+      if (updates.indirizzo !== undefined) {
+        partialSync.full_address = updates.indirizzo ?? existing.nome;
+        partialSync.specific_area = updates.indirizzo;
+      }
+      if (updates.lat !== undefined) partialSync.latitude = updates.lat;
+      if (updates.lng !== undefined) partialSync.longitude = updates.lng;
+
+      let { error: partialError } = await admin.from("hotel_accounts").update(partialSync).eq("onboarding_hotel_id", id);
+      if (partialError?.message.includes("non può essere modificata") && partialSync.city_name) {
+        const { city_name, ...withoutCityIdAttempt } = partialSync;
+        ({ error: partialError } = await admin.from("hotel_accounts").update(withoutCityIdAttempt).eq("onboarding_hotel_id", id));
+        if (!partialError) {
+          ({ error: partialError } = await admin
+            .from("hotel_accounts")
+            .update({ city_name })
+            .eq("onboarding_hotel_id", id));
+        }
+      }
+      if (partialError) {
+        return NextResponse.json({ error: partialError.message }, { status: 500 });
+      }
+    } else if (rpcError) {
+      return NextResponse.json({ error: rpcError.message }, { status: 500 });
+    }
+  } else if (updates.indirizzo !== undefined) {
+    hotelSync.full_address = updates.indirizzo ?? existing.nome;
+    hotelSync.specific_area = updates.indirizzo;
+  }
 
   if (Object.keys(hotelSync).length > 0) {
     let { error: syncError } = await admin.from("hotel_accounts").update(hotelSync).eq("onboarding_hotel_id", id);
