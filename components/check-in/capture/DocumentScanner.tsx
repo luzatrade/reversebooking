@@ -18,6 +18,8 @@ type ScanPhase = 'preview' | 'processing' | 'success' | 'error';
 type ScanScreen = 'chooser' | 'camera';
 export type ScanOrientation = 'portrait' | 'landscape';
 
+const FILE_INPUT_ID = 'fc-document-photo-input';
+
 interface DocumentScannerProps {
   onResult: (data: MrzExtractedData) => void;
   onManualEntry: () => void;
@@ -34,32 +36,40 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
   const containerRef = useRef<HTMLDivElement>(null);
   const mrzStripRef = useRef<HTMLDivElement>(null);
   const viewfinderRef = useRef<HTMLDivElement>(null);
-  const fileInputRef = useRef<HTMLInputElement>(null);
   const processingRef = useRef(false);
+  const ocrReadyRef = useRef(false);
+  const warmupRef = useRef<Promise<boolean> | null>(null);
   const [phase, setPhase] = useState<ScanPhase>('preview');
   const [debugText, setDebugText] = useState('');
   const [orientation, setOrientation] = useState<ScanOrientation>('portrait');
   const [showGuide, setShowGuide] = useState(false);
 
-  const ensureOcr = useCallback(async () => {
-    if (ocrReady) return true;
-    setOcrLoading(true);
-    try {
-      await warmupOcr();
-      setOcrReady(true);
-      return true;
-    } catch (err) {
-      console.error('[OCR] warmup failed', err);
-      toast(i18n.t('capture.ocrInitFailed'), 'error');
-      setDebugText(err instanceof Error ? err.message : String(err));
-      return false;
-    } finally {
-      setOcrLoading(false);
+  /** Avvia (una sola volta) il motore OCR. Non va atteso prima di aprire il
+   *  selettore file: l'attesa consuma il gesto utente e il browser blocca il picker. */
+  const ensureOcr = useCallback((): Promise<boolean> => {
+    if (ocrReadyRef.current) return Promise.resolve(true);
+    if (!warmupRef.current) {
+      setOcrLoading(true);
+      warmupRef.current = warmupOcr()
+        .then(() => {
+          ocrReadyRef.current = true;
+          setOcrReady(true);
+          return true;
+        })
+        .catch((err) => {
+          console.error('[OCR] warmup failed', err);
+          warmupRef.current = null;
+          toast(i18n.t('capture.ocrInitFailed'), 'error');
+          setDebugText(err instanceof Error ? err.message : String(err));
+          return false;
+        })
+        .finally(() => setOcrLoading(false));
     }
-  }, [ocrReady]);
+    return warmupRef.current;
+  }, []);
 
   const runOcr = useCallback(async () => {
-    if (processingRef.current || !ocrReady) return;
+    if (processingRef.current) return;
     const container = containerRef.current;
     const mrzStrip = mrzStripRef.current;
     if (!container || !mrzStrip) return;
@@ -69,6 +79,11 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
     setDebugText('');
 
     try {
+      if (!(await ensureOcr())) {
+        setPhase('error');
+        return;
+      }
+
       const strip = captureOverlay(container, mrzStrip, 4);
       if (strip) {
         const stripResult = await extractMrzFromFullFrame(strip, orientation, {
@@ -107,7 +122,7 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
     } finally {
       processingRef.current = false;
     }
-  }, [captureFullFrame, captureOverlay, ocrReady, onResult, orientation, t]);
+  }, [captureFullFrame, captureOverlay, ensureOcr, onResult, orientation, t]);
 
   const handlePhotoUpload = useCallback(
     async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -115,14 +130,16 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
       e.target.value = '';
       if (!file || processingRef.current) return;
 
-      const ready = ocrReady || (await ensureOcr());
-      if (!ready) return;
-
       processingRef.current = true;
       setPhase('processing');
       setDebugText('');
 
       try {
+        if (!(await ensureOcr())) {
+          setPhase('error');
+          return;
+        }
+
         const result = await extractMrzFromFile(file);
         if (result) {
           setPhase('success');
@@ -141,21 +158,14 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
         processingRef.current = false;
       }
     },
-    [ensureOcr, ocrReady, onResult, t],
+    [ensureOcr, onResult, t],
   );
 
-  const handleUploadClick = useCallback(async () => {
-    const ready = await ensureOcr();
-    if (!ready) return;
-    fileInputRef.current?.click();
-  }, [ensureOcr]);
-
-  const handleCameraClick = useCallback(async () => {
-    const ready = await ensureOcr();
-    if (!ready) return;
+  const handleCameraClick = useCallback(() => {
     setPhase('preview');
     setDebugText('');
     setScreen('camera');
+    void ensureOcr();
   }, [ensureOcr]);
 
   useEffect(() => {
@@ -164,53 +174,66 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
     }
   }, [cameraEnabled, isReady, phase]);
 
+  const fileInput = (
+    <input
+      id={FILE_INPUT_ID}
+      type="file"
+      accept="image/*"
+      className={styles.hiddenInput}
+      disabled={phase === 'processing'}
+      onChange={(e) => void handlePhotoUpload(e)}
+    />
+  );
+
+  const uploadLabelText =
+    phase === 'processing'
+      ? t('capture.processing')
+      : ocrLoading
+        ? t('capture.preparingBackground')
+        : t('capture.uploadPhoto');
+
   const captureLabel =
     phase === 'processing'
       ? t('capture.processing')
       : !isReady
         ? t('capture.cameraLoading')
-        : ocrLoading
-          ? t('capture.preparing')
-          : phase === 'error'
-            ? t('capture.retry')
-            : t('capture.shoot');
+        : phase === 'error'
+          ? t('capture.retry')
+          : t('capture.shoot');
 
   if (screen === 'chooser') {
     return (
       <div className={styles.scanner}>
         <div className={styles.body}>
-          <p className={styles.chooserHint}>{t('capture.chooserHint')}</p>
+          <p className={styles.chooserHint}>
+            {phase === 'processing' ? t('capture.processing') : t('capture.chooserHint')}
+          </p>
           {debugText && <pre className={styles.debug}>{debugText}</pre>}
         </div>
         <footer className={styles.footer}>
-          <button
-            type="button"
-            className={styles.captureBtn}
-            onClick={() => void handleUploadClick()}
-            disabled={ocrLoading}
+          {/* Label nativa: apre il selettore file senza click programmatico,
+              che i browser mobile bloccano se avviene dopo un'operazione async. */}
+          <label
+            htmlFor={FILE_INPUT_ID}
+            className={phase === 'processing' ? `${styles.captureBtn} ${styles.btnBusy}` : styles.captureBtn}
+            onClick={() => void ensureOcr()}
           >
-            {ocrLoading ? t('capture.preparing') : t('capture.uploadPhoto')}
-          </button>
+            {uploadLabelText}
+          </label>
           <div className={styles.secondaryRow}>
             <button
               type="button"
               className={styles.secondaryBtnAccent}
-              onClick={() => void handleCameraClick()}
-              disabled={ocrLoading}
+              onClick={handleCameraClick}
+              disabled={phase === 'processing'}
             >
-              {ocrLoading ? t('capture.preparing') : t('capture.useCamera')}
+              {t('capture.useCamera')}
             </button>
             <button type="button" className={styles.secondaryBtn} onClick={onManualEntry}>
               {t('capture.manualEntry')}
             </button>
           </div>
-          <input
-            ref={fileInputRef}
-            type="file"
-            accept="image/*"
-            className={styles.hiddenInput}
-            onChange={(e) => void handlePhotoUpload(e)}
-          />
+          {fileInput}
         </footer>
       </div>
     );
@@ -310,20 +333,23 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
           type="button"
           className={styles.captureBtn}
           onClick={() => void runOcr()}
-          disabled={!isReady || !ocrReady || phase === 'processing'}
+          disabled={!isReady || phase === 'processing'}
         >
           {captureLabel}
         </button>
 
         <div className={styles.secondaryRow}>
-          <button
-            type="button"
-            className={styles.secondaryBtnAccent}
-            onClick={() => void handleUploadClick()}
-            disabled={!ocrReady || phase === 'processing'}
+          <label
+            htmlFor={FILE_INPUT_ID}
+            className={
+              phase === 'processing'
+                ? `${styles.secondaryBtnAccent} ${styles.btnBusy}`
+                : styles.secondaryBtnAccent
+            }
+            onClick={() => void ensureOcr()}
           >
             {t('capture.uploadPhoto')}
-          </button>
+          </label>
           <button type="button" className={styles.secondaryBtn} onClick={() => setScreen('chooser')}>
             {t('capture.backToChooser')}
           </button>
@@ -332,13 +358,7 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
           </button>
         </div>
 
-        <input
-          ref={fileInputRef}
-          type="file"
-          accept="image/*"
-          className={styles.hiddenInput}
-          onChange={(e) => void handlePhotoUpload(e)}
-        />
+        {fileInput}
       </footer>
     </div>
   );

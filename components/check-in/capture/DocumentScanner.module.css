@@ -264,6 +264,10 @@
 }
 
 .captureBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
   width: 100%;
   min-height: 52px;
   border: none;
@@ -274,11 +278,19 @@
   font-weight: 700;
   cursor: pointer;
   letter-spacing: 0.02em;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .captureBtn:disabled {
   opacity: 0.45;
   cursor: not-allowed;
+}
+
+.btnBusy {
+  opacity: 0.45;
+  cursor: progress;
+  pointer-events: none;
 }
 
 .secondaryRow {
@@ -300,6 +312,10 @@
 }
 
 .secondaryBtnAccent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
   flex: 1;
   min-height: 44px;
   background: transparent;
@@ -309,6 +325,8 @@
   border-radius: 10px;
   font-size: 0.82rem;
   cursor: pointer;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .secondaryBtn:disabled,
@@ -317,8 +335,19 @@
   cursor: not-allowed;
 }
 
+/* Visually hidden, non display:none: alcune versioni di iOS Safari ignorano
+   l'attivazione via label di un input completamente rimosso dal layout. */
 .hiddenInput {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 
 .error {

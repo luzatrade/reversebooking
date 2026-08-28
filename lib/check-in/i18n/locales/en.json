@@ -66,6 +66,7 @@
     "manualEntry": "Manual entry",
     "retry": "Retry",
     "uploadPhoto": "Upload photo",
+    "preparingBackground": "Upload photo (reader warming up…)",
     "useCamera": "Use camera",
     "chooserHint": "Choose how to register the document. On smartphones we recommend uploading a sharp photo of the ID card.",
     "backToChooser": "Other methods"

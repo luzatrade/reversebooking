@@ -66,6 +66,7 @@
     "manualEntry": "Inserimento manuale",
     "retry": "Riprova",
     "uploadPhoto": "Carica foto",
+    "preparingBackground": "Carica foto (lettore in preparazione…)",
     "useCamera": "Usa fotocamera",
     "chooserHint": "Scegli come registrare il documento. Su smartphone consigliamo di caricare una foto nitida della carta d'identità.",
     "backToChooser": "Altri metodi"
