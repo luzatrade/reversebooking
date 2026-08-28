@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { logAdminAction } from "@/lib/admin/audit";
+import { resolveOnboardingCityIstat } from "@/lib/admin/onboarding-city-istat";
 import { requireAdminApi } from "@/lib/admin/verify";
 import { MAX_GALLERY_PHOTOS } from "@/lib/hotel/gallery-photos";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
@@ -21,6 +22,8 @@ type Body = {
   gallery_photo_urls?: string[];
   description?: string | null;
   description_en?: string | null;
+  lat?: number | null;
+  lng?: number | null;
   status?: string;
   resetClaim?: boolean;
 };
@@ -30,6 +33,19 @@ function cleanOptionalText(value: string | null | undefined) {
   const trimmed = value?.trim();
   return trimmed ? trimmed : null;
 }
+
+function parseCoord(value: number | null | undefined, label: string, min: number, max: number) {
+  if (value === null || value === undefined) return null;
+  const num = Number(value);
+  if (!Number.isFinite(num)) {
+    throw new Error(`${label} non valida`);
+  }
+  if (num < min || num > max) {
+    throw new Error(`${label} fuori range`);
+  }
+  return Math.round(num * 1e6) / 1e6;
+}
+
 
 function normalizeGalleryUrls(value: string[] | undefined) {
   if (value === undefined) return undefined;
@@ -82,6 +98,15 @@ export async function POST(request: Request) {
     const cityName = body.city_name.trim();
     if (!cityName) return NextResponse.json({ error: "La città è obbligatoria" }, { status: 400 });
     updates.city_name = cityName;
+    const cityIstat = await resolveOnboardingCityIstat(admin, cityName);
+    updates.city_istat = cityIstat;
+  }
+
+  try {
+    if (body.lat !== undefined) updates.lat = parseCoord(body.lat, "Latitudine", -90, 90);
+    if (body.lng !== undefined) updates.lng = parseCoord(body.lng, "Longitudine", -180, 180);
+  } catch (err) {
+    return NextResponse.json({ error: err instanceof Error ? err.message : "Coordinate non valide" }, { status: 400 });
   }
   if (body.email !== undefined) updates.email = cleanOptionalText(body.email);
   if (body.website !== undefined) updates.website = cleanOptionalText(body.website);
@@ -141,16 +166,53 @@ export async function POST(request: Request) {
 
   const hotelSync: Record<string, unknown> = {};
   if (updates.nome !== undefined) hotelSync.property_name = updates.nome;
-  if (updates.indirizzo !== undefined) {
-    hotelSync.full_address = updates.indirizzo ?? existing.nome;
-    hotelSync.specific_area = updates.indirizzo;
-  }
   if (updates.email !== undefined) hotelSync.public_email = updates.email;
   if (updates.phone !== undefined) hotelSync.public_phone = updates.phone;
   if (updates.main_photo_url !== undefined) hotelSync.main_photo_url = updates.main_photo_url;
   if (updates.description !== undefined) hotelSync.description = updates.description;
   if (updates.description_en !== undefined) hotelSync.description_en = updates.description_en;
   if (updates.gallery_photo_urls !== undefined) hotelSync.gallery_photo_urls = updates.gallery_photo_urls;
+  if (updates.google_maps_url !== undefined) hotelSync.google_maps_url = updates.google_maps_url;
+
+  const locationChanged =
+    updates.city_name !== undefined ||
+    updates.indirizzo !== undefined ||
+    updates.lat !== undefined ||
+    updates.lng !== undefined;
+
+  if (locationChanged) {
+    const { error: rpcError } = await admin.rpc("admin_sync_hotel_location_from_onboarding", { p_onboarding_id: id });
+    if (rpcError && !rpcError.message.includes("Could not find the function")) {
+      const partialSync: Record<string, unknown> = {};
+      if (updates.city_name !== undefined) partialSync.city_name = updates.city_name;
+      if (updates.indirizzo !== undefined) {
+        partialSync.full_address = updates.indirizzo ?? existing.nome;
+        partialSync.specific_area = updates.indirizzo;
+      }
+      if (updates.lat !== undefined) partialSync.latitude = updates.lat;
+      if (updates.lng !== undefined) partialSync.longitude = updates.lng;
+
+      let { error: partialError } = await admin.from("hotel_accounts").update(partialSync).eq("onboarding_hotel_id", id);
+      if (partialError?.message.includes("non può essere modificata") && partialSync.city_name) {
+        const { city_name, ...withoutCityIdAttempt } = partialSync;
+        ({ error: partialError } = await admin.from("hotel_accounts").update(withoutCityIdAttempt).eq("onboarding_hotel_id", id));
+        if (!partialError) {
+          ({ error: partialError } = await admin
+            .from("hotel_accounts")
+            .update({ city_name })
+            .eq("onboarding_hotel_id", id));
+        }
+      }
+      if (partialError) {
+        return NextResponse.json({ error: partialError.message }, { status: 500 });
+      }
+    } else if (rpcError) {
+      return NextResponse.json({ error: rpcError.message }, { status: 500 });
+    }
+  } else if (updates.indirizzo !== undefined) {
+    hotelSync.full_address = updates.indirizzo ?? existing.nome;
+    hotelSync.specific_area = updates.indirizzo;
+  }
 
   if (Object.keys(hotelSync).length > 0) {
     let { error: syncError } = await admin.from("hotel_accounts").update(hotelSync).eq("onboarding_hotel_id", id);
