@@ -1,6 +1,13 @@
+import type { SupabaseClient } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
 import { logAdminAction } from "@/lib/admin/audit";
+import { resolveOnboardingCityIstat } from "@/lib/admin/onboarding-city-istat";
 import { requireAdminApi } from "@/lib/admin/verify";
+import {
+  cityNamesMatch,
+  extractCityFromAddress,
+  resolveOnboardingCityName,
+} from "@/lib/geo/extractCityFromAddress";
 import { MAX_GALLERY_PHOTOS } from "@/lib/hotel/gallery-photos";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
 import { notifyOnboardingHotelIndexNow } from "@/lib/seo/indexnow-sync";
@@ -21,6 +28,9 @@ type Body = {
   gallery_photo_urls?: string[];
   description?: string | null;
   description_en?: string | null;
+  lat?: number | null;
+  lng?: number | null;
+  syncCityFromAddress?: boolean;
   status?: string;
   resetClaim?: boolean;
 };
@@ -31,12 +41,27 @@ function cleanOptionalText(value: string | null | undefined) {
   return trimmed ? trimmed : null;
 }
 
+function parseCoord(value: number | null | undefined, label: string, min: number, max: number) {
+  if (value === null || value === undefined) return null;
+  const num = Number(value);
+  if (!Number.isFinite(num)) throw new Error(`${label} non valida`);
+  if (num < min || num > max) throw new Error(`${label} fuori range`);
+  return Math.round(num * 1e6) / 1e6;
+}
+
 function normalizeGalleryUrls(value: string[] | undefined) {
   if (value === undefined) return undefined;
   return value
     .map((item) => item.trim())
     .filter(Boolean)
     .slice(0, MAX_GALLERY_PHOTOS);
+}
+
+async function syncLinkedHotelLocation(admin: SupabaseClient, id: string) {
+  const { error: rpcError } = await admin.rpc("admin_sync_hotel_location_from_onboarding", {
+    p_onboarding_id: id,
+  });
+  return rpcError;
 }
 
 export async function POST(request: Request) {
@@ -58,7 +83,7 @@ export async function POST(request: Request) {
   const admin = gate.admin;
   const { data: existing, error: existingError } = await admin
     .from("onboarding_hotels")
-    .select("id, nome, status, claimed_by")
+    .select("id, nome, indirizzo, city_name, status, claimed_by")
     .eq("id", id)
     .maybeSingle();
 
@@ -70,6 +95,7 @@ export async function POST(request: Request) {
   }
 
   const updates: Record<string, unknown> = {};
+  let cityAutoResolved: string | null = null;
 
   if (body.nome !== undefined) {
     const nome = body.nome.trim();
@@ -78,11 +104,42 @@ export async function POST(request: Request) {
   }
 
   if (body.indirizzo !== undefined) updates.indirizzo = cleanOptionalText(body.indirizzo);
+
+  const nextAddress =
+    body.indirizzo !== undefined ? cleanOptionalText(body.indirizzo) : (existing.indirizzo as string | null);
+  const harvestCity = body.city_name?.trim() ?? (existing.city_name as string);
+  const structureName = (updates.nome as string | undefined) ?? (existing.nome as string);
+
+  if (body.syncCityFromAddress || (body.indirizzo !== undefined && body.city_name === undefined)) {
+    const resolved = resolveOnboardingCityName({
+      harvestCity,
+      address: nextAddress,
+      structureName,
+    });
+    if (!cityNamesMatch(resolved, harvestCity)) {
+      updates.city_name = resolved;
+      cityAutoResolved = resolved;
+    }
+  }
+
   if (body.city_name !== undefined) {
     const cityName = body.city_name.trim();
     if (!cityName) return NextResponse.json({ error: "La città è obbligatoria" }, { status: 400 });
     updates.city_name = cityName;
+    cityAutoResolved = null;
   }
+
+  if (updates.city_name !== undefined) {
+    updates.city_istat = await resolveOnboardingCityIstat(admin, String(updates.city_name));
+  }
+
+  try {
+    if (body.lat !== undefined) updates.lat = parseCoord(body.lat, "Latitudine", -90, 90);
+    if (body.lng !== undefined) updates.lng = parseCoord(body.lng, "Longitudine", -180, 180);
+  } catch (err) {
+    return NextResponse.json({ error: err instanceof Error ? err.message : "Coordinate non valide" }, { status: 400 });
+  }
+
   if (body.email !== undefined) updates.email = cleanOptionalText(body.email);
   if (body.website !== undefined) updates.website = cleanOptionalText(body.website);
   if (body.google_maps_url !== undefined) updates.google_maps_url = cleanOptionalText(body.google_maps_url);
@@ -141,16 +198,43 @@ export async function POST(request: Request) {
 
   const hotelSync: Record<string, unknown> = {};
   if (updates.nome !== undefined) hotelSync.property_name = updates.nome;
-  if (updates.indirizzo !== undefined) {
-    hotelSync.full_address = updates.indirizzo ?? existing.nome;
-    hotelSync.specific_area = updates.indirizzo;
-  }
   if (updates.email !== undefined) hotelSync.public_email = updates.email;
   if (updates.phone !== undefined) hotelSync.public_phone = updates.phone;
   if (updates.main_photo_url !== undefined) hotelSync.main_photo_url = updates.main_photo_url;
   if (updates.description !== undefined) hotelSync.description = updates.description;
   if (updates.description_en !== undefined) hotelSync.description_en = updates.description_en;
   if (updates.gallery_photo_urls !== undefined) hotelSync.gallery_photo_urls = updates.gallery_photo_urls;
+  if (updates.google_maps_url !== undefined) hotelSync.google_maps_url = updates.google_maps_url;
+
+  const locationChanged =
+    updates.city_name !== undefined ||
+    updates.indirizzo !== undefined ||
+    updates.lat !== undefined ||
+    updates.lng !== undefined;
+
+  if (locationChanged) {
+    const rpcError = await syncLinkedHotelLocation(admin, id);
+    if (rpcError?.message.includes("Could not find the function")) {
+      migrationWarning = [
+        migrationWarning,
+        "Migration admin_sync_hotel_location_from_onboarding non applicata: city_id hotel non aggiornato. Esegui npm run supabase:push.",
+      ]
+        .filter(Boolean)
+        .join(" ");
+      if (updates.indirizzo !== undefined) {
+        hotelSync.full_address = updates.indirizzo ?? existing.nome;
+        hotelSync.specific_area = updates.indirizzo;
+      }
+      if (updates.city_name !== undefined) hotelSync.city_name = updates.city_name;
+      if (updates.lat !== undefined) hotelSync.latitude = updates.lat;
+      if (updates.lng !== undefined) hotelSync.longitude = updates.lng;
+    } else if (rpcError) {
+      return NextResponse.json({ error: rpcError.message }, { status: 500 });
+    }
+  } else if (updates.indirizzo !== undefined) {
+    hotelSync.full_address = updates.indirizzo ?? existing.nome;
+    hotelSync.specific_area = updates.indirizzo;
+  }
 
   if (Object.keys(hotelSync).length > 0) {
     let { error: syncError } = await admin.from("hotel_accounts").update(hotelSync).eq("onboarding_hotel_id", id);
@@ -160,6 +244,11 @@ export async function POST(request: Request) {
         .from("hotel_accounts")
         .update(stripKeys(hotelSync, ["description_en"]))
         .eq("onboarding_hotel_id", id));
+    }
+
+    if (syncError && syncError.message.includes("non può essere modificata") && hotelSync.city_name) {
+      const { city_name, ...rest } = hotelSync;
+      ({ error: syncError } = await admin.from("hotel_accounts").update(rest).eq("onboarding_hotel_id", id));
     }
 
     if (syncError) {
@@ -173,13 +262,29 @@ export async function POST(request: Request) {
     targetType: "onboarding",
     targetId: id,
     details: {
-      before: { nome: existing.nome, status: existing.status, claimed_by: existing.claimed_by },
+      before: {
+        nome: existing.nome,
+        city_name: existing.city_name,
+        indirizzo: existing.indirizzo,
+        status: existing.status,
+        claimed_by: existing.claimed_by,
+      },
       updates,
+      cityAutoResolved,
       syncedHotelAccount: Object.keys(hotelSync),
     },
   });
 
   void notifyOnboardingHotelIndexNow(admin, id);
 
-  return NextResponse.json({ ok: true, warning: migrationWarning });
+  const addressCityHint = extractCityFromAddress(nextAddress);
+  return NextResponse.json({
+    ok: true,
+    warning: migrationWarning,
+    cityAutoResolved,
+    addressCityHint:
+      addressCityHint && !cityNamesMatch(addressCityHint, String(updates.city_name ?? existing.city_name))
+        ? addressCityHint
+        : null,
+  });
 }
