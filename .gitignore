@@ -55,4 +55,15 @@ node_modules
 
 # MRZ bench: foto documenti reali (solo locale)
 /data/mrz-bench/corpus/
+/data/mrz-bench/runs/
+/data/mrz-bench/corpus-results*.txt
 /mrz.traineddata
+
+# Export operativi rigenerabili (non versionare)
+/data/outreach-aruba-paste/
+/data/outreach-email-only.*
+/data/outreach-email-rivendica-duplica-email.txt
+/data/outreach-allegato-link-mind-milano.txt
+/data/onboarding-resend-outreach*.csv
+/data/indexnow/
+/data/n8n/missing-descriptions/
