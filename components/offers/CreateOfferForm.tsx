@@ -23,7 +23,8 @@ import { makeOfferCode, relaunchOfferHref } from "@/lib/identifiers";
 import { checkoutExpiresAtIso } from "@/lib/lifecycle/checkout-expiry";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { formatMessage } from "@/lib/i18n/format";
-import { getMealPlanLabels } from "@/lib/i18n/labels";
+import { getMealPlanLabels, getServiceLabels } from "@/lib/i18n/labels";
+import { activePreferenceFilterKeys } from "@/lib/matching/request-hotel-services";
 import type { MealPlan, StructureType } from "@/types/app";
 
 type RoomType = "double" | "twin" | "triple" | "quadruple";
@@ -65,9 +66,6 @@ type HotelAccount = { id: string; property_name: string; structure_type: Structu
 type ExistingOffer = { id: string; offer_code: string | null; total_price: number; description: string; conditions: string | null; meal_plan_included: MealPlan; expires_at: string; status: string; created_at: string; updated_at: string };
 
 const roomTypeLabels: Record<RoomType, string> = { double: "Matrimoniale", twin: "Twin", triple: "Tripla", quadruple: "Quadrupla" };
-const filterLabels: Array<{ key: keyof PreferenceFilters; label: string }> = [
-  { key: "connecting_rooms", label: "Camere comunicanti" }, { key: "disabled_access", label: "Camera accessibile disabili" }, { key: "pool", label: "Piscina" }, { key: "spa", label: "Spa" }, { key: "bathtub", label: "Vasca" }, { key: "garage", label: "Garage" }, { key: "beach", label: "Spiaggia / vicino alla spiaggia" }, { key: "pets_allowed", label: "Animali ammessi" },
-];
 function formatDate(value: string) { return new Intl.DateTimeFormat("it-IT", { day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(value)); }
 function formatCurrency(value: number) { return new Intl.NumberFormat("it-IT", { style: "currency", currency: "EUR" }).format(value); }
 function defaultOfferExpiry() { const date = new Date(); date.setDate(date.getDate() + 2); return date.toISOString().slice(0, 10); }
@@ -75,7 +73,10 @@ function offerExpiryForRequest(request: TravelRequest | null) {
   if (!request) return defaultOfferExpiry();
   return checkoutExpiresAtIso(request.check_out, request.country_code, request.city_id).slice(0, 10);
 }
-function getActiveFilters(filters: PreferenceFilters | null) { if (!filters) return []; return filterLabels.filter((filter) => Boolean(filters[filter.key])); }
+function getActiveFilters(filters: PreferenceFilters | null, labels: Record<string, string>) {
+  if (!filters) return [];
+  return activePreferenceFilterKeys(filters).map((key) => ({ key, label: labels[key] ?? key }));
+}
 function requestCode(request: TravelRequest | null) { return request?.request_code ?? "RB------"; }
 function offerCode(offer: ExistingOffer | null) { return offer?.offer_code ?? "OF------"; }
 function roomTypeLabel(room: RoomDetail) { return room.room_type ? roomTypeLabels[room.room_type] ?? "Matrimoniale" : "Matrimoniale"; }
@@ -98,6 +99,7 @@ function applyOfferPrefill(offer: ExistingOffer, setters: {
 export function CreateOfferForm() {
   const { locale, t } = useLanguage();
   const mealPlanLabels = getMealPlanLabels(locale);
+  const serviceLabels = getServiceLabels(locale);
   const params = useParams<{ id: string }>();
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -388,6 +390,18 @@ export function CreateOfferForm() {
             <p><strong>Budget totale cliente:</strong> {formatCurrency(Number(request.budget))}</p>
             <p><strong>Trattamento:</strong> {mealPlanLabels[request.meal_plan]}</p>
           </div>
+          {getActiveFilters(request.preference_filters, serviceLabels).length > 0 ? (
+            <div className="flex flex-wrap gap-2">
+              {getActiveFilters(request.preference_filters, serviceLabels).map((filter) => (
+                <span
+                  key={filter.key}
+                  className="rounded-full bg-[#E8F4FC] px-3 py-1 text-xs font-medium text-[#0f4c81] ring-1 ring-[#B8D4EB]"
+                >
+                  {filter.label}
+                </span>
+              ))}
+            </div>
+          ) : null}
           {Array.isArray(request.room_details) && request.room_details.some((room) => Number(room.budget) > 0) ? (
             <div className="rounded-2xl border border-zinc-200 p-4 text-sm dark:border-zinc-800">
               <p className="font-semibold">Budget per camera</p>

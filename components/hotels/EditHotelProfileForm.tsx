@@ -11,7 +11,7 @@ import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { isHotelOperational } from "@/lib/hotel/access";
 import { needsOnboardingHotelPrefill } from "@/lib/hotel/onboarding-claim";
-import { findCityById } from "@/lib/constants/world-city-helpers";
+import { cityFromStored, findCityById } from "@/lib/constants/world-city-helpers";
 import { type WorldCity } from "@/lib/constants/world-cities";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { formatMessage } from "@/lib/i18n/format";
@@ -76,6 +76,7 @@ export function EditHotelProfileForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const claimFlow = searchParams.get("claim") === "1";
+  const onboardingQueryId = searchParams.get("onboarding")?.trim() || null;
   const [form, setForm] = useState<HotelForm>(emptyForm);
   const [selectedCity, setSelectedCity] = useState<WorldCity>(defaultCity);
   const [userId, setUserId] = useState<string | null>(null);
@@ -119,14 +120,21 @@ export function EditHotelProfileForm() {
           typeof user.user_metadata?.onboarding_hotel_id === "string"
             ? user.user_metadata.onboarding_hotel_id
             : null;
+        const onboardingPrefillId = onboardingQueryId ?? onboardingMetaId;
         if (!active) return;
-        if (hotelError || !data || (onboardingMetaId && needsOnboardingHotelPrefill(data, onboardingMetaId))) {
+        if (hotelError || !data || (onboardingPrefillId && needsOnboardingHotelPrefill(data, onboardingPrefillId))) {
           const session = await supabase.auth.getSession();
           const token = session.data.session?.access_token;
           if (token) {
             await fetch("/api/auth/complete-profile", {
               method: "POST",
-              headers: { Authorization: `Bearer ${token}` },
+              headers: {
+                Authorization: `Bearer ${token}`,
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({
+                onboardingHotelId: onboardingPrefillId ?? undefined,
+              }),
             });
             const retry = await supabase
               .from("hotel_accounts")
@@ -156,7 +164,12 @@ export function EditHotelProfileForm() {
         );
         setOnboardingHotelId(data.onboarding_hotel_id ?? null);
         setPhoneVerified(Boolean(profileData?.phone_verified));
-        const city = findCityById(data.city_id);
+        const city = cityFromStored({
+          country_code: data.country_code,
+          country_name: data.country_name,
+          city_name: data.city_name,
+          city_id: data.city_id,
+        });
         setSelectedCity(city);
         setForm({
           id: data.id,
@@ -166,10 +179,10 @@ export function EditHotelProfileForm() {
           description: data.description ?? "",
           description_en: data.description_en ?? "",
           full_address: data.full_address ?? "",
-          country_code: city.country_code,
-          country_name: city.country_name,
-          city_name: city.city_name,
-          city_id: city.city_id,
+          country_code: data.country_code ?? city.country_code,
+          country_name: data.country_name ?? city.country_name,
+          city_name: data.city_name ?? city.city_name,
+          city_id: data.city_id ?? city.city_id,
           specific_area: data.specific_area ?? "",
           rooms_quantity: data.rooms_quantity ?? 1,
           main_photo_url: data.main_photo_url ?? "",

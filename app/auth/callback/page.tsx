@@ -35,10 +35,20 @@ function AuthCallbackContent() {
 
           const user = exchangeData.session?.user ?? exchangeData.user;
           const token = exchangeData.session?.access_token;
+          const onboardingHotelId =
+            typeof user?.user_metadata?.onboarding_hotel_id === "string"
+              ? user.user_metadata.onboarding_hotel_id
+              : null;
           if (token) {
             await fetch("/api/auth/complete-profile", {
               method: "POST",
-              headers: { Authorization: `Bearer ${token}` },
+              headers: {
+                Authorization: `Bearer ${token}`,
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({
+                onboardingHotelId: onboardingHotelId ?? undefined,
+              }),
             });
           }
 
@@ -48,10 +58,6 @@ function AuthCallbackContent() {
           }
 
           const metaRole = roleFromUserMetadata(user);
-          const onboardingHotelId =
-            typeof user.user_metadata?.onboarding_hotel_id === "string"
-              ? user.user_metadata.onboarding_hotel_id
-              : null;
           if (metaRole) {
             redirectAfterLogin(
               next ||
@@ -86,10 +92,20 @@ function AuthCallbackContent() {
           const { data: sessionData } = await supabase.auth.getSession();
           const user = sessionData.session?.user;
           const accessToken = sessionData.session?.access_token;
+          const onboardingHotelId =
+            typeof user?.user_metadata?.onboarding_hotel_id === "string"
+              ? user.user_metadata.onboarding_hotel_id
+              : null;
           if (accessToken) {
             await fetch("/api/auth/complete-profile", {
               method: "POST",
-              headers: { Authorization: `Bearer ${accessToken}` },
+              headers: {
+                Authorization: `Bearer ${accessToken}`,
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({
+                onboardingHotelId: onboardingHotelId ?? undefined,
+              }),
             });
           }
 

@@ -7,9 +7,11 @@ export type HotelServiceKey =
   | "garage"
   | "beach"
   | "pets_allowed"
-  | "disabled_access";
+  | "disabled_access"
+  | "connecting_rooms"
+  | "bathtub";
 
-export type HotelServiceCategoryId = "dining" | "wellness" | "access" | "outdoor" | "family";
+export type HotelServiceCategoryId = "dining" | "wellness" | "access" | "outdoor" | "family" | "rooms";
 
 export const HOTEL_SERVICE_CATEGORIES: {
   id: HotelServiceCategoryId;
@@ -42,7 +44,16 @@ export const HOTEL_SERVICE_CATEGORIES: {
     labelEn: "Parking & access",
     services: [
       { key: "garage", labelIt: "Garage / parcheggio", labelEn: "Garage / parking" },
-      { key: "disabled_access", labelIt: "Accesso disabili", labelEn: "Disabled access" },
+      { key: "disabled_access", labelIt: "Camera accessibile disabili", labelEn: "Accessible room for disabled guests" },
+    ],
+  },
+  {
+    id: "rooms",
+    labelIt: "Camere",
+    labelEn: "Rooms",
+    services: [
+      { key: "connecting_rooms", labelIt: "Camere comunicanti", labelEn: "Connecting rooms" },
+      { key: "bathtub", labelIt: "Vasca", labelEn: "Bathtub" },
     ],
   },
   {

@@ -17,8 +17,9 @@ import { resolveAdvertiserContacts } from "@/lib/advertiser/contacts";
 import { AdvertiserContactPanel } from "@/components/advertiser/AdvertiserContactPanel";
 import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
+import { activePreferenceFilterKeys, hotelMatchesTravelRequest } from "@/lib/matching/request-hotel-services";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
-import { getAdvertiserTypeLabels, getMealPlanLabels } from "@/lib/i18n/labels";
+import { getAdvertiserTypeLabels, getMealPlanLabels, getServiceLabels } from "@/lib/i18n/labels";
 import type { HouseRules } from "@/lib/constants/house-rules";
 
 import type { AdvertiserType, MealPlan } from "@/types/app";
@@ -28,6 +29,7 @@ type HotelAccount = {
   property_name: string;
   city_name: string;
   city_id: string;
+  structure_type: string;
   services: Record<string, boolean> | null;
   house_rules: HouseRules | null;
 };
@@ -50,6 +52,8 @@ type TravelRequest = {
   city_name: string;
   city_id: string;
   preferred_area: string;
+  preferred_structure_type: string | null;
+  preference_filters: Record<string, boolean> | null;
   check_in: string;
   check_out: string;
   guests_count: number;
@@ -116,6 +120,7 @@ export function HotelDashboardClient() {
   const { locale, t } = useLanguage();
   const mealPlanLabels = getMealPlanLabels(locale);
   const advertiserTypeLabels = getAdvertiserTypeLabels(locale);
+  const serviceLabels = getServiceLabels(locale);
   const [hotel, setHotel] = useState<HotelAccount | null>(null);
   const [requests, setRequests] = useState<TravelRequest[]>([]);
   const [offers, setOffers] = useState<Offer[]>([]);
@@ -138,7 +143,7 @@ export function HotelDashboardClient() {
       }
       const { data: hotelData, error: hotelError } = await supabase
         .from("hotel_accounts")
-        .select("id, property_name, city_name, city_id, services, house_rules")
+        .select("id, property_name, city_name, city_id, structure_type, services, house_rules")
         .eq("user_id", user.id)
         .maybeSingle();
       if (hotelError || !hotelData) {
@@ -146,14 +151,15 @@ export function HotelDashboardClient() {
         setLoading(false);
         return;
       }
-      setHotel(hotelData as HotelAccount);
+      const hotelAccount = hotelData as HotelAccount;
+      setHotel(hotelAccount);
       setLoading(false);
 
       const nowIso = new Date().toISOString();
       const [requestResult, offerResult, sentOfferResult, acceptedOfferResult, notificationResult] = await Promise.all([
         supabase
           .from("travel_requests")
-          .select("id, request_code, city_name, city_id, preferred_area, check_in, check_out, guests_count, rooms_count, budget, meal_plan, notes, visible_contact_email, visible_contact_phone, visible_contact_whatsapp, visible_contact_website, expires_at, created_at, advertiser_profiles(advertiser_type, short_description, first_name, last_name, contact_email, contact_phone, contact_whatsapp, website_url)")
+          .select("id, request_code, city_name, city_id, preferred_area, preferred_structure_type, preference_filters, check_in, check_out, guests_count, rooms_count, budget, meal_plan, notes, visible_contact_email, visible_contact_phone, visible_contact_whatsapp, visible_contact_website, expires_at, created_at, advertiser_profiles(advertiser_type, short_description, first_name, last_name, contact_email, contact_phone, contact_whatsapp, website_url)")
           .eq("status", "active")
           .eq("city_id", hotelData.city_id)
           .gt("expires_at", nowIso)
@@ -186,7 +192,11 @@ export function HotelDashboardClient() {
         setError(requestResult.error.message);
         return;
       }
-      setRequests(normalizeRequests((requestResult.data ?? []) as unknown as RawTravelRequest[]));
+      setRequests(
+        normalizeRequests((requestResult.data ?? []) as unknown as RawTravelRequest[]).filter((request) =>
+          hotelMatchesTravelRequest(hotelAccount, request),
+        ),
+      );
       setOffers((offerResult.data ?? []) as Offer[]);
       setSentOffers(normalizeSentOffers((sentOfferResult.data ?? []) as unknown as RawSentOffer[]));
       setAcceptedOffers(normalizeAcceptedOffers((acceptedOfferResult.data ?? []) as unknown as RawAcceptedOffer[]));
@@ -370,6 +380,18 @@ export function HotelDashboardClient() {
                     <p className="mt-2 text-sm font-medium text-zinc-800">
                       {t.dashboard.hotel.requestedMealPlan}: {mealPlanLabels[request.meal_plan]}
                     </p>
+                    {activePreferenceFilterKeys(request.preference_filters).length > 0 ? (
+                      <div className="mt-3 flex flex-wrap gap-2">
+                        {activePreferenceFilterKeys(request.preference_filters).map((key) => (
+                          <span
+                            key={key}
+                            className="rounded-full bg-[#E8F4FC] px-3 py-1 text-xs font-medium text-[#0f4c81] ring-1 ring-[#B8D4EB]"
+                          >
+                            {serviceLabels[key] ?? key}
+                          </span>
+                        ))}
+                      </div>
+                    ) : null}
                     {request.notes ? <p className="mt-3 text-sm text-zinc-600">{t.common.notes}: {request.notes}</p> : null}
                     {request.advertiser_profiles?.short_description ? (
                       <p className="mt-2 text-sm text-zinc-500">

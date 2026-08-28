@@ -82,7 +82,9 @@ export function findCityById(cityId?: string | null): WorldCity {
   if (knownCity) return knownCity;
   const match = cityId?.match(/^([A-Z]{2})-(.+)$/);
   if (match) return createWorldCity(match[1], titleFromSlug(match[2]));
-  return majorWorldCities[0];
+  const legacyMatch = cityId?.match(/^(.+)-([a-z]{2})$/i);
+  if (legacyMatch) return createWorldCity(legacyMatch[2].toUpperCase(), titleFromSlug(legacyMatch[1]));
+  return emptyWorldCity();
 }
 
 export function findFirstCityByCountry(countryCode?: string | null): WorldCity {
