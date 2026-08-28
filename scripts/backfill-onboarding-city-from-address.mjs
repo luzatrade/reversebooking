@@ -37,11 +37,19 @@ function normalizeName(value) {
 }
 
 async function loadComuniIndex() {
-  const { data, error } = await sb.from("comuni_italiani").select("codice_istat, sigla_provincia, nome");
-  if (error) throw error;
-  for (const row of data ?? []) {
-    comuneByName.set(normalizeName(row.nome), row);
+  for (let from = 0; ; from += 1000) {
+    const { data, error } = await sb
+      .from("comuni_italiani")
+      .select("codice_istat, sigla_provincia, nome")
+      .range(from, from + 999);
+    if (error) throw error;
+    if (!data?.length) break;
+    for (const row of data) {
+      comuneByName.set(normalizeName(row.nome), row);
+    }
+    if (data.length < 1000) break;
   }
+  console.log(`Indice comuni caricati: ${comuneByName.size}`);
 }
 
 function resolveComune(cityName) {
