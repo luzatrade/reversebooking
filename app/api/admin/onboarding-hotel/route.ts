@@ -2,8 +2,6 @@ import { NextResponse } from "next/server";
 import { logAdminAction } from "@/lib/admin/audit";
 import { resolveOnboardingCityIstat } from "@/lib/admin/onboarding-city-istat";
 import { requireAdminApi } from "@/lib/admin/verify";
-import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
-import { majorWorldCities } from "@/lib/constants/world-cities";
 import { MAX_GALLERY_PHOTOS } from "@/lib/hotel/gallery-photos";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
 import { notifyOnboardingHotelIndexNow } from "@/lib/seo/indexnow-sync";
