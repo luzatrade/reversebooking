@@ -6,9 +6,12 @@ import { destinationPublicPath, homePath, localizedPath } from "@/lib/i18n/routi
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { buildStructurePageParagraphs, buildStructureMetaDescriptionCandidates } from "@/lib/seo/structure-description";
 import { resolveGeoContext } from "@/lib/seo/geo-context";
-import { pickFirstSeoDescription, trimSeoDescription, trimSeoTitleSegment } from "@/lib/seo/serp-copy";
+import { pickFirstSeoDescription, trimSeoDescription } from "@/lib/seo/serp-copy";
 import type { Locale } from "@/lib/i18n/translations";
 import type { StructureSeoRecord } from "@/lib/seo/structure-queries";
+import { buildStructureSeoTitle } from "@/lib/seo/structure-title";
+
+export { buildStructureSeoTitle } from "@/lib/seo/structure-title";
 
 function manualDescription(record: StructureSeoRecord, locale: Locale): string | null {
   const value =
@@ -16,29 +19,6 @@ function manualDescription(record: StructureSeoRecord, locale: Locale): string |
       ? record.descriptionEn?.trim() || record.descriptionIt?.trim()
       : record.descriptionIt?.trim() || record.descriptionEn?.trim();
   return value || null;
-}
-
-export function buildStructureSeoTitle(record: StructureSeoRecord, locale: Locale = "it"): string {
-  const city = record.cityName.trim();
-  const name = record.name.trim();
-  const longSuffix =
-    locale === "en" ? " — Direct offers, no commission" : " — Offerte dirette senza commissioni";
-  const shortSuffix = locale === "en" ? " — Direct offers" : " — Offerte dirette";
-  const booking = locale === "en" ? "BOOKING" : "BOOKING";
-  const joiner = locale === "en" ? " in " : " ";
-
-  const build = (propertyName: string, suffix: string) =>
-    `${propertyName} ${booking}${joiner}${city}${suffix}`;
-
-  let title = build(name, longSuffix);
-  if (title.length <= 72) return title;
-
-  title = build(name, shortSuffix);
-  if (title.length <= 72) return title;
-
-  const maxNameLength = Math.max(18, 72 - shortSuffix.length - joiner.length - booking.length - 1 - city.length);
-  const trimmedName = trimSeoTitleSegment(name, maxNameLength);
-  return build(trimmedName, shortSuffix);
 }
 
 export function buildStructureSeoDescription(record: StructureSeoRecord, locale: Locale = "it"): string {
