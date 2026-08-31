@@ -1,6 +1,10 @@
 {
   "crons": [
     {
+      "path": "/api/cron/supabase-ping",
+      "schedule": "0 7 */3 * *"
+    },
+    {
       "path": "/api/cron/purge-expired",
       "schedule": "5 23 * * *"
     },
