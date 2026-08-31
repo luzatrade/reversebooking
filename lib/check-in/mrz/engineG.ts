@@ -41,6 +41,15 @@ export interface EngineGOpts {
   formatHint?: 'TD1' | 'TD3';
   /** Default true for Italian hotel check-in (CIE) */
   expectItalian?: boolean;
+  /** Abort further OCR when Date.now() >= deadline (ms epoch) */
+  deadline?: number;
+}
+
+const MIN_BAND_CROP_W_PX = 200;
+const MIN_BAND_CROP_H_PX = 80;
+
+function isTimedOut(deadline?: number): boolean {
+  return deadline != null && Date.now() >= deadline;
 }
 
 let lastDebug = '';
@@ -131,6 +140,7 @@ async function collectTd1FromBand(
   worker: Worker,
   canvas: HTMLCanvasElement,
   thorough: boolean,
+  deadline?: number,
 ): Promise<Td1Result[]> {
   const found: Td1Result[] = [];
   const add = (r: Td1Result | null) => {
@@ -141,6 +151,8 @@ async function collectTd1FromBand(
   const thresholds = thorough ? BIN_THRESHOLDS : BIN_FAST;
 
   for (const mul of passes) {
+    if (isTimedOut(deadline)) break;
+
     const scaled = upscaleBandCanvas(canvas, 3, mul);
 
     const byLines = await ocrByLines(worker, scaled, 3, 30);
@@ -157,6 +169,7 @@ async function collectTd1FromBand(
     if (found.length) return dedupeResults(found);
 
     for (const th of thresholds) {
+      if (isTimedOut(deadline)) break;
       const bin = binarizeCanvasAt(scaled, th);
       const binText = await ocrCanvas(worker, bin, PSM.SINGLE_BLOCK);
       if (bin !== scaled) {
@@ -183,6 +196,7 @@ async function collectTd3FromBand(
   worker: Worker,
   canvas: HTMLCanvasElement,
   thorough: boolean,
+  deadline?: number,
 ): Promise<Td1Result[]> {
   const found: Td1Result[] = [];
 
@@ -209,6 +223,8 @@ async function collectTd3FromBand(
   const thresholds = thorough ? BIN_THRESHOLDS : BIN_FAST;
 
   for (const mul of passes) {
+    if (isTimedOut(deadline)) break;
+
     const scaled = upscaleBandCanvas(canvas, 2, mul);
 
     const byLines = await ocrByLines(worker, scaled, 2, 44);
@@ -218,6 +234,7 @@ async function collectTd3FromBand(
     if (tryPairs(extractCandidateLines(block))) return dedupeResults(found);
 
     for (const th of thresholds) {
+      if (isTimedOut(deadline)) break;
       const bin = binarizeCanvasAt(scaled, th);
       const binText = await ocrCanvas(worker, bin, PSM.SINGLE_BLOCK);
       if (bin !== scaled) {
@@ -240,10 +257,11 @@ async function readTd1Band(
   worker: Worker,
   crop: HTMLCanvasElement,
   thorough: boolean,
+  deadline?: number,
 ): Promise<Td1Result[]> {
   const prepped = prepBandCanvas(crop, MIN_BAND_WIDTH_PX);
   const owned = prepped !== crop;
-  const results = await collectTd1FromBand(worker, prepped, thorough);
+  const results = await collectTd1FromBand(worker, prepped, thorough, deadline);
   if (owned) {
     prepped.width = 0;
     prepped.height = 0;
@@ -255,15 +273,18 @@ async function readTd3Band(
   worker: Worker,
   crop: HTMLCanvasElement,
   thorough: boolean,
+  deadline?: number,
 ): Promise<Td1Result[]> {
   const prepped = prepBandCanvas(crop, MIN_BAND_WIDTH_PX);
   const owned = prepped !== crop;
   const all: Td1Result[] = [];
 
   for (const deg of [0, 90, -90] as const) {
+    if (isTimedOut(deadline)) break;
+
     const img = deg === 0 ? prepped : rotateCanvas(prepped, deg);
     const imgOwned = deg !== 0;
-    const results = await collectTd3FromBand(worker, img, thorough);
+    const results = await collectTd3FromBand(worker, img, thorough, deadline);
     all.push(...results);
     if (imgOwned) {
       img.width = 0;
@@ -279,23 +300,53 @@ async function readTd3Band(
   return dedupeResults(all);
 }
 
-function bandPixelSize(view: HTMLCanvasElement, band: MrzBand) {
-  return {
-    width: Math.floor(view.width * band.width),
-    height: Math.floor(view.height * band.height),
-  };
+/** Espande bande troppo piccole (es. MRZ verticale WhatsApp) prima del crop OCR. */
+function expandBandForCrop(
+  view: HTMLCanvasElement,
+  band: MrzBand,
+  minW = MIN_BAND_CROP_W_PX,
+  minH = MIN_BAND_CROP_H_PX,
+): MrzBand {
+  const pxW = view.width * band.width;
+  const pxH = view.height * band.height;
+  if (pxW >= minW && pxH >= minH) return band;
+
+  const targetW = Math.max(pxW, minW) / view.width;
+  const targetH = Math.max(pxH, minH) / view.height;
+  const cx = band.left + band.width / 2;
+  const cy = band.top + band.height / 2;
+
+  let left = cx - targetW / 2;
+  let top = cy - targetH / 2;
+  let width = targetW;
+  let height = targetH;
+
+  if (left < 0) {
+    width += left;
+    left = 0;
+  }
+  if (top < 0) {
+    height += top;
+    top = 0;
+  }
+  if (left + width > 1) width = 1 - left;
+  if (top + height > 1) height = 1 - top;
+
+  return { ...band, left, top, width, height };
 }
 
 async function fallbackRegionScans(
   source: HTMLCanvasElement,
   worker: Worker,
-  opts: { preferTd3: boolean; expectItalian: boolean },
+  opts: { preferTd3: boolean; expectItalian: boolean; deadline?: number },
 ): Promise<ScoredCandidate[]> {
   const candidates: ScoredCandidate[] = [];
   const accTd1 = opts.expectItalian ? { expectItalian: true } : { allowForeign: true };
   const accTd3 = { allowForeign: true };
 
   for (const rot of [0, 90, -90] as const) {
+    if (isTimedOut(opts.deadline)) break;
+
     const view = rot === 0 ? source : rotateCanvas(source, rot);
     const viewOwned = rot !== 0;
     const regions: Array<[number, number, number, number]> = [
@@ -306,9 +357,10 @@ async function fallbackRegionScans(
     ];
 
     for (const [left, top, width, height] of regions) {
+      if (isTimedOut(opts.deadline)) break;
       const crop = cropRelCanvas(view, left, top, width, height);
       if (!opts.preferTd3) {
-        const td1 = await readTd1Band(worker, crop, true);
+        const td1 = await readTd1Band(worker, crop, true, opts.deadline);
         for (const r of td1) {
           if (acceptPerField(r, accTd1)) {
             candidates.push({
@@ -320,7 +372,7 @@ async function fallbackRegionScans(
         }
       }
       if (opts.preferTd3) {
-        const td3 = await readTd3Band(worker, crop, true);
+        const td3 = await readTd3Band(worker, crop, true, opts.deadline);
         for (const r of td3) {
           if (acceptPerField(r, accTd3)) {
             candidates.push({
@@ -371,17 +423,29 @@ export async function runEngineG(
   const allCandidates: ScoredCandidate[] = [];
   let bandsTried = 0;
 
+  if (isTimedOut(opts.deadline)) {
+    lastDebug = 'Engine G: timeout';
+    releaseViews(views, source);
+    return null;
+  }
+
   const tryBands = async (limit: number, thorough: boolean) => {
     for (const band of bands.slice(bandsTried, limit)) {
+      if (isTimedOut(opts.deadline)) return;
+
       bandsTried++;
       const view = views.get(band.view) ?? source;
-      const px = bandPixelSize(view, band);
-      if (px.width < 140 || px.height < 36) continue;
-
-      const crop = cropRelCanvas(view, band.left, band.top, band.width, band.height);
+      const expanded = expandBandForCrop(view, band);
+      const crop = cropRelCanvas(
+        view,
+        expanded.left,
+        expanded.top,
+        expanded.width,
+        expanded.height,
+      );
 
       if (!preferTd3 && (band.lineCount === 3 || !preferTd3)) {
-        const td1 = await readTd1Band(worker, crop, thorough);
+        const td1 = await readTd1Band(worker, crop, thorough, opts.deadline);
         for (const r of td1) {
           if (acceptPerField(r, accTd1)) {
             allCandidates.push({
@@ -394,7 +458,7 @@ export async function runEngineG(
       }
 
       if (preferTd3 || band.lineCount === 2) {
-        const td3 = await readTd3Band(worker, crop, thorough);
+        const td3 = await readTd3Band(worker, crop, thorough, opts.deadline);
         for (const r of td3) {
           if (acceptPerField(r, accTd3)) {
             allCandidates.push({
@@ -416,11 +480,17 @@ export async function runEngineG(
 
   await tryBands(8, false);
   let picked = pickBestWithNameVote(allCandidates);
-  if (!picked || picked.score < 28) await tryBands(Math.min(12, bands.length), true);
+  if ((!picked || picked.score < 28) && !isTimedOut(opts.deadline)) {
+    await tryBands(Math.min(12, bands.length), true);
+  }
   picked = pickBestWithNameVote(allCandidates);
 
-  if (!picked || picked.score < 28) {
-    const fb = await fallbackRegionScans(source, worker, { preferTd3, expectItalian });
+  if ((!picked || picked.score < 28) && !isTimedOut(opts.deadline)) {
+    const fb = await fallbackRegionScans(source, worker, {
+      preferTd3,
+      expectItalian,
+      deadline: opts.deadline,
+    });
     allCandidates.push(...fb);
     picked = pickBestWithNameVote(allCandidates);
   }
@@ -428,7 +498,9 @@ export async function runEngineG(
   releaseViews(views, source);
 
   if (!picked || picked.score < 28) {
-    lastDebug = `Engine G: nessun candidato (${bands.length} bande, ${allCandidates.length} parse)`;
+    lastDebug = isTimedOut(opts.deadline)
+      ? `Engine G: timeout (${bands.length} bande provate)`
+      : `Engine G: nessun candidato (${bands.length} bande, ${allCandidates.length} parse)`;
     return null;
   }
 
