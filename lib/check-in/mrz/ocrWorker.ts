@@ -24,16 +24,24 @@ import type { MrzExtractedData } from '@/types/check-in';
 
 const MRZ_WHITELIST = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789<';
 const FAST_EXIT_SCORE = 14;
+/** Budget OCR totale per scan (camera o foto) */
+export const MRZ_OCR_TIMEOUT_MS = 30_000;
+
+function isTimedOut(deadline?: number): boolean {
+  return deadline != null && Date.now() >= deadline;
+}
+
+function createOcrDeadline(): number {
+  return Date.now() + MRZ_OCR_TIMEOUT_MS;
+}
 
 const OCR_OPTS = {
   workerPath: '/tesseract/worker.min.js',
   corePath: '/tesseract/',
   langPath: '/model/',
   gzip: true,
-  cachePath: 'hotelsdrop-mrz-v10',
+  cachePath: 'hotelsdrop-mrz-v9',
   cacheMethod: 'write' as const,
-  // Su iOS Safari i Blob URL del worker possono far crashare il tab.
-  workerBlobURL: false,
 };
 
 let workerPromise: Promise<Worker> | null = null;
@@ -204,8 +212,10 @@ async function scanSourcesLegacy(
   label: string,
   allCandidates: MrzParseCandidate[],
   linePool: Array<{ line: string; lineIndex: MrzLineIndex }>,
+  deadline?: number,
 ): Promise<MrzExtractedData | null> {
   for (const source of sources) {
+    if (isTimedOut(deadline)) return null;
     await ocrMrzCrop(worker, source, allCandidates, linePool);
     const hit = pickFromPool(allCandidates, linePool, label);
     if (hit && isStrongMrzHit(hit)) return hit;
@@ -221,10 +231,11 @@ async function scanCanvasVariantsLegacy(
   label: string,
   allCandidates: MrzParseCandidate[],
   linePool: Array<{ line: string; lineIndex: MrzLineIndex }>,
+  deadline?: number,
 ): Promise<MrzExtractedData | null> {
   const crops = buildAllMrzCrops(canvas, orientation);
   try {
-    return await scanSourcesLegacy(worker, crops, label, allCandidates, linePool);
+    return await scanSourcesLegacy(worker, crops, label, allCandidates, linePool, deadline);
   } finally {
     for (const c of crops) destroyCanvas(c);
   }
@@ -235,6 +246,7 @@ async function scanWithRotationsLegacy(
   canvas: HTMLCanvasElement,
   orientation: 'portrait' | 'landscape',
   label: string,
+  deadline?: number,
 ): Promise<MrzExtractedData | null> {
   const allCandidates: MrzParseCandidate[] = [];
   const linePool: Array<{ line: string; lineIndex: MrzLineIndex }> = [];
@@ -250,6 +262,7 @@ async function scanWithRotationsLegacy(
 
   try {
     for (const { canvas: variant, suffix } of rotations) {
+      if (isTimedOut(deadline)) return null;
       const hit = await scanCanvasVariantsLegacy(
         worker,
         variant,
@@ -257,6 +270,7 @@ async function scanWithRotationsLegacy(
         `${label}-${suffix}`,
         allCandidates,
         linePool,
+        deadline,
       );
       if (hit && isStrongMrzHit(hit)) return hit;
     }
@@ -273,10 +287,14 @@ async function extractWithEngineG(
   canvas: HTMLCanvasElement,
   worker: Worker,
   orientation: 'portrait' | 'landscape',
+  deadline?: number,
 ): Promise<MrzExtractedData | null> {
-  const run = (opts: Parameters<typeof runEngineG>[2]) => runEngineG(canvas, worker, { deskew: true, ...opts });
+  const run = (opts: Parameters<typeof runEngineG>[2]) => {
+    if (isTimedOut(deadline)) return Promise.resolve(null);
+    return runEngineG(canvas, worker, { deskew: true, deadline, ...opts });
+  };
 
-  // Portrait: prima CIE italiana, poi documenti esteri TD1 (es. carta tedesca)
+  // Portrait: CIE italiana → TD1 estero → passaporto TD3
   if (orientation === 'portrait') {
     const italian = await run({ expectItalian: true });
     if (italian) {
@@ -287,6 +305,11 @@ async function extractWithEngineG(
     if (foreign) {
       lastOcrDebug = getEngineGDebug();
       return foreign;
+    }
+    const td3 = await run({ formatHint: 'TD3', expectItalian: false });
+    if (td3) {
+      lastOcrDebug = getEngineGDebug();
+      return td3;
     }
   } else {
     const td1 = await run({ expectItalian: false });
@@ -301,7 +324,9 @@ async function extractWithEngineG(
     }
   }
 
-  lastOcrDebug = getEngineGDebug() || 'Engine G: nessun risultato';
+  lastOcrDebug = isTimedOut(deadline)
+    ? `Timeout OCR MRZ (${MRZ_OCR_TIMEOUT_MS / 1000}s)`
+    : getEngineGDebug() || 'Engine G: nessun risultato';
   return null;
 }
 
@@ -319,15 +344,20 @@ export async function warmupOcr(): Promise<void> {
 export async function extractMrzFromFullFrame(
   canvas: HTMLCanvasElement,
   orientation: 'portrait' | 'landscape' = 'portrait',
-  options?: { allowLegacyFallback?: boolean },
+  options?: { allowLegacyFallback?: boolean; deadline?: number },
 ): Promise<MrzExtractedData | null> {
+  const deadline = options?.deadline ?? createOcrDeadline();
   const worker = await getWorker();
-  const engineHit = await extractWithEngineG(canvas, worker, orientation);
+  const engineHit = await extractWithEngineG(canvas, worker, orientation, deadline);
   if (engineHit) return engineHit;
 
   if (options?.allowLegacyFallback === false) return null;
+  if (isTimedOut(deadline)) {
+    lastOcrDebug = `Timeout OCR MRZ (${MRZ_OCR_TIMEOUT_MS / 1000}s)`;
+    return null;
+  }
 
-  return scanWithRotationsLegacy(worker, canvas, orientation, 'legacy-frame');
+  return scanWithRotationsLegacy(worker, canvas, orientation, 'legacy-frame', deadline);
 }
 
 export async function extractMrzFromFile(file: File): Promise<MrzExtractedData | null> {
@@ -339,15 +369,26 @@ export async function extractMrzFromFile(file: File): Promise<MrzExtractedData |
 
   const orientation = canvas.height > canvas.width * 1.05 ? 'portrait' : 'landscape';
   const worker = await getWorker();
+  const deadline = createOcrDeadline();
 
   try {
-    const engineHit = await extractWithEngineG(canvas, worker, orientation);
+    const engineHit = await extractWithEngineG(canvas, worker, orientation, deadline);
     if (engineHit) return engineHit;
 
-    let hit = await scanWithRotationsLegacy(worker, canvas, orientation, 'legacy-photo');
+    if (isTimedOut(deadline)) {
+      lastOcrDebug = `Timeout OCR MRZ (${MRZ_OCR_TIMEOUT_MS / 1000}s)`;
+      return null;
+    }
+
+    let hit = await scanWithRotationsLegacy(worker, canvas, orientation, 'legacy-photo', deadline);
     if (hit) return hit;
 
-    hit = await scanSourcesLegacy(worker, [canvas], 'legacy-full', [], []);
+    if (isTimedOut(deadline)) {
+      lastOcrDebug = `Timeout OCR MRZ (${MRZ_OCR_TIMEOUT_MS / 1000}s)`;
+      return null;
+    }
+
+    hit = await scanSourcesLegacy(worker, [canvas], 'legacy-full', [], [], deadline);
     return hit;
   } finally {
     destroyCanvas(canvas);
