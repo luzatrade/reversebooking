@@ -6,7 +6,10 @@ import { listPopularDestinations } from "@/lib/seo/destination-queries";
 
 export async function PopularDestinationsBlock() {
   const locale = await getServerLocale();
-  const destinations = await listPopularDestinations();
+  const destinations = await listPopularDestinations().catch((error) => {
+    console.error("[home] popular destinations block failed:", error);
+    return [];
+  });
 
   if (!destinations.length) return null;
 

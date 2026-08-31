@@ -47,7 +47,10 @@ export default async function HomePage() {
   const locale = await getServerLocale();
   const [initialData, destinations] = await Promise.all([
     fetchShowcaseHomeInitialData(),
-    listPopularDestinations(),
+    listPopularDestinations().catch((error) => {
+      console.error("[home] popular destinations failed:", error);
+      return [];
+    }),
   ]);
   const faqItems = getHomeFaq(locale);
   const howItWorksSteps = getHomeHowItWorks(locale);

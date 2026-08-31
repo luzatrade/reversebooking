@@ -1,4 +1,4 @@
-import { createServiceRoleClient } from "@/lib/supabase/admin";
+import { createServiceRoleClient, withSupabaseFallback } from "@/lib/supabase/admin";
 import { cityHeroImages } from "@/data/cityHeroImages";
 import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
 import { onboardingCitySearchNames, supabaseCityNameOrFilter } from "@/lib/onboarding/city-match";
@@ -141,8 +141,16 @@ async function loadDestinationIndex(): Promise<DestinationIndex> {
     structuresByHubKey.set(hubKey, bucket);
   }
 
-  await ingestOnboarding();
-  await ingestHotels();
+  try {
+    await ingestOnboarding();
+    await ingestHotels();
+  } catch (error) {
+    console.error(
+      "[destination] index load failed:",
+      error instanceof Error ? error.message : error,
+    );
+    return { hubs: new Map(), structuresBySlug: new Map() };
+  }
 
   const hubs = new Map<string, DestinationHub>();
   const structuresBySlug = new Map<string, DestinationStructureItem[]>();
@@ -224,6 +232,16 @@ async function loadSoftDestinationHub(slug: string): Promise<{
   const admin = createServiceRoleClient();
   if (!admin || !slug) return null;
 
+  return withSupabaseFallback("soft destination hub", null, () => loadSoftDestinationHubUnsafe(admin, slug));
+}
+
+async function loadSoftDestinationHubUnsafe(
+  admin: NonNullable<ReturnType<typeof createServiceRoleClient>>,
+  slug: string,
+): Promise<{
+  hub: DestinationHub;
+  items: DestinationStructureItem[];
+} | null> {
   const displayGuess = slug.replace(/-/g, " ");
   const names = [
     ...new Set([
