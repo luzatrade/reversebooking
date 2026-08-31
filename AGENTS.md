@@ -30,6 +30,10 @@ Tipo: **Environment Variable** (runtime), scope repo `luzatrade/reversebooking`.
 
 Opzionali: `GOOGLE_PLACES_PHOTOS_KEY`, `RESEND_API_KEY`, `CRON_SECRET`, `GEMINI_MODEL` (default `gemini-2.0-flash`).
 
+`CRON_SECRET` è **obbligatorio in produzione** su Vercel (Settings → Environment Variables) per i cron job, incluso il keep-alive Supabase (`/api/cron/supabase-ping`, ogni 3 giorni via `vercel.json`). Vercel invia `Authorization: Bearer <CRON_SECRET>`; in locale/test anche `?secret=`.
+
+Opzionale Cloud Agent: `SUPABASE_ACCESS_TOKEN` (token personale Supabase) per `supabase projects resume` se il progetto Free va in pausa.
+
 Verifica: `node scripts/check-agent-secrets.mjs`
 
 **Non** mettere secret in `.cursor/environment.json` (è nel repo in chiaro).
@@ -84,4 +88,21 @@ Guida setup: `data/n8n/CURSOR-BRIDGE.md`
 ## Cosa chiedere all'utente solo se i secret mancano
 
 Indicare **una sola volta** di aggiungere i secret nel dashboard Cursor (lista sopra), poi riavviare l'agent run.
+
+## Supabase Free — keep-alive e resilienza SEO
+
+Progetto prod: `tavbgqcsizqdceobauli` (org reversebooking, piano Free). Dopo ~7 giorni senza query il progetto va in **Paused** → homepage/destinazioni/schede hotel rischiano HTTP 500.
+
+| Azione | Dettaglio |
+|--------|-----------|
+| **Keep-alive automatico** | `GET/POST /api/cron/supabase-ping` — query leggera + count `onboarding_hotels`; cron Vercel `0 7 */3 * *` (ogni 3 giorni, 07:00 UTC) |
+| **Secret Vercel** | `CRON_SECRET` obbligatorio; Vercel Cron passa header `Authorization: Bearer …` |
+| **Graceful degradation** | Pagine pubbliche (homepage, destinazioni, hotel) non devono restituire 500 se Supabase è down — vedi PR resilience su `main` |
+| **Resume manuale** | Dashboard Supabase → Resume; opzionale agente con `SUPABASE_ACCESS_TOKEN` |
+
+Test manuale (con secret configurato):
+
+```bash
+curl -sS -H "Authorization: Bearer $CRON_SECRET" "https://www.hotelsdrop.com/api/cron/supabase-ping"
+```
 <!-- END:cursor-cloud-agent -->

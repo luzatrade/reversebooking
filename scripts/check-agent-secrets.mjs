@@ -41,7 +41,11 @@ const RECOMMENDED = [
   },
   {
     key: "CRON_SECRET",
-    why: "API n8n handoff + publish approvato + cron Vercel",
+    why: "Cron Vercel + keep-alive Supabase (/api/cron/supabase-ping ogni 3 gg) + bridge n8n",
+  },
+  {
+    key: "SUPABASE_ACCESS_TOKEN",
+    why: "Resume progetto Supabase Free da agente (Management API)",
     optional: true,
   },
   {
