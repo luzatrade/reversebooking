@@ -164,8 +164,11 @@ if (obUpErr) throw obUpErr;
           .update({ city_name: newCityName, ...hotelSlugPayload })
           .eq("id", hotel.id);
         if (partialErr) throw partialErr;
-        console.warn(
-          "⚠ city_id non aggiornato (trigger DB): esegui npm run supabase:push per applicare le migration RPC.",
+
+        const { execSync } = await import("node:child_process");
+        execSync(
+          `node scripts/rewrite-hotel-city-id.mjs --hotel-id=${hotel.id} --city-id=${JSON.stringify(newCityId)} --city-name=${JSON.stringify(newCityName)} --apply`,
+          { stdio: "inherit", cwd: resolve(__dirname, "..") },
         );
       } else if (hUpErr) {
         throw hUpErr;
