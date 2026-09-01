@@ -42,6 +42,8 @@ const OCR_OPTS = {
   gzip: true,
   cachePath: 'hotelsdrop-mrz-v9',
   cacheMethod: 'write' as const,
+  // Su iOS Safari i Blob URL del worker possono far crashare il tab.
+  workerBlobURL: false,
 };
 
 let workerPromise: Promise<Worker> | null = null;
@@ -339,6 +341,19 @@ export async function warmupOcr(): Promise<void> {
   ctx?.fillRect(0, 0, 32, 32);
   await worker.recognize(canvas);
   destroyCanvas(canvas);
+}
+
+/** Libera memoria WASM/worker dopo la scansione, prima del form ospite (critico su mobile). */
+export async function releaseOcr(): Promise<void> {
+  if (!workerPromise) return;
+  const pending = workerPromise;
+  workerPromise = null;
+  try {
+    const worker = await pending;
+    await worker.terminate();
+  } catch {
+    // ignore termination errors
+  }
 }
 
 export async function extractMrzFromFullFrame(

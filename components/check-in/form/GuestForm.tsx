@@ -7,6 +7,7 @@ import {
   loadComuni,
   loadDocumentTypes,
   loadNations,
+  getComuniCache,
   searchComuni,
   searchIssuePlaces,
   searchNations,
@@ -58,7 +59,7 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
   const { t } = useTranslation();
 
   const [nations, setNations] = useState<NationEntry[]>([]);
-  const [comuni, setComuni] = useState<ComuneEntry[]>([]);
+  const [comuniReady, setComuniReady] = useState(false);
   const [documentTypes, setDocumentTypes] = useState<DocumentTypeEntry[]>([]);
 
   const [nationQuery, setNationQuery] = useState('');
@@ -73,24 +74,38 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
   }, [initialData]);
 
   useEffect(() => {
-    void Promise.all([loadNations(), loadComuni(), loadDocumentTypes()]).then(
-      ([n, c, d]) => {
-        setNations(n);
-        setComuni(c);
-        setDocumentTypes(d);
+    let cancelled = false;
 
-        if (!initialData?.nationality) return;
-        const nation = findNationByIso3(n, initialData.nationality);
-        if (!nation) return;
+    void Promise.all([loadNations(), loadDocumentTypes()]).then(([n, d]) => {
+      if (cancelled) return;
+      setNations(n);
+      setDocumentTypes(d);
 
-        setForm((prev) => ({
-          ...prev,
-          birthCountryCode: prev.birthCountryCode || nation.code,
-          citizenshipCode: prev.citizenshipCode || nation.code,
-        }));
-      },
-    );
+      if (!initialData?.nationality) return;
+      const nation = findNationByIso3(n, initialData.nationality);
+      if (!nation) return;
+
+      setForm((prev) => ({
+        ...prev,
+        birthCountryCode: prev.birthCountryCode || nation.code,
+        citizenshipCode: prev.citizenshipCode || nation.code,
+      }));
+    });
+
+    // Defer ~800KB comuni table until after first paint (mobile memory after OCR).
+    const comuniTimer = window.setTimeout(() => {
+      void loadComuni().then(() => {
+        if (!cancelled) setComuniReady(true);
+      });
+    }, 100);
+
+    return () => {
+      cancelled = true;
+      window.clearTimeout(comuniTimer);
+    };
   }, [initialData?.nationality]);
+
+  const comuni = comuniReady ? getComuniCache() : [];
 
   const needsDocument = guestNeedsDocumentFields(form.guestType);
   const isItalianBirth = form.birthCountryCode === ITALY_CODE;
@@ -114,21 +129,27 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
   );
 
   const comuneOptions = useMemo(
-    () => searchComuni(comuni, comuneQuery).map((c) => ({
-      value: c.code,
-      label: c.name,
-      meta: c.province,
-    })),
-    [comuni, comuneQuery],
+    () =>
+      comuniReady
+        ? searchComuni(comuni, comuneQuery).map((c) => ({
+            value: c.code,
+            label: c.name,
+            meta: c.province,
+          }))
+        : [],
+    [comuni, comuniReady, comuneQuery],
   );
 
   const docPlaceOptions = useMemo(
-    () => searchIssuePlaces(comuni, nations, docPlaceQuery).map((p) => ({
-      value: p.value,
-      label: p.label,
-      meta: p.kind === 'comune' ? p.meta : `${p.meta} · ${t('form.documentIssuePlaceHint')}`,
-    })),
-    [comuni, nations, docPlaceQuery, t],
+    () =>
+      comuniReady
+        ? searchIssuePlaces(comuni, nations, docPlaceQuery).map((p) => ({
+            value: p.value,
+            label: p.label,
+            meta: p.kind === 'comune' ? p.meta : `${p.meta} · ${t('form.documentIssuePlaceHint')}`,
+          }))
+        : [],
+    [comuni, comuniReady, nations, docPlaceQuery, t],
   );
 
   const docTypeOptions = documentTypes.map((d) => ({
