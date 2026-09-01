@@ -182,3 +182,31 @@ begin
     alter table public.hotel_accounts enable trigger trg_prevent_hotel_city_change;
   end if;
 end $$;
+
+-- Correzione one-off: Le Libellule Relais (Altavilla → Vignale Monferrato).
+do $$
+begin
+  if exists (
+    select 1 from public.hotel_accounts
+    where id = 'd5c04705-1892-422b-9cfa-7c115e270855'
+      and city_id = 'altavilla-monferrato-it'
+  ) then
+    alter table public.hotel_accounts disable trigger trg_prevent_hotel_city_change;
+
+    update public.hotel_accounts
+    set
+      city_name = 'Vignale Monferrato',
+      city_id = 'IT-vignale-monferrato',
+      country_code = 'IT',
+      country_name = 'Italia',
+      slug = 'le-libellule-relais-vignale-monferrato',
+      slug_previous = (
+        select array(select distinct unnest(
+          coalesce(slug_previous, '{}'::text[]) || array['le-libellule-relais-altavilla-monferrato']
+        ))
+      )
+    where id = 'd5c04705-1892-422b-9cfa-7c115e270855';
+
+    alter table public.hotel_accounts enable trigger trg_prevent_hotel_city_change;
+  end if;
+end $$;
