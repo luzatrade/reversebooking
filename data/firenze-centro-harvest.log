@@ -1,0 +1,6 @@
+◇ injected env (0) from .env.local // tip: ⌘ override existing { override: true }
+[2026-08-21T08:38:02.202Z] HotelsDrop — harvest onboarding_hotels
+[2026-08-21T08:38:02.203Z] googleSearch=default googlePhotos=default force=true skipPhotos=false skipEmails=false centro=true zone=centro hotelOnly=true maxHotels=150 limit=none fillGaps=false italyPriority=false italyExtra=false city=none countries=none comune=Firenze region=all
+[2026-08-21T08:38:02.509Z] Comuni in coda: 1
+[2026-08-21T08:45:34.237Z] [1/1] Firenze (FI) — trovati 150, nuovi 150, skip 0, foto 145, email 103
+[2026-08-21T08:45:34.945Z] === FINE === inseriti/aggiornati in questa run: 150, foto caricate: 145, email trovate: 103, totale onboarding_hotels: 19544
