@@ -93,6 +93,7 @@
     "guestType": "Guest type",
     "searchPlaceholder": "Search…",
     "searchComune": "Search municipality…",
+    "loadingComuni": "Loading municipalities…",
     "save": "Save check-in",
     "saving": "Saving…",
     "saveSuccess": "Check-in saved — go to Export at end of day for the .txt file",

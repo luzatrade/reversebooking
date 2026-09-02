@@ -114,7 +114,7 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
     () => searchNations(nations, nationQuery).map((n) => ({
       value: n.code,
       label: n.name,
-      meta: n.iso3,
+      meta: n.iso3 ?? '',
     })),
     [nations, nationQuery],
   );
@@ -123,7 +123,7 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
     () => searchNations(nations, citizenshipQuery).map((n) => ({
       value: n.code,
       label: n.name,
-      meta: n.iso3,
+      meta: n.iso3 ?? '',
     })),
     [nations, citizenshipQuery],
   );
@@ -276,7 +276,8 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
             onChange={(code) => handleComuneSelect(code)}
             options={comuneOptions}
             onSearch={setComuneQuery}
-            placeholder={t('form.searchComune')}
+            placeholder={comuniReady ? t('form.searchComune') : t('form.loadingComuni')}
+            disabled={!comuniReady}
             required
           />
         </>
@@ -326,7 +327,8 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
             onChange={(code) => handleChange('documentIssuePlaceCode', code)}
             options={docPlaceOptions}
             onSearch={setDocPlaceQuery}
-            placeholder={t('form.searchComune')}
+            placeholder={comuniReady ? t('form.searchComune') : t('form.loadingComuni')}
+            disabled={!comuniReady}
             required
           />
         </>

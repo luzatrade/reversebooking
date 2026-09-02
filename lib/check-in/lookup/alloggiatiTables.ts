@@ -55,6 +55,27 @@ export function findNationByIso3(nations: NationEntry[], iso3: string): NationEn
   return nations.find((n) => n.iso3 === iso3.toUpperCase());
 }
 
+function comuneMatchRank(c: ComuneEntry, q: string): number {
+  if (c.name === q) return 0;
+  if (c.name.startsWith(q)) return 1;
+  if (c.name.includes(q)) return 2;
+  if (c.province.includes(q)) return 3;
+  if (c.code.includes(q)) return 4;
+  return 99;
+}
+
+function nationMatchRank(n: NationEntry, q: string): number {
+  const name = n.name ?? '';
+  const iso3 = n.iso3 ?? '';
+  const code = n.code ?? '';
+  if (name === q) return 0;
+  if (name.startsWith(q)) return 1;
+  if (name.includes(q)) return 2;
+  if (iso3.includes(q)) return 3;
+  if (code.includes(q)) return 4;
+  return 99;
+}
+
 export function searchComuni(comuni: ComuneEntry[], query: string, limit = 20): ComuneEntry[] {
   const q = query.trim().toUpperCase();
   // Empty query must stay cheap: sorting ~11k comuni on mobile after OCR froze/crashed Safari tabs.
@@ -65,7 +86,11 @@ export function searchComuni(comuni: ComuneEntry[], query: string, limit = 20): 
         c.active !== false &&
         (c.name.includes(q) || c.province.includes(q) || c.code.includes(q)),
     )
-    .sort((a, b) => a.name.localeCompare(b.name, 'it'))
+    .sort((a, b) => {
+      const rankDiff = comuneMatchRank(a, q) - comuneMatchRank(b, q);
+      if (rankDiff !== 0) return rankDiff;
+      return a.name.localeCompare(b.name, 'it');
+    })
     .slice(0, limit);
 }
 
@@ -73,7 +98,12 @@ export function searchNations(nations: NationEntry[], query: string, limit = 20)
   const q = query.trim().toUpperCase();
   if (!q) return nations.slice(0, limit);
   return nations
-    .filter((n) => n.name.includes(q) || n.iso3.includes(q) || n.code.includes(q))
+    .filter((n) => nationMatchRank(n, q) < 99)
+    .sort((a, b) => {
+      const rankDiff = nationMatchRank(a, q) - nationMatchRank(b, q);
+      if (rankDiff !== 0) return rankDiff;
+      return (a.name ?? '').localeCompare(b.name ?? '', 'it');
+    })
     .slice(0, limit);
 }
 
@@ -92,7 +122,16 @@ export function searchIssuePlaces(
   limit = 20,
 ): IssuePlaceOption[] {
   const q = query.trim().toUpperCase();
-  const comuneMatches = (q ? comuni.filter((c) => c.name.includes(q) || c.province.includes(q)) : comuni.slice(0, 10))
+  const comuneMatches = (q
+    ? comuni
+        .filter((c) => c.active !== false && (c.name.includes(q) || c.province.includes(q)))
+        .sort((a, b) => {
+          const rankDiff = comuneMatchRank(a, q) - comuneMatchRank(b, q);
+          if (rankDiff !== 0) return rankDiff;
+          return a.name.localeCompare(b.name, 'it');
+        })
+    : comuni.filter((c) => c.active !== false).slice(0, 10)
+  )
     .slice(0, Math.ceil(limit / 2))
     .map((c) => ({
       value: c.code,
@@ -104,7 +143,7 @@ export function searchIssuePlaces(
   const nationMatches = searchNations(nations, query, limit - comuneMatches.length).map((n) => ({
     value: n.code,
     label: n.name,
-    meta: n.iso3,
+    meta: n.iso3 ?? '',
     kind: 'nation' as const,
   }));
 

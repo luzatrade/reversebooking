@@ -93,6 +93,7 @@
     "guestType": "Tipo alloggiato",
     "searchPlaceholder": "Cerca…",
     "searchComune": "Cerca comune…",
+    "loadingComuni": "Caricamento comuni…",
     "save": "Salva check-in",
     "saving": "Salvataggio…",
     "saveSuccess": "Check-in salvato — a fine giornata vai su Export per il file .txt",
