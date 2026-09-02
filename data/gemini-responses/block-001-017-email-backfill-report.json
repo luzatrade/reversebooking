@@ -1,0 +1,4095 @@
+{
+  "summary": {
+    "blocks": "001-017",
+    "dryRun": false,
+    "totalHotels": 595,
+    "alreadyHadEmail": 35,
+    "noWebsite": 72,
+    "notFound": 190,
+    "scrapedFound": 298,
+    "dbUpdated": 298,
+    "errors": 0,
+    "byBlock": [
+      {
+        "block": "001",
+        "hotels": 35,
+        "updated": 25,
+        "notFound": 7,
+        "alreadyHad": 0,
+        "noWebsite": 3
+      },
+      {
+        "block": "002",
+        "hotels": 35,
+        "updated": 19,
+        "notFound": 7,
+        "alreadyHad": 0,
+        "noWebsite": 9
+      },
+      {
+        "block": "003",
+        "hotels": 35,
+        "updated": 21,
+        "notFound": 8,
+        "alreadyHad": 0,
+        "noWebsite": 6
+      },
+      {
+        "block": "004",
+        "hotels": 35,
+        "updated": 14,
+        "notFound": 15,
+        "alreadyHad": 0,
+        "noWebsite": 6
+      },
+      {
+        "block": "005",
+        "hotels": 35,
+        "updated": 19,
+        "notFound": 13,
+        "alreadyHad": 0,
+        "noWebsite": 3
+      },
+      {
+        "block": "006",
+        "hotels": 35,
+        "updated": 16,
+        "notFound": 14,
+        "alreadyHad": 0,
+        "noWebsite": 5
+      },
+      {
+        "block": "007",
+        "hotels": 35,
+        "updated": 14,
+        "notFound": 18,
+        "alreadyHad": 0,
+        "noWebsite": 3
+      },
+      {
+        "block": "008",
+        "hotels": 35,
+        "updated": 19,
+        "notFound": 11,
+        "alreadyHad": 0,
+        "noWebsite": 5
+      },
+      {
+        "block": "009",
+        "hotels": 35,
+        "updated": 15,
+        "notFound": 15,
+        "alreadyHad": 0,
+        "noWebsite": 5
+      },
+      {
+        "block": "010",
+        "hotels": 35,
+        "updated": 20,
+        "notFound": 15,
+        "alreadyHad": 0,
+        "noWebsite": 0
+      },
+      {
+        "block": "011",
+        "hotels": 35,
+        "updated": 21,
+        "notFound": 11,
+        "alreadyHad": 0,
+        "noWebsite": 3
+      },
+      {
+        "block": "012",
+        "hotels": 35,
+        "updated": 3,
+        "notFound": 9,
+        "alreadyHad": 21,
+        "noWebsite": 2
+      },
+      {
+        "block": "013",
+        "hotels": 35,
+        "updated": 5,
+        "notFound": 11,
+        "alreadyHad": 14,
+        "noWebsite": 5
+      },
+      {
+        "block": "014",
+        "hotels": 35,
+        "updated": 24,
+        "notFound": 10,
+        "alreadyHad": 0,
+        "noWebsite": 1
+      },
+      {
+        "block": "015",
+        "hotels": 35,
+        "updated": 22,
+        "notFound": 10,
+        "alreadyHad": 0,
+        "noWebsite": 3
+      },
+      {
+        "block": "016",
+        "hotels": 35,
+        "updated": 16,
+        "notFound": 8,
+        "alreadyHad": 0,
+        "noWebsite": 11
+      },
+      {
+        "block": "017",
+        "hotels": 35,
+        "updated": 25,
+        "notFound": 8,
+        "alreadyHad": 0,
+        "noWebsite": 2
+      }
+    ]
+  },
+  "details": [
+    {
+      "block": "001",
+      "slug": "delight-rooms-abbiategrasso",
+      "status": "updated",
+      "email": "infodelightrooms@gmail.com",
+      "pages": []
+    },
+    {
+      "block": "001",
+      "slug": "la-cardinala-abbiategrasso",
+      "status": "updated",
+      "email": "info@lacardinala.it",
+      "pages": [
+        "https://www.lacardinala.it/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "mahthildis-agriturismo-b-b-abbiategrasso",
+      "status": "updated",
+      "email": "info@mahthildis.net",
+      "pages": [
+        "http://www.mahthildis.net/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "nuovo-hotel-italia-abbiategrasso",
+      "status": "not_found",
+      "website": "https://www.nuovoalbergoitalia.it/"
+    },
+    {
+      "block": "001",
+      "slug": "agriturismo-le-dogane-abetone-cutigliano",
+      "status": "not_found",
+      "website": "https://www.agriturismoledogane.it/"
+    },
+    {
+      "block": "001",
+      "slug": "albergo-ristorante-bar-sichi-abetone-cutigliano",
+      "status": "updated",
+      "email": "info@albergosichi.com",
+      "pages": [
+        "http://www.albergosichi.com/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "albergo-ristorante-la-villa-abetone-cutigliano-abetone-cutigliano",
+      "status": "updated",
+      "email": "webmaster@piramedia.it",
+      "pages": [
+        "http://www.albergolavilla.it/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "albergo-sport-abetone-cutigliano",
+      "status": "updated",
+      "email": "albergosport@abetone.com",
+      "pages": [
+        "http://www.albergosport.com/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "albergo-valle-verde-abetone-cutigliano",
+      "status": "updated",
+      "email": "info@hotelvalleverde.net",
+      "pages": [
+        "http://www.hotelvalleverde.net/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "b-b-chalet-abetone-cutigliano",
+      "status": "not_found",
+      "website": "https://www.facebook.com/bbchaletabetone/"
+    },
+    {
+      "block": "001",
+      "slug": "b-b-dahu-abetone-cutigliano",
+      "status": "updated",
+      "email": "info@bbdahu.it",
+      "pages": [
+        "http://www.bbdahu.it/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "hg-abetone-piramidi-resort-abetone-cutigliano",
+      "status": "updated",
+      "email": "hotelabetone@italianhotelgroup.it",
+      "pages": [
+        "https://hotelabetone.italianhotelgroup.it/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "hotel-bellavista-abetone-cutigliano",
+      "status": "updated",
+      "email": "info@abetonebellavista.it",
+      "pages": [
+        "http://www.abetonebellavista.it/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "hotel-bristol-abetone-cutigliano",
+      "status": "updated",
+      "email": "hotelbristol@abetone.com",
+      "pages": [
+        "http://www.hotelbristol.tv/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "hotel-la-valle-abetone-cutigliano",
+      "status": "updated",
+      "email": "info@hotellavalle.it",
+      "pages": [
+        "http://www.hotellavalle.it/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "hotel-ristorante-pizzeria-primula-abetone-cutigliano",
+      "status": "not_found",
+      "website": "http://www.hotelprimula.com/"
+    },
+    {
+      "block": "001",
+      "slug": "i-pionieri-abetone-cutigliano",
+      "status": "updated",
+      "email": "info@hotelipionieri.com",
+      "pages": [
+        "http://www.hotelipionieri.com/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "palazzo-42-boutique-hotel-suites-hotel-4-stelle-abetone-cutigliano",
+      "status": "updated",
+      "email": "info@palazzo42.it",
+      "pages": [
+        "https://www.palazzo42.it/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "pensione-ristorante-noemi-abetone-cutigliano",
+      "status": "updated",
+      "email": "info@weloveabetone.it",
+      "pages": []
+    },
+    {
+      "block": "001",
+      "slug": "residenza-riva-abetone-cutigliano",
+      "status": "updated",
+      "email": "info@residenzariva.it",
+      "pages": [
+        "https://residenzariva.it/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "val-di-luce-spa-resort-abetone-cutigliano",
+      "status": "updated",
+      "email": "info@chgroup.eu",
+      "pages": [
+        "https://www.chgroup.eu/val-di-luce/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "villa-patrizia-abetone-cutigliano",
+      "status": "updated",
+      "email": "info@hotelvillapatrizia.it",
+      "pages": [
+        "http://www.hotelvillapatrizia.it/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "albergo-miramonti-abriola",
+      "status": "updated",
+      "email": "info@miramontipotenza.it",
+      "pages": [
+        "https://www.miramontipotenza.it/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "b-b-85centro-abriola",
+      "status": "updated",
+      "email": "bb85centro@gmail.com",
+      "pages": [
+        "http://www.85centro.it/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "basilicata-al-volo-abriola",
+      "status": "not_found",
+      "website": "http://www.basilicatalvolo.it/"
+    },
+    {
+      "block": "001",
+      "slug": "bouganville-hill-resort-wellness-space-abriola",
+      "status": "updated",
+      "email": "info@hotelbouganville.it",
+      "pages": [
+        "https://www.hotelbouganville.it/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "dimora-storica-giorni-resort-spa-abriola",
+      "status": "updated",
+      "email": "info@dimorastoricagiorni.it",
+      "pages": []
+    },
+    {
+      "block": "001",
+      "slug": "hotel-giubileo-abriola",
+      "status": "updated",
+      "email": "info@hotelgiubileo.it",
+      "pages": [
+        "https://www.giubileomaison.it/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "hotel-imperial-abriola",
+      "status": "updated",
+      "email": "info@hotelimperial.net",
+      "pages": [
+        "http://www.hotelimperial.net/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "hotel-la-piana-abriola",
+      "status": "updated",
+      "email": "info@lapianahotel.net",
+      "pages": [
+        "https://www.lapianahotel.net/"
+      ]
+    },
+    {
+      "block": "001",
+      "slug": "hotel-ristorante-il-volturino-abriola",
+      "status": "not_found",
+      "website": "https://www.hotelristoranteilvolturino.com/"
+    },
+    {
+      "block": "001",
+      "slug": "hotel-sellata-abriola",
+      "status": "not_found",
+      "website": "http://www.hotelsellata.it/"
+    },
+    {
+      "block": "002",
+      "slug": "la-fattoria-sotto-il-cielo-abriola",
+      "status": "updated",
+      "email": "info@sottoilcielo.it",
+      "pages": [
+        "http://www.sottoilcielo.it/"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "la-villa-resort-abriola",
+      "status": "updated",
+      "email": "contact@housity.net",
+      "pages": [
+        "https://itahotel.top/",
+        "https://itahotel.top/contatti",
+        "https://itahotel.top/contact",
+        "https://itahotel.top/contacts",
+        "https://itahotel.top/it/contatti",
+        "https://itahotel.top/en/contact",
+        "https://itahotel.top/contatti.html",
+        "https://itahotel.top/contact-us"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "locanda-arcadia-abriola",
+      "status": "updated",
+      "email": "info@locandarcadia.it",
+      "pages": [
+        "http://www.locandarcadia.it/"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "ostello-villafranca-abriola",
+      "status": "updated",
+      "email": "info@ostellovillafranca.com",
+      "pages": [
+        "http://www.ostellovillafranca.com/"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "parco-ricevimenti-hotel-pierfaone-abriola",
+      "status": "not_found",
+      "website": "http://www.hotelpierfaone.it/"
+    },
+    {
+      "block": "002",
+      "slug": "pietrapanna-abriola",
+      "status": "not_found",
+      "website": "http://www.pietrapanna.it/"
+    },
+    {
+      "block": "002",
+      "slug": "baglio-occhipinti-acate",
+      "status": "updated",
+      "email": "info@bagliocchipinti.com",
+      "pages": [
+        "http://www.bagliocchipinti.com/"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "cordial-hotel-acate",
+      "status": "updated",
+      "email": "info@cordialhotel.com",
+      "pages": [
+        "http://www.cordialhotel.com/"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "dimora-di-dante-acate",
+      "status": "updated",
+      "email": "info@dimoradidante.com",
+      "pages": [
+        "http://www.dimoradidante.com/"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "el-homs-palace-hotel-acate",
+      "status": "updated",
+      "email": "info@elhomspalace.it",
+      "pages": [
+        "http://www.elhomspalace.it/"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "gh-baraka-village-acate",
+      "status": "updated",
+      "email": "baraka@garibaldihotels.it",
+      "pages": [
+        "https://barakavillage.it/"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "grand-hotel-vittoria-acate",
+      "status": "not_found",
+      "website": "https://amalfit.cyou/grand-vittoria-lmor6x"
+    },
+    {
+      "block": "002",
+      "slug": "home-d-d-acate",
+      "status": "not_found",
+      "website": "http://www.affittacamereniscemi.it/"
+    },
+    {
+      "block": "002",
+      "slug": "hotel-europa-acate",
+      "status": "updated",
+      "email": "hoteleuropa@email.com",
+      "pages": [
+        "http://www.hotel.rg.it/"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "hotel-mida-acate",
+      "status": "updated",
+      "email": "h.hotelmida@tin.it",
+      "pages": [
+        "http://www.hotelmida.it/"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "hotel-villa-san-bartolo-resort-acate",
+      "status": "updated",
+      "email": "villasanbartoloresort@gmail.com",
+      "pages": [
+        "https://villasanbartolo.it/"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "palazzo-melfi-suite-hotel-acate",
+      "status": "updated",
+      "email": "direzione@palazzomelfi.com",
+      "pages": [
+        "https://www.palazzomelfi.com/",
+        "https://www.palazzomelfi.com/contact"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "stella-dei-venti-acate",
+      "status": "not_found",
+      "website": "https://alanlovestotravel.eu/stella-dei-venti-vittoria-italy"
+    },
+    {
+      "block": "002",
+      "slug": "terra-del-sole-b-b-a-vittoria-acate",
+      "status": "updated",
+      "email": "ignazio55nicosia@gmail.com",
+      "pages": [
+        "http://bbterradelsole.it/"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "terre-iblee-resort-acate",
+      "status": "updated",
+      "email": "info@terreibleeresort.com",
+      "pages": [
+        "http://www.terreibleeresort.it/"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "villa-orchidea-acate",
+      "status": "updated",
+      "email": "info@villaorchidea.it",
+      "pages": [
+        "https://www.villaorchidea.it/"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "yhomisus-acate",
+      "status": "not_found",
+      "website": "https://yhomisus.it/"
+    },
+    {
+      "block": "002",
+      "slug": "a-casa-nostra-accadia",
+      "status": "updated",
+      "email": "info@acasanostracandela.it",
+      "pages": [
+        "http://www.acasanostracandela.it/"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "agriturismo-antica-masseria-lo-conte-b-b-sala-ev-accadia",
+      "status": "not_found",
+      "website": "https://www.masserialoconte.it/"
+    },
+    {
+      "block": "002",
+      "slug": "agriturismo-casale-cerere-accadia",
+      "status": "updated",
+      "email": "info@casalecerere.it",
+      "pages": [
+        "https://www.casalecerere.it/"
+      ]
+    },
+    {
+      "block": "002",
+      "slug": "azienda-agrituristica-petrilli-accadia",
+      "status": "updated",
+      "email": "info@petrilli.it",
+      "pages": [
+        "https://www.petrilli.it/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "b-b-villa-milena-accadia",
+      "status": "updated",
+      "email": "info@bbvillamilena.com",
+      "pages": [
+        "https://bbvillamilena.com/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "bed-wine-rocco-zambri-accadia",
+      "status": "not_found",
+      "website": "https://francescastraveltips.com/rocco-zambri-bed-amp-wine-italy"
+    },
+    {
+      "block": "003",
+      "slug": "camera-a-sud-accadia",
+      "status": "not_found",
+      "website": "https://alistraveltips.com/camera-a-sud-italy"
+    },
+    {
+      "block": "003",
+      "slug": "domus-ansantica-accadia",
+      "status": "updated",
+      "email": "info@domusansantica.it",
+      "pages": [
+        "https://www.domusansantica.it/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "l-antico-monastero-accadia",
+      "status": "updated",
+      "email": "info@lanticomonastero.com",
+      "pages": [
+        "http://www.lanticomonastero.com/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "la-candela-affittacamere-accadia",
+      "status": "not_found",
+      "website": "https://www.lacandelaffittacamere.it/"
+    },
+    {
+      "block": "003",
+      "slug": "locanda-ballaro-accadia",
+      "status": "updated",
+      "email": "info@locandaballaro.it",
+      "pages": [
+        "https://locandaballaro.it/",
+        "https://locandaballaro.it/contatti"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "palazzo-petrilli-accadia",
+      "status": "not_found",
+      "website": "https://palazzopetrilli.it/"
+    },
+    {
+      "block": "003",
+      "slug": "residenza-sant-antonio-accadia",
+      "status": "not_found",
+      "website": "https://travelstays.eu/residenza-sant-39-antonio-italy"
+    },
+    {
+      "block": "003",
+      "slug": "villa-aurora-accadia",
+      "status": "not_found",
+      "website": "https://villa-aurora1.webnode.it/"
+    },
+    {
+      "block": "003",
+      "slug": "albergo-monte-nebin-acceglio",
+      "status": "updated",
+      "email": "info@hotelmontenebin.it",
+      "pages": [
+        "http://www.hotelmontenebin.it/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "albergo-ristorante-le-marmotte-acceglio",
+      "status": "updated",
+      "email": "info@lemarmotte.com",
+      "pages": [
+        "http://www.lemarmotte.com/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "albergo-ristorante-ligure-di-solda-debora-e-sold-acceglio",
+      "status": "updated",
+      "email": "albergoligurevinadio@gmail.com",
+      "pages": [
+        "https://www.hotelligurevinadio.eu/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "albergo-roburent-acceglio",
+      "status": "not_found",
+      "website": "https://albergo-roburent.italiavacanzeindimenticabili.top/"
+    },
+    {
+      "block": "003",
+      "slug": "brieis-relais-alpino-camere-ristorante-spa-acceglio",
+      "status": "updated",
+      "email": "info@brieis.it",
+      "pages": [
+        "http://www.brieis.it/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "hotel-londra-locanda-occitana-quality-hotels-acceglio",
+      "status": "updated",
+      "email": "info@hotel-londra.eu",
+      "pages": [
+        "http://www.hotel-londra.eu/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "hotel-residence-torinetto-acceglio",
+      "status": "updated",
+      "email": "info@torinetto.com",
+      "pages": [
+        "http://www.torinetto.com/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "la-caso-d-elva-la-taula-de-m-aura-acceglio",
+      "status": "updated",
+      "email": "info@lacasodielva.com",
+      "pages": [
+        "https://lacasodielva.com/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "la-locanda-di-chialvetta-acceglio",
+      "status": "updated",
+      "email": "info@locandadichialvetta.com",
+      "pages": [
+        "http://www.locandadichialvetta.com/",
+        "http://www.locandadichialvetta.com/contatti"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "la-meiro-acceglio",
+      "status": "updated",
+      "email": "terredicastelmagno@hotmail.com",
+      "pages": [
+        "https://www.terredicastelmagno.com/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "locanda-mistral-acceglio",
+      "status": "not_found",
+      "website": "http://www.locandamistral.com/"
+    },
+    {
+      "block": "003",
+      "slug": "locanda-occitana-lou-pitavin-acceglio",
+      "status": "updated",
+      "email": "info@loupitavin.net",
+      "pages": [
+        "https://www.loupitavin.net/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "morier-acceglio",
+      "status": "updated",
+      "email": "siroden06a@gmail.com",
+      "pages": [
+        "http://siroden06a.wordpress.com/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "oronaye-bed-and-breakfast-acceglio-valle-maira-acceglio",
+      "status": "updated",
+      "email": "info@oronaye.com",
+      "pages": [
+        "https://www.oronaye.com/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "rifugio-di-viviere-acceglio",
+      "status": "updated",
+      "email": "info@rifugiodiviviere.com",
+      "pages": [
+        "http://www.rifugiodiviviere.com/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "rifugio-lou-lindal-acceglio",
+      "status": "updated",
+      "email": "rifugioloulindal@gmail.com",
+      "pages": [
+        "http://www.rifugioloulindal.com/",
+        "http://www.rifugioloulindal.com/contact",
+        "http://www.rifugioloulindal.com/en/contact"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "sagna-rotonda-acceglio",
+      "status": "updated",
+      "email": "info@sagnarotonda.com",
+      "pages": [
+        "http://www.sagnarotonda.com/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "visaisa-taverna-foresteria-acceglio",
+      "status": "updated",
+      "email": "info@visaisa.com",
+      "pages": [
+        "https://visaisa.com/"
+      ]
+    },
+    {
+      "block": "003",
+      "slug": "agriturismo-grotta-dell-eremita-accettura",
+      "status": "updated",
+      "email": "info@grottadelleremita.com",
+      "pages": [
+        "http://www.grottadelleremita.com/"
+      ]
+    },
+    {
+      "block": "004",
+      "slug": "aura-glamping-accettura",
+      "status": "updated",
+      "email": "info@auraglamping.it",
+      "pages": [
+        "https://www.auraglamping.it/"
+      ]
+    },
+    {
+      "block": "004",
+      "slug": "b-b-a-due-passi-accettura",
+      "status": "not_found",
+      "website": "https://coastit.cyou/due-passi-3imzkg"
+    },
+    {
+      "block": "004",
+      "slug": "b-b-a-due-passi-hotel-bed-and-breakfast-e-affitt-accettura",
+      "status": "not_found",
+      "website": "https://www.paginegialle.it/a-due-passi-bed-and-breakfast-grassano-mt"
+    },
+    {
+      "block": "004",
+      "slug": "b-b-da-rosario-accettura",
+      "status": "not_found",
+      "website": "http://bnb-darosario.com.es/"
+    },
+    {
+      "block": "004",
+      "slug": "b-b-vigna-del-duca-accettura",
+      "status": "updated",
+      "email": "bbvignadelduca@gmail.com",
+      "pages": [
+        "https://www.vignadelduca.com/"
+      ]
+    },
+    {
+      "block": "004",
+      "slug": "convil-hotel-accettura",
+      "status": "updated",
+      "email": "info@convilhotel.it",
+      "pages": [
+        "https://www.convilhotel.it/"
+      ]
+    },
+    {
+      "block": "004",
+      "slug": "feni-home-bed-breakfast-tricarico-accettura",
+      "status": "not_found",
+      "website": "http://www.fenihome.it/"
+    },
+    {
+      "block": "004",
+      "slug": "hotel-antico-pastificio-sarubbi-accettura",
+      "status": "not_found",
+      "website": "https://hotel.amolitalia.top/"
+    },
+    {
+      "block": "004",
+      "slug": "hotel-la-salitella-accettura",
+      "status": "updated",
+      "email": "hotelasalitella@libero.it",
+      "pages": [
+        "https://www.hotelasalitella.com/"
+      ]
+    },
+    {
+      "block": "004",
+      "slug": "hotel-ristorante-407-accettura",
+      "status": "updated",
+      "email": "hotelristorante407@tin.it",
+      "pages": [
+        "https://www.hotelristorante407.it/"
+      ]
+    },
+    {
+      "block": "004",
+      "slug": "hotel-san-giuliano-accettura",
+      "status": "not_found",
+      "website": "https://sangiulianohotel.it/"
+    },
+    {
+      "block": "004",
+      "slug": "mirutt-b-b-wellness-accettura",
+      "status": "not_found",
+      "website": "https://mirutt.bedsandhotels.com/"
+    },
+    {
+      "block": "004",
+      "slug": "palazzo-laureano-dimora-storica-accettura",
+      "status": "updated",
+      "email": "info@palazzolaureano.it",
+      "pages": [
+        "https://www.palazzolaureano.it/"
+      ]
+    },
+    {
+      "block": "004",
+      "slug": "abruzzo-segreto-bed-breakfast-acciano",
+      "status": "updated",
+      "email": "info@abruzzo-segreto.it",
+      "pages": [
+        "https://www.abruzzo-segreto.it/"
+      ]
+    },
+    {
+      "block": "004",
+      "slug": "agriturismo-il-pozzo-dei-desideri-acciano",
+      "status": "not_found",
+      "website": "https://www.il-pozzo-dei-desideri.it/"
+    },
+    {
+      "block": "004",
+      "slug": "albergo-ma-re-acciano",
+      "status": "updated",
+      "email": "info@albergomare.net",
+      "pages": [
+        "http://www.albergomare.net/"
+      ]
+    },
+    {
+      "block": "004",
+      "slug": "albergo-ristorante-monte-selva-acciano",
+      "status": "updated",
+      "email": "ale@albergomonteselva.it",
+      "pages": [
+        "http://www.albergomonteselva.it/"
+      ]
+    },
+    {
+      "block": "004",
+      "slug": "alloggio-taddei-acciano",
+      "status": "not_found",
+      "website": "https://taddei.bedsandhotels.com/"
+    },
+    {
+      "block": "004",
+      "slug": "b-b-bellavista-acciano",
+      "status": "not_found",
+      "website": "https://www.facebook.com/BellaVista-BB-Popoli-PE-852391814826336/"
+    },
+    {
+      "block": "004",
+      "slug": "b-b-goriano-valli-acciano",
+      "status": "updated",
+      "email": "info@gorianovalli.it",
+      "pages": [
+        "http://gorianovalli.it/"
+      ]
+    },
+    {
+      "block": "004",
+      "slug": "b-b-il-minotauro-acciano",
+      "status": "not_found",
+      "website": "https://bed-and-breakfast-il-minotauro.vederelitalia.top/"
+    },
+    {
+      "block": "004",
+      "slug": "b-b-la-grotta-di-nonno-vittorio-acciano",
+      "status": "not_found",
+      "website": "https://la-grotta-di-nonno-vittorio.italiavacanzeindimenticabili.top/"
+    },
+    {
+      "block": "004",
+      "slug": "b-b-sotto-le-volte-acciano",
+      "status": "not_found",
+      "website": "https://bb-sotto-le-volte.italiapaesaggiviaggi.top/"
+    },
+    {
+      "block": "004",
+      "slug": "bed-breakfast-la-solagna-acciano",
+      "status": "not_found",
+      "website": "http://beblasolagna.it/"
+    },
+    {
+      "block": "004",
+      "slug": "charme-in-perillis-acciano",
+      "status": "updated",
+      "email": "info@charmeinperillis.it",
+      "pages": [
+        "http://www.charmeinperillis.it/"
+      ]
+    },
+    {
+      "block": "004",
+      "slug": "collis-petri-relais-acciano",
+      "status": "updated",
+      "email": "info@collispetrirelais.it",
+      "pages": [
+        "https://www.collispetrirelais.com/"
+      ]
+    },
+    {
+      "block": "004",
+      "slug": "hotel-lory-acciano",
+      "status": "updated",
+      "email": "info@loryhotel.it",
+      "pages": [
+        "http://www.loryhotel.it/"
+      ]
+    },
+    {
+      "block": "004",
+      "slug": "hotel-tre-monti-acciano",
+      "status": "updated",
+      "email": "info@cerasolihotel.it",
+      "pages": []
+    },
+    {
+      "block": "004",
+      "slug": "il-vecchio-olmo-acciano",
+      "status": "not_found",
+      "website": "https://ivanrecommends.eu/il-vecchio-olmo-italy"
+    },
+    {
+      "block": "005",
+      "slug": "ostello-fiume-tirino-acciano",
+      "status": "updated",
+      "email": "info@ilbosso.com",
+      "pages": [
+        "https://www.ilbosso.com/"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "palazzo-pirro-dimora-storica-acciano",
+      "status": "updated",
+      "email": "palazzopirro@gmail.com",
+      "pages": [
+        "https://www.palazzopirrodimorastorica.it/"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "tenuta-il-guerriero-agricampeggio-capestrano-acciano",
+      "status": "updated",
+      "email": "info@agricampeggiocapestrano.it",
+      "pages": [
+        "http://www.tenutailguerriero.it/"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "agricampeggio-alta-montagna-bio-accumoli",
+      "status": "not_found",
+      "website": "http://www.altamontagnabio.it/"
+    },
+    {
+      "block": "005",
+      "slug": "agricamping-il-casale-accumoli",
+      "status": "not_found",
+      "website": "https://www.agricampingilcasale.it/"
+    },
+    {
+      "block": "005",
+      "slug": "agriturismo-coop-grisciano-accumoli",
+      "status": "updated",
+      "email": "contact@ourdomain.com",
+      "pages": [
+        "http://www.grisciano.it/"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "agriturismo-il-casale-degli-amici-accumoli",
+      "status": "not_found",
+      "website": "http://ilcasaledegliamici.it/"
+    },
+    {
+      "block": "005",
+      "slug": "agriturismo-il-casale-pica-accumoli",
+      "status": "updated",
+      "email": "info@ilcasalepica.it",
+      "pages": [
+        "https://www.ilcasalepica.it/"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "agriturismo-la-valle-del-sambuco-accumoli",
+      "status": "updated",
+      "email": "info@lavalledelsambuco.it",
+      "pages": [
+        "http://www.agriturismodinorcia.it/"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "agriturismo-le-sorgenti-accumoli",
+      "status": "updated",
+      "email": "info@agriturismolesorgenti.com",
+      "pages": [
+        "http://www.agriturismolesorgenti.com/"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "agriturismo-valle-tezze-accumoli",
+      "status": "updated",
+      "email": "agriturismovalletezze@gmail.com",
+      "pages": [
+        "http://www.agriturismovalletezze.it/"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "camere-antico-mulino-accumoli",
+      "status": "not_found",
+      "website": "https://anticomulinodicascia.it/"
+    },
+    {
+      "block": "005",
+      "slug": "country-house-il-casale-di-ginetto-accumoli",
+      "status": "updated",
+      "email": "info@ilcasalediginetto.it",
+      "pages": [
+        "http://www.ilcasalediginetto.it/"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "country-house-il-vecchio-ippocastano-accumoli",
+      "status": "updated",
+      "email": "frontoffice.ippocastano@dicurziohospitality.com",
+      "pages": [
+        "http://www.ilvecchioippocastano.it/"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "gans-bed-breakfast-accumoli",
+      "status": "not_found",
+      "website": "http://www.ganscascia.it/"
+    },
+    {
+      "block": "005",
+      "slug": "hotel-delle-rose-accumoli",
+      "status": "updated",
+      "email": "info@hoteldellerose.com",
+      "pages": [
+        "http://www.hoteldellerose.com/"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "hotel-il-quadrifoglio-accumoli",
+      "status": "not_found",
+      "website": "http://www.hotelquadrifogliocascia.com/"
+    },
+    {
+      "block": "005",
+      "slug": "hotel-la-corte-accumoli",
+      "status": "updated",
+      "email": "info@magrelli.com",
+      "pages": [
+        "https://www.magrelli.com/hotel-la-corte/"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "hotel-ristorante-il-castagneto-accumoli",
+      "status": "not_found",
+      "website": "http://www.hotelilcastagneto.com/"
+    },
+    {
+      "block": "005",
+      "slug": "hotel-villa-stella-accumoli",
+      "status": "updated",
+      "email": "info@hotelvillastellacascia.com",
+      "pages": [
+        "http://www.hotelvillastellacascia.com/",
+        "http://www.hotelvillastellacascia.com/contatti"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "ristorante-hotel-terme-accumoli",
+      "status": "updated",
+      "email": "info@albergoterme.it",
+      "pages": [
+        "http://www.albergoterme.it/"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "antica-dimora-del-drengot-acerenza",
+      "status": "updated",
+      "email": "support@centralstay.eu",
+      "pages": [
+        "https://staytrip.eu/antica-dimora-del-drengot-acerenza/",
+        "https://staytrip.eu/",
+        "https://staytrip.eu/contatti",
+        "https://staytrip.eu/contact",
+        "https://staytrip.eu/contacts",
+        "https://staytrip.eu/it/contatti",
+        "https://staytrip.eu/en/contact",
+        "https://staytrip.eu/contatti.html",
+        "https://staytrip.eu/contact-us"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "b-b-tra-i-castelli-acerenza",
+      "status": "updated",
+      "email": "info@traicastelli.it",
+      "pages": [
+        "https://www.traicastelli.it/"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "bed-breakfastl-palatium-acerenza",
+      "status": "not_found",
+      "website": "https://www.palatiumsg.it/"
+    },
+    {
+      "block": "005",
+      "slug": "borgo-lamurese-acerenza",
+      "status": "updated",
+      "email": "lamurese@gmail.com",
+      "pages": [
+        "https://borgolamurese.it/",
+        "https://borgolamurese.it/contatti"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "casa-normanna-acerenza",
+      "status": "not_found",
+      "website": "https://www.booking.com/hotel/it/casa-normanna-acerenza.it.html?label=gen173nr-1DCAsocUIWY2FzYS1ub3JtYW5uYS1hY2VyZW56YUgUWARocYgBAZgBFLgBGMgBDNgBA-gBAfgBA4gCAagCBLgC2OCE6AXAAgE;sid=9de98d5e7a07df71bb5daec0b8872189;dist=0&group_adults=2&keep_landing=1&sb_price_type=total&type=total&"
+    },
+    {
+      "block": "005",
+      "slug": "hotel-tulbia-acerenza",
+      "status": "not_found",
+      "website": "https://www.booking.com/hotel/it/la-pergolina.it.html?aid=378671&label=tolve-MXqkwyI7sxNthvwXBVxctwS477291303269:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-1008194452797:lp9202870:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcLgEXIAJSu2VP3A6bqMiZI&sid=b72ffa0b104d159957d07a0c51b33130&all_sr_blocks=334543102_419777728_2_1_0&checkin=2025-09-27&checkout=2025-09-28&dest_id=-130873&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=334543102_419777728_2_1_0&hpos=1&matching_block_id=334543102_419777728_2_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A,A&sb_price_type=total&sr_order=popularity&sr_pri_blocks=334543102_419777728_2_1_0__9000&srepoch=1759042136&srpvid=15c5349190480499&type=total&ucfs=1&"
+    },
+    {
+      "block": "005",
+      "slug": "hotel-villa-del-sorriso-acerenza",
+      "status": "not_found",
+      "website": "https://www.hoteldelsorriso.com/"
+    },
+    {
+      "block": "005",
+      "slug": "il-casale-del-borgo-acerenza",
+      "status": "updated",
+      "email": "info@ilcasaledelborgo.it",
+      "pages": [
+        "https://www.ilcasaledelborgo.it/"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "la-portella-albergo-diffuso-acerenza",
+      "status": "updated",
+      "email": "http://info@laportella.it",
+      "pages": [
+        "http://www.laportella.it/",
+        "http://www.laportella.it/contatti"
+      ]
+    },
+    {
+      "block": "005",
+      "slug": "la-rosa-del-barone-acerenza",
+      "status": "not_found",
+      "website": "https://rosabarone.tripcombined.com/"
+    },
+    {
+      "block": "005",
+      "slug": "locanda-di-eolo-acerenza",
+      "status": "not_found",
+      "website": "https://locanda-di-eolo.touritaliani.top/"
+    },
+    {
+      "block": "006",
+      "slug": "mantra-suite-room-acerenza",
+      "status": "not_found",
+      "website": "http://www.mantrasuiterooms.com/"
+    },
+    {
+      "block": "006",
+      "slug": "park-hotel-centro-congressi-acerenza",
+      "status": "not_found",
+      "website": "http://www.parkhotelpotenza.com/"
+    },
+    {
+      "block": "006",
+      "slug": "white-room-acerenza",
+      "status": "updated",
+      "email": "info@whiteroom.name",
+      "pages": [
+        "https://www.whiteroom.name/"
+      ]
+    },
+    {
+      "block": "006",
+      "slug": "agriturismo-il-rifugio-acerno",
+      "status": "not_found",
+      "website": "https://www.facebook.com/AgriturismoIlRifugio"
+    },
+    {
+      "block": "006",
+      "slug": "agriturismo-la-magione-del-capitano-vincenza-acerno",
+      "status": "not_found",
+      "website": "http://lamagionedelcapitanovincenza.com.es/"
+    },
+    {
+      "block": "006",
+      "slug": "agriturismo-la-vecchia-lanterna-acerno",
+      "status": "updated",
+      "email": "lenza1968@hotmail.it",
+      "pages": [
+        "http://www.agriturismolavecchialanterna.it/",
+        "http://www.agriturismolavecchialanterna.it/contatti.html"
+      ]
+    },
+    {
+      "block": "006",
+      "slug": "albergo-le-dodici-lune-di-alessandra-e-paola-cor-acerno",
+      "status": "updated",
+      "email": "contact@globostay.com",
+      "pages": [
+        "https://securestay.eu/albergo-le-dodici-lune-montecorvino-rovella",
+        "https://securestay.eu/",
+        "https://securestay.eu/contatti",
+        "https://securestay.eu/contact",
+        "https://securestay.eu/contacts",
+        "https://securestay.eu/it/contatti",
+        "https://securestay.eu/en/contact",
+        "https://securestay.eu/contatti.html",
+        "https://securestay.eu/contact-us"
+      ]
+    },
+    {
+      "block": "006",
+      "slug": "annabella-bed-and-breakfast-acerno",
+      "status": "not_found",
+      "website": "https://www.annabellabeb.it/"
+    },
+    {
+      "block": "006",
+      "slug": "b-b-le-terrazze-acerno",
+      "status": "not_found",
+      "website": "https://recommendedbyali.com/le-terrazze-olevano-sul-tusciano-italy"
+    },
+    {
+      "block": "006",
+      "slug": "b-b-normanni-28-acerno",
+      "status": "not_found",
+      "website": "http://campagna.com.es/"
+    },
+    {
+      "block": "006",
+      "slug": "b-b-ospiti-a-corte-acerno",
+      "status": "updated",
+      "email": "support@centralstay.eu",
+      "pages": [
+        "https://go2stay.eu/bed-breakfast-ospiti-a-corte-giffoni-valle-piana/",
+        "https://go2stay.eu/",
+        "https://go2stay.eu/contatti",
+        "https://go2stay.eu/contact",
+        "https://go2stay.eu/contacts",
+        "https://go2stay.eu/it/contatti",
+        "https://go2stay.eu/en/contact",
+        "https://go2stay.eu/contatti.html",
+        "https://go2stay.eu/contact-us"
+      ]
+    },
+    {
+      "block": "006",
+      "slug": "domus-vivian-b-b-acerno",
+      "status": "updated",
+      "email": "info@domusvivian.it",
+      "pages": [
+        "https://domusvivian.it/"
+      ]
+    },
+    {
+      "block": "006",
+      "slug": "fabros-b-b-acerno",
+      "status": "updated",
+      "email": "info@bbfabros.it",
+      "pages": [
+        "https://www.bbfabros.it/"
+      ]
+    },
+    {
+      "block": "006",
+      "slug": "grand-hotel-grisone-acerno",
+      "status": "updated",
+      "email": "info@grisone.it",
+      "pages": [
+        "http://www.grandhotelgrisone.it/"
+      ]
+    },
+    {
+      "block": "006",
+      "slug": "hotel-sica-acerno",
+      "status": "updated",
+      "email": "info.sicahotel@libero.it",
+      "pages": [
+        "http://www.hotelsica.it/"
+      ]
+    },
+    {
+      "block": "006",
+      "slug": "lamberti-boutique-hotel-acerno",
+      "status": "updated",
+      "email": "info@lambertihotel.it",
+      "pages": [
+        "http://lambertihotel.it/"
+      ]
+    },
+    {
+      "block": "006",
+      "slug": "lorenzo-acerno",
+      "status": "not_found",
+      "website": "https://lorenzo.albergo.top/"
+    },
+    {
+      "block": "006",
+      "slug": "oasi-verde-acerno",
+      "status": "not_found",
+      "website": "https://caffeit.cyou/oasi-verde-abqtne"
+    },
+    {
+      "block": "006",
+      "slug": "valle-degli-alburni-acerno",
+      "status": "not_found",
+      "website": "http://valledeglialburni.beb.it/"
+    },
+    {
+      "block": "006",
+      "slug": "villa-alessandra-acerno",
+      "status": "updated",
+      "email": "info@villa-alessandra.it",
+      "pages": [
+        "https://www.villa-alessandra.it/"
+      ]
+    },
+    {
+      "block": "006",
+      "slug": "vittoria-guest-house-battipaglia-acerno",
+      "status": "updated",
+      "email": "info@vittoriaguesthouse.it",
+      "pages": []
+    },
+    {
+      "block": "006",
+      "slug": "b-b-il-girasole-acerra",
+      "status": "not_found",
+      "website": "https://www.facebook.com/profile.php?id=61552492110298"
+    },
+    {
+      "block": "006",
+      "slug": "bed-breakfast-angel-s-paradise-acerra",
+      "status": "not_found",
+      "website": "https://www.facebook.com/Angels-Paradise-BB-1003556729759093/"
+    },
+    {
+      "block": "006",
+      "slug": "bed-breakfast-la-primavera-acerra",
+      "status": "updated",
+      "email": "rosa.c_sun@hotmail.it",
+      "pages": [
+        "https://www.ristoranteprimaveraacerra.it/bed-breakfast/"
+      ]
+    },
+    {
+      "block": "006",
+      "slug": "charming-gea-acerra",
+      "status": "not_found",
+      "website": "https://recommendedbyali.com/charming-gea-italy"
+    },
+    {
+      "block": "006",
+      "slug": "hotel-buona-luna-acerra",
+      "status": "not_found",
+      "website": "https://l.instagram.com/?u=http%3A%2F%2Fhotelbuonaluna.business.site%2F%3Ffbclid%3DIwAR0pA3u0so3NF1eqw8bRWBpdXSv2o5SrGB8ZVhplDKlRe3r-6YKSQg4XI-M&e=AT3Www-AsAWZW2DQWhK_4gm5fYnHtQzOEbwRnoKukAZe2aJsx_YJeW_Ow8zmr8jGFwI_fHrSvAKlKBYu9mLL5vbwfSUgThHFXc9byg"
+    },
+    {
+      "block": "006",
+      "slug": "hotel-cenacolo-acerra",
+      "status": "updated",
+      "email": "info@cenacolohotel.it",
+      "pages": [
+        "http://www.cenacolohotel.it/"
+      ]
+    },
+    {
+      "block": "006",
+      "slug": "hotel-martini-acerra",
+      "status": "updated",
+      "email": "info@martinihotel.it",
+      "pages": [
+        "http://www.martinihotel.it/"
+      ]
+    },
+    {
+      "block": "006",
+      "slug": "hotel-movida-acerra",
+      "status": "updated",
+      "email": "info@hotelmovida.it",
+      "pages": [
+        "https://www.hotelmovida.it/",
+        "https://www.hotelmovida.it/contact",
+        "https://www.hotelmovida.it/en/contact"
+      ]
+    },
+    {
+      "block": "006",
+      "slug": "hotel-ristorante-pizzeria-elio-acerra",
+      "status": "updated",
+      "email": "info@hotelelio.com",
+      "pages": [
+        "https://www.hotelelio.com/"
+      ]
+    },
+    {
+      "block": "007",
+      "slug": "infinity-suite-acerra",
+      "status": "not_found",
+      "website": "https://instagram.com/infinitysuite?utm_medium=copy_link"
+    },
+    {
+      "block": "007",
+      "slug": "la-dolce-sosta-acerra",
+      "status": "not_found",
+      "website": "https://www.booking.com/Share-7pSCYH6"
+    },
+    {
+      "block": "007",
+      "slug": "living-bed-and-breakfast-acerra",
+      "status": "updated",
+      "email": "info@livingbedandbreakfast.it",
+      "pages": [
+        "https://www.livingbedandbreakfast.it/",
+        "https://www.livingbedandbreakfast.it/contact",
+        "https://www.livingbedandbreakfast.it/en/contact",
+        "https://www.livingbedandbreakfast.it/contact-us"
+      ]
+    },
+    {
+      "block": "007",
+      "slug": "maison-464-acerra",
+      "status": "updated",
+      "email": "support@centralstay.eu",
+      "pages": [
+        "https://stayo.eu/maison-464-san-felice-a-cancello/",
+        "https://stayo.eu/",
+        "https://stayo.eu/contatti",
+        "https://stayo.eu/contact",
+        "https://stayo.eu/contacts",
+        "https://stayo.eu/it/contatti",
+        "https://stayo.eu/en/contact",
+        "https://stayo.eu/contatti.html",
+        "https://stayo.eu/contact-us"
+      ]
+    },
+    {
+      "block": "007",
+      "slug": "paradisea-club-and-residences-acerra",
+      "status": "updated",
+      "email": "reservations@paradiseaclubandresidences.com",
+      "pages": [
+        "https://paradiseaclubandresidences.com/"
+      ]
+    },
+    {
+      "block": "007",
+      "slug": "pavean-suites-frattamaggiore-acerra",
+      "status": "updated",
+      "email": "info@paveansuites.com",
+      "pages": [
+        "https://www.paveansuites.com/"
+      ]
+    },
+    {
+      "block": "007",
+      "slug": "sunrise-hotel-acerra",
+      "status": "updated",
+      "email": "info@sunrisehotelna.it",
+      "pages": [
+        "https://www.sunrisehotelna.it/"
+      ]
+    },
+    {
+      "block": "007",
+      "slug": "utopia-the-art-of-bed-breakfast-acerra",
+      "status": "not_found",
+      "website": "https://www.booking.com/Share-XdGqBjL"
+    },
+    {
+      "block": "007",
+      "slug": "victoria-hotel-acerra",
+      "status": "not_found",
+      "website": "https://victoria-hotel.albergatore.top/"
+    },
+    {
+      "block": "007",
+      "slug": "a-due-passi-da-aci-bonaccorsi",
+      "status": "not_found",
+      "website": "http://www.aduepassida.it/"
+    },
+    {
+      "block": "007",
+      "slug": "b-b-alba-aci-bonaccorsi",
+      "status": "not_found",
+      "website": "https://bebalbaholiday.it/"
+    },
+    {
+      "block": "007",
+      "slug": "b-b-antichi-ricordi-aci-bonaccorsi",
+      "status": "not_found",
+      "website": "https://timothylovestotravel.com/antichi-ricordi-aci-sant-39-antonio-italy"
+    },
+    {
+      "block": "007",
+      "slug": "b-b-casalotto-inn-aci-bonaccorsi",
+      "status": "updated",
+      "email": "info@casalottoinn.com",
+      "pages": [
+        "http://www.casalottoinn.com/"
+      ]
+    },
+    {
+      "block": "007",
+      "slug": "b-b-i-colori-dell-etna-aci-bonaccorsi",
+      "status": "updated",
+      "email": "info@icoloridelletnabb.it",
+      "pages": [
+        "http://www.icoloridelletnabb.it/"
+      ]
+    },
+    {
+      "block": "007",
+      "slug": "b-b-il-vulcano-aci-bonaccorsi",
+      "status": "not_found",
+      "website": "http://bb-il-vulcano.com.es/"
+    },
+    {
+      "block": "007",
+      "slug": "b-b-l-agrifoglio-dell-etna-aci-bonaccorsi",
+      "status": "not_found",
+      "website": "https://lagrifogliodelletna.flazio.com/home"
+    },
+    {
+      "block": "007",
+      "slug": "b-b-la-casetta-aci-bonaccorsi",
+      "status": "not_found",
+      "website": "http://www.beblacasetta.com/"
+    },
+    {
+      "block": "007",
+      "slug": "b-b-le-antiche-cisterne-aci-bonaccorsi",
+      "status": "updated",
+      "email": "info@leantichecisterne.it",
+      "pages": [
+        "http://www.leantichecisterne.it/"
+      ]
+    },
+    {
+      "block": "007",
+      "slug": "b-b-sotto-l-eremo-aci-bonaccorsi",
+      "status": "updated",
+      "email": "info@sottoleremo.it",
+      "pages": [
+        "http://www.sottoleremo.it/"
+      ]
+    },
+    {
+      "block": "007",
+      "slug": "b-b-suite-aci-bonaccorsi",
+      "status": "updated",
+      "email": "maxct21@libero.it",
+      "pages": [
+        "http://www.bbsuite.it/",
+        "http://www.bbsuite.it/contatti.html"
+      ]
+    },
+    {
+      "block": "007",
+      "slug": "bed-and-breakfast-terra-e-stelle-aci-bonaccorsi",
+      "status": "not_found",
+      "website": "http://www.terraestelle.it/"
+    },
+    {
+      "block": "007",
+      "slug": "grand-hotel-villa-itria-aci-bonaccorsi",
+      "status": "updated",
+      "email": "info@grandhotelvillaitria.com",
+      "pages": []
+    },
+    {
+      "block": "007",
+      "slug": "il-tiglio-aci-bonaccorsi",
+      "status": "not_found",
+      "website": "http://www.iltigliocasavacanze.it/"
+    },
+    {
+      "block": "007",
+      "slug": "locanda-sant-antonio-aci-bonaccorsi",
+      "status": "not_found",
+      "website": "https://locandasantantonio.com/"
+    },
+    {
+      "block": "007",
+      "slug": "profumi-di-aci-boutique-b-b-aci-bonaccorsi",
+      "status": "not_found",
+      "website": "https://www.profumidiaci.it/"
+    },
+    {
+      "block": "007",
+      "slug": "sikelia-rooms-aci-bonaccorsi",
+      "status": "updated",
+      "email": "info@sikeliarooms.it",
+      "pages": [
+        "http://www.sikeliarooms.it/"
+      ]
+    },
+    {
+      "block": "007",
+      "slug": "zaffiro-lavico-rooms-etna-nature-sea-aci-bonaccorsi",
+      "status": "not_found",
+      "website": "http://www.zaffirolavico.it/"
+    },
+    {
+      "block": "007",
+      "slug": "4-spa-resort-hotel-aci-castello",
+      "status": "updated",
+      "email": "hotel@4spa.it",
+      "pages": [
+        "https://www.4spa.it/"
+      ]
+    },
+    {
+      "block": "007",
+      "slug": "b-b-borgo-marinaro-aci-castello",
+      "status": "not_found",
+      "website": "http://www.bbborgomarinaro.com/"
+    },
+    {
+      "block": "007",
+      "slug": "b-b-brezza-di-mare-aci-castello",
+      "status": "not_found",
+      "website": "https://bandbbrezzadimareacicastello.top/"
+    },
+    {
+      "block": "007",
+      "slug": "b-b-epos-acitrezza-aci-castello",
+      "status": "updated",
+      "email": "bbepos@icloud.com",
+      "pages": [
+        "http://www.bbeposacitrezza.it/"
+      ]
+    },
+    {
+      "block": "007",
+      "slug": "b-b-stella-marina-aci-castello",
+      "status": "not_found",
+      "website": "http://www.stellamarinaweb.com/"
+    },
+    {
+      "block": "008",
+      "slug": "ciclope-resort-aci-castello",
+      "status": "updated",
+      "email": "info@hotelmalavoglia.it",
+      "pages": [
+        "https://www.hotelmalavoglia.it/"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "four-points-by-sheraton-catania-aci-castello",
+      "status": "not_found",
+      "website": "https://www.marriott.com/en-us/hotels/ctasi-four-points-catania-hotel-and-conference-center/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    },
+    {
+      "block": "008",
+      "slug": "grand-hotel-baia-verde-aci-castello",
+      "status": "updated",
+      "email": "baiaverde@baiaverde.it",
+      "pages": [
+        "https://www.baiaverde.it/"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "grand-hotel-faraglioni-aci-castello",
+      "status": "not_found",
+      "website": "https://linktr.ee/grandhotelfaraglioni"
+    },
+    {
+      "block": "008",
+      "slug": "hello-b-b-aci-castello",
+      "status": "updated",
+      "email": "hellobnbacitrezza@gmail.com",
+      "pages": [
+        "http://www.hellobnb.it/"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "la-scogliera-in-bed-breakfast-aci-castello",
+      "status": "not_found",
+      "website": "https://lascoglierain.it/"
+    },
+    {
+      "block": "008",
+      "slug": "la-terrazza-sul-mare-aci-castello",
+      "status": "not_found",
+      "website": "https://www.hotelscheck-in.com/la-terrazza-dei-normanni-catania/it/"
+    },
+    {
+      "block": "008",
+      "slug": "lachea-hotel-aci-castello",
+      "status": "updated",
+      "email": "info@lacheahotel.it",
+      "pages": [
+        "http://www.lacheahotel.it/"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "oasi-perla-del-mare-bed-breakfast-aci-castello",
+      "status": "updated",
+      "email": "oasiperladelmare@gmail.com",
+      "pages": [
+        "http://www.oasiperlamare.it/"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "president-park-hotel-aci-castello",
+      "status": "updated",
+      "email": "info@presidentparkhotel.com",
+      "pages": [
+        "http://www.presidentparkhotel.com/"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "sicilia-s-residence-hotel-art-spa-aci-castello",
+      "status": "updated",
+      "email": "info@siciliashotel.it",
+      "pages": [
+        "https://www.siciliashotel.it/"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "sicitaly-acicastello-aci-castello",
+      "status": "updated",
+      "email": "helpdesk@sicitaly.eu",
+      "pages": [
+        "https://www.sicitaly.eu/"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "zeus-residence-hotel-aparthotel-meeting-congress-aci-castello",
+      "status": "updated",
+      "email": "info@zeusresidencehotel.it",
+      "pages": [
+        "http://zeusresidencehotel.it/"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "best-western-hotel-santa-caterina-aci-catena",
+      "status": "not_found",
+      "website": "http://www.santacaterinahotel.com/"
+    },
+    {
+      "block": "008",
+      "slug": "casa-vacanze-sole-delle-aci-aci-catena",
+      "status": "not_found",
+      "website": "http://appartamenti-sole-delle-aci.italianeisole.it/"
+    },
+    {
+      "block": "008",
+      "slug": "grande-albergo-maugeri-aci-catena",
+      "status": "updated",
+      "email": "info@grandealbergomaugeri.com",
+      "pages": [
+        "https://www.grandealbergomaugeri.com/?utm_source=GB&utm_medium=organic"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "il-vecchio-sentiero-aci-catena",
+      "status": "updated",
+      "email": "ilvecchiosentiero@gmail.com",
+      "pages": [
+        "https://ilvecchiosentierobeb.it/"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "wave-hotel-aci-catena",
+      "status": "updated",
+      "email": "user@company.com",
+      "pages": [
+        "http://www.wavehotel.it/"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "beb-casa-di-mari-aci-sant-antonio",
+      "status": "updated",
+      "email": "info@bebcasadimari.it",
+      "pages": [
+        "http://www.bebcasadimari.it/",
+        "http://www.bebcasadimari.it/contatti.html"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "relais-san-giuliano-boutique-hotel-de-charme-aci-sant-antonio",
+      "status": "updated",
+      "email": "info@relais-sangiuliano.com",
+      "pages": [
+        "https://www.relais-sangiuliano.it/"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "villa-corallo-dell-etna-aci-sant-antonio",
+      "status": "updated",
+      "email": "info@villacorallodelletna.com",
+      "pages": [
+        "http://www.villacorallodelletna.com/",
+        "http://www.villacorallodelletna.com/contatti"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "villa-delle-palme-aci-sant-antonio",
+      "status": "not_found",
+      "website": "http://www.villadellepalme.it/"
+    },
+    {
+      "block": "008",
+      "slug": "b-b-acireale-il-cavalluccio-marino-fronte-mare-acireale",
+      "status": "updated",
+      "email": "palazzofiorini@gmail.com",
+      "pages": [
+        "https://beb.it/ilcavallucciomarino"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "b-b-comeinsicily-corte-dei-limoni-charming-relax-acireale",
+      "status": "not_found",
+      "website": "http://mansion-house-lemon-court.italianeisole.it/"
+    },
+    {
+      "block": "008",
+      "slug": "b-b-the-artists-acireale-acireale",
+      "status": "not_found",
+      "website": "https://the-artists.bedsandhotels.com/"
+    },
+    {
+      "block": "008",
+      "slug": "baroque-b-b-acireale",
+      "status": "not_found",
+      "website": "http://acireale.com.es/"
+    },
+    {
+      "block": "008",
+      "slug": "hotel-capomulini-dimora-storica-acireale",
+      "status": "not_found",
+      "website": "http://www.hotelcapomulini.com/"
+    },
+    {
+      "block": "008",
+      "slug": "hotel-ibis-styles-catania-acireale-acireale",
+      "status": "updated",
+      "email": "h7557@accor.com",
+      "pages": [
+        "https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=7557&merchantid=seo-maps-IT-7557&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "hotel-orizzonte-acireale-acireale",
+      "status": "updated",
+      "email": "info@hotelorizzonte.it",
+      "pages": [
+        "http://www.hotelorizzonte.it/"
+      ]
+    },
+    {
+      "block": "008",
+      "slug": "hotel-santa-tecla-palace-acireale",
+      "status": "updated",
+      "email": "amministrazione@pec.hotelsantatecla.it",
+      "pages": [
+        "https://www.hotelsantatecla.it/it/index.html"
+      ]
+    },
+    {
+      "block": "009",
+      "slug": "luxury-b-b-euphorbia-acireale",
+      "status": "updated",
+      "email": "info@luxurybeb-euphorbia.it",
+      "pages": [
+        "https://luxurybeb-euphorbia.it/"
+      ]
+    },
+    {
+      "block": "009",
+      "slug": "palazzo-giovanni-bed-and-breakfast-acireale",
+      "status": "not_found",
+      "website": "https://www.palazzogiovanni.it/"
+    },
+    {
+      "block": "009",
+      "slug": "residenza-cavour-acireale",
+      "status": "updated",
+      "email": "info@residenzacavour.net",
+      "pages": [
+        "http://www.residenzacavour.net/"
+      ]
+    },
+    {
+      "block": "009",
+      "slug": "riflessi-acireale-palace-suites-acireale",
+      "status": "updated",
+      "email": "info@riflessiacireale.it",
+      "pages": [
+        "https://www.riflessiacireale.it/"
+      ]
+    },
+    {
+      "block": "009",
+      "slug": "savoia-residence-acireale",
+      "status": "updated",
+      "email": "info@savoiaresidence.it",
+      "pages": [
+        "http://www.savoiaresidence.it/"
+      ]
+    },
+    {
+      "block": "009",
+      "slug": "villa-arianna-acireale-acireale",
+      "status": "updated",
+      "email": "villariannasicily@gmail.com",
+      "pages": [
+        "https://www.villariannacireale.it/"
+      ]
+    },
+    {
+      "block": "009",
+      "slug": "villa-feluchia-b-b-acireale",
+      "status": "not_found",
+      "website": "http://www.villafeluchia.it/"
+    },
+    {
+      "block": "009",
+      "slug": "agriturismo-il-pioppeto-acquafondata",
+      "status": "updated",
+      "email": "info@pioppetocassino.com",
+      "pages": [
+        "http://www.pioppetocassino.com/"
+      ]
+    },
+    {
+      "block": "009",
+      "slug": "b-b-hotel-la-villa-acquafondata",
+      "status": "not_found",
+      "website": "http://www.lavillapozzilli.it/"
+    },
+    {
+      "block": "009",
+      "slug": "b-b-il-sorriso-acquafondata",
+      "status": "not_found",
+      "website": "https://hotel-stays.eu/b-amp-b-il-sorriso-pozzilli-italy"
+    },
+    {
+      "block": "009",
+      "slug": "b-b-l-eden-acquafondata",
+      "status": "not_found",
+      "website": "http://www.bbleden.it/"
+    },
+    {
+      "block": "009",
+      "slug": "b-b-la-montagnarosa-acquafondata",
+      "status": "updated",
+      "email": "info@montagnarosa.it",
+      "pages": [
+        "https://www.montagnarosa.it/"
+      ]
+    },
+    {
+      "block": "009",
+      "slug": "b-b-sud-e-magia-acquafondata",
+      "status": "not_found",
+      "website": "https://www.booking.com/hotel/it/b-amp-b-sud-e-magia.it.html?aid=311091;label=b-amp-b-sud-e-magia-_CVBR_UlMvMNv1Mg_C0KewSM259618143096%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atikwd-415430248931%3Alp20554%3Ali%3Adem%3Adm;sid=e92bd9d7aed0a53a8c119fec9036078a;cdist=2%2C2%20km;checkin=2018-06-07;checkout=2018-06-08;dest_id=-128151;dest_type=city;dist=0;group_adults=2;hapos=1;highlighted_blocks=294141602_109587124_2_33_0;m_occ=2;matching_block_id=294141602_109587124_2_33_0;room1=A%2CA;sb_price_type=total;srepoch=1528349928;srpvid=3be027b3e1530614;type=total;ucfs=1&"
+    },
+    {
+      "block": "009",
+      "slug": "chez-nous-bed-and-breakfast-acquafondata",
+      "status": "updated",
+      "email": "info@bbcheznous.it",
+      "pages": [
+        "http://www.bbcheznous.it/"
+      ]
+    },
+    {
+      "block": "009",
+      "slug": "gerberarooms-acquafondata",
+      "status": "updated",
+      "email": "gerberaaffittacamere@gmail.com",
+      "pages": [
+        "https://www.gerberarooms.it/"
+      ]
+    },
+    {
+      "block": "009",
+      "slug": "giosam-bed-breakfast-acquafondata",
+      "status": "not_found",
+      "website": "https://giosam-bed-breakfast.miglioriviaggi.top/"
+    },
+    {
+      "block": "009",
+      "slug": "hotel-la-pace-experience-acquafondata",
+      "status": "updated",
+      "email": "lapace@cassinohotel.com",
+      "pages": [
+        "http://www.hotellapacecassino.it/"
+      ]
+    },
+    {
+      "block": "009",
+      "slug": "hotel-ristorante-al-boschetto-cassino-acquafondata",
+      "status": "not_found",
+      "website": "http://www.hotelristorantealboschetto.it/"
+    },
+    {
+      "block": "009",
+      "slug": "hotel-ristorante-la-campagnola-acquafondata",
+      "status": "not_found",
+      "website": "http://www.hotellacampagnola.it/"
+    },
+    {
+      "block": "009",
+      "slug": "hotel-sant-elia-acquafondata",
+      "status": "updated",
+      "email": "info@hotelsantelia.it",
+      "pages": [
+        "http://www.hotelsantelia.it/"
+      ]
+    },
+    {
+      "block": "009",
+      "slug": "la-sorgente-acquafondata",
+      "status": "not_found",
+      "website": "https://la-sorgente.amolitalia.top/"
+    },
+    {
+      "block": "009",
+      "slug": "la-suite-acquafondata",
+      "status": "not_found",
+      "website": "https://mariarecommends.eu/la-suite-cassino-italy"
+    },
+    {
+      "block": "009",
+      "slug": "locanda-belvedere-da-stefano-acquafondata",
+      "status": "updated",
+      "email": "info@locandabelvedere.eu",
+      "pages": [
+        "http://www.locandabelvedere.eu/"
+      ]
+    },
+    {
+      "block": "009",
+      "slug": "palazzo-licinio-acquafondata",
+      "status": "updated",
+      "email": "info@palazzolicinio.it",
+      "pages": [
+        "http://www.palazzolicinio.it/"
+      ]
+    },
+    {
+      "block": "009",
+      "slug": "agriturismo-l-antico-casale-acquaformosa",
+      "status": "not_found",
+      "website": "https://wa.me/393715298984"
+    },
+    {
+      "block": "009",
+      "slug": "b-b-cristallo-acquaformosa",
+      "status": "not_found",
+      "website": "https://www.bbcristallocastrovillari.com/"
+    },
+    {
+      "block": "009",
+      "slug": "b-b-il-laghetto-acquaformosa",
+      "status": "updated",
+      "email": "bebillaghetto@gmail.com",
+      "pages": [
+        "http://www.bebillaghetto.com/"
+      ]
+    },
+    {
+      "block": "009",
+      "slug": "b-b-ka-edda-acquaformosa",
+      "status": "not_found",
+      "website": "https://bb-ka-edda.italiacongusto.top/"
+    },
+    {
+      "block": "009",
+      "slug": "b-b-la-brezza-del-pollino-acquaformosa",
+      "status": "not_found",
+      "website": "http://b-b-la-brezza-del-pollino.org.es/"
+    },
+    {
+      "block": "009",
+      "slug": "castello-di-altomonte-ristorante-albergo-acquaformosa",
+      "status": "updated",
+      "email": "info@castellodialtomonte.it",
+      "pages": [
+        "http://www.castellodialtomonte.it/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "dolcedorme-del-pollino-acquaformosa",
+      "status": "not_found",
+      "website": "http://morano-calabro.com.es/"
+    },
+    {
+      "block": "010",
+      "slug": "green-bed-and-breakfast-acquaformosa",
+      "status": "updated",
+      "email": "bedgreen23@gmail.com",
+      "pages": [
+        "https://www.bedgreen.it/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "hotel-food-drink-acquaformosa",
+      "status": "not_found",
+      "website": "https://www.hotelfood-drink.it/"
+    },
+    {
+      "block": "010",
+      "slug": "hotel-toscano-acquaformosa",
+      "status": "updated",
+      "email": "info@hoteltoscano.com",
+      "pages": [
+        "http://www.hoteltoscano.com/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "ka-millordi-acquaformosa",
+      "status": "updated",
+      "email": "info@kamillordi.it",
+      "pages": [
+        "https://www.kamillordi.it/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "la-costa-affittacamere-ristorante-b-b-acquaformosa",
+      "status": "not_found",
+      "website": "https://www.affittacamerelacosta.com/"
+    },
+    {
+      "block": "010",
+      "slug": "rifugio-montano-acquaformosa",
+      "status": "updated",
+      "email": "rifugiomontano@gmail.com%20",
+      "pages": [
+        "http://www.rifugiomontano.it/",
+        "http://www.rifugiomontano.it/contact"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "ristorante-hotel-barbieri-acquaformosa",
+      "status": "not_found",
+      "website": "http://www.famigliabarbieri.net/"
+    },
+    {
+      "block": "010",
+      "slug": "ristorante-pizzeria-bed-and-breakfast-insonnia-acquaformosa",
+      "status": "not_found",
+      "website": "http://www.isognidinsonnia.it/"
+    },
+    {
+      "block": "010",
+      "slug": "tik-tak-bed-and-breakfast-acquaformosa",
+      "status": "updated",
+      "email": "tiktakbedandbreakfast@gmail.com",
+      "pages": [
+        "http://www.tiktakbedandbreakfast.it/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "agriturismo-colombare-acquafredda",
+      "status": "updated",
+      "email": "direzione@aironeuno.it",
+      "pages": [
+        "https://www.aironeuno.it/colombare/index.php"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "albergo-la-piana-acquafredda",
+      "status": "not_found",
+      "website": "http://www.albergolapiana.com/"
+    },
+    {
+      "block": "010",
+      "slug": "albergo-ristorante-agriturismo-al-ciliegio-di-fi-acquafredda",
+      "status": "updated",
+      "email": "info@locandailciliegio.it",
+      "pages": [
+        "https://www.locandailciliegio.it/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "albergo-ristorante-la-pieve-acquafredda",
+      "status": "not_found",
+      "website": "http://www.lapievehotel.com/"
+    },
+    {
+      "block": "010",
+      "slug": "albergo-villa-francesca-beauty-spa-isorella-acquafredda",
+      "status": "not_found",
+      "website": "http://villafrancesca.info/"
+    },
+    {
+      "block": "010",
+      "slug": "amira-palace-hotel-acquafredda",
+      "status": "updated",
+      "email": "info@amirapalacehotel.com",
+      "pages": [
+        "http://amirahotelpalace.it/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "b-b-il-fienile-acquafredda",
+      "status": "updated",
+      "email": "infobebilfienile@gmail.com",
+      "pages": [
+        "https://bnbilfienile.it/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "b-b-santa-cristina-acquafredda",
+      "status": "updated",
+      "email": "info@cascinacavallera.com",
+      "pages": [
+        "https://www.bnbsantacristina.it/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "bellavista-acquafredda",
+      "status": "not_found",
+      "website": "https://m.facebook.com/Bed-And-Breakfast-Bellavista-375971812461003/"
+    },
+    {
+      "block": "010",
+      "slug": "civico-43-acquafredda",
+      "status": "updated",
+      "email": "info@bbcivico43.it",
+      "pages": [
+        "https://www.bbcivico43.it/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "hotel-club-san-diego-acquafredda",
+      "status": "updated",
+      "email": "info@hotelsandiego.it",
+      "pages": [
+        "http://www.hotelsandiego.it/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "hotel-ristorante-pizzeria-faro-acquafredda",
+      "status": "updated",
+      "email": "reception@hotelfaro.com",
+      "pages": [
+        "http://www.hotelfaro.com/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "hotel-spa-villa-del-mare-acquafredda",
+      "status": "not_found",
+      "website": "https://www.libbanibeachclub.com/"
+    },
+    {
+      "block": "010",
+      "slug": "la-spia-d-italia-hotel-ristorante-acquafredda",
+      "status": "not_found",
+      "website": "https://laspiaditaliahotelandristorante.top/"
+    },
+    {
+      "block": "010",
+      "slug": "la-stazione-hotel-la-vecchia-tramvia-acquafredda",
+      "status": "updated",
+      "email": "info@lavecchiatramviacamere.it",
+      "pages": [
+        "http://www.lavecchiatramviacamere.it/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "le-stanze-di-duchessa-acquafredda",
+      "status": "not_found",
+      "website": "https://staysit.cyou/stanze-di-duchessa-smhb2g"
+    },
+    {
+      "block": "010",
+      "slug": "les-suites-acquafredda",
+      "status": "updated",
+      "email": "k4b-am@kayak.com",
+      "pages": [
+        "http://www.lessuitesasola.it/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "monticlaris-foresteria-self-contained-acquafredda",
+      "status": "updated",
+      "email": "info@monticlaris.it",
+      "pages": [
+        "http://www.monticlaris.it/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "palazzo-bed-and-breakfast-acquafredda",
+      "status": "updated",
+      "email": "info@bbpalazzo.it",
+      "pages": [
+        "https://www.bbpalazzo.it/",
+        "https://www.bbpalazzo.it/contatti.html"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "park-hotel-ristorante-pizzeria-acquafredda",
+      "status": "updated",
+      "email": "info@parkhotel.mantova.it",
+      "pages": [
+        "http://www.parkhotel.mantova.it/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "agriturismo-alla-vecchia-quercia-acqualagna",
+      "status": "updated",
+      "email": "info@vecchiaquercia.it",
+      "pages": [
+        "http://www.vecchiaquercia.it/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "albergo-italia-urbino-pu-acqualagna",
+      "status": "not_found",
+      "website": "https://www.albergo-italia-urbino.it/"
+    },
+    {
+      "block": "010",
+      "slug": "albergo-leon-d-oro-acqualagna",
+      "status": "not_found",
+      "website": "https://www.leondoroalbergo.com/"
+    },
+    {
+      "block": "010",
+      "slug": "albergo-shine-acqualagna-acqualagna",
+      "status": "updated",
+      "email": "info@shineacqualagna.it",
+      "pages": [
+        "http://www.shineacqualagna.it/"
+      ]
+    },
+    {
+      "block": "010",
+      "slug": "b-b-casa-filippini-acqualagna",
+      "status": "not_found",
+      "website": "https://www.albergoristorantedamarcoeredi-fossombrone.it/"
+    },
+    {
+      "block": "011",
+      "slug": "b-b-aquilegia-acqualagna",
+      "status": "updated",
+      "email": "info@aquilegiabeb.com",
+      "pages": [
+        "https://www.aquilegiafurlo.it/"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "b-b-fox-s-hill-acqualagna",
+      "status": "updated",
+      "email": "info@brandio.it",
+      "pages": [
+        "http://www.foxhill.it/"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "b-b-la-corte-di-nonna-quercia-acqualagna",
+      "status": "not_found",
+      "website": "https://www.facebook.com/NonnaQuerciaFurlo/"
+    },
+    {
+      "block": "011",
+      "slug": "b-b-monte-san-pietro-acqualagna",
+      "status": "updated",
+      "email": "gfranco.paoloni@gmail.com",
+      "pages": [
+        "https://beb.it/montesanpietro"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "b-b-relais-druda-acqualagna",
+      "status": "not_found",
+      "website": "https://druda.bedsandhotels.com/"
+    },
+    {
+      "block": "011",
+      "slug": "bed-breakfast-del-teatro-acqualagna",
+      "status": "updated",
+      "email": "info@bbdelteatro.it",
+      "pages": [
+        "http://www.bbdelteatro.it/",
+        "http://www.bbdelteatro.it/contatti"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "cielo-e-nuvole-acqualagna",
+      "status": "updated",
+      "email": "info@ristorantelagioconda.it",
+      "pages": [
+        "https://www.cieloenuvole.it/",
+        "https://www.cieloenuvole.it/contatti",
+        "https://www.cieloenuvole.it/it/contatti"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "green-b-b-urbino-acqualagna",
+      "status": "not_found",
+      "website": "https://chavierrestravelexperience.eu/green-b-amp-b-urbino-italy"
+    },
+    {
+      "block": "011",
+      "slug": "inloco-natural-experience-acqualagna",
+      "status": "updated",
+      "email": "info@inlocoitaly.com",
+      "pages": [
+        "https://inlocoitaly.com/"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "la-finestra-sul-fiume-acqualagna",
+      "status": "updated",
+      "email": "contact@globostay.com",
+      "pages": [
+        "https://hotelprovider.eu/la-finestra-sul-fiume-fossombrone",
+        "https://hotelprovider.eu/",
+        "https://hotelprovider.eu/contatti",
+        "https://hotelprovider.eu/contact",
+        "https://hotelprovider.eu/contacts",
+        "https://hotelprovider.eu/it/contatti",
+        "https://hotelprovider.eu/en/contact",
+        "https://hotelprovider.eu/contatti.html",
+        "https://hotelprovider.eu/contact-us"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "la-tana-del-furlo-b-b-acqualagna",
+      "status": "updated",
+      "email": "info@latanadelfurlo.it",
+      "pages": [
+        "https://www.latanadelfurlo.it/it/"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "residence-la-collinetta-hotel-acqualagna",
+      "status": "updated",
+      "email": "info@residencelacollinetta.com",
+      "pages": [
+        "http://www.residencelacollinetta.com/"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "ristorante-hotel-la-ginestra-gola-del-furlo-acqualagna",
+      "status": "updated",
+      "email": "info@ginestrafurlo.it",
+      "pages": [
+        "https://ginestrafurlo.it/"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "agriturismo-cascina-nuova-acquanegra-cremonese",
+      "status": "not_found",
+      "website": "https://www.agriturismocascinanuova.it/"
+    },
+    {
+      "block": "011",
+      "slug": "amici-miei-rooms-acquanegra-cremonese",
+      "status": "not_found",
+      "website": "https://bbamicimiei.kross.travel/"
+    },
+    {
+      "block": "011",
+      "slug": "b-b-albergo-il-torchio-di-alchieri-moreno-c-sas-acquanegra-cremonese",
+      "status": "updated",
+      "email": "info@albergoiltorchio.com",
+      "pages": [
+        "http://www.albergoiltorchio.com/"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "b-b-casa-del-profumo-acquanegra-cremonese",
+      "status": "not_found",
+      "website": "https://www.bbcasadelprofumo.com/"
+    },
+    {
+      "block": "011",
+      "slug": "b-b-hotel-cremona-acquanegra-cremonese",
+      "status": "updated",
+      "email": "cremona@hotelbb.com",
+      "pages": [
+        "https://www.hotel-bb.com/it/hotel/cremona?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "b-b-hotel-piacenza-acquanegra-cremonese",
+      "status": "updated",
+      "email": "piacenza@hotelbb.com",
+      "pages": [
+        "https://www.hotel-bb.com/it/hotel/piacenza?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "b-b-la-viola-acquanegra-cremonese",
+      "status": "not_found",
+      "website": "http://laviolabeb.com/"
+    },
+    {
+      "block": "011",
+      "slug": "b-b-spaziovitale-acquanegra-cremonese",
+      "status": "updated",
+      "email": "spaziovitale3@gmail.com",
+      "pages": [
+        "https://beb.it/spaziovitale"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "bed-and-breakfast-marie-acquanegra-cremonese",
+      "status": "updated",
+      "email": "info@bedandbreakfastmarie.com",
+      "pages": [
+        "https://bedandbreakfastmarie.com/"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "cremona-palace-hotel-acquanegra-cremonese",
+      "status": "updated",
+      "email": "info@cremonapalacehotel.it",
+      "pages": [
+        "http://www.cremonapalacehotel.it/"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "foresteria-lombarda-bed-and-bike-cremona-acquanegra-cremonese",
+      "status": "updated",
+      "email": "info@bedandbikecremona.it",
+      "pages": [
+        "https://www.bedandbikecremona.it/"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "giardini-rooms-acquanegra-cremonese",
+      "status": "updated",
+      "email": "info@giardini-rooms-cremona.it",
+      "pages": [
+        "https://www.giardini-rooms-cremona.it/"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "hotel-cremona-di-lombardelli-carla-acquanegra-cremonese",
+      "status": "not_found",
+      "website": "https://www.hotelsitalic.com/hotel-cremona-viale/"
+    },
+    {
+      "block": "011",
+      "slug": "hotel-parco-acquanegra-cremonese",
+      "status": "not_found",
+      "website": "http://www.hotelparco.it/"
+    },
+    {
+      "block": "011",
+      "slug": "hotel-soresina-acquanegra-cremonese",
+      "status": "not_found",
+      "website": "http://www.hotelsoresina.it/"
+    },
+    {
+      "block": "011",
+      "slug": "hotel-vecchio-casello-acquanegra-cremonese",
+      "status": "not_found",
+      "website": "http://www.hotelilvecchiocasello.it/"
+    },
+    {
+      "block": "011",
+      "slug": "hotel-motel70-acquanegra-cremonese",
+      "status": "updated",
+      "email": "info@motel70.it",
+      "pages": [
+        "http://www.motel70.it/"
+      ]
+    },
+    {
+      "block": "011",
+      "slug": "le-maginot-acquanegra-cremonese",
+      "status": "updated",
+      "email": "info@lemaginot.it",
+      "pages": []
+    },
+    {
+      "block": "011",
+      "slug": "mulino-degli-orti-s-n-c-acquanegra-cremonese",
+      "status": "updated",
+      "email": "celiodiego@gmail.com",
+      "pages": [
+        "http://dormireapiacenza.it/"
+      ]
+    },
+    {
+      "block": "012",
+      "slug": "camere-della-perla-acquanegra-sul-chiese",
+      "status": "not_found",
+      "website": "https://www.booking.com/hotel/it/camere-della-perla.it.html"
+    },
+    {
+      "block": "012",
+      "slug": "corte-manzoglio-acquanegra-sul-chiese",
+      "status": "not_found",
+      "website": "https://corte-manzoglio.viaggiareconstile.top/"
+    },
+    {
+      "block": "012",
+      "slug": "108-b-b-acquapendente",
+      "status": "not_found",
+      "website": "https://108-bb.viaggiareconstile.top/"
+    },
+    {
+      "block": "012",
+      "slug": "agriturismo-podernuovo-acquapendente-acquapendente",
+      "status": "not_found",
+      "website": "https://www.podernuovo.it/"
+    },
+    {
+      "block": "012",
+      "slug": "alloggi-per-uso-turistico-a-m-acquapendente",
+      "status": "not_found",
+      "website": "http://alloggi-per-uso-turistico-am.italia-centro.it/"
+    },
+    {
+      "block": "012",
+      "slug": "alloggio-turistico-san-pietro-acquapendente",
+      "status": "updated",
+      "email": "support@centralstay.eu",
+      "pages": [
+        "https://staycentral.eu/alloggio-turistico-san-pietro-acquapendente/",
+        "https://staycentral.eu/",
+        "https://staycentral.eu/contatti",
+        "https://staycentral.eu/contact",
+        "https://staycentral.eu/contacts",
+        "https://staycentral.eu/it/contatti",
+        "https://staycentral.eu/en/contact",
+        "https://staycentral.eu/contatti.html",
+        "https://staycentral.eu/contact-us"
+      ]
+    },
+    {
+      "block": "012",
+      "slug": "b-b-quasi-toscana-acquapendente",
+      "status": "not_found",
+      "website": "http://www.quasitoscana.com/"
+    },
+    {
+      "block": "012",
+      "slug": "bed-and-breakfast-la-grotta-acquapendente",
+      "status": "updated",
+      "email": "info@bblagrotta.eu",
+      "pages": [
+        "https://www.bblagrotta.eu/"
+      ]
+    },
+    {
+      "block": "012",
+      "slug": "casa-girolamo-acquapendente",
+      "status": "not_found",
+      "website": "https://www.booking.com/hotel/it/casa-girolamo-acquapendente.it.html?aid=318615&label=New_Italian_IT_IT_21439067065-4KmDdPqe%2AivFEb5u%2A8ZI0gS217290189040%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg&sid=d0535d9840a76d1c139a3d78c652b362"
+    },
+    {
+      "block": "012",
+      "slug": "il-teatro-alloggio-turistico-acquapendente",
+      "status": "updated",
+      "email": "info@ilteatrobb.it",
+      "pages": [
+        "https://www.ilteatrobb.it/"
+      ]
+    },
+    {
+      "block": "012",
+      "slug": "l-antico-camino-alloggio-turistico-acquapendente",
+      "status": "not_found",
+      "website": "http://lantico-camino-alloggio.com.es/"
+    },
+    {
+      "block": "012",
+      "slug": "la-cascina-della-grotta-di-tufo-acquapendente",
+      "status": "not_found",
+      "website": "http://la-cascina-della-grotta-di-tufo.org.es/"
+    },
+    {
+      "block": "013",
+      "slug": "a-due-passi-dal-mare-b-b-acquappesa",
+      "status": "not_found",
+      "website": "https://www.hotelscheck-in.com/aduepassidalmarebnb/it/"
+    },
+    {
+      "block": "013",
+      "slug": "albergo-bed-and-breakfast-terme-luigiane-acquappesa",
+      "status": "not_found",
+      "website": "http://www.bbtermeluigiane.it/"
+    },
+    {
+      "block": "013",
+      "slug": "albergo-marina-blu-acquappesa",
+      "status": "not_found",
+      "website": "https://hotelmarinablu.com/"
+    },
+    {
+      "block": "013",
+      "slug": "b-b-antico-casale-acquappesa",
+      "status": "not_found",
+      "website": "https://www.booking.com/hotel/it/b-amp-b-antico-casale-scarcelli.it.html?aid=397646;label=yho748jc-1FCAEoggI46AdIM1gDaHGIAQGYARS4ARjIAQzYAQHoAQH4AQyIAgGoAgS4AumBtPoFwAIB0gIkOGM0MjI4OWYtNWZkZS00ZmY0LWFjMjktY2IzMjg4NzEzNzg52AIG4AIB;sid=8ccc139208333e4bb0dca38c171c01eb;all_sr_blocks=666565502_273551084_1_1_0;checkin=2020-08-31;checkout=2020-09-01;dest_id=-118098;dest_type=city;dist=0;from_beach_non_key_ufi_sr=1;group_adults=1;group_children=0;hapos=1;highlighted_blocks=666565502_273551084_1_1_0;hpos=1;no_rooms=1;req_adults=1;req_children=0;room1=A;sb_price_type=total;show_room=666565502;sr_order=popularity;sr_pri_blocks=666565502_273551084_1_1_0__3922;srepoch=1598882043;srpvid=245d61bd0bca02f6;type=total;ucfs=1&#RD666565502"
+    },
+    {
+      "block": "013",
+      "slug": "b-b-la-terrazza-acquappesa",
+      "status": "not_found",
+      "website": "http://www.laterrazzacetraro.it/"
+    },
+    {
+      "block": "013",
+      "slug": "b-b-verzavo-acquappesa",
+      "status": "not_found",
+      "website": "http://www.verzavo.com/"
+    },
+    {
+      "block": "013",
+      "slug": "hotel-piccolo-mondo-acquappesa",
+      "status": "updated",
+      "email": "hpiccolomondo@libero.it",
+      "pages": [
+        "http://www.ilpiccolomondohotel.it/",
+        "http://www.ilpiccolomondohotel.it/contact"
+      ]
+    },
+    {
+      "block": "013",
+      "slug": "hotel-rodian-acquappesa",
+      "status": "updated",
+      "email": "bbrodian@gmail.com",
+      "pages": [
+        "https://hotelrodian.wixsite.com/hotelrodian"
+      ]
+    },
+    {
+      "block": "013",
+      "slug": "hotel-valeria-del-mar-acquappesa",
+      "status": "updated",
+      "email": "info@hotelvaleriadelmar.it",
+      "pages": [
+        "https://www.hotelvaleriadelmar.it/"
+      ]
+    },
+    {
+      "block": "013",
+      "slug": "meridian-hotel-acquappesa",
+      "status": "not_found",
+      "website": "https://www.hotelscheck-in.com/meridianhotelitaly/it/"
+    },
+    {
+      "block": "013",
+      "slug": "b-b-il-girasole-acquaro",
+      "status": "not_found",
+      "website": "http://vibo-valentia.com.es/"
+    },
+    {
+      "block": "013",
+      "slug": "b-b-villa-maracuja-acquaro",
+      "status": "updated",
+      "email": "villa.maracuja.beb@gmail.com",
+      "pages": [
+        "http://www.villamaracuja.it/"
+      ]
+    },
+    {
+      "block": "013",
+      "slug": "b-b-villa-mery-acquaro",
+      "status": "updated",
+      "email": "info@villamery.it",
+      "pages": [
+        "https://www.bbvillamery.it/"
+      ]
+    },
+    {
+      "block": "013",
+      "slug": "bed-and-breakfast-home-pacifico-acquaro",
+      "status": "not_found",
+      "website": "https://homepacificobb.webnode.it/"
+    },
+    {
+      "block": "013",
+      "slug": "bed-and-breakfast-amarcord-acquaro",
+      "status": "not_found",
+      "website": "http://bed-and-breakfast-amarcord.org.es/"
+    },
+    {
+      "block": "013",
+      "slug": "donna-melina-b-b-acquaro",
+      "status": "not_found",
+      "website": "https://donna-melina.bellaitaliatrips.top/"
+    },
+    {
+      "block": "014",
+      "slug": "hotel-conte-ruggero-acquaro",
+      "status": "updated",
+      "email": "info@hotelbandbconteruggero.com",
+      "pages": [
+        "http://www.hotelbandbconteruggero.com/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "hotel-ristorante-degli-amici-acquaro",
+      "status": "updated",
+      "email": "ristorantedegliamici@tiscali.it",
+      "pages": [
+        "https://www.hotelristorantedegliamici.com/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "il-vicoletto-acquaro",
+      "status": "updated",
+      "email": "info@ilvicolettoserrasanbruno.it",
+      "pages": [
+        "http://www.ilvicolettoserrasanbruno.it/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "masseria-caporelli-b-b-azienda-agricola-acquaro",
+      "status": "updated",
+      "email": "info@masseriacaporelli.it",
+      "pages": [
+        "http://www.masseriacaporelli.it/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "passo-del-falco-s-r-l-acquaro",
+      "status": "not_found",
+      "website": "http://bedandbreakfastpassodelfalco.it/dove_siamo.html"
+    },
+    {
+      "block": "014",
+      "slug": "sonia-e-alessia-acquaro",
+      "status": "not_found",
+      "website": "https://francescastraveltips.com/sonia-e-alessia-italy"
+    },
+    {
+      "block": "014",
+      "slug": "tenuta-del-barone-acquaro",
+      "status": "updated",
+      "email": "info@tenutadelbaronemarzano.it",
+      "pages": [
+        "https://www.tenutadelbaronemarzano.it/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "agriturismo-il-roccolo-acquasanta-terme",
+      "status": "not_found",
+      "website": "http://www.ilroccolo.com/"
+    },
+    {
+      "block": "014",
+      "slug": "agriturismo-la-cittadella-dei-sibillini-acquasanta-terme",
+      "status": "updated",
+      "email": "informa@cittadelladeisibillini.it",
+      "pages": [
+        "http://www.cittadelladeisibillini.it/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "b-b-antico-borgo-piceno-acquasanta-terme",
+      "status": "updated",
+      "email": "info@anticoborgopiceno.it",
+      "pages": [
+        "https://www.anticoborgopiceno.it/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "b-b-il-giardino-segreto-acquasanta-terme",
+      "status": "not_found",
+      "website": "http://www.ilgiardinosegreto.eu/"
+    },
+    {
+      "block": "014",
+      "slug": "b-b-la-piazzetta-acquasanta-terme",
+      "status": "not_found",
+      "website": "http://lapiazzettabb.weebly.com/"
+    },
+    {
+      "block": "014",
+      "slug": "b-b-mosca-bianca-acquasanta-terme",
+      "status": "updated",
+      "email": "info@bebmoscabianca.it",
+      "pages": [
+        "http://www.bebmoscabianca.it/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "di-sabatino-resort-acquasanta-terme",
+      "status": "updated",
+      "email": "comunicazioni@disabatino.it",
+      "pages": [
+        "https://www.disabatino.it/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "dimora-storica-castel-di-luco-acquasanta-terme",
+      "status": "updated",
+      "email": "info@casteldiluco.com",
+      "pages": [
+        "https://www.casteldiluco.it/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "fattoria-la-cona-acquasanta-terme",
+      "status": "updated",
+      "email": "info@fattorialacona.it",
+      "pages": [
+        "http://www.fattorialacona.it/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "hotel-ristorante-tre-lanterne-spa-acquasanta-terme",
+      "status": "not_found",
+      "website": "https://tre-lanterne.italiabella.top/"
+    },
+    {
+      "block": "014",
+      "slug": "hotel-b-b-cantina-dell-arte-ascoli-piceno-acquasanta-terme",
+      "status": "updated",
+      "email": "info@hotelcantinadellarte.it",
+      "pages": [
+        "https://www.hotelcantinadellarte.it/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "hotel-palazzo-guiderocchi-acquasanta-terme",
+      "status": "updated",
+      "email": "info@hotelguiderocchi.it",
+      "pages": [
+        "http://www.hotelguiderocchi.it/contatti"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "hotel-ristorante-monastero-valledacqua-di-acquas-acquasanta-terme",
+      "status": "updated",
+      "email": "info@hotelmonasterovalledacqua.it",
+      "pages": [
+        "https://www.hotel-monastero-valledacqua.it/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "la-fattoria-dei-sibillini-acquasanta-terme",
+      "status": "not_found",
+      "website": "https://www.fattoriadeisibillini.com/"
+    },
+    {
+      "block": "014",
+      "slug": "palazzo-dei-mercanti-dimora-storica-acquasanta-terme",
+      "status": "updated",
+      "email": "info@palazzodeimercanti.it",
+      "pages": [
+        "http://www.palazzodeimercanti.it/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "residenza-dei-capitani-acquasanta-terme",
+      "status": "not_found",
+      "website": "http://www.residenzadeicapitani.it/"
+    },
+    {
+      "block": "014",
+      "slug": "villa-giovannozzi-acquasanta-terme",
+      "status": "updated",
+      "email": "support@centralstay.eu",
+      "pages": [
+        "https://tripstay.eu/villa-giovannozzi-ascoli-piceno/",
+        "https://tripstay.eu/",
+        "https://tripstay.eu/contatti",
+        "https://tripstay.eu/contact",
+        "https://tripstay.eu/contacts",
+        "https://tripstay.eu/it/contatti",
+        "https://tripstay.eu/en/contact",
+        "https://tripstay.eu/contatti.html",
+        "https://tripstay.eu/contact-us"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "agriturismo-canonici-acquasparta",
+      "status": "not_found",
+      "website": "https://agriturismo-canonici.com.es/"
+    },
+    {
+      "block": "014",
+      "slug": "agriturismo-la-casa-di-gelsomino-acquasparta",
+      "status": "updated",
+      "email": "rhr@dormireinumbria.com",
+      "pages": [
+        "https://www.dormireinumbria.com/la-casa-di-gelsomino/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "agriturismo-piano-grande-acquasparta",
+      "status": "updated",
+      "email": "agriturismopianogrande@virgilio.it",
+      "pages": [
+        "http://agriturismopianogrande.com/",
+        "http://agriturismopianogrande.com/contatti",
+        "http://agriturismopianogrande.com/it/contatti"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "antico-portale-bed-breakfast-e-guest-house-acquasparta",
+      "status": "updated",
+      "email": "info@anticoportale.com",
+      "pages": []
+    },
+    {
+      "block": "014",
+      "slug": "b-b-il-pizzagiallo-acquasparta",
+      "status": "updated",
+      "email": "info@ilpizzagiallo.it",
+      "pages": [
+        "http://www.ilpizzagiallo.it/",
+        "http://www.ilpizzagiallo.it/contatti"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "bar-albergo-martini-acquasparta",
+      "status": "not_found",
+      "website": "http://www.amamartini.it/"
+    },
+    {
+      "block": "014",
+      "slug": "bed-breakfast-le-cerque-acquasparta",
+      "status": "updated",
+      "email": "info@lecerque.it",
+      "pages": [
+        "http://www.lecerque.it/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "borgo-delle-mole-acquasparta",
+      "status": "updated",
+      "email": "info@borgodellemole.com",
+      "pages": [
+        "http://www.borgodellemole.com/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "casale-del-monsignore-acquasparta",
+      "status": "updated",
+      "email": "info@casaledelmonsignore.it",
+      "pages": [
+        "http://www.casaledelmonsignore.it/"
+      ]
+    },
+    {
+      "block": "014",
+      "slug": "hotel-due-stelle-acquasparta",
+      "status": "updated",
+      "email": "info@hotelduestelle.com",
+      "pages": [
+        "http://www.hotelduestelle.com/"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "il-pianaccio-acquasparta",
+      "status": "updated",
+      "email": "info@ilpianaccio.com",
+      "pages": [
+        "http://www.ilpianaccio.com/"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "la-casetta-di-lilly-acquasparta",
+      "status": "not_found",
+      "website": "http://la-casetta-di-lilly.com.es/2024"
+    },
+    {
+      "block": "015",
+      "slug": "la-fortezza-alta-acquasparta",
+      "status": "updated",
+      "email": "info@lafortezzaalta.it",
+      "pages": []
+    },
+    {
+      "block": "015",
+      "slug": "la-maison-bed-breakfast-acquasparta",
+      "status": "not_found",
+      "website": "http://la-maison.com.es/"
+    },
+    {
+      "block": "015",
+      "slug": "la-perticara-agriturismo-acquasparta",
+      "status": "updated",
+      "email": "info@laperticara.com",
+      "pages": [
+        "http://www.laperticara.com/"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "tamerici-house-acquasparta",
+      "status": "updated",
+      "email": "tamericihouse@gmail.com",
+      "pages": [
+        "http://www.tamericihouse.it/"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "torre-sangiovanni-albergo-ristorante-acquasparta",
+      "status": "updated",
+      "email": "info@torre-sangiovanni.it",
+      "pages": [
+        "http://www.torre-sangiovanni.it/"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "agriturismo-colle-bianco-acquaviva-collecroce",
+      "status": "updated",
+      "email": "info@agriturismocollebianco.it",
+      "pages": [
+        "http://www.agriturismocollebianco.it/"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "agriturismo-la-quiete-acquaviva-collecroce",
+      "status": "updated",
+      "email": "ndibello60@gmail.com",
+      "pages": [
+        "http://www.agriturismolaquiete.eu/"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "al-settimo-cielo-acquaviva-collecroce",
+      "status": "updated",
+      "email": "info.alsettimocielo@gmail.com",
+      "pages": [
+        "http://www.alsettimocielo.com/"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "albergo-diffuso-borgo-delle-fonti-acquaviva-collecroce",
+      "status": "updated",
+      "email": "info@molisewow.com",
+      "pages": [
+        "https://www.molisewow.com/borgodellefonti"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "b-b-i-relais-acquaviva-collecroce",
+      "status": "updated",
+      "email": "contact@globostay.com",
+      "pages": [
+        "https://staylio.eu/i-relais-bb-montefalcone-del-sannio",
+        "https://staylio.eu/",
+        "https://staylio.eu/contatti",
+        "https://staylio.eu/contact",
+        "https://staylio.eu/contacts",
+        "https://staylio.eu/it/contatti",
+        "https://staylio.eu/en/contact",
+        "https://staylio.eu/contatti.html",
+        "https://staylio.eu/contact-us"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "b-b-lume-acquaviva-collecroce",
+      "status": "updated",
+      "email": "info@trattorialaforacella.it",
+      "pages": [
+        "https://www.trattorialafornacella.it/index.html"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "b-b-pozzo-innamorato-acquaviva-collecroce",
+      "status": "not_found",
+      "website": "https://pozzoinnamorato.online/"
+    },
+    {
+      "block": "015",
+      "slug": "colle-degli-ulivi-acquaviva-collecroce",
+      "status": "not_found",
+      "website": "http://agricolledegliulivi.com/"
+    },
+    {
+      "block": "015",
+      "slug": "corte-reale-luxury-b-b-acquaviva-collecroce",
+      "status": "updated",
+      "email": "info@cortereale.com",
+      "pages": [
+        "https://www.cortereale.com/"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "country-house-mafalda-acquaviva-collecroce",
+      "status": "updated",
+      "email": "support@centralstay.eu",
+      "pages": [
+        "https://completedstay.com/country-house-mafalda/",
+        "https://completedstay.com/",
+        "https://completedstay.com/contatti",
+        "https://completedstay.com/contact",
+        "https://completedstay.com/contacts",
+        "https://completedstay.com/it/contatti",
+        "https://completedstay.com/en/contact",
+        "https://completedstay.com/contatti.html",
+        "https://completedstay.com/contact-us"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "hotel-di-nardo-acquaviva-collecroce",
+      "status": "updated",
+      "email": "info@hoteldinardo.com",
+      "pages": [
+        "http://www.hoteldinardo.com/"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "il-gallo-con-gli-stivali-acquaviva-collecroce",
+      "status": "updated",
+      "email": "ilgalloconglistivali@gmail.com",
+      "pages": [
+        "http://www.ilgalloconglistivali.it/"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "masseria-grande-hotel-ristorante-acquaviva-collecroce",
+      "status": "updated",
+      "email": "masseriagrandehotel@gmail.com",
+      "pages": [
+        "https://www.masseria-grande.it/"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "paraiso-acquaviva-collecroce",
+      "status": "not_found",
+      "website": "https://timothylovestotravel.com/paraiso-mafalda-italy"
+    },
+    {
+      "block": "015",
+      "slug": "parco-delle-stelle-acquaviva-collecroce",
+      "status": "updated",
+      "email": "ristorante@parcodellestelle.net",
+      "pages": [
+        "http://www.parcodellestelle.net/"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "park-hotel-campitelli-acquaviva-collecroce",
+      "status": "not_found",
+      "website": "https://www.parkhotelcampitelli.it/"
+    },
+    {
+      "block": "015",
+      "slug": "residenza-b-b-vistamare-acquaviva-collecroce",
+      "status": "updated",
+      "email": "info@bb-vistamare.it",
+      "pages": [
+        "http://bb-vistamare.it/"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "residenza-skanderbeg-acquaviva-collecroce",
+      "status": "not_found",
+      "website": "https://residenza-skanderbeg.touritaliani.top/"
+    },
+    {
+      "block": "015",
+      "slug": "solelago-acquaviva-collecroce",
+      "status": "not_found",
+      "website": "https://www.solelago.eu/"
+    },
+    {
+      "block": "015",
+      "slug": "villa-bianca-hotel-spa-acquaviva-collecroce",
+      "status": "updated",
+      "email": "info@villabiancahotelspa.it",
+      "pages": [
+        "https://www.villabiancahotelspa.it/"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "alisma-hotel-acquaviva-d-isernia",
+      "status": "updated",
+      "email": "info@alismahotel.it",
+      "pages": [
+        "http://www.alismahotel.it/"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "b-b-domus-vela-acquaviva-d-isernia",
+      "status": "not_found",
+      "website": "http://domusvela.it/"
+    },
+    {
+      "block": "015",
+      "slug": "b-b-giallo-siena-acquaviva-d-isernia",
+      "status": "updated",
+      "email": "support@localsmalltour.com",
+      "pages": [
+        "https://localsmalltour.com/b-b-giallo-siena-rocchetta-a-volturno/",
+        "https://localsmalltour.com/",
+        "https://localsmalltour.com/contatti",
+        "https://localsmalltour.com/contact",
+        "https://localsmalltour.com/contacts",
+        "https://localsmalltour.com/it/contatti",
+        "https://localsmalltour.com/en/contact",
+        "https://localsmalltour.com/contatti.html",
+        "https://localsmalltour.com/contact-us"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "b-b-gocciaverde-acquaviva-d-isernia",
+      "status": "updated",
+      "email": "info@bnbgocciaverde.one",
+      "pages": [
+        "http://www.bnbgocciaverde.it/",
+        "http://www.bnbgocciaverde.it/contact",
+        "http://www.bnbgocciaverde.it/en/contact"
+      ]
+    },
+    {
+      "block": "015",
+      "slug": "b-b-il-borgo-acquaviva-d-isernia",
+      "status": "not_found",
+      "website": "http://www.bebilborgo.com/"
+    },
+    {
+      "block": "016",
+      "slug": "b-b-il-lavatoio-dimora-storica-acquaviva-d-isernia",
+      "status": "updated",
+      "email": "info@lavatoio.com",
+      "pages": [
+        "http://www.lavatoio.com/"
+      ]
+    },
+    {
+      "block": "016",
+      "slug": "b-b-la-torre-dell-orologio-acquaviva-d-isernia",
+      "status": "updated",
+      "email": "contact@globostay.com",
+      "pages": [
+        "https://roomstay.eu/bnb-la-torre-dell-orologio-roccasicura",
+        "https://roomstay.eu/",
+        "https://roomstay.eu/contatti",
+        "https://roomstay.eu/contact",
+        "https://roomstay.eu/contacts",
+        "https://roomstay.eu/it/contatti",
+        "https://roomstay.eu/en/contact",
+        "https://roomstay.eu/contatti.html",
+        "https://roomstay.eu/contact-us"
+      ]
+    },
+    {
+      "block": "016",
+      "slug": "b-b-noce-spagnola-acquaviva-d-isernia",
+      "status": "not_found",
+      "website": "http://www.nocespagnola.com/"
+    },
+    {
+      "block": "016",
+      "slug": "bactaria-bed-and-breakfast-acquaviva-d-isernia",
+      "status": "updated",
+      "email": "mariavisco@tiscali.it",
+      "pages": [
+        "https://bactariabb.wordpress.com/",
+        "https://bactariabb.wordpress.com/contatti"
+      ]
+    },
+    {
+      "block": "016",
+      "slug": "borgo-donna-teresa-acquaviva-d-isernia",
+      "status": "updated",
+      "email": "info@borgodonnateresa.it",
+      "pages": [
+        "https://www.borgodonnateresa.it/"
+      ]
+    },
+    {
+      "block": "016",
+      "slug": "borgo-la-forgia-acquaviva-d-isernia",
+      "status": "updated",
+      "email": "info@borgolaforgia.it",
+      "pages": [
+        "http://www.borgolaforgia.it/"
+      ]
+    },
+    {
+      "block": "016",
+      "slug": "masseria-monte-pizzi-acquaviva-d-isernia",
+      "status": "updated",
+      "email": "info@masseriamontepizzi.it",
+      "pages": [
+        "http://www.masseriamontepizzi.it/"
+      ]
+    },
+    {
+      "block": "016",
+      "slug": "palazzo-de-farrocco-acquaviva-d-isernia",
+      "status": "updated",
+      "email": "palazzodefarrocco@gmail.com",
+      "pages": [
+        "http://www.palazzodefarrocco.com/"
+      ]
+    },
+    {
+      "block": "016",
+      "slug": "sport-village-hotel-spa-acquaviva-d-isernia",
+      "status": "updated",
+      "email": "info@sportvillagehotel.it",
+      "pages": []
+    },
+    {
+      "block": "016",
+      "slug": "albertario-b-b-e-affittacamere-acquaviva-delle-fonti",
+      "status": "updated",
+      "email": "booking@albertariobb.it",
+      "pages": [
+        "http://www.albertariobb.it/"
+      ]
+    },
+    {
+      "block": "016",
+      "slug": "b-b-bellini-appartamento-acquaviva-delle-fonti",
+      "status": "updated",
+      "email": "support@centralstay.eu",
+      "pages": [
+        "https://smarthotelstay.com/b-n-b-bellini-appartamento-acquaviva-delle-fonti/",
+        "https://smarthotelstay.com/",
+        "https://smarthotelstay.com/contatti",
+        "https://smarthotelstay.com/contact",
+        "https://smarthotelstay.com/contacts",
+        "https://smarthotelstay.com/it/contatti",
+        "https://smarthotelstay.com/en/contact",
+        "https://smarthotelstay.com/contatti.html",
+        "https://smarthotelstay.com/contact-us"
+      ]
+    },
+    {
+      "block": "016",
+      "slug": "b-b-dell-orologio-acquaviva-delle-fonti",
+      "status": "not_found",
+      "website": "https://timothylovestotravel.com/b-amp-b-dell-orologio-italy"
+    },
+    {
+      "block": "016",
+      "slug": "b-b-piazza-kolbe-acquaviva-delle-fonti",
+      "status": "updated",
+      "email": "bebpiazzakolbe@gmail.com",
+      "pages": [
+        "https://www.bebpiazzakolbe.it/"
+      ]
+    },
+    {
+      "block": "016",
+      "slug": "b-b-terraeccellente-italia-acquaviva-delle-fonti",
+      "status": "updated",
+      "email": "terraeccellentebnb@gmail.com",
+      "pages": [
+        "http://terraeccellenteitaliabnb.it/"
+      ]
+    },
+    {
+      "block": "016",
+      "slug": "garibaldi-house-b-b-luxury-acquaviva-delle-fonti",
+      "status": "not_found",
+      "website": "https://www.allogi-puglia.it/aribaldi-house-bb-luxury/"
+    },
+    {
+      "block": "016",
+      "slug": "hydria-guest-house-art-gallery-acquaviva-delle-fonti",
+      "status": "not_found",
+      "website": "https://www.booking.com/Share-4CjF0e"
+    },
+    {
+      "block": "016",
+      "slug": "il-rifugio-di-vaaz-acquaviva-delle-fonti",
+      "status": "not_found",
+      "website": "http://ilrifugiodivaaz.it/"
+    },
+    {
+      "block": "016",
+      "slug": "italians-b-b-luxury-suite-acquaviva-delle-fonti",
+      "status": "not_found",
+      "website": "https://timothylovestotravel.com/italians-b-amp-b-luxury-suite-italy"
+    },
+    {
+      "block": "016",
+      "slug": "nel-vicoletto-acquaviva-delle-fonti",
+      "status": "not_found",
+      "website": "https://nelvicolettobb.it/"
+    },
+    {
+      "block": "016",
+      "slug": "palace-b-b-acquaviva-delle-fonti",
+      "status": "not_found",
+      "website": "https://palace-bb.alberghiinitalia.top/"
+    },
+    {
+      "block": "016",
+      "slug": "tenuta-gentile-resort-spa-acquaviva-delle-fonti",
+      "status": "updated",
+      "email": "ricevimento@rossohotel.com",
+      "pages": [
+        "https://tenutagentile.com/"
+      ]
+    },
+    {
+      "block": "016",
+      "slug": "affittacamere-villa-santa-lucia-acquaviva-picena",
+      "status": "updated",
+      "email": "bbsantaluciasbt@gmail.com",
+      "pages": [
+        "https://beb.it/santaluciasbt"
+      ]
+    },
+    {
+      "block": "016",
+      "slug": "agriturismo-aqua-viva-acquaviva-picena",
+      "status": "updated",
+      "email": "info@agriturismoaquaviva.net",
+      "pages": [
+        "http://www.agriturismoaquaviva.net/"
+      ]
+    },
+    {
+      "block": "016",
+      "slug": "b-b-il-giardino-mediterraneo-acquaviva-picena",
+      "status": "updated",
+      "email": "info@bbilgiardinomediterraneo.com",
+      "pages": [
+        "https://www.bbilgiardinomediterraneo.com/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "b-b-la-fontanella-acquaviva-picena",
+      "status": "updated",
+      "email": "prenotazioni@hosthero.it",
+      "pages": [
+        "https://www.bblafontanella.it/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "b-b-verdemare-acquaviva-picena",
+      "status": "updated",
+      "email": "antonella.verdemare@gmail.com",
+      "pages": [
+        "https://www.bb-verdemare.com/",
+        "https://www.bb-verdemare.com/contatti"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "bed-breakfast-geco-acquaviva-picena",
+      "status": "updated",
+      "email": "info@bebgeco.com",
+      "pages": [
+        "https://www.bebgeco.com/",
+        "https://www.bebgeco.com/contatti",
+        "https://www.bebgeco.com/it/contatti"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "colle-serrano-relais-resort-acquaviva-picena",
+      "status": "updated",
+      "email": "booking@colleserrano.com",
+      "pages": [
+        "https://colleserrano.com/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "country-hotel-resort-i-calanchi-acquaviva-picena",
+      "status": "not_found",
+      "website": "https://www.i-calanchi.com/"
+    },
+    {
+      "block": "017",
+      "slug": "country-house-una-acquaviva-picena",
+      "status": "updated",
+      "email": "countryhouseuna@outlook.it",
+      "pages": [
+        "http://www.countryhouseuna.com/",
+        "http://www.countryhouseuna.com/contatti"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "hotel-la-palazzina-acquaviva-picena",
+      "status": "updated",
+      "email": "info@palazzinahotel.it",
+      "pages": [
+        "https://www.palazzinahotel.it/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "hotel-oviv-la-dimora-del-borgo-acquaviva-picena",
+      "status": "updated",
+      "email": "ovivhotel@gmail.com",
+      "pages": [
+        "https://www.hoteloviv.it/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "hotel-san-giacomo-acquaviva-picena",
+      "status": "updated",
+      "email": "info@hotel-sangiacomo.it",
+      "pages": [
+        "http://www.hotel-sangiacomo.it/",
+        "http://www.hotel-sangiacomo.it/contatti"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "la-panoramica-country-house-acquaviva-picena",
+      "status": "updated",
+      "email": "info@la-panoramica.it",
+      "pages": [
+        "http://www.la-panoramica.it/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "pensione-vagnozzi-nazario-acquaviva-picena",
+      "status": "updated",
+      "email": "pensionevagnozzi@gmail.com",
+      "pages": [
+        "http://www.pensionevagnozzi.com/",
+        "http://www.pensionevagnozzi.com/it/contatti"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "relais-concorde-acquaviva-picena",
+      "status": "updated",
+      "email": "info@relaisconcorde.it",
+      "pages": [
+        "https://www.relaisconcorde.it/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "residence-borgo-da-mare-acquaviva-picena",
+      "status": "updated",
+      "email": "info@borgodamare.it",
+      "pages": [
+        "http://www.borgodamare.it/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "residence-club-hotel-le-terrazze-acquaviva-picena",
+      "status": "updated",
+      "email": "booking@italyhotels.it",
+      "pages": [
+        "http://www.residencehotelleterrazze.it"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "tenute-il-crinale-agriturismo-e-ristorante-acquaviva-picena",
+      "status": "updated",
+      "email": "info@ilcrinale.it",
+      "pages": [
+        "http://www.ilcrinale.it/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "villa-angela-acquaviva-picena",
+      "status": "not_found",
+      "website": "https://villaangela.tripcombined.com/"
+    },
+    {
+      "block": "017",
+      "slug": "agriturismo-casalicchio-acquaviva-platani",
+      "status": "updated",
+      "email": "info@agriturismocasalicchio.it",
+      "pages": [
+        "https://www.agriturismocasalicchio.it/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "agriturismo-monticelli-acquaviva-platani",
+      "status": "updated",
+      "email": "agriturismomonticelli@gmail.com",
+      "pages": [
+        "http://www.agriturismomonticelli.it/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "archi-di-san-giacomo-acquaviva-platani",
+      "status": "not_found",
+      "website": "https://www.facebook.com/Gli-Archi-di-San-Giacomo-105797285495255"
+    },
+    {
+      "block": "017",
+      "slug": "b-b-acquaviva-acquaviva-platani",
+      "status": "not_found",
+      "website": "https://timothylovestotravel.com/room-amp-breakfast-acquaviva-italy"
+    },
+    {
+      "block": "017",
+      "slug": "b-b-la-terrazza-degli-scrittori-acquaviva-platani",
+      "status": "updated",
+      "email": "laterrazzadegliscrittori@gmail.com",
+      "pages": [
+        "https://laterrazzadegliscrittori.it/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "b-b-troisi-acquaviva-platani",
+      "status": "not_found",
+      "website": "http://bebtroisi.com/"
+    },
+    {
+      "block": "017",
+      "slug": "bed-and-breakfast-agrumi-in-terrazza-acquaviva-platani",
+      "status": "not_found",
+      "website": "http://agrumi-in-terrazza.com.es//"
+    },
+    {
+      "block": "017",
+      "slug": "bed-and-breakfast-arcobaleno-acquaviva-platani",
+      "status": "not_found",
+      "website": "https://bbarcobaleno.altervista.org/bb-arcobaleno/"
+    },
+    {
+      "block": "017",
+      "slug": "bio-resort-fontes-episcopi-acquaviva-platani",
+      "status": "updated",
+      "email": "info@fontesepiscopi.it",
+      "pages": [
+        "http://www.fontesepiscopi.it/",
+        "http://www.fontesepiscopi.it/contatti"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "casa-paradiso-ospitalita-diffusa-acquaviva-platani",
+      "status": "not_found",
+      "website": "http://casaparadiso.cloud/"
+    },
+    {
+      "block": "017",
+      "slug": "casale-margherita-acquaviva-platani",
+      "status": "updated",
+      "email": "info@casalemargherita.eu",
+      "pages": [
+        "https://www.casalemargherita.eu/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "halykos-s-r-l-acquaviva-platani",
+      "status": "updated",
+      "email": "halykoshotel@gmail.com",
+      "pages": [
+        "http://www.hotelhalykos.com/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "manfredomus-acquaviva-platani",
+      "status": "updated",
+      "email": "info@manfredomus.it",
+      "pages": [
+        "http://www.manfredomus.it/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "musmelia-rooms-acquaviva-platani",
+      "status": "updated",
+      "email": "info@bbmusmelia.it",
+      "pages": [
+        "http://www.bbmusmelia.it/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "regalpetra-hotel-acquaviva-platani",
+      "status": "updated",
+      "email": "info@regalpetrahotel.it",
+      "pages": [
+        "https://www.regalpetrahotel.it/",
+        "https://www.regalpetrahotel.it/contatti"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "sorge-palace-room-and-breakfast-acquaviva-platani",
+      "status": "updated",
+      "email": "info@sorgepalace.it",
+      "pages": [
+        "http://www.sorgepalace.it/"
+      ]
+    },
+    {
+      "block": "017",
+      "slug": "susafa-a-member-of-small-luxury-hotels-of-the-wo-acquaviva-platani",
+      "status": "updated",
+      "email": "info@susafa.com",
+      "pages": [
+        "https://www.susafa.com/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "summary": {
+    "range": "666-700",
+    "dryRun": false,
+    "total": 35,
+    "alreadyHadEmail": 16,
+    "noWebsite": 4,
+    "aggregatorSkipped": 6,
+    "scrapedFound": 1,
+    "dbUpdated": 1,
+    "notFound": 8,
+    "errors": 0
+  },
+  "details": [
+    {
+      "structureNumber": 667,
+      "slug": "azienda-agricola-bio-e-agriturismo-brusignone-agrate-brianza",
+      "status": "not_found",
+      "website": "https://agricolabrusignone.com/"
+    },
+    {
+      "structureNumber": 668,
+      "slug": "b-b-irene-affittacamere-agrate-brianza",
+      "status": "no_website"
+    },
+    {
+      "structureNumber": 669,
+      "slug": "beat-house-apartments-agrate-brianza",
+      "status": "aggregator_skipped",
+      "website": "https://airbnb.com/h/beathouse"
+    },
+    {
+      "structureNumber": 670,
+      "slug": "bervius-agrate-brianza",
+      "status": "not_found",
+      "website": "https://www.bervius.com/"
+    },
+    {
+      "structureNumber": 678,
+      "slug": "casa-violetta-b-b-agrate-conturbia",
+      "status": "not_found",
+      "website": "http://www.casavioletta.it/"
+    },
+    {
+      "structureNumber": 680,
+      "slug": "emotional-grand-motel-agrate-conturbia",
+      "status": "not_found",
+      "website": "https://www.emotionalgrandmotel.it/"
+    },
+    {
+      "structureNumber": 681,
+      "slug": "golf-hotel-castelconturbia-agrate-conturbia",
+      "status": "not_found",
+      "website": "https://www.golfhotelcastelconturbia.it/"
+    },
+    {
+      "structureNumber": 683,
+      "slug": "hotel-italia-dormelletto-agrate-conturbia",
+      "status": "aggregator_skipped",
+      "website": "http://hotel-residence-italy.org.es/"
+    },
+    {
+      "structureNumber": 685,
+      "slug": "hotel-ramoverde-agrate-conturbia",
+      "status": "not_found",
+      "website": "https://www.hotelramoverde.it/"
+    },
+    {
+      "structureNumber": 686,
+      "slug": "hotel-residence-isotta-agrate-conturbia",
+      "status": "aggregator_skipped",
+      "website": "http://hotel-residence-isotta.org.es/"
+    },
+    {
+      "structureNumber": 689,
+      "slug": "les-arcs-agrate-conturbia",
+      "status": "not_found",
+      "website": "https://www.lesarcscountryhouse.com/"
+    },
+    {
+      "structureNumber": 691,
+      "slug": "ritratto-sul-lago-bed-breakfast-agrate-conturbia",
+      "status": "updated",
+      "email": "magdaoliver197@gmail.com",
+      "website": "https://www.ritrattosullago.com/",
+      "pages": [
+        "https://www.ritrattosullago.com/contatti.html"
+      ]
+    },
+    {
+      "structureNumber": 693,
+      "slug": "agrigento-bed-agrigento",
+      "status": "aggregator_skipped",
+      "website": "http://www.gctravel.it/agrigentobed"
+    },
+    {
+      "structureNumber": 694,
+      "slug": "alcova-camere-agrigento",
+      "status": "no_website"
+    },
+    {
+      "structureNumber": 696,
+      "slug": "b-b-agrigento-gioeniventidue-agrigento",
+      "status": "not_found",
+      "website": "http://www.gioeniventidue.it/"
+    },
+    {
+      "structureNumber": 697,
+      "slug": "b-b-al-dammuso-agrigento",
+      "status": "aggregator_skipped",
+      "website": "http://al-dammuso.com.es/"
+    },
+    {
+      "structureNumber": 698,
+      "slug": "b-b-dimora-di-girgenti-agrigento",
+      "status": "aggregator_skipped",
+      "website": "https://directy.eu/bnb-dimora-di-grigenti-agrigento"
+    },
+    {
+      "structureNumber": 699,
+      "slug": "b-b-il-conte-agrigento",
+      "status": "no_website"
+    },
+    {
+      "structureNumber": 700,
+      "slug": "b-b-la-casa-di-nonna-agrigento",
+      "status": "no_website"
+    }
+  ]
+}
