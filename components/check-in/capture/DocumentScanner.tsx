@@ -4,10 +4,12 @@ import { useCamera } from '@/lib/check-in/useCamera';
 import {
   destroyCanvas,
   extractMrzFromFile,
+  extractMrzFromFiles,
   extractMrzFromFullFrame,
   getLastOcrDebug,
   playCaptureSound,
   warmupOcr,
+  type MrzScanHint,
 } from '@/lib/check-in/mrz/ocrWorker';
 import i18n from '@/lib/check-in/i18n';
 import { toast } from '@/lib/check-in/useToast';
@@ -42,7 +44,13 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
   const [phase, setPhase] = useState<ScanPhase>('preview');
   const [debugText, setDebugText] = useState('');
   const [orientation, setOrientation] = useState<ScanOrientation>('portrait');
+  const [scanHint, setScanHint] = useState<MrzScanHint>({ expectItalian: true });
   const [showGuide, setShowGuide] = useState(false);
+
+  const activeHint = useCallback((): MrzScanHint => ({
+    ...scanHint,
+    orientation,
+  }), [orientation, scanHint]);
 
   /** Avvia (una sola volta) il motore OCR. Non va atteso prima di aprire il
    *  selettore file: l'attesa consuma il gesto utente e il browser blocca il picker. */
@@ -88,6 +96,7 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
       if (strip) {
         const stripResult = await extractMrzFromFullFrame(strip, orientation, {
           allowLegacyFallback: false,
+          hint: activeHint(),
         });
         destroyCanvas(strip);
         if (stripResult) {
@@ -100,7 +109,7 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
 
       const full = captureFullFrame(container);
       if (full) {
-        const result = await extractMrzFromFullFrame(full, orientation);
+        const result = await extractMrzFromFullFrame(full, orientation, { hint: activeHint() });
         destroyCanvas(full);
         if (result) {
           setPhase('success');
@@ -122,13 +131,13 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
     } finally {
       processingRef.current = false;
     }
-  }, [captureFullFrame, captureOverlay, ensureOcr, onResult, orientation, t]);
+  }, [activeHint, captureFullFrame, captureOverlay, ensureOcr, onResult, orientation, t]);
 
   const handlePhotoUpload = useCallback(
     async (e: React.ChangeEvent<HTMLInputElement>) => {
-      const file = e.target.files?.[0];
+      const fileList = e.target.files;
       e.target.value = '';
-      if (!file || processingRef.current) return;
+      if (!fileList?.length || processingRef.current) return;
 
       processingRef.current = true;
       setPhase('processing');
@@ -140,7 +149,13 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
           return;
         }
 
-        const result = await extractMrzFromFile(file);
+        const files = [...fileList];
+        const hint = activeHint();
+        const result =
+          files.length > 1
+            ? await extractMrzFromFiles(files, hint)
+            : await extractMrzFromFile(files[0]!, hint);
+
         if (result) {
           setPhase('success');
           playCaptureSound();
@@ -158,10 +173,28 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
         processingRef.current = false;
       }
     },
-    [ensureOcr, onResult, t],
+    [activeHint, ensureOcr, onResult, t],
   );
 
   const handleCameraClick = useCallback(() => {
+    setPhase('preview');
+    setDebugText('');
+    setScreen('camera');
+    void ensureOcr();
+  }, [ensureOcr]);
+
+  const handleCieMode = useCallback(() => {
+    setScanHint({ expectItalian: true });
+    setOrientation('portrait');
+    setPhase('preview');
+    setDebugText('');
+    setScreen('camera');
+    void ensureOcr();
+  }, [ensureOcr]);
+
+  const handlePassportMode = useCallback(() => {
+    setScanHint({ formatHint: 'TD3', expectItalian: false });
+    setOrientation('landscape');
     setPhase('preview');
     setDebugText('');
     setScreen('camera');
@@ -179,6 +212,7 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
       id={FILE_INPUT_ID}
       type="file"
       accept="image/*"
+      multiple
       className={styles.hiddenInput}
       disabled={phase === 'processing'}
       onChange={(e) => void handlePhotoUpload(e)}
@@ -208,6 +242,7 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
           <p className={styles.chooserHint}>
             {phase === 'processing' ? t('capture.processing') : t('capture.chooserHint')}
           </p>
+          <p className={styles.chooserSubHint}>{t('capture.multiPhotoHint')}</p>
           {debugText && <pre className={styles.debug}>{debugText}</pre>}
         </div>
         <footer className={styles.footer}>
@@ -220,6 +255,24 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
           >
             {uploadLabelText}
           </label>
+          <div className={styles.secondaryRow}>
+            <button
+              type="button"
+              className={styles.secondaryBtnAccent}
+              onClick={handleCieMode}
+              disabled={phase === 'processing'}
+            >
+              {t('capture.modeCie')}
+            </button>
+            <button
+              type="button"
+              className={styles.secondaryBtnAccent}
+              onClick={handlePassportMode}
+              disabled={phase === 'processing'}
+            >
+              {t('capture.modePassport')}
+            </button>
+          </div>
           <div className={styles.secondaryRow}>
             <button
               type="button"

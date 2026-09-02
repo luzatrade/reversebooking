@@ -21,6 +21,13 @@ import {
   type MrzParseCandidate,
 } from './parseMrz';
 import type { MrzExtractedData } from '@/types/check-in';
+import type { EngineGOpts } from './engineG';
+
+export type MrzScanHint = {
+  orientation?: 'portrait' | 'landscape';
+  formatHint?: EngineGOpts['formatHint'];
+  expectItalian?: boolean;
+};
 
 const MRZ_WHITELIST = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789<';
 const FAST_EXIT_SCORE = 14;
@@ -290,14 +297,25 @@ async function extractWithEngineG(
   worker: Worker,
   orientation: 'portrait' | 'landscape',
   deadline?: number,
+  hint?: MrzScanHint,
 ): Promise<MrzExtractedData | null> {
   const run = (opts: Parameters<typeof runEngineG>[2]) => {
     if (isTimedOut(deadline)) return Promise.resolve(null);
     return runEngineG(canvas, worker, { deskew: true, deadline, ...opts });
   };
 
-  // Portrait: CIE italiana → TD1 estero → passaporto TD3
-  if (orientation === 'portrait') {
+  if (hint?.formatHint === 'TD3') {
+    const td3 = await run({ formatHint: 'TD3', expectItalian: false });
+    if (td3) {
+      lastOcrDebug = getEngineGDebug();
+      return td3;
+    }
+    const td1 = await run({ expectItalian: false });
+    if (td1) {
+      lastOcrDebug = getEngineGDebug();
+      return td1;
+    }
+  } else if (orientation === 'portrait' && hint?.expectItalian !== false) {
     const italian = await run({ expectItalian: true });
     if (italian) {
       lastOcrDebug = getEngineGDebug();
@@ -314,7 +332,7 @@ async function extractWithEngineG(
       return td3;
     }
   } else {
-    const td1 = await run({ expectItalian: false });
+    const td1 = await run({ expectItalian: hint?.expectItalian ?? false });
     if (td1) {
       lastOcrDebug = getEngineGDebug();
       return td1;
@@ -359,11 +377,12 @@ export async function releaseOcr(): Promise<void> {
 export async function extractMrzFromFullFrame(
   canvas: HTMLCanvasElement,
   orientation: 'portrait' | 'landscape' = 'portrait',
-  options?: { allowLegacyFallback?: boolean; deadline?: number },
+  options?: { allowLegacyFallback?: boolean; deadline?: number; hint?: MrzScanHint },
 ): Promise<MrzExtractedData | null> {
   const deadline = options?.deadline ?? createOcrDeadline();
+  const orient = options?.hint?.orientation ?? orientation;
   const worker = await getWorker();
-  const engineHit = await extractWithEngineG(canvas, worker, orientation, deadline);
+  const engineHit = await extractWithEngineG(canvas, worker, orient, deadline, options?.hint);
   if (engineHit) return engineHit;
 
   if (options?.allowLegacyFallback === false) return null;
@@ -372,22 +391,27 @@ export async function extractMrzFromFullFrame(
     return null;
   }
 
-  return scanWithRotationsLegacy(worker, canvas, orientation, 'legacy-frame', deadline);
+  return scanWithRotationsLegacy(worker, canvas, orient, 'legacy-frame', deadline);
 }
 
-export async function extractMrzFromFile(file: File): Promise<MrzExtractedData | null> {
+export async function extractMrzFromFile(
+  file: File,
+  hint?: MrzScanHint,
+): Promise<MrzExtractedData | null> {
   const canvas = await loadImageFileToCanvas(file);
   if (!canvas) {
     lastOcrDebug = 'Impossibile aprire la foto (prova JPG/PNG)';
     return null;
   }
 
-  const orientation = canvas.height > canvas.width * 1.05 ? 'portrait' : 'landscape';
+  const orientation =
+    hint?.orientation ??
+    (canvas.height > canvas.width * 1.05 ? 'portrait' : 'landscape');
   const worker = await getWorker();
   const deadline = createOcrDeadline();
 
   try {
-    const engineHit = await extractWithEngineG(canvas, worker, orientation, deadline);
+    const engineHit = await extractWithEngineG(canvas, worker, orientation, deadline, hint);
     if (engineHit) return engineHit;
 
     if (isTimedOut(deadline)) {
@@ -408,6 +432,19 @@ export async function extractMrzFromFile(file: File): Promise<MrzExtractedData |
   } finally {
     destroyCanvas(canvas);
   }
+}
+
+/** Multi-frame: prova più foto e restituisce la lettura MRZ migliore. */
+export async function extractMrzFromFiles(
+  files: File[],
+  hint?: MrzScanHint,
+): Promise<MrzExtractedData | null> {
+  const { pickBestMrzResult } = await import('@/lib/check-in/mrz/pickBestMrz');
+  const results: Array<MrzExtractedData | null> = [];
+  for (const file of files.slice(0, 4)) {
+    results.push(await extractMrzFromFile(file, hint));
+  }
+  return pickBestMrzResult(results);
 }
 
 export function destroyCanvas(canvas: HTMLCanvasElement | null): void {
