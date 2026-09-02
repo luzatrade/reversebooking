@@ -1,4 +1,5 @@
 import { parse } from 'mrz';
+import { validateItalianCieDocumentNumber } from '@/lib/check-in/mrz/cieCheckDigit';
 import { extractMRZData, type MRZResult } from 'web-mrz-reader';
 import type { MrzExtractedData, MrzReviewField } from '@/types/check-in';
 
@@ -480,6 +481,16 @@ export function enrichMrzValidation(data: MrzExtractedData): MrzExtractedData {
     !ITALIAN_CIE_DOC.test(data.documentNumber)
   ) {
     reviewFields.add('documentNumber');
+  }
+
+  if (
+    (data.documentType === 'TD1' || data.nationality === 'ITA') &&
+    data.documentNumber &&
+    ITALIAN_CIE_DOC.test(data.documentNumber.replace(/<+$/, '')) &&
+    !validateItalianCieDocumentNumber(data.documentNumber)
+  ) {
+    reviewFields.add('documentNumber');
+    mrzValid = false;
   }
 
   return {

@@ -48,8 +48,22 @@ interface Sample {
 }
 
 const MANIFEST_PATH = path.join(ROOT, 'data/mrz-bench/corpus-manifest.json');
+const SPLIT_PATH = path.join(ROOT, 'data/mrz-bench/split-assignments.json');
 
-function loadSamples(useCorpus: boolean, onlyPhoto?: string, verifiedOnly?: boolean): Sample[] {
+function loadSplitAssignments(): Record<string, 'dev' | 'holdout'> | null {
+  if (!fs.existsSync(SPLIT_PATH)) return null;
+  const raw = JSON.parse(fs.readFileSync(SPLIT_PATH, 'utf8')) as {
+    assignments?: Record<string, 'dev' | 'holdout'>;
+  };
+  return raw.assignments ?? null;
+}
+
+function loadSamples(
+  useCorpus: boolean,
+  onlyPhoto?: string,
+  verifiedOnly?: boolean,
+  split?: 'dev' | 'holdout',
+): Sample[] {
   if (useCorpus) {
     if (!fs.existsSync(MANIFEST_PATH)) {
       console.error('Manifest assente. Esegui: node scripts/mrz-bench/prepare-corpus.mjs');
@@ -57,6 +71,17 @@ function loadSamples(useCorpus: boolean, onlyPhoto?: string, verifiedOnly?: bool
     }
     let all = JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf8')) as Sample[];
     if (verifiedOnly) all = all.filter((s) => s.truth != null);
+    if (split) {
+      const assignments = loadSplitAssignments();
+      if (!assignments) {
+        console.error('Split assignments assenti. Esegui: node scripts/mrz-bench/assign-split.mjs');
+        process.exit(1);
+      }
+      all = all.filter((s) => {
+        const id = (s as { id?: string }).id;
+        return id && assignments[id] === split;
+      });
+    }
     if (!onlyPhoto) return all;
     return all.filter(
       (s) => s.photo.includes(onlyPhoto) || s.label.includes(onlyPhoto) || (s as { id?: string }).id?.includes(onlyPhoto),
@@ -1313,13 +1338,22 @@ async function main() {
   const useCorpus = argv.includes('--corpus');
   const verifiedOnly = argv.includes('--verified');
   const compact = argv.includes('--compact') || useCorpus;
+  const jsonOut = argv.includes('--json');
+  const splitArg = arg('--split');
+  const split =
+    splitArg === 'dev' || splitArg === 'holdout' ? (splitArg as 'dev' | 'holdout') : undefined;
   const onlyPhoto = arg('--photo');
   const only = arg('--only')?.toUpperCase();
   const variantLimit = compact
     ? 1
     : Number.parseInt(arg('--variants') ?? '14', 10);
 
-  const samples = loadSamples(useCorpus, onlyPhoto, verifiedOnly);
+  const samples = loadSamples(useCorpus, onlyPhoto, verifiedOnly, split);
+
+  if (samples.length === 0) {
+    console.error('Nessun campione da processare.');
+    process.exit(split ? 1 : 0);
+  }
 
   for (const s of samples) {
     if (!fs.existsSync(s.photo)) {
@@ -1467,6 +1501,28 @@ async function main() {
   }
 
   const scoredRuns = totalRuns - discoveryTotal;
+  const summary = {
+    generatedAt: new Date().toISOString(),
+    split: split ?? null,
+    verifiedOnly,
+    sampleCount: samples.length,
+    scoredRuns,
+    discoveryTotal,
+    engines: ENGINES.map((e) => ({
+      id: e.id,
+      label: e.label,
+      tally: tally[e.id],
+      avgSeconds: scoredRuns ? timing[e.id]! / scoredRuns / 1000 : null,
+      ocrCalls: calls[e.id],
+    })),
+  };
+
+  if (jsonOut) {
+    console.log(JSON.stringify(summary, null, 2));
+    await worker.terminate();
+    return;
+  }
+
   console.log('\n' + '='.repeat(30 + W * ENGINES.length));
   console.log(
     `  TOTALE su ${scoredRuns} prove verificate`.padEnd(30) +

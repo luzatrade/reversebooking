@@ -9,6 +9,7 @@ import {
 } from "@/lib/check-in/export/questura";
 import { guestsToAlloggiatiRecords } from "@/lib/check-in/export/guestMapper";
 import { markGuestsExported, useGuests } from "@/lib/check-in/useGuests";
+import { logCheckInTelemetry } from "@/lib/check-in/telemetry";
 import { toast } from "@/lib/check-in/useToast";
 import styles from "./ExportPage.module.css";
 
@@ -99,6 +100,12 @@ export function ExportPage({
 
       const ids = selectedGuests.map((g) => g.id!);
       await markGuestsExported(hotelAccountId, ids, usingLocalStorage);
+
+      void logCheckInTelemetry({
+        hotelAccountId,
+        event: "export",
+        exportGuestCount: ids.length,
+      });
 
       toast(
         t("export.success", {

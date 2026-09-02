@@ -69,6 +69,9 @@
     "preparingBackground": "Upload photo (reader warming up…)",
     "useCamera": "Use camera",
     "chooserHint": "Choose how to register the document. On smartphones we recommend uploading a sharp photo of the ID card.",
+    "multiPhotoHint": "You can select up to 4 photos — we use the best read.",
+    "modeCie": "Italian eID (camera)",
+    "modePassport": "Passport (camera)",
     "backToChooser": "Other methods"
   },
   "form": {
@@ -82,17 +85,22 @@
     "sexF": "Female",
     "birthCountry": "Country of birth",
     "birthMunicipality": "Municipality of birth",
-    "birthMunicipalityMrzHint": "Not in MRZ — select municipality manually",
+    "birthMunicipalityMrzHint": "Not in MRZ — select municipality of birth (not the residence address on the ID card)",
     "citizenship": "Citizenship",
     "documentType": "Document type",
     "documentNumber": "Document number",
     "documentIssuePlace": "Document issue place",
-    "documentIssuePlaceHint": "Municipality for ID card, country for passport",
+    "documentIssuePlaceHint": "For ID card: issuing municipality. For passport: foreign country. Pick from the list.",
+    "documentIssuePlaceCieHint": "Italian eID: select the municipality that issued the card.",
+    "documentIssuePlacePassportHint": "Passport: select the issuing country (not an Italian municipality).",
+    "documentIssuePlaceForeignIdHint": "Foreign ID card: select the issuing country.",
+    "selectFromListHint": "Type and pick an option from the menu — typing alone is not enough",
     "arrivalDate": "Arrival date",
     "stayDays": "Stay duration (days)",
     "guestType": "Guest type",
     "searchPlaceholder": "Search…",
     "searchComune": "Search municipality…",
+    "loadingComuni": "Loading municipalities…",
     "save": "Save check-in",
     "saving": "Saving…",
     "saveSuccess": "Check-in saved — go to Export at end of day for the .txt file",
@@ -105,7 +113,15 @@
       "head_group": "Group leader (18)",
       "family": "Family member (19)",
       "group": "Group member (20)"
-    }
+    },
+    "errors": {
+      "sexRequired": "Select sex",
+      "birthCountryRequired": "Select country of birth from the list",
+      "birthMunicipalityRequired": "Select municipality of birth from the list (tap a suggestion)",
+      "citizenshipRequired": "Select citizenship from the list",
+      "documentIssuePlaceRequired": "Select document issue place from the list"
+    },
+    "noComuneResults": "No matches — try fewer letters or check spelling"
   },
   "guests": {
     "title": "Registered guests",

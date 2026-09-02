@@ -7,6 +7,7 @@ import {
   loadComuni,
   loadDocumentTypes,
   loadNations,
+  getComuniCache,
   searchComuni,
   searchIssuePlaces,
   searchNations,
@@ -15,6 +16,8 @@ import {
   type NationEntry,
 } from '@/lib/check-in/lookup/alloggiatiTables';
 import { guestNeedsDocumentFields } from '@/lib/check-in/guestFields';
+import { documentTypeFromMrz } from '@/lib/check-in/documentTypeFromMrz';
+import { toast } from '@/lib/check-in/useToast';
 import type { GuestRecord, GuestType, MrzExtractedData, MrzReviewField } from '@/types/check-in';
 import styles from './GuestForm.module.css';
 
@@ -26,11 +29,6 @@ interface GuestFormProps {
 }
 
 const GUEST_TYPES: GuestType[] = ['single', 'head_family', 'head_group', 'family', 'group'];
-
-function documentTypeFromMrz(documentType?: string): string {
-  if (documentType === 'TD3') return 'PASOR';
-  return 'IDENT';
-}
 
 function buildFormState(initialData?: Partial<MrzExtractedData>) {
   const today = new Date().toISOString().slice(0, 10);
@@ -48,7 +46,7 @@ function buildFormState(initialData?: Partial<MrzExtractedData>) {
     birthProvinceCode: '',
     birthCountryCode: '',
     citizenshipCode: '',
-    documentTypeCode: documentTypeFromMrz(initialData?.documentType),
+    documentTypeCode: documentTypeFromMrz(initialData?.documentType, initialData?.nationality),
     documentNumber: initialData?.documentNumber ?? '',
     documentIssuePlaceCode: '',
   };
@@ -58,7 +56,7 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
   const { t } = useTranslation();
 
   const [nations, setNations] = useState<NationEntry[]>([]);
-  const [comuni, setComuni] = useState<ComuneEntry[]>([]);
+  const [comuniReady, setComuniReady] = useState(false);
   const [documentTypes, setDocumentTypes] = useState<DocumentTypeEntry[]>([]);
 
   const [nationQuery, setNationQuery] = useState('');
@@ -73,33 +71,54 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
   }, [initialData]);
 
   useEffect(() => {
-    void Promise.all([loadNations(), loadComuni(), loadDocumentTypes()]).then(
-      ([n, c, d]) => {
-        setNations(n);
-        setComuni(c);
-        setDocumentTypes(d);
+    let cancelled = false;
 
-        if (!initialData?.nationality) return;
-        const nation = findNationByIso3(n, initialData.nationality);
-        if (!nation) return;
+    void Promise.all([loadNations(), loadDocumentTypes()]).then(([n, d]) => {
+      if (cancelled) return;
+      setNations(n);
+      setDocumentTypes(d);
 
-        setForm((prev) => ({
-          ...prev,
-          birthCountryCode: prev.birthCountryCode || nation.code,
-          citizenshipCode: prev.citizenshipCode || nation.code,
-        }));
-      },
-    );
+      if (!initialData?.nationality) return;
+      const nation = findNationByIso3(n, initialData.nationality);
+      if (!nation) return;
+
+      setForm((prev) => ({
+        ...prev,
+        birthCountryCode: prev.birthCountryCode || nation.code,
+        citizenshipCode: prev.citizenshipCode || nation.code,
+      }));
+    });
+
+    // Defer ~800KB comuni table until after first paint (mobile memory after OCR).
+    const comuniTimer = window.setTimeout(() => {
+      void loadComuni().then(() => {
+        if (!cancelled) setComuniReady(true);
+      });
+    }, 100);
+
+    return () => {
+      cancelled = true;
+      window.clearTimeout(comuniTimer);
+    };
   }, [initialData?.nationality]);
+
+  const comuni = comuniReady ? getComuniCache() : [];
 
   const needsDocument = guestNeedsDocumentFields(form.guestType);
   const isItalianBirth = form.birthCountryCode === ITALY_CODE;
+
+  const documentIssuePlaceHint = useMemo(() => {
+    if (form.documentTypeCode === 'IDELE') return t('form.documentIssuePlaceCieHint');
+    if (form.documentTypeCode === 'PASOR') return t('form.documentIssuePlacePassportHint');
+    if (form.documentTypeCode === 'IDENT') return t('form.documentIssuePlaceForeignIdHint');
+    return t('form.documentIssuePlaceHint');
+  }, [form.documentTypeCode, t]);
 
   const nationOptions = useMemo(
     () => searchNations(nations, nationQuery).map((n) => ({
       value: n.code,
       label: n.name,
-      meta: n.iso3,
+      meta: n.iso3 ?? '',
     })),
     [nations, nationQuery],
   );
@@ -108,27 +127,33 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
     () => searchNations(nations, citizenshipQuery).map((n) => ({
       value: n.code,
       label: n.name,
-      meta: n.iso3,
+      meta: n.iso3 ?? '',
     })),
     [nations, citizenshipQuery],
   );
 
   const comuneOptions = useMemo(
-    () => searchComuni(comuni, comuneQuery).map((c) => ({
-      value: c.code,
-      label: c.name,
-      meta: c.province,
-    })),
-    [comuni, comuneQuery],
+    () =>
+      comuniReady
+        ? searchComuni(comuni, comuneQuery).map((c) => ({
+            value: c.code,
+            label: c.name,
+            meta: c.province,
+          }))
+        : [],
+    [comuni, comuniReady, comuneQuery],
   );
 
   const docPlaceOptions = useMemo(
-    () => searchIssuePlaces(comuni, nations, docPlaceQuery).map((p) => ({
-      value: p.value,
-      label: p.label,
-      meta: p.kind === 'comune' ? p.meta : `${p.meta} · ${t('form.documentIssuePlaceHint')}`,
-    })),
-    [comuni, nations, docPlaceQuery, t],
+    () =>
+      comuniReady
+        ? searchIssuePlaces(comuni, nations, docPlaceQuery).map((p) => ({
+            value: p.value,
+            label: p.label,
+            meta: p.kind === 'comune' ? p.meta : `${p.meta} · ${t('form.documentIssuePlaceHint')}`,
+          }))
+        : [],
+    [comuni, comuniReady, nations, docPlaceQuery, t],
   );
 
   const docTypeOptions = documentTypes.map((d) => ({
@@ -168,7 +193,26 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (form.sex !== 'M' && form.sex !== 'F') return;
+    if (form.sex !== 'M' && form.sex !== 'F') {
+      toast(t('form.errors.sexRequired'), 'error');
+      return;
+    }
+    if (!form.birthCountryCode) {
+      toast(t('form.errors.birthCountryRequired'), 'error');
+      return;
+    }
+    if (isItalianBirth && !form.birthMunicipalityCode) {
+      toast(t('form.errors.birthMunicipalityRequired'), 'error');
+      return;
+    }
+    if (!form.citizenshipCode) {
+      toast(t('form.errors.citizenshipRequired'), 'error');
+      return;
+    }
+    if (needsDocument && !form.documentIssuePlaceCode) {
+      toast(t('form.errors.documentIssuePlaceRequired'), 'error');
+      return;
+    }
     onSubmit({ ...form, sex: form.sex });
   }
 
@@ -255,9 +299,12 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
             onChange={(code) => handleComuneSelect(code)}
             options={comuneOptions}
             onSearch={setComuneQuery}
-            placeholder={t('form.searchComune')}
+            placeholder={comuniReady ? t('form.searchComune') : t('form.loadingComuni')}
+            disabled={!comuniReady}
             required
+            emptyMessage={comuniReady && comuneQuery ? t('form.noComuneResults') : undefined}
           />
+          <p className={styles.fieldHint}>{t('form.selectFromListHint')}</p>
         </>
       )}
 
@@ -298,15 +345,17 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
             />
           </label>
 
-          <p className={styles.fieldHint}>{t('form.documentIssuePlaceHint')}</p>
+          <p className={styles.fieldHint}>{documentIssuePlaceHint}</p>
           <SearchSelect
             label={t('form.documentIssuePlace')}
             value={form.documentIssuePlaceCode}
             onChange={(code) => handleChange('documentIssuePlaceCode', code)}
             options={docPlaceOptions}
             onSearch={setDocPlaceQuery}
-            placeholder={t('form.searchComune')}
+            placeholder={comuniReady ? t('form.searchComune') : t('form.loadingComuni')}
+            disabled={!comuniReady}
             required
+            emptyMessage={comuniReady && docPlaceQuery ? t('form.noComuneResults') : undefined}
           />
         </>
       )}

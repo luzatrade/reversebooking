@@ -53,6 +53,7 @@
     "mrz:probe": "npx tsx scripts/mrz-bench/probe-failure.ts",
     "mrz:report": "node scripts/mrz-bench/learn-report.mjs",
     "mrz:report:json": "node scripts/mrz-bench/learn-report-json.mjs",
+    "mrz:synthetic": "node scripts/mrz-bench/generate-synthetic-corpus.mjs",
     "alloggiati:import-tables": "node scripts/import-alloggiati-tables.mjs",
     "alloggiati:soap-test": "npx tsx scripts/alloggiati-soap-test.mjs",
     "alloggiati:unmark-exported": "node scripts/unmark-check-in-exports.mjs",

@@ -4,6 +4,8 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { DocumentScanner } from "@/components/check-in/capture/DocumentScanner";
 import { GuestForm } from "@/components/check-in/form/GuestForm";
+import { releaseOcr } from "@/lib/check-in/mrz/ocrWorker";
+import { logCheckInTelemetry } from "@/lib/check-in/telemetry";
 import { registerGuest } from "@/lib/check-in/useGuests";
 import { toast } from "@/lib/check-in/useToast";
 import type { GuestRecord, MrzExtractedData } from "@/types/check-in";
@@ -29,14 +31,22 @@ export function CheckInPage({
   const [mrzData, setMrzData] = useState<MrzExtractedData | undefined>();
   const [saving, setSaving] = useState(false);
 
-  function handleScanResult(data: MrzExtractedData) {
+  async function handleScanResult(data: MrzExtractedData) {
+    await releaseOcr();
     setMrzData(data);
     setView("form");
+    void logCheckInTelemetry({ hotelAccountId, event: "scan", mrz: data });
     if (data.mrzValid === false || (data.reviewFields?.length ?? 0) > 0) {
       toast(t("capture.successReview"), "info");
     } else {
       toast(t("capture.success"), "success");
     }
+  }
+
+  async function handleManualEntry() {
+    await releaseOcr();
+    setMrzData(undefined);
+    setView("form");
   }
 
   async function handleConfirm(guest: Omit<GuestRecord, "id" | "hotelAccountId">) {
@@ -46,6 +56,12 @@ export function CheckInPage({
       if (result.fellBackToLocalStorage) {
         onStorageFallback?.();
       }
+      void logCheckInTelemetry({
+        hotelAccountId,
+        event: "save",
+        mrz: mrzData,
+        savedGuest: guest,
+      });
       toast(t("form.saveSuccess"), "success");
       setView("scan");
       setMrzData(undefined);
@@ -64,11 +80,8 @@ export function CheckInPage({
           <>
             <h2 className={styles.title}>{t("capture.title")}</h2>
             <DocumentScanner
-              onResult={handleScanResult}
-              onManualEntry={() => {
-                setMrzData(undefined);
-                setView("form");
-              }}
+              onResult={(data) => void handleScanResult(data)}
+              onManualEntry={() => void handleManualEntry()}
             />
           </>
         ) : (

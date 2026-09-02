@@ -69,6 +69,9 @@
     "preparingBackground": "Carica foto (lettore in preparazione…)",
     "useCamera": "Usa fotocamera",
     "chooserHint": "Scegli come registrare il documento. Su smartphone consigliamo di caricare una foto nitida della carta d'identità.",
+    "multiPhotoHint": "Puoi selezionare fino a 4 foto: useremo la lettura migliore.",
+    "modeCie": "CIE italiana (fotocamera)",
+    "modePassport": "Passaporto (fotocamera)",
     "backToChooser": "Altri metodi"
   },
   "form": {
@@ -82,17 +85,22 @@
     "sexF": "Femmina",
     "birthCountry": "Stato di nascita",
     "birthMunicipality": "Comune di nascita",
-    "birthMunicipalityMrzHint": "Non presente nella MRZ — seleziona manualmente il comune",
+    "birthMunicipalityMrzHint": "Non presente nella MRZ — seleziona il comune di nascita (non l'indirizzo di residenza sulla CIE)",
     "citizenship": "Cittadinanza",
     "documentType": "Tipo documento",
     "documentNumber": "Numero documento",
     "documentIssuePlace": "Luogo rilascio documento",
-    "documentIssuePlaceHint": "Comune per CIE, stato per passaporto",
+    "documentIssuePlaceHint": "Per CIE: comune di rilascio. Per passaporto: stato estero. Seleziona dalla lista.",
+    "documentIssuePlaceCieHint": "CIE elettronica: seleziona il comune che ha rilasciato la carta.",
+    "documentIssuePlacePassportHint": "Passaporto: seleziona lo stato che ha rilasciato il documento (non un comune italiano).",
+    "documentIssuePlaceForeignIdHint": "Carta identità estera: seleziona lo stato emittente.",
+    "selectFromListHint": "Digita e seleziona una voce dal menu — non basta scrivere il testo",
     "arrivalDate": "Data arrivo",
     "stayDays": "Giorni permanenza",
     "guestType": "Tipo alloggiato",
     "searchPlaceholder": "Cerca…",
     "searchComune": "Cerca comune…",
+    "loadingComuni": "Caricamento comuni…",
     "save": "Salva check-in",
     "saving": "Salvataggio…",
     "saveSuccess": "Check-in salvato — a fine giornata vai su Export per il file .txt",
@@ -105,7 +113,15 @@
       "head_group": "Capo gruppo (18)",
       "family": "Familiare (19)",
       "group": "Membro gruppo (20)"
-    }
+    },
+    "errors": {
+      "sexRequired": "Seleziona il sesso",
+      "birthCountryRequired": "Seleziona lo stato di nascita dalla lista",
+      "birthMunicipalityRequired": "Seleziona il comune di nascita dalla lista (tocca la voce proposta)",
+      "citizenshipRequired": "Seleziona la cittadinanza dalla lista",
+      "documentIssuePlaceRequired": "Seleziona il luogo di rilascio documento dalla lista"
+    },
+    "noComuneResults": "Nessun risultato — prova con meno lettere o controlla l'ortografia"
   },
   "guests": {
     "title": "Ospiti registrati",
