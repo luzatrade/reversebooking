@@ -20,8 +20,6 @@ type ScanPhase = 'preview' | 'processing' | 'success' | 'error';
 type ScanScreen = 'chooser' | 'camera';
 export type ScanOrientation = 'portrait' | 'landscape';
 
-const FILE_INPUT_ID = 'fc-document-photo-input';
-
 interface DocumentScannerProps {
   onResult: (data: MrzExtractedData) => void;
   onManualEntry: () => void;
@@ -75,6 +73,15 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
     }
     return warmupRef.current;
   }, []);
+
+  /** Precarica OCR al mount (non sul click label: su iOS il re-render blocca il picker foto). */
+  useEffect(() => {
+    processingRef.current = false;
+    const timer = window.setTimeout(() => {
+      void ensureOcr();
+    }, 50);
+    return () => window.clearTimeout(timer);
+  }, [ensureOcr]);
 
   const runOcr = useCallback(async () => {
     if (processingRef.current) return;
@@ -136,8 +143,15 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
   const handlePhotoUpload = useCallback(
     async (e: React.ChangeEvent<HTMLInputElement>) => {
       const fileList = e.target.files;
+      if (!fileList?.length) return;
+      if (processingRef.current) {
+        toast(t('capture.processing'), 'info');
+        return;
+      }
+
+      // Copia prima di resettare value: FileList è live e si svuota con e.target.value = ''.
+      const files = [...fileList];
       e.target.value = '';
-      if (!fileList?.length || processingRef.current) return;
 
       processingRef.current = true;
       setPhase('processing');
@@ -146,10 +160,10 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
       try {
         if (!(await ensureOcr())) {
           setPhase('error');
+          toast(t('capture.ocrInitFailed'), 'error');
           return;
         }
 
-        const files = [...fileList];
         const hint = activeHint();
         const result =
           files.length > 1
@@ -207,17 +221,14 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
     }
   }, [cameraEnabled, isReady, phase]);
 
-  const fileInput = (
-    <input
-      id={FILE_INPUT_ID}
-      type="file"
-      accept="image/*"
-      multiple
-      className={styles.hiddenInput}
-      disabled={phase === 'processing'}
-      onChange={(e) => void handlePhotoUpload(e)}
-    />
-  );
+  const fileInputProps = {
+    type: 'file' as const,
+    accept: 'image/*,.heic,.heif',
+    multiple: true,
+    className: styles.hiddenInput,
+    disabled: phase === 'processing',
+    onChange: (e: React.ChangeEvent<HTMLInputElement>) => void handlePhotoUpload(e),
+  };
 
   const uploadLabelText =
     phase === 'processing'
@@ -246,13 +257,14 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
           {debugText && <pre className={styles.debug}>{debugText}</pre>}
         </div>
         <footer className={styles.footer}>
-          {/* Label nativa: apre il selettore file senza click programmatico,
-              che i browser mobile bloccano se avviene dopo un'operazione async. */}
           <label
-            htmlFor={FILE_INPUT_ID}
-            className={phase === 'processing' ? `${styles.captureBtn} ${styles.btnBusy}` : styles.captureBtn}
-            onClick={() => void ensureOcr()}
+            className={
+              phase === 'processing'
+                ? `${styles.captureBtn} ${styles.btnBusy}`
+                : styles.captureBtn
+            }
           >
+            <input {...fileInputProps} />
             {uploadLabelText}
           </label>
           <div className={styles.secondaryRow}>
@@ -286,7 +298,6 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
               {t('capture.manualEntry')}
             </button>
           </div>
-          {fileInput}
         </footer>
       </div>
     );
@@ -393,14 +404,13 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
 
         <div className={styles.secondaryRow}>
           <label
-            htmlFor={FILE_INPUT_ID}
             className={
               phase === 'processing'
                 ? `${styles.secondaryBtnAccent} ${styles.btnBusy}`
                 : styles.secondaryBtnAccent
             }
-            onClick={() => void ensureOcr()}
           >
+            <input {...fileInputProps} />
             {t('capture.uploadPhoto')}
           </label>
           <button type="button" className={styles.secondaryBtn} onClick={() => setScreen('chooser')}>
@@ -410,8 +420,6 @@ export function DocumentScanner({ onResult, onManualEntry }: DocumentScannerProp
             {t('capture.manualEntry')}
           </button>
         </div>
-
-        {fileInput}
       </footer>
     </div>
   );

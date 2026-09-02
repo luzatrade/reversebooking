@@ -179,6 +179,15 @@
   text-align: center;
 }
 
+.chooserSubHint {
+  margin: 0 0 0.5rem;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--color-muted);
+  text-align: center;
+  opacity: 0.9;
+}
+
 .modeRow {
   display: flex;
   gap: 0.5rem;
