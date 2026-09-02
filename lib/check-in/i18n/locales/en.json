@@ -69,6 +69,9 @@
     "preparingBackground": "Upload photo (reader warming up…)",
     "useCamera": "Use camera",
     "chooserHint": "Choose how to register the document. On smartphones we recommend uploading a sharp photo of the ID card.",
+    "multiPhotoHint": "You can select up to 4 photos — we use the best read.",
+    "modeCie": "Italian eID (camera)",
+    "modePassport": "Passport (camera)",
     "backToChooser": "Other methods"
   },
   "form": {
@@ -88,6 +91,9 @@
     "documentNumber": "Document number",
     "documentIssuePlace": "Document issue place",
     "documentIssuePlaceHint": "For ID card: issuing municipality. For passport: foreign country. Pick from the list.",
+    "documentIssuePlaceCieHint": "Italian eID: select the municipality that issued the card.",
+    "documentIssuePlacePassportHint": "Passport: select the issuing country (not an Italian municipality).",
+    "documentIssuePlaceForeignIdHint": "Foreign ID card: select the issuing country.",
     "selectFromListHint": "Type and pick an option from the menu — typing alone is not enough",
     "arrivalDate": "Arrival date",
     "stayDays": "Stay duration (days)",

@@ -107,6 +107,13 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
   const needsDocument = guestNeedsDocumentFields(form.guestType);
   const isItalianBirth = form.birthCountryCode === ITALY_CODE;
 
+  const documentIssuePlaceHint = useMemo(() => {
+    if (form.documentTypeCode === 'IDELE') return t('form.documentIssuePlaceCieHint');
+    if (form.documentTypeCode === 'PASOR') return t('form.documentIssuePlacePassportHint');
+    if (form.documentTypeCode === 'IDENT') return t('form.documentIssuePlaceForeignIdHint');
+    return t('form.documentIssuePlaceHint');
+  }, [form.documentTypeCode, t]);
+
   const nationOptions = useMemo(
     () => searchNations(nations, nationQuery).map((n) => ({
       value: n.code,
@@ -338,7 +345,7 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
             />
           </label>
 
-          <p className={styles.fieldHint}>{t('form.documentIssuePlaceHint')}</p>
+          <p className={styles.fieldHint}>{documentIssuePlaceHint}</p>
           <SearchSelect
             label={t('form.documentIssuePlace')}
             value={form.documentIssuePlaceCode}

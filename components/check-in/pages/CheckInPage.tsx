@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import { DocumentScanner } from "@/components/check-in/capture/DocumentScanner";
 import { GuestForm } from "@/components/check-in/form/GuestForm";
 import { releaseOcr } from "@/lib/check-in/mrz/ocrWorker";
+import { logCheckInTelemetry } from "@/lib/check-in/telemetry";
 import { registerGuest } from "@/lib/check-in/useGuests";
 import { toast } from "@/lib/check-in/useToast";
 import type { GuestRecord, MrzExtractedData } from "@/types/check-in";
@@ -34,6 +35,7 @@ export function CheckInPage({
     await releaseOcr();
     setMrzData(data);
     setView("form");
+    void logCheckInTelemetry({ hotelAccountId, event: "scan", mrz: data });
     if (data.mrzValid === false || (data.reviewFields?.length ?? 0) > 0) {
       toast(t("capture.successReview"), "info");
     } else {
@@ -54,6 +56,12 @@ export function CheckInPage({
       if (result.fellBackToLocalStorage) {
         onStorageFallback?.();
       }
+      void logCheckInTelemetry({
+        hotelAccountId,
+        event: "save",
+        mrz: mrzData,
+        savedGuest: guest,
+      });
       toast(t("form.saveSuccess"), "success");
       setView("scan");
       setMrzData(undefined);

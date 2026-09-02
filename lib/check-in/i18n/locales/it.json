@@ -69,6 +69,9 @@
     "preparingBackground": "Carica foto (lettore in preparazione…)",
     "useCamera": "Usa fotocamera",
     "chooserHint": "Scegli come registrare il documento. Su smartphone consigliamo di caricare una foto nitida della carta d'identità.",
+    "multiPhotoHint": "Puoi selezionare fino a 4 foto: useremo la lettura migliore.",
+    "modeCie": "CIE italiana (fotocamera)",
+    "modePassport": "Passaporto (fotocamera)",
     "backToChooser": "Altri metodi"
   },
   "form": {
@@ -88,6 +91,9 @@
     "documentNumber": "Numero documento",
     "documentIssuePlace": "Luogo rilascio documento",
     "documentIssuePlaceHint": "Per CIE: comune di rilascio. Per passaporto: stato estero. Seleziona dalla lista.",
+    "documentIssuePlaceCieHint": "CIE elettronica: seleziona il comune che ha rilasciato la carta.",
+    "documentIssuePlacePassportHint": "Passaporto: seleziona lo stato che ha rilasciato il documento (non un comune italiano).",
+    "documentIssuePlaceForeignIdHint": "Carta identità estera: seleziona lo stato emittente.",
     "selectFromListHint": "Digita e seleziona una voce dal menu — non basta scrivere il testo",
     "arrivalDate": "Data arrivo",
     "stayDays": "Giorni permanenza",
