@@ -16,6 +16,8 @@ import {
   type NationEntry,
 } from '@/lib/check-in/lookup/alloggiatiTables';
 import { guestNeedsDocumentFields } from '@/lib/check-in/guestFields';
+import { documentTypeFromMrz } from '@/lib/check-in/documentTypeFromMrz';
+import { toast } from '@/lib/check-in/useToast';
 import type { GuestRecord, GuestType, MrzExtractedData, MrzReviewField } from '@/types/check-in';
 import styles from './GuestForm.module.css';
 
@@ -27,11 +29,6 @@ interface GuestFormProps {
 }
 
 const GUEST_TYPES: GuestType[] = ['single', 'head_family', 'head_group', 'family', 'group'];
-
-function documentTypeFromMrz(documentType?: string): string {
-  if (documentType === 'TD3') return 'PASOR';
-  return 'IDENT';
-}
 
 function buildFormState(initialData?: Partial<MrzExtractedData>) {
   const today = new Date().toISOString().slice(0, 10);
@@ -49,7 +46,7 @@ function buildFormState(initialData?: Partial<MrzExtractedData>) {
     birthProvinceCode: '',
     birthCountryCode: '',
     citizenshipCode: '',
-    documentTypeCode: documentTypeFromMrz(initialData?.documentType),
+    documentTypeCode: documentTypeFromMrz(initialData?.documentType, initialData?.nationality),
     documentNumber: initialData?.documentNumber ?? '',
     documentIssuePlaceCode: '',
   };
@@ -189,7 +186,26 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (form.sex !== 'M' && form.sex !== 'F') return;
+    if (form.sex !== 'M' && form.sex !== 'F') {
+      toast(t('form.errors.sexRequired'), 'error');
+      return;
+    }
+    if (!form.birthCountryCode) {
+      toast(t('form.errors.birthCountryRequired'), 'error');
+      return;
+    }
+    if (isItalianBirth && !form.birthMunicipalityCode) {
+      toast(t('form.errors.birthMunicipalityRequired'), 'error');
+      return;
+    }
+    if (!form.citizenshipCode) {
+      toast(t('form.errors.citizenshipRequired'), 'error');
+      return;
+    }
+    if (needsDocument && !form.documentIssuePlaceCode) {
+      toast(t('form.errors.documentIssuePlaceRequired'), 'error');
+      return;
+    }
     onSubmit({ ...form, sex: form.sex });
   }
 
@@ -279,7 +295,9 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
             placeholder={comuniReady ? t('form.searchComune') : t('form.loadingComuni')}
             disabled={!comuniReady}
             required
+            emptyMessage={comuniReady && comuneQuery ? t('form.noComuneResults') : undefined}
           />
+          <p className={styles.fieldHint}>{t('form.selectFromListHint')}</p>
         </>
       )}
 
@@ -330,6 +348,7 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
             placeholder={comuniReady ? t('form.searchComune') : t('form.loadingComuni')}
             disabled={!comuniReady}
             required
+            emptyMessage={comuniReady && docPlaceQuery ? t('form.noComuneResults') : undefined}
           />
         </>
       )}

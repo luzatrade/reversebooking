@@ -16,6 +16,7 @@ interface SearchSelectProps {
   placeholder?: string;
   required?: boolean;
   disabled?: boolean;
+  emptyMessage?: string;
 }
 
 export function SearchSelect({
@@ -27,6 +28,7 @@ export function SearchSelect({
   placeholder,
   required,
   disabled,
+  emptyMessage,
 }: SearchSelectProps) {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState('');
@@ -87,6 +89,9 @@ export function SearchSelect({
             </li>
           ))}
         </ul>
+      )}
+      {open && options.length === 0 && emptyMessage && (
+        <p className={styles.empty} role="status">{emptyMessage}</p>
       )}
     </div>
   );

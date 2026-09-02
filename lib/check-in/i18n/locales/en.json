@@ -82,12 +82,13 @@
     "sexF": "Female",
     "birthCountry": "Country of birth",
     "birthMunicipality": "Municipality of birth",
-    "birthMunicipalityMrzHint": "Not in MRZ — select municipality manually",
+    "birthMunicipalityMrzHint": "Not in MRZ — select municipality of birth (not the residence address on the ID card)",
     "citizenship": "Citizenship",
     "documentType": "Document type",
     "documentNumber": "Document number",
     "documentIssuePlace": "Document issue place",
-    "documentIssuePlaceHint": "Municipality for ID card, country for passport",
+    "documentIssuePlaceHint": "For ID card: issuing municipality. For passport: foreign country. Pick from the list.",
+    "selectFromListHint": "Type and pick an option from the menu — typing alone is not enough",
     "arrivalDate": "Arrival date",
     "stayDays": "Stay duration (days)",
     "guestType": "Guest type",
@@ -106,7 +107,15 @@
       "head_group": "Group leader (18)",
       "family": "Family member (19)",
       "group": "Group member (20)"
-    }
+    },
+    "errors": {
+      "sexRequired": "Select sex",
+      "birthCountryRequired": "Select country of birth from the list",
+      "birthMunicipalityRequired": "Select municipality of birth from the list (tap a suggestion)",
+      "citizenshipRequired": "Select citizenship from the list",
+      "documentIssuePlaceRequired": "Select document issue place from the list"
+    },
+    "noComuneResults": "No matches — try fewer letters or check spelling"
   },
   "guests": {
     "title": "Registered guests",
