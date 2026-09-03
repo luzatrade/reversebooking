@@ -1,8 +1,11 @@
 /**
  * Aggiorna city_id su hotel_accounts quando il trigger DB blocca l'UPDATE.
  * Strategia: delete + insert con lo stesso id (il trigger agisce solo su UPDATE).
+<<<<<<< HEAD
+=======
  *
  *   node scripts/rewrite-hotel-city-id.mjs --hotel-id=uuid --city-id=IT-compiano --apply
+>>>>>>> origin/main
  */
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
@@ -38,7 +41,10 @@ if (readErr || !row) {
 }
 
 if (row.city_id === cityIdArg) {
+<<<<<<< HEAD
+=======
   console.log(`city_id già ${cityIdArg}, nulla da fare.`);
+>>>>>>> origin/main
   process.exit(0);
 }
 
@@ -49,6 +55,10 @@ const nextRow = {
   updated_at: new Date().toISOString(),
 };
 
+<<<<<<< HEAD
+if (!APPLY) {
+  console.log(`rewrite ${row.property_name}: ${row.city_id} → ${cityIdArg}`);
+=======
 console.log("=== rewrite hotel city_id ===");
 console.log(`Hotel: ${row.property_name} (${row.id})`);
 console.log(`  city_id: ${row.city_id} → ${cityIdArg}`);
@@ -56,6 +66,7 @@ console.log(`  city_name: ${row.city_name} → ${nextRow.city_name}`);
 
 if (!APPLY) {
   console.log("\nAggiungi --apply per scrivere.");
+>>>>>>> origin/main
   process.exit(0);
 }
 
@@ -67,8 +78,14 @@ if (delErr) {
 
 const { error: insErr } = await sb.from("hotel_accounts").insert(nextRow);
 if (insErr) {
+<<<<<<< HEAD
+  console.error("Insert fallita:", insErr.message);
+  process.exit(1);
+}
+=======
   console.error("Insert fallita (hotel eliminato!):", insErr.message);
   process.exit(1);
 }
 
 console.log("✓ city_id aggiornato.");
+>>>>>>> origin/main
