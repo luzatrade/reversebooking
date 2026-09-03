@@ -1,24 +1,29 @@
 /**
  * Corregge city_name su onboarding_hotels quando l'indirizzo CAP indica un comune
- * in provincia diversa (es. harvest su Bisacquino PA ma "92010 Caltabellotta AG").
+ * diverso da quello harvest (es. Bisacquino → Caltabellotta, Bardi → Compiano).
  *
- *   node scripts/backfill-onboarding-city-from-address.mjs           # anteprima
- *   node scripts/backfill-onboarding-city-from-address.mjs --apply   # scrive DB + sync hotel
+ *   node scripts/backfill-onboarding-city-from-address.mjs                    # cross-provincia
+ *   node scripts/backfill-onboarding-city-from-address.mjs --include-same-province
+ *   node scripts/backfill-onboarding-city-from-address.mjs --include-same-province --apply
  */
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
+import { execSync } from "node:child_process";
 import * as dotenv from "dotenv";
 import {
   cityNamesMatch,
   extractCityFromCapAddress,
   resolveOnboardingCityName,
 } from "./lib/extract-city-from-address.mjs";
+import { buildStructureSlugBase, resolveUniqueSlug } from "./lib/seo-slug.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: resolve(__dirname, "../.env.local"), override: true });
 
 const PAGE = 1000;
 const APPLY = process.argv.includes("--apply");
+const INCLUDE_SAME_PROVINCE = process.argv.includes("--include-same-province");
+const CONCURRENCY = 40;
 
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -31,9 +36,21 @@ const { createClient } = await import("@supabase/supabase-js");
 const sb = createClient(url, key, { auth: { persistSession: false } });
 
 const comuneByName = new Map();
+const usedSlugs = new Set();
 
 function normalizeName(value) {
   return value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
+}
+
+function cityIdFromName(cityName, countryCode = "IT") {
+  const slug = cityName
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+  return `${countryCode}-${slug}`;
 }
 
 async function loadComuniIndex() {
@@ -52,6 +69,20 @@ async function loadComuniIndex() {
   console.log(`Indice comuni caricati: ${comuneByName.size}`);
 }
 
+async function loadUsedSlugs() {
+  for (const table of ["onboarding_hotels", "hotel_accounts"]) {
+    for (let from = 0; ; from += 1000) {
+      const { data, error } = await sb.from(table).select("slug").not("slug", "is", null).range(from, from + 999);
+      if (error) throw error;
+      for (const row of data ?? []) {
+        if (row.slug) usedSlugs.add(row.slug);
+      }
+      if (!data || data.length < 1000) break;
+    }
+  }
+  console.log(`Slug in uso caricati: ${usedSlugs.size}`);
+}
+
 function resolveComune(cityName) {
   const variants = [cityName, cityName.replace(/^Reggio /, "Reggio di ")];
   for (const nome of variants) {
@@ -61,23 +92,60 @@ function resolveComune(cityName) {
   return null;
 }
 
-async function syncHotelLocation(onboardingId) {
-  const { error } = await sb.rpc("admin_sync_hotel_location_from_onboarding", {
-    p_onboarding_id: onboardingId,
-  });
-  if (error && !error.message.includes("Could not find the function")) {
-    console.warn(`  ! sync hotel ${onboardingId}: ${error.message}`);
+function planSlug(nome, cityName, prevSlug) {
+  const base = buildStructureSlugBase(nome, cityName);
+  const slug = resolveUniqueSlug(base, usedSlugs, prevSlug);
+  usedSlugs.add(slug);
+  return { slug };
+}
+
+async function syncLinkedHotel(onboardingId, cityName, cityId, slug, slugPrevious) {
+  const { data: hotel } = await sb
+    .from("hotel_accounts")
+    .select("id, city_id, slug, slug_previous")
+    .eq("onboarding_hotel_id", onboardingId)
+    .maybeSingle();
+  if (!hotel) return;
+
+  const prevHotelSlugs = Array.isArray(hotel.slug_previous) ? hotel.slug_previous : [];
+  const hotelSlugPrevious =
+    hotel.slug && hotel.slug !== slug ? [...new Set([...prevHotelSlugs, hotel.slug])] : prevHotelSlugs;
+
+  const { error: partialErr } = await sb
+    .from("hotel_accounts")
+    .update({
+      city_name: cityName,
+      slug,
+      slug_previous: slugPrevious?.length ? slugPrevious : hotelSlugPrevious,
+      country_code: "IT",
+      country_name: "Italia",
+    })
+    .eq("id", hotel.id);
+  if (partialErr) console.warn(`  ! hotel partial ${hotel.id}: ${partialErr.message}`);
+
+  if (hotel.city_id !== cityId) {
+    try {
+      execSync(
+        `node scripts/rewrite-hotel-city-id.mjs --hotel-id=${hotel.id} --city-id=${JSON.stringify(cityId)} --city-name=${JSON.stringify(cityName)} --apply`,
+        { stdio: "pipe", cwd: resolve(__dirname, "..") },
+      );
+    } catch (err) {
+      console.warn(`  ! hotel city_id ${hotel.id}:`, err.stderr?.toString()?.slice(0, 120) || err.message);
+    }
+  } else if (slug !== hotel.slug) {
+    await sb.from("hotel_accounts").update({ slug, slug_previous: hotelSlugPrevious }).eq("id", hotel.id);
   }
 }
 
 await loadComuniIndex();
+if (APPLY) await loadUsedSlugs();
 
 const fixes = [];
 
 for (let from = 0; ; from += PAGE) {
   const { data, error } = await sb
     .from("onboarding_hotels")
-    .select("id, nome, slug, city_name, indirizzo")
+    .select("id, nome, slug, slug_previous, city_name, indirizzo")
     .not("indirizzo", "is", null)
     .range(from, from + PAGE - 1);
   if (error) {
@@ -97,27 +165,33 @@ for (let from = 0; ; from += PAGE) {
     if (cityNamesMatch(resolved, row.city_name)) continue;
 
     const harvestComune = resolveComune(row.city_name ?? "");
-    const capComune = resolveComune(capCity);
+    const capComune = resolveComune(resolved);
     if (!capComune) continue;
-    if (harvestComune?.sigla_provincia && capComune.sigla_provincia === harvestComune.sigla_provincia) {
-      continue;
+
+    if (!INCLUDE_SAME_PROVINCE) {
+      if (harvestComune?.sigla_provincia && capComune.sigla_provincia === harvestComune.sigla_provincia) {
+        continue;
+      }
     }
 
     fixes.push({
       id: row.id,
       nome: row.nome,
       slug: row.slug,
+      slugPrevious: Array.isArray(row.slug_previous) ? row.slug_previous : [],
       from: row.city_name,
       to: resolved,
       harvestProvince: harvestComune?.sigla_provincia ?? "?",
       capProvince: capComune.sigla_provincia,
+      cityIstat: capComune.codice_istat,
     });
   }
 
   if (data.length < PAGE) break;
 }
 
-console.log(`Trovate ${fixes.length} strutture (CAP + provincia diversa)`);
+const modeLabel = INCLUDE_SAME_PROVINCE ? "CAP mismatch (incl. stessa provincia)" : "CAP + provincia diversa";
+console.log(`Trovate ${fixes.length} strutture (${modeLabel})`);
 for (const fix of fixes.slice(0, 30)) {
   console.log(`  ${fix.nome} (${fix.slug}): ${fix.from} [${fix.harvestProvince}] → ${fix.to} [${fix.capProvince}]`);
 }
@@ -129,18 +203,35 @@ if (!APPLY) {
 }
 
 let updated = 0;
-for (const fix of fixes) {
-  const capComune = resolveComune(fix.to);
-  const { error } = await sb
-    .from("onboarding_hotels")
-    .update({ city_name: fix.to, city_istat: capComune?.codice_istat ?? null })
-    .eq("id", fix.id);
-  if (error) {
-    console.warn(`  ! ${fix.nome}: ${error.message}`);
-    continue;
+for (let offset = 0; offset < fixes.length; offset += CONCURRENCY) {
+  const chunk = fixes.slice(offset, offset + CONCURRENCY);
+  await Promise.all(
+    chunk.map(async (fix) => {
+      const { slug, slugPrevious } = planSlug(fix.nome, fix.to, fix.slug);
+      const mergedPrevious =
+        fix.slug && fix.slug !== slug ? [...new Set([...fix.slugPrevious, fix.slug])] : fix.slugPrevious;
+
+      const { error } = await sb
+        .from("onboarding_hotels")
+        .update({
+          city_name: fix.to,
+          city_istat: fix.cityIstat ?? null,
+          slug,
+          slug_previous: mergedPrevious,
+        })
+        .eq("id", fix.id);
+      if (error) {
+        console.warn(`  ! ${fix.nome}: ${error.message}`);
+        return;
+      }
+
+      await syncLinkedHotel(fix.id, fix.to, cityIdFromName(fix.to), slug, mergedPrevious);
+      updated += 1;
+    }),
+  );
+  if (updated % 400 === 0 || offset + CONCURRENCY >= fixes.length) {
+    console.log(`  Progress: ${updated}/${fixes.length}`);
   }
-  await syncHotelLocation(fix.id);
-  updated += 1;
 }
 
 console.log(`\nAggiornate ${updated}/${fixes.length} strutture`);
