@@ -11,7 +11,7 @@ import { getAuthUserFast } from "@/lib/auth/clientSession";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { isHotelOperational } from "@/lib/hotel/access";
 import { needsOnboardingHotelPrefill } from "@/lib/hotel/onboarding-claim";
-import { cityFromStored, findCityById } from "@/lib/constants/world-city-helpers";
+import { cityFromStored, findCityById, isPendingCityId, normalizeWorldCitySelection } from "@/lib/constants/world-city-helpers";
 import { type WorldCity } from "@/lib/constants/world-cities";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { formatMessage } from "@/lib/i18n/format";
@@ -81,6 +81,7 @@ export function EditHotelProfileForm() {
   const [selectedCity, setSelectedCity] = useState<WorldCity>(defaultCity);
   const [userId, setUserId] = useState<string | null>(null);
   const [onboardingHotelId, setOnboardingHotelId] = useState<string | null>(null);
+  const [initialCityId, setInitialCityId] = useState<string | null>(null);
   const [phoneVerified, setPhoneVerified] = useState(true);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
@@ -163,6 +164,7 @@ export function EditHotelProfileForm() {
           isHotelOperational(data, { phone_verified: profileData?.phone_verified ?? false }),
         );
         setOnboardingHotelId(data.onboarding_hotel_id ?? null);
+        setInitialCityId(data.city_id ?? null);
         setPhoneVerified(Boolean(profileData?.phone_verified));
         const city = cityFromStored({
           country_code: data.country_code,
@@ -296,6 +298,26 @@ export function EditHotelProfileForm() {
 
     try {
       const supabase = createBrowserSupabaseClient();
+      const normalizedCity = normalizeWorldCitySelection(selectedCity);
+      const cityChanged =
+        normalizedCity.city_id.trim() !== (initialCityId ?? "").trim() ||
+        normalizedCity.city_name.trim() !== form.city_name.trim();
+      const needsCityRpc = cityChanged && !isPendingCityId(initialCityId);
+
+      if (needsCityRpc) {
+        const { error: cityError } = await supabase.rpc("partner_update_hotel_city", {
+          p_hotel_id: form.id,
+          p_country_code: normalizedCity.country_code,
+          p_country_name: normalizedCity.country_name,
+          p_city_name: normalizedCity.city_name,
+          p_city_id: normalizedCity.city_id,
+        });
+        if (cityError) {
+          setError(cityError.message);
+          return;
+        }
+      }
+
       const updatePayload: Record<string, unknown> = {
         property_name: form.property_name,
         structure_type: form.structure_type,
@@ -314,11 +336,14 @@ export function EditHotelProfileForm() {
       };
 
       if (!onboardingHotelId) {
-        updatePayload.country_code = form.country_code;
-        updatePayload.country_name = form.country_name;
-        updatePayload.city_name = form.city_name;
-        updatePayload.city_id = form.city_id;
         updatePayload.public_phone = form.public_phone || null;
+      }
+
+      if (!needsCityRpc) {
+        updatePayload.country_code = normalizedCity.country_code;
+        updatePayload.country_name = normalizedCity.country_name;
+        updatePayload.city_name = normalizedCity.city_name;
+        updatePayload.city_id = normalizedCity.city_id;
       }
 
       const { error: updateError } = await supabase.from("hotel_accounts").update(updatePayload).eq("id", form.id);
@@ -337,7 +362,6 @@ export function EditHotelProfileForm() {
   }
 
   const phoneLocked = Boolean(onboardingHotelId);
-  const cityLocked = Boolean(onboardingHotelId);
   const needsPhoneVerification = phoneLocked && !phoneVerified;
   if (loading) return <div className="rounded-3xl border p-6 text-sm text-zinc-500">Caricamento profilo struttura...</div>;
 
@@ -357,7 +381,7 @@ export function EditHotelProfileForm() {
     );
   }
 
-  return <div className="space-y-6"><HardNavLink href="/struttura/dashboard" className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white"><ArrowLeft className="h-4 w-4" /> {hp.backToDashboard}</HardNavLink>{needsPhoneVerification || claimFlow ? <HotelPhoneVerification phone={form.public_phone} verified={phoneVerified} onVerified={() => { setPhoneVerified(true); setHotelOperational(true); }} /> : null}{success ? <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-700">{success}</div> : null}{error ? <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}<form onSubmit={onSubmit} className="space-y-6 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900"><div><p className="text-sm font-medium uppercase tracking-wide text-emerald-700">{hp.sectionLabel}</p><h1 className="mt-2 text-3xl font-semibold tracking-tight">{hp.title}</h1><p className="mt-2 text-sm text-zinc-500">{hp.intro}</p></div>{cityLocked ? <div className="grid gap-4 md:grid-cols-2"><label className="block text-sm font-medium text-zinc-800">{hp.countryLabel}<input value={form.country_name} readOnly className="mt-2 w-full cursor-not-allowed rounded-2xl border border-zinc-300 bg-zinc-100 px-4 py-3 text-sm text-zinc-600 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-300" /></label><label className="block text-sm font-medium text-zinc-800">{hp.cityLabel}<input value={form.city_name} readOnly className="mt-2 w-full cursor-not-allowed rounded-2xl border border-zinc-300 bg-zinc-100 px-4 py-3 text-sm text-zinc-600 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-300" /></label><p className="text-xs text-zinc-500 md:col-span-2">{t.dashboard.hotel.cityLocked}</p></div> : <CountryCitySelect value={selectedCity} onChange={updateCity} countryLabel={hp.countryLabel} cityLabel={hp.cityLabel} helpText={hp.cityHelp} />}
+  return <div className="space-y-6"><HardNavLink href="/struttura/dashboard" className="inline-flex items-center gap-2 text-sm font-semibold text-zinc-600 hover:text-zinc-950 dark:text-zinc-400 dark:hover:text-white"><ArrowLeft className="h-4 w-4" /> {hp.backToDashboard}</HardNavLink>{needsPhoneVerification || claimFlow ? <HotelPhoneVerification phone={form.public_phone} verified={phoneVerified} onVerified={() => { setPhoneVerified(true); setHotelOperational(true); }} /> : null}{success ? <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-700">{success}</div> : null}{error ? <div className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">{error}</div> : null}<form onSubmit={onSubmit} className="space-y-6 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900"><div><p className="text-sm font-medium uppercase tracking-wide text-emerald-700">{hp.sectionLabel}</p><h1 className="mt-2 text-3xl font-semibold tracking-tight">{hp.title}</h1><p className="mt-2 text-sm text-zinc-500">{hp.intro}</p></div><CountryCitySelect value={selectedCity} onChange={updateCity} countryLabel={hp.countryLabel} cityLabel={hp.cityLabel} helpText={hp.cityHelp} />
   <div className="grid gap-5 md:grid-cols-2"><label className="block text-sm font-medium">{hp.propertyName}<input value={form.property_name} onChange={(e) => update("property_name", e.target.value)} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium">{hp.structureType}<select value={form.structure_type} onChange={(e) => update("structure_type", e.target.value as StructureType)} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950">{Object.entries(structureTypeLabels).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label><label className="block text-sm font-medium">{hp.cinOptional} <span className="text-zinc-400">({t.common.optional})</span><input value={form.cin_code} onChange={(e) => update("cin_code", e.target.value)} placeholder={hp.cinPlaceholder} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium">{hp.roomsUnits}<input type="number" min={1} value={form.rooms_quantity} onChange={(e) => update("rooms_quantity", Number(e.target.value))} required className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium md:col-span-2">{hp.description}<textarea value={form.description} onChange={(e) => update("description", e.target.value)} rows={5} placeholder={hp.descriptionItPlaceholder} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label><label className="block text-sm font-medium md:col-span-2">{hp.descriptionEn}<textarea value={form.description_en} onChange={(e) => update("description_en", e.target.value)} rows={5} placeholder={hp.descriptionEnPlaceholder} className="mt-2 w-full rounded-2xl border border-zinc-300 bg-white px-4 py-3 text-sm dark:border-zinc-700 dark:bg-zinc-950" /></label>
   <section className="space-y-4 rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 md:col-span-2"><div><h2 className="font-semibold">{hp.photosTitle}</h2><p className="mt-1 text-sm text-zinc-500">{hp.photosHint}</p></div><div className="grid gap-4 md:grid-cols-[240px_1fr]"><div className="rounded-2xl border border-zinc-200 p-3 dark:border-zinc-800"><p className="text-sm font-medium">{hp.mainPhoto}</p><div className="mt-3 aspect-video overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-950">{form.main_photo_url ? <Image src={form.main_photo_url} alt={hp.mainPhoto} width={600} height={360} className="h-full w-full object-cover" /> : <div className="flex h-full items-center justify-center text-sm text-zinc-500">{hp.noPhoto}</div>}</div><label className="mt-3 inline-flex cursor-pointer items-center gap-2 rounded-full bg-zinc-950 px-4 py-2 text-sm font-semibold text-white dark:bg-white dark:text-zinc-950"><ImagePlus className="h-4 w-4" /> {uploading ? hp.uploading : hp.uploadMain}<input type="file" accept="image/jpeg,image/png,image/webp" onChange={onMainPhotoChange} disabled={uploading} className="sr-only" /></label></div><div className="rounded-2xl border border-zinc-200 p-3 dark:border-zinc-800"><div className="flex items-center justify-between gap-3"><p className="text-sm font-medium">{formatMessage(hp.additionalPhotos, { count: String(form.gallery_photo_urls.length) })}</p><label className={`inline-flex cursor-pointer items-center gap-2 rounded-full border px-4 py-2 text-sm font-semibold ${form.gallery_photo_urls.length >= MAX_GALLERY_PHOTOS ? "pointer-events-none opacity-50" : ""}`}><ImagePlus className="h-4 w-4" /> {hp.addPhoto}<input type="file" accept="image/jpeg,image/png,image/webp" onChange={onGalleryPhotoChange} disabled={uploading || form.gallery_photo_urls.length >= MAX_GALLERY_PHOTOS} className="sr-only" /></label></div><div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">{form.gallery_photo_urls.map((url, index) => <div key={url} className="relative aspect-video overflow-hidden rounded-2xl bg-zinc-100 dark:bg-zinc-950"><Image src={url} alt={`Foto hotel ${index + 1}`} width={300} height={180} className="h-full w-full object-cover" /><button type="button" onClick={() => removeGalleryPhoto(index)} className="absolute right-2 top-2 rounded-full bg-white/90 p-1 text-zinc-900 shadow-sm"><X className="h-4 w-4" /></button></div>)}{!form.gallery_photo_urls.length ? <p className="text-sm text-zinc-500">{hp.noAdditionalPhotos}</p> : null}</div></div></div></section>
   <AddressAutocomplete
