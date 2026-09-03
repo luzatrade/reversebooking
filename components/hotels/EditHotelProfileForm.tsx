@@ -305,16 +305,40 @@ export function EditHotelProfileForm() {
       const needsCityRpc = cityChanged && !isPendingCityId(initialCityId);
 
       if (needsCityRpc) {
-        const { error: cityError } = await supabase.rpc("partner_update_hotel_city", {
-          p_hotel_id: form.id,
-          p_country_code: normalizedCity.country_code,
-          p_country_name: normalizedCity.country_name,
-          p_city_name: normalizedCity.city_name,
-          p_city_id: normalizedCity.city_id,
-        });
-        if (cityError) {
-          setError(cityError.message);
+        const session = await supabase.auth.getSession();
+        const token = session.data.session?.access_token;
+        if (!token) {
+          setError(hp.loginRequired);
           return;
+        }
+
+        const cityRes = await fetch("/api/hotel/update-city", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+          },
+          body: JSON.stringify({
+            hotelId: form.id,
+            countryCode: normalizedCity.country_code,
+            countryName: normalizedCity.country_name,
+            cityName: normalizedCity.city_name,
+            cityId: normalizedCity.city_id,
+          }),
+        });
+        const cityData = (await cityRes.json()) as { error?: string };
+        if (!cityRes.ok) {
+          const { error: cityError } = await supabase.rpc("partner_update_hotel_city", {
+            p_hotel_id: form.id,
+            p_country_code: normalizedCity.country_code,
+            p_country_name: normalizedCity.country_name,
+            p_city_name: normalizedCity.city_name,
+            p_city_id: normalizedCity.city_id,
+          });
+          if (cityError) {
+            setError(cityData.error ?? cityError.message);
+            return;
+          }
         }
       }
 
