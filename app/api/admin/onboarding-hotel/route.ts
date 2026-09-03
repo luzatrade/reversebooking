@@ -11,6 +11,7 @@ import {
 import { MAX_GALLERY_PHOTOS } from "@/lib/hotel/gallery-photos";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
 import { notifyOnboardingHotelIndexNow } from "@/lib/seo/indexnow-sync";
+import { syncHotelLocationFromOnboarding } from "@/lib/admin/sync-hotel-location-from-onboarding";
 import { isMissingColumnError, stripKeys } from "@/lib/supabase/schema-compat";
 
 const ALLOWED_STATUSES = new Set(["unclaimed", "pending_verification", "claimed"]);
@@ -61,6 +62,14 @@ async function syncLinkedHotelLocation(admin: SupabaseClient, id: string) {
   const { error: rpcError } = await admin.rpc("admin_sync_hotel_location_from_onboarding", {
     p_onboarding_id: id,
   });
+  if (rpcError?.message.includes("Could not find the function")) {
+    try {
+      await syncHotelLocationFromOnboarding(admin, id);
+      return null;
+    } catch (fallbackError) {
+      return fallbackError instanceof Error ? fallbackError : new Error(String(fallbackError));
+    }
+  }
   return rpcError;
 }
 
