@@ -270,15 +270,37 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
     : localizedPath(locale, "/destinazioni");
 
   function handleCityChange(city: WorldCity) {
+    const cityName = city.city_name.trim();
+    if (cityName) {
+      const isKnownCity =
+        majorWorldCities.some(
+          (known) =>
+            known.country_code === city.country_code &&
+            known.city_name.toLowerCase() === cityName.toLowerCase(),
+        ) ||
+        Boolean(
+          resolveCanonicalCityId({
+            cityName,
+            countryCode: city.country_code,
+            cityId: city.city_id,
+          }),
+        );
+      const looksLikeStructureName = /\b(hotel|bb|b&b|residence|relais|hostel|affittacamere|agriturismo|albergo)\b/i.test(
+        cityName,
+      );
+      if (!isKnownCity && looksLikeStructureName) return;
+    }
     setFocusedHotelId(null);
     setSelectedCity(city);
   }
 
   function handlePickStructure(structure: CatalogStructureHit) {
-    const city = structure.cityId
-      ? findCityById(structure.cityId)
-      : cityFromInput(structure.countryCode, structure.cityName);
-    setSelectedCity(city);
+    if (!hasSelectedCity) {
+      const city = structure.cityId
+        ? findCityById(structure.cityId)
+        : cityFromInput(structure.countryCode, structure.cityName);
+      setSelectedCity(city);
+    }
     setHotels((current) => {
       if (current.some((hotel) => hotel.id === structure.id)) return current;
       return [catalogHitToHotelAccount(structure), ...current];
@@ -497,7 +519,15 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
         const json = (await res.json()) as { hotels?: ShowcaseHomeHotel[]; structureCount?: number };
         if (cancelled) return;
         const rows = Array.isArray(json.hotels) ? json.hotels : [];
-        setHotels(rows.map(mapInitialHotel));
+        setHotels((prev) => {
+          const fetched = rows.map(mapInitialHotel);
+          const byId = new Map(fetched.map((hotel) => [hotel.id, hotel]));
+          if (focusedHotelId) {
+            const pinned = prev.find((hotel) => hotel.id === focusedHotelId);
+            if (pinned && !byId.has(pinned.id)) byId.set(pinned.id, pinned);
+          }
+          return Array.from(byId.values());
+        });
         if (hasSelectedCity) {
           setCityStructureCount(typeof json.structureCount === "number" ? json.structureCount : rows.length);
         } else {
@@ -514,7 +544,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
     return () => {
       cancelled = true;
     };
-  }, [hasSelectedCity, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code, initialData?.hotels.length]);
+  }, [hasSelectedCity, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code, initialData?.hotels.length, focusedHotelId]);
 
   useEffect(() => {
     let cancelled = false;
@@ -547,7 +577,13 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
     return () => { cancelled = true; };
   }, [hasSelectedCity, selectedCity.city_id]);
 
-  const visibleHotels = useMemo(() => hotels.filter((h) => h.provider_kind !== "agency").filter(matchesSelectedCity), [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
+  const visibleHotels = useMemo(() => {
+    const filtered = hotels.filter((h) => h.provider_kind !== "agency").filter(matchesSelectedCity);
+    if (!focusedHotelId) return filtered;
+    const focused = hotels.find((hotel) => hotel.id === focusedHotelId && hotel.provider_kind !== "agency");
+    if (!focused || filtered.some((hotel) => hotel.id === focusedHotelId)) return filtered;
+    return [focused, ...filtered];
+  }, [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code, focusedHotelId]);
   const displayHotels = useMemo(() => {
     if (!focusedHotelId) return visibleHotels;
     const match = visibleHotels.find((hotel) => hotel.id === focusedHotelId);
