@@ -45,3 +45,30 @@ export function guestToAlloggiatiRecord(guest: GuestRecord): AlloggiatiRecord {
 export function guestsToAlloggiatiRecords(guests: GuestRecord[]): AlloggiatiRecord[] {
   return guests.map(guestToAlloggiatiRecord);
 }
+
+const COMUNE_CODE = /^\d{9}$/;
+/** Campionario demo pre-import (es. ROMA 058091001) — rifiutato dal portale. */
+const LEGACY_DEMO_COMUNE = /^0\d{8}$/;
+
+function assertNineDigitPlace(code: string | undefined, label: string, guest: GuestRecord): void {
+  if (!code || !COMUNE_CODE.test(code)) {
+    throw new Error(`${label} non valido per ${guest.surname} — riseleziona comune o stato nel check-in.`);
+  }
+  if (LEGACY_DEMO_COMUNE.test(code)) {
+    throw new Error(
+      `${label} obsoleto per ${guest.surname} — riseleziona il comune (codici Alloggiati aggiornati).`,
+    );
+  }
+}
+
+/** Blocca export con codici comune legacy (pre-import ufficiale) o incompleti. */
+export function validateGuestForExport(guest: GuestRecord): void {
+  const isItalianBirth = guest.birthCountryCode === '100000100';
+  if (isItalianBirth) {
+    assertNineDigitPlace(guest.birthMunicipalityCode, 'Comune di nascita', guest);
+  }
+
+  if (!guestNeedsDocumentFields(guest.guestType)) return;
+
+  assertNineDigitPlace(guest.documentIssuePlaceCode, 'Luogo rilascio documento', guest);
+}
