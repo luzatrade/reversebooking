@@ -69,7 +69,7 @@ const ctaRequest = "inline-flex items-center justify-center gap-1.5 rounded-full
 
 /** Vetrina homepage: elenco agenzie per città (riattivare in un secondo momento). */
 const SHOW_HOME_AGENCY_DIRECTORY = false;
-const SHOWCASE_REQUESTS_POOL = 250;
+const SHOWCASE_REQUESTS_POOL = 1000;
 
 function shuffleItems<T>(items: T[]): T[] {
   const copy = [...items];

@@ -19,7 +19,7 @@ import { parseStoredCoords } from "@/lib/showcase/hotelMapCoords";
 export const RANDOM_ONBOARDING_POOL = 320;
 export const RANDOM_ONBOARDING_SHOW = 40;
 export const RANDOM_REGISTERED_SHOW = 20;
-export const SHOWCASE_REQUESTS_POOL = 250;
+export const SHOWCASE_REQUESTS_POOL = 1000;
 
 const PUBLIC_ONBOARDING_STATUS_SET = new Set<string>([
   "unclaimed",
