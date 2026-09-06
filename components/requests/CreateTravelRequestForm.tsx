@@ -296,7 +296,7 @@ export function CreateTravelRequestForm() {
       }
       clearTravelRequestDraft();
       setSuccess(t.forms.travelRequest.successCreated);
-      setTimeout(() => router.push("/inserzionista/dashboard"), 900);
+      setTimeout(() => router.push(`/inserzionista/annunci/${newRequest.id}`), 900);
       return true;
     },
     [resumePath, router, t.forms.travelRequest.successCreated, validateForm],

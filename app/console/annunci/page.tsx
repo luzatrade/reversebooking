@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ConsolePageHeader } from "@/components/console/ConsolePageHeader";
 import { ConsoleSearchBanner } from "@/components/console/ConsoleSearchBanner";
 import { DataTable } from "@/components/console/DataTable";
@@ -28,6 +29,7 @@ export default async function ConsoleAnnunciPage({
       <ConsoleSearchBanner query={q} clearHref="/console/annunci" />
       <DataTable
         columns={[
+          { key: "code", label: "Codice" },
           { key: "destination", label: "Destinazione" },
           { key: "dates", label: "Date" },
           { key: "guests", label: "Ospiti" },
@@ -39,13 +41,18 @@ export default async function ConsoleAnnunciPage({
         rows={requests.map((r) => ({
           id: r.id,
           cells: {
+            code: (
+              <Link href={`/console/annunci/${r.id}`} className="font-mono text-xs font-semibold text-[#0f4c81] hover:underline">
+                {r.request_code ?? r.id.slice(0, 8)}
+              </Link>
+            ),
             destination: (
-              <div>
+              <Link href={`/console/annunci/${r.id}`} className="block hover:underline">
                 <p className="font-medium">
                   {r.city_name}, {r.country_name}
                 </p>
                 <p className="text-xs text-zinc-500">{r.preferred_area}</p>
-              </div>
+              </Link>
             ),
             dates: `${formatDate(r.check_in)} → ${formatDate(r.check_out)}`,
             guests: `${r.guests_count} ospiti · ${r.rooms_count} camere`,
@@ -54,6 +61,9 @@ export default async function ConsoleAnnunciPage({
             expires: formatDate(r.expires_at),
             actions: (
               <div className="flex flex-col gap-1.5 sm:flex-row sm:items-center sm:gap-2">
+                <Link href={`/console/annunci/${r.id}`} className="text-xs font-semibold text-[#0f4c81] hover:underline">
+                  Dettaglio
+                </Link>
                 <RequestStatusSelect requestId={r.id} current={r.status} />
                 <DeleteButton entity="request" id={r.id} />
               </div>

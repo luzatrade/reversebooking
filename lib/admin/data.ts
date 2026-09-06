@@ -156,14 +156,63 @@ export async function listTravelRequests(query?: string) {
   let request = supabase
     .from("travel_requests")
     .select(
-      "id, city_name, country_name, preferred_area, check_in, check_out, guests_count, rooms_count, budget, status, expires_at, created_at, advertiser_id",
+      "id, request_code, city_name, country_name, preferred_area, check_in, check_out, guests_count, rooms_count, budget, status, expires_at, created_at, advertiser_id",
     )
     .order("created_at", { ascending: false })
     .limit(200);
-  request = applySearch(request, query, ["city_name", "preferred_area", "country_name"], ["id"]);
+  request = applySearch(request, query, ["city_name", "preferred_area", "country_name", "request_code"], ["id"]);
   const { data, error } = await request;
   if (error) throw error;
   return data ?? [];
+}
+
+export async function getTravelRequestById(id: string) {
+  const supabase = db();
+  const { data, error } = await supabase
+    .from("travel_requests")
+    .select(
+      "id, request_code, city_name, city_id, country_code, country_name, preferred_area, preferred_structure_type, check_in, check_out, guests_count, rooms_count, room_details, preference_filters, budget, meal_plan, notes, status, expires_at, created_at, advertiser_id, target_hotel_account_id, visible_contact_email, visible_contact_phone, visible_contact_whatsapp",
+    )
+    .eq("id", id)
+    .maybeSingle();
+  if (error) throw error;
+  if (!data) return null;
+
+  const [{ data: advertiser }, { data: offers }, { data: targetHotel }] = await Promise.all([
+    supabase
+      .from("advertiser_profiles")
+      .select("id, user_id, first_name, last_name, contact_email, contact_phone, advertiser_type")
+      .eq("id", data.advertiser_id)
+      .maybeSingle(),
+    supabase
+      .from("offers")
+      .select("id, offer_code, status, total_price, created_at, hotel_account_id")
+      .eq("travel_request_id", id)
+      .order("created_at", { ascending: false }),
+    data.target_hotel_account_id
+      ? supabase
+          .from("hotel_accounts")
+          .select("id, property_name, city_name")
+          .eq("id", data.target_hotel_account_id)
+          .maybeSingle()
+      : Promise.resolve({ data: null }),
+  ]);
+
+  let hotelNames = new Map<string, string>();
+  const hotelIds = (offers ?? []).map((o) => o.hotel_account_id).filter(Boolean);
+  if (hotelIds.length) {
+    hotelNames = await hotelNamesByIds(hotelIds);
+  }
+
+  return {
+    request: data,
+    advertiser: advertiser ?? null,
+    offers: (offers ?? []).map((offer) => ({
+      ...offer,
+      hotel_name: hotelNames.get(offer.hotel_account_id) ?? null,
+    })),
+    targetHotel: targetHotel ?? null,
+  };
 }
 
 export async function listOffers(query?: string) {
