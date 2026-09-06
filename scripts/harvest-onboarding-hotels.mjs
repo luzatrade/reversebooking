@@ -39,11 +39,15 @@ const { createClient } = await import("@supabase/supabase-js");
 
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
-const googleSearchKey = process.env.GOOGLE_PLACES_API_KEY_TEMP || process.env.GOOGLE_PLACES_API_KEY;
+const googleSearchKey =
+  process.env.GOOGLE_PLACES_API_KEY_TEMP ||
+  process.env.GOOGLE_PLACES_API_KEY ||
+  process.env.google?.trim();
 const googlePhotosKey =
   process.env.GOOGLE_PLACES_PHOTOS_KEY?.trim() ||
   process.env.GOOGLE_PLACES_API_KEY_TEMP?.trim() ||
-  process.env.GOOGLE_PLACES_API_KEY;
+  process.env.GOOGLE_PLACES_API_KEY?.trim() ||
+  process.env.google?.trim();
 const usingTempGoogleKey = Boolean(process.env.GOOGLE_PLACES_API_KEY_TEMP?.trim());
 const usingProdPhotosKey = Boolean(
   process.env.GOOGLE_PLACES_PHOTOS_KEY?.trim() &&
@@ -85,10 +89,12 @@ const CITY_CENTRO = {
   torino: { lat: 45.0703, lng: 7.6869, radiusM: 2500 },
   genova: { lat: 44.4056, lng: 8.9463, radiusM: 2200 },
   bologna: { lat: 44.4949, lng: 11.3426, radiusM: 2200 },
-  firenze: { lat: 43.7696, lng: 11.2558, radiusM: 2000 },
+  firenze: { lat: 43.7696, lng: 11.2558, radiusM: 2500 },
   bari: { lat: 41.1171, lng: 16.8719, radiusM: 2200 },
   venezia: { lat: 45.4343, lng: 12.3388, radiusM: 2000 },
-  verona: { lat: 45.4384, lng: 10.9916, radiusM: 2000 },
+  /** Mestre centro (Piazza Ferretto, stazione, Via Piave) — non Marghera/Tessera */
+  mestre: { lat: 45.4935, lng: 12.2424, radiusM: 1800 },
+  verona: { lat: 45.4384, lng: 10.9916, radiusM: 2500 },
   rimini: { lat: 44.0678, lng: 12.5695, radiusM: 2500 },
   siena: { lat: 43.3188, lng: 11.3308, radiusM: 1500 },
   pisa: { lat: 43.7228, lng: 10.4017, radiusM: 1800 },
@@ -96,7 +102,7 @@ const CITY_CENTRO = {
   "reggio-di-calabria": { lat: 38.1113, lng: 15.6471, radiusM: 2200 },
   sorrento: { lat: 40.6263, lng: 14.3758, radiusM: 1500 },
   amalfi: { lat: 40.634, lng: 14.6027, radiusM: 1200 },
-  padova: { lat: 45.4064, lng: 11.8768, radiusM: 2200 },
+  padova: { lat: 45.4064, lng: 11.8768, radiusM: 7000 },
   trieste: { lat: 45.6495, lng: 13.7768, radiusM: 2000 },
   perugia: { lat: 43.1107, lng: 12.389, radiusM: 2000 },
   lecce: { lat: 40.3515, lng: 18.175, radiusM: 2000 },
@@ -294,6 +300,9 @@ const italyPriority = args.includes("--italy-priority");
 const italyExtra = args.includes("--italy-extra");
 const fillGaps = args.includes("--fill-gaps");
 const regionArg = args.find((a, i) => args[i - 1] === "--region");
+const zoneArg = args.find((a, i) => args[i - 1] === "--zone");
+/** centro = laguna/isola (default); mestre = terraferma veneziana */
+const harvestZone = zoneArg && ["centro", "mestre"].includes(zoneArg) ? zoneArg : "centro";
 
 const logDir = resolve(__dirname, "../logs");
 mkdirSync(logDir, { recursive: true });
@@ -327,6 +336,7 @@ function isLodging(types) {
 
 function centroForComune(comune) {
   const key = slugify(comune.nome);
+  if (harvestZone === "mestre" && key === "venezia") return CITY_CENTRO.mestre;
   return CITY_CENTRO[key] ?? null;
 }
 
@@ -387,6 +397,112 @@ function searchQueries(comune) {
         "hotel Vernazza Cinque Terre",
       ];
     }
+    if (comune.nome === "Milano") {
+      return [
+        `hotel centro ${comune.nome}`,
+        `hotel ${comune.nome} centro storico`,
+        `hotel ${base} centro`,
+        "hotel Milano Duomo",
+        "hotel Milano Brera",
+        "hotel Milano Porta Nuova",
+        "hotel Milano Corso Buenos Aires",
+        "hotel Milano Navigli",
+        "hotel Milano Galleria",
+        "boutique hotel Milano centro",
+        "luxury hotel Milano centro",
+      ];
+    }
+    if (comune.nome === "Firenze") {
+      return [
+        `hotel centro ${comune.nome}`,
+        `hotel ${comune.nome} centro storico`,
+        `hotel ${base} centro`,
+        "hotel Firenze Duomo",
+        "hotel Firenze Santa Maria Novella",
+        "hotel Firenze Oltrarno",
+        "hotel Firenze San Lorenzo",
+        "hotel Firenze Santa Croce",
+        "hotel Firenze Ponte Vecchio",
+        "hotel Firenze Repubblica",
+        "boutique hotel Firenze centro",
+        "luxury hotel Firenze",
+        "affittacamere Firenze centro",
+      ];
+    }
+    if (comune.nome === "Padova") {
+      return [
+        `hotel centro ${comune.nome}`,
+        `hotel ${comune.nome} centro storico`,
+        `hotel ${base} centro`,
+        "hotel Padova Prato della Valle",
+        "hotel Padova Basilica Sant'Antonio",
+        "hotel Padova stazione",
+        "hotel Padova Duomo",
+        "hotel Padova Università",
+        "hotel Padova Piazza delle Erbe",
+        "hotel Padova Piazza dei Signori",
+        "hotel Padova Cappella degli Scrovegni",
+        "hotel Padova centro storico",
+        "affittacamere Padova centro",
+        "boutique hotel Padova centro",
+        "luxury hotel Padova",
+        "bed and breakfast Padova centro",
+        "guest house Padova centro",
+        "B&B Padova centro storico",
+        "hotel Padova Via Roma",
+        "hotel Padova Via San Fermo",
+      ];
+    }
+    if (comune.nome === "Verona") {
+      return [
+        `hotel centro ${comune.nome}`,
+        `hotel ${comune.nome} centro storico`,
+        `hotel ${base} centro`,
+        "hotel Verona Arena",
+        "hotel Verona Piazza Bra",
+        "hotel Verona Porta Nuova",
+        "hotel Verona centro storico",
+        "hotel Verona Giulietta",
+        "hotel Verona Piazza Erbe",
+        "hotel Verona Castelvecchio",
+        "hotel Verona Veronetta",
+        "hotel Verona Borgo Trento",
+        "hotel Verona Corso Porta Nuova",
+        "hotel Verona Adige",
+        "hotel Verona stazione",
+        "hotel Verona San Zeno",
+        "hotel Verona Ponte Pietra",
+        "affittacamere Verona centro",
+        "boutique hotel Verona centro",
+        "luxury hotel Verona",
+      ];
+    }
+    if (comune.nome === "Venezia") {
+      if (harvestZone === "mestre") {
+        return [
+          "hotel Mestre centro",
+          "hotel Mestre Piazza Ferretto",
+          "hotel Mestre stazione",
+          "hotel Via Piave Mestre",
+          "hotel Mestre Venezia centro",
+          "hotel Venezia Mestre",
+        ];
+      }
+      return [
+        `hotel centro ${comune.nome}`,
+        `hotel ${comune.nome} centro storico`,
+        `hotel ${base} centro`,
+        "hotel Venezia San Marco",
+        "hotel Venezia Rialto",
+        "hotel Venezia Cannaregio",
+        "hotel Venezia Dorsoduro",
+        "hotel Venezia Santa Lucia",
+        "hotel Venezia Giudecca",
+        "hotel Venezia Castello",
+        "boutique hotel Venezia centro",
+        "luxury hotel Venezia",
+      ];
+    }
     return [
       `hotel centro ${comune.nome}`,
       `hotel ${comune.nome} centro storico`,
@@ -394,7 +510,28 @@ function searchQueries(comune) {
     ];
   }
   if (hotelOnly) {
+    if (comune.nome === "Padova") {
+      return [
+        `hotel ${base} Italia`,
+        `hotel ${comune.nome} centro`,
+        "hotel Padova stazione",
+        "hotel Padova Prato della Valle",
+        "hotel Padova Basilica Sant'Antonio",
+      ];
+    }
     return [`hotel ${base} Italia`, `hotel ${comune.nome} centro`];
+  }
+  if (comune.nome === "Padova") {
+    return [
+      `hotel ${base} Italia`,
+      `bed and breakfast ${base}`,
+      `affittacamere ${base}`,
+      `hotel Padova centro storico`,
+      `hotel Padova stazione`,
+      `guest house Padova`,
+      `hotel Padova Università`,
+      `hotel Padova Prato della Valle`,
+    ];
   }
   return [
     `hotel ${base} Italia`,
@@ -578,7 +715,8 @@ async function collectPlacesForComune(comune, existingPlaceIds) {
 
     let pageToken;
     let pages = 0;
-    while (byId.size < slotsNeeded && pages < 3) {
+    const maxPages = maxHotels && maxHotels >= 100 ? 5 : 3;
+    while (byId.size < slotsNeeded && pages < maxPages) {
       await sleep(SEARCH_DELAY_MS);
       const data = await searchPlaces(query, pageToken, comune);
       for (const place of data.places ?? []) {
@@ -648,7 +786,10 @@ async function processComune(comune) {
     inserted += 1;
     existingPlaceIds.add(place.id);
 
-    if (hotelCap && existingCount + inserted >= hotelCap) break;
+    if (hotelCap) {
+      const capReached = force ? inserted >= hotelCap : existingCount + inserted >= hotelCap;
+      if (capReached) break;
+    }
   }
 
   if (!centroMode) {
@@ -820,7 +961,7 @@ async function loadComuni() {
 async function main() {
   log("HotelsDrop — harvest onboarding_hotels");
   log(
-    `googleSearch=${usingTempGoogleKey ? "TEMP" : "default"} googlePhotos=${usingProdPhotosKey ? "PHOTOS_KEY" : usingTempGoogleKey ? "TEMP" : "default"} force=${force} skipPhotos=${skipPhotos} skipEmails=${skipEmails} centro=${centroMode} hotelOnly=${hotelOnly} maxHotels=${maxHotels ?? "default"} limit=${limit ?? "none"} fillGaps=${fillGaps} italyPriority=${italyPriority} italyExtra=${italyExtra} city=${cityArg ?? "none"} countries=${countriesArg ?? "none"} comune=${comuneArg ?? "all"} region=${regionArg ?? "all"}`,
+    `googleSearch=${usingTempGoogleKey ? "TEMP" : "default"} googlePhotos=${usingProdPhotosKey ? "PHOTOS_KEY" : usingTempGoogleKey ? "TEMP" : "default"} force=${force} skipPhotos=${skipPhotos} skipEmails=${skipEmails} centro=${centroMode} zone=${harvestZone} hotelOnly=${hotelOnly} maxHotels=${maxHotels ?? "default"} limit=${limit ?? "none"} fillGaps=${fillGaps} italyPriority=${italyPriority} italyExtra=${italyExtra} city=${cityArg ?? "none"} countries=${countriesArg ?? "none"} comune=${comuneArg ?? "all"} region=${regionArg ?? "all"}`,
   );
 
   const comuni = await loadComuni();
