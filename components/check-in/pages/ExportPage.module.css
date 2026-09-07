@@ -53,6 +53,32 @@
   cursor: pointer;
 }
 
+.guestSelect {
+  min-width: 0;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  margin-left: auto;
+  flex: 0 0 auto;
+  padding: 0.35rem 0.55rem;
+  border: 1px solid rgba(220, 38, 38, 0.35);
+  border-radius: 6px;
+  background: transparent;
+  color: #dc2626;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.deleteBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .item span {
   display: flex;
   flex-direction: column;

@@ -299,13 +299,15 @@ async function importFromGoogle(input) {
     );
   }
 
-  const best = shortlist[0];
-  if (!best || best.score < 25) {
+  const best = input.placeId
+    ? ranked.find(({ place }) => place.id === input.placeId) ?? shortlist[0]
+    : shortlist[0];
+  if (!best || (!input.placeId && best.score < 25)) {
     throw new Error("Match Google troppo debole, import annullato");
   }
 
   const place = best.place;
-  if (!isHotelPlace(place)) {
+  if (!input.placeId && !isHotelPlace(place)) {
     throw new Error("Il risultato Google non è classificato come hotel");
   }
 

@@ -142,6 +142,10 @@
     "localStorageNotice": "Salvataggio locale nel browser (DB non disponibile). Esporta prima di cambiare dispositivo.",
     "selectAll": "Seleziona tutti",
     "exporting": "Generazione file…",
+    "delete": "Elimina",
+    "deleting": "Eliminazione…",
+    "deleteConfirm": "Eliminare {{name}}? Questa registrazione non è ancora stata esportata.",
+    "deleteError": "Errore durante l'eliminazione dell'ospite",
     "success": "File del {{date}} generato — {{count}} ospiti esportati",
     "error": "Errore durante l'export",
     "noGuests": "Nessun ospite da esportare. Registra gli arrivi dal tab Check-in."

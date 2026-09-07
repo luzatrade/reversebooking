@@ -83,6 +83,14 @@ export function markLocalGuestsExported(hotelAccountId: string, guestIds: string
   localStorage.setItem(storageKey(hotelAccountId), JSON.stringify(guests));
 }
 
+export function deleteLocalGuest(hotelAccountId: string, guestId: string): void {
+  const guests = loadLocalGuests(hotelAccountId);
+  const remaining = guests.filter(
+    (guest) => guest.id !== guestId || Boolean(guest.exported_questura_at),
+  );
+  localStorage.setItem(storageKey(hotelAccountId), JSON.stringify(remaining));
+}
+
 export function mapStoredGuest(row: StoredGuestRow): GuestRecord & { exportedQuesturaAt?: string } {
   return {
     id: row.id,

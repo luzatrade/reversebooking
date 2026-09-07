@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 import { createBrowserSupabaseClient } from '@/lib/supabase/client';
 import {
   guestToInsertRow,
+  deleteLocalGuest,
   loadLocalGuests,
   mapDbGuest,
   mapStoredGuest,
@@ -123,7 +124,6 @@ export async function markGuestsExported(
     markLocalGuestsExported(hotelAccountId, guestIds);
     return;
   }
-
   const supabase = createBrowserSupabaseClient();
   const { error } = await supabase
     .from('check_in_guests')
@@ -138,6 +138,33 @@ export async function markGuestsExported(
   if (error) {
     if (isMissingTableError(error.message)) {
       markLocalGuestsExported(hotelAccountId, guestIds);
+      return;
+    }
+    throw error;
+  }
+}
+
+export async function deleteGuest(
+  hotelAccountId: string,
+  guestId: string,
+  usingLocalStorage = false,
+): Promise<void> {
+  if (usingLocalStorage) {
+    deleteLocalGuest(hotelAccountId, guestId);
+    return;
+  }
+
+  const supabase = createBrowserSupabaseClient();
+  const { error } = await supabase
+    .from('check_in_guests')
+    .delete()
+    .eq('hotel_account_id', hotelAccountId)
+    .eq('id', guestId)
+    .is('exported_questura_at', null);
+
+  if (error) {
+    if (isMissingTableError(error.message)) {
+      deleteLocalGuest(hotelAccountId, guestId);
       return;
     }
     throw error;

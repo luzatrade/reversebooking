@@ -8,7 +8,7 @@ import {
   formatItalianDateLabel,
 } from "@/lib/check-in/export/questura";
 import { guestsToAlloggiatiRecords } from "@/lib/check-in/export/guestMapper";
-import { markGuestsExported, useGuests } from "@/lib/check-in/useGuests";
+import { deleteGuest, markGuestsExported, useGuests } from "@/lib/check-in/useGuests";
 import { logCheckInTelemetry } from "@/lib/check-in/telemetry";
 import { toast } from "@/lib/check-in/useToast";
 import styles from "./ExportPage.module.css";
@@ -39,6 +39,7 @@ export function ExportPage({
   const [selectedDate, setSelectedDate] = useState(todayIso);
   const [selected, setSelected] = useState<Set<string>>(new Set());
   const [exporting, setExporting] = useState(false);
+  const [deletingId, setDeletingId] = useState<string | null>(null);
 
   const guestsByDate = useMemo(() => {
     const map = new Map<string, typeof guests>();
@@ -123,6 +124,24 @@ export function ExportPage({
     }
   }
 
+  async function handleDelete(guestId: string, guestName: string) {
+    if (!window.confirm(t("export.deleteConfirm", { name: guestName }))) return;
+    setDeletingId(guestId);
+    try {
+      await deleteGuest(hotelAccountId, guestId, usingLocalStorage);
+      setSelected((prev) => {
+        const next = new Set(prev);
+        next.delete(guestId);
+        return next;
+      });
+      await refresh();
+    } catch (err) {
+      toast(err instanceof Error ? err.message : t("export.deleteError"), "error");
+    } finally {
+      setDeletingId(null);
+    }
+  }
+
   if (loading) {
     return <p className={styles.empty}>{t("common.loading")}</p>;
   }
@@ -174,21 +193,33 @@ export function ExportPage({
               <ul className={styles.list}>
                 {dateGuests.map((g) => (
                   <li key={g.id}>
-                    <label className={styles.item}>
-                      <input
-                        type="checkbox"
-                        checked={selected.has(g.id!)}
-                        onChange={() => toggleOne(g.id!)}
-                      />
-                      <span>
-                        <strong>
-                          {g.surname} {g.givenNames}
-                        </strong>
-                        <small>
-                          {t("guests.days")}: {g.stayDays}
-                        </small>
-                      </span>
-                    </label>
+                    <div className={styles.item}>
+                      <label className={styles.guestSelect}>
+                        <input
+                          type="checkbox"
+                          checked={selected.has(g.id!)}
+                          onChange={() => toggleOne(g.id!)}
+                        />
+                        <span>
+                          <strong>
+                            {g.surname} {g.givenNames}
+                          </strong>
+                          <small>
+                            {t("guests.days")}: {g.stayDays}
+                          </small>
+                        </span>
+                      </label>
+                      <button
+                        type="button"
+                        className={styles.deleteBtn}
+                        disabled={deletingId === g.id || exporting}
+                        onClick={() =>
+                          void handleDelete(g.id!, `${g.surname} ${g.givenNames}`)
+                        }
+                      >
+                        {deletingId === g.id ? t("export.deleting") : t("export.delete")}
+                      </button>
+                    </div>
                   </li>
                 ))}
               </ul>

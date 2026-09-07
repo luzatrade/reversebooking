@@ -142,6 +142,10 @@
     "localStorageNotice": "Saved locally in the browser (DB unavailable). Export before switching devices.",
     "selectAll": "Select all",
     "exporting": "Generating file…",
+    "delete": "Delete",
+    "deleting": "Deleting…",
+    "deleteConfirm": "Delete {{name}}? This registration has not been exported yet.",
+    "deleteError": "Error while deleting the guest",
     "success": "File for {{date}} generated — {{count}} guests exported",
     "error": "Export failed",
     "noGuests": "No guests to export. Register arrivals from the Check-in tab."
