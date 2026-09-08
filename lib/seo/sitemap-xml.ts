@@ -9,7 +9,7 @@ import {
 } from "@/lib/seo/sitemap-lastmod";
 import type { Locale } from "@/lib/i18n/translations";
 
-export const SITEMAP_REVALIDATE_SECONDS = 86400;
+export const SITEMAP_REVALIDATE_SECONDS = 3600;
 export const STRUCTURES_PER_SITEMAP = 5000;
 
 const staticInternalPaths = [

@@ -7,7 +7,7 @@ import {
   sitemapXmlResponse,
 } from "@/lib/seo/sitemap-xml";
 
-export const revalidate = 86400;
+export const revalidate = 3600;
 
 type RouteProps = {
   params: Promise<{ id: string }>;
