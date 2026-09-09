@@ -1,0 +1,449 @@
+{
+  "dryRun": false,
+  "totalCentro": 71,
+  "kept": [
+    {
+      "slug": "ca-monteggia-guest-house-milano",
+      "nome": "Ca' Monteggia Guest House",
+      "email": "info@camonteggia.it",
+      "website": "http://www.camonteggia.it/"
+    },
+    {
+      "slug": "bed-breakfast-da-mara-milano",
+      "nome": "Bed & Breakfast da Mara",
+      "email": "info@bedinmilanodamara.it",
+      "website": "http://bedinmilanodamara.it/"
+    },
+    {
+      "slug": "experience-design-bed-show-milano",
+      "nome": "Experience Design Bed & Show",
+      "email": "info@experiencedesignmilano.com",
+      "website": "http://www.experiencedesignmilano.com/"
+    },
+    {
+      "slug": null,
+      "nome": "Senato Hotel Milano",
+      "email": "info@senatohotelmilano.it",
+      "website": "http://www.senatohotelmilano.it/"
+    },
+    {
+      "slug": null,
+      "nome": "Crivi's Hotel",
+      "email": "info@hotelcrivis.com",
+      "website": "https://www.hotelcrivis.com/"
+    },
+    {
+      "slug": null,
+      "nome": "Heart Hotel Milano",
+      "email": "heart@operaser.it",
+      "website": "https://hearthotelmilano.it/"
+    },
+    {
+      "slug": null,
+      "nome": "Hotel Spadari al Duomo",
+      "email": "reservations@spadarihotel.com",
+      "website": "https://www.spadarihotel.com/?utm_source=Google_Business&utm_medium=Link_Organico&utm_campaign=Google+Business_Profile&utm_id=GBP"
+    },
+    {
+      "slug": null,
+      "nome": "Hotel Nuovo Milano",
+      "email": "info@hotelnuovomilan.com",
+      "website": "http://www.hotelnuovomilan.com/"
+    },
+    {
+      "slug": null,
+      "nome": "The Street Milano Duomo I a Design Boutique Hotel",
+      "email": "info@thestreetmilano.com",
+      "website": "https://www.thestreetmilano.com/"
+    },
+    {
+      "slug": null,
+      "nome": "Hotel Galileo",
+      "email": "galileo@milanhotel.it",
+      "website": "https://www.hotelgalileomilano.it/"
+    },
+    {
+      "slug": null,
+      "nome": "Victor Boutique Hotel",
+      "email": "victorboutiquehotel@gmail.com",
+      "website": "https://www.victorboutiquehotel.com/"
+    },
+    {
+      "slug": null,
+      "nome": "iH Hotels Milano Ambasciatori",
+      "email": "frontoffice.ambasciatori@ih-hotels.com",
+      "website": "https://ih-hotels.com/city-hotel/milano/ih-hotels-milano-ambasciatori/"
+    },
+    {
+      "slug": null,
+      "nome": "Hotel Bianca Maria Palace",
+      "email": "booking@biancamariapalace.com",
+      "website": "https://www.biancamariapalace.com/?utm_source=GB&utm_medium=organic"
+    },
+    {
+      "slug": null,
+      "nome": "Glam Hotel",
+      "email": "andrea.bazzarello@operaser.it",
+      "website": "https://www.glamhotelmilano.it/"
+    },
+    {
+      "slug": null,
+      "nome": "King Mokinba Hotels",
+      "email": "king@mokinba.it",
+      "website": "http://www.hotelkingmilano.com/"
+    },
+    {
+      "slug": null,
+      "nome": "Hotel Gran Duca di York",
+      "email": "info@ducadiyork.com",
+      "website": "https://www.ducadiyork.com/?utm_source=Google_Business&utm_medium=Link_Organico&utm_campaign=Google+Business_Profile&utm_id=GBP"
+    },
+    {
+      "slug": null,
+      "nome": "Tivoli President Milano Hotel",
+      "email": "president@tivoli-hotels.com",
+      "website": "https://www.tivolihotels.com/en/tivoli-president-milano-hotel?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb"
+    },
+    {
+      "slug": null,
+      "nome": "iQ Hotel Milano",
+      "email": "info@iqhotelmilano.it",
+      "website": "https://www.iqhotelmilano.it/it?utm_source=google&utm_medium=organic&utm_campaign=gmb_profile"
+    },
+    {
+      "slug": null,
+      "nome": "Baviera Mokinba Hotels",
+      "email": "baviera@mokinba.it",
+      "website": "http://www.hotelbaviera.com/"
+    },
+    {
+      "slug": null,
+      "nome": "BB Hotels Smarthotel Duomo",
+      "email": "duomo@bbhotels.it",
+      "website": "https://bbhotels.it/smarthotel-duomo/"
+    },
+    {
+      "slug": null,
+      "nome": "iH Hotels Milano Centrale",
+      "email": "frontoffice.centrale@ih-hotels.com",
+      "website": "https://ih-hotels.com/city-hotel/milano/ih-hotels-milano-centrale/"
+    },
+    {
+      "slug": null,
+      "nome": "Hotel Vittoria",
+      "email": "info@hotelvittoriamilano.it",
+      "website": "http://www.hotelvittoriamilano.it/"
+    },
+    {
+      "slug": null,
+      "nome": "Scarlatti Hotel Milano",
+      "email": "scarlatti@operaser.it",
+      "website": "https://scarlattihotelmilano.it/"
+    },
+    {
+      "slug": null,
+      "nome": "Sant Ambroeus Mokinba Hotels",
+      "email": "santambroeus@mokinba.it",
+      "website": "https://www.hotelsantambroeus.it/"
+    },
+    {
+      "slug": null,
+      "nome": "Hotel Petit Palais",
+      "email": "info@petitpalaismilano.com",
+      "website": "https://www.petitpalaismilano.com/?utm_source=gbp&utm_medium=organic"
+    },
+    {
+      "slug": null,
+      "nome": "Hotel Andreola Central",
+      "email": "info@andreolahotel.it",
+      "website": "https://www.andreolahotel.it/?partner=7517&utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness&&utm_content=Andreola"
+    },
+    {
+      "slug": null,
+      "nome": "Hotel Mercure Milano Solari",
+      "email": "h7926-re@accor.com",
+      "website": "https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=7926&merchantid=seo-maps-IT-7926&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+    },
+    {
+      "slug": "urban-hive-milano-milano",
+      "nome": "Urban Hive Milano",
+      "email": "reservas.madrid@urbanhivehotels.com",
+      "website": "https://www.urbanhivehotels.com/"
+    },
+    {
+      "slug": "hotel-brunelleschi-milano",
+      "nome": "Hotel Brunelleschi",
+      "email": "booking.brunelleschi@milanhotel.it",
+      "website": "https://hotelbrunelleschimilano.it/"
+    },
+    {
+      "slug": "just-hotel-milano",
+      "nome": "Just Hotel",
+      "email": "frontoffice@justhotelmilano.it",
+      "website": "https://www.justhotelmilano.it/"
+    },
+    {
+      "slug": "duomo-hotel-apartments-milano",
+      "nome": "Duomo Hotel & Apartments",
+      "email": "info@duomohotel-apartments.com",
+      "website": "https://www.duomohotel-apartments.com/"
+    },
+    {
+      "slug": "rosa-grand-milano-starhotels-collezione-milano",
+      "nome": "Rosa Grand Milano - Starhotels Collezione",
+      "email": "thefranklin@starhotels.com",
+      "website": "https://collezione.starhotels.com/en/our-hotels/rosa-grand-milan/"
+    },
+    {
+      "slug": "hotel-viu-milan",
+      "nome": "Hotel VIU Milan",
+      "email": "info@hotelviumilan.com",
+      "website": "https://www.hotelviumilan.com"
+    },
+    {
+      "slug": "park-hyatt-milan",
+      "nome": "Park Hyatt Milano",
+      "email": "milan.park@hyatt.com",
+      "website": "https://www.hyatt.com/en-US/hotel/italy/park-hyatt-milan/milph"
+    },
+    {
+      "slug": "hotel-principe-di-savoia-milan",
+      "nome": "Hotel Principe di Savoia",
+      "email": "reservations.hps@dorchestercollection.com",
+      "website": "https://www.dorchestercollection.com/milan/hotel-principe-di-savoia"
+    },
+    {
+      "slug": "portrait-milano",
+      "nome": "Portrait Milano",
+      "email": "reservations.milano@portraitcollection.com",
+      "website": "https://www.portraitcollection.com/milano/en/"
+    },
+    {
+      "slug": "armani-hotel-milan",
+      "nome": "Armani Hotel Milano",
+      "email": "milan@armanihotels.com",
+      "website": "https://www.armanihotels.com/en/hotels/armani-hotel-milano/"
+    },
+    {
+      "slug": "bulgari-hotel-milano-milano",
+      "nome": "Bulgari Hotel Milano",
+      "email": "milan@bulgarihotels.com",
+      "website": "https://www.bulgarihotels.com/en_US/milan"
+    },
+    {
+      "slug": "hotel-ibis-milano-centro-milano",
+      "nome": "Hotel ibis Milano Centro",
+      "email": "h0933@accor.com",
+      "website": "https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=0933&merchantid=seo-maps-IT-0933&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+    },
+    {
+      "slug": "room-mate-giulia-milano",
+      "nome": "Room Mate Giulia",
+      "email": "giulia@room-matehotels.com",
+      "website": "https://room-matehotels.com/gb/hotel-giulia-milan/?utm_source=google&utm_medium=organic&utm_campaign=google-my-business-giulia"
+    },
+    {
+      "slug": "hotel-manin-milano",
+      "nome": "Hotel Manin",
+      "email": "info@hotelmanin.it",
+      "website": "https://www.hotelmanin.it/it/default.html"
+    },
+    {
+      "slug": "galleria-vik-milano-an-slh-hotel-milano",
+      "nome": "Galleria Vik Milano, an SLH Hotel",
+      "email": "info@galleriavikmilano.com",
+      "website": "http://www.galleriavikmilano.com/"
+    },
+    {
+      "slug": "hotel-the-square-milano-duomo-milano",
+      "nome": "Hotel The Square Milano Duomo",
+      "email": "eventi@deicavaliericollection.com",
+      "website": "https://www.thesquaremilano.com/"
+    },
+    {
+      "slug": "hotel-dei-cavalieri-milano-duomo-milano",
+      "nome": "Hotel Dei Cavalieri Milano Duomo",
+      "email": "reservation@deicavaliericollection.com",
+      "website": "http://www.hoteldeicavalieri.com/"
+    },
+    {
+      "slug": "hotel-milano-castello-milano",
+      "nome": "Hotel Milano Castello",
+      "email": "info@hotelmilanocastello.com",
+      "website": "https://www.hotelmilanocastello.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness"
+    }
+  ],
+  "updatedEmail": [
+    {
+      "slug": null,
+      "nome": "Hotel Nuovo Milano",
+      "email": "info@hotelnuovomilan.com",
+      "website": "http://www.hotelnuovomilan.com/"
+    },
+    {
+      "slug": null,
+      "nome": "Victor Boutique Hotel",
+      "email": "victorboutiquehotel@gmail.com",
+      "website": "https://www.victorboutiquehotel.com/"
+    }
+  ],
+  "deleted": [
+    {
+      "slug": "cocoon-b-b-milano",
+      "nome": "Cocoon B&B",
+      "oldEmail": null,
+      "website": "http://www.cocoonbb.com/"
+    },
+    {
+      "slug": "b-b-hotel-milano-sant-ambrogio-milano",
+      "nome": "B&B HOTEL Milano Sant'Ambrogio",
+      "oldEmail": null,
+      "website": "https://www.hotel-bb.com/it/hotel/milano-sant-ambrogio?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext"
+    },
+    {
+      "slug": "bb-tortona-milano",
+      "nome": "BB Tortona",
+      "oldEmail": null,
+      "website": "https://www.hotels-italiano.com/tortona52/"
+    },
+    {
+      "slug": null,
+      "nome": "B&B Hotel Milano Duomo Velasca",
+      "oldEmail": null,
+      "website": "https://www.hotel-bb.com/it/hotel/milano-duomo-velasca"
+    },
+    {
+      "slug": null,
+      "nome": "Hotel Vecchia Milano",
+      "oldEmail": null,
+      "website": "https://www.hotelvecchiamilan.com/"
+    },
+    {
+      "slug": null,
+      "nome": "Matilde Boutique Hotel",
+      "oldEmail": "info@matildeboutiquehotel.com",
+      "website": "http://www.matildeboutiquehotel.it/"
+    },
+    {
+      "slug": null,
+      "nome": "Hotel delle Nazioni",
+      "oldEmail": "info@hoteldellenazioni.net",
+      "website": "http://www.hoteldellenazionimilan.com/"
+    },
+    {
+      "slug": null,
+      "nome": "Hotel Dateo Milano",
+      "oldEmail": null,
+      "website": "http://www.hoteldateo.com/"
+    },
+    {
+      "slug": null,
+      "nome": "The Couper Spiga",
+      "oldEmail": null,
+      "website": "https://www.thecouperspiga.it/?utm_source=gbp&utm_medium=organic"
+    },
+    {
+      "slug": null,
+      "nome": "Milano Verticale | UNA Esperienze",
+      "oldEmail": null,
+      "website": "https://www.unaitalianhospitality.com/it/soggiorni/milano-verticale-una-esperienze"
+    },
+    {
+      "slug": null,
+      "nome": "Hotel Capitol",
+      "oldEmail": "info@capitolmilano.com",
+      "website": "http://hotelcapitolmilano.com/"
+    },
+    {
+      "slug": null,
+      "nome": "Hotel Midtown Milano",
+      "oldEmail": null,
+      "website": "https://hotelmidtown.it/"
+    },
+    {
+      "slug": null,
+      "nome": "ApartHotel Bossi",
+      "oldEmail": "hotel.contact.us@gmail.com",
+      "website": "https://aparthotelbossi.ithotel.site/"
+    },
+    {
+      "slug": null,
+      "nome": "UNA Hotels Galles Milano",
+      "oldEmail": null,
+      "website": "https://www.unaitalianhospitality.com/it/soggiorni/una-hotels-galles-milano"
+    },
+    {
+      "slug": null,
+      "nome": "Hotel Paradiso",
+      "oldEmail": null,
+      "website": "http://www.hotelparadisomilan.com/"
+    },
+    {
+      "slug": null,
+      "nome": "Heart Milan Apartments San Sepolcro Duomo",
+      "oldEmail": null,
+      "website": "https://www.heartmilanapartments.com/?utm_source=google_maps&utm_medium=organic&utm_campaign=mybusiness"
+    },
+    {
+      "slug": null,
+      "nome": "ODSweet Duomo Milano Hotel",
+      "oldEmail": "info@odshotel.com",
+      "website": "https://www.odsweethotel.com/?utm_source=gbp&utm_medium=organic"
+    },
+    {
+      "slug": "b-b-hotel-milano-city-center-duomo-milano",
+      "nome": "B&B HOTEL Milano City Center Duomo",
+      "oldEmail": null,
+      "website": "https://www.hotel-bb.com/it/hotel/milano-city-center-duomo?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext"
+    },
+    {
+      "slug": "mandarin-oriental-milan",
+      "nome": "Mandarin Oriental, Milan",
+      "oldEmail": null,
+      "website": "https://www.mandarinoriental.com/en/milan/porta-nova"
+    },
+    {
+      "slug": "radisson-collection-palazzo-touring-milano",
+      "nome": "Radisson Collection Hotel, Palazzo Touring Club",
+      "oldEmail": null,
+      "website": "https://www.radissonhotels.com/en-us/hotels/radisson-collection-milan-palazzo-touring"
+    },
+    {
+      "slug": "palazzo-touring-club-milan-a-radisson-collection-milano",
+      "nome": "Palazzo Touring Club Milan, A Radisson Collection Hotel",
+      "oldEmail": null,
+      "website": "https://www.radissonhotels.com/en-us/hotels/radisson-collection-milan-palazzo-touring-club?cid=a:se+b:gmb+c:emea+i:local+e:rco+d:cese+h:ITMILTCI"
+    },
+    {
+      "slug": "milano-brera-relais-milano",
+      "nome": "Milano Brera Relais",
+      "oldEmail": null,
+      "website": "http://www.milanobrerarelais.it/wordpress/?lang=en"
+    },
+    {
+      "slug": "b-b-locanda-del-pino-milano",
+      "nome": "B&B Locanda del Pino",
+      "oldEmail": "hotel.contact.us@gmail.com",
+      "website": "https://lalocandadelpino.italia-it.info/it/"
+    },
+    {
+      "slug": "21-house-of-stories-navigli-milano",
+      "nome": "21 House of Stories Navigli",
+      "oldEmail": null,
+      "website": "https://21houseofstories.com/milano-navigli/"
+    },
+    {
+      "slug": "b-b-hotel-milano-central-station-milano",
+      "nome": "B&B HOTEL Milano Central Station",
+      "oldEmail": null,
+      "website": "https://www.hotel-bb.com/it/hotel/milano-central-station?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext"
+    },
+    {
+      "slug": "b-b-sant-agostino-milano",
+      "nome": "B&B Sant'Agostino",
+      "oldEmail": null,
+      "website": "http://www.b-b-santagostino.it/"
+    }
+  ],
+  "skippedClaimed": []
+}
