@@ -148,7 +148,12 @@
     "deleteError": "Errore durante l'eliminazione dell'ospite",
     "success": "File del {{date}} generato — {{count}} ospiti esportati",
     "error": "Errore durante l'export",
-    "noGuests": "Nessun ospite da esportare. Registra gli arrivi dal tab Check-in."
+    "noGuests": "Nessun ospite da esportare. Registra gli arrivi dal tab Check-in.",
+    "historyTitle": "Storico export",
+    "historyEmpty": "Nessun export effettuato",
+    "historyCount": "{{count}} ospiti",
+    "historyDownload": "Riscarica",
+    "historyError": "Errore nel caricamento dello storico export"
   },
   "common": {
     "loading": "Caricamento…"

@@ -8,7 +8,13 @@ import {
   formatItalianDateLabel,
 } from "@/lib/check-in/export/questura";
 import { guestsToAlloggiatiRecords } from "@/lib/check-in/export/guestMapper";
-import { deleteGuest, markGuestsExported, useGuests } from "@/lib/check-in/useGuests";
+import {
+  createCheckInExport,
+  deleteGuest,
+  loadCheckInExports,
+  type CheckInExport,
+  useGuests,
+} from "@/lib/check-in/useGuests";
 import { logCheckInTelemetry } from "@/lib/check-in/telemetry";
 import { toast } from "@/lib/check-in/useToast";
 import styles from "./ExportPage.module.css";
@@ -40,6 +46,26 @@ export function ExportPage({
   const [selected, setSelected] = useState<Set<string>>(new Set());
   const [exporting, setExporting] = useState(false);
   const [deletingId, setDeletingId] = useState<string | null>(null);
+  const [history, setHistory] = useState<CheckInExport[]>([]);
+  const [historyLoading, setHistoryLoading] = useState(true);
+
+  useEffect(() => {
+    let cancelled = false;
+    setHistoryLoading(true);
+    void loadCheckInExports(hotelAccountId, usingLocalStorage)
+      .then((exports) => {
+        if (!cancelled) setHistory(exports);
+      })
+      .catch((err) => {
+        if (!cancelled) toast(err instanceof Error ? err.message : t("export.historyError"), "error");
+      })
+      .finally(() => {
+        if (!cancelled) setHistoryLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [hotelAccountId, usingLocalStorage, t]);
 
   const guestsByDate = useMemo(() => {
     const map = new Map<string, typeof guests>();
@@ -92,6 +118,10 @@ export function ExportPage({
     });
   }
 
+  function downloadHistoryExport(exportRecord: CheckInExport) {
+    downloadAlloggiatiFile(exportRecord.records, alloggiatiExportFilename(exportRecord.arrivalDate));
+  }
+
   async function handleExport() {
     if (selectedGuests.length === 0) return;
     setExporting(true);
@@ -100,7 +130,7 @@ export function ExportPage({
       downloadAlloggiatiFile(records, alloggiatiExportFilename(selectedDate));
 
       const ids = selectedGuests.map((g) => g.id!);
-      await markGuestsExported(hotelAccountId, ids, usingLocalStorage);
+      await createCheckInExport(hotelAccountId, selectedDate, records, ids, usingLocalStorage);
 
       void logCheckInTelemetry({
         hotelAccountId,
@@ -117,6 +147,9 @@ export function ExportPage({
       );
       setSelected(new Set());
       await refresh();
+      if (!usingLocalStorage) {
+        setHistory(await loadCheckInExports(hotelAccountId));
+      }
     } catch (err) {
       toast(err instanceof Error ? err.message : t("export.error"), "error");
     } finally {
@@ -243,6 +276,29 @@ export function ExportPage({
           )}
         </>
       )}
+
+      <section className={styles.history}>
+        <h3 className={styles.historyTitle}>{t("export.historyTitle")}</h3>
+        {historyLoading ? (
+          <p className={styles.historyEmpty}>{t("common.loading")}</p>
+        ) : history.length === 0 ? (
+          <p className={styles.historyEmpty}>{t("export.historyEmpty")}</p>
+        ) : (
+          <ul className={styles.historyList}>
+            {history.map((exportRecord) => (
+              <li key={exportRecord.id} className={styles.historyItem}>
+                <span>
+                  <strong>{formatItalianDateLabel(exportRecord.arrivalDate)}</strong>
+                  <small>{t("export.historyCount", { count: exportRecord.guestCount })}</small>
+                </span>
+                <button type="button" className={styles.historyBtn} onClick={() => downloadHistoryExport(exportRecord)}>
+                  {t("export.historyDownload")}
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
     </div>
   );
 }

@@ -10,8 +10,17 @@ import {
   saveLocalGuest,
 } from '@/lib/check-in/localGuests';
 import type { GuestRecord } from '@/types/check-in';
+import type { AlloggiatiRecord } from '@/types/check-in';
 
 export type CheckInGuest = GuestRecord & { exportedQuesturaAt?: string };
+
+export interface CheckInExport {
+  id: string;
+  arrivalDate: string;
+  records: AlloggiatiRecord[];
+  guestCount: number;
+  createdAt: string;
+}
 
 export interface UseGuestsOptions {
   onlyPendingExport?: boolean;
@@ -115,8 +124,10 @@ export async function registerGuest(
   return { id: data.id as string, fellBackToLocalStorage: false };
 }
 
-export async function markGuestsExported(
+export async function createCheckInExport(
   hotelAccountId: string,
+  arrivalDate: string,
+  records: AlloggiatiRecord[],
   guestIds: string[],
   usingLocalStorage = false,
 ): Promise<void> {
@@ -124,16 +135,14 @@ export async function markGuestsExported(
     markLocalGuestsExported(hotelAccountId, guestIds);
     return;
   }
+
   const supabase = createBrowserSupabaseClient();
-  const { error } = await supabase
-    .from('check_in_guests')
-    .update({
-      exported_questura_at: new Date().toISOString(),
-      export_format_version: 2,
-    })
-    .eq('hotel_account_id', hotelAccountId)
-    .in('id', guestIds)
-    .is('exported_questura_at', null);
+  const { error } = await supabase.rpc('create_check_in_export', {
+    p_hotel_account_id: hotelAccountId,
+    p_arrival_date: arrivalDate,
+    p_records: records,
+    p_guest_ids: guestIds,
+  });
 
   if (error) {
     if (isMissingTableError(error.message)) {
@@ -142,6 +151,33 @@ export async function markGuestsExported(
     }
     throw error;
   }
+}
+
+export async function loadCheckInExports(
+  hotelAccountId: string,
+  usingLocalStorage = false,
+): Promise<CheckInExport[]> {
+  if (usingLocalStorage) return [];
+
+  const supabase = createBrowserSupabaseClient();
+  const { data, error } = await supabase
+    .from('check_in_exports')
+    .select('id, arrival_date, records, guest_count, created_at')
+    .eq('hotel_account_id', hotelAccountId)
+    .order('created_at', { ascending: false });
+
+  if (error) {
+    if (isMissingTableError(error.message)) return [];
+    throw error;
+  }
+
+  return (data ?? []).map((row) => ({
+    id: row.id as string,
+    arrivalDate: row.arrival_date as string,
+    records: row.records as AlloggiatiRecord[],
+    guestCount: row.guest_count as number,
+    createdAt: row.created_at as string,
+  }));
 }
 
 export async function deleteGuest(

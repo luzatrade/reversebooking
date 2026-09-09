@@ -148,7 +148,12 @@
     "deleteError": "Error while deleting the guest",
     "success": "File for {{date}} generated — {{count}} guests exported",
     "error": "Export failed",
-    "noGuests": "No guests to export. Register arrivals from the Check-in tab."
+    "noGuests": "No guests to export. Register arrivals from the Check-in tab.",
+    "historyTitle": "Export history",
+    "historyEmpty": "No exports yet",
+    "historyCount": "{{count}} guests",
+    "historyDownload": "Download again",
+    "historyError": "Error loading export history"
   },
   "common": {
     "loading": "Loading…"
