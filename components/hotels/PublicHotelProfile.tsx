@@ -9,7 +9,7 @@ import { pickLocalizedDescription } from "@/lib/i18n/localized-description";
 import { FavoriteHotelButton } from "@/components/favorites/FavoriteHotelButton";
 import { formatMessage } from "@/lib/i18n/format";
 import { getServiceLabels, getStructureTypeLabels } from "@/lib/i18n/labels";
-import { BRAND_NAME } from "@/lib/legal/company";
+import { getTravelerContactTemplates } from "@/lib/hotels/travelerContactTemplates";
 import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
 import type { HouseRules } from "@/lib/constants/house-rules";
 import { buildHouseRulesLines } from "@/lib/hotel/public-profile-extras";
@@ -92,21 +92,13 @@ export function PublicHotelProfile() {
 
   const mailTemplate = useMemo(() => {
     if (!hotel) return null;
-    const lines = [
-      formatMessage(t.showcase.availabilityMailIntro, { name: hotel.property_name, brand: BRAND_NAME }),
-      "",
-      t.showcase.availabilityMailCheckIn,
-      t.showcase.availabilityMailCheckOut,
-      t.showcase.availabilityMailGuests,
-      "",
-      t.showcase.availabilityMailOutro,
-    ];
+    const templates = getTravelerContactTemplates(locale);
     return {
-      subject: formatMessage(t.showcase.availabilityMailSubject, { name: hotel.property_name }),
-      body: lines.join("\n"),
-      whatsApp: formatMessage(t.showcase.availabilityWhatsApp, { name: hotel.property_name, brand: BRAND_NAME }),
+      subject: templates.emailSubject,
+      body: templates.emailBody,
+      whatsApp: templates.whatsAppMessage,
     };
-  }, [hotel, t.showcase]);
+  }, [hotel, locale]);
 
   if (loading) {
     return <div className="rounded-3xl border p-6 text-sm text-zinc-500">{t.hotel.loadingPublicProfile}</div>;
