@@ -13,9 +13,36 @@ import {
 import { getDestinationDisplayName } from "@/lib/seo/destination-display-name";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import { isDestinationHubIndexable } from "@/lib/seo/destination-quality";
-import { trimSeoDescription } from "@/lib/seo/serp-copy";
+import { trimSeoDescription, trimSeoTitleSegment } from "@/lib/seo/serp-copy";
 import type { DestinationHub } from "@/lib/seo/destination-queries";
 import type { Locale } from "@/lib/i18n/translations";
+
+const HUB_TITLE_MAX = 72;
+
+/**
+ * Titolo SERP per gli hub città (IT/EN).
+ * Mantiene "hotel a {città}" in testa (intento categorico) e chiude con il
+ * differenziatore del modello: richiedi/ricevi offerte dirette senza commissioni.
+ * Se il titolo non entra nei 72 char si scende a variante corta (senza count).
+ */
+function buildHubTitleCandidates(city: string, count: number, locale: "it" | "en"): string {
+  const full =
+    locale === "en"
+      ? `Hotels in ${city}: ${count} properties — Request direct offers`
+      : `Hotel a ${city}: ${count} strutture — Richiedi offerte dirette`;
+  if (full.length <= HUB_TITLE_MAX) return full;
+
+  const short =
+    locale === "en"
+      ? `Hotels in ${city}: request direct offers`
+      : `Hotel a ${city}: richiedi offerte dirette`;
+  if (short.length <= HUB_TITLE_MAX) return short;
+
+  const prefix = locale === "en" ? "Hotels in " : "Hotel a ";
+  const suffix = locale === "en" ? ": request direct offers" : ": richiedi offerte dirette";
+  const maxCity = HUB_TITLE_MAX - prefix.length - suffix.length;
+  return `${prefix}${trimSeoTitleSegment(city, maxCity)}${suffix}`;
+}
 
 export function buildDestinationTitle(hub: DestinationHub, locale: Locale = "it"): string {
   const city = getDestinationDisplayName(hub, locale).trim();
@@ -26,10 +53,7 @@ export function buildDestinationTitle(hub: DestinationHub, locale: Locale = "it"
     return getHubTitle(locale, hub.slug, city, count) ?? hubConfig.labels.hubTitleFallback(city, count);
   }
 
-  if (locale === "en") {
-    return `Hotels in ${city}: ${count} properties — Get direct offers`;
-  }
-  return `Hotel a ${city}: ${count} strutture — Richiedi offerte dirette`;
+  return buildHubTitleCandidates(city, count, locale === "en" ? "en" : "it");
 }
 
 export function buildDestinationDescription(hub: DestinationHub, locale: Locale) {
@@ -41,11 +65,11 @@ export function buildDestinationDescription(hub: DestinationHub, locale: Locale)
 
   if (locale === "en") {
     return trimSeoDescription(
-      `Compare ${count} hotels and B&Bs in ${city}. Publish a free stay request on ${BRAND_NAME} and receive personalised direct offers from local properties. No booking commission for travellers.`,
+      `Send a free stay request for ${city} on ${BRAND_NAME}: ${count} hotels and B&Bs reply with personalised direct offers. No booking commission for travellers.`,
     );
   }
   return trimSeoDescription(
-    `Confronta ${count} hotel e B&B a ${city}. Pubblica una richiesta di soggiorno gratuita su ${BRAND_NAME} e ricevi offerte personalizzate dalle strutture. Zero commissioni per chi viaggia.`,
+    `Invia una richiesta di soggiorno gratuita per ${city} su ${BRAND_NAME}: ${count} hotel e B&B rispondono con offerte dirette personalizzate. Zero commissioni per chi viaggia.`,
   );
 }
 
@@ -63,9 +87,9 @@ export function buildDestinationIntro(hub: DestinationHub, locale: Locale) {
   }
 
   if (locale === "en") {
-    return `Find ${hub.structureCount} properties in ${hub.displayName} and request a personalized offer on ${BRAND_NAME}.`;
+    return `Send a stay request for ${hub.displayName} on ${BRAND_NAME}: ${hub.structureCount} properties reply with personalised direct offers — no booking commission for travellers.`;
   }
-  return `Trova ${hub.structureCount} strutture a ${hub.displayName} e richiedi un'offerta personalizzata su ${BRAND_NAME}.`;
+  return `Invia una richiesta di soggiorno per ${hub.displayName} su ${BRAND_NAME}: ${hub.structureCount} strutture rispondono con offerte dirette personalizzate, senza commissioni per chi viaggia.`;
 }
 
 function absoluteTitle(title: string): string {
