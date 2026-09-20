@@ -1,4 +1,6 @@
 import { uiLocale } from "@/lib/i18n/ui-locale";
+import { getManualHighlightsForCity } from "@/data/cityHighlights";
+import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
 import type { Locale } from "@/lib/i18n/translations";
 import {
   getHubCityContent,
@@ -8,6 +10,12 @@ import {
 
 export type FaqItem = { question: string; answer: string };
 export type HowItWorksStep = { title: string; description: string };
+
+function italianCityLandmarks(cityName: string) {
+  const cityId = resolveCanonicalCityId({ cityName, countryCode: "IT" });
+  if (!cityId?.startsWith("IT-")) return [];
+  return getManualHighlightsForCity({ cityName, cityId, countryCode: "IT" });
+}
 
 const PREMIUM_DESTINATION_INTROS: Record<string, { it: string; en: string }> = {
   "reggio-calabria": {
@@ -563,11 +571,24 @@ export function getDestinationHowItWorks(locale: Locale, cityName: string): stri
 export function getDestinationEditorial(
   slug: string,
   displayName: string,
-  structureCount: number,
   locale: Locale,
 ): string {
   const hubEditorial = getHubCityContent(locale, slug)?.editorial;
-  if (hubEditorial) return hubEditorial.replaceAll("{count}", String(structureCount));
+  if (hubEditorial) return hubEditorial;
+
+  const landmarks = italianCityLandmarks(displayName);
+  if (landmarks.length >= 2) {
+    const landmarkNames = landmarks.slice(0, 3).map((landmark) =>
+      uiLocale(locale) === "en" ? landmark.nameEn : landmark.nameIt,
+    );
+    const places = new Intl.ListFormat(uiLocale(locale), { style: "long", type: "conjunction" }).format(
+      landmarkNames,
+    );
+    if (uiLocale(locale) === "en") {
+      return `${displayName} is an Italian destination to explore through places such as ${places}. On HotelsDrop you can send one stay request with your dates, budget and preferences and receive direct proposals from local properties.`;
+    }
+    return `${displayName} è una destinazione italiana da esplorare attraverso luoghi come ${places}. Su HotelsDrop puoi inviare una richiesta di soggiorno con date, budget e preferenze e ricevere proposte dirette dalle strutture locali.`;
+  }
 
   const premium = PREMIUM_DESTINATION_INTROS[slug];
   if (premium) return uiLocale(locale) === "en" ? premium.en : premium.it;
@@ -630,6 +651,51 @@ export function getDestinationFaq(locale: Locale, cityName: string, slug?: strin
         question: "Posso inviare una richiesta per un gruppo a Reggio Calabria?",
         answer:
           "Sì. Inserisci date, camere necessarie, numero di partecipanti e necessità operative come accessibilità, parcheggio pullman o pasti. Le strutture possono rispondere in base alle informazioni ricevute.",
+      },
+    ];
+  }
+
+  const landmarks = italianCityLandmarks(cityName);
+  if (landmarks.length >= 2) {
+    const first = uiLocale(locale) === "en" ? landmarks[0]!.nameEn : landmarks[0]!.nameIt;
+    const second = uiLocale(locale) === "en" ? landmarks[1]!.nameEn : landmarks[1]!.nameIt;
+    if (uiLocale(locale) === "en") {
+      return [
+        {
+          question: `What can I visit during a stay in ${cityName}?`,
+          answer: `${first} and ${second} are among the local landmarks you can include in a city itinerary. Plan your accommodation area around the places and activities you want to prioritise.`,
+        },
+        {
+          question: `Which area should I choose for a stay in ${cityName}?`,
+          answer: `Choose your area according to your arrival plans, the places you want to visit and how you prefer to move around. Include these preferences in your stay request so properties can send relevant proposals.`,
+        },
+        {
+          question: `Can I request accommodation for a group in ${cityName}?`,
+          answer: `Yes. Include dates, group size, required rooms and operational needs such as accessibility, coach parking or meal arrangements. Properties can reply based on the information you provide.`,
+        },
+        {
+          question: `How do I receive direct offers in ${cityName}?`,
+          answer: `Send one free request with dates, budget and preferences. Compatible properties in the area can reply directly, allowing you to compare proposals before choosing.`,
+        },
+      ];
+    }
+
+    return [
+      {
+        question: `Cosa vedere durante un soggiorno a ${cityName}?`,
+        answer: `${first} e ${second} sono tra i luoghi che puoi includere in un itinerario in città. Scegli la zona del soggiorno in base alle visite e alle attività che vuoi privilegiare.`,
+      },
+      {
+        question: `Quale zona scegliere per dormire a ${cityName}?`,
+        answer: `Scegli la zona in base al programma di arrivo, ai luoghi che desideri visitare e al modo in cui preferisci spostarti. Indica queste preferenze nella richiesta per ricevere proposte più pertinenti.`,
+      },
+      {
+        question: `Posso richiedere un soggiorno per un gruppo a ${cityName}?`,
+        answer: `Sì. Inserisci date, numero di partecipanti, camere necessarie e necessità operative come accessibilità, parcheggio pullman o pasti. Le strutture possono rispondere in base alle informazioni ricevute.`,
+      },
+      {
+        question: `Come ricevo offerte dirette a ${cityName}?`,
+        answer: `Invia una richiesta gratuita con date, budget e preferenze. Le strutture compatibili della zona possono risponderti direttamente, così puoi confrontare le proposte prima di scegliere.`,
       },
     ];
   }

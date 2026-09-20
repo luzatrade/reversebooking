@@ -42,7 +42,7 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
   const labels = getMarketingLabels(locale);
   const displayName = getDestinationDisplayName(hub, locale);
   const intro = buildDestinationIntro(hub, locale);
-  const editorial = getDestinationEditorial(hub.slug, displayName, hub.structureCount, locale);
+  const editorial = getDestinationEditorial(hub.slug, displayName, locale);
   const heroUrl = getDestinationCityPhoto(hub);
   const travelRequestHref = localizedPath(locale, buildDestinationTravelRequestHref(hub));
   const reverseBookingCopy = {
