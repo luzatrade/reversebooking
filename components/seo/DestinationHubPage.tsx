@@ -93,14 +93,6 @@ export async function DestinationHubPage({ hub, items, page, totalPages, related
               <h1 className="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">{pageTitle}</h1>
               <p className="mt-4 max-w-3xl text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{intro}</p>
               <p className="mt-3 max-w-3xl text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">{editorial}</p>
-              <p className="mt-3 text-sm text-zinc-500">
-                {hubLabels
-                  ? hubLabels.catalogCount(hub.structureCount)
-                  : ui === "en"
-                    ? `${hub.structureCount} indexed properties`
-                    : `${hub.structureCount} strutture nel catalogo`}
-              </p>
-
               <HotelReverseBookingCta
                 locale={locale}
                 cityName={displayName}

@@ -10,6 +10,10 @@ export type FaqItem = { question: string; answer: string };
 export type HowItWorksStep = { title: string; description: string };
 
 const PREMIUM_DESTINATION_INTROS: Record<string, { it: string; en: string }> = {
+  "reggio-calabria": {
+    it: "Reggio Calabria è una base per esplorare lo Stretto, il centro cittadino e la costa della Calabria meridionale. Su HotelsDrop puoi inviare una richiesta con date, budget e preferenze e ricevere proposte dirette dalle strutture della zona. È una soluzione pratica per weekend culturali, soggiorni di lavoro, viaggi in famiglia e richieste di gruppo.",
+    en: "Reggio Calabria is a base for exploring the Strait of Messina, the city centre and the southern Calabrian coast. On HotelsDrop you can send one request with dates, budget and preferences and receive direct proposals from local properties. It suits cultural weekends, business stays, family trips and group requests.",
+  },
   roma: {
     it: "Roma concentra hotel, B&B e guest house tra Centro Storico, Trastevere, Termini e EUR. Su HotelsDrop pubblichi una sola richiesta con date e budget: le strutture della Capitale rispondono con proposte dirette, senza commissioni per chi viaggia. Ideale per weekend culturali, eventi in sede e soggiorni lunghi con famiglia o gruppo.",
     en: "Rome offers hotels, B&Bs and guest houses across the historic centre, Trastevere, Termini and EUR. On HotelsDrop you publish one request with dates and budget, and local properties reply with direct offers — free for travellers. Perfect for cultural weekends, conference stays and longer family or group trips.",
@@ -569,15 +573,65 @@ export function getDestinationEditorial(
   if (premium) return uiLocale(locale) === "en" ? premium.en : premium.it;
 
   if (locale === "en") {
-    return `Browse ${structureCount} indexed properties in ${displayName}. Send one personalised request on HotelsDrop and receive direct proposals from local hosts without browsing multiple booking sites.`;
+    return `Browse places to stay in ${displayName}. Send one personalised request on HotelsDrop and receive direct proposals from local hosts without browsing multiple booking sites.`;
   }
-  return `Scopri ${structureCount} strutture indicizzate a ${displayName}. Invia una richiesta personalizzata su HotelsDrop e ricevi proposte dirette dalle strutture locali, senza cercare su decine di portali.`;
+  return `Scopri dove soggiornare a ${displayName}. Invia una richiesta personalizzata su HotelsDrop e ricevi proposte dirette dalle strutture locali, senza cercare su decine di portali.`;
 }
 
 export function getDestinationFaq(locale: Locale, cityName: string, slug?: string): FaqItem[] {
   if (slug) {
     const hubFaq = getHubFaq(locale, slug);
     if (hubFaq.length) return hubFaq;
+  }
+
+  if (slug === "reggio-calabria") {
+    if (uiLocale(locale) === "en") {
+      return [
+        {
+          question: "Which area should I choose for a stay in Reggio Calabria?",
+          answer:
+            "Choose the centre or seafront for an urban stay near the promenade and the main places of interest. The station and port area can be practical for rail and ferry connections, while an outer area may suit travellers arriving by car.",
+        },
+        {
+          question: "What can I visit during a stay in Reggio Calabria?",
+          answer:
+            "The seafront, the Aragonese Castle and the National Archaeological Museum are among the city’s main reference points. The museum is in Piazza Giuseppe De Nava and is home to the Riace Bronzes.",
+        },
+        {
+          question: "Is Reggio Calabria useful for travelling across the Strait of Messina?",
+          answer:
+            "Yes. The city has rail and port connections, so it can be a practical base when your itinerary includes crossings towards Messina or travel in southern Calabria.",
+        },
+        {
+          question: "Can I send a request for a group stay in Reggio Calabria?",
+          answer:
+            "Yes. Include dates, room requirements, group size and any operational needs such as coach parking, accessibility or meal arrangements. Properties can reply with proposals based on the information provided.",
+        },
+      ];
+    }
+
+    return [
+      {
+        question: "Quale zona scegliere per dormire a Reggio Calabria?",
+        answer:
+          "Centro e lungomare sono adatti a chi vuole muoversi a piedi tra la passeggiata sul mare e i principali luoghi di interesse. Stazione e porto possono essere pratici per treni e collegamenti marittimi; una zona esterna può essere più comoda per chi arriva in auto.",
+      },
+      {
+        question: "Cosa vedere durante un soggiorno a Reggio Calabria?",
+        answer:
+          "Il lungomare, il Castello Aragonese e il Museo Archeologico Nazionale sono riferimenti importanti per una visita in città. Il museo si trova in Piazza Giuseppe De Nava e conserva i Bronzi di Riace.",
+      },
+      {
+        question: "Reggio Calabria è una buona base per attraversare lo Stretto di Messina?",
+        answer:
+          "Sì. La presenza di stazione e porto la rende una base pratica quando l’itinerario comprende spostamenti verso Messina o altre località della Calabria meridionale.",
+      },
+      {
+        question: "Posso inviare una richiesta per un gruppo a Reggio Calabria?",
+        answer:
+          "Sì. Inserisci date, camere necessarie, numero di partecipanti e necessità operative come accessibilità, parcheggio pullman o pasti. Le strutture possono rispondere in base alle informazioni ricevute.",
+      },
+    ];
   }
 
   if (uiLocale(locale) === "en") {
