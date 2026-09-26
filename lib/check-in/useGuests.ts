@@ -47,7 +47,9 @@ export function useGuests(hotelAccountId: string | null, options?: UseGuestsOpti
     setLoading(true);
 
     if (usingLocalStorage) {
-      const data = loadLocalGuests(hotelAccountId, options?.onlyPendingExport);
+      const data = loadLocalGuests(hotelAccountId, options?.onlyPendingExport).filter(
+        (guest) => !options?.onlyPendingExport || !guest.nucleus_id,
+      );
       setGuests(data.map(mapStoredGuest));
       setLoading(false);
       return;
@@ -62,6 +64,7 @@ export function useGuests(hotelAccountId: string | null, options?: UseGuestsOpti
 
     if (options?.onlyPendingExport) {
       query = query.is('exported_questura_at', null);
+      query = query.is('nucleus_id', null);
     }
 
     const { data, error } = await query;
@@ -69,7 +72,9 @@ export function useGuests(hotelAccountId: string | null, options?: UseGuestsOpti
     if (error) {
       if (isMissingTableError(error.message)) {
         options?.onStorageFallback?.();
-        const local = loadLocalGuests(hotelAccountId, options?.onlyPendingExport);
+        const local = loadLocalGuests(hotelAccountId, options?.onlyPendingExport).filter(
+          (guest) => !options?.onlyPendingExport || !guest.nucleus_id,
+        );
         setGuests(local.map(mapStoredGuest));
       } else {
         setGuests([]);

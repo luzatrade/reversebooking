@@ -11,14 +11,19 @@ import {
   searchComuni,
   searchIssuePlaces,
   searchNations,
-  type ComuneEntry,
   type DocumentTypeEntry,
   type NationEntry,
 } from '@/lib/check-in/lookup/alloggiatiTables';
 import { guestNeedsDocumentFields } from '@/lib/check-in/guestFields';
 import { documentTypeFromMrz } from '@/lib/check-in/documentTypeFromMrz';
 import { toast } from '@/lib/check-in/useToast';
-import type { GuestRecord, GuestType, MrzExtractedData, MrzReviewField } from '@/types/check-in';
+import type {
+  CheckInNucleusType,
+  GuestRecord,
+  GuestType,
+  MrzExtractedData,
+  MrzReviewField,
+} from '@/types/check-in';
 import styles from './GuestForm.module.css';
 
 interface GuestFormProps {
@@ -26,16 +31,24 @@ interface GuestFormProps {
   onSubmit: (guest: Omit<GuestRecord, 'id' | 'hotelAccountId'>) => void;
   onBack: () => void;
   saving?: boolean;
+  nucleusType?: CheckInNucleusType;
 }
 
 const GUEST_TYPES: GuestType[] = ['single', 'head_family', 'head_group', 'family', 'group'];
 
-function buildFormState(initialData?: Partial<MrzExtractedData>) {
+function buildFormState(
+  initialData?: Partial<MrzExtractedData>,
+  defaults?: Pick<GuestFormProps, 'nucleusType'>,
+) {
   const today = new Date().toISOString().slice(0, 10);
   const sexFromMrz =
     initialData?.sex === 'F' ? 'F' : initialData?.sex === 'M' ? 'M' : ('' as '' | 'M' | 'F');
   return {
-    guestType: 'single' as GuestType,
+    guestType: (defaults?.nucleusType === 'family'
+      ? 'family'
+      : defaults?.nucleusType === 'group'
+        ? 'group'
+        : 'single') as GuestType,
     arrivalDate: today,
     stayDays: 1,
     surname: initialData?.surname ?? '',
@@ -52,7 +65,13 @@ function buildFormState(initialData?: Partial<MrzExtractedData>) {
   };
 }
 
-export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormProps) {
+export function GuestForm({
+  initialData,
+  onSubmit,
+  onBack,
+  saving,
+  nucleusType,
+}: GuestFormProps) {
   const { t } = useTranslation();
 
   const [nations, setNations] = useState<NationEntry[]>([]);
@@ -64,11 +83,9 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
   const [citizenshipQuery, setCitizenshipQuery] = useState('');
   const [docPlaceQuery, setDocPlaceQuery] = useState('');
 
-  const [form, setForm] = useState(() => buildFormState(initialData));
-
-  useEffect(() => {
-    setForm(buildFormState(initialData));
-  }, [initialData]);
+  const [form, setForm] = useState(() =>
+    buildFormState(initialData, { nucleusType }),
+  );
 
   useEffect(() => {
     let cancelled = false;
@@ -218,7 +235,13 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
 
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
-      <h2>{t('form.title')}</h2>
+      <h2>
+        {nucleusType
+          ? nucleusType === 'family'
+            ? t('nucleus.addFamilyMember')
+            : t('nucleus.addGroupMember')
+          : t('form.title')}
+      </h2>
 
       {needsReview && (
         <p className={styles.reviewBanner} role="status">
@@ -231,6 +254,7 @@ export function GuestForm({ initialData, onSubmit, onBack, saving }: GuestFormPr
         <select
           value={form.guestType}
           onChange={(e) => handleChange('guestType', e.target.value)}
+          disabled={Boolean(nucleusType)}
         >
           {GUEST_TYPES.map((gt) => (
             <option key={gt} value={gt}>{t(`form.guestTypes.${gt}`)}</option>

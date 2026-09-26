@@ -56,6 +56,20 @@ export function alloggiatiExportFilename(isoDate: string): string {
   return `alloggiati_${d}-${m}-${y}.txt`;
 }
 
+export function alloggiatiSingleFilename(isoDate: string, guestId: string): string {
+  const [y, m, d] = isoDate.split('-');
+  return `alloggiati_${d}-${m}-${y}_singolo_${guestId.slice(0, 8)}.txt`;
+}
+
+export function alloggiatiNucleusFilename(
+  isoDate: string,
+  type: 'family' | 'group',
+  nucleusId: string,
+): string {
+  const [y, m, d] = isoDate.split('-');
+  return `alloggiati_${d}-${m}-${y}_${type}_${nucleusId.slice(0, 8)}.txt`;
+}
+
 function padDate(value: string, length: number): string {
   const normalized = value.trim();
   if (normalized.length > length) return normalized.slice(0, length);

@@ -8,6 +8,18 @@ export type GuestType =
   | "family"
   | "group";
 
+export type CheckInNucleusType = "family" | "group";
+export type CheckInNucleusStatus = "open" | "completed";
+
+export interface CheckInNucleus {
+  id: string;
+  hotelAccountId: string;
+  type: CheckInNucleusType;
+  status: CheckInNucleusStatus;
+  createdAt: string;
+  completedAt?: string;
+}
+
 export type MrzReviewField = 'documentNumber' | 'surname' | 'givenNames' | 'birthDate' | 'sex';
 
 export interface MrzExtractedData {
@@ -29,6 +41,7 @@ export interface MrzExtractedData {
 export interface GuestRecord {
   id?: string;
   hotelAccountId: string;
+  nucleusId?: string;
   guestType: GuestType;
   arrivalDate: string;
   stayDays: number;
