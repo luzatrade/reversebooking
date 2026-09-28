@@ -106,6 +106,74 @@ function binarizeCanvasAt(source: HTMLCanvasElement, threshold?: number): HTMLCa
   return out;
 }
 
+/** Local thresholding recovers MRZ text when shadows or glare make a global threshold unreliable. */
+export function binarizeCanvasAdaptive(
+  source: HTMLCanvasElement,
+  tileWidth = 32,
+  tileHeight = 16,
+  offset = 8,
+): HTMLCanvasElement {
+  const out = document.createElement('canvas');
+  out.width = source.width;
+  out.height = source.height;
+  const ctx = out.getContext('2d');
+  const sourceCtx = source.getContext('2d');
+  if (!ctx || !sourceCtx) return source;
+
+  const image = sourceCtx.getImageData(0, 0, source.width, source.height);
+  const { width, height, data } = image;
+  const columns = Math.ceil(width / tileWidth);
+  const rows = Math.ceil(height / tileHeight);
+  const means = new Float32Array(columns * rows);
+  const counts = new Uint32Array(columns * rows);
+
+  for (let y = 0; y < height; y++) {
+    const tileRow = Math.floor(y / tileHeight) * columns;
+    for (let x = 0; x < width; x++) {
+      const pixel = (y * width + x) * 4;
+      const gray = 0.299 * data[pixel]! + 0.587 * data[pixel + 1]! + 0.114 * data[pixel + 2]!;
+      const tile = tileRow + Math.floor(x / tileWidth);
+      means[tile] += gray;
+      counts[tile]++;
+    }
+  }
+
+  for (let tile = 0; tile < means.length; tile++) {
+    means[tile] = counts[tile] ? means[tile]! / counts[tile]! : 0;
+  }
+
+  const tileMeanAt = (x: number, y: number) => {
+    const column = Math.min(columns - 1, Math.floor(x / tileWidth));
+    const row = Math.min(rows - 1, Math.floor(y / tileHeight));
+    const columnNext = Math.min(columns - 1, column + 1);
+    const rowNext = Math.min(rows - 1, row + 1);
+    const tx = Math.min(1, (x % tileWidth) / tileWidth);
+    const ty = Math.min(1, (y % tileHeight) / tileHeight);
+    const topLeft = means[row * columns + column]!;
+    const topRight = means[row * columns + columnNext]!;
+    const bottomLeft = means[rowNext * columns + column]!;
+    const bottomRight = means[rowNext * columns + columnNext]!;
+    const top = topLeft + (topRight - topLeft) * tx;
+    const bottom = bottomLeft + (bottomRight - bottomLeft) * tx;
+    return top + (bottom - top) * ty;
+  };
+
+  for (let y = 0; y < height; y++) {
+    for (let x = 0; x < width; x++) {
+      const pixel = (y * width + x) * 4;
+      const gray = 0.299 * data[pixel]! + 0.587 * data[pixel + 1]! + 0.114 * data[pixel + 2]!;
+      const value = gray >= tileMeanAt(x, y) - offset ? 255 : 0;
+      data[pixel] = value;
+      data[pixel + 1] = value;
+      data[pixel + 2] = value;
+      data[pixel + 3] = 255;
+    }
+  }
+
+  ctx.putImageData(image, 0, 0);
+  return out;
+}
+
 function findTextRuns(bin: Uint8Array, w: number, h: number): TextRun[] {
   const trans = new Int32Array(h);
   const firstEdge = new Int32Array(h).fill(-1);

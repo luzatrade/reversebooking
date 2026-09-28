@@ -6,6 +6,7 @@ import { PSM, type Worker } from 'tesseract.js';
 import {
   BIN_THRESHOLDS,
   binarizeCanvasAt,
+  binarizeCanvasAdaptive,
   cropRelCanvas,
   detectMrzBandsOnCanvas,
   prepBandCanvas,
@@ -183,6 +184,20 @@ async function collectTd1FromBand(
       if (found.length) return dedupeResults(found);
     }
 
+    if (thorough && !isTimedOut(deadline)) {
+      const adaptive = binarizeCanvasAdaptive(scaled);
+      const adaptiveText = await ocrCanvas(worker, adaptive, PSM.SINGLE_BLOCK);
+      if (adaptive !== scaled) {
+        adaptive.width = 0;
+        adaptive.height = 0;
+      }
+      const adaptiveLines = extractCandidateLines(adaptiveText).map((line) => padLine(line));
+      for (let i = 0; i + 2 < adaptiveLines.length; i++) {
+        add(parseTd1PerField(adaptiveLines.slice(i, i + 3).map((line, index) => realignLine(line, index as LineIndex))));
+      }
+      if (found.length) return dedupeResults(found);
+    }
+
     if (scaled !== canvas) {
       scaled.width = 0;
       scaled.height = 0;
@@ -242,6 +257,16 @@ async function collectTd3FromBand(
         bin.height = 0;
       }
       if (tryPairs(extractCandidateLines(binText))) return dedupeResults(found);
+    }
+
+    if (thorough && !isTimedOut(deadline)) {
+      const adaptive = binarizeCanvasAdaptive(scaled);
+      const adaptiveText = await ocrCanvas(worker, adaptive, PSM.SINGLE_BLOCK);
+      if (adaptive !== scaled) {
+        adaptive.width = 0;
+        adaptive.height = 0;
+      }
+      if (tryPairs(extractCandidateLines(adaptiveText))) return dedupeResults(found);
     }
 
     if (scaled !== canvas) {
