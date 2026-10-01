@@ -1,0 +1,352 @@
+[
+  {
+    "structureNumber": 631,
+    "id": "a807b892-3b04-4c88-a9d7-897cfea19ab5",
+    "slug": "albergo-ristorante-stella-agosta",
+    "nome": "Albergo Ristorante Stella",
+    "city": "Agosta",
+    "indirizzo": "Piazza della Liberazione, 3, 00036 Palestrina RM",
+    "website": null,
+    "email": null
+  },
+  {
+    "structureNumber": 632,
+    "id": "26fd959e-2fff-4ad8-9876-a2c6a920278d",
+    "slug": "b-b-il-sorriso-dei-monti-agosta",
+    "nome": "B&B Il Sorriso Dei Monti",
+    "city": "Agosta",
+    "indirizzo": "Via Segni, 20, 02035 Orvinio RI",
+    "website": "http://www.ilsorrisodeimonti.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 633,
+    "id": "07505b7f-89fa-4bfa-9898-69918a301fcc",
+    "slug": "b-b-margherita-agosta",
+    "nome": "B&B Margherita",
+    "city": "Agosta",
+    "indirizzo": "Via Folcara, 16/interno 4, 00025 Gerano RM",
+    "website": "https://www.bedandbreakfastmargherita.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 634,
+    "id": "fce94710-44d3-4fb0-8017-ef31db8ca859",
+    "slug": "la-luna-nel-pozzo-agosta",
+    "nome": "LA LUNA NEL POZZO",
+    "city": "Agosta",
+    "indirizzo": "Via delle Pantane, snc, 00020 Riofreddo RM",
+    "website": "http://www.agriturismolalunanelpozzo.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 635,
+    "id": "0da93f7c-104c-4f19-aded-cd328439ab02",
+    "slug": "la-nuova-fattoria-ristorante-hotel-agosta",
+    "nome": "La Nuova Fattoria Ristorante Hotel",
+    "city": "Agosta",
+    "indirizzo": "Via Tiburtina Valeria, km 68/300, 67061 Carsoli AQ",
+    "website": "http://www.lanuovafattoria.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 636,
+    "id": "02102650-6713-457a-9e28-0f809b7f5ca1",
+    "slug": "le-calecatine-agosta",
+    "nome": "Le Calecatine",
+    "city": "Agosta",
+    "indirizzo": "Via Valle della Pastorella, 1, 67066 Rocca di Botte AQ",
+    "website": "http://le-calecatine.org.es/",
+    "email": null
+  },
+  {
+    "structureNumber": 637,
+    "id": "17d3ecfc-03a3-440e-a0bb-aef89bdbb246",
+    "slug": "locanda-dell-orso-agosta",
+    "nome": "Locanda dell'Orso",
+    "city": "Agosta",
+    "indirizzo": "00020 Cervara di Roma RM",
+    "website": "https://romeit.cyou/locanda-dell-orso-0ksl4q",
+    "email": null
+  },
+  {
+    "structureNumber": 638,
+    "id": "495987e7-8b37-41b7-b7ad-7d7a841f3660",
+    "slug": "locanda-della-casella-agosta",
+    "nome": "Locanda Della Casella",
+    "city": "Agosta",
+    "indirizzo": "Via della Casella, 10, 00020 Cineto Romano RM",
+    "website": null,
+    "email": null
+  },
+  {
+    "structureNumber": 639,
+    "id": "8cdbd96a-c934-4818-9e01-1da72966e23b",
+    "slug": "ostello-il-girasole-agosta",
+    "nome": "Ostello Il Girasole",
+    "city": "Agosta",
+    "indirizzo": "Via del Municipio, 5, 00020 Rocca Canterano RM",
+    "website": "https://m.facebook.com/pages/category/Hotel/Ostello-Il-Girasole-1284736331644708/?locale2=it_IT",
+    "email": null
+  },
+  {
+    "structureNumber": 640,
+    "id": "6fa830fa-dc3f-4e63-b4bb-f99b7436a8b3",
+    "slug": "the-life-hotel-agosta",
+    "nome": "The Life Hotel",
+    "city": "Agosta",
+    "indirizzo": "Via S. Polo dei Cavalieri, 00010 Marcellina RM",
+    "website": null,
+    "email": null
+  },
+  {
+    "structureNumber": 641,
+    "id": "9b1c02e6-2f12-457f-b4b1-01bbad774237",
+    "slug": "villa-clementi-boutique-hotel-agosta",
+    "nome": "Villa Clementi Boutique Hotel",
+    "city": "Agosta",
+    "indirizzo": "Viale Giulio Venzi, 2, 00033 Cave RM",
+    "website": "https://villaclementiboutiquehotel.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 642,
+    "id": "8ff49fd0-f433-4407-a9ff-b32f13690b9e",
+    "slug": "agriturismo-da-attilio-agra",
+    "nome": "agriturismo \"da attilio\"",
+    "city": "Agra",
+    "indirizzo": "Località Marcalone, 28822 Cannobio VB",
+    "website": "http://www.agriturismomarcalone.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 643,
+    "id": "44d5a343-9b5b-4f83-bbe7-c6667aa0d0d1",
+    "slug": "agriturismo-ristorante-voeuja-agra",
+    "nome": "Agriturismo ristorante Voeuja",
+    "city": "Agra",
+    "indirizzo": "Via Longhirolo, 9, 21016 Luino VA",
+    "website": "http://www.voeuja.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 644,
+    "id": "81d6c344-70e7-4684-bd49-a6e1ccd38952",
+    "slug": "al-rost-b-b-agra",
+    "nome": "Al Rost B&B",
+    "city": "Agra",
+    "indirizzo": "Via Dumenza, 64, 21016 Poppino VA",
+    "website": "http://www.alrost.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 645,
+    "id": "8644d162-cfc7-4bf0-b98c-e3a536cf9e86",
+    "slug": "albergo-maccagno-agra",
+    "nome": "Albergo Maccagno",
+    "city": "Agra",
+    "indirizzo": "Piazza Vittorio Veneto, 1/3, 21061 Maccagno con Pino e Veddasca VA",
+    "website": "https://prolocomaccagno.it/albergo-maccagno/",
+    "email": null
+  },
+  {
+    "structureNumber": 646,
+    "id": "00c90983-2185-4ccb-b460-4107ce65801b",
+    "slug": "albergo-paradiso-agra",
+    "nome": "Albergo Paradiso",
+    "city": "Agra",
+    "indirizzo": "Via Giuseppe Verdi, 5A, 21061 Maccagno con Pino e Veddasca VA",
+    "website": "http://www.albergoparadisomaccagno.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 647,
+    "id": "76d563e1-2020-4a53-9594-14d9b044a90b",
+    "slug": "b-b-magnolia-agra",
+    "nome": "B&B Magnolia",
+    "city": "Agra",
+    "indirizzo": "Via A. Giovanola, 36, 28822 Cannobio VB",
+    "website": null,
+    "email": null
+  },
+  {
+    "structureNumber": 648,
+    "id": "009fa40b-fa69-434c-b435-5c62f25d3885",
+    "slug": "b-b-villa-viola-agra",
+    "nome": "B&B Villa Viola",
+    "city": "Agra",
+    "indirizzo": "Via Carlo Viola, 1, 21010 Curiglia VA",
+    "website": "http://www.villaviola.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 649,
+    "id": "bc419930-dc06-490e-b99f-cb3c0a83c8c7",
+    "slug": "fattoria-roccolo-agra",
+    "nome": "Fattoria Roccolo",
+    "city": "Agra",
+    "indirizzo": "Locolità Roccolo, 1, 21010 Dumenza VA",
+    "website": "http://www.fattoriaroccolo.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 650,
+    "id": "a73c69c4-5966-4655-affa-2b6cc6032e77",
+    "slug": "foresteria-al-campanile-agra",
+    "nome": "Foresteria Al Campanile",
+    "city": "Agra",
+    "indirizzo": "Via dei Caduti Piazza della Chiesa, 21010 Curiglia con Monteviasco VA",
+    "website": "https://www.foresteriaalcampanile.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 651,
+    "id": "6d0fa3c1-65ed-44e3-8bf1-f361daaa040c",
+    "slug": "garni-viggiona-agra",
+    "nome": "Garni Viggiona",
+    "city": "Agra",
+    "indirizzo": "Via Verbano, 3, 28826 Viggiona VB",
+    "website": "https://directy.eu/garni-viggiona",
+    "email": null
+  },
+  {
+    "structureNumber": 652,
+    "id": "0c93936b-4e74-4641-b6ca-c0b69117430f",
+    "slug": "hotel-elvezia-agra",
+    "nome": "Hotel Elvezia",
+    "city": "Agra",
+    "indirizzo": "Viale S. Carlo Borromeo, 4, 28822 Cannobio VB",
+    "website": "http://www.hotelelveziacannobio.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 653,
+    "id": "b835e7ce-1a53-4cd0-9b6f-5db05a4442a3",
+    "slug": "hotel-montegrino-lakeview-agra",
+    "nome": "Hotel Montegrino Lakeview",
+    "city": "Agra",
+    "indirizzo": "Via Cadorna, 26, 21010 Montegrino Valtravaglia VA",
+    "website": "https://www.hotelmontegrino.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 654,
+    "id": "cb063ca7-68e1-4f60-8632-e0fccd5f59a5",
+    "slug": "hotel-torre-imperiale-agra",
+    "nome": "Hotel Torre Imperiale",
+    "city": "Agra",
+    "indirizzo": "Piazza Roma, 1, 21061 Maccagno con Pino e Veddasca VA",
+    "website": "http://www.hoteltorreimperiale.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 655,
+    "id": "edc03d14-0a03-4725-b7d4-76bb5d649964",
+    "slug": "hotel-villa-palmira-agra",
+    "nome": "Hotel Villa Palmira",
+    "city": "Agra",
+    "indirizzo": "Via D. Uccelli, 24, 28822 Cannobio VB",
+    "website": "http://www.villapalmira.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 656,
+    "id": "5ce58517-618d-40a5-b20d-0a7cfc301eaa",
+    "slug": "il-giardino-segreto-agra",
+    "nome": "Il Giardino Segreto",
+    "city": "Agra",
+    "indirizzo": "CIR 012092-CNI-00001, Via Felice Cavallotti, 34, 21016 Luino VA",
+    "website": "https://www.ilgiardinosegretoluino.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 657,
+    "id": "c86c8f76-9a79-4d1f-ae40-57253e9f762c",
+    "slug": "park-hotel-italia-agra",
+    "nome": "Park Hotel Italia",
+    "city": "Agra",
+    "indirizzo": "Viale delle Magnolie, 19, 28821 Cannero Riviera VB",
+    "website": "http://www.parkhotelitalia.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 658,
+    "id": "554530b2-becb-4e44-a100-7889592dcdce",
+    "slug": "residence-eden-rock-cannobio-agra",
+    "nome": "Residence Eden Rock Cannobio",
+    "city": "Agra",
+    "indirizzo": "28822 Sant'Agata VB",
+    "website": "https://www.booking.com/hotel/it/eden-rock-cannobio.de.html",
+    "email": null
+  },
+  {
+    "structureNumber": 659,
+    "id": "2243b12d-7bbc-4bb2-ba37-2a360ebbf7fa",
+    "slug": "residence-villa-margherita-agra",
+    "nome": "Residence Villa Margherita",
+    "city": "Agra",
+    "indirizzo": "Casali Darbedo, 2, 28822 Cannobio VB",
+    "website": "https://www.residencevillamargherita.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 660,
+    "id": "a4904a86-ebaf-4f6d-bd5e-8ac99c4e7788",
+    "slug": "rifugio-campiglio-agra",
+    "nome": "Rifugio Campiglio",
+    "city": "Agra",
+    "indirizzo": "Località Alpe Pradecolo, 1, 21010 Dumenza VA",
+    "website": "http://www.rifugiocampiglio.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 661,
+    "id": "678e8781-9a15-4963-80d1-56b1691b152e",
+    "slug": "villa-porta-colmegna-agra",
+    "nome": "Villa Porta Colmegna",
+    "city": "Agra",
+    "indirizzo": "Via Angelo Palazzi, 1, 21016 Luino VA",
+    "website": "https://www.villaporta.style/it/",
+    "email": null
+  },
+  {
+    "structureNumber": 662,
+    "id": "a68304b4-7a97-484e-a702-7f34b29017ac",
+    "slug": "agriturismo-cascina-magana-agrate-brianza",
+    "nome": "Agriturismo Cascina Magana",
+    "city": "Agrate Brianza",
+    "indirizzo": "Cascina Magana, 2, 20875 Burago di Molgora MB",
+    "website": "http://www.cascinamagana.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 663,
+    "id": "9020ffee-c08c-4cbe-856e-dd1a7a0bc3a9",
+    "slug": "agriturismo-galbusera-bianca-agrate-brianza",
+    "nome": "Agriturismo Galbusera Bianca",
+    "city": "Agrate Brianza",
+    "indirizzo": "Via Galbusera Bianca, 2, 23888 La Valletta Brianza LC",
+    "website": "https://www.oasigalbuserabianca.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 664,
+    "id": "8946cf32-f6e5-45a5-9309-74bc80fac6e6",
+    "slug": "agriturismo-i-gelsi-agrate-brianza",
+    "nome": "Agriturismo I Gelsi",
+    "city": "Agrate Brianza",
+    "indirizzo": "Via S. Dionigi, 11, 23870 Cernusco Lombardone LC",
+    "website": "http://www.igelsi.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 665,
+    "id": "a8056a14-8ffd-4088-ad84-d231d2b67c15",
+    "slug": "agriturismo-la-camilla-agrate-brianza",
+    "nome": "Agriturismo La Camilla",
+    "city": "Agrate Brianza",
+    "indirizzo": "Via Dante, 267, 20863 Concorezzo MB",
+    "website": "http://www.lacamilla.it/",
+    "email": null
+  }
+]

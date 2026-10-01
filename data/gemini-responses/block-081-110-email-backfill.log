@@ -1,0 +1,896 @@
+◇ injected env (8) from .env.local // tip: ⌘ suppress logs { quiet: true }
+
+=== Blocco 081 (35 strutture) ===
+  ✓ albergo-bortoluzzi-alpago → info@albergobortoluzzi.it
+  ✓ albergo-cappello-alpago → info@albergocappello.com
+  ✓ albergo-casa-sperti-alpago → info@casasperti.it
+  ✓ albergo-delle-alpi-alpago → info@dellealpi.it
+  ✓ dolada-ristorante-boutique-hotel-alpago → info@dolada.it
+  ✓ hotel-1301-inn-alpago → info@1301inn.it
+  ✓ hotel-da-benito-alpago → info@hoteldabenito.it
+  ✓ hotel-dante-alpago → info@hoteldante-dolomiti.it
+  ✓ hotel-europa-belluno-alpago → europabelluno@gmail.com
+  ✓ suite-hotel-astor-alpago → hotel@astorbelluno.it
+  ✓ hotel-italia-coassolo-alpette → info@hotelitaliasaber.it
+  ✓ hotellerie-valle-sacra-b-b-centro-benessere-e-sp-alpette → info@hotellerievallesacra.it
+  ✓ il-pettirosso-alpette → nicoletta@vivietico.it
+  ✓ b-b-casa-v-ale-alpignano → info.casavalebb@gmail.com
+  ✓ blu-hotel-sure-hotel-collection-by-best-western-alpignano → info@bluhoteltorino.it
+  ✓ diamante-motel-hotel-torino-collegno-alpignano → info@diamantemhotel.it
+  ✓ hotel-gallia-centro-congressi-alpignano → info@galliahotel.it
+  ✓ hotel-motel-prestige-alpignano → info@hotelmotelprestige.it
+  ✓ la-finestra-sulla-reggia-alpignano → info@lafinestrasullareggia.it
+  ✓ phi-hotel-homy-druento-alpignano → info@phihotelhomydruento.com
+  ✓ piccolo-hotel-allamano-alpignano → info@hotelpiccoloallamano.it
+  Blocco 081: aggiornate 21, già ok 0, no sito 2, non trovate 12
+
+=== Blocco 082 (35 strutture) ===
+  ✓ villa-lorenzo-alserio → eventi@villalorenzo.it
+  ✓ antico-casale-di-bobbio-b-b-alta-val-tidone → info@anticocasaledibobbio.it
+  ✓ b-b-ca-nova-alta-val-tidone → canovaoltrepo@gmail.com
+  ✓ b-b-casa-piantone-alta-val-tidone → soggacaterina@gmail.com
+  ✓ b-b-il-giardino-di-laura-alta-val-tidone → laura@ilgiardinodilaura.it\
+  ✓ bar-albergo-ristorante-penice-alta-val-tidone → info@albergopenice.it
+  ✓ bioagriturismo-olistico-valtidone-verde-alta-val-tidone → ludmilla@valtidoneverde.it
+  ✓ borgo-dei-gatti-albergo-diffuso-alta-val-tidone → info@relaisborgodeigatti.it
+  ✓ castello-di-tassara-alta-val-tidone → info@castelloditassara.com
+  ✓ hotel-locanda-borgo-impero-alta-val-tidone → info@borgoimpero.it
+  ✓ residenze-del-borgo-alta-val-tidone → residenzedelborgo@gmail.com
+  ✓ agriturismo-la-nevera-alta-valle-intelvi → laneveralanzo@gmail.com
+  ✓ b-b-michelina-nel-centro-storico-di-castiglione-alta-valle-intelvi → info@bbmichelina.it
+  ✓ b-b-ca-suana-alta-valle-intelvi → casuana2017@gmail.com
+  ✓ cavaria-alta-valle-intelvi → info@albergocavaria.it
+  ✓ hotel-corte-di-santa-libera-alta-valle-intelvi → info@hotelsantalibera.it
+  ✓ hotel-funicolare-alta-valle-intelvi → management@hotelfunicolare.com
+  ✓ hotel-milano-alta-valle-intelvi → info@hotelmilanolanzo.com
+  Blocco 082: aggiornate 18, già ok 0, no sito 4, non trovate 13
+
+=== Blocco 083 (35 strutture) ===
+  ✓ hotel-ristorante-vittoria-alta-valle-intelvi → luraghiale00@gmail.com
+  ✓ la-locanda-del-notaio-alta-valle-intelvi → info@locandadelnotaio.com
+  ✓ villa-san-fedele-hotel-alta-valle-intelvi → info@villasanfedele.com
+  ✓ villa-simplicitas-e-solferino-alta-valle-intelvi → villasimplicitas@gmail.com
+  ✓ b-b-panorama-lucano-foresteria-multicamere-altamura → panoramalucano@gmail.com
+  ✓ b-b-capovento-della-murgia-altamura → capoventodellamurgia@gmail.com
+  ✓ b-b-casa-felda-altamura → casafelda@gmail.com
+  ✓ beb-luna-federiciana-altamura → info@beblunafedericiana.it
+  ✓ deb-spa-altamura → f.lli.debernardis@gmail.com
+  ✓ hotel-fuori-le-mura-altamura → prenotazioni@hotelfuorilemura.it
+  ✓ il-borgo-antico-bed-breakfast-altamura-altamura → borgoanticoaltamura@libero.it
+  ✓ il-nido-dei-falchi-b-b-altamura → info@ilnidodeifalchi.it
+  ✓ malandri-b-b-altamura → info@malandri.eu
+  ✓ mattei-luxury-b-b-altamura → info@matteibeb.it
+  ✓ b-b-i-calleri-garden-rooms-altare → icalleri.cosseria@gmail.com
+  ✓ b-b-le-stanze-del-moro-altare → info@prolocopallare.it
+  Blocco 083: aggiornate 16, già ok 0, no sito 5, non trovate 14
+
+=== Blocco 084 (35 strutture) ===
+  ✓ hotel-giovanna-b-b-altare → hotelgiovanna@yahoo.it
+  ✓ miramare-altare → info@hotelmiramaresavona.it
+  ✓ agritur-calvola-altavalle → info@agriturcalvola.it
+  ✓ agritur-due-valli-altavalle → info.agriturduevalli@libero.it
+  ✓ agritur-ponte-alto-altavalle → info@agriturpontealto.it
+  ✓ agriturismo-margone-trento-altavalle → info@agriturismomargone.it
+  ✓ albergo-bar-miravalle-altavalle → info@miravallerango.it
+  ✓ bed-breakfast-casa-delle-fate-altavalle → info@casadellefate.it
+  ✓ hotel-garni-alta-valle-altavalle → info@hotelaltavalle.it
+  ✓ hotel-miravalle-altavalle → info@hotelmiravalle.info
+  ✓ agriturismo-e-winery-feudo-di-castelmozzo-altavilla-irpina → info@feudodicastelmozzo.it
+  Blocco 084: aggiornate 11, già ok 0, no sito 6, non trovate 18
+
+=== Blocco 085 (35 strutture) ===
+  ✓ blu-hotel-altavilla-irpina → info@bluhotelbenevento.it
+  ✓ hotel-hypnos-altavilla-irpina → info@hotelhypnos.it
+  ✓ rossi-nero-resort-altavilla-irpina → info@rossienero.com
+  ✓ allegroitalia-torre-artale-palermo-altavilla-milicia → infosangallo@allegroitalia.it
+  ✓ antico-casale-formica-altavilla-milicia → info@casaleformica.it
+  ✓ domina-zagarella-sicily-santa-flavia-altavilla-milicia → info@dominasicily.it
+  ✓ hotel-borgo-di-ciaula-altavilla-milicia → hotelborgodiciaula@gmail.com
+  ✓ hotel-sporting-club-altavilla-milicia → info@hotelsportingclub.it
+  ✓ hotel-torre-normanna-altavilla-milicia → normanna@torrenormanna.com
+  ✓ la-dimora-dei-paladini-altavilla-milicia → info@ladimoradeipaladini.com
+  ✓ luxury-boutique-hotel-blue-island-villa-caterina-altavilla-milicia → info@blueislandvillacaterina.it
+  ✓ principe-alogna-hotel-spa-altavilla-milicia → info@principealogna.it
+  ✓ suite-le-palme-altavilla-milicia → lepalmesuite@gmail.com
+  ✓ villa-oltremare-resort-altavilla-milicia → villaoltremareresort@gmail.com
+  ✓ villa-scaduto-residence-altavilla-milicia → info@villascadutoresidence.it
+  ✓ b-b-castello-di-frassinello-altavilla-monferrato → info@castellodifrassinello.it
+  ✓ b-b-locanda-il-cortile-altavilla-monferrato → trattoria.sarroc@gmail.com
+  ✓ belcasale-camere-in-collina-altavilla-monferrato → info@belcasale.it
+  ✓ belvedere-monferrato-relais-wellness-altavilla-monferrato → info@belvederemonferrato.it
+  Blocco 085: aggiornate 19, già ok 0, no sito 3, non trovate 13
+
+=== Blocco 086 (35 strutture) ===
+  ✓ cascina-trapella-altavilla-monferrato → biotrapella@gmail.com
+  ✓ i-castagnoni-country-resort-wellness-altavilla-monferrato → booking@icastagnoni.it
+  ✓ la-quercia-rossa-altavilla-monferrato → querciarossa2025@gmail.com
+  ✓ le-libellule-relais-altavilla-monferrato → booking@lelibellulerelais.com
+  ✓ monferrato-resort-altavilla-monferrato → info@monferratoresort.it
+  ✓ relais-dal-cavaliere-altavilla-monferrato → relaisdalcavaliere@gmail.com
+  ✓ tenuta-montemagno-relais-wines-altavilla-monferrato → info@tenutamontemagno.it
+  ✓ villa-morneto-relais-agriturismo-altavilla-monferrato → prenotazioni@villamorneto.it
+  ✓ biancolivo-country-house-altavilla-silentina → info@biancolivo.com
+  ✓ ghv-hotel-spa-altavilla-vicentina → info@ghvhotel.com
+  ✓ hotel-residence-castelli-altavilla-vicentina → info@hotelcastelli.it
+  ✓ hotel-castagna-altavilla-vicentina → info@castagnahotel.it
+  ✓ hotel-giada-viale-del-sole-altavilla-vicentina → info@giadavialedelsole.com
+  ✓ hotel-locanda-botella-altavilla-vicentina → girobancoblu@gmail.com
+  ✓ key-hotel-vicenza-altavilla-vicentina → info@key-hotel.it
+  ✓ l-abbraccio-della-vigna-alloggio-agrituristico-a-altavilla-vicentina → info@abbracciodellavigna.it
+  ✓ locanda-degli-ulivi-hotel-e-ristorante-sui-colli-altavilla-vicentina → info@locandadegliulivi.com
+  ✓ ostello-olimpico-vicenza-altavilla-vicentina → info@ostellovicenza.com
+  ✓ ristorante-crichelon-altavilla-vicentina → info@crichelon.com
+  ✓ shg-hotel-de-la-ville-altavilla-vicentina → info@hoteldelavillevicenza.com
+  ✓ villa-valmarana-de-toni-dimora-storica-altavilla-vicentina → villavalmaranadetoni@gmail.com
+  ✓ acquarello-altidona → info@acquarellorestaurant.it
+  Blocco 086: aggiornate 22, già ok 0, no sito 2, non trovate 11
+
+=== Blocco 087 (35 strutture) ===
+  ✓ agriturismo-la-pieve-altidona → info@agriturismolapieve.net
+  ✓ alba-sul-mare-guest-house-altidona → bbalbasulmare@gmail.com
+  ✓ b-b-la-poeta-vicino-a14-pedaso-altidona → lapoetabb@libero.it
+  ✓ casa-degli-archi-altidona → info@agriturismocasadegliarchi.com
+  ✓ dimora-villa-ricci-altidona → info@dimoravillaricci.it
+  ✓ hotel-palmensis-altidona → info@palmensis.it
+  ✓ hotel-ristorante-rivamare-altidona → hotel@rivamare.it
+  ✓ monna-terra-b-b-altidona → info@monnaterra.it
+  ✓ riva-verde-camping-village-residence-acquapark-altidona → info@rivaverde.it
+  ✓ vicolo-malavolta-7-rooms-and-suites-altidona → prenotazioni@vicolomalavolta.it
+  ✓ b-b-calabria-altilia → info@bedandbreakfastcalabria.it
+  ✓ hotel-ristorante-valle-del-savuto-altilia → info@hotelvalledelsavuto.com
+  ✓ palace-hotel-una-nuova-strada-altilia → info@unanuovastrada.it
+  Blocco 087: aggiornate 13, già ok 0, no sito 9, non trovate 13
+
+=== Blocco 088 (35 strutture) ===
+  ✓ b-b-l-arcobaleno-altino → dalpagano@email.it
+  ✓ bb-casavacanze-corneto-altino → g.caniglia@libero.it
+  ✓ eden-hotel-residence-altino → info@residence-eden.it
+  ✓ il-castello-altino → ilcastellodiatessa@gmail.com
+  ✓ il-giardinotto-bed-breakfast-altino → info@giardinotto.it
+  ✓ ospitati-b-b-le-tre-chiavi-altino → info@ospitati.it
+  ✓ agriturismo-da-celestina-altissimo → agricelestina@gmail.com
+  ✓ agriturismo-riva-ratta-altissimo → agriturismo@rivaratta.it
+  ✓ albergo-ristorante-roma-altissimo → albergoromavi@gmail.com
+  ✓ angolo-di-paradiso-altissimo → info@angolodiparadisoaltissimo.it
+  ✓ b-b-ca-panisacco-altissimo → info@capanisacco.com%20
+  ✓ casalloro-altissimo → info@casalloro.com
+  ✓ hotel-miramonti-altissimo → info@hotelmiramonti.com
+  ✓ hotel-ristorante-villa-i-pini-altissimo → info@villaipini.com
+  ✓ la-pieve-hotel-altissimo → info@lapievehotel.it
+  ✓ la-rindola-altissimo → larindola@gmail.com
+  ✓ le-andrianelle-ristorante-hotel-altissimo → info@leandrianelle.it
+  ✓ le-camere-di-marietta-altissimo → info@lecameredimarietta.it
+  ✓ locanda-perinella-altissimo → info@locandaperinella.it
+  ✓ schio-hotel-altissimo → info@schiohotel.it
+  ✓ vecia-osteria-dal-menga-ristorante-hotel-enoteca-altissimo → info@hoteldalmenga.it
+  Blocco 088: aggiornate 21, già ok 0, no sito 3, non trovate 11
+
+=== Blocco 089 (35 strutture) ===
+  ✓ agriturismo-le-vele-altivole → info@agriturismolevele.it
+  ✓ al-giorgione-altivole → info@algiorgione.it
+  ✓ albergo-al-moretto-di-luciana-rigato-c-s-a-s-altivole → info@albergoalmoretto.it
+  ✓ albergo-grappolo-d-oro-altivole → info@hotelgrappolodoro.com
+  ✓ alloggio-agrituristico-zambon-altivole → casa@agriturismozambon.it
+  ✓ fara1911-altivole → info@fara1911.com
+  ✓ home-hotel-altivole → info@homehotelcastelfranco.com
+  ✓ hotel-asolo-altivole → info@hotel-asolo.com
+  ✓ hotel-corone-altivole → info@hotelcorone.it
+  ✓ hotel-palazzon-gradenigo-altivole → info@palazzongradenigo.it
+  ✓ hotel-san-marco-altivole → info@hotelsanmarco.tv.it
+  ✓ ida-boutique-hotel-altivole → ida@anticaabbazia.com
+  ✓ nazionale-camere-altivole → info@nazionalecamere.it
+  ✓ terrazza-san-vettore-altivole → info@meloinfiore.it
+  ✓ agriturismo-dai-marchesin-alto → info@frantoiogarello.it
+  ✓ albergo-al-sole-alto → albergo.alsole@libero.it
+  ✓ albergo-ristorante-da-gin-alto → prenotazioni@dagin.it
+  ✓ albergo-ristorante-payarin-alto → info@payarin.it
+  ✓ albergo-ristorante-san-carlo-alto → info@albergosancarlo.com
+  ✓ antico-convento-alto → info@antico-convento.it
+  ✓ b-b-rossociliegia-alto → rossociliegiabb@gmail.com
+  ✓ hotel-maria-nella-ristorante-alto → info@hotelmarianella.com
+  ✓ hotel-momora-alto → info@hotelmomora.com
+  ✓ kalimera-alto → kalimerabardineto@tiscali.it
+  Blocco 089: aggiornate 24, già ok 0, no sito 1, non trovate 10
+
+=== Blocco 090 (35 strutture) ===
+  ✓ la-fornace-di-garessio-alto → lafornacegaressio@gmail.com
+  ✓ locanda-albergo-ristorante-da-lisetta-alto → info@dalisetta.it
+  ✓ nonnamelia-alto → nonnamelianasino@gmail.com
+  ✓ antica-locanda-la-posta-alto-reno-terme → lapostagaggio@gmail.com
+  ✓ b-b-la-presa-alto-reno-terme → boris.bragalli@gmail.com
+  ✓ ca-gennara-agri-b-b-alto-reno-terme → info@cagennara.com
+  ✓ ecochiocciola-alto-reno-terme → info@ecochiocciola.com
+  ✓ hotel-bertusi-alto-reno-terme → info@hotelbertusi.it
+  ✓ hotel-helvetia-thermal-spa-alto-reno-terme → info@helvetiabenessere.it
+  ✓ hotel-il-fondaccio-alto-reno-terme → info@hotelilfondaccio.it
+  ✓ hotel-montegrande-alto-reno-terme → info@montegrande.it
+  ✓ hotel-roma-alto-reno-terme → info@hotelromaporretta.com
+  ✓ hotel-santoli-alto-reno-terme → info@hotelsantoli.com
+  ✓ l-oca-giuliva-relais-alto-reno-terme → ocagiulivabologna@gmail.com
+  ✓ affittacamere-tagliaferro-alto-sermenza → tagliaferrocamere@gmail.com
+  ✓ albergo-ristorante-fontana-alto-sermenza → infotiscali@rimellawalser.it
+  ✓ albergo-rosetta-alto-sermenza → info@albergorosetta.eu
+  ✓ foresteria-valsesia-alto-sermenza → foresteria@gmail.com
+  ✓ hotel-nuovo-pecetto-alto-sermenza → info@hotelnuovopecetto.com
+  ✓ hotel-signal-alto-sermenza → hotelsignalmacugnaga@gmail.com
+  ✓ mondo-d-oro-alto-sermenza → info@hotelmondodoro.com
+  Blocco 090: aggiornate 21, già ok 0, no sito 4, non trovate 10
+
+=== Blocco 091 (35 strutture) ===
+  ✓ rifugio-alpenrose-alto-sermenza → rifugioalpenrose.gta@gmail.com
+  ✓ ristorante-dei-pescatori-alto-sermenza → info@pescatoripiode.eu
+  ✓ abt-l-aura-altofonte → info@abt-laura.it
+  ✓ agriturismo-argomesi-altofonte → argomesi64@gmail.com
+  ✓ b-b-casa-rossa-di-matri-srl-altofonte → bbcasarossa@bbcasarossa.com
+  ✓ b-b-monreale-locanda-re-ruggero-altofonte → info@locandareruggero.it
+  ✓ hotel-palazzo-salerno-altomonte → reception@hotelpalazzosalerno.it
+  ✓ le-mimose-b-b-altomonte → lemimosebeb@gmail.com
+  ✓ agriturismo-villa-monica-altopascio → info@villamonica.net
+  ✓ antica-casa-dei-rassicurati-altopascio → info@anticacasadeirassicurati.it
+  Blocco 091: aggiornate 10, già ok 0, no sito 4, non trovate 21
+
+=== Blocco 092 (35 strutture) ===
+  ✓ da-beppe-hotel-ristorante-bar-altopascio → info@hoteldabeppe.it
+  ✓ hotel-cavalieri-del-tau-altopascio → info@cavalierideltau.it
+  ✓ hotel-le-cerbaie-3-stelle-superior-altopascio → prenotazioni@hotelcerbaiealtopascio.it
+  ✓ hotel-paola-altopascio → info@hotelpaolalucca.it
+  ✓ la-porta-di-san-rocco-altopascio → altopasciobb@gmail.com
+  ✓ sibolla-holidays-altopascio → sibollaholidays@gmail.com
+  ✓ villa-nadar-altopascio → info@villanadar.it
+  ✓ agritur-la-sabbionara-altopiano-della-vigolana → info@agriturlasabbionara.com
+  ✓ agritur-la-val-altopiano-della-vigolana → info@agriturismolaval.it
+  ✓ agritur-sedici-bed-and-breakfast-altopiano-della-vigolana → info@agritur16.it
+  ✓ agriturismo-corte-delle-mele-altopiano-della-vigolana → info@cortedellemele.it
+  ✓ azienda-agricola-e-agritur-maso-flonkeri-altopiano-della-vigolana → agrinonna@gmail.com
+  ✓ berry-house-altopiano-della-vigolana → info@berryhouse.it
+  ✓ hotel-alpenrose-ristorante-spa-altopiano-della-vigolana → info@hotelalpenrose.net
+  ✓ la-corte-di-san-rocco-altopiano-della-vigolana → info@lacortedisanrocco.com
+  ✓ residence-hotel-da-remo-altopiano-della-vigolana → info@hoteldaremo.it
+  Blocco 092: aggiornate 16, già ok 0, no sito 7, non trovate 12
+
+=== Blocco 093 (35 strutture) ===
+  ✓ agriturismo-san-marco-alvignano → info@sanmarco-agriturismo.it
+  ✓ mulino-bencivenga-alvignano → info@mulinobencivenga.it
+  ✓ villa-falcone-b-b-alvignano → villafalcone8@gmail.com
+  ✓ villa-ortensia-d-avalos-alvignano → info@villaortensia.it
+  ✓ a-casa-di-bed-and-breakfast-alvito → info@acasadialvito.it
+  ✓ accogliente-dimora-nel-centro-storico-di-alvito-alvito → realestate.dinamica@gmail.com
+  ✓ b-b-casal-cominium-alvito → casalcominium@gmail.com
+  ✓ il-tiglio-alvito → info@iltiglioalvito.it
+  ✓ italy-farm-stay-alvito → italyfarmstay@gmail.com
+  ✓ relais-colle-buono-alvito → info@collebuono.it
+  ✓ relais-valle-dell-aquila-alvito → info@valledellaquila.it
+  ✓ rifugio-orsa-maggiore-alvito → info@csorsamaggiore.com
+  ✓ tenuta-del-daino-alvito → info@tenutadeldaino.it
+  ✓ agriturismo-la-soglia-del-parco-alzano-lombardo → lasogliadelparco@gmail.com
+  Blocco 093: aggiornate 14, già ok 0, no sito 10, non trovate 11
+
+=== Blocco 094 (35 strutture) ===
+  ✓ al-tagliere-di-nese-alzano-lombardo → info@altaglieredinese.com
+  ✓ b-b-al-grattacielo-alzano-lombardo → info@bbalgrattacielo.it
+  ✓ hotel-ristorante-marcellino-alzano-lombardo → info@hotelmarcellino.it
+  ✓ relais-villa-carrara-bed-breakfast-in-provincia-alzano-lombardo → info@relaisvillacarrara.it
+  ✓ san-valentino-hotel-alzano-lombardo → info@sanvalentinohotel.it
+  ✓ villa-sant-antonio-alzano-lombardo → info@villasantantonio.eu
+  ✓ albergo-ristorante-giardino-alzano-scrivia → info@albergogiardinotrestelle.it
+  ✓ hotel-clementi-alzano-scrivia → info@hotelclementi.com
+  ✓ hotel-motel-k-suite-a-tema-wellness-alzano-scrivia → info@motelk.com
+  ✓ hotel-ristorante-bellinzona-alzano-scrivia → info@hotelbellinzona.it
+  ✓ hotel-ristorante-chierico-alzano-scrivia → ticinoalbergo@gmail.com
+  ✓ hotel-ristorante-il-carrettino-alzano-scrivia → info@ilcarrettino.com
+  ✓ il-castello-di-san-gaudenzio-alzano-scrivia → info@hcsg.it
+  ✓ la-stazione-di-salice-alzano-scrivia → info@lastazionedisalice.it
+  ✓ park-hotel-alzano-scrivia → parkhotel@parkhotel.pv.it
+  ✓ ristorante-albergo-antica-dimora-san-michele-alzano-scrivia → info@anticadimorasanmichele.it
+  ✓ cassinazza-alzate-brianza → info@cassinazza.it
+  ✓ elleboro-b-b-alzate-brianza → info@elleborobeb.it
+  ✓ affittacamere-mioe-al → info@mioe.it
+  ✓ inn-puglia-guest-house-al → innpugliaguesthouse@gmail.com
+  ✓ masseria-trulli-stelle-bed-breakfast-al → info@trulliestelle.it
+  Blocco 094: aggiornate 21, già ok 0, no sito 6, non trovate 8
+
+=== Blocco 095 (35 strutture) ===
+  ✓ murr-luxury-rooms-al → info@murrluxuryrooms.com
+  ✓ via-del-mare-apulia-b-b-spa-suite-al → viadelmarebeb@gmail.com
+  ✓ 103-boutique-hotel-stintino-al-dei-sardi → info@103stintino.com
+  ✓ garden-hotel-alghero-al-dei-sardi → info@gardenhotelalghero.com
+  ✓ hotel-alma-di-alghero-al-dei-sardi → booking@hotel-alma-alghero.it
+  ✓ hotel-cala-reale-al-dei-sardi → info@calareale.it
+  ✓ hotel-dei-pini-al-dei-sardi → booking@hoteldeipini.it
+  ✓ hotel-giardino-la-playa-al-dei-sardi → info@hotelgiardinolaplaya.it
+  ✓ hotel-grazia-deledda-s-r-l-al-dei-sardi → booking@hotelgraziadeledda.it
+  ✓ hotel-il-gabbiano-al-dei-sardi → gabbianoalghero@gmail.com
+  ✓ hotel-la-ciaccia-al-dei-sardi → info@laciaccia.it
+  ✓ hotel-mistral-al-dei-sardi → info@hotelmistral.it
+  ✓ hotel-punta-negra-l-alguer-alghero-al-dei-sardi → info@hotelpuntanegra.it
+  ✓ hotel-s-astore-al-dei-sardi → meilto:%20info@sastore.it
+  ✓ hotel-san-marco-al-dei-sardi → info@hotelsanmarcoalghero.com
+  ✓ s-ard-guest-house-sassari-al-dei-sardi → sard.sassari@gmail.com
+  ✓ affittacamere-lido-marchesana-al-terme → lidomarchesana@alice.it
+  ✓ agrolea-hotel-ristorante-al-terme → agrolearodimilici@gmail.com
+  ✓ b-b-la-gatta-bianca-al-terme → info@beblagattabianca.it
+  ✓ b-b-torreforte-al-terme → bbtorreforte@bbtorreforte.com
+  ✓ baaria-house-hotel-al-terme → baariahousehotel@gmail.com
+  ✓ grand-hotel-la-rosa-dei-venti-al-terme → larosadeiventihotel@tiscali.it
+  ✓ hotel-il-gabbiano-beach-al-terme → info@gabbianohotel.com
+  Blocco 095: aggiornate 23, già ok 0, no sito 0, non trovate 12
+
+=== Blocco 096 (35 strutture) ===
+  ✓ hotel-terme-acqua-grazia-al-terme → info@hoteltermeacquagrazia.com
+  ✓ hotel-terme-marino-al-terme → termemarino@gmail.com
+  ✓ sait-hotel-al-terme → info@saithotel.com
+  ✓ scirocco-house-al-terme → bbsciroccohouse@gmail.com
+  ✓ agriturismo-antico-mulino-dei-sibillini-amandola → anticomulinodeisibillini@gmail.com
+  ✓ area-sosta-camper-sibillini-amandola → parco@sibillini.net
+  ✓ b-b-borgofortino-amandola → info@borgofortino.it
+  ✓ hotel-san-marco-da-zena-amandola → info@hotelristorantesanmarco.it
+  ✓ la-mela-rosa-amandola → info@lamelarosa.it
+  ✓ ristorante-hotel-da-roverino-amandola → info@ristoranteroverino.it
+  ✓ villa-andreina-amandola → info@villa-andreina.it
+  ✓ la-perla-amantea-rooms-apartaments-amantea → info@laperlaamantea.it
+  ✓ la-tonnara-hotel-ristorante-amantea → info@latonnara.it
+  ✓ le-mandrelle-beach-resort-amantea → info@lemandrelle.it
+  ✓ al-benvenuto-hotel-restaurant-amaro → info@albenvenuto.it
+  ✓ albergo-miramonti-amaro → info@albergo-miramonti.it
+  ✓ alma-living-hotel-al-girarrosto-amaro → info@almalivinghotel.it
+  Blocco 096: aggiornate 17, già ok 0, no sito 8, non trovate 10
+
+=== Blocco 097 (35 strutture) ===
+  ✓ comune-rustico-sport-hotel-amaro → info@comunerustico.it
+  ✓ da-michele-albergo-ristorante-pizzeria-amaro → info@albergodamichele.it
+  ✓ hotel-alla-fonte-amaro → info@hotelallafonte.com
+  ✓ hotel-gardel-centro-benessere-amaro → prenotazioni@gardel.it
+  ✓ hotel-willy-taverna-pizzeria-ristorante-amaro → info@hotelwilly.com
+  ✓ l-intermezzo-amaro → patsy_verkouter@hotmail.com
+  ✓ lago-3-comuni-camping-amaro → camping@lago3comuni.com
+  ✓ pergola-rooms-amaro → info@pergolarooms.it
+  ✓ agriturismo-borgo-piazza-ristorante-fattoria-did-amaroni → info@borgopiazza.it
+  ✓ agriturismo-costantino-amaroni → agriturismocostantino@gmail.com
+  ✓ agriturismo-podere-pansera-amaroni → info@poderepansera.com
+  ✓ club-esse-sunbeach-amaroni → info@clubesse.com
+  ✓ domus-b-b-amaroni → domusbbweb@gmail.com
+  ✓ grand-hotel-catanzaro-best-western-amaroni → info@grandhotelcatanzaro.it
+  ✓ hotel-club-poseidon-amaroni → infoposeidon@hotelresidenceposeidon.it
+  ✓ hotel-conca-d-oro-amaroni → info@hotelconcadoro.org
+  ✓ hotel-costa-jonica-amaroni → hotelcostajonica@gmail.com
+  ✓ lvresidence-amaroni → info@lvresidence.com
+  ✓ rada-siri-hotel-amaroni → info@radasiri.com
+  ✓ san-michele-apartments-b-b-hotel-residence-con-r-amaroni → info@sanmichelegermaneto.it
+  Blocco 097: aggiornate 20, già ok 0, no sito 1, non trovate 14
+
+=== Blocco 098 (35 strutture) ===
+  ✓ b-b-da-gabry-amaseno → scrivi@bebdagabry.it
+  ✓ b-b-domus-victoria-amaseno → clubdomusvictoria@libero.it
+  ✓ b-b-la-casa-di-nonna-tella-cin-it059012c1d4ncdpe-amaseno → info@lacasadinonnatella.it
+  ✓ b-b-oro-puro-amaseno → info@beboropuro.it
+  ✓ b-b-solerosa-amaseno → yourclaudio@tiscali.it
+  ✓ hotel-la-villa-amaseno → hotelvillasrl@gmail.com
+  ✓ petalo-rosso-amaseno → rominagu79@gmail.com
+  ✓ b-b-la-casa-di-ely-amato → info@lacasadiely.it
+  ✓ hotel-guglielmo-boutique-hotel-wellness-spa-amato → info@hotelguglielmo.it
+  ✓ palahotel-vallenoce-amato → info@palahotel.it
+  ✓ polifunzionale-germaneto-amato → info@grandhotelcatanzaro.it
+  ✓ t-hotel-lamezia-centro-benessere-centro-congress-amato → info@thotelamezia.it
+  ✓ agriturismo-l-d-l-amatrice-amatrice → info@agriturismoldl.it
+  ✓ albergo-diffuso-amatrice-amatrice → info@albergodiffusoamatrice.it
+  ✓ albergo-diffuso-borgo-retrosi-di-amatrice-amatrice → info@amatricealbergodiffusoretrosi.it
+  ✓ albergo-ristorante-da-tonino-amatrice → info@datonino.com
+  Blocco 098: aggiornate 16, già ok 0, no sito 3, non trovate 16
+
+=== Blocco 099 (35 strutture) ===
+  ✓ bed-breakfast-palazzo-sassatelli-amatrice → info@palazzosassatelli.it
+  ✓ hotel-bar-da-giovannino-amatrice → ristorantehotelgiovannino@gmail.com
+  ✓ settecento-hotel-ambivere → info@settecentohotel.com
+  ✓ al-colle-ambivere → info@al-colle.it
+  ✓ binario-magic-hotel-ambivere → info@binariomagicpub.it
+  ✓ hotel-borgo-brianteo-ambivere → info@hotelborgobrianteo.com
+  ✓ motel-soigne-ambivere → info@motelsoigne.it
+  ✓ b-b-claudia-amblar-don → bebdon@alice.it
+  ✓ hotel-lady-maria-amblar-don → info@ladymariahotel.com
+  ✓ hotel-parco-pineta-pizzeria-ristorante-ristorant-amblar-don → info@hotelparcopineta.com
+  ✓ hotel-ristorante-stella-alpina-amblar-don → info@stellaalpinavaldinon.com
+  ✓ hotel-rosa-resort-amblar-don → info@hrosa.it
+  ✓ hotel-tannhof-amblar-don → info@tannhof.it
+  ✓ hotel-waldheim-wellness-restaurant-amblar-don → info@hotelwaldheim.it
+  ✓ la-quiete-resort-amblar-don → info@laquieteresort.it
+  ✓ panorama-designhotel-amblar-don → info@designhotel-panorama.com
+  ✓ pension-brunnenhof-amblar-don → info@brunnenhof.it
+  ✓ piccolo-orso-bruno-amblar-don → piccolohotelbruno@gmail.com
+  ✓ stella-delle-alpi-wellness-resort-amblar-don → info@stelladellealpi.it
+  ✓ villa-nuova-amblar-don → albergo@villanuova.it
+  ✓ villa-nuova-hotel-ristorante-pizzeria-amblar-don → albergo@villanuova.it
+  ✓ ala-bianca-ameglia → info@hotelalabianca.it
+  Blocco 099: aggiornate 22, già ok 0, no sito 4, non trovate 9
+
+=== Blocco 100 (35 strutture) ===
+  ✓ hotel-sette-archi-ameglia → info@hotelsettearchi.com
+  ✓ le-camere-di-gio-ameglia → info@lecameredigio.it
+  ✓ un-angelo-alla-mia-tavola-ameglia → unangeloallamiatavola1@gmail.com
+  ✓ affittacamere-b-b-nonna-anita-amelia → saragiardini6@gmail.com
+  ✓ agriturismo-marinella-amelia → marina.iuliano@libero.it
+  ✓ casale-viridi-amelia → casaleviridi@gmail.com
+  ✓ hotel-fina-amelia → //hotelfina@hotelfina.it
+  ✓ hotel-narnia-amelia → hotelnarnia@gmail.com
+  ✓ hotel-umbria-amelia → info@hotelumbria.it
+  ✓ marco-andrea-agriturismo-collepina-amelia → collepina@agriturismomarcoeandrea.com
+  ✓ villa-magnolia-amelia → lamagnoliabassano@gmail.com
+  Blocco 100: aggiornate 11, già ok 0, no sito 9, non trovate 15
+
+=== Blocco 101 (35 strutture) ===
+  ✓ b-b-la-piazzetta-amendolara → info@lapiazzettaroseto.it
+  ✓ b-b-roseto-mare-amendolara → info@bebrosetomare.it
+  ✓ la-dimora-di-poseidone-amendolara → salvogermi@gmail.com
+  ✓ villaggio-calabria-agriturismo-la-lista-amendolara → agriturismolalista@gmail.com
+  ✓ albergo-ristorante-la-genzianella-ameno → info@lagenzianellahotel.it
+  ✓ albergo-ristorante-monterosa-ameno → albergomonterosa@libero.it
+  ✓ b-b-il-giardino-sul-lago-ameno → il_giardino_sul_lago@libero.it
+  ✓ b-b-lavanda-e-rosmarino-ameno → lavandaerosmarino@virgilio.it
+  ✓ campeggio-punta-di-crabbia-ameno → info@campingpuntacrabbia.it
+  ✓ camping-orta-ameno → info@campingorta.it
+  ✓ hotel-battle-of-britain-ameno → info@hotelbattleofbritain.com
+  ✓ hotel-fontaine-bleue-ameno → hotelfb@libero.it
+  ✓ hotel-ristorante-giardinetto-ameno → info@giardinettohotel.com
+  ✓ hotel-san-rocco-ameno → info@hotelsanrocco.it
+  ✓ l-approdo-ameno → info@approdohotelorta.it
+  ✓ l-oasi-amena-ameno → info@oasiamena.com
+  ✓ la-darbia-resort-ameno → info@ladarbia.com
+  ✓ ostello-del-quadrifoglio-by-le-pigne-world-ameno → ostellodelquadrifoglio@gmail.com
+  ✓ villa-antica-colonia-spa-wellness-ameno → info@anticacolonia.com
+  ✓ villa-crespi-ameno → info@villacrespi.it
+  ✓ agriturismo-e-azienda-agricola-corte-ciervo-amorosi → info@corteciervo.it\&quot;
+  ✓ choco-b-b-amnesia-experience-amorosi → info@amnesiaexperience.it
+  Blocco 101: aggiornate 22, già ok 0, no sito 5, non trovate 8
+
+=== Blocco 102 (35 strutture) ===
+  ✓ dimora-rosae-b-b-amorosi → info@dimorarosae.it
+  ✓ nerium-house-amorosi → nerium.dl@gmail.com
+  ✓ albergo-dal-cortesan-ampezzo → dalcortesan@gmail.com
+  ✓ albergo-grimani-ampezzo → info@residenzagrimani.it
+  ✓ albergo-ristorante-alla-pagoda-ampezzo → info@unpostoatavola.it
+  ✓ albergo-ristorante-pizzeria-italia-ampezzo → info@albergoitaliapaluzza.it
+  ✓ alpine-wellness-hotel-e-ristorante-riglarhaus-ampezzo → info@riglarhaus.it
+  ✓ bike-bikers-hotel-restaurant-ampezzo → bikebikersinfo@gmail.com
+  ✓ depandance-albergo-grimani-ampezzo → info@residenzagrimani.it
+  ✓ hotel-davost-ampezzo → info@hoteldavost.it
+  ✓ hotel-garni-plueme-sauris-ampezzo → info@hotelplueme.it
+  ✓ hotel-posta-ampezzo → info@hotelposta.org
+  ✓ hotel-ristorante-bellavista-ampezzo → info@bellavistaravascletto.it
+  ✓ hotel-villa-alpina-ampezzo → info@villaalpinaud.it
+  ✓ rifugio-tita-piaz-perkhhite-tita-piaz-ampezzo → info@rifugiotitapiaz.com%20
+  ✓ hotel-mai-amsterdam-amsterdam → mailvandaphne@gmail.com
+  ✓ hotel-nh-city-centre-amsterdam-amsterdam → nhcitycentre@nh-hotels.com
+  ✓ leonardo-eden-hotel-amsterdam-city-center-amsterdam → advantageclub@leonardo-hotels.com\
+  Blocco 102: aggiornate 18, già ok 6, no sito 5, non trovate 6
+
+=== Blocco 103 (35 strutture) ===
+  ✓ supper-hotel-amsterdam → info@supper.nl
+  ✓ westcord-city-centre-hotel-amsterdam-amsterdam → centre@westcordhotels.nl
+  ✓ amira-resort-capri-anacapri → info@amiraresort.it
+  ✓ b-b-il-paradiso-di-capri-anacapri → conciergecapribb@gmail.com
+  ✓ casa-mariantonia-anacapri → info@casamariantonia.com
+  ✓ da-gelsomina-ristorante-anacapri → info@dagelsomina.com
+  ✓ hotel-bellavista-anacapri-anacapri → info@bellavistacapri.com
+  ✓ hotel-caesar-augustus-anacapri → info@caesar-augustus.com
+  ✓ il-carrubo-capri-anacapri → infoilcarrubocapri@gmail.com
+  ✓ la-romantique-anacapri-anacapri → info@laromantique.it
+  ✓ villa-mimosa-anacapri-anacapri → villamimosacapri@gmail.com
+  ✓ agriturismo-giudici-tenuta-vico-moricino-anagni → info@agriturismovico.it
+  ✓ antica-dimora-palazzo-ciprani-anagni → anticadimoraciprani@gmail.com
+  ✓ hotel-citta-dei-papi-anagni → info@cittadeipapi.it
+  ✓ il-viaggiatore-anagni → il-viaggiatore@hotmail.it
+  ✓ la-terrazza-anagni-anagni → laterrazza.anagni@gmail.com
+  ✓ le-stanze-del-duomo-anagni → info.lestanzedelduomo@gmail.com
+  Blocco 103: aggiornate 17, già ok 2, no sito 6, non trovate 10
+
+=== Blocco 104 (35 strutture) ===
+  ✓ b-b-alveare-di-rita-ancarano → gettodelpeso34@gmail.com
+  ✓ country-house-andromeda-ancarano → countryhouseandromeda@gmail.com
+  ✓ emidio-pepe-ancarano → info@emidiopepe.com
+  ✓ hotel-ristorante-pizzeria-tramonto-ancarano → tramontoecsnc@virgilio.it
+  ✓ il-salice-hotel-ristorante-pizzeria-ancarano → ilsalicehotel@gmail.com
+  ✓ villa-dei-priori-ancarano → custom@eccoci.online
+  ✓ villa-yucca-b-b-and-glamping-ancarano → info@villayucca.it
+  ✓ villa9cento-ancarano → villanovecentobb@gmail.com
+  ✓ albergo-cantiani-ancona → info@albergocantiani.it
+  ✓ ego-hotel-ancona-ancona → info@egohotelancona.it
+  ✓ g-hotel-ancona-ancona → info@ghotelancona.it
+  ✓ grand-hotel-passetto-ancona → info@grandhotelpassetto.com
+  ✓ hotel-ankon-ancona → info@ankonhotel.com
+  ✓ hotel-concorde-camerano-ancona → info@hotelconcordeancona.com
+  ✓ hotel-della-rosa-ancona → info@hoteldellarosa.com
+  ✓ hotel-emilia-ancona → info@hotelemilia.com
+  ✓ hotel-europa-ancona → info@hoteleuropa-ancona.it
+  ✓ hotel-italia-ancona-ancona → info@albergoitaliaancona.it
+  ✓ hotel-la-fonte-ancona → info@hotellafonte.it
+  ✓ hotel-nh-ancona-ancona → nhancona@nh-hotels.com
+  Blocco 104: aggiornate 20, già ok 0, no sito 2, non trovate 13
+
+=== Blocco 105 (35 strutture) ===
+  ✓ metropolitan-suites-ancona-ancona → info@metropolitansuiteancona.it
+  ✓ seeport-hotel-ancona → info@seeporthotel.com
+  ✓ the-city-hotel-ancona-ancona → info@thecityancona.it
+  ✓ touring-hotel-falconara-ancona → info@touringhotel.it
+  ✓ azienda-agrituristica-le-puzelle-andali → lepuzelle@libero.it
+  ✓ cassiodoro-rooms-affittacamere-andali → info@bebcassiodoro.com
+  ✓ hotel-onda-bleu-andali → info@hotelondableu.it
+  ✓ hotel-ristorante-l-orizzonte-andali → prenotazioni@hotellorizzonte.it
+  ✓ voi-floriana-resort-andali → floriana.booking@voihotels.com
+  ✓ alphotel-milano-andalo-andalo → info@alphotelmilano.it
+  ✓ alpino-baby-family-hotel-andalo → info@alpinofamily.it
+  ✓ appartamenti-residence-cima-tosa-andalo-andalo → info@cimatosa.it
+  ✓ astoria-comfort-hotel-andalo-andalo → info@astoria-andalo.com
+  ✓ dolomiti-hotel-olimpia-andalo → info@dolomitihotelolimpia.it
+  ✓ garden-wellness-hotel-andalo-trentino-andalo → info@gardenandalo.com
+  ✓ grand-hotel-piz-galin-andalo → info@pizgalin.it
+  ✓ hotel-al-plan-andalo → info@hotelalplan.com
+  ✓ hotel-dal-bon-andalo → info@hoteldalbon.com
+  ✓ hotel-dolce-avita-andalo → info@hoteldolceavita.it
+  ✓ hotel-eden-andalo-mountain-lifestyle-andalo → info@hoteledenandalo.it
+  ✓ hotel-garni-la-roccia-andalo → info@larocciaandalo.it
+  ✓ hotel-k2-andalo → info@k2andalo.it
+  ✓ hotel-negritella-andalo → info@negritella.it
+  ✓ hotel-nordik-andalo → info@hotelnordik.com
+  ✓ hotel-piancastello-andalo-andalo → info@hotelpiancastello.com
+  Blocco 105: aggiornate 25, già ok 0, no sito 2, non trovate 8
+
+=== Blocco 106 (35 strutture) ===
+  ✓ sassdei-suite-hotel-andalo-andalo → info@hotelsassdeiandalo.it
+  ✓ ca-elsa-b-b-andalo-valtellino → ca.info.elsa@gmail.com
+  ✓ hotel-berlinghera-andalo-valtellino → info@hotelberlinghera.com
+  ✓ hotel-del-mera-andalo-valtellino → info@hoteldelmera.com
+  ✓ hotel-rezia-valtellina-andalo-valtellino → info@reziavaltellina.eu
+  ✓ hotel-risi-andalo-valtellino → info@hotelrisi.it
+  ✓ hotel-ristorante-baraglia-andalo-valtellino → info@hotelbaraglia.it
+  ✓ agriturismo-del-florario-andezeno → prenotazioni.florario@gmail.com
+  ✓ cico-e-mamasita-andezeno → info@cicoemamasita.com
+  ✓ hotel-cascina-speranza-andezeno → prenotazioni@hotelcascinasperanza.com
+  ✓ hotel-glis-andezeno → info@hotelglis.it
+  ✓ hotel-panorama-andezeno → info@hotelpanorama.org
+  ✓ il-bricco-b-b-andezeno → info@ilbricco.it
+  ✓ punto-di-vista-bed-and-breakfast-andezeno → sara@puntodivista-bb.com
+  ✓ rocca-di-arignano-andezeno → info@roccadiarignano.it
+  ✓ rosatea-b-b-andezeno → info@rosatea-bedandbreakfast.it
+  ✓ agriturismo-domus-serena-andora → domus.serena@libero.it
+  ✓ albergo-adriana-andora → albergo.adriana@virgilio.it
+  ✓ b-b-andoramare-andora → info@andoramare.it
+  Blocco 106: aggiornate 19, già ok 0, no sito 5, non trovate 11
+
+=== Blocco 107 (35 strutture) ===
+  ✓ b-b-villa-corsini-andora → villacorsinilaigueglia@hotmail.com
+  ✓ dachi-casa-vacanze-andora → info@dachifarm.it
+  ✓ gli-ulivi-rooms-and-breakfast-andora → roomandbreakfast@gliuliviandora.it
+  ✓ hotel-galleano-3-stelle-andora → info@hotelgalleano.com
+  ✓ hotel-i-due-gabbiani-andora → hotel@duegabbianihp.com
+  ✓ hotel-lungomare-andora → info@hotellungomare.it
+  ✓ hotel-mediterraneo-andora → info@hotelmedit.it
+  ✓ hotel-moresco-andora → info@hotelmoresco.com
+  ✓ residence-la-palma-andora → info@lapalmaresidence.it
+  ✓ villaggio-turistico-colombo-andora → booking@villaggiocolombo.com
+  ✓ agriturismo-borgo-ca-del-becca-andorno-micca → info@borgocadelbecca.it
+  ✓ agriturismo-la-fucina-andorno-micca → info@agriturismolafucina.it
+  ✓ b-b-villa-maria-andorno-micca → domenico.conti.65@gmail.com
+  ✓ cascina-serra-bed-breakfast-eco-house-andorno-micca → info@cascinaserrabedandbreakfast.it
+  ✓ il-talucco-bed-breakfast-andorno-micca → info@iltalucco.com
+  ✓ la-nuvola-andorno-micca → info@guesthouselanuvola.it
+  ✓ le-terrazze-di-tavigliano-andorno-micca → chiaramartcm@libero.it
+  ✓ villa-bernardino-galliari-andorno-micca → villa.bernardino.galliari@gmail.com
+  ✓ aia-di-san-giorgio-andrano → info@aiadisangiorgio.it
+  ✓ bellavista-b-b-castro-le-andrano → bebbellavista@gmail.com
+  ✓ campurra-affittacamere-andrano → campurra.marittima@tiscali.it
+  ✓ eliados-casa-vacanze-andrano → info@casaleeliados.it
+  Blocco 107: aggiornate 22, già ok 0, no sito 1, non trovate 12
+
+=== Blocco 108 (35 strutture) ===
+  ✓ la-balaustra-b-b-andrano → labalaustra@tiscali.it
+  ✓ petra-charme-a-sud-est-andrano → info@petrasudestcharme.it
+  ✓ vignavecchia-andrano → donatadeluca@virgilio.it
+  ✓ zahir-b-b-andrano → bb.zahir55@gmail.com
+  ✓ b-b-cascina-brunod-andrate → maurizio@brunod.com
+  ✓ b-b-l-albero-maestro-andrate → info@alberomaestro.it
+  ✓ b-b-la-coccinella-ecologico-e-biologico-cin-it09-andrate → info@cucinanatura.it\&quot;&gt;&lt;button
+  ✓ b-b-villa-tavallini-biella-andrate → info@villatavallini.it
+  ✓ l-ospitalita-del-castello-andrate → moreno.nico@gmail.com
+  ✓ la-locanda-dei-gatti-andrate → info@lalocandadeigatti.it
+  ✓ ostello-del-canoa-acquapiatta-andrate → info@ostelloivrea.it
+  ✓ relais-del-brigante-andrate → info@relaisdelbrigante.com
+  ✓ b-b-il-gufo-andreis → bb.dacorona99@gmail.com
+  ✓ agriturismo-a-un-tiro-di-schioppo-andretta → info@ruralis.com
+  ✓ agriturismo-caperroni-andretta → agriturismocaperroni@gmail.com
+  ✓ b-b-il-tritone-andretta → info@iltritonebeb.com
+  ✓ domus-romulea-albergo-locanda-andretta → info@domusromulea.it
+  ✓ hotel-ambasciatori-andretta → ambhotel@tiscali.it
+  Blocco 108: aggiornate 18, già ok 0, no sito 5, non trovate 12
+
+=== Blocco 109 (35 strutture) ===
+  ✓ vicolo72-andretta → vicolo72.calitri@gmail.com
+  ✓ albergo-dei-pini-andria → info@albergodeipini.it
+  ✓ b-b-novilunio-andria → allogginovilunio@gmail.com
+  ✓ b-b-palazzo-ducale-andria → info@bbpalazzoducale.it
+  ✓ borgomurgia-andria → info@borgomurgia.it
+  ✓ club-64-bed-breakfast-andria → rooms@clubsessantaquattro.com
+  ✓ cristal-palace-hotel-andria → info@cristalpalace.it
+  ✓ orizzonte-mhotel-andria → info@orizzontemhotel.com
+  ✓ santa-maria-vetere-andria → info@santamariavetere.it
+  ✓ trescharme-andria → info@trescharme.it
+  ✓ aignerhof-fam-ausserer-andriano-andrian → info@aignerhof.bz.it
+  ✓ albergo-aquila-nera-andriano-andrian → info@schwarzeradler-andrian.net
+  ✓ albergo-wieser-andriano-andrian → info@gasthofwieser.com
+  ✓ garni-rebhof-andriano-andrian → info@garni-rebhof.eu
+  ✓ gasthof-restaurant-jager-andriano-andrian → info@gasthof-jaeger.com
+  ✓ hotel-gantkofel-andriano-andrian → info@gantkofel.com
+  Blocco 109: aggiornate 16, già ok 0, no sito 1, non trovate 18
+
+=== Blocco 110 (35 strutture) ===
+  ✓ hotel-garni-sonngart-andriano-andrian → info@sonngart.it
+  ✓ pension-felsenegg-andriano-andrian → info@felsenegg.it
+  ✓ pension-grunwald-andriano-andrian → info@gruenwald-andrian.it
+  ✓ pension-runer-andriano-andrian → info@pensionruner.com
+  ✓ schwarzer-adler-andriano-andrian → info@schwarzeradler-andrian.net
+  ✓ albergo-la-madonnina-anela → lamadonnina@tiscali.it
+  ✓ albergo-ristorante-terradoro-anela → info@hotelterradoro.it
+  ✓ domos-antigas-anela → cossumonicapierina@gmail.com
+  ✓ hotel-ristorante-le-tre-rose-anela → info@letrerose.it
+  ✓ monte-pirastru-country-resort-anela → booking@montepirastru.it
+  ✓ ristorante-hotel-la-pineta-anela → hotellapineta@gmail.com
+  ✓ sanctuary-armony-anela → info@sanctuaryarmony.com
+  ✓ albergo-ampola-anfo → info@locandaampola.it
+  ✓ albergo-piccolo-hotel-anfo → info@piccolohotelbagolino.it
+  ✓ albergo-ristorante-belvedere-anfo → info@albergobelvederecollio.it
+  ✓ bed-breakfast-fiore-anfo → info@bbfiore-idro.com
+  Blocco 110: aggiornate 16, già ok 0, no sito 5, non trovate 14
+
+=== TOTALE ===
+{
+  "blocks": "081-110",
+  "dryRun": false,
+  "totalHotels": 1050,
+  "alreadyHadEmail": 8,
+  "noWebsite": 128,
+  "notFound": 365,
+  "scrapedFound": 549,
+  "dbUpdated": 549,
+  "errors": 0,
+  "byBlock": [
+    {
+      "block": "081",
+      "hotels": 35,
+      "updated": 21,
+      "notFound": 12,
+      "alreadyHad": 0,
+      "noWebsite": 2
+    },
+    {
+      "block": "082",
+      "hotels": 35,
+      "updated": 18,
+      "notFound": 13,
+      "alreadyHad": 0,
+      "noWebsite": 4
+    },
+    {
+      "block": "083",
+      "hotels": 35,
+      "updated": 16,
+      "notFound": 14,
+      "alreadyHad": 0,
+      "noWebsite": 5
+    },
+    {
+      "block": "084",
+      "hotels": 35,
+      "updated": 11,
+      "notFound": 18,
+      "alreadyHad": 0,
+      "noWebsite": 6
+    },
+    {
+      "block": "085",
+      "hotels": 35,
+      "updated": 19,
+      "notFound": 13,
+      "alreadyHad": 0,
+      "noWebsite": 3
+    },
+    {
+      "block": "086",
+      "hotels": 35,
+      "updated": 22,
+      "notFound": 11,
+      "alreadyHad": 0,
+      "noWebsite": 2
+    },
+    {
+      "block": "087",
+      "hotels": 35,
+      "updated": 13,
+      "notFound": 13,
+      "alreadyHad": 0,
+      "noWebsite": 9
+    },
+    {
+      "block": "088",
+      "hotels": 35,
+      "updated": 21,
+      "notFound": 11,
+      "alreadyHad": 0,
+      "noWebsite": 3
+    },
+    {
+      "block": "089",
+      "hotels": 35,
+      "updated": 24,
+      "notFound": 10,
+      "alreadyHad": 0,
+      "noWebsite": 1
+    },
+    {
+      "block": "090",
+      "hotels": 35,
+      "updated": 21,
+      "notFound": 10,
+      "alreadyHad": 0,
+      "noWebsite": 4
+    },
+    {
+      "block": "091",
+      "hotels": 35,
+      "updated": 10,
+      "notFound": 21,
+      "alreadyHad": 0,
+      "noWebsite": 4
+    },
+    {
+      "block": "092",
+      "hotels": 35,
+      "updated": 16,
+      "notFound": 12,
+      "alreadyHad": 0,
+      "noWebsite": 7
+    },
+    {
+      "block": "093",
+      "hotels": 35,
+      "updated": 14,
+      "notFound": 11,
+      "alreadyHad": 0,
+      "noWebsite": 10
+    },
+    {
+      "block": "094",
+      "hotels": 35,
+      "updated": 21,
+      "notFound": 8,
+      "alreadyHad": 0,
+      "noWebsite": 6
+    },
+    {
+      "block": "095",
+      "hotels": 35,
+      "updated": 23,
+      "notFound": 12,
+      "alreadyHad": 0,
+      "noWebsite": 0
+    },
+    {
+      "block": "096",
+      "hotels": 35,
+      "updated": 17,
+      "notFound": 10,
+      "alreadyHad": 0,
+      "noWebsite": 8
+    },
+    {
+      "block": "097",
+      "hotels": 35,
+      "updated": 20,
+      "notFound": 14,
+      "alreadyHad": 0,
+      "noWebsite": 1
+    },
+    {
+      "block": "098",
+      "hotels": 35,
+      "updated": 16,
+      "notFound": 16,
+      "alreadyHad": 0,
+      "noWebsite": 3
+    },
+    {
+      "block": "099",
+      "hotels": 35,
+      "updated": 22,
+      "notFound": 9,
+      "alreadyHad": 0,
+      "noWebsite": 4
+    },
+    {
+      "block": "100",
+      "hotels": 35,
+      "updated": 11,
+      "notFound": 15,
+      "alreadyHad": 0,
+      "noWebsite": 9
+    },
+    {
+      "block": "101",
+      "hotels": 35,
+      "updated": 22,
+      "notFound": 8,
+      "alreadyHad": 0,
+      "noWebsite": 5
+    },
+    {
+      "block": "102",
+      "hotels": 35,
+      "updated": 18,
+      "notFound": 6,
+      "alreadyHad": 6,
+      "noWebsite": 5
+    },
+    {
+      "block": "103",
+      "hotels": 35,
+      "updated": 17,
+      "notFound": 10,
+      "alreadyHad": 2,
+      "noWebsite": 6
+    },
+    {
+      "block": "104",
+      "hotels": 35,
+      "updated": 20,
+      "notFound": 13,
+      "alreadyHad": 0,
+      "noWebsite": 2
+    },
+    {
+      "block": "105",
+      "hotels": 35,
+      "updated": 25,
+      "notFound": 8,
+      "alreadyHad": 0,
+      "noWebsite": 2
+    },
+    {
+      "block": "106",
+      "hotels": 35,
+      "updated": 19,
+      "notFound": 11,
+      "alreadyHad": 0,
+      "noWebsite": 5
+    },
+    {
+      "block": "107",
+      "hotels": 35,
+      "updated": 22,
+      "notFound": 12,
+      "alreadyHad": 0,
+      "noWebsite": 1
+    },
+    {
+      "block": "108",
+      "hotels": 35,
+      "updated": 18,
+      "notFound": 12,
+      "alreadyHad": 0,
+      "noWebsite": 5
+    },
+    {
+      "block": "109",
+      "hotels": 35,
+      "updated": 16,
+      "notFound": 18,
+      "alreadyHad": 0,
+      "noWebsite": 1
+    },
+    {
+      "block": "110",
+      "hotels": 35,
+      "updated": 16,
+      "notFound": 14,
+      "alreadyHad": 0,
+      "noWebsite": 5
+    }
+  ]
+}
+Report: /workspace/data/gemini-responses/block-081-110-email-backfill-report.json

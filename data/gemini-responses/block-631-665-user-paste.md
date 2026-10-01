@@ -1,0 +1,452 @@
+### **631. Albergo Ristorante Stella**
+
+* **ID:** `a807b892-3b04-4c88-a9d7-897cfea19ab5`
+* **Slug:** `albergo-ristorante-stella-agosta`
+* **Nome:** Albergo Ristorante Stella
+* **Comune / Provincia:** Agosta
+* **Indirizzo:** Piazza della Liberazione, 3, 00036 Palestrina RM
+* **Coordinate:** Lat 41.83906, Lng 12.890113
+* **Sito Web:** —
+* **Email:** —
+
+---
+
+### **632. B&B Il Sorriso Dei Monti**
+
+* **ID:** `26fd959e-2fff-4ad8-9876-a2c6a920278d`
+* **Slug:** `b-b-il-sorriso-dei-monti-agosta`
+* **Nome:** B&B Il Sorriso Dei Monti
+* **Comune / Provincia:** Agosta
+* **Indirizzo:** Via Segni, 20, 02035 Orvinio RI
+* **Coordinate:** Lat 42.131445, Lng 12.938088
+* **Sito Web:** [http://www.ilsorrisodeimonti.it/](http://www.ilsorrisodeimonti.it/)
+* **Email:** —
+
+---
+
+### **633. B&B Margherita**
+
+* **ID:** `07505b7f-89fa-4bfa-9898-69918a301fcc`
+* **Slug:** `b-b-margherita-agosta`
+* **Nome:** B&B Margherita
+* **Comune / Provincia:** Agosta
+* **Indirizzo:** Via Folcara, 16/interno 4, 00025 Gerano RM
+* **Coordinate:** Lat 41.926646, Lng 12.971069
+* **Sito Web:** [https://www.bedandbreakfastmargherita.com/](https://www.bedandbreakfastmargherita.com/)
+* **Email:** —
+
+---
+
+### **634. LA LUNA NEL POZZO**
+
+* **ID:** `fce94710-44d3-4fb0-8017-ef31db8ca859`
+* **Slug:** `la-luna-nel-pozzo-agosta`
+* **Nome:** LA LUNA NEL POZZO
+* **Comune / Provincia:** Agosta
+* **Indirizzo:** Via delle Pantane, snc, 00020 Riofreddo RM
+* **Coordinate:** Lat 42.053751, Lng 12.987987
+* **Sito Web:** [http://www.agriturismolalunanelpozzo.com/](http://www.agriturismolalunanelpozzo.com/)
+* **Email:** —
+
+---
+
+### **635. La Nuova Fattoria Ristorante Hotel**
+
+* **ID:** `0da93f7c-104c-4f19-aded-cd328439ab02`
+* **Slug:** `la-nuova-fattoria-ristorante-hotel-agosta`
+* **Nome:** La Nuova Fattoria Ristorante Hotel
+* **Comune / Provincia:** Agosta
+* **Indirizzo:** Via Tiburtina Valeria, km 68/300, 67061 Carsoli AQ
+* **Coordinate:** Lat 42.081567, Lng 13.060111
+* **Sito Web:** [http://www.lanuovafattoria.it/](http://www.lanuovafattoria.it/)
+* **Email:** —
+
+---
+
+### **636. Le Calecatine**
+
+* **ID:** `02102650-6713-457a-9e28-0f809b7f5ca1`
+* **Slug:** `le-calecatine-agosta`
+* **Nome:** Le Calecatine
+* **Comune / Provincia:** Agosta
+* **Indirizzo:** Via Valle della Pastorella, 1, 67066 Rocca di Botte AQ
+* **Coordinate:** Lat 42.031768, Lng 13.071099
+* **Sito Web:** [http://le-calecatine.org.es/](http://le-calecatine.org.es/)
+* **Email:** —
+
+---
+
+### **637. Locanda dell'Orso**
+
+* **ID:** `17d3ecfc-03a3-440e-a0bb-aef89bdbb246`
+* **Slug:** `locanda-dell-orso-agosta`
+* **Nome:** Locanda dell'Orso
+* **Comune / Provincia:** Agosta
+* **Indirizzo:** 00020 Cervara di Roma RM
+* **Coordinate:** Lat 42.005596, Lng 13.076117
+* **Sito Web:** [https://romeit.cyou/locanda-dell-orso-0ksl4q](https://romeit.cyou/locanda-dell-orso-0ksl4q)
+* **Email:** —
+
+---
+
+### **638. Locanda Della Casella**
+
+* **ID:** `495987e7-8b37-41b7-b7ad-7d7a841f3660`
+* **Slug:** `locanda-della-casella-agosta`
+* **Nome:** Locanda Della Casella
+* **Comune / Provincia:** Agosta
+* **Indirizzo:** Via della Casella, 10, 00020 Cineto Romano RM
+* **Coordinate:** Lat 42.050243, Lng 12.965116
+* **Sito Web:** —
+* **Email:** —
+
+---
+
+### **639. Ostello Il Girasole**
+
+* **ID:** `8cdbd96a-c934-4818-9e01-1da72966e23b`
+* **Slug:** `ostello-il-girasole-agosta`
+* **Nome:** Ostello Il Girasole
+* **Comune / Provincia:** Agosta
+* **Indirizzo:** Via del Municipio, 5, 00020 Rocca Canterano RM
+* **Coordinate:** Lat 41.95715, Lng 13.020964
+* **Sito Web:** [https://m.facebook.com/pages/category/Hotel/Ostello-Il-Girasole-1284736331644708/?locale2=it_IT](https://m.facebook.com/pages/category/Hotel/Ostello-Il-Girasole-1284736331644708/?locale2=it_IT)&
+* **Email:** —
+
+---
+
+### **640. The Life Hotel**
+
+* **ID:** `6fa830fa-dc3f-4e63-b4bb-f99b7436a8b3`
+* **Slug:** `the-life-hotel-agosta`
+* **Nome:** The Life Hotel
+* **Comune / Provincia:** Agosta
+* **Indirizzo:** Via S. Polo dei Cavalieri, 00010 Marcellina RM
+* **Coordinate:** Lat 42.014872, Lng 12.814287
+* **Sito Web:** —
+* **Email:** —
+
+---
+
+### **641. Villa Clementi Boutique Hotel**
+
+* **ID:** `9b1c02e6-2f12-457f-b4b1-01bbad774237`
+* **Slug:** `villa-clementi-boutique-hotel-agosta`
+* **Nome:** Villa Clementi Boutique Hotel
+* **Comune / Provincia:** Agosta
+* **Indirizzo:** Viale Giulio Venzi, 2, 00033 Cave RM
+* **Coordinate:** Lat 41.819165, Lng 12.932685
+* **Sito Web:** [https://villaclementiboutiquehotel.com/](https://villaclementiboutiquehotel.com/)
+* **Email:** —
+
+---
+
+### **642. agriturismo "da attilio"**
+
+* **ID:** `8ff49fd0-f433-4407-a9ff-b32f13690b9e`
+* **Slug:** `agriturismo-da-attilio-agra`
+* **Nome:** agriturismo "da attilio"
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Località Marcalone, 28822 Cannobio VB
+* **Coordinate:** Lat 46.07192, Lng 8.675165
+* **Sito Web:** [http://www.agriturismomarcalone.it/](http://www.agriturismomarcalone.it/)
+* **Email:** —
+
+---
+
+### **643. Agriturismo ristorante Voeuja**
+
+* **ID:** `44d5a343-9b5b-4f83-bbe7-c6667aa0d0d1`
+* **Slug:** `agriturismo-ristorante-voeuja-agra`
+* **Nome:** Agriturismo ristorante Voeuja
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Via Longhirolo, 9, 21016 Luino VA
+* **Coordinate:** Lat 46.002396, Lng 8.773366
+* **Sito Web:** [http://www.voeuja.it/](http://www.voeuja.it/)
+* **Email:** —
+
+---
+
+### **644. Al Rost B&B**
+
+* **ID:** `81d6c344-70e7-4684-bd49-a6e1ccd38952`
+* **Slug:** `al-rost-b-b-agra`
+* **Nome:** Al Rost B&B
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Via Dumenza, 64, 21016 Poppino VA
+* **Coordinate:** Lat 46.019275, Lng 8.769457
+* **Sito Web:** [http://www.alrost.com/](http://www.alrost.com/)
+* **Email:** —
+
+---
+
+### **645. Albergo Maccagno**
+
+* **ID:** `8644d162-cfc7-4bf0-b98c-e3a536cf9e86`
+* **Slug:** `albergo-maccagno-agra`
+* **Nome:** Albergo Maccagno
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Piazza Vittorio Veneto, 1/3, 21061 Maccagno con Pino e Veddasca VA
+* **Coordinate:** Lat 46.043296, Lng 8.738162
+* **Sito Web:** [https://prolocomaccagno.it/albergo-maccagno/](https://prolocomaccagno.it/albergo-maccagno/)
+* **Email:** —
+
+---
+
+### **646. Albergo Paradiso**
+
+* **ID:** `00c90983-2185-4ccb-b460-4107ce65801b`
+* **Slug:** `albergo-paradiso-agra`
+* **Nome:** Albergo Paradiso
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Via Giuseppe Verdi, 5A, 21061 Maccagno con Pino e Veddasca VA
+* **Coordinate:** Lat 46.044464, Lng 8.735638
+* **Sito Web:** [http://www.albergoparadisomaccagno.it/](http://www.albergoparadisomaccagno.it/)
+* **Email:** —
+
+---
+
+### **647. B&B Magnolia**
+
+* **ID:** `76d563e1-2020-4a53-9594-14d9b044a90b`
+* **Slug:** `b-b-magnolia-agra`
+* **Nome:** B&B Magnolia
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Via A. Giovanola, 36, 28822 Cannobio VB
+* **Coordinate:** Lat 46.061366, Lng 8.695931
+* **Sito Web:** —
+* **Email:** —
+
+---
+
+### **648. B&B Villa Viola**
+
+* **ID:** `009fa40b-fa69-434c-b435-5c62f25d3885`
+* **Slug:** `b-b-villa-viola-agra`
+* **Nome:** B&B Villa Viola
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Via Carlo Viola, 1, 21010 Curiglia VA
+* **Coordinate:** Lat 46.059459, Lng 8.803718
+* **Sito Web:** [http://www.villaviola.it/](http://www.villaviola.it/)
+* **Email:** —
+
+---
+
+### **649. Fattoria Roccolo**
+
+* **ID:** `bc419930-dc06-490e-b99f-cb3c0a83c8c7`
+* **Slug:** `fattoria-roccolo-agra`
+* **Nome:** Fattoria Roccolo
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Locolità Roccolo, 1, 21010 Dumenza VA
+* **Coordinate:** Lat 46.054772, Lng 8.795854
+* **Sito Web:** [http://www.fattoriaroccolo.com/](http://www.fattoriaroccolo.com/)
+* **Email:** —
+
+---
+
+### **650. Foresteria Al Campanile**
+
+* **ID:** `a73c69c4-5966-4655-affa-2b6cc6032e77`
+* **Slug:** `foresteria-al-campanile-agra`
+* **Nome:** Foresteria Al Campanile
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Via dei Caduti Piazza della Chiesa, 21010 Curiglia con Monteviasco VA
+* **Coordinate:** Lat 46.070842, Lng 8.827048
+* **Sito Web:** [https://www.foresteriaalcampanile.it/](https://www.foresteriaalcampanile.it/)
+* **Email:** —
+
+---
+
+### **651. Garni Viggiona**
+
+* **ID:** `6d0fa3c1-65ed-44e3-8bf1-f361daaa040c`
+* **Slug:** `garni-viggiona-agra`
+* **Nome:** Garni Viggiona
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Via Verbano, 3, 28826 Viggiona VB
+* **Coordinate:** Lat 46.032598, Lng 8.691397
+* **Sito Web:** [https://directy.eu/garni-viggiona](https://directy.eu/garni-viggiona)
+* **Email:** —
+
+---
+
+### **652. Hotel Elvezia**
+
+* **ID:** `0c93936b-4e74-4641-b6ca-c0b69117430f`
+* **Slug:** `hotel-elvezia-agra`
+* **Nome:** Hotel Elvezia
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Viale S. Carlo Borromeo, 4, 28822 Cannobio VB
+* **Coordinate:** Lat 46.064121, Lng 8.697794
+* **Sito Web:** [http://www.hotelelveziacannobio.com/](http://www.hotelelveziacannobio.com/)
+* **Email:** —
+
+---
+
+### **653. Hotel Montegrino Lakeview**
+
+* **ID:** `b835e7ce-1a53-4cd0-9b6f-5db05a4442a3`
+* **Slug:** `hotel-montegrino-lakeview-agra`
+* **Nome:** Hotel Montegrino Lakeview
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Via Cadorna, 26, 21010 Montegrino Valtravaglia VA
+* **Coordinate:** Lat 45.977479, Lng 8.771547
+* **Sito Web:** [https://www.hotelmontegrino.it/](https://www.hotelmontegrino.it/)
+* **Email:** —
+
+---
+
+### **654. Hotel Torre Imperiale**
+
+* **ID:** `cb063ca7-68e1-4f60-8632-e0fccd5f59a5`
+* **Slug:** `hotel-torre-imperiale-agra`
+* **Nome:** Hotel Torre Imperiale
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Piazza Roma, 1, 21061 Maccagno con Pino e Veddasca VA
+* **Coordinate:** Lat 46.036638, Lng 8.742114
+* **Sito Web:** [http://www.hoteltorreimperiale.com/](http://www.hoteltorreimperiale.com/)
+* **Email:** —
+
+---
+
+### **655. Hotel Villa Palmira**
+
+* **ID:** `edc03d14-0a03-4725-b7d4-76bb5d649964`
+* **Slug:** `hotel-villa-palmira-agra`
+* **Nome:** Hotel Villa Palmira
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Via D. Uccelli, 24, 28822 Cannobio VB
+* **Coordinate:** Lat 46.060211, Lng 8.697452
+* **Sito Web:** [http://www.villapalmira.it/](http://www.villapalmira.it/)
+* **Email:** —
+
+---
+
+### **656. Il Giardino Segreto**
+
+* **ID:** `5ce58517-618d-40a5-b20d-0a7cfc301eaa`
+* **Slug:** `il-giardino-segreto-agra`
+* **Nome:** Il Giardino Segreto
+* **Comune / Provincia:** Agra
+* **Indirizzo:** CIR 012092-CNI-00001, Via Felice Cavallotti, 34, 21016 Luino VA
+* **Coordinate:** Lat 46.003115, Lng 8.744205
+* **Sito Web:** [https://www.ilgiardinosegretoluino.it/](https://www.ilgiardinosegretoluino.it/)
+* **Email:** —
+
+---
+
+### **657. Park Hotel Italia**
+
+* **ID:** `c86c8f76-9a79-4d1f-ae40-57253e9f762c`
+* **Slug:** `park-hotel-italia-agra`
+* **Nome:** Park Hotel Italia
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Viale delle Magnolie, 19, 28821 Cannero Riviera VB
+* **Coordinate:** Lat 46.020439, Lng 8.684053
+* **Sito Web:** [http://www.parkhotelitalia.com/](http://www.parkhotelitalia.com/)
+* **Email:** —
+
+---
+
+### **658. Residence Eden Rock Cannobio**
+
+* **ID:** `554530b2-becb-4e44-a100-7889592dcdce`
+* **Slug:** `residence-eden-rock-cannobio-agra`
+* **Nome:** Residence Eden Rock Cannobio
+* **Comune / Provincia:** Agra
+* **Indirizzo:** 28822 Sant'Agata VB
+* **Coordinate:** Lat 46.073978, Lng 8.688674
+* **Sito Web:** [https://www.booking.com/hotel/it/eden-rock-cannobio.de.html](https://www.booking.com/hotel/it/eden-rock-cannobio.de.html)
+* **Email:** —
+
+---
+
+### **659. Residence Villa Margherita**
+
+* **ID:** `2243b12d-7bbc-4bb2-ba37-2a360ebbf7fa`
+* **Slug:** `residence-villa-margherita-agra`
+* **Nome:** Residence Villa Margherita
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Casali Darbedo, 2, 28822 Cannobio VB
+* **Coordinate:** Lat 46.069072, Lng 8.694999
+* **Sito Web:** [https://www.residencevillamargherita.com/](https://www.residencevillamargherita.com/)
+* **Email:** —
+
+---
+
+### **660. Rifugio Campiglio**
+
+* **ID:** `a4904a86-ebaf-4f6d-bd5e-8ac99c4e7788`
+* **Slug:** `rifugio-campiglio-agra`
+* **Nome:** Rifugio Campiglio
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Località Alpe Pradecolo, 1, 21010 Dumenza VA
+* **Coordinate:** Lat 46.043105, Lng 8.810893
+* **Sito Web:** [http://www.rifugiocampiglio.com/](http://www.rifugiocampiglio.com/)
+* **Email:** —
+
+---
+
+### **661. Villa Porta Colmegna**
+
+* **ID:** `678e8781-9a15-4963-80d1-56b1691b152e`
+* **Slug:** `villa-porta-colmegna-agra`
+* **Nome:** Villa Porta Colmegna
+* **Comune / Provincia:** Agra
+* **Indirizzo:** Via Angelo Palazzi, 1, 21016 Luino VA
+* **Coordinate:** Lat 46.025436, Lng 8.750973
+* **Sito Web:** [https://www.villaporta.style/it/](https://www.villaporta.style/it/)
+* **Email:** —
+
+---
+
+### **662. Agriturismo Cascina Magana**
+
+* **ID:** `a68304b4-7a97-484e-a702-7f34b29017ac`
+* **Slug:** `agriturismo-cascina-magana-agrate-brianza`
+* **Nome:** Agriturismo Cascina Magana
+* **Comune / Provincia:** Agrate Brianza
+* **Indirizzo:** Cascina Magana, 2, 20875 Burago di Molgora MB
+* **Coordinate:** Lat 45.589893, Lng 9.394882
+* **Sito Web:** [http://www.cascinamagana.it/](http://www.cascinamagana.it/)
+* **Email:** —
+
+---
+
+### **663. Agriturismo Galbusera Bianca**
+
+* **ID:** `9020ffee-c08c-4cbe-856e-dd1a7a0bc3a9`
+* **Slug:** `agriturismo-galbusera-bianca-agrate-brianza`
+* **Nome:** Agriturismo Galbusera Bianca
+* **Comune / Provincia:** Agrate Brianza
+* **Indirizzo:** Via Galbusera Bianca, 2, 23888 La Valletta Brianza LC
+* **Coordinate:** Lat 45.722089, Lng 9.37103
+* **Sito Web:** [https://www.oasigalbuserabianca.it/](https://www.oasigalbuserabianca.it/)
+* **Email:** —
+
+---
+
+### **664. Agriturismo I Gelsi**
+
+* **ID:** `8946cf32-f6e5-45a5-9309-74bc80fac6e6`
+* **Slug:** `agriturismo-i-gelsi-agrate-brianza`
+* **Nome:** Agriturismo I Gelsi
+* **Comune / Provincia:** Agrate Brianza
+* **Indirizzo:** Via S. Dionigi, 11, 23870 Cernusco Lombardone LC
+* **Coordinate:** Lat 45.692347, Lng 9.390986
+* **Sito Web:** [http://www.igelsi.com/](http://www.igelsi.com/)
+* **Email:** —
+
+---
+
+### **665. Agriturismo La Camilla**
+
+* **ID:** `a8056a14-8ffd-4088-ad84-d231d2b67c15`
+* **Slug:** `agriturismo-la-camilla-agrate-brianza`
+* **Nome:** Agriturismo La Camilla
+* **Comune / Provincia:** Agrate Brianza
+* **Indirizzo:** Via Dante, 267, 20863 Concorezzo MB
+* **Coordinate:** Lat 45.599057, Lng 9.353001
+* **Sito Web:** [http://www.lacamilla.it/](http://www.lacamilla.it/)
+* **Email:** —
