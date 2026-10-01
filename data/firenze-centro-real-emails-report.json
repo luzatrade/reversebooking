@@ -1,0 +1,1413 @@
+{
+  "comune": "Firenze",
+  "zone": "centro",
+  "dryRun": false,
+  "totalCentro": 189,
+  "kept": [
+    {
+      "zone": "centro",
+      "slug": "sognando-firenze-bed-breakfast-firenze",
+      "nome": "Sognando Firenze Bed & Breakfast",
+      "email": "info@sognandofirenze.it",
+      "website": "https://www.sognandofirenze.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "florence-stadium-b-b-bed-and-breakfast-firenze",
+      "nome": "Florence Stadium B&B - Bed and Breakfast",
+      "email": "info@florencestadium.it",
+      "website": "https://www.florencestadium.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "al-consolato-affittacamere-firenze",
+      "nome": "Al Consolato - Affittacamere",
+      "email": "info@alconsolato.it",
+      "website": "https://www.alconsolato.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "fuordarno-bed-breakfast-firenze",
+      "nome": "FuordArno Bed & Breakfast",
+      "email": "info@fuordarno.it",
+      "website": "http://www.fuordarno.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "3b-bed-and-breakfast-firenze-centro-firenze",
+      "nome": "3B Bed and Breakfast Firenze Centro",
+      "email": "info@bebfirenzecentro.it",
+      "website": "https://www.bebfirenzecentro.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-mario-s-firenze",
+      "nome": "Hotel Mario's",
+      "email": "hotelmarios@hotelmarios.com",
+      "website": "http://www.hotelmarios.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel La Fortezza",
+      "email": "booking@hotelfortezza.com",
+      "website": "https://www.hotelfortezza.com/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel City",
+      "email": "info@hotelcity.net",
+      "website": "http://www.hotelcity.net/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Palazzo Castri 1874",
+      "email": "welcome@palazzocastri.com",
+      "website": "https://www.palazzocastri.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Duomo Firenze",
+      "email": "info@hotelduomofirenze.it",
+      "website": "https://www.hotelduomofirenze.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel del Corso Firenze",
+      "email": "info@hoteldelcorsofirenze.it",
+      "website": "http://www.hoteldelcorsofirenze.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Palazzo Ognissanti",
+      "email": "info@ognissantihotel.it",
+      "website": "http://www.ognissantihotel.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Brunelleschi Hotel",
+      "email": "info@hotelbrunelleschi.it",
+      "website": "https://www.hotelbrunelleschi.it/?utm_source=google&utm_medium=GMB&utm_campaign=link"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel della Signoria",
+      "email": "info@hoteldellasignoria.com",
+      "website": "https://www.hoteldellasignoria.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "4F Boutique Hotel Florence",
+      "email": "info@4fboutiquehotelflorence.com",
+      "website": "https://4fboutiquehotelflorence.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Bernini Palace",
+      "email": "info.hotelbernini@duetorrihotels.com",
+      "website": "http://hotelbernini.duetorrihotels.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Relais Hotel Centrale Dimora Storica",
+      "email": "info@hotelcentralefirenze.it",
+      "website": "http://www.hotelcentralefirenze.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Roma",
+      "email": "info@hotelromaflorence.com",
+      "website": "http://www.hotelromaflorence.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Martelli",
+      "email": "info@hotelmartelli.com",
+      "website": "http://www.hotelmartelli.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Bonifacio",
+      "email": "info@hotelbonifacio.it",
+      "website": "http://www.hotelbonifacio.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Villani",
+      "email": "info@hotelvillani.com",
+      "website": "https://www.hotelvillani.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Axial Maxim",
+      "email": "info@hotelmaximaxial.com",
+      "website": "https://www.hotelmaximaxial.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Cosimo de' Medici-Firenze",
+      "email": "info@cosimodemedici.com",
+      "website": "http://www.cosimodemedici.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Botticelli Hotel Florence city centre",
+      "email": "booking@hotelbotticelli.it",
+      "website": "https://hotelbotticelli.it/?utm_source=google&utm_medium=referral&utm_campaign=PulsanteGMB"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Alinari",
+      "email": "info@hotelalinari.com",
+      "website": "http://www.hotelalinari.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "iQ Hotel Firenze",
+      "email": "info@iqhotelfirenze.it",
+      "website": "https://www.iqhotelfirenze.it/?utm_source=GMBlisting&utm_medium=organic"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Grand Hotel Minerva",
+      "email": "info@grandhotelminerva.com",
+      "website": "https://www.grandhotelminerva.com/en"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Albergo Balestri",
+      "email": "info@hotel-balestri.it",
+      "website": "https://www.hotel-balestri.it/?utm_source=gbp&utm_medium=organic"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel degli Orafi",
+      "email": "info@hotelorafi.it",
+      "website": "https://hotelorafi.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Esperanza",
+      "email": "info@hotelesperanza.it",
+      "website": "http://www.hotelesperanza.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Casa Thiele alla Signoria",
+      "email": "info@casa-thiele.com",
+      "website": "https://www.casa-thiele.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Camilla",
+      "email": "info@hotelcamillafirenze.com",
+      "website": "https://www.hotelcamillafirenze.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Cerretani Firenze - MGallery",
+      "email": "h1539@accor.com",
+      "website": "https://mgallery.accor.com/hotels/1539?merchantid=seo-maps-IT-1539&sourceid=aw-cen&utm_source=google+Maps&utm_medium=seo+maps&utm_campaign=seo+maps&utm_term=MGallery-Launch"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Ponte Vecchio Suites & Spa",
+      "email": "info@pontevecchiosuites.com",
+      "website": "http://www.pontevecchiosuites.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Ferrucci",
+      "email": "info@hotelferruccifirenze.it",
+      "website": "https://www.hotelferruccifirenze.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Por Santa Maria",
+      "email": "info@hotelporsantamaria.it",
+      "website": "http://www.hotelporsantamaria.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Medici",
+      "email": "info@hotelmedici.it",
+      "website": "http://www.hotelmedici.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Boutique Hotel La Casa di Morfeo",
+      "email": "info@lacasadimorfeo.it",
+      "website": "http://www.lacasadimorfeo.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Monica",
+      "email": "info@hotelmonicaflorence.com",
+      "website": "http://www.hotelmonicaflorence.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel NH Firenze",
+      "email": "nhfirenze@nh-hotels.com",
+      "website": "https://www.nh-hotels.com/en/hotel/nh-firenze?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel & Hostel 7",
+      "email": "info@hostel7santi.com",
+      "website": "http://www.hostel7santi.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Magenta",
+      "email": "info@hotelmagentafirenze.it",
+      "website": "https://hotelmagentafirenze.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Santa Maria Novella",
+      "email": "info@hotelsantamarianovella.it",
+      "website": "https://www.hotelsantamarianovella.it/?utm_source=gbp&utm_medium=organic"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Romagna",
+      "email": "info@hotelromagna.it",
+      "website": "http://www.hotelromagna.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Bella Firenze",
+      "email": "info@hotelbellafirenze.com",
+      "website": "http://www.hotelbellafirenze.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "The Place Firenze",
+      "email": "info@theplacefirenze.com",
+      "website": "https://www.theplacefirenze.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Unicorno",
+      "email": "info@hotelunicorno.it",
+      "website": "https://www.hotelunicorno.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel La Gemma",
+      "email": "info@lagemmahotel.com",
+      "website": "https://lagemmahotel.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Palazzo Firenze by Baglioni Hotels & Resorts",
+      "email": "palazzofirenze@baglionihotels.com",
+      "website": "https://florence.baglionihotels.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Flom Boutique Hotel",
+      "email": "info@flomhotel.it",
+      "website": "https://www.flomhotel.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Rivoli Boutique Hotel",
+      "email": "info@hotelrivoli.it",
+      "website": "http://www.hotelrivoli.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Boccaccio",
+      "email": "info@boccacciohotel.com",
+      "website": "http://www.boccacciohotel.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Palazzo Ridolfi - Residenza d'Epoca",
+      "email": "info@palazzoridolfi.com",
+      "website": "https://www.palazzoridolfi.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel La Scaletta al Ponte Vecchio",
+      "email": "info@hotellascaletta.it",
+      "website": "https://www.hotellascaletta.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Piazza Pitti Palace",
+      "email": "info@piazzapittipalace.com",
+      "website": "https://www.piazzapittipalace.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Palazzo Martellini Residenza d'Epoca",
+      "email": "info@palazzomartellini.it",
+      "website": "http://www.palazzomartellini.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Toscanelli Residenza d'Epoca",
+      "email": "info@residenzatoscanelli.com",
+      "website": "http://www.residenzatoscanelli.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Beatrice di Burzagli Burzagli e Francesca snc",
+      "email": "info@bbbeatrice.it",
+      "website": "http://www.bbbeatrice.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Lungarno",
+      "email": "reservations@lungarnocollection.com",
+      "website": "https://www.lungarnocollection.com/hotel-lungarno"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Ginori al Duomo - dBe Hotels",
+      "email": "info@hotelginorialduomo.com",
+      "website": "http://www.hotelginorialduomo.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Palazzo Bianca Cappello - Residenza d'Epoca",
+      "email": "info@palazzobiancacappello.com",
+      "website": "https://www.palazzobiancacappello.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Spirit of Florence Boutique Rooms",
+      "email": "infoabsoluteflorence@gmail.com",
+      "website": "https://www.spiritoflorence.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Palazzuolo",
+      "email": "info@hotelpalazzuolo.com",
+      "website": "http://www.hotelpalazzuolo.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Casa Botticelli in San Felice",
+      "email": "info@casabotticelli.com",
+      "website": "https://www.casabotticelli.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Floren Luxury Hotel",
+      "email": "info@florenhotel.com",
+      "website": "https://www.florenhotel.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Oltrarno 9 Apartments",
+      "email": "info@palazzoguadagni.com",
+      "website": "https://www.palazzoguadagni.com/florence-vacation-apartment-oltrarno-9/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Veneto",
+      "email": "info@hotelvenetofirenze.com",
+      "website": "http://www.hotelvenetofirenze.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Casual Rinascimento Firenze",
+      "email": "rinascimento@casualhoteles.com",
+      "website": "https://www.casualhoteles.com/casual-rinascimento-firenze.html?utm_source=gbp&utm_medium=organic&utm_term=sp&utm_id=casual-rinascimento-firenze"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "QK Costa58 Home Tower",
+      "email": "topoftuscany@gmail.com",
+      "website": "https://www.costa58.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Rosso 23",
+      "email": "info@hotelrosso23.com",
+      "website": "https://www.hotelrosso23.com/?utm_source=gbp&utm_medium=organic"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Alessandra",
+      "email": "info@hotelalessandra.com",
+      "website": "https://www.hotelalessandra.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Palazzo Montebello Firenze",
+      "email": "info@palazzomontebello.com",
+      "website": "https://www.palazzomontebello.com/it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Oltrarno VM48 by Florence Luxury Home",
+      "email": "info@florenceluxuryhome.com",
+      "website": "https://www.florenceluxuryhome.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Atlantic Palace",
+      "email": "info@atlanticpalace.it",
+      "website": "https://www.atlanticpalace.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel San Giorgio & Olimpic",
+      "email": "info@hotelsangiorgioflorence.com",
+      "website": "http://www.hotelsangiorgioflorence.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Victoria",
+      "email": "info@hotelvictoriaflorence.com",
+      "website": "https://www.hotelvictoriaflorence.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Ester",
+      "email": "info@hotelester.it",
+      "website": "https://hotelester.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Art Atelier",
+      "email": "info@hotelartatelier.it",
+      "website": "http://hotelartatelier.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Rex",
+      "email": "hotelrex.firenze@gmail.com",
+      "website": "http://www.hotelrexflorence.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Palazzo Benci",
+      "email": "palazzobenci@palazzobenci.com",
+      "website": "http://www.palazzobenci.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Corte dei Sogni Boutique Hotel & spa",
+      "email": "info@cortedeisogni.com",
+      "website": "https://cortedeisogni.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Grand Hotel Baglioni",
+      "email": "infodesk@hotelbaglioni.it",
+      "website": "http://www.hotelbaglioni.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Globus Urban Hotel",
+      "email": "info@globusurbanhotel.com",
+      "website": "https://www.globusurbanhotel.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Nuova Italia",
+      "email": "info@hotel-nuovaitalia.com",
+      "website": "http://www.hotel-nuovaitalia.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Solo Experience Hotel",
+      "email": "info@soloexperiencehotel.com",
+      "website": "https://www.soloexperiencehotel.com/?utm_source=google&utm_medium=organic&utm_campaign=Knowledge_Graph"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Lombardia",
+      "email": "info@hotellombardiafirenze.com",
+      "website": "https://www.hotellombardiafirenze.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Regina",
+      "email": "info@hotelreginafirenze.it",
+      "website": "http://www.hotelreginafirenze.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Tivoli Palazzo Gaddi Firenze Hotel",
+      "email": "palazzogaddi@tivoli-hotels.com",
+      "website": "https://www.tivolihotels.com/en/tivoli-palazzo-gaddi-firenze?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Camilla Guelfa Firenze",
+      "email": "info@hotelcamillaguelfa.com",
+      "website": "http://www.hotelcamillaguelfa.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "The Market Urban Hotel",
+      "email": "info@themarketurbanhotel.com",
+      "website": "https://www.themarketurbanhotel.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Kursaal & Ausonia",
+      "email": "info@kursonia.com",
+      "website": "http://www.kursonia.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Brooklyn",
+      "email": "brooklyn.firenze@gmail.com",
+      "website": "http://www.hotellombardi.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Collodi Firenze",
+      "email": "info@hotelcollodi.com",
+      "website": "http://www.hotelcollodi.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Corte Guelfa",
+      "email": "info@corteguelfa.com",
+      "website": "https://www.corteguelfa.com/?utm_source=GB&utm_medium=organic"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Il Guelfo Bianco",
+      "email": "info@ilguelfobianco.it",
+      "website": "https://ilguelfobianco.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "HOTEL ABACO",
+      "email": "info@hotelabaco.it",
+      "website": "http://www.hotelabaco.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Cantoria",
+      "email": "info@hotelcantoriafirenze.it",
+      "website": "http://www.hotelcantoriafirenze.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Boston",
+      "email": "info@hotelbostonfirenze.it",
+      "website": "http://www.hotelbostonfirenze.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Berna",
+      "email": "info@hotel-berna.it",
+      "website": "https://www.hotel-berna.it/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Albergo Croce di Malta",
+      "email": "info@crocedimaltaflorence.com",
+      "website": "https://www.crocedimaltaflorence.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Palazzo dei Ciompi",
+      "email": "info@palazzodeiciompi.it",
+      "website": "http://www.palazzodeiciompi.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Dali",
+      "email": "hoteldaliflorence@gmail.com",
+      "website": "http://www.hoteldali.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Residenza Marchesi Pontenani",
+      "email": "info@pontenani.com",
+      "website": "http://www.pontenani.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Silla",
+      "email": "hotelsilla@hotelsilla.it",
+      "website": "http://www.hotelsilla.it/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Piccolo Hotel",
+      "email": "info@piccolohotelfirenze.com",
+      "website": "http://piccolohotelfirenze.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Nove Guest House Firenze",
+      "email": "hello@noveguesthouse.com",
+      "website": "http://www.noveguesthouse.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "san-firenze-suites-spa-firenze",
+      "nome": "San Firenze Suites & Spa",
+      "email": "info@sanfirenzesuites.com",
+      "website": "https://www.sanfirenzesuites.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-machiavelli-palace-firenze",
+      "nome": "Hotel Machiavelli Palace",
+      "email": "info@hotelmachiavelli.it",
+      "website": "https://www.hotelmachiavelli.it/?utm_source=google&utm_medium=organic&utm_campaign=knowledge-graph"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-eden-firenze-firenze",
+      "nome": "Hotel Eden Firenze",
+      "email": "info@hoteledenfirenze.it",
+      "website": "https://hoteledenfirenze.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-hermitage-firenze",
+      "nome": "Hotel Hermitage",
+      "email": "florence@hermitagehotel.com",
+      "website": "https://www.hermitagehotel.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness"
+    },
+    {
+      "zone": "centro",
+      "slug": "la-fonderia-firenze-bed-and-breakfast-in-florenc-firenze",
+      "nome": "La Fonderia Firenze Bed and Breakfast in Florence",
+      "email": "lafonderiafirenzebb@gmail.com",
+      "website": "https://www.fonderiafirenze.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "il-mercato-centrale-b-and-b-firenze",
+      "nome": "Il Mercato Centrale B and B",
+      "email": "info@ilmercatocentrale.it",
+      "website": "http://www.ilmercatocentrale.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "four-seasons-hotel-firenze",
+      "nome": "Four Seasons Hotel Firenze",
+      "email": "florence@fourseasons.com",
+      "website": "https://www.fourseasons.com/florence"
+    },
+    {
+      "zone": "centro",
+      "slug": "palazzo-magnani-ferroni-florence",
+      "nome": "Palazzo Magnani Ferroni",
+      "email": "info@palazzomagnaniferroni.com",
+      "website": "https://www.palazzomagnaniferroni.com"
+    },
+    {
+      "zone": "centro",
+      "slug": "villa-cora-florence",
+      "nome": "Villa Cora",
+      "email": "booking@villacora.it",
+      "website": "https://www.villacora.it"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-brunelleschi-firenze",
+      "nome": "Hotel Brunelleschi",
+      "email": "info@hotelbrunelleschi.it",
+      "website": "https://www.hotelbrunelleschi.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-calimala-florence-firenze",
+      "nome": "Hotel Calimala Florence",
+      "email": "info@hotelcalimala.com",
+      "website": "https://www.hotelcalimala.com/?utm_source=google&utm_medium=gmb&utm_campaign=gmb_website"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-santa-croce-firenze",
+      "nome": "Hotel Santa Croce",
+      "email": "info@hotelsantacroce.it",
+      "website": "https://www.hotelsantacroce.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "bed-and-breakfast-badia-fiorentina-firenze",
+      "nome": "Bed and Breakfast Badia Fiorentina",
+      "email": "info@badiafiorentina.com",
+      "website": "http://www.badiafiorentina.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "tornabuoni-view-luxury-bed-and-breakfast-firenze-firenze",
+      "nome": "TORNABUONI VIEW Luxury Bed and Breakfast Firenze",
+      "email": "info@tornabuoniview.com",
+      "website": "http://www.tornabuoniview.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-torre-guelfa-firenze",
+      "nome": "Hotel Torre Guelfa",
+      "email": "info@hoteltorreguelfa.com",
+      "website": "http://www.hoteltorreguelfa.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-bavaria-firenze",
+      "nome": "Hotel Bavaria",
+      "email": "info@hotelbavariafirenze.it",
+      "website": "http://www.hotelbavariafirenze.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-palazzo-dal-borgo-firenze",
+      "nome": "Hotel Palazzo dal Borgo",
+      "email": "info@hotelpalazzodalborgo.it",
+      "website": "http://www.hotelpalazzodalborgo.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-mercure-firenze-centro-firenze",
+      "nome": "Hotel Mercure Firenze Centro",
+      "email": "h9131@accor.com",
+      "website": "https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=9131&merchantid=seo-maps-IT-9131&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+    },
+    {
+      "zone": "centro",
+      "slug": "grand-hotel-cavour-firenze",
+      "nome": "Grand Hotel Cavour",
+      "email": "info@hotelcavour.com",
+      "website": "https://www.hotelcavour.com/?utm_source=GoogleMyBusiness&utm_medium=referral&utm_campaign=GoogleMyBusinessCTA"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-bologna-bagno-a-ripoli",
+      "nome": "Hotel Bologna",
+      "email": "info@hotelbolognafirenze.it",
+      "website": "http://www.hotelbolognafirenze.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-grifone-firenze-bagno-a-ripoli",
+      "nome": "Hotel Grifone Firenze",
+      "email": "frontoffice@hotelgrifonefirenze.it",
+      "website": "https://www.hotelgrifonefirenze.it/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness"
+    }
+  ],
+  "updatedEmail": [
+    {
+      "zone": "centro",
+      "slug": "al-consolato-affittacamere-firenze",
+      "nome": "Al Consolato - Affittacamere",
+      "email": "info@alconsolato.it",
+      "website": "https://www.alconsolato.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Grand Hotel Minerva",
+      "email": "info@grandhotelminerva.com",
+      "website": "https://www.grandhotelminerva.com/en"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel NH Firenze",
+      "email": "nhfirenze@nh-hotels.com",
+      "website": "https://www.nh-hotels.com/en/hotel/nh-firenze?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Magenta",
+      "email": "info@hotelmagentafirenze.it",
+      "website": "https://hotelmagentafirenze.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Palazzo Firenze by Baglioni Hotels & Resorts",
+      "email": "palazzofirenze@baglionihotels.com",
+      "website": "https://florence.baglionihotels.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Lungarno",
+      "email": "reservations@lungarnocollection.com",
+      "website": "https://www.lungarnocollection.com/hotel-lungarno"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Casual Rinascimento Firenze",
+      "email": "rinascimento@casualhoteles.com",
+      "website": "https://www.casualhoteles.com/casual-rinascimento-firenze.html?utm_source=gbp&utm_medium=organic&utm_term=sp&utm_id=casual-rinascimento-firenze"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Kursaal & Ausonia",
+      "email": "info@kursonia.com",
+      "website": "http://www.kursonia.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Palazzo dei Ciompi",
+      "email": "info@palazzodeiciompi.it",
+      "website": "http://www.palazzodeiciompi.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Dali",
+      "email": "hoteldaliflorence@gmail.com",
+      "website": "http://www.hoteldali.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "tornabuoni-view-luxury-bed-and-breakfast-firenze-firenze",
+      "nome": "TORNABUONI VIEW Luxury Bed and Breakfast Firenze",
+      "email": "info@tornabuoniview.com",
+      "website": "http://www.tornabuoniview.com/"
+    }
+  ],
+  "deleted": [
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Home",
+      "oldEmail": null,
+      "website": "https://sites.google.com/view/hotel-home-florence/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Ariele",
+      "oldEmail": null,
+      "website": "http://www.hotelariele.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "c-hotels Joy Firenze",
+      "oldEmail": "bookingjoy@c-hotels.it",
+      "website": "https://joyhotelfirenze.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Albani Firenze",
+      "oldEmail": "concierge.flo@albanihotels.com",
+      "website": "https://www.hotelalbanifirenze.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "UNAHOTELS Vittoria Firenze",
+      "oldEmail": null,
+      "website": "https://www.unaitalianhospitality.com/it/soggiorni/una-hotels-vittoria-firenze"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Fedora Firenze",
+      "oldEmail": null,
+      "website": "http://www.hotel-fedora.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel San Lorenzo",
+      "oldEmail": null,
+      "website": "https://www.bookitalyhotels.com/en/hotel/hotel-san-lorenzo.html"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Albergo Bodoni",
+      "oldEmail": null,
+      "website": "http://www.hotelbodoni.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Executive",
+      "oldEmail": "info@hotelexecutive.it",
+      "website": "http://www.hotelexecutiveflorence.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Firenze Suite",
+      "oldEmail": null,
+      "website": "http://www.firenzesuite.eu/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Cardinal Of Florence",
+      "oldEmail": null,
+      "website": "https://www.hotelcardinalflorence.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Loggia Fiorentina",
+      "oldEmail": null,
+      "website": "http://www.loggiafiorentina.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Albergo Canada",
+      "oldEmail": "backoffice@mercuriostay.it",
+      "website": "https://hotel-canada.vercel.app/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Residenza d'Epoca Galleria dell'Accademia",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Aida",
+      "oldEmail": null,
+      "website": "http://hotelaidafirenze.com.es/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Sina Villa Medici, Autograph Collection",
+      "oldEmail": null,
+      "website": "https://www.marriott.com/en-us/hotels/flrak-sina-villa-medici-autograph-collection/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Residence la Contessina",
+      "oldEmail": "info@lacontessina.it",
+      "website": "http://www.residenceinflorence.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "c-hotels Diplomat Firenze",
+      "oldEmail": "bookingdiplomat@c-hotels.it",
+      "website": "http://www.hoteldiplomat.net/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Soggiorno Ponte Rosso",
+      "oldEmail": null,
+      "website": "http://bb-soggiorno-ponte-rosso-florence.bedspro.com/it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Palazzo Guadagni",
+      "oldEmail": null,
+      "website": "https://www.palazzoguadagni.com/it/home-it/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "HOTEL ZANOBI 45",
+      "oldEmail": null,
+      "website": "https://www.facebook.com/profile.php?id=61553902168423"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Annalena",
+      "oldEmail": null,
+      "website": "http://www.annalenahotel.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Residenza Historia Luxury Boutique",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Anglo American Hotel Florence, Curio Collection by Hilton",
+      "oldEmail": null,
+      "website": "https://www.hilton.com/en/hotels/flrorqq-anglo-american-hotel-florence/?SEO_id=GMB-EMEA-QQ-FLRORQQ"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Bob W Florence Ponte Vecchio",
+      "oldEmail": null,
+      "website": "https://booking.bobw.co/?property=florence-gui18&utm_source=organic+search&utm_medium=google_my_business_search_maps&utm_campaign=bob_w_florence_ponte_vecchio_google_maps_listing&utm_content=google_my_business_website_button"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "LunArt",
+      "oldEmail": null,
+      "website": "https://www.lunartfirenze.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Accademia Firenze",
+      "oldEmail": null,
+      "website": "https://hotelaccademiafirenze.com/?utm_source=google&utm_medium=organic&utm_campaign=GMB"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Lorena Firenze",
+      "oldEmail": null,
+      "website": "http://www.hotellorena.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Nazionale",
+      "oldEmail": "utente@dominio.com",
+      "website": "http://nazionalehotel.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Spagna",
+      "oldEmail": "hotel.contact.us@gmail.com",
+      "website": "https://www.hotelspagna.website/it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Maison Santa Croce",
+      "oldEmail": "info@maisonsantacroce.it",
+      "website": "https://www.maisonsantacroce.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Palazzo Roselli Cecconi",
+      "oldEmail": "info@palazzorosellicecconi.com",
+      "website": "https://www.palazzorosellicecconi.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Bob W Florence Santa Croce",
+      "oldEmail": null,
+      "website": "https://booking.bobw.co/?city=Florence&properties=Flo-Lun26&utm_source=organic+search&utm_medium=google_my_business_search_maps&utm_campaign=bob_w_florence_santa-croce_google_maps_listing&utm_content=google_my_business_website_button"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Plaza Hotel Lucchesi",
+      "oldEmail": "lucchesi@toflorence.it",
+      "website": "http://www.hotelplazalucchesi.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "LHP Hotel River & SPA",
+      "oldEmail": "river@lhphotels.com",
+      "website": "http://www.hotelriver.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "LE RÊVE DE NAIM Firenze",
+      "oldEmail": null,
+      "website": "http://www.lerevedenaimfirenze.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "The Sonetto Hotel Piazza Santa Croce, Sonder",
+      "oldEmail": null,
+      "website": "https://hotelit.cyou/sonetto-piazza-santa-pfb3kh"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Eurostars Florence Boutique",
+      "oldEmail": null,
+      "website": "https://www.eurostarshotels.it/eurostars-florence-boutique.html?referer_code=lb0gg00yx&utm_source=google&utm_medium=business&utm_campaign=lb0gg00yx"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "The James Suite Hotel 1564 Firenze",
+      "oldEmail": null,
+      "website": "http://www.manfredihotels.com/hotels/the-james/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Santa Croce Exclusive",
+      "oldEmail": null,
+      "website": "https://www.hotelsitalo.com/santa-croce-exclusive/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Ritz",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Numa Florence Palazzo San Niccolò",
+      "oldEmail": null,
+      "website": "https://numastays.com/locations/italy/florence/san-niccolo/palazzo-san-niccolo?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_content=palazzosanniccolo"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Lucchesi",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Residenza d'epoca Pontevecchio",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Bargello Guest House",
+      "oldEmail": null,
+      "website": "https://bargelloguesthouse.top/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Il Poeta Dante",
+      "oldEmail": null,
+      "website": "https://bestit.cyou/dante-inn-n6i7yv"
+    },
+    {
+      "zone": "centro",
+      "slug": "arno-boutique-hotel-armo",
+      "nome": "Arno Boutique Hotel",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-centro-firenze",
+      "nome": "Hotel Centro",
+      "oldEmail": null,
+      "website": "https://www.hotelcentroflorence.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "1900-artevita-bed-breakfast-firenze",
+      "nome": "1900 Artevita Bed&Breakfast",
+      "oldEmail": null,
+      "website": "http://www.1900artevita.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "bed-and-breakfast-lorenzo-lorenzo-firenze",
+      "nome": "Bed and Breakfast Lorenzo & Lorenzo",
+      "oldEmail": null,
+      "website": "https://bedandbreakfastlorenzoandlorenzo.top/"
+    },
+    {
+      "zone": "centro",
+      "slug": "bed-and-breakfast-agosti-firenze-firenze",
+      "nome": "Bed and Breakfast Agostì Firenze",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": "albergo-firenze-firenze",
+      "nome": "Albergo Firenze",
+      "oldEmail": null,
+      "website": "https://www.hotelfirenze-fi.it/it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "nh-collection-porta-rossa-florence",
+      "nome": "NH Collection Porta Rossa",
+      "oldEmail": null,
+      "website": "https://www.nh-collection.com/en/hotel/nh-collection-porta-rossa-florence"
+    },
+    {
+      "zone": "centro",
+      "slug": "the-st-regis-florence",
+      "nome": "The St. Regis Florence",
+      "oldEmail": null,
+      "website": "https://www.marriott.com/en-us/hotels/flrxf-the-st-regis-florence/overview/"
+    },
+    {
+      "zone": "centro",
+      "slug": "gianburrasca-firenze",
+      "nome": "Gianburrasca",
+      "oldEmail": null,
+      "website": "https://www.bookitalyhotels.com/en/hotel/gianburrasca.html"
+    },
+    {
+      "zone": "centro",
+      "slug": "c-hotels-ambasciatori-firenze-firenze",
+      "nome": "c-hotels Ambasciatori Firenze",
+      "oldEmail": null,
+      "website": "https://www.hotelambasciatori.net/it/index.html"
+    },
+    {
+      "zone": "centro",
+      "slug": "b-b-hotel-firenze-city-center-firenze",
+      "nome": "B&B HOTEL Firenze City Center",
+      "oldEmail": null,
+      "website": "https://www.hotel-bb.com/it/hotel/firenze-city-center?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext"
+    },
+    {
+      "zone": "centro",
+      "slug": "b-b-hotel-firenze-laurus-al-duomo-firenze",
+      "nome": "B&B HOTEL Firenze Laurus al Duomo",
+      "oldEmail": null,
+      "website": "https://www.hotel-bb.com/it/hotel/firenze-laurus-al-duomo?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext"
+    },
+    {
+      "zone": "centro",
+      "slug": "b-b-hotel-firenze-pitti-palace-al-ponte-vecchio-firenze",
+      "nome": "B&B HOTEL Firenze Pitti Palace al Ponte Vecchio",
+      "oldEmail": null,
+      "website": "https://www.hotel-bb.com/it/hotel/firenze-pitti-palace-al-ponte-vecchio?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext"
+    },
+    {
+      "zone": "centro",
+      "slug": "bed-and-breakfast-terrazza-belfiore-firenze",
+      "nome": "Bed and Breakfast Terrazza Belfiore",
+      "oldEmail": null,
+      "website": "https://www.terrazzabelfiore.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-arno-bellariva-armo",
+      "nome": "Hotel Arno Bellariva",
+      "oldEmail": "info@hotel-arno.it",
+      "website": "https://www.hotelarnofirenze.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "xxvii-aprile-bed-breakfast-firenze",
+      "nome": "Xxvii Aprile Bed & Breakfast",
+      "oldEmail": null,
+      "website": null
+    }
+  ],
+  "skippedClaimed": []
+}
