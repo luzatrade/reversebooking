@@ -1,0 +1,1483 @@
+{
+  "comune": "Bologna",
+  "zone": "centro",
+  "dryRun": false,
+  "totalCentro": 198,
+  "kept": [
+    {
+      "zone": "centro",
+      "slug": "affitti-brevi-bologna-bologna",
+      "nome": "Affitti Brevi Bologna",
+      "email": "booking@bedandbreakfastbologna.net",
+      "website": "https://www.bedandbreakfastbologna.net/"
+    },
+    {
+      "zone": "centro",
+      "slug": "albergo-centrale-bologna-bologna",
+      "nome": "Albergo Centrale Bologna",
+      "email": "info@albergocentralebologna.it",
+      "website": "http://www.albergocentralebologna.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "albergo-rossini-1936-small-charming-bologna",
+      "nome": "Albergo Rossini 1936 Small & Charming",
+      "email": "info@albergorossini.com",
+      "website": "http://www.albergorossini.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "maglo-centro-bologna",
+      "nome": "Maglo Centro",
+      "email": "info.maglocentro@gmail.com",
+      "website": "http://www.maglocentro.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "cristina-rossi-bed-and-breakfast-bologna",
+      "nome": "Cristina Rossi Bed and Breakfast",
+      "email": "info@cristinarossi.it",
+      "website": "http://www.cristinarossi.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Roma",
+      "email": "info@hotelroma.biz",
+      "website": "https://www.hotelroma.biz/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Cavour",
+      "email": "info@cavour-hotel.com",
+      "website": "http://www.cavour-hotel.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Mercure Bologna Centro",
+      "email": "h1310@accor.com",
+      "website": "https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=1310&merchantid=seo-maps-IT-1310&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Astor",
+      "email": "info@astor-hotel.it",
+      "website": "https://www.astor-hotel.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Metropolitan",
+      "email": "booking@hotelmetropolitan.com",
+      "website": "http://www.hotelmetropolitan.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel NH Bologna De La Gare",
+      "email": "nhbologna@nh-hotels.com",
+      "website": "https://www.nh-hotels.com/en/hotel/nh-bologna-de-la-gare?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Il Canale",
+      "email": "info@hotelilcanale.it",
+      "website": "http://www.hotelilcanale.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-i-portici-calderara-di-reno",
+      "nome": "Hotel I Portici",
+      "email": "info@iporticihotel.com",
+      "website": "https://www.iporticihotel.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "SavHotel Fiera Bologna",
+      "email": "fiera@savhotel.com",
+      "website": "https://www.savhotel.com/fiera"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Accademia",
+      "email": "info@hotelaccademia.com",
+      "website": "http://www.hotelaccademia.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Touring Bologna",
+      "email": "hoteltouring@hoteltouring.it",
+      "website": "https://www.hoteltouring.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Zanhotel Tre Vecchi",
+      "email": "hoteltrevecchi@zanhotel.it",
+      "website": "http://www.zanhotel.it/hotel-tre-vecchi-bologna"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Zanhotel Europa",
+      "email": "bookinghoteleuropa@zanhotel.it",
+      "website": "http://www.zanhotel.it/hotel-europa-bologna"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Elizabeth Lifestyle Hotel",
+      "email": "info@elhbologna.com",
+      "website": "https://www.elhbologna.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Sant'Orsola Collection by GSA Hotels",
+      "email": "info@hotelsantorsola.it",
+      "website": "http://www.hotelsantorsola.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Albergo Garisenda",
+      "email": "info@albergogarisenda.com",
+      "website": "http://www.albergogarisenda.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Blumen Collection by GSA Hotels",
+      "email": "info@hotelblumen.it",
+      "website": "https://www.hotelblumen.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel San Giorgio",
+      "email": "info@sangiorgiohotel.it",
+      "website": "http://www.sangiorgiohotel.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Astoria Deluxe Rooms",
+      "email": "info@astoria.bo.it",
+      "website": "https://www.astoria.bo.it/struttura_category/astoria-deluxe-rooms/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Nuovo Hotel del Porto",
+      "email": "info@nuovohoteldelporto.com",
+      "website": "http://www.nuovohoteldelporto.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Grand Hotel Majestic \"già Baglioni\"",
+      "email": "info.ghmajestic@duetorrihotels.com",
+      "website": "http://grandhotelmajestic.duetorrihotels.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Casa Conoscenti",
+      "email": "iconoscentibologna@gmail.com",
+      "website": "https://www.iconoscenti.com/casa-i-conoscenti/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Zanhotel Regina",
+      "email": "hotelregina@zanhotel.it",
+      "website": "http://www.zanhotel.it/hotel-regina-bologna"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Central City Rooms Group",
+      "email": "info@centralcityinn.com",
+      "website": "http://centralcityinn.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Falegnami Suites - BolognaRooms",
+      "email": "checkin@bolognarooms.com",
+      "website": "https://www.bolognarooms.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel San Felice",
+      "email": "info@hotelsanfelice.it",
+      "website": "http://www.hotelsanfelice.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Corona d'Oro 1890",
+      "email": "corona@hco.it",
+      "website": "https://www.hco.it/it"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "051 Room & Breakfast",
+      "email": "contact@h2cb.com",
+      "website": "https://www.h2cb.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Donatello",
+      "email": "hoteldonatello@hoteldonatello.com",
+      "website": "http://www.hoteldonatello.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Liberty 1904",
+      "email": "info@hotellibertybologna.eu",
+      "website": "http://www.hotellibertybologna.eu/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Fuori Dai Coppi Bologna",
+      "email": "bnbfuoridaicoppi@gmail.com",
+      "website": "https://beb.it/fuoridaicoppi"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Cosmopolitan Central Rooms",
+      "email": "contact@h2cb.com",
+      "website": "https://www.h2cb.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Giardinetto Al Sant’Orsola",
+      "email": "info@hotelgiardinetto-bo.com",
+      "website": "http://www.hotelgiardinetto-bo.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Ca' Fosca Due Torri",
+      "email": "cafoscaduetorri@gmail.com",
+      "website": "http://www.cafoscaduetorri.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Zambo Residence",
+      "email": "info@zamboresidence.it",
+      "website": "http://www.zamboresidence.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Residence le Porte",
+      "email": "info@adrianoresidence.it",
+      "website": "https://www.adrianoresidence.it/residence-bologna-affitto-sotto-le-due-torri/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Starhotels Excelsior",
+      "email": "excelsior.bo@starhotels.it",
+      "website": "http://www.starhotels.com/en/our-hotels/excelsior-bologna/?utm_source=google&utm_medium=local&utm_campaign=glocal"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Astoria Hotel",
+      "email": "info@astoria.bo.it",
+      "website": "http://www.astoria.bo.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Il Convento dei Fiori di Seta",
+      "email": "info.ilconventodeifioridiseta@gmail.com",
+      "website": "http://www.ilconventodeifioridiseta.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "4 Star Bologna - Suite SPA, Rooms & Apartments - Self Check-in",
+      "email": "booking@4starbologna.com",
+      "website": "https://www.4starbologna.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Maglo Station",
+      "email": "info.maglostation@gmail.com",
+      "website": "https://www.maglostation.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Santo Stefano Apartments - BolognaRooms",
+      "email": "checkin@bolognarooms.com",
+      "website": "https://www.bolognarooms.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Perla",
+      "email": "hotelperlabologna@gmail.com",
+      "website": "https://perla1.wixsite.com/hotelperla"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Cozy Suite | Unique Stay in Bologna",
+      "email": "ciao@bolognaexperience.org",
+      "website": "https://www.bolognaexperience.org/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Albergo San Vitale",
+      "email": "info@albergosanvitale.com",
+      "website": "http://www.albergosanvitale.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Residence Sant'Orsola",
+      "email": "info@residencesantorsola.com",
+      "website": "http://www.residencesantorsola.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Palazzo di Alcina - Residenza D'Epoca - Luxury Rooms -",
+      "email": "info@palazzodialcina.com",
+      "website": "https://www.palazzodialcina.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "IlLoto",
+      "email": "lafeniceaffittacamere@gmail.com",
+      "website": "http://www.lafeniceaffittacamere.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "I 4 gatti guesthouse",
+      "email": "info4gatti@gmail.com",
+      "website": "http://4gattibnb.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Muà Boutique Bologna",
+      "email": "muabologna@gmail.com",
+      "website": "https://www.muabologna.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Gregorini Bingham - Art Luxury Suites",
+      "email": "info@gregorinibingham.com",
+      "website": "https://www.gregorinibingham.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B AlbertaD",
+      "email": "albertadbb@gmail.com",
+      "website": "http://www.albertadbedandbreakfast.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "STANZE DI FRONTE OSPEDALE MAGGIORE IN MAGGIORE ROOMS",
+      "email": "darionobile@yahoo.it",
+      "website": "https://www.bnbhotelospedalemaggiore.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Camere e stanze per studenti. Coop. Archiginnasio",
+      "email": "segreteria@archiginnasio.com",
+      "website": "http://www.archiginnasio.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Hope Regency",
+      "email": "mirko.salomoni@gmail.com",
+      "website": "http://www.bbhope.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Suite Hotel Elite",
+      "email": "info@suitehotelelite.it",
+      "website": "https://www.suitehotelelite.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Design Club Collection",
+      "email": "reservations@designclubcollection.com",
+      "website": "https://designclubcollection.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Savhotel Aemilia Bologna",
+      "email": "aemilia@savhotel.com",
+      "website": "https://www.savhotel.com/aemilia"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Corte Sant'Orsola 4",
+      "email": "info@lacortedelsantorsola.com",
+      "website": "http://www.lacortedelsantorsola.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Bohoostel",
+      "email": "info@bohoostel.com",
+      "website": "https://www.bohoostel.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Casa Ardizzoni",
+      "email": "info@casardizzoni.it",
+      "website": "https://www.casardizzoni.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "BOLOGNA SUITE",
+      "email": "bolognasuite@libero.it",
+      "website": "http://bolognasuite.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "R&B La Villa",
+      "email": "spacealaimo@gmail.com",
+      "website": "https://www.roomandbreakfastlavilla.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Via Zamboni 16 Bologna",
+      "email": "prenotazioni@hotelsandonato.it",
+      "website": "https://www.hotelsandonato.it/it/contatti.aspx"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "b&b Casa Elide",
+      "email": "bbdielide@gmail.com",
+      "website": "https://www.bbdielide.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "La Casa delle Dee - Affittacamere Bologna Centro - Self check-in",
+      "email": "info@lacasadelledee.com",
+      "website": "https://lacasadelledee.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Dell'Orso",
+      "email": "prenotazioni@bbdellorso.it",
+      "website": "http://www.bbdellorso.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Bologna Homestay B&B",
+      "email": "bolognahomestay@gmail.com",
+      "website": "http://www.bolognahomestay.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Il Viaggio Bologna",
+      "email": "info@bbilviaggio.it",
+      "website": "https://www.bbilviaggio.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Bologna nel Cuore B&B e Suite di Charme",
+      "email": "info@bolognanelcuore.it",
+      "website": "http://www.bolognanelcuore.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Bologna Centrale Stanze B&B",
+      "email": "camerebolognacentrale@gmail.com",
+      "website": "http://beb.it/bolognacentralestanze"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "affittacamere Borgonuovo",
+      "email": "ariannapaioli@gmail.com",
+      "website": "https://beb.it/affittacamereborgonuovo"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Affittacamere San Felice 135",
+      "email": "info@sanfelice135.it",
+      "website": "http://www.sanfelice135.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Reno Suite Bologna Centro B&B",
+      "email": "info@renosuite.it",
+      "website": "https://www.renosuite.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "ResArt Iacomus",
+      "email": "info@resartbologna.it",
+      "website": "https://www.resartbologna.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Luxury B&B Casa Faccioli & Wellness",
+      "email": "info@casafaccioli.it",
+      "website": "https://www.casafaccioli.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "BOLOGNA BED STATION",
+      "email": "info@bolognabedstation.it",
+      "website": "https://bolognabedstation.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Madame Bologna",
+      "email": "madamebologna@hotmail.com",
+      "website": "https://www.madamebologna.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Galleria Cavour",
+      "email": "cavour.galleria@gmail.com",
+      "website": "http://www.bbgalleriacavourbologna.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Steam House Room & Breakfast",
+      "email": "booking@steamhouse.it",
+      "website": "http://www.steamhouse.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Bibliò Rooms - Guesthouse Bologna",
+      "email": "info@bibliorooms.com",
+      "website": "https://www.bibliorooms.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Residenza Due Torri",
+      "email": "info@albergocentralebologna.it",
+      "website": "http://www.albergocentralebologna.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Le stanze di Sara",
+      "email": "lestanzedisara@gmail.com",
+      "website": "https://beb.it/lestanzedisara"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Galliera Residence B&B",
+      "email": "info@gallieraresidence.it",
+      "website": "https://www.gallieraresidence.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Residenza Palazzo Marchesini",
+      "email": "msg@residenzapalazzomarchesini.it",
+      "website": "https://www.residenzapalazzomarchesini.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-panorama-bologna",
+      "nome": "Hotel Panorama",
+      "email": "info@hotelpanoramabologna.it",
+      "website": "http://www.hotelpanoramabologna.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "buon-hotel-bologna-centro-bologna",
+      "nome": "Buon Hotel Bologna Centro",
+      "email": "info@buonhotel.it",
+      "website": "http://www.buonhotel.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "phi-hotel-bologna-bologna",
+      "nome": "Phi Hotel Bologna",
+      "email": "info@phihotelbologna.com",
+      "website": "http://www.phihotelbologna.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-san-donato-bologna-centro-bologna",
+      "nome": "Hotel San Donato - Bologna centro",
+      "email": "prenotazioni@hotelsandonato.it",
+      "website": "https://www.hotelsandonato.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-re-enzo-bologna",
+      "nome": "Hotel Re Enzo",
+      "email": "cristian.maini@hotelreenzo.it",
+      "website": "http://www.hotelreenzo.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "bed-and-breakfast-arcobaleno-bologna",
+      "nome": "Bed And Breakfast Arcobaleno",
+      "email": "info@bb-arcobaleno.com",
+      "website": "http://www.bb-arcobaleno.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "bed-and-brekfast-bologna-san-felice-bologna",
+      "nome": "Bed and Brekfast Bologna San Felice",
+      "email": "info@bolognasanfelice.it",
+      "website": "http://www.bolognasanfelice.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "b-b-la-magnolia-casalecchio-di-reno",
+      "nome": "B&B La Magnolia",
+      "email": "info@lamagnolia-bologna.com",
+      "website": "http://www.lamagnolia-bologna.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "the-boutique-houses-bologna",
+      "nome": "The Boutique Houses",
+      "email": "booking@theboutiquehouses.com",
+      "website": "https://www.theboutiquehouses.com"
+    },
+    {
+      "zone": "centro",
+      "slug": "grand-hotel-majestic-gia-baglioni-bologna",
+      "nome": "Grand Hotel Majestic già Baglioni",
+      "email": "info@grandhotelmajestic.duetorrihotels.com",
+      "website": "https://www.grandhotelmajestic.duetorrihotels.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "marconi-inn-bologna",
+      "nome": "Marconi inn",
+      "email": "bbmarconiinn@gmail.com",
+      "website": "https://www.marconiinn.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "bed-and-breakfast-centrale-bologna",
+      "nome": "Bed And Breakfast Centrale",
+      "email": "info@bbcentrale.com",
+      "website": "http://www.bbcentrale.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "la-ciliegia-green-bed-and-breakfast-bologna",
+      "nome": "La Ciliegia Green Bed and Breakfast",
+      "email": "laciliegia@hotmail.it",
+      "website": "http://la-ciliegia.blogspot.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-atlantic-bologna-bologna",
+      "nome": "Hotel Atlantic Bologna",
+      "email": "info@hotelatlanticbologna.it",
+      "website": "http://www.hotelatlanticbologna.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-palace-bologna-bologna",
+      "nome": "Hotel Palace Bologna",
+      "email": "info@hotelpalacebologna.com",
+      "website": "https://www.hotelpalacebologna.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "albergo-delle-drapperie-bologna",
+      "nome": "Albergo delle Drapperie",
+      "email": "%20info@albergodrapperie.com",
+      "website": "https://www.albergodrapperie.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-porta-san-mamolo-bologna",
+      "nome": "Hotel Porta San Mamolo",
+      "email": "info@hotel-portasanmamolo.it",
+      "website": "https://www.hotel-portasanmamolo.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "b-b-amendola16-bologna",
+      "nome": "B&B Amendola16",
+      "email": "amendola16bologna@gmail.com",
+      "website": "https://amendola16.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-holiday-bologna",
+      "nome": "Hotel Holiday",
+      "email": "info@hotelholiday-bo.com",
+      "website": "https://www.hotelholiday-bo.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "casa-munay-bologna-bologna",
+      "nome": "Casa Munay Bologna",
+      "email": "casamunay@gmail.com",
+      "website": "https://www.casamunay.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "good-morning-bologna-marsala-r-b-bologna",
+      "nome": "Good Morning Bologna - Marsala R&B",
+      "email": "info@goodmorningbologna.com",
+      "website": "http://www.goodmorningbologna.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "bed-and-breakfast-antica-residenza-d-azeglio-hot-azeglio",
+      "nome": "Bed and Breakfast Antica Residenza d'Azeglio HOTEL",
+      "email": "info@anticaresidenzadazeglio.it",
+      "website": "http://www.anticaresidenzadazeglio.it/"
+    }
+  ],
+  "updatedEmail": [
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel NH Bologna De La Gare",
+      "email": "nhbologna@nh-hotels.com",
+      "website": "https://www.nh-hotels.com/en/hotel/nh-bologna-de-la-gare?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Residence le Porte",
+      "email": "info@adrianoresidence.it",
+      "website": "https://www.adrianoresidence.it/residence-bologna-affitto-sotto-le-due-torri/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Perla",
+      "email": "hotelperlabologna@gmail.com",
+      "website": "https://perla1.wixsite.com/hotelperla"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Cozy Suite | Unique Stay in Bologna",
+      "email": "ciao@bolognaexperience.org",
+      "website": "https://www.bolognaexperience.org/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Palazzo di Alcina - Residenza D'Epoca - Luxury Rooms -",
+      "email": "info@palazzodialcina.com",
+      "website": "https://www.palazzodialcina.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Camere e stanze per studenti. Coop. Archiginnasio",
+      "email": "segreteria@archiginnasio.com",
+      "website": "http://www.archiginnasio.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "BOLOGNA SUITE",
+      "email": "bolognasuite@libero.it",
+      "website": "http://bolognasuite.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "R&B La Villa",
+      "email": "spacealaimo@gmail.com",
+      "website": "https://www.roomandbreakfastlavilla.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Residenza Palazzo Marchesini",
+      "email": "msg@residenzapalazzomarchesini.it",
+      "website": "https://www.residenzapalazzomarchesini.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-re-enzo-bologna",
+      "nome": "Hotel Re Enzo",
+      "email": "cristian.maini@hotelreenzo.it",
+      "website": "http://www.hotelreenzo.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "marconi-inn-bologna",
+      "nome": "Marconi inn",
+      "email": "bbmarconiinn@gmail.com",
+      "website": "https://www.marconiinn.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "bed-and-breakfast-centrale-bologna",
+      "nome": "Bed And Breakfast Centrale",
+      "email": "info@bbcentrale.com",
+      "website": "http://www.bbcentrale.com/"
+    }
+  ],
+  "deleted": [
+    {
+      "zone": "centro",
+      "slug": "bologna-bed-and-breakfast-bologna",
+      "nome": "Bologna Bed and Breakfast",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": "bed-breakfast-aurelia-bologna",
+      "nome": "Bed & Breakfast Aurelia",
+      "oldEmail": null,
+      "website": "https://amandastraveltips.com/bed-amp-breakfast-aurelia-italy"
+    },
+    {
+      "zone": "centro",
+      "slug": "bed-breakfast-la-piazzetta-della-pioggia-bologna",
+      "nome": "Bed & Breakfast La piazzetta della pioggia",
+      "oldEmail": null,
+      "website": "http://www.bbcentro.bo.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "casa-salbego-b-b-bologna",
+      "nome": "Casa Salbego B&B",
+      "oldEmail": null,
+      "website": "https://reservationline.eu/casa-salbergo-bnb-bologna"
+    },
+    {
+      "zone": "centro",
+      "slug": "b-b-villa-rivabella-bologna-bologna",
+      "nome": "B&B Villa Rivabella Bologna",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Brun",
+      "oldEmail": "brun@monrifhotels.it",
+      "website": "https://www.hotelbrun.com/it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "UNAHOTELS Bologna Centro",
+      "oldEmail": null,
+      "website": "https://www.unaitalianhospitality.com/it/soggiorni/una-hotels-bologna-centro"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Grand Hotel Elite",
+      "oldEmail": null,
+      "website": "http://grandhotelelitebologna.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel IL GUERCINO",
+      "oldEmail": null,
+      "website": "https://www.guercino.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Casa Miramonte",
+      "oldEmail": null,
+      "website": "http://www.casamiramonte.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Acquaderni Rooms",
+      "oldEmail": "contact@h2cb.com",
+      "website": "https://www.acquadernirooms.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Al Centro di Bologna",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "AC Hotel Bologna di Marriott",
+      "oldEmail": null,
+      "website": "https://www.marriott.com/en-us/hotels/blqbo-ac-hotel-bologna/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Pedrini Bologna Centro 3 Stelle con parcheggio",
+      "oldEmail": null,
+      "website": "https://www.hotelpedrini.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel University",
+      "oldEmail": "info@hotel-university.com",
+      "website": "http://www.hoteluniversitybologna.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "The Social Hub Bologna",
+      "oldEmail": null,
+      "website": "https://www.thesocialhub.co/bologna/?utm_source=googlemybusiness&utm_medium=organic&y_source=1_Mjc4NzI2MTQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Royal Hotel Carlton",
+      "oldEmail": "carlton@monrifhotels.com",
+      "website": "http://www.royalhotelcarltonbologna.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Ariam - Guesthouse",
+      "oldEmail": null,
+      "website": "https://ariam.kross.travel/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Fiera boutique",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel 24",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Bologna Rooms",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Art Hotel Commercianti",
+      "oldEmail": "info@arthotelcommercianti.it",
+      "website": "https://www.art-hotel-commercianti.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness&utm_content=Commercianti&partner=4764"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Morgagni Suites",
+      "oldEmail": null,
+      "website": "https://morgagnisuites.kross.travel/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Monolocale tra Piazza del Nettuno e le Due Torri",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "051 Boutique R&B",
+      "oldEmail": "contact@h2cb.com",
+      "website": "https://www.051bnb.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Allegroitalia Espresso Bologna",
+      "oldEmail": null,
+      "website": "https://www.allegroitalia.it/espresso-bologna/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Residence Petronio",
+      "oldEmail": "info@bolognaresidences.com",
+      "website": "http://www.petronioresidence.it/residence-petronio"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Appartamenti Astoria",
+      "oldEmail": "info@astoria.bo.it",
+      "website": "https://appartamentiastoria.it/it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "MyRoom CenterStation Bologna",
+      "oldEmail": null,
+      "website": "https://www.hotelsitalian.com/myroom-centerstation-bologna/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Ospitalità San Tommaso D'Aquino",
+      "oldEmail": null,
+      "website": "https://www.ospitalitasantommaso.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "IL TIRO ROOMS",
+      "oldEmail": null,
+      "website": "https://www.iltirorooms.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Dudu Affittacamere di Sir Edile S.r.l.",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Residence Opera",
+      "oldEmail": null,
+      "website": "http://www.petronioresidence.it/residence-opera/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Bed and Breakfast Dolce Vita Bologna",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Bertiera Rooms",
+      "oldEmail": "contact@h2cb.com",
+      "website": "https://www.bertierarooms.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Residenza San Martino",
+      "oldEmail": null,
+      "website": "http://residenza-san-martino.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "A pochi minuti dall'Università di Bologna MiniHouse",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "San Felice Residence",
+      "oldEmail": "sanfelice@gregorihotels.com",
+      "website": "https://www.sanfeliceresidence.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Porta San Felice Cozy Apartments",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Strada Maggiore 37",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Monaldo",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Affittacamere La Finestrella",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B da Jo",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Aparthotel Sant'Orsola",
+      "oldEmail": "info@residencebolognagroup.com",
+      "website": "https://www.aparthotelsantorsola.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "CENTRALE BOLOGNA",
+      "oldEmail": null,
+      "website": "https://www.centralebologna.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "La Suite Rooms & Apartments",
+      "oldEmail": null,
+      "website": "http://www.bosuite.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Albachiara Suite Rooms",
+      "oldEmail": null,
+      "website": "https://reservello.eu/albachiara-suite-rooms-bologna"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Royal Central Room",
+      "oldEmail": "booking@centralroom.it",
+      "website": "http://www.royalcentralroom.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&b fantasia",
+      "oldEmail": null,
+      "website": "http://www.bnbfantasia.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Pratello",
+      "oldEmail": null,
+      "website": "http://bnb-pratello.com.es/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "charlothause",
+      "oldEmail": null,
+      "website": "https://charlothause.tripcombined.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Bed In",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Marconi Dreams",
+      "oldEmail": null,
+      "website": "https://9a125571.bookingturbo.com/it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Corticella 24",
+      "oldEmail": null,
+      "website": "https://www.hotelsitalian.com/bed-and-breakfast-corticella-24/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Hotel Ideale Bologna",
+      "oldEmail": null,
+      "website": "https://hotelidealebologna.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B A Bologna",
+      "oldEmail": null,
+      "website": "https://www.instagram.com/bedandbreakfastabologna"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Casa Nina Bologna centro",
+      "oldEmail": null,
+      "website": "http://www.casaninabologna.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Bologna Centro",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B La Porta di Levante",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "AFFITTACAMERE ANGELICA",
+      "oldEmail": null,
+      "website": "https://www.hotelsitalian.com/angelica/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Affittacamere Lidiya",
+      "oldEmail": null,
+      "website": "http://lidiya.com.es/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Il Portico Affittacamere Bologna",
+      "oldEmail": null,
+      "website": "http://www.il-portico-bnb-affittacamere.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Affittacamere Polese",
+      "oldEmail": null,
+      "website": "https://www.hotelsitalian.com/affittacamere-polese/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "AFFITTACAMERE CARTOLERIA guesthouse Bologna",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Affittacamere Cortesia 2",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Gran Suite Piazza Maggiore",
+      "oldEmail": null,
+      "website": "https://www.gransuitepiazzamaggiore.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Via dei bibiena 3 Bologna 40126",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Sant'Orsola Ercolani",
+      "oldEmail": null,
+      "website": "http://www.dormireabologna.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Attico Galliera",
+      "oldEmail": null,
+      "website": "https://interstay.eu/bnb-attico-galleria-bologna"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Bed and Breakfast Bologna The Seventh Heaven",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "My Room Sui Portici",
+      "oldEmail": null,
+      "website": "https://www.myroomsuiportici.top/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Bologna Center Town",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Il Castello Hostel Boutique",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Polese",
+      "oldEmail": null,
+      "website": "https://francescorecommends.eu/b-amp-b-polese-italy"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "Cactus Affittacamere Bologna",
+      "oldEmail": null,
+      "website": null
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "glimmer-harbor",
+      "oldEmail": null,
+      "website": "https://glimmer-harbor.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": null,
+      "nome": "B&B Borgo di San Pietro",
+      "oldEmail": null,
+      "website": "https://borgodisanpietro.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "millenn-hotel-bologna-bologna",
+      "nome": "Millenn Hotel Bologna",
+      "oldEmail": null,
+      "website": "https://www.millennhotelbologna.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-marconi-express-calderara-di-reno",
+      "nome": "Hotel Marconi Express",
+      "oldEmail": "info@hotelmarconiexpress.com",
+      "website": "https://www.hotelmarconiexpress.it/"
+    },
+    {
+      "zone": "centro",
+      "slug": "la-stradetta-bed-and-breakfast-bologna",
+      "nome": "La Stradetta Bed and Breakfast",
+      "oldEmail": null,
+      "website": "http://bnb-lastradetta.com.es/"
+    },
+    {
+      "zone": "centro",
+      "slug": "art-hotel-orologio-bologna",
+      "nome": "Art Hotel Orologio",
+      "oldEmail": null,
+      "website": "https://www.art-hotel-orologio.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "hotel-internazionale-bologna",
+      "nome": "Hotel Internazionale",
+      "oldEmail": null,
+      "website": "http://www.hotelinternazionalebologna.com/"
+    },
+    {
+      "zone": "centro",
+      "slug": "smy-bologna-centrale-bologna",
+      "nome": "Smy Bologna Centrale",
+      "oldEmail": null,
+      "website": "https://www.smyhotels.com/smy-bologna-centrale.html?utm_source=google&utm_medium=organic&utm_campaign=google-my-business&utm_term=google-local&utm_id=smy-bologna-centrale"
+    },
+    {
+      "zone": "centro",
+      "slug": "residenza-bianconcini-bologna",
+      "nome": "Residenza Bianconcini",
+      "oldEmail": null,
+      "website": "http://residenza-bianconcini.bolognahotels.org/en/"
+    },
+    {
+      "zone": "centro",
+      "slug": "made-in-bo-affittacamere-rooms-bologna-rooms-cam-calderara-di-reno",
+      "nome": "MADE IN BO-Affittacamere-Rooms-Bologna Rooms-Camere Stazione Centrale-Camere Bologna-Camere",
+      "oldEmail": null,
+      "website": "https://www.felsinopewelcome.it/made-in-bo/"
+    },
+    {
+      "zone": "centro",
+      "slug": "b-b-galleria-del-reno-casalecchio-di-reno",
+      "nome": "B&B Galleria del Reno",
+      "oldEmail": null,
+      "website": null
+    }
+  ],
+  "skippedClaimed": []
+}
