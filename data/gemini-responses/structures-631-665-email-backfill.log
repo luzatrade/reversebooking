@@ -1,0 +1,24 @@
+◇ injected env (8) from .env.local // tip: ◈ secrets for agents [www.dotenvx.com]
+=== Strutture 631-665 (35 hotel) ===
+
+  #635 la-nuova-fattoria-ristorante-hotel-agosta — non trovata (http://www.lanuovafattoria.it/)
+  #641 villa-clementi-boutique-hotel-agosta — non trovata (https://villaclementiboutiquehotel.com/)
+  #650 foresteria-al-campanile-agra — non trovata (https://www.foresteriaalcampanile.it/)
+  #653 hotel-montegrino-lakeview-agra — non trovata (https://www.hotelmontegrino.it/)
+  #660 rifugio-campiglio-agra — non trovata (http://www.rifugiocampiglio.com/)
+  #663 agriturismo-galbusera-bianca-agrate-brianza — non trovata (https://www.oasigalbuserabianca.it/)
+
+=== TOTALE ===
+{
+  "range": "631-665",
+  "dryRun": false,
+  "total": 35,
+  "alreadyHadEmail": 20,
+  "noWebsite": 4,
+  "aggregatorSkipped": 5,
+  "scrapedFound": 0,
+  "dbUpdated": 0,
+  "notFound": 6,
+  "errors": 0
+}
+Report: /workspace/data/gemini-responses/structures-631-665-email-backfill-report.json

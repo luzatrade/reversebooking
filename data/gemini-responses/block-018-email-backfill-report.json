@@ -1,0 +1,315 @@
+{
+  "block": 18,
+  "total": 35,
+  "alreadyHadEmail": 0,
+  "noWebsite": 4,
+  "notFoundOnSite": 13,
+  "scrapedFound": 18,
+  "dbUpdated": 18,
+  "details": [
+    {
+      "slug": "tenuta-lanza-il-mulino-acquaviva-platani",
+      "status": "not_found",
+      "website": "http://agriturismosicilianoilmulino.it/",
+      "pages": [
+        "http://agriturismosicilianoilmulino.it/"
+      ]
+    },
+    {
+      "slug": "viola-bed-breakfast-acquaviva-platani",
+      "status": "not_found",
+      "website": "http://www.viola-bedandbreakfast-sicily.com/",
+      "pages": []
+    },
+    {
+      "slug": "agriturismo-antico-frantoio-salmeri-acquedolci",
+      "status": "not_found",
+      "website": "https://agriturismo-villa-nicetta-di-salmeri-salvatore.hotelperiviaggi.top/",
+      "pages": [
+        "https://agriturismo-villa-nicetta-di-salmeri-salvatore.hotelperiviaggi.top/",
+        "https://agriturismo-villa-nicetta-di-salmeri-salvatore.hotelperiviaggi.top/contatti",
+        "https://agriturismo-villa-nicetta-di-salmeri-salvatore.hotelperiviaggi.top/contact",
+        "https://agriturismo-villa-nicetta-di-salmeri-salvatore.hotelperiviaggi.top/contacts",
+        "https://agriturismo-villa-nicetta-di-salmeri-salvatore.hotelperiviaggi.top/it/contatti",
+        "https://agriturismo-villa-nicetta-di-salmeri-salvatore.hotelperiviaggi.top/en/contact",
+        "https://agriturismo-villa-nicetta-di-salmeri-salvatore.hotelperiviaggi.top/contatti.html",
+        "https://agriturismo-villa-nicetta-di-salmeri-salvatore.hotelperiviaggi.top/contact-us"
+      ]
+    },
+    {
+      "slug": "agriturismo-la-valle-degli-ulivi-nebrodi-acquedolci",
+      "status": "updated",
+      "email": "%20info@lavalledegliuliviagriturismo.com",
+      "website": "https://lavalledegliuliviagriturismo.com/",
+      "pages": [
+        "https://lavalledegliuliviagriturismo.com/"
+      ]
+    },
+    {
+      "slug": "agriturismo-villa-ortoleva-acquedolci",
+      "status": "no_website"
+    },
+    {
+      "slug": "assabinirica-acquedolci",
+      "status": "no_website"
+    },
+    {
+      "slug": "b-b-il-girasole-acquedolci",
+      "status": "updated",
+      "email": "info@ilgirasolecapodorlando.com",
+      "website": "http://www.ilgirasolecapodorlando.com/",
+      "pages": [
+        "http://www.ilgirasolecapodorlando.com/"
+      ]
+    },
+    {
+      "slug": "b-b-serena-acquedolci",
+      "status": "not_found",
+      "website": "http://www.bbserena.eu/",
+      "pages": [
+        "http://www.bbserena.eu/",
+        "http://www.bbserena.eu/contatti",
+        "http://www.bbserena.eu/contact",
+        "http://www.bbserena.eu/contacts",
+        "http://www.bbserena.eu/it/contatti",
+        "http://www.bbserena.eu/en/contact",
+        "http://www.bbserena.eu/contatti.html",
+        "http://www.bbserena.eu/contact-us"
+      ]
+    },
+    {
+      "slug": "beb-nonna-sicilia-acquedolci",
+      "status": "not_found",
+      "website": "https://beb-nonna-sicilia.vederelitalia.top/",
+      "pages": [
+        "https://beb-nonna-sicilia.vederelitalia.top/"
+      ]
+    },
+    {
+      "slug": "bed-breakfast-a-due-passi-dal-mare-acquedolci",
+      "status": "updated",
+      "email": "info@aduepassidalmare.net",
+      "website": "http://www.aduepassidalmare.net/",
+      "pages": [
+        "http://www.aduepassidalmare.net/"
+      ]
+    },
+    {
+      "slug": "bed-and-breakfast-bellavista-acquedolci",
+      "status": "not_found",
+      "website": "http://www.bellavistabb.net/",
+      "pages": []
+    },
+    {
+      "slug": "capo-nettuno-hotel-acquedolci",
+      "status": "updated",
+      "email": "info@caponettuno.it",
+      "website": "http://www.caponettuno.it/",
+      "pages": [
+        "http://www.caponettuno.it/"
+      ]
+    },
+    {
+      "slug": "casa-giada-acquedolci",
+      "status": "updated",
+      "email": "info@casagiada.it",
+      "website": "http://www.casagiada.it/",
+      "pages": [
+        "http://www.casagiada.it/"
+      ]
+    },
+    {
+      "slug": "hotel-bed-and-breakfast-il-geranio-acquedolci",
+      "status": "no_website"
+    },
+    {
+      "slug": "il-fiore-bianco-acquedolci",
+      "status": "not_found",
+      "website": "http://ilfiorebianco.it/",
+      "pages": [
+        "http://ilfiorebianco.it/",
+        "http://ilfiorebianco.it/contatti",
+        "http://ilfiorebianco.it/contact",
+        "http://ilfiorebianco.it/contacts",
+        "http://ilfiorebianco.it/it/contatti",
+        "http://ilfiorebianco.it/en/contact",
+        "http://ilfiorebianco.it/contatti.html",
+        "http://ilfiorebianco.it/contact-us"
+      ]
+    },
+    {
+      "slug": "la-collina-b-b-acquedolci",
+      "status": "not_found",
+      "website": "http://www.lacollinabb.it/",
+      "pages": [
+        "http://www.lacollinabb.it/"
+      ]
+    },
+    {
+      "slug": "le-tre-stelle-marine-acquedolci",
+      "status": "not_found",
+      "website": "https://www.hotelscheck-in.com/letrestellemarinemessina/it/",
+      "pages": [
+        "https://www.hotelscheck-in.com/letrestellemarinemessina/it/",
+        "https://www.hotelscheck-in.com/"
+      ]
+    },
+    {
+      "slug": "palazzo-fortunato-s-r-l-acquedolci",
+      "status": "updated",
+      "email": "info@hotelpalazzofortunato.com",
+      "website": "http://www.hotelpalazzofortunato.com/",
+      "pages": [
+        "http://www.hotelpalazzofortunato.com/"
+      ]
+    },
+    {
+      "slug": "syfar-palace-hotel-acquedolci",
+      "status": "no_website"
+    },
+    {
+      "slug": "thea-b-b-acquedolci",
+      "status": "updated",
+      "email": "tabthea1@gmail.com",
+      "website": "http://www.bbthea.it/",
+      "pages": [
+        "http://www.bbthea.it/"
+      ]
+    },
+    {
+      "slug": "villa-dei-principi-acquedolci",
+      "status": "updated",
+      "email": "villadeiprincipi@gmail.com",
+      "website": "http://www.villadeiprincipi.it/",
+      "pages": [
+        "http://www.villadeiprincipi.it/"
+      ]
+    },
+    {
+      "slug": "villa-mancuso-de-gaetani-spa-acquedolci",
+      "status": "not_found",
+      "website": "http://www.villamancusodegaetani.it/",
+      "pages": []
+    },
+    {
+      "slug": "b-b-borgo-inferiore-24-acqui-terme",
+      "status": "updated",
+      "email": "info@borgoinferiore24.it",
+      "website": "http://www.borgoinferiore24.it/",
+      "pages": [
+        "http://www.borgoinferiore24.it/"
+      ]
+    },
+    {
+      "slug": "b-b-cascina-galla-acqui-terme",
+      "status": "updated",
+      "email": "cascinagalla@alice.it",
+      "website": "http://www.cascinagalla.it/",
+      "pages": [
+        "http://www.cascinagalla.it/"
+      ]
+    },
+    {
+      "slug": "b-b-cascina-luvot-acqui-terme",
+      "status": "updated",
+      "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+      "website": "https://cascinaluvot.wixsite.com/cascinaluvot",
+      "pages": [
+        "https://cascinaluvot.wixsite.com/cascinaluvot"
+      ]
+    },
+    {
+      "slug": "b-b-dei-cappuccini-acqui-terme",
+      "status": "not_found",
+      "website": "http://www.deicappuccini.it/",
+      "pages": [
+        "http://www.deicappuccini.it/",
+        "http://www.deicappuccini.it/contatti",
+        "http://www.deicappuccini.it/it/contatti"
+      ]
+    },
+    {
+      "slug": "b-b-la-lacia-acqui-terme",
+      "status": "not_found",
+      "website": "http://www.lalacia.it/?lang=en",
+      "pages": [
+        "http://www.lalacia.it/?lang=en",
+        "http://www.lalacia.it/"
+      ]
+    },
+    {
+      "slug": "b-b-maggiora-131-acqui-terme",
+      "status": "updated",
+      "email": "bbmaggiora131@gmail.com",
+      "website": "https://www.bbmaggiora131.it/",
+      "pages": [
+        "https://www.bbmaggiora131.it/",
+        "https://www.bbmaggiora131.it/contact",
+        "https://www.bbmaggiora131.it/en/contact"
+      ]
+    },
+    {
+      "slug": "b-b-molino-di-lancin-acqui-terme",
+      "status": "updated",
+      "email": "lancinbb@gmail.com",
+      "website": "https://beb.it/molinodilancin/en/",
+      "pages": [
+        "https://beb.it/molinodilancin/en/"
+      ]
+    },
+    {
+      "slug": "b-b-villa-curte-nicia-acqui-terme",
+      "status": "updated",
+      "email": "info@villacurtenicia.it",
+      "website": "http://www.villacurtenicia.com/",
+      "pages": [
+        "http://www.villacurtenicia.com/"
+      ]
+    },
+    {
+      "slug": "bed-breakfast-casa-bolla-acqui-terme",
+      "status": "not_found",
+      "website": "http://www.casabolla.it/",
+      "pages": [
+        "http://www.casabolla.it/"
+      ]
+    },
+    {
+      "slug": "habilita-villa-igea-residence-artemisia-acqui-terme",
+      "status": "updated",
+      "email": "habilita@pec.habilita.it",
+      "website": "https://habilita.it/acqui-terme-residence-artemisia/",
+      "pages": [
+        "https://habilita.it/acqui-terme-residence-artemisia/"
+      ]
+    },
+    {
+      "slug": "hotel-acqui-acqui-terme",
+      "status": "updated",
+      "email": "info@hotelacqui.it",
+      "website": "http://www.hotelacqui.it/",
+      "pages": [
+        "http://www.hotelacqui.it/",
+        "http://www.hotelacqui.it/contatti"
+      ]
+    },
+    {
+      "slug": "hotel-la-meridiana-acqui-terme",
+      "status": "updated",
+      "email": "info@lameridianahotel.net",
+      "website": "http://lameridianahotel.net/galleria/",
+      "pages": [
+        "http://lameridianahotel.net/galleria/"
+      ]
+    },
+    {
+      "slug": "hotel-valentino-acqui-terme-acqui-terme",
+      "status": "updated",
+      "email": "info@hotel-valentino.com",
+      "website": "http://www.hotel-valentino.com/",
+      "pages": [
+        "http://www.hotel-valentino.com/"
+      ]
+    }
+  ]
+}
