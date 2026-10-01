@@ -1,4 +1,5 @@
-import { BRAND_NAME } from "@/lib/legal/company";
+import type { Locale } from "@/lib/i18n/translations";
+import { getTravelerContactTemplates } from "@/lib/hotels/travelerContactTemplates";
 
 export function normalizeWebsiteUrl(raw: string | null | undefined): string | null {
   const value = raw?.trim();
@@ -7,25 +8,16 @@ export function normalizeWebsiteUrl(raw: string | null | undefined): string | nu
   return `https://${value}`;
 }
 
-export function buildContactEmailHref(propertyName: string, email: string): string {
-  const emailLines = [
-    `Ciao! Ho trovato ${propertyName} su ${BRAND_NAME} 😊 e vorrei chiedere gentilmente informazioni e disponibilità per le seguenti date:`,
-    "",
-    "Check-in: ___",
-    "Check-out: ___",
-    "Ospiti: ___",
-    "",
-    "Resto in attesa di un vostro cortese riscontro.",
-    "Grazie mille!",
-  ];
-  return `mailto:${email}?subject=${encodeURIComponent(`Richiesta disponibilità — ${propertyName}`)}&body=${encodeURIComponent(emailLines.join("\n"))}`;
+export function buildContactEmailHref(email: string, locale: Locale = "it"): string {
+  const { emailSubject, emailBody } = getTravelerContactTemplates(locale);
+  return `mailto:${email}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
 }
 
-export function buildWhatsAppHref(propertyName: string, phone: string): string | null {
+export function buildWhatsAppHref(phone: string, locale: Locale = "it"): string | null {
   const digits = phone.replace(/\D/g, "");
   if (!digits) return null;
-  const msg = `Ciao! Ho trovato ${propertyName} su ${BRAND_NAME} 😊 e vorrei chiedere gentilmente informazioni e disponibilità per le seguenti date: ... Grazie mille!`;
-  return `https://wa.me/${digits}?text=${encodeURIComponent(msg)}`;
+  const { whatsAppMessage } = getTravelerContactTemplates(locale);
+  return `https://wa.me/${digits}?text=${encodeURIComponent(whatsAppMessage)}`;
 }
 
 export function buildTelHref(phone: string): string {
