@@ -29,6 +29,7 @@ const EMAIL_DELAY_MS = 250;
 const CITY_CENTRO = {
   catania: { lat: 37.502361, lng: 15.087269, radiusM: 2000 },
   palermo: { lat: 38.115687, lng: 13.361267, radiusM: 2500 },
+  milano: { lat: 45.4642, lng: 9.19, radiusM: 2800 },
   london: { lat: 51.5074, lng: -0.1278, radiusM: 2500 },
 };
 

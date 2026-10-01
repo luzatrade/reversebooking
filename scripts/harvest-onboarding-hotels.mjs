@@ -39,11 +39,15 @@ const { createClient } = await import("@supabase/supabase-js");
 
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
-const googleSearchKey = process.env.GOOGLE_PLACES_API_KEY_TEMP || process.env.GOOGLE_PLACES_API_KEY;
+const googleSearchKey =
+  process.env.GOOGLE_PLACES_API_KEY_TEMP ||
+  process.env.GOOGLE_PLACES_API_KEY ||
+  process.env.google?.trim();
 const googlePhotosKey =
   process.env.GOOGLE_PLACES_PHOTOS_KEY?.trim() ||
   process.env.GOOGLE_PLACES_API_KEY_TEMP?.trim() ||
-  process.env.GOOGLE_PLACES_API_KEY;
+  process.env.GOOGLE_PLACES_API_KEY?.trim() ||
+  process.env.google?.trim();
 const usingTempGoogleKey = Boolean(process.env.GOOGLE_PLACES_API_KEY_TEMP?.trim());
 const usingProdPhotosKey = Boolean(
   process.env.GOOGLE_PLACES_PHOTOS_KEY?.trim() &&
@@ -385,6 +389,21 @@ function searchQueries(comune) {
         "hotel Cinque Terre",
         "hotel Monterosso al Mare Cinque Terre",
         "hotel Vernazza Cinque Terre",
+      ];
+    }
+    if (comune.nome === "Milano") {
+      return [
+        `hotel centro ${comune.nome}`,
+        `hotel ${comune.nome} centro storico`,
+        `hotel ${base} centro`,
+        "hotel Milano Duomo",
+        "hotel Milano Brera",
+        "hotel Milano Porta Nuova",
+        "hotel Milano Corso Buenos Aires",
+        "hotel Milano Navigli",
+        "hotel Milano Galleria",
+        "boutique hotel Milano centro",
+        "luxury hotel Milano centro",
       ];
     }
     return [
