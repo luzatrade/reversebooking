@@ -40,7 +40,7 @@ export async function StructureSeoPage({ record }: Props) {
     ? (await fetchDestinationStructures(destinationHub.slug, 1))?.items ?? []
     : [];
   const websiteUrl = normalizeWebsiteUrl(record.website);
-  const whatsAppHref = record.phone ? buildWhatsAppHref(record.name, record.phone) : null;
+  const whatsAppHref = record.phone ? buildWhatsAppHref(record.phone, locale) : null;
   const addressLine = record.address?.trim() || record.cityName || t.hotel.addressUnavailable;
   const isOnboarding = record.source === "onboarding";
   const isClaimed = record.status === "claimed";
@@ -198,7 +198,7 @@ export async function StructureSeoPage({ record }: Props) {
                   <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-3">
                     {record.email ? (
                       <a
-                        href={buildContactEmailHref(record.name, record.email.trim())}
+                        href={buildContactEmailHref(record.email.trim(), locale)}
                         className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-4 py-3 text-sm font-semibold text-white transition hover:bg-emerald-600 sm:py-2"
                       >
                         <Mail className="h-4 w-4" /> {t.common.email}
