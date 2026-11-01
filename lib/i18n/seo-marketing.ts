@@ -216,7 +216,7 @@ export function getHomeHowItWorks(locale: Locale): HowItWorksStep[] {
   if (locale === "en") {
     return [
       {
-        title: "Drop your request",
+        title: "Create your request",
         description: "Pick a destination, dates, budget and preferences. One request reaches every matching hotel, B&B and apartment in the area.",
       },
       {
@@ -231,7 +231,7 @@ export function getHomeHowItWorks(locale: Locale): HowItWorksStep[] {
   }
   return [
     {
-      title: "Droppa la richiesta",
+      title: "Crea la tua richiesta",
       description: "Scegli destinazione, date, budget e preferenze. Una sola richiesta raggiunge tutti gli hotel e le strutture compatibili della zona.",
     },
     {
@@ -278,7 +278,7 @@ function getTravellerFaq(locale: Locale): FaqItem[] {
       {
         question: "How do I create a stay request?",
         answer:
-          "Click “Drop your request”, choose destination, check-in and check-out dates, budget, number of rooms and guests, then add any preferences (meal plan, area, special needs). One click sends the request to every compatible property in the selected area.",
+          "Click “Create your request”, choose destination, check-in and check-out dates, budget, number of rooms and guests, then add any preferences (meal plan, area, special needs). One click sends the request to every compatible property in the selected area.",
       },
       {
         question: "How long does it take to receive offers?",
@@ -331,7 +331,7 @@ function getTravellerFaq(locale: Locale): FaqItem[] {
     {
       question: "Come creo una richiesta di soggiorno?",
       answer:
-        "Clicca su “Droppa la tua richiesta”, scegli destinazione, date di check-in e check-out, budget, numero camere e ospiti, poi aggiungi eventuali preferenze (trattamento, zona, esigenze particolari). Un click e la richiesta parte verso tutte le strutture compatibili della zona.",
+        "Clicca su “Crea la tua richiesta”, scegli destinazione, date di check-in e check-out, budget, numero camere e ospiti, poi aggiungi eventuali preferenze (trattamento, zona, esigenze particolari). Un click e la richiesta parte verso tutte le strutture compatibili della zona.",
     },
     {
       question: "Quanto tempo ci vuole per ricevere le offerte?",

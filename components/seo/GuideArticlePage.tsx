@@ -55,7 +55,7 @@ export async function GuideArticlePage({ slug }: Props) {
           href={homePath(locale)}
           className="mt-3 inline-flex items-center justify-center rounded-full bg-[#0f4c81] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#0c3d66]"
         >
-          {hubLabels?.guidesCtaButton ?? (locale === "en" ? "Drop your request" : "Droppa la tua richiesta")}
+          {hubLabels?.guidesCtaButton ?? (locale === "en" ? "Create your request" : "Crea la tua richiesta")}
         </Link>
       </div>
     </article>

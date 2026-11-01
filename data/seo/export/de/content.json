@@ -42,7 +42,7 @@
     "heroEntityIntro": "Auf HotelsDrop konkurrieren Hotels um Sie: eine Anfrage, personalisierte Angebote, null Provision für Reisende.",
     "ui": {
       "showcase": {
-        "dropYourRequest": "Anfrage stellen",
+        "dropYourRequest": "Erstelle deine Anfrage",
         "discoverWhereToStayCta": "Unterkünfte in {city} entdecken",
         "lastMinuteCta": "Last Minute",
         "exploreMapCta": "Auf der Karte erkunden",

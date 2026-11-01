@@ -135,7 +135,7 @@ const REGISTRY: Record<HubSeoLocale, HubLocaleConfig> = {
       guidesIndexSubtitle:
         "So funktioniert Reverse Booking und so holst du das Meiste aus HotelsDrop heraus.",
       guidesCtaTitle: "Bereit für Reverse Booking?",
-      guidesCtaButton: "Anfrage stellen",
+      guidesCtaButton: "Erstelle deine Anfrage",
       countryLabels: {
         IT: "Italien",
         FR: "Frankreich",
@@ -174,7 +174,7 @@ const REGISTRY: Record<HubSeoLocale, HubLocaleConfig> = {
       guidesIndexDescription: "HotelsDrop 指南：反向预订、团队出行与旅行社合作，直接报价，旅客零佣金。",
       guidesIndexSubtitle: "了解反向预订的运作方式，以及如何更好地使用 HotelsDrop。",
       guidesCtaTitle: "想试试反向预订吗？",
-      guidesCtaButton: "发布住宿需求",
+      guidesCtaButton: "创建您的住宿需求",
       countryLabels: {
         IT: "意大利",
         FR: "法国",
@@ -217,7 +217,7 @@ const REGISTRY: Record<HubSeoLocale, HubLocaleConfig> = {
       guidesIndexSubtitle:
         "Descubre cómo funciona el reverse booking y cómo aprovechar HotelsDrop al máximo.",
       guidesCtaTitle: "¿Listo para probar el reverse booking?",
-      guidesCtaButton: "Publica tu solicitud",
+      guidesCtaButton: "Crea tu solicitud",
       countryLabels: {
         IT: "Italia",
         FR: "Francia",

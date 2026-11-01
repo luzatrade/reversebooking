@@ -300,7 +300,7 @@ export const translations = {
       selectCity: "Seleziona città",
       citySearchPlaceholder: "Città o struttura nel catalogo",
       createRequest: "Crea richiesta",
-      dropYourRequest: "Droppa la tua richiesta",
+      dropYourRequest: "Crea la tua richiesta",
       dropYourRequestHintCta: "Scopri come funziona HotelsDrop",
       dropYourRequestModal: {
         title: "Cos'è HotelsDrop?",
@@ -1358,7 +1358,7 @@ export const translations = {
       reverseBookingTitle: "Fatti trovare dalle strutture",
       reverseBookingSubtitle:
         "Pubblica una richiesta gratuita per {city}: hotel e B&B della zona ti inviano offerte personalizzate.",
-      reverseBookingCta: "Droppa la tua richiesta",
+      reverseBookingCta: "Crea la tua richiesta",
       reverseBookingTrustFree: "Gratis per chi viaggia",
       reverseBookingTrustNoCommission: "Nessuna commissione sulle prenotazioni",
       reverseBookingTrustOffers: "Confronta offerte dirette dalle strutture",
@@ -1682,7 +1682,7 @@ export const translations = {
       selectCity: "Select city",
       citySearchPlaceholder: "City or property in catalog",
       createRequest: "Create request",
-      dropYourRequest: "Drop your request",
+      dropYourRequest: "Create your request",
       dropYourRequestHintCta: "See how HotelsDrop works",
       dropYourRequestModal: {
         title: "What is HotelsDrop?",
@@ -2728,7 +2728,7 @@ export const translations = {
       reverseBookingTitle: "Let properties find you",
       reverseBookingSubtitle:
         "Publish a free stay request for {city}: local hotels and B&Bs send you personalised offers.",
-      reverseBookingCta: "Drop your request",
+      reverseBookingCta: "Create your request",
       reverseBookingTrustFree: "Free for travellers",
       reverseBookingTrustNoCommission: "No booking commission",
       reverseBookingTrustOffers: "Compare direct offers from properties",

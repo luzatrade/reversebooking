@@ -42,7 +42,7 @@
     "heroEntityIntro": "在 HotelsDrop，酒店为您竞争：一次需求，个性化报价，旅客零佣金。",
     "ui": {
       "showcase": {
-        "dropYourRequest": "发布住宿需求",
+        "dropYourRequest": "创建您的住宿需求",
         "discoverWhereToStayCta": "探索{city}住宿",
         "lastMinuteCta": "最后时刻优惠",
         "exploreMapCta": "地图探索",

@@ -42,7 +42,7 @@
     "heroEntityIntro": "En HotelsDrop los hoteles compiten por ti: una solicitud, propuestas personalizadas y cero comisiones para quien viaja.",
     "ui": {
       "showcase": {
-        "dropYourRequest": "Publica tu solicitud",
+        "dropYourRequest": "Crea tu solicitud",
         "discoverWhereToStayCta": "Descubre dónde alojarte en {city}",
         "lastMinuteCta": "Última hora",
         "exploreMapCta": "Explorar en el mapa",
