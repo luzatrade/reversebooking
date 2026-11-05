@@ -13,7 +13,6 @@ export function siteUrl(): string {
 }
 
 export const COMPANY_EMAIL = company.supportEmail;
-export const COMPANY_PHONE = company.phone;
 
 export type RequestSummaryPayload = {
   request_code: string | null;
@@ -62,7 +61,7 @@ export function noteHtml(html: string) {
 }
 
 export function signatureHtml() {
-  return `<p style="margin-top:24px;font-size:14px;line-height:1.6;color:#3f3f46">Aiutaci a lanciare questa startup e facci sapere cosa ne pensi: il tuo feedback è fondamentale per noi. Per qualsiasi informazione o assistenza, il nostro team è a tua completa disposizione.</p><p style="margin-top:16px;font-size:14px;line-height:1.6;color:#18181b">Cordiali saluti,<br /><strong>Il team di HotelsDrop</strong><br /><a href="mailto:${COMPANY_EMAIL}" style="color:#0f4c81">${COMPANY_EMAIL}</a> · ${COMPANY_PHONE} · <a href="${siteUrl()}" style="color:#0f4c81">hotelsdrop.com</a></p>`;
+  return `<p style="margin-top:24px;font-size:14px;line-height:1.6;color:#3f3f46">Aiutaci a lanciare questa startup e facci sapere cosa ne pensi: il tuo feedback è fondamentale per noi. Per qualsiasi informazione o assistenza, il nostro team è a tua completa disposizione.</p><p style="margin-top:16px;font-size:14px;line-height:1.6;color:#18181b">Cordiali saluti,<br /><strong>Il team di HotelsDrop</strong><br /><a href="mailto:${COMPANY_EMAIL}" style="color:#0f4c81">${COMPANY_EMAIL}</a> · <a href="${siteUrl()}" style="color:#0f4c81">hotelsdrop.com</a></p>`;
 }
 
 export function footerImageHtml() {
