@@ -9,7 +9,7 @@ import { CountryCitySelect } from "@/components/location/CountryCitySelect";
 import { ensureAgencyProfile } from "@/lib/agency/ensureAgencyProfile";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import { isHotelOperational } from "@/lib/hotel/access";
-import { findCityById } from "@/lib/constants/world-city-helpers";
+import { cityFromStored, findCityById } from "@/lib/constants/world-city-helpers";
 import { type WorldCity } from "@/lib/constants/world-cities";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 
@@ -203,7 +203,12 @@ export function AgencyProfileForm() {
       }
 
       setOperational(isHotelOperational(data));
-      const city = findCityById(data.city_id);
+      const city = cityFromStored({
+        country_code: data.country_code,
+        country_name: data.country_name,
+        city_name: data.city_name,
+        city_id: data.city_id,
+      });
       setSelectedCity(city);
       setForm({
         id: data.id,
@@ -211,10 +216,10 @@ export function AgencyProfileForm() {
         cun_code: data.cun_code ?? "",
         description: data.description ?? "",
         full_address: data.full_address ?? "",
-        country_code: city.country_code,
-        country_name: city.country_name,
-        city_name: city.city_name,
-        city_id: city.city_id,
+        country_code: data.country_code ?? city.country_code,
+        country_name: data.country_name ?? city.country_name,
+        city_name: data.city_name ?? city.city_name,
+        city_id: data.city_id ?? city.city_id,
         specific_area: data.specific_area ?? "",
         main_photo_url: data.main_photo_url ?? "",
         gallery_photo_urls: data.gallery_photo_urls ?? [],

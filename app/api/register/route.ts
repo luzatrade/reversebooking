@@ -6,10 +6,11 @@ import {
 } from "@/lib/auth/account-activation";
 import { registerWithResend, shouldRegisterWithResend } from "@/lib/auth/register-with-resend";
 import {
+  applyOnboardingClaimToHotelAccount,
   assertOnboardingClaimable,
-  buildHotelFromOnboarding,
+  findUnclaimedOnboardingByEmail,
   loadOnboardingHotel,
-  reserveOnboardingClaim,
+  syncUserOnboardingMetadata,
 } from "@/lib/hotel/onboarding-claim";
 import { normalizePhoneE164 } from "@/lib/phone/normalize";
 import { PRIVACY_VERSION, TERMS_VERSION } from "@/lib/legal/company";
@@ -330,60 +331,59 @@ async function createHotelAccount(
   }
 
   const adminClient = createClient(serviceUrl, serviceKey, { auth: { persistSession: false } });
+  const structureType = body.structureType ?? "hotel";
+
+  const { data: existingHotel } = await adminClient
+    .from("hotel_accounts")
+    .select("user_id, onboarding_hotel_id, property_name, city_id")
+    .eq("user_id", userId)
+    .maybeSingle();
 
   if (body.onboardingId) {
     const onboarding = await loadOnboardingHotel(adminClient, body.onboardingId);
     const claimError = assertOnboardingClaimable(onboarding, userId);
     if (claimError) throw new Error(claimError);
 
-    const hotelData = buildHotelFromOnboarding(userId, email, onboarding!, body.structureType ?? "hotel");
-    const { error: hotelError } = await adminClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
-    if (hotelError) throw new Error(hotelError.message);
-    await reserveOnboardingClaim(adminClient, onboarding!.id, userId);
+    await applyOnboardingClaimToHotelAccount(adminClient, userId, email, onboarding!, structureType);
+    await syncUserOnboardingMetadata(adminClient, userId, onboarding!.id);
     return;
   }
 
-  const { data: matchData } = await adminClient
-    .from("onboarding_hotels")
-    .select("id, nome, city_name, indirizzo, email, phone, main_photo_url, website, google_maps_url, status, claimed_by")
-    .eq("email", email)
-    .eq("status", "unclaimed")
-    .maybeSingle();
-
-  if (matchData) {
-    const hotelData = buildHotelFromOnboarding(userId, email, matchData, body.structureType ?? "hotel");
-    const { error: hotelError } = await adminClient.from("hotel_accounts").upsert(hotelData, { onConflict: "user_id" });
-    if (hotelError) throw new Error(hotelError.message);
-    await reserveOnboardingClaim(adminClient, matchData.id, userId);
+  const match = await findUnclaimedOnboardingByEmail(adminClient, email);
+  if (match.status === "found") {
+    await applyOnboardingClaimToHotelAccount(adminClient, userId, email, match.row, structureType);
+    await syncUserOnboardingMetadata(adminClient, userId, match.row.id);
     return;
   }
 
-  const { error: fallbackHotelError } = await adminClient.from("hotel_accounts").upsert(
-    {
-      user_id: userId,
-      structure_type: body.structureType ?? "hotel",
-      property_name: "Nuova struttura",
-      cin_code: `NEW-${userId.slice(0, 8)}`,
-      description: null as string | null,
-      full_address: "Indirizzo da completare",
-      country_code: "IT",
-      country_name: "Italia",
-      city_name: "Da completare",
-      city_id: PENDING_CITY_ID,
-      specific_area: null as string | null,
-      rooms_quantity: 1,
-      private_notification_email: email,
-      public_email: null as string | null,
-      public_phone: null as string | null,
-      main_photo_url: null as string | null,
-      google_maps_url: null as string | null,
-      subscription_status: "active",
-      subscription_active: true,
-      account_status: hotelStatus,
-    },
-    { onConflict: "user_id" },
-  );
-  if (fallbackHotelError) throw new Error(fallbackHotelError.message);
+  if (!existingHotel) {
+    const { error: fallbackHotelError } = await adminClient.from("hotel_accounts").upsert(
+      {
+        user_id: userId,
+        structure_type: structureType,
+        property_name: "Nuova struttura",
+        cin_code: `NEW-${userId.slice(0, 8)}`,
+        description: null as string | null,
+        full_address: "Indirizzo da completare",
+        country_code: "IT",
+        country_name: "Italia",
+        city_name: "Da completare",
+        city_id: PENDING_CITY_ID,
+        specific_area: null as string | null,
+        rooms_quantity: 1,
+        private_notification_email: email,
+        public_email: null as string | null,
+        public_phone: null as string | null,
+        main_photo_url: null as string | null,
+        google_maps_url: null as string | null,
+        subscription_status: "active",
+        subscription_active: true,
+        account_status: hotelStatus,
+      },
+      { onConflict: "user_id" },
+    );
+    if (fallbackHotelError) throw new Error(fallbackHotelError.message);
+  }
 }
 
 async function createAgencyAccount(

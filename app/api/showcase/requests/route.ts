@@ -33,14 +33,14 @@ export async function GET(request: Request) {
     }
 
     const [requests, requestCount] = await Promise.all([
-      fetchShowcaseTravelRequests(250, hotelScope, cityFilter),
+      fetchShowcaseTravelRequests(1000, hotelScope, cityFilter),
       hotelScope
         ? fetchActiveTravelRequestCount({
             countryCode: hotelScope.countryCode ?? "IT",
             cityId: hotelScope.cityId,
           })
         : fetchActiveTravelRequestCount({
-            countryCode: countryCode ?? "IT",
+            countryCode: cityId ? (countryCode ?? "IT") : null,
             cityId,
           }),
     ]);

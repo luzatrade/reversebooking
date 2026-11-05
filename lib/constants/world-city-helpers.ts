@@ -82,7 +82,9 @@ export function findCityById(cityId?: string | null): WorldCity {
   if (knownCity) return knownCity;
   const match = cityId?.match(/^([A-Z]{2})-(.+)$/);
   if (match) return createWorldCity(match[1], titleFromSlug(match[2]));
-  return majorWorldCities[0];
+  const legacyMatch = cityId?.match(/^(.+)-([a-z]{2})$/i);
+  if (legacyMatch) return createWorldCity(legacyMatch[2].toUpperCase(), titleFromSlug(legacyMatch[1]));
+  return emptyWorldCity();
 }
 
 export function findFirstCityByCountry(countryCode?: string | null): WorldCity {
@@ -101,7 +103,26 @@ export function cityFromStored(data: { country_code?: string | null; country_nam
 export function cityFromInput(countryCode: string, cityName: string): WorldCity {
   const exactCity = majorWorldCities.find((city) => city.country_code === countryCode && normalizeText(city.city_name) === normalizeText(cityName));
   if (exactCity) return exactCity;
+  const canonicalId = resolveCanonicalCityId({ cityName, countryCode });
+  if (canonicalId) {
+    const known = majorWorldCities.find((city) => city.city_id === canonicalId);
+    if (known) return known;
+  }
   return createWorldCity(countryCode, cityName);
+}
+
+/** Allinea city_id/nome al catalogo (es. reggio → Reggio Calabria IT-REG). */
+export function normalizeWorldCitySelection(city: WorldCity): WorldCity {
+  if (!city.city_name.trim()) return city;
+  const canonicalId = resolveCanonicalCityId({
+    cityName: city.city_name,
+    cityId: city.city_id,
+    countryCode: city.country_code,
+  });
+  if (!canonicalId) return city;
+  const known = majorWorldCities.find((item) => item.city_id === canonicalId);
+  if (known) return known;
+  return { ...city, city_id: canonicalId };
 }
 
 const CITY_NAME_ALIASES: Record<string, string> = {
@@ -117,8 +138,35 @@ const CITY_NAME_ALIASES: Record<string, string> = {
   catania: "IT-CTA",
   matera: "IT-MAT",
   sorrento: "IT-SOR",
+  positano: "IT-SOR",
+  amalfi: "IT-SOR",
   capri: "IT-CAP",
+  siena: "IT-SIE",
+  bari: "IT-BRI",
+  parma: "IT-PMF",
+  "cortina d'ampezzo": "IT-COR",
+  cortina: "IT-COR",
+  pisa: "IT-PSA",
+  padova: "IT-PAD",
+  padua: "IT-PAD",
+  lecce: "IT-LCC",
+  modena: "IT-MOD",
+  ravenna: "IT-RAV",
+  lucca: "IT-LUC",
+  ferrara: "IT-FER",
+  assisi: "IT-ASS",
+  olbia: "IT-OLB",
+  arzachena: "IT-OLB",
+  viareggio: "IT-VIA",
+  camaiore: "IT-VIA",
+  polignano: "IT-POL",
+  "polignano a mare": "IT-POL",
+  "san gimignano": "IT-SGI",
+  cefalu: "IT-CEF",
+  cefalù: "IT-CEF",
+  merano: "IT-MER",
   taormina: "IT-TAO",
+  reggio: "IT-REG",
   "reggio calabria": "IT-REG",
   "reggio di calabria": "IT-REG",
   genova: "IT-GOA", genoa: "IT-GOA",
@@ -126,16 +174,14 @@ const CITY_NAME_ALIASES: Record<string, string> = {
   bolzano: "IT-BZO",
   bergamo: "IT-BGY",
   perugia: "IT-PEG",
-  lecce: "IT-LCC",
   "cinque terre": "IT-CQT",
   "costiera amalfitana": "IT-SOR",
   "amalfi coast": "IT-SOR",
   "lago di como": "IT-CMO",
   "lake como": "IT-CMO",
   como: "IT-CMO",
-  alberobello: "IT-BRI",
+  alberobello: "IT-ABB",
   cagliari: "IT-CAG",
-  olbia: "IT-OLB",
   alghero: "IT-AHO",
   parigi: "FR-PAR", paris: "FR-PAR",
   londra: "GB-LON", london: "GB-LON",

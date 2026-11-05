@@ -1,9 +1,27 @@
+import { uiLocale } from "@/lib/i18n/ui-locale";
+import { getManualHighlightsForCity } from "@/data/cityHighlights";
+import { resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
 import type { Locale } from "@/lib/i18n/translations";
+import {
+  getHubCityContent,
+  getHubFaq,
+  getHubHomepageContent,
+} from "@/lib/seo/hub-locale-registry";
 
 export type FaqItem = { question: string; answer: string };
 export type HowItWorksStep = { title: string; description: string };
 
+function italianCityLandmarks(cityName: string) {
+  const cityId = resolveCanonicalCityId({ cityName, countryCode: "IT" });
+  if (!cityId?.startsWith("IT-")) return [];
+  return getManualHighlightsForCity({ cityName, cityId, countryCode: "IT" });
+}
+
 const PREMIUM_DESTINATION_INTROS: Record<string, { it: string; en: string }> = {
+  "reggio-calabria": {
+    it: "Reggio Calabria è una base per esplorare lo Stretto, il centro cittadino e la costa della Calabria meridionale. Su HotelsDrop puoi inviare una richiesta con date, budget e preferenze e ricevere proposte dirette dalle strutture della zona. È una soluzione pratica per weekend culturali, soggiorni di lavoro, viaggi in famiglia e richieste di gruppo.",
+    en: "Reggio Calabria is a base for exploring the Strait of Messina, the city centre and the southern Calabrian coast. On HotelsDrop you can send one request with dates, budget and preferences and receive direct proposals from local properties. It suits cultural weekends, business stays, family trips and group requests.",
+  },
   roma: {
     it: "Roma concentra hotel, B&B e guest house tra Centro Storico, Trastevere, Termini e EUR. Su HotelsDrop pubblichi una sola richiesta con date e budget: le strutture della Capitale rispondono con proposte dirette, senza commissioni per chi viaggia. Ideale per weekend culturali, eventi in sede e soggiorni lunghi con famiglia o gruppo.",
     en: "Rome offers hotels, B&Bs and guest houses across the historic centre, Trastevere, Termini and EUR. On HotelsDrop you publish one request with dates and budget, and local properties reply with direct offers — free for travellers. Perfect for cultural weekends, conference stays and longer family or group trips.",
@@ -198,7 +216,7 @@ export function getHomeHowItWorks(locale: Locale): HowItWorksStep[] {
   if (locale === "en") {
     return [
       {
-        title: "Drop your request",
+        title: "Create your request",
         description: "Pick a destination, dates, budget and preferences. One request reaches every matching hotel, B&B and apartment in the area.",
       },
       {
@@ -213,7 +231,7 @@ export function getHomeHowItWorks(locale: Locale): HowItWorksStep[] {
   }
   return [
     {
-      title: "Droppa la richiesta",
+      title: "Crea la tua richiesta",
       description: "Scegli destinazione, date, budget e preferenze. Una sola richiesta raggiunge tutti gli hotel e le strutture compatibili della zona.",
     },
     {
@@ -260,7 +278,7 @@ function getTravellerFaq(locale: Locale): FaqItem[] {
       {
         question: "How do I create a stay request?",
         answer:
-          "Click “Drop your request”, choose destination, check-in and check-out dates, budget, number of rooms and guests, then add any preferences (meal plan, area, special needs). One click sends the request to every compatible property in the selected area.",
+          "Click “Create your request”, choose destination, check-in and check-out dates, budget, number of rooms and guests, then add any preferences (meal plan, area, special needs). One click sends the request to every compatible property in the selected area.",
       },
       {
         question: "How long does it take to receive offers?",
@@ -313,7 +331,7 @@ function getTravellerFaq(locale: Locale): FaqItem[] {
     {
       question: "Come creo una richiesta di soggiorno?",
       answer:
-        "Clicca su “Droppa la tua richiesta”, scegli destinazione, date di check-in e check-out, budget, numero camere e ospiti, poi aggiungi eventuali preferenze (trattamento, zona, esigenze particolari). Un click e la richiesta parte verso tutte le strutture compatibili della zona.",
+        "Clicca su “Crea la tua richiesta”, scegli destinazione, date di check-in e check-out, budget, numero camere e ospiti, poi aggiungi eventuali preferenze (trattamento, zona, esigenze particolari). Un click e la richiesta parte verso tutte le strutture compatibili della zona.",
     },
     {
       question: "Quanto tempo ci vuole per ricevere le offerte?",
@@ -507,11 +525,15 @@ function getPropertyFaq(locale: Locale): FaqItem[] {
 }
 
 export function getHomeFaqSections(locale: Locale): FaqSectionGroup[] {
-  if (locale === "en") {
+  if (locale !== "it") {
+    const ui = uiLocale(locale);
     return [
-      { title: "For travellers", items: getTravellerFaq(locale) },
-      { title: "For groups and travel agencies", items: getAgencyGroupFaq(locale) },
-      { title: "For properties", items: getPropertyFaq(locale) },
+      { title: locale === "de" ? "Für Reisende" : "For travellers", items: getTravellerFaq(ui) },
+      {
+        title: locale === "de" ? "Für Gruppen und Reisebüros" : "For groups and travel agencies",
+        items: getAgencyGroupFaq(ui),
+      },
+      { title: locale === "de" ? "Für Unterkünfte" : "For properties", items: getPropertyFaq(ui) },
     ];
   }
   return [
@@ -523,11 +545,16 @@ export function getHomeFaqSections(locale: Locale): FaqSectionGroup[] {
 
 /** Flat list for JSON-LD FAQPage schema. */
 export function getHomeFaq(locale: Locale): FaqItem[] {
+  const hubFaq = (getHubHomepageContent(locale)?.faq ?? []).filter(
+    (item) => item.question && item.answer,
+  );
+  if (hubFaq.length) return hubFaq;
+
   return getHomeFaqSections(locale).flatMap((section) => section.items);
 }
 
 export function getDestinationHowItWorks(locale: Locale, cityName: string): string[] {
-  if (locale === "en") {
+  if (uiLocale(locale) === "en") {
     return [
       `Create a free request for ${cityName} with dates, budget and preferences.`,
       `Compare direct offers from properties in ${cityName}.`,
@@ -544,20 +571,136 @@ export function getDestinationHowItWorks(locale: Locale, cityName: string): stri
 export function getDestinationEditorial(
   slug: string,
   displayName: string,
-  structureCount: number,
   locale: Locale,
 ): string {
+  const hubEditorial = getHubCityContent(locale, slug)?.editorial;
+  if (hubEditorial) return hubEditorial;
+
+  const landmarks = italianCityLandmarks(displayName);
+  if (landmarks.length >= 2) {
+    const landmarkNames = landmarks.slice(0, 3).map((landmark) =>
+      uiLocale(locale) === "en" ? landmark.nameEn : landmark.nameIt,
+    );
+    const places = new Intl.ListFormat(uiLocale(locale), { style: "long", type: "conjunction" }).format(
+      landmarkNames,
+    );
+    if (uiLocale(locale) === "en") {
+      return `${displayName} is an Italian destination to explore through places such as ${places}. On HotelsDrop you can send one stay request with your dates, budget and preferences and receive direct proposals from local properties.`;
+    }
+    return `${displayName} è una destinazione italiana da esplorare attraverso luoghi come ${places}. Su HotelsDrop puoi inviare una richiesta di soggiorno con date, budget e preferenze e ricevere proposte dirette dalle strutture locali.`;
+  }
+
   const premium = PREMIUM_DESTINATION_INTROS[slug];
-  if (premium) return locale === "en" ? premium.en : premium.it;
+  if (premium) return uiLocale(locale) === "en" ? premium.en : premium.it;
 
   if (locale === "en") {
-    return `Browse ${structureCount} indexed properties in ${displayName}. Send one personalised request on HotelsDrop and receive direct proposals from local hosts without browsing multiple booking sites.`;
+    return `Browse places to stay in ${displayName}. Send one personalised request on HotelsDrop and receive direct proposals from local hosts without browsing multiple booking sites.`;
   }
-  return `Scopri ${structureCount} strutture indicizzate a ${displayName}. Invia una richiesta personalizzata su HotelsDrop e ricevi proposte dirette dalle strutture locali, senza cercare su decine di portali.`;
+  return `Scopri dove soggiornare a ${displayName}. Invia una richiesta personalizzata su HotelsDrop e ricevi proposte dirette dalle strutture locali, senza cercare su decine di portali.`;
 }
 
-export function getDestinationFaq(locale: Locale, cityName: string): FaqItem[] {
-  if (locale === "en") {
+export function getDestinationFaq(locale: Locale, cityName: string, slug?: string): FaqItem[] {
+  if (slug) {
+    const hubFaq = getHubFaq(locale, slug);
+    if (hubFaq.length) return hubFaq;
+  }
+
+  if (slug === "reggio-calabria") {
+    if (uiLocale(locale) === "en") {
+      return [
+        {
+          question: "Which area should I choose for a stay in Reggio Calabria?",
+          answer:
+            "Choose the centre or seafront for an urban stay near the promenade and the main places of interest. The station and port area can be practical for rail and ferry connections, while an outer area may suit travellers arriving by car.",
+        },
+        {
+          question: "What can I visit during a stay in Reggio Calabria?",
+          answer:
+            "The seafront, the Aragonese Castle and the National Archaeological Museum are among the city’s main reference points. The museum is in Piazza Giuseppe De Nava and is home to the Riace Bronzes.",
+        },
+        {
+          question: "Is Reggio Calabria useful for travelling across the Strait of Messina?",
+          answer:
+            "Yes. The city has rail and port connections, so it can be a practical base when your itinerary includes crossings towards Messina or travel in southern Calabria.",
+        },
+        {
+          question: "Can I send a request for a group stay in Reggio Calabria?",
+          answer:
+            "Yes. Include dates, room requirements, group size and any operational needs such as coach parking, accessibility or meal arrangements. Properties can reply with proposals based on the information provided.",
+        },
+      ];
+    }
+
+    return [
+      {
+        question: "Quale zona scegliere per dormire a Reggio Calabria?",
+        answer:
+          "Centro e lungomare sono adatti a chi vuole muoversi a piedi tra la passeggiata sul mare e i principali luoghi di interesse. Stazione e porto possono essere pratici per treni e collegamenti marittimi; una zona esterna può essere più comoda per chi arriva in auto.",
+      },
+      {
+        question: "Cosa vedere durante un soggiorno a Reggio Calabria?",
+        answer:
+          "Il lungomare, il Castello Aragonese e il Museo Archeologico Nazionale sono riferimenti importanti per una visita in città. Il museo si trova in Piazza Giuseppe De Nava e conserva i Bronzi di Riace.",
+      },
+      {
+        question: "Reggio Calabria è una buona base per attraversare lo Stretto di Messina?",
+        answer:
+          "Sì. La presenza di stazione e porto la rende una base pratica quando l’itinerario comprende spostamenti verso Messina o altre località della Calabria meridionale.",
+      },
+      {
+        question: "Posso inviare una richiesta per un gruppo a Reggio Calabria?",
+        answer:
+          "Sì. Inserisci date, camere necessarie, numero di partecipanti e necessità operative come accessibilità, parcheggio pullman o pasti. Le strutture possono rispondere in base alle informazioni ricevute.",
+      },
+    ];
+  }
+
+  const landmarks = italianCityLandmarks(cityName);
+  if (landmarks.length >= 2) {
+    const first = uiLocale(locale) === "en" ? landmarks[0]!.nameEn : landmarks[0]!.nameIt;
+    const second = uiLocale(locale) === "en" ? landmarks[1]!.nameEn : landmarks[1]!.nameIt;
+    if (uiLocale(locale) === "en") {
+      return [
+        {
+          question: `What can I visit during a stay in ${cityName}?`,
+          answer: `${first} and ${second} are among the local landmarks you can include in a city itinerary. Plan your accommodation area around the places and activities you want to prioritise.`,
+        },
+        {
+          question: `Which area should I choose for a stay in ${cityName}?`,
+          answer: `Choose your area according to your arrival plans, the places you want to visit and how you prefer to move around. Include these preferences in your stay request so properties can send relevant proposals.`,
+        },
+        {
+          question: `Can I request accommodation for a group in ${cityName}?`,
+          answer: `Yes. Include dates, group size, required rooms and operational needs such as accessibility, coach parking or meal arrangements. Properties can reply based on the information you provide.`,
+        },
+        {
+          question: `How do I receive direct offers in ${cityName}?`,
+          answer: `Send one free request with dates, budget and preferences. Compatible properties in the area can reply directly, allowing you to compare proposals before choosing.`,
+        },
+      ];
+    }
+
+    return [
+      {
+        question: `Cosa vedere durante un soggiorno a ${cityName}?`,
+        answer: `${first} e ${second} sono tra i luoghi che puoi includere in un itinerario in città. Scegli la zona del soggiorno in base alle visite e alle attività che vuoi privilegiare.`,
+      },
+      {
+        question: `Quale zona scegliere per dormire a ${cityName}?`,
+        answer: `Scegli la zona in base al programma di arrivo, ai luoghi che desideri visitare e al modo in cui preferisci spostarti. Indica queste preferenze nella richiesta per ricevere proposte più pertinenti.`,
+      },
+      {
+        question: `Posso richiedere un soggiorno per un gruppo a ${cityName}?`,
+        answer: `Sì. Inserisci date, numero di partecipanti, camere necessarie e necessità operative come accessibilità, parcheggio pullman o pasti. Le strutture possono rispondere in base alle informazioni ricevute.`,
+      },
+      {
+        question: `Come ricevo offerte dirette a ${cityName}?`,
+        answer: `Invia una richiesta gratuita con date, budget e preferenze. Le strutture compatibili della zona possono risponderti direttamente, così puoi confrontare le proposte prima di scegliere.`,
+      },
+    ];
+  }
+
+  if (uiLocale(locale) === "en") {
     return [
       {
         question: `How do I get hotel offers in ${cityName}?`,
@@ -682,17 +825,21 @@ export function getAboutAudienceBlocks(locale: Locale) {
 }
 
 export function getMarketingLabels(locale: Locale) {
-  if (locale === "en") {
+  if (locale !== "it") {
     return {
-      howItWorksTitle: "How HotelsDrop works",
-      howItWorksSubtitle: "Reverse booking in three steps",
-      faqTitle: "Frequently asked questions",
-      relatedDestinations: "Explore more destinations",
-      destinationHowItWorks: "How it works here",
-      otherHotels: "More properties in this area",
-      footerTagline: "Reverse booking: properties send you offers. Free for travellers.",
+      howItWorksTitle: locale === "de" ? "So funktioniert HotelsDrop" : "How HotelsDrop works",
+      howItWorksSubtitle:
+        locale === "de" ? "Reverse Booking in drei Schritten" : "Reverse booking in three steps",
+      faqTitle: locale === "de" ? "Häufig gestellte Fragen" : "Frequently asked questions",
+      relatedDestinations: locale === "de" ? "Weitere Reiseziele entdecken" : "Explore more destinations",
+      destinationHowItWorks: locale === "de" ? "So funktioniert es hier" : "How it works here",
+      otherHotels: locale === "de" ? "Weitere Unterkünfte in der Umgebung" : "More properties in this area",
+      footerTagline:
+        locale === "de"
+          ? "Reverse Booking: Unterkünfte senden Ihnen Angebote. Kostenlos für Reisende."
+          : "Reverse booking: properties send you offers. Free for travellers.",
       faqNav: "FAQ",
-      destinationsNav: "Destinations",
+      destinationsNav: locale === "de" ? "Reiseziele" : "Destinations",
     };
   }
   return {

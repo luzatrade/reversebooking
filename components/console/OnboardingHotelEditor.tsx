@@ -5,6 +5,11 @@ import { useRouter } from "next/navigation";
 import { ChangeEvent, useState } from "react";
 import { ImagePlus, X } from "lucide-react";
 import { DeleteButton } from "@/components/console/DeleteButton";
+import {
+  cityNamesMatch,
+  extractCityFromAddress,
+  extractCityFromCapAddress,
+} from "@/lib/geo/extractCityFromAddress";
 
 type OnboardingHotel = {
   id: string;
@@ -168,6 +173,11 @@ export function OnboardingHotelEditor({
     setError(null);
     setSuccess(null);
 
+    const addressCityHint =
+      extractCityFromCapAddress(form.indirizzo) ?? extractCityFromAddress(form.indirizzo);
+    const shouldSyncCity =
+      Boolean(addressCityHint) && !cityNamesMatch(form.city_name, addressCityHint);
+
     try {
       const res = await fetch("/api/admin/onboarding-hotel", {
         method: "POST",
@@ -176,7 +186,8 @@ export function OnboardingHotelEditor({
           id: hotel.id,
           nome: form.nome,
           indirizzo: form.indirizzo || null,
-          city_name: form.city_name,
+          city_name: shouldSyncCity ? undefined : form.city_name,
+          syncCityFromAddress: shouldSyncCity,
           description: form.description.trim() || null,
           description_en: form.description_en.trim() || null,
           email: form.email || null,
@@ -186,11 +197,21 @@ export function OnboardingHotelEditor({
           status: form.status,
         }),
       });
-      const data = (await res.json()) as { error?: string; ok?: boolean; warning?: string | null };
+      const data = (await res.json()) as {
+        error?: string;
+        ok?: boolean;
+        warning?: string | null;
+        cityAutoResolved?: string | null;
+      };
       if (!res.ok) throw new Error(data.error ?? "Salvataggio non riuscito");
+      if (data.cityAutoResolved) {
+        setForm((current) => ({ ...current, city_name: data.cityAutoResolved ?? current.city_name }));
+      }
       setSuccess(
         data.warning ??
-          "Modifiche salvate. Se hai cambiato il telefono, la struttura può riprovare la rivendica con verifica vocale.",
+          (data.cityAutoResolved
+            ? `Salvato. Città allineata all'indirizzo: ${data.cityAutoResolved}.`
+            : "Modifiche salvate. Se hai cambiato il telefono, la struttura può riprovare la rivendica con verifica vocale."),
       );
       router.refresh();
     } catch (err) {
@@ -199,6 +220,11 @@ export function OnboardingHotelEditor({
       setSaving(false);
     }
   }
+
+  const addressCityHint =
+    extractCityFromCapAddress(form.indirizzo) ?? extractCityFromAddress(form.indirizzo);
+  const cityAddressMismatch =
+    Boolean(addressCityHint) && !cityNamesMatch(form.city_name, addressCityHint);
 
   async function triggerVerifyCall() {
     if (!form.phone.trim()) {
@@ -355,6 +381,24 @@ export function OnboardingHotelEditor({
               Città
               <input value={form.city_name} onChange={(e) => setForm({ ...form, city_name: e.target.value })} required className={inputClass} />
             </label>
+            {cityAddressMismatch && addressCityHint ? (
+              <div className="md:col-span-2 rounded-xl border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-950">
+                <p>
+                  L&apos;indirizzo indica <strong>{addressCityHint}</strong>, ma la città catalogo è{" "}
+                  <strong>{form.city_name}</strong>.
+                </p>
+                <button
+                  type="button"
+                  onClick={() => setForm((current) => ({ ...current, city_name: addressCityHint }))}
+                  className="mt-2 font-semibold text-[#0f4c81] hover:underline"
+                >
+                  Usa città dall&apos;indirizzo ({addressCityHint})
+                </button>
+                <p className="mt-2 text-xs text-amber-900/80">
+                  Al salvataggio la città verrà allineata automaticamente se resta divergente.
+                </p>
+              </div>
+            ) : null}
             <label className="block text-sm font-medium">
               Stato catalogo
               <select value={form.status} onChange={(e) => setForm({ ...form, status: e.target.value })} className={inputClass}>

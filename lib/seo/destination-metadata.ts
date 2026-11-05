@@ -3,6 +3,14 @@ import { BRAND_NAME } from "@/lib/legal/company";
 import { localizedPath } from "@/lib/i18n/routing";
 import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
 import { canonicalUrl } from "@/lib/seo/canonical";
+import {
+  getHubCityContent,
+  getHubMetaDescription,
+  getHubTitle,
+  hubLocaleConfig,
+  usesEnglishHotelCatalog,
+} from "@/lib/seo/hub-locale-registry";
+import { getDestinationDisplayName } from "@/lib/seo/destination-display-name";
 import { getDestinationCityPhoto } from "@/lib/seo/destination-hero";
 import { isDestinationHubIndexable } from "@/lib/seo/destination-quality";
 import { trimSeoDescription } from "@/lib/seo/serp-copy";
@@ -10,41 +18,54 @@ import type { DestinationHub } from "@/lib/seo/destination-queries";
 import type { Locale } from "@/lib/i18n/translations";
 
 export function buildDestinationTitle(hub: DestinationHub, locale: Locale = "it"): string {
-  const city = hub.displayName.trim();
+  const city = getDestinationDisplayName(hub, locale).trim();
   const count = hub.structureCount;
 
-  if (locale === "en") {
-    return `Hotels in ${city}: ${count} properties — Get direct offers`;
+  const hubConfig = hubLocaleConfig(locale);
+  if (hubConfig) {
+    return getHubTitle(locale, hub.slug, city, count) ?? hubConfig.labels.hubTitleFallback(city, count);
   }
-  return `Hotel a ${city}: ${count} strutture — Richiedi offerte dirette`;
+
+  if (locale === "en") {
+    return `Hotels in ${city} — Get direct offers`;
+  }
+  return `Hotel a ${city} — Richiedi offerte dirette`;
 }
 
 export function buildDestinationDescription(hub: DestinationHub, locale: Locale) {
-  const city = hub.displayName;
+  const city = getDestinationDisplayName(hub, locale);
   const count = hub.structureCount;
+
+  const hubDescription = getHubMetaDescription(locale, hub.slug, city, count);
+  if (hubDescription) return trimSeoDescription(hubDescription);
 
   if (locale === "en") {
     return trimSeoDescription(
-      `Compare ${count} hotels and B&Bs in ${city}. Publish a free stay request on ${BRAND_NAME} and receive personalised direct offers from local properties. No booking commission for travellers.`,
+      `Find hotels and B&Bs in ${city}. Publish a free stay request on ${BRAND_NAME} and receive personalised direct offers from local properties. No booking commission for travellers.`,
     );
   }
   return trimSeoDescription(
-    `Confronta ${count} hotel e B&B a ${city}. Pubblica una richiesta di soggiorno gratuita su ${BRAND_NAME} e ricevi offerte personalizzate dalle strutture. Zero commissioni per chi viaggia.`,
+    `Trova hotel e B&B a ${city}. Pubblica una richiesta di soggiorno gratuita su ${BRAND_NAME} e ricevi offerte personalizzate dalle strutture. Zero commissioni per chi viaggia.`,
   );
 }
 
 export function buildDestinationIntro(hub: DestinationHub, locale: Locale) {
+  const hubIntro = getHubCityContent(locale, hub.slug)?.intro;
+  if (hubIntro) {
+    return hubIntro.replaceAll("{count}", String(hub.structureCount));
+  }
+
   if (hub.tier === "premium") {
     if (locale === "en") {
-      return `Explore ${hub.structureCount} lodgings in ${hub.displayName}. On ${BRAND_NAME} you can compare properties and request tailored offers without browsing dozens of booking sites.`;
+      return `Explore places to stay in ${hub.displayName}. On ${BRAND_NAME} you can compare properties and request tailored offers without browsing dozens of booking sites.`;
     }
-    return `Esplora ${hub.structureCount} strutture ricettive a ${hub.displayName}. Su ${BRAND_NAME} puoi confrontare hotel, B&B e appartamenti e inviare una richiesta personalizzata per ricevere offerte dirette.`;
+    return `Esplora le strutture ricettive a ${hub.displayName}. Su ${BRAND_NAME} puoi confrontare hotel, B&B e appartamenti e inviare una richiesta personalizzata per ricevere offerte dirette.`;
   }
 
   if (locale === "en") {
-    return `Find ${hub.structureCount} properties in ${hub.displayName} and request a personalized offer on ${BRAND_NAME}.`;
+    return `Find places to stay in ${hub.displayName} and request a personalized offer on ${BRAND_NAME}.`;
   }
-  return `Trova ${hub.structureCount} strutture a ${hub.displayName} e richiedi un'offerta personalizzata su ${BRAND_NAME}.`;
+  return `Trova una struttura a ${hub.displayName} e richiedi un'offerta personalizzata su ${BRAND_NAME}.`;
 }
 
 function absoluteTitle(title: string): string {
@@ -53,7 +74,12 @@ function absoluteTitle(title: string): string {
 
 export function buildDestinationMetadata(hub: DestinationHub, locale: Locale, page = 1): Metadata {
   const baseTitle = buildDestinationTitle(hub, locale);
-  const paginatedSuffix = locale === "en" ? ` · page ${page}` : ` · pag. ${page}`;
+  const hubLabels = hubLocaleConfig(locale)?.labels;
+  const paginatedSuffix = hubLabels
+    ? hubLabels.paginationSuffix(page)
+    : locale === "en"
+      ? ` · page ${page}`
+      : ` · pag. ${page}`;
   const title = page > 1 ? `${baseTitle}${paginatedSuffix}` : baseTitle;
   const description = buildDestinationDescription(hub, locale);
   const absolute = absoluteTitle(title);
@@ -89,7 +115,8 @@ export function buildDestinationJsonLd(
   locale: Locale = "it",
 ) {
   const heroUrl = getDestinationCityPhoto(hub);
-  const hotelPath = (slug: string) => localizedPath(locale, `/hotel/${slug}`);
+  const hotelPath = (slug: string) =>
+    localizedPath(usesEnglishHotelCatalog(locale) ? "en" : locale, `/hotel/${slug}`);
 
   return {
     "@context": "https://schema.org",

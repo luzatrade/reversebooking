@@ -1,0 +1,430 @@
+{
+  "_comment": "30 hub v1 — slug condivisi IT/EN/DE. Compila displayNameDe (e altre lingue) in translations.",
+  "exportedAt": "2026-08-18T06:01:53.159Z",
+  "version": "1.0.0",
+  "cities": [
+    {
+      "slug": "roma",
+      "cityId": "IT-ROM",
+      "displayNameIt": "Roma",
+      "displayNameEn": "Rome",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/roma",
+        "en": "/en/destinations/roma",
+        "de": "/de/reiseziele/roma"
+      }
+    },
+    {
+      "slug": "milano",
+      "cityId": "IT-MIL",
+      "displayNameIt": "Milano",
+      "displayNameEn": "Milan",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/milano",
+        "en": "/en/destinations/milano",
+        "de": "/de/reiseziele/milano"
+      }
+    },
+    {
+      "slug": "napoli",
+      "cityId": "IT-NAP",
+      "displayNameIt": "Napoli",
+      "displayNameEn": "Naples",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/napoli",
+        "en": "/en/destinations/napoli",
+        "de": "/de/reiseziele/napoli"
+      }
+    },
+    {
+      "slug": "firenze",
+      "cityId": "IT-FLR",
+      "displayNameIt": "Firenze",
+      "displayNameEn": "Florence",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/firenze",
+        "en": "/en/destinations/firenze",
+        "de": "/de/reiseziele/firenze"
+      }
+    },
+    {
+      "slug": "venezia",
+      "cityId": "IT-VCE",
+      "displayNameIt": "Venezia",
+      "displayNameEn": "Venice",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/venezia",
+        "en": "/en/destinations/venezia",
+        "de": "/de/reiseziele/venezia"
+      }
+    },
+    {
+      "slug": "torino",
+      "cityId": "IT-TRN",
+      "displayNameIt": "Torino",
+      "displayNameEn": "Turin",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/torino",
+        "en": "/en/destinations/torino",
+        "de": "/de/reiseziele/torino"
+      }
+    },
+    {
+      "slug": "bologna",
+      "cityId": "IT-BLQ",
+      "displayNameIt": "Bologna",
+      "displayNameEn": "Bologna",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/bologna",
+        "en": "/en/destinations/bologna",
+        "de": "/de/reiseziele/bologna"
+      }
+    },
+    {
+      "slug": "palermo",
+      "cityId": "IT-PMO",
+      "displayNameIt": "Palermo",
+      "displayNameEn": "Palermo",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/palermo",
+        "en": "/en/destinations/palermo",
+        "de": "/de/reiseziele/palermo"
+      }
+    },
+    {
+      "slug": "genova",
+      "cityId": "IT-GOA",
+      "displayNameIt": "Genova",
+      "displayNameEn": "Genoa",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/genova",
+        "en": "/en/destinations/genova",
+        "de": "/de/reiseziele/genova"
+      }
+    },
+    {
+      "slug": "bari",
+      "cityId": "IT-BRI",
+      "displayNameIt": "Bari",
+      "displayNameEn": "Bari",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/bari",
+        "en": "/en/destinations/bari",
+        "de": "/de/reiseziele/bari"
+      }
+    },
+    {
+      "slug": "catania",
+      "cityId": "IT-CTA",
+      "displayNameIt": "Catania",
+      "displayNameEn": "Catania",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/catania",
+        "en": "/en/destinations/catania",
+        "de": "/de/reiseziele/catania"
+      }
+    },
+    {
+      "slug": "verona",
+      "cityId": "IT-VRN",
+      "displayNameIt": "Verona",
+      "displayNameEn": "Verona",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/verona",
+        "en": "/en/destinations/verona",
+        "de": "/de/reiseziele/verona"
+      }
+    },
+    {
+      "slug": "padova",
+      "cityId": "IT-PAD",
+      "displayNameIt": "Padova",
+      "displayNameEn": "Padua",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/padova",
+        "en": "/en/destinations/padova",
+        "de": "/de/reiseziele/padova"
+      }
+    },
+    {
+      "slug": "brescia",
+      "cityId": "IT-BSC",
+      "displayNameIt": "Brescia",
+      "displayNameEn": "Brescia",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/brescia",
+        "en": "/en/destinations/brescia",
+        "de": "/de/reiseziele/brescia"
+      }
+    },
+    {
+      "slug": "parma",
+      "cityId": "IT-PMF",
+      "displayNameIt": "Parma",
+      "displayNameEn": "Parma",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/parma",
+        "en": "/en/destinations/parma",
+        "de": "/de/reiseziele/parma"
+      }
+    },
+    {
+      "slug": "modena",
+      "cityId": "IT-MOD",
+      "displayNameIt": "Modena",
+      "displayNameEn": "Modena",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/modena",
+        "en": "/en/destinations/modena",
+        "de": "/de/reiseziele/modena"
+      }
+    },
+    {
+      "slug": "reggio-calabria",
+      "cityId": "IT-REG",
+      "displayNameIt": "Reggio Calabria",
+      "displayNameEn": "Reggio Calabria",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/reggio-calabria",
+        "en": "/en/destinations/reggio-calabria",
+        "de": "/de/reiseziele/reggio-calabria"
+      }
+    },
+    {
+      "slug": "messina",
+      "cityId": null,
+      "displayNameIt": "Messina",
+      "displayNameEn": "Messina",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "note": "cityId da DB al runtime se assente in world-cities",
+      "urls": {
+        "it": "/it/destinazioni/messina",
+        "en": "/en/destinations/messina",
+        "de": "/de/reiseziele/messina"
+      }
+    },
+    {
+      "slug": "catanzaro",
+      "cityId": null,
+      "displayNameIt": "Catanzaro",
+      "displayNameEn": "Catanzaro",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "note": "cityId da DB al runtime se assente in world-cities",
+      "urls": {
+        "it": "/it/destinazioni/catanzaro",
+        "en": "/en/destinations/catanzaro",
+        "de": "/de/reiseziele/catanzaro"
+      }
+    },
+    {
+      "slug": "lecce",
+      "cityId": "IT-LCC",
+      "displayNameIt": "Lecce",
+      "displayNameEn": "Lecce",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/lecce",
+        "en": "/en/destinations/lecce",
+        "de": "/de/reiseziele/lecce"
+      }
+    },
+    {
+      "slug": "salerno",
+      "cityId": "IT-SAL",
+      "displayNameIt": "Salerno",
+      "displayNameEn": "Salerno",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/salerno",
+        "en": "/en/destinations/salerno",
+        "de": "/de/reiseziele/salerno"
+      }
+    },
+    {
+      "slug": "sorrento",
+      "cityId": "IT-SOR",
+      "displayNameIt": "Sorrento",
+      "displayNameEn": "Sorrento",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "note": "Hub Costiera Amalfitana (alias amalfi, costiera amalfitana)",
+      "urls": {
+        "it": "/it/destinazioni/sorrento",
+        "en": "/en/destinations/sorrento",
+        "de": "/de/reiseziele/sorrento"
+      }
+    },
+    {
+      "slug": "pisa",
+      "cityId": "IT-PSA",
+      "displayNameIt": "Pisa",
+      "displayNameEn": "Pisa",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/pisa",
+        "en": "/en/destinations/pisa",
+        "de": "/de/reiseziele/pisa"
+      }
+    },
+    {
+      "slug": "siena",
+      "cityId": "IT-SIE",
+      "displayNameIt": "Siena",
+      "displayNameEn": "Siena",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/siena",
+        "en": "/en/destinations/siena",
+        "de": "/de/reiseziele/siena"
+      }
+    },
+    {
+      "slug": "perugia",
+      "cityId": "IT-PEG",
+      "displayNameIt": "Perugia",
+      "displayNameEn": "Perugia",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/perugia",
+        "en": "/en/destinations/perugia",
+        "de": "/de/reiseziele/perugia"
+      }
+    },
+    {
+      "slug": "rimini",
+      "cityId": "IT-RMI",
+      "displayNameIt": "Rimini",
+      "displayNameEn": "Rimini",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/rimini",
+        "en": "/en/destinations/rimini",
+        "de": "/de/reiseziele/rimini"
+      }
+    },
+    {
+      "slug": "trieste",
+      "cityId": "IT-TRS",
+      "displayNameIt": "Trieste",
+      "displayNameEn": "Trieste",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/trieste",
+        "en": "/en/destinations/trieste",
+        "de": "/de/reiseziele/trieste"
+      }
+    },
+    {
+      "slug": "bolzano",
+      "cityId": "IT-BZO",
+      "displayNameIt": "Bolzano",
+      "displayNameEn": "Bolzano",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/bolzano",
+        "en": "/en/destinations/bolzano",
+        "de": "/de/reiseziele/bolzano"
+      }
+    },
+    {
+      "slug": "cagliari",
+      "cityId": "IT-CAG",
+      "displayNameIt": "Cagliari",
+      "displayNameEn": "Cagliari",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/cagliari",
+        "en": "/en/destinations/cagliari",
+        "de": "/de/reiseziele/cagliari"
+      }
+    },
+    {
+      "slug": "taormina",
+      "cityId": "IT-TAO",
+      "displayNameIt": "Taormina",
+      "displayNameEn": "Taormina",
+      "displayNameDe": "",
+      "displayNameFr": "",
+      "displayNameEs": "",
+      "urls": {
+        "it": "/it/destinazioni/taormina",
+        "en": "/en/destinations/taormina",
+        "de": "/de/reiseziele/taormina"
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "_comment": "Pattern meta hub — {city}, {count}, {brand}. Usa displayName nella lingua target.",
+  "exportedAt": "2026-08-18T06:01:53.160Z",
+  "placeholders": [
+    "{city}",
+    "{count}",
+    "{brand}"
+  ],
+  "hubTitle": {
+    "patternIt": "Hotel a {city}: {count} strutture — Richiedi offerte dirette",
+    "patternEn": "Hotels in {city}: {count} properties — Get direct offers",
+    "translations": {
+      "de": "",
+      "fr": "",
+      "es": "",
+      "nl": "",
+      "pl": ""
+    }
+  },
+  "hubMetaDescription": {
+    "patternIt": "Confronta {count} hotel e B&B a {city}. Pubblica una richiesta gratuita su {brand} e ricevi offerte personalizzate. Zero commissioni per chi viaggia.",
+    "patternEn": "Compare {count} hotels and B&Bs in {city}. Publish a free stay request on {brand} and receive direct offers. No booking commission for travellers.",
+    "translations": {
+      "de": "",
+      "fr": "",
+      "es": "",
+      "nl": "",
+      "pl": ""
+    }
+  },
+  "hubIntroStandard": {
+    "patternIt": "Trova {count} strutture a {city} e richiedi un'offerta personalizzata su {brand}.",
+    "patternEn": "Find {count} properties in {city} and request a personalized offer on {brand}.",
+    "translations": {
+      "de": "",
+      "fr": "",
+      "es": "",
+      "nl": "",
+      "pl": ""
+    }
+  },
+  "hubIntroPremium": {
+    "patternIt": "Esplora {count} strutture ricettive a {city}. Su {brand} puoi confrontare hotel, B&B e appartamenti e inviare una richiesta personalizzata per ricevere offerte dirette.",
+    "patternEn": "Explore {count} lodgings in {city}. On {brand} you can compare properties and request tailored offers without browsing dozens of booking sites.",
+    "translations": {
+      "de": "",
+      "fr": "",
+      "es": "",
+      "nl": "",
+      "pl": ""
+    }
+  }
+}

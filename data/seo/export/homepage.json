@@ -1,0 +1,86 @@
+{
+  "_comment": "Homepage SEO — compila le chiavi de, fr, es… sotto translations.",
+  "exportedAt": "2026-08-18T06:01:53.160Z",
+  "limits": {
+    "titleMax": 60,
+    "metaDescriptionMax": 155
+  },
+  "source": {
+    "titleIt": "HotelsDrop — Reverse Booking e Reversebooking Hotel senza Commissioni",
+    "titleEn": "HotelsDrop — Reverse Booking & Reversebooking, No Commission",
+    "descriptionIt": "Reverse booking hotel: pubblichi una richiesta di soggiorno e le strutture ti fanno offerte dirette. Gratis per viaggiatori, agenzie e gruppi. Abbonamento per le strutture.",
+    "descriptionEn": "Hotel reverse booking: publish one stay request and properties send direct offers. Free for travellers, groups and agencies. Subscription for properties."
+  },
+  "translations": {
+    "title": {
+      "de": "",
+      "fr": "",
+      "es": "",
+      "nl": "",
+      "pl": ""
+    },
+    "metaDescription": {
+      "de": "",
+      "fr": "",
+      "es": "",
+      "nl": "",
+      "pl": ""
+    },
+    "heroHeadline": {
+      "de": "",
+      "fr": "",
+      "es": "",
+      "nl": "",
+      "pl": ""
+    },
+    "heroSubheadline": {
+      "de": "",
+      "fr": "",
+      "es": "",
+      "nl": "",
+      "pl": ""
+    }
+  },
+  "faq": [
+    {
+      "question": {
+        "sourceIt": "Cos'è il reverse booking?",
+        "sourceEn": "What is reverse booking?",
+        "de": "",
+        "fr": "",
+        "es": "",
+        "nl": "",
+        "pl": ""
+      },
+      "answer": {
+        "sourceIt": "Pubblichi una richiesta con date e budget; le strutture rispondono con offerte dirette.",
+        "sourceEn": "You publish a request with dates and budget; properties reply with direct offers.",
+        "de": "",
+        "fr": "",
+        "es": "",
+        "nl": "",
+        "pl": ""
+      }
+    },
+    {
+      "question": {
+        "sourceIt": "HotelsDrop è gratis per chi viaggia?",
+        "sourceEn": "Is HotelsDrop free for travellers?",
+        "de": "",
+        "fr": "",
+        "es": "",
+        "nl": "",
+        "pl": ""
+      },
+      "answer": {
+        "sourceIt": "Sì. Pubblicare richieste e confrontare offerte non ha commissioni per i viaggiatori.",
+        "sourceEn": "Yes. Publishing requests and comparing offers is free for travellers.",
+        "de": "",
+        "fr": "",
+        "es": "",
+        "nl": "",
+        "pl": ""
+      }
+    }
+  ]
+}

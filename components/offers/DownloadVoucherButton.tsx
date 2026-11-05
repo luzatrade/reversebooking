@@ -3,27 +3,44 @@
 import { useState } from "react";
 import { Download, Loader2 } from "lucide-react";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
-import type { AcceptedBookingSummaryData } from "@/components/offers/AcceptedBookingSummary";
 
-export function DownloadVoucherButton({ data }: { data: AcceptedBookingSummaryData }) {
+type ReverseBookingProps = {
+  kind?: "offer";
+  offerId: string;
+  requestCode: string;
+};
+
+type CatalogProps = {
+  kind: "catalog";
+  catalogOfferId: string;
+  requestCode: string;
+};
+
+export function DownloadVoucherButton(props: ReverseBookingProps | CatalogProps) {
   const { locale } = useLanguage();
   const [busy, setBusy] = useState(false);
 
   const label = locale === "en" ? "Download PDF" : "Scarica PDF";
+  const { requestCode } = props;
 
   async function handleDownload() {
     if (busy) return;
     setBusy(true);
     try {
+      const payload =
+        props.kind === "catalog"
+          ? { catalogOfferId: props.catalogOfferId, locale }
+          : { offerId: props.offerId, locale };
+
       const res = await fetch("/api/booking-voucher/pdf", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ data, locale }),
+        body: JSON.stringify(payload),
       });
 
       if (!res.ok) {
-        const payload = (await res.json().catch(() => null)) as { error?: string } | null;
-        throw new Error(payload?.error ?? "Impossibile generare il PDF");
+        const body = (await res.json().catch(() => null)) as { error?: string } | null;
+        throw new Error(body?.error ?? "Impossibile generare il PDF");
       }
 
       const blob = await res.blob();
@@ -34,7 +51,7 @@ export function DownloadVoucherButton({ data }: { data: AcceptedBookingSummaryDa
       const url = URL.createObjectURL(blob);
       const anchor = document.createElement("a");
       anchor.href = url;
-      anchor.download = `${locale === "en" ? "Booking-summary" : "Riepilogo-prenotazione"}-${data.requestCode}.pdf`;
+      anchor.download = `${locale === "en" ? "Booking-summary" : "Riepilogo-prenotazione"}-${requestCode}.pdf`;
       document.body.appendChild(anchor);
       anchor.click();
       document.body.removeChild(anchor);

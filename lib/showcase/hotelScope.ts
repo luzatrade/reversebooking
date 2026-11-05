@@ -1,10 +1,13 @@
 import { createServiceRoleClient } from "@/lib/supabase/admin";
+import { normalizeHotelServices, type HotelServiceKey } from "@/lib/constants/hotel-services";
+import { hotelMatchesTravelRequest } from "@/lib/matching/request-hotel-services";
 
 export type HotelShowcaseScope = {
   cityId: string;
   countryCode: string | null;
   cityName: string;
   structureType: string;
+  services: Record<HotelServiceKey, boolean>;
 };
 
 const CITY_NAME_ALIASES: Record<string, string[]> = {
@@ -44,7 +47,7 @@ export async function resolveHotelShowcaseScope(userId: string): Promise<HotelSh
 
   const { data: hotel, error } = await admin
     .from("hotel_accounts")
-    .select("city_id, country_code, city_name, structure_type")
+    .select("city_id, country_code, city_name, structure_type, services")
     .eq("user_id", userId)
     .maybeSingle();
 
@@ -55,6 +58,7 @@ export async function resolveHotelShowcaseScope(userId: string): Promise<HotelSh
     countryCode: hotel.country_code?.trim().toUpperCase() ?? null,
     cityName: hotel.city_name?.trim() ?? "",
     structureType: hotel.structure_type ?? "hotel",
+    services: normalizeHotelServices(hotel.services as Record<string, boolean> | null),
   };
 }
 
@@ -64,6 +68,7 @@ export function requestMatchesHotelScope(
     country_code?: string | null;
     city_name?: string | null;
     preferred_structure_type?: string | null;
+    preference_filters?: Record<string, boolean> | null;
   },
   scope: HotelShowcaseScope,
 ) {
@@ -76,8 +81,8 @@ export function requestMatchesHotelScope(
 
   if (!cityOk) return false;
 
-  const preferred = request.preferred_structure_type ?? "all";
-  if (preferred !== "all" && preferred !== scope.structureType) return false;
-
-  return true;
+  return hotelMatchesTravelRequest(
+    { services: scope.services, structure_type: scope.structureType },
+    request,
+  );
 }

@@ -1,4 +1,4 @@
-import { localizedPath } from "@/lib/i18n/routing";
+import { hubSeoLocalizedPaths, localizedPath } from "@/lib/i18n/routing";
 import { publicSiteOrigin } from "@/lib/seo/site-url";
 import { listDestinationHubSlugs } from "@/lib/seo/destination-queries";
 import { listIndexableStructureSlugs } from "@/lib/seo/structure-queries";
@@ -9,7 +9,7 @@ import {
 } from "@/lib/seo/sitemap-lastmod";
 import type { Locale } from "@/lib/i18n/translations";
 
-export const SITEMAP_REVALIDATE_SECONDS = 86400;
+export const SITEMAP_REVALIDATE_SECONDS = 3600;
 export const STRUCTURES_PER_SITEMAP = 5000;
 
 const staticInternalPaths = [
@@ -70,32 +70,39 @@ function localePaths(internalPath: string): string[] {
   return (["it", "en"] as Locale[]).map((locale) => localizedPath(locale, internalPath));
 }
 
+function optionalHubSeoSitemapPaths(internalPath: string): string[] {
+  return hubSeoLocalizedPaths(internalPath);
+}
+
 export async function buildSitemapEntries(id: number): Promise<SitemapEntry[]> {
   const base = sitemapBaseUrl();
   const fallback = new Date();
 
   if (id === 0) {
-    return staticInternalPaths.flatMap((path) =>
-      localePaths(path).map((locPath) => ({
+    return staticInternalPaths.flatMap((path) => {
+      const locPaths = [...localePaths(path), ...optionalHubSeoSitemapPaths(path)];
+      return locPaths.map((locPath) => ({
         loc: `${base}${locPath}`,
         lastModified: staticPageLastmod(path),
         changeFrequency: path === "/" ? ("weekly" as const) : ("monthly" as const),
         priority: path === "/" ? 1 : path === "/destinazioni" || path === "/guide" ? 0.9 : 0.7,
-      })),
-    );
+      }));
+    });
   }
 
   if (id === 1) {
     const destinationSlugs = await listDestinationHubSlugs();
     const lastmods = await fetchDestinationSlugLastmods();
-    return destinationSlugs.flatMap((slug) =>
-      localePaths(`/destinazioni/${slug}`).map((locPath) => ({
+    return destinationSlugs.flatMap((slug) => {
+      const internalPath = `/destinazioni/${slug}`;
+      const locPaths = [...localePaths(internalPath), ...optionalHubSeoSitemapPaths(internalPath)];
+      return locPaths.map((locPath) => ({
         loc: `${base}${locPath}`,
         lastModified: lastmods.get(slug) ?? fallback,
         changeFrequency: "weekly" as const,
         priority: 0.85,
-      })),
-    );
+      }));
+    });
   }
 
   if (id === 2) {

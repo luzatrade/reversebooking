@@ -18,7 +18,7 @@ type BuildHomeJsonLdParams = {
 };
 
 function nestedHotelItem(hotel: ShowcaseHomeHotel, locale: Locale, position: number) {
-  if (!hotel.slug) return null;
+  if (!hotel.slug || !hotel.seoIndexable) return null;
 
   const item: Record<string, unknown> = {
     "@type": "Hotel",

@@ -30,6 +30,7 @@ import { appendFileSync, mkdirSync } from "fs";
 import dotenv from "dotenv";
 import sharp from "sharp";
 import { fetchEmailFromWebsite } from "./lib/onboarding-email.mjs";
+import { resolveOnboardingCityName } from "./lib/extract-city-from-address.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: resolve(__dirname, "../.env.local"), override: true });
@@ -513,12 +514,19 @@ async function resolvePlaceEmail(place, existingEmail) {
 }
 
 async function upsertHotel(comune, place, mainPhotoUrl, email) {
+  const formattedAddress = place.formattedAddress ?? null;
+  const resolvedCity = resolveOnboardingCityName({
+    harvestCity: comune.nome,
+    address: formattedAddress,
+    structureName: place.displayName?.text ?? "",
+  });
+
   const row = {
     place_id: place.id,
     nome: place.displayName?.text ?? "Struttura",
-    indirizzo: place.formattedAddress ?? null,
-    city_name: comune.nome,
-    city_istat: comune.codice_istat,
+    indirizzo: formattedAddress,
+    city_name: resolvedCity,
+    city_istat: resolvedCity === comune.nome ? comune.codice_istat : null,
     lat: place.location?.latitude ?? null,
     lng: place.location?.longitude ?? null,
     google_maps_url: place.googleMapsUri ?? null,
@@ -528,6 +536,15 @@ async function upsertHotel(comune, place, mainPhotoUrl, email) {
     main_photo_url: mainPhotoUrl,
     status: "unclaimed",
   };
+
+  if (resolvedCity !== comune.nome) {
+    const { data: comuneRow } = await sb
+      .from("comuni_italiani")
+      .select("codice_istat")
+      .ilike("nome", resolvedCity)
+      .maybeSingle();
+    if (comuneRow?.codice_istat) row.city_istat = comuneRow.codice_istat;
+  }
 
   const { error } = await sb.from("onboarding_hotels").upsert(row, { onConflict: "place_id" });
   if (error) throw error;

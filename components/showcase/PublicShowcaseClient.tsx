@@ -25,17 +25,21 @@ import { topbarAuthLinkClass, topbarAuthPrimaryClass } from "@/components/naviga
 import { formatAdvertiserPublicName, oneAdvertiserProfile } from "@/lib/advertiser/publicName";
 import { formatMessage } from "@/lib/i18n/format";
 import { destinationPublicPath, localizedPath } from "@/lib/i18n/routing";
+import { POPULAR_DESTINATION_CITIES } from "@/lib/seo/popular-destinations";
+import { defaultDestinationCities } from "@/data/defaultDestinationCities";
 import { getStructureTypeLabels } from "@/lib/i18n/labels";
 import { createBrowserSupabaseClient } from "@/lib/supabase/client";
 import type { CatalogStructureHit } from "@/lib/catalog/searchStructures";
-import { createWorldCity, findCityById, cityFromInput, resolveCanonicalCityId } from "@/lib/constants/world-city-helpers";
+import { createWorldCity, findCityById, cityFromInput, resolveCanonicalCityId, normalizeWorldCitySelection } from "@/lib/constants/world-city-helpers";
 import { cn } from "@/lib/utils";
 import { majorWorldCities, type WorldCity } from "@/lib/constants/world-cities";
 import { mealPlanLabels, type MealPlan, type StructureType, type UserRole } from "@/types/app";
 import type { CatalogOfferListItem } from "@/types/catalog-offers";
 import type { ShowcaseHomeInitialData, ShowcaseHomeHotel } from "@/lib/showcase/homeData";
 import { structureProfileHref } from "@/lib/showcase/structureExploreLinks";
-import { resolveDestinationHubSlug } from "@/lib/seo/city-canonical";
+import { buildDestinationSlug } from "@/lib/seo/city-canonical";
+import { mergeHubHomepageTranslations } from "@/lib/seo/hub-homepage-ui";
+import { getStructureCardSecondaryLine } from "@/lib/seo/structure-card-hint";
 
 function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date()) {
   const until = new Date(acceptedAtIso).getTime() + 24 * 60 * 60 * 1000;
@@ -45,7 +49,7 @@ function isShowcaseVisibleAfterAcceptance(acceptedAtIso: string, now = new Date(
 type PreferenceFilters = { connecting_rooms?: boolean; disabled_access?: boolean; pool?: boolean; spa?: boolean; bathtub?: boolean; garage?: boolean; beach?: boolean; pets_allowed?: boolean };
 type AdvertiserPublic = { first_name: string | null; last_name: string | null; advertiser_type?: string | null };
 type TravelRequest = { id: string; country_code: string | null; city_name: string; city_id: string | null; preferred_area: string; check_in: string; check_out: string; guests_count: number; rooms_count: number; budget: number; meal_plan: MealPlan; preference_filters: PreferenceFilters | null; notes: string | null; expires_at: string; created_at: string; status: string; advertiser_profiles?: AdvertiserPublic | AdvertiserPublic[] | null };
-type HotelAccount = { id: string; slug?: string | null; property_name: string; structure_type: StructureType; provider_kind: "structure" | "agency"; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; description_en: string | null; public_email: string | null; public_phone: string | null; website: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null; latitude?: number | null; longitude?: number | null; isOnboarding?: boolean; google_maps_url?: string | null };
+type HotelAccount = { id: string; slug?: string | null; seoIndexable?: boolean; property_name: string; structure_type: StructureType; provider_kind: "structure" | "agency"; country_code: string | null; city_name: string; city_id: string | null; specific_area: string | null; description: string | null; description_en: string | null; public_email: string | null; public_phone: string | null; website: string | null; main_photo_url: string | null; points_of_interest: string[] | null; services: Record<string, boolean> | null; latitude?: number | null; longitude?: number | null; isOnboarding?: boolean; google_maps_url?: string | null };
 type Offer = { id: string; travel_request_id: string };
 type Viewer = {
   userId: string | null;
@@ -65,7 +69,7 @@ const ctaRequest = "inline-flex items-center justify-center gap-1.5 rounded-full
 
 /** Vetrina homepage: elenco agenzie per città (riattivare in un secondo momento). */
 const SHOW_HOME_AGENCY_DIRECTORY = false;
-const SHOWCASE_REQUESTS_POOL = 250;
+const SHOWCASE_REQUESTS_POOL = 1000;
 
 function shuffleItems<T>(items: T[]): T[] {
   const copy = [...items];
@@ -98,7 +102,8 @@ function catalogHitToHotelAccount(structure: CatalogStructureHit): HotelAccount 
     resolveCanonicalCityId({ cityName: structure.cityName, countryCode: structure.countryCode });
   return {
     id: structure.id,
-    slug: null,
+    slug: structure.slug,
+    seoIndexable: structure.seoIndexable,
     property_name: structure.name,
     structure_type: "hotel",
     provider_kind: "structure",
@@ -183,6 +188,7 @@ function mapInitialHotel(row: ShowcaseHomeHotel): HotelAccount {
   return {
     id: row.id,
     slug: row.slug,
+    seoIndexable: row.seoIndexable,
     property_name: row.property_name,
     structure_type: row.structure_type as StructureType,
     provider_kind: row.provider_kind,
@@ -211,7 +217,8 @@ type PublicShowcaseClientProps = {
 };
 
 export function PublicShowcaseClient({ initialData = null, heroHeadings }: PublicShowcaseClientProps) {
-  const { locale, t } = useLanguage();
+  const { locale, t: baseT } = useLanguage();
+  const t = useMemo(() => mergeHubHomepageTranslations(baseT, locale), [baseT, locale]);
   const structureTypeLabels = getStructureTypeLabels(locale);
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -248,17 +255,52 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
   const hasSelectedCity = Boolean(selectedCity.city_name.trim());
   const createRequestBase = hasSelectedCity ? `/inserzionista/crea-annuncio?city_id=${encodeURIComponent(selectedCity.city_id)}&city=${encodeURIComponent(selectedCity.city_name)}` : "/inserzionista/crea-annuncio";
   const createRequestHref = createRequestBase;
+  const selectedCityLabel = (() => {
+    const popular = POPULAR_DESTINATION_CITIES.find((city) => city.cityId === selectedCity.city_id);
+    if (popular) return locale === "en" ? popular.displayNameEn : popular.displayName;
+    const editorial = defaultDestinationCities.find((city) => city.cityId === selectedCity.city_id);
+    if (editorial) return locale === "en" ? editorial.cityNameEn : editorial.cityNameIt;
+    return selectedCity.city_name;
+  })();
+  const cityDestinationHref = hasSelectedCity
+    ? destinationPublicPath(
+        buildDestinationSlug(normalizeWorldCitySelection(selectedCity).city_name || selectedCity.city_name),
+        locale,
+      )
+    : localizedPath(locale, "/destinazioni");
 
   function handleCityChange(city: WorldCity) {
+    const cityName = city.city_name.trim();
+    if (cityName) {
+      const isKnownCity =
+        majorWorldCities.some(
+          (known) =>
+            known.country_code === city.country_code &&
+            known.city_name.toLowerCase() === cityName.toLowerCase(),
+        ) ||
+        Boolean(
+          resolveCanonicalCityId({
+            cityName,
+            countryCode: city.country_code,
+            cityId: city.city_id,
+          }),
+        );
+      const looksLikeStructureName = /\b(hotel|bb|b&b|residence|relais|hostel|affittacamere|agriturismo|albergo)\b/i.test(
+        cityName,
+      );
+      if (!isKnownCity && looksLikeStructureName) return;
+    }
     setFocusedHotelId(null);
     setSelectedCity(city);
   }
 
   function handlePickStructure(structure: CatalogStructureHit) {
-    const city = structure.cityId
-      ? findCityById(structure.cityId)
-      : cityFromInput(structure.countryCode, structure.cityName);
-    setSelectedCity(city);
+    if (!hasSelectedCity) {
+      const city = structure.cityId
+        ? findCityById(structure.cityId)
+        : cityFromInput(structure.countryCode, structure.cityName);
+      setSelectedCity(city);
+    }
     setHotels((current) => {
       if (current.some((hotel) => hotel.id === structure.id)) return current;
       return [catalogHitToHotelAccount(structure), ...current];
@@ -477,7 +519,15 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
         const json = (await res.json()) as { hotels?: ShowcaseHomeHotel[]; structureCount?: number };
         if (cancelled) return;
         const rows = Array.isArray(json.hotels) ? json.hotels : [];
-        setHotels(rows.map(mapInitialHotel));
+        setHotels((prev) => {
+          const fetched = rows.map(mapInitialHotel);
+          const byId = new Map(fetched.map((hotel) => [hotel.id, hotel]));
+          if (focusedHotelId) {
+            const pinned = prev.find((hotel) => hotel.id === focusedHotelId);
+            if (pinned && !byId.has(pinned.id)) byId.set(pinned.id, pinned);
+          }
+          return Array.from(byId.values());
+        });
         if (hasSelectedCity) {
           setCityStructureCount(typeof json.structureCount === "number" ? json.structureCount : rows.length);
         } else {
@@ -494,7 +544,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
     return () => {
       cancelled = true;
     };
-  }, [hasSelectedCity, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code, initialData?.hotels.length]);
+  }, [hasSelectedCity, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code, initialData?.hotels.length, focusedHotelId]);
 
   useEffect(() => {
     let cancelled = false;
@@ -527,7 +577,13 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
     return () => { cancelled = true; };
   }, [hasSelectedCity, selectedCity.city_id]);
 
-  const visibleHotels = useMemo(() => hotels.filter((h) => h.provider_kind !== "agency").filter(matchesSelectedCity), [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code]);
+  const visibleHotels = useMemo(() => {
+    const filtered = hotels.filter((h) => h.provider_kind !== "agency").filter(matchesSelectedCity);
+    if (!focusedHotelId) return filtered;
+    const focused = hotels.find((hotel) => hotel.id === focusedHotelId && hotel.provider_kind !== "agency");
+    if (!focused || filtered.some((hotel) => hotel.id === focusedHotelId)) return filtered;
+    return [focused, ...filtered];
+  }, [hotels, selectedCity.city_id, selectedCity.city_name, selectedCity.country_code, focusedHotelId]);
   const displayHotels = useMemo(() => {
     if (!focusedHotelId) return visibleHotels;
     const match = visibleHotels.find((hotel) => hotel.id === focusedHotelId);
@@ -652,18 +708,23 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
     : formatMessage(t.showcase.featuredStructuresCatalogTitle, {
         total: structureCatalogCount.toLocaleString(locale === "en" ? "en-GB" : "it-IT"),
       });
-  const structuresCatalogHref = hasSelectedCity
-    ? destinationPublicPath(resolveDestinationHubSlug(selectedCity.city_name), locale)
-    : localizedPath(locale, "/destinazioni");
+  const structuresCatalogHref = cityDestinationHref;
 
   function renderHotelCard(hotel: HotelAccount, layout: "compact" | "dense" = "compact") {
     const country = countryLabel(hotel.country_code);
     const locationLine = `${structureTypeLabels[hotel.structure_type]} · ${hotel.city_name}${country ? `, ${country}` : ""}`;
-    const description = publicHotelDescription(
-      pickLocalizedDescription(hotel.description, hotel.description_en, locale),
+    const description = getStructureCardSecondaryLine(
+      hotel.city_name,
+      locale,
+      publicHotelDescription(pickLocalizedDescription(hotel.description, hotel.description_en, locale)),
     );
     const profileHref = structureProfileHref(
-      { id: hotel.id, isOnboarding: hotel.isOnboarding ?? false, slug: hotel.slug ?? null },
+      {
+        id: hotel.id,
+        isOnboarding: hotel.isOnboarding ?? false,
+        slug: hotel.slug ?? null,
+        seoIndexable: hotel.seoIndexable,
+      },
       locale,
     );
 
@@ -691,6 +752,9 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
               {hotel.property_name}
             </Link>
             <p className="mt-1 line-clamp-1 text-[11px] text-zinc-500">{locationLine}</p>
+            {description ? (
+              <p className="mt-1.5 line-clamp-2 text-[10px] leading-relaxed text-zinc-500">{description}</p>
+            ) : null}
             <div className="mt-2.5 flex flex-wrap gap-1.5">
               <Link href={profileHref} className="rounded-full bg-[#e8f0f8] px-2.5 py-1 text-[10px] font-bold text-[#0f4c81]">
                 {t.showcase.cardProfile}
@@ -723,14 +787,14 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
         <div className="flex flex-1 flex-col p-4">
           <p className="font-semibold">{hotel.property_name}</p>
           <p className="mt-1 line-clamp-1 text-xs text-zinc-500">{locationLine}</p>
-          {description ? <p className="mt-2 line-clamp-2 text-sm text-zinc-600">{description}</p> : null}
+          {description ? <p className="mt-2 line-clamp-2 text-xs leading-relaxed text-zinc-500 sm:text-sm">{description}</p> : null}
           <div className="mt-4 flex-1" />
           <div className="flex flex-wrap items-center gap-2">
             <a href={mapsHref(hotel)} target="_blank" rel="noreferrer" className={ctaMaps}><MapPin className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardMap}</a>
             {hotel.isOnboarding ? (
-              <Link href={structureProfileHref({ id: hotel.id, isOnboarding: true, slug: hotel.slug ?? null }, locale)} className={ctaProfile}>{t.showcase.cardProfile}</Link>
+              <Link href={structureProfileHref({ id: hotel.id, isOnboarding: true, slug: hotel.slug ?? null, seoIndexable: hotel.seoIndexable }, locale)} className={ctaProfile}>{t.showcase.cardProfile}</Link>
             ) : (
-              <Link href={structureProfileHref({ id: hotel.id, isOnboarding: false, slug: hotel.slug ?? null }, locale)} className={ctaProfile}>{t.showcase.cardProfile}</Link>
+              <Link href={structureProfileHref({ id: hotel.id, isOnboarding: false, slug: hotel.slug ?? null, seoIndexable: hotel.seoIndexable }, locale)} className={ctaProfile}>{t.showcase.cardProfile}</Link>
             )}
             {viewer.role !== "hotel" ? (
               <Link href={createRequestHrefForHotel(hotel)} className={ctaRequest}><Euro className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardRequest}</Link>
@@ -759,7 +823,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
           <div className="mt-4 flex-1" />
           <div className="flex flex-wrap items-center gap-2">
             <a href={mapsHref(agency)} target="_blank" rel="noreferrer" className={ctaMaps}><MapPin className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardMap}</a>
-            <Link href={structureProfileHref({ id: agency.id, isOnboarding: false, slug: agency.slug ?? null }, locale)} className={ctaProfile}>{t.showcase.cardProfile}</Link>
+            <Link href={structureProfileHref({ id: agency.id, isOnboarding: false, slug: agency.slug ?? null, seoIndexable: agency.seoIndexable }, locale)} className={ctaProfile}>{t.showcase.cardProfile}</Link>
           </div>
         </div>
       </article>
@@ -801,6 +865,9 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
                 </Link>
               </>
             )}
+            <Link href="/contatti" className={topbarAuthLinkClass}>
+              {t.site.contacts}
+            </Link>
           </TopbarControlsMenu>
         </div>
       </header>
@@ -821,6 +888,7 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
             <CityAutocomplete
               value={selectedCity}
               onChange={handleCityChange}
+              onPick={handleCityChange}
               label={t.showcase.selectCity}
               hideLabel
               placeholder={t.showcase.citySearchPlaceholder}
@@ -832,6 +900,9 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
             </Link>
             {hasSelectedCity ? (
               <div className="flex flex-col gap-2.5 sm:gap-3">
+                <Link href={cityDestinationHref} className="hd-cta-orange hd-cta-drop-main w-full text-center">
+                  {formatMessage(t.showcase.discoverWhereToStayCta, { city: selectedCityLabel })}
+                </Link>
                 <button
                   type="button"
                   onClick={scrollToLastMinuteOffers}

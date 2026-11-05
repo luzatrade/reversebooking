@@ -4,6 +4,8 @@ import { createServiceRoleClient } from "@/lib/supabase/admin";
 import { company } from "@/lib/legal/company";
 import { escapeHtml, sendEmailNotification} from "@/lib/notifications/email";
 import { rateLimit, tooManyRequestsResponse } from "@/lib/security/rate-limit";
+import { isUuid } from "@/lib/offers/booking-voucher";
+import { resolveOfferParticipant } from "@/lib/offers/participants";
 
 type Body = { offerId?: string; message?: string};
 function code(value: string | null | undefined) { return value || "RB------";}
@@ -17,11 +19,17 @@ export async function POST(request: Request) {
 
   let body: Body;
   try { body = (await request.json()) as Body;} catch { return NextResponse.json({ error: "JSON non valido"}, { status: 400});}
-  if (!body.offerId || !body.message) return NextResponse.json({ error: "offerId e message sono obbligatori"}, { status: 400});
+  if (!isUuid(body.offerId) || !body.message) return NextResponse.json({ error: "offerId e message sono obbligatori"}, { status: 400});
 
   try {
     const client = createServiceRoleClient();
     if (!client) return NextResponse.json({ error: "Server non configurato"}, { status: 503});
+
+    const participant = await resolveOfferParticipant(client, body.offerId, gate.user.id);
+    if (!participant) {
+      return NextResponse.json({ error: "Offerta non trovata"}, { status: 404});
+    }
+
     const { data: offer, error} = await client
       .from("offers")
       .select("id, hotel_account_id, travel_request_id, hotel_accounts(property_name, private_notification_email, public_email), travel_requests(request_code, city_name, preferred_area, advertiser_profiles(contact_email))")

@@ -2,34 +2,26 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { CreateListingBackLink } from "@/components/requests/CreateListingBackLink";
 import { CreateTravelRequestForm } from "@/components/requests/CreateTravelRequestForm";
-import { getServerTranslations } from "@/lib/i18n/get-translations";
-import { canonicalUrl, hasUrlSearchParams } from "@/lib/seo/canonical";
+import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
+import { localizedPath } from "@/lib/i18n/routing";
+import { canonicalUrl } from "@/lib/seo/canonical";
 
 const CREATE_LISTING_PATH = "/inserzionista/crea-annuncio";
 
-type PageProps = {
-  searchParams: Promise<Record<string, string | string[] | undefined>>;
-};
-
-export async function generateMetadata({ searchParams }: PageProps): Promise<Metadata> {
+export async function generateMetadata(): Promise<Metadata> {
   const t = await getServerTranslations();
-  const params = await searchParams;
-  const hasParams = hasUrlSearchParams(params);
+  const locale = await getServerLocale();
 
   return {
     title: t.metadata.createListingTitle,
     description: t.metadata.createListingDescription,
     alternates: {
-      canonical: canonicalUrl(CREATE_LISTING_PATH),
+      canonical: canonicalUrl(localizedPath(locale, CREATE_LISTING_PATH)),
     },
-    ...(hasParams
-      ? {
-          robots: {
-            index: false,
-            follow: true,
-          },
-        }
-      : {}),
+    robots: {
+      index: false,
+      follow: true,
+    },
   };
 }
 

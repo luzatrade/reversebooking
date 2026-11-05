@@ -1,0 +1,899 @@
+[
+  {
+    "id": "zavaglia-1",
+    "label": "CIE Zavaglia — foto verticale MRZ destra",
+    "source": "assets:PHOTO-2026-08-13-22-13-39-26f4505f-e315-4c2e-b5d4-f909411dce96.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CB19477AA9",
+      "surname": "ZAVAGLIA",
+      "givenNames": "LUCIANO",
+      "birthDate": "1983-05-26",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "zavaglia-2",
+    "label": "CIE Zavaglia — tenuta in mano verticale",
+    "source": "assets:PHOTO-2026-08-13-14-26-46-4b09e2ef-641e-456a-9a4e-92c73a1f5372.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CB19477AA9",
+      "surname": "ZAVAGLIA",
+      "givenNames": "LUCIANO",
+      "birthDate": "1983-05-26",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "zavaglia-3",
+    "label": "CIE Zavaglia — variante simile",
+    "source": "assets:PHOTO-2026-08-13-14-26-46-fc42e70c-d562-41ac-be44-ff3ba8864083.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CB19477AA9",
+      "surname": "ZAVAGLIA",
+      "givenNames": "LUCIANO",
+      "birthDate": "1983-05-26",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "gronchi-1",
+    "label": "CIE Gronchi — MRZ sinistra, piano scuro",
+    "source": "assets:PHOTO-2026-08-14-12-11-42-4f89fee9-ed47-474d-9a02-65237c8aeb0b.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA32060FA2",
+      "surname": "GRONCHI",
+      "givenNames": "IMER",
+      "birthDate": "1986-02-27",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "bechini-1",
+    "label": "CIE Bechini — orizzontale, mano",
+    "source": "assets:PHOTO-2026-08-04-20-27-30-fb580d96-8fe4-445d-a4ae-e4d026deb11c.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA88352YV9",
+      "surname": "BECHINI",
+      "givenNames": "GABRIEL",
+      "birthDate": "1999-03-10",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "bechini-2",
+    "label": "CIE Bechini — variante",
+    "source": "assets:PHOTO-2026-08-04-20-27-30-1364b995-36fd-4e4f-8b67-a0d8b4f14ee7.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA88352YV9",
+      "surname": "BECHINI",
+      "givenNames": "GABRIEL",
+      "birthDate": "1999-03-10",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "muratore-1",
+    "label": "CIE Muratore — verticale, sfondo tessuto",
+    "source": "assets:PHOTO-2026-08-01-14-22-14-2187b9cc-036b-442a-aaef-36b08fa70a54.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA22338WH1",
+      "surname": "MURATORE",
+      "givenNames": "VANESSA",
+      "birthDate": "2003-06-05",
+      "sex": "F"
+    }
+  },
+  {
+    "id": "moretti-passport",
+    "label": "Passaporto Moretti — TD3",
+    "source": "assets:PHOTO-2026-08-04-22-44-54-d87def54-27b8-4399-9be5-0940e6c3e91e.png",
+    "format": "TD3",
+    "truth": {
+      "documentNumber": "YB8037903",
+      "surname": "MORETTI",
+      "givenNames": "ANDREA",
+      "birthDate": "1969-03-26",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "serrano-passport",
+    "label": "Passaporto Serrano — TD3",
+    "source": "assets:PHOTO-2026-08-14-21-01-55-6998dc15-817e-4531-a989-89949567b5c9.png",
+    "format": "TD3",
+    "truth": {
+      "documentNumber": "YB3099459",
+      "surname": "SERRANO",
+      "givenNames": "CRISTINA ELIZABETH",
+      "birthDate": "1990-07-12",
+      "sex": "F"
+    }
+  },
+  {
+    "id": "peixoto-1",
+    "label": "Cartão cidadão Portogallo — TD1",
+    "source": "assets:PHOTO-2026-08-14-21-01-55-fc9aac65-c51b-42b2-a16b-d6b5fe910e82.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "141559705",
+      "surname": "PEIXOTO RIBEIRO",
+      "givenNames": "CARLOS MIGUEL",
+      "birthDate": "1992-11-02",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "martinelli-1",
+    "label": "CIE Martinelli — scan bianco",
+    "source": "assets:PHOTO-2026-08-10-20-00-06-1ed68758-0978-4be4-9393-62221ea5a259.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA67216XP2",
+      "surname": "MARTINELLI",
+      "givenNames": "PAOLO",
+      "birthDate": "1968-01-31",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "bova-1",
+    "label": "CIE Bova — treno, orizzontale",
+    "source": "assets:PHOTO-2026-08-12-21-15-08-a993ccc7-0242-4fe2-a31a-f424be57db02.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA64134IZ1",
+      "surname": "BOVA",
+      "givenNames": "FELICE RAOUL",
+      "birthDate": "2000-06-04",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "palpa-1",
+    "label": "CIE Palpa Zavala — peruano",
+    "source": "assets:PHOTO-2026-08-11-14-00-46-1eb87577-d548-4b0e-a69f-9d71df50ab2f.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA85747EV4",
+      "surname": "PALPA ZAVALA",
+      "givenNames": "MARLON SAUL",
+      "birthDate": "1989-09-11",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "testa-1",
+    "label": "CIE Testa — due documenti in foto (solo CIE)",
+    "source": "assets:PHOTO-2026-08-10-15-07-11-b473ad86-a874-4fd6-a5c5-b0717371141a.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA66730SY4",
+      "surname": "TESTA",
+      "givenNames": "SILVANA",
+      "birthDate": "1971-03-08",
+      "sex": "F"
+    }
+  },
+  {
+    "id": "leo-1",
+    "label": "CIE Leo — scan fronte+retro",
+    "source": "assets:PHOTO-2026-08-14-17-59-45-0b1f498f-e0fe-4e75-859d-455b1ac6cdef.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA64853LC3",
+      "surname": "LEO",
+      "givenNames": "FRANCESCA",
+      "birthDate": "1998-02-07",
+      "sex": "F"
+    }
+  },
+  {
+    "id": "gammerschmidt-1",
+    "label": "CIE tedesca Gammerschmidt — TD1",
+    "source": "assets:PHOTO-2026-08-14-21-04-02-d63f9c98-8908-4e5c-b6e5-e4e192566175.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "L3HM72N1F9",
+      "surname": "GAMMERSCHMIDT",
+      "givenNames": "NIKITA",
+      "birthDate": "2001-09-01",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "testscan-leo-jpg",
+    "label": "JPG test scan — Leo",
+    "source": "file:/Users/lucianozavaglia/Desktop/test scan/PHOTO-2026-08-14-17-59-45.jpg",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA64853LC3",
+      "surname": "LEO",
+      "givenNames": "FRANCESCA",
+      "birthDate": "1998-02-07",
+      "sex": "F"
+    }
+  },
+  {
+    "id": "testscan-zavaglia-jpg",
+    "label": "JPG test scan — Zavaglia",
+    "source": "file:/Users/lucianozavaglia/Desktop/test scan/PHOTO-2026-08-13-14-26-46.jpg",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CB19477AA9",
+      "surname": "ZAVAGLIA",
+      "givenNames": "LUCIANO",
+      "birthDate": "1983-05-26",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "testscan-bova-jpg",
+    "label": "JPG test scan — Bova",
+    "source": "file:/Users/lucianozavaglia/Desktop/test scan/PHOTO-2026-08-12-21-15-08.jpg",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA64134IZ1",
+      "surname": "BOVA",
+      "givenNames": "FELICE RAOUL",
+      "birthDate": "2000-06-04",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "testscan-palpa-jpg",
+    "label": "JPG test scan — Palpa Zavala",
+    "source": "file:/Users/lucianozavaglia/Desktop/test scan/PHOTO-2026-08-11-14-00-46.jpg",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA85747EV4",
+      "surname": "PALPA ZAVALA",
+      "givenNames": "MARLON SAUL",
+      "birthDate": "1989-09-11",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "testscan-serrano-jpg",
+    "label": "JPG test scan — passaporto Serrano",
+    "source": "file:/Users/lucianozavaglia/Desktop/test scan/PHOTO-2026-08-14-21-01-55.jpg",
+    "format": "TD3",
+    "truth": {
+      "documentNumber": "YB3099459",
+      "surname": "SERRANO",
+      "givenNames": "CRISTINA ELIZABETH",
+      "birthDate": "1990-07-12",
+      "sex": "F"
+    }
+  },
+  {
+    "id": "pdf-carta-sc",
+    "label": "PDF Carta identità Sc",
+    "source": "file:/Users/lucianozavaglia/Desktop/test scan/Carta d identità Sc.pdf",
+    "format": "TD1",
+    "pdfPages": "all",
+    "truth": null
+  },
+  {
+    "id": "pdf-lucrezia",
+    "label": "PDF CIE Lucrezia",
+    "source": "file:/Users/lucianozavaglia/Desktop/test scan/CIE Lucrezia .pdf",
+    "format": "TD1",
+    "pdfPages": "all",
+    "truth": null
+  },
+  {
+    "id": "pdf-scheda-id",
+    "label": "PDF Scheda ID multi-pagina",
+    "source": "file:/Users/lucianozavaglia/Desktop/test scan/Scheda ID 20-06-25 15.09.pdf",
+    "format": "TD1",
+    "pdfPages": "all",
+    "truth": null
+  },
+  {
+    "id": "pdf-whatsapp-carta",
+    "label": "PDF WhatsApp Carta identità",
+    "source": "file:/Users/lucianozavaglia/Library/Containers/net.whatsapp.WhatsApp/Data/tmp/documents/3C808D54-9584-44CC-9137-4A9C3A648DD7/Carta_di_identità .pdf",
+    "format": "TD1",
+    "pdfPages": "all",
+    "truth": null
+  },
+  {
+    "id": "pdf-camscanner-030325",
+    "label": "PDF CamScanner 03-03-2025",
+    "source": "file:/Users/lucianozavaglia/Downloads/CamScanner 03-03-2025 11.24_1.pdf",
+    "format": "TD1",
+    "pdfPages": "all",
+    "truth": null
+  },
+  {
+    "id": "pdf-camscanner-101720",
+    "label": "PDF CamScanner 10-17-2020",
+    "source": "file:/Users/lucianozavaglia/Downloads/CamScanner 10-17-2020 12.04.51.pdf",
+    "format": "TD1",
+    "pdfPages": "all",
+    "truth": null
+  },
+  {
+    "id": "pdf-camscanner-130426",
+    "label": "PDF CamScanner 13-04-2026",
+    "source": "file:/Users/lucianozavaglia/Downloads/CamScanner 13-04-2026 16.42.pdf",
+    "format": "TD1",
+    "pdfPages": "all",
+    "truth": null
+  },
+  {
+    "id": "pdf-camscanner-140425",
+    "label": "PDF CamScanner 14-04-2025",
+    "source": "file:/Users/lucianozavaglia/Downloads/CamScanner 14-04-2025 14.08.pdf",
+    "format": "TD1",
+    "pdfPages": "all",
+    "truth": null
+  },
+  {
+    "id": "pdf-camscanner-231025",
+    "label": "PDF CamScanner 23-10-2025",
+    "source": "file:/Users/lucianozavaglia/Downloads/CamScanner 23-10-25 19.45.pdf",
+    "format": "TD1",
+    "pdfPages": "all",
+    "truth": null
+  },
+  {
+    "id": "pdf-carta-identita-apostrofo",
+    "label": "PDF carta d'identità",
+    "source": "file:/Users/lucianozavaglia/Downloads/carta d'identità.pdf",
+    "format": "TD1",
+    "pdfPages": "all",
+    "truth": null
+  },
+  {
+    "id": "pdf-carta-identita",
+    "label": "PDF carta identità",
+    "source": "file:/Users/lucianozavaglia/Downloads/carta identità.pdf",
+    "format": "TD1",
+    "pdfPages": "all",
+    "truth": null
+  },
+  {
+    "id": "pdf-bigatti-cinzia",
+    "label": "PDF Documenti identità Bigatti Cinzia",
+    "source": "file:/Users/lucianozavaglia/Downloads/Documenti identita Bigatti Cinzia.pdf",
+    "format": "TD1",
+    "pdfPages": "all",
+    "truth": null
+  },
+  {
+    "id": "pdf-freya-roberts",
+    "label": "PDF Freya Roberts",
+    "source": "file:/Users/lucianozavaglia/Downloads/Freya Roberts.pdf",
+    "format": "TD1",
+    "pdfPages": "all",
+    "truth": null
+  },
+  {
+    "id": "pdf-passport-ca",
+    "label": "PDF passaporto canadese Villa",
+    "source": "file:/Users/lucianozavaglia/Downloads/passport.pdf",
+    "format": "TD3",
+    "pdfPages": "all",
+    "truth": {
+      "documentNumber": "P522361NG",
+      "surname": "VILLA",
+      "givenNames": "SONIA RAILI",
+      "birthDate": "2003-08-03",
+      "sex": "F"
+    }
+  },
+  {
+    "id": "pdf-whatsapp-scan-0604",
+    "label": "PDF WhatsApp Scan 2026-06-04",
+    "source": "file:/Users/lucianozavaglia/Downloads/WhatsApp Scan 2026-06-04 at 21.09.41.pdf",
+    "format": "TD1",
+    "pdfPages": "all",
+    "truth": null
+  },
+  {
+    "id": "wa-0fb3796a",
+    "label": "WhatsApp 2026-05-13_at_14.12.03",
+    "source": "assets:WhatsApp_Image_2026-05-13_at_14.12.03-0fb3796a-0678-4cb3-b5b4-fd7a43e15d94.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-5bd86542",
+    "label": "WhatsApp 2026-05-28_at_20.07.52",
+    "source": "assets:WhatsApp_Image_2026-05-28_at_20.07.52-5bd86542-ff13-469e-a18d-11e922ad5ece.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-10d1d619",
+    "label": "WhatsApp 2026-05-31_at_19.57.06",
+    "source": "assets:WhatsApp_Image_2026-05-31_at_19.57.06-10d1d619-2af9-45dc-966e-5c44e13fd22a.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-d6c20d83",
+    "label": "WhatsApp 2026-05-31_at_19.57.06__1_",
+    "source": "assets:WhatsApp_Image_2026-05-31_at_19.57.06__1_-d6c20d83-f77b-4d41-b14d-7f03ed05f83c.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-a6b82401",
+    "label": "WhatsApp 2026-06-01_at_14.01.53",
+    "source": "assets:WhatsApp_Image_2026-06-01_at_14.01.53-a6b82401-6e1c-457b-87ea-3c7c4bd7ae04.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-04d48be5",
+    "label": "WhatsApp 2026-06-01_at_14.02.29",
+    "source": "assets:WhatsApp_Image_2026-06-01_at_14.02.29-04d48be5-8800-4731-929e-7d5c2339ce66.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-0f275444",
+    "label": "WhatsApp 2026-06-01_at_19.10.11",
+    "source": "assets:WhatsApp_Image_2026-06-01_at_19.10.11-0f275444-c9a5-430d-a0e0-d9fd220897d6.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-89fcba28",
+    "label": "WhatsApp 2026-06-04_at_13.48.04",
+    "source": "assets:WhatsApp_Image_2026-06-04_at_13.48.04-89fcba28-6a7e-425b-a851-037fc9e4f497.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-30d965df",
+    "label": "WhatsApp 2026-06-04_at_14.57.32",
+    "source": "assets:WhatsApp_Image_2026-06-04_at_14.57.32-30d965df-ed9d-4c26-a260-412916dc3065.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-ca723657",
+    "label": "WhatsApp 2026-06-04_at_14.57.32__1_",
+    "source": "assets:WhatsApp_Image_2026-06-04_at_14.57.32__1_-ca723657-2f9b-412e-9397-5b61911a1cd6.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-b54fd448",
+    "label": "WhatsApp 2026-06-06_at_17.31.17",
+    "source": "assets:WhatsApp_Image_2026-06-06_at_17.31.17-b54fd448-b384-444f-8191-56fc021a6ed0.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-92499262",
+    "label": "WhatsApp 2026-06-07_at_14.22.53",
+    "source": "assets:WhatsApp_Image_2026-06-07_at_14.22.53-92499262-3d41-4442-870f-946322ba8123.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-a01f7f47",
+    "label": "WhatsApp 2026-06-08_at_14.18.58",
+    "source": "assets:WhatsApp_Image_2026-06-08_at_14.18.58-a01f7f47-6c10-4198-b39a-e4ff2629fa23.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-c4a29a6b",
+    "label": "WhatsApp 2026-06-09_at_19.50.44",
+    "source": "assets:WhatsApp_Image_2026-06-09_at_19.50.44-c4a29a6b-2e79-47e3-9c4c-d08eb43265f2.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-a745150d",
+    "label": "WhatsApp 2026-06-09_at_19.53.47",
+    "source": "assets:WhatsApp_Image_2026-06-09_at_19.53.47-a745150d-a7ff-4388-b3e8-3ff9e39e9082.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-d0f71450",
+    "label": "WhatsApp 2026-06-13_at_19.30.01",
+    "source": "assets:WhatsApp_Image_2026-06-13_at_19.30.01-d0f71450-f7dd-46fc-89e6-66e1729c1daf.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-23b3a611",
+    "label": "WhatsApp 2026-06-17_at_13.59.08",
+    "source": "assets:WhatsApp_Image_2026-06-17_at_13.59.08-23b3a611-ccc2-4d53-a16d-610fbb9727c2.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-6053b285",
+    "label": "WhatsApp 2026-06-19_at_14.03.32",
+    "source": "assets:WhatsApp_Image_2026-06-19_at_14.03.32-6053b285-b63d-4503-91ed-75d858b6c69f.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-1bef8ac5",
+    "label": "WhatsApp 2026-06-19_at_14.05.01",
+    "source": "assets:WhatsApp_Image_2026-06-19_at_14.05.01-1bef8ac5-5661-49f9-b71a-f8c7e2e2ab5f.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-67137d68",
+    "label": "WhatsApp 2026-06-20_at_17.31.34",
+    "source": "assets:WhatsApp_Image_2026-06-20_at_17.31.34-67137d68-12fc-476f-993f-6e1b53e8a872.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-2cf7ebd8",
+    "label": "WhatsApp 2026-06-21_at_10.58.20",
+    "source": "assets:WhatsApp_Image_2026-06-21_at_10.58.20-2cf7ebd8-db92-405c-82b2-ed54762c3421.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-359f6cd6",
+    "label": "WhatsApp 2026-06-21_at_10.58.25",
+    "source": "assets:WhatsApp_Image_2026-06-21_at_10.58.25-359f6cd6-c7f6-42e7-9b6c-364501cb65da.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-58781b9a",
+    "label": "WhatsApp 2026-06-22_at_20.29.33",
+    "source": "assets:WhatsApp_Image_2026-06-22_at_20.29.33-58781b9a-a061-4aab-ba6a-a677d9de84a5.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-7a71d34f",
+    "label": "WhatsApp 2026-06-23_at_14.16.11",
+    "source": "assets:WhatsApp_Image_2026-06-23_at_14.16.11-7a71d34f-0603-482a-b870-0e17de32ac15.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-0df0519a",
+    "label": "WhatsApp 2026-06-23_at_17.13.55",
+    "source": "assets:WhatsApp_Image_2026-06-23_at_17.13.55-0df0519a-74ee-41dd-bf05-7b3d9d50d0bc.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-33d41803",
+    "label": "WhatsApp 2026-06-23_at_19.37.53",
+    "source": "assets:WhatsApp_Image_2026-06-23_at_19.37.53-33d41803-5954-4435-bda7-4f36b1b81820.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-b901330f",
+    "label": "WhatsApp 2026-06-24_at_22.21.53",
+    "source": "assets:WhatsApp_Image_2026-06-24_at_22.21.53-b901330f-5e06-45ff-a5fd-aa39e209f61f.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-124b2339",
+    "label": "WhatsApp 2026-06-27_at_15.24.44",
+    "source": "assets:WhatsApp_Image_2026-06-27_at_15.24.44-124b2339-b80c-45e2-bc04-15bb5f164cf5.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-0c323c5a",
+    "label": "WhatsApp 2026-06-29_at_20.11.25",
+    "source": "assets:WhatsApp_Image_2026-06-29_at_20.11.25-0c323c5a-1985-4056-9974-5716c9cc10ed.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-91c1ef95",
+    "label": "WhatsApp 2026-06-30_at_17.50.14",
+    "source": "assets:WhatsApp_Image_2026-06-30_at_17.50.14-91c1ef95-2f03-4839-8838-f626719152c9.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-0ab12b15",
+    "label": "WhatsApp 2026-07-02_at_15.31.37",
+    "source": "assets:WhatsApp_Image_2026-07-02_at_15.31.37-0ab12b15-a3ec-4cd5-bea6-7bf3729ebfcd.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-5c48c5f5",
+    "label": "WhatsApp 2026-07-03_at_15.56.39",
+    "source": "assets:WhatsApp_Image_2026-07-03_at_15.56.39-5c48c5f5-4efd-4c33-b35e-4e9ec8a74f2e.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-cdccb289",
+    "label": "WhatsApp 2026-07-04_at_14.24.12",
+    "source": "assets:WhatsApp_Image_2026-07-04_at_14.24.12-cdccb289-2145-4cc3-aceb-aedf24780d35.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-52b78eb8",
+    "label": "WhatsApp 2026-07-04_at_14.24.27",
+    "source": "assets:WhatsApp_Image_2026-07-04_at_14.24.27-52b78eb8-b194-4cc7-ab6a-f59b2dd33b5c.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-f80d1ee1",
+    "label": "WhatsApp 2026-07-05_at_14.14.26",
+    "source": "assets:WhatsApp_Image_2026-07-05_at_14.14.26-f80d1ee1-5b0f-4500-9d62-089c1cc4bb77.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-44bae5f5",
+    "label": "WhatsApp 2026-07-05_at_14.14.28",
+    "source": "assets:WhatsApp_Image_2026-07-05_at_14.14.28-44bae5f5-93f7-4b3e-ad7d-a98a3d770f62.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-260ee46f",
+    "label": "WhatsApp 2026-07-06_at_17.03.32",
+    "source": "assets:WhatsApp_Image_2026-07-06_at_17.03.32-260ee46f-2644-40be-af6b-0e8f3c0148bb.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-c5b2af5c",
+    "label": "WhatsApp 2026-07-07_at_19.30.34",
+    "source": "assets:WhatsApp_Image_2026-07-07_at_19.30.34-c5b2af5c-eb96-40e6-b35e-7d3fb560dcc7.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-29ca6888",
+    "label": "WhatsApp 2026-07-08_at_14.00.56",
+    "source": "assets:WhatsApp_Image_2026-07-08_at_14.00.56-29ca6888-9073-4a84-8800-a92799b57a2f.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-d73a94cb",
+    "label": "WhatsApp 2026-07-08_at_20.06.50",
+    "source": "assets:WhatsApp_Image_2026-07-08_at_20.06.50-d73a94cb-c469-4306-863f-06f8f00689e7.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA62462LQ5",
+      "surname": "FACCIN",
+      "givenNames": "MARCO",
+      "birthDate": "2000-04-08",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "wa-a3b1c71b",
+    "label": "WhatsApp 2026-07-11_at_16.15.02",
+    "source": "assets:WhatsApp_Image_2026-07-11_at_16.15.02-a3b1c71b-ec87-4642-9944-937a168e2050.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-9849afc0",
+    "label": "WhatsApp 2026-07-12_at_14.23.40",
+    "source": "assets:WhatsApp_Image_2026-07-12_at_14.23.40-9849afc0-177b-460b-8c6b-c169ab9f757b.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA63374MF6",
+      "surname": "IMBRIAGLIO",
+      "givenNames": "ARTURO GIOVANNI",
+      "birthDate": "1989-06-08",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "wa-ef7bd741",
+    "label": "WhatsApp 2026-07-12_at_14.26.45",
+    "source": "assets:WhatsApp_Image_2026-07-12_at_14.26.45-ef7bd741-dce9-4f2e-bb88-378880edbb91.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA05242MT8",
+      "surname": "CRISTOFARO",
+      "givenNames": "GIULIA",
+      "birthDate": "1993-07-18",
+      "sex": "F"
+    }
+  },
+  {
+    "id": "wa-60acdbc9",
+    "label": "WhatsApp 2026-07-15_at_15.38.08",
+    "source": "assets:WhatsApp_Image_2026-07-15_at_15.38.08-60acdbc9-0243-4184-bbc1-27eaf3a34106.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA79251PY1",
+      "surname": "EVSTIGNEEVA",
+      "givenNames": "ELEONORA",
+      "birthDate": "1993-06-19",
+      "sex": "F"
+    }
+  },
+  {
+    "id": "wa-6163818f",
+    "label": "WhatsApp 2026-07-16_at_17.11.13",
+    "source": "assets:WhatsApp_Image_2026-07-16_at_17.11.13-6163818f-5272-4916-9b72-a5a3462e312d.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-cee18967",
+    "label": "WhatsApp 2026-07-17_at_08.13.00",
+    "source": "assets:WhatsApp_Image_2026-07-17_at_08.13.00-cee18967-ea82-43cf-ac5c-0bb9fa9ee6c1.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-a786c2c3",
+    "label": "WhatsApp 2026-07-18_at_08.50.59",
+    "source": "assets:WhatsApp_Image_2026-07-18_at_08.50.59-a786c2c3-dde8-422a-ad05-eb571f3e24a5.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA62267GK3",
+      "surname": "CELEBRE",
+      "givenNames": "DAVIDE",
+      "birthDate": "1994-12-09",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "wa-ab6e02f5",
+    "label": "WhatsApp 2026-07-18_at_13.56.39",
+    "source": "assets:WhatsApp_Image_2026-07-18_at_13.56.39-ab6e02f5-f864-48e7-b54b-07f7b8d9472e.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA91353IP4",
+      "surname": "ZAIA",
+      "givenNames": "ANDREA",
+      "birthDate": "1985-09-13",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "wa-9ef45afe",
+    "label": "WhatsApp 2026-07-19_at_14.05.17",
+    "source": "assets:WhatsApp_Image_2026-07-19_at_14.05.17-9ef45afe-e4d0-4a10-b88b-6a72ca0343e5.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-ba845fec",
+    "label": "WhatsApp 2026-07-19_at_14.05.40",
+    "source": "assets:WhatsApp_Image_2026-07-19_at_14.05.40-ba845fec-5211-498f-9606-70f68ca00768.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-bcb8c4aa",
+    "label": "WhatsApp 2026-07-20_at_14.11.40",
+    "source": "assets:WhatsApp_Image_2026-07-20_at_14.11.40-bcb8c4aa-fdc5-45cd-9960-41825a2620fa.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA26409PP3",
+      "surname": "CABITINI",
+      "givenNames": "LEONARDO",
+      "birthDate": "2003-07-20",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "wa-9822d88e",
+    "label": "WhatsApp 2026-07-20_at_20.05.50",
+    "source": "assets:WhatsApp_Image_2026-07-20_at_20.05.50-9822d88e-b829-4435-83c7-764fb9d0d383.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA90022IY7",
+      "surname": "IOPPOLO",
+      "givenNames": "CARMELO",
+      "birthDate": "1991-02-19",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "wa-ce9b34f2",
+    "label": "WhatsApp 2026-07-21_at_19.41.17",
+    "source": "assets:WhatsApp_Image_2026-07-21_at_19.41.17-ce9b34f2-f8f4-4b72-adf7-336bce504c44.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-22c1e481",
+    "label": "WhatsApp 2026-07-21_at_21.14.42",
+    "source": "assets:WhatsApp_Image_2026-07-21_at_21.14.42-22c1e481-20c0-4f23-8087-53cacff0ac00.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-040c524f",
+    "label": "WhatsApp 2026-07-21_at_21.14.43",
+    "source": "assets:WhatsApp_Image_2026-07-21_at_21.14.43-040c524f-3267-467f-9560-096654fd0dde.png",
+    "format": "TD1",
+    "truth": null
+  },
+  {
+    "id": "wa-5a34ada2",
+    "label": "WhatsApp 2026-07-26_at_21.12.03",
+    "source": "assets:WhatsApp_Image_2026-07-26_at_21.12.03-5a34ada2-9d79-419f-9adc-b9448d30d76f.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA98955PA1",
+      "surname": "GARRA",
+      "givenNames": "VITO SANTI",
+      "birthDate": "2006-04-21",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "wa-eb6a4643",
+    "label": "WhatsApp 2026-07-28_at_15.15.27",
+    "source": "assets:WhatsApp_Image_2026-07-28_at_15.15.27-eb6a4643-d57b-4c4f-9628-73ac50da4f76.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA07486ST8",
+      "surname": "SPADARO",
+      "givenNames": "MELISSA BEATRICE",
+      "birthDate": "2008-02-05",
+      "sex": "F"
+    }
+  },
+  {
+    "id": "wa-7043ee2d",
+    "label": "WhatsApp 2026-07-28_at_15.15.55",
+    "source": "assets:WhatsApp_Image_2026-07-28_at_15.15.55-7043ee2d-76ab-490c-9cde-0495f7d6bda7.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA83430XS5",
+      "surname": "MOLLICA",
+      "givenNames": "ROBERTA",
+      "birthDate": "1994-03-23",
+      "sex": "F"
+    }
+  },
+  {
+    "id": "wa-e1c89428",
+    "label": "WhatsApp 2026-08-07_at_18.45.09",
+    "source": "assets:WhatsApp_Image_2026-08-07_at_18.45.09-e1c89428-9959-4f01-bb0f-09289fae0d50.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA29829VL2",
+      "surname": "FICI",
+      "givenNames": "ALDO",
+      "birthDate": "1993-02-05",
+      "sex": "M"
+    }
+  },
+  {
+    "id": "wa-054aa689",
+    "label": "WhatsApp 2026-08-14_at_15.45.36",
+    "source": "assets:WhatsApp_Image_2026-08-14_at_15.45.36-054aa689-9415-4420-ab8d-2f9f857ba44d.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA266480K8",
+      "surname": "NOTARO",
+      "givenNames": "MARIA",
+      "birthDate": "1981-03-06",
+      "sex": "F"
+    }
+  }
+]

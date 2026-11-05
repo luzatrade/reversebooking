@@ -1,22 +1,49 @@
 import { LOCALE_COOKIE } from "@/lib/i18n/cookie";
 import { guideSlugForLocale } from "@/lib/i18n/guides";
-import type { Locale } from "@/lib/i18n/translations";
-import { buildDestinationSlug, canonicalCityKey, resolveDestinationHubSlug } from "@/lib/seo/city-canonical";
-import { slugifySeo } from "@/lib/seo/slug";
+import { supportedLocales, type Locale } from "@/lib/i18n/translations";
+import { buildDestinationSlug, resolveDestinationHubSlug } from "@/lib/seo/city-canonical";
+import {
+  hubAlternateInternalPath,
+  hubLocaleConfig,
+  isHubSeoLocale,
+  isHubSeoPublicInternalPath,
+  listHubEnabledLocales,
+  listHubSeoLocales,
+} from "@/lib/seo/hub-locale-registry";
 
 export const LOCALE_HEADER = "x-next-locale";
 
+/** Forwarded on rewrite. Avoid `x-next-*` so Next does not strip it from RSC `headers()`. */
+export const HD_LOCALE_HEADER = "x-hd-locale";
+export const HD_PATHNAME_HEADER = "x-hd-pathname";
+
 export const DEFAULT_LOCALE: Locale = "it";
+
+export function isLocaleHomePath(pathname: string): boolean {
+  const path = pathname.split("?")[0]?.replace(/\/+$/, "") || "/";
+  if (path === "/") return true;
+  return supportedLocales.some((locale) => path === `/${locale}`);
+}
 
 const DESTINATION_SEGMENT: Record<Locale, string> = {
   it: "destinazioni",
   en: "destinations",
+  de: hubLocaleConfig("de")!.destinationSegment,
+  zh: hubLocaleConfig("zh")!.destinationSegment,
+  es: hubLocaleConfig("es")!.destinationSegment,
 };
+
+const DESTINATION_SEGMENTS = new Set<string>(Object.values(DESTINATION_SEGMENT));
 
 const GUIDE_SEGMENT: Record<Locale, string> = {
   it: "guide",
   en: "guides",
+  de: "guides",
+  zh: "guides",
+  es: "guides",
 };
+
+const LOCALE_PREFIX_PATTERN = new RegExp(`^/(${supportedLocales.join("|")})(/.*)?$`);
 
 const PUBLIC_SEO_PREFIXES = [
   "/destinazioni",
@@ -54,7 +81,7 @@ const LOCALE_SKIP_PREFIXES = [
 ];
 
 export function isLocale(value: string | null | undefined): value is Locale {
-  return value === "it" || value === "en";
+  return !!value && (supportedLocales as string[]).includes(value);
 }
 
 export function destinationSegment(locale: Locale): string {
@@ -76,16 +103,11 @@ export function resolveDestinationPublicSlug(publicSlug: string): string {
 }
 
 function translateExternalSegment(segment: string, locale: Locale, toInternal: boolean): string {
-  if (toInternal) {
-    if (segment === DESTINATION_SEGMENT.it || segment === DESTINATION_SEGMENT.en) return DESTINATION_SEGMENT.it;
-    if (segment === GUIDE_SEGMENT.it || segment === GUIDE_SEGMENT.en) return GUIDE_SEGMENT.it;
-    return segment;
-  }
-  if (segment === DESTINATION_SEGMENT.it || segment === DESTINATION_SEGMENT.en) {
-    return DESTINATION_SEGMENT[locale];
+  if (DESTINATION_SEGMENTS.has(segment)) {
+    return toInternal ? DESTINATION_SEGMENT.it : DESTINATION_SEGMENT[locale];
   }
   if (segment === GUIDE_SEGMENT.it || segment === GUIDE_SEGMENT.en) {
-    return GUIDE_SEGMENT[locale];
+    return toInternal ? GUIDE_SEGMENT.it : GUIDE_SEGMENT[locale];
   }
   return segment;
 }
@@ -100,7 +122,7 @@ function externalPathFromInternal(internalPath: string, locale: Locale): string 
     if (parts[1]) parts[1] = resolveDestinationPublicSlug(parts[1]);
   } else if (parts[0] === "guide") {
     parts[0] = GUIDE_SEGMENT[locale];
-    if (parts[1]) parts[1] = guideSlugForLocale(parts[1], locale);
+    if (parts[1]) parts[1] = guideSlugForLocale(parts[1], locale === "it" ? "it" : "en");
   }
   return `/${parts.join("/")}`;
 }
@@ -130,7 +152,7 @@ export function localizedCanonicalPath(locale: Locale, internalPath = "/"): stri
 }
 
 export function stripLocalePrefix(pathname: string): { locale: Locale | null; pathname: string } {
-  const match = pathname.match(/^\/(it|en)(\/.*)?$/);
+  const match = pathname.match(LOCALE_PREFIX_PATTERN);
   if (!match) return { locale: null, pathname };
   const locale = match[1] as Locale;
   const rest = match[2] ?? "/";
@@ -161,6 +183,12 @@ export function shouldSkipLocaleMiddleware(pathname: string): boolean {
   );
 }
 
+/** Lightweight SEO export locales: homepage + whitelisted destination hubs only. */
+export function isHubSeoPublicInternalPathForLocale(internalPath: string, locale: Locale): boolean {
+  if (!isHubSeoLocale(locale)) return true;
+  return isHubSeoPublicInternalPath(internalPath, locale);
+}
+
 export function switchLocalePath(pathname: string, targetLocale: Locale): string {
   const parsed = parseLocalePath(pathname);
   if (parsed) return localizedPath(targetLocale, parsed.internalPath);
@@ -177,11 +205,12 @@ export function destinationPublicPath(citySlugOrName: string, locale: Locale = D
 }
 
 export function structurePublicPath(slug: string, locale: Locale = DEFAULT_LOCALE): string {
+  if (isHubSeoLocale(locale)) return localizedPath("en", `/hotel/${slug}`);
   return localizedPath(locale, `/hotel/${slug}`);
 }
 
 export function guidePublicPath(slug: string, locale: Locale = DEFAULT_LOCALE): string {
-  return localizedPath(locale, `/guide/${slug}`);
+  return localizedPath(locale === "it" ? "it" : "en", `/guide/${slug}`);
 }
 
 export function homePath(locale: Locale = DEFAULT_LOCALE): string {
@@ -199,13 +228,31 @@ export function localeCookieOptions(locale: Locale) {
 }
 
 export function hreflangCode(locale: Locale): string {
-  return locale === "en" ? "en-GB" : "it-IT";
+  if (locale === "en") return "en-GB";
+  const hubConfig = hubLocaleConfig(locale);
+  if (hubConfig) return hubConfig.hreflang;
+  return "it-IT";
 }
 
 export function allLocalizedPaths(internalPath = "/"): Record<string, string> {
-  return {
+  const paths: Record<string, string> = {
     "it-IT": localizedPath("it", internalPath),
     "en-GB": localizedPath("en", internalPath),
     "x-default": localizedPath(DEFAULT_LOCALE, internalPath),
   };
+
+  for (const locale of listHubSeoLocales()) {
+    if (hubAlternateInternalPath(locale, internalPath)) {
+      paths[hreflangCode(locale)] = localizedPath(locale, internalPath);
+    }
+  }
+
+  return paths;
+}
+
+/** Localized variants of a path across the hub-only locales that publish it. */
+export function hubSeoLocalizedPaths(internalPath: string): string[] {
+  return listHubSeoLocales()
+    .filter((locale) => hubAlternateInternalPath(locale, internalPath))
+    .map((locale) => localizedPath(locale, internalPath));
 }

@@ -10,6 +10,7 @@ import { dashboardSurfaces } from "@/components/dashboard/dashboardSurfaces";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import {
   boardBasisShort,
+  catalogLabelsForLocale,
   catalogTripTypeLabels,
   formatOfferDateRange,
   mealPlanWizardDescriptions,
@@ -613,7 +614,7 @@ export function AgencyCatalogOfferWizard() {
                     <OptionCard
                       key={tt}
                       selected={tripType === tt}
-                      title={catalogTripTypeLabels[locale][tt]}
+                      title={catalogLabelsForLocale(catalogTripTypeLabels, locale)[tt]}
                       onClick={() => setTripType(tt)}
                     />
                   ))}
@@ -721,7 +722,7 @@ export function AgencyCatalogOfferWizard() {
                   <label className="block text-sm font-medium">
                     {c.wizardMonthLabel}
                     <select value={flexMonth} onChange={(e) => setFlexMonth(Number(e.target.value))} className="mt-2 w-full rounded-2xl border px-4 py-3 text-sm">
-                      {MONTH_OPTIONS[locale].map((m) => (
+                      {catalogLabelsForLocale(MONTH_OPTIONS, locale).map((m) => (
                         <option key={m.value} value={m.value}>{m.label}</option>
                       ))}
                     </select>
@@ -784,7 +785,7 @@ export function AgencyCatalogOfferWizard() {
                     <OptionCard
                       key={tt}
                       selected={targetType === tt}
-                      title={targetTypeLabels[locale][tt]}
+                      title={catalogLabelsForLocale(targetTypeLabels, locale)[tt]}
                       onClick={() => setTargetType(tt)}
                     />
                   ))}
@@ -813,14 +814,14 @@ export function AgencyCatalogOfferWizard() {
                 <p className="mt-1 text-xs text-zinc-500">{c.wizardBoardBasisHint}</p>
                 <div className="mt-3 grid gap-3 sm:grid-cols-2">
                   {MEAL_PLANS.map((mp) => {
-                    const copy = mealPlanWizardDescriptions[locale][mp];
+                    const copy = catalogLabelsForLocale(mealPlanWizardDescriptions, locale)[mp];
                     return (
                       <OptionCard
                         key={mp}
                         selected={boardBasis === mp}
                         title={copy.title}
                         hint={copy.hint}
-                        badge={boardBasisShort[locale][mp]}
+                        badge={catalogLabelsForLocale(boardBasisShort, locale)[mp]}
                         onClick={() => setBoardBasis(mp)}
                       />
                     );
@@ -859,7 +860,7 @@ export function AgencyCatalogOfferWizard() {
                           setTransports((p) => (e.target.checked ? [...p, tr] : p.filter((x) => x !== tr)))
                         }
                       />
-                      {transportModeLabels[locale][tr]}
+                      {catalogLabelsForLocale(transportModeLabels, locale)[tr]}
                     </label>
                   ))}
                 </div>
@@ -1133,7 +1134,7 @@ export function AgencyCatalogOfferWizard() {
                     )}
                   </div>
                   <div className="p-4">
-                    <p className="text-xs font-semibold uppercase tracking-wide text-[#0f4c81]">{catalogTripTypeLabels[locale][tripType]}</p>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-[#0f4c81]">{catalogLabelsForLocale(catalogTripTypeLabels, locale)[tripType]}</p>
                     <h3 className="mt-1 text-lg font-semibold text-zinc-900">{locale === "en" ? titleEn : titleIt}</h3>
                     <p className="mt-1 text-sm text-zinc-500">
                       {agency?.property_name}
@@ -1146,7 +1147,7 @@ export function AgencyCatalogOfferWizard() {
                         {locale === "en" ? "/person" : "/persona"}
                       </span>
                       <span className="rounded-full bg-zinc-100 px-2 py-0.5 text-xs font-semibold">
-                        {boardBasisShort[locale][boardBasis]} · {mealPlanWizardDescriptions[locale][boardBasis].title}
+                        {catalogLabelsForLocale(boardBasisShort, locale)[boardBasis]} · {catalogLabelsForLocale(mealPlanWizardDescriptions, locale)[boardBasis].title}
                       </span>
                     </div>
                   </div>

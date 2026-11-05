@@ -194,12 +194,12 @@ async function searchAdvertisers(term: string, limit: number): Promise<AdminSear
 
 async function searchRequests(term: string, limit: number): Promise<AdminSearchHit[]> {
   const supabase = db();
-  const filter = buildOrFilter(term, ["city_name", "preferred_area", "country_name"], ["id"]);
+  const filter = buildOrFilter(term, ["city_name", "preferred_area", "country_name", "request_code"], ["id"]);
   if (!filter) return [];
 
   const { data, error } = await supabase
     .from("travel_requests")
-    .select("id, city_name, country_name, preferred_area, status, check_in, check_out")
+    .select("id, request_code, city_name, country_name, preferred_area, status, check_in, check_out")
     .or(filter)
     .order("created_at", { ascending: false })
     .limit(limit);
@@ -209,9 +209,9 @@ async function searchRequests(term: string, limit: number): Promise<AdminSearchH
   return (data ?? []).map((row) => ({
     type: "request" as const,
     id: row.id,
-    title: `${row.city_name}, ${row.country_name}`,
+    title: row.request_code ? `${row.request_code} · ${row.city_name}` : `${row.city_name}, ${row.country_name}`,
     subtitle: [row.preferred_area, row.status, `${row.check_in} → ${row.check_out}`].filter(Boolean).join(" · "),
-    href: hrefFor("request", isUuid(term.trim()) ? row.id : row.city_name),
+    href: `/console/annunci/${row.id}`,
   }));
 }
 

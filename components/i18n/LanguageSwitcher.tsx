@@ -1,7 +1,8 @@
 "use client";
 
 import { Globe2 } from "lucide-react";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
+import { persistLocaleClient } from "@/lib/i18n/cookie";
 import { localeLabels, supportedLocales, type Locale } from "@/lib/i18n/translations";
 import { switchLocalePath } from "@/lib/i18n/routing";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
@@ -9,6 +10,9 @@ import { useLanguage } from "@/components/i18n/LanguageProvider";
 const localeFlags: Record<Locale, string> = {
   it: "🇮🇹",
   en: "🇬🇧",
+  de: "🇩🇪",
+  zh: "🇨🇳",
+  es: "🇪🇸",
 };
 
 type LanguageSwitcherProps = {
@@ -16,14 +20,18 @@ type LanguageSwitcherProps = {
 };
 
 export function LanguageSwitcher({ compact = false }: LanguageSwitcherProps) {
-  const { locale, setLocale, t } = useLanguage();
+  const { locale, t } = useLanguage();
   const pathname = usePathname();
-  const router = useRouter();
 
   const onChange = (nextLocale: Locale) => {
-    setLocale(nextLocale);
-    const target = switchLocalePath(pathname, nextLocale);
-    if (target !== pathname) router.push(target);
+    const browserPath = window.location.pathname || pathname;
+    const target = switchLocalePath(browserPath, nextLocale);
+    persistLocaleClient(nextLocale);
+    if (target === browserPath) {
+      window.location.reload();
+      return;
+    }
+    window.location.assign(`${target}${window.location.search}`);
   };
 
   const options = supportedLocales.map((item) => (

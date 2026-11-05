@@ -15,22 +15,28 @@ import { canonicalUrl } from "@/lib/seo/canonical";
 import { listPopularDestinations } from "@/lib/seo/destination-queries";
 import { buildHomePageJsonLd } from "@/lib/seo/home-jsonld";
 import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
+import { buildHomepageSeoCopy } from "@/lib/seo/homepage-metadata";
 import { fetchShowcaseHomeInitialData } from "@/lib/showcase/homeData";
 
-export const revalidate = 60;
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getServerTranslations();
   const locale = await getServerLocale();
-  const title = t.metadata.siteTitleDefault;
-  const description = t.metadata.siteDescription;
+  const seo = buildHomepageSeoCopy(locale, t);
+  const title = seo.title;
+  const description = seo.description;
 
   return {
     title,
     description,
     keywords: locale === "en"
       ? ["reverse booking", "reversebooking", "HotelsDrop", "hotel offers", "no commission"]
-      : ["reverse booking", "reversebooking", "HotelsDrop", "offerte hotel", "senza commissioni"],
+      : locale === "de"
+        ? ["Reverse Booking", "HotelsDrop", "Hotel buchen", "Italien", "ohne Provision"]
+        : locale === "zh"
+          ? ["反向预订", "HotelsDrop", "意大利酒店", "无佣金", "直接报价"]
+          : ["reverse booking", "reversebooking", "HotelsDrop", "offerte hotel", "senza commissioni"],
     alternates: buildLanguageAlternates("/", locale),
     openGraph: buildOpenGraph({ title, description, path: "/", locale }),
     twitter: buildTwitterCard({ title, description }),
@@ -41,7 +47,10 @@ export default async function HomePage() {
   const locale = await getServerLocale();
   const [initialData, destinations] = await Promise.all([
     fetchShowcaseHomeInitialData(),
-    listPopularDestinations(),
+    listPopularDestinations().catch((error) => {
+      console.error("[home] popular destinations failed:", error);
+      return [];
+    }),
   ]);
   const faqItems = getHomeFaq(locale);
   const howItWorksSteps = getHomeHowItWorks(locale);

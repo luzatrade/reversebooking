@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { GuideArticlePage, guideArticleMetadata } from "@/components/seo/GuideArticlePage";
 import { getServerLocale } from "@/lib/i18n/get-translations";
 import { getGuideBySlug } from "@/lib/i18n/guides";
+import { localizedPath } from "@/lib/i18n/routing";
 import { buildGuideLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
 
 export const revalidate = 86400;
@@ -30,7 +31,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function GuideArticleRoute({ params }: PageProps) {
   const { slug } = await params;
   const locale = await getServerLocale();
-  if (!getGuideBySlug(slug, locale)) notFound();
+  const guide = getGuideBySlug(slug, locale);
+  if (!guide) notFound();
+  if (guide.slug !== slug) {
+    permanentRedirect(localizedPath(locale, `/guide/${guide.slug}`));
+  }
 
   return (
     <main>

@@ -88,11 +88,11 @@ async function updateHotel(hotel, { withContacts }) {
   const cityName = hotel.city ? await resolveCanonicalCityName(hotel.city) : row.city_name;
   const cityIstat = hotel.city ? await resolveCityIstat(hotel.city) : undefined;
 
-  const patch = {};
-  if ((hotel.description ?? "").trim()) patch.description = hotel.description.trim();
-  if ((hotel.description_en ?? "").trim()) patch.description_en = hotel.description_en.trim();
-  if (hotel.indirizzo?.trim()) patch.indirizzo = hotel.indirizzo.trim();
-
+  const patch = {
+    indirizzo: hotel.indirizzo ?? row.indirizzo,
+  };
+  if (hotel.description != null) patch.description = hotel.description;
+  if (hotel.description_en != null) patch.description_en = hotel.description_en;
   if (withContacts) {
     if (hotel.phone) patch.phone = hotel.phone;
     if (hotel.email) patch.email = hotel.email;

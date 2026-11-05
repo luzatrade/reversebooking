@@ -1,4 +1,4 @@
-import { createServiceRoleClient } from "@/lib/supabase/admin";
+import { createServiceRoleClient, withSupabaseFallback } from "@/lib/supabase/admin";
 
 export type StructureSeoRecord = {
   source: "onboarding" | "hotel";
@@ -85,28 +85,37 @@ function mapHotel(row: Record<string, unknown>): StructureSeoRecord {
   };
 }
 
-export async function fetchStructureBySlug(slug: string): Promise<StructureSeoRecord | null> {
+async function fetchStructureRowBySlug(
+  slug: string,
+  options?: { indexableOnly?: boolean },
+): Promise<StructureSeoRecord | null> {
   const admin = createServiceRoleClient();
   if (!admin) return null;
+  const indexableOnly = options?.indexableOnly ?? false;
 
-  const { data: hotel } = await admin
-    .from("hotel_accounts")
-    .select(HOTEL_SELECT)
-    .eq("slug", slug)
-    .eq("seo_indexable", true)
-    .maybeSingle();
+  return withSupabaseFallback(`structure slug ${slug}`, null, async () => {
+    let hotelQuery = admin.from("hotel_accounts").select(HOTEL_SELECT).eq("slug", slug);
+    if (indexableOnly) hotelQuery = hotelQuery.eq("seo_indexable", true);
+    const { data: hotel } = await hotelQuery.maybeSingle();
+    if (hotel?.slug) return mapHotel(hotel as Record<string, unknown>);
 
-  if (hotel?.slug) return mapHotel(hotel as Record<string, unknown>);
+    let onboardingQuery = admin.from("onboarding_hotels").select(ONBOARDING_SELECT).eq("slug", slug);
+    if (indexableOnly) onboardingQuery = onboardingQuery.eq("seo_indexable", true);
+    const { data: onboarding } = await onboardingQuery.maybeSingle();
+    if (onboarding?.slug) return mapOnboarding(onboarding as Record<string, unknown>);
 
-  const { data: onboarding } = await admin
-    .from("onboarding_hotels")
-    .select(ONBOARDING_SELECT)
-    .eq("slug", slug)
-    .eq("seo_indexable", true)
-    .maybeSingle();
+    return null;
+  });
+}
 
-  if (onboarding?.slug) return mapOnboarding(onboarding as Record<string, unknown>);
-  return null;
+/** Indexable structures only — used for live SEO pages and sitemap. */
+export async function fetchStructureBySlug(slug: string): Promise<StructureSeoRecord | null> {
+  return fetchStructureRowBySlug(slug, { indexableOnly: true });
+}
+
+/** Any structure with this slug, including de-indexed rows (for redirects). */
+export async function fetchStructureBySlugAny(slug: string): Promise<StructureSeoRecord | null> {
+  return fetchStructureRowBySlug(slug, { indexableOnly: false });
 }
 
 export function buildStructureTravelRequestHref(
@@ -118,26 +127,53 @@ export function buildStructureTravelRequestHref(
   return `/inserzionista/crea-annuncio?${params.toString()}`;
 }
 
-export async function resolveSlugByUuid(identifier: string): Promise<string | null> {
+async function resolveSlugRowByUuid(
+  identifier: string,
+  options?: { indexableOnly?: boolean },
+): Promise<string | null> {
   const admin = createServiceRoleClient();
   if (!admin) return null;
+  const indexableOnly = options?.indexableOnly ?? false;
 
-  const { data: hotel } = await admin
-    .from("hotel_accounts")
-    .select("slug, seo_indexable")
-    .eq("id", identifier)
-    .maybeSingle();
+  return withSupabaseFallback(`structure uuid ${identifier}`, null, async () => {
+    const { data: hotel } = await admin
+      .from("hotel_accounts")
+      .select("slug, seo_indexable")
+      .eq("id", identifier)
+      .maybeSingle();
 
-  if (hotel?.seo_indexable && hotel.slug) return hotel.slug;
+    if (hotel?.slug && (!indexableOnly || hotel.seo_indexable)) return hotel.slug;
 
-  const { data: onboarding } = await admin
-    .from("onboarding_hotels")
-    .select("slug, seo_indexable")
-    .eq("id", identifier)
-    .maybeSingle();
+    const { data: onboarding } = await admin
+      .from("onboarding_hotels")
+      .select("slug, seo_indexable")
+      .eq("id", identifier)
+      .maybeSingle();
 
-  if (onboarding?.seo_indexable && onboarding.slug) return onboarding.slug;
-  return null;
+    if (onboarding?.slug && (!indexableOnly || onboarding.seo_indexable)) return onboarding.slug;
+    return null;
+  });
+}
+
+export async function resolveSlugByUuid(identifier: string): Promise<string | null> {
+  return resolveSlugRowByUuid(identifier, { indexableOnly: true });
+}
+
+export async function resolveSlugByUuidAny(identifier: string): Promise<string | null> {
+  return resolveSlugRowByUuid(identifier, { indexableOnly: false });
+}
+
+export async function structureIdExists(identifier: string): Promise<boolean> {
+  const admin = createServiceRoleClient();
+  if (!admin) return false;
+
+  return withSupabaseFallback(`structure exists ${identifier}`, false, async () => {
+    for (const table of ["hotel_accounts", "onboarding_hotels"] as const) {
+      const { data } = await admin.from(table).select("id").eq("id", identifier).maybeSingle();
+      if (data?.id) return true;
+    }
+    return false;
+  });
 }
 
 export async function fetchOnboardingSlugById(id: string): Promise<string | null> {
@@ -186,7 +222,10 @@ export async function listIndexableStructureSlugs(limit = 50000): Promise<string
         .eq("seo_indexable", true)
         .not("slug", "is", null)
         .range(from, from + 999);
-      if (error) throw error;
+      if (error) {
+        console.error("[seo] listIndexableStructureSlugs:", error.message);
+        break;
+      }
       for (const row of data ?? []) {
         if (row.slug) slugs.add(row.slug);
         if (slugs.size >= limit) break;

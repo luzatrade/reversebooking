@@ -2,14 +2,18 @@ import type { Session } from "@supabase/supabase-js";
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 import {
+  isHubSeoPublicInternalPathForLocale,
   isPublicSeoPath,
   localeCookieOptions,
+  HD_LOCALE_HEADER,
+  HD_PATHNAME_HEADER,
   LOCALE_HEADER,
   localizedPath,
   parseLocalePath,
   shouldSkipLocaleMiddleware,
 } from "@/lib/i18n/routing";
 import { preferredLocaleFromRequest } from "@/lib/i18n/locale-detect";
+import { extractHotelSlugFromPathname, isRemovedHotelSlug } from "@/lib/seo/removed-hotel-slugs";
 
 const PROTECTED_PREFIXES = [
   "/struttura",
@@ -35,9 +39,28 @@ function handleLocale(request: NextRequest): NextResponse | null {
 
   const parsed = parseLocalePath(pathname);
   if (parsed) {
+    if (parsed.locale === "de" || parsed.locale === "zh") {
+      if (parsed.internalPath.startsWith("/hotel/")) {
+        const url = request.nextUrl.clone();
+        url.pathname = localizedPath("en", parsed.internalPath);
+        return NextResponse.redirect(url, 301);
+      }
+      if (parsed.internalPath !== "/" && !isHubSeoPublicInternalPathForLocale(parsed.internalPath, parsed.locale)) {
+        const url = request.nextUrl.clone();
+        url.pathname = localizedPath("en", parsed.internalPath);
+        return NextResponse.redirect(url, 301);
+      }
+    }
+
     const url = request.nextUrl.clone();
     url.pathname = parsed.internalPath;
-    const response = NextResponse.rewrite(url);
+    const requestHeaders = new Headers(request.headers);
+    requestHeaders.set(LOCALE_HEADER, parsed.locale);
+    requestHeaders.set(HD_LOCALE_HEADER, parsed.locale);
+    requestHeaders.set(HD_PATHNAME_HEADER, pathname);
+    const response = NextResponse.rewrite(url, {
+      request: { headers: requestHeaders },
+    });
     const cookie = localeCookieOptions(parsed.locale);
     response.cookies.set(cookie.name, cookie.value, {
       path: cookie.path,
@@ -115,7 +138,20 @@ function mergeCookies(from: NextResponse, into: NextResponse) {
   });
 }
 
+function handleRemovedHotelSlug(request: NextRequest): NextResponse | null {
+  const slug = extractHotelSlugFromPathname(request.nextUrl.pathname);
+  if (!isRemovedHotelSlug(slug)) return null;
+
+  return new NextResponse("Gone", {
+    status: 410,
+    headers: { "Content-Type": "text/plain; charset=utf-8" },
+  });
+}
+
 export async function middleware(request: NextRequest) {
+  const removed = handleRemovedHotelSlug(request);
+  if (removed) return removed;
+
   const localeResponse = handleLocale(request);
   if (localeResponse && localeResponse.status >= 300 && localeResponse.status < 400) {
     return localeResponse;
@@ -136,6 +172,7 @@ export async function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|txt)$).*)",
+    // Escludi statici OCR (wasm/js/gz) — altrimenti il middleware può 404-are Tesseract
+    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|txt|html|wasm|js|gz|json|css|map)$).*)",
   ],
 };

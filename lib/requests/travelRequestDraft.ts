@@ -1,5 +1,6 @@
 import type { MealPlan, PreferredStructureType } from "@/types/app";
 import type { WorldCity } from "@/lib/constants/world-cities";
+import type { TravelRequestFilters } from "@/lib/constants/travel-request-filters";
 
 export type TravelRequestDraftRoom = {
   room: number;
@@ -10,16 +11,7 @@ export type TravelRequestDraftRoom = {
   budget: number;
 };
 
-export type TravelRequestDraftFilters = {
-  connecting_rooms: boolean;
-  disabled_access: boolean;
-  pool: boolean;
-  spa: boolean;
-  bathtub: boolean;
-  garage: boolean;
-  beach: boolean;
-  pets_allowed: boolean;
-};
+export type TravelRequestDraftFilters = TravelRequestFilters;
 
 export type TravelRequestDraft = {
   selectedCity: WorldCity;

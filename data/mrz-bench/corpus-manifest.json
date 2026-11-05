@@ -1,0 +1,1036 @@
+[
+  {
+    "id": "zavaglia-1",
+    "label": "CIE Zavaglia — foto verticale MRZ destra",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/zavaglia-1.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CB19477AA9",
+      "surname": "ZAVAGLIA",
+      "givenNames": "LUCIANO",
+      "birthDate": "1983-05-26",
+      "sex": "M"
+    },
+    "parentId": "zavaglia-1"
+  },
+  {
+    "id": "zavaglia-2",
+    "label": "CIE Zavaglia — tenuta in mano verticale",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/zavaglia-2.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CB19477AA9",
+      "surname": "ZAVAGLIA",
+      "givenNames": "LUCIANO",
+      "birthDate": "1983-05-26",
+      "sex": "M"
+    },
+    "parentId": "zavaglia-2"
+  },
+  {
+    "id": "zavaglia-3",
+    "label": "CIE Zavaglia — variante simile",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/zavaglia-3.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CB19477AA9",
+      "surname": "ZAVAGLIA",
+      "givenNames": "LUCIANO",
+      "birthDate": "1983-05-26",
+      "sex": "M"
+    },
+    "parentId": "zavaglia-3"
+  },
+  {
+    "id": "gronchi-1",
+    "label": "CIE Gronchi — MRZ sinistra, piano scuro",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/gronchi-1.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA32060FA2",
+      "surname": "GRONCHI",
+      "givenNames": "IMER",
+      "birthDate": "1986-02-27",
+      "sex": "M"
+    },
+    "parentId": "gronchi-1"
+  },
+  {
+    "id": "bechini-1",
+    "label": "CIE Bechini — orizzontale, mano",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/bechini-1.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA88352YV9",
+      "surname": "BECHINI",
+      "givenNames": "GABRIEL",
+      "birthDate": "1999-03-10",
+      "sex": "M"
+    },
+    "parentId": "bechini-1"
+  },
+  {
+    "id": "bechini-2",
+    "label": "CIE Bechini — variante",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/bechini-2.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA88352YV9",
+      "surname": "BECHINI",
+      "givenNames": "GABRIEL",
+      "birthDate": "1999-03-10",
+      "sex": "M"
+    },
+    "parentId": "bechini-2"
+  },
+  {
+    "id": "muratore-1",
+    "label": "CIE Muratore — verticale, sfondo tessuto",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/muratore-1.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA22338WH1",
+      "surname": "MURATORE",
+      "givenNames": "VANESSA",
+      "birthDate": "2003-06-05",
+      "sex": "F"
+    },
+    "parentId": "muratore-1"
+  },
+  {
+    "id": "moretti-passport",
+    "label": "Passaporto Moretti — TD3",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/moretti-passport.png",
+    "format": "TD3",
+    "truth": {
+      "documentNumber": "YB8037903",
+      "surname": "MORETTI",
+      "givenNames": "ANDREA",
+      "birthDate": "1969-03-26",
+      "sex": "M"
+    },
+    "parentId": "moretti-passport"
+  },
+  {
+    "id": "serrano-passport",
+    "label": "Passaporto Serrano — TD3",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/serrano-passport.png",
+    "format": "TD3",
+    "truth": {
+      "documentNumber": "YB3099459",
+      "surname": "SERRANO",
+      "givenNames": "CRISTINA ELIZABETH",
+      "birthDate": "1990-07-12",
+      "sex": "F"
+    },
+    "parentId": "serrano-passport"
+  },
+  {
+    "id": "peixoto-1",
+    "label": "Cartão cidadão Portogallo — TD1",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/peixoto-1.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "141559705",
+      "surname": "PEIXOTO RIBEIRO",
+      "givenNames": "CARLOS MIGUEL",
+      "birthDate": "1992-11-02",
+      "sex": "M"
+    },
+    "parentId": "peixoto-1"
+  },
+  {
+    "id": "martinelli-1",
+    "label": "CIE Martinelli — scan bianco",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/martinelli-1.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA67216XP2",
+      "surname": "MARTINELLI",
+      "givenNames": "PAOLO",
+      "birthDate": "1968-01-31",
+      "sex": "M"
+    },
+    "parentId": "martinelli-1"
+  },
+  {
+    "id": "bova-1",
+    "label": "CIE Bova — treno, orizzontale",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/bova-1.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA64134IZ1",
+      "surname": "BOVA",
+      "givenNames": "FELICE RAOUL",
+      "birthDate": "2000-06-04",
+      "sex": "M"
+    },
+    "parentId": "bova-1"
+  },
+  {
+    "id": "palpa-1",
+    "label": "CIE Palpa Zavala — peruano",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/palpa-1.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA85747EV4",
+      "surname": "PALPA ZAVALA",
+      "givenNames": "MARLON SAUL",
+      "birthDate": "1989-09-11",
+      "sex": "M"
+    },
+    "parentId": "palpa-1"
+  },
+  {
+    "id": "testa-1",
+    "label": "CIE Testa — due documenti in foto (solo CIE)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/testa-1.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA66730SY4",
+      "surname": "TESTA",
+      "givenNames": "SILVANA",
+      "birthDate": "1971-03-08",
+      "sex": "F"
+    },
+    "parentId": "testa-1"
+  },
+  {
+    "id": "leo-1",
+    "label": "CIE Leo — scan fronte+retro",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/leo-1.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA64853LC3",
+      "surname": "LEO",
+      "givenNames": "FRANCESCA",
+      "birthDate": "1998-02-07",
+      "sex": "F"
+    },
+    "parentId": "leo-1"
+  },
+  {
+    "id": "gammerschmidt-1",
+    "label": "CIE tedesca Gammerschmidt — TD1",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/gammerschmidt-1.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "L3HM72N1F9",
+      "surname": "GAMMERSCHMIDT",
+      "givenNames": "NIKITA",
+      "birthDate": "2001-09-01",
+      "sex": "M"
+    },
+    "parentId": "gammerschmidt-1"
+  },
+  {
+    "id": "testscan-leo-jpg",
+    "label": "JPG test scan — Leo",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/testscan-leo-jpg.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA64853LC3",
+      "surname": "LEO",
+      "givenNames": "FRANCESCA",
+      "birthDate": "1998-02-07",
+      "sex": "F"
+    },
+    "parentId": "testscan-leo-jpg"
+  },
+  {
+    "id": "testscan-zavaglia-jpg",
+    "label": "JPG test scan — Zavaglia",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/testscan-zavaglia-jpg.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CB19477AA9",
+      "surname": "ZAVAGLIA",
+      "givenNames": "LUCIANO",
+      "birthDate": "1983-05-26",
+      "sex": "M"
+    },
+    "parentId": "testscan-zavaglia-jpg"
+  },
+  {
+    "id": "testscan-bova-jpg",
+    "label": "JPG test scan — Bova",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/testscan-bova-jpg.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA64134IZ1",
+      "surname": "BOVA",
+      "givenNames": "FELICE RAOUL",
+      "birthDate": "2000-06-04",
+      "sex": "M"
+    },
+    "parentId": "testscan-bova-jpg"
+  },
+  {
+    "id": "testscan-palpa-jpg",
+    "label": "JPG test scan — Palpa Zavala",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/testscan-palpa-jpg.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA85747EV4",
+      "surname": "PALPA ZAVALA",
+      "givenNames": "MARLON SAUL",
+      "birthDate": "1989-09-11",
+      "sex": "M"
+    },
+    "parentId": "testscan-palpa-jpg"
+  },
+  {
+    "id": "testscan-serrano-jpg",
+    "label": "JPG test scan — passaporto Serrano",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/testscan-serrano-jpg.png",
+    "format": "TD3",
+    "truth": {
+      "documentNumber": "YB3099459",
+      "surname": "SERRANO",
+      "givenNames": "CRISTINA ELIZABETH",
+      "birthDate": "1990-07-12",
+      "sex": "F"
+    },
+    "parentId": "testscan-serrano-jpg"
+  },
+  {
+    "id": "pdf-carta-sc",
+    "label": "PDF Carta identità Sc",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-carta-sc-p1.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-carta-sc"
+  },
+  {
+    "id": "pdf-lucrezia-p1",
+    "label": "PDF CIE Lucrezia (pag. 1)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-lucrezia-p1.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-lucrezia"
+  },
+  {
+    "id": "pdf-lucrezia-p2",
+    "label": "PDF CIE Lucrezia (pag. 2)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-lucrezia-p2.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-lucrezia"
+  },
+  {
+    "id": "pdf-scheda-id",
+    "label": "PDF Scheda ID multi-pagina",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-scheda-id-p1.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-scheda-id"
+  },
+  {
+    "id": "pdf-camscanner-030325",
+    "label": "PDF CamScanner 03-03-2025",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-camscanner-030325-p1.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-camscanner-030325"
+  },
+  {
+    "id": "pdf-camscanner-101720-p1",
+    "label": "PDF CamScanner 10-17-2020 (pag. 1)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-camscanner-101720-p1.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-camscanner-101720"
+  },
+  {
+    "id": "pdf-camscanner-101720-p2",
+    "label": "PDF CamScanner 10-17-2020 (pag. 2)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-camscanner-101720-p2.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-camscanner-101720"
+  },
+  {
+    "id": "pdf-camscanner-130426-p1",
+    "label": "PDF CamScanner 13-04-2026 (pag. 1)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-camscanner-130426-p1.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-camscanner-130426"
+  },
+  {
+    "id": "pdf-camscanner-130426-p2",
+    "label": "PDF CamScanner 13-04-2026 (pag. 2)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-camscanner-130426-p2.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-camscanner-130426"
+  },
+  {
+    "id": "pdf-camscanner-140425-p1",
+    "label": "PDF CamScanner 14-04-2025 (pag. 1)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-camscanner-140425-p1.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-camscanner-140425"
+  },
+  {
+    "id": "pdf-camscanner-140425-p2",
+    "label": "PDF CamScanner 14-04-2025 (pag. 2)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-camscanner-140425-p2.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-camscanner-140425"
+  },
+  {
+    "id": "pdf-camscanner-231025-p1",
+    "label": "PDF CamScanner 23-10-2025 (pag. 1)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-camscanner-231025-p1.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-camscanner-231025"
+  },
+  {
+    "id": "pdf-camscanner-231025-p2",
+    "label": "PDF CamScanner 23-10-2025 (pag. 2)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-camscanner-231025-p2.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-camscanner-231025"
+  },
+  {
+    "id": "pdf-carta-identita-apostrofo-p1",
+    "label": "PDF carta d'identità (pag. 1)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-carta-identita-apostrofo-p1.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-carta-identita-apostrofo"
+  },
+  {
+    "id": "pdf-carta-identita-apostrofo-p2",
+    "label": "PDF carta d'identità (pag. 2)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-carta-identita-apostrofo-p2.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-carta-identita-apostrofo"
+  },
+  {
+    "id": "pdf-carta-identita",
+    "label": "PDF carta identità",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-carta-identita-p1.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-carta-identita"
+  },
+  {
+    "id": "pdf-bigatti-cinzia-p1",
+    "label": "PDF Documenti identità Bigatti Cinzia (pag. 1)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-bigatti-cinzia-p1.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-bigatti-cinzia"
+  },
+  {
+    "id": "pdf-bigatti-cinzia-p2",
+    "label": "PDF Documenti identità Bigatti Cinzia (pag. 2)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-bigatti-cinzia-p2.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-bigatti-cinzia"
+  },
+  {
+    "id": "pdf-freya-roberts",
+    "label": "PDF Freya Roberts",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-freya-roberts-p1.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-freya-roberts"
+  },
+  {
+    "id": "pdf-passport-ca",
+    "label": "PDF passaporto canadese Villa",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-passport-ca-p1.png",
+    "format": "TD3",
+    "truth": {
+      "documentNumber": "P522361NG",
+      "surname": "VILLA",
+      "givenNames": "SONIA RAILI",
+      "birthDate": "2003-08-03",
+      "sex": "F"
+    },
+    "parentId": "pdf-passport-ca"
+  },
+  {
+    "id": "pdf-whatsapp-scan-0604-p1",
+    "label": "PDF WhatsApp Scan 2026-06-04 (pag. 1)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-whatsapp-scan-0604-p1.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-whatsapp-scan-0604"
+  },
+  {
+    "id": "pdf-whatsapp-scan-0604-p2",
+    "label": "PDF WhatsApp Scan 2026-06-04 (pag. 2)",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/pdf-whatsapp-scan-0604-p2.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "pdf-whatsapp-scan-0604"
+  },
+  {
+    "id": "wa-0fb3796a",
+    "label": "WhatsApp 2026-05-13_at_14.12.03",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-0fb3796a.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-0fb3796a"
+  },
+  {
+    "id": "wa-5bd86542",
+    "label": "WhatsApp 2026-05-28_at_20.07.52",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-5bd86542.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-5bd86542"
+  },
+  {
+    "id": "wa-10d1d619",
+    "label": "WhatsApp 2026-05-31_at_19.57.06",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-10d1d619.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-10d1d619"
+  },
+  {
+    "id": "wa-d6c20d83",
+    "label": "WhatsApp 2026-05-31_at_19.57.06__1_",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-d6c20d83.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-d6c20d83"
+  },
+  {
+    "id": "wa-a6b82401",
+    "label": "WhatsApp 2026-06-01_at_14.01.53",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-a6b82401.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-a6b82401"
+  },
+  {
+    "id": "wa-04d48be5",
+    "label": "WhatsApp 2026-06-01_at_14.02.29",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-04d48be5.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-04d48be5"
+  },
+  {
+    "id": "wa-0f275444",
+    "label": "WhatsApp 2026-06-01_at_19.10.11",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-0f275444.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-0f275444"
+  },
+  {
+    "id": "wa-89fcba28",
+    "label": "WhatsApp 2026-06-04_at_13.48.04",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-89fcba28.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-89fcba28"
+  },
+  {
+    "id": "wa-30d965df",
+    "label": "WhatsApp 2026-06-04_at_14.57.32",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-30d965df.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-30d965df"
+  },
+  {
+    "id": "wa-ca723657",
+    "label": "WhatsApp 2026-06-04_at_14.57.32__1_",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-ca723657.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-ca723657"
+  },
+  {
+    "id": "wa-b54fd448",
+    "label": "WhatsApp 2026-06-06_at_17.31.17",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-b54fd448.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-b54fd448"
+  },
+  {
+    "id": "wa-92499262",
+    "label": "WhatsApp 2026-06-07_at_14.22.53",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-92499262.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-92499262"
+  },
+  {
+    "id": "wa-a01f7f47",
+    "label": "WhatsApp 2026-06-08_at_14.18.58",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-a01f7f47.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-a01f7f47"
+  },
+  {
+    "id": "wa-c4a29a6b",
+    "label": "WhatsApp 2026-06-09_at_19.50.44",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-c4a29a6b.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-c4a29a6b"
+  },
+  {
+    "id": "wa-a745150d",
+    "label": "WhatsApp 2026-06-09_at_19.53.47",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-a745150d.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-a745150d"
+  },
+  {
+    "id": "wa-d0f71450",
+    "label": "WhatsApp 2026-06-13_at_19.30.01",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-d0f71450.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-d0f71450"
+  },
+  {
+    "id": "wa-23b3a611",
+    "label": "WhatsApp 2026-06-17_at_13.59.08",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-23b3a611.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-23b3a611"
+  },
+  {
+    "id": "wa-6053b285",
+    "label": "WhatsApp 2026-06-19_at_14.03.32",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-6053b285.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-6053b285"
+  },
+  {
+    "id": "wa-1bef8ac5",
+    "label": "WhatsApp 2026-06-19_at_14.05.01",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-1bef8ac5.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-1bef8ac5"
+  },
+  {
+    "id": "wa-67137d68",
+    "label": "WhatsApp 2026-06-20_at_17.31.34",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-67137d68.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-67137d68"
+  },
+  {
+    "id": "wa-2cf7ebd8",
+    "label": "WhatsApp 2026-06-21_at_10.58.20",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-2cf7ebd8.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-2cf7ebd8"
+  },
+  {
+    "id": "wa-359f6cd6",
+    "label": "WhatsApp 2026-06-21_at_10.58.25",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-359f6cd6.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-359f6cd6"
+  },
+  {
+    "id": "wa-58781b9a",
+    "label": "WhatsApp 2026-06-22_at_20.29.33",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-58781b9a.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-58781b9a"
+  },
+  {
+    "id": "wa-7a71d34f",
+    "label": "WhatsApp 2026-06-23_at_14.16.11",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-7a71d34f.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-7a71d34f"
+  },
+  {
+    "id": "wa-0df0519a",
+    "label": "WhatsApp 2026-06-23_at_17.13.55",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-0df0519a.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-0df0519a"
+  },
+  {
+    "id": "wa-33d41803",
+    "label": "WhatsApp 2026-06-23_at_19.37.53",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-33d41803.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-33d41803"
+  },
+  {
+    "id": "wa-b901330f",
+    "label": "WhatsApp 2026-06-24_at_22.21.53",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-b901330f.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-b901330f"
+  },
+  {
+    "id": "wa-124b2339",
+    "label": "WhatsApp 2026-06-27_at_15.24.44",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-124b2339.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-124b2339"
+  },
+  {
+    "id": "wa-0c323c5a",
+    "label": "WhatsApp 2026-06-29_at_20.11.25",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-0c323c5a.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-0c323c5a"
+  },
+  {
+    "id": "wa-91c1ef95",
+    "label": "WhatsApp 2026-06-30_at_17.50.14",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-91c1ef95.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-91c1ef95"
+  },
+  {
+    "id": "wa-0ab12b15",
+    "label": "WhatsApp 2026-07-02_at_15.31.37",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-0ab12b15.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-0ab12b15"
+  },
+  {
+    "id": "wa-5c48c5f5",
+    "label": "WhatsApp 2026-07-03_at_15.56.39",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-5c48c5f5.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-5c48c5f5"
+  },
+  {
+    "id": "wa-cdccb289",
+    "label": "WhatsApp 2026-07-04_at_14.24.12",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-cdccb289.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-cdccb289"
+  },
+  {
+    "id": "wa-52b78eb8",
+    "label": "WhatsApp 2026-07-04_at_14.24.27",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-52b78eb8.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-52b78eb8"
+  },
+  {
+    "id": "wa-f80d1ee1",
+    "label": "WhatsApp 2026-07-05_at_14.14.26",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-f80d1ee1.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-f80d1ee1"
+  },
+  {
+    "id": "wa-44bae5f5",
+    "label": "WhatsApp 2026-07-05_at_14.14.28",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-44bae5f5.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-44bae5f5"
+  },
+  {
+    "id": "wa-260ee46f",
+    "label": "WhatsApp 2026-07-06_at_17.03.32",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-260ee46f.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-260ee46f"
+  },
+  {
+    "id": "wa-c5b2af5c",
+    "label": "WhatsApp 2026-07-07_at_19.30.34",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-c5b2af5c.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-c5b2af5c"
+  },
+  {
+    "id": "wa-29ca6888",
+    "label": "WhatsApp 2026-07-08_at_14.00.56",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-29ca6888.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-29ca6888"
+  },
+  {
+    "id": "wa-d73a94cb",
+    "label": "WhatsApp 2026-07-08_at_20.06.50",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-d73a94cb.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA62462LQ5",
+      "surname": "FACCIN",
+      "givenNames": "MARCO",
+      "birthDate": "2000-04-08",
+      "sex": "M"
+    },
+    "parentId": "wa-d73a94cb"
+  },
+  {
+    "id": "wa-a3b1c71b",
+    "label": "WhatsApp 2026-07-11_at_16.15.02",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-a3b1c71b.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-a3b1c71b"
+  },
+  {
+    "id": "wa-9849afc0",
+    "label": "WhatsApp 2026-07-12_at_14.23.40",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-9849afc0.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA63374MF6",
+      "surname": "IMBRIAGLIO",
+      "givenNames": "ARTURO GIOVANNI",
+      "birthDate": "1989-06-08",
+      "sex": "M"
+    },
+    "parentId": "wa-9849afc0"
+  },
+  {
+    "id": "wa-ef7bd741",
+    "label": "WhatsApp 2026-07-12_at_14.26.45",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-ef7bd741.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA05242MT8",
+      "surname": "CRISTOFARO",
+      "givenNames": "GIULIA",
+      "birthDate": "1993-07-18",
+      "sex": "F"
+    },
+    "parentId": "wa-ef7bd741"
+  },
+  {
+    "id": "wa-60acdbc9",
+    "label": "WhatsApp 2026-07-15_at_15.38.08",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-60acdbc9.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA79251PY1",
+      "surname": "EVSTIGNEEVA",
+      "givenNames": "ELEONORA",
+      "birthDate": "1993-06-19",
+      "sex": "F"
+    },
+    "parentId": "wa-60acdbc9"
+  },
+  {
+    "id": "wa-6163818f",
+    "label": "WhatsApp 2026-07-16_at_17.11.13",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-6163818f.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-6163818f"
+  },
+  {
+    "id": "wa-cee18967",
+    "label": "WhatsApp 2026-07-17_at_08.13.00",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-cee18967.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-cee18967"
+  },
+  {
+    "id": "wa-a786c2c3",
+    "label": "WhatsApp 2026-07-18_at_08.50.59",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-a786c2c3.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA62267GK3",
+      "surname": "CELEBRE",
+      "givenNames": "DAVIDE",
+      "birthDate": "1994-12-09",
+      "sex": "M"
+    },
+    "parentId": "wa-a786c2c3"
+  },
+  {
+    "id": "wa-ab6e02f5",
+    "label": "WhatsApp 2026-07-18_at_13.56.39",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-ab6e02f5.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA91353IP4",
+      "surname": "ZAIA",
+      "givenNames": "ANDREA",
+      "birthDate": "1985-09-13",
+      "sex": "M"
+    },
+    "parentId": "wa-ab6e02f5"
+  },
+  {
+    "id": "wa-9ef45afe",
+    "label": "WhatsApp 2026-07-19_at_14.05.17",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-9ef45afe.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-9ef45afe"
+  },
+  {
+    "id": "wa-ba845fec",
+    "label": "WhatsApp 2026-07-19_at_14.05.40",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-ba845fec.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-ba845fec"
+  },
+  {
+    "id": "wa-bcb8c4aa",
+    "label": "WhatsApp 2026-07-20_at_14.11.40",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-bcb8c4aa.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA26409PP3",
+      "surname": "CABITINI",
+      "givenNames": "LEONARDO",
+      "birthDate": "2003-07-20",
+      "sex": "M"
+    },
+    "parentId": "wa-bcb8c4aa"
+  },
+  {
+    "id": "wa-9822d88e",
+    "label": "WhatsApp 2026-07-20_at_20.05.50",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-9822d88e.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA90022IY7",
+      "surname": "IOPPOLO",
+      "givenNames": "CARMELO",
+      "birthDate": "1991-02-19",
+      "sex": "M"
+    },
+    "parentId": "wa-9822d88e"
+  },
+  {
+    "id": "wa-ce9b34f2",
+    "label": "WhatsApp 2026-07-21_at_19.41.17",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-ce9b34f2.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-ce9b34f2"
+  },
+  {
+    "id": "wa-22c1e481",
+    "label": "WhatsApp 2026-07-21_at_21.14.42",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-22c1e481.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-22c1e481"
+  },
+  {
+    "id": "wa-040c524f",
+    "label": "WhatsApp 2026-07-21_at_21.14.43",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-040c524f.png",
+    "format": "TD1",
+    "truth": null,
+    "parentId": "wa-040c524f"
+  },
+  {
+    "id": "wa-5a34ada2",
+    "label": "WhatsApp 2026-07-26_at_21.12.03",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-5a34ada2.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA98955PA1",
+      "surname": "GARRA",
+      "givenNames": "VITO SANTI",
+      "birthDate": "2006-04-21",
+      "sex": "M"
+    },
+    "parentId": "wa-5a34ada2"
+  },
+  {
+    "id": "wa-eb6a4643",
+    "label": "WhatsApp 2026-07-28_at_15.15.27",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-eb6a4643.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA07486ST8",
+      "surname": "SPADARO",
+      "givenNames": "MELISSA BEATRICE",
+      "birthDate": "2008-02-05",
+      "sex": "F"
+    },
+    "parentId": "wa-eb6a4643"
+  },
+  {
+    "id": "wa-7043ee2d",
+    "label": "WhatsApp 2026-07-28_at_15.15.55",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-7043ee2d.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA83430XS5",
+      "surname": "MOLLICA",
+      "givenNames": "ROBERTA",
+      "birthDate": "1994-03-23",
+      "sex": "F"
+    },
+    "parentId": "wa-7043ee2d"
+  },
+  {
+    "id": "wa-e1c89428",
+    "label": "WhatsApp 2026-08-07_at_18.45.09",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-e1c89428.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA29829VL2",
+      "surname": "FICI",
+      "givenNames": "ALDO",
+      "birthDate": "1993-02-05",
+      "sex": "M"
+    },
+    "parentId": "wa-e1c89428"
+  },
+  {
+    "id": "wa-054aa689",
+    "label": "WhatsApp 2026-08-14_at_15.45.36",
+    "photo": "/Users/lucianozavaglia/Desktop/reverseboking/data/mrz-bench/corpus/wa-054aa689.png",
+    "format": "TD1",
+    "truth": {
+      "documentNumber": "CA266480K8",
+      "surname": "NOTARO",
+      "givenNames": "MARIA",
+      "birthDate": "1981-03-06",
+      "sex": "F"
+    },
+    "parentId": "wa-054aa689"
+  }
+]

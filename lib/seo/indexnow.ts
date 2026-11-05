@@ -1,12 +1,14 @@
 import { buildDestinationSlug } from "@/lib/seo/city-canonical";
 import { canonicalUrl } from "@/lib/seo/canonical";
 import { localizedPath } from "@/lib/i18n/routing";
+import { isHubSlug, listHubEnabledLocales } from "@/lib/seo/hub-locale-registry";
 import { publicSiteOrigin } from "@/lib/seo/site-url";
 import type { Locale } from "@/lib/i18n/translations";
 
 /** Endpoint condiviso IndexNow (Bing, Yandex, Naver, Seznam, ecc.). */
 const INDEXNOW_ENDPOINT = "https://api.indexnow.org/indexnow";
 const BING_INDEXNOW_ENDPOINT = "https://www.bing.com/indexnow";
+const YANDEX_INDEXNOW_ENDPOINT = "https://yandex.com/indexnow";
 const LOCALES: Locale[] = ["it", "en"];
 const MAX_URLS_PER_REQUEST = 10_000;
 
@@ -49,7 +51,13 @@ export function destinationIndexNowUrls(cityNameOrSlug: string): string[] {
     cityNameOrSlug.includes("-") && !cityNameOrSlug.includes(" ")
       ? cityNameOrSlug
       : buildDestinationSlug(cityNameOrSlug);
-  return localizedCanonicalUrls(`/destinazioni/${slug}`);
+  const urls = localizedCanonicalUrls(`/destinazioni/${slug}`);
+  for (const locale of listHubEnabledLocales()) {
+    if (isHubSlug(locale, slug)) {
+      urls.push(canonicalUrl(localizedPath(locale, `/destinazioni/${slug}`)));
+    }
+  }
+  return [...new Set(urls)];
 }
 
 function indexNowHost(): string {
@@ -114,6 +122,9 @@ export async function notifyIndexNow(urls: string[]): Promise<IndexNowResult> {
 
     const bing = await postIndexNowBatch(BING_INDEXNOW_ENDPOINT, key, keyLocation, batch);
     if (!bing.ok) return bing;
+
+    const yandex = await postIndexNowBatch(YANDEX_INDEXNOW_ENDPOINT, key, keyLocation, batch);
+    if (!yandex.ok) return yandex;
   }
 
   return { ok: true, submitted: unique.length, status: 202 };

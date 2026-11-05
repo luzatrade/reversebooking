@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound, permanentRedirect } from "next/navigation";
+import { permanentRedirect, redirect } from "next/navigation";
 import { DestinationHubPage } from "@/components/seo/DestinationHubPage";
 import { DestinationJsonLd } from "@/components/seo/DestinationJsonLd";
 import { JsonLdScript } from "@/components/seo/JsonLdScript";
@@ -48,7 +48,8 @@ export default async function DestinationPage({ params, searchParams }: PageProp
   const page = Math.max(1, Number.parseInt(pageParam ?? "1", 10) || 1);
   const result = await fetchDestinationStructures(slug, page);
 
-  if (!result) notFound();
+  // CTA homepage / slug alias errati: meglio l'indice destinazioni che un 404 secco.
+  if (!result) redirect(localizedPath(locale, "/destinazioni"));
 
   const relatedDestinations =
     page === 1 ? await listRelatedDestinations(result.hub.slug, result.hub.countryCode) : [];
@@ -60,7 +61,7 @@ export default async function DestinationPage({ params, searchParams }: PageProp
     <>
       <DestinationJsonLd hub={result.hub} items={result.items} pageUrl={pageUrl} />
       {page === 1 ? (
-        <JsonLdScript data={buildFaqPageJsonLd(getDestinationFaq(locale, result.hub.displayName), pageUrl)} />
+        <JsonLdScript data={buildFaqPageJsonLd(getDestinationFaq(locale, result.hub.displayName, result.hub.slug), pageUrl)} />
       ) : null}
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <DestinationHubPage

@@ -4,9 +4,12 @@ import { FloatingChatWidget } from "@/components/chat/FloatingChatWidgetLoader";
 import { AppFooter } from "@/components/legal/AppFooter";
 import { CookieBanner } from "@/components/legal/CookieBanner";
 import { LanguageProvider } from "@/components/i18n/LanguageProvider";
+import { ConditionalSiteHeader } from "@/components/navigation/ConditionalSiteHeader";
 import { GlobalJsonLd } from "@/components/seo/GlobalJsonLd";
 import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
 import { buildLanguageAlternates, buildOpenGraph, buildTwitterCard } from "@/lib/seo/metadata-helpers";
+import { buildHomepageSeoCopy } from "@/lib/seo/homepage-metadata";
+import { buildSiteVerificationMetadata } from "@/lib/seo/site-verification";
 import { publicSiteOrigin } from "@/lib/seo/site-url";
 import "./globals.css";
 
@@ -29,8 +32,9 @@ export const viewport = {
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getServerTranslations();
   const locale = await getServerLocale();
-  const title = t.metadata.siteTitleDefault;
-  const description = t.metadata.siteDescription;
+  const seo = buildHomepageSeoCopy(locale, t);
+  const title = seo.title;
+  const description = seo.description;
   const siteUrl = publicSiteOrigin();
 
   return {
@@ -43,6 +47,7 @@ export async function generateMetadata(): Promise<Metadata> {
     alternates: buildLanguageAlternates("/", locale),
     openGraph: buildOpenGraph({ title, description, path: "/", locale }),
     twitter: buildTwitterCard({ title, description }),
+    verification: buildSiteVerificationMetadata(),
   };
 }
 
@@ -58,9 +63,10 @@ export default async function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       style={{ colorScheme: "light" }}
     >
-      <body className="flex min-h-full flex-col overflow-x-hidden bg-zinc-50 text-zinc-900">
+      <body className="flex min-h-full flex-col overflow-x-clip bg-zinc-50 text-zinc-900">
         <GlobalJsonLd />
         <LanguageProvider initialLocale={initialLocale}>
+          <ConditionalSiteHeader />
           <div className="flex min-h-full flex-1 flex-col">{children}</div>
           <AppFooter />
           <FloatingChatWidget />

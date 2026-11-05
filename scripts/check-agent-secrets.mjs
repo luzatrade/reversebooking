@@ -25,6 +25,11 @@ const RECOMMENDED = [
     alt: ["GOOGLE_PLACES_API_KEY_TEMP"],
   },
   {
+    key: "GEMINI_API_KEY",
+    why: "Generazione automatica descrizioni SEO (Gemini API)",
+    optional: true,
+  },
+  {
     key: "GOOGLE_PLACES_PHOTOS_KEY",
     why: "Download foto Places (opzionale se inclusa nella chiave principale)",
     optional: true,
@@ -36,13 +41,49 @@ const RECOMMENDED = [
   },
   {
     key: "CRON_SECRET",
-    why: "Cron job Vercel (purge scaduti)",
+    why: "Cron Vercel + keep-alive Supabase (/api/cron/supabase-ping ogni 3 gg) + bridge n8n",
+  },
+  {
+    key: "SUPABASE_ACCESS_TOKEN",
+    why: "Resume progetto Supabase Free da agente (Management API)",
+    optional: true,
+  },
+  {
+    key: "N8N_WEBHOOK_URL",
+    why: "Webhook produzione n8n — agente avvia workflow scrape",
     optional: true,
   },
 ];
 
 function hasKey(key) {
   return Boolean(process.env[key]?.trim());
+}
+
+function getResendApiKey() {
+  for (const name of ["RESEND_API_KEY", "RESENDAPI_KEY", "RESENDAPI", "RESEND_APIKEY", "RESEND_KEY"]) {
+    const value = process.env[name]?.trim();
+    if (value) return { value, sourceVar: name };
+  }
+  return null;
+}
+
+function getResendEnvDiagnostics() {
+  const hit = getResendApiKey();
+  if (hit) {
+    return {
+      configured: true,
+      sourceVar: hit.sourceVar,
+      wrongNameHints: hit.sourceVar !== "RESEND_API_KEY" ? [`Usa RESEND_API_KEY (trovato ${hit.sourceVar})`] : [],
+    };
+  }
+  const wrongNameHints = [];
+  for (const [key, value] of Object.entries(process.env)) {
+    if (!value?.trim()) continue;
+    if (key.toLowerCase().includes("resend") && key !== "RESEND_API_KEY") {
+      wrongNameHints.push(`Trovata variabile "${key}" — il codice legge RESEND_API_KEY`);
+    }
+  }
+  return { configured: false, sourceVar: null, wrongNameHints };
 }
 
 function hasKeyOrAlt(entry) {
@@ -66,7 +107,7 @@ for (const entry of REQUIRED) {
 }
 
 for (const entry of RECOMMENDED) {
-  const ok = hasKeyOrAlt(entry);
+  const ok = entry.key === "RESEND_API_KEY" ? Boolean(getResendApiKey()) : hasKeyOrAlt(entry);
   const label = entry.optional ? "(opz.)" : "";
   console.log(`${ok ? "✓" : "○"} ${entry.key} ${label}${ok ? "" : ` — ${entry.why}`}`);
 }
@@ -89,4 +130,12 @@ if (missingRequired.length) {
   console.log(`
 ✓ Tutti i secret principali presenti — l'agente può importare onboarding e agire su Supabase in autonomia.
 `);
+}
+
+const resendDiag = getResendEnvDiagnostics();
+if (!resendDiag.configured && resendDiag.wrongNameHints.length) {
+  console.log("⚠ Resend: nome variabile non standard:");
+  for (const hint of resendDiag.wrongNameHints) console.log(`   ${hint}`);
+} else if (resendDiag.configured && resendDiag.sourceVar !== "RESEND_API_KEY") {
+  console.log(`ℹ Resend: chiave letta da ${resendDiag.sourceVar} (consigliato RESEND_API_KEY)`);
 }

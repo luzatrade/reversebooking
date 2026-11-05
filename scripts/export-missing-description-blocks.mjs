@@ -20,6 +20,8 @@ dotenv.config({ path: resolve(__dirname, "../.env.local"), override: true });
 const OUT_DIR = resolve(__dirname, "../data/missing-descriptions/blocks");
 const DEFAULT_BLOCK_SIZE = 35;
 
+const { getBookingSeoSystemPrompt, buildBookingBatchUserPrompt } = await import("./lib/booking-seo-prompt.mjs");
+
 function parseArgs() {
   const sizeArg = process.argv.find((a) => a.startsWith("--block-size="));
   const maxArg = process.argv.find((a) => a.startsWith("--max-blocks="));
@@ -153,11 +155,17 @@ async function main() {
     const jsonPath = resolve(OUT_DIR, `block-${blockId}.json`);
     writeFileSync(jsonPath, JSON.stringify(payload, null, 2), "utf8");
 
-    writeFileSync(
-      resolve(OUT_DIR, `block-${blockId}-prompt.md`),
-      buildPromptText(blockNum, totalBlocks, chunk),
-      "utf8",
-    );
+    const promptLines = [
+      `# Blocco ${blockNum}/${totalBlocks} — ${chunk.length} strutture senza descrizione IT`,
+      "",
+      getBookingSeoSystemPrompt(),
+      "",
+      "---",
+      "",
+      buildBookingBatchUserPrompt(chunk, { blockNum, totalBlocks }),
+    ];
+
+    writeFileSync(resolve(OUT_DIR, `block-${blockId}-prompt.md`), promptLines.filter(Boolean).join("\n"), "utf8");
 
     index.blocks.push({
       blockId,

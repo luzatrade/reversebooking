@@ -1,8 +1,14 @@
 import type { Metadata } from "next";
 import { BRAND_NAME } from "@/lib/legal/company";
 import { guideSlugForLocale } from "@/lib/i18n/guides";
-import { allLocalizedPaths, localizedPath } from "@/lib/i18n/routing";
+import { allLocalizedPaths, hreflangCode, localizedPath } from "@/lib/i18n/routing";
 import { canonicalUrl } from "@/lib/seo/canonical";
+import {
+  getHubGuide,
+  hubGuideSlug,
+  hubLocaleConfig,
+  listHubSeoLocales,
+} from "@/lib/seo/hub-locale-registry";
 import { DEFAULT_OG_IMAGE } from "@/lib/seo/site-url";
 import type { Locale } from "@/lib/i18n/translations";
 
@@ -25,14 +31,21 @@ export function buildGuideLanguageAlternates(guideSlug: string, locale: Locale) 
   const enSlug = guideSlugForLocale(guideSlug, "en");
   const canonical = canonicalUrl(localizedPath(locale, `/guide/${guideSlugForLocale(guideSlug, locale)}`));
 
-  return {
-    canonical,
-    languages: {
-      "it-IT": canonicalUrl(localizedPath("it", `/guide/${itSlug}`)),
-      "en-GB": canonicalUrl(localizedPath("en", `/guide/${enSlug}`)),
-      "x-default": canonicalUrl(localizedPath("it", `/guide/${itSlug}`)),
-    },
+  const languages: Record<string, string> = {
+    "it-IT": canonicalUrl(localizedPath("it", `/guide/${itSlug}`)),
+    "en-GB": canonicalUrl(localizedPath("en", `/guide/${enSlug}`)),
+    "x-default": canonicalUrl(localizedPath("it", `/guide/${itSlug}`)),
   };
+
+  for (const hubLocale of listHubSeoLocales()) {
+    if (getHubGuide(hubLocale, hubGuideSlug(guideSlug))) {
+      languages[hreflangCode(hubLocale)] = canonicalUrl(
+        localizedPath(hubLocale, `/guide/${guideSlugForLocale(guideSlug, hubLocale)}`),
+      );
+    }
+  }
+
+  return { canonical, languages };
 }
 
 export function buildOpenGraph(params: {
@@ -54,7 +67,7 @@ export function buildOpenGraph(params: {
     siteName: BRAND_NAME,
     title: params.title,
     description: params.description,
-    locale: locale === "en" ? "en_GB" : "it_IT",
+    locale: locale === "en" ? "en_GB" : (hubLocaleConfig(locale)?.ogLocale ?? "it_IT"),
     images,
   };
 }

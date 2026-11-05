@@ -1,0 +1,261 @@
+{
+  "name": "HotelsDrop scrape descrizioni",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "a1",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "hotelsdrop-scrape",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "a2",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        100
+      ],
+      "webhookId": "hotelsdrop-scrape"
+    },
+    {
+      "parameters": {
+        "url": "https://www.hotelsdrop.com/api/cron/n8n-descriptions?limit=5&secret=REPLACE_CRON_SECRET",
+        "options": {}
+      },
+      "id": "a3",
+      "name": "HTTP Request",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        280,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "hotels",
+        "options": {}
+      },
+      "id": "a4",
+      "name": "Split Out",
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        500,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "c1",
+              "leftValue": "={{ $json.website }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty"
+              }
+            },
+            {
+              "id": "c2",
+              "leftValue": "={{ $json.website }}",
+              "rightValue": "hotelscheck-in.com",
+              "operator": {
+                "type": "string",
+                "operation": "notContains"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "a5",
+      "name": "Filter",
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2,
+      "position": [
+        720,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.website }}",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "id": "a6",
+      "name": "HTTP Request1",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        940,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "var hotel = $('Split Out').item.json;\nvar scrape = $input.item.json;\nvar html = String(scrape.data || scrape.body || scrape || '');\n\nvar nome = (hotel.name || hotel.slug || '').trim();\nvar slug = hotel.slug;\nvar city = (hotel.city || '').trim();\nvar address = (hotel.address || '').trim();\nvar coords = hotel.coordinates || {};\nvar lat = coords.latitude;\nvar lng = coords.longitude;\nvar latStr = lat != null ? String(lat) : '';\nvar lngStr = lng != null ? String(lng) : '';\n\nfunction cleanSnippet(s) {\n  if (!s) return '';\n  s = s.replace(/&amp;/g, '&').replace(/<[^>]+>/g, ' ');\n  s = s.replace(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}/gi, '');\n  s = s.replace(/\\btel\\.?\\b|\\btelefono\\b|€\\s*\\d+/gi, '');\n  return s.replace(/\\s+/g, ' ').trim().slice(0, 300);\n}\n\nfunction extractEmails(text) {\n  var found = text.match(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}/gi) || [];\n  var clean = [];\n  var seen = {};\n  for (var i = 0; i < found.length; i++) {\n    var e = found[i].toLowerCase();\n    if (!seen[e]) {\n      seen[e] = true;\n      clean.push(e);\n    }\n  }\n  var bad = /(example|sentry|wix|schema|png|jpg|webp)/i;\n  var out = [];\n  for (var j = 0; j < clean.length; j++) {\n    if (!bad.test(clean[j])) out.push(clean[j]);\n  }\n  return out;\n}\n\nfunction stripHtml(t) {\n  return t\n    .replace(/<script[\\s\\S]*?<\\/script>/gi, ' ')\n    .replace(/<style[\\s\\S]*?<\\/style>/gi, ' ')\n    .replace(/<[^>]+>/g, ' ')\n    .replace(/\\s+/g, ' ')\n    .trim();\n}\n\nfunction metaContent(htmlStr, name) {\n  var re = new RegExp('<meta[^>]+name=[\"\\']' + name + '[\"\\'][^>]+content=[\"\\']([^\"\\']+)', 'i');\n  var m = htmlStr.match(re);\n  return m ? stripHtml(m[1]) : '';\n}\n\nvar metaDesc = cleanSnippet(metaContent(html, 'description') || metaContent(html, 'og:description'));\nvar titleMatch = html.match(/<title[^>]*>([\\s\\S]*?)<\\/title>/i);\nvar titleTag = titleMatch ? cleanSnippet(titleMatch[1]) : '';\nvar h1Match = html.match(/<h1[^>]*>([\\s\\S]*?)<\\/h1>/i);\nvar h1 = h1Match ? cleanSnippet(stripHtml(h1Match[1])) : '';\nvar plain = stripHtml(html).slice(0, 12000);\n\nvar AMENITY_MAP = [\n  { re: /wi-?fi|wifi|wireless/i, it: 'connessione Wi-Fi', en: 'Wi-Fi' },\n  { re: /parcheggio|parking/i, it: 'parcheggio', en: 'parking' },\n  { re: /colazione|breakfast/i, it: 'colazione', en: 'breakfast' },\n  { re: /aria condizionata|climatizzat/i, it: 'aria condizionata', en: 'air conditioning' },\n  { re: /balcon/i, it: 'balcone', en: 'balcony' },\n  { re: /vista mare|sea view|lungomare/i, it: 'vicinanza al mare', en: 'sea proximity' },\n  { re: /piscina|pool/i, it: 'piscina', en: 'swimming pool' },\n  { re: /ristorante|restaurant/i, it: 'ristorazione', en: 'dining' },\n  { re: /\\bbar\\b/i, it: 'bar', en: 'bar' },\n  { re: /terrazza|terrace/i, it: 'terrazza', en: 'terrace' },\n  { re: /bagno privato|private bathroom/i, it: 'bagno privato', en: 'private bathroom' },\n  { re: /spiaggia|beach/i, it: 'accesso alla spiaggia', en: 'beach access' },\n];\n\nvar amenitiesIt = [];\nvar amenitiesEn = [];\nfor (var a = 0; a < AMENITY_MAP.length; a++) {\n  if (AMENITY_MAP[a].re.test(html) || AMENITY_MAP[a].re.test(plain)) {\n    amenitiesIt.push(AMENITY_MAP[a].it);\n    amenitiesEn.push(AMENITY_MAP[a].en);\n  }\n}\n\nvar emails = extractEmails(html);\nvar email = (hotel.email && hotel.email.trim()) || emails[0] || '';\n\nfunction italianArticle(name) {\n  var n = name.trim();\n  if (/^hotel\\b/i.test(n)) return 'Il';\n  if (/^[aeiou]/i.test(n)) return 'L' + String.fromCharCode(39);\n  return 'Il';\n}\n\nfunction wordCount(s) {\n  return s.split(/\\s+/).filter(function (w) { return w.length > 0; }).length;\n}\n\nfunction ensureWords(text, minWords, padList) {\n  var t = text;\n  var w = wordCount(t);\n  var idx = 0;\n  while (w < minWords && idx < padList.length) {\n    t += (t.endsWith('.') ? ' ' : '. ') + padList[idx];\n    w = wordCount(t);\n    idx++;\n  }\n  return t;\n}\n\nvar snippet = [metaDesc, titleTag !== nome ? titleTag : '', h1 !== nome ? h1 : ''].filter(Boolean).join('. ').slice(0, 400);\nvar art = italianArticle(nome);\nvar nomeLower = nome.charAt(0).toLowerCase() + nome.slice(1);\nvar apos = String.fromCharCode(39);\n\nvar p1It = art + ' ' + nomeLower + ' si trova in ' + address + ', con coordinate GPS ' + latStr + ', ' + lngStr + '.';\nif (snippet) p1It += ' ' + snippet;\n\nvar p2It = 'Situato a ' + city + ', la struttura accoglie gli ospiti';\nif (amenitiesIt.length) p2It += ' con ' + amenitiesIt.slice(0, 6).join(', ');\np2It += ', in una posizione utile per chi visita il territorio.';\np2It += ' ' + apos + 'indirizzo completo e le coordinate GPS facilitano l' + apos + 'arrivo.';\n\nvar padIt = [\n  'La posizione in ' + city + ' consente collegamenti con le localita vicine della regione.',\n  'Gli spazi sono pensati per un soggiorno confortevole per viaggiatori e famiglie.',\n  'Il contesto locale offre scoperte culturali e itinerari tipici dell' + apos + 'area.',\n  'La struttura si adatta a soggiorni brevi e vacanze piu lunghe.',\n  'Gli ospiti apprezzano la quiete e la praticita della location per muoversi nella zona.',\n];\n\nvar description_it = ensureWords(p1It + '\\n\\n' + p2It, 165, padIt);\n\nvar p1En = nome + ' is located at ' + address + ', with GPS coordinates ' + latStr + ', ' + lngStr + '.';\nif (snippet) p1En += ' ' + snippet;\nvar p2En = 'Set in ' + city + ', the property welcomes guests';\nif (amenitiesEn.length) p2En += ' with ' + amenitiesEn.slice(0, 6).join(', ');\np2En += ', offering a practical base for exploring the surrounding area.';\n\nvar padEn = [\n  'The ' + city + ' location connects to nearby towns and regional highlights.',\n  'Comfortable stays for couples, families, and independent travelers.',\n  'The area supports cultural visits and outdoor routes.',\n  'Suitable for short breaks and longer holidays.',\n  'Guests value the practical location for exploring the wider area.',\n];\n\nvar description_en = ensureWords(p1En + '\\n\\n' + p2En, 140, padEn);\n\nfunction scrubDescription(t) {\n  return t\n    .replace(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}/gi, '')\n    .replace(/\\btel\\.?\\b/gi, '')\n    .replace(/\\btelefono\\b/gi, '')\n    .replace(/\\bprice\\b|\\brate\\b|\\bbook now\\b/gi, '')\n    .replace(/\\s+/g, ' ')\n    .trim();\n}\n\ndescription_it = description_it.split('\\n\\n').map(scrubDescription).join('\\n\\n');\ndescription_en = description_en.split('\\n\\n').map(scrubDescription).join('\\n\\n');\n\nreturn {\n  json: {\n    slug: slug,\n    description_it: description_it,\n    description_en: description_en,\n    email: email,\n    words_it: wordCount(description_it),\n    words_en: wordCount(description_en),\n  },\n};\n"
+      },
+      "id": "a7",
+      "name": "Code in JavaScript",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1160,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "var items = $input.all();\nvar hotels = [];\nfor (var i = 0; i < items.length; i++) {\n  var j = items[i].json;\n  var h = { slug: j.slug, description_it: j.description_it, description_en: j.description_en };\n  if (j.email && String(j.email).trim()) h.email = String(j.email).trim();\n  hotels.push(h);\n}\nreturn { json: { batch_id: new Date().toISOString(), source: 'n8n', hotels: hotels } };"
+      },
+      "id": "a8",
+      "name": "Code in JavaScript1",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1380,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://www.hotelsdrop.com/api/cron/n8n-descriptions?secret=REPLACE_CRON_SECRET",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "options": {}
+      },
+      "id": "a9",
+      "name": "HTTP Request2",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1600,
+        200
+      ]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Split Out",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out": {
+      "main": [
+        [
+          {
+            "node": "Filter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request1": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript1": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "meta": {
+    "templateCredsSetupCompleted": true
+  }
+}

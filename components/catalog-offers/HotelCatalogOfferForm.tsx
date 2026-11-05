@@ -6,7 +6,7 @@ import { HardNavLink } from "@/components/navigation/HardNavLink";
 import { useRouter } from "next/navigation";
 import { useLanguage } from "@/components/i18n/LanguageProvider";
 import { getMealPlanLabels, getStructureTypeLabels } from "@/lib/i18n/labels";
-import { HOTEL_PERK_OPTIONS, catalogRoomTypeLabels } from "@/lib/catalog-offers/labels";
+import { HOTEL_PERK_OPTIONS, catalogLabelsForLocale, catalogRoomTypeLabels } from "@/lib/catalog-offers/labels";
 import { checkoutExpiresAtIso } from "@/lib/lifecycle/checkout-expiry";
 import { makeCatalogOfferCode } from "@/lib/identifiers";
 import { getHotelOfferBlockMessage, HOTEL_OFFER_ELIGIBILITY_SELECT } from "@/lib/hotel/offer-eligibility";
@@ -49,7 +49,7 @@ export function HotelCatalogOfferForm() {
   const { locale, t } = useLanguage();
   const mealLabels = getMealPlanLabels(locale);
   const structureLabels = getStructureTypeLabels(locale);
-  const roomTypeLabels = catalogRoomTypeLabels[locale];
+  const roomTypeLabels = catalogLabelsForLocale(catalogRoomTypeLabels, locale);
   const router = useRouter();
   const [hotel, setHotel] = useState<HotelAccount | null>(null);
   const [loading, setLoading] = useState(true);

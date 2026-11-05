@@ -1,10 +1,13 @@
-export type Locale = "it" | "en";
+export type Locale = "it" | "en" | "de" | "zh" | "es";
 
-export const supportedLocales: Locale[] = ["it", "en"];
+export const supportedLocales: Locale[] = ["it", "en", "de", "zh", "es"];
 
 export const localeLabels: Record<Locale, string> = {
   it: "Italiano",
   en: "English",
+  de: "Deutsch",
+  zh: "中文",
+  es: "Español",
 };
 
 export const translations = {
@@ -297,7 +300,7 @@ export const translations = {
       selectCity: "Seleziona città",
       citySearchPlaceholder: "Città o struttura nel catalogo",
       createRequest: "Crea richiesta",
-      dropYourRequest: "Droppa la tua richiesta",
+      dropYourRequest: "Crea la tua richiesta",
       dropYourRequestHintCta: "Scopri come funziona HotelsDrop",
       dropYourRequestModal: {
         title: "Cos'è HotelsDrop?",
@@ -333,6 +336,7 @@ export const translations = {
       lastMinuteCta: "Last Minute",
       lastMinuteScrollAria: "Scorri alle offerte Last Minute",
       exploreMapCta: "Esplora su Mappa",
+      discoverWhereToStayCta: "Scopri dove alloggiare a {city}",
       exploreMapTitle: "Esplora le strutture sulla mappa",
       exploreMapSliderTitle: "Strutture in zona",
       exploreMapSliderHint: "Tocca un marker sulla mappa per aprire Profilo e Invia richiesta.",
@@ -770,6 +774,7 @@ export const translations = {
           "Puoi inviare offerte solo per annunci nella città registrata della tua struttura.",
         registeredCity: "città registrata",
         structureProfile: "Profilo struttura",
+        questuraExport: "Export Questura",
         billing: "Fatturazione",
         manageSubscription: "Gestisci abbonamento",
         statCompatibleListings: "Annunci compatibili",
@@ -1353,7 +1358,7 @@ export const translations = {
       reverseBookingTitle: "Fatti trovare dalle strutture",
       reverseBookingSubtitle:
         "Pubblica una richiesta gratuita per {city}: hotel e B&B della zona ti inviano offerte personalizzate.",
-      reverseBookingCta: "Droppa la tua richiesta",
+      reverseBookingCta: "Crea la tua richiesta",
       reverseBookingTrustFree: "Gratis per chi viaggia",
       reverseBookingTrustNoCommission: "Nessuna commissione sulle prenotazioni",
       reverseBookingTrustOffers: "Confronta offerte dirette dalle strutture",
@@ -1677,7 +1682,7 @@ export const translations = {
       selectCity: "Select city",
       citySearchPlaceholder: "City or property in catalog",
       createRequest: "Create request",
-      dropYourRequest: "Drop your request",
+      dropYourRequest: "Create your request",
       dropYourRequestHintCta: "See how HotelsDrop works",
       dropYourRequestModal: {
         title: "What is HotelsDrop?",
@@ -1712,6 +1717,7 @@ export const translations = {
       lastMinuteCta: "Last Minute",
       lastMinuteScrollAria: "Scroll to Last Minute offers",
       exploreMapCta: "Explore on Map",
+      discoverWhereToStayCta: "Discover where to stay in {city}",
       exploreMapTitle: "Explore properties on the map",
       exploreMapSliderTitle: "Properties in the area",
       exploreMapSliderHint: "Tap a marker on the map to open Profile and Send request.",
@@ -2146,6 +2152,7 @@ export const translations = {
         subtitle: "You can send offers only for listings in your registered city.",
         registeredCity: "registered city",
         structureProfile: "Property profile",
+        questuraExport: "Questura export",
         billing: "Billing",
         manageSubscription: "Manage subscription",
         statCompatibleListings: "Matching listings",
@@ -2721,7 +2728,7 @@ export const translations = {
       reverseBookingTitle: "Let properties find you",
       reverseBookingSubtitle:
         "Publish a free stay request for {city}: local hotels and B&Bs send you personalised offers.",
-      reverseBookingCta: "Drop your request",
+      reverseBookingCta: "Create your request",
       reverseBookingTrustFree: "Free for travellers",
       reverseBookingTrustNoCommission: "No booking commission",
       reverseBookingTrustOffers: "Compare direct offers from properties",

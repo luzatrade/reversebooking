@@ -126,6 +126,8 @@ export function CityAutocomplete({
   const [loading, setLoading] = useState(false);
   const [structuresLoading, setStructuresLoading] = useState(false);
   const wrapperRef = useRef<HTMLDivElement | null>(null);
+  /** Evita che onBlur tratti il nome struttura appena scelto come città manuale. */
+  const skipBlurConfirmRef = useRef(false);
 
   useEffect(() => {
     setQuery(initialQuery(value));
@@ -245,9 +247,13 @@ export function CityAutocomplete({
   }
 
   function selectStructure(structure: CatalogStructureHit) {
-    setQuery(structure.name);
+    skipBlurConfirmRef.current = true;
     setOpen(false);
     onPickStructure?.(structure);
+    // Ripristina l'etichetta destinazione: il blur non deve leggere il nome hotel.
+    if (value.city_name.trim()) {
+      setQuery(initialQuery(value));
+    }
   }
 
   const panelBusy = loading || structuresLoading;
@@ -256,6 +262,11 @@ export function CityAutocomplete({
   const showEmptyHint = !panelBusy && !hasStructureResults && !hasCityResults;
 
   function confirmManualCity() {
+    if (skipBlurConfirmRef.current) {
+      skipBlurConfirmRef.current = false;
+      return;
+    }
+
     const text = query.trim();
     if (!text) {
       onChange(createWorldCity(defaultCountryCode, ""));
@@ -269,6 +280,16 @@ export function CityAutocomplete({
       setQuery(exactCity.label);
       onChange(exactCity);
       return;
+    }
+
+    if (includeCatalogStructures && onPickStructure) {
+      const exactStructure = catalogStructures.find(
+        (structure) => normalizeText(structure.name) === normalizeText(text),
+      );
+      if (exactStructure) {
+        selectStructure(exactStructure);
+        return;
+      }
     }
 
     const manualCity = cityFromInput(defaultCountryCode, text);

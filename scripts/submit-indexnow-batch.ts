@@ -11,9 +11,8 @@ import { readFileSync, readdirSync, writeFileSync, mkdirSync } from "fs";
 import { dirname, resolve } from "path";
 import { fileURLToPath } from "url";
 import dotenv from "dotenv";
-import { listAllDestinationHubs } from "../lib/seo/destination-queries";
-import { destinationIndexNowUrls, getIndexNowKeyLocation, notifyIndexNow, structureIndexNowUrls } from "../lib/seo/indexnow";
-import { listIndexableStructureSlugs } from "../lib/seo/structure-queries";
+import { collectIndexNowBatchUrls } from "../lib/seo/indexnow-batch";
+import { getIndexNowKeyLocation, notifyIndexNow } from "../lib/seo/indexnow";
 import { publicSiteOrigin } from "../lib/seo/site-url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -52,29 +51,13 @@ function ensureIndexNowKey(): void {
 }
 
 async function collectUrls(options: CliOptions): Promise<string[]> {
-  const urls = new Set<string>();
-  const includeHotels = !options.destinationsOnly;
-  const includeDestinations = !options.hotelsOnly;
-
-  if (includeHotels) {
-    const slugs = await listIndexableStructureSlugs(options.limit ?? 100_000);
-    const limitedSlugs = options.limit ? slugs.slice(0, options.limit) : slugs;
-    for (const slug of limitedSlugs) {
-      for (const url of structureIndexNowUrls(slug)) urls.add(url);
-    }
-    console.log(`[indexnow] hotel slugs: ${limitedSlugs.length} → ${urls.size} URL (IT+EN)`);
-  }
-
-  if (includeDestinations) {
-    const hubs = await listAllDestinationHubs();
-    const limitedHubs = options.limit ? hubs.slice(0, options.limit) : hubs;
-    for (const hub of limitedHubs) {
-      for (const url of destinationIndexNowUrls(hub.slug)) urls.add(url);
-    }
-    console.log(`[indexnow] destination hubs: ${limitedHubs.length}`);
-  }
-
-  return [...urls];
+  const urls = await collectIndexNowBatchUrls({
+    limit: options.limit,
+    hotelsOnly: options.hotelsOnly,
+    destinationsOnly: options.destinationsOnly,
+  });
+  console.log(`[indexnow] URL raccolti: ${urls.length} (hotel + destinazioni, IT+EN)`);
+  return urls;
 }
 
 async function main() {

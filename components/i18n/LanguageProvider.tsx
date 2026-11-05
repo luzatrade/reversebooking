@@ -1,10 +1,14 @@
 "use client";
 
 import { createContext, ReactNode, useContext, useEffect, useMemo, useState } from "react";
-import { LOCALE_COOKIE } from "@/lib/i18n/cookie";
-import { Locale, supportedLocales, translations } from "@/lib/i18n/translations";
+import { usePathname } from "next/navigation";
+import { persistLocaleClient } from "@/lib/i18n/cookie";
+import { getTranslations, type Translations } from "@/lib/i18n/messages";
+import { parseLocalePath } from "@/lib/i18n/routing";
+import { mergeHubHomepageTranslations } from "@/lib/seo/hub-homepage-ui";
+import { Locale } from "@/lib/i18n/translations";
 
-type TranslationValue = (typeof translations)[Locale];
+type TranslationValue = Translations;
 
 type LanguageContextValue = {
   locale: Locale;
@@ -21,37 +25,30 @@ export function LanguageProvider({
   children: ReactNode;
   initialLocale?: Locale;
 }) {
-  // Parte dal valore deciso lato server (cookie): server e client renderizzano
-  // lo stesso locale al primo paint, quindi nessun mismatch di hydration.
-  const [locale, setLocaleState] = useState<Locale>(initialLocale);
+  const pathname = usePathname();
+  const pathLocale = parseLocalePath(pathname)?.locale;
+  const resolvedLocale = pathLocale ?? initialLocale;
+
+  const [locale, setLocaleState] = useState<Locale>(resolvedLocale);
 
   const setLocale = (nextLocale: Locale) => {
     setLocaleState(nextLocale);
-    window.localStorage.setItem(LOCALE_COOKIE, nextLocale);
-    document.cookie = `${LOCALE_COOKIE}=${nextLocale}; path=/; max-age=31536000; SameSite=Lax`;
+    persistLocaleClient(nextLocale);
     document.documentElement.lang = nextLocale;
   };
 
-  // Riconciliazione post-mount con eventuale preferenza salvata solo in
-  // localStorage (utenti precedenti senza cookie): avviene dopo l'hydration,
-  // quindi non genera mismatch, e riallinea anche il cookie.
   useEffect(() => {
-    const saved = window.localStorage.getItem(LOCALE_COOKIE);
-    if (saved && supportedLocales.includes(saved as Locale) && saved !== initialLocale) {
-      setLocale(saved as Locale);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  useEffect(() => {
-    document.documentElement.lang = locale;
-  }, [locale]);
+    const fromBrowser = parseLocalePath(window.location.pathname)?.locale ?? resolvedLocale;
+    setLocaleState(fromBrowser);
+    persistLocaleClient(fromBrowser);
+    document.documentElement.lang = fromBrowser;
+  }, [resolvedLocale]);
 
   const value = useMemo<LanguageContextValue>(
     () => ({
       locale,
       setLocale,
-      t: translations[locale] as TranslationValue,
+      t: mergeHubHomepageTranslations(getTranslations(locale), locale),
     }),
     [locale],
   );
