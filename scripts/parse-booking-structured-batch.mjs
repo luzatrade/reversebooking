@@ -26,43 +26,100 @@ function cleanBlock(text) {
   return text.replace(/\s+/g, " ").trim();
 }
 
+function parseEmail(raw) {
+  const emailRaw = raw?.trim() ?? "";
+  return emailRaw &&
+    !/^vuoto|—|-$/i.test(emailRaw) &&
+    /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailRaw)
+    ? emailRaw
+    : undefined;
+}
+
+function parseLegacySection(section) {
+  const idMatch = section.match(/^ID:\s*([a-f0-9-]+)/im) || section.match(/ID:\s*([a-f0-9-]+)/i);
+  if (!idMatch) return null;
+
+  const slugMatch = section.match(/^Slug:\s*(.+)$/im);
+  // \s* must not cross lines — otherwise empty Email: absorbs "Descrizione (Italiano):"
+  const emailMatch = section.match(/^Email:\s*([^\n\r]*)$/im);
+  const addrMatch = section.match(/^Indirizzo:\s*(.+)$/im);
+
+  const itMatch = section.match(
+    /Descrizione \(Italiano\):\s*([\s\S]*?)(?=^Description \(English\):|^Servizi \/ Amenities:|$)/im,
+  );
+  const enMatch = section.match(
+    /Description \(English\):\s*([\s\S]*?)(?=^Servizi \/ Amenities:|^Punti di interesse|^Target ideale:|$)/im,
+  );
+
+  const description = itMatch ? itMatch[1].trim() : null;
+  if (!description) return null;
+
+  return {
+    id: idMatch[1],
+    slug: slugMatch?.[1]?.trim(),
+    description,
+    description_en: enMatch ? enMatch[1].trim() : undefined,
+    email: parseEmail(emailMatch?.[1]),
+    indirizzo: addrMatch ? cleanBlock(addrMatch[1]) : undefined,
+  };
+}
+
+/** Gemini markdown bullets: * **ID:** uuid, * **Descrizione Italiano (Stile Booking.com SEO):** ... */
+function parseMarkdownBulletSection(section) {
+  const idMatch =
+    section.match(/\*\s*\*\*ID:\*\*\s*([a-f0-9-]+)/i) || section.match(/ID:\s*([a-f0-9-]+)/i);
+  if (!idMatch) return null;
+
+  const slugMatch = section.match(/\*\s*\*\*Slug:\*\*\s*(.+)/i) || section.match(/^Slug:\s*(.+)$/im);
+  const emailMatch =
+    section.match(/\*\s*\*\*Email:\*\*\s*([^\n\r*]+)/i) || section.match(/^Email:\s*([^\n\r]*)$/im);
+  const addrMatch =
+    section.match(/\*\s*\*\*Indirizzo:\*\*\s*(.+)/i) || section.match(/^Indirizzo:\s*(.+)$/im);
+
+  const itMatch = section.match(
+    /Descrizione Italiano \(Stile Booking\.com SEO\):\*\*\s*([\s\S]*?)(?=\*\s*\*\*Descrizione Inglese|$)/i,
+  );
+  const enMatch = section.match(
+    /Descrizione Inglese \(Booking\.com Style SEO\):\*\*\s*([\s\S]*?)(?=^---|\*\*\d+\.|$)/i,
+  );
+
+  const description = itMatch ? itMatch[1].trim() : null;
+  if (!description) return null;
+
+  return {
+    id: idMatch[1],
+    slug: slugMatch?.[1]?.trim(),
+    description,
+    description_en: enMatch ? enMatch[1].trim() : undefined,
+    email: parseEmail(emailMatch?.[1]),
+    indirizzo: addrMatch ? cleanBlock(addrMatch[1]) : undefined,
+  };
+}
+
+function splitSections(text) {
+  const isMarkdownBullets = /\*\s*\*\*ID:\*\*/i.test(text);
+  if (isMarkdownBullets) {
+    return text.split(/(?=\*\*\d+\.\s)/m).filter((p) => /\*\s*\*\*ID:\*\*/i.test(p));
+  }
+  return text.split(/(?=^\d+\.\s)/m).filter((p) => /ID:\s*[a-f0-9-]/i.test(p));
+}
+
 function parseSections(text) {
-  const parts = text.split(/(?=^\d+\.\s)/m).filter((p) => /ID:\s*[a-f0-9-]/i.test(p));
+  const parts = splitSections(text);
   const entries = [];
 
   for (const section of parts) {
-    const idMatch = section.match(/^ID:\s*([a-f0-9-]+)/im) || section.match(/ID:\s*([a-f0-9-]+)/i);
-    if (!idMatch) continue;
+    const entry = /\*\s*\*\*ID:\*\*/i.test(section)
+      ? parseMarkdownBulletSection(section)
+      : parseLegacySection(section);
 
-    const slugMatch = section.match(/^Slug:\s*(.+)$/im);
-    const emailMatch = section.match(/^Email:\s*(.*)$/im);
-    const addrMatch = section.match(/^Indirizzo:\s*(.+)$/im);
-
-    const itMatch = section.match(
-      /Descrizione \(Italiano\):\s*([\s\S]*?)(?=^Description \(English\):|^Servizi \/ Amenities:|$)/im,
-    );
-    const enMatch = section.match(
-      /Description \(English\):\s*([\s\S]*?)(?=^Servizi \/ Amenities:|^Punti di interesse|^Target ideale:|$)/im,
-    );
-
-    const description = itMatch ? itMatch[1].trim() : null;
-    const description_en = enMatch ? enMatch[1].trim() : null;
-    const emailRaw = emailMatch?.[1]?.trim() ?? "";
-    const email = emailRaw && !/^vuoto|—|-$/i.test(emailRaw) ? emailRaw : undefined;
-
-    if (!description) {
-      console.warn(`Skip ${idMatch[1]}: no IT description`);
+    if (!entry) {
+      const id = section.match(/ID:\s*([a-f0-9-]+)/i)?.[1];
+      if (id) console.warn(`Skip ${id}: no IT description`);
       continue;
     }
 
-    entries.push({
-      id: idMatch[1],
-      slug: slugMatch?.[1]?.trim(),
-      description,
-      description_en: description_en || undefined,
-      email,
-      indirizzo: addrMatch ? cleanBlock(addrMatch[1]) : undefined,
-    });
+    entries.push(entry);
   }
 
   return entries;
