@@ -92,7 +92,6 @@ ${statsBlock(stats, locale)}
 
 ## Contact
 - Email: ${company.supportEmail}
-- Phone: ${company.phone}
 - PEC: ${company.pecEmail}
 `;
   }
@@ -151,7 +150,6 @@ ${statsBlock(stats, locale)}
 
 ## Contatti
 - Email: ${company.supportEmail}
-- Telefono: ${company.phone}
 - PEC: ${company.pecEmail}
 `;
 }

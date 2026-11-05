@@ -53,6 +53,11 @@ node_modules
 # Log script operativi (harvest, seed batch)
 /logs/
 
+# Export Gemini descrizioni — generato in locale (non versionare)
+/data/missing-descriptions/blocks/
+/data/missing-descriptions/index.json
+/data/gemini-responses/
+
 # MRZ bench: foto documenti reali (solo locale)
 /data/mrz-bench/corpus/
 /data/mrz-bench/runs/

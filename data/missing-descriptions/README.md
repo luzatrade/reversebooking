@@ -1,40 +1,65 @@
 # Strutture senza descrizione IT
 
-Export per batch Gemini / copywriter: blocchi da **35** strutture con foto e indirizzo ma **senza** `description` (italiano).
+Export **locale** per batch Gemini. I file generati **non** sono su GitHub (vedi `.gitignore`).
 
-## Rigenerare
+## Regola Gemini (importante)
+
+**NON inventare.** Solo testi verificati da sito ufficiale / Google Business.  
+Se non trova nulla → struttura in `not_found`, descrizioni **vuote** (non importate).
+
+## Genera prompt sul tuo PC / Cloud Agent
 
 ```bash
+# Solo blocco 001 → stampa prompt (copia in Gemini)
+node scripts/export-missing-description-blocks.mjs --block 001 --stdout
+
+# Oppure salva file locale (non va in git)
+node scripts/export-missing-description-blocks.mjs --block 001
+
+# Tutti i blocchi (17k strutture) — solo se serve
 node scripts/export-missing-description-blocks.mjs
 ```
 
-Opzioni:
+Output locale: `data/missing-descriptions/blocks/block-001-prompt.md`
 
-- `--block-size=35` (default)
-- `--max-blocks=5` (solo i primi 5 blocchi, per test)
+## Workflow
 
-## Contenuto
-
-| File | Uso |
-|------|-----|
-| `index.json` | Totale strutture, numero blocchi, lista file |
-| `blocks/block-001.json` | 35 strutture (slug, nome, città, indirizzo, contatti) |
-| `blocks/block-001-prompt.md` | Prompt pronto per Gemini |
-
-## Workflow descrizioni
-
-1. Apri `blocks/block-NNN-prompt.md` (o JSON) e genera testi IT + EN.
-2. Salva la risposta in `data/gemini-responses/block-NNN-updates.json` (array con `slug`, `description`, `description_en`, `indirizzo`).
-3. Import:
+1. Genera o apri il prompt del blocco.
+2. Incolla in Gemini (meglio con ricerca web).
+3. Salva la risposta JSON in `data/gemini-responses/block-001-response.json` (anche questo è locale).
+4. Import in Supabase:
 
 ```bash
-node scripts/import-gemini-block-descriptions.mjs --file data/gemini-responses/block-NNN-updates.json
+node scripts/import-gemini-block-descriptions.mjs --file data/gemini-responses/block-001-response.json
 ```
 
-4. Rigenera export (il blocco esportato avrà meno righe) o passa al blocco successivo.
+5. Se ci sono `not_found`, viene creato `block-001-response-not-found.json` con l’elenco.
+
+## Formato risposta Gemini
+
+```json
+{
+  "updates": [
+    {
+      "slug": "hotel-slug",
+      "indirizzo": "...",
+      "description": "...",
+      "description_en": "...",
+      "sources": ["https://..."]
+    }
+  ],
+  "not_found": [
+    {
+      "slug": "hotel-slug",
+      "nome": "...",
+      "city_name": "...",
+      "reason": "sito assente / dati insufficienti"
+    }
+  ]
+}
+```
 
 ## Criteri export
 
-- Tabella `onboarding_hotels`
-- `main_photo_url` e `indirizzo` presenti
-- `description` IT vuota o null
+- `onboarding_hotels` con `main_photo_url` + `indirizzo`
+- `description` IT vuota
