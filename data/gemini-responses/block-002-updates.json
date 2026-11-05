@@ -1,417 +1,177 @@
 [
   {
-    "slug": "b-b-villa-noemi-cameri",
-    "indirizzo": "Via F. Baracca, 14, 28062 Cameri (NO)",
-    "phone": "+39 0321 518420",
-    "email": "info@bbvillanoemi.it",
-    "description": "Situato nel cuore di Cameri, a pochi minuti da Novara e comodamente collegato all'Aeroporto di Milano Malpensa e al Parco del Ticino, il B&B Villa Noemi offre un'oasi di pace e riservatezza. Le sistemazioni, eleganti e luminose, sono dotate di connessione WiFi ad alta velocità, aria condizionata, TV a schermo piatto e bagno privato. Gli ospiti possono rilassarsi nel curato giardino privato e gustare ogni mattina una ricca colazione a base di prodotti locali freschi. Soluzione ideale sia per soggiorni business che per vacanze relax in Piemonte.",
-    "description_en": "Nestled in the quiet town of Cameri, just short drive from Novara and Milan Malpensa Airport (MXP), B&B Villa Noemi combines warm Italian hospitality with modern comforts. Offering stylish air-conditioned rooms with free high-speed WiFi, flat-screen TVs, and private bathrooms, this bed and breakfast features a lush garden and a daily gourmet breakfast showcasing regional delicacies. Perfect for both business travelers and leisure guests exploring the Piedmont region and Ticino Park."
+    "slug": "il-sospiro-abriola",
+    "description": "Situato in Contrada Policeta 5 a Satriano di Lucania, Il Sospiro è una struttura immersa nella natura incontaminata della Valle del Melandro, all'interno del Parco Nazionale dell'Appennino Lucano. Le sistemazioni dispongono di ingresso indipendente, riscaldamento autonomo, bagno privato con doccia, asciugacapelli e set di cortesia, oltre alla connessione Wi-Fi gratuita e vista panoramica sui rilievi circostanti. La posizione riservata dista soli 3 km dal centro di Satriano di Lucania — rinomato borgo dei murales —, 15 km da Potenza e 25 km dal comprensorio sciistico Sellata-Pierfaone. È la scelta ideale per amanti del trekking, percorsi naturalistici ed escursioni enogastronomiche.",
+    "description_en": "Located at Contrada Policeta 5 in Satriano di Lucania, Il Sospiro is a countryside retreat set in the Melandro Valley within the Lucanian Apennine National Park. Accommodations feature private entrances, independent heating, en-suite bathrooms with showers, hairdryers, complimentary toiletries, free Wi-Fi, and scenic mountain views. Positioned just 3 km from Satriano's historic center (famous for its open-air murals), 15 km from Potenza, and 25 km from the Sellata-Pierfaone ski slopes, it offers an ideal setting for nature walking, hiking, and regional food-and-wine tours."
   },
   {
-    "slug": "aria-villa-di-campagna-campagna",
-    "indirizzo": "Via Contrada Serroni, 3B, 84096 Montecorvino Rovella (SA)",
-    "phone": "+39 089 808112",
-    "email": "info@ariavilladicampagna.it",
-    "description": "Immersa tra i rigogliosi paesaggi dei Picentini a Montecorvino Rovella, ARIA - Villa di Campagna è una dimora di charme posizionata strategicamente tra la Costiera Amalfitana e la Piana del Sele. La struttura dispone di una splendida piscina panoramica all'aperto, un solarium attrezzato, ampi giardini fioriti e suite dal design raffinato. Con WiFi gratuito, parcheggio privato in loco e colazione a buffet con specialità artigianali campane, rappresenta la meta d'eccellenza per una fuga romantica o una vacanza immersa nella natura.",
-    "description_en": "Situated in Montecorvino Rovella amidst the Picentini hills, ARIA - Villa di Campagna is an exclusive boutique countryside retreat located within easy reach of the Amalfi Coast and Salerno. The property boasts a panoramic outdoor swimming pool, sun terrace, manicured gardens, and elegantly appointed guest rooms equipped with free WiFi and premium amenities. Guests enjoy a delicious daily breakfast featuring authentic local Campania flavors in a peaceful, scenic atmosphere."
+    "slug": "la-dolce-vita-abriola",
+    "description": "Ubicato in Contrada Valloni ad Abriola, il Bed & Breakfast La Dolce Vita accoglie gli ospiti in un'atmosfera di montagna rilassante nel cuore della Basilicata. Le camere, spaziose e finemente arredate, sono dotate di riscaldamento regolabile, connessione Wi-Fi gratuita, TV a schermo piatto, scrivania e bagno privato con doccia. Ogni mattina viene servita una colazione all'italiana con prodotti da forno freschi e bevande calde. La struttura si trova a soli 2 km dal centro storico di Abriola e a circa 8 km dagli impianti di risalita del comprensorio sciistico Sellata-Pierfaone, risultando perfetta sia per soggiorni estivi nel verde sia per vacanze sulla neve.",
+    "description_en": "Located in Contrada Valloni in Abriola, La Dolce Vita B&B offers a relaxed mountain stay in the heart of Basilicata. Its spacious, tastefully decorated rooms feature adjustable heating, free Wi-Fi, flat-screen TVs, work desks, and private bathrooms with showers. Guests enjoy a daily Italian breakfast with fresh pastries and hot drinks. Situated just 2 km from Abriola's village center and approximately 8 km from the Sellata-Pierfaone ski slopes, it serves as a convenient base for both summer eco-tourism and winter ski getaways."
   },
   {
-    "slug": "b-b-la-majella-campo-di-giove",
-    "indirizzo": "Via Brigata Maiella, 1, 67030 Campo di Giove (AQ)",
-    "phone": "+39 0864 40812",
-    "email": "info@lamajellabb.it",
-    "description": "Nel suggestivo borgo montano di Campo di Giove, all'interno del Parco Nazionale della Majella e a breve distanza dagli impianti sciistici di Campo di Giove e Roccaraso, il B&B \"La Majella\" accoglie i viaggiatori in ambienti caldi e rifiniti in legno tipico abruzzese. La struttura offre camere panoramiche con vista sulle vette, connessione WiFi gratuita, deposito sci e una colazione genuina con dolci fatti in casa. Ideale per gli amanti del trekking, dello sci e della natura incontaminata in Abruzzo.",
-    "description_en": "Located in the picturesque mountain village of Campo di Giove, inside the Majella National Park and close to top ski slopes, B&B \"La Majella\" offers cozy alpine-style accommodations. Featuring mountain-view rooms, free WiFi, ski storage facilities, and a hearty homemade breakfast with local Abruzzo specialties, it provides the perfect base for outdoor enthusiasts, hikers, and winter sports lovers seeking tranquility and adventure."
+    "slug": "la-fattoria-sotto-il-cielo-abriola",
+    "description": "Immersa nel paesaggio rurale di Contrada Petrucco 9A a Pignola, La Fattoria Sotto il Cielo è un'autentica struttura agrituristica posizionata a soli 4 km dalla Riserva Naturale Orientata Lago Pantano di Pignola. Gli alloggi in stile rustico vantano soffitti con travi a vista, riscaldamento, TV, bagno privato ed ingresso indipendente. La tenuta mette a disposizione degli ospiti un ampio giardino recintato con area giochi per bambini, parcheggio privato gratuito ed un ristorante di campagna che propone piatti tradizionali lucani realizzati con prodotti a filiera corta. Il centro di Potenza è raggiungibile in soli 10 minuti di auto (9 km).",
+    "description_en": "Nestled in the countryside at Contrada Petrucco 9A in Pignola, La Fattoria Sotto il Cielo is an authentic farm-stay property located just 4 km from the Lake Pantano Nature Reserve. Rustic-style rooms feature exposed wooden beams, heating, TVs, en-suite bathrooms, and private entrances. The estate features an expansive fenced garden with a children's play area, free private parking, and a rustic restaurant serving traditional Lucanian farm-to-table cuisine. Central Potenza is easily reachable within a 10-minute drive (9 km)."
   },
   {
-    "slug": "mareluna-village-campofelice-di-roccella",
-    "indirizzo": "Contrada Pistavecchia, snc, 90010 Campofelice di Roccella (PA)",
-    "phone": "+39 091 932 7120",
-    "email": "info@marelunavillage.it",
-    "description": "Affacciato sul mare cristallino della costa nord siciliana, MareLuna Village a Campofelice di Roccella offre un'esperienza di soggiorno unica tra natura mediterranea e comfort moderni. Il complesso dispone di bungalow e villette immerse nel verde, piscina, area giochi, ristorante con cucina locale e accesso diretto alla spiaggia. Con WiFi gratuito, parcheggio privato e animazione per famiglie, è la scelta perfetta per vacanze al mare tra Cefalù e Palermo.",
-    "description_en": "Overlooking the crystal-clear waters of northern Sicily's coastline, MareLuna Village in Campofelice di Roccella delivers a distinctive stay blending Mediterranean nature with modern comforts. The resort features green-surrounded bungalows and cottages, a swimming pool, children's play area, on-site restaurant serving local cuisine, and direct beach access. With free WiFi, private parking, and family-friendly entertainment, it is an ideal seaside retreat between Cefalù and Palermo.",
-    "city": "Campofelice di Roccella"
+    "slug": "la-villa-resort-abriola",
+    "description": "Situato lungo Via Europa 10/A a Pignola, La Villa Resort è un complesso ricettivo moderno e raffinato sviluppato per accogliere viaggiatori d'affari e turisti in cerca di comfort avanzati. Le camere e le suite, caratterizzate da arredi di design e insonorizzazione, sono equipaggiate con aria condizionata canalizzata, Wi-Fi ad alta velocità, Smart TV, minibar, cassaforte e bagni con doccia idromassaggio o vasca. La struttura comprende reception h24, bar interno, parcheggio privato custodito, parco giardino e comodi collegamenti stradali diretti con il polo universitario e ospedaliero di Potenza (a meno di 6 km).",
+    "description_en": "Situated on Via Europa 10/A in Pignola, La Villa Resort is a modern, stylish hotel complex designed for high-end leisure and corporate travelers. Soundproofed rooms and suites feature sleek contemporary furnishings, ducted air conditioning, high-speed Wi-Fi, Smart TVs, minibars, safes, and private bathrooms with hydromassage showers or tubs. Facilities include a 24-hour front desk, lounge bar, private secure parking, landscaped gardens, and quick road connections to central Potenza and its hospital/university hubs (under 6 km)."
   },
   {
-    "slug": "a-tre-piani-sul-mare-campomarino",
-    "indirizzo": "Via E. Vanoni, 270/3, 86042 Campomarino Lido (CB)",
-    "phone": "+39 0875 510 053",
-    "email": "info@trepianisulmare.it",
-    "description": "A pochi passi dalla spiaggia dorata di Campomarino Lido, A Tre Piani Sul Mare accoglie gli ospiti in appartamenti luminosi distribuiti su più livelli con vista sul mare Adriatico. Ogni unità dispone di angolo cottura attrezzato, aria condizionata, WiFi gratuito e terrazza panoramica. La posizione strategica consente di raggiungere facilmente Termoli, le Isole Tremiti e i borghi storici del Molise, rendendolo ideale per famiglie e coppie in cerca di relax balneare.",
-    "description_en": "Just steps from the golden beaches of Campomarino Lido, A Tre Piani Sul Mare welcomes guests into bright multi-level apartments overlooking the Adriatic Sea. Each unit features a fully equipped kitchenette, air conditioning, free WiFi, and a scenic terrace. Its strategic location provides easy access to Termoli, the Tremiti Islands, and Molise's historic villages, making it perfect for families and couples seeking a relaxing coastal getaway."
+    "slug": "locanda-arcadia-abriola",
+    "description": "Posizionata in Via Forra 1 a Picerno, la Locanda Arcadia unisce la comodità dell'ospitalità alberghiera alla tradizione della ristorazione tipica lucana. Le sistemazioni dispongono di impianto di climatizzazione autonomo, TV a schermo piatto, connessione Wi-Fi gratuita e bagno privato con set di cortesia. Il rinomato ristorante interno prepara specialità gastronomiche locali a base di carni ed ingredienti a chilometro zero. Ubicata a 3 km dalla stazione ferroviaria di Picerno e vicina allo svincolo del Raccordo Autostradale Potenza-Sicignano, la locanda dista circa 18 km da Potenza centro.",
+    "description_en": "Positioned at Via Forra 1 in Picerno, Locanda Arcadia combines cozy hotel lodging with renowned traditional Lucanian dining. Guest rooms feature independent climate control, flat-screen TVs, free Wi-Fi, and private bathrooms with complimentary toiletries. The popular on-site restaurant serves regional culinary specialties crafted from locally sourced meats and produce. Located 3 km from Picerno train station and near the Potenza-Sicignano highway junction, the inn is roughly 18 km from central Potenza."
   },
   {
-    "slug": "tenuta-barbato-azienda-agricola-aria-del-campo-campora",
-    "indirizzo": "Via Valle, 84056 Gioi (SA)",
-    "phone": "+39 0828 775 033",
-    "email": "info@ariadelcampo.it",
-    "description": "Immersa nelle colline verdi del Cilento, la Tenuta Barbato Azienda Agricola Aria del Campo a Campora offre un'autentica esperienza di agriturismo tra uliveti secolari e vigneti. Gli alloggi rustici ed eleganti includono camere con bagno privato, WiFi gratuito e vista panoramica sulla valle. Gli ospiti possono degustare olio extravergine, vini e prodotti a km zero, rilassarsi nella piscina all'aperto e esplorare il Parco Nazionale del Cilento e Vallo di Diano.",
-    "description_en": "Nestled among the green hills of Cilento, Tenuta Barbato Azienda Agricola Aria del Campo in Campora offers an authentic farm-stay experience surrounded by ancient olive groves and vineyards. Rustic yet elegant accommodations include private bathrooms, free WiFi, and panoramic valley views. Guests can savor estate-produced olive oil, wines, and farm-fresh products, unwind in the outdoor pool, and explore Cilento and Vallo di Diano National Park."
+    "slug": "open-abriola",
+    "description": "Situato in Viale Seminario Maggiore 4 a Potenza, Open è una struttura ricettiva dal concept urbano e contemporaneo, ubicata nelle vicinanze dell'Ospedale San Carlo e del Campus Universitario di Macchia Romana. Le camere, insonorizzate ed ecologiche, dispongono di sistema di climatizzazione di ultima generazione, connessione Wi-Fi ultra-veloce in fibra ottica, Smart TV 43\", scrivania da lavoro e bagno privato con doccia a filo pavimento. La struttura adotta soluzioni di self check-in automatizzato tramite codice digitale ed offre un'area snack interna e parcheggi nelle immediate vicinanze.",
+    "description_en": "Located at Viale Seminario Maggiore 4 in Potenza, Open is a contemporary urban guest house positioned near the San Carlo Hospital and the Macchia Romana University Campus. Soundproofed, eco-friendly rooms come equipped with modern climate control, ultra-fast fiber-optic Wi-Fi, 43-inch Smart TVs, dedicated work desks, and private bathrooms with walk-in rainfall showers. The property features secure keyless digital self-check-in, an indoor snack area, and ample nearby public parking."
   },
   {
-    "slug": "camere-d-amare-capo-d-orlando",
-    "indirizzo": "Via Trazzera Marina, 393, 98071 Capo d'Orlando (ME)",
-    "phone": "+39 0941 901 234",
-    "email": "info@cameredamare.it",
-    "description": "Situato lungo la splendida costa tirrenica di Capo d'Orlando, CAMERE D'AMARE propone camere accoglienti a pochi minuti dal mare e dal vivace centro cittadino. Le sistemazioni, arredate con gusto mediterraneo, dispongono di aria condizionata, WiFi gratuito, TV e bagno privato, alcune con balcone vista mare. Con colazione inclusa e parcheggio nelle vicinanze, rappresenta una base ideale per scoprire le Aeolie, Cefalù e le spiagge della Sicilia nord-orientale.",
-    "description_en": "Located along the stunning Tyrrhenian coastline of Capo d'Orlando, CAMERE D'AMARE offers welcoming guest rooms just minutes from the sea and the lively town center. Tastefully decorated with Mediterranean flair, accommodations feature air conditioning, free WiFi, TV, and private bathrooms, some with sea-view balconies. With breakfast included and nearby parking, it serves as an ideal base for exploring the Aeolian Islands, Cefalù, and northeastern Sicily's beaches."
+    "slug": "ostello-villafranca-abriola",
+    "description": "Ubicato in Via Neviera 8 nel centro storico medievale di Pignola, l'Ostello Villafranca è una struttura ricettiva ideale per giovani viaggiatori, gruppi ed escursionisti. Offre sistemazioni sia in camere private sia in camerate condivise, tutte dotate di riscaldamento centralizzato e servizi igienici dedicati. L'ostello dispone di una grande cucina comune completamente attrezzata, salone ricreativo con Wi-Fi, deposito per biciclette ed attrezzatura da trekking. Dista 5 km dalla Riserva Naturale del Lago Pantano ed è un punto di partenza strategico per esplorare i portali in pietra di Pignola e i sentieri dell'Appennino.",
+    "description_en": "Positioned at Via Neviera 8 in the historic medieval center of Pignola, Ostello Villafranca provides smart budget accommodation for solo travelers, groups, and outdoor enthusiasts. It features both private guest rooms and shared dormitories with central heating and dedicated bathroom facilities. Common amenities include a fully equipped communal kitchen, a lounge area with Wi-Fi, and secure storage for bicycles and trekking gear. Situated 5 km from the Lake Pantano Nature Reserve, it offers direct access to local historic sites and Apennine hiking trails."
   },
   {
-    "slug": "agriturismo-coili-perdefrorisi-cardedu",
-    "indirizzo": "Loc. Perd'e froris, 08045 Lanusei (OG)",
-    "phone": "+39 0782 514 50",
-    "email": "info@coiliperdefrorisi.it",
-    "description": "Nelle verdi colline dell'Ogliastra, l'Agriturismo Coili Perdefrorisi a Cardedu unisce ospitalità sarda autentica e comfort moderni in un contesto di natura incontaminata. Le camere accoglienti in stile rustico offrono WiFi gratuito, climatizzazione e bagno privato, mentre il ristorante propone piatti della tradizione ogliastrina con ingredienti a km zero. A breve distanza dalle spiagge di Coccorrocci e Marina di Cardedu, è perfetto per trekking, mare e enogastronomia.",
-    "description_en": "In the rolling green hills of Ogliastra, Agriturismo Coili Perdefrorisi in Cardedu combines authentic Sardinian hospitality with modern comforts amid unspoiled nature. Cozy rustic-style rooms offer free WiFi, air conditioning, and private bathrooms, while the restaurant serves traditional Ogliastra dishes with farm-to-table ingredients. Close to Coccorrocci and Marina di Cardedu beaches, it is perfect for hiking, seaside relaxation, and local gastronomy."
+    "slug": "parco-ricevimenti-hotel-pierfaone-abriola",
+    "description": "Immerso nei boschi di conifere di Contrada Pierfaone ad Abriola, a quota 1.300 metri s.l.m., il Parco Ricevimenti Hotel Pierfaone è una maestosa struttura turistica ed escursionistica dell'Appennino Lucano. Le camere in stile montano presentano finiture in legno, bagno privato, TV e finestre panoramiche con vista sulle vette del Monte Arioso. Il resort offre la Sala Ilex (capienza fino a 300 ospiti), giardini d'inverno, fontane decorative, ristorante con piatti tradizionali della Basilicata ed è situato ad appena 1 km dalle piste da sci della Sellata-Pierfaone.",
+    "description_en": "Set amid pine forests in Contrada Pierfaone in Abriola at an altitude of 1,300 meters above sea level, Parco Ricevimenti Hotel Pierfaone is an expansive mountain resort in the Lucanian Apennines. Alpine-style guest rooms feature warm wood accents, private bathrooms, TVs, and large windows with scenic views of Mount Arioso. Property highlights include the Sala Ilex grand banquet hall (capacity up to 300 guests), landscaped winter gardens, decorative fountains, a traditional restaurant, and immediate access to the Sellata-Pierfaone ski lifts (1 km away)."
   },
   {
-    "slug": "agriturismo-aia-della-foresta-carlantino",
-    "indirizzo": "Contrada Foresta, 86040 Macchia Valfortore (CB)",
-    "phone": "+39 0874 718 023",
-    "email": "info@aiadellaforesta.it",
-    "description": "Immerso nel verde dei Monti del Fortore a Carlantino, l'Agriturismo Aia Della Foresta offre un rifugio di pace tra boschi, pascoli e panorami sulla valle. Le camere semplici e confortevoli dispongono di WiFi gratuito, riscaldamento e bagno privato, con colazione a base di prodotti casalinghi. Ideale per escursioni nel Lago di Occhito, passeggiate a cavallo e scoperta dei borghi storici della Daunia molisana.",
-    "description_en": "Set amid the lush Fortore Mountains in Carlantino, Agriturismo Aia Della Foresta offers a peaceful retreat among forests, meadows, and sweeping valley views. Simple, comfortable rooms feature free WiFi, heating, and private bathrooms, complemented by a homemade breakfast. Ideal for excursions to Lake Occhito, horseback riding, and exploring the historic villages of the Daunia region."
+    "slug": "pierfaone-hotel-e-spa-abriola",
+    "description": "Situato in Contrada Pierfaone ad Abriola, il Pierfaone Hotel e SPA rappresenta una struttura di riferimento ad alta quota per soggiorni all'insegna del benessere e dello sport. Le camere e suite, arredate in elegante stile alpino, sono dotate di riscaldamento autonomo, Wi-Fi gratuito, Smart TV, minibar e bagno privato con set SPA. L'hotel dispone di un centro benessere completo di sauna finlandese, bagno turco, idromassaggio e area relax, oltre a un ristorante tipico, deposito sci e parcheggio privato. Si trova a brevissima distanza dagli impianti di risalita del Monte Pierfaone.",
+    "description_en": "Located in Contrada Pierfaone in Abriola, Pierfaone Hotel e SPA is a high-altitude wellness retreat and ski destination. Elegantly styled alpine rooms and suites feature self-regulating heating, free Wi-Fi, Smart TVs, minibars, and private bathrooms with spa kits. Facilities include a wellness center with a Finnish sauna, Turkish bath, hot tub, and relaxation lounge, alongside an on-site regional restaurant, ski equipment storage, and private parking near the Mount Pierfaone ski slopes."
   },
   {
-    "slug": "agriturismo-de-girolamo-equiturismo-carlantino",
-    "indirizzo": "c/da macchie, 86044 Colletorto (CB)",
-    "phone": "+39 0874 718 168",
-    "email": "info@agriturismodegirolamo.it",
-    "description": "A Carlantino, l'Agriturismo De Girolamo (Equiturismo) accoglie gli ospiti in un'azienda agricola dedicata all'equitazione e al turismo rurale ai piedi dei Monti Dauni. Le camere rustiche e accoglienti offrono WiFi gratuito e bagno privato, mentre il maneggio organizza passeggiate a cavallo e percorsi guidati. Con ristorante tipico, prodotti a km zero e vicinanza al Lago di Occhito, è la meta ideale per amanti della natura e dell'outdoor.",
-    "description_en": "In Carlantino, Agriturismo De Girolamo (Equiturismo) welcomes guests to a working farm dedicated to horseback riding and rural tourism at the foot of the Daunian Mountains. Rustic, cozy rooms offer free WiFi and private bathrooms, while the equestrian center organizes guided rides and trail excursions. With a traditional restaurant, farm-fresh products, and proximity to Lake Occhito, it is ideal for nature and outdoor enthusiasts."
+    "slug": "pietrapanna-abriola",
+    "description": "Adagiato nelle vallate di Contrada Potentissima a Calvello, ai piedi del Monte Volturino, Pietrapanna offre una sistemazione di campagna intima e caratteristica. Le camere, realizzate con dettagli in pietra locale e legno, dispongono di ingresso indipendente, riscaldamento autonomo, TV, Wi-Fi gratuito e bagno privato con doccia. Gli ospiti possono godere di un ampio giardino con vista sulle foreste della Val Camastra e usufruire del parcheggio privato in loco. Dista 4 km dal borgo di Calvello — celebre per il suo castello e le maioliche artigianali — e 25 km da Potenza.",
+    "description_en": "Tucked away in the valleys of Contrada Potentissima in Calvello at the foot of Mount Volturino, Pietrapanna provides a cozy mountain-country stay. Rooms crafted with local stone and timber feature private entrances, independent heating, TVs, free Wi-Fi, and en-suite bathrooms with showers. Guests enjoy expansive gardens overlooking the Camastra Valley forests and private on-site parking. Located 4 km from historic Calvello (famous for its castle and traditional ceramics) and 25 km from Potenza."
   },
   {
-    "slug": "l-oasi-b-b-di-silvia-scarpa-casal-velino",
-    "indirizzo": "Via Monticelli, 18, 84040 Casal Velino (SA)",
-    "phone": "+39 0974 620 38",
-    "email": "info@loasibnb.it",
-    "description": "Nel cuore del Cilento, L'Oasi b&b di Silvia Scarpa a Casal Velino offre un'accoglienza familiare in una location tranquilla a breve distanza dal mare e da Castellabate. Le camere luminose dispongono di WiFi gratuito, aria condizionata, TV e bagno privato, con colazione genuina a base di prodotti locali. Punto di partenza ideale per esplorare Paestum, Palinuro, il Parco del Cilento e le spiagge della costa tyrrhenian.",
-    "description_en": "In the heart of Cilento, L'Oasi b&b di Silvia Scarpa in Casal Velino offers warm family hospitality in a peaceful setting close to the sea and Castellabate. Bright guest rooms feature free WiFi, air conditioning, TV, and private bathrooms, with a genuine breakfast of local products. A perfect starting point for exploring Paestum, Palinuro, Cilento National Park, and the Tyrrhenian coastline."
+    "slug": "baglio-occhipinti-acate",
+    "description": "Situato a Pedalino (Contrada Fossa di Lupo, Strada Km 5, 4), al confine tra Vittoria e Comiso, Baglio Occhipinti è un Eco-Luxury Retreat di charme all'interno di un baglio nobiliare del XVII secolo finemente restaurato. Dispone di 12 tra camere e suite spaziose, caratterizzate da travi a vista, pavimenti in pietra e ceramiche di Caltagirone, volutamente prive di TV e minibar per garantire il massimo relax. Tutte le sistemazioni offrono aria condizionata, Wi-Fi ad alta velocità, bollitore con selezione di tisane e bagno privato. La tenuta comprende una piscina in pietra immersa in un agrumeto plurisecolare di 3 ettari, orti biologici, antico palmento e ristorante con cucina farm-to-table. Dista 7 km dall'Aeroporto di Comiso (CIY) e 20 km da Ragusa Ibla.",
+    "description_en": "Located in Pedalino (Contrada Fossa di Lupo, Strada Km 5, 4) between Vittoria and Comiso, Baglio Occhipinti is an Eco-Luxury Retreat set within a restored 17th-century noble estate. It features 12 spacious rooms and suites with exposed wooden beams, natural stone floors, and Caltagirone tiles—intentionally free of TVs and minibars for digital detox. Units offer air conditioning, high-speed Wi-Fi, tea-making facilities, and private bathrooms. The 3-hectare estate includes a natural stone pool inside a 300-year-old citrus grove, organic gardens, a historic wine press, and a farm-to-table restaurant. Located 7 km from Comiso Airport (CIY) and 20 km from Ragusa Ibla."
   },
   {
-    "slug": "bed-and-breakfast-le-palme-ficarazzi",
-    "indirizzo": "Corso Umberto I, 540, 90010 Ficarazzi (PA)",
-    "phone": "+39 091 420 567",
-    "email": "info@bb-lepalme.it",
-    "description": "A Ficarazzi, alle porte di Palermo, il bed and breakfast le palme propone camere confortevoli in posizione comoda per mare, cultura e viaggi di lavoro. Le sistemazioni climatizzate includono WiFi gratuito, TV e bagno privato, con colazione italiana inclusa. A pochi minuti dalle spiagge di Ficarazzi e Aspra e ben collegato al centro di Palermo, offre un ottimo rapporto qualità-prezzo per chi esplora la Sicilia nord-orientale.",
-    "description_en": "In Ficarazzi, just outside Palermo, bed and breakfast le palme offers comfortable rooms conveniently located for the sea, culture, and business travel. Air-conditioned accommodations include free WiFi, TV, and private bathrooms, with Italian breakfast included. Minutes from Ficarazzi and Aspra beaches and well connected to downtown Palermo, it provides excellent value for exploring northeastern Sicily."
+    "slug": "cordial-hotel-acate",
+    "description": "Posizionato lungo la S.S. 115 Comiso Km 1 a Comiso, il Cordial Hotel è una struttura a 3 stelle funzionale e strategica, situata a solo 1 km dal centro cittadino e a 7 km dall'Aeroporto di Comiso (CIY). Le camere, moderne e completamente insonorizzate, dispongono di aria condizionata regolabile, connessione Wi-Fi gratuita, TV a schermo piatto, telefono con linea diretta e bagno privato con doccia e asciugacapelli. La struttura mette a disposizione una reception aperta 24 ore su 24, un bar/lounge interno, servizio custodia valori ed un grande parcheggio privato gratuito idoneo anche ad autobus turistici e mezzi commerciali.",
+    "description_en": "Located along the SS115 highway (Comiso Km 1) in Comiso, 3-star Cordial Hotel is situated 1 km from the town center and 7 km from Comiso Airport (CIY). Modern, soundproofed guest rooms feature adjustable air conditioning, free Wi-Fi, flat-screen TVs, direct-dial phones, and private bathrooms with showers and hairdryers. Amenities include a 24-hour reception desk, an on-site bar/lounge, safety deposit boxes, and a large free private parking lot suitable for cars, tour buses, and commercial vehicles."
   },
   {
-    "slug": "camping-agatos-floresta",
-    "indirizzo": "Via Umberto I, 311, 98030 Floresta (ME)",
-    "phone": "+39 0941 708 112",
-    "email": "info@campingagatos.it",
-    "description": "Nel verde dei Nebrodi, il Camping Agatos a Floresta offre una vacanza all'aria aperta immersa nella natura siciliana a oltre 1.200 metri di altitudine. Il campeggio dispone di piazzole attrezzate, bungalow, servizi igienici moderni, area barbecue e ristorante con specialità locali. Con WiFi nelle aree comuni e sentieri per trekking nei boschi nebroidei, è perfetto per famiglie e campeggiatori che cercano fresco, tranquillità e avventura.",
-    "description_en": "Amid the green Nebrodi Mountains, Camping Agatos in Floresta offers an outdoor holiday immersed in Sicilian nature at over 1,200 meters altitude. The campsite features equipped pitches, bungalows, modern sanitary facilities, barbecue areas, and a restaurant serving local specialties. With WiFi in common areas and trekking trails through Nebrodi forests, it is perfect for families and campers seeking cool air, tranquility, and adventure."
+    "slug": "dimora-di-dante-acate",
+    "description": "Immersa nella tranquillità di Contrada Serravalle a Chiaramonte Gulfi, nota come il \"Balcone di Sicilia\", la Dimora di Dante è un affittacamere rurale circondato da uliveti secolari della Val di Noto. Le sistemazioni sono dotate di ingresso indipendente, climatizzazione autonoma, connessione Wi-Fi gratuita, TV a schermo piatto e bagno privato con doccia. Gli ospiti possono usufruire di ampi spazi verdi esterni, una terrazza solarium ed una colazione a base di prodotti tipici locali e dell'olio extravergine DOP di Chiaramonte. La struttura dista 12 km dall'Aeroporto di Comiso e 15 km da Ragusa.",
+    "description_en": "Set in peaceful Contrada Serravalle in Chiaramonte Gulfi (known as the \"Balcony of Sicily\"), Dimora di Dante is a rural guesthouse surrounded by centuries-old olive groves in the Noto Valley. Air-conditioned accommodations feature private entrances, free Wi-Fi, flat-screen TVs, and en-suite bathrooms with showers. Guests enjoy spacious green gardens, a sun terrace, and daily breakfast featuring local specialties and Chiaramonte DOP extra virgin olive oil. Located 12 km from Comiso Airport and 15 km from Ragusa."
   },
   {
-    "slug": "best-western-plus-eastgate-inn-suites-regina",
-    "indirizzo": "3840 Eastgate Drive, Regina, SK S4Z 1A5, Canada",
-    "phone": "+1 306-352-7587",
-    "email": "reservations@bestwestern.com",
-    "description": "Nel cuore di Regina, il Best Western Plus Eastgate Inn & Suites offre camere moderne e spaziose con tutti i comfort per viaggiatori business e leisure. La struttura dispone di piscina coperta, centro fitness, business center, parcheggio gratuito e colazione continentale inclusa. Con WiFi ad alta velocità, camere con microonde e frigorifero e posizione vicino al Regina International Airport, rappresenta una scelta affidabile per soggiorni nella capitale della Saskatchewan.",
-    "description_en": "In the heart of Regina, Best Western Plus Eastgate Inn & Suites offers modern, spacious rooms with all comforts for business and leisure travelers. The property features an indoor pool, fitness center, business center, free parking, and complimentary continental breakfast. With high-speed WiFi, in-room microwave and refrigerator, and proximity to Regina International Airport, it is a reliable choice for stays in Saskatchewan's capital."
+    "slug": "el-homs-palace-hotel-acate",
+    "description": "Situato nel centro storico di Comiso in Via Generale Girlando 49, l'El Homs Palace Hotel è un elegante hotel a 4 stelle con 20 camere distribuite su 5 piani serviti da ascensore. Le sistemazioni, raffinate ed insonorizzate, sono dotate di climatizzazione, Wi-Fi ad alta velocità gratuito, Smart TV con canali satellitari, minibar, cassaforte digitale e serrature magnetiche. L'hotel offre una colazione a buffet continentale e siciliana, un raffinato lounge bar, una sala meeting per 30 persone, reception h24 e servizio di navetta per il vicino Aeroporto di Comiso (a soli 5 km).",
+    "description_en": "Situated in Comiso's historic center at Via Generale Girlando 49, 4-star El Homs Palace Hotel features 20 refined rooms across 5 elevator-served floors. Soundproofed accommodations come with individual climate control, high-speed Wi-Fi, satellite Smart TVs, minibars, digital safes, and electronic keycard access. Property services include a daily continental and Sicilian buffet breakfast, an elegant lounge bar, a 30-person meeting room, 24-hour reception, and shuttle service to Comiso Airport (5 km away)."
   },
   {
-    "slug": "courtyard-by-marriott-regina-downtown-regina",
-    "indirizzo": "1717 Victoria Avenue, Regina, SK S4P 0P9, Canada",
-    "phone": "+1 306-559-5682",
-    "email": "yqrcy@marriott.com",
-    "description": "Nel centro di Regina, il Courtyard by Marriott Regina Downtown combina design contemporaneo e servizi Marriott per un soggiorno confortevole nel cuore della città. Le camere offrono WiFi gratuito, scrivania ergonomica, biancheria premium e bagno moderno. Con bistro per colazione e cena, palestra, lavanderia self-service e posizione a pochi passi da Wascana Centre, è ideale per viaggiatori business e turisti che esplorano Regina.",
-    "description_en": "Downtown Regina's Courtyard by Marriott Regina Downtown combines contemporary design with Marriott service for a comfortable stay in the city center. Rooms offer free WiFi, ergonomic workstations, premium bedding, and modern bathrooms. With a bistro for breakfast and dinner, fitness center, self-service laundry, and steps from Wascana Centre, it is ideal for business travelers and tourists exploring Regina."
+    "slug": "gh-baraka-village-acate",
+    "description": "Ubicato a Scoglitti (frazione balneare di Vittoria) in Via Fratelli di Dio, il GH Baraka Village è un complesso turistico situato a 500 metri dalle spiagge della costa ragusana. La struttura offre appartamenti ed alloggi in formula hotel tutti dotati di aria condizionata, TV a schermo piatto, bagno privato e verande o balconi attrezzati. Il villaggio dispone di due piscine scoperte (una per adulti e una per bambini), campo da tennis e calcetto, ristorante a buffet, bar e servizio navetta per la spiaggia privata con ombrelloni e lettini inclusi. Dista 18 km dall'Aeroporto di Comiso.",
+    "description_en": "Positioned in Scoglitti (coastal district of Vittoria) on Via Fratelli di Dio, GH Baraka Village is a holiday resort set 500 meters from the sandy Mediterranean coast. It offers self-catering apartments and hotel-style rooms featuring air conditioning, flat-screen TVs, private bathrooms, and furnished balconies or verandas. Resort facilities include two outdoor swimming pools (adults and kids), tennis and mini-football courts, a buffet restaurant, lounge bar, and shuttle service to a private equipped beach. Located 18 km from Comiso Airport."
   },
   {
-    "slug": "delta-hotels-by-marriott-regina-regina",
-    "indirizzo": "1919 Saskatchewan Drive, Regina, SK S4P 4H2, Canada",
-    "phone": "+1 306-525-5255",
-    "email": "yqrak@marriott.com",
-    "description": "Affacciato su Wascana Lake, il Delta Hotels by Marriott Regina offre eleganza classica e servizi premium nel cuore della capitale della Saskatchewan. Le camere spaziose dispongono di WiFi gratuito, minibar, cassaforte e vista sul lago o sulla città. Gli ospiti godono di ristorante fine dining, bar, centro fitness, piscina coperta e accesso diretto al parco Wascana, rendendolo perfetto per eventi, conferenze e soggiorni leisure.",
-    "description_en": "Overlooking Wascana Lake, Delta Hotels by Marriott Regina offers classic elegance and premium services in the heart of Saskatchewan's capital. Spacious rooms feature free WiFi, minibar, in-room safe, and lake or city views. Guests enjoy fine dining, a bar, fitness center, indoor pool, and direct access to Wascana Park, making it perfect for events, conferences, and leisure stays."
+    "slug": "grand-hotel-vittoria-acate",
+    "description": "Situato nel cuore di Vittoria in Vico III Carlo Pisacane 53/B, il Grand Hotel Vittoria sorge a soli 200 metri da Piazza del Popolo e dal Teatro Comunale. Le sistemazioni, arredate in stile classico e dotate di insonorizzazione, offrono climatizzazione autonoma, Wi-Fi gratuito, TV satellitare, minibar, scrivania e bagno privato con asciugacapelli e linea cortesia. L'hotel offre reception aperta 24h, American bar, sala per la prima colazione a buffet, sala TV/lettura ed un salone per incontri d'affari. Dista 10 km dall'Aeroporto di Comiso e 13 km dalle spiagge di Scoglitti.",
+    "description_en": "Located in central Vittoria at Vico III Carlo Pisacane 53/B, Grand Hotel Vittoria stands just 200 meters from Piazza del Popolo and the Municipal Theatre. Classic, soundproofed rooms feature climate control, free Wi-Fi, satellite TV, minibars, work desks, and private bathrooms with hairdryers. Facilities include 24-hour reception, an American bar, a breakfast buffet room, reading lounge, and business meeting rooms. Located 10 km from Comiso Airport and 13 km from Scoglitti's beaches."
   },
   {
-    "slug": "the-hotel-saskatchewan-autograph-collection-regina",
-    "indirizzo": "2125 Victoria Avenue, Regina, SK S4P 0S3, Canada",
-    "phone": "+1 306-522-7691",
-    "email": "info@hotelsask.com",
-    "description": "Iconico landmark di Regina, The Hotel Saskatchewan, Autograph Collection unisce architettura storica degli anni '20 e lusso contemporaneo Marriott nel cuore del centro città. Le camere e suite raffinate offrono WiFi gratuito, biancheria di alta qualità, minibar e bagno in marmo. Con ristorante premiato, bar elegante, centro fitness e posizione privilegiata su Victoria Avenue, è la scelta d'eccellenza per soggiorni di lusso nella Saskatchewan.",
-    "description_en": "An iconic Regina landmark, The Hotel Saskatchewan, Autograph Collection blends 1920s historic architecture with contemporary Marriott luxury in the heart of downtown. Refined rooms and suites offer free WiFi, premium linens, minibar, and marble bathrooms. With an award-winning restaurant, elegant bar, fitness center, and prime Victoria Avenue location, it is the premier choice for luxury stays in Saskatchewan."
+    "slug": "home-d-d-acate",
+    "description": "Posizionata lungo la SP11 a Niscemi, Home D&D offre alloggi indipendenti moderni, ideali per soggiorni brevi o prolungati nella Sicilia centrale. Le unità abitative dispongono di impianti di aria condizionata, Wi-Fi gratuito, TV a schermo piatto, zona giorno con angolo cottura completamente attrezzato, frigorifero e bagno privato con doccia. La struttura mette a disposizione un parcheggio privato gratuito e dista soli 4 km dalla Riserva Naturale Orientata Sughereta di Niscemi, 25 km da Gela e 30 km dall'Aeroporto di Comiso.",
+    "description_en": "Situated along the SP11 route in Niscemi, Home D&D offers modern self-catering apartments suitable for short and extended stays in central Sicily. Living units feature air conditioning, free Wi-Fi, flat-screen TVs, seating areas with fully equipped kitchenettes, refrigerators, and private bathrooms with showers. The property provides free private parking and is situated 4 km from the Sughereta di Niscemi Nature Reserve, 25 km from Gela, and 30 km from Comiso Airport."
   },
   {
-    "slug": "atlantic-terme-natural-spa-hotel-abano-terme",
-    "indirizzo": "Via Monteortone, 66, 35031 Abano Terme (PD)",
-    "phone": "+39 049 8669111",
-    "email": "info@atlanticterme.it",
-    "description": "Situato ai piedi dei Colli Euganei ad Abano Terme, l'Atlantic Terme Natural Spa & Hotel è un hotel 4 stelle specializzato nel benessere termale naturale. Dispone di ampie piscine termali coperte e scoperte comunicanti, parco giardino, centro fango-terapia convenzionato con il Servizio Sanitario Nazionale, sauna, bagno turco e ristorante gourmet con menù salutistici. Perfetto per cicloturismo e vacanze benessere in Veneto.",
-    "description_en": "Located at the foot of the Euganean Hills in Abano Terme, Atlantic Terme Natural Spa & Hotel is a 4-star thermal wellness destination. Featuring connected indoor and outdoor thermal pools, lush gardens, an accredited mud therapy center, saunas, steam rooms, and a fine restaurant serving healthy local cuisine, it offers the ultimate medical spa and relaxation experience in Northern Italy."
+    "slug": "hotel-europa-acate",
+    "description": "Posizionato in Via Generale Armando Diaz 4/a a Vittoria, l'Hotel Europa è una struttura a 3 stelle situata in posizione centrale, a 800 metri dalla stazione ferroviaria di Vittoria. Le camere, accoglienti e climatizzate, dispongono di insonorizzazione, connessione Wi-Fi gratuita, TV a schermo piatto, telefono con linea diretta, minibar e bagno privato. La struttura vanta una sala colazioni con ricco buffet continentale, un bar interno h24 ed un garage coperto e custodito riservato agli ospiti. Dista 9 km dall'Aeroporto di Comiso e 12 km da Scoglitti.",
+    "description_en": "Positioned at Via Generale Armando Diaz 4/a in Vittoria, 3-star Hotel Europa is located 800 meters from Vittoria train station. Cozy, soundproofed guest rooms offer air conditioning, free Wi-Fi, flat-screen TVs, direct-dial phones, minibars, and en-suite bathrooms. Property amenities include a daily continental buffet breakfast room, a 24-hour bar, and a secure private underground parking garage. Situated 9 km from Comiso Airport and 12 km from Scoglitti."
   },
   {
-    "slug": "bellavista-terme-resort-spa-abano-terme",
-    "indirizzo": "Via dei Colli, 5, 35036 Montegrotto Terme (PD)",
-    "phone": "+39 049 793 333",
-    "email": "info@bellavistaterme.com",
-    "description": "Con vista panoramica sui Colli Euganei, il Bellavista Terme Resort & Spa a Montegrotto Terme è un resort termale di lusso con piscine, centro benessere e giardini curati. Le camere eleganti dispongono di WiFi gratuito, aria condizionata, minibar e balcone con vista. Gli ospiti possono godere di trattamenti termali, ristorante gourmet, parcheggio e colazione a buffet, in una posizione ideale per esplorare Padova e le terme euganee.",
-    "description_en": "With panoramic views over the Euganean Hills, Bellavista Terme Resort & Spa in Montegrotto Terme is a luxury thermal resort with pools, wellness center, and manicured gardens. Elegant rooms feature free WiFi, air conditioning, minibar, and balcony views. Guests enjoy thermal treatments, gourmet dining, parking, and buffet breakfast in an ideal location for exploring Padua and the Euganean spa towns.",
-    "city": "Montegrotto Terme"
+    "slug": "hotel-mida-acate",
+    "description": "Posizionato sul lungomare di Scoglitti in Via delle Seppie 4, l'Hotel Mida è una struttura a 3 stelle con accesso diretto alla spiaggia dorata. Molte delle camere dispongono di balcone privato con vista panoramica sul Mar Mediterraneo, aria condizionata, Wi-Fi gratuito, TV a schermo piatto, minibar e bagno privato. L'hotel offre un ristorante panoramico specializzato in piatti a base di pesce fresco, un bar con terrazza solarium, reception 24h e convenzione con stabilimento balneare. Dista 18 km dall'Aeroporto di Comiso e 15 km da Vittoria.",
+    "description_en": "Situated directly on Scoglitti's promenade at Via delle Seppie 4, 3-star Hotel Mida boasts direct access to golden Mediterranean beaches. Many guest rooms feature private balconies with sea views, air conditioning, free Wi-Fi, flat-screen TVs, minibars, and private bathrooms. Features include a panoramic beachfront restaurant specializing in fresh local seafood, a bar with sun terrace, 24-hour reception, and beach club access. Located 18 km from Comiso Airport and 15 km from Vittoria."
   },
   {
-    "slug": "hotel-ariston-molino-buja-abano-terme",
-    "indirizzo": "Via Cornelio Augure, 5, 35031 Abano Terme (PD)",
-    "phone": "+39 049 866 9061",
-    "email": "info@aristonmolino.it",
-    "description": "Nel cuore di Abano Terme, l'Hotel Ariston Molino Buja unisce tradizione termale e comfort moderno in una struttura storica con piscine curative e centro benessere. Le camere accoglienti offrono WiFi gratuito, aria condizionata, TV satellitare e bagno privato. Con ristorante, parcheggio, animazione e trattamenti fangoterapia, rappresenta una scelta eccellente per soggiorni termali nella zona delle Terme Euganee.",
-    "description_en": "In the heart of Abano Terme, Hotel Ariston Molino Buja combines thermal tradition with modern comfort in a historic property with healing pools and wellness center. Cozy rooms offer free WiFi, air conditioning, satellite TV, and private bathrooms. With restaurant, parking, entertainment, and mud therapy treatments, it is an excellent choice for thermal stays in the Euganean Spa region."
+    "slug": "hotel-villa-san-bartolo-resort-acate",
+    "description": "Situato in Contrada San Bartolo a Vittoria, l'Hotel Villa San Bartolo Resort è un boutique hotel di lusso a 4 stelle ricavato all'interno di un'antica villa padronale immersa in un parco giardino con prato inglese. Le suite e camere Deluxe dispongono di arredi di alto design, pavimenti in marmo o parquet, climatizzazione, Wi-Fi ad alta velocità, Smart TV e raffinati bagni con set di cortesia VIP. Il resort vanta una piscina esterna solarium, centro benessere SPA, ristorante gourmet con cantina vini ed ampi spazi per eventi privati. Dista 10 km dall'Aeroporto di Comiso.",
+    "description_en": "Located in Contrada San Bartolo in Vittoria, 4-star Hotel Villa San Bartolo Resort is a luxury boutique hotel housed in a restored historic estate surrounded by manicured gardens. Deluxe rooms and suites feature designer furnishings, marble or parquet floors, climate control, high-speed Wi-Fi, Smart TVs, and high-end bathrooms. Amenities include an outdoor swimming pool with sun deck, wellness spa, gourmet restaurant with wine cellar, and event grounds. Located 10 km from Comiso Airport."
   },
   {
-    "slug": "hotel-columbia-terme-abano-terme",
-    "indirizzo": "Via Cornelio Augure, 15, 35031 Abano Terme (PD)",
-    "phone": "+39 049 866 9606",
-    "email": "info@columbiaterme.com",
-    "description": "A Abano Terme, l'Hotel Columbia Terme offre un'esperienza termale completa con piscine ad acque curative, centro benessere e camere confortevoli. Le sistemazioni dispongono di WiFi gratuito, aria condizionata, minibar e balcone. Gli ospiti possono usufruire di fangoterapia, massaggi, ristorante con cucina veneta e parcheggio privato, in posizione centrale per esplorare Padova e i Colli Euganei.",
-    "description_en": "In Abano Terme, Hotel Columbia Terme offers a complete thermal experience with healing water pools, wellness center, and comfortable rooms. Accommodations feature free WiFi, air conditioning, minibar, and balcony. Guests enjoy mud therapy, massages, a restaurant with Venetian cuisine, and private parking in a central location for exploring Padua and the Euganean Hills."
+    "slug": "iblea-hotel-acate",
+    "description": "Ubicato in Contrada Coffa snc a Chiaramonte Gulfi, presso l'incrocio tra la SS514 e la SS115, l'Iblea Hotel è una struttura a 3 stelle ideale per viaggi di lavoro e tour del Val di Noto. Le 30 camere insonorizzate dispongono di aria condizionata, Wi-Fi gratuito, TV a schermo piatto, scrivania e bagno privato. L'hotel ospita un noto ristorante interno specializzato in piatti tradizionali ragusani e carne alla brace, oltre a bar h24, sale riunioni ed un ampio parcheggio custodito idoneo ad autobus e mezzi pesanti. Dista soli 8 km dall'Aeroporto di Comiso e 15 km da Ragusa.",
+    "description_en": "Positioned in Contrada Coffa snc in Chiaramonte Gulfi at the SS514 and SS115 highway junction, 3-star Iblea Hotel serves as a strategic hub for corporate travelers and regional tours. Its 30 soundproofed rooms feature air conditioning, free Wi-Fi, flat-screen TVs, work desks, and private bathrooms. Property highlights include a popular restaurant specializing in Ragusa meat dishes, a 24-hour bar, meeting spaces, and expansive private parking for cars and tour buses. Situated 8 km from Comiso Airport and 15 km from Ragusa."
   },
   {
-    "slug": "hotel-mioni-pezzato-abano-terme",
-    "indirizzo": "Via Marzia, 34, 35031 Abano Terme (PD)",
-    "phone": "+39 049 866 8377",
-    "email": "info@hotelmionipezzato.com",
-    "description": "Famoso per la sua lunga tradizione termale, l'Hotel Mioni Pezzato ad Abano Terme accoglie gli ospiti in un ambiente elegante con piscine termali, spa e giardino. Le camere confortevoli includono WiFi gratuito, aria condizionata, TV e bagno privato. Con ristorante raffinato, trattamenti benessere, parcheggio e colazione abbondante, è ideale per soggiorni curativi e di relax nelle Terme Euganee.",
-    "description_en": "Renowned for its long thermal tradition, Hotel Mioni Pezzato in Abano Terme welcomes guests to an elegant setting with thermal pools, spa, and gardens. Comfortable rooms include free WiFi, air conditioning, TV, and private bathrooms. With a refined restaurant, wellness treatments, parking, and generous breakfast, it is ideal for curative and relaxing stays in the Euganean Spas."
+    "slug": "palazzo-melfi-suite-hotel-acate",
+    "description": "Affacciato direttamente su Piazza Fonte Diana 4 nel centro storico di Comiso, Palazzo Melfi Suite Hotel è una dimora storica a 4 stelle all'interno di un palazzo dell'Ottocento. Le suite, ampie ed eleganti, presentano soffitti alti affrescati, pavimenti d'epoca, angolo cottura a scomparsa completamente attrezzato, aria condizionata, Wi-Fi gratuito, Smart TV e bagni in marmo. La struttura offre colazione servita in suite o nella sala affrescata, bar lounge, servizio concierge e navetta da/per l'Aeroporto di Comiso (distante 5 km).",
+    "description_en": "Overlooking Piazza Fonte Diana 4 in central Comiso, Palazzo Melfi Suite Hotel is a 4-star boutique hotel occupying a restored 19th-century noble palace. Elegant suites feature high frescoed ceilings, historic tiled floors, fully equipped kitchenettes, air conditioning, free Wi-Fi, Smart TVs, and marble bathrooms. Services include in-suite or dining room breakfast, a lounge bar, concierge assistance, and shuttle service to/from Comiso Airport (5 km away)."
   },
   {
-    "slug": "hotel-plaza-abano-terme-abano-terme",
-    "indirizzo": "Piazza Repubblica, 23, 35031 Abano Terme (PD)",
-    "phone": "+39 049 866 9333",
-    "email": "info@plaza.it",
-    "description": "Affacciato su Piazza Repubblica nel centro di Abano Terme, l'Hotel Plaza Abano Terme combina posizione privilegiata e servizi termali di qualità. Le camere moderne dispongono di WiFi gratuito, aria condizionata, minibar e bagno privato. La struttura offre piscine termali, centro benessere, ristorante, parcheggio e colazione a buffet, rendendola perfetta per chi desidera esplorare la città e godere dei trattamenti termali.",
-    "description_en": "Overlooking Piazza Repubblica in central Abano Terme, Hotel Plaza Abano Terme combines a prime location with quality thermal services. Modern rooms feature free WiFi, air conditioning, minibar, and private bathrooms. The property offers thermal pools, wellness center, restaurant, parking, and buffet breakfast, perfect for exploring the town while enjoying thermal treatments."
+    "slug": "rocca-acate",
+    "description": "Posizionata lungo la SS115 al Km 4 nel comune di Acate, la struttura Rocca è una soluzione di affittacamere e motel funzionale per viaggiatori di passaggio tra Gela, Vittoria e Comiso. Le sistemazioni al piano terra dispongono di parcheggio riservato antistante la camera, ingresso indipendente, aria condizionata, connessione Wi-Fi gratuita, TV a schermo piatto e bagno privato con doccia. La posizione stradale garantisce rapidi collegamenti con l'area industriale di Gela (18 km), Acate centro (3 km) e l'Aeroporto di Comiso (15 km).",
+    "description_en": "Located on the SS115 highway at Km 4 in Acate, Rocca offers practical motel and guesthouse accommodation for travelers moving between Gela, Vittoria, and Comiso. Ground-floor rooms feature direct private parking in front of each unit, private entrances, air conditioning, free Wi-Fi, flat-screen TVs, and en-suite bathrooms with showers. Its roadside positioning provides quick driving links to Gela's commercial hub (18 km), central Acate (3 km), and Comiso Airport (15 km)."
   },
   {
-    "slug": "hotel-principe-terme-abano-terme",
-    "indirizzo": "Viale delle Terme, 87, 35031 Abano Terme (PD)",
-    "phone": "+39 049 860 0844",
-    "email": "info@principeterme.com",
-    "description": "Sul Viale delle Terme di Abano Terme, l'Hotel Principe Terme offre un soggiorno di lusso con piscine termali, spa di alto livello e camere eleganti. Ogni sistemazione include WiFi gratuito, aria condizionata, minibar e balcone. Gli ospiti possono godere di fangoterapia, massaggi, ristorante gourmet, parcheggio e giardino, in una delle zone più prestigiose delle Terme Euganee.",
-    "description_en": "On Abano Terme's Viale delle Terme, Hotel Principe Terme offers a luxury stay with thermal pools, high-end spa, and elegant rooms. Each accommodation includes free WiFi, air conditioning, minibar, and balcony. Guests enjoy mud therapy, massages, gourmet dining, parking, and gardens in one of the most prestigious areas of the Euganean Spas."
+    "slug": "stella-dei-venti-acate",
+    "description": "Situato in Contrada Gaspanella (km 6, 8) a Vittoria, il Bed & Breakfast Stella dei venti offre un soggiorno riservato nella campagna ragusana, a soli 6 km dalle spiagge di Scoglitti. Le sistemazioni dispongono di ingresso indipendente dal giardino, aria condizionata, Wi-Fi gratuito, TV e bagno privato. La struttura offre agli ospiti una colazione servita sotto la veranda coperta all'aperto, un grande giardino curato con prato ed un parcheggio privato recintato. Dista 12 km dall'Aeroporto di Comiso e 5 km dal centro di Vittoria.",
+    "description_en": "Located in Contrada Gaspanella (km 6, 8) in Vittoria, Stella dei venti B&B offers a peaceful countryside retreat just 6 km from Scoglitti's beaches. Guest rooms include private garden entrances, air conditioning, free Wi-Fi, TVs, and en-suite bathrooms. Amenities feature a daily breakfast served under a covered outdoor veranda, landscaped garden lawn spaces, and secure private parking. Situated 12 km from Comiso Airport and 5 km from central Vittoria."
   },
   {
-    "slug": "hotel-savoia-therm-spa-abano-terme",
-    "indirizzo": "Via P. d'Abano, 53, 35031 Abano Terme (PD)",
-    "phone": "+39 049 823 1111",
-    "email": "info@savoiaterme.it",
-    "description": "Nel cuore del quartiere termale di Abano Terme, l'Hotel Savoia Thermæ & SPA offre un'esperienza wellness completa con piscine, saune e trattamenti personalizzati. Le camere confortevoli dispongono di WiFi gratuito, aria condizionata, TV satellitare e bagno privato. Con ristorante, bar, parcheggio e programmi di fangoterapia, è la scelta ideale per rigenerarsi tra Padova e i Colli Euganei.",
-    "description_en": "In the heart of Abano Terme's spa district, Hotel Savoia Thermæ & SPA offers a complete wellness experience with pools, saunas, and personalized treatments. Comfortable rooms feature free WiFi, air conditioning, satellite TV, and private bathrooms. With restaurant, bar, parking, and mud therapy programs, it is the ideal choice for rejuvenation between Padua and the Euganean Hills."
+    "slug": "terra-del-sole-b-b-a-vittoria-acate",
+    "description": "Ubicato in Via Bologna 204 a Vittoria, il Terra del sole b&b propone una sistemazione moderna ed accogliente nel centro urbano della città, a 500 metri dalla via dello shopping Via Cavour. Le camere, luminose e climatizzate, dispongono di connessione Wi-Fi gratuita, TV a schermo piatto, scrivania, minibar e bagno privato con doccia ed asciugacapelli. La struttura offre ogni mattina una colazione a buffet con dolci tipici siciliani, granite stagionali e caffè espresso. Dista 10 km dall'Aeroporto di Comiso e 13 km da Scoglitti.",
+    "description_en": "Situated on Via Bologna 204 in Vittoria, Terra del sole b&b offers modern bed and breakfast accommodation in Vittoria's town center, 500 meters from the main Via Cavour shopping district. Bright, air-conditioned rooms come with free Wi-Fi, flat-screen TVs, work desks, minibars, and private bathrooms with hairdryers. Guests enjoy a daily breakfast buffet featuring traditional Sicilian pastries, seasonal granita, and espresso. Located 10 km from Comiso Airport and 13 km from Scoglitti."
   },
   {
-    "slug": "hotel-smeraldo-terme-abano-terme",
-    "indirizzo": "Via Flavio Busonera, 174, 35031 Abano Terme (PD)",
-    "phone": "+39 049 866 9555",
-    "email": "info@smeraldoterme.it",
-    "description": "Immerso nel verde di Abano Terme, l'Hotel Smeraldo Terme propone camere accoglienti, piscine termali e un centro benessere per un soggiorno rigenerante. Le sistemazioni includono WiFi gratuito, aria condizionata, minibar e balcone con vista sul parco. Con ristorante, trattamenti spa, parcheggio gratuito e colazione a buffet, offre un'ospitalità calorosa nel cuore delle Terme Euganee.",
-    "description_en": "Surrounded by greenery in Abano Terme, Hotel Smeraldo Terme offers cozy rooms, thermal pools, and a wellness center for a rejuvenating stay. Accommodations include free WiFi, air conditioning, minibar, and park-view balconies. With restaurant, spa treatments, free parking, and buffet breakfast, it provides warm hospitality in the heart of the Euganean Spas."
+    "slug": "terre-iblee-resort-acate",
+    "description": "Immerso nel paesaggio collinare di Contrada Sperlinga a Chiaramonte Gulfi, il TERRE IBLEE RESORT è un residence di campagna di charme con vista panoramica sui Monti Iblei. La struttura dispone di suite ed appartamenti in stile rurale-chic dotati di pareti in pietra a vista, climatizzazione, Wi-Fi ad alta velocità, TV e bagno privato. Il resort mette a disposizione una piscina all'aperto con zona solarium, giardino biologico, area barbecue ed un buffet per la colazione a base di prodotti locali a km zero. Dista 10 km dall'Aeroporto di Comiso e 15 km da Ragusa Ibla.",
+    "description_en": "Set in the rolling countryside of Contrada Sperlinga in Chiaramonte Gulfi, TERRE IBLEE RESORT is a rustic-chic country estate overlooking the Hyblaean Mountains. Accommodations feature exposed stone walls, climate control, high-speed Wi-Fi, TVs, and private bathrooms. Facilities include an outdoor swimming pool with a sun deck, organic gardens, barbecue facilities, and a daily buffet breakfast showcasing fresh farm produce. Located 10 km from Comiso Airport and 15 km from historic Ragusa Ibla."
   },
   {
-    "slug": "hotel-terme-belvedere-abano-terme",
-    "indirizzo": "Viale delle Terme, 21, 35031 Abano Terme (PD)",
-    "phone": "+39 049 860 2409",
-    "email": "info@termebelvedere.it",
-    "description": "Con vista sui Colli Euganei, l'Hotel Terme Belvedere ad Abano Terme offre piscine termali, centro benessere e camere luminose in un contesto panoramico. Ogni camera dispone di WiFi gratuito, aria condizionata, TV e bagno privato. Gli ospiti possono usufruire di fangoterapia, ristorante, parcheggio e giardino, ideale per soggiorni termali combinati con escursioni nella zona dei Colli.",
-    "description_en": "With views over the Euganean Hills, Hotel Terme Belvedere in Abano Terme offers thermal pools, wellness center, and bright rooms in a scenic setting. Each room features free WiFi, air conditioning, TV, and private bathroom. Guests enjoy mud therapy, restaurant, parking, and gardens, ideal for thermal stays combined with excursions in the Hills region."
+    "slug": "villa-orchidea-acate",
+    "description": "Posizionato lungo la SP5 in Contrada Boscorotondo a Comiso, l'Hotel Villa Orchidea è un rinomato resort & SPA a 4 stelle immerso in un parco alberato di 5 ettari. Le camere e le suite, arredate con eleganza, dispongono di aria condizionata, Wi-Fi gratuito, TV a schermo piatto, minibar e bagno privato. Il complesso vanta un centro benessere SPA di 1.000 mq con piscina coperta riscaldata, percorso idroterapico, sauna e bagno turco, oltre a piscina esterna, campi da tennis, tre sale ricevimenti ed un ristorante gourmet. Dista soli 6 km dall'Aeroporto di Comiso (CIY).",
+    "description_en": "Positioned on the SP5 route in Contrada Boscorotondo near Comiso, 4-star Hotel Villa Orchidea is a resort complex set within 5 hectares of private parkland. Elegantly furnished rooms and suites feature air conditioning, free Wi-Fi, flat-screen TVs, minibars, and en-suite bathrooms. Property highlights include a 1,000 sqm wellness SPA with a heated indoor pool, hydrotherapy circuit, sauna, and Turkish bath, along with an outdoor pool, tennis courts, grand banquet halls, and fine dining. Located 6 km from Comiso Airport (CIY)."
   },
   {
-    "slug": "hotel-terme-firenze-abano-terme",
-    "indirizzo": "Via Valerio Flacco, 74, 35031 Abano Terme (PD)",
-    "phone": "+39 049 981 3421",
-    "email": "info@hotelfirenzeterme.it",
-    "description": "A Abano Terme, l'Hotel Terme Firenze unisce eleganza classica e servizi termali con piscine curative, spa e camere raffinate. Le sistemazioni offrono WiFi gratuito, aria condizionata, minibar e bagno privato. Con ristorante, trattamenti benessere, parcheggio e colazione inclusa, rappresenta un'ottima base per scoprire Padova, Venezia e le terme euganee.",
-    "description_en": "In Abano Terme, Hotel Terme Firenze combines classic elegance with thermal services, healing pools, spa, and refined rooms. Accommodations offer free WiFi, air conditioning, minibar, and private bathrooms. With restaurant, wellness treatments, parking, and included breakfast, it is an excellent base for exploring Padua, Venice, and the Euganean spas."
+    "slug": "vittoria-colonna-acate",
+    "description": "Situato in Via Magenta 419 a Vittoria, l'affittacamere Vittoria Colonna offre sistemazioni eleganti di recente ristrutturazione nel centro cittadino, a 400 metri da Piazza del Popolo. Le camere, arredate con gusto contemporaneo, dispongono di climatizzazione autonoma, Wi-Fi ad alta velocità gratuito, Smart TV, scrivania da lavoro e bagno privato con doccia e set di cortesia. La posizione centrale consente di raggiungere a piedi banche, ristoranti e servizi. Dista 10 km dall'Aeroporto di Comiso e 13 km dalla costa di Scoglitti.",
+    "description_en": "Located at Via Magenta 419 in central Vittoria, Vittoria Colonna guest house features newly renovated accommodations 400 meters from Piazza del Popolo. Contemporary rooms feature self-regulating climate control, free high-speed Wi-Fi, Smart TVs, work desks, and en-suite bathrooms with walk-in showers. Its central setting places guests within short walking distance of local restaurants, banks, and shopping streets. Situated 10 km from Comiso Airport and 13 km from Scoglitti."
   },
   {
-    "slug": "hotel-terme-formentin-abano-terme",
-    "indirizzo": "Via P. d'Abano, 15, 35031 Abano Terme (PD)",
-    "phone": "+39 049 866 9511",
-    "email": "info@formentin.it",
-    "description": "Nel centro termale di Abano Terme, l'Hotel Terme Formentin accoglie gli ospiti con piscine ad acque curative, centro benessere e camere confortevoli. Ogni sistemazione include WiFi gratuito, aria condizionata, TV satellitare e bagno privato. Con ristorante tipico, fangoterapia, parcheggio e giardino, è perfetto per soggiorni di cura e relax nelle Terme Euganee.",
-    "description_en": "In Abano Terme's spa center, Hotel Terme Formentin welcomes guests with healing water pools, wellness center, and comfortable rooms. Each accommodation includes free WiFi, air conditioning, satellite TV, and private bathroom. With traditional restaurant, mud therapy, parking, and garden, it is perfect for curative and relaxing stays in the Euganean Spas."
+    "slug": "yhomisus-acate",
+    "description": "Situato in Via Papa Giovanni XXIII 75 a Comiso, Yhomisus è una struttura ricettiva moderna posizionata a 300 metri dalla Stazione Ferroviaria di Comiso e a pochi passi dal centro storico. Le camere offrono aria condizionata, Wi-Fi gratuito, TV a schermo piatto, minibar, bollitore elettrico e bagno privato con doccia e asciugacapelli. La posizione strategica rende la struttura un punto di appoggio ideale per viaggiatori in treno o per chi necessita di raggiungere rapidamente l'Aeroporto di Comiso, situato a soli 5 km di distanza.",
+    "description_en": "Positioned at Via Papa Giovanni XXIII 75 in Comiso, Yhomisus offers modern guest room accommodations located 300 meters from Comiso train station and a short walk from the historic center. Rooms feature air conditioning, free Wi-Fi, flat-screen TVs, minibars, electric kettles, and private bathrooms with showers and hairdryers. Its convenient location makes it an ideal base for train travelers or visitors needing quick access to Comiso Airport (5 km away)."
   },
   {
-    "slug": "hotel-terme-internazionale-abano-terme",
-    "indirizzo": "Via Giuseppe Mazzini, 5, 35031 Abano Terme (PD)",
-    "phone": "+39 049 860 0300",
-    "email": "info@termeinternazionale.it",
-    "description": "Situato nel cuore di Abano Terme, l'Hotel Terme Internazionale offre un'esperienza termale di alto livello con piscine, spa e camere eleganti. Le camere dispongono di WiFi gratuito, aria condizionata, minibar e balcone. Gli ospiti godono di trattamenti fangoterapia, ristorante raffinato, parcheggio e animazione, in una delle strutture più rinomate delle Terme Euganee.",
-    "description_en": "Located in the heart of Abano Terme, Hotel Terme Internazionale offers a high-level thermal experience with pools, spa, and elegant rooms. Rooms feature free WiFi, air conditioning, minibar, and balcony. Guests enjoy mud therapy treatments, refined dining, parking, and entertainment at one of the most renowned properties in the Euganean Spas."
+    "slug": "a-casa-nostra-accadia",
+    "description": "Posizionato in Viale Antonino Ripandelli 87 a Candela, il Bed & Breakfast A Casa Nostra offre un'accogliente sistemazione nelle colline dei Monti Dauni. Le camere, arredate con cura, dispongono di aria condizionata, riscaldamento, Wi-Fi gratuito, TV a schermo piatto e bagno privato con set di cortesia. Gli ospiti usufruiscono della prima colazione italiana inclusa, servita nell'apposita sala. La struttura si trova a soli 2 km dal casello autostradale A16 Candela e a 35-40 minuti di auto da Foggia e Melfi.",
+    "description_en": "Situated at Viale Antonino Ripandelli 87 in Candela, A Casa Nostra B&B offers cozy lodging in the Daunian Mountains. Well-appointed rooms feature air conditioning, heating, free Wi-Fi, flat-screen TVs, and private bathrooms with complimentary toiletries. Includes daily Italian breakfast served in the dedicated dining area. Located just 2 km from the A16 Candela motorway toll gate and a 35-to-40-minute drive from both Foggia and Melfi."
   },
   {
-    "slug": "hotel-terme-metropole-abano-terme",
-    "indirizzo": "Via Valerio Flacco, 99, 35031 Abano Terme (PD)",
-    "phone": "+39 049 861 9100",
-    "email": "info@terme-metropole.it",
-    "description": "A Abano Terme, l'Hotel Terme Metropole propone un soggiorno wellness con piscine termali, centro benessere e camere moderne. Le sistemazioni includono WiFi gratuito, aria condizionata, TV e bagno privato. Con ristorante, trattamenti spa, parcheggio gratuito e colazione a buffet, offre un'accoglienza professionale nel cuore del distretto termale euganeo.",
-    "description_en": "In Abano Terme, Hotel Terme Metropole offers a wellness stay with thermal pools, wellness center, and modern rooms. Accommodations include free WiFi, air conditioning, TV, and private bathrooms. With restaurant, spa treatments, free parking, and buffet breakfast, it provides professional hospitality in the heart of the Euganean spa district."
+    "slug": "agriturismo-antica-masseria-lo-conte-b-b-sala-ev-accadia",
+    "description": "Situato in Via Torreamando 99 ad Ariano Irpino, l'Agriturismo Antica Masseria Lo Conte è una dimora storica dell'Irpinia specializzata in accoglienza e grandi eventi. Le sistemazioni in stile rustico vantano pareti in pietra a vista, travi in legno, riscaldamento, TV, Wi-Fi e bagno privato. La struttura comprende diverse sale ricevimenti ed un ristorante agrituristico che propone pasta fatta in casa, carni locali e vini prodotti dall'azienda agricola. Dista 5 km dal centro di Ariano Irpino e circa 40 km da Benevento.",
+    "description_en": "Located on Via Torreamando 99 in Ariano Irpino, Agriturismo Antica Masseria Lo Conte is a historic Irpinia estate offering farm lodging and event spaces. Rustic rooms feature exposed stone walls, timber ceiling beams, heating, TVs, Wi-Fi, and private bathrooms. Property amenities include grand banquet halls and an authentic farm restaurant serving homemade pasta, local meats, and estate-produced wines. Located 5 km from central Ariano Irpino and 40 km from Benevento."
   },
   {
-    "slug": "hotel-terme-milano-abano-terme",
-    "indirizzo": "Viale delle Terme, 169, 35031 Abano Terme (PD)",
-    "phone": "+39 049 866 9444",
-    "email": "info@hoteltermemilano.com",
-    "description": "Sul Viale delle Terme di Abano Terme, l'Hotel Terme Milano offre camere confortevoli, piscine curative e un centro benessere per un soggiorno rigenerante. Ogni camera dispone di WiFi gratuito, aria condizionata, minibar e bagno privato. Con ristorante, fangoterapia, parcheggio e giardino, è ideale per chi cerca qualità e tradizione termale nelle Euganee.",
-    "description_en": "On Abano Terme's Viale delle Terme, Hotel Terme Milano offers comfortable rooms, healing pools, and a wellness center for a rejuvenating stay. Each room features free WiFi, air conditioning, minibar, and private bathroom. With restaurant, mud therapy, parking, and garden, it is ideal for those seeking quality and thermal tradition in the Euganean region."
+    "slug": "agriturismo-casale-cerere-accadia",
+    "description": "Immerso nelle colline dell'Alta Irpinia in Contrada Serritelli 61 a Lacedonia, l'Agriturismo Casale Cerere propone un soggiorno di relax a contatto con la natura. Le sistemazioni dispongono di arredamento in stile campestre, riscaldamento autonomo, TV a schermo piatto, Wi-Fi gratuito e bagno privato. La tenuta offre un ampio giardino panoramicissimo, parco giochi per bambini, parcheggio privato ed un ristorante che serve specialità tradizionali irpine preparate con prodotti locali. Dista soli 5 km dallo svincolo autostradale A16 Lacedonia.",
+    "description_en": "Surrounded by the rolling hills of High Irpinia at Contrada Serritelli 61 in Lacedonia, Agriturismo Casale Cerere offers a tranquil countryside retreat. Country-style rooms feature independent heating, flat-screen TVs, free Wi-Fi, and en-suite bathrooms. The property offers panoramic garden grounds, a children's play area, private parking, and a rustic restaurant serving traditional Irpinian recipes made from local farm produce. Located 5 km from the A16 Lacedonia motorway exit."
   },
   {
-    "slug": "hotel-terme-patria-abano-terme",
-    "indirizzo": "Viale delle Terme, 56, 35031 Abano Terme (PD)",
-    "phone": "+39 049 861 7444",
-    "email": "info@termepatria.it",
-    "description": "Nel cuore di Abano Terme, l'Hotel Terme Patria accoglie gli ospiti con piscine termali, spa e camere eleganti in un ambiente raffinato. Le sistemazioni offrono WiFi gratuito, aria condizionata, TV satellitare e balcone. Con ristorante gourmet, trattamenti benessere, parcheggio e colazione inclusa, rappresenta un'eccellenza termale tra Padova e i Colli Euganei.",
-    "description_en": "In the heart of Abano Terme, Hotel Terme Patria welcomes guests with thermal pools, spa, and elegant rooms in a refined setting. Accommodations offer free WiFi, air conditioning, satellite TV, and balcony. With gourmet restaurant, wellness treatments, parking, and included breakfast, it represents thermal excellence between Padua and the Euganean Hills."
+    "slug": "agriturismo-la-fortezza-accadia",
+    "description": "Posizionato in Contrada Orneta 88 ad Ariano Irpino, l'Agriturismo La fortezza accoglie gli ospiti in un ambiente rurale tranquillo ed incontaminato. Le sistemazioni, luminose e confortevoli, sono dotate di riscaldamento centralizzato, connessione Wi-Fi gratuita, TV a schermo piatto e bagno privato con doccia. La struttura ospita un apprezzato ristorante a filiera corta specializzato nella cucina tradizionale campana ed irpina, oltre ad un parcheggio privato gratuito riservato agli ospiti. Dista 8 km dal centro di Ariano Irpino.",
+    "description_en": "Located in Contrada Orneta 88 in Ariano Irpino, Agriturismo La fortezza provides comfortable countryside accommodation. Bright guest rooms include central heating, free Wi-Fi, flat-screen TVs, and private bathrooms with showers. The property features a popular farm restaurant serving authentic traditional cuisine from Campania and Irpinia, along with ample private parking. Situated 8 km from central Ariano Irpino."
   },
   {
-    "slug": "hotel-terme-salus-abano-terme",
-    "indirizzo": "Via Marzia, 2, 35031 Abano Terme (PD)",
-    "phone": "+39 049 866 9056",
-    "email": "info@salusterme.it",
-    "description": "A Abano Terme, l'Hotel Terme Salus offre un'esperienza di benessere completa con piscine ad acque curative, centro spa e camere confortevoli. Le camere includono WiFi gratuito, aria condizionata, minibar e bagno privato. Con ristorante, fangoterapia, parcheggio gratuito e giardino, è perfetto per soggiorni curativi e di relax nelle Terme Euganee.",
-    "description_en": "In Abano Terme, Hotel Terme Salus offers a complete wellness experience with healing water pools, spa center, and comfortable rooms. Rooms include free WiFi, air conditioning, minibar, and private bathrooms. With restaurant, mud therapy, free parking, and garden, it is perfect for curative and relaxing stays in the Euganean Spas."
+    "slug": "azienda-agrituristica-petrilli-accadia",
+    "description": "Situata in Via Scampata a Flumeri nella Valle dell'Ufita, l'Azienda Agrituristica Petrilli è un'azienda biologica rinomata per la produzione di olio extravergine d'oliva DOP Irpinia - Colline dell'Ufita. Le sistemazioni, ampie e confortevoli, dispongono di riscaldamento, Wi-Fi gratuito, TV e bagno privato. L'agriturismo offre un ristorante che propone menu stagionali preparati con ingredienti a km zero, percorsi di degustazione d'olio e visite guidate alla tenuta. Dista 6 km dallo svincolo autostradale A16 Grottaminarda.",
+    "description_en": "Located on Via Scampata in Flumeri within the Ufita Valley, Azienda Agrituristica Petrilli is an organic farm estate renowned for producing DOP-certified Irpinia extra virgin olive oil. Comfortable guest rooms feature heating, free Wi-Fi, TVs, and private bathrooms. Amenities include an on-site restaurant serving seasonal farm-to-table menus, guided olive oil tastings, and farm tours. Located 6 km from the A16 Grottaminarda motorway exit."
   },
   {
-    "slug": "hotel-terme-venezia-abano-terme",
-    "indirizzo": "Via Valerio Flacco, 42, 35031 Abano Terme (PD)",
-    "phone": "+39 049 866 9800",
-    "email": "info@termevenezia.it",
-    "description": "Nel quartiere termale di Abano Terme, l'Hotel Terme Venezia propone camere accoglienti, piscine curative e un centro benessere di qualità. Ogni sistemazione dispone di WiFi gratuito, aria condizionata, TV e bagno privato. Gli ospiti possono godere di trattamenti spa, ristorante, parcheggio e colazione a buffet, in posizione comoda per esplorare Padova e la zona termale.",
-    "description_en": "In Abano Terme's spa quarter, Hotel Terme Venezia offers cozy rooms, healing pools, and a quality wellness center. Each accommodation features free WiFi, air conditioning, TV, and private bathroom. Guests enjoy spa treatments, restaurant, parking, and buffet breakfast in a convenient location for exploring Padua and the spa area."
-  },
-  {
-    "slug": "sbirziola-hotels-terme-roma-abano-terme",
-    "indirizzo": "Via Giuseppe Mazzini, 1, 35031 Abano Terme (PD)",
-    "phone": "+39 049 866 9127",
-    "email": "info@sbirziolahotels.com",
-    "description": "A Abano Terme, Sbirziola Hotels Terme Roma offre un soggiorno termale con piscine, spa e camere confortevoli in posizione centrale. Le camere dispongono di WiFi gratuito, aria condizionata, minibar e bagno privato. Con ristorante, trattamenti fangoterapia, parcheggio e colazione inclusa, fa parte di un gruppo alberghiero rinomato nelle Terme Euganee.",
-    "description_en": "In Abano Terme, Sbirziola Hotels Terme Roma offers a thermal stay with pools, spa, and comfortable rooms in a central location. Rooms feature free WiFi, air conditioning, minibar, and private bathrooms. With restaurant, mud therapy treatments, parking, and included breakfast, it is part of a renowned hotel group in the Euganean Spas."
-  },
-  {
-    "slug": "termeterna-longevity-spring-resort-abano-terme",
-    "indirizzo": "Via G. Barbieri, 13, 35031 Abano Terme (PD)",
-    "phone": "+39 049 866 8044",
-    "email": "info@termeterna.com",
-    "description": "Nelle colline di Abano Terme, il Termeterna Longevity Spring Resort offre un'esperienza wellness all'avanguardia con sorgenti termali, spa e programmi di longevity. Le camere di design includono WiFi gratuito, aria condizionata, minibar e vista panoramica. Con ristorante healthy, trattamenti personalizzati, piscine e parcheggio, è la meta ideale per chi cerca rigenerazione e benessere olistico.",
-    "description_en": "In the hills of Abano Terme, Termeterna Longevity Spring Resort offers a cutting-edge wellness experience with thermal springs, spa, and longevity programs. Designer rooms include free WiFi, air conditioning, minibar, and panoramic views. With healthy dining, personalized treatments, pools, and parking, it is the ideal destination for regeneration and holistic well-being."
-  },
-  {
-    "slug": "adda-hotel-abbadia-cerreto",
-    "indirizzo": "Strada Provinciale ex SS 415 Paullese, Km 18, 26016 Ponte Adda (CR)",
-    "phone": "+39 0373 980 401",
-    "email": "info@addahotel.it",
-    "description": "Sulla Strada Paullese a Ponte Adda, l'Adda Hotel offre camere moderne e confortevoli in posizione strategica tra Milano, Cremona e la Pianura Padana. Le sistemazioni dispongono di WiFi gratuito, aria condizionata, TV satellitare e bagno privato. Con ristorante, parcheggio gratuito, sala meeting e colazione a buffet, è ideale per viaggiatori business e turisti che esplorano la Lombardia meridionale.",
-    "description_en": "On the Paullese road in Ponte Adda, Adda Hotel offers modern, comfortable rooms in a strategic location between Milan, Cremona, and the Po Valley. Accommodations feature free WiFi, air conditioning, satellite TV, and private bathrooms. With restaurant, free parking, meeting room, and buffet breakfast, it is ideal for business travelers and tourists exploring southern Lombardy.",
-    "city": "Ponte Adda"
-  },
-  {
-    "slug": "albergo-castello-abbadia-cerreto",
-    "indirizzo": "Piazza Castello, 2, 26900 Lodi (LO)",
-    "phone": "+39 0371 422 774",
-    "email": "info@hotelcastellolodi.it",
-    "description": "Affacciato su Piazza Castello nel cuore di Lodi, l'Albergo Castello unisce charme storico e comfort moderni in una posizione privilegiata. Le camere eleganti offrono WiFi gratuito, aria condizionata, TV e bagno privato. Con ristorante tipico lombardo, bar, parcheggio nelle vicinanze e colazione inclusa, è perfetto per scoprire il centro storico, il Duomo e le eccellenze enogastronomiche lodigiane.",
-    "description_en": "Overlooking Piazza Castello in the heart of Lodi, Albergo Castello combines historic charm with modern comforts in a prime location. Elegant rooms offer free WiFi, air conditioning, TV, and private bathrooms. With a traditional Lombard restaurant, bar, nearby parking, and included breakfast, it is perfect for exploring the historic center, cathedral, and Lodi's gastronomic delights.",
-    "city": "Lodi"
-  },
-  {
-    "slug": "b-b-bed-breakfast-1906-abbadia-cerreto",
-    "indirizzo": "Via Umberto I, 6B, 26817 San Martino in Strada (LO)",
-    "phone": "+39 0371 420 190",
-    "email": "info@bb1906.it",
-    "description": "Nel tranquillo borgo di San Martino in Strada, il B&B Bed & Breakfast 1906 accoglie gli ospiti in un'atmosfera familiare e accogliente a pochi chilometri da Lodi e Milano. Le camere confortevoli dispongono di WiFi gratuito, riscaldamento, TV e bagno privato. Con colazione casalinga, parcheggio gratuito e posizione comoda per la Pianura Padana, è ideale per soggiorni relax e viaggi di lavoro.",
-    "description_en": "In the quiet village of San Martino in Strada, B&B Bed & Breakfast 1906 welcomes guests in a warm, family atmosphere just kilometers from Lodi and Milan. Comfortable rooms feature free WiFi, heating, TV, and private bathrooms. With homemade breakfast, free parking, and convenient Po Valley location, it is ideal for relaxing stays and business travel.",
-    "city": "San Martino in Strada"
-  },
-  {
-    "slug": "b-b-delle-arti-abbadia-cerreto",
-    "indirizzo": "Via Carlo Urbino, 17, 26013 Crema (CR)",
-    "phone": "+39 0373 256 789",
-    "email": "info@bbdelleari.it",
-    "description": "Nel centro storico di Crema, il B&B delle Arti offre camere eleganti e curate in un edificio d'epoca a pochi passi da Piazza Duomo. Le sistemazioni includono WiFi gratuito, aria condizionata, TV e bagno privato, arredate con gusto artistico. Con colazione italiana, parcheggio nelle vicinanze e posizione ideale per esplorare Crema, Cremona e le città d'arte della Lombardia.",
-    "description_en": "In Crema's historic center, B&B delle Arti offers elegant, carefully curated rooms in a period building steps from Piazza Duomo. Accommodations include free WiFi, air conditioning, TV, and private bathrooms, decorated with artistic flair. With Italian breakfast, nearby parking, and ideal location for exploring Crema, Cremona, and Lombardy's art cities.",
-    "city": "Crema"
-  },
-  {
-    "slug": "b-b-la-borasca-abbadia-cerreto",
-    "indirizzo": "Cascina Borasca, 4, 26841 Casalpusterlengo (LO)",
-    "phone": "+39 0377 046 150",
-    "email": "info@borasca.eu",
-    "description": "Nella campagna lodigiana, il B&B La Borasca a Casalpusterlengo offre un'esperienza di agriturismo autentica in una cascina restaurata circondata dal verde. Le camere rustiche e confortevoli dispongono di WiFi gratuito, riscaldamento e bagno privato. Con colazione a base di prodotti locali, parcheggio gratuito e vicinanza a Lodi e Milano, è perfetto per chi cerca pace e genuinità nella Pianura Padana.",
-    "description_en": "In the Lodi countryside, B&B La Borasca in Casalpusterlengo offers an authentic farm-stay experience in a restored farmhouse surrounded by greenery. Rustic, comfortable rooms feature free WiFi, heating, and private bathrooms. With breakfast of local products, free parking, and proximity to Lodi and Milan, it is perfect for those seeking peace and authenticity in the Po Valley.",
-    "city": "Casalpusterlengo"
-  },
-  {
-    "slug": "b-b-mulino-di-prada-abbadia-cerreto",
-    "indirizzo": "Cascina Bastia, 5, 26834 Corte Palasio (LO)",
-    "phone": "+39 0371 420 567",
-    "email": "info@mulinodiprada.com",
-    "description": "In un antico mulino restaurato a Corte Palasio, il B&B Mulino di Prada offre camere romantiche e accoglienti immerso nella campagna lodigiana. Le sistemazioni includono WiFi gratuito, riscaldamento, TV e bagno privato con arredi d'epoca. Con colazione genuina, giardino, parcheggio e posizione strategica tra Lodi e Milano, è ideale per fughe romantiche e soggiorni nella natura.",
-    "description_en": "In a restored ancient mill in Corte Palasio, B&B Mulino di Prada offers romantic, cozy rooms immersed in the Lodi countryside. Accommodations include free WiFi, heating, TV, and private bathrooms with period furnishings. With genuine breakfast, garden, parking, and strategic location between Lodi and Milan, it is ideal for romantic getaways and countryside stays.",
-    "city": "Corte Palasio"
-  },
-  {
-    "slug": "b-b-piazza-duomo-abbadia-cerreto",
-    "indirizzo": "Via Marazzi, 5, 26013 Crema (CR)",
-    "phone": "+39 0373 840 112",
-    "email": "info@bbpiazzaduomo.it",
-    "description": "A due passi dal Duomo di Crema, il B&B Piazza Duomo offre camere eleganti e luminose nel cuore del centro storico cremasco. Ogni sistemazione dispone di WiFi gratuito, aria condizionata, TV e bagno privato. Con colazione italiana, posizione pedonale privilegiata e vicinanza a Cremona e Milano, è la scelta perfetta per chi desidera immergersi nell'arte e nella cultura della Lombardia.",
-    "description_en": "Steps from Crema Cathedral, B&B Piazza Duomo offers elegant, bright rooms in the heart of the historic center. Each accommodation features free WiFi, air conditioning, TV, and private bathroom. With Italian breakfast, prime pedestrian location, and proximity to Cremona and Milan, it is the perfect choice for immersing in Lombardy's art and culture.",
-    "city": "Crema"
-  },
-  {
-    "slug": "foresteria-casa-di-lucio-abbadia-cerreto",
-    "indirizzo": "Via Agello, 8, 26900 Lodi (LO)",
-    "phone": "+39 0371 420 890",
-    "email": "info@casadilucio.it",
-    "description": "Nel centro di Lodi, la Foresteria - Casa di Lucio accoglie gli ospiti in un ambiente elegante e riservato con camere curate e atmosfera raffinata. Le sistemazioni offrono WiFi gratuito, aria condizionata, TV e bagno privato. Con colazione gourmet, posizione centrale e vicinanza al Duomo e ai ristoranti tipici, è ideale per soggiorni culturali e enogastronomici nella città lodigiana.",
-    "description_en": "In central Lodi, Foresteria - Casa di Lucio welcomes guests to an elegant, private setting with carefully curated rooms and refined atmosphere. Accommodations offer free WiFi, air conditioning, TV, and private bathrooms. With gourmet breakfast, central location, and proximity to the cathedral and traditional restaurants, it is ideal for cultural and gastronomic stays in Lodi.",
-    "city": "Lodi"
-  },
-  {
-    "slug": "hotel-charlie-abbadia-cerreto",
-    "indirizzo": "Via Don Minzoni, 5, 20049 Caleppio di Settala (MI)",
-    "phone": "+39 02 9530 7255",
-    "email": "info@charliehotel.it",
-    "description": "A Caleppio di Settala, alle porte di Milano, l'Hotel Charlie offre camere moderne e funzionali in posizione strategica vicino a Linate e alla Tangenziale Est. Le sistemazioni includono WiFi gratuito, aria condizionata, TV satellitare e bagno privato. Con ristorante, parcheggio gratuito, sala meeting e colazione a buffet, è perfetto per viaggiatori business e chi visita Milano e la Lombardia orientale.",
-    "description_en": "In Caleppio di Settala, on the outskirts of Milan, Hotel Charlie offers modern, functional rooms in a strategic location near Linate Airport and the eastern ring road. Accommodations include free WiFi, air conditioning, satellite TV, and private bathrooms. With restaurant, free parking, meeting room, and buffet breakfast, it is perfect for business travelers and visitors to Milan and eastern Lombardy.",
-    "city": "Settala"
-  },
-  {
-    "slug": "hotel-due-fontane-abbadia-cerreto",
-    "indirizzo": "Via Lever Gibbs, 1, 26841 Casalpusterlengo (LO)",
-    "phone": "+39 0377 833 333",
-    "email": "info@hotelduefontane.it",
-    "description": "A Casalpusterlengo, l'Hotel Due Fontane propone camere confortevoli e un ristorante rinomato in posizione comoda tra Lodi e Milano. Le camere dispongono di WiFi gratuito, aria condizionata, TV e bagno privato. Con parcheggio gratuito, sala meeting, colazione a buffet e cucina tipica lodigiana, è ideale per soggiorni business, eventi e turismo nella Pianura Padana.",
-    "description_en": "In Casalpusterlengo, Hotel Due Fontane offers comfortable rooms and a renowned restaurant conveniently located between Lodi and Milan. Rooms feature free WiFi, air conditioning, TV, and private bathrooms. With free parking, meeting room, buffet breakfast, and traditional Lodi cuisine, it is ideal for business stays, events, and tourism in the Po Valley.",
-    "city": "Casalpusterlengo"
-  },
-  {
-    "slug": "hotel-la-corte-san-lorenzo-abbadia-cerreto",
-    "indirizzo": "Str. delle Colombare, 16, 26010 Moscazzano (CR)",
-    "phone": "+39 0373 278 456",
-    "email": "info@lacortesanlorenzo.it",
-    "description": "Nella campagna cremonese, l'Hotel La Corte San Lorenzo a Moscazzano offre eleganza e comfort in una dimora storica circondata dal verde. Le camere raffinate includono WiFi gratuito, aria condizionata, TV e bagno privato. Con ristorante gourmet, parcheggio, giardino e vicinanza a Crema e Cremona, è perfetto per eventi, matrimoni e soggiorni di charme nella Lombardia rurale.",
-    "description_en": "In the Cremona countryside, Hotel La Corte San Lorenzo in Moscazzano offers elegance and comfort in a historic property surrounded by greenery. Refined rooms include free WiFi, air conditioning, TV, and private bathrooms. With gourmet restaurant, parking, garden, and proximity to Crema and Cremona, it is perfect for events, weddings, and charming stays in rural Lombardy.",
-    "city": "Moscazzano"
-  },
-  {
-    "slug": "hotel-mondial-abbadia-cerreto",
-    "indirizzo": "SS 9 Via Emilia, 2, 26867 Alberone (LO)",
-    "phone": "+39 0377 573 14",
-    "email": "info@hotelmondial.it",
-    "description": "Sulla Via Emilia ad Alberone, l'Hotel Mondial offre camere semplici e confortevoli in posizione strategica lungo l'asse Milano-Bologna. Le sistemazioni dispongono di WiFi gratuito, aria condizionata, TV e bagno privato. Con ristorante, parcheggio gratuito, colazione e facile accesso all'autostrada, è ideale per viaggiatori in transito e soggiorni nella Pianura Padana.",
-    "description_en": "On the Via Emilia in Alberone, Hotel Mondial offers simple, comfortable rooms in a strategic location along the Milan-Bologna corridor. Accommodations feature free WiFi, air conditioning, TV, and private bathrooms. With restaurant, free parking, breakfast, and easy highway access, it is ideal for transit travelers and stays in the Po Valley.",
-    "city": "Chignolo Po"
-  },
-  {
-    "slug": "hotel-motel-piu-abbadia-cerreto",
-    "indirizzo": "Via Canale Vacchelli, 10/12, 26010 Monte Cremasco (CR)",
-    "phone": "+39 0373 278 538",
-    "email": "info@hotelmotelpiu.com",
-    "description": "A Monte Cremasco, l'Hotel Motel Più offre camere pratiche e confortevoli con parcheggio privato e accesso diretto alla viabilità verso Milano e Cremona. Le sistemazioni includono WiFi gratuito, aria condizionata, TV e bagno privato. Con ristorante, bar, parcheggio per auto e camion e colazione, è la scelta ideale per viaggiatori in transito e soggiorni business nella Bassa Cremonese.",
-    "description_en": "In Monte Cremasco, Hotel Motel Più offers practical, comfortable rooms with private parking and direct access to roads toward Milan and Cremona. Accommodations include free WiFi, air conditioning, TV, and private bathrooms. With restaurant, bar, car and truck parking, and breakfast, it is the ideal choice for transit travelers and business stays in lower Cremona province.",
-    "city": "Monte Cremasco"
+    "slug": "b-b-sant-arcangelo-accadia",
+    "description": "Situato in Via Francesco Crispi 6 a Sant'Agata di Puglia, il B&B Sant Arcangelo sorge nel punto più alto del centro storico medievale, soprannominato la \"Loggia delle Puglie\". Le camere, ristrutturate mantenendo travi a vista ed inserti in pietra originale, offrono aria condizionata, riscaldamento, Wi-Fi gratuito, TV a schermo piatto, bagno privato e balcone con vista panoramica sui Monti Dauni e sul Tavoliere. Dista soli 200 metri dal Castello Svevo di Sant'Agata di Puglia.",
+    "description_en": "Located at Via Francesco Crispi 6 in Sant'Agata di Puglia, B&B Sant Arcangelo sits at the highest elevation of this medieval hilltop village (known as the \"Loggia of Puglia\"). Rooms restored with exposed wooden beams and original stone feature air conditioning, heating, free Wi-Fi, flat-screen TVs, private bathrooms, and balconies with sweeping panoramic views over the Daunian Mountains and Tavoliere plains. Located just 200 meters from Sant'Agata's Svevo Castle."
   }
 ]
