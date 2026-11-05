@@ -1,0 +1,6 @@
+◇ injected env (0) from .env.local // tip: ◈ encrypted .env [www.dotenvx.com]
+[2026-08-21T09:52:09.571Z] HotelsDrop — harvest onboarding_hotels
+[2026-08-21T09:52:09.571Z] googleSearch=default googlePhotos=default force=true skipPhotos=false skipEmails=false centro=true zone=centro hotelOnly=false maxHotels=150 limit=none fillGaps=false italyPriority=false italyExtra=false city=none countries=none comune=Padova region=all
+[2026-08-21T09:52:10.387Z] Comuni in coda: 1
+[2026-08-21T09:55:12.242Z] [1/1] Padova (PD) — trovati 61, nuovi 61, skip 0, foto 49, email 17
+[2026-08-21T09:55:12.763Z] === FINE === inseriti/aggiornati in questa run: 61, foto caricate: 49, email trovate: 17, totale onboarding_hotels: 19577
