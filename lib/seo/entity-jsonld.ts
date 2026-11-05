@@ -22,7 +22,6 @@ export function buildOrganizationWebSiteJsonLd(locale: Locale = "it") {
             ? "Reverse booking marketplace: travellers publish a stay request and properties reply with direct offers, free for travellers."
             : "Marketplace di reverse booking: il viaggiatore pubblica una richiesta di soggiorno e le strutture ricettive rispondono con offerte dirette, senza commissioni per chi viaggia.",
         email: company.supportEmail,
-        telephone: company.phone,
         taxID: company.vatNumber,
         address: {
           "@type": "PostalAddress",

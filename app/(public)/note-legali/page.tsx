@@ -45,9 +45,6 @@ export default function NoteLegaliPage() {
           <strong>Email di supporto:</strong> {company.supportEmail}
         </p>
         <p>
-          <strong>Telefono:</strong> {company.phone}
-        </p>
-        <p>
           <strong>Sito web:</strong> {company.websiteUrl}
         </p>
         <p>

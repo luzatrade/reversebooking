@@ -168,7 +168,6 @@ export function buildHomePageJsonLd({
       },
       url: pageUrl,
       email: company.supportEmail,
-      telephone: company.phone,
     },
   ];
 

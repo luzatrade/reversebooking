@@ -46,12 +46,6 @@ export function SiteFooter() {
                   {company.pecEmail}
                 </a>
               </li>
-              <li className={`${metaLineClass} text-zinc-600 dark:text-zinc-400`}>
-                <span className="font-medium text-zinc-800 dark:text-zinc-200">{t.site.phone} </span>
-                <a className={linkClass} href={`tel:${company.phone.replace(/\s/g, "")}`}>
-                  {company.phone}
-                </a>
-              </li>
             </ul>
           </div>
         </div>

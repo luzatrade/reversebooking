@@ -21,7 +21,6 @@ export function buildContactPageJsonLd(locale: Locale) {
       name: company.companyName,
       legalName: company.legalEntityName,
       email: company.supportEmail,
-      telephone: company.phone,
       taxID: company.vatNumber,
       url: canonicalUrl(localizedPath(locale, "/")),
     },

@@ -33,7 +33,6 @@ export type CompanyInfo = {
   country: string;
   pecEmail: string;
   supportEmail: string;
-  phone: string;
   websiteUrl: string;
   atecoCode: string;
   reaNumber?: string;
@@ -53,7 +52,6 @@ export const company: CompanyInfo = {
   legalAddressPending: true,
   pecEmail: "lucianozavaglia@pec.it",
   supportEmail: "info@hotelsdrop.com",
-  phone: "+39 334 334 3827",
   websiteUrl: getAppUrl(),
   atecoCode: "63.12.00 — Portali web",
 };

@@ -34,6 +34,5 @@ export function buildMarketplaceServiceJsonLd(locale: Locale, internalPath = "/"
     },
     url: pageUrl,
     email: company.supportEmail,
-    telephone: company.phone,
   };
 }

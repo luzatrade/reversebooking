@@ -35,7 +35,6 @@ function CompanyField({
 export default async function ContattiPage() {
   const t = await getServerTranslations();
   const locale = await getServerLocale();
-  const phoneHref = `tel:${company.phone.replace(/\s/g, "")}`;
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-10 sm:px-6 sm:py-12 lg:px-8">
@@ -68,14 +67,6 @@ export default async function ContattiPage() {
                 href={`mailto:${company.pecEmail}`}
               >
                 {company.pecEmail}
-              </a>
-            </CompanyField>
-            <CompanyField label={t.contact.phone}>
-              <a
-                className="font-medium text-zinc-900 underline underline-offset-2 dark:text-zinc-50"
-                href={phoneHref}
-              >
-                {company.phone}
               </a>
             </CompanyField>
             <CompanyField label={t.contact.website}>
