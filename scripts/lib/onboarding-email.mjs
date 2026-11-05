@@ -6,6 +6,7 @@ const EMAIL_RE = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g;
 
 const BLOCKED_DOMAINS = new Set([
   "example.com",
+  "ourdomain.com",
   "sentry.io",
   "wixpress.com",
   "facebook.com",
@@ -20,6 +21,69 @@ const BLOCKED_DOMAINS = new Set([
   "tripadvisor.com",
   "booking.com",
   "expedia.com",
+  "centralstay.eu",
+  "globostay.com",
+  "hosthero.it",
+  "italyhotels.it",
+]);
+
+/** Domini parziali (channel manager / template) */
+const BLOCKED_DOMAIN_FRAGMENTS = [
+  "wixpress",
+  "sentry",
+  "centralstay",
+  "globostay",
+  "hosthero",
+  "italyhotels",
+  "ourdomain",
+  "housity",
+  "dicurziohospitality",
+  "piramedia",
+];
+
+/** Siti aggregatori (non ufficiali) — email scrapata quasi sempre non è della struttura */
+const AGGREGATOR_WEBSITE_FRAGMENTS = [
+  "booking.com",
+  "tripadvisor",
+  "staycentral",
+  "staytrip",
+  "globostay",
+  "roomstay",
+  "go2stay",
+  "tripstay",
+  "stayo.eu",
+  "completedstay",
+  "smarthotelstay",
+  "securestay",
+  "hotelprovider",
+  "itahotel",
+  "roomsit.cyou",
+  "lakesit.cyou",
+  "hotelsit.cyou",
+  "staylio.eu",
+  "migliorhotel",
+  "hotelperiviaggi",
+  "benitalia.com",
+  "bedandbreakfast.eu",
+];
+
+const FREEMAIL_DOMAINS = new Set([
+  "gmail.com",
+  "googlemail.com",
+  "outlook.com",
+  "hotmail.com",
+  "hotmail.it",
+  "live.com",
+  "yahoo.com",
+  "yahoo.it",
+  "alice.it",
+  "tiscali.it",
+  "libero.it",
+  "icloud.com",
+  "virgilio.it",
+  "email.it",
+  "proton.me",
+  "protonmail.com",
 ]);
 
 const PREFERRED_LOCAL_PARTS = [
@@ -36,19 +100,26 @@ const PREFERRED_LOCAL_PARTS = [
 
 export function normalizePublicEmail(raw) {
   if (!raw) return null;
-  const cleaned = String(raw)
-    .trim()
-    .toLowerCase()
+  let s = String(raw).trim().toLowerCase();
+  try {
+    s = decodeURIComponent(s);
+  } catch {
+    /* ignore */
+  }
+  const embedded = s.match(/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/i);
+  const cleaned = (embedded?.[0] ?? s)
     .replace(/^mailto:/i, "")
     .split("?")[0]
-    ?.trim();
+    ?.trim()
+    .replace(/^%20+/, "");
   if (!cleaned || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(cleaned)) return null;
   if (cleaned.length > 80) return null;
   const [local, domain] = cleaned.split("@");
   if (!local || !domain) return null;
   if (BLOCKED_DOMAINS.has(domain)) return null;
+  if (BLOCKED_DOMAIN_FRAGMENTS.some((frag) => domain.includes(frag))) return null;
   if (/\.(png|jpg|jpeg|gif|webp|svg|woff|css)$/i.test(domain)) return null;
-  if (/(noreply|no-reply|donotreply|unsubscribe|privacy|gdpr|newsletter|marketing|analytics|sentry)/i.test(local)) {
+  if (/(noreply|no-reply|donotreply|unsubscribe|privacy|gdpr|newsletter|marketing|analytics|sentry|wixpress)/i.test(local)) {
     return null;
   }
   return cleaned;
@@ -75,21 +146,73 @@ function hostFromUrl(url) {
   }
 }
 
+export function emailDomainMatchesWebsite(email, websiteUrl) {
+  const norm = normalizePublicEmail(email);
+  if (!norm || !websiteUrl?.trim()) return false;
+  const host = hostFromUrl(websiteUrl);
+  if (!host) return false;
+  const domain = norm.split("@")[1];
+  if (domain === host) return true;
+  if (host.endsWith(`.${domain}`) || domain.endsWith(`.${host}`)) return true;
+  const hostBase = host.split(".").slice(-2).join(".");
+  const domainBase = domain.split(".").slice(-2).join(".");
+  if (hostBase === domainBase) return true;
+  const hostStem = host.split(".")[0] ?? "";
+  const emailStem = domain.split(".")[0] ?? "";
+  if (hostStem.length >= 5 && emailStem.includes(hostStem)) return true;
+  if (emailStem.length >= 5 && hostStem.includes(emailStem)) return true;
+  return false;
+}
+
+function isAggregatorWebsite(websiteUrl) {
+  if (!websiteUrl?.trim()) return false;
+  const host = hostFromUrl(websiteUrl) ?? "";
+  return AGGREGATOR_WEBSITE_FRAGMENTS.some((frag) => host.includes(frag));
+}
+
+/**
+ * Email non verificabile / da rimuovere.
+ * Mantiene solo: dominio = sito ufficiale, PEC, freemail del gestore.
+ */
+export function isSuspiciousOnboardingEmail(email, websiteUrl) {
+  const norm = normalizePublicEmail(email);
+  if (!norm) return true;
+
+  const domain = norm.split("@")[1] ?? "";
+  if (BLOCKED_DOMAINS.has(domain)) return true;
+  if (BLOCKED_DOMAIN_FRAGMENTS.some((frag) => domain.includes(frag))) return true;
+
+  if (isAggregatorWebsite(websiteUrl)) return true;
+
+  if (domain.endsWith(".pec.it") || domain.endsWith(".pec.eu")) return false;
+  if (FREEMAIL_DOMAINS.has(domain)) return false;
+
+  if (websiteUrl?.trim()) {
+    if (emailDomainMatchesWebsite(norm, websiteUrl)) return false;
+    return true;
+  }
+
+  return false;
+}
+
 export function pickBestEmail(emails, websiteUrl) {
   if (!emails.length) return null;
+  const clean = emails.map((e) => normalizePublicEmail(e)).filter(Boolean);
+  const trusted = clean.filter((e) => !isSuspiciousOnboardingEmail(e, websiteUrl));
+  const pool = trusted.length ? trusted : [];
+
   const host = hostFromUrl(websiteUrl);
   if (host) {
-    const sameDomain = emails.find((email) => {
-      const domain = email.split("@")[1] ?? "";
-      return domain === host || host.endsWith(`.${domain}`) || domain.endsWith(`.${host}`);
-    });
+    const sameDomain = pool.find((email) => emailDomainMatchesWebsite(email, websiteUrl));
     if (sameDomain) return sameDomain;
   }
   for (const prefix of PREFERRED_LOCAL_PARTS) {
-    const hit = emails.find((email) => email.startsWith(`${prefix}@`));
+    const hit = pool.find((email) => email.startsWith(`${prefix}@`));
     if (hit) return hit;
   }
-  return emails[0] ?? null;
+  const freemail = pool.find((email) => FREEMAIL_DOMAINS.has(email.split("@")[1]));
+  if (freemail) return freemail;
+  return pool[0] ?? null;
 }
 
 export async function fetchEmailFromWebsite(websiteUri, { timeoutMs = 8000 } = {}) {
