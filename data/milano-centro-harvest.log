@@ -1,0 +1,38 @@
+◇ injected env (0) from .env.local // tip: ⌘ enable debugging { debug: true }
+[2026-08-19T07:28:40.523Z] HotelsDrop — harvest onboarding_hotels
+[2026-08-19T07:28:40.523Z] googleSearch=default googlePhotos=default force=false skipPhotos=false skipEmails=false centro=true hotelOnly=true maxHotels=80 limit=none fillGaps=false italyPriority=false italyExtra=false city=none countries=none comune=Milano region=all
+[2026-08-19T07:28:40.836Z] Comuni in coda: 1
+[2026-08-19T07:30:34.035Z] [1/1] Milano (MI) — trovati 38, nuovi 38, skip 0, foto 38, email 27
+[2026-08-19T07:30:34.543Z] === FINE === inseriti/aggiornati in questa run: 38, foto caricate: 38, email trovate: 27, totale onboarding_hotels: 19156
+◇ injected env (0) from .env.local // tip: ◈ secrets for agents [www.dotenvx.com]
+[backfill-emails] comune=Milano centro=true limit=80
+Da processare: 28
+[1/28] skip Cocoon B&B
+[2/28] skip B&B HOTEL Milano Sant'Ambrogio
+[3/28] skip BB Tortona
+[4/28] skip B&B Hotel Milano Duomo Velasca
+[5/28] skip Hotel Nuovo Milano
+[6/28] skip Hotel Vecchia Milano
+[7/28] skip Victor Boutique Hotel
+[8/28] skip Hotel Dateo Milano
+[9/28] skip The Couper Spiga
+[10/28] skip Milano Verticale | UNA Esperienze
+[11/28] skip Hotel Midtown Milano
+[12/28] skip UNA Hotels Galles Milano
+[13/28] skip Hotel Paradiso
+[14/28] skip Heart Milan Apartments San Sepolcro Duomo
+[15/28] ok Urban Hive Milano → reservas.madrid@urbanhivehotels.com
+[16/28] ok Hotel Brunelleschi → booking.brunelleschi@milanhotel.it
+[17/28] ok Galleria Vik Milano, an SLH Hotel → info@galleriavikmilano.com
+[18/28] skip B&B HOTEL Milano City Center Duomo
+[19/28] skip Mandarin Oriental, Milan
+[20/28] skip Radisson Collection Hotel, Palazzo Touring Club
+[21/28] skip Palazzo Touring Club Milan, A Radisson Collection Hotel
+[22/28] ok Hotel Dei Cavalieri Milano Duomo → reservation@deicavaliericollection.com
+[23/28] skip Milano Brera Relais
+[24/28] ok Hotel Milano Castello → info@hotelmilanocastello.com
+[25/28] skip 21 House of Stories Navigli
+[26/28] skip B&B HOTEL Milano Central Station
+[27/28] skip B&B Sant'Agostino
+[28/28] ok Hotel The Square Milano Duomo → eventi@deicavaliericollection.com
+=== FINE === email inserite: 6, skip: 22
