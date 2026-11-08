@@ -36,6 +36,9 @@ export function LegalFooterLinks({ className = "" }: { className?: string }) {
       <Link className={linkClass} href={prefix("/cos-e-hotelsdrop")}>
         {t.site.legalNav.about}
       </Link>
+      <Link className={linkClass} href={prefix("/glossario")}>
+        {locale === "en" ? "Glossary" : "Glossario"}
+      </Link>
       <Link className={linkClass} href={`${homePath(locale)}#home-faq`}>
         {labels.faqNav}
       </Link>

@@ -117,11 +117,21 @@ export async function StructureSeoPage({ record }: Props) {
                 className="mt-5 lg:hidden"
               />
 
-              <div className="mt-5 space-y-3 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300 sm:mt-6">
-                {seoParagraphs.map((paragraph) => (
-                  <p key={paragraph.slice(0, 48)}>{paragraph}</p>
-                ))}
-              </div>
+              <section
+                aria-labelledby="structure-description-heading"
+                className="mt-5 sm:mt-6"
+              >
+                <h2 id="structure-description-heading" className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
+                  {locale === "en"
+                    ? `${record.name} — lodging in ${record.cityName}`
+                    : `${record.name} — ${kindLabel} a ${record.cityName}`}
+                </h2>
+                <div className="mt-3 space-y-3 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">
+                  {seoParagraphs.map((paragraph) => (
+                    <p key={paragraph.slice(0, 48)}>{paragraph}</p>
+                  ))}
+                </div>
+              </section>
 
               {isOnboarding && !isClaimed && !isPendingVerification ? (
                 <div className="mt-5 rounded-2xl border border-amber-200 bg-amber-50 p-4 dark:border-amber-900/40 dark:bg-amber-950/30">
@@ -173,8 +183,13 @@ export async function StructureSeoPage({ record }: Props) {
               ) : null}
 
               <div className="mt-6 grid gap-3 sm:gap-4 md:grid-cols-2">
-                <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 sm:p-5">
-                  <h2 className="font-semibold">{t.hotel.locationSection}</h2>
+                <section
+                  aria-labelledby="structure-location-heading"
+                  className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 sm:p-5"
+                >
+                  <h2 id="structure-location-heading" className="font-semibold">
+                    {t.hotel.locationSection}
+                  </h2>
                   <p className="mt-2 text-sm text-zinc-500">
                     {formatMessage(t.hotel.addressLine, { address: addressLine })}
                   </p>
@@ -191,10 +206,15 @@ export async function StructureSeoPage({ record }: Props) {
                       <MapPin className="h-4 w-4" /> {t.hotel.openGoogleMaps}
                     </a>
                   ) : null}
-                </div>
+                </section>
 
-                <div className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 sm:p-5">
-                  <h2 className="font-semibold">{t.hotel.contactsSection}</h2>
+                <section
+                  aria-labelledby="structure-contacts-heading"
+                  className="rounded-2xl border border-zinc-200 p-4 dark:border-zinc-800 sm:p-5"
+                >
+                  <h2 id="structure-contacts-heading" className="font-semibold">
+                    {t.hotel.contactsSection}
+                  </h2>
                   <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-3">
                     {record.email ? (
                       <a
@@ -237,7 +257,7 @@ export async function StructureSeoPage({ record }: Props) {
                   {!record.phone && !record.email && !websiteUrl ? (
                     <p className="mt-3 text-sm text-zinc-500">{t.hotel.noDirectContacts}</p>
                   ) : null}
-                </div>
+                </section>
               </div>
             </div>
           </article>

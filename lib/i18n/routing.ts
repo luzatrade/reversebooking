@@ -43,6 +43,14 @@ const GUIDE_SEGMENT: Record<Locale, string> = {
   es: "guides",
 };
 
+const GLOSSARY_SEGMENT: Record<Locale, string> = {
+  it: "glossario",
+  en: "glossary",
+  de: "glossary",
+  zh: "glossary",
+  es: "glossary",
+};
+
 const LOCALE_PREFIX_PATTERN = new RegExp(`^/(${supportedLocales.join("|")})(/.*)?$`);
 
 const PUBLIC_SEO_PREFIXES = [
@@ -57,6 +65,7 @@ const PUBLIC_SEO_PREFIXES = [
   "/condizioni-abbonamento",
   "/struttura",
   "/guide",
+  "/glossario",
 ] as const;
 
 const LOCALE_SKIP_PREFIXES = [
@@ -109,6 +118,9 @@ function translateExternalSegment(segment: string, locale: Locale, toInternal: b
   if (segment === GUIDE_SEGMENT.it || segment === GUIDE_SEGMENT.en) {
     return toInternal ? GUIDE_SEGMENT.it : GUIDE_SEGMENT[locale];
   }
+  if (segment === GLOSSARY_SEGMENT.it || segment === GLOSSARY_SEGMENT.en) {
+    return toInternal ? GLOSSARY_SEGMENT.it : GLOSSARY_SEGMENT[locale];
+  }
   return segment;
 }
 
@@ -123,6 +135,8 @@ function externalPathFromInternal(internalPath: string, locale: Locale): string 
   } else if (parts[0] === "guide") {
     parts[0] = GUIDE_SEGMENT[locale];
     if (parts[1]) parts[1] = guideSlugForLocale(parts[1], locale === "it" ? "it" : "en");
+  } else if (parts[0] === "glossario") {
+    parts[0] = GLOSSARY_SEGMENT[locale];
   }
   return `/${parts.join("/")}`;
 }
