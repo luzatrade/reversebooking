@@ -1,12 +1,9 @@
-import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
 import { PublicHotelProfile } from "@/components/hotels/PublicHotelProfile";
 import { StructureJsonLd } from "@/components/seo/StructureJsonLd";
 import { StructureSeoPage } from "@/components/seo/StructureSeoPage";
-import { getServerLocale, getServerTranslations } from "@/lib/i18n/get-translations";
-import { destinationPublicPath, localizedPath, structurePublicPath } from "@/lib/i18n/routing";
-import { canonicalUrl } from "@/lib/seo/canonical";
-import { buildStructureMetadata } from "@/lib/seo/structure-metadata";
+import { getServerLocale } from "@/lib/i18n/get-translations";
+import { destinationPublicPath, structurePublicPath } from "@/lib/i18n/routing";
 import {
   fetchStructureBySlug,
   fetchStructureBySlugAny,
@@ -21,32 +18,6 @@ export const revalidate = 3600;
 type PageProps = {
   params: Promise<{ id: string }>;
 };
-
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { id } = await params;
-  const t = await getServerTranslations();
-  const locale = await getServerLocale();
-
-  if (!isUuid(id)) {
-    const record = await fetchStructureBySlug(id);
-    if (record) return buildStructureMetadata(record, locale);
-  } else {
-    const slug = await resolveSlugByUuid(id);
-    if (slug) {
-      const record = await fetchStructureBySlug(slug);
-      if (record) return buildStructureMetadata(record, locale);
-    }
-  }
-
-  return {
-    title: t.metadata.publicHotelProfileTitle,
-    description: t.metadata.publicHotelProfileDescription,
-    alternates: {
-      canonical: canonicalUrl(localizedPath(locale, `/hotel/${id}`)),
-    },
-    robots: { index: false, follow: false },
-  };
-}
 
 function redirectDeindexedStructure(
   record: NonNullable<Awaited<ReturnType<typeof fetchStructureBySlugAny>>>,

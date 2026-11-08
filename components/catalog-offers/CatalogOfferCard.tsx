@@ -11,6 +11,8 @@ import {
   offerCoverUrl,
 } from "@/lib/catalog-offers/labels";
 import { catalogOfferHref } from "@/lib/identifiers";
+import { localizedPath, structurePublicPath } from "@/lib/i18n/routing";
+import type { Locale } from "@/lib/i18n/translations";
 import type { CatalogOfferListItem } from "@/types/catalog-offers";
 
 type CatalogOfferCardProps = {
@@ -25,6 +27,11 @@ const ctaProfile =
 function mapsHrefForProvider(provider: CatalogOfferListItem["provider"]) {
   const query = [provider.property_name, provider.city_name].filter(Boolean).join(" ");
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+
+function catalogProviderProfileHref(provider: CatalogOfferListItem["provider"], locale: Locale) {
+  if (provider.slug && provider.seo_indexable) return structurePublicPath(provider.slug, locale);
+  return localizedPath(locale, `/hotel/${provider.id}`);
 }
 
 export function CatalogOfferCard({ offer }: CatalogOfferCardProps) {
@@ -71,7 +78,7 @@ export function CatalogOfferCard({ offer }: CatalogOfferCardProps) {
           >
             <MapPin className="h-3.5 w-3.5 shrink-0" /> {t.showcase.cardMap}
           </a>
-          <Link href={`/hotel/${offer.provider.id}`} className={ctaProfile}>
+          <Link href={catalogProviderProfileHref(offer.provider, locale)} className={ctaProfile}>
             {t.showcase.cardProfile}
           </Link>
         </div>
