@@ -94,6 +94,8 @@ export type CatalogOfferListItem = {
     main_photo_url: string | null;
     provider_kind: ProviderKind;
     city_name: string;
+    slug: string | null;
+    seo_indexable: boolean | null;
   };
   destinations: CatalogOfferDestination[];
   hotel_details?: {

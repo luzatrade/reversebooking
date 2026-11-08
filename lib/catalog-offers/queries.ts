@@ -8,7 +8,7 @@ const LIST_SELECT = `
   flexible_month, flexible_year, flexible_nights,
   cover_public_url, published_at,
   provider:hotel_accounts (
-    id, property_name, main_photo_url, provider_kind, city_name
+    id, property_name, main_photo_url, provider_kind, city_name, slug, seo_indexable
   ),
   destinations:catalog_offer_destinations (
     id, city_id, country_code, city_name, role, sort_order, nights_at_destination
