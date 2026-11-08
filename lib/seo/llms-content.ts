@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import { getAeoLlmsFaqLines } from "@/lib/i18n/aeo-glossary";
 import { BRAND_DISPLAY, BRAND_NAME, company } from "@/lib/legal/company";
 import { localizedPath } from "@/lib/i18n/routing";
 import { canonicalUrl } from "@/lib/seo/canonical";
@@ -33,7 +33,9 @@ function buildLlmsTxtLocale(locale: Locale, stats: LlmsCatalogStats | null = nul
   const destinations = canonicalUrl(localizedPath(locale, "/destinazioni"));
   const guides = canonicalUrl(localizedPath(locale, "/guide"));
   const contacts = canonicalUrl(localizedPath(locale, "/contatti"));
+  const glossary = canonicalUrl(localizedPath(locale, "/glossario"));
   const rome = canonicalUrl(localizedPath(locale, "/destinazioni/roma"));
+  const faqLines = getAeoLlmsFaqLines(locale).join("\n");
   const milan = canonicalUrl(localizedPath(locale, "/destinazioni/milano"));
   const florence = canonicalUrl(localizedPath(locale, "/destinazioni/firenze"));
 
@@ -83,6 +85,10 @@ ${statsBlock(stats, locale)}
 - Milan hotels hub: ${milan}
 - Florence hotels hub: ${florence}
 - Contacts: ${contacts}
+- Glossary (AEO): ${glossary}
+
+## FAQ (one-line, citation-ready)
+${faqLines}
 
 ## Infrastructure
 - Sitemap: ${canonicalUrl("/sitemap.xml")}
@@ -141,6 +147,10 @@ ${statsBlock(stats, locale)}
 - Hotel a Milano: ${milan}
 - Hotel a Firenze: ${florence}
 - Contatti: ${contacts}
+- Glossario (AEO): ${glossary}
+
+## FAQ (one-line, citabile)
+${faqLines}
 
 ## Infrastruttura
 - Sitemap: ${canonicalUrl("/sitemap.xml")}
@@ -184,6 +194,9 @@ export function buildLlmsFullTxt(locale: Locale = "it", stats: LlmsCatalogStats 
 - Una richiesta sostituisce decine di email manuali per gruppi e agenzie.
 - Contatto diretto e trasparente con la struttura.
 
+## Glossario AEO
+- ${canonicalUrl(localizedPath("it", "/glossario"))}
+
 ## Guide
 - ${canonicalUrl(localizedPath("it", "/guide/reverse-booking"))}
 - ${canonicalUrl(localizedPath("it", "/guide/viaggi-di-gruppo"))}
@@ -211,6 +224,9 @@ export function buildLlmsFullTxt(locale: Locale = "it", stats: LlmsCatalogStats 
 - Zero traveller booking commission on HotelsDrop.
 - One request replaces dozens of manual emails for groups and agencies.
 - Direct, transparent contact with the property.
+
+## AEO glossary
+- ${canonicalUrl(localizedPath("en", "/glossario"))}
 
 ## Guides
 - ${canonicalUrl(localizedPath("en", "/guide/reverse-booking"))}

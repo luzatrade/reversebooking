@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { HotelsDropAboutMarkup } from "@/components/legal/HotelsDropAboutMarkup";
 import { CitationBlock } from "@/components/seo/CitationBlock";
 import { FaqSection } from "@/components/seo/FaqSection";
@@ -57,6 +58,12 @@ export default async function CosEHotelsDropPage() {
       </header>
 
       <CitationBlock locale={locale} />
+
+      <p className="mt-4 text-sm">
+        <Link href={localizedPath(locale, "/glossario")} className="font-semibold text-[#0f4c81] hover:underline">
+          {locale === "en" ? "Glossary: reverse booking & HotelsDrop terms" : "Glossario: termini reverse booking e HotelsDrop"}
+        </Link>
+      </p>
 
       <HowItWorksSteps
         variant="inline"

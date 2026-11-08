@@ -75,6 +75,7 @@ export function staticPageLastmod(path: string): Date {
     "/destinazioni": "2026-07-25",
     "/guide": "2026-07-25",
     "/cos-e-hotelsdrop": "2026-07-25",
+    "/glossario": "2026-11-08",
     "/contatti": "2026-05-17",
     "/note-legali": "2026-05-17",
     "/privacy-policy": "2026-05-17",

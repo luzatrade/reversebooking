@@ -26,6 +26,7 @@ const staticInternalPaths = [
   "/condizioni-abbonamento",
   "/contatti",
   "/cos-e-hotelsdrop",
+  "/glossario",
   "/struttura",
 ];
 
