@@ -6,6 +6,7 @@ import {
   footerImageHtml,
   highlightHtml,
   noteHtml,
+  partnerDashboardReplyNoticeHtml,
   requestSummaryHtml,
   signatureHtml,
   siteUrl,
@@ -46,7 +47,7 @@ function partnerFooterHtml() {
 }
 
 export function buildCityRequestHtml(travelRequest: PartnerRequestPayload) {
-  return `<p>Ciao,</p><p>è stata pubblicata una <strong>nuova richiesta di soggiorno</strong> su hotelsdrop.com nella tua zona. Ecco i dettagli:</p>${requestSummaryHtml(travelRequest)}${highlightHtml(
+  return `<p>Ciao,</p><p>è stata pubblicata una <strong>nuova richiesta di soggiorno</strong> su hotelsdrop.com nella tua zona. Ecco i dettagli:</p>${requestSummaryHtml(travelRequest)}${partnerDashboardReplyNoticeHtml()}${highlightHtml(
     "Non perdere l’occasione di accogliere questi ospiti: rispondi prima delle altre strutture.",
   )}${buttonHtml(partnerRequestUrl(travelRequest.id), "Vai alla richiesta e invia l’offerta")}${noteHtml(
     "Il viaggiatore riceve la tua proposta in tempo reale e può accettarla direttamente dalla piattaforma.",
@@ -54,7 +55,7 @@ export function buildCityRequestHtml(travelRequest: PartnerRequestPayload) {
 }
 
 export function buildDirectRequestHtml(travelRequest: PartnerRequestPayload, hotelName: string) {
-  return `<p>Ciao ${escapeHtml(hotelName)},</p><p>un viaggiatore ha inviato una <strong>richiesta diretta</strong> alla tua struttura su hotelsdrop.com: non è una segnalazione generica sulla città, ha scelto proprio <strong>${escapeHtml(hotelName)}</strong>. Ecco i dettagli:</p>${requestSummaryHtml(travelRequest)}${highlightHtml(
+  return `<p>Ciao ${escapeHtml(hotelName)},</p><p>un viaggiatore ha inviato una <strong>richiesta diretta</strong> alla tua struttura su hotelsdrop.com: non è una segnalazione generica sulla città, ha scelto proprio <strong>${escapeHtml(hotelName)}</strong>. Ecco i dettagli:</p>${requestSummaryHtml(travelRequest)}${partnerDashboardReplyNoticeHtml()}${highlightHtml(
     "Rispondi il prima possibile: la richiesta è indirizzata a te.",
   )}${buttonHtml(partnerRequestUrl(travelRequest.id), "Rispondi a questa richiesta")}${noteHtml(
     "Il viaggiatore riceve la tua proposta in tempo reale e può accettarla direttamente dalla piattaforma.",
