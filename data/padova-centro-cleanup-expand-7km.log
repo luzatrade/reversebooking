@@ -1,0 +1,15 @@
+◇ injected env (0) from .env.local // tip: ◈ encrypted .env [www.dotenvx.com]
+Padova centro: 87 strutture (dryRun=false)
+
+  scrape hotel-piroga-padova-padova …
+  DELETE hotel-piroga-padova-padova (Hotel Piroga Padova) — no real email
+  DELETE alloggio-agrituristico-al-gelsomino-padova (Alloggio Agrituristico "Al Gelsomino") — no real email
+  scrape interno-8-padova …
+  DELETE interno-8-padova (INTERNO 8) — no real email
+
+=== TOTALE ===
+Mantenute (email reale): 84
+Email aggiornate: 0
+Eliminate: 3
+Skipped (claimed): 0
+Report: /workspace/data/padova-centro-real-emails-report.json
