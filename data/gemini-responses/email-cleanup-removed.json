@@ -1,0 +1,901 @@
+{
+  "removed": [
+    {
+      "id": "98db388c-94fe-4b29-b436-cc98c80372b5",
+      "slug": "abano-grand-hotel-abano-terme",
+      "nome": "Abano Grand Hotel",
+      "email": "abanograndhotel@gbhotelsabano.it",
+      "website": "https://www.abanograndhotel.it"
+    },
+    {
+      "id": "90872d5d-51d8-4c44-b2e3-7857b1de6e63",
+      "slug": "affittacamere-nuova-opera-rooms-verona",
+      "nome": "Affittacamere Nuova Opera Rooms",
+      "email": "info@topbooking.it",
+      "website": "http://www.toptourist.it/"
+    },
+    {
+      "id": "f447f371-6c87-423e-93b3-65e56662fd6c",
+      "slug": "agriturismo-la-valle-del-sambuco-accumoli",
+      "nome": "Agriturismo La Valle del Sambuco",
+      "email": "info@lavalledelsambuco.it",
+      "website": "http://www.agriturismodinorcia.it/"
+    },
+    {
+      "id": "2da73476-650d-4c5a-b4b1-3923bd8bef63",
+      "slug": "albergo-dei-cacciatori-di-de-micheli-renzo-bettola",
+      "nome": "Albergo dei Cacciatori di De Micheli Renzo",
+      "email": "destinazione.emilia@regione.emilia-romagna.it",
+      "website": "https://www.visitemilia.com/organizza-la-tua-visita/albergo-dei-cacciatori"
+    },
+    {
+      "id": "0ce9c5f7-84bc-458c-a617-c12b7df54bdb",
+      "slug": "albergo-diffuso-birkin-castello-cagliari",
+      "nome": "Albergo Diffuso Birkin Castello",
+      "email": "info@birkincastello.com",
+      "website": "https://birkinhotel.com/birkin-castello/"
+    },
+    {
+      "id": "5e5d8d40-7a64-4f26-8ddc-999186983488",
+      "slug": "albergo-firenze-firenze",
+      "nome": "Albergo Firenze",
+      "email": "info@albergofirenze.net",
+      "website": "https://www.hotelfirenze-fi.it/it/"
+    },
+    {
+      "id": "0107925a-e0ae-4b9f-a978-715d9b0e3a9e",
+      "slug": "albergo-sport-abetone-cutigliano",
+      "nome": "Albergo Sport",
+      "email": "albergosport@abetone.com",
+      "website": "http://www.albergosport.com/"
+    },
+    {
+      "id": "4a83cc8e-af4b-4d55-8ddf-f066e02f32db",
+      "slug": "amira-palace-hotel-acquafredda",
+      "nome": "AMIRA PALACE HOTEL",
+      "email": "info@amirapalacehotel.com",
+      "website": "http://amirahotelpalace.it/"
+    },
+    {
+      "id": "bb9e269b-0e15-4b2d-a2d1-ab6bdc508e8e",
+      "slug": "arco-hotel-phuket-town-phuket",
+      "nome": "Arco Hotel Phuket Town",
+      "email": "info@hoteliers.guru",
+      "website": "http://www.arcophukettown.com/"
+    },
+    {
+      "id": "81ff692f-839e-430c-abe7-b7bad34697e5",
+      "slug": "armada-hotel-amsterdam-amsterdam",
+      "nome": "Armada Hotel Amsterdam",
+      "email": "info@armadahotel.nl",
+      "website": "https://www.ozo-hotels.com/hotels/ozo-hotels-armada-amsterdam?utm_source=GMBlisting&utm_medium=organic"
+    },
+    {
+      "id": "7ba4942d-0071-492e-b320-53f36a2cde3e",
+      "slug": "art-hotel-orologio-bologna",
+      "nome": "Art Hotel Orologio",
+      "email": "orologio@arthotels.it",
+      "website": "https://www.art-hotel-orologio.com/"
+    },
+    {
+      "id": "2ed2a171-e0d5-4b27-b2f0-133f4506dcdf",
+      "slug": "b-b-aiano-capri",
+      "nome": "B&B Aiano",
+      "email": "nvnab@pncev.vg",
+      "website": "http://www.aiano.it/"
+    },
+    {
+      "id": "132c0f92-cc3e-431b-b8e6-4a88abf5346b",
+      "slug": "b-b-alghero-horizon-alghero",
+      "nome": "B&B Alghero Horizon",
+      "email": "info@algheroemobility.com",
+      "website": "https://algherohorizon.com/"
+    },
+    {
+      "id": "7c193d73-c679-4913-af2a-617fe6440594",
+      "slug": "b-b-antica-dimora-olbia",
+      "nome": "B&B Antica Dimora",
+      "email": "assistenza@webador.it",
+      "website": "http://www.anticadimoraolbia.it/"
+    },
+    {
+      "id": "a3a3b708-4926-43a7-b6e4-5cdda90cb043",
+      "slug": "b-b-aquilegia-acqualagna",
+      "nome": "B&B Aquilegia",
+      "email": "info@aquilegiabeb.com",
+      "website": "https://www.aquilegiafurlo.it/"
+    },
+    {
+      "id": "ae9c5d88-844c-424f-83fe-77f7bcdfca34",
+      "slug": "b-b-da-leo-pisa",
+      "nome": "B&B da Leo",
+      "email": "info@bedandbreakfast-pisacentro.com",
+      "website": "https://beb.it/daleopisa"
+    },
+    {
+      "id": "a2427d71-0d6b-48a8-87f0-9d2138dcf13d",
+      "slug": "b-b-fox-s-hill-acqualagna",
+      "nome": "B&B Fox's Hill",
+      "email": "info@brandio.it",
+      "website": "http://www.foxhill.it/"
+    },
+    {
+      "id": "ddaa264c-7987-43bd-9a45-e110c2d3f1ba",
+      "slug": "b-b-hotel-cremona-acquanegra-cremonese",
+      "nome": "B&B HOTEL Cremona",
+      "email": "cremona@hotelbb.com",
+      "website": "https://www.hotel-bb.com/it/hotel/cremona?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext"
+    },
+    {
+      "id": "8755042d-6dad-439e-8d56-9a76efdae523",
+      "slug": "b-b-hotel-piacenza-acquanegra-cremonese",
+      "nome": "B&B HOTEL Piacenza",
+      "email": "piacenza@hotelbb.com",
+      "website": "https://www.hotel-bb.com/it/hotel/piacenza?utm_source=googlemaps&utm_medium=fichehotel&utm_campaign=yext"
+    },
+    {
+      "id": "1d007c21-c9e3-47dc-879d-7b3f4a82a5a0",
+      "slug": "b-b-il-corso-siena-siena",
+      "nome": "B&B Il Corso siena",
+      "email": "info@lamatassinatuscany.com",
+      "website": "https://ilcorsosiena.it/"
+    },
+    {
+      "id": "b8a61f47-3fb3-4248-9b80-78f9d076078f",
+      "slug": "b-b-la-terrazza-di-anna-sassari",
+      "nome": "B&B La Terrazza di Anna",
+      "email": "support@localsmalltour.com",
+      "website": "https://guestcentre.eu/la-terrazza-di-anna-sassari-italy"
+    },
+    {
+      "id": "71ca07b4-bdb6-496b-9f04-fdc331974de3",
+      "slug": "b-b-lume-acquaviva-collecroce",
+      "nome": "B&b Lume",
+      "email": "info@trattorialaforacella.it",
+      "website": "https://www.trattorialafornacella.it/index.html"
+    },
+    {
+      "id": "0b47a43a-122a-4129-b943-853de784100e",
+      "slug": "b-b-santa-cristina-acquafredda",
+      "nome": "B&B Santa Cristina",
+      "email": "info@cascinacavallera.com",
+      "website": "https://www.bnbsantacristina.it/"
+    },
+    {
+      "id": "545bb3fa-5085-49e8-8ea2-8a187d9357cb",
+      "slug": "bed-and-breakfast-lucca-fora-lucca",
+      "nome": "Bed and Breakfast Lucca Fora",
+      "email": "info@luccafora.it",
+      "website": "https://www.bedandbreakfastlucca.net/"
+    },
+    {
+      "id": "370ae877-27d0-447e-9379-86ad95c544b3",
+      "slug": "bed-breakfast-la-gemma-di-elena-lucca",
+      "nome": "Bed & Breakfast La gemma di Elena",
+      "email": "lagemma@interfree.it",
+      "website": "http://www.lagemmadielena.it/"
+    },
+    {
+      "id": "dc3c3840-a937-4339-8d6a-b9e6b4d3ec1d",
+      "slug": "bed-breakfast-palermo-centro-palermo",
+      "nome": "Bed&Breakfast Palermo Centro",
+      "email": "info@domain.com",
+      "website": "http://www.palermobedandbreakfastcentro.it/"
+    },
+    {
+      "id": "da9340d7-d5f5-45d0-9e9f-5cbbae267365",
+      "slug": "bed-da-catania-rooms-catania",
+      "nome": "bed-da Catania rooms",
+      "email": "bed-dacatania@outlook.it",
+      "website": "https://www.beddacatania.it/"
+    },
+    {
+      "id": "7b50495d-4416-44f9-a293-2fbd0b1c4d35",
+      "slug": "caruso-a-belmond-hotel-amalfi-coast-ravello",
+      "nome": "Caruso, A Belmond Hotel, Amalfi Coast",
+      "email": "unsubscribe@belmond.com",
+      "website": "https://www.belmond.com/hotels/europe/italy/amalfi-coast/belmond-hotel-caruso/?utm_source=local_search&utm_medium=link&utm_campaign=google_business"
+    },
+    {
+      "id": "cc155b73-1c13-40e3-8e94-35cf3746fa3d",
+      "slug": "casa-del-pellegrino-abbateggio",
+      "nome": "Casa del Pellegrino",
+      "email": "contatti@hotelconristorante.it",
+      "website": "http://www.lacasadelpellegrinomanoppello.it/"
+    },
+    {
+      "id": "30dde603-78d3-4eb4-9f65-f94cb7306774",
+      "slug": "centara-life-hotel-bangkok-phra-nakhon-bangkok",
+      "nome": "Centara Life Hotel Bangkok Phra Nakhon",
+      "email": "cbp@chr.co.th",
+      "website": "https://www.centarahotelsresorts.com/centra/cbp"
+    },
+    {
+      "id": "e6351f40-d928-4d60-85b0-88a9283fbea7",
+      "slug": "cielo-e-nuvole-acqualagna",
+      "nome": "Cielo e Nuvole",
+      "email": "info@ristorantelagioconda.it",
+      "website": "https://www.cieloenuvole.it/"
+    },
+    {
+      "id": "ec7d3f29-9d05-4726-83f1-d0efe9f4bf37",
+      "slug": "city-inn-hotel-prague",
+      "nome": "City-Inn Hotel",
+      "email": "booking@aurelihotels.com",
+      "website": "http://www.city-inn.cz/"
+    },
+    {
+      "id": "7efa27db-99d8-4b8d-9284-6e5e05cf7376",
+      "slug": "country-house-una-acquaviva-picena",
+      "nome": "Country house Una",
+      "email": "countryhouseuna@outlook.it",
+      "website": "http://www.countryhouseuna.com/"
+    },
+    {
+      "id": "05e2f477-3480-4f34-ac2b-eb005dc60ac5",
+      "slug": "dolmen-guest-house-alghero",
+      "nome": "Dolmen Guest House",
+      "email": "info@lmgroupitalia.it",
+      "website": "http://dolmenguesthouse.it/"
+    },
+    {
+      "id": "a523c19c-ef87-4265-9070-75d5d2cad701",
+      "slug": "donna-lina-b-b-matera-matera",
+      "nome": "Donna Lina B&B Matera",
+      "email": "donnalina@outlook.it",
+      "website": "http://www.donnalinabeb.it/"
+    },
+    {
+      "id": "a1c2830b-6b41-427c-9d96-161002ef525e",
+      "slug": "eurostars-centrale-palace-palermo",
+      "nome": "Eurostars Centrale Palace",
+      "email": "reception@eurostarscentralepalace.com",
+      "website": "http://www.eurostarshotels.it/eurostars-centrale-palace.html?referer_code=lb0gg00yx&utm_source=google&utm_medium=business&utm_campaign=lb0gg00yx"
+    },
+    {
+      "id": "40a86b60-cf1f-4043-946c-ccea2aaccb0b",
+      "slug": "gat-point-charlie-hotel-berlin",
+      "nome": "Gat Point Charlie Hotel",
+      "email": "reservations.berlin@gatrooms.com",
+      "website": "https://hotelgatpointcharlie.com/en?utm_source=gmb&utm_medium=organic"
+    },
+    {
+      "id": "88401646-710d-48d9-bc19-1da083480078",
+      "slug": "gh-baraka-village-acate",
+      "nome": "GH Baraka Village",
+      "email": "baraka@garibaldihotels.it",
+      "website": "https://barakavillage.it/"
+    },
+    {
+      "id": "2edba8e1-35bd-4567-b8a6-f67e0c9e263d",
+      "slug": "grand-hotel-delle-terme-acquappesa",
+      "nome": "Grand Hotel delle Terme",
+      "email": "grandhotel@termeluigiane.it",
+      "website": "https://www.hotelscheck-in.com/grandhoteltermeluigiane/it/"
+    },
+    {
+      "id": "7fc3406c-1fba-49d8-be8f-069a39abe6f2",
+      "slug": "grand-hotel-des-terreaux-lyon",
+      "nome": "Grand Hôtel Des Terreaux",
+      "email": "contact@amtsolutions.fr",
+      "website": "http://www.hotel-lyon-grandhoteldesterreaux.fr/"
+    },
+    {
+      "id": "e7a2bbe8-1da5-48c8-9499-f112056f7034",
+      "slug": "grand-hotel-excelsior-reggio-di-calabria",
+      "nome": "Grand Hotel Excelsior",
+      "email": "info.excelsior@montesanohotels.it",
+      "website": "https://www.grandhotelexcelsiorrc.it/"
+    },
+    {
+      "id": "ad8ed544-32b3-48a8-956f-11f66730ed69",
+      "slug": "hotel-5-terre-cinque-terre",
+      "nome": "Hotel 5 Terre",
+      "email": "info@hotelcinqueterre.com",
+      "website": "https://www.hotel5terre-monterossoalmare.it/"
+    },
+    {
+      "id": "c575587a-d6dd-46bf-9031-0ddfa22b635a",
+      "slug": "hotel-adua-venezia",
+      "nome": "Hotel Adua",
+      "email": "aduahotel@gregorihotels.com",
+      "website": "https://www.aduahotel.com/"
+    },
+    {
+      "id": "21fe805a-806b-4082-9764-a0d47ca72686",
+      "slug": "hotel-alla-fava-venezia",
+      "nome": "Hotel Alla Fava",
+      "email": "allafava@gregorihotels.com",
+      "website": "http://www.hotelallafava.com/"
+    },
+    {
+      "id": "4449e71d-9171-48b2-8eba-96ab77ca1720",
+      "slug": "hotel-aurora-merano",
+      "nome": "Hotel Aurora",
+      "email": "info@hotelaurora.bz",
+      "website": "http://www.hotel-aurora-meran.com/"
+    },
+    {
+      "id": "56a59b8e-a076-468b-a620-a1f93f6f19c7",
+      "slug": "hotel-barcelona-universal-barcelona",
+      "nome": "Hotel Barcelona Universal",
+      "email": "bcnuniversal@nnhotels.com",
+      "website": "https://www.hotelbarcelonauniversal.com/"
+    },
+    {
+      "id": "924472a4-0e0d-45d7-bc92-bee95ffad875",
+      "slug": "hotel-bella-capri-capri",
+      "nome": "Hotel Bella Capri",
+      "email": "info@miasuitesgroup.com",
+      "website": "http://hotelbellacapri.it/"
+    },
+    {
+      "id": "9221b98c-4be2-40f6-b24f-61a87ec008cd",
+      "slug": "hotel-bristol-abetone-cutigliano",
+      "nome": "Hotel Bristol",
+      "email": "hotelbristol@abetone.com",
+      "website": "http://www.hotelbristol.tv/"
+    },
+    {
+      "id": "66afcf15-0551-4104-b265-d1405cdbe019",
+      "slug": "hotel-cala-di-volpe-porto-cervo",
+      "nome": "Hotel Cala di Volpe",
+      "email": "caladivolpe@luxurycollection.com",
+      "website": "https://www.marriott.com/en-us/hotels/olbcl-hotel-cala-di-volpe-a-luxury-collection-hotel-costa-smeralda/overview/"
+    },
+    {
+      "id": "ea0ff7ed-d9aa-47df-bb57-d2cc4034d0ce",
+      "slug": "hotel-centrale-byron-ravenna",
+      "nome": "Hotel Centrale Byron",
+      "email": "info@hotelbyron.com",
+      "website": "http://www.hotelsravenna.it/byron/it-IT"
+    },
+    {
+      "id": "bb6ef1f3-9241-40f5-acba-f82a1ac959cf",
+      "slug": "hotel-centro-firenze",
+      "nome": "Hotel Centro",
+      "email": "info@centrohotelflorence.com",
+      "website": "https://www.hotelcentroflorence.com/"
+    },
+    {
+      "id": "78576202-6979-4292-ab33-7930c6f961e7",
+      "slug": "hotel-charlie-abbadia-cerreto",
+      "nome": "Hotel Charlie",
+      "email": "info@hotelcharlie.it",
+      "website": "https://www.charliehotel.it/"
+    },
+    {
+      "id": "e7772702-73e1-4f5e-a44b-41770d4e0fa4",
+      "slug": "hotel-city-centre-prague",
+      "nome": "Hotel City Centre",
+      "email": "booking@aurelihotels.com",
+      "website": "http://www.city-centre.cz/"
+    },
+    {
+      "id": "96523484-7fc1-4001-aade-869e28ec0c4d",
+      "slug": "hotel-danieli-venice",
+      "nome": "Hotel Danieli",
+      "email": "info.venice@luxurycollection.com",
+      "website": "https://www.marriott.com/en-us/hotels/vcexn-hotel-danieli-venice/overview"
+    },
+    {
+      "id": "baa24ac1-9f67-4810-82e3-feee5f74fc3a",
+      "slug": "hotel-del-centro-belmonte-mezzagno",
+      "nome": "Hotel del Centro",
+      "email": "booking@hoteldelcentro.it",
+      "website": "https://book.octorate.com/octobook/site/reservation/index.xhtml?codice=905969&lang=it"
+    },
+    {
+      "id": "002b16eb-854c-4ccf-98ae-652f343f4686",
+      "slug": "hotel-europa-acate",
+      "nome": "Hotel Europa",
+      "email": "hoteleuropa@email.com",
+      "website": "http://www.hotel.rg.it/"
+    },
+    {
+      "id": "890bd65f-ce16-489b-8cf6-5b5c12aac18b",
+      "slug": "hotel-executive-business-bari",
+      "nome": "Hotel Executive Business",
+      "email": "ricevimentoexecutive@chotel.it",
+      "website": "https://www.executivebusinesshotel.it/"
+    },
+    {
+      "id": "48a7680c-258a-4343-8744-44497f765c36",
+      "slug": "hotel-giubileo-abriola",
+      "nome": "Hotel Giubileo",
+      "email": "info@hotelgiubileo.it",
+      "website": "https://www.giubileomaison.it/"
+    },
+    {
+      "id": "1c598c2c-3dbc-4b6c-9d6f-50457ed836e9",
+      "slug": "hotel-granvia-barcelona",
+      "nome": "Hotel Granvia",
+      "email": "hgranvia@nnhotels.com",
+      "website": "https://www.hotelgranvia.com/en"
+    },
+    {
+      "id": "80db8efa-9ec7-4b68-9a5f-965b74bcada7",
+      "slug": "hotel-la-castellana-acquappesa",
+      "nome": "Hotel La Castellana",
+      "email": "info@lacastellanaresort.com",
+      "website": "https://www.lacastellanahotel.com/"
+    },
+    {
+      "id": "69367b5f-da42-4596-99e1-b014f07ce4e9",
+      "slug": "hotel-la-pace-experience-acquafondata",
+      "nome": "Hotel La Pace - Experience",
+      "email": "lapace@cassinohotel.com",
+      "website": "http://www.hotellapacecassino.it/"
+    },
+    {
+      "id": "b1abcef7-758e-4f56-99f3-68c62f6f4aa0",
+      "slug": "hotel-la-quercia-con-ristorante-acquanegra-sul-chiese",
+      "nome": "Hotel La Quercia con Ristorante",
+      "email": "info@hotellaquercia.org",
+      "website": "https://hotel-la-quercia-con-ristorante.amenitiz.io/it/booking/room"
+    },
+    {
+      "id": "56f0f8fe-0439-4b60-8d1b-3102c2653dcc",
+      "slug": "hotel-le-mimose-acquappesa",
+      "nome": "Hotel Le Mimose",
+      "email": "info@lemimosehotel.it",
+      "website": "https://www.albergotermeguardia.it/"
+    },
+    {
+      "id": "c8e333ea-dc4b-4a39-9735-3b1dcc698d6c",
+      "slug": "hotel-mai-amsterdam-amsterdam",
+      "nome": "Hotel Mai Amsterdam",
+      "email": "info@claesiversen.com\\",
+      "website": "https://www.hotelmaiamsterdam.com/en"
+    },
+    {
+      "id": "c512c7cb-2358-4c1a-8f9b-a2186c01aa9e",
+      "slug": "hotel-mercure-palermo-centro-palermo",
+      "nome": "Hotel Mercure Palermo Centro",
+      "email": "booking@mercurepa.com",
+      "website": "https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=5932&merchantid=seo-maps-IT-5932&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+    },
+    {
+      "id": "97af25f9-bab4-469d-8747-544a49252a69",
+      "slug": "hotel-mida-acate",
+      "nome": "Hotel Mida",
+      "email": "h.hotelmida@tin.it",
+      "website": "http://www.hotelmida.it/"
+    },
+    {
+      "id": "c9a5e67b-b308-412c-a998-d28e4d6d9396",
+      "slug": "hotel-montestella-1914-salerno",
+      "nome": "Hotel Montestella 1914",
+      "email": "info@montestella1914.it",
+      "website": "https://www.hotelmontestella.it/s5/"
+    },
+    {
+      "id": "0221c00c-b3c5-4f84-94ef-8a294239df9c",
+      "slug": "hotel-mosaico-ravenna",
+      "nome": "Hotel Mosaico",
+      "email": "info@mosaicohotels.it",
+      "website": "https://www.hotelmosaico.it/"
+    },
+    {
+      "id": "5682d7e7-f53d-42ff-9efe-6ed2dc6f99b1",
+      "slug": "hotel-mundial-lisbon",
+      "nome": "Hotel Mundial",
+      "email": "reservations1@phchotels.pt",
+      "website": "https://www.hotel-mundial.pt/"
+    },
+    {
+      "id": "da9f1cf4-9925-407c-81c8-f0a62e1836c6",
+      "slug": "hotel-pallotta-assisi-assisi",
+      "nome": "Hotel Pallotta Assisi",
+      "email": "pallotta@pallottaassisi.it",
+      "website": "http://www.hotelpallotta.it/"
+    },
+    {
+      "id": "2a6837e0-e051-412f-89f6-88bcc655d517",
+      "slug": "hotel-posta-orvieto",
+      "nome": "Hotel Posta",
+      "email": "info@salvatoremenale.it",
+      "website": "https://www.hotelpostaorvieto.it/"
+    },
+    {
+      "id": "16232138-dce0-48c4-925a-3f7b127f2514",
+      "slug": "hotel-ristorante-407-accettura",
+      "nome": "Hotel Ristorante 407",
+      "email": "hotelristorante407@tin.it",
+      "website": "https://www.hotelristorante407.it/"
+    },
+    {
+      "id": "155b693b-1279-47ff-831a-b5068055f54a",
+      "slug": "hotel-ristorante-da-maria-ischia",
+      "nome": "Hotel Ristorante Da Maria",
+      "email": "info@damariaischia.it",
+      "website": "http://www.albergodamaria.it/"
+    },
+    {
+      "id": "5cc00213-dddf-4925-9b76-3e2b801bb58e",
+      "slug": "hotel-ristorante-monastero-valledacqua-di-acquas-acquasanta-terme",
+      "nome": "Hotel Ristorante Monastero Valledacqua di Acquasante Terme",
+      "email": "info@hotelmonasterovalledacqua.it",
+      "website": "https://www.hotel-monastero-valledacqua.it/"
+    },
+    {
+      "id": "63ac08c0-3a43-41ce-8b28-1edab1a7d756",
+      "slug": "hotel-san-rufino-assisi",
+      "nome": "Hotel San Rufino",
+      "email": "info@hotelarocca.it",
+      "website": "http://www.hotelsanrufino.it/"
+    },
+    {
+      "id": "faf7f42e-f086-4f6b-a8fa-ae180416d34d",
+      "slug": "hotel-serhs-rivoli-rambla-barcelona-barcelona",
+      "nome": "Hotel SERHS Rivoli Rambla Barcelona",
+      "email": "info.rivolirambla@grupserhs.com",
+      "website": "https://www.hotelserhsrivolirambla.com/"
+    },
+    {
+      "id": "bb479fdd-069b-454d-bf30-7b3019a6bd01",
+      "slug": "hotel-the-square-milano-duomo-milano",
+      "nome": "Hotel The Square Milano Duomo",
+      "email": "eventi@deicavaliericollection.com",
+      "website": "https://www.thesquaremilano.com/"
+    },
+    {
+      "id": "cb05de9b-e240-49a5-98f6-e94887db331b",
+      "slug": "hotel-tre-monti-acciano",
+      "nome": "Hotel Tre Monti",
+      "email": "info@cerasolihotel.it",
+      "website": "http://www.tremontihotel.it/"
+    },
+    {
+      "id": "6f92959f-6713-4d26-819e-a67fdd6064ab",
+      "slug": "hotel-trevi-prague",
+      "nome": "Hotel Trevi",
+      "email": "info@charmingprague.com",
+      "website": "https://hoteltreviprague.com/"
+    },
+    {
+      "id": "b5d0f1d0-2cf7-46a9-b1e9-ba68cfd9b8ca",
+      "slug": "hotel-victoria-lyon",
+      "nome": "Hotel Victoria",
+      "email": "reception.hotelvictoria@najeti.com",
+      "website": "http://www.hotelvictorialyon.com/"
+    },
+    {
+      "id": "2d419590-f6a0-499c-8e11-774931d85381",
+      "slug": "hotel-viminale-roma-bzar-hotels-roma",
+      "nome": "Hotel Viminale Roma | BZAR hotels",
+      "email": "booking@bzarhotels.it",
+      "website": "https://www.hotelviminalerome.com/"
+    },
+    {
+      "id": "a637d678-a38e-4467-b08b-2456749c330b",
+      "slug": "hotel-vincci-baixa-lisbon",
+      "nome": "Hotel Vincci Baixa",
+      "email": "baixa@vinccihoteles.com",
+      "website": "https://www.vinccibaixa.com/?utm_source=google&utm_medium=organic&utm_campaign=GoogleMyBusiness&partner=8221"
+    },
+    {
+      "id": "feec7027-b87b-4115-96e4-b48dfbbbc218",
+      "slug": "hotel-volta-padova",
+      "nome": "Hotel Volta",
+      "email": "hotelvolta@live.it",
+      "website": "https://www.hotelvoltapd.it/"
+    },
+    {
+      "id": "0c33dff6-5f4f-41b9-b025-32ea1f4c029c",
+      "slug": "i-tetti-di-siena-siena",
+      "nome": "I Tetti di Siena",
+      "email": "utente@dominio.com",
+      "website": "http://www.tettidisiena.com/"
+    },
+    {
+      "id": "7c5c813d-2380-45d8-905f-b1a899aa9957",
+      "slug": "la-casetta-b-b-abbateggio",
+      "nome": "La Casetta B&B",
+      "email": "support@centralstay.eu",
+      "website": "https://hostingstay.eu/la-casetta-bnb-bolognano"
+    },
+    {
+      "id": "baa0c52d-bf99-4518-875c-5622d73706bb",
+      "slug": "la-villa-luxury-guest-house-in-trento-trento",
+      "nome": "La Villa Luxury Guest House In Trento",
+      "email": "lavilla@bookingtrento.com",
+      "website": "http://www.lavillatrento.it/"
+    },
+    {
+      "id": "2d0404fd-2bf7-4810-b77d-3c55d263324f",
+      "slug": "le-palme-rooms-breakfast-trento",
+      "nome": "Le Palme Rooms & Breakfast",
+      "email": "lepalme@bookingtrento.com",
+      "website": "http://www.lepalmetrento.it/"
+    },
+    {
+      "id": "47a91faa-244b-4c4e-be25-7f99b991583b",
+      "slug": "les-suites-acquafredda",
+      "nome": "Les Suites",
+      "email": "k4b-am@kayak.com",
+      "website": "http://www.lessuitesasola.it/"
+    },
+    {
+      "id": "eb9af525-d639-410e-bc9f-3f22701707be",
+      "slug": "malia-b-b-lecce",
+      "nome": "Malia B&B",
+      "email": "info@maliabb.com",
+      "website": "https://beb.it/malialecce"
+    },
+    {
+      "id": "7ec48640-c6ff-4f86-a07a-9b05cb3d0ab7",
+      "slug": "mandarin-oriental-lago-di-como-blevio",
+      "nome": "Mandarin Oriental, Lago di Como",
+      "email": "mocmo-reservations@mohg.com",
+      "website": "https://www.mandarinoriental.com/en/lake-como/blevio"
+    },
+    {
+      "id": "8b4687a7-47d4-42f2-92e9-89a4c72851e9",
+      "slug": "mandarin-oriental-milan",
+      "nome": "Mandarin Oriental, Milan",
+      "email": "momln-reservations@mohg.com",
+      "website": "https://www.mandarinoriental.com/en/milan/porta-nova"
+    },
+    {
+      "id": "62c4dc1a-652e-46e6-a9a3-544438387a79",
+      "slug": "manila-grand-opera-hotel-manila",
+      "nome": "Manila Grand Opera Hotel",
+      "email": "reservations@directwithhotels.com",
+      "website": "http://www.manilagrandopera.com/"
+    },
+    {
+      "id": "2a81633c-37c0-4ff9-a113-302f2f61b65b",
+      "slug": "mercure-villa-romanazzi-carducci-bari",
+      "nome": "Mercure Villa Romanazzi Carducci",
+      "email": "booking@villaromanazzi.com",
+      "website": "https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=1971&merchantid=seo-maps-IT-1971&sourceid=aw-cen&utm_medium=seo%20maps&utm_source=google%20Maps&utm_campaign=seo%20maps"
+    },
+    {
+      "id": "684d9204-9809-4ccd-a6cf-5702c4856806",
+      "slug": "nh-collection-porta-rossa-florence",
+      "nome": "NH Collection Porta Rossa",
+      "email": "portarossa@colbert-collection.com",
+      "website": "https://www.nh-collection.com/en/hotel/nh-collection-porta-rossa-florence"
+    },
+    {
+      "id": "b41ad6c0-ed49-44a2-ae26-894dfcf199b1",
+      "slug": "olivia-balmes-hotel-barcelona",
+      "nome": "Olivia Balmes Hotel",
+      "email": "recepcion.balmes@oliviahotels.es",
+      "website": "http://www.oliviabalmeshotel.com/"
+    },
+    {
+      "id": "c3afc13b-4440-4f62-b711-0e54c0aa6b2d",
+      "slug": "ottocento-guest-house-alghero",
+      "nome": "Ottocento Guest House",
+      "email": "info@mentefredda.it",
+      "website": "https://www.ottocentoguesthouse.it/"
+    },
+    {
+      "id": "21c274e0-5f34-43ba-b951-070da3bf9cf0",
+      "slug": "ottomood-ala-ovest-b-b-catania",
+      "nome": "Ottomood Ala Ovest B&B",
+      "email": "info@russogiuseppe.it",
+      "website": "http://www.ottomood.it/"
+    },
+    {
+      "id": "3d253ed3-610f-48bf-a1f5-9285af7bba8a",
+      "slug": "palazzo-sant-anna-lecce-lecce",
+      "nome": "Palazzo Sant'Anna Lecce",
+      "email": "info@palazzosantannalecce.com",
+      "website": "http://www.psalecce.com/"
+    },
+    {
+      "id": "511b10ea-d8ba-4eb5-9095-3d0bd9456c6a",
+      "slug": "palermo-rooms-bed-breakfast-palermo",
+      "nome": "Palermo Rooms - Bed & Breakfast",
+      "email": "info@palermorooms.it",
+      "website": "https://beb.it/palermorooms"
+    },
+    {
+      "id": "81073932-d434-4fdd-b93c-920cd2af5985",
+      "slug": "parioli-hotel-rimini-rimini",
+      "nome": "Parioli Hotel Rimini",
+      "email": "parioli@tonihotels.it",
+      "website": "https://www.hotelpariolirimini.it/"
+    },
+    {
+      "id": "1ba7f086-33d5-4dd7-84b0-265a579a11ee",
+      "slug": "poste-regie-milan-guest-house-milano",
+      "nome": "Poste Regie - Milan Guest House",
+      "email": "info@milanguesthouse.it",
+      "website": "http://www.posteregie.it/"
+    },
+    {
+      "id": "d96eb856-9352-4c31-8b90-a7e31a2bac69",
+      "slug": "r-d-bed-and-breakfast-alghero",
+      "nome": "R & D Bed and Breakfast",
+      "email": "info@mentefredda.it",
+      "website": "http://www.thesmerald.it/"
+    },
+    {
+      "id": "24694915-e725-4321-8fdd-fb2f436b99ee",
+      "slug": "radisson-collection-palazzo-touring-milano",
+      "nome": "Radisson Collection Hotel, Palazzo Touring Club",
+      "email": "info.milan@radissoncollection.com",
+      "website": "https://www.radissonhotels.com/en-us/hotels/radisson-collection-milan-palazzo-touring"
+    },
+    {
+      "id": "d06cbd26-a6cb-4a8c-a05c-eba95f024714",
+      "slug": "rambuttri-village-hotel-bangkok",
+      "nome": "Rambuttri Village Hotel",
+      "email": "info@khaosan-hotels.com",
+      "website": "http://www.rambuttrivillage.com/"
+    },
+    {
+      "id": "8e8937f5-d5fe-48ac-91c0-08d11b25867a",
+      "slug": "relais-la-corte-dei-cavalieri-b-b-residenza-d-ep-siena",
+      "nome": "Relais La Corte Dei Cavalieri - B&B Residenza d'Epoca",
+      "email": "info@studio21.it",
+      "website": "http://www.relaiscortedeicavalieri.it/"
+    },
+    {
+      "id": "66809175-e526-48c9-a121-53a27a54a5b7",
+      "slug": "rifugio-montano-acquaformosa",
+      "nome": "Rifugio Montano",
+      "email": "rifugiomontano@gmail.com%20",
+      "website": "http://www.rifugiomontano.it/"
+    },
+    {
+      "id": "f3389797-1155-40e9-9ac3-6ec096931d06",
+      "slug": "rosso-di-sera-relais-tuscany-pisa",
+      "nome": "Rosso di Sera Relais Tuscany",
+      "email": "info@rossodiseratuscany.it",
+      "website": "https://www.rossodiserarelaistuscany.it/"
+    },
+    {
+      "id": "75e3fba0-17e6-42d0-809a-4bf520cf6825",
+      "slug": "royal-art-house-h-duomo-napoli-centro-napoli",
+      "nome": "Royal Art House H. Duomo, Napoli Centro",
+      "email": "info@creativegroups.it",
+      "website": "http://www.clapagroup.it/"
+    },
+    {
+      "id": "38307218-0aaf-4c9f-9529-cc66461f6990",
+      "slug": "royal-palace-hotel-messina-messina",
+      "nome": "Royal Palace Hotel Messina",
+      "email": "reservation.rph@framon-hotels.it",
+      "website": "https://www.royalpalacemessina.it/?utm_source=Google-My-Business&utm_medium=scheda-GMB&utm_campaign=sito%20web"
+    },
+    {
+      "id": "7c13e821-d196-4af6-9fc6-6be18668a0c7",
+      "slug": "royal-residence-padova-padova",
+      "nome": "ROYAL RESIDENCE PADOVA",
+      "email": "tu@email.com",
+      "website": "https://www.vacation-bookings.com/d/61123721?currency=EUR&locale=it-IT&salesChannelId=HOLIDU_HOST_WEBSITE&colorPrimary=%2300819e&colorPrimaryDark=%23007390&colorCTA=%2300819e&colorCTAActive=%23007390&colorCTAText=%23FFFFFF&title=Royal+Residence+Padova&ccons=MTc0NzM1MDk1MzE0NToxMTE%3D"
+    },
+    {
+      "id": "8fde1d33-7168-4505-8870-325fa60b8c10",
+      "slug": "sbirziola-hotels-terme-roma-abano-terme",
+      "nome": "Sbirziola Hotels Terme Roma",
+      "email": "info@termeroma.it",
+      "website": "https://www.sbirziolahotels.com/it/hotel-roma/?utm_source=google&utm_medium=local&utm_campaign=GBP-roma"
+    },
+    {
+      "id": "da8bd55b-3de1-4d62-a897-5cca9d3c855f",
+      "slug": "soggiorno-angelus-roma",
+      "nome": "Soggiorno Angelus",
+      "email": "info@hotelartorius.com",
+      "website": "http://www.angelusbb.com/italiano/"
+    },
+    {
+      "id": "24b4e918-cf67-4b38-bce1-baaa86347a61",
+      "slug": "splendido-a-belmond-hotel-portofino",
+      "nome": "Splendido, a Belmond Hotel,",
+      "email": "unsubscribe@belmond.com",
+      "website": "https://www.belmond.com/hotels/europe/italy/portofino/belmond-hotel-splendido/?utm_source=local_search&utm_medium=link&utm_campaign=google_business"
+    },
+    {
+      "id": "47a2c4ce-d8b2-4c38-98d5-9bb5a330b390",
+      "slug": "splendido-mare-a-belmond-hotel-portofino-portofino",
+      "nome": "Splendido Mare, A Belmond Hotel, Portofino",
+      "email": "unsubscribe@belmond.com",
+      "website": "https://www.belmond.com/hotels/europe/italy/portofino/belmond-splendido-mare/?utm_source=local_search&utm_medium=link&utm_campaign=google_business"
+    },
+    {
+      "id": "83f596a7-fc83-4b8d-b7f9-267ff9abc771",
+      "slug": "tenuta-gentile-resort-spa-acquaviva-delle-fonti",
+      "nome": "Tenuta Gentile Resort & Spa",
+      "email": "ricevimento@rossohotel.com",
+      "website": "https://tenutagentile.com/"
+    },
+    {
+      "id": "8ba1151a-2713-47dc-af70-a6ffb19c633c",
+      "slug": "tenuta-il-guerriero-agricampeggio-capestrano-acciano",
+      "nome": "Tenuta Il Guerriero - Agricampeggio Capestrano",
+      "email": "info@agricampeggiocapestrano.it",
+      "website": "http://www.tenutailguerriero.it/"
+    },
+    {
+      "id": "b115df73-de1a-4957-80e4-3ac9338bff0d",
+      "slug": "the-convo-como-lake-como",
+      "nome": "The Convo Como Lake",
+      "email": "reception.como@theconvo.com",
+      "website": "https://hotels.cloudbeds.com/reservation/5DhQ1a"
+    },
+    {
+      "id": "e0f1810e-81aa-474e-92b3-e4367d92ef81",
+      "slug": "the-elysium-taksim-istanbul",
+      "nome": "The Elysium Taksim",
+      "email": "info@theelysiumhotels.com",
+      "website": "https://theelysiumtaksim.com/"
+    },
+    {
+      "id": "a2a1dfbc-c232-4cbe-b2b0-2a349fe1f86e",
+      "slug": "the-hotel-saskatchewan-autograph-collection-regina",
+      "nome": "The Hotel Saskatchewan, Autograph Collection",
+      "email": "info@hotelsask.com",
+      "website": "https://www.marriott.com/en-us/hotels/yqrak-the-hotel-saskatchewan-autograph-collection/overview/"
+    },
+    {
+      "id": "5a9e3a8a-10cb-4e13-b42b-030d0e1173b1",
+      "slug": "the-st-regis-florence",
+      "nome": "The St. Regis Florence",
+      "email": "stregisflorence@stregis.com",
+      "website": "https://www.marriott.com/en-us/hotels/flrxf-the-st-regis-florence/overview/"
+    },
+    {
+      "id": "4477438e-40e4-4016-b3b5-583ae9eb6350",
+      "slug": "the-st-regis-rome",
+      "nome": "The St. Regis Rome",
+      "email": "stregisrome@stregis.com",
+      "website": "https://www.marriott.com/en-us/hotels/romxr-the-st-regis-rome/overview/"
+    },
+    {
+      "id": "a92253f1-08b7-45fc-b9b7-c9f4e7866ae2",
+      "slug": "town-house-morgana-reggio-di-calabria",
+      "nome": "Town House Morgana",
+      "email": "info@townhousecavour.it",
+      "website": "https://www.townhouserc.it"
+    },
+    {
+      "id": "fe0bfe22-5367-43e8-ae59-48ebf77928c6",
+      "slug": "verona-rooms-109-verona",
+      "nome": "Verona Rooms 109",
+      "email": "it@2x-1d4e665836583d7eb6ee9f63caaa30bdd5db4290ed939aadb9fffc6f93ec4bc6.png",
+      "website": "https://www.veronarooms109.com/"
+    },
+    {
+      "id": "eddb106c-c740-442a-93ca-6fe1c0835945",
+      "slug": "villa-argiolas-bed-breakfast-modena",
+      "nome": "Villa Argiolas Bed & Breakfast",
+      "email": "support@readymag.com",
+      "website": "https://villargiolas.it/"
+    },
+    {
+      "id": "e45aaafa-20ae-4b9e-b72b-35ffe0f819fa",
+      "slug": "villa-beatrice-portofino",
+      "nome": "Villa Beatrice",
+      "email": "unsubscribe@belmond.com",
+      "website": "https://www.belmond.com/hotels/europe/italy/portofino/belmond-hotel-splendido/villa-beatrice"
+    },
+    {
+      "id": "2ff543f6-68d0-40c5-b051-d4ed23a44c4d",
+      "slug": "villa-margherita-ravello",
+      "nome": "Villa Margherita",
+      "email": "unsubscribe@belmond.com",
+      "website": "https://www.belmond.com/hotels/europe/italy/amalfi-coast/belmond-villa-margherita/?utm_source=local_search&utm_medium=link&utm_campaign=google_business"
+    },
+    {
+      "id": "82f20e92-1fdd-4eb3-b33f-93a400f24a2e",
+      "slug": "villino-wanda-cinque-terre",
+      "nome": "Villino Wanda",
+      "email": "utente@dominio.com",
+      "website": "https://www.villinowanda.it/"
+    },
+    {
+      "id": "f595cfa1-6300-403e-8df4-80b4dd443a9a",
+      "slug": "wave-hotel-aci-catena",
+      "nome": "Wave Hotel",
+      "email": "user@company.com",
+      "website": "http://www.wavehotel.it/"
+    }
+  ],
+  "applied": true
+}
