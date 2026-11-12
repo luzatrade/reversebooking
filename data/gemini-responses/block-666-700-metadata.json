@@ -1,0 +1,352 @@
+[
+  {
+    "structureNumber": 666,
+    "id": "1b887005-9912-4258-a813-5caa519d33e7",
+    "slug": "agriturismo-le-giuggiole-agrate-brianza",
+    "nome": "Agriturismo le Giuggiole",
+    "city": "Agrate Brianza",
+    "indirizzo": "Str. per Cascina Bragosa, 20042 Pessano con Bornago MI",
+    "website": "https://agriturismolegiuggiole.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 667,
+    "id": "90476dfb-19e1-449d-9eaf-cd36ee0e31ad",
+    "slug": "azienda-agricola-bio-e-agriturismo-brusignone-agrate-brianza",
+    "nome": "Azienda Agricola Bio e Agriturismo Brusignone",
+    "city": "Agrate Brianza",
+    "indirizzo": "Via Alcide De Gasperi, 31 20842, 20842 Montesiro MB",
+    "website": "https://agricolabrusignone.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 668,
+    "id": "fe2f7390-053d-4f9d-a8d8-e01d9b08445e",
+    "slug": "b-b-irene-affittacamere-agrate-brianza",
+    "nome": "B&B Irene ( affittacamere )",
+    "city": "Agrate Brianza",
+    "indirizzo": "Via Rodolfo Morandi, n°25, 20864 Agrate Brianza MB",
+    "website": null,
+    "email": null
+  },
+  {
+    "structureNumber": 669,
+    "id": "23928df2-ec17-4b67-8751-c2361c783f89",
+    "slug": "beat-house-apartments-agrate-brianza",
+    "nome": "beat house&apartments",
+    "city": "Agrate Brianza",
+    "indirizzo": "Via G. Matteotti, 70, 20864 Agrate Brianza MB",
+    "website": "https://airbnb.com/h/beathouse",
+    "email": null
+  },
+  {
+    "structureNumber": 670,
+    "id": "1a78051a-f6f0-4ae1-8c92-9eacd6444b90",
+    "slug": "bervius-agrate-brianza",
+    "nome": "Bervius",
+    "city": "Agrate Brianza",
+    "indirizzo": "Via Paracelso, 26, 20864 Agrate Brianza MB",
+    "website": "https://www.bervius.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 671,
+    "id": "60e40779-e973-4ba7-9afb-8aea1aede18e",
+    "slug": "cascina-bressanella-agriturismo-ortofrutta-km0-agrate-brianza",
+    "nome": "Cascina Bressanella | Agriturismo | Ortofrutta Km0",
+    "city": "Agrate Brianza",
+    "indirizzo": "Via della Cascina Selva, 11, 20842 Besana in Brianza MB",
+    "website": "http://www.cascinabressanella.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 672,
+    "id": "c41ebf1a-3443-462e-8d3e-f52d4f6c385f",
+    "slug": "cascina-costa-agrate-brianza",
+    "nome": "Cascina Costa",
+    "city": "Agrate Brianza",
+    "indirizzo": "località Costa, 12, 23893 Cassago Brianza LC",
+    "website": "https://www.cascinacosta.net/",
+    "email": null
+  },
+  {
+    "structureNumber": 673,
+    "id": "bd1f37c4-f18d-4478-9914-ce8361b16eba",
+    "slug": "fondobrugarolo-agrate-brianza",
+    "nome": "FondoBrugarolo",
+    "city": "Agrate Brianza",
+    "indirizzo": "Via A Manzoni, 15, 20884 Sulbiate MB",
+    "website": "https://www.fondobrugarolo.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 674,
+    "id": "55413cb2-08ed-4250-be0c-a7ca89f020ce",
+    "slug": "mercure-milano-agrate-brianza-agrate-brianza",
+    "nome": "Mercure Milano Agrate Brianza",
+    "city": "Agrate Brianza",
+    "indirizzo": "Via Cardano, 2, 20864 Agrate Brianza MB",
+    "website": "https://all.accor.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=8301",
+    "email": null
+  },
+  {
+    "structureNumber": 675,
+    "id": "76771fc0-4304-4766-8458-7f50bf264632",
+    "slug": "bogogno-golf-resort-hotel-4-stelle-agrate-conturbia",
+    "nome": "Bogogno Golf Resort (Hotel 4 Stelle)",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Via San Isidoro, 1, 28010 Bogogno NO",
+    "website": "http://www.bogognogolfresort.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 676,
+    "id": "3e3c9b46-d5b1-4711-8ac1-9fb76a362c29",
+    "slug": "camping-italia-lido-agrate-conturbia",
+    "nome": "Camping Italia Lido",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Via Cicognola, 104, 28053 Castelletto sopra Ticino NO",
+    "website": "https://www.campingitalialido.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 677,
+    "id": "19accfe7-a344-4f47-9442-59a82f9d6334",
+    "slug": "camping-lago-azzurro-agrate-conturbia",
+    "nome": "Camping Lago Azzurro",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Via Enrico Fermi, 2, 28040 Dormelletto NO",
+    "website": "http://www.campinglagoazzurro.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 678,
+    "id": "56021e51-0df8-41e3-a2da-09135c096be2",
+    "slug": "casa-violetta-b-b-agrate-conturbia",
+    "nome": "Casa Violetta B&B",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Via Roma, 60 b, 28010 Agrate Conturbia NO",
+    "website": "http://www.casavioletta.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 679,
+    "id": "1d35a5d2-c698-4c9e-a941-a214c3ecdfdf",
+    "slug": "crystal-b-b-agrate-conturbia",
+    "nome": "CRYSTAL b&b",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Via Monte Bianco, 1A, 28040 Dormelletto NO",
+    "website": "https://beb.it/crystal/it/",
+    "email": null
+  },
+  {
+    "structureNumber": 680,
+    "id": "4e032280-d3ce-4915-b240-629ebdaad852",
+    "slug": "emotional-grand-motel-agrate-conturbia",
+    "nome": "Emotional Grand Motel",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Via della Fontana, 41, 28010 Fontaneto d'Agogna NO",
+    "website": "https://www.emotionalgrandmotel.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 681,
+    "id": "50604af8-c57b-484e-976f-c12067ea2684",
+    "slug": "golf-hotel-castelconturbia-agrate-conturbia",
+    "nome": "Golf Hotel Castelconturbia",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Via Castelconturbia, 10, 28010 Localita' Bindellina NO",
+    "website": "https://www.golfhotelcastelconturbia.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 682,
+    "id": "d041e1bc-04b0-4cc8-9e03-c58678022937",
+    "slug": "hotel-blue-relais-maggiore-agrate-conturbia",
+    "nome": "Hotel Blue Relais Maggiore",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Via Sempione, 182, 28053 Castelletto sopra Ticino NO",
+    "website": "https://www.bluerelais-maggiore.it/hotel/",
+    "email": null
+  },
+  {
+    "structureNumber": 683,
+    "id": "fa5da12f-31e1-4ee6-9327-1b66bddad4f4",
+    "slug": "hotel-italia-dormelletto-agrate-conturbia",
+    "nome": "Hotel Italia Dormelletto",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Corso Cavour, 170, 28040 Dormelletto NO",
+    "website": "http://hotel-residence-italy.org.es/",
+    "email": null
+  },
+  {
+    "structureNumber": 684,
+    "id": "5f55693b-4b5b-4eee-8eb0-f3055419214f",
+    "slug": "hotel-le-palme-agrate-conturbia",
+    "nome": "Hotel Le Palme",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Corso Cavour, 130, 28040 Dormelletto NO",
+    "website": "http://www.lepalmehotel.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 685,
+    "id": "d1a728e3-f66d-43e0-92b1-27d911c01212",
+    "slug": "hotel-ramoverde-agrate-conturbia",
+    "nome": "Hotel Ramoverde",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Via G. Matteotti, 1, 28021 Borgomanero NO",
+    "website": "https://www.hotelramoverde.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 686,
+    "id": "c63175cd-ca76-4c6f-99d9-d6db21f86dff",
+    "slug": "hotel-residence-isotta-agrate-conturbia",
+    "nome": "Hotel Residence Isotta",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Via Pozzarino, 1, 28013 Veruno NO",
+    "website": "http://hotel-residence-isotta.org.es/",
+    "email": null
+  },
+  {
+    "structureNumber": 687,
+    "id": "25ae1dd8-5118-4fbe-a437-fbfeae996025",
+    "slug": "hotel-ristorante-la-perla-agrate-conturbia",
+    "nome": "Hotel Ristorante La Perla",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Via Sottomonte, 4, 28040 Varallo Pombia NO",
+    "website": "https://www.hotelristorantelaperla.it/it/hotel-ristorante-4-stelle-varallo-pombia/hotel",
+    "email": null
+  },
+  {
+    "structureNumber": 688,
+    "id": "68334ee4-1d9f-418a-9d84-554363b6b6c6",
+    "slug": "il-salice-b-b-agrate-conturbia",
+    "nome": "Il Salice B&B",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Via delle Venezie, 3, 28013 Veruno NO",
+    "website": "https://www.ilsalicebb.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 689,
+    "id": "e3d86673-902d-45ca-a9a0-8268b4548952",
+    "slug": "les-arcs-agrate-conturbia",
+    "nome": "Les Arcs",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Via Motto, 11, 28010 Conturbia NO",
+    "website": "https://www.lesarcscountryhouse.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 690,
+    "id": "72000654-0561-4d1a-94a2-dbbef5b16950",
+    "slug": "lido-verbano-camping-village-agrate-conturbia",
+    "nome": "Lido Verbano Camping Village",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Via Sempione, 100, 28053 Castelletto sopra Ticino NO",
+    "website": "https://www.campinglidoverbano.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 691,
+    "id": "fa96f940-bf5e-47ab-b0d0-4276abf0107d",
+    "slug": "ritratto-sul-lago-bed-breakfast-agrate-conturbia",
+    "nome": "Ritratto Sul Lago Bed & Breakfast",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Via Leonardo da Vinci, 15, 28040 Dormelletto NO",
+    "website": "https://www.ritrattosullago.com/",
+    "email": null
+  },
+  {
+    "structureNumber": 692,
+    "id": "b1d78290-1739-4c19-8053-f8dd25982185",
+    "slug": "sirio-hotel-agrate-conturbia",
+    "nome": "SIRIO Hotel",
+    "city": "Agrate Conturbia",
+    "indirizzo": "Corso Cavour, 188, 28040 Dormelletto NO",
+    "website": "http://www.siriohotel.it/",
+    "email": null
+  },
+  {
+    "structureNumber": 693,
+    "id": "a9869ae8-59e9-4835-91af-575c5fbb5380",
+    "slug": "agrigento-bed-agrigento",
+    "nome": "Agrigento Bed",
+    "city": "Agrigento",
+    "indirizzo": "Via Atenea, 321, 92100 Agrigento AG, Italia",
+    "website": "http://www.gctravel.it/agrigentobed",
+    "email": "info@gctravel.it"
+  },
+  {
+    "structureNumber": 694,
+    "id": "df75b2e4-7130-4743-9e09-91302ca334d6",
+    "slug": "alcova-camere-agrigento",
+    "nome": "Alcova Camere",
+    "city": "Agrigento",
+    "indirizzo": "Via San Francesco d'Assisi, 45, 92100 Agrigento AG, Italia",
+    "website": null,
+    "email": null
+  },
+  {
+    "structureNumber": 695,
+    "id": "a24d2699-c683-409a-8c1c-e784a85b76e6",
+    "slug": "alloggio-della-posta-vecchia-agrigento",
+    "nome": "Alloggio Della Posta Vecchia",
+    "city": "Agrigento",
+    "indirizzo": "Via Giambertoni, 19, 92100 Agrigento AG, Italia",
+    "website": "https://www.agrigento-templi.it/",
+    "email": "alloggiodellapostavecchia@gmail.com"
+  },
+  {
+    "structureNumber": 696,
+    "id": "6408bad6-12c1-420b-a728-76b74baa7e68",
+    "slug": "b-b-agrigento-gioeniventidue-agrigento",
+    "nome": "B&B Agrigento GioeniVentidue",
+    "city": "Agrigento",
+    "indirizzo": "Via Gioeni, 22, 92100 Agrigento AG, Italia",
+    "website": null,
+    "email": null
+  },
+  {
+    "structureNumber": 697,
+    "id": "e3b02bce-8c8a-46ce-84c0-8638394bc932",
+    "slug": "b-b-al-dammuso-agrigento",
+    "nome": "B&B Al Dammuso",
+    "city": "Agrigento",
+    "indirizzo": "Cortile Coniglio, 5, 92100 Agrigento AG, Italia",
+    "website": "http://al-dammuso.com.es/",
+    "email": null
+  },
+  {
+    "structureNumber": 698,
+    "id": "3b07aeed-d625-42be-980b-ca8a647c2977",
+    "slug": "b-b-dimora-di-girgenti-agrigento",
+    "nome": "B&B DIMORA DI GIRGENTI",
+    "city": "Agrigento",
+    "indirizzo": "Via Vela, 6, 92100 Agrigento AG, Italia",
+    "website": "https://directy.eu/bnb-dimora-di-grigenti-agrigento",
+    "email": null
+  },
+  {
+    "structureNumber": 699,
+    "id": "dc508ebf-bcb7-42ce-99c2-d7aa79b30b36",
+    "slug": "b-b-il-conte-agrigento",
+    "nome": "B&B IL CONTE",
+    "city": "Agrigento",
+    "indirizzo": "Via Atenea, 45, 92100 Agrigento AG, Italia",
+    "website": null,
+    "email": null
+  },
+  {
+    "structureNumber": 700,
+    "id": "9540b79a-6713-4a20-bb3f-b2002df3b191",
+    "slug": "b-b-la-casa-di-nonna-agrigento",
+    "nome": "B&B La casa di nonna",
+    "city": "Agrigento",
+    "indirizzo": "Via Esseneto, 28, 92100 Agrigento AG, Italia",
+    "website": null,
+    "email": null
+  }
+]

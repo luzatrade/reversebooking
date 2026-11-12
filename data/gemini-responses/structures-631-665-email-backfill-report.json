@@ -1,0 +1,102 @@
+{
+  "summary": {
+    "range": "631-665",
+    "dryRun": false,
+    "total": 35,
+    "alreadyHadEmail": 20,
+    "noWebsite": 4,
+    "aggregatorSkipped": 5,
+    "scrapedFound": 0,
+    "dbUpdated": 0,
+    "notFound": 6,
+    "errors": 0
+  },
+  "details": [
+    {
+      "structureNumber": 631,
+      "slug": "albergo-ristorante-stella-agosta",
+      "status": "no_website"
+    },
+    {
+      "structureNumber": 635,
+      "slug": "la-nuova-fattoria-ristorante-hotel-agosta",
+      "status": "not_found",
+      "website": "http://www.lanuovafattoria.it/"
+    },
+    {
+      "structureNumber": 636,
+      "slug": "le-calecatine-agosta",
+      "status": "aggregator_skipped",
+      "website": "http://le-calecatine.org.es/"
+    },
+    {
+      "structureNumber": 637,
+      "slug": "locanda-dell-orso-agosta",
+      "status": "aggregator_skipped",
+      "website": "https://romeit.cyou/locanda-dell-orso-0ksl4q"
+    },
+    {
+      "structureNumber": 638,
+      "slug": "locanda-della-casella-agosta",
+      "status": "no_website"
+    },
+    {
+      "structureNumber": 639,
+      "slug": "ostello-il-girasole-agosta",
+      "status": "aggregator_skipped",
+      "website": "https://m.facebook.com/pages/category/Hotel/Ostello-Il-Girasole-1284736331644708/?locale2=it_IT&"
+    },
+    {
+      "structureNumber": 640,
+      "slug": "the-life-hotel-agosta",
+      "status": "no_website"
+    },
+    {
+      "structureNumber": 641,
+      "slug": "villa-clementi-boutique-hotel-agosta",
+      "status": "not_found",
+      "website": "https://villaclementiboutiquehotel.com/"
+    },
+    {
+      "structureNumber": 647,
+      "slug": "b-b-magnolia-agra",
+      "status": "no_website"
+    },
+    {
+      "structureNumber": 650,
+      "slug": "foresteria-al-campanile-agra",
+      "status": "not_found",
+      "website": "https://www.foresteriaalcampanile.it/"
+    },
+    {
+      "structureNumber": 651,
+      "slug": "garni-viggiona-agra",
+      "status": "aggregator_skipped",
+      "website": "https://directy.eu/garni-viggiona"
+    },
+    {
+      "structureNumber": 653,
+      "slug": "hotel-montegrino-lakeview-agra",
+      "status": "not_found",
+      "website": "https://www.hotelmontegrino.it/"
+    },
+    {
+      "structureNumber": 658,
+      "slug": "residence-eden-rock-cannobio-agra",
+      "status": "aggregator_skipped",
+      "website": "https://www.booking.com/hotel/it/eden-rock-cannobio.de.html?aid=356980;label=gog235jc-1DCAsocUISZWRlbi1yb2NrLWNhbm5vYmlvSDNYA2g9iAEBmAEHuAEXyAEM2AED6AEBiAIBqAIDuAKNge7kBcACAQ;sid=55c55e6b926a52fe128598fa92559af8;dist=0&keep_landing=1&sb_price_type=total&type=total&"
+    },
+    {
+      "structureNumber": 660,
+      "slug": "rifugio-campiglio-agra",
+      "status": "not_found",
+      "website": "http://www.rifugiocampiglio.com/"
+    },
+    {
+      "structureNumber": 663,
+      "slug": "agriturismo-galbusera-bianca-agrate-brianza",
+      "status": "not_found",
+      "website": "https://www.oasigalbuserabianca.it/"
+    }
+  ]
+}
