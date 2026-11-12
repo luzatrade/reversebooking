@@ -1,418 +1,177 @@
 [
   {
-    "slug": "hotel-motel-sporting-abbadia-cerreto",
-    "indirizzo": "Via Stradoncello, 1, 26010 Ripalta Guerina (CR)",
-    "phone": "+39 0373 66701",
-    "email": "info@hotelmotelsporting.it",
-    "description": "Situato nelle immediate vicinanze di Crema e delle principali arterie stradali lombarde, l'Hotel Motel Sporting garantisce riservatezza, eleganza e massimo comfort. La struttura propone camere e suite a tema dotate di vasca idromassaggio, garage privato coperto con accesso diretto in camera, connessione WiFi ad alta velocità e check-in rapido h24. Soluzione ideale per viaggi d'affari o pause di relax in totale discrezione.",
-    "description_en": "Located near Crema with fast access to major Lombardy highways, Hotel Motel Sporting provides discretion, elegance, and premium comfort. The property features themed suites with Jacuzzi tubs, private covered garages with direct room entry, high-speed WiFi, and 24/7 express check-in. Perfect for corporate stays or private romantic getaways.",
-    "city": "Ripalta Guerina"
+    "slug": "b-b-villa-milena-accadia",
+    "description": "Situato in Contrada Stratola 1/B (2° piano) ad Ariano Irpino (coordinate: 41.159249, 15.123944), il B&B Villa Milena è una struttura accogliente immersa nel verde delle colline irpine. Le sistemazioni dispongono di riscaldamento autonomo, connessione Wi-Fi gratuita, TV a schermo piatto e bagno privato con doccia ed asciugacapelli. La posizione garantisce la massima tranquillità a soli 3 km dal centro storico di Ariano Irpino e dal Castello Normanno. Dista circa 40 km da Benevento ed è ben collegata con la strada statale SS90 per rapidi spostamenti nella Valle dell'Ufita.",
+    "description_en": "Located at Contrada Stratola 1/B (2nd floor) in Ariano Irpino (coordinates: 41.159249, 15.123944), B&B Villa Milena offers comfortable lodging set against the scenic Irpinia hills. Guest rooms feature independent heating, free Wi-Fi, flat-screen TVs, and private bathrooms with showers and hairdryers. The tranquil property sits just 3 km from Ariano Irpino's historic center and Norman Castle, 40 km from Benevento, and offers direct access to the SS90 highway for exploring the Ufita Valley."
   },
   {
-    "slug": "hotel-niki-3-stelle-abbadia-cerreto",
-    "indirizzo": "Strada Provinciale ex SS 415 Paullese, 15, 26839 Zelo Buon Persico (LO)",
-    "phone": "+39 02 9065001",
-    "email": "info@hotelniki.it",
-    "description": "Posizionato lungo la Strada Statale Paullese a Zelo Buon Persico, a breve distanza dall'Aeroporto di Milano Linate e dalle tangenziali milanesi, l'Hotel Niki 3 Stelle è la scelta perfetta per la clientela business. Offre camere moderne insonorizzate, aria condizionata, WiFi gratuito, bar interno aperto 24 ore su 24 ed ampio parcheggio privato recintato.",
-    "description_en": "Situated along the Paullese highway in Zelo Buon Persico, close to Milan Linate Airport (LIN), 3-star Hotel Niki is tailored for corporate travelers. Features modern soundproofed rooms, air conditioning, free WiFi, 24/7 lounge bar, and a large secure private parking lot.",
-    "city": "Zelo Buon Persico"
+    "slug": "bed-wine-rocco-zambri-accadia",
+    "description": "Ubicato in Largo Impisi 5 a Bovino (coordinate: 41.25181, 15.336303), uno dei \"Borghi più belli d'Italia\", Bed & Wine Rocco Zambri affianca l'accoglienza turistica alla passione per l'enologia locale. Le camere, arredate con gusto, dispongono di aria condizionata, riscaldamento, Wi-Fi gratuito, TV e bagno privato. La struttura si trova nel cuore antico del paese, a pochi passi dal Castello Ducale e dalla Cattedrale di Santa Maria Assunta. Dista 30 km da Foggia ed è una base ideale per degustazioni di vino tipico dei Monti Dauni.",
+    "description_en": "Situated at Largo Impisi 5 in Bovino (coordinates: 41.25181, 15.336303), recognized as one of Italy's most beautiful historic villages, Bed & Wine Rocco Zambri combines hospitality with local winemaking tradition. Tastefully decorated rooms feature air conditioning, heating, free Wi-Fi, TVs, and private bathrooms. Set in the historic village center near the Ducal Castle and Cathedral, it is located 30 km from Foggia, serving as an ideal base for wine tasting in the Daunian Mountains."
   },
   {
-    "slug": "hotel-villa-belvedere-1849-abbadia-cerreto",
-    "indirizzo": "Via Beata Vergine, 1, 24040 Misano di Gera d'Adda (BG)",
-    "phone": "+39 0363 84901",
-    "email": "info@villabelvedere1849.it",
-    "description": "Incantevole dimora d'epoca immersa nel verde della campagna bergamasca vicino alla Treviglio-Crema, l'Hotel Villa Belvedere 1849 unisce il fascino della storia alle comodità moderne. Dispone di camere eleganti con arredi raffinati, parco secolare, saloni per eventi e matrimoni, connessione WiFi e parcheggio interno. Un'oasi di tranquillità tra Bergamo e Milano.",
-    "description_en": "A charming historic estate set in the quiet Bergamo countryside near Treviglio, Hotel Villa Belvedere 1849 combines historical charm with modern amenities. Offers refined guest rooms, centuries-old gardens, elegant event spaces, free WiFi, and private parking. An idyllic haven between Bergamo and Milan.",
-    "city": "Misano di Gera d'Adda"
+    "slug": "camera-a-sud-accadia",
+    "description": "Posizionata in Piazza Marino Boffa 13 a Bovino (coordinate: 41.252046, 15.341206), Camera a Sud è una struttura ricettiva moderna situata nel centro storico del borgo pugliese. Le sistemazioni sono dotate di climatizzazione autonoma, connessione Wi-Fi ad alta velocità, Smart TV, scrivania e bagno privato con doccia e set di cortesia. La posizione centrale permette di raggiungere a piedi i principali monumenti, ristoranti e botteghe artigiane. Dista 32 km da Foggia e si trova a breve distanza dalle foreste naturalistiche dei Monti Dauni.",
+    "description_en": "Located at Piazza Marino Boffa 13 in Bovino (coordinates: 41.252046, 15.341206), Camera a Sud is a contemporary guesthouse in the historic heart of the town. Air-conditioned rooms come with high-speed Wi-Fi, Smart TVs, work desks, and private bathrooms with showers and toiletries. Its central location provides direct walking access to local landmarks, restaurants, and artisan shops. Located 32 km from Foggia and close to the natural forests of the Daunian Mountains."
   },
   {
-    "slug": "matis-appartamenti-camisano-cr-26010-abbadia-cerreto",
-    "indirizzo": "Via Piave, 4, 26010 Camisano (CR)",
-    "phone": "+39 0373 77120",
-    "email": "info@matisappartamenti.it",
-    "description": "Situati a Camisano, tra Crema e Bergamo, i Matis Appartamenti offrono moderne ed ampie soluzioni abitative indipendenti ideali per brevi e lunghi soggiorni. Ogni appartamento è dotato di cucina completamente attrezzata, soggiorno con Smart TV, aria condizionata, lavatrice e WiFi gratuito. Perfetti per trasferte lavorative e vacanze in autonomia.",
-    "description_en": "Located in Camisano between Crema and Bergamo, Matis Appartamenti offers modern, fully equipped self-catering apartments for short or extended stays. Each unit includes a full kitchen, living room with Smart TV, air conditioning, washing machine, and free WiFi. Ideal for business trips and independent travel.",
-    "city": "Camisano"
+    "slug": "casa-gio-accadia",
+    "description": "Situata in Contrada Scarnecchia 42 ad Ariano Irpino (coordinate: 41.108428, 15.082135), Casa Giò offre un soggiorno riservato ed indipendente nella campagna campana. L'alloggio dispone di ingresso privato, riscaldamento, Wi-Fi gratuito, area soggiorno con TV, angolo cottura attrezzato e bagno privato. Immersa nel verde, la struttura dista 6 km dal centro urbano di Ariano Irpino e circa 12 km dallo svincolo autostradale A16 Grottaminarda, risultando comoda sia per vacanze rilassanti che per spostamenti di lavoro.",
+    "description_en": "Positioned at Contrada Scarnecchia 42 in Ariano Irpino (coordinates: 41.108428, 15.082135), Casa Giò offers self-catering lodging surrounded by quiet countryside. The unit features a private entrance, heating, free Wi-Fi, a living area with TV, a fully equipped kitchenette, and a private bathroom. Located 6 km from central Ariano Irpino and 12 km from the A16 Grottaminarda motorway interchange, it suits both leisure and business stays."
   },
   {
-    "slug": "residenza-i-portici-abbadia-cerreto",
-    "indirizzo": "Via Roma, 5, 26012 Castelleone (CR)",
-    "phone": "+39 0374 35010",
-    "email": "info@residenzaiportici.it",
-    "description": "Nel cuore del centro storico di Castelleone, lungo la caratteristica via commerciale, la Residenza i Portici propone accoglienti appartamenti e camere dal design contemporaneo. Dotati di climatizzazione, WiFi ultra-veloce, cucina o angolo bar e bagni privati. Comodissima per raggiungere la stazione ferroviaria e visitare i mercatini d'antiquariato del borgo.",
-    "description_en": "Located in the historic center of Castelleone, Residenza i Portici features modern apartments and guest rooms with contemporary design. Equipped with air conditioning, ultra-fast WiFi, kitchenettes, and stylish bathrooms. Walking distance to the train station and local historic attractions.",
-    "city": "Castelleone"
+    "slug": "domus-ansantica-accadia",
+    "description": "Posizionata in Contrada Toppoli ad Villamaina (coordinate: 40.964756, 15.103279), Domus Ansantica è una struttura ricettiva rurale nel cuore dell'Irpinia, celebre per le sue sorgenti termali. Le camere vantano arredi in stile classico, riscaldamento, TV, Wi-Fi gratuito e bagno privato. La struttura si trova a soli 3 km dal complesso termale di San Teodoro (Terme di Villamaina) ed è circondata da uliveti e vigneti. Dista circa 50 km da Avellino ed è una tappa ideale per percorsi di benessere ed enogastronomia.",
+    "description_en": "Located at Contrada Toppoli in Villamaina (coordinates: 40.964756, 15.103279), Domus Ansantica is a rural guesthouse in the heart of Irpinia, an area known for its thermal springs. Classic-style rooms feature heating, TVs, free Wi-Fi, and private bathrooms. Situated just 3 km from the San Teodoro thermal spa baths (Terme di Villamaina) and surrounded by olive groves and vineyards, it lies 50 km from Avellino."
   },
   {
-    "slug": "silk-motel-abbadia-cerreto",
-    "indirizzo": "Via del Commercio, 4, 26817 San Martino in Strada (LO)",
-    "phone": "+39 0371 48301",
-    "email": "info@silkmotel.it",
-    "description": "Il Silk Motel a San Martino in Strada, nei pressi del casello autostradale A1 di Lodi, offre un'esperienza di soggiorno esclusiva all'insegna della massima riservatezza. Dispone di suite dotate di vasca idromassaggio doppia, garage riservato con tendina di chiusura, servizio in camera h24 e connessione WiFi ad alta velocità.",
-    "description_en": "Located in San Martino in Strada near the A1 Lodi highway exit, Silk Motel delivers high-end private accommodations. Features luxury suites with double Jacuzzis, private covered garages with drive-in curtains, 24/7 room service, and fast WiFi.",
-    "city": "San Martino in Strada"
+    "slug": "l-antico-monastero-accadia",
+    "description": "Ubicato in Via Santa Maria delle Grazie 18 a Sant'Agata di Puglia (coordinate: 41.148647, 15.379425), L'Antico Monastero è una dimora storica ricavata da un antico complesso religioso restaurato. Le camere conservano elementi architettonici d'epoca, tra travi in legno e pareti in pietra, uniti a comfort moderni quali riscaldamento, Wi-Fi gratuito, TV e bagno privato. Dalla struttura si gode un panorama sul Tavoliere delle Puglie. Dista 500 metri dal Castello Svevo e circa 45 km da Foggia.",
+    "description_en": "Situated at Via Santa Maria delle Grazie 18 in Sant'Agata di Puglia (coordinates: 41.148647, 15.379425), L'Antico Monastero occupies a historic restored religious complex. Rooms showcase original architectural details like wooden beams and stone accents alongside modern amenities including heating, free Wi-Fi, TVs, and private bathrooms. Overlooking the Tavoliere plains, it stands 500 meters from the Svevo Castle and 45 km from Foggia."
   },
   {
-    "slug": "a-fior-di-lago-abbadia-lariana",
-    "indirizzo": "Via Nazionale, 170, 23821 Abbadia Lariana (LC)",
-    "phone": "+39 0341 73101",
-    "email": "info@afiordilago.it",
-    "description": "Posizionato direttamente sulle rive del Lago di Como ad Abbadia Lariana, l'affittacamere \"A fior di lago\" offre una vista panoramica mozzafiato sul bacino lacustre e sulle Grigne. Le camere dispongono di balcone vista lago, WiFi gratuito, aria condizionata e accesso diretto alle spiagge e al Sentiero del Viandante.",
-    "description_en": "Located directly on the shores of Lake Como in Abbadia Lariana, \"A fior di lago\" offers stunning panoramic views of the lake and Grigna mountains. Features lake-view balcony rooms, free WiFi, air conditioning, and immediate access to public beaches and the famous Sentiero del Viandante trail."
+    "slug": "la-candela-affittacamere-accadia",
+    "description": "Situata in Viale Regina Elena 48/E a Candela (coordinate: 41.136224, 15.51623), La Candela Affittacamere offre soluzioni abitative pratiche e confortevoli all'ingresso del borgo. Le camere dispongono di climatizzazione, connessione Wi-Fi gratuita, TV a schermo piatto, scrivania e bagno privato con doccia. La posizione è estremamente vantaggiosa: dista meno di 2 km dal casello autostradale A16 Candela e dal raccordo per Foggia (38 km), rendendola una scelta ideale per viaggiatori d'affari ed escursionisti.",
+    "description_en": "Located on Viale Regina Elena 48/E in Candela (coordinates: 41.136224, 15.51623), La Candela Affittacamere provides practical guest room accommodation near the town entrance. Air-conditioned rooms feature free Wi-Fi, flat-screen TVs, work desks, and private bathrooms with showers. Positioned under 2 km from the A16 Candela motorway toll gate and the Foggia highway connection (38 km away), it is well-suited for business travelers and tourists."
   },
   {
-    "slug": "alla-torre-del-barbarossa-b-b-abbadia-lariana",
-    "indirizzo": "Via della Torre di Federico, 3, 23826 Maggiana (LC)",
-    "phone": "+39 0341 73220",
-    "email": "info@torredelbarbarossa.it",
-    "description": "Situato nel suggestivo borgo di Maggiana sopra Mandello del Lario, ai piedi della famosa Torre del Barbarossa, questo B&B vanta un'atmosfera d'altri tempi. Offre camere in pietra e legno, giardino vista lago, colazione genuina e vicinanza agli itinerari di trekking delle Grigne e alle spiagge del Lago di Como.",
-    "description_en": "Set in the historic hamlet of Maggiana near Mandello del Lario, right by the iconic Barbarossa Tower, this B&B combines alpine-style stone architecture with modern comfort. Offering lake-view gardens, rustic rooms, traditional breakfasts, and easy access to hiking trails and Lake Como beaches.",
-    "city": "Maggiana"
+    "slug": "locanda-ballaro-accadia",
+    "description": "Immersa nel paesaggio rurale di Contrada Varco a Deliceto (coordinate: 41.230972, 15.381327), la Locanda Ballarò combina l'ospitalità di campagna con la ristorazione di qualità. Le camere dispongono di riscaldamento autonomo, TV, Wi-Fi gratuito e bagno privato con doccia. La locanda comprende un ristorante interno specializzato in piatti tipici dei Monti Dauni con prodotti a filiera corta. Dista 4 km dal Castello Normanno-Svevo di Deliceto e 35 km da Foggia.",
+    "description_en": "Nestled in the countryside of Contrada Varco in Deliceto (coordinates: 41.230972, 15.381327), Locanda Ballarò combines rural lodging with local dining. Rooms feature self-regulating heating, TVs, free Wi-Fi, and private bathrooms with showers. The on-site restaurant specializes in traditional farm-to-table recipes from the Daunian Mountains. Located 4 km from Deliceto's Norman-Swabian Castle and 35 km from Foggia."
   },
   {
-    "slug": "b-b-acqua-dolce-cin-it097042c1fhqlwuk-abbadia-lariana",
-    "indirizzo": "Via Belfiore, 50, 23900 Lecco (LC)",
-    "phone": "+39 0341 36401",
-    "email": "info@acquadolcelecco.it",
-    "description": "Situato a Lecco in una posizione comoda sia per il centro cittadino che per le rive del lago, il B&B Acqua Dolce è una struttura accogliente ed ecologica. Camere luminose con connessione WiFi, aria condizionata, colazione bio con opzioni senza glutine e parcheggio privato. Punto di partenza ideale per escursioni sul Resegone e gite in barca sul lago.",
-    "description_en": "Located in Lecco within easy access of both the city center and Lake Como waterfront, B&B Acqua Dolce is an eco-friendly guest house. Offering bright rooms with free WiFi, air conditioning, organic breakfasts with gluten-free choices, and private parking. Perfect base for hiking Mount Resegone and lake cruises.",
-    "city": "Lecco"
+    "slug": "maison-antoinette-accadia-fg-italia-accadia",
+    "description": "Situata in Piazza SS. Pietro e Paolo ad Accadia (coordinate: 41.158432, 15.333225), la Maison Antoinette si trova nel cuore storico del paese, affacciata sulla piazza principale. Le sistemazioni, eleganti e luminose, vantano aria condizionata, riscaldamento, Wi-Fi gratuito, TV a schermo piatto e bagno privato. Dalla struttura è possibile raggiungere a piedi in pochi minuti il rione storico \"Rione Fossi\", antico insediamento ipogeo di Accadia. Dista circa 48 km da Foggia e 18 km dall'autostrada A16.",
+    "description_en": "Positioned at Piazza SS. Pietro e Paolo in Accadia (coordinates: 41.158432, 15.333225), Maison Antoinette is located in the town center overlooking the main square. Bright, stylishly appointed rooms feature air conditioning, heating, free Wi-Fi, flat-screen TVs, and private bathrooms. Guests can walk to the historic \"Rione Fossi\" cave-dwelling district within minutes. Situated roughly 48 km from Foggia and 18 km from the A16 motorway."
   },
   {
-    "slug": "b-b-cambio-d-aria-abbadia-lariana",
-    "indirizzo": "Via dei Mulini, 22, 23821 Abbadia Lariana (LC)",
-    "phone": "+39 0341 73315",
-    "email": "info@cambiodaria.it",
-    "description": "Immerso nel verde lungo il torrente Zerbo ad Abbadia Lariana, vicino alla famosa Cascata del Cenghen, il B&B Cambio d'aria offre relax assoluto nel Parco delle Grigne. Offre sistemazioni confortevoli, giardino attrezzato, colazione artigianale e vicinanza alle spiagge del Lago di Como e ai sentieri escursionistici.",
-    "description_en": "Tucked away near the Cenghen Waterfalls in Abbadia Lariana, B&B Cambio d'aria is a peaceful mountain retreat. Featuring cozy rooms, lush garden spaces, homemade breakfast, and direct access to Grigna hikes and Lake Como beaches."
+    "slug": "palazzo-petrilli-accadia",
+    "description": "Posizionato in Via Nicola Petrilli 6 a Trevico (coordinate: 41.049132, 15.233548), Palazzo Petrilli è una dimora d'epoca situata nel comune più alto della Campania (1.090 metri s.l.m.), noto come il \"Tetto della Campania\". Le camere conservano il fascino storico dell'edificio e sono equipaggiate con riscaldamento, Wi-Fi gratuito, TV e bagno privato. La struttura offre viste panoramiche sulla Baronia e la Valle dell'Ufita. Dista 15 km dall'autostrada A16 Vallata e 60 km da Avellino.",
+    "description_en": "Located at Via Nicola Petrilli 6 in Trevico (coordinates: 41.049132, 15.233548), Palazzo Petrilli is a historic property in Campania's highest municipality (1,090 meters above sea level). Rooms preserve the building's original architectural character and include heating, free Wi-Fi, TVs, and private bathrooms. The property overlooks the Baronia region and Ufita Valley. Located 15 km from the A16 Vallata exit and 60 km from Avellino."
   },
   {
-    "slug": "b-b-il-lago-dipinto-lecco-abbadia-lariana",
-    "indirizzo": "Via Massimo D'Azeglio, 22, 23900 Lecco (LC)",
-    "phone": "+39 0341 28501",
-    "email": "info@illagodipinto.it",
-    "description": "Posizionato a pochi passi dal centro di Lecco e dal lungolago, il B&B Il Lago Dipinto offre camere dal design artistico ed elegante. Ogni stanza dispone di bagno privato, WiFi veloce, climatizzazione e Smart TV. Ottima scelta per scoprire i luoghi manzoniani, fare trekking sui monti lecchesi o muoversi in treno verso Milano.",
-    "description_en": "Located a short walk from Lecco's city center and lake promenade, B&B Il Lago Dipinto offers artistically designed rooms. Features private bathrooms, fast WiFi, climate control, and Smart TVs. An ideal choice for exploring Manzoni landmarks, mountain hiking, or taking direct trains to Milan.",
-    "city": "Lecco"
+    "slug": "residenza-sant-antonio-accadia",
+    "description": "Ubicata in Via Giuseppe Bracca 33 a Deliceto (coordinate: 41.222412, 15.384344), la Residenza Sant'Antonio offre un soggiorno accogliente all'interno del borgo medievale. Le sistemazioni dispongono di ingresso indipendente, riscaldamento autonomo, TV a schermo piatto, Wi-Fi gratuito e bagno privato con doccia. La struttura dista soli 500 metri dal maestoso Castello di Deliceto ed è comodamente servita dai negozi e dai ristoranti del centro. Foggia è raggiungibile in circa 35 minuti di auto (38 km).",
+    "description_en": "Located at Via Giuseppe Bracca 33 in Deliceto (coordinates: 41.222412, 15.384344), Residenza Sant'Antonio provides cozy lodging within the medieval town center. Accommodations feature private entrances, independent heating, flat-screen TVs, free Wi-Fi, and private bathrooms with showers. Situated just 500 meters from Deliceto Castle and close to town services, it lies 38 km (a 35-minute drive) from Foggia."
   },
   {
-    "slug": "b-b-le-colombine-abbadia-lariana",
-    "indirizzo": "Via per Linzanico, 13, 23821 Abbadia Lariana (LC)",
-    "phone": "+39 0341 73410",
-    "email": "info@lecolombine.it",
-    "description": "Situato nella tranquilla frazione collinare di Linzanico ad Abbadia Lariana, il B&B Le Colombine regala una splendida vista sul Lago di Como. La struttura offre sistemazioni curate con terrazza panoramica, giardino solarium, colazione genuina e punto di snodo per il Sentiero del Viandante.",
-    "description_en": "Perched in the quiet hillside hamlet of Linzanico in Abbadia Lariana, B&B Le Colombine boasts panoramic views over Lake Como. Offers charming guest rooms with scenic terraces, sun gardens, wholesome breakfasts, and direct access to the Sentiero del Viandante trail."
+    "slug": "vieniacasaccadia-accadia",
+    "description": "Immersa nella campagna di Contrada Rochiano ad Accadia (coordinate: 41.163803, 15.324433), VIENIACASACCADIA è una struttura ricettiva di campagna concepita per soggiorni di totale relax. Gli alloggi offrono ingressi indipendenti, riscaldamento, Wi-Fi gratuito, TV e bagno privato. La proprietà dispone di ampi spazi esterni verdeggianti e parcheggio privato in loco. Dista soli 2 km dal centro di Accadia e dal Rione Fossi, rappresentando un ottimo punto di partenza per passeggiate ed escursioni sui Monti Dauni.",
+    "description_en": "Set in the quiet countryside of Contrada Rochiano in Accadia (coordinates: 41.163803, 15.324433), VIENIACASACCADIA offers relaxing rural accommodation. Guest units feature private entrances, heating, free Wi-Fi, TVs, and private bathrooms. The property includes expansive outdoor gardens and private parking on site. Located just 2 km from central Accadia and the historic Rione Fossi, it serves as a practical base for exploring the Daunian Mountains."
   },
   {
-    "slug": "b-b-lecco-contrada-lunga-abbadia-lariana",
-    "indirizzo": "Via alla Chiesetta, 10, 23821 Abbadia Lariana (LC)",
-    "phone": "+39 0341 73520",
-    "email": "info@contradalunga.it",
-    "description": "Inserito in un antico nucleo storico ad Abbadia Lariana, a brevissima distanza dalla spiaggia pubblica e dalla stazione ferroviaria, il B&B Contrada Lunga unisce fascino rustico e ospitalità cordiale. Camere con travature a vista, WiFi gratuito, colazione con prodotti locali e parcheggio nelle vicinanze.",
-    "description_en": "Set in an authentic historic village quarter of Abbadia Lariana, steps away from public beaches and the train station, B&B Contrada Lunga offers rustic charm and warm hospitality. Features rooms with exposed timber beams, free WiFi, local breakfast options, and nearby parking."
+    "slug": "villa-aurora-accadia",
+    "description": "Situata in Contrada Piscone 17 a Villanova del Battista (coordinate: 41.109179, 15.152675), Villa Aurora è una residenza turistica immersa tra i paesaggi collinari dell'Irpinia. Le camere comprendono climatizzazione, riscaldamento, TV a schermo piatto, Wi-Fi gratuito e bagno privato. Gli ospiti possono godere del giardino recintato, della terrazza panoramica e del parcheggio privato. La struttura si trova a 3 km dal centro di Villanova del Battista e a circa 15 km dallo svincolo A16 Grottaminarda.",
+    "description_en": "Situated at Contrada Piscone 17 in Villanova del Battista (coordinates: 41.109179, 15.152675), Villa Aurora is a countryside residence set in the Irpinia hills. Rooms feature climate control, heating, flat-screen TVs, free Wi-Fi, and private bathrooms. Guests have access to a fenced garden, a panoramic terrace, and private parking. Located 3 km from central Villanova del Battista and 15 km from the A16 Grottaminarda motorway exit."
   },
   {
-    "slug": "b-b-foresteria-casa-della-musica-lake-view-codic-abbadia-lariana",
-    "indirizzo": "Via al Cimitero, 4, 23826 Mandello del Lario (LC)",
-    "phone": "+39 0341 70012",
-    "email": "info@casadellamusicalakeview.it",
-    "description": "Foresteria e B&B di fascino a Mandello del Lario, celebre patria della Moto Guzzi, la \"Casa della Musica\" vanta appartamenti e camere con vista panoramica sul Lago di Como. Dotata di ambienti insonorizzati, pianoforti a disposizione, WiFi ad alta velocità, giardino e terrazze sul lago.",
-    "description_en": "A charming guest house in Mandello del Lario, hometown of Moto Guzzi, \"Casa della Musica\" offers apartments and rooms with breathtaking Lake Como views. Features soundproofed music-themed interiors, piano facilities, high-speed WiFi, gardens, and scenic terraces.",
-    "city": "Mandello del Lario"
+    "slug": "villa-genny-accadia",
+    "description": "Ubicata in Viale Regina Margherita 5 a Candela (coordinate: 41.135171, 15.515165), Villa Genny propone un soggiorno elegante alle porte del borgo. Le camere, arredate in stile moderno, dispongono di aria condizionata, Wi-Fi ad alta velocità, TV a schermo piatto, minibar e bagno privato con doccia. La villa possiede un giardino curato e parcheggio riservato. La posizione è ideale per raggiungere il casello autostradale A16 (2 km) ed esplorare sia la Daunia sia la vicina Basilicata.",
+    "description_en": "Positioned at Viale Regina Margherita 5 in Candela (coordinates: 41.135171, 15.515165), Villa Genny offers elegant lodging on the town's edge. Modern guest rooms include air conditioning, high-speed Wi-Fi, flat-screen TVs, minibars, and private bathrooms with showers. Features a landscaped garden and private parking. Located 2 km from the A16 motorway exit, providing access to both Apulia and neighboring Basilicata."
   },
   {
-    "slug": "casa-della-nonna-abbadia-lariana",
-    "indirizzo": "Via Val Zerbo, 27, 23821 Abbadia Lariana (LC)",
-    "phone": "+39 0341 73601",
-    "email": "info@casadellanonnaabbadia.it",
-    "description": "Casa vacanze accogliente e tranquilla ad Abbadia Lariana, ideale per famiglie e piccoli gruppi. L'alloggio è provvisto di cucina abitabile accessoriata, camere confortevoli, giardino privato, aria condizionata e WiFi gratuito. Vicina alle spiagge lacustri e alle vie d'arrampicata della Grignetta.",
-    "description_en": "A welcoming, peaceful holiday home in Abbadia Lariana, ideal for families and small groups. Includes a fully equipped kitchen, comfortable bedrooms, private garden, air conditioning, and free WiFi. Close to Lake Como beaches and Grignetta climbing routes."
+    "slug": "albergo-monte-nebin-acceglio",
+    "description": "Situato in Via Cavour 26 a Sampeyre (coordinate: 44.578419, 7.189632), nella selvaggia Val Varaita, l'Albergo Monte Nebin è uno storico hotel di montagna a 3 stelle. Le camere, accoglienti e rivestite in legno alpinostile, dispongono di riscaldamento centralizzato, TV, Wi-Fi gratuito e bagno privato. La struttura offre bar interno, ristorante con piatti tradizionali piemontesi e piat della tradizione occitana, deposito sci ed è vicina agli impianti di risalita di Sampeyre e ai percorsi di trekking del Monviso. Dista 35 km da Saluzzo.",
+    "description_en": "Located on Via Cavour 26 in Sampeyre (coordinates: 44.578419, 7.189632) in the Varaita Valley, 3-star Albergo Monte Nebin is a historic mountain hotel. Alpine-style rooms feature wooden accents, central heating, TVs, free Wi-Fi, and private bathrooms. Facilities include an indoor bar, a restaurant serving Piedmontese and Occitan specialties, and ski storage near Sampeyre's ski lifts and Mount Monviso hiking trails. Located 35 km from Saluzzo."
   },
   {
-    "slug": "casa-della-seta-abbadia-lariana",
-    "indirizzo": "Via Nazionale, 80, 23821 Abbadia Lariana (LC)",
-    "phone": "+39 0341 73710",
-    "email": "info@casadellaseta.it",
-    "description": "Posizionata a due passi dallo storico Civico Museo Setificio Monti e dalle spiagge di Abbadia Lariana, Casa della Seta offre appartamenti turistici finemente ristrutturati. Dotati di aria condizionata, connessione WiFi, TV a schermo piatto e cucina completa. Soluzione ottimale per vacanze relax sul Lago di Como.",
-    "description_en": "Located steps away from the historic Monti Silk Museum and Abbadia Lariana beaches, Casa della Seta offers beautifully renovated vacation apartments. Equipped with air conditioning, free WiFi, flat-screen TVs, and full kitchens. Perfect choice for relaxing Lake Como stays."
+    "slug": "albergo-ristorante-le-marmotte-acceglio",
+    "description": "Posizionato in Borgo Frere 53 ad Acceglio (coordinate: 44.471978, 7.002328), in alta Val Maira a 1.200 metri s.l.m., l'Albergo Ristorante Le Marmotte offre un'accoglienza autentica per escursionisti e amanti della montagna. Le camere alpine sono dotate di riscaldamento, TV, Wi-Fi e bagno privato. Il rinomato ristorante propone specialità occitane e piemontesi a base di prodotti locali. La struttura è tappa di riferimento per il percorso escursionistico dei Percorsi Occitani e si trova a breve distanza dalle sorgenti della Maira.",
+    "description_en": "Positioned at Borgo Frere 53 in Acceglio (coordinates: 44.471978, 7.002328) in high Maira Valley at 1,200 meters elevation, Albergo Ristorante Le Marmotte caters to outdoor enthusiasts and mountain hikers. Alpine rooms feature heating, TVs, Wi-Fi, and private bathrooms. Its on-site restaurant serves regional Occitan and Piedmontese specialties. The property serves as a stop along the popular \"Percorsi Occitani\" trekking circuit near the Maira River springs."
   },
   {
-    "slug": "casa-la-rosa-abbadia-lariana-abbadia-lariana",
-    "indirizzo": "Via Nazionale, 170, 23821 Abbadia Lariana (LC)",
-    "phone": "+39 0341 73820",
-    "email": "info@casalarosaabbadia.it",
-    "description": "Situata in posizione privilegiata direttamente fronte lago ad Abbadia Lariana, Casa la Rosa vanta un bellissimo giardino con accesso diretto alle spiagge. Appartamenti luminosi e climatizzati con vista lago, terrazza, WiFi e parcheggio privato inclusi. Ideale per gli amanti degli sport acquatici e del relax.",
-    "description_en": "Situated in a prime waterfront location in Abbadia Lariana, Casa la Rosa features a private garden with direct beach access. Offers bright air-conditioned apartments with lake views, private terraces, free WiFi, and parking. Ideal for water sports and lakeside relaxation."
+    "slug": "albergo-ristorante-ligure-di-solda-debora-e-sold-acceglio",
+    "description": "Situato in Via Vittorio Emanuele III 3 a Vinadio (coordinate: 44.307315, 7.175101), nella Valle Stura, l'Albergo Ristorante Ligure è una struttura a conduzione familiare ricca di tradizione. Le camere vantano riscaldamento, TV, Wi-Fi gratuito e bagno privato. Il ristorante interno prepara piatti caserecci piemontesi e specialità di montagna. L'albergo si trova a soli 300 metri dal Forte di Vinadio (una delle fortezze alpine più imponenti d'Europa) e a 10 km dallo stabilimento termale di Vinadio. Dista 35 km da Cuneo.",
+    "description_en": "Located on Via Vittorio Emanuele III 3 in Vinadio (coordinates: 44.307315, 7.175101) in the Stura Valley, Albergo Ristorante Ligure is a traditional family-run hotel. Rooms include heating, TVs, free Wi-Fi, and private bathrooms. The restaurant serves homemade Piedmontese mountain dishes. Situated just 300 meters from the historic Fort of Vinadio (one of Europe's largest alpine fortresses) and 10 km from the Vinadio Thermal Baths. Located 35 km from Cuneo."
   },
   {
-    "slug": "casa-lu-abbadia-lariana",
-    "indirizzo": "Via all'Asilo, 13, 23821 Abbadia Lariana (LC)",
-    "phone": "+39 0341 73901",
-    "email": "info@casaluabbadia.it",
-    "description": "Graziosa casa vacanze situata nel centro di Abbadia Lariana, in zona residenziale e tranquilla a breve distanza dalla stazione e dalla spiaggia del parco Ulisse Guzzi. Offre soggiorno con angolo cottura, camere climatizzate, WiFi gratuito e balcone.",
-    "description_en": "Charming holiday home in central Abbadia Lariana, located in a quiet area near the railway station and Ulisse Guzzi park beach. Features a living area with kitchenette, air-conditioned bedrooms, free WiFi, and a private balcony."
+    "slug": "albergo-roburent-acceglio",
+    "description": "Ubicato in Via Nazionale 15 a Villaggio Primavera (Argentera, coordinate: 44.36851, 6.983532), ad un'altitudine di circa 1.400 metri lungo la strada per il Colle della Maddalena, l'Albergo Roburent è una struttura ideale per gli amanti della natura e dello sci. Le camere in stile montano dispongono di riscaldamento, TV e bagno privato. L'hotel offre bar, ristorante con cucina casereccia e deposito sci. Si trova a soli 4 km dalle piste da sci di Bersezio-Argentera e vicinissimo al confine con la Francia.",
+    "description_en": "Situated on Via Nazionale 15 in Villaggio Primavera (Argentera, coordinates: 44.36851, 6.983532) at 1,400 meters altitude along the Maddalena Pass road, Albergo Roburent caters to skiers and mountain lovers. Alpine rooms come with heating, TVs, and private bathrooms. Amenities include a bar, a traditional home-style restaurant, and ski storage. Located just 4 km from the Bersezio-Argentera ski slopes near the French border."
   },
   {
-    "slug": "casa-vacanze-da-carla-abbadia-lariana",
-    "indirizzo": "Via della Corona, 3, 23821 Abbadia Lariana (LC)",
-    "phone": "+39 0341 73980",
-    "email": "info@casavacanzedacarla.it",
-    "description": "Immersa nel caratteristico centro storico di Abbadia Lariana, Casa vacanze da Carla propone un alloggio confortevole e curato nei dettagli. Dispone di cucina attrezzata, lavatrice, aria condizionata, WiFi gratuito e vicinanza immediata alle passeggiate a lago e al Sentiero del Viandante.",
-    "description_en": "Nestled in the historic village heart of Abbadia Lariana, Casa vacanze da Carla offers cozy, well-appointed accommodations. Features a fully equipped kitchen, washing machine, air conditioning, free WiFi, and close proximity to lakeside promenades and hiking routes."
+    "slug": "antica-casa-occitana-acceglio",
+    "description": "Posizionata in Borgata Palazzo 24 a Sampeyre (coordinate: 44.576232, 7.196338), l'Antica Casa Occitana è una dimora storica tipica dell'architettura alpina della Val Varaita. Le camere e gli appartamenti mantengono la struttura originale in pietra e legno e dispongono di riscaldamento autonomo, Wi-Fi gratuito, TV e bagno privato. La struttura si trova in una borgata tranquilla a 1 km dal centro di Sampeyre, rappresentando una scelta eccellente per soggiorni di relax e passeggiate tra i boschi del Monviso.",
+    "description_en": "Located in Borgata Palazzo 24 in Sampeyre (coordinates: 44.576232, 7.196338), Antica Casa Occitana is a historic property reflecting traditional Varaita Valley stone-and-timber alpine architecture. Guest rooms and apartments feature independent heating, free Wi-Fi, TVs, and private bathrooms. Set in a quiet hamlet 1 km from Sampeyre's town center, it provides a base for nature walks around Mount Monviso."
   },
   {
-    "slug": "junglehouse-abbadia-lariana-abbadia-lariana",
-    "indirizzo": "Via all'Asilo, 23, 23821 Abbadia Lariana (LC)",
-    "phone": "+39 0341 73115",
-    "email": "info@junglehouseabbadia.it",
-    "description": "Appartamento vacanze dal design moderno e vivace ispirato alla natura, la JungleHouse ad Abbadia Lariana offre un soggiorno unico a pochi minuti dal Lago di Como. Vanta un giardino privato, interni climatizzati con arredi jungle-chic, Smart TV, WiFi ad alta velocità e parcheggio.",
-    "description_en": "A trendy vacation apartment with modern nature-inspired design, JungleHouse in Abbadia Lariana provides a unique stay near Lake Como. Offers a private garden, jungle-chic air-conditioned interiors, Smart TV, high-speed WiFi, and private parking."
+    "slug": "brieis-relais-alpino-camere-ristorante-spa-acceglio",
+    "description": "Adagiato in Borgata Brieis 1 a Marmora (coordinate: 44.463864, 7.100025) a 1.500 metri di quota, il Brieis Relais Alpino è una struttura di charme nata dal recupero conservativo di un antico borgo in pietra della Val Maira. Offre camere e suite di design alpino con legni locali, riscaldamento, Wi-Fi ed eleganti bagni. Il relais vanta un centro benessere SPA con vista panoramica sulle Alpi Cozie, una sauna, una vasca idromassaggio ed un ristorante che rielabora la cucina occitana in chiave gourmet.",
+    "description_en": "Positioned in Borgata Brieis 1 in Marmora (coordinates: 44.463864, 7.100025) at 1,500 meters altitude, Brieis Relais Alpino is a boutique mountain resort created from the restoration of an ancient stone hamlet in the Maira Valley. Elegant alpine rooms feature natural wood finishes, heating, Wi-Fi, and private bathrooms. Highlights include a spa wellness area with panoramic views of the Cottian Alps, a sauna, hot tub, and a restaurant serving refined Occitan cuisine."
   },
   {
-    "slug": "l-albero-delle-noci-b-b-abbadia-lariana",
-    "indirizzo": "Via del Pozzo, 15, 23821 Crebbio (LC)",
-    "phone": "+39 0341 73250",
-    "email": "info@alberodellenoci.it",
-    "description": "Adagiato sulle colline panoramiche di Crebbio, sopra Abbadia Lariana, L'albero delle noci B&B è immerso tra gli ulivi con vista spettacolare sul Lago di Como. Camere confortevoli con ingresso indipendente, giardino, WiFi e colazione servita sotto il portico. Perfetto per gli amanti della natura e del trekking.",
-    "description_en": "Perched on the scenic hills of Crebbio above Abbadia Lariana, L'albero delle noci B&B is set among olive groves with panoramic Lake Como views. Offers cozy rooms with private entrances, lush garden, free WiFi, and veranda breakfast. Ideal for nature lovers and hikers.",
-    "city": "Crebbio"
+    "slug": "hotel-alpi-cozie-acceglio",
+    "description": "Situato in Borgo Villa 109 ad Acceglio (coordinate: 44.474292, 6.989645), l'Hotel Alpi Cozie è una storica struttura ricettiva posizionata nel capoluogo dell'Alta Val Maira. Le camere sono dotate di riscaldamento centralizzato, TV, connessione Wi-Fi gratuita e bagno privato con doccia. L'hotel ospita un bar ed un ristorante che propone piatti tipici piemontesi e ricette montanare tradizionali. La posizione centrale lo rende un punto di partenza per salite alpinistiche, ciaspolate e passeggiate lungo il torrente Maira.",
+    "description_en": "Situated at Borgo Villa 109 in Acceglio (coordinates: 44.474292, 6.989645), Hotel Alpi Cozie is a long-standing mountain hotel in upper Maira Valley. Guest rooms come equipped with central heating, TVs, free Wi-Fi, and private bathrooms with showers. On-site facilities include a lounge bar and a restaurant serving traditional mountain and Piedmontese dishes. Its central location serves as a departure point for mountaineering, snowshoeing, and valley hiking."
   },
   {
-    "slug": "la-casa-di-nonna-anita-abbadia-lariana",
-    "indirizzo": "Via alla Chiesetta, 3, 23821 Abbadia Lariana (LC)",
-    "phone": "+39 0341 73380",
-    "email": "info@lacasadinonnaanita.it",
-    "description": "Struttura accogliente nel centro storico di Abbadia Lariana, La casa di Nonna Anita offre la vera atmosfera di casa lombarda. L'appartamento dispone di ambienti caldi e spaziosi, cucina completa, aria condizionata, WiFi gratuito e vicinanza a piedi alla spiaggia di ciottoli del lago.",
-    "description_en": "Warm and inviting guest apartment in the historic center of Abbadia Lariana, La casa di Nonna Anita delivers an authentic home feeling. Equipped with spacious rooms, full kitchen, air conditioning, free WiFi, and short walk to pebble beaches."
+    "slug": "hotel-londra-locanda-occitana-quality-hotels-acceglio",
+    "description": "Posizionato in Borgo Villa 39 ad Acceglio (coordinate: 44.475286, 6.991159), l'HOTEL LONDRA - Locanda Occitana (Quality Hotels) offre un'ospitalità tipica montana unita ai comfort moderni. Le camere, arredate con elementi in legno alpino, dispongono di riscaldamento, Wi-Fi gratuito, TV a schermo piatto e bagno privato. La locanda ospita un ristorante certificato per la preparazione di piatti della tradizione occitana, salone comune con camino e deposito attrezzature da montagna. Dista pochi chilometri dal confine francese e dalle sorgenti del Maira.",
+    "description_en": "Located at Borgo Villa 39 in Acceglio (coordinates: 44.475286, 6.991159), HOTEL LONDRA - Locanda Occitana (Quality Hotels) offers traditional mountain lodging. Rooms feature alpine wood furnishings, heating, free Wi-Fi, flat-screen TVs, and private bathrooms. Features include an accredited Occitan specialty restaurant, a fireplace lounge, and mountaineering equipment storage near the French border and Maira springs."
   },
   {
-    "slug": "la-cascina-della-vigna-del-viandante-abbadia-lariana",
-    "indirizzo": "Str. della Piazza, 4, 23821 Abbadia Lariana (LC)",
-    "phone": "+39 0341 73490",
-    "email": "info@vignadelviandante.it",
-    "description": "Storica cascina ristrutturata situata lungo l'antico Sentiero del Viandante ad Abbadia Lariana, circondata da vigneti e uliveti. Propone camere ed appartamenti dal fascino rustico con travi a vista, vista panoramica sul lago, giardino privato, degustazione vini e WiFi.",
-    "description_en": "A historic renovated stone farm stay along the ancient Sentiero del Viandante in Abbadia Lariana, surrounded by vineyards and olive groves. Features rustic rooms with exposed beams, panoramic lake views, private gardens, wine tastings, and free WiFi."
+    "slug": "hotel-residence-torinetto-acceglio",
+    "description": "Ubicato in Borgata Calchesio 9 a Sampeyre (coordinate: 44.581477, 7.168568), l'Hotel Residence Torinetto è un complesso ricettivo immerso in un parco alberato nella Val Varaita. Propone sia sistemazioni in camera d'albergo sia appartamenti residence arredati in stile alpino con riscaldamento, TV, Wi-Fi e bagno privato. Il complesso vanta un ristorante con specialità locali, campo da tennis, parco giochi per bambini, salone eventi e parcheggio privato. Si trova a 1,5 km dal centro di Sampeyre ed è vicinissimo alle seggiovie del Monte Monviso.",
+    "description_en": "Situated at Borgata Calchesio 9 in Sampeyre (coordinates: 44.581477, 7.168568), Hotel Residence Torinetto is a resort set inside private parkland in the Varaita Valley. Offers both hotel rooms and self-catering residence apartments with alpine decor, heating, TVs, Wi-Fi, and private bathrooms. Property amenities include a local restaurant, tennis court, children's playground, event hall, and private parking. Located 1.5 km from Sampeyre's town center near Mount Monviso ski chairlifts."
   },
   {
-    "slug": "park-hotel-lecco-abbadia-lariana",
-    "indirizzo": "Via Nazionale, 142, 23821 Abbadia Lariana (LC)",
-    "phone": "+39 0341 73155",
-    "email": "info@parkhotellecco.it",
-    "description": "Hotel 3 stelle affacciato sul Lago di Como ad Abbadia Lariana, il Park Hotel Lecco vanta un parco con alberi secolari, spiaggia privata attrezzata, ristorante panoramico con cucina locale e terrazza fronte lago. Camere climatizzate con WiFi e vista sulle montagne o sul lago.",
-    "description_en": "3-star waterfront hotel in Abbadia Lariana on Lake Como, Park Hotel Lecco features a private park with mature trees, equipped private beach, panoramic local restaurant, and lake-view terrace. Air-conditioned rooms with free WiFi and lake or mountain views."
+    "slug": "la-caso-d-elva-la-taula-de-m-aura-acceglio",
+    "description": "Situata in Borgata Isaia ad Elva (coordinate: 44.534749, 7.097572), ad un'altitudine di circa 1.600 metri, La Caso d'Elva è una locanda ed affittacamere d'alta quota immersa nella natura incontaminata delle Alpi Cozie. Le camere presentano finiture in legno di pino cembro, riscaldamento, Wi-Fi e bagno privato. L'annessa locanda \"La tàula de m'aura\" serve piatti genuini della cucina occitana preparati con erbe ed ingredienti d'alpeggio. Dista pochi metri dalla Parrocchiale di Elva, celebre per gli affreschi del pittore fiammingo Hans Clemer.",
+    "description_en": "Located in Borgata Isaia in Elva (coordinates: 44.534749, 7.097572) at 1,600 meters elevation, La Caso d'Elva is a high-altitude mountain guesthouse in the Cottian Alps. Rooms feature Swiss pine wood finishes, heating, Wi-Fi, and private bathrooms. The on-site tavern \"La tàula de m'aura\" serves authentic Occitan alpine cuisine. Situated steps away from Elva's historic Parish Church, famous for its Renaissance frescoes by Hans Clemer."
   },
   {
-    "slug": "villa-onedo-lake-como-abbadia-lariana",
-    "indirizzo": "Via Nazionale, 168, 23821 Abbadia Lariana (LC)",
-    "phone": "+39 0341 73290",
-    "email": "info@villaonedolakecomo.it",
-    "description": "Elegante villa di lusso ad Abbadia Lariana con incantevole vista sul Lago di Como. La struttura offre suite esclusive, parco giardino privato, solarium, idromassaggio all'aperto, connessione WiFi ad alta velocità e parcheggio riservato. Soluzione d'élite per vacanze indimenticabili in Lombardia.",
-    "description_en": "An elegant luxury villa property in Abbadia Lariana overlooking Lake Como. Features exclusive suites, private garden grounds, sun deck, outdoor Jacuzzi, high-speed WiFi, and private parking. An elite destination for unforgettable holidays in Italy."
+    "slug": "la-locanda-di-chialvetta-acceglio",
+    "description": "Ubicata nel borgo alpino in pietra di Borgo Chialvetta 18 ad Acceglio (coordinate: 44.449701, 7.0003), a 1.490 metri s.l.m. nella Vallone di Unerzio, La Locanda di Chialvetta è uno storico punto di riferimento per gli escursionisti della Val Maira. Le camere in stile occitano offrono riscaldamento, pavimenti in legno, Wi-Fi gratuito e bagno privato. Il ristorante interno propone ricette tradizionali e prodotti locali d'alpeggio. È una tappa fondamentale del circuito dei Percorsi Occitani e punto di partenza per salite scialpinistiche.",
+    "description_en": "Situated in the stone alpine hamlet of Borgo Chialvetta 18 in Acceglio (coordinates: 44.449701, 7.0003) at 1,490 meters altitude in the Unerzio Valley, La Locanda di Chialvetta is a landmark stop for Maira Valley hikers. Occitan-style rooms offer heating, wooden floors, free Wi-Fi, and private bathrooms. Its restaurant serves regional recipes made with local mountain ingredients. Serves as an essential stop on the \"Percorsi Occitani\" trail and a hub for ski touring."
   },
   {
-    "slug": "villino-bice-bed-and-breakfast-abbadia-lariana",
-    "indirizzo": "Via Nazionale, 150G, 23821 Abbadia Lariana (LC)",
-    "phone": "+39 0341 73350",
-    "email": "info@villinobice.it",
-    "description": "Dimora in stile Liberty ad Abbadia Lariana situata a pochi metri dal lago, Villino Bice B&B offre camere raffinate con vista sul giardino fiorito. Connessione WiFi gratuita, aria condizionata, colazione servita in veranda e parcheggio privato in loco.",
-    "description_en": "Art Nouveau villa B&B in Abbadia Lariana located steps from Lake Como, Villino Bice offers refined rooms overlooking a manicured garden. Features free WiFi, air conditioning, veranda breakfast service, and private on-site parking."
+    "slug": "la-meiro-acceglio",
+    "description": "Situato in Via dei Pinet 1 a Castelmagno (coordinate: 44.39837, 7.172893) a quasi 1.600 metri di altitudine nella Valle Grana, La Meiro (Terre del Castelmagno) è un agriturismo ed alpeggio famoso per la produzione ed affinamento del formaggio Castelmagno DOP. Le camere, realizzate in pietra e legno naturale, offrono riscaldamento, Wi-Fi e bagno privato. La struttura comprende un ristorante agrituristico specializzato in gnocchi al Castelmagno e piatti locali, oltre alle cantine storiche di stagionatura visitabili dagli ospiti.",
+    "description_en": "Positioned at Via dei Pinet 1 in Castelmagno (coordinates: 44.39837, 7.172893) at nearly 1,600 meters altitude in the Grana Valley, La Meiro (Terre del Castelmagno) is a mountain farmstead renowned for producing and aging authentic Castelmagno DOP cheese. Stone-and-wood rooms feature heating, Wi-Fi, and private bathrooms. Facilities include a farm restaurant specializing in Castelmagno gnocchi and historical cheese aging cellars open for guest tours."
   },
   {
-    "slug": "albergo-hotel-relais-san-lorenzo-abbadia-san-salvatore",
-    "indirizzo": "Località S. Lorenzo, 8, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 77801",
-    "email": "info@relaissanlorenzo.it",
-    "description": "Immerso nei secolari boschi di castagni del Monte Amiata ad Abbadia San Salvatore, vicino alla Val d'Orcia, il Relais San Lorenzo è un hotel di charme con centro benessere spa, piscina termale, parco privato e ristorante gourmet con specialità toscane a base di funghi e tartufi.",
-    "description_en": "Nestled in the chestnut forests of Mount Amiata near Val d'Orcia in Abbadia San Salvatore, Relais San Lorenzo is a boutique spa hotel. Features a wellness center, thermal pool, private park, and gourmet Tuscan restaurant specializing in mushrooms and truffles."
+    "slug": "locanda-mistral-acceglio",
+    "description": "Ubicata in Borgata Ponte Maira 26 ad Acceglio (coordinate: 44.47714, 6.964761), la Locanda Mistral è una rinomata dimora di montagna ad alta quota gestita da una Guida Alpina. Le camere, nate dal restauro di una casa colonica occitana, abbinano comfort moderni e bioarchitettura con riscaldamento, Wi-Fi e bagno privato. La locanda offre una cucina tipica d'alpeggio con ingredienti biologici a km zero, un giardino rilassante con vista sulle vette e servizio di organizzazione escursioni e tour guidati in Val Maira.",
+    "description_en": "Positioned in Borgata Ponte Maira 26 in Acceglio (coordinates: 44.47714, 6.964761), Locanda Mistral is an alpine eco-lodge managed by a certified Mountain Guide. Housed in a restored Occitan farmhouse, rooms feature sustainable architecture, heating, Wi-Fi, and private bathrooms. Property highlights include organic farm-to-table mountain dining, a relaxing garden with peak views, and expert guidance for hiking and ski touring in the Maira Valley."
   },
   {
-    "slug": "albergo-italia-abbadia-san-salvatore",
-    "indirizzo": "Viale Roma, 30, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778120",
-    "email": "info@albergoitaliaabbadia.it",
-    "description": "Posizionato al centro di Abbadia San Salvatore, l'Albergo Italia è una storica struttura ideale per esplorare il Monte Amiata, le Terme di Bagni San Filippo ed il borgo medievale. Camere accoglienti con WiFi, riscaldamento centralizzato, bar e ristorante di cucina casereccia toscana.",
-    "description_en": "Located in central Abbadia San Salvatore, Albergo Italia is a historic hotel ideal for exploring Mount Amiata, Bagni San Filippo hot springs, and the medieval town center. Features cozy rooms with free WiFi, on-site lounge bar, and a traditional Tuscan restaurant."
+    "slug": "locanda-occitana-lou-pitavin-acceglio",
+    "description": "Posizionata in Borgata Finello 2 a Marmora (coordinate: 44.455003, 7.097014) a 1.300 metri s.l.m., la Locanda Occitana Lou Pitavin è una struttura ricettiva eco-sostenibile simbolo dell'ospitalità della Val Maira. Le camere in legno di larice e pietra offrono riscaldamento, Wi-Fi, TV e bagno privato. Il ristorante della locanda prepara specialità tradizionali occitane. La struttura possiede un centro benessere ecologico con sauna a legna esterna ed offre laboratori culturali e noleggio di biciclette elettriche.",
+    "description_en": "Located in Borgata Finello 2 in Marmora (coordinates: 44.455003, 7.097014) at 1,300 meters altitude, Locanda Occitana Lou Pitavin is an eco-friendly mountain inn in the Maira Valley. Larch-wood and stone rooms feature heating, Wi-Fi, TVs, and private bathrooms. Features an accredited restaurant serving regional Occitan dishes, an outdoor wood-fired sauna wellness space, cultural workshops, and e-bike rentals."
   },
   {
-    "slug": "albergo-la-bussola-abbadia-san-salvatore",
-    "indirizzo": "Via Adua, 11/13, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778230",
-    "email": "info@albergolabussola.it",
-    "description": "L'Albergo La Bussola ad Abbadia San Salvatore offre un soggiorno confortevole per famiglie, cicloturisti e sciatore. Dispone di camere spaziose, WiFi gratuito, deposito sci e biciclette, e ristorante interno rinomato per la pasta fatta in casa e i vini senesi.",
-    "description_en": "Albergo La Bussola in Abbadia San Salvatore provides comfortable accommodations for families, cyclists, and skiers. Highlights spacious guest rooms, free WiFi, ski/bike storage, and an acclaimed restaurant serving homemade pasta and Sienese wines."
+    "slug": "morier-acceglio",
+    "description": "Situato nel territorio di Demonte nella Valle Stura (coordinate: 44.338943, 7.218521), Morier offre una sistemazione immersa nei boschi e nei pascoli alpini delle Alpi Marittime. L'alloggio dispone di riscaldamento autonomo, ingresso indipendente, Wi-Fi gratuito e bagno privato. La struttura si trova a pochi chilometri dal centro storico di Demonte (celebre per i Portici Soprani e Palazzo Borelli) ed è un punto di appoggio strategico per trekking escursionistici verso il Vallone dell melette ed il Colle di Fauniera.",
+    "description_en": "Set in Demonte in the Stura Valley (coordinates: 44.338943, 7.218521), Morier provides quiet lodging surrounded by Maritime Alps alpine woods and pastures. Features independent heating, a private entrance, free Wi-Fi, and a private bathroom. Located a few kilometers from historic Demonte (known for the Portici Soprani and Palazzo Borelli), it acts as a base for hiking toward the Melette Valley and Fauniera Pass."
   },
   {
-    "slug": "albergo-ristorante-olimpia-abbadia-san-salvatore",
-    "indirizzo": "Via Trieste, 22, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778340",
-    "email": "info@albergo-olimpia.it",
-    "description": "Situato in posizione tranquilla ad Abbadia San Salvatore, l'Albergo Ristorante Olimpia è famoso per la sua eccellente tradizione gastronomica amiatina. Camere funzionali e ben arredate, WiFi gratuito, garage per moto e biciclette, e vicinanza alle piste da sci e ai sentieri trekking.",
-    "description_en": "Situated in a peaceful street of Abbadia San Salvatore, Albergo Ristorante Olimpia is famous for its rich local Amiata gastronomy. Offers functional guest rooms, free WiFi, secure motorbike/bike garage, and easy access to ski slopes and hiking trails."
+    "slug": "oronaye-bed-and-breakfast-acceglio-valle-maira-acceglio",
+    "description": "Ubicato nella pittoresca Frazione Chiappera 72 ad Acceglio (coordinate: 44.491545, 6.926152), ai piedi della maestosa Rocca Provenzale a 1.622 metri di quota, l'Oronaye Bed and Breakfast è la struttura ricettiva più alta della Val Maira. Le camere in stile alpino rustico vantano pareti in pietra, soffitti in legno, riscaldamento, Wi-Fi e bagno privato. Offre una ricca colazione alpina con prodotti d'alpeggio ed è il punto di partenza ideale per arrampicate sulla Rocca Provenzale, scialpinismo e trekking dell'Alta Via.",
+    "description_en": "Located in scenic Frazione Chiappera 72 in Acceglio (coordinates: 44.491545, 6.926152) at the base of Rocca Provenzale at 1,622 meters elevation, Oronaye Bed and Breakfast is upper Maira Valley's highest B&B. Rustic alpine rooms feature stone walls, timber ceilings, heating, Wi-Fi, and private bathrooms. Serves a hearty mountain breakfast with alpine products and provides direct access to Rocca Provenzale rock climbing routes and ski touring trails."
   },
   {
-    "slug": "amiata-suite-abbadia-san-salvatore",
-    "indirizzo": "Via Trieste, 10, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778450",
-    "email": "info@amiatasuite.it",
-    "description": "Struttura dal design boutique nel cuore di Abbadia San Salvatore, Amiata Suite propone suite di lusso con sauna privata, vasca idromassaggio e arredi contemporanei. Dotata di WiFi ultra-veloce, domotica e prima colazione personalizzata. Ideale per fughe romantiche in Toscana.",
-    "description_en": "A boutique design property in downtown Abbadia San Salvatore, Amiata Suite offers luxury suites featuring private saunas, Jacuzzi tubs, and modern decor. Equipped with ultra-fast WiFi, smart controls, and customized breakfast service. Perfect for romantic Tuscan getaways."
+    "slug": "rifugio-di-viviere-acceglio",
+    "description": "Immerso nella solitudine della Borgata Viviere ad Acceglio (coordinate: 44.435809, 6.985872) ad un'altitudine di 1.713 metri nel Vallone di Unerzio, il Rifugio di Viviere è un rifugio alpino di charme ristrutturato secondo i canoni della bioarchitettura. Le camere presentano arredi in legni profumati locali, riscaldamento e bagno privato. Il rifugio offre un ristorante panoramico con piatti della tradizione occitana, una sauna finlandese all'aperto ed un ambiente ideale per l'osservazione delle stelle ed escursioni con le ciaspole.",
+    "description_en": "Set in isolation in Borgata Viviere in Acceglio (coordinates: 44.435809, 6.985872) at 1,713 meters altitude in the Unerzio Valley, Rifugio di Viviere is a restored alpine eco-lodge. Guest rooms feature local scented wood finishes, heating, and private bathrooms. Amenities include a panoramic restaurant serving traditional Occitan food, an outdoor Finnish sauna, and an ideal setting for stargazing, snowshoeing, and high-altitude hiking."
   },
   {
-    "slug": "b-b-gli-archi-abbadia-san-salvatore",
-    "indirizzo": "Via Cavour, 2a, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778560",
-    "email": "info@gliarchibb.it",
-    "description": "Situato all'ingresso del centro storico medievale di Abbadia San Salvatore, a pochi metri dalla celebre Abbazia di San Salvatore, il B&B Gli Archi offre camere di charme in un edificio storico ristrutturato con archi in pietra, WiFi e colazione con dolci locali.",
-    "description_en": "Located at the entrance of Abbadia San Salvatore's medieval center, steps from the historic Abbey, B&B Gli Archi features charming rooms in a restored stone-arch building. Offers free WiFi and homemade regional breakfasts."
+    "slug": "rifugio-lou-lindal-acceglio",
+    "description": "Posizionato in Borgata Preit 1 a Canosio (coordinate: 44.435245, 7.056671) a 1.540 metri di altitudine, il RIFUGIO LOU LINDAL è una struttura ricettiva di montagna situata all'ingresso dell'Altopiano della Gardetta. Le camere in stile rustico alpino dispongono di riscaldamento centralizzato, Wi-Fi e bagno privato. Il rifugio offre un bar-ristorante con terrazza solarium che propone piatti tipici della cucina occitana della Val Maira. Dista pochi chilometri dal Colle del Preit ed è frequentato da escursionisti, mountain biker e scialpinisti.",
+    "description_en": "Positioned in Borgata Preit 1 in Canosio (coordinates: 44.435245, 7.056671) at 1,540 meters elevation, RIFUGIO LOU LINDAL is a mountain lodge set at the gateway to the Gardetta Plateau. Rustic alpine rooms feature central heating, Wi-Fi, and private bathrooms. Includes a bar-restaurant with a sun terrace serving Maira Valley Occitan specialties. Located a few kilometers from Preit Pass, catering to hikers, mountain bikers, and ski tourers."
   },
   {
-    "slug": "b-b-il-biancospino-abbadia-san-salvatore",
-    "indirizzo": "Via Adua, 33, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778670",
-    "email": "info@ilbiancospinobb.it",
-    "description": "Accogliente B&B con giardino situato ad Abbadia San Salvatore, Il Biancospino offre sistemazioni tranquille con riscaldamento autonomo, WiFi e parcheggio. Posizione perfetta per raggiungere in 10 minuti le Terme aperte di Bagni San Filippo e le vetta del Monte Amiata.",
-    "description_en": "Welcoming B&B with a garden in Abbadia San Salvatore, Il Biancospino offers quiet accommodations with heating, free WiFi, and parking. Great location just 10 minutes from Bagni San Filippo thermal baths and Mount Amiata peak."
+    "slug": "sagna-rotonda-acceglio",
+    "description": "Situato nella Borgata Sagna Rotonda a Marmora (coordinate: 44.452744, 7.116471) ad un'altitudine di 1.644 metri, Sagna Rotonda è un ecovillaggio turistico ricavato dal recupero integrale di un antico borgo montano abbandonato. Offre chalet ed appartamenti autonomi ad impatto zero sostenuti da energia rinnovabile, dotati di riscaldamento, cucina attrezzata, Wi-Fi e bagno privato. Il villaggio ecologico comprende un grande parco naturale, area giochi sostenibile per bambini, zona barbecue ed è completamente immerso nei percorsi trekking della Val Maira.",
+    "description_en": "Located in Borgata Sagna Rotonda in Marmora (coordinates: 44.452744, 7.116471) at 1,644 meters altitude, Sagna Rotonda is an eco-resort created from the restoration of an abandoned mountain hamlet. Features self-catering chalets and eco-apartments powered by renewable energy, complete with heating, equipped kitchens, Wi-Fi, and private bathrooms. The eco-village offers expansive natural grounds, a sustainable children's play area, and barbecue facilities with direct trail access."
   },
   {
-    "slug": "b-b-la-castellina-abbadia-san-salvatore",
-    "indirizzo": "Via Giuseppe Mazzini, 13, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778780",
-    "email": "info@lacastellinabb.it",
-    "description": "Posizionato nel centro cittadino di Abbadia San Salvatore, il B&B La Castellina vanta sistemazioni ampie ed eleganti con vista sulle colline toscane. Offre connessione WiFi, prima colazione a buffet e assistenza per la prenotazione di tour ed escursioni sul Monte Amiata.",
-    "description_en": "Located in central Abbadia San Salvatore, B&B La Castellina features spacious, elegant guest rooms with views over Tuscan hills. Offers free WiFi, breakfast buffet, and tour assistance for Mount Amiata outdoor activities."
+    "slug": "visaisa-taverna-foresteria-acceglio",
+    "description": "Posizionata in Borgo Saretto 6 ad Acceglio (coordinate: 44.479197, 6.937462) a 1.530 metri s.l.m., la Visaisa Taverna & Foresteria sorge nelle immediate vicinanze delle sorgenti del fiume Maira e del Lago Visaisa. Le sistemazioni in foresteria dispongono di arredi essenziali in legno di montagna, riscaldamento, Wi-Fi gratuito e bagno privato. La taverna interna propone una cucina calda e genuina a base di polente, formaggi d'alpeggio e salumi locali. La struttura è un punto di sosta fondamentale lungo la Grande Traversata delle Alpi (GTA).",
+    "description_en": "Positioned at Borgo Saretto 6 in Acceglio (coordinates: 44.479197, 6.937462) at 1,530 meters elevation, Visaisa Taverna & Foresteria is located near the source of the Maira River and Lake Visaisa. Guest rooms offer rustic mountain wood decor, heating, free Wi-Fi, and private bathrooms. The tavern serves hearty regional food including polenta, local alpine cheeses, and cured meats. It acts as a primary stopover along the \"GTA\" (Grande Traversata delle Alpi) trail."
   },
   {
-    "slug": "b-b-le-scalette-b-b-san-marco-abbadia-san-salvatore",
-    "indirizzo": "Via Giacomo Matteotti, 19, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778890",
-    "email": "info@lescalettebb.it",
-    "description": "Situato lungo la via principale di Abbadia San Salvatore, B&B Le Scalette / San Marco propone camere luminose recentemente rinnovate. Dotato di WiFi gratuito, bagni privati, aria condizionata e vicinanza ai principali ristoranti, negozi e navette per gli impianti sciistici.",
-    "description_en": "Situated along the main street of Abbadia San Salvatore, B&B Le Scalette / San Marco features newly renovated bright rooms. Equipped with free WiFi, private bathrooms, air conditioning, and walking access to shops, restaurants, and ski shuttles."
-  },
-  {
-    "slug": "hotel-adriana-snc-abbadia-san-salvatore",
-    "indirizzo": "Via Serdini, 76, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 779001",
-    "email": "info@hoteladrianasnc.it",
-    "description": "L'Hotel Adriana ad Abbadia San Salvatore è una struttura a conduzione familiare ideale per vacanze di gruppo e famiglie sul Monte Amiata. Offre camere confortevoli, giardino con area giochi, WiFi libero e ristorante specializzato nella cucina casereccia toscana.",
-    "description_en": "Hotel Adriana in Abbadia San Salvatore is a family-run property ideal for groups and family vacations on Mount Amiata. Offers comfortable rooms, garden with play area, free WiFi, and an authentic restaurant serving homemade Tuscan dishes."
-  },
-  {
-    "slug": "hotel-fabbrini-abbadia-san-salvatore",
-    "indirizzo": "Via Cavour, 53, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778105",
-    "email": "info@hotelfabbrini.it",
-    "description": "Hotel 3 stelle situato nel centro di Abbadia San Salvatore, l'Hotel Fabbrini offre un soggiorno all'insegna del relax in Toscana. Dispone di giardino privato, sala lettura, camere climatizzate con WiFi, bar e ristorante con menù tipici della Val d'Orcia e dell'Amiata.",
-    "description_en": "3-star hotel located in central Abbadia San Salvatore, Hotel Fabbrini offers a relaxing Tuscan stay. Features a private garden, reading lounge, air-conditioned rooms with free WiFi, bar, and restaurant serving Amiata and Val d'Orcia dishes."
-  },
-  {
-    "slug": "hotel-giardino-abbadia-san-salvatore",
-    "indirizzo": "Via I Maggio, 63, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778215",
-    "email": "info@hotelgiardinoamiata.it",
-    "description": "Immerso in un ameno parco alberato ad Abbadia San Salvatore, l'Hotel Giardino è dotato di piscina all'aperto, solarium, campo da tennis e ristorante con cucina tradizionale. Le camere dispongono di TV, WiFi e balcone con vista sui castagneti del Monte Amiata.",
-    "description_en": "Surrounded by a shaded park in Abbadia San Salvatore, Hotel Giardino features an outdoor pool, sun terrace, tennis court, and traditional restaurant. Rooms offer TVs, free WiFi, and balconies overlooking Mount Amiata forests."
-  },
-  {
-    "slug": "hotel-milano-abbadia-san-salvatore",
-    "indirizzo": "Via della Pace, 74, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778325",
-    "email": "info@hotelmilanoamiata.it",
-    "description": "L'Hotel Milano offre un ambiente accogliente e tranquillo a due passi dal borgo di Abbadia San Salvatore. Dispone di sistemazioni luminose, connessione WiFi, soggiorno con camino e ristorante familiare rinomato per le grigliate di carne toscana ed i funghi porcini.",
-    "description_en": "Hotel Milano provides a cozy, quiet stay close to historic Abbadia San Salvatore. Features bright guest rooms, free WiFi, lounge with fireplace, and a family restaurant famous for grilled Tuscan meats and porcini mushrooms."
-  },
-  {
-    "slug": "hotel-parco-erosa-abbadia-san-salvatore",
-    "indirizzo": "Via Remedi, 108, 53201 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778435",
-    "email": "info@hotelparcoerosa.it",
-    "description": "Situato lungo la strada che sale verso la vetta del Monte Amiata ad Abbadia San Salvatore, l'Hotel Parco Erosa è circondato dalla natura. Vanta camere panoramiche, ampio parco, deposito attrezzatura sportiva, WiFi e ristorante con specialità locali. Ideale per biker e sciatori.",
-    "description_en": "Located along the scenic road ascending Mount Amiata in Abbadia San Salvatore, Hotel Parco Erosa is surrounded by nature. Features panoramic rooms, large grounds, sports equipment storage, free WiFi, and regional dining. Ideal for bikers and outdoor sports enthusiasts."
-  },
-  {
-    "slug": "hotel-ristorante-stellamiata-abbadia-san-salvatore",
-    "indirizzo": "Via Trieste, 30, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778545",
-    "email": "info@stellamiata.it",
-    "description": "L'Hotel StellAmiata ad Abbadia San Salvatore unisce l'ospitalità toscana alla passione per la buona tavola. Dispone di camere moderne, WiFi, sala meeting ed un rinomato ristorante che propone piatti a base di tartufo, pici fatti in casa e selvaggina.",
-    "description_en": "Hotel StellAmiata in Abbadia San Salvatore blends Tuscan hospitality with fine dining. Offers modern guest rooms, free WiFi, meeting rooms, and an acclaimed restaurant specializing in local truffles, handmade pici pasta, and game dishes."
-  },
-  {
-    "slug": "hotel-valle-del-fiora-abbadia-san-salvatore",
-    "indirizzo": "Via Ferdinando di Giulio, 96/98, 58037 Santa Fiora (GR)",
-    "phone": "+39 0564 977110",
-    "email": "info@valledelfiora.it",
-    "description": "Situato a Santa Fiora, uno dei Borghi più Belli d'Italia sul versante grossetano dell'Amiata, l'Hotel Valle del Fiora vanta una piscina panoramica con solarium e vista sulla Maremma. Offre camere eleganti, WiFi, giardino e ristorante con prodotti tipici locali.",
-    "description_en": "Located in Santa Fiora, one of Italy's Most Beautiful Villages on Mount Amiata, Hotel Valle del Fiora boasts a panoramic pool with sun terrace overlooking Maremma. Offers elegant rooms, free WiFi, gardens, and an authentic regional restaurant.",
-    "city": "Santa Fiora"
-  },
-  {
-    "slug": "la-bocca-di-bacco-abbadia-san-salvatore",
-    "indirizzo": "Via Cavour, 80, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778655",
-    "email": "info@laboccadibacco.it",
-    "description": "Affittacamere ed enoteca di charme nel centro di Abbadia San Salvatore, La Bocca di Bacco propone sistemazioni caratteristiche con muri in pietra e travi a vista. Gli ospiti possono degustare i migliori vini toscani (Brunello, Chianti) accompagnati da tagliere di salumi e formaggi tipici.",
-    "description_en": "A charming guest house and wine bar in central Abbadia San Salvatore, La Bocca di Bacco features rooms with original stone walls and exposed beams. Guests can enjoy tastings of fine Tuscan wines (Brunello, Chianti) paired with local cured meats and cheeses."
-  },
-  {
-    "slug": "osteria-dei-locandieri-ex-cesaretti-albergo-rist-abbadia-san-salvatore",
-    "indirizzo": "Via Trento, 37, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778765",
-    "email": "info@osteriadeilocandieri.it",
-    "description": "Storico complesso con albergo, ristorante e pizzeria a legna ad Abbadia San Salvatore. L'Osteria dei Locandieri offre camere accoglienti e ristrutturate con WiFi, ed una ristorazione celebre per pizze fragranti, carni alla brace e primi piatti della tradizione amiatina.",
-    "description_en": "Historic property offering hotel rooms, restaurant, and wood-fired pizzeria in Abbadia San Salvatore. Osteria dei Locandieri features comfortable renovated rooms with free WiFi, along with authentic cuisine including pizza, grilled meats, and local pasta dishes."
-  },
-  {
-    "slug": "piccolo-hotel-aurora-abbadia-san-salvatore",
-    "indirizzo": "Via Piscinello, 51, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778875",
-    "email": "info@hotelauroraamiata.it",
-    "description": "Struttura intima ed economica situata ad Abbadia San Salvatore, il Piccolo Hotel Aurora garantisce un soggiorno tranquillo e familiare. Dispone di camere semplici e pulite con bagno privato, WiFi gratuito e vicinanza ai principali punti di interesse dell'Amiata.",
-    "description_en": "An intimate, budget-friendly property in Abbadia San Salvatore, Piccolo Hotel Aurora provides a quiet, homey stay. Offers basic, clean rooms with private bathrooms, free WiFi, and convenient access to Mount Amiata attractions."
-  },
-  {
-    "slug": "smart-room-abbadia-san-salvatore-abbadia-san-salvatore",
-    "indirizzo": "Piazza della Repubblica, 22, 53021 Abbadia San Salvatore (SI)",
-    "phone": "+39 0577 778985",
-    "email": "info@smartroomamiata.it",
-    "description": "Struttura moderna ed hi-tech affacciata sulla centralissima Piazza della Repubblica ad Abbadia San Salvatore. Propone camere intelligenti con self check-in digitale, connessione WiFi ultra-rapida, Smart TV, domotica e arredi di design. Perfetta per giovani e smart worker.",
-    "description_en": "Modern, high-tech guest rooms overlooking central Piazza della Repubblica in Abbadia San Salvatore. Features digital self check-in, ultra-fast WiFi, Smart TVs, smart room controls, and sleek modern design. Perfect for digital nomads and contemporary travelers."
-  },
-  {
-    "slug": "agriturismo-bellu-abbasanta",
-    "indirizzo": "Località Nuraghe Priogu, 09070 Riola Sardo (OR)",
-    "phone": "+39 0783 410120",
-    "email": "info@agriturismobellu.it",
-    "description": "Immerso nella natura incontaminata della Penisola del Sinis a Riola Sardo, nei pressi del Nuraghe Priogu, l'Agriturismo Bellu offre un soggiorno autentico in Sardegna. Offre sistemazioni rustiche, grande giardino, e un ristorante che serve piatti sardi tradizionali (porceddu, culurgiones, sebadas) preparati con ingredienti a Km 0. A pochi minuti dalle spiagge di Is Arutas e Putzu Idu.",
-    "description_en": "Set in the unspoiled nature of the Sinis Peninsula in Riola Sardo near Nuraghe Priogu, Agriturismo Bellu offers an authentic Sardinian farm stay. Features rustic guest rooms, large gardens, and a restaurant serving traditional Sardinian dishes (roasted piglet, culurgiones, sebadas) made with farm-grown ingredients. Minutes from Is Arutas quartz beaches.",
-    "city": "Riola Sardo"
-  },
-  {
-    "slug": "agriturismo-s-anea-abbasanta",
-    "indirizzo": "Ex SP 10, Km 9+300, 09070 Loc. Parrideli, Riola Sardo (OR)",
-    "phone": "+39 0783 410230",
-    "email": "info@agriturismosanea.it",
-    "description": "Situato a Riola Sardo nella provincia di Oristano, l'Agriturismo S'Anea è un'oasi rurale ideale per gli amanti della natura e dei cavalli. La struttura mette a disposizione camere accoglienti e climatizzate, piscina all'aperto, fattoria didattica e cucina sarda genuina. Vicino all'Area Marina Protetta del Sinis.",
-    "description_en": "Located in Riola Sardo near Oristano, Agriturismo S'Anea is a peaceful rural estate ideal for nature and horse lovers. Features cozy air-conditioned rooms, an outdoor swimming pool, educational farm activities, and authentic local Sardinian cooking. Close to the Sinis Marine Protected Area.",
-    "city": "Riola Sardo"
-  },
-  {
-    "slug": "agriturismo-s-argalasi-abbasanta",
-    "indirizzo": "09080 Austis (NU)",
-    "phone": "+39 0784 67010",
-    "email": "info@sargalasi.it",
-    "description": "Immerso tra i boschi incontaminati della Barbagia ad Austis, nel cuore geografico della Sardegna, l'Agriturismo S'Argalasi è sinonimo di tradizione ed ospitalità barbaricina. Offre camere confortevoli immerse nella quiete montana e famose cene agrituristiche con carni alla brace, formaggi pecorini e vino Cannonau.",
-    "description_en": "Nestled in the pristine woods of Barbagia in Austis, the geographical heart of Sardinia, Agriturismo S'Argalasi represents genuine mountain hospitality. Features comfortable quiet rooms and renowned traditional dinners with roasted meats, pecorino cheeses, and local Cannonau wine.",
-    "city": "Austis"
-  },
-  {
-    "slug": "agriturismo-s-incant-e-sinis-abbasanta",
-    "indirizzo": "Loc. Nuraghe Molas, 09072 Cabras (OR)",
-    "phone": "+39 0783 391050",
-    "email": "info@sincantesinis.it",
-    "description": "Situato a Cabras in località Nuraghe Molas, a breve distanza dalle rovine di Tharros e dalle spiagge di quarzo di Is Arutas e Mari Ermi, l'Agriturismo S'incant'e Sinis offre sistemazioni eleganti in stile sardo. Dotato di WiFi, aria condizionata, giardino con veranda e colazione a base di prodotti della piana del Sinis e bottarga.",
-    "description_en": "Located in Cabras near the ancient ruins of Tharros and the famous quartz beaches of Is Arutas and Mari Ermi, Agriturismo S'incant'e Sinis offers elegant Sardinian-style guest rooms. Equipped with free WiFi, air conditioning, garden verandas, and breakfasts featuring fresh local Sinis produce and authentic bottarga.",
-    "city": "Cabras"
+    "slug": "agriturismo-grotta-dell-eremita-accettura",
+    "description": "Situato in Contrada 1 a Castelmezzano (coordinate: 40.562694, 16.045806), all'interno del Parco Regionale delle Dolomiti Lucane, l'Agriturismo Grotta dell'Eremita è una rinomata struttura rurale immersa in un paesaggio roccioso suggestivo. Le sistemazioni in stile rustico offrono ingresso indipendente, riscaldamento autonomo, TV, Wi-Fi ed ampio bagno privato. L'agriturismo vanta un celebre ristorante scavato in parte nella roccia, specializzato in cucina tipica lucana con ingredienti dell'azienda agricola. Dista soli 4 km dal centro di Castelmezzano e dalla stazione di partenza del \"Volo dell'Angelo\".",
+    "description_en": "Positioned at Contrada 1 in Castelmezzano (coordinates: 40.562694, 16.045806) within the Lucanian Dolomites Regional Park, Agriturismo Grotta dell'Eremita is a rural estate set against dramatic rock formations. Rustic guest rooms feature private entrances, independent heating, TVs, Wi-Fi, and private bathrooms. Property highlights include a restaurant built partly into the natural rock face, serving traditional Lucanian farm-to-table cuisine. Located 4 km from central Castelmezzano and the \"Volo dell'Angelo\" (Flight of the Angel) zip-line base."
   }
 ]
