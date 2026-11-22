@@ -214,9 +214,11 @@ function mapInitialHotel(row: ShowcaseHomeHotel): HotelAccount {
 type PublicShowcaseClientProps = {
   initialData?: ShowcaseHomeInitialData | null;
   heroHeadings?: ReactNode;
+  /** SSR slot directly under the home hero (AEO citation block, etc.). */
+  afterHero?: ReactNode;
 };
 
-export function PublicShowcaseClient({ initialData = null, heroHeadings }: PublicShowcaseClientProps) {
+export function PublicShowcaseClient({ initialData = null, heroHeadings, afterHero }: PublicShowcaseClientProps) {
   const { locale, t: baseT } = useLanguage();
   const t = useMemo(() => mergeHubHomepageTranslations(baseT, locale), [baseT, locale]);
   const structureTypeLabels = getStructureTypeLabels(locale);
@@ -881,6 +883,12 @@ export function PublicShowcaseClient({ initialData = null, heroHeadings }: Publi
         )}
       </div>
       </div>
+
+      {afterHero ? (
+        <div className="relative z-10 mx-auto max-w-7xl px-4 pb-1 sm:px-6 lg:px-8">
+          {afterHero}
+        </div>
+      ) : null}
 
       <div className="hd-home-bento relative z-10 mx-auto flex max-w-7xl flex-col gap-3 px-4 pb-2 sm:gap-4 sm:px-6 lg:px-8">
         <section className="hd-bento-card hd-bento-search p-3 sm:p-4">
