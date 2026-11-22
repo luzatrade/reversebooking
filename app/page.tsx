@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { HomeAdvertiserAlerts } from "@/components/showcase/HomeAdvertiserAlerts";
 import { HomeHotelAlerts } from "@/components/showcase/HomeHotelAlerts";
 import { PublicShowcaseClient } from "@/components/showcase/PublicShowcaseClient";
+import { CitationBlock } from "@/components/seo/CitationBlock";
 import { HomeBottomSections } from "@/components/seo/HomeBottomSections";
 import { HomeComparisonSection } from "@/components/seo/HomeComparisonSection";
 import { HomeHeroHeadings } from "@/components/seo/HomeHeroHeadings";
@@ -71,7 +72,15 @@ export default async function HomePage() {
       />
       <HomeAdvertiserAlerts />
       <HomeHotelAlerts />
-      <PublicShowcaseClient initialData={initialData} heroHeadings={<HomeHeroHeadings />} />
+      <PublicShowcaseClient
+        initialData={initialData}
+        heroHeadings={<HomeHeroHeadings />}
+        afterHero={
+          <CitationBlock
+            locale={locale}
+          />
+        }
+      />
       <HomeMarketingSections />
       <HomeComparisonSection />
       <PopularDestinationsBlock />
