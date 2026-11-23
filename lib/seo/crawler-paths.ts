@@ -1,6 +1,6 @@
 /** Path che i crawler devono ricevere con 200 sulla radice apex (senza redirect a www). */
 export const APEX_REDIRECT_PATH_REGEX =
-  "(?!robots\\.txt$)(?!sitemap\\.xml$)(?!sitemap/)(?!llms\\.txt$)(?!llms-full\\.txt$)(?!.*\\.txt$).+";
+  "(?!robots\\.txt$)(?!sitemap\\.xml$)(?!sitemap/)(?!llms\\.txt$)(?!llms-full\\.txt$)(?!.*\\.txt$)(?!google[a-f0-9]+\\.html$)(?!yandex_[a-f0-9]+\\.html$).+";
 
 export function isApexCrawlerPath(pathname: string): boolean {
   const path = pathname.split("?")[0] || "/";
@@ -14,5 +14,7 @@ export function isApexCrawlerPath(pathname: string): boolean {
   }
   if (path.startsWith("/sitemap/")) return true;
   if (/^\/[^/]+\.txt$/i.test(path)) return true;
+  if (/^\/google[a-f0-9]+\.html$/i.test(path)) return true;
+  if (/^\/yandex_[a-f0-9]+\.html$/i.test(path)) return true;
   return false;
 }
