@@ -1,0 +1,705 @@
+/**
+ * Seed 1150 richieste attive per vetrina (IT/EN/ES/DE/FR/ZH/PT…).
+ * Email solo Auth (@richieste.hotelsdrop.com) — visible_contact_* sempre null (mai in vetrina).
+ * Nessuna notifica email alle strutture (insert diretto).
+ *
+ * Usage:
+ *   node scripts/seed-showcase-requests-1150.mjs --dry-run
+ *   node scripts/seed-showcase-requests-1150.mjs
+ *   node scripts/seed-showcase-requests-1150.mjs --count 500
+ *
+ * Requires: NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY
+ */
+
+import { resolve } from "path";
+import dotenv from "dotenv";
+dotenv.config({ path: resolve(process.cwd(), ".env.local"), override: true });
+
+import { createClient } from "@supabase/supabase-js";
+
+const DEMO_DOMAIN = "@richieste.hotelsdrop.com";
+
+const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+if (!url || !serviceKey) {
+  console.error("Mancano NEXT_PUBLIC_SUPABASE_URL o SUPABASE_SERVICE_ROLE_KEY");
+  process.exit(1);
+}
+
+const sb = createClient(url, serviceKey, {
+  auth: { persistSession: false, autoRefreshToken: false },
+});
+
+const args = process.argv.slice(2);
+const DRY_RUN = args.includes("--dry-run");
+const countArg = args.find((a, i) => args[i - 1] === "--count");
+const TOTAL = countArg && Number(countArg) > 0 ? Number(countArg) : 1150;
+
+const ALPHABET = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+function randomSuffix(len = 6) {
+  let out = "";
+  for (let i = 0; i < len; i += 1) out += ALPHABET[Math.floor(Math.random() * ALPHABET.length)];
+  return out;
+}
+function makeRequestCode() {
+  return `RB${randomSuffix(6)}`;
+}
+function randomPhone() {
+  return `+39${3}${String(Math.floor(100000000 + Math.random() * 899999999))}`;
+}
+function pick(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+function shuffle(arr) {
+  const copy = [...arr];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+function addDays(isoDate, days) {
+  const d = new Date(`${isoDate}T12:00:00Z`);
+  d.setUTCDate(d.getUTCDate() + days);
+  return d.toISOString().slice(0, 10);
+}
+function fmtDate(daysFromNow, jitter = 14) {
+  const d = new Date();
+  d.setUTCDate(d.getUTCDate() + daysFromNow + Math.floor(Math.random() * jitter));
+  return d.toISOString().slice(0, 10);
+}
+
+function zonedLocalToUtcIso(localDateTime, timeZone = "Europe/Rome") {
+  const [datePart, timePart = "00:00:00"] = localDateTime.split("T");
+  const [year, month, day] = datePart.split("-").map(Number);
+  const [hour, minute, second] = timePart.split(":").map((v) => Number(v) || 0);
+  let utcMs = Date.UTC(year, month - 1, day, hour, minute, second);
+  for (let i = 0; i < 4; i += 1) {
+    const formatter = new Intl.DateTimeFormat("en-GB", {
+      timeZone,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hourCycle: "h23",
+    });
+    const parts = formatter.formatToParts(new Date(utcMs));
+    const read = (type) => Number(parts.find((p) => p.type === type)?.value ?? 0);
+    const desired = Date.UTC(year, month - 1, day, hour, minute, second);
+    const actual = Date.UTC(read("year"), read("month") - 1, read("day"), read("hour"), read("minute"), read("second"));
+    utcMs += desired - actual;
+  }
+  return new Date(utcMs).toISOString();
+}
+
+function expiresAtForCheckOut(checkOut) {
+  const nextDay = addDays(checkOut, 1);
+  return zonedLocalToUtcIso(`${nextDay}T00:00:00`);
+}
+
+/** Hub principali — nome italiano per vetrina IT. */
+const PRINCIPAL_CITIES = [
+  { city_name: "Napoli", city_id: "IT-NAP", areas: ["Centro", "Chiaia", "Vomero", "Porto", "Mergellina"] },
+  { city_name: "Roma", city_id: "IT-ROM", areas: ["Centro Storico", "Trastevere", "Termini", "Prati", "San Giovanni"] },
+  { city_name: "Milano", city_id: "IT-MIL", areas: ["Centro", "Navigli", "Brera", "Porta Garibaldi", "Duomo"] },
+  { city_name: "Verona", city_id: "IT-VRN", areas: ["Centro", "Arena", "Porta Nuova", "Veronetta", "Borgo Trento"] },
+  { city_name: "Venezia", city_id: "IT-VCE", areas: ["San Marco", "Cannaregio", "Dorsoduro", "Mestre", "Rialto"] },
+  { city_name: "Catania", city_id: "IT-CTA", areas: ["Centro", "Etnea", "Ognina", "Porto", "Borgo"] },
+  { city_name: "Palermo", city_id: "IT-PMO", areas: ["Centro", "Mondello", "Kalsa", "Politeama", "Vucciria"] },
+];
+
+/** Città italiane vetrina — pesi più equi (hub + città con catalogo). */
+const ITALY_CITIES = [
+  ...PRINCIPAL_CITIES.map((c) => ({ ...c, weight: 10 })),
+  { city_name: "Reggio Calabria", city_id: "IT-REG", areas: ["Lungomare", "Centro", "Stazione", "Aragonese"], weight: 8 },
+  { city_name: "Reggio di Calabria", city_id: "IT-REG", areas: ["Lungomare", "Centro", "Stazione", "Porto"], weight: 3 },
+  { city_name: "Pesaro", city_id: "IT-pesaro", areas: ["Centro", "Lungomare", "Baia Flaminia", "Stazione"], weight: 6 },
+  { city_name: "Firenze", city_id: "IT-FLR", areas: ["Duomo", "Oltrarno", "SMN", "San Lorenzo"], weight: 9 },
+  { city_name: "Bari", city_id: "IT-BRI", areas: ["Murattiano", "Lungomare", "Stazione", "Poggiofranco"], weight: 8 },
+  { city_name: "Bologna", city_id: "IT-BLQ", areas: ["Centro", "Università", "Fiera", "Stazione"], weight: 7 },
+  { city_name: "Torino", city_id: "IT-TRN", areas: ["Centro", "Lingotto", "Porta Susa", "San Salvario"], weight: 7 },
+  { city_name: "Rimini", city_id: "IT-RMI", areas: ["Marina Centro", "Cesareo", "Fiera", "Rivabella"], weight: 6 },
+  { city_name: "Genova", city_id: "IT-GOA", areas: ["Centro", "Porto Antico", "Carignano", "Stazione Brignole"], weight: 5 },
+  { city_name: "Padova", city_id: "IT-PAD", areas: ["Centro", "Basilica", "Stazione", "Prato della Valle"], weight: 5 },
+  { city_name: "Trieste", city_id: "IT-TRS", areas: ["Centro", "Città Vecchia", "Barcola", "Stazione"], weight: 4 },
+  { city_name: "Lecce", city_id: "IT-LCC", areas: ["Centro barocco", "Stazione", "Porto", "San Cataldo"], weight: 4 },
+  { city_name: "Cagliari", city_id: "IT-CAG", areas: ["Marina", "Castello", "Poetto", "Stazione"], weight: 5 },
+  { city_name: "Sorrento", city_id: "IT-SOR", areas: ["Centro", "Marina Grande", "Corso Italia", "Meta"], weight: 4 },
+  { city_name: "Taormina", city_id: "IT-TAO", areas: ["Centro", "Mazzarò", "Giardini Naxos", "Teatro Antico"], weight: 4 },
+  { city_name: "Matera", city_id: "IT-MAT", areas: ["Sassi", "Centro", "Sasso Barisano", "Civita"], weight: 4 },
+  { city_name: "Salerno", city_id: "IT-SAL", areas: ["Centro", "Lungomare", "Stazione", "Luci del artista"], weight: 4 },
+  { city_name: "Pisa", city_id: "IT-PSA", areas: ["Centro", "Piazza dei Miracoli", "Stazione", "Lungarno"], weight: 4 },
+  { city_name: "Perugia", city_id: "IT-PEG", areas: ["Centro storico", "MiniMetro", "Stazione", "Elce"], weight: 3 },
+  { city_name: "Siracusa", city_id: "IT-SIR", areas: ["Ortigia", "Centro", "Lungomare", "Neapolis"], weight: 4 },
+  { city_name: "Amalfi", city_id: "IT-AMF", areas: ["Centro", "Lungomare", "Atrani", "Ravello transfer"], weight: 3 },
+  { city_name: "Como", city_id: "IT-CMO", areas: ["Lungolago", "Brunate", "Stazione", "Lago"], weight: 3 },
+  { city_name: "Bergamo", city_id: "IT-BGY", areas: ["Città Alta", "Città Bassa", "Stazione", "Orio area"], weight: 3 },
+  { city_name: "Ravenna", city_id: "IT-RAV", areas: ["Centro", "Mosaic district", "Stazione", "Marina"], weight: 3 },
+  { city_name: "Jesolo", city_id: "IT-JES", areas: ["Piazza Mazzini", "Pineta", "Lido est", "Stazione"], weight: 3 },
+].map((c) => ({ ...c, country_code: "IT", country_name: "Italy" }));
+
+const INTL_CITIES = [
+  { city_name: "Barcelona", city_id: "ES-BCN", country_code: "ES", country_name: "Spain", areas: ["Gothic Quarter", "Eixample", "Barceloneta", "Sants"], weight: 4 },
+  { city_name: "Madrid", city_id: "ES-MAD", country_code: "ES", country_name: "Spain", areas: ["Centro", "Salamanca", "Malasaña", "Atocha"], weight: 3 },
+  { city_name: "Seville", city_id: "ES-SEV", country_code: "ES", country_name: "Spain", areas: ["Triana", "Centro", "Santa Cruz", "Nervión"], weight: 2 },
+  { city_name: "Valencia", city_id: "ES-VLC", country_code: "ES", country_name: "Spain", areas: ["Ciutat Vella", "Ruzafa", "Ciudad de las Artes"], weight: 2 },
+  { city_name: "Paris", city_id: "FR-PAR", country_code: "FR", country_name: "France", areas: ["Le Marais", "Saint-Germain", "Montmartre", "Gare du Nord"], weight: 2 },
+  { city_name: "London", city_id: "GB-LON", country_code: "GB", country_name: "United Kingdom", areas: ["Westminster", "Shoreditch", "South Bank", "King's Cross"], weight: 2 },
+  { city_name: "Lisbon", city_id: "PT-LIS", country_code: "PT", country_name: "Portugal", areas: ["Alfama", "Baixa", "Belém", "Parque das Nações"], weight: 2 },
+  { city_name: "Munich", city_id: "DE-MUC", country_code: "DE", country_name: "Germany", areas: ["Altstadt", "Schwabing", "Hauptbahnhof", "Isarvorstadt"], weight: 2 },
+  { city_name: "Berlin", city_id: "DE-BER", country_code: "DE", country_name: "Germany", areas: ["Mitte", "Kreuzberg", "Prenzlauer Berg", "Charlottenburg"], weight: 1 },
+  { city_name: "Rome", city_id: "IT-ROM", country_code: "IT", country_name: "Italy", areas: ["Centro Storico", "Trastevere", "Termini"], weight: 2 },
+  { city_name: "Florence", city_id: "IT-FLR", country_code: "IT", country_name: "Italy", areas: ["Duomo", "Oltrarno", "SMN"], weight: 2 },
+];
+
+const EXTRA_NAME_POOL = {
+  it: [
+    { slug: "martina-ricci", first: "Martina", last: "Ricci" },
+    { slug: "andrea-galli", first: "Andrea", last: "Galli" },
+    { slug: "francesca-romano", first: "Francesca", last: "Romano" },
+    { slug: "alessandro-fontana", first: "Alessandro", last: "Fontana" },
+    { slug: "valentina-marino", first: "Valentina", last: "Marino" },
+    { slug: "stefano-colombo", first: "Stefano", last: "Colombo" },
+    { slug: "silvia-greco", first: "Silvia", last: "Greco" },
+    { slug: "daniele-vitale", first: "Daniele", last: "Vitale" },
+  ],
+  en: [
+    { slug: "hannah-parker", first: "Hannah", last: "Parker", langs: ["en"] },
+    { slug: "daniel-carter", first: "Daniel", last: "Carter", langs: ["en"] },
+    { slug: "rachel-thompson", first: "Rachel", last: "Thompson", langs: ["en"] },
+    { slug: "michael-anderson", first: "Michael", last: "Anderson", langs: ["en"] },
+  ],
+  es: [
+    { slug: "lucia-herrera", first: "Lucía", last: "Herrera", langs: ["es"] },
+    { slug: "javier-morales", first: "Javier", last: "Morales", langs: ["es"] },
+    { slug: "ana-delgado", first: "Ana", last: "Delgado", langs: ["es"] },
+  ],
+  de: [
+    { slug: "lena-hoffmann", first: "Lena", last: "Hoffmann", langs: ["de"] },
+    { slug: "felix-bauer", first: "Felix", last: "Bauer", langs: ["de"] },
+  ],
+  fr: [
+    { slug: "camille-dubois", first: "Camille", last: "Dubois", langs: ["fr"] },
+    { slug: "julien-moreau", first: "Julien", last: "Moreau", langs: ["fr"] },
+  ],
+  zh: [
+    { slug: "wei-zhang", first: "Wei", last: "Zhang", langs: ["zh"] },
+    { slug: "ting-li", first: "Ting", last: "Li", langs: ["zh"] },
+  ],
+  pt: [
+    { slug: "ines-almeida", first: "Inês", last: "Almeida", langs: ["pt"] },
+    { slug: "rafael-sousa", first: "Rafael", last: "Sousa", langs: ["pt"] },
+  ],
+};
+
+const ADVERTISERS = [
+  { slug: "famiglia-rossi", type: "private_individual", first: "Elena", last: "Rossi" },
+  { slug: "coppia-bianchi", type: "private_individual", first: "Giulia", last: "Bianchi" },
+  { slug: "marco-ferretti", type: "private_individual", first: "Marco", last: "Ferretti" },
+  { slug: "chiara-santoro", type: "private_individual", first: "Chiara", last: "Santoro" },
+  { slug: "paola-conti", type: "private_individual", first: "Paola", last: "Conti" },
+  { slug: "luca-moretti", type: "private_individual", first: "Luca", last: "Moretti" },
+  { slug: "weekend-coppia-venezia", type: "private_individual", first: "Matteo", last: "e Francesca" },
+  { slug: "famiglia-santoro", type: "private_individual", first: "Salvo", last: "Rizzo" },
+  { slug: "liceo-marconi-bo", type: "company", first: "Ufficio", last: "Gite — Liceo Marconi", company: "Liceo Scientifico Marconi" },
+  { slug: "istituto-bellini-na", type: "company", first: "Segreteria", last: "Viaggio d'istruzione", company: "Istituto Bellini Napoli" },
+  { slug: "weekend-navigli", type: "company", first: "Marco", last: "Team building Milano", company: "StartHub Srl" },
+  { slug: "addio-laura-rimini", type: "private_individual", first: "Laura", last: "Comitato addio" },
+  { slug: "comitiva-pisa", type: "private_individual", first: "Andrea", last: "Gruppo amici Pisa" },
+  { slug: "agenzia-viaggi-verde", type: "travel_agency", first: "Anna", last: "Verde Viaggi", agency: "Verde Viaggi Studio" },
+  { slug: "gruppo-ciclismo", type: "tour_operator", first: "Pedal", last: "Italia Tours", operator: "Pedal Italia" },
+  { slug: "sarah-mitchell", type: "private_individual", first: "Sarah", last: "Mitchell", langs: ["en"] },
+  { slug: "james-emily", type: "private_individual", first: "James", last: "& Emily", langs: ["en"] },
+  { slug: "oliver-brown", type: "private_individual", first: "Oliver", last: "Brown", langs: ["en"] },
+  { slug: "emma-wilson", type: "company", first: "Emma", last: "Wilson — HR", company: "Northline Consulting", langs: ["en"] },
+  { slug: "carlos-rodriguez", type: "private_individual", first: "Carlos", last: "Rodríguez", langs: ["es"] },
+  { slug: "laura-martin", type: "private_individual", first: "Laura", last: "Martín", langs: ["es"] },
+  { slug: "miguel-santos", type: "private_individual", first: "Miguel", last: "Santos", langs: ["es"] },
+  { slug: "viajes-andalucia", type: "travel_agency", first: "Carmen", last: "Viaggi Andalucía", agency: "Viajes Andalucía", langs: ["es"] },
+  { slug: "grupo-barcelona", type: "company", first: "Pablo", last: "Grupo amigos", company: "Offsite Barcelona", langs: ["es"] },
+  ...Object.entries(EXTRA_NAME_POOL).flatMap(([lang, rows]) =>
+    rows.map((row) => ({
+      slug: row.slug,
+      type: "private_individual",
+      first: row.first,
+      last: row.last,
+      langs: row.langs ?? [lang],
+    })),
+  ),
+];
+
+function buildSchoolTrip({ students, teachers, nights, perStudentNight, teachersPerNight }) {
+  const triples = Math.floor(students / 3);
+  const remainder = students % 3;
+  const rooms = [];
+  let idx = 1;
+  for (let t = 0; t < triples; t += 1) {
+    rooms.push({ room: idx++, room_type: "triple", adults: 3, children: 0, children_ages: [], budget: Math.round(perStudentNight * 3 * nights) });
+  }
+  if (remainder === 2) {
+    rooms.push({ room: idx++, room_type: "twin", adults: 2, children: 0, children_ages: [], budget: Math.round(perStudentNight * 2 * nights) });
+  } else if (remainder === 1) {
+    rooms.push({ room: idx++, room_type: "double", adults: 2, children: 0, children_ages: [], budget: Math.round(perStudentNight * 2 * nights) });
+  }
+  for (let d = 0; d < teachers; d += 1) {
+    rooms.push({ room: idx++, room_type: "double", adults: 1, children: 0, children_ages: [], budget: Math.round(teachersPerNight * nights) });
+  }
+  const budget = rooms.reduce((s, r) => s + r.budget, 0);
+  return { rooms, guests_count: students + teachers, rooms_count: rooms.length, budget };
+}
+
+function buildGroupTrip({ people, nights, perRoomNight }) {
+  const roomsNeeded = Math.ceil(people / 2);
+  const rooms = [];
+  let remaining = people;
+  for (let i = 1; i <= roomsNeeded; i += 1) {
+    const adults = remaining >= 2 ? 2 : 1;
+    remaining -= adults;
+    rooms.push({ room: i, room_type: "twin", adults, children: 0, children_ages: [], budget: Math.round(perRoomNight * nights) });
+  }
+  return { rooms, guests_count: people, rooms_count: rooms.length, budget: rooms.reduce((s, r) => s + r.budget, 0) };
+}
+
+function buildFamilyTrip({ adults, children, childAges, nights, roomBudget }) {
+  const rooms = [{ room: 1, room_type: children > 0 ? "triple" : "double", adults, children, children_ages: childAges, budget: roomBudget }];
+  return { rooms, guests_count: adults + children, rooms_count: 1, budget: roomBudget };
+}
+
+function buildSoloTrip({ nights, perNight }) {
+  const rooms = [{ room: 1, room_type: "double", adults: 1, children: 0, children_ages: [], budget: Math.round(perNight * nights) }];
+  return { rooms, guests_count: 1, rooms_count: 1, budget: rooms[0].budget };
+}
+
+function buildCoupleTrip({ nights, perNight }) {
+  return buildFamilyTrip({ adults: 2, children: 0, childAges: [], nights, roomBudget: Math.round(perNight * nights) });
+}
+
+function notesFor(kind, lang, city, vars) {
+  const c = city;
+  const it = {
+    couple: [
+      `Weekend romantico a ${c}, camera matrimoniale. Preferiamo centro storico o zona ben collegata. Check-in flessibile se possibile.`,
+      `Coppia per ${vars.nights} notti a ${c}. Colazione inclusa gradita. Budget indicativo per soggiorno completo.`,
+    ],
+    family: [
+      `Famiglia (${vars.adults} adulti + ${vars.children} bambini) per ${vars.nights} notti a ${c}. Camera tripla o family room, zona tranquilla.`,
+      `Soggiorno famiglia a ${c}: bambini ${vars.childAges}. Ci serve parcheggio o parcheggio convenzionato se disponibile.`,
+    ],
+    solo: [
+      `Trasferta lavoro a ${c}, ${vars.nights} notte/i. Wi‑Fi stabile, check-out tardivo se possibile. Fattura elettronica.`,
+      `Viaggiatore singolo a ${c} per ${vars.nights} notti. Vicino stazione o centro, budget contenuto ma pulizia importante.`,
+    ],
+    group: [
+      `Gruppo di ${vars.people} amici per ${vars.nights} notti a ${c}. Camere doppie/twin, zona vivace ma silenziosa in camera.`,
+      `Comitiva ${vars.people} persone a ${c}. Parcheggio o garage gradito. Valutiamo anche più camere nella stessa struttura.`,
+    ],
+    school: [
+      `Gita scolastica a ${c}: ${vars.students} studenti + ${vars.teachers} docenti, ${vars.nights} notti. Mezza pensione o colazione abbondante. Camere triple per ragazzi.`,
+      `Classe in visita a ${c}. Necessaria fattura a istituto. Budget max circa ${vars.perStudent}€ a studente.`,
+    ],
+  };
+  const en = {
+    couple: [
+      `Romantic weekend in ${c} for ${vars.nights} nights. Double room, central area preferred. Late check-in around 8pm if possible.`,
+      `Couple trip to ${c}. Breakfast included would be great. Looking for a clean, quiet place near the historic centre.`,
+    ],
+    family: [
+      `Family stay in ${c}: ${vars.adults} adults and ${vars.children} child(ren) for ${vars.nights} nights. Family room or triple, quiet neighbourhood.`,
+      `Travelling with kids (ages ${vars.childAges}) to ${c}. Parking nearby is a plus. Flexible checkout if possible.`,
+    ],
+    solo: [
+      `Business trip to ${c}, ${vars.nights} night(s). Need reliable Wi‑Fi and early breakfast. Electronic invoice required.`,
+      `Solo traveller in ${c} for ${vars.nights} nights. Close to station or city centre. Mid-range budget, cleanliness matters.`,
+    ],
+    group: [
+      `Group of ${vars.people} friends in ${c} for ${vars.nights} nights. Twin/double rooms, lively area but quiet rooms.`,
+      `We are ${vars.people} people visiting ${c}. Prefer same property if possible. Parking or garage appreciated.`,
+    ],
+    school: [
+      `School trip to ${c}: ${vars.students} students + ${vars.teachers} teachers, ${vars.nights} nights. Half board or good breakfast. Triple rooms for students.`,
+      `High school class visiting ${c}. Invoice to school required. Budget around €${vars.perStudent} per student per night.`,
+    ],
+  };
+  const es = {
+    couple: [
+      `Fin de semana romántico en ${c}, ${vars.nights} noches. Habitación doble, zona céntrica. Check-in flexible si es posible.`,
+      `Pareja en ${c}. Desayuno incluido sería ideal. Buscamos alojamiento limpio y tranquilo cerca del centro.`,
+    ],
+    family: [
+      `Familia en ${c}: ${vars.adults} adultos y ${vars.children} niño(s), ${vars.nights} noches. Habitación triple o familiar.`,
+      `Viaje familiar a ${c} con niños (${vars.childAges}). Aparcamiento cercano es una ventaja.`,
+    ],
+    solo: [
+      `Viaje de trabajo a ${c}, ${vars.nights} noche(s). Wi‑Fi estable y desayuno temprano. Factura electrónica.`,
+      `Viajero solo en ${c} por ${vars.nights} noches. Cerca de estación o centro. Presupuesto medio, limpieza importante.`,
+    ],
+    group: [
+      `Grupo de ${vars.people} amigos en ${c}, ${vars.nights} noches. Habitaciones dobles/twin, zona animada pero habitaciones tranquilas.`,
+      `Somos ${vars.people} personas en ${c}. Preferimos la misma estructura. Aparcamiento o garaje apreciado.`,
+    ],
+    school: [
+      `Excursión escolar a ${c}: ${vars.students} estudiantes + ${vars.teachers} docentes, ${vars.nights} noches. Media pensión o desayuno abundante.`,
+      `Clase visitando ${c}. Factura al instituto. Presupuesto aprox. €${vars.perStudent} por estudiante.`,
+    ],
+  };
+  const de = {
+    couple: [`Romantisches Wochenende in ${c}, ${vars.nights} Nächte. Doppelzimmer, zentrale Lage bevorzugt.`],
+    family: [`Familienaufenthalt in ${c}: ${vars.adults} Erwachsene, ${vars.children} Kind(er), ${vars.nights} Nächte.`],
+    solo: [`Geschäftsreise nach ${c}, ${vars.nights} Nacht(e). WLAN und frühes Frühstück wichtig.`],
+    group: [`Gruppe von ${vars.people} Freunden in ${c} für ${vars.nights} Nächte. Doppel-/Zweibettzimmer.`],
+    school: [`Klassenfahrt nach ${c}: ${vars.students} Schüler + ${vars.teachers} Lehrer, ${vars.nights} Nächte.`],
+  };
+  const fr = {
+    couple: [`Week-end romantique à ${c}, ${vars.nights} nuits. Chambre double, quartier central si possible.`],
+    family: [`Séjour en famille à ${c}: ${vars.adults} adultes et ${vars.children} enfant(s), ${vars.nights} nuits.`],
+    solo: [`Voyage solo à ${c}, ${vars.nights} nuit(s). Wi‑Fi fiable, petit-déjeuner tôt.`],
+    group: [`Groupe de ${vars.people} amis à ${c} pour ${vars.nights} nuits.`],
+    school: [`Voyage scolaire à ${c}: ${vars.students} élèves, ${vars.nights} nuits.`],
+  };
+  const pt = {
+    couple: [`Fim de semana romântico em ${c}, ${vars.nights} noites. Quarto duplo no centro.`],
+    family: [`Família em ${c}: ${vars.adults} adultos e ${vars.children} criança(s), ${vars.nights} noites.`],
+    solo: [`Viagem a trabalho para ${c}, ${vars.nights} noite(s). Wi‑Fi estável.`],
+    group: [`Grupo de ${vars.people} amigos em ${c}, ${vars.nights} noites.`],
+    school: [`Viagem escolar a ${c}: ${vars.students} alunos, ${vars.nights} noites.`],
+  };
+  const zh = {
+    couple: [`${c}浪漫短途，${vars.nights}晚。希望双人间，靠近市中心。`],
+    family: [`家庭出行${c}：${vars.adults}位成人、${vars.children}位儿童，${vars.nights}晚。`],
+    solo: [`前往${c}出差，${vars.nights}晚。需要稳定Wi-Fi和早餐。`],
+    group: [`${vars.people}位朋友${c}小团游，${vars.nights}晚。`],
+    school: [`${c}学校研学：约${vars.students}名学生，${vars.nights}晚。`],
+  };
+  const byLang = { it, en, es, de, fr, pt, zh };
+  const raw = (byLang[lang] ?? it)[kind] ?? it[kind];
+  const pool = Array.isArray(raw) ? raw : [String(raw)];
+  return pick(pool);
+}
+
+function buildScenarios() {
+  return [
+    {
+      kind: "couple",
+      weight: 22,
+      nights: () => pick([2, 3]),
+      daysAhead: () => 10 + Math.floor(Math.random() * 40),
+      meal: () => pick(["breakfast", "room_only"]),
+      structure: (city) => (city.city_id === "IT-pesaro" ? pick(["hotel", "all"]) : pick(["hotel", "bed_and_breakfast", "all"])),
+      filters: () => ({ pool: Math.random() > 0.75 }),
+      build: (n) => buildCoupleTrip({ nights: n, perNight: pick([95, 110, 125, 145, 165]) }),
+      vars: (n, trip) => ({ nights: n, adults: 2, children: 0, childAges: "", people: 2, students: 0, teachers: 0, perStudent: 0 }),
+    },
+    {
+      kind: "family",
+      weight: 20,
+      nights: () => pick([2, 3, 4]),
+      daysAhead: () => 14 + Math.floor(Math.random() * 50),
+      meal: () => pick(["breakfast", "half_board"]),
+      structure: () => pick(["hotel", "bed_and_breakfast", "all"]),
+      filters: () => ({ pets_allowed: Math.random() > 0.85, disabled_access: Math.random() > 0.8 }),
+      build: (n) => {
+        const child = pick([4, 6, 8, 10]);
+        return buildFamilyTrip({ adults: 2, children: 1, childAges: [child], nights: n, roomBudget: pick([240, 280, 320, 380]) });
+      },
+      vars: (n, trip) => ({ nights: n, adults: 2, children: 1, childAges: trip.rooms[0]?.children_ages?.join(",") ?? "6", people: trip.guests_count, students: 0, teachers: 0, perStudent: 0 }),
+    },
+    {
+      kind: "solo",
+      weight: 18,
+      nights: () => pick([1, 2, 3]),
+      daysAhead: () => 5 + Math.floor(Math.random() * 25),
+      meal: () => pick(["room_only", "breakfast"]),
+      structure: (city) => (city.city_id === "IT-pesaro" ? pick(["hotel", "all"]) : pick(["hotel", "all"])),
+      filters: () => ({ garage: Math.random() > 0.6 }),
+      build: (n) => buildSoloTrip({ nights: n, perNight: pick([78, 95, 110, 130]) }),
+      vars: (n, trip) => ({ nights: n, adults: 1, children: 0, childAges: "", people: 1, students: 0, teachers: 0, perStudent: 0 }),
+    },
+    {
+      kind: "group",
+      weight: 22,
+      nights: () => pick([2, 3]),
+      daysAhead: () => 12 + Math.floor(Math.random() * 35),
+      meal: () => pick(["breakfast", "room_only"]),
+      structure: () => pick(["hotel", "all", "apartment"]),
+      filters: () => ({ garage: true, beach: Math.random() > 0.5 }),
+      build: (n) => buildGroupTrip({ people: pick([8, 10, 12, 14, 16]), nights: n, perRoomNight: pick([85, 95, 110, 125]) }),
+      vars: (n, trip) => ({ nights: n, adults: trip.guests_count, children: 0, childAges: "", people: trip.guests_count, students: 0, teachers: 0, perStudent: 0 }),
+    },
+    {
+      kind: "school",
+      weight: 12,
+      nights: () => pick([3, 4]),
+      daysAhead: () => 45 + Math.floor(Math.random() * 70),
+      meal: () => pick(["half_board", "breakfast"]),
+      structure: () => pick(["hotel", "all"]),
+      filters: () => ({ disabled_access: Math.random() > 0.4 }),
+      build: (n) => {
+        const per = pick([38, 42, 45, 48]);
+        return buildSchoolTrip({ students: pick([32, 36, 40, 44]), teachers: pick([3, 4]), nights: n, perStudentNight: per, teachersPerNight: pick([68, 75, 82]) });
+      },
+      vars: (n, trip) => ({ nights: n, adults: 0, children: 0, childAges: "", people: trip.guests_count, students: trip.guests_count - 4, teachers: 4, perStudent: pick([38, 42, 45]) }),
+    },
+  ];
+}
+
+function expandPrincipalCities(total) {
+  const perCity = Math.floor(total / PRINCIPAL_CITIES.length);
+  const extra = total % PRINCIPAL_CITIES.length;
+  const slots = [];
+  for (let i = 0; i < PRINCIPAL_CITIES.length; i += 1) {
+    const n = perCity + (i < extra ? 1 : 0);
+    for (let j = 0; j < n; j += 1) slots.push(PRINCIPAL_CITIES[i]);
+  }
+  return shuffle(slots);
+}
+
+function expandWeightedCities(total) {
+  const slots = [];
+  const sum = ITALY_CITIES.reduce((s, c) => s + c.weight, 0);
+  for (const city of ITALY_CITIES) {
+    const n = Math.max(1, Math.round((city.weight / sum) * total));
+    for (let i = 0; i < n; i += 1) slots.push(city);
+  }
+  return shuffle(slots).slice(0, total);
+}
+
+function buildLangPlan(total) {
+  const plan = {
+    it: Math.round(total * 0.52),
+    en: Math.round(total * 0.18),
+    es: Math.round(total * 0.14),
+    de: Math.round(total * 0.05),
+    fr: Math.round(total * 0.04),
+    zh: Math.round(total * 0.02),
+    pt: Math.round(total * 0.03),
+  };
+  const langs = [];
+  for (const [lang, n] of Object.entries(plan)) {
+    for (let i = 0; i < n; i += 1) langs.push(lang);
+  }
+  while (langs.length < total) langs.push("it");
+  while (langs.length > total) langs.pop();
+  return shuffle(langs);
+}
+
+const LANG_TO_COUNTRY = { es: "ES", en: "GB", de: "DE", fr: "FR", pt: "PT", zh: "IT", it: "IT" };
+
+function pickCityForLang(lang, italySlots, intlPool) {
+  const preferIntl = ["es", "en", "de", "fr", "pt"].includes(lang) && Math.random() < 0.55;
+  if (preferIntl) {
+    const code = LANG_TO_COUNTRY[lang] ?? "IT";
+    const matches = intlPool.filter((c) => c.country_code === code || (lang === "en" && c.country_code === "GB"));
+    if (matches.length) return pick(matches);
+  }
+  return pick(italySlots.length ? italySlots : ITALY_CITIES);
+}
+
+function pickScenario(scenarios) {
+  const sum = scenarios.reduce((s, x) => s + x.weight, 0);
+  let r = Math.random() * sum;
+  for (const sc of scenarios) {
+    r -= sc.weight;
+    if (r <= 0) return sc;
+  }
+  return scenarios[0];
+}
+
+async function findUserByEmail(email) {
+  const target = email.toLowerCase();
+  let page = 1;
+  while (true) {
+    const { data, error } = await sb.auth.admin.listUsers({ page, perPage: 200 });
+    if (error) throw error;
+    const hit = (data.users ?? []).find((u) => u.email?.toLowerCase() === target);
+    if (hit) return hit;
+    if ((data.users ?? []).length < 200) break;
+    page += 1;
+  }
+  return null;
+}
+
+async function ensureAdvertisers() {
+  console.log("— Inserzionisti demo —");
+  const pool = [];
+  const byLang = { it: [], en: [], es: [], de: [], fr: [], zh: [], pt: [] };
+
+  for (const adv of ADVERTISERS) {
+    const email = `${adv.slug}${DEMO_DOMAIN}`;
+    const existing = await findUserByEmail(email);
+    let userId = existing?.id;
+
+    if (!userId) {
+      const { data: created, error } = await sb.auth.admin.createUser({
+        email,
+        password: `HdDemo!${randomSuffix(8)}`,
+        email_confirm: true,
+      });
+      if (error || !created?.user) {
+        console.warn(`  skip ${email}:`, error?.message);
+        continue;
+      }
+      userId = created.user.id;
+      await sb.from("profiles").insert({
+        user_id: userId,
+        role: "advertiser",
+        email,
+        phone_number: randomPhone(),
+        email_verified: true,
+        phone_verified: true,
+        account_status: "active",
+      });
+      const { data: ap, error: apErr } = await sb
+        .from("advertiser_profiles")
+        .upsert(
+          {
+            user_id: userId,
+            advertiser_type: adv.type,
+            first_name: adv.first,
+            last_name: adv.last,
+            company_name: adv.company ?? null,
+            agency_name: adv.agency ?? null,
+            operator_name: adv.operator ?? null,
+            short_description: adv.type === "company" ? "Richiesta aziendale / istituto" : "Viaggiatore",
+          },
+          { onConflict: "user_id" },
+        )
+        .select("id")
+        .single();
+      if (apErr || !ap?.id) continue;
+      pool.push({ id: ap.id, langs: adv.langs ?? ["it"], label: `${adv.first} ${adv.last}` });
+      console.log(`  + ${adv.first} ${adv.last}`);
+    } else {
+      const { data: ap } = await sb.from("advertiser_profiles").select("id").eq("user_id", userId).maybeSingle();
+      if (ap?.id) pool.push({ id: ap.id, langs: adv.langs ?? ["it"], label: `${adv.first} ${adv.last}` });
+    }
+  }
+
+  for (const p of pool) {
+    for (const l of p.langs) byLang[l].push(p);
+  }
+  return { pool, byLang };
+}
+
+function pickAdvertiser(byLang, lang, pool) {
+  const candidates = byLang[lang]?.length ? byLang[lang] : pool;
+  return pick(candidates);
+}
+
+async function createRequest(city, scenario, lang, adv) {
+  const nights = scenario.nights();
+  const checkIn = fmtDate(scenario.daysAhead(), 8);
+  const checkOut = addDays(checkIn, nights);
+  const trip = scenario.build(nights);
+  trip.rooms = trip.rooms.map((room, idx) => ({ ...room, room: idx + 1 }));
+  const vars = scenario.vars(nights, trip);
+
+  const payload = {
+    request_code: makeRequestCode(),
+    advertiser_id: adv.id,
+    country_code: city.country_code ?? "IT",
+    country_name: city.country_name ?? "Italy",
+    city_name: city.city_name,
+    city_id: city.city_id,
+    preferred_area: pick(city.areas),
+    preferred_structure_type: scenario.structure(city),
+    check_in: checkIn,
+    check_out: checkOut,
+    guests_count: trip.guests_count,
+    rooms_count: trip.rooms_count,
+    room_details: trip.rooms,
+    preference_filters: scenario.filters(),
+    budget: trip.budget,
+    meal_plan: scenario.meal(),
+    notes: notesFor(scenario.kind, lang, city.city_name, vars),
+    visible_contact_email: null,
+    visible_contact_phone: null,
+    visible_contact_whatsapp: null,
+    status: "active",
+    expires_at: expiresAtForCheckOut(checkOut),
+    target_hotel_account_id: null,
+  };
+
+  if (DRY_RUN) return { kind: scenario.kind, lang, guests: trip.guests_count, budget: trip.budget, payload };
+
+  const { error } = await sb.from("travel_requests").insert(payload);
+  if (error) throw error;
+  return { kind: scenario.kind, lang, guests: trip.guests_count, budget: trip.budget };
+}
+
+async function loadAdvertiserPoolFromDb() {
+  const { data, error } = await sb.from("advertiser_profiles").select("id").limit(80);
+  if (error) throw error;
+  if (!data?.length) throw new Error("Nessun advertiser_profiles: esegui seed senza --dry-run una volta.");
+  const langs = ["it", "en", "es", "de", "fr", "zh", "pt"];
+  const pool = data.map((row) => ({ id: row.id, langs, label: "existing" }));
+  const byLang = Object.fromEntries(langs.map((l) => [l, pool]));
+  return { pool, byLang };
+}
+
+async function main() {
+  console.log(`HotelsDrop — seed ${TOTAL} richieste vetrina (lingue multilineari)${DRY_RUN ? " [DRY RUN]" : ""}`);
+  const { pool, byLang } = DRY_RUN ? await loadAdvertiserPoolFromDb() : await ensureAdvertisers();
+  if (!pool.length) {
+    console.error("Nessun inserzionista demo.");
+    process.exit(1);
+  }
+
+  const italySlots = expandWeightedCities(TOTAL);
+  const intlPool = INTL_CITIES;
+  const langs = buildLangPlan(TOTAL);
+  const scenarios = buildScenarios();
+  let created = 0;
+  const stats = { it: 0, en: 0, es: 0, de: 0, fr: 0, zh: 0, pt: 0 };
+  const cityCounts = new Map();
+
+  const loopTotal = DRY_RUN ? Math.min(25, TOTAL) : TOTAL;
+  for (let i = 0; i < loopTotal; i += 1) {
+    const lang = langs[i] ?? "it";
+    const city = pickCityForLang(lang, italySlots, intlPool);
+    const scenario = pickScenario(scenarios);
+    const adv = pickAdvertiser(byLang, lang, pool);
+    try {
+      const row = await createRequest(city, scenario, lang, adv);
+      created += 1;
+      stats[lang] = (stats[lang] ?? 0) + 1;
+      cityCounts.set(city.city_name, (cityCounts.get(city.city_name) ?? 0) + 1);
+      if (created % 50 === 0 || created <= 3) {
+        console.log(`  + ${city.city_name} · ${row.kind} · ${lang} · ${row.guests} ospiti · ${row.budget}€`);
+      }
+      if (DRY_RUN && created === 3) {
+        console.log("  sample payload:", JSON.stringify(row.payload, null, 2).slice(0, 800));
+      }
+    } catch (err) {
+      console.warn(`  ! ${city.city_name}:`, err.message ?? err);
+    }
+  }
+
+  const now = new Date().toISOString();
+  const { count } = DRY_RUN
+    ? { count: "n/a" }
+    : await sb
+        .from("travel_requests")
+        .select("id", { count: "exact", head: true })
+        .eq("status", "active")
+        .gt("expires_at", now);
+
+  console.log("\n=== RIEPILOGO ===");
+  console.log(
+    `  Create ora: ${created}${DRY_RUN ? ` (dry-run, nessun insert; campione ${loopTotal}/${TOTAL})` : ""}`,
+  );
+  console.log(
+    `  Lingue: IT ${stats.it} · EN ${stats.en} · ES ${stats.es} · DE ${stats.de} · FR ${stats.fr} · ZH ${stats.zh} · PT ${stats.pt}`,
+  );
+  console.log("  Per città:");
+  for (const [name, n] of [...cityCounts.entries()].sort((a, b) => b[1] - a[1])) {
+    console.log(`    ${name}: ${n}`);
+  }
+  console.log(`  IT attive totali: ${count ?? "?"}`);
+}
+
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});
