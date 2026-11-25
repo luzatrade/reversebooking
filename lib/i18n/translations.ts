@@ -380,15 +380,6 @@ export const translations = {
       exploreMapLoading: "Caricamento mappa...",
       sliderPrevious: "Precedente",
       sliderNext: "Successivo",
-      availabilityMailSubject: "Richiesta disponibilità — {name}",
-      availabilityMailIntro:
-        "Ciao! Ho trovato {name} su {brand} e vorrei chiedere gentilmente informazioni e disponibilità per le seguenti date:",
-      availabilityMailCheckIn: "Check-in: ___",
-      availabilityMailCheckOut: "Check-out: ___",
-      availabilityMailGuests: "Ospiti: ___",
-      availabilityMailOutro: "Resto in attesa di un vostro cortese riscontro.\nGrazie mille!",
-      availabilityWhatsApp:
-        "Ciao! Ho trovato {name} su {brand} e vorrei chiedere gentilmente informazioni e disponibilità per le seguenti date: ... Grazie mille!",
       loadRequestsError: "Errore durante il caricamento delle richieste.",
     },
     catalogOffers: {
@@ -1761,15 +1752,6 @@ export const translations = {
       exploreMapLoading: "Loading map...",
       sliderPrevious: "Previous",
       sliderNext: "Next",
-      availabilityMailSubject: "Availability request — {name}",
-      availabilityMailIntro:
-        "Hello! I found {name} on {brand} and would like to kindly ask about availability for the following dates:",
-      availabilityMailCheckIn: "Check-in: ___",
-      availabilityMailCheckOut: "Check-out: ___",
-      availabilityMailGuests: "Guests: ___",
-      availabilityMailOutro: "I look forward to your reply.\nThank you!",
-      availabilityWhatsApp:
-        "Hello! I found {name} on {brand} and would like to kindly ask about availability for the following dates: ... Thank you!",
       loadRequestsError: "Error while loading requests.",
     },
     catalogOffers: {

@@ -83,7 +83,7 @@ export function PublicOnboardingHotelProfile() {
   }
 
   const websiteUrl = hotel ? normalizeWebsiteUrl(hotel.website) : null;
-  const whatsAppHref = hotel?.phone ? buildWhatsAppHref(hotel.nome, hotel.phone) : null;
+  const whatsAppHref = hotel?.phone ? buildWhatsAppHref(hotel.phone, locale) : null;
   const addressLine = hotel?.indirizzo?.trim() || hotel?.city_name || t.hotel.addressUnavailable;
   const cityId = hotel ? resolveCanonicalCityId({ cityName: hotel.city_name }) : null;
   const countryName =
@@ -191,7 +191,7 @@ export function PublicOnboardingHotelProfile() {
                 <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-3">
                   {hotel.email ? (
                     <a
-                      href={buildContactEmailHref(hotel.nome, hotel.email.trim())}
+                      href={buildContactEmailHref(hotel.email.trim(), locale)}
                       className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-4 py-3 text-sm font-semibold text-white transition hover:bg-emerald-600 sm:py-2"
                     >
                       <Mail className="h-4 w-4" /> {t.common.email}
