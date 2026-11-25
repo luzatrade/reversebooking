@@ -15,14 +15,9 @@ import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 import dotenv from "dotenv";
 import {
-  buildCityRequestHtml,
-  buildDirectRequestHtml,
-} from "@/lib/notifications/dispatch-new-request";
-import {
-  buildOnboardingCityRequestHtml,
-  buildOnboardingDirectRequestHtml,
-  type TravelRequestNotifyPayload,
-} from "@/lib/notifications/onboarding-new-request";
+  getRequestEmailPreviews,
+  wrapRequestEmailPreviewDocument,
+} from "@/lib/console/request-email-previews";
 import { resolveNotificationEmailFrom } from "@/lib/email/from";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -39,48 +34,12 @@ const outDir = resolve(
       : "data/email-previews"),
 );
 
-const sample: TravelRequestNotifyPayload = {
-  id: "00000000-0000-0000-0000-000000000000",
-  request_code: "RBNT87WX",
-  city_id: "3164527",
-  city_name: "Verona",
-  country_code: "IT",
-  preferred_area: "Centro storico",
-  check_in: "2026-09-12",
-  check_out: "2026-09-15",
-  guests_count: 4,
-  rooms_count: 2,
-};
-
-const hotelName = "Hotel Aurora";
-const onboardingId = "11111111-2222-3333-4444-555555555555";
-
-const previews = [
-  {
-    file: "partner-citta.html",
-    audience: "Struttura partner (abbonata) — richiesta nella sua città",
-    subject: `Nuova richiesta soggiorno ${sample.request_code} — ${sample.city_name}`,
-    html: buildCityRequestHtml(sample),
-  },
-  {
-    file: "partner-diretta.html",
-    audience: "Struttura partner (abbonata) — richiesta diretta a lei",
-    subject: `Richiesta diretta ${sample.request_code} — ${sample.city_name}`,
-    html: buildDirectRequestHtml(sample, hotelName),
-  },
-  {
-    file: "catalogo-citta.html",
-    audience: "Struttura del catalogo (non abbonata) — richiesta nella sua città",
-    subject: `Nuova richiesta soggiorno ${sample.request_code} — ${sample.city_name}`,
-    html: buildOnboardingCityRequestHtml(sample, onboardingId, hotelName),
-  },
-  {
-    file: "catalogo-diretta.html",
-    audience: "Struttura del catalogo (non abbonata) — richiesta diretta a lei",
-    subject: `Richiesta diretta ${sample.request_code} — ${sample.city_name}`,
-    html: buildOnboardingDirectRequestHtml(sample, onboardingId, hotelName),
-  },
-];
+const previews = getRequestEmailPreviews().map((preview) => ({
+  file: `${preview.id}.html`,
+  audience: preview.audience,
+  subject: preview.subject,
+  html: preview.bodyHtml,
+}));
 
 function toPlainText(html: string) {
   return html
@@ -104,14 +63,11 @@ mkdirSync(outDir, { recursive: true });
 console.log(`Mittente configurato: ${resolveNotificationEmailFrom()}\n`);
 
 for (const preview of previews) {
-  const document = `<!doctype html><html lang="it"><head><meta charset="utf-8"><title>${preview.subject}</title></head><body style="font-family:system-ui,-apple-system,Segoe UI,sans-serif;max-width:620px;margin:32px auto;padding:0 16px;color:#18181b">
-<div style="border:1px solid #e4e4e7;border-radius:12px;padding:16px;margin-bottom:24px;background:#fafafa;font-size:13px;color:#52525b">
-<div><strong>Da:</strong> ${resolveNotificationEmailFrom()}</div>
-<div><strong>Oggetto:</strong> ${preview.subject}</div>
-<div><strong>Destinatario tipo:</strong> ${preview.audience}</div>
-</div>
-${preview.html}
-</body></html>`;
+  const document = wrapRequestEmailPreviewDocument({
+    subject: preview.subject,
+    audience: preview.audience,
+    bodyHtml: preview.html,
+  });
 
   writeFileSync(resolve(outDir, preview.file), document, "utf8");
 

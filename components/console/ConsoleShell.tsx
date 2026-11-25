@@ -33,6 +33,7 @@ export function ConsoleShell({
     { href: "/console/audit", label: t.console.navAudit },
     { href: "/console/sicurezza", label: t.console.navSecurity },
     { href: "/console/onboarding", label: "Onboarding" },
+    { href: "/console/anteprima-email", label: "Anteprima email" },
   ] as const;
 
   return (
