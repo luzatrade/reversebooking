@@ -1,4 +1,5 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
+import { enqueueStructureGoogleIndexing } from "@/lib/seo/google-indexing-sync";
 import {
   destinationIndexNowUrls,
   notifyIndexNowAsync,
@@ -34,7 +35,9 @@ export async function notifyHotelAccountIndexNow(
     .maybeSingle();
 
   if (!data) return;
-  notifyIndexNowAsync(collectStructureUrls(data));
+  const urls = collectStructureUrls(data);
+  notifyIndexNowAsync(urls);
+  enqueueStructureGoogleIndexing(data);
 }
 
 /** Notifica IndexNow dopo modifiche a una struttura onboarding. */
@@ -49,5 +52,7 @@ export async function notifyOnboardingHotelIndexNow(
     .maybeSingle();
 
   if (!data) return;
-  notifyIndexNowAsync(collectStructureUrls(data));
+  const urls = collectStructureUrls(data);
+  notifyIndexNowAsync(urls);
+  enqueueStructureGoogleIndexing(data);
 }
