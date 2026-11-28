@@ -33,6 +33,7 @@
     "seo:indexnow-hubs": "node scripts/submit-indexnow-hub-locales.mjs",
     "seo:indexnow-entity": "node scripts/submit-indexnow-entity.mjs",
     "seo:indexnow-entity:dry-run": "node scripts/submit-indexnow-entity.mjs --dry-run",
+    "seo:google-indexing-schema": "node scripts/apply-google-indexing-schema.mjs",
     "seo:audit-sitemap": "node scripts/audit-sitemap-4xx.mjs --sample=300",
     "verify": "npm run typecheck && npm run build",
     "n8n:import-batch": "node scripts/import-n8n-description-batch.mjs",
