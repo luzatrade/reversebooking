@@ -44,6 +44,11 @@ const RECOMMENDED = [
     why: "Cron Vercel + keep-alive Supabase (/api/cron/supabase-ping ogni 3 gg) + bridge n8n",
   },
   {
+    key: "GOOGLE_INDEXING_SERVICE_ACCOUNT_JSON",
+    why: "Google Indexing API — /api/cron/google-indexing ogni 15 min (max 100/giorno)",
+    optional: true,
+  },
+  {
     key: "SUPABASE_ACCESS_TOKEN",
     why: "Resume progetto Supabase Free da agente (Management API)",
     optional: true,

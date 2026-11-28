@@ -30,6 +30,8 @@ Tipo: **Environment Variable** (runtime), scope repo `luzatrade/reversebooking`.
 
 Opzionali: `GOOGLE_PLACES_PHOTOS_KEY`, `RESEND_API_KEY`, `CRON_SECRET`, `GEMINI_MODEL` (default `gemini-2.0-flash`).
 
+Google Indexing API (GSC, ~100 URL/giorno via cron ogni 15 min): `GOOGLE_INDEXING_SERVICE_ACCOUNT_JSON` (intero JSON del service account, **solo** Vercel/Cursor Secrets). In GSC aggiungere lo stesso `client_email` come utente della proprietà. Opzionale `GOOGLE_INDEXING_DAILY_LIMIT` (default 100). Dopo deploy: migration `20261128140000_seo_google_indexing.sql` su Supabase.
+
 `CRON_SECRET` è **obbligatorio in produzione** su Vercel (Settings → Environment Variables) per i cron job, incluso il keep-alive Supabase (`/api/cron/supabase-ping`, ogni 3 giorni via `vercel.json`). Vercel invia `Authorization: Bearer <CRON_SECRET>`; in locale/test anche `?secret=`.
 
 Opzionale Cloud Agent: `SUPABASE_ACCESS_TOKEN` (token personale Supabase) per `supabase projects resume` se il progetto Free va in pausa.
